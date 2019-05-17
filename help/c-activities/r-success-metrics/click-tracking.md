@@ -1,0 +1,93 @@
+---
+description: Mit Target können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, erfassen.
+keywords: Klick-Tracking;Klicks verfolgen;Klicks;AppMeasurement
+seo-description: Mit Target können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, erfassen.
+seo-title: Klick-Tracking
+solution: Target
+subtopic: Erste Schritte
+title: Klick-Tracking
+topic: Standard
+uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Klick-Tracking{#click-tracking}
+
+Mit Target können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, erfassen.
+
+>[!NOTE]
+>
+>Das Tracking von Klicks wird in globalen Target-Mboxes nicht unterstützt, wenn sie als Standort in formularbasierten Aktivitäten verwendet werden.
+
+## Klick-Tracking einrichten {#section_5540C5A533114E57BAE022A600B02E72}
+
+1. Wenn Sie die Ziele für Ihre Aktivität auf der Seite [!UICONTROL Ziele und Einstellungen] festlegen, wählen Sie die Erfolgsmetrik **[!UICONTROL Konversion]aus.**
+1. Wählen Sie als Aktion **[!UICONTROL Klicks auf ein Element]** aus und klicken Sie anschließend auf **[!UICONTROL Elemente auswählen]**.
+
+   Ihre Seite wird im [!UICONTROL Visual Experience Composer] (VEC) geöffnet.
+
+1. Wählen Sie die Elemente aus, die Sie verfolgen möchten.
+
+   Tipps zur Auswahl von Elementen finden Sie unten im Abschnitt „Zu beachten“.
+
+1. Klicken Sie auf das Häkchen oben auf dem Bildschirm, um Ihre Auswahl zu speichern.
+
+Wenn ein Aktivitätsteilnehmer auf ein ausgewähltes Element klickt, wird dieser Klick als Konversion gezählt.
+
+## Zu beachten {#considerations}
+
+Beachten Sie Folgendes, wenn Sie Elemente auswählen:
+
+* Die DOM-Pfad-Funktion steht beim Einrichten der Klick-Tracking zur Verfügung. Wenn Sie auf ein Element auf der Seite klicken, wird das VEC-Optionsmenü angezeigt. Darüber hinaus wird der entsprechende DOM-Pfad unten auf der Seite angezeigt. Sie können den DOM-Pfad verwenden, um Informationen über das ausgewählte Element (Typ, ID und Klasse) schnell anzuzeigen und den DOM-Pfad nach oben oder unten zu verschieben, um das gewünschte Element auszuwählen.
+
+   ![DOM-Pfadillustration](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+
+   Wie beim Erstellen von Erlebnissen in Schritt 1 im Arbeitsablauf für die Aktivitätserstellung können Sie mit der DOM-Pfadauswahl am unteren Seitenrand ein Element auswählen. Wenn Sie ein Element aus dem DOM-Pfad auswählen, wird das entsprechende Element in VEC als &quot;Ausgewählt&quot; angezeigt. Um die Auswahl eines ausgewählten Elements aufzuheben, können Sie erneut auf das Element in der DOM-Pfadauswahl klicken oder im VEC auf das Feld &quot;Ausgewählt&quot; klicken.
+
+   Weitere Informationen finden Sie unter [Navigate elements using the DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer Options*.
+
+* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der  [Mehrseiten-Funktion](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) in die Aktivität aufgenommen werden, und [!DNL at.js] oder [!DNL mbox.js] muss darin implementiert werden.
+* Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzeln Erfolgsmetriken für sie festlegen.
+* Achten Sie darauf, die Ebene des Elements auszuwählen, die Sie verfolgen möchten. Wenn Sie zum Beispiel eine Schaltfläche angeben möchten, achten Sie darauf, den Link und nicht den Schaltflächentext auszuwählen.
+* Klickereignisse werden auf derselben Seite des Klicks an [!DNL Target] gesendet.
+* Wenn es sich bei der Klick-Verfolgungsmetrik um die Zielmetrik einer A4T-Aktivität handelt, muss der Besucher innerhalb von 60 Sekunden nach dem Laden der Seite auf dieses Element klicken, damit die Metrikverfolgung erfolgt.
+* Klick-Tracking funktioniert nicht bei Elementen, in deren Selektoren Escapezeichen enthalten sind, unter anderem die folgenden:
+
+   | Zeichen | Beschreibung |
+   |---|---|
+   | Nr. | Raute  oder Hash |
+   | : | Doppelpunkt |
+   | . | Zeitraum |
+   | $ | Dollarzeichen |
+   | [ ] | Eckige Klammern |
+
+* Wenn Sie [!DNL at.js]-Klick-Tracking und Analytics AppMeasurement verwenden, hebt [!DNL at.js]-Klick-Tracking alle anderen Klick-Ereignishandler auf. Aus diesem Grund wird der AppMeasurement-Klick-Handler niemals ausgeführt.
+
+   [!DNL at.js] behandelt Klick-Tracking auf besondere Art und Weise, wenn das zugrundeliegende Element ein `A`-Tag (Link) oder ein `FORM`-Tag ist.
+
+   Es werden die folgenden Schritte von [!DNL at.js] ausgeführt, wenn das Klick-Tracking-Ereignis zu einem `A`-Tag (Link) oder einem `FORM`-Tag hinzugefügt wird:
+
+   1. `event.preventDefault()` aufrufen
+
+   1. Target-Anfrage absenden
+
+   1. Nach erfolgreicher Target-Anfrage oder nach „error“-Rückruf wird ein Standard-Verhalten ausgeführt:
+
+      * `A`-Tag (Link): Das Standard-Verhalten ist es, zu der URL zu navigieren, die durch das HREF-Attribut definiert wird.
+      * `FORM`-Tag: Das Standard-Verhalten ist es, das Formular zu übermitteln.
+   Bei diesem Standardverhalten kommt es möglicherweise zu Konflikten mit Analytics-Klick-Tracking. Wenn Sie Analytics verwenden, sollten Sie das Klick-Tracking über Analytics ausführen, und nicht über Target.
+
+* Klick-Tracking wird nicht auf Seiten aufgezeichnet, auf denen die Seite und die Aktivitäts-URL zu unterschiedlichen Eigenschaften gehören. Unternehmensberechtigungen sind eine Target Premium-Funktion. Weitere Informationen finden Sie unter [Enterprise-Benutzerberechtigungen](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+
+## Schulungsvideo {#section_36607204DAE146E3B8E2C609D244EDB1}
+
+In diesem Video sind Informationen zur Erstellung von Klick-Tracking-Erfolgsmetriken enthalten.
+
+* Erläuterung von „Zielmetriken“
+* Verstehen und Erstellen von Metriken für Konversionen, Umsatz und Interaktion
+* Erstellen einer Metrik mit Klick-Tracking
+
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
