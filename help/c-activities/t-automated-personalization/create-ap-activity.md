@@ -1,0 +1,155 @@
+---
+description: Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ablauf anderer Aktivitätstypen.
+keywords: automatisierte Personalisierung;Zielgruppen;Ensemble;Random Forest;Restschwankung;Fehlerschwankung;Lebenszeitwert
+seo-description: Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ablauf anderer Aktivitätstypen.
+seo-title: Erstellen einer Automated Personalization-Aktivität
+solution: Target
+title: Erstellen einer Automated Personalization-Aktivität
+title-outputclass: Premium
+topic: Advanced
+uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
+badge: Premium
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# ![PREMIUM](/help/assets/premium.png) Erstellen einer Aktivität mit automatisierter Personalisierung{#create-an-automated-personalization-activity}
+
+Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ablauf anderer Aktivitätstypen.
+
+1. Klicken Sie in der Target Standard-Aktivitätenliste auf **[!UICONTROL Aktivität erstellen]** &gt; **[!UICONTROL Automatisierte Personalisierung]**.
+
+   ![](assets/ap_create.png)
+
+1. Geben Sie den gewünschten Kanal an: Web.
+
+   Sie können auch „Mobile Anwendung“, „E-Mail“ oder „Sonstige/API“ auswählen.
+
+1. Klicken Sie zum Verwenden von Visual Experience Composer (VEC) auf **[!UICONTROL Visuell (Standard)]**.
+
+   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie **[!UICONTROL Formular aus]**.
+
+   Weitere Informationen zu beiden Composern finden Sie unter [Erlebnisse](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+1. Überprüfen Sie die Aktivitäts-URL bzw. geben Sie sie ein und klicken Sie dann auf **[!UICONTROL Weiter]**.
+
+   >[!NOTE]
+   >
+   >[!DNL Target] unterscheidet nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]). Daher stimmen [!DNL `http://www.adobe.com`] und [!DNL `https://wwww.adobe.com`] überein.
+
+   Die Seite mit der angegebenen URL wird im Visual Experience Composer geöffnet.
+
+   ![](assets/ap_url.png)
+
+   Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
+1. Klicken Sie zur Benennung der Aktivität auf das Namensfeld und geben Sie Ihren Aktivitätennamen ein.
+
+   ![](assets/ab_newname.png)
+
+   Folgende Zeichen sind im Aktivitätsnamen nicht zulässig:
+
+   | Zeichen | Beschreibung |
+   |--- |--- |
+   | / | Vorwärtsschrägstrich |
+   | ? | Fragezeichen |
+   | # | Raute  |
+   | : | Doppelpunkt |
+   | = | Gleich |
+   | + | Plus |
+   | - | Minus |
+   | @ | At-Zeichen |
+
+1. Ändern Sie die Seitenelemente wie in [Erlebnisse](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) erläutert und klicken Sie dann auf **[!UICONTROL Weiter]**.
+
+   Sie können aus dem Asset-Manager mehrere Bilder auf einmal auswählen. Dies ermöglicht Ihnen, sich die Seite mit jedem der für die Aktivität konfigurierten Bilder schnell anzusehen. Sie können auch einfach Textelemente in Ihren Angeboten bearbeiten. Wenn Sie ein Element bearbeiten, werden Balken darauf eingeblendet, um darauf hinzuweisen, dass Sie Änderungen vorgenommen haben.
+
+1. Klicken Sie auf **[!UICONTROL Inhalt verwalten]**, um die verfügbaren Kombinationen zu konfigurieren.
+
+   Oben auf dem Bildschirm wird ein Dialogfeld mit drei Optionen angezeigt: „Erlebnisse“, „Angebote“ und „Ausschlussgruppen“.
+
+   ![](assets/ap_content.png)
+
+   >[!NOTE]
+   >
+   >Obwohl Sie bis zu 30.000 Erlebnisse in einer AP-Aktivität erstellen können, funktionieren die Aktivitäten am besten, wenn weniger als 5.000 Erlebnisse verwendet werden.
+
+   Die Liste [!UICONTROL Erlebnisse] zeigt jedes für die Aktivität ausgewählte Inhaltselement und den Ort, dem diese zugeordnet ist. Sie können spezifische Erlebnisse ausschließen, indem Sie mit dem Mauszeiger über das gewünschte Erlebnis fahren und dann auf das Ausschlusssymbol klicken. Alternativ können Sie Erlebnisse in einem Batch-Vorgang ausschließen/einschließen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann in der oberen rechten Ecke des Dialogfelds auf das Symbol „Ausschließen“ klicken.
+
+   ![](assets/ap_content_batch_exclude.png)
+
+   Sie können diese Listenansicht so filtern, dass nur ausgeschlossene oder nur eingeschlossene Aktivitäten angezeigt werden. Klicken Sie dazu auf die Dropdownliste **Status**.
+1. Klicken Sie auf **[!UICONTROL Angebote]**, um Inhaltsteile auszuwählen und sie [Berichtsgruppen](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C) zuzuweisen.
+
+   Mit der Liste [!UICONTROL Standort] können Sie Angebote nach Standort filtern. Mit der Liste [!UICONTROL Berichtsgruppe] können Sie Angebote nach Berichtsgruppe filtern. Sie können die Liste [!UICONTROL Berichtsgruppe] auch verwenden, um [!UICONTROL nicht zugewiesenen Angeboten] zu filtern und so ein Angebot, dem bisher noch keine Berichtsgruppe zugewiesen wurde, einer beliebigen Gruppe zuzuweisen.
+
+   Sie können einer Berichtsgruppe spezifische Erlebnisse hinzufügen, indem Sie mit dem Mauszeiger über das gewünschte Angebot fahren und dann auf das Ordnersymbol klicken. Alternativ können Sie Erlebnisse in einer Berichtsgruppe einschließen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann in der oberen rechten Ecke des Dialogfelds auf die Ordnersymbol-Schaltfläche „Berichterst.-Gruppe“ klicken.
+
+   ![](assets/report_group.png)
+
+   Es ist wichtig zu verstehen, dass sich Berichtsgruppen darauf auswirken, wie Target seine Modelle erstellt. Daher wird empfohlen, dass Sie Berichtsgruppen nur dann verwenden, wenn Sie planen, Angebote zu ersetzen oder neue Angebote hinzuzufügen, während die Aktivität aktiv ist. Wenn ein neues Angebot in eine aktive Aktivität eingeführt wird, kann die Maschine durch das Verschieben des neuen Angebots in eine Gruppe mit vorhandenen ähnlichen Angeboten die für die anderen Angebote in der zugehörigen Gruppe bereits gesammelten Daten verwenden, um Informationen über das neue Angebot zu erhalten. Sie sollten niemals alle Angebote in eine einzelne Berichtsgruppe verschieben.
+
+   Weitere Informationen zum Targeting eines Angebots für bestimmte Zielgruppen erhalten Sie unter [Target-AP-Angebote](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+1. (Optional) Klicken Sie auf **[!UICONTROL Angebote]**, um Inhalte auszuwählen und sie den richtigen Berichtsgruppen zuzuweisen oder per Targeting nur bestimmten Besuchern die Anzeige bestimmter Angebote zu ermöglichen.
+
+   Weitere Informationen finden Sie unter [Berichtsgruppen für Angebote in Automated Personalization](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+
+   Weitere Informationen zum Targeting eines Angebots für bestimmte Zielgruppen erhalten Sie unter [Targeting von Angeboten mit automatisierter Personalisierung](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+1. (Optional) Klicken Sie auf **[!UICONTROL Ausschlussgruppen]**, um beliebige Kombinationen der Elemente auszuwählen, die Sie aus der Aktivität ausschließen möchten.
+
+   ![Ergebnis des Schritts](assets/exclusion_groups.png)
+
+   Obwohl Sie bis zu 30.000 Erlebnisse in einem AP-Test erstellen können, funktionieren die Algorithmen am besten, wenn weniger als 10.000 eindeutige Erlebnisse verwendet werden.
+
+   Klicken Sie auf **Ausschlussgruppe erstellen**, sofern in Ihrer Aktivität nicht bereits Ausschlussgruppen vorhanden sind. Sie können filtern, um eine Liste zu erstellen, die nur die Kombinationen anzeigt, die Sie ausschließen möchten. Benennen Sie Ihre Ausschlussgruppe und klicken Sie auf **Speichern**.
+
+   Bewegen Sie zum Bearbeiten einer vorhandenen Ausschlussgruppe den Mauszeiger über die Gruppe, die Sie bearbeiten möchten, und klicken Sie dann auf das Stiftsymbol.
+1. Klicken Sie auf **[!UICONTROL Weiter]**, wenn Sie die Einrichtung des Inhalts Ihrer Aktivität abgeschlossen haben.
+1. Der **Targeting**-Schritt wird Ihnen vertraut vorkommen, wenn Sie andere Target-Aktivitätstypen verwendet haben. Hier können Sie eine Zielgruppe auswählen und den Prozentsatz der Besucher angeben, denen das Kontrollerlebnis angezeigt wird. Klicken Sie dazu auf die Dropdownliste **[!UICONTROL Zuordnung anpassen]** und klicken Sie dann auf **Weiter**.
+
+   In der Dropdownliste [!UICONTROL Zuordnung anpassen] können Sie aus den folgenden Optionen auswählen:
+
+   ![](assets/split-ap.png)
+
+   * **Personalisierungsalgorithmus auswerten (50/50):** Wenn Sie den Algorithmus testen möchten, sollten Sie eine 50/50-Prozentaufteilung der Besucher zwischen dem Kontroll- und dem Zielalgorithmus verwenden. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung.
+   * **Personalisierungs-Datenverkehr maximieren (90/10):** Wenn Sie eine „Always on“-Aktivität erstellen möchten, sollten Sie 10 % der Besucher in den Kontrollbereich versetzen, um sicherzustellen, dass ausreichend Daten vorhanden sind, damit die Algorithmen mit der Zeit weiterhin lernen werden können. Beachten Sie, dass das Personalisieren einer größeren Traffic-Menge zur Folge hat, dass die Bestimmung der exakten Steigerung weniger präzise ist.
+   * **Zuordnung anpassen:** Teilen Sie den Prozentsatz nach Bedarf manuell auf.
+   Das Kontrollerlebnis liefert einen Vergleich, um zu ermitteln, welche Steigerung der automatisierte Test ermöglicht.
+
+   Die automatisierte Personalisierung misst immer die Leistung im Vergleich zu einer Kontrollgruppe. Es empfiehlt sich, mindestens 10 % der Teilnehmer in der Kontrollgruppe zu platzieren. Wenn Sie testen möchten, ob der Personalisierungsalgorithmus für die angegebenen Daten besser funktioniert als ohne Personalisierung (d. h. die zufallsgestützte Kontrolle), stellt eine 50/50-Prozentaufteilung des Traffics zwischen dem Kontroll- und Personalisierungsalgorithmus die schnellste und genaueste Möglichkeit dar, um dieses Ziel zu erreichen. Wenn Sie die Menge des personalisierten Traffics maximieren möchten und Sie sich weniger Gedanken dahingehend machen, ob Sie die genaue Steigerung nachvollziehen können, die durch Ihre Aktivität generiert wird, stellt eine 10/90-Prozentaufteilung des Traffics zwischen dem Kontroll- und Personalisierungsalgorithmus die schnellste und genaueste Möglichkeit dar, um dieses Ziel zu erreichen.
+
+   >[!NOTE]
+   >
+   >In automatisierten Personalisierungsaktivitäten werden nun Eingabekriterien (URL-Targeting, Vorlagenregeln und Zielgruppen-Targeting) für jede Abfrage ausgewertet. In älteren Versionen wurden Eingabekriterien nur einmal pro Sitzung bewertet.
+
+1. Klicken Sie auf **[!UICONTROL Weiter]**, um die Seite **[!UICONTROL Ziele und Einstellungen]** anzuzeigen.
+1. Konfigurieren Sie die Aktivität mit den folgenden Einstellungen und klicken Sie dann auf **[!UICONTROL Speichern und schließen]**.
+
+   | Einstellung | Beschreibung |
+   |--- |--- |
+   | Name | Benennen Sie die Aktivität. Geben Sie der Aktivität einen beschreibenden Namen, sodass Team-Mitglieder diese in der Aktivitätenliste erkennen können.  In der oben stehenden Tabelle sehen Sie, welche Zeichen in einem Aktivitätsnamen nicht zulässig sind. |
+   | Ziel | (Optional) Geben Sie das Ziel des Tests ein. Das Ziel hilft Ihnen, den Zweck der Aktivität zu verinnerlichen. |
+   | Priorität | Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für Prioritäten. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren. <br>Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.<br>Wurde diese Option unter Einrichtung nicht aktiviert (Standardeinstellung), legen Sie eine Priorität fest: „Niedrig“, „Mittel“ oder „Hoch“.<br>Möchten Sie genauer unterteilte Prioritäten festlegen, klicken Sie auf [!UICONTROL Einrichtung] und stellen Sie den Schieberegler [!UICONTROL Präzise Prioritätensetzung ermöglichen] auf die Position „Ein“.<br>Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest:<ul><li>0 = Niedrig</li><li>999 = Hoch</li></ul>Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt wurden, wird eine niedrige Priorität in den Wert 0, eine mittlere in den Wert 5 und eine hohe in den Wert 10 umgewandelt. Diese Werte können nach Wunsch angepasst werden.<br>**Hinweis:** Haben Sie genauere Prioritäten verwendet und möchten Sie die Option deaktivieren, müssen zunächst alle Prioritätswerte auf 0, 5 und 10 zurückgesetzt werden. |
+   | Dauer | Legen Sie Start- und Enddatum für die Aktivität fest. |
+   | Optimierungsziel | Geben Sie das Optimierungsziel an, das aus zwei Parametern besteht:<ul><li>dem, was Sie mit der Aktivität messen möchten,</li><li>der von einem Aktivitätsteilnehmer durchgeführten Aktion, die zeigt, dass das Ziel erreicht wurde</li></ul>Sie können das Optimierungsziel benennen. Wählen Sie dazu die drei Punkte rechts neben „Mein Primärziel“ aus. Automatisierte Personalisierungsaktivitäten können die Konversion, RPV und AOV messen. Konversion kann durch Betrachten einer Seite oder einer Mbox erreicht werden. Es können auch Klicks verfolgt werden.<br>Das primäre Ziel wird außerdem zur Modellierungsmetrik, die vom Modellierungssystem verwendet wird, um den Erfolg des Erlebnisses zu berechnen.<br>Besucher können zu Tracking-Zwecken in der Aktivität beibehalten werden, nachdem Sie das Modellierungsziel erreicht haben. Beispiel: Eine Aktivität „Automatisierte Personalisierung“ wird oft verwendet, um die Klickraten zu verbessern; dies wird als Modellierungsziel festgelegt. Es ist jedoch wichtig zu sehen, wie erhöhte Klickraten zur finalen Konversion führen; daher ist ein Tracking durch die finale Konversion entscheidend.<br>Sie können für mehrere Metriken Abhängigkeiten erstellen und die flexible Auswahl ermöglichen, ob die Metrik erreicht werden soll oder nicht, damit sich die Anzahl erhöht.<br>Sie müssen beide (oder mehrere) Erfolgsmetriken definieren, bevor Sie eine Abhängigkeit voneinander festlegen können.<br>Mithilfe der Option Abhängigkeit hinzufügen kann die Erfolgsmetrik inkrementiert werden, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde.<br>So fügen Sie eine Abhängigkeit hinzu:<ol><li>Klicken Sie nach dem Hinzufügen von zusätzlichen Metriken unter dem Menü mit den drei Punkten rechts neben „Zusätzliches Ziel“ auf [!UICONTROL Erweiterte Einstellungen].</li><li>Klicken Sie unten im Abschnitt zu [!UICONTROL Berichtseinstellungen] auf die Option [!UICONTROL Abhängigkeit hinzufügen].</li><li>Verschieben Sie die gewünschte Metrik per Drag-and-drop vom linken Bereich in den rechten Bereich. Klicken Sie dann auf [!UICONTROL Erreicht], um die Einstellung zwischen [!UICONTROL Erreicht] und [!UICONTROL Nicht erreicht] zu wechseln</li></ol>Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben. |
+   | Konversionsmetrik | Standardmäßig entspricht die Konversionsmetrik der Optimierungszielmetrik. Sie können jedoch eine separate Konversionsmetrik definieren, indem Sie die Option [!UICONTROL &quot;Wie Optimierungsziel] &quot; deaktivieren. |
+   | Zusätzliche Metriken | Geben Sie beliebige weitere Berichterstellungsmetriken an, die Sie verwenden möchten. Sie können Konversions- oder Umsatzmetriken hinzufügen.<br>**Hinweis:** Die Interaktionskennzahl wird nicht als zusätzliche Metrik unterstützt. Sie können die Interaktionsmetrik in der Benutzeroberfläche zwar auswählen, aber in Berichten werden keine korrekten Daten angezeigt. |
+   | Zielgruppen für die Berichterstellung | Fügen Sie Zielgruppen hinzu, um die Filterung nach Zielgruppen in Berichten zu ermöglichen. Standardmäßig zeigen die Berichte Ergebnisse für alle berechtigten Besucher. Fügen Sie Zielgruppen hinzu, um Ergebnisse nach spezifischeren Besucheruntergruppen zu filtern.<br>**Hinweis:** Im Gegensatz zu anderen Aktivitätstypen kann Automated Personalization Adobe Analytics nicht als Berichtsquelle verwenden. |
+   | Hinweise | Geben Sie sämtliche Informationen ein, die für Sie und Ihre Team-Mitglieder von Nutzen sind. Die Größe des Notizbereichs kann angepasst werden. |
+
+   Beachten Sie, dass bei der (Um-)Benennung von Metriken folgende Zeichen nicht zulässig sind:
+
+   | Zeichen | Beschreibung |
+   |--- |--- |
+   | / | Vorwärtsschrägstrich |
+   | ? | Fragezeichen |
+   | # | Raute  |
+   | : | Doppelpunkt |
+   | = | Gleich |
+   | + | Plus |
+   | - | Minus |
+   | @ | At-Zeichen |
+
+Nachdem Sie auf **[!UICONTROL Erstellen]** geklickt haben, wird die Aktivitätsübersicht angezeigt. Klicken Sie auf **Vorschau für Erlebnisse**, um das Erscheinungsbild Ihrer Erlebnisse bei Bereitstellung in der Vorschau anzuzeigen. Ein Pop-up erscheint, das Sie zum Aufrufen und Freigeben der Links zu Ihren AP-Erlebnissen auf Ihrer Seite verwenden können, um eine Vorschau der Erlebnisse außerhalb des Visual Experience Composer von Target zu erhalten. Sie müssen die Links in der Nachricht freigeben, um die Vorschau freigeben zu können. Das Anklicken des Links und Kopieren der URL direkt auf der Seite funktionieren nicht, weil die URL einen Parameter enthält, der die Seite nur dann korrekt anzeigt, wenn Sie vom Link in der Nachricht aus auf die Seite zugreifen.
+
+Weitere Informationen zur Berichterstellung finden Sie unter [Automatisierte Personalisierungsberichte](../../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
