@@ -1,0 +1,312 @@
+---
+description: Verwenden Sie Feeds, damit Entitäten in „Empfehlungen“ importiert werden. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feedformat bzw. Adobe Analytics-Classifications gesendet werden.
+keywords: Empfehlungs-Feed; Feed; SAINT; ftp; csv
+seo-description: Verwenden Sie Feeds, damit Entitäten in „Empfehlungen“ importiert werden. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feedformat bzw. Adobe Analytics-Classifications gesendet werden.
+seo-title: Feeds
+solution: Target
+title: Feeds
+title-outputclass: premium
+topic: Premium
+uuid: b228a0de-e201-4567-ad09-1190196babda
+badge: premium
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# ![PREMIUM](/help/assets/premium.png) Feeds{#feeds}
+
+Verwenden Sie Feeds, damit Entitäten in „Empfehlungen“ importiert werden. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feedformat bzw. Adobe Analytics-Classifications gesendet werden.
+
+## Feeds-Übersicht {#concept_D1E9C7347C5D4583AA69B02E79607890}
+
+Verwenden Sie Feeds, damit Entitäten in „Empfehlungen“ importiert werden. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feedformat bzw. Adobe Analytics-Classifications gesendet werden.
+
+Feeds ermöglichen es Ihnen, [Entitäten](../../c-recommendations/c-products/products.md#concept_FD935A24D98745FFB2447933FCEB8062) weiterzugeben oder Ihre Mbox-Daten mit Informationen zu ergänzen, die auf der Seite nicht verfügbar sind oder nicht sicher von der Seite gesendet werden können, wie z. B. Marge, COGS usw.
+
+Sie können auswählen, welche Spalten aus Ihrer Adobe Target-Produkt-Classifications-Datei oder Google-Produktsuche-Datei Sie an den [!DNL Recommendations]-Server senden möchten. Diese Daten zu jedem Artikel können dann in der Vorlagenanzeige und zur Steuerung von Empfehlungen verwendet werden.
+
+Wenn Daten von einem Entitäts-Feed und einer Mbox erfasst werden, haben die aktuellen Daten Priorität. In der Regel stammen die aktuellen Daten von einer mbox, da sie häufiger angezeigt wird. Für den seltenen Fall, dass die Entitäts-Feed-Daten und die Mbox-Daten gleich aktuell sind, werden die Mbox-Daten verwendet.
+
+Die [!UICONTROL Feeds]-Liste (**[!UICONTROL Empfehlungen]** &gt; **[!UICONTROL Feeds]**) enthält Informationen zu den Feeds, die Sie erstellt haben. Um den Namen eines Feeds zu bearbeiten, müssen Sie den Feed bearbeiten. Wenn Sie diesen unter einem neuen Namen speichern, wird der Feed aktualisiert.
+
+>[!NOTE]
+>
+>Wenn der [!UICONTROL zuletzt aktualisierte] Feed „nicht definiert“ lautet, kommt der Feed von [!DNL Recommendations Classic] und kann von [!DNL Target Premium Recommendations] aus nicht geändert werden.
+
+## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
+
+Sie können eine `.csv`-Datei mit dem proprietären CSV-Upload-Format von Adobe erstellen. Die Datei enthält Anzeigeinformationen über die reservierten und benutzerspezifischen Attribute für Ihre Produkte. Ersetzen Sie zum Hochladen von für Ihre Implementierung spezifischen Attributen `CustomN` in der Kopfzeile durch den Namen des gewünschten Attributs. Im folgenden Beispiel wurde `entity.Custom1` ersetzt durch: `entity.availability`. Sie können die Datei anschließend per Massenvorgang auf den [!DNL Recommendations]-Server hochladen.
+
+Die Verwendung des CSV-Formats bietet die folgenden Vorteile im Vergleich zum Google-Feed-Format:
+
+* Es sind keine Feldzuordnungen erforderlich.
+* Das Format unterstützt Attribute mit mehreren Werten (siehe das Beispiel unten).
+* Es unterstützt bis zu 100 benutzerspezifische Attribute. Wenn Sie mehr als 100 benutzerspezifische Attribute benötigen, können Sie eine zweite Feed-Datei erstellen, in dem ein anderer Satz an benutzerspezifischen Attributen angegeben wird.
+
+Senden Sie per Massen-Upload Anzeigeinformationen, wenn keine Mboxes auf Ihrer Seite vorhanden sind oder Sie Ihre Anzeigeinformationen mit Artikeln ergänzen möchten, die nicht auf Ihrer Site verfügbar sind. So können Sie z. B. Lagerbestandsinformationen versenden, die auf der Site nicht zur Verfügung stehen.
+
+Alle mit der [!DNL .csv]-Datei, dem Google-Produktfeed oder dem Analytics-Produktklassifizierungsfeed hochgeladenen Daten überschreiben den vorhandenen Entitätsattributwert in unserer Datenbank. Wenn Sie Preisinformationen über mBox-Anfragen und anschließend andere Preiswerte in einer Datei senden, überschreiben die Werte in der Datei die mittels mBox-Anfrage festgelegten Werte. Eine Ausnahme bildet das Entitätsattribut `categoryId`, für das Kategoriewerte bis zu einer Längenbeschränkung von 250 Zeichen angehängt statt überschrieben werden.
+
+>[!IMPORTANT]
+>
+>Schließen Sie Werte in doppelten Anführungszeichen (&quot;) in Ihrer [!DNL .csv] Datei nicht ein, außer sie sind beabsichtigt. Werte in doppelten Anführungszeichen müssen mit Escapezeichen angegeben werden, d. h., sie müssen von einem weiteren Satz doppelter Anführungszeichen eingeschlossen werden. Doppelte Anführungszeichen ohne Escapezeichen verhindern das ordnungsgemäße Laden des Recommendations-Feeds.
+
+Die folgende Syntax ist falsch:
+
+```
+"Apples "Bananas" Grapes"",
+```
+
+Die folgenden Syntax ist richtig:
+
+```
+"Apples ""Bananas"" Grapes""",
+```
+
+>[!NOTE]
+>
+>Sie können einen vorhandenen Wert nicht mit einem leeren Wert überschreiben. Sie müssen stattdessen einen anderen Wert übermitteln, um ihn zu überschreiben. Bei Verkaufspreisen ist es eine gängige Lösung, tatsächlich „NULL“ oder eine andere Meldung zu übermitteln. Sie können dann eine Vorlagenregel verfassen, um Artikel mit diesem Wert auszuschließen.
+
+Das Produkt ist auf der Admin-Oberfläche ungefähr zwei Stunden nach dem erfolgreichen Upload seiner Entität verfügbar.
+
+Im Folgenden finden Sie einen Beispielcode für eine CSV-Datei:
+
+```
+## RECSRecommendations Upload File 
+## RECS''## RECS'' indicates a Recommendations pre-process header. Please do not remove these lines. 
+## RECS 
+## RECSUse this file to upload product display information to Recommendations. Each product has its own row. Each line must contain 19 values and if not all are filled a space should be left. 
+## RECSThe last 100 columns (entity.custom1 - entity.custom100) are custom. The name 'customN' can be replaced with a custom name such as 'onSale' or 'brand'. 
+## RECSIf the products already exist in Recommendations then changes uploaded here will override the data in Recommendations. Any new attributes entered here will be added to the product''s entry in Recommendations. 
+## RECSentity.id,entity.name,entity.categoryId,entity.message,entity.thumbnailUrl,entity.value,entity.pageUrl,entity.inventory,entity.margin,entity.last_updated_by,entity.multi_english,entity.availability,entity.tax_country,entity.tax_region,entity.tax_rate,entity.product_type,entity.item_group_id,entity.color,entity.size,entity.brand,entity.gtin 
+na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium with round case,https://example.com/s7/na3456_Viewer,425,https://example.com/shop/en-us/na3456_RipCurl,24,0.25,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Titanium,44mm,RipCurl,"075380 01050 5" 
+na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
+```
+
+## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+
+>[!IMPORTANT]
+>
+>Der Feed-Typ Google-Produktsuche verwendet das Google-Format. Dieses Format unterscheidet sich vom proprietären csv-Upload-Format von Adobe.
+
+Wenn Sie über einen vorhandenen Google-Produkt-Feed verfügen, können Sie diesen als Ihre Importdatei verwenden.
+
+>[!NOTE]
+>
+>Es müssen nicht Google-Daten verwendet werden. [!DNL Recommendations] verwendet lediglich dasselbe Format wie Google. Sie können mit dieser Methode alle Ihre Daten hochladen und dabei die verfügbaren Planungsfunktionen nutzen. Dennoch müssen Sie die von Google festgelegten und vordefinierten Attributnamen verwenden, wenn Sie die Datei einrichten.
+
+Die meisten Händler laden Produkte in Google hoch, sodass diese angezeigt werden, wenn ein Besucher die Google-Produktsuche verwendet. [!DNL Recommendations] berücksichtigt für Entitäts-Feeds exakt die Spezifikationen von Google. Entitäts-Feeds können [!DNL Recommendations] über [!DNL .xml]oder, [!DNL .txt][!DNL .tsv]oder, verwendet werden und können die [von Google definierten Attribute verwenden](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [Google-Shopping-Seiten](https://www.google.com/prdhp) durchsucht werden.
+
+>[!NOTE]
+>
+>Die POST-Methode muss auf dem Server zugelassen sein, der den Google-Feed-Inhalt hostet.
+
+Da [!DNL Recommendations]-Benutzer bereits [!DNL .xml]-oder [!DNL .txt]-Feeds konfigurieren, um sie über URL oder FTP an Google zu übermitteln, akzeptieren Entitäts-Feeds diese Produktdaten und nutzen sie zum Aufbau des Empfehlungskatalogs. Geben Sie an, wo sich dieser Feed befindet, und der Recommendations-server ruft die Daten ab.
+
+Wenn Sie die Google Produktsuche für das Hochladen von Entitäts-Feeds verwenden, müssen Sie weiterhin eine Produktseiten-Mbox auf der Seite haben, wenn Sie dort Empfehlungen anzeigen möchten oder Produktansichten für Algorithmen, die auf Ansichten basieren, verfolgen möchten.
+
+Google Feeds unterstützen nicht mehrere Werte für ein benutzerdefiniertes Attribut.
+
+Der Feed wird ausgeführt, wenn Sie ihn speichern und aktivieren. Er wird ausgeführt, wenn Sie ihn speichern, und danach täglich eine Stunde später.
+
+Nachfolgend finden Sie einen Beispielcode für eine Feed-XML-Datei für die Google-Produktsuche:
+
+```
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+<feed xmlns="https://www.w3.org/2005/Atom" xmlns:ns2="https://base.google.com/ns/1.0" xmlns:ns3="https://base.google.com/cns/1.0"> 
+    <title>Product Feed</title> 
+    <link href="https://example.com"/> 
+    <updated>2017-12-13T08:45:04.918-08:00</updated> 
+    <author> 
+        <name>Product Feed Author</name> 
+    </author> 
+    <id>https://example.com</id> 
+    <entry> 
+        <title>RipCurl Watch with Titanium Dial</title> 
+        <description>Cutting edge Titanium with Round case</description> 
+        <ns2:id>na3452</ns2:id> 
+        <ns2:link>https://example.com/shop/en-us/na3452_RipCurl</ns2:link> 
+        <ns2:availability>in stock</ns2:availability> 
+        <ns2:condition>NEW</ns2:condition> 
+        <ns2:google_product_category>Watches &amp; Sport</ns2:google_product_category> 
+        <ns2:gtin>075380 01050 5</ns2:gtin> 
+        <ns2:image_link>https://example.com/s7/na3452_Viewer</ns2:image_link> 
+        <ns2:mobile_link>https://m.example.com/s7/na3452_Viewer</ns2:mobile_link> 
+        <ns2:mpn>71050</ns2:mpn> 
+        <ns2:price>425</ns2:price> 
+        <ns2:product_review_average>5.0</ns2:product_review_average> 
+        <ns2:product_review_count>30</ns2:product_review_count> 
+        <ns2:product_type>Shop by Category > Watches </ns2:product_type> 
+        <ns2:brand>RipCurl</ns2:brand> 
+        <ns2:sale_price>375</ns2:sale_price> 
+        <ns2:tax> 
+          <ns2:country>US</ns2:country> 
+          <ns2:region>CA</ns2:region> 
+          <ns2:rate>9.25</ns2:rate> 
+          <ns2:tax_ship>y</ns2:tax_ship> 
+        </ns2:tax> 
+        <ns2:is_bundle>N</ns2:is_bundle> 
+    </entry> 
+    <entry> 
+        <title>RipCurl Watch with Black Dial</title> 
+        <description>Cutting edge matte black with Round case</description> 
+        <ns2:id>na3453</ns2:id> 
+        <ns2:link>https://example.com/shop/en-us/na3453_RipCurl</ns2:link> 
+        <ns2:availability>in stock</ns2:availability> 
+        <ns2:condition>NEW</ns2:condition> 
+        <ns2:google_product_category>Watches &amp; Sport</ns2:google_product_category> 
+        <ns2:gtin>075380 013450 5</ns2:gtin> 
+        <ns2:image_link>https://example.com/s7/na3453_Viewer</ns2:image_link> 
+        <ns2:mobile_link>https://m.example.com/s7/na3453_Viewer</ns2:mobile_link> 
+        <ns2:mpn>71050</ns2:mpn> 
+        <ns2:price>275</ns2:price> 
+        <ns2:product_review_average>4.8</ns2:product_review_average> 
+        <ns2:product_review_count>23</ns2:product_review_count> 
+        <ns2:product_type>Shop by Category > Watches </ns2:product_type> 
+        <ns2:brand>RipCurl</ns2:brand> 
+        <ns2:sale_price>249</ns2:sale_price> 
+        <ns2:tax> 
+          <ns2:country>US</ns2:country> 
+          <ns2:region>CA</ns2:region> 
+          <ns2:rate>9.25</ns2:rate> 
+          <ns2:tax_ship>y</ns2:tax_ship> 
+        </ns2:tax> 
+        <ns2:is_bundle>N</ns2:is_bundle> 
+    </entry> 
+</feed> 
+```
+
+Nachfolgend finden Sie einen Beispielcode für eine Feed-TSV-Datei für die Google-Produktsuche:
+
+```
+id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
+na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round case    https://example.com/shop/en-us/na3454_RipCurl    425    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075380 01050 5    DZ1437 
+na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
+```
+
+## Analytics-Classifications   {#section_79E430D2C75443BEBC9AA0916A337E0A}
+
+Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Classification. Weitere Informationen über diese Classification-Datei finden Sie im Leitfaden *Analytics-Hilfe und -Referenz* unter [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html). Es ist möglich, dass nicht alle für Empfehlungen benötigten Informationen in Ihrer aktuellen Implementierung verfügbar sind. Befolgen Sie dieses Benutzerhandbuch, wenn Sie Informationen zu Ihrer Classification-Datei benötigen.
+
+>[!IMPORTANT]
+>
+>Bevor Sie Entitätsdaten mit Analytics-Produktklassifizierungen in Empfehlungen importieren, beachten Sie, dass dies nicht die bevorzugte Methode ist.
+> Beachten Sie die folgenden Einschränkungen:
+>* Aktualisierungen an den Entitätsattributen umfassen eine zusätzliche Verzögerung von bis zu 24 Stunden.
+>* Target unterstützt nur Produkt-Classifications. Die Analytics-Produkt-SKU muss derselben Ebene wie die entity.id von Recommendations zugeordnet sein. Die benutzerspezifischen Analytics-Classifications können mit Adobe Consulting Services entwickelt werden. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Fragen haben.
+
+
+## Feed erstellen   {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+
+Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in [!DNL Recommendations] einzufügen.
+
+<!-- 
+
+recs/t_feeds_create.xml
+
+ -->
+
+1. Klicken Sie in der Zieloberfläche **[!UICONTROL auf Empfehlungen]** &gt; **[!UICONTROL Feeds]** &gt; **[!UICONTROL Feed erstellen]**.
+
+   ![Schrittergebnis](assets/CreateFeed.png)
+
+1. Geben Sie einen beschreibenden Namen für Ihren Feed an.
+1. Wählen Sie einen **[!UICONTROL Quelltyp]** aus.
+
+   Informationen zu den Typen von Google-Produktfeeds und CSV-Feeds finden Sie unter [Feeds Overview](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890).
+1. Geben Sie eine Report Suite oder die URL oder den FTP-Pfad an, über die auf den Feed zugegriffen werden kann.
+
+   Wenn Sie „FTP“ auswählen, geben Sie die FTP-Serverdaten, die Anmeldedaten, den Dateinamen und das FTP-Verzeichnis an. Sie haben die Option, für ein sicheres Hochladen einen FTP mit SSL-Verschlüsselung (FTPS) zu verwenden.
+
+   Wenn Sie „URL“ auswählen, geben Sie die URL an.
+1. Klicken Sie auf den **[!UICONTROL Weiter]**-Pfeil, um die [!UICONTROL Planungsoptionen] anzuzeigen.
+
+   ![Schrittergebnis](assets/CreateFeedSchedule.png)
+
+1. Wählen Sie eine Aktualisierungsoption aus:
+
+   * Täglich
+   * Wöchentlich
+   * Alle 2 Wochen
+   * Nie
+   Keine Aktualisierung planen. Wählen Sie diese Option aus, wenn Sie nicht möchten, dass dieser Feed ausgeführt wird.
+
+1. Geben Sie die Zeit an, zu der Ihr Feed ausgeführt werden soll.
+
+   Diese Option basiert auf der Zeitzone, die in Ihrem Browser verwendet wird. Wenn Sie einen Zeitpunkt in einer anderen Zeitzone verwenden möchten, müssen Sie diesen Zeitpunkt anhand Ihrer Zeitzone berechnen.
+1. Klicken Sie auf den **[!UICONTROL Weiter]**-Pfeil, um die [!UICONTROL Zuordnungsoptionen] anzuzeigen, und geben Sie an, wie Sie Ihre Daten den [!DNL Target]-Definitionen zuordnen möchten.
+
+   ![Schrittergebnis](assets/CreatFeedMapping.png)
+
+1. (Optional) Wenn der Feed einer Umgebung (Hostgruppe) zugeordnet werden soll, wählen Sie die Hostgruppe aus.
+
+   Standardmäßig gehört der Feed zu allen Hostgruppen. So wird sichergestellt, dass Artikel in diesem Feed in jeder Umgebung verfügbar sind.
+
+   >[!NOTE]
+   >
+   >Weitere Informationen finden Sie unter [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+Nachdem Sie einen Feed erstellt oder bearbeitet haben, wird er sofort ausgeführt und anschließend anhand der von Ihnen festgelegten Parameter aktualisiert. Es dauert ein wenig, bis alle Informationen zur Verfügung stehen. Zunächst muss der Feed synchronisiert, dann bearbeitet und anschließend indexiert werden, bevor er veröffentlicht und verfügbar gemacht werden kann. Der aktuelle Status wird unter   [Feed-Status](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) in der Liste „Feeds“ angezeigt. Sie können [!DNL Target] schließen, bevor der Prozess abgeschlossen ist, und der Prozess wird weiter ausgeführt.
+
+Während der Indexierung erscheinen Produkte und Feed-Header vor der Indexierung von individuellen Werten. Dies ermöglicht Ihnen, Produkte zu suchen und anzusehen, sodass Sie Sammlungen, Ausnahmen, Entwürfe und Aktivitäten erstellen können, bevor die Indexierung abgeschlossen wurde.
+
+Wenn als Status „Erfolg“ gemeldet wird, bedeutet dies, dass die Datei gefunden und korrekt analysiert wurde. Bis zum Abschluss der Indexierung, die abhängig von der Größe Ihrer Datei einige Zeit in Anspruch nehmen kann, steht die Information nicht zur Verwendung in [!DNL Recommendations] zur Verfügung. Wenn der Prozess fehlschlägt, bedeutet dies, dass die Datei nicht gefunden wurde (zum Beispiel, wenn Sie eine fehlerhafte URL oder fehlerhafte FTP-Daten verwendet haben) oder dass bei der Analyse Fehler aufgetreten sind.
+
+## Feedstatus-Optionen und -Indikatoren   {#concept_E475986720D1400999868B3DFD14A7A0}
+
+Informationen über die möglichen Feedstatus-Optionen und deren Indikatoren.
+
+### Feedstatus-Optionen {#section_5DDC2DECF70A42FDAFF2235E91371537}
+
+Folgende Statusoptionen stehen für Feeds zur Verfügung:
+
+| Status | Beschreibung |
+|--- |--- |
+| Synchronisierung | Die Einrichtungsinformationen des Feeds werden in Target gespeichert. |
+| Synchronisierung fehlgeschlagen | Feed-Setup-Details konnten nicht in Target gespeichert werden. Bitte erneut versuchen. |
+| Kein Feed-Durchlauf | Sie haben einen Feed erstellt, aber nicht geplant (die Häufigkeit wurde auf „nie“ festgelegt). |
+| Geplant am *Tag und Uhrzeit* | Der Feed wurde nicht ausgeführt, jedoch für eine bestimmte Uhrzeit an einem bestimmten Tag geplant. |
+| Warten auf Download | Target bereitet das Herunterladen der Feed-Datei vor. |
+| Herunterladen von Feed-Datei | Target lädt die Feed-Datei herunter. |
+| Importieren von Elementen | Target importiert Elemente aus der Feed-Datei. Hinweis: Sobald dieser Schritt abgeschlossen ist und &quot;Suchindex-Updates vorbereiten&quot; angezeigt wird, wurden Änderungen an Elementattributen in unser zentrales System importiert und erscheinen in den bereitgestellten Empfehlungsinhalten, die von unseren geografischen Edge-Knoten innerhalb von 60 Minuten zurückgegeben werden. |
+| Vorbereiten von Suchindex-Updates | Target bereitet die Aktualisierung des Katalogsuchindex vor. Hinweis: Wenn dieser Status aufgeführt ist, wurden Änderungen an Elementattributen bereits vorgenommen und werden in Kürze in den gelieferten Empfehlungen übernommen, obwohl sie noch nicht in der Katalogsuche dargestellt werden. |
+| Suchindex wird aktualisiert | Target aktualisiert den Index für Katalogsuche. Hinweis: Wenn dieser Status aufgeführt ist, wurden Änderungen an Elementattributen bereits vorgenommen und werden in Kürze in den gelieferten Empfehlungen übernommen, obwohl sie noch nicht in der Katalogsuche dargestellt werden. |
+| Aktualisierungen abgeschlossen | Target hat alle mit der Feed-Datei verknüpften Aktualisierungen abgeschlossen. |
+| Index konnte nicht verwendet werden | Der Index-Vorgang ist fehlgeschlagen. Bitte erneut versuchen. |
+| Server nicht gefunden | FTP- oder URL-Speicherorte sind ungültig oder nicht erreichbar. |
+
+Möchten Sie einen Feed aktualisieren (beispielsweise, um Änderungen an der Feedkonfigurierung oder -datei vorzunehmen), öffnen Sie den Feed, nehmen Sie die gewünschten Änderungen vor und klicken Sie auf **[!UICONTROL Speichern]**.
+
+>[!IMPORTANT]
+>
+>Hochgeladene Entitäten laufen nach 61 Tagen ab. Das bedeutet, dass Ihre Feed-Datei mindestens alle 60 Tage hochgeladen werden sollte, um eine Unterbrechung Ihrer Empfehlungsaktivitäten zu vermeiden. Wenn ein Element mindestens alle 60 Tage in einer Feed-Datei (oder einer anderen Methode zur Aktualisierung der Entität) nicht enthalten ist, wird das Element nicht mehr von Adobe Target aufgezeichnet und aus dem Katalog entfernt.
+
+### Feedstatus-Indikatoren   {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+
+Die folgenden Feedstatus-Indikatoren werden in der Spalte [!UICONTROL Status] angezeigt:
+
+| Statusindikator | Beschreibung |
+|--- |--- |
+| Grüner Statusindikator | Wenn die Indexierung eines Feeds erfolgreich abgeschlossen wurde, zeigt ein grüner Statuspunkt an, dass der Feed einen erfolgreichen Status hat. |
+| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Ein gelber Punkt wird beispielsweise für einen Feed angezeigt, für den eine tägliche Ausführung festgelegt wurde, sofern der Index nicht innerhalb von sechs Stunden nach der geplanten Zeit abgeschlossen wurde.   Hinweis: Sobald der Feed-Status „Warten auf Indexwarteschlange“ lautet, sind die neu aktualisierten Werte in der Bereitstellung und Kriterienverarbeitung verfügbar. |
+| Weißer Statusindikator | Wenn ein Feed nicht geplant ist, gibt ein weißer Punkt für den Status an, dass der Feed noch nicht ausgeführt wurde. |
+| Roter Statusindikator | Wenn der Feed keine Daten auf den Server laden kann, wird ein roter Statusindikator angezeigt. |
+Sehen Sie sich folgende Beispiele an:
+
+**Beispiel 1:**
+
+* Tag eins: Täglicher Feed wird um 9:00 Uhr verarbeitet
+* Tag zwei: Es ist 15:30 Uhr und der Feed wurde seit gestern um 9:00 Uhr nicht ausgeführt
+
+Der Status ist gelb, da der Index vor rund 6,5 Stunden erstellt werden sollte. 6,5 Stunden + 24 ergibt 127 % des Feed-Zeitfensters.
+
+**Beispiel 2:**
+
+* 1. Januar: Monatlicher Feed wird um 9:00 Uhr verarbeitet
+* 3. Februar: Es ist 10:00 Uhr und der Feed wurde einen Monat, einen Tag und eine Stunde lang nicht ausgeführt
+
+Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte ausgeführt werden müssen. Auch wenn dies nur (31 + (1 / 25)) / 30 = 1,03 % der Häufigkeitseinstellung ergibt, wurde der Höchstwert von einem Tag für die Verzögerung überschritten.
