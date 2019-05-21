@@ -8,7 +8,7 @@ title: Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -198,9 +198,9 @@ Im Bedienfeld [!UICONTROL Änderungen] werden die für eine bestimmte Ansicht er
 
 **Aktionen**
 
-Durch Klicken auf eine Aktion wird das Element auf der Sites hervorgehoben, in dem diese Aktion angewendet wird. Jede VEC-Aktion, die unter einer Ansicht erstellt wird, verfügt über die vier unten gezeigten Symbole: Informationen, Bearbeiten, Verschieben nach „Seite laden“ und Löschen.
+Durch Klicken auf eine Aktion wird das Element auf der Sites hervorgehoben, in dem diese Aktion angewendet wird. Jede VEC-Aktion, die unter einer Ansicht erstellt wurde, hat vier Symbole wie unten dargestellt: Informationen, Bearbeiten, Verschieben und Löschen.
 
-![Bedienfeld „Änderungen“](/help/c-experiences/assets/modifications.png)
+![Änderungen](/help/c-experiences/assets/modifications-new.png)
 
 Die einzelnen Aktionen sind in der folgenden Tabelle beschrieben:
 
@@ -208,8 +208,12 @@ Die einzelnen Aktionen sind in der folgenden Tabelle beschrieben:
 | --- | --- |
 | Informationen | Zeigt die Details der Aktion an. |
 | Bearbeiten | Ermöglicht die direkte Bearbeitung der Eigenschaften dieser Aktion. |
-| Verschieben nach „Seite laden“ | Verschiebt die Aktion zum Ereignis „Seite laden“. Diese Aktionen werden normalerweise auf den statischen HTML-Text der SPA angewendet, der über mehrere Seiten hinweg verwendet wird, z. B. in der Kopf- und Fußzeile. |
+| Verschieben   | Verschiebt die Aktion in ein Seitenladereignis oder eine andere Ansicht, die bereits im Änderungs-Bedienfeld vorhanden ist.<br>[!UICONTROL Seitenladereignis] - Alle Aktionen, die dem Seitenladeereignis entsprechen, werden beim ersten Laden Ihrer Webanwendung angewendet.<br>**Hinweis** : Nachdem ein Verschiebevorgang durchgeführt wurde, müssen Sie über Durchsuchen zur Ansicht im VEC navigieren, um zu sehen, ob es sich um einen gültigen Vorgang handelt. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
 | Löschen | Löscht die Aktion. |
+
+>[!NOTE]
+>
+>Sie können viele Aktionen ausführen, bevor die Seite im VEC geladen wird, oder auch, wenn die Seite nicht vollständig geladen wird. Aktionen, die nicht bearbeitet werden können, bevor die Website geladen ist, sind in der Benutzeroberfläche von deaktiviert.
 
 **Beispiel 1**
 
