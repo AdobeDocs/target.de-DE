@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -321,15 +321,11 @@ Die Empfehlung wird von den am meisten bevorzugten Artikeln auf Ihrer Site besti
 
 Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
 
-### Vor Kurzem aufgerufene Artikel
+### Vor Kurzem aufgerufene Artikel {#recently-viewed}
 
 Nutzt den Verlauf des Benutzers (sitzungsübergreifend) für die Anzeige der letzten *x* vom Besucher angesehenen Artikel, basierend auf der Anzahl x der im Entwurf vorhandenen Plätze.
 
 Das Kriterium „Kürzlich angezeigte Elemente“ liefert jetzt Ergebnisse speziell für die jeweilige [Umgebung](/help/administrating-target/hosts.md). Wenn zwei Sites zu verschiedenen Umgebungen gehören und ein Besucher zwischen beiden Sites wechselt, werden für jede Site nur die kürzlich angezeigten Elemente dieser Site angezeigt. Wenn zwei Sites in derselben Umgebung enthalten sind und ein Besucher zwischen ihnen wechselt, erhält er die kürzlich angezeigten Elemente für beide Sites.
-
-**Logik (Kriterien)**
-
-Keine
 
 **Verwendung auf Ihrer Site**
 
