@@ -8,7 +8,7 @@ title: Verschiedene Erlebnisversionen in A/B-Tests
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -33,7 +33,9 @@ In diesem Fall müssen Sie regionsspezifische Versionen des Erlebnisses erstelle
 
 1. [Erstellen Sie wie gewohnt eine A/B-Aktivität.](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 
-   Wählen Sie während der Konfigurierung des Erlebnisses mit mehreren Versionen die Zielgruppen der einzelnen Versionen aus, wie unten dargestellt. 1. Wählen Sie das Erlebnis aus und klicken Sie auf **[!UICONTROL Konfigurieren]** &gt; **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Mehrere Zielgruppen]**.
+   Wählen Sie während der Konfigurierung des Erlebnisses mit mehreren Versionen die Zielgruppen der einzelnen Versionen aus, wie unten dargestellt.
+
+1. Wählen Sie das Erlebnis aus und klicken Sie auf **[!UICONTROL Konfigurieren]** &gt; **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Mehrere Zielgruppen]**.
 
    ![](assets/multiple-audiences.png)
 
@@ -44,6 +46,7 @@ In diesem Fall müssen Sie regionsspezifische Versionen des Erlebnisses erstelle
    Wenn die Zielgruppe noch nicht vorhanden ist, klicken Sie auf [Zielgruppe erstellen](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) und richten Sie sie ein.
 
    Sollte ein Benutzer mehr als einer Zielgruppe zugeordnet werden, werden Inhalte für alle Zielgruppen bereitgestellt, wovon mindestens einer aus der Liste tatsächlich auf der Seite angezeigt wird.
+
 1. Fahren Sie mit der Einrichtung der Aktivität fort.
 
 **Best Practices**
