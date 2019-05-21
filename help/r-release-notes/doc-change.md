@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 # Dokumentationsänderungen{#documentation-changes}
 
 Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target] Dokumentation aufgeführt.
+
+## Adobe Target Standard/Premium 19.5.1 (21. Mai 2019) {tgt -19-5-1}
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| 21. Mai 2019 | [Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>Die Informationen zur Option &quot;Verschieben&quot; wurden aktualisiert.</li><li>Es wurde ein Hinweis hinzugefügt, dass Sie viele Aktionen ausführen können, bevor die Seite im VEC geladen wird, oder auch, wenn die Seite nicht vollständig geladen werden kann. </li></ul> |
+|  | [Benutzer](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Benutzerdefinierter Text, aktualisierte Bilder und Schulungsvideo |
+|  | [Konfigurieren von Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Benutzerdefinierter Text und Bilder. |
+|  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Die Zeichenbeschränkung für die Kundenattributalias-ID wurde hinzugefügt. |
+|  | [Versionshinweise](/help/r-release-notes/release-notes.md): 19.5.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe Target Standard/Premium 19.4.2 (30. April 2019) {19-4-2}
 
