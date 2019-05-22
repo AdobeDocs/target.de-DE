@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -22,6 +22,8 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target] Dokument
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 22. Mai 2019 | [Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | Es wurde ein Schulungsvideo hinzugefügt. |
+|  | [iOS – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | Es wurden Links zu neuen Lernprogrammen hinzugefügt:<ul><li>Implementieren der Experience Cloud in Mobile ios-Target-C-Anwendungen</li><li>Implementieren der Experience Cloud in Mobile ios Swift-Anwendungen</li></ul> |
+|  | [Android – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | Link zum neuen Lernprogramm hinzugefügt:<ul><li>Implementieren der Experience Cloud in Mobile Android-Anwendungen</li></ul> |
 | 21. Mai 2019 | [Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>Die Informationen zur Option &quot;Verschieben&quot; wurden aktualisiert.</li><li>Es wurde ein Hinweis hinzugefügt, dass Sie viele Aktionen ausführen können, bevor die Seite im VEC geladen wird, oder auch, wenn die Seite nicht vollständig geladen werden kann. </li></ul> |
 |  | [Benutzer](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Benutzerdefinierter Text, aktualisierte Bilder und Schulungsvideo |
 |  | [Konfigurieren von Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Benutzerdefinierter Text und Bilder. |
