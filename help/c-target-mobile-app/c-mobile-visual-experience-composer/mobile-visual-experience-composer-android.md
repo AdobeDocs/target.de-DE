@@ -8,7 +8,7 @@ title: Android – Einrichten der App
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -305,3 +305,18 @@ Es gibt bestimmte Szenarien, in denen Sie die Vorabruf-API erneut aufrufen müss
    public static void prefetchOffersBackground();
    ```
 
+## Lernprogramm: Implementieren der Experience Cloud in Mobile Android-Anwendungen {#tutorial}
+
+* [Implementieren der Experience Cloud in Mobile Android-Anwendungen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+
+Nach Abschluss dieses Übung können Sie:
+
+* Mobile Launch-Eigenschaft erstellen
+* Installieren einer Starteigenschaft in einer Android-App
+* Implementieren Sie die folgenden Adobe Experience Cloud-Lösungen:
+   * Experience Cloud ID-Dienst
+   * Adobe Target
+   * Adobe Analytics
+   * Adobe Audience Manager
+
+* Veröffentlichen von Änderungen im Start über Entwicklungs-, Staging- und Produktionsumgebungen
