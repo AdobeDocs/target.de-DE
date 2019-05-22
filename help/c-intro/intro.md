@@ -8,7 +8,7 @@ title: Einführung in Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 23fc2eb4f4f76a903eca55fe1d73d8110c770e94
 
 ---
 
@@ -93,6 +93,12 @@ Mit der [Berechtigungsfunktion für Unternehmensbenutzer](../administrating-targ
 [!DNL Recommendations Classic] zeigt automatisch Produkte oder Inhalte an, die ausgehend von der bisherigen Benutzeraktivität auf Ihrer Site für die betreffenden Kunden von Interesse sein könnten. Empfehlungen lenken Kunden zu Artikeln, von denen sie womöglich noch nichts wissen. Dies führt zu mehr Umsatz auf Ihrer Site.
 
 Weitere Informationen finden Sie in der [Dokumentation zu Recommendations Classic](../assets/adobe-recommendations-classic.pdf).
+
+## Erlebnisliga: Das Adobe Target-Begrüßungs-Kit {#kit}
+
+Erstellen Sie mit diesem Begrüßungs-Kit Ihre Optimierungs- und Personalisierungsprogramme für Adobe Target! Es enthält wichtige Informationen, Werkzeuge und Ressourcen, die Ihnen bei der Vorbereitung und dem Start Ihrer ersten Adobe Target-Aktivität helfen und mit kurzen quickwins und langfristigen Optimierungsstrategien beginnen.
+
+[Das Adobe Target-Begrüßungs-Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## Schulungsvideo: Aktivitätstypen (9:03)
 
