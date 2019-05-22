@@ -8,7 +8,7 @@ title: Target-Versionshinweise (aktuell)
 topic: 'Recommendations '
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -44,7 +44,7 @@ Diese Version enthält die folgenden Funktionen, Änderungen und Verbesserungen:
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| Visual Experience Composer (VEC) für mobile Apps | Mit Mobile App VEC können Sie Aktivitäten erstellen und Inhalte auf nativen Mobil-Apps ohne ständige Entwicklungsabhängigkeiten und App-Versionszyklen personalisieren.<br>Weitere Informationen finden Sie unter:<ul><li>[Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Einrichten des Klick-Trackings im Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
+| Visual Experience Composer (VEC) für mobile Apps | Mit Mobile App VEC können Sie Aktivitäten erstellen und Inhalte auf nativen Mobil-Apps ohne ständige Entwicklungsabhängigkeiten und App-Versionszyklen personalisieren.<br>Weitere Informationen finden Sie unter:<ul><li>[Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Einrichten des Klick-Trackings im Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[Video: Visual Experience Composer für Mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
 
 ## Dokumentationsänderungen, historische Versionshinweise und Experience Cloud-Versionshinweise {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
