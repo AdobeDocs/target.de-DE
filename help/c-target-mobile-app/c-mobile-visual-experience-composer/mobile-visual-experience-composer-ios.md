@@ -8,7 +8,7 @@ title: iOS – Einrichten der App
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -277,3 +277,19 @@ Es gibt bestimmte Szenarien, in denen Sie die Vorabruf-API erneut aufrufen müss
 + (void) prefetchOffersBackground;
 ```
 
+## Übungen: Implementieren der Experience Cloud in Mobile ios-Anwendungen Objective-C und Swift {#tutorial}
+
+* [Implementieren der Experience Cloud in Mobile ios-Target-C-Anwendungen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [Implementieren der Experience Cloud in Mobile ios Swift-Anwendungen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+
+Nach Abschluss dieser Übungen können Sie:
+
+* Mobile Launch-Eigenschaft erstellen
+* Installieren einer Start-Eigenschaft in einer Target-C- oder Swift-App
+* Implementieren Sie die folgenden Adobe Experience Cloud-Lösungen:
+   * Experience Cloud ID-Dienst
+   * Adobe Target
+   * Adobe Analytics
+   * Adobe Audience Manager
+
+* Veröffentlichen von Änderungen im Start über Entwicklungs-, Staging- und Produktionsumgebungen
