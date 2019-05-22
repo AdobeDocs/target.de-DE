@@ -7,7 +7,7 @@ title: Visual Experience Composer für mobile Apps
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -197,3 +197,6 @@ Beachten Sie, dass jedes Mal, wenn Target-Angebote vorabgerufen werden, die Ange
    * Das Geräte-Dialogfeld wird angezeigt, wenn Sie vom Schritt „Ziele und Einstellungen“ zum Schritt „Erstellen“ (Schritt 1) zurückkehren. Wenn die App bereits geöffnet ist, müssen Sie die App schließen und erneut starten, um eine Verbindung mit der mobilen App-VEC herzustellen.
    Sie müssen die App über die kürzlich verwendeten Apps und nicht über die [!UICONTROL Zurück]-Taste schließen.
 
+## Schulungsvideo: Visual Experience Composer für Adobe Target Mobile Comp (3:33) {#video}
+
+>[!VIDEO](https://www.youtube.com/watch?v=VOahCFx0sV4)
