@@ -9,14 +9,14 @@ title: Berichte
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: e2638ad0438d637cce84b0387709d255b9f4a58d
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # Berichte{#reports} 
 
-Berichte enthalten Informationen zur Performance Ihrer Aktivitäten.
+Berichte enthalten Informationen über den Fortschritt und die Ergebnisse Ihrer Aktivitäten, die Ihnen bei der Entscheidungsfindung auf Grundlage Ihrer Daten helfen. Mit Berichtsdaten können Sie entscheiden, wann ein Test beendet werden soll, Sie sehen, welches Erlebnis ein Gewinner ist, und Einblicke oder Lernmöglichkeiten bereitstellen, um die nächsten Aktionen zu bestimmen.
 
 >[!NOTE]
 >
