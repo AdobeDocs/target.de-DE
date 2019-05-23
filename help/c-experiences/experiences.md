@@ -8,7 +8,7 @@ title: Erlebnisse und Angebote
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 65ffe800c8518ff7a74c98168fbeab530f96075a
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -16,6 +16,8 @@ source-git-commit: 65ffe800c8518ff7a74c98168fbeab530f96075a
 # Erlebnisse und Angebote{#experiences-and-offers}
 
 Ein Erlebnis legt fest, welcher Inhalt angezeigt wird, wenn der Besucher die Zielgruppenkriterien für eine Aktivität erfüllt.
+
+Ein Erlebnis kann ein Angebot, Bild, Text, Schaltfläche, Video, Kombination dieser verschiedenen Elemente auf einer Seite, eine gesamte Webseite oder eine Reihe vonseiten sein, die möglicherweise einen Kauftrichter oder eine andere logische Folge vonseiten bilden. Dies kann auch die Antwort eines Sprecherassistenten, ein Kundendienstskript oder ein personalisiertes Flachen von einem Drink-Computer sein. Sie können Erlebnisse in [!DNL Target] Aktivitäten testen oder personalisieren.
 
 Eine Aktivität enthält in der Regel mehr als ein Erlebnis. So sehen Besucher aus dem Großraum München möglicherweise ein Angebot, bei dem Sie einen Rabatt von 30 € auf Skischuhe bekommen, während für Besucher aus Westerland Angebote zu Taucheranzügen erscheinen. Oder aber Sie testen eine Seite mit verschiedenen Sonderangeboten für wiederkehrende Besucher. Alle dieser Angebote erscheinen in verschiedenen Erlebnissen.
 
