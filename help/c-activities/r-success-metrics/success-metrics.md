@@ -7,7 +7,7 @@ solution: Target
 title: Erfolgsmetriken
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 # Erfolgsmetriken{#success-metrics}
 
 In Target Standard sind die Erfolgsmetriken zu Berichts- und Verfolgungszwecken vorkonfiguriert.
+
+Erfolgsmetriken sind Parameter, die zum Messen des Erfolgs einer Aktivität verwendet werden. Erfolgsmetriken beinhalten wichtige Geschäftsmaßnahmen, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können. Sie können beispielsweise bestimmen, ob ein neues Angebot Ihren Umsatz pro Besucher steigern oder einen Artikel zu einem Warenkorb hinzufügt. Erfolgsmetriken können hilfreich sein, um Probleme mit Registrierung, Sortierung oder Kauftrichter zu ermitteln, aber auch einfach mit Besucherbindung oder Kundenbindung.
 
 Im Zuge des Ziels von [!DNL Target Standard], die Testerstellung zu vereinfachen, übernimmt die Anwendung einige der Konfigurationen, die in [!DNL Target Classic] noch manuell durchgeführt werden mussten. Erfolgsmetriken werden beispielsweise mit den optimalen Optionen vorkonfiguriert.
 
