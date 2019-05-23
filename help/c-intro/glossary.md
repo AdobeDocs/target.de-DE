@@ -7,7 +7,7 @@ title: Glossar
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -48,7 +48,7 @@ Nützlich zum Testen des Marketings von Sites, die keine Mbox haben, z. B. Part
 
 **Zielgruppe**
 
-Eine Gruppe ähnlicher Aktivitätsteilnehmer, für die eine zielgerichtete Aktivität angezeigt wird.
+Eine Gruppe ähnlicher Aktivitätsteilnehmer, für die eine zielgerichtete Aktivität angezeigt wird.  Eine Gruppe von Personen mit denselben Merkmalen wie einem neuen Besucher, einem wiederkehrenden Besucher oder zurückkehrenden Besuchern aus der Mitte. Mit der Funktion Zielgruppe können Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen ausrichten, um Ihr digitales Marketing zu optimieren, indem Sie geeignete Botschaften an die richtigen Personen zur richtigen Zeit anzeigen. Wenn ein Besucher als Teil einer Zielgruppe identifiziert wird, bestimmt Target basierend auf den Kriterien, die während der Aktivitätserstellung definiert wurden, welches Erlebnis angezeigt werden soll.
 
 **Automatische Zuordnung**
 
@@ -154,6 +154,10 @@ Messung des Besucherinteresses an einer Site, gemessen anhand von Besuchszeit pr
 
 Der [!UICONTROL Enhanced Experience Composer] stellt eine Erweiterung des [!UICONTROL Visual Experience Composer] dar, der Sie beim Bearbeiten eines Erlebnisses für eine iFrame-Busting-Website oder Seiten unterstützt, die noch nicht über eine [!DNL Target]-Implementierung verfügen. Sollten Sie Probleme dabei haben, Ihre Seite in [!UICONTROL Visual Experience Composer] zu öffnen, dann versuchen Sie es mit [!UICONTROL Enhanced Experience Composer].
 
+**Berechtigungen für Unternehmensbenutzer**
+
+Eine Möglichkeit zur formalen Verwaltung des unternehmensweiten Benutzerzugriffs auf Target. Fügen Sie Benutzer zu Target hinzu, weisen Sie Berechtigungen auf Grundlage ihrer Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf unterschiedlichen Abteilungen, globalen Speicherorten, Kanal und anderen logischen Gruppierungen. Sie können Benutzer die Rollen &quot;Beobachter&quot; ,&quot; Editor&quot; oder &quot;Genehmiger&quot; zuweisen.
+
 **Entitätsattribute**
 
 Benutzerdefinierte Parameter, die zur Weitergabe von Produkt- oder Inhaltsinformationen an Recommendations verwendet werden.
@@ -168,7 +172,7 @@ Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Voreinge
 
 **Erlebnis**
 
-Definiert den in einer Mbox angezeigten Inhalt (oder das Angebot). Wird manchmal als Rezept bezeichnet.
+Ein Angebot, Bild, Text, Schaltfläche, Video, Kombination dieser verschiedenen Elemente auf einer Seite, eine gesamte Webseite oder eine Reihe vonseiten, die möglicherweise einen Kauftrichter oder eine andere logische Folge vonseiten bilden. Dies kann auch die Antwort eines Sprecherassistenten, ein Kundendienstskript oder ein personalisiertes Flachen von einem Drink-Computer sein. Sie können Erlebnisse in [!DNL Target] Aktivitäten testen oder personalisieren.
 
 **Erlebnis-Targeting**
 
@@ -191,6 +195,10 @@ Gibt Inhaltselemente für eine Flash-Datei aus.
 **Flussdiagramm**
 
 Die visuelle Darstellung einer Aktivität in Target Standard.
+
+**Form-Based Experience Composer
+
+Ein nicht visuelles Erlebnis und eine Oberfläche zur Angebotserstellung, die beim Erstellen von Erlebnissen für die Verwendung in A/B-Tests, Erlebnis-Targeting, automatisierten Personalisierung und Recommendations-Aktivitäten nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder praktikabel ist. Beispielsweise können Sie den formularbasierten Composer verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachbereitstellungen zu erstellen.
 
 ## G   {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
@@ -300,6 +308,10 @@ Eine Gruppe von Benutzern mit bestimmten Berechtigungen.
 
 Verwenden Sie Remote-Angebote dazu, außerhalb von [!DNL Target] [!DNL Target] Inhalt zu hosten, auf den zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich in einem Inhaltsverwaltungssystem oder einem anderen System befinden, entweder aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen.
 
+**Berichte**
+
+Berichte enthalten Informationen über den Fortschritt und die Ergebnisse Ihrer Aktivitäten, die Ihnen bei der Entscheidungsfindung auf Grundlage Ihrer Daten helfen. Mit Berichtsdaten können Sie entscheiden, wann ein Test beendet werden soll, Sie sehen, welches Erlebnis ein Gewinner ist, und Einblicke oder Lernmöglichkeiten bereitstellen, um die nächsten Aktionen zu bestimmen.
+
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
 **Skript-Profilparameter**
@@ -324,7 +336,7 @@ Wie Skript-Profilparameter, sind jedoch vordefiniert und bieten nützliche Targe
 
 **Erfolgsmetriken**
 
-Die Parameter, die zur Messung des Erfolgs einer Aktivität verwendet werden.
+Die Parameter, die zur Messung des Erfolgs einer Aktivität verwendet werden. Erfolgsmetriken beinhalten wichtige Geschäftsmaßnahmen, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können. Sie können beispielsweise bestimmen, ob ein neues Angebot Ihren Umsatz pro Besucher steigern oder einen Artikel zu einem Warenkorb hinzufügt. Erfolgsmetriken können hilfreich sein, um Probleme mit Registrierung, Sortierung oder Kauftrichter zu ermitteln, aber auch einfach mit Besucherbindung oder Kundenbindung.
 
 ## T   {#section_1841144841AF41169AF1E83B90C18292}
 
@@ -350,7 +362,7 @@ Ein Besucher ist eine Person, die auf Ihre Site zugreift. Ein Besucher wird mit 
 
 **Visual Experience Composer**
 
-In Target Standard eine Darstellung Ihrer Seite, die eine Möglichkeit bietet, die Komponenten einer Target-fähigen Seite optisch zu identifizieren und Teile der Seite direkt zu ändern, anstatt dafür eine Target-Anwendung zu verwenden.
+In Target Standard eine WYSIWYG-Benutzeroberfläche, mit der Sie personalisierte Erlebnisse und Angebote im Site-Kontext mühelos erstellen und testen können. Sie können Erlebnisse und Angebote für Target-Aktivitäten erstellen, indem Sie das Layout und den Inhalt einer Webseite (oder eines Angebots) oder einer mobilen Webseite per Drag &amp; Drop austauschen und austauschen.
 
 ## W   {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
