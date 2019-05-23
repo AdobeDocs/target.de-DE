@@ -11,14 +11,14 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8c9da94d7589d54b205c1387d25515a962f98235
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Berechtigungen für Unternehmensbenutzer{#enterprise-user-permissions}
 
-Informationen zur Erstellung von Eigenschaften und zur Verwendung der Funktionalität für Eigenschaften und Berechtigungen, mit deren Hilfe Target-Administratoren in Target verschiedene Arbeitsbereiche (Produktprofile) erstellen und anschließend Benutzern basierend auf diesen Arbeitsbereichen unterschiedliche Rollen und Berechtigungen für einzelne Seiten, Eigenschaften oder Websites zuweisen können.
+Enterprise-Benutzerberechtigungen bieten eine Möglichkeit, unternehmensweite Benutzerzugriff auf Target zu verwalten. Fügen Sie Benutzer zu Target hinzu, weisen Sie Berechtigungen auf Grundlage ihrer Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf unterschiedlichen Abteilungen, globalen Orten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzer die Rollen &quot;Beobachter&quot; ,&quot; Editor&quot; oder &quot;Genehmiger&quot; zuweisen.
 
 ## Stellen Sie fest, ob Sie Zugriff auf die Berechtigungen für Unternehmensbenutzer haben
 
