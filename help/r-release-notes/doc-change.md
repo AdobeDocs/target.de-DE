@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -21,6 +21,15 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target] Dokument
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 23. Mai 2019 | [Serverseitig: Target-Implementierung](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Der Text in der Einführung wurde aktualisiert. |
+|  | [Erlebnisse und Angebote](/help/c-experiences/experiences.md) | Der Text in der Einführung wurde aktualisiert. |
+|  | [Zielgruppen](/help/c-target/target.md) | Der Text in der Einführung wurde aktualisiert. |
+|  | [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md) | Der Text in der Einführung wurde aktualisiert. |
+|  | [Berichte](/help/c-reports/reports.md) | Der Text in der Einführung wurde aktualisiert. |
+|  | [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | Der Text in der Einführung wurde aktualisiert. |
+|  | [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) | Der Text in der Einführung wurde aktualisiert. |
+|  | [Berechtigungen für Unternehmensbenutzer](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Der Text in der Einführung wurde aktualisiert. |
+|  | [Glossar](/help/c-intro/glossary.md) | Mehrere Einträge wurden hinzugefügt und aktualisiert. |
 | 22. Mai 2019 | [Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | Es wurde ein Schulungsvideo hinzugefügt. |
 |  | [iOS – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | Es wurden Links zu neuen Lernprogrammen hinzugefügt:<ul><li>Implementieren der Experience Cloud in Mobile ios-Target-C-Anwendungen</li><li>Implementieren der Experience Cloud in Mobile ios Swift-Anwendungen</li></ul> |
 |  | [Android – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | Link zum neuen Lernprogramm hinzugefügt:<ul><li>Implementieren der Experience Cloud in Mobile Android-Anwendungen</li></ul> |
