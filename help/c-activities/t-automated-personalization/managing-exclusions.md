@@ -7,7 +7,7 @@ solution: Target,Analytics
 title: Verwalten von Ausschlüssen
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 7c51934b62044feebed0c54ddbbf49f9c8acdea5
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -21,6 +21,8 @@ Verwalten Sie Ausschlussgruppen und doppelte Angebote in AP-Aktivitäten (automa
 Erstellen Sie Ausschlussgruppen in AP-Aktivitäten (automatisierte Personalisierung), um sicherzustellen, dass Erlebnisse mit den vorgesehenen Angeboten automatisch ausgeschlossen werden.
 
 Ausschlussgruppen eignen sich hervorragend, um sicherzustellen, dass nicht kompatible Angebote nicht an verschiedenen Stellen in demselben Erlebnis dargestellt werden. Nehmen wir beispielsweise an, es liegen zwei Angebote vor: eines beinhaltet 20 % Rabatt auf alle Waren und das andere 15 % Rabatt. Diese beiden Angebote sollten den Besuchern grundsätzlich nie innerhalb desselben Erlebnisses präsentiert werden. Indem Sie diese beiden Angebote einer Ausschlussgruppe hinzufügen, können Sie sicherstellen, dass dies nie der Fall sein wird.
+
+Sie können auch einschränken, welche Zielgruppen bestimmte Angebote in AP-Aktivitäten anzeigen können. Weitere Informationen finden Sie unter [Automatisierte Personalisierungsangebote](/help/c-activities/t-automated-personalization/ap-target-offers.md).
 
 **So erstellen Sie eine Ausschlussgruppe:**
 
