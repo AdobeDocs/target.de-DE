@@ -9,7 +9,7 @@ title: Voreinstellungen
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: ecd707927629ff8bc3882a322f0744d93abced2c
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -69,7 +69,7 @@ Sie können eine oder beide der folgenden Optionen verwenden:
 |--- |--- |
 | Standard-URL des Visual Experience Composer | Die Standard-URL, die von [!UICONTROL Visual Experience Composer] verwendet wird. Dies ist die Standardseite, wie Ihre Startseite, die verwendet wird, wenn Sie ein Erlebnis für jede neue Aktivität einrichten. Sollten Sie keine Standard-URL festlegen, müssen Sie für jede Aktivität bei deren Erstellung eine eigene URL eingeben. |
 | Erweiterten Experience Composer aktivieren | Ermöglicht die Bearbeitung auf Sites, die iFrames zerstören, sowie auf Seiten mit gemischten Inhalten. Einige Sites sind möglicherweise nicht mit der erweiterten Version kompatibel. Heben Sie die Auswahl für diese Option auf, um zum ursprünglichen Experience Composer zurückzukehren. Die Aktivitätenbereitstellung auf Sites wird durch diese Auswahl nicht beeinträchtigt.<br>Weitere Informationen finden Sie unter [Fehlerbehebung beim Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).<br>**Hinweis:** Sie können den Enhanced Experience Composer auch auf Aktivitätsebene aktivieren. |
-| Gemischte Inhalte laden | Aktivieren Sie gemischte Inhalte, wenn Sie eine Website mit Enhanced Experience Composer öffnen. Durch Aktivierung dieser Option werden statische Ressourcen über Target-Proxy-Server nicht mehr geladen. |
+| Gemischte Inhalte laden | Aktivieren Sie gemischte Inhalte, wenn Sie eine Website mit dem Enhanced Experience Composer (EEC) öffnen. Durch Aktivierung dieser Option wird der zusätzliche Aufwand zum Laden statischer Ressourcen über Target-Proxy-Server vermieden.<br>Diese Option ist beispielsweise hilfreich, wenn Ihre CSP (Content Security Policy)-Header zulassen, dass gemischte Inhalte geladen werden, ohne Proxy-Server mit aktivierter EEC zu verwenden.<br>Diese Option ist auch hilfreich, wenn auf Ihrer HTTP-Website die Ladezeit der HTTP-Website höher ist, da javascript, Bilder usw. länger als Proxy geladen werden können. |
 | Erlebnismomentaufnahmen generieren | Bei der Aktivierung von Erlebnismomentaufnahmen werden Miniaturen Ihrer Erlebnisse in der Übersicht des Aktivitätsarbeitsablaufs generiert. Die Deaktivierung von Momentaufnahmen kann bei einigen Benutzern zu einer Beschleunigung der Performance führen. |
 
 ## Mobile Viewport-Konfiguration {#section_42176D062BCE4A28ADBB784CC4BEF84D}
