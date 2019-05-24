@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -17,11 +17,23 @@ source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen für die neuesten oder kommenden [!DNL Adobe Target]-Versionen.
 
-**Letzte Aktualisierung: 21. Mai 2019**
+**Letzte Aktualisierung: 24. Mai 2019**
 
 >[!NOTE]
 >
 >Diese Versionshinweise enthalten Vorabversionsinformationen. Änderungen an Release-Daten, Funktionen und anderen Informationen vorbehalten. Informationen zur aktuellen Version finden Sie unter [Target-Versionshinweise](release-notes.md). Die Informationen auf diesen Seiten können je nach Timing der Versionen identisch sein oder abweichen.
+
+## at. js Version 2.1.0 (28. Mai 2019)
+
+Wir freuen uns über die folgenden spannenden Funktionen in at. js 2.1.0:
+
+| Funktion/Verbesserung | Beschreibung |
+| --- | --- |
+| Support für Adobe-Teilnahme | Adobe Opt-In bietet die Möglichkeit, Adobe-Lösungsintegrationen mit Genehmigungsverwaltungsplattformen zu vereinfachen.<br>Weitere Informationen zu Adobe Opt-In finden Sie unter [Privatsphäre und Datenschutz-Grundverordnung (DSGVO)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
+| Branchenübliche CSP-kompatibel | at. js verwendet keine eval () mehr, um javascript auszuführen. |
+| Clientseitige Analyseprotokollierung | Gibt Kunden volle Kontrolle darüber, wie sie Analytics-Daten an Adobe Analytics senden können, ob auf Client- oder serverseitig. |
+| Benachrichtigungen senden | Ermöglicht es Entwicklern, Benachrichtigungen zu senden, wenn ein Erlebnis durch ihren Code statt durch Verwendung oder `applyOffer()``applyOffers()`Verwendung wiedergegeben wird. |
+| Geringere Dateigröße | Die Größe von at. js wird um ~ 24% verringert. Die kleinere Dateigröße verbessert die Seitenladeleistung und verringert die Zeit, at. js auf der Seite herunterzuladen. |
 
 ## [!DNL Target] Standard/Premium 19.5.1 (21. Mai 2019) {#release-19-5-1-prerelease}
 
