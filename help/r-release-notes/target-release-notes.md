@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 9f1cab87057a7b8803f795c852a7ffe839dd8f1c
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen für die neuesten oder kommenden [!DNL Adobe Target]-Versionen.
 
-**Letzte Aktualisierung: 24. Mai 2019**
+**Letzte Aktualisierung: 28. Mai 2019**
 
 >[!NOTE]
 >
 >Diese Versionshinweise enthalten Vorabversionsinformationen. Änderungen an Release-Daten, Funktionen und anderen Informationen vorbehalten. Informationen zur aktuellen Version finden Sie unter [Target-Versionshinweise](release-notes.md). Die Informationen auf diesen Seiten können je nach Timing der Versionen identisch sein oder abweichen.
 
-## at. js Version 2.1.0 (28. Mai 2019)
+## at. js Version 2.1.0 (3. Juni 2019)
 
 Wir freuen uns über die folgenden spannenden Funktionen in at. js 2.1.0:
 
