@@ -6,7 +6,7 @@ seo-title: Implementieren von Target mit Adobe Launch
 title: Implementieren von Target mit Adobe Launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -31,7 +31,5 @@ In der folgenden Tabelle finden Sie verschiedene Quellen, über die Sie weitere 
 
 Folgende Vorteile erhalten Sie nur, wenn Sie Adobe Launch für die Implementierung von at.js verwenden. Deshalb empfehlen wir dringend, dass Sie statt DTM oder der manuellen Implementierung von at.js Adobe Launch einsetzen.
 
-* **Ermöglicht asynchrone Implementierung von Target:** Weitere Informationen finden Sie unter „Adobe Target-Erweiterung mit asynchroner Implementierung“ in der [Dokumentation der Adobe Target-Erweiterung](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension).
-* **Behebt Analytics- und Target-Wettlaufsituationen:** Da der Analytics-Aufruf vor dem Target-Aufruf ausgelöst werden kann, ist der Target-Aufruf nicht an den Analytics-Aufruf gebunden, was zu falschen Daten führen kann. Ab Launch 0.6.0 gewährleistet die Target-Launch-Erweiterung, dass der Analytics-Beacon-Aufruf erst ausgelöst wird, wenn der Target-Aufruf (erfolgreich) abgeschlossen wurde. Hierdurch sollte das Problem uneinheitlicher Daten behoben sein, das bei einigen Kunden auftrat.
-* **Verhindert fehlerhafte Verarbeitung von Umleitungsangeboten:** Wenn sowohl Target als auch Analytics auf einer Seite eingesetzt werden und ein Umleitungsangebot von Target ausgeführt wird, kann eine Situation entstehen, in der der Analytics-Tracker fälschlicherweise eine Anfrage auslöst, da der Benutzer an eine andere URL umgeleitet wird. Wenn Sie Target und Analytics über Launch implementieren, tritt dieses Problem nicht auf, da hierdurch Target Analytics anweist, die Analytics-Beacon-Anfrage abzubrechen.
-
+* **Solves Analytics and Target Race Condition:** Da der Analytics-Aufruf vor dem Target-Aufruf ausgelöst werden konnte, wird der Target-Aufruf nicht an den Analytics-Aufruf gesendet. Dies kann zu falschen Daten führen. Ab 0.6.0 stellt die Target-Starterweiterung sicher, dass der Analytics-Beacon-Aufruf wartet, bis der Target-Aufruf abgeschlossen ist, erfolgreich oder nicht. Hierdurch sollte das Problem uneinheitlicher Daten behoben sein, das bei einigen Kunden auftrat.
+* **Verhindert fehlerhafte Umleitungsangebote:** Wenn Sie über Target und Analytics auf der Seite verfügen und ein Umleitungsangebot von Target ausgeführt wird, kann es vorkommen, dass der Analytics-Tracker eine Anforderung auslöst, wenn dies nicht der Fall ist (da der Benutzer zu einer anderen URL weitergeleitet wird). Wenn Sie Target und Analytics über Launch implementieren, wird dieses Problem nicht auftreten. Mit dem Start wird Analytics angewiesen, die Analytics-Beacon-Anforderung abzubrechen.
