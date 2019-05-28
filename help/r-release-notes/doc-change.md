@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -25,6 +25,8 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target] Dokument
 |  | [Ermitteln eines Gewinners](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Updated information strout p-values. |
 |  | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Es wurde ein Fehlerbehebungsabschnitt darüber hinzugefügt, wie Target auf mehreren Ebenen Iframes handhabt. |
 |  | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Neue FAQ hinzugefügt: &quot; Was ist der erwartete Zeitrahmen für Recommendations-Vorgänge? « |
+|  | [Implementieren von Target mit Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Die Informationen unter &quot;Vorteile der Implementierung von at. js mithilfe der Target Launch Extension&quot; wurden aktualisiert. |
+|  | Fehlerbehebung[bei der Bereitstellung von Inhalten](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Es wurde ein neuer Fehlerbehebungsabschnitt zu at. js hinzugefügt, der mboxes nicht auslöst, wenn Sie einen ungültigen Doctype verwenden. |
 | 24. Mai 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen über die at.js-Version 2.1.0 hinzugefügt. |
 | 23. Mai 2019 | [Verwalten von Ausschlüssen](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Es wurden Informationen und Link hinzugefügt, um zu begrenzen, welche Zielgruppen bestimmte Angebote in AP-Aktivitäten mithilfe von Targeting-Regeln anzeigen können. |
 |  | [Serverseitig: Target-Implementierung](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Der Text in der Einführung wurde aktualisiert. |
