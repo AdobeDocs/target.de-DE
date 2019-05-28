@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: c9fb157cda163f4ec37f89e7c9ff93ebc659a37d
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -18,6 +18,22 @@ source-git-commit: c9fb157cda163f4ec37f89e7c9ff93ebc659a37d
 # ![PREMIUM](/help/assets/premium.png) FAQ zu Empfehlungen{#recommendations-faq}
 
 Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Aktivitäten.
+
+## Was ist der erwartete Zeitrahmen für Recommendations-Vorgänge?
+
+Die folgenden Änderungen sollten innerhalb von etwa 60 Minuten widergespiegelt werden:
+
+* Elementattribute, die in der Designvorlage zurückgegeben werden.
+* Elementattribute, die in globalen Ausschlussregeln verwendet werden, die verhindern, dass das Element in zurückgegebene Empfehlungen aufgenommen wird.
+* Elementattribute, die in Einschlussregeln in den Kriterien verwendet werden, die Auswirkungen darauf haben, ob das Element in zurückgegebenen Empfehlungen einbezogen oder ausgeschlossen wird.
+
+Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus ausgeführt wird (12-24 Stunden):
+
+* Elementattribute, die in den für die Aktivität verwendeten Sammlungsregeln verwendet werden.
+* Elementattribute, die in einer Promotion basierend auf einem Attribut oder einer Sammlung verwendet werden, die mit der Aktivität verknüpft ist.
+* Element-Kategorie, in der das Element für eine &quot;Aktuelle Kategorie&quot; oder&quot; Favoritenkategorie&quot; im Algorithmus &quot;Topverkäufe&quot; oder&quot; Am meisten angezeigt&quot; angezeigt wird.
+* Rangordnung empfohlener Artikel, wenn das Attribut sich geändert hat und als benutzerdefinierter Schlüssel für einen Algorithmus verwendet wird.
+* Rangordnung empfohlener Artikel basierend auf dem geänderten Attribut (n), wenn die Empfehlungslogik &quot;Elemente mit ähnlichen Attributen&quot; lautet, wenn die Gewichtungsfaktoren&quot; Inhaltähnlichkeit&quot; verwendet werden oder wenn die Faktoren &quot;Attributgewichtung&quot; verwendet werden.
 
 ## Was sollte ich tun, wenn mein Array durch Sonderzeichen umbrochen wird? {#section_D27214116EE443638A60887C7D1C534E}
 
