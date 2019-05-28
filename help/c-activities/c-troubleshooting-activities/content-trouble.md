@@ -9,7 +9,7 @@ title: Fehlerbehebung bei der Inhaltsbereitstellung
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -145,6 +145,10 @@ Oder
 Bei Remote-Angeboten kann die Mbox-Antwort `/* invalid remote offer URL */` enthalten.
 
 Sie können die Mbox-Antwort im Browser oder mithilfe von mboxTrace überprüfen. Weitere Informationen zu gültigen URLs finden Sie unter [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
+
+## mboxes werden nicht auf meiner Site ausgelöst.
+
+at. js löst Target-mboxes nicht aus, wenn Sie einen ungültigen Doctype verwenden. &quot; at. js&quot; erfordert den Doctype &quot;HTML 5&quot; .
 
 ## Schulungsvideos
 
