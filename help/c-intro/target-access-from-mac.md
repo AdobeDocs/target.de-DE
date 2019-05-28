@@ -9,7 +9,7 @@ title: Zugriff auf Target über Adobe Experience Cloud
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -52,9 +52,10 @@ Informationen über den Zugriff [!DNL Adobe Target] auf die Standardmäßige Ein
 
 1. Wählen Sie Ihre erste (primäre) Sprache aus und wählen Sie dann ggf. eine zweite Sprache aus.
 
-   Die [!DNL Target] Benutzeroberfläche ist in den folgenden Sprachen verfügbar.
+   Die [!DNL Target] Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 
    * Englisch
+   * Spanisch
    * Französisch
    * Deutsch
    * Japanisch
@@ -67,6 +68,31 @@ Informationen über den Zugriff [!DNL Adobe Target] auf die Standardmäßige Ein
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 1. Melden Sie sich ab [!DNL Adobe Experience Cloud] oder [!DNL Target]melden Sie sich wieder an, damit die Änderungen wirksam werden.
+
+## Sprache für die Target-Produktdokumentation ändern {#doc-lang}
+
+Ihr Betriebssystem oder Ihre Browsereinstellungen sollten Ihre bevorzugte Sprache erkennen und die Dokumentation in dieser Sprache anzeigen (falls verfügbar). Die Target-Dokumentation wird automatisch übersetzt und wird mit der englischen Version in Stunden nach den Änderungen an der englischsprachigen Dokumentation synchronisiert.
+
+Sie können die Sprache schnell in die englische Version ändern, indem Sie auf den Link in der Kopfzeile der Seite klicken.
+
+![In Ausgangssprache ändern](/help/c-intro/assets/mt-original.png)
+
+Sie können die Sprache auch schnell in eine unterstützte Sprache ändern, indem Sie rechts oben in der Kopfzeile der Seite ( ![Sprachumschaltung](/help/c-intro/assets/icon-language-switcher.png) ) auf das Symbol Sprachschalter klicken.
+
+![Sprachwechsel](/help/c-intro/assets/language-switcher.png)
+
+Die [!DNL Target] Dokumentation ist in den folgenden Sprachen verfügbar:
+
+* Englisch
+* Spanisch
+* Französisch
+* Deutsch
+* Japanisch
+* Italienisch
+* Portugiesisch (Brasilien)
+* Vereinfachtes Chinesisch (demnächst verfügbar)
+* Traditionelles Chinesisch
+* Koreanisch
 
 ## Schulungsvideo: Adobe Target in the Experience Cloud (4:59)
 
