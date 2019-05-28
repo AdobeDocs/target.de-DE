@@ -7,7 +7,7 @@ solution: Target
 title: Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
 # Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
 Im Visual Experience Composer (VEC) und Enhanced Experience Composer (EEC) treten unter bestimmten Umständen mitunter Anzeigeprobleme auf.
+
+## Unterstützt Target Iframes auf mehreren Ebenen?
+
+Target unterstützt keine mehrstufigen Iframes. Lädt Ihre Website einen iframe mit einem untergeordneten iframe, interagieren Target-Bibliotheken (at. js und mbox. js) nur mit dem übergeordneten iframe. Target-Bibliotheken interagieren nicht mit dem untergeordneten iframe.
+
+Als Behelfslösung können Sie eine Seite im Erlebnis mit der URL des untergeordneten iframe hinzufügen.
 
 ## Wenn ich versuche, eine Seite zu bearbeiten, sehe ich lediglich ein Netz anstelle meiner Seite. (VEC und EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
