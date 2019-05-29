@@ -4,7 +4,7 @@ audience: Endbenutzer
 user-guide-title: Adobe Target-Hilfe
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -49,7 +49,6 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    + [Implementierung von Target – Überblick](c-implementing-target/implementing-target.md)
    + Vor der Implementierung {#before-implement}
       + [Vor der Implementierung](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
-      + [Erläuterung der JavaScript-Bibliotheken in Target](c-implementing-target/c-considerations-before-you-implement-target/target-implement.md)
       + [Vorbereiten der Target-Implementierung](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Datenschutz {#privacy}
          + [Datenschutz – Überblick](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
@@ -101,7 +100,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
          + [„mbox.js“-Implementierung – Überblick](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
          + Migration von „mbox.js“ zu „at.js“{#migrate-mbox}
             + [Migration von „mbox.js“ zu „at.js“ – Überblick ](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
-            + [Migration von „mbox.js“ zu „at.js“](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
+            + [Migration von „mbox.js“ zu „at.js“](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).
             + [Einschränkungen von „at.js“](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
             + [„at.js“-Plug-ins](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
             + [Bereitstellung von „at.js“ in einer Nicht-Produktionsumgebung](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
