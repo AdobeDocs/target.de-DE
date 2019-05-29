@@ -9,7 +9,7 @@ title: Vor der Implementierung
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: a0234d8dc1e539438130b2ba323d3f9eb4e7a022
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -24,7 +24,6 @@ Dieser Abschnitt enthält Informationen, die Entwickler für ihre Implementierun
 >
 >Änderungen an at. js oder mbox. js werden von der Adobe-Kundenunterstützung nicht unterstützt.
 
-- [Erläuterung der JavaScript-Bibliotheken in Target](target-implement.md)
 - [Vorbereiten der Target-Implementierung](prepare-to-implement-target.md)
 - [Datenschutz](c-privacy/privacy.md)
 - [Verfahren für die Datenübernahme in Target](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
