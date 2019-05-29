@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -24,6 +24,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target] Dokument
 | 29. Mai 2019 | [Kategorieaffinität](/help/c-target/c-visitor-profile/category-affinity.md) | Der Text wurde aktualisiert, um den Unterschied zwischen `user.categoryId` und `entity.categoryId`zu verdeutlichen. |
 |  | [Migration von „mbox.js“ zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | Abschnitt zu diesem Thema neu positionieren: Vorteile von at. js. |
 |  | [Häufig gestellte Fragen zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Abschnitt zu diesem Thema neu positionieren: &quot; Was sind die Auswirkungen von at. js und mbox. js auf die Seitenladezeit? « |
+|  | [Übergeben dynamischer Daten in Angebote](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | Die Syntax in der Zeile &quot;Vergangenes Verhalten&quot; wurde korrigiert. |
 | 28. Mai 2019 | [Zugriff auf Target über Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | Neuer Abschnitt hinzugefügt: &quot; Ändern Sie die Sprache für die Target-Produktdokumentation. « |
 |  | [Ermitteln eines Gewinners](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Updated information strout p-values. |
 |  | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Es wurde ein Fehlerbehebungsabschnitt darüber hinzugefügt, wie Target auf mehreren Ebenen Iframes handhabt. |
