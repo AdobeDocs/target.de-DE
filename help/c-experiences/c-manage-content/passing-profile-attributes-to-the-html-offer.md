@@ -8,7 +8,7 @@ title: Übergeben dynamischer Daten in Angebote
 topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: f792c0b995e0f4445d3c3849a431d64b6bd60324
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -46,7 +46,7 @@ Bei folgenden Werten ist eine Tokenersetzung möglich:
 | Unique Visitor-ID | `${user.pcId}` |
 | Eindeutige Sitzungs-ID | `${user.sessionId}` |
 | Erste Sitzung des Besuchers (TRUE oder FALSE) | `${user.isFirstSession}` |
-| Vergangenes Verhalten | `{$user.endpoint.lastPurchasedEntity}`, `{$user.endpoint.lastViewedEntity}`, `{$user.endpoint.mostViewedEntity}`, `{$user.endpoint.categoryAffinity}` |
+| Vergangenes Verhalten | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
 
 Protokollinformationen in der Konsole zum Debugging, `${campaign.name}``${campaign.id}`wie `${campaign.recipe.name}``${campaign.recipe.id}``${offer.name}``${offer.id}`, `${campaign.name}`
 
