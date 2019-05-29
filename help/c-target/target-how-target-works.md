@@ -7,7 +7,7 @@ solution: Target
 title: Funktionsweise von Targeting
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Adobe Target wird mithilfe der JavaScript-Bibliothek „at.js“ oder „mbox.js“ in Ihre Webseiten integriert.
 
-[!DNL Target Classic] verwendet Mboxes für jeden Bereich Ihrer Seite, in dem Sie zielgerichtete Inhalte anzeigen oder Daten erfassen möchten. Diese Mboxes sind in [!DNL Target Standard] nicht erforderlich. Zum Ausführen Ihrer Optimierungsaktivitäten benötigen Sie stattdessen nur eine [JavaScript-Bibliothek](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB), auf die auf jeder Seite verwiesen wird.
+[!DNL Target Classic] verwendet Mboxes für jeden Bereich Ihrer Seite, in dem Sie zielgerichtete Inhalte anzeigen oder Daten erfassen möchten. Diese Mboxes sind in [!DNL Target Standard] nicht erforderlich. Zum Ausführen Ihrer Optimierungsaktivitäten benötigen Sie stattdessen nur eine JavaScript-Bibliothek, auf die auf jeder Seite verwiesen wird.
 
 Jedes Mal, wenn ein Besucher eine [!DNL Target]-aktivierte Seite anfordert, verwendet Target den folgenden Prozess zur Bereitstellung von Angeboten:
 
