@@ -9,7 +9,7 @@ title: Herunterladen von Daten in Form einer CSV-Datei
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: cb5455fef1d4df32dfe36032df9458b9db401380
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -84,4 +84,4 @@ Die folgenden Informationen gelten für den Download:
 * Sie können Berichte sowohl für Aktivitäten mit A/B-Tests, automatisierte Personalisierung und Erlebnis-Targeting als auch für Multivarianz-Tests erstellen. Sie können jedoch keinen Erfolgsmetrikenbericht für Recommendations-Aktivitäten herunterladen.
 * Die Option zum Herunterladen steht nicht für A/B- und Erlebniszielaktivitäten zur Verfügung, die vor der Target-Version 15.7.1 (Juli 2015) erstellt wurden.
 * Erlebnisse ohne verknüpfte Daten werden im heruntergeladenen Bericht nicht erfasst.
-
+* In der Benutzeroberfläche von Target angewendete Zielgruppen werden nicht zum Downloadbericht übertragen.
