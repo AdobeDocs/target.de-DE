@@ -8,7 +8,7 @@ title: Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 721571e4257484af843d9ab5214cffc256c827db
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -38,7 +38,7 @@ Die Steigerungsinformationen auf der Benutzeroberfläche für den Target-Bericht
 
 Die folgende Illustration zeigt die Informationen zu den Steigerungsgrenzen und dem Konfidenzniveau:
 
-![](assets/lift-screenshot.png)
+![Bericht zu durchschnittlichen Steigerungs- und Konfidenzstufen](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 ## Wie werden Steigerungsgrenzen berechnet?   {#section_1D360781D972483693680BE0F07AEAD1}
 
