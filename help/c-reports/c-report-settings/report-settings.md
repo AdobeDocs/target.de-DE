@@ -8,7 +8,7 @@ title: Berichtseinstellungen
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -19,7 +19,7 @@ Informationen dazu, wie Sie die Elemente festlegen können, die in Berichten auf
 
 Möchten Sie einen Bericht anzeigen, klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **Berichte[!UICONTROL .]**
 
-![](assets/report_ui.png)
+![Benutzeroberfläche für Bericht](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Zielvorgabe {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -32,11 +32,11 @@ Sie können auch einzelne Aktivitätsberichte nach Bedarf konfigurieren und als 
 1. Konfigurieren Sie den Aktivitätsbericht wie gewünscht (Metriken, Datumsbereiche, Zielgruppen, erweiterte Einstellungen usw.).
 1. Klicken Sie neben **[!UICONTROL Target-Vorgabe]** auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Als neu speichern]**.
 
-   ![](assets/report_preset.png)
+   ![Berichtsvorgabe](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
    Das Dialogfeld für eine neue Voreinstellung wird angezeigt:
 
-   ![](assets/report_preset_dialog.png)
+   ![Neues Vorgabendialogfeld](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. Überprüfen Sie die Informationen in den Abschnitten „Filter“ und „Einstellungen“, um sicherzustellen, dass der Bericht wie gewünscht konfiguriert ist, und geben Sie dann den **[!UICONTROL Vorgabenamen]** (bis zu 50 Zeichen) an.
 1. (Optional) Wenn Sie die Berichtsansicht als Standard oder Favoriten festlegen möchten, aktivieren Sie **[!UICONTROL Als Standardeinstellung festlegen].**
@@ -46,7 +46,7 @@ Sie können auch einzelne Aktivitätsberichte nach Bedarf konfigurieren und als 
 
 Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Zielvorgabe]aus.**
 
-![](assets/report_preset_drop-down.png)
+![Vorgabendropdown-Liste](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
 **Voreinstellung bearbeiten**
 
@@ -55,7 +55,7 @@ Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Z
 
    Wenn Sie nach der Bearbeitung der Konfiguration auf [!UICONTROL Speichern] klicken, wird ein Sternchen (*) hinter dem Voreinstellungsnamen angezeigt, das angibt, dass die Voreinstellung geändert wurde (siehe unten):
 
-   ![](assets/report_preset_asterisk.png)
+   ![Berichtsvorgabe mit Sternchen](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Als neu speichern], um eine neue Vorgabe zu erstellen.**
 
@@ -63,14 +63,14 @@ Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Z
 
    Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Aktualisieren], um die aktuelle Vorgabe zu ändern.**
 
-   ![](assets/report_preset_update.png)
+   ![Standardupdate für Bericht](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **Voreinstellung löschen**
 
 1. Wählen Sie die Voreinstellung aus, die Sie löschen möchten.
 1. Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Löschen]**.
 
-   ![](assets/report_preset_delete.png)
+   ![Standardmäßige Löschung von Berichten](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. Klicken Sie erneut auf **[!UICONTROL Löschen], um den Löschvorgang zu bestätigen.**
 
@@ -104,7 +104,7 @@ Weitere Informationen finden Sie unter [Zielgruppen](../../c-target/target.md#co
 
 Das Feld „Datumsbereich“ zeigt den aktuellen Datumsbereich des Berichts an. Klicken Sie auf das Dropdownsymbol, um einen Kalender anzuzeigen, in dem Sie den Datumsbereich des Berichts ändern können.
 
-![](assets/date_range.png)
+![Kalender](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
 Wählen Sie neue **[!UICONTROL Start-]** und **Enddaten]für den Bericht aus.[!UICONTROL ** Sie können auch die Kontrollkästchen **[!UICONTROL Vom Start der Aktivität]** und **Bis Ende von Aktivität]verwenden.[!UICONTROL **
 
@@ -122,7 +122,7 @@ Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu konfigurieren
 
 In der folgenden Illustration ist das Einstellungsdialogfeld für eine A/B-Aktivität dargestellt:
 
-![](assets/ab_settings_dialog.png)
+![Einstellungen, Dialogfeld](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
 
 Die Optionen variieren abhängig vom gewählten Aktivitätstyp:
 
@@ -183,9 +183,9 @@ Klicken Sie auf das Symbol **[!UICONTROL Location Contribution], um den Bericht 
 
 Wählen Sie auf der linken Seite des Diagramms Erlebnisse aus oder heben Sie die Auswahl auf, um die entsprechenden Erlebnisse in das Diagramm ein- oder aus dem Diagramm auszublenden.
 
-In der folgenden Abbildung werden nur die Erlebnisse B und C im Bericht angezeigt:
+Wenn die folgende Abbildung gezeigt wird, werden nur die Erlebnisse Default, Mid East und Total im Bericht angezeigt. Das Asien-Erlebnis wird im Diagramm ausgeblendet.
 
-![](assets/report_experiences.png)
+![Erlebnisse](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
 ## Gleitendes Mittel {#section_59066693158C4433B87D07402C2BC6CD}
 
@@ -198,7 +198,7 @@ Wählen Sie die gewünschte Grafikansicht:
 * Täglich
 * Tägliche Steigerung
 
-![](assets/report_running_average.png)
+![Bericht läuft durchschnittlich](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
@@ -214,13 +214,13 @@ Wenn Sie auf die Option „Zählmethodologie“ zugreifen möchten, während Sie
 
 Die Zählmethodologie ist identisch mit der Auswahl im Dialogfeld [!UICONTROL Einstellungen], wie zuvor beschrieben.
 
-![](assets/counting_methodology.png)
+![Zählmethodik](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 Standardmäßig wird das Diagramm im Modus [!UICONTROL Täglich] gezeichnet.
 
 Sie können den Modus ändern, indem Sie auf die Dropdownliste [!UICONTROL Täglich] klicken und dann [!UICONTROL Kumulativ] auswählen.
 
-![](assets/counting_methodology_2.png)
+![Kumulativ](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 >[!NOTE]
 >
