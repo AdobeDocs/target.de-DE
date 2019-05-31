@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: b1195ddaa639ac51a3966777f3769fa46428b4a8
 
 ---
 
@@ -19,21 +19,25 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Aktivitäten.
 
-## Was ist der erwartete Zeitrahmen für Recommendations-Vorgänge?
+## Wie lange dauert es, bis Aktualisierungen an Elementen in meinem Katalog auf meiner Site erscheinen?
 
-Die folgenden Änderungen sollten innerhalb von etwa 60 Minuten widergespiegelt werden:
+Nachdem Sie eine Feed-Datei importiert oder Entitätsaktualisierungen über API oder mbox erhalten haben, werden die folgenden Änderungen unter 60 Minuten angezeigt:
 
 * Elementattribute, die in der Designvorlage zurückgegeben werden.
 * Elementattribute, die in globalen Ausschlussregeln verwendet werden, die verhindern, dass das Element in zurückgegebene Empfehlungen aufgenommen wird.
 * Elementattribute, die in Einschlussregeln in den Kriterien verwendet werden, die Auswirkungen darauf haben, ob das Element in zurückgegebenen Empfehlungen einbezogen oder ausgeschlossen wird.
 
-Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus ausgeführt wird (12-24 Stunden):
+Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus ausgeführt wird (innerhalb von 12-24 Stunden):
 
 * Elementattribute, die in den für die Aktivität verwendeten Sammlungsregeln verwendet werden.
 * Elementattribute, die in einer Promotion basierend auf einem Attribut oder einer Sammlung verwendet werden, die mit der Aktivität verknüpft ist.
 * Element-Kategorie, in der das Element für eine &quot;Aktuelle Kategorie&quot; oder&quot; Favoritenkategorie&quot; im Algorithmus &quot;Topverkäufe&quot; oder&quot; Am meisten angezeigt&quot; angezeigt wird.
 * Rangordnung empfohlener Artikel, wenn das Attribut sich geändert hat und als benutzerdefinierter Schlüssel für einen Algorithmus verwendet wird.
 * Rangordnung empfohlener Artikel basierend auf dem geänderten Attribut (n), wenn die Empfehlungslogik &quot;Elemente mit ähnlichen Attributen&quot; lautet, wenn die Gewichtungsfaktoren&quot; Inhaltähnlichkeit&quot; verwendet werden oder wenn die Faktoren &quot;Attributgewichtung&quot; verwendet werden.
+
+>[!NOTE]
+>
+>Eine Feed-Datei wird als importiert betrachtet, wenn sich ihr Status von &quot;Importieren von Elementen&quot; in&quot; Suchindex-Aktualisierungen vorbereiten&quot; ändert. Updates können mehr als 60 Minuten in Anspruch nehmen, damit sie in der Benutzeroberfläche der Katalogsuche angezeigt werden können. Die Katalogsuche ist aktuell, wenn sich der Feed-Status in &quot;Abgeschlossen&quot; ändert. Selbst wenn die Katalogsuche noch nicht aktuell ist, spiegelt Ihre Site Aktualisierungen in den oben aufgeführten Zeitrahmen wider. Auf der Seite &quot;Katalogsuche&quot; wird die aktuelle Katalogaktualisierungszeit des Katalogs angezeigt.
 
 ## Was sollte ich tun, wenn mein Array durch Sonderzeichen umbrochen wird? {#section_D27214116EE443638A60887C7D1C534E}
 
