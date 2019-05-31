@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -21,7 +21,8 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target] Dokument
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 31. Mai 2019 | [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md) | Das Codebeispiel wurde aktualisiert. |
+| 31. Mai 2019 | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Es wurde ein Hinweis zu Targeting-Geräten mit ios 12.2 hinzugefügt. |
+|  | [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md) | Das Codebeispiel wurde aktualisiert. |
 | 30. Mai 2019 | [Zugriff auf Target über Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | Die Dokumentation ist jetzt in der vereinfachten Sprache für Chinesisch verfügbar. |
 |  | [Herunterladen von Daten in Form einer CSV-Datei](/help/c-reports/downloading-data-in-csv-file.md) | Neue Einschränkungen im Abschnitt &quot;Auftragsdetails exportieren&quot; zu CSV hinzugefügt: &quot; In der Benutzeroberfläche von Target angewendete Zielgruppen werden nicht in den Downloadbericht übernommen. « |
 |  | [Berichtseinstellungen](/help/c-reports/c-report-settings/report-settings.md) | Screenshots wurden aktualisiert. |
