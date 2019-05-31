@@ -8,7 +8,7 @@ title: Mobil
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -60,6 +60,12 @@ Kunden, die eine benutzerspezifische Integration (also weder at.js noch das Mobi
    * Bildschirmbreite (px)
    >[!NOTE]
    >
+   >Aufgrund der neuen in ios 12.2 eingeführten Änderungen wird die Erstellung einer Zielgruppe mit Regeln, die vom Gerätemarketingname und Gerätemodell definiert werden, auf die iphone-Modelle angewendet werden, beeinträchtigt. Wir können keine Benutzer mehr als Ziel auswählen, die iphones mit ios 12.2 auf ihnen installiert haben. Wenn diese Benutzer jedoch nicht über ios 12.2 verfügen, funktioniert das iphone-Modell-Targeting weiterhin ordnungsgemäß.
+   >
+   >Das ios 12.2-Update hat keine Auswirkungen auf die Identifizierung der folgenden Modelle, da diese Modelle das Upgrade auf ios 12.2 nicht unterstützen: Iphone, iphone 3 G, iphone 3 GS, iphone 4, iphone 4 s, iphone 5, iphone 5 c, ipad, ipad 2, ipad/Retina display, ipad Retina (4. Gen), ipod Touch 4 und ipod Touch 5.
+
+   >[!NOTE]
+   >
    >Sie können das Targeting nach Mobilnetzbetreiber mithilfe der [Geo-Einstellungen](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670) vornehmen.
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
@@ -72,4 +78,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
