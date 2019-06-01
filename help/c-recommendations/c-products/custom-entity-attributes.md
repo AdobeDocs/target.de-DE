@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
+source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
 
 Verwenden Sie Entitätsattribute mit einzelnen oder mehreren Werten zur Festlegung weiterer Informationen zu Artikeln in Ihrem Katalog.
 
-## Beschränkungen {limits}
+## Beschränkungen {#limits}
 
 Sie können bis zu 100 benutzerdefinierte Entitätsattribute festlegen, um weitere Informationen zu Artikeln in Ihrem Katalog bereitzustellen. Möglicherweise möchten Sie ein benutzerdefiniertes Attribut mit dem Namen `entity.genre` erstellen, um damit ein Buch oder einen Film zu kategorisieren. Alternativ kann ein Ticketverkäufer Attribute zur Halle einrichten, um über einen zusätzlichen Auftritt, z. B. ein weiteres Team, das bei einer Sportveranstaltung mitwirkt, oder die Vorgruppe bei einem Konzert, zu informieren.
 
