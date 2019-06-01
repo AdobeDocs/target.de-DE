@@ -8,7 +8,7 @@ title: Target-Versionshinweise (aktuell)
 topic: 'Recommendations '
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
+source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 ---
 
@@ -24,9 +24,26 @@ Folgende wichtige Ankündigungen sollten Sie kennen:
 * Am 20. Februar 2019 wurde die Adobe Target-Infrastruktur in den Regionen EMEA, Japan und APAC aktualisiert, um keine Daten mehr von Endbenutzern mit älteren Geräten oder Webbrowsern zu erfassen, die TLS 1.1 oder höher nicht unterstützen. Dieses Upgrade ist für den Nordamerikanischen Bereich für den **1. April 2019 geplant**. Die Migration zu TLS 1.2 bietet eine verbesserte Sicherheit. Es ist wichtig, dass Sie die Details durchgehen und die Änderungen an Ihrem IT-Team planen, um einen glatten Übergang zu erhalten. Weitere Informationen finden Sie [unter TLS (Transport Layer Security)-](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)Verschlüsselung.
 * [!DNL Target] und [!DNL Adobe Marketing Cloud] werden ab März 2019 die Unterstützung für Microsoft Internet Explorer 11 beenden. Diese Änderung betrifft nur [!DNL Target]-Authoring. Diese Änderung wirkt sich nicht auf die Bereitstellung von Erlebnissen aus. Wechseln Sie zu Microsoft Edge oder einem anderen Browser. Weitere Informationen finden Sie unter [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
 
-## [!DNL Target] Standard/Premium 19.5.1 (21. Mai 2019) {#tgt-19-5-1}
+## at. js Version 2.1.0 (3. Juni 2019)
 
-Diese Version enthält die folgenden Funktionen, Änderungen und Verbesserungen:
+Wir freuen uns über die folgenden spannenden Funktionen in at. js 2.1.0:
+
+| Funktion/Verbesserung | Beschreibung |
+| --- | --- |
+| Support für Adobe-Teilnahme | Adobe Opt-In bietet die Möglichkeit, Adobe-Lösungsintegrationen mit Genehmigungsverwaltungsplattformen zu vereinfachen.<br>Weitere Informationen zu Adobe Opt-In finden Sie unter [Privatsphäre und Datenschutz-Grundverordnung (DSGVO)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
+| Branchenübliche CSP-kompatibel | at. js verwendet keine eval () mehr, um javascript auszuführen. |
+| Clientseitige Analyseprotokollierung | Gibt Kunden volle Kontrolle darüber, wie sie Analytics-Daten an Adobe Analytics senden können, ob auf Client- oder serverseitig.<br>Weitere Informationen finden Sie unter [clientseitige Analytics-Anmeldung](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) *Vor der Implementierung*. |
+| Benachrichtigungen senden | Ermöglicht es Entwicklern, Benachrichtigungen zu senden, wenn ein Erlebnis durch ihren Code statt durch Verwendung oder `applyOffer()``applyOffers()`Verwendung wiedergegeben wird.<br>Weitere Informationen finden Sie unter [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md). |
+| Geringere Dateigröße | Die Größe von at. js wird um ~ 24% verringert. Die kleinere Dateigröße verbessert die Seitenladeleistung und verringert die Zeit, at. js auf der Seite herunterzuladen. |
+| Aktualisierungen der Dokumentation von at. js | Eine vollständige Liste aller Artikel, die aufgrund der Veröffentlichung von at. js 2.1.0 aktualisiert wurden, finden Sie in [den Dateiänderungen vom 3. Juni 2019](/help/r-release-notes/doc-change.md). |
+
+## Visual Experience Composer für Mobile Apps (14. Mai 2019) {#mobile-app-vec-may14-1}
+
+| Funktion/Verbesserung | Beschreibung |
+| --- | --- |
+| Visual Experience Composer (VEC) für mobile Apps | Mit Mobile App VEC können Sie Aktivitäten erstellen und Inhalte auf nativen Mobil-Apps ohne ständige Entwicklungsabhängigkeiten und App-Versionszyklen personalisieren.<br>Weitere Informationen finden Sie unter:<ul><li>[Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Einrichten des Klick-Trackings im Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
+
+## [!DNL Target] Standard/Premium 19.5.1 (21. Mai 2019) {#tgt-19-5-1}
 
 (Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
@@ -40,7 +57,7 @@ Diese Version enthält die folgenden Funktionen, Änderungen und Verbesserungen:
 
 * Die Symbole der Symbolleiste werden entsprechend angezeigt, nachdem Sie das Laden einer Seite innerhalb des VEC abgebrochen haben. Wenn bestimmte Aktionen erst nach dem vollständigen Laden der Seite ausgeführt werden können, werden die zugehörigen Symbolleistensymbole deaktiviert. (TGT-33811)
 
-## Visual Experience Composer für Mobilgeräte (14. Mai 2019) {mobile-vec}
+## Visual Experience Composer für Mobile Apps (14. Mai 2019) {#mobile-vec-may14-2}
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
