@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 9f1cab87057a7b8803f795c852a7ffe839dd8f1c
+source-git-commit: fe022b641580e33afdac446f71cec85fd232b275
 
 ---
 
@@ -51,7 +51,7 @@ Diese Version enthält die folgenden Funktionen, Änderungen und Verbesserungen:
 
 * Die Symbole der Symbolleiste werden entsprechend angezeigt, nachdem Sie das Laden einer Seite innerhalb des VEC abgebrochen haben. Wenn bestimmte Aktionen erst nach dem vollständigen Laden der Seite ausgeführt werden können, werden die zugehörigen Symbolleistensymbole deaktiviert. (TGT-33811)
 
-## Visual Experience Composer für Mobilgeräte (14. Mai 2019) {mobile-vec}
+## Visual Experience Composer für Mobilgeräte (14. Mai 2019) {mobile-vec-may 14}
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
