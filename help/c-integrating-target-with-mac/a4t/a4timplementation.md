@@ -8,7 +8,7 @@ title: Implementieren von Analytics for Target
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 1be00210754e8fa3237fdbccf48af625c2aafe65
+source-git-commit: dd23c58ce77a16d620498afb780dae67b1e9e7f7
 
 ---
 
@@ -55,27 +55,110 @@ Wenn Sie at.js oder mbox.js zuvor bereitgestellt haben, können Sie Ihre vorhand
 
 Alternativ kann diese Datei zusammen mit dem Besucher-ID-Service und AppMeasurement for JavaScript-Dateien gehostet werden. Diese Dateien müssen auf einem Webserver gehostet werden, der für alle Seiten Ihrer Site zugänglich ist. Für den nächsten Schritt benötigen Sie den Pfad zu den Dateien.
 
-## Schritt 7: Verweisen auf at.js oder mbox.js auf allen Seiten der Website
+## Schritt 7: Verweisen auf at.js oder mbox.js auf allen Seiten der Website {#step7}
 
-Fügen Sie at.js oder mbox.js unterhalb der visitorAPI.js ein, indem Sie die folgende Codezeile <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> im Tag auf jeder Seite hinzufügen:
+Fügen Sie at. js oder mbox. js unterhalb visitorapi. js ein, indem Sie dem Tag auf jeder Seite die folgende Codezeile hinzufügen:
 
 Für at.js:
 
 ```
-<script language="JavaScript" type="text/javascript" 
+<script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
 Für mbox.js:
 
 ```
-<script language="JavaScript" type="text/javascript" 
+<script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 ```
 
-Es ist wichtig, dass VisitorAPI.js vor at.js oder mbox.js geladen wird. Achten Sie daher beim Aktualisieren einer vorhandenen at.js- oder mbox.js-Datei darauf, dass die richtige Ladereihenfolge festgelegt ist.
+Visitorapi. js muss vor at. js oder mbox. js geladen werden. Wenn Sie eine vorhandene at. js- oder mbox. js-Datei aktualisieren, überprüfen Sie, ob Sie die Ladereihenfolge überprüfen.
 
-## Schritt 8: Validieren der Implementierung
+Die vorkonfigurierten Einstellungen für die Target- und Analytics-Integration aus einer Implementierungsperspektive dienen der Verwendung der SDID, die von der Seite übergeben wird, um die Target- und Analytics-Anforderung automatisch auf dem Backend für Sie zu verknüpfen.
+
+Wenn Sie jedoch mehr Kontrolle darüber wünschen, wie und wann Analysedaten zu Analytics zu Berichterstellungszwecken an Analytics gesendet werden sollen und Sie nicht die Standardeinstellungen für Target und Analytics übernehmen möchten, können Sie **analyticslogging = client_ side** über **window. targetglobalsettings** festlegen. Hinweis: Alle Versionen unter 2.1 unterstützen diesen Ansatz nicht.
+
+Beispiel:
+
+```
+window.targetGlobalSettings = {
+  analyticsLogging: "client_side"
+};
+```
+
+Diese Einrichtung hat einen globalen Effekt, d. h. jeder Aufruf von at. js verfügt über **analyticslogging: &quot; client_ side&quot; innerhalb der Target-Anforderungen** gesendet und eine Analytics-Nutzlast wird für jede Anforderung zurückgegeben. Wenn diese Einstellung eingerichtet wird, sieht das Format der zurückgegebenen Nutzlast wie folgt aus:
+
+```
+"analytics": {
+   "payload": {
+      "pe": "tnt",
+      "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+   }
+}
+```
+
+Die Nutzlast kann dann über die [Dateneinfüge-API an Analytics weitergeleitet](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)werden.
+
+Wenn keine globale Einstellung gewünscht und ein On-Demand-Ansatz vorzuziehen ist, können Sie die Funktion at. js [verwenden,](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) um dies zu erreichen, indem **Sie analyticslogging übergeben: &quot; client_ side &quot;**. Die Nutzlast der Analyse wird nur für diesen Aufruf zurückgegeben und das Backend für Target leitet die Nutzlast nicht an Analytics weiter. Durch diesen Ansatz wird die Payload nicht standardmäßig von jeder at. js-Target-Anforderung zurückgegeben, sondern nur nach Wunsch und Spezifiziert.
+
+Beispiel:
+
+```
+adobe.target.getOffers({
+      request: {
+        experienceCloud: {
+          analytics: {
+            logging: "client_side"
+          }
+        },
+        prefetch: {
+          mboxes: [{
+            index: 0,
+            name: "a1-serverside-xt"
+          }]
+        }
+      }
+    })
+    .then(console.log)
+```
+
+Dieser Aufruf ruft eine Antwort auf, aus der Sie die Analytics-Nutzlast extrahieren können.
+
+Die Antwort sieht wie folgt aus:
+
+```
+{
+  "prefetch": {
+    "mboxes": [{
+      "index": 0,
+      "name": "a1-serverside-xt",
+      "options": [{
+        "content": "<img src=\"http://s7d2.scene7.com/is/image/TargetAdobeTargetMobile/L4242-xt-usa?tm=1490025518668&fit=constrain&hei=491&wid=980&fmt=png-alpha\"/>",
+        "type": "html",
+        "eventToken": "n/K05qdH0MxsiyH4gX05/2qipfsIHvVzTQxHolz2IpSCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+        "responseTokens": {
+          "profile.memberlevel": "0",
+          "geo.city": "bucharest",
+          "activity.id": "167169",
+          "experience.name": "USA Experience",
+          "geo.country": "romania"
+        }
+      }],
+      "analytics": {
+        "payload": {
+          "pe": "tnt",
+          "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+        }
+      }
+    }]
+  }
+}
+```
+
+Die Nutzlast kann dann über die [Dateneinfüge-API an Analytics weitergeleitet](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)werden.
+
+## Schritt 8: Validieren der Implementierung {#step8}
 
 Laden Sie Ihre Seiten nach der Aktualisierung der JavaScript-Bibliotheken, um sicherzustellen, dass die mboxMCSDID-Parameterwerte in Target-Aufrufen mit dem sdid-Parameterwert im Analytics-Seitenansichtsaufruf übereinstimmen.
 
