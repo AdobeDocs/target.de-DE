@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e5ac81441b7bf1c57b1bf62f49100e98673ac65c
+source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
 
 ---
 
@@ -31,38 +31,41 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 
 | Feldname | Erforderlich? | Einschränkungen | Beschreibung |
 | --- | --- | --- | --- |
-| Anfrage &gt; ID | Nein | Entweder `tntId`, `thirdPartyId` oder `marketingCloudVisitorId` wird benötigt. |
-| Anfrage &gt; ID &gt; thirdPartyId | Nein | Maximale Größe = 128 |
-| Anfrage &gt; Vorab abrufen | Nein |
+| Anfrage &gt; ID | Nein |  | Entweder `tntId`, `thirdPartyId` oder `marketingCloudVisitorId` wird benötigt. |
+| Anfrage &gt; ID &gt; thirdPartyId | Nein | Maximale Größe = 128 |  |  |
+| Anforderung &gt; experiencecloud | Nein |  |  |
+| Anforderung &gt; experiencecloud &gt; Analyse | Nein |  | Integration von Adobe Analytics |
+| Anforderung &gt; experiencecloud &gt; Analytics &gt; Protokollierung | Nein | Folgendes muss auf der Seite implementiert werden:<ul><li>Besucher-ID-Service</li><li>Appmeasurement. js</li></ul> | Die folgenden Werte werden unterstützt:<br>**client_ side**: Wenn angegeben, wird eine Analytics-Nutzlast an den Aufrufer zurückgegeben, der über die Dateneinfüge-API an Adobe Analytics gesendet werden soll.<br>**server_ side**: Dies ist der Standardwert, mit dem der Target- und Analytics-Back-Backend die SDID zum Zusammenführen der Aufrufe für Berichterstellungszwecke verwendet. |
+| Anfrage &gt; Vorab abrufen | Nein |  |  |
 | Anfrage &gt; Vorab abrufen &gt; Ansichten | Nein | Maximale Anzahl = 50<br>Name nicht leer<br>Länge des Namens `<=` 128<br>Länge des Wertes `<=` 5.000<br>Name sollte nicht mit „Profil“ beginnen<br>Unzulässige Namen: „orderId“, „orderTotal“, „productPurchasedId“ | Parameter übergeben, die zum Aufrufen relevanter Ansichten in aktiven Aktivitäten verwendet werden können. |
 | Anfrage &gt; Vorab abrufen &gt; Ansichten &gt; profileParameters | Nein | Maximale Anzahl = 50<br>Name nicht leer<br>Länge des Namens `<=` 128<br>Länge des Wertes `<=` 5.000<br>Name sollte nicht mit „Profil“ beginnen | Profilparameter übergeben, die zum Aufrufen relevanter Ansichten in aktiven Aktivitäten verwendet werden können. |
-| Anfrage &gt; Vorab abrufen &gt; Ansichten &gt; Produkt | Nein |
+| Anfrage &gt; Vorab abrufen &gt; Ansichten &gt; Produkt | Nein |  |  |
 | Anfrage &gt; Vorab abrufen &gt; Ansichten &gt; Produkt -&gt; ID | Nein | Nicht leer<br>maximale Größe = 128 | Produkt-IDs übergeben, die zum Aufrufen relevanter Ansichten in aktiven Aktivitäten verwendet werden können. |
 | Anfrage &gt; Vorab abrufen &gt; Ansichten &gt; Produkt &gt; categoryId | Nein | Nicht leer<br>maximale Größe = 128 | Produktkategorie-IDs übergeben, die zum Aufrufen relevanter Ansichten in Aktivitäten verwendet werden können. |
-| Anfrage &gt; Vorab abrufen &gt; Ansichten &gt; Bestellung | Nein |
+| Anfrage &gt; Vorab abrufen &gt; Ansichten &gt; Bestellung | Nein |  |  |
 | Anfrage &gt; Vorab abrufen &gt; Ansichten &gt; Bestellung &gt; ID | Nein | Maximale Länge = 250 | Bestell-IDs übergeben, die zum Aufrufen relevanter Ansichten in aktiven Aktivitäten verwendet werden können. |
 | Anfrage &gt; Vorab abrufen &gt; Ansichten &gt; Bestellung &gt; Gesamtsumme | Nein | Gesamtsumme `>=` 0 | Gesamtbestellsummen übergeben, die zum Aufrufen relevanter Ansichten in aktiven Aktivitäten verwendet werden können. |
 | Anfrage &gt; Vorab abrufen &gt; Ansichten &gt; Bestellung &gt; purchasedProductIds | Nein | Keine leeren Werte<br>Max. Länge jedes Wertes = 50<br>Per Komma verkettet und getrennt<br>Gesamtlänge der Produkt-IDs `<=` 250 | IDs gekaufter Produkte übergeben, die zum Aufrufen relevanter Ansichten in aktiven Aktivitäten verwendet werden können. |
-| Anfrage &gt; Ausführen | Nein |
-| Anfrage &gt; Ausführen &gt; pageLoad | Nein |
+| Anfrage &gt; Ausführen | Nein |  |  |
+| Anfrage &gt; Ausführen &gt; pageLoad | Nein |  |  |
 | Anfrage &gt; Ausführen &gt; pageLoad &gt; Parameter | Nein | Maximale Anzahl = 50<br>Name nicht leer<br>Länge des Namens `<=` 128<br>Länge des Wertes `<=` 5.000<br>Name sollte nicht mit „Profil“ beginnen.<br>Nicht zulässige Namen: „orderId“, „orderTotal“, „productPurchasedId“ | Angebote mit angegeben Parametern abrufen, wenn die Seite geladen wird. |
 | Anfrage &gt; Ausführen &gt; pageLoad &gt; profileParameters | Nein | Maximale Anzahl = 50<br>Name nicht leer<br>Länge des Namens `<=` 128<br>Länge des Wertes `<=`256<br>Name sollte nicht mit „Profil“ beginnen. | Angebote mit angegeben Profilparametern abrufen, wenn die Seite geladen wird. |
-| Anfrage &gt; Ausführen &gt; pageLoad &gt; Produkt | Nein |
+| Anfrage &gt; Ausführen &gt; pageLoad &gt; Produkt | Nein |  |  |
 | Anfrage &gt; Ausführen &gt; pageLoad &gt; Produkt -&gt; ID | Nein | Nicht leer<br>Maximale Größe = 128 | Angebote mit angegebenen Parametern abrufen, wenn die Seite geladen wird. |
 | Anfrage &gt; Ausführen &gt; pageLoad &gt; Produkt &gt; categoryId | Nein | Nicht leer<br>Maximale Größe = 128 | Angebote mit angegebenen Produktkategorie-IDs abrufen, wenn die Seite geladen wird. |
-| Anfrage &gt; Ausführen &gt; pageLoad &gt; Bestellung | Nein |
+| Anfrage &gt; Ausführen &gt; pageLoad &gt; Bestellung | Nein |  |  |
 | Anfrage &gt; Ausführen &gt; pageLoad &gt; Bestellung &gt; ID | Nein | Maximale Länge = 250 | Angebote mit angegebenen Bestell-IDs abrufen, wenn die Seite geladen wird. |
 | Anfrage &gt; Ausführen &gt; pageLoad &gt; Bestellung &gt; Gesamtsumme | Nein | `>=` 0 | Angebote mit angegebenen Gesamtbestellsummen abrufen, wenn die Seite geladen wird. |
 | Anfrage &gt; Ausführen &gt; pageLoad &gt; Bestellung &gt; purchasedProductIds | Nein | Keine leeren Werte<br>Max. Länge jedes Wertes = 50<br>Per Komma verkettet und getrennt<br>Gesamtlänge der Produkt-IDs `<=` 250 | Angebote mit angegebenen IDs gekaufter Produkte abrufen, wenn die Seite geladen wird. |
-| Anfrage &gt; Ausführen &gt; Mboxes | Nein | Maximale Größe = 50<br>Keine Null-Elemente |
+| Anfrage &gt; Ausführen &gt; Mboxes | Nein | Maximale Größe = 50<br>Keine Null-Elemente |  |
 | Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox | Ja | Nicht leer<br>Kein „-clicked“-Suffix<br>Maximale Größe = 250<br>Zulässige Zeichen: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Name der Mbox. |
 | Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Index | Ja | Nicht null<br>Eindeutig<br>`>=` 0 | Beachten Sie, dass der Index nicht die Reihenfolge darstellt, in der die Mboxes verarbeitet werden. Wie auf einer Webseite mit mehreren regionalen Mboxes kann die Reihenfolge, in der sie verarbeitet werden, nicht angegeben werden. |
 | Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Parameter | Nein | Maximale Anzahl = 50<br>Name nicht leer<br>Länge des Namens `<=` 128<br>Länge des Wertes `<=` 5.000<br>Name sollte nicht mit „Profil“ beginnen.<br>Nicht zulässige Namen: „orderId“, „orderTotal“, „productPurchasedId“ | Angebote für eine bestimmte Mbox mit den angegebenen Parametern abrufen. |
 | Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; profileParameters | Nein | Maximale Anzahl = 50<br>Name nicht leer<br>Länge des Namens `<=` 128<br>Länge des Wertes `<=`256<br>Name sollte nicht mit „Profil“ beginnen. | Angebote für eine bestimmte Mbox mit den angegebenen Profilparametern abrufen. |
-| Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Produkt | Nein |
+| Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Produkt | Nein |  |  |
 | Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Produkt &gt; ID | Nein | Nicht leer<br>Maximale Größe = 128 | Angebote für eine bestimmte Mbox mit den angegebenen Produkt-IDs abrufen. |
 | Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Produkt &gt; categoryId | Nein | Nicht leer<br>Maximale Größe = 128 | Angebote für eine bestimmte Mbox mit den angegebenen Produktkategorie-IDs abrufen. |
-| Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Bestellung | Nein |
+| Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Bestellung | Nein |  |  |
 | Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Bestellung &gt; ID | Nein | Maximale Länge = 250 | Angebote für eine bestimmte Mbox mit den angegebenen Bestell-IDs abrufen. |
 | Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Bestellung &gt; Gesamtsumme | Nein | `>=` 0 | Angebote für eine bestimmte Mbox mit den angegebenen Gesamtbestellsummen abrufen. |
 | Anfrage &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Bestellung &gt; purchasedProductIds | Nein | Keine leeren Werte<br>Max. Länge jedes Wertes = 50<br>Per Komma verkettet und getrennt<br>Gesamtlänge der Produkt-IDs `<=` 250 | Angebote für eine bestimmte Mbox mit den angegebenen IDs der gekauften Produkte der Bestellung abrufen. |
@@ -125,6 +128,60 @@ adobe.target.getOffers({
   }
 });
 ```
+
+## Rufen Sie getoffers () auf, die Analytics-Nutzlast von Clientseite abzurufen.
+
+```
+adobe.target.getOffers({
+      request: {
+        experienceCloud: {
+          analytics: {
+            logging: "client_side"
+          }
+        },
+        prefetch: {
+          mboxes: [{
+            index: 0,
+            name: "a1-serverside-xt"
+          }]
+        }
+      }
+    })
+    .then(console.log)
+```
+
+**Antwort**:
+
+```
+{
+  "prefetch": {
+    "mboxes": [{
+      "index": 0,
+      "name": "a1-serverside-xt",
+      "options": [{
+        "content": "<img src=\"http://s7d2.scene7.com/is/image/TargetAdobeTargetMobile/L4242-xt-usa?tm=1490025518668&fit=constrain&hei=491&wid=980&fmt=png-alpha\"/>",
+        "type": "html",
+        "eventToken": "n/K05qdH0MxsiyH4gX05/2qipfsIHvVzTQxHolz2IpSCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+        "responseTokens": {
+          "profile.memberlevel": "0",
+          "geo.city": "bucharest",
+          "activity.id": "167169",
+          "experience.name": "USA Experience",
+          "geo.country": "romania"
+        }
+      }],
+      "analytics": {
+        "payload": {
+          "pe": "tnt",
+          "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+        }
+      }
+    }]
+  }
+}
+```
+
+Die Nutzlast kann dann über die [Dateneinfüge-API an Adobe Analytics weitergeleitet](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)werden.
 
 ## Daten aus mehreren mboxes über getoffers () und applyoffer () abrufen und rendern () {#multiple}
 
