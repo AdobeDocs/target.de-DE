@@ -9,7 +9,7 @@ title: „at.js“-Funktionen
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: c607b241afb535f324cd1357c8784a88fb183658
+source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
 
 ---
 
@@ -32,4 +32,6 @@ Liste der Funktionen, die mit der at.js-JavaScript-Bibliothek von Adobe Target v
 | [Targetpageparams (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) | Mit dieser Methode können Sie Parameter von außerhalb des Anforderungscodes an die globale Mbox anfügen. |
 | [Targetpageparamsall (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | Mit dieser Methode können Sie Parameter von außerhalb des Anforderungscodes an alle Mboxes anfügen. |
 | [Registerextension (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at. js 1. x) | Stellt eine Standardart zur Registrierung bestimmter Erweiterungen dar.<br>**Hinweis:** Diese Funktion steht für at. js-Versionen 1 zur Verfügung.*x*, zur Verfügung. Diese Funktion wurde mit der Veröffentlichung von at. js 2. x veraltet. Diese Funktion gibt Standardinhalt zurück, wenn sie mit at. js 2. x verwendet wird. |
-| [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | benutzerdefinierte at. js-Ereignisse teilen Ihnen mit, wenn eine Mbox-Anforderung oder ein Angebot erfolgreich oder fehlgeschlagen ist. |
+| [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | benutzerdefinierte at. js-Ereignisse teilen Ihnen mit, wenn eine Mbox-Anforderung oder ein Angebot fehlschlägt oder erfolgreich ist. |
+| [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at. js 2.1.0) | Diese Funktion sendet eine Benachrichtigung an Target-Edge, wenn ein Erlebnis ohne Verwendung `adobe.target.applyOffer()` oder `adobe.target.applyOffers()`.<br>**Hinweis**: Diese Funktion wurde in at. js 2.1.0 eingeführt und steht für alle Versionen über 2.1.0 zur Verfügung. |
+
