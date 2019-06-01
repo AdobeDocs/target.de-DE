@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: „at.js“-Versionsdetails
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 76a212d334564379a061e740d9b7a1a92b889a15
+source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
 
 ---
 
@@ -20,6 +20,24 @@ Details zu den Änderungen in den einzelnen Versionen der javascript-Bibliothek 
 >[!IMPORTANT]
 >
 >Das Target-Team pflegt nur zwei Versionen von [!DNL at.js] – die aktuelle Version und die zweitneueste Version. Führen Sie bei Bedarf ein Upgrade von [!DNL at.js] durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
+
+## at. js Version 2.1.0 (Datum der Ankündigung)
+
+Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
+
+* **Support für Adobe-Teilnahme**: Adobe-Opt-in bietet eine Möglichkeit, Adobe-Lösungsintegrationen mit Genehmigungsverwaltungsplattformen zu vereinfachen. Weitere Informationen zu Adobe Opt-In finden Sie unter [Privatsphäre und Datenschutz-Grundverordnung (DSGVO)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+
+* **Branchenübliche CSP-kompatibel**: at. js verwendet keine eval () mehr, um javascript auszuführen.
+
+* **Clientseitige Analyseprotokollierung**: Geben Sie Kunden volle Kontrolle darüber, wie sie Analytics-Daten an Adobe Analytics senden können, ob auf Client- oder serverseitig.
+
+   Weitere Informationen finden Sie unter [clientseitige Analytics-Anmeldung](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) *Vor der Implementierung*.
+
+* **Benachrichtigungen senden**: Erlauben Sie Entwicklern, Benachrichtigungen zu senden, wenn ein Erlebnis durch ihren Code statt über den Code wiedergegeben `applyOffer()` wird oder `applyOffers()`.
+
+   Weitere Informationen finden Sie unter [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+
+* **at. js-Größe um ~ 24% verringert**: Die Größe von at. js wird um ~ 24% verringert. Die kleinere Dateigröße verbessert die Seitenladeleistung und verringert die Zeit, at. js auf der Seite herunterzuladen.
 
 ## at. js Version 2.0.1 (19. März 2019)
 
@@ -67,7 +85,7 @@ Weitere Informationen finden Sie unter [Aktualisieren von at. js 1. x auf at. js
 
 >[!NOTE]
 >
->Wenn Sie für die [allgemeine](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) Data Protection Protection (GDPR) Unterstützung von Adobe benötigen, müssen Sie derzeit at. js 1.7.0 verwenden. Die Teilnahme an der Teilnahme wird derzeit in at. js 2. x nicht unterstützt.
+>Wenn Sie für die [allgemeine](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) Data Protection Protection (GDPR) Unterstützung von Adobe benötigen, müssen Sie derzeit at. js 1.7.0 oder at. js 2.1.0 verwenden.
 
 ## „at.js“-Version 1.7.0{#at-js-170}
 
@@ -79,7 +97,7 @@ Diese Version behebt auch ein Problem, bei dem Target möglicherweise Umleitungs
 
 >[! NOTE]
 >
->Wenn Sie für GDPR Adobe Opt-in-Unterstützung benötigen, müssen Sie derzeit at. js 1.7.0 verwenden. Die Teilnahme an der Teilnahme wird derzeit in at. js 2. x nicht unterstützt.<br>Eine Liste aller Versionen finden Sie unter [at. js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>Wenn Sie für GDPR Adobe Opt-in-Unterstützung benötigen, müssen Sie derzeit at. js 1.7.0 oder 2.1.0 verwenden.<br>Eine Liste aller Versionen finden Sie unter [at. js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## „at.js“-Version 1.6.4{#at-js-164}
 
