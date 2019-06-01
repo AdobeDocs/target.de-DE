@@ -1,11 +1,11 @@
 ---
 description: Verwenden Sie den Visual Experience Composer, um die Angebote zu erstellen, die Sie bei Ihrem Test berücksichtigen möchten.
 seo-description: Verwenden Sie den Visual Experience Composer, um die Angebote zu erstellen, die Sie bei Ihrem Test berücksichtigen möchten.
-seo-title: Erstellen von Kombinationen
+seo-title: Erstellen von Kombinationen in Adobe Target
 title: Erstellen von Kombinationen
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
 
 ---
 
