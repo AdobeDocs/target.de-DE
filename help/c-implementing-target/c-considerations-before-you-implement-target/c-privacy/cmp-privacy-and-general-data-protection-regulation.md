@@ -8,7 +8,7 @@ title: Privatsphäre und Datenschutz-Grundverordnung (DSGVO)
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 6c1b4f26f635eab661ec426f9241b26247e880c3
+source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 ---
 
@@ -55,7 +55,7 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->Die Opt-in-Funktionalität wird in at.js, Version 1.7.0, unterstützt, derzeit aber nicht in at.js, Version 2.0.0.
+>Die Teilnahme an der Teilnahme wird in at. js Version 1.7.0 und at. js 2.1.0 unterstützt. Die Anmeldung wird in at. js Version 2.0.0 und 2.0.1 nicht unterstützt.
 >
 >Die Verwendung von Adobe Launch zur Verwaltung von Opt-ins ist der empfohlene Ansatz. In Adobe Launch können Sie außerdem präziser steuern, ob ausgewählte Elemente Ihrer Seite vor der Target-Auslösung ausgeblendet werden. Dies ist nützlich für Ihre Strategie zur Einwilligungsverwaltung.
 
