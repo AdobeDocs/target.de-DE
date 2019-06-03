@@ -8,7 +8,7 @@ title: Versionshinweise für vorherige Versionen
 topic: 'Recommendations '
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 40839ec16544546e566e6eebb2331628de3dc021
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -23,7 +23,7 @@ Versionshinweise für vorherige Target-Versionen, einschließlich Versionshinwei
 
 ## Versionshinweise 2019 {#releases-2019}
 
-## Visual Experience Composer für Mobilgeräte (14. Mai 2019) {mobile-vec}
+## Visual Experience Composer für Mobile Apps (14. Mai 2019) {#mobile-vec}
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
