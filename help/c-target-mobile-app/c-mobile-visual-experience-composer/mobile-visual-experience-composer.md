@@ -7,7 +7,7 @@ title: Visual Experience Composer für mobile Apps
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 766b6827b01d47fc83b685995deb4c2ed98323c8
+source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 ---
 
@@ -182,6 +182,32 @@ Für zusätzliche Flexibilität können Sie auch die `TargetVEC.prefetchOffers()
 
 Beachten Sie, dass jedes Mal, wenn Target-Angebote vorabgerufen werden, die Angebote für die zuletzt mit `AdobeTargetMobile.targetView()` ausgelöste Target-Ansicht ebenfalls angewendet werden, wenn möglich.
 
+## Fehlerbehebung {#ts}
+
+**Ich habe eine Fehlermeldung erhalten, dass mein &quot;context. application. name&quot; -Wert unzulässige Zeichen enthält. Welche Zeichen sind in mobilen App-Namen zulässig?**
+
+Zulässige Zeichen in mobilen App-Namen sind:
+
+| Zulässige Zeichen | Beschreibung |
+| --- | --- |
+| Briefe |  |
+| Zahlen |  |
+| `-` | Bindestrich |
+| `.` | Zeitraum |
+| `,` | Komma |
+| `:` | Doppelpunkt |
+| `#` | Raute |
+| `(` | Öffnen von Klammern |
+| `)` | Schließende Klammer |
+| `&` | Kaufmännisches Und |
+| `+` | Pluszeichen |
+
+Wenn Sie ein Zeichen verwenden, das nicht zulässig ist, beispielsweise ein Apostroph ( `'` ), erhalten Sie die folgende Fehlermeldung:
+
+```
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+```
+
 ## Bekannte Einschränkungen {#limitations}
 
 * Die Mobile App VEC kann derzeit verwendet werden, um [A/B-Test](/help/c-activities/t-test-ab/test-ab.md) - und [Erlebnis-Targeting (XT)](/help/c-activities/t-experience-target/experience-target.md) -Aktivitäten für mobile Apps zu erstellen. Unterstützung für weitere Aktivitätstypen ist geplant.
@@ -199,4 +225,4 @@ Beachten Sie, dass jedes Mal, wenn Target-Angebote vorabgerufen werden, die Ange
 
 ## Schulungsvideo: Visual Experience Composer für Adobe Target Mobile Comp (3:33) {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27528)
+>[!VIDEO](https://video.tv.adobe.com/v/27528?captions=ger)
