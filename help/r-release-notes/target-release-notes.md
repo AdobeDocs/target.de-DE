@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: bac43f0907b083f416aaf72fca0eb4c6d4b83a7e
 
 ---
 
@@ -23,39 +23,18 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 >
 >Diese Versionshinweise enthalten Vorabversionsinformationen. Änderungen an Release-Daten, Funktionen und anderen Informationen vorbehalten. Informationen zur aktuellen Version finden Sie unter [Target-Versionshinweise](release-notes.md). Die Informationen auf diesen Seiten können je nach Timing der Versionen identisch sein oder abweichen.
 
-## at. js Version 2.1.0 (3. Juni 2019)
-
-Wir freuen uns über die folgenden spannenden Funktionen in at. js 2.1.0:
+## Target Standard/Premium 19.6.1 (25. Juni 2019) {#tgt-19-6-1}
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| Support für Adobe-Teilnahme | Adobe Opt-In bietet die Möglichkeit, Adobe-Lösungsintegrationen mit Genehmigungsverwaltungsplattformen zu vereinfachen.<br>Weitere Informationen zu Adobe Opt-In finden Sie unter [Privatsphäre und Datenschutz-Grundverordnung (DSGVO)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
-| Branchenübliche CSP-kompatibel | at. js verwendet keine eval () mehr, um javascript auszuführen. |
-| Clientseitige Analyseprotokollierung | Gibt Kunden volle Kontrolle darüber, wie sie Analytics-Daten an Adobe Analytics senden können, ob auf Client- oder serverseitig. |
-| Benachrichtigungen senden | Ermöglicht es Entwicklern, Benachrichtigungen zu senden, wenn ein Erlebnis durch ihren Code statt durch Verwendung oder `applyOffer()``applyOffers()`Verwendung wiedergegeben wird. |
-| Geringere Dateigröße | Die Größe von at. js wird um ~ 24% verringert. Die kleinere Dateigröße verbessert die Seitenladeleistung und verringert die Zeit, at. js auf der Seite herunterzuladen. |
-
-## [!DNL Target] Standard/Premium 19.5.1 (21. Mai 2019) {#release-19-5-1-prerelease}
-
-Diese Version enthält die folgenden Funktionen, Änderungen und Verbesserungen:
-
-(Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
-
-### Funktionsaktualisierungen
-
-| Funktion/Verbesserung | Beschreibung |
-| --- | --- |
-| Einzelseitenanwendung Visual Experience Composer (SPA VEC) | Der SPA VEC enthält die folgenden Verbesserungen, mit denen Sie Ihre Arbeit schneller und effizienter erledigen können:<ul><li>Durch Klicken auf eine Aktion in der SPA wird das Element auf der Site markiert, auf das diese Aktion angewendet wird. Jede VEC-Aktion, die unter einer Ansicht erstellt wurde, hat vier entsprechende Symbole: Informationen, Bearbeiten, Verschieben und Löschen. Mit der neuen Funktion &quot;Verschieben&quot; in dieser Version können Sie die Aktion in ein Seitenladereignis oder eine andere Ansicht verschieben, die bereits im Änderungs-Bedienfeld vorhanden ist. (TGT-33746)</li><li>Sie können viele Aktionen ausführen, bevor die Seite im VEC geladen wird, oder selbst dann, wenn die Seite nicht vollständig geladen werden kann (wenn beispielsweise benutzerdefinierter Code nicht mehr funktioniert). Aktionen, die nicht bearbeitet werden können, bevor die Website geladen ist, sind in der Benutzeroberfläche von Target deaktiviert. (TGT-33851 und TGT-34149)</li></ul>Weitere Informationen finden Sie unter [Visual Experience Composer für Einzelseiten-Apps (SPAs)](/help/c-experiences/spa-visual-experience-composer.md). |
+| Visual Experience Composer (VEC) | <ul><li>Sie können jetzt das [!DNL Styles > Background] Menü im VEC verwenden, um das Hintergrundbild und die Hintergrundfarbe für das ausgewählte Element zu ändern. (TGT-15001)</li><li>Wenn Sie im VEC auf ein Seitenelement klicken, werden in einem Menü die für diesen Elementtyp verfügbaren Optionen angezeigt. Wenn Sie auf ein Bild klicken, werden [!DNL Replace With]zwei neue Optionen angezeigt: [!DNL HTML] und [Erlebnisfragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md).<br> Durch das Ersetzen eines Bildes mit HTML können Sie das Element vollständig steuern, ohne das übergeordnete Element auszuwählen, um auf die HTML-Option zuzugreifen. Mit Erlebnisfragmenten können Sie in Adobe Experience Manager (AEM) erstellte Elemente schnell in Target-Aktivitäten einfügen. (TGT-34097)</li></ul> |
+| Einzelseitenapp (SPA) Visual Experience Composer (VEC) | <ul><li>Ein neuer geführter Arbeitsablauf hilft Ihnen, zu verstehen, wie die Einstellungen für die Seitenauslieferung konfiguriert werden sollen, um eine Aktivität für Ihre einzelne Seite-App erfolgreich auszuführen und auszuführen. (TGT-33718)</li><li>Sie können jetzt eine Änderung mithilfe der SPA VEC definieren und diese Änderung dann klonen, um sie in anderen Ansichten Ihrer Einzelseitenanwendung zu verwenden. (TGT-33882)</li><li>Wir haben den Prozess zur Konfiguration der Klick-Tracking innerhalb der SPA VEC verbessert.<br>Während Sie Elemente auswählen, die bei der Klick-Verfolgung verwendet werden sollen, werden die Namen aller verfügbaren Elemente im Bedienfeld &quot;Modifizierungen&quot; auf der rechten Seite angezeigt, sodass die gewünschten Elemente schnell und einfach ausgewählt werden können.<br>Die [!DNL Goals & Settings] Seite des drei-teiligen Arbeitsablaufs für geführte Aktivitäten zeigt eine Zahl an, die die Anzahl der für die Klick-Verfolgung ausgewählten Elemente darstellt. Sie können den Mauszeiger über diese Nummer bewegen, um die Namen aller ausgewählten Elemente anzuzeigen. (TGT-33878) </li></ul> |
+| Visual Experience Composer (VEC) von Mobile | <ul><li>Sie können jetzt Aktivitäten für mehrere Versionen Ihrer mobilen App erstellen, damit Sie Zeit und Mühe sparen, wenn die Versionen sehr ähnlich sind und Sie die Benutzeroberfläche der App nicht wesentlich ändern müssen. (TGT-34231)</li></ul> |
+| ![Premium badgeautomated](/help/assets/premium.png)<br>Personalisierung (AP) und automatisches Targeting von Aktivitäten: Erlebnis als Kontrolle in | <ul><li>Sie können beim Erstellen eines AP oder eines automatischen Targetings ein Control-Erlebnis auswählen. Mit dieser Funktion können Sie den gesamten Control-Traffic zu einem bestimmten Erlebnis leiten, basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert. Anschließend können Sie die Leistung der personalisierten Bereitstellungen anhand des Control-Erlebnisses bewerten. (TGT-32801 und TGT-26572)</li></ul> |
 
 ### Verbesserungen, Fehlerbehebungen und Änderungen
 
-* Die Symbole der Symbolleiste werden entsprechend angezeigt, nachdem Sie das Laden einer Seite innerhalb des VEC abgebrochen haben. Wenn bestimmte Aktionen erst nach dem vollständigen Laden der Seite ausgeführt werden können, werden die zugehörigen Symbolleistensymbole deaktiviert. (TGT-33811)
-
-## Visual Experience Composer für Mobile Apps (14. Mai 2019) {#mobile-vec-may14}
-
-| Funktion/Verbesserung | Beschreibung |
-| --- | --- |
-| Visual Experience Composer (VEC) für mobile Apps | Mit Mobile App VEC können Sie Aktivitäten erstellen und Inhalte auf nativen Mobil-Apps ohne ständige Entwicklungsabhängigkeiten und App-Versionszyklen personalisieren.<br>Weitere Informationen finden Sie unter:<ul><li>[Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Einrichten des Klick-Trackings im Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[Video: Visual Experience Composer für Mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
+* Die   <BODY> wird jetzt im DOM-Pfad angezeigt, der unten im VEC angezeigt wird, wenn Sie auf ein Element auf der Seite klicken, sodass Sie Aktionen am <BODY> Tag Deklarationen folgen. (TGT-33736)
 
 ## Informationen zur Vorabversion {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
