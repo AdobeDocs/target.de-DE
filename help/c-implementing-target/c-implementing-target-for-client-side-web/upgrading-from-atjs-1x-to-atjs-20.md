@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: Upgrade von at. js 1. x auf at. js 2. x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
+source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
 
 ---
 
@@ -55,13 +55,15 @@ Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten un
 
 ## at. js 2. x bereitstellen {#deploy-atjs-200}
 
-1. Laden Sie at. js 2. x über die Target-Benutzeroberfläche herunter.
-
-   ![Dialogfeld „Implementierungsdetails“](/help/c-experiences/assets/imp-200.png)
+1. Stellen Sie at. js 2. x über die [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) -Erweiterung bereit.
 
    >[!NOTE]
    >
-   >Die Installation von at. js 2. x über die [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) -Erweiterung wird noch nicht unterstützt.
+   > Die Bereitstellung von at. js mit Adobe Launch ist die bevorzugte Methode.
+
+   Oder
+
+   Laden Sie at. js 2. x manuell über die Target-Benutzeroberfläche herunter und stellen Sie sie mithilfe der [Methode Ihrer Wahl bereit](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## Nicht mehr unterstützte Funktionen von at.js
 
@@ -342,7 +344,7 @@ Die folgenden Tabellen erläutern die at.js. 2.0.0-Kompatibilität mit verschied
 | Zielgruppen | Ja |
 | Kundenattribute | Ja |
 | AEM-Erlebnisfragmente | Ja |
-| Adobe Launch-Erweiterung | Derzeit nicht |
+| Adobe Launch-Erweiterung | [Ja](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Debugger | Ja |
 | Auditor | Regeln wurden für at. js 2. x noch nicht aktualisiert. |
 | Dynamischer Tag-Manager (DTM) | Ja |
