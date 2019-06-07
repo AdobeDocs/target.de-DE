@@ -8,7 +8,7 @@ title: Schulungsvideos für Adobe Target Standard und Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: df4b2681720b83d967a378733dfc58301b1ca7ee
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -27,18 +27,18 @@ Videos sind in folgenden Kategorien verfügbar:
 * Implementierung und Fehlerbehebung
 * Marketing-Fallbeispiele
 
-## Eingebettet in die Adobe Target-Hilfe   {#section_53C618334E974FB89B3F093DEF789CCB}
+## Eingebettet in die Adobe Target-Hilfe {#section_53C618334E974FB89B3F093DEF789CCB}
 
 Schulungsvideos wurden in die relevanten Themen dieses Leitfadens eingebettet. Klicken Sie auf das Bild, um das Video innerhalb der Hilfe abzuspielen.
 
-## Adobe Target - Übungen und Videos
+## Adobe Target - Tutorials und Videos
 
-Eine Sammlung von Videos und Lernprogrammen, die die Funktionen von Target hervorheben, finden Sie auf der [Seite Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) .
+Eine Sammlung von Videos und Tutorials, die die Funktionen von Target hervorheben, finden Sie auf der Seite [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target).
 
 ![Videos zu Experience League](/help/c-intro/assets/experience-league.png)
 
-## Adobe Target-Übungen
+## Adobe Target-Tutorials {#tutorials}
 
-Einführungsvideos zu [!DNL Target] Konzepten und Werkzeugen finden Sie auf der [Adobe Target Tutorials](https://helpx.adobe.com/target/tutorials.html) -Seite.
+Einführungsvideos zu [!DNL Target] Konzepten und Werkzeugen finden Sie auf der [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) -Seite.
 
-![Adobe Target-Übungen](/help/c-intro/assets/adobe-target-tutorials.png)
+![Adobe Target-Tutorials](/help/c-intro/assets/adobe-target-tutorials-new.png)
