@@ -1,7 +1,7 @@
 ---
 description: Dieser Abschnitt enthält die ersten Schritte für Target-Administratoren, die nach dem Erhalt der Einladung in Adobe Experience Cloud durchgeführt werden sollten.
 keywords: Administration;Genehmiger-Rolle;Genehmiger
-seo-description: Dieser Abschnitt enthält die ersten Schritte, die Adobe Target-Administratoren nach dem Erhalt der Einladung in die Adobe Experience Cloud ausführen sollten.
+seo-description: Dieser Abschnitt enthält die ersten Schritte für Target-Administratoren, die nach dem Erhalt der E-Mail-Einladung zu Adobe Experience Cloud durchgeführt werden sollten.
 seo-title: Erste Schritte für Administratoren
 solution: Target
 subtopic: Erste Schritte
@@ -9,32 +9,26 @@ title: Erste Schritte für Administratoren
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
 
 ---
 
 
 # Erste Schritte für Administratoren{#administrator-first-steps}
 
-Dieser Abschnitt enthält die ersten Schritte [!DNL Target] , die Administratoren ausführen sollten, nachdem sie die Einladung per E-Mail an sie [!DNL Adobe Experience Cloud]gesendet haben.
+Dieser Abschnitt enthält die ersten Schritte für [!DNL Target]-Administratoren, die nach dem Erhalt der Einladung in [!DNL Adobe Experience Cloud] durchgeführt werden sollten.
 
-## Einladen von Benutzern zu Target {#task_3E0817630774431983FAA3D2CB2E75BD}
+## Einladung zu Target erhalten {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-Administratoren fügen [!DNL Target] Benutzer hinzu, indem Sie sie einladen.
+Ein Systemadministrator muss Sie als [!DNL Adobe Admin Console] Benutzer hinzufügen, indem [!DNL Target] Sie sie zur Teilnahme einladen. Der Systemadministrator sollte Sie dann einer oder mehreren rollenspezifischen Gruppen hinzufügen. Beide Aufgaben werden in der [Adobe Admin-Konsole durchgeführt](https://adminconsole.adobe.com).
 
-1. Fügen Sie den neuen Benutzer den rollenspezifischen Gruppen auf dem Enterprise Dashboard hinzu.
+Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -produkten](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in der Hilfe *zu Experience Cloud und Core Services*.
 
-   Nachdem Sie den Benutzer hinzugefügt haben, erhält er eine Einladung per E-Mail.
-
-1. Nachdem der Benutzer die Einladung angenommen und sich in [!DNL Target] angemeldet hat, müssen Sie die Benutzerrechte auf der Seite [!UICONTROL Benutzer] in [!DNL Target Standard/Premium] festlegen (**[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Benutzer]**).
-
-   Der neue Benutzer wird auf der Seite [!UICONTROL &quot;Benutzer&quot;] nicht angezeigt, bis sich der Benutzer mit seinem [!DNL Adobe Experience Cloud] Konto anmeldet und sich dann anmeldet, indem [!DNL Target Standard/Premium] er auf die [!DNL Target] Karte klickt.
-
-   ![Target-Karte](/help/administrating-target/assets/target_card_new.png)
+Nachdem der Systemadministrator diese Schritte durchgeführt hat, erhalten Sie eine Einladungs-E-Email.
 
 ## Annehmen der Einladung {#task_24FE66659E634B24AB61DB8497772E17}
 
-Nehmen Sie die Einladung in [!DNL Adobe Experience Cloud] nach deren Erhalt an, melden Sie sich an und akzeptieren Sie die Endbenutzer-Lizenzvereinbarung (EULA).
+Akzeptieren Sie die Einladung, melden Sie sich an und [!DNL Adobe Experience Cloud]akzeptieren Sie die Endbenutzerlizenzvereinbarung (EULA), nachdem Sie die Einladung erhalten haben.
 
 1. Nehmen Sie die Einladung in [!DNL Adobe Experience Cloud] an.
 1. Wenn Sie noch keine Adobe ID besitzen, werden Sie aufgefordert, eine zu erstellen.
@@ -46,7 +40,7 @@ Nehmen Sie die Einladung in [!DNL Adobe Experience Cloud] nach deren Erhalt an, 
 
    >[!NOTE]
    >
-   >Wenn Sie Ihr Konto nicht verknüpfen, können Sie nicht auf [!DNL Adobe Target Standard] zugreifen.
+   >Wenn Sie Ihr Konto nicht verknüpfen, können Sie nicht auf [!DNL Target] zugreifen.
 
    Alle Experience Cloud-Produkte werden auf der Verknüpfungsseite angezeigt. Klicken Sie auf `Link Test&Target` und geben Sie Ihren Benutzernamen und Ihr Passwort für Test&amp;Target ein, um auf Standard und Classic zugreifen zu können.
 1. Klicken Sie auf **[!UICONTROL Weiter zu Experience Cloud]**.
@@ -58,15 +52,10 @@ Nehmen Sie die Einladung in [!DNL Adobe Experience Cloud] nach deren Erhalt an, 
 
 ## Weisen Sie sich die Rolle „Genehmiger“ zu {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-Bestätigen Sie, nachdem Sie die Einladung in [!DNL Adobe Experience Cloud] angenommen und sich angemeldet haben, dass Ihrem [!DNL Experience Cloud]-Konto Standard hinzugefügt wurde, und weisen Sie sich anschließend in [!UICONTROL  selbst die Rolle ]Genehmiger[!DNL Target Standard] zu.
+Nachdem Sie die Einladung zum Beitritt angenommen [!DNL Adobe Experience Cloud] und sich angemeldet haben, bestätigen Sie, dass Target Ihrem [!DNL Experience Cloud] Konto hinzugefügt wurde, und weisen Sie sich dann die [!UICONTROL Rolle Genehmigende Person] [!DNL Target]zu.
 
-1. Klicken Sie nach dem Anmelden bei [!DNL Adobe Experience Cloud] auf **[!UICONTROL Target]**.
+Wenn Ihr Unternehmen über eine [Target Standard](/help/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) -Lizenz verfügt, lesen Sie [Rollen und Berechtigungen](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *den Benutzern angeben*.
 
-   Die [!DNL Target Standard]-Karte wird angezeigt. Hiermit wird bestätigt, dass Sie Ihrem [!DNL Experience Cloud]-Konto Standard hinzugefügt haben. Sie können jetzt noch keine Aktivität erstellen, da Sie noch nicht über die Rolle [!UICONTROL Genehmiger] verfügen.
-1. Klicken Sie auf die [!UICONTROL Target Standard]-Karte und klicken Sie in Standard auf **[!UICONTROL Einrichten]** &gt; **[!UICONTROL Benutzer]**.
+Wenn Ihr Unternehmen über eine [Target Premium](/help/c-intro/intro.md#premium) -Lizenz verfügt, lesen Sie [Schritt 6: Geben Sie Rollen und Berechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) unter *Unternehmensberechtigungen*konfigurieren an.
 
-   Ihr Name wird in der Liste der Benutzer angezeigt.
-1. Klicken Sie auf das Optionsfeld [!DNL Approver].
-
-   Nun sind Sie ein „Genehmiger“ und können Aktivitäten, Zielgruppen und Inhalte erstellen und bearbeiten. Sie können außerdem Aktivitäten genehmigen.
-1. Fahren Sie mit dem nächsten Schritt fort, [Festlegen von Benutzern und Rollen](../administrating-target/c-user-management/c-user-management/user-management.md#concept_501166A5F8FB4964A3AAA15D6095C6BE).
+Der nächste Schritt sollte darin bestehen, Benutzer in Target Standard und Target Premium einzurichten. Weitere Informationen finden Sie unter [Benutzerverwaltung](/help/administrating-target/c-user-management/user-management.md).
