@@ -10,7 +10,7 @@ topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 badge: premium
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlungsvorlagen anzupassen.
 
-## Velocity-Übersicht {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Geschwindigkeitsübersicht {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 Informationen über Velocity finden Sie unter [](https://velocity.apache.org)https://velocity.apache.org.
 
@@ -151,7 +151,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=&quot;- topic/note&quot;}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Wenn Sie nach dem Variablenwert Informationen hinzufügen möchten, können Sie dies mit einer formalen Notation tun. Beispiel: `${entity1.thumbnailUrl}.gif`.
 
@@ -180,7 +180,7 @@ Das Ergebnis ist ein Entwurf wie der folgende, in dem das Schlüsselelement in e
 
 Wenn Sie Ihre [!DNL Recommendations]-Aktivität erstellen und das Schlüsselelement vom Benutzerprofil genommen wird, zum Beispiel „Zuletzt gekaufter Artikel“, zeigt [!DNL Target] ein zufällig ausgewähltes Produkt im [!UICONTROL Visual Experience Composer an]. Dies beruht darauf, dass ein Profil beim Erstellen der Aktivität nicht verfügbar ist. Wenn Besucher die Seite anzeigen, sehen sie das erwartete Schlüsselelement.
 
-## Szenario: Dezimalpunkt in einem Verkaufspreis durch Kommatrennzeichen ersetzen   {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Szenario: Dezimaltrennzeichen durch Komma in einem Vertriebspreis ersetzen {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 Sie können Ihren Entwurf anpassen, um den Dezimalpunkt, der in den USA zum Einsatz kommt, durch ein Kommatrennzeichen zu ersetzen, wie es in Europa und anderen Ländern üblich ist.
 
@@ -206,3 +206,39 @@ Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreise
                                     </span>
 ```
 
+## Szenario: Erstellen Sie ein standardmäßiges Recommendations-Design von 4 x 2 mit Null-Prüfungen. {#default}
+
+Mithilfe eines Velocity-Skripts zur Steuerung der dynamischen Größe der Entitätsanzeige wird die folgende Vorlage für ein 1-zu-viele-Ergebnis verwendet, um leere HTML-Elemente zu vermeiden, wenn nicht genügend übereinstimmende Entitäten zurückgegeben [!DNL Recommendations]werden. Dieses Skript eignet sich optimal für Szenarios, wenn Reserveempfehlungen nicht sinnvoll sind und [!UICONTROL partielles Vorlagenrendering] aktiviert ist.
+
+Der folgende HTML-Abschnitt ersetzt den vorhandenen HTML-Teil im Standardentwurf von 4 x 2 (die CSS wird hier aufgrund der Ähnlichkeit nicht berücksichtigt):
+
+* Wenn eine fünfte Entität vorhanden ist, fügt das Skript ein schließendes div ein und öffnet eine neue Zeile mit `<div class="at-table-row">`.
+* Mit 4 x 2 sind die maximal angezeigten Ergebnisse 8. Dies könnte jedoch für kleinere oder größere Listen angepasst werden, indem sie geändert `$count <=8`werden.
+* Beachten Sie, dass die Logik die Entitäten in mehreren Zeilen nicht ausgewogen abgleicht. Wenn es beispielsweise fünf oder sechs anzuzeigende Entitäten gibt, wird sie nicht dynamisch drei und zwei am unteren Ende (oder drei oben und drei unten) angezeigt. Die oberste Zeile zeigt vier Elemente, bevor Sie eine zweite Zeile starten.
+
+```
+<div class="at-table">
+  <div class="at-table-row">
+    #set($count=1) 
+    #foreach($e in $entities)  
+        #if($e.id != "" && $count < $entities.size() && $count <=8) 
+            #if($count==5) 
+                </div>
+                <div class="at-table-row">
+            #end
+            <div class="at-table-column">
+                <a href="$e.pageUrl"><img src="$e.thumbnailUrl" class="at-thumbnail" />
+                    <br/>
+                    <h3>$e.name</h3>
+                    <br/>
+                    <p class="at-light">$e.message</p>
+                    <br/>
+                    <p class="at-light">$$e.value</p>
+                </a>
+            </div>
+            #set($count = $count + 1) 
+        #end 
+    #end
+    </div>
+  </div>
+```
