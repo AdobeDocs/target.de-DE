@@ -5,10 +5,10 @@ seo-description: Testen Sie dynamisch Bilder in E-Mails und ändern Sie diese Bi
 seo-title: Testen einer E-Mail-Bild-AdBox
 solution: Target
 title: Testen einer E-Mail-Bild-AdBox
-topic: 'Recommendations '
+topic: Recommendations
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 384182cf3bd9110ebd5da124a2cc0f9a1b6cbf81
+source-git-commit: f7651205c27c6194e50610a916f51c5e585bf2a9
 
 ---
 
@@ -36,13 +36,13 @@ mboxSession={123456}&
 mboxPC={123456}” border=“0"/>
 ```
 
-Wenn die folgenden Werte spezifisch für Sie sind:
+Hierbei sind die unten stehenden Werte spezifisch für Sie:
 
 | Wert | Beschreibung |
 |--- |--- |
 | clientcode | Clientcode Ihres Unternehmens. In at.js oder mbox.js ist dies als `clientCode='yourclientcode'` gelistet. Er besteht ausschließlich aus Kleinbuchstaben ohne Sonderzeichen. |
 | image | Der Angebotstyp. Er ist immer „image“ für Grafikanzeigen und „page“ für Weiterleitungen. |
 | email_header | Der Name der AdBox. |
-| `http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Der Standardinhalt der AdBox. Hierbei muss es sich um einen URL-codierten, absoluten Verweis handeln. |
+| `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Erforderlich. Ersetzen Sie die URL durch den entsprechenden Standardinhalt für Ihre adbox. Hierbei muss es sich um einen URL-codierten, absoluten Verweis handeln. |
 | `mboxXDomain=disabled` | Weist Target an, kein Cookie zu setzen. |
 | `mboxSession=123456` und `mboxPC=123456` | Zwei Werte, die von Target benötigt werden, um dieses Benutzerprofil mit seinem bestehenden Profil für Ihre Site zusammenzuführen. 123456 ist die eindeutige Kennung, die für die E-Mail erzeugt wird. Fügen sie diesen Wert dynamisch in jede AdBox- und Weiterleitungs-URL ein. Diese Nummer muss für jede gesendete E-Mail eindeutig sein. Wird eine wöchentliche E-Mail an 1.000 Personen gesendet, müssen also 1.000 eindeutige Kennungen erzeugt werden.<br>Die eindeutige E-Mail-Kennung muss mboxSession und mboxPC in jeder AdBox- und Weiterleitungs-URL zugewiesen werden. Zeitstempel-NNNNN ist das empfohlene Format für diese Kennzeichnung, wobei NNNNN eine zufällige fünfstellige Zahl ist. Jedes alphanumerische Format ist zulässig. Einige Services für Massen-E-Mails sowie jede Programmiersprache sind zur Erzeugung dieser eindeutigen Kennung in der Lage. |
