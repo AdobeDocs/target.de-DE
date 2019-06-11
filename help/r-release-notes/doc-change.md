@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -22,8 +22,10 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 11. Juni 2019 | [Aktivitätserstellung](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Es wurde ein Hinweis entfernt, der besagt, dass es nicht möglich ist, einen Tracking-Server anzugeben, wenn Sie A 4 T verwenden. |
+|  | [Erstellen eines A/B-Tests](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | Text und Bilder aktualisiert. |
 |  | [Aktivitäten](/help/c-activities/activities.md) | Es wurde hervorgehoben, dass gelöschte Aktivitäten nicht wiederhergestellt werden können. Als Best Practice können Sie eine Aktivität so archivieren, dass sie bei Bedarf dearchiviert werden kann. |
 |  | [Aktualisieren von at.js 1.x auf at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Die Einschränkung wurde entfernt, dass der Experience Cloud-Debugger in at. js 2. x nicht vollständig unterstützt wird. |
+|  | [Berichte](/help/c-reports/reports.md) | Kleinere Textaktualisierungen und neue Bilder. |
 | 7. Juni 2019 | [Anpassen eines Designs mithilfe von Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Neuer Abschnitt hinzugefügt: &quot; Szenario: Erstellen Sie ein standardmäßiges Recommendations-Design von 4 x 2 mit Null-Überprüfungslogik. « |
 |  | [Schulungsvideos für Adobe Target Standard und Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Der Link zur neuen Adobe Target-Tutorials-Site wurde aktualisiert. |
 |  | [iOS – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | Text und Codefragmente wurden aktualisiert. |
