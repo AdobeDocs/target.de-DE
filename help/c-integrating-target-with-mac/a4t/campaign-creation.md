@@ -8,7 +8,7 @@ title: Aktivitätserstellung
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -46,11 +46,7 @@ Das Erstellen einer Target Standard-Aktivität, die Analytics als Berichtsquelle
 
    Siehe [Verwenden eines Analytics-Tracking-Servers](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
 
-   >[!NOTE]
-   >
-   >Sollten Sie Adobe Analytics als Berichtsquelle für Ihre Aktivität verwenden, müssen Sie bei der Erstellung einer Aktivität und bei der Verwendung von mbox.js Version 61 (oder neuer) oder at.js Version 0.9.1 (oder neuer) keinen Trackingserver angeben. Die Bibliothek von mbox.js oder at.js sendet automatisch Trackingserverwerte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
-
-1. Definieren Sie das Erlebnis. 
+1. Definieren Sie das Erlebnis.
 1. Legen Sie das Aktivitätsziel fest.
 
    Sie müssen eine Erfolgsmetrik als zu verwendendes Ziel für jeden Test festlegen. Ihr Aktivitätsziel ist die Konversionsaktivität, die eine erfolgreiche Aktivität signalisiert. Die Best Practice ist, niemals einen Test ohne ein Ziel durchzuführen, das auf eine bestimmte Art und Weise verbessert werden soll. Sie können sämtliche in der Metrikauswahl von Analytics verfügbaren Analytics-Metriken auswählen.
