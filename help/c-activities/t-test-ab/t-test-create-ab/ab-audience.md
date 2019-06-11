@@ -8,7 +8,7 @@ title: Zielgruppenauswahl
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 81731916926250195b0f70124c8dad0912074e77
 
 ---
 
@@ -23,7 +23,7 @@ Die Zielgruppe legt fest, welche Besucher der Site in Ihre Aktivität eingegeben
 
 Klicken Sie im Feld [!UICONTROL „Zielgruppe“] auf das Bearbeitungssymbol (drei vertikale Ellipsen) und dann auf **[!UICONTROL Zielgruppe ersetzen]**.
 
-Standardeinstellung ist, dass alle Besucher Ihrer Zielgruppe angehören. Sie können die Zielgruppe jedoch anpassen. Zielgruppen werden aus der Zielgruppenbibliothek ausgewählt. Alternativ können Sie eine Zielgruppe „Nur Aktivität“ erstellen. Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. Sie können entweder eine Zielgruppe aus der Bibliothek auswählen, [eine neue Zielgruppe erstellen](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) oder   [eine Zielgruppe „Nur Aktivität“ erstellen](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Wählen Sie für einen A/B-Test ohne Festlegen bestimmter Zielgruppen die Standardeinstellung „Alle Besucher“ aus.
+Standardeinstellung ist, dass alle Besucher Ihrer Zielgruppe angehören. Sie können die Zielgruppe jedoch anpassen. Zielgruppen werden aus der Zielgruppenbibliothek ausgewählt. Alternativ können Sie eine Zielgruppe „Nur Aktivität“ erstellen. Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. Sie können entweder eine Zielgruppe aus der Bibliothek auswählen, [eine neue Zielgruppe erstellen](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) oder [eine Zielgruppe „Nur Aktivität“ erstellen](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Wählen Sie für einen A/B-Test ohne Festlegen bestimmter Zielgruppen die Standardeinstellung „Alle Besucher“ aus.
 
 Beachten Sie, dass Sie eine Zielgruppe auch bearbeiten oder kopieren können, indem Sie im Dialogfeld [!UICONTROL Zielgruppe wählen] die Maus über die gewünschte Zielgruppe bewegen, wie unten dargestellt. Das Kopieren einer Zielgruppe ist hilfreich, wenn Sie für eine vorhandene Zielgruppe eine ähnliche Zielgruppe erstellen möchten. Sie können eine Kopie der Zielgruppe erstellen, Bearbeitungen vornehmen und sie dann als neue Zielgruppe speichern. Diese Mauszeigerfunktionalität existiert auch in anderen Aktivitätstypen.
 
@@ -39,9 +39,9 @@ Klicken Sie auf den nach unten weisenden Pfeil, um die bestehende Zielgruppe zu 
 
 Sie können angeben, welcher Anteil der qualifizierten Besucher in die Aktivität aufgenommen werden soll. So können Sie zum Beispiel festlegen, dass 50 % aller Besucher berücksichtigt werden sollen.
 
-![](assets/audperc.png)
+![Zielgruppenprozentsatz](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-Sie können sich außerdem dafür entscheiden, Target   [automatisch Traffic zuweisen zu lassen](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Sie können sich außerdem dafür entscheiden, Target [automatisch Traffic zuweisen zu lassen](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Schulungsvideos
 
@@ -57,7 +57,7 @@ In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/P
 * Zuordnung einer Aktivität zu einer Zielgruppe
 * Verwenden von Zielgruppen für die passive Berichterstattung zu einer Aktivität
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/17398?captions=ger)
 
 ### Arbeitsablauf für Aktivitäten – Targeting (2:14)
 
@@ -68,6 +68,6 @@ In diesem Video sind Informationen zur Einrichtung von Zielgruppen enthalten.
 * Auswählen der Zuordnungsmethode für den Traffic
 * Zuweisen von Traffic zu verschiedenen Erlebnissen
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=ger)
 
 Detaillierte Informationen finden Sie unter [Zielgruppen](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
