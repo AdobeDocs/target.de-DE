@@ -7,7 +7,7 @@ solution: Target
 title: Wie lange sollten A/B-Tests laufen?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -18,7 +18,7 @@ Für einen erfolgreichen A/B-Test ist eine ausreichende Anzahl von Besuchern erf
 
 Es ist verlockend, einen Test zu stoppen, wenn eines der Angebote in den ersten Tagen der Aktivität deutlich besser oder schlechter abschneidet als die anderen. Wenn jedoch die Anzahl der Beobachtungen gering ist, ist die Wahrscheinlichkeit hoch, dass eine positive oder negative Steigerung nur zufällig beobachtet wurde, da die Konversionsrate als Durchschnitt einer geringen Besucherzahl ermittelt wurde. Wenn die Aktivität mehr Datenpunkte erfasst, nähern sich die Konversionsraten ihren eigentlichen, langfristigen Werten an.
 
-Aktivitäten frühzeitig zu stoppen, ist einer der neun häufigsten Fehler bei der Durchführung von A/B-Tests. Weitere Informationen finden Sie unter   [Neun häufige Fehler bei A/B-Tests und wie diese vermieden werden](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+Aktivitäten frühzeitig zu stoppen, ist einer der neun häufigsten Fehler bei der Durchführung von A/B-Tests. Weitere Informationen finden Sie unter [Neun häufige Fehler bei A/B-Tests und wie diese vermieden werden](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 Target bietet Tools, mit denen Sie sicherstellen können, dass Ihre Aktivität eine ausreichende Stichprobengröße umfasst, um Ihre Konversionsziele zu erreichen:
 
@@ -36,11 +36,11 @@ Target bietet Tools, mit denen Sie sicherstellen können, dass Ihre Aktivität e
 
 * **Target-Stichprobengrößenrechner:** Wenn Sie statt der automatischen Zuordnung manuelle A/B-Tests durchführen wollen, können Sie mit dem Target-Stichprobengrößenrechner die für einen erfolgreichen Test erforderliche Stichprobengröße bestimmen. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
-## Adobe Target-Stichprobengrößenrechner   {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe Target-Stichprobengrößenrechner {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Bevor Sie Ihren A/B-Test einrichten, rufen Sie den Adobe Target [-Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html)auf.
 
-![](assets/sample_size_calculator.png)
+![Adobe Target-Stichprobengrößenrechner](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 Vor der Durchführung von A/B-Tests muss eine angemessene Stichprobengröße (Anzahl der Besucher) festgelegt werden, um den Zeitraum zu ermitteln, über den der Test ausgeführt werden sollte, bevor die Ergebnisse ausgewertet werden. Eine einfache Überwachung des Tests bis zur Erreichung der statistischen Bedeutung führt zu einer erheblichen Unterschätzung des Konfidenzintervalls und bewirkt, dass der Test unzuverlässig ist. Mit diesem Ergebnis wird beabsichtigt, dass - für den Fall, dass ein statistisch signifikantes Ergebnis entdeckt wird - der Test gestoppt und ein Gewinner ernannt wird. Sollte das Ergebnis jedoch nicht statistisch signifikant sein, wird der Test weiter ausgeführt. Diese Vorgehensweise begünstigt das positive Ergebnis erheblich, wodurch die Falsch-Positiv-Rate zunimmt und das effektive Signifikanzniveau des Tests verzerrt wird.
 
@@ -130,7 +130,7 @@ Es gibt einen Trade-off zwischen der durch den Test zuverlässig ermittelbaren M
 
 In diesem Beispiel könnten Sie entscheiden, dass die Möglichkeit, eine Steigerung von 5 % (die einer Konversionsrate des alternativen Angebots von (100 % + 5 %) x 5 % = 5,25 % entspricht) bei 80 von 100 Tests zu ermitteln, angemessen ist. Sie benötigen daher eine Stichprobengröße von 100.000 Besuchern für jedes Angebot. Wenn die Site pro Tag 20.000 Besucher aufweist und Sie zwei Angebote testen, muss der Test über 2 x 100.000/20.000 = 10 Tage ausgeführt werden, bevor sich ermitteln lässt, ob das Alternativangebot dem Kontrollangebot statistisch signifikant überlegen ist. Auch hier wird in jedem Fall empfohlen, die erforderliche Zeit auf eine ganze Woche aufzurunden, um Wochentagseffekte zu vermeiden. In diesem Beispiel würde der Test vor der Auswertung der Ergebnisse über zwei Wochen ausgeführt werden.
 
-## Umsatz-pro-Besuch-Metrik   {#section_C704C0861C9B4641AB02E911648D2DC2}
+## Umsatz-pro-Besuch-Metrik {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Bei Nutzung des Umsatzes pro Besuch (Revenue per Visit - RPV) als Metrik wird eine weitere Streuungsquelle hinzugefügt, da RPV das Produkt aus Umsatz pro Bestellung und Konversionsrate ist (RPV = Umsatz / Anzahl der Besucher = (Umsatz pro Bestellung x Anzahl der Bestellungen) / Anzahl der Besucher = Umsatz pro Bestellung x (Anzahl der Besucher x CTR) / Anzahl der Besucher = Umsatz pro Bestellung x CTR), mit der jeweils eigenen Varianz. Die Varianz der Konversionsrate kann mithilfe eines mathematischen Modells unmittelbar geschätzt werden, die Varianz von Umsatz pro Bestellung hängt jedoch von der Kampagne ab. Daher sollten Sie Ihr Wissen über diese Varianz aus früheren Kampagnen nutzen oder für die Dauer von ein paar Tagen einen A/B-Test durchführen, um die Varianz des Umsatzes zu schätzen. Die Varianz wird aus den Werten für Summe der Verkäufe, Summe der Verkäufe im Quadrat sowie Anzahl der Benutzer berechnet, die in der herunterladbaren CSV-Datei zu finden sind. Sobald diese ermittelt ist, verwenden Sie die Tabelle, um die erforderliche Zeit zur Durchführung des Tests zu berechnen.
 
@@ -150,7 +150,7 @@ Im Allgemeinen dauert es bei der Verwendung von RPV als Metrik um 20 bis 30 Proz
 
 Jedes Mal, wenn Sie zwei Angebote vergleichen, entspricht die Wahrscheinlichkeit eines Falsch-Positiv-Werts (Beobachtung eines statistisch signifikanten Unterschieds, auch wenn es keinen Unterschied bei der Konversionsrate gibt) dem Signifikanzniveau. Wenn zum Beispiel fünf Angebote A/B/C/D/E vorliegen und es sich bei A um das Kontrollangebot handelt, werden vier Vergleiche vorgenommen (Kontrolle zu B, Kontrolle zu C, Kontrolle zu D und Kontrolle zu E) und die Wahrscheinlichkeit eines Falsch-Positiv-Werts beträgt 18,5 %, selbst wenn das Konfidenzniveau 95 % beträgt, da Pr (mindestens ein Falsch-Positiv-Wert) = 1 - Pr (keine Falsch-Positiv-Werte) = 1 - 0,95 = 18,5 %. Als Falsch-Positiv-Wert gilt in diesem Zusammenhang, wenn der Kontrollwert besser als die Alternative bzw. wenn die Alternative besser als der Kontrollwert ausfällt, auch wenn es tatsächlich keinen Unterschied zwischen diesen Werten gibt.
 
-## Schlussfolgerung   {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Schlussfolgerung {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
 Durch Verwendung einer Aktivität mit automatischer Zuordnung ermittelt Target einen Gewinner unter zwei oder mehr Erlebnissen und ordnet dem Gewinnererlebnis automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird. Mit der automatischen Zuordnung erreichen Sie Ihre Konversionsziele ohne Aufwand und Ungewissheit.
 
