@@ -7,7 +7,7 @@ solution: Target,Standard
 title: Festlegen von Metriken
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -16,12 +16,12 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 Verwenden Sie in A/B-Aktivitäten Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
 
-Ausführliche Informationen zu Erfolgsmetriken finden Sie unter   [Erfolgsmetriken](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Geben Sie das Ziel der Aktivität an.
-1. Wählen Sie eine [Erfolgsmetrik](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) aus. 
+1. Wählen Sie eine [Erfolgsmetrik](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) aus.
 
-   ![](assets/ab_metrics.png)
+   ![Erfolgsmetrik auswählen](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
    Auf der Seite [!UICONTROL Metriken auswählen] werden die Erfolgsmetriken, die Sie für Ihre Aktivität auswählen können, angezeigt. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
 
@@ -47,7 +47,7 @@ Beachten Sie, dass bei der (Um-)Benennung von Metriken folgende Zeichen nicht zu
 |--- |--- |
 | / | Vorwärtsschrägstrich |
 | ? | Fragezeichen |
-| # | Raute  |
+| # | Raute |
 | : | Doppelpunkt |
 | = | Gleich |
 | + | Plus |
@@ -62,4 +62,4 @@ Dieses Video enthält Informationen zur Arbeit mit Erfolgsmetriken.
 * Verstehen und Erstellen von Metriken für Konversionen, Umsatz und Interaktion
 * Erstellen einer Metrik mit Klick-Tracking
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=ger)
