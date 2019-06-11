@@ -8,7 +8,7 @@ title: Verschiedene Erlebnisversionen in A/B-Tests
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -37,7 +37,7 @@ In diesem Fall müssen Sie regionsspezifische Versionen des Erlebnisses erstelle
 
 1. Wählen Sie das Erlebnis aus und klicken Sie auf **[!UICONTROL Konfigurieren]** &gt; **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Mehrere Zielgruppen]**.
 
-   ![](assets/multiple-audiences.png)
+   ![Option &quot;Mehrere Zielgruppen «](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
 1. Klicken Sie auf **[!UICONTROL Zielgruppe hinzufügen]** und wählen Sie die erste Zielgruppe aus. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
 
