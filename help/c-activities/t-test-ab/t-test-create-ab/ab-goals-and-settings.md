@@ -7,7 +7,7 @@ title: Ziele und Einstellungen
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -16,19 +16,19 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zielen des Tests eingeben.
 
-Welche Einstellungen verfügbar sind, hängt davon ab, ob Sie Target oder Analytics als Datenquelle verwenden.
+Die verfügbaren Einstellungen hängen davon ab, ob Sie Target oder [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) als Datenquelle verwenden.
 
-![](assets/ab_settings.png)
+![Aktivitätseinstellungen, Dialogfeld](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 ## Aktivitätseinstellungen {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
 | Einstellungen | Beschreibung |
 |--- |--- |
 | Ziel | Geben Sie ein optionales Ziel ein. Beim Ziel kann es sich um beliebige Informationen handeln, die Ihnen und Ihren Team-Mitgliedern beim Identifizieren der Kampagne helfen. |
-| Priorität | Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für Prioritäten. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren. <br>Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.<br>Wurde diese Option unter Einrichtung nicht aktiviert (Standardeinstellung), legen Sie eine Priorität fest: „Niedrig“, „Mittel“ oder „Hoch“. <br>Möchten Sie genauer unterteilte Prioritäten festlegen, klicken Sie auf Einrichtung und stellen Sie den Schieberegler Präzise Prioritätensetzung ermöglichen auf die Position „Ein“. <br>Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest: 0 = Niedrig und 999 = Hoch. <br>Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt wurden, wird eine niedrige Priorität in den Wert 0, eine mittlere in den Wert 5 und eine hohe in den Wert 10 umgewandelt. Diese Werte können nach Wunsch angepasst werden.<br>Hinweis: Haben Sie genauere Prioritäten verwendet und möchten Sie die Option deaktivieren, müssen zunächst alle Prioritätswerte auf 0, 5 und 10 zurückgesetzt werden. |
+| Priorität | Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für Prioritäten. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren.<br>Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.<br>Wurde diese Option unter Einrichtung nicht aktiviert (Standardeinstellung), legen Sie eine Priorität fest: „Niedrig“, „Mittel“ oder „Hoch“. <br>Möchten Sie genauer unterteilte Prioritäten festlegen, klicken Sie auf Einrichtung und stellen Sie den Schieberegler Präzise Prioritätensetzung ermöglichen auf die Position „Ein“. <br>Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest: 0 = Niedrig und 999 = Hoch. <br>Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt wurden, wird eine niedrige Priorität in den Wert 0, eine mittlere in den Wert 5 und eine hohe in den Wert 10 umgewandelt. Diese Werte können nach Wunsch angepasst werden.<br>Hinweis: Haben Sie genauere Prioritäten verwendet und möchten Sie die Option deaktivieren, müssen zunächst alle Prioritätswerte auf 0, 5 und 10 zurückgesetzt werden. |
 | Dauer | Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu. |
 
-## Berichterstellungseinstellungen   {#section_13119392051044FBA6387D9B3B1C43CF}
+## Berichterstellungseinstellungen {#section_13119392051044FBA6387D9B3B1C43CF}
 
 | Einstellungen | Beschreibung |
 |--- |--- |
@@ -41,16 +41,19 @@ Welche Einstellungen verfügbar sind, hängt davon ab, ob Sie Target oder Analyt
 
 Erweiterte Einstellungen sind für A/B-Test-Zielmetriken verfügbar.
 
-![](assets/Menu_AdvancedSettings.png)
+![Menü &quot;Erweiterte Einstellungen «](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
 >Wenn Sie Adobe Analytics als Ihre Berichterstellungsquelle verwenden, werden die Einstellungen vom Analytics-Server verwaltet. Die Option für erweiterte Einstellungen steht nicht zur Verfügung.
 
+![Erweiterte Einstellungen](/help/c-activities/t-test-ab/t-test-create-ab/assets/advanced-settings.png)
+
 | Einstellung | Beschreibung |
 |--- |--- |
 | Welche Erfolgsmetrik muss erreicht werden, bevor diese Metrik erhöht wird? | Verwenden Sie diese Option, um die Erfolgsmetrik nur dann als erreicht zu werten, wenn jemand vorher bereits eine andere Erfolgsmetrik erreicht hat. So kann eine Testkonversion nur dann gültig sein, wenn der Besucher das Angebot anklickt oder auf eine bestimmte Seite gelangt, bevor die Konversion erfolgt.  Sie können für mehrere Metriken eine Abhängigkeit bereitstellen und die flexible Auswahl ermöglichen, ob die Metrik erreicht werden soll oder nicht, damit sich die Anzahl erhöht.  Sie müssen beide (oder mehrere) Erfolgsmetriken definieren, bevor Sie eine Abhängigkeit voneinander festlegen können.  Mithilfe der Option Abhängigkeit hinzufügen kann die Erfolgsmetrik inkrementiert werden, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde.  So fügen Sie eine Abhängigkeit hinzu:<ul><li>Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf Erweiterte Einstellungen.</li><li>Klicken Sie auf die Option Abhängigkeit hinzufügen:</li><li>Verschieben Sie die gewünschte Metrik per Drag-and-drop vom linken Bereich in den rechten Bereich. Klicken Sie dann auf Erreicht, um die Einstellung zwischen Erreicht und Nicht erreicht zu wechseln.</li><li>Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben.</li></ul> |
 | Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft? | Es gibt drei Möglichkeiten, nachdem ein Besucher die Zielmetrik erreicht hat:<ul><li>Wählen Sie „Anzahl erhöhen und Benutzer in Aktivität belassen“ aus, um festzulegen, wie die Anzahl erhöht wird.</li><li>Wählen Sie „Anzahl erhöhen, Benutzer freigeben und Wiedereintritt erlauben“ aus, um festzulegen, welches Erlebnis dem Benutzer angezeigt wird, wenn er die Aktivität wieder aufnimmt.</li><li>Wählen Sie „Anzahl erhöhen, Benutzer freigeben und an Wiedereintritt hindern“ aus, um festzulegen, was dem Benutzer statt der Aktivitätsinhalte angezeigt wird.</li></ul> |
+| Wie wird die Anzahl erhöht? | Es gibt drei Optionen, wie die Anzahl erhöht wird:<ul><li>Einmal pro Teilnehmer</li><li>Bei jeder Impression (ohne Seitenaktualisierung)</li><li>Bei jeder Impression</li></ul> |
 
 Weitere Informationen zu erweiterten Einstellungen finden Sie unter [Erfolgsmetriken](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -83,4 +86,4 @@ In diesem Video wird gezeigt, wie Aktivitätseinstellungen bei der Einrichtung e
 * Erstellen einer A/B-Aktivität in Adobe Target
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=ger)
