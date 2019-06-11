@@ -8,7 +8,7 @@ title: Aktivitäts-URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -23,11 +23,13 @@ Geben Sie die Aktivitäts-URL ein, wenn Sie während der Erstellung der Aktivit�
 >
 >[!DNL Target] unterscheidet nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]). Daher stimmen [!DNL `http://www.adobe.com`] und [!DNL `https://www.adobe.com`] überein.
 
-Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] die Seite, die in Ihren Konto-Voreinstellungen angegeben ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+## Eine andere URL angeben
+
+Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] die Seite, die in Ihren [Target-Kontovoreinstellungen angegeben](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
 Damit nach dem Öffnen von [!UICONTROL Visual Experience Composer] eine andere Seite angezeigt wird, klicken Sie auf das Zahnradsymbol **[!UICONTROL Konfigurieren]** und wählen Sie dann **[!UICONTROL Seitenbereitstellung]**. Geben Sie die URL in das Feld „Aktivitäts-URL“ ein.
 
-![](assets/url-config.png)
+![Seitenbereitstellung, Dialogfeld](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
 Klicken Sie auf **[!UICONTROL Vorlagenregel hinzufügen], um der Aktivität weitere Seiten oder Abschnitte hinzuzufügen.**
 
