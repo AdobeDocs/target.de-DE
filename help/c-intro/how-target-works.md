@@ -1,7 +1,7 @@
 ---
-description: 'Adobe Target wird mithilfe zweier JavaScript-Bibliotheken in Websites integriert: „at.js“ oder „mbox.js“.'
+description: 'Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: „at.js“ oder „mbox.js“.'
 keywords: Übersicht und Referenz; SEO; Suchmaschinenoptimierung
-seo-description: 'Adobe Target wird mithilfe zweier JavaScript-Bibliotheken in Websites integriert: „at.js“ oder „mbox.js“.'
+seo-description: 'Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: „at.js“ oder „mbox.js“.'
 seo-title: Funktionsweise von Adobe Target
 solution: Target
 subtopic: Erste Schritte
@@ -9,27 +9,27 @@ title: Funktionsweise von Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bcf09c30147383ab14cdc253285970e0f03be4b7
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
 
 # Funktionsweise von Adobe Target{#how-adobe-target-works}
 
-Informationen darüber, wie Adobe Target funktioniert, einschließlich Informationen zu den Javascript-Bibliotheken (at. js und mbox. js) und den verschiedenen in Target enthaltenen Aktivitätstypen.
+Informationen darüber, wie Adobe Target funktioniert, einschließlich Informationen zu den JavaScript-Bibliotheken (at.js und mbox.js) und den verschiedenen in Target enthaltenen Aktivitätstypen.
 
-## Javascript-Bibliotheken in Target {#libraries}
+## JavaScript-Bibliotheken in Target {#libraries}
 
-Adobe Target wird mithilfe zweier JavaScript-Bibliotheken in Websites integriert: „at.js“ oder „mbox.js“.
+Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: „at.js“ oder „mbox.js“.
 
-* **at.js:** Die [at.js-Bibliothek](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) ist die neue Implementierungsbibliothek für Target. Die „at.js“-Bibliothek sorgt für kürzere Seitenladezeiten bei Webimplementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. „at.js“ ist die empfohlene Implementierungsbibliothek und wird häufig mit neuen Funktionen aktualisiert. Wir empfehlen allen Kunden, die   [neueste Version von „at.js“](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu implementieren oder zu ihr zu migrieren.
+* **at.js:** Die [at.js-Bibliothek](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) ist die neue Implementierungsbibliothek für Target. Die „at.js“-Bibliothek sorgt für kürzere Seitenladezeiten bei Webimplementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. „at.js“ ist die empfohlene Implementierungsbibliothek und wird häufig mit neuen Funktionen aktualisiert. Wir empfehlen allen Kunden, die [neueste Version von „at.js“](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu implementieren oder zu ihr zu migrieren.
 * **mbox.js:** Die „mbox.js“-Bibliothek ist die alte Implementierungsbibliothek für Target. Die „mbox.js“-Bibliothek wird weiterhin unterstützt, aber es gibt keine weiteren Funktionsupdates.
 
 >[!IMPORTANT]
 >
 >Alle Kunden sollten auf at.js migrieren. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-Sie müssen auf jeder Seite Ihrer Website auf eine der beiden Target-JavaScript-Dateien verweisen. Sie können sie beispielsweise Ihrer globalen Kopfzeile hinzufügen.
+Sie müssen auf jeder Seite Ihrer Website auf eine der Target-JavaScript-Dateien verweisen. Sie können sie beispielsweise Ihrer globalen Kopfzeile hinzufügen.
 
 Jedes Mal, wenn ein Besucher eine Seite aufruft, die für Target optimiert wurde, wird eine Anfrage an das Targeting-System gesendet, um festzulegen, welcher Inhalt für einen Besucher bereitgestellt werden soll. Dieser Prozess erfolgt in Echtzeit - jedes Mal, wenn eine Seite geladen wird, erfolgt eine Anfrage für den Inhalt, die durch das System verarbeitet wird. Der Inhalt wird durch die vom Marketingspezialisten kontrollierten Aktivitäten und Erlebnisse geregelt und auf den einzelnen Besucher der Site zugeschnitten. Es werden Inhalte bereitgestellt, auf die die einzelnen Besucher der Site mit großer Wahrscheinlichkeit reagieren, damit interagieren und letztendlich eine Kaufentscheidung treffen, um die Antwortraten, Erwerbsraten und den Umsatz zu maximieren.
 
@@ -50,7 +50,7 @@ Sie können für jedes Erlebnis prozentuale Ziele festlegen. In diesem Fall wird
 3. Die Seite ruft das Targeting-System auf.
 4. Basierend auf den Regeln Ihrer Kampagne werden Inhalte angezeigt.
 
-### Automatisch zuweisen
+### Automatische Zuordnung
 
 Weitere Informationen finden Sie unter [Automatische Zuordnung](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
@@ -80,11 +80,9 @@ Erlebnis-Targeting, einschließlich Geotargeting, ermöglicht die Definition von
 
 Weitere Informationen finden Sie unter [Multivarianz-Test](../c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499).
 
-Beim Multivarianz-Test (MVT) werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt er an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
+Beim Multivariate Tests (MVT) werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt er an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 
-
-
-### Recommendations 
+### Recommendations
 
 Weitere Informationen finden Sie unter [Empfehlungen](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
@@ -108,6 +106,10 @@ Anstatt auf alle Targeting-Anfragen von einem einzelnen Standort zu antworten, k
 
 Das Netzwerk dient zudem als Fail-Over-Mechanismus. Wenn ein Edge-Knoten nicht funktioniert, wird die Anfrage an den nächstliegenden Knoten weitergeleitet, um sicherzustellen, dass dem Benutzer kein Standardinhalt angezeigt wird (eine typische Backup-Antwort, wenn eine Anfrage nicht abgeschlossen werden kann).
 
+>[!IMPORTANT]
+>
+>[!DNL Adobe Target] verfügt derzeit über kein Edge-Netzwerk in China und die Endbenutzerleistung wird für [!DNL Target] Kunden in China weiterhin eingeschränkt. Aufgrund der großen Firewall und dem Fehlen von Edge-Knoten innerhalb des Landes sind die Erlebnisse von Sites mit [!DNL Target] bereitgestellter Bereitstellung langsam und die Seitenladevorgänge beeinträchtigt. Außerdem kann die [!DNL Target] Benutzeroberfläche auch Latenzzeiten aufweisen.
+
 ## Protected User Experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe stellt sicher, dass die Verfügbarkeit und Performance der Targeting-Infrastruktur so zuverlässig wie möglich ist. Allerdings kann es durch einen Kommunikationsausfall zwischen dem Browser eines Endbenutzers und den Servern von Adobe zu einer Unterbrechung bei der Bereitstellung der Inhalte kommen.
@@ -127,7 +129,7 @@ Adobe schützt das Benutzererlebnis durch die Optimierung und Sicherung der Perf
 
 [!DNL Adobe Target] ist an den Suchoptimierungsrichtlinien für Prüfungen ausgerichtet.
 
-Google fördert Prüfung durch Benutzer und gibt in seiner Dokumentation an, dass A/B- und Multivarianz-Tests organische Suchergebnisrankings nicht negativ beeinflussen, solange die vorgegebenen Richtlinien befolgt werden.
+Google fördert Prüfung durch Benutzer und gibt in seiner Dokumentation an, dass A/B- und Multivariater Tests organische Suchergebnisrankings nicht negativ beeinflussen, solange die vorgegebenen Richtlinien befolgt werden.
 
 Weitere Informationen finden Sie unter folgenden Google-Ressourcen:
 
@@ -146,7 +148,7 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
 * **Verwendung von 302-Umleitungen (temporär)** - Werden unterschiedliche URLs im Rahmen eines Tests für Variationen verwendet, empfiehlt Google den Einsatz einer 302-Umleitung, die Traffic auf die verschiedenen Variationen umleitet. Auf diesem Weg wird Suchmaschinen mitgeteilt, dass die Umleitung nur vorübergehend und nur aktiv ist, solange die Prüfung durchgeführt wird.
 
-   Eine 302-Umleitung ist eine serverseitige Umleitung. Target stützt sich - wie die meisten anderen Optimierungsanbieter - auf clientseitige Funktionen. Somit befolgt Target in diesem Fall die Empfehlungen von Google nicht zu hundert Prozent. Dies wirkt sich aber lediglich auf eine geringe Anzahl von Tests aus. Der Standardansatz für die Durchführung von Tests mit Target fordert sich ändernde Inhalte innerhalb einer einzigen URL, sodass keine Umleitungen erforderlich sind. Es handelt sich hierbei um Fälle, in denen Kunden mit verschiedenen URLs arbeiten müssen, um Variationen zu testen. Hier wird in Target der JavaScript-Befehl `window.location` verwendet, um Benutzer auf Testvariationen umzuleiten. Es wird dabei nicht angegeben, ob es sich um eine Umleitung des Typs 301 oder 302 handelt.
+   Eine 302-Umleitung ist eine Server-seitige Umleitung. Target stützt sich – wie die meisten anderen Optimierungsanbieter auch – auf Client-seitige Funktionen. Somit befolgt Target in diesem Fall die Empfehlungen von Google nicht zu hundert Prozent. Dies wirkt sich aber lediglich auf eine geringe Anzahl von Tests aus. Der Standardansatz für die Durchführung von Tests mit Target fordert sich ändernde Inhalte innerhalb einer einzigen URL, sodass keine Umleitungen erforderlich sind. Es handelt sich hierbei um Fälle, in denen Kunden mit verschiedenen URLs arbeiten müssen, um Variationen zu testen. Hier wird in Target der JavaScript-Befehl `window.location` verwendet, um Benutzer auf Testvariationen umzuleiten. Es wird dabei nicht angegeben, ob es sich um eine Umleitung des Typs 301 oder 302 handelt.
 
    Wir sind zwar weiterhin auf der Suche nach möglichen Lösungen für eine vollständige Umsetzung der Suchmaschinenrichtlinien für Kunden, die für ihre Tests verschiedene URLs verwenden müssen, sind jedoch überzeugt, dass die ordnungsgemäße Verwendung der oben beschriebenen Canonical-Tags für die Senkung des Risikos, das mit diesem Verfahren verbunden ist, vollkommen ausreicht.
 
