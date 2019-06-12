@@ -10,22 +10,22 @@ topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 badge: premium
 translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Automatisches Targeting{#auto-target}
 
-[!UICONTROL Automatisches Targeting] verwendet fortschrittliche maschinelle Lernen, um aus mehreren leistungsstarken Erlebnissen mit Marketingexperten auswählen zu können, um Inhalte zu personalisieren und Konversionen zu fördern. Automatisches Targeting stellt das benutzerspezifische Erlebnis für jeden Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten älterer Besucher mit ähnlichen Profilen bereit.
+[!UICONTROL Automatisches Targeting] verwendet fortschrittliches maschinelles Lernen, um aus mehreren leistungsstarken Erlebnissen mit Marketingexperten auswählen zu können, um Inhalte zu personalisieren und Konversionen zu fördern. Automatisches Targeting stellt das benutzerspezifische Erlebnis für jeden Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten voriger Besucher mit ähnlichen Profilen bereit.
 
 >[!NOTE]
 >
->[!UICONTROL Automatisches Targeting] ist als Teil der [!DNL Target Premium]-Lösung verfügbar. Diese Funktion ist in [!DNL Target Standard] nicht ohne eine [!DNL Target Premium]-Lizenz verfügbar.
+>[!UICONTROL Automatisches Targeting] ist als Teil der [!DNL Target Premium]-Lösung verfügbar. Diese Funktion ist in [!DNL Target Standard] nicht ohne eine [!DNL Target Premium]-Lizenz verfügbar. Weitere Informationen zu den erweiterten Funktionen dieser Lizenz finden Sie unter [Target Premium](/help/c-intro/intro.md).
 
 Beim [Erstellen einer A/B-Aktivität mit einem geleiteten Arbeitsablauf in drei Schritten](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) können Sie Traffic mithilfe der Option [!UICONTROL Automatisches Targeting für personalisierte Erlebnisse] zuordnen:
 
-![](assets/auto-target-ui.png)
+![Automatisches Targeting für die Option personalisierte Erlebnisse](/help/c-activities/assets/auto-target-ui-new.png)
 
 ## Überblick {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -49,7 +49,7 @@ Bei Erörterungen zu [!UICONTROL Automatisches Targeting] sind die folgenden Beg
 | Begriff | Definition |
 |---|---|
 | Multi-Armed Bandit | Die Methode „Multi-Armed Bandit“ stellt ein Gleichgewicht zwischen forschendem Lernen (Exploration) und der Verwertung der Lernergebnisse (Exploitation) her. |
-| Random Forest | Random Forest ist ein führender Ansatz beim maschinellen Lernen. Im Datenwissenschaftlerjargon ist dies eine Ensemble-Classification- oder Regressionsmethode, die auf der Grundlage von Besuchern und Besuchsattributen eine große Anzahl von Entscheidungsbäumen erstellt. Random Forest wird von Target eingesetzt, um zu bestimmen, welches Erlebnis die höchste Wahrscheinlichkeit einer Konversion (oder den höchsten Umsatz pro Besuch) für jeden einzelnen Besucher hat. Weitere Informationen zu Random Forest in Target finden Sie unter   [Random Forest-Algorithmus](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
+| Random Forest | Random Forest ist ein führender Ansatz beim maschinellen Lernen. Im Datenwissenschaftlerjargon ist dies eine Ensemble-Classification- oder Regressionsmethode, die auf der Grundlage von Besuchern und Besuchsattributen eine große Anzahl von Entscheidungsbäumen erstellt. Random Forest wird von Target eingesetzt, um zu bestimmen, welches Erlebnis die höchste Wahrscheinlichkeit einer Konversion (oder den höchsten Umsatz pro Besuch) für jeden einzelnen Besucher hat. Weitere Informationen zu Random Forest in Target finden Sie unter [Random Forest-Algorithmus](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
 | Thompson Sampling | Ziel des Thompson Samplings ist es, festzustellen, welches (nicht personalisierte) Erlebnis insgesamt das beste ist, während gleichzeitig die „Kosten“ für die Auffindung dieses Erlebnisses minimiert werden. Das Thompson Sampling wählt immer einen Gewinner aus, auch wenn es keinen statistischen Unterschied zwischen zwei Erlebnissen gibt. Weitere Informationen finden Sie unter [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Funktionsweise von [!UICONTROL Automatisches Targeting] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
@@ -62,7 +62,7 @@ Unter den folgenden Links erhalten Sie weitere Informationen über Daten und Alg
 | [Hochladen von Daten für die Personalisierungsalgorithmen von Target](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Es gibt mehrere Möglichkeiten, um Daten für die Modelle [!UICONTROL Automatisches Targeting] und „Automatisierte Personalisierung“ einzugeben. |
 | [Datenerfassung für die Target-Personalisierungsalgorithmen](/help/c-activities/t-automated-personalization/ap-data.md) | Die Personalisierungsalgorithmen von Target erfassen automatisch eine Vielzahl von Daten. |
 
-## Bestimmen der Traffic-Zuordnung   {#section_AB3656F71D2D4C67A55A24B38092958F}
+## Bestimmen der Traffic-Zuordnung {#section_AB3656F71D2D4C67A55A24B38092958F}
 
 Je nach dem Ziel Ihrer Aktivität können Sie eine unterschiedliche Traffic-Zuordnung zwischen den Kontroll- und personalisierten Erlebnissen auswählen. Es empfiehlt sich, dieses Ziel festzulegen, bevor Sie Ihre Aktivität aktivieren.
 
@@ -72,17 +72,17 @@ In der Dropdownliste [!UICONTROL Zuordnung anpassen] können Sie aus den folgend
 * Personalisierungs-Datenverkehr maximieren
 * Zuordnung anpassen
 
-![](assets/split.png)
+![Dropdown-Liste &quot;Zuordnung «](/help/c-activities/assets/split-new.png)
 
 | Aktivitätsziel | Vorgeschlagene Traffic-Zuordnung | Kompromisse |
 |--- |--- |--- |
-| Personalisierungsalgorithmus auswerten (50/50) Ihr Ziel besteht darin zu bestimmen, wie gut der Personalisierungsalgorithmus im Vergleich zur Kontrolle (d. h. einem zufällig bereitgestellten Erlebnis) funktioniert. Sie befinden sich möglicherweise in den Anfangsphasen der Auswertung Ihres Personalisierungsprogramms. | Aufteilung: 50 % Kontrolle / 50 % personalisiertes Erlebnis | <ul><li>Maximiert die Genauigkeit der Steigerung zwischen Kontrolle und personalisiert</li><li>Relativ gesehen erhalten weniger Besucher ein personalisiertes Erlebnis</li></ul> |
-| Personalisierungstraffic maximieren (90/10) Ihr Ziel besteht darin, eine „Always on“-Personalisierungsaktivität zu erstellen, mit welcher der personalisierte Traffic maximiert wird. Sie möchten die Steigerung maximieren und gleichzeitig eine Kontroll-Benchmark-Steigerung zu Vergleichszwecken beibehalten. | Empfohlene Aufteilung: 10–30 % Kontrolle / 70–90 % personalisiertes Erlebnis | <ul><li>Maximiert die Anzahl der Besucher mit einem personalisierten Erlebnis</li><li>Maximiert die Steigerung</li><li>Weniger Genauigkeit in Bezug darauf, wofür die Steigerung für die Aktivität dient</li></ul> |
-| Zuordnung anpassen | Teilen Sie den Prozentsatz nach Bedarf manuell auf. | <ul><li>Es kann sein, dass Sie nicht die gewünschten Ergebnisse erzielen. Wenn Sie unsicher sind, sollten Sie jeweils die Vorschläge der vorangegangenen Optionen befolgen.</li></ul> |
+| **Personalisierung evaluieren (50/50)**: Ihr Ziel ist es festzustellen, wie gut der Personalisierungsalgorithmus im Vergleich zum Kontrollelement funktioniert (d. h. ein zufällig ausgestelltes Erlebnis). Sie befinden sich möglicherweise in den Anfangsphasen der Auswertung Ihres Personalisierungsprogramms. | Aufteilung: 50 % Kontrolle / 50 % personalisiertes Erlebnis | <ul><li>Maximiert die Genauigkeit der Steigerung zwischen Kontrolle und personalisiert</li><li>Relativ gesehen erhalten weniger Besucher ein personalisiertes Erlebnis</li></ul> |
+| **Traffic-Optimierung maximieren (10. Januar)**: Ihr Ziel besteht darin, eine &quot;immer&quot; -Personalisierungsaktivität zu erstellen, die den personalisierten Traffic maximiert. Sie möchten die Steigerung maximieren und gleichzeitig eine Kontroll-Benchmark-Steigerung zu Vergleichszwecken beibehalten. | Empfohlene Aufteilung: 10–30 % Kontrolle / 70–90 % personalisiertes Erlebnis | <ul><li>Maximiert die Anzahl der Besucher mit einem personalisierten Erlebnis</li><li>Maximiert die Steigerung</li><li>Weniger Genauigkeit in Bezug darauf, wofür die Steigerung für die Aktivität dient</li></ul> |
+| **Zuordnung anpassen** | Teilen Sie den Prozentsatz nach Bedarf manuell auf. | <ul><li>Es kann sein, dass Sie nicht die gewünschten Ergebnisse erzielen. Wenn Sie unsicher sind, sollten Sie jeweils die Vorschläge der vorangegangenen Optionen befolgen.</li></ul> |
 
-Um den Prozentanteil der Kontrollgruppe anzupassen, klicken Sie auf die Symbole „-“ oder „+“. Sie dürfen die Kontrollgruppe nicht auf weniger als 10 % reduzieren.
+Um den Steuerungsprozentsatz anzupassen, klicken Sie auf die Symbole in der Spalte &quot;Zuordnung&quot; . Sie dürfen die Kontrollgruppe nicht auf weniger als 10 % reduzieren.
 
-![](assets/auto-target-control-bigl.png)
+![Traffic-Zuordnung für automatisches Targeting ändern](/help/c-activities/assets/auto-target-control.png)
 
 ## Wann sollte [!UICONTROL Automatisches Targeting] anstelle von „Automatisierte Personalisierung“ gewählt werden? {#section_BBC4871C87944DD7A8B925811A30C633}
 
@@ -118,7 +118,7 @@ Es gibt verschiedene Szenarien, in denen Sie möglicherweise [!UICONTROL Automat
 
 **Target verwendet automatisch alle von Experience Cloud gemeinsam genutzten Zielgruppen, um diese Personalisierungsmodelle zu erstellen.**
 
-* Um Zielgruppen zu dem Modell hinzuzufügen, sind Ihrerseits keine besonderen Aktivitäten erforderlich. Informationen zum Verwenden von Experience Cloud-Zielgruppen mit Target finden Sie unter   [Experience Cloud Audiences](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* Um Zielgruppen zu dem Modell hinzuzufügen, sind Ihrerseits keine besonderen Aktivitäten erforderlich. Informationen zum Verwenden von Experience Cloud-Zielgruppen mit Target finden Sie unter [Experience Cloud Audiences](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 **Marketer können für die Erstellung von Personalisierungsmodellen Offline-Daten, Propensity Scores oder andere benutzerdefinierte Daten hochladen.**
 
@@ -186,7 +186,7 @@ Wenn in den Ergebnissen eines A/B-Tests eine signifikante Steigerung von mindest
 
 **Wann sollte ich meine Aktivität vom Typ[!UICONTROL Automatisches Targeting]anhalten?**
 
-[!UICONTROL „Automatisches Targeting“ kann als eine „Always on“-Personalisierung verwendet werden, die kontinuierlich optimiert wird. ] Insbesondere für zeitlose Inhalte besteht keine Notwendigkeit, Ihre Aktivität vom Typ [!UICONTROL Automatisches Targeting] anzuhalten.
+[!UICONTROL „Automatisches Targeting“] kann als eine „Always on“-Personalisierung verwendet werden, die kontinuierlich optimiert wird. Insbesondere für zeitlose Inhalte besteht keine Notwendigkeit, Ihre Aktivität vom Typ [!UICONTROL Automatisches Targeting] anzuhalten.
 
 Wenn Sie wesentliche Änderungen an den Inhalten in Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] vornehmen möchten, empfiehlt es sich, eine neue Aktivität zu beginnen, damit andere Benutzer, die Berichte überprüfen, vergangene Ergebnisse nicht mit anderen Inhalten verwechseln oder in Beziehung setzen.
 
@@ -253,4 +253,4 @@ Nach Abschluss dieser Schulung sollten Sie zu Folgendem in der Lage sein:
 * Vergleichen und Kontrahieren von [!UICONTROL Automatisches Targeting] mit „Automatisierte Personalisierung“
 * Erstellen von Aktivitäten für [!UICONTROL Automatisches Targeting]
 
->[!VIDEO](https://video.tv.adobe.com/v/18558)
+>[!VIDEO](https://video.tv.adobe.com/v/18558?captions=ger)
