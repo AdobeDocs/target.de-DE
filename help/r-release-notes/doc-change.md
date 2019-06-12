@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
@@ -21,6 +21,8 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 12. Juni 2019 | [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md) | Text und Bilder aktualisiert. |
+|  | [Funktionsweise von Adobe Target](/help/c-intro/how-target-works.md) | Es wurde ein wichtiger Hinweis zur Verwendung von Target in China hinzugefügt. |
 | 11. Juni 2019 | [Aktivitätserstellung](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Es wurde ein Hinweis entfernt, der besagt, dass es nicht möglich ist, einen Tracking-Server anzugeben, wenn Sie A 4 T verwenden. |
 |  | [Erstellen eines A/B-Tests](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | Text und Bilder aktualisiert. |
 |  | A/B-Test: [Aktivitäts-URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | Text und Bilder aktualisiert. |
