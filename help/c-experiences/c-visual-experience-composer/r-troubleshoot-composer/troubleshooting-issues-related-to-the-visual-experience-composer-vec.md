@@ -6,8 +6,8 @@ seo-title: Beheben von Problemen mit Visual Experience Composer
 solution: Target
 title: Beheben von Problemen mit Visual Experience Composer
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Unter bestimmten Umständen treten im Visual Experience Composer (VEC) manchmal 
 
 Target fügt zwei Parameter (`mboxEdit=1` und `mboxDisable=1`) beim Öffnen der Website im Visual Experience Composer hinzu.
 
-Wenn Ihre Website (insbesondere Apps mit einzelnen Seiten) unsere Parameter beschneidet oder beim Navigieren zwischen Seiten entfernt (ohne eine Seite neu zu laden), ist die Target-Funktionalität nicht mehr gegeben, und die Target-Bibliotheken werden nicht geladen.
+Wenn Ihre Website (insbesondere Apps mit einzelnen Seiten) unsere Parameter beschneidet oder beim Navigieren zwischen Seiten entfernt (ohne eine Seite neu zu laden), ist die Target-Funktionalität nicht mehr gegeben, und die Target-Bibliotheken werden nicht geladen. 
 Stellen Sie zur Vermeidung dieses Problems sicher, dass Sie diese beiden Parameter nicht beschneiden oder entfernen.
 
 ## Meine Seite wird im EEC nicht geöffnet oder nur langsam geladen. Aktivitäten oder Erlebnisse werden im VEC langsam geladen. (nur VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
@@ -108,7 +108,7 @@ Bei der Firefox-Erweiterung „Modify Response Headers“ müssen Sie wie folgt 
 
 Öffnen Sie Target, nachdem Sie eine der Erweiterungen eingerichtet haben. Ihre Seiten sollten nun in Visual Experience Composer geladen werden, selbst wenn Enhanced Experience Composer deaktiviert ist.
 
-## Meine Seite wird im VEC nicht angezeigt (nur VEC)   {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Meine Seite wird im VEC nicht angezeigt (nur VEC) {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * Der Browser wird nicht unterstützt.
 * Der Browser blockiert eine nicht sichere Seite auf einer sicheren Site.
