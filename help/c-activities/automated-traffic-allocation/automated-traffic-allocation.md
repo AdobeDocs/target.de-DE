@@ -2,20 +2,20 @@
 description: Die Funktion „Automatisch zuweisen“ identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und ordnet dem Gewinner automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.
 keywords: automatisierte Traffic-Zuordnung; Targeting; Anzahl erhöhen und Benutzer in Aktivität belassen; Traffic-Zuordnung
 seo-description: Die Funktion „Automatisch zuweisen“ identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und ordnet dem Gewinner automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.
-seo-title: Automatisch zuweisen
+seo-title: Automatische Zuordnung
 solution: Target
-title: Automatisch zuweisen
+title: Automatische Zuordnung
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Automatisch zuweisen{#auto-allocate}
 
-Die automatisierte Zuordnung identifiziert einen Gewinner aus zwei oder mehr Erlebnissen und führt automatisch mehr Traffic zum Gewinner durch, um die Konversionen zu steigern, während der Test weiter ausgeführt und erlernen wird.
+Die Funktion „Automatisch zuweisen“ identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und ordnet dem Gewinner automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ In solchen Tests setzen die meisten Produkte - inklusive Target - einen Student-
 
 Die automatisierte Zuordnung führt alle impliziten Vergleiche über alle Erlebnisse hinweg durch und ergibt dann einen „wahren“ Gewinner. Es gibt in diesem Test keinen Bedarf für ein „Kontrollerlebnis“.
 
-Mit der automatisierten Zuordnung werden neue Besucher auf vernünftige Weise den verschiedenen Erlebnissen zugeordnet, bis das Konfidenzintervall des besten Erlebnisses nicht mehr Intervalle anderer Erlebnisse überdeckt. Normalerweise könnte dieses Vorgehen zu falsch positiven Ergebnissen führen, aber die automatisierte Zuweisung verwendet Konfidenzintervalle, die auf der [Bernstein-Ungleichung](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) basieren, um wiederholte Auswertungen zu kompensieren. An diesem Punkt haben wir einen echten Gewinner. Wenn die automatische Zuordnung gestoppt wird, wenn die Besucher, die auf die Seite gelangen, keine erhebliche Zeitabhängigkeit aufweisen, besteht mindestens eine 95% ige Wahrscheinlichkeit, dass die automatische Zuordnung ein Erlebnis zurückgibt, dessen wahre Antwort nicht unter 1% liegt (relativ), um weniger als die wahre Antwort des Gewinn-Erlebnisses zu erhalten.
+Mit der automatisierten Zuordnung werden neue Besucher auf vernünftige Weise den verschiedenen Erlebnissen zugeordnet, bis das Konfidenzintervall des besten Erlebnisses nicht mehr Intervalle anderer Erlebnisse überdeckt. Normalerweise könnte dieser Prozess zu Falschmeldungen führen, aber die „Automatisierte Zuordnung“ verwendet Konfidenzintervalle basierend auf der [Bernstein-Ungleichung](https://de.wikipedia.org/wiki/Bernstein-Ungleichung_(Stochastik)), die wiederholte Auswertungen kompensiert. An diesem Punkt haben wir einen echten Gewinner. Wenn die automatisierte Zuweisung beendet wird, besteht, sofern es keine wesentliche Zeitabhängigkeit gegenüber den auf der Seite ankommenden Besuchern gibt, eine Chance von mindestens 95 %, dass die automatisierte Zuweisung ein Erlebnis zurückgibt, bei dem die wahre Antwort nicht schlechter als 1 % (relativ) weniger als die wahre Antwort des erfolgreichsten Erlebnisses ist.
 
 ## Verwendung der Funktion „Automatisierte Zuordnung“ im Vergleich zu A/B oder zu automatisierter Personalisierung {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
@@ -47,7 +47,7 @@ Mit der automatisierten Zuordnung werden neue Besucher auf vernünftige Weise de
 * Verwenden Sie einen standardmäßigen **[A/B-Test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**, wenn Sie die Leistung aller Erlebnisse vor der Optimierung Ihrer Site charakterisieren möchten. Ein A/B-Test hilft Ihnen dabei, alle Ihre Erlebnisse in einer Reihenfolge zu ordnen, während die automatisierte Traffic-Zuordnung Spitzenreiter findet, jedoch keine Differenzierung unter den weniger leistungsstarken Erlebnissen garantiert.
 * Verwenden Sie [Automatisierte Personalisierung](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9), wenn Sie Optimierungsalgorithmen mit höchster Komplexität wünschen, zum Beispiel Modelle für maschinelles Lernen, die Vorhersagen auf der Basis von individuellen Profilattributen aufbauen. Die automatisierte Traffic-Zuordnung betrachtet das zusammentreffende Verhalten von Erlebnissen (wie A/B-Standardtests) und unterscheidet nicht zwischen den Besuchern.
 
-## Wesentliche Vorteile   {#section_0913BF06F73C4794862561388BBDDFF0}
+## Wesentliche Vorteile {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Behält die Genauigkeit eines A/B-Tests bei
 * Ermittelt einen statistisch bedeutenden Sieger schneller als mit manuellen A/B-Tests
@@ -57,7 +57,7 @@ Mit der automatisierten Zuordnung werden neue Besucher auf vernünftige Weise de
 
 Bei Erörterungen zur automatisierten Zuordnung sind die folgenden Begriffe hilfreich:
 
-**Multi-Armed Bandit:** Eine [Multi-Armed Bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit)-Vorgehensweise („Mehrarmiger Bandit“) zur Optimierung gleicht forschendes Lernen und die Verwertung dieses Lernens aus.
+**Multi-Armed Bandit:** Eine [Multi-Armed Bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit)-Vorgehensweise („Mehrarmiger Bandit“) zur Optimierung gleicht das forschende Lernen und die Verwertung dieses Lernens aus.
 
 ## So funktioniert der Algorithmus {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -169,19 +169,19 @@ Bei der automatisierten Zuordnung handelt es sich jedoch um einen A/B-Test, der 
 
 Derzeit bevorzugt die Logik Besucher, die schnell konvertieren oder die Site häufiger besuchen. Dies beruht darauf, dass solche Besucher die Gesamtkonversionsrate des Erlebnisses, zu dem sie gehören, vorübergehend erhöhen. Der Algorithmus passt sich häufig von selbst an, sodass die Steigerung der Konversionsrate bei jeder Momentaufnahme verstärkt wird. Wenn die Site viele wiederkehrende Besucher verzeichnet, können deren Konversionen die Gesamtkonversionsrate für das Erlebnis, zu dem sie gehören, möglicherweise erhöhen. Es bestehen gute Chancen, dass wiederkehrende Besucher per Zufall verteilt werden; in diesem Fall wird die Gesamtwirkung (Anstieg) ausgeglichen. Um diese Auswirkung zu beschränken, sollten Sie die Änderung der Zählmethode der Erfolgsmetrik erwägen, um jeden Teilnehmer nur einmal zu zählen.
 
-**Kann ich den Stichprobengrößenrechner verwenden, wenn ich mit der automatischen Zuordnung schätzen möchte, wie lange die Aktivität zur Identifizierung des Gewinners benötigt wird?**
+**Kann ich den Rechner für die Stichprobengröße verwenden, wenn ich die automatisierte Zuordnung nutze, um zu schätzen, wie lange die Aktivität brauchen wird, um den Gewinner zu identifizieren?**
 
 Sie können den vorhandenen [Rechner für die Stichprobengröße](https://docs.adobe.com/content/target-microsite/testcalculator.html) mit einer passend angewendeten Bonferroni-Korrektur verwenden, um eine Schätzung der Laufzeit des Tests zu erhalten. Bei unseren Experimenten haben wir festgestellt, dass die automatisierte Zuordnungsaktivität wesentlich früher endet, als diese Stichprobengröße.
 
-**Sollte ich ein leistungsschwaches Erlebnis aus einer automatischen Zuordnung entfernen, um einen Gewinner zu bestimmen?**
+**Sollte ich ein leistungsschwaches Erlebnis aus einer Aktivität mit automatischer Zuordnung entfernen, um einen Gewinner zu bestimmen?**
 
-Es gibt keinen Grund, ein leistungsschwaches Erlebnis zu entfernen. Die automatisierte Zuordnung bietet automatisch leistungsstarke Erlebnisse und liefert leistungsschwache Erlebnisse weniger häufig. Wenn Sie ein leistungsschwaches Erlebnis in der Aktivität hinterlassen, wird die Geschwindigkeit zur Ermittlung eines Gewinners nicht wesentlich beeinträchtigt.
+Es gibt wirklich keinen Grund, ein leistungsschwaches Erlebnis zu entfernen. Die automatisierte Zuordnung bietet automatisch öfter leistungsstarke Erlebnisse und liefert weniger häufig leistungsschwache Erlebnisse. Wenn Sie ein leistungsschwaches Erlebnis in der Aktivität hinterlassen, wird die Geschwindigkeit zur Ermittlung eines Gewinners dadurch nicht wesentlich beeinträchtigt.
 
-20% der Besucher werden zufällig allen Erlebnissen zugewiesen. Der Traffic, der für ein leistungsschwaches Erlebnis bereitgestellt wird, ist minimal (20% geteilt durch die Anzahl der Erlebnisse).
+20 % der Besucher werden zufällig über alle Erlebnisse verteilt. Der Traffic, der für ein leistungsschwaches Erlebnis bereitgestellt wird, ist nur minimal (20 % geteilt durch die Anzahl der Erlebnisse).
 
 ## Schulungsvideos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
-Die folgenden Videos enthalten weitere Informationen zu den in diesem Artikel behandelten Konzepten.
+In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
 ### Arbeitsablauf für Aktivitäten – Targeting (2:14)
 
