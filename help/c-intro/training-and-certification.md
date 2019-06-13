@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Schulung und Zertifizierung
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Der Adobe-Schulungsdienst bietet Schulungen und Zertifizierungen an.
 
-Besuchen Sie die [Adobe-Website für Kundenschulungen](https://training.adobe.com/training/courses.html#solution=adobeTarget), um eine Liste der verfügbaren persönlich angeleiteten und Online-Kurse zu erhalten.
+Eine Liste der verfügbaren von Kursleitern unterrichteten Kurse und von Online-Kursen finden Sie auf der [Adobe-Website zur Kundenschulung](https://training.adobe.com/training/courses.html#solution=adobeTarget).
 
 Weitere Informationen erhalten Sie im Adobe Training Services Center für Ihre Region.
 
