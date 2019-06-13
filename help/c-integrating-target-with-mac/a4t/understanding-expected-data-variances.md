@@ -7,29 +7,29 @@ solution: Target
 title: Erwartete Datenabweichungen bei Nichtverwendung von A4T
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
-translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T{#expected-data-variances-when-not-using-a-t}
 
-Informationen zu erwarteten Datenabweichungen zwischen [!DNL Target] und Adobe [!DNL Analytics] , wenn *sie Analytics verwenden* und *nicht* als Berichtsquelle (A 4 T) verwenden. A4T reduziert Datenabweichungen erheblich.
+Informationen zu erwarteten Datenabweichungen zwischen [!DNL Target] und Adobe [!DNL Analytics] bei der *Verwendung* und *Nicht*-Verwendung von Analytics als Berichtsquelle (A4T). A4T reduziert Datenabweichungen erheblich.
 
-## Erwartete Datenvarianz bei Verwendung von A 4 T {#expected-using-a4t}
+## Erwartete Datenabweichungen bei der Verwendung von A4T {#expected-using-a4t}
 
 Mit A4T werden sowohl bei Analytics- als auch Target-Berichterstellung zu Aktivitäten ausschließlich Analytics-Daten verwendet, sodass es kaum Abweichungen zwischen den Lösungen in den Target-Aktivitätsberichten gibt. In einigen Fällen vergleichen Kunden Target- und Analytics-Daten jedoch möglicherweise außerhalb des A4T-Integrationsbereichs und bemerken die nachstehend beschriebenen Abweichungsprobleme.
 
-Im Folgenden finden Sie einige Szenarien, in denen möglicherweise Datenvarianz erwartet wird:
+Im Folgenden finden Sie einige Szenarien, in denen möglicherweise Datenabweichungen erwartet werden:
 
-* A 4 T ermöglicht die Möglichkeit, dass ein Target-Treffer (obere Seite der Seite) auftritt, aber kein Analytics-Treffer (unterer Seitenaufruf) stattfindet. Ein Beispiel hierfür wäre, wenn der Benutzer die Seite lädt, den Browser jedoch schließt, bevor der Analytics-Aufruf ausgelöst wird. In diesen Fällen schließt A 4 T den Treffer von Target aus unseren Daten aus. Der Grund dafür ist, dass durch das Zulassen von Treffern von Target-Treffern (erneut obere Seite) als Analytics-Treffer in der Abwesenheit eines tatsächlichen Analytics-Aufrufs Inkonsistenzen mit dem in Analytics (Besucherinflation usw.) festgelegten Datensatz entstehen würden.
+* A4T lässt die Möglichkeit zu, dass ein Target-Treffer (oben auf der Seite) auftritt, aber kein Analytics-Treffer (unten auf der Seite) auftritt. Ein Beispiel hierfür wäre, wenn der Benutzer die Seite lädt, den Browser jedoch schließt, bevor der Analytics-Aufruf ausgelöst wird. In diesen Fällen schließt A4T den Target-Treffer aus unseren Daten aus. Der Grund dafür ist, dass durch das Zulassen einer Zählung von Target-Treffern (erneut oben auf der Seite) als Analytics-Treffer in der Abwesenheit eines tatsächlichen Analytics-Aufrufs Inkonsistenzen mit dem in Analytics festgelegten Datensatz (Besucherinflation usw.) entstehen würden.
 
-   Wenn in Target ein Umleitungstest eingerichtet ist, um den Traffic 50/50 (oder 25/25/25/25 usw.) zu teilen, wird das Benutzerverhalten möglicherweise nicht gleichmäßig aufgeteilt. Wenn Sie eine ungleichmäßige Aufteilung sehen, bedeutet dies einfach, dass eine Benutzergruppe einen Analytics-Aufruf auf der Einstiegsseite nicht ausführt, mehr als die anderen. Durch dieses Fehlschlagen des Analytics-Aufrufs für eine Gruppe wurde der Treffer von Target für diesen Benutzer ausgeschlossen, sodass unstimmigkeiten entstehen.
+   Wenn in Target ein Umleitungstest eingerichtet ist, um den Traffic 50/50 (oder 25/25/25/25 usw.) aufzuteilen, wird das Benutzerverhalten möglicherweise nicht gleichmäßig aufgeteilt. Wenn Sie eine ungleichmäßige Aufteilung sehen, bedeutet dies einfach, dass eine Benutzergruppe einen Analytics-Aufruf auf der Einstiegsseite nicht häufiger als die andere(n) ausführt. Durch dieses Fehlschlagen des Analytics-Aufrufs für eine Gruppe wurde der Treffer von Target für diesen Benutzer ausgeschlossen, sodass die Unstimmigkeiten entstanden.
 
-   Dies ist etwas, das wir zukünftig besprechen sollten, wenn wir für A 4 T auf der Adobe Experience Platform arbeiten. Unsere Teams arbeiten daran, diese verschiedenen Ereignisse zu unterschiedlichen Zeiten auf der Seite zu verarbeiten.
+   Dies ist etwas, das wir zukünftig behandeln sollten, wenn wir für A4T auf der Adobe Experience Platform arbeiten. Unsere Teams arbeiten daran, wie diese verschiedenen Ereignisse, die zu unterschiedlichen Zeiten auf der Seite vorkommen, am besten zu verarbeiten sind.
 
-* Angenommen, Sie erstellen eine automatisch zuordnungsfähige Aktivität für alle Besucher einer bestimmten Seite. Da Aktivitäten des Typs „Automatische Zuordnung“ A4T nicht unterstützen, werden alle Aktivitätsdaten von [!DNL Target] erfasst. Möglicherweise erwarten Sie, dass die Besucher der Aktivität in der [!DNL Target] Berichterstellung den Besuchern auf der Seite in der [!DNL Analytics] Berichterstellung für den gleichen Datumsbereich entsprechen. Dies ist ein Szenario, in dem die unten beschriebene Abweichung erwartet wird.
+* Angenommen, Sie erstellen eine Aktivität des Typs „Automatische Zuordnung“ für alle Besucher einer bestimmten Seite. Da Aktivitäten des Typs „Automatische Zuordnung“ A4T nicht unterstützen, werden alle Aktivitätsdaten von [!DNL Target] erfasst. Möglicherweise erwarten Sie, dass die Besucher der Aktivität in der [!DNL Target] Berichterstellung den Besuchern auf der Seite in der [!DNL Analytics] Berichterstellung für den gleichen Datumsbereich entsprechen. Dies ist ein Szenario, in dem die unten beschriebene Abweichung erwartet wird.
 
    Eine vollständige Liste der Aktivitätstypen, die A4T unterstützen, finden Sie unter [Unterstützte Aktivitätstypen](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
@@ -45,7 +45,7 @@ Berichte in [!DNL Target] zeigen die Leistung basierend auf der Konversions-Mbox
 
 Erwartete Datenabweichungen können sowohl technischer als auch geschäftlicher Natur sein.
 
-### Beispiele technischer Abweichungen   {#section_C3B50ED2E2F9416FAC91437CF1A87369}
+### Beispiele technischer Abweichungen {#section_C3B50ED2E2F9416FAC91437CF1A87369}
 
 Datenabweichungen können durch folgende technische Unterschiede entstehen:
 
@@ -55,7 +55,7 @@ Datenabweichungen können durch folgende technische Unterschiede entstehen:
 * Zeitzonen-Probleme
 * Unterschiede, auf welchen Geräten Zählungen möglich sind
 
-### Beispiele geschäftlicher Abweichungen   {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### Beispiele geschäftlicher Abweichungen {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 Datenabweichungen können durch die folgenden geschäftlichen Unterschiede entstehen:
 
