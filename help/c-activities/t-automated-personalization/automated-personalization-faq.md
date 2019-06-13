@@ -9,8 +9,8 @@ title-outputclass: Premium
 topic: Premium
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 badge: Premium
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,14 +23,14 @@ Liste häufig gestellter Fragen zur automatisierten Personalisierung (AP).
 
 Es gibt keine Option, mit der sich der Vergleich von AP mit einem Standarderlebnis aktivieren lässt. Das Problem lässt sich jedoch umgehen, indem Sie in einem Standarderlebnis oder -angebot, das Teil der Gesamtaktivität ist, auf das Kontrollsegment in den Berichten klicken, um im daraufhin geöffneten Angebotsbericht die Grundleistung des Angebots oder Erlebnisses zu bestimmen. Die für dieses Angebot aufgezeichnete Konversionsrate kann dann für den Vergleich mit der Konversionsrate des gesamten Segments „Random Forest“ verwendet werden. Somit lässt sich vergleichen, welche Leistung die Maschine im Vergleich zum Standardangebot erbringt.
 
-## Mithilfe welcher Best Practices kann ich eine Aktivität vom Typ „Automatisierte Personalisierung“ einrichten?   {#section_E155B26282BE49B58EA2683413D11DE6}
+## Mithilfe welcher Best Practices kann ich eine Aktivität vom Typ „Automatisierte Personalisierung“ einrichten? {#section_E155B26282BE49B58EA2683413D11DE6}
 
 * Wenn Sie eine Seite mit geringerem Traffic personalisieren oder strukturelle Änderungen an dem Erlebnis vornehmen möchten, das Sie personalisieren, sollten Sie ggf. das automatische Targeting anstelle der automatisierten Personalisierung verwenden. Siehe [Automatisches Targeting für personalisierte Erlebnisse](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 * Schließen Sie ggf. eine A/B-Aktivität zwischen den Angeboten und Positionen ab, die Sie für Ihre Aktivität vom Typ „Automatisierte Personalisierung“ planen zu verwenden, um sicherzustellen, dass sich die Position(en) und Angebote auf das Optimierungsziel auswirken. Wenn eine A/B-Aktivität keinen signifikanten Unterschied aufzeigen kann, ist das Generieren der Steigerung durch die automatisierte Personalisierung wahrscheinlich ebenfalls fehlerhaft.
 
    * Wenn ein A/B…N-Test keine statistisch signifikanten Unterschiede zwischen Erlebnissen aufzeigt, da sich die von Ihnen in Erwägung gezogenen Angebote möglicherweise nicht ausreichend voneinander unterscheiden, wirken sich die von Ihnen ausgewählten Standorte nicht auf die Erfolgsmetrik aus oder das Optimierungsziel liegt zu weit vom Konversionstrichter entfernt, um von Ihren ausgewählten Angeboten betroffen zu sein.
 
-* Mithilfe der   [Traffic-Schätzung](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) können Sie einschätzen, wie lange es dauert, bis Personalisierungsmodelle in Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ erstellt werden.
+* Mithilfe der [Traffic-Schätzung](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) können Sie einschätzen, wie lange es dauert, bis Personalisierungsmodelle in Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ erstellt werden.
 * Legen Sie die Zuordnung zwischen der Kontrolle und dem Ziel fest, bevor Sie Ihre Aktivität auf Basis Ihrer Ziele beginnen.
 
    * Besteht das Ziel Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ darin, zu bestimmen wie gut der Personalisierungsalgorithmus insgesamt funktioniert, oder in der Ausführung einer „Always on“-Personalisierungsoptimierung für Ihre Seite? In Abhängigkeit von Ihrer Antwort auf diese Frage möchten Sie möglicherweise eine unterschiedliche Traffic-Zuordnung zwischen der Kontrolle und dem Ziel verwenden.
@@ -44,11 +44,11 @@ Es gibt keine Option, mit der sich der Vergleich von AP mit einem Standarderlebn
    * Es gibt keine Personalisierung zwischen den Angeboten in einer Berichtsgruppe: Die Angebote werden durch das Personalisierungsmodell alle identisch behandelt.
    * Legen Sie niemals alle Angebote in einer Aktivität in einer einzelnen Berichtsgruppe ab. Dadurch werden alle Angebote allen Besuchern in der Aktivität einheitlich nach dem Zufallsprinzip bereitgestellt.
 
-## Welche Einschränkungen gibt es bei der automatisierten Personalisierung?   {#section_08BA09ED51B547299963C94FE6417CFA}
+## Welche Einschränkungen gibt es bei der automatisierten Personalisierung? {#section_08BA09ED51B547299963C94FE6417CFA}
 
 Target besitzt eine harte Begrenzung von 30.000 Erlebnissen. Bei weniger als 10.000 erstellten Erlebnissen ist die Funktionsweise jedoch am besten.
 
-## Wie wird die Kundenansprache auf Angebotsebene implementiert?   {#section_9D7A86EA93D74E9B8C81072A681263A4}
+## Wie wird die Kundenansprache auf Angebotsebene implementiert? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
 Sobald der Besucher zur entsprechenden Position gelangt, wird der Satz der möglichen Angebote, die dem Besucher angezeigt werden, anhand der Regeln vom Typ „Kundenansprache auf Angebotsebene“ bestimmt. Anschließend wählt der Algorithmus das Angebot aus, das entsprechend der Prognose durch das Modell den besten erwarteten Umsatz oder die beste Konversionschance aufweist. Beachten Sie, dass sich das Angebots-Targeting auf die Wirksamkeit der maschinellen Lernalgorithmen von Target auswirkt und daher möglichst sparsam eingesetzt werden sollte.
 
@@ -71,11 +71,11 @@ Die automatisierte Personalisierung leitet Besucher zu dem Erlebnis weiter, das 
 
 Angenommen, eine Aktivität vom Typ „Automatisierte Personalisierung“ hatte zwei Positionen mit jeweils zwei Angeboten. An der ersten Position weist Angebot A eine prognostizierte Konversionsrate von 3 % für einen bestimmten Besucher auf, während Angebot B eine prognostizierte Konversionsrate von 1 % aufweist. An der zweiten Position weist Angebot C eine prognostizierte Konversionsrate von 2 % für denselben Besucher auf, während Angebot D eine prognostizierte Konversionsrate von 5 % aufweist. Daher würde die automatisierte Personalisierung diesem Besucher ein Erlebnis mit Angebot A und Angebot D unterbreiten.
 
-## Wann sollte ich meine Aktivität vom Typ „Automatisierte Personalisierung“ anhalten?   {#section_C51F3DAB8887463BB147373F6FE06B93}
+## Wann sollte ich meine Aktivität vom Typ „Automatisierte Personalisierung“ anhalten? {#section_C51F3DAB8887463BB147373F6FE06B93}
 
 Die automatisierte Personalisierung kann als eine „Always on“-Personalisierung verwendet werden, die kontinuierlich optimiert wird. Insbesondere besteht für zeitlose Inhalte keine Notwendigkeit, Ihre Aktivität vom Typ „Automatisierte Personalisierung“ anzuhalten. Wenn Sie wesentliche Änderungen an den Inhalten vornehmen möchten, die den aktuell in Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ vorhandenen Angeboten nicht ähneln, empfiehlt es sich, eine neue Aktivität zu beginnen, damit andere Benutzer, die Berichte anzeigen, nicht verwirrt werden oder sich auf vergangene Ergebnisse mit anderen Inhalten beziehen.
 
-## Wie lange sollte ich warten, bis Modelle erstellt werden?   {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
+## Wie lange sollte ich warten, bis Modelle erstellt werden? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
 Wie lange es dauert, bis Modelle in Ihrer Aktivität erstellt werden, hängt in der Regel vom Traffic Ihrer ausgewählten Aktivitätsposition(en) und Ihrer Aktivitätserfolgsmetrik ab. Verwenden Sie stattdessen die [Traffic-Schätzung](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714), um zu bestimmen, wie lange das Erstellen von Modellen in Ihrer Aktivität erwartungsgemäß dauert.
 
@@ -83,11 +83,11 @@ Wie lange es dauert, bis Modelle in Ihrer Aktivität erstellt werden, hängt in 
 
 Nein, es müssen mindestens zwei Modelle in Ihrer Aktivität erstellt werden, damit die Personalisierung gestartet wird.
 
-## Wann kann ich die Ergebnisse meiner Aktivität vom Typ „Automatisierte Personalisierung“ anzeigen?   {#section_05DB5ACAE6AD429C9510766A7268EE2C}
+## Wann kann ich die Ergebnisse meiner Aktivität vom Typ „Automatisierte Personalisierung“ anzeigen? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
 Sie können beginnen sich die Ergebnisse Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ anzusehen, sobald Sie mindestens über zwei Erlebnisse mit für das Erlebnis erstellten Modellen (grünes Häkchen) verfügen, die Modelle erstellt haben.
 
-## Wie kann ich die für das Erstellen von Modellen in meiner Aktivität erforderliche Dauer reduzieren?   {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
+## Wie kann ich die für das Erstellen von Modellen in meiner Aktivität erforderliche Dauer reduzieren? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
 Überprüfen Sie Ihre Aktivitätseinrichtung dahingehend, ob Sie Änderungen vornehmen möchten, um die Geschwindigkeit zu verbessern, in der Modelle erstellt werden.
 
