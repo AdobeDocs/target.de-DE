@@ -7,8 +7,8 @@ solution: Target
 title: Fehlerbehebung bei Aktivitäten
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
-translation-type: tm+mt
-source-git-commit: fef00b45291c5e73cb476c3da28b4d7242300f10
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 
 ## Aktivität ist nicht live.
 
-**Validierung:** Gehen Sie zur Registerkarte Übersicht und prüfen Sie, ob der Test als inaktiv oder als Entwurf gekennzeichnet ist. 
+**Validierung:** Gehen Sie zur Registerkarte Übersicht und prüfen Sie, ob der Test als inaktiv oder als Entwurf gekennzeichnet ist.
 
 **Optionen:**
 
@@ -85,7 +85,7 @@ Nachdem Sie in Target als Benutzer hinzugefügt wurden, müssen Sie die Rolle �
 
 * Erstellen Sie die Aktivität erneut.
 
-Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter   [Szenarien für die Seitenmodifizierung](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter [Szenarien für die Seitenmodifizierung](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Die Struktur der Seite wird während des Seitenladevorgangs (während der Laufzeit) verändert.
 
@@ -98,7 +98,7 @@ Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige v
 * Aktualisieren Sie den Seiten-Code, um jedes zu testende Element eindeutig zu identifizieren (mithilfe einer id).
 * Unterbrechen Sie die dynamische Modifizierung der Klasse oder Geschwister wie oben beschrieben.
 
-Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter   [Szenarien für die Seitenmodifizierung](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter [Szenarien für die Seitenmodifizierung](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## mbox.js verschiebt sämtlichen folgenden Code aus dem Kopf in den Textkörper.
 
@@ -123,7 +123,7 @@ Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige v
 
 ## Wenn Sie ein Profilskript löschen, wird eine Fehlermeldung angezeigt.
 
-**Validierung:** Beim Löschen eines Profilskripts aus Target Standard/Premium wird die Fehlermeldung „Profilskript konnte nicht gelöscht werden“ angezeigt. 
+**Validierung:** Beim Löschen eines Profilskripts aus Target Standard/Premium wird die Fehlermeldung „Profilskript konnte nicht gelöscht werden“ angezeigt.
 
 **Optionen:**
 
