@@ -1,13 +1,13 @@
 ---
-description: Informationen, die Sie bei verschiedenen Einstellungen auf der „mbox.js“-Einstellungsseite unterstützen.
+description: Informationen, die Sie bei der Festlegung verschiedener Einstellungen auf der „mbox.js“-Einstellungsseite unterstützen.
 keywords: erweiterte mbox.js-Einstellungen;Client;Serverdomäne;xdomain;Komprimierungsstufe;Unterstützung von Client-Sitzungs-ID;secureOnly;Unterstützung von Client PC-ID;Pass Page;verweisende URL;Traffic-Stufe;Traffic-Dauer;Funktionsrumpf mboxParameters();Funktionsrumpf mboxSupported();Funktionsrumpf mboxCookieDomain();Extra-JavaScript;SiteCatalyst-Plug-in;mbox.js als selbstextrahierendes JavaScript erhalten;flackern;Körper ausblenden;Körper ausblenden
 seo-description: Informationen, die Sie bei der Festlegung verschiedener Einstellungen auf der „mbox.js“-Einstellungsseite unterstützen.
 seo-title: mbox.js konfigurieren
 solution: Target
 title: mbox.js konfigurieren
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
-translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
