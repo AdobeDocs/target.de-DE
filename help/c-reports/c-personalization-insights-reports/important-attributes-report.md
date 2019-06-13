@@ -8,8 +8,8 @@ title: Bericht „Wichtige Attribute“
 title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 ---
 
@@ -110,6 +110,18 @@ Zum jetzigen Zeitpunkt ist [!UICONTROL Personalization Insights] nur für Aktivi
 **Wozu dient die Wichtigkeitsbewertung des Attributs im Bericht „Wichtige Attribute“?**
 
 Die Wichtigkeitsbewertung im Abschnitt „Attribut-Wichtigkeitsbewertung“ des Berichts zeigt, welche Variablen, die der Algorithmus zum Lernen verwendet hat, bei der Aufteilung aller Besucher auf die vom Algorithmus ermittelten Segmente am wichtigsten waren. Den 100 wichtigsten vom Modell verwendeten Attributen wird eine prozentuale Bewertung zugewiesen.
+
+**Warum erhalten in einem bestimmten automatisierten Segment manche Angebote/Erlebnisse mit einer geringeren Konversionsrate mehr Traffic als andere Angebote/Erlebnisse?**
+
+Es gibt mehrere mögliche Gründe, weshalb Sie mehr Besuche in einem Angebot/Erlebnis mit geringer Umrechnung sehen können, einschließlich:
+
+* Geringe Anzahl von Aufrufen für manche oder alle Angebote/Erlebnisse eines bestimmten automatisierten Segments
+* Aktivitäten mit geringerem Volumen, bei denen bestimmte Angebote oder Erlebnisse nicht erstellt wurden.
+* Aktivitäten mit geringerem Volumen, in denen Modelle für einige Angebote/Erlebnisse früher erstellt wurden als andere. Angenommen, ein zusätzliches Modell wurde am Tag 22 erstellt und Sie sehen sich Daten aus den Tagen 10–24 an.
+* Targeting-Regeln für ein bestimmtes Angebot, die einschränken, welche Besucher welche Angebote/Erlebnisse sehen können.
+* In den Insight-Berichten gibt es keine Konfidenzintervalle. Wenn die Konversionsraten nahe genug sind, kann das Modell Traffic so liefern, dass es im Punktbetrag höher ist, aber es sind keine statistisch unterschiedlichen Zahlen.
+
+Das Wissen, wie das Modell funktioniert, das Traffic bereitstellt, kann hilfreich sein. Jede einzelne Person wird auf der Grundlage ihres Gesamtprofils bereitgestellt. Die Insight-Berichte veranschaulichen dieses Verhalten jedoch, um es durch einen Menschen besser interpretieren zu können. Daher schließen sich Segmente nicht gegenseitig aus. Dies kann zu einzelnen Segmenten führen, die diesen Verhaltenstyp anzeigen, da dieselbe Person in mehreren Segmenten angezeigt werden kann.
 
 **Wozu kann ich die Informationen in Personalization Insights nutzen?**
 
