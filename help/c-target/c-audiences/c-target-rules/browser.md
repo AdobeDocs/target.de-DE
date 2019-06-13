@@ -8,8 +8,8 @@ subtopic: Multivarianz-Test
 title: Browser
 topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Die folgenden Browser können als Ziel ausgewählt werden:
 * Firefox
 * Opera
 * Safari
-* iPad 
+* iPad
 * Internet Explorer
 * iPhone|
 
@@ -66,7 +66,7 @@ Das folgende Beispiel zeigt eine Zielgruppe, die Internet Explorer-Benutzer in V
 
 Wählen Sie Aktivitätsteilnehmer basierend auf ihrem Browsertyp, ihrer Sprache oder Version als Zielgruppe aus oder schließen Sie sie aus.
 
-### Typ   {#section_6ADC758F23F145B3A310151546D83D56}
+### Typ {#section_6ADC758F23F145B3A310151546D83D56}
 
 Schließen Sie einen bestimmten Browser als Ziel ein oder aus.
 
@@ -79,7 +79,7 @@ Wählen Sie einen oder mehrere Browser aus.
 
 Mehrfachoptionen sind mit einem ODER verbunden.
 
-### Sprache   {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Sprache {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Schließen Sie bestimmte Browserversionen, die spezifische Sprachen verwenden, als Ziel ein oder aus.
 
@@ -108,7 +108,7 @@ Folgende Browsersprachen können als Ziel ein- oder ausgeschlossen werden.
 
 Mehrfachoptionen sind mit einem ODER verbunden.
 
-### Version   {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Version {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Schließen Sie bestimmte Browserversionen als Ziel ein oder aus.
 
