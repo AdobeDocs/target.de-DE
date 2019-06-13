@@ -7,8 +7,8 @@ solution: Target
 title: Ausnahmen
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
-translation-type: tm+mt
-source-git-commit: 460ce2990972afa8ff292d75eaf79f165944e971
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -37,7 +37,7 @@ Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werde
 
 1. Verwenden Sie den Rule Builder, um Ihre Ausnahmen zu erstellen.
 
-   Wählen Sie aus der Regelliste einen Parameter aus, wählen Sie einen Operator und geben Sie dann einen oder mehrere Werte ein, anhand derer die Produkte identifiziert werden sollen. Trennen Sie mehrere Werte durch Kommas. 
+   Wählen Sie aus der Regelliste einen Parameter aus, wählen Sie einen Operator und geben Sie dann einen oder mehrere Werte ein, anhand derer die Produkte identifiziert werden sollen. Trennen Sie mehrere Werte durch Kommas.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
