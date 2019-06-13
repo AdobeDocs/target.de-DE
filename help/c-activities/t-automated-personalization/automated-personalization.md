@@ -9,8 +9,8 @@ title-outputclass: Premium
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 badge: Premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 >
 >Die Funktion [!UICONTROL Automatisierte Personalisierung] steht als Bestandteil der [!DNL Target Premium]-Lösung zur Verfügung. Sie ist nicht in [!DNL Target Standard] ohne [!DNL Target Premium]-Lizenz enthalten. Wenn Sie über eine [!DNL Target Premium]-Lizenz verfügen, ersetzt die [!DNL Target Premium]-Karte die [!DNL Target Standard]-Karte in der [!DNL Adobe Experience Cloud].
 
-Ähnlich wie bei [!UICONTROL Automatisches Targeting] verwendet [!UICONTROL Automatisierte Personalisierung] einen Random Forest-Algorithmus, also eine führende Methode in der Datenwissenschaft, als wichtigsten Personalisierungsalgorithmus zum Ermitteln des besten Erlebnisses, das einem Besucher angezeigt werden kann. [!UICONTROL Automatisierte Personalisierung kann während der Entdeckungsphase des Testens sehr hilfreich sein. ] Es ist zudem nützlich, maschinelles Lernen zu ermöglichen, um den effektivsten Inhalt zu bestimmen, wenn man unterschiedliche Besucher anspricht. Im Lauf der Zeit lernt der Algorithmus, die effektivsten Inhalte vorherzusagen, und zeigt die Inhalte an, die am wahrscheinlichsten zum Erreichen Ihrer Ziele beitragen.
+Ähnlich wie bei [!UICONTROL Automatisches Targeting] verwendet [!UICONTROL Automatisierte Personalisierung] einen Random Forest-Algorithmus, also eine führende Methode in der Datenwissenschaft, als wichtigsten Personalisierungsalgorithmus zum Ermitteln des besten Erlebnisses, das einem Besucher angezeigt werden kann. [!UICONTROL Automatisierte Personalisierung] kann während der Entdeckungsphase des Testens sehr hilfreich sein. Es ist zudem nützlich, maschinelles Lernen zu ermöglichen, um den effektivsten Inhalt zu bestimmen, wenn man unterschiedliche Besucher anspricht. Im Lauf der Zeit lernt der Algorithmus, die effektivsten Inhalte vorherzusagen, und zeigt die Inhalte an, die am wahrscheinlichsten zum Erreichen Ihrer Ziele beitragen.
 
 Weitere Informationen zum Unterschied zwischen [!UICONTROL automatisierter Personalisierung] und [!UICONTROL automatischem Targeting] finden Sie unter [Automatisches Targeting für personalisierte Erlebnisse](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 
@@ -34,14 +34,14 @@ Die folgenden Begriffe und Definitionen sind hilfreich, wenn es um die [!UICONTR
 | Begriff | Definition |
 |---|---|
 | Multi-Armed Bandit | Die Methode „Multi-Armed Bandit“ stellt ein Gleichgewicht zwischen forschendem Lernen (Exploration) und der Verwertung der Lernergebnisse (Exploitation) her. |
-| Random Forest | Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Sprache der Datenwissenschaftler ist dies eine Ensemble-Classification- oder Regressionsmethode, die auf der Grundlage von Besuchern und Besuchsattributen eine große Anzahl von Entscheidungsbäumen erstellt. Random Forest wird von Target eingesetzt, um zu bestimmen, welches Erlebnis die höchste Wahrscheinlichkeit einer Konversion (oder den höchsten Umsatz pro Besuch) für jeden einzelnen Besucher hat. Weitere Informationen zu Random Forest in Target finden Sie unter   [Random Forest-Algorithmus](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
-| Thompson Sampling | Ziel des Thompson Samplings ist es, festzustellen, welches (nicht personalisierte) Erlebnis insgesamt das beste ist, während gleichzeitig die „Kosten“ für die Auffindung dieses Erlebnisses minimiert werden. Das Thompson Sampling wählt immer einen Gewinner aus, auch wenn es keinen statistischen Unterschied zwischen zwei Erlebnissen gibt. Weitere Informationen finden Sie unter [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Random Forest | Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Sprache der Datenwissenschaftler ist dies eine Ensemble-Classification- oder Regressionsmethode, die auf der Grundlage von Besuchern und Besuchsattributen eine große Anzahl von Entscheidungsbäumen erstellt. Random Forest wird von Target eingesetzt, um zu bestimmen, welches Erlebnis die höchste Wahrscheinlichkeit einer Konversion (oder den höchsten Umsatz pro Besuch) für jeden einzelnen Besucher hat. Weitere Informationen zu Random Forest in Target finden Sie unter [Random Forest-Algorithmus](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
+| Thompson Sampling | Ziel des Thompson Samplings ist es, festzustellen, welches (nicht personalisierte) Erlebnis insgesamt das beste ist, während gleichzeitig die „Kosten“ für die Auffindung dieses Erlebnisses minimiert werden. Das Thompson Sampling wählt immer einen Gewinner aus, auch wenn es keinen statistischen Unterschied zwischen zwei Erlebnissen gibt. Weitere Informationen finden Sie unter [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling) (in englischer Sprache). |
 
 Folgendes sollte beim Einsatz der [!UICONTROL automatisierten Personalisierung] beachtet werden:
 
 **Die[!UICONTROL automatisierte Personalisierung]verwendet einen Random Forest-Algorithmus.**
 
-Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Sprache der Datenwissenschaftler ist dies eine Ensemble-Classification- oder Regressionsmethode, die auf der Grundlage von Besuchern und Besuchsattributen eine große Anzahl von Entscheidungsbäumen erstellt. Random Forest wird von Target eingesetzt, um zu bestimmen, welches Erlebnis die höchste Wahrscheinlichkeit einer Konversion (oder den höchsten Umsatz pro Besuch) für jeden einzelnen Besucher hat. Beispiel: Besucher, die Google Chrome verwenden, Gold Loyality Members sind und am Dienstag Ihre Website besuchen, konvertieren wahrscheinlicher bei Erlebnis A, während Besucher aus New York eher bei Erlebnis B konvertieren. Weitere Informationen zu Random Forest in Target finden Sie unter   [Random-Forest-Algorithmus](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Sprache der Datenwissenschaftler ist dies eine Ensemble-Classification- oder Regressionsmethode, die auf der Grundlage von Besuchern und Besuchsattributen eine große Anzahl von Entscheidungsbäumen erstellt. Random Forest wird von Target eingesetzt, um zu bestimmen, welches Erlebnis die höchste Wahrscheinlichkeit einer Konversion (oder den höchsten Umsatz pro Besuch) für jeden einzelnen Besucher hat. Beispiel: Besucher, die Google Chrome verwenden, Mitglieder der Treuestufe „Gold“ sind und am Dienstag Ihre Website besuchen, konvertieren wahrscheinlicher bei Erlebnis A, während Besucher aus New York eher bei Erlebnis B konvertieren. Weitere Informationen zu Random Forest in Target finden Sie unter [Random-Forest-Algorithmus](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
 **Das Personalisierungsmodell wird bei jedem Besuch verbessert.**
 
@@ -53,7 +53,7 @@ Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Sprache
 
 * Multi-Armed Bandit gewährleistet, dass das Modell immer einen kleinen Anteil des Traffics darauf verwendet, während des gesamten Lebenszyklus der Aktivität weiter zu lernen, um so eine Übernutzung der zuvor erlernten Trends zu verhindern.
 * Die zugrunde liegenden Modelle werden alle 24 Stunden anhand der neuesten Daten zum Besucherverhalten überholt, um sicherzustellen, dass Target bei wechselnden Besucherpräferenzen immer auf dem neuesten Stand bleibt.
-* Wenn der Algorithmus keine Gewinnererlebnisse für einzelne Besucher bestimmen kann, wechselt er automatisch zur Anzeige des Erlebnisses mit der besten Gesamtleistung und sucht weiterhin nach personalisierten Gewinnern. Das Erlebnis mit der besten Leistung wird mithilfe des [Thompson-Samplings](https://en.wikipedia.org/wiki/Thompson_sampling) ermittelt.
+* Wenn der Algorithmus keine Gewinnererlebnisse für einzelne Besucher bestimmen kann, wechselt er automatisch zur Anzeige des Erlebnisses mit der besten Gesamtleistung und sucht weiterhin nach personalisierten Gewinnern. Das erfolgreichste Erlebnis wird mit [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling) ermittelt.
 
 **Das Modell optimiert kontinuierlich eine einzige Zielmetrik.**
 
