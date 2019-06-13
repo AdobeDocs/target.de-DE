@@ -6,8 +6,8 @@ seo-title: Aktivitäts-URL
 solution: Target
 title: Aktivitäts-URL
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
