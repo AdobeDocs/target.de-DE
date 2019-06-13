@@ -8,8 +8,8 @@ title-outputclass: Premium
 topic: Premium
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 badge: Premium
-translation-type: tm+mt
-source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
 
 Target sammelt und verwendet automatisch eine Vielzahl an Daten zum Erstellen seiner Personalisierungsalgorithmen in den Aktivitäten „Automatisierte Personalisierung“ (AP) und „Automatisches Targeting“ (AT). Wenn ein Besucher die AP- oder AT-Aktivität aktiviert, wird eine Momentaufnahme an Informationen an einen Satz von Trainingsdatensätzen (die Besucherdaten, anhand deren die Personalisierungsalgorithmen lernen) weitergegeben.
 
-Weitere Informationen über die Target-Personalisierungsalgorithmen finden Sie unter   [Random-Forest-Algorithmus](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Weitere Informationen über die Target-Personalisierungsalgorithmen finden Sie unter [Random-Forest-Algorithmus](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
-Folgende Tabelle zeigt die Daten, die von der automatisierten Personalisierung standardmäßig erfasst werden, ohne dass der Marketing-Experte hierfür eine Aktion durchführen muss, sowie die Namenskonvention, die zur Anzeige dieser Attribute in [Berichten zu Personalization Insights](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) verwendet wird. Sie können den Eingabedatensatz jederzeit erweitern. Weitere Informationen über das Hochladen zusätzlicher Daten finden Sie unter   [Hochladen von Daten für die Personalisierungsalgorithmen von Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+Folgende Tabelle zeigt die Daten, die von der automatisierten Personalisierung standardmäßig erfasst werden, ohne dass der Marketing-Experte hierfür eine Aktion durchführen muss, sowie die Namenskonvention, die zur Anzeige dieser Attribute in [Berichten zu Personalization Insights](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) verwendet wird. Sie können den Eingabedatensatz jederzeit erweitern. Weitere Informationen über das Hochladen zusätzlicher Daten finden Sie unter [Hochladen von Daten für die Personalisierungsalgorithmen von Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 | Datentyp | Beschreibung | Datentyp-Namenskonvention | Beispielattribute |
 |--- |--- |--- |--- |
