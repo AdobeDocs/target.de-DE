@@ -1,20 +1,20 @@
 ---
-description: Da ein Multivarianz-Test mehrere Erlebnisse vergleicht, ist es wichtig zu wissen, wie hoch der erforderliche Traffic ist, um aussagekräftige Ergebnisse zu erzielen. Die Traffic-Schätzung verwendet Statistiken über Ihre Seite und die Anzahl der getesteten Erlebnisse, um das Traffic-Aufkommen und die erforderliche Testdauer für einen erfolgreichen Test zu schätzen.
-seo-description: Da ein Multivarianz-Test mehrere Erlebnisse vergleicht, ist es wichtig zu wissen, wie hoch der erforderliche Traffic ist, um aussagekräftige Ergebnisse zu erzielen. Die Traffic-Schätzung verwendet Statistiken über Ihre Seite und die Anzahl der getesteten Erlebnisse, um das Traffic-Aufkommen und die erforderliche Testdauer für einen erfolgreichen Test zu schätzen.
+description: Da ein Multivariater Test mehrere Erlebnisse vergleicht, ist es wichtig zu wissen, wie hoch der erforderliche Traffic ist, um aussagekräftige Ergebnisse zu erzielen. Die Traffic-Schätzung verwendet Statistiken über Ihre Seite und die Anzahl der getesteten Erlebnisse, um das Traffic-Aufkommen und die erforderliche Testdauer für einen erfolgreichen Test zu schätzen.
+seo-description: Da ein Multivariater Test mehrere Erlebnisse vergleicht, ist es wichtig zu wissen, wie hoch der erforderliche Traffic ist, um aussagekräftige Ergebnisse zu erzielen. Die Traffic-Schätzung verwendet Statistiken über Ihre Seite und die Anzahl der getesteten Erlebnisse, um das Traffic-Aufkommen und die erforderliche Testdauer für einen erfolgreichen Test zu schätzen.
 seo-title: Schätzen des für einen erfolgreichen Test erforderlichen Traffics
 solution: Target
 title: Schätzen des für einen erfolgreichen Test erforderlichen Traffics
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
-translation-type: tm+mt
-source-git-commit: ca1b7a3d0f5d093cbafd3d3bac30cc542b3099d6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Schätzen des für einen erfolgreichen Test erforderlichen Traffics{#estimate-the-traffic-required-for-a-successful-test}
 
-Da ein Multivarianz-Test mehrere Erlebnisse vergleicht, ist es wichtig zu wissen, wie hoch der erforderliche Traffic ist, um aussagekräftige Ergebnisse zu erzielen. Die Traffic-Schätzung verwendet Statistiken über Ihre Seite und die Anzahl der getesteten Erlebnisse, um das Traffic-Aufkommen und die erforderliche Testdauer für einen erfolgreichen Test zu schätzen.
+Da ein Multivariater Test mehrere Erlebnisse vergleicht, ist es wichtig zu wissen, wie hoch der erforderliche Traffic ist, um aussagekräftige Ergebnisse zu erzielen. Die Traffic-Schätzung verwendet Statistiken über Ihre Seite und die Anzahl der getesteten Erlebnisse, um das Traffic-Aufkommen und die erforderliche Testdauer für einen erfolgreichen Test zu schätzen.
 
 Die Traffic-Schätzung prognostiziert die erforderliche Stichprobengröße, um Folgendes zu gewährleisten:
 
@@ -23,7 +23,7 @@ Die Traffic-Schätzung prognostiziert die erforderliche Stichprobengröße, um F
    Das bedeutet, dass die Wahrscheinlichkeit eines Falsch-Positiv-Werts im Fall einer real nicht vorhandenen Steigerung bei 5 % (100 % - Konfidenzniveau) liegt.
 * 80 % Teststärke
 
-   Das bedeutet, dass die Wahrscheinlichkeit, dass der Test eine tatsächliche Steigerung von 25 % oder mehr aufdeckt, bei 80 % liegt. 
+   Das bedeutet, dass die Wahrscheinlichkeit, dass der Test eine tatsächliche Steigerung von 25 % oder mehr aufdeckt, bei 80 % liegt.
 * 25 % zuverlässig bestimmbare Mindeststeigerung
 
    Target berechnet den erforderlichen Traffic, um mit 80-prozentiger Wahrscheinlichkeit eine tatsächliche Steigerung von 25 % oder mehr zu ermitteln.
@@ -38,12 +38,12 @@ Die Traffic-Schätzung liefert auch Feedback, aus dem Sie erfahren, ob Sie über
 
    ![](assets/estimatorempty.png)
 
-1. Geben Sie die typische Konversionsrate, die geschätzten Besucher pro Tag und die Testdauer an.
+1. Geben Sie die übliche Konversionsrate, den Schätzwert für die Besucher pro Tag und die Testdauer an.
 
-   * [!UICONTROL Anzahl der Inhaltskombinationen]: Wird automatisch berechnet, basierend auf der Anzahl der Erlebnisse, die als Teil Ihrer Aktivität nach etwaigen Ausnahmen erstellt wurden.
-   * [!UICONTROL Typische Konversionsrate]: Die Konversionsrate wird als Prozentsatz ausgedrückt, basierend auf Ihrer Schätzung oder historischen Daten aus Ihrem Analytics-System.
-   * [!UICONTROL Geschätzte Besucher pro Tag]: Dies ist die Anzahl der Besucher, die diese Seite wahrscheinlich basierend auf den Targeting-Kriterien anzeigen. Dies kann auf Ihren Analytics-Daten basieren.
-   * [!UICONTROL Testdauer]: Die Anzahl der Tage, die die Aktivität ausführen soll.
+   * [!UICONTROL Anzahl der Inhaltskombinationen]: Wird automatisch anhand der Anzahl der erstellten Erlebnisse als Bestandteil Ihrer Aktivität nach etwaigen Ausschlüssen berechnet.
+   * [!UICONTROL Typische Konversionsrate]: Die Konversionsrate wird als Prozentsatz ausgedrückt und basiert auf Ihrer Schätzung oder auf historischen Daten aus Ihrem Analysesystem
+   * [!UICONTROL Geschätzte Besucher pro Tag]: Dies ist die Anzahl der Besucher, die diese Seite basierend auf den Targeting-Kriterien wahrscheinlich ansehen werden. Dies kann auf Ihren Analytics-Daten basieren.
+   * [!UICONTROL Testdauer]: Die Anzahl der Tage, während derer die Aktivität ausgeführt werden soll.
    Die Traffic-Schätzung verwendet diese Statistik, um zu ermitteln, welche Anpassungen erforderlich sind, um einen erfolgreichen Test auszuführen.
 
    Im oberen Bereich der Traffic-Schätzung werden die von ihnen eingegebenen Werte berechnet und die Ergebnisse werden angezeigt.
