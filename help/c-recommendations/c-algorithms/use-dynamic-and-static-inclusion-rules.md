@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: premium
-translation-type: tm+mt
-source-git-commit: 049b473bac0b90399c0106fffefb1e905c62da4e
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Klicken Sie beim [Erstellen von Kriterien](../../c-recommendations/c-algorithms/
 
 Die verfügbaren Optionen variieren je nach vertikalem Markt und Empfehlungsschlüssel.
 
-## Hinzufügen von Filterregeln zu Promotions   {#section_D59AFB62E2EE423086281CF5D18B1076}
+## Hinzufügen von Filterregeln zu Promotions {#section_D59AFB62E2EE423086281CF5D18B1076}
 
 Wählen Sie beim [Erstellen einer Promotion](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14) die Option **[!UICONTROL Hervorheben nach Attribut]** aus und klicken Sie dann auf **[!UICONTROL Filterregel hinzufügen]**.
 
@@ -76,7 +76,7 @@ Dynamische Kriterien und Promotions sind deutlich leistungsstärker als statisch
 * spätere Episoden in derselben Staffel
 * vorherige Bücher einer Folge
 
-## Umgang mit leeren Werten beim Filtern nach Entitätsattributübereinstimmung, Profilattributübereinstimmung und Parameterübereinstimmung   {#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## Umgang mit leeren Werten beim Filtern nach Entitätsattributübereinstimmung, Profilattributübereinstimmung und Parameterübereinstimmung {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
 Beim Filtern nach Entitätsattributübereinstimmung, Profilattributübereinstimmung und Parameterübereinstimmung für Abschlusskriterien und Promotions können Sie verschiedene Optionen zum Umgang mit leeren Werten wählen.
 
@@ -94,7 +94,7 @@ Um die gewünschte Aktion auszuwählen, bewegen Sie den Mauszeiger über das Zah
 
 Sehen Sie sich für ein Beispiel zum Umgang mit leeren Werten das [Szenario 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) unten an:
 
-## Szenarien mit dynamischem Filter   {#section_9873E2F22E094E479569D05AD5BB1D40}
+## Szenarien mit dynamischem Filter {#section_9873E2F22E094E479569D05AD5BB1D40}
 
 **Szenario 1:** Anstatt mithilfe eines statischen Filters ein Element aus einem Katalog mit anderen Elementen aus einem Katalog zu vergleichen, können Sie einen dynamischen Filter verwenden, um ein Element aus einem Katalog mit einem Attribut aus dem Profil des Besuchers zu vergleichen.
 
@@ -108,7 +108,7 @@ Von nun an können Sie Einschlussregeln verwenden, um Ort und Abschluss eines Ar
 
 Laut der Stellenausschreibung auf der linken Seite muss der Besucher aus San Francisco, New York oder Los Angeles (`entity.jobCity`) kommen und einen BSCS- oder MBA-Abschluss (`entity.requiredDegree`) haben.
 
-Der Arbeitssuchende auf der rechten Seite kommt aus Los Angeles (`profile.usersCity`) und hat einen MBA-Abschluss ( `profile.degree`).
+Der Arbeitssuchende auf der rechten Seite kommt aus Los Angeles (`profile.usersCity`) und hat einen MBA-Abschluss (`profile.degree`).
 
 Mithilfe eines dynamischen Filters mit Profilattributübereinstimmung können Sie den im unteren Teil der oberen Abbildung gezeigten Filter erstellen, durch den nur Stellenausschreibungen empfohlen werden, für die sich der Besucher basierend auf seinem Wohnort und seinem Abschluss qualifiziert.
 
@@ -269,4 +269,4 @@ Die folgende Tabelle enthält wirksame Regeln und Regeln, die während der Laufz
 | value - ist zwischen - 90 % und 110 % des aktuellen Elements - salesValue | salesValue - ist zwischen - 90 % und 110 % des aktuellen Elements - value |
 | value - ist zwischen - 90 % und 110 % des aktuellen Elements - value | clearancePrice - ist zwischen - 90 % und 110 % des aktuellen Elements - margin |
 | margin - ist zwischen - 90 % und 110 % des aktuellen Elements - margin | storeInventory - gleich - dem aktuellen Element - inventory |
-| inventory - gleich - dem aktuellen Element - inventory |
+| inventory - gleich - dem aktuellen Element - inventory |  |
