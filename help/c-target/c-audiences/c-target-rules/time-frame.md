@@ -6,8 +6,8 @@ seo-title: Zeitrahmen
 solution: Target
 title: Zeitrahmen
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -28,7 +28,7 @@ Verwenden Sie beispielsweise die Funktion](../../../c-target/combining-multiple-
 
    Lassen Sie das Startdatum frei, um das Targeting in Einklang mit dem Zeitplan der Aktivität zu beginnen. Lassen Sie das Enddatum frei, um so lange weiter Targeting zu betreiben, bis Enddatum und -zeit der Aktivität erreicht sind.
 
-   Sie können das Start- oder Enddatum auch leer lassen. Auf diese Weise können Sie dieselbe Zielgruppe in mehreren Aktivitäten verwenden, ohne eine Kopie der Zielgruppe zu erstellen, und gleichzeitig das Start- und Enddatum auf Aktivitätsebene steuern. 
+   Sie können das Start- oder Enddatum auch leer lassen. Auf diese Weise können Sie dieselbe Zielgruppe in mehreren Aktivitäten verwenden, ohne eine Kopie der Zielgruppe zu erstellen, und gleichzeitig das Start- und Enddatum auf Aktivitätsebene steuern.
 
    >[!NOTE]
    >
