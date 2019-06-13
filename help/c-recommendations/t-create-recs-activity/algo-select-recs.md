@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 badge: premium
-translation-type: tm+mt
-source-git-commit: 37ddc2858eb8088f470f87c1a6c0927cd96cc48e
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,8 +32,8 @@ Wenn Sie mehrere Kriterien auswählen, wird der Traffic gleichmäßig zwischen d
 1. [Erstellen Sie eine neue Empfehlung](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F) oder suchen Sie die Empfehlung, deren Kriterien Sie einstellen möchten, und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 1. Wählen Sie einen Branchentyp und einen Seitentyp.
 
-* **Branchentyp:** Der Branchentyp wird verwendet, um bei der Kategorisierung Ihrer Kriterien in [!DNL Recommendations] zu helfen. Möchten Sie den standardmäßigen vertikalen Markt ändern, klicken Sie auf **[!UICONTROL Einstellungen]** und wählen Sie die gewünschte Einstellung für den **vertikalen Markt]aus.[!UICONTROL **
+* **Branchentyp:** Der Branchentyp wird verwendet, um bei der Kategorisierung Ihrer Kriterien in [!DNL Recommendations] zu helfen. Möchten Sie den standardmäßigen vertikalen Markt ändern, klicken Sie auf **[!UICONTROL Einstellungen]** und wählen Sie die gewünschte Einstellung für den **[!UICONTROL vertikalen Markt]** aus.
 * **Seitentyp:** Der Seitentyp hilft ihnen, Ihre Empfehlungen zu kategorisieren. Es gibt auch integrierte Kriterien, die für jeden Seitentyp gewählt werden können.
-* **Kompatibel:** Zeigt nur diejenigen Kriterien, bei denen die ausgewählte Seite die erforderlichen Daten übermittelt. Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die [!DNL entity.categoryId] für das aktuelle Element/die aktuellen Kategorieempfehlungen übermitteln, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, heben Sie die Auswahl für die Option **[!UICONTROL Kompatibel]auf.** Diese Option lässt sich in Ihren [!DNL Target][!UICONTROL -Einstellungen] aktivieren bzw. deaktivieren.
+* **Kompatibel:** Zeigt nur diejenigen Kriterien, bei denen die ausgewählte Seite die erforderlichen Daten übermittelt. Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die [!DNL entity.categoryId] für das aktuelle Element/die aktuellen Kategorieempfehlungen übermitteln, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, heben Sie die Auswahl für die Option **[!UICONTROL Kompatibel]** auf. Diese Option lässt sich in Ihren [!DNL Target][!UICONTROL -Einstellungen] aktivieren bzw. deaktivieren.
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
