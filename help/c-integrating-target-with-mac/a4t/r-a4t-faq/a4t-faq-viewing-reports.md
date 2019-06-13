@@ -7,8 +7,8 @@ solution: Target
 title: Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-translation-type: tm+mt
-source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,11 +25,11 @@ Die Zählmethode gibt an, was Target als Nenner für die Konversionsraten verwen
 * Besucher
 * Besuche
 
-## Kann ich eine Standardmetrik für die Target-Berichte festlegen?   {#section_50C20D286AA042CCA958184C9C0767DD}
+## Kann ich eine Standardmetrik für die Target-Berichte festlegen? {#section_50C20D286AA042CCA958184C9C0767DD}
 
 Für den Aktivitätsbericht können Administratoren die Standardmetrik so ändern, dass bei jeder Ausführung des Berichts dieselben Metriken angezeigt werden. Anderenfalls wird der Bericht standardmäßig auf die letzte Metrik festgesetzt, die Sie für Ihren letzten Bericht angewendet haben.
 
-Weitere Informationen finden Sie unter [Standardberichtsmetriken auswählen](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) in der Anleitung *Hilfe zur Reports and Analytics-Schnittstelle*.
+Weitere Informationen finden Sie unter [Auswählen der Standard-Berichtsmetriken](https://marketing.adobe.com/resources/help/de_DE/sc/user/t_metrics_set_default.html) im Handbuch *Reports and Analytics-Schnittstelle*.
 
 ## Wann wende ich ein Segment auf die Metrik (mit einer errechneten Metrik) an und wann wende ich das Segment auf den Bericht an? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -37,7 +37,7 @@ Die Anwendung der Segmente auf die Berichte erfolgt wie die Anwendung von Segmen
 
 Es ist möglich, mit einer errechneten Metrik Segmente auf Metriken anzuwenden. Dies erfolgt im Allgemeinen, wenn Sie einen neuen Typ von Erfolgsereignis erstellen möchten. Zum Beispiel, wenn Sie sehen möchten, wie viele Besucher zu Ihrer generierten Aktivität zurückkehren oder wie viele Besucher zu einer bestimmten Seite gelangen und Ihren Test sehen. Bitte beachten Sie, dass Steigerung und Konfidenz derzeit nicht für errechnete Metriken generiert werden können.
 
-## Sollte ich beim Anzeigen von Berichten Besucher, Aktivitätsimpressionen oder Besuche verwenden?   {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## Sollte ich beim Anzeigen von Berichten Besucher, Aktivitätsimpressions oder Besuche verwenden? {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
 
 Es gibt mehrere Optionen, von denen jede über eigene Vorteile verfügt:
 
@@ -110,19 +110,19 @@ Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und t�
 
 Da vor der Konversion beide Erlebnisse gesehen wurden, wird die Bestellung beiden „gutgeschrieben“. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für Target-Berichte ist es unerheblich, dass die Konversion allen Aktivitäten gutgeschrieben wird, die der Benutzer gesehen hat, weil dort keine Aktivitäten miteinander verglichen werden, um zu ermitteln, welche die erfolgreichere war. In diesen Berichten werden die Ergebnisse zweier Elemente innerhalb einer einzigen Aktivität verglichen. Ein Benutzer kann innerhalb derselben Aktivität keine unterschiedlichen Erlebnisse sehen, weshalb Sie sich über eine mögliche Kreuzkontamination bei der Zuschreibung der Bestellung keine Gedanken machen müssen.
 
-Weitere Informationen finden Sie in der Analytics-Hilfe unter [Konversionsvariablen (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html).
+Weitere Informationen finden Sie unter [Konversionsvariablen (eVar)](https://marketing.adobe.com/resources/help/de_DE/reference/conversion_var_admin.html) in der Analytics-Hilfe.
 
 ## Warum berechnen Analytics und Analytics for Target (A4T) die Zahlen für die Metrik „Unique Visitors“ unterschiedlich? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 Wenn Sie einen A/B-Test ausführen, der den Student-t-Test (die Konfidenzmetrik) verwendet, um einen Gewinner auszuwählen, gilt unter anderem die Annahme, dass es einen festen Zeithorizont gibt. Der Test ist nur dann statistisch gültig, wenn Sie diese feste Stichprobengröße untersuchen.
 
-Die Metrik „Unique Visitors“ ist in Analytics und Target nur dann verschieden, wenn Sie einen Zeitraum untersuchen, der kürzer ist als der eigentliche Test. Wenn die Stichprobengröße nicht erreicht wird, ist der Test nicht sehr zuverlässig. Weitere Informationen finden Sie unter [How Not to Run an A/B-Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) auf der [Website von Evan Miller](https://www.evanmiller.org/index.html).
+Die Metrik „Unique Visitors“ ist in Analytics und Target nur dann verschieden, wenn Sie einen Zeitraum untersuchen, der kürzer ist als der eigentliche Test. Wenn die Stichprobengröße nicht erreicht wird, ist der Test nicht sehr zuverlässig. Weitere Informationen finden Sie unter [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) auf der Website [https://www.evanmiller.org/index.html](von Evan Miller).
 
 Die Metrik „Unique Visitors“ zeigt die Anzahl der Personen im Test, die die Site während des festgelegten Zeitraums besucht haben. Diese Personen sind weiterhin Teil des Tests und müssen berücksichtigt werden. Wenn Sie nur die Anzahl der Personen sehen wollen, die innerhalb einer einzigen Woche betroffen waren, können Sie ein Segment der Besucher erstellen, die eine Aktivitätsimpression hatten, und dieses auf den Bericht anwenden.
 
 Sie können den Zeitraum für die Persistenz der Target-Variablen auf eine Sitzung verkürzen. Dies ist jedoch meist problematisch für Tests, bei denen das Konversionsereignis wahrscheinlich nicht in derselben Sitzung erfolgt.
 
-## Warum wird in Analytics derselbe Besucher manchmal bei mehreren Besuchen gezählt?   {#section_1397E972D31C4207A142E4D2D6D794A2}
+## Warum wird in Analytics derselbe Besucher manchmal bei mehreren Besuchen gezählt? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 Die folgende Liste erklärt die Gründe, warum derselbe Besucher in Analytics bei mehreren Besuchen gezählt werden konnte:
 
@@ -130,11 +130,11 @@ Die folgende Liste erklärt die Gründe, warum derselbe Besucher in Analytics be
 * Wenn der Besucher die `mbox3rdPartyId` verwendet, sobald der anonyme Besucher mit seinem Drittanbieter-ID-Profil verschmolzen wird, könnte Target den Besucher in einen anderen Besuch einordnen, der mit der ID eines Drittanbieters übereinstimmt. Weitere Informationen finden Sie unter [Echtzeit-Profilsynchronisierung für mbox3rdPartyID](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * Analytics verfolgt möglicherweise verschiedene Geräte als denselben Besucher – anders, als Target diese Geräte verfolgt. Die Einrichtung der Drittanbieter-ID in Target unterscheidet sich von der in Analytics.
 
-## Unterstützt A 4 Virtual Report Suites unterstützt?
+## Unterstützt A4T Virtual Report Suites?
 
-Virtual Report Suites sind *nicht* in der Report Suite-Liste enthalten und Zielgruppen aus Virtual Report Suites werden in A 4 T-Berichten nicht unterstützt.
+Virtual Report Suites sind *nicht* in der Report Suite-Liste enthalten und Zielgruppen aus Virtual Report Suites werden in A4T-Berichten nicht unterstützt.
 
-## Kann ich den Prozentsatz der Traffic-Zuordnung in einer Aktivität ändern, die nach der Aktivierung der Aktivität A 4 T verwendet?
+## Kann ich den Prozentsatz der Traffic-Zuordnung in einer Aktivität ändern, die nach der Aktivierung der Aktivität A4T verwendet?
 
 Wenn Sie den Prozentsatz der Traffic-Zuordnung in einer Aktivität nach Aktivierung ändern, kann dies zu inkonsistenten Berichten in Analytics führen, da sich die Änderung nur auf neue Besucher auswirkt. Wiederkehrende Besucher sind nicht betroffen.
 
@@ -142,6 +142,6 @@ Am besten sollten Sie die vorhandene Aktivität stoppen und dann eine neue Aktiv
 
 ## Kann ich meine Target-Aktivitätsdaten im Adobe Analysis Workspace anzeigen?
 
-Sie können tiefere [!DNL Adobe Analysis Workspace] tiefere Einblicke gewinnen, um die Daten zu visualisieren oder Einblicke zu erkennen, die unter der Oberfläche verborgen sind.
+Sie können mithilfe von [!DNL Adobe Analysis Workspace] tiefere Einblicke gewinnen, um die Daten zu visualisieren oder Einblicke zu finden, die unter der Oberfläche verborgen sind.
 
-Ausführliche Informationen und Beispiele finden Sie in [Analytics &amp; Target: Best Practices für Analyseübungen](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), die von Adobe Experience League bereitgestellt werden.
+Öffnen Sie das Tutorial [Analytics und Target: Bewährte Verfahren zur Analyse](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) von Adobe Experience League.
