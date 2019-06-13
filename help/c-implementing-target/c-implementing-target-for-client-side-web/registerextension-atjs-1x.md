@@ -1,14 +1,14 @@
 ---
-description: 'Informationen zur registerextension ()-Funktion für at. js. '
+description: 'Informationen zur registerExtension()-Funktion für at.js. '
 keywords: adobe.target.notification;Element;Selektor;Benachrichtigung;Erweiterung
-seo-description: Informationen zur registerextension ()-Funktion für die Adobe Target-javascript-Bibliothek "at. js" .
-seo-title: Informationen zur tregisterextension ()-Funktion für die Adobe Target-javascript-Bibliothek "at. js" .
+seo-description: Informationen zur registerExtension()-Funktion für die Adobe Target-JavaScript-Bibliothek at.js.
+seo-title: Informationen zur registerExtension()-Funktion für die Adobe Target-JavaScript-Bibliothek at.js.
 solution: Target
 subtopic: Erste Schritte
 title: registerExtension()
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Stellt eine Standardart zur Registrierung bestimmter Erweiterungen dar.
 
 >[!NOTE]
 >
->Diese Funktion steht nur für at.js, Version 1.*x*, zur Verfügung. Diese Funktion wurde mit der Veröffentlichung von at. js 2. x veraltet. Diese Funktion gibt Standardinhalt zurück, wenn sie mit at. js 2. x verwendet wird.
+>Diese Funktion steht nur für at.js, Version 1.*x*, zur Verfügung. Diese Funktion ist mit der Veröffentlichung von at.js 2.x überholt. Diese Funktion gibt Standardinhalte zurück, wenn sie mit at.js 2.x verwendet wird.
 
 Der Optionsparameter ist obligatorisch und hat die folgende Struktur:
 
@@ -46,7 +46,7 @@ Weitere Informationen und Beispiele zur Verwendung von `registerExtension` finde
 | globalMboxAutoCreate | Boolesch | Zeigt an, ob die automatische Erstellung aktiviert oder deaktiviert ist. |
 | timeout | Nummer | Zeitüberschreitung der Abfrage |
 
-## Methoden für Logger-Module   {#section_10AF62B49AEF48F981E950D26E176138}
+## Methoden für Logger-Module {#section_10AF62B49AEF48F981E950D26E176138}
 
 | Schlüssel | Typ | Beschreibung |
 |--- |--- |--- |
