@@ -1,14 +1,14 @@
 ---
-description: 'Informationen zur Funktion adobe. target. applyoffer (options) für at. js. '
+description: 'Informationen zur Funktion adobe.target.applyOffer(options) für at.js. '
 keywords: adobe.target.notification;Element;Selektor;Benachrichtigung;Erweiterung
-seo-description: Informationen über die Funktion adobe. target. applyoffer (options) für die javascript-Bibliothek von Adobe Target at. js.
-seo-title: Informationen über die Funktion adobe. target. applyoffer (options) für die javascript-Bibliothek von Adobe Target at. js.
+seo-description: Informationen zur Funktion adobe.target.applyOffer(options) für die JavaScript-Bibliothek von Adobe Target at.js.
+seo-title: Informationen zur Funktion adobe.target.applyOffer(options) für die JavaScript-Bibliothek von Adobe Target at.js.
 solution: Target
 subtopic: Erste Schritte
 title: adobe.target.applyOffer(options)
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,7 +25,7 @@ Der Optionsparameter ist obligatorisch und hat die folgende Struktur:
 
 | Schlüssel | Typ | Erforderlich | Beschreibung |
 |--- |--- |--- |--- |
-| mbox | Zeichenfolge | Ja | Mbox namewith<br>at. js 1.3.0 (und höher) Target erzwingt, dass der mbox-Schlüssel verwendet wird. Dieser Schlüssel war früher erforderlich. Target erzwingt seine Verwendung jedoch nun, um sicherzustellen, dass Target ordnungsgemäß validiert ist und Kunden die Funktion richtig verwenden. |
+| mbox | Zeichenfolge | Ja | Name der Mbox<br>Bei at.js 1.3.0 (und höher) erzwingt Target die Verwendung des Mbox-Schlüssels. Dieser Schlüssel war früher erforderlich. Target erzwingt seine Verwendung jedoch nun, um sicherzustellen, dass Target ordnungsgemäß validiert ist und Kunden die Funktion richtig verwenden. |
 | selector | Zeichenfolge oder DOM-Element | Nein | HTML-Element oder „selector“ in CSS wird dazu verwendet, das HTML-Element zu identifizieren, in dem die Angebotsinhalte platziert werden sollten. Wenn kein „selector“ bereitgestellt wurde, geht Target davon aus, dass das zu verwendende HTML-Element HTML HEAD lautet. |
 | anzeigen | Array | Ja | Eine Reihe von Aktionen, die auf das Element angewendet werden sollen |
 
