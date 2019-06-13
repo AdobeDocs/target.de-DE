@@ -7,8 +7,8 @@ solution: Target
 title: Bekannte Probleme und gelöste Probleme
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: tm+mt
-source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,23 +27,23 @@ Die folgenden Abschnitte führen zu bekannten Problemen zu [!DNL Target]:
 
 ### Laden einer Seite im VEC abbrechen {#cancel}
 
-* Das folgende bekannte Problem tritt derzeit auf, wenn das Laden einer [!UICONTROL A/B-Test] - oder [!UICONTROL Erlebnis-Targeting] (XT)-Aktivität innerhalb des VEC abgebrochen wird, die eine Umleitungs-URL enthält.
+* Das folgende bekannte Problem tritt derzeit auf, wenn das Laden einer Aktivität des Typs [!UICONTROL A/B-Test] oder [!UICONTROL Erlebnis-Targeting] (XT) innerhalb des VEC abgebrochen wird, die eine Umleitungs-URL enthält.
 
-   Im Schritt eines der drei teilformulare im VEC wird beim Abbrechen des Seitenladevorgangs das [!UICONTROL Bedienfeld &quot;Änderungen&quot;] im VEC angezeigt und die Umleitungs-URL wird auf das Erlebnis angewendet (z. B.&quot; Erlebnis B). Wenn Sie zwei oder drei Schritte durchführen und dann zu Schritt 1 zurückkehren, tritt die folgende Situation auf.
+   Im Schritt eines der drei Workflows im VEC wird beim Abbrechen des Seitenladevorgangs das Bedienfeld [!UICONTROL Änderungen] im VEC angezeigt und die Umleitungs-URL wird auf das Erlebnis angewendet (z. B. Erlebnis B). Wenn Sie die Schritte zwei oder drei durchführen und dann zu Schritt 1 zurückkehren, tritt die folgende Situation auf.
 
-   Bei &quot;Erlebnis B&quot; wird standardmäßig die Vorlage für das Laden von Website-Dateien gerendert und das [!UICONTROL Bedienfeld&quot; Modifizierungen&quot;] kann aufgerufen werden. Dies sollte nicht der Fall sein, da eine Umleitung zu einer URL-Vorlage angewendet wird. Die Vorlage zur URL-Vorlage sollte angezeigt werden.
+   Bei „Erlebnis B“ wird standardmäßig die Vorlage für das Laden von Website-Dateien gerendert und das Bedienfeld [!UICONTROL Änderungen] kann aufgerufen werden. Dies sollte nicht der Fall sein, da eine Umleitung zu einer URL-Vorlage angewendet wird. Die Umleitung zur URL-Vorlage sollte angezeigt werden.
 
    So zeigen Sie den korrekten Status des Erlebnisses im VEC an:
 
-   Wenn Sie zu einem anderen Erlebnis wechseln und dann zurück zu &quot;Erlebnis B&quot; wechseln, [!DNL Target] wird die Umleitung zur URL-Vorlage angezeigt, die auf dieses Erlebnis angewendet wird, und das [!UICONTROL Bedienfeld&quot; Änderungen&quot;] kann nicht aufgerufen werden. (TGT-32138)
+   Wenn Sie zu einem anderen Erlebnis wechseln und dann zurück zu „Erlebnis B“ wechseln, [!DNL Target] wird die Umleitung zur URL-Vorlage angezeigt, die auf dieses Erlebnis angewendet wird, und das Bedienfeld [!UICONTROL Änderungen] kann nicht aufgerufen werden. (TGT-32138)
 
-* Bei Websites mit Einzelseitenanwendungen (SPA) können Sie beim Abbrechen der Ladevorgänge keine Aktionen im [!UICONTROL Bedienfeld &quot;Änderungen] &quot; bearbeiten.
+* Bei Websites mit einseitigen Anwendungen (SPA) können Sie beim Abbrechen der Ladevorgänge keine Aktionen im Bedienfeld [!UICONTROL Änderungen] bearbeiten.
 
-### Unterstützung von Enterprise-Berechtigungen in Target-apis {#api}
+### Unterstützung von Enterprise-Berechtigungen in Target-APIs {#api}
 
-Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Angebote werden möglicherweise in der Standardarbeitsfläche angezeigt, wenn die Liste der Angebote mit GET-apis abgerufen wird. Dieses Problem wird in der ersten Woche des März 2019 behoben. Nach dieser Fehlerbehebung werden Codeangebote in der entsprechenden Arbeitsfläche angezeigt, wenn sie aus apis gezogen werden. Dieses Problem betrifft *keine* von apis erstellten Angebote. Beispielsweise werden Codeangebote, die aus apis erstellt wurden, in der Arbeitsfläche angezeigt, in der sie erstellt wurden, unabhängig davon, ob sie über GET-apis oder über die Target-Benutzeroberfläche abgerufen wurde.
+Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Angebote werden möglicherweise in der Standardarbeitsfläche angezeigt, wenn die Liste der Angebote mit GET-APIs abgerufen wird. Dieses Problem wird in der ersten Märzwoche 2019 behoben. Nach dieser Fehlerbehebung werden Codeangebote in der entsprechenden Arbeitsfläche angezeigt, wenn sie aus APIs gezogen werden. Dieses Problem betrifft *keine* von APIs erstellten Angebote. Beispielsweise werden Codeangebote, die aus APIs erstellt wurden, in der Arbeitsfläche angezeigt, in der sie erstellt wurden, unabhängig davon, ob sie über GET-APIs oder über die Target-Benutzeroberfläche abgerufen wurde.
 
-### Recommendations 
+### Recommendations
 
 Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
 
@@ -70,7 +70,7 @@ In einer MVT-Aktivität ist der in der Tabelle und im Diagramm angezeigte Gewinn
 
 Bekannte Probleme mit at.js:
 
-* Beim Laden einer Seite in Visual Experience Composer (VEC) muss Target ermitteln, ob die globale Mbox-Einstellung aktiviert oder deaktiviert ist und ob an der Stelle, an der der Benutzer die Empfehlung im VEC anwenden möchte, ein entityID- oder categoryID-Eintrag vorhanden ist. Basierend auf diesen Informationen wird die Kriterienliste gefiltert. Die Standardliste enthält zwar gefilterte Algorithmen, doch mit dem [Kompatibilitäts-Kontrollkästchen](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html) können Sie die vollständige Algorithmenliste anzeigen.
+* Beim Laden einer Seite in Visual Experience Composer (VEC) muss Target ermitteln, ob die globale Mbox-Einstellung aktiviert oder deaktiviert ist und ob an der Stelle, an der der Benutzer die Empfehlung im VEC anwenden möchte, ein entityID- oder categoryID-Eintrag vorhanden ist. Basierend auf diesen Informationen wird die Kriterienliste gefiltert. Die Standardliste enthält gefilterte Algorithmen, aber die [kompatible Checkbox](https://marketing.adobe.com/resources/help/de_DE/target/recs/t_algo_select_recs.html) bietet Ihnen die Möglichkeit, die vollständige Liste der Algorithmen anzuzeigen.
 
    Bei der Verwendung von at.js ist das Kontrollkästchen Kompatibilität ausgeblendet, sodass Sie keine inkompatiblen Algorithmen anzeigen können.
 
@@ -87,7 +87,7 @@ Bekannte Probleme mit at.js:
 
 Die mbox.js-Bibliothek unterstützt keine clientseitigen Vorlagensprachen wie Handlebars und Mustache. Diese Sprachen *werden* von der Bibliothek at.js unterstützt.
 
-**Hinweis**: Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js nach at.js durchführen. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+**Hinweis**: Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Umleitungsangebote
 
@@ -143,7 +143,7 @@ Mboxes werden in Microsoft Explorer 11-Browsern nicht ausgelöst, nachdem ein U
 
 Mit der Veröffentlichung von API 2.3.0 oder höher behoben.
 
-### Geo  Targeting
+### Geo Targeting
 
 Die Suche nach Zeichenfolgen, die Sonderzeichen enthalten (wie z. B. Leerzeichen oder Komma), wird bei der Erstellung von Geotargeting-Zielgruppen derzeit nicht unterstützt. Das Problem tritt beispielsweise auf, wenn Sie Zielgruppen basierend auf Städten, Bundesländern, Ländern usw. erstellen. Wenn Sie z. B. „New York“ eingeben, werden keine gültigen Suchergebnisse zurückgegeben.
 
@@ -244,7 +244,7 @@ Seit der Einführung von Target 17.4.1 (27. April 2017) führt die Verwendung d
 
 In der at.js-Version 0.9.7, die am 22. Mai 2017 veröffentlicht wurde, ist dieses Problem behoben worden.
 
-### Recommendations 
+### Recommendations
 
 Recommendations-Feeds werden langsamer verarbeitet als erwartet. (COR-2836)
 
