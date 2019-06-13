@@ -1,25 +1,25 @@
 ---
-description: 'Informationen zur Funktion adobe. target. applyoffer (options) für at. js. '
+description: 'Informationen zur Funktion adobe.target.applyOffers(options) für at.js. '
 keywords: adobe.target.notification;Element;Selektor;Benachrichtigung;Erweiterung
-seo-description: Informationen über die Funktion adobe. target. applyoffer (options) für die javascript-Bibliothek von Adobe Target at. js.
-seo-title: Informationen über die Funktion adobe. target. applyoffer (options) für die javascript-Bibliothek von Adobe Target at. js.
+seo-description: Informationen zur Funktion adobe.target.applyOffers(options) für die JavaScript-Bibliothek von Adobe Target at.js.
+seo-title: Informationen zur Funktion adobe.target.applyOffers(options) für die JavaScript-Bibliothek von Adobe Target at.js.
 solution: Target
 subtopic: Erste Schritte
 title: adobe.target.applyOffers(options)
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# adobe. target. applyoffer (options) - at. js 2. x
+# adobe.target.applyOffers(options) - at.js 2.x
 
 Mit dieser Funktion können Sie mehr als ein Angebot, das von `adobe.target.getOffers()` abgerufen wurde, anwenden.
 
 >[!NOTE]
 >
->Diese Funktion wurde mit at. js 2. x eingeführt. Diese Funktion steht für at. js Version 1 nicht zur Verfügung.*x*.
+>Diese Funktion wurde mit at.js 2.x eingeführt. Diese Funktion steht für at.js Version 1 nicht zur Verfügung.*x*.
 
 | Schlüssel | Typ | Erforderlich? | Beschreibung |
 | --- | --- | --- | --- |
