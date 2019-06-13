@@ -7,8 +7,8 @@ subtopic: Multivarianz-Test
 title: Zu einer URL umleiten
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
-translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -43,7 +43,7 @@ So erstellen Sie ein Umleitungsangebot:
    Wenn diese Option ausgewählt ist, wird alles, was nach dem ? in der URL des Besuchers steht, zum Zeitpunkt der Weiterleitung an die Weiterleitungs-URL des Besuchers angehängt.
 
    Diese Option ist standardmäßig ausgewählt.
-1. Optional: Erstellen Sie zusätzliche Regeln. 
+1. Optional: Erstellen Sie zusätzliche Regeln.
 
    Zusätzliche Regeln können auf Folgendem basieren:
 
