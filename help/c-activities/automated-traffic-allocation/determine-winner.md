@@ -8,7 +8,7 @@ title: Ermitteln eines Gewinners
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -23,7 +23,7 @@ Viele Marketingexperten machen den Fehler, ein Erlebnis vorzeitig zum Gewinner z
 
 Bei der Verwendung der Funktion [!UICONTROL „Automatisierte Zuordnung“] zeigt [!DNL Target] oben auf der Seite der Aktivität ein Abzeichen mit „Noch kein Gewinner“ an, bis die Aktivität die Mindestanzahl an Konversionen mit ausreichender Konfidenz erreicht hat.
 
-![](assets/auto_traffic_no_winner.png)
+![Kein Gewinnerabzeichen](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 Wenn ein eindeutiger Gewinner feststeht, zeigt [!DNL Target] „Gewinner: Erlebnis X“ an.
 
