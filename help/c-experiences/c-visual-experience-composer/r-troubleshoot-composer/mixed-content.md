@@ -7,8 +7,8 @@ solution: Target
 title: Zulassen von gemischtem Inhalt in Ihrem Browser
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -35,7 +35,7 @@ Wenn Ihre Website in einer unsicheren (HTTP-)Domäne betrieben wird, müssen Sie
 >
 >Die Zulassung von gemischten Inhalten wirkt sich nur auf VEC und nicht auf Ihre Live-Website aus.
 
-Weitere Informationen finden Sie unter [Gemischte Inhalte](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) auf der *Mozilla-Entwicklernetzwerk* (MDN-)Website.
+Weitere Informationen finden Sie unter [Gemischte Inhalte](https://developer.mozilla.org/de/docs/Web/Security/Mixed_content) auf der *Mozilla Developer Network* (MDN)-Website.
 
 ## Zulassen von gemischtem Inhalt in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
@@ -73,7 +73,7 @@ target/t_mixed_content_ie.xml
 
 Es wird empfohlen, den Computer nach der Änderung dieser Einstellung neu zu starten.
 
-## Zulassen von gemischtem Inhalt in Chrome   {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Zulassen von gemischtem Inhalt in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 Wenn Sie eine Seite über eine sichere Verbindung besuchen, verifiziert Google Chrome, dass der Inhalt auf der Webseite sicher übermittelt wurde.
 
@@ -83,4 +83,4 @@ target/t_mixed_content_chrome.xml
 
  -->
 
-Siehe [Diese Seite enthält unsichere Inhalte](https://support.google.com/chrome/answer/1342714?hl=en) in der Google Chrome-Hilfe.
+Siehe [Diese Seite hat unsichere Inhalte](https://support.google.com/chrome/answer/1342714?hl=de) in der Google Chrome-Hilfe.
