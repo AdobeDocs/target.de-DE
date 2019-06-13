@@ -7,15 +7,15 @@ solution: Target
 title: Arbeiten mit Inhalten in der Bibliothek
 topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Arbeiten mit Inhalten in der Bibliothek{#work-with-content-in-the-library}
 
-Informationen über die Aufgaben, die Sie für ein Asset in der Inhaltsbibliothek ausführen können.
+Informationen über die Aufgaben, die Sie für ein Asset in der Inhalte-Bibliothek ausführen können.
 
 1. Klicken Sie auf **[!UICONTROL Angebot]**, wählen Sie die Registerkarte **[!UICONTROL Code-Angebot]** oder **[!UICONTROL Bildangebot]** aus und suchen Sie nach dem Asset, mit dem Sie arbeiten möchten.
 
@@ -28,20 +28,20 @@ Informationen über die Aufgaben, die Sie für ein Asset in der Inhaltsbibliothe
    | Aktion | Asset-Typ | Beschreibung |
    |--- |--- |--- |
    | Anmerkungen hinzufügen | Bild | Fügen Sie eine Anmerkung zum Asset hinzu. Klicken Sie auf das Asset, wählen Sie den Bereich aus, in dem Sie die Anmerkung hinzufügen möchten, und geben Sie dann Ihren Text ein. |
-   | Kopieren   | Experienceimagefoldertext<br><br><br>/HTML | Kopieren Sie das Asset in die Zwischenablage. |
-   | Löschen | Experienceimagefoldertext<br><br><br>/HTML | Löschen Sie das Asset.<br>Sie können einen ganzen Ordner, der eine beliebige Anzahl von Assets und Unterordnern enthält, löschen. Diese Funktion ist auch in der Target-Benutzeroberfläche in der Benutzeroberfläche von Adobe Experience Cloud Assets verfügbar.<br>Wenn Sie einen Ordner mit einer großen Anzahl von Bildern löschen, kann der Prozess hinter den Kulissen lange dauern (mehrere Minuten), bevor die Benutzeroberfläche aktualisiert wird, um den endgültigen Status anzuzeigen. Die erforderliche Zeit ist eine Funktion der Anzahl der Bilder, nicht die Bildgröße. Eine gute Schätzung beträgt 10 Minuten für 2.000 Bilder. Sie können mit anderen arbeiten und den finalen Status nach einigen Minuten überprüfen, um den Löschvorgang zu überprüfen.<br> Nicht leere Ordner in der Bildangebotsbibliothek können gelöscht werden. Wenn alle Bilder im Ordner in keiner Aktivität referenziert werden, werden der gesamte Ordner und dessen Inhalt gelöscht. Wenn in einer Aktivität auf einige Bilder im Ordner verwiesen wird, werden alle nicht referenzierten Bilder gelöscht. Referenzierte Bilder und Ordner, die diese Bilder enthalten, bleiben erhalten. |
-   | Download   | Experienceimagetext<br><br>/HTML | Laden Sie das Asset auf Ihr Gerät oder Ihren Computer herunter. |
-   | Bearbeiten   | Bild<br>Text/HTML | Bearbeiten Sie das Asset. Der Bildschirm „Asset bearbeiten“ wird geöffnet. Er enthält einige Bearbeitungsoptionen, wie Drehen oder Beschneiden. |
+   | Kopieren | Erlebnis<br>Bild<br>Ordner<br>Text/HTML | Kopieren Sie das Asset in die Zwischenablage. |
+   | Löschen | Erlebnis<br>Bild<br>Ordner<br>Text/HTML | Löschen Sie das Asset.<br>Sie können einen ganzen Ordner, der eine beliebige Anzahl von Assets und Unterordnern enthält, löschen. Diese Funktion ist auch in der Target-Benutzeroberfläche sowie in der Benutzeroberfläche von Adobe Experience Cloud Assets verfügbar.<br>Wenn Sie einen Ordner mit einer großen Anzahl von Bildern löschen, kann der Prozess hinter den Kulissen lange dauern (mehrere Minuten), bevor die Benutzeroberfläche aktualisiert wird, um den endgültigen Status anzuzeigen. Die erforderliche Zeit hängt von der Anzahl der Bilder ab, nicht von der Bildgröße. Der Richtwert beträgt 10 Minuten für 2.000 Bilder. Sie können währenddessen an etwas anderem arbeiten und nach einigen Minuten den Endzustand prüfen, um den Löschvorgang zu überprüfen.<br> Nicht leere Ordner in der Bildangebotsbibliothek können gelöscht werden. Wenn auf keines der Bilder im Ordner in irgendeiner Aktivität verwiesen wird, werden der gesamte Ordner und dessen Inhalte gelöscht. Wenn in einer Aktivität auf einige Bilder im Ordner verwiesen wird, werden alle nicht referenzierten Bilder gelöscht. Referenzierte Bilder und Ordner, die diese Bilder enthalten, bleiben erhalten. |
+   | Download | Erlebnis<br>Bild<br>Text/HTML | Laden Sie das Asset auf Ihr Gerät oder Ihren Computer herunter. |
+   | Bearbeiten | Bild<br>Text/HTML | Bearbeiten Sie das Asset. Der Bildschirm „Asset bearbeiten“ wird geöffnet. Er enthält einige Bearbeitungsoptionen, wie Drehen oder Beschneiden. |
    | Karte freigeben | Erlebnis<br>Bild<br>Text/HTML | Geben Sie die Karte auf einem anderen Forum frei. Sie können eine Anmerkung verfassen, ein Forum für die Freigabe auswählen und einen Kommentar zur Karte hinzufügen. |
    | Eigenschaften anzeigen | Erlebnis<br>Bild<br>Text/HTML | Zeigen Sie die Eigenschaften des Assets an. Klicken Sie auf der Eigenschaftenseite auf das Stiftsymbol, um die Eigenschaften zu bearbeiten und weitere Informationen hinzuzufügen. Sie können Metadateninformationen, Veröffentlichungsstatus und Lizenzdaten hinzufügen. |
 
 1. Klicken Sie zum Ändern des Bildes, das für ein Element in der Bibliothek steht, auf das Element und anschließend auf das Symbol **[!UICONTROL Eigenschaften]**. Klicken Sie dann auf **[!UICONTROL Bearbeiten]** und fügen Sie ein Bild hinzu.
 
-## Schulungsvideo: Das Inhalts-Repository
+## Schulungsvideo: Das Content-Repository
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden. (4:56)
 
-* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) und der Target-Inhaltsbibliothek
+* Verbindung zwischen der [Experience Cloud-Asset-Bibliothek](https://marketing.adobe.com/resources/help/de_DE/mcloud/creative_cloud.html) und der Target-Inhaltsbibliothek
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 
