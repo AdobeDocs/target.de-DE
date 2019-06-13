@@ -6,8 +6,8 @@ seo-title: Adobe Target Visual Experience Composer (VEC) Helper-Erweiterung
 solution: Target
 title: Visual Experience Composer Helper-Erweiterung
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 46f86cbcfb25efba2c71356fb2defc429535e706
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -28,22 +28,22 @@ Die VEC Helper-Browsererweiterung für Chrome löst Probleme beim Laden von Site
 Vorteile der Verwendung der VEC Helper-Erweiterung:
 
 * Alle iFrame-Busting-Kopfzeilen wie X-Frame-Options und Content-Sicherheitsrichtlinien werden implizit von der Website entfernt. Hierfür müssen keine komplizierten Regeln für Requestly mehr erstellt werden.
-* Wenn eine Website noch nicht die [!DNL Target]-JavaScript-Bibliothek at.js enthält, können Sie die Erweiterung verwenden, um die Bibliothek einzufügen, sodass Sie Erlebnisse für die Website erstellen können. Anschließend können Sie Aktivitäten erstellen und diese mithilfe von Vorschau-Links überprüfen.
+* Wenn eine Webseite noch nicht die [!DNL Target]-JavaScript-Bibliothek at.js enthält, können Sie die Erweiterung verwenden, um die Bibliothek einzufügen, sodass Sie Erlebnisse für die Website erstellen können. Anschließend können Sie Aktivitäten erstellen und diese mithilfe von Vorschau-Links überprüfen.
 * Mobile Viewports werden auch ohne [!UICONTROL Enhanced Experience Composer] (EEC) unterstützt.
 * Kunden, für die [!DNL Target] noch ungewohnt ist, können mit der Erweiterung mit [!DNL Target] experimentieren, selbst wenn ihre IT-Entwickler [!DNL Target] noch nicht auf der Webseite implementiert haben.
 * Partner, die Websites und [!DNL Target]-Konten mehrerer Kunden bedienen, verfügen jetzt über einen einfachen Mechanismus, durch den sie VEC laden, anstatt mehrere Regeln in Drittanbieter-Werkzeugen verwalten zu müssen.
 
 ## Beziehen und Installieren der VEC Helper-Browsererweiterung
 
-1. Navigieren Sie zur Browsererweiterung [Adobe Target VEC Helper im Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navigieren Sie zur [Adobe Target VEC Helper-Browsererweiterung im Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Klicken Sie auf [!UICONTROL Zu Chrome hinzufügen &gt; Erweiterung hinzufügen].
 1. Um die Erweiterung zu verwenden, klicken Sie in der Symbolleiste des Chrome-Browsers auf das VEC Helper-Symbol (![VEC Helper-Symbol](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)), während Sie sich im VEC oder [QA-Modus](/help/c-activities/c-activity-qa/activity-qa.md) befinden.
 
-Die folgende Abbildung zeigt den VEC Helper mit aktivierter Einstellung &quot;Target [!UICONTROL -Bibliotheken] Injizieren&quot; :
+Die folgende Abbildung zeigt den VEC Helper mit aktivierter Einstellung [!UICONTROL Target-Bibliotheken injizieren]:
 
 ![VEC Helper 1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
-Die folgende Abbildung zeigt den VEC Helper an, ob Sie Bibliotheken auf der Seite einfügen [!DNL Target] möchten, um Authoring zu ermöglichen:
+Die folgende Abbildung zeigt den VEC Helper an mit der Frage, ob Sie [!DNL Target]-Bibliotheken auf der Seite einfügen möchten, um Authoring zu ermöglichen:
 
 ![VEC Helper 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
