@@ -1,21 +1,21 @@
 ---
-description: Der Visual Experience Composer (VEC) von Mobile unterstützt das Einrichten von Click-Verfolgungszielen für Target-Aktivitäten.
-keywords: Mobile App VEC; Visual Experience Composer für Mobilgeräte; Mobile Experience Composer-Optionen; Optionen für Mobilerlebnisse; Zielansicht; Klicks; Klick-Tracking; track
-seo-description: Der Visual Experience Composer (VEC) von Mobile unterstützt das Einrichten von Click-Verfolgungszielen für Adobe Target-Aktivitäten.
-seo-title: Einrichten der Klick-Verfolgung in der mobilen App-VEC
+description: Der Mobile Visual Experience Composer (VEC) unterstützt das Einrichten von Klick-Tracking-Zielen für Target-Aktivitäten.
+keywords: Mobile App VEC; Visual Experience Composer für Mobilgeräte; Mobile Experience Composer – Optionen; Optionen für Mobilerlebnisse; Target-Ansicht; Klicks; Klick-Tracking; Track
+seo-description: Der Mobile Visual Experience Composer (VEC) unterstützt das Einrichten von Klick-Tracking-Zielen für Adobe Target-Aktivitäten.
+seo-title: Einrichten des Klick-Trackings im Mobile App VEC
 solution: Target
-title: Einrichten der Klick-Verfolgung in der mobilen App-VEC
+title: Einrichten des Klick-Trackings im Mobile App VEC
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
-translation-type: tm+mt
-source-git-commit: aa729a8972547be065008c6504bb36dce9cd6e65
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# Einrichten der Klick-Verfolgung in der mobilen App-VEC{#set-up-click-tracking-in-the-mobile-vec}
+# Einrichten des Klick-Trackings im Mobile App VEC{#set-up-click-tracking-in-the-mobile-vec}
 
-Die Mobile App VEC unterstützt die Einrichtung von Klickverfolgungszielen für [!DNL Target] Aktivitäten.
+Der Mobile App VEC unterstützt die Einrichtung von Klick-Tracking-Zielen für [!DNL Target]-Aktivitäten.
 
 1. Wenn Sie die Ziele für Ihre Aktivität auf der Seite Ziele und Einstellungen festlegen, wählen Sie die Erfolgsmetrik [!UICONTROL Konversion] aus.
 
@@ -45,8 +45,8 @@ Wenn ein Aktivitätsteilnehmer auf ein ausgewähltes Element klickt, wird dieser
 
 Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 
-* Wenn mehr als ein Element ausgewählt ist und ein Besucher auf eines dieser Elemente klickt, wird der Klick gezählt. Um jeden Klick einzeln zu zählen, richten Sie einzelne Erfolgsmetriken für jedes Element ein.
+* Wenn mehr als ein Element ausgewählt ist und ein Besucher auf eines dieser Elemente klickt, wird der Klick gezählt. Sie können die Klicks getrennt zählen, indem Sie jeweils einzeln Erfolgsmetriken für sie festlegen.
 * Klickereignisse werden an Target gesendet, sobald der Benutzer auf das entsprechende Element klickt.
-* In der mobilen App-VEC dürfen nur Elemente ausgewählt werden, bei denen ein Klick-Handler angehängt ist.
+* Im Mobile App VEC dürfen nur Elemente ausgewählt werden, bei denen ein Klick-Handler angehängt ist.
 * Sie können zu jedem Bereich der App navigieren, Sie sollten jedoch sicherstellen, dass [Ansichten](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views) für den Bereich definiert sind, in dem Sie Elemente für das Klick-Tracking auswählen.
-* Wenn bei der Bearbeitung einer Aktivität das Gerät bereits in Schritt 1 ausgewählt wurde, müssen Sie das Gerät nicht erneut auswählen. Wenn Sie jedoch direkt auf der Clicktrack-Seite landen, wird Ihnen der Bildschirm zur Geräteauswahl angezeigt, um ein autorisiertes Gerät auszuwählen.
+* Wenn bei der Bearbeitung einer Aktivität das Gerät bereits in Schritt 1 ausgewählt wurde, müssen Sie das Gerät nicht erneut auswählen. Wenn Sie jedoch direkt zur Klick-Tracking-Seite navigieren, wird Ihnen ein Bildschirm zur Geräteauswahl angezeigt, auf dem Sie ein autorisiertes Gerät auswählen können.
