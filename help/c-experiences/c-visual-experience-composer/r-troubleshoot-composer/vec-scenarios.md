@@ -1,14 +1,14 @@
 ---
 description: Die Szenarien in diesem Thema veranschaulichen, wie sich an Ihrer Seite vorgenommene Änderungen auf die Fähigkeit von Target auswirken, ein Erlebnis anzuzeigen.
-keywords: 'Recommendations '
+keywords: Recommendations
 seo-description: Die Szenarien in diesem Thema veranschaulichen, wie sich an Ihrer Seite vorgenommene Änderungen auf die Fähigkeit von Target auswirken, ein Erlebnis anzuzeigen.
 seo-title: Szenarien für die Seitenmodifizierung
 solution: Target
 title: Szenarien für die Seitenmodifizierung
 topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -289,7 +289,7 @@ Nachher
 </div>
 ```
 
-## Szenario: Die Klasse des ausgewählten Elements wird umbenannt   {#section_79D244C588BA452DB8E433D82B7F63EA}
+## Szenario: Die Klasse des ausgewählten Elements wird umbenannt {#section_79D244C588BA452DB8E433D82B7F63EA}
 
 Bei diesem Szenario wird die Klasse des ausgewählten Listenelements umbenannt.
 
