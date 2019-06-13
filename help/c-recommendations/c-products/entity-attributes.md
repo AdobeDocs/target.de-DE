@@ -1,6 +1,6 @@
 ---
 description: Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an Recommendations zu übermitteln.
-keywords: entity; Entitätsattribute; Weiterleiten von Informationen an Recommendations; Verhaltensdaten; Datenzähler; relative URL definieren; Lagerbestandsebene anzeigen; price price; Festlegen des Gewinngewinners; benutzerdefinierte Attribute
+keywords: Entität Entitätsattribute; Weiterleiten von Informationen an Recommendations; Verhaltensdaten; Datenzähler; relative URL definieren; Lagerbestandsebene anzeigen; Preis festlegen; Festlegen der Gewinnspanne; benutzerdefinierte Attribute
 seo-description: Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an Recommendations zu übermitteln.
 seo-title: Entitätsattribute
 solution: Target
@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: premium
-translation-type: tm+mt
-source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Nur einzelner Wert.
 
 Dieser erforderliche Parameter identifiziert das Produkt. Diese alphanumerische ID muss für alle [DNL Adobe Experience Cloud] -Produkte gleich sein, einschließlich [!DNL Analytics], damit die verschiedenen Produkte das Element erkennen und Daten darüber austauschen.
 
-`entity.id` -werte dürfen keine Schrägstriche, Kaufzeichen, Fragezeichen, Prozentsymbole, Kommas oder andere Zeichenzeichen enthalten, die URL-Kodierung erfordern, wenn sie in einem REST-API-Aufruf übergeben werden. Binde- und Unterstriche sind zulässig. Wenn in einem `entity.id`[!DNL Recommendations]-Wert ungültige Satzzeichen enthalten sind, schlagen manche fehl.
+`entity.id`-Werte dürfen keine Schrägstriche, Kaufmännisches-Und-Zeichen, Fragezeichen, Prozentsymbole, Kommas oder andere Satzzeichen enthalten, die eine URL-Kodierung erfordern, wenn sie in einem REST-API-Aufruf übergeben werden. Binde- und Unterstriche sind zulässig. Wenn in einem `entity.id`[!DNL Recommendations]-Wert ungültige Satzzeichen enthalten sind, schlagen manche fehl.
 
 Beispiel: `'entity.id=67833'`
 
@@ -51,7 +51,7 @@ Kategorie der aktuellen Seite. Sie kann mehrere Kategorien umfassen, wie eine we
 
 >[!NOTE]
 >
->Um eine Empfehlung basierend auf einer Kategorie auf einer [!UICONTROL Kategorie]-Seite anzuzeigen, kann nur eine `categoryId` an die mbox weitergegeben werden, die zur Anzeige dieser Empfehlung verwendet wird. Der Wert der `categoryId` muss exakt mit dem Wert von `entity.categoryId` übereinstimmen, der auf der Seite [!UICONTROL Produktdetails] übergeben wird.
+>Um eine Empfehlung basierend auf einer Kategorie auf einer [!UICONTROL Kategorie]-Seite anzuzeigen, kann nur eine `categoryId` an die Mbox weitergegeben werden, die zur Anzeige dieser Empfehlung verwendet wird. Der Wert der `categoryId` muss exakt mit dem Wert von `entity.categoryId` übereinstimmen, der auf der Seite [!UICONTROL Produktdetails] übergeben wird.
 
 Beispiele:
 
@@ -139,7 +139,7 @@ Definieren Sie bis zu 100 benutzerspezifische Variablen, um weitere Informatione
 
 Einschränkungen:
 
-* Sie können keine voreingestellten Entitätsattributnamen für benutzerdefinierte Entitätsattribute verwenden. 
+* Sie können keine voreingestellten Entitätsattributnamen für benutzerdefinierte Entitätsattribute verwenden.
 * Das Attribut entity.environment ist vom System reserviert und kann nicht für benutzerdefinierte Entitätsattribute verwendet werden. Versuche, entity.environment mit targetPageParams, Feed oder API zu übermitteln, werden ignoriert.
 
 Beispiele:
