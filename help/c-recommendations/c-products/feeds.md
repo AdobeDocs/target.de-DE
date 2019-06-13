@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1ac2baf9d3fe7a84d7e65a0aec99c4bfdef613a4
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -47,7 +47,7 @@ Die Verwendung des CSV-Formats bietet die folgenden Vorteile im Vergleich zum Go
 
 Senden Sie per Massen-Upload Anzeigeinformationen, wenn keine Mboxes auf Ihrer Seite vorhanden sind oder Sie Ihre Anzeigeinformationen mit Artikeln ergänzen möchten, die nicht auf Ihrer Site verfügbar sind. So können Sie z. B. Lagerbestandsinformationen versenden, die auf der Site nicht zur Verfügung stehen.
 
-Alle mit der [!DNL .csv]-Datei, dem Google-Produktfeed oder dem Analytics-Produktklassifizierungsfeed hochgeladenen Daten überschreiben den vorhandenen Entitätsattributwert in unserer Datenbank. Wenn Sie Preisinformationen über mBox-Anfragen und anschließend andere Preiswerte in einer Datei senden, überschreiben die Werte in der Datei die mittels mBox-Anfrage festgelegten Werte. Eine Ausnahme bildet das Entitätsattribut `categoryId`, für das Kategoriewerte bis zu einer Längenbeschränkung von 250 Zeichen angehängt statt überschrieben werden.
+Alle mit der [!DNL .csv]-Datei, dem Google-Produktfeed oder dem Analytics-Produktklassifizierungsfeed hochgeladenen Daten überschreiben den vorhandenen Entitätsattributwert in unserer Datenbank. Wenn Sie Preisinformationen über Mbox-Anfragen und anschließend andere Preiswerte in einer Datei senden, überschreiben die Werte in der Datei die mittels Mbox-Anfrage festgelegten Werte. Eine Ausnahme bildet das Entitätsattribut `categoryId`, für das Kategoriewerte bis zu einer Längenbeschränkung von 250 Zeichen angehängt statt überschrieben werden.
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ Wenn Sie über einen vorhandenen Google-Produkt-Feed verfügen, können Sie dies
 >
 >Es müssen nicht Google-Daten verwendet werden. [!DNL Recommendations] verwendet lediglich dasselbe Format wie Google. Sie können mit dieser Methode alle Ihre Daten hochladen und dabei die verfügbaren Planungsfunktionen nutzen. Dennoch müssen Sie die von Google festgelegten und vordefinierten Attributnamen verwenden, wenn Sie die Datei einrichten.
 
-Die meisten Händler laden Produkte in Google hoch, sodass diese angezeigt werden, wenn ein Besucher die Google-Produktsuche verwendet. [!DNL Recommendations] berücksichtigt für Entitäts-Feeds exakt die Spezifikationen von Google. Entitäts-Feeds können [!DNL Recommendations] über [!DNL .xml]oder, [!DNL .txt][!DNL .tsv]oder, verwendet werden und können die [von Google definierten Attribute verwenden](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [Google-Shopping-Seiten](https://www.google.com/prdhp) durchsucht werden.
+Die meisten Händler laden Produkte in Google hoch, sodass diese angezeigt werden, wenn ein Besucher die Google-Produktsuche verwendet. [!DNL Recommendations] berücksichtigt für Entitäts-Feeds exakt die Spezifikationen von Google. Entitäts-Feeds können an [!DNL Recommendations] über [!DNL .xml], [!DNL .txt] oder [!DNL .tsv] gesendet werden und können die [Attribute verwenden, die definiert werden von Google](https://support.google.com/merchants/answer/188494?hl=de&amp;topic=2473824&amp;ctx=topic#US). Die Ergebnisse sind durchsuchbar auf den [Google Shopping-Seiten](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -186,9 +186,9 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Analytics-Classifications   {#section_79E430D2C75443BEBC9AA0916A337E0A}
+## Analytics-Classifications {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Classification. Weitere Informationen über diese Classification-Datei finden Sie im Leitfaden *Analytics-Hilfe und -Referenz* unter [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html). Es ist möglich, dass nicht alle für Empfehlungen benötigten Informationen in Ihrer aktuellen Implementierung verfügbar sind. Befolgen Sie dieses Benutzerhandbuch, wenn Sie Informationen zu Ihrer Classification-Datei benötigen.
+Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Classification. Weitere Informationen zu dieser Klassifikationsdatei finden Sie unter [Klassifikationen](https://marketing.adobe.com/resources/help/de_DE/reference/classifications.html) im *Hilfe- und Referenzhandbuch zu Analytics*. Es ist möglich, dass nicht alle für Empfehlungen benötigten Informationen in Ihrer aktuellen Implementierung verfügbar sind. Befolgen Sie dieses Benutzerhandbuch, wenn Sie Informationen zu Ihrer Classification-Datei benötigen.
 
 >[!IMPORTANT]
 >
@@ -198,7 +198,7 @@ Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Class
 >* Target unterstützt nur Produkt-Classifications. Die Analytics-Produkt-SKU muss derselben Ebene wie die entity.id von Recommendations zugeordnet sein. Die benutzerspezifischen Analytics-Classifications können mit Adobe Consulting Services entwickelt werden. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Fragen haben.
 
 
-## Feed erstellen   {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## Feed erstellen {#task_C6CD9EA905744C2CA0BB8259BB74C867}
 
 Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in [!DNL Recommendations] einzufügen.
 
@@ -250,13 +250,13 @@ recs/t_feeds_create.xml
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Nachdem Sie einen Feed erstellt oder bearbeitet haben, wird er sofort ausgeführt und anschließend anhand der von Ihnen festgelegten Parameter aktualisiert. Es dauert ein wenig, bis alle Informationen zur Verfügung stehen. Zunächst muss der Feed synchronisiert, dann bearbeitet und anschließend indexiert werden, bevor er veröffentlicht und verfügbar gemacht werden kann. Der aktuelle Status wird unter   [Feed-Status](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) in der Liste „Feeds“ angezeigt. Sie können [!DNL Target] schließen, bevor der Prozess abgeschlossen ist, und der Prozess wird weiter ausgeführt.
+Nachdem Sie einen Feed erstellt oder bearbeitet haben, wird er sofort ausgeführt und anschließend anhand der von Ihnen festgelegten Parameter aktualisiert. Es dauert ein wenig, bis alle Informationen zur Verfügung stehen. Zunächst muss der Feed synchronisiert, dann bearbeitet und anschließend indexiert werden, bevor er veröffentlicht und verfügbar gemacht werden kann. Der aktuelle Status wird unter [Feed-Status](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) in der Liste „Feeds“ angezeigt. Sie können [!DNL Target] schließen, bevor der Prozess abgeschlossen ist, und der Prozess wird weiter ausgeführt.
 
 Während der Indexierung erscheinen Produkte und Feed-Header vor der Indexierung von individuellen Werten. Dies ermöglicht Ihnen, Produkte zu suchen und anzusehen, sodass Sie Sammlungen, Ausnahmen, Entwürfe und Aktivitäten erstellen können, bevor die Indexierung abgeschlossen wurde.
 
 Wenn als Status „Erfolg“ gemeldet wird, bedeutet dies, dass die Datei gefunden und korrekt analysiert wurde. Bis zum Abschluss der Indexierung, die abhängig von der Größe Ihrer Datei einige Zeit in Anspruch nehmen kann, steht die Information nicht zur Verwendung in [!DNL Recommendations] zur Verfügung. Wenn der Prozess fehlschlägt, bedeutet dies, dass die Datei nicht gefunden wurde (zum Beispiel, wenn Sie eine fehlerhafte URL oder fehlerhafte FTP-Daten verwendet haben) oder dass bei der Analyse Fehler aufgetreten sind.
 
-## Feedstatus-Optionen und -Indikatoren   {#concept_E475986720D1400999868B3DFD14A7A0}
+## Feedstatus-Optionen und -Indikatoren {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Informationen über die möglichen Feedstatus-Optionen und deren Indikatoren.
 
@@ -267,32 +267,32 @@ Folgende Statusoptionen stehen für Feeds zur Verfügung:
 | Status | Beschreibung |
 |--- |--- |
 | Synchronisierung | Die Einrichtungsinformationen des Feeds werden in Target gespeichert. |
-| Synchronisierung fehlgeschlagen | Feed-Setup-Details konnten nicht in Target gespeichert werden. Bitte erneut versuchen. |
+| Synchronisierung fehlgeschlagen | Feed-Setup-Details konnten nicht in Target gespeichert werden. Bitte versuchen Sie es erneut. |
 | Kein Feed-Durchlauf | Sie haben einen Feed erstellt, aber nicht geplant (die Häufigkeit wurde auf „nie“ festgelegt). |
 | Geplant am *Tag und Uhrzeit* | Der Feed wurde nicht ausgeführt, jedoch für eine bestimmte Uhrzeit an einem bestimmten Tag geplant. |
 | Warten auf Download | Target bereitet das Herunterladen der Feed-Datei vor. |
 | Herunterladen von Feed-Datei | Target lädt die Feed-Datei herunter. |
-| Importieren von Elementen | Target importiert Elemente aus der Feed-Datei. Hinweis: Sobald dieser Schritt abgeschlossen ist und &quot;Suchindex-Updates vorbereiten&quot; angezeigt wird, wurden Änderungen an Elementattributen in unser zentrales System importiert und erscheinen in den bereitgestellten Empfehlungsinhalten, die von unseren geografischen Edge-Knoten innerhalb von 60 Minuten zurückgegeben werden. |
-| Vorbereiten von Suchindex-Updates | Target bereitet die Aktualisierung des Katalogsuchindex vor. Hinweis: Wenn dieser Status aufgeführt ist, wurden Änderungen an Elementattributen bereits vorgenommen und werden in Kürze in den gelieferten Empfehlungen übernommen, obwohl sie noch nicht in der Katalogsuche dargestellt werden. |
-| Suchindex wird aktualisiert | Target aktualisiert den Index für Katalogsuche. Hinweis: Wenn dieser Status aufgeführt ist, wurden Änderungen an Elementattributen bereits vorgenommen und werden in Kürze in den gelieferten Empfehlungen übernommen, obwohl sie noch nicht in der Katalogsuche dargestellt werden. |
+| Importieren von Elementen | Target importiert Elemente aus der Feed-Datei. Hinweis: Sobald dieser Schritt abgeschlossen ist und „Suchindex-Updates vorbereiten“ angezeigt wird, wurden Änderungen an Elementattributen in unser zentrales System importiert und erscheinen in den bereitgestellten Empfehlungsinhalten, die von unseren geografischen Edge-Knoten innerhalb von 60 Minuten zurückgegeben werden. |
+| Vorbereiten von Suchindex-Updates | Target bereitet die Aktualisierung des Katalogsuchindexes vor. Hinweis: Wenn dieser Status aufgeführt ist, wurden Änderungen an Elementattributen bereits vorgenommen und werden in Kürze in den gelieferten Empfehlungen übernommen, obwohl sie noch nicht in der Katalogsuche dargestellt werden. |
+| Suchindex wird aktualisiert | Target aktualisiert den Index für die Katalogsuche. Hinweis: Wenn dieser Status aufgeführt ist, wurden Änderungen an Elementattributen bereits vorgenommen und werden in Kürze in den gelieferten Empfehlungen übernommen, obwohl sie noch nicht in der Katalogsuche dargestellt werden. |
 | Aktualisierungen abgeschlossen | Target hat alle mit der Feed-Datei verknüpften Aktualisierungen abgeschlossen. |
-| Index konnte nicht verwendet werden | Der Index-Vorgang ist fehlgeschlagen. Bitte erneut versuchen. |
+| Index konnte nicht verwendet werden | Die Index-Operation ist fehlgeschlagen. Bitte versuchen Sie es erneut. |
 | Server nicht gefunden | FTP- oder URL-Speicherorte sind ungültig oder nicht erreichbar. |
 
 Möchten Sie einen Feed aktualisieren (beispielsweise, um Änderungen an der Feedkonfigurierung oder -datei vorzunehmen), öffnen Sie den Feed, nehmen Sie die gewünschten Änderungen vor und klicken Sie auf **[!UICONTROL Speichern]**.
 
 >[!IMPORTANT]
 >
->Hochgeladene Entitäten laufen nach 61 Tagen ab. Das bedeutet, dass Ihre Feed-Datei mindestens alle 60 Tage hochgeladen werden sollte, um eine Unterbrechung Ihrer Empfehlungsaktivitäten zu vermeiden. Wenn ein Element mindestens alle 60 Tage in einer Feed-Datei (oder einer anderen Methode zur Aktualisierung der Entität) nicht enthalten ist, wird das Element nicht mehr von Adobe Target aufgezeichnet und aus dem Katalog entfernt.
+>Hochgeladene Entitäten laufen nach 61 Tagen ab. Das bedeutet, dass Ihre Feed-Datei mindestens alle 60 Tage hochgeladen werden sollte, um eine Unterbrechung Ihrer Empfehlungsaktivitäten zu vermeiden. Wenn ein Element nicht mindestens alle 60 Tage in einer Feed-Datei (oder einer anderen Methode zur Aktualisierung der Entität) enthalten ist, wird das Element nicht mehr von Adobe Target aufgezeichnet und aus dem Katalog entfernt.
 
-### Feedstatus-Indikatoren   {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+### Feedstatus-Indikatoren {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
 Die folgenden Feedstatus-Indikatoren werden in der Spalte [!UICONTROL Status] angezeigt:
 
 | Statusindikator | Beschreibung |
 |--- |--- |
 | Grüner Statusindikator | Wenn die Indexierung eines Feeds erfolgreich abgeschlossen wurde, zeigt ein grüner Statuspunkt an, dass der Feed einen erfolgreichen Status hat. |
-| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Ein gelber Punkt wird beispielsweise für einen Feed angezeigt, für den eine tägliche Ausführung festgelegt wurde, sofern der Index nicht innerhalb von sechs Stunden nach der geplanten Zeit abgeschlossen wurde.   Hinweis: Sobald der Feed-Status „Warten auf Indexwarteschlange“ lautet, sind die neu aktualisierten Werte in der Bereitstellung und Kriterienverarbeitung verfügbar. |
+| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Ein gelber Punkt wird beispielsweise für einen Feed angezeigt, für den eine tägliche Ausführung festgelegt wurde, sofern der Index nicht innerhalb von sechs Stunden nach der geplanten Zeit abgeschlossen wurde.  Hinweis: Sobald der Feed-Status „Warten auf Indexwarteschlange“ lautet, sind die neu aktualisierten Werte in der Bereitstellung und Kriterienverarbeitung verfügbar. |
 | Weißer Statusindikator | Wenn ein Feed nicht geplant ist, gibt ein weißer Punkt für den Status an, dass der Feed noch nicht ausgeführt wurde. |
 | Roter Statusindikator | Wenn der Feed keine Daten auf den Server laden kann, wird ein roter Statusindikator angezeigt. |
 Sehen Sie sich folgende Beispiele an:
@@ -306,7 +306,7 @@ Der Status ist gelb, da der Index vor rund 6,5 Stunden erstellt werden sollte. 6
 
 **Beispiel 2:**
 
-* &zwsp;1. Januar: Monatlicher Feed wird um 9:00 Uhr verarbeitet
-* &zwsp;3. Februar: Es ist 10:00 Uhr und der Feed wurde einen Monat, einen Tag und eine Stunde lang nicht ausgeführt
+* 1. Januar: Monatlicher Feed wird um 9:00 Uhr verarbeitet
+* 3. Februar: Es ist 10:00 Uhr und der Feed wurde einen Monat, einen Tag und eine Stunde lang nicht ausgeführt
 
 Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte ausgeführt werden müssen. Auch wenn dies nur (31 + (1 / 25)) / 30 = 1,03 % der Häufigkeitseinstellung ergibt, wurde der Höchstwert von einem Tag für die Verzögerung überschritten.
