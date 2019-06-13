@@ -7,8 +7,8 @@ solution: Target
 title: Geschätzte Umsatzsteigerung
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,7 +31,7 @@ Für diese Schätzung werden das Ausmaß der Steigerung durch das erfolgreichste
 
 Die geschätzte Umsatzsteigerung wird auf Basis von „Umsatz pro Besuch (RPV)“ berechnet, was wiederum von der Metrik für das primäre Ziel abgerufen wird.
 
-Die geschätzte Steigerung wird mithilfe der folgenden Formel berechnet: (&lt; erfolgreichstes Erlebnis RPV &gt; - &lt; Kontrollerlebnis RPV &lt;) * &lt; Gesamtanzahl der Besucher in der Aktivität &gt;
+Die geschätzte Steigerung wird mit folgender Formel berechnet: (&lt;RPV des erfolgreichsten Erlebnisses&gt; - &lt;RPV des Kontrollerlebnises&gt;)*&lt;Gesamtanzahl Besucher in der Aktivität&gt;
 
 Das Ergebnis wird auf maximal eine Dezimalstelle gerundet, wenn die gekürzte Form vor der Dezimalstelle nur eine Ziffer enthält. Beispiele: 1,6 Mio. $, 60 K $, 900 $, 8,5 K $, 205 K $
 
