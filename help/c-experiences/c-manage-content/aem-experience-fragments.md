@@ -7,8 +7,8 @@ solution: Target
 title: AEM-Erlebnisfragmente
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,11 +31,11 @@ Mithilfe von in AEM in Target-Aktivitäten erstellten Erlebnisfragmenten können
 
 AEM kombiniert all Ihre Inhalte und Assets an einer zentralen Stelle, um Ihre Personalisierungsstrategie zu begünstigen. Mit AEM können Sie an einer Stelle problemlos Inhalte für Desktops, Tablets und mobile Geräte erstellen, ohne Code zu schreiben. Es müssen keine Seiten für jedes Gerät erstellt werden - AEM passt die einzelnen Erlebnisse automatisch mit Ihren Inhalten an.
 
-Mit Target können Sie personalisierte Erlebnisse bedarfsgerecht bereitstellen. Dies erfolgt auf der Grundlage einer Kombination aus regelbasierten und AI-gestützten Ansätzen des maschinellen Lernens, zu denen Verhaltens-, Kontext- und Offline-Variablen zählen.   Target ermöglicht Ihnen die problemlose Einrichtung und Ausführung von A/B- und multivariaten Aktivitäten (MVT), um die besten Angebote, Inhalte und Erlebnisse zu bestimmen.
+Mit Target können Sie personalisierte Erlebnisse bedarfsgerecht bereitstellen. Dies erfolgt auf der Grundlage einer Kombination aus regelbasierten und AI-gestützten Ansätzen des maschinellen Lernens, zu denen Verhaltens-, Kontext- und Offline-Variablen zählen.  Target ermöglicht Ihnen die problemlose Einrichtung und Ausführung von A/B- und multivariaten Aktivitäten (MVT), um die besten Angebote, Inhalte und Erlebnisse zu bestimmen.
 
 Erlebnisfragmente sind ein großer Schritt in Richtung der Verknüpfung zwischen den Erstellern von Inhalten/Erlebnissen und Managern mit den Optimierungs- und Personalisierungsexperten, die Geschäftsergebnisse mit Target optimieren.
 
-## Voraussetzungen   {#section_AE6F0971E1574B3AA324003599B96E5A}
+## Voraussetzungen {#section_AE6F0971E1574B3AA324003599B96E5A}
 
 Sie müssen über die Funktion für Erlebnisfragmente in Target verfügen. Darüber hinaus müssen Sie AEM 6.3 mit dem richtigen Service Pack oder AEM 6.4 (oder höher) verwenden. Ihr Kundenbetreuer kann Ihnen helfen, die Anforderungen zur Verwendung dieser Funktion zu erfüllen:
 
@@ -52,15 +52,15 @@ Um AEM-Erlebnisfragmente in Target verwenden zu können, müssen Sie die folgend
 
 Weitere Informationen finden Sie unter:
 
-* **AEM 6.3:**[Abonnieren von Adobe Analytics und Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) in der Dokumentation zu _Adobe Experience Manager 6.3_.
-* **AEM 6.4:**[Abonnieren von Adobe Analytics und Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) in der Dokumentation zu _Adobe Experience Manager 6.4_.
+* **AEM 6.3:** [Anmelden für Adobe Analytics und Adobe Target](https://helpx.adobe.com/de/experience-manager/6-3/sites/administering/using/opt-in.html) in der _Adobe Experience Manager 6.3_-Dokumentation.
+* **AEM 6.4:** [Anmelden für Adobe Analytics und Adobe Target](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/opt-in.html) in der _Adobe Experience Manager 6.4_-Dokumentation.
 
 ### Schritt 2: Erlebnisfragment erstellen
 
 Erlebnisfragmente werden in AEM erstellt. Weitere Informationen finden Sie unter:
 
-* **AEM 6.3:** [Erlebnisfragmente](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) in der Dokumentation zu *Adobe Experience Manager 6.3*.
-* **AEM 6.4:**[Erlebnisfragmente](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) in der Dokumentation zu *Adobe Experience Manager 6.4*.
+* **AEM 6.3:** [Erlebnisfragmente](https://helpx.adobe.com/de/experience-manager/6-3/sites/authoring/using/experience-fragments.html) in der *Adobe Experience Manager 6.3*-Dokumentation.
+* **AEM 6.4:** [Erlebnisfragmente](https://helpx.adobe.com/de/experience-manager/6-4/sites/authoring/using/experience-fragments.html) in der *Adobe Experience Manager 6.4*-Dokumentation.
 
 ### Schritt 3: AEM für das Teilen des Erlebnisfragments mit Target konfigurieren
 
@@ -114,7 +114,7 @@ Mit dem Visual Experience Composer (VEC) oder dem Form-Based Experience Comp
 
 **So verwenden Sie Erlebnisfragmente mit dem VEC:**
 
-1. Wählen Sie in Target beim Erstellen oder Bearbeiten einer Erfahrung im   [Visual Experience Composer](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) auf die Stelle auf der Seite, an der Sie AEM-Inhalt einfügen möchten. Wählen Sie dann **[!UICONTROL Mit Erlebnisfragment tauschen]** aus, um die Liste [!UICONTROL Erlebnisfragment auswählen] anzuzeigen.
+1. Wählen Sie in Target beim Erstellen oder Bearbeiten eines Erlebnisses im [Visual Experience Composer](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) auf die Stelle auf der Seite, an der Sie AEM-Inhalt einfügen möchten. Wählen Sie dann **[!UICONTROL Mit Erlebnisfragment tauschen]** aus, um die Liste [!UICONTROL Erlebnisfragment auswählen] anzuzeigen.
 
    >[!NOTE]
    >
@@ -139,7 +139,7 @@ Mit dem Visual Experience Composer (VEC) oder dem Form-Based Experience Comp
 
 **So verwenden Sie Erlebnisfragmente mit dem Form-Based Experience Composer:**
 
-1. Wählen Sie in Target beim Erstellen oder Bearbeiten einer Erfahrung im   [Form-Based Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) die Stelle auf der Seite aus, an der Sie AEM-Inhalt einfügen möchten. Wählen Sie dann **[!UICONTROL Mit Erlebnisfragment tauschen]** aus, um die Liste [!UICONTROL Erlebnisfragment auswählen] anzuzeigen.
+1. Wählen Sie in Target beim Erstellen oder Bearbeiten eines Erlebnisses im [Form-Based Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) die Stelle auf der Seite aus, an der Sie AEM-Inhalt einfügen möchten. Wählen Sie dann **[!UICONTROL Mit Erlebnisfragment tauschen]** aus, um die Liste [!UICONTROL Erlebnisfragment auswählen] anzuzeigen.
 
    ![](assets/experience_fragment_list.png)
 
@@ -150,4 +150,4 @@ Mit dem Visual Experience Composer (VEC) oder dem Form-Based Experience Comp
 
 ## Schulungsvideo: Verwenden von AEM-Erlebnisfragmenten mit Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
 
-Das folgende Video zeigt, wie Sie Erlebnisfragmente einrichten und verwenden können: [Verwenden von AEM-Erlebnisfragmenten in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-feature-video-use.html).
+Im folgenden Video erfahren Sie, wie Sie Erlebnisfragmente einrichten und verwenden: [Verwenden von AEM-Erlebnisfragmenten mit Adobe Target](https://helpx.adobe.com/de/experience-manager/kt/sites/using/experience-fragment-target-feature-video-use.html).
