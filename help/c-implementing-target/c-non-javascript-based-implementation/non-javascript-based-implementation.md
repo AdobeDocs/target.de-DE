@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: E-Mail Target-Implementierung
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
-translation-type: tm+mt
-source-git-commit: 2c329fdfe0047740ed803b9b0478ce107a23c8dc
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,7 +33,7 @@ AdBox-Anzeigen und Weiterleitungen können mit jeder beliebigen Aktivität verwe
 
 * Es gibt keinen clientseitigen Timeout wie bei Standard-Mboxes. Wenn Target vollständig ausfällt, sehen Besucher keine Inhalte der Werbeanzeige, auch keine Standardinhalte.
 * Die Besuche werden mithilfe von Drittanbieter-Cookies nachverfolgt. Unterscheiden sich die PCIDs, wird das Drittanbieterprofil des Besuchers standardmäßig mit bestehenden Erstanbieterprofilen zusammengeführt.
-* Um Erstanbieter-Cookies für die AdBox selbst zu verwenden, müssen Sie die Mbox-Sitzung in die URL aufnehmen. Ihr Kundenbetreuer gibt Ihnen gerne weiterführende Informationen zu diesem Thema.
+* Um Erstanbieter-Cookies für die AdBox selbst zu verwenden, müssen Sie die mBox-Sitzung in die URL aufnehmen. Ihr Kundenbetreuer gibt Ihnen gerne weiterführende Informationen zu diesem Thema.
 * Um Erstanbieter-Cookies zur Verfolgung von Werbeanzeigen-Klicks zu verwenden, müssen Sie die Mbox-Sitzung in die URL aufnehmen. Ihr Kundenbetreuer gibt Ihnen gerne weiterführende Informationen zu diesem Thema.
 * Um mehr als eine AdBox auf derselben Seite zu verwenden, müssen Sie die Mbox-Sitzung in die URL aufnehmen. Ihr Kundenbetreuer gibt Ihnen gerne weiterführende Informationen zu diesem Thema. Sie können eine AdBox und einen Weiterleitungslink auf derselben Seite haben (da es sich bei einer Weiterleitung eigentlich um eine zweite Seite handelt).
 
