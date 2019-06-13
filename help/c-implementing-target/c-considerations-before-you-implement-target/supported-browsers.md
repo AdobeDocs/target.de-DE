@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Unterstützte Browser
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -20,16 +20,16 @@ Die Bereitstellung der [!DNL Adobe Target]-Anwendung und von Inhalten wurde für
 
 Weitere wichtige Informationen zu TLS finden Sie unter [Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
-## [!DNL Target] Standard/Premium-Benutzeroberfläche {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target] Standard-/Premium-Benutzeroberfläche {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 Die [!DNL [!DNL Target]]-Standard/Premium]-Benutzeroberfläche unterstützt folgende Browser und Geräte:
 
 | Gerätetyp | Browser-Version |
 |--- |--- |
-| Windows | <ul><li>Microsoft Internet Explorer 11.<br>**Hinweis:** [!DNL Target] und die Adobe Experience Cloud stellen die Unterstützung von Microsoft Internet Explorer 11 ab März 2019 ein. Diese Änderung betrifft nur das [!DNL Target]-Authoring. Diese Änderung wirkt sich nicht auf die Bereitstellung von Erlebnissen aus. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser.</li><li>Microsoft Edge</li><li>Google Chrome (neueste Version, neueste Version minus 1)</li><li>Mozilla Firefox (neueste Version, neueste Version minus 1)</li></ul> |
+| Windows | <ul><li>Microsoft Edge</li><li>Google Chrome (neueste Version, neueste Version minus 1)</li><li>Mozilla Firefox (neueste Version, neueste Version minus 1)</li></ul> |
 | Mac | <ul><li>Firefox (neueste Version, neueste Version minus 1)</li><li>Chrome (neueste Version, neueste Version minus 1)</li></ul> |
 
-## Inhaltsbereitstellung {#section_1045A946056441268D40025529918D3D}
+## Bereitstellung von Inhalten {#section_1045A946056441268D40025529918D3D}
 
 Die Inhaltsbereitstellung wurde für folgende Browser und Geräte getestet:
 
@@ -41,7 +41,7 @@ Die Inhaltsbereitstellung wurde für folgende Browser und Geräte getestet:
 
 Bei [!DNL at.js]-Implementierungen werden in [!DNL Target] in älteren Versionen von Internet Explorer sowie möglicherweise in älteren Versionen der oben aufgeführten Browser Standardinhalte angezeigt. Bei [!DNL mbox.js]-Implementierungen versucht [!DNL Target], die Inhalte zu rendern, möglicherweise jedoch ohne Erfolg.
 
-[!DNL Target] zeigt Standardinhalte in Browsern an, die nicht oben aufgeführt sind, sowie in Browsern mit [Quirks-Modus](https://de.wikipedia.org/wiki/Quirks-Modus). Für at.js ist ein Dokumenttyp erforderlich, der im Standardmodus dargestellt wird, beispielsweise `<!DOCTYPE html>`.
+[!DNL Target]In nicht oben aufgeführten Browsern sowie in Browsern im [Quirks-Modus](https://en.wikipedia.org/wiki/Quirks_mode) zeigt Standardinhalte an. Für at.js ist ein Dokumenttyp erforderlich, der im Standardmodus dargestellt wird, beispielsweise `<!DOCTYPE html>`.
 
 >[!NOTE]
 >
