@@ -1,6 +1,6 @@
 ---
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Adobe-Verhaltenskodex
@@ -22,7 +22,7 @@ Beispiele für Verhaltensweisen, die zu einer freundlichen Umgebung beitragen:
 Beispiele für unzulässige Verhaltensweisen von Teilnehmern:
 
 * Verwendung von sexualisierter Sprache oder sexualisierten Bildern oder unerwünschte sexuelle Aufmerksamkeit oder Annäherungsversuche
-* Trollen, beleidigende/abwertende Kommentare sowie persönliche oder politische Angriffe
+* (Online-)Provokationen, beleidigende/erniedrigende Kommentare sowie persönliche oder politische Angriffe
 * Öffentliche oder private Belästigung
 * Veröffentlichung von privaten Informationen anderer Personen (z. B. physische oder elektronische Adresse) ohne deren ausdrückliche Zustimmung
 * Andere Verhaltensweisen, die in einer professionellen Umgebung als unangemessen betrachtet werden können
@@ -39,11 +39,10 @@ Dieser Verhaltenskodex findet innerhalb von Projektbereichen und in öffentliche
 
 ## Durchsetzung
 
-Beleidigendes, belästigendes oder anderweitig unakzeptables Verhalten kann dem Projektteam unter Grp-opensourceoffice@adobe.com gemeldet werden. Alle Beschwerden werden geprüft, untersucht und resultieren in einer den jeweiligen Umständen angemessenen Reaktion. Das Projektteam ist verpflichtet, die Identität der Person, die ein Vorkommnis meldet, vertraulich zu behandeln.
-Weitere Details zu spezifischen Durchsetzungsrichtlinien können separat veröffentlicht werden.
+Beleidigendes, belästigendes oder anderweitig unakzeptables Verhalten kann dem Projektteam unter Grp-opensourceoffice@adobe.com gemeldet werden. Alle Beschwerden werden geprüft, untersucht und resultieren in einer den jeweiligen Umständen angemessenen Reaktion. Das Projektteam ist verpflichtet, die Identität der Person, die ein Vorkommnis meldet, vertraulich zu behandeln. Weitere Details zu spezifischen Durchsetzungsrichtlinien können separat veröffentlicht werden.
 
 Gegen Projektverantwortliche, die den Verhaltenskodex nicht nach Treu und Glauben befolgen oder durchsetzen, können vorübergehende oder dauerhafte Sanktionen verhängt werden, die von anderen Mitgliedern der Projektleitung festgelegt werden.
 
-## Zuordnung
+## Grundlage
 
-Dieser Code wird vom [Mitarbeiter-Covenant](https://contributor-covenant.org), Version 1.4, angepasst, der unter [https://contributor-covenant.org/version/1/4 verfügbar ist.](https://contributor-covenant.org/version/1/4/)
+Dieser Verhaltenskodex wurde basierend auf dem [Contributor Covenant](https://contributor-covenant.org), Version 1.4, aufgestellt, siehe [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
