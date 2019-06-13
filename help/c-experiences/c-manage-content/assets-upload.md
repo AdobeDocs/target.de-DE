@@ -7,8 +7,8 @@ solution: Target
 title: Hochladen von Inhalten
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -24,11 +24,11 @@ Sie können Elemente in der Bildangebotliste hinzufügen oder daraus entfernen.
 
    Das Element wird in die Bibliothek hochgeladen.
 
-## Schulungsvideo: Das Inhalts-Repository
+## Schulungsvideo: Das Content-Repository
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 
-* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) und der Target-Inhaltsbibliothek
+* Verbindung zwischen der [Experience Cloud-Asset-Bibliothek](https://marketing.adobe.com/resources/help/de_DE/mcloud/creative_cloud.html) und der Target-Inhaltsbibliothek
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 
