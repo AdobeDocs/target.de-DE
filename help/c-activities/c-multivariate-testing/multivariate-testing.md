@@ -1,53 +1,51 @@
 ---
-description: 'Beim Multivarianz-Test (MVT) werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt er an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.  '
-keywords: Multivarianz-Test; MVT; vollfaktoriell; MVT oder A/B; Multivarianz A/B; Traffic-Schätzung; wann MVT verwenden; Berücksichtigungen bei MVT; Multivarianz
-seo-description: 'Beim Multivarianz-Test (MVT) werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt er an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.  '
+description: Beim Multivariate Tests (MVT) werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt er an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
+keywords: Multivariater Test; MVT; vollfaktoriell; MVT oder A/B; Multivarianz A/B; Traffic-Schätzung; wann MVT verwenden; Berücksichtigungen bei MVT; Multivarianz
+seo-description: Beim Multivariate Tests (MVT) werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt er an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 seo-title: Multivarianz-Test
 solution: Target
 title: Multivarianz-Test
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Multivarianz-Test{#multivariate-test}
 
-Beim Multivarianz-Test (MVT) werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt er an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
+Beim Multivariate Tests (MVT) werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt er an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 
+## Übersicht über MVT {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
+Multivariate Tests unterstützen Sie dabei, den relativen Einfluss bestimmter Elemente auf die Konversion im Vergleich zu anderen Elementen auf der Seite aufzudecken. Außerdem können sie dabei helfen, eine Elementkombination zu entwickeln, die sich als besonders effektiv erwiesen hat.
 
-## Übersicht über MVT   {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
-
-Multivarianz-Tests unterstützen Sie dabei, den relativen Einfluss bestimmter Elemente auf die Konversion im Vergleich zu anderen Elementen auf der Seite aufzudecken. Außerdem können sie dabei helfen, eine Elementkombination zu entwickeln, die sich als besonders effektiv erwiesen hat.
-
-Ein Vorteil von Multivarianz-Tests im Vergleich zu A/B-Tests besteht darin, dass Sie sich anzeigen lassen können, welche Elemente auf Ihrer Seite den größten Einfluss auf die Konversion haben. Dies wird auch als „Haupteffekt“ bezeichnet. Diese Information hilft Ihnen zum Beispiel zu ermitteln, wo Sie Inhalt platzieren sollten, der die meiste Aufmerksamkeit erhalten soll.
+Ein Vorteil von Multivariater Tests im Vergleich zu A/B-Tests besteht darin, dass Sie sich anzeigen lassen können, welche Elemente auf Ihrer Seite den größten Einfluss auf die Konversion haben. Dies wird auch als „Haupteffekt“ bezeichnet. Diese Information hilft Ihnen zum Beispiel zu ermitteln, wo Sie Inhalt platzieren sollten, der die meiste Aufmerksamkeit erhalten soll.
 
 Multivarianz-Tests helfen Ihnen auch dabei, zusammengesetzte Effekte zwischen zwei und mehr Elementen auf einer Seite zu ermitteln. Zum Beispiel kann eine bestimmte Anzeige zu mehr Konversionen führen, wenn sie mit einem bestimmten Banner oder Heldenbild kombiniert wird. Dies wird auch als „Interaktionseffekt“ bezeichnet.
 
-Adobe Target verwendet vollständige Multivarianz-Tests, um Sie bei der Optimierung Ihres Inhalts zu unterstützen. Ein vollständiger Multivarianz-Test testet alle möglichen Inhaltskombinationen mit gleicher Wahrscheinlichkeit. Wenn Sie zum Beispiel über zwei Seitenelemente mit je drei Angeboten verfügen, entspricht dies neun möglichen Kombinationen (3 x 3). Drei Elemente, von denen zwei jeweils drei mögliche Angebote und eines zwei Angebote enthalten, entsprechen 18 Optionen (3 x 3 x 2).
+Adobe Target verwendet vollständige Multivariater Tests, um Sie bei der Optimierung Ihres Inhalts zu unterstützen. Ein vollständiger Multivariater Test testet alle möglichen Inhaltskombinationen mit gleicher Wahrscheinlichkeit. Wenn Sie zum Beispiel über zwei Seitenelemente mit je drei Angeboten verfügen, entspricht dies neun möglichen Kombinationen (3 x 3). Drei Elemente, von denen zwei jeweils drei mögliche Angebote und eines zwei Angebote enthalten, entsprechen 18 Optionen (3 x 3 x 2).
 
-In Target entspricht jede Kombination einem Erlebnis. Der Multivarianz-Test vergleicht die einzelnen Erlebnisse, sodass Sie erfahren, welche Kombinationen am erfolgreichsten sind. Daten werden gleichzeitig erfasst und analysiert, um zu verstehen, wie die Erfolgsmetrik durch die einzelnen Orte und Angebote beeinflusst wird.
+In Target entspricht jede Kombination einem Erlebnis. Der Multivariater Test vergleicht die einzelnen Erlebnisse, sodass Sie erfahren, welche Kombinationen am erfolgreichsten sind. Daten werden gleichzeitig erfasst und analysiert, um zu verstehen, wie die Erfolgsmetrik durch die einzelnen Orte und Angebote beeinflusst wird.
 
-![](assets/multivariate.png){width=&quot;672 px&quot;}
+![](assets/multivariate.png){width=&quot;672px&quot;}
 
-Aufgrund der Anzahl der Kombinationen, die sich generieren lassen, erfordert ein Multivarianz-Test mehr Zeit und mehr Traffic als ein A/B-Test. Der auf der Seite eingehende Traffic muss ausreichend sein, um statistisch signifikante Ergebnisse für jedes Erlebnis zu erzielen. Um sinnvolle Ergebnisse zu erhalten, müssen Sie den eingehenden Traffic auf Ihrer Seite verstehen und die optimale Anzahl von Kombinationen über die richtige Zeitdauer testen. Die [Traffic-Schätzung](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) von Target kann Ihnen dabei helfen, einen Test zu entwerfen, der mit Ihrem Traffic funktioniert. Bevor Sie die Traffic-Schätzung verwenden, müssen Sie über gute Statistiken verfügen, aus denen die Anzahl der Impressionen und Konversionen hervorgeht, die Ihre Seite normalerweise erhält. Berücksichtigen Sie Ihr tägliches Traffic-Niveau. Je mehr Erlebnisse in einer Aktivität enthalten sind, desto mehr Traffic muss die Aktivität einbeziehen bzw. desto länger muss Ihre Aktivität ausgeführt werden. Wenn Ihr Traffic nicht sehr hoch ist, sollten Sie eine kleinere Anzahl von Kombinationen testen; anderenfalls könnte zu viel Zeit erforderlich sein, um gehaltvolle Testergebnisse zu erzielen.
+Aufgrund der Anzahl der Kombinationen, die sich generieren lassen, erfordert ein Multivariater Test mehr Zeit und mehr Traffic als ein A/B-Test. Der auf der Seite eingehende Traffic muss ausreichend sein, um statistisch signifikante Ergebnisse für jedes Erlebnis zu erzielen. Um sinnvolle Ergebnisse zu erhalten, müssen Sie den eingehenden Traffic auf Ihrer Seite verstehen und die optimale Anzahl von Kombinationen über die richtige Zeitdauer testen. Die [Traffic-Schätzung](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) von Target kann Ihnen dabei helfen, einen Test zu entwerfen, der mit Ihrem Traffic funktioniert. Bevor Sie die Traffic-Schätzung verwenden, müssen Sie über gute Statistiken verfügen, aus denen die Anzahl der Impressionen und Konversionen hervorgeht, die Ihre Seite normalerweise erhält. Berücksichtigen Sie Ihr tägliches Traffic-Niveau. Je mehr Erlebnisse in einer Aktivität enthalten sind, desto mehr Traffic muss die Aktivität einbeziehen bzw. desto länger muss Ihre Aktivität ausgeführt werden. Wenn Ihr Traffic nicht sehr hoch ist, sollten Sie eine kleinere Anzahl von Kombinationen testen; anderenfalls könnte zu viel Zeit erforderlich sein, um gehaltvolle Testergebnisse zu erzielen.
 
 ## Terminologie Multivarianz-Test {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
-Das Verständnis grundlegender Begriffe kann für die Einrichtung eines Multivarianz-Tests hilfreich sein.
+Das Verständnis grundlegender Begriffe kann für die Einrichtung eines Multivariater Tests hilfreich sein.
 
 Es gibt verschiedene Begriffe, die branchenweit unterschiedlich verwendet werden. In diesem Abschnitt werden die von Target verwendeten Begriffe definiert.
 
 **Kombination:** Die Inhaltsvarianten, die erstellt werden, wenn Sie verschiedene Inhaltsoptionen an verschiedenen Orten testen. Wenn Sie zum Beispiel drei Orte mit jeweils drei Inhaltsoptionen testen, ergeben sich 27 mögliche Kombinationen (3 x 3 x 3). Einem Besucher auf Ihrer Seite wird eine Kombination angezeigt, die auch als Erlebnis bezeichnet wird.
 
-**Inhalt:** Text oder Bild, der/das eine Testvariation an einem Ort darstellt. Bei einem Multivarianz-Test werden verschiedene Inhaltsoptionen an verschiedenen Orten verglichen. Bei der MVT-Methode wird der Inhalt zuweilen als *Stufe* bezeichnet.
+**Inhalt:** Text oder Bild, der/das eine Testvariation an einem Ort darstellt. Bei einem Multivariater Test werden verschiedene Inhaltsoptionen an verschiedenen Orten verglichen. Bei der MVT-Methode wird der Inhalt zuweilen als *Stufe* bezeichnet.
 
 **Element:** Ein DOM-Element, das Inhaltsvarianten enthält, die im Rahmen eines Multivarianz-Tests getestet werden sollen. Siehe auch *Ort*.
 
-**Ort:** Ein spezifischer Inhaltsbereich auf einer Seite, der oftmals in einem einzelnen DOM-Element enthalten ist. Bei der MVT-Methode wird der Ort zuweilen als *Faktor* bezeichnet. Ein vollständiger Multivarianz-Test vergleicht alle möglichen Angebotskombinationen in Ihren Orten.
+**Ort:** Ein spezifischer Inhaltsbereich auf einer Seite, der oftmals in einem einzelnen DOM-Element enthalten ist. Bei der MVT-Methode wird der Ort zuweilen als *Faktor* bezeichnet. Ein vollständiger Multivariater Test vergleicht alle möglichen Angebotskombinationen in Ihren Orten.
 
 ## Wann wird die Verwendung von Multivarianz-Test vs. A/B-Test empfohlen?{#section_3D2B966B6671406C861A1843EA41D28C}
 
@@ -59,11 +57,11 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
 
 * Verwenden Sie einen Multivarianz-Test um zu ermitteln, welches Element am wichtigsten ist, und anschließend einen stärker fokussierten A/B-Test für dieses Element.
 
-   Bei mehr als fünf verschiedenen Erlebnissen mit zwei oder mehr Elementen ist möglicherweise ein Multivarianz-Test empfehlenswert, bevor Sie Ihre A/B-Tests durchführen. Der Multivarianz-Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Elemente, auf die sich ein Marketingexperte konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf das wichtigste Element zur Erreichung Ihrer Ziele ist. Sobald Sie festgelegt haben, welche Elemente und Inhalte am nützlichsten sind, um Sie bei der Erreichung Ihrer Ziele zu unterstützen, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern, wie zum Beispiel den vergleichenden Test zweier spezifischer Bilder oder den Vergleich von Formulierungen oder Farben eines Aktionsaufrufs. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
+   Bei mehr als fünf verschiedenen Erlebnissen mit zwei oder mehr Elementen ist möglicherweise ein Multivarianz-Test empfehlenswert, bevor Sie Ihre A/B-Tests durchführen. Der Multivariater Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Elemente, auf die sich ein Marketingexperte konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf das wichtigste Element zur Erreichung Ihrer Ziele ist. Sobald Sie festgelegt haben, welche Elemente und Inhalte am nützlichsten sind, um Sie bei der Erreichung Ihrer Ziele zu unterstützen, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern, wie zum Beispiel den vergleichenden Test zweier spezifischer Bilder oder den Vergleich von Formulierungen oder Farben eines Aktionsaufrufs. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
 
 ## Zu beachten {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
-* Verwenden Sie einen Multivarianz-Test, wenn Sie mindestens drei Elemente testen müssen. Wenn Sie weniger haben, starten Sie eine Reihe von  A/B-Tests.
+* Verwenden Sie einen Multivarianz-Test, wenn Sie mindestens drei Elemente testen müssen. Wenn Sie weniger haben, starten Sie eine Reihe von A/B-Tests.
 * Wählen Sie die Seitenelemente aus, von denen Sie glauben, dass sie den größten Einfluss auf die Ergebnisse haben.
 * Vermeiden Sie die Einbeziehung zu vieler Elemente oder Orte in einen Test. Je größer die Anzahl, desto länger die Testdauer.
 * Planen Sie den Testentwurf im Voraus. Es ist nicht ratsam, einen Test nach der Live-Schaltung und nach dem Beginn der Erfassung und Analyse von Daten zu bearbeiten.
@@ -72,7 +70,7 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
    Testen Sie z. B. Ihr Layout und Ihren Inhalt nicht im selben Test.
 * Planen Sie in Anbetracht der gestiegenen Anzahl der Erlebnisse zusätzliche Zeit für die Qualitätssicherung ein.
 
-   Target bietet vollfaktorielle Multivarianz-Tests als integrierte Aktivitätsoption. In Statistiken bietet Design of Experiments viele Ansätze bzw. Designs, um zu bestimmen, welche Faktoren Ergebnisse beeinflussen. Ein solcher Ansatz ist die Taguchi-Methode für teilfaktorielle Tests. Mit Taguchi können Marketingexperten einen Satz von Voraussetzungen festlegen, der die Anzahl der Permutationen von Erlebnissen reduziert, die getestet werden müssen, und senkt gleichzeitig die Traffic-Anforderungen für einen multivariaten Test. Dieser Funktionalitäts- und Testansatz kann in Target Standard/Premium mithilfe [dieser Offline-Tabelle](https://marketing.adobe.com/resources/help/en_US/target/mvt/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx) verwendet werden.
+   Target bietet vollfaktorielle Multivariater Tests als integrierte Aktivitätsoption. In Statistiken bietet Design of Experiments viele Ansätze bzw. Designs, um zu bestimmen, welche Faktoren Ergebnisse beeinflussen. Ein solcher Ansatz ist die Taguchi-Methode für teilfaktorielle Tests. Mit Taguchi können Marketingexperten einen Satz von Voraussetzungen festlegen, der die Anzahl der Permutationen von Erlebnissen reduziert, die getestet werden müssen, und senkt gleichzeitig die Traffic-Anforderungen für einen multivariaten Test. Diese Funktion und der Testansatz können in Target Standard/Premium mithilfe [dieses Offline-Spreadsheets](https://marketing.adobe.com/resources/help/en_US/target/mvt/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx) verwendet werden.
 
    Wenn Ihr Team andere Design of Experiments-Ansätze verwendet, können Sie diese Berechnungstabelle als Referenz-Implementierung für benutzerdefinierte Experiment-Designs verwenden.
 
@@ -88,11 +86,11 @@ Weitere Informationen und Best Practices finden Sie unter [Best Practices für M
 
 ## Schulungsvideos:
 
-Die folgenden Videos enthalten weitere Informationen zu den in diesem Artikel behandelten Konzepten.
+In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
 ### Aktivitätstypen (9:03)
 
-In diesem Video werden die in Target Standard/Premium verfügbaren Aktivitätstypen erläutert. Multivarianz-Tests werden ab 4:20 erklärt.
+In diesem Video werden die in Target Standard/Premium verfügbaren Aktivitätstypen erläutert. Multivariate Tests werden ab 4:20 erklärt.
 
 * Beschreiben Sie die Arten von Aktivitäten, die Teil von [!DNL Adobe Target] sind
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
@@ -104,7 +102,7 @@ In diesem Video werden die in Target Standard/Premium verfügbaren Aktivitätsty
 
 In diesem Video wird erklärt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test aufgebaut, geplant und erstellt wird.
 
-* Definieren und gestalten eines Multivarianz-Tests
+* Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)
