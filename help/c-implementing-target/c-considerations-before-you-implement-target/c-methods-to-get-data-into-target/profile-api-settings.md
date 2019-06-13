@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Profil-API-Einstellungen
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
-translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -37,7 +37,7 @@ Für noch mehr Sicherheit können Sie festlegen, dass beim API-Aufruf für die M
 
    >[!NOTE]
    >
-   >Sie können auch per API ein Profilauthentifizierungstoken generieren. Weitere Informationen finden Sie unter [Profile](https://developers.adobetarget.com/api/#profiles) auf der [Adobe Target-Entwickler-Website](https://developers.adobetarget.com/).
+   >Sie können auch per API ein Profilauthentifizierungstoken generieren. Weitere Informationen finden Sie unter [Profile](https://developers.adobetarget.com/api/#profiles) auf der [Entwickler-Website von Adobe Target](https://developers.adobetarget.com/).
 
 1. Kopieren Sie das Token und fügen Sie es im Header der Anforderung im folgenden Format ein: „Autorisierung“ : „Bearer“
 
