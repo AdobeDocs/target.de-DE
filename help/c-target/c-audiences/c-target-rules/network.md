@@ -6,8 +6,8 @@ seo-title: Netzwerk
 solution: Target
 title: Netzwerk
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -50,7 +50,7 @@ Sie können Zielgruppen auf der Basis von Netzwerkdetails erstellen.
 
       Wenn Sie weitere ISPs in dieser Tabelle sehen wollen, wenden Sie sich mit Ihrem Vorschlag an den Kundendienst.
 
-      Sie können die Werte des ISP und des Domänennamens testen. [](https://www.whoismyisp.org)https://www.whoismyisp.org ist eine gute Ressource für Targeting-Zwecke. Sie können die oben in der Tabelle angegebenen Beispiel-IP-Adressen verwenden oder eine eigene eingeben. Verwenden Sie dann den Parameter `themboxOverride.browserIp= URL`, um diese IP-Adresse zu imitieren.
+      Sie können die Werte des ISP und des Domänennamens testen. [https://www.whoismyisp.org](https://www.whoismyisp.org) ist eine gute Ressource für Targeting-Zwecke. Sie können die oben in der Tabelle angegebenen Beispiel-IP-Adressen verwenden oder eine eigene eingeben. Verwenden Sie dann den Parameter `themboxOverride.browserIp= URL`, um diese IP-Adresse zu imitieren.
 
    * **Domänenname: **Dies ist der Domänenname für die IP-Adresse des Besuchers. Es ist nicht der Domänenname der Website, die Sie für [!DNL Target] verwenden. Dieser Domänenname bezieht sich auf die IP-Adresse des Besuchers und wird manchmal auch als Hostname bezeichnet. Er ist normalerweise dem ISP-Namen sehr ähnlich. Manchmal verweist der Hostname auf ältere Namen des Unternehmens, die zwar ihren ISP-Namen geändert haben, doch nicht den Domänennamen.
    * **Verbindungsgeschwindigkeit:** Dies ist die Geschwindigkeit der Internetverbindung des Besuchers. Es sind unter anderem folgende Optionen verfügbar: Breitband, Kabel, Einwahl, Mobil, OC3, OC12, Satellit, T1, T2 und Drahtlos, xDSL.
