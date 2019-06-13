@@ -7,8 +7,8 @@ solution: Target
 title: Häufig gestellte Fragen zu Zielen und Zielgruppen
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
-translation-type: tm+mt
-source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,11 +23,11 @@ Vorab eingestellte Zielgruppen in der Target-Bibliothekskategorie sind veraltete
 
 Best Practice ist, die neuen Zielgruppen einzusetzen, da diese eine bessere Leistung erzielen. Einigen Kunden verwenden möglicherweise ältere, voreingestellte Zielgruppen, die aus diesem Grund nicht aus der Target-Oberfläche gelöscht wurden.
 
-## Wie erkenne ich, wie Traffic zwischen Zielgruppen aufgeteilt wird?   {#section_067EEFB956E7465CBF77EC86834470AB}
+## Wie erkenne ich, wie Traffic zwischen Zielgruppen aufgeteilt wird? {#section_067EEFB956E7465CBF77EC86834470AB}
 
-Standardmäßig wird Traffic gleichmäßig zwischen Erlebnissen aufgeteilt. Sie können jedoch  Prozentsatzziele für jedes Erlebnis angeben. In diesem Fall wird eine zufällige Nummer generiert und diese Nummer wird verwendet, um das anzuzeigende Erlebnis auszuwählen. Die sich ergebenden Prozentzahlen entsprechen möglicherweise nicht genau den festgelegten Zielen, allerdings bedeutet mehr Traffic, dass die Erlebnisse enger auf die beabsichtigen Ziele aufgeteilt werden sollten.
+Standardmäßig wird Traffic gleichmäßig zwischen Erlebnissen aufgeteilt. Sie können jedoch Prozentsatzziele für jedes Erlebnis angeben. In diesem Fall wird eine zufällige Nummer generiert und diese Nummer wird verwendet, um das anzuzeigende Erlebnis auszuwählen. Die sich ergebenden Prozentzahlen entsprechen möglicherweise nicht genau den festgelegten Zielen, allerdings bedeutet mehr Traffic, dass die Erlebnisse enger auf die beabsichtigen Ziele aufgeteilt werden sollten.
 
-## Welches Erlebnis wird angezeigt, wenn sich ein Benutzer für eine Aktivität qualifiziert, in der mehrere Erlebnisse mit verschiedenen qualifizierten Zielgruppen enthalten sind?   {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## Welches Erlebnis wird angezeigt, wenn sich ein Benutzer für eine Aktivität qualifiziert, in der mehrere Erlebnisse mit verschiedenen qualifizierten Zielgruppen enthalten sind? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 Der Benutzer qualifiziert sich für das erste Erlebnis/die erste Zielgruppe, das/die auf der [!UICONTROL Target]-Seite der Aktivität angezeigt wird.
 
@@ -37,7 +37,7 @@ In der folgenden Darstellung qualifiziert sich ein Benutzer aus Kalifornien mit 
 
 ## Warum unterscheiden sich die Namen der gleichen Zielgruppe in Target, Adobe Audience Manager (AAM) und der Zielgruppenbibliothek in den Core Services voneinander? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Zielgruppennamen sind [!DNL Target] eindeutig; in [!DNL AAM] und in [!DNL Audience Library]können Sie jedoch denselben Namen für mehrere Zielgruppen haben (wenn sie sich in verschiedenen Ordnern befinden). Wenn [!DNL Target] Sie einen Zielgruppennamen treffen, der einer [!DNL AAM] oder [!DNL Audience Library] einer Zielgruppe entspricht, [!DNL Target] hängt der Name &quot; # &lt; number &gt;&quot; an.
+Zielgruppennamen in [!DNL Target] sind eindeutig; in [!DNL AAM] und [!DNL Audience Library] können Sie jedoch für mehrere Zielgruppen denselben Namen haben (wenn sie sich in verschiedenen Ordnern befinden). Wenn [!DNL Target] auf einen Zielgruppennamen trifft, der einer [!DNL AAM]- oder [!DNL Audience Library]-Zielgruppe entspricht, hängt [!DNL Target] ein &quot;#&lt;Nummer&gt;&quot; an den Namen an.
 
 So könnten Ihnen beispielsweise folgende Zielgruppen angezeigt werden: „PC-Nutzer“ (in [!DNL AAM]) und „PC-Nutzer #1“ (in [!DNL Target]).
 
@@ -45,15 +45,15 @@ So könnten Ihnen beispielsweise folgende Zielgruppen angezeigt werden: „PC-Nu
 
 Einige Zielgruppen wurden vorab eingerichtet, darunter „Neue Besucher“ und „Wiederkehrende Besucher“. Diese voreingestellten Zielgruppen können von Benutzern nicht umbenannt werden.
 
-## Warum werden meine gesamten Profilparameter auf der Benutzeroberfläche von Target nicht angezeigt?   {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Warum werden meine gesamten Profilparameter auf der Benutzeroberfläche von Target nicht angezeigt? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, können Sie hierzu die API-Methode [!UICONTROL Profilupdate] nutzen. Weitere Informationen finden Sie unter [Profilupdate](https://developers.adobetarget.com/api/#authentication-tokens) in der Dokumentation zur Adobe Target-API.
+[!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, können Sie hierzu die API-Methode [!UICONTROL Profilupdate] nutzen. Weitere Informationen finden Sie unter [Profil-Update](https://developers.adobetarget.com/api/#authentication-tokens) in der Adobe Target API-Dokumentation.
 
 ## Warum werden Besuchern Erlebnisse für eine AP-Aktivität angezeigt, die sie nicht sehen sollten? {#section_41CECEAE0881446A8D9F3B016857914B}
 
 Aktivitäten vom Typ „Automatisierte Personalisierung“ werden einmal pro Sitzung ausgewertet. Wenn für ein bestimmtes Erlebnis qualifizierte aktive Sitzungen vorhanden waren und diesen nun neue Angebote hinzugefügt werden, wird Benutzern der neue Inhalt zusammen mit den zuvor angezeigten Angeboten angezeigt. Da sie zuvor für diese Erlebnisse qualifiziert wurden, werden sie ihnen weiterhin für die Dauer der Sitzung angezeigt. Wenn dies bei jedem einzelnen Seitenbesuch ausgewertet werden soll, sollten Sie den Erlebnis-Targeting-Aktivitätstyp (XT) ändern.
 
-## Warum werden Änderungen an Zielgruppen, die per API erstellt wurden, nicht in der Target-UI angezeigt?   {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## Warum werden Änderungen an Zielgruppen, die per API erstellt wurden, nicht in der Target-UI angezeigt? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 Im Gegensatz zu Angeboten und Profilskripten werden Änderungen, die per API an mit Target Standard erstellten Zielgruppen vorgenommen werden, derzeit nicht mit der Target-UI synchronisiert.
 
