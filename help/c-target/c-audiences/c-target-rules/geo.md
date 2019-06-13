@@ -7,8 +7,8 @@ solution: Target,Analytics
 title: Geo
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -46,16 +46,16 @@ Geo-Positionsparameter ermöglichen das Targeting der Aktivitäten und Erlebniss
 
 ## Genauigkeit {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-Die Genauigkeit von Geotargeting hängt von verschiedenen Faktoren ab. WLAN-Verbindungen sind genauer als Mobilfunknetze. Wenn der Besucher eine mobile Datenverbindung nutzt, kann die Genauigkeit der Standortsuche durch den Standort, die Datenbeziehung zwischen dem Anbieter und DeviceAtlas und anderen Faktoren beeinflusst werden. Durch Mobilfunkmasten gestützte Netzwerkverbindungen sind in der Regel weniger genau als kabelgebundene oder WLAN-Verbindungen. Die IP-Adresse eines Besuchers kann zudem dem Standort seines ISP zugeordnet werden, der möglicherweise nicht dem tatsächlichen Standort des Besuchers entspricht. Einige Probleme mit dem mobilen geografischen Standort können mithilfe der [Geolocation-API behoben](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)werden.
+Die Genauigkeit von Geotargeting hängt von verschiedenen Faktoren ab. WLAN-Verbindungen sind genauer als Mobilfunknetze. Wenn der Besucher eine mobile Datenverbindung nutzt, kann die Genauigkeit der Standortsuche durch den Standort, die Datenbeziehung zwischen dem Anbieter und DeviceAtlas und anderen Faktoren beeinflusst werden. Durch Mobilfunkmasten gestützte Netzwerkverbindungen sind in der Regel weniger genau als kabelgebundene oder WLAN-Verbindungen. Die IP-Adresse eines Besuchers kann zudem dem Standort seines ISP zugeordnet werden, der möglicherweise nicht dem tatsächlichen Standort des Besuchers entspricht. Einige Probleme mit dem mobilen geografischen Standort können mithilfe der [Geografischer Standort-API](https://developer.mozilla.org/de/docs/Web/WebAPI/verwenden_von_geolocation) behoben werden.
 
-In der folgenden Tabelle finden Sie Informationen zur Genauigkeit IP-basierter Standortdaten von [DigitalEnvoy](https://www.digitalelement.com/solutions/) für kabelgebundene oder WLAN-Internetverbindungen. DigitalEnvoy bietet die präzisesten Daten in der Branche. Die Gesamtgenauigkeit beläuft sich auf 99,9 % auf Länderebene und auf bis zu 97 % auf Stadtebene. Die Daten zur Genauigkeit sind nicht für durch Mobilfunkmasten gestützte Netzwerke gültig.
+Die folgende Tabelle zeigt die Genauigkeit der IP-basierten geografischen Informationen von [DigitalEnvoy](https://www.digitalelement.com/solutions/) für kabelgebundene oder WLAN-Internetverbindungen. DigitalEnvoy bietet die präzisesten Daten in der Branche. Die Gesamtgenauigkeit beläuft sich auf 99,9 % auf Länderebene und auf bis zu 97 % auf Stadtebene. Die Daten zur Genauigkeit sind nicht für durch Mobilfunkmasten gestützte Netzwerke gültig.
 
 | Land | Land | Stadt | Region |
 |--- |--- |--- |--- |
 | USA | 99,99 % | 96 % | 94 % |
 | Kanada | 99,99 % | 96 % | 94 % |
-| Europa | 99,99 % |
-| GB | 99,99 % | 87 % |
+| Europa | 99,99 % |  |  |
+| GB | 99,99 % |  | 87 % |
 | Deutschland | 99,99 % | 95 % | 93 % |
 | Skandinavien | 99 % | ~ 91-93 % | ~ 85 % |
 | Spanien | 99,99 % | ~ 90 % | ~ 85-99 % |
@@ -112,7 +112,7 @@ Beispiele:
 
 **Wie funktioniert Geotargeting für Mobilgeräte?**
 
-Die überwiegende Mehrheit der Mobilgerätebenutzer greift über WLAN auf Inhalte zu. Das bedeutet, dass das IP-basierte Geotargeting von Target genauso präzise ist wie auf einem Desktop. Funkzellenbasierte Verbindungen können ungenauer sein, da die IP-Adresse des Besuchers auf der Funkzelle basiert, bei der das Signal erfasst wird. Einige Probleme mit dem mobilen geografischen Standort können mithilfe der [Geolocation-API behoben](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)werden.
+Die überwiegende Mehrheit der Mobilgerätebenutzer greift über WLAN auf Inhalte zu. Das bedeutet, dass das IP-basierte Geotargeting von Target genauso präzise ist wie auf einem Desktop. Funkzellenbasierte Verbindungen können ungenauer sein, da die IP-Adresse des Besuchers auf der Funkzelle basiert, bei der das Signal erfasst wird. Einige Probleme mit dem mobilen geografischen Standort können mithilfe der [Geografischer Standort-API](https://developer.mozilla.org/de/docs/Web/WebAPI/verwenden_von_geolocation) behoben werden.
 
 **Wie geht die Geo-Funktion mit Besuchern von AOL um?**
 
