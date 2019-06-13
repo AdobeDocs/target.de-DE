@@ -9,8 +9,8 @@ title-outputclass: Premium
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: Premium
-translation-type: tm+mt
-source-git-commit: 3a7056831893830021e6aea758f8fcdef88c47b2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -53,7 +53,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
    |--- |--- |
    | / | Vorwärtsschrägstrich |
    | ? | Fragezeichen |
-   | # | Raute  |
+   | # | Raute |
    | : | Doppelpunkt |
    | = | Gleich |
    | + | Plus |
@@ -97,7 +97,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
    Weitere Informationen zum Targeting eines Angebots für bestimmte Zielgruppen erhalten Sie unter [Targeting von Angeboten mit automatisierter Personalisierung](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 1. (Optional) Klicken Sie auf **[!UICONTROL Ausschlussgruppen]**, um beliebige Kombinationen der Elemente auszuwählen, die Sie aus der Aktivität ausschließen möchten.
 
-   ![Ergebnis des Schritts](assets/exclusion_groups.png)
+   ![Schrittergebnis](assets/exclusion_groups.png)
 
    Obwohl Sie bis zu 30.000 Erlebnisse in einem AP-Test erstellen können, funktionieren die Algorithmen am besten, wenn weniger als 10.000 eindeutige Erlebnisse verwendet werden.
 
@@ -127,12 +127,12 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    | Einstellung | Beschreibung |
    |--- |--- |
-   | Name | Benennen Sie die Aktivität. Geben Sie der Aktivität einen beschreibenden Namen, sodass Team-Mitglieder diese in der Aktivitätenliste erkennen können.  In der oben stehenden Tabelle sehen Sie, welche Zeichen in einem Aktivitätsnamen nicht zulässig sind. |
+   | Name | Benennen Sie die Aktivität. Geben Sie der Aktivität einen beschreibenden Namen, sodass Teammitglieder diese in der Aktivitätenliste erkennen können.  In der oben stehenden Tabelle sehen Sie, welche Zeichen in einem Aktivitätsnamen nicht zulässig sind. |
    | Ziel | (Optional) Geben Sie das Ziel des Tests ein. Das Ziel hilft Ihnen, den Zweck der Aktivität zu verinnerlichen. |
-   | Priorität | Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für Prioritäten. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren. <br>Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.<br>Wurde diese Option unter Einrichtung nicht aktiviert (Standardeinstellung), legen Sie eine Priorität fest: „Niedrig“, „Mittel“ oder „Hoch“.<br>Möchten Sie genauer unterteilte Prioritäten festlegen, klicken Sie auf [!UICONTROL Einrichtung] und stellen Sie den Schieberegler [!UICONTROL Präzise Prioritätensetzung ermöglichen] auf die Position „Ein“.<br>Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest:<ul><li>0 = Niedrig</li><li>999 = Hoch</li></ul>Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt wurden, wird eine niedrige Priorität in den Wert 0, eine mittlere in den Wert 5 und eine hohe in den Wert 10 umgewandelt. Diese Werte können nach Wunsch angepasst werden.<br>**Hinweis:** Haben Sie genauere Prioritäten verwendet und möchten Sie die Option deaktivieren, müssen zunächst alle Prioritätswerte auf 0, 5 und 10 zurückgesetzt werden. |
+   | Priorität | Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für Prioritäten. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren.<br>Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.<br>Wurde diese Option unter Einrichtung nicht aktiviert (Standardeinstellung), legen Sie eine Priorität fest: „Niedrig“, „Mittel“ oder „Hoch“.<br>Möchten Sie genauer unterteilte Prioritäten festlegen, klicken Sie auf [!UICONTROL Einrichtung] und stellen Sie den Schieberegler [!UICONTROL Präzise Prioritätensetzung ermöglichen] auf die Position „Ein“.<br>Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest:<ul><li>0 = Niedrig</li><li>999 = Hoch</li></ul>Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt wurden, wird eine niedrige Priorität in den Wert 0, eine mittlere in den Wert 5 und eine hohe in den Wert 10 umgewandelt. Diese Werte können nach Wunsch angepasst werden.<br>**Hinweis:** Haben Sie genauere Prioritäten verwendet und möchten Sie die Option deaktivieren, müssen zunächst alle Prioritätswerte auf 0, 5 und 10 zurückgesetzt werden. |
    | Dauer | Legen Sie Start- und Enddatum für die Aktivität fest. |
    | Optimierungsziel | Geben Sie das Optimierungsziel an, das aus zwei Parametern besteht:<ul><li>dem, was Sie mit der Aktivität messen möchten,</li><li>der von einem Aktivitätsteilnehmer durchgeführten Aktion, die zeigt, dass das Ziel erreicht wurde</li></ul>Sie können das Optimierungsziel benennen. Wählen Sie dazu die drei Punkte rechts neben „Mein Primärziel“ aus. Automatisierte Personalisierungsaktivitäten können die Konversion, RPV und AOV messen. Konversion kann durch Betrachten einer Seite oder einer Mbox erreicht werden. Es können auch Klicks verfolgt werden.<br>Das primäre Ziel wird außerdem zur Modellierungsmetrik, die vom Modellierungssystem verwendet wird, um den Erfolg des Erlebnisses zu berechnen.<br>Besucher können zu Tracking-Zwecken in der Aktivität beibehalten werden, nachdem Sie das Modellierungsziel erreicht haben. Beispiel: Eine Aktivität „Automatisierte Personalisierung“ wird oft verwendet, um die Klickraten zu verbessern; dies wird als Modellierungsziel festgelegt. Es ist jedoch wichtig zu sehen, wie erhöhte Klickraten zur finalen Konversion führen; daher ist ein Tracking durch die finale Konversion entscheidend.<br>Sie können für mehrere Metriken Abhängigkeiten erstellen und die flexible Auswahl ermöglichen, ob die Metrik erreicht werden soll oder nicht, damit sich die Anzahl erhöht.<br>Sie müssen beide (oder mehrere) Erfolgsmetriken definieren, bevor Sie eine Abhängigkeit voneinander festlegen können.<br>Mithilfe der Option Abhängigkeit hinzufügen kann die Erfolgsmetrik inkrementiert werden, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde.<br>So fügen Sie eine Abhängigkeit hinzu:<ol><li>Klicken Sie nach dem Hinzufügen von zusätzlichen Metriken unter dem Menü mit den drei Punkten rechts neben „Zusätzliches Ziel“ auf [!UICONTROL Erweiterte Einstellungen].</li><li>Klicken Sie unten im Abschnitt zu [!UICONTROL Berichtseinstellungen] auf die Option [!UICONTROL Abhängigkeit hinzufügen].</li><li>Verschieben Sie die gewünschte Metrik per Drag-and-drop vom linken Bereich in den rechten Bereich. Klicken Sie dann auf [!UICONTROL Erreicht], um die Einstellung zwischen [!UICONTROL Erreicht] und [!UICONTROL Nicht erreicht] zu wechseln</li></ol>Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben. |
-   | Konversionsmetrik | Standardmäßig entspricht die Konversionsmetrik der Optimierungszielmetrik. Sie können jedoch eine separate Konversionsmetrik definieren, indem Sie die Option [!UICONTROL &quot;Wie Optimierungsziel] &quot; deaktivieren. |
+   | Konversionsmetrik | Standardmäßig entspricht die Konversionsmetrik der Optimierungszielmetrik. Sie können jedoch eine separate Konversionsmetrik definieren, indem Sie die Option [!UICONTROL Wie Optimierungsziel] deaktivieren. |
    | Zusätzliche Metriken | Geben Sie beliebige weitere Berichterstellungsmetriken an, die Sie verwenden möchten. Sie können Konversions- oder Umsatzmetriken hinzufügen.<br>**Hinweis:** Die Interaktionskennzahl wird nicht als zusätzliche Metrik unterstützt. Sie können die Interaktionsmetrik in der Benutzeroberfläche zwar auswählen, aber in Berichten werden keine korrekten Daten angezeigt. |
    | Zielgruppen für die Berichterstellung | Fügen Sie Zielgruppen hinzu, um die Filterung nach Zielgruppen in Berichten zu ermöglichen. Standardmäßig zeigen die Berichte Ergebnisse für alle berechtigten Besucher. Fügen Sie Zielgruppen hinzu, um Ergebnisse nach spezifischeren Besucheruntergruppen zu filtern.<br>**Hinweis:** Im Gegensatz zu anderen Aktivitätstypen kann Automated Personalization Adobe Analytics nicht als Berichtsquelle verwenden. |
    | Hinweise | Geben Sie sämtliche Informationen ein, die für Sie und Ihre Team-Mitglieder von Nutzen sind. Die Größe des Notizbereichs kann angepasst werden. |
@@ -143,7 +143,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
    |--- |--- |
    | / | Vorwärtsschrägstrich |
    | ? | Fragezeichen |
-   | # | Raute  |
+   | # | Raute |
    | : | Doppelpunkt |
    | = | Gleich |
    | + | Plus |
