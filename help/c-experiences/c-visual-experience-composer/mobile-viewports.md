@@ -7,8 +7,8 @@ solution: Target
 title: Mobile Viewports für responsive Erlebnisse
 topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -36,7 +36,7 @@ Nachstehend finden Sie die Viewports und Auflösungen für einige bekannte Gerä
 | iPhone 7 | 375 (B) x 667 (H) | 750 (B) x 1334 (H) |
 | iPhone 6 | 375 (B) x 667 (H) | 750 (B) x 1334 (H) |
 | iPhone 6s | 414 (B) x 736 (H) | 1080 (B) x 1920 (H) |
-| iPad  Pro | 1024 (B) x 1366 (H) | 2048 (B) x 2732 (H) |
+| iPad Pro | 1024 (B) x 1366 (H) | 2048 (B) x 2732 (H) |
 | iPad der 3. und 4. Generation | 768 (B) x 1024 (H) | 1536 (B) x 2048 (H) |
 | iPad Air 1 und 2 | 768 (B) x 1024 (H) | 1536 (B) x 2048 (H) |
 | iPad Mini | 768 (B) x 1024 (H) | 768 (B) x 1024 (H) |
@@ -61,7 +61,7 @@ Nachstehend finden Sie die Viewports und Auflösungen für einige bekannte Gerä
 | Samsung Galaxy Tab 10 | 800 (B) x 1280 (H) | 800 (B) x 1280 (H) |
 | Chromebook Pixel | 1280 (B) x 850 (H) | 2560 (B) x 1700 (H) |
 
-Auf verschiedenen Websites sind die Viewport-Größen für gängige Geräte aufgeführt. Beispiel: [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) oder lesen Sie die Website des Geräteherstellers.
+Auf verschiedenen Websites sind die Viewport-Größen für gängige Geräte aufgeführt. Siehe z. B. [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) oder lesen Sie die Website des Geräteherstellers.
 
 Wenn Sie eine Aktivität für Benutzer auf einem bestimmten Gerät bereitstellen möchten, wählen Sie im Aktivitätsdiagramm die entsprechende Zielgruppe für das Gerät aus. Verwenden Sie den Mobile Web Composer, um die Seite für das Gerät in der Aktivität zu bearbeiten. Wenn Sie eine Aktivität in all Ihren digitalen Erlebnissen ausführen und sicherstellen möchten, dass es auf allen Geräten ansprechend aussieht, wenden Sie nicht das Targeting an, sondern verwenden Sie mobile Viewports, um auf jeder Bildschirmgröße eine Vorschau für die Aktivität anzuzeigen.
 
@@ -89,7 +89,7 @@ Konfigurieren Sie alle mobilen Viewports, die Sie beim Erstellen Ihrer Erlebniss
    Geben Sie Ihrem mobilen Viewport einen beschreibenden Namen, der leicht wiederzuerkennen ist. Der Name kann aus bis zu 36 Zeichen bestehen.
 1. Geben Sie die Bildschirmgröße des Mobilgeräts mit Breite und Höhe ein.
 
-   Die Breite kann zwischen 150 und 968 Pixeln betragen. Die Breite kann zwischen 150 und 1280 Pixeln betragen. 
+   Die Breite kann zwischen 150 und 968 Pixeln betragen. Die Breite kann zwischen 150 und 1280 Pixeln betragen.
 
    >[!NOTE]
 
