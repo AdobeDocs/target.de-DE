@@ -1,22 +1,22 @@
 ---
-description: Informationen zur Einrichtung von Target, einschließlich Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene 7-Einstellungen, Hostverwaltung und Antworttoken.
+description: Information, die Sie bei der Einrichtung von Target unterstützen, darunter Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene7-Einstellungen, Hostverwaltung und Antwort-Token.
 keywords: Implementieren; wird implementiert; einrichten; Einrichtung
-seo-description: Informationen zur Einrichtung von Adobe Target, einschließlich Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene 7-Einstellungen, Hostverwaltung und Antworttoken.
+seo-description: Informationen, die Sie bei der Einrichtung von Adobe Target unterstützen, darunter Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene7-Einstellungen, Hostverwaltung und Antwort-Token.
 seo-title: Adobe Target verwalten
 solution: Target
 subtopic: Erste Schritte
 title: Verwaltung von Target
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
-translation-type: tm+mt
-source-git-commit: 75a9b3f8d462995e7e88683d34d6637553b6e714
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Verwaltung von Target{#administer-target}
 
-Informationen zur Einrichtung von Adobe Target, einschließlich Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene 7-Einstellungen, Hostverwaltung und Antworttoken.
+Informationen, die Sie bei der Einrichtung von Adobe Target unterstützen, darunter Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene7-Einstellungen, Hostverwaltung und Antwort-Token.
 
 Möchten Sie auf das [!UICONTROL Einrichtungsmenü] zugreifen, klicken Sie in der oberen Menüleiste auf **[!UICONTROL Einrichtung]und anschließend auf eine der Registerkarten links:**
 
