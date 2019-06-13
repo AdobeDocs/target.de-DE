@@ -7,8 +7,8 @@ solution: Target
 title: Priorität
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -28,7 +28,7 @@ Wenn Ihr Unternehmen ausschließlich Target Standard/Premium und den Visual Expe
    Wenn sich der Besucher bereits in einem A/B-Test oder Multivarianztest befindet, wird er diesem Test zugeordnet, bis er konvertiert. Wenn er sich zuvor in einer Erlebnisziel-Aktivität befand, muss er erneut zugeordnet werden. Sind die Zielgruppenregeln erfüllt, fällt der Besucher in diese Aktivitäten und in spezifische Erlebnisse.
 
 1. Inhalte für alle Aktivitäten und Erlebnisse, die dem Besucher entsprechen, werden auf der Seite zurückgegeben.
-1. Wenn die Inhalte für jede Aktivität auf eine andere   [CSS-Auswahl](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) verweist, werden alle Inhalte angezeigt.
+1. Wenn die Inhalte für jede Aktivität auf eine andere [CSS-Auswahl](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) verweist, werden alle Inhalte angezeigt.
 
    Wenn es eine Überschneidung oder eine duplizierte CSS-Auswahl gibt, werden die Aktivitätsinhalte mit der höchsten Priorität angezeigt. Die Ergebnisse sämtlicher Aktivitäten, die auf der Seite ausgeführt werden, werden in den Berichten gezählt und dargestellt.
 
@@ -41,7 +41,7 @@ Wenn Ihr Unternehmen ausschließlich Target Standard/Premium und den Visual Expe
    * Wenn eine Aktivität über eine Zielgruppenansprache verfügt, wird diese Aktivität angezeigt.
    * Wenn alle oder keine Aktivitäten ein Targeting aufweisen, wird die zuerst genehmigte Aktivität angezeigt.
 
-## Formularbasierter Composer und Visual Experience Composer in Target Standard/Premium   {#section_4620253E1CE942DD830724C7822B175F}
+## Formularbasierter Composer und Visual Experience Composer in Target Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Wenn von zwei Aktivitäten eine auf den Marken-Suchbegriff „Nike“ und die zw
 
 Verfügen beide Zielaktivitäten über die gleiche Priorität, wird diejenige angezeigt, die zuletzt aufgerufen wurde. Wenn der Besucher neu auf der Seite ist, wird die zuletzt aktivierte Aktivität angezeigt.
 
-## Formularbasierter Composer in Target Standard/Premium mit nicht globalen Mboxes   {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Formularbasierter Composer in Target Standard/Premium mit nicht globalen Mboxes {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Wenn Ihr Unternehmen im formularbasierten Composer andere Mboxes als die globale
 
 >[!NOTE]
 >
->Abhängig von Ihren Einstellungen variieren auch die Prioritätswerte. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren. Weitere Informationen finden Sie unter   [Aktivitätseinstellungen](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Abhängig von Ihren Einstellungen variieren auch die Prioritätswerte. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren. Weitere Informationen finden Sie unter [Aktivitätseinstellungen](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
 **Zwei Target Classic-Kampagnen verwenden nicht globale Mboxes **
 
