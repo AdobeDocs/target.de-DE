@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
-translation-type: tm+mt
-source-git-commit: 460ce2990972afa8ff292d75eaf79f165944e971
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -61,13 +61,13 @@ Erstellen Sie eine Sammlung, um die Produkte zu organisieren, die Sie in Ihren E
 
    Sie können je nach Wunsch auch eine **[!UICONTROL Beschreibung eingeben]**.
 
-1. Legen Sie die Regeln fest, die für den Aufbau der Sammlung verwendet werden. 
+1. Legen Sie die Regeln fest, die für den Aufbau der Sammlung verwendet werden.
 
    Ihre Sammlung kann beispielsweise auf einer Produkt-ID oder Kategorie, Marge oder einem anderen Parameter in der Liste basieren.
 
    Sie können Regeln hinzufügen, um eine Sammlung durch mehrere Parameter zu definieren. Mehrere Regeln werden mit UND verknüpft. Alle angegebenen Regeln müssen eingehalten werden, damit die Sammlung angewendet wird.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. 
 Sie können Sammlungen auch über „Erweiterte Suche“ auf der Seite „Katalogsuche“ erstellen ([!UICONTROL Empfehlungen] &gt; [!UICONTROL Katalogsuche] &gt; [!UICONTROL Erweiterte Suche]). Nachdem Sie eine Suche mit &quot;id &gt; contains&quot; erstellt haben, können Sie z. B. auf [!UICONTROL Speichern unter] &gt; [!UICONTROL Sammlung] klicken.
 
 >[!IMPORTANT]
