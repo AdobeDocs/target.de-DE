@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Antwort-Token
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 Mithilfe von Antwort-Token können Sie Target-spezifische Informationen automatisch ausgeben (Kampagnendetails, Benutzerprofilinformationen, Geoinformationen usw.), um sie im Debugging zu verwenden oder in Drittanbietersysteme zu integrieren (z. B. Clicktale).
 
-Adobe Target Classic verfügte über eine Funktion mit der Bezeichnung „Server-Plug-ins“, mit deren Hilfe Sie JavaScript senden können, das mit einer Mbox-Antwort ausgeführt wird. Antwort-Token ähneln Plug-ins: Sie ermöglichen Ihnen das Abrufen von Target-spezifischen Informationen, die an anderer Stelle verwendet werden sollen. Mit Antwort-Token können Sie wählen, welche Variablen Sie verwenden möchten. Anschließend können Sie sie aktivieren, damit sie als Bestandteil einer Mbox-Antwort gesendet werden. Dazu aktivieren Sie einfach eine Variable mithilfe des Switches. Daraufhin wird die Variable mit Mbox-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Antwort-Token können auch im Vorschaumodus verwendet werden.
+Adobe Target Classic verfügte über eine Funktion mit der Bezeichnung „Server-Plug-ins“, mit deren Hilfe Sie JavaScript senden konnten, das mit einer Mbox-Antwort ausgeführt wurde. Antwort-Token ähneln Plug-ins: Sie ermöglichen Ihnen das Abrufen von Target-spezifischen Informationen, die an anderer Stelle verwendet werden sollen. Mit Antwort-Token können Sie wählen, welche Variablen Sie verwenden möchten. Anschließend können Sie sie aktivieren, damit sie als Bestandteil einer Mbox-Antwort gesendet werden. Dazu aktivieren Sie einfach eine Variable mithilfe des Switches. Daraufhin wird die Variable mit Mbox-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Antwort-Token können auch im Vorschaumodus verwendet werden.
 
-Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, dass Plug-ins JavaScript für die Seite bereitstellen, das bei Bereitstellung ausgeführt wird, wohingegen Antwort-Token ein Objekt bereitstellen, das anschließend gelesen und auf das mithilfe von Ereignislistenern reagiert werden kann. Weitere Informationen finden Sie unter   [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) und in den Beispielen im späteren Verlauf dieses Artikels. Der Ansatz der Antwort-Token ist sicherer und ermöglicht eine problemlosere Bereitstellung und Wartung von Drittanbieterintegrationen.
+Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, dass Plug-ins JavaScript für die Seite bereitstellen, das bei Bereitstellung ausgeführt wird, wohingegen Antwort-Token ein Objekt bereitstellen, das anschließend gelesen und auf das mithilfe von Ereignislistenern reagiert werden kann. Weitere Informationen finden Sie unter [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) und in den Beispielen im späteren Verlauf dieses Artikels. Der Ansatz der Antwort-Token ist sicherer und ermöglicht eine problemlosere Bereitstellung und Wartung von Drittanbieterintegrationen.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
 | Verwendete Target-Bibliothek | Empfohlene Aktionen |
 |--- |--- |
 | at.js | Stellen Sie sicher, dass Sie at.js der Version 1.1 oder neuer verwenden. Weitere Informationen zum Herunterladen der neuesten Version von at.js finden Sie unter [Herunterladen von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Weitere Informationen zu neuen Funktionen in den einzelnen Versionen von at.js finden Sie unter [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Kunden, die at.js verwenden, sollten Antwort-Token nutzen und auf Plug-ins verzichten. Einige Plug-ins, die auf internen Methoden basieren, die in mbox.js, aber nicht in at.js vorhanden sind, werden zwar bereitgestellt, sie schlagen jedoch fehl. Weitere Informationen finden Sie unter [Einschränkungen von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
-| mbox.js | Bei der Verwendung von mbox.js werden Plug-ins weiterhin unterstützt und bereitgestellt.<br>Kunden, die mit mbox.js und Plug-ins arbeiten, sollten jedoch stattdessen at.js und Antwort-Token verwenden. Weitere Informationen zu den Vorteilen von at.js im Vergleich zu mbox.js finden Sie unter [Häufig gestellte Fragen zu at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Weitere Informationen zum Migrieren finden Sie unter [Migration von „mbox.js“ zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Nach der Einstellung von Target Classic (November 2017) müssen Sie sich möglicherweise an den Kundendienst wenden, um vorhandene Plug-ins bearbeiten oder deaktivieren zu können. Sie sollten Ihre Plug-ins geprüft haben, bevor Target Classic veraltet war und unerwünschte Plug-ins deaktiviert wurden.<br>Sie können keine neuen Plug-ins in Target Standard/Premium erstellen. Verwenden Sie stattdessen Antwort-Token.<br>Alte SiteCatalyst-Plug-ins sollten deaktiviert und durch [Adobe Analytics als Berichtsquelle für Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) ersetzt werden. Das ttMeta-Plugin sollte deaktiviert und durch [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) ersetzt werden. |
+| mbox.js | Bei der Verwendung von mbox.js werden Plug-ins weiterhin unterstützt und bereitgestellt.<br>Kunden, die mit mbox.js und Plug-ins arbeiten, sollten jedoch stattdessen at.js und Antwort-Token verwenden. Weitere Informationen zu den Vorteilen von at.js im Vergleich zu mbox.js finden Sie unter [Häufig gestellte Fragen zu at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Weitere Informationen zum Migrieren finden Sie unter [Migration von „mbox.js“ zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Nach der Einstellung von Target Classic (November 2017) müssen Sie sich möglicherweise an den Kundendienst wenden, um vorhandene Plug-ins bearbeiten oder deaktivieren zu können. Sie sollten Ihre Plug-ins geprüft haben, bevor Target Classic veraltet war und unerwünschte Plug-ins deaktiviert wurden.<br>Sie können keine neuen Plug-ins in Target Standard/Premium erstellen. Verwenden Sie stattdessen Antwort-Token.<br>Alte SiteCatalyst-Plug-ins sollten deaktiviert und durch [Adobe Analytics als Berichtsquelle für Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) ersetzt werden. Das ttMeta-Plug-in sollte deaktiviert und durch den [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=de) ersetzt werden. |
 
 ## Verwenden von Antwort-Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -73,7 +73,7 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
 
 1. Erstellen Sie eine Aktivität.
 
-Verwenden [Sie at. js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) , um auf die mbox-Antwort zuzugreifen und die Antwort-Token zu lesen.
+Verwenden Sie die benutzerdefinierten [at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md), um auf die Mbox-Antwort zu warten und die Antwort-Token zu lesen.
 
 Mit dem folgenden Code-Beispiel wird direkt ein benutzerdefinierter [!DNL at.js]-Eventhandler auf der HTML-Seite hinzugefügt:
 
@@ -142,7 +142,7 @@ Antwort-Token werden nur über Mboxes gesendet, mit deren Hilfe eine Aktivität 
 
 **Mein Target Classic-Plug-in beinhaltet JavaScript. Wie reproduziere ich diese Funktionalität mithilfe von Antwort-Token?**
 
-Bei der Migration zu Antwort-Token muss dieser JavaScript-Typ in der Codebase oder der Tag-Management-Lösung beibehalten werden. Sie können diesen Code mithilfe von benutzerdefinierten [!DNL at.js]-Ereignissen auslösen und die Antwort-Token-Werte an Ihre JavaScript-Funktionen übergeben.
+Bei der Migration zu Antwort-Token muss dieser JavaScript-Typ in Ihrer Codebase oder der Tag-Management-Lösung beibehalten werden. Sie können diesen Code mithilfe von benutzerdefinierten [!DNL at.js]-Ereignissen auslösen und die Antwort-Token-Werte an Ihre JavaScript-Funktionen übergeben.
 
 **Warum wird mein Profil-/Kundenattribut-Parameter nicht in der Liste der Antwort-Token angezeigt?**
 
@@ -164,7 +164,7 @@ Wie zuvor erwähnt, agieren Antwort-Token mit den für Benutzer gespeicherten Pr
 
 Target führt in regelmäßigen Abständen eine Aktualisierung der Attribute durch. Nicht aktivierte Attribute werden bei der nächsten Aktualisierung entfernt. Wenn jedoch ein Attribut vorhanden ist, das aktiviert und entfernt wurde (wenn Sie beispielsweise ein als Token verwendetes Profilskript entfernt haben), wird dieses Skript erst nach dessen Deaktivierung aus der Attributliste entfernt. Target entfernt die deaktivierten Attribute erst aus der Liste, wenn sie gelöscht oder umbenannt werden.
 
-## Senden von Daten an Google Analytics via at.js   {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Senden von Daten an Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Daten können via at.js an Google Analytics gesendet werden, indem Sie auf der HTML-Seite den folgenden Code hinzufügen:
 
@@ -230,7 +230,7 @@ Daten können via at.js an Google Analytics gesendet werden, indem Sie auf der H
 </script>
 ```
 
-## Debugging (ähnelt dem ttMeta-Plug-in)   {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## Debugging (ähnelt dem ttMeta-Plug-in) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen des folgenden Codes zu der HTML-Seite erstellt werden:
 
