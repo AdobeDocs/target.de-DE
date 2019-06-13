@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -42,7 +42,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 1. Geben Sie eine kurze **[!UICONTROL Beschreibung]** des Kriteriums ein.
 
    Die Beschreibung soll dazu beitragen, dass Sie das Kriterium identifizieren können, und kann Informationen über den Zweck des Kriteriums enthalten.
-1. Wählen Sie eine **[!UICONTROL Branche]** aus.
+1. Wählen Sie einen **[!UICONTROL vertikalen Markt]** aus.
 
    Andere Optionen für Kriterien können sich je nach vertikalem Markt, den Sie auswählen, ändern. 1. Wählen Sie einen **[!UICONTROL Seitentyp]** aus.
 
