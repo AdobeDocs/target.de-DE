@@ -1,6 +1,6 @@
 ---
 description: Da ein automatisierter Personalisierungstest mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
-keywords: 'Recommendations '
+keywords: Recommendations
 seo-description: Da ein automatisierter Personalisierungstest mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
 seo-title: Anzeigen einer Erlebnisvorschau für Automated Personalization im Visual Experience Composer
 solution: Target
@@ -9,8 +9,8 @@ title-outputclass: Premium
 topic: Premium
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 badge: Premium
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
