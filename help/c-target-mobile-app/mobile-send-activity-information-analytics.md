@@ -1,18 +1,18 @@
 ---
-description: In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinformationen an Adobe Analytics für postAhoc-Segmentierung senden.
-seo-description: In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinformationen an Adobe Analytics für postAhoc-Segmentierung senden.
+description: In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinformationen an Adobe Analytics für postAdHoc-Segmentierung senden.
+seo-description: In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinformationen an Adobe Analytics für postAdHoc-Segmentierung senden.
 seo-title: Senden von Aktivitätsinformationen an Adobe Analytics
 title: Senden von Aktivitätsinformationen an Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
-translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Senden von Aktivitätsinformationen an Adobe Analytics{#send-activity-information-to-adobe-analytics}
 
-In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinformationen an Adobe Analytics für postAhoc-Segmentierung senden.
+In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinformationen an Adobe Analytics für postAdHoc-Segmentierung senden.
 
 **Voraussetzungen**
 
@@ -55,7 +55,7 @@ In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinfor
 
    Analysieren Sie die Antwort, die von Target im Callback zurückgegeben wurde. Sie können NSJSONSerialization verwenden, um diese Antwort zu analysieren und sie in einem Dict oder Array zu speichern.
 
-   Weitere Informationen finden Sie in der [Dokumentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) zu nsjsonserialization.
+   Weitere Informationen finden Sie im [NSJSONSerialization-Handbuch](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error).
 1. Daten an Analytics senden.
 
    Fügen Sie die analysierten Aktivitätsinformationen (wie `tntVal` in der obigen Antwort) Ihrem Kontextdatenobjekt in einem Analytics-Aufruf hinzu. Dieser Analytics-Aufruf mit den Kontextdaten kann sofort ausgelöst werden oder warten, bis der nächste Analytics-Aufruf ausgelöst wird.
