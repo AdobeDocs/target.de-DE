@@ -7,8 +7,8 @@ solution: Target
 title: Mobile Target-Vorschau
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
-translation-type: tm+mt
-source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,14 +25,14 @@ Verwenden Sie die Vorschau für mobile Apps, um mühelos eine ganzheitliche Qual
 
 Mit der mobilen Vorschaufunktionalität können Sie Aktivitäten in Ihrer mobilen App vollständig testen, bevor Sie sie live schalten.
 
-## Voraussetzungen   {#section_A763C564C9E84B0EB448237B5B1E4068}
+## Voraussetzungen {#section_A763C564C9E84B0EB448237B5B1E4068}
 
 1. **Verwenden Sie eine unterstützte Version des SDK:** Für die mobile Vorschaufunktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK in Ihren jeweiligen Apps herunterladen.
 
    Eine Anleitung zum Herunterladen des erforderlichen SDK finden Sie unter:
 
-   * **iOS:**[Vorbereitung](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) im Handbuch zu *iOS-SDK 4.x für Experience Cloud-Lösungen*.
-   * **Android:**[Vorbereitung](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)* im Handbuch zu Android-SDK 4.x für Experience Cloud-Lösungen.*
+   * **iOS:** [Vor dem Start ](https://marketing.adobe.com/resources/help/de_DE/mobile/ios/requirements.html) im Handbuch *iOS SDK 4.x für Experience Cloud-Lösungen*.
+   * **Android:** [Vor dem Start](https://marketing.adobe.com/resources/help/de_DE/mobile/android/requirements.html) im Handbuch *Android SDK 4. x für Experience Cloud-Lösungen*.
 
 1. **URL-Schema einrichten:** Der Vorschau-Link öffnet Ihre App über ein URL-Schema. Sie müssen ein einzigartiges URL-Schema für die Vorschau festlegen.
 
