@@ -7,8 +7,8 @@ solution: Target
 title: Erstellen von Umleitungsangeboten
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -60,11 +60,11 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 >
 >Wenden Sie sich an Ihren Implementierungsberater, bevor Sie diese Tests starten.
 
-## Schulungsvideo: Das Inhalts-Repository (4:56)
+## Schulungsvideo: Das Content-Repository (4:56)
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 
-* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) und der Target-Inhaltsbibliothek
+* Verbindung zwischen der [Experience Cloud-Asset-Bibliothek](https://marketing.adobe.com/resources/help/de_DE/mcloud/creative_cloud.html) und der Target-Inhaltsbibliothek
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 
