@@ -1,14 +1,14 @@
 ---
-description: 'Informationen zur Funktion adobe. target. getoffer (options) für at. js. '
+description: 'Informationen zur Funktion adobe.target.getOffer(options) für at.js. '
 keywords: adobe.target.notification;Element;Selektor;Benachrichtigung;Erweiterung
-seo-description: Informationen über die Funktion adobe. target. getoffer (options) für die javascript-Bibliothek von Adobe Target at. js.
-seo-title: Informationen über die Funktion adobe. target. getoffer (options) für die javascript-Bibliothek von Adobe Target at. js.
+seo-description: Informationen über die Funktion adobe.target.getOffer(options) für die JavaScript-Bibliothek von Adobe Target at.js.
+seo-title: Informationen über die Funktion adobe.target.getOffer(options) für die JavaScript-Bibliothek von Adobe Target at.js.
 solution: Target
 subtopic: Erste Schritte
 title: adobe.target.getOffer(options)
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -24,8 +24,8 @@ Verwenden Sie sie mit `adobe.target.applyOffer()`, um die Antwort zu verarbeiten
 | mbox | Zeichenfolge | Ja | Name der Mbox |
 | params | Objekt | Nein | Mbox-Parameter Ein Objekt aus Schlüssel-Wert-Paaren mit der folgenden Struktur:<br>`{ "param1": "value1", "param2": "value2"}` |
 | success | Funktion | Ja | Rückruf wird ausgeführt, wenn eine Antwort vom Server eingegangen ist. Die Rückruffunktion „success“ erhält einen einzelnen Parameter, der ein Array von Angebotsobjekten enthält. Hier ein Beispiel für ein Rückruffunktion bei einem Erfolg:<br>`function handleSuccess(response){......}`<br>Weitere Informationen siehe Antworten unten. |
-| error | Funktion | Ja | Auszuführender Rückruf bei Eingang eines Fehlers Es gibt einige Fälle, die als fehlerhaft angesehen werden:<ul><li>Der HTTP-Status-Code weicht von „200 OK“ ab.</li><li>Die Antwort kann nicht analysiert werden. Dies kann zum Beispiel bei schlecht programmiertem JSON-Code oder HTML- statt JSON-Code auftreten.</li><li>Die Antwort enthält den Schlüssel „error“. Dies kann zum Beispiel der Fall sein, wenn eine Ausnahme auf dem Edgeserver auftritt und eine Anforderung nicht richtig verarbeitet werden konnte. Ein Fehler tritt auch dann auf, wenn eine Mbox blockiert ist und dafür keine Inhalte abgerufen werden konnten und so weiter. Die Rückruffunktion „error“ erhält zwei Parameter: „status“ und „error“. Im Folgenden finden Sie ein Beispiel für einen „error“-Rückruf:   `function handleError(status, error){......}`</li></ul>Details finden Sie unten unter „Fehlermeldungen“. |
-| timeout | Nummer | Nein | Zeitüberschreitung in Millisekunden Wird kein Wert festgelegt, kommt der Standardwert für die Zeitüberschreitung in at.js zum Einsatz.<br>Der Standardwert für die Zeitüberschreitung kann auf der [!DNL Target] Benutzeroberfläche von unter [!UICONTROL Einrichten &gt; Implementierung &gt; „mbox.js“-Einstellungen bearbeiten &gt; Zeitüberschreitung] eingestellt werden. |
+| error | Funktion | Ja | Auszuführender Rückruf bei Eingang eines Fehlers Es gibt einige Fälle, die als fehlerhaft angesehen werden:<ul><li>Der HTTP-Status-Code weicht von „200 OK“ ab.</li><li>Die Antwort kann nicht analysiert werden. Dies kann zum Beispiel bei schlecht programmiertem JSON-Code oder HTML- statt JSON-Code auftreten.</li><li>Die Antwort enthält den Schlüssel „error“. Dies kann zum Beispiel der Fall sein, wenn eine Ausnahme auf dem Edgeserver auftritt und eine Anforderung nicht richtig verarbeitet werden konnte. Ein Fehler tritt auch dann auf, wenn eine Mbox blockiert ist und dafür keine Inhalte abgerufen werden konnten und so weiter. Die Rückruffunktion „error“ erhält zwei Parameter: „status“ und „error“. Im Folgenden finden Sie ein Beispiel für einen „error“-Rückruf: `function handleError(status, error){......}`</li></ul>Details finden Sie unten unter „Fehlermeldungen“. |
+| Zeitüberschreitung | Nummer | Nein | Zeitüberschreitung in Millisekunden Wird kein Wert festgelegt, kommt der Standardwert für die Zeitüberschreitung in at.js zum Einsatz.<br>Der Standardwert für die Zeitüberschreitung kann auf der [!DNL Target] Benutzeroberfläche von unter [!UICONTROL Einrichten &gt; Implementierung &gt; „mbox.js“-Einstellungen bearbeiten &gt; Zeitüberschreitung] eingestellt werden. |
 
 ## Beispiele {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
 
@@ -96,12 +96,12 @@ Der Antwortparameter, der an die Rückruffunktion „success“ weitergegeben wu
 
 | Name | Typ | Beschreibung |
 |--- |--- |--- |
-| action | Zeichenfolge | Art der Aktion, die auf das identifizierte Element angewendet werden soll |
+| Aktion | Zeichenfolge | Art der Aktion, die auf das identifizierte Element angewendet werden soll |
 | selector | Zeichenfolge | Repräsentiert einen Sizzle-Selector |
 | cssSelector | Zeichenfolge | DOM-nativer Selektor, für das Vorab-Ausblenden von Elementen verwendet |
 | content | Zeichenfolge | Der Inhalt, der auf das identifizierte Element angewendet werden soll |
 
-## Beispiel 
+## Beispiel
 
 ```
 { 
