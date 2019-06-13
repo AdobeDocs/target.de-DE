@@ -7,8 +7,8 @@ solution: Target
 title: Benutzerdefinierte Parameter
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 Benutzerdefinierte Parameter sind Mbox-Parameter. Wenn Sie Mbox-Parameter an Mboxes übergeben oder die Funktion „targetPageParams“ verwenden, werden diese Parameter hier angezeigt und können in Zielgruppen verwendet werden.
 
-Weitere Informationen finden Sie im Abschnitt [Übergeben von Parameter an eine globale mbox](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html).
+Weitere Informationen finden Sie unter [Übergeben von Parametern an eine globale Mbox](https://marketing.adobe.com/resources/help/de_DE/target/ov/c_pass_parameters_to_global_mbox.html).
 
 Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhalten Sie von `mboxParameter`mboxParameter keine Aufforderung mehr, `mboxName` einzugeben. Der Mbox-Name ist nun optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde.
 
