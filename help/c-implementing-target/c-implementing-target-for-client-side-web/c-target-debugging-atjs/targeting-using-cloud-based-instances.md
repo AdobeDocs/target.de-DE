@@ -6,8 +6,8 @@ seo-title: Verwenden Cloud-basierter Instanzen mit Target
 solution: Target
 title: Verwenden Cloud-basierter Instanzen mit Target
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Target-Kunden verwenden mitunter Cloud-basierte Instanzen mit [!DNL Target] zum 
 
 `azurewebsites.net`, `cloudapp.net`, `amazonaws.com`, `cloudfront.net`, `herokuapp.com` oder `firebaseapp.com`.
 
-Diese Domänen sind neben vielen anderen Teil der [öffentlichen Suffix-Liste](https://publicsuffix.org/list/public_suffix_list.dat).
+Diese Domänen und viele andere sind Teil der [Öffentlichen Suffix-Liste](https://publicsuffix.org/list/public_suffix_list.dat).
 
 **Problem:** Moderne Browser speichern keine Cookies, wenn Sie diese Domänen verwenden.
 
