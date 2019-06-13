@@ -7,8 +7,8 @@ subtopic: Multivarianz-Test
 title: Erstellen einer Erlebnis-Targeting-Aktivität
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
-translation-type: tm+mt
-source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,7 +25,7 @@ Verwenden Sie den Visual Experience Composer, um eine Erlebnis-Targeting-Aktivit
    >
    >Die verfügbaren Aktivitätstypen hängen von Ihrem Target-Konto ab. Einige Aktivitätstypen werden in Ihrer Liste eventuell nicht angezeigt.
 
-   Weitere Informationen über die Aktivitätstypen finden Sie unter   [Aktivitäten](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+   Weitere Informationen über die Aktivitätstypen finden Sie unter [Aktivitäten](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 1. Geben Sie Ihre [Aktivitäts-URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) ein und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
    ![](assets/form_url.png)
@@ -34,7 +34,7 @@ Verwenden Sie den Visual Experience Composer, um eine Erlebnis-Targeting-Aktivit
 
    Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 
-   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie diese Option aus. Weitere Informationen finden Sie unter [ Form-Based Experience Compose](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
+   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie diese Option aus. Weitere Informationen finden Sie unter [Formularbasierter Experience Composer](https://marketing.adobe.com/resources/help/de_DE/target/target/t_form_experience_composer.html).
 
    Der Visual Experience Composer wird geöffnet und zeigt die Seite an, die in der URL angegeben ist.
 1. Geben Sie an der verfügbaren Stelle einen Namen für die Aktivität ein.
@@ -83,7 +83,7 @@ Verwenden Sie den Visual Experience Composer, um eine Erlebnis-Targeting-Aktivit
 
    ![](assets/xt_change_audience.png)
 
-   Die Zielgruppenbibliothek wird angezeigt. Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. Sie können entweder eine Zielgruppe aus der Bibliothek auswählen oder   [eine neue Zielgruppe erstellen](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). Wählen Sie „Alle Besucher“, um das gleiche Erlebnis für alle Teilnehmer anzuzeigen.
+   Die Zielgruppenbibliothek wird angezeigt. Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. Sie können entweder eine Zielgruppe aus der Bibliothek auswählen oder [eine neue Zielgruppe erstellen](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). Wählen Sie „Alle Besucher“, um das gleiche Erlebnis für alle Teilnehmer anzuzeigen.
 
    >[!NOTE]
    >
