@@ -1,13 +1,13 @@
 ---
 description: Visual Experience Composer in Target ermöglicht Ihnen, Ihren Test einfach direkt auf einer targetfähigen Seite zu erstellen und Teile der Seite in Target zu verändern.
-keywords: MVT;Multivarianz-Test;Multivarianz-Test erstellen;Erstellen von Multivarianz-Tests;MVT-Erstellung;Erstellen von MVT;wie MVT;wie Multivarianz-Tests
+keywords: MVT;Multivariater Test;Multivariater Test erstellen;Erstellen von Multivariater Tests;MVT-Erstellung;Erstellen von MVT;wie MVT;wie Multivariater Tests
 seo-description: Visual Experience Composer in Target ermöglicht Ihnen, Ihren Test einfach direkt auf einer targetfähigen Seite zu erstellen und Teile der Seite in Target zu verändern.
 seo-title: Erstellen eines Multivarianz-Tests
 solution: Target
 title: Erstellen eines Multivarianz-Tests
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,7 +18,7 @@ Visual Experience Composer in Target ermöglicht Ihnen, Ihren Test einfach direk
 
 Der Point-and-Click-Editor in Target ermöglicht Ihnen, einen beliebigen Ort auszuwählen und mehrere Angebote hinzuzufügen.
 
-Der Multivarianz-Test benötigt einen Page-First-Bericht. Anders ausgedrückt bedeutet das, dass der Test auf einer spezifischen URL ausgeführt wird, mit den Erlebnissen, die Sie für diese Seite entwerfen.
+Der Multivariater Test benötigt einen Page-First-Bericht. Anders ausgedrückt bedeutet das, dass der Test auf einer spezifischen URL ausgeführt wird, mit den Erlebnissen, die Sie für diese Seite entwerfen.
 
 1. Klicken Sie auf **[!UICONTROL Aktivität erstellen]** &gt; **[!UICONTROL Multivarianz-Test]**.
 
@@ -47,7 +47,7 @@ Der Multivarianz-Test benötigt einen Page-First-Bericht. Anders ausgedrückt be
    |--- |--- |
    | / | Vorwärtsschrägstrich |
    | ? | Fragezeichen |
-   | # | Raute  |
+   | # | Raute |
    | : | Doppelpunkt |
    | = | Gleich |
    | + | Plus |
@@ -97,7 +97,7 @@ Der Multivarianz-Test benötigt einen Page-First-Bericht. Anders ausgedrückt be
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test geplant und erstellt wird.
 
-* Definieren und gestalten eines Multivarianz-Tests
+* Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)
