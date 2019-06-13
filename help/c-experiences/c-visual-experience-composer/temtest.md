@@ -7,8 +7,8 @@ solution: Target
 title: Gleiches Erlebnis auf ähnlichen Seiten
 topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
-translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -35,8 +35,8 @@ Im folgenden Informationsvideo erfahren Sie mehr dazu, wie Sie Vorlagen nutzen:
 Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Änderung auf Ihre gesamte Site anwenden.
 
 1. Erstellen Sie eine Aktivität wie in [Aktivitäten](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) beschrieben.
-1. Um die Seiten anzugeben, auf denen das Erlebnis angezeigt wird, klicken Sie im Visual Experience Composer auf das Zahnradsymbol und wählen Sie **[!UICONTROL dann Seitenauslieferung]**.
-1. Klicken **[!UICONTROL Sie auf Vorlagenregel]** hinzufügen und geben Sie dann die Kriterien für die Seiten an, denen Sie das Erlebnis hinzufügen möchten.
+1. Um die Seiten anzugeben, auf denen das Erlebnis angezeigt werden soll, klicken Sie im Visual Experience Composer auf das Zahnradsymbol und wählen Sie **[!UICONTROL Bereitstellung der Seite]** aus.
+1. Klicken Sie auf **[!UICONTROL Vorlagenregel hinzufügen]** und geben Sie dann die Kriterien für die Seiten an, zu denen Sie das Erlebnis hinzufügen möchten.
 
 1. Legen Sie den Seitenbereich fest. Der Seitenbereich kann einer der folgenden sein:
 
@@ -51,16 +51,16 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
 
    Der Operator gibt an, in welcher Beziehung die Elemente nach dem Operator zum Seitenbereich stehen. Die verfügbaren Operatoren sind:
 
-   * „Enthält“
+   * Enthält
    * Enthält nicht
-   * Ist (Groß-/Kleinschreibung beachten)
+   * Ist (Groß- und Kleinschreibung berücksichtigen)
    * Ist nicht
    * Beginnt mit
    * Endet mit
 
 1. Geben Sie die Zeichenfolge ein, über die definiert wird, wo das Erlebnis hinzugefügt wird, wie die Domäne oder die im Seitennamen enthaltenen Zeichenfolgen.
 
-   Wenn Sie **[!UICONTROL beispielsweise Domäne]** und **[!UICONTROL Ist (Groß-/Kleinschreibung beachten) auswählen]**, geben Sie die Domäne ein, in der das Erlebnis allen Seiten hinzugefügt werden soll.
+   Wenn Sie beispielsweise **[!UICONTROL Domäne]** und **[!UICONTROL Ist (Groß- und Kleinschreibung berücksichtigen)]** auswählen, geben Sie die Domäne ein, in der das Erlebnis zu allen Seiten hinzugefügt werden soll.
 
    Sie können mehrere Elemente hinzufügen.
 
@@ -68,7 +68,7 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
    >
    >Mehrere Elemente verwenden die `OR`-Logik, was bedeutet, dass jedes einzelne Element in der Liste die Bedingung wahr macht.
 
-1. Geben Sie bei Bedarf zusätzliche Kriterien ein, indem Sie auf **[!UICONTROL Vorlagenregel]** hinzufügen klicken und das Verfahren im vorherigen Schritt wiederholen.
+1. Geben Sie bei Bedarf zusätzliche Kriterien ein, indem Sie auf **[!UICONTROL Vorlagenregel hinzufügen]** klicken und die Vorgehensweise aus dem vorherigen Schritt wiederholen.
 
    Mehrere Kriterien werden mit der UND-Logik verbunden. Adobe Target fügt das Erlebnis zu allen Seiten hinzu, die den angegebenen Kriterien entsprechen.
 
