@@ -7,15 +7,15 @@ solution: Target
 title: Häufig gestellte Fragen zu globalen Mboxes
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Häufig gestellte Fragen zu globalen Mboxes{#global-mbox-frequently-asked-questions}
 
-Liste der häufig gestellten Fragen zu globalen Mboxes.
+Liste der häufig gestellten Fragen (FAQs) zu globalen Mboxes.
 
 ## Kann ich mehrere globale Mboxes verwenden, wenn mein Target-Konto domänenübergreifend festgelegt ist? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
@@ -23,7 +23,7 @@ Für Ihr Konto wird nur eine globale Mbox unterstützt.
 
 Sie können den Ausführungsort Ihrer Aktivitäten beschränken, indem Sie Ihren Aktivitäten URL-Regeln hinzufügen. Weitere Informationen finden Sie unter [Gleiches Erlebnis auf ähnlichen Seiten](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-Sie können auch einen Parameter auf der Seite mit [targetpageparams übergeben](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) und dann diese Parameter im Abschnitt &quot;URL konfigurieren&quot; im [!UICONTROL Visual Experience Composer] (VEC) auswählen oder indem Sie die Parameter im Form-Based Experience Composer als&quot; Verfeinerungen&quot; hinzufügen.
+Sie können auch mit [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) einen Parameter auf der Seite übergeben und dann diese Parameter im Abschnitt „URL konfigurieren“ im [!UICONTROL Visual Experience Composer] (VEC) auswählen. Alternativ können Sie die Parameter auch im formularbasierten Experience Composer als „Verfeinerungen“ hinzufügen.
 
 ## Wie übergebe ich Umsatzdaten an eine globale Target-Mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
