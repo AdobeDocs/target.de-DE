@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Verwenden einer globalen Mbox aus einer Legacy-Implementierung
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
-translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -41,6 +41,6 @@ Sie müssen einige Parameter festlegen, um Ihre vorhandene globale MBox für [!D
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 
    Alle bestehenden Aktivitäten werden aktualisiert, sodass diese die angegebene globale Mbox verwenden, einschließlich zuvor erstellter und implementierter Aktivitäten.
-   **Fehlerbehebung bei der Implementierung der globalen mbox**   *Wieso wird die globale Mbox nicht geladen oder wieso gibt es eine Wartezeit beim Laden der globalen Mbox beim Laden der Seite?*
+   **Fehlerbehebung bei der Implementierung der globalen mbox** *Wieso wird die globale Mbox nicht geladen oder wieso gibt es eine Wartezeit beim Laden der globalen Mbox beim Laden der Seite?*
 
-Vergewissern Sie sich, dass der mbox.js-Verweis der erste JavaScript-Aufruf auf der Seite ist. Weitere Lösungsmöglichkeiten für dieses Problem finden Sie unter   [„mbox.js“-Implementierung](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+Vergewissern Sie sich, dass der mbox.js-Verweis der erste JavaScript-Aufruf auf der Seite ist. Weitere Lösungsmöglichkeiten für dieses Problem finden Sie unter [„mbox.js“-Implementierung](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
