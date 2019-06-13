@@ -8,7 +8,7 @@ title: Erstellen eines A/B-Tests
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -35,7 +35,7 @@ Verwenden Sie Visual Experience Composer in Target, um Ihren Test direkt auf ein
 
    >[!NOTE]
    >
-   >Neben VEC und Form-Based VEC bietet Target die Einzelseitenanwendung VEC und VEC für mobile Apps. Weitere Informationen zu den verschiedenen vecs finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
+   >Zusätzlich zum VEC und Form-Based Experience Composer bietet Target die Einzelseitenanwendung VEC und VEC für mobile Apps an. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
 
    Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 
