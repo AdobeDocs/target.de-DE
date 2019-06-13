@@ -7,8 +7,8 @@ solution: Target
 subtopic: Erste Schritte
 title: „mbox.js“-Versionsdetails
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
-translation-type: tm+mt
-source-git-commit: 1f3274df6ab14d60d99fea5d34a0449d285d8409
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,7 +21,7 @@ Auf dieser Seite sind die Änderungen bei jeder Version von mbox.js aufgeführt.
 >
 >Wir empfehlen allen Benutzern von mbox.js die Aktualisierung auf Version 57 oder neuer. Einige Benutzer berichteten von Zeitüberschreitungen, wenn `target.js` nicht geladen werden konnte. In Version 57 wurde dieses Problem behoben. Verwenden Sie jedoch den [!DNL Experience Cloud Visitor ID]-Dienst, benötigen Sie mindestens Version 58.
 
-Die Art, mit der Target auf Aufrufe Ihrer Seite antwortet, hängt von der Version der verwendeten Target-Bibliothek ab und davon, ob die Implementierung der Besucher-ID vorhanden ist und ob die Besucher-ID existiert. Weitere Informationen finden Sie unter   [Antworten auf Target-Aufrufe nach Bibliotheksversion](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
+Die Art, mit der Target auf Aufrufe Ihrer Seite antwortet, hängt von der Version der verwendeten Target-Bibliothek ab und davon, ob die Implementierung der Besucher-ID vorhanden ist und ob die Besucher-ID existiert. Weitere Informationen finden Sie unter [Antworten auf Target-Aufrufe nach Bibliotheksversion](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Die Art, mit der Target auf Aufrufe Ihrer Seite antwortet, hängt von der Versio
 
 **Target-Version:** 17.7.1
 
-[!DNL mbox.js], Version 63 ist verfügbar. Weitere Informationen finden Sie unter [mbox.js herunterladen](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html).
+[!DNL mbox.js], Version 63 ist verfügbar. Weitere Informationen finden Sie unter [mbox.js herunterladen](https://marketing.adobe.com/resources/help/de_DE/target/ov/t_target-download-config-mbox.html).
 
 Folgende Verbesserungen und Fehlerbehebungen sind in Version 63 von [!DNL mbox.js] enthalten:
 
@@ -59,7 +59,7 @@ Folgende Verbesserungen und Fehlerbehebungen sind in Version 63 von [!DNL mbox.
    * Sind keine Besucher-ID-Cookies von Experience Cloud vorhanden, werden beim erstmaligen Laden der Seite Abfragen asynchron gegen [!DNL /ajax] ausgeführt. Beim zweiten Laden der Seite setzt Target den normalen Fluss ein, da die Besucher-ID-Werte bereits vorhanden sind.
    * Sollten Sie Adobe Analytics als Berichtsquelle für Ihre Aktivität verwenden, müssen Sie bei der Erstellung einer Aktivität und bei der Verwendung von mbox.js Version 61 (oder neuer) oder at.js Version 0.9.1 (oder neuer) keinen Trackingserver angeben. Die Bibliothek von mbox.js oder at.js sendet automatisch Trackingserverwerte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
 
-## „mbox.js“, Version 60   {#section_3BDAB885FA13444A8D35940A4BFF5825}
+## „mbox.js“, Version 60 {#section_3BDAB885FA13444A8D35940A4BFF5825}
 
 **Target-Version:** 16.4.1
 
@@ -100,7 +100,7 @@ Außerdem werden in Version 60 alle Mboxes über einen AJAX-Endpunkt aufgerufen
 
    Bei der Verwendung der Versionen 58, 59 und 60 im Besucher-ID-Service werden Mbox-Aufrufe erst durchgeführt, wenn die Besucher-ID gesetzt wurde (oder bis eine Zeitüberschreitung aufgetreten ist). Dies geschieht beim erstmaligen Laden einer Seite durch einen neuen Besucher.
 
-## „mbox.js“, Version 59   {#section_FF0E70C4C17E402D8374DE428C5D996E}
+## „mbox.js“, Version 59 {#section_FF0E70C4C17E402D8374DE428C5D996E}
 
 **Target-Version:** 16.2.1
 
@@ -113,7 +113,7 @@ Außerdem werden in Version 60 alle Mboxes über einen AJAX-Endpunkt aufgerufen
 
    Statt `display:none`, wie in Version 58, wird zum Ausblenden der Seite `opacity:0` verwendet. Diese Änderung verhindert Fehler, die bei der vorherigen Methode zum Ausblenden von Seiten bei Websites im Responsive-Design auftraten.
 
-## „mbox.js“, Version 58   {#section_5070B0D1C87F4937BB97727923DD36C7}
+## „mbox.js“, Version 58 {#section_5070B0D1C87F4937BB97727923DD36C7}
 
 **Target-Version:** 15.7.1
 
@@ -159,7 +159,7 @@ Folgende Änderungen wurden in dieser Version vorgenommen:
 
       `<script src='external-url' async='true'></script>`
 
-      Beachten Sie, dass das `async`-Attribut im Internet Explorer nur eingeschränkt unterstützt wird (Details finden Sie hier:[https://developer.mozilla.org/de/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)); daher sollten Sie Besucher, die ältere IE-Versionen nutzen, von den Tests ausschließen, die diese Drittanbieterskripts enthalten.
+      Beachten Sie, dass das `async`-Attribut in Internet Explorer nur eingeschränkt unterstützt wird (Details finden Sie hier: [https://developer.mozilla.org/de/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/de/docs/Web/HTML/Element/script#Browser_compatibility)); daher sollten Sie Besucher, die ältere IE-Versionen nutzen, von den Tests ausschließen, die diese Drittanbieterskripts enthalten.
 
 * Es wurden Probleme behoben, die in Version 56 gemeldet wurden, und zwar aufgrund der Änderungen im Extra JavaScript-Abschnitt von mbox.js. Der gesamte Code im Extra JavaScript-Abschnitt ist im globalen Gültigkeitsbereich erneut verfügbar.
 
@@ -246,7 +246,7 @@ Die Funktion mboxParameter funktioniert jetzt in Target Standard und Premium.
 
 Es wurde ein Fehler behoben, der verhindert hat, dass die Analytics-Verfolgung in IE 9 und 11 funktioniert. Diese Änderung betrifft ausschließlich Nutzer von Analytics.
 
-Die [Übermittlung von Parametern](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html) ist jetzt in Array-Form, als JSON-Objekt oder als kommagetrennte Liste (zuvor unterstützt) an die target-global-mbox möglich, mithilfe der Funktion targetPageParams().
+Jetzt können Sie [Parameter](https://marketing.adobe.com/resources/help/de_DE/target/ov/c_pass_parameters_to_global_mbox.html) als Array, JSON-Objekt oder als per Komma getrennte Liste (zuvor unterstützt) an target-global-mbox übergeben, indem Sie die Funktion targetPageParams() verwenden.
 
 M2PcId und alles mit Bezug zu VisitorId wurde umbenannt.
 
@@ -276,7 +276,7 @@ Unterstützung für Adobe Analytics als Berichtsquelle für Target.
 
 ## Mbox, Version 47
 
-„mbox.js“ unterstützt nun die Verwendung eines benutzerdefinierten globalen Mbox-Namens für Target Standard. 
+„mbox.js“ unterstützt nun die Verwendung eines benutzerdefinierten globalen Mbox-Namens für Target Standard.
 
 ## Mbox, Version 46
 
@@ -337,7 +337,7 @@ Verschlüsselte URL-Schlüssel
 
 * Versucht immer, das aktuelle Standard-div abzurufen, anstatt auf eine zwischengespeicherte Version zu verweisen.
 
-   Dies behebt ein Problem mit einem zwischengespeicherten div für Standardinhalte, das aufgrund eines mboxUpdate nicht in dem DOM ist, das den Inhalt für das Standard-div bereitgestellt hat .
+   Dies behebt ein Problem mit einem zwischengespeicherten div für Standardinhalte, das aufgrund eines mboxUpdate nicht in dem DOM ist, das den Inhalt für das Standard-div bereitgestellt hat.
 
 * mbox.getDefaultDiv hat einen neuen optionalen booleschen Parameter. Wenn dieser wahr ist, wird das aktuelle Standard-div zurückgegeben. Wenn er false ist, wird das letzte zwischengespeicherte Standard-div zurückgegeben.
 * mbox.loaded zur Unterstützung von Ajax-Load aktualisiert
