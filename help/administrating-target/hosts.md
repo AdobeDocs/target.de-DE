@@ -7,8 +7,8 @@ solution: Target
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
-translation-type: tm+mt
-source-git-commit: d16f43524b18135b9173714a87a6d9f62173b900
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -46,7 +46,7 @@ Informationen über die Bedingungen, die erfüllt sein müssen, damit [!DNL Targ
 Damit ein Host erkannt werden kann, müssen folgende Bedingungen erfüllt werden:
 
 * Auf dem Host muss mindestens eine Mbox vorhanden sein.
-* Eine Seite auf dem Host muss  Folgendes aufweisen:
+* Eine Seite auf dem Host muss Folgendes aufweisen:
 
    * einen genauen [!DNL mbox.js]-Verweis
    * einen Mbox- oder automatisch generierten globalen Mbox-Aufruf
@@ -62,7 +62,7 @@ Nach Aufruf der Seite erscheint der Host in der [!UICONTROL Hostgruppenliste], s
 Stellen Sie nach dem Hinzufügen eines Hosts zur [!UICONTROL Hostgruppenliste] sicher, dass der Host erkannt wird.
 
 1. Klicken Sie auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Hosts]**.
-1. Wird der Host nicht angezeigt, aktualisieren Sie den Browser.
+1. Wird der Host nicht angezeigt, aktualisieren Sie den Browser. 
 Standardmäßig wird ein neu erkannter Host zur Umgebung „Produktion“ hinzugefügt. Diese Umgebung ist am sichersten, da es in ihr nicht zulässig ist, inaktive Aktivitäten über diese Hosts anzuzeigen.
 1. (Bedingt) Verschieben Sie den Host in die Entwicklungs- oder Staging-Umgebung.
 
@@ -87,11 +87,11 @@ Möchten Sie die [!UICONTROL Hostgruppenliste] sortieren, klicken Sie auf eine S
 
 Möchten Sie die [!UICONTROL Hostgruppenliste] durchsuchen, geben Sie einen Suchbegriff in das Suchfeld ein.
 
-## Auswählen mehrerer Hosts   {#section_EF3B458475184B7EA997C3559714397C}
+## Auswählen mehrerer Hosts {#section_EF3B458475184B7EA997C3559714397C}
 
 Möchten Sie mehrere Hosts auswählen, aktivieren Sie die Kontrollkästchen neben der Spalte [!UICONTROL Name] der gewünschten Hosts. Sie können alle ausgewählten Hosts verschieben oder löschen.
 
-## Erstellen einer Umgebung   {#section_32097D0993724DF3A202D164D3F18674}
+## Erstellen einer Umgebung {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen].**
 1. Klicken Sie auf **[!UICONTROL Umgebung erstellen]**.
@@ -206,7 +206,7 @@ Sie können eine Vorschau der Inhalte von Recommendations-Sammlungen und -Aussch
 >[!NOTE]
 >Recommendations-Aktivitäten sind als Bestandteil der Target Premium-Lösung verfügbar. Ohne Target Premium-Lizenz sind sie nicht für Target Standard verfügbar.
 
-Die Hostgruppe kann verwendet werden, um die verfügbaren Elemente in Ihrem Katalog für verschiedene Verwendungen zu trennen. Sie können beispielsweise Hostgruppen für Entwicklungs- und Produktionsumgebungen, unterschiedliche Marken oder unterschiedliche Länder verwenden. Standardmäßig basieren die Vorschauergebnisse in „Katalogsuche“, „Sammlungen“ und „Ausnahmen“ auf der Standardhostgruppe. (Mit dem Umgebungsfilter können Sie auch eine andere Hostgruppe auswählen, um die Ergebnisse in der Vorschau anzuzeigen.) Neu hinzugefügte Elemente sind standardmäßig in allen Hostgruppen verfügbar, es sei denn, beim Erstellen oder Aktualisieren des Elements wurde eine Umgebungs-ID angegeben. Bereitgestellte Recommendations hängen von der in der Anfrage angegebenen Hostgruppe ab.
+Die Hostgruppe kann verwendet werden, um die verfügbaren Elemente in Ihrem Katalog für verschiedene Verwendungen zu trennen. Sie können beispielsweise Hostgruppen für Entwicklungs- und Produktionsumgebungen, unterschiedliche Marken oder unterschiedliche Länder verwenden. Standardmäßig basieren die Vorschauergebnisse in „Katalogsuche“, „Sammlungen“ und „Ausnahmen“ auf der Standardhostgruppe. (Mit dem Umgebungsfilter können Sie auch eine andere Hostgruppe auswählen, um die Ergebnisse in der Vorschau anzuzeigen.) Neu hinzugefügte Elemente sind standardmäßig in allen Hostgruppen verfügbar, es sei denn, beim Erstellen oder Aktualisieren des Elements wurde eine Umgebungs-ID angegeben. Bereitgestellte Empfehlungen hängen von der in der Anfrage angegebenen Hostgruppe ab.
 
 Wenn Ihre Produkte nicht angezeigt werden, stellen Sie sicher, dass Sie die richtige Hostgruppe verwenden. Wenn Sie beispielsweise Ihre Empfehlung so festlegen, dass eine Staging-Umgebung verwendet wird, und Ihre Hostgruppe auf „Staging“ eingestellt ist, müssen Sie eventuell Ihre Erfassung in der Staging-Umgebung neu erstellen, damit die Angebote angezeigt werden. Um zu sehen, welche Produkte in jeder Umgebung verfügbar sind, verwenden Sie für jede Umgebung die Katalogsuche. Sie können auch eine Vorschau der Inhalte von Recommendations-Sammlungen und -Ausschlüssen für eine ausgewählte Umgebung (Hostgruppe) anzeigen.
 
