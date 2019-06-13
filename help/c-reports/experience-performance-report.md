@@ -1,14 +1,14 @@
 ---
 description: Der Experience Performance-Bericht veranschaulicht die Leistung der einzelnen Erlebnisse in der Aktivität. Dieser Bericht enthält Informationen über die Zahl der Teilnehmer, die Konversionsrate, die Steigerung und die Konfidenz.
-keywords: Multivarianz-Tests; MVT; Experience Performance-Bericht
+keywords: Multivariater Tests; MVT; Experience Performance-Bericht
 seo-description: Der Experience Performance-Bericht veranschaulicht die Leistung der einzelnen Erlebnisse in der Aktivität. Dieser Bericht enthält Informationen über die Zahl der Teilnehmer, die Konversionsrate, die Steigerung und die Konfidenz.
 seo-title: Experience Performance-Bericht (MVT)
 solution: Target
 title: Experience Performance-Bericht (MVT)
 topic: Premium
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
