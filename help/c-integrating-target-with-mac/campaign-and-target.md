@@ -7,8 +7,8 @@ solution: Target
 title: Integration von Target in Adobe Campaign
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -40,20 +40,20 @@ Es gibt mehrere Einschränkungen:
    * Die Rawbox und das Erlebnis in Target
    * Die Bereitstellung in Campaign
 
-## Vorabinformationen   {#section_FF19BF1BCA064260930BF6C141313B0E}
+## Vorabinformationen {#section_FF19BF1BCA064260930BF6C141313B0E}
 
 Bevor Sie Adobe Campaign verwenden, um ihre zielgerichteten E-Mail-Angebote einzurichten, legen Sie in Target Folgendes fest:
 
 * Mindestens zwei Target-Umleitungsangebote
 
-   Siehe [Umleitungsangebot erstellen](https://marketing.adobe.com/resources/help/en_US/target/target/t_offer_redirect.html)
-* Eine Target-Aktivität mit einem Erlebnis für jedes Angebot und der gewünschten [Erfolgsmetrik](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html).
+   Siehe [Erstellen eines Weiterleitungsangebots](https://marketing.adobe.com/resources/help/de_DE/target/target/t_offer_redirect.html).
+* Eine Target-Aktivität mit einem Erlebnis für jedes Angebot und der gewünschten [Erfolgsmetrik](https://marketing.adobe.com/resources/help/de_DE/target/target/r_success_metrics.html).
 
-   Weitere Informationen finden Sie unter [Zu einer URL umleiten](https://marketing.adobe.com/resources/help/en_US/target/target/t_redirect_offer.html).
+   Siehe [Weiterleiten zu einer URL](https://marketing.adobe.com/resources/help/de_DE/target/target/t_redirect_offer.html).
 
 Starten Sie die Aktivität in Target, bevor Sie den Kampagnenteil der Integration einrichten.
 
-## Ein Target-Angebot in eine Adobe Campaign-E-Mail übernehmen   {#section_B201BBE27A704E18AF0D553F35695837}
+## Ein Target-Angebot in eine Adobe Campaign-E-Mail übernehmen {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Erstellen Sie eine E-Mail in Adobe Campaign.
 1. Klicken Sie in den E-Mail-Eigenschaften auf **[!UICONTROL Einschließen]** &gt; **[!UICONTROL Dynamisches Bild bereitgestellt von Adobe Target]**.
