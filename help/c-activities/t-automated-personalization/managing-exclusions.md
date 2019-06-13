@@ -1,22 +1,22 @@
 ---
-description: Verwalten Sie Ausschlussgruppen und doppelte Angebote in AP-Aktivitäten (automatisierte Personalisierung).
+description: Verwalten Sie Ausnahmen, indem Sie Ausschlussgruppen erstellen, ohne duplizierte Angebote auszuschließen, bestimmte Erlebnisse auszuschließen und Standardinhalte in automatisierten Personalisierungs-Aktivitäten (AP) auszuschließen.
 keywords: deduplizieren;Duplikate zulassen;duplizierte Angebote ausschließen;automatisierte Personalisierung;duplizierte Angebote nicht zulassen
-seo-description: Verwalten Sie Ausschlussgruppen und doppelte Angebote in AP-Aktivitäten (automatisierte Personalisierung).
+seo-description: Verwalten Sie Ausschlüsse, indem Sie Ausschlussgruppen erstellen, ohne duplizierte Angebote ausschließen, bestimmte Erlebnisse ausschließen und Standardinhalte in Aktivitäten mit automatisierter Personalisierung (AP) von Adobe Target ausschließen.
 seo-title: Verwalten von Ausschlüssen
 solution: Target,Analytics
 title: Verwalten von Ausschlüssen
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 ---
 
 
-# Verwalten von Ausschlüssen{#manage-exclusions}
+# ![Ausnahmen für Premium-Badge](/help/assets/premium.png) verwalten{#manage-exclusions}
 
-Verwalten Sie Ausschlussgruppen und doppelte Angebote in AP-Aktivitäten (automatisierte Personalisierung).
+Verwalten Sie Ausnahmen, indem Sie Ausschlussgruppen erstellen, ohne duplizierte Angebote auszuschließen, bestimmte Erlebnisse auszuschließen und Standardinhalte in automatisierten Personalisierungs-Aktivitäten (AP) auszuschließen.
 
-## Erstellen von Ausschlussgruppen {#task_AAAA6C7239A84F7696C8492F04B575A2}
+## Ausschlussgruppen erstellen {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
 Erstellen Sie Ausschlussgruppen in AP-Aktivitäten (automatisierte Personalisierung), um sicherzustellen, dass Erlebnisse mit den vorgesehenen Angeboten automatisch ausgeschlossen werden.
 
@@ -26,15 +26,19 @@ Sie können auch einschränken, welche Zielgruppen bestimmte Angebote in AP-Akti
 
 **So erstellen Sie eine Ausschlussgruppe:**
 
-1. Klicken Sie beim Erstellen oder Bearbeiten einer AP-Aktivität in der Header-Leiste auf **[!UICONTROL Inhalt verwalten]**.
+1. Klicken Sie beim [Erstellen oder Bearbeiten einer AP-Aktivität](/help/c-activities/t-automated-personalization/create-ap-activity.md)**[!UICONTROL in der Kopfzeilenleiste auf Inhalt]** verwalten.
+
+   ![Inhaltsverwaltung verwalten](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+
 1. Klicken Sie im Dialogfeld [!UICONTROL Inhalt verwalten]**auf[!UICONTROL Ausschlussgruppe]**.
 
-   ![Ergebnis des Schritts](assets/exclusion_group_create.png)
+   ![Inhalt verwalten &gt; Ausschlussgruppen, Dialogfeld](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    Wenn Sie zuvor Ausschlussgruppen erstellt haben, werden sie in der Liste angezeigt. Wenn Sie noch keine Ausschlussgruppe erstellt haben, werden Sie aufgefordert, eine zu erstellen.
+
 1. Klicken Sie auf **[!UICONTROL Ausschlussgruppe erstellen]**.
 
-   ![Ergebnis des Schritts](assets/exclusion_group_create_dialog.png)
+   ![Ausschlussgruppe erstellen, Dialogfeld](/help/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
 
 1. (Erforderlich) Geben Sie einen beschreibenden Namen für die Ausschlussgruppe an.
 
@@ -56,15 +60,17 @@ Möglicherweise verfügen Sie über eine Aktivität mit sechs Orten auf einer Se
 
 Klicken Sie auf **[!UICONTROL Konfigurieren]** &gt; **[!UICONTROL Doppelt vorhandenes Angebot]** und wählen Sie **[!UICONTROL Duplikate zulassen]** oder **[!UICONTROL Duplikate nicht zulassen]** aus.
 
-![](assets/duplicate_offers.png)
+![Optionen für doppelte Angebote](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
-## Standardinhalt ausschließen {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+## Ausschließen bestimmter Erlebnisse {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
 Schließen Sie spezifische Erlebnisse aus, wenn Sie bestimmte Angebotskombinationen aus Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ ausschließen möchten.
 
 Es gibt möglicherweise bestimmte Kombinationen, die nicht gut gemeinsam funktionieren, oder Sie möchten möglicherweise die Anzahl der getesteten Erlebnisse eingrenzen, um die Traffic-Anforderungen für Ihre Aktivität zu verringern.
 
-1. Klicken Sie beim Erstellen oder Bearbeiten einer AP-Aktivität in der Header-Leiste auf **Inhalt verwalten.**
+1. Klicken Sie beim [Erstellen oder Bearbeiten einer AP-Aktivität](/help/c-activities/t-automated-personalization/create-ap-activity.md)**in der Kopfzeilenleiste auf Inhalt** verwalten.
+
+   ![Inhaltsverwaltung verwalten](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
    Die Liste [!UICONTROL Erlebnisse] zeigt jedes Erlebnis an, das anhand der Permutationen sämtlicher Inhalts- und Positionsoptionen generiert wurde.
 
@@ -72,42 +78,42 @@ Es gibt möglicherweise bestimmte Kombinationen, die nicht gut gemeinsam funktio
 
    Sie können spezifische Erlebnisse ausschließen, indem mit dem Mauszeiger über das gewünschte Erlebnis fahren und dann auf das Ausschlusssymbol klicken.
 
-   ![](assets/exclude_exp_1.png)
+   ![Erlebnis durch den Mauszeiger ausschließen](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   Alternativ können Sie Erlebnisse in einem Batch-Vorgang ausschließen/einschließen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann in der oberen rechten Ecke des Dialogfelds auf die Schaltfläche **Ausschließen** klicken. Die Schaltfläche „Ausschließen“ wird angezeigt, wenn mindestens ein Erlebnis aktiviert ist.
+   Sie können auch Erlebnisse ausschließen/schließen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann in der oberen **[rechten Ecke des Dialogfelds auf]** das Symbol &quot;UICONTROL ausschließen&quot; klicken. Das [!UICONTROL Symbol Ausschließen] wird angezeigt, wenn ein oder mehrere Erlebnisse aktiviert sind.
 
-   ![](assets/exclude_exp_2.png)
+   ![Erlebnisse ausschließen](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
    Sie können diese Listenansicht so filtern, dass nur ausgeschlossene oder nur eingeschlossene Aktivitäten angezeigt werden. Klicken Sie dazu auf die Dropdownliste [!UICONTROL Status].
 
    Die Erlebnisse werden nun aus der Aktivität ausgeschlossen und ihr [!UICONTROL Status] lautet [!UICONTROL Ausgeschlossen].
 
-   ![](assets/exclude_exp_3.png)
+   ![Ausgeschlossene Erlebnisse](/help/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
-## Standardinhalt ausschließen   {#task_DCB4528989DF4C05A3A4729E5891D18F}
+## Standardinhalt ausschließen {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-In manchen Fällen möchten Sie Ihren Standardinhalt möglicherweise nicht als ein Teil Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ einbeziehen. Wie Sie auf diese Einstellung zugreifen, unterscheidet sich vom Erstellen von Ausschlussgruppen. Sie können diese Methode verwenden, um nur über ein Angebot (unterscheidet sich von Ihrem Standardinhalt) an einer Position als Teil Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ zu verfügen.
+In manchen Fällen möchten Sie Ihren Standardinhalt möglicherweise nicht als ein Teil Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ einbeziehen. Wie Sie auf diese Einstellung zugreifen, unterscheidet sich vom Erstellen von Ausschlussgruppen. Mit dieser Methode können Sie im Rahmen Ihrer AP-Aktivität nur ein Angebot (anders als Ihren Standardinhalt) an einem Ort verwenden.
 
-Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Erscheinungsbild der restlichen Seite zu ändern, um die von Ihnen mit der Aktivität vom Typ „Automatisierte Personalisierung“ getesteten Angebote anzupassen. Wenn Sie beispielsweise die Farbpalette der von Ihnen getesteten Angebote abgleichen möchten, können Sie die Hintergrundfarbe Ihrer Seite ändern und die standardmäßige Hintergrundfarbe ausschließen.
+Das Ausschließen von Standardinhalten bietet eine großartige Möglichkeit, das Erscheinungsbild des Rest der Seite an die Angebote anzupassen, die Sie mit Ihrer AP-Aktivität testen. Wenn Sie beispielsweise die Farbpalette der von Ihnen getesteten Angebote abgleichen möchten, können Sie die Hintergrundfarbe Ihrer Seite ändern und die standardmäßige Hintergrundfarbe ausschließen.
 
 **So schließen Sie Standardinhalt mit Visual Experience Composer (VEC) aus:**
 
-1. Wählen Sie beim Erstellen oder Bearbeiten einer AP-Aktivität den zu ersetzenden Inhalt aus und klicken Sie auf **[!UICONTROL Text/HTML ändern]** oder **[!UICONTROL Bild ändern]** oder **[!UICONTROL Hintergrundfarbe ändern]**, um darauf zuzugreifen.
+1. Wählen Sie beim [Erstellen oder Bearbeiten einer AP-Aktivität](/help/c-activities/t-automated-personalization/create-ap-activity.md)den zu ersetzenden Inhalt aus und klicken Sie auf &quot;Text/HTML **[!UICONTROL ändern]**«,&quot; Bild **[!UICONTROL ändern&quot;]** oder &quot;Hintergrundfarbe **[!UICONTROL ändern]**«.
 1. Erstellen Sie im Dialogfeld Ihren neuen Inhalt und deaktivieren Sie **Einbeziehen** rechts neben dem Standardinhalt (oder deaktivieren Sie das Standardbild/-video auf dem Bildschirm „Inhalt auswählen“).
 
    Je nach Inhalts-/Angebotstyp befindet sich das Kontrollkästchen [!UICONTROL Einbeziehen] an einer etwas anderen Position.
 
    Für Text-/HTML-Inhalt:
 
-   ![](assets/exclude_content_vec_1.png)
+   ![Kontrollkästchen &quot;Text/HTML bearbeiten&quot; aktivieren](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
 
    Für Bild-/Videoinhalt:
 
-   ![](assets/exclude_content_vec_2.png)
+   ![Kontrollkästchen aktivieren, Dialogfeld &quot;Inhalt auswählen «](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
 
    Für die Hintergrundfarbe:
 
-   ![](assets/exclude_content_vec_3.png)
+   ![Kontrollkästchen im Dialogfeld Hintergrundfarbe bearbeiten aktivieren](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
