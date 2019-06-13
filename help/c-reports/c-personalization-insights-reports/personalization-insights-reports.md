@@ -8,8 +8,8 @@ title: Berichte zu Personalization Insights
 title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
-translation-type: tm+mt
-source-git-commit: 6cd0179b3fc1df8ec9ae1cbecd10749f751d9cd8
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -44,14 +44,14 @@ Es stehen zwei Berichte zur Verfügung:
 Es gibt zwei Arten von Attributen in [!UICONTROL Personalization Insights]-Berichten, die in Ihren AP- oder AT-Modellen verwendet werden:
 
 * **Automatisch von Target erfasste Attribute:** Target verwendet einen Basis-Datensatz, um die Personalisierungsalgorithmen in AP- und AT-Aktivitäten zu erstellen, die in Personalization Insights angezeigt werden. Siehe [Datenerfassung für die Personalisierungsalgorithmen](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) von Target für Datentypen, Beispielattribute und ihre Benennungskonvention für [!UICONTROL Personalization Insights]. Beachten Sie, dass, obwohl diese Attribute berücksichtigt werden, die individuellen Modelle einer Aktivität nicht unbedingt all diese Attribute im endgültigen Modell verwenden.
-* **An Target übergebene Attribute:** Siehe   [Hochladen von Daten für die Target-Personalisierungs-Algorithmen](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* **An Target übergebene Attribute:** Siehe [Hochladen von Daten für die Target-Personalisierungs-Algorithmen](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 Target bietet verschiedene Möglichkeiten, zusätzliche Daten zu übergeben, um den Basis-Datensatz zu erweitern, der für die Erstellung der Personalisierungsalgorithmen in AP- und AT-Aktivitäten eingesetzt wird:
 
 | Datentyp | Beschreibung | Datentyp-Namenskonvention |
 |--- |--- |--- |
 | Profilattribute, einschließlich Profilskripten, Profilupdate-API und Seitenprofilattributen | Die Informationen, die Sie dem Benutzerprofil in Target hinzugefügt haben.<br>Diese Informationen können aus Profilskripten, aus mit der Profilaktualisierungs-API hochgeladenen Informationen oder aus In-Mbox-Profilparametern stammen, denen „profile“ vorangestellt ist. | `Custom - Profile - [parameter name]` |
-| Seitenparameter (auch „Mbox-Parameter“ genannt) | Name-Wert-Paare, die direkt über den Seitencode übergeben und nicht zur späteren Verwendung im Profil des Besuchers gespeichert werden. | `Custom - Mbox Parameter - [parameter name]` |
+| Seitenparameter (auch „Mbox-Parameter“ genannt) | Name-Wert-Paare, die direkt über den Seiten-Code übergeben und nicht zur späteren Verwendung im Profil des Besuchers gespeichert werden. | `Custom - Mbox Parameter - [parameter name]` |
 | Kundenattribute | Mithilfe von Kundenattributen können Sie Besucherprofildaten per FTP in die Experience Cloud hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit Adobe Analytics und Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
 | Gemeinsam genutzte Zielgruppen (Adobe Audience Manager oder Adobe Analytics) | Mittels Adobe Audience Manager oder Adobe Analytics erstellte und für Target freigegebene Zielgruppen. | `Custom - Experience Cloud Segment - [segment name]` |
 | Aktivitätsinterne(s) Reporting-Zielgruppen/-Segment | Während der Einrichtung in „Ziele und Metriken“ definierte Zielgruppen in Ihrer AP- oder AT-Aktivität. | `Custom - Reporting Segment - [segment name]` |
@@ -60,4 +60,4 @@ Target bietet verschiedene Möglichkeiten, zusätzliche Daten zu übergeben, um 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-Weitere Informationen finden Sie unter [Verwenden der Personalisierungs Insight-Berichte in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Weitere Informationen finden Sie unter [Verwenden der Personalization Insights-Berichte in Adobe Target](https://helpx.adobe.com/de/target/kt/using/personalization-insights-report-feature-video-use.html).
