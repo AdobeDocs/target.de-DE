@@ -8,8 +8,8 @@ subtopic: Multivarianz-Test
 title: Aktivitätseinstellungen
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,7 +23,7 @@ Verwenden Sie zum Verwalten des Ziels, der Priorität und der Dauer Ihrer Aktivi
    Geben Sie sämtliche Informationen ein, die für Sie und Ihre Team-Mitglieder von Nutzen sind. Ziehen Sie das Feld [!UICONTROL Ziel], um seine Größe zu ändern.
 1. Legen Sie die Priorität der Aktivität fest.
 
-   Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für [!UICONTROL Prioritäten]. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren. 
+   Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für [!UICONTROL Prioritäten]. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren.
 
    Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
@@ -39,7 +39,7 @@ Verwenden Sie zum Verwalten des Ziels, der Priorität und der Dauer Ihrer Aktivi
 
    >[!NOTE]
    >
-   >Wenn Sie genauere Prioritäten verwendet haben und die Option deaktivieren möchten, müssen zunächst alle Prioritätswerte auf 0, 5 und 10 zurückgesetzt werden.
+   >Wenn Sie genauer unterteilte Prioritäten verwendet haben und die Option deaktivieren möchten, müssen zunächst alle Prioritätswerte auf 0, 5 und 10 zurückgesetzt werden.
 
 1. Legen Sie die Dauer der Aktivität fest.
 
