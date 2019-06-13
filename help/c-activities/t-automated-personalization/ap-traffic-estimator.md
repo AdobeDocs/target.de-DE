@@ -8,8 +8,8 @@ title-outputclass: Premium
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 badge: Premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -25,6 +25,8 @@ Die Traffic-Schätzung ermittelt anhand eines Vergleichs der geschätzten Seiten
 Beachten Sie, dass Target zufällig so lange Erlebnisse verarbeitet, bis die Personalisierungsalgorithmen erstellt wurden. Das Häkchensymbol neben jedem Angebot zeigt, wann das Modell für dieses Angebot bereit ist und Target personalisierten Inhalt bereitstellen kann. Da eine Steigerung erst erwartet wird, wenn die Modelle fertig sind, können Sie anhand der visuellen Angabe die richtige Erwartung festlegen. Verwenden Sie die Traffic-Schätzung in Visual Experience Composer (VEC), um eine Vorstellung davon zu bekommen, wann die Modelle fertig sein werden.
 
 1. Klicken Sie im Experience Composer auf **[!UICONTROL Traffic]**.
+
+   ![Traffic-Symbol](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
    Die Traffic-Schätzung wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]klicken, um die Traffic-Schätzung auszublenden.**
 
