@@ -6,11 +6,11 @@ seo-title: Integration von Recommendations in E-Mail
 solution: Target
 title: Integration von Recommendations in E-Mail
 title-outputclass: premium
-topic: 'Recommendations '
+topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 badge: premium
-translation-type: tm+mt
-source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,7 +21,7 @@ Informationen zu den Methoden zum Integrieren der E-Mail-Funktion in Recommendat
 
 Die Möglichkeiten Ihres E-Mail-Service-Anbieters bestimmen die Methode. Ihr Kundenbetreuer oder Berater kann Ihnen bei der Wahl der am besten geeigneten Option behilflich sein.
 
-## Option 1: Verwenden der Bereitstellungs-API   {#section_9F00D271BABA4B7390B461F4C44EC319}
+## Option 1: Verwenden der Bereitstellungs-API {#section_9F00D271BABA4B7390B461F4C44EC319}
 
 Die Bereitstellungs-API ist eine POST-Anforderung, die zusammen mit der Erstellungszeit-E-Mail verwendet wird. Diese Option ist die bevorzugte Methode für die Erstellungszeit-E-Mail.
 
@@ -60,7 +60,7 @@ Dabei ist `clientcode` Ihr Target-Client-Code.
 >
 >Stellen Sie sicher, dass Sie einen eindeutigen Wert für `sessionId` und entweder `tntId` oder `thirdPartyId` für jeden E-Mail-Empfänger bereitstellen (z. B. für jeden API-Aufruf). Wenn Sie keine eindeutigen Werte für diese Felder angeben, kann die API-Antwort aufgrund der großen Anzahl in einem einzigen Profil generierter Ereignisse lange dauern oder sogar fehlschlagen.
 
-Weitere Informationen finden Sie in der [Dokumentation zur Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-delivery).
+Weitere Informationen finden Sie unter [Lieferungs-API-Dokumentation](https://developers.adobetarget.com/api/#server-side-delivery).
 
 ## Option 2: Verwenden einer Rawbox-E-Mail-Vorlage {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
@@ -101,25 +101,25 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 >
 >Um [!DNL Recommendations] in E-Mails zu verwenden, muss der Rawbox-Aufruf je nach Art der Empfehlungskriterien entweder `entity.id` oder `entity.categoryId` oder beide enthalten. Im obigen Beispielaufruf sind beide enthalten.
 
-| Parameter | Wert | Beschreibung | Validierung  |
+| Parameter | Wert | Beschreibung | Validierung |
 |--- |--- |--- |--- |
-| `client_code` | *client_code* | Der in Recommendations verwendete Clientcode. Ihr Adobe-Berater kann Ihnen diesen Wert nennen. |
+| `client_code` | *client_code* | Der in Recommendations verwendete Clientcode. Ihr Adobe-Berater kann Ihnen diesen Wert nennen. |  |
 | `mbox` | *mboxName* | Der Mbox-Name, der für das Targeting verwendet wird. | Gleiche Validierung wie alle Mbox-Aufrufe.<br>Längenbeschränkung von 250 Zeichen.<br>Darf keines der folgenden Zeichen enthalten: `', ", %22, %27, <, >, %3C, %3E` |
-| `mboxXDomain` | disabled | Hindert die Antwort am Setzen eines Cookies in Nicht-Web-Umgebungen. |
-| `entity.id`<br>(Erforderlich für bestimmte Kriterientypen: Ansicht/Ansicht, Ansicht/Gekauft, Gekauft/Gekauft) | *entity_id* | Die „productId“, auf der die Empfehlung beruht, beispielsweise ein in den Einkaufskorb gelegtes, aber nicht erworbenes Produkt oder ein in der Vergangenheit getätigter Einkauf.<br>Falls von den Kriterien gefordert, muss der Rawbox-Aufruf `entity.id` enthalten. |
-| `entity.event.detailsOnly` | wahr | Wenn Sie weitergereicht werden, `entity.id` wird dringend empfohlen, diesen Parameter zu übergeben, um zu verhindern, dass die Anforderung die Anzahl der Seitenansichten für ein Element erhöht, sodass produktansichtsbasierte Algorithmen nicht verfälscht werden. |
-| `entity.categoryId`<br>(Für bestimmte Kriterientypen erforderlich: am häufigsten angezeigt nach Kategorie und Topverkäufe nach Kategorie) | *category_id* | Die Kategorie, auf der die Empfehlung basiert, beispielsweise die Topverkäufe einer Kategorie.<br>Falls von den Kriterien gefordert, muss der Rawbox-Aufruf `entity.categoryId` enthalten. |
-| `mboxDefault` | *`https://www.default.com`* | Ist kein `mboxNoRedirect`-Parameter vorhanden, sollte `mboxDefault` eine absolute URL sein, die Standardinhalte zurückgibt, wenn keine Empfehlung zur Verfügung steht. Es kann sich dabei um Bilder oder statische Inhalte handeln.<br>Wenn der `mboxNoRedirect`-Parameter vorhanden ist, kann es sich bei `mboxDefault` um einen beliebigen Text handeln, der angibt, dass es keine Empfehlungen gibt wie z. B. `no_content`.<br>Der E-Mail-Anbieter muss den Fall, dass der Wert zurückgegeben wird, handhaben und bei dessen Eintreten Standard-HTML-Inhalte in die E-Mail einfügen können. |
-| `mboxHost` | *mbox_host* | Die Domäne, die der Standardumgebung (Hostgruppe) hinzugefügt wird, wenn der Aufruf erfolgt. |
+| `mboxXDomain` | disabled | Hindert die Antwort am Setzen eines Cookies in Nicht-Web-Umgebungen. |  |
+| `entity.id`<br>(Erforderlich für bestimmte Kriterientypen: Ansicht/Ansicht, Ansicht/Gekauft, Gekauft/Gekauft) | *entity_id* | Die „productId“, auf der die Empfehlung beruht, beispielsweise ein in den Einkaufskorb gelegtes, aber nicht erworbenes Produkt oder ein in der Vergangenheit getätigter Einkauf.<br>Falls von den Kriterien gefordert, muss der Rawbox-Aufruf `entity.id` enthalten. |  |
+| `entity.event.detailsOnly` | wahr | Wenn Sie weitergereicht werden, `entity.id` wird dringend empfohlen, diesen Parameter zu übergeben, um zu verhindern, dass die Anforderung die Anzahl der Seitenansichten für ein Element erhöht, sodass produktansichtsbasierte Algorithmen nicht verfälscht werden. |  |
+| `entity.categoryId`<br>(Für bestimmte Kriterientypen erforderlich: am häufigsten angezeigt nach Kategorie und Topverkäufe nach Kategorie) | *category_id* | Die Kategorie, auf der die Empfehlung basiert, beispielsweise die Topverkäufe einer Kategorie.<br>Falls von den Kriterien gefordert, muss der Rawbox-Aufruf `entity.categoryId` enthalten. |  |
+| `mboxDefault` | *`https://www.default.com`* | Ist kein `mboxNoRedirect`-Parameter vorhanden, sollte `mboxDefault` eine absolute URL sein, die Standardinhalte zurückgibt, wenn keine Empfehlung zur Verfügung steht. Es kann sich dabei um Bilder oder statische Inhalte handeln.<br>Wenn der `mboxNoRedirect`-Parameter vorhanden ist, kann es sich bei `mboxDefault` um einen beliebigen Text handeln, der angibt, dass es keine Empfehlungen gibt wie z. B. `no_content`.<br>Der E-Mail-Anbieter muss den Fall, dass der Wert zurückgegeben wird, handhaben und bei dessen Eintreten Standard-HTML-Inhalte in die E-Mail einfügen können. |  |
+| `mboxHost` | *mbox_host* | Die Domäne, die der Standardumgebung (Hostgruppe) hinzugefügt wird, wenn der Aufruf erfolgt. |  |
 | `mboxPC` | Empty | (Für Empfehlungen erforderlich, die das Profil eines Besuchers verwenden.)<br>Wenn keine „thirdPartyId“ angegeben wurde, wird eine neue „tntId“ generiert und als Teil der Antwort zurückgegeben. Ansonsten wird kein Wert angegeben.<br>**Hinweis**: Stellen Sie sicher, dass Sie einen eindeutigen Wert für `mboxSession` und `mboxPC` für jeden einzelnen E-Mail-Empfänger angeben (d. h. für jeden API-Aufruf). Wenn Sie keine eindeutigen Werte für diese Felder angeben, kann die API-Antwort aufgrund der großen Anzahl in einem einzigen Profil generierter Ereignisse lange dauern oder sogar fehlschlagen. | 1 &lt; Länge &lt; 128<br>Darf nicht mehr als einen einzelnen „.“ (Punkt) enthalten.<br>Der einzig zulässige Punkt ist derjenige vor dem Suffix für den Profilspeicherort. |
 
 **Optionale Parameter**:
 
-| Parameter | Wert | Beschreibung | Validierung  |
+| Parameter | Wert | Beschreibung | Validierung |
 |--- |--- |--- |--- |
 | `mboxPC`<br>(Optional) | *mboxPCId* | Target-Besucher-ID. Verwenden Sie diesen Wert, wenn Sie einen Besucher umfassend über mehrere Besuche hinweg auf Ihre Seite zurück verfolgen möchten oder wenn ein Benutzerprofilparameter eingesetzt wird.<br>Dieser Wert muss die Adobe Target-PCID des Benutzers sein, die von der Website in Ihr CRM-System importiert wird. Der E-Mail-Anbieter würde diese ID aus Ihrem CRM-System oder Data Warehouse abrufen und als Wert für diesen Parameter einsetzen.<br>Der Wert `mboxPC` ist auch für die Verfolgung des Site-Verhaltens von Besuchern über mehrere Besuche hinweg sinnvoll. Mit seiner Hilfe lassen sich Metriken verfolgen, wenn eine Empfehlung Teil einer A/B-Aktivität ist.<br>**Hinweis**: Stellen Sie sicher, dass Sie einen eindeutigen Wert für `mboxSession` und `mboxPC` für jeden einzelnen E-Mail-Empfänger angeben (d. h. für jeden API-Aufruf). Wenn Sie keine eindeutigen Werte für diese Felder angeben, kann die API-Antwort aufgrund der großen Anzahl in einem einzigen Profil generierter Ereignisse lange dauern oder sogar fehlschlagen. | 1 &lt; Länge &lt; 128<br>Darf nicht mehr als einen einzelnen „.“ (Punkt) enthalten.<br>Der einzig zulässige Punkt ist derjenige vor dem Suffix für den Profilspeicherort. |
-| `mboxNoRedirect`<br>(Optional) | 1 | Standardmäßig wird der Anrufer umgeleitet, wenn keine bereitzustellenden Inhalte gefunden werden können. Für die Deaktivierung des Standardverhaltens verwenden. |
-| `mbox3rdPartyId` | *xxx* | Verwenden Sie diesen Wert, wenn Sie für Profil-Targeting eigene, benutzerdefinierte IDs einsetzen. |
+| `mboxNoRedirect`<br>(Optional) | 1 | Standardmäßig wird der Anrufer umgeleitet, wenn keine bereitzustellenden Inhalte gefunden werden können. Für die Deaktivierung des Standardverhaltens verwenden. |  |
+| `mbox3rdPartyId` | *xxx* | Verwenden Sie diesen Wert, wenn Sie für Profil-Targeting eigene, benutzerdefinierte IDs einsetzen. |  |
 
 **Mögliche Target-Serverantworten**:
 
