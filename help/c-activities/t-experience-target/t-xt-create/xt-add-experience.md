@@ -7,8 +7,8 @@ solution: Target
 title: Erlebnis erstellen
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
-translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -68,7 +68,7 @@ Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](../../../c-ex
 
 ## Umbenennen, Bearbeiten oder Löschen eines Erlebnisses
 
-Sie können in einem Erlebnis innerhalb einer A/B- oder XT-Aktivität (Erlebnis-Targeting) auf das Bearbeitungssymbol (drei vertikale Ellipsen) klicken und folgende Optionen auswählen:
+Sie können in einem Erlebnis innerhalb einer A/B-Test oder XT-Aktivität (Erlebnis-Targeting) auf das Bearbeitungssymbol (drei vertikale Ellipsen) klicken und folgende Optionen auswählen:
 
 * Umbenennen
 * Bearbeiten
