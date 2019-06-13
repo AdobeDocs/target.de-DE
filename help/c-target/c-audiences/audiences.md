@@ -7,8 +7,8 @@ solution: Target
 title: Erstellen von Zielgruppen
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
-translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 Mithilfe von Zielgruppen wird bestimmt, wer Inhalte und Erlebnisse in einer Target-Aktivität anzeigen kann.
 
-Zielgruppen werden überall dort eingesetzt, wo Targeting zur Verfügung steht. Zum Ausrichten einer Aktivität können Sie entweder eine wiederverwendbare Zielgruppe aus der [!UICONTROL Zielgruppenliste] auswählen oder ein aktivitätsspezifisches Segment erstellen und gezielt ausrichten oder   [mehrere Zielgruppen](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) miteinander kombinieren, um eine Ad-hoc-Zielgruppe zu erstellen.
+Zielgruppen werden überall dort eingesetzt, wo Targeting zur Verfügung steht. Zum Ausrichten einer Aktivität können Sie entweder eine wiederverwendbare Zielgruppe aus der [!UICONTROL Zielgruppenliste] auswählen oder ein aktivitätsspezifisches Segment erstellen und gezielt ausrichten oder [mehrere Zielgruppen](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) miteinander kombinieren, um eine Ad-hoc-Zielgruppe zu erstellen.
 
-Sie können auch Zielgruppendaten verwenden, die von [!DNL Analytics] für Echtzeit-Targeting und Personalisierung in [!DNL Adobe Target] und anderen [!DNL Experience Cloud]-Lösungen erfasst wurden. Siehe [Zielgruppen in der Experience Cloud-Produktdokumentation](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
+Sie können auch Zielgruppendaten verwenden, die von [!DNL Analytics] für Echtzeit-Targeting und Personalisierung in [!DNL Adobe Target] und anderen [!DNL Experience Cloud]-Lösungen erfasst wurden. Siehe [Zielgruppen in der Experience Cloud-Produkt-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mcloud/audience_library.html).
 
 In [!DNL Target] stehen zwei Zielgruppentypen zur Verfügung:
 
@@ -57,7 +57,7 @@ Der Zugriff auf die folgende Zielgruppendefinition erfolgt durch Klicken auf das
 
 ![](assets/audience_definition.png)
 
-Klicken Sie auf die Registerkarte [!UICONTROL Zielgruppennutzung], um andere Aktivitäten anzuzeigen, die ggf. auf diese Zielgruppe verweisen. So können Sie beim Bearbeiten von Zielgruppen nicht beabsichtigte Auswirkungen auf andere Aktivitäten verhindern. Zu „Informationen“ zählen „Live-Aktivitäten“, „Inaktive Aktivitäten“, „Archivierte Aktivitäten“ und „Aktivitätssynchronisierung“. Diese Funktion ist für alle Zielgruppen (Bibliothekszielgruppen und   [Zielgruppen vom Typ „Nur Aktivität“](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)) verfügbar.
+Klicken Sie auf die Registerkarte [!UICONTROL Zielgruppennutzung], um andere Aktivitäten anzuzeigen, die ggf. auf diese Zielgruppe verweisen. So können Sie beim Bearbeiten von Zielgruppen nicht beabsichtigte Auswirkungen auf andere Aktivitäten verhindern. Zu „Informationen“ zählen „Live-Aktivitäten“, „Inaktive Aktivitäten“, „Archivierte Aktivitäten“ und „Aktivitätssynchronisierung“. Diese Funktion ist für alle Zielgruppen (Bibliothekszielgruppen und [Zielgruppen vom Typ „Nur Aktivität“](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)) verfügbar.
 
 Wenn eine Zielgruppe mit einer anderen Zielgruppe kombiniert und die kombinierte Zielgruppe zum Erstellen einer Aktivität verwendet wird, findet sich in den Nutzungsinformationen für beide Zielgruppen die neu erstellte Aktivität.
 
@@ -72,7 +72,7 @@ Für diese importierten Zielgruppentypen sind die folgenden Details verfügbar:
 | Zielgruppentyp | Details |
 |--- |--- |
 | Mobile Zielgruppe | Marketing-Name, Hersteller und Modell.<br>Der `matches | does not match`-Operator wird anstelle `equals | does not equal`<br>![ der Importierten Mobilen Zielgruppe](/help/c-target/c-audiences/assets/imported_mobile_audience.png) angezeigt. |
-| Besucherverhalten-Zielgruppe | **user.categoryAffinity:** `categoryAffinity` mit `FAVORITE`-Parameter.<br>![Importierte Kategorieaffinität](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br> **-Überwachung:** Überwachungsdienst ist True.<br>**Kein Überwachungsdienst:**Überwachungsdienst ist False.<br>![Importierte Überwachung](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Besucherverhalten-Zielgruppe | **user.categoryAffinity:** `categoryAffinity` mit `FAVORITE`-Parameter.<br>![Importierte Kategorieaffinität](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br> **-Überwachung:** Überwachungsdienst ist True.<br>**Kein Überwachungsdienst:** Überwachungsdienst ist False.<br>![Importierte Überwachung](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Zielgruppen mit dem Operator NOT | **Einzelregel:** Target zeigt die Zielgruppe im Format `[All Visitor AND [NOT [rule]` an. Einzelne NOT-Regel wird mit UND mit `AllVisitor`-Zielgruppe angezeigt.<br>![Importierte Not-Zielgruppe](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Berücksichtigen Sie beim Arbeiten mit importierten Zielgruppen Folgendes:
