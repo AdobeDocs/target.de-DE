@@ -7,8 +7,8 @@ solution: Target
 title: Ziele und Einstellungen
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,8 +17,8 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zielen des Tests eingeben.
 
-* Aktivitätseinstellungen  
-* Berichterstellungseinstellungen  
+* Aktivitätseinstellungen
+* Berichterstellungseinstellungen
 * Sonstige Metadaten
 
 Welche Einstellungen verfügbar sind, hängt davon ab, ob Sie Target oder Analytics als Datenquelle verwenden.
@@ -35,7 +35,7 @@ Geben Sie ein optionales Ziel ein. Beim Ziel kann es sich um beliebige Informati
 
 ### Priorität
 
-Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für Prioritäten. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren. 
+Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für Prioritäten. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren.
 
 Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
@@ -58,13 +58,13 @@ Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt
 
 Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
-## Berichterstellungseinstellungen   {#section_13119392051044FBA6387D9B3B1C43CF}
+## Berichterstellungseinstellungen {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Die folgenden Einstellungen sind verfügbar:
 
 ### Berichterstellungslösung
 
-Geben Sie an, ob die Daten von Adobe Target oder Adobe Analytics erfasst werden. Informationen über die Unterschiede zwischen den Berichterstellungslösungen und deren jeweilige Vorteile finden Sie unter [Adobe Analytics als Berichterstellungsquelle für Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html).
+Geben Sie an, ob die Daten von Adobe Target oder Adobe Analytics erfasst werden. Weitere Informationen zu den Unterschieden zwischen den Berichterstellungslösungen und deren Vorteilen finden Sie unter [Adobe Analytics als Berichtsquelle für Target](https://marketing.adobe.com/resources/help/de_DE/target/a4t/a4t.html).
 
 Wenn Sie Analytics als Berichtsquelle für Target auswählen, wählen Sie eine Analytics-Report Suite, um Target-Aktivitätsdaten zu empfangen. Wählen Sie dazu zunächst ein Analytics-Unternehmen aus, an das Ihr Konto gebunden ist, und wählen Sie anschließend die der Aktivität entsprechende Report Suite aus. Es stehen nur Report Suites, die für die Verbindung mit Adobe Target bereitgestellt werden, zur Auswahl zur Verfügung. Wenn nicht die erwarteten Report Suites angezeigt werden, versuchen Sie, sich bei Adobe Experience Cloud ab- und dann wieder anzumelden, und wiederholen Sie den Vorgang. Wenn die Report Suite weiterhin nicht in der Liste zu finden ist, wenden Sie sich an den Kundendienst.
 
@@ -108,7 +108,7 @@ Erweiterte Einstellungen sind für Zielmetriken Multivarianz-Test verfügbar.
 
 >[!NOTE]
 >
->Wenn Sie Adobe Analytics als Ihre Berichterstellungsquelle verwenden, werden die Einstellungen durch den Analytics-Server verwaltet. Die Option für erweiterte Einstellungen steht nicht zur Verfügung.
+>Wenn Sie Adobe Analytics als Ihre Berichterstellungsquelle verwenden, werden die Einstellungen vom Analytics-Server verwaltet. Die Option für erweiterte Einstellungen steht nicht zur Verfügung.
 
 ### Welche Erfolgsmetrik muss erreicht werden, bevor diese Metrik erhöht wird?
 
@@ -122,7 +122,7 @@ Mithilfe der Option Abhängigkeit hinzufügen kann die Erfolgsmetrik inkrementie
 
 So fügen Sie eine Abhängigkeit hinzu:
 
-1. Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf Erweiterte Einstellungen .
+1. Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf Erweiterte Einstellungen.
 2. Klicken Sie auf die Option Abhängigkeit hinzufügen:
 
    ![](assets/add_dependency.png)
@@ -172,7 +172,7 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Ziele und Einstellungen werden ab 7:00 erläutert.
 
-* Definieren und gestalten eines Multivarianz-Tests
+* Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)
