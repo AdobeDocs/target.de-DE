@@ -7,8 +7,8 @@ solution: Target
 title: Einschränkungen von „at.js“
 topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
-translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,11 +23,11 @@ Zwischen „at.js“ und mbox.js bestehen einige Unterschiede. In diesem Abschni
 
    Da das DOM bei Seitenladeereignissen für Einzelseiten-Apps nicht gelöscht wird, wie das bei normalen Websites der Fall ist, werden die Aktionen „Element einfügen“ und „Neu anordnen“ möglicherweise mehrere Male angewendet, abhängig davon, wie sich der Besucher in der Einzelseiten-App bewegt.
 
-## Integrationen und Plug-ins   {#section_D92E31170176406AAC7B5005F03D3425}
+## Integrationen und Plug-ins {#section_D92E31170176406AAC7B5005F03D3425}
 
 Einige Funktionen von [!DNL mbox.js] stehen in [!DNL at.js] nicht zur Verfügung. Interne [„mbox.js“-Objekte und -Methoden](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (z. B. `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` und andere) werden in [!DNL at.js] nicht mehr unterstützt (Beispiel: `mboxFactoryDefault`). Dies ist beabsichtigt und soll verhindern, dass [!DNL at.js] für nicht unterstützte Funktionen manipuliert wird, was langfristig dazu führen kann, dass eine Implementierung beschädigt wird und eine Aktualisierung nicht mehr möglich ist. Die zulässigen Methoden werden im Abschnitt zu den APIs in dieser Dokumentation behandelt. Konsequenzen:
 
-* Ältere, seitenbasierte [Integrationen](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) mit anderen Adobe-Lösungen funktionieren möglicherweise nicht und sollten auf neue, serverseitige Integrationen aktualisiert werden.
+* Alte seitenbasierte [Integrationen](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) mit anderen Adobe-Lösungen funktionieren möglicherweise nicht und sollten auf aktuelle, Server-seitige Integrationen aktualisiert werden.
 * [Benutzerdefinierte, für „mbox.js“ entwickelte Plug-ins](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) funktionieren möglicherweise nicht, bis sie für [!DNL at.js] aktualisiert wurden.
 
    Stellen Sie sicher, dass Sie sämtliche [Plug-ins](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) in Ihre Tests einschließen.
