@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,17 +23,17 @@ Informationen, die bei der Entscheidung zwischen Recommendations Classic und Re
 >
 >Empfehlungs-Aktivitäten sind als Teil der [!DNL Target Premium]-Lösung verfügbar. Sie sind in [!DNL Target Standard] nicht ohne [!DNL Target Premium]-Lizenz verfügbar.
 
-Im klassischen [!DNL Recommendations]-Produkt wurden Empfehlungen durch Erstellen einer Datenerfassungs-Mbox auf einer Seite und anschließendes Hinzufügen einer Anzeige-Mbox an einem bestimmten Ort auf der Seite angezeigt. Die [!DNL Recommendations]-Aktivität in [!DNL Target Premium] ermöglicht es Ihnen, Besucherinformationen zu sammeln und Ihre Empfehlungen überall auf der Seite zu erstellen, ohne dass hierfür die Erstellung einer Mbox an jedem Ort, an dem Sie Produkte oder Inhalte empfehlen wollen, erforderlich ist. Ein einfacher JavaScript-Verweis im Header der Seite aktiviert Recommendations überall auf der Seite. Verwenden Sie diesen JavaScript-Verweis, um Schlüssel an die globale [!DNL Target]-Mbox zu übergeben, wie zum Beispiel die Schlüssel `entity.id` und `entity.categoryId`.
+Im klassischen [!DNL Recommendations]-Produkt wurden Empfehlungen durch Erstellen einer Datenerfassungs-Mbox auf einer Seite und anschließendes Hinzufügen einer Anzeige-Mbox an einem bestimmten Ort auf der Seite angezeigt. Die [!DNL Recommendations]-Aktivität in [!DNL Target Premium] ermöglicht es Ihnen, Besucherinformationen zu sammeln und Ihre Empfehlungen überall auf der Seite zu erstellen, ohne dass hierfür die Erstellung einer Mbox an jedem Ort, an dem Sie Produkte oder Inhalte empfehlen wollen, erforderlich ist. Ein einfacher JavaScript-Verweis im Header der Seite aktiviert Empfehlungen überall auf der Seite. Verwenden Sie diesen JavaScript-Verweis, um Schlüssel an die globale [!DNL Target]-Mbox zu übergeben, wie zum Beispiel die Schlüssel `entity.id` und `entity.categoryId`.
 
 [!DNL Recommendations Classic] erscheint als eigene Karte in der [!DNL Experience Cloud]-Benutzeroberfläche. Eine [!DNL Recommendations]-Aktivität steht im [!DNL Target Premium]-Arbeitsablauf zur Verfügung.
 
-[!DNL Recommendations Classic]-Benutzer können weiterhin ihre [!DNL Recommendations]-mboxes in [!DNL Target Recommendations] verwenden. Sie können auch die Classic- und [!DNL Target]-Vorgehensweisen kombinieren, indem sie ihre Mboxes beibehalten und den JavaScript-Code im Header verwenden, um die [!DNL Recommendations]-Funktionalität für die anderen Elemente auf der Seite zu aktivieren. Um jedoch die volle [!DNL Target]-Funktionalität zu erhalten, sollten [!DNL Recommendations Classic]-Benutzer ihre alte mbox löschen und sich allein auf [!DNL Target Recommendations] verlassen.
+[!DNL Recommendations Classic]-Benutzer können weiterhin ihre [!DNL Recommendations]-Mboxes in [!DNL Target Recommendations] verwenden. Sie können auch die klassische und die [!DNL Target]-Vorgehensweisen kombinieren, indem sie ihre Mboxes beibehalten und den JavaScript-Code im Header verwenden, um die [!DNL Recommendations]-Funktionalität für die anderen Elemente auf der Seite zu aktivieren. Um jedoch die volle [!DNL Target]-Funktionalität zu erhalten, sollten [!DNL Recommendations Classic]-Benutzer ihre alte Mbox löschen und sich allein auf [!DNL Target Recommendations] verlassen.
 
 Die [!DNL Recommendations]-Aktivität in [!DNL Target] wird in [!DNL Recommendations Classic] in den folgenden Hauptbereichen verbessert:
 
 ## Empfehlungen als Angebot
 
-Sie können Empfehlungen in [!UICONTROL A/B-Tests] (einschließlich [!UICONTROL automatisierter Zuordnung] und [!UICONTROL automatisches Targeting]) und [!UICONTROL Erlebnis-Targeting] (XT) einbeziehen.
+Sie können Empfehlungen in [!UICONTROL A/B-Tests] (einschließlich [!UICONTROL Automatisierter Zuordnung] und [!UICONTROL Automatischem Targeting]) und [!UICONTROL Erlebnis-Targeting] (XT) einbeziehen.
 
 Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 
@@ -61,10 +61,10 @@ Weitere Informationen zur Verwendung und Erstellung von Kriterien finden Sie unt
 Der [!DNL Recommendations]-Arbeitsablauf wurde vereinfacht. Anstatt komplizierte Formulare auszufüllen, folgen Sie einem visuellen Arbeitsablauf, um:
 
 1. die Kriterien auszuwählen,
-1. einen vorkonfigurierten  [Entwurf](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)auszuwählen,
+1. einen vorkonfigurierten [Entwurf](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)auszuwählen,
 1. die resultierenden Empfehlungen in der Vorschau zu betrachten.
 
-## Visuelle Vorschau   {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Visuelle Vorschau {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Sie können Ihre Empfehlungen in einer Vorschau anzeigen, nachdem Sie diese eingerichtet haben, und alle notwendigen Änderungen vornehmen, ohne dass Sie diese auf der Seite erstellen und die Seite dann zum Testen verlassen müssen. Die Vorschau steht in [!DNL Target] zur Verfügung.
 
