@@ -7,8 +7,8 @@ solution: Target
 title: Umleitungsangebote – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
-translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,17 +27,17 @@ Ihre Implementierung muss folgende Mindestanforderungen erfüllen:
 
 * Experience Cloud-Besucher-ID-Service: [!DNL visitorAPI.js], Version 2.3.0 oder neuer.
 * Adobe Analytics: [!DNL appMeasurement.js] Version 2.1.
-* Adobe Target: [!DNL at.js] Version 1.6.2 oder höher.
+* Adobe Target: [!DNL at.js], Version 1.6.2 oder neuer.
 
    Die [!DNL mbox.js] Bibliothek unterstützt keine Umleitungsangebote in A4T. Ihre Implementierung muss [!DNL at.js] verwenden.
 
 Die drei Bibliotheken müssen sowohl auf der Seite mit dem Weiterleitungsangebot als auch auf der Seite, auf die der Besucher umgeleitet wird, enthalten sein.
 
-## Warum gibt es manchmal Datendiskrepanzen zwischen A 4 T und Analytics?
+## Warum gibt es manchmal Datendiskrepanzen zwischen A4T und Analytics?
 
-Es werden einige Datendiskrepanzen erwartet. Weitere Informationen finden Sie unter [Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und nicht mit A 4 T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+Es werden einige Datendiskrepanzen erwartet. Weitere Informationen finden Sie unter [Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
-## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt?   {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 Es besteht die Möglichkeit, dass eine Wettlaufsituation auftritt, die dazu führen kann, dass der Analytics-Aufruf ausgelöst wird, bevor die Weiterleitung auf der ersten Seite ausgeführt wird. Dies kann dazu führen, dass die Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt werden. Diese Situation führt zu einem zusätzlichen Seitenaufruf auf der ersten Seite, selbst wenn der Besucher diese erste Seite nie wirklich „gesehen“ hat.
 
@@ -49,7 +49,7 @@ Es wird empfohlen, den formularbasierten Composer zum Erstellen einer Redirect-A
 
 Weitere Informationen zu diesem Problem finden Sie in der Spalte „Weiterleitungsangebote“ in der Tabelle [Bekannte Probleme](../../../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541).
 
-## Kann ich Umleitungsangebote in A4T nutzen, wenn ich die mbox.js JavaScript-Bibliothek verwende? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
+## Kann ich Umleitungsangebote in A4T nutzen, wenn ich die JavaScript-Bibliothek mbox.js verwende? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
 Die [!DNL mbox.js] Bibliothek unterstützt keine Umleitungsangebote in A4T. Ihre Implementierung muss [!DNL at.js] verwenden.
 
@@ -70,7 +70,7 @@ Die folgenden Abfrage String-Parameter sind Umleitungsangeboten zugeordnet:
 
 Diese Parameter werden automatisch zu den Umleitungs-URLs hinzugefügt, wenn die integrierten Umleitungsangebote in VEC und in Form-Based Experience Composer verwendet werden, wenn der Besucher-ID-Service auf der Seite implementiert ist. Wenn Sie Ihren eigenen benutzerdefinierten Code in VEC und in Form-Based Experience Composer verwenden, müssen Sie sicherstellen, dass Sie diese Parameter mit Ihrem benutzerdefinierten Code weitergeben.
 
-## Meine Webserver entfernen diese Parameter aus meinen URLs, was soll ich tun?   {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Meine Webserver entfernen diese Parameter aus meinen URLs, was soll ich tun? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 Sie müssen diese Parameter (`adobe_mc_sdid` und `adobe_mc_ref`) mit Ihrem IT-Team zusammen gesondert zulassen.
 
