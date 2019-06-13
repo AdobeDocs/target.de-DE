@@ -8,8 +8,8 @@ subtopic: Multivarianz-Test
 title: Fehlerbehebung bei der Analytics- und Target-Integration (A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
-translation-type: tm+mt
-source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -40,7 +40,7 @@ Manchmal werden Daten korrekt in Berichten angezeigt, dann jedoch erneut als „
 >
 >Daten, die als „unspezifisch“ eingestuft werden, gehen nicht verloren. Die Daten werden nach erfolgreicher Classification den entsprechenden Aktivitäten oder Erlebnissen zugeordnet.
 
-## In meinen Analytics-Daten tauchen zu hohe Besucherzahlen auf, seit ich A4T verwende.   {#section_4BE374E573D44FB7918611699B74F58E}
+## In meinen Analytics-Daten tauchen zu hohe Besucherzahlen auf, seit ich A4T verwende. {#section_4BE374E573D44FB7918611699B74F58E}
 
 Weitere Informationen finden Sie unter [Minimieren überhöhter Besuchs- und Besucherzahlen in A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
@@ -48,7 +48,7 @@ Weitere Informationen finden Sie unter [Minimieren überhöhter Besuchs- und Bes
 
 Steigerungs- und Vertrauensdaten sind in Analytics nicht verfügbar. Sie stehen jedoch in den Target-Berichten zur Verfügung.
 
-## Aktivitäten erscheinen nicht in Analytics-Berichten.   {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Aktivitäten erscheinen nicht in Analytics-Berichten. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 Für A4T-Aktivitäten ist ein Trackingserver erforderlich, der zuvor festgelegt werden muss. Weitere Informationen zu diesem Thema finden Sie unter [Verwenden eines Analytics-Trackingservers](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) zur Überprüfung der korrekten Einrichtung Ihres Analytics-Trackingservers.
 
@@ -56,7 +56,7 @@ Für A4T-Aktivitäten ist ein Trackingserver erforderlich, der zuvor festgelegt 
 >
 >Sollten Sie Adobe Analytics als Berichtsquelle für Ihre Aktivität verwenden, müssen Sie bei der Erstellung einer Aktivität und bei der Verwendung von mbox.js Version 61 (oder neuer) oder at.js Version 0.9.1 (oder neuer) keinen Trackingserver angeben. Die Bibliothek von mbox.js oder at.js sendet automatisch Trackingserverwerte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
 
-## Meine Analytics-Segmente werden nicht in Target angezeigt.   {#section_DEE87F1557834F448E99381D3D02EEEF}
+## Meine Analytics-Segmente werden nicht in Target angezeigt. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Vergewissern Sie sich, dass Sie entsprechende Berechtigungen haben, bevor Sie A4T-Aktivitäten erstellen:
 
@@ -64,13 +64,13 @@ Vergewissern Sie sich, dass Sie entsprechende Berechtigungen haben, bevor Sie A4
 * Sie müssen Mitglied in mindestens einer Experience Cloud-Gruppe sein, die Zugriff auf Analytics und Target hat.
 * Überprüfen Sie, ob Analytics und Target im Abschnitt Marketing-Apps in der linken Navigation angezeigt wird.
 
-## Absprungraten, Absprünge und Ausstiegsmetriken erscheinen in Berichten als positiv.   {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Absprungraten, Absprünge und Ausstiegsmetriken erscheinen in Berichten als positiv. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Dieses Problem ist bekannt.
 
 Obwohl diese Metriken negativ sind, wird die Steigerung in den Target-Berichten als positiv gezeigt. Beispiel: Obwohl Sie eine geringere Absprungrate wünschen, wird die höhere Absprungrate als Gewinner mit der höchsten Steigerung angezeigt. Wenn Sie Entscheidungen auf Basis Ihrer Berichte treffen, müssen Sie auf diese und ähnliche Metriken achten und darauf, ob Sie diese Zahlen senken oder erhöhen möchten.
 
-## Die benötigte Report Suite wird nicht angezeigt.   {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## Die benötigte Report Suite wird nicht angezeigt. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
 Die Liste der Report Suites, die in Target Standard/Premium angezeigt wird, ist die Liste der Report Suites, die für Analytics als Berichtsquelle für Target konfiguriert wurden. Das bedeutet, dass Sie möglicherweise nicht alle vorhandenen Report Suites sehen. Wenn Sie die Report Suite, nach der Sie suchen, nicht sehen, sollten Sie den Kundendienst kontaktieren und sie aktivieren lassen.
 
