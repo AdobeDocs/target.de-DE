@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Unterstützte Browser
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
-translation-type: tm+mt
-source-git-commit: 17064ec4b3816f040f17277f5efc81f4eec9a3cc
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -26,7 +26,7 @@ Die [!DNL [!DNL Target]]-Standard/Premium]-Benutzeroberfläche unterstützt folg
 
 | Gerätetyp | Browser-Version |
 |--- |--- |
-| Windows | <ul><li>Microsoft Internet Explorer 11.<br>**Hinweis:** [!DNL Target] und die Adobe Marketing Cloud stellen die Unterstützung von Microsoft Internet Explorer 11 ab März 2019 ein. Diese Änderung betrifft nur das [!DNL Target]-Authoring. Diese Änderung wirkt sich nicht auf die Bereitstellung von Erlebnissen aus. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser.</li><li>Microsoft Edge</li><li>Google Chrome (neueste Version, neueste Version minus 1)</li><li>Mozilla Firefox (neueste Version, neueste Version minus 1)</li></ul> |
+| Windows | <ul><li>Microsoft Internet Explorer 11.<br>**Hinweis:** [!DNL Target] und die Adobe Experience Cloud stellen die Unterstützung von Microsoft Internet Explorer 11 ab März 2019 ein. Diese Änderung betrifft nur das [!DNL Target]-Authoring. Diese Änderung wirkt sich nicht auf die Bereitstellung von Erlebnissen aus. Bitte wechseln Sie zu Microsoft Edge oder einem anderen unterstützten Browser.</li><li>Microsoft Edge</li><li>Google Chrome (neueste Version, neueste Version minus 1)</li><li>Mozilla Firefox (neueste Version, neueste Version minus 1)</li></ul> |
 | Mac | <ul><li>Firefox (neueste Version, neueste Version minus 1)</li><li>Chrome (neueste Version, neueste Version minus 1)</li></ul> |
 
 ## Inhaltsbereitstellung {#section_1045A946056441268D40025529918D3D}
@@ -35,13 +35,13 @@ Die Inhaltsbereitstellung wurde für folgende Browser und Geräte getestet:
 
 | Gerätetyp | Browser-Version |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 und 10. Im Emulationsmodus getestet.<br>**Hinweis:** at.js 1.3.0 (und neuer) unterstützt nun nicht mehr die Inhaltsbereitstellung für Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (neueste Version, neueste Version minus 1)</li><li>Firefox (neueste Version, neueste Version minus 1)</li></ul> |
-| Mac | <ul><li>Apple Safari (neueste Version)<br>**Hinweis:** Weitere Informationen dazu, wie Safari mit Erst- und Drittanbieter-Cookies umgeht, finden Sie unter [Target-Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (neueste Version, neueste Version minus 1)</li><li>Chrome (neueste Version, neueste Version minus 1)</li></ul> |
+| Windows | <ul><li>Internet Explorer 9 und 10. Im Emulationsmodus getestet.<br>**Hinweis**: at.js 1.3.0 (und neuer) unterstützt nun nicht mehr die Inhaltsbereitstellung für Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (neueste Version, neueste Version minus 1)</li><li>Firefox (neueste Version, neueste Version minus 1)</li></ul> |
+| Mac | <ul><li>Apple Safari (neueste Version)<br>**Hinweis**: Weitere Informationen dazu, wie Safari mit Erst- und Drittanbieter-Cookies umgeht, finden Sie unter [Target-Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (neueste Version, neueste Version minus 1)</li><li>Chrome (neueste Version, neueste Version minus 1)</li></ul> |
 | Mobiltelefon/Tablet | <ul><li>Apple iOS (neueste Version)</li><li>Android-Geräte und -Tablets (Android 4 und neuer)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 Bei [!DNL at.js]-Implementierungen werden in [!DNL Target] in älteren Versionen von Internet Explorer sowie möglicherweise in älteren Versionen der oben aufgeführten Browser Standardinhalte angezeigt. Bei [!DNL mbox.js]-Implementierungen versucht [!DNL Target], die Inhalte zu rendern, möglicherweise jedoch ohne Erfolg.
 
-[!DNL Target]In nicht oben aufgeführten Browsern sowie in Browsern im [Quirks-Modus](https://en.wikipedia.org/wiki/Quirks_mode) zeigt Standardinhalte an. Für at.js ist ein Dokumenttyp erforderlich, der im Standardmodus dargestellt wird, beispielsweise `<!DOCTYPE html>`.
+[!DNL Target] zeigt Standardinhalte in Browsern an, die nicht oben aufgeführt sind, sowie in Browsern mit [Quirks-Modus](https://de.wikipedia.org/wiki/Quirks-Modus). Für at.js ist ein Dokumenttyp erforderlich, der im Standardmodus dargestellt wird, beispielsweise `<!DOCTYPE html>`.
 
 >[!NOTE]
 >
