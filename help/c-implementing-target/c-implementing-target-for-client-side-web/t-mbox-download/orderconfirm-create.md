@@ -7,8 +7,8 @@ solution: Target
 subtopic: Erste Schritte
 title: Erstellen einer Mbox für Auftragsbestätigungen – mbox.js
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
-translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,7 +25,7 @@ Mit der Mbox für Auftragsbestätigungen werden Informationen zu Bestellungen au
 >
 >Sie können eine Auftragsbestätigungs-Mbox für auch mit dieser Methode erstellen, die [!DNL at.js]-Methode wird jedoch empfohlen. Weitere Informationen finden Sie unter [Konversions-Tracking](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
 
-1. Fügen Sie auf Ihrer Bestellungsdetailseite das Mbox-Skript ein. Befolgen Sie dabei das folgende Modell: 
+1. Fügen Sie auf Ihrer Bestellungsdetailseite das Mbox-Skript ein. Befolgen Sie dabei das folgende Modell:
 1. Ersetzen Sie die WORTE IN GROSSBUCHSTABEN entweder durch dynamische oder statische Werte aus Ihrem Katalog.
 
    >[!NOTE]
