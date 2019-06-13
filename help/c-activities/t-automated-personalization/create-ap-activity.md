@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -30,6 +30,10 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 1. Klicken Sie zum Verwenden von Visual Experience Composer (VEC) auf **[!UICONTROL Visuell (Standard)]**.
 
    Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie **[!UICONTROL Formular aus]**. Weitere Informationen zu beiden Composern finden Sie unter [Erlebnisse](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+
+   >[!NOTE]
+   >
+   >Zusätzlich zum VEC und Form-Based Experience Composer bietet Target die Einzelseitenanwendung VEC und VEC für mobile Apps an. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
 
 1. Überprüfen Sie die Aktivitäts-URL bzw. geben Sie sie ein und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
