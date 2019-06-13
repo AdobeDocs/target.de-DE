@@ -4,14 +4,14 @@ keywords: Empfehlungen; Einstellungen; Name; Ziel; Priorität; Dauer; Berichters
 seo-description: Es können verschiedene Einstellungen verwendet werden, um eine Recommendations-Aktivität zu beschreiben und zu steuern.
 seo-title: Einstellungen für Recommendations-Aktivitäten
 solution: Target
-subtopic: 'Recommendations '
+subtopic: Recommendations
 title: Einstellungen für Recommendations-Aktivitäten
 title-outputclass: premium
 topic: Premium
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -59,7 +59,7 @@ Legen Sie die Dauer der Aktivität fest.
 
 Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
-## Berichterstellungseinstellungen  
+## Berichterstellungseinstellungen
 
 * **Ziel:** Benennen Sie das Ziel und wählen Sie die Erfolgsmetrik aus, die festlegt, ob eine Aktivität erfolgreich ist.
 * **Zusätzliche Metriken:** Konfigurieren Sie weitere Erfolgsmetriken zur Verwendung in Ihren Berichten.
