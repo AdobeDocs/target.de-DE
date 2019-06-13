@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Klick-Tracking
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
-translation-type: tm+mt
-source-git-commit: 4af5c367d292524d508eae6e535dd0925b2f9013
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -41,15 +41,15 @@ Wenn ein Aktivitätsteilnehmer auf ein ausgewähltes Element klickt, wird dieser
 
 Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 
-* Die DOM-Pfad-Funktion steht beim Einrichten der Klick-Tracking zur Verfügung. Wenn Sie auf ein Element auf der Seite klicken, wird das VEC-Optionsmenü angezeigt. Darüber hinaus wird der entsprechende DOM-Pfad unten auf der Seite angezeigt. Sie können den DOM-Pfad verwenden, um Informationen über das ausgewählte Element (Typ, ID und Klasse) schnell anzuzeigen und den DOM-Pfad nach oben oder unten zu verschieben, um das gewünschte Element auszuwählen.
+* Die DOM-Pfad-Funktion steht beim Einrichten des Klick-Tracking zur Verfügung. Wenn Sie auf ein Element auf der Seite klicken, wird das VEC-Optionsmenü angezeigt. Darüber hinaus wird der entsprechende DOM-Pfad unten auf der Seite angezeigt. Sie können den DOM-Pfad verwenden, um Informationen über das ausgewählte Element (Typ, ID und Klasse) schnell anzuzeigen und den DOM-Pfad nach oben oder unten verschieben, um das gewünschte Element auszuwählen.
 
-   ![DOM-Pfadillustration](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+   ![DOM-Pfad-Illustration](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   Wie beim Erstellen von Erlebnissen in Schritt 1 im Arbeitsablauf für die Aktivitätserstellung können Sie mit der DOM-Pfadauswahl am unteren Seitenrand ein Element auswählen. Wenn Sie ein Element aus dem DOM-Pfad auswählen, wird das entsprechende Element in VEC als &quot;Ausgewählt&quot; angezeigt. Um die Auswahl eines ausgewählten Elements aufzuheben, können Sie erneut auf das Element in der DOM-Pfadauswahl klicken oder im VEC auf das Feld &quot;Ausgewählt&quot; klicken.
+   Wie beim Erstellen von Erlebnissen in Schritt 1 im Arbeitsablauf für die Aktivitätserstellung können Sie mit der DOM-Pfadauswahl am unteren Seitenrand ein Element auswählen. Wenn Sie ein Element aus dem DOM-Pfad auswählen, wird das entsprechende Element in VEC als „Ausgewählt“ angezeigt. Um die Auswahl eines ausgewählten Elements aufzuheben, können Sie erneut auf das Element in der DOM-Pfadauswahl klicken oder im VEC auf das Feld „Ausgewählt“ klicken.
 
-   Weitere Informationen finden Sie unter [Navigate elements using the DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer Options*.
+   Weitere Informationen finden Sie unter [Navigate elements using the DOM path (In Elementen über den DOM-Pfad navigieren)](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer–Optionen*.
 
-* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der  [Mehrseiten-Funktion](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) in die Aktivität aufgenommen werden, und [!DNL at.js] oder [!DNL mbox.js] muss darin implementiert werden.
+* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der [Mehrseiten-Funktion](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) in die Aktivität aufgenommen werden, und [!DNL at.js] oder [!DNL mbox.js] muss darin implementiert werden.
 * Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzeln Erfolgsmetriken für sie festlegen.
 * Achten Sie darauf, die Ebene des Elements auszuwählen, die Sie verfolgen möchten. Wenn Sie zum Beispiel eine Schaltfläche angeben möchten, achten Sie darauf, den Link und nicht den Schaltflächentext auszuwählen.
 * Klickereignisse werden auf derselben Seite des Klicks an [!DNL Target] gesendet.
@@ -58,7 +58,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 
    | Zeichen | Beschreibung |
    |---|---|
-   | Nr. | Raute  oder Hash |
+   | # | Raute oder Hash |
    | : | Doppelpunkt |
    | . | Zeitraum |
    | $ | Dollarzeichen |
@@ -80,7 +80,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
       * `FORM`-Tag: Das Standard-Verhalten ist es, das Formular zu übermitteln.
    Bei diesem Standardverhalten kommt es möglicherweise zu Konflikten mit Analytics-Klick-Tracking. Wenn Sie Analytics verwenden, sollten Sie das Klick-Tracking über Analytics ausführen, und nicht über Target.
 
-* Klick-Tracking wird nicht auf Seiten aufgezeichnet, auf denen die Seite und die Aktivitäts-URL zu unterschiedlichen Eigenschaften gehören. Unternehmensberechtigungen sind eine Target Premium-Funktion. Weitere Informationen finden Sie unter [Enterprise-Benutzerberechtigungen](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+* Klick-Tracking wird nicht auf Seiten aufgezeichnet, wo die Seite und die Aktivitäts-URL zu unterschiedlichen Präsenzen gehören. Berechtigungen für Unternehmensbenutzer sind eine Target Premium-Funktion. Weitere Informationen finden Sie unter [Berechtigungen für Unternehmensbenutzer](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 ## Schulungsvideo {#section_36607204DAE146E3B8E2C609D244EDB1}
 
