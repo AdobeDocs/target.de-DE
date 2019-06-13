@@ -1,23 +1,23 @@
 ---
-description: Informationen darüber, wie at. js 2. x und at. js 1. x Cookies verarbeiten
+description: Informationen darüber, wie at.js 2.x und at.js 1.x Cookies verarbeiten
 keywords: at.js;2.0;1.x;Cookies
-seo-description: Details zur Handhabung von Cookies durch Adobe Target at. js 2. x und at. js 1. x
+seo-description: Informationen darüber, wie Adobe Target at.js 2.x und at.js 1.x Cookies verarbeiten
 seo-title: Adobe Target at.js-Cookies
 solution: Target
 subtopic: Erste Schritte
 title: „at.js“-Cookies
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 3b2b8706ed23dd00fb7d0994e830ab8d4f492384
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # „at.js“-Cookies {#at-js-cookies}
 
-Informationen zu at. js 2. x und at. js 1.*x*.
+Informationen zum Cookie-Verhalten von at.js 2.x und at.js 1.*x*.
 
-## Verhalten von &quot;at. js 2. x&quot; -Cookies
+## Cookie-Verhalten von at.js 2.x
 
 Für at.js, Version 2.0.0, werden *nur Erstanbieter-Cookies unterstützt*. Genau wie in at.js 1.*x* wird das Erstanbieter-Cookie, „mbox“, unter `clientdomain.com` gespeichert, wobei `clientdomain` Ihre Domäne ist.
 
@@ -31,11 +31,11 @@ Domänenübergreifendes Tracking ermöglicht die Anzeige von Sitzungen auf zwei 
 
 In at.js 1.*x* wurde das Drittanbieter-Cookie in der `[CLIENTCODE].tt.omtrdc.net`-Domäne gespeichert, während das Erstanbieter-Cookie in `clientdomain.com` gespeichert wurde. Die erste Anfrage gab HTTP-Antwort-Header zurück, die versuchten, Drittanbieter-Cookies namens `mboxSession` und `mboxPC` festzulegen. Eine Weiterleitungsanfrage wird zusammen mit einem zusätzlichen Parameter (`mboxXDomainCheck=true`) zurückgesendet. Wenn der Browser Drittanbieter-Cookies akzeptierte, enthält die Weiterleitungsanfrage diese Cookies und das Angebot wurde zurückgegeben. Dieser Arbeitsablauf war möglich, da at.js 1.*x* die HTTP GET-Methode verwendete.
 
-In at. js 2. x wird HTTP GET jedoch nicht mehr verwendet und stattdessen HTTP POST verwendet. HTTP POST wird jetzt über at.js verwendet, um JSON-Nutzlasten anstelle von Schlüssel-Wert-Parametern an die [!DNL Target]-Edge-Server zu senden. Das bedeutet, dass die Weiterleitungsanfrage zur Überprüfung, ob ein Browser Drittanbieter-Cookies unterstützt, jetzt nicht mehr funktioniert. Dies liegt daran, dass HTTP GET-Anfragen idempotent sind, während HTTP POST nicht idempotent ist und nicht willkürlich wiederholt werden darf.
+In at.js 2.x wird HTTP GET jedoch nicht mehr verwendet, stattdessen wird HTTP POST verwendet. HTTP POST wird jetzt über at.js verwendet, um JSON-Nutzlasten anstelle von Schlüssel-Wert-Parametern an die [!DNL Target]-Edge-Server zu senden. Das bedeutet, dass die Weiterleitungsanfrage zur Überprüfung, ob ein Browser Drittanbieter-Cookies unterstützt, jetzt nicht mehr funktioniert. Dies liegt daran, dass HTTP GET-Anfragen idempotent sind, während HTTP POST nicht idempotent ist und nicht willkürlich wiederholt werden darf.
 
-Deshalb werden in at. js 2.0.0 weder Drittanbieter-Cookies noch domänenübergreifendes Tracking unterstützt.
+Deshalb werden in at.js 2.0.0 weder Drittanbieter-Cookies noch domänenübergreifendes Tracking unterstützt.
 
-## Cookie-Verhalten von at.js 1.*x* {#at-js-1x-cookie-behavior}
+## at.js 1.*x* {#at-js-1x-cookie-behavior}
 
 Für at.js 1.*x* ist das Verhalten von Cookies davon abhängig, ob es sich um ein Erstanbieter-Cookie, ein Drittanbieter-Cookie mit Erstanbieter-Cookie oder nur um ein Drittanbieter-Cookie handelt.
 
@@ -132,7 +132,7 @@ Berücksichtigen Sie Folgendes:
 
 | Cookies | Details |
 |--- |--- |
-| Erstanbieter-Domänen | Dies ist die standardmäßige Implementierung für Target-Kunden.  Die „mbox“-Cookies werden in der Domäne des Kunden festgelegt. |
+| Erstanbieter-Domänen | Dies ist die standardmäßige Implementierung für Target-Kunden.  Die „Mbox“-Cookies werden in der Domäne des Kunden festgelegt. |
 | Drittanbieter-Tracking | Das Drittanbieter-Tracking stellt für Anwendungsfälle im Werbe- und Targeting-Bereich in Target und in Adobe Audience Manager (AAM) eine wichtige Komponente dar.  Für das Drittanbieter-Tracking sind siteübergreifende Techniken zur Skripterstellung erforderlich.  Target verwendet zwei Cookies, „mboxSession“ und „mboxPC“, die in der Domäne `clientcode.tt.omtrd.net` festgelegt sind. |
 
 ### Welchen Ansatz verfolgt Apple?
@@ -145,7 +145,7 @@ Von Apple (übersetzter Auszug):
 
 | Ansatz | Details |
 |--- |--- |
-| Intelligent Tracking Prevention | Weitere Informationen finden Sie unter [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/) auf der Website „WebKit Open Source Web Browser Engine“. |
+| Intelligent Tracking Prevention | Weitere Informationen finden Sie unter [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/) auf der Webkit Open Source Webbrowser Engine-Website. |
 | Cookies | Der Umgang mit Cookies in Safari:<ul><li>Drittanbieter-Cookies, die sich nicht auf einer Domäne befinden, auf die der Benutzer direkt zugreift, werden nie gespeichert. Dieses Verhalten ist nicht neu. Drittanbieter-Cookies werden in Safari bereits nicht unterstützt.</li><li>Drittanbieter-Cookies, die auf einer Domäne festgelegt sind, auf die der Benutzer direkt zugreift, werden nach 24 Stunden gelöscht.</li><li>Erstanbieter-Cookies werden nach 30 Tagen gelöscht, wenn die Klassifizierung der jeweiligen Erstanbieter-Domäne zeigt, dass Benutzer siteübergreifend verfolgt werden. Dies trifft möglicherweise auf große Unternehmen zu, die Benutzer online auf verschiedene Domänen weiterleiten. Apple hat sich bislang nicht dazu geäußert, wie genau solche Domänen klassifiziert werden oder wie eine Domäne bestimmen kann, ob sie laut ihrer Klassifizierung Benutzer siteübergreifend verfolgt.</li></ul> |
 | Maschinelles Lernen zur Identifikation von siteübergreifenden Domänen | Von Apple (übersetzter Auszug):<br>Machine Learning Classifier: Basierend auf den gesammelten Statistiken wird anhand eines maschinell lernenden Modells klassifiziert, welche privat registrierten Top-Level-Domains die Fähigkeit haben, Benutzer siteübergreifend zu verfolgen. Aus den zahlreichen gesammelten Statistiken haben sich drei Vektoren hervorgehoben, die einen starken Indikator für die Classification anhand aktueller Tracking-Vorgehensweisen darstellen: „Teilressource unter Anzahl der eindeutigen Domänen“, „Subframe unter Anzahl der eindeutigen Domänen“ und „Anzahl der eindeutigen Domänen weitergeleitet an“. Die gesamte Datensammlung und Classification erfolgt auf dem Gerät.<br>Wenn der Benutzer jedoch mit example.com als Top-Domäne (häufig als Erstanbieter-Domäne bezeichnet) interagiert, wird dies von Intelligent Tracking Prevention als Signal angesehen, dass der Benutzer an der Website interessiert ist. Das Verhalten von Intelligent Tracking Prevention wird vorübergehend wie in dieser Timeline dargestellt angepasst:<br>Wenn der Benutzer innerhalb der letzten 24 Stunden mit example.com interagiert hat, stehen die Cookies zur Verfügung, wenn es sich bei `example.com` um einen Drittanbieter handelt. Dies ermöglicht Anmeldeszenarien nach dem Schema „Mit meinem X-Konto bei Y anmelden“.<ul><li>Domänen, die als Top-Level-Domäne besucht werden, sind nicht betroffen. Seiten wie beispielsweise OKTA</li><li>Domänen, bei denen es sich um Sub-Domänen oder Subframes der aktuellen Seite handelt, werden über mehrere eindeutige Domänen hinweg identifiziert.</li></ul> |
 
@@ -154,4 +154,4 @@ Von Apple (übersetzter Auszug):
 | Betroffene Funktionalität | Details |
 |--- |--- |
 | Abmeldeunterstützung | Wegen der durch das WebKit von Apple bewirkten Änderungen am Tracking ist die Unterstützung für Ausschlüsse hinfällig.<br>Der Target-Ausschluss verwendet ein Cookie in der `clientcode.tt.omtrdc.net`-Domäne. Weitere Informationen finden Sie unter [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>Target unterstützt zwei Arten von Ausschlüssen:<ul><li>Einen pro Kunde (der Kunde verwaltet den Ausschluss-Link).</li><li>Einen über Adobe, der den Benutzer für alle Target-Funktionalität für alle Benutzer ausschließt.</li></ul>Beide Methoden verwenden den Drittanbieter-Cookie. |
-| Target-Aktivitäten | Kunden können die   [Profillebensdauer](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) für ihre Target-Konten auf bis zu 90 Tage festlegen. Das Problem ist, dass wenn die Profillebensdauer des Kontos länger als 30 Tage ist und das Erstanbieter-Cookie gelöscht wird, da die Domäne des Kunden als Tracking-Benutzer über mehrere Sites hinweg gekennzeichnet wurde, das Verhalten für Safari-Besucher in Target wie folgt beeinflusst wird:<br>**Target-Berichte:** Wenn ein Safari-Benutzer eine Aktivität beginnt, nach 30 Tagen zurückkehrt und dann konvertiert, zählt dieser Benutzer als zwei Besucher und eine Konversion.<br>Dieses Verhalten gilt auch für Aktivitäten, die Analytics als Berichtsquelle nutzen (A4T).<br>**Profil und Aktivitätsmitgliedschaft**:<ul><li>Profildaten werden gelöscht, wenn das Erstanbieter-Cookie abläuft.</li><li>Die Aktivitätsmitgliedschaft wird gelöscht, wenn das Erstanbieter-Cookie abläuft.</li><li> Target funktioniert in Safari nicht bei Konten, die eine Implementation mit Drittanbieter-Cookie oder Erst- und Drittanbieter-Cookie verwenden. Beachten Sie, dass es sich dabei nicht um ein neues Verhalten handelt. Safari erlaubt schon seit einer Weile keine Drittanbieter-Cookies.</li></ul><br>**Vorschläge:** Wenn Sie befürchten, dass die Domäne des Kunden möglicherweise als Domäne markiert wird, die Besucher sitzungsübergreifend verfolgt, ist es am sichersten, die Profillebensdauer in Target auf 30 Tage oder weniger festzulegen. So wird sichergestellt, dass Benutzer in Safari und allen anderen Browsern auf ähnliche Weise verfolgt werden. |
+| Target-Aktivitäten | Kunden können die [Profillebensdauer](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) für ihre Target-Konten auf bis zu 90 Tage festlegen. Das Problem ist, dass wenn die Profillebensdauer des Kontos länger als 30 Tage ist und das Erstanbieter-Cookie gelöscht wird, da die Domäne des Kunden als Tracking-Benutzer über mehrere Sites hinweg gekennzeichnet wurde, das Verhalten für Safari-Besucher in Target wie folgt beeinflusst wird:<br>**Target-Berichte:** Wenn ein Safari-Benutzer eine Aktivität beginnt, nach 30 Tagen zurückkehrt und dann konvertiert, zählt dieser Benutzer als zwei Besucher und eine Konversion.<br>Dieses Verhalten gilt auch für Aktivitäten, die Analytics als Berichtsquelle nutzen (A4T).<br>**Profil und Aktivitätsmitgliedschaft**:<ul><li>Profildaten werden gelöscht, wenn das Erstanbieter-Cookie abläuft.</li><li>Die Aktivitätsmitgliedschaft wird gelöscht, wenn das Erstanbieter-Cookie abläuft.</li><li> Target funktioniert in Safari nicht bei Konten, die eine Implementation mit Drittanbieter-Cookie oder Erst- und Drittanbieter-Cookie verwenden. Beachten Sie, dass es sich dabei nicht um ein neues Verhalten handelt. Safari erlaubt schon seit einer Weile keine Drittanbieter-Cookies.</li></ul><br>**Vorschläge:** Wenn Sie befürchten, dass die Domäne des Kunden möglicherweise als Domäne markiert wird, die Besucher sitzungsübergreifend verfolgt, ist es am sichersten, die Profillebensdauer in Target auf 30 Tage oder weniger festzulegen. So wird sichergestellt, dass Benutzer in Safari und allen anderen Browsern auf ähnliche Weise verfolgt werden. |
