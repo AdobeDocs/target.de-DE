@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 badge: premium
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,11 +23,11 @@ Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Entwürfen.
 
 Die Kategorie-ID kann nicht in dem Entwurf angezeigt werden. Da mehrere Kategorien gespeichert werden können, kann das System nicht ermitteln, welche Kategorie angezeigt werden sollte.
 
-## Wie kann ich einen Entwurf so ändern, dass ein sofortiges Update erfolgt?   {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+## Wie kann ich einen Entwurf so ändern, dass ein sofortiges Update erfolgt? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
 Wenn Sie den aktuell verwendeten Entwurf ändern, erfolgt das entsprechende Update erst nach einiger Zeit. Wenn Sie den Entwurf sofort ändern möchten, erstellen Sie einen neuen Entwurf, wählen Sie diesen in der Kampagne aus und speichern Sie die Empfehlung.
 
-## Wie können wesentliche Informationen für eine Anzeige in dem Entwurf erfasst werden? Beispiel: Wenn die Kategorie des Schlüsselprodukts angezeigt werden soll, wie kann dieser Wert in dem Velocity-Entwurf codiert werden?   {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## Wie können wesentliche Informationen für eine Anzeige in dem Entwurf erfasst werden? Beispiel: Wenn die Kategorie des Schlüsselprodukts angezeigt werden soll, wie kann dieser Wert in dem Velocity-Entwurf codiert werden? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 Der Parameter `$key. *`Wert`*` erfasst die meisten Informationen des Schlüsselprodukts, die innerhalb des Entwurfs angezeigt werden. Beispiel: Wenn Sie die Miniaturansicht des Schlüsselprodukts anzeigen möchten, sollten Sie `$key.thumbnailURL` verwenden.
 
