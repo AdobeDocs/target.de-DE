@@ -7,8 +7,8 @@ solution: Target
 title: Remote-Angebote erstellen
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -82,5 +82,5 @@ Mit der Auswahlmatrix für Remote-Angebote können Sie entscheiden, welcher Typ 
 | Ladezeit | Schneller | Langsamer aufgrund Anforderungsverarbeitung |
 | JavaScript wird auf Seite angezeigt | Ja | Nein, aber kann per URL übergeben werden |
 | Angebote können JavaScript enthalten. | Ja | Nein |
-| Angebots-URL | Absolut      oder Relativ | Relativ |
+| Angebots-URL | Absolut oder Relativ | Relativ |
 | Anfordernder Computer | Adobe-Server | Der Computer des Besuchers, auf dem die Cookies des Besuchers gespeichert sind |
