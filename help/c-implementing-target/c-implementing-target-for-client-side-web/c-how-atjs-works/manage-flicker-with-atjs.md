@@ -1,25 +1,25 @@
 ---
-description: Informationen dazu, wie mit der JavaScript-Bibliothek „at.js“ beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
+description: Informationen dazu, wie mit der JavaScript-Bibliothek at.js beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
 keywords: flackern;Target Standard;at.js;Implementierung
-seo-description: Informationen dazu, wie mit der Adobe Target JavaScript-Bibliothek „at.js“ beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
+seo-description: Informationen dazu, wie mit der Adobe Target JavaScript-Bibliothek at.js beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
 seo-title: Verwaltung von Flackern mit Adobe Target at.js
 solution: Target
 title: Verwaltung von Flackern mit „at.js“
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Verwaltung von Flackern mit „at.js“{#how-at-js-manages-flicker}
 
-Informationen dazu, wie mit der JavaScript-Bibliothek „at.js“ beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
+Informationen dazu, wie mit der JavaScript-Bibliothek at.js beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
 
 Ein Flackern tritt dann auf, wenn Besuchern vorübergehend Standardinhalt angezeigt wird, bevor dieser durch den Inhalt der entsprechenden Aktivität ersetzt werden konnte. Das Auftreten eines solchen Flackerns ist nicht wünschenswert, da es die Besucher möglicherweise verwirrt.
 
-## Verwenden einer automatisch erstellten globalen mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
+## Verwenden einer automatisch erstellten globalen Mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
 Wenn Sie die Einstellung [Globale Mbox automatisch erstellen](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) bei der Konfigurierung von at.js aktivieren, reduziert at.js Flackern durch Ändern der Deckkrafteinstellung beim Laden der Seite. Wenn at.js geladen wird, wird die Deckkraft des <body> Elements auf „0“ gesetzt, wodurch die Seite für Besucher anfänglich unsichtbar gemacht wird. Nachdem die Antwort von Target eingeht oder ein Fehler in der Target-Anfrage erkannt wird, setzt at.js die Deckkraft wieder auf 1. So wird gewährleistet, dass der Besucher die Seite erst sieht, nachdem der Inhalt Ihrer Aktivitäten angewendet wurde.
 
@@ -29,9 +29,9 @@ Mit einer Deckkraft von 0 ist der Seiteninhalt nicht sichtbar, sodass Flackern 
 
 Wenn die Deckkraft von 0 in Ihrer Implementierung nicht funktioniert, können Sie Flackern auch verhindern, indem Sie `bodyHiddenStyle` anpassen und `body {visibility:hidden !important}` festlegen. Sie können entweder den Body-Wert `{opacity:0 !important`} oder `body {visibility:hidden !important}` verwenden, je nachdem, was in Ihrer Situation besser funktioniert.
 
-Die folgende Abbildung zeigt die Aufrufe „Hide Body“ und „Show Body“ sowohl in at.js 1.*x* und at. js 2. x.
+Die folgende Abbildung zeigt die Aufrufe „Hide Body“ und „Show Body“ sowohl in at.js 1.*x* als auch in at.js 2.x.
 
-**at. js 2. x**
+**at.js 2.x**
 
 ![Target-Ablauf: at.js-Seitenlade-Anfrage](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
@@ -103,9 +103,9 @@ Anstelle der Standardeinstellung:
 body {opacity: 0 !important}
 ```
 
-## Verwalten von Flackern in at. js 2. x für triggerview ()
+## Vermeiden von Flackern in at.js 2.x für triggerView()
 
-Wenn Sie `triggerView()` benutzen, um zielgerichtete Inhalte in Ihrer SPA anzuzeigen, wird das Flackern vorkonfiguriert gehandhabt. Das bedeutet, dass die Pre-hiding-Logik nicht manuell hinzugefügt werden muss. Stattdessen blendet at. js 2. x den Ort aus, an dem Ihre Ansicht angezeigt werden muss, bevor der zielgerichtete Inhalt angewendet wird.
+Wenn Sie `triggerView()` benutzen, um zielgerichtete Inhalte in Ihrer SPA anzuzeigen, wird das Flackern vorkonfiguriert gehandhabt. Das bedeutet, dass die Pre-hiding-Logik nicht manuell hinzugefügt werden muss. Stattdessen blendet at.js 2.x im Voraus den Ort aus, an dem Ihre Ansicht angezeigt werden muss, bevor der zielgerichtete Inhalt angewendet wird.
 
 ## Verhindern von Flackern mit getOffer() und applyOffer()
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Verwenden einer regionalen Mbox mit mboxcreate () in At. js 1. x (nicht unterstützt in &quot;at. js 2. x&quot; )
+## Verwenden einer regionalen Mbox mit mboxCreate() in at.js 1.x (in at.js 2.x nicht unterstützt)
 
 Wenn Sie eine regionale Mbox-Implementierung verwenden, können Sie mit `mboxCreate()` mit Ihrer Seite ähnlich dem folgenden Beispielcode arbeiten:
 
