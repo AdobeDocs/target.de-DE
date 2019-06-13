@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 badge: premium
-translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -36,7 +36,7 @@ Entsprechend diesem Behälterprozess werden Sicherungsempfehlungen in der folgen
 
 Ohne das Bucketing von Sicherungsempfehlungen ist es möglich, das 499. am häufigsten angezeigte Element, gefolgt vom 200. am häufigsten angezeigten Element, gefolgt vom 380. am häufigsten angezeigten Element usw. anzuzeigen. Das Bucketing stellt sicher, dass die am häufigsten angezeigten Elemente als Erstes angezeigt werden.
 
->[!NOTE] {class=&quot;- topic/note&quot;}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Wenn Sie Ihre Artikel in Katalogen gruppieren, verwenden die für jeden Algorithmus innerhalb der Empfehlung erzeugten Reserveempfehlungen ebenfalls den Katalog, sodass nur Artikel im Katalog in die Reserveempfehlung aufgenommen werden.
 
@@ -48,4 +48,4 @@ Duplikate werden aus Empfehlungen-Batches entfernt.
 
 Die Nutzung von Reserveempfehlungen ist normalerweise Gegenstand der Diskussion im Implementierungsteam während des ersten Setups. Wenn Sie die Einstellungen für die Reserveempfehlung ändern möchten, wenden Sie sich bitte an Ihren Kundenbetreuer.
 
-Wenn „Teilweises Design-Rendering aktivieren“ (siehe   [Ähnlichkeit von Inhalten](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) deaktiviert ist und die Vorlage nicht angezeigt wird, wird entweder die Reserveempfehlung oder der Standardinhalt angezeigt.
+Wenn „Teilweises Design-Rendering aktivieren“ (siehe [Ähnlichkeit von Inhalten](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) deaktiviert ist und die Vorlage nicht angezeigt wird, wird entweder die Reserveempfehlung oder der Standardinhalt angezeigt.
