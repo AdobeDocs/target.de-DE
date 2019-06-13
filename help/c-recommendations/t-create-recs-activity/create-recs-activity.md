@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
-translation-type: tm+mt
-source-git-commit: f2d5c7eafbdb21ff26d88b692266d0e43dae6744
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,7 +33,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    ![](assets/DB_NewRecAct.png)
 
-   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie diese Option aus. Weitere Informationen finden Sie unter [ Form-Based Experience Compose](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
+   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie diese Option aus. Siehe [Formularbasierter Erlebniseditor](https://marketing.adobe.com/resources/help/de_DE/target/target/t_form_experience_composer.html).
 
    Wenn Sie auf [!UICONTROL Weiter] klicken, wird Ihre Seite im VEC geöffnet. Sie können ein aktuelles Element durch Empfehlungen ersetzen oder Empfehlungen einfügen.
 
@@ -53,7 +53,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    >[!NOTE]
    >
-   >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, heben Sie die Auswahl für die Option **[!UICONTROL Kompatibel]auf.** Die Option [!UICONTROL Kompatibel] wird je nach Ihren Empfehlungs-Einstellungen ( **[!UICONTROL Empfehlungen]** &gt; **[!UICONTROL Einstellungen]** &gt; **[!UICONTROL Inkompatible Kriterien filtern]**) möglicherweise nicht angezeigt. Weitere Informationen finden Sie unter [Einstellungen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, heben Sie die Auswahl für die Option **[!UICONTROL Kompatibel]** auf. Die Option [!UICONTROL Kompatibel] wird je nach Ihren Empfehlungs-Einstellungen (**[!UICONTROL Empfehlungen]** &gt; **[!UICONTROL Einstellungen]** &gt; **[!UICONTROL Inkompatible Kriterien filtern]**) möglicherweise nicht angezeigt. Weitere Informationen finden Sie unter [Einstellungen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
    ![](assets/SCRN_SelectCriteria2.png)
 
@@ -69,7 +69,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 1. Entwurf auswählen.
 
-   Ein Entwurf ist eine Vorlage, die das Aussehen der Orte auf Ihrer Seite festlegt. [!DNL Target] enthält mehrere vorkonfigurierte Entwürfe. Sie können auch Ihre eigenen, benutzerdefinierten Entwürfe erstellen. Weitere Informationen finden Sie unter   [Erstellen eines Entwurfs](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) und [Anpassen eines Entwurfs](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Ein Entwurf ist eine Vorlage, die das Aussehen der Orte auf Ihrer Seite festlegt. [!DNL Target] enthält mehrere vorkonfigurierte Entwürfe. Sie können auch Ihre eigenen, benutzerdefinierten Entwürfe erstellen. Weitere Informationen finden Sie unter [Erstellen eines Entwurfs](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) und [Anpassen eines Entwurfs](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![](assets/Card_SelectDesign.png)
 
@@ -83,7 +83,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
-   Sie haben auch die Möglichkeit, Ihren Empfehlungen Promotions hinzuzufügen. Weitere Informationen über das Hinzufügen von Vorwärts- und Rückwärts-Promotions finden Sie unter   [Hinzufügen von Promotions](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   Sie haben auch die Möglichkeit, Ihren Empfehlungen Promotions hinzuzufügen. Weitere Informationen über das Hinzufügen von Vorwärts- und Rückwärts-Promotions finden Sie unter [Hinzufügen von Promotions](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Im Bildschirm „VEC“ wird das Empfehlungsdesign Ihrer Seite angezeigt.
@@ -139,6 +139,6 @@ Haben Sie die Vorschau der Empfehlungen abgeschlossen, klicken Sie auf **[!UICON
 * Code für Ihre Entwürfe ansehen
 
 1. (Optional) Öffnen Sie die Seite [!UICONTROL Berichte], um den Bericht anzusehen, der die Leistung Ihrer [!DNL Recommendations]-Aktivität anzeigt.
-1. (Optional) Öffnen Sie die Seite [!UICONTROL Kollisionen], um eventuell auftretende [Aktivitäten-Kollisionen](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html) anzuzeigen.
+1. (Optional) Öffnen Sie die Seite [!UICONTROL Kollisionen], um jegliche[Aktivitätskollisionen](https://marketing.adobe.com/resources/help/de_DE/target/target/c_activity_collisions.html) anzuzeigen, die möglicherweise eintreten können.
 
    Kollisionen von Aktivitäten treten auf, wenn mehrere Aktivitäten Inhalte auf derselben Seite bereitstellen sollen. Dies kann zur Darstellung unerwarteter Inhalte führen.
