@@ -8,8 +8,8 @@ title: Automated Personalization-Zusammenfassungsberichte
 title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 badge: premium
-translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -34,13 +34,13 @@ Für Benutzer der automatisierten Personalisierung stehen spezialisierte Bericht
 
 [!UICONTROL Automatisierte Personalisierung] liefert die folgenden Berichte:
 
-## Aktivitätsstufenbericht   {#section_6F72FC5C790B4492B3DCECBFFA971337}
+## Aktivitätsstufenbericht {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
 Der Bericht [!UICONTROL Aktivitätsebene] vergleicht die Gesamtleistung beim Einsatz eines „[!UICONTROL Automatisierte Personalisierung]“-Algorithmus mit zufällig bereitgestellten Inhalten (Kontrolle).
 
 ![](assets/box_plot_ap.jpg)
 
-Die Standardregeln für die Auswertung von A/B-Testergebnissen gelten weiterhin, einschließlich Steigerung, Konfidenz, Trends, Dauer und so weiter. Weitere Informationen zur Ergebnisauswertung finden Sie in   [Über die Konversionsrate](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)
+Die Standardregeln für die Auswertung von A/B-Testergebnissen gelten weiterhin, einschließlich Steigerung, Konfidenz, Trends, Dauer und so weiter. Weitere Informationen zur Ergebnisauswertung finden Sie in [Über die Konversionsrate](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)
 
 ## Angebotsstufenbericht {#section_CAA6409879E349C6906E2BE8156D87A1}
 
