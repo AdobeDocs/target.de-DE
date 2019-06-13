@@ -8,8 +8,8 @@ title: Bericht „Automatisierte Segmente“
 title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 badge: premium
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -114,7 +114,7 @@ Ein „automatisiertes Segment“ ist wie eine Zielgruppe, jedoch wird es statt 
 
 Ein automatisiertes Segment besteht aus bestimmten Werten (oder Wertbereichen) für spezifische Attribute. Ein Beispiel für automatisierte Segmente finden Sie oben in Schritt 5. Beachten Sie, dass sich Segmente überschneiden können.
 
-Weitere Informationen zum Random-Forest-Personalisierungsalgorithmus, der die Grundlage für die Target-Personalisierungsmodelle bildet, finden Sie unter   [Random Forest-Algorithmus](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Weitere Informationen zum Random-Forest-Personalisierungsalgorithmus, der die Grundlage für die Target-Personalisierungsmodelle bildet, finden Sie unter [Random Forest-Algorithmus](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
 **Wodurch wird die Reihenfolge der automatisierten Segmente festgelegt? **
 
@@ -142,7 +142,7 @@ Personalization Insights (sowohl [!UICONTROL „Automatisierte Segmente“] als 
 
 **Wie wird[!UICONTROL Personalization Insights]erstellt?**
 
-[!UICONTROL Personalization Insights wird mithilfe der patentierten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. ] Weitere Informationen über MAGIX finden Sie im veröffentlichten Text des Adobe-Forschungsteams in der [arXiv.org-Website](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights] wird mithilfe der patentierten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. Weitere Informationen über MAGIX finden Sie im veröffentlichten Text des Adobe-Forschungsteams in der [arXiv.org-Website](https://arxiv.org/abs/1706.07160).
 
 **Warum stimmt der Gesamtwert der Besuchertraffic-Daten im Bericht[!UICONTROL „Automatisierte Segmente“]nicht mit dem AP- oder AT-Zusammenfassungs- bzw. -Performancebericht überein?**
 
@@ -166,6 +166,6 @@ Zum jetzigen Zeitpunkt ist [!UICONTROL Personalization Insights] nur für Aktivi
 * Ermitteln Sie, welche Attribute in den Personalisierungsmodellen eingesetzt werden und wie wichtig sie sind.
 * Finden Sie Möglichkeiten für zusätzliche Datenpunkte, die Sie an Target übergeben können, um die Personalisierung weiter zu optimieren.
 
-**Gibt es eine Logik zur Reihenfolge, in der Attribute in einer Segmentkarte angezeigt werden?**
+**Gibt es eine Logik bei der Reihenfolge, in der Attribute in einer Segmentkarte angezeigt werden?**
 
-Nein, die Reihenfolge der Karten basiert nur auf einer Rangansicht. Die Reihenfolge der Attribute innerhalb einer Karte basiert auf keiner Logik.
+Nein, die Reihenfolge der Karten basiert nur auf einer Rangfolge, die oben beschrieben wurde. Die Reihenfolge der Attribute innerhalb einer Karte basiert auf keinerlei Logik.
