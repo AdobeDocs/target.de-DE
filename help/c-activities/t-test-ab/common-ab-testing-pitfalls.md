@@ -6,8 +6,8 @@ seo-title: Neun häufige Fehler bei A/B-Tests und wie diese vermieden werden
 solution: Target
 title: Neun häufige Fehler bei A/B-Tests und wie diese vermieden werden
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -74,7 +74,7 @@ Beachten Sie, dass Sie, wenn Sie das Angebot mit der höchsten Konversionsrate e
 
 Die Teststärke ist die Wahrscheinlichkeit, dass ein Test einen realen Unterschied zwischen den Konversionsraten von Angeboten erkennt. Aufgrund der zufälligen - auch als „stochastisch“ bezeichneten - Natur von Konversionsereignissen, kann es vorkommen, dass ein Test keinen statistisch signifikanten Unterschied zeigt, obwohl langfristig ein realer Unterschied der Konversionsrate zweier Angebote vorhanden ist. Sie können es Pech oder Zufall nennen. Wenn ein realer Unterschied der Konversionsrate nicht erkannt wird, wird dies als falsch-negatives Ergebnis oder als Fehler der 2. Art bezeichnet.
 
-Es gibt zwei Schlüsselfaktoren, die die Leistungsfähigkeit eines Tests festlegen. Der erste ist die Stichprobenumfang, d. h. die Anzahl der Besucher, die in den Test einbezogen werden. Der zweite ist die Größenordnung des Unterschieds in der Konversionsrate, die der Test ermitteln soll. Vielleicht ist es offensichtlich, aber wenn es Ihnen nur darum geht, große Unterschiede bei Konversionsraten zu erkennen, dann ist die Wahrscheinlichkeit, dass der Test diese großen Unterschiede tatsächlich erkennt, weitaus größer und sozusagen vergleichbar mit dem Erkennen eines Elefants in Ihrem Wohnzimmer im Vergleich zur Suche nach einer Fliege beim Blick durch eine Papierrolle. Je kleiner also der Unterschied ist, den Sie feststellen möchten, desto größer muss der Stichprobenumfang sein und desto mehr Zeit benötigen Sie, um den größeren Stichprobenumfang zu erhalten. 
+Es gibt zwei Schlüsselfaktoren, die die Leistungsfähigkeit eines Tests festlegen. Der erste ist die Stichprobenumfang, d. h. die Anzahl der Besucher, die in den Test einbezogen werden. Der zweite ist die Größenordnung des Unterschieds in der Konversionsrate, die der Test ermitteln soll. Vielleicht ist es offensichtlich, aber wenn es Ihnen nur darum geht, große Unterschiede bei Konversionsraten zu erkennen, dann ist die Wahrscheinlichkeit, dass der Test diese großen Unterschiede tatsächlich erkennt, weitaus größer und sozusagen vergleichbar mit dem Erkennen eines Elefants in Ihrem Wohnzimmer im Vergleich zur Suche nach einer Fliege beim Blick durch eine Papierrolle. Je kleiner also der Unterschied ist, den Sie feststellen möchten, desto größer muss der Stichprobenumfang sein und desto mehr Zeit benötigen Sie, um den größeren Stichprobenumfang zu erhalten.
 
 Die Marketingexperten von heute erzielen aus einer beachtlichen Anzahl an Tests keine optimale Leistung. Sie verwenden nämlich zu kleine Stichproben. Das führt dazu, dass sie eine kleine Chance haben, richtig-positive Ergebnisse zu erkennen, selbst wenn tatsächlich ein substanzieller Unterschied der Konversionsrate vorhanden ist. Wenn Sie ständig zu schwache Tests ausführen, kann die Anzahl der falsch-positiven Ergebnisse im Bereich oder sogar über der Anzahl der richtig-positiven Ergebnisse liegen. Dies führt häufig zur Implementierung neutraler Änderungen an einer Site (Zeitverschwendung) oder zu Änderungen, die die Konversionsraten sogar verringern.
 
@@ -148,7 +148,7 @@ Sehen Sie sich das folgende Beispiel an. Das Skiangebot generiert eine viel höh
 
 Um dieses Problem zu vermeiden, müssen Sie Ihre Geschäftsmetriken sorgfältig überwachen, um die Auswirkungen von Angeboten zu erkennen, oder besser noch möglichst eine Metrik verwenden, die näher an Ihren Geschäftszielen liegt.
 
-## Fazit: Erfolgreiche A/B-Tests durch Erkennen und Umgehen der Fallen   {#section_54D33248163A481EBD4421A786FE2B15}
+## Fazit: Erfolgreiche A/B-Tests durch Erkennen und Umgehen der Fallen {#section_54D33248163A481EBD4421A786FE2B15}
 
 Nachdem Sie jetzt die gängigen Fallstricke der A/B-Tests kennen, können Sie hoffentlich erkennen, wann und wo Sie diesen möglicherweise zum Opfer gefallen sind. Wir hoffen außerdem, dass wir Ihnen mehr Wissen zu einigen der Statistik- und Wahrscheinlichkeitskonzepten im Zusammenhang mit A/B-Tests vermitteln konnten, die sich häufig wie eine Domäne für Mathematiker anfühlen.
 
