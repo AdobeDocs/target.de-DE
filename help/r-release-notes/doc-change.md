@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,8 +21,13 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 14. Juni 2019 | [Erlebnis erstellen](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Text und Bilder aktualisiert. |
+| 14. Juni 2019 | [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md) | Verwendungsfall wurde hinzugefügt. |
 |  | [Erstellen einer Erlebnis-Targeting-Aktivität](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | Text und Bilder aktualisiert. |
+|  | XT: [Aktivitäts-URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | Text aktualisiert. |
+|  | XT: [Erlebnis erstellen](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Text und Bilder aktualisiert. |
+|  | [Wechseln von Erlebnissen in Erlebnis-Targeting](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | Text und Bilder aktualisiert. |
+|  | XT: [Ziele und Einstellungen](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | Text und Bilder aktualisiert. |
+|  | XT: [Metriken festlegen](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | Text und Abbildung aktualisiert. |
 | 13. Juni 2019 | [Bericht „Wichtige Attribute“](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Neue FAQ hinzugefügt: &quot; Warum erhalten einige Angebote/Erlebnisse mit einer niedrigeren Umrechnungsrate eine größere Traffic-Rate im Vergleich zu anderen Angeboten/Erlebnissen für ein bestimmtes automatisiertes Segment? « |
 |  | [Erstellen einer Automated Personalization-Aktivität](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Text und Bilder aktualisiert. |
 |  | [Schätzen des für einen erfolgreichen Test erforderlichen Traffics](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Neues Bild wurde hinzugefügt. |
