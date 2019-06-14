@@ -8,7 +8,7 @@ title: Erstellen einer Erlebnis-Targeting-Aktivität
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 ---
 
@@ -64,61 +64,14 @@ Verwenden Sie Visual [!UICONTROL Experience Composer] (VEC), um eine [!UICONTROL
    | `-` | Minus |
    | `@` | At-Zeichen |
 
-1. [Erstellen Sie neue Erlebnisse](../../../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00), indem Sie die Elemente auf der Seite ändern.
+1. Erstellen Sie neue Erlebnisse, indem Sie die Elemente auf der Seite ändern.
 
-
+   Schrittweise Anweisungen finden Sie unter [Erlebnis hinzufügen](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
 
    Standardmäßig gestattet der Visual Experience Composer das Ändern von Elementen mit JavaScript nicht (zum Beispiel sich drehende Banner). Sie können JavaScript deaktivieren, wenn Sie diese Elemente mit dem Visual Experience Composer ändern möchten.
 
-   >[!NOTE]
-   >
-   >Wenn Sie die URL ändern, nachdem Sie für ein oder mehrere Erlebnisse Änderungen auf der Seite vorgenommen haben, wird das Erlebnis bei der Verwendung der neuen Seite zurückgesetzt und die vorgenommenen Änderungen gehen verloren.
-
-   Wenn Sie den Mauszeiger über die Elemente auf Ihrer Seite bewegen, werden diese Elemente hervorgehoben. Alle hervorgehobenen Elemente können mit dem Experience Composer geändert werden.
+   Wenn Sie den Mauszeiger über die Elemente auf Ihrer Seite bewegen, werden diese Elemente hervorgehoben. Jedes hervorgehobene Element kann mithilfe des VEC geändert werden. Eine Liste der Aktionen, die für ein Element durchgeführt werden können, um das Erlebnis zu ändern, finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    Wenn Sie mit Target Classic (früher Test&amp;Target) eine Mbox auf der Seite erstellt haben, wird diese Mbox als Element mit dem Mbox-Namen angezeigt und kann wie jedes andere Element bearbeitet werden.
 
-   >[!NOTE]
-   >
-   >Wenn Sie ein Bild aus einer anderen Quelle als der Hauptseite bereitstellen (z. B. ein Bild, das auf akamei.net gehostet und auf dell.com bereitgestellt wird), wird das Bild nicht in der Miniaturansicht der Seite, die auf dem Flussdiagramm zu sehen ist, angezeigt.
-
-1. Klicken Sie auf **[!UICONTROL Weiter]**.
-
-   Das Flussdiagramm wird geöffnet.
-
-   ![](assets/xt_diagram.png)
-
-   Das Flussdiagramm führt Sie durch die Schritte zur Auswahl der Zielgruppe für die Aktivität und zum Einrichten der Erlebnisse.
-1. Bewegen Sie die Maus über die Zielgruppe, klicken Sie auf das daraufhin angezeigte **[!UICONTROL Bearbeitungssymbol]** (drei vertikale Ellipsen), klicken Sie auf **[!UICONTROL Zielgruppe ändern]** und wählen Sie dann die Zielgruppe für das erste Erlebnis in der Aktivität aus.
-
-   ![](assets/xt_change_audience.png)
-
-   Die Zielgruppenbibliothek wird angezeigt. Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. Sie können entweder eine Zielgruppe aus der Bibliothek auswählen oder [eine neue Zielgruppe erstellen](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). Wählen Sie „Alle Besucher“, um das gleiche Erlebnis für alle Teilnehmer anzuzeigen.
-
-   >[!NOTE]
-   >
-   >Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
-
-   Wenn Sie eine Zielgruppe erstellen, können Sie einen Standort (mbox) auswählen und Parameter für ihn festlegen. Wählen Sie unter „Benutzerdefinierte Parameter“ die Mbox und geben Sie dann die gewünschten Parameter an.
-
-   >[!NOTE]
-   >
-   >Zielgruppen werden automatisch im Hintergrund importiert, wenn Sie die Zielgruppenliste öffnen und die importierten Zielgruppen älter als 10 Minuten sind.
-
-   Sie können auf das [!UICONTROL Bearbeitungssymbol] (drei vertikale Ellipsen) und dann auf [!UICONTROL „Zielgruppe entfernen“] klicken, um eine vorhandene Zielgruppe zu entfernen.
-1. Klicken Sie auf **[!UICONTROL Erlebnis-Targeting hinzufügen]**.
-
-   >[!NOTE]
-   >
-   >Wenn Sie mit einem Erlebnis auf eine Zielgruppe abzielen, müssen Sie die Zielgruppe auswählen, bevor Sie ein Erlebnis hinzufügen können. Es wird eine Meldung angezeigt, um Sie an die Auswahl Ihrer Zielgruppe zu erinnern.
-
-1. (Optional) Klicken Sie auf **[!UICONTROL Hinzufügen]** und richten Sie zusätzliche Targeting-Erlebnisse ein.
-
-   ![](assets/xt_add_xt.png)
-
-   Klicken Sie auf **[!UICONTROL Weiter], wenn Sie diesen Schritt abgeschlossen haben.**
 1. Legen Sie [Ziele und Einstellungen](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) für die Aktivität fest.
-
-   ![](assets/xt_settings.png)
-
-1. Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**.
