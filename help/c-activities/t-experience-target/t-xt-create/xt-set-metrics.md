@@ -1,13 +1,13 @@
 ---
 description: Verwenden Sie in Erlebnis-Targeting (XT) Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
 keywords: Erlebnis-Targeting;XT;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
-seo-description: Verwenden Sie in Erlebnis-Targeting (XT) Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
+seo-description: Verwenden Sie Metriken in einer Adobe Target-Erlebnis-Targeting (XT)-Aktivität, um zu ermitteln, wann ein Besuch erfolgreich ist.
 seo-title: Festlegen von Metriken
 solution: Target,Standard
 title: Festlegen von Metriken
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,7 +21,7 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken
 1. Geben Sie das Ziel der Aktivität an.
 1. Wählen Sie eine [Erfolgsmetrik](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) aus.
 
-   ![](assets/ab_metrics.png)
+   ![Erfolgsmetrik auswählen](/help/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
    Auf der Seite [!UICONTROL Metriken auswählen] werden die Erfolgsmetriken, die Sie für Ihre Aktivität auswählen können, angezeigt. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
 
@@ -61,4 +61,4 @@ Dieses Video enthält Informationen zur Arbeit mit Erfolgsmetriken.
 * Verstehen und Erstellen von Metriken für Konversionen, Umsatz und Interaktion
 * Erstellen einer Metrik mit Klick-Tracking
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=ger)
