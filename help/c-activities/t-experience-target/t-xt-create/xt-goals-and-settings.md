@@ -7,8 +7,8 @@ solution: Target
 title: Ziele und Einstellungen
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -23,7 +23,7 @@ Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zie
 
 Welche Einstellungen verfügbar sind, hängt davon ab, ob Sie [!DNL Target] oder [!DNL Analytics] als Datenquelle verwenden.
 
-![](assets/ab_settings.png)
+![Seite &quot;Aktivitätseinstellungen «](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
 
 ## Aktivitätseinstellungen {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -64,7 +64,7 @@ Die folgenden Einstellungen sind verfügbar:
 
 ### Berichterstellungslösung
 
-Geben Sie an, ob die Daten von Adobe Target oder Adobe Analytics erfasst werden. Weitere Informationen zu den Unterschieden zwischen den Berichterstellungslösungen und deren Vorteilen finden Sie unter [Adobe Analytics als Berichtsquelle für Target](https://marketing.adobe.com/resources/help/de_DE/target/a4t/a4t.html).
+Geben Sie an, ob die Daten von Adobe Target oder Adobe Analytics erfasst werden. Informationen über die Unterschiede zwischen den Berichterstellungslösungen und deren jeweilige Vorteile finden Sie unter [Adobe Analytics als Berichterstellungsquelle für Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html).
 
 Wenn Sie Analytics als Berichtsquelle für Target auswählen, wählen Sie eine Analytics-Report Suite, um Target-Aktivitätsdaten zu empfangen. Wählen Sie dazu zunächst ein Analytics-Unternehmen aus, an das Ihr Konto gebunden ist, und wählen Sie anschließend die der Aktivität entsprechende Report Suite aus. Es stehen nur Report Suites, die für die Verbindung mit Adobe Target bereitgestellt werden, zur Auswahl zur Verfügung. Wenn nicht die erwarteten Report Suites angezeigt werden, versuchen Sie, sich bei Adobe Experience Cloud ab- und dann wieder anzumelden, und wiederholen Sie den Vorgang. Wenn die Report Suite weiterhin nicht in der Liste zu finden ist, wenden Sie sich an den Kundendienst.
 
@@ -76,7 +76,7 @@ Sollte in Ihren Kontoeinstellungen eine Berichterstellungslösung angegeben sein
 >
 >Sie können Ihre Berichtsquelle nach Liveschaltung einer Aktivität nicht mehr ändern, da die Berichte sonst nicht mehr konsistent wären.
 
-### Ziel
+### Zielmetrik
 
 Wählen Sie die Aktion, die von einem Besucher ergriffen wird, um das Ziel zu erreichen. Wählen Sie zum Beispiel eine Konversionsmetrik und stellen Sie dann die Parameter ein, anhand derer festgestellt wird, dass ein Erfolg erreicht wurde.
 
@@ -104,11 +104,15 @@ Standardmäßig zeigen Berichte Ergebnisse für alle qualifizierten Besucher. Si
 
 Diese Einstellung ist nicht verfügbar, wenn Sie Analytics als Berichterstellungslösung wählen. Die für die Analytics Report Suite definierten Zielgruppen werden angewendet.
 
+## Andere Metadaten
+
+Geben Sie sämtliche Informationen ein, die für Sie und Ihre Team-Mitglieder von Nutzen sind. Die Größe des Anmerkungen-Feldes kann geändert werden.
+
 ## Erweiterte Einstellungen {#section_E2FE441AFB324E498793ABB025ED9974}
 
 Erweiterte Einstellungen sind für Erlebnis-Targeting-Zielmetriken verfügbar.
 
-![](assets/Menu_AdvancedSettings.png)
+![Erweiterte Einstellungen](/help/c-activities/t-experience-target/t-xt-create/assets/Menu_AdvancedSettings-new.png)
 
 >[!NOTE]
 >
@@ -118,7 +122,7 @@ Die folgenden Einstellungen sind verfügbar:
 
 ### Welche Erfolgsmetrik muss erreicht werden, bevor diese Metrik erhöht wird?
 
-Verwenden Sie diese Option, um die Erfolgsmetrik nur dann als erreicht zu werten, wenn jemand vorher bereits eine andere Erfolgsmetrik erreicht hat. So kann eine Testkonversion nur dann gültig sein, wenn der Besucher das Angebot anklickt oder auf eine bestimmte Seite gelangt, bevor die Konversion erfolgt.
+Verwenden Sie diese Option, um die Erfolgsmetrik nur dann als erreicht zu werten, wenn jemand vorher bereits eine andere Erfolgsmetrik erreicht hat. Eine Testkonversion kann beispielsweise nur gültig sein, wenn der Besucher auf das Angebot klickt oder auf eine bestimmte Seite gelangt, bevor er konvertiert wird.
 
 Sie können für mehrere Metriken eine Abhängigkeit bereitstellen und die flexible Auswahl ermöglichen, ob die Metrik erreicht werden soll oder nicht, damit sich die Anzahl erhöht.
 
@@ -128,15 +132,14 @@ Mithilfe der Option Abhängigkeit hinzufügen kann die Erfolgsmetrik inkrementie
 
 So fügen Sie eine Abhängigkeit hinzu:
 
-1. Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf Erweiterte Einstellungen.
-2. Klicken Sie auf die Option Abhängigkeit hinzufügen:
+1. Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf **[!UICONTROL Erweiterte Einstellungen]**.
+2. Klicken **[!UICONTROL Sie auf Abhängigkeiten hinzufügen]**:
 
-   ![](assets/add_dependency.png)
+   ![Abhängigkeitslink hinzufügen](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. Verschieben Sie die gewünschte Metrik per Drag-and-drop vom linken Bereich in den rechten Bereich. Klicken Sie dann auf Erreicht, um die Einstellung zwischen Erreicht und Nicht erreicht zu wechseln.
 
-   ![](assets/add_dependency_reached.png)
-
+   ![Metrikabhängigkeitsabhängigkeiten hinzufügen](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
 
 Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben.
 
@@ -150,14 +153,6 @@ Es gibt drei Möglichkeiten, nachdem ein Besucher die Zielmetrik erreicht hat:
 
 Weitere Informationen zu erweiterten Einstellungen finden Sie unter [Erfolgsmetriken](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-## Sonstige Metadaten {#section_2E8917BEFB954480A4206B9E9E917F80}
-
-Die folgende Einstellung ist verfügbar:
-
-### Hinweise
-
-Geben Sie sämtliche Informationen ein, die für Sie und Ihre Team-Mitglieder von Nutzen sind. Die Größe des Anmerkungen-Feldes kann geändert werden.
-
 ## Schulungsvideo: Aktivitätseinstellungen (3:02)
 
 In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
@@ -168,4 +163,4 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ger)
