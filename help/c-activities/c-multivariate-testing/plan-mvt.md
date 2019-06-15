@@ -1,20 +1,20 @@
 ---
-description: Multivarianz-Tests müssen sorgfältig geplant werden, damit sie erfolgreich sind.
+description: Multivarianz-Tests in Adobe Target erfordern einige Planung, bevor Sie einen erfolgreichen Test erstellen können.
 keywords: Multivariater Test; MVT; MVT-Plan; Multivariater Testplan
-seo-description: Multivarianz-Tests müssen sorgfältig geplant werden, damit sie erfolgreich sind.
-seo-title: Planen eines Multivarianz-Tests.
+seo-description: Multivarianz-Tests in Adobe Target erfordern einige Planung, bevor Sie einen erfolgreichen Test erstellen können.
+seo-title: Planen eines Multivarianz-Tests in Adobe Target
 solution: Target
 title: Planen eines Multivarianz-Tests.
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 ---
 
 
 # Planen eines Multivarianz-Tests{#plan-a-multivariate-test}
 
-Multivarianz-Tests müssen sorgfältig geplant werden, damit sie erfolgreich sind.
+Multivarianz-Tests (MVT) in Adobe Target erfordern einige Planung, bevor Sie einen erfolgreichen Test erstellen können.
 
 Um sinnvolle Ergebnisse zu erzielen, ist bei Multivarianz-Tests ausreichender Traffic erforderlich. Vor der Einrichtung Ihres Tests sollten Sie sich über Ihr übliches Traffic-Aufkommen im Klaren sein, einschließlich der Anzahl der Impressionen und Konversionen. Die Verfügbarkeit dieser Information verringert die Wahrscheinlichkeit, dass Sie einen Test mit Anforderungen entwerfen, die den Traffic Ihrer Site überschreiten.
 
@@ -22,7 +22,7 @@ Es wird empfohlen, dass die Elemente unabhängig voneinander sind. (Testen Sie z
 
 Untersuchen Sie den HTML-Code für die Seiten, die Sie testen möchten. Stellen Sie sicher, dass die HTML-Elemente auf Ihrer Site keine doppelten DOM-IDs aufweisen. Doppelte IDs können dazu führen, dass derselbe Inhalt an mehr als einen Ort geliefert wird.
 
-Planen Sie den Test der Elemente auf Ihrer Seite, die mit großer Wahrscheinlichkeit signifikante Ergebnisse produzieren. Zum Beispiel führt ein Banner oder ein Heldenbild wahrscheinlich zu mehr Konversionen als eine Änderung der Fußzeile. Wenn Sie weniger einflussreiche Elemente mit in Ihren Test aufnehmen, erhöhen sich dadurch lediglich das Traffic-Aufkommen und die erforderliche Zeit zum Test der markanteren Elemente auf der Seite.
+Planen Sie den Test der Elemente auf Ihrer Seite, die mit großer Wahrscheinlichkeit signifikante Ergebnisse produzieren. Beispielsweise führt ein Banner oder ein Heldenbild wahrscheinlich zu mehr Konversionen als eine Änderung der Fußzeile. Wenn Sie weniger einflussreiche Elemente mit in Ihren Test aufnehmen, erhöhen sich dadurch lediglich das Traffic-Aufkommen und die erforderliche Zeit zum Test der markanteren Elemente auf der Seite.
 
 Schließlich sollten Sie vor der Erstellung Ihres Tests Inhalt erstellen, den Sie testen möchten. Machen Sie sich mit den unterschiedlichen Inhalten für jedes Angebot vertraut und erstellen Sie Bilder, Text und HTML-Angebote, die Sie wahrscheinlich im Test verwenden werden.
 
@@ -33,4 +33,4 @@ In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs 
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=ger)
