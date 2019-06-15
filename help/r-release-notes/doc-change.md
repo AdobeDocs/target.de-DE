@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 ---
 
@@ -21,6 +21,9 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 15. Juni 2019 | [Multivarianz-Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Kleinere Textänderungen wurden vorgenommen. |
+|  | [Best Practices für Multivarianz-Tests](/help/c-activities/c-multivariate-testing/best-practices.md) | Kleinere Textänderungen wurden vorgenommen. |
+|  | [Planen eines Multivarianz-Tests](/help/c-activities/c-multivariate-testing/plan-mvt.md) | Kleinere Textänderungen wurden vorgenommen. |
 | 14. Juni 2019 | [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md) | Verwendungsfall wurde hinzugefügt. |
 |  | [Erstellen einer Erlebnis-Targeting-Aktivität](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | Text und Bilder aktualisiert. |
 |  | XT: [Aktivitäts-URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | Text aktualisiert. |
