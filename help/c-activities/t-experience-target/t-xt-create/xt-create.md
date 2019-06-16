@@ -8,7 +8,7 @@ title: Erstellen einer Erlebnis-Targeting-Aktivität
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: dcddbf8c1a4f406fdbfb00b9deaa75113aa7b624
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -39,13 +39,17 @@ Weitere Informationen zu Erlebnis-Targeting, Anwendungsszenarios und Schulungsvi
 
    ![Erlebnis-Targeting-Aktivität erstellen, Dialogfeld](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
-   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie diese Option aus. Weitere Informationen finden Sie unter [ Form-Based Experience Compose](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
+   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular aus]. Weitere Informationen finden Sie unter [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) .
 
    >[!NOTE]
    >
    >Zusätzlich zum VEC und Form-Based Experience Composer bietet Target die Einzelseitenanwendung VEC und VEC für mobile Apps an. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
    >
-   >Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
+   >Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >
+   >Die Option [!UICONTROL &quot;Arbeitsplatz] auswählen&quot; in der obigen Abbildung ist eine [Target Premium](/help/c-intro/intro.md) -Funktion. Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
+
+1. (Bedingt) Wenn Sie Target Premium-Kunde sind, [wählen Sie eine Arbeitsfläche](/help/administrating-target/c-user-management/property-channel/property-channel.md)aus.
 
 1. Geben Sie Ihre [Aktivitäts-URL an](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)und klicken Sie auf **[!UICONTROL Weiter]**.
 
