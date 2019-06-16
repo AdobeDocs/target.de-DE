@@ -7,16 +7,16 @@ solution: Target
 title: Planen eines Multivarianz-Tests.
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
 
 # Planen eines Multivarianz-Tests{#plan-a-multivariate-test}
 
-Multivarianz-Tests (MVT) in Adobe Target erfordern einige Planung, bevor Sie einen erfolgreichen Test erstellen können.
+[!UICONTROL Multivarianz-Tests] (MVT) [!DNL Adobe Target] erfordern einige Planung, bevor Sie einen erfolgreichen Test erstellen können.
 
-Um sinnvolle Ergebnisse zu erzielen, ist bei Multivarianz-Tests ausreichender Traffic erforderlich. Vor der Einrichtung Ihres Tests sollten Sie sich über Ihr übliches Traffic-Aufkommen im Klaren sein, einschließlich der Anzahl der Impressionen und Konversionen. Die Verfügbarkeit dieser Information verringert die Wahrscheinlichkeit, dass Sie einen Test mit Anforderungen entwerfen, die den Traffic Ihrer Site überschreiten.
+MVT erfordert ausreichend Traffic, um brauchbare Ergebnisse zu erzielen. Vor der Einrichtung Ihres Tests sollten Sie sich über Ihr übliches Traffic-Aufkommen im Klaren sein, einschließlich der Anzahl der Impressionen und Konversionen. Die Verfügbarkeit dieser Information verringert die Wahrscheinlichkeit, dass Sie einen Test mit Anforderungen entwerfen, die den Traffic Ihrer Site überschreiten.
 
 Es wird empfohlen, dass die Elemente unabhängig voneinander sind. (Testen Sie z. B. Ihr Layout und Ihren Inhalt nicht im selben Test.)
 
