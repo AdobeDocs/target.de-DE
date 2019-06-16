@@ -8,7 +8,7 @@ title: Erstellen eines A/B-Tests
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -24,23 +24,24 @@ Verwenden Sie Visual Experience Composer in Target, um Ihren Test direkt auf ein
    >[!NOTE]
    >
    >Die verfügbaren Aktivitätstypen hängen von Ihrem [!DNL Target]-Konto ab. Einige Aktivitätstypen werden in Ihrer Liste eventuell nicht angezeigt. [!UICONTROL Recommendations] ist beispielsweise eine [Target Premium-Funktion](/help/c-intro/intro.md#premium).
+   >
+   >Informationen zu den verschiedenen Aktivitätstypen finden Sie unter [Aktivitäten](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) und das [Target-Aktivitätenhandbuch](/help/c-activities/target-activities-guide.md).
 
-   Informationen zu den verschiedenen Aktivitätstypen finden Sie unter [Aktivitäten](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) und das [Target-Aktivitätenhandbuch](/help/c-activities/target-activities-guide.md).
-
-   ![A/B-Test-Aktivität erstellen, Dialogfeld](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newactivityurl-new.png)
+   ![A/B-Test-Actity erstellen](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
 1. Wählen **[!UICONTROL Sie bei Bedarf &quot;Visuell (]** Standard)&quot; aus.
 
-   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular aus]. Weitere Informationen finden Sie unter [Form-Based Experience Composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) .
+   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular aus]. Weitere Informationen finden Sie unter [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) .
 
    >[!NOTE]
    >
    >Zusätzlich zum VEC und Form-Based Experience Composer bietet Target die Einzelseitenanwendung VEC und VEC für mobile Apps an. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
+   >
+   >Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >
+   >[! UICONTROL [Wählen Sie in der obigen Abbildung die](/help/administrating-target/c-user-management/property-channel/property-channel.md) Option &quot;Arbeitsplatz [auswählen](/help/c-intro/intro.md) &quot; aus. Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
 
-   Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
-
-1. (Bedingt) Wenn Sie [Target Premium](/help/c-intro/intro.md#premium) -Kunde sind, wählen Sie eine [Arbeitsfläche](/help/administrating-target/c-user-management/property-channel/property-channel.md)aus.
-
+1. (Bedingt) Wenn Sie Target Premium-Kunde sind, wählen Sie eine Arbeitsfläche aus.
 
 1. Geben Sie Ihre [Aktivitäts-URL an](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)und klicken Sie auf **[!UICONTROL Weiter]**.
 
