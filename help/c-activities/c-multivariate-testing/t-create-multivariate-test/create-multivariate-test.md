@@ -7,7 +7,7 @@ solution: Target
 title: Erstellen eines Multivarianz-Tests
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -22,13 +22,29 @@ Der [!UICONTROL Multivarianz-Test] (MVT) akzeptiert einen Seitenbericht. Anders 
 
 1. Klicken Sie auf **[!UICONTROL Aktivität erstellen]** &gt; **[!UICONTROL Multivarianz-Test]**.
 
-   ![](assets/create_mvt.png)
-
-1. (Bedingt) Wenn Sie Target Premium-Kunde sind, [wählen Sie eine Arbeitsfläche](/help/administrating-target/c-user-management/property-channel/property-channel.md)aus.
+   ![Multivarianz-Test erstellen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
    >[!NOTE]
    >
+   >Die verfügbaren Aktivitätstypen hängen von Ihrem Target-Konto ab. Einige Aktivitätstypen werden in Ihrer Liste eventuell nicht angezeigt. Die [!UICONTROL automatisierte Personalisierung] ist beispielsweise eine [Target Premium-Funktion](/help/c-intro/intro.md#premium).
+   >
+   >Weitere Informationen zu den verschiedenen verfügbaren Aktivitätstypen [!DNL Target] und ihren Unterschieden finden Sie unter [Aktivitäten](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Unter [Target-Aktivitätstypen](/help/c-activities/target-activities-guide.md) können Sie festlegen, welche Aktivitätstypen Ihre Anforderungen am besten erfüllen.
+
+1. Wählen **[!UICONTROL Sie bei Bedarf &quot;Visuell (]** Standard)&quot; aus.
+
+   ![Erlebnis-Targeting-Aktivität erstellen, Dialogfeld](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
+
+   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular aus]. Weitere Informationen finden Sie unter [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) .
+
+   >[!NOTE]
+   >
+   >Zusätzlich zum VEC und Form-Based Experience Composer bietet Target die Einzelseitenanwendung VEC und VEC für mobile Apps an. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
+   >
+   >Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >
    >Die Option [!UICONTROL &quot;Arbeitsplatz] auswählen&quot; in der obigen Abbildung ist eine [Target Premium](/help/c-intro/intro.md) -Funktion. Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
+
+1. (Bedingt) Wenn Sie Target Premium-Kunde sind, [wählen Sie eine Arbeitsfläche](/help/administrating-target/c-user-management/property-channel/property-channel.md)aus.
 
 1. [Geben Sie die URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) für die Seite an, die Sie testen möchten, und klicken Sie auf **[!UICONTROL Weiter]**.
 
@@ -39,8 +55,6 @@ Der [!UICONTROL Multivarianz-Test] (MVT) akzeptiert einen Seitenbericht. Anders 
    Wenn eine Nachricht eingeblendet wird, die Sie dazu auffordert, Ihren Browser für gemischte Inhalte zu aktivieren, folgen Sie den Anweisungen in der Nachricht. Nachdem Sie Ihren Browser für gemischte Inhalte aktiviert haben, beginnen Sie erneut mit Schritt 1.
 
    Der Visual Experience Composer wird geöffnet.
-
-   Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
 1. Geben Sie einen Namen für die Aktivität ein.
 
@@ -71,15 +85,25 @@ Der [!UICONTROL Multivarianz-Test] (MVT) akzeptiert einen Seitenbericht. Anders 
 
 1. Klicken **[!UICONTROL Sie auf Vorschau]** , um [eine Vorschau Ihrer Erlebnisse anzuzeigen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
-   ![](assets/preview.png)
+   ![Vorschau von Erlebnissen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
-   Sie können jedes Erlebnis ansehen und diejenigen, die Sie nicht in Ihren Test aufnehmen möchten, ausschließen.
+   Sie können jedes Erlebnis ansehen und diejenigen, die Sie nicht in Ihren Test aufnehmen möchten, ausschließen. Um ein oder mehrere Erlebnisse auszuschließen, wählen Sie die gewünschten Kontrollkästchen aus und klicken Sie auf **[!UICONTROL Ausschließen]** .
+
+   ![Erlebnisse ausschließen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
 1. [Verwenden Sie die Traffic-Schätzung](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714), um die Umsetzbarkeit Ihres Testplans zu überprüfen.
 
-   ![](assets/estimator.png)  ![](assets/estimator2.png)
+   ![Traffic-Indikator](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
 
-1. Klicken **Sie auf [! UICONTROL Next** , um auf [!UICONTROL die Targeting] -Seite zu gelangen.]
+   Die folgende Abbildung zeigt an, dass die Aktivität nicht über ungenügenden Traffic verfügt.
+
+   ![](assets/estimator.png)
+
+   Die folgende Abbildung zeigt an, dass die Aktivität nicht über ungenügenden Traffic verfügt.
+
+   ![](assets/estimator2.png)
+
+1. Klicken **[!UICONTROL Sie auf Weiter]** , um zur [!UICONTROL Targeting] -Seite zu gelangen.]
 
 1. Wählen Sie die Zielgruppe und den Prozentsatz qualifizierter Besucher aus, die an der Aktivität teilnehmen sollen.
 
@@ -91,7 +115,7 @@ Der [!UICONTROL Multivarianz-Test] (MVT) akzeptiert einen Seitenbericht. Anders 
    >
    >Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. [Prüfen Sie die Testzusammenfassung](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) und nehmen Sie etwaig gewünschte Änderungen vor. Klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. [Überprüfen Sie die Testzusammenfassung](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) und nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
 1. [Legen Sie Ziele und Einstellungen](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) für den Test fest.
 
