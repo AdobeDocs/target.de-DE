@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -21,6 +21,15 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 17. Juni 2019 | [Aktivitäts-URL](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | Text und Bilder aktualisiert. |
+|  | [Erstellen von Kombinationen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | Text und Bilder aktualisiert. |
+|  | [Erlebnisvorschau für Multivarianz-Tests](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | Text und Bilder aktualisiert. |
+|  | [Ziele und Einstellungen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | Text und Bilder aktualisiert. |
+|  | [Festlegen von Metriken](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md) | Text und Abbildung aktualisiert. |
+|  | [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md) | Text und Bilder aktualisiert. |
+|  | [Bearbeiten einer Aktivität oder Speichern als Entwurf](/help/c-activities/edit-activity.md) | Text und Bilder aktualisiert. |
+|  | [Aktivitätsänderungsprotokoll](/help/c-activities/change-log.md) | Text und Abbildung aktualisiert. |
+|  | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Text und Bilder aktualisiert. |
 | 16. Juni 2019 | [Erstellen eines Multivarianz-Tests](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | Text und Bilder aktualisiert. |
 | 15. Juni 2019 | [Multivarianz-Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Kleinere Textänderungen wurden vorgenommen. |
 |  | [Best Practices für Multivarianz-Tests](/help/c-activities/c-multivariate-testing/best-practices.md) | Kleinere Textänderungen wurden vorgenommen. |
