@@ -7,7 +7,7 @@ solution: Target
 title: Erfolgsmetriken
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -54,15 +54,15 @@ Mit den erweiterten Einstellungen können Sie verwalten, wie Sie Erfolg messen. 
 >
 >Wenn Sie [!DNL Adobe Analytics] als Ihre Berichterstellungsquelle verwenden, werden die Einstellungen vom [!DNL Analytics]-Server verwaltet. Die Option für erweiterte Einstellungen steht nicht zur Verfügung.
 
-![](assets/Menu_AdvancedSettings.png)
+![Dropdown-Liste Erweiterte Einstellungen](/help/c-activities/r-success-metrics/assets/Menu_AdvancedSettings.png)
 
 Darüber hinaus können Sie abhängige Erfolgsmetriken über die erweiterten Einstellungen erstellen, die immer nur dann als erreicht verbucht werden, wenn ein Besucher zuvor eine andere Metrik erfüllt hat.
 
-![](assets/UI_dep_success_metric.png)
+![Abhängigkeit hinzufügen](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 So kann eine Testkonversion zum Beispiel nur dann gültig sein, wenn ein Besucher das Angebot anklickt oder auf eine bestimmte Seite gelangt, bevor die Konversion erfolgt.
 
-Abhängige Erfolgsmetriken werden nur für Aktivitäten mit A/B-Test, automatisierter Personalisierung, Erlebnis-Targeting und Multivarianz-Test unterstützt. Derzeit liegt keine Unterstützung für Empfehlungen vor.
+Abhängige Erfolgsmetriken werden nur für Aktivitäten mit A/B-Test, automatisierter Personalisierung, Erlebnis-Targeting und Multivariate Tests unterstützt. Derzeit liegt keine Unterstützung für Empfehlungen vor.
 
 >[!NOTE]
 >
@@ -75,9 +75,9 @@ Verwenden Sie die erweiterten Einstellungen, um festzulegen, was geschehen soll,
 
 | Ein Benutzer findet diese Sollmetrik vor | Optionen |
 |--- |--- |
-| Anzahl erhöhen und Benutzer in der Aktivität belassen | Angeben, wie die Anzahl erhöht wird:<ul><li>Einmal pro Teilnehmer  (Standard)</li><li>Bei jeder Anzeige, einschließlich Seitenaktualisierungen</li><li>Bei jeder Anzeige</li></ul> |
-| Anzahl erhöhen, Benutzer entlassen und erneute Teilnahme zulassen | Auswahl des Erlebnisses, das der Besucher bei erneuter Teilnahme an der Aktivität sieht:<ul><li>Das gleiche Erlebnis  (Standard)</li><li>Ein zufällig ausgewähltes Erlebnis</li><li>Ein noch nicht gesehenes Erlebnis</li></ul> |
-| Anzahl erhöhen, Benutzer entlassen und den Benutzer für die erneute Teilnahme sperren | Festlegen, was der Benutzer anstelle des Aktivitätsinhalts sieht:<ul><li>Das gleiche Erlebnis, ohne Tracking  (Standard)</li><li>Den Standardinhalt oder den Inhalt einer anderen Aktivität</li></ul> |
+| Anzahl erhöhen und Benutzer in der Aktivität belassen | Angeben, wie die Anzahl erhöht wird:<ul><li>Einmal pro Teilnehmer (Standard)</li><li>Bei jeder Anzeige, einschließlich Seitenaktualisierungen</li><li>Bei jeder Anzeige</li></ul> |
+| Anzahl erhöhen, Benutzer entlassen und erneute Teilnahme zulassen | Auswahl des Erlebnisses, das der Besucher bei erneuter Teilnahme an der Aktivität sieht:<ul><li>Das gleiche Erlebnis (Standard)</li><li>Ein zufällig ausgewähltes Erlebnis</li><li>Ein noch nicht gesehenes Erlebnis</li></ul> |
+| Anzahl erhöhen, Benutzer entlassen und den Benutzer für die erneute Teilnahme sperren | Festlegen, was der Benutzer anstelle des Aktivitätsinhalts sieht:<ul><li>Das gleiche Erlebnis, ohne Tracking (Standard)</li><li>Den Standardinhalt oder den Inhalt einer anderen Aktivität</li></ul> |
 
 ## Schulungsvideo: Aktivitätsmetriken
 
@@ -87,4 +87,4 @@ Dieses Video zeigt, wie Sie die verschiedenen Aktivitätsmetriken verwenden.
 * Verstehen und Erstellen von Metriken für Konversionen, Umsatz und Interaktion
 * Erstellen einer Metrik mit Klick-Tracking
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=ger)
