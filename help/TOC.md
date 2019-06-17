@@ -2,9 +2,9 @@
 product: Target
 audience: Endbenutzer
 user-guide-title: Adobe Target-Hilfe
-user-guide-url: /content/help/en/target/using/target-home.html
+user-guide-url: /content/help/de/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
+source-git-commit: 990c4fee49fcca4ad52362059259968ef7799183
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
       + [Änderungen der TLS-Verschlüsselung (Transport Layer Security)](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME und Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + Clientseitige Website: Target-Implementierung {#client-side}
-      + [Übersicht: Target für clientseitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
+      + [Übersicht: Target für Client-seitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
       + Funktionsweise von „at.js“{#at-js}
          + [Funktionsweise von at.js – Überblick](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
          + [Verwaltung von Flackern mit „at.js“](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
@@ -75,13 +75,13 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [Implementieren von Einzelseiten-Apps](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
       + „at.js“-Funktionen{#functions-overview}
          + [„at.js“-Funktionen – Überblick](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
-         + [adobe. target. getoffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
-         + [adobe. target. getoffers () - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
-         + [adobe. target. applyoffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
-         + [adobe. target. applyoffer () - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
-         + [adobe. target. triggerview () - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
-         + [adobe. target. trackevent ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
-         + [Mboxcreate () - at. js 1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
+         + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
+         + [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
+         + [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
+         + [adobe.target.applyOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
+         + [adobe.target.triggerView() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
+         + [adobe.target.trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
+         + [mboxCreate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
          + [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
          + [mboxDefine() und mboxUpdate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
@@ -95,7 +95,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [Häufig gestellte Fragen zu „at.js“](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
          + [Häufig gestellte Fragen zu globalen Mboxes](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
       + [„at.js“-Versionsdetails](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-      + [Upgrade von at. js 1. x auf at. js 2. x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
+      + [Aktualisieren von at.js 1.x auf at.js 2 x ](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
       + [„at.js“-Cookies](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
       + „mbox.js“-Implementierung{#mbox-implement}
          + [„mbox.js“-Implementierung – Überblick](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
@@ -133,8 +133,9 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [Android – Einrichten der App](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS – Einrichten der App](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Einrichten des Klick-Trackings im Mobile VEC](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-   + Serverseitig: Target-Implementierung {#server-side}
-      + [Serverseitig: Target-Implementierung – Überblick ](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
+         + [GHOST](/help/c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md)
+   + Server-seitig: Target-Implementierung {#server-side}
+      + [Server-seitig: Target-Implementierung – Überblick](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Übergang von Target-Legacy-APIs zu Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + E-Mail: Target-Implementierung {#implement-email}
       + [E-Mail: Target-Implementierung – Überblick ](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
@@ -163,7 +164,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [Überhöhte Besuchs- und Besucherzahlen – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [Classifications – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
          + [Alte Integration von SiteCatalyst in Test&amp;Target - Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
-      + [Erwartete Datenvarianzen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
+      + [Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud Audiences](c-integrating-target-with-mac/mmp.md)
    + [Integration von Target in Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud-Gerätekooperation](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
@@ -238,7 +239,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
    + Aktivitäts-QA {#activity-qa}
       + [Aktivitäts-QA – Überblick](c-activities/c-activity-qa/activity-qa.md)
       + [Lesezeichenliste für Aktivitäts-QA](c-activities/c-activity-qa/activity-qa-bookmark.md)
-      + [Verwenden von Aktivitäts-QA mit serverseitiger Bereitstellung](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
+      + [Verwenden von Aktivitäts-QA mit Server-seitiger Bereitstellung](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
    + [Aktivitätsbenachrichtigungen](c-activities/notifications.md)
 + Zielgruppen{#audiences}
    + [Zielgruppen – Überblick](c-target/target.md)
@@ -279,7 +280,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
    + [Erlebnisse und Angebote – Überblick](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
       + [Visual Experience Composer – Überblick](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
-      + [Visual Experience Composer-Optionen](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [Visual Experience Composer–Optionen](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Gleiches Erlebnis auf ähnlichen Seiten](c-experiences/c-visual-experience-composer/temtest.md)
       + [Mehrseitige Aktivität](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [Aktivitätskollisionen](c-experiences/c-visual-experience-composer/activity-collisions.md)
@@ -292,14 +293,14 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
       + Fehlerbehebung für den Visual Experience Composer {#troubleshoot-composer}
          + [Fehlerbehebung für den Visual Experience Composer – Überblick](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [Problembehandlung für Visual Experience Composer und Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-         + [Fehlerbehebung für Visual Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
+         + [Fehlerbehebung für den Visual Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [Fehlerbehebung für Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Zulassen von gemischtem Inhalt in Ihrem Browser](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Szenarien für die Seitenmodifizierung](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [Visual Experience Composer Helper-Erweiterung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Zu einer URL umleiten](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Erstellen von Karussells, die in Visual Experience Composer funktionieren](c-experiences/c-visual-experience-composer/vec-carousels.md)
-   + [Form-Based Experience Composer](c-experiences/form-experience-composer.md)
+   + [Formularbasierter Experience Composer](c-experiences/form-experience-composer.md)
    + [Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)](c-experiences/spa-visual-experience-composer.md)
    + Angebote {#offers}
       + [Angebote – Überblick](c-experiences/c-manage-content/manage-content.md)
@@ -312,7 +313,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
       + [Durchsuchen von Inhalten und Erstellen intelligenter Sammlungen](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Übergeben dynamischer Daten in Angebote](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM-Erlebnisfragmente](c-experiences/c-manage-content/aem-experience-fragments.md)
-+ Berichte{#reports} 
++ Berichte{#reports}
    + [Berichte – Überblick](c-reports/reports.md)
    + Berichtseinstellungen {#settings}
       + [Berichtseinstellungen – Überblick](c-reports/c-report-settings/report-settings.md)
