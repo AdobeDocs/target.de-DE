@@ -6,8 +6,8 @@ solution: Target
 title: Aktivitätsänderungsprotokoll
 topic: Advanced
 uuid: 5bf4d79f-f15b-4ac4-9303-8eb2de5729d6
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -18,8 +18,8 @@ Im Änderungsprotokoll befindet sich ein Datensatz zu den Personen, die Ihre Akt
 
 1. Öffnen Sie die Aktivität und klicken Sie auf **[!UICONTROL Änderungsprotokoll]**.
 
-   ![](assets/change_log.png)
+   ![Aktivitätsänderungsprotokoll](/help/c-activities/assets/change_log.png)
 
-   Das Datum und der Benutzer werden bei jeder Erstellung, Aktualisierung, Aktivierung und Deaktivierung einer Aktivität aufgelistet. Änderungen an benutzerdefinierten Zielen und in der Aktivität verwendeten Angeboten werden ebenfalls aufgelistet. In der Spalte „Status“ wird angezeigt, ob die Aktion abgeschlossen, ausstehend oder fehlgeschlagen ist.
+   Datum und Benutzer werden immer dann aufgeführt, wenn eine Aktivität erstellt, aktualisiert, aktiviert oder deaktiviert wird. Änderungen an benutzerdefinierten Zielen und in der Aktivität verwendeten Angeboten werden ebenfalls aufgelistet. In der Spalte „Status“ wird angezeigt, ob die Aktion abgeschlossen, ausstehend oder fehlgeschlagen ist.
 
    Aktualisieren Sie die Seite, um die Statusänderungen zu sehen.
