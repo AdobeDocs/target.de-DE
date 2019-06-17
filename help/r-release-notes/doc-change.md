@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -21,7 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 16. Juni 2019 | Erstellen eines Multivarianz-Tests | Text und Bilder aktualisiert. |
+| 16. Juni 2019 | [Erstellen eines Multivarianz-Tests](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | Text und Bilder aktualisiert. |
 | 15. Juni 2019 | [Multivarianz-Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Kleinere Textänderungen wurden vorgenommen. |
 |  | [Best Practices für Multivarianz-Tests](/help/c-activities/c-multivariate-testing/best-practices.md) | Kleinere Textänderungen wurden vorgenommen. |
 |  | [Planen eines Multivarianz-Tests](/help/c-activities/c-multivariate-testing/plan-mvt.md) | Kleinere Textänderungen wurden vorgenommen. |
