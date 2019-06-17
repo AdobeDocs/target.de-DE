@@ -7,7 +7,7 @@ solution: Target
 title: Hinzufügen von Erlebnissen
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -39,7 +39,7 @@ Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](../../../c-ex
    >
    >Wenn Sie ein Bild aus einer anderen Quelle als der Hauptseite bereitstellen (z. B. ein Bild, das auf akamei.net gehostet und auf dell.com bereitgestellt wird), wird das Bild nicht in der Miniaturansicht der Seite, die auf dem Flussdiagramm zu sehen ist, angezeigt.
 
-1. Klicken **[!SSie auf ave,]** wenn Sie das Entwerfen des Erlebnisses abgeschlossen haben.
+1. Klicken **[!UICONTROL Sie auf Speichern,]** wenn Sie das Entwerfen des Erlebnisses abgeschlossen haben.
 
 ## Erlebnis umbenennen
 
