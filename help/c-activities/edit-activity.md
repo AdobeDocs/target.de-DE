@@ -7,8 +7,8 @@ solution: Target
 title: Bearbeiten einer Aktivität oder Speichern als Entwurf
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
 
 ---
 
@@ -19,29 +19,29 @@ Informationen zu den verschiedenen Methoden zum Bearbeiten einer vorhandenen Akt
 
 Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichkeit, vorhandene Aktivitäten zu bearbeiten. Der Vorgang variiert je nach gewählter Methode.
 
-## Bearbeiten einer Aktivität mithilfe der interaktiven Schaltfläche auf der Seite „Aktivitäten“ {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Bearbeiten einer Aktivität mithilfe der Schaltfläche &quot;Hover&quot; auf der Seite&quot; Aktivitäten « {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. Fahren Sie der Seite **[!UICONTROL Aktivitäten]** mit dem Mauszeiger über die zu bearbeitende Aktivität und klicken Sie auf das Symbol **Bearbeiten[!UICONTROL .]**
 
-   ![](assets/hover_edit.png)
+   ![Symbol bearbeiten](/help/c-activities/assets/hover_edit.png)
 
-   Target öffnet die Aktivität, und die Seite „Erlebnisse“ wird angezeigt (der erste Schritt in dem dreistufigen geführten Workflow). Oben rechts auf der Seite wird eine Trennschaltfläche angezeigt, wie unten dargestellt:
+   Target öffnet die Aktivität im Visual Experience Composer (VEC) und Sie sehen die Seite [!UICONTROL Erlebnisse] (der erste Schritt im geleiteten Arbeitsablauf mit drei Schritten).
 
-   ![](assets/edit_split_button.png)
+1. Bearbeiten Sie die Aktivität wie gewünscht mithilfe der [VEC-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Bearbeiten Sie die Aktivität nach Wunsch mithilfe der Trennschaltfläche:
+1. Klicken Sie auf die Unterteilung, um zum nächsten Schritt zu gelangen oder um die Aktivität zu speichern.
 
-   ![](assets/edit_split_button_2.png)
+   ![Schaltfläche &quot;Teilen «](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Weiter:** Klicken Sie zum Bearbeiten einer weiteren Seite in dem dreistufigen Workflow auf **[!UICONTROL Weiter]**, um zu dem gewünschten Schritt zu wechseln. Wenn Sie beispielsweise in der Abbildung oben auf [!UICONTROL Weiter] klicken, wird der Targeting-Schritt angezeigt.
+   * **Weiter:** Klicken Sie zum Bearbeiten einer weiteren Seite in dem dreistufigen Workflow auf **[!UICONTROL Weiter]**, um zu dem gewünschten Schritt zu wechseln. Wenn Sie beispielsweise in der Abbildung oben auf [!UICONTROL Weiter] klicken, wird der Targeting-Schritt angezeigt.[!UICONTROL ]
    * **Speichern &amp; Schließen:** Nehmen Sie die gewünschten Änderungen im aktuellen Schritt vor, klicken Sie auf das Dropdown-Menü auf der Trennschaltfläche und wählen Sie dann **[!UICONTROL Speichern und Schließen]**, um die Änderungen zu speichern und die Seite [!UICONTROL Übersicht] der Aktivität anzuzeigen.
    * **Speichern:** Nehmen Sie die gewünschten Änderungen in einem Schritt vor, klicken Sie auf das Dropdown-Menü auf der Trennschaltfläche und wählen Sie dann **[!UICONTROL Speichern]** aus, um Ihre Änderungen zu speichern und bei dem Schritt zu bleiben, in dem Sie weiterhin Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
-## Bearbeiten einer Aktivität durch Öffnen der Aktivität per Klick auf den Namen auf der Seite „Aktivitäten“ {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Bearbeiten Sie eine Aktivität, indem Sie die Aktivität öffnen, indem Sie auf der Seite &quot;Aktivitäten&quot; auf den Namen klicken. {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Um das Abarbeiten des gesamten Workflows zu vermeiden, klicken Sie auf der Seite „Aktivitäten“ auf die gewünschte Aktivität, um sie zu öffnen. Wählen Sie dann in der Dropdownliste **[!UICONTROL Aktivität bearbeiten]eine Option aus.**
 
-   ![](assets/edit_activity.png)
+   ![Dropdown-Liste Aktivität bearbeiten](/help/c-activities/assets/edit_activity.png)
 
 1. Wählen Sie die gewünschte Option aus::
 
@@ -60,7 +60,7 @@ Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichk
 
 
 
-## Speichern einer Aktivität in Entwurfsform {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Speichern einer Aktivität im Entwurfsformular {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Wenn Sie eine neue, noch nicht gespeicherte Aktivität erstellen oder eine Aktivität bearbeiten, die zuvor in Entwurfsform gespeichert wurde, werden unter der Trennschaltfläche die Optionen für Entwurf speichern angezeigt.
 
@@ -69,7 +69,7 @@ Sie können eine Aktivität im Entwurfsmodus speichern, wenn die Aktivitätseinr
 1. Erstellen Sie eine neue Aktivität oder bearbeiten Sie eine vorhandene Aktivität, die in Entwurfsform vorliegt.
 1. Wählen Sie über die Trennschaltfläche die gewünschte Option aus:
 
-   ![](assets/save_draft.png)
+   ![Entwurf speichern](/help/c-activities/assets/save_draft.png)
 
    * **Weiter:** Klicken Sie zum Bearbeiten einer weiteren Seite in dem dreistufigen Workflow auf **[!UICONTROL Weiter], um zu dem gewünschten Schritt zu wechseln.**
    * **Entwurf speichern &amp; Schließen:** Nehmen Sie die gewünschten Änderungen im aktuellen Schritt vor, klicken Sie auf das Dropdown-Menü auf der Trennschaltfläche und wählen Sie dann **[!UICONTROL Entwurf speichern und Schließen]**, um die Änderungen zu speichern und die Seite [!UICONTROL Übersicht] der Aktivität anzuzeigen.
