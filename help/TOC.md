@@ -4,7 +4,7 @@ audience: Endbenutzer
 user-guide-title: Adobe Target-Hilfe
 user-guide-url: /content/help/de/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 990c4fee49fcca4ad52362059259968ef7799183
+source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
 
 ---
 
@@ -133,7 +133,6 @@ source-git-commit: 990c4fee49fcca4ad52362059259968ef7799183
          + [Android – Einrichten der App](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS – Einrichten der App](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Einrichten des Klick-Trackings im Mobile VEC](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-         + [GHOST](/help/c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md)
    + Server-seitig: Target-Implementierung {#server-side}
       + [Server-seitig: Target-Implementierung – Überblick](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Übergang von Target-Legacy-APIs zu Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
