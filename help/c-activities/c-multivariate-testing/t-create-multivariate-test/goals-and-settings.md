@@ -7,8 +7,8 @@ solution: Target
 title: Ziele und Einstellungen
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -64,7 +64,7 @@ Die folgenden Einstellungen sind verfügbar:
 
 ### Berichterstellungslösung
 
-Geben Sie an, ob die Daten von Adobe Target oder Adobe Analytics erfasst werden. Weitere Informationen zu den Unterschieden zwischen den Berichterstellungslösungen und deren Vorteilen finden Sie unter [Adobe Analytics als Berichtsquelle für Target](https://marketing.adobe.com/resources/help/de_DE/target/a4t/a4t.html).
+Geben Sie an, ob die Daten von Adobe Target oder Adobe Analytics erfasst werden. Informationen über die Unterschiede zwischen den Berichterstellungslösungen und deren jeweilige Vorteile finden Sie unter [Adobe Analytics als Berichterstellungsquelle für Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html).
 
 Wenn Sie Analytics als Berichtsquelle für Target auswählen, wählen Sie eine Analytics-Report Suite, um Target-Aktivitätsdaten zu empfangen. Wählen Sie dazu zunächst ein Analytics-Unternehmen aus, an das Ihr Konto gebunden ist, und wählen Sie anschließend die der Aktivität entsprechende Report Suite aus. Es stehen nur Report Suites, die für die Verbindung mit Adobe Target bereitgestellt werden, zur Auswahl zur Verfügung. Wenn nicht die erwarteten Report Suites angezeigt werden, versuchen Sie, sich bei Adobe Experience Cloud ab- und dann wieder anzumelden, und wiederholen Sie den Vorgang. Wenn die Report Suite weiterhin nicht in der Liste zu finden ist, wenden Sie sich an den Kundendienst.
 
@@ -104,7 +104,7 @@ Zielgruppen für die Berichterstellung
 
 Erweiterte Einstellungen sind für Zielmetriken Multivarianz-Test verfügbar.
 
-![](assets/Menu_AdvancedSettings.png)
+![Menü &quot;Erweiterte Einstellungen «](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
 >[!NOTE]
 >
@@ -122,15 +122,14 @@ Mithilfe der Option Abhängigkeit hinzufügen kann die Erfolgsmetrik inkrementie
 
 So fügen Sie eine Abhängigkeit hinzu:
 
-1. Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf Erweiterte Einstellungen.
+1. Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf **[!UICONTROL Erweiterte Einstellungen]**.
 2. Klicken Sie auf die Option Abhängigkeit hinzufügen:
 
-   ![](assets/add_dependency.png)
+   ![Abhängigkeit hinzufügen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. Verschieben Sie die gewünschte Metrik per Drag-and-drop vom linken Bereich in den rechten Bereich. Klicken Sie dann auf Erreicht, um die Einstellung zwischen Erreicht und Nicht erreicht zu wechseln.
+3. Verschieben Sie die gewünschte Metrik per Drag-and-drop vom linken Bereich in den rechten Bereich. Klicken Sie dann auf **[!UICONTROL Erreicht]**, um die Einstellung zwischen Erreicht und Nicht erreicht zu wechseln .
 
-   ![](assets/add_dependency_reached.png)
-
+   ![Abhängigkeit erreicht](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
 Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben.
 
@@ -166,7 +165,7 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ger)
 
 ### Erstellen von multivariaten Tests (9:25)
 
@@ -175,4 +174,4 @@ In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs 
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=ger)
