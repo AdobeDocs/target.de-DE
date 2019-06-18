@@ -1,22 +1,22 @@
 ---
-description: Targeting von Besuchern auf Grundlage der Suchmaschine oder Landingpage, von der sie auf Ihre Site geleitet werden
+description: Erstellen Sie Zielgruppen, um Besucher basierend auf der Suchmaschine oder der Landingpage als Ziel auszuwählen, der sie auf Ihre Site verweist.
 keywords: Targeting; Traffic-Quellen; Target-Traffic-Quellen; Target-Suchmaschine; Suchmaschine; Zielseite; Target-Zielseite; verweisende Zielseite
-seo-description: Targeting von Besuchern auf Grundlage der Suchmaschine oder Landingpage, von der sie auf Ihre Site geleitet werden
-seo-title: Bericht zu
+seo-description: Erstellen Sie Zielgruppen in Adobe Target, um Besucher basierend auf der Suchmaschine oder der Landingpage als Ziel für Ihre Site anzusprechen.
+seo-title: Target-Traffic-Quellen in Adobe Target
 solution: Target
 title: Bericht zu
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Traffic-Quellen{#traffic-sources}
 
-Targeting von Besuchern auf Grundlage der Suchmaschine oder Landingpage, von der sie auf Ihre Site geleitet werden
+Erstellen Sie Zielgruppen, um Besucher basierend auf der Suchmaschine oder der Landingpage als Ziel auszuwählen, der sie auf Ihre Site verweist.
 
-Sie können z. B. das Ziel nach dem Browser des Benutzers, der Suchmaschine oder der verweisenden Landingpage bestimmen. Die Verweis-Landingpage ist die Seite, von der Sie per Klick zur aktuellen Site dieser Sitzung gelangt sind. (Wenn Sie z. B. auf eine Anzeige in Google klicken und diese Sie zur Homepage [!DNL adobe.com] führt, ist die verweisende Landingpage [!DNL google.com].)
+Sie können z. B. das Ziel nach dem Browser des Benutzers, der Suchmaschine oder der verweisenden Landingpage bestimmen. Die verweisende Einstiegsseite ist die Seite, von der aus der Besucher auf die aktuelle Site gelangt ist, um diese Sitzung zu erreichen. (Wenn der Besucher z. B. auf eine Anzeige in Google geklickt hat und ihn zur `adobe.com` Homepage führt, lautet `google.com`die verweisende Landingpage.)
 
 Sie können mehrere Traffic-Quellen kombinieren, um eine komplexe Targeting-Regel zu erstellen.
 
@@ -35,6 +35,7 @@ Sie können mehrere Traffic-Quellen kombinieren, um eine komplexe Targeting-Rege
    * Verweis-Landingpage: URL
    * Verweis-Landingpage: Domäne
    * Verweis-Landingpage: Abfrage
+   Je nach Ihrer Auswahl müssen Sie eventuell zusätzliche Informationen bereitstellen (Auswerter und/oder Werte).
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
@@ -48,4 +49,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
