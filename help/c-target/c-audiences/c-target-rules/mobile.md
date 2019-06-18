@@ -1,21 +1,21 @@
 ---
-description: Sie können Mobilgeräte auf Basis von Parametern wie Mobilgerät, Gerätetyp, Geräteanbieter, Bildschirmmaßen (in Pixeln) usw. auswählen.
+description: Erstellen Sie Zielgruppen für Mobilgeräte basierend auf Parametern wie Mobilgerät, Gerätetyp, Gerätehersteller, Bildschirmabmessungen (x Pixel) und mehr.
 keywords: Targeting; mobil; target mobile; deviceatlas; iPhone; iPhone-Modelle; deviceatlas; Displaybreite; Display Breite; Displayhöhe; Gerätetyp; Displayhöhe; Mobiltelefon; Tablet; Gerätemodell
-seo-description: Sie können Mobilgeräte auf Basis von Parametern wie Mobilgerät, Gerätetyp, Geräteanbieter, Bildschirmmaßen (in Pixeln) usw. auswählen.
-seo-title: Mobil
+seo-description: Erstellen Sie Zielgruppen in Adobe Target, um Mobilgeräte basierend auf Parametern wie Mobilgerät, Gerätetyp, Gerätehersteller, Bildschirmabmessungen (x Pixel) und mehr als Ziel auszuwählen.
+seo-title: Zielgruppe für Mobilgeräte in Adobe Target
 solution: Target
 title: Mobil
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Mobil{#mobile}
 
-Sie können Mobilgeräte auf Basis von Parametern wie Mobilgerät, Gerätetyp, Geräteanbieter, Bildschirmmaßen (in Pixeln) usw. auswählen.
+Erstellen Sie Zielgruppen für Mobilgeräte basierend auf Parametern wie Mobilgerät, Gerätetyp, Gerätehersteller, Bildschirmabmessungen (x Pixel) und mehr.
 
 Zum Beispiel möchten Sie möglicherweise abhängig davon, ob ein Benutzer über ein Telefon oder einen Computer auf Ihre Seite zugreift, unterschiedliche Inhalte anzeigen. In diesem Fall können Sie die Zielgruppe „Mobil“ und anschließend die Option **[!UICONTROL Ist Mobiltelefon]auswählen und dann für Sie bedeutende spezifische Details wie den Telefontyp, die Bildschirmgröße (in Pixeln) usw. hinzufügen.**
 
@@ -44,9 +44,6 @@ Kunden, die eine benutzerspezifische Integration (also weder at.js noch das Mobi
 1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
 1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Mobil]**.
-
-   ![](assets/target_mobile.png)
-
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
    * Gerätemarketingbezeichnung
@@ -70,6 +67,10 @@ Kunden, die eine benutzerspezifische Integration (also weder at.js noch das Mobi
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+Die folgende Abbildung zeigt eine Zielgruppe für Besucher, die Geräte verwenden, die von Google produziert werden und ein Mobilgerät sind.
+
+![Target-Mobilgeräte](assets/target_mobile.png)
 
 ## Schulungsvideo: Erstellen von Zielgruppen
 
