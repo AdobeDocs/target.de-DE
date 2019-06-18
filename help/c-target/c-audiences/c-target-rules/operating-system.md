@@ -7,8 +7,8 @@ solution: Target
 title: Betriebssystem
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -20,9 +20,6 @@ Sie können Benutzer, die ein bestimmtes Betriebssystem verwenden, als Ziel ausw
 1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
 1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Betriebssystem]**.
-
-   ![](assets/target_os.png)
-
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
    * Linux
@@ -32,6 +29,10 @@ Sie können Benutzer, die ein bestimmtes Betriebssystem verwenden, als Ziel ausw
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
+Die folgenden Abbildungen zeigen eine Zielgruppe für Besucher, die ein Macintosh OS verwenden.
+
+![](assets/target_os.png)
+
 ## Schulungsvideo: Erstellen von Zielgruppen
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
@@ -39,4 +40,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
