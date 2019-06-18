@@ -7,8 +7,8 @@ solution: Target
 title: Aktivitäts-QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -31,11 +31,11 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
 1. Klicken Sie auf der Seite [!UICONTROL Übersicht] einer Aktivität (alle Typen außer „Automatisierte Personalisierung“) auf den Link **[!UICONTROL Aktivitäts-QA].**
 
-   ![](assets/qa_link.png)
+   ![Link &quot;Aktivitäts-QA «](assets/qa_link.png)
 
 1. Konfigurieren Sie die folgenden Einstellungen:
 
-   ![](assets/qa_link_config.png)
+   ![Konfigurationsoptionen für QA-Links](assets/qa_link_config.png)
 
    * **Passen Sie die Zielgruppen-Regeln an, um die Erlebnisse anzuzeigen:** Mitunter möchten Sie sicherstellen, dass die Zielgruppenzuordnung funktioniert. In anderen Situationen möchten Sie lediglich die Anmutung der Aktivität prüfen. Wenn sich diese Einstellung in der Stellung „ein“ befindet, müssen Tester die Targeting-Anforderungen erfüllen, um sich für die Anzeige der Erlebnisse zu qualifizieren. Für Erlebnis-Targeting (XT)-Aktivitäten wird eine einzelne Aktivitäts-URL bereitgestellt. Das angezeigte Erlebnis richtet sich danach, ob Sie sich für eine der Targeting-Regeln qualifizieren.
 
