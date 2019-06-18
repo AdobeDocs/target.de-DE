@@ -7,8 +7,8 @@ solution: Target
 title: Seiten der Site
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -25,7 +25,7 @@ Targeting von Besuchern, die sich auf einer bestimmten Seite befinden oder die e
 1. Nennen Sie die Zielgruppe.
 1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Seiten der Site]**.
 
-   ![](assets/target_site_pages.png)
+   ![Zielgruppe der Site-Seiten](assets/target_site_pages.png)
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
@@ -64,4 +64,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
