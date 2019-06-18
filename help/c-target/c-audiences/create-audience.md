@@ -7,8 +7,8 @@ solution: Target
 title: Erstellen von Zielgruppen in Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -27,13 +27,13 @@ Wenn Sie Regeln oder Parameter mit „OR“ kombinieren, müssen die Mitglieder 
 
 Sie können die beiden booleschen Operatoren auch mischen und so komplexe Regeln schaffen, allerdings müssen Operatoren auf derselben Regelebene übereinstimmen. Die Benutzeroberfläche wendet automatisch den richtigen Operator an.
 
-Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome oder Firefox auf einem Windows-Computer nutzen:
+Die folgende Regel zielt beispielsweise auf Besucher ab, die auf einem Windows-Computer entweder Chrome *oder* Firefox verwenden:
 
-![](assets/audience_create.png)
+![Zielgruppe erstellen](assets/audience_create.png)
 
 >[!NOTE]
 >
->Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. So ist es beispielsweise nicht möglich, dass ein Besucher eine Seite mit Browser X und Browser Y gleichzeitig besucht.
+>Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. Beispielsweise kann es nicht passieren, dass Benutzer eine Seite gleichzeitig mit Chrome *und* Firefox besuchen.
 
 ## Neue Zielgruppe erstellen
 
@@ -66,4 +66,4 @@ Dieses Video enthält Informationen zur Erstellung von Zielgruppen.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
