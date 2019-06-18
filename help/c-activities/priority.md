@@ -7,8 +7,8 @@ solution: Target
 title: Priorität
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -91,7 +91,7 @@ Wenn Ihr Unternehmen im formularbasierten Composer andere Mboxes als die globale
 >
 >Abhängig von Ihren Einstellungen variieren auch die Prioritätswerte. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren. Weitere Informationen finden Sie unter [Aktivitätseinstellungen](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Zwei Target Classic-Kampagnen verwenden nicht globale Mboxes **
+**Zwei Target Classic-Kampagnen verwenden nicht globale Mboxes**
 
 * Kampagne 1: homePageHero, offer1, Priorität hoch
 * Kampagne 2: homePageHero, offer2, Priorität niedrig
@@ -139,4 +139,4 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ger)
