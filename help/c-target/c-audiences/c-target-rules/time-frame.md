@@ -6,8 +6,8 @@ seo-title: Zeitrahmen
 solution: Target
 title: Zeitrahmen
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -36,11 +36,11 @@ Verwenden Sie beispielsweise die Funktion](../../../c-target/combining-multiple-
 
 1. (Bedingt) Klicken Sie auf **[!UICONTROL Wochen- und Tagesaufteilung], um wiederkehrende Muster festzulegen, wie Wochentage und Uhrzeiten.**
 
-   ![](assets/week_and_day_parting.png)
+   ![Wochen- und Tagesaufteilung](assets/week_and_day_parting.png)
 
    Über die Optionen für die Wochen- und Tagesaufteilung können Sie z. B. eine Option „Chat“ nur an den Tagen und während der Stunden anzeigen, in denen Ihr Call-Center besetzt ist.
 
-   Wählen Sie einen oder mehrere Wochentage aus und legen Sie dann die Start- und Endzeiten fest. Klicken Sie gegebenenfalls auf [!UICONTROL Weitere hinzufügen], um weitere Muster festzulegen.
+   Wählen Sie einen oder mehrere Wochentage aus und legen Sie dann die Start- und Endzeiten fest. Klicken Sie gegebenenfalls auf **[!UICONTROL Weitere hinzufügen], um weitere Muster festzulegen.**
 
    >[!NOTE]
    >
@@ -59,4 +59,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
