@@ -7,8 +7,8 @@ solution: Target
 title: Benutzerdefinierte Parameter
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -17,18 +17,32 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Benutzerdefinierte Parameter sind Mbox-Parameter. Wenn Sie Mbox-Parameter an Mboxes übergeben oder die Funktion „targetPageParams“ verwenden, werden diese Parameter hier angezeigt und können in Zielgruppen verwendet werden.
 
-Weitere Informationen finden Sie unter [Übergeben von Parametern an eine globale Mbox](https://marketing.adobe.com/resources/help/de_DE/target/ov/c_pass_parameters_to_global_mbox.html).
+Weitere Informationen finden Sie im Abschnitt [Übergeben von Parameter an eine globale mbox](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html).
 
 Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhalten Sie von `mboxParameter`mboxParameter keine Aufforderung mehr, `mboxName` einzugeben. Der Mbox-Name ist nun optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde.
 
-So wählen Sie den gewünschten Parameter aus:
+1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
+1. Nennen Sie die Zielgruppe.
+1. Klicken **[!UICONTROL Sie auf Regel hinzufügen]** &gt; **[!UICONTROL Benutzerdefiniert]**.
 
-* Wählen Sie beim Erstellen einer neuen Zielgruppe einen Parameter aus der Liste aus oder geben Sie die ersten Buchstaben des Parameternamens bzw. den gesamten Namen des gewünschten Parameters ein.
-* Wenn Sie den Mbox-, aber nicht den Parameternamen kennen, filtern Sie mithilfe des Kontrollkästchens nach der bekannten Mbox, die den gewünschten Parameter übergibt.
+   So wählen Sie den gewünschten Parameter aus:
 
-Bei keiner der Methoden gibt es eine Verbindung zwischen Mbox und Parameter. Die Zielgruppe funktioniert basierend auf dem Parameter über alle Mboxes hinweg, die diesen Parameter übergeben.
+   * Wählen Sie beim Erstellen einer neuen Zielgruppe einen Parameter aus der Liste aus oder geben Sie die ersten Buchstaben des Parameternamens bzw. den gesamten Namen des gewünschten Parameters ein.
+   * Wenn Sie den Mbox-, aber nicht den Parameternamen kennen, filtern Sie mithilfe des Kontrollkästchens nach der bekannten Mbox, die den gewünschten Parameter übergibt.
+   Bei keiner der Methoden gibt es eine Verbindung zwischen Mbox und Parameter. Die Zielgruppe funktioniert basierend auf dem Parameter über alle Mboxes hinweg, die diesen Parameter übergeben.
 
-Wenn Sie eine bestehende Zielgruppe bearbeiten, werden die Filterkriterien mit dem Mbox-Namen angezeigt, der bei der Erstellung angegeben wurde.
+   Wenn Sie eine bestehende Zielgruppe bearbeiten, werden die Filterkriterien mit dem Mbox-Namen angezeigt, der bei der Erstellung angegeben wurde.
+
+1. Wählen Sie einen Auswerter:
+
+   * enthält (nicht von Schreibweise abhängig)
+   * Enthält nicht (Groß-/Kleinschreibung nicht berücksichtigt)
+   * Gleich
+   ![Benutzerdefinierte Parameter-Zielgruppe](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
+
+1. Geben Sie jeden Wert in eine neue Zeile ein.
+1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Die [Popupkarte mit Definitionsdetails](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) der Zielgruppe enthält den Parameternamen im Abschnitt „Regeln“. Auf die Mbox, die zum Filtern verwendet wird, wird nicht verwiesen.
 
@@ -43,4 +57,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
