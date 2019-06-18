@@ -1,31 +1,29 @@
 ---
-description: Zielen Sie auf Benutzer anhand ihres geografischen Standortes ab (inklusive Land, Bundesland, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber).
+description: Verwenden Sie Zielgruppen, um Benutzer basierend auf ihrem geografischen Standort, einschließlich Land, Bundesland/-staat, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber, als Ziel auszuwählen.
 keywords: Targeting; a4t;geo; geotargeting; Genauigkeit von Geotargeting; Land; Bundesland; Stadt; Postleitzahl; dma; Mobilnetzbetreiber; Stadtvorwahl; Regionalcode; Landesvorwahl; Metrocode; Profilskripts; Geotargeting Profilskripts; Geotargeting mobiler Geräte
-seo-description: Zielen Sie auf Benutzer anhand ihres geografischen Standortes ab (inklusive Land, Bundesland, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber).
+seo-description: Verwenden Sie Adobe Target-Zielgruppen, um Benutzer basierend auf ihrem geografischen Standort, einschließlich Land, Bundesland/-staat, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber, als Ziel auszuwählen.
 seo-title: Geo
 solution: Target,Analytics
-title: Geo
+title: Geo Targeting in Adobe Target
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Geo{#geo}
 
-Zielen Sie auf Benutzer anhand ihres geografischen Standortes ab (inklusive Land, Bundesland, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber).
+Verwenden Sie Zielgruppen, um Benutzer basierend auf ihrem geografischen Standort, einschließlich Land, Bundesland/-staat, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber, als Ziel auszuwählen.
 
-Geo-Positionsparameter ermöglichen das Targeting der Aktivitäten und Erlebnisse anhand der geografischen Daten der Besucher. Sie können Besucher anhand ihres Standortes (Land, Bundesland, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber) ein- oder ausschließen. Diese Daten werden mit jeder Mbox-Anfrage gesendet und basieren auf der IP-Adresse des Besuchers. Diese Parameter können wie Targeting-Werte ausgewählt werden.
+Geo-Positionsparameter ermöglichen das Targeting der Aktivitäten und Erlebnisse anhand der geografischen Daten der Besucher. Sie können Besucher basierend auf Land, Bundesland/-staat, Stadt, Postleitzahl, Breitengrad, Längengrad, DMA oder Mobilnetzbetreiber einbeziehen oder ausschließen. Diese Daten werden mit jeder Target-Anfrage gesendet und basieren auf der IP-Adresse des Besuchers. Diese Parameter können wie Targeting-Werte ausgewählt werden.
 
 ## Erstellen einer Zielgruppe mit Geotargeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
 1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Geo]**.
-
-   ![](assets/target_geo.png)
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
@@ -41,14 +39,19 @@ Geo-Positionsparameter ermöglichen das Targeting der Aktivitäten und Erlebniss
 
    [!DNL Target] verwendet für Mobilnetzbetreiber die IP-Adressregistrierungsdaten (die Eigentümer des IP-Adressenblocks sind), um den geeigneten Mobilnetzbetreiber mithilfe von [Mobile Country Codes (MCC) und Mobile Network Codes (MNC)](https://www.mcc-mnc.com) zu ermitteln.
 
+1. Geben Sie einen Operator und den entsprechenden Wert an.
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
+Die folgende Abbildung zeigt eine Zielgruppe, die auf Benutzer abzielt, die auf die Aktivität über einen Breitengrad größer als 44 Grad und einen Längengrad von unter 22 Grad abzielen.
+
+![](assets/target_geo.png)
+
 ## Genauigkeit {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-Die Genauigkeit von Geotargeting hängt von verschiedenen Faktoren ab. WLAN-Verbindungen sind genauer als Mobilfunknetze. Wenn der Besucher eine mobile Datenverbindung nutzt, kann die Genauigkeit der Standortsuche durch den Standort, die Datenbeziehung zwischen dem Anbieter und DeviceAtlas und anderen Faktoren beeinflusst werden. Durch Mobilfunkmasten gestützte Netzwerkverbindungen sind in der Regel weniger genau als kabelgebundene oder WLAN-Verbindungen. Die IP-Adresse eines Besuchers kann zudem dem Standort seines ISP zugeordnet werden, der möglicherweise nicht dem tatsächlichen Standort des Besuchers entspricht. Einige Probleme mit dem mobilen geografischen Standort können mithilfe der [Geografischer Standort-API](https://developer.mozilla.org/de/docs/Web/WebAPI/verwenden_von_geolocation) behoben werden.
+Die Genauigkeit von Geotargeting hängt von verschiedenen Faktoren ab. WLAN-Verbindungen sind genauer als Mobilfunknetze. Wenn der Besucher eine Mobilfunkverbindung nutzt, kann die Genauigkeit der Geo-Suche durch die Position, die Datenbeziehung des Anbieters mit [deviceatlas](https://deviceatlas.com/device-data/user-agent-tester)und andere Faktoren beeinflusst werden. Durch Mobilfunkmasten gestützte Netzwerkverbindungen sind in der Regel weniger genau als kabelgebundene oder WLAN-Verbindungen. Die IP-Adresse eines Besuchers kann zudem dem Standort seines ISP zugeordnet werden, der möglicherweise nicht dem tatsächlichen Standort des Besuchers entspricht. Einige Probleme mit dem mobilen geografischen Standort können mithilfe der [Geolocation-API behoben](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)werden.
 
-Die folgende Tabelle zeigt die Genauigkeit der IP-basierten geografischen Informationen von [DigitalEnvoy](https://www.digitalelement.com/solutions/) für kabelgebundene oder WLAN-Internetverbindungen. DigitalEnvoy bietet die präzisesten Daten in der Branche. Die Gesamtgenauigkeit beläuft sich auf 99,9 % auf Länderebene und auf bis zu 97 % auf Stadtebene. Die Daten zur Genauigkeit sind nicht für durch Mobilfunkmasten gestützte Netzwerke gültig.
+In der folgenden Tabelle finden Sie Informationen zur Genauigkeit IP-basierter Standortdaten von [DigitalEnvoy](https://www.digitalelement.com/solutions/) für kabelgebundene oder WLAN-Internetverbindungen. DigitalEnvoy bietet die präzisesten Daten in der Branche. Die Gesamtgenauigkeit beläuft sich auf 99,9 % auf Länderebene und auf bis zu 97 % auf Stadtebene. Die Daten zur Genauigkeit sind nicht für durch Mobilfunkmasten gestützte Netzwerke gültig.
 
 | Land | Land | Stadt | Region |
 |--- |--- |--- |--- |
@@ -112,7 +115,7 @@ Beispiele:
 
 **Wie funktioniert Geotargeting für Mobilgeräte?**
 
-Die überwiegende Mehrheit der Mobilgerätebenutzer greift über WLAN auf Inhalte zu. Das bedeutet, dass das IP-basierte Geotargeting von Target genauso präzise ist wie auf einem Desktop. Funkzellenbasierte Verbindungen können ungenauer sein, da die IP-Adresse des Besuchers auf der Funkzelle basiert, bei der das Signal erfasst wird. Einige Probleme mit dem mobilen geografischen Standort können mithilfe der [Geografischer Standort-API](https://developer.mozilla.org/de/docs/Web/WebAPI/verwenden_von_geolocation) behoben werden.
+Die überwiegende Mehrheit der Mobilgerätebenutzer greift über WLAN auf Inhalte zu. Das bedeutet, dass das IP-basierte Geotargeting von Target genauso präzise ist wie auf einem Desktop. Funkzellenbasierte Verbindungen können ungenauer sein, da die IP-Adresse des Besuchers auf der Funkzelle basiert, bei der das Signal erfasst wird. Einige Probleme mit dem mobilen geografischen Standort können mithilfe der [Geolocation-API behoben](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)werden.
 
 **Wie geht die Geo-Funktion mit Besuchern von AOL um?**
 
@@ -127,7 +130,7 @@ Aufgrund des Traffic-Managements von AOL können wir für sie nur Targeting auf 
 * DMA/ITV (GB) - USA, GB
 * Mobilnetzbetreiber - global
 
-**Wie kann ich meine Kampagnen als Benutzer von einem anderen Standort testen?**
+**Wie kann ich meine Aktivitäten so testen, als ob ich ein Benutzer von einem anderen Standort bin?**
 
 Sie können Ihre IP-Adresse durch eine Adresse von einem anderen Standort ersetzen und den URL-Parameter `mboxOverride.browserIp url` verwenden. Wenn sich Ihr Unternehmen beispielsweise in GB befindet und Ihre globalen Kampagnen auf Besucher in Auckland in Neuseeland abzielen, verwenden Sie folgendes URL-Format (vorausgesetzt, dass es sich bei `60.234.0.39` um eine IP-Adresse in Auckland handelt):
 
@@ -146,4 +149,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
