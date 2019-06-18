@@ -1,24 +1,20 @@
 ---
-description: Sie können Benutzer, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden, als Ziel auswählen.
+description: Sie können Zielgruppen in Adobe Target erstellen, um Benutzer, die einen bestimmten Browser oder eine bestimmte Browseroptionen verwenden, beim Besuch Ihrer Seite als Ziel auszuwählen.
 keywords: Browseroptionen; Typ; Browsertyp; Browsersprache; Sprache; Version; Browserversion
-seo-description: Sie können Benutzer, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden, als Ziel auswählen.
-seo-title: Browser
+seo-description: Sie können Zielgruppen in Adobe Target erstellen, um Benutzer, die einen bestimmten Browser oder eine bestimmte Browseroptionen verwenden, beim Besuch Ihrer Seite als Ziel auszuwählen.
+seo-title: Browseroptionen in Adobe Target-Zielgruppen
 solution: Target
 subtopic: Multivarianz-Test
 title: Browser
 topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Browser{#browser}
-
-Sie können Benutzer, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden, als Ziel auswählen.
-
-## Browser {#concept_925EAD7A8A42431395F9792AC7C3F76B}
 
 Sie können Benutzer, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden, als Ziel auswählen.
 
@@ -35,32 +31,32 @@ Die folgenden Browser können als Ziel ausgewählt werden:
 
 Es gibt zwei Möglichkeiten, Browser auszurichten:
 
-* **Vordefinierte Zielgruppe:** Verwenden Sie diesen Typ, wenn Sie nur Besucher ansprechen möchten, die für den Besuch auf Ihrer Site einen speziellen Browser verwenden. Wenn Sie zum Beispiel eine Chrome-Erweiterung anbieten, würden Sie nur Chrome-Benutzer ansprechen.
+**Vordefinierte Zielgruppe:** Verwenden Sie diesen Typ, wenn Sie nur Besucher ansprechen möchten, die für den Besuch auf Ihrer Site einen speziellen Browser verwenden. Wenn Sie zum Beispiel eine Chrome-Erweiterung anbieten, würden Sie nur Chrome-Benutzer ansprechen.
 
-   1. Wählen Sie beim Einrichten Ihrer Aktivität den Browser aus der Dropdownliste „Zielgruppe“ aus.
+1. Wählen Sie beim Einrichten Ihrer Aktivität den Browser aus der Dropdownliste „Zielgruppe“ aus.
 
-      Diese Option richtet die Aktivität nur auf Besucher aus, die den angegebenen Browser verwenden.
+   Diese Option richtet die Aktivität nur auf Besucher aus, die den angegebenen Browser verwenden.
 
-* **Benutzerdefinierte Browser-Zielgruppenregel:** Mit einer benutzerdefinierten Zielgruppe können Sie mehrere Browser als Ziel definieren oder Regeln bzw. Ausschlüsse für spezielle Browser, Browserversionen oder Browsersprachen festlegen. Dies bietet eine erhebliche Flexibilität bei der Ausrichtung einer Kampagne auf der Grundlage von Browserattributen.
+**Benutzerdefinierte Browser-Zielgruppenregel:** Mit einer benutzerdefinierten Zielgruppe können Sie mehrere Browser als Ziel definieren oder Regeln bzw. Ausschlüsse für spezielle Browser, Browserversionen oder Browsersprachen festlegen. Dies bietet eine erhebliche Flexibilität bei der Ausrichtung einer Kampagne auf der Grundlage von Browserattributen.
 
-   1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
-   1. Nennen Sie die Zielgruppe.
-   1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Browser]**.
+1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
+1. Nennen Sie die Zielgruppe.
+1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Browser]**.
 
-      ![](assets/target_browser.png)
+   ![Regeln &gt; Brower](assets/target_browser.png)
 
-   1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
+1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
-      * **Typ:** Schließen Sie einen bestimmten Browser ein oder aus. Weitere Informationen finden Sie unter [Typ](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-      * **Sprache:** Schließen Sie bestimmte Browserversionen, die spezifische Sprachen verwenden, ein oder aus. Weitere Informationen finden Sie unter [Sprache](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-      * **Version:** Schließen Sie bestimmte Browserversionen ein oder aus. Weitere Informationen finden Sie unter [Version](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
-   1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
-   1. Klicken Sie auf **[!UICONTROL Speichern]**.
+   * **Typ:** Schließen Sie einen bestimmten Browser ein oder aus. Weitere Informationen finden Sie unter [Typ](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+   * **Sprache:** Schließen Sie bestimmte Browserversionen, die spezifische Sprachen verwenden, ein oder aus. Weitere Informationen finden Sie unter [Sprache](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+   * **Version:** Schließen Sie bestimmte Browserversionen ein oder aus. Weitere Informationen finden Sie unter [Version](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
+1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Das folgende Beispiel zeigt eine Zielgruppe, die Internet Explorer-Benutzer in Version 10 oder 11 umfasst:
 
-![](assets/target_exclude_ie.png)
+![Target IE 10 und 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
 
 ## Browseroptionen {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -75,15 +71,13 @@ Wählen Sie **[!UICONTROL Typ]** und wählen Sie entweder gleich oder nicht glei
 * Gleich: Schließt die ausgewählten Browser als Ziel ein.
 * Nicht gleich: Schließt die ausgewählten Browser aus.
 
-Wählen Sie einen oder mehrere Browser aus.
-
-Mehrfachoptionen sind mit einem ODER verbunden.
+Wählen Sie einen oder mehrere Browser aus. Mehrfachoptionen sind mit einem ODER verbunden.
 
 ### Sprache {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
-Schließen Sie bestimmte Browserversionen, die spezifische Sprachen verwenden, als Ziel ein oder aus.
+Schließen Sie bestimmte Browser mit bestimmten Sprachen ein oder aus.
 
-Wenn zum Beispiel ein Angebot nur auf Englisch verfügbar ist, können Sie Browser als Ziel einschließen, deren Sprache auf Englisch festgelegt ist. Oder wenn Ihre Seite keine Doppel-Byte-Zeichen unterstützt, können Sie Browser ausschließen, die für asiatische Sprachen eingestellt sind.
+Wenn ein Angebot beispielsweise nur auf Englisch verfügbar ist, können Sie Browser mit ihrer Sprache auf Englisch ausrichten. Oder wenn Ihre Seite keine Doppel-Byte-Zeichen unterstützt, können Sie Browser ausschließen, die für asiatische Sprachen eingestellt sind.
 
 In Fällen, in denen die Sprache wichtiger als der Standort ist, bietet das Ein- oder Ausschließen von Browsersprachen eine zielgerichtetere Besucheransprache als die geografisch basierte Kundenansprache. Wenn Sie zum Beispiel einen auf Englisch geschriebenen Artikel anbieten, können Sie entweder englischsprachige Länder oder Länder, deren Sprache auf Englisch festgelegt ist, als Ziel einschließen. Wenn Sie den Browser als Ziel einschließen, steht der Artikel Personen zur Verfügung, die Englisch verstehen, sich jedoch in Ländern befinden, in denen Englisch nicht die Hauptsprache ist.
 
@@ -92,7 +86,7 @@ Wählen Sie **[!UICONTROL Sprache]** und wählen Sie entweder gleich oder nicht 
 * Gleich: Schließt die ausgewählten Browsersprachen als Ziel ein.
 * Nicht gleich: Schließt die ausgewählten Browsersprachen als Ziel aus.
 
-Wählen Sie eine oder mehrere Sprachen aus.
+Wählen Sie eine oder mehrere Sprachen aus. Mehrfachoptionen sind mit einem ODER verbunden.
 
 Folgende Browsersprachen können als Ziel ein- oder ausgeschlossen werden.
 
@@ -105,8 +99,6 @@ Folgende Browsersprachen können als Ziel ein- oder ausgeschlossen werden.
 * Russisch
 * Spanisch
 * Traditionelles Chinesisch
-
-Mehrfachoptionen sind mit einem ODER verbunden.
 
 ### Version {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
@@ -136,4 +128,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
