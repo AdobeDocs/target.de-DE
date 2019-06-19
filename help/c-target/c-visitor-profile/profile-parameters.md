@@ -1,35 +1,33 @@
 ---
-description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Kampagnen verwendet werden können.
+description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, der in Ihren Adobe Target-Aktivitäten verwendet werden kann.
 keywords: Profilskript; Profilskriptattribute; Best Practices für Profilskripte; debug; Debugging
-seo-description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Kampagnen verwendet werden können.
-seo-title: Profilattribute
+seo-description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, der in Ihren Adobe Target-Aktivitäten verwendet werden kann.
+seo-title: Profilattribute in Adobe Target
 solution: Target
 title: Profilattribute
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
 
 # Profilattribute{#profile-attributes}
 
-Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Kampagnen verwendet werden können.
+Profilattribute sind Parameter, die für einen Besucher spezifisch sind. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, der in Ihren Aktivitäten verwendet werden kann.
 
-## Profilattribute {#concept_01A30B4762D64CD5946B3AA38DC8A201}
-
-Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Kampagnen verwendet werden können.
-
-Wenn der Besucher weiter surft oder zu einer weiteren Sitzung zurückkehrt, können die gespeicherten Profilattribute genutzt werden, um Zielinhalte festzulegen oder Informationen zur Segmentfilterung zu protokollieren.
+Wenn ein Besucher Ihre Website durchsucht oder wenn der Besucher zu einer weiteren Sitzung zurückkehrt, können die gespeicherten Profilattribute verwendet werden, um Inhalte oder Protokollinformationen für die Segmentfilterung abzuzielen.
 
 Klicken Sie zum Einrichten von Profilattributen auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Profilskripte]**.
+
+![Profilskripte, Registerkarte](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
 Die folgenden Typen von Profilattributen sind verfügbar:
 
 | Parametertyp | Beschreibung |
 |--- |--- |
-| mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>Hinweis: Target erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an Target übergeben müssen, können Sie hierzu die API-Methode Profilupdate nutzen. Weitere Informationen finden Sie unter [Profil Update in der Adobe Target-API Dokumentation](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Hinweis: Target erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an Target übergeben müssen, können Sie hierzu die API-Methode Profilupdate nutzen. Weitere Informationen finden Sie unter [Profilupdate in der Dokumentation zur Adobe Target-API](http://developers.adobetarget.com/api/#updating-profiles). |
 | Skript | Direkt mit einem JavaScript-Codebeispiel definiert. Mit diesen können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte können bei jeder Mbox-Anfrage ausgeführt werden. Siehe Profilskriptattribute unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -56,7 +54,7 @@ Um ein vorhandenes Profilskript zu kopieren, halten Sie in der Liste [!UICONTROL
 
 Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
 
-![](assets/profile-script.png)
+![Profilskript erstellen, Dialogfeld](assets/profile-script.png)
 
 Profilskripte führen Profilattribut-„Fänger“ bei jeder Ortsanforderung aus. Beim Empfang einer Ortsanforderung bestimmt Target, welche Aktivität ausgeführt werden soll, und zeigt den für diese Aktivität und das Erlebnis geeigneten Inhalt an. Das Programm verfolgt den Erfolg der Aktivität und führt relevante Profilskripte aus. Auf diese Weise können Sie Informationen über den Besuch erfassen, z. B. Ort, Tageszeit und Anzahl der Besuche auf der Site, ob zuvor ein Kauf getätigt wurde usw. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können.
 
@@ -72,7 +70,7 @@ if (mbox.name == 'Track_Interest') {
 
 * Siehe Profilskriptattribute (auch das im Code enthaltene) im Code mit `user.get('parameterName')`.
 * Speichern Sie Variablen, die beim nächsten Ausführen des Skripts (bei der nächsten mbox-Anfrage) aufgerufen werden könnten, mit `user.setLocal('variable_name', 'value')`. Verweisen Sie auf die Variable mit `user.getLocal('variable_name')`. Dies ist hilfreich in Situationen, in denen Sie einen Verweis für Datum und Uhrzeit der letzten Anfrage setzen möchten.
-* Bei Parametern und Werten wird zwischen Groß- und Kleinschreibung unterschieden. Achten Sie darauf, dass die Schreibung der Parameter und Werte, die Sie während der Kampagne oder dem Test empfangen, entsprechend ist.
+* Bei Parametern und Werten wird zwischen Groß- und Kleinschreibung unterschieden. Berücksichtigen Sie den Fall der Parameter und Werte, die Sie während der Aktivität oder des Tests empfangen werden.
 * Weitere JavaScript-Syntax finden Sie im Abschnitt „JavaScript-Referenz für Skript-Profilparameter“.
 
 ## Anzeigen der Karten mit Profilskriptinformationen {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -345,4 +343,4 @@ In diesem Video erfahren Sie, wie Profilskripte erstellt und verwendet werden.
 * Verwenden des Menüs „Verfügbare Token“ für den Zugriff auf verfügbare Optionen
 * Aktivieren und Deaktivieren von Profilskripten
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/17394?captions=ger)
