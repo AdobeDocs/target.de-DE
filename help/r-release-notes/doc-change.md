@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
@@ -21,50 +21,16 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 17. Juni 2019 | [Aktivitäts-URL](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | Text und Bilder aktualisiert. |
-|  | [Erstellen von Kombinationen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | Text und Bilder aktualisiert. |
-|  | [Erlebnisvorschau für Multivarianz-Tests](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | Text und Bilder aktualisiert. |
-|  | [Ziele und Einstellungen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | Text und Bilder aktualisiert. |
-|  | [Festlegen von Metriken](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md) | Text und Abbildung aktualisiert. |
-|  | [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md) | Text und Bilder aktualisiert. |
-|  | [Bearbeiten einer Aktivität oder Speichern als Entwurf](/help/c-activities/edit-activity.md) | Text und Bilder aktualisiert. |
-|  | [Aktivitätsänderungsprotokoll](/help/c-activities/change-log.md) | Text und Abbildung aktualisiert. |
-|  | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Text und Bilder aktualisiert. |
-| 16. Juni 2019 | [Erstellen eines Multivarianz-Tests](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | Text und Bilder aktualisiert. |
-| 15. Juni 2019 | [Multivarianz-Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Kleinere Textänderungen wurden vorgenommen. |
-|  | [Best Practices für Multivarianz-Tests](/help/c-activities/c-multivariate-testing/best-practices.md) | Kleinere Textänderungen wurden vorgenommen. |
-|  | [Planen eines Multivarianz-Tests](/help/c-activities/c-multivariate-testing/plan-mvt.md) | Kleinere Textänderungen wurden vorgenommen. |
-| 14. Juni 2019 | [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md) | Verwendungsfall wurde hinzugefügt. |
-|  | [Erstellen einer Erlebnis-Targeting-Aktivität](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | Text und Bilder aktualisiert. |
-|  | XT: [Aktivitäts-URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | Text aktualisiert. |
-|  | XT: [Erlebnis erstellen](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Text und Bilder aktualisiert. |
-|  | [Wechseln von Erlebnissen in Erlebnis-Targeting](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | Text und Bilder aktualisiert. |
-|  | XT: [Ziele und Einstellungen](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | Text und Bilder aktualisiert. |
-|  | XT: [Metriken festlegen](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | Text und Abbildung aktualisiert. |
+| 19. Juni 2019 | [Hinzufügen von Promotions](/help/c-recommendations/t-create-recs-activity/adding-promotions.md) | Es wurden Informationen zu Werbeaktionen hinzugefügt, die für Artikel dedupliziert werden, die für die Kriterien der Aktivität empfohlen werden. |
 | 13. Juni 2019 | [Bericht „Wichtige Attribute“](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Neue FAQ hinzugefügt: &quot; Warum erhalten einige Angebote/Erlebnisse mit einer niedrigeren Umrechnungsrate eine größere Traffic-Rate im Vergleich zu anderen Angeboten/Erlebnissen für ein bestimmtes automatisiertes Segment? « |
-|  | [Erstellen einer Automated Personalization-Aktivität](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Text und Bilder aktualisiert. |
-|  | [Schätzen des für einen erfolgreichen Test erforderlichen Traffics](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Neues Bild wurde hinzugefügt. |
-|  | [Anzeigen einer Erlebnisvorschau für Automated Personalization im Visual Experience Composer](/help/c-activities/t-automated-personalization/ap-preview-experiences.md) | Text und Bilder aktualisiert. |
-|  | [Targeting von Automated Personalization-Angeboten](/help/c-activities/t-automated-personalization/ap-target-offers.md) | Text und Bilder aktualisiert. |
-|  | [Verwalten von Ausschlüssen](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Text und Bilder aktualisiert. |
-| 12. Juni 2019 | [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md) | Text und Bilder aktualisiert. |
 |  | [Funktionsweise von Adobe Target](/help/c-intro/how-target-works.md) | Es wurde ein wichtiger Hinweis zur Verwendung von Target in China hinzugefügt. |
 |  | [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Microsoft Internet Explorer 11 (IE 11) wurde aus dem Abschnitt &quot;Target Standard/Premium&quot; entfernt. Target unterstützt oder behält die Kompatibilität für IE 11 nicht mehr bei. Diese Änderung betrifft nur die Target-Benutzeroberfläche. Die Inhaltsbereitstellung ist nicht betroffen. Diese Änderung ähnelt ähnlichen Mitteilungen von Adobe Analytics, der Adobe Experience Platform und Adobe Audience Manager. Wir empfehlen Benutzern, zu einem unterstützten Browser zu wechseln. |
 | 11. Juni 2019 | [Aktivitätserstellung](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Es wurde ein Hinweis entfernt, der besagt, dass es nicht möglich ist, einen Tracking-Server anzugeben, wenn Sie A 4 T verwenden. |
-|  | [Erstellen eines A/B-Tests](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | Text und Bilder aktualisiert. |
-|  | A/B-Test: [Aktivitäts-URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | Text und Bilder aktualisiert. |
-|  | A/B-Test: [Zielgruppe auswählen](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) | Text und Bilder aktualisiert. |
-|  | A/B-Test: [Ziele und Einstellungen](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) | Text und Bilder aktualisiert. |
-|  | A/B-Test: [Metriken festlegen](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md) | Text und Bilder aktualisiert. |
-|  | [Verschiedene Erlebnisversionen in A/B-Tests](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) | Text und Bilder aktualisiert. |
 |  | [Aktivitäten](/help/c-activities/activities.md) | Es wurde hervorgehoben, dass gelöschte Aktivitäten nicht wiederhergestellt werden können. Als Best Practice können Sie eine Aktivität so archivieren, dass sie bei Bedarf dearchiviert werden kann. |
 |  | [Aktualisieren von at.js 1.x auf at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Die Einschränkung wurde entfernt, dass der Experience Cloud-Debugger in at. js 2. x nicht vollständig unterstützt wird. |
-|  | [Berichte](/help/c-reports/reports.md) | Text und Bilder aktualisiert. |
 | 7. Juni 2019 | [Anpassen eines Designs mithilfe von Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Neuer Abschnitt hinzugefügt: &quot; Szenario: Erstellen Sie ein standardmäßiges Recommendations-Design von 4 x 2 mit Null-Überprüfungslogik. « |
 |  | [Schulungsvideos für Adobe Target Standard und Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Der Link zur neuen Adobe Target-Tutorials-Site wurde aktualisiert. |
 |  | [iOS – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | Text und Codefragmente wurden aktualisiert. |
-|  | [Lebensdauer des Besucherprofils](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) | Kleinere Textänderungen wurden vorgenommen. |
-|  | [Testen einer E-Mail-Bild-AdBox](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md) | Kleinere Textänderungen wurden vorgenommen. |
 | 6. Juni 2019 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Beschreibung für den `options > page` Parameter aktualisiert. |
 |  | [Erste Schritte für Administratoren](/help/administrating-target/start-target.md) | Der gesamte Artikel wurde aktualisiert. |
 |  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden vorläufige Versionshinweise für die Target-Version 19.6.1 hinzugefügt. |
