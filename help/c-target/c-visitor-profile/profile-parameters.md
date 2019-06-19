@@ -8,7 +8,7 @@ title: Profilattribute
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -81,11 +81,11 @@ Sie können beispielsweise auf folgende Karte mit Profilskriptinformationen zugr
 
 Die Registerkarte [!UICONTROL Skriptinformationen] enthält folgende Informationen: Name, Status, Token-Typ, Skript-ID, Änderungsprotokoll und Beschreibung.
 
-![](assets/profile_script_info_card.png)
+![Profilskript-Info-Karte](assets/profile_script_info_card.png)
 
 Die Registerkarte [!UICONTROL Nutzung von Skripten] enthält die Aktivitäten (und ihre Arbeitsbereiche), die auf das ausgewählte Profilskript verweisen.
 
-![](assets/profile_script_info_card_usage_tab.png)
+![Profilskript-Info &gt; Registerkarte &quot;Skriptnutzung «](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
