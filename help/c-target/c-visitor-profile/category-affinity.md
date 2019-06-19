@@ -1,14 +1,14 @@
 ---
 description: Die Kategorieaffinitätsfunktion erfasst automatisch alle Kategorien, die ein Benutzer besucht, und berechnet die Affinität des Benutzers für diese Kategorien, sodass diese zielgerichtet und segmentiert eingesetzt werden können. Hierdurch wird gewährleistet, dass Inhalte zielgerichtet auf Besucher angewendet werden, die mit großer Wahrscheinlichkeit aufgrund dieser Informationen handeln.
 keywords: Affinität; Kategorieaffinität
-seo-description: Die Kategorieaffinitätsfunktion erfasst automatisch alle Kategorien, die ein Benutzer besucht, und berechnet die Affinität des Benutzers für diese Kategorien, sodass diese zielgerichtet und segmentiert eingesetzt werden können. Hierdurch wird gewährleistet, dass Inhalte zielgerichtet auf Besucher angewendet werden, die mit großer Wahrscheinlichkeit aufgrund dieser Informationen handeln.
-seo-title: Kategorieaffinität
+seo-description: Die Kategorieaffinitätsfunktion in Adobe Target erfasst automatisch die Kategorien, die ein Benutzer besucht, und berechnet dann die Affinität des Benutzers für die Kategorie, sodass er gezielt ausgerichtet und segmentiert werden kann. Hierdurch wird gewährleistet, dass Inhalte zielgerichtet auf Besucher angewendet werden, die mit großer Wahrscheinlichkeit aufgrund dieser Informationen handeln.
+seo-title: Verwenden der Kategorieaffinität in Adobe Target
 solution: Target
 title: Kategorieaffinität
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -52,49 +52,49 @@ Der Algorithmus für die Kategorieaffinität funktioniert wie folgt:
 * Wenn auf eine sechste neue Kategorie geklickt wird, wird die als am niedrigsten eingestufte Kategorie der ersten fünf Kategorien aus der Berechnung entfernt
 * Teilen Sie am Ende der Sitzung alle Werte durch 2
 
-### Beispiel: Kategorieaffinitätsalgorithmus
+### Beispiel: Kategorieaffinitäts-Algorithmus
 
-Wenn Sie z. B. die `mens-clothing` Kategorie ansehen und dann `accessories``jewelry``accessories` erneut in einer Sitzung aufrufen, führt dies zu Affinitäten von:
+Wenn jemand z. B. die `mens-clothing`-Kategorie ansieht, dann `accessories`, dann `jewelry`, und dann `accessories` erneut in einer Sitzung aufruft, führt dies zu Affinitäten von:
 
-* `accessories`: 9 (+5 – 1 + 5)
+* `accessories`: 9 (= +5 – 1 + 5)
 
-* `mens-clothing`: 8 (+10 – 1 – 1)
+* `mens-clothing`: 8 (= +10 – 1 – 1)
 
-* `jewelry`: 5 (+5)
-
-Wenn die Sitzung beendet wird und der Benutzer später zur Site zurückkehrt, werden die Ergebnisse halbiert:
-
-* `accessories`: 4.5 (9/2)
-
-* `mens-clothing`: 4 (8/2)
-
-* `jewelry`: 2.5 (5/2)
-
-Angenommen, der Benutzer sieht sich dann in der Reihenfolge, in der Reihenfolge, `jewelry``accessories``beauty`in `shoes`der folgenden Reihenfolge und `womens-clothing`an:
-
-* `accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
-
-* `womens-clothing`: 5 (+5)
-
-* `jewelry`: 4.5 (2.5 + 5 – 1 – 1 - 1)
-
-* `shoes`: 4 (+5 – 1)
-
-* `beauty`: 3 (+5 – 1 - 1)
-
-* `mens-clothing` nach dem letzten Klick auf `womens-clothing` die Kategorie mit der niedrigsten Bewertung mit einem Wert von 1 (4 - 1 - 1 - 1)
+* `jewelry`: 5 (= +5)
 
 Wenn die Sitzung beendet wird und der Benutzer später zur Site zurückkehrt, werden die Ergebnisse halbiert:
 
-* `accessories`: 3.3 (6.5/2)
+* `accessories`: 4,5 (= 9/2)
 
-* `womens-clothing`: 2.5 (5/2)
+* `mens-clothing`: 4 (= 8/2)
 
-* `jewelry`: 2.3 (4.5/2)
+* `jewelry`: 2,5 (= 5/2)
 
-* `shoes`: 2 (4/2)
+Angenommen, der Benutzer sieht sich dann, in dieser Reihenfolge, `jewelry`, `accessories`, `beauty`, `shoes` und `womens-clothing` an:
 
-* `beauty`: 1.5 (3/2)
+* `accessories`: 6.5 (= 4.5 + 5 – 1 – 1 – 1)
+
+* `womens-clothing`: 5 (= +5)
+
+* `jewelry`: 4.5 (= 2.5 + 5 – 1 – 1 – 1)
+
+* `shoes`: 4 (= +5 – 1)
+
+* `beauty`: 3 (= +5 – 1 – 1)
+
+* `mens-clothing` wird nach dem letzten Klick auf `womens-clothing` fallengelassen, da es mit einem Wert von 1 (= 4 – 1 – 1 – 1) die Kategorie mit der niedrigsten Bewertung ist
+
+Wenn die Sitzung beendet wird und der Benutzer später zur Site zurückkehrt, werden die Ergebnisse halbiert:
+
+* `accessories`: 3,3 (= 6,5/2)
+
+* `womens-clothing`: 2,5 (= 5/2)
+
+* `jewelry`: 2,3 (= 4,5/2)
+
+* `shoes`: 2 (= 4/2)
+
+* `beauty`: 1,5 (= 3/2)
 
 ## Kategorieaffinität für Targeting verwenden {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
@@ -102,8 +102,8 @@ Information darüber, wie Sie eine [!UICONTROL Kategorieaffinität]-Zielgruppe f
 
 Dieser Abschnitt enthält die folgenden Informationen:
 
-* [Erstellen einer Kategorie zur Verwendung der Kategorieaffinität](../../c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40)
-* [Verwenden der Kategorieaffinität für Aktivitäten](../../c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
+* [Erstellen einer Zielgruppe zur Verwendung der Kategorieaffinität](../../c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40)
+* [Verwenden der Kategorieaffinität in einer Aktivität](../../c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
 
 ## Erstellen einer Zielgruppe zur Verwendung der Kategorieaffinität {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
@@ -117,9 +117,13 @@ Dieser Abschnitt enthält die folgenden Informationen:
 1. Klicken Sie auf **[!UICONTROL + Regel hinzufügen]** &gt; **[!UICONTROL Besucherprofil]**.
 1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Besucherprofil]** **[!UICONTROL die Option Kategorieaffinität]** aus.
 
-   ![](assets/affinity.png)
+   ![Besucherprofil &gt; Kategorieaffinität](assets/affinity.png)
 
 1. Wählen Sie die gewünschte Kategorie aus:
+
+   ![Kategorieaffinität &gt; Kategorie](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+
+   Zu den Kategorien gehören:
 
    * Favoritenkategorie
    * Erste Kategorie
@@ -130,8 +134,8 @@ Dieser Abschnitt enthält die folgenden Informationen:
 
 1. Wählen Sie einen Auswerter aus:
 
-   * enthält (Groß-/Kleinschreibung berücksichtigt)
-   * enthält nicht (Groß-/Kleinschreibung nicht berücksichtigt)
+   * enthält (nicht von Schreibweise abhängig)
+   * enthält nicht (nicht von Schreibweise abhängig)
    * Gleich
 
 1. Geben Sie jeden neuen Wert in einer eigenen Zeile an (beispielsweise „Schuhe“).
