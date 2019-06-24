@@ -4,7 +4,7 @@ audience: Endbenutzer
 user-guide-title: Adobe Target-Hilfe
 user-guide-url: /content/help/de/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: b6b649e31173e80fd0a79b3ce695c130052bf81a
+source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 
 ---
 
@@ -54,7 +54,6 @@ source-git-commit: b6b649e31173e80fd0a79b3ce695c130052bf81a
          + [Datenschutz – Überblick](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Privatsphäre und Datenschutz-Grundverordnung (DSGVO)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Löschen des Target-Cookies](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
-         + [Google Chrome-Cookie-Richtlinien](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
       + Verfahren für die Datenübernahme in Target {#methods}
          + [Methoden](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profil-API-Einstellungen](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
