@@ -8,7 +8,7 @@ title: Visual Experience Composer–Optionen
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: e96730720a07a599b2c77fbf93d3660e8198eea1
+source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 
 ---
 
@@ -54,7 +54,7 @@ Verwenden Sie den Farbwähler, um eine Hintergrundfarbe auszuwählen oder zu kon
 
 **Hinweis:** Diese Option ist nicht für Elemente verfügbar, wenn ein Hintergrundbild festgelegt ist.
 
-#### Stile {#styles}
+#### Stile
 
 Verwenden Sie das Bedienfeld [!UICONTROL Stile], um den Wert vorhandener Stile für das ausgewählte Element anzuzeigen oder zu bearbeiten. Sie können auch zusätzliche Formatierungen hinzufügen.
 
@@ -73,20 +73,6 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 >[!NOTE]
 >
 >Schnellaktionen für Layoutänderungen, Hintergrundfarbe, Größenanpassungen und Verschieben sind ebenfalls als separate Aktionen im VEC-Menü verfügbar. Diese Optionen können als separate Aktionen genutzt werden oder Sie können das Menü „Stile“ verwenden, wie hier beschrieben.
-
-* **Hintergrund**
-
-   Ändern Sie die Hintergrundfarbe und das Bild.
-
-   * Farbe (geben Sie den Farbcode an oder verwenden Sie den Farbwähler)
-   * Bild (wählen Sie ein Bild aus der Bildauswahl aus)
-   * Bildquelle (geben Sie eine externe URL an)
-   * Anlage
-      * Klicken Sie auf die obere Dropdownliste, um einen Bildlauf, ein festes Layout oder ein lokal auszuwählen.
-      * Klicken Sie auf die untere Dropdownliste, um wiederholen, repeat-x, repeat-y, no-repeat, space oder round auszuwählen.
-   * Clip
-      * Klicken Sie auf die obere Dropdownliste, um die Randfarbe, das Umrandungsfeld, den Inhaltsfeld oder den Text auszuwählen.
-      * Klicken Sie auf die untere Dropdownliste, um die automatische Audio- oder Audiowiedergabe auszuwählen.
 
 * **Typografie**
 
