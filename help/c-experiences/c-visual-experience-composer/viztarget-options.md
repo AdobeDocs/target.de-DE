@@ -7,8 +7,8 @@ solution: Target
 title: Visual Experience Composer–Optionen
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: e96730720a07a599b2c77fbf93d3660e8198eea1
 
 ---
 
@@ -54,7 +54,7 @@ Verwenden Sie den Farbwähler, um eine Hintergrundfarbe auszuwählen oder zu kon
 
 **Hinweis:** Diese Option ist nicht für Elemente verfügbar, wenn ein Hintergrundbild festgelegt ist.
 
-#### Stile
+#### Stile {#styles}
 
 Verwenden Sie das Bedienfeld [!UICONTROL Stile], um den Wert vorhandener Stile für das ausgewählte Element anzuzeigen oder zu bearbeiten. Sie können auch zusätzliche Formatierungen hinzufügen.
 
@@ -73,6 +73,20 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 >[!NOTE]
 >
 >Schnellaktionen für Layoutänderungen, Hintergrundfarbe, Größenanpassungen und Verschieben sind ebenfalls als separate Aktionen im VEC-Menü verfügbar. Diese Optionen können als separate Aktionen genutzt werden oder Sie können das Menü „Stile“ verwenden, wie hier beschrieben.
+
+* **Hintergrund**
+
+   Ändern Sie die Hintergrundfarbe und das Bild.
+
+   * Farbe (geben Sie den Farbcode an oder verwenden Sie den Farbwähler)
+   * Bild (wählen Sie ein Bild aus der Bildauswahl aus)
+   * Bildquelle (geben Sie eine externe URL an)
+   * Anlage
+      * Klicken Sie auf die obere Dropdownliste, um einen Bildlauf, ein festes Layout oder ein lokal auszuwählen.
+      * Klicken Sie auf die untere Dropdownliste, um wiederholen, repeat-x, repeat-y, no-repeat, space oder round auszuwählen.
+   * Clip
+      * Klicken Sie auf die obere Dropdownliste, um die Randfarbe, das Umrandungsfeld, den Inhaltsfeld oder den Text auszuwählen.
+      * Klicken Sie auf die untere Dropdownliste, um die automatische Audio- oder Audiowiedergabe auszuwählen.
 
 * **Typografie**
 
@@ -100,7 +114,7 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
    * Wert (ziehen Sie den Regler, um den Rand festzulegen, oder legen Sie die Anzahl der Pixel für jeden Rand fest)
    Für den Rand werden positive und negative Werte unterstützt.
 
-   Target unterstützt auch andere Größeneinheiten wie rem, pc, em usw. Weitere Informationen zu diesen Einheiten finden Sie unter [Web Style Sheets CSS Tips und Tricks](https://www.w3.org/Style/Examples/007/units.de.html).
+   Target unterstützt auch andere Größeneinheiten wie rem, pc, em usw. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Umrandung**
 
@@ -110,7 +124,7 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    Umrandungsdicken von 0 aufwärts werden unterstützt.
 
-   Target unterstützt auch [andere Größeneinheiten](https://www.w3.org/Style/Examples/007/units.de.html), z. B. rem, pc, em usw.
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Rahmen**
 
@@ -123,11 +137,11 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
    * Rahmendicke (ziehen Sie den Regler, um eine Rahmendicke auszuwählen, oder legen Sie die Dicke in Pixeln fest)
    Rahmendicken von 0 aufwärts werden unterstützt.
 
-   Target unterstützt auch [andere Größeneinheiten](https://www.w3.org/Style/Examples/007/units.de.html), z. B. rem, pc, em usw.
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Position**
 
-   Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. Sie können die Position des Elements oben, unten, links, rechts sowie seinen [Z-Index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) ändern.
+   Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Klicken Sie auf die Dropdownliste [!UICONTROL Statisch], um aus den folgenden Positionsoptionen auszuwählen:
 
@@ -142,7 +156,7 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
    * Wert (ziehen Sie den Schieberegler, um das Element zu positionieren, oder geben Sie die Anzahl der Pixel an, um die Sie das Element verschieben möchten)
    Für die Position werden positive und negative Werte unterstützt.
 
-   Target unterstützt auch [andere Größeneinheiten](https://www.w3.org/Style/Examples/007/units.de.html), z. B. rem, pc, em usw.
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Größe**
 
