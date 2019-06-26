@@ -7,8 +7,8 @@ solution: Target
 title: Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ Die Zählmethode gibt an, was Target als Nenner für die Konversionsraten verwen
 
 Für den Aktivitätsbericht können Administratoren die Standardmetrik so ändern, dass bei jeder Ausführung des Berichts dieselben Metriken angezeigt werden. Anderenfalls wird der Bericht standardmäßig auf die letzte Metrik festgesetzt, die Sie für Ihren letzten Bericht angewendet haben.
 
-Weitere Informationen finden Sie unter [Auswählen der Standard-Berichtsmetriken](https://marketing.adobe.com/resources/help/de_DE/sc/user/t_metrics_set_default.html) im Handbuch *Reports and Analytics-Schnittstelle*.
+Weitere Informationen finden Sie unter [Standardberichtsmetriken auswählen](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) in der Anleitung *Hilfe zur Reports and Analytics-Schnittstelle*.
 
 ## Wann wende ich ein Segment auf die Metrik (mit einer errechneten Metrik) an und wann wende ich das Segment auf den Bericht an? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -110,13 +110,13 @@ Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und t�
 
 Da vor der Konversion beide Erlebnisse gesehen wurden, wird die Bestellung beiden „gutgeschrieben“. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für Target-Berichte ist es unerheblich, dass die Konversion allen Aktivitäten gutgeschrieben wird, die der Benutzer gesehen hat, weil dort keine Aktivitäten miteinander verglichen werden, um zu ermitteln, welche die erfolgreichere war. In diesen Berichten werden die Ergebnisse zweier Elemente innerhalb einer einzigen Aktivität verglichen. Ein Benutzer kann innerhalb derselben Aktivität keine unterschiedlichen Erlebnisse sehen, weshalb Sie sich über eine mögliche Kreuzkontamination bei der Zuschreibung der Bestellung keine Gedanken machen müssen.
 
-Weitere Informationen finden Sie unter [Konversionsvariablen (eVar)](https://marketing.adobe.com/resources/help/de_DE/reference/conversion_var_admin.html) in der Analytics-Hilfe.
+Weitere Informationen finden Sie in der Analytics-Hilfe unter [Konversionsvariablen (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html).
 
 ## Warum berechnen Analytics und Analytics for Target (A4T) die Zahlen für die Metrik „Unique Visitors“ unterschiedlich? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 Wenn Sie einen A/B-Test ausführen, der den Student-t-Test (die Konfidenzmetrik) verwendet, um einen Gewinner auszuwählen, gilt unter anderem die Annahme, dass es einen festen Zeithorizont gibt. Der Test ist nur dann statistisch gültig, wenn Sie diese feste Stichprobengröße untersuchen.
 
-Die Metrik „Unique Visitors“ ist in Analytics und Target nur dann verschieden, wenn Sie einen Zeitraum untersuchen, der kürzer ist als der eigentliche Test. Wenn die Stichprobengröße nicht erreicht wird, ist der Test nicht sehr zuverlässig. Weitere Informationen finden Sie unter [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) auf der Website [https://www.evanmiller.org/index.html](von Evan Miller).
+Die Metrik „Unique Visitors“ ist in Analytics und Target nur dann verschieden, wenn Sie einen Zeitraum untersuchen, der kürzer ist als der eigentliche Test. Wenn die Stichprobengröße nicht erreicht wird, ist der Test nicht sehr zuverlässig. Weitere Informationen finden Sie unter [How Not to Run an A/B-Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) auf der [Website von Evan Miller](https://www.evanmiller.org/index.html).
 
 Die Metrik „Unique Visitors“ zeigt die Anzahl der Personen im Test, die die Site während des festgelegten Zeitraums besucht haben. Diese Personen sind weiterhin Teil des Tests und müssen berücksichtigt werden. Wenn Sie nur die Anzahl der Personen sehen wollen, die innerhalb einer einzigen Woche betroffen waren, können Sie ein Segment der Besucher erstellen, die eine Aktivitätsimpression hatten, und dieses auf den Bericht anwenden.
 
@@ -144,4 +144,4 @@ Am besten sollten Sie die vorhandene Aktivität stoppen und dann eine neue Aktiv
 
 Sie können mithilfe von [!DNL Adobe Analysis Workspace] tiefere Einblicke gewinnen, um die Daten zu visualisieren oder Einblicke zu finden, die unter der Oberfläche verborgen sind.
 
-Öffnen Sie das Tutorial [Analytics und Target: Bewährte Verfahren zur Analyse](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) von Adobe Experience League.
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
