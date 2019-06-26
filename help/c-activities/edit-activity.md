@@ -8,7 +8,7 @@ title: Bearbeiten einer Aktivität oder Speichern als Entwurf
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,15 +19,15 @@ Informationen zu den verschiedenen Methoden zum Bearbeiten einer vorhandenen Akt
 
 Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichkeit, vorhandene Aktivitäten zu bearbeiten. Der Vorgang variiert je nach gewählter Methode.
 
-## Bearbeiten einer Aktivität mithilfe der Schaltfläche &quot;Hover&quot; auf der Seite&quot; Aktivitäten « {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. Fahren Sie der Seite **[!UICONTROL Aktivitäten]** mit dem Mauszeiger über die zu bearbeitende Aktivität und klicken Sie auf das Symbol **Bearbeiten[!UICONTROL .]**
 
    ![Symbol bearbeiten](/help/c-activities/assets/hover_edit.png)
 
-   Target öffnet die Aktivität im Visual Experience Composer (VEC) und Sie sehen die Seite [!UICONTROL Erlebnisse] (der erste Schritt im geleiteten Arbeitsablauf mit drei Schritten).
+   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
 
-1. Bearbeiten Sie die Aktivität wie gewünscht mithilfe der [VEC-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. Klicken Sie auf die Unterteilung, um zum nächsten Schritt zu gelangen oder um die Aktivität zu speichern.
 
@@ -37,7 +37,7 @@ Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichk
    * **Speichern &amp; Schließen:** Nehmen Sie die gewünschten Änderungen im aktuellen Schritt vor, klicken Sie auf das Dropdown-Menü auf der Trennschaltfläche und wählen Sie dann **[!UICONTROL Speichern und Schließen]**, um die Änderungen zu speichern und die Seite [!UICONTROL Übersicht] der Aktivität anzuzeigen.
    * **Speichern:** Nehmen Sie die gewünschten Änderungen in einem Schritt vor, klicken Sie auf das Dropdown-Menü auf der Trennschaltfläche und wählen Sie dann **[!UICONTROL Speichern]** aus, um Ihre Änderungen zu speichern und bei dem Schritt zu bleiben, in dem Sie weiterhin Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
-## Bearbeiten Sie eine Aktivität, indem Sie die Aktivität öffnen, indem Sie auf der Seite &quot;Aktivitäten&quot; auf den Namen klicken. {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Um das Abarbeiten des gesamten Workflows zu vermeiden, klicken Sie auf der Seite „Aktivitäten“ auf die gewünschte Aktivität, um sie zu öffnen. Wählen Sie dann in der Dropdownliste **[!UICONTROL Aktivität bearbeiten]eine Option aus.**
 
@@ -60,7 +60,7 @@ Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichk
 
 
 
-## Speichern einer Aktivität im Entwurfsformular {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Wenn Sie eine neue, noch nicht gespeicherte Aktivität erstellen oder eine Aktivität bearbeiten, die zuvor in Entwurfsform gespeichert wurde, werden unter der Trennschaltfläche die Optionen für Entwurf speichern angezeigt.
 
