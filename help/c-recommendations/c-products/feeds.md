@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -97,7 +97,7 @@ Wenn Sie über einen vorhandenen Google-Produkt-Feed verfügen, können Sie dies
 >
 >Es müssen nicht Google-Daten verwendet werden. [!DNL Recommendations] verwendet lediglich dasselbe Format wie Google. Sie können mit dieser Methode alle Ihre Daten hochladen und dabei die verfügbaren Planungsfunktionen nutzen. Dennoch müssen Sie die von Google festgelegten und vordefinierten Attributnamen verwenden, wenn Sie die Datei einrichten.
 
-Die meisten Händler laden Produkte in Google hoch, sodass diese angezeigt werden, wenn ein Besucher die Google-Produktsuche verwendet. [!DNL Recommendations] berücksichtigt für Entitäts-Feeds exakt die Spezifikationen von Google. Entitäts-Feeds können an [!DNL Recommendations] über [!DNL .xml], [!DNL .txt] oder [!DNL .tsv] gesendet werden und können die [Attribute verwenden, die definiert werden von Google](https://support.google.com/merchants/answer/188494?hl=de&amp;topic=2473824&amp;ctx=topic#US). Die Ergebnisse sind durchsuchbar auf den [Google Shopping-Seiten](https://www.google.com/prdhp).
+Die meisten Händler laden Produkte in Google hoch, sodass diese angezeigt werden, wenn ein Besucher die Google-Produktsuche verwendet. [!DNL Recommendations] berücksichtigt für Entitäts-Feeds exakt die Spezifikationen von Google. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [Google-Shopping-Seiten](https://www.google.com/prdhp) durchsucht werden.
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ## Analytics-Classifications {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Classification. Weitere Informationen zu dieser Klassifikationsdatei finden Sie unter [Klassifikationen](https://marketing.adobe.com/resources/help/de_DE/reference/classifications.html) im *Hilfe- und Referenzhandbuch zu Analytics*. Es ist möglich, dass nicht alle für Empfehlungen benötigten Informationen in Ihrer aktuellen Implementierung verfügbar sind. Befolgen Sie dieses Benutzerhandbuch, wenn Sie Informationen zu Ihrer Classification-Datei benötigen.
+Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Classification. Weitere Informationen über diese Classification-Datei finden Sie im Leitfaden *Analytics-Hilfe und -Referenz* unter [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html). Es ist möglich, dass nicht alle für Empfehlungen benötigten Informationen in Ihrer aktuellen Implementierung verfügbar sind. Befolgen Sie dieses Benutzerhandbuch, wenn Sie Informationen zu Ihrer Classification-Datei benötigen.
 
 >[!IMPORTANT]
 >
@@ -306,7 +306,7 @@ Der Status ist gelb, da der Index vor rund 6,5 Stunden erstellt werden sollte. 6
 
 **Beispiel 2:**
 
-* &#x200B;1. Januar: Monatlicher Feed wird um 9:00 Uhr verarbeitet
-* &#x200B;3. Februar: Es ist 10:00 Uhr und der Feed wurde einen Monat, einen Tag und eine Stunde lang nicht ausgeführt
+* 1. Januar: Monatlicher Feed wird um 9:00 Uhr verarbeitet
+* 3. Februar: Es ist 10:00 Uhr und der Feed wurde einen Monat, einen Tag und eine Stunde lang nicht ausgeführt
 
 Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte ausgeführt werden müssen. Auch wenn dies nur (31 + (1 / 25)) / 30 = 1,03 % der Häufigkeitseinstellung ergibt, wurde der Höchstwert von einem Tag für die Verzögerung überschritten.
