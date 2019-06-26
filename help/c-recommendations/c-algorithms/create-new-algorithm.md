@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -30,7 +30,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
 1. Klicken Sie auf **[!UICONTROL Kriterien erstellen]** oder **[!UICONTROL Neu erstellen]**.
 
-   ![Schaltfläche &quot;Kriterien erstellen «](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+   ![Schaltfläche „Erstellen von Kriterien“](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
 
 1. Wählen Sie **[!UICONTROL Kriterien erstellen]**.
 
@@ -48,7 +48,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
    Die Beschreibung soll dazu beitragen, dass Sie das Kriterium identifizieren können, und kann Informationen über den Zweck des Kriteriums enthalten.
 
-1. **[!UICONTROL Branche auswählen]**:
+1. Wählen Sie eine **[!UICONTROL Branche]** aus:
 
    * [!UICONTROL Einzelhandel/E-Commerce]
    * [!UICONTROL Lead-Generierung/B2B/Finanzdienstleistungen]
@@ -63,7 +63,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
 1. Wählen Sie einen **[!UICONTROL Empfehlungsschlüssel]** aus.
 
-   Weitere Informationen zum Stützen von Kriterien auf einen Schlüssel finden Sie unter [Stützen der Empfehlung auf einem Empfehlungsschlüssel](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+   Weitere Informationen zum Stützen von Kriterien auf einen Schlüssel finden Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 
 1. Wählen Sie die **[!UICONTROL Empfehlungslogik]** aus.
 
@@ -108,7 +108,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
    Weitere Informationen finden Sie unter [Einschlussregeln](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
-1. Konfigurieren **[!UICONTROL Sie die Attributgewichtung]**.
+1. Konfigurieren Sie die **[!UICONTROL Attributgewichtung]**.
 
    Sie können mehrere Regeln hinzufügen, um dem Algorithmus auf Grundlage wichtiger Beschreibungen oder Metadaten zum Inhaltskatalog eine Orientierung zu geben. So haben Sie zum Beispiel die Möglichkeit, rabattierten Artikeln eine höherer Gewichtung zu verleihen, damit sie öfter in den Empfehlungen erscheinen.
 
@@ -116,15 +116,15 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
-   Wenn Sie eine neue [!UICONTROL Recommendations]-Aktivität erstellen oder eine bestehende bearbeiten, wird das Kontrollkästchen **[!UICONTROL Kriterien für später speichern]automatisch aktiviert.** Sollten Sie die Kriterien nicht in anderen Aktivitäten verwenden wollen, deaktivieren Sie das Kontrollkästchen, bevor Sie speichern.
+   Wenn Sie eine neue [!UICONTROL Recommendations]-Aktivität erstellen oder eine bestehende bearbeiten, wird das Kontrollkästchen **[!UICONTROL Kriterien für später speichern]** automatisch aktiviert. Sollten Sie die Kriterien nicht in anderen Aktivitäten verwenden wollen, deaktivieren Sie das Kontrollkästchen, bevor Sie speichern.
 
 ### Geschätzte Verarbeitungszeit für Kriterien
 
-* **mboxes**: Wenn die Kriterien mboxes als Verhaltensbasiertes Datenquelle verwenden, werden die Kriterien sofort ausgeführt. Je nach Menge der verwendeten Verhaltensdaten und der Größe des Katalogs kann die Ausführung des Algorithmus bis zu 12 Stunden dauern. Änderungen an der Kriterienkonfiguration verursachen eine Neuausführung der Kriterien.
+* **Mboxes**: Wenn die Kriterien Mboxes als Verhaltens-Datenquelle verwenden, werden sie nach der Erstellung sofort ausgeführt. Je nach Menge der verwendeten Verhaltensdaten und der Größe des Katalogs kann die Ausführung des Algorithmus bis zu 12 Stunden dauern. Änderungen an der Kriterienkonfiguration verursachen eine Neuausführung der Kriterien.
 
-* **Analytics**: Wenn die Kriterien als [!DNL Adobe Analytics] Behavioral Data Source verwendet werden, hängt die Zeit zur Verfügbarkeit der Kriterien davon ab, ob die ausgewählte Report Suite und das Lookback-Fenster für alle anderen Kriterien verwendet wurden. Wenn die Report Suite zuvor mit einem Lookback-Fenster verwendet wurde, das mindestens so lang war wie das ausgewählte Lookback-Fenster, sind die Verhaltensdaten bereits in Target vorhanden und Recommendations führt das Kriterium sofort aus. Die Ausführung des Algorithmus kann bis zu 12 Stunden dauern, je nach Menge der Verhaltensdaten und Größe des Katalogs. Wenn die Report Suite zuvor nicht oder nur mit einem längeren Lookback-Fenster verwendet wurde, muss Recommendations die Daten zuerst von Adobe Analytics anfordern und empfangen, bevor der Algorithmus ausgeführt werden kann. Die Synchronisation mit Analytics dauert in der Regel zwei Tage, kann jedoch je nach Analytics-Systemauslastung bis zu sieben Tage dauern.
+* **Analyse**: Wenn das Kriterium [!DNL Adobe Analytics] als Verhaltens-Datenquelle verwendet, hängt der Zeitpunkt der Kriterienverfügbarkeit nach Erstellung davon ab, ob die ausgewählte Report Suite und das Lookback-Fenster bereits für andere Kriterien verwendet wurden. Wenn die Report Suite zuvor mit einem Lookback-Fenster verwendet wurde, das mindestens so lang war wie das ausgewählte Lookback-Fenster, sind die Verhaltensdaten bereits in Target vorhanden und Recommendations führt das Kriterium sofort aus. Die Ausführung des Algorithmus kann bis zu 12 Stunden dauern, je nach Menge der Verhaltensdaten und Größe des Katalogs. Wenn die Report Suite zuvor nicht oder nur mit einem längeren Lookback-Fenster verwendet wurde, muss Recommendations die Daten zuerst von Adobe Analytics anfordern und empfangen, bevor der Algorithmus ausgeführt werden kann. Die Synchronisation mit Analytics dauert in der Regel zwei Tage, kann jedoch je nach Analytics-Systemauslastung bis zu sieben Tage dauern.
 
-## Empfehlung auf Grundlage eines Empfehlungsschlüssels stützen {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
+## Stützen der Empfehlung auf einen Empfehlungsschlüssel {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
 Die auf Schlüsseln basierenden Empfehlungen nutzen den Besucherverhaltenskontext zum Anzeigen relevanter Ergebnisse.
 
@@ -206,22 +206,22 @@ Kann auf beliebigen Seiten verwendet werden.
 
 Sie können Empfehlungen auf dem Wert eines benutzerdefinierten Profilattributs basieren. Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Besucher zuletzt der Warteschlange hinzugefügt hat.
 
-1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der **[!UICONTROL Dropdownliste Empfehlungsschlüssel]** aus (z. B. &quot;Zuletzt zur Prüfliste hinzugefügt&quot; ).
-1. Wählen Sie dann Ihre **[!UICONTROL Empfehlungslogik]** aus (z. B. &quot;Personen, die das ansahen, Sahen dies&quot; ).
+1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdownliste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. „Zuletzt zur Watchlist hinzugefügt“).
+1. Wählen Sie dann Ihre **[!UICONTROL Empfehlungslogik]** aus (z. B. „Personen, die das ansahen, sahen auch dies an“).
 
-   ![Neue Kriterien erstellen](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
+   ![Neues Kriteriendialogfeld erstellen](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Wenn Ihr benutzerdefiniertes Profilattribut nicht direkt mit einer Entitäts-ID übereinstimmt, müssen Sie erläutern, [!DNL Recommendations] wie die Übereinstimmung mit einer Entität erfolgen soll. Angenommen, Sie möchten die wichtigsten Verkaufselemente aus der beliebtesten Marke eines Besuchers anzeigen.
+Wenn Ihr benutzerdefiniertes Profilattribut nicht direkt mit einer Entitäts-ID übereinstimmt, müssen Sie [!DNL Recommendations] erläutern, wie die Übereinstimmung mit einer Entität erfolgen soll. Angenommen, Sie möchten die wichtigsten Verkaufselemente aus der beliebtesten Marke eines Besuchers anzeigen.
 
-1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der **[!UICONTROL Dropdownliste Empfehlungsschlüssel]** aus (z. B. &quot;Favoritenmarke&quot; ).
+1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdownliste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. „Lieblingsmarke“).
 
-1. Wählen Sie dann die **[!UICONTROL Empfehlungslogik]** , die Sie mit diesem Schlüssel verwenden möchten (z. B. &quot;Topverkäufe&quot; ).
+1. Wählen Sie dann die **[!UICONTROL Empfehlungslogik]**, die Sie mit diesem Schlüssel verwenden möchten (z. B. „Topverkäufe“).
 
-   Die Option [!UICONTROL &quot;Gruppe nach individuellem] Wert&quot; wird angezeigt.
+   Die Option [!UICONTROL Gruppieren nach individuellem Wert] wird angezeigt.
 
-1. Wählen Sie das Entitätsattribut aus, das dem ausgewählten Schlüssel entspricht. In diesem Fall stimmt &quot;Favoritenmarke&quot; überein `entity.brand`.
+1. Wählen Sie das Entitätsattribut aus, das dem ausgewählten Schlüssel entspricht. In diesem Fall stimmt „Lieblingsmarke“ mit `entity.brand` überein.
 
-   [!DNL Recommendations] erstellt nun für jede Marke eine Liste der Topverkäufe und zeigt den Besucher die entsprechende Liste &quot;Topverkäufe&quot; basierend auf dem Wert an, der im Profilattribut&quot; Favoriten Marken&quot; des Besuchers gespeichert ist.
+   [!DNL Recommendations] erstellt nun für jede Marke eine Liste der Topverkäufe und zeigt den Besucher die entsprechende Liste „Topverkäufe“ basierend auf dem Wert an, der im Profilattribut „Lieblingsmarke“ des Besuchers gespeichert ist.
 
    ![Neues Kriteriendialogfeld erstellen 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
@@ -325,7 +325,7 @@ Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
 
 Nutzt den Verlauf des Benutzers (sitzungsübergreifend) für die Anzeige der letzten *x* vom Besucher angesehenen Artikel, basierend auf der Anzahl x der im Entwurf vorhandenen Plätze.
 
-Das Kriterium „Kürzlich angezeigte Elemente“ liefert jetzt Ergebnisse speziell für die jeweilige [Umgebung](/help/administrating-target/hosts.md). Wenn zwei Sites zu verschiedenen Umgebungen gehören und ein Besucher zwischen beiden Sites wechselt, werden für jede Site nur die kürzlich angezeigten Elemente dieser Site angezeigt. Wenn zwei Sites in derselben Umgebung enthalten sind und ein Besucher zwischen ihnen wechselt, erhält er die kürzlich angezeigten Elemente für beide Sites.
+Das Kriterium „Kürzlich angezeigte Elemente“ liefert jetzt Ergebnisse speziell für die jeweilige [Umgebung](/help/administrating-target/hosts.md). Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die jeweiligen Elemente der entsprechenden Umgebung an. Wenn zwei Sites in derselben Umgebung enthalten sind und ein Besucher zwischen ihnen wechselt, erhält er die kürzlich angezeigten Elemente für beide Sites.
 
 **Verwendung auf Ihrer Site**
 
