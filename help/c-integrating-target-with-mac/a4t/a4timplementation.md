@@ -8,7 +8,7 @@ title: Implementieren von Analytics for Target
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: dd23c58ce77a16d620498afb780dae67b1e9e7f7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,7 +27,7 @@ Nach der Implementierung von Analytics als Berichtsquelle für Target sind Sie a
 
 ## Schritt 2: Einrichten der Benutzerberechtigungen
 
-Die Benutzerkontoanforderungen müssen erfüllt sein, bevor Sie eine Adobe Analytics-basierte Aktivität in Adobe Target erstellen können. Siehe   [Anforderungen hinsichtlich Benutzerberechtigungen](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
+Die Benutzerkontoanforderungen müssen erfüllt sein, bevor Sie eine Adobe Analytics-basierte Aktivität in Adobe Target erstellen können. Siehe [Anforderungen hinsichtlich Benutzerberechtigungen](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
 
 ## Schritt 3: Implementieren des Experience Cloud-Besucher-ID-Service
 
@@ -77,7 +77,7 @@ Visitorapi. js muss vor at. js oder mbox. js geladen werden. Wenn Sie eine vorha
 
 Die vorkonfigurierten Einstellungen für die Target- und Analytics-Integration aus einer Implementierungsperspektive dienen der Verwendung der SDID, die von der Seite übergeben wird, um die Target- und Analytics-Anforderung automatisch auf dem Backend für Sie zu verknüpfen.
 
-Wenn Sie jedoch mehr Kontrolle darüber wünschen, wie und wann Analysedaten zu Analytics zu Berichterstellungszwecken an Analytics gesendet werden sollen und Sie nicht die Standardeinstellungen für Target und Analytics übernehmen möchten, können Sie **analyticslogging = client_ side** über **window. targetglobalsettings** festlegen. Hinweis: Alle Versionen unter 2.1 unterstützen diesen Ansatz nicht.
+However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. Hinweis: Alle Versionen unter 2.1 unterstützen diesen Ansatz nicht.
 
 Beispiel:
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-Diese Einrichtung hat einen globalen Effekt, d. h. jeder Aufruf von at. js verfügt über **analyticslogging: &quot; client_ side&quot; innerhalb der Target-Anforderungen** gesendet und eine Analytics-Nutzlast wird für jede Anforderung zurückgegeben. Wenn diese Einstellung eingerichtet wird, sieht das Format der zurückgegebenen Nutzlast wie folgt aus:
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. Wenn diese Einstellung eingerichtet wird, sieht das Format der zurückgegebenen Nutzlast wie folgt aus:
 
 ```
 "analytics": {
@@ -98,9 +98,9 @@ Diese Einrichtung hat einen globalen Effekt, d. h. jeder Aufruf von at. js verf�
 }
 ```
 
-Die Nutzlast kann dann über die [Dateneinfüge-API an Analytics weitergeleitet](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)werden.
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-Wenn keine globale Einstellung gewünscht und ein On-Demand-Ansatz vorzuziehen ist, können Sie die Funktion at. js [verwenden,](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) um dies zu erreichen, indem **Sie analyticslogging übergeben: &quot; client_ side &quot;**. Die Nutzlast der Analyse wird nur für diesen Aufruf zurückgegeben und das Backend für Target leitet die Nutzlast nicht an Analytics weiter. Durch diesen Ansatz wird die Payload nicht standardmäßig von jeder at. js-Target-Anforderung zurückgegeben, sondern nur nach Wunsch und Spezifiziert.
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. Die Nutzlast der Analyse wird nur für diesen Aufruf zurückgegeben und das Backend für Target leitet die Nutzlast nicht an Analytics weiter. Durch diesen Ansatz wird die Payload nicht standardmäßig von jeder at. js-Target-Anforderung zurückgegeben, sondern nur nach Wunsch und Spezifiziert.
 
 Beispiel:
 
@@ -156,7 +156,7 @@ Die Antwort sieht wie folgt aus:
 }
 ```
 
-Die Nutzlast kann dann über die [Dateneinfüge-API an Analytics weitergeleitet](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)werden.
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Schritt 8: Validieren der Implementierung {#step8}
 
