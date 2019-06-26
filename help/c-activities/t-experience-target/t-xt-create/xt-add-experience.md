@@ -8,24 +8,24 @@ title: Erlebnis erstellen
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# Erlebnis erstellen{#create-experience}
+# Create experience{#create-experience}
 
 Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten der Erlebnisse auf Ihrer Seite in einer Erlebnis-Targeting (XT)-Aktivität.
 
 1. Wählen Sie die Elemente, die Sie ändern möchten, und nehmen Sie die gewünschten Änderungen vor.
 
-   Während [Sie eine XT-Aktivität](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)erstellen, wird der Schritt eines der drei Teilformulare (Erlebnisse) standardmäßig mit [!UICONTROL der Zielgruppe] [!UICONTROL &quot;Alle Besucher] &quot; angezeigt.
+   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow (Experiences) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
 
    ![Zielgruppe für alle Besucher](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Alle Änderungen, die Sie vornehmen, gelten jetzt für Erlebnis A. In einem Schritt unten klicken Sie auf **[!UICONTROL Erlebnis-Targeting]** hinzufügen, um weitere Erlebnisse zu erstellen.
+   Any changes you make now apply to Experience A. In a step below, you&#39;ll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
-   Wenn Sie den Mauszeiger über die Elemente auf Ihrer Seite bewegen, werden diese Elemente hervorgehoben. Jedes hervorgehobene Element kann mithilfe des VEC geändert werden. Eine Liste der Aktionen, die für ein Element durchgeführt werden können, um das Erlebnis zu ändern, finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+   Wenn Sie den Mauszeiger über die Elemente auf Ihrer Seite bewegen, werden diese Elemente hervorgehoben. Jedes hervorgehobene Element kann mithilfe des VEC geändert werden. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    Wenn Sie mit Target Classic (früher Test&amp;Target) eine Mbox auf der Seite erstellt haben, wird diese Mbox als Element mit dem Mbox-Namen angezeigt und kann wie jedes andere Element bearbeitet werden.
 
@@ -33,11 +33,11 @@ Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten
    >
    >Standardmäßig gestattet der Visual Experience Composer das Ändern von Elementen mit JavaScript nicht (zum Beispiel sich drehende Banner). Sie können javascript deaktivieren, wenn Sie diese Elemente mit dem VEC ändern möchten.
 
-1. Klicken Sie auf **[!AErlebnis-Targeting, um weitere Erlebnisse zu erstellen]**.
+1. To create additional experiences, click **[!Add Experience Targeting]**.
 
    ![Link &quot;Erlebnis-Targeting hinzufügen «](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   Das [!UICONTROL Dialogfeld Zielgruppe] auswählen wird angezeigt. Um ein Erlebnis auf eine Zielgruppe auszurichten, müssen Sie die Zielgruppe auswählen, bevor Sie ein Erlebnis hinzufügen können.
+   The [!UICONTROL Choose Audience] dialog box displays. Um ein Erlebnis auf eine Zielgruppe auszurichten, müssen Sie die Zielgruppe auswählen, bevor Sie ein Erlebnis hinzufügen können.
 
    Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. Sie können entweder eine Zielgruppe aus der Bibliothek auswählen oder [eine neue Zielgruppe erstellen](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
@@ -45,13 +45,13 @@ Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten
    >
    >Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Wenn Sie eine Zielgruppe erstellen, können Sie einen Standort (mbox) auswählen und Parameter für ihn festlegen. Wählen Sie unter [!UICONTROL Benutzerdefiniert] (Zielgruppe erstellen &gt; Regel hinzufügen &gt; Benutzerspezifisch) die mbox aus und geben Sie die gewünschten Parameter an.
+   Wenn Sie eine Zielgruppe erstellen, können Sie einen Standort (mbox) auswählen und Parameter für ihn festlegen. Under [!UICONTROL Custom] (Create Audience &gt; Add Rule &gt; Custom), select the mbox, then specify the desired parameters.
 
    >[!NOTE]
    >
    >Zielgruppen werden automatisch im Hintergrund importiert, wenn Sie die Zielgruppenliste öffnen und die importierten Zielgruppen älter als 10 Minuten sind.
 
-1. Wählen Sie mindestens eine Zielgruppe für das Targeting aus und klicken Sie auf **[!UICONTROL Fertig]**.
+1. Select one or more audiences to target with the experience, then click **[!UICONTROL Done]**.
 
    ![Erlebnis B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
@@ -61,7 +61,7 @@ Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten
 
 1. Wiederholen Sie die obigen Schritte, um nach Bedarf zusätzliche zielgerichtete Erlebnisse zu erstellen.
 
-1. Klicken **[!UICONTROL Sie auf Weiter,]** wenn Sie das Entwerfen Ihrer Erlebnisse abgeschlossen haben.
+1. Click **[!UICONTROL Next]** when you are finished designing your experiences.
 
    Das Aktivitätsdiagramm wird angezeigt:
 
@@ -81,11 +81,11 @@ Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten
 
    Nehmen wir beispielsweise an, Ihnen war nicht bewusst, dass es beim Erstellen einer XT-Aktivität auf die Reihenfolge ankommt. Später im Verlauf des Tests stellen Sie fest, dass sich Besucher, die sich Ihrer Meinung nach eigentlich für Erlebnis B oder C qualifizieren müssten, stattdessen für Erlebnis A qualifizieren. Eine Ursache dafür könnte sein, dass sich die Zielgruppen nicht gegenseitig ausschließen und sich nicht in der richtigen Reihenfolge befinden (z. B. Erlebnis A = USA, Erlebnis B = San Francisco und Erlebnis C = Kalifornien). In diesem Szenario qualifizieren sich alle Benutzer aus den USA für Erlebnis A, selbst wenn sie in San Francisco oder in einem anderen Ort in Kalifornien leben. Sie können die Reihenfolge der Zielgruppen-/Erlebnispaare von der stärksten Einschränkung zur geringsten Einschränkung ändern (San Francisco &gt; Kalifornien &gt; USA), ohne die gesamte Aktivität neu erstellen zu müssen.
 
-   Wenn Sie über eine Zielgruppe [!UICONTROL für alle Besucher] verfügen, stellen Sie sicher, dass es sich nicht um die erste Zielgruppe im Diagramm handelt. Ein Erlebnis, das auf „Alle Besucher“ abzielt, kann als das letzte Erlebnis der entsprechenden Targeting-Aktivität eingesetzt werden, um auch die Besucher zu erfassen, die bei keinem anderen Erlebnis erfasst wurden.
+   If you have an [!UICONTROL All Visitors] audience, ensure that it is not the first audience in the diagram. Ein Erlebnis, das auf „Alle Besucher“ abzielt, kann als das letzte Erlebnis der entsprechenden Targeting-Aktivität eingesetzt werden, um auch die Besucher zu erfassen, die bei keinem anderen Erlebnis erfasst wurden.
 
 ## Umbenennen oder Bearbeiten eines Erlebnisses
 
-Sie können auf das [!UICONTROL Bearbeitungssymbol] (drei vertikale Auslassungszeichen) eines Erlebnisses in einer XT-Aktivität klicken und nach Bedarf zwischen folgenden Optionen wählen:
+You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experience in an XT activity and choose from the following options, as necessary:
 
 * Umbenennen
 * Bearbeiten
@@ -94,7 +94,7 @@ Sie können auf das [!UICONTROL Bearbeitungssymbol] (drei vertikale Auslassungsz
 
 ## Löschen eines Erlebnisses
 
-Klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (der erste Schritt im geleiteten Arbeitsablauf mit drei Schritten) auf die drei vertikalen Auslassungszeichen &gt; **[!UICONTROL Löschen]**.
+On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the three vertical ellipses &gt; **[!UICONTROL Delete]**.
 
 ![Erlebnis löschen](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
