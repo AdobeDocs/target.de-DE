@@ -7,8 +7,8 @@ solution: Target
 title: Element-Selektoren, die im Visual Experience Composer verwendet werden
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Ein Element-Selektor ist ein CSS-Ausdruck, der eines oder mehrere Elemente kennzeichnen kann.
 
-Grundlegende Informationen zu CSS-Selektoren finden Sie im [Selektoren](https://developer.mozilla.org/de-DE/docs/Web/Guide/CSS/Getting_started/Selectors)-Dokument im Mozilla Developer Network (MDN).
+Grundlegende Informationen zu CSS-Selektoren finden Sie im Dokument [Selektoren](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) im Mozilla Developer Network (MDN).
 
 Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovoreinstellungen verwenden möchten. Klicken Sie auf **[!UICONTROL Einrichtung &gt; Voreinstellungen]** und wählen Sie dann Ihre bevorzugten CSS-Selektoren aus.
 
@@ -73,7 +73,7 @@ Target verwendet zur Erstellung eines Selektors einen einfachen Algorithmus. Hie
 
    Selektor: `#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)` („&gt;“ gibt das unmittelbar untergeordnete Element an.)
 
-   `eq` gibt für den Index an, dass es ein Element mit „tagName=UL“ gibt und die erste Klasse `navigation` lautet. Deshalb ist `index` = 0. Weitere Informationen finden Sie im Artikel [Selektoren](https://developer.mozilla.org/de-DE/docs/Web/Guide/CSS/Getting_started/Selectors) im MDN.
+   `eq` gibt für den Index an, dass es ein Element mit „tagName=UL“ gibt und die erste Klasse `navigation` lautet. Deshalb ist `index` = 0. Weitere Informationen finden Sie im Artikel [Selektoren](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) im MDN.
 
 1. Wenn ein Element keine Klasse enthält, verwendet Target den `tagName` für das Element und sucht aufwärts im übergeordneten Element, bis es ein `<HTML>`-Element oder ein Element mit einer ID findet.
 
@@ -94,7 +94,7 @@ Target verwendet zur Erstellung eines Selektors einen einfachen Algorithmus. Hie
 
    Selektor: `#container` &gt; `ul.navigation(0)` &gt; `li:nth-of-type(4)`
 
-   Weitere Informationen zu [nth-of-type finden Sie auf der Webseite CSS Tricks](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
+   Weitere Informationen zu [nth-of-type finden Sie auf der Webseite „CSS-Tricks“](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
 
 Im oben dargestellten Prozess
 
