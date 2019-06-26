@@ -7,8 +7,8 @@ solution: Target
 title: Bekannte Probleme und gelöste Probleme
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -70,7 +70,7 @@ In einer MVT-Aktivität ist der in der Tabelle und im Diagramm angezeigte Gewinn
 
 Bekannte Probleme mit at.js:
 
-* Beim Laden einer Seite in Visual Experience Composer (VEC) muss Target ermitteln, ob die globale Mbox-Einstellung aktiviert oder deaktiviert ist und ob an der Stelle, an der der Benutzer die Empfehlung im VEC anwenden möchte, ein entityID- oder categoryID-Eintrag vorhanden ist. Basierend auf diesen Informationen wird die Kriterienliste gefiltert. Die Standardliste enthält gefilterte Algorithmen, aber die [kompatible Checkbox](https://marketing.adobe.com/resources/help/de_DE/target/recs/t_algo_select_recs.html) bietet Ihnen die Möglichkeit, die vollständige Liste der Algorithmen anzuzeigen.
+* Beim Laden einer Seite in Visual Experience Composer (VEC) muss Target ermitteln, ob die globale Mbox-Einstellung aktiviert oder deaktiviert ist und ob an der Stelle, an der der Benutzer die Empfehlung im VEC anwenden möchte, ein entityID- oder categoryID-Eintrag vorhanden ist. Basierend auf diesen Informationen wird die Kriterienliste gefiltert. Die Standardliste enthält zwar gefilterte Algorithmen, doch mit dem [Kompatibilitäts-Kontrollkästchen](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html) können Sie die vollständige Algorithmenliste anzeigen.
 
    Bei der Verwendung von at.js ist das Kontrollkästchen Kompatibilität ausgeblendet, sodass Sie keine inkompatiblen Algorithmen anzeigen können.
 
