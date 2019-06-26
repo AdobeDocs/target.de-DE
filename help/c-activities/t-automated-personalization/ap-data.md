@@ -10,7 +10,7 @@ topic: Premium
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 badge: Premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 ---
 
@@ -21,15 +21,15 @@ Target sammelt und verwendet automatisch eine Vielzahl an Daten zum Erstellen se
 
 Weitere Informationen über die Target-Personalisierungsalgorithmen finden Sie unter [Random-Forest-Algorithmus](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
-Folgende Tabelle zeigt die Daten, die von der automatisierten Personalisierung standardmäßig erfasst werden, ohne dass der Marketing-Experte hierfür eine Aktion durchführen muss, sowie die Namenskonvention, die zur Anzeige dieser Attribute in [Berichten zu Personalization Insights](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) verwendet wird. Sie können den Eingabedatensatz jederzeit erweitern. Weitere Informationen über das Hochladen zusätzlicher Daten finden Sie unter [Hochladen von Daten für die Personalisierungsalgorithmen von Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+The following table shows the data collected by Automated Personalization and Auto-Target by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Sie können den Eingabedatensatz jederzeit erweitern. Weitere Informationen über das Hochladen zusätzlicher Daten finden Sie unter [Hochladen von Daten für die Personalisierungsalgorithmen von Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 | Datentyp | Beschreibung | Datentyp-Namenskonvention | Beispielattribute |
 | --- | --- | --- | --- |
 | [Geräte- und Mobildaten](#device-mobile) | Gerät- und mobilspezifische Informationen.<br>Siehe &quot;Geräte- und Mobildaten&quot; . | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | Mobile Device OS<br>Mobile Screen Size |
 | [Umgebungsdaten](#env) | Informationen über das Betriebssystem des Besuchers und darauf, wie und wann der Besucher auf die Aktivität zugreift. | `Browser - / Operating System] - [Attribute Name]` | Browser – Typ |
-| Erlebnis Cloud-Segment | Zielgruppen, die in Audience Manager oder Analytics erstellt und über die Experience Cloud freigegeben wurden | `Custom - Experience Cloud Audience - [Audience Name]` | Dies ist ein Satz von Number → &quot;1&quot; -Werten.<br>Number ist die Adobe Audience Manager (AAM) Segment-ID. |
+| Erlebnis Cloud-Segment | Zielgruppen, die in Audience Manager oder Analytics erstellt und über die Experience Cloud freigegeben wurden | `Custom - Experience Cloud Audience - [Audience Name]` | Benutzerspezifische Daten |
 | [Geografische Daten](#geo) | Informationen zum Standort des Besuchers.<br>Siehe &quot;Geografische Daten&quot; unten. | `Geo - [geo attribute]` | Stadt<br>Land<br>Region/Bundesstaat<br>Postleitzahl<br>Breitengrad<br>Längengrad<br>ISP oder Mobilnetzbetreiber |
-| Profilattribute | Profilskripte oder Attribute direkt über die Aktualisierungs-API in das Target-Profil hochgeladen | Custom - Visitor Profile - [attribute name] | Benutzerspezifische Daten |
+| Profilattribute | Profilskripte oder Attribute direkt über die Aktualisierungs-API in das Target-Profil hochgeladen | `Custom - Visitor Profile - [attribute name]` | Benutzerspezifische Daten |
 | Verweisende URL-Parameter | Im Allgemeinen entspricht die verweisende URL der URL, die auf eine bestimmte Seite verweist, die den Mbox-Aufruf initiiert hat.<br>Beachten Sie, dass sich die Aktivität der Benutzer auf Ihrer Site und die technische Implementierung Ihrer Site auf diese Variable auswirken kann. | `Custom - [Referring URL Parameter] - [Parameter value]` | Benutzerspezifische Daten |
 | Berichterstellungssegmente | Alle in der Aktivitätseinrichtung eingerichteten Segmente. | `Reporting Segment -[Segment Name]` | Benutzerspezifische Daten |
 | [Sitzungsdaten](#session) | Informationen über das Verhalten des Besuchers in der Sitzung beim Zugriff auf die Aktivität. | `Visitor Profile - [Attribute Name]` | Besucherprofil – Beginn des neuesten Besuchs |
@@ -63,10 +63,10 @@ Die folgenden Abschnitte enthalten detaillierte Informationen zu den verschieden
 | Browser - Wochenstunde | Die Stunde der Woche, an der der Besucher auf die Aktivität zugreift. | 0 to 168<br>(Sunday midnight is 0) |
 | Browser – Spracheinstellung | Die im Browser des Besuchers festgelegte Sprache, mit der der Zugriff auf die Aktivität erfolgt. | English<br>German |
 | Browser - Bildschirmhöhe (px) | Die Browserbildschirmhöhe des Geräts (in Pixel), mit der der Besucher auf die Aktivität zugreift. | 1, 2, 3 usw. |
-| Browser - Tageszeit | Die Uhrzeit des Browsers, an dem der Besucher auf die Aktivität zugreift. | 0, 6, 12, 18<br>(0 is night, 6 is morning, 12 is afternoon, 18 is evening) |
+| Browser - Tageszeit | Die Uhrzeit des Browsers, an dem der Besucher auf die Aktivität zugreift. | 0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening) |
 | Browser – Zeitzone | Die Zeitzone des Besuchers beim Zugriff auf die Aktivität. | Pacific Time<br>Eastern Time<br>GMT |
 | Browser – Typ | Der Typ des Browsers, den der Besucher beim Zugriff auf die Aktivität verwendet hat. | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
-| Browser - Wochentag/Wochenende | Der Arbeitsstatus, als der Besucher auf die Aktivität zugreift (Wochenende, Arbeitsstunden oder Wochentag). | Saturday and Sunday is weekend<br>Monday through Friday 0900 to 1800 is work time<br>Monday through Friday after 1800 until 0900 is weekday free time |
+| Browser - Wochentag/Wochenende | Der Arbeitsstatus, als der Besucher auf die Aktivität zugreift (Wochenende, Arbeitsstunden oder Wochentag). | Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time |
 | Browser - Fensterhöhe (px) | Die Fensterhöhe des Browsers (in Pixel), mit der der Besucher auf die Aktivität zugreift. | 1, 2, 3 usw. |
 | Browser - Fensterbreite (px) | Die Fensterbreite des Browsers (in Pixel), mit der der Besucher auf die Aktivität zugreift. | 1, 2, 3 usw. |
 | Gerät - Bildschirmhöhe | Die Bildschirmhöhe des Geräts, mit dem der Besucher auf die Aktivität zugreift. | 1, 2, 3 usw. |
