@@ -7,8 +7,8 @@ solution: Target
 title: Automatische Zuordnung
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,7 +39,7 @@ In solchen Tests setzen die meisten Produkte - inklusive Target - einen Student-
 
 Die automatisierte Zuordnung führt alle impliziten Vergleiche über alle Erlebnisse hinweg durch und ergibt dann einen „wahren“ Gewinner. Es gibt in diesem Test keinen Bedarf für ein „Kontrollerlebnis“.
 
-Mit der automatisierten Zuordnung werden neue Besucher auf vernünftige Weise den verschiedenen Erlebnissen zugeordnet, bis das Konfidenzintervall des besten Erlebnisses nicht mehr Intervalle anderer Erlebnisse überdeckt. Normalerweise könnte dieser Prozess zu Falschmeldungen führen, aber die „Automatisierte Zuordnung“ verwendet Konfidenzintervalle basierend auf der [Bernstein-Ungleichung](https://de.wikipedia.org/wiki/Bernstein-Ungleichung_(Stochastik)), die wiederholte Auswertungen kompensiert. An diesem Punkt haben wir einen echten Gewinner. Wenn die automatisierte Zuweisung beendet wird, besteht, sofern es keine wesentliche Zeitabhängigkeit gegenüber den auf der Seite ankommenden Besuchern gibt, eine Chance von mindestens 95 %, dass die automatisierte Zuweisung ein Erlebnis zurückgibt, bei dem die wahre Antwort nicht schlechter als 1 % (relativ) weniger als die wahre Antwort des erfolgreichsten Erlebnisses ist.
+Mit der automatisierten Zuordnung werden neue Besucher auf vernünftige Weise den verschiedenen Erlebnissen zugeordnet, bis das Konfidenzintervall des besten Erlebnisses nicht mehr Intervalle anderer Erlebnisse überdeckt. Normalerweise könnte dieses Vorgehen zu falsch positiven Ergebnissen führen, aber die automatisierte Zuweisung verwendet Konfidenzintervalle, die auf der [Bernstein-Ungleichung](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) basieren, um wiederholte Auswertungen zu kompensieren. An diesem Punkt haben wir einen echten Gewinner. Wenn die automatisierte Zuweisung beendet wird, besteht, sofern es keine wesentliche Zeitabhängigkeit gegenüber den auf der Seite ankommenden Besuchern gibt, eine Chance von mindestens 95 %, dass die automatisierte Zuweisung ein Erlebnis zurückgibt, bei dem die wahre Antwort nicht schlechter als 1 % (relativ) weniger als die wahre Antwort des erfolgreichsten Erlebnisses ist.
 
 ## Verwendung der Funktion „Automatisierte Zuordnung“ im Vergleich zu A/B oder zu automatisierter Personalisierung {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
@@ -57,7 +57,7 @@ Mit der automatisierten Zuordnung werden neue Besucher auf vernünftige Weise de
 
 Bei Erörterungen zur automatisierten Zuordnung sind die folgenden Begriffe hilfreich:
 
-**Multi-Armed Bandit:** Eine [Multi-Armed Bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit)-Vorgehensweise („Mehrarmiger Bandit“) zur Optimierung gleicht das forschende Lernen und die Verwertung dieses Lernens aus.
+**Multi-Armed Bandit:** Eine [Multi-Armed Bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit)-Vorgehensweise („Mehrarmiger Bandit“) zur Optimierung gleicht forschendes Lernen und die Verwertung dieses Lernens aus.
 
 ## So funktioniert der Algorithmus {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -192,7 +192,7 @@ In diesem Video sind Informationen zur Einrichtung der Traffic-Zuordnung enthalt
 * Auswählen der Zuordnungsmethode für den Traffic
 * Zuweisen von Traffic zu verschiedenen Erlebnissen
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=ger)
 
 ### Erstellen von A/B-Tests (8:36)
 
@@ -201,4 +201,4 @@ In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs 
 * Erstellen einer A/B-Aktivität in Adobe Target
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=ger)
