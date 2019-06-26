@@ -1,6 +1,6 @@
 ---
 description: Informationen dazu, wie Sie die Elemente festlegen können, die in Berichten aufgeführt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
-keywords: Target; Berichte; Berichtseinstellungen; Voreinstellung; Target-Vorgabe; Metrik; Zielgruppe; Datumsbereich; Einstellungen; Download; Tabellenansicht; Graphansicht; durchschnittliche Steigerung; Steigerung; Steigerungsgrenzen; Konfidenzbereich; Konfidenz; Ortseinfluss; laufender Durchschnitt; Zählmethodik
+keywords: Target; Berichte; Berichtseinstellungen; Voreinstellung; Target-Vorgabe; Metrik; Zielgruppe; Datumsbereich; Einstellungen; Download; Tabellenansicht; Graphansicht; durchschnittliche Steigerung; Steigerung; Steigerungsgrenzen; Konfidenzintervall; Konfidenz; Ortseinfluss; laufender Durchschnitt; Zählmethodik
 seo-description: Informationen dazu, wie Sie die Elemente festlegen können, die in Berichten aufgeführt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
 seo-title: Berichtseinstellungen
 solution: Target
@@ -8,7 +8,7 @@ title: Berichtseinstellungen
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -92,7 +92,7 @@ Klicken Sie auf die Dropdown-Liste **[!UICONTROL Berichtsmetrik]**, um eine ande
 
 Standardmäßig wird die primäre Metrik in der Einrichtung der Erfolgsmetriken beim Erstellen der Aktivität bestimmt. Wenn Sie die Einrichtung ändern und die Aktivität erneut speichern, wird die primäre Metrik für die Berichterstattung aktualisiert.
 
-Weitere Informationen zum Auswählen mehrerer Metriken für die Anzeige in Berichten finden Sie unter   [Mehrere Metriken in einem Bericht anzeigen](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Weitere Informationen zum Auswählen mehrerer Metriken für die Anzeige in Berichten finden Sie unter [Mehrere Metriken in einem Bericht anzeigen](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Zielgruppe {#section_70926EB4618945D9AFF2B0564FF3717B}
 
@@ -106,9 +106,9 @@ Das Feld „Datumsbereich“ zeigt den aktuellen Datumsbereich des Berichts an. 
 
 ![Kalender](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Wählen Sie neue **[!UICONTROL Start-]** und **Enddaten]für den Bericht aus.[!UICONTROL ** Sie können auch die Kontrollkästchen **[!UICONTROL Vom Start der Aktivität]** und **Bis Ende von Aktivität]verwenden.[!UICONTROL **
+Wählen Sie neue **[!UICONTROL Start-]** und **[!UICONTROL Enddaten]** für den Bericht aus. Sie können auch die Kontrollkästchen **[!UICONTROL Vom Start der Aktivität]** und **Bis Ende von Aktivität]verwenden.[!UICONTROL **
 
-Klicken Sie auf **[!UICONTROL Benutzerdefinierte Daten], um die vordefinierten Datumsbereiche auszuwählen: Letzte 7 Tage, Letzte 15 Tage oder Letzte 30 Tage.** Diese vordefinierten Datumsbereiche werden automatisch weiterverschoben. Wenn das Startdatum weniger als die ausgewählte Anzahl von Tagen zurückliegt, zeigt der Kalender den Bereich ab dem Startdatum an, bewegt sich jedoch weiter, sobald das Startdatum mehr als die ausgewählte Anzahl von Tagen zurückliegt, während sich die Dauer der Aktivität erhöht..
+Klicken Sie auf **[!UICONTROL Benutzerdefinierte Daten]**, um die vordefinierten Datumsbereiche auszuwählen: Letzte 7 Tage, Letzte 15 Tage oder Letzte 30 Tage. Diese vordefinierten Datumsbereiche werden automatisch weiterverschoben. Wenn das Startdatum weniger als die ausgewählte Anzahl von Tagen zurückliegt, zeigt der Kalender den Bereich ab dem Startdatum an, bewegt sich jedoch weiter, sobald das Startdatum mehr als die ausgewählte Anzahl von Tagen zurückliegt, während sich die Dauer der Aktivität erhöht..
 
 Für Berichte gelten folgende Datenbeschränkungen:
 
@@ -150,11 +150,11 @@ Klicken Sie auf das Symbol „Herunterladen“, um Berichtsdaten in einem [!DNL 
 
 Klicken Sie auf das Aktualisierungssymbol, um die Tabellen- und Diagrammansicht eines Berichts zu aktualisieren, ohne dass die gesamte Seite, die Konfiguration oder der Datumsbereich aktualisiert werden muss.
 
-## Weitere Optionen   {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## Weitere Optionen {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Klicken Sie auf das Symbol für weitere Optionen (drei vertikale Ellipsen), um auf die Optionen [!UICONTROL „Aktivität bearbeiten“] und [!UICONTROL „Erlebnis-URLs anzeigen“] zuzugreifen.
 
-## Tabellenansicht   {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## Tabellenansicht {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
 Klicken Sie auf das Symbol für **[!UICONTROL Tabellenansicht], um den Bericht in Tabellenform anzuzeigen.**
 
@@ -173,7 +173,7 @@ Beachten Sie Folgendes:
 * Nur verfügbar, wenn Berichte in der Tabellenansicht angezeigt werden.
 * Diese Funktion steht nicht für Aktivitäten zur Verfügung, die Analytics als Berichtsquelle verwenden (A4T).
 
-## Location Contribution   {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Ortsbeschränkung {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Klicken Sie auf das Symbol **[!UICONTROL Location Contribution], um den Bericht zu wechseln, sodass der Beitrag nach Standort angezeigt wird.**
 
