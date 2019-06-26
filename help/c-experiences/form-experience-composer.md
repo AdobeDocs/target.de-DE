@@ -8,7 +8,7 @@ title: Form-Based Experience Composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,7 +39,7 @@ Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. W�
 
    ![](assets/location_refinements_2.png)
 
-   Im Form-Based Experience Composer wurden Verfeinerungen durch die volle Zielgruppen-Funktionalität ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden in   [Zielgruppen „Nur Aktivität“](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) migriert.
+   Im Form-Based Experience Composer wurden Verfeinerungen durch die volle Zielgruppen-Funktionalität ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden in [Zielgruppen „Nur Aktivität“](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) migriert.
 1. Wählen Sie den Inhaltstyp aus, der an diesem Standort angezeigt werden soll.
 
    ![](assets/form_content.png)
@@ -102,4 +102,4 @@ Im folgenden Video wird der Form-Based Experience Composer vorgeführt.
 * Wann Form-Based Experience Composer und wann Visual Experience Composer verwendet werden sollte
 * Verfeinerungen zur Ausrichtung auf einen Standort nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/17390?captions=ger)
