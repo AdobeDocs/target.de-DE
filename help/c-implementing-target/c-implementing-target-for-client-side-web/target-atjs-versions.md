@@ -8,14 +8,14 @@ subtopic: Erste Schritte
 title: „at.js“-Versionsdetails
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # „at.js“-Versionsdetails{#at-js-version-details}
 
-Details zu den Änderungen in den einzelnen Versionen der javascript-Bibliothek [!DNL Adobe Target] at. js.
+Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibliothek von [!DNL Adobe Target]
 
 >[!IMPORTANT]
 >
@@ -31,65 +31,65 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 * **Clientseitige Analyseprotokollierung**: Geben Sie Kunden volle Kontrolle darüber, wie sie Analytics-Daten an Adobe Analytics senden können, ob auf Client- oder serverseitig.
 
-   Weitere Informationen finden Sie unter [clientseitige Analytics-Anmeldung](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) *Vor der Implementierung*.
+   For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
 
 * **Benachrichtigungen senden**: Erlauben Sie Entwicklern, Benachrichtigungen zu senden, wenn ein Erlebnis durch ihren Code statt über den Code wiedergegeben `applyOffer()` wird oder `applyOffers()`.
 
-   Weitere Informationen finden Sie unter [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+   For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 * **at. js-Größe um ~ 24% verringert**: Die Größe von at. js wird um ~ 24% verringert. Die kleinere Dateigröße verbessert die Seitenladeleistung und verringert die Zeit, at. js auf der Seite herunterzuladen.
 
-## at. js Version 2.0.1 (19. März 2019)
+## at.js-Version 2.0.1 (19. März 2019)
 
-Dies ist ein Maintenance Release und enthält die folgenden Erweiterungen und Fehlerbehebungen:
+Dies ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
 (Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
-* Es wurde eine Race-Bedingung im DOM-Polling-Code behoben, durch die javascript-Ausnahmen für bestimmte Kunden verursacht wurden. (TNT-31869)
+* Es wurde eine Race-Bedingung im DOM-Polling-Code behoben, durch die JavaScript-Ausnahmen für bestimmte Kunden verursacht wurden. (TNT-31869)
 * Benachrichtigungen, die angezeigt wurden, wurden von Click-Tracking-Ereignishandlern entkoppelt. Target hat zunächst keine Benachrichtigungen gesendet, wenn Click-Ereignis-Handler, die zu einer gerenderten Ansicht gehören, nicht angehängt werden konnten. Target sendet jetzt eine Ansichtsbenachrichtigung, auch wenn Klickelemente nicht gefunden werden. (TNT-31969)
-* Es wurde ein Fehler behoben, der dazu führte, dass das Ereignisumleitungsflag &quot;request-succeeded&quot; immer auf&quot; true&quot; gesetzt wurde. (TNT-31907)
-* Es wurde ein Problem behoben, durch das die VEC-Neu anordnen-Aktion als Erfolg protokolliert wurde, selbst wenn Elemente fehlen. (TNT-31924)
-* Es wurde ein Problem behoben, durch das Benachrichtigungen für bestimmte Kunden das Eigenschafts-Token für die Enterprise-Berechtigungen nicht enthalten. (TNT-31999)
+* Es wurde ein Fehler behoben, der dazu führte, dass das Ereignisumleitungsflag „request-succeeded“ immer auf „true“ gesetzt wurde. (TNT-31907)
+* Es wurde ein Problem behoben, durch das die VEC-Neuanordnungs-Aktion als Erfolg protokolliert wurde, selbst wenn Elemente fehlen. (TNT-31924)
+* Es wurde ein Problem behoben, durch das Benachrichtigungen für bestimmte Kunden das Eigenschafts-Token für die Unternehmensberechtigungen nicht enthalten. (TNT-31999)
 
-## at. js Version 1.7.1 (19. März 2019)
+## at.js-Version 1.7.1 (19. März 2019)
 
-Dies ist ein Maintenance Release und beinhaltet die folgende Fehlerbehebung:
+Diese Version ist eine Wartungsversion und beinhaltet die folgenden Fehlerbehebungen:
 
 (Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
-* Es wurde eine Race-Bedingung im DOM-Polling-Code behoben, durch die javascript-Ausnahmen für bestimmte Kunden verursacht wurden. (TNT-31869)
+* Es wurde eine Race-Bedingung im DOM-Polling-Code behoben, durch die JavaScript-Ausnahmen für bestimmte Kunden verursacht wurden. (TNT-31869)
 
 ## „at.js“-Version 2.0.0{#at-js-200}
 
-at. js 2. x bietet umfangreiche Funktionssätze, mit denen Ihr Unternehmen Personalisierung auf clientseitigen Technologien der nächsten Generation durchführen kann. Diese neue Version konzentriert sich auf die Aktualisierung von at.js, um harmonische Interaktionen mit Einzelseitenanwendungen (SPAs) zu ermöglichen.
+at.js 2.x bietet umfassende Funktionen mit denen Ihr Unternehmen mithilfe von Client-seitigen Technologien der neuesten Generation Personalisierungen ausführen kann. Diese neue Version konzentriert sich auf die Aktualisierung von at.js, um harmonische Interaktionen mit Einzelseitenanwendungen (SPAs) zu ermöglichen.
 
-Hier einige Vorteile der Verwendung von at. js 2. x, die in früheren Versionen nicht verfügbar sind:
+Hier einige Vorteile der Verwendung von at.js 2.x, die in früheren Versionen nicht verfügbar sind:
 
 * Die Möglichkeit, alle Angebote beim Laden der Seite zwischenzuspeichern, um mehrere Server-Aufrufe auf einen einzelnen Server-Aufruf zu reduzieren.
 * Drastische Verbesserung der Erlebnisse Ihrer Endbenutzer auf Ihrer Site, da Angebote sofort über den Cache angezeigt werden, ohne dass die herkömmlichen Serveraufrufe verzögert werden.
 * Einfache einzeilige Code- und Einmalentwickler-Einrichtung, um Ihren Marketingmitarbeitern die Erstellung und Ausführung von A/B- und Experience-Aktivitäten (XT) über Visual Experience Composer (VEC) auf Einzelseitenanwendungen zu ermöglichen.
 
-at. js 2. x führt die folgenden neuen Funktionen ein:
+at.js 2.x enthält die folgenden neuen Funktionen:
 
 * getOffers()
 * applyOffers()
 * triggerView()
 
-Die folgenden Funktionen sind mit der Einführung von at. js 2. x veraltet:
+Die folgenden Funktionen sind mit der Einführung von at.js 2.x veraltet:
 
 * mboxCreate()
 * mboxDefine
 * registerExtension()
 
-Weitere Informationen finden Sie unter [Aktualisieren von at. js 1. x auf at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) und [at. js-Funktionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+Weitere Informationen finden Sie unter [Aktualisieren von at.js 1.x auf at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) und [at.js-Funktionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 
 >[!NOTE]
 >
->Wenn Sie für die [allgemeine](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) Data Protection Protection (GDPR) Unterstützung von Adobe benötigen, müssen Sie derzeit at. js 1.7.0 oder at. js 2.1.0 verwenden.
+>If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0 or at.js 2.1.0.
 
 ## „at.js“-Version 1.7.0{#at-js-170}
 
-at.js 1.7.0 bietet Adobe Opt-in-Unterstützung. Adobe Opt-in ist eine Möglichkeit, Integrationen von Adobe-Lösungen mit Einwilligungsverwaltungsplattformen zu vereinfachen.
+at.js 1.7.0 bietet Adobe Opt-in-Unterstützung. Adobe Opt-In bietet die Möglichkeit, Adobe-Lösungsintegrationen mit Genehmigungsverwaltungsplattformen zu vereinfachen.
 
 Weitere Informationen zu Adobe Opt-in finden Sie unter [Privatsphäre und Datenschutz-Grundverordnung (DSGVO)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
@@ -97,13 +97,13 @@ Diese Version behebt auch ein Problem, bei dem Target möglicherweise Umleitungs
 
 >[! NOTE]
 >
->Wenn Sie für GDPR Adobe Opt-in-Unterstützung benötigen, müssen Sie derzeit at. js 1.7.0 oder 2.1.0 verwenden.<br>Eine Liste aller Versionen finden Sie unter [at. js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## „at.js“-Version 1.6.4{#at-js-164}
 
 at.js 1.6.4 ist eine Wartungsversion, die folgendes Problem behebt:
 
-* Es wurde eine Race Condition behoben, die in Microsoft Internet Explorer 11 auftrat und dazu führte, dass doppelte Angebote angewendet wurden.
+* Es wurde eine Race-Bedingung in Microsoft Internet Explorer 11 behoben, die dazu führte, dass doppelte Angebote angewendet wurden.
 
 ## „at.js“-Version 1.6.3{#section_484A56774E004282B98FFFF851E4E670}
 
@@ -227,7 +227,7 @@ at.js Version 1.3.0 ist verfügbar.
 
 Folgende Verbesserungen und Fehlerbehebungen sind in Version 1.1 von [!DNL at.js] enthalten:
 
-* Die Verarbeitung von Antwort-Token wurde verbessert. Weitere Informationen finden Sie unter [Antwort-Token](../../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
+* Die Verarbeitung von Antwort-Token wurde hinzugefügt. Weitere Informationen finden Sie unter [Antwort-Token](../../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
 * Es wurde ein Problem behoben, damit `document.currentScript polyfill` nicht mit Angular 1.X in Konflikt gerät.
 * Es wurden Änderungen vorgenommen, die sicherstellen, dass die Klick-Verfolgung nicht mit der Sichtbarkeitseigenschaft in Konflikt gerät. Klick-Verfolgungselemente sind mit der CSS-Klasse `at-element-click-tracking` statt mit `at-element-marker` markiert.
 
@@ -282,7 +282,7 @@ Folgende Verbesserungen und Fehlerbehebungen sind in Version 0.9.6 von [!DNL at
 
    Eine Liste der zulässigen Sonderzeichen finden Sie unter [„at.js“-Konfigurationen](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
 
-* Die Funktion `secureOnly` wurde hinzugefügt, die anzeigt, ob at.js nur HTTPS verwenden soll oder ob es möglich ist, dass basierend auf dem Seitenprotokoll zwischen HTTP und HTTPS umgeschaltet wird. Es handelt sich hierbei um eine erweiterte Einstellung, deren Standardwert „false“ (falsch) lautet und die von `targetGlobalSettings` überschrieben werden kann. 
+* Die Funktion `secureOnly` wurde hinzugefügt, die anzeigt, ob at.js nur HTTPS verwenden soll oder ob es möglich ist, dass basierend auf dem Seitenprotokoll zwischen HTTP und HTTPS umgeschaltet wird. Es handelt sich hierbei um eine erweiterte Einstellung, deren Standardwert „false“ (falsch) lautet und die von `targetGlobalSettings` überschrieben werden kann.
 * Die Option [!UICONTROL Unterstützung älterer Browser] ist in at.js, Version 0.9.3 und älter verfügbar. Diese Option wurde in at.js, Version 0.9.4 entfernt.
 
 ## „at.js“-Version 0.9.3{#section_DF13BC1D7C994AE7A36B81937A699DF4}
