@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Übergeben von Parametern an eine globale Mbox
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -32,7 +32,7 @@ Um Parameter an `target-global-mbox` zu übergeben, können Sie die Funktion `ta
 * Als JSON-Objekt
 * Als eine durch kaufmännisches Und getrennte Liste
 
-Verwenden Sie diese drei Methoden, um zu prüfen, ob die Parameter korrekt übergeben wurden. Sie können die Übergabe von Parametern auch über den [Adobe Experience Cloud-Debugger](https://marketing.adobe.com/resources/help/de_DE/sc/implement/debugger.html) überprüfen.
+Verwenden Sie diese drei Methoden, um zu prüfen, ob die Parameter korrekt übergeben wurden. Sie können die Übergabe der Parameter möglicherweise auch mit dem [Adobe Experience Cloud-Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html) prüfen.
 
 Sie müssen die JavaScript-Funktion definieren, bevor Sie die globale Mbox zu der Seite hinzufügen. Der Name muss `targetPageParams` lauten.
 
