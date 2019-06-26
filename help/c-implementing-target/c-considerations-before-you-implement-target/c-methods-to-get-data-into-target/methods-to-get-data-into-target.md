@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Verfahren für die Datenübernahme in Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -52,13 +52,13 @@ Die Daten werden in Echtzeit an Target gesendet und können bei demselben Server
 
 * Erfordert ein Seiten-Code-Update (direkt oder über ein Tag-Management-System).
 * Wenn die Daten für das Targeting bei einem nachfolgenden Seiten-/Server-Aufruf verwendet werden sollen, müssen sie in ein Profilskript übersetzt werden.
-* Abfragezeichenfolgen dürfen nur Zeichen gemäß des [Internet Engineering Task Force (IETF)-Standards](https://www.ietf.org/rfc/rfc3986.txt) enthalten.
+* Abfragezeichenfolgen dürfen nur Zeichen des [IETF-Standards](https://www.ietf.org/rfc/rfc3986.txt) (Internet Engineering Task Force) enthalten .
 
    Zusätzlich zu den auf der IETF-Site aufgeführten Zeichen erlaubt Target auch folgende Zeichen in Abfragezeichenfolgen:
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
-   Alle anderen Zeichen müssen URL-codiert sein. Der Standard gibt das folgende Format an ([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt)):
+   Alle anderen Zeichen müssen URL-codiert sein. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
    ![](assets/ietf1.png)
 
@@ -227,8 +227,8 @@ Dokumentation: [Datenanbieter](/help/c-implementing-target/c-implementing-target
 
 ### Schulungsvideos:
 
-* [Verwenden von Datenanbietern in Adobe Target](https://helpx.adobe.com/de/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implementieren von Datenanbietern in Adobe Target](https://helpx.adobe.com/de/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Verwenden von Datenanbietern in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Implementieren von Datenanbietern in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## Bulk-Profil-Update-API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
@@ -266,7 +266,7 @@ Aufeinanderfolgende [V2-Batchupdate-Aufrufe](https://developers.adobetarget.com/
 
 ### Beispiele für Codes
 
-Siehe [Aktualisieren von Profilen](https://developers.adobetarget.com/api/#updating-profiles).
+Siehe [Update von Profilen](https://developers.adobetarget.com/api/#updating-profiles).
 
 ### Links zu relevanten Informationen
 
@@ -336,8 +336,8 @@ Erfordert die Implementierung von Experience Cloud ID (ECID).
 
 ### Beispiele für Codes
 
-Weitere Informationen finden Sie unter [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://marketing.adobe.com/resources/help/de_DE/mcloud/t_crs_usecase.html).
+Details finden Sie in [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) .
 
 ### Links zu relevanten Informationen
 
-[Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://marketing.adobe.com/resources/help/de_DE/mcloud/t_crs_usecase.html)
+[Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
