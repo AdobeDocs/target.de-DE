@@ -8,7 +8,7 @@ title: Erstellen eines A/B-Tests
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,25 +25,25 @@ Verwenden Sie Visual Experience Composer in Target, um Ihren Test direkt auf ein
    >
    >Die verfügbaren Aktivitätstypen hängen von Ihrem [!DNL Target]-Konto ab. Einige Aktivitätstypen werden in Ihrer Liste eventuell nicht angezeigt. [!UICONTROL Recommendations] ist beispielsweise eine [Target Premium-Funktion](/help/c-intro/intro.md#premium).
    >
-   >Informationen zu den verschiedenen Aktivitätstypen finden Sie unter [Aktivitäten](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) und das [Target-Aktivitätenhandbuch](/help/c-activities/target-activities-guide.md).
+   >For information about the various activity types, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) and the [Target activities guide](/help/c-activities/target-activities-guide.md).
 
    ![A/B-Test-Actity erstellen](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-1. Wählen **[!UICONTROL Sie bei Bedarf &quot;Visuell (]** Standard)&quot; aus.
+1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular aus]. Weitere Informationen finden Sie unter [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) .
+   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular aus]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
-   >Zusätzlich zum VEC und Form-Based Experience Composer bietet Target die Einzelseitenanwendung VEC und VEC für mobile Apps an. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
+   >Zusätzlich zum VEC und Form-Based Experience Composer bietet Target die Einzelseitenanwendung VEC und VEC für mobile Apps an. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >[! UICONTROL [Wählen Sie in der obigen Abbildung die](/help/administrating-target/c-user-management/property-channel/property-channel.md) Option &quot;Arbeitsplatz [auswählen](/help/c-intro/intro.md) &quot; aus. Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
+   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
 
 1. (Bedingt) Wenn Sie Target Premium-Kunde sind, wählen Sie eine Arbeitsfläche aus.
 
-1. Geben Sie Ihre [Aktivitäts-URL an](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Specify your [activity URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Next]**.
 
    Wenn Ihr Konto mit einer Standard-URL konfiguriert wurde, dann wird diese URL standardmäßig angezeigt. Sie können von der Standard-URL zu einer anderen URL wechseln.
 
@@ -74,7 +74,7 @@ Verwenden Sie Visual Experience Composer in Target, um Ihren Test direkt auf ein
 
    Weitere Informationen zum Hinzufügen und Bearbeiten von Erlebnissen finden Sie im Kapitel [!UICONTROL Visual Experience Composer], Abschnitt [Erlebnis hinzufügen](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Möchten Sie Erlebnis B bearbeiten, beginnen Sie mit Schritt 3.
 
-1. Klicken **[!UICONTROL Sie oben]** im [!UICONTROL Visual Experience Composer] auf Targeting, um zum nächsten Schritt im geleiteten Arbeitsablauf mit drei Schritten zu gelangen.
+1. Click **[!UICONTROL Targeting]** at the top of the [!UICONTROL Visual Experience Composer] to move to the next step in the three-step guided workflow.
 
    Das Flussdiagramm wird geöffnet.
 
