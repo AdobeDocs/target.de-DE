@@ -4,8 +4,8 @@ seo-description: Informationen zur sicheren Bereitstellung von „at.js“ in ei
 seo-title: Bereitstellung von „at.js“ in einer Nicht-Produktionsumgebung
 title: Bereitstellung von „at.js“ in einer Nicht-Produktionsumgebung
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Wenn Sie DTM verwenden, können Sie at.js ganz einfach in Ihrer Adobe Target-Too
 
 Speichern Sie die Bibliothek und verwenden Sie das DTM-Wechseltool, um sie mit Ihrem Produktionscode zu testen. Dadurch können Sie Ihre Adobe-Berater auch besser unterstützen.
 
-Weitere Informationen finden Sie unter [Option 3: Target manuell mit der von DTM gehosteten Target-JavaScript-Bibliothek implementieren](https://marketing.adobe.com/resources/help/de_DE/dtm/target/t_implementing-target-manually-js-hosted-dtm.html) im Leitfaden _Best Practices zur Implementierung von Adobe Target mithilfe des Dynamic Tag Management_.
+Weitere Informationen finden Sie unter [Option 3: Manuelle Implementierung von Target mit in DTM gehosteter JavaScript-Target-Bibliothek](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html) im Abschnitt _Best Practices zur Implementierung von Adobe Target mit Dynamic Tag Management_.
 
 ## Chrome-Erweiterung „Requestly“ zum Zuordnen einer anderen Datei verwenden
 
@@ -28,7 +28,7 @@ Weitere Informationen finden Sie unter [Option 3: Target manuell mit der von DTM
 >
 >Zusätzlich zu den folgenden Informationen können Sie auch die [Adobe Target VEC Helper-Browsererweiterung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) für Google Chrome verwenden.
 
-[Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=de) ist a kostenlose Chrome-Erweiterung, mit der Sie Anfragen an eine andere URL weiterleiten können.
+Bei [Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) handelt es sich um eine kostenlose Chrome-Erweiterung, mit deren Hilfe Sie Anfragen an eine andere URL umleiten können.
 
 Sie stellen at.js für eine URL bereit und verwenden anschließend Requestly, um Ihre aktuelle mbox.js-Datei-URL der neuen at.js-URL zuzuordnen. Wenn Ihre Website anschließend versucht, mbox.js zu laden, wird stattdessen at.js geladen. Mit diesem Ansatz kann sie Adobe auch besser unterstützen.
 
