@@ -7,8 +7,8 @@ solution: Target
 title: Konversionsrate
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ Siehe [Konfidenzniveau und Konfidenzintervall](../c-reports/conversion-rate.md#c
 
 ## Verkaufsdaten {#section_30A674731BA6440E9BB93C421BE990EE}
 
-AOV-, RPV- und Verkaufsdaten werden für jedes Erlebnis angezeigt, wenn Sie eine [Place Order](https://marketing.adobe.com/resources/help/de_DE/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) eingefügt und als Konversions-mbox ausgewählt haben.
+AOV-, RPV- und Absatzdaten werden für jedes Erlebnis dargestellt, wenn Sie eine Mbox des Typs [Bestellung](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) eingefügt und sie als Konversions-Mbox festgelegt haben.
 
 ## Konfidenzniveau und Konfidenzintervall {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -107,7 +107,7 @@ Das *Konfidenzintervall* ist ein Bereich, in dem der wahre Wert auf einer bestim
 
 Der [heruntergeladene CSV-Bericht](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
 
-Laden Sie zur Berechnung dieser berechneten Metriken die [Target&#39;s Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx)-Excel-Datei herunter, um den Aktivitätswert einzugeben, oder überprüfen Sie die von Target verwendeten [statistischen Berechnungen](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
+Möchten Sie diese Metriken berechnen, laden Sie die Excel-Datei [Target&#39;s Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) herunter, um die Aktivitätswerte einzugeben oder die [von Target verwendeten statistischen Berechnungen](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf) einzusehen.
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Wenn Sie beispielsweise eine Optimierung für Seitenansichten pro Besucher durch
 1. Klicken Sie auf **[!UICONTROL Tools]** &gt; **[!UICONTROL Data Warehouse]**.
 1. Füllen Sie auf der Registerkarte **[!UICONTROL Data Warehouse-Anforderung]die Felder aus.**
 
-   Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://marketing.adobe.com/resources/help/de_DE/reference/data_warehouse.html).
+   Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
 
    | Feld | Anleitung |
    |--- |--- |
@@ -147,8 +147,8 @@ Wenn Sie beispielsweise eine Optimierung für Seitenansichten pro Besucher durch
 
 Weitere Informationen über [!DNL Data Warehouse] finden Sie in der [!DNL Analytics]-Hilfsdokumentation unter den folgenden Links:
 
-* [Erstellen Sie eine Data Warehouse-Anfrage](https://marketing.adobe.com/resources/help/de_DE/reference/t_dw_create_request.html)
-* [Data Warehouse - Best Practices](https://marketing.adobe.com/resources/help/de_DE/reference/data_warehouse_bp.html)
+* [Erstellen einer Data Warehouse-Anforderung](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
+* [Best Practices für Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
 
 ## Zählmethodik {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
