@@ -7,8 +7,8 @@ solution: Target
 title: Implementieren von Einzelseiten-Apps
 topic: Standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -118,7 +118,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Link:[Produktseite](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:[Produkte-Site](https://target.enablementadobe.com/react/demo/#/products)**
 
 Schauen wir uns nun ein Beispiel an, das etwas komplizierter ist. Nehmen wir als Marketing-Experten an, wir möchten die zweite Reihe der Produkte personalisieren, indem wir die Farbe der Preisbeschriftung auf Rot ändern, nachdem ein Benutzer auf die Schaltfläche „Mehr laden“ geklickt hat.
 
@@ -279,18 +279,18 @@ Weitere Informationen dazu finden Sie in den folgenden Videos:
 
 ### Funktionsweise von at.js 2.x
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ger)
 
-Weitere Informationen finden Sie unter [So funktioniert at.js 2.x](https://helpx.adobe.com/de/target/kt/using/atjs20-diagram-technical-video-understand.html).
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
 
 ### Implementieren von at.js 2.x in einer SPA
 
->[!VIDEO](https://video.tv.adobe.com/v/26248)
+>[!VIDEO](https://video.tv.adobe.com/v/26248?captions=ger)
 
-Weitere Informationen finden Sie unter [Implementieren von Adobe Target at.js 2.x in einer Einzelseiten-App (SPA)](https://helpx.adobe.com/de/target/kt/using/atjs2-single-page-application-technical-video-implement.html).
+See [Implement Adobe Target&#39;s at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
 
 ### Verwendung von VEC für SPAs in Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/26249)
+>[!VIDEO](https://video.tv.adobe.com/v/26249?captions=ger)
 
-Weitere Informationen finden Sie unter [Verwenden von Visual Experience Composer für Einzelseiten-Apps (SPA VEC) in Adobe Target](https://helpx.adobe.com/de/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html).
+See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
