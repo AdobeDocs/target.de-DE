@@ -8,7 +8,7 @@ title: Ziele und Einstellungen
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -133,7 +133,7 @@ Mithilfe der Option Abhängigkeit hinzufügen kann die Erfolgsmetrik inkrementie
 So fügen Sie eine Abhängigkeit hinzu:
 
 1. Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf **[!UICONTROL Erweiterte Einstellungen]**.
-2. Klicken **[!UICONTROL Sie auf Abhängigkeiten hinzufügen]**:
+2. Click **[!UICONTROL Add Dependency]**:
 
    ![Abhängigkeitslink hinzufügen](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
