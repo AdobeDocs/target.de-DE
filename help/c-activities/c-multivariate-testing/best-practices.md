@@ -8,14 +8,14 @@ title: Best Practices für Multivarianz-Tests
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Best Practices für Multivarianz-Tests{#multivariate-test-best-practices}
 
-Tipps zur Verbesserung der Leistung, Vermeiden von Problemen und Korrigieren bekannter Probleme, die beim Erstellen und Ausführen von Multivarianz-Tests (MVT) in [!DNL Adobe Target]auftreten können.
+Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running Multivariate Test (MVT) activities in [!DNL Adobe Target].
 
 ## Planung {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -40,21 +40,21 @@ Tipps zur Verbesserung der Leistung, Vermeiden von Problemen und Korrigieren bek
 
    Prüfen Sie vor der Live-Schaltung alle Erlebnisse, die durch Ihren Test generiert wurden. Stellen Sie sicher, dass es keine Kombinationen mit widersprüchlichen Behauptungen (zum Beispiel 20 % Rabatt und 19 $ Rabatt im selben Erlebnis) oder inkompatiblen Entwürfen wie gleiche Farbe für Hintergrund und Schrift gibt.
 
-* Verwenden Sie die [Traffic-Schätzung](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) , um sicherzustellen, dass Ihr Test für den Traffic entworfen wurde, den Ihre Seite erhält.
+* Use the [Traffic Estimator](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) to make sure that your test is designed for the amount of traffic your page receives.
 
    Vergewissern Sie sich, dass die Traffic-Schätzung Ihre Testkonfiguration freigibt, sodass Sie die gewünschten Ergebnisse erhalten.
 * Es wird empfohlen, dass sich die Alternativen der einzelnen Elemente deutlich voneinander unterscheiden.
 
 ## Analyse {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Verwenden Sie den [Location Contribution-Bericht](/help/c-reports/location-contribution-report.md) häufig, um die Leistung jeder Position und jedes Angebots zu überwachen.
-* Basieren Sie im [Experience Performance-Bericht](/help/c-reports/experience-performance-report.md)auf den Daten, die mit den Filter &quot;Beste 5&quot; und&quot; Schlechteste 5&quot; angezeigt werden.
+* Make frequent use of the [Location Contribution report](/help/c-reports/location-contribution-report.md) to monitor the performance of each location and each offer.
+* In the [Experience Performance report](/help/c-reports/experience-performance-report.md), base your decisions on the data shown using the Best 5 and Worst 5 filters.
 
-   Mit dem Filter [!UICONTROL &quot;Alle&quot;] ist es schwierig, die gewünschten Informationen zu extrahieren, und nicht alle Erlebnisse können im Diagramm angezeigt werden. Verwenden Sie den [!UICONTROL Filter &quot;Alle&quot;] , wenn Sie ein spezifisches Erlebnis betrachten möchten, das sich nicht in den besten oder schlechtesten fünf unterscheidet.
+   The [!UICONTROL All] filter makes it difficult to extract the desired information, and not all experiences can display in the graph. Use the [!UICONTROL All] filter if you want to look at a specific experience that is not in the best or worst five.
 
 ## Nachbereitung {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* Auch wenn [!DNL Target] Sie eine Live-Aktivität bearbeiten können, sollten Sie beachten, dass die Bearbeitung einer aktiven Aktivität den Test zurücksetzen könnte. Berichte erkennen also möglicherweise manche Änderungen nicht. Es ist jedoch sicher, die Änderungen nur an den HTML-Angeboten in der Angebotsbibliothek vorzunehmen.
+* Although [!DNL Target] allows you to edit a live activity, be aware that editing an activity that is in progress could reset the test. Berichte erkennen also möglicherweise manche Änderungen nicht. Es ist jedoch sicher, die Änderungen nur an den HTML-Angeboten in der Angebotsbibliothek vorzunehmen.
 
    Spezifische Aktionen, die zu einem Zurücksetzen von Erlebnisnamen und Berichten führen:
 
