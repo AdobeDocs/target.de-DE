@@ -8,7 +8,7 @@ title: Zielgruppenauswahl
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ Klicken Sie im Feld [!UICONTROL „Zielgruppe“] auf das Bearbeitungssymbol (dr
 
 ![Option &quot;Zielgruppe ersetzen «](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Standardeinstellung ist, dass alle Besucher Ihrer Zielgruppe angehören. Sie können die Zielgruppe jedoch anpassen. Zielgruppen werden aus der Zielgruppenbibliothek ausgewählt. Alternativ können Sie eine Zielgruppe „Nur Aktivität“ erstellen. Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. Sie können eine Zielgruppe aus der Bibliothek auswählen, [eine neue Zielgruppe](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)erstellen oder eine Zielgruppe für eine Aktivität [erstellen](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Wählen Sie für einen A/B-Test ohne Festlegen bestimmter Zielgruppen die Standardeinstellung „Alle Besucher“ aus.
+Standardeinstellung ist, dass alle Besucher Ihrer Zielgruppe angehören. Sie können die Zielgruppe jedoch anpassen. Zielgruppen werden aus der Zielgruppenbibliothek ausgewählt. Alternativ können Sie eine Zielgruppe „Nur Aktivität“ erstellen. Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. You can select an audience from the library, [create a new audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Wählen Sie für einen A/B-Test ohne Festlegen bestimmter Zielgruppen die Standardeinstellung „Alle Besucher“ aus.
 
 Beachten Sie, dass Sie eine Zielgruppe auch bearbeiten oder kopieren können, indem Sie im Dialogfeld [!UICONTROL Zielgruppe wählen] die Maus über die gewünschte Zielgruppe bewegen, wie unten dargestellt. Das Kopieren einer Zielgruppe ist hilfreich, wenn Sie für eine vorhandene Zielgruppe eine ähnliche Zielgruppe erstellen möchten. Sie können eine Kopie der Zielgruppe erstellen, Bearbeitungen vornehmen und sie dann als neue Zielgruppe speichern. Diese Mauszeigerfunktionalität existiert auch in anderen Aktivitätstypen.
 
