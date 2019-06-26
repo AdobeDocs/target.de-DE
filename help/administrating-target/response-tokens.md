@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Antwort-Token
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
 | Verwendete Target-Bibliothek | Empfohlene Aktionen |
 |--- |--- |
 | at.js | Stellen Sie sicher, dass Sie at.js der Version 1.1 oder neuer verwenden. Weitere Informationen zum Herunterladen der neuesten Version von at.js finden Sie unter [Herunterladen von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Weitere Informationen zu neuen Funktionen in den einzelnen Versionen von at.js finden Sie unter [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Kunden, die at.js verwenden, sollten Antwort-Token nutzen und auf Plug-ins verzichten. Einige Plug-ins, die auf internen Methoden basieren, die in mbox.js, aber nicht in at.js vorhanden sind, werden zwar bereitgestellt, sie schlagen jedoch fehl. Weitere Informationen finden Sie unter [Einschränkungen von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
-| mbox.js | Bei der Verwendung von mbox.js werden Plug-ins weiterhin unterstützt und bereitgestellt.<br>Kunden, die mit mbox.js und Plug-ins arbeiten, sollten jedoch stattdessen at.js und Antwort-Token verwenden. Weitere Informationen zu den Vorteilen von at.js im Vergleich zu mbox.js finden Sie unter [Häufig gestellte Fragen zu at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Weitere Informationen zum Migrieren finden Sie unter [Migration von „mbox.js“ zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Nach der Einstellung von Target Classic (November 2017) müssen Sie sich möglicherweise an den Kundendienst wenden, um vorhandene Plug-ins bearbeiten oder deaktivieren zu können. Sie sollten Ihre Plug-ins geprüft haben, bevor Target Classic veraltet war und unerwünschte Plug-ins deaktiviert wurden.<br>Sie können keine neuen Plug-ins in Target Standard/Premium erstellen. Verwenden Sie stattdessen Antwort-Token.<br>Alte SiteCatalyst-Plug-ins sollten deaktiviert und durch [Adobe Analytics als Berichtsquelle für Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) ersetzt werden. Das ttMeta-Plug-in sollte deaktiviert und durch den [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=de) ersetzt werden. |
+| mbox.js | Bei der Verwendung von mbox.js werden Plug-ins weiterhin unterstützt und bereitgestellt.<br>Kunden, die mit mbox.js und Plug-ins arbeiten, sollten jedoch stattdessen at.js und Antwort-Token verwenden. Weitere Informationen zu den Vorteilen von at.js im Vergleich zu mbox.js finden Sie unter [Häufig gestellte Fragen zu at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Weitere Informationen zum Migrieren finden Sie unter [Migration von „mbox.js“ zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Nach der Einstellung von Target Classic (November 2017) müssen Sie sich möglicherweise an den Kundendienst wenden, um vorhandene Plug-ins bearbeiten oder deaktivieren zu können. Sie sollten Ihre Plug-ins geprüft haben, bevor Target Classic veraltet war und unerwünschte Plug-ins deaktiviert wurden.<br>Sie können keine neuen Plug-ins in Target Standard/Premium erstellen. Verwenden Sie stattdessen Antwort-Token.<br>Alte SiteCatalyst-Plug-ins sollten deaktiviert und durch [Adobe Analytics als Berichtsquelle für Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) ersetzt werden. Das ttMeta-Plugin sollte deaktiviert und durch [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) ersetzt werden. |
 
 ## Verwenden von Antwort-Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -286,4 +286,4 @@ Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Antworttoken und benutzerspezifische at.js-Ereignisse nutzen können, um Profilinformationen aus Target an Drittanbietersysteme zu übergeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=ger)
