@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+translation-type: tm+mt
 
 ---
 # Beitrag
@@ -11,7 +11,7 @@ Nachfolgend finden Sie eine Reihe von Richtlinien, die Sie befolgen müssen, wen
 
 ## Verhaltenskodex
 
-Dieses Projekt erfüllt den Adobe[-Verhaltenskodex](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md). Bei Teilnahme wird von Ihnen erwartet, dass Sie diesen Verhaltenskodex befolgen. Bitte melden Sie unzulässiges Verhalten an SOMEEMAIL.
+Dieses Projekt unterliegt dem Adobe-[Verhaltenskodex](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md). Bei Teilnahme wird von Ihnen erwartet, dass Sie diesen Verhaltenskodex befolgen. Bitte melden Sie unzulässiges Verhalten an SOMEEMAIL.
 
 ## Lizenzvereinbarung für Beitragende
 
@@ -19,4 +19,4 @@ Bei allen Drittanbieter-Beiträgen zu diesem Projekt muss eine entsprechende unt
 
 ## Code-Überprüfungen
 
-Alle Code-Beiträge sollten als Pull-Anforderungen übermittelt werden und müssen von den Projektverantwortlichen geprüft werden. Weitere Informationen über das Senden von Pull-Anfragen finden Sie in der [Pull-Anfragen-Dokumentation von GitHub](https://help.github.com/articles/about-pull-requests/).
+Alle Code-Beiträge sollten als Pull-Anforderungen übermittelt werden und müssen von den Projektverantwortlichen geprüft werden. Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
