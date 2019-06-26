@@ -8,7 +8,7 @@ title: Erstellen von Zielgruppen in Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,13 +27,13 @@ Wenn Sie Regeln oder Parameter mit „OR“ kombinieren, müssen die Mitglieder 
 
 Sie können die beiden booleschen Operatoren auch mischen und so komplexe Regeln schaffen, allerdings müssen Operatoren auf derselben Regelebene übereinstimmen. Die Benutzeroberfläche wendet automatisch den richtigen Operator an.
 
-Die folgende Regel zielt beispielsweise auf Besucher ab, die auf einem Windows-Computer entweder Chrome *oder* Firefox verwenden:
+For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
 
 ![Zielgruppe erstellen](assets/audience_create.png)
 
 >[!NOTE]
 >
->Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. Beispielsweise kann es nicht passieren, dass Benutzer eine Seite gleichzeitig mit Chrome *und* Firefox besuchen.
+>Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
 
 ## Neue Zielgruppe erstellen
 
