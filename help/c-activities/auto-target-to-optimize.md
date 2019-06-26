@@ -10,7 +10,7 @@ topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 badge: premium
 translation-type: tm+mt
-source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 >[!NOTE]
 >
->[!UICONTROL Automatisches Targeting] ist als Teil der [!DNL Target Premium]-Lösung verfügbar. Diese Funktion ist in [!DNL Target Standard] nicht ohne eine [!DNL Target Premium]-Lizenz verfügbar. Weitere Informationen zu den erweiterten Funktionen dieser Lizenz finden Sie unter [Target Premium](/help/c-intro/intro.md).
+>[!UICONTROL Automatisches Targeting] ist als Teil der [!DNL Target Premium]-Lösung verfügbar. Diese Funktion ist in [!DNL Target Standard] nicht ohne eine [!DNL Target Premium]-Lizenz verfügbar. For more information about the advanced features this license provides, see [Target Premium](/help/c-intro/intro.md).
 
 Beim [Erstellen einer A/B-Aktivität mit einem geleiteten Arbeitsablauf in drei Schritten](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) können Sie Traffic mithilfe der Option [!UICONTROL Automatisches Targeting für personalisierte Erlebnisse] zuordnen:
 
@@ -76,13 +76,15 @@ In der Dropdownliste [!UICONTROL Zuordnung anpassen] können Sie aus den folgend
 
 | Aktivitätsziel | Vorgeschlagene Traffic-Zuordnung | Kompromisse |
 |--- |--- |--- |
-| **Personalisierung evaluieren (50/50)**: Ihr Ziel ist es festzustellen, wie gut der Personalisierungsalgorithmus im Vergleich zum Kontrollelement funktioniert (d. h. ein zufällig ausgestelltes Erlebnis). Sie befinden sich möglicherweise in den Anfangsphasen der Auswertung Ihres Personalisierungsprogramms. | Aufteilung: 50 % Kontrolle / 50 % personalisiertes Erlebnis | <ul><li>Maximiert die Genauigkeit der Steigerung zwischen Kontrolle und personalisiert</li><li>Relativ gesehen erhalten weniger Besucher ein personalisiertes Erlebnis</li></ul> |
-| **Traffic-Optimierung maximieren (10. Januar)**: Ihr Ziel besteht darin, eine &quot;immer&quot; -Personalisierungsaktivität zu erstellen, die den personalisierten Traffic maximiert. Sie möchten die Steigerung maximieren und gleichzeitig eine Kontroll-Benchmark-Steigerung zu Vergleichszwecken beibehalten. | Empfohlene Aufteilung: 10–30 % Kontrolle / 70–90 % personalisiertes Erlebnis | <ul><li>Maximiert die Anzahl der Besucher mit einem personalisierten Erlebnis</li><li>Maximiert die Steigerung</li><li>Weniger Genauigkeit in Bezug darauf, wofür die Steigerung für die Aktivität dient</li></ul> |
+| **Personalisierung evaluieren (50/50)**: Wenn Ihr Ziel darin besteht, den Algorithmus zu testen, verwenden Sie 50/50 Prozent der Besucher zwischen dem Kontrollelement und dem zielgerichteten Algorithmus. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung. Für die Verwendung mit &quot;Random Experiences&quot; als Steuerelement vorgeschlagen. | Aufteilung: 50 % Kontrolle / 50 % personalisiertes Erlebnis | <ul><li>Maximiert die Genauigkeit der Steigerung zwischen Kontrolle und personalisiert</li><li>Relativ gesehen erhalten weniger Besucher ein personalisiertes Erlebnis</li></ul> |
+| **Traffic-Optimierung maximieren (10. Januar)**: Wenn Ihr Ziel die Erstellung einer &quot;Immer ein&quot; -Aktivität ist, stellen Sie 10% der Besucher in das Steuerelement ein, um sicherzustellen, dass genügend Daten für die Algorithmen im Laufe der Zeit erhalten bleiben. Beachten Sie, dass das Personalisieren einer größeren Traffic-Menge zur Folge hat, dass die Bestimmung der exakten Steigerung weniger präzise ist. Unabhängig von Ihrem Ziel ist dies die empfohlene Traffic-Aufteilung, wenn ein bestimmtes Erlebnis als Steuerung verwendet wird. | Empfohlene Aufteilung: 10–30 % Kontrolle / 70–90 % personalisiertes Erlebnis | <ul><li>Maximiert die Anzahl der Besucher mit einem personalisierten Erlebnis</li><li>Maximiert die Steigerung</li><li>Weniger Genauigkeit in Bezug darauf, wofür die Steigerung für die Aktivität dient</li></ul> |
 | **Zuordnung anpassen** | Teilen Sie den Prozentsatz nach Bedarf manuell auf. | <ul><li>Es kann sein, dass Sie nicht die gewünschten Ergebnisse erzielen. Wenn Sie unsicher sind, sollten Sie jeweils die Vorschläge der vorangegangenen Optionen befolgen.</li></ul> |
 
 Um den Steuerungsprozentsatz anzupassen, klicken Sie auf die Symbole in der Spalte &quot;Zuordnung&quot; . Sie dürfen die Kontrollgruppe nicht auf weniger als 10 % reduzieren.
 
 ![Traffic-Zuordnung für automatisches Targeting ändern](/help/c-activities/assets/auto-target-control.png)
+
+You can [select a specific experience to use as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or you can use the Random experience option.
 
 ## Wann sollte [!UICONTROL Automatisches Targeting] anstelle von „Automatisierte Personalisierung“ gewählt werden? {#section_BBC4871C87944DD7A8B925811A30C633}
 
@@ -206,6 +208,14 @@ Nein, es müssen mindestens zwei Modelle in Ihrer Aktivität erstellt werden, da
 **Ab wann kann ich die Ergebnisse meiner Aktivität vom Typ[!UICONTROL Automatisches Targeting]anzeigen?**
 
 Sie können die Ergebnisse Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] anzeigen, sobald Sie über mindestens zwei Erlebnisse mit für das Erlebnis erstellten Modellen (grünes Häkchen) verfügen, die Modelle erstellt haben.
+
+**Kann ich ein spezifisches Erlebnis angeben, das als Steuerelement verwendet werden soll?**
+
+You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+
+Mit dieser Funktion können Sie den gesamten Traffic-Traffic an ein bestimmtes Erlebnis weiterleiten, basierend auf dem Prozentsatz der Traffic-Zuordnung, der in der Aktivität konfiguriert wurde. Anschließend können Sie die Leistungsberichte des personalisierten Traffic auswerten, um den Traffic zu diesem Erlebnis zu steuern.
+
+For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
 ## Fehlerbehebung für [!UICONTROL Automatisches Targeting] {#section_23995AB813F24525AF294D20A20875C8}
 
