@@ -8,7 +8,7 @@ title: Privatsphäre und Datenschutz-Grundverordnung (DSGVO)
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Experience Cloud bietet Datenverantwortlichen APIs, die auf die DSGVO vorb
 * Auf die in Target gespeicherten Daten der betroffenen Person zugreifen
 * Die in Target gespeicherten Daten der betroffenen Person löschen
 
-## Die Adobe-Website zur API für die Datenschutz-Grundverordnung   {#section_51B8FA3CBE234E9592BDA7083B5CE4CD}
+## Die Adobe-Website zur API für die Datenschutz-Grundverordnung {#section_51B8FA3CBE234E9592BDA7083B5CE4CD}
 
 Weitere Informationen finden Sie unter:
 
@@ -101,29 +101,29 @@ Häufig gestellte Fragen zur Datenschutz-Grundverordnung (DSGVO) hinsichtlich Ad
 
 Adobe erfüllt seine Verpflichtungen als Datenverarbeiter bereits oder ist dabei, die entsprechenden Maßnahmen zu implementieren. Adobe verfügt durch Sicherheitszertifikate und integrierte Datenschutzoptionen über eine solide Basis, die durch zusätzliche Verbesserungen bis zum Stichtag im Mai 2018 weiter verstärkt wird. Unternehmenskunden sind dafür verantwortlich, diese Verbesserungen zu implementieren sowie die erforderlichen Richtlinien und Vorgehensweisen zu aktualisieren.
 
-### Muss mein Unternehmen als Datenverantwortlicher eine DSGVO-Anfrage für jede verwendete Adobe Experience Cloud-Lösung einreichen?   {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
+### Muss mein Unternehmen als Datenverantwortlicher eine DSGVO-Anfrage für jede verwendete Adobe Experience Cloud-Lösung einreichen? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
 
 Nein, Adobe stellt eine zentrale Möglichkeit bereit, um Datenverantwortliche bei der Erfüllung von DSGVO-Anfragen zu unterstützen. Datenverantwortliche müssen dazu nicht jede Lösung einzeln aufrufen.
 
 Alle DSGVO-Anfragen in Experience Cloud-Lösungen, wie Target, werden über eine zentrale Adobe-API vorgenommen, die zurzeit als DSGVO-API bezeichnet wird. Die API führt die Anfrage daraufhin in der gesamten Experience Cloud-Lösungssuite des Datenverantwortlichen aus.
 
-### Für welche Informationen ermöglicht Adobe eine Löschung, wenn Kunden von betroffenen Personen oder Benutzern dazu aufgefordert werden?   {#section_4B51D00924EC4166B2442218B69214F0}
+### Für welche Informationen ermöglicht Adobe eine Löschung, wenn Kunden von betroffenen Personen oder Benutzern dazu aufgefordert werden? {#section_4B51D00924EC4166B2442218B69214F0}
 
-In Target sind die Informationen zu den einzelnen Besuchern im jeweiligen Target-Besucherprofil enthalten. Kunden können in Adobe Target alle Daten löschen, die mit einer ID in ihrem Besucherprofil verbunden sind. Beispiele in Adobe Target gespeicherter Profildaten finden Sie unter   [Besucherprofil](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+In Target sind die Informationen zu den einzelnen Besuchern im jeweiligen Target-Besucherprofil enthalten. Kunden können in Adobe Target alle Daten löschen, die mit einer ID in ihrem Besucherprofil verbunden sind. Beispiele in Adobe Target gespeicherter Profildaten finden Sie unter [Besucherprofil](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 Aggregierte oder anonymisierte Daten (beispielsweise Berichtsdaten), in denen keine Person identifiziert wird, oder Daten, die nicht mit einer bestimmten Person in Verbindung gebracht werden können (beispielsweise Inhaltsdaten), werden bei der Löschungsanfrage eines Benutzers nicht berücksichtigt.
 
 Target-Besucherprofile, die seit 90 Tagen inaktiv sind, werden standardmäßig gelöscht, ohne dass eine weitere Aktion erforderlich ist.
 
-### Welche IDs werden unterstützt, um Kunden zu helfen, Datenzugriffs- und Löschungsanfragen gemäß DSGVO in Target nachzukommen?   {#section_F7D0EE4E6A28490FB20056A0D26118BC}
+### Welche IDs werden unterstützt, um Kunden zu helfen, Datenzugriffs- und Löschungsanfragen gemäß DSGVO in Target nachzukommen? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
 
 Target unterstützt die folgenden ID-Typen zum Auffinden eines Kundenprofils:
 
 | Benutzer-ID | Namespace-ID-Typ | Namespace-ID | Definition |
 |--- |--- |--- |--- |
-| Experience Cloud ID (ECID) | Standard | 4 | Adobe Experience Cloud ID, früher als Besucher-ID oder Marketing Cloud ID bezeichnet. Sie können die JavaScript-API verwenden, um diese ID zu finden (siehe Details unten). |
+| Experience Cloud ID (ECID) | Standard | 4 | Adobe Experience Cloud ID, früher als Besucher-ID oder Experience Cloud ID bezeichnet. Sie können die JavaScript-API verwenden, um diese ID zu finden (siehe Details unten). |
 | TnT-ID/Cookie-ID(TNTID) | Standard | 9 | Target-Kennung, die als Cookie im Browser des Besuchers gespeichert wird. Sie können die JavaScript-API verwenden, um diese ID zu finden (siehe Details unten). |
-| Drittanbieter-ID/CRM-ID  (THIRDPARTYID) | Target-spezifisch | Nicht zutreffend | Wenn Sie Target mit Ihrem CRM oder andere eindeutige Kennungsinformationen für Ihre Kunden bereitstellen. |
+| Drittanbieter-ID/CRM-ID (THIRDPARTYID) | Target-spezifisch | Nicht zutreffend | Wenn Sie Target mit Ihrem CRM oder andere eindeutige Kennungsinformationen für Ihre Kunden bereitstellen. |
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Weitere Informationen zu DSGVO und Adobe Launch finden Sie unter [Adobe-Datensch
 
 Target löscht beispielsweise die Cookies zum Speichern der IDs, Adobe Audience Manager (AAM) löscht die in einem Drittanbieter-Cookie gespeicherte demdex-ID jedoch nicht.
 
-### Welche Informationen müssen in einer Target-DSGVO-Anfrage enthalten sein?   {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### Welche Informationen müssen in einer Target-DSGVO-Anfrage enthalten sein? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
 Neben den Anforderungen des Central Privacy Service enthält eine gültige DSGVO-Anfrage für Target folgende Elemente:
 
@@ -190,7 +190,7 @@ Neben den Anforderungen des Central Privacy Service enthält eine gültige DSGVO
 }
 ```
 
-### Welche Arten von Antworten von Target über die DSGVO-API kann ich erwarten?   {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### Welche Arten von Antworten von Target über die DSGVO-API kann ich erwarten? {#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | Anfragestatus | Target-Antwortnachricht | Szenario |
 |--- |--- |--- |
@@ -282,6 +282,6 @@ Die im Beispiel verwendeten JSON-Felder des Profils werden in der folgenden Tabe
 >
 >Dies ist eine gekürzte Version des JSON-Codes für ein Target-Profil zur Veranschaulichung. Bei zahlreichen Feldern im Target-Profil handelt es sich nicht um Standardfelder. Die zurückgegebenen Daten hängen von den Informationen in diesem spezifischen Besucherprofil ab.
 
-## Unterstützt Target IP-Verschleierung?   {#section_428907B0CD9842D9B245B38C66A53C6A}
+## Unterstützt Target IP-Verschleierung? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-Target unterstützt IP-Verschleierung in Target, wenn Sie sie im Rahmen Ihrer DSGVO-Implementierungsstrategie einsetzen. Weitere Informationen finden Sie unter  [Datenschutz](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+Target unterstützt IP-Verschleierung in Target, wenn Sie sie im Rahmen Ihrer DSGVO-Implementierungsstrategie einsetzen. Weitere Informationen finden Sie unter [Datenschutz](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
