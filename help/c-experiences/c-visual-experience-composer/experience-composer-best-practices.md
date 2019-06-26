@@ -7,8 +7,8 @@ solution: Target
 title: Best Practices und Einschränkungen von Visual Experience Composer
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -83,7 +83,7 @@ ODER-
 
 Elemente auf Blockebene sollten nicht innerhalb von Inline-Elementen wie Anchor, Span usw. verwendet werden. Dies würde dazu führen, dass Inline-Elemente ihre Höhe und Breite verlieren würden, sodass das Overlay-Tool in Visual Experience Composer möglicherweise nicht wie erwartet funktioniert.
 
-**Stellen Sie beim Aktualisieren von Angeboten für klassische Mboxes sicher, dass Mbox wie unter[Erstellen einer einzelnen Mbox](https://marketing.adobe.com/resources/help/de_DE/tnt/help/t_Creating_a_Single_Mbox.html)beschrieben in der Hilfe von Target Classic erstellt wurde.**
+**Stellen Sie beim Aktualisieren von Angeboten für klassische Mboxes sicher, dass Mbox wie unter[Einfache Mbox erstellen](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Single_Mbox.html)in der Target Classic-Hilfe beschrieben erstellt wird.**
 
 Wenn Sie erwägen, ein Element oder eine Gruppe von Elementen in einer Mbox zu platzieren, schließen Sie sie in eine neue „div“ mit `class mboxDefault` ein:
 
