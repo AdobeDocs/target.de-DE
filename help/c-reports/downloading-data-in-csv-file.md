@@ -9,7 +9,7 @@ title: Herunterladen von Daten in Form einer CSV-Datei
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -77,7 +77,7 @@ Im Bericht zu Bestelldetails (in [!DNL Target Classic] auch „Prüfbericht“ g
 * Werte, die über den `ProductPurchasedId`-Mbox-Parameter weitergegeben wurden, werden im Bestelldetailbericht aufgelistet.
 * Best Practice ist, eine `orderID` sowie eine `orderTotal` aufzunehmen. Dadurch können doppelte Bestellungen automatisch ignoriert werden.
 
-## Einschränkungen   {#section_49B9590904A645B18E694B4EFFFC1DEF}
+## Einschränkungen {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
 Die folgenden Informationen gelten für den Download:
 
