@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: „mbox.js“-Cookies
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ Das Verhalten von Cookies ist davon abhängig, ob es sich um ein Erstanbieter-Co
 >
 >Dieses Thema enthält Informationen zu `mboxSession` und `mboxPC`. Unsere Best Practices für die Implementierung sehen vor, dass Sie in den Cookies `mboxSession` und `mboxPC` keine vertraulichen Informationen verlinken oder speichern.
 
-Siehe auch [Löschen des Target-Cookies](https://marketing.adobe.com/resources/help/de_DE/target/target/t_cookie_deleting.html).
+Siehe auch [Target-Cookie löschen](https://marketing.adobe.com/resources/help/en_US/target/target/t_cookie_deleting.html).
 
 ## Verwenden von Erstanbieter-Cookies und Drittanbieter-Cookies {#section_F71B29420C004A7FA3B1921E619B326E}
 
@@ -97,7 +97,7 @@ Das Cookie verfügt über mehrere Standardeinstellungen. Sie können diese Einst
 
 | Einstellung | Informationen |
 |--- |--- |
-| Cookie-Name | mbox |
+| Cookie-Name | mbox. |
 | Cookie-Domäne | Die obersten und die darunter liegenden Ebenen der Domänen, von denen der Inhalt geliefert wird. Da die Belieferung von der Domäne Ihres Unternehmens stattfindet, handelt es sich um ein Erstanbieter-Cookie.<br>Beispiel: `mycompany.com`. |
 | Serverdomäne | `clientcode.tt.omtrdc.net`, unter Verwendung des Kundencodes für Ihr Konto. |
 | Cookie-Dauer | Das Cookie verbleibt ab der letzten Anmeldung des Benutzers zwei Jahre im Browser. Sie können die Cookie-Dauer nicht ändern. |
@@ -118,7 +118,7 @@ Das Cookie enthält verschiedene Werte, mit denen verwaltet werden kann, wie die
 
 | Cookies | Details |
 |--- |--- |
-| Erstanbieter-Domänen | Dies ist die standardmäßige Implementierung für Target-Kunden.  Die „mbox“-Cookies werden in der Domäne des Kunden festgelegt. |
+| Erstanbieter-Domänen | Dies ist die standardmäßige Implementierung für Target-Kunden.  Die „Mbox“-Cookies werden in der Domäne des Kunden festgelegt. |
 | Drittanbieter-Tracking | Das Drittanbieter-Tracking stellt für Anwendungsfälle im Werbe- und Targeting-Bereich in Target und in Adobe Audience Manager (AAM) eine wichtige Komponente dar.  Für das Drittanbieter-Tracking sind siteübergreifende Techniken zur Skripterstellung erforderlich.  Target verwendet zwei Cookies, „mboxSession“ und „mboxPC“, die in der Domäne `clientcode.tt.omtrd.net` festgelegt sind. |
 
 
@@ -132,7 +132,7 @@ Von Apple (übersetzter Auszug):
 
 | Ansatz | Details |
 |--- |--- |
-| Intelligent Tracking Prevention | Weitere Informationen finden Sie unter [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/) auf der Webkit Open Source Webbrowser Engine-Website. |
+| Intelligent Tracking Prevention | Weitere Informationen finden Sie unter [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/) auf der Website „WebKit Open Source Web Browser Engine“. |
 | Cookies | Der Umgang mit Cookies in Safari:<ul><li>Drittanbieter-Cookies, die sich nicht auf einer Domäne befinden, auf die der Benutzer direkt zugreift, werden nie gespeichert. Dieses Verhalten ist nicht neu. Drittanbieter-Cookies werden in Safari bereits nicht unterstützt.</li><li>Drittanbieter-Cookies, die auf einer Domäne festgelegt sind, auf die der Benutzer direkt zugreift, werden nach 24 Stunden gelöscht.</li><li>Erstanbieter-Cookies werden nach 30 Tagen gelöscht, wenn die Klassifizierung der jeweiligen Erstanbieter-Domäne zeigt, dass Benutzer siteübergreifend verfolgt werden. Dies trifft möglicherweise auf große Unternehmen zu, die Benutzer online auf verschiedene Domänen weiterleiten. Apple hat sich bislang nicht dazu geäußert, wie genau solche Domänen klassifiziert werden oder wie eine Domäne bestimmen kann, ob sie laut ihrer Klassifizierung Benutzer siteübergreifend verfolgt.</li></ul> |
 | Maschinelles Lernen zur Identifikation von siteübergreifenden Domänen | Von Apple (übersetzter Auszug):<br>Machine Learning Classifier: Basierend auf den gesammelten Statistiken wird anhand eines maschinell lernenden Modells klassifiziert, welche privat registrierten Top-Level-Domains die Fähigkeit haben, Benutzer siteübergreifend zu verfolgen. Aus den zahlreichen gesammelten Statistiken haben sich drei Vektoren hervorgehoben, die einen starken Indikator für die Classification anhand aktueller Tracking-Vorgehensweisen darstellen: „Teilressource unter Anzahl der eindeutigen Domänen“, „Subframe unter Anzahl der eindeutigen Domänen“ und „Anzahl der eindeutigen Domänen weitergeleitet an“. Die gesamte Datensammlung und Classification erfolgt auf dem Gerät.<br>Wenn der Benutzer jedoch mit example.com als Top-Domäne (häufig als Erstanbieter-Domäne bezeichnet) interagiert, wird dies von Intelligent Tracking Prevention als Signal angesehen, dass der Benutzer an der Website interessiert ist. Das Verhalten von Intelligent Tracking Prevention wird vorübergehend wie in dieser Timeline dargestellt angepasst:<br>Wenn der Benutzer innerhalb der letzten 24 Stunden mit example.com interagiert hat, stehen die Cookies zur Verfügung, wenn es sich bei `example.com` um einen Drittanbieter handelt. Dies ermöglicht Anmeldeszenarien nach dem Schema „Mit meinem X-Konto bei Y anmelden“.<ul><li>Domänen, die als Top-Level-Domäne besucht werden, sind nicht betroffen. Seiten wie beispielsweise OKTA</li><li>Domänen, bei denen es sich um Sub-Domänen oder Subframes der aktuellen Seite handelt, werden über mehrere eindeutige Domänen hinweg identifiziert.</li></ul> |
 
