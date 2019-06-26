@@ -8,7 +8,7 @@ title: iOS – Einrichten der App
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 0447ec6a589534ec9ad2da8d809b66900e9b4617
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -233,7 +233,7 @@ Es gibt bestimmte Szenarien, in denen Sie die Vorabruf-API erneut aufrufen müss
 + (void) prefetchOffersBackground;
 ```
 
-## Übungen: Implementieren der Experience Cloud in Mobile ios-Anwendungen Objective-C und Swift {#tutorial}
+## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
 
 * [Implementieren der Experience Cloud in Mobile ios-Target-C-Anwendungen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
 * [Implementieren der Experience Cloud in Mobile ios Swift-Anwendungen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
