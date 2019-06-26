@@ -4,8 +4,8 @@ seo-description: In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App
 seo-title: Senden von Aktivitätsinformationen an Adobe Analytics
 title: Senden von Aktivitätsinformationen an Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinfor
 
    Analysieren Sie die Antwort, die von Target im Callback zurückgegeben wurde. Sie können NSJSONSerialization verwenden, um diese Antwort zu analysieren und sie in einem Dict oder Array zu speichern.
 
-   Weitere Informationen finden Sie im [NSJSONSerialization-Handbuch](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error).
+   Refer to the [NSJSONSerialization documentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information.
 1. Daten an Analytics senden.
 
    Fügen Sie die analysierten Aktivitätsinformationen (wie `tntVal` in der obigen Antwort) Ihrem Kontextdatenobjekt in einem Analytics-Aufruf hinzu. Dieser Analytics-Aufruf mit den Kontextdaten kann sofort ausgelöst werden oder warten, bis der nächste Analytics-Aufruf ausgelöst wird.
