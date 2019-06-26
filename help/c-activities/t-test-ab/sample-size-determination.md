@@ -7,7 +7,7 @@ solution: Target
 title: Wie lange sollten A/B-Tests laufen?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -38,7 +38,7 @@ Target bietet Tools, mit denen Sie sicherstellen können, dass Ihre Aktivität e
 
 ## Adobe Target-Stichprobengrößenrechner {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Bevor Sie Ihren A/B-Test einrichten, rufen Sie den Adobe Target [-Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html)auf.
+Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
 ![Adobe Target-Stichprobengrößenrechner](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
