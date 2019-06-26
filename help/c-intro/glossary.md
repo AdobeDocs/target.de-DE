@@ -7,7 +7,7 @@ title: Glossar
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,7 +26,7 @@ Beim A/B-Test werden zwei oder mehr Versionen Ihrer Website-Inhalte verglichen, 
 
 Dashboard, das eine schnelle Übersicht der Aktivitäten anzeigt.
 
-**Aktivität**
+**Aktivitäten**
 
 Ermöglicht es Ihnen, Seitenentwürfe zu testen und Inhalte auf bestimmte Zielgruppen auszurichten.
 
@@ -68,7 +68,7 @@ Die automatisierte Personalisierung (AP) kombiniert Angebote oder Nachrichten un
 
 Testen und verfolgen Besuche von Anzeigen und anderen Offsite-Inhalten. Darüber hinaus können Sie verhaltensbasierte Werbeanzeigen nutzen, um denselben Benutzer beim Besuchen und Verlassen Ihrer Site zu identifizieren und das gesamte Web-Erlebnis für ihn konsistent zu gestalten.
 
-## C   {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
+## C {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
 **Kampagne**
 
@@ -96,11 +96,11 @@ Eine Untergruppe von Produkten oder Inhalten, die für Empfehlungen geeignet sin
 
 **Kombination**
 
-Die Inhaltsvarianten, die erstellt werden, wenn Sie im Rahmen eines Multivarianz-Tests verschiedene Inhaltsoptionen an verschiedenen Orten testen. Wenn Sie zum Beispiel drei Orte mit jeweils drei Inhaltsoptionen testen, ergeben sich 27 mögliche Kombinationen (3 x 3 x 3). Einem Besucher auf Ihrer Seite wird eine Kombination angezeigt, die auch als Erlebnis bezeichnet wird.
+Die Inhaltsvarianten, die erstellt werden, wenn Sie im Rahmen eines Multivariater Tests verschiedene Inhaltsoptionen an verschiedenen Orten testen. Wenn Sie zum Beispiel drei Orte mit jeweils drei Inhaltsoptionen testen, ergeben sich 27 mögliche Kombinationen (3 x 3 x 3). Einem Besucher auf Ihrer Seite wird eine Kombination angezeigt, die auch als Erlebnis bezeichnet wird.
 
 **Inhalt**
 
-Text oder Bild, der/das eine Testvariation an einem Ort darstellt. Bei einem Multivarianz-Test werden verschiedene Inhaltsoptionen an verschiedenen Orten verglichen. Bei der MVT-Methode wird der Inhalt zuweilen als *Stufe* bezeichnet.
+Text oder Bild, der/das eine Testvariation an einem Ort darstellt. Bei einem Multivariater Test werden verschiedene Inhaltsoptionen an verschiedenen Orten verglichen. Bei der MVT-Methode wird der Inhalt zuweilen als *Stufe* bezeichnet.
 
 **Konversions-Mbox**
 
@@ -144,7 +144,7 @@ Ermöglicht RIAs (Rich Internet Applications) das Manipulieren von HTML nach Lad
 
 Auf dynamischen Seiten können Werte an dynamische Angebote übergeben werden.
 
-## E   {#section_55C3D8AF3D31494784C70090D8343244}
+## E {#section_55C3D8AF3D31494784C70090D8343244}
 
 **engagement**
 
@@ -172,15 +172,15 @@ Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Voreinge
 
 **Erlebnis**
 
-Ein Angebot, Bild, Text, Schaltfläche, Video, Kombination dieser verschiedenen Elemente auf einer Seite, eine gesamte Webseite oder eine Reihe vonseiten, die möglicherweise einen Kauftrichter oder eine andere logische Folge vonseiten bilden. Dies kann auch die Antwort eines Sprecherassistenten, ein Kundendienstskript oder ein personalisiertes Flachen von einem Drink-Computer sein. Sie können Erlebnisse in [!DNL Target] Aktivitäten testen oder personalisieren.
+Ein Angebot, Bild, Text, Schaltfläche, Video, Kombination dieser verschiedenen Elemente auf einer Seite, eine gesamte Webseite oder eine Reihe vonseiten, die möglicherweise einen Kauftrichter oder eine andere logische Folge vonseiten bilden. Dies kann auch die Antwort eines Sprecherassistenten, ein Kundendienstskript oder ein personalisiertes Flachen von einem Drink-Computer sein. You test or personalize experiences in [!DNL Target] activities.
 
 **Erlebnis-Targeting**
 
 Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basierend auf einem Satz aus vermarkterdefinierten Regeln und Kriterien bereitgestellt.
 
-## F   {#section_45450032955C4DD2B607B85A23C4E21A}
+## F {#section_45450032955C4DD2B607B85A23C4E21A}
 
-**Feed**
+**Feed** bereitgestellt werden
 
 Bietet Methoden zur Ergänzung Ihrer Empfehlungen durch Produkt- oder Inhaltsinformationen.
 
@@ -200,7 +200,7 @@ Die visuelle Darstellung einer Aktivität in Target Standard.
 
 Ein nicht visuelles Erlebnis und eine Oberfläche zur Angebotserstellung, die beim Erstellen von Erlebnissen für die Verwendung in A/B-Tests, Erlebnis-Targeting, automatisierten Personalisierung und Recommendations-Aktivitäten nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder praktikabel ist. Beispielsweise können Sie den formularbasierten Composer verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachbereitstellungen zu erstellen.
 
-## G   {#section_D7B3B62BD3A449EFAA11DF9704773B28}
+## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **Geo-Positionsparameter**
 
@@ -210,7 +210,7 @@ Ermöglicht das Targeting der Kampagnen und Erlebnisse anhand der geografischen 
 
 Die Konversion bzw. das Ergebnis, das eine erfolgreiche Aktivität signalisiert. Die Best Practice ist, niemals einen Test ohne ein Ziel durchzuführen, das auf eine bestimmte Art und Weise verbessert werden soll.
 
-## H   {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **Host**
 
@@ -226,7 +226,7 @@ Siehe *Umgebung*. Hostgruppen werden in [!DNL Target Standard/Premium] als „Um
 
 Besucherspezifischer Parameter, der von der Mbox an das Besucher-Cookie übergeben wird. mbox-interne Profilparameter werden z. B. bei wiederkehrenden Besuchern eingesetzt.
 
-## L   {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **Landingpage-Kampagnen**
 
@@ -234,9 +234,9 @@ Die Landingpage-Kampagne ermöglicht Ihnen, für unterschiedliche Besuche unters
 
 **Ort**
 
-Ein spezifischer Inhaltsbereich auf einer Seite, der oftmals in einem einzelnen DOM-Element enthalten ist. Bei der MVT-Methode wird der Ort zuweilen als *Faktor* bezeichnet. Ein vollständiger Multivarianz-Test vergleicht alle möglichen Angebotskombinationen in Ihren Orten.
+Ein spezifischer Inhaltsbereich auf einer Seite, der oftmals in einem einzelnen DOM-Element enthalten ist. Bei der MVT-Methode wird der Ort zuweilen als *Faktor* bezeichnet. Ein vollständiger Multivariater Test vergleicht alle möglichen Angebotskombinationen in Ihren Orten.
 
-## M   {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
@@ -254,7 +254,7 @@ Wird über die Seite weitergegeben, nicht über die URL. Die Parameter sind für
 
 Verfolgt die Leistung nach Konversion, Erfolgsmetrik oder Segment zeitabhängig und unabhängig von sonstigen Prüfungen und Kampagnen.
 
-**Multivarianz-Test**
+**Multivariater Test**
 
 Beim Multivariate Testing (MVT) werden Kombinationen von Angeboten in Elementen auf einer Seite verglichen, um festzustellen, welche Kombination bei einer bestimmten Zielgruppe am besten ankommt. Zusätzlich wird ermittelt, welches Element den größten Einfluss auf den Erfolg einer Aktivität hat
 
@@ -276,7 +276,7 @@ Ermöglicht Besuchern, die Zählung und die Inhaltsbereitstellung auszuschließe
 
 Stellt sicher, dass die effektivsten Erlebnisse häufiger angezeigt werden, indem der Traffic automatisch zu den Segmenten mit der besten Performance geleitet wird.
 
-## P   {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
+## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **Seitenzahl**
 
@@ -286,7 +286,7 @@ Mit diesem Interaktionstyp wird die Anzahl der bei einem Besuch angezeigten Seit
 
 Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
-## R   {#section_86725D549B6F46A6ADEE424F33595705}
+## R {#section_86725D549B6F46A6ADEE424F33595705}
 
 **Rezept**
 
@@ -338,7 +338,7 @@ Wie Skript-Profilparameter, sind jedoch vordefiniert und bieten nützliche Targe
 
 Die Parameter, die zur Messung des Erfolgs einer Aktivität verwendet werden. Erfolgsmetriken beinhalten wichtige Geschäftsmaßnahmen, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können. Sie können beispielsweise bestimmen, ob ein neues Angebot Ihren Umsatz pro Besucher steigern oder einen Artikel zu einem Warenkorb hinzufügt. Erfolgsmetriken können hilfreich sein, um Probleme mit Registrierung, Sortierung oder Kauftrichter zu ermitteln, aber auch einfach mit Besucherbindung oder Kundenbindung.
 
-## T   {#section_1841144841AF41169AF1E83B90C18292}
+## T {#section_1841144841AF41169AF1E83B90C18292}
 
 **Test**
 
@@ -348,7 +348,7 @@ Eine Kampagne, die Erlebnisse mit den von Ihnen definierten Erfolgsmetriken verg
 
 Dieser Interaktionstyp entspricht der während des Besuchs verbrachten Zeit (in Sekunden) ab der Anzeige der ersten Anzeige-Mbox bis zum Laden der letzten Seite während der Sitzung mit einer mbox.
 
-## U   {#section_6407B81326FF43049D92265746E6C402}
+## U {#section_6407B81326FF43049D92265746E6C402}
 
 **URL-Parameter**
 
@@ -364,7 +364,7 @@ Ein Besucher ist eine Person, die auf Ihre Site zugreift. Ein Besucher wird mit 
 
 In Target Standard eine WYSIWYG-Benutzeroberfläche, mit der Sie personalisierte Erlebnisse und Angebote im Site-Kontext mühelos erstellen und testen können. Sie können Erlebnisse und Angebote für Target-Aktivitäten erstellen, indem Sie das Layout und den Inhalt einer Webseite (oder eines Angebots) oder einer mobilen Webseite per Drag &amp; Drop austauschen und austauschen.
 
-## W   {#section_62E7B598DBB34ECABAF4EF913B0895EC}
+## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
 **Erfolgreichstes Erlebnis**
 
