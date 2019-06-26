@@ -8,8 +8,8 @@ subtopic: Multivarianz-Test
 title: Adobe Analytics als Berichtsquelle für Adobe Target (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -65,13 +65,13 @@ Die folgende Tabelle zeigt, welche Aktivitätstypen von Analytics als Berichtsqu
 | Erlebnis-Targeting (XT) | Ja |  |
 | Multivarianz-Tests (MVT) | Ja | Erfordert, dass die Mbox-basierte Zielmetrik den Bericht „Elementbeitrag“ abruft.  Der Bericht „Elementbeitrag“ unterstützt derzeit keine Analytics-Metriken. |
 | AP-Aktivität (Automatisierte Personalisierung) | Nein |  |
-| Recommendations Aktivitäten | Ja |  |
-| Mobile App | Ja | Wird unterstützt mit dem Mobile Services SDK, Version 4.13.1 (oder neuer).  Weitere Informationen finden Sie unter [Dokumentation zu Mobile Services](https://marketing.adobe.com/resources/help/de_DE/mobile/). |
+| Recommendations-Aktivität | Ja |  |
+| Mobile App | Ja | Wird unterstützt mit dem Mobile Services SDK, Version 4.13.1 (oder neuer).  Weitere Informationen finden Sie in der [Dokumentation zu Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/). |
 | E-Mail | Nein |  |
 | API für serverseitige Bereitstellung | Ja | Weitere Informationen finden Sie unter [Serverseitig: Target implementieren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | NodeJS-SDK | Ja | Weitere Informationen finden Sie unter [Serverseitig: Target implementieren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | AEM 6.1 (oder früher) Cloud Service Integration | Nein |  |
-| AEM 6.2 (oder neuer) Cloud Service Integration | Ja | Weitere Informationen finden Sie unter [Integrating with Adobe Target](https://helpx.adobe.com/de/experience-manager/6-2/sites/administering/using/target.html) in der Dokumentation zu Adobe Experience Manager 6.2. |
+| AEM 6.2 (oder neuer) Cloud Service Integration | Ja | Weitere Informationen finden Sie unter [Integrieren mit Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) in der Dokumentation zu Adobe Experience Manager 6.2. |
 | Jede Aktivität mit einem Umleitungsangebot | Ja | Die Mindestanforderungen für die Verwendung von Weiterleitungsangeboten mit A4T sind strenger. Weitere Informationen finden Sie unter [Umleitungsangebote – A4T-FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
 | Node.JS | Ja |  |
 
@@ -103,7 +103,7 @@ Um den Bericht in [!DNL Analytics] statt in [!DNL Target] anzuzeigen, klicken Si
 
 ## Analytics und Target: Tutorial „Best Practices für Analysen“{#section_3438E6E77A464424B717A4FD333B84B2}
 
-Öffnen Sie das Tutorial [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) von Adobe Experience League.
+Öffnen Sie das Tutorial [Analytics und Target: Best Practices für Analysen](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) von Adobe Experience League.
 
 ## Schulungsvideos:
 
@@ -117,7 +117,7 @@ In diesem Video wird erläutert, wie sich Adobe Analytics als eine Adobe Targe
 * Erläuterung der Funktionsweise von A4T
 * Verstehen der Voraussetzungen für die Verwendung von A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/17384)
+>[!VIDEO](https://video.tv.adobe.com/v/17384?captions=ger)
 
 ### Analytics/Target-Integration (A4T) (40:33)
 
@@ -128,4 +128,4 @@ Dieses Video ist eine Aufzeichnung von [Office Hours](../../cmp-resources-and-co
 * Erfahren Sie, welche Berichte Sie in Analytics am besten verwenden
 * Antworten auf häufige Fragen zu A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/)
+>[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=ger)
