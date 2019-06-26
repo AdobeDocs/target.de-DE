@@ -7,7 +7,7 @@ solution: Target
 title: Netzwerk
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ Sie können Zielgruppen auf der Basis von Netzwerkdetails erstellen.
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Die folgende Abbildung zeigt eine Zielgruppe, die auf Besucher mit AT &amp; T mit einer Verbindungsgeschwindigkeit von [!UICONTROL Mobile abzielt].
+The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
 
 ![Netzwerkziel](assets/target_network.png)
 
