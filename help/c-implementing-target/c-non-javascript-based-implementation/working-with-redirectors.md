@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Arbeiten mit Weiterleitungen
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -56,7 +56,7 @@ Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen
 
    * `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` ist das Standardziel.
 
-      Hierbei muss es sich um einen URL-kodierten, absoluten Verweis handeln. Sie können die [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) verwenden, um Ihre URLs schnell zu kodieren.
+      Hierbei muss es sich um einen URL-kodierten, absoluten Verweis handeln. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
 
 
@@ -97,7 +97,7 @@ Verwenden Sie eine Weiterleitung, um die Kosten pro Klick weiterzugeben.
 
 >[!NOTE]
 >
->Es wird empfohlen, den Kostenwert mithilfe der Interaktionsmetrik **Ergebnis pro Besuch** zu bestimmen, wie unter [Interaktion](https://marketing.adobe.com/resources/help/de_DE/tnt/help/c_Capturing_Engagement.html) beschrieben.
+>Best practice is to determine the cost value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 Fügen Sie `&mboxPageValue=-value` zur URL hinzu. Beachten Sie den Negativwert.
 
@@ -114,7 +114,7 @@ Verwenden Sie eine Weiterleitung, um den Umsatz pro Klick weiterzugeben.
 
 >[!NOTE]
 >
->Es wird empfohlen, den Umsatzwert mithilfe der Interaktionsmetrik **Ergebnis pro Besuch** zu bestimmen, wie unter [Interaktion](https://marketing.adobe.com/resources/help/de_DE/tnt/help/c_Capturing_Engagement.html) beschrieben.
+>Best practice is to determine the revenue value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 Fügen Sie `&mboxPageValue=value` zur URL hinzu.
 
