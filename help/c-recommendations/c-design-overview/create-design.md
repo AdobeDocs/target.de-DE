@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -38,7 +38,7 @@ Sie können einen [!UICONTROL Recommendations]-Entwurf erstellen, indem ein Stan
    Verwenden Sie einen Standardentwurf, lautet dessen Name „Kopie“. Dieser Name erscheint im Feld **[!UICONTROL Inhaltsname]**. Sie können den Namen bearbeiten. 1. (Optional) Wählen Sie per Klick ein Bild aus, das auf der Entwurfskarte angezeigt werden soll.
 1. Bearbeiten Sie den Entwurfs-**[!UICONTROL Code]**.
 
-   Empfehlungsentwürfe verwenden die Open Source-Entwurfssprache Velocity. Informationen über Velocity finden Sie unter [https://velocity.apache.org](https://velocity.apache.org).
+   Empfehlungsentwürfe verwenden die Open Source-Entwurfssprache Velocity. Informationen über Velocity finden Sie unter [](https://velocity.apache.org)https://velocity.apache.org.
 
    Der Entwurf kann ein HTML- oder ein Nicht-HTML-Entwurf sein. Standardmäßig werden HTML-Entwürfe mit einem <div> Tag umschlossen, um Clicktracking in einer Webumgebung zuzulassen. Nicht-HTML-Entwürfe eignen sich für Nicht-Webumgebungen, in denen ein Klick-Tracking nicht möglich ist.
 
