@@ -5,7 +5,7 @@ seo-title: Erstellen von Kombinationen aus Multivarianz-Tests (MVT) mit Adobe Ta
 title: Erstellen von Kombinationen
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 Verwenden Sie Visual Experience Composer (VEC) in Adobe Target, um die Angebote zu erstellen, die Sie in Ihren Multivarianz-Test (MVT) einbeziehen möchten.
 
-Weitere Informationen zur Verwendung des VEC zum Erstellen und Bearbeiten von Angeboten finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+For more information about using the VEC to create and edit offers, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
 >Sie können bei der Auswahl von Objekten auf der Seite auf **[!UICONTROL Auswahl erweitern]** klicken, um das übergeordnete Element zusätzlich zum ursprünglich ausgewählten Element auszuwählen. Wenn Sie ein übergeordnetes Element auswählen, werden alle untergeordneten Elemente dieses Elements automatisch ausgewählt. Sie können diese Auswahl mehrere Male erweitern.
 >
->Sie können den [DOM-Pfad](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) auch zum Navigieren in Elementen verwenden.
+>You can also use the [DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) to navigate elements.
 
 ## Bildangebote {#section_A48333211DB149ED926AE467D0032914}
 
