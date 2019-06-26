@@ -9,7 +9,7 @@ title: Berichte
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -42,7 +42,7 @@ Neben den allgemeinen Reporting-Informationen in diesem Thema und seinen Unterth
 
    Beispielsweise können Sie die Optionen [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] aus der Dropdownliste [!UICONTROL Typ] auswählen sowie [!UICONTROL Live] aus der Liste [!UICONTROL Status], um ausschließlich aktive Aktivitäten mit A/B-Tests und Erlebnis-Targeting anzuzeigen.
 
-   Die folgende Abbildung zeigt die Dropdownliste [!UICONTROL Typ] mit zwei ausgewählten Typen: A/B-Test und Erlebnis-Targeting. Beachten Sie, dass die drei Typen von A/B-Tests (manuell, [automatisch zuordnen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)und [automatisches Targeting](/help/c-activities/auto-target-to-optimize.md)) standardmäßig ausgewählt sind. Sie können bei Bedarf einen oder mehrere Typen aufheben.
+   Die folgende Abbildung zeigt die Dropdownliste [!UICONTROL Typ] mit zwei ausgewählten Typen: A/B-Test und Erlebnis-Targeting. Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. Sie können bei Bedarf einen oder mehrere Typen aufheben.
 
    ![Berichte nach Typ filtern](/help/c-reports/assets/report_filters-new.png)
 
