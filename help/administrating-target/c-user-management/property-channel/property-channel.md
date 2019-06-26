@@ -11,7 +11,7 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -54,7 +54,7 @@ Die Eigenschaften ähneln denen des Dynamic Tag Management (Activation) insofern
 
 Eine Webeigenschaft besteht aus einer Bibliothek von Regeln und einem Einbettungscode. Es kann sich bei einer Webeigenschaft um eine beliebige Gruppierung einer oder mehrerer Domänen bzw. Subdomänen handeln.
 
-Eigenschaften werden aktiviert, indem ein bestimmtes Name-Wert-Paar beliebigen Aufrufen (mbox, API usw.) an Target hinzugefügt wird.
+Eigenschaften werden aktiviert, indem ein bestimmtes Name-Wert-Paar beliebigen Aufrufen (mbox, API usw.) an Target hinzugefügt wird. 
 Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail oder API/Sonstige) zugeordnet.
 
 ### Arbeitsbereich (Produktprofil)
@@ -103,7 +103,7 @@ Der Kanal gibt den Content-Typ an, in dem Ihre Target-Aktivitäten bereitgestell
 
 Bei Erstellung einer neuen Aktivität wird diese dem aktuell ausgewählten Arbeitsbereich zugewiesen. Optionen für die Kanalauswahl finden sich im ersten Dialogfeld, in dem Sie den gewünschten Aktivitätskanal festlegen können: Web, mobile App, E-Mail oder Sonstige/API.
 
-## Übersicht über Berechtigungen   {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Übersicht über Berechtigungen {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 Die folgenden Informationen erläutern, wie Berechtigungen zuvor in [!DNL Target] umgesetzt wurden und wie sie mit der neuen Funktion für [!UICONTROL Eigenschaften] und [!UICONTROL Berechtigungen] umgesetzt werden.
 
@@ -113,7 +113,7 @@ Mithilfe der neuen [!UICONTROL Berechtigungsfunktion] können Sie verschiedene P
 
 Ein bestimmter Benutzer verfügt beispielsweise über Genehmigungszugriff auf die Websites für Nord- und Südamerika, jedoch nur auf Ansichtszugriff auf die mobile App für Europa. Dieser Benutzer verfügt möglicherweise nicht über die nötigen Rechte, die in Web- und Mobileigenschaften angebotenen Aktivitäten der APAC-Region einzusehen.
 
-Im aktuellen [!DNL Target] [!UICONTROL Berechtigungsmodell] von  gibt es drei Rollen (Beobachter, Bearbeiter und Genehmiger), die in folgender Abbildung dargestellt werden:
+Im aktuellen [!DNL Target] [!UICONTROL Berechtigungsmodell] gibt es drei Rollen (Beobachter, Bearbeiter und Genehmiger), die in folgender Abbildung dargestellt werden:
 
 ![](assets/permissions_1.png)
 
@@ -141,13 +141,13 @@ Außerdem kann Jan keine Seiten, Eigenschaften oder Sites in [!DNL Target] anzei
 
 In diesem Beispiel kann Jan die Produktseiten, die russische Site und die Karriere-Site nicht sehen.
 
-## Anwendungsszenarien   {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## Anwendungsszenarien {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 Die folgenden Anwendungsfälle zeigen wie Eigenschaften, Projekte, Rollen und Berechtigungen genutzt werden können, um Marketingziele mit [!DNL Target] zu erreichen:
 
 ### Multinationale Organisation
 
-Wenn Sie Teil einer multinationalen Organisation sind, besitzen Sie eventuell einen Arbeitsbereich für Ihre europäischen Webseiten, Eigenschaften oder Sites und einen weiteren Arbeitsbereich für Ihre amerikanischen Webseiten, Eigenschaften oder Sites.
+Wenn Sie Teil einer multinationalen Organisation sind, besitzen Sie eventuell einen Arbeitsbereich für Ihre europäischen Webseiten, Eigenschaften oder Sites und einen weiteren Arbeitsbereich für Ihre amerikanischen Webseiten, Eigenschaften oder Sites. 
 Nach einer Umstrukturierung richten Sie für die Personen aus der obigen Abbildung folgende Arbeitsbereiche und Berechtigungen ein:
 
 * **Jan**: Jan leitet die Optimierungsabteilung im Center of Excellence für die US-Webseiten, -Objekte und -Sites ihrer Organisation. Sie besitzt Systemadministratorrechte in der Adobe Experience Cloud.
@@ -262,21 +262,21 @@ Aktivitäten, die vor der Migration angelegt wurden, laufen im Standardarbeitsbe
 
 ### Warum wird eine Fehlermeldung angezeigt, die besagt, dass keine Eigenschaft mit dieser Aktivität verknüpft ist, auch wenn eine Eigenschaft zugewiesen ist?
 
-Wenn Sie mit [!DNL Target] der Fehlermeldung implementiert [!DNL Adobe Launch] haben, dass der Aktivität keine Eigenschaft zugeordnet ist, geben Sie den `at_property` Parameter mit der `targetPageParams` Funktion an.
+Wenn Sie [!DNL Target] mit [!DNL Adobe Launch] implementiert haben und die Fehlermeldung erhalten, dass der Aktivität keine Eigenschaft zugeordnet ist, geben Sie den Parameter `at_property` mit der Funktion `targetPageParams` an.
 
-### Werden Clicktrack-Konversionen aufgezeichnet, wenn eine Umleitungsseite und die Aktivitäts-URL zu unterschiedlichen Eigenschaften gehören?
+### Werden Klick-Track-Konversionen aufgezeichnet, wenn eine Umleitungsseite und die Aktivitäts-URL zu unterschiedlichen Präsenzen gehören?
 
-Klick-Tracking wird nicht auf Seiten aufgezeichnet, auf denen die Seite und die Aktivitäts-URL zu unterschiedlichen Eigenschaften gehören.
+Klick-Tracking wird nicht auf Seiten aufgezeichnet, wo die Seite und die Aktivitäts-URL zu unterschiedlichen Präsenzen gehören.
 
-Betrachten Sie das folgende Szenario (gilt sowohl für at. js als auch für mbox. js):
+Betrachten Sie das folgende Szenario (gilt sowohl für at.js als auch für mbox.js):
 
-* Seite 1 gehört zu Eigenschaft 1.
-* Seite 2 gehört zu Eigenschaft 2.
-* In der Aktivität leitet Seite 1 auf Seite 2 ein, die Clicktracks enthält.
+* Seite 1 gehört zu Präsenz1.
+* Seite 2 gehört zu Präsenz2.
+* In der Aktivität leitet Seite 1 auf Seite 2 weiter, die Klick-Tracks enthält.
 
-Wenn ein Besucher Seite 1 in einem Browser öffnet, wird er zu Seite 2 umgeleitet. Da Seite 2 nicht zur Bereitstellung der Aktivität berechtigt ist, enthält der Target-Aufruf keine Clicktracks in der Antwort.
+Wenn ein Besucher Seite 1 in einem Browser öffnet, wird er zu Seite 2 weitergeleitet. Da Seite 2 nicht zur Bereitstellung der Aktivität berechtigt ist, enthält der Target-Aufruf keine Klick-Tracks in der Antwort.
 
-Wenn die Umleitungsseite und die Aktivitäts-URL zu derselben Eigenschaft gehören, funktionieren die Clicktracks erwartungsgemäß. Weitere Informationen finden Sie unter [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md).
+Wenn die Weiterleitungsseite und die Aktivitäts-URL zu derselben Eigenschaft gehören, funktionieren die Klick-Tracks erwartungsgemäß. Weitere Informationen finden Sie unter [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md).
 
 ## Schulungsvideo: Schulungsvideo für Unternehmensberechtigungen {#section_2FA080303A064242B63FF16CFA6DB31D}
 
@@ -286,4 +286,4 @@ Lernziele:
 * Die Konzepte von Eigenschaften und Arbeitsbereichen und wie diese Grenzen und Gruppierungen funktionieren, um die Zugangsebenen der Benutzer steuern zu können
 * Verschiedene Beispiele für Eigenschaften für Ihre Organisation
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=ger)
