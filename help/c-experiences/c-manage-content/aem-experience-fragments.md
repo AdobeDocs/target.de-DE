@@ -8,7 +8,7 @@ title: AEM-Erlebnisfragmente
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -90,7 +90,7 @@ Erlebnisfragmente werden in AEM erstellt. Weitere Informationen finden Sie unter
 
 2. Wählen Sie im anschließend angezeigten Dialogfeld [!UICONTROL Veröffentlichen] aus, um alle Assets innerhalb des Erlebnisfragments in [!DNL Target] zu veröffentlichen.
 
-## Verwenden von Erlebnisfragmenten in Target-Aktivitäten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Using Experience Fragments in Target Activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 Nach dem Ausführen der zuvor genannten Aufgaben wird das Erlebnisfragment auf der Seite [!UICONTROL Angebote] in Target angezeigt.
 
