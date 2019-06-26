@@ -8,7 +8,7 @@ title: Schulungsvideos für Adobe Target Standard und Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,6 +39,6 @@ Eine Sammlung von Videos und Tutorials, die die Funktionen von Target hervorhebe
 
 ## Adobe Target-Tutorials {#tutorials}
 
-Einführungsvideos zu [!DNL Target] Konzepten und Werkzeugen finden Sie auf der [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) -Seite.
+Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) page.
 
 ![Adobe Target-Tutorials](/help/c-intro/assets/adobe-target-tutorials-new.png)
