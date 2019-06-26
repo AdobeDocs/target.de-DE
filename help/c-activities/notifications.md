@@ -8,7 +8,7 @@ title: Aktivitätsbenachrichtigungen
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
 translation-type: tm+mt
-source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ Target kann mithilfe von Adobe Pulse Benachrichtigungen mit anderen Adobe Experi
 
 Benachrichtigungen von [!DNL Target] können in allen Lösungen von Benutzern gelesen werden, die in einer [!DNL Experience Cloud]-Produktumgebung mit [!DNL Target Standard/Premium] arbeiten.
 
-Weitere Informationen zum Einrichten von Benachrichtigungen finden Sie [unter Benachrichtigungen](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html) in der [!DNL Adobe Experience Cloud] Dokumentation.
+For information about setting up Notifications, see [Notifications](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html) in the [!DNL Adobe Experience Cloud] documentation.
 
 Auf Benachrichtigungen in [!DNL Target] können Sie überall zugreifen, mit Ausnahme des Erstellungsarbeitsablaufs für Aktivitäten. Klicken Sie auf das Glockensymbol in der Überschrift der Seite, um das Benachrichtigungswidget ein- oder auszublenden.
 
