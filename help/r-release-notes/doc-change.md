@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -33,6 +33,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 |  | [Erstellen einer Automated Personalization-Aktivität](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Es wurde ein Schritt mit Informationen zur Auswahl eines bestimmten Erlebnisses als Standard hinzugefügt. |
 |  | [Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Es wurden Informationen zur Verwaltung mehrerer Mobile App-Versionen hinzugefügt. |
 |  | [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) | Es wurden Informationen zum Empfehlungsschlüssel zuvor gekaufter Artikel hinzugefügt. |
+|  | [Bekannte Probleme und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurden Informationen zu Berichten hinzugefügt, die für Aktivitäten mit automatischem Targeting in bestimmten Situationen nicht gerendert werden konnten. |
 |  | [Versionshinweise](/help/r-release-notes/release-notes.md): 19.6.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe Target Standard/Premium 19.5.1 (21. Mai 2019) {#tgt-19-5-1}
