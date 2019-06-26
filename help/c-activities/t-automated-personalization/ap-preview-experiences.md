@@ -10,7 +10,7 @@ topic: Premium
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 Da eine automatisierte Personalisierung (AP) mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in der Vorschau anzuzeigen.
 
-1. Klicken Sie im Visual Experience Composer auf **[!UICONTROL Vorschau]**.
+1. From the Visual Experience Composer, click **[!UICONTROL Preview]**.
 
    ![Vorschau-Symbol](/help/c-activities/t-automated-personalization/assets/preview.png)
 
@@ -29,7 +29,7 @@ Da eine automatisierte Personalisierung (AP) mehrere Angebote auf einer Seite ve
 
 1. Klicken Sie auf ein spezifisches Erlebnis in der Liste, um es anzuzeigen.
 
-1. (Bedingt) Um ein oder mehrere Erlebnisse aus der Aktivität auszuschließen, klicken Sie auf das **[!UICONTROL Symbol Ausschließen]** .
+1. (Conditional) To exclude one or more experiences from the activity, click the **[!UICONTROL Exclude]** icon.
 
    ![Symbol &quot;Ausschließen «](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
@@ -39,12 +39,12 @@ Da eine automatisierte Personalisierung (AP) mehrere Angebote auf einer Seite ve
 
    Sie können auswählen, ein Erlebnis auszuschließen, das widersprüchliche Varianten anzeigt oder ästhetisch nicht ausgewogen ist.
 
-   Um ein Erlebnis auszuschließen, bewegen Sie den Mauszeiger über das Erlebnis und klicken Sie auf das **[!UICONTROL Symbol Ausschließen]** .
+   To exclude an experience, hover over the experience and click the **[!UICONTROL Exclude]** icon.
 
-   Um mehrere Erlebnisse auszuschließen, aktivieren Sie die Kontrollkästchen für die gewünschten Erlebnisse und klicken Sie dann oben rechts in der Liste auf das **[!UICONTROL Ausschließen]** -Symbol.
+   To exclude multiple experiences, select the checkboxes for the desired experiences, then click the **[!UICONTROL Exclude]** icon at the top right of the list.
 
-   Standardmäßig sind alle Erlebnisse in der Aktivität „Automatisierte Personalisierung“ eingeschlossen. Um ein Erlebnis einzubeziehen, das ausgeschlossen wurde, bewegen Sie den Mauszeiger über das Erlebnis und klicken Sie auf das **[!UICONTROL Symbol &quot;Einschließen]** &quot; .
+   Standardmäßig sind alle Erlebnisse in der Aktivität „Automatisierte Personalisierung“ eingeschlossen. To include an experience that has been excluded, hover over the experience and click the  **[!UICONTROL Include]** icon.
 
-   Um mehrere Erlebnisse einzubeziehen, die ausgeschlossen wurden, aktivieren Sie die Kontrollkästchen für die gewünschten Erlebnisse und klicken Sie dann oben rechts in der Liste auf das **[!UICONTROL Symbol Einschließen]** .
+   To include multiple experiences that have been excluded, select the checkboxes for the desired experiences, then click the **[!UICONTROL Include]** icon at the top right of the list.
 
-1. Klicken **[!UICONTROL Sie auf Erstellen]** , um zum Visual Experience Composer zurückzukehren, damit Sie Änderungen vornehmen können, oder klicken Sie auf **[!UICONTROL Weiter]** , um zum [!UICONTROL Targeting] -Schritt zu wechseln.
+1. Click **[!UICONTROL Compose]** to return to the Visual Experience Composer so you can make changes, or click **[!UICONTROL Next]** to go to the [!UICONTROL Targeting] step.
