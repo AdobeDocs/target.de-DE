@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: Häufig gestellte Fragen zu „at.js“
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ Im folgenden Diagramm wird die Seitenladeleistung von mbox.js und at.js verglich
 
 Wie oben gezeigt werden Seiteninhalte bei der Verwendung von mbox.js erst geladen, wenn der Aufruf von [!DNL Target] abgeschlossen wurde. Bei der Verwendung von at.js werden Seiteninhalte schon geladen, wenn der Aufruf von [!DNL Target] eingeleitet wird, nicht erst nach Abschluss des Vorgangs.
 
-## Welche Auswirkungen hat at. js und mbox. js auf die Seitenladezeit? {#page-load}
+## What is the impact of at.js and mbox.js on page-load time? {#page-load}
 
 Viele Kunden und Berater möchten wissen, wie sich [!DNL at.js] und [!DNL mbox.js] auf die Seitenladezeit auswirken, insbesondere beim Vergleich neuer Besucher mit zurückkehrenden Besuchern. Leider ist es schwierig, zu messen, wie sich [!DNL at.js] oder [!DNL mbox.js] auf die Seitenladezeit auswirken und genaue Zahlen dazu zu nennen. Das liegt an den Implementationen der einzelnen Kunden.
 
@@ -90,7 +90,7 @@ In at.js 1.0.0 kann die Target-Bibliothek asynchron geladen werden.
 
 So laden Sie at.js asynchron:
 
-* Die empfohlene Vorgehensweise erfolgt über einen Tag-Manager wie Adobe Launch oder Adobe Dynamischer Tag-Manager (DTM). Weitere Informationen finden Sie in der [Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) -Lektion der [Implementierung der Experience Cloud in Websites mit](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) Startlernprogramm.
+* Die empfohlene Vorgehensweise erfolgt über einen Tag-Manager wie Adobe Launch oder Adobe Dynamic Tag manager (DTM). See the [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
 * Sie können at.js auch asynchron laden, indem Sie dem Skript-Tag zum Laden von at.js das asynchrone Attribut hinzufügen. Sie sollten Folgendes verwenden:
 
    ```
@@ -108,11 +108,11 @@ So laden Sie at.js asynchron:
 
 Das asynchrone Laden von at.js eignet sich hervorragend, um zu verhindern, dass das Rendern des Browsers blockiert wird. Bei dieser Technik kann es jedoch zu Flackereffekten auf der Webseite kommen.
 
-Sie können ein Flackern vermeiden, indem Sie ein nicht ausgeblendetes Snippet verwenden, das die Seite (oder bestimmte Teile) ausblendet, und diese dann nach at. js einblendet und die globale Anforderung vollständig geladen hat. Der Ausschnitt muss vor dem Laden von at.js hinzugefügt werden.
+Sie können ein Flackern vermeiden, indem Sie ein vor-ausgeblendetes Snippet verwenden, das die Seite (oder bestimmte Teile) ausblendet und diese dann nach at.js einblendet und die globale Anfrage vollständig geladen hat. Der Ausschnitt muss vor dem Laden von at.js hinzugefügt werden.
 
-Wenn Sie at. js über eine asynchrone Start-Implementierung bereitstellen, stellen Sie sicher, dass Sie das vorausgeblendete Snippet direkt auf Ihren Seiten vor dem Starteinbettungscode (siehe Abschnitt &quot;Target-Vorverbergen-Snippet [hinzufügen&quot; der](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) [Implementierung der Experience Cloud in Websites mit dem Tutorial&quot; Start&quot;](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)) direkt ausblenden.
+If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
 
-Wenn Sie at. js über eine synchrone DTM-Implementierung bereitstellen, kann das vorausgeblendete Snippet über eine Seitenladeregel hinzugefügt werden, die oben auf der Seite ausgelöst wird.
+Wenn Sie at.js über eine synchrone DTM-Implementierung bereitstellen, kann das vor-ausgeblendete Snippet über eine Seitenladeregel hinzugefügt werden, die oben auf der Seite ausgelöst wird.
 
 Weitere Informationen finden Sie unter [Verwaltung von Flackern mit „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
 
@@ -120,9 +120,9 @@ Weitere Informationen finden Sie unter [Verwaltung von Flackern mit „at.js“]
 
 [!DNL Adobe Experience Manager] 6.2 mit FP-11577 (oder neuer) unterstützt jetzt [!DNL at.js]-Implementierungen mit der [!UICONTROL Adobe Target Cloud Services]-Integration. Weitere Informationen finden Sie unter [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) und [Integrieren mit Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) in der Dokumentation zu *Adobe Experience Manager 6.2*.
 
-## Wie kann ich mit at.js{#section_4D78AAAE73C24E578C974743A3C65919} ein Flackern beim Laden von Seiten verhindern? 
+## Wie kann ich mit at.js{#section_4D78AAAE73C24E578C974743A3C65919} ein Flackern beim Laden von Seiten verhindern ?
 
-Mit Target wird das Flackern beim Laden von Seiten auf verschiedenen Wegen vermieden: Weitere Informationen finden Sie unter   [Verwaltung von Flackern mit „at.js“](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA).
+Mit Target wird das Flackern beim Laden von Seiten auf verschiedenen Wegen vermieden: Weitere Informationen finden Sie unter [Verwaltung von Flackern mit „at.js“](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA).
 
 ## Wie groß ist at.js? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -152,13 +152,13 @@ Nicht auf derselben Seite. Während der Implementierung und dem Testen von [!DNL
 
 ## Kann ich den Visual Experience Composer von Target in meinen Einzelseiten-Apps verwenden? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
-Ja, Sie können VEC für Ihre SPA verwenden, wenn Sie at. js 2. x verwenden. Weitere Informationen finden Sie unter [Einzelseite (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md).
+Ja. Sie können VEC für Ihre SPA benutzen, wenn Sie at.js 2.x verwenden. Weitere Informationen finden Sie unter [Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)](/help/c-experiences/spa-visual-experience-composer.md).
 
 ## Kann ich den Adobe Experience Cloud-Debugger für at.js-Implementierungen verwenden? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
 Ja. Sie können außerdem mboxTrace für das Debugging oder die Entwicklerwerkzeuge Ihres Browsers verwenden und zum Isolieren von Mbox-Aufrufen nach „mbox“ filtern, um die Netzwerkanforderungen zu analysieren.
 
-## Kann ich mit at.js{#section_8E31D2E8A27642098934D7DACFB2A600} Sonderzeichen in meinen Mbox-Namen verwenden? 
+## Kann ich mit at.js{#section_8E31D2E8A27642098934D7DACFB2A600} Sonderzeichen in meinen Mbox-Namen verwenden ?
 
 Ja, genau wie bei mbox.js.
 
@@ -176,7 +176,7 @@ Ja, wenn Sie [at.js, Version 1.2 oder neuer](../../../c-implementing-target/c-im
 >
 >Die folgenden Beispiele sind nicht notwendig, wenn Sie at.js der Version 1.2 oder neuer verwenden.
 
-Je nachdem, wie Sie [targetglobalsettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)verwenden, müssen Sie möglicherweise weitere Änderungen am Code vornehmen, nachdem Sie at. js heruntergeladen haben. Benötigen Sie beispielsweise etwas voneinander abweichende Einstellungen für Ihre Implementierungen von [!DNL Target] auf verschiedenen Websites und konnten Sie diese Einstellungen nicht dynamisch mit JavaScript festlegen, nehmen Sie diese Anpassungen manuell vor, nachdem Sie die Datei heruntergeladen haben und bevor Sie sie auf der entsprechenden Website hochladen.
+Abhängig davon, wie Sie [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) verwenden, müssen Sie möglicherweise weitere Änderungen am Code vornehmen, nachdem Sie at.js heruntergeladen haben. Benötigen Sie beispielsweise etwas voneinander abweichende Einstellungen für Ihre Implementierungen von [!DNL Target] auf verschiedenen Websites und konnten Sie diese Einstellungen nicht dynamisch mit JavaScript festlegen, nehmen Sie diese Anpassungen manuell vor, nachdem Sie die Datei heruntergeladen haben und bevor Sie sie auf der entsprechenden Website hochladen.
 
 In den folgenden Beispielen können Sie die at.js-Funktion `targetGlobalSettings()` zum Einfügen eines Code-Ausschnitts verwenden, um IP-Adressen zu unterstützen:
 
@@ -198,7 +198,7 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 }
 ```
 
-## Warum werden mir Warnhinweise wie zum Beispiel „Aktionen mit fehlenden Selektoren“ angezeigt?   {#section_C36BED5B16634361A1BA46FCB731489D}
+## Warum werden mir Warnhinweise wie zum Beispiel „Aktionen mit fehlenden Selektoren“ angezeigt? {#section_C36BED5B16634361A1BA46FCB731489D}
 
 Diese Nachrichten stehen in keiner Verbindung zur [!DNL at.js]-Funktionalität. Die [!DNL at.js]-Bibliothek versucht, alles zu melden, das nicht im DOM zu finden ist.
 
@@ -216,21 +216,21 @@ Nachfolgend finden Sie mögliche Grundursachen für diesen Warnhinweis:
 
 ## Warum verwenden at.js und mbox.js nicht die Cookie-Flags „HttpOnly“ und „Secure“?{#section_74527E3B41B54B0A83F217C3E664ED1F}
 
-„HttpOnly“ kann nur über serverseitigen Code festgelegt werden. Target-Cookies, wie z. B. Mbox, werden über JavaScript-Code erstellt und gespeichert. Target kann das Cookie-Flag „HttpOnly“ also nicht verwenden.
+„HttpOnly“ kann nur über Server-seitigen Code festgelegt werden. Target-Cookies, wie z. B. Mbox, werden über JavaScript-Code erstellt und gespeichert. Target kann das Cookie-Flag „HttpOnly“ also nicht verwenden.
 
 „Secure“ kann nur über JavaScript festgelegt werden, wenn die Seite mit HTTPS geladen wurde. Wenn die Seite nur mit HTTP geladen wird, kann JavaScript dieses Flag nicht festlegen. Darüber hinaus ist das Cookie bei der Verwendung des Flags „Secure“ nur auf HTTPS-Seiten verfügbar.
 
-Damit Target Benutzer richtig verfolgen kann – und weil Cookies clientseitig generiert werden –, verwendet Target keines der Flags.
+Damit Target Benutzer richtig verfolgen kann – und weil Cookies Client-seitig generiert werden –, verwendet Target keines dieser Flags.
 
-## Wie oft sendet „at.js“ Netzwerkanfragen?   {#section_57C5235DF7694AF093A845D73EABADFD}
+## Wie oft sendet at.js Netzwerkanfragen? {#section_57C5235DF7694AF093A845D73EABADFD}
 
-Die gesamte Entscheidungsfindung von Adobe Target findet serverseitig statt. Das bedeutet, dass at.js jedes Mal, wenn die Seite neu geladen oder eine öffentliche at.js-API aufgerufen wird, eine Netzwerkanfrage gesendet wird.
+Die gesamte Entscheidungsfindung von Adobe Target findet Server-seitig statt. Das bedeutet, dass at.js jedes Mal, wenn die Seite neu geladen oder eine öffentliche at.js-API aufgerufen wird, eine Netzwerkanfrage gesendet wird.
 
 ## Können wir im besten Fall davon ausgehen, dass Benutzer durch das Ausblenden, Ersetzen und Wiedereinblenden von Inhalten keine Beeinträchtigung der Seitenladezeit bemerken werden? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js vermeidet das Vorab-Ausblenden des HTML-Bodys oder anderer DOM-Elemente über einen längeren Zeitraum, dies ist jedoch von den Netzwerkbedingungen und der Aktivitätseinrichtung abhängig. at.js bietet [Einstellungen](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md), mit denen Sie den CSS-Style zum Ausblenden des Bodys anpassen können, um nicht den gesamten HTML-Body, sondern nur bestimmte Teile der Seite auszublenden. Hierbei wird erwartet, dass diese Teile DOM-Elemente enthalten, die personalisiert werden müssen.
+at.js vermeidet das Vorab-Ausblenden des HTML-Bodys oder anderer DOM-Elemente über einen längeren Zeitraum, dies ist jedoch von den Netzwerkbedingungen und der Aktivitätseinrichtung abhängig. at.js bietet [Einstellungen](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md), mit denen Sie den CSS-Style zum Ausblenden des Bodys anpassen können, um nicht den gesamten HTML-Body, sondern nur bestimmte Teile der Seite auszublenden. Hierbei wird erwartet, dass diese Teile DOM-Elemente enthalten, die „personalisiert“ werden müssen.
 
-## Wie lautet die Reihenfolge der Ereignisse in einem durchschnittlichen Szenario, in dem sich ein Benutzer für eine Aktivität qualifiziert?   {#section_56E6F448E901403FB77DF02F44C44452}
+## Wie lautet die Reihenfolge der Ereignisse in einem durchschnittlichen Szenario, in dem sich ein Benutzer für eine Aktivität qualifiziert? {#section_56E6F448E901403FB77DF02F44C44452}
 
 Bei der at.js-Anfrage handelt es sich um eine asynchrone `XMLHttpRequest`, weshalb wir folgende Schritte ausführen:
 
@@ -250,11 +250,11 @@ Wie oft war der Seiteninhalt im oben aufgeführten Szenario vollständig geladen
 
 at.js blockiert nicht das Seiten-Rendering. Benutzer bemerken möglicherweise leere Bereiche auf der Seite, an denen sich die von Target angepassten Elemente befinden. Wenn der anzuwendende Inhalt nicht viele Remote-Assets, wie z. B. Skripte oder Bilder, enthält, wird alles schnell dargestellt.
 
-## Wie wirkt sich eine vollständig zwischengespeicherte Seite auf das oben aufgeführte Szenario aus? Ist es in diesem Fall wahrscheinlicher, dass der Aktivitätsinhalt merklich nach dem Rest des Seiteninhalts geladen wird?   {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## Wie wirkt sich eine vollständig zwischengespeicherte Seite auf das oben aufgeführte Szenario aus? Ist es in diesem Fall wahrscheinlicher, dass der Aktivitätsinhalt merklich nach dem Rest des Seiteninhalts geladen wird? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
 Wenn eine Seite in einem CDN gespeichert ist, das sich nahe am Standort des Benutzers, aber nicht in der Nähe der Target-Edge befindet, erlebt dieser Benutzer möglicherweise Verzögerungen. Target-Edges sind jedoch über die ganze Welt verteilt, sodass dies in der Regel kein Problem darstellt.
 
-## Ist es möglich, ein Hero-Bild anzuzeigen, das nach kurzer Verzögerung ersetzt wird?   {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
+## Ist es möglich, ein Hero-Bild anzuzeigen, das nach kurzer Verzögerung ersetzt wird? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 Stellen Sie sich folgendes Szenario vor:
 
@@ -264,12 +264,12 @@ Ist es zu diesem Zeitpunkt möglich, dass die alternative Version angezeigt wird
 
 Das Hero-DOM-Element ist zu Beginn ausgeblendet. Nachdem eine Antwort von Target eingeht, wendet at.js die DOM-Änderungen an, wie z. B. die IMG-Änderung und die Anzeige des angepassten Hero-Bilds.
 
-## Welche HTML-Doctype ist &quot;at. js&quot; erforderlich?
+## Welcher HTML-Doctype ist für at.js erforderlich?
 
-&quot; at. js&quot; erfordert den Doctype &quot;HTML 5&quot; .
+at.js erfordert den Doctype HTML 5.
 
 Diese Syntax lautet:
 
 `<!DOCTYPE html>`
 
-Der doctype HTML 5 stellt sicher, dass die Seite im Standardmodus geladen wird. Beim Laden im Quirks-Modus sind einige JS-apis, von denen at. js abhängig ist, deaktiviert. Target deaktiviert at. js im Quirks-Modus.
+Der Doctype HTML 5 stellt sicher, dass die Seite im Standardmodus geladen wird. Beim Laden im Quirks-Modus sind einige JS-APIs, von denen at.js abhängig ist, deaktiviert. Target deaktiviert at.js im Quirks-Modus.
