@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -27,17 +27,17 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    ![Dialogfeld &quot;Automatisierte Personalisierung&quot; erstellen](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular aus]. Weitere Informationen finden Sie unter [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) .
+   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular aus]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
-   >Zusätzlich zum VEC und Form-Based Experience Composer bietet Target die Einzelseitenanwendung VEC und VEC für mobile Apps an. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
+   >Zusätzlich zum VEC und Form-Based Experience Composer bietet Target die Einzelseitenanwendung VEC und VEC für mobile Apps an. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >Die Option [!UICONTROL &quot;Arbeitsplatz] auswählen&quot; in der obigen Abbildung ist eine [Target Premium](/help/c-intro/intro.md) -Funktion. Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
 
-1. (Bedingt) Wenn Sie Target Premium-Kunde sind, [wählen Sie eine Arbeitsfläche](/help/administrating-target/c-user-management/property-channel/property-channel.md)aus.
+1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Überprüfen Sie die Aktivitäts-URL bzw. geben Sie sie ein und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
@@ -64,7 +64,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
    | - | Minus |
    | @ | At-Zeichen |
 
-1. Ändern Sie die Seitenelemente, wie unter [Visual Experience Composer-Optionen beschrieben](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Modify page elements as explained in [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    Sie können aus dem Asset-Manager mehrere Bilder auf einmal auswählen. Dies ermöglicht Ihnen, sich die Seite mit jedem der für die Aktivität konfigurierten Bilder schnell anzusehen. Sie können auch einfach Textelemente in Ihren Angeboten bearbeiten. Wenn Sie ein Element bearbeiten, werden Balken darauf eingeblendet, um darauf hinzuweisen, dass Sie Änderungen vorgenommen haben.
 
@@ -90,7 +90,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    ![Optionen für das Ausschließen von Stapeln](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
-   Sie können diese Listenansicht filtern, um nur ausgeschlossene oder nur enthaltene Aktivitäten anzuzeigen, indem Sie auf **die** Dropdownliste Status klicken.
+   You can filter this list view to see only excluded or only included activities by clicking the **Status** drop-down list.
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Angebote]**, um Inhalte auszuwählen und sie den richtigen Berichtsgruppen zuzuweisen oder per Targeting nur bestimmten Besuchern die Anzeige bestimmter Angebote zu ermöglichen.
 
@@ -120,7 +120,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    Bewegen Sie zum Bearbeiten einer vorhandenen Ausschlussgruppe den Mauszeiger über die Gruppe, die Sie bearbeiten möchten, und klicken Sie dann auf das Stiftsymbol.
 
-1. Klicken **[!UICONTROL Sie auf Fertig,]** wenn Sie die Einrichtung des Inhalts Ihrer Aktivität abgeschlossen haben.
+1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
 
 1. Der **Targeting**-Schritt wird Ihnen vertraut vorkommen, wenn Sie andere Target-Aktivitätstypen verwendet haben. Hier können Sie eine Zielgruppe auswählen und den Prozentsatz der Besucher angeben, denen das Kontrollerlebnis angezeigt wird. Klicken Sie dazu auf die Dropdownliste **[!UICONTROL Zuordnung anpassen]** und klicken Sie dann auf **Weiter**.
 
@@ -128,9 +128,12 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    ![Dropdown-Liste für die Traffic-Zuordnung](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **Personalisierungsalgorithmus auswerten (50/50):** Wenn Sie den Algorithmus testen möchten, sollten Sie eine 50/50-Prozentaufteilung der Besucher zwischen dem Kontroll- und dem Zielalgorithmus verwenden. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung.
-   * **Personalisierungs-Datenverkehr maximieren (90/10):** Wenn Sie eine „Always on“-Aktivität erstellen möchten, sollten Sie 10 % der Besucher in den Kontrollbereich versetzen, um sicherzustellen, dass ausreichend Daten vorhanden sind, damit die Algorithmen mit der Zeit weiterhin lernen werden können. Beachten Sie, dass das Personalisieren einer größeren Traffic-Menge zur Folge hat, dass die Bestimmung der exakten Steigerung weniger präzise ist.
+   * **Personalisierungsalgorithmus auswerten (50/50):** Wenn Sie den Algorithmus testen möchten, sollten Sie eine 50/50-Prozentaufteilung der Besucher zwischen dem Kontroll- und dem Zielalgorithmus verwenden. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung. Für die Verwendung mit &quot;Random Experiences&quot; als Steuerelement vorgeschlagen.
+   * **Personalisierungs-Datenverkehr maximieren (90/10):** Wenn Sie eine „Always on“-Aktivität erstellen möchten, sollten Sie 10 % der Besucher in den Kontrollbereich versetzen, um sicherzustellen, dass ausreichend Daten vorhanden sind, damit die Algorithmen mit der Zeit weiterhin lernen werden können. Beachten Sie, dass das Personalisieren einer größeren Traffic-Menge zur Folge hat, dass die Bestimmung der exakten Steigerung weniger präzise ist. Unabhängig von Ihrem Ziel ist dies die empfohlene Traffic-Aufteilung, wenn ein bestimmtes Erlebnis als Steuerung verwendet wird.
    * **Zuordnung anpassen:** Teilen Sie den Prozentsatz nach Bedarf manuell auf.
+
+1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
+
    Das Kontrollerlebnis liefert einen Vergleich, um zu ermitteln, welche Steigerung der automatisierte Test ermöglicht.
 
    Die automatisierte Personalisierung misst immer die Leistung im Vergleich zu einer Kontrollgruppe. Es empfiehlt sich, mindestens 10 % der Teilnehmer in der Kontrollgruppe zu platzieren. Wenn Sie testen möchten, ob der Personalisierungsalgorithmus für die angegebenen Daten besser funktioniert als ohne Personalisierung (d. h. die zufallsgestützte Kontrolle), stellt eine 50/50-Prozentaufteilung des Traffics zwischen dem Kontroll- und Personalisierungsalgorithmus die schnellste und genaueste Möglichkeit dar, um dieses Ziel zu erreichen. Wenn Sie die Menge des personalisierten Traffics maximieren möchten und Sie sich weniger Gedanken dahingehend machen, ob Sie die genaue Steigerung nachvollziehen können, die durch Ihre Aktivität generiert wird, stellt eine 10/90-Prozentaufteilung des Traffics zwischen dem Kontroll- und Personalisierungsalgorithmus die schnellste und genaueste Möglichkeit dar, um dieses Ziel zu erreichen.
@@ -139,7 +142,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
    >
    >In automatisierten Personalisierungsaktivitäten werden nun Eingabekriterien (URL-Targeting, Vorlagenregeln und Zielgruppen-Targeting) für jede Abfrage ausgewertet. In älteren Versionen wurden Eingabekriterien nur einmal pro Sitzung bewertet.
 
-1. Klicken **[!UICONTROL Sie auf Weiter]** , um die Seite **[!UICONTROL Ziele und Einstellungen]** anzuzeigen.
+1. Click **[!UICONTROL Next]** to display the **[!UICONTROL Goals &amp; Settings]** page.
 1. Konfigurieren Sie die Aktivität mit den folgenden Einstellungen und klicken Sie dann auf **[!UICONTROL Speichern und schließen]**.
 
    | Einstellung | Beschreibung |
