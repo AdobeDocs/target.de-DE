@@ -8,18 +8,18 @@ title: Android – Einrichten der App
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: e77022281fa03c8ff8bac111088bdfa4a600783f
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Android – Einrichten der App{#android-set-up-the-mobile-app}
 
-Mit dem Visual Experience Composer (VEC) von Adobe Target Mobile Comp können Entwickler eine einmalige Einrichtung auf ihren Android-mobilen Apps durchführen und Marketingexperten die Funktionen der Mobile App VEC nutzen.
+Mit dem Adobe Target Mobile App Visual Experience Composer (VEC) von können Entwickler einmalige Einrichtung in ihren Android-Apps durchführen und Marketingexperten die Funktionen des Mobile App VEC nutzen.
 
-Weitere Informationen zum Aktivieren der Adobe Target VEC-Erweiterung finden Sie unter [Adobe Target - Visual Experience Composer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec) in den *mobilen sdks von Adobe Experience Platform*.
+Weitere Informationen zum Aktivieren der Adobe Target VEC-Erweiterung finden Sie unter [Adobe Target - Visual Experience Composer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec) in den *mobilen SDKs von Adobe Experience Platform*.
 
-## Einschließen des mobilen SDK und der Target-Bibliothek {#sdk-library}
+## Mobile SDK und Target-Bibliothek einschließen {#sdk-library}
 
 1. Informationen zur Initialisierung von SDK-Version 5 finden Sie unter [Initialisieren des SDK und Einrichten des Trackings](https://aep-sdks.gitbook.io/docs/getting-started/initialize-the-sdk).
 1. Fügen Sie folgende Zeile zum Abschnitt der Abhängigkeiten hinzu:
@@ -28,7 +28,7 @@ Weitere Informationen zum Aktivieren der Adobe Target VEC-Erweiterung finden Sie
    implementation 'com.adobe.marketing.mobile:target-vec:1.+'
    ```
 
-1. Für Mobile App VEC müssen die folgenden Artefakte als Abhängigkeiten einbezogen `build.gradle`werden.
+1. Für die mobile Anwendung VEC müssen die folgenden Artefakte als Abhängigkeiten in `build.gradle`einbezogen werden.
 
    ```
     implementation 'com.google.code.gson:gson:2.8.2'
@@ -39,7 +39,7 @@ Weitere Informationen zum Aktivieren der Adobe Target VEC-Erweiterung finden Sie
     implementation 'com.android.support:design:28.0.0'
    ```
 
-1. Fügen Sie in Ihrer `AndroidManifest.XML` Datei einen Intent Filter hinzu und wählen Sie ein eindeutiges Deep-Link-Schema für das VEC-Authoring von Mobilanwendungen (z. `[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`B.):
+1. Fügen Sie einen Intent-Filter in Ihrer Datei `AndroidManifest.XML` hinzu, indem Sie ein eindeutiges Deep-Link-Schema für die Erstellung in Mobile Anwendung VEC auswählen (beispielsweise `[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`):
 
    ```
    <activity 
@@ -95,15 +95,15 @@ Weitere Informationen zum Aktivieren der Adobe Target VEC-Erweiterung finden Sie
 
    1. `Application::OnCreate override`
    1. `AndroidManifest.XML`
-   1. `build.gradle` der Android-Anwendung
+   1. `build.gradle` der Android-App
 
-## Einrichten von Target-Ansichten auf Ihrer mobilen App {#views}
+## Target-Ansichten in Ihrer App einrichten {#views}
 
-Das Adobe Mobile SDK stellt eine neue Methode für Entwickler bereit, die ausgelöst werden kann, sobald eine neue Ansicht gerendert wird. Als Entwickler müssen Sie sicherstellen, dass die Ansichten eindeutig benannt sind und sich der `targetView`-Aufruf im UI-Hauptthread befindet. In diesem Abschnitt zeigen wir zunächst, wie Sie diese Aufrufe mit zwei verschiedenen Demonstrationsanwendungen einfügen und allgemeine Richtlinien zur korrekten Einfügen der Target View API-Aufrufe für eine beliebige Android-App besprechen.
+Das Adobe Mobile SDK stellt eine neue Methode für Entwickler bereit, die ausgelöst werden kann, sobald eine neue Ansicht gerendert wird. Als Entwickler müssen Sie sicherstellen, dass die Ansichten eindeutig benannt sind und sich der `targetView`-Aufruf im UI-Hauptthread befindet. In diesem Abschnitt wird zunächst anhand von zwei verschiedenen Demo-Apps gezeigt, wie diese Aufrufe eingefügt werden. Anschließend erhalten Sie einige allgemeine Richtlinien dazu, wie Sie Aufrufe der Target-Ansichts-API in beliebigen Android-Apps richtig einfügen können.
 
 >[!NOTE]
 >
->Wenn sie `targetView function` nicht ausgelöst wird, versucht die VEC-Erweiterung, die Ansicht über die Android-Aktivität zu identifizieren. Bei Anwendungen ohne dynamische Ansichten kann dies ein optionaler Schritt sein.
+>Wenn `targetView function` nicht ausgelöst wird, versucht die VEC-Erweiterung, die Ansicht über die Android-Aktivität zu identifizieren. Bei Apps ohne dynamische Ansichten kann dies ein optionaler Schritt sein.
 
 Eine Target-Ansicht kann mit einem Funktionsaufruf ausgelöst werden. Alle Targeting-Parameter können optional mit der Ansicht bereitgestellt werden.
 
@@ -131,12 +131,12 @@ public class TargetVEC {
 }
 ```
 
-In unserem ersten Beispielprojekt erstellen wir eine Testanwendung zur Planung von Busfahrten. So richten Sie diese Anwendung für die Verwendung in Mobile App VEC ein:
+In unserem ersten Beispielprojekt erstellen wir eine Testanwendung zur Planung von Busfahrten. Einrichten der App zur Verwendung im Mobile App VEC:
 
 1. Öffnen Sie das Projekt mit der Datei `build.gradle` im Paketunterverzeichnis `BusBooking` in Android Studio.
 1. Fügen Sie in der `DemoApplication::OnCreate`-Methode `TargetVEC.registerExtension()` hinzu, um die Target VEC-Erweiterung zusammen mit anderen Erweiterungen zu registrieren.
 1. Kompilieren und starten Sie die Applikation.
-1. Um den Mobile App-VEC-Authoring-Modus einzugeben, verwenden Sie das [!DNL sdkbetabus://com.adobe.sdkbetabus] URL-Schema und öffnen Sie den generierten Deep Link auf dem Gerät (siehe Anweisungen unten).
+1. Um in den Erstellungsmodus des Mobile App VEC zu wechseln, verwenden Sie [!DNL sdkbetabus://com.adobe.sdkbetabus] als URL-Schema und öffnen Sie den generierten Deep Link auf dem Gerät (siehe Anweisungen unten).
 
 In dieser einfachen Anwendung zur Planung von Busfahrten werden alle automatisch generierten Target-Ansichten verwendet, die mit dem Lebenszyklus der Aktivität verbunden sind. Darüber hinaus wird so die Flexibilität der API veranschaulicht, indem die Target-Ansichts-API über ein benutzerdefiniertes Ansichtselement aufgerufen wird, das dynamisch hinzugefügt wird, sobald auf eine versteckte Schaltfläche geklickt wird (das Angebotsbild auf dem Bildschirm). Die neue Target-Ansicht wird implementiert, indem ein API-Aufruf bei `OfferDetailsActivity.java:40` in den Code eingefügt wird. Durch Klicken auf die versteckte Schaltfläche wird ein neues Target-Ansichtsereignis mit dem Namen „SURPRISE_VIEW“ ausgelöst, das Marketing-Experten eine zielgerichtetere Änderung des Applikationserlebnisses ermöglicht.
 
@@ -218,9 +218,9 @@ public class OfferDetailsActivity extends AppCompatActivity {
 }
 ```
 
-## Einrichten von Profilparametern und anderen globalen Parametern {#parameters}
+## Einrichten von Profil- und anderen globalen Parametern {#parameters}
 
-Wir unterstützen jetzt die Festlegung globaler Parameter, die bei jedem API-Aufruf übergeben werden, sowie die Übergabe von mbox-/anzeigen-Parametern an die entsprechenden Ansichten.
+Wir unterstützen jetzt die Einrichtung globaler Parameter, die in jedem API-Aufruf übergeben werden, sowie die Übergabe von Mbox-/Anzeige-Parametern an die entsprechenden Ansichten.
 
 Diese Parameter umfassen:
 
@@ -247,7 +247,7 @@ TargetVEC.setGlobalRequestParameters(new TargetParameters.Builder()
 
 **Übergabe von Parametern für die Auslösung der nächsten Ansicht:**
 
-Wir haben einige automatische Ansichten bereitgestellt, die standardmäßig erstellt werden, z. B. &quot;`AUTO_<activity|fragment name>`für jede Aktivität und jedes Fragment in Ihrer App&quot; . Um diese Parameter zu übergeben, können Sie folgende API aufrufen:
+Wir bieten einige automatische Ansichten, die standardmäßig erstellt werden, wie z. B. „`AUTO_<activity|fragment name>`“ für jede Aktivität und jedes Fragment in Ihrer App. Um diese Parameter zu übergeben, können Sie folgende API aufrufen:
 
 ```
 Map<String, String> mboxParams = new HashMap<>();  //Mbox or view params 
@@ -263,9 +263,9 @@ TargetVEC.setRequestParameters(new TargetParameters.Builder()
         .build());
 ```
 
-**Übermitteln von Parametern an eine bestimmte Ansicht:**
+**Übergabe von Parametern an bestimmte Ansichten:**
 
-We have seen the API trigger Views via `TargetVEC.targetView("view_name")`. Sie können auch Parameter übergeben, die spezifisch für die jeweilige Ansicht sind:
+Wir haben gesehen, wie die API Ansichten durch `TargetVEC.targetView("view_name")` auslöst. Sie können auch Parameter übergeben, die spezifisch für die jeweilige Ansicht sind:
 
 ```
 Map<String, String> profileParams = new HashMap<>(); 
@@ -277,7 +277,7 @@ TargetVEC.targetView("SURPRISE_VIEW",
                 .build());
 ```
 
-## Explizit aufrufen der Prefetch-API {#section_2D02B74558474D3BA9F25E4D25E7C7E3}
+## Explizites Aufrufen der Vorabruf-API {#section_2D02B74558474D3BA9F25E4D25E7C7E3}
 
 Es gibt bestimmte Szenarien, in denen Sie die Vorabruf-API erneut aufrufen müssen, um die im Cache gespeicherten Angebote zu aktualisieren. Hierfür sind folgende APIs verfügbar:
 
@@ -305,7 +305,7 @@ Es gibt bestimmte Szenarien, in denen Sie die Vorabruf-API erneut aufrufen müss
    public static void prefetchOffersBackground();
    ```
 
-## Lernprogramm: Implementieren der Experience Cloud in Mobile Android-Anwendungen {#tutorial}
+## Tutorial: Implement the Experience Cloud in Mobile Android Applications {#tutorial}
 
 * [Implementieren der Experience Cloud in Mobile Android-Anwendungen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
 
