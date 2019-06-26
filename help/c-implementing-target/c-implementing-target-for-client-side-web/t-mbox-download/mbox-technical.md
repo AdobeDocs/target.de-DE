@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Funktionsweise von „mbox.js“
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,8 @@ Für Target Standard ruft [!DNL mbox.js] eine andere JavaScript-Datei auf, [!DNL
 
 [!DNL Target.js] steuert die von Standard verwendete DOM-Manipulationsbibliothek. Zur Anzeige des Inhalts auf einer Website verweist [!DNL target.js] auf [!DNL sizzle.js] (Version1.10.8-pre). [!DNL Sizzle.js] aktiviert die HTML-Elementselektoren. Mit Ausnahme von [!DNL sizzle.js] wird nur natives JavaScript verwendet. Es ist keine jquery erforderlich.
 
-Zusätzlich wird folgendes Snippet zur Abstimmung von DOM verwendet: `https://github.com/dperini/ContentLoaded`
+Zusätzlich wird folgendes Snippet zur Abstimmung von DOM verwendet:
+`https://github.com/dperini/ContentLoaded`
 
 ## Target.js und der Visual Experience Composer {#section_2B3FF6AC5B8D431C83D9EDCF53CB1472}
 
