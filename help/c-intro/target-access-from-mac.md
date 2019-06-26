@@ -9,14 +9,14 @@ title: Zugriff auf Target über Adobe Experience Cloud
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Zugriff auf Target über Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
 
-Informationen über den Zugriff [!DNL Adobe Target] auf die Standardmäßige Einstiegsseite [!DNL Adobe Experience Cloud]und die Änderung der Sprache der [!DNL Target] Benutzeroberfläche.
+Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experience Cloud], das Festlegen der standardmäßigen Landingpage und das Ändern der Sprache der Benutzeroberfläche von [!DNL Target].
 
 ## Melden Sie sich bei Adobe Target an und legen Sie Ihre Standardansicht fest.
 
@@ -26,7 +26,7 @@ Informationen über den Zugriff [!DNL Adobe Target] auf die Standardmäßige Ein
 
 1. Klicken Sie auf das [!DNL Target]-Symbol im Anwendungsmenü.
 
-   ![Zielsymbol](/help/c-intro/assets/appmenu-target-new.png)
+   ![Target-Symbol](/help/c-intro/assets/appmenu-target-new.png)
 
 1. Klicken Sie auf der [!DNL Target]-Karte auf **[!UICONTROL Starten]**.
 
@@ -38,21 +38,21 @@ Informationen über den Zugriff [!DNL Adobe Target] auf die Standardmäßige Ein
 
 ## Standardsprache für die Target-Benutzeroberfläche ändern {#language}
 
-1. Nachdem Sie sich angemeldet haben [!DNL Adobe Experience Cloud ] , [!DNL Target]klicken Sie auf Ihren Profilavatar und klicken Sie dann auf Profil **[!UICONTROL bearbeiten]**.
+1. Nachdem Sie sich bei [!DNL Adobe Experience Cloud ] oder [!DNL Target] angemeldet haben, klicken Sie auf Ihren Profilavatar und klicken Sie dann auf **[!UICONTROL Profil bearbeiten]**.
 
    ![Profil bearbeiten](/help/c-intro/assets/change-language.png)
 
-1. Klicken **[!UICONTROL Sie auf Persönliche Informationen bearbeiten]**.
+1. Klicken Sie auf **[!UICONTROL Persönliche Informationen bearbeiten]**.
 
-1. Klicken Sie in der oberen Menüleiste auf die Registerkarte **[!UICONTROL &quot;Kommunikation]** &quot; .
+1. Klicken Sie in der oberen Menüleiste auf die Registerkarte **[!UICONTROL Kommunikation]**.
 
    ![Bevorzugte Sprachen](/help/c-intro/assets/prefered-language.png)
 
-   Der Text weist darauf hin, dass dies die Sprache ist, die Sie verwenden [!DNL Adobe] möchten, wenn Sie sich an Sie wenden. Dies ist auch die Sprache, die in der Benutzeroberfläche und [!DNL Target] anderen [!DNL Adobe Experience Cloud] Lösungen verwendet wird. Sie können mehr als eine Sprache auswählen.
+   Der Text weist darauf hin, dass dies die Sprache ist, die [!DNL Adobe] verwenden soll, wenn wir uns an Sie wenden. Dies ist auch die Sprache, die in der Benutzeroberfläche für [!DNL Target] und andere [!DNL Adobe Experience Cloud]-Lösungen verwendet wird. Sie können mehr als eine Sprache auswählen.
 
 1. Wählen Sie Ihre erste (primäre) Sprache aus und wählen Sie dann ggf. eine zweite Sprache aus.
 
-   Die [!DNL Target] Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
+   The [!DNL Target] UI is available in the following languages:
 
    * Englisch
    * Spanisch
@@ -67,9 +67,9 @@ Informationen über den Zugriff [!DNL Adobe Target] auf die Standardmäßige Ein
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-1. Melden Sie sich ab [!DNL Adobe Experience Cloud] oder [!DNL Target]melden Sie sich wieder an, damit die Änderungen wirksam werden.
+1. Melden Sie sich von [!DNL Adobe Experience Cloud] oder [!DNL Target] ab und melden Sie sich wieder neu an, damit die Änderungen wirksam werden.
 
-## Sprache für die Target-Produktdokumentation ändern {#doc-lang}
+## Change the language for the Target product documentation {#doc-lang}
 
 Ihr Betriebssystem oder Ihre Browsereinstellungen sollten Ihre bevorzugte Sprache erkennen und die Dokumentation in dieser Sprache anzeigen (falls verfügbar). Die Target-Dokumentation wird automatisch übersetzt und wird mit der englischen Version in Stunden nach den Änderungen an der englischsprachigen Dokumentation synchronisiert.
 
@@ -77,11 +77,11 @@ Sie können die Sprache schnell in die englische Version ändern, indem Sie auf 
 
 ![In Ausgangssprache ändern](/help/c-intro/assets/mt-original.png)
 
-Sie können die Sprache auch schnell in eine unterstützte Sprache ändern, indem Sie rechts oben in der Kopfzeile der Seite ( ![Sprachumschaltung](/help/c-intro/assets/icon-language-switcher.png) ) auf das Symbol Sprachschalter klicken.
+You can also quickly change the language to any supported language by clicking the Language Switcher icon in the top right of the page header ( ![language switcher](/help/c-intro/assets/icon-language-switcher.png) ).
 
 ![Sprachwechsel](/help/c-intro/assets/language-switcher.png)
 
-Die [!DNL Target] Dokumentation ist in den folgenden Sprachen verfügbar:
+The [!DNL Target] documentation is available in the following languages:
 
 * Englisch
 * Spanisch
