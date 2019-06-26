@@ -9,7 +9,7 @@ title: „mbox.js“-Implementierung
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -40,5 +40,5 @@ Daher müssen Sie keine unterschiedlichen Dateiversionen für einzelne Aktivitä
 
    `<script src="/ *`directory`*/ *`scripts`*/mbox.js"></script>`
 
-   Dabei ist ` *`directory`*/ *`scripts`*` das Verzeichnis, in dem Sie die [!DNL mbox.js]-Datei nach dem Herunterladen gespeichert haben.
+   Dabei ist ` *`directory`*/ *`scripts`*` das Verzeichnis, in dem Sie die [!DNL mbox.js]-Datei nach dem Herunterladen gespeichert haben. 
 Wenn Sie bereits Mboxes aus einer bestehenden Implementierung auf Ihrer Seite haben, können diese Mboxes weiterhin auf der neuen Oberfläche verwendet werden. Die aktualisierte [!DNL mbox.js]-Datei ist nach wie vor erforderlich, diese Mboxes können jedoch für Aktivitäten ausgewählt und mit dem [!UICONTROL Visual Experience Composer] bearbeitet werden.
