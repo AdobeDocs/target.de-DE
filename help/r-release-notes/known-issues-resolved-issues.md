@@ -8,7 +8,7 @@ title: Bekannte Probleme und gelöste Probleme
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -24,6 +24,10 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 ## Bekannte Probleme {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Die folgenden Abschnitte führen zu bekannten Problemen zu [!DNL Target]:
+
+### Diagramm für eine automatische Targeting-Aktivität kann nicht gerendert werden, wenn ein benutzerdefiniertes Erlebnis als Kontrolle verwendet wird.
+
+Der Grafikbericht für eine automatische Targeting-Aktivität kann für &quot;Differenz&quot; -Modi (durchschnittliche Steigerung und tägliche Steigerung) nicht gerendert werden, wenn keine Daten (0 Besuche) in einem Erlebnis vorhanden sind. Diese Situation kann während der frühen Phase einer Aktivität auftreten, wenn das Kontrollerlebnis auf benutzerdefiniert festgelegt ist. Für andere Modi (Laufende durchschnittliche Steuerung und zielgerichtet, tägliche Kontrolle und Zielgruppe und Besuche) funktioniert dies problemlos. Sobald einige Daten (Besuche ohne Null) vorliegen, wird der Bericht wie erwartet gerendert.
 
 ### Laden einer Seite im VEC abbrechen {#cancel}
 
