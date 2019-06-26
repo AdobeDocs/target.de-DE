@@ -7,8 +7,8 @@ solution: Target
 title: Mobile Viewports für responsive Erlebnisse
 topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -61,7 +61,7 @@ Nachstehend finden Sie die Viewports und Auflösungen für einige bekannte Gerä
 | Samsung Galaxy Tab 10 | 800 (B) x 1280 (H) | 800 (B) x 1280 (H) |
 | Chromebook Pixel | 1280 (B) x 850 (H) | 2560 (B) x 1700 (H) |
 
-Auf verschiedenen Websites sind die Viewport-Größen für gängige Geräte aufgeführt. Siehe z. B. [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) oder lesen Sie die Website des Geräteherstellers.
+Auf verschiedenen Websites sind die Viewport-Größen für gängige Geräte aufgeführt. For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker&#39;s website.
 
 Wenn Sie eine Aktivität für Benutzer auf einem bestimmten Gerät bereitstellen möchten, wählen Sie im Aktivitätsdiagramm die entsprechende Zielgruppe für das Gerät aus. Verwenden Sie den Mobile Web Composer, um die Seite für das Gerät in der Aktivität zu bearbeiten. Wenn Sie eine Aktivität in all Ihren digitalen Erlebnissen ausführen und sicherstellen möchten, dass es auf allen Geräten ansprechend aussieht, wenden Sie nicht das Targeting an, sondern verwenden Sie mobile Viewports, um auf jeder Bildschirmgröße eine Vorschau für die Aktivität anzuzeigen.
 
@@ -167,10 +167,10 @@ Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Expe
 * Erlebnisse für responsive Websites ansehen und erstellen
 * Überlagerungen zum Hervorheben von Elementtypen nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/17401?captions=ger)
 
 ### Kontovoreinstellungen in Adobe Target
 
 In diesem Video finden Sie Informationen zur Einrichtung von Mobile Viewports in den Kontovoreinstellungen. Dies wird ab 4:40 erläutert.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/17379?captions=ger)
