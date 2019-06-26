@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -60,7 +60,7 @@ Dabei ist `clientcode` Ihr Target-Client-Code.
 >
 >Stellen Sie sicher, dass Sie einen eindeutigen Wert für `sessionId` und entweder `tntId` oder `thirdPartyId` für jeden E-Mail-Empfänger bereitstellen (z. B. für jeden API-Aufruf). Wenn Sie keine eindeutigen Werte für diese Felder angeben, kann die API-Antwort aufgrund der großen Anzahl in einem einzigen Profil generierter Ereignisse lange dauern oder sogar fehlschlagen.
 
-Weitere Informationen finden Sie unter [Lieferungs-API-Dokumentation](https://developers.adobetarget.com/api/#server-side-delivery).
+Weitere Informationen finden Sie in der [Dokumentation zur Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-delivery).
 
 ## Option 2: Verwenden einer Rawbox-E-Mail-Vorlage {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
