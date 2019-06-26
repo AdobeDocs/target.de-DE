@@ -6,8 +6,8 @@ seo-title: Angebote
 solution: Target
 title: Angebote
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -90,8 +90,8 @@ Die folgenden Informationen sind verfügbar:
 
 In diesem Video wird beschrieben, wie Angebote verwaltet werden.
 
-* Verbindung zwischen der [Experience Cloud-Asset-Bibliothek](https://marketing.adobe.com/resources/help/de_DE/mcloud/creative_cloud.html) und der Target-Inhaltsbibliothek
+* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) und der Target-Inhaltsbibliothek
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17387?captions=ger)
