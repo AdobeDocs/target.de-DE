@@ -9,7 +9,7 @@ title: Verfahren für die Datenübernahme in Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
 ---
 
@@ -54,7 +54,7 @@ Die Daten werden in Echtzeit an Target gesendet und können bei demselben Server
 * Wenn die Daten für das Targeting bei einem nachfolgenden Seiten-/Server-Aufruf verwendet werden sollen, müssen sie in ein Profilskript übersetzt werden.
 * Abfragezeichenfolgen dürfen nur Zeichen des [IETF-Standards](https://www.ietf.org/rfc/rfc3986.txt) (Internet Engineering Task Force) enthalten .
 
-   Zusätzlich zu den auf der IETF-Site aufgeführten Zeichen erlaubt Target auch folgende Zeichen in Abfragezeichenfolgen:
+   Zusätzlich zu den auf der IETF-Site erwähnten Zeichen lässt Target folgende Zeichen in Abfragezeichenfolgen zu:
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
