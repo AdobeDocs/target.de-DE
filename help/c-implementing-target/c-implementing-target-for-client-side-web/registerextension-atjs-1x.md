@@ -7,8 +7,8 @@ solution: Target
 subtopic: Erste Schritte
 title: registerExtension()
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -44,7 +44,7 @@ Weitere Informationen und Beispiele zur Verwendung von `registerExtension` finde
 | serverDomain | Zeichenfolge | Edgeserverdomäne |
 | globalMboxName | Zeichenfolge | Name der globalen Mbox in Target |
 | globalMboxAutoCreate | Boolesch | Zeigt an, ob die automatische Erstellung aktiviert oder deaktiviert ist. |
-| timeout | Nummer | Zeitüberschreitung der Abfrage |
+| Zeitüberschreitung | Nummer | Zeitüberschreitung der Abfrage |
 
 ## Methoden für Logger-Module {#section_10AF62B49AEF48F981E950D26E176138}
 
