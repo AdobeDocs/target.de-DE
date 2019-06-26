@@ -8,8 +8,8 @@ subtopic: Multivarianz-Test
 title: A4T-Reporting
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Durch die Verwendung von Analytics als Berichtsquelle für Target (A4T) erhalten
 
 Sie können sowohl in Analytics als auch in Target Standard/Premium Berichte für Ihre Aktivitäten ansehen.
 
-Informationen zu Best Practices für die Berichterstellung mit Analytics für Target [finden Sie auf dieser Seite von Adobe Spark](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Reporting-Best-Practices für Analytics for Target finden Sie auf dieser [Adobe Spark-Seite](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Überblick {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -45,7 +45,7 @@ Verwenden Sie in Analytics den Target-Aktivitätenbericht, um die Ergebnisse Ihr
 
 >[!NOTE]
 >
->Details zur Target-Steigerung und Konfidenz sind ebenfalls in Analytics verfügbar. Weitere Informationen finden Sie unter [Berichtstyp Target-Steigerung und Konfidenz](https://marketing.adobe.com/resources/help/de_DE/reference/report_target_lift_confidence.html) in der Produktdokumentation von Adobe Analytics.
+>Details zur Target-Steigerung und Konfidenz sind ebenfalls in Analytics verfügbar. Weitere Informationen finden Sie im Abschnitt zu [Target-Steigerung und Konfidenzberichtstyp](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html) in der Produktdokumentation zu Adobe Analytics.
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Klicken Sie, um den vollständigen Analytics-Bericht direkt auf der Berichtsseit
 
 Sie können mithilfe von [!DNL Adobe Analysis Workspace] tiefere Einblicke gewinnen, um die Daten zu visualisieren oder Einblicke zu finden, die unter der Oberfläche verborgen sind.
 
-Öffnen Sie das Tutorial [Analytics und Target: Bewährte Verfahren zur Analyse](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) von Adobe Experience League.
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
 ## Aktivitätserstellung {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
