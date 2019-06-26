@@ -7,8 +7,8 @@ solution: Target
 title: Vorabruf des Angebotsinhalts
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,5 +23,5 @@ Vorabgerufene Inhalte werden nicht über Starts hinweg behalten. Der Inhalt des 
 
 Weitere Informationen einschließlich Vorabruf-Methoden, öffentliche Klassen und Code-Beispiele finden Sie unter:
 
-* **iOS:** [Vorabruf-Angebotsinhalte in iOS](https://marketing.adobe.com/resources/help/de_DE/mobile/ios/c_mob_target-prefetch_ios.html) im Handbuch* iOS SDK 4.x für Experience Cloud-Lösungen*.
-* **Android:** [Vorabruf-Angebotsinhalte in Android](https://marketing.adobe.com/resources/help/de_DE/mobile/android/c_mob_target-prefetch_android.html) im Handbuch *Android SDK 4.x für Experience Cloud-Lösungen*.
+* **Ios:**[Stellen Sie Inhalte für Angebotsinhalte in ios](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_mob_target-prefetch_ios.html) im Handbuch * ios SDK 4. x für Experience Cloud-Lösungen * bereit.
+* **Android:**[Vorzeitiger Abruf des Angebotsinhalts in Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_mob_target-prefetch_android.html) im Handbuch zu *Android-SDK 4.x für Experience Cloud-Lösungen*.
