@@ -8,7 +8,7 @@ title: Migration von „mbox.js“ zu „at.js“
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ Neben anderen Vorteilen sorgt [!DNL at.js] für kürzere Ladezeiten von Seiten b
 >
 >Adobe Experience Manager (AEM) 6.2 mit FP-11577 (oder neuer) unterstützt at.js-Implementierungen mit der Adobe Target Cloud-Integration. Weitere Informationen finden Sie unter [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) und [Integrieren mit Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) in der Dokumentation zu *Adobe Experience Manager 6.2*.
 
-## Vorteile von at. js {#benefits}
+## Benefits of at.js {#benefits}
 
 In der folgenden Tabelle werden die Unterschiede der beiden Bibliotheken erläutert:
 
@@ -71,4 +71,4 @@ Dieses Video ist eine Aufzeichnung von „[Office Hours](../../../../cmp-resourc
 * Debugging-Methoden
 * Bekannte Probleme und Roadmap
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/)
+>[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=ger)
