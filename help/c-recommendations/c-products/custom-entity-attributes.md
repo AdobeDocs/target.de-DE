@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -21,13 +21,13 @@ Verwenden Sie Entitätsattribute mit einzelnen oder mehreren Werten zur Festlegu
 
 ## Beschränkungen {#limits}
 
-Sie können bis zu 100 benutzerdefinierte Entitätsattribute festlegen, um weitere Informationen zu Artikeln in Ihrem Katalog bereitzustellen. Möglicherweise möchten Sie ein benutzerdefiniertes Attribut mit dem Namen `entity.genre` erstellen, um damit ein Buch oder einen Film zu kategorisieren. Alternativ kann ein Ticketverkäufer Attribute zur Halle einrichten, um über einen zusätzlichen Auftritt, z. B. ein weiteres Team, das bei einer Sportveranstaltung mitwirkt, oder die Vorgruppe bei einem Konzert, zu informieren.
+Sie können bis zu 100 benutzerdefinierte Entitätsattribute festlegen, um weitere Informationen zu Artikeln in Ihrem Katalog bereitzustellen. Möglicherweise möchten Sie ein benutzerdefiniertes Attribut mit dem Namen `entity.genre` erstellen, um damit ein Buch oder einen Film zu kategorisieren. Alternativ kann ein Ticketverkäufer Attribute zum Veranstaltungsort einrichten, um über einen zusätzlichen Auftritt, z. B. ein weiteres Team, das bei einer Sportveranstaltung mitwirkt, oder die Vorgruppe bei einem Konzert, zu informieren.
 
-Die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten beträgt 15.000 Zeichen (für ein- und zweibyte-UTF -8-kodierte Sprachen wie Englisch und andere lateinische Skriptbuchstaben) oder 10.000 Zeichen (für 3-Byte-UTF -8-kodierte Sprachen wie Chinesisch, Japanisch und Koreanisch).
+Die maximale Länge von benutzerdefinierten Attributen für Einzelwert-Entitäten beträgt 15.000 Zeichen (für 1- und 2-Byte-UTF-8-kodierte Sprachen wie Englisch und andere lateinische Skriptbuchstaben) oder 10.000 Zeichen (für 3-Byte-UTF-8-kodierte Sprachen wie Chinesisch, Japanisch und Koreanisch).
 
 Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte enthalten. Jeder einzelne Wert ist auf 100 Zeichen begrenzt. Die Gesamtanzahl der Zeichen für alle Werte muss den Beschränkungen für die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten entsprechen (siehe oben).
 
-## Benutzerdefinierte Entitätsattributwerte   {#section_313331A9F8194A89B5EDD89363018651}
+## Benutzerdefinierte Entitätsattributwerte {#section_313331A9F8194A89B5EDD89363018651}
 
 Benutzerdefinierte Entitätsattribute können einen oder mehrere Werte umfassen. Die Werte der Entitätsattribute werden in der Produktansicht dargestellt.
 
@@ -77,7 +77,7 @@ Sie können bis zu 500 Werte in einem Attribut mit mehreren Werten einbeziehen.
 
 **Verwenden von targetPageParams**
 
-Das folgende Beispiel zeigt, wie Sie Folgendes verwenden:  `targetPageParams`
+Das folgende Beispiel zeigt, wie Sie Folgendes verwenden: `targetPageParams`
 
 ```
 function targetPageParams() { 
@@ -106,7 +106,7 @@ Der gleiche Katalog sieht im Tabellenformat so aus:
 
 ![](assets/multi-value_example_excel.png)
 
-Bei der Konvertierung in das [!DNL .csv]-Format fügt die Tabelle doppelte Anführungszeichen um Zellinhalte hinzu, um zu verhindern, dass Kommas in der Zelle als Spaltentrennzeichen fungieren. Außerdem werden doppelte Anführungszeichen um JSON-Zeichenfolgenwerte gelegt, die in benutzdefinierten Attributen mit mehreren Werten enthalten sind. Die Arbeit mit der Rohdatei erschwert sich hierdurch etwas. Beispiel:
+Bei der Konvertierung in das [!DNL .csv]-Format fügt die Tabelle doppelte Anführungszeichen um Zellinhalte hinzu, um zu verhindern, dass Kommas in der Zelle als Spaltentrennzeichen fungieren. Außerdem werden doppelte Anführungszeichen um JSON-Zeichenfolgenwerte gelegt, die in benutzerdefinierten Attributen mit mehreren Werten enthalten sind. Die Arbeit mit der Rohdatei erschwert sich hierdurch etwas. Beispiel:
 
 * Tabelle: `["1","2","3"]`
 * Rohformat: `"[""1"",""2"",""3""]"`
@@ -115,28 +115,28 @@ Gehen Sie bei der direkten Bearbeitung einer CSV-Katalogdatei im Rohformat vorsi
 
 **Verwenden von APIs**
 
-Informationen zur
-Verwendung der apis für die Bereitstellung und Speicherung von Entitäten finden Sie in der [Dokumentation](http://developers.adobetarget.com/api/recommendations) zu Adobe Recommendations API.
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
+using the Delivery and Save entities APIs.
 
 ## Verwenden von Operatoren mit Attributen mit mehreren Werten {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Wenden Sie Operatoren nur für benutzerdefinierte Attribute mit mehreren Werten in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln an, lautet das Ergebnis *true* (wahr), wenn mindestens ein Wert in der Liste die Operation (Boolesches *or*) erfolgreich durchläuft.
 
-Im folgenden Beispiel lautet die Regel:   `message contains abc`.
+Im folgenden Beispiel lautet die Regel: `message contains abc`.
 
 1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.
 
 2. Fall: `entity.genre = ["abcde","de","ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.
 
-Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Lautet der Operator beispielsweise   `notEquals`, lautet das Ergebnis *false* (falsch), wenn nur ein beliebiger Wert die Operation erfüllt.
+Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Lautet der Operator beispielsweise `notEquals`, lautet das Ergebnis *false* (falsch), wenn nur ein beliebiger Wert die Operation erfüllt.
 
 In der Tabelle unten finden Sie Informationen zum Verhalten der Operatoren in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln.
 
-| Operator | Verhalten | Beispiel  |
+| Operator | Verhalten | Beispiel |
 |--- |--- |--- |
 | Gleich | Entspricht ein beliebiger Attributwert dem eingegebenen Wert, lautet das Ergebnis true (wahr). | `genre equals abc`<br>1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.<br>2. Fall: `entity.genre = ["abc", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.<br>3. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da `abc` keinem Element in der Liste entspricht. |
 | Ist nicht gleich | Entspricht keiner der Attributwerte dem eingegebenen Wert, lautet das Ergebnis true (wahr). | `genre not equals abc`<br>1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „true“ (wahr), da keiner der Werte `abc`.<br>2. Fall: `entity.genre = ["abc", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da einer der Werte `abc`.<br>3. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da `abc` keinem Element in der Liste entspricht. |
-| „Enthält“ | Enthält ein beliebiger Attributwert den eingegebenen Wert, lautet das Ergebnis true (wahr). | `genre contains abc`<br>1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.<br>2. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`. |
+| Enthält | Enthält ein beliebiger Attributwert den eingegebenen Wert, lautet das Ergebnis true (wahr). | `genre contains abc`<br>1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.<br>2. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`. |
 | Enthält nicht | Enthält keiner der Attributwerte den eingegebenen Wert, lautet das Ergebnis true (wahr). | `genre does not contain abc`<br>1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „true“ (wahr), da keiner der Werte `abc`.<br>2. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da einer der Werte`abc`. |
 | Beginnt mit | Beginnt ein beliebiger Attributwert mit dem eingegebenen Wert, lautet das Ergebnis true (wahr). | `genre starts with abc`<br>1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte mit `abc`.<br>2. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte mit `abc`.<br>3. Fall: `entity.genre = ["ab", "de", "abc"]`. Das Ergebnis lautet „true“ (wahr), da ein Wert mit `abc` beginnt (nicht notwendigerweise das erste Element in der Liste). |
 | Endet mit | Endet ein beliebiger Attributwert mit dem eingegebenen Wert, lautet das Ergebnis true (wahr). | `genre ends with abc`<br>1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte mit `abc`.<br>2. Fall: `entity.genre = ["deabc", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte mit `abc`. |
@@ -150,11 +150,11 @@ In der Tabelle unten finden Sie Informationen zum Verhalten der Operatoren in Al
 >
 >*Double* ist ein Java-Datentyp. Bei Operatoren, für die numerische Werte erforderlich sind, werden bei der Verdoppelung alle Werte aus der Ergebnisberechnung ausgeschlossen, die nicht numerisch sind.
 
-## Attribute mit mehreren Werten in Entwürfen   {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Attribute mit mehreren Werten in Entwürfen {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Attribute mit mehreren Werten werden als kommagetrennte Liste aufgeführt, wenn sich in einem Entwurf darauf bezogen wird.
 
-Beispiel:  
+Beispiel:
 
 Wenn auf `entity.genre=["genre1","genre2"]` in einem Entwurf als `$entity<N>.genre` verwiesen wird, lautet das Ergebnis `genre1, genre2`.
 
