@@ -7,7 +7,7 @@ solution: Target
 title: Bericht zu
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 Erstellen Sie Zielgruppen, um Besucher basierend auf der Suchmaschine oder der Landingpage als Ziel auszuwählen, der sie auf Ihre Site verweist.
 
-Sie können z. B. das Ziel nach dem Browser des Benutzers, der Suchmaschine oder der verweisenden Landingpage bestimmen. Die verweisende Einstiegsseite ist die Seite, von der aus der Besucher auf die aktuelle Site gelangt ist, um diese Sitzung zu erreichen. (Wenn der Besucher z. B. auf eine Anzeige in Google geklickt hat und ihn zur `adobe.com` Homepage führt, lautet `google.com`die verweisende Landingpage.)
+Sie können z. B. das Ziel nach dem Browser des Benutzers, der Suchmaschine oder der verweisenden Landingpage bestimmen. Die verweisende Einstiegsseite ist die Seite, von der aus der Besucher auf die aktuelle Site gelangt ist, um diese Sitzung zu erreichen. (For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
 
 Sie können mehrere Traffic-Quellen kombinieren, um eine komplexe Targeting-Regel zu erstellen.
 
