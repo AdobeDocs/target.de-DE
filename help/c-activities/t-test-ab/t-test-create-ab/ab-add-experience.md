@@ -7,7 +7,7 @@ solution: Target
 title: Hinzufügen von Erlebnissen
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,11 +39,11 @@ Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](../../../c-ex
    >
    >Wenn Sie ein Bild aus einer anderen Quelle als der Hauptseite bereitstellen (z. B. ein Bild, das auf akamei.net gehostet und auf dell.com bereitgestellt wird), wird das Bild nicht in der Miniaturansicht der Seite, die auf dem Flussdiagramm zu sehen ist, angezeigt.
 
-1. Klicken **[!UICONTROL Sie auf Speichern,]** wenn Sie das Entwerfen des Erlebnisses abgeschlossen haben.
+1. Click **[!UICONTROL Save]** when you are finished designing the experience.
 
 ## Erlebnis umbenennen
 
-Klicken Sie [!UICONTROL auf das Symbol Erlebnis] umbenennen eines Erlebnisses in einer A/B-Test- oder Erlebnis-Targeting-Aktivität, um dem Erlebnis einen neuen Namen zu geben.
+Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
 
 ![Erlebnis umbenennen](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,9 +62,9 @@ Beachten Sie, dass bei der (Um-)Benennung von Erlebnissen folgende Zeichen nicht
 
 ## Zur URL umleiten
 
-Klicken Sie auf das Symbol Mehr (drei vertikale Auslassungszeichen) für ein Erlebnis in einer A/B-Test- oder Erlebnis-Targeting-Aktivität und klicken [!UICONTROL Sie dann auf Zur URL umleiten].
+Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
 
-Weitere Informationen finden Sie unter [Zu URL umleiten](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
+For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 **HINWEIS**: Wenn Sie ein Erlebnis benennen oder umbenennen, sind die folgenden Zeichen nicht zulässig:
 
