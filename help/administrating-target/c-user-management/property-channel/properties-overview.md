@@ -1,7 +1,7 @@
 ---
 description: Informationen zu den erforderlichen Aufgaben für das Hinzufügen von Benutzern zur Target-Implementierung; Erstellen von Arbeitsbereichen, Benutzergruppen und Eigenschaften; Aktualisieren der Target-Implementierung, um den Parameter „at_property“ hinzuzufügen; Festlegen von Rollen und Berechtigungen.
 keywords: Benutzer hinzufügen;Projekt;Benutzergruppe;Eigenschaften;Arbeitsbereich;Eigenschaft verwalten;Eigenschaft;at_property;Rollen;Berechtigungen
-seo-description: Informationen über die erforderlichen Aufgaben zum Hinzufügen von Benutzern zu Ihrer Adobe Target-Implementierung Erstellen von Arbeitsbereichen, Benutzergruppen und Eigenschaften; Aktualisieren Sie Ihre Target-Implementierung, um den Parameter at_ property einzuschließen. und Rollen und Berechtigungen angeben.
+seo-description: Informationen zu den erforderlichen Aufgaben für das Hinzufügen von Benutzern zur Target-Implementierung; Erstellen von Arbeitsbereichen, Benutzergruppen und Eigenschaften; Aktualisieren der Target-Implementierung, um den Parameter „at_property“ hinzuzufügen; Festlegen von Rollen und Berechtigungen.
 seo-title: Konfigurieren von Unternehmensberechtigungen
 solution: Target
 subtopic: Erste Schritte
@@ -11,7 +11,7 @@ topic: Premium
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ Informationen zu den erforderlichen Aufgaben für das Hinzufügen von Benutzern 
 
 >[!NOTE]
 >
->Die Funktionalitäten für Eigenschaften und Berechtigungen sind als Bestandteil der Lösung [Target Premium](/help/c-intro/intro.md#premium) verfügbar. Für [!DNL Target Standard] sind sie nicht ohne [!DNL Target Premium]-Lizenz verfügbar.
+>Die Funktionalitäten für Eigenschaften und Berechtigungen sind als Bestandteil der Lösung [Target Premium](/help/c-intro/intro.md#premium) verfügbar. Sie sind in [!DNL Target Standard] nicht ohne [!DNL Target Premium]-Lizenz verfügbar.
 
 In der folgenden Tabelle sind alle Aufgaben aufgeführt, die Sie zur Erstellung von Eigenschaften und der Zuweisung von Benutzerrollen und Berechtigungen ausführen sollten. Weitere Informationen zu den einzelnen Aufgaben finden Sie in den nachfolgenden Abschnitten.
 
@@ -37,11 +37,11 @@ In der folgenden Tabelle sind alle Aufgaben aufgeführt, die Sie zur Erstellung 
 
 Greifen Sie für diese in der Adobe Admin Console for Enterprise ausgeführten Aufgaben auf die Konsole zu, indem Sie die folgenden Schritte durchführen:
 
-1. Wechseln Sie zu [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt; melden Sie sich mit Ihrer Adobe ID an, wenn Sie sich noch nicht angemeldet haben.
+1. Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt; sign in using your Adobe ID, if you have not already logged in.
 
    Oder
 
-   Wenn Sie bereits bei der Experience Cloud angemeldet sind, rufen Sie [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)auf und klicken Sie dann auf das [!UICONTROL App] -Symbol in der oberen Navigationsleiste &gt; Klicken **[!UICONTROL Sie rechts auf Admin]** .
+   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
 
 1. (Bedingt) Sollten Sie über Zugriff auf die [!DNL Admin Console for Enterprise] für mehr als ein Unternehmen verfügen, klicken Sie rechts in der oberen Navigationsleiste auf den Benutzeravatar und wählen Sie die gewünschte Organisation aus.
 
@@ -83,14 +83,14 @@ Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen A
 >[!NOTE]
 >Weitere Informationen zum Konfigurieren von Arbeitsbereichen finden Sie im Schulungsvideo unten.
 
-### Workspace-ID abrufen {#workspace-id}
+### Obtain your Workspace ID {#workspace-id}
 
-Sie müssen die Workspace-ID weiterreichen, um in [Target-apis Unternehmensberechtigungen zu nutzen](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
+Sie müssen die Workspace-ID weiterreichen, um in [Target-APIs Unternehmensberechtigungen zu nutzen](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
 
-1. Klicken Sie in der [Adobe Admin-Konsole](https://adminconsole.adobe.com)auf die Registerkarte [!UICONTROL Produkte] und dann auf das Produkt im linken Menü, um die Liste der PLC (Workspace) anzuzeigen.
-1. Klicken Sie auf die gewünschte SD (Workspace) und suchen Sie dann die ID der &quot;Profile&quot; in der URL, wie unten dargestellt.
+1. Klicken Sie in der [Adobe Admin Console](https://adminconsole.adobe.com) auf die Registerkarte [!UICONTROL Produkte] und anschließend auf das Produkt im linken Menü, um die Liste der PLC (Workspace) anzuzeigen.
+1. Klicken Sie auf die gewünschte PLC (Workspace) und suchen Sie dann die ID für „profiles“ in der URL, wie unten dargestellt.
 
-   ![Workspaceid](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
+   ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
 ## Schritt 3. Benutzergruppen erstellen (optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
@@ -139,7 +139,7 @@ Möchten Sie die Benutzerberechtigungsfunktion in [!DNL Target] nutzen, müssen 
 
    1. Fahren Sie mit dem Mauszeiger über die Spalte [!UICONTROL „Zuletzt aktualisiert“] der gewünschten Eigenschaft und wählen Sie das [!UICONTROL Codesymbol] aus.
 
-      ![Eigenschaftenhover-Code](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
+      ![Eigenschaften-Hover-Code](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
    1. Klicken Sie mit der rechten Maustaste auf den markierten Implementierungs-Code und kopieren Sie ihn in die Zwischenablage.
 
@@ -151,7 +151,7 @@ Möchten Sie die Benutzerberechtigungsfunktion in [!DNL Target] nutzen, müssen 
 
    * **Über einen globalen Parameter in[!DNL Adobe Launch]:**
 
-      Weitere Informationen finden Sie unter [Globale Mbox-Parameter](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) hinzufügen in der *Adobe Experience Platform Launch* -Dokumentation.
+      For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
    * **Über einen globalen Parameter in[!DNL Dynamic Tag Management]:**
 
@@ -169,7 +169,7 @@ Möchten Sie die Benutzerberechtigungsfunktion in [!DNL Target] nutzen, müssen 
 
       ![](assets/property_token_3.png)
 
-      Weitere Informationen zu diesem Verfahren unter „at.js“ finden Sie unter   [Targetpageparams ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) und [mboxcreate (mbox, params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
+      Weitere Informationen zu diesem Verfahren mit at.js finden Sie unter [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) und [mboxCreate(mbox, params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Schritt 6: Rollen und Berechtigungen festlegen {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -179,12 +179,12 @@ Möchten Sie die Benutzerberechtigungsfunktion in [!DNL Target] nutzen, müssen 
 
    >[!NOTE]
    >
-   >Die Funktionen &quot;Eigenschaften und Berechtigungen&quot; gelten nur für [Target Standard/Premium](/help/c-intro/intro.md#premium) . Für [!DNL Target Classic] steht die Funktion nicht zur Verfügung.
+   >The Properties and Permissions functionality applies to [Target Standard/Premium](/help/c-intro/intro.md#premium) only. Für [!DNL Target Classic] steht die Funktion nicht zur Verfügung.
 
 1. Klicken Sie auf den Namen des gewünschten Profils.
 1. Klicken Sie auf **[!UICONTROL Benutzer]**.
 
-   Auf der [!UICONTROL Registerkarte &quot;Benutzer] &quot; werden alle Benutzer in diesem Arbeitsbereich angezeigt.
+   The [!UICONTROL Users] tab displays all of the users in that workspace.
 
    ![Konfigurieren von Benutzern](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
 
