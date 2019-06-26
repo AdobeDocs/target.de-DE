@@ -6,8 +6,8 @@ seo-title: iOS – Erstellen von Target-Standorten und Erfolgsmetriken
 title: iOS – Erstellen von Target-Standorten und Erfolgsmetriken
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Möchten Sie Target in Ihrer mobilen App verwenden, erstellen Sie einen Ort und eine Erfolgsmetrik.
 
-In diesem Abschnitt finden Sie Beispiel-Code, der als Vorlage für Ihre App verwendet werden kann. Die Beispiele in diesem Abschnitt enthalten Code für iOS. Die gleichen Muster gelten jedoch auch für Android. Android-spezifische Syntax finden Sie im [Android SDK 4. x für Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/mobile/android/target_main.html)-Lösungshandbuch.
+In diesem Abschnitt finden Sie Beispiel-Code, der als Vorlage für Ihre App verwendet werden kann. Die Beispiele in diesem Abschnitt enthalten Code für iOS. Die gleichen Muster gelten jedoch auch für Android. Die Android-spezifische Syntax finden Sie im Lösungsleitfaden [Android SDK 4.x für Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mobile/android/target_main.html).
 
 >[!NOTE]
 >
->Eine Liste aller verfügbaren Target-Methoden finden Sie unter [Mobile-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mobile/ios/c_target_methods.html).
+>See the [Mobile documentation](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_target_methods.html) for a list of all the available Target methods.
 
 Möchten Sie einen Target-Ort in Ihrer Anwendung erstellen und eine Abfrage stellen, gibt es hierfür zwei Hauptverfahren:
 
