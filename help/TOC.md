@@ -198,7 +198,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
       + [Erlebnisvorschau für einen automatisierten Personalisierungstest](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Targeting von Automated Personalization-Angeboten](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Verwalten von Ausschlüssen](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [Wählen Sie das Steuerelement für die automatisierte Personalisierung oder die automatische Targeting-Aktivität aus.](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Verwenden Sie ein bestimmtes Erlebnis als Steuerelement](c-activities/t-automated-personalization/experience-as-control.md)
       + [Häufig gestellte Fragen zur automatisierten Personalisierung](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Weitergeben von Erlebnis-URLs zur Automated Personalization-Vorschau außerhalb von Target](c-activities/t-automated-personalization/experience-preview.md)
       + [Fehlerbehebung bei der automatisierten Personalisierung](c-activities/t-automated-personalization/ap-trouble.md)
