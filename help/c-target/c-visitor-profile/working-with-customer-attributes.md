@@ -8,8 +8,8 @@ subtopic: Erste Schritte
 title: Kundenattribute
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -28,7 +28,7 @@ Der Hauptdienst „People“ ist Teil von [!DNL Adobe Experience Cloud] und biet
 
 Beachten Sie beim Arbeiten mit Kundenattributen und Target die folgenden Informationen:
 
-* Sie müssen einige Voraussetzungen erfüllen, bevor Sie die Funktion [!UICONTROL Kundenattribute] im Core-Service [!DNL People] verwenden können. Weitere Informationen finden Sie unter „Voraussetzungen für das Hochladen von Kundenattributen“ unter [Kundenattribute](https://marketing.adobe.com/resources/help/de_DE/mcloud/attributes.html) in der *Produktdokumentation von Experience Cloud und Core Services*. Beachten Sie, dass [!DNL at.js] (beliebige Version) oder [!DNL mbox.js], Version 58 oder neuer erforderlich ist.
+* Sie müssen einige Voraussetzungen erfüllen, bevor Sie die Funktion [!UICONTROL Kundenattribute] im Core-Service [!DNL People] verwenden können. Weitere Informationen finden Sie unter „Voraussetzungen zum Hochladen von Kundenattributen“ im Thema [Kundenattribute](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) der *Produktdokumentation zu Experience Cloud und zu Core Services*. Beachten Sie, dass [!DNL at.js] (beliebige Version) oder [!DNL mbox.js], Version 58 oder neuer erforderlich ist.
 * Adobe kann nicht garantieren, dass 100 % der Kundenattribut (Besucherprofil)-Daten aus CRM-Datenbanken in die Experience Cloud integriert werden und somit für die Targeting-Verwendung in Target verfügbar sind. In unserem aktuellen Design besteht die Möglichkeit, dass ein geringer Prozentsatz der Daten nicht integriert wird.
 * Die Lebensdauer der aus der Experience Cloud in Target importierten Kundenattributdaten ist von der Lebensdauer des Besucherprofils abhängig, die standardmäßig 14 Tage beträgt. Weitere Informationen finden Sie unter [Lebensdauer des Besucherprofils](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
 * Wenn die `vst.*`-Parameter das Einzige sind, was den Benutzer identifiziert, wird das vorhandene „authentifizierte“ Profil nicht abgerufen, solange `authState` UNAUTHENTICATED (0) ist. Das Profil kommt nur ins Spiel, wenn `authState` in UNAUTHENTICATED (1) geändert wird.
@@ -43,7 +43,7 @@ Führen Sie die folgenden Schritte aus, um CRM-Daten in [!DNL Target] zu verwend
 
 ![](assets/crm_workflow.png)
 
-Detaillierte Anweisungen zum Abschließen der folgenden Aufgaben finden Sie unter [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://marketing.adobe.com/resources/help/de_DE/mcloud/t_crs_usecase.html) in der *Produktdokumentation von Experience Cloud und Core Services*.
+Detaillierte Anweisungen zum Ausführen der einzelnen Aufgaben finden Sie unter [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) in der *Produktdokumentation zu Experience Cloud und zu Core Services*.
 
 1. Erstellen einer Datendatei.
 
@@ -64,7 +64,7 @@ Detaillierte Anweisungen zum Abschließen der folgenden Aufgaben finden Sie unte
    Mithilfe der HTTP-Methode können Datendateien mit einer Größe von bis zu 100 MB hochgeladen werden. Größere Dateien zwischen 100 MB und 4 GB können per FTP hochgeladen werden.
 
    * **HTTPS:** Sie können die [!DNL .csv] Datendatei per Drag &amp; Drop verschieben oder auf [!UICONTROL Durchsuchen] klicken, um sie aus Ihrem Dateisystem hochzuladen.
-   * **FTP:** Zum [Hochladen der Datei via FTP klicken Sie auf den FTP-Link ](https://marketing.adobe.com/resources/help/de_DE/mcloud/t_upload_attributes_ftp.html). Der erste Schritt besteht darin, ein Kennwort für den von Adobe bereitgestellten FTP-Server anzugeben. Geben Sie das Kennwort ein und klicken Sie dann auf [!UICONTROL Fertig].
+   * **FTP:** Klicken Sie auf den FTP-Link, um die [Datei per FTP hochzuladen](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html). Der erste Schritt besteht darin, ein Kennwort für den von Adobe bereitgestellten FTP-Server anzugeben. Geben Sie das Kennwort ein und klicken Sie dann auf [!UICONTROL Fertig].
 
       Übertragen Sie nun Ihre CSV-/ZIP-/GZIP-Datei auf den FTP-Server. Sobald diese Dateiübertragung erfolgreich ist, erstellen Sie eine neue Datei mit demselben Namen und derselben [!DNL .fin]-Erweiterung. Übertragen Sie diese leere Datei auf den Server. Dies gibt das Ende der Übertragung an, und die Experience Cloud beginnt mit dem Verarbeiten der Datendatei.
 
@@ -80,7 +80,7 @@ Detaillierte Anweisungen zum Abschließen der folgenden Aufgaben finden Sie unte
 
 1. Konfigurieren von Abonnements und Aktivieren der Attributquelle.
 
-   Klicken Sie auf **[!UICONTROL Abonnement hinzufügen]** und wählen Sie die Lösung zum Abonnieren dieser Attribute aus. Durch die [Konfiguration von Abonnements](https://marketing.adobe.com/resources/help/de_DE/mcloud/subscription.html) wird der Datenfluss zwischen Experience Cloud und den Lösungen eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Lösungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
+   Klicken Sie auf **[!UICONTROL Abonnement hinzufügen]** und wählen Sie die Lösung zum Abonnieren dieser Attribute aus. Der Datenfluss zwischen der Experience Cloud und Lösungen wird durch die [Konfiguration eines Abonnements](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html) eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Lösungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
 
    ![](assets/solution.png)
 
@@ -122,12 +122,12 @@ Geben Sie Mbox3rdPartyID als Parameter an die globale Mbox innerhalb der Methode
 
 ### Verwenden des Experience Cloud ID-Service
 
-Wenn Sie den Experience Cloud ID-Service verwenden, müssen Sie eine Kunden-ID und einen Authentifizierungsstatus festlegen, um Kundenattribute im Targeting zu verwenden. Weitere Informationen finden Sie unter [Kunden-IDs und Authentifizierungsstatus](https://marketing.adobe.com/resources/help/de_DE/mcvid/mcvid-authenticated-state.html) in der *Dokumentation zum Experience Cloud ID-Dienst*.
+Wenn Sie den Experience Cloud ID-Service verwenden, müssen Sie eine Kunden-ID und einen Authentifizierungsstatus festlegen, um Kundenattribute im Targeting zu verwenden. Weitere Informationen finden Sie im Abschnitt zu [Kunden-IDs und Authentifizierungsstatus](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html) in der *Dokumentation zum Experience Cloud ID-Service*.
 
 Weitere Informationen zum Verwenden von Kundenattributen in [!DNL Target] finden Sie unter den folgenden Ressourcen:
 
-* [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://marketing.adobe.com/resources/help/de_DE/mcloud/t_crs_usecase.html) in der *Produktdokumentation von Experience Cloud und Core Services*
-* [Kundenattribute: Je Mehr Sie Wissen, Desto Besser Können Sie Sich Verbinden](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) im *Digital Marketing Blog*
+* [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) in der *Produktdokumentation zu Experience Cloud und zu Core Services*
+* [Kundenattribute: Je mehr Details, desto besser die Verbindung](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) im *Digital Marketing-Blog*
 
 ## Häufig von Kunden erkannte Probleme {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
@@ -148,4 +148,4 @@ Probleme in den Zeilen 1 und 2 oben verursachen ca. 60 % der Probleme in dies
 
 Dieses Video zeigt, wie Sie Offline-CRM-, Helpdesk-, Point-of-Sale- und andere Marketingdaten in den People-Service der Experience Cloud importieren und sie Besuchern anhand ihrer IDs zuordnen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
+>[!VIDEO](https://video.tv.adobe.com/v/17802t1/?captions=ger)
