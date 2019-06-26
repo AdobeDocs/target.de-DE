@@ -7,8 +7,8 @@ solution: Target
 title: Erstellen von Angebotsordnern
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ Erstellen Sie einen Ordner, um Elemente in der Angebotsbibliothek zu hinterlegen
    |--- |--- |
    | Titel (nur für Bildangebote) | Geben Sie einen beschreibenden Namen für den Ordner an. Sie können im Namen beispielsweise den Typ der enthaltenen Inhalte angeben.<br>Der Name darf folgende Zeichen nicht enthalten:<br>Prozentzeichen `%`<br>Vorwärtsschrägstrich `/`<br>Umgekehrter Schrägstrich `\`<br>Doppelpunkt `:`<br>Sternchen `*`<br>Fragezeichen `?`<br>Doppelte Anführungszeichen `"`<br>Eckige Klammer `[`<br>Eckige Klammer `]`<br>Plus-Zeichen: `+`<br>Senkrechter Strich: `|`<br>Punkt: `.`<br>Raute: `#`<br>Geschweifte Klammer: `{`<br>Geschweifte Klammer `}`<br>Einfügezeichen `^`<br>Semikolon `;`<br>Anstelle dieser Zeichen können Sie einen Bindestrich (`- `) verwenden. |
    | Name (gilt sowohl für Code- als auch für Bildangebote) | Bearbeiten Sie den Namen, falls gewünscht. |
-   | Privat (nur für Bildangebote) | Legt fest, dass es sich um einen privaten Ordner handelt, sodass nur Sie den Ordner und seine Inhalte sehen können. |
+   | Privat      (nur für Bildangebote) | Legt fest, dass es sich um einen privaten Ordner handelt, sodass nur Sie den Ordner und seine Inhalte sehen können. |
    | In Listenansicht neu anzuordnen (nur für Bildangebote) | Legt fest, dass Sie und andere die Position des Ordners in der Listenansicht ändern können.<br>Um zwischen Karten- und Listenansicht umzuschalten, klicken Sie oben rechts in der Inhaltsbibliothek auf das entsprechende Symbol. Sie können außerdem in den Anzeigeeinstellungen festlegen, welche Spalten in der Listenansicht ein- oder ausgeblendet werden sollen. |
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
