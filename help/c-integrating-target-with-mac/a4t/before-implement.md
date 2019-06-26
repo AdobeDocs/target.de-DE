@@ -1,6 +1,6 @@
 ---
 description: Bei Ihrem Datenerfassungsprozess treten verschiedene Änderungen auf, wenn Sie Analytics als Berichtsquelle für Target (A4T) verwenden.
-keywords: 'Recommendations '
+keywords: Recommendations
 seo-description: Bei Ihrem Datenerfassungsprozess treten verschiedene Änderungen auf, wenn Sie Analytics als Berichtsquelle für Target (A4T) verwenden.
 seo-title: Vor der Implementierung Adobe Analytics als Berichtsquelle für Adobe Target (A4T)
 solution: Target
@@ -8,7 +8,7 @@ title: Vor der Implementierung
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,9 +25,9 @@ Bevor Sie sich für die Verwendung dieser Integration entscheiden, überprüfen 
 >
 >Bevor Sie A4T verwenden können, müssen Sie eine Bereitstellung Ihres Kontos für die Integration anfordern. Verwenden Sie [dieses Formular](https://www.adobe.com/go/audiences), um die Bereitstellung anzufordern.
 
-Für diese A 4 T-Integration müssen Sie die folgenden Bibliotheksversionen (oder höher) implementieren, je nachdem, ob Sie Umleitungsangebote mit A 4 T verwenden möchten oder nicht:
+Für diese A4T-Integration müssen Sie in Abhängigkeit davon, ob Sie Weiterleitungsangebote in A4T verwenden möchten oder nicht, die folgenden Bibliotheksversionen (oder neuere) implementieren:
 
-### Anforderungen, die benötigt werden, wenn *keine Umleitungsangebote mit A 4 T* verwendet werden
+### Anforderungen, wenn *keine* Umleitungsangebote mit A4T verwendet werden
 
 Bei dieser Integration müssen Sie die folgenden Bibliotheksversionen (oder neuer) implementieren, wenn Sie nicht planen, Weiterleitungsangebote mit A4T zu verwenden. Die angezeigte Reihenfolge ist die Reihenfolge der Vorgänge.
 
@@ -35,12 +35,12 @@ Bei dieser Integration müssen Sie die folgenden Bibliotheksversionen (oder neue
 * Adobe Target (je nach Implementierung): at.js, Version 0.9.1 oder mbox.js, Version 61
 * Adobe Analytics: appMeasurement.js, Version 1.7.0
 
-### Anforderungen, die benötigt werden, wenn Umleitungsangebote mit A 4 T verwendet werden
+### Anforderungen, wenn Umleitungsangebote mit A4T verwendet werden
 
-Um Umleitungsangebote mit A 4 T zu verwenden, müssen Sie die folgenden Bibliotheksversionen (oder neuer) implementieren. Die angezeigte Reihenfolge ist die Reihenfolge der Vorgänge.
+Für die Verwendung von Weiterleitungsangeboten mit A4T müssen Sie die folgenden Bibliotheksversionen (oder neuere) implementieren: Die angezeigte Reihenfolge ist die Reihenfolge der Vorgänge.
 
 * Experience Cloud-Besucher-ID-Service: visitorAPI.js, Version 2.3.0
-* Adobe Target: at. js Version 1.6.2
+* Adobe Target: at.js Version 1.6.2
 
    **Hinweis:** Die mbox.js-Bibliothek unterstützt keine Weiterleitungsangebote mit A4T. Ihre Implementierung muss at.js verwenden.
 
@@ -66,7 +66,7 @@ Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analy
 
 Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des Experience Cloud-Besucher-ID-Services beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
 
-## Zusätzliche ID   {#section_2C1F745A2B7D41FE9E30915539226E3A}
+## Zusätzliche ID {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
 Zu allen Target-Aufrufen, die von einer A4T-Aktivität zur Übermittlung von Inhalten oder zur Aufzeichnung der Zielmetrik verwendet werden, muss es einen zugehörigen Analytics-Treffer geben, der die gleiche Zusatz-ID hat, damit A4T ordnungsgemäß funktioniert.
 
@@ -77,8 +77,8 @@ Treffer, die Daten aus Analytics und Target enthalten, enthalten eine zusätzlic
 
 Stellen Sie bei der Fehlerbehebung sicher, dass die zusätzliche ID bei Analytics-Treffern vorhanden ist.
 
-## Clientseitige Analytics-Protokollierung {#client-side}
+## Client-side Analytics logging {#client-side}
 
-Wenn &quot;at. js&quot; ,&quot; appmeasurement. js [!DNL Experience Cloud Visitor ID Service]«sich auf der Seite befinden und Ereignisse [!DNL Adobe Analytics][!DNL Target] für Reports &amp; Analysen-Zwecke im Backend korrekt vorhanden sind, werden die Ereignisse standardmäßig im Backend gespeichert, sofern die korrekte zusätzliche ID von der Seite eingeschlossen wird. Sie müssen keine weiteren Vorgänge für A 4 T verwalten und durchführen, damit sie ordnungsgemäß funktionieren.
+By default, when at.js, the [!DNL Experience Cloud Visitor ID Service], and appMeasurement.js are on the page, [!DNL Adobe Analytics] and [!DNL Target] correctly stitch events for reporting and analytics purposes in the backend as long as the correct supplemental ID is included from the page, as mentioned above. Sie müssen keine weiteren Vorgänge für A 4 T verwalten und durchführen, damit sie ordnungsgemäß funktionieren.
 
-Es gibt jedoch Fälle, in denen Sie möglicherweise mehr Kontrolle darüber haben möchten, wann und wie Analysedaten zu Berichtszwecken [!DNL Target][!DNL Analytics] gesendet werden sollen. Möglicherweise verfügen Sie über ein praktisches Analysetool, das Sie für interne Zwecke nutzen, aber auch die Analysedaten [!DNL Analytics] über Ihr interner Analyseprodukt senden möchten, damit andere Mitglieder Ihrer Organisation weiterhin als visuelle Berichtsquelle genutzt [!DNL Analytics] werden können. Siehe [Schritt 7: Referenz at. js oder mbox. js auf allen Seiten der Site](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Analytics für Target-Implementierung* , um weitere Informationen zu erhalten.
+However, there are cases when you might want to have more control on when and how to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes. You might have an in-house analytics tool that you leverage for internal purposes but also want to send the analytics data to [!DNL Analytics] via your in-house analytics product so that other members of your organization can continue to utilize [!DNL Analytics] as a visual reporting source. See [Step 7: Reference at.js or mbox.js on all site pages](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Analytics for Target Implementation* for more information.
