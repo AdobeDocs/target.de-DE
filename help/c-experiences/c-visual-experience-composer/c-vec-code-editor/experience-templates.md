@@ -8,8 +8,8 @@ subtopic: Code-Editor
 title: Erlebnisvorlagen
 topic: Standard
 uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Informationen zu Adobe Target-Erlebnisvorlagen für die Verwendung in benutzerde
 
 Diese Erlebnisvorlagen stehen Entwicklern und Marketing-Experten kostenlos zur Verfügung und bilden die Basis für beliebte Anwendungsfälle – entweder über den VEC oder den formularbasierten Experience Composer.
 
-Die folgenden Vorlagen sind derzeit auf dem Adobe Experience Cloud-GitHub verfügbar: [Target-Erlebnisvorlagen](https://github.com/Adobe-Marketing-Cloud/target-experience-templates).
+Die folgenden Vorlagen sind derzeit im Adobe Experience Cloud-GitHub verfügbar (siehe [Target-Erlebnisvorlagen](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)).
 
 ## Bannerkarussell mit Miniaturansichten {#section_BEEE51D47CC44A478264BBF3FEC70DAE}
 
@@ -42,7 +42,7 @@ Bei der [Erlebnisvorlage „Banner-Countdown“](https://github.com/Adobe-Market
 
 ## Button-Builder {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
 
-Bei der [Erlebnisvorlage „Button-Builder“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) handelt es sich um eine kleine Schaltfläche mit einem Text-Aktionsaufruf. Die Schaltfläche kann konfiguriert und beliebig auf der Seite positioniert werden, um einen neuen CTA hinzuzufügen oder eine vorhandene Schaltfläche durch eine Alternative zu ersetzen, die sich umfassender konfigurieren lässt.
+Bei der [Erlebnisvorlage „Button-Builder“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) handelt es sich um eine kleine Schaltfläche mit einem Text-CTA (Call to Action). Die Schaltfläche kann konfiguriert und beliebig auf der Seite positioniert werden, um einen neuen CTA hinzuzufügen oder eine vorhandene Schaltfläche durch eine Alternative zu ersetzen, die sich umfassender konfigurieren lässt.
 
 ![](assets/exp-template-button-builder.png)
 
