@@ -7,7 +7,7 @@ solution: Target
 title: Kategorien für Zielgruppen
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ Nachdem Sie eine Regel erstellt haben, klicken Sie auf **[!UICONTROL Speichern]*
 
 Sie können eine Regel verfeinern, indem Sie ihr zusätzliche Bedingungen hinzufügen oder zusätzliche Regeln in anderen Kategorien erstellen. Wenn Sie beispielsweise nur Firefox-Benutzer aus San Francisco berücksichtigen möchten, die über Google auf Ihre Site gelangen, legen Sie die Kategorie [!UICONTROL Geo] auf Target-Benutzer aus San Francisco, die Kategorie [!UICONTROL Besucherverhalten] auf Firefox und die Kategorie [!UICONTROL Traffic-Quellen] auf Google fest. Alle erstellten Regeln werden kategorienübergreifend mit „AND“ kombiniert. Wenn Sie komplexe Targeting-Regeln mit „OR“-Operationen erstellen möchten, erstellen Sie ein Expressions-Target.
 
-Sie können auch benutzerdefinierte Profilparameter und `user.`-Parameter als Ziel auswählen. Klicken Sie beim Hinzufügen einer Zielgruppe auf **[!UICONTROL Besucherprofil]** und wählen Sie dann den Parameter aus, den Sie zum Targeting Ihrer Aktivität verwenden möchten. Wird der gewünschte Parameter nicht angezeigt, wurde er nicht von einer Mbox ausgelöst. In der Dropdownliste [!UICONTROL Benutzerdefinierte Parameter] sind weitere benutzerdefinierte Mbox-Parameter verfügbar.
+Sie können auch benutzerdefinierte Profilparameter und `user.`-Parameter als Ziel auswählen. When adding an audience, click **[!UICONTROL Visitor Profile]**, then choose the parameter you use want to use to target your activity. Wird der gewünschte Parameter nicht angezeigt, wurde er nicht von einer Mbox ausgelöst. In der Dropdownliste [!UICONTROL Benutzerdefinierte Parameter] sind weitere benutzerdefinierte Mbox-Parameter verfügbar.
 
 Durchsuchen Sie die [!UICONTROL Zielgruppenliste] über das Suchfeld. Sie können nach einem beliebigen Teil des Zielgruppennamens suchen oder eine bestimmte Zeichenfolge in Anführungszeichen setzen.
 
