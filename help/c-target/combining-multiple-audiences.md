@@ -8,7 +8,7 @@ title: Kombinieren mehrerer Zielgruppen
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,11 +25,11 @@ Sie können mit den Operatoren AND und OR bis zu zehn Zielgruppen miteinander ko
 
 Sie können kombinierte Zielgruppen an verschiedenen Stellen der [!DNL Target]-Oberfläche verwenden.
 
-## Erstellen einer kombinierten Zielgruppe beim Erstellen einer Aktivität {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Create a combined audience while creating an activity {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad-hoc-Zielgruppe erstellen, während Sie durch den dreistufigen Prozess geleitet werden.
 
-1. Klicken Sie beim Erstellen einer [Aktivität](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)auf der **[!UICONTROL Target]** -Seite auf die drei vertikalen Auslassungszeichen und anschließend **[!UICONTROL auf Zielgruppe ersetzen]**.
+1. While creating an [activity](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Target]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
 
    ![Schrittergebnis](assets/edit_audience.png)
 
@@ -77,7 +77,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
 1. Geben Sie einen beschreibenden Namen für die kombinierte Zielgruppe ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Erstellen einer kombinierten Zielgruppe zur Verwendung im Metriktargeting {#section_A42E795AFCBD4575809C5942039910F0}
+## Create a combined audience for use in metric targeting {#section_A42E795AFCBD4575809C5942039910F0}
 
 Sie können eine kombinierte Ad-hoc-Zielgruppe, die Sie im Metrik-Targeting verwenden möchten, auf der Seite [!UICONTROL Ziele und Einstellungen] der Aktivität erstellen. So erstellen Sie beispielsweise ein Targeting basierend auf Konversionen mithilfe einer kombinierten Zielgruppe:
 
@@ -103,7 +103,7 @@ Sie können eine kombinierte Ad-hoc-Zielgruppe auch auf der Seite [!UICONTROL Zi
 
 1. Fahren Sie mit [Schritt 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) unter „Erstellen einer kombinierten Zielgruppe bei Erstellung einer Aktivität“ fort, um die kombinierte Zielgruppe zu erstellen.
 
-## Erstellen einer kombinierten Zielgruppe beim Bearbeiten einer Aktivität {#section_364A12CE96E04B61B7C18113AA586C2C}
+## Create a combined audience while editing an activity {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 Sie können eine kombinierte Ad-hoc-Zielgruppe erstellen, während Sie eine bestehende Aktivität bearbeiten.
 
@@ -113,7 +113,7 @@ Sie können eine kombinierte Ad-hoc-Zielgruppe erstellen, während Sie eine best
 
    Klicken Sie auf die gewünschte Aktivität, um sie zu öffnen, und klicken Sie anschließend auf **[!UICONTROL Aktivität bearbeiten]**.
 
-1. Klicken Sie auf &quot; **[!UICONTROL Konfigurieren]** «&gt; **[!UICONTROL &quot; Zielgruppen]** &quot; &gt; **[!UICONTROL &quot;Mehrere Zielgruppen]**«.
+1. Click the **[!UICONTROL Configure]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Multiple Audiences]**.
 
    ![Konfigurieren &gt; Zielgruppen &gt; Mehrere Zielgruppen](/help/c-target/assets/combine_multiple_audiences7.png)
 
