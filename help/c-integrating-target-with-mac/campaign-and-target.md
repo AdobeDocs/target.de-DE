@@ -7,8 +7,8 @@ solution: Target
 title: Integration von Target in Adobe Campaign
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -46,10 +46,10 @@ Bevor Sie Adobe Campaign verwenden, um ihre zielgerichteten E-Mail-Angebote einz
 
 * Mindestens zwei Target-Umleitungsangebote
 
-   Siehe [Erstellen eines Weiterleitungsangebots](https://marketing.adobe.com/resources/help/de_DE/target/target/t_offer_redirect.html).
-* Eine Target-Aktivität mit einem Erlebnis für jedes Angebot und der gewünschten [Erfolgsmetrik](https://marketing.adobe.com/resources/help/de_DE/target/target/r_success_metrics.html).
+   Siehe [Umleitungsangebot erstellen](https://marketing.adobe.com/resources/help/en_US/target/target/t_offer_redirect.html)
+* Eine Target-Aktivität mit einem Erlebnis für jedes Angebot und der gewünschten [Erfolgsmetrik](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html).
 
-   Siehe [Weiterleiten zu einer URL](https://marketing.adobe.com/resources/help/de_DE/target/target/t_redirect_offer.html).
+   Weitere Informationen finden Sie unter [Zu einer URL umleiten](https://marketing.adobe.com/resources/help/en_US/target/target/t_redirect_offer.html).
 
 Starten Sie die Aktivität in Target, bevor Sie den Kampagnenteil der Integration einrichten.
 
