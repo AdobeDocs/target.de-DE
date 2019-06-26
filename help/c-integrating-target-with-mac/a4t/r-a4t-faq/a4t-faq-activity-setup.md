@@ -7,8 +7,8 @@ solution: Target
 title: Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,7 +23,7 @@ Eine vollständige Liste finden Sie unter „Unterstützte Aktivitätstypen“ i
 
 ## Ich habe soeben eine Aktivität erstellt. Warum werden keine Daten angezeigt? {#section_9F8092BE4225442896F926540292F221}
 
-Beim Erstellen einer Aktivität sendet Target eine Classifications-Datei an Analytics. Obwohl Analytics die Daten erfasst und verarbeitet, werden sie erst nach der Aktualisierung der Classifications-Datei in den Berichten angezeigt. Dies kann bis zu 24 Stunden dauern. Wenn Ihre Daten nach 48 Stunden nicht angezeigt werden, [wenden Sie sich an den Kundendienst](https://marketing.adobe.com/resources/help/de_DE/target/target/r_problem.html). Wenn Sie wissen, dass Sie eine Aktivität starten möchten, können Sie die Aktivität auch schon einige Tage im Voraus erstellen. Die Classifications werden dann gesendet, wenn die Aktivität gespeichert wird. Dadurch werden Ihre Daten gleich beim Start in den Berichten angezeigt. Bitte beachten Sie, dass es zwischen 45 und 90 Minuten dauern kann, bis die Daten in Analytics verarbeitet werden.
+Beim Erstellen einer Aktivität sendet Target eine Classifications-Datei an Analytics. Obwohl Analytics die Daten erfasst und verarbeitet, werden sie erst nach der Aktualisierung der Classifications-Datei in den Berichten angezeigt. Dies kann bis zu 24 Stunden dauern. Wenn Ihre Daten auch nach 48 Stunden noch nicht angezeigt werden, [wenden Sie sich an den Kundendienst](https://marketing.adobe.com/resources/help/en_US/target/target/r_problem.html). Wenn Sie wissen, dass Sie eine Aktivität starten möchten, können Sie die Aktivität auch schon einige Tage im Voraus erstellen. Die Classifications werden dann gesendet, wenn die Aktivität gespeichert wird. Dadurch werden Ihre Daten gleich beim Start in den Berichten angezeigt. Bitte beachten Sie, dass es zwischen 45 und 90 Minuten dauern kann, bis die Daten in Analytics verarbeitet werden.
 
 ## Warum kann ich Analytics nicht als meine Berichterstellungsquelle auswählen, wenn ich eine neue Aktivität erstelle? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
