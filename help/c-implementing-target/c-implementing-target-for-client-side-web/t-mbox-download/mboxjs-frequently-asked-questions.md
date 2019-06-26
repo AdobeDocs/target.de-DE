@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: Häufig gestellte Fragen zu „mbox.js“
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,13 +19,13 @@ Antworten auf häufig zu „mbox.js“ gestellte Fragen
 
 ## Wie wirkt sich mbox.js auf Seitenladezeiten aus? {#section_90B3B94FE0BF4B369577FCB97B67F089}
 
-Weitere Informationen finden Sie unter [Vorteile von at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+For more information, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Warum erhalte ich Warnhinweise zur Parser-Blockade in Google Chrome, wenn ich „mbox.js“ und „document.write“ verwende? {#section_355A3A5BF02F42EEB8271C96EF41590A}
 
 Diese Konsolenmeldung wird angezeigt, wenn Chrome für unterschiedliche Szenarien mit Verwendung der Funktion `document.write` in der Datei mbox.js eingesetzt wird. Es handelt sich hierbei um einen Warnhinweis, der jedoch keine Auswirkung auf die Aktivitätserstellung hat.
 
-Am einfachsten lässt sich diese Meldung vermeiden, indem Sie   [die Target-Implementierung in die JavaScript-Bibliothek at.js migrieren](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), in der `document.write` nicht verwendet wird. Die Verwendung von at.js bietet gegenüber mbox.js zahlreiche weitere Vorteile. Weitere Informationen finden Sie in den [häufig gestellten Fragen zu „at.js“](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
+Am einfachsten lässt sich diese Meldung vermeiden, indem Sie [die Target-Implementierung in die JavaScript-Bibliothek at.js migrieren](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), in der `document.write` nicht verwendet wird. Die Verwendung von at.js bietet gegenüber mbox.js zahlreiche weitere Vorteile. Weitere Informationen finden Sie in den [häufig gestellten Fragen zu „at.js“](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## Warum werden meine Mboxes nicht auf meinen Webseiten ausgelöst? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
@@ -39,8 +39,8 @@ Modere Browser speichern keine Cookies, wenn Sie diese Domänen verwenden - es s
 
 ## Warum verwenden at.js und mbox.js nicht die Cookie-Flags „HttpOnly“ und „Secure“?{#section_74527E3B41B54B0A83F217C3E664ED1F}
 
-„HttpOnly“ kann nur über serverseitigen Code festgelegt werden. Target-Cookies, wie z. B. Mbox, werden über JavaScript-Code erstellt und gespeichert. Target kann das Cookie-Flag „HttpOnly“ also nicht verwenden.
+„HttpOnly“ kann nur über Server-seitigen Code festgelegt werden. Target-Cookies, wie z. B. Mbox, werden über JavaScript-Code erstellt und gespeichert. Target kann das Cookie-Flag „HttpOnly“ also nicht verwenden.
 
 „Secure“ kann nur über JavaScript festgelegt werden, wenn die Seite mit HTTPS geladen wurde. Wenn die Seite nur mit HTTP geladen wird, kann JavaScript dieses Flag nicht festlegen. Darüber hinaus ist das Cookie bei der Verwendung des Flags „Secure“ nur auf HTTPS-Seiten verfügbar.
 
-Damit Target Benutzer richtig verfolgen kann – und weil Cookies clientseitig generiert werden –, verwendet Target keines der Flags.
+Damit Target Benutzer richtig verfolgen kann – und weil Cookies Client-seitig generiert werden –, verwendet Target keines der Flags.
