@@ -1,6 +1,6 @@
 ---
 description: Was Sie vor der Erstellung einer Recommendations-Aktivität wissen müssen.
-keywords: Recommendations; settings; Voreinstellungen; industry vertical; filtern inkompatibler Kriterien; Standard-Hostgruppe; thumb base url; Recommendations-API-Token
+keywords: Recommendations; Einstellungen; Voreinstellungen; vertikaler Markt; Filtern inkompatibler Kriterien; Standard-Hostgruppe; Thumb-Base-URL; Recommendations-API-Token
 seo-description: Was Sie vor der Erstellung einer Recommendations-Aktivität wissen müssen.
 seo-title: Planen und Implementieren von Recommendations
 solution: Target
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ Was Sie vor der Erstellung einer [!DNL Recommendations]-Aktivität wissen müsse
 |--- |--- |--- |
 | ![Schritt 1](/help/c-recommendations/assets/step1_red.png) | JavaScript-Bibliothek | Jede der Seiten muss einen Verweis auf at.js, Version 0.9.1 (oder neuer) oder mbox.js, Version 55 (oder neuer) enthalten. Dieser Implementierungsschritt ist auf allen Seiten erforderlich, auf denen eine Target-Aktivität verwendet wird; er kann Schlüssel wie eine Produkt- oder Kategorie-ID umfassen.<BR>Weitere Informationen zu at.js finden Sie unter [at.js-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Weitere Informationen zu mbox.js finden Sie unter [Mbox.js-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
 | ![Schritt 2](/help/c-recommendations/assets/step2_red.png) | Schlüssel | Der Schlüssel legt den Produkttyp bzw. den Inhaltstyp fest, der in Ihren Empfehlungen angezeigt wird. Zum Beispiel kann der Schlüssel eine Produktkategorie sein. Siehe [Aufbauen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). |
-| ![Schritt 3](/help/c-recommendations/assets/step3_red.png) | Attribute | Attribute liefern spezifischere Informationen über die Produkte, die Sie anzeigen möchten. Beispielsweise könnte es sein, dass Sie Produkte in einem bestimmten Preisbereich oder Artikel, deren Bestand einen Schwellenwert erreicht, anzeigen möchten. Attribute können in einer Mbox oder durch einen   [Feed](/help/c-recommendations/c-products/feeds.md)bereitgestellt werden.<br>Siehe [Einschlussregeln](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) und [Entitätsattribute](/help/c-recommendations/c-products/entity-attributes.md). |
+| ![Schritt 3](/help/c-recommendations/assets/step3_red.png) | Attribute | Attribute liefern spezifischere Informationen über die Produkte, die Sie anzeigen möchten. Beispielsweise könnte es sein, dass Sie Produkte in einem bestimmten Preisbereich oder Artikel, deren Bestand einen Schwellenwert erreicht, anzeigen möchten. Attribute können in einer Mbox oder durch einen [Feed](/help/c-recommendations/c-products/feeds.md)bereitgestellt werden.<br>Siehe [Einschlussregeln](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) und [Entitätsattribute](/help/c-recommendations/c-products/entity-attributes.md). |
 | ![Schritt 4](/help/c-recommendations/assets/step4_red.png) | Ausnahmen | Ausnahmen legen fest, welche spezifischen Artikel nicht in Ihren Empfehlungen angezeigt werden.<br>Siehe [Ausnahmen](/help/c-recommendations/c-products/exclusions.md). |
 | ![Schritt 5](/help/c-recommendations/assets/step5_red.png) | Kaufdetails | Kaufdetails enthalten nach Abschluss des Kaufs Informationen über die gekauften Artikel und die Bestellung. |
 
@@ -48,7 +48,7 @@ Es gibt zwei Methoden für die Bereitstellung von Informationen über Produkte u
 
 Diese Methoden können separat oder gemeinsam wie in den folgenden Beispielen verwendet werden.
 
-## Beispiel 1: Kombinieren von Seite und Feeds   {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
+## Beispiel 1: Kombinieren von Seite und Feeds {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
 
 Eine übliche Implementierungsoption für [!DNL Recommendations] verwendet sowohl Seitenparameter als auch Feeds.
 
@@ -93,7 +93,7 @@ Dieses Beispiel kann von besonderem Nutzen für Medienunternehmen sein, deren In
    * `entity.categoryId`
    * Alle sonstigen Attribute
 
-## Beispielcode   {#section_6E8A73376F30468BB549F337C4C220B1}
+## Beispielcode {#section_6E8A73376F30468BB549F337C4C220B1}
 
 Sie können beispielsweise den folgenden Code in der Kopfzeile Ihrer Produkt- oder Inhaltsseiten verwenden:
 
@@ -110,7 +110,7 @@ function targetPageParams() {
 }
 ```
 
-Weitere Beispiele des Codes, den Sie auf verschiedenen Seitentypen verwenden können, finden Sie im Abschnitt   [Implementierung nach Seitentyp](../c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
+Weitere Beispiele des Codes, den Sie auf verschiedenen Seitentypen verwenden können, finden Sie im Abschnitt [Implementierung nach Seitentyp](../c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
 
 ## Implementierung nach Seitentyp {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
 
@@ -122,7 +122,7 @@ Informationen zu den Attributen in den Beispielen finden Sie unter [Entitätsatt
 
 Es ist eine gültige JSON-Formatierung erforderlich.
 
-Die in den Beispielen unten angezeigte Funktion `targetPageParams` ist besonders dann hilfreich, wenn Sie eine Tag-Management-Lösung verwenden, um Ihre Seiten zu implementieren. [!DNL Adobe Launch] oder [!DNL Adobe Dynamic Tag Manager] (DTM) platziert die at.js/mbox.js und die `targetPageParams`-Funktion auf Ihrer Seite und ermöglicht es Ihnen, die Werte zu konfigurieren. Sie müssen diese Funktion entweder vor Ihrem at.js-/mbox.js-Aufruf platzieren oder in den Extra JavaScript-Abschnitt Ihrer at.js/mbox.js stellen.
+Die in den Beispielen unten angezeigte Funktion `targetPageParams` ist besonders dann hilfreich, wenn Sie eine Tag-Management-Lösung verwenden, um Ihre Seiten zu implementieren. [!DNL Adobe Launch] oder [!DNL Adobe Dynamic Tag Manager] (DTM) platziert die at.js/mbox.js und die `targetPageParams`-Funktion auf Ihrer Seite und ermöglicht es Ihnen, die Werte zu konfigurieren. Sie müssen diese Funktion entweder vor Ihrem at.js-/mbox.js-Aufruf platzieren oder in den Abschnitt „Extra JavaScript“ Ihrer at.js/mbox.js stellen.
 
 ## Alle Seiten {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
@@ -146,11 +146,11 @@ Weitere Informationen zur Implementierung [!DNL at.js]finden Sie unter [Bereitst
 
 Weitere Informationen zur Implementierung von [!DNL mbox.js] finden Sie unter [Mbox.js-Implementierung](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
-Weitere Informationen zu den Unterschieden zwischen den beiden Target Javascript-Bibliotheken finden Sie unter [Vorteile von at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+For more information about the differences between the two Target Javascript libraries, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Kategorieseite {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
-Wahrscheinlich möchten Sie Ihre Empfehlungen auf der Kategorieseite auf Produkte und Inhalt innerhalb dieser Kategorie beschränken. Um eine Kategorieseite einzurichten, richten Sie die Schlüssel ein, die von der Seite verwendet werden. Weitere Informationen zu Schlüsseln erhalten Sie unter   [Stützen der Empfehlung auf einen Empfehlungsschlüssel](../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+Wahrscheinlich möchten Sie Ihre Empfehlungen auf der Kategorieseite auf Produkte und Inhalt innerhalb dieser Kategorie beschränken. Um eine Kategorieseite einzurichten, richten Sie die Schlüssel ein, die von der Seite verwendet werden. Weitere Informationen zu Schlüsseln erhalten Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 
 ```
 function targetPageParams() { 
@@ -182,7 +182,7 @@ function targetPageParams() {
 }
 ```
 
-## Einkaufswagenseite   {#section_D37E48700F074556B925D0CA0291405E}
+## Einkaufswagenseite {#section_D37E48700F074556B925D0CA0291405E}
 
 Wahrscheinlich möchten Sie auf einer Einkaufswagenseite einige Artikel aus Ihren Empfehlungen ausnehmen, wie zum Beispiel solche Artikel, die bereits im Einkaufswagen sind.
 
@@ -196,12 +196,12 @@ function targetPageParams() {
 </script>
 ```
 
-## Danksagungsseite   {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+## Danksagungsseite {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
 
 Möglicherweise möchten Sie auf der Danksagungsseite den Gesamtbetrag und die ID sowie die gekauften Produkte anzeigen, ohne weitere Artikel zu empfehlen. Sie können eine zweite Mbox implementieren, um die Bestellinformationen zu erfassen.
 
-* Lesen Sie bei der Verwendung von at.js   [Konversions-Tracking](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
-* Wenn Sie mbox.js verwenden, lesen Sie [Erstellen einer mbox für Auftragsbestätigungen - mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
+* Lesen Sie bei der Verwendung von at.js [Konversions-Tracking](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* Wenn Sie mbox.js verwenden, lesen Sie [Erstellen einer Mbox für Auftragsbestätigungen - mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
 
 ## Einstellungen {#concept_C1E1E2351413468692D6C21145EF0B84}
 
@@ -215,9 +215,9 @@ Die folgenden Optionen sind verfügbar:
 
 | Einstellung | Beschreibung |
 |--- |--- |
-| Benutzerdefinierte globale mbox | (Optional) Geben Sie die benutzerdefinierte globale Mbox an, die für [!DNL Target]-Aktivitäten verwendet wird. Standardmäßig wird die globale Mbox von [!DNL Target} für [!DNL Recommendations] verwendet.<br>Hinweis: Diese Option wird auf der Seite [!DNL Target] [!UICONTROL Einstellungen] festgelegt. Öffnen Sie [!DNL Target] und klicken Sie dann auf [!UICONTROL Setup]. |
+| Benutzerdefinierte globale Mbox | (Optional) Geben Sie die benutzerdefinierte globale Mbox an, die für [!DNL Target]-Aktivitäten verwendet wird. Standardmäßig wird die globale Mbox von [!DNL Target} für [!DNL Recommendations] verwendet.<br>Hinweis: Diese Option wird auf der Seite [!DNL Target] [!UICONTROL Einstellungen] festgelegt. Öffnen Sie [!DNL Target] und klicken Sie dann auf [!UICONTROL Setup]. |
 | Vertikaler Markt | Der vertikale Markt hilft Ihnen bei der Kategorisierung Ihrer Empfehlungskriterien. Dies hilft Mitgliedern Ihres Teams bei der Suche nach Kriterien, die für eine bestimmte Seite sinnvoll sind, wie zum Beispiel Kriterien, die sich am besten für eine Einkaufswagenseite oder eine Medienseite eignen. |
 | Inkompatible Kriterien filtern | Aktivieren Sie diese Option, um nur diejenigen Kriterien anzuzeigen, bei denen die ausgewählte Seite die erforderlichen Daten übermittelt. Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für das aktuelle Element/die aktuellen Kategorieempfehlungen übermitteln, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, deaktivieren Sie diese Option.<br>Es wird empfohlen, dass Sie diese Option deaktivieren, wenn Sie eine Tag-Management-Lösung verwenden.<br>Weitere Informationen zu dieser Option finden Sie unter [FAQ zu Empfehlungen](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md). |
-| Standard-Hostgruppe | Wählen Sie Ihre Standard-Hostgruppe aus. „Keine“ bedeutet, dass Ihre Standard-Hostgruppe für die Einstellung „Berichterstellung“ in [!DNL Target Classic] für Ihre Standard-Hostgruppe verwendet wird.<br>Die Hostgruppe kann verwendet werden, um die verfügbaren Elemente in Ihrem Katalog für verschiedene Verwendungen zu trennen. Sie können beispielsweise Hostgruppen für Entwicklungs- und Produktionsumgebungen, unterschiedliche Marken oder unterschiedliche Länder verwenden. Standardmäßig basieren die Vorschauergebnisse in „Katalogsuche“, „Sammlungen“ und „Ausnahmen“ auf der Standardhostgruppe. (Mit dem Umgebungsfilter können Sie auch eine andere Hostgruppe auswählen, um die Ergebnisse in der Vorschau anzuzeigen.) Neu hinzugefügte Elemente sind standardmäßig in allen Hostgruppen verfügbar, es sei denn, beim Erstellen oder Aktualisieren des Elements wurde eine Umgebungs-ID angegeben. Bereitgestellte Empfehlungen hängen von der in der Anforderung angegebenen Hostgruppe ab.<br>Wenn Ihre Produkte nicht angezeigt werden, stellen Sie sicher, dass Sie die richtige Hostgruppe verwenden. Wenn Sie beispielsweise Ihre Empfehlung so festlegen, dass eine Staging-Umgebung verwendet wird, und Ihre Hostgruppe auf „Staging“ eingestellt ist, müssen Sie eventuell Ihre Erfassung in der Staging-Umgebung neu erstellen, damit die Angebote angezeigt werden. Um zu sehen, welche Produkte in jeder Umgebung verfügbar sind, verwenden Sie für jede Umgebung die Katalogsuche. Sie können auch eine Vorschau der Inhalte von Recommendations-Sammlungen und Ausschlüssen für eine ausgewählte Umgebung (Hostgruppe) anzeigen.<br>**Hinweis:** Nachdem Sie die ausgewählte Umgebung geändert haben, müssen Sie auf „Suchen“ klicken, um die zurückgegebenen Ergebnisse zu aktualisieren.<br>Der [!UICONTROL Umgebungs]-Filter ist an den folgenden Stellen in der [!DNL Target]-Benutzeroberfläche verfügbar:<ul><li>Katalogsuche ([!UICONTROL Empfehlungen &gt; Katalogsuche)</li><li>Sammlung erstellen, Dialogfeld ([!UICONTROL Empfehlungen &gt; Sammlungen &gt; Neu erstellen])</li><li>Dialogfeld „Sammlung aktualisieren“ ([!UICONTROL Recommendations &gt; Sammlungen &gt; Bearbeiten])</li><li>Dialogfeld „Ausschluss erstellen“ ([!UICONTROL Recommendations &gt; Ausschlüsse &gt; Neu erstellen])</li><li>Ausschlussdialogfeld aktualisieren ([!UICONTROL Empfehlungen &gt; Ausnahmen &gt; Bearbeiten])</li></ul>Weitere Informationen finden Sie unter [Hosts](/help/administrating-target/hosts.md). |
+| Standard-Hostgruppe | Wählen Sie Ihre Standard-Hostgruppe aus. „Keine“ bedeutet, dass Ihre Standard-Hostgruppe für die Einstellung „Berichterstellung“ in [!DNL Target Classic] für Ihre Standard-Hostgruppe verwendet wird.<br>Die Hostgruppe kann verwendet werden, um die verfügbaren Elemente in Ihrem Katalog für verschiedene Verwendungen zu trennen. Sie können beispielsweise Hostgruppen für Entwicklungs- und Produktionsumgebungen, unterschiedliche Marken oder unterschiedliche Länder verwenden. Standardmäßig basieren die Vorschauergebnisse in „Katalogsuche“, „Sammlungen“ und „Ausnahmen“ auf der Standardhostgruppe. (Mit dem Umgebungsfilter können Sie auch eine andere Hostgruppe auswählen, um die Ergebnisse in der Vorschau anzuzeigen.) Neu hinzugefügte Elemente sind standardmäßig in allen Hostgruppen verfügbar, es sei denn, beim Erstellen oder Aktualisieren des Elements wurde eine Umgebungs-ID angegeben. Bereitgestellte Empfehlungen hängen von der in der Anforderung angegebenen Hostgruppe ab.<br>Wenn Ihre Produkte nicht angezeigt werden, stellen Sie sicher, dass Sie die richtige Hostgruppe verwenden. Wenn Sie beispielsweise Ihre Empfehlung so festlegen, dass eine Staging-Umgebung verwendet wird, und Ihre Hostgruppe auf „Staging“ eingestellt ist, müssen Sie eventuell Ihre Erfassung in der Staging-Umgebung neu erstellen, damit die Angebote angezeigt werden. Um zu sehen, welche Produkte in jeder Umgebung verfügbar sind, verwenden Sie für jede Umgebung die Katalogsuche. Sie können auch eine Vorschau der Inhalte von Recommendations-Sammlungen und -Ausschlüssen für eine ausgewählte Umgebung (Hostgruppe) anzeigen.<br>**Hinweis:** Nachdem Sie die ausgewählte Umgebung geändert haben, müssen Sie auf „Suchen“ klicken, um die zurückgegebenen Ergebnisse zu aktualisieren.<br>Der [!UICONTROL Umgebungs]-Filter ist an den folgenden Stellen in der [!DNL Target]-Benutzeroberfläche verfügbar:<ul><li>Katalogsuche ([!UICONTROL Empfehlungen &gt; Katalogsuche)</li><li>Sammlung erstellen, Dialogfeld ([!UICONTROL Empfehlungen &gt; Sammlungen &gt; Neu erstellen])</li><li>Dialogfeld „Sammlung aktualisieren“ ([!UICONTROL Recommendations &gt; Sammlungen &gt; Bearbeiten])</li><li>Dialogfeld „Ausschluss erstellen“ ([!UICONTROL Recommendations &gt; Ausschlüsse &gt; Neu erstellen])</li><li>Ausschlussdialogfeld aktualisieren ([!UICONTROL Empfehlungen &gt; Ausnahmen &gt; Bearbeiten])</li></ul>Weitere Informationen finden Sie unter [Hosts](/help/administrating-target/hosts.md). |
 | Miniaturansicht Basis-URL | Durch Festlegen einer Basis-URL für Ihren Produktkatalog können Sie relative URLs verwenden, wenn Sie beim Ausfüllen Ihrer URL Miniaturen Ihrer Produkte angeben.<br>Beispiel: <br>`"entity.thumbnailURL=/Images/Homepage/product1.jpg"`<br> legt eine URL relativ zur Basis-URL der Miniaturansicht fest. |
 | Recommendations-API-Token | Verwenden Sie diesen Token in Recommendations-API-Aufrufen, zum Beispiel der Download-API. |
