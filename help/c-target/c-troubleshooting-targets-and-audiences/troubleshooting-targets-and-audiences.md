@@ -7,8 +7,8 @@ solution: Target
 title: Häufig gestellte Fragen zu Zielen und Zielgruppen
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -47,7 +47,7 @@ Einige Zielgruppen wurden vorab eingerichtet, darunter „Neue Besucher“ und �
 
 ## Warum werden meine gesamten Profilparameter auf der Benutzeroberfläche von Target nicht angezeigt? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, können Sie hierzu die API-Methode [!UICONTROL Profilupdate] nutzen. Weitere Informationen finden Sie unter [Profil-Update](https://developers.adobetarget.com/api/#authentication-tokens) in der Adobe Target API-Dokumentation.
+[!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, können Sie hierzu die API-Methode [!UICONTROL Profilupdate] nutzen. Weitere Informationen finden Sie unter [Profilupdate](https://developers.adobetarget.com/api/#authentication-tokens) in der Dokumentation zur Adobe Target-API.
 
 ## Warum werden Besuchern Erlebnisse für eine AP-Aktivität angezeigt, die sie nicht sehen sollten? {#section_41CECEAE0881446A8D9F3B016857914B}
 
