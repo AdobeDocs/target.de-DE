@@ -8,7 +8,7 @@ title: Kategorieaffinität
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,7 +31,7 @@ Sie können `user.categoryAffinities[]` in einem Profilskript benutzen, um ein A
 
 >[!IMPORTANT]
 >
->Das `user.categoryId` Attribut, das für den Kategorieaffinitätsalgorithmus von Adobe Target verwendet wird, unterscheidet sich von dem `entity.categoryId` Attribut, das für die Produkt- und Inhaltsempfehlungen von Adobe Target Recommendations verwendet wird. `user.categoryId` ist erforderlich, um die bevorzugte Kategorie eines Benutzers zu verfolgen. `entity.categoryId` ist für Basisempfehlungen auf der Kategorie der aktuellen Seite oder des aktuellen Elements erforderlich. Übergeben Sie beide Werte an Adobe Target, wenn Sie beide Funktionen verwenden möchten.
+>The `user.categoryId` attribute used for Adobe Target&#39;s category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations&#39; product and content recommendations. `user.categoryId` ist erforderlich, um die bevorzugte Kategorie eines Benutzers zu verfolgen. `entity.categoryId` ist für Basisempfehlungen auf der Kategorie der aktuellen Seite oder des aktuellen Elements erforderlich. Übergeben Sie beide Werte an Adobe Target, wenn Sie beide Funktionen verwenden möchten.
 
 ## Geschäftsfall für Kategorieaffinität {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
