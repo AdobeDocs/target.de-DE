@@ -9,8 +9,8 @@ title-outputclass: Premium
 topic: Premium
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 badge: Premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -18,6 +18,14 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 # ![PREMIUM](/help/assets/premium.png) Häufig gestellte Fragen zur automatisierten Personalisierung{#automated-personalization-faq}
 
 Liste häufig gestellter Fragen zur automatisierten Personalisierung (AP).
+
+## Kann ich ein spezifisches Erlebnis angeben, das als Steuerelement verwendet werden soll?
+
+You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+
+Mit dieser Funktion können Sie den gesamten Traffic-Traffic an ein bestimmtes Erlebnis weiterleiten, basierend auf dem Prozentsatz der Traffic-Zuordnung, der in der Aktivität konfiguriert wurde. Anschließend können Sie die Leistungsberichte des personalisierten Traffic auswerten, um den Traffic zu diesem Erlebnis zu steuern.
+
+For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
 ## Wie kann ich automatisierte Personalisierung mit einem Standarderlebnis vergleichen? {#section_46C1A620A2384C2C8392D6716DD18495}
 
@@ -33,9 +41,11 @@ Es gibt keine Option, mit der sich der Vergleich von AP mit einem Standarderlebn
 * Mithilfe der [Traffic-Schätzung](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) können Sie einschätzen, wie lange es dauert, bis Personalisierungsmodelle in Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ erstellt werden.
 * Legen Sie die Zuordnung zwischen der Kontrolle und dem Ziel fest, bevor Sie Ihre Aktivität auf Basis Ihrer Ziele beginnen.
 
-   * Besteht das Ziel Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ darin, zu bestimmen wie gut der Personalisierungsalgorithmus insgesamt funktioniert, oder in der Ausführung einer „Always on“-Personalisierungsoptimierung für Ihre Seite? In Abhängigkeit von Ihrer Antwort auf diese Frage möchten Sie möglicherweise eine unterschiedliche Traffic-Zuordnung zwischen der Kontrolle und dem Ziel verwenden.
-   * Wenn Sie den Algorithmus testen möchten, sollten Sie eine 50/50-Prozentaufteilung der Besucher zwischen dem Kontroll- und dem Zielalgorithmus verwenden. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung.
-   * Wenn Sie eine „Always on“-Aktivität erstellen möchten, sollten Sie zwischen 10 und 30 % der Besucher in den Kontrollbereich versetzen, um sicherzustellen, dass ausreichend Daten vorhanden sind, damit die Algorithmen mit der Zeit weiterhin lernen können. Beachten Sie, dass das Personalisieren einer größeren Traffic-Menge zur Folge hat, dass die Bestimmung der exakten Steigerung weniger präzise ist.
+   Es gibt drei Szenarien, die je nach Ziel Ihrer Aktivität und der Art der ausgewählten Kontrolle berücksichtigt werden sollten:
+
+   * **Zufällige Erlebnisse als Ihre Kontrolle und Ihr Aktivitätsziel sollen die Effektivität des Personalisierungs-Algorithmus testen**: Wenn Ihr Ziel darin besteht, den Personalisierungs-Algorithmus auszuwerten, möchten Sie ein genaueres Bild Ihrer Steigerung haben. Darüber hinaus würden Sie wahrscheinlich mit der Konversionsrate für Ihre Erlebnisse/Angebote vergleichen, wenn Sie einfach einen A/B-Test durchgeführt haben (ein zufällig bereitgestelltes Steuerelement). In diesem Fall wird empfohlen, eine Zuordnung von 50% zu einer Kontrolle über zufällig bereitgestellte Erlebnisse zu verwenden.
+   * **&quot; Zufällige Erlebnisse&quot; als Ihre Kontrolle und Ihr Aktivitätsziel besteht darin, personalisierte Traffic** zu maximieren: Wenn Sie mit dem Algorithmus zufrieden sind und die maximal personalisierte Traffic-Menge haben möchten, wird eine Zuordnung von 10% bis 30% zur Kontrolle empfohlen. Der Kompromiss hier ist die Genauigkeit, die Sie in Ihren Steigerungsinformationen sehen können (da die Konfidenzintervalle Ihres Traffic-Traffics größer sind, da weniger Traffic zu diesen Traffic-Daten geleitet wird).
+   * **Spezifisches Erlebnis als Ihre Steuerung mit einem Zieltyp**: Wenn Sie ein bestimmtes Marketingexperten mit Personalisierungsmodellen vergleichen möchten, wird eine Zuordnung von 10% bis 30% zur Kontrolle empfohlen. Wenn Sie nur ein Erlebnis als Steuerelement auswählen, wird dieser Traffic nicht über alle Angebote/Erlebnisse in der Aktivität verteilt.
 
 * Targeting-Regeln sollten sparsam verwendet werden, da sie die Optimierungsfähigkeit des Modells beeinträchtigen können.
 * Berichterstellungsgruppen können den Erfolg Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ begrenzen. Sie sollten nur unter bestimmten Bedingungen verwendet werden.
