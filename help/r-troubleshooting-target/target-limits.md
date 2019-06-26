@@ -8,7 +8,7 @@ title: Beschränkungen
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 5e8edb25f0b0255247c535bcac1d960b6e8acf94
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -21,7 +21,7 @@ Bei den unten aufgeführten Beschränkungen handelt es sich um empfohlene Beschr
 
 Hochkomplexe Aktivitäten sollten mit Adobe Consulting geprüft und in einer eingeschränkten Umgebung getestet werden, bevor sie zur Produktion freigegeben werden.
 
-## Aktivitätsnamen
+## Aktivitätsname
 
 **Limit**: 250 Zeichen.
 
@@ -50,15 +50,15 @@ Werte mit mehr als 256 Zeichen werden gekürzt.
 * 15.000 Zeichen (Einzelwert, ein- und Zweibyte-Sprachen)
 * 500 Werte, 100 Zeichen pro Wert (mehrere Werte)
 
-Die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten beträgt 15.000 Zeichen (für ein- und zweibyte-UTF -8-kodierte Sprachen wie Englisch und andere lateinische Skriptbuchstaben) oder 10.000 Zeichen (für 3-Byte-UTF -8-kodierte Sprachen wie Chinesisch, Japanisch und Koreanisch).
+Die maximale Länge von benutzerdefinierten Attributen für Einzelwert-Entitäten beträgt 15.000 Zeichen (für 1- und 2-Byte-UTF-8-kodierte Sprachen wie Englisch und andere lateinische Skriptbuchstaben) oder 10.000 Zeichen (für 3-Byte-UTF-8-kodierte Sprachen wie Chinesisch, Japanisch und Koreanisch).
 
 Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte enthalten. Jeder einzelne Wert ist auf 100 Zeichen begrenzt. Die Gesamtanzahl der Zeichen für alle Werte muss den Beschränkungen für die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten entsprechen (siehe oben).
 
-## Entityid-Parameter
+## EntityID-Parameter
 
 **Limit**: 1.000 Zeichen.
 
-## Excludedids {#excludedid}
+## excludedIds {#excludedid}
 
 **Limit**: 5 KB für POST-Anforderungen. 2.083 Zeichen minus der Länge der URL für GET-Anforderungen.
 
@@ -68,19 +68,19 @@ Bei GET-Anforderungen beträgt der Grenzwert für das Back-End zwar 5 KB, aufgru
 
 **Limit**: 20 Zeichen.
 
-## In-mbox-Profilattributwert
+## In-Mbox-Profilattributwert
 
 **Limit**: 256 Zeichen.
 
 Längere Werte werden abgeschnitten.
 
-## In-mbox-Profile in einer mbox-Anfrage
+## In-Mbox-Profile in einer Mbox-Anfrage
 
 **Limit**: 50 Profile.
 
 Alle Profile über 50 werden ignoriert.
 
-## In-mbox-Profilnamen
+## In-Mbox-Profilnamen
 
 **Limit**: 128 Zeichen.
 
@@ -92,20 +92,20 @@ Alle Profile über 50 werden ignoriert.
 
 **Limit**: Die folgenden Beschränkungen gelten für Mbox-Parameter:
 
-* mbox-Parameter: 500 Parameter pro mbox.
+* Mbox-Parameter: 500 Parameter pro Mbox.
 * Profilparameter: 500 Parameter.
 * Profilparameter pro Mbox:
 * Andere Parameter (URL, verweisende URL usw.): 50 Parameter pro Mbox für jeden Parametertyp.
 
-Für Parameter, die in der Target-Datenbank protokolliert werden, gelten die oben genannten Grenzwerte für Standard-mbox-Anfragen. Diese Beschränkungen gelten, sofern die Anfrage nicht durch Webbrowser-Beschränkungen gekürzt wird.
+Für Parameter, die in der Target-Datenbank protokolliert werden, gelten die oben genannten Grenzwerte für Standard-Mbox-Anfragen. Diese Beschränkungen gelten, sofern die Anfrage nicht durch Webbrowser-Beschränkungen gekürzt wird.
 
 Wenn Sie die [Batch-Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-batch-delivery) im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Wenn eine Anforderung mehr als diese Beschränkungen enthält, gibt die API die folgende Fehlermeldung zurück:„Die Anzahl der Mbox-Parameter darf 100 nicht überschreiten.“
 
-## Urls für mbox-Anfragen
+## URL-Adressen zur Mbox-Anfrage
 
 **Limit**: 2.083 Zeichen.
 
-Diese Beschränkung beruht auf Längenbeschränkungen für Microsoft Internet Explorer.
+Diese Beschränkung beruht auf URL-Längenbeschränkungen für Microsoft Internet Explorer.
 
 ## mbox3rdPartyId-Parameter
 
@@ -123,7 +123,7 @@ Diese Beschränkung beruht auf Längenbeschränkungen für Microsoft Internet Ex
 * 64 KB für visuelle Angebote aus der Benutzeroberfläche.
 * 512 KB aus der API.
 
-Wenn Sie eine globale Mbox verwenden, gilt die Beschränkung für den gesamten Satz an Inhalten, die für die Seite zurückgegeben werden. Die Beschränkung der Angebotsseite optimiert die Seitenladezeit. Wenn der Grenzwert überschritten wird, wird folgende Meldung angezeigt:
+Bei der Verwendung einer globalen Mbox gilt die Beschränkung für den kompletten Satz an zurückgegebenen Inhalten für die Seite. Die Beschränkung der Angebotsseite optimiert die Seitenladezeit. Wenn der Grenzwert überschritten wird, wird folgende Meldung angezeigt:
 
 „Der Inhalt für das Erlebnis ist für die Bereitstellung zu groß. Ändern Sie das Erlebnis, damit weniger Seiten-Code betroffen ist.“
 
@@ -131,19 +131,19 @@ Wenn Sie eine globale Mbox verwenden, gilt die Beschränkung für den gesamten S
 
 **Limit**: 120 Zeichen.
 
-Empfohlene Beschränkung. 
+Empfohlene Beschränkung.
 
 ## orderTotal-Parameter
 
 **Limit**: 120 Zeichen.
 
-Empfohlene Beschränkung. 
+Empfohlene Beschränkung.
 
 ## productPurchasedId-Parameter
 
-**Limit**: 47 Zeichen pro kommagetrennten Wert.
+**Limit**: 47 Zeichen pro kommagetrenntem Wert.
 
-Alles mehr wird durch das System abgeschnitten.
+Eine längere Zeichenfolge wird vom System begrenzt.
 
 ## Wiederverwendbare Zielgruppen/Konto
 
@@ -151,7 +151,7 @@ Alles mehr wird durch das System abgeschnitten.
 
 Empfohlene Beschränkung. Wenn Sie zu viele haben, wird es auf der Oberfläche zu JavaScript-Timeouts kommen.
 
-## Skript-Profileingabefeld in der Target-Benutzeroberfläche
+## Skriptprofil-Eingabefeld in der Target-Benutzeroberfläche
 
 **Limit**: 2.000 Zeichen.
 
@@ -169,7 +169,7 @@ Aus Leistungsgründen empfehlen wir einen Rückgabewert, der nicht länger als 2
 
 Wenn für einen String-Rückgabewert die Größe des Rückgabewerts 2.048 Zeichen überschreitet, wird das Skript vom System deaktiviert.
 
-Wenn für einen Array-Rückgabewert die Größe der verketteten Werte des Arrays 2.048 Zeichen überschreitet, wird das Skript vom System deaktiviert.
+Wenn für einen Array-Rückgabewert die Größe der verketteten Werte des Arrays größer als 2.048 Zeichen ist, wird das Skript vom System deaktiviert.
 
 ## Targeting-Bedingungen
 
