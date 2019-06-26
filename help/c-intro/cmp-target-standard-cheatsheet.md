@@ -8,7 +8,7 @@ title: Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,13 +37,13 @@ Testen Sie das [Target-Community-Forum](../cmp-resources-and-contact-information
 
 Weitere Details finden Sie in der [Unterstützte Browser](../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)-Matrix. Beachten Sie, dass es zwei Aspekte gibt: die Target Standard-/Premium Experience Cloud-Oberflächenunterstützung und die Endbenutzer-Browserunterstützung auf Desktop/Geräten.
 
-## JavaScript-Bibliotheken in Target (at.js und mbox.js)   {#section_C2AC78DFDAD84981A8C84DF20893E340}
+## JavaScript-Bibliotheken in Target (at.js und mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
 
 **Welche JavaScript-Implementierungsdatei sollte ich verwenden: at.js oder mbox.js?**
 
 at.js ist unsere neueste und tollste JavaScript-Bibliothek. mbox.js ist unsere ältere Version. Unter [Vorteile von at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) , um die Unterschiede zwischen den beiden Bibliotheken zu verstehen. Alle neuen Kunden sollten at.js verwenden.
 
-Alle bestehenden mbox.js-Kunden sollten zu at.js migrieren. Erfahren Sie mehr über die in   [Migration von mbox.js zu at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) Enthaltenen Schritte, bevor Sie den Übergang vornehmen.
+Alle bestehenden mbox.js-Kunden sollten zu at.js migrieren. Erfahren Sie mehr über die in [Migration von mbox.js zu at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) Enthaltenen Schritte, bevor Sie den Übergang vornehmen.
 
 ## Aktivitäten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -133,7 +133,7 @@ Verwenden Sie die in Schritt 3 des aus drei Teilen bestehenden geführten Target
 
 Es gibt einige Optionen:
 
-* [JavaScript-Bibliotheken in Target (at.js und mbox.js)  ](../c-intro/cmp-target-standard-cheatsheet.md#section_C2AC78DFDAD84981A8C84DF20893E340)
+* [JavaScript-Bibliotheken in Target (at.js und mbox.js) ](../c-intro/cmp-target-standard-cheatsheet.md#section_C2AC78DFDAD84981A8C84DF20893E340)
 * Standard, mit drei Ebenen (Niedrig/Medium/Hoch)
 * Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für „Benutzerdefiniert“ die Funktion für die präzise Prioritätensetzung (Setup &gt; Voreinstellungen).
 
@@ -190,7 +190,7 @@ Sehen Sie sich die [Vorlagenregeln](../c-experiences/c-visual-experience-compose
 
 Dies liegt am gemischten Inhalt Ihrer Site. Hierbei handelt es sich um eine Site, die HTTP- und HTTPS-Ressourcen abruft. Bitten Sie Ihr IT-Team, vollständig zu HTTPS zu wechseln.
 
-Bis dies der Fall ist, sollten Sie die unter   [Zulassen von gemischtem Inhalt in Ihrem Browser](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C), damit der Browser gemischte Inhalte laden kann. Dies ist eine Sicherheitsfunktion der meisten modernen Browser.
+Bis dies der Fall ist, sollten Sie die unter [Zulassen von gemischtem Inhalt in Ihrem Browser](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C), damit der Browser gemischte Inhalte laden kann. Dies ist eine Sicherheitsfunktion der meisten modernen Browser.
 
 **Kann ich Visual Experience Composer (VEC) auch dann auf meiner Site testen, wenn die at.js-Bibliothek von Target noch nicht bereitgestellt wurde?**
 
@@ -202,7 +202,7 @@ Konsultieren Sie die [Informationen zur Fehlerbehebung](../c-experiences/c-visua
 
 Wir haben auch [einen formularbasierten Ansatz](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), mit dem Sie freigeschaltet werden können.
 
-Lesen Sie zudem, wann und warum [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Sie müssen sich möglicherweise an Ihre IT-Abteilung wenden, um auch die   [Adobe-Proxyserver auf die Whitelist zu setzen](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Lesen Sie zudem, wann und warum [Enhanced Experience Composer](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Sie müssen sich möglicherweise an Ihre IT-Abteilung wenden, um auch die [Adobe-Proxyserver auf die Whitelist zu setzen](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 **Ich verfüge über eine responsive Site. Wie kann ich beim Erstellen einer Aktivität sichergehen, dass ich wichtige Geräte berücksichtige?**
 
@@ -330,11 +330,11 @@ Verwenden Sie die Optionen [„Berichte in CSV exportieren“ und „Auftragsdet
 
 Kann ich das Kontrollerlebnis für das Auswerten von Berichten oder die Zählmethodologie von „Besucher“ in „Besuche“ ändern?
 
-Verwenden Sie das   [Zahnrad „Einstellungen“ auf der Berichtsseite](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA), um diese Änderungen vorzunehmen. Lesen Sie mehr über diese Einstellungen, um nachzuvollziehen, wie die Berechnungen variieren.
+Verwenden Sie das [Zahnrad „Einstellungen“ auf der Berichtsseite](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA), um diese Änderungen vorzunehmen. Lesen Sie mehr über diese Einstellungen, um nachzuvollziehen, wie die Berechnungen variieren.
 
 Wie sollte ich Berichte interpretieren?
 
-Wir haben versucht, mit Funktionen wie  [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Mitteln und mehr](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) Berichte so intuitiv wie möglich zu gestalten, um eine aussagekräftige und einfache Berichtsanalyse zu ermöglichen. Natürlich können Sie sich mit Analytics beschäftigen, wenn Sie [Analytics für Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)-Aktivitäten (A4T) für weitere Analysen von Zielgruppen verwenden.
+Wir haben versucht, mit Funktionen wie [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Mitteln und mehr](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) Berichte so intuitiv wie möglich zu gestalten, um eine aussagekräftige und einfache Berichtsanalyse zu ermöglichen. Natürlich können Sie sich mit Analytics beschäftigen, wenn Sie [Analytics für Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)-Aktivitäten (A4T) für weitere Analysen von Zielgruppen verwenden.
 
 ## Antwort-Token {#section_C2A7118B4B62482A9D630C2212112A3D}
 
