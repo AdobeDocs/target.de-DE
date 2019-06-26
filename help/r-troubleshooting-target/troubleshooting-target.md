@@ -8,7 +8,7 @@ title: Fehlerbehebung in Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -43,7 +43,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 * [Fehlerbehebung für Multivarianz-Tests](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [Schätzen des für einen erfolgreichen Test erforderlichen Traffics](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
-### Recommendations 
+### Recommendations
 
 * [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Häufig gestellte Fragen: Entwürfe](/help/c-recommendations/c-design-overview/template-faq.md)
