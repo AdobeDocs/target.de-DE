@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -33,7 +33,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    ![](assets/DB_NewRecAct.png)
 
-   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie diese Option aus. Siehe [Formularbasierter Erlebniseditor](https://marketing.adobe.com/resources/help/de_DE/target/target/t_form_experience_composer.html).
+   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie diese Option aus. Weitere Informationen finden Sie unter [ Form-Based Experience Compose](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
 
    Wenn Sie auf [!UICONTROL Weiter] klicken, wird Ihre Seite im VEC geöffnet. Sie können ein aktuelles Element durch Empfehlungen ersetzen oder Empfehlungen einfügen.
 
@@ -139,6 +139,6 @@ Haben Sie die Vorschau der Empfehlungen abgeschlossen, klicken Sie auf **[!UICON
 * Code für Ihre Entwürfe ansehen
 
 1. (Optional) Öffnen Sie die Seite [!UICONTROL Berichte], um den Bericht anzusehen, der die Leistung Ihrer [!DNL Recommendations]-Aktivität anzeigt.
-1. (Optional) Öffnen Sie die Seite [!UICONTROL Kollisionen], um jegliche[Aktivitätskollisionen](https://marketing.adobe.com/resources/help/de_DE/target/target/c_activity_collisions.html) anzuzeigen, die möglicherweise eintreten können.
+1. (Optional) Öffnen Sie die Seite [!UICONTROL Kollisionen], um eventuell auftretende [Aktivitäten-Kollisionen](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html) anzuzeigen.
 
    Kollisionen von Aktivitäten treten auf, wenn mehrere Aktivitäten Inhalte auf derselben Seite bereitstellen sollen. Dies kann zur Darstellung unerwarteter Inhalte führen.
