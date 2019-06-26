@@ -1,31 +1,31 @@
 ---
-description: 'Informationen zur Funktion adobe. target. getoffers (options) für at. js. '
+description: 'Informationen zur Funktion adobe.target.getOffers(options) für at.js. '
 keywords: adobe.target.notification;Element;Selektor;Benachrichtigung;Erweiterung
-seo-description: Informationen über die Funktion adobe. target. getoffers (options) für die javascript-Bibliothek von Adobe Target at. js.
-seo-title: Informationen über die Funktion adobe. target. getoffers (options) für die javascript-Bibliothek von Adobe Target at. js.
+seo-description: Informationen über die Funktion adobe.target.getOffers(options) für die JavaScript-Bibliothek von Adobe Target at.js.
+seo-title: Informationen über die Funktion adobe.target.getOffers(options) für die JavaScript-Bibliothek von Adobe Target at.js.
 solution: Target
 subtopic: Erste Schritte
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# adobe. target. getoffers (options) - at. js 2. x
+# adobe.target.getOffers(options) - at.js 2.x
 
 Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mboxes übergeben. Darüber hinaus können mehrere Angebote für alle Ansichten in aktiven Aktivitäten abgerufen werden.
 
 >[!NOTE]
 >
->Diese Funktion wurde mit at. js 2. x eingeführt. Diese Funktion steht für at. js Version 1 nicht zur Verfügung.*x*.
+>Diese Funktion wurde mit at.js 2.x eingeführt. Diese Funktion steht für at.js Version 1 nicht zur Verfügung.*x*.
 
 | Schlüssel | Typ | Erforderlich? | Beschreibung |
 | --- | --- | --- | --- |
 | consumerId | Zeichenfolge | Nein | Der Standardwert ist die globale Mbox des Kunden, falls nicht angegeben. Dieser Schlüssel wird verwendet, um die ID für zusätzliche Daten zu generieren, die für die A4T-Integration verwendet wird. |
-| anfrage | Objekt | Ja | Siehe Anfragetabelle unten. |
-| timeout | Nummer | Nein | Zeitüberschreitung der Anfrage. Wenn nicht angegeben, wird die standardmäßige at.js-Zeitüberschreitung verwendet. |
+| Anfrage | Objekt | Ja | Siehe Anfragetabelle unten. |
+| Zeitüberschreitung | Nummer | Nein | Zeitüberschreitung der Anfrage. Wenn nicht angegeben, wird die standardmäßige at.js-Zeitüberschreitung verwendet. |
 
 ## Anfrage
 
@@ -35,7 +35,7 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 | Anfrage &gt; ID &gt; thirdPartyId | Nein | Maximale Größe = 128 |  |  |
 | Anforderung &gt; experiencecloud | Nein |  |  |
 | Anforderung &gt; experiencecloud &gt; Analyse | Nein |  | Integration von Adobe Analytics |
-| Anforderung &gt; experiencecloud &gt; Analytics &gt; Protokollierung | Nein | Folgendes muss auf der Seite implementiert werden:<ul><li>Besucher-ID-Service</li><li>Appmeasurement. js</li></ul> | Die folgenden Werte werden unterstützt:<br>**client_ side**: Wenn angegeben, wird eine Analytics-Nutzlast an den Aufrufer zurückgegeben, der über die Dateneinfüge-API an Adobe Analytics gesendet werden soll.<br>**server_ side**: Dies ist der Standardwert, mit dem der Target- und Analytics-Back-Backend die SDID zum Zusammenführen der Aufrufe für Berichterstellungszwecke verwendet. |
+| Anforderung &gt; experiencecloud &gt; Analytics &gt; Protokollierung | Nein | Folgendes muss auf der Seite implementiert werden:<ul><li>Besucher-ID-Service</li><li>Appmeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_ side**: Dies ist der Standardwert, mit dem der Target- und Analytics-Back-Backend die SDID zum Zusammenführen der Aufrufe für Berichterstellungszwecke verwendet. |
 | Anfrage &gt; Vorab abrufen | Nein |  |  |
 | Anfrage &gt; Vorab abrufen &gt; Ansichten | Nein | Maximale Anzahl = 50<br>Name nicht leer<br>Länge des Namens `<=` 128<br>Länge des Wertes `<=` 5.000<br>Name sollte nicht mit „Profil“ beginnen<br>Unzulässige Namen: „orderId“, „orderTotal“, „productPurchasedId“ | Parameter übergeben, die zum Aufrufen relevanter Ansichten in aktiven Aktivitäten verwendet werden können. |
 | Anfrage &gt; Vorab abrufen &gt; Ansichten &gt; profileParameters | Nein | Maximale Anzahl = 50<br>Name nicht leer<br>Länge des Namens `<=` 128<br>Länge des Wertes `<=` 5.000<br>Name sollte nicht mit „Profil“ beginnen | Profilparameter übergeben, die zum Aufrufen relevanter Ansichten in aktiven Aktivitäten verwendet werden können. |
@@ -181,13 +181,13 @@ adobe.target.getOffers({
 }
 ```
 
-Die Nutzlast kann dann über die [Dateneinfüge-API an Adobe Analytics weitergeleitet](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)werden.
+The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-## Daten aus mehreren mboxes über getoffers () und applyoffer () abrufen und rendern () {#multiple}
+## Daten aus mehreren Mboxes über getOffers() und applyOffers() abrufen und rendern {#multiple}
 
-Mit at. js 2. x können Sie mehrere mboxes über die `getOffers()` API abrufen. Sie können auch Daten für mehrere mboxes abrufen und dann zum `applyOffers()` Rendern der Daten an verschiedenen Positionen verwenden, die durch einen CSS-Selektor identifiziert werden.
+Mit at.js 2.x können Sie mehrere Mboxes über die `getOffers()`-API abrufen. Sie können auch Daten für mehrere Mboxes abrufen und dann `applyOffers()` zum Rendern der Daten an verschiedenen Positionen verwenden, die durch einen CSS-Selektor identifiziert werden.
 
-Das folgende Beispiel zeigt eine einfache HTML-Seite mit &quot;at. js 2. x&quot; implementiert:
+Das folgende Beispiel zeigt eine einfache HTML-Seite, auf der at.js 2.x implementiert ist:
 
 ```
 <!DOCTYPE html>
@@ -207,9 +207,9 @@ Das folgende Beispiel zeigt eine einfache HTML-Seite mit &quot;at. js 2. x&quot;
 </html>
 ```
 
-Angenommen, Sie haben drei Behälter, die Sie über Inhalt ändern möchten, der empfangen [!DNL Target]wurde. Sie können eine einzelne Anforderung für drei mboxes erstellen, in der jede mbox Inhalt in den entsprechenden Behälter wiedergibt.
+Angenommen, Sie haben drei Behälter, die Sie über einen Inhalt ändern möchten, der von [!DNL Target] empfangen wurde. Sie können eine einzelne Anfrage für drei Mboxes erstellen, in der jede Mbox Inhalt in den entsprechenden Behälter rendert.
 
-Die Anforderung und der Rendercode könnten wie folgt aussehen:
+Die Anfrage und der Rendercode könnten wie folgt aussehen:
 
 ```
 adobe.target.getOffers({
@@ -252,12 +252,12 @@ adobe.target.getOffers({
 });
 ```
 
-Im `request > prefetch > mboxes` Abschnitt gibt es drei verschiedene mboxes. Wenn die Anforderung erfolgreich abgeschlossen wurde, erhalten Sie die Antwort für jede mbox aus `response > prefetch > mboxes`. Nachdem Sie über die Antworten und die Speicherorte für die Wiedergabe verfügen, können Sie aufrufen `applyOffers()` , um den von [!DNL Target]Ihnen abgerufenen Inhalt wiederzugeben. In diesem Beispiel haben wir die folgende Zuordnung:
+Im Abschnitt `request > prefetch > mboxes` gibt es drei verschiedene Mboxes. Wenn die Anfrage erfolgreich abgeschlossen wurde, erhalten Sie die Antwort für jede Mbox aus `response > prefetch > mboxes`. Nachdem Sie über die Antworten und die Speicherorte für die Wiedergabe verfügen, können Sie `applyOffers()` aufrufen, um den von Ihnen von [!DNL Target] abgerufenen Inhalt wiederzugeben. In diesem Beispiel haben wir die folgende Zuordnung:
 
-* mbox 1 &gt; CSS selector # container 1
-* mbox 2 &gt; CSS selector # container 2
-* mbox 3 &gt; CSS selector # container 3
+* Mbox 1 &gt; CSS selector # container 1
+* Mbox 2 &gt; CSS selector # container 2
+* Mbox 3 &gt; CSS selector # container 3
 
-In diesem Beispiel werden die CSS-Selektoren mit der Variablen count erstellt. In einem realen Szenario könnten Sie zwischen dem CSS-Selektor und der mbox eine andere Zuordnung verwenden.
+In diesem Beispiel werden die CSS-Selektoren mit einer Zähl-Variablen erstellt. In einem realen Szenario könnten Sie zwischen dem CSS-Selektor und der Mbox eine andere Zuordnung verwenden.
 
-Beachten Sie, dass dieses Beispiel verwendet wird `prefetch > mboxes`, Sie können aber auch verwenden `execute > mboxes`. Stellen Sie sicher, dass Sie bei `getOffers()`Verwendung von Vorausholen auch vorab im `applyOffers()` Aufruf verwenden sollten.
+Beachten Sie, dass dieses Beispiel `prefetch > mboxes` verwendet, Sie könnten aber auch `execute > mboxes` verwenden. Stellen Sie sicher, dass Sie bei Verwendung von Vorausholen (prefetch) in `getOffers()` auch beim Aufruf von `applyOffers()` Vorausholen verwenden sollten.
