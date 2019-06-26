@@ -8,7 +8,7 @@ title: Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -40,7 +40,7 @@ Die folgende Illustration zeigt die Informationen zu den Steigerungsgrenzen und 
 
 ![Bericht zu durchschnittlichen Steigerungs- und Konfidenzstufen](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-## Wie werden Steigerungsgrenzen berechnet?   {#section_1D360781D972483693680BE0F07AEAD1}
+## Wie werden Steigerungsgrenzen berechnet? {#section_1D360781D972483693680BE0F07AEAD1}
 
 Die Steigerungsgrenzen stellen 95-%-Konfidenzintervalle der Steigerung dar, die das spezifische Erlebnis oder Angebot gegenüber dem Kontrollerlebnis oder -angebot aufweist. Grob gesagt weist die tatsächliche Steigerung eine etwa 95%ige Chance auf, sich zwischen diesen Steigerungen zu befinden.
 
