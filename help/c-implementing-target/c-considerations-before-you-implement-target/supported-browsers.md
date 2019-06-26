@@ -9,7 +9,7 @@ title: Unterstützte Browser
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ Die [!DNL [!DNL Target]]-Standard/Premium]-Benutzeroberfläche unterstützt folg
 | Windows | <ul><li>Microsoft Edge</li><li>Google Chrome (neueste Version, neueste Version minus 1)</li><li>Mozilla Firefox (neueste Version, neueste Version minus 1)</li></ul> |
 | Mac | <ul><li>Firefox (neueste Version, neueste Version minus 1)</li><li>Chrome (neueste Version, neueste Version minus 1)</li></ul> |
 
-## Bereitstellung von Inhalten {#section_1045A946056441268D40025529918D3D}
+## Content delivery {#section_1045A946056441268D40025529918D3D}
 
 Die Inhaltsbereitstellung wurde für folgende Browser und Geräte getestet:
 
