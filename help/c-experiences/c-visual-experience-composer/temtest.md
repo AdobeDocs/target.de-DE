@@ -7,8 +7,8 @@ solution: Target
 title: Gleiches Erlebnis auf ähnlichen Seiten
 topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -85,4 +85,4 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
 * Erlebnisse für responsive Websites ansehen und erstellen
 * Überlagerungen zum Hervorheben von Elementtypen nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/17401?captions=ger)
