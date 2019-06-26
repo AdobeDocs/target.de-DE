@@ -8,7 +8,7 @@ title: Aktivitäten
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -70,7 +70,7 @@ Die folgenden Aktionen sind verfügbar (je nach Ihren Berechtigungen):
 | Aktivieren | Eine inaktive oder bereite Aktion starten. |
 | Archivieren | Die Aktivitätenliste an das Archiv senden. Archivierte Aktivitäten werden standardmäßig nicht mehr in der Aktivitätenliste aufgeführt. Ändern Sie den Filter für die Aktivitätenliste, damit auch archivierte Aktivitäten angezeigt werden. Sie können eine archivierte Aktivität wieder aktivieren, um sie erneut zu verwenden.<br>Wenn Sie eine Aktivität deaktivieren oder archivieren und später erneut aktivieren, gehören die Besucher, die vor der Deaktivierung oder Archivierung Teil der Aktivität waren, nach der erneuten Aktivierung weiterhin zur Aktivität. Alle zwischen den beiden Ereignissen aufgezeichneten Konversionsmetriken werden nicht auf die Aktivität angerechnet. |
 | Kopieren | Eine Aktivität kopieren. Jede Aktivität kann kopiert werden. Beim Kopieren einer Aktivität wird eine neue Aktivität mit dem gleichen Namen und dem Appendix „Copy“ erstellt. Beispielsweise wird ein Test mit der Bezeichnung „Browser Offers“ in „Browser Offers Copy“ umbenannt.<br>Visuelle Angebote werden mit der Aktivität kopiert. Sie können die Angebote in der Kopie sicher bearbeiten, ohne dass sich dies auf die ursprüngliche Aktivität auswirkt. Die einzige Ausnahme sind gespeicherte Angebote und Bilder im Inhalts-/Assets-Ordner. |
-| Löschen | Entwurf oder Aktivität löschen.<BR>**HINWEIS**: Gelöschte Aktivitäten können nicht wiederhergestellt werden. Wenn Sie nicht sicher sind, dass Sie diese Aktivität noch nie benötigen, verwenden Sie die [!UICONTROL Aktion &quot;Archivieren] &quot; . Sie können die Aktivität dann bei Bedarf erneut aktivieren. |
+| Löschen | Entwurf oder Aktivität löschen.<BR>**HINWEIS**: Gelöschte Aktivitäten können nicht wiederhergestellt werden. Unless you are absolutely sure that you&#39;ll never need this activity again, use the [!UICONTROL Archive] action. Sie können die Aktivität dann bei Bedarf erneut aktivieren. |
 
 Beachten Sie folgende Details zur Aktivitätenliste:
 
