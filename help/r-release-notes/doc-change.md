@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -21,6 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+|  | [Bekannte Probleme und gelöste issueserwartete](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[Datenabweichungen zwischen Target und Analytics bei Verwendung und nicht Verwendung von A 4 tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[-Angeboten-A 4 T-FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Es wurden Informationen zu bekannten Problemen hinzugefügt, die eine begrenzte Anzahl von Kunden mit Umleitungen mit A 4 T verursacht haben, um einen höheren Prozentsatz an nicht zugewiesenen Trefferraten zu sehen. |
 | 26. Juni 2019 | [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
 |  | [Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
 |  | [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
