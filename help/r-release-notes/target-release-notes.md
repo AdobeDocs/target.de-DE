@@ -1,5 +1,5 @@
 ---
-description: Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen, Fehlerbehebungen und bekannten Problemen für die neuesten oder kommenden Target-Versionen.
+description: Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen, Fehlerbehebungen und bekannten Problemen für die neuesten oder kommenden Adobe Target-Versionen.
 keywords: Versionshinweise
 seo-description: Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen, Fehlerbehebungen und bekannten Problemen für die neuesten oder kommenden Adobe Target-Versionen
 seo-title: Versionshinweise zu Adobe Target (Vorabversion)
@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 
 ---
 
