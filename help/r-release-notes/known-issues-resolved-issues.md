@@ -2,13 +2,13 @@
 description: Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
 keywords: bekannte Probleme; gelöste Probleme; Versionshinweise
 seo-description: Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
-seo-title: Bekannte Probleme und gelöste Probleme
+seo-title: Bekannte Probleme und gelöste Probleme in Adobe Target
 solution: Target
 title: Bekannte Probleme und gelöste Probleme
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -24,6 +24,14 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 ## Bekannte Probleme {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Die folgenden Abschnitte führen zu bekannten Problemen zu [!DNL Target]:
+
+### Umleitungsangebote {#redirect}
+
+Die folgenden Probleme bei Umleitungsangeboten sind bekannt:
+
+* Unter bestimmten Bedingungen hat eine begrenzte Anzahl von Kunden einen höheren Grad an Varianz in der Traffic-Verteilung gemeldet, wenn ein Umleitungsangebot in Aktivitäten verwendet wird, die mit Analytics for Target konfiguriert wurden (A 4 T). Adobe-Techniker arbeiten derzeit an diesem Problem.
+* Eine Wettlaufsituation auf Ihrer Seite kann dazu führen, dass Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt werden. Für die Implementierung von at. js sind Updates geplant, um sicherzustellen, dass diese Race-Bedingung vermieden werden kann. Weitere Informationen zu Problemen und Problemumgehung finden Sie unter [Umleitungsangebote - A4T FAQ](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
 
 ### Diagramm für eine automatische Targeting-Aktivität kann nicht gerendert werden, wenn ein benutzerdefiniertes Erlebnis als Kontrolle verwendet wird.
 
@@ -92,13 +100,6 @@ Bekannte Probleme mit at.js:
 Die mbox.js-Bibliothek unterstützt keine clientseitigen Vorlagensprachen wie Handlebars und Mustache. Diese Sprachen *werden* von der Bibliothek at.js unterstützt.
 
 **Hinweis**: Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
-
-### Umleitungsangebote
-
-Die folgenden Probleme bei Umleitungsangeboten sind bekannt:
-
-* Eine Wettlaufsituation auf Ihrer Seite kann dazu führen, dass Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt werden. Im zweiten Quartal 2018 sind Aktualisierungen der Implementierung von at.js geplant, um sicherzustellen, dass solche Wettlaufsituationen vermieden werden. Weitere Informationen zu Problemen und Problemumgehung finden Sie unter [Umleitungsangebote - A4T FAQ](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
-* Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
 
 ### Implementierung: Globale Mbox automatisch erstellen
 
