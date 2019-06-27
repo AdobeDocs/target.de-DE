@@ -8,7 +8,7 @@ title: Umleitungsangebote – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -20,6 +20,10 @@ Dieses Thema enthält Antworten auf häufig zum Einsatz von Umleitungsangeboten 
 ## Unterstützt Analytics for Target (A4T) Umleitungsangebote? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Ja – vorausgesetzt, Ihre Implementierung verwendet [!DNL at.js]. Ihre Implementierung muss jedoch die unten aufgeführten Mindestanforderungen erfüllen, um [Weiterleitungsangebote](../../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in Aktivitäten zu verwenden, die Analytics als Berichtsquelle verwenden.
+
+>[!NOTE]
+>
+>Ein bekanntes Problem wird ausgeblendet, das eine begrenzte Anzahl von Kunden mit Umleitungen mit A 4 T verursacht, um einen höheren Prozentsatz an nicht zugewiesenen Trefferraten zu sehen. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Was sind die erforderlichen Mindestanforderungen, um Umleitungsangebote in A4T nutzen zu können? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
