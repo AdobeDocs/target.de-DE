@@ -8,7 +8,7 @@ title: Erwartete Datenabweichungen bei Nichtverwendung von A4T
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -28,6 +28,10 @@ Im Folgenden finden Sie einige Szenarien, in denen möglicherweise Datenabweichu
    Wenn in Target ein Umleitungstest eingerichtet ist, um den Traffic 50/50 (oder 25/25/25/25 usw.) aufzuteilen, wird das Benutzerverhalten möglicherweise nicht gleichmäßig aufgeteilt. Wenn Sie eine ungleichmäßige Aufteilung sehen, bedeutet dies einfach, dass eine Benutzergruppe einen Analytics-Aufruf auf der Einstiegsseite nicht häufiger als die andere(n) ausführt. Durch dieses Fehlschlagen des Analytics-Aufrufs für eine Gruppe wurde der Treffer von Target für diesen Benutzer ausgeschlossen, sodass die Unstimmigkeiten entstanden.
 
    Dies ist etwas, das wir zukünftig behandeln sollten, wenn wir für A4T auf der Adobe Experience Platform arbeiten. Unsere Teams arbeiten daran, wie diese verschiedenen Ereignisse, die zu unterschiedlichen Zeiten auf der Seite vorkommen, am besten zu verarbeiten sind.
+
+   >[!NOTE]
+   >
+   >Ein bekanntes Problem wird ausgeblendet, das eine begrenzte Anzahl von Kunden mit Umleitungen mit A 4 T verursacht, um einen höheren Prozentsatz an nicht zugewiesenen Trefferraten zu sehen. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 * Angenommen, Sie erstellen eine Aktivität des Typs „Automatische Zuordnung“ für alle Besucher einer bestimmten Seite. Da Aktivitäten des Typs „Automatische Zuordnung“ A4T nicht unterstützen, werden alle Aktivitätsdaten von [!DNL Target] erfasst. Möglicherweise erwarten Sie, dass die Besucher der Aktivität in der [!DNL Target] Berichterstellung den Besuchern auf der Seite in der [!DNL Analytics] Berichterstellung für den gleichen Datumsbereich entsprechen. Dies ist ein Szenario, in dem die unten beschriebene Abweichung erwartet wird.
 
