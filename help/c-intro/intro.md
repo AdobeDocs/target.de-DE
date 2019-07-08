@@ -8,7 +8,7 @@ title: Einführung in Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 
-In den folgenden Videos wird grob erläutert, wie Sie Target gemeinsam mit anderen Adobe Experience Cloud-Lösungen beim Erreichen Ihrer Unternehmensziele unterstützen kann:
+Die folgenden Videos bieten ein Grundverständnis darüber, wie Target zusammen mit anderen Adobe Experience Cloud-Lösungen Ihre Organisation bei der Erreichung ihrer Ziele unterstützen kann:
 
 >[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
 
