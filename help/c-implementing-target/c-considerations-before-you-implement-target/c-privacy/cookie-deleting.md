@@ -7,7 +7,7 @@ title: Löschen des Target-Cookies
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -24,10 +24,10 @@ Wenn es kein Cookie gibt, gelten Sie als neuer Besucher und es wird Ihnen ein ne
 1. Öffnen Sie die Registerkarte „Allgemein“, und klicken Sie im Abschnitt [!UICONTROL Browserverlauf] auf **[!UICONTROL Einstellungen]** &gt; **[!UICONTROL Dateien anzeigen]**.
 1. Wählen Sie den Mbox-Cookie aus.
 1. Wählen Sie aus dem Menü „Datei“ die Option **[!UICONTROL Löschen]** oder wählen Sie eine Datei und drücken Sie die **[!UICONTROL Entfernen-Taste]**.
-   **So löschen Sie das Cookie in Mozilla Firefox:**
+
+**So löschen Sie das Cookie in Mozilla Firefox:**
 
 1. Wählen Sie **Extras** &gt; **Einstellungen** &gt; **Datenschutz** aus.
-
 1. Klicken Sie auf **Cookies anzeigen**.
 1. Sortieren Sie die Cookies nach Namen, um die Target-Cookies zu suchen.
 1. Wählen Sie die Cookies für die Websites aus, für die Sie eine Vorschau anzeigen, und klicken Sie auf **Cookie entfernen**.
