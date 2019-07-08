@@ -7,7 +7,7 @@ title: Glossar
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -29,6 +29,10 @@ Dashboard, das eine schnelle Übersicht der Aktivitäten anzeigt.
 **Aktivitäten**
 
 Ermöglicht es Ihnen, Seitenentwürfe zu testen und Inhalte auf bestimmte Zielgruppen auszurichten.
+
+**Aktivitätsänderungsprotokoll**
+
+Ein Datensatz zu den Personen, die Ihre Aktivitäten geändert haben, und zum Zeitpunkt der Änderungen.
 
 **Aktivitätskollision**
 
@@ -72,15 +76,11 @@ Testen und verfolgen Besuche von Anzeigen und anderen Offsite-Inhalten. Darüber
 
 **Kampagne**
 
-Testet unterschiedliche Erlebnisse, um herauszufinden, welches am erfolgreichsten sein wird.
-
-**Kampagnen-Änderungsprotokoll**
-
-Datensatz zu den Personen, die Ihre Kampagnen geändert haben, sowie zum Zeitpunkt dieser Änderungen.
+Gleich wie &quot;Aktivität&quot;
 
 **Ergebniserfassung**
 
-Mit diesem Interaktionstyp wird ein kumuliertes Ergebnis auf Grundlage des den auf der Site besuchten Seiten zugewiesenen Wertes ab dem Zeitpunkt errechnet, zu dem der Besucher die Anzeige-Mbox der Kampagne zum ersten Mal anzeigt.
+Eine Einsatzmetrik, die ein kumuliertes Ergebnis basierend auf dem den auf der Site besuchten Seiten zugewiesenen Wert ab dem Zeitpunkt errechnet, zu dem der Besucher die Anzeige-mbox der Aktivität zuerst anzeigt.
 
 **Katalog**
 
@@ -104,7 +104,7 @@ Text oder Bild, der/das eine Testvariation an einem Ort darstellt. Bei einem Mul
 
 **Konversions-Mbox**
 
-Protokolliert Test- und Kampagnenergebnisse wie Registrierungen, Bestellungen oder Verkäufe. Normalerweise zeigt eine Konversions-Mbox nichts an, sondern zeichnet nur auf. Übliche Stellen für die Konversions-Mbox sind die Registrierungsseite, eine Danke-Seite für die Bestellung oder eine Clickthrough-Seite. Es können auch globale Mboxes für die Berechnung von Konversionsmetriken verwendet werden.
+Protokolliert Test- oder Aktivitätsergebnisse wie Registrierungen, Bestellungen oder Verkäufe. Normalerweise zeigt eine Konversions-Mbox nichts an, sondern zeichnet nur auf. Übliche Stellen für die Konversions-Mbox sind die Registrierungsseite, eine Danke-Seite für die Bestellung oder eine Clickthrough-Seite. Es können auch globale Mboxes für die Berechnung von Konversionsmetriken verwendet werden.
 
 **Kriterien**
 
@@ -124,21 +124,17 @@ Zeigt an, ob der Besucher die Anforderungen des Tests nicht erfüllt oder ob Sta
 
 Vorlagenaktiviertes HTML, das Ihre empfohlenen Artikel auf der Webseite anzeigt. Ein Entwurf definiert das Erscheinungsbild der Empfehlungen in einer Recommendations-Aktivität.
 
-**Display-Anzeigenkampagne**
-
-Eignet sich für Offsite-Flash-Anzeigen-Tests.
-
 **Dauer**
 
 Die Zeitdauer, während der eine Aktivität ausgeführt wird, von Startdatum und -zeit bis zu Enddatum und -zeit.
 
 **Dynamischer Inhalt**
 
-Kann Teil jeder Art von Test oder Kampagne sein. Es ist keine zusätzliche Programmierung erforderlich. Die Benutzersitzung in Ihrer Domäne wird beibehalten.
+Kann Teil jeder Art von Test oder Aktivität sein. Es ist keine zusätzliche Programmierung erforderlich. Die Benutzersitzung in Ihrer Domäne wird beibehalten.
 
 **Dynamische mbox**
 
-Ermöglicht RIAs (Rich Internet Applications) das Manipulieren von HTML nach Laden der Seite durch den Einsatz von Technologien wie DHTML und AJAX.
+Ermöglicht rias (Rich Internet Applications), HTML nach dem Laden der Seite zu manipulieren, indem Technologien wie DHTML und AJAX verwendet werden.
 
 **Dynamisches Angebot**
 
@@ -148,7 +144,7 @@ Auf dynamischen Seiten können Werte an dynamische Angebote übergeben werden.
 
 **engagement**
 
-Messung des Besucherinteresses an einer Site, gemessen anhand von Besuchszeit pro Site, Klicks, Konversionen und anderen Interaktionsmetriken.
+Messung des Besucherinteresses an einer Site, gemessen nach Besuchszeit pro Site, Klicks, Konversionen und anderen Interaktionsmetriken.
 
 **Enhanced Experience Composer**
 
@@ -184,19 +180,11 @@ Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basie
 
 Bietet Methoden zur Ergänzung Ihrer Empfehlungen durch Produkt- oder Inhaltsinformationen.
 
-**Flash-Kampagne**
-
-Eignet sich für Onsite-Flash-Tests.
-
-**Flashbox**
-
-Gibt Inhaltselemente für eine Flash-Datei aus.
-
 **Flussdiagramm**
 
 Die visuelle Darstellung einer Aktivität in Target Standard.
 
-**Form-Based Experience Composer
+**Formularbasierter Experience Composer**
 
 Ein nicht visuelles Erlebnis und eine Oberfläche zur Angebotserstellung, die beim Erstellen von Erlebnissen für die Verwendung in A/B-Tests, Erlebnis-Targeting, automatisierten Personalisierung und Recommendations-Aktivitäten nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder praktikabel ist. Beispielsweise können Sie den formularbasierten Composer verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachbereitstellungen zu erstellen.
 
@@ -204,7 +192,7 @@ Ein nicht visuelles Erlebnis und eine Oberfläche zur Angebotserstellung, die be
 
 **Geo-Positionsparameter**
 
-Ermöglicht das Targeting der Kampagnen und Erlebnisse anhand der geografischen Daten der Besucher. Auch als Geotargeting-Parameter bezeichnet.
+Ermöglicht es Ihnen, Aktivitäten und Erlebnisse basierend auf der geografischen Region Ihrer Besucher auszurichten. Auch als Geotargeting-Parameter bezeichnet.
 
 **Ziel**
 
@@ -228,9 +216,9 @@ Besucherspezifischer Parameter, der von der Mbox an das Besucher-Cookie übergeb
 
 ## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
-**Landingpage-Kampagnen**
+**Einstiegsseitenaktivität**
 
-Die Landingpage-Kampagne ermöglicht Ihnen, für unterschiedliche Besuche unterschiedlichen Inhalt auf der Landingpage anzuzeigen. Sonst zeigt die Landingpage bei jedem Besuch immer denselben Inhalt an. Bei einer Landingpage-Kampagne werden verschiedene Versionen der Seite miteinander verglichen, damit Sie sehen können, welche Version bessere Ergebnisse erzielt. Wird in Target Standard durch *Erlebnis-Targeting* ersetzt.
+Mit einer Einstiegsseitenaktivität können Sie mit Targeting verschiedene Inhalte der Einstiegsseite für unterschiedliche Besuche anzeigen. Sonst zeigt die Landingpage bei jedem Besuch immer denselben Inhalt an. Eine Einstiegsseitenaktivität vergleicht verschiedene Versionen der Seite, mit denen Sie sehen können, welche Version der Einstiegsseite erfolgreichere Ergebnisse erzielt. Wird in Target Standard durch *Erlebnis-Targeting* ersetzt.
 
 **Ort**
 
@@ -240,7 +228,7 @@ Ein spezifischer Inhaltsbereich auf einer Seite, der oftmals in einem einzelnen 
 
 **mbox**
 
-„Marketing-Box“, der Bereich auf Ihrer Webseite, in dem Inhalt angezeigt wird und das Besucherverhalten aufgezeichnet wird. Es gibt auch Mboxes, die gar nichts anzeigen. Sie könnten beispielsweise den Fortschritt eines Besuchers auf der Site verfolgen. Oder sie könnten nachverfolgen, ob der Besucher eine bestimmte Erfolgsmetrik erfüllt, z. B. einen Artikel zum Warenkorb hinzufügt oder einen Kauf abschließt. Diese Art von Mbox ist eine *Konversions-Mbox*.
+&quot; Marketing Box&quot; , der Ort auf Ihrer Webseite, auf dem Inhalt angezeigt wird, und das Besucherverhalten aufgezeichnet wird. Es gibt auch Mboxes, die gar nichts anzeigen. Sie könnten beispielsweise den Fortschritt eines Besuchers auf der Site verfolgen. Oder sie könnten nachverfolgen, ob der Besucher eine bestimmte Erfolgsmetrik erfüllt, z. B. einen Artikel zum Warenkorb hinzufügt oder einen Kauf abschließt. Diese Art von Mbox ist eine *Konversions-Mbox*.
 
 **mbox.js**
 
@@ -248,11 +236,7 @@ Vor Version 16.3.1 benötigte [!DNL Target] einen Aufruf an [!DNL mbox.js], um 
 
 **Parameter „mbox“**
 
-Wird über die Seite weitergegeben, nicht über die URL. Die Parameter sind für jeden Besucher eindeutig und werden verwendet, um Daten von der Datenbank weiterzugeben, Vertriebsdaten nachzuhalten und um Adobe Recommendations auszuführen. Auch als Seitenparameter bezeichnet.
-
-**Überwachungskampagne**
-
-Verfolgt die Leistung nach Konversion, Erfolgsmetrik oder Segment zeitabhängig und unabhängig von sonstigen Prüfungen und Kampagnen.
+Wird über die Seite weitergegeben, nicht über die URL. Parameter werden verwendet, um Daten aus Ihrer Datenbank weiterzugeben und Vertriebsdaten zu verfolgen oder Adobe Recommendations auszuführen. Auch als Seitenparameter bezeichnet.
 
 **Multivariater Test**
 
@@ -266,21 +250,17 @@ Ein Aktivitätsfeld, in das Sie eine Beschreibung dessen eingeben, was Sie mithi
 
 **Angebot**
 
-Bei einem Angebot handelt es sich um die Inhalte, die in Kampagnen und Tests in einer Mbox angezeigt werden. Ein Erlebnis bestimmt, welches Angebot angezeigt wird, wenn bestimmte Bedingungen zutreffen.
+Ein Angebot ist der Inhalt, der während Aktivitäten und Tests innerhalb einer mbox angezeigt wird. Ein Erlebnis bestimmt, welches Angebot angezeigt wird, wenn bestimmte Bedingungen zutreffen.
 
 **Ausschluss-Link**
 
-Ermöglicht Besuchern, die Zählung und die Inhaltsbereitstellung auszuschließen.
-
-**Optimierungskampagne**
-
-Stellt sicher, dass die effektivsten Erlebnisse häufiger angezeigt werden, indem der Traffic automatisch zu den Segmenten mit der besten Performance geleitet wird.
+Ermöglicht Besuchern, die Verfolgung und Inhaltsbereitstellung auszuschließen.
 
 ## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **Seitenzahl**
 
-Mit diesem Interaktionstyp wird die Anzahl der bei einem Besuch angezeigten Seiten gemessen, nachdem der Besucher die erste Anzeige-Mbox der Kampagne gesehen hat.
+Eine Einsatzmetrik, die die Anzahl der bei einem Besuch angezeigten Seiten ab dem Zeitpunkt misst, an dem der Besucher die Anzeige-mbox der Aktivität anzeigt.
 
 **Priorität**
 
@@ -298,7 +278,7 @@ Leitet einen Besucher an eine andere Webseite weiter. Verwenden Sie die Weiterle
 
 **Verweisender URL-Parameter**
 
-Gibt Werte an die Mbox der Zielseite als verweisende URL-Parameter und -Werte weiter. Mit diesen Parametern kann z. B. auf die Quelle des Besuchers abgezielt werden.
+Gibt Werte an die Mbox der Zielseite als verweisende URL-Parameter und -Werte weiter. Verwenden Sie diese zum Beispiel als Ziel des Besucherursprungs.
 
 **Rolle**
 
@@ -310,17 +290,17 @@ Verwenden Sie Remote-Angebote dazu, außerhalb von [!DNL Target] [!DNL Target] I
 
 **Berichte**
 
-Berichte enthalten Informationen über den Fortschritt und die Ergebnisse Ihrer Aktivitäten, die Ihnen bei der Entscheidungsfindung auf Grundlage Ihrer Daten helfen. Mit Berichtsdaten können Sie entscheiden, wann ein Test beendet werden soll, Sie sehen, welches Erlebnis ein Gewinner ist, und Einblicke oder Lernmöglichkeiten bereitstellen, um die nächsten Aktionen zu bestimmen.
+Berichte enthalten Informationen über den Fortschritt und die Ergebnisse Ihrer Aktivitäten, die Ihnen bei der Entscheidungsfindung auf Grundlage Ihrer Daten helfen. Berichtsdaten können Ihnen bei der Entscheidung helfen, wann ein Test beendet werden soll, welches Erlebnis oder Angebot der Gewinner ist, und Einblicke bereitstellen, um die nächsten Aktionen zu bestimmen.
 
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
 **Skript-Profilparameter**
 
-Ähnlich wie Mbox-interne Profilparameter, aber mit JavaScript direkt in Target definiert statt im Seiten-Code.
+Ähnlich wie In-mbox-Profilparameter, aber mit javascript definiert, die im Backend von Target ausgeführt wird, anstatt im Browser.
 
 **Segment**
 
-Bestimmte Kriterien zum Targeting einer Kampagne. Nur Besucher, die den Kriterien entsprechen, sehen den Inhalt einer Kampagne, die auf dieses Segment abzielt. Einige Segmente können in mehreren Kampagnen verwendet werden, andere gelten speziell für eine Kampagne.
+Ein spezifizierter Satz von Kriterien, die zum Targeting einer Aktivität verwendet werden. Nur Besucher, die den Kriterien entsprechen, sehen den Inhalt einer Aktivität, die auf dieses Segment abzielt. Einige Segmente können für mehrere Aktivitäten wiederverwendet werden und andere sind spezifisch für eine Aktivität.
 
 **Segmentfilter**
 
@@ -328,7 +308,7 @@ Ein Berichtsfilter zur Anzeige von Berichten, die sich auf ein bestimmtes Segmen
 
 **Einseitige Anwendung**
 
-Eine einseitige Anwendung (SPA) ist eine Webanwendung oder Website, die auf einer einzelnen Webseite bereitgestellt werden kann, um dem Benutzer ähnlich einer Desktop-Anwendungen ein nahtloses Erlebnis zu bieten.
+Eine Einzelseitenanwendung (SPA) ist eine Webanwendung oder Website, die auf eine einzelne Webseite passt, um eine flüssigere Benutzererfahrung ähnlich einer Desktopanwendung zu bieten.
 
 **Smart-Targeter-Profilparameter**
 
@@ -336,33 +316,33 @@ Wie Skript-Profilparameter, sind jedoch vordefiniert und bieten nützliche Targe
 
 **Erfolgsmetriken**
 
-Die Parameter, die zur Messung des Erfolgs einer Aktivität verwendet werden. Erfolgsmetriken beinhalten wichtige Geschäftsmaßnahmen, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können. Sie können beispielsweise bestimmen, ob ein neues Angebot Ihren Umsatz pro Besucher steigern oder einen Artikel zu einem Warenkorb hinzufügt. Erfolgsmetriken können hilfreich sein, um Probleme mit Registrierung, Sortierung oder Kauftrichter zu ermitteln, aber auch einfach mit Besucherbindung oder Kundenbindung.
+Die Parameter, die zur Messung des Erfolgs einer Aktivität verwendet werden. Erfolgsmetriken beinhalten wichtige Geschäftsmaßnahmen, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können. Sie können beispielsweise bestimmen, ob ein neues Angebot oder ein Artikel zu einem Einkaufswagen Ihren Umsatz pro Besucher steigern kann. Erfolgsmetriken können hilfreich sein, um Probleme mit Registrierung, Sortierung oder Kauftrichter zu ermitteln, aber auch einfach mit Besucherbindung oder Kundenbindung.
 
 ## T {#section_1841144841AF41169AF1E83B90C18292}
 
 **Test**
 
-Eine Kampagne, die Erlebnisse mit den von Ihnen definierten Erfolgsmetriken vergleicht. Danach können Sie das Erlebnis auswählen, das am ehesten die von Ihnen gewünschten Ergebnisse liefern wird.
+Eine Aktivität, die zwei oder mehr Erlebnisse mit den von Ihnen angegebenen Erfolgsmetriken vergleicht, sodass Sie das Erlebnis auswählen können, das am ehesten die gewünschten Ergebnisse liefert.
 
 **Besuchszeit pro Site**
 
-Dieser Interaktionstyp entspricht der während des Besuchs verbrachten Zeit (in Sekunden) ab der Anzeige der ersten Anzeige-Mbox bis zum Laden der letzten Seite während der Sitzung mit einer mbox.
+Ein Interaktionstyp, der die während des Besuchs verbrachte Zeit (in Sekunden) angibt, an der der Besucher die erste Anzeige-mbox der Aktivität bis zum Laden der letzten Seite einer Sitzung mit einer mbox ansieht.
 
 ## U {#section_6407B81326FF43049D92265746E6C402}
 
 **URL-Parameter**
 
-Immer, wenn die Seite mit der Mbox von einem Besucher angezeigt wird, werden alle Variablen der Verweisseite und der Seiten-URL automatisch an die Mbox weitergegeben. Diese URL-Variablen sind dann für die Verwendung durch das Anzeige-Targeting oder die Segmentfilter in Berichten verfügbar.
+Immer, wenn die Seite mit der Mbox von einem Besucher angezeigt wird, werden alle Variablen der Verweisseite und der Seiten-URL automatisch an die Mbox weitergegeben. Diese URL-Variablen sind dann für die Verwendung durch Display-Targeting oder Segmentfilter in Berichten verfügbar.
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
 **Besucher**
 
-Ein Besucher ist eine Person, die auf Ihre Site zugreift. Ein Besucher wird mit Blick auf Aktivitätskriterien bewertet, um zu ermitteln, ob der Besucher in die Aktivität einbezogen wird. Siehe *Teilnehmer*.
+Ein Besucher ist eine Person, die auf Ihre Site zugreift. Ein Besucher wird anhand von Aktivitätskriterien ausgewertet, um zu bestimmen, ob der Besucher in eine Aktivität einbezogen wird. Siehe *Teilnehmer*.
 
 **Visual Experience Composer**
 
-In Target Standard eine WYSIWYG-Benutzeroberfläche, mit der Sie personalisierte Erlebnisse und Angebote im Site-Kontext mühelos erstellen und testen können. Sie können Erlebnisse und Angebote für Target-Aktivitäten erstellen, indem Sie das Layout und den Inhalt einer Webseite (oder eines Angebots) oder einer mobilen Webseite per Drag &amp; Drop austauschen und austauschen.
+In Target Standard eine WYSIWYG-Benutzeroberfläche, mit der Sie personalisierte Erlebnisse und Angebote im Site-Kontext mühelos erstellen und testen können. Sie können Erlebnisse und Angebote für Target-Aktivitäten erstellen, indem Sie Drag &amp; Drop, Austauschen und Ändern des Layouts und Inhalts einer Webseite (oder eines Angebots) durchführen.
 
 ## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
