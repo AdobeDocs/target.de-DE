@@ -1,13 +1,13 @@
 ---
-description: Begriffsdefinitionen.
+description: Definitionen der in Adobe Target verwendeten Begriffe.
 seo-description: Begriffsdefinitionen.
-seo-title: Glossar
+seo-title: Adobe Target-Glossar
 solution: Target
 title: Glossar
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -228,7 +228,7 @@ Ein spezifischer Inhaltsbereich auf einer Seite, der oftmals in einem einzelnen 
 
 **mbox**
 
-&quot; Marketing Box&quot; , der Ort auf Ihrer Webseite, auf dem Inhalt angezeigt wird, und das Besucherverhalten aufgezeichnet wird. Es gibt auch Mboxes, die gar nichts anzeigen. Sie könnten beispielsweise den Fortschritt eines Besuchers auf der Site verfolgen. Oder sie könnten nachverfolgen, ob der Besucher eine bestimmte Erfolgsmetrik erfüllt, z. B. einen Artikel zum Warenkorb hinzufügt oder einen Kauf abschließt. Diese Art von Mbox ist eine *Konversions-Mbox*.
+„Marketing-Box“, der Bereich auf Ihrer Webseite, in dem Inhalt angezeigt wird und das Besucherverhalten aufgezeichnet wird. Es gibt auch Mboxes, die gar nichts anzeigen. Sie könnten beispielsweise den Fortschritt eines Besuchers auf der Site verfolgen. Oder sie könnten nachverfolgen, ob der Besucher eine bestimmte Erfolgsmetrik erfüllt, z. B. einen Artikel zum Warenkorb hinzufügt oder einen Kauf abschließt. Diese Art von Mbox ist eine *Konversions-Mbox*.
 
 **mbox.js**
 
@@ -309,10 +309,6 @@ Ein Berichtsfilter zur Anzeige von Berichten, die sich auf ein bestimmtes Segmen
 **Einseitige Anwendung**
 
 Eine Einzelseitenanwendung (SPA) ist eine Webanwendung oder Website, die auf eine einzelne Webseite passt, um eine flüssigere Benutzererfahrung ähnlich einer Desktopanwendung zu bieten.
-
-**Smart-Targeter-Profilparameter**
-
-Wie Skript-Profilparameter, sind jedoch vordefiniert und bieten nützliche Targeting-Funktionen.
 
 **Erfolgsmetriken**
 
