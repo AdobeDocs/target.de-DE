@@ -9,7 +9,7 @@ title: Wichtige Target-Konzepte
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -98,11 +98,11 @@ So können Sie beispielsweise eine Aktivität auf eine Zielgruppe ausrichten, di
 
 Sie können auch eine Aktivität auf Besucher aus einer bestimmten geografischen Region oder auf Personen, die über eine bestimmte Suchmaschine auf Ihre Seite zugreifen, ausrichten.
 
-Zielgruppen können zur Wiederverwendung in verschiedenen Aktivitäten gespeichert oder für eine spezifische Kampagne erstellt werden.
+Zielgruppen können für die Wiederverwendung in mehreren Aktivitäten gespeichert werden oder für eine bestimmte Aktivität erstellt werden.
 
 | Zielgruppentyp | Beschreibung |
 |--- |--- |
-| Wiederverwendbare Zielgruppen | Wiederverwendbare Zielgruppen können für beliebige Tests ausgewählt werden. Wird eine dieser Zielgruppen verändert, so wird sie für alle Aktivitäten verändert, die diese Zielgruppe verwenden. |
+| Wiederverwendbare Zielgruppen | Wiederverwendbare Zielgruppen können für jede Aktivität ausgewählt werden. Wird eine dieser Zielgruppen verändert, so wird sie für alle Aktivitäten verändert, die diese Zielgruppe verwenden. |
 | Benutzerdefinierte Segmente | Benutzerdefinierte Segmente (auch kampagnenspezifische Segmente) sind spezifisch für eine Kampagne in Target Classic. Sie werden als Teil der Kampagne erstellt und können nicht in anderen Kampagnen wiederverwendet werden. |
 | Freigegebene Zielgruppen | Zielgruppen können über [!DNL Adobe Experience Cloud]-Lösungen hinweg freigegeben werden. Beispiele finden Sie unter [Experience Cloud-Zielgruppen](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html). |
 
