@@ -8,7 +8,7 @@ title: Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
 
 ---
 
@@ -81,7 +81,7 @@ Beachten Sie, dass sich die Traffic-Anforderung infolge von MVT-Aktivitäten erh
 
 **Kann ich Angebote an unterschiedlichen Positionen (beispielsweise der Checkout-Trichter) anwenden?**
 
-Probieren Sie die [Funktion „Mehrseitige Aktivität“](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) aus, mit der Sie mehrere Seiten in den Erlebnissen erstellen können.
+Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
 
 **Wie kann ich sicherstellen, dass einem Benutzer, nachdem ein (primäres oder sekundäres) Ziel erreicht wurde, die Aktivität niemals erneut angezeigt wird und er stattdessen künftig eine andere Aktivität sieht?**
 
@@ -89,9 +89,9 @@ Mithilfe der für jedes Ziel verfügbaren Option [Erweiterte Einstellungen](../c
 
 In diesem Fall wählen Sie möglicherweise „Anzahl erhöhen, Benutzer freigeben und an Wiedereintritt hindern“ zusammen mit „Standard-/Sonstiger Aktivitätsinhalt“ aus, um das Ziel zu erreichen. Überprüfen Sie auch die anderen Optionen.
 
-**Ich habe mehrere Ziele in meiner Aktivität erstellt. Kann ich eine Kette an Zielen als einen Trichter für Berichterstellungs- und Analysezwecke erstellen?
+**Ich habe mehrere Ziele in meiner Aktivität erstellt. Kann ich eine Kette an Zielen als einen Trichter für Berichterstellungs- und Analysezwecke erstellen?**
 
-Ich möchte beispielsweise Ziel B berücksichtigen, wenn der Benutzer Ziel A erreicht hat, damit ich die Zahlen für einen bestimmten Trichter nachverfolgen kann.**
+**Ich möchte beispielsweise Ziel B berücksichtigen, wenn der Benutzer Ziel A erreicht hat, damit ich die Zahlen für einen bestimmten Trichter nachverfolgen kann.**
 
 Mit der Funktion für die Metrikabhängigkeit verfügt Target über eine zuverlässige Möglichkeit, um dies zu erreichen. [Fügen Sie einfach Abhängigkeiten und andere Erfolgsmetriken hinzu](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Ihnen stehen Optionen wie „Erreicht“ und „Nicht erreicht“ zusammen mit der Fähigkeit zur Verfügung, Metriken auf mehrere Weisen zu kombinieren, um die gewünschte Kombination zu erstellen.
 
@@ -107,7 +107,7 @@ Dies wird durch die Einstellung „Primärziel“ in Schritt 3 des aus drei Teil
 
 Im Schritt [Planungsfunktion in den Zielen und Einstellungen](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) des aus drei Teilen bestehenden Aktivitäts-Workflows können Sie die Start- und Enddatumswerte angeben.
 
-Denken Sie daran, die Kampagne zu aktivieren. Nur Live-Kampagnen halten den angegebenen Zeitplan ein. Nachdem das Enddatum erreicht wurde, geht die Aktivität in den Zustand „Beendet“ über.
+Denken Sie daran, die Aktivität zu aktivieren. Nur Live-Aktivitäten berücksichtigen den angegebenen Zeitplan. Nachdem das Enddatum erreicht wurde, geht die Aktivität in den Zustand „Beendet“ über.
 
 **Ist es möglich, nur Änderungen am Targeting-Schritt vorzunehmen, ohne den gesamten, aus drei Schritten bestehenden geführten Workflow für die Bearbeitung zu durchlaufen?**
 
@@ -131,24 +131,12 @@ Nutzen Sie die Leistungsfähigkeit [formularbasierter Aktivitäten](../c-experie
 
 Verwenden Sie die in Schritt 3 des aus drei Teilen bestehenden geführten Target-Workflows (Seite „Ziele und Einstellungen“) verfügbare Einstellung „Priorität“ zum [Definieren der Aktivitätspriorität](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
-Es gibt einige Optionen:
-
-* [JavaScript-Bibliotheken in Target (at.js und mbox.js) ](../c-intro/cmp-target-standard-cheatsheet.md#section_C2AC78DFDAD84981A8C84DF20893E340)
-* Standard, mit drei Ebenen (Niedrig/Medium/Hoch)
-* Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für „Benutzerdefiniert“ die Funktion für die präzise Prioritätensetzung (Setup &gt; Voreinstellungen).
-
-## Zielgruppen{#section_FA6314777ABC46D8B198D6F388051460}
-
-**Ich habe zwei Aktivitäten eingerichtet. Welche wird einem Besucher angezeigt?**
-
-**Kann ich die Prioritätsreihenfolge von ein paar Aktivitäten festlegen?**
-
-Verwenden Sie die in Schritt 3 des aus drei Teilen bestehenden geführten Target-Workflows (Seite „Ziele und Einstellungen“) verfügbare Einstellung „Priorität“ zum [Definieren der Aktivitätspriorität](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
-
 Hierzu gibt es zwei Optionen:
 
 * Standard, mit drei Ebenen (Niedrig/Medium/Hoch)
 * Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für „Benutzerdefiniert“ die Funktion für die präzise Prioritätensetzung (Setup &gt; Voreinstellungen).
+
+## Zielgruppen{#section_FA6314777ABC46D8B198D6F388051460}
 
 **Kann ich ein Zielgruppensegment in einer Aktivität erstellen, die für die Aktivität spezifisch ist? Ich bin nicht der Ansicht, dass solch eine Zielgruppe in der Zielgruppenbibliothek erstellt werden sollte, da kein Wiederverwendungsfaktor vorhanden ist.**
 
@@ -246,21 +234,6 @@ Klicken Sie auf die Miniaturansicht vor dem Erlebnisnamen in Schritt 2 und Sie g
 
 Verwenden Sie den [formularbasierten Ansatz](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) zum Erstellen von Aktivitäten.
 
-**Kann ich eine Aktivität mit einer geringeren Anzahl an Besuchern starten?**
-
-Verwenden Sie die in [Schritt 2 des dreiteiligen Target-Arbeitsablaufs (Targeting-Seite)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) verfügbaren Steuerelemente zum Zuordnen des Prozentsatzes, um festzulegen, wie Sie die Aktivität einrichten möchten.
-
-**Ich habe zwei Aktivitäten eingerichtet. Welche wird einem Besucher angezeigt?**
-
-**Kann ich die Prioritätsreihenfolge von ein paar Aktivitäten festlegen?**
-
-Verwenden Sie die in Schritt 3 des aus drei Teilen bestehenden geführten Target-Workflows (Seite „Ziele und Einstellungen“) verfügbare Einstellung „Priorität“ zum [Definieren der Aktivitätspriorität](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
-
-Hierzu gibt es zwei Optionen:
-
-* Standard, mit drei Ebenen (Niedrig/Medium/Hoch)
-* Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für „Benutzerdefiniert“ die Funktion für die präzise Prioritätensetzung (Setup &gt; Voreinstellungen).
-
 **Kann ich sichergehen, dass einem Benutzer über allen seinen Geräten dasselbe Erlebnis auf konsistente Weise bereitgestellt wird?**
 
 Lesen Sie die Informationen zur [Gerätekooperation](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html), wodurch Sie mehrere Geräte eines Benutzers durch die Leistung einer Kooperation deterministisch und probabilistisch miteinander verknüpfen können.
@@ -283,7 +256,7 @@ Wir verfügen über eine [Weiterleitungs-URL](../c-experiences/c-manage-content/
 
 **Warum erfolgt im meiner Qualitätssicherung keine Inhaltsbereitstellung?**
 
-Es ist möglich, dass Ihre Site dynamische IDs, doppelte IDs oder dynamische Klassen für Elemente aufweist. Sie müssen die Voreinstellungsoptionen für die Site möglicherweise auf Kontoebene (oder auf Aktivitätsebene, wenn das Problem für eine Domäne oder Seite spezifisch ist) auswerten. Siehe „CSS-Selektoren“ in [CSS-Selektoren](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+Es ist möglich, dass Ihre Site dynamische IDs, doppelte IDs oder dynamische Klassen für Elemente aufweist. Sie müssen die Voreinstellungsoptionen für die Site möglicherweise auf Kontoebene (oder auf Aktivitätsebene, wenn das Problem für eine Domäne oder Seite spezifisch ist) auswerten. See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
 **Warum wird mir anstelle des gewünschten Angebots/Erlebnisses eine andere Aktivität angezeigt?**
 
@@ -295,7 +268,7 @@ Nutzen Sie die Leistungsfähigkeit [formularbasierter Aktivitäten](../c-experie
 
 ## Berichte (einschließlich Analytics for Target (A4T)){#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-Ich verfüge auch über Adobe Analytics und möchte es mit Target nutzen. Welche wichtigen Funktionalitäten erhalte ich durch das Integrieren der zwei Lösungen?
+**Ich verfüge auch über Adobe Analytics und möchte es mit Target nutzen. Welche wichtigen Funktionalitäten erhalte ich durch das Integrieren der zwei Lösungen?**
 
 Lesen Sie die folgenden Aspekte des Produkts:
 
@@ -306,33 +279,29 @@ Lesen Sie die folgenden Aspekte des Produkts:
 * [Zielgruppen](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 
-Kann ich die Slice-and-Dice-Funktionalität für die Berichte zu mehreren Benutzersegmenten verwenden?
+**Kann ich die Slice-and-Dice-Funktionalität für die Berichte zu mehreren Benutzersegmenten verwenden?**
 
 Hier kommt die auf der Seite „Ziele und Einstellungen“ in Schritt 3 des aus drei Teilen bestehenden geführten Aktivitäts-Workflows verfügbare Funktion [Zielgruppen für die Berichterstellung](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) ins Spiel.
 
-Sie können bis zu 50 solcher Segmente und auch den Anwendungspunkt (Kampagneneintrag oder eine spezifische Metrik) hinzufügen, um über eine aussagekräftige Slice-and-Dice-Funktionalität zu verfügen.
+Sie haben die Möglichkeit, 50 solche Segmente und den Anwendungspunkt (Aktivitätseingabe oder spezifische Metrik) hinzuzufügen, um eine leistungsstarke Möglichkeit zu haben, ein Slice und eine Würfel zu erstellen.
 
 Beachten Sie, dass Target die Daten diesbezüglich sammelt, sobald Sie diese Zielgruppen hinzufügen. Wenn Sie die Segmente also vor dem Ausführen des Tests nicht hinzufügen, haben Sie Pech.
 
-Ich kann die Zielgruppen vor dem Ausführen der Aktivität nicht definieren. Meines Erachtens sind Berichtszielgruppen in Target-Aktivitäten restriktiv.
+**Ich kann die Zielgruppen vor dem Ausführen der Aktivität nicht definieren. Meines Erachtens sind Berichtszielgruppen in Target-Aktivitäten restriktiv.**
 
-Wie kann ich diesen Prozess vereinfachen?
+**Wie kann ich diesen Prozess vereinfachen?**
 
-Hierfür eignet sich das praktische [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE). Wenn Sie über Adobe Analytics verfügen, können Sie einfach Analytics als Quelle auswählen, wodurch diese Einschränkung beseitigt wird. Nun können Sie jederzeit an jedem beliebigen Punkt Analysen für beliebige Zielgruppen durchführen und müssen die Berichtszielgruppen nicht vorab definieren.
+This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. Wenn Sie über Adobe Analytics verfügen, können Sie einfach Analytics als Quelle auswählen, wodurch diese Einschränkung beseitigt wird. Nun können Sie jederzeit an jedem beliebigen Punkt Analysen für beliebige Zielgruppen durchführen und müssen die Berichtszielgruppen nicht vorab definieren.
 
-Kann ich Berichte bereinigen und mit dem künftigen Aufzeichnen von Daten beginnen? Beispielsweise wurden initiale Treffer aufgrund meiner eigenen Testtreffer für die Aktivität aufgezeichnet.
+**Kann ich Offline-Berichtsberechnungen durchführen?**
 
-Verwenden Sie die Funktion    [Berichtsdaten zurücksetzen](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA).
+Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
 
-Kann ich Offline-Berichtsberechnungen durchführen?
-
-Verwenden Sie die Optionen [„Berichte in CSV exportieren“ und „Auftragsdetails als CSV exportieren“](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) auf der Seite „Berichte“ zum Herunterladen der gewünschten Berichtsdaten.
-
-Kann ich das Kontrollerlebnis für das Auswerten von Berichten oder die Zählmethodologie von „Besucher“ in „Besuche“ ändern?
+**Kann ich das Kontrollerlebnis für das Auswerten von Berichten oder die Zählmethodologie von „Besucher“ in „Besuche“ ändern?**
 
 Verwenden Sie das [Zahnrad „Einstellungen“ auf der Berichtsseite](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA), um diese Änderungen vorzunehmen. Lesen Sie mehr über diese Einstellungen, um nachzuvollziehen, wie die Berechnungen variieren.
 
-Wie sollte ich Berichte interpretieren?
+**Wie sollte ich Berichte interpretieren?**
 
 Wir haben versucht, mit Funktionen wie [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Mitteln und mehr](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) Berichte so intuitiv wie möglich zu gestalten, um eine aussagekräftige und einfache Berichtsanalyse zu ermöglichen. Natürlich können Sie sich mit Analytics beschäftigen, wenn Sie [Analytics für Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)-Aktivitäten (A4T) für weitere Analysen von Zielgruppen verwenden.
 
