@@ -8,7 +8,7 @@ title: Beschränkungen
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8038b4758e9ce72ff8e43e7427c273aeed734288
 
 ---
 
@@ -17,9 +17,19 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
 
-Bei den unten aufgeführten Beschränkungen handelt es sich um empfohlene Beschränkungen. Wenn diese Beschränkungen erreicht oder überschritten werden, kann sich die Performance verlangsamen. Langsame Ladezeiten der Oberfläche können ebenfalls durch eine sehr komplexe Aktivität bedingt sein, die viele Zielgruppen, Ziele und Erlebnisse enthält.
+>[!NOTE]
+>
+>Die unten aufgeführten Beschränkungen sollten als &quot;harte&quot; Beschränkungen gelten, sofern nicht als&quot; empfohlen&quot; angegeben.
+>
+>Wenn die als &quot;empfohlen&quot; festgelegten Beschränkungen erreicht oder überschritten werden, kann sich die Leistung verlangsamen. Langsame Ladezeiten der Oberfläche können ebenfalls durch eine sehr komplexe Aktivität bedingt sein, die viele Zielgruppen, Ziele und Erlebnisse enthält.
+>
+>Hochkomplexe Aktivitäten sollten mit Adobe Consulting geprüft und in einer eingeschränkten Umgebung getestet werden, bevor sie zur Produktion freigegeben werden.
 
-Hochkomplexe Aktivitäten sollten mit Adobe Consulting geprüft und in einer eingeschränkten Umgebung getestet werden, bevor sie zur Produktion freigegeben werden.
+## Aktivitäten
+
+**Empfohlene Beschränkung**: 10.000 aktive Live-Aktivitäten.
+
+**Empfohlene Beschränkung**: 10.000 aktive (und nicht Beendigung) Aktiviten.
 
 ## Aktivitätsname
 
@@ -30,6 +40,10 @@ Hochkomplexe Aktivitäten sollten mit Adobe Consulting geprüft und in einer ein
 **Limit**: 256 Zeichen.
 
 Werte mit mehr als 256 Zeichen werden gekürzt.
+
+## Zielgruppen
+
+**Limit**: 50 Zielgruppen pro mbox, Metrik oder Erlebnis.
 
 ## categoryId-Parameter
 
@@ -50,7 +64,7 @@ Werte mit mehr als 256 Zeichen werden gekürzt.
 * 15.000 Zeichen (Einzelwert, ein- und Zweibyte-Sprachen)
 * 500 Werte, 100 Zeichen pro Wert (mehrere Werte)
 
-Die maximale Länge von benutzerdefinierten Attributen für Einzelwert-Entitäten beträgt 15.000 Zeichen (für 1- und 2-Byte-UTF-8-kodierte Sprachen wie Englisch und andere lateinische Skriptbuchstaben) oder 10.000 Zeichen (für 3-Byte-UTF-8-kodierte Sprachen wie Chinesisch, Japanisch und Koreanisch).
+Die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten beträgt 15.000 Zeichen (für One-Byte- und 2-Byte-UTF -8-kodierte Sprachen wie Englisch und andere lateinische Skriptbuchstaben) oder 10.000 Zeichen (für 3-Byte-UTF -8-kodierte Sprachen wie Chinesisch, Japanisch und Koreanisch).
 
 Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte enthalten. Jeder einzelne Wert ist auf 100 Zeichen begrenzt. Die Gesamtanzahl der Zeichen für alle Werte muss den Beschränkungen für die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten entsprechen (siehe oben).
 
@@ -67,6 +81,12 @@ Bei GET-Anforderungen beträgt der Grenzwert für das Back-End zwar 5 KB, aufgru
 ## Erlebnisnamen
 
 **Limit**: 20 Zeichen.
+
+## Erlebnisse pro Aktivität
+
+**Limit**: 2.000 Erlebnisse pro Erlebnis-Targeting (XT), A/B-Test, Multivarianz-Test (MVT) und automatisches Targeting von Targeting.
+
+30.000 Erlebnisse pro automatisierte Personalisierung (AP).
 
 ## In-Mbox-Profilattributwert
 
@@ -127,17 +147,17 @@ Bei der Verwendung einer globalen Mbox gilt die Beschränkung für den komplette
 
 „Der Inhalt für das Erlebnis ist für die Bereitstellung zu groß. Ändern Sie das Erlebnis, damit weniger Seiten-Code betroffen ist.“
 
+## Angebote
+
+**Empfohlene Beschränkung**: Insgesamt 50.000 Angebote.
+
 ## orderId-Parameter
 
-**Limit**: 120 Zeichen.
-
-Empfohlene Beschränkung.
+**Empfohlene Beschränkung**: 120 Zeichen.
 
 ## orderTotal-Parameter
 
-**Limit**: 120 Zeichen.
-
-Empfohlene Beschränkung.
+**Empfohlene Beschränkung**: 120 Zeichen.
 
 ## productPurchasedId-Parameter
 
@@ -145,17 +165,31 @@ Empfohlene Beschränkung.
 
 Eine längere Zeichenfolge wird vom System begrenzt.
 
+## Profilskripte
+
+**Empfohlene Beschränkung**: 300 aktive Profilskripte.
+
+**Empfohlene Beschränkung**: Maximal 500.000 maximale Anzahl an Schleifen pro Profilskript.
+
+## Eigenschaften
+
+**Empfohlene Beschränkung**: 5.000 Eigenschaften.
+
+## Berichterstellung/Segmente
+
+**Limit**: 50 Berichterstellungszielgruppen/Segmente pro Aktivität.
+
 ## Wiederverwendbare Zielgruppen/Konto
 
-**Limit**: 75 Zielgruppen.
+**Empfohlene Beschränkung**: 75 Zielgruppen.
 
-Empfohlene Beschränkung. Wenn Sie zu viele haben, wird es auf der Oberfläche zu JavaScript-Timeouts kommen.
+Wenn Sie zu viele haben, wird es auf der Oberfläche zu JavaScript-Timeouts kommen.
 
 ## Skriptprofil-Eingabefeld in der Target-Benutzeroberfläche
 
-**Limit**: 2.000 Zeichen.
+**Empfohlene Beschränkung**: 2.000 Zeichen.
 
-Empfohlene Beschränkung. Abhängig von der Größe der verschlüsselten Zeichenfolge, die viel länger als die Rohzeichenfolge sein kann. Wenn die Zeichenfolge zu groß ist, tritt ein Fehler auf, bevor die Zeichenfolge an Adobe Target weitergeleitet wird.
+Abhängig von der Größe der verschlüsselten Zeichenfolge, die viel länger als die Rohzeichenfolge sein kann. Wenn die Zeichenfolge zu groß ist, tritt ein Fehler auf, bevor die Zeichenfolge an Adobe Target weitergeleitet wird.
 
 ## Skript-Profilnamen
 
@@ -171,8 +205,20 @@ Wenn für einen String-Rückgabewert die Größe des Rückgabewerts 2.048 Zeiche
 
 Wenn für einen Array-Rückgabewert die Größe der verketteten Werte des Arrays größer als 2.048 Zeichen ist, wird das Skript vom System deaktiviert.
 
+## Erfolgsmetriken
+
+**Limit**: 200 pro Aktivität.
+
 ## Targeting-Bedingungen
 
-**Limit**: 1.000 Werte.
+**Empfohlene Beschränkung**: 1.000 Werte.
 
-Empfohlene Beschränkung. Dies bezieht sich auf die Anzahl der durch eine Zeile getrennten Werte im Targeting-Textbereich, z. B. die Eingabe von 1.000 Postleitzahlen in eine Postleitzahl-Zielgruppe.
+Dies bezieht sich auf die Anzahl der durch eine Zeile getrennten Werte im Targeting-Textbereich, z. B. die Eingabe von 1.000 Postleitzahlen in eine Postleitzahl-Zielgruppe.
+
+## Targeting-Regeln
+
+**Empfohlene Beschränkung**: 2.500 einzigartige Werte pro Targeting-Regel.
+
+**Empfohlene Beschränkung**: 30.000 einzigartige Werte pro Zielgruppe in Targeting-Regeln.
+
+**Empfohlene Beschränkung**: 100.000 einzigartige Targeting-Regelwerte pro Aktivität.
