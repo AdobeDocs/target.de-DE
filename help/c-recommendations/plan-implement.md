@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ---
 
@@ -31,7 +31,7 @@ Was Sie vor der Erstellung einer [!DNL Recommendations]-Aktivität wissen müsse
 | ![Schritt 2](/help/c-recommendations/assets/step2_red.png) | Schlüssel | Der Schlüssel legt den Produkttyp bzw. den Inhaltstyp fest, der in Ihren Empfehlungen angezeigt wird. Zum Beispiel kann der Schlüssel eine Produktkategorie sein. Siehe [Aufbauen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). |
 | ![Schritt 3](/help/c-recommendations/assets/step3_red.png) | Attribute | Attribute liefern spezifischere Informationen über die Produkte, die Sie anzeigen möchten. Beispielsweise könnte es sein, dass Sie Produkte in einem bestimmten Preisbereich oder Artikel, deren Bestand einen Schwellenwert erreicht, anzeigen möchten. Attribute können in einer Mbox oder durch einen [Feed](/help/c-recommendations/c-products/feeds.md)bereitgestellt werden.<br>Siehe [Einschlussregeln](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) und [Entitätsattribute](/help/c-recommendations/c-products/entity-attributes.md). |
 | ![Schritt 4](/help/c-recommendations/assets/step4_red.png) | Ausnahmen | Ausnahmen legen fest, welche spezifischen Artikel nicht in Ihren Empfehlungen angezeigt werden.<br>Siehe [Ausnahmen](/help/c-recommendations/c-products/exclusions.md). |
-| ![Schritt 5](/help/c-recommendations/assets/step5_red.png) | Kaufdetails | Kaufdetails enthalten nach Abschluss des Kaufs Informationen über die gekauften Artikel und die Bestellung. |
+| ![Schritt 5](/help/c-recommendations/assets/step5_red.png) | Kaufdetails | Kaufdetails enthalten Informationen über die gekauften Artikel und die Reihenfolge und die Bestellung nach Abschluss des Kaufs. |
 
 ## Basisimplementierung {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
 
@@ -44,7 +44,7 @@ Es gibt zwei Methoden für die Bereitstellung von Informationen über Produkte u
 | Methode | Beschreibung |
 |--- |--- |
 | Direkte Übermittlung von Parametern an die Seite | Diese Methode eignet sich gut für Elemente, die sich häufig ändern. Da hierfür jedoch die Vornahme von Änderungen direkt an der Seite notwendig ist, erfordert diese Methode in vielen Organisationen die Einbeziehung der IT-Abteilung und der Personen, die Seiten implementieren. |
-| Übermittlung von Parametern über einen Google- oder CSV-Feed | Diese Methode eignet sich gut für Sammlungen, die sich selten ändern. Normalerweise ist es nicht notwendig, Ihre Mbox-Implementierung oder Ihren Seiten-Code zu verändern, um Produktinformationen über einen Feed bereitzustellen. Die Produktliste bleibt jedoch statisch, sodass schnelle Änderungen mit größeren Schwierigkeiten verbunden sind. Weitere Informationen finden Sie unter [Feeds](/help/c-recommendations/c-products/feeds.md). |
+| Übermittlung von Parametern über einen Google- oder CSV-Feed | Diese Methode eignet sich gut für Sammlungen, die sich selten ändern. Normalerweise ist es nicht notwendig, Ihre Implementierung oder andere Seiten-Code zu ändern, um Produktinformationen über einen Feed bereitzustellen. Die Produktliste bleibt jedoch statisch, sodass schnelle Änderungen mit größeren Schwierigkeiten verbunden sind. Weitere Informationen finden Sie unter [Feeds](/help/c-recommendations/c-products/feeds.md). |
 
 Diese Methoden können separat oder gemeinsam wie in den folgenden Beispielen verwendet werden.
 
