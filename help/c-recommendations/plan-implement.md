@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
 
 ---
 
@@ -54,7 +54,7 @@ Eine übliche Implementierungsoption für [!DNL Recommendations] verwendet sowoh
 
 Diese Methode wird möglicherweise von Einzelhändlern bevorzugt, die über ein relativ stabiles Produktsortiment verfügen, jedoch auf bestimmte Saisonartikel oder reduzierte Artikel hinweisen möchten. Die meisten Kunden stellen ihre Informationen hauptsächlich über den Feed zur Verfügung und passen ihre Seite nur gelegentlich an.
 
-Verwenden Sie einen Feed für die Bereitstellung von statischen Informationen. Verwenden Sie folgende Parameter, unabhängig davon, ob es sich um eine CSV-Datei oder um einen Google-Feed handelt:
+Verwenden Sie einen Feed, um Informationen bereitzustellen, die sich häufig nicht ändern. Verwenden Sie folgende Parameter, unabhängig davon, ob es sich um eine CSV-Datei oder um einen Google-Feed handelt:
 
 * Erforderliche Parameter
 
@@ -62,12 +62,15 @@ Verwenden Sie einen Feed für die Bereitstellung von statischen Informationen. V
 
 * Nützliche Parameter
 
-   * `entity.cust1`
-   * `entity.cust2`
-   * `entity.cust3`
-   * Alle sonstigen Attribute
+   * `entity.name`
+   * `entity.categoryId`
+   * `entity.brand`
+   * `entity.pageUrl`
+   * `entity.thumbnailUrl`
+   * `entity.message`
+   * Alle benutzerdefinierten Attribute
 
-Sobald der Feed eingerichtet ist und an [!DNL Recommendations] übermittelt wird, übermitteln Sie Parameter zu häufig wechselnden Elementen an die Seite.
+Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
 
 * Erforderliche Parameter
 
@@ -156,8 +159,7 @@ Wahrscheinlich möchten Sie Ihre Empfehlungen auf der Kategorieseite auf Produkt
 function targetPageParams() { 
    return { 
       "entity": { 
-         "categoryId": " 
-<i>My Category</i>" 
+         "categoryId": "My Category" 
       } 
    } 
 }
@@ -171,10 +173,8 @@ Möglicherweise möchten Sie auf einer Produktseite spezifische Artikel oder Art
 function targetPageParams() { 
    return { 
       "entity": { 
-         "id": " 
-<i>32323</i>", 
-         "categoryId": " 
-<i>My Category</i>", 
+         "id": "32323", 
+         "categoryId": "My Category", 
          "value": 105.56, 
          "inventory": 329 
       } 
