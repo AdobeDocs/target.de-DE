@@ -8,7 +8,7 @@ title: Multivarianz-Test
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 ---
 
@@ -79,7 +79,7 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
    * Wählen Sie die Elemente, die Sie ändern möchten, sowie die Anzahl der Versionen der einzelnen Elemente aus (3x2, 4x3 usw.).
    * Seien Sie bei der Nummerierung konsequent. Wenn die Schaltfläche beispielsweise Element 1 ist und die Optionen blau, grün und gelb sind, ist die blaue Schaltfläche 1-1, die grüne Schaltfläche ist 1-2 und die gelbe Schaltfläche ist 1-3.
    * Die Offline-Tabelle bietet die angemessene Anzahl benötigter Erfahrungen (vier für 3x2, neun für 4x3 usw.).
-   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC) or Form-based Experience Composer](/help/c-experiences/experiences.md). Wenn Sie den VEC nutzen, können Sie benutzerdefinierten Code verwenden oder HTML, WYSIWYG oder eine andere Kombination bearbeiten können.
+   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). Sie können benutzerdefinierter Code verwenden, HTML, WYSIWYG oder beliebige Kombinationen bearbeiten.
    * Führen Sie, nachdem die Aktivität beendet ist (basierend auf dem Stichprobengrößenrechner) Ergebnisse über die Tabelle aus, um die restlichen Details zu erhalten.
 
 Weitere Informationen und Best Practices finden Sie unter [Best Practices für Multivarianz-Tests](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
