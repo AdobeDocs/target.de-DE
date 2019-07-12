@@ -3,8 +3,8 @@ product: Target
 audience: Endbenutzer
 user-guide-title: Adobe Target-Hilfe
 user-guide-url: /content/help/de/target/using/target-home.html
-translation-type: ht
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+translation-type: tm+mt
+source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 
 ---
 
@@ -183,7 +183,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
          + [Ziele und Einstellungen](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Verwenden von Analytics-Daten](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Festlegen von Metriken](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [Verschiedene Erlebnisversionen in A/B-Tests](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Mehrere Erlebniszielgruppen in einem A/B-Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Automatisch zuweisen {#auto-allocate}
       + [Automatische Zuordnung](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Ermitteln eines Gewinners](c-activities/automated-traffic-allocation/determine-winner.md)
