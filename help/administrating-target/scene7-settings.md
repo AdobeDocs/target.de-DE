@@ -1,44 +1,44 @@
 ---
-description: Target Standard kann in Adobe Scene7 integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek zu ermöglichen.
-seo-description: Target Standard kann in Adobe Scene7 integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek zu ermöglichen.
-seo-title: Scene7-Einstellungen
+description: Target Standard kann in Adobe Dynamic Media Classic (früher Scene 7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek bereitzustellen.
+seo-description: Target Standard kann in Adobe Dynamic Media Classic (früher Scene 7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek bereitzustellen.
+seo-title: Integration von Dynamic Media Classic
 solution: Target
 subtopic: Erste Schritte
-title: Scene7-Einstellungen
+title: Integration von Dynamic Media Classic
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c6a59843c80017e6f072f65ffad822fe198ebb55
 
 ---
 
 
-# Scene7-Einstellungen{#scene-settings}
+# Dynamic Media Classic integration{#scene-settings}
 
-Target Standard kann in Adobe Scene7 integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek zu ermöglichen.
+Target Standard kann in Adobe Dynamic Media Classic (früher Scene 7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek bereitzustellen.
 
 >[!NOTE]
 >
->Die Integration von Target mit Scene7 ermöglicht die Bereitstellung von Assets (als Teil von Aktivitäten), die in den Asset-Ordner von Adobe Experience Cloud hochgeladen wurden. Diese Integration gibt jedoch keinen Zugriff auf alle Assets, die in Scene7 hochgeladen wurden, um sie in Target-Aktivitäten bereitzustellen.
+>Die Integration von Target mit Dynamic Media Classic ermöglicht die Bereitstellung von Assets (als Teil von Aktivitäten), die in den Adobe Experience Cloud-Asset-Ordner hochgeladen wurden. Diese Integration ermöglicht keinen Zugriff auf alle Assets, die in Dynamic Media Classic hochgeladen wurden, um die Bereitstellung in Target-Aktivitäten durchzuführen.
 
-Wenn Sie über ein Scene7-Konto verfügen, können Sie Ihre Scene7-Anmeldedaten angeben. Wenn Sie nicht über ein Scene7-Konto verfügen, sollten Sie sich an Ihren Adobe-Support-Mitarbeiter wenden, der diese Funktionalität mit einem kostenlosen Scene7-Konto konfigurieren kann, das für Ihr Target-Konto bestimmt ist. Dieses Konto kann für Zwecke verwendet werden, die sich ausschließlich auf Target beschränken. Dieser Service steht Kunden für Workflows zur Verfügung, die eine Bildtauschfunktionalität benötigen.
+Wenn Sie bereits über ein Konto für dynamische Medien verfügen, können Sie Ihre vorhandenen Anmeldedaten bereitstellen. Wenn Sie kein Konto haben, können Sie ein dynamisches Media Media Classic-Konto ohne zusätzliche Gebühren von Ihrem Adobe-Vertreter abfordern. Dieses Konto kann für Zwecke verwendet werden, die sich ausschließlich auf Target beschränken. Dieser Service steht Kunden für Workflows zur Verfügung, die eine Bildtauschfunktionalität benötigen.
 
 Wenn diese Einstellung nicht konfiguriert ist, steht die Angebotsoption „Bild austauschen“ im Workflow für die Erstellung der Aktivität nicht zur Verfügung. Nachdem diese Einstellung konfiguriert wurde, steht die Option zum Austauschen/Ändern von Bildangeboten in [Visual Experience Composer (VEC) und im formularbasierten Experience Composer](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) zur Verfügung. Anschließend können Sie die Bildangebote mit Bildern nutzen, die aus Adobe Experience Cloud für die Verwendung in Target-Aktivitäten hochgeladen wurden.
 
 Wenn Sie während der Aktivitätserstellung direkt in einem Angebot oder in benutzerspezifischem Code auf eine URL zu einem öffentlichen Bild verweisen möchten, sollten Sie das Bild auf Ihren eigenen Webservern bereitstellen und Ihre eigene URL im Code verwenden. Es gibt keine Möglichkeit, mithilfe von Adobe Target die veröffentlichte URL eines in Experience Cloud hochgeladenen Bilds abzurufen, um es direkt oder außerhalb der Targeting-Workflows zu verwenden. Diese Funktionalität ist entsprechend dem Vertrag nicht zulässig.
 
-Beachten Sie, dass sich die Speicher-URL und die endgültigen Scene7-Veröffentlichungs-URLs unterscheiden. Zudem dürfen KEINE Angebote über den Speicherlink der Bilder erstellt werden, da die Bereitstellung in solchen Fällen nicht funktioniert. Stattdessen muss die Bildangebotsfunktionalität verwendet werden. Erläuterungen dazu finden Sie in unserer Hilfedokumentation.
+Beachten Sie, dass die Speicher-URL und die endgültigen Veröffentlichungs-urls von Bildern von dynamischen Medien unterschiedlich sind und eine KEINE Angebote mithilfe des Speicherlinks von Bildern erstellt werden kann, wenn die Bereitstellung in diesen Fällen nicht funktioniert. Stattdessen muss die Bildangebotsfunktionalität verwendet werden. Erläuterungen dazu finden Sie in unserer Hilfedokumentation.
 
-Zur Integration in Scene7 müssen Sie einige Scene7-Informationen angeben.
+Zur Integration mit Dynamic Media Classic (Scene 7) müssen Sie einige der folgenden Informationen angeben.
 
 1. Klicken Sie auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Scene7-Einstellungen]**.
-1. Geben Sie folgende Scene7-Kontoinformationen an:
+1. Geben Sie die folgenden dynamischen Media Classic-Kontoinformationen an:
 
-   **Scene7-Region:** Die Region Ihres Scene7-Kontos: Nordamerika, Europa oder Asien.
+   **Region:** Die Region für Ihr dynamisches Medienkonto: Nordamerika, Europa oder Asien.
 
-   **Scene7-Adhoc-Ordner:** Der Ort für Inhalt, der außerhalb des Zielordners liegt und manuell in Scene7 hochgeladen wird.
+   **Adhoc-Ordner:** Der Speicherort für Inhalte, die sich außerhalb des Zielordners befinden und manuell in dynamische Medien hochgeladen werden.
 
-   **Scene7-E-Mail-Adresse:** Die für die Anmeldung bei Scene7 verwendete E-Mail-Adresse.
+   **E-Mail-Adresse:** Die E-Email-Adresse, die für die Anmeldung bei Dynamic Media Classic (Scene 7) verwendet wird.
 
-   **Scene7-Passwort:** Das für die Anmeldung bei Scene7 verwendete Passwort.
+   **Kennwort:** Das Kennwort für die Anmeldung bei Dynamic Media Classic (Scene 7).
 1. Klicken Sie auf **[!UICONTROL Senden]**.
