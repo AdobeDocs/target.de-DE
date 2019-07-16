@@ -1,8 +1,8 @@
 ---
 description: Fügen Sie Promotionsartikel hinzu und steuern Sie deren Platzierung in Ihren Recommendations-Designs. Sie können statische und dynamische Promotions hinzufügen.
 keywords: promotions; front promotions; back promotions; Promotions-Typ
-seo-description: Fügen Sie Promotionsartikel hinzu und steuern Sie deren Platzierung in Ihren Recommendations-Designs. Sie können statische und dynamische Promotions hinzufügen.
-seo-title: Hinzufügen von Promotions
+seo-description: Fügen Sie beworbene Artikel hinzu und steuern Sie ihre Platzierung in Ihren Adobe Target Recommendations-Entwürfen. Sie können statische und dynamische Promotions hinzufügen.
+seo-title: Fügen Sie Promotions in Adobe Target Recommendations-Entwürfen hinzu.
 solution: Target
 title: Hinzufügen von Promotions
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ---
 
@@ -35,9 +35,11 @@ Sie können einzelne Artikel bewerben, Artikel dynamisch bewerben, Artikel auf G
 >
 >Durch die Verwendung von Promotions ändert sich die CSV-Struktur und -Ausgabe. Diese Änderungen können sich auf externe Prozesse auswirken, bei denen CSV involviert ist, wie zum Beispiel E-Mail.
 
-1. Klicken Sie auf dem Bildschirm **[!UICONTROL Promotions hinzufügen]** entweder auf die Schaltfläche **[!UICONTROL Vorwärts-Promotion]** oder **[!UICONTROL Rückwärts-Promotion]**.
+1. On the **[!UICONTROL Options]** page, click the **[!UICONTROL Front Promotion]** or **[!UICONTROL Back Promotion]** toggle.
 
-   ![](assets/add_promotion_front.png)
+   The following illustration shows the [!UICONTROL Front Promotion] toggle in the &quot;On&quot; position.
+
+   ![Optionen für Vorwärts-Promotion hinzufügen](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
    Sie können Promotions sowohl vor *als auch* nach Ihren Kriterienergebnissen einfügen.
 1. Legen Sie die Anzahl der Design-Slots fest, die für beworbene Artikel verwendet werden sollen.
@@ -46,20 +48,20 @@ Sie können einzelne Artikel bewerben, Artikel dynamisch bewerben, Artikel auf G
 
 1. Legen Sie ein Start- und Enddatum für Ihre beworbenen Artikel fest.
 
-   Wenn Sie kein Startdatum festlegen, beginnt die Promotion sofort. Wenn Sie kein Enddatum festlegen, wird die Promotion auf unbestimmte Zeit laufen.
+   Wenn Sie kein Startdatum festlegen, beginnt die Promotion sofort. Wenn Sie kein Enddatum festlegen, wird die Promotion unbegrenzt lange ausgeführt.
 
 1. Wählen Sie einen **[!UICONTROL Promotion-Typ]** aus.
 
    * Wählen Sie **[!UICONTROL Liste der Artikel]** aus, und geben Sie die `entity.id`-Werte der einzelnen Artikel, die beworben werden sollen, durch Kommas getrennt ein.
-   Wenn Ihre Liste mehr Artikel enthält, als Slots für die Promotion festgelegt sind, können Sie das Kontrollkästchen [!UICONTROL Elementreihenfolge randomisieren] aktivieren, damit die Anzeige der beworbenen Artikel in Ihrem Design variiert wird. Dadurch wird die Anzahl der für Promotions aktivierten Elemente in der Vorlage aus dem gesamten Promotion-Satz für jeden Besuch zufällig ausgewählt.
+
+      Wenn Ihre Liste mehr Artikel enthält, als Slots für die Promotion festgelegt sind, können Sie das Kontrollkästchen **[!UICONTROL Elementreihenfolge randomisieren]aktivieren, damit die Anzeige der beworbenen Artikel in Ihrem Design variiert wird.** Wenn Sie diese Option auswählen, wählen Target zufällig die Anzahl der Elemente aus, die für Promotions in der Vorlage aus der gesamten Promotion für jeden Besuch aktiviert wurden.
 
    * Wählen Sie **[!UICONTROL Hervorheben nach Attribut]aus und fügen Sie Regeln hinzu, um die Attribute der Artikel zu definieren, die beworben werden sollen.**
-   Wenn Sie „Hervorheben nach Attribut“ auswählen, können Sie dynamische Übereinstimmungen erstellen. Weitere Informationen finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+
+      Wenn Sie „Hervorheben nach Attribut“ auswählen, können Sie dynamische Übereinstimmungen erstellen. Weitere Informationen finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
    * Wählen Sie **[!UICONTROL Sammlung hervorheben]** aus und wählen Sie eine Sammlung von Artikeln aus, die beworben werden soll. Sie können auch neue Sammlungen erstellen, die für Promotions verwendet werden sollen. Siehe [Erstellen einer Sammlung](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) für weitere Informationen.
 
-
-
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Promotions gelten für alle Erlebnisse in der Aktivität.
+Promotions gelten für alle Erlebnisse in der Aktivität.
