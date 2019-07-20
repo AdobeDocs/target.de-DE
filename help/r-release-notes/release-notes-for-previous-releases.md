@@ -485,7 +485,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 Diese Version von [!DNL Target] enthält folgende Verbesserungen, Fehlerbehebungen und Änderungen:
 
-* Die Zeile „Backup“ des Recommendations-CSV-Downloads weist jetzt vorne doppelte gerade Anführungszeichen und ein Sternchen (&quot;*&quot;) anstelle eines einfachen Sternchens (*) auf.
+* Die Zeile „Backup“ des Recommendations-CSV-Downloads weist jetzt vorne doppelte gerade Anführungszeichen und ein Sternchen ("*") anstelle eines einfachen Sternchens (*) auf.
 * Das Komma vorne in der Zeile „Top-Verkäufe“ und „Am häufigsten angezeigt“ im Recommendations-CSV-Download wurde entfernt.
 
 ### Änderungen an der Target-Plattform (19. Juni 2018) {#section_0638BD69F3C640479A2A258AD78C0884}
