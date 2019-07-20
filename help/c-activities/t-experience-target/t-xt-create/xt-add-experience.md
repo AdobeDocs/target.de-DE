@@ -23,7 +23,7 @@ Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten
 
    ![Zielgruppe für alle Besucher](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Any changes you make now apply to Experience A. In a step below, you&#39;ll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
+   Any changes you make now apply to Experience A. In a step below, you'll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
    Wenn Sie den Mauszeiger über die Elemente auf Ihrer Seite bewegen, werden diese Elemente hervorgehoben. Jedes hervorgehobene Element kann mithilfe des VEC geändert werden. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -35,7 +35,7 @@ Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten
 
 1. To create additional experiences, click **[!Add Experience Targeting]**.
 
-   ![Link &quot;Erlebnis-Targeting hinzufügen «](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+   ![Link "Erlebnis-Targeting hinzufügen «](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    The [!UICONTROL Choose Audience] dialog box displays. Um ein Erlebnis auf eine Zielgruppe auszurichten, müssen Sie die Zielgruppe auswählen, bevor Sie ein Erlebnis hinzufügen können.
 
@@ -55,7 +55,7 @@ Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten
 
    ![Erlebnis B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
-   Beachten Sie, dass Erlebnis B jetzt in der obigen Abbildung angezeigt wird und dieses Erlebnis auf die Zielgruppe &quot;US-Besucher&quot; abzielt.
+   Beachten Sie, dass Erlebnis B jetzt in der obigen Abbildung angezeigt wird und dieses Erlebnis auf die Zielgruppe "US-Besucher" abzielt.
 
 1. Wählen Sie die Elemente aus, die Sie für dieses Erlebnis ändern möchten, und nehmen Sie die gewünschten Änderungen vor, die in Schritt 1 erläutert werden.
 
