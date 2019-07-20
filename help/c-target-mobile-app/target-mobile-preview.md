@@ -32,7 +32,7 @@ Mit der mobilen Vorschaufunktionalität können Sie Aktivitäten in Ihrer mobile
    Eine Anleitung zum Herunterladen des erforderlichen SDK finden Sie unter:
 
    * **iOS:**[Vorbereitung](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) im Handbuch zu *iOS-SDK 4.x für Experience Cloud-Lösungen*.
-   * **Android:**[Vorbereitung](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)* im Handbuch zu Android-SDK 4.x für Experience Cloud-Lösungen.*
+   * **Android:**[Vorbereitung](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*im Handbuch zu Android-SDK 4.x für Experience Cloud-Lösungen.*
 
 1. **URL-Schema einrichten:** Der Vorschau-Link öffnet Ihre App über ein URL-Schema. Sie müssen ein einzigartiges URL-Schema für die Vorschau festlegen.
 
