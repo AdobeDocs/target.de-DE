@@ -77,7 +77,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
    >
    >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, heben Sie die Auswahl für die Option **[!UICONTROL Kompatibel]** auf. Die Option [!UICONTROL Kompatibel] wird je nach Ihren Empfehlungs-Einstellungen (**[!UICONTROL Empfehlungen]** &gt; **[!UICONTROL Einstellungen]** &gt; **[!UICONTROL Inkompatible Kriterien filtern]**) möglicherweise nicht angezeigt. Weitere Informationen finden Sie unter [Einstellungen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
-   ![Dialogfeld &quot;Kriterien auswählen «](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
+   ![Dialogfeld "Kriterien auswählen «](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
    Wenn Sie mehrere Kriterien auswählen, wird der Traffic gleichmäßig zwischen den ausgewählten Kriterien ausgewählt. Wenn Sie zum Beispiel zwei Kriterien auswählen und Ihre Aktivität zur Anzeige von Standardinhalt für 20 % der Aktivitätsteilnehmer konzipiert ist, sehen 40 % der Aktivitätsteilnehmer die Empfehlungen, die durch jedes der Kriterien kontrolliert werden. Es gibt keine Option zur Änderung der Prozentsätze für die einzelnen Kriterien.
 
@@ -93,7 +93,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    Ein Entwurf ist eine Vorlage, die das Aussehen der Orte auf Ihrer Seite festlegt. [!DNL Target] enthält mehrere vorkonfigurierte Entwürfe. Sie können auch Ihre eigenen, benutzerdefinierten Entwürfe erstellen. Weitere Informationen finden Sie unter [Erstellen eines Entwurfs](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) und [Anpassen eines Entwurfs](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
-   ![Dialogfeld &quot;Design auswählen&quot; auswählen](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
+   ![Dialogfeld "Design auswählen" auswählen](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
    Jeder Entwurf zeigt eine grafische Darstellung dessen, wie dieser aussehen wird, und Symbole, die zeigen, wie viele Ihrer aktiven und inaktiven Aktivitäten derzeit diesen Entwurf verwenden.
 
