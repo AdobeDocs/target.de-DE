@@ -35,7 +35,7 @@ Die folgenden Probleme bei Umleitungsangeboten sind bekannt:
 
 ### Diagramm für eine automatische Targeting-Aktivität kann nicht gerendert werden, wenn ein benutzerdefiniertes Erlebnis als Kontrolle verwendet wird.
 
-Der Grafikbericht für eine automatische Targeting-Aktivität kann für &quot;Differenz&quot; -Modi (durchschnittliche Steigerung und tägliche Steigerung) nicht gerendert werden, wenn keine Daten (0 Besuche) in einem Erlebnis vorhanden sind. Diese Situation kann während der frühen Phase einer Aktivität auftreten, wenn das Kontrollerlebnis auf benutzerdefiniert festgelegt ist. Für andere Modi (Laufende durchschnittliche Steuerung und zielgerichtet, tägliche Kontrolle und Zielgruppe und Besuche) funktioniert dies problemlos. Sobald einige Daten (Besuche ohne Null) vorliegen, wird der Bericht wie erwartet gerendert.
+Der Grafikbericht für eine automatische Targeting-Aktivität kann für "Differenz" -Modi (durchschnittliche Steigerung und tägliche Steigerung) nicht gerendert werden, wenn keine Daten (0 Besuche) in einem Erlebnis vorhanden sind. Diese Situation kann während der frühen Phase einer Aktivität auftreten, wenn das Kontrollerlebnis auf benutzerdefiniert festgelegt ist. Für andere Modi (Laufende durchschnittliche Steuerung und zielgerichtet, tägliche Kontrolle und Zielgruppe und Besuche) funktioniert dies problemlos. Sobald einige Daten (Besuche ohne Null) vorliegen, wird der Bericht wie erwartet gerendert.
 
 ### Laden einer Seite im VEC abbrechen {#cancel}
 
