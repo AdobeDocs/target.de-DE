@@ -31,7 +31,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
 1. Klicken Sie auf der Seite [!UICONTROL Übersicht] einer Aktivität (alle Typen außer „Automatisierte Personalisierung“) auf den Link **[!UICONTROL Aktivitäts-QA].**
 
-   ![Link &quot;Aktivitäts-QA «](assets/qa_link.png)
+   ![Link "Aktivitäts-QA «](assets/qa_link.png)
 
 1. Konfigurieren Sie die folgenden Einstellungen:
 
