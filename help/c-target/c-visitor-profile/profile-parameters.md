@@ -85,7 +85,7 @@ Die Registerkarte [!UICONTROL Skriptinformationen] enthält folgende Information
 
 Die Registerkarte [!UICONTROL Nutzung von Skripten] enthält die Aktivitäten (und ihre Arbeitsbereiche), die auf das ausgewählte Profilskript verweisen.
 
-![Profilskript-Info &gt; Registerkarte &quot;Skriptnutzung «](assets/profile_script_info_card_usage_tab.png)
+![Profilskript-Info &gt; Registerkarte "Skriptnutzung «](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
