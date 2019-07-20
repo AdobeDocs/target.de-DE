@@ -32,7 +32,7 @@ Testen Sie mehrere Bildangebote an einem Ort, um zu ermitteln, welches Bild am e
 
 1. Wählen Sie alle Bilder aus, die Sie in den Test einbeziehen möchten, und klicken Sie anschließend auf **[!UICONTROL Speichern]**.
 
-   ![Dialogfeld &quot;Inhalt auswählen&quot; zum Hinzufügen von Bildern](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
+   ![Dialogfeld "Inhalt auswählen" zum Hinzufügen von Bildern](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
 Jedes Bild wird zu einem eigenen Erlebnis an diesem Ort.
 
