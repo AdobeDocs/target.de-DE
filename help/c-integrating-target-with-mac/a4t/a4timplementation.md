@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. Wenn diese Einstellung eingerichtet wird, sieht das Format der zurückgegebenen Nutzlast wie folgt aus:
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the Target requests and an analytics payload will be returned for every request. Wenn diese Einstellung eingerichtet wird, sieht das Format der zurückgegebenen Nutzlast wie folgt aus:
 
 ```
 "analytics": {
@@ -100,7 +100,7 @@ This set up has a global effect, which means that every call made by at.js will 
 
 The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. Die Nutzlast der Analyse wird nur für diesen Aufruf zurückgegeben und das Backend für Target leitet die Nutzlast nicht an Analytics weiter. Durch diesen Ansatz wird die Payload nicht standardmäßig von jeder at. js-Target-Anforderung zurückgegeben, sondern nur nach Wunsch und Spezifiziert.
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. Die Nutzlast der Analyse wird nur für diesen Aufruf zurückgegeben und das Backend für Target leitet die Nutzlast nicht an Analytics weiter. Durch diesen Ansatz wird die Payload nicht standardmäßig von jeder at. js-Target-Anforderung zurückgegeben, sondern nur nach Wunsch und Spezifiziert.
 
 Beispiel:
 
