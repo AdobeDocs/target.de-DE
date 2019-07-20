@@ -37,7 +37,7 @@ Sie können einzelne Artikel bewerben, Artikel dynamisch bewerben, Artikel auf G
 
 1. On the **[!UICONTROL Options]** page, click the **[!UICONTROL Front Promotion]** or **[!UICONTROL Back Promotion]** toggle.
 
-   The following illustration shows the [!UICONTROL Front Promotion] toggle in the &quot;On&quot; position.
+   The following illustration shows the [!UICONTROL Front Promotion] toggle in the "On" position.
 
    ![Optionen für Vorwärts-Promotion hinzufügen](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
