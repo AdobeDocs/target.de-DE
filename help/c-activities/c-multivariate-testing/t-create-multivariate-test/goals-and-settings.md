@@ -104,7 +104,7 @@ Zielgruppen für die Berichterstellung
 
 Erweiterte Einstellungen sind für Zielmetriken Multivarianz-Test verfügbar.
 
-![Menü &quot;Erweiterte Einstellungen «](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
+![Menü "Erweiterte Einstellungen «](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
 >[!NOTE]
 >
