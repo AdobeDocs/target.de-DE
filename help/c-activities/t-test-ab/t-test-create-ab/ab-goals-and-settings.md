@@ -41,7 +41,7 @@ The available settings depend on whether you use Target or [Analytics](/help/c-i
 
 Erweiterte Einstellungen sind für A/B-Test-Zielmetriken verfügbar.
 
-![Menü &quot;Erweiterte Einstellungen «](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
+![Menü "Erweiterte Einstellungen «](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
