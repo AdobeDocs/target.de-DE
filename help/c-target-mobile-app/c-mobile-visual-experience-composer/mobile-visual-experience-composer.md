@@ -194,7 +194,7 @@ Beachten Sie, dass jedes Mal, wenn Target-Angebote vorabgerufen werden, die Ange
 
 ## Fehlerbehebung {#ts}
 
-**Ich habe eine Fehlermeldung erhalten, dass mein &quot;context. application. name&quot; -Wert unzulässige Zeichen enthält. What characters are allowed in mobile app names?**
+**Ich habe eine Fehlermeldung erhalten, dass mein "context. application. name" -Wert unzulässige Zeichen enthält. What characters are allowed in mobile app names?**
 
 Zulässige Zeichen in mobilen App-Namen sind:
 
