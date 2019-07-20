@@ -23,7 +23,7 @@ Die Zielgruppe legt fest, welche Besucher der Site in Ihre Aktivität eingegeben
 
 Klicken Sie im Feld [!UICONTROL „Zielgruppe“] auf das Bearbeitungssymbol (drei vertikale Ellipsen) und dann auf **[!UICONTROL Zielgruppe ersetzen]**.
 
-![Option &quot;Zielgruppe ersetzen «](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+![Option "Zielgruppe ersetzen «](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
 Standardeinstellung ist, dass alle Besucher Ihrer Zielgruppe angehören. Sie können die Zielgruppe jedoch anpassen. Zielgruppen werden aus der Zielgruppenbibliothek ausgewählt. Alternativ können Sie eine Zielgruppe „Nur Aktivität“ erstellen. Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. You can select an audience from the library, [create a new audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Wählen Sie für einen A/B-Test ohne Festlegen bestimmter Zielgruppen die Standardeinstellung „Alle Besucher“ aus.
 
