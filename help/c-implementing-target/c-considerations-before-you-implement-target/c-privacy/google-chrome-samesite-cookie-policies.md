@@ -20,7 +20,7 @@ Google hat kürzlich angekündigt, dass Entwickler mit Chrome 76 (slated für ei
 
 ## Überblick über die SameSite
 
-Um Sicherheitsvorkehrungen zu aktivieren, wenn Cookies über mehrere Sites hinweg gesendet werden können, sodass Benutzer geschützt sind, fügt Google die Unterstützung für einen IETF-Standard mit dem Namen &quot;samesite&quot; in Google Chrome 76 (und höher) hinzu. SameSite requires web developers to manage cookies with the SameSite attribute component in the `Set-Cookie` header.
+Um Sicherheitsvorkehrungen zu aktivieren, wenn Cookies über mehrere Sites hinweg gesendet werden können, sodass Benutzer geschützt sind, fügt Google die Unterstützung für einen IETF-Standard mit dem Namen "samesite" in Google Chrome 76 (und höher) hinzu. SameSite requires web developers to manage cookies with the SameSite attribute component in the `Set-Cookie` header.
 
 Es gibt drei verschiedene Werte, die an das Attribut samesite übergeben werden können: Streng, Lax oder Keine.
 
@@ -30,11 +30,11 @@ Es gibt drei verschiedene Werte, die an das Attribut samesite übergeben werden 
 | Lax | Cookies with this setting are sent only on same-site requests or top-level navigation with non-idempotent HTTP requests, such as `HTTP GET`. Therefore, this option should be used if the cookie can be used by third-parties, but with an added security benefit that protects users from being victimized by [CSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery) (Cross-Site Request Forgery) attacks. |
 | Keine | Cookies mit dieser Einstellung funktionieren genauso wie Cookies heute. |
 
-In den beiden folgenden Einstellungen werden die beiden Einstellungen Chrome 76 (und höher) vorgestellt: &quot; Samesite nach standardmäßigen Cookies&quot; und &quot;Cookies ohne samesite müssen sicher sein&quot; . Benutzer haben die Möglichkeit, entweder die Einstellung oder beide Einstellungen zu aktivieren.
+In den beiden folgenden Einstellungen werden die beiden Einstellungen Chrome 76 (und höher) vorgestellt: " Samesite nach standardmäßigen Cookies" und "Cookies ohne samesite müssen sicher sein" . Benutzer haben die Möglichkeit, entweder die Einstellung oder beide Einstellungen zu aktivieren.
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| Standardcookies von samesite | When set, all cookies that don&#39;t specify the SameSite attribute are automatically forced with `SameSite = Lax`. |
+| Standardcookies von samesite | When set, all cookies that don't specify the SameSite attribute are automatically forced with `SameSite = Lax`. |
 | Cookies ohne samesite müssen sicher sein | When set, cookies without the SameSite attribute or with `SameSite = None`, must be Secure. In diesem Kontext müssen alle Browser-Anforderungen dem HTTPS-Protokoll entsprechen. Cookies, die diese Anforderung nicht erfüllen, werden abgelehnt. |
 
 ![Samesite-Einstellungsseite](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/samesite.png)
@@ -43,9 +43,9 @@ In den beiden folgenden Einstellungen werden die beiden Einstellungen Chrome 76 
 
 Mit Target wollen wir sicherstellen, dass Sie erfolgreich die neuesten Best Practices der Branche für die Sicherheit unterstützen. Wir freuen uns, dass Target die neuen Sicherheitseinstellungen unterstützt, die in Google Chrome 76 eingeführt wurden.
 
-Wenn Ihre Besucher die standardeinstellung für Cookies in &quot;samesite&quot; aktiviert haben, stellt Target weiterhin Personalisierung ohne jegliche Auswirkung und ohne Eingreifen von Ihnen bereit. Target uses first-party cookies and will continue to function properly as the flag `SameSite = Lax` is applied by Google Chrome.
+Wenn Ihre Besucher die standardeinstellung für Cookies in "samesite" aktiviert haben, stellt Target weiterhin Personalisierung ohne jegliche Auswirkung und ohne Eingreifen von Ihnen bereit. Target uses first-party cookies and will continue to function properly as the flag `SameSite = Lax` is applied by Google Chrome.
 
-Wenn Besucher die &quot;Cookies ohne samesite müssen sicher sein müssen&quot; aktivieren und Sie nicht für die domänenübergreifende Tracking-Funktion von Target teilnehmen, funktionieren die Erstanbieter-Cookies von Target weiterhin. However, when you opt-in to using cross-domain tracking to leverage Target across multiple domains, Google Chrome 76 (and later) requires `SameSite = None` and `Secure` flags to be used for third-party cookies. Dies bedeutet, dass Sie sicherstellen müssen, dass Ihre Sites das HTTPS-Protokoll verwenden. Target&#39;s client-side libraries automatically use the HTTPS protocol and, in addition to that, attach the `SameSite = None` and `Secure` flags to Target’s third-party cookie to ensure all activities continue to deliver.
+Wenn Besucher die "Cookies ohne samesite müssen sicher sein müssen" aktivieren und Sie nicht für die domänenübergreifende Tracking-Funktion von Target teilnehmen, funktionieren die Erstanbieter-Cookies von Target weiterhin. However, when you opt-in to using cross-domain tracking to leverage Target across multiple domains, Google Chrome 76 (and later) requires `SameSite = None` and `Secure` flags to be used for third-party cookies. Dies bedeutet, dass Sie sicherstellen müssen, dass Ihre Sites das HTTPS-Protokoll verwenden. Target's client-side libraries automatically use the HTTPS protocol and, in addition to that, attach the `SameSite = None` and `Secure` flags to Target’s third-party cookie to ensure all activities continue to deliver.
 
 ## Was müssen Sie tun?
 
@@ -53,10 +53,10 @@ Lesen Sie die folgende Tabelle, um zu verstehen, was Sie tun müssen, damit Targ
 
 Die Tabelle enthält die folgenden Spalten:
 
-* **Clientseitige Bibliothek als Ziel**: ob Sie mbox. js, at. js 1 verwenden.*x*oder at. js 2.*x* auf Ihren Sites und Einfluss von Google Chrome-Einstellungen auf die
-* **Cooksite standardmäßig Cookies = Aktiviert**: Wenn Ihre Besucher auf Chrome 76 + über &quot;Skripte für standardmäßige Cookies&quot; verfügen, wie wirkt sich dies auf Sie aus und ist alles, was erforderlich ist, damit Target weiterhin funktioniert
-* **Cookies ohne samesite müssen sicher = Aktiviert** sein: Wenn Ihre Besucher auf Chrome 76 + die Option &quot;Cookies ohne samesite sicher sein müssen&quot; aktiviert haben, wie wirkt sich dies auf Sie aus und es gibt alles, was Sie benötigen, damit Target weiterhin funktioniert.
-* **Domänenübergreifende Verfolgung von Adobe Target = Aktiviert**: Wenn Ihre Besucher auf Chrome 76 + die &quot;Gleiche Site nach standardmäßigen Site-Cookies&quot; aktivieren und&quot; Cookies ohne samesite sicher sein müssen&quot; , und Sie Target für domänenübergreifende Verfolgung verwenden, wie wirkt sich dies auf Sie aus und ist alles, was erforderlich ist, damit Target weiterhin funktioniert
+* **Clientseitige Bibliothek als Ziel**: ob Sie mbox. js, at. js 1 verwenden.*x* oder at. js 2.*x* auf Ihren Sites und Einfluss von Google Chrome-Einstellungen auf die
+* **Cooksite standardmäßig Cookies = Aktiviert**: Wenn Ihre Besucher auf Chrome 76 + über "Skripte für standardmäßige Cookies" verfügen, wie wirkt sich dies auf Sie aus und ist alles, was erforderlich ist, damit Target weiterhin funktioniert
+* **Cookies ohne samesite müssen sicher = Aktiviert** sein: Wenn Ihre Besucher auf Chrome 76 + die Option "Cookies ohne samesite sicher sein müssen" aktiviert haben, wie wirkt sich dies auf Sie aus und es gibt alles, was Sie benötigen, damit Target weiterhin funktioniert.
+* **Domänenübergreifende Verfolgung von Adobe Target = Aktiviert**: Wenn Ihre Besucher auf Chrome 76 + die "Gleiche Site nach standardmäßigen Site-Cookies" aktivieren und" Cookies ohne samesite sicher sein müssen" , und Sie Target für domänenübergreifende Verfolgung verwenden, wie wirkt sich dies auf Sie aus und ist alles, was erforderlich ist, damit Target weiterhin funktioniert
 
 | Clientseitige Bibliothek in Target | Samesite standardmäßig Cookies = Aktiviert | Cookies ohne samesite müssen sicher = aktiviert sein | Domänenübergreifende Verfolgung von Adobe Target = Aktiviert |
 | --- | --- | --- | --- |
