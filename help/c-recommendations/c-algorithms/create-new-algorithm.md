@@ -333,7 +333,7 @@ Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
 
 ### Previously Purchased Items {#previously-purchased}
 
-Uses the visitor&#39;s history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
 
 The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Wenn zwei Sites zu verschiedenen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur kürzlich erworbene Artikel auf der entsprechenden Site an. Wenn sich zwei Sites in derselben Umgebung befinden und ein Besucher zwischen den beiden Sites wechselt, sieht der Besucher dieselben zuletzt gekauften Artikel für beide Sites.
 
