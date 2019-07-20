@@ -25,10 +25,10 @@ The following table shows the data collected by Automated Personalization and Au
 
 | Datentyp | Beschreibung | Datentyp-Namenskonvention | Beispielattribute |
 | --- | --- | --- | --- |
-| [Geräte- und Mobildaten](#device-mobile) | Gerät- und mobilspezifische Informationen.<br>Siehe &quot;Geräte- und Mobildaten&quot; . | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | Mobile Device OS<br>Mobile Screen Size |
+| [Geräte- und Mobildaten](#device-mobile) | Gerät- und mobilspezifische Informationen.<br>Siehe "Geräte- und Mobildaten" . | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | Mobile Device OS<br>Mobile Screen Size |
 | [Umgebungsdaten](#env) | Informationen über das Betriebssystem des Besuchers und darauf, wie und wann der Besucher auf die Aktivität zugreift. | `Browser - / Operating System] - [Attribute Name]` | Browser – Typ |
 | Erlebnis Cloud-Segment | Zielgruppen, die in Audience Manager oder Analytics erstellt und über die Experience Cloud freigegeben wurden | `Custom - Experience Cloud Audience - [Audience Name]` | Benutzerspezifische Daten |
-| [Geografische Daten](#geo) | Informationen zum Standort des Besuchers.<br>Siehe &quot;Geografische Daten&quot; unten. | `Geo - [geo attribute]` | Stadt<br>Land<br>Region/Bundesstaat<br>Postleitzahl<br>Breitengrad<br>Längengrad<br>ISP oder Mobilnetzbetreiber |
+| [Geografische Daten](#geo) | Informationen zum Standort des Besuchers.<br>Siehe "Geografische Daten" unten. | `Geo - [geo attribute]` | Stadt<br>Land<br>Region/Bundesstaat<br>Postleitzahl<br>Breitengrad<br>Längengrad<br>ISP oder Mobilnetzbetreiber |
 | Profilattribute | Profilskripte oder Attribute direkt über die Aktualisierungs-API in das Target-Profil hochgeladen | `Custom - Visitor Profile - [attribute name]` | Benutzerspezifische Daten |
 | Verweisende URL-Parameter | Im Allgemeinen entspricht die verweisende URL der URL, die auf eine bestimmte Seite verweist, die den Mbox-Aufruf initiiert hat.<br>Beachten Sie, dass sich die Aktivität der Benutzer auf Ihrer Site und die technische Implementierung Ihrer Site auf diese Variable auswirken kann. | `Custom - [Referring URL Parameter] - [Parameter value]` | Benutzerspezifische Daten |
 | Berichterstellungssegmente | Alle in der Aktivitätseinrichtung eingerichteten Segmente. | `Reporting Segment -[Segment Name]` | Benutzerspezifische Daten |
