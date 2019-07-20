@@ -233,7 +233,7 @@ Die fehlenden Auswahlelemente können möglicherweise über den Durchsuchen-Modu
 
 ![](assets/code_editor_2.png)
 
-* **Wenn ich ein Element lösche, sehe ich die Warnung: „Das Löschen dieser Aktion kann sich auf darauffolgende Aktionen auswirken.“ Was bedeutet das?***
+***Wenn ich ein Element lösche, sehe ich die Warnung: „Das Löschen dieser Aktion kann sich auf darauffolgende Aktionen auswirken.“ Was bedeutet das?***
 
 Wenn Sie beispielsweise zwei Aktionen durchgeführt haben:
 
