@@ -76,7 +76,7 @@ Testen und verfolgen Besuche von Anzeigen und anderen Offsite-Inhalten. Darüber
 
 **Kampagne**
 
-Gleich wie &quot;Aktivität&quot;
+Gleich wie "Aktivität"
 
 **Ergebniserfassung**
 
@@ -152,7 +152,7 @@ Der [!UICONTROL Enhanced Experience Composer] stellt eine Erweiterung des [!UICO
 
 **Berechtigungen für Unternehmensbenutzer**
 
-Eine Möglichkeit zur formalen Verwaltung des unternehmensweiten Benutzerzugriffs auf Target. Fügen Sie Benutzer zu Target hinzu, weisen Sie Berechtigungen auf Grundlage ihrer Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf unterschiedlichen Abteilungen, globalen Speicherorten, Kanal und anderen logischen Gruppierungen. Sie können Benutzer die Rollen &quot;Beobachter&quot; ,&quot; Editor&quot; oder &quot;Genehmiger&quot; zuweisen.
+Eine Möglichkeit zur formalen Verwaltung des unternehmensweiten Benutzerzugriffs auf Target. Fügen Sie Benutzer zu Target hinzu, weisen Sie Berechtigungen auf Grundlage ihrer Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf unterschiedlichen Abteilungen, globalen Speicherorten, Kanal und anderen logischen Gruppierungen. Sie können Benutzer die Rollen "Beobachter" ," Editor" oder "Genehmiger" zuweisen.
 
 **Entitätsattribute**
 
