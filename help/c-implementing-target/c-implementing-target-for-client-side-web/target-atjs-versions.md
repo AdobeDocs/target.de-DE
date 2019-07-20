@@ -204,7 +204,7 @@ at.js Version 1.3.0 ist verfügbar.
 
 [!DNL at.js], Version 1.2.1 ist verfügbar.
 
-* Es wurde ein Problem bei der Verfolgung per Klick auf einen Link mit target=&quot;_blank&quot; behoben, das das Öffnen des Links auf einer neuen Registerkarte in Target verhindert hat.
+* Es wurde ein Problem bei der Verfolgung per Klick auf einen Link mit target="_blank" behoben, das das Öffnen des Links auf einer neuen Registerkarte in Target verhindert hat.
 
 ## „at.js“-Version 1.2.0{#section_1C3A18C595C34B25A14A440D213F3B9C}
 
