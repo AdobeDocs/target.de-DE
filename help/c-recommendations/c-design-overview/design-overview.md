@@ -97,7 +97,7 @@ Das folgende Beispiel zeigt, wie JSON-Antworten zurückgesendet werden können, 
 
 Nachdem Ihr Algorithmus ausgeführt wurde und Sie Ergebnisse erhalten haben, sollte Ihre Antwort ungefähr so aussehen:
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![](assets/json_recommendation.png){width="575px"}
 
 ## Zusätzliche Tipps und Tricks zu JSON-Objekten {#section_C305673C68944749969DB239E3221DC2}
 
