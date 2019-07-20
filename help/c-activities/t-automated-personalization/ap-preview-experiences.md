@@ -31,9 +31,9 @@ Da eine automatisierte Personalisierung (AP) mehrere Angebote auf einer Seite ve
 
 1. (Conditional) To exclude one or more experiences from the activity, click the **[!UICONTROL Exclude]** icon.
 
-   ![Symbol &quot;Ausschließen «](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
+   ![Symbol "Ausschließen «](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
-   Das Dialogfeld &quot;Inhalt verwalten&quot; wird angezeigt.
+   Das Dialogfeld "Inhalt verwalten" wird angezeigt.
 
    ![Inhaltsverwaltung, Dialogfeld](/help/c-activities/t-automated-personalization/assets/preview-exclude.png)
 
