@@ -277,7 +277,7 @@ Ja, weil „Ausführen &gt; Seite laden“ auf den [!DNL Target]-Edge-Servern wi
 | Globale Mbox automatisch erstellen | Ja |
 | Globaler Mbox-Name | Ja |
 
-**Domänenübergreifendes Tracking wird*nicht*unterstützt**
+**Domänenübergreifendes Tracking wird *nicht*unterstützt**
 
 Domänenübergreifendes Tracking ermöglicht die Anzeige von Sitzungen auf zwei verwandten Sites mit verschiedenen Domänen als einzelne Sitzung. Sie können eine [!DNL Target]-Aktivität erstellen, die sich über `siteA.com` und `siteB.com` erstreckt, während der Besucher im selben Erlebnis verbleibt, wenn er von einer Domäne in die andere wechselt. Diese Funktionalität wird mit dem Verhalten von Target von Drittanbieter- und Erstanbieter-Cookies verknüpft.
 
