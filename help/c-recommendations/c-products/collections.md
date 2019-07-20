@@ -68,7 +68,7 @@ Erstellen Sie eine Sammlung, um die Produkte zu organisieren, die Sie in Ihren E
    Sie können Regeln hinzufügen, um eine Sammlung durch mehrere Parameter zu definieren. Mehrere Regeln werden mit UND verknüpft. Alle angegebenen Regeln müssen eingehalten werden, damit die Sammlung angewendet wird.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. 
-Sie können Sammlungen auch über „Erweiterte Suche“ auf der Seite „Katalogsuche“ erstellen ([!UICONTROL Empfehlungen] &gt; [!UICONTROL Katalogsuche] &gt; [!UICONTROL Erweiterte Suche]). Nachdem Sie eine Suche mit &quot;id &gt; contains&quot; erstellt haben, können Sie z. B. auf [!UICONTROL Speichern unter] &gt; [!UICONTROL Sammlung] klicken.
+Sie können Sammlungen auch über „Erweiterte Suche“ auf der Seite „Katalogsuche“ erstellen ([!UICONTROL Empfehlungen] &gt; [!UICONTROL Katalogsuche] &gt; [!UICONTROL Erweiterte Suche]). Nachdem Sie eine Suche mit "id &gt; contains" erstellt haben, können Sie z. B. auf [!UICONTROL Speichern unter] &gt; [!UICONTROL Sammlung] klicken.
 
 >[!IMPORTANT]
 >
