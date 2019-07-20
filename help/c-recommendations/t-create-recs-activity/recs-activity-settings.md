@@ -20,7 +20,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 Informationen über die Einstellungen, mit denen Sie eine [!UICONTROL Recommendations]-Aktivität beschreiben und steuern können.
 
-![Seite &quot;Recommendations Ziele und Einstellungen «](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
+![Seite "Recommendations Ziele und Einstellungen «](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
 Die folgenden Abschnitte beschreiben die verfügbaren Einstellungen für eine [!UICONTROL Recommendations]-Aktivität.
 
