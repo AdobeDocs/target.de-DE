@@ -31,17 +31,17 @@ Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus aus
 
 * Elementattribute, die in den für die Aktivität verwendeten Sammlungsregeln verwendet werden.
 * Elementattribute, die in einer Promotion basierend auf einem Attribut oder einer Sammlung verwendet werden, die mit der Aktivität verknüpft ist.
-* Element-Kategorie, in der das Element für eine &quot;Aktuelle Kategorie&quot; oder&quot; Favoritenkategorie&quot; im Algorithmus &quot;Topverkäufe&quot; oder&quot; Am meisten angezeigt&quot; angezeigt wird.
+* Element-Kategorie, in der das Element für eine "Aktuelle Kategorie" oder" Favoritenkategorie" im Algorithmus "Topverkäufe" oder" Am meisten angezeigt" angezeigt wird.
 * Rangordnung empfohlener Artikel, wenn das Attribut sich geändert hat und als benutzerdefinierter Schlüssel für einen Algorithmus verwendet wird.
-* Rangordnung empfohlener Artikel basierend auf dem geänderten Attribut (n), wenn die Empfehlungslogik &quot;Elemente mit ähnlichen Attributen&quot; lautet, wenn die Gewichtungsfaktoren&quot; Inhaltähnlichkeit&quot; verwendet werden oder wenn die Faktoren &quot;Attributgewichtung&quot; verwendet werden.
+* Rangordnung empfohlener Artikel basierend auf dem geänderten Attribut (n), wenn die Empfehlungslogik "Elemente mit ähnlichen Attributen" lautet, wenn die Gewichtungsfaktoren" Inhaltähnlichkeit" verwendet werden oder wenn die Faktoren "Attributgewichtung" verwendet werden.
 
 >[!NOTE]
 >
->Eine Feed-Datei wird als importiert betrachtet, wenn sich ihr Status von &quot;Importieren von Elementen&quot; in&quot; Suchindex-Aktualisierungen vorbereiten&quot; ändert. Updates können mehr als 60 Minuten in Anspruch nehmen, damit sie in der Benutzeroberfläche der Katalogsuche angezeigt werden können. Die Katalogsuche ist aktuell, wenn sich der Feed-Status in &quot;Abgeschlossen&quot; ändert. Selbst wenn die Katalogsuche noch nicht aktuell ist, spiegelt Ihre Site Aktualisierungen in den oben aufgeführten Zeitrahmen wider. Auf der Seite &quot;Katalogsuche&quot; wird die aktuelle Katalogaktualisierungszeit des Katalogs angezeigt.
+>Eine Feed-Datei wird als importiert betrachtet, wenn sich ihr Status von "Importieren von Elementen" in" Suchindex-Aktualisierungen vorbereiten" ändert. Updates können mehr als 60 Minuten in Anspruch nehmen, damit sie in der Benutzeroberfläche der Katalogsuche angezeigt werden können. Die Katalogsuche ist aktuell, wenn sich der Feed-Status in "Abgeschlossen" ändert. Selbst wenn die Katalogsuche noch nicht aktuell ist, spiegelt Ihre Site Aktualisierungen in den oben aufgeführten Zeitrahmen wider. Auf der Seite "Katalogsuche" wird die aktuelle Katalogaktualisierungszeit des Katalogs angezeigt.
 
 ## Was sollte ich tun, wenn mein Array durch Sonderzeichen umbrochen wird? {#section_D27214116EE443638A60887C7D1C534E}
 
-Verwenden Sie Escape-Werte in JavaScript. Das Array kann durch Anführungszeichen (&quot;) umbrochen werden. Der folgende Codeausschnitt ist ein Beispiel für Escape-Werte:
+Verwenden Sie Escape-Werte in JavaScript. Das Array kann durch Anführungszeichen (") umbrochen werden. Der folgende Codeausschnitt ist ein Beispiel für Escape-Werte:
 
 ```
 #set($String='') 
