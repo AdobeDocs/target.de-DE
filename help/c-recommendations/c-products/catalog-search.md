@@ -33,7 +33,7 @@ Klicken Sie auf das „Aktualisieren“-Symbol, um Ihren Katalog erneut zu index
 
 Der Katalog wird automatisch stündlich aktualisiert. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um den Katalog zwischen den automatischen Aktualisierungen erneut zu indizieren.
 
-Sie können Sammlungen oder Ausschlüsse mithilfe der erweiterten Suche auf der Seite „Katalogsuche“ ([!UICONTROL Empfehlungen] &gt; [!UICONTROL Katalogsuche] &gt; [!UICONTROL Erweiterte Suche]) erstellen. Nachdem Sie eine Suche mit &quot;id &gt; contains&quot; erstellt haben, können Sie zum Beispiel auf [!UICONTROL Speichern unter] &gt; [!UICONTROL Sammlung oder Ausschluss] klicken.
+Sie können Sammlungen oder Ausschlüsse mithilfe der erweiterten Suche auf der Seite „Katalogsuche“ ([!UICONTROL Empfehlungen] &gt; [!UICONTROL Katalogsuche] &gt; [!UICONTROL Erweiterte Suche]) erstellen. Nachdem Sie eine Suche mit "id &gt; contains" erstellt haben, können Sie zum Beispiel auf [!UICONTROL Speichern unter] &gt; [!UICONTROL Sammlung oder Ausschluss] klicken.
 
 >[!IMPORTANT]
 >
