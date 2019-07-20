@@ -4,8 +4,8 @@ solution: Target
 title: Target mit dem Experience Cloud-Debugger debuggen
 seo-title: Target mit dem Experience Cloud-Debugger debuggen
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 6627c8cd5edb882d8af8fc71b069f7f5edbaa706
 
 ---
 
@@ -14,18 +14,18 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## Erweiterung hinzufügen
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12&captions=ger)
 
 ## Grundlegendes Target-Debugging
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12&captions=ger)
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12&captions=ger)
 
 ## Zusätzliche Ressourcen
 
-+ [Adobe Experience Cloud-Debugger im Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=de)
-+ [Fehlerbehebung in Target Hilfsdokumentation](https://marketing.adobe.com/resources/help/de_DE/target/target/r_troubleshooting_target.html)
-+ [Video zur Verwendung des Experience Cloud-Debuggers](https://helpx.adobe.com/de/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Adobe Experience Cloud Debugger im Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Fehlerbehebung für Target-Hilfedokumentation](https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshooting_target.html)
++ [Video zum Verwenden des Experience Cloud-Debuggers](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
