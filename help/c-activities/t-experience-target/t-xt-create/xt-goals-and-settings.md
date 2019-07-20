@@ -23,7 +23,7 @@ Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zie
 
 Welche Einstellungen verfügbar sind, hängt davon ab, ob Sie [!DNL Target] oder [!DNL Analytics] als Datenquelle verwenden.
 
-![Seite &quot;Aktivitätseinstellungen «](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
+![Seite "Aktivitätseinstellungen «](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
 
 ## Aktivitätseinstellungen {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
