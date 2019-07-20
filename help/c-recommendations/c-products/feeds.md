@@ -51,7 +51,7 @@ Alle mit der [!DNL .csv]-Datei, dem Google-Produktfeed oder dem Analytics-Produk
 
 >[!IMPORTANT]
 >
->Schließen Sie Werte in doppelten Anführungszeichen (&quot;) in Ihrer [!DNL .csv] Datei nicht ein, außer sie sind beabsichtigt. Werte in doppelten Anführungszeichen müssen mit Escapezeichen angegeben werden, d. h., sie müssen von einem weiteren Satz doppelter Anführungszeichen eingeschlossen werden. Doppelte Anführungszeichen ohne Escapezeichen verhindern das ordnungsgemäße Laden des Recommendations-Feeds.
+>Schließen Sie Werte in doppelten Anführungszeichen (") in Ihrer [!DNL .csv] Datei nicht ein, außer sie sind beabsichtigt. Werte in doppelten Anführungszeichen müssen mit Escapezeichen angegeben werden, d. h., sie müssen von einem weiteren Satz doppelter Anführungszeichen eingeschlossen werden. Doppelte Anführungszeichen ohne Escapezeichen verhindern das ordnungsgemäße Laden des Recommendations-Feeds.
 
 Die folgende Syntax ist falsch:
 
@@ -306,7 +306,7 @@ Der Status ist gelb, da der Index vor rund 6,5 Stunden erstellt werden sollte. 6
 
 **Beispiel 2:**
 
-* &#x200B;1. Januar: Monatlicher Feed wird um 9:00 Uhr verarbeitet
-* &#x200B;3. Februar: Es ist 10:00 Uhr und der Feed wurde einen Monat, einen Tag und eine Stunde lang nicht ausgeführt
+* 1. Januar: Monatlicher Feed wird um 9:00 Uhr verarbeitet
+* 3. Februar: Es ist 10:00 Uhr und der Feed wurde einen Monat, einen Tag und eine Stunde lang nicht ausgeführt
 
 Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte ausgeführt werden müssen. Auch wenn dies nur (31 + (1 / 25)) / 30 = 1,03 % der Häufigkeitseinstellung ergibt, wurde der Höchstwert von einem Tag für die Verzögerung überschritten.
