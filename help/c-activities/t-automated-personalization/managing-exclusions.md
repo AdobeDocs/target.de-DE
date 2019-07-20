@@ -105,11 +105,11 @@ Das Ausschließen von Standardinhalten bietet eine großartige Möglichkeit, das
 
    Für Text-/HTML-Inhalt:
 
-   ![Kontrollkästchen &quot;Text/HTML bearbeiten&quot; aktivieren](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
+   ![Kontrollkästchen "Text/HTML bearbeiten" aktivieren](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
 
    Für Bild-/Videoinhalt:
 
-   ![Kontrollkästchen aktivieren, Dialogfeld &quot;Inhalt auswählen «](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
+   ![Kontrollkästchen aktivieren, Dialogfeld "Inhalt auswählen «](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
 
    Für die Hintergrundfarbe:
 
