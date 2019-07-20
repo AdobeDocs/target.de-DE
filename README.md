@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: bae4cd6ae1efaf4e9b057750dda11267e0e9a181
+translation-type: tm+mt
 
 ---
 # Beiträge
@@ -15,13 +15,13 @@ Dieses Projekt hat den [Open-Source-Verhaltenskodex](code-of-conduct.md) oder de
 
 ## Informationen zu Ihren Beiträgen zu Adobe-Inhalten
 
-Weitere Informationen finden Sie im [Leitfaden für Beitragende zu Adobe-Dokumenten](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 Wie Sie Beiträge einbringen, hängt davon ab, wer Sie sind und welche Art von Änderungen Sie einbringen möchten:
 
 ### Geringfügige Änderungen
 
-Wenn Sie aus reiner Freundlichkeit kleinere Änderungen vornehmen möchten, rufen Sie den Artikel auf und klicken Sie auf den Link **Bearbeiten** im Artikel, der zur GitHub-Quelle des Artikels führt. Nehmen Sie die Änderungen einfach in der GitHub-Benutzeroberfläche vor. Weitere Informationen finden Sie im allgemeinen [Leitfaden für Beitragende zu Adobe-Dokumenten](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Wenn Sie aus reiner Freundlichkeit kleinere Änderungen vornehmen möchten, rufen Sie den Artikel auf und klicken Sie auf den Link **Bearbeiten** im Artikel, der zur GitHub-Quelle des Artikels führt. Nehmen Sie die Änderungen einfach in der GitHub-Benutzeroberfläche vor. See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
 
 Kleinere Korrekturen oder Erläuterungen, die Sie zur Dokumentation und als Codebeispiele in dieses Repository übermitteln, unterliegen den Adobe-Nutzungsbedingungen.
 
@@ -43,14 +43,14 @@ Wenn Sie ein technischer Redakteur, Programm-Manager oder Entwickler des Produkt
 
 Community-Mitarbeiter können die GitHub-Benutzeroberfläche zur einfachen Bearbeitung verwenden oder einen Fork des Repositorys durchführen, um wichtige Beiträge beizusteuern.
 
-Weitere Informationen finden Sie im [Leitfaden für Beitragende zu Adobe-Dokumenten](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
 
 ## Verwenden von Markdown zum Formatieren Ihres Themas
 
 Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie mit Markdown nicht vertraut sind, lesen Sie:
 
-* [Markdown-Grundlagen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Markdown-Kurzdarstellung zum Ausdrucken](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Grundlegende Markierungen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Druckbares Marktierungs-Dropsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Bezeichnungen
 
