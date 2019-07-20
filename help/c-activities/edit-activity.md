@@ -31,9 +31,9 @@ Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichk
 
 1. Klicken Sie auf die Unterteilung, um zum nächsten Schritt zu gelangen oder um die Aktivität zu speichern.
 
-   ![Schaltfläche &quot;Teilen «](/help/c-activities/assets/edit_split_button_2.png)
+   ![Schaltfläche "Teilen «](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Weiter:** Klicken Sie zum Bearbeiten einer weiteren Seite in dem dreistufigen Workflow auf **[!UICONTROL Weiter]**, um zu dem gewünschten Schritt zu wechseln. Wenn Sie beispielsweise in der Abbildung oben auf [!UICONTROL Weiter] klicken, wird der Targeting-Schritt angezeigt.[!UICONTROL ]
+   * **Weiter:** Klicken Sie zum Bearbeiten einer weiteren Seite in dem dreistufigen Workflow auf **[!UICONTROL Weiter]**, um zu dem gewünschten Schritt zu wechseln. Wenn Sie beispielsweise in der Abbildung oben auf [!UICONTROL Weiter] klicken, wird der Targeting-Schritt angezeigt.
    * **Speichern &amp; Schließen:** Nehmen Sie die gewünschten Änderungen im aktuellen Schritt vor, klicken Sie auf das Dropdown-Menü auf der Trennschaltfläche und wählen Sie dann **[!UICONTROL Speichern und Schließen]**, um die Änderungen zu speichern und die Seite [!UICONTROL Übersicht] der Aktivität anzuzeigen.
    * **Speichern:** Nehmen Sie die gewünschten Änderungen in einem Schritt vor, klicken Sie auf das Dropdown-Menü auf der Trennschaltfläche und wählen Sie dann **[!UICONTROL Speichern]** aus, um Ihre Änderungen zu speichern und bei dem Schritt zu bleiben, in dem Sie weiterhin Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
