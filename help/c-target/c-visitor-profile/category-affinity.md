@@ -31,7 +31,7 @@ Sie können `user.categoryAffinities[]` in einem Profilskript benutzen, um ein A
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target&#39;s category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations&#39; product and content recommendations. `user.categoryId` ist erforderlich, um die bevorzugte Kategorie eines Benutzers zu verfolgen. `entity.categoryId` ist für Basisempfehlungen auf der Kategorie der aktuellen Seite oder des aktuellen Elements erforderlich. Übergeben Sie beide Werte an Adobe Target, wenn Sie beide Funktionen verwenden möchten.
+>The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` ist erforderlich, um die bevorzugte Kategorie eines Benutzers zu verfolgen. `entity.categoryId` ist für Basisempfehlungen auf der Kategorie der aktuellen Seite oder des aktuellen Elements erforderlich. Übergeben Sie beide Werte an Adobe Target, wenn Sie beide Funktionen verwenden möchten.
 
 ## Geschäftsfall für Kategorieaffinität {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
