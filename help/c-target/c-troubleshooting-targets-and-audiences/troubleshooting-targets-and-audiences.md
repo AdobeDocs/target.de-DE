@@ -37,7 +37,7 @@ In der folgenden Darstellung qualifiziert sich ein Benutzer aus Kalifornien mit 
 
 ## Warum unterscheiden sich die Namen der gleichen Zielgruppe in Target, Adobe Audience Manager (AAM) und der Zielgruppenbibliothek in den Core Services voneinander? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Zielgruppennamen in [!DNL Target] sind eindeutig; in [!DNL AAM] und [!DNL Audience Library] können Sie jedoch für mehrere Zielgruppen denselben Namen haben (wenn sie sich in verschiedenen Ordnern befinden). Wenn [!DNL Target] auf einen Zielgruppennamen trifft, der einer [!DNL AAM]- oder [!DNL Audience Library]-Zielgruppe entspricht, hängt [!DNL Target] ein &quot;#&lt;Nummer&gt;&quot; an den Namen an.
+Zielgruppennamen in [!DNL Target] sind eindeutig; in [!DNL AAM] und [!DNL Audience Library] können Sie jedoch für mehrere Zielgruppen denselben Namen haben (wenn sie sich in verschiedenen Ordnern befinden). Wenn [!DNL Target] auf einen Zielgruppennamen trifft, der einer [!DNL AAM]- oder [!DNL Audience Library]-Zielgruppe entspricht, hängt [!DNL Target] ein "#&lt;Nummer&gt;" an den Namen an.
 
 So könnten Ihnen beispielsweise folgende Zielgruppen angezeigt werden: „PC-Nutzer“ (in [!DNL AAM]) und „PC-Nutzer #1“ (in [!DNL Target]).
 
