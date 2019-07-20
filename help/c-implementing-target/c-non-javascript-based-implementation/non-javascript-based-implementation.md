@@ -26,8 +26,8 @@ AdBox-Anzeigen und Weiterleitungen können mit jeder beliebigen Aktivität verwe
 
 |  | Zielsetzung | Verwendungsbereiche | URL-Struktur | Angebotstyp | Angebotsinhalt |
 |--- |--- |--- |--- |--- |--- |
-| AdBox | Gibt verschiedene Bilder für die Werbeanzeige aus | Um die Inhalte einer Werbeanzeige zu ändern | `clientcode​.tt.​omtrdc​.net/​m2​/​clientcode/ubox/​image?` | Umleitungsangebot | URL für ein Bild |
-| Weiterleitung | Leitet einen Besucher an eine andere Webseite weiter | Um die Landingpage einer Werbeanzeige zu ändern | `clientcode​.tt.omtrdc.net/​m2/clientcode​/ubox/page?` | Umleitungsangebot | URL für eine Seite |
+| AdBox | Gibt verschiedene Bilder für die Werbeanzeige aus | Um die Inhalte einer Werbeanzeige zu ändern | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | Umleitungsangebot | URL für ein Bild |
+| Weiterleitung | Leitet einen Besucher an eine andere Webseite weiter | Um die Landingpage einer Werbeanzeige zu ändern | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | Umleitungsangebot | URL für eine Seite |
 
 ## Einschränkungen {#section_38F559DCF1324271926608BCD4AB1227}
 
