@@ -55,7 +55,7 @@ Mit dieser Funktion können Sie mehr als ein Angebot, das von `adobe.target.getO
 | Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Option &gt; Typ | Optionstyp. Spiegelt den Typ des Feldes „Inhalt“ wider. Unterstützt werden: HTML, Redirect, JSON und dynamisch. |
 | Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Optionen | Antwortoption. |
 | Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Metriken &gt; eventToken | Token des Klickereignisses. |
-| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Metriken &gt; Typ | &quot;click&quot; |
+| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Metriken &gt; Typ | "click" |
 | Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Metriken | Enthält eine Liste der `clickThrough`-Metriken. |
 | Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Mbox | Der Name der Mbox. |
 | Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Index | Gibt an, dass mit diesem Index der Anfrage die Antwort für Mbox ist. |
