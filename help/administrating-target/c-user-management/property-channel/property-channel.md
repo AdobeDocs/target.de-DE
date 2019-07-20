@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Berechtigungen für Unternehmensbenutzer{#enterprise-user-permissions}
 
-Enterprise-Benutzerberechtigungen bieten eine Möglichkeit, unternehmensweite Benutzerzugriff auf Target zu verwalten. Fügen Sie Benutzer zu Target hinzu, weisen Sie Berechtigungen auf Grundlage ihrer Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf unterschiedlichen Abteilungen, globalen Orten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzer die Rollen &quot;Beobachter&quot; ,&quot; Editor&quot; oder &quot;Genehmiger&quot; zuweisen.
+Enterprise-Benutzerberechtigungen bieten eine Möglichkeit, unternehmensweite Benutzerzugriff auf Target zu verwalten. Fügen Sie Benutzer zu Target hinzu, weisen Sie Berechtigungen auf Grundlage ihrer Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf unterschiedlichen Abteilungen, globalen Orten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzer die Rollen "Beobachter" ," Editor" oder "Genehmiger" zuweisen.
 
 ## Stellen Sie fest, ob Sie Zugriff auf die Berechtigungen für Unternehmensbenutzer haben
 
