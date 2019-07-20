@@ -32,7 +32,7 @@ Vorab eingestellte Zielgruppen in der Target-Bibliothekskategorie sind veraltete
 
    Zu vorab erstellten Targeting-Regeln gehören Betriebssystem Windows, Tablet-Gerät, Safari-Browser, wiederkehrende Besucher, von Google weitergeleitet und viele andere.
 
-   Die vordefinierte Zielgruppe &quot;Tablet-Gerät&quot; qualifiziert sich bereits, wenn der Benutzeragent eine der folgenden Zeichenfolgen enthält (einige davon sind eine Modellnummer von Geräten). Sie müssen keine eigenen Targeting-Regeln für diese Geräte erstellen.
+   Die vordefinierte Zielgruppe "Tablet-Gerät" qualifiziert sich bereits, wenn der Benutzeragent eine der folgenden Zeichenfolgen enthält (einige davon sind eine Modellnummer von Geräten). Sie müssen keine eigenen Targeting-Regeln für diese Geräte erstellen.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 und Tablet-PC.
 
