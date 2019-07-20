@@ -19,4 +19,4 @@ Bei allen Drittanbieter-Beiträgen zu diesem Projekt muss eine entsprechende unt
 
 ## Code-Überprüfungen
 
-Alle Code-Beiträge sollten als Pull-Anforderungen übermittelt werden und müssen von den Projektverantwortlichen geprüft werden. Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+Alle Code-Beiträge sollten als Pull-Anforderungen übermittelt werden und müssen von den Projektverantwortlichen geprüft werden. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
