@@ -38,7 +38,7 @@ Die Daten werden bis zum Ende der Aktivität gespeichert.
 
 >[!NOTE]
 >
->Der CSV-Bericht enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden. Möchten Sie diese Metriken berechnen, laden Sie die Excel-Datei [Target&#39;s Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) herunter, um die Aktivitätswerte einzugeben oder die [von Target verwendeten statistischen Berechnungen](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf) einzusehen.
+>Der CSV-Bericht enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden. Möchten Sie diese Metriken berechnen, laden Sie die Excel-Datei [Target's Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) herunter, um die Aktivitätswerte einzugeben oder die [von Target verwendeten statistischen Berechnungen](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf) einzusehen.
 
 ## Bestelldetails als CSV exportieren {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
