@@ -151,7 +151,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Wenn Sie nach dem Variablenwert Informationen hinzufügen möchten, können Sie dies mit einer formalen Notation tun. Beispiel: `${entity1.thumbnailUrl}.gif`.
 
@@ -208,7 +208,7 @@ Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreise
 
 ## Scenario: Create a 4x2 default Recommendations design with null-checking logic {#default}
 
-Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren&#39;t enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn&#39;t make sense and [!UICONTROL Partial Template Rendering] is enabled.
+Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
 
 Der folgende HTML-Abschnitt ersetzt den vorhandenen HTML-Teil im Standardentwurf von 4 x 2 (die CSS wird hier aufgrund der Ähnlichkeit nicht berücksichtigt):
 
