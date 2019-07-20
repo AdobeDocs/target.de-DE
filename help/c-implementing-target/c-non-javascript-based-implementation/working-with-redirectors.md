@@ -79,7 +79,7 @@ Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen
 
 1. Überprüfen Sie, ob alle Erlebnisse, Standardinhalte und Berichte wie erwartet in allen Browsern und für alle Ihre Umgebungen funktionieren.
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE] {class="- topic/note "}
    >
    >* Weiterleitungen werden von der Angebotsvorschau oder Mbox-Suche nicht unterstützt. Zeigen Sie eine Vorschau der Erlebnisse direkt in einem Browser an.
    >* `mboxDebug` funktioniert bei Weiterleitungen nicht.
