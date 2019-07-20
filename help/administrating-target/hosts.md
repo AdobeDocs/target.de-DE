@@ -55,7 +55,7 @@ Damit ein Host erkannt werden kann, müssen folgende Bedingungen erfüllt werden
 
 Nach Aufruf der Seite erscheint der Host in der [!UICONTROL Hostgruppenliste], sodass Sie ihn in einer Umgebung verwalten, eine Vorschau anzeigen und Aktivitäten und Tests starten können.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Dies umfasst sämtliche persönlichen Entwicklungsserver.
 
