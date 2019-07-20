@@ -47,11 +47,11 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
    1. Sie können per Drag-and-drop Zielgruppen eines bereits bestehenden Abschnitts als Bausteine der Stufe 2 hinzufügen. Möchten Sie Bausteine der Stufe 1 hinzufügen, aktivieren Sie das Kontrollkästchen neben der gewünschten Zielgruppe und klicken Sie auf **[!UICONTROL Zu Regeln hinzufügen]**.
 
-      Nehmen wir beispielsweise an, dass Sie jetzt Safari-Benutzer in die kombinierte Zielgruppe aufnehmen möchten. Suchen Sie nach der Zielgruppe &quot;Safari Browser&quot; und ziehen Sie sie auf der rechten Seite in das Feld&quot; Firefox Browser&quot; , wie im folgenden Beispiel:
+      Nehmen wir beispielsweise an, dass Sie jetzt Safari-Benutzer in die kombinierte Zielgruppe aufnehmen möchten. Suchen Sie nach der Zielgruppe "Safari Browser" und ziehen Sie sie auf der rechten Seite in das Feld" Firefox Browser" , wie im folgenden Beispiel:
 
       ![](assets/combine_multiple_audiences3.png)
 
-      In diesem Fall lautet der Operator für die beiden Browsertypen „AND“. Wählen Sie die Dropdownliste Und aus und ändern Sie sie in &quot;OR&quot; , um eine neue kombinierte Zielgruppe für neue Besucher mit Firefox oder Safari zu erstellen. Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. Beispielsweise kann es nicht passieren, dass Benutzer eine Seite gleichzeitig mit Firefox und Safari besuchen.
+      In diesem Fall lautet der Operator für die beiden Browsertypen „AND“. Wählen Sie die Dropdownliste Und aus und ändern Sie sie in "OR" , um eine neue kombinierte Zielgruppe für neue Besucher mit Firefox oder Safari zu erstellen. Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. Beispielsweise kann es nicht passieren, dass Benutzer eine Seite gleichzeitig mit Firefox und Safari besuchen.
 
       >[!NOTE]
       >
