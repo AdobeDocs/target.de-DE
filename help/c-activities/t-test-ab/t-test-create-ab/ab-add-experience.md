@@ -85,7 +85,7 @@ Sie können ein Erlebnis aus einem A/B-Test kopieren, um kleinere Änderungen vo
 
 Klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (der erste Schritt im Drei-Schritte-Workflow) auf die drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Duplizieren]**.
 
-![Option &quot;Doppelt multiplizieren «](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
+![Option "Doppelt multiplizieren «](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## Löschen eines Erlebnisses
 
