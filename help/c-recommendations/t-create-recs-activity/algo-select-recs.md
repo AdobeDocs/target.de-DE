@@ -33,7 +33,7 @@ Wenn Sie mehrere Kriterien auswählen, wird der Traffic gleichmäßig zwischen d
 
 1. While [creating a new recommendation](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), in the **[!UICONTROL Criteria]** dialog box, locate and select one or more criteria.
 
-   ![Dialogfeld &quot;Kriterien auswählen «](/help/c-recommendations/t-create-recs-activity/assets/filters.png)
+   ![Dialogfeld "Kriterien auswählen «](/help/c-recommendations/t-create-recs-activity/assets/filters.png)
 
    You can use the [!UICONTROL Industry Type] filter, [!UICONTROL Page Type] filter, and [!UICONTROL Compatible] checkbox to filter the list of criteria. Diese Optionen helfen Ihnen bei der Suche nach den gewünschten Kriterien.
 
