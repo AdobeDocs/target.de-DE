@@ -50,7 +50,7 @@ Gibt zusätzliche Parameter zurück, die an jeden Mbox-Aufruf weitergegeben werd
 
 Beispiel:
 
-return &quot;test=123&quot;;
+return "test=123";
 
 ## mboxSupported()-Funktionsrumpf
 
@@ -58,7 +58,7 @@ Gibt „false“ zurück, um bestimmte Benutzer auszuschließen.
 
 Beispiel:
 
-return !navigator.userAgent.indexOf(&#39;Safari&#39;) != -1;
+return !navigator.userAgent.indexOf('Safari') != -1;
 
 Folgende Browser können akzeptiert oder ausgeschlossen werden:
 
@@ -73,7 +73,7 @@ Gibt eine Zeichenfolge zurück, die die Domäne für das Einrichten der Erstanbi
 
 Beispiel:
 
-return &quot;YOUR-DOMAIN&quot;;
+return "YOUR-DOMAIN";
 
 ## Extra JavaScript
 
