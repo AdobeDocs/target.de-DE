@@ -37,7 +37,7 @@ In diesem Fall müssen Sie regionsspezifische Versionen des Erlebnisses erstelle
 
 1. Wählen Sie das Erlebnis aus und klicken Sie auf **[!UICONTROL Konfigurieren]** &gt; **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Mehrere Zielgruppen]**.
 
-   ![Option &quot;Mehrere Zielgruppen «](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
+   ![Option "Mehrere Zielgruppen «](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
 1. Klicken Sie auf **[!UICONTROL Zielgruppe hinzufügen]** und wählen Sie die erste Zielgruppe aus. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
 
