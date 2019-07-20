@@ -71,7 +71,7 @@ Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden n
 
 1. [Klicken Sie in der Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Produkte]** und wählen Sie dann den Namen des gewünschten Produkts aus.
 
-   ![Registerkarte &quot;Produkte «](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![Registerkarte "Produkte «](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
 1. Klicken Sie auf den Namen der gewünschten Konfiguration.
 1. Klicken Sie auf **[!UICONTROL Benutzer]**.
