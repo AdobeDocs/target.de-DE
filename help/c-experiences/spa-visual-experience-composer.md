@@ -375,7 +375,7 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 
 [!UICONTROL Mit den Einstellungen für die Seitenauslieferung] können Sie Regeln konfigurieren, um zu bestimmen, wann eine Target-Aktivität qualifiziert und für eine Zielgruppe ausgeführt werden soll.
 
-To access the [!UICONTROL Page Delivery] options from within the VEC&#39;s three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
 
 ![Seitenauslieferungsoptionen, Dialogfeld](/help/c-experiences/assets/page-delivery.png)
 
