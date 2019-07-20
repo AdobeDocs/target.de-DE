@@ -25,7 +25,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
 1. Klicken Sie zum Verwenden von Visual Experience Composer (VEC) auf **[!UICONTROL Visuell (Standard)]**.
 
-   ![Dialogfeld &quot;Automatisierte Personalisierung&quot; erstellen](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
+   ![Dialogfeld "Automatisierte Personalisierung" erstellen](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
    Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular aus]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
@@ -102,7 +102,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    ![Hover-Symbol des Ordners](/help/c-activities/t-automated-personalization/assets/icon-folder.png)
 
-   Sie können Erlebnisse in eine Berichtsgruppe einbeziehen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann in der rechten oberen Ecke des Dialogfelds auf die Schaltfläche &quot;Berichtsgruppe&quot; klicken.
+   Sie können Erlebnisse in eine Berichtsgruppe einbeziehen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann in der rechten oberen Ecke des Dialogfelds auf die Schaltfläche "Berichtsgruppe" klicken.
 
    ![Optionen für Berichtsgruppen](/help/c-activities/t-automated-personalization/assets/report-group-options.png)
 
@@ -112,7 +112,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Ausschlussgruppen]**, um beliebige Kombinationen der Elemente auszuwählen, die Sie aus der Aktivität ausschließen möchten.
 
-   ![Ausschlussgruppen, Registerkarte &quot;Inhalt verwalten «](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
+   ![Ausschlussgruppen, Registerkarte "Inhalt verwalten «](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
    Obwohl Sie bis zu 30.000 Erlebnisse in einem AP-Test erstellen können, funktionieren die Algorithmen am besten, wenn weniger als 10.000 eindeutige Erlebnisse verwendet werden.
 
@@ -128,7 +128,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    ![Dropdown-Liste für die Traffic-Zuordnung](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **Personalisierungsalgorithmus auswerten (50/50):** Wenn Sie den Algorithmus testen möchten, sollten Sie eine 50/50-Prozentaufteilung der Besucher zwischen dem Kontroll- und dem Zielalgorithmus verwenden. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung. Für die Verwendung mit &quot;Random Experiences&quot; als Steuerelement vorgeschlagen.
+   * **Personalisierungsalgorithmus auswerten (50/50):** Wenn Sie den Algorithmus testen möchten, sollten Sie eine 50/50-Prozentaufteilung der Besucher zwischen dem Kontroll- und dem Zielalgorithmus verwenden. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung. Für die Verwendung mit "Random Experiences" als Steuerelement vorgeschlagen.
    * **Personalisierungs-Datenverkehr maximieren (90/10):** Wenn Sie eine „Always on“-Aktivität erstellen möchten, sollten Sie 10 % der Besucher in den Kontrollbereich versetzen, um sicherzustellen, dass ausreichend Daten vorhanden sind, damit die Algorithmen mit der Zeit weiterhin lernen werden können. Beachten Sie, dass das Personalisieren einer größeren Traffic-Menge zur Folge hat, dass die Bestimmung der exakten Steigerung weniger präzise ist. Unabhängig von Ihrem Ziel ist dies die empfohlene Traffic-Aufteilung, wenn ein bestimmtes Erlebnis als Steuerung verwendet wird.
    * **Zuordnung anpassen:** Teilen Sie den Prozentsatz nach Bedarf manuell auf.
 
