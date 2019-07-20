@@ -21,7 +21,7 @@ In der folgenden Illustration wird die Diagrammüberschrift für eine Beispielak
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Duplizierte Bestellungen werden in allen Daten ignoriert, wenn ein `orderID` übergeben wird. Im Audit-Bericht werden die ignorierten duplizierten Bestellungen aufgelistet.
 
@@ -107,7 +107,7 @@ Das *Konfidenzintervall* ist ein Bereich, in dem der wahre Wert auf einer bestim
 
 Der [heruntergeladene CSV-Bericht](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
 
-Möchten Sie diese Metriken berechnen, laden Sie die Excel-Datei [Target&#39;s Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) herunter, um die Aktivitätswerte einzugeben oder die [von Target verwendeten statistischen Berechnungen](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf) einzusehen.
+Möchten Sie diese Metriken berechnen, laden Sie die Excel-Datei [Target's Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) herunter, um die Aktivitätswerte einzugeben oder die [von Target verwendeten statistischen Berechnungen](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf) einzusehen.
 
 >[!NOTE]
 >
@@ -183,6 +183,6 @@ Berichte können nach folgenden Zählmethodiken angezeigt werden:
 
    Ein einzelner Besuch kann diverse Impressionen, z. B. Ihrer Startseite, beinhalten.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >In der Regel werden Zählungen durch Cookies und Sitzungsaktivitäten bestimmt. Wenn Sie jedoch den End-Konversionspunkt einer Aktivität erreichen und die Aktivität dann erneut aufrufen, werden Sie als neuer Teilnehmer und neuer Aktivitätsbesuch gezählt. Dies trifft auch dann zu, wenn sich die Werte Ihrer PCID und der `sessionID` nicht geändert haben.
