@@ -48,13 +48,13 @@ Es gibt zwei Methoden zur Zuweisung eines Ergebnisses zu einer Seite:
 
    Bei Anwendung dieser Methode wird der angegebene Wert zum Ergebnis für jede Mbox auf der Seite hinzugefügt. Wenn Sie zum Beispiel den Parameter `?mboxPageValue=10` eingeben und sich auf der Seite drei Mboxes befinden, beträgt das Ergebnis für die Seite 30.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Mboxes, die sich oberhalb der ersten Anzeige-Mbox der Kampagne befinden, werden im Ergebnis nicht berücksichtigt.
 
 Die Best Practice ist, Werte im Mbox-Code zuzuweisen. So können Sie die gemessenen Werte genauer erfassen - abhängig vom Inhalt jeder mbox.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Zur einfacheren Wartung können Sie die Wertezuweisungen des Seitenergebnisses Ihrer Site in der Datei [!DNL at.js] oder [!DNL mbox.js] mit bedingter JavaScript-Logik konfigurieren. So müssen Sie keinen weiteren Code zu Ihren Seiten hinzufügen. Wenden Sie sich an Ihren Berater, wenn Sie weitere Hilfe benötigen.
 
