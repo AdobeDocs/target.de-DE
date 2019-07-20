@@ -41,7 +41,7 @@ Wenn ein Aktivitätsteilnehmer auf ein ausgewähltes Element klickt, wird dieser
 
 For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
 
-![Bedienfeld &quot;Ausgewählte Elemente «](/help/c-activities/r-success-metrics/assets/selected-elements.png)
+![Bedienfeld "Ausgewählte Elemente «](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
 There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. Die folgende Tabelle beschreibt die einzelnen Aktionen, die für ein Element durchgeführt werden können:
 
@@ -55,13 +55,13 @@ There are a several actions that can be applied when you hover over an element i
 
 Wenn Sie den DOM-Pfad zum Selektor bereits kennen, können Sie ihn manuell hinzufügen, indem Sie auf das Pluszeichen oben im Bedienfeld klicken.
 
-![Symbol &quot;Element hinzufügen «](/help/c-activities/r-success-metrics/assets/add-element.png)
+![Symbol "Element hinzufügen «](/help/c-activities/r-success-metrics/assets/add-element.png)
 
 ### Popup zum Hover ausgewählt
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. Die Liste enthält den vollständigen DOM-Pfad für das Element, damit Sie überprüfen können, ob das ausgewählte Element für die Klick-Tracking verwendet werden soll.
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. Die Liste enthält den vollständigen DOM-Pfad für das Element, damit Sie überprüfen können, ob das ausgewählte Element für die Klick-Tracking verwendet werden soll.
 
-![Link &quot;Elemente ausgewählt «](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
+![Link "Elemente ausgewählt «](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## Zu beachten {#considerations}
 
