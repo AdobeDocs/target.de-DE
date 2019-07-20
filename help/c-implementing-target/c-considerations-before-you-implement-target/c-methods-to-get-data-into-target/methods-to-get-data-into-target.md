@@ -56,7 +56,7 @@ Die Daten werden in Echtzeit an Target gesendet und können bei demselben Server
 
    Zusätzlich zu den auf der IETF-Site erwähnten Zeichen lässt Target folgende Zeichen in Abfragezeichenfolgen zu:
 
-   `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
+   `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
    Alle anderen Zeichen müssen URL-codiert sein. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
