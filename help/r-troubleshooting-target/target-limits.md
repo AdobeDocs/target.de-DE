@@ -19,9 +19,9 @@ Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgrup
 
 >[!NOTE]
 >
->Die unten aufgeführten Beschränkungen sollten als &quot;harte&quot; Beschränkungen gelten, sofern nicht als&quot; empfohlen&quot; angegeben.
+>Die unten aufgeführten Beschränkungen sollten als "harte" Beschränkungen gelten, sofern nicht als" empfohlen" angegeben.
 >
->Wenn die als &quot;empfohlen&quot; festgelegten Beschränkungen erreicht oder überschritten werden, kann sich die Leistung verlangsamen. Langsame Ladezeiten der Oberfläche können ebenfalls durch eine sehr komplexe Aktivität bedingt sein, die viele Zielgruppen, Ziele und Erlebnisse enthält.
+>Wenn die als "empfohlen" festgelegten Beschränkungen erreicht oder überschritten werden, kann sich die Leistung verlangsamen. Langsame Ladezeiten der Oberfläche können ebenfalls durch eine sehr komplexe Aktivität bedingt sein, die viele Zielgruppen, Ziele und Erlebnisse enthält.
 >
 >Hochkomplexe Aktivitäten sollten mit Adobe Consulting geprüft und in einer eingeschränkten Umgebung getestet werden, bevor sie zur Produktion freigegeben werden.
 
