@@ -67,14 +67,14 @@ Wenn eine Zielgruppe mit einer anderen Zielgruppe kombiniert und die kombinierte
 
 Die folgende Zielgruppendefinitionskarte ist für eine aus der Adobe Experience Cloud importierte Zielgruppe vorgesehen. In dieser Instanz wurde die Zielgruppe aus Adobe Audience Manager (AAM) importiert. 
 
-![Registerkarte &quot;Nutzung&quot; auf der Karte für die Zielgruppendefinition](assets/audience_definition_mc.png)
+![Registerkarte "Nutzung" auf der Karte für die Zielgruppendefinition](assets/audience_definition_mc.png)
 
 Für diese importierten Zielgruppentypen sind die folgenden Details verfügbar:
 
 | Zielgruppentyp | Details |
 |--- |--- |
 | Mobile Zielgruppe | Marketing-Name, Hersteller und Modell.<br>Der `matches | does not match`-Operator wird anstelle `equals | does not equal`<br>![ der Importierten Mobilen Zielgruppe](/help/c-target/c-audiences/assets/imported_mobile_audience.png) angezeigt. |
-| Besucherverhalten-Zielgruppe | **user.categoryAffinity:** `categoryAffinity` mit `FAVORITE`-Parameter.<br>![Importierte Kategorieaffinität](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br> **-Überwachung:** Überwachungsdienst ist True.<br>**Kein Überwachungsdienst:** Überwachungsdienst ist False.<br>![Importierte Überwachung](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Besucherverhalten-Zielgruppe | **user.categoryAffinity:** `categoryAffinity` mit `FAVORITE`-Parameter.<br>![Importierte Kategorieaffinität](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br> **-Überwachung:** Überwachungsdienst ist True.<br>**Kein Überwachungsdienst:**&#x200B;Überwachungsdienst ist False.<br>![Importierte Überwachung](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Zielgruppen mit dem Operator NOT | **Einzelregel:** Target zeigt die Zielgruppe im Format `[All Visitor AND [NOT [rule]` an. Einzelne NOT-Regel wird mit UND mit `AllVisitor`-Zielgruppe angezeigt.<br>![Importierte Not-Zielgruppe](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Berücksichtigen Sie beim Arbeiten mit importierten Zielgruppen Folgendes:
