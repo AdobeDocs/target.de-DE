@@ -1,7 +1,7 @@
 ---
 description: Kriterien sind Regeln, die auf Basis vorab ermittelter Verhaltensweisen von Besuchern festlegen, welche Produkte empfohlen werden.
-keywords: Empfehlungen; Empfehlungs-Aktivität; Kriterien
-seo-description: Kriterien sind Regeln, die auf Basis vorab ermittelter Verhaltensweisen von Besuchern festlegen, welche Produkte empfohlen werden.
+keywords: Empfehlungen; Empfehlungs-Aktivität; Kriterien;verwendet
+seo-description: Kriterien in Adobe Target sind Regeln, die bestimmen, welche Produkte basierend auf einem vorab festgelegten Besucherverhalten empfohlen werden sollen.
 seo-title: Kriterien
 solution: Target
 title: Kriterien
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -71,15 +71,15 @@ Alle eintägigen Kriterien werden zweimal täglich ausgeführt. Alle einwöchige
 
 Sie können Kriteriendetails auf einer Popupkarte anzeigen, indem Sie mit dem Mauszeiger über eine Karte fahren und auf das Informationssymbol einer Kriterienkarte klicken, ohne das Kriterium zu öffnen.
 
-![](assets/criteria_hover.png)
+![Kriterienkarte-Hover](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
 Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusinformationen], um allgemeine Informationen zu den ausgewählten Kriterien anzuzeigen, einschließlich Name, Beschreibungen, vertikalen Markt, Seitentyp(en), Empfehlungsschlüssel, Empfehlungslogik und Algorithmus-ID.**
 
-![](assets/criteria_info.png)
+![Algorithmusinfo, Registerkarte](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
 Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusnutzung]**, um eine Liste der Aktivitäten anzuzeigen, die das ausgewählte Kriterium verwenden. Die Karte führt aktive und inaktive Aktivitäten auf. Klicken Sie auf die Dropdownliste „Live-Aktivitäten“ oder „Inaktivitäten“, um die gesamte Liste von Aktivitäten anzuzeigen, die das Kriterium verwenden. Sie können auf einen Aktivitätslink klicken, um die Aktivität zur Bearbeitung zu öffnen.
 
-![](assets/criteria_usage.png)
+![Registerkarte "Kriteriennutzung «](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 ## Bestimmen, wann Kriterienergebnisse zur Anzeige bereit sind {#section_03F328C07F234692B6D996DF745584B3}
 
@@ -91,7 +91,7 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusnutzung]**, um eine L
 
 Folgende Abbildung zeigt das Aktivitätsdiagramm auf der Übersichtsseite einer Recommendations-Aktivität. Während des Workflows zur Aktivitätserstellung sehen Sie auch das Aktivitätsdiagramm samt den Kriterienstatus-Ergebnissen aus Schritt 2.
 
-![](assets/criteria_status.png)
+![Kriterienstatus auf der Übersichtsseite](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 Der Ergebnisstatus kann wie folgt lauten: Ergebnisse bereit, Ergebnisse nicht bereit oder Feed-Fehler. Siehe hierzu folgende Abbildung:
 
