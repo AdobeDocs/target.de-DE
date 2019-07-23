@@ -8,7 +8,7 @@ title: Empfehlungen als Angebot
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -70,9 +70,9 @@ Sie haben zwei Möglichkeiten, um die Konfiguration eines Angebots zu bearbeiten
 
 ### Bearbeiten eines Empfehlungsangebots über das Menü „Bearbeiten“
 
-1. Klicken Sie auf das Angebot, das Sie bearbeiten möchten, und klicken Sie dann auf „Bearbeiten“.
+1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![Menü „Bearbeiten“](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![Recommendations-Angebot bearbeiten](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. Wählen Sie aus den folgenden Optionen:
 
@@ -85,8 +85,8 @@ Sie haben zwei Möglichkeiten, um die Konfiguration eines Angebots zu bearbeiten
 
 ### Bearbeiten eines Empfehlungsangebots über das Bedienfeld „Änderungen“
 
-1. Klicken Sie auf das [!UICONTROL Änderungen]-Symbol *&lt;/&gt;*, um den Bereich [Änderungen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) anzuzeigen.
-1. Bewegen Sie den Mauszeiger über die gewünschte Aktion und klicken Sie auf das Symbol für das [!UICONTROL Bearbeiten].
+1. Click the [!UICONTROL Modifications] icon  **(`</>`)** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. Bewegen Sie den Mauszeiger über die gewünschte Aktion und klicken Sie auf das Symbol für das **[!UICONTROL Bearbeiten].**
 
    ![Bedienfeld für Änderungen](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -101,13 +101,23 @@ Es gibt zwei Möglichkeiten, ein Empfehlungsangebot zu löschen:
 
 ### Löschen eines Empfehlungsangebots über das Menü „Bearbeiten“
 
-1. Klicken Sie auf das Angebot, das Sie entfernen möchten, und dann auf [!UICONTROL Layout &gt; Entfernen].
+1. Klicken Sie auf das Angebot, das Sie entfernen möchten, und dann auf **[!UICONTROL Layout &gt; Entfernen]**.
 
    ![Entfernen](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### Löschen eines Empfehlungsangebots über das Bedienfeld für Änderungen
 
-1. Klicken Sie auf das [!UICONTROL Änderungen]-Symbol *&lt;/&gt;*, um den Bereich [Änderungen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) anzuzeigen.
+1. Click the [!UICONTROL Modifications] icon **( &lt;/&gt; )** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
 1. Bewegen Sie den Mauszeiger über die gewünschte Aktion und klicken Sie dann auf das [!UICONTROL Löschen]-Symbol.
 
    ![Symbol „Löschen“](/help/c-recommendations/assets/recs-offer-delete.png)
+
+### Viewing the recommendations offer's status {#status}
+
+The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
+
+* Bereitgestellte Ergebnisse
+* Ergebnisse nicht bereit
+* Feed-Fehler
+
+![Recommendations-Angebotsstatus](/help/c-recommendations/assets/recs-offer-status.png)
