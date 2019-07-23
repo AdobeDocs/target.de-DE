@@ -8,7 +8,7 @@ title: Versionshinweise für vorherige Versionen
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
 
 ---
 
@@ -23,7 +23,35 @@ Versionshinweise für vorherige Target-Versionen, einschließlich Versionshinwei
 
 ## Versionshinweise 2019 {#releases-2019}
 
-### [!DNL Target] Standard/Premium 19.5.1 (21. Mai 2019) {#tgt-19-5-1-historica}
+## Target Standard/Premium 19.6.1 (26. Juni 2019) {#tgt-19-6-1-historical}
+
+Dieses Release umfasst die folgenden neuen Funktionen und Erweiterungen:
+
+(Die Ausgabennummern in Klammern dienen internen Adobe-Benutzern.)
+
+| Funktion/Verbesserung | Beschreibung |
+| --- | --- |
+| Visual Experience Composer (VEC) | **Neue VEC-Menüoptionen**: Wenn Sie im VEC auf ein Seitenelement klicken, werden in einem Menü die für diesen Elementtyp verfügbaren Optionen angezeigt.<ul><li>You can now use the [!UICONTROL Styles &gt; Background] option to change the background image and color for the selected element. (TGT-15001)</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Verbesserungen** an Clicktracking: Wir haben den Prozess zur Konfiguration der Klick-Tracking im VEC und im Einzelseitenanwendung (SPA) verbessert.<ul><li>Während Sie Elemente auswählen, die bei der Klick-Verfolgung verwendet werden sollen, werden die Namen aller verfügbaren Elemente im Bedienfeld "Modifizierungen" auf der rechten Seite angezeigt, sodass die gewünschten Elemente schnell und einfach ausgewählt werden können.</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. Sie können den Mauszeiger über diese Nummer bewegen, um die Namen aller ausgewählten Elemente anzuzeigen. (TGT-33878)</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
+| Visual Experience Composer für Einzelseiten-Apps (SPA VEC) | **Geführter Arbeitsablauf**: Ein neuer geführter Arbeitsablauf hilft Ihnen, zu verstehen, wie die Einstellungen für die Seitenauslieferung konfiguriert werden sollen, um eine Aktivität für Ihre einzelne Seite-App erfolgreich auszuführen und auszuführen. (TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Änderungen klonen**: Sie können jetzt eine Änderung mithilfe der SPA VEC definieren und diese Änderung dann klonen, um sie in anderen Ansichten Ihrer Einzelseitenanwendung zu verwenden. (TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
+| Mobile Visual Experience Composer | **Mehrere App-Versionen**: Sie können jetzt Aktivitäten für mehrere Versionen Ihrer mobilen App erstellen. Dadurch sparen Sie Zeit und Mühe, wenn die Versionen ähnlich sind, und Sie müssen die Benutzeroberfläche der App nicht wesentlich ändern. (TGT-34231)<br>See "Manage multiple app versions" in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
+| ![Premium-Badge](/help/assets/premium.png) Automatisierte Personalisierung (AP) und Automatisches Targeting | **Spezifisches Erlebnis als Steuerung**: Sie können ein Erlebnis auswählen, das beim Erstellen einer AP- oder automatisch-Targeting-Aktivität als Kontrolle verwendet werden soll. Mit dieser Funktion können Sie den gesamten Traffic-Traffic an ein bestimmtes Erlebnis weiterleiten, basierend auf dem Prozentsatz der Traffic-Zuordnung, der in der Aktivität konfiguriert wurde. Anschließend können Sie die Leistungsberichte des personalisierten Traffic auswerten, um den Traffic zu diesem Erlebnis zu steuern. Die aktuelle Kontrolloption (zufällig bereitgestellte Erlebnisse) ist weiterhin verfügbar. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md). Note that there is a [current known issue](/help/r-release-notes/known-issues-resolved-issues.md) with this feature.<br>**Personalisierungsinsight-Berichte**: Die Benennung des Marketingprogramms für Attribute, wenn ein Besucher ein bestimmtes Inhaltselement an einem bestimmten Ort sieht, bietet aussagekräftigere Informationen. (TGT-33421 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
+| ![Premium-Badge](/help/assets/premium.png) Recommendations | Sie können den Schalter „Zuvor gekaufte Artikel empfehlen“ beim Erstellen der Logik „Kürzlich angezeigte Elemente“ nutzen. (TGT-34030)<br>Weitere Informationen finden Sie unter [Kürzlich angezeigte Elemente](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) in "Kriterien erstellen" . |
+| Google Chrome-Cookie-Richtlinien | Google hat kürzlich angekündigt, dass die Entwickler seit Chrome 76, die für ein Release vom 30. Juli 2019 verpackt sind, explizit angeben müssen, welche Cookies auf Websites funktionieren und welche Cookies Benutzer verfolgen können.<br>Da die Branche ein sicheres Web für Verbraucher schaffen kann, ist Target absolut verpflichtet, personalisierte Erlebnisse während des Meetings bereitzustellen und die Datenschutzerwartungen der Besucher zu überschreiten.<br>Weitere Informationen finden Sie unter [Google Chrome-Cookie-Cookie-Richtlinien](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
+
+## at.js version 2.1.0 (June 3, 2019) {#atjs-210}
+
+Wir freuen uns über die folgenden spannenden Funktionen in at. js 2.1.0:
+
+| Funktion/Verbesserung | Beschreibung |
+| --- | --- |
+| Support für Adobe-Teilnahme | Adobe Opt-In bietet die Möglichkeit, Adobe-Lösungsintegrationen mit Genehmigungsverwaltungsplattformen zu vereinfachen.<br>Weitere Informationen zu Adobe Opt-In finden Sie unter [Privatsphäre und Datenschutz-Grundverordnung (DSGVO)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
+| Branchenübliche CSP-kompatibel | at. js verwendet keine eval () mehr, um javascript auszuführen. |
+| Clientseitige Analyseprotokollierung | Gibt Kunden volle Kontrolle darüber, wie sie Analytics-Daten an Adobe Analytics senden können, ob auf Client- oder serverseitig.<br>Weitere Informationen finden Sie unter [clientseitige Analytics-Anmeldung](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) *Vor der Implementierung*. |
+| Benachrichtigungen senden | Allows developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.<br>Weitere Informationen finden Sie unter [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md). |
+| Geringere Dateigröße | Die Größe von at. js wird um ~ 24% verringert. Die kleinere Dateigröße verbessert die Seitenladeleistung und verringert die Zeit, at. js auf der Seite herunterzuladen. |
+| Aktualisierungen der Dokumentation von at. js | For a full list of all articles updated due to the at.js 2.1.0 release, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md). |
+
+### [!DNL Target] Standard/Premium 19.5.1 (21. Mai 2019) {#tgt-19-5-1-historical}
 
 (Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
