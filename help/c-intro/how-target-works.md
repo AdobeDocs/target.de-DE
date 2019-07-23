@@ -9,7 +9,7 @@ title: Funktionsweise von Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 834eee71f78765887e3e46f3cbab3eaf00b1ee39
+source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 ---
 
@@ -96,7 +96,9 @@ Um die Reaktionszeiten zu verbessern, hosten Edge-Umgebungen nur die Aktivitäts
 
 Jeder Edge-Knoten verfügt über alle notwendigen Informationen, um auf die Inhaltsanforderung des Benutzers zu antworten und Analysedaten zu der Anforderung nachzuverfolgen. Benutzeranforderungen werden an den nächstgelegenen Edge-Knoten weitergeleitet.
 
-![](assets/edge_network.png)
+![Zuordnung mit Kernedge-Sites und Edge-Sites](assets/edge_network.png)
+
+Adobe verfügt derzeit über zentrale Edge-Sites in Oregon und Texas in den USA. London, England; und Singapur. Adobe verfügt zur Zeit über Edge-Sites in Virginia (USA), Amsterdam, Niederlande; Tokio, Japan; und Sydney, Australien.
 
 Core- und Edge-Standorte umfassen sowohl ein Datenerfassungscenter als auch ein Datenverarbeitungscenter. Edge-Standorte umfassen nur ein Datenerfassungscenter. Jede Report Suite wird einem speziellen Datenverarbeitungscenter zugewiesen.
 
@@ -167,3 +169,16 @@ Zusätzlich zu diesen Richtlinien stellt Google eine weitere Richtlinie in der D
 Als Beispiel gibt Google an: „Wenn eine Originalseite voller Schlüsselwörter ist, die nicht den für die Benutzer verfügbaren Inhalten entsprechen, kann diese Seite aus unserem Index entfernt werden.“
 
 Unserer Ansicht nach ist es jedoch eher schwierig, die Bedeutung originaler Inhalte im Rahmen eines Tests unabsichtlich in solcher Weise zu verändern. Trotzdem empfehlen wir, die Schlüsselwortaussagen einer Seite zu prüfen und sie bei neuen Variationen beizubehalten. Änderungen am Seiteninhalt, besonders das Löschen oder Hinzufügen relevanter Schlüsselwörter, kann dazu führen, dass sich das organische Ranking der Seite ändert. Wir empfehlen Ihnen, Ihren SEO-Partner in den Testvorgang einzubeziehen.
+
+Bots {#bots}
+
+Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. Der als von einem Bot generierte Traffic wird wie ein gewöhnlicher Benutzer weiterhin bereitgestellt, um sicherzustellen, dass er mit SEO-Richtlinien in Einklang gebracht wird. Durch Verwendung von Bot-Traffic können A/B-Tests oder Personalisierungsalgorithmen verfälschen, wenn sie wie normale Benutzer behandelt werden. Wenn daher ein bekannter Bot in Ihrer Target-Aktivität erkannt wird, wird der Traffic etwas anders behandelt. Das Entfernen von Bot-Traffic bietet eine genauere Messung der Benutzeraktivität.
+
+Speziell für bekannte Bot-Traffic-Target gilt Folgendes:
+
+* Ein Besucherprofil erstellen oder abrufen
+* Protokollieren von Profilattributen oder Ausführen von Profilskripten
+* Suchen Sie nach Adobe Audience Manager (AAM)-Segmenten (falls zutreffend).
+* Verwenden Sie Bot-Traffic in der Modellierung und stellen Sie personalisierte Inhalte für Recommendations, automatisches Targeting, automatisierte Personalisierung oder automatisierte Zuordnung bereit.
+* Protokollieren Sie einen Aktivitätsbesuch für die Berichterstellung.
+* Protokolldaten, die an die Adobe Experience Cloud-Plattform gesendet werden sollen
