@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
 
 ---
 
@@ -198,7 +198,7 @@ Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Class
 >* Target unterstützt nur Produkt-Classifications. Die Analytics-Produkt-SKU muss derselben Ebene wie die entity.id von Recommendations zugeordnet sein. Die benutzerspezifischen Analytics-Classifications können mit Adobe Consulting Services entwickelt werden. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Fragen haben.
 
 
-## Feed erstellen {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## Feed erstellen {#steps}
 
 Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in [!DNL Recommendations] einzufügen.
 
@@ -220,7 +220,13 @@ recs/t_feeds_create.xml
 
    Wenn Sie „FTP“ auswählen, geben Sie die FTP-Serverdaten, die Anmeldedaten, den Dateinamen und das FTP-Verzeichnis an. Sie haben die Option, für ein sicheres Hochladen einen FTP mit SSL-Verschlüsselung (FTPS) zu verwenden.
 
+   Unterstützte FTP-Servereinstellungen:
+
+   * FTP und FTPS müssen für die Verwendung passives FTP festgelegt werden.
+   * Konfigurieren Sie für FTPS Server für die Annahme expliziter FTPS-Verbindungen.
+   * SFTP wird nicht unterstützt.
    Wenn Sie „URL“ auswählen, geben Sie die URL an.
+
 1. Klicken Sie auf den **[!UICONTROL Weiter]**-Pfeil, um die [!UICONTROL Planungsoptionen] anzuzeigen.
 
    ![Schrittergebnis](assets/CreateFeedSchedule.png)
@@ -260,7 +266,7 @@ Wenn als Status „Erfolg“ gemeldet wird, bedeutet dies, dass die Datei gefund
 
 Informationen über die möglichen Feedstatus-Optionen und deren Indikatoren.
 
-### Feedstatus-Optionen {#section_5DDC2DECF70A42FDAFF2235E91371537}
+### Feedstatus-Optionen {#status}
 
 Folgende Statusoptionen stehen für Feeds zur Verfügung:
 
@@ -272,10 +278,8 @@ Folgende Statusoptionen stehen für Feeds zur Verfügung:
 | Geplant am *Tag und Uhrzeit* | Der Feed wurde nicht ausgeführt, jedoch für eine bestimmte Uhrzeit an einem bestimmten Tag geplant. |
 | Warten auf Download | Target bereitet das Herunterladen der Feed-Datei vor. |
 | Herunterladen von Feed-Datei | Target lädt die Feed-Datei herunter. |
-| Importieren von Elementen | Target importiert Elemente aus der Feed-Datei. Hinweis: Sobald dieser Schritt abgeschlossen ist und „Suchindex-Updates vorbereiten“ angezeigt wird, wurden Änderungen an Elementattributen in unser zentrales System importiert und erscheinen in den bereitgestellten Empfehlungsinhalten, die von unseren geografischen Edge-Knoten innerhalb von 60 Minuten zurückgegeben werden. |
-| Vorbereiten von Suchindex-Updates | Target bereitet die Aktualisierung des Katalogsuchindexes vor. Hinweis: Wenn dieser Status aufgeführt ist, wurden Änderungen an Elementattributen bereits vorgenommen und werden in Kürze in den gelieferten Empfehlungen übernommen, obwohl sie noch nicht in der Katalogsuche dargestellt werden. |
-| Suchindex wird aktualisiert | Target aktualisiert den Index für die Katalogsuche. Hinweis: Wenn dieser Status aufgeführt ist, wurden Änderungen an Elementattributen bereits vorgenommen und werden in Kürze in den gelieferten Empfehlungen übernommen, obwohl sie noch nicht in der Katalogsuche dargestellt werden. |
-| Aktualisierungen abgeschlossen | Target hat alle mit der Feed-Datei verknüpften Aktualisierungen abgeschlossen. |
+| Importieren von Elementen | Target importiert Elemente aus der Feed-Datei. |
+| Feed Imported Successfully at *time* | Target hat die Feed-Datei in das Inhaltsbereitstellungssystem importiert. Änderungen an Elementattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in den bereitgestellten Empfehlungen übernommen. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es in Kürze erneut und aktualisieren Sie die Seite mit den Empfehlungen.<br>*Hinweis 1:* Wenn Änderungen an den Attributen eines Elements dazu führen, dass ein Element aus Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort übernommen. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*Hinweis 2:* Wenn dieser Status angezeigt wird, werden die Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche der Katalogsuche übernommen. In der Katalogsuche wird ein separater Status aufgeführt, der angibt, wann der durchsuchbare Katalog zuletzt aktualisiert wurde. |
 | Index konnte nicht verwendet werden | Die Index-Operation ist fehlgeschlagen. Bitte versuchen Sie es erneut. |
 | Server nicht gefunden | FTP- oder URL-Speicherorte sind ungültig oder nicht erreichbar. |
 
