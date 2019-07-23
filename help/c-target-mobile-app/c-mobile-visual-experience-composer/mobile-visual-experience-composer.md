@@ -7,7 +7,7 @@ title: Visual Experience Composer für mobile Apps
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
+source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
 
 ---
 
@@ -84,16 +84,6 @@ Wenn eine neue App-Version erkannt wird, werden Sie darüber informiert, dass di
 Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
 
 ![Versionen verwalten, Dialogfeld](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
-
-## Fehlerbehebung {#troubleshooting}
-
-**Der Mobile App VEC meldet, dass die Verbindung zu meiner App getrennt wurde.**
-
-Möglicherweise wurde Ihre Internetverbindung unterbrochen. Starten Sie die Applikation erneut, sobald das Internet wieder verfügbar ist, um eine neue Verbindung herzustellen. Es wird empfohlen, eine Mobile App VEC-Aktivität zu erstellen, während eine WLAN-Verbindung besteht.
-
-**Der Mobile App VEC ist nicht mit meiner App sychronisiert.**
-
-Klicken Sie im VEC auf die Schaltfläche [!UICONTROL Aktualisieren], um die Anzeige zu synchronisieren.
 
 ## Target-Ansichten und mobile Apps {#target-views}
 
@@ -194,9 +184,17 @@ Beachten Sie, dass jedes Mal, wenn Target-Angebote vorabgerufen werden, die Ange
 
 ## Fehlerbehebung {#ts}
 
-**Ich habe eine Fehlermeldung erhalten, dass mein "context. application. name" -Wert unzulässige Zeichen enthält. What characters are allowed in mobile app names?**
+**Der Mobile App VEC meldet, dass die Verbindung zu meiner App getrennt wurde.**
 
-Zulässige Zeichen in mobilen App-Namen sind:
+Möglicherweise wurde Ihre Internetverbindung unterbrochen. Starten Sie die Applikation erneut, sobald das Internet wieder verfügbar ist, um eine neue Verbindung herzustellen. Es wird empfohlen, eine Mobile App VEC-Aktivität zu erstellen, während eine WLAN-Verbindung besteht.
+
+**Der Mobile App VEC ist nicht mit meiner App sychronisiert.**
+
+Klicken Sie im VEC auf die Schaltfläche [!UICONTROL Aktualisieren], um die Anzeige zu synchronisieren.
+
+**Ich habe eine Fehlermeldung erhalten, dass mein "context. application. id" -Wert unzulässige Zeichen enthält. What characters are allowed in mobile app IDs?**
+
+Zulässige Zeichen in mobilen App-IDs sind:
 
 | Zulässige Zeichen | Beschreibung |
 | --- | --- |
@@ -215,7 +213,7 @@ Zulässige Zeichen in mobilen App-Namen sind:
 Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
 
 ```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
 ```
 
 ## Bekannte Einschränkungen {#limitations}
