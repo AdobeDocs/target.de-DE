@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0876963-5905-4850-a615-953e435f26e9
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -29,9 +29,7 @@ Klicken Sie in den Suchergebnissen auf den **[UICONTROL-Umgebungs]**-Filter, um 
 
 Die neben „Produkte“ angezeigte Nummer ist die Anzahl der Produkte, die von den insgesamt in der angegebenen Umgebung verfügbaren Produkten dem Suchbegriff entsprechen.
 
-Klicken Sie auf das „Aktualisieren“-Symbol, um Ihren Katalog erneut zu indexieren. Beachten Sie, dass die Indexierung abhängig von der Größe Ihres Feeds etwas Zeit in Anspruch nehmen kann.
-
-Der Katalog wird automatisch stündlich aktualisiert. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um den Katalog zwischen den automatischen Aktualisierungen erneut zu indizieren.
+Der Katalog wird automatisch aktualisiert, wenn Updates über Feed-Dateien, API oder mbox-Updates empfangen werden. Aktualisierungen werden in der Regel in einer Stunde abgeschlossen. Wenn Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet wurde. Wenn keine Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet und abgeschlossen wurde.
 
 Sie können Sammlungen oder Ausschlüsse mithilfe der erweiterten Suche auf der Seite „Katalogsuche“ ([!UICONTROL Empfehlungen] &gt; [!UICONTROL Katalogsuche] &gt; [!UICONTROL Erweiterte Suche]) erstellen. Nachdem Sie eine Suche mit "id &gt; contains" erstellt haben, können Sie zum Beispiel auf [!UICONTROL Speichern unter] &gt; [!UICONTROL Sammlung oder Ausschluss] klicken.
 
