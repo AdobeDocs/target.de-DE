@@ -8,7 +8,7 @@ title: Einrichten des Klick-Trackings im Mobile App VEC
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -50,3 +50,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 * Im Mobile App VEC dürfen nur Elemente ausgewählt werden, bei denen ein Klick-Handler angehängt ist.
 * Sie können zu jedem Bereich der App navigieren, Sie sollten jedoch sicherstellen, dass [Ansichten](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views) für den Bereich definiert sind, in dem Sie Elemente für das Klick-Tracking auswählen.
 * Wenn bei der Bearbeitung einer Aktivität das Gerät bereits in Schritt 1 ausgewählt wurde, müssen Sie das Gerät nicht erneut auswählen. Wenn Sie jedoch direkt zur Klick-Tracking-Seite navigieren, wird Ihnen ein Bildschirm zur Geräteauswahl angezeigt, auf dem Sie ein autorisiertes Gerät auswählen können.
+* In der Mobile App VEC wird ein Bedienfeld für Änderungen angezeigt, in dem die Elemente angezeigt werden, die Sie für die Klick-Tracking eingerichtet haben.
+
+   ![Änderungs-Bedienfeld mit Klick-Tracking
+   ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)
