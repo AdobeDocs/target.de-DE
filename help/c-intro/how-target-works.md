@@ -9,7 +9,7 @@ title: Funktionsweise von Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
 
 ---
 
@@ -170,7 +170,7 @@ Als Beispiel gibt Google an: „Wenn eine Originalseite voller Schlüsselwörter
 
 Unserer Ansicht nach ist es jedoch eher schwierig, die Bedeutung originaler Inhalte im Rahmen eines Tests unabsichtlich in solcher Weise zu verändern. Trotzdem empfehlen wir, die Schlüsselwortaussagen einer Seite zu prüfen und sie bei neuen Variationen beizubehalten. Änderungen am Seiteninhalt, besonders das Löschen oder Hinzufügen relevanter Schlüsselwörter, kann dazu führen, dass sich das organische Ranking der Seite ändert. Wir empfehlen Ihnen, Ihren SEO-Partner in den Testvorgang einzubeziehen.
 
-Bots {#bots}
+## Bots {#bots}
 
 Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. Der als von einem Bot generierte Traffic wird wie ein gewöhnlicher Benutzer weiterhin bereitgestellt, um sicherzustellen, dass er mit SEO-Richtlinien in Einklang gebracht wird. Durch Verwendung von Bot-Traffic können A/B-Tests oder Personalisierungsalgorithmen verfälschen, wenn sie wie normale Benutzer behandelt werden. Wenn daher ein bekannter Bot in Ihrer Target-Aktivität erkannt wird, wird der Traffic etwas anders behandelt. Das Entfernen von Bot-Traffic bietet eine genauere Messung der Benutzeraktivität.
 
