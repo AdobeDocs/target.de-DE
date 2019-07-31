@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -21,7 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 30. Juli 2019 | [Einführung in Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | Neues Thema |
+| 31. Juli 2019 | [Einführung in Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | Neues Thema |
 |  | [Kriterien erstellen](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Es wurde ein Hinweis zu kürzlich angezeigten Elementen hinzugefügt. |
 |  | [Bekannte Probleme und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Bekanntes Problem mit Vorschau-Links wurde hinzugefügt. |
 | 29. Juli 2019 | [Häufig gestellte Fragen zum Reporting](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?" |
