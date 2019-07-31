@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f49c0c94afe6bf8aadbfb76930b57bf7cd5602dc
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f49c0c94afe6bf8aadbfb76930b57bf7cd5602dc
 
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen für die neuesten oder kommenden [!DNL Adobe Target]-Versionen.
 
-**Zuletzt aktualisiert am 24. Juli 2019**
+**Zuletzt aktualisiert am 31. Juli 2019**
 
 >[!NOTE]
 >
@@ -25,42 +25,31 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 >
 >Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## Target Standard/Premium 19.7.1 (24. Juli 2019) {#tgt-19-7-1}
+## Mitteilungen
 
-Dieses Release umfasst die folgenden neuen Funktionen und Erweiterungen:
+Enterprise Permissions allows [!DNL Target] customers to use a single organization, but divide it into workspaces for their different teams or workflows. Dies ermöglicht eine effektive Skalierung ihres Optimierungsprogramms für Teams. Although the feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until earlier this year. In the [!DNL Target] February 2019 release, Adobe updated the Admin APIs so that you can use the integration account to access all workspaces created in your organization. So, while earlier, Admin APIs were restricted to just the default workspace, the February update granted access to all workspaces with [!UICONTROL Approver] access.
 
-| Funktion / Verbesserung | Beschreibung |
-| --- | --- |
-| Visual Experience Composer für mobile Apps | In der mobilen App-VEC wird ein neues Bedienfeld "Änderungen" angezeigt, in dem die Elemente angezeigt werden, die Sie für die Klick-Tracking eingerichtet haben. (TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
-| ![Premium badgerecommenüationen](/help/assets/premium.png)<br>in A/B-Test- und Erlebnis-Targeting (XT)-Aktivitäten | Der Recommendations-Angebotsstatus (Algorithmus) wird auf der Seite Überblick für A/B-Test- und XT-Aktivitäten angezeigt, die Recommendations-Angebote enthalten. Zu den Status gehören: Ergebnisse bereit, Ergebnisse nicht bereit und Feed-Fehler. (TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
-| Unterstützung domänenübergreifender Tracking-Unterstützung für at. js 2.0 + über die Experience Cloud ID (ECID)-Bibliothek | Zuvor wurde die domänenübergreifende Verfolgung in at. js 2 nicht unterstützt.*x*. Mit dieser Version können Kunden, die at. js 2.0 oder höher verwenden, jetzt domänenübergreifende Verfolgung über die ECID-Bibliothek nutzen. Die ECID-Bibliothek muss zusammen mit at. js 2.0 oder höher auf der Seite installiert sein, damit die domänenübergreifende Verfolgung funktioniert. [Die Experience Cloud ID-Bibliothek 4.3.0 +](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) muss verwendet werden.<br>Siehe [domänenübergreifende Verfolgung in at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
-| Target-Unterstützung für ITP 2.1 und ITP 2.2 von Apple über die Experience Cloud ID (ECID)-Bibliothek 4.3 | Target-Kunden können die Apple ITP 2.1 und ITP 2.2 heute durch Nutzung des CNAME-Zertifizierungsprogramms von Adobe abschwächen.<br>Mit dieser Version führt Target eine nahtlose Integration in die ECID-Bibliothek 4.3 ein, die ein serverseitiges Cookie nutzt, um ITP 2.1 und ITP 2.2 zu reduzieren. Es wird dringend empfohlen, Target-Kunden in Verbindung mit der javascript-Bibliothek von Target die [ECID-Bibliothek 4.3 bereitzustellen](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) , um zukünftige ITP-Versionen abzuschwächen. Die ECID-Bibliothek wird weiterhin Verbesserungen an der Entwicklung vornehmen, die eine robuste Lösung für die sich ständig ändernden Cookie-Richtlinien bereitstellen, die von Browsern eingeführt wurden.<br>Siehe [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
+With the upcoming [!DNL Target] September 2019 release, Target Enterprise Permissions will provide customers with the following access controls:
 
-## at. js Version 2.1.1 (24. Juli 2019)
+* Sie können die Arbeitsflächen auswählen, auf die die Integration angewendet werden kann.
+* You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
 
-Diese Version von at. js ist ein Maintenance Release und enthält die folgenden Erweiterungen und Fehlerbehebungen:
+Dieses Update unterstützt die folgenden Anwendungsfälle:
 
-(Die Ausgabennummern in Klammern dienen internen Adobe-Benutzern.)
+* Grant the Adobe I/O integration access to all workspaces with the [!UICONTROL Observer] role for reporting purposes with no rights to create or edit resources.
+* Gewähren Sie der Adobe I/O-Integration Zugriff auf ausgewählte Arbeitsbereiche mit der entsprechenden Rolle, damit ein zentrales Team API-basierte Änderungen in nur wenigen Arbeitsbereichen vornehmen kann.
+* Jedes Team, das seinen Arbeitsbereich besitzt, beschließt, seine eigene Integration zu haben, sobald das Team bereit ist, apis zu entdecken und die Rolle entsprechend auszuwählen.
+* Kombinieren Sie die obigen Szenarien und stimmen Sie überein.
 
-* Es wurde ein Problem behoben, durch das mehrere Beacons ausgelöst wurden, wenn die Klick-Tracking-Metrik auf der Seite Ziele und Einstellungen im Visual Experience Composer (VEC) verwendet wurde. (TNT-32812)
-* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
-* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
-* Es wurde ein Fehler behoben, der aufgrund der Verwendung von decodeuricomponent zu Fehlern führte, die zu Problemen führte, wenn die URL einen falsch formatierten Abfragezeichenfolgenparameter enthielt. (TNT-32710)
-* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
-* Es wurde ein Problem behoben, durch das Recommendations-Angebote nicht auf Websites für einige wenige Kunden angezeigt wurden. Kunden könnten den Angebotsinhalt im Bereitstellungs-API-Aufruf sehen, das Angebot wurde jedoch nicht auf der Website angewendet. (TNT-32680)
-* Es wurde ein Problem behoben, durch das die Klick-Tracking über mehrere Erlebnisse nicht wie erwartet funktionierte. (TNT-32644)
-* Es wurde ein Problem behoben, durch das at. js die zweite Metrik nach dem Rendern der ersten Metrik nicht mehr anwenden konnte. (TNT-32628)
-* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
-* Es wurde ein Problem behoben, durch das die Antworten zur Anzeige und zum Klicken auf die Benachrichtigungsbenachrichtigungen in Chromium-basierten Browsern blockiert wurden (einschließlich Google Chrome). (TNT-32290)
+**Erforderliche Aktion**: Diejenigen Kunden, die derzeit apis für CRUD-Vorgänge für Ressourcen (Aktivitäten, Zielgruppen, Angebote und Berichte) über alle Arbeitsflächen hinweg nutzen, müssen ihren vorhandenen Adobe I/O-Integrationszugriff auf alle Arbeitsbereiche mit der gewünschten Rolle gemäß ihrem Verwendungsfall erteilen. You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, irrespective of choice made in the [!UICONTROL Product Role] drop-down list. Sie können jetzt die gewünschte Rolle auswählen.
 
-For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+This action *must* be performed before September 4, 2019 to not face any disruption on your end. Wenn diese Aktion nicht durchgeführt wird, nach [! DNL Target September werden die Zugriffssteuerungselemente aktiviert, und Sie werden den Zugriff auf nur den Standardarbeitsbereich beobachten, wenn Sie aktuell eingerichtet sind. Es gibt keine negative Reaktion auf die Einrichtung von Integrationen im Voraus gemäß den oben genannten Richtlinien. Je früher Sie diese Änderung vornehmen, desto besser. Es ist nur wenig Zeit erforderlich, um diese Einstellung einzurichten, je nach Anzahl der Arbeitsbereiche in Ihrer Organisation. Dieser Vorgang erfordert nur einige Klicks, um eine vorhandene Integration in Arbeitsflächen mit der gewünschten Rolle zu integrieren.
 
-**Verbesserungen, Fehlerbehebungen und Änderungen**
+## Target Standard/Premium 19.8.1 (20. August 2019) {#tgt-19-8-1}
 
-* Es wurde ein Fehler behoben, der verhinderte, dass in Recommendations-Aktivitäten Ausschlusswerte gelöscht wurden, wenn doppelte Werte hinzugefügt wurden. (TGT-34996)
-* Sie können nun einen Entwurf in einer Recommendations-Aktivität aus der Targeting-Seite entfernen (Schritt 2 des dreiteiligen geleiteten Arbeitsablaufs). Zum Entfernen eines Entwurfs müssen mehrere Entwürfe ausgewählt sein. (TGT-35118)
-* Es wurde ein Problem behoben, durch das benutzerdefinierte Kriterienkarten einige Kunden nicht ordnungsgemäß in der Target-Benutzeroberfläche geladen oder bearbeitet werden konnten. (TGT-35170)
+Dieses Maintenance Release umfasst die folgende Verbesserung:
+
+* Verschiedene Sicherheitsfehlerbehebungen, einschließlich Sicherheits-Updates für Rich-Text-Editor (RTE) im Visual Experience Composer (VEC). (TGT-35383)
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
