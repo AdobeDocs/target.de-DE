@@ -1,5 +1,5 @@
 ---
-description: Informationen über die Gewährung von vorhandenen Adobe I/O-Integrationen auf alle Arbeitsbereiche mit der gewünschten Rolle.
+description: Informationen über die Gewährung von Adobe I/O-Integrationen auf alle Arbeitsbereiche mit der gewünschten Rolle.
 keywords: Integration; Rollen; Benutzerberechtigungen; admin Console
 seo-description: Informationen über die Gewährung von vorhandenen Adobe I/O-Integrationen auf alle Arbeitsbereiche mit der gewünschten Rolle in Adobe Target
 seo-title: Gewähren Sie Adobe I/O Integrationen Zugriff auf Arbeitsbereiche und weisen Sie ihnen Rollen in Adobe Target zu.
@@ -7,7 +7,7 @@ solution: Target
 subtopic: Erste Schritte
 title: Gewähren Sie den Adobe I/O Integrationen Zugriff auf Arbeitsbereiche und weisen Sie Rollen zu.
 translation-type: tm+mt
-source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
+source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
 
 ---
 
@@ -54,10 +54,11 @@ This action should be performed before **September 4, 2019** to not face any dis
 
    ![Integrations-Registerkarte](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
+1. (Conditional) To add a new integration, click **[!UICONTROL Add Integration]**, select the desired integration, then click **[!UICONTROL Save]**.
+
 1. From the **[!UICONTROL Product Role]** drop-down list, select the desired role for that workspace:
 
-   *[!UICONTROL Approver]
-*[!UICONTROL Editor]
-*[!UICONTROL Observer]
-
+   * [!UICONTROL Genehmigende Person]
+   * [!UICONTROL Editor]
+   * [!UICONTROL Beobachter]
    ![Rolle "Produktprofil" wählen](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
