@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
+source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
 
 ---
 
@@ -43,7 +43,7 @@ Dieses Update unterstützt die folgenden Anwendungsfälle:
 
 **Erforderliche Aktion**: Diejenigen Kunden, die derzeit apis für CRUD-Vorgänge für Ressourcen (Aktivitäten, Zielgruppen, Angebote und Berichte) über alle Arbeitsflächen hinweg nutzen, müssen ihren vorhandenen Adobe I/O-Integrationszugriff auf alle Arbeitsbereiche mit der gewünschten Rolle gemäß ihrem Verwendungsfall erteilen. You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, irrespective of choice made in the [!UICONTROL Product Role] drop-down list. Sie können jetzt die gewünschte Rolle auswählen.
 
-This action *must* be performed before September 4, 2019 to not face any disruption on your end. Wenn diese Aktion nicht durchgeführt wird, nach [! DNL Target September werden die Zugriffssteuerungselemente aktiviert, und Sie werden den Zugriff auf nur den Standardarbeitsbereich beobachten, wenn Sie aktuell eingerichtet sind. Es gibt keine negative Reaktion auf die Einrichtung von Integrationen im Voraus gemäß den oben genannten Richtlinien. Je früher Sie diese Änderung vornehmen, desto besser. Es ist nur wenig Zeit erforderlich, um diese Einstellung einzurichten, je nach Anzahl der Arbeitsbereiche in Ihrer Organisation. Dieser Vorgang erfordert nur einige Klicks, um eine vorhandene Integration in Arbeitsflächen mit der gewünschten Rolle zu integrieren.
+This action *must* be performed before September 4, 2019 to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. Es gibt keine negative Reaktion auf die Einrichtung von Integrationen im Voraus gemäß den oben genannten Richtlinien. Je früher Sie diese Änderung vornehmen, desto besser. Es ist nur wenig Zeit erforderlich, um diese Einstellung einzurichten, je nach Anzahl der Arbeitsbereiche in Ihrer Organisation. Dieser Vorgang erfordert nur einige Klicks, um eine vorhandene Integration in Arbeitsflächen mit der gewünschten Rolle zu integrieren.
 
 ## Target Standard/Premium 19.8.1 (20. August 2019) {#tgt-19-8-1}
 
