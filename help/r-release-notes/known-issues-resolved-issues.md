@@ -8,7 +8,7 @@ title: Bekannte Probleme und gelöste Probleme
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
 
 ---
 
@@ -25,9 +25,9 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 
 Die folgenden Abschnitte führen zu bekannten Problemen zu [!DNL Target]:
 
-### Vorschau-Links {#preview}
+### Activity QA preview links {#preview}
 
-Vorschau-Links für gespeicherte Aktivitäten werden möglicherweise nicht geladen, wenn zu viele gespeicherte Aktivitäten in Ihrem Konto vorhanden sind. Die Vorschau-Links sollten erneut versucht werden. Um dies zu verhindern, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden. (TNT-32697)
+[Die Vorschau-Links für die Aktivitäts-QA-Vorschau](/help/c-activities/c-activity-qa/activity-qa.md) werden möglicherweise nicht geladen, wenn zu viele gespeicherte Aktivitäten in Ihrem Konto vorhanden sind. Die Vorschau-Links sollten erneut versucht werden. Um dies zu verhindern, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden. (TNT-32697)
 
 ### Umleitungsangebote {#redirect}
 
