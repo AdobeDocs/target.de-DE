@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 378cf9f38d2758541b8425c8786259739751cd74
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -331,7 +331,9 @@ Das Kriterium „Kürzlich angezeigte Elemente“ liefert jetzt Ergebnisse spezi
 
 Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
 
-[!NOTE]Vor Kurzem angezeigte Elemente berücksichtigen sowohl globale Ausnahmen als auch die ausgewählte Kollektionseinstellung für die Aktivität. Wenn ein Element durch einen globalen Ausschluss ausgeschlossen oder nicht in der ausgewählten Sammlung enthalten ist, wird es nicht angezeigt. Daher sollte die Einstellung "Alle Sammlungen" bei Verwendung eines Kriteriums vor Kurzem verwendet werden.
+>[!NOTE]
+>
+>Vor Kurzem aufgerufene Artikel berücksichtigt sowohl globale Einstellungen als auch die ausgewählte Kollektionseinstellung für die Aktivität. Wenn ein Element durch einen globalen Ausschluss ausgeschlossen oder nicht in der ausgewählten Sammlung enthalten ist, wird es nicht angezeigt. Daher sollte die Einstellung "Alle Sammlungen" bei Verwendung eines Kriteriums vor Kurzem verwendet werden.
 
 ### Previously Purchased Items {#previously-purchased}
 
