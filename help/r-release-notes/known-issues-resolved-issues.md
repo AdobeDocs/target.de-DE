@@ -8,7 +8,7 @@ title: Bekannte Probleme und gelöste Probleme
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -24,6 +24,10 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 ## Bekannte Probleme {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Die folgenden Abschnitte führen zu bekannten Problemen zu [!DNL Target]:
+
+### Vorschau-Links {#preview}
+
+Vorschau-Links für gespeicherte Aktivitäten werden möglicherweise nicht geladen, wenn zu viele gespeicherte Aktivitäten in Ihrem Konto vorhanden sind. Die Vorschau-Links sollten erneut versucht werden. Um dies zu verhindern, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden. (TNT-32697)
 
 ### Umleitungsangebote {#redirect}
 
