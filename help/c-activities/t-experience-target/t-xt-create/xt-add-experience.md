@@ -8,18 +8,18 @@ title: Erlebnis erstellen
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
 
 ---
 
 
 # Create experience{#create-experience}
 
-Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten der Erlebnisse auf Ihrer Seite in einer Erlebnis-Targeting (XT)-Aktivität.
+The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
 
 1. Wählen Sie die Elemente, die Sie ändern möchten, und nehmen Sie die gewünschten Änderungen vor.
 
-   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow (Experiences) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
+   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow ([!UICONTROL Experiences]) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
 
    ![Zielgruppe für alle Besucher](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
@@ -27,19 +27,19 @@ Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten
 
    Wenn Sie den Mauszeiger über die Elemente auf Ihrer Seite bewegen, werden diese Elemente hervorgehoben. Jedes hervorgehobene Element kann mithilfe des VEC geändert werden. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Wenn Sie mit Target Classic (früher Test&amp;Target) eine Mbox auf der Seite erstellt haben, wird diese Mbox als Element mit dem Mbox-Namen angezeigt und kann wie jedes andere Element bearbeitet werden.
+   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
 
    >[!NOTE]
    >
-   >Standardmäßig gestattet der Visual Experience Composer das Ändern von Elementen mit JavaScript nicht (zum Beispiel sich drehende Banner). Sie können javascript deaktivieren, wenn Sie diese Elemente mit dem VEC ändern möchten.
+   >Standardmäßig lässt VEC keine Änderungen an Elementen zu, die javascript enthalten, wie zum Beispiel sich drehende Banner. Sie können javascript deaktivieren, um diese Elemente mithilfe des VEC zu ändern.
 
-1. To create additional experiences, click **[!Add Experience Targeting]**.
+1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
 
    ![Link "Erlebnis-Targeting hinzufügen «](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    The [!UICONTROL Choose Audience] dialog box displays. Um ein Erlebnis auf eine Zielgruppe auszurichten, müssen Sie die Zielgruppe auswählen, bevor Sie ein Erlebnis hinzufügen können.
 
-   Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. Sie können entweder eine Zielgruppe aus der Bibliothek auswählen oder [eine neue Zielgruppe erstellen](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten
 
    >[!NOTE]
    >
-   >Wenn Sie ein Bild aus einer anderen Quelle als Ihrer Hauptseite bereitstellen (z. B. ein Bild, das auf akamai. net gehostet und auf adobe.com bereitgestellt wird), wird dieses Bild nicht in der Miniaturansicht der Seite angezeigt, die im Flussdiagramm angezeigt wird.
+   >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
 
 1. (Bedingt) Ziehen Sie Zielgruppen/Erlebnispaare per Drag &amp; Drop, während Sie XT-Aktivitäten erstellen oder bearbeiten, um Paare in der gewünschten Reihenfolge anzuordnen.
 
@@ -77,7 +77,7 @@ Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten
 
    ![Erlebnisse verschieben](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
-   Beim Erlebnis-Targeting kommt es auf die Reihenfolge an. Wenn ein Besucher unter das erste Zielgruppen-/Erlebnispaar fällt, wird das erste Erlebnis bereitgestellt.
+   [!UICONTROL Beim Erlebnis-Targeting kommt es auf die Reihenfolge an. ] Wenn ein Besucher unter das erste Zielgruppen-/Erlebnispaar fällt, wird das erste Erlebnis bereitgestellt.
 
    Nehmen wir beispielsweise an, Ihnen war nicht bewusst, dass es beim Erstellen einer XT-Aktivität auf die Reihenfolge ankommt. Später im Verlauf des Tests stellen Sie fest, dass sich Besucher, die sich Ihrer Meinung nach eigentlich für Erlebnis B oder C qualifizieren müssten, stattdessen für Erlebnis A qualifizieren. Eine Ursache dafür könnte sein, dass sich die Zielgruppen nicht gegenseitig ausschließen und sich nicht in der richtigen Reihenfolge befinden (z. B. Erlebnis A = USA, Erlebnis B = San Francisco und Erlebnis C = Kalifornien). In diesem Szenario qualifizieren sich alle Benutzer aus den USA für Erlebnis A, selbst wenn sie in San Francisco oder in einem anderen Ort in Kalifornien leben. Sie können die Reihenfolge der Zielgruppen-/Erlebnispaare von der stärksten Einschränkung zur geringsten Einschränkung ändern (San Francisco &gt; Kalifornien &gt; USA), ohne die gesamte Aktivität neu erstellen zu müssen.
 
@@ -100,7 +100,7 @@ On the **[!UICONTROL Experiences]** page (the first step in the three-step guide
 
 ## Duplizieren eines Erlebnisses
 
-Sie können ein Erlebnis aus einer XT-Aktivität (Erlebnis-Targeting) kopieren, um kleinere Änderungen vorzunehmen, ohne das Erlebnis vollständig neu erstellen zu müssen.
+Sie können ein Erlebnis in einer XT-Aktivität kopieren, damit Sie kleinere Änderungen daran vornehmen können, ohne das Erlebnis neu erstellen zu müssen.
 
 Klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (der erste Schritt im Drei-Schritte-Workflow) auf die drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Duplizieren]**.
 
