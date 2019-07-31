@@ -9,7 +9,7 @@ title-outputclass: Premium
 topic: Premium
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -129,7 +129,7 @@ A [!DNL Recommendations] activity is made up of the following components:
 
 ![Illustration mit der Darstellung einer Empfehlungsaktivität: Zielgruppen, Kriterien und Entwürfe](/help/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] Standardmäßig sind 14 integrierte Zielgruppen, 42 integrierte Kriterien und 10 integrierte Designvorlagen enthalten. Sie können jede dieser Elemente anpassen oder eigene hinzufügen. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Dieser Abschnitt konzentriert sich auf die Definition der Kriterien, die Witch-Elemente definieren.
+[!DNL Target] Standardmäßig sind 14 integrierte Zielgruppen, 42 integrierte Kriterien und 10 integrierte Designvorlagen enthalten. Sie können jede dieser Elemente anpassen oder eigene hinzufügen. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Dieser Abschnitt konzentriert sich auf die Definition der Kriterien, die definieren, welche Artikel empfohlen werden.
 
 Target verwendet das Konzept der Kriterienkarte. Eine Kriterienkarte ist wie ein Rezept für Personalisierung.
 
@@ -166,7 +166,7 @@ Sie können Ihre Empfehlung auf Folgendes basieren:
 * Das Element, das der Besucher zuletzt gekauft oder dem Warenkorb hinzugefügt hat
 * Ein benutzerspezifisches Attribut, das einem Besucher oder einem Element zugeordnet ist
 
-Auf Grundlage dieser Schlüssel wählen Sie dann die Empfehlungslogik aus:
+Auf der Grundlage dieser Schlüssel wählen Sie dann die gewünschte Empfehlungslogik aus:
 
 * Artikel mit ähnlichen Attributen
 * Die am häufigsten angezeigten Artikel einer bestimmten Kategorie
