@@ -8,7 +8,7 @@ title: AEM-Erlebnisfragmente
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
 
 ---
 
@@ -54,6 +54,7 @@ Weitere Informationen finden Sie unter:
 
 * **AEM 6.3:**[Abonnieren von Adobe Analytics und Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) in der Dokumentation zu _Adobe Experience Manager 6.3_.
 * **AEM 6.4:**[Abonnieren von Adobe Analytics und Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) in der Dokumentation zu _Adobe Experience Manager 6.4_.
+* **AEM 6.5:**[Abfragen in Adobe Analytics und Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)
 
 ### Schritt 2: Erlebnisfragment erstellen
 
@@ -61,6 +62,7 @@ Erlebnisfragmente werden in AEM erstellt. Weitere Informationen finden Sie unter
 
 * **AEM 6.3:** [Erlebnisfragmente](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) in der Dokumentation zu *Adobe Experience Manager 6.3*.
 * **AEM 6.4:**[Erlebnisfragmente](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) in der Dokumentation zu *Adobe Experience Manager 6.4*.
+* **AEM 6.5:**[Erlebnisfragmente](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)
 
 ### Schritt 3: AEM für das Teilen des Erlebnisfragments mit Target konfigurieren
 
