@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -21,6 +21,8 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 1. August 2019 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurde eine wichtige Mitteilung über API-Unterstützung für Enterprise-Berechtigungen hinzugefügt. |
+|  | Gewähren Sie den Adobe I/O Integrationen Zugriff auf Arbeitsbereiche und weisen Sie Rollen zu. | Neues Thema |
 | 31. Juli 2019 | [Einführung in Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | Neues Thema |
 |  | [Kriterien erstellen](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Es wurde ein Hinweis zu kürzlich angezeigten Elementen hinzugefügt. |
 |  | [Bekannte Probleme und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Bekanntes Problem mit Aktivitäts-QA-Vorschau-Links hinzugefügt. |
