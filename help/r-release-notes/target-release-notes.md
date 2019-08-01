@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -36,9 +36,9 @@ With the upcoming [!DNL Target] September 2019 release, [!UICONTROL Enterprise P
 * Sie können die Arbeitsflächen auswählen, auf die die Integration angewendet werden kann.
 * You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
 
-**Erforderliche Aktion**: Kunden, die derzeit apis für CRUD-Vorgänge für Ressourcen (Aktivitäten, Zielgruppen, Angebote und Berichte) über alle Arbeitsflächen hinweg nutzen, müssen ihre vorhandene Adobe I/O-Integration für alle Arbeitsbereiche mit der gewünschten Rolle bereitstellen. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of the role selected from the [!UICONTROL Product Role] drop-down list. Mit der ukommenden Version können Sie jetzt die gewünschte Rolle auswählen.
+**Erforderliche Aktion**: Kunden, die derzeit apis für CRUD-Vorgänge für Ressourcen (Aktivitäten, Zielgruppen, Angebote und Berichte) über alle Arbeitsflächen hinweg nutzen, müssen ihre vorhandene Adobe I/O-Integration für alle Arbeitsbereiche mit der gewünschten Rolle bereitstellen. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of the role selected from the [!UICONTROL Product Role] drop-down list. In der kommenden Version können Sie jetzt die gewünschte Rolle auswählen.
 
-This action should be performed before **September 4, 2019**. After the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. Es gibt keine negativen Auswirkungen auf die Einrichtung von Integrationsrollen im Voraus.
+This action should be performed during the month of **August 2019**. After the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. Es gibt keine negativen Auswirkungen auf die Einrichtung von Integrationsrollen im Voraus.
 
 For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
