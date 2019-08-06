@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 
 ---
 
@@ -118,11 +118,15 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
    Wenn Sie eine neue [!UICONTROL Recommendations]-Aktivität erstellen oder eine bestehende bearbeiten, wird das Kontrollkästchen **[!UICONTROL Kriterien für später speichern]** automatisch aktiviert. Sollten Sie die Kriterien nicht in anderen Aktivitäten verwenden wollen, deaktivieren Sie das Kontrollkästchen, bevor Sie speichern.
 
-### Geschätzte Verarbeitungszeit für Kriterien
+### Geschätzte Verarbeitungszeit für Kriterien {#time}
 
 * **Mboxes**: Wenn die Kriterien Mboxes als Verhaltens-Datenquelle verwenden, werden sie nach der Erstellung sofort ausgeführt. Je nach Menge der verwendeten Verhaltensdaten und der Größe des Katalogs kann die Ausführung des Algorithmus bis zu 12 Stunden dauern. Änderungen an der Kriterienkonfiguration verursachen eine Neuausführung der Kriterien.
 
-* **Analyse**: Wenn das Kriterium [!DNL Adobe Analytics] als Verhaltens-Datenquelle verwendet, hängt der Zeitpunkt der Kriterienverfügbarkeit nach Erstellung davon ab, ob die ausgewählte Report Suite und das Lookback-Fenster bereits für andere Kriterien verwendet wurden. Wenn die Report Suite zuvor mit einem Lookback-Fenster verwendet wurde, das mindestens so lang war wie das ausgewählte Lookback-Fenster, sind die Verhaltensdaten bereits in Target vorhanden und Recommendations führt das Kriterium sofort aus. Die Ausführung des Algorithmus kann bis zu 12 Stunden dauern, je nach Menge der Verhaltensdaten und Größe des Katalogs. Wenn die Report Suite zuvor nicht oder nur mit einem längeren Lookback-Fenster verwendet wurde, muss Recommendations die Daten zuerst von Adobe Analytics anfordern und empfangen, bevor der Algorithmus ausgeführt werden kann. Die Synchronisation mit Analytics dauert in der Regel zwei Tage, kann jedoch je nach Analytics-Systemauslastung bis zu sieben Tage dauern.
+* **Analyse**: Wenn das Kriterium [!DNL Adobe Analytics] als Verhaltens-Datenquelle verwendet, hängt der Zeitpunkt der Kriterienverfügbarkeit nach Erstellung davon ab, ob die ausgewählte Report Suite und das Lookback-Fenster bereits für andere Kriterien verwendet wurden.
+
+   * **Anfangslatenz**: Die erste Latenz liegt zwischen zwei und sieben Tagen. Diese anfängliche Latenz tritt nur einmal auf, wenn die Kriterien mit einer Report Suite eingerichtet sind, die bisher noch nicht verwendet wurde oder mit einem längeren Lookback-Fenster verwendet wird.
+   * **Laufende Latenz**: Wenn die Report Suite zuvor mit einem Lookback-Fenster mindestens so lange wie das ausgewählte Lookback-Fenster verwendet wurde, beträgt die erwartete Latenz für neue und vorhandene Kriterien weniger als 12 Stunden, je nach Anzahl der verwendeten Verhaltensdaten und der Größe des Katalogs.
+   Wenn ein Benutzer beispielsweise ein Produkt anzeigt, wird für die Empfehlung "Angezeigte Affinität" ein Produktansichtsverfolgungsaufruf an Analytics in Echtzeit übergeben. Die Analytics-Daten werden am nächsten Tag an Target gesendet und Target führt einen Algorithmus unter 12 Stunden aus.
 
 ## Stützen der Empfehlung auf einen Empfehlungsschlüssel {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -335,7 +339,7 @@ Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
 >
 >Vor Kurzem aufgerufene Artikel berücksichtigt sowohl globale Einstellungen als auch die ausgewählte Kollektionseinstellung für die Aktivität. Wenn ein Element durch einen globalen Ausschluss ausgeschlossen oder nicht in der ausgewählten Sammlung enthalten ist, wird es nicht angezeigt. Daher sollte die Einstellung "Alle Sammlungen" bei Verwendung eines Kriteriums vor Kurzem verwendet werden.
 
-### Previously Purchased Items {#previously-purchased}
+### Zuvor gekaufte Artikel {#previously-purchased}
 
 Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
 
