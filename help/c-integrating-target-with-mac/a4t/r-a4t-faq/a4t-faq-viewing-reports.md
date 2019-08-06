@@ -8,7 +8,7 @@ title: Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -37,7 +37,7 @@ Die Anwendung der Segmente auf die Berichte erfolgt wie die Anwendung von Segmen
 
 Es ist möglich, mit einer errechneten Metrik Segmente auf Metriken anzuwenden. Dies erfolgt im Allgemeinen, wenn Sie einen neuen Typ von Erfolgsereignis erstellen möchten. Zum Beispiel, wenn Sie sehen möchten, wie viele Besucher zu Ihrer generierten Aktivität zurückkehren oder wie viele Besucher zu einer bestimmten Seite gelangen und Ihren Test sehen. Bitte beachten Sie, dass Steigerung und Konfidenz derzeit nicht für errechnete Metriken generiert werden können.
 
-## Sollte ich beim Anzeigen von Berichten Besucher, Aktivitätsimpressions oder Besuche verwenden? {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## Sollte ich beim Anzeigen von Berichten Besucher, Aktivitätsimpressions oder Besuche verwenden? {#metrics}
 
 Es gibt mehrere Optionen, von denen jede über eigene Vorteile verfügt:
 
@@ -52,7 +52,7 @@ Beachten Sie Folgendes:
 
 * Alle oben genannten Metriken werden ausgelöst, wenn ein Benutzer sich für eine Aktivität qualifiziert und Inhalt von [!DNL Target] zurückgegeben wird. Das bedeutet nicht zwingend, dass der Benutzer das Angebot gesehen hat. Wenn ein Aktivitätserlebnis sich unterhalb des angezeigten Bildschirmbereichs befindet und der Benutzer nicht nach unten scrollt, wurde das Angebot zwar von [!DNL Target] bereitgestellt, aber nicht vom Benutzer gesehen.
 * [!UICONTROL Aktivitätsimpressionen] (gemessen durch [!DNL Target]) und [!UICONTROL Instanzen] (gemessen durch [!DNL Analytics]) sind gleich, sofern nicht mehrere Mbox-Aufrufe auf derselben Seite in derselben Aktivität vorhanden sind. Hierdurch werden mehrere [!UICONTROL Aktivitätsimpressionen] gezählt, aber nur eine [!UICONTROL Instanz].
-* Derzeit sind die Metriken [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversion] in [!DNL Analysis Workspace] überhöht und sollten bis zur Behebung dieses Problems nicht verwendet werden.
+* Stellen Sie bei Verwendung von [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversionsmetriken] [!DNL Analysis Workspace]sicher, dass beide Metriken gleiche [!UICONTROL Berührungszuordnungsmodelle] angewendet haben. Modelle können angewendet werden, indem Sie auf das Zahnradeinstellungsgerät klicken, [!UICONTROL nicht standardmäßige Zuordnungsmodelle aktivieren]und [!UICONTROL dann "Gleiche Berührung]«auswählen. Weitere Informationen über Attribution in [Attributes IQ finden](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) Sie im *Analytics-Tools-Handbuch*.
 
 ## Was bedeutet „Aktivitätskonversionen“, wenn der Marketingexperte beim Setup einer Aktivität eine Analytics-Metrik auswählt? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
