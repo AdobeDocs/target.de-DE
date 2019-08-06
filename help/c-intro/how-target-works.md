@@ -9,7 +9,7 @@ title: Funktionsweise von Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Target wird mit einer von zwei javascript-Bibliotheken in Websites integri
 >
 >Alle Kunden sollten auf at.js migrieren. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-Sie müssen auf jeder Seite Ihrer Site auf die Javascript-Bibliotheksdatei von Target verweisen. Sie können sie beispielsweise Ihrer globalen Kopfzeile hinzufügen. Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+Sie müssen auf jeder Seite Ihrer Site auf die Javascript-Bibliotheksdatei von Target verweisen. Sie können sie beispielsweise Ihrer globalen Kopfzeile hinzufügen. Alternativ können Sie den [Adobe Launch-Tag-Manager verwenden.](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Jedes Mal, wenn ein Besucher eine Seite aufruft, die für Target optimiert wurde, wird eine Anfrage an das Targeting-System gesendet, um festzulegen, welcher Inhalt für einen Besucher bereitgestellt werden soll. Dieser Vorgang erfolgt in Echtzeit— Bei jedem Laden einer Seite wird eine Anforderung für den Inhalt erstellt und vom System ausgeführt. Der Inhalt wird durch die vom Marketingspezialisten kontrollierten Aktivitäten und Erlebnisse geregelt und auf den einzelnen Besucher der Site zugeschnitten. Es werden Inhalte bereitgestellt, auf die die einzelnen Besucher der Site mit großer Wahrscheinlichkeit reagieren, damit interagieren und letztendlich eine Kaufentscheidung treffen, um die Antwortraten, Erwerbsraten und den Umsatz zu maximieren.
 
@@ -98,17 +98,17 @@ Jeder Edge-Knoten verfügt über alle notwendigen Informationen, um auf die Inha
 
 ![Zuordnung mit Kernedge-Sites und Edge-Sites](assets/edge_network.png)
 
-Adobe verfügt derzeit über zentrale Edge-Sites in Oregon und Texas in den USA. London, England; und Singapur. Adobe verfügt zur Zeit über Edge-Sites in Virginia (USA), Amsterdam, Niederlande; Tokio, Japan; und Sydney, Australien.
+Die Quelle für dieses Mage ist das [White Paper Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
 
-Core- und Edge-Standorte umfassen sowohl ein Datenerfassungscenter als auch ein Datenverarbeitungscenter. Edge-Standorte umfassen nur ein Datenerfassungscenter. Jede Report Suite wird einem speziellen Datenverarbeitungscenter zugewiesen.
+Die Adobe Target-Lösung wird auf von Adobe geteilten Datenzentren und von Adobe-rechenzentren gehostet. Admin-Server werden vollständig innerhalb von Rechenzentren von Adobe in London, Singapur und mehreren Standorten in den USA gehostet, einschließlich Oregon und Virginia. Edge Server werden sowohl auf Adobe-eigenen als auch auf Adobe-kompatiblen Servern in Amazon AWS-Rechenzentren in London, Hongkong, Singapur, Tokio und Sydney gehostet.
 
-Adobe verfügt derzeit über Rechenzentren auf mehreren Kontinenten, darunter mehrere regionale Standorte in Nordamerika, Europa und Asien.
+Speicherorte für Administratorserver enthalten ein Datenerfassungscenter und ein Datenverarbeitungscenter. Edge-Standorte umfassen nur ein Datenerfassungscenter. Jede Report Suite wird einem speziellen Datenverarbeitungscenter zugewiesen.
 
 Anstatt auf alle Targeting-Anfragen von einem einzelnen Standort zu antworten, werden Anforderungen von der Edge-Umgebung verarbeitet, die am nächsten dem Besucher liegt, wodurch die Auswirkungen der Netzwerk-/Internet-Reisedauer beeinträchtigt werden.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] verfügt derzeit über kein Edge-Netzwerk in China und die Endbenutzerleistung wird für [!DNL Target] Kunden in China weiterhin eingeschränkt. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
+>[!DNL Adobe Target] verfügt derzeit über kein Edge-Netzwerk in China und die Endbenutzerleistung wird für [!DNL Target] Kunden in China weiterhin eingeschränkt. Aufgrund der großen Firewall und dem Fehlen von Edge-Knoten innerhalb des Landes sind die Erlebnisse von Sites mit [!DNL Target] bereitgestellter Bereitstellung langsam und die Seitenladevorgänge beeinträchtigt. Außerdem können Marketingexperten bei der Verwendung der [!DNL Target] Authoring-Benutzeroberfläche Latenzzeiten aufweisen.
 
 ## Protected User Experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -172,7 +172,7 @@ Unserer Ansicht nach ist es jedoch eher schwierig, die Bedeutung originaler Inha
 
 ## Bots {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. Der als von einem Bot generierte Traffic wird wie ein gewöhnlicher Benutzer weiterhin bereitgestellt, um sicherzustellen, dass er mit SEO-Richtlinien in Einklang gebracht wird. Durch Verwendung von Bot-Traffic können A/B-Tests oder Personalisierungsalgorithmen verfälschen, wenn sie wie normale Benutzer behandelt werden. Wenn daher ein bekannter Bot in Ihrer Target-Aktivität erkannt wird, wird der Traffic etwas anders behandelt. Das Entfernen von Bot-Traffic bietet eine genauere Messung der Benutzeraktivität.
+Adobe Target verwendet [deviceatlas](https://deviceatlas.com/) , um bekannte Bots zu erkennen. Der als von einem Bot generierte Traffic wird wie ein gewöhnlicher Benutzer weiterhin bereitgestellt, um sicherzustellen, dass er mit SEO-Richtlinien in Einklang gebracht wird. Durch Verwendung von Bot-Traffic können A/B-Tests oder Personalisierungsalgorithmen verfälschen, wenn sie wie normale Benutzer behandelt werden. Wenn daher ein bekannter Bot in Ihrer Target-Aktivität erkannt wird, wird der Traffic etwas anders behandelt. Das Entfernen von Bot-Traffic bietet eine genauere Messung der Benutzeraktivität.
 
 Speziell für bekannte Bot-Traffic-Target gilt Folgendes:
 
