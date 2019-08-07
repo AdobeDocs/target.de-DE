@@ -1,6 +1,6 @@
 ---
 description: 'Informationen zu benutzerdefinierten Ereignissen für at.js. '
-keywords: adobe.target.notification;Element;Selektor;Benachrichtigung;Erweiterung
+keywords: benutzerspezifische Ereignisse; at. js; Anforderung fehlgeschlagen; request erfolgreich; Inhaltwiedergabe fehlgeschlagen; Erfolgreiches Rendering von Inhalten; Bibliothek geladen; request start; Start des Inhalts-Rendervorgangs; Content Rendering keine Angebote; Wiedergabe von Inhalten
 seo-description: Informationen zu benutzerdefinierten Ereignissen für die JavaScript-Bibliothek von Adobe Target at.js
 seo-title: Informationen zu benutzerdefinierten Ereignissen für die JavaScript-Bibliothek von Adobe Target at.js
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: Benutzerdefinierte at.js-Ereignisse
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
