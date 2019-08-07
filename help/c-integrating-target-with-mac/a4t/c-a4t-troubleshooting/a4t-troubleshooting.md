@@ -9,7 +9,7 @@ title: Fehlerbehebung bei der Analytics- und Target-Integration (A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -24,7 +24,7 @@ Hierfür gibt es verschiedene Gründe:
 
 * Die Classification in [!DNL Target] wurde noch nicht vollständig verarbeitet.
 
-   Die Verarbeitung der Classification kann nach dem ersten Speichern der Aktivität bis zu 24 Stunden in Anspruch nehmen.
+   Die Klassifizierung kann im Allgemeinen nach dem ersten Speichern zwischen 24 und 72 Stunden klassifizieren.
 
 * Die Report Suite enthält in diesem Zeitraum keine Daten, [!DNL Target] versucht jedoch, Treffer zu klassifizieren. [!DNL Target] kann Daten so lange nicht klassifizieren, bis ein erster Treffer registriert wird.
 
