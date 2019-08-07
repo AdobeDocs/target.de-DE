@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 ---
 
@@ -24,6 +24,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 | 7. August 2019 | [Vorabruf des Angebotsinhalts](/help/c-target-mobile-app/prefetch-offer-content.md) | Es wurde ein Hinweis hinzugefügt, dass die Prefetch-Funktion in den sdks nicht für die Aktivitätstypen Auto-Targeting, Automatisierte Zuordnung und Automatisierte Personalisierung unterstützt wird. |
 |  | [Fehlerbehebung bei der Analytics- und Target-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Es wurde ein Hinweis aktualisiert, der angibt, wie lange der Classification-Prozess abgeschlossen ist. |
 |  | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Es wurde ein Hinweis aktualisiert, der angibt, wie lange der Classification-Prozess abgeschlossen ist. |
+|  | [Datenschutz und Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Das Thema wurde aktualisiert und enthält Informationen zum California Consumer Privacy Act (CCPA). |
 | 6. August 2019 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Versionshinweise für die Target Mobile VEC SDK ios 2.1.0 &amp; Android 1.1.0-Version hinzugefügt. |
 |  | [Kriterien erstellen](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Der folgende Abschnitt wurde aktualisiert: " Erwartete Kriterienverarbeitungszeit. « |
 |  | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Die Überlegungen zur Verwendung von [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversionsmetriken] in [!DNL Analysis Workspace]wurden aktualisiert. |
