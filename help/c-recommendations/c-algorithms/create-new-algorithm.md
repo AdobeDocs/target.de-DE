@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6f15e460e5c998b4662310309d333667fed04308
+source-git-commit: b892660e52bdec1e64dcbe2c8dc18ace26ae2910
 
 ---
 
@@ -122,7 +122,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
 [!DNL Target] Berechnen Sie nach dem Speichern eines Kriteriums Empfehlungen. Diese Berechnung nimmt etwas Zeit in Anspruch und der Zeitrahmen hängt von der ausgewählten Empfehlungslogik, dem Datumsbereich, der Anzahl der Elemente in Ihrem Katalog, der Anzahl der Verhaltensdaten Ihrer Kunden und der ausgewählten Verhaltensdatenquelle ab. Die Verhaltensdatenquelle hat den größten Einfluss auf die Verarbeitungszeit, wie folgt:
 
-### Moboxes
+### Mboxes arbeiten
 
 Wenn mboxes als Verhaltensdatenquelle ausgewählt werden, wird nach der Erstellung die Kriterien sofort ausgeführt. Je nach Menge der verwendeten Verhaltensdaten und der Größe des Katalogs kann die Ausführung des Algorithmus bis zu 12 Stunden dauern. Durch Änderungen an der Kriterienkonfiguration wird der Algorithmus im Allgemeinen erneut ausgeführt. Je nach Änderung stehen die zuvor berechneten Empfehlungen u. U. zur Verfügung, bis ein erneutes Ausführen abgeschlossen ist oder für größere Änderungen nur Sicherung oder Standardinhalt verfügbar sind, bis eine erneute Ausführung abgeschlossen ist. Wenn ein Algorithmus nicht geändert wird, wird er je nach ausgewähltem Datumsbereich automatisch um [!DNL Target] alle 12 bis 48 Stunden erneut ausgeführt.
 
