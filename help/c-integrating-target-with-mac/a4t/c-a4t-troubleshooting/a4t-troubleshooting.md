@@ -9,7 +9,7 @@ title: Fehlerbehebung bei der Analytics- und Target-Integration (A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 In diesem Thema werden einige allgemeine Probleme behandelt, die auftreten, wenn Analytics als Berichtsquelle für Target (A4T) verwendet wird.
 
-## Aktivitäten weisen keine Daten in Analytics auf, werden jedoch stattdessen als „unspezifisch“ aufgeführt.{#section_EB97F0499B0E40E69A21C30DC539BF67}
+## Aktivitäten weisen keine Daten in Analytics auf, werden jedoch stattdessen als „unspezifisch“ aufgeführt.{#unspecified}
 
 Hierfür gibt es verschiedene Gründe:
 
@@ -34,9 +34,9 @@ Hierfür gibt es verschiedene Gründe:
 
    [Wenden Sie sich für Unterstützung an den Kundendienst](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-Manchmal werden Daten korrekt in Berichten angezeigt, dann jedoch erneut als „unspezifisch“ gekennzeichnet, da eine neue Aktivität hinzugefügt wurde, deren Classification noch nicht abgeschlossen wurde. Beachten Sie, dass es nach dem ersten Speichern bis zu 24 Stunden dauern kann, bis Berichte klassifiziert wurden.
-
 >[!NOTE]
+>
+>Manchmal werden Daten korrekt in Berichten angezeigt, dann jedoch erneut als „unspezifisch“ gekennzeichnet, da eine neue Aktivität hinzugefügt wurde, deren Classification noch nicht abgeschlossen wurde. Denken Sie daran, dass die Klassifizierung von Berichten nach dem ersten Speichern im Allgemeinen zwischen 24 und 72 Stunden dauert.
 >
 >Daten, die als „unspezifisch“ eingestuft werden, gehen nicht verloren. Die Daten werden nach erfolgreicher Classification den entsprechenden Aktivitäten oder Erlebnissen zugeordnet.
 
