@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
+source-git-commit: 6f15e460e5c998b4662310309d333667fed04308
 
 ---
 
@@ -118,15 +118,21 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
    Wenn Sie eine neue [!UICONTROL Recommendations]-Aktivität erstellen oder eine bestehende bearbeiten, wird das Kontrollkästchen **[!UICONTROL Kriterien für später speichern]** automatisch aktiviert. Sollten Sie die Kriterien nicht in anderen Aktivitäten verwenden wollen, deaktivieren Sie das Kontrollkästchen, bevor Sie speichern.
 
-### Geschätzte Verarbeitungszeit für Kriterien {#time}
+## Geschätzte Verarbeitungszeit für Kriterien {#process-time}
 
-* **Mboxes**: Wenn die Kriterien Mboxes als Verhaltens-Datenquelle verwenden, werden sie nach der Erstellung sofort ausgeführt. Je nach Menge der verwendeten Verhaltensdaten und der Größe des Katalogs kann die Ausführung des Algorithmus bis zu 12 Stunden dauern. Änderungen an der Kriterienkonfiguration verursachen eine Neuausführung der Kriterien.
+[!DNL Target] Berechnen Sie nach dem Speichern eines Kriteriums Empfehlungen. Diese Berechnung nimmt etwas Zeit in Anspruch und der Zeitrahmen hängt von der ausgewählten Empfehlungslogik, dem Datumsbereich, der Anzahl der Elemente in Ihrem Katalog, der Anzahl der Verhaltensdaten Ihrer Kunden und der ausgewählten Verhaltensdatenquelle ab. Die Verhaltensdatenquelle hat den größten Einfluss auf die Verarbeitungszeit, wie folgt:
 
-* **Analyse**: Wenn das Kriterium [!DNL Adobe Analytics] als Verhaltens-Datenquelle verwendet, hängt der Zeitpunkt der Kriterienverfügbarkeit nach Erstellung davon ab, ob die ausgewählte Report Suite und das Lookback-Fenster bereits für andere Kriterien verwendet wurden.
+### Moboxes
 
-   * **Anfangslatenz**: Die erste Latenz liegt zwischen zwei und sieben Tagen. Diese anfängliche Latenz tritt nur einmal auf, wenn die Kriterien mit einer Report Suite eingerichtet sind, die bisher noch nicht verwendet wurde oder mit einem längeren Lookback-Fenster verwendet wird.
-   * **Laufende Latenz**: Wenn die Report Suite zuvor mit einem Lookback-Fenster mindestens so lange wie das ausgewählte Lookback-Fenster verwendet wurde, beträgt die erwartete Latenz für neue und vorhandene Kriterien weniger als 12 Stunden, je nach Anzahl der verwendeten Verhaltensdaten und der Größe des Katalogs.
-   Wenn ein Benutzer beispielsweise ein Produkt anzeigt, wird für die Empfehlung "Angezeigte Affinität" ein Produktansichtsverfolgungsaufruf an Analytics in Echtzeit übergeben. Die Analytics-Daten werden am nächsten Tag an Target gesendet und Target führt einen Algorithmus unter 12 Stunden aus.
+Wenn mboxes als Verhaltensdatenquelle ausgewählt werden, wird nach der Erstellung die Kriterien sofort ausgeführt. Je nach Menge der verwendeten Verhaltensdaten und der Größe des Katalogs kann die Ausführung des Algorithmus bis zu 12 Stunden dauern. Durch Änderungen an der Kriterienkonfiguration wird der Algorithmus im Allgemeinen erneut ausgeführt. Je nach Änderung stehen die zuvor berechneten Empfehlungen u. U. zur Verfügung, bis ein erneutes Ausführen abgeschlossen ist oder für größere Änderungen nur Sicherung oder Standardinhalt verfügbar sind, bis eine erneute Ausführung abgeschlossen ist. Wenn ein Algorithmus nicht geändert wird, wird er je nach ausgewähltem Datumsbereich automatisch um [!DNL Target] alle 12 bis 48 Stunden erneut ausgeführt.
+
+### Adobe Analytics
+
+If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
+
+* **Einmalige Einrichtung der Report Suite**: Wenn eine Report Suite zum ersten Mal mit einem gegebenen Datenbereich-Lookback-Fenster verwendet wird, [!DNL Target Recommendations] können Sie die Verhaltensdaten für die ausgewählte Report Suite von zwei bis sieben Tagen vollständig herunterladen [!DNL Analytics]. Dieser Zeitrahmen hängt von dem [!DNL Analytics] Systemladevorgang ab.
+* **Neue oder bearbeitete Kriterien mit einer bereits verfügbaren Report Suite**: Wenn Sie ein neues Kriterium erstellen oder ein vorhandenes Kriterium bearbeiten, sind die Daten sofort verfügbar, wenn die ausgewählte Report Suite bereits verwendet wurde [!DNL Target Recommendations]und ein Datumsbereich kleiner oder kleiner als der ausgewählte Datumsbereich ist, und es ist keine einmalige Einrichtung erforderlich. In diesem Fall oder wenn die Einstellungen eines Algorithmus bearbeitet werden, ohne die ausgewählte Report Suite oder den ausgewählten Datumsbereich zu ändern, wird der Algorithmus innerhalb von 12 Stunden ausgeführt oder erneut ausgeführt.
+* **Laufende Algorithmen werden ausgeführt**: Daten fließen [!DNL Analytics][!DNL Target Recommendations] täglich auf. Beispiel: Wenn ein Benutzer ein Produkt anzeigt, wird für die [!UICONTROL angezeigte] Affinitätsempfehlung ein Produktansichtsverfolgungsaufruf in [!DNL Analytics] Echtzeit übergeben. Die [!DNL Analytics] Daten werden an [!DNL Target] den nächsten Tag gesendet und [!DNL Target] führen den Algorithmus in weniger als 12 Stunden aus.
 
 ## Stützen der Empfehlung auf einen Empfehlungsschlüssel {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
