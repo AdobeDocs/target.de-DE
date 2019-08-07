@@ -1,29 +1,29 @@
 ---
-description: Informationen zur Datenschutz-Grundverordnung (DSGVO) der EU sowie eine Liste häufig gestellter Fragen zu den Auswirkungen der Verordnung auf Ihre Organisation und Adobe Target.
-keywords: DSGVO;EU;Europäische Union;Datenschutz;FAQ;häufig gestellte Fragen
-seo-description: Informationen zur Datenschutz-Grundverordnung (DSGVO) der EU sowie eine Liste häufig gestellter Fragen zu den Auswirkungen der Verordnung auf Ihre Organisation und Adobe Target.
-seo-title: Privatsphäre und Datenschutz-Grundverordnung (DSGVO)
+description: Informationen über die allgemeine Datenschutzregel (GDPR) der Europäischen Union und den California Privacy Act (CCPA) von Kalifornien sowie die Auswirkungen dieser Regeln auf Ihre Organisation und Adobe Target.
+keywords: gdpr; eu; european union; Datenschutz; faq; häufig gestellte Fragen; california consumer privacy act; ccpa
+seo-description: Informationen über die allgemeine Datenschutzregel (GDPR) der Europäischen Union und den California Privacy Act (CCPA) von Kalifornien sowie die Auswirkungen dieser Regeln auf Ihre Organisation und Adobe Target.
+seo-title: Allgemeine Datenschutzregeln (GDPR), California Consumer Privacy Act (CCPA) und Adobe Target
 solution: Target
-title: Privatsphäre und Datenschutz-Grundverordnung (DSGVO)
+title: Datenschutz und Datenschutz
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 ---
 
 
-# Privatsphäre und Datenschutz-Grundverordnung (DSGVO){#privacy-and-general-data-protection-regulation-gdpr}
+# Datenschutz und Datenschutz {#privacy-and-general-data-protection-regulation-gdpr}
 
-Informationen zur Datenschutz-Grundverordnung (DSGVO) der EU sowie eine Liste häufig gestellter Fragen zu den Auswirkungen der Verordnung auf Ihre Organisation und Adobe Target.
+Informationen über die allgemeine Datenschutzregel (GDPR) der Europäischen Union und den California Privacy Act (CCPA) von Kalifornien sowie die Auswirkungen dieser Regeln [!DNL Adobe Target]auf Ihr Unternehmen.
 
 ## Übersicht zu Privatsphäre und Datenschutz-Grundverordnung (DSGVO) {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
 Hier finden Sie Informationen dazu, wie Adobe bei der Zusammenarbeit mit Ihnen die Compliance mit der Datenschutz-Grundverordnung (DSGVO) der Europäischen Union gewährleistet.
 
-## Übersicht über die DSGVO {#section_8C99434A431B4494998B01B869E7EA5D}
+### Übersicht über die DSGVO {#section_8C99434A431B4494998B01B869E7EA5D}
 
-Am 25. Mai 2018 tritt die DSGVO der Europäischen Union in Kraft. Weitere Informationen darüber, was dies für Sie bedeutet, finden Sie unter [GDPR and Your Business](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Am 25. Mai 2018 wurde das GDPR der europäischen Union in Kraft getreten. Weitere Informationen darüber, was dies für Sie bedeutet, finden Sie unter [GDPR and Your Business](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
 Wenn Adobe einem Unternehmen Software und Dienstleistungen bereitstellt, tritt Adobe als Datenverarbeiter für alle personenbezogenen Daten auf, die im Rahmen dieser Dienstleistungen gespeichert und verarbeitet werden. Als Datenverarbeiter verarbeitet Adobe personenbezogene Daten gemäß den gewährten Berechtigungen und Anweisungen Ihres Unternehmens (z. B. über Angaben in Ihrer Vereinbarung mit Adobe).
 
@@ -34,12 +34,20 @@ Adobe Experience Cloud bietet Datenverantwortlichen APIs, die auf die DSGVO vorb
 * Auf die in Target gespeicherten Daten der betroffenen Person zugreifen
 * Die in Target gespeicherten Daten der betroffenen Person löschen
 
-## Die Adobe-Website zur API für die Datenschutz-Grundverordnung {#section_51B8FA3CBE234E9592BDA7083B5CE4CD}
+### Die Adobe-Website zur API für die Datenschutz-Grundverordnung {#section_51B8FA3CBE234E9592BDA7083B5CE4CD}
 
 Weitere Informationen finden Sie unter:
 
 * [Website der Adobe-DSGVO-API](https://www.adobe.io/apis/cloudplatform/gdpr.html)
 * [DSGVO-Dokumentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs.html)
+
+## Übersicht über den California Privacy Act (CCPA) von Kalifornien
+
+Der Adobe California Privacy Act (CCPA) ist am 1. Januar 2020 gültig. Im Design gibt das Gesetz dem California-Regulator das Recht, Anpassungen vorzunehmen und die Details zu verdeutlichen. Dies bedeutet, dass Sie möglicherweise viele Fragen haben. Wenn Sie Fragen haben, sind Sie nicht allein mit den Unsicherheiten im Gesetz beschäftigt, und versuchen Sie, einen Ansatz zur Behebung der rechtlichen, operativen und technischen Anforderungen zu verstehen und zu entwickeln.
+
+Die CCPA bietet Kalifornien-Verbrauchern neue Rechte bezüglich ihrer persönlichen Informationen und stellt für bestimmte Unternehmen, die in Kalifornien Geschäfte durchführen, Datenschutz vor. Auf einer hohen Ebene stellt das Gesetz Phennians verschiedene wichtige Rechte bereit, einschließlich Berechtigungen für: (1) Request Information (Data Access) (Datenzugriff), (2) deaktiviert aus dem Verkauf persönlicher Informationen (ein sehr weit definiertes Recht zur Deaktivierung von Informationen mit Dritten), (3) haben persönliche Informationen gelöscht und (4) werden darüber informiert, dass persönliche Informationen bekannt gemacht oder verkauft werden.
+
+Wenn Sie im vergangenen Jahr beschäftigt waren, um sich für das Datenschutzrecht (GDPR) Europas zu entscheiden, können einige dieser Rechte bekannt sein und viele der Aufgaben, die Sie durchgeführt haben, können möglicherweise reproduziert werden.
 
 ## Adobe Target- und Adobe Launch-Opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -55,7 +63,7 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->Die Teilnahme an der Teilnahme wird in at. js Version 1.7.0 und at. js 2.1.0 unterstützt. Die Anmeldung wird in at. js Version 2.0.0 und 2.0.1 nicht unterstützt.
+>Die Teilnahme an der Teilnahme wird in at. js Version 1.7.0 und at. js 2.1.0 oder höher unterstützt. Die Anmeldung wird in at. js Version 2.0.0 und 2.0.1 nicht unterstützt.
 >
 >Die Verwendung von Adobe Launch zur Verwaltung von Opt-ins ist der empfohlene Ansatz. In Adobe Launch können Sie außerdem präziser steuern, ob ausgewählte Elemente Ihrer Seite vor der Target-Auslösung ausgeblendet werden. Dies ist nützlich für Ihre Strategie zur Einwilligungsverwaltung.
 
@@ -93,19 +101,19 @@ Es gibt drei Szenarien, in denen Sie die Verwendung des Opt-ins in Betracht zieh
    #pageContent { opacity:0;}
    ```
 
-## Häufig gestellte Fragen zur DSGVO {#concept_41F88DE95D2943178BEC382736B5C038}
+## Häufig gestellte Fragen zu Datenschutz und Datenschutz {#concept_41F88DE95D2943178BEC382736B5C038}
 
-Häufig gestellte Fragen zur Datenschutz-Grundverordnung (DSGVO) hinsichtlich Adobe Target.
+Häufig gestellte Fragen zum allgemeinen Data Protection Protection (GDPR) und zum California Consumer Privacy Act (CCPA) für Adobe Target.
 
-### Welche Strategie verfolgt Adobe hinsichtlich der Datenschutz-Grundverordnung (DSGVO)? {#section_A6849628D6524C80A6E16946DC5D25A9}
+### Was ist die Richtlinie von Adobe für diese Regeln? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
 Adobe erfüllt seine Verpflichtungen als Datenverarbeiter bereits oder ist dabei, die entsprechenden Maßnahmen zu implementieren. Adobe verfügt durch Sicherheitszertifikate und integrierte Datenschutzoptionen über eine solide Basis, die durch zusätzliche Verbesserungen bis zum Stichtag im Mai 2018 weiter verstärkt wird. Unternehmenskunden sind dafür verantwortlich, diese Verbesserungen zu implementieren sowie die erforderlichen Richtlinien und Vorgehensweisen zu aktualisieren.
 
-### Muss mein Unternehmen als Datenverantwortlicher eine DSGVO-Anfrage für jede verwendete Adobe Experience Cloud-Lösung einreichen? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
+### Will my company, the Data Controller, need to submit a GDPR or CCPA request to each Adobe Experience Cloud solution that it uses? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
 
-Nein, Adobe stellt eine zentrale Möglichkeit bereit, um Datenverantwortliche bei der Erfüllung von DSGVO-Anfragen zu unterstützen. Datenverantwortliche müssen dazu nicht jede Lösung einzeln aufrufen.
+Nein, Adobe stellt eine zentrale Methode zur Unterstützung von Datencontrollern zur Erfüllung ihrer GDPR- und CCPA-Anforderungen bereit. Datenverantwortliche müssen dazu nicht jede Lösung einzeln aufrufen.
 
-Alle DSGVO-Anfragen in Experience Cloud-Lösungen, wie Target, werden über eine zentrale Adobe-API vorgenommen, die zurzeit als DSGVO-API bezeichnet wird. Die API führt die Anfrage daraufhin in der gesamten Experience Cloud-Lösungssuite des Datenverantwortlichen aus.
+Alle GDPR- und CCPA-Anforderungen in Experience Cloud-Lösungen, einschließlich Target, erfolgen über eine zentrale Adobe API, die derzeit als GDPR-API bezeichnet wird. Die API führt die Anfrage daraufhin in der gesamten Experience Cloud-Lösungssuite des Datenverantwortlichen aus.
 
 ### Für welche Informationen ermöglicht Adobe eine Löschung, wenn Kunden von betroffenen Personen oder Benutzern dazu aufgefordert werden? {#section_4B51D00924EC4166B2442218B69214F0}
 
@@ -115,7 +123,7 @@ Aggregierte oder anonymisierte Daten (beispielsweise Berichtsdaten), in denen ke
 
 Target-Besucherprofile, die seit 90 Tagen inaktiv sind, werden standardmäßig gelöscht, ohne dass eine weitere Aktion erforderlich ist.
 
-### Welche IDs werden unterstützt, um Kunden zu helfen, Datenzugriffs- und Löschungsanfragen gemäß DSGVO in Target nachzukommen? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
+### What IDs are supported to help customers complete a GDPR or CCPA access and deletion request for Target? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
 
 Target unterstützt die folgenden ID-Typen zum Auffinden eines Kundenprofils:
 
@@ -127,17 +135,17 @@ Target unterstützt die folgenden ID-Typen zum Auffinden eines Kundenprofils:
 
 >[!NOTE]
 >
->Obwohl Adobe Target sowohl domänenübergreifende Erst- als auch Drittanbieter-Cookies unterstützt, werden im Rahmen der DSGVO nur Adobe Target-Cookies von Erstanbietern empfohlen.
+>Adobe Target unterstützt sowohl domänenübergreifende als auch domänenübergreifende Cookies von Drittanbietern, die Adobe Target-Cookies von Erstanbietern werden jedoch nur für GDPR und CCPA empfohlen.
 
 ### Wie werden Einwilligungen in Adobe Target verwaltet? {#section_C86BF5EE4FAA47039659850E7594A6BA}
 
-Die DSGVO ändert nichts daran, wann Sie eine Einwilligung einholen müssen, sondern nur, wie Sie diese Einwilligung einholen. Die Einwilligungsstrategie jedes Kunden hängt von den erfassten Daten, den Verwendungspraktiken und den Datenschutzrichtlinien des Kunden ab. Das Einwilligungsmanagement für die DSGVO wird nicht von Target unterstützt und sollte auch nicht darüber durchgeführt werden.
+GDPR und CCPA ändern sich nicht, wenn Sie die Zustimmung erhalten, aber wie Sie es erhalten. Die Einwilligungsstrategie jedes Kunden hängt von den erfassten Daten, den Verwendungspraktiken und den Datenschutzrichtlinien des Kunden ab. Die Genehmigungsverwaltung wird nicht unterstützt und sollte nicht über Target für GDPR und CCPA erreicht werden.
 
 Adobe bietet zurzeit keine Lösung zur Verwaltung von Einwilligungen. Auf dem Markt werden jedoch verschiedene Tools entwickelt, durch die einige der neuen Anforderungen abgedeckt werden. Weitere Informationen zu Datenschutztools im Allgemeinen, einschließlich Tools zur Einwilligungsverwaltung, finden Sie auf der Website der International Association of Privacy Professionals (IAAP) unter [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf).
 
 Adobe Target bietet Opt-in-Funktionalität über Adobe Launch zur Unterstützung Ihrer Einwilligungsverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das Adobe Target-Tag ausgelöst wird. Darüber hinaus bietet Adobe Launch die Option, das Adobe Target-Tag vorab zu genehmigen. Die Verwendung von Adobe Launch zur Verwaltung von Opt-ins ist der empfohlene Ansatz. In Adobe Launch können Sie außerdem präziser steuern, ob ausgewählte Elemente Ihrer Seite vor der Adobe Target-Auslösung ausgeblendet werden. Dies ist nützlich für Ihre Strategie zur Einwilligungsverwaltung.
 
-Weitere Informationen zu DSGVO und Adobe Launch finden Sie unter [Adobe-Datenschutz-JavaScript-Bibliothek und DSGVO](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html) sowie im obigen Abschnitt „Adobe Target- und Adobe Launch-Opt-in“.
+For more information on GDPR, CCPA and Adobe Launch, see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). sowie im obigen Abschnitt „Adobe Target- und Adobe Launch-Opt-in“.
 
 ### Übermittelt AdobePrivacy.js Informationen an die DSGVO-API? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -149,9 +157,9 @@ Weitere Informationen zu DSGVO und Adobe Launch finden Sie unter [Adobe-Datensch
 
 Target löscht beispielsweise die Cookies zum Speichern der IDs, Adobe Audience Manager (AAM) löscht die in einem Drittanbieter-Cookie gespeicherte demdex-ID jedoch nicht.
 
-### Welche Informationen müssen in einer Target-DSGVO-Anfrage enthalten sein? {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### What information needs to be included in a Target GDPR or CCPA request? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
-Neben den Anforderungen des Central Privacy Service enthält eine gültige DSGVO-Anfrage für Target folgende Elemente:
+Zusätzlich zu den Anforderungen des Central Privacy Service gibt es eine gültige GDPR- oder CCPA-Nachricht für Target:
 
 ```
 { 
@@ -194,9 +202,9 @@ Neben den Anforderungen des Central Privacy Service enthält eine gültige DSGVO
 
 | Anfragestatus | Target-Antwortnachricht | Szenario |
 |--- |--- |--- |
-| Verarbeitung | Verarbeitung | Target empfängt die DSGVO-Anfrage und beginnt mit der Verarbeitung. |
-| Abgeschlossen | Nicht zutreffend: Der Unternehmenskontext ist nicht zutreffend. | Die IMS-ID in der DSGVO-Anfrage ist keinem Target-Client zugeordnet.<br>Beachten Sie, dass manche Unternehmen über mehrere IMS-IDs verfügen. Sie müssen die IMS-ID übermitteln, über die Target bereitgestellt wird. |
-| Abgeschlossen | Nicht zutreffend: Benutzerkontext nicht gefunden. | Die in der DSGVO-Anfrage angegebene ID für den spezifischen Besucher oder die betroffene Person ist nicht im Target-Profilspeicher vorhanden.<br>Diese Antwort erhalten Sie auch, wenn Sie versuchen, einen Namespace-ID-Typ zu übermitteln, der nicht von Target unterstützt wird (unterstützte IDs finden Sie oben). |
+| Verarbeitung | Verarbeitung | Target hat die GDPR- oder CCPA-Anforderung erhalten und verarbeitet. |
+| Abgeschlossen | Nicht zutreffend: Der Unternehmenskontext ist nicht zutreffend. | Die IMS-ID in der GDPR- oder CCPA-Anfrage wird keinem Target-Client zugeordnet.<br>Beachten Sie, dass manche Unternehmen über mehrere IMS-IDs verfügen. Sie müssen die IMS-ID übermitteln, über die Target bereitgestellt wird. |
+| Abgeschlossen | Nicht zutreffend: Benutzerkontext nicht gefunden. | Die in der GDPR- oder CCPA-Anfrage angegebene ID für den jeweiligen Besucher oder Datenbetreff ist im Target-Profilspeicher nicht vorhanden.<br>Diese Antwort erhalten Sie auch, wenn Sie versuchen, einen Namespace-ID-Typ zu übermitteln, der nicht von Target unterstützt wird (unterstützte IDs finden Sie oben). |
 | Fehler | Fehlermeldung (abhängig vom Fehlertyp) | Fehler beim Abrufen oder Löschen des angeforderten Profils der betroffenen Person.<br>Fehler beim Hochladen in Azure für die Zugriffsanfrage. |
 
 ### Welche Antwort sendet Target bei einer Zugriffsanfrage an die DSGVO-API? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
@@ -244,11 +252,11 @@ Beispiel für eine Antwort der Target-API auf eine Zugriffsanfrage:
 
 | Feld | Beschreibung |
 |--- |--- |
-| jobId | Gibt die DSGVO-Auftrags-ID aus der zentralen DSGVO-API an. |
+| jobId | Gibt die GDPR- oder CCPA-Auftrags-ID aus der Central GDPR API an. |
 | imsOrgID | Stellt eine eindeutige Kennung für Ihr Unternehmen bereit. |
-| namespace | Wird auch als Datenquelle bezeichnet. Siehe „Welche IDs werden unterstützt, um Kunden zu helfen, Datenzugriffs- und Löschungsanfragen gemäß DSGVO in Target nachzukommen?“ in diesem Thema. |
-| type | Der Typ der ID, für die Sie den Datenzugriff nach DSGVO angefordert haben. In Target können mehrere standardmäßige und Target-spezifische ID-Typen angegeben werden. Siehe „Welche IDs werden unterstützt, um Kunden zu helfen, Datenzugriffs- und Löschungsanfragen gemäß DSGVO in Target nachzukommen?“ in diesem Thema. |
-| value | Die ID des Namespace/der Datenquelle. Siehe „Welche IDs werden unterstützt, um Kunden zu helfen, Datenzugriffs- und Löschungsanfragen gemäß DSGVO in Target nachzukommen?“ für gültige Werte. |
+| namespace | Wird auch als Datenquelle bezeichnet. Siehe "Welche IDs werden unterstützt, damit Kunden einen GDPR- oder CCPA-Zugriff abschließen und Anfrage für Target löschen können? « in diesem Thema. |
+| type | Der ID-Typ, für den Sie den GDPR- oder CCPA-Datenzugriff angefordert haben. In Target können mehrere standardmäßige und Target-spezifische ID-Typen angegeben werden. Siehe "Welche IDs werden unterstützt, damit Kunden einen GDPR- oder CCPA-Zugriff abschließen und Anfrage für Target löschen können? « in diesem Thema. |
+| value | Die ID des Namespace/der Datenquelle. Siehe "Welche IDs werden unterstützt, damit Kunden einen GDPR- oder CCPA-Zugriff abschließen und Anfrage für Target löschen können? « für gültige Werte. |
 | integration code | Bei Integrationscode handelt es sich um Anzeigenamen für Ihre Datenquellen, die statt Datenquellen-IDs verwendet werden, um Ihnen den Überblick über Ihre Datenquellen zu erleichtern. |
 
 Wenn mehrere Werte zur Bestimmung von Profilen angegeben werden, verfügt jede gültige ID über eine Profildatei. Die Profildateien werden in Form einer JSON-Antwort des Target-Profils über die zentrale DSGVO-API an das zentrale DSGVO-Azure Blob gesendet.
@@ -284,4 +292,4 @@ Die im Beispiel verwendeten JSON-Felder des Profils werden in der folgenden Tabe
 
 ## Unterstützt Target IP-Verschleierung? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-Target unterstützt IP-Verschleierung in Target, wenn Sie sie im Rahmen Ihrer DSGVO-Implementierungsstrategie einsetzen. Weitere Informationen finden Sie unter [Datenschutz](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+Target unterstützt IP-Verschleierung in Target, wenn Sie ihn als Teil Ihrer GDPR- oder CCPA-Implementierungsstrategie verwenden möchten. Weitere Informationen finden Sie unter [Datenschutz](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
