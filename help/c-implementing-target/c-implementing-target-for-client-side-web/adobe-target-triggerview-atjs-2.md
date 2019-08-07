@@ -1,6 +1,6 @@
 ---
 description: 'Informationen zur Funktion adobe.target.triggerView (viewName, options) für at.js. '
-keywords: adobe.target.notification;Element;Selektor;Benachrichtigung;Erweiterung
+keywords: adobe. target. triggerview; Triggerview; triggerview; trigger-Ansicht; at. js; Funktionen; function; Viewname; viewname; Anzeigename
 seo-description: Informationen zur Funktion adobe.target.triggerView (viewName, options) für die JavaScript-Bibliothek von Adobe Target at.js.
 seo-title: Informationen zur Funktion adobe.target.triggerView (viewName, options) für die JavaScript-Bibliothek von Adobe Target at.js.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: adobe.target.triggerView (viewName, options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
