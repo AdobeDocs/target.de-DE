@@ -8,7 +8,7 @@ title: Visual Experience Composer–Optionen
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -340,6 +340,10 @@ Wählen Sie das übergeordnete Element zusätzlich zum ursprünglich ausgewählt
 ### Rückgängig/Wiederholen
 
 Rückgängigmachen von Änderungen, die Sie während einer Bearbeitungssitzung an Ihren Aktivitäten vornehmen Sie können außerdem Änderungen wiederherstellen, die zuvor rückgängig gemacht wurden.
+
+## Zu beachten {#considerations}
+
+* Wenn ein Angebot HTML-Inhalte enthält, finden Sie unter "How at. js render offer with HTML content" in [How at. js funktioniert](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
 
 ## In Elementen mithilfe des DOM-Pfades navigieren {#dom-path}
 
