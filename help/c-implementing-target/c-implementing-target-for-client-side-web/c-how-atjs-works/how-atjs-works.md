@@ -8,7 +8,7 @@ title: Funktionsweise von „at.js“
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 
 ---
 
@@ -77,10 +77,27 @@ Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten un
 | 5 | Basierend auf URL, Mbox-Parametern und Profildaten wird von [!DNL Target] entschieden, welche Aktivitäten und Erlebnisse dem Besucher angezeigt werden sollen. | 6 | Zielgerichteter Inhalt wird zurück an die Seite übermittelt. Dieser enthält optional Profilwerte für eine weitere Personalisierung.<br>Das Erlebnis wird so schnell wie möglich ohne ein Flackern der Standardinhalte bereitgestellt. |
 | 7 | [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. | 8 | [!DNL Target]-Daten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und im [!DNL Analytics]-Berichtspeicher abgelegt.<br>[!DNL Analytics]-Daten können dann sowohl in [!DNL Analytics] als auch in [!DNL Target] eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs [!DNL Analytics for Target] (A4T). |
 
+## Wiedergabe von Angeboten mit HTML-Inhalten durch at. js {#render}
+
+Bei der Wiedergabe von Angeboten mit HTML-Inhalten wendet at. js den folgenden Algorithmus an:
+
+1. Bilder werden bereits geladen (wenn `<img>` es Tags in HTML-Inhalten gibt).
+
+1. HTML-Inhalte werden an den DOM-Knoten angehängt.
+
+1. Inline-Skripten werden ausgeführt (Code, der in `<script>` Tags eingeschlossen ist).
+
+1. Remote-Skripts werden asynchron geladen und ausgeführt (`<script>` Tags mit `src` Attributen).
+
+Wichtige Hinweise:
+
+* at. js bietet keine Garantien für die Reihenfolge der Ausführung von Remote-Skripten, da diese asynchron geladen werden.
+* Inline-Skripte sollten keine Abhängigkeiten von Remote-Skripten haben, da diese später geladen und ausgeführt werden.
+
 ## Schulungsvideo: at.js 2.x-Architekturdiagramm
 
 at.js 2.x verbessert die Unterstützung von Adobe Target für SPAs und kann mit anderen Experience Cloud-Lösungen integriert werden. In diesem Video wird erklärt, wie alles zusammenkommt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ger)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+Weitere Informationen finden Sie unter ["at. js 2. x" .](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html)
