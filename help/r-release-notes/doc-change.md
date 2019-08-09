@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -21,6 +21,8 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 9. August 2019 | [Funktionsweise von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Neuer Abschnitt hinzugefügt: " Wie at. js gibt Angebote mit HTML-Inhalten wieder. « |
+|  | [Visual Experience Composer–Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | Neuer Abschnitt hinzugefügt: " Betrachtungen" . |
 | 7. August 2019 | [Vorabruf des Angebotsinhalts](/help/c-target-mobile-app/prefetch-offer-content.md) | Es wurde ein Hinweis hinzugefügt, dass die Prefetch-Funktion in den sdks nicht für die Aktivitätstypen Auto-Targeting, Automatisierte Zuordnung und Automatisierte Personalisierung unterstützt wird. |
 |  | [Fehlerbehebung bei der Analytics- und Target-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Es wurde ein Hinweis aktualisiert, der angibt, wie lange der Classification-Prozess abgeschlossen ist. |
 |  | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Es wurde ein Hinweis aktualisiert, der angibt, wie lange der Classification-Prozess abgeschlossen ist. |
