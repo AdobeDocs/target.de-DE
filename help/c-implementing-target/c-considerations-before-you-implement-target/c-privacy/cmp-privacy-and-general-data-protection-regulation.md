@@ -1,21 +1,21 @@
 ---
-description: Informationen über die allgemeine Datenschutzregel (GDPR) der Europäischen Union und den California Privacy Act (CCPA) von Kalifornien sowie die Auswirkungen dieser Regeln auf Ihre Organisation und Adobe Target.
+description: Informationen über die allgemeine Datenschutzregel (GDPR) der Europäischen Union, den California Privacy Act (CCPA) von Kalifornien sowie andere internationale Datenschutzanforderungen und wie sich diese Regeln auf Ihre Organisation und Adobe Target auswirken.
 keywords: gdpr; eu; european union; Datenschutz; faq; häufig gestellte Fragen; california consumer privacy act; ccpa; Datenschutz; Datenschutz; opt-out; opt-out; Behörden; Regel
-seo-description: Informationen über die allgemeine Datenschutzregel (GDPR) der Europäischen Union und den California Privacy Act (CCPA) von Kalifornien sowie die Auswirkungen dieser Regeln auf Ihre Organisation und Adobe Target.
-seo-title: Allgemeine Datenschutzregeln (GDPR), California Consumer Privacy Act (CCPA) und Adobe Target
+seo-description: Informationen über die allgemeine Datenschutzregel (GDPR) der Europäischen Union, den California Privacy Act (CCPA) von Kalifornien sowie andere internationale Datenschutzanforderungen und wie sich diese Regeln auf Ihre Organisation und Adobe Target auswirken.
+seo-title: Informationen über die allgemeine Datenschutzregel (GDPR) der Europäischen Union, den California Privacy Act (CCPA) von Kalifornien sowie andere internationale Datenschutzanforderungen und wie sich diese Regeln auf Ihre Organisation und Adobe Target auswirken.
 solution: Target
 title: Datenschutz und Datenschutz
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
 
 ---
 
 
 # Datenschutz und Datenschutz {#privacy-and-general-data-protection-regulation-gdpr}
 
-Informationen über die allgemeine Datenschutzregel (GDPR) der Europäischen Union und den California Privacy Act (CCPA) von Kalifornien sowie die Auswirkungen dieser Regeln [!DNL Adobe Target]auf Ihr Unternehmen.
+Informationen über die allgemeine Datenschutzregel (GDPR) der Europäischen Union, den California Privacy Act (CCPA) von Kalifornien sowie andere internationale Datenschutzanforderungen und wie sich diese Regeln auf Ihre Organisation und Adobe Target auswirken.
 
 ## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
@@ -37,9 +37,7 @@ Weitere Informationen finden Sie unter:
 
 ## Übersicht über den California Privacy Act (CCPA)
 
-Der Adobe California Privacy Act (CCPA) ist am 1. Januar 2020 gültig. Im Design gibt das Gesetz dem California-Regulator das Recht, Anpassungen vorzunehmen und die Details zu verdeutlichen. Dies bedeutet, dass Sie möglicherweise viele Fragen haben. Wenn Sie Fragen haben, sind Sie nicht allein mit den Unsicherheiten im Gesetz beschäftigt, und versuchen Sie, einen Ansatz zur Behebung der rechtlichen, operativen und technischen Anforderungen zu verstehen und zu entwickeln.
-
-Die CCPA bietet Kalifornien-Verbrauchern neue Rechte bezüglich ihrer persönlichen Informationen und stellt für bestimmte Unternehmen, die in Kalifornien Geschäfte durchführen, Datenschutz vor. Auf einer hohen Ebene stellt das Gesetz Phennians verschiedene wichtige Rechte bereit, einschließlich Berechtigungen für:
+Der California Privacy Act (CCPA) von Kalifornien bietet Kalifornien neue Rechte bezüglich ihrer persönlichen Informationen und stellt für bestimmte Unternehmen, die in Kalifornien Geschäfte durchführen, Datenschutz vor. Auf einer hohen Ebene stellt das Gesetz Phennians verschiedene wichtige Rechte bereit, einschließlich Berechtigungen für:
 
 * Anforderungsinformationen (Datenzugriff)
 * Ausschluss von dem Verkauf persönlicher Informationen (sehr weit gefasst, um die Freigabe von Informationen mit Dritten auszuschließen)
@@ -102,7 +100,7 @@ Es gibt drei Szenarien, in denen Sie die Verwendung des Opt-ins in Betracht zieh
 
 ## Häufig gestellte Fragen zu Datenschutz und Datenschutz {#concept_41F88DE95D2943178BEC382736B5C038}
 
-Häufig gestellte Fragen zum allgemeinen Data Protection Protection (GDPR) und zum California Consumer Privacy Act (CCPA) [!DNL Target].
+Häufig gestellte Fragen zur allgemeinen Datenschutzregel (GDPR) der Europäischen Union, zum Adobe California Privacy Act (CCPA) und anderen spezifischen Datenschutzanforderungen für Target.
 
 ### Was ist die Richtlinie von Adobe für diese Regeln? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
