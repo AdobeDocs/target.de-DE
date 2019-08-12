@@ -8,7 +8,7 @@ title: Target-Versionshinweise (aktuell)
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51f52bb40a0af4dac63236d46e6d6f0286cbb877
+source-git-commit: 2588a7c251e58193b969d57f91a7c3f640318fbf
 
 ---
 
@@ -34,7 +34,7 @@ Diese Aktion sollte im **August 2019** durchgeführt werden. Nach der Version [!
 
 Schrittweise Anweisungen und weitere Informationen finden Sie unter [Gewähren von Adobe I/O-Integrationen auf Arbeitsflächen und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
-## Target Mobile VEC SDK ios 2.1.0 &amp; Android 1.1.0 (7. August 2019)
+## Target Mobile VEC SDK ios 2.1.0 &amp; Android 1.1.1 (7. August 2019)
 
 Dieses Release von Mobile VEC SDK umfasst die folgenden Erweiterungen und Fehlerbehebungen:
 
@@ -43,6 +43,7 @@ Dieses Release von Mobile VEC SDK umfasst die folgenden Erweiterungen und Fehler
 * Unterstützung für Vorschau für visuelle Aktivitäten auf Mobilgeräten hinzugefügt. (TGT-27875)
 * Es wurde ein Problem behoben, durch das aufgrund `UIImagePickerController` der Verwendung eine Apple Standard-Verletzung verursacht wurde.
 * Die GSON-Abhängigkeit von Android SDK wurde entfernt. (TGT-31710)
+* Andere redundante Gradle-Abhängigkeiten wurden entfernt (TGT -35479)
 * Es wurde ein Problem behoben, durch das das Bereitstellungsangebot zum Zeitpunkt des Authoring nicht zurückgesetzt wurde. (TGT-35270)
 
 ## Target Standard/Premium 19.7.1 (24. Juli 2019) {#tgt-19-7-1}
