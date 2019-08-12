@@ -8,7 +8,7 @@ title: Bearbeiten einer Aktivität oder Speichern als Entwurf
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
@@ -25,9 +25,9 @@ Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichk
 
    ![Symbol bearbeiten](/help/c-activities/assets/hover_edit.png)
 
-   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
+   Target öffnet die Aktivität im Visual Experience Composer (VEC) und Sie sehen die Seite [!UICONTROL Erlebnisse] (der erste Schritt im geleiteten Arbeitsablauf mit drei Schritten).
 
-1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Bearbeiten Sie die Aktivität wie gewünscht mithilfe der [VEC-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. Klicken Sie auf die Unterteilung, um zum nächsten Schritt zu gelangen oder um die Aktivität zu speichern.
 
@@ -59,6 +59,18 @@ Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichk
       * Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen zu speichern und bei dem Schritt zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
 
+
+## Arbeiten mit alten Aktivitäten, die in Adobe Target Classic erstellt wurden {#classic}
+
+In der [!UICONTROL Aktivitätenliste] werden Aktivitäten angezeigt [!DNL Adobe Target Classic], die in verschiedenen Quellen erstellt wurden. Die folgenden Aktionen sind verfügbar, wenn Sie mit Legacy-Aktivitäten arbeiten, die erstellt wurden in [!DNL Target Classic]:
+
+* [!UICONTROL Aktivieren]
+* [!UICONTROL Deaktivieren]
+* [!UICONTROL Archivieren]
+* [!UICONTROL Kopieren]
+* [!UICONTROL Löschen]
+
+[!DNL Target Classic] Eine Aktivität kann nicht direkt bearbeitet werden. Wenn Sie die Aktivität bearbeiten möchten, sollten Sie eine Kopie der Aktivität erstellen und [!DNL Target Standard/Premium] dann die neu erstellte Aktivität speichern.
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
