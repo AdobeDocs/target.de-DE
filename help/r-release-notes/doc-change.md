@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 ---
 
@@ -21,9 +21,10 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 14. August 2019 | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Text aktualisiert und Schulungsvideo-Link hinzugefügt. |
 | 12. August 2019 | [Android – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | Informationen zu Abhängigkeiten und Artefakten wurden aktualisiert.<br>Das Codebeispiel für die `AndroidManifest.XML` Datei wurde aktualisiert. |
 |  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Die Liste der Verbesserungen und Fehlerbehebungen im Abschnitt "Target Mobile VEC SDK ios 2.1.0 &amp; Android 1.1.1" wurde aktualisiert. |
-|  | [Bearbeiten einer Aktivität oder Speichern als Entwurf](/help/c-activities/edit-activity.md#classic) | Neuer Abschnitt hinzugefügt: " Arbeiten mit älteren Aktivitäten, die in Adobe Target Classic erstellt wurden. « |
+|  | [Bearbeiten einer Aktivität oder Speichern als Entwurf](/help/c-activities/edit-activity.md#classic) | Neuer Abschnitt hinzugefügt: " Arbeiten mit älteren Aktivitäten, die in Recommendations Classic erstellt wurden. « |
 | 9. August 2019 | [Funktionsweise von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Neuer Abschnitt hinzugefügt: " Wie at. js gibt Angebote mit HTML-Inhalten wieder. « |
 |  | [Visual Experience Composer–Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | Neuer Abschnitt hinzugefügt: " Betrachtungen" . |
 | 7. August 2019 | [Vorabruf des Angebotsinhalts](/help/c-target-mobile-app/prefetch-offer-content.md) | Es wurde ein Hinweis hinzugefügt, dass die Prefetch-Funktion in den sdks nicht für die Aktivitätstypen Auto-Targeting, Automatisierte Zuordnung und Automatisierte Personalisierung unterstützt wird. |
