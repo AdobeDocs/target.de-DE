@@ -8,7 +8,7 @@ title: Datenschutz und Datenschutz
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -37,7 +37,9 @@ Weitere Informationen finden Sie unter:
 
 ## Übersicht über den California Privacy Act (CCPA)
 
-Der California Privacy Act (CCPA) von Kalifornien bietet Kalifornien neue Rechte bezüglich ihrer persönlichen Informationen und stellt für bestimmte Unternehmen, die in Kalifornien Geschäfte durchführen, Datenschutz vor. Auf einer hohen Ebene stellt das Gesetz Phennians verschiedene wichtige Rechte bereit, einschließlich Berechtigungen für:
+Der California Privacy Act (CCPA) von Kalifornien bietet Kalifornien neue Rechte bezüglich ihrer persönlichen Informationen und stellt für bestimmte Unternehmen, die in Kalifornien Geschäfte durchführen, Datenschutz vor. Die CCPA wird am 1. Januar 2020 in Kraft gesetzt.
+
+Auf einer hohen Ebene stellt das Gesetz Phennians verschiedene wichtige Rechte bereit, einschließlich Berechtigungen für:
 
 * Anforderungsinformationen (Datenzugriff)
 * Ausschluss von dem Verkauf persönlicher Informationen (sehr weit gefasst, um die Freigabe von Informationen mit Dritten auszuschließen)
