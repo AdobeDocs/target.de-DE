@@ -8,7 +8,7 @@ title: Visual Experience Composer–Optionen
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -313,11 +313,11 @@ Ziehen Sie das Element an einen anderen Ort innerhalb des gleichen übergeordnet
 
 **Hinweis:** Die Größe von Inline-Elementen kann nicht geändert werden.
 
-#### Verschieben
+#### Verschieben {#move}
 
 Verschieben Sie Elemente auf Ihrer Seite. Im Gegensatz zu [!UICONTROL Elemente neu anordnen] werden bei der Option [!UICONTROL Verschieben] keine anderen Elemente verschoben, um Platz für das verschobene Element zu machen. Verwenden Sie die Pfeiltasten, um geringfügige Korrekturen vorzunehmen. (Geplante Erweiterung: Es soll sichergestellt werden können, dass verschobene Elemente nicht hinter anderen Elementen verborgen werden.)
 
-In manchen Fällen, zum Beispiel wenn eine CSS-Beschränkung es erfordert, dass ein Element innerhalb des übergeordneten Elements verbleibt, können Sie das Element nicht außerhalb des übergeordneten Elements verschieben.
+In manchen Fällen, zum Beispiel wenn eine CSS-Beschränkung es erfordert, dass ein Element innerhalb des übergeordneten Elements verbleibt, können Sie das Element nicht außerhalb des übergeordneten Elements verschieben. Ein Element kann nicht außerhalb eines Containers verschoben werden, der über die folgende CSS-Eigenschaft verfügt: `overflow: hidden`.
 
 #### Ausblenden
 
