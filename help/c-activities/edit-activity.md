@@ -8,7 +8,7 @@ title: Bearbeiten einer Aktivität oder Speichern als Entwurf
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 ---
 
@@ -60,9 +60,9 @@ Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichk
 
 
 
-## Arbeiten mit alten Aktivitäten, die in Adobe Target Classic erstellt wurden {#classic}
+## Arbeiten mit älteren Aktivitäten, die in Recommendations Classic erstellt wurden {#classic}
 
-In der [!UICONTROL Aktivitätenliste] werden Aktivitäten angezeigt [!DNL Adobe Target Classic], die in verschiedenen Quellen erstellt wurden. Die folgenden Aktionen sind verfügbar, wenn Sie mit Legacy-Aktivitäten arbeiten, die erstellt wurden in [!DNL Target Classic]:
+In der [!UICONTROL Aktivitätenliste] werden Aktivitäten angezeigt [!DNL Recommendations Classic], die in verschiedenen Quellen erstellt wurden. Die folgenden Aktionen sind verfügbar, wenn Sie mit Legacy-Aktivitäten arbeiten, die erstellt wurden in [!DNL Recommendations Classic]:
 
 * [!UICONTROL Aktivieren]
 * [!UICONTROL Deaktivieren]
@@ -70,7 +70,7 @@ In der [!UICONTROL Aktivitätenliste] werden Aktivitäten angezeigt [!DNL Adobe 
 * [!UICONTROL Kopieren]
 * [!UICONTROL Löschen]
 
-[!DNL Target Classic] Eine Aktivität kann nicht direkt bearbeitet werden. Wenn Sie die Aktivität bearbeiten möchten, sollten Sie eine Kopie der Aktivität erstellen und [!DNL Target Standard/Premium] dann die neu erstellte Aktivität speichern.
+[!DNL Recommendations] Eine Aktivität kann nicht direkt bearbeitet werden. Wenn Sie die Aktivität bearbeiten möchten, sollten Sie eine Kopie der Aktivität erstellen und [!DNL Target Premium] dann die neu erstellte Aktivität speichern. Diese neu erstellte Aktivität kann dann nach Bedarf bearbeitet werden.
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
