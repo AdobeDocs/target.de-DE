@@ -1,6 +1,6 @@
 ---
 description: Informationen zur Arbeit mit Adobe Client Care zur Implementierung der CNAME-Unterstützung (Canonical Name) in Adobe Target.
-keywords: Client Care;CNAME;Zertifikatsprogramm;kanonischer Name;Cookies;Zertifikat
+keywords: Client Care;CNAME;Zertifikatsprogramm;kanonischer Name;Cookies;Zertifikat; amc; adobe managed certificate
 seo-description: Informationen zur Arbeit mit Adobe Client Care zur Implementierung der CNAME-Unterstützung (Canonical Name) in Adobe Target.
 seo-title: CNAME und Adobe Target
 solution: Target
@@ -8,7 +8,7 @@ title: CNAME und Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -20,7 +20,7 @@ Informationen zur Arbeit mit Adobe Client Care zur Implementierung der CNAME-Unt
 Führen Sie folgende Schritte aus, um die CNAME-Unterstützung in Target anzufordern:
 
 1. Öffnen Sie ein [Customer Care-Ticket](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C), in dem Sie die CNAME-Unterstützung für Ihre Adobe Target-Aufrufe anfordern.
-1. Melden Sie sich für das Programm [Adobe Managed Certificate (AMC)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) an und führen Sie die Implementierungsschritte in der Anleitung [!DNL Adobe Analytics]*Erstanbieter-Cookies* aus.
+1. Melden Sie sich für das Programm [Adobe Managed Certificate (AMC)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) an und führen Sie die Implementierungsschritte in der Anleitung [!DNL Adobe Analytics]*Erstanbieter-Cookies* aus. [!DNL Target] verwendet dieselbe Methode wie [!DNL Analytics] CNAME-Unterstützung.
 
    Das AMC-Programm erleichtert Kunden die Implementierung von Erstanbieter-Cookies. Nach Anmeldung bei dem Programm erwirbt Adobe das Zertifikat zur Installation auf sicheren Servern und stellt es aus.
 
