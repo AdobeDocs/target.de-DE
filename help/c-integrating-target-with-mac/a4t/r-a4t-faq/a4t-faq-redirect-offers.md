@@ -8,7 +8,7 @@ title: Umleitungsangebote – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -23,7 +23,7 @@ Ja – vorausgesetzt, Ihre Implementierung verwendet [!DNL at.js]. Ihre Impleme
 
 >[!NOTE]
 >
->Ein bekanntes Problem wird ausgeblendet, das eine begrenzte Anzahl von Kunden mit Umleitungen mit A 4 T verursacht, um einen höheren Prozentsatz an nicht zugewiesenen Trefferraten zu sehen. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+>Es gibt ein bekanntes Problem, bei dem einer begrenzten Anzahl von Kunden mit Redirects mit A4T ein höherer Prozentsatz an aufgetrennten Treffern angezeigt wird. Siehe [Bekannte Probleme und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Was sind die erforderlichen Mindestanforderungen, um Umleitungsangebote in A4T nutzen zu können? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -49,7 +49,7 @@ Wenn Sie eine frühere, nicht unterstützte Version von at. js verwenden, besteh
 
 Es wird empfohlen, den formularbasierten Composer zum Erstellen einer Redirect-Aktivität zu verwenden, um die Geschwindigkeit der Seitenumleitung zu erhöhen. Das beeinflusst, wo der Code auf der Seite ausgeführt wird. Es wird zudem die Erstellung eines Umleitungsangebots für jeden Besuch einschließlich des Standardbesuchs empfohlen, wobei die Umleitung zur ursprünglichen Seite zurückführen würde. Dadurch wird gewährleistet, dass im Falle von Fehlzählungen alle Besuche berücksichtigt werden, sodass Berichte und Analysen für den Test weiterhin gültig sind.
 
-Der Grund für die Verwendung von Umleitungsangeboten für alle Erlebnisse in der Aktivität, einschließlich des Standarderlebnisses (Kontrollerlebnis), besteht darin, dieselben Bedingungen für alle Erlebnisse zu platzieren. Wenn das Standarderlebnis beispielsweise kein Umleitungsangebot enthält, aber die anderen Erlebnisse Umleitungsangebote haben, hat die Geschwindigkeit des Erlebnisses ohne Umleitungsangebot einen eigenen Vorteil. Umleitungsangebote werden nur für temporäre Szenarien empfohlen, z. B. Tests. Umleitungsangebote werden nicht für permanente Szenarien wie Personalisierung empfohlen. Nachdem Sie den Gewinner ermittelt haben, sollten Sie die Umleitung entfernen, um die Seitenladeleistung zu verbessern.
+Ein Grund für die Verwendung von Umleitungsangeboten für alle Erlebnisse in der Aktivität, einschließlich des Standarderlebnisses (Kontrollerlebnis), besteht darin, dieselben Bedingungen für alle Erlebnisse zu platzieren. Wenn das Standarderlebnis beispielsweise kein Umleitungsangebot enthält, aber die anderen Erlebnisse Umleitungsangebote haben, hat die Geschwindigkeit des Erlebnisses ohne Umleitungsangebot einen eigenen Vorteil. Umleitungsangebote werden nur für temporäre Szenarien empfohlen, z. B. Tests. Umleitungsangebote werden nicht für permanente Szenarien wie Personalisierung empfohlen. Nachdem Sie den Gewinner ermittelt haben, sollten Sie die Umleitung entfernen, um die Seitenladeleistung zu verbessern.
 
 For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
