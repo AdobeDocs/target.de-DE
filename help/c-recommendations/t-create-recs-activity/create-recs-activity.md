@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -21,23 +21,23 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
 1. Klicken Sie auf **[!UICONTROL Aktivität erstellen]** &gt; **[!UICONTROL Empfehlungen]**.
 
-   ![Recommendations-Aktivität erstellen](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
+   ![Erstellen einer Recommendations-Aktivität](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. Wählen Sie bei Bedarf **[!UICONTROL Visual (Standard)]** aus.
 
-   ![Recommendations-Aktivität erstellen, Dialogfeld](/help/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
+   ![Dialogfeld „Erstellen einer Recommendations-Aktivität“](/help/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
 
-   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular aus]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular] aus. Weitere Informationen finden Sie unter [Formularbasierter Experience Composer](/help/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
-   >Zusätzlich zum VEC und Form-Based Experience Composer bietet Target die Einzelseitenanwendung VEC und VEC für mobile Apps an. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Zusätzlich zum VEC und formularbasierten Experience Composer bietet Target auch den VEC für Einzelseitenanwendungen und den VEC für Mobile Apps. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
    >
-   >Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >Informationen zur Problembehebung für den VEC finden Sie unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
    >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
 
-1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Abhängig von Ihrer Lizenz) Wenn Sie [Target Premium-Kunde ](/help/c-intro/intro.md#premium)sind, wählen Sie einen [Arbeitsbereich](/help/administrating-target/c-user-management/property-channel/property-channel.md) aus.
 
 1. Geben Sie eine Aktivitäts-URL an und klicken Sie auf **[!UICONTROL Weiter]**.
 
@@ -45,11 +45,11 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
    >
    >[!DNL Target] unterscheidet nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]). Als Ergebnis stimmen [!DNL `http://www.adobe.com`] und [!DNL `https://wwww.adobe.com`] überein.
 
-   Die Aktivitäts-URL ist die Seite, auf der die Empfehlungen eingeblendet werden sollen.
+   Die Aktivitäts-URL ist die Seite, auf der die Empfehlungen eingeblendet werden.
 
    Wenn Sie auf [!UICONTROL Weiter] klicken, wird Ihre Seite im VEC geöffnet. Sie können ein aktuelles Element durch Empfehlungen ersetzen oder Empfehlungen einfügen.
 
-1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
+1. Klicken Sie auf ein Element auf Ihrer Seite. Wenn an der Position des Elements Empfehlungen zur Verfügung stehen, klicken Sie auf **[!UICONTROL Ersetzen durch Empfehlungen]**, **[!UICONTROL Empfehlungen einfügen vor]** oder auf **[!UICONTROL Empfehlungen einfügen nach]**.
 
    ![Recommendations-Optionen](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
@@ -67,9 +67,9 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
    * Suchergebnisseite
    * Danksagungsseite
    * Sonstige
-   ![Optionen für Seitentyp auswählen](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
+   ![Optionen zur Auswahl des Seitentyps](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
-1. Select one or more [criteria](/help/c-recommendations/c-algorithms/algorithms.md).
+1. [Wählen Sie mindestens ein Kriterium aus](/help/c-recommendations/c-algorithms/algorithms.md).
 
    Kriterien werden in Form von Karten dargestellt, die Informationen zu dem jeweiligen Kriterium anzeigen. In der Standardeinstellung werden im Bildschirm [!UICONTROL Kriterien auswählen] Kriterien angezeigt, die mit Ihrem vertikalen Markt und dem von Ihnen ausgewählten Seitentyp kompatibel sind. Sie können diese Optionen ändern, wenn Sie andere Kriterien angezeigt haben möchten.
 
@@ -77,31 +77,31 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
    >
    >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, heben Sie die Auswahl für die Option **[!UICONTROL Kompatibel]** auf. Die Option [!UICONTROL Kompatibel] wird je nach Ihren Empfehlungs-Einstellungen (**[!UICONTROL Empfehlungen]** &gt; **[!UICONTROL Einstellungen]** &gt; **[!UICONTROL Inkompatible Kriterien filtern]**) möglicherweise nicht angezeigt. Weitere Informationen finden Sie unter [Einstellungen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
-   ![Dialogfeld "Kriterien auswählen «](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
+   ![Dialogfeld „Kriterien auswählen“](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
    Wenn Sie mehrere Kriterien auswählen, wird der Traffic gleichmäßig zwischen den ausgewählten Kriterien ausgewählt. Wenn Sie zum Beispiel zwei Kriterien auswählen und Ihre Aktivität zur Anzeige von Standardinhalt für 20 % der Aktivitätsteilnehmer konzipiert ist, sehen 40 % der Aktivitätsteilnehmer die Empfehlungen, die durch jedes der Kriterien kontrolliert werden. Es gibt keine Option zur Änderung der Prozentsätze für die einzelnen Kriterien.
 
-   * To search for an existing criteria (for example, if a large number of criteria cards are displayed), type in the search field until the desired criteria appears, then select the criteria and click **[!UICONTROL Next]**.
+   * Um nach einem vorhandenen Kriterium zu suchen (zum Beispiel wenn viele Kriterienkarten angezeigt werden), geben Sie einen entsprechenden Suchtext in das Suchfeld ein, bis das gewünschte Kriterium angezeigt wird. Wählen Sie dieses dann aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
       Einige Kriterien werden durch [!DNL Recommendations] bereitgestellt. Sie und Ihr Team können auch eigene Kriterien erstellen.
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Erstellen von Kriterien](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
-   * Sie können auch Kriterien in Sequenzen gruppieren. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria Sequence]**. Weitere Informationen finden Sie unter [Erstellen von Kriteriensequenzen](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE).
+   * Um ein neues Kriterium zu erstellen, klicken Sie auf **[!UICONTROL Kriterien erstellen]** &gt; **[!UICONTROL Kriterien erstellen]** und geben dann die Informationen für die neuen Kriterien ein. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Erstellen von Kriterien](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+   * Sie können auch Kriterien in Sequenzen gruppieren. Um eine neue Kriteriensequenz zu erstellen, klicken Sie auf **[!UICONTROL Kriterien erstellen]** &gt; **[!UICONTROL Kriteriensequenz erstellen]**. Weitere Informationen finden Sie unter [Erstellen von Kriteriensequenzen](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE).
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
-1. Select a [design](/help/c-recommendations/c-design-overview/design-overview.md).
+1. [Entwurf auswählen](/help/c-recommendations/c-design-overview/design-overview.md).
 
    Ein Entwurf ist eine Vorlage, die das Aussehen der Orte auf Ihrer Seite festlegt. [!DNL Target] enthält mehrere vorkonfigurierte Entwürfe. Sie können auch Ihre eigenen, benutzerdefinierten Entwürfe erstellen. Weitere Informationen finden Sie unter [Erstellen eines Entwurfs](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) und [Anpassen eines Entwurfs](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
-   ![Dialogfeld "Design auswählen" auswählen](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
+   ![Dialogfeld „Entwurf auswählen“](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
-   Jeder Entwurf zeigt eine grafische Darstellung dessen, wie dieser aussehen wird, und Symbole, die zeigen, wie viele Ihrer aktiven und inaktiven Aktivitäten derzeit diesen Entwurf verwenden.
+   Jeder Entwurf beinhaltet eine grafische Darstellung des jeweiligen Entwurfs und Symbole, die zeigen, wie viele Ihrer aktiven und inaktiven Aktivitäten derzeit diesen Entwurf verwenden.
 
-   * To select one or more existing designs, click the designs, then click **[!UICONTROL Next]**.
+   * Wenn Sie einen oder mehrere der vorhandenen Entwurf auswählen möchten, klicken Sie auf die Entwürfe und anschließend auf **[!UICONTROL Weiter]**.
 
-      Wenn Sie mehrere Kriterien ausgewählt haben, können Sie nur ein Design auswählen.
+      Wenn Sie mehrere Kriterien ausgewählt haben, können Sie lediglich einen Entwurf auswählen.
 
-   * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. Klicken Sie auf **[!UICONTROL Weiter]**, wählen Sie dann ein Bild aus oder laden Sie ein Bild hoch und klicken Sie auf **[!UICONTROL Fertig]** &gt; **[!UICONTROL Fertig]**. Weitere Informationen zum Erstellen eines neuen Entwurfs finden Sie unter [Erstellen eines Entwurfs](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Um einen benutzerdefinierten Entwurf zu erstellen, klicken Sie auf **[!UICONTROL Entwurf erstellen]** und geben dann den Namen und den Code für den neuen Entwurf ein. Klicken Sie auf **[!UICONTROL Weiter]**, wählen Sie dann ein Bild aus oder laden Sie ein Bild hoch und klicken Sie auf **[!UICONTROL Fertig]** &gt; **[!UICONTROL Fertig]**. Weitere Informationen zum Erstellen eines neuen Entwurfs finden Sie unter [Erstellen eines Entwurfs](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
@@ -120,7 +120,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
 1. Überprüfen Sie Ihre [!DNL Recommendations]-Aktivität im Flussdiagramm und nehmen Sie erforderliche Änderungen vor.
 
-   ![Diagramm für Recommendations-Fluss](/help/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   ![Flussdiagramm für Recommendations](/help/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
    Das Flussdiagramm führt Sie durch die Schritte zur Auswahl der Zielgruppe für die Aktivität, zum Einrichten der Erlebnisse und zum Festlegen der Erfolgsmetriken.
 
@@ -151,9 +151,9 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
    >
    >Wenn Sie einen [!DNL Recommendation]-Aktivitätsnamen angeben, der bereits für eine andere Aktivität in [!DNL Recommendations Classic] vorhanden ist, wird die neue Aktivität noch einmal mit einem neuen Namen synchronisiert. Der neue Name ist der ursprüngliche Name, der mit einem Zeitstempel versehen wird, um ihn eindeutig zu machen. Dieser neue Name wird sowohl in [!DNL Target Standard/Premium] als auch in [!DNL Recommendations Classic] angezeigt.
 
-1. When finished, click **[!UICONTROL Save &amp; Close]**.
+1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**.
 
-   Es wird eine Übersicht über Ihre Aktivität angezeigt.
+   Für Ihre Aktivität wird eine Übersicht angezeigt.
 
    Auf der Seite [!UICONTROL Übersicht] können Sie:
 
@@ -170,3 +170,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 1. (Optional) Öffnen Sie die Seite [!UICONTROL Kollisionen], um eventuell auftretende [Aktivitäten-Kollisionen](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html) anzuzeigen.
 
    Kollisionen von Aktivitäten treten auf, wenn mehrere Aktivitäten Inhalte auf derselben Seite bereitstellen sollen. Dies kann zur Darstellung unerwarteter Inhalte führen.
+
+## Schulungsvideo: Recommendations-Aktivität erstellen (7:15)
+
+>[!VIDEO](https://video.tv.adobe.com/v/27688?captions=ger)
