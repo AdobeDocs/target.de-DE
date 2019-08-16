@@ -10,7 +10,7 @@ topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -73,3 +73,12 @@ Sie können Sammlungen auch über „Erweiterte Suche“ auf der Seite „Katalo
 >[!IMPORTANT]
 >
 >Bei der Funktion „Erweiterte Suche“ wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die zum Zeitpunkt der Auslieferung zurückgegebenen Produkte basieren jedoch auf der Suche mit Unterscheidung zwischen Groß- und Kleinschreibung. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Kollektionen auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Katalog mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszugeben, werden nur Produkte mit dem Zusatz „urlaub“ ausgegeben. Produkte, die „Urlaub“ enthalten, werden nicht angezeigt.
+
+## Schulungsvideo: Erstellen von Sammlungen und Ausschlüssen in Recommendations (7:05)
+
+Dieses Video enthält die folgenden Informationen:
+
+* Erstellen einer Sammlung
+* Einen Ausschluss erstellen
+
+>[!VIDEO](https://video.tv.adobe.com/v/27689?captions=ger)
