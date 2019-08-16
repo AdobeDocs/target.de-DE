@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -22,6 +22,14 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 16. August 2019 | [Echtzeit-Profilsynchronisation für mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Neuer Abschnitt hinzugefügt: " Betrachtungen" . |
+|  | [Erstellen einer Recommendations-Aktivität](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | Ein Schulungsvideo wurde hinzugefügt. |
+|  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Schulungsvideos wurden hinzugefügt. |
+|  | [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Ein Schulungsvideo wurde hinzugefügt. |
+|  | [Hochladen benutzerdefinierter Kriterien](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Ein Schulungsvideo wurde hinzugefügt. |
+|  | [Erstellen von Kriteriensequenzen](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Ein Schulungsvideo wurde hinzugefügt. |
+|  | [Erstellen eines Designs](/help/c-recommendations/c-design-overview/create-design.md) | Ein Schulungsvideo wurde hinzugefügt. |
+|  | [Sammlungen](/help/c-recommendations/c-products/collections.md) | Ein Schulungsvideo wurde hinzugefügt. |
+|  | [Ausnahmen](/help/c-recommendations/c-products/exclusions.md) | Ein Schulungsvideo wurde hinzugefügt. |
 | 14. August 2019 | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Text aktualisiert und Schulungsvideo-Link hinzugefügt. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Clarrifed-Informationen zum `consumerID` Schlüssel. |
 |  | [Visual Experience Composer–Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | Die Informationen im Abschnitt "Layout &gt; Verschieben" wurden aktualisiert. |
