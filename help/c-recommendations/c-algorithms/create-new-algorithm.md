@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: b892660e52bdec1e64dcbe2c8dc18ace26ae2910
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -347,9 +347,9 @@ Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
 
 ### Zuvor gekaufte Artikel {#previously-purchased}
 
-Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+Nutzt den Verlauf des Benutzers (sitzungsübergreifend) für die Anzeige der letzten *x* vom Besucher gekauften Artikel, basierend auf der Anzahl x der im Entwurf vorhandenen Plätze.
 
-The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Wenn zwei Sites zu verschiedenen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur kürzlich erworbene Artikel auf der entsprechenden Site an. Wenn sich zwei Sites in derselben Umgebung befinden und ein Besucher zwischen den beiden Sites wechselt, sieht der Besucher dieselben zuletzt gekauften Artikel für beide Sites.
+Das Kriterium „Kürzlich gekaufte Elemente“ liefert jetzt Ergebnisse speziell für die jeweilige [Umgebung](/help/administrating-target/hosts.md). Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die kürzlich gekauften Artikel der entsprechenden Site an. Wenn zwei Sites in derselben Umgebung enthalten sind und ein Besucher zwischen ihnen wechselt, werden ihm die kürzlich gekauften Artikel für beide Sites angezeigt.
 
 **Verwendung auf Ihrer Site**
 
@@ -457,3 +457,13 @@ Wenn Sie **[!UICONTROL Elemente]**/**[!UICONTROL Medien mit ähnlichen Attribute
 Da beim Vergleich der Ähnlichkeit von Inhalten Stichwörter verwendet werden, führen einige Attribute wie *Botschaft* oder *Beschreibung* zu einer Verwässerung der Vergleiche. Sie können daher Regeln erstellen, mit denen solche Attribute ignoriert werden.
 
 Standardmäßig sind alle Attribute auf den Wert *Grundlinie* eingestellt. Sie müssen keine Regeln erstellen, wenn Sie diese Einstellung nicht ändern möchten.
+
+## Schulungsvideo: Kriterien in Recommendations erstellen (12:33)
+
+Dieses Video enthält die folgenden Informationen:
+
+* Erstellen von Kriterien
+* Erstellen von Kriteriensequenzen
+* Hochladen benutzerdefinierter Kriterien
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=ger)
