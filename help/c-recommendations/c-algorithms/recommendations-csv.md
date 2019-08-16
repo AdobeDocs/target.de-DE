@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -92,3 +92,13 @@ Im Folgenden finden Sie mögliche Fehlermeldungen, die Sie erhalten können, wen
 | Zugangsdatenfehler | Geben Sie einen gültigen Benutzernamen und ein gültiges Passwort für ein aktives Konto auf dem Server an. |
 | Verzeichnis nicht gefunden | Geben Sie ein Verzeichnis an, das auf dem Server existiert. |
 | Datei nicht gefunden | Geben Sie den Namen einer Datei an, die auf dem Server im angegebenen Verzeichnis existiert. |
+
+## Schulungsvideo: Kriterien in Recommendations erstellen (12:33)
+
+Dieses Video enthält die folgenden Informationen:
+
+* Erstellen von Kriterien
+* Erstellen von Kriteriensequenzen
+* Hochladen benutzerdefinierter Kriterien
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=ger)
