@@ -1,14 +1,14 @@
 ---
 description: Bei Umleitungsangeboten wird der Browser zu einer neuen Seite umgeleitet.
 keywords: Umleitungsangebot;Umleitungsangebote erstellen;HTML-Angebot hinzufügen;alle URL-Parameter bei der Umleitung übermitteln;mboxSessionId bei der Umleitung übermitteln (nur erforderlich, wenn eine Umleitung auf eine andere Domäne erfolgt)
-seo-description: Bei Umleitungsangeboten wird der Browser zu einer neuen Seite umgeleitet.
+seo-description: Informationen über Umleitungsangebote in Adobe Target, die dazu führen, dass ein Browser zu einer neuen Seite weitergeleitet wird.
 seo-title: Erstellen von Umleitungsangeboten
 solution: Target
 title: Erstellen von Umleitungsangeboten
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 
 ---
 
@@ -22,8 +22,6 @@ Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, 
 >[!NOTE] {class="- topic/note "}
 >
 >Sie können keine Umleitungsangebote in Ajax-Mboxes (`mboxUpdate`) verwenden.
-
->[!NOTE]
 >
 >Für Umleitungsangebote in Aktivitäten mit A4T muss Ihre Implementation bestimmten Mindestanforderungen entsprechen. Darüber hinaus gibt es wichtige Informationen, die Sie benötigen. Weitere Informationen finden Sie unter [Umleitungsangebote – A4T-FAQ](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 
