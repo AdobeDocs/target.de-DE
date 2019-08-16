@@ -10,7 +10,7 @@ topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -47,3 +47,12 @@ Sie können einen [!UICONTROL Recommendations]-Entwurf erstellen, indem ein Stan
    >Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hardcodiert oder in Schleife, beträgt 99.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+## Schulungsvideo: Benutzerdefinierte Designs in Recommendations erstellen (3:20)
+
+Dieses Video enthält die folgenden Informationen:
+
+* Erstellen eines benutzerdefinierten Entwurfs
+* Verstehen Sie, wie Sie auf Anzeigevariablen in Ihren Designs verweisen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27687?captions=ger)
