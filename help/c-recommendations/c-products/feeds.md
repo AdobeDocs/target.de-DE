@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -279,7 +279,7 @@ Folgende Statusoptionen stehen für Feeds zur Verfügung:
 | Warten auf Download | Target bereitet das Herunterladen der Feed-Datei vor. |
 | Herunterladen von Feed-Datei | Target lädt die Feed-Datei herunter. |
 | Importieren von Elementen | Target importiert Elemente aus der Feed-Datei. |
-| Feed Imported Successfully at *time* | Target hat die Feed-Datei in das Inhaltsbereitstellungssystem importiert. Änderungen an Elementattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in den bereitgestellten Empfehlungen übernommen. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es in Kürze erneut und aktualisieren Sie die Seite mit den Empfehlungen.<br>*Hinweis 1:* Wenn Änderungen an den Attributen eines Elements dazu führen, dass ein Element aus Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort übernommen. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*Hinweis 2:* Wenn dieser Status angezeigt wird, werden die Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche der Katalogsuche übernommen. In der Katalogsuche wird ein separater Status aufgeführt, der angibt, wann der durchsuchbare Katalog zuletzt aktualisiert wurde. |
+| Feed erfolgreich importiert ** | Target hat die Feed-Datei in das Inhaltsbereitstellungssystem importiert. Änderungen an Elementattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in den bereitgestellten Empfehlungen übernommen. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es in Kürze erneut und aktualisieren Sie die Seite mit den Empfehlungen.<br>*Hinweis 1:* Wenn Änderungen an den Attributen eines Elements dazu führen, dass ein Element aus Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort übernommen. Wenn ein Element neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Element *nicht mehr* aus Empfehlungen ausgeschlossen wird, wird es bis zum nächsten Algorithmusupdate nicht mehr angezeigt, das innerhalb von 24 Stunden auftritt.<br>*Hinweis 2:* Wenn dieser Status angezeigt wird, werden die Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche der Katalogsuche übernommen. In der Katalogsuche wird ein separater Status aufgeführt, der angibt, wann der durchsuchbare Katalog zuletzt aktualisiert wurde. |
 | Index konnte nicht verwendet werden | Die Index-Operation ist fehlgeschlagen. Bitte versuchen Sie es erneut. |
 | Server nicht gefunden | FTP- oder URL-Speicherorte sind ungültig oder nicht erreichbar. |
 
@@ -310,7 +310,29 @@ Der Status ist gelb, da der Index vor rund 6,5 Stunden erstellt werden sollte. 6
 
 **Beispiel 2:**
 
-* &#x200B;1. Januar: Monatlicher Feed wird um 9:00 Uhr verarbeitet
-* &#x200B;3. Februar: Es ist 10:00 Uhr und der Feed wurde einen Monat, einen Tag und eine Stunde lang nicht ausgeführt
+* 1. Januar: Monatlicher Feed wird um 9:00 Uhr verarbeitet
+* 3. Februar: Es ist 10:00 Uhr und der Feed wurde einen Monat, einen Tag und eine Stunde lang nicht ausgeführt
 
 Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte ausgeführt werden müssen. Auch wenn dies nur (31 + (1 / 25)) / 30 = 1,03 % der Häufigkeitseinstellung ergibt, wurde der Höchstwert von einem Tag für die Verzögerung überschritten.
+
+## Schulungsvideos
+
+In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
+
+### Feeds in Recommendations (3:01)
+
+Dieses Video enthält die folgenden Informationen:
+
+* Zweck von Feeds verstehen
+* Verstehen des Wertes von Feeds
+
+>[!VIDEO](https://video.tv.adobe.com/v/27695?captions=ger)
+
+### Feed erstellen (6:44)
+
+Dieses Video enthält die folgenden Informationen:
+
+* Feed einrichten
+* zu verwenden, welcher Feed zu verwenden ist
+
+>[!VIDEO](https://video.tv.adobe.com/v/27696?captions=ger)
