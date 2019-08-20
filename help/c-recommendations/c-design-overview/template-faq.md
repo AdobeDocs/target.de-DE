@@ -10,7 +10,7 @@ topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -18,6 +18,20 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # ![PREMIUM](/help/assets/premium.png) Design-FAQ {#design-faq}
 
 Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Entwürfen.
+
+## Der Preis meines empfohlenen Artikels zeigt nicht beide Werte rechts vom Dezimalpunkt an. Wie kann ich sie anzeigen?
+
+Standardmäßig werden in den in den Designvorlagen zurückgegebenen numerischen Werten (z. `entity.value`B.) nach dem Dezimalpunkt keine nachfolgenden Nullen angezeigt. Wenn ein Element beispielsweise 35,00 US-Dollar hat, `entity.value` gleich 35 und nur 35 auf der Seite angezeigt wird, nicht 35,00 $.
+
+Für dieses Problem stehen zwei Optionen zur Verfügung.
+
+* Sie können die Velocity-Skripterstellung oder Javascript verwenden, um die Formatierung auf den zurückgegebenen Wert anzuwenden.
+
+* Sie können den Preis des Elements in zwei separate Entitätsattribute übergeben. Die erste kann `entity.value`für numerische Vergleiche verwendet werden (z. B. Preisvergleichsregeln). Die zweite sollte ein benutzerdefiniertes Attribut sein, z. B. `entity.displayValue` der Wert der Entität als Zeichenfolge speichert, um eine ordnungsgemäße Wiedergabe zu ermöglichen.
+
+   Beispiel:
+
+   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## Warum wird die Kategorie im Entwurf nicht angezeigt? Ich verwende $entity1.categoryId. {#section_073309B8051049C7953D396A93EA0713}
 
