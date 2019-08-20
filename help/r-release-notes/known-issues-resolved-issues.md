@@ -8,7 +8,7 @@ title: Bekannte Probleme und gelöste Probleme
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -25,7 +25,7 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 
 Die folgenden Abschnitte führen zu bekannten Problemen zu [!DNL Target]:
 
-### Activity QA preview links {#preview}
+### Link-QA-Vorschau-Links {#preview}
 
 [Die Vorschau-Links für die Aktivitäts-QA-Vorschau](/help/c-activities/c-activity-qa/activity-qa.md) werden möglicherweise nicht geladen, wenn zu viele gespeicherte Aktivitäten in Ihrem Konto vorhanden sind. Die Vorschau-Links sollten erneut versucht werden. Um dies zu verhindern, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden. (TNT-32697)
 
@@ -33,13 +33,12 @@ Die folgenden Abschnitte führen zu bekannten Problemen zu [!DNL Target]:
 
 Die folgenden Probleme bei Umleitungsangeboten sind bekannt:
 
-* Unter bestimmten Bedingungen hat eine begrenzte Anzahl von Kunden einen höheren Grad an Varianz in der Traffic-Verteilung gemeldet, wenn ein Umleitungsangebot in Aktivitäten verwendet wird, die mit Analytics for Target konfiguriert wurden (A 4 T). Adobe-Techniker arbeiten derzeit an diesem Problem.
-* Eine Wettlaufsituation auf Ihrer Seite kann dazu führen, dass Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt werden. Für die Implementierung von at. js sind Updates geplant, um sicherzustellen, dass diese Race-Bedingung vermieden werden kann. Weitere Informationen zu Problemen und Problemumgehung finden Sie unter [Umleitungsangebote - A4T FAQ](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Eine geringe Anzahl von Kunden hat gemeldet, dass unter bestimmten Bedingungen ein höherer Grad an Varianz in der Traffic-Verteilung auftritt, wenn ein Umleitungsangebot in Aktivitäten verwendet wird, die mit Analytics for Target (A4T) konfiguriert wurden. Adobe-Techniker arbeiten derzeit an diesem Problem.
 * Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
 
-### Diagramm für eine automatische Targeting-Aktivität kann nicht gerendert werden, wenn ein benutzerdefiniertes Erlebnis als Kontrolle verwendet wird.
+### Ein Diagrammbericht für eine automatische Targeting-Aktivität kann nicht gerendert werden, wenn ein benutzerdefiniertes Erlebnis als Kontrolle verwendet wird.
 
-Der Grafikbericht für eine automatische Targeting-Aktivität kann für "Differenz" -Modi (durchschnittliche Steigerung und tägliche Steigerung) nicht gerendert werden, wenn keine Daten (0 Besuche) in einem Erlebnis vorhanden sind. Diese Situation kann während der frühen Phase einer Aktivität auftreten, wenn das Kontrollerlebnis auf benutzerdefiniert festgelegt ist. Für andere Modi (Laufende durchschnittliche Steuerung und zielgerichtet, tägliche Kontrolle und Zielgruppe und Besuche) funktioniert dies problemlos. Sobald einige Daten (Besuche ohne Null) vorliegen, wird der Bericht wie erwartet gerendert.
+Ein Diagrammbericht für eine automatische Targeting-Aktivität kann für „Differenz“-Modi (durchschnittliche Steigerung und tägliche Steigerung) nicht gerendert werden, wenn in keinem Ereignis Daten vorhanden sind (0 Besuche). Diese Situation kann während der frühen Phase einer Aktivität auftreten, wenn das Kontrollerlebnis als benutzerdefiniert festgelegt ist. Für die anderen Modi (gleitendes Mittel für Kontrolle und Zielgruppe, tägliche Kontrolle und Zielgruppe sowie Besuche) funktioniert dies problemlos. Sobald einige Daten vorhanden sind (Besuche sind nicht gleich null), wird der Bericht erwartungsgemäß gerendert.
 
 ### Laden einer Seite im VEC abbrechen {#cancel}
 
@@ -63,20 +62,8 @@ Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Ange
 
 Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
 
-* Recommendations-Feed-Index kann „Warten auf Index“ anzeigen, wenn die Elemente im Feed mit denen im vorherigen Schritt übereinstimmen. Die Produkterfassung für die Bereitstellung wird nicht beeinträchtigt. (RECS-6663)
 * Der Recommendations-Fehler „error.restapi.algorithmProfileAttributeInvalid“ tritt auf, wenn spezielle Profilattribute als Kriterienschlüssel verwendet werden.
 * Wenn in einer Recommendations-Aktivität die Funktion „Rückwärtsgerichtete Promotion“ verwendet wird, werden keine Kriterieneinschlussfilter auf Sicherungs-ERs angewendet.
-* In der Benutzeroberfläche von Empfehlungs-Feeds wird nicht der korrekte Indizierungsstatus angezeigt. Die Backend-Aufträge funktionieren ordnungsgemäß, aber die Benutzeroberfläche kann den aktuellen Status nicht abrufen und anzeigen.
-
-   **Problemumgehung**: Eine alternative Methode zur Bestimmung, ob ein Empfehlungsfeed für eine bestimmte Hostgruppe richtig indexiert wurde, besteht darin, die Benutzeroberfläche der Produktsuche zu überprüfen (mit Anmeldung als Admin) und die letzte Indexzeit anzuzeigen. Dieser Zeitstempel zeigt, wann der Feed für eine beliebige Hostgruppe zuletzt indiziert wurde. (TGT-27116)
-
-* Für empfohlene Produkte werden unter Umständen keine Werte bis auf zwei Dezimalstellen angezeigt. Wenn Sie beispielsweise den Wert im Design als „35,00“ anzeigen möchten, zeigt Recommendations „35“ an (ohne Dezimalstellen, anstatt die gewünschten zwei Dezimalstellen anzuzeigen). (RECS-5972)
-
-   **Problemumgehung:** Übergeben Sie den Wert der Entität an zwei entity.attributes. Das erste ist `entity.value`, ein reservierter Parameter, der ein Double erwartet. Das zweite Attribut kann ein benutzerdefiniertes entity.attribute sein, das den Wert der Entität als String speichert, um für eine korrekte Wiedergabe zu sorgen.
-
-   Beispiel:
-
-   `"entity.value" : 35.00, "entity.displayValue" : "35.00",`
 
 ### Multivarianz-Test (MVT)-Aktivitäten
 
@@ -133,6 +120,26 @@ Kunden können keine CRUD-Vorgänge für Aktivitäten mit Automatisierte Zuordnu
 
 Wenn bekannte Probleme behoben sind, werden sie in die folgenden Abschnitte verschoben und es werden ggf. zusätzliche Notizen hinzugefügt.
 
+### Recommendations
+
+* Recommendations-Feed-Index kann „Warten auf Index“ anzeigen, wenn die Elemente im Feed mit denen im vorherigen Schritt übereinstimmen. Die Produkterfassung für die Bereitstellung wird nicht beeinträchtigt. (RECS-6663)
+
+   Dieses Problem wurde in der Target-Version 19.4.2 behoben.
+
+* Recommendations-Feeds werden langsamer verarbeitet als erwartet. (COR-2836)
+
+   In Target-Version 16.10.1 behoben.
+
+* In der Benutzeroberfläche von Empfehlungs-Feeds wird nicht der korrekte Indizierungsstatus angezeigt. Die Backend-Aufträge funktionieren ordnungsgemäß, aber die Benutzeroberfläche kann den aktuellen Status nicht abrufen und anzeigen.
+
+   Dieses Problem wurde in Version 17.10.1 behoben.
+
+### Umleitungsangebote
+
+Eine Wettlaufsituation auf Ihrer Seite kann dazu führen, dass Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt werden. Aktualisierungen der Implementierung von at.js sind geplant, um sicherzustellen, dass solche Wettlaufsituationen vermieden werden.
+
+Dieses Problem wurde in at. js 1.6.3 behoben.
+
 ### Ausschlussgruppen
 
 * Beim Anwenden der automatischen Deduplizierung nach dem Erstellen von Ausschlussgruppen ist die Anzahl im Aktivitätsdiagramm auf der Benutzeroberfläche möglicherweise falsch.
@@ -187,12 +194,6 @@ Dieses Problem wurde in Version 18.9.1 behoben.
 Wenn Sie eine Recommendations-Aktivität bearbeiten oder kopieren, für die eine Attributpromotion-Regel verwendet wird, wird beim Klicken auf Speichern der Fehler „Enthält fehlendes Feld“ angezeigt.
 
 Dieses Problem wurde in Version 17.8.1 behoben.
-
-### Recommendations-Feed-Indexstatus
-
-In der Benutzeroberfläche von Empfehlungs-Feeds wird nicht der korrekte Indizierungsstatus angezeigt. Die Backend-Aufträge funktionieren ordnungsgemäß, aber die Benutzeroberfläche kann den aktuellen Status nicht abrufen und anzeigen.
-
-Dieses Problem wurde in Version 17.10.1 behoben.
 
 ### Ersatzempfehlungen
 
@@ -252,12 +253,6 @@ Das zweite Problem wurde in Target-Version 17.6.1 behoben (Juni 2017).
 Seit der Einführung von Target 17.4.1 (27. April 2017) führt die Verwendung der Aktion „Bild einfügen“ im Visual Experience Composer (VEC) dazu, dass der Angebotsinhalt beim Verwenden der at.js-Bibliothek nicht bereitgestellt wird.
 
 In der at.js-Version 0.9.7, die am 22. Mai 2017 veröffentlicht wurde, ist dieses Problem behoben worden.
-
-### Recommendations
-
-Recommendations-Feeds werden langsamer verarbeitet als erwartet. (COR-2836)
-
-In Target-Version 16.10.1 behoben.
 
 ### Berichterstattung: A/B- und Experience Targeting (XT)-Aktivitäten
 
