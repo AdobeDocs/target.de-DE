@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
 
 ---
 
@@ -21,6 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 20. August 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Target/Premium 19.8.1-Version (20. August 2019) wurde verschoben. Inhalte aus dieser Version werden in die Version 19.9.1 (24. September 2019) eingefügt. |
 | 16. August 2019 | [Echtzeit-Profilsynchronisation für mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Neuer Abschnitt hinzugefügt: " Betrachtungen" . |
 |  | [Erstellen einer Recommendations-Aktivität](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | Ein Schulungsvideo wurde hinzugefügt. |
 |  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Schulungsvideos wurden hinzugefügt. |
@@ -77,7 +78,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 |  | [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md) | Es wurden Informationen zum Bedienfeld [!UICONTROL Ausgewählte Elemente] hinzugefügt. |
 |  | [Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | Neuer Abschnitt: Einstellungen für die Seitenbereitstellung für den SPA-VEC |
 |  | [Auswahl des Kontrollelements für die automatisierte Personalisierung oder die automatische Targeting-Aktivität](/help/c-activities/t-automated-personalization/experience-as-control.md) | Neues Thema |
-|  | [Google Chrome-Cookie-Richtlinien](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Neues Thema |
+|  | [SameSite-Cookie-Richtlinien von Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Neues Thema |
 |  | [Datenerfassung für die Target-Personalisierungsalgorithmen](/help/c-activities/t-automated-personalization/ap-data.md) | Neue Tabellen wurden hinzugefügt, um einzelne Attribute zu erklären und Beispiele anzugeben. |
 |  | [Häufig gestellte Fragen zur automatisierten Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Neuer FAQ-Abschnitt wurde hinzugefügt: Kann ich ein bestimmtes Erlebnis als Kontrollerlebnis angeben?<br>Dieser FAQ-Abschnitt wurde überarbeitet: Mithilfe welcher Best Practices kann ich eine Aktivität vom Typ „Automatisierte Personalisierung“ einrichten? |
 |  | [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md) | Es wurden Informationen und häufig gestellte Fragen hinzugefügt, in denen erläutert wird, wie ein spezifisches Erlebnis als Kontrolle spezifiziert wird.<br>Der Abschnitt „Bestimmen der Traffic-Zuordnung“ wurde aktualisiert. |
@@ -105,7 +106,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 |  | [Erste Schritte für Administratoren](/help/administrating-target/start-target.md) | Der gesamte Artikel wurde aktualisiert. |
 |  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden vorläufige Versionshinweise für die Target-Version 19.6.1 hinzugefügt. |
 | 5. Juni 2019 | [Visual Experience Composer für Mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Es wurde ein neuer [Abschnitt zur Fehlerbehebung](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) hinzugefügt. |
-|  | [Aktualisieren von at.js 1.x auf at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Es wurden Informationen zur Bereitstellung von at.js mithilfe von Adobe Launch (die bevorzugte Methode zur Bereitstellung) aktualisiert. |
+|  | [Aktualisieren von at.js 1.x auf at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Es wurden Informationen zur Implementierung von at.js mithilfe von Adobe Launch (die bevorzugte Methode zur Implementierung) aktualisiert. |
 |  | [Wichtige Target-Konzepte](/help/c-intro/target-key-concepts.md) | Kleinere Textänderungen. |
 | 3. Juni 2019 | [Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur kommenden Version von at.js 2.1.0 hinzugefügt. |
 |  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zur kommenden Version von at.js 2.1.0 hinzugefügt. |
