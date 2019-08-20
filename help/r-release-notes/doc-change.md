@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
+source-git-commit: dcfc016a703ac964876629b353c68a2cd8351ca5
 
 ---
 
@@ -22,6 +22,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 20. August 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Target/Premium 19.8.1-Version (20. August 2019) wurde verschoben. Inhalte aus dieser Version werden in die Version 19.9.1 (24. September 2019) eingefügt. |
+|  | [Häufig gestellte Fragen: Entwürfe](/help/c-recommendations/c-design-overview/template-faq.md) | Folgende FAQ wurden hinzugefügt: " Der Preis meines empfohlenen Artikels zeigt nicht beide Werte rechts vom Dezimalpunkt an. Wie kann ich sie anzeigen? « |
 | 16. August 2019 | [Echtzeit-Profilsynchronisation für mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Neuer Abschnitt hinzugefügt: " Betrachtungen" . |
 |  | [Erstellen einer Recommendations-Aktivität](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | Ein Schulungsvideo wurde hinzugefügt. |
 |  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Schulungsvideos wurden hinzugefügt. |
