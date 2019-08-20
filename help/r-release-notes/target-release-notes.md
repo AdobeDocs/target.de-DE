@@ -2,13 +2,13 @@
 description: Versionshinweise, die Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen für die neuesten oder kommenden [! DNL Adobe Target] veröffentlicht.
 keywords: Versionshinweise
 seo-description: Versionshinweise, die Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen für die neuesten oder kommenden [! DNL Adobe Target] veröffentlicht.
-seo-title: Versionshinweise zu Adobe Target (Vorabversion)
+seo-title: Adobe Target-Versionshinweise (Vorabversion)
 solution: Target
 title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
+source-git-commit: 3b21fede9df1ef61da194fac55ffb862c037258a
 
 ---
 
@@ -21,7 +21,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 >[!NOTE]
 >
->Diese Versionshinweise enthalten Vorabversionsinformationen. Veröffentlichungsdaten, Funktionen und andere Informationen können ohne vorherige Benachrichtigung geändert werden. Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Timing der Versionen identisch sein oder abweichen.
+>Diese Versionshinweise enthalten Vorabversionsinformationen. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden. Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Timing der Versionen identisch sein oder abweichen.
 >
 >Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -29,20 +29,20 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 **31. Juli 2019**
 
-[!UICONTROL Mit Unternehmensberechtigungen] können [!DNL Target] Kunden eine einzige Organisation verwenden, sie jedoch in Arbeitsflächen für verschiedene Teams oder Arbeitsabläufe unterteilen. The [!UICONTROL Enterprise Permissions] feature facilitates effective scaling of optimization programs across teams. Although this feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until the [!DNL Target] February 2019 release. Adobe hat die Admin-apis aktualisiert, damit Sie über das Integrationskonto auf alle in Ihrem Unternehmen erstellten Arbeitsbereiche zugreifen können. So, while earlier, Admin APIs were restricted to the default workspace, the February 2019 update granted access to all workspaces with [!UICONTROL Approver] access.
+[!UICONTROL Mit Unternehmensberechtigungen] können [!DNL Target] Kunden eine einzige Organisation verwenden, sie jedoch in Arbeitsflächen für verschiedene Teams oder Arbeitsabläufe unterteilen. Mit der [!UICONTROL Funktion für Unternehmensberechtigungen] können optimierte Optimierungsprogramme für Teams optimiert werden. Obwohl diese Funktion in der [!DNL Target] Benutzeroberfläche verfügbar war, konnten die Admin-apis bis zum Release [!DNL Target] von Februar 2019 die entsprechende Unterstützung ablesen. Adobe hat die Admin-apis aktualisiert, damit Sie über das Integrationskonto auf alle in Ihrem Unternehmen erstellten Arbeitsbereiche zugreifen können. Zuvor waren Admin-apis also auf den Standardarbeitsbereich beschränkt. Das Update vom Februar 2019 ermöglichte den Zugriff auf alle Arbeitsbereiche mit [!UICONTROL dem Genehmigerzugriff.]
 
-With the upcoming [!DNL Target] September 2019 release, [!UICONTROL Enterprise Permissions] will provide customers with the following access controls:
+Ab der neuen [!DNL Target] Version September 2019 [!UICONTROL stehen Kunden die folgenden] Zugriffssteuerungsmöglichkeiten zur Verfügung:
 
 * Sie können die Arbeitsflächen auswählen, auf die die Integration angewendet werden kann.
-* You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
+* Sie können eine Rolle auf die Integration von Adobe I/O anwenden: [!UICONTROL Genehmigende Person], [!UICONTROL Editor]oder [!UICONTROL Beobachter].
 
-**Erforderliche Aktion**: Kunden, die derzeit apis für CRUD-Vorgänge für Ressourcen (Aktivitäten, Zielgruppen, Angebote und Berichte) über alle Arbeitsflächen hinweg nutzen, müssen ihre vorhandene Adobe I/O-Integration für alle Arbeitsbereiche mit der gewünschten Rolle bereitstellen. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of the role selected from the [!UICONTROL Product Role] drop-down list. In der kommenden Version können Sie jetzt die gewünschte Rolle auswählen.
+**Erforderliche Aktion**: Kunden, die derzeit apis für CRUD-Vorgänge für Ressourcen (Aktivitäten, Zielgruppen, Angebote und Berichte) über alle Arbeitsflächen hinweg nutzen, müssen ihre vorhandene Adobe I/O-Integration für alle Arbeitsbereiche mit der gewünschten Rolle bereitstellen. Vor der September-Version wurden alle Integrationen, die mit [!UICONTROL dem Genehmiger ausgeführt wurden,] unabhängig von der Rolle, die in der Dropdownliste [!UICONTROL "Produktrolle] " ausgewählt wurde, verwendet. In der kommenden Version können Sie jetzt die gewünschte Rolle auswählen.
 
-This action should be performed during the month of **August 2019**. After the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. Es gibt keine negativen Auswirkungen auf die Einrichtung von Integrationsrollen im Voraus.
+Diese Aktion sollte im **August 2019** durchgeführt werden. Nach der Version [!DNL Target] vom September 2019 werden die Zugriffssteuerungselemente aktiviert und Sie werden nur auf den Standardarbeitsbereich zugreifen, wenn Sie aktuell eingerichtet sind. Es gibt keine negativen Auswirkungen auf die Einrichtung von Integrationsrollen im Voraus.
 
-For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
+Schrittweise Anweisungen und weitere Informationen finden Sie unter [Gewähren von Adobe I/O-Integrationen auf Arbeitsflächen und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
-## Target Standard/Premium 19.8.1 (20. August 2019) {#tgt-19-8-1}
+## Target Standard/Premium 19.9.1 (24. September 2019)
 
 Dieses Maintenance Release umfasst die folgende Verbesserung:
 
