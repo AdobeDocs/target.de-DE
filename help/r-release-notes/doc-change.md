@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
+source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
 
 ---
 
@@ -22,6 +22,8 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 22. August 2019 | [Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Es wurden Informationen zur Verwendung unzulässiger Zeichen in mobilen App-IDs entfernt. Es gibt keine Einschränkungen mehr. |
+|  | [Benutzerdefinierte Parameter](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Neuer Abschnitt hinzugefügt: " Betrachtungen" . |
+|  | [Hochladen benutzerdefinierter Kriterien](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Folgender Satz wurde aktualisiert: Benutzerdefinierte Kriterienupdates sind standardmäßig "kumulativ" . Neue Schlüssel-Wert-Paare, die in der CSV-Uploaddatei angegeben werden, überschreiben bestehende Schlüssel-Wert-Paare. Vorhandene Schlüssel-Wert-Paare, die keine Schlüssel im CSV-Upload enthalten, stehen weiterhin zur Bereitstellung bereit und laufen ab 31 Tagen nach dem letzten Hochladen als Teil der CSV-Datei ab. |
 | 20. August 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Target/Premium 19.8.1-Version (20. August 2019) wurde verschoben. Inhalte aus dieser Version werden in die Version 19.9.1 (24. September 2019) eingefügt. |
 |  | [Häufig gestellte Fragen: Entwürfe](/help/c-recommendations/c-design-overview/template-faq.md) | Folgende FAQ wurden hinzugefügt: " Der Preis meines empfohlenen Artikels zeigt nicht beide Werte rechts vom Dezimalpunkt an. Wie kann ich sie anzeigen? « |
 | 16. August 2019 | [Echtzeit-Profilsynchronisation für mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Neuer Abschnitt hinzugefügt: " Betrachtungen" . |
