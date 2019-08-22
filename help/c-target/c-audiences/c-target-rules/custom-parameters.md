@@ -8,7 +8,7 @@ title: Benutzerdefinierte Parameter
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -23,7 +23,7 @@ Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhal
 
 1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
-1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
+1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Benutzerdefiniert]**.
 
    So wählen Sie den gewünschten Parameter aus:
 
@@ -36,7 +36,7 @@ Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhal
 1. Wählen Sie einen Auswerter:
 
    * enthält (nicht von Schreibweise abhängig)
-   * Enthält nicht (Groß-/Kleinschreibung nicht berücksichtigt)
+   * enthält nicht (nicht von Schreibweise abhängig)
    * Gleich
    ![Benutzerdefinierte Parameter-Zielgruppe](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
@@ -49,6 +49,10 @@ Die [Popupkarte mit Definitionsdetails](../../../c-target/c-audiences/audiences.
 >[!NOTE]
 >
 >Für benutzerdefinierte Zielgruppen, die vor der Target-Version 18.5.1 (22. Mai 2018) erstellt wurden, werden in der Popup-Karte für die Zielgruppendefinition keine Mbox-Namen angezeigt. Sie müssen die benutzerdefinierte Zielgruppe erneut speichern, damit der Mbox-Name auf der Karte angezeigt wird.
+
+## Zu beachten {#considerations}
+
+* Zielgruppen und Aktivitäten werden für eine spezifische mbox ausgewertet. Wenn die globale Mbox einen bestimmten Parameter übergibt, die regionale Mbox jedoch nicht, qualifiziert sich der Besucher nicht für diese Aktivität.
 
 ## Schulungsvideo: Erstellen von Zielgruppen
 
