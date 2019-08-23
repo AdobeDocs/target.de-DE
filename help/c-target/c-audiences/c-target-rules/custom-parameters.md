@@ -2,13 +2,13 @@
 description: Benutzerdefinierte Parameter sind Mbox-Parameter. Wenn Sie Mbox-Parameter an Mboxes übergeben oder die Funktion „targetPageParams“ verwenden, werden diese Parameter hier angezeigt und können in Zielgruppen verwendet werden.
 keywords: benutzerdefinierte Parameter; Targeting von benutzerdefinierten Parametern; Targeting von Seitenparametern; Targeting von Mbox-Parametern
 seo-description: Benutzerdefinierte Parameter sind Mbox-Parameter. Wenn Sie Mbox-Parameter an Mboxes übergeben oder die Funktion „targetPageParams“ verwenden, werden diese Parameter hier angezeigt und können in Zielgruppen verwendet werden.
-seo-title: Benutzerdefinierte Parameter
+seo-title: Benutzerdefinierte Parameter in Adobe Target
 solution: Target
 title: Benutzerdefinierte Parameter
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -52,7 +52,7 @@ Die [Popupkarte mit Definitionsdetails](../../../c-target/c-audiences/audiences.
 
 ## Zu beachten {#considerations}
 
-* Zielgruppen und Aktivitäten werden für eine spezifische mbox ausgewertet. Wenn die globale Mbox einen bestimmten Parameter übergibt, die regionale Mbox jedoch nicht, qualifiziert sich der Besucher nicht für diese Aktivität.
+* Zielgruppen und Aktivitäten werden für eine spezifische mbox ausgewertet. Wenn die globale Mbox beispielsweise einen bestimmten Parameter übergibt, die regionale Mbox jedoch nicht, wird die Aktivität/Zielgruppe, die diesen Parameter enthält, nicht für die regionale Mbox qualifiziert.
 
 ## Schulungsvideo: Erstellen von Zielgruppen
 
