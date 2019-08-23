@@ -1,15 +1,15 @@
 ---
 description: Mithilfe von Antwort-Token können Sie Target-spezifische Informationen automatisch ausgeben (Kampagnendetails, Benutzerprofilinformationen, Geoinformationen usw.), um sie im Debugging zu verwenden oder in Drittanbietersysteme zu integrieren (z. B. Clicktale).
-keywords: Antwort-Token;Token;Plugins;Plug-ins
+keywords: Antwort-Token;Token;Plugins;Plug-ins;at.js
 seo-description: Mithilfe von Antwort-Token können Sie Target-spezifische Informationen automatisch ausgeben (Kampagnendetails, Benutzerprofilinformationen, Geoinformationen usw.), um sie im Debugging zu verwenden oder in Drittanbietersysteme zu integrieren (z. B. Clicktale).
-seo-title: Antwort-Token
+seo-title: Token für Antworten in Adobe Target
 solution: Target
 subtopic: Erste Schritte
 title: Antwort-Token
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ccc2d9c2de7013ecc2423af6905359ab99fd2269
+source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 ---
 
@@ -282,12 +282,8 @@ Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen
 </script>
 ```
 
->[!NOTE]
->
->Das Plugin ttmeta wird nicht mehr unterstützt. For more information, see [at.js plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md).
-
 ## Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Antworttoken und benutzerspezifische at.js-Ereignisse nutzen können, um Profilinformationen aus Target an Drittanbietersysteme zu übergeben.
+Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Antworttoken und benutzerdefinierte at. js-Ereignisse verwenden, um Profilinformationen von Target auf Drittanbietersysteme freizugeben.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=ger)
