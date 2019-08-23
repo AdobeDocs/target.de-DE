@@ -1,14 +1,14 @@
 ---
 description: Verwenden Sie die Vorschau für mobile Apps, um mühelos eine ganzheitliche Qualitätssicherung für Aktivitäten von mobilen Apps durchzuführen und sich ohne spezielle Prüfmittel direkt auf Ihrem Gerät für verschiedene Erlebnisse anzumelden.
-keywords: qa; Vorschau; Vorschau-Links; mobil; mobile Vorschau
+keywords: qa; Vorschau; Vorschau-Link; mobile; mobile Vorschau
 seo-description: Verwenden Sie die Vorschau für mobile Apps, um mühelos eine ganzheitliche Qualitätssicherung für Aktivitäten von mobilen Apps durchzuführen und sich ohne spezielle Prüfmittel direkt auf Ihrem Gerät für verschiedene Erlebnisse anzumelden.
-seo-title: Mobile Target-Vorschau
+seo-title: Verwenden des mobilen Vorschaulinks in Adobe Target Mobile
 solution: Target
 title: Mobile Target-Vorschau
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -19,7 +19,7 @@ Verwenden Sie die Vorschau für mobile Apps, um mühelos eine ganzheitliche Qual
 
 >[!NOTE]
 >
->Diese Funktion wird nach dem 12. Oktober 2017 für alle Kunden auf der Benutzeroberfläche aktiviert. Für die Vorschaufunktion für die Mobilversion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren.
+>Für die Vorschaufunktion für die Mobilversion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren.
 
 ## Überblick {#section_981D6FA4AEE64098809EA606E89E4A5E}
 
@@ -80,7 +80,7 @@ Mit der mobilen Vorschaufunktionalität können Sie Aktivitäten in Ihrer mobile
    Damit die Vorschau für die Mobilversion funktioniert, müssen Sie außerdem das folgende Code-Snippet in [!DNL AndroidManifest.xml] hinzufügen:
 
    ```
-   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
+   <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
 ## Einen Vorschau-Link erstellen {#section_D9D58173FFF34E9BB75EBF357273F128}
