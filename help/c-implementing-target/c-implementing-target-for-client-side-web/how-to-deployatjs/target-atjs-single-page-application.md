@@ -1,14 +1,14 @@
 ---
 description: Informationen zur Verwendung von at.js 2.x zur Implementierung von Einzelseiten-Apps (SPAs).
-keywords: Implementierung einer Einzelseiten-Apps;Implementieren einer Einzelseiten-App;SPA;at.js 2.x
+keywords: Implementierung einer Einzelseiten-Apps;Implementieren einer Einzelseiten-App;SPA;at.js 2.x; at. js; Einzelseitenanwendung; Einzelseitenanwendung
 seo-description: Informationen zur Verwendung von Adobe Target at.js 2.x zur Implementierung von Einzelseiten-Apps (SPAs).
-seo-title: Implementieren von Einzelseiten-Apps
+seo-title: Implementierung einer Einzelseitenanwendung in Adobe Target
 solution: Target
 title: Implementieren von Einzelseiten-Apps
 topic: Standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -281,13 +281,13 @@ Weitere Informationen dazu finden Sie in den folgenden Videos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ger)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+Weitere Informationen finden Sie unter ["at. js 2. x" .](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html)
 
 ### Implementieren von at.js 2.x in einer SPA
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=ger)
 
-See [Implement Adobe Target's at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
+Weitere Informationen finden Sie unter [Implementieren von Adobe Target s. js 2. x in einer Einzelseitenanwendung (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) .
 
 ### Verwendung von VEC für SPAs in Adobe Target
 
