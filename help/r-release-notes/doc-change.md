@@ -2,13 +2,13 @@
 description: Auf dieser Seite sind wichtige Änderungen an der Target-Dokumentation aufgeführt.
 keywords: Änderungsprotokoll für Target-Dokumentation; Aktualisierungen der Dokumentation
 seo-description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Dokumentation aufgeführt.
-seo-title: Dokumentationsänderungen in der Adobe Target-Produktdokumentation
+seo-title: Dokumentationsänderungen in der Adobe Target-Produktdokumentation.
 solution: Target
 title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
+source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
 
 ---
 
@@ -22,7 +22,6 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 23. August 2019 | [Mobile Target-Vorschau](/help/c-target-mobile-app/target-mobile-preview.md) | Aktualisiertes Codefragment in `AndroidManifest.xml`. |
-|  | [" at. js" -Plugins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) | Die ttmeta-Zeile wurde aktualisiert. Dieses Plug-in wird nicht mehr unterstützt. Verwenden Sie stattdessen Antwort-Token. |
 | 22. August 2019 | [Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Es wurden Informationen zur Verwendung unzulässiger Zeichen in mobilen App-IDs entfernt. Es gibt keine Einschränkungen mehr. |
 |  | [Benutzerdefinierte Parameter](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Neuer Abschnitt hinzugefügt: " Betrachtungen" . |
 |  | [Hochladen benutzerdefinierter Kriterien](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Folgender Satz wurde aktualisiert: Benutzerdefinierte Kriterienupdates sind standardmäßig "kumulativ" . Neue Schlüssel-Wert-Paare, die in der CSV-Uploaddatei angegeben werden, überschreiben bestehende Schlüssel-Wert-Paare. Vorhandene Schlüssel-Wert-Paare, die keine Schlüssel im CSV-Upload enthalten, stehen weiterhin zur Bereitstellung bereit und laufen ab 31 Tagen nach dem letzten Hochladen als Teil der CSV-Datei ab. |
