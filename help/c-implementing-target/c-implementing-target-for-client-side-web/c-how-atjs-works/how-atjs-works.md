@@ -1,6 +1,6 @@
 ---
 description: Target-Systemdiagramm zur Darstellung des Anruf- und Informationsflusses bei Aufrufen oder Datensammlungen einer automatisch erstellten globalen Mbox bei der Verwendung von „at.js“.
-keywords: Systemdiagramm;flackern;Target Standard;at.js;Implementierung
+keywords: Systemdiagramm;flackern;Target Standard;at.js;Implementierung; javascript library; js
 seo-description: Adobe Target-Systemdiagramm zur Darstellung des Anruf- und Informationsflusses bei Aufrufen oder Datensammlungen einer automatisch erstellten globalen Mbox bei der Verwendung von „at.js“.
 seo-title: Funktionsweise von Adobe Target „at.js“
 solution: Target
@@ -8,7 +8,7 @@ title: Funktionsweise von „at.js“
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -45,7 +45,7 @@ Die folgenden Diagramme helfen Ihnen dabei, den Arbeitsablauf von at.js 2.x mit 
 | Schritt | Details |
 | --- | --- |
 | 1 | Ein Aufruf gibt die [!DNL Experience Cloud ID] zurück, falls sich der Benutzer authentifiziert hat. Bei einem weiteren Aufruf wird die Kunden-ID synchronisiert. |
-| 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>at. js kann auch asynchron geladen werden, wobei ein optionales vorausgeblendetes Snippet auf der Seite implementiert ist. |
+| 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>at.js kann auch asynchron mit einem optionalen Pre-hiding-Snippet geladen werden, das auf der Seite implementiert wird. |
 | 3 | Es wird eine Seitenlade-Anfrage durchgeführt, in der alle konfigurierten Parameter (MCID, SDID und Kunden-ID) enthalten sind. |
 | 4 | Profilskripte werden ausgeführt und anschließend in den Profilspeicher eingespeist. Der Speicher ruft geeignete Zielgruppen aus der Zielgruppenbibliothek ab (beispielsweise über Adobe Analytics, Zielgruppen-Management etc. bereitgestellte Zielgruppen).<br>Kundenattribute werden in einem Batch-Prozess an den Profilspeicher übermittelt. |
 | 5 | Basierend auf den URL-Anfrageparametern und den Profildaten entscheidet [!DNL Target], welche Aktivitäten und Erlebnisse für die aktuelle Seite und zukünftige Ansichten an den Besucher zurückgegeben werden sollen. |
@@ -68,7 +68,7 @@ Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten un
 
 ## at.js 1.x-Diagramm
 
-![](assets/target-flow.png)
+![Target-Fluss - at. js 1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Schritt | Beschreibung | Aufruf | Beschreibung |
 |--- |--- |--- |--- |
