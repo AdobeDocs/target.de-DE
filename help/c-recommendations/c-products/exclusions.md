@@ -1,14 +1,14 @@
 ---
 description: Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werden.
 keywords: Ausnahmen
-seo-description: Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werden.
-seo-title: Ausnahmen
+seo-description: Erstellen Sie eine Ausschlussliste in Adobe Target, um zu verhindern, dass Artikel empfohlen werden.
+seo-title: Ausnahmen in Adobe Target
 solution: Target
 title: Ausnahmen
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
 
 ---
 
@@ -21,11 +21,13 @@ Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werde
 >
 >Statische und dynamische Ausschlussregeln sind leistungsstarke Funktionen, die Ihnen beim Marketing helfen können. Ausführliche Informationen, Beispiele und Anwendungsszenarios finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
+**So erstellen Sie einen Ausschluss:**
+
 1. Klicken Sie auf **[!UICONTROL Empfehlungen]** &gt; **[!UICONTROL Ausnahmen]**, um die Liste der vorhandenen Ausnahmen anzuzeigen.
 
-   Die „Anzahl der Elemente“, die für jeden Ausschluss in der [!UICONTROL Ausschluss]-Listenansicht gemeldet werden, entspricht der Anzahl der Produkte, die mit den Regeln für diesen Ausschluss in der konfigurierten Standard-Umgebungs-[Hostgruppe](/help/administrating-target/hosts.md) (Umgebung) übereinstimmen. Siehe [Einstellungen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) zum Ändern der Standardhostgruppe.
-
    ![](assets/exclusions_list.png)
+
+   Die „Anzahl der Elemente“, die für jeden Ausschluss in der [!UICONTROL Ausschluss]-Listenansicht gemeldet werden, entspricht der Anzahl der Produkte, die mit den Regeln für diesen Ausschluss in der konfigurierten Standard-Umgebungs-[Hostgruppe](/help/administrating-target/hosts.md) (Umgebung) übereinstimmen. Siehe [Einstellungen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) zum Ändern der Standardhostgruppe.
 
 1. Klicken Sie auf **[!UICONTROL Ausschluss erstellen]**.
 
@@ -41,7 +43,13 @@ Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werde
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Sie können Ausschlüsse auch mit der erweiterten Suche auf der Seite „Katalogsuche“ ([!UICONTROL Recommendations] &gt; [!UICONTROL Katalogsuche] &gt; [!UICONTROL Erweiterte Suche]) erstellen. Nachdem Sie beispielsweise eine Suche mit „id“ &gt; „contains“ erstellt haben, können Sie auf [!UICONTROL „Speichern unter“] &gt; [!UICONTROL „Ausschluss“] klicken.
+## Einen Ausschluss mithilfe der erweiterten Suche erstellen
+
+Sie können Ausschlüsse auch mit der erweiterten Suche auf der Seite „Katalogsuche“ ([!UICONTROL Recommendations] &gt; [!UICONTROL Katalogsuche] &gt; [!UICONTROL Erweiterte Suche]) erstellen. 
+
+[Speichern unter](/help/c-recommendations/c-products/assets/save-as.png)
+
+Nachdem Sie beispielsweise eine Suche mit „id“ &gt; „contains“ erstellt haben, können Sie auf [!UICONTROL „Speichern unter“] &gt; [!UICONTROL „Ausschluss“] klicken. Weitere Informationen finden Sie unter [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md).
 
 >[!IMPORTANT]
 >
