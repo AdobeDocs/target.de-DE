@@ -9,7 +9,7 @@ title: Erste Schritte für Administratoren
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
 
 ---
 
@@ -18,17 +18,17 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Dieser Abschnitt enthält die ersten Schritte für [!DNL Target]-Administratoren, die nach dem Erhalt der Einladung in [!DNL Adobe Experience Cloud] durchgeführt werden sollten.
 
-## Get invited to Target {#task_3E0817630774431983FAA3D2CB2E75BD}
+## Erhalt einer Einladung zu Target {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-A System Administrator in the [!DNL Adobe Admin Console] must add you as a user in [!DNL Target] by inviting you to join. Der Systemadministrator sollte Sie dann einer oder mehreren rollenspezifischen Gruppen hinzufügen. Both of these tasks are performed in the [Adobe Admin Console](https://adminconsole.adobe.com).
+Ein Systemadministrator muss Sie in der [!DNL Adobe Admin Console] als Benutzer hinzufügen, indem er Ihnen eine Einladung zu [!DNL Target] schickt. Der Systemadministrator sollte Sie dann zu einer oder mehreren rollenspezifischen Gruppen hinzufügen. Beide Aufgaben werden in der [Adobe Admin Console](https://adminconsole.adobe.com) durchgeführt.
 
-For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in the *Experience Cloud and Core Services help*.
+Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -produkten](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in der Hilfe *zu Experience Cloud und Core Services*.
 
-Nachdem der Systemadministrator diese Schritte durchgeführt hat, erhalten Sie eine Einladungs-E-Email.
+Nachdem der Systemadministrator diese Schritte durchgeführt hat, erhalten Sie eine Einladungs-E-Mail.
 
 ## Annehmen der Einladung {#task_24FE66659E634B24AB61DB8497772E17}
 
-After receiving the invitation to join the [!DNL Adobe Experience Cloud], accept the invitation, log in, and accept the End User License Agreement (EULA).
+Nehmen Sie die Einladung in [!DNL Adobe Experience Cloud] nach deren Erhalt an, melden Sie sich an und akzeptieren Sie die Endbenutzer-Lizenzvereinbarung (EULA).
 
 1. Nehmen Sie die Einladung in [!DNL Adobe Experience Cloud] an.
 1. Wenn Sie noch keine Adobe ID besitzen, werden Sie aufgefordert, eine zu erstellen.
@@ -42,7 +42,7 @@ After receiving the invitation to join the [!DNL Adobe Experience Cloud], accept
    >
    >Wenn Sie Ihr Konto nicht verknüpfen, können Sie nicht auf [!DNL Target] zugreifen.
 
-   Alle Experience Cloud-Produkte werden auf der Verknüpfungsseite angezeigt. Klicken Sie auf `Link Test&Target` und geben Sie Ihren Benutzernamen und Ihr Passwort für Test&amp;Target ein, um auf Standard und Classic zugreifen zu können.
+   Alle Experience Cloud-Produkte werden auf der Verknüpfungsseite angezeigt. Click `Link Target` and enter your Target username and password to access Target Standard.
 1. Klicken Sie auf **[!UICONTROL Weiter zu Experience Cloud]**.
 
    Sie haben zu diesem Zeitpunkt noch keine Gruppen mit Berechtigungen eingerichtet, die verknüpft werden können.
@@ -52,10 +52,10 @@ After receiving the invitation to join the [!DNL Adobe Experience Cloud], accept
 
 ## Weisen Sie sich die Rolle „Genehmiger“ zu {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-After accepting the invitation to join the [!DNL Adobe Experience Cloud] and logging in, confirm that Target has been added to your [!DNL Experience Cloud] account, then assign yourself the [!UICONTROL Approver] role for [!DNL Target].
+Bestätigen Sie, nachdem Sie die Einladung in [!DNL Adobe Experience Cloud] angenommen und sich angemeldet haben, dass Ihrem [!DNL Experience Cloud]-Konto Target hinzugefügt wurde, und weisen Sie sich anschließend in [!UICONTROL  selbst die Rolle ]Genehmiger[!DNL Target] zu.
 
-If your organization has a [Target Standard](/help/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) license, see [Specify roles and permissions](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Users*.
+Wenn Ihr Unternehmen über eine [Target Standard](/help/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905)-Lizenz verfügt, lesen Sie [Rollen und Berechtigungen festlegen](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) im *Benutzerhandbuch*.
 
-If your organization has a [Target Premium](/help/c-intro/intro.md#premium) license, see [Step 6: Specify roles and permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) in *Configure enterprise permissions*.
+Wenn Ihr Unternehmen über eine [Target Premium](/help/c-intro/intro.md#premium)-Lizenz verfügt, lesen Sie [Schritt 6: Rollen und Berechtigungen festlegen](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) im Abschnitt *Konfigurieren von Unternehmensberechtigungen*.
 
-Der nächste Schritt sollte darin bestehen, Benutzer in Target Standard und Target Premium einzurichten. For more information, see [User management](/help/administrating-target/c-user-management/user-management.md).
+Im nächsten Schritt sollten Sie Benutzer in Target Standard und Target Premium einrichten. Weitere Informationen finden Sie unter [Benutzerverwaltung](/help/administrating-target/c-user-management/user-management.md).
