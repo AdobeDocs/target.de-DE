@@ -8,7 +8,7 @@ title: Fehlerbehebung in Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -124,9 +124,10 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 * [Bekannte Probleme und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md)
 
-## Visual Experience Composer für mobile Apps
+## Mobile Anwendungen
 
 * [Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
+* [Häufig gestellte Fragen zu Target für mobile Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Berichterstellung
 
