@@ -8,7 +8,7 @@ title: Seiten der Site
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -25,7 +25,7 @@ Targeting von Besuchern, die sich auf einer bestimmten Seite befinden oder die e
 1. Nennen Sie die Zielgruppe.
 1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Seiten der Site]**.
 
-   ![Zielgruppe der Site-Seiten](assets/target_site_pages.png)
+   ![Seiten der Site als Zielgruppe](assets/target_site_pages.png)
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
@@ -39,7 +39,7 @@ Targeting von Besuchern, die sich auf einer bestimmten Seite befinden oder die e
 
    * **mbox:** Die mbox, die Gegenstand des Targeting ist. Wenn Sie z. B. Bestellungen mit einer Bestellsumme von 100 Euro oder mehr zählen möchten, geben Sie `orderTotal` als Mbox-Parameter mit dem hier angegebenen Targeting weiter.
    * **Domäne:** Die vollständige Domäne der Seite Für das Festlegen einer Domäne wird die Versendung von „contains“ empfohlen. Beispiel: „Domain equals facebook.com“ wird `m.facebook.com` oder `www.facebook.com` nicht akzeptieren. „Domain contains facebook.com“ hingegen erfasst alle Varianten von „facebook.com“.
-   * **Abfrage:** Der Inhalt der URL nach dem ersten Fragezeichen (?) Im folgenden URL-Beispiel ist die Abfragezeichenfolge in Fettschrift dargestellt:
+   * **Abfrage:** Der Inhalt der URL nach dem ersten Fragezeichen (?) 
 
       `foo.html?e0a72cb2a2c7`
 
