@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7020705c25ad2a4f25844ea70985ad9e2199b41f
+source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
 
 ---
 
@@ -21,6 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 6. September 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Target Standard/Premium 19.9.1-Version (10. September 2019) hinzugefügt. |
 | 4. September 2019 | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das Thema wurde aktualisiert. |
 | 23. August 2019 | [Mobile Target-Vorschau](/help/c-target-mobile-app/target-mobile-preview.md) | Aktualisiertes Codefragment in `AndroidManifest.xml`. |
 | 22. August 2019 | [Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Es wurden Informationen zur Verwendung unzulässiger Zeichen in mobilen App-IDs entfernt. Es gibt keine Einschränkungen mehr. |
