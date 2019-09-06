@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 3b21fede9df1ef61da194fac55ffb862c037258a
+source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 3b21fede9df1ef61da194fac55ffb862c037258a
 
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen für die neuesten oder kommenden [!DNL Adobe Target]-Versionen.
 
-**Zuletzt aktualisiert am 31. Juli 2019**
+**Letzte Aktualisierung: 6. September 2019**
 
 >[!NOTE]
 >
@@ -42,7 +42,13 @@ Diese Aktion sollte im **August 2019** durchgeführt werden. Nach der Version [!
 
 Schrittweise Anweisungen und weitere Informationen finden Sie unter [Gewähren von Adobe I/O-Integrationen auf Arbeitsflächen und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
-## Target Standard/Premium 19.9.1 (24. September 2019)
+## Target Standard/Premium 19.9.1 (10. September 2019)
+
+| Funktion / Verbesserung | Beschreibung |
+| --- | --- |
+| ![Premium-Badge](/help/assets/premium.png) Enterprise-Berechtigungen | Ab der kommenden Version von Target September 2019 stehen Kunden die folgenden Zugriffssteuerungsmöglichkeiten zur Verfügung:<UL><li>Sie können die Arbeitsflächen auswählen, auf die die Integration angewendet werden kann.</li><li>Sie können eine Rolle auf die Integration von Adobe I/O anwenden: Genehmigende Person, Editor oder Beobachter.</li></ul>Schrittweise Anweisungen und weitere Informationen finden Sie unter [Gewähren von Adobe I/O-Integrationen auf Arbeitsflächen und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+
+## Target Standard/Premium 19.9.2 (24. September 2019)
 
 Dieses Maintenance Release umfasst die folgende Verbesserung:
 
