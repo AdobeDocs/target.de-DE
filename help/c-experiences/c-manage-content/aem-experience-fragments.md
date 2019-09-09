@@ -8,7 +8,7 @@ title: AEM-Erlebnisfragmente
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: aee1785aede1894cac9632da7a0471ae429c8bc6
+source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
 
 ---
 
@@ -138,7 +138,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 1. Wählen Sie das gewünschte Erlebnisfragment aus und klicken Sie dann auf **[!UICONTROL Speichern]**.
 1. Schließen Sie die Konfiguration der Aktivität ab.
 
-## Überlegungen (# Erwägungen)
+## Zu beachten {#considerations}
 
 * [!DNL Target] sucht derzeit alle zehn Minuten nach zu importierenden Erlebnisfragmenten. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Beachten Sie, dass die „Master“-Version des Erlebnisfragments in AEM verbleibt. You cannot edit the experience fragment in [!DNL Target].
