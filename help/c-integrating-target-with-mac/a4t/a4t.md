@@ -9,7 +9,7 @@ title: Adobe Analytics als Berichtsquelle für Adobe Target (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -52,6 +52,8 @@ Wenn Sie über einen Einsatz von A4T nachdenken, sollten Sie die folgenden Punkt
 * Bereits vorhandene Target-Aktivitäten verwenden weiterhin die Target-Datenerfassung und sind von der Aktivierung von A4T nicht betroffen.
 * Bei der Verwendung von Analytics als Berichtsquelle ist nur eine einzige Mbox-basierte Metrik erlaubt.
 * Bei einem Server-zu-Server-Aufruf von Target zu Analytics werden Aktivitäts- und Erlebnisinformationen an Analytics gesendet. Durch diese Integration werden keine zusätzlichen Server-Aufrufe für Target oder Analytics getätigt.
+
+   In einigen Situationen kann der Classification-Aufruf von Target zu Analytics fehlschlagen und die Aktivitäten zeigen keine Daten in Analytics an. In diesem Fall finden [Sie Informationen zu Fehlerbehebung für die Integration von Analytics und Target (A 4 T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können sich auch [an den Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) wenden, um weitere Hilfe zu erhalten.
 
 ## Unterstützte Aktivitätstypen {#section_F487896214BF4803AF78C552EF1669AA}
 
