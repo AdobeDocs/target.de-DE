@@ -1,15 +1,15 @@
 ---
 description: Sie können Daten im .csv-Format herunterladen, um sie schnell in Excel, Access oder andere Datenanalyseprogramme zu importieren.
 keywords: Berichte; Herunterladen von Berichten; csv; Erfolgsmetriken; Bestelldetails
-seo-description: Sie können Daten im .csv-Format herunterladen, um sie schnell in Excel, Access oder andere Datenanalyseprogramme zu importieren.
-seo-title: Herunterladen von Daten in Form einer CSV-Datei
+seo-description: Laden Sie Daten im .csv-Format herunter, um sie schnell in Excel, Access oder andere Datenanalyseprogramme mit Adobe Target zu importieren.
+seo-title: Herunterladen von Daten in einer CSV-Datei mit Adobe Target
 solution: Target
 subtopic: Multivarianz-Test
 title: Herunterladen von Daten in Form einer CSV-Datei
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -20,12 +20,16 @@ Sie können Daten im .csv-Format herunterladen, um sie schnell in Excel, Access 
 
 So laden Sie Daten als CSV-Datei herunter:
 
-1. Klicken Sie auf [!DNL Activities] und klicken Sie dann in der Liste auf die gewünschte Aktivität.
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und dann in der Liste auf die gewünschte Aktivität.
 
    Sollten Ihnen viele Aktivitäten zur Auswahl stehen, können Sie die Liste filtern, indem Sie Optionen aus den Dropdownlisten [!UICONTROL Typ], [!UICONTROL Status], [!UICONTROL Berichtsquelle], [!UICONTROL Experience Composer], [!UICONTROL Metriktyp] und [!UICONTROL Aktivitätsquelle] auswählen.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Berichte].**
-1. Klicken Sie auf das Symbol [!UICONTROL „Herunterladen“] und wählen Sie einen Berichtstyp aus, den Sie für die Analyse in Excel oder anderen Tools herunterladen möchten.
+1. Klicken Sie auf das Symbol **[!UICONTROL „Herunterladen“]und wählen Sie einen Berichtstyp aus, den Sie für die Analyse in Excel oder anderen Tools herunterladen möchten.**
+
+   * [!UICONTROL Berichte in CSV exportieren]
+   * [!UICONTROL Bestelldetails als CSV exportieren]
+   ![Download-Optionen](/help/c-reports/assets/download-options.png)
 
 ## Exportieren von Berichten in das CSV-Format {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -38,7 +42,7 @@ Die Daten werden bis zum Ende der Aktivität gespeichert.
 
 >[!NOTE]
 >
->Der CSV-Bericht enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden. Möchten Sie diese Metriken berechnen, laden Sie die Excel-Datei [Target's Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) herunter, um die Aktivitätswerte einzugeben oder die [von Target verwendeten statistischen Berechnungen](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf) einzusehen.
+>Der CSV-Bericht enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## Bestelldetails als CSV exportieren {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -81,7 +85,7 @@ Im Bericht zu Bestelldetails (in [!DNL Target Classic] auch „Prüfbericht“ g
 
 Die folgenden Informationen gelten für den Download:
 
-* Sie können Berichte sowohl für Aktivitäten mit A/B-Tests, automatisierte Personalisierung und Erlebnis-Targeting als auch für Multivarianz-Tests erstellen. Sie können jedoch keinen Erfolgsmetrikenbericht für Recommendations-Aktivitäten herunterladen.
+* Sie können Berichte für A/B-Tests, automatisierte Personalisierung, Erlebnis-Targeting und Multivarianz-Aktivitäten herunterladen. Sie können jedoch keinen Erfolgsmetrikenbericht für Recommendations-Aktivitäten herunterladen.
 * Die Option zum Herunterladen steht nicht für A/B- und Erlebniszielaktivitäten zur Verfügung, die vor der Target-Version 15.7.1 (Juli 2015) erstellt wurden.
 * Erlebnisse ohne verknüpfte Daten werden im heruntergeladenen Bericht nicht erfasst.
-* In der Benutzeroberfläche von Target angewendete Zielgruppen werden nicht zum Downloadbericht übertragen.
+* In der Reporting-Benutzeroberfläche von Target angewendete Zielgruppen werden nicht in den Download-Bericht übertragen.
