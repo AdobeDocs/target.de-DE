@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 9fbcbdff934b0c372e4de94f846f01953f7bc77f
 
 ---
 
@@ -21,23 +21,23 @@ Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Aktivitäten.
 
 ## Wie lange dauert es, bis Aktualisierungen an Elementen in meinem Katalog auf meiner Site erscheinen?
 
-Nachdem Sie eine Feed-Datei importiert oder Entitätsaktualisierungen über API oder mbox erhalten haben, werden die folgenden Änderungen unter 60 Minuten angezeigt:
+Nachdem Sie eine Feed-Datei importiert oder Entitätsaktualisierungen per API oder Mbox erhalten haben, werden die folgenden Änderungen in maximal 60 Minuten angezeigt:
 
 * Elementattribute, die in der Designvorlage zurückgegeben werden.
-* Elementattribute, die in globalen Ausschlussregeln verwendet werden, die verhindern, dass das Element in zurückgegebene Empfehlungen aufgenommen wird.
-* Elementattribute, die in Einschlussregeln in den Kriterien verwendet werden, die Auswirkungen darauf haben, ob das Element in zurückgegebenen Empfehlungen einbezogen oder ausgeschlossen wird.
+* Elementattribute, die in globalen Ausschlussregeln verwendet werden, die verhindern, dass das Element in zurückgegebene Empfehlungen eingeschlossen wird.
+* Elementattribute, die in Einschlussregeln innerhalb der Kriterien verwendet werden, die Auswirkungen darauf haben, ob das Element in zurückgegebenen Empfehlungen einbezogen oder ausgeschlossen wird.
 
-Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus ausgeführt wird (innerhalb von 12-24 Stunden):
+Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus ausgeführt wird (innerhalb von 12 bis 24 Stunden):
 
 * Elementattribute, die in den für die Aktivität verwendeten Sammlungsregeln verwendet werden.
 * Elementattribute, die in einer Promotion basierend auf einem Attribut oder einer Sammlung verwendet werden, die mit der Aktivität verknüpft ist.
-* Element-Kategorie, in der das Element für eine "Aktuelle Kategorie" oder" Favoritenkategorie" im Algorithmus "Topverkäufe" oder" Am meisten angezeigt" angezeigt wird.
-* Rangordnung empfohlener Artikel, wenn das Attribut sich geändert hat und als benutzerdefinierter Schlüssel für einen Algorithmus verwendet wird.
-* Rangordnung empfohlener Artikel basierend auf dem geänderten Attribut (n), wenn die Empfehlungslogik "Elemente mit ähnlichen Attributen" lautet, wenn die Gewichtungsfaktoren" Inhaltähnlichkeit" verwendet werden oder wenn die Faktoren "Attributgewichtung" verwendet werden.
+* Elementkategorie, in der das Element für eine „aktuelle Kategorie“ oder „Favoritenkategorie“ im Algorithmus „Topverkäufe“ oder „Am äftesten angesehen“ angezeigt wird.
+* Rangordnung empfohlener Artikel, wenn das sich geänderte Attribut ein benutzerdefiniertes Attribut ist, das als benutzerdefinierter Schlüssel für einen Algorithmus verwendet wird.
+* Rangordnung empfohlener Artikel basierend auf den geänderten Attributen, wenn die Empfehlungslogik „Artikel mit ähnlichen Attributen“ lautet, wenn die Gewichtungsfaktoren „ähnlicher Inhalt“ verwendet werden oder wenn die Faktoren „Attributgewichtung“ verwendet werden.
 
 >[!NOTE]
 >
->Eine Feed-Datei wird als importiert betrachtet, wenn sich ihr Status von "Importieren von Elementen" in" Suchindex-Aktualisierungen vorbereiten" ändert. Updates können mehr als 60 Minuten in Anspruch nehmen, damit sie in der Benutzeroberfläche der Katalogsuche angezeigt werden können. Die Katalogsuche ist aktuell, wenn sich der Feed-Status in "Abgeschlossen" ändert. Selbst wenn die Katalogsuche noch nicht aktuell ist, spiegelt Ihre Site Aktualisierungen in den oben aufgeführten Zeitrahmen wider. Auf der Seite "Katalogsuche" wird die aktuelle Katalogaktualisierungszeit des Katalogs angezeigt.
+>Eine Feed-Datei wird als importiert erachtet, wenn sich ihr Status von „Elemente werden importiert“ in „Aktualisierungen des Suchindex werden vorbereitet“ ändert. Es kann mehr als 60 Minuten dauern, bis Aktualisierungen in der Benutzeroberfläche der Katalogsuche angezeigt werden. Die Katalogsuche ist aktuell, wenn sich der Feed-Status in „Aktualisierungen abgeschlossen“ ändert. Selbst wenn die Katalogsuche noch nicht aktuell ist, zeigt Ihre Site Aktualisierungen in den oben aufgeführten Zeitrahmen an. Auf der Seite „Katalogsuche“ wird die aktuelle Indexaktualisierungszeit der Katalogsuche angezeigt.
 
 ## Was sollte ich tun, wenn mein Array durch Sonderzeichen umbrochen wird? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -165,10 +165,12 @@ In der Abfragezeichenfolge können Sie Entität-IDs für Entitäten übermitteln
 
 Verwenden Sie den Mbox-Parameter `excludedIds`, um die Ausschlussfunktion zu aktivieren. Dieser Parameter verweist auf eine Liste kommagetrennter Entitäts-IDs. Zum Beispiel `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Der Wert wird übermittelt, wenn Empfehlungen angefordert werden.
 
+Der Ausschluss wird nur für den aktuellen Target-Aufruf durchgeführt. Elemente werden bei nachfolgenden Target-Aufrufen nur dann ausgeschlossen, wenn der `excludedIds` Wert erneut übergeben wird. Um Artikel im Warenkorb von Empfehlungen auf jeder Seite auszuschließen, geben Sie den `excludedIds` Wert weiterhin auf jeder Seite weiter.
+
 >[!NOTE]
 >
 >Wenn zu viele Entitäten ausgeschlossen werden, verhalten sich die Empfehlungen so, als wären nicht ausreichend Entitäten zum Ausfüllen der Empfehlungsvorlage vorhanden.
 
-Hängen Sie das Token `&excludes=${mbox.excludedIds}` an die Inhalts-URL des Angebots an, um `entityIds` auszuschließen. Wenn die Inhalts-URL extrahiert wird, werden die erforderlichen Parameter mit aktuellen Mbox-Anforderungsparametern ersetzt.
+To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Wenn die Inhalts-URL extrahiert wird, werden die erforderlichen Parameter mit aktuellen Mbox-Anforderungsparametern ersetzt.
 
 Diese Funktion ist für neu erstellte Empfehlungen standardmäßig aktiviert. Bestehende Empfehlungen müssen gespeichert werden, um eine Unterstützung für dynamisch ausgeschlossene Entitäten zu gewährleisten.
