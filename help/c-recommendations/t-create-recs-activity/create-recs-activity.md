@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -31,7 +31,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    >[!NOTE]
    >
-   >Zusätzlich zum VEC und formularbasierten Experience Composer bietet Target auch den VEC für Einzelseitenanwendungen und den VEC für Mobile Apps. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
+   >Zusätzlich zum VEC und zum formularbasierten Experience Composer bietet Target den VEC für Einzelseitenanwendungen und den VEC für Mobile Apps. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
    >
    >Informationen zur Problembehebung für den VEC finden Sie unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
@@ -167,7 +167,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
    * Code für Ihre Entwürfe ansehen
 
 1. (Optional) Öffnen Sie die Seite [!UICONTROL Berichte], um den Bericht anzusehen, der die Leistung Ihrer [!DNL Recommendations]-Aktivität anzeigt.
-1. (Optional) Öffnen Sie die Seite [!UICONTROL Kollisionen], um eventuell auftretende [Aktivitäten-Kollisionen](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html) anzuzeigen.
+1. (Optional) Öffnen Sie die Seite [!UICONTROL Kollisionen], um eventuell auftretende [Aktivitäten-Kollisionen](/help/c-experiences/c-visual-experience-composer/activity-collisions.md) anzuzeigen.
 
    Kollisionen von Aktivitäten treten auf, wenn mehrere Aktivitäten Inhalte auf derselben Seite bereitstellen sollen. Dies kann zur Darstellung unerwarteter Inhalte führen.
 
