@@ -8,14 +8,14 @@ title: Form-Based Experience Composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
 
 # Form-Based Experience Composer{#form-based-experience-composer}
 
-Der Form-Based Experience Composer ist ein nicht visuelles Erlebnis und eine Benutzeroberfläche zur Angebotserstellung, die beim Erstellen von Erlebnissen für die Verwendung in A/B-Tests, Erlebnis-Targeting, automatisierten Personalisierung und Recommendations-Aktivitäten nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder praktikabel ist. Beispielsweise können Sie den formularbasierten Composer verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachbereitstellungen zu erstellen.
+Der formularbasierte Experience Composer ist eine Benutzeroberfläche, die die Erstellung nicht visueller Erlebnisse und Angebote ermöglicht. Diese Erlebnisse können in A/B-Tests, im Erlebnis-Targeting, in der automatisierten Personalisierung und in Recommendations-Aktivitäten genutzt werden, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. So können Sie den formularbasierten Composer beispielsweise verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachassistenten zu erstellen.
 
 Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. Wählen Sie Ihre Kriterien und Ihren Entwurf aus. Wenn Sie mehrere Kriterien oder Entwürfe auswählen, generiert Target automatisch die Erlebnisse.
 
@@ -77,7 +77,7 @@ Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. W�
    1. Geben Sie einen Angebotsnamen ein.
    1. Schreiben Sie Ihren JSON-Code in das Feld „Code“ oder kopieren Sie ihn dorthin.
    1. Klicken Sie auf [!UICONTROL Speichern].
-   Im Dropdownmenü „Inhalt“ finden Sie die Option „Empfehlung hinzufügen“ für eine Recommendations-Aktivität. Klicken Sie auf **[!UICONTROL Empfehlung hinzufügen]** und wählen Sie dann den Seitentyp aus. Folgen Sie den üblichen auf der Oberfläche angegebenen Schritten, um [eine Recommendations-Aktivität zu erstellen](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html).
+   Im Dropdownmenü „Inhalt“ finden Sie die Option „Empfehlung hinzufügen“ für eine Recommendations-Aktivität. Klicken Sie auf **[!UICONTROL Empfehlung hinzufügen]** und wählen Sie dann den Seitentyp aus. Folgen Sie den üblichen auf der Oberfläche angegebenen Schritten, um [eine Recommendations-Aktivität zu erstellen](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Bei der Auswahl der Recommendations-Kriterien im formularbasierten Experience Composer gibt es jetzt einen direkten Link zur ausgewählten Kriterienkarte, damit Sie die Kriterien schnell und einfach bearbeiten können.
 
