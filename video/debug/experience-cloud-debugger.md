@@ -5,7 +5,7 @@ title: Target mit dem Experience Cloud-Debugger debuggen
 seo-title: Target mit dem Experience Cloud-Debugger debuggen
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 6627c8cd5edb882d8af8fc71b069f7f5edbaa706
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -26,6 +26,6 @@ source-git-commit: 6627c8cd5edb882d8af8fc71b069f7f5edbaa706
 
 ## Zusätzliche Ressourcen
 
-+ [Adobe Experience Cloud Debugger im Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Fehlerbehebung für Target-Hilfedokumentation](https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshooting_target.html)
-+ [Video zum Verwenden des Experience Cloud-Debuggers](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Adobe Experience Cloud-Debugger im Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Fehlerbehebung in der Target-Hilfe](/help/r-troubleshooting-target/troubleshooting-target.md)
++ [Verwenden des Experience Cloud Debugger-Videos](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
