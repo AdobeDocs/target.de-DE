@@ -9,7 +9,7 @@ title: A4T-Reporting
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -45,7 +45,7 @@ Verwenden Sie in Analytics den Target-Aktivitätenbericht, um die Ergebnisse Ihr
 
 >[!NOTE]
 >
->Details zur Target-Steigerung und Konfidenz sind ebenfalls in Analytics verfügbar. Weitere Informationen finden Sie im Abschnitt zu [Target-Steigerung und Konfidenzberichtstyp](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html) in der Produktdokumentation zu Adobe Analytics.
+>Details zur Target-Steigerung und Konfidenz sind ebenfalls in Analytics verfügbar. Weitere Informationen finden Sie unter [Target-Steigerung und -Konfidenz](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html) im *Analytics-Komponenten-Handbuch*.
 
 >[!IMPORTANT]
 >
