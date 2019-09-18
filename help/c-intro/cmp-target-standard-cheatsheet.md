@@ -8,7 +8,7 @@ title: Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -41,7 +41,7 @@ Weitere Details finden Sie in der [Unterstützte Browser](../c-implementing-targ
 
 **Welche JavaScript-Implementierungsdatei sollte ich verwenden: at.js oder mbox.js?**
 
-at.js ist unsere neueste und tollste JavaScript-Bibliothek. mbox.js ist unsere ältere Version. Unter [Vorteile von at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) , um die Unterschiede zwischen den beiden Bibliotheken zu verstehen. Alle neuen Kunden sollten at.js verwenden.
+at.js ist unsere neueste und tollste JavaScript-Bibliothek. mbox.js ist unsere ältere Version. Unter [Die Vorteile von at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) finden Sie die Unterschiede zwischen den beiden Bibliotheken. Alle neuen Kunden sollten at.js verwenden.
 
 Alle bestehenden mbox.js-Kunden sollten zu at.js migrieren. Erfahren Sie mehr über die in [Migration von mbox.js zu at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) Enthaltenen Schritte, bevor Sie den Übergang vornehmen.
 
@@ -81,7 +81,7 @@ Beachten Sie, dass sich die Traffic-Anforderung infolge von MVT-Aktivitäten erh
 
 **Kann ich Angebote an unterschiedlichen Positionen (beispielsweise der Checkout-Trichter) anwenden?**
 
-Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
+Probieren Sie die [Funktion „Mehrseitige Aktivität“](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) aus, mit der Sie mehrere Seiten in den Erlebnissen verwenden können.
 
 **Wie kann ich sicherstellen, dass einem Benutzer, nachdem ein (primäres oder sekundäres) Ziel erreicht wurde, die Aktivität niemals erneut angezeigt wird und er stattdessen künftig eine andere Aktivität sieht?**
 
@@ -107,7 +107,7 @@ Dies wird durch die Einstellung „Primärziel“ in Schritt 3 des aus drei Teil
 
 Im Schritt [Planungsfunktion in den Zielen und Einstellungen](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) des aus drei Teilen bestehenden Aktivitäts-Workflows können Sie die Start- und Enddatumswerte angeben.
 
-Denken Sie daran, die Aktivität zu aktivieren. Nur Live-Aktivitäten berücksichtigen den angegebenen Zeitplan. Nachdem das Enddatum erreicht wurde, geht die Aktivität in den Zustand „Beendet“ über.
+Denken Sie daran, die Aktivität zu aktivieren. Nur aktive Aktivitäten halten den angegebenen Zeitplan ein. Nachdem das Enddatum erreicht wurde, geht die Aktivität in den Zustand „Beendet“ über.
 
 **Ist es möglich, nur Änderungen am Targeting-Schritt vorzunehmen, ohne den gesamten, aus drei Schritten bestehenden geführten Workflow für die Bearbeitung zu durchlaufen?**
 
@@ -236,7 +236,7 @@ Verwenden Sie den [formularbasierten Ansatz](../c-experiences/form-experience-co
 
 **Kann ich sichergehen, dass einem Benutzer über allen seinen Geräten dasselbe Erlebnis auf konsistente Weise bereitgestellt wird?**
 
-Lesen Sie die Informationen zur [Gerätekooperation](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html), wodurch Sie mehrere Geräte eines Benutzers durch die Leistung einer Kooperation deterministisch und probabilistisch miteinander verknüpfen können.
+Lesen Sie die Informationen zur [Gerätekooperation](https://docs.adobe.com/content/help/en/device-co-op/using/home.html), wodurch Sie mehrere Geräte eines Benutzers durch die Leistung einer Kooperation deterministisch und probabilistisch miteinander verknüpfen können.
 
 Wenn Sie sich in der Kooperation befinden, kann die Funktion mithilfe einer einfachen Markierung auf der Seite „Ziele und Einstellungen“ aktiviert werden. Die Berichterstellung wird nun so geändert, dass anstelle von Besuchern Personen berücksichtigt werden. Wenden Sie sich an Ihren Adobe-Kontakt, um weitere Informationen über diese nicht in allen Regionen verfügbare Funktion zu erhalten.
 
@@ -256,7 +256,7 @@ Wir verfügen über eine [Weiterleitungs-URL](../c-experiences/c-manage-content/
 
 **Warum erfolgt im meiner Qualitätssicherung keine Inhaltsbereitstellung?**
 
-Es ist möglich, dass Ihre Site dynamische IDs, doppelte IDs oder dynamische Klassen für Elemente aufweist. Sie müssen die Voreinstellungsoptionen für die Site möglicherweise auf Kontoebene (oder auf Aktivitätsebene, wenn das Problem für eine Domäne oder Seite spezifisch ist) auswerten. See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+Es ist möglich, dass Ihre Site dynamische IDs, doppelte IDs oder dynamische Klassen für Elemente aufweist. Sie müssen die Voreinstellungsoptionen für die Site möglicherweise auf Kontoebene (oder auf Aktivitätsebene, wenn das Problem für eine Domäne oder Seite spezifisch ist) auswerten. Siehe [CSS-Selektoren](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
 **Warum wird mir anstelle des gewünschten Angebots/Erlebnisses eine andere Aktivität angezeigt?**
 
@@ -283,7 +283,7 @@ Lesen Sie die folgenden Aspekte des Produkts:
 
 Hier kommt die auf der Seite „Ziele und Einstellungen“ in Schritt 3 des aus drei Teilen bestehenden geführten Aktivitäts-Workflows verfügbare Funktion [Zielgruppen für die Berichterstellung](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) ins Spiel.
 
-Sie haben die Möglichkeit, 50 solche Segmente und den Anwendungspunkt (Aktivitätseingabe oder spezifische Metrik) hinzuzufügen, um eine leistungsstarke Möglichkeit zu haben, ein Slice und eine Würfel zu erstellen.
+Sie können bis zu 50 solcher Segmente und auch den Anwendungspunkt (Aktivitätseintrag oder eine spezifische Metrik) hinzufügen, um über eine aussagekräftige Slice-and-Dice-Funktionalität zu verfügen.
 
 Beachten Sie, dass Target die Daten diesbezüglich sammelt, sobald Sie diese Zielgruppen hinzufügen. Wenn Sie die Segmente also vor dem Ausführen des Tests nicht hinzufügen, haben Sie Pech.
 
@@ -291,11 +291,11 @@ Beachten Sie, dass Target die Daten diesbezüglich sammelt, sobald Sie diese Zie
 
 **Wie kann ich diesen Prozess vereinfachen?**
 
-This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. Wenn Sie über Adobe Analytics verfügen, können Sie einfach Analytics als Quelle auswählen, wodurch diese Einschränkung beseitigt wird. Nun können Sie jederzeit an jedem beliebigen Punkt Analysen für beliebige Zielgruppen durchführen und müssen die Berichtszielgruppen nicht vorab definieren.
+Hierfür ist [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) praktisch. Wenn Sie über Adobe Analytics verfügen, können Sie einfach Analytics als Quelle auswählen, wodurch diese Einschränkung beseitigt wird. Nun können Sie jederzeit an jedem beliebigen Punkt Analysen für beliebige Zielgruppen durchführen und müssen die Berichtszielgruppen nicht vorab definieren.
 
 **Kann ich Offline-Berichtsberechnungen durchführen?**
 
-Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
+Verwenden Sie [„Berichte in CSV exportieren“ und „Auftragsdetails als CSV exportieren“](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) auf der Seite „Berichte“ zum Herunterladen der gewünschten Berichtsdaten.
 
 **Kann ich das Kontrollerlebnis für das Auswerten von Berichten oder die Zählmethodologie von „Besucher“ in „Besuche“ ändern?**
 
