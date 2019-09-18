@@ -8,7 +8,7 @@ title: Hochladen von Inhalten
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -28,7 +28,7 @@ Sie können Elemente in der Bildangebotliste hinzufügen oder daraus entfernen.
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 
-* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) und der Target-Inhaltsbibliothek
+* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) und der Target-Inhaltsbibliothek
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 
