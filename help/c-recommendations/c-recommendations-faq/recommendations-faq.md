@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 9fbcbdff934b0c372e4de94f846f01953f7bc77f
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -99,7 +99,7 @@ Beachten Sie die folgenden Informationen, wenn eine Sammlung, die zuvor nicht nu
 * Ist Ihr Index aktuell? Überprüfen Sie bei [!DNL /target/products.html#productSearch], wie viele Stunden der Index alt ist (z. B. „Vor 3 Stunden indiziert“). Sie können den Index bei Bedarf aktualisieren.
 * Haben Sie Änderungen am Feed oder an der Datenebene vorgenommen, die dazu geführt haben, dass Ihre Entitäten nicht mehr mit den Sammlungsregeln übereinstimmen? Stellen Sie sicher, dass die Groß-/Kleinschreibung übereinstimmt (Beachtung der Groß-/Kleinschreibung).
 * Wurde der Feed erfolgreich ausgeführt? Hat jemand Änderungen am FTP-Verzeichnis, Kennwort usw. vorgenommen?
-* Target setzt Aktualisierungen an der Bereitstellung (auf der Seite/App des Kunden) schnellstmöglich um. Dennoch müssen für den Vermarkter auf der Benutzeroberfläche einige Darstellungen bereitgestellt werden. Bereitstellungsaktualisierungen werden nicht zwingend verzögert, um auf die Synchronisierung der Benutzeroberflächenaktualisierungen zu warten. Mithilfe von [mboxTrace](https://marketing.adobe.com/resources/help/en_US/target/target/c_content_trouble.html#) können Sie die Inhalte des Systems zu dem Zeitpunkt anzeigen, zu dem eine Anforderung eingeht.
+* Target setzt Aktualisierungen an der Bereitstellung (auf der Seite/App des Kunden) schnellstmöglich um. Dennoch müssen für den Vermarkter auf der Benutzeroberfläche einige Darstellungen bereitgestellt werden. Bereitstellungsaktualisierungen werden nicht zwingend verzögert, um auf die Synchronisierung der Benutzeroberflächenaktualisierungen zu warten. Mithilfe von [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) können Sie die Inhalte des Systems zu dem Zeitpunkt anzeigen, zu dem eine Anforderung eingeht.
 
 ## Worin besteht der Unterschied zwischen der allgemeinen und der Inhaltsähnlichkeits-spezifischen Attributgewichtung? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
