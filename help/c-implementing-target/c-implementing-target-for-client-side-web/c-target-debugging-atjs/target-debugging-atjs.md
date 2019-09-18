@@ -7,7 +7,7 @@ title: „at.js“-Debugging mit dem Adobe Experience Cloud-Debugger
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -18,7 +18,7 @@ Informationen zur Verwendung des Adobe Experience Cloud-Debuggers, einer Erweite
 
 Hier können Sie schnell Ihre Bibliothekskonfiguration anzeigen, Anfragen untersuchen, um sicherzustellen, dass Ihre benutzerspezifischen Parameter ordnungsgemäß übergeben werden, die Konsolenprotokollierung aktivieren sowie alle Target-Anfragen deaktivieren. Nach Authentifizierung bei der Experience Cloud können Sie das leistungsstarke Tool „Mbox Trace“ verwenden, um Ihre Aktivität und Ihre Zielgruppenqualifikationen sowie Ihr Besucherprofil zu untersuchen.
 
-Weitere Informationen finden Sie in der [Dokumentation der Adobe Experience Cloud-Debugger-Erweiterung](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/). Informationen speziell für Target finden Sie im Abschnitt [Tools](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html).
+Weitere Informationen finden Sie in der [Dokumentation der Adobe Experience Cloud-Debugger-Erweiterung](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html). Informationen speziell für Target finden Sie im Abschnitt [Tools](https://docs.adobe.com/content/help/en/debugger/using/tools.html).
 
 ## Schulungsvideos
 
