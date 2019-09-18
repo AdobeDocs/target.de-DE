@@ -7,7 +7,7 @@ title: Ziele und Einstellungen
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zielen des Tests eingeben.
 
-The available settings depend on whether you use Target or [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) as the data source.
+Welche Einstellungen verfügbar sind, hängt davon ab, ob Sie als Datenquelle Target oder [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) verwenden.
 
-![Aktivitätseinstellungen, Dialogfeld](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+![Dialogfeld „Aktivitätseinstellungen“](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 ## Aktivitätseinstellungen {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -32,7 +32,7 @@ The available settings depend on whether you use Target or [Analytics](/help/c-i
 
 | Einstellungen | Beschreibung |
 |--- |--- |
-| Berichtsquelle | Geben Sie an, ob die Daten von Adobe Target oder Adobe Analytics erfasst werden. Informationen über die Unterschiede zwischen den Berichterstellungslösungen und deren jeweilige Vorteile finden Sie unter [Adobe Analytics als Berichterstellungsquelle für Target.  ](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)  Wenn Sie Analytics als Berichtsquelle für Target auswählen, wählen Sie eine Analytics-Report Suite, um Target-Aktivitätsdaten zu empfangen.<br>Wählen Sie dazu zunächst ein Analytics-Unternehmen aus, an das ihr Konto gebunden ist, und wählen Sie anschließend die der Aktivität entsprechende Report Suite aus. Es stehen nur Report Suites, die für die Verbindung mit Adobe Target bereitgestellt werden, zur Auswahl zur Verfügung. Wenn nicht die erwarteten Report Suites angezeigt werden, versuchen Sie, sich bei Adobe Experience Cloud ab- und dann wieder anzumelden, und wiederholen Sie den Vorgang. Wenn die Report Suite weiterhin nicht in der Liste zu finden ist, wenden Sie sich an den Kundendienst.<br>Sollte in Ihren Kontoeinstellungen eine Berichterstellungsquelle angegeben sein, wird die angegebene Quelle verwendet und diese Einstellung ist nicht sichtbar.<br>Hinweis: Sie können Ihre Berichtsquelle nach Liveschaltung einer Aktivität nicht mehr ändern, da die Berichte sonst nicht mehr konsistent wären. |
+| Berichtsquelle | Geben Sie an, ob die Daten von Adobe Target oder Adobe Analytics erfasst werden. Informationen über die Unterschiede zwischen den Berichterstellungslösungen und deren jeweilige Vorteile finden Sie unter [Adobe Analytics als Berichterstellungsquelle für Target.  ](/help/c-integrating-target-with-mac/a4t/a4t.md)  Wenn Sie Analytics als Berichtsquelle für Target auswählen, wählen Sie eine Analytics-Report Suite, um Target-Aktivitätsdaten zu empfangen.<br>Wählen Sie dazu zunächst ein Analytics-Unternehmen aus, an das ihr Konto gebunden ist, und wählen Sie anschließend die der Aktivität entsprechende Report Suite aus. Es stehen nur Report Suites, die für die Verbindung mit Adobe Target bereitgestellt werden, zur Auswahl zur Verfügung. Wenn nicht die erwarteten Report Suites angezeigt werden, versuchen Sie, sich bei Adobe Experience Cloud ab- und dann wieder anzumelden, und wiederholen Sie den Vorgang. Wenn die Report Suite weiterhin nicht in der Liste zu finden ist, wenden Sie sich an den Kundendienst.<br>Sollte in Ihren Kontoeinstellungen eine Berichterstellungsquelle angegeben sein, wird die angegebene Quelle verwendet und diese Einstellung ist nicht sichtbar.<br>Hinweis: Sie können Ihre Berichtsquelle nach Liveschaltung einer Aktivität nicht mehr ändern, da die Berichte sonst nicht mehr konsistent wären. |
 | Ziel | Wählen Sie die Aktion, die von einem Besucher ergriffen wird, um das Ziel zu erreichen. Wählen Sie zum Beispiel eine Konversionsmetrik und stellen Sie dann die Parameter ein, anhand derer festgestellt wird, dass ein Erfolg erreicht wurde.  Weitere Informationen zum Festlegen von Metriken finden Sie unter [Festlegen von Metriken](../../../c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md).<br>Hinweis: Wenn bei Berichterstellungslösung Analytics eingestellt ist, lautet die einzige verfügbare Zielmetrik „Konversion“. Es ist nicht möglich, Analytics-Metriken als Ziel auszuwählen.   Bei der Auswahl Ihrer Erfolgsmetrik wird ein Selektor angezeigt. Verwenden Sie diesen Selektor, um Einzelheiten zu dieser Erfolgsmetrik auszuwählen.<br>Bei Aktivierung bietet der geschätzte Wert des Konversionsfeldes (nicht verfügbar für Seitenergebnis-Metriken) einen Wert für Ihr Ziel, jedoch nicht für andere Metriken. Mit diesem Wert kann Target die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Die Schätzung verwendet für alle Umsatzmetriken (Umsatz pro Besucher, durchschnittlicher Bestellwert, Gesamtverkäufe und Bestellungen) die Metrik „Umsatz pro Besucher“. Der Datentyp ist eine Währung.<br>Nach Erreichen des Aktivitätsziels sieht ein Besucher weiterhin den Aktivitätsinhalt, es sei denn, dieser Besucher ist qualifiziert für eine Aktivität mit höherer Priorität. Wenn der Besucher das Ziel erneut erreicht, wird dies als eine weitere Konversion gezählt. Beachten Sie, dass sich dieses Verhalten vom Standardverhalten in Target Classic unterscheidet, da Besucher dort als neu gezählt werden, wenn Sie den Test erneut sehen. |
 | Zusätzliche Metriken | Erstellen Sie zusätzliche Erfolgsmetriken.  Diese Einstellung ist nicht verfügbar, wenn Analytics als Berichterstellungslösung eingestellt ist. In diesem Fall werden die für die Analytics-Berichtssuite definierten Metriken angewendet. |
 | Zielgruppen für die Berichterstellung | Standardmäßig zeigen Berichte Ergebnisse für alle qualifizierten Besucher. Sie können Berichtszielgruppen hinzufügen, um nur Informationen über bestimmte Zielgruppen zu zeigen.  Diese Einstellung ist nicht verfügbar, wenn Sie Analytics als Berichterstellungslösung wählen. Die für die Analytics Report Suite definierten Zielgruppen werden angewendet. |
@@ -41,7 +41,7 @@ The available settings depend on whether you use Target or [Analytics](/help/c-i
 
 Erweiterte Einstellungen sind für A/B-Test-Zielmetriken verfügbar.
 
-![Menü "Erweiterte Einstellungen «](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
+![Menü „Erweiterte Einstellungen“](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Erweiterte Einstellungen sind für A/B-Test-Zielmetriken verfügbar.
 |--- |--- |
 | Welche Erfolgsmetrik muss erreicht werden, bevor diese Metrik erhöht wird? | Verwenden Sie diese Option, um die Erfolgsmetrik nur dann als erreicht zu werten, wenn jemand vorher bereits eine andere Erfolgsmetrik erreicht hat. So kann eine Testkonversion nur dann gültig sein, wenn der Besucher das Angebot anklickt oder auf eine bestimmte Seite gelangt, bevor die Konversion erfolgt.  Sie können für mehrere Metriken eine Abhängigkeit bereitstellen und die flexible Auswahl ermöglichen, ob die Metrik erreicht werden soll oder nicht, damit sich die Anzahl erhöht.  Sie müssen beide (oder mehrere) Erfolgsmetriken definieren, bevor Sie eine Abhängigkeit voneinander festlegen können.  Mithilfe der Option Abhängigkeit hinzufügen kann die Erfolgsmetrik inkrementiert werden, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde.  So fügen Sie eine Abhängigkeit hinzu:<ul><li>Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf Erweiterte Einstellungen.</li><li>Klicken Sie auf die Option Abhängigkeit hinzufügen:</li><li>Verschieben Sie die gewünschte Metrik per Drag-and-drop vom linken Bereich in den rechten Bereich. Klicken Sie dann auf Erreicht, um die Einstellung zwischen Erreicht und Nicht erreicht zu wechseln.</li><li>Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben.</li></ul> |
 | Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft? | Es gibt drei Möglichkeiten, nachdem ein Besucher die Zielmetrik erreicht hat:<ul><li>Wählen Sie „Anzahl erhöhen und Benutzer in Aktivität belassen“ aus, um festzulegen, wie die Anzahl erhöht wird.</li><li>Wählen Sie „Anzahl erhöhen, Benutzer freigeben und Wiedereintritt erlauben“ aus, um festzulegen, welches Erlebnis dem Benutzer angezeigt wird, wenn er die Aktivität wieder aufnimmt.</li><li>Wählen Sie „Anzahl erhöhen, Benutzer freigeben und an Wiedereintritt hindern“ aus, um festzulegen, was dem Benutzer statt der Aktivitätsinhalte angezeigt wird.</li></ul> |
-| Wie wird die Anzahl erhöht? | Es gibt drei Optionen, wie die Anzahl erhöht wird:<ul><li>Einmal pro Teilnehmer</li><li>Bei jeder Impression (ohne Seitenaktualisierung)</li><li>Bei jeder Impression</li></ul> |
+| Wie wird die Anzahl erhöht? | Es gibt drei Möglichkeiten, wie die Anzahl erhöht werden kann:<ul><li>Einmal pro Teilnehmer</li><li>Bei jeder Impression (außer bei Seitenaktualisierungen)</li><li>Bei jeder Impression</li></ul> |
 
 Weitere Informationen zu erweiterten Einstellungen finden Sie unter [Erfolgsmetriken](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -77,7 +77,7 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
-(https://video.tv.adobe.com/v/17381)
+(https://video.tv.adobe.com/v/17381?captions=ger)
 
 ### Erstellen von A/B-Tests (8:36)
 
