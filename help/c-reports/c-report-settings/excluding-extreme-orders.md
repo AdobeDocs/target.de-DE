@@ -1,14 +1,14 @@
 ---
 description: Sie können Extremwerte aus Berichten ausschließen, sodass einige ungewöhnliche Bestellungen die Aktivitätsergebnisse nicht beeinflussen. Ein Beispiel für eine ungewöhnliche Bestellung ist, wenn ein Trainer Ausrüstungen für eine ganze Mannschaft kauft, anstatt dass einzelne Sportler individuell bestellen.
 keywords: Target; Berichte; Berichtseinstellungen; extreme Bestellungen; Extremwerte
-seo-description: Sie können Extremwerte aus Berichten ausschließen, sodass einige ungewöhnliche Bestellungen die Aktivitätsergebnisse nicht beeinflussen. Ein Beispiel für eine ungewöhnliche Bestellung ist, wenn ein Trainer Ausrüstungen für eine ganze Mannschaft kauft, anstatt dass einzelne Sportler individuell bestellen.
-seo-title: Ausschließen von Extremwerten
+seo-description: Extreme Werte können in Adobe Target ausgeschlossen werden, sodass einige ungewöhnliche Bestellungen Ihre Aktivitätsergebnisse nicht beeinflussen. Ein Beispiel für eine ungewöhnliche Bestellung ist, wenn ein Trainer Ausrüstungen für eine ganze Mannschaft kauft, anstatt dass einzelne Sportler individuell bestellen.
+seo-title: Extreme Werte in Adobe Target-Berichten ausschließen
 solution: Target
 title: Ausschließen von Extremwerten
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
@@ -32,9 +32,13 @@ Wenn ein Wert als extrem markiert wurde, wird der Bestellwert durch den durchsch
 **So schließen Sie extreme Werte aus Ihren Berichten aus:**
 
 1. Öffnen Sie eine Aktivität, die die Metriktypen Umsatz oder Interaktion enthält, und klicken Sie dann auf die Registerkarte **[!UICONTROL Berichte]**.
-1. Klicken Sie auf das Zahnradsymbol, um die [!UICONTROL Berichtseinstellungen] aufzurufen.
+1. Klicken Sie auf das Zahnradsymbol.
+
+   ![Berichtseinstellungen](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
+
+   Das Dialogfeld [!UICONTROL Berichtseinstellungen] wird angezeigt.
 
    ![Schrittergebnis](assets/exclude_extreme_values.png)
 
 1. Schalten Sie die Option **[!UICONTROL Extreme Werte ausschließen]** ein bzw. aus.
-1. Klicken Sie auf **[!UICONTROL Einstellungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
