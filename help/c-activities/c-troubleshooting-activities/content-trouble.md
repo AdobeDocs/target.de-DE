@@ -9,7 +9,7 @@ title: Fehlerbehebung bei der Inhaltsbereitstellung
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -102,7 +102,7 @@ Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Proble
 
 Weitere Informationen finden Sie in den Schulungsvideos unten:
 
-Ausführliche Informationen finden Sie in der [*Dokumentation zur Adobe Experience Cloud-Debugger-Erweiterung*](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
+Weitere Informationen finden Sie unter " [Debuggen von at.js mit dem Adobe Experience Cloud-Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)".
 
 ## Wenn target.js bei der Bereitstellung nicht geladen wird {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
