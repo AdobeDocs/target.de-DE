@@ -8,7 +8,7 @@ title: Bekannte Probleme und gelöste Probleme
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -25,9 +25,9 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 
 Die folgenden Abschnitte führen zu bekannten Problemen zu [!DNL Target]:
 
-### Link-QA-Vorschau-Links {#preview}
+### Vorschau-Links zur AktivitätsQS {#preview}
 
-[Die Vorschau-Links für die Aktivitäts-QA-Vorschau](/help/c-activities/c-activity-qa/activity-qa.md) werden möglicherweise nicht geladen, wenn zu viele gespeicherte Aktivitäten in Ihrem Konto vorhanden sind. Die Vorschau-Links sollten erneut versucht werden. Um dies zu verhindern, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden. (TNT-32697)
+[Die Vorschau](/help/c-activities/c-activity-qa/activity-qa.md) -Links zur Aktivitätsüberprüfung für gespeicherte Aktivitäten werden möglicherweise nicht geladen, wenn Ihr Konto zu viele gespeicherte Aktivitäten enthält. Das erneute Testen der Vorschau-Links sollte funktionieren. Um zu verhindern, dass dies weiterhin geschieht, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv genutzt werden. (TNT-32697)
 
 ### Umleitungsangebote {#redirect}
 
@@ -73,7 +73,7 @@ In einer MVT-Aktivität ist der in der Tabelle und im Diagramm angezeigte Gewinn
 
 Bekannte Probleme mit at.js:
 
-* Beim Laden einer Seite in Visual Experience Composer (VEC) muss Target ermitteln, ob die globale Mbox-Einstellung aktiviert oder deaktiviert ist und ob an der Stelle, an der der Benutzer die Empfehlung im VEC anwenden möchte, ein entityID- oder categoryID-Eintrag vorhanden ist. Basierend auf diesen Informationen wird die Kriterienliste gefiltert. Die Standardliste enthält zwar gefilterte Algorithmen, doch mit dem [Kompatibilitäts-Kontrollkästchen](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html) können Sie die vollständige Algorithmenliste anzeigen.
+* Beim Laden einer Seite in Visual Experience Composer (VEC) muss Target ermitteln, ob die globale Mbox-Einstellung aktiviert oder deaktiviert ist und ob an der Stelle, an der der Benutzer die Empfehlung im VEC anwenden möchte, ein entityID- oder categoryID-Eintrag vorhanden ist. Basierend auf diesen Informationen wird die Kriterienliste gefiltert. Die Standardliste enthält zwar gefilterte Algorithmen, doch mit dem [Kompatibilitäts-Kontrollkästchen](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) können Sie die vollständige Algorithmenliste anzeigen.
 
    Bei der Verwendung von at.js ist das Kontrollkästchen Kompatibilität ausgeblendet, sodass Sie keine inkompatiblen Algorithmen anzeigen können.
 
@@ -138,7 +138,7 @@ Wenn bekannte Probleme behoben sind, werden sie in die folgenden Abschnitte vers
 
 Eine Wettlaufsituation auf Ihrer Seite kann dazu führen, dass Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt werden. Aktualisierungen der Implementierung von at.js sind geplant, um sicherzustellen, dass solche Wettlaufsituationen vermieden werden.
 
-Dieses Problem wurde in at. js 1.6.3 behoben.
+Dieses Problem wurde in at.js 1.6.3 behoben.
 
 ### Ausschlussgruppen
 
