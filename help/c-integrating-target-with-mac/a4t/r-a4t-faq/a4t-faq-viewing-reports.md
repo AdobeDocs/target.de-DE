@@ -8,7 +8,7 @@ title: Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -29,7 +29,7 @@ Die Zählmethode gibt an, was Target als Nenner für die Konversionsraten verwen
 
 Für den Aktivitätsbericht können Administratoren die Standardmetrik so ändern, dass bei jeder Ausführung des Berichts dieselben Metriken angezeigt werden. Anderenfalls wird der Bericht standardmäßig auf die letzte Metrik festgesetzt, die Sie für Ihren letzten Bericht angewendet haben.
 
-Weitere Informationen finden Sie unter [Standardberichtsmetriken auswählen](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) in der Anleitung *Hilfe zur Reports and Analytics-Schnittstelle*.
+For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
 
 ## Wann wende ich ein Segment auf die Metrik (mit einer errechneten Metrik) an und wann wende ich das Segment auf den Bericht an? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -52,7 +52,7 @@ Beachten Sie Folgendes:
 
 * Alle oben genannten Metriken werden ausgelöst, wenn ein Benutzer sich für eine Aktivität qualifiziert und Inhalt von [!DNL Target] zurückgegeben wird. Das bedeutet nicht zwingend, dass der Benutzer das Angebot gesehen hat. Wenn ein Aktivitätserlebnis sich unterhalb des angezeigten Bildschirmbereichs befindet und der Benutzer nicht nach unten scrollt, wurde das Angebot zwar von [!DNL Target] bereitgestellt, aber nicht vom Benutzer gesehen.
 * [!UICONTROL Aktivitätsimpressionen] (gemessen durch [!DNL Target]) und [!UICONTROL Instanzen] (gemessen durch [!DNL Analytics]) sind gleich, sofern nicht mehrere Mbox-Aufrufe auf derselben Seite in derselben Aktivität vorhanden sind. Hierdurch werden mehrere [!UICONTROL Aktivitätsimpressionen] gezählt, aber nur eine [!UICONTROL Instanz].
-* Stellen Sie bei Verwendung von [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversionsmetriken] [!DNL Analysis Workspace]sicher, dass beide Metriken gleiche [!UICONTROL Berührungszuordnungsmodelle] angewendet haben. Modelle können angewendet werden, indem Sie auf das Zahnradeinstellungsgerät klicken, [!UICONTROL nicht standardmäßige Zuordnungsmodelle aktivieren]und [!UICONTROL dann "Gleiche Berührung]«auswählen. Weitere Informationen über Attribution in [Attributes IQ finden](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) Sie im *Analytics-Tools-Handbuch*.
+* Wenn Sie [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversionsmetriken] in verwenden, stellen Sie sicher, dass für beide Metriken [!DNL Analysis Workspace]dieselben Touch-Zuordnungsmodelle angewendet werden. Modelle können angewendet werden, indem Sie auf das Spalteneinstellungswerkzeug klicken, [!UICONTROL Nicht-Standard-Zuordnungsmodelle]aktivieren und dann [!UICONTROL Gleich Touch]auswählen. Weitere Informationen zur Zuordnung finden Sie im Überblick[ über die ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)Attributes-IQ im *Analytics-Tools-Handbuch*.
 
 ## Was bedeutet „Aktivitätskonversionen“, wenn der Marketingexperte beim Setup einer Aktivität eine Analytics-Metrik auswählt? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +62,7 @@ Beachten Sie Folgendes:
 
 ![](assets/unspecified.png)
 
-In anderen Berichten bedeutet „Nicht angegeben“, dass Daten eine bestimmte Classification nicht erfüllt haben. Dies sollte jedoch in A4T nie passieren. Wenn Sie „Nicht angegeben“ angezeigt bekommen, wurde der Classifications-Service noch nicht ausgeführt. In der Regel dauert es zwischen 24 bis 72 Stunden, bis Aktivitätsdaten in den Berichten angezeigt werden. Obwohl die Aktivitäten erst zu diesem Zeitpunkt in diesem Bericht angezeigt werden, werden alle an diese Aktivitäten geknüpften Besucherdaten erfasst und nach dem Abschluss der Classification angezeigt.
+In anderen Berichten bedeutet „Nicht angegeben“, dass Daten eine bestimmte Classification nicht erfüllt haben. Dies sollte jedoch in A4T nie passieren. Wenn Sie „Nicht angegeben“ angezeigt bekommen, wurde der Classifications-Service noch nicht ausgeführt. In der Regel dauert es zwischen 24 und 72 Stunden, bis Aktivitätsdaten in den Berichten angezeigt werden. Obwohl die Aktivitäten erst zu diesem Zeitpunkt in diesem Bericht angezeigt werden, werden alle an diese Aktivitäten geknüpften Besucherdaten erfasst und nach dem Abschluss der Classification angezeigt.
 
 Nach dem Klassifizierungszeitraum werden Daten ca. eine Stunde nach Erfassung auf der Site in diesen Berichten angezeigt. Sämtliche Metriken, Segmente und Werte in den Berichten stammen aus der Berichtssuite, die Sie bei der Einrichtung der Aktivität ausgewählt haben.
 
@@ -110,7 +110,7 @@ Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und t�
 
 Da vor der Konversion beide Erlebnisse gesehen wurden, wird die Bestellung beiden „gutgeschrieben“. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für Target-Berichte ist es unerheblich, dass die Konversion allen Aktivitäten gutgeschrieben wird, die der Benutzer gesehen hat, weil dort keine Aktivitäten miteinander verglichen werden, um zu ermitteln, welche die erfolgreichere war. In diesen Berichten werden die Ergebnisse zweier Elemente innerhalb einer einzigen Aktivität verglichen. Ein Benutzer kann innerhalb derselben Aktivität keine unterschiedlichen Erlebnisse sehen, weshalb Sie sich über eine mögliche Kreuzkontamination bei der Zuschreibung der Bestellung keine Gedanken machen müssen.
 
-Weitere Informationen finden Sie in der Analytics-Hilfe unter [Konversionsvariablen (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html).
+For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## Warum berechnen Analytics und Analytics for Target (A4T) die Zahlen für die Metrik „Unique Visitors“ unterschiedlich? {#section_0C3B648AB54041F9A2AA839D51791883}
 
