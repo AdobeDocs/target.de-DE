@@ -9,7 +9,7 @@ title: Wichtige Target-Konzepte
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -50,7 +50,7 @@ Orte sind grundlegend für Aktivitäten und Erlebnisse. Sie entscheiden, ob ein 
 
 Bei [!DNL Target Standard] kann ein Ort ein beliebiges Element auf einer Seite sein, sofern die Seite eine einzelne Codezeile enthält, die [!DNL Target] im Abschnitt `<head>` jeder Seite aktiviert, die Sie verfolgen möchten. Diese Codezeile ruft die JavaScript-Bibliotheken auf, die für das Sammeln der Informationen und die Bereitstellung zielgerichteter Erlebnisse für Ihre Besucher erforderlich sind.
 
-See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) for more information about the differences between location implementation in [!DNL Target Standard] and the mbox implementation in [!DNL Target Classic].
+Weitere Informationen zu den Unterschieden zwischen der Implementierung von Orten in [!DNL Target Standard] und der Mbox-Implementierung in [!DNL Target Classic] finden Sie unter [Die Vorteile von at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 Standorte werden mit Zielgruppen kombiniert, um eine beinahe unendliche Anzahl von Optionen für die zielgerichtete Bereitstellung von Informationen für Ihre Kunden zur Verfügung zu stellen. So können Sie zum Beispiel einen Rabattcoupon für Neukunden einblenden, wenn ein Besucher die Site nie zuvor besucht hat. Gleichermaßen kann die Seite verändert werden, um Angebote anzuzeigen, die für wiederkehrende Kunden optimiert sind.
 
@@ -98,13 +98,13 @@ So können Sie beispielsweise eine Aktivität auf eine Zielgruppe ausrichten, di
 
 Sie können auch eine Aktivität auf Besucher aus einer bestimmten geografischen Region oder auf Personen, die über eine bestimmte Suchmaschine auf Ihre Seite zugreifen, ausrichten.
 
-Zielgruppen können für die Wiederverwendung in mehreren Aktivitäten gespeichert werden oder für eine bestimmte Aktivität erstellt werden.
+Zielgruppen können zur Wiederverwendung in verschiedenen Aktivitäten gespeichert oder für eine spezifische Aktivität erstellt werden.
 
 | Zielgruppentyp | Beschreibung |
 |--- |--- |
-| Wiederverwendbare Zielgruppen | Wiederverwendbare Zielgruppen können für jede Aktivität ausgewählt werden. Wird eine dieser Zielgruppen verändert, so wird sie für alle Aktivitäten verändert, die diese Zielgruppe verwenden. |
+| Wiederverwendbare Zielgruppen | Wiederverwendbare Zielgruppen können für beliebige Aktivitäten ausgewählt werden. Wird eine dieser Zielgruppen verändert, so wird sie für alle Aktivitäten verändert, die diese Zielgruppe verwenden. |
 | Benutzerdefinierte Segmente | Benutzerdefinierte Segmente (auch kampagnenspezifische Segmente) sind spezifisch für eine Kampagne in Target Classic. Sie werden als Teil der Kampagne erstellt und können nicht in anderen Kampagnen wiederverwendet werden. |
-| Freigegebene Zielgruppen | Zielgruppen können über [!DNL Adobe Experience Cloud]-Lösungen hinweg freigegeben werden. Beispiele finden Sie unter [Experience Cloud-Zielgruppen](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html). |
+| Freigegebene Zielgruppen | Zielgruppen können über [!DNL Adobe Experience Cloud]-Lösungen hinweg freigegeben werden. Beispiele finden Sie unter [Zielgruppen](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) . |
 
 Informationen darüber, wie das Besucherprofil Informationen über Besucher auf Ihrer Seite verfolgt, finden Sie unter [Besucherprofile](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
