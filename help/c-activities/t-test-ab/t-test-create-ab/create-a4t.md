@@ -7,7 +7,7 @@ solution: Target
 title: Verwenden von Analytics-Daten
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Sie können eine Aktivität in Target Standard erstellen, um Adobe Analytics als Berichtsquelle (A4T) zu verwenden.
 
-Detaillierte Informationen zur Einrichtung von Analytics als Datenquelle für Target finden Sie im Abschnitt [Adobe Analytics als Berichtsquelle für Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html).
+For detailed information about setting up Analytics as the data source for Target, see [Adobe Analytics as the Reporting Source for Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 Bevor Sie eine Aktivität einrichten, die Analytics als Berichtsquelle verwendet, müssen Sie das Ziel für die Aktivität festlegen, beispielsweise die Verbesserung des Umsatzes pro Besucher (RPV) oder die Erhöhung der Klicks auf Ihren Warenkorb. Wählen Sie eine finale Erfolgsmetrik für die Kampagne aus. Auch wenn Sie jederzeit zusätzliche Metriken in Analytics auswählen können, müssen Sie trotzdem eine bestimmte Metrik angeben, auf die dieser Test erwartungsgemäß Auswirkungen hat.
 
