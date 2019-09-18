@@ -1,33 +1,33 @@
 ---
-description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, der in Ihren Adobe Target-Aktivitäten verwendet werden kann.
+description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Adobe Target-Aktivitäten verwendet werden können.
 keywords: Profilskript; Profilskriptattribute; Best Practices für Profilskripte; debug; Debugging
-seo-description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, der in Ihren Adobe Target-Aktivitäten verwendet werden kann.
+seo-description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Adobe Target-Aktivitäten verwendet werden können.
 seo-title: Profilattribute in Adobe Target
 solution: Target
 title: Profilattribute
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
 
 # Profilattribute{#profile-attributes}
 
-Profilattribute sind Parameter, die für einen Besucher spezifisch sind. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, der in Ihren Aktivitäten verwendet werden kann.
+Profilattribute sind Parameter, die speziell für einen Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Aktivitäten verwendet werden können.
 
-Wenn ein Besucher Ihre Website durchsucht oder wenn der Besucher zu einer weiteren Sitzung zurückkehrt, können die gespeicherten Profilattribute verwendet werden, um Inhalte oder Protokollinformationen für die Segmentfilterung abzuzielen.
+Wenn ein Besucher auf Ihrer Website surft oder zu einer anderen Sitzung zurückkehrt, können die gespeicherten Profilattribute genutzt werden, um Zielinhalte festzulegen oder Informationen zur Segmentfilterung zu protokollieren.
 
 Klicken Sie zum Einrichten von Profilattributen auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Profilskripte]**.
 
-![Profilskripte, Registerkarte](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+![Registerkarte „Profilskripte“ ](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
 Die folgenden Typen von Profilattributen sind verfügbar:
 
 | Parametertyp | Beschreibung |
 |--- |--- |
-| mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Hinweis: Target erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an Target übergeben müssen, können Sie hierzu die API-Methode Profilupdate nutzen. Weitere Informationen finden Sie unter [Profilupdate in der Dokumentation zur Adobe Target-API](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Hinweis**: Target erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an Target übergeben müssen, können Sie hierzu die API-Methode Profilupdate nutzen. Weitere Informationen finden Sie unter [Profilupdate in der Dokumentation zur Adobe Target-API](http://developers.adobetarget.com/api/#updating-profiles). |
 | Skript | Direkt mit einem JavaScript-Codebeispiel definiert. Mit diesen können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte können bei jeder Mbox-Anfrage ausgeführt werden. Siehe Profilskriptattribute unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -54,7 +54,7 @@ Um ein vorhandenes Profilskript zu kopieren, halten Sie in der Liste [!UICONTROL
 
 Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
 
-![Profilskript erstellen, Dialogfeld](assets/profile-script.png)
+![Dialogfeld „Profilskript erstellen“](assets/profile-script.png)
 
 Profilskripte führen Profilattribut-„Fänger“ bei jeder Ortsanforderung aus. Beim Empfang einer Ortsanforderung bestimmt Target, welche Aktivität ausgeführt werden soll, und zeigt den für diese Aktivität und das Erlebnis geeigneten Inhalt an. Das Programm verfolgt den Erfolg der Aktivität und führt relevante Profilskripte aus. Auf diese Weise können Sie Informationen über den Besuch erfassen, z. B. Ort, Tageszeit und Anzahl der Besuche auf der Site, ob zuvor ein Kauf getätigt wurde usw. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können.
 
@@ -70,7 +70,7 @@ if (mbox.name == 'Track_Interest') {
 
 * Siehe Profilskriptattribute (auch das im Code enthaltene) im Code mit `user.get('parameterName')`.
 * Speichern Sie Variablen, die beim nächsten Ausführen des Skripts (bei der nächsten mbox-Anfrage) aufgerufen werden könnten, mit `user.setLocal('variable_name', 'value')`. Verweisen Sie auf die Variable mit `user.getLocal('variable_name')`. Dies ist hilfreich in Situationen, in denen Sie einen Verweis für Datum und Uhrzeit der letzten Anfrage setzen möchten.
-* Bei Parametern und Werten wird zwischen Groß- und Kleinschreibung unterschieden. Berücksichtigen Sie den Fall der Parameter und Werte, die Sie während der Aktivität oder des Tests empfangen werden.
+* Bei Parametern und Werten wird zwischen Groß- und Kleinschreibung unterschieden. Achten Sie auf die Groß- und Kleinschreibung der Parameter und Werte, die Sie während der Aktivität oder dem Test empfangen.
 * Weitere JavaScript-Syntax finden Sie im Abschnitt „JavaScript-Referenz für Skript-Profilparameter“.
 
 ## Anzeigen der Karten mit Profilskriptinformationen {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -81,11 +81,11 @@ Sie können beispielsweise auf folgende Karte mit Profilskriptinformationen zugr
 
 Die Registerkarte [!UICONTROL Skriptinformationen] enthält folgende Informationen: Name, Status, Token-Typ, Skript-ID, Änderungsprotokoll und Beschreibung.
 
-![Profilskript-Info-Karte](assets/profile_script_info_card.png)
+![Informationskarte „Profilskript“](assets/profile_script_info_card.png)
 
 Die Registerkarte [!UICONTROL Nutzung von Skripten] enthält die Aktivitäten (und ihre Arbeitsbereiche), die auf das ausgewählte Profilskript verweisen.
 
-![Profilskript-Info &gt; Registerkarte "Skriptnutzung «](assets/profile_script_info_card_usage_tab.png)
+![Informationskarte „Profilskript“ &gt; Registerkarte „Skriptnutzung“](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
@@ -125,7 +125,7 @@ Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verf
 * Halten Sie die Vorgabe von maximal 1.300 Zeichen bzw. 50 Schleifeniterationen ein.
 * Überschreiten Sie nicht die Maximalzahl von 2.000 JavaScript-Anweisungen. Target verfügt über einen Maximalwert von 2.000 JavaScript-Anweisungen pro Skript, die Anzahl kann jedoch nicht einfach durch manuelles Lesen des JavaScript bestimmt werden. Rhino beispielsweise behandelt alle Funktionsaufrufe und „neuen“ Aufrufe als 100 Anweisungen. Außerdem kann sich die Größe der eingegebenen Daten (beispielsweise der URL-Werte) auf die Anzahl der Anweisungen auswirken.
 * Berücksichtigen Sie nicht nur die individuelle Skriptperformance, sondern auch die Performance aller Skripte. Als Best Practice empfehlen wir insgesamt weniger als 5.000 Anweisungen. Sie müssen jedoch nicht die einzelnen Anweisungen zählen, sondern nur beachten, dass Skripte mit einer Größe von über 2 KB automatisch deaktiviert werden. Es gibt keine feste Grenze für die Anzahl ausgeführter Skripte, jedoch wird jedes Skript mit jedem einzelnen Mbox-Aufruf ausgeführt. Führen Sie also nur so viele Skripte aus wie nötig.
-* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. Die Skriptausführung kann unterbrochen werden, wenn ein solches Regex mit langen Eingabedaten übereinstimmt (was so niedrig wie mehrere Hundert Zeichen sein kann).
+* In einem Regex, mit Punkt-Stern am Anfang (z. B.: `/.*match/`, `/a|.*b/`) wird fast nie gebraucht. Die regex-Suche beginnt an allen Positionen in einer Zeichenfolge (es sei denn, sie ist mit gebunden), daher wird der Punkt-Stern bereits angenommen. `^` Die Skriptausführung kann unterbrochen werden, wenn ein solcher Regex mit ausreichend langen Eingabedaten (die bis zu mehreren hundert Zeichen umfassen können) übereinstimmt.
 * Schlägt alles fehl, verpacken Sie das Skript in einer try/catch-Anweisung.
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
@@ -149,7 +149,7 @@ Zur Einteilung von Besuchern in Gruppen, denen unterschiedliche Aktivitäten ang
 ```
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number < = 49) { 
+    if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
         return 'GroupB'; 
@@ -180,11 +180,11 @@ Zum Erstellen von vier Gruppen verwenden Sie z. B. folgendes JavaScript:
 ```
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number < = 24) { 
+    if (ran_number <= 24) { 
         return 'GroupA'; 
-    } else if (ran_number < = 49) { 
+    } else if (ran_number <= 49) { 
         return 'GroupB'; 
-    } else if (ran_number < = 74) { 
+    } else if (ran_number <= 74) { 
         return 'GroupC'; 
     } else { 
         return 'GroupD'; 
@@ -207,9 +207,9 @@ Zur Aufteilung der Besucher in drei gleiche Gruppen verwenden Sie beispielsweise
 ```
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
-    if (ran_number < = 32.33) { 
+    if (ran_number <= 32.33) { 
         return 'GroupA'; 
-    } else if (ran_number < = 65.66) { 
+    } else if (ran_number <= 65.66) { 
         return 'GroupB'; 
     } else { 
         return 'GroupC'; 
