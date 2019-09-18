@@ -1,14 +1,14 @@
 ---
 description: Verwenden Sie die Vorschau für mobile Apps, um mühelos eine ganzheitliche Qualitätssicherung für Aktivitäten von mobilen Apps durchzuführen und sich ohne spezielle Prüfmittel direkt auf Ihrem Gerät für verschiedene Erlebnisse anzumelden.
-keywords: qa; Vorschau; Vorschau-Link; mobile; mobile Vorschau
+keywords: qa;Vorschau;Vorschau-Link;Mobil;Mobil-Vorschau
 seo-description: Verwenden Sie die Vorschau für mobile Apps, um mühelos eine ganzheitliche Qualitätssicherung für Aktivitäten von mobilen Apps durchzuführen und sich ohne spezielle Prüfmittel direkt auf Ihrem Gerät für verschiedene Erlebnisse anzumelden.
-seo-title: Verwenden des mobilen Vorschaulinks in Adobe Target Mobile
+seo-title: Verwenden des Links zur mobilen Vorschau in Adobe Target Mobile
 solution: Target
 title: Mobile Target-Vorschau
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -31,8 +31,8 @@ Mit der mobilen Vorschaufunktionalität können Sie Aktivitäten in Ihrer mobile
 
    Eine Anleitung zum Herunterladen des erforderlichen SDK finden Sie unter:
 
-   * **iOS:**[Vorbereitung](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) im Handbuch zu *iOS-SDK 4.x für Experience Cloud-Lösungen*.
-   * **Android:**[Vorbereitung](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*im Handbuch zu Android-SDK 4.x für Experience Cloud-Lösungen.*
+   * **** iOS: [Bevor Sie mit](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) der Hilfe zu *Mobile Services beginnen*.
+   * **** Android: [Bevor Sie mit](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) der Hilfe zu *Mobile Services beginnen*.
 
 1. **URL-Schema einrichten:** Der Vorschau-Link öffnet Ihre App über ein URL-Schema. Sie müssen ein einzigartiges URL-Schema für die Vorschau festlegen.
 
