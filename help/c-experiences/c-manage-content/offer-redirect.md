@@ -1,14 +1,14 @@
 ---
 description: Bei Umleitungsangeboten wird der Browser zu einer neuen Seite umgeleitet.
 keywords: Umleitungsangebot;Umleitungsangebote erstellen;HTML-Angebot hinzufügen;alle URL-Parameter bei der Umleitung übermitteln;mboxSessionId bei der Umleitung übermitteln (nur erforderlich, wenn eine Umleitung auf eine andere Domäne erfolgt)
-seo-description: Informationen über Umleitungsangebote in Adobe Target, die dazu führen, dass ein Browser zu einer neuen Seite weitergeleitet wird.
+seo-description: Informationen zu Umleitungsangeboten in Adobe Target, die dazu führen, dass ein Browser zu einer neuen Seite umgeleitet wird.
 seo-title: Erstellen von Umleitungsangeboten
 solution: Target
 title: Erstellen von Umleitungsangeboten
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -62,7 +62,7 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 
-* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) und der Target-Inhaltsbibliothek
+* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) und der Target-Inhaltsbibliothek
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 
