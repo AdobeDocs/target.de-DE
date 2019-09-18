@@ -9,7 +9,7 @@ title: Verfahren für die Datenübernahme in Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -54,7 +54,7 @@ Die Daten werden in Echtzeit an Target gesendet und können bei demselben Server
 * Wenn die Daten für das Targeting bei einem nachfolgenden Seiten-/Server-Aufruf verwendet werden sollen, müssen sie in ein Profilskript übersetzt werden.
 * Abfragezeichenfolgen dürfen nur Zeichen des [IETF-Standards](https://www.ietf.org/rfc/rfc3986.txt) (Internet Engineering Task Force) enthalten .
 
-   Zusätzlich zu den auf der IETF-Site erwähnten Zeichen lässt Target folgende Zeichen in Abfragezeichenfolgen zu:
+   Zusätzlich zu den auf der IETF-Site aufgeführten Zeichen erlaubt Target auch folgende Zeichen in Abfragezeichenfolgen:
 
    `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
@@ -336,8 +336,8 @@ Erfordert die Implementierung von Experience Cloud ID (ECID).
 
 ### Beispiele für Codes
 
-Details finden Sie in [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) .
+Details can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### Links zu relevanten Informationen
 
-[Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
