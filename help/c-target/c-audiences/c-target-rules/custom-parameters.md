@@ -8,7 +8,7 @@ title: Benutzerdefinierte Parameter
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 Benutzerdefinierte Parameter sind Mbox-Parameter. Wenn Sie Mbox-Parameter an Mboxes übergeben oder die Funktion „targetPageParams“ verwenden, werden diese Parameter hier angezeigt und können in Zielgruppen verwendet werden.
 
-Weitere Informationen finden Sie im Abschnitt [Übergeben von Parameter an eine globale mbox](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html).
+For more information, see [Pass parameters to a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
 
 Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhalten Sie von `mboxParameter`mboxParameter keine Aufforderung mehr, `mboxName` einzugeben. Der Mbox-Name ist nun optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde.
 
@@ -52,7 +52,7 @@ Die [Popupkarte mit Definitionsdetails](../../../c-target/c-audiences/audiences.
 
 ## Zu beachten {#considerations}
 
-* Zielgruppen und Aktivitäten werden für eine spezifische mbox ausgewertet. Wenn die globale Mbox beispielsweise einen bestimmten Parameter übergibt, die regionale Mbox jedoch nicht, wird die Aktivität/Zielgruppe, die diesen Parameter enthält, nicht für die regionale Mbox qualifiziert.
+* Zielgruppen und Aktivitäten werden für eine bestimmte Mbox ausgewertet. Wenn die globale Mbox beispielsweise einen bestimmten Parameter übergibt, die regionale Mbox dies jedoch nicht tut, wird das Targeting der Aktivität/Zielgruppe für diesen Parameter in der regionalen Mbox nicht qualifiziert.
 
 ## Schulungsvideo: Erstellen von Zielgruppen
 
