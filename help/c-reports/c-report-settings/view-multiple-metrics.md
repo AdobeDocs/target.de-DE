@@ -1,14 +1,14 @@
 ---
 description: Auswählen mehrerer Metriken für die Anzeige in einem Bericht.
 keywords: Target; Berichte; Berichtseinstellungen; mehrere Metriken; Metriken
-seo-description: Auswählen mehrerer Metriken für die Anzeige in einem Bericht.
-seo-title: Anzeigen mehrerer Metriken in einem Bericht
+seo-description: Wählen Sie mehrere Metriken aus, die in einem Bericht mit Adobe Target angezeigt werden sollen.
+seo-title: Mehrere Metriken in einem Bericht mit Adobe Target anzeigen
 solution: Target
 title: Anzeigen mehrerer Metriken in einem Bericht
 topic: Premium
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
@@ -19,9 +19,9 @@ Auswählen mehrerer Metriken für die Anzeige in einem Bericht.
 
 Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Informationen:
 
-* Die Möglichkeit, mehrere Metriken anzuzeigen, ist nur für A/B- und Experience Targeting (XT)-Aktivitäten verfügbar.
-* Sie können für eine Aktivität, bei der Analytics for Target (A4T) verwendet wird, einem Bericht maximal 20 Metriken hinzufügen. Berichten für Aktivitäten, die A4T nicht verwenden, können Sie so viele Metriken hinzufügen, wie in Ihrer Aktivität vorhanden sind.
-* Wenn Sie mehrere Metriken ausgewählt haben, können Sie die Option [!UICONTROL Download] nicht zum Herunterladen von Berichten in CSV verwenden. Zum Aktivieren der Option [!UICONTROL Download] dürfen Sie nur eine einzelne Metrik auswählen.
+* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
+* You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
+* Wenn Sie mehrere Metriken ausgewählt haben, können Sie die Option [](/help/c-reports/downloading-data-in-csv-file.md)Download nicht zum Herunterladen von Berichten in CSV verwenden. Zum Aktivieren der Option [!UICONTROL Download] dürfen Sie nur eine einzelne Metrik auswählen.
 * Für Aktivitäten, die vor der Target-Version vom Juli 2015 erstellt wurden (30. Juli 2015), können Sie nicht mehrere Metriken anzeigen.
 
 **So wählen Sie mehrere Metriken für die Anzeige im Bericht aus:**
@@ -46,17 +46,13 @@ Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Info
    Sie können die Metriken neu anordnen, indem Sie sie per Drag-and-drop in der Liste [!UICONTROL Angezeigte Metriken] in die gewünschte Reihenfolge bringen. Die ausgewählte Reihenfolge spiegelt sich in der Tabellenansicht und der Diagrammansicht wider. Wenn Sie eine Metrik aus der Liste [!UICONTROL Angezeigte Metriken] entfernen möchten, bewegen Sie Ihren Mauszeiger über die Metrik und klicken Sie dann auf das **X**-Symbol.
 
 1. Klicken Sie auf **[!UICONTROL Speichern], wenn Sie fertig sind.**
-1. Während Sie den Bericht in der Tabellenansicht anzeigen, bewegen Sie Ihren Mauszeiger auf die Spaltenüberschrift einer beliebigen Metrik, um einen blauen Pfeil anzuzeigen. Klicken Sie auf den Pfeil, um die Tabelle zu erweitern und [!UICONTROL Lift] und [!UICONTROL Vertrauen] für die jeweilige Metrik anzuzeigen.
+1. (Bedingt) Bewegen Sie beim Anzeigen des Berichts in der Tabellenansicht den Mauszeiger über die Spaltenüberschrift einer Metrik, um einen blauen Pfeil anzuzeigen. Klicken Sie auf den Pfeil, um die Tabelle zu erweitern und [!UICONTROL Lift] und [!UICONTROL Vertrauen] für die jeweilige Metrik anzuzeigen.
 
    ![](assets/multiple_metrics_table.png)
 
    Sie können nur jeweils eine Metrik/Spalte erweitern. Klicken Sie erneut auf den Pfeil, um die Spalten zu reduzieren.
 
-1. Beim Anzeigen des Berichts in der Diagrammansicht können Sie in der Dropdownliste einzelne Metriken für die Anzeige auswählen:
+1. (Bedingt) Während Sie den Bericht in der Diagrammansicht anzeigen, können Sie einzelne Metriken auswählen, die in der Dropdownliste angezeigt werden sollen:
 
    ![](assets/multiple_metrics_graph.png)
-
-   Gleichermaßen erscheint beim Anzeigen des Berichts in der Diagrammansicht die Umsatzdimension als Dropdownliste:
-
-   ![](assets/muttiple_revenue.png)
 
