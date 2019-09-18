@@ -8,7 +8,7 @@ title: Target-Versionshinweise (aktuell)
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -21,7 +21,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 | Funktion / Verbesserung | Beschreibung |
 | --- | --- |
-| ![Premium-Badge](/help/assets/premium.png) Enterprise-Berechtigungen | Mit der Version von Target September 2019 stehen Kunden die folgenden Zugriffssteuerungsmöglichkeiten zur Verfügung:<UL><li>Sie können die Arbeitsflächen auswählen, auf die die Integration angewendet werden kann.</li><li>Sie können eine Rolle auf die Integration von Adobe I/O anwenden: Genehmigende Person, Editor oder Beobachter.</li></ul>Schrittweise Anweisungen und weitere Informationen finden Sie unter [Gewähren von Adobe I/O-Integrationen auf Arbeitsflächen und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Premium-Zeichen](/help/assets/premium.png) für Unternehmen | Mit der Version Target September 2019 bieten Enterprise Permissions Kunden die folgenden Zugriffssteuerungen:<UL><li>Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet werden kann.</li><li>Sie können eine Rolle auf die Adobe I/O-Integration anwenden: Genehmiger, Editor oder Beobachter.</li></ul>Eine schrittweise Anleitung und weitere Informationen finden Sie unter Zugriff auf Arbeitsbereiche und Rollen [durch Adobe-E/A-Integrationen zuweisen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ## Dokumentationsänderungen, historische Versionshinweise und Experience Cloud-Versionshinweise {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
@@ -31,7 +31,7 @@ Neben den Hinweisen für jede Version bieten die folgenden Ressourcen zusätzlic
 |--- |--- |
 | Dokumentationsänderungen | Zeigen Sie detaillierte Informationen zu Aktualisierungen in diesem Benutzerhandbuch an, die möglicherweise nicht in den Versionshinweisen enthalten sind.<br>Weitere Informationen finden Sie unter [Dokumentationsänderungen](../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C). |
 | Versionshinweise für vorherige Versionen | Lesen Sie sich Informationen zu neuen Funktionen und Verbesserungen älterer Versionen von Target Standard und Target Premium durch.<br>Weitere Informationen finden Sie unter [Versionshinweise für frühere Versionen](../r-release-notes/release-notes-for-previous-releases.md). |
-| Adobe Experience Cloud-Versionshinweise | Zeigen Sie die aktuellen Versionshinweise für die Adobe Experience Cloud-Lösungen an.<br>Weitere Informationen finden Sie unter [Experience Cloud-Versionshinweise](https://marketing.adobe.com/resources/help/en_US/whatsnew/). |
+| Adobe Experience Cloud-Versionshinweise | Zeigen Sie die aktuellen Versionshinweise für die Adobe Experience Cloud-Lösungen an.<br>Weitere Informationen finden Sie unter [Experience Cloud-Versionshinweise](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html). |
 
 ## Informationen vor der Versionsveröffentlichung {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
