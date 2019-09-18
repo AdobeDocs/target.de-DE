@@ -4,7 +4,7 @@ audience: Endbenutzer
 user-guide-title: Adobe Target-Hilfe
 user-guide-url: /content/help/de-DE/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + Berechtigungen für Unternehmensbenutzer {#enterprise}
          + [Berechtigungen für Unternehmensbenutzer](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Konfigurieren von Unternehmensberechtigungen](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Gewähren Sie den Adobe I/O Integrationen Zugriff auf Arbeitsbereiche und weisen Sie Rollen zu.](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [Gewähren Sie Adobe-I/O-Integrationen Zugriff auf Arbeitsbereiche und weisen Sie Rollen zu](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Integration von Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Antwort-Token](administrating-target/response-tokens.md)
@@ -53,11 +53,11 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + [Vorbereiten der Target-Implementierung](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Datenschutz und Sicherheit {#privacy}
          + [Datenschutz – Überblick](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Datenschutz und Datenschutz](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Datenschutzbestimmungen](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Löschen des Target-Cookies](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [SameSite-Cookie-Richtlinien von Google Chrome](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [Content Security Policy (CSP)-Anweisungen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [Richtlinien zur Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + Verfahren für die Datenübernahme in Target {#methods}
          + [Methoden](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profil-API-Einstellungen](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -167,6 +167,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
          + [Metrikdefinitionen – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [Überhöhte Besuchs- und Besucherzahlen – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [Classifications – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
+         + [Freigabe von Metriken, Zielgruppen und Berichten – Häufig gestellte Fragen zu A4T](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Alte Integration von SiteCatalyst in Test&amp;Target - Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud Audiences](c-integrating-target-with-mac/mmp.md)
@@ -276,7 +277,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + [Profilattribute](c-target/c-visitor-profile/profile-parameters.md)
       + [Kategorieaffinität](c-target/c-visitor-profile/category-affinity.md)
       + [Kundenattribute](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Profilsynchronisierung in Echtzeit für mbox 3 rdpartyid](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Profilsynchronisierung in Echtzeit für mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
       + [Nützliche Variablen, Profile, Parameter und Methoden](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Häufig gestellte Fragen zu Zielen und Zielgruppen {#faq-audiences}
       + [Häufig gestellte Fragen zu Zielen und Zielgruppen](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
