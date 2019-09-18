@@ -8,7 +8,7 @@ title: Ziele und Einstellungen
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -23,7 +23,7 @@ Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zie
 
 Welche Einstellungen verfügbar sind, hängt davon ab, ob Sie [!DNL Target] oder [!DNL Analytics] als Datenquelle verwenden.
 
-![Seite "Aktivitätseinstellungen «](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
+![Seite „Aktivitätseinstellungen“](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
 
 ## Aktivitätseinstellungen {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -64,7 +64,7 @@ Die folgenden Einstellungen sind verfügbar:
 
 ### Berichterstellungslösung
 
-Geben Sie an, ob die Daten von Adobe Target oder Adobe Analytics erfasst werden. Informationen über die Unterschiede zwischen den Berichterstellungslösungen und deren jeweilige Vorteile finden Sie unter [Adobe Analytics als Berichterstellungsquelle für Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html).
+Geben Sie an, ob die Daten von Adobe Target oder Adobe Analytics erfasst werden. Informationen über die Unterschiede zwischen den Berichterstellungslösungen und deren jeweilige Vorteile finden Sie unter [Adobe Analytics als Berichterstellungsquelle für Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 Wenn Sie Analytics als Berichtsquelle für Target auswählen, wählen Sie eine Analytics-Report Suite, um Target-Aktivitätsdaten zu empfangen. Wählen Sie dazu zunächst ein Analytics-Unternehmen aus, an das Ihr Konto gebunden ist, und wählen Sie anschließend die der Aktivität entsprechende Report Suite aus. Es stehen nur Report Suites, die für die Verbindung mit Adobe Target bereitgestellt werden, zur Auswahl zur Verfügung. Wenn nicht die erwarteten Report Suites angezeigt werden, versuchen Sie, sich bei Adobe Experience Cloud ab- und dann wieder anzumelden, und wiederholen Sie den Vorgang. Wenn die Report Suite weiterhin nicht in der Liste zu finden ist, wenden Sie sich an den Kundendienst.
 
@@ -122,7 +122,7 @@ Die folgenden Einstellungen sind verfügbar:
 
 ### Welche Erfolgsmetrik muss erreicht werden, bevor diese Metrik erhöht wird?
 
-Verwenden Sie diese Option, um die Erfolgsmetrik nur dann als erreicht zu werten, wenn jemand vorher bereits eine andere Erfolgsmetrik erreicht hat. Eine Testkonversion kann beispielsweise nur gültig sein, wenn der Besucher auf das Angebot klickt oder auf eine bestimmte Seite gelangt, bevor er konvertiert wird.
+Verwenden Sie diese Option, um die Erfolgsmetrik nur dann als erreicht zu werten, wenn jemand vorher bereits eine andere Erfolgsmetrik erreicht hat. So kann eine Testkonversion nur dann gültig sein, wenn der Besucher das Angebot anklickt oder auf eine bestimmte Seite gelangt, bevor die Konversion erfolgt.
 
 Sie können für mehrere Metriken eine Abhängigkeit bereitstellen und die flexible Auswahl ermöglichen, ob die Metrik erreicht werden soll oder nicht, damit sich die Anzahl erhöht.
 
@@ -133,13 +133,13 @@ Mithilfe der Option Abhängigkeit hinzufügen kann die Erfolgsmetrik inkrementie
 So fügen Sie eine Abhängigkeit hinzu:
 
 1. Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf **[!UICONTROL Erweiterte Einstellungen]**.
-2. Click **[!UICONTROL Add Dependency]**:
+2. Klicken Sie auf **[!UICONTROL Abhängigkeit hinzufügen]**:
 
-   ![Abhängigkeitslink hinzufügen](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
+   ![Option „Abhängigkeit hinzufügen“](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. Verschieben Sie die gewünschte Metrik per Drag-and-drop vom linken Bereich in den rechten Bereich. Klicken Sie dann auf Erreicht, um die Einstellung zwischen Erreicht und Nicht erreicht zu wechseln.
 
-   ![Metrikabhängigkeitsabhängigkeiten hinzufügen](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
+   ![Abhängigkeits-Dialogfenster „Metriken hinzufügen“](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
 
 Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben.
 
