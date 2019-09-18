@@ -9,7 +9,7 @@ title: Adobe Analytics als Berichtsquelle für Adobe Target (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -53,7 +53,7 @@ Wenn Sie über einen Einsatz von A4T nachdenken, sollten Sie die folgenden Punkt
 * Bei der Verwendung von Analytics als Berichtsquelle ist nur eine einzige Mbox-basierte Metrik erlaubt.
 * Bei einem Server-zu-Server-Aufruf von Target zu Analytics werden Aktivitäts- und Erlebnisinformationen an Analytics gesendet. Durch diese Integration werden keine zusätzlichen Server-Aufrufe für Target oder Analytics getätigt.
 
-   In einigen Situationen kann der Classification-Aufruf von Target zu Analytics fehlschlagen und die Aktivitäten zeigen keine Daten in Analytics an. In diesem Fall finden [Sie Informationen zu Fehlerbehebung für die Integration von Analytics und Target (A 4 T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können sich auch [an den Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) wenden, um weitere Hilfe zu erhalten.
+   In bestimmten Situationen schlägt der Classification-Aufruf von Target an Analytics möglicherweise fehl und Aktivitäten zeigen keine Daten in Analytics an. In diesem Fall finden Sie unter [Fehlerbehebung bei der Integration von Analytics und Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können sich auch an den Kundendienst [wenden](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) , um weitere Hilfe zu erhalten.
 
 ## Unterstützte Aktivitätstypen {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -68,7 +68,7 @@ Die folgende Tabelle zeigt, welche Aktivitätstypen von Analytics als Berichtsqu
 | Multivarianz-Tests (MVT) | Ja | Erfordert, dass die Mbox-basierte Zielmetrik den Bericht „Elementbeitrag“ abruft.  Der Bericht „Elementbeitrag“ unterstützt derzeit keine Analytics-Metriken. |
 | AP-Aktivität (Automatisierte Personalisierung) | Nein |  |
 | Recommendations-Aktivität | Ja |  |
-| Mobile App | Ja | Wird unterstützt mit dem Mobile Services SDK, Version 4.13.1 (oder neuer).  Weitere Informationen finden Sie in der [Dokumentation zu Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/). |
+| Mobile App | Ja | Wird unterstützt mit dem Mobile Services SDK, Version 4.13.1 (oder neuer).  Weitere Informationen finden Sie in der [Dokumentation zu Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html). |
 | E-Mail | Nein |  |
 | API für serverseitige Bereitstellung | Ja | Weitere Informationen finden Sie unter [Serverseitig: Target implementieren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | NodeJS-SDK | Ja | Weitere Informationen finden Sie unter [Serverseitig: Target implementieren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
@@ -130,4 +130,4 @@ Dieses Video ist eine Aufzeichnung von [Office Hours](../../cmp-resources-and-co
 * Erfahren Sie, welche Berichte Sie in Analytics am besten verwenden
 * Antworten auf häufige Fragen zu A4T
 
-[Analytics/Target-Integration (A 4 T) Bürostunden](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Ambulanzstunden für die Analytics/Target-Integration (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
