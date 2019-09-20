@@ -1,6 +1,6 @@
 ---
 description: 'Informationen zur Funktion adobe.target.getOffers() für at.js. '
-keywords: adobe. target. getoffers; Getoffers; getoffers; Angebote abrufen; at. js; Funktionen; function
+keywords: adobe.target.getOffers;getOffers;get-Angebote;at.js;Funktionen;Funktion
 seo-description: Informationen über die Funktion adobe.target.getOffers(options) für die JavaScript-Bibliothek von Adobe Target at.js.
 seo-title: Informationen über die Funktion adobe.target.getOffers() für die JavaScript-Bibliothek von Adobe Target at.js.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 
 ---
 
@@ -24,7 +24,7 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 | Schlüssel | Typ | Erforderlich? | Beschreibung |
 | --- | --- | --- | --- |
 | consumerId | Zeichenfolge | Nein | Der Standardwert ist die globale Mbox des Kunden, falls nicht angegeben. Dieser Schlüssel wird verwendet, um die ID für zusätzliche Daten zu generieren, die für die A4T-Integration verwendet wird. Dieser Schlüssel ist eine eindeutige Zeichenfolge pro Besucher. |
-| Anfrage | Objekt | Ja | Siehe Anfragetabelle unten. |
+| Anfrage | Objekt | Ja | Siehe Anforderungstabelle unten. |
 | Zeitüberschreitung | Nummer | Nein | Zeitüberschreitung der Anfrage. Wenn nicht angegeben, wird die standardmäßige at.js-Zeitüberschreitung verwendet. |
 
 ## Anfrage
@@ -33,9 +33,9 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 | --- | --- | --- | --- |
 | Anfrage &gt; ID | Nein |  | Entweder `tntId`, `thirdPartyId` oder `marketingCloudVisitorId` wird benötigt. |
 | Anfrage &gt; ID &gt; thirdPartyId | Nein | Maximale Größe = 128 |  |  |
-| Anforderung &gt; experiencecloud | Nein |  |  |
-| Anforderung &gt; experiencecloud &gt; Analyse | Nein |  | Integration von Adobe Analytics |
-| Anforderung &gt; experiencecloud &gt; Analytics &gt; Protokollierung | Nein | Folgendes muss auf der Seite implementiert werden:<ul><li>Besucher-ID-Service</li><li>Appmeasurement. js</li></ul> | Die folgenden Werte werden unterstützt:<br>**client_ side**: Wenn angegeben, wird eine Analytics-Nutzlast an den Aufrufer zurückgegeben, der über die Dateneinfüge-API an Adobe Analytics gesendet werden soll.<br>**server_ side**: Dies ist der Standardwert, mit dem der Target- und Analytics-Back-Backend die SDID zum Zusammenführen der Aufrufe für Berichterstellungszwecke verwendet. |
+| Request &gt; experienceCloud | Nein |  |  |
+| Request &gt; experienceCloud &gt; analytics | Nein |  | Adobe Analytics-Integration |
+| Request &gt; experienceCloud &gt; analytics &gt; logging | Nein | Folgendes muss auf der Seite implementiert werden:<ul><li>Besucher-ID-Service</li><li>Appmeasurement.js</li></ul> | Die folgenden Werte werden unterstützt:<br>**client_side**: Wenn dieser Wert spezifiziert ist, wird eine Analytics-Nutzlast an den Aufrufer zurückgegeben, die über die Dateneinfüge-API an Adobe Analytics gesendet werden soll.<br>**server_side**: Dies ist der Standardwert, bei dem das Target- und Analytics-Backend die SDID zum Zusammenführen der Aufrufe für das Reporting verwendet. |
 | Anfrage &gt; Vorab abrufen | Nein |  |  |
 | Anfrage &gt; Vorab abrufen &gt; Ansichten | Nein | Maximale Anzahl = 50<br>Name nicht leer<br>Länge des Namens `<=` 128<br>Länge des Wertes `<=` 5.000<br>Name sollte nicht mit „Profil“ beginnen<br>Unzulässige Namen: „orderId“, „orderTotal“, „productPurchasedId“ | Parameter übergeben, die zum Aufrufen relevanter Ansichten in aktiven Aktivitäten verwendet werden können. |
 | Anfrage &gt; Vorab abrufen &gt; Ansichten &gt; profileParameters | Nein | Maximale Anzahl = 50<br>Name nicht leer<br>Länge des Namens `<=` 128<br>Länge des Wertes `<=` 5.000<br>Name sollte nicht mit „Profil“ beginnen | Profilparameter übergeben, die zum Aufrufen relevanter Ansichten in aktiven Aktivitäten verwendet werden können. |
@@ -74,8 +74,9 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 
 ```
 adobe.target.getOffers({
-    prefetch: {
-      views: []
+    request: {
+      prefetch: {
+        views: []
     }
   }
 });
@@ -129,7 +130,7 @@ adobe.target.getOffers({
 });
 ```
 
-## Rufen Sie getoffers () auf, die Analytics-Nutzlast von Clientseite abzurufen.
+## Benutzen Sie getOffers(), um die Analytics-Nutzlast von der Clientseite abzurufen.
 
 ```
 adobe.target.getOffers({
@@ -181,7 +182,7 @@ adobe.target.getOffers({
 }
 ```
 
-Die Nutzlast kann dann über die [Dateneinfüge-API an Adobe Analytics weitergeleitet](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)werden.
+Die Nutzlast kann dann über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)an Adobe Analytics weitergeleitet werden.
 
 ## Daten aus mehreren Mboxes über getOffers() und applyOffers() abrufen und rendern {#multiple}
 
