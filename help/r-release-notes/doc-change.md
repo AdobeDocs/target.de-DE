@@ -1,14 +1,14 @@
 ---
 description: Auf dieser Seite sind wichtige Änderungen an der Target-Dokumentation aufgeführt.
 keywords: Änderungsprotokoll für Target-Dokumentation; Aktualisierungen der Dokumentation
-seo-description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Dokumentation aufgelistet.
-seo-title: Dokumentationsänderungen in der Adobe Target-Produktdokumentation.
+seo-description: This page lists important changes made to the Adobe Target documentation.
+seo-title: Documentation changes in the Adobe Target product documentation.
 solution: Target
 title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
+source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ---
 
@@ -21,17 +21,19 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| September 24, 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Das Datum der Target/Standard-Version 19.2.1 wurde auf den 30. September 2019 geändert. |
+|  | [Recommendations als Angebot](/help/c-recommendations/recommendations-as-an-offer.md) | Ein Schulungsvideo wurde hinzugefügt. |
 | 10. September 2019 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version Target Standard/Premium 19.9.1 hinzugefügt. |
-| 9. September 2019 | [AEM-Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Abschnitt "Überlegungen"hinzugefügt. |
-|  | [SameSite-Cookie-Richtlinien von Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Der Text für das gesamte Thema wurde aktualisiert. |
+| 9. September 2019 | [AEM-Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Added "Considerations" section. |
+|  | [SameSite-Cookie-Richtlinien von Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Updated text for entire topic. |
 |  | [Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Neues Thema |
 | 6. September 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Version Target Standard/Premium 19.9.1 (10. September 2019) hinzugefügt. |
 |  | [Häufig gestellte Fragen zu Target für mobile Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Neues Thema |
 | 4. September 2019 | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das Thema wurde aktualisiert. |
-| 23. August 2019 | [Mobile Target-Vorschau](/help/c-target-mobile-app/target-mobile-preview.md) | Codefragment in aktualisiert `AndroidManifest.xml`. |
-| 22. August 2019 | [Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Informationen zur Verwendung unzulässiger Zeichen in mobilen App-IDs wurden entfernt. Es gibt keine Einschränkungen mehr. |
+| 23. August 2019 | [Mobile Target-Vorschau](/help/c-target-mobile-app/target-mobile-preview.md) | Updated code snippet in .`AndroidManifest.xml` |
+| 22. August 2019 | [Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Removed information about using prohibited characters in mobile app IDs. There are no longer restrictions. |
 |  | [Benutzerdefinierte Parameter](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Neuer Abschnitt hinzugefügt: "Überlegungen." |
-|  | [Hochladen benutzerdefinierter Kriterien](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Folgender Satz wurde aktualisiert: Aktualisierungen benutzerdefinierter Kriterien sind standardmäßig "kumulativ". Neue Schlüssel-Wert-Paare, die in der CSV-Uploaddatei angegeben werden, überschreiben bestehende Schlüssel-Wert-Paare. Bestehende Schlüssel-Wert-Paare, für die keine Schlüssel im CSV-Upload angegeben wurden, stehen weiterhin zur Verfügung und laufen 31 Tage nach dem letzten Hochladen als Teil der CSV-Datei ab. |
+|  | [Hochladen benutzerdefinierter Kriterien](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Updated following sentence: Custom criteria updates are by default "cumulative." Neue Schlüssel-Wert-Paare, die in der CSV-Uploaddatei angegeben werden, überschreiben bestehende Schlüssel-Wert-Paare. Existing key-value pairs that don't have keys specified in the CSV upload will still be available for delivery and will expire in 31 days from the time they are last uploaded as part of the CSV file. |
 | 20. August 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Target/Premium-Version 19.8.1 wurde verschoben (20. August 2019). Inhalte dieser Version werden in die Version 19.9.1 (24. September 2019) aufgenommen. |
 |  | [Häufig gestellte Fragen: Entwürfe](/help/c-recommendations/c-design-overview/template-faq.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: "Beim Preis meines empfohlenen Artikels werden nicht beide Werte rechts neben dem Dezimalpunkt angezeigt. Wie kann ich sie anzeigen?" |
 | 16. August 2019 | [Echtzeit-Profilsynchronisation für mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Neuer Abschnitt hinzugefügt: "Überlegungen." |
@@ -64,16 +66,16 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 |  | [Kriterien erstellen](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Es wurde ein Hinweis zu kürzlich angezeigten Elementen hinzugefügt. |
 |  | [Bekannte gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Bekanntes Problem mit den Vorschau-Links zur Aktivitätsüberprüfung wurde hinzugefügt. |
 | 29. Juli 2019 | [Häufig gestellte Fragen zum Reporting](/help/c-reports/reporting-frequently-asked-questions.md) | Neue FAQs hinzugefügt: "Warum enthalten meine [!UICONTROL Erlebnis-Targeting] -Berichte Metriken für Kontrollerlebnisse?" |
-| 24. Juli 2019 | [Aktualisierung von "at.js 1.*x* "auf "at.js 2.*x"*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Neuer Abschnitt hinzugefügt: Unterstützung [domänenübergreifender Verfolgung in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+| 24. Juli 2019 | [Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Neuer Abschnitt hinzugefügt: Unterstützung [domänenübergreifender Verfolgung in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Neues Thema |
 |  | [Recommendations als Angebot](/help/c-recommendations/recommendations-as-an-offer.md#status) | Neuer Abschnitt hinzugefügt: "Ansicht des Status des Recommendations-Angebots." |
-|  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Die Zeile "Elemente importieren"wurde aktualisiert und die Zeile "Feed *zum Zeitpunkt* erfolgreich importiert"wurde unter [Feed-Status](/help/c-recommendations/c-products/feeds.md#status)hinzugefügt. |
-|  | [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md) | Der Text zur Aktualisierung des Katalogs wurde aktualisiert. |
-|  | [Einrichten des Klick-Trackings im Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Es wurden Informationen zum Bereich "Änderungen"hinzugefügt, das Elemente anzeigt, die Sie für die Klick-Verfolgung eingerichtet haben. |
-|  | [Funktionsweise von Adobe Target](/help/c-intro/how-target-works.md#bots) | Neuer Abschnitt hinzugefügt: "Bots." |
-|  | [Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md#best) | Es wurden Best Practices hinzugefügt, um eine langsame Regex-Ausführung zu vermeiden. |
-|  | [Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | Der Abschnitt "Fehlerbehebung"wurde dahingehend aktualisiert, dass die Zeichenbeschränkungen nicht mehr für App-Namen gelten. Die Einschränkungen gelten nur für IDs. |
-|  | [Feeds](/help/c-recommendations/c-products/feeds.md#steps) | Den Schritten wurden unterstützte FTP-Servereinstellungen hinzugefügt. |
+|  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Updated "Importing Items" row and added "Feed Imported Successfully at time" row under Feed Statuses.**[](/help/c-recommendations/c-products/feeds.md#status) |
+|  | [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md) | Updated text about how the catalog is refreshed. |
+|  | [Einrichten des Klick-Trackings im Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Added information about the Modifications panel that shows elements you have set up for click-tracking. |
+|  | [Funktionsweise von Adobe Target](/help/c-intro/how-target-works.md#bots) | Added new section: "Bots." |
+|  | [Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md#best) | Added best practices to avoid slow regex execution. |
+|  | [Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | Updated the Troubleshooting section to reflect that the character restrictions no longer apply to app names. The restrictions apply to IDs only. |
+|  | [Feeds](/help/c-recommendations/c-products/feeds.md#steps) | Added supported FTP server settings to steps. |
 |  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen über die at.js-Version 2.1.1 hinzugefügt. |
 |  | [Versionshinweise](/help/r-release-notes/release-notes.md): 19.7.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
