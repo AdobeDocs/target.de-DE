@@ -8,7 +8,7 @@ title: Empfehlungen als Angebot
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ---
 
@@ -34,7 +34,7 @@ Als erstes erstellen Sie eine [!UICONTROL A/B-Test]- oder [!UICONTROL Erlebnis-T
    >
    >Denken Sie bei A/B-Tests daran, dass Sie die Option [Automatisierte Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) wählen können, um Traffic automatisch an die leistungsschwächsten Empfehlungen oder die Option [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md) zu leiten, um Besuchern benutzerspezifische Empfehlungserlebnisse basierend auf ihrem Profil zuzuweisen.
 
-1. While creating an [experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, select the **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace With]** action, then select [!UICONTROL Recommendation].
+1. Klicken Sie beim Erstellen eines [Erlebnisses](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) auf das Element, dem Sie eine Empfehlung hinzufügen möchten, und wählen Sie die Aktion **[!UICONTROL Einfügen vor]**, **[!UICONTROL Einfügen nach]** oder **[!UICONTROL Ersetzen mit]** und danach [!UICONTROL Empfehlung] aus.
 
    Die folgende Abbildung zeigt die Option [!UICONTROL Einfügen nach &gt; Empfehlung].
 
@@ -72,7 +72,7 @@ Sie haben zwei Möglichkeiten, um die Konfiguration eines Angebots zu bearbeiten
 
 1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![Recommendations-Angebot bearbeiten](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![Empfehlungsangebot bearbeiten](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. Wählen Sie aus den folgenden Optionen:
 
@@ -112,12 +112,16 @@ Es gibt zwei Möglichkeiten, ein Empfehlungsangebot zu löschen:
 
    ![Symbol „Löschen“](/help/c-recommendations/assets/recs-offer-delete.png)
 
-### Viewing the recommendations offer's status {#status}
+### Status des Recommendations-Angebots anzeigen {#status}
 
 The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
 
-* Bereitgestellte Ergebnisse
-* Ergebnisse nicht bereit
+* Ergebnisse bereit
+* Ergebnisse nicht verfügbar
 * Feed-Fehler
 
-![Recommendations-Angebotsstatus](/help/c-recommendations/assets/recs-offer-status.png)
+![Recommendations offer status](/help/c-recommendations/assets/recs-offer-status.png)
+
+## Training video: Recommendations as an offer
+
+>[!VIDEO](https://video.tv.adobe.com/v/28878?captions=ger)
