@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
+source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
 
 ---
 
@@ -120,7 +120,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
 ## Geschätzte Verarbeitungszeit für Kriterien {#process-time}
 
-Nach dem Speichern eines Kriteriums werden Empfehlungen [!DNL Target] berechnet. Diese Berechnung dauert etwas länger, und der Zeitrahmen unterscheidet sich je nach ausgewählter Empfehlungslogik, Datenbereich, Anzahl der Elemente in Ihrem Katalog, Menge der von Ihren Kunden generierten Verhaltensdaten und ausgewählter verhaltensbezogener Datenquelle. Die verhaltensbasierte Datenquelle hat den größten Einfluss auf die Verarbeitungszeit:
+Nach dem Speichern einer Aktivität, die ein Kriterium enthält, werden Empfehlungen basierend auf der ausgewählten Sammlung und den ausgewählten Kriterien [!DNL Target] berechnet. Diese Berechnung dauert etwas länger, und der Zeitrahmen unterscheidet sich je nach ausgewählter Empfehlungslogik, Datenbereich, Anzahl der Elemente in Ihrem Katalog, Menge der von Ihren Kunden generierten Verhaltensdaten und ausgewählter verhaltensbezogener Datenquelle. Die verhaltensbasierte Datenquelle hat den größten Einfluss auf die Verarbeitungszeit:
 
 ### Mboxes arbeiten
 
