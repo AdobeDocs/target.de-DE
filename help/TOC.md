@@ -4,7 +4,7 @@ audience: Endbenutzer
 user-guide-title: Adobe Target-Hilfe
 user-guide-url: /content/help/de-DE/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
       + Berechtigungen für Unternehmensbenutzer {#enterprise}
          + [Berechtigungen für Unternehmensbenutzer](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Konfigurieren von Unternehmensberechtigungen](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Gewähren Sie Adobe-I/O-Integrationen Zugriff auf Arbeitsbereiche und weisen Sie Rollen zu](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [Grant Adobe I/O integrations access to workspaces and assign roles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Integration von Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Antwort-Token](administrating-target/response-tokens.md)
@@ -51,9 +51,9 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
    + Vor der Implementierung {#before-implement}
       + [Vor der Implementierung](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Vorbereiten der Target-Implementierung](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + Datenschutz und Sicherheit {#privacy}
+      + Privacy and security {#privacy}
          + [Datenschutz – Überblick](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Datenschutzbestimmungen](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Privacy and data protection regulations](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Löschen des Target-Cookies](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [SameSite-Cookie-Richtlinien von Google Chrome](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
@@ -137,10 +137,11 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
          + [Android – Einrichten der App](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS – Einrichten der App](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Einrichten des Klick-Trackings im Mobile VEC](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [Häufig gestellte Fragen zu Target für mobile Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + Server-seitig: Target-Implementierung {#server-side}
       + [Versionshinweise - APIs und SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Server-seitig: Target-Implementierung – Überblick](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
+      + [Funktionskennzeichnung](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md)
       + [Übergang von Target-Legacy-APIs zu Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + E-Mail: Target-Implementierung {#implement-email}
       + [E-Mail: Target-Implementierung – Überblick ](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
@@ -278,7 +279,7 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
       + [Profilattribute](c-target/c-visitor-profile/profile-parameters.md)
       + [Kategorieaffinität](c-target/c-visitor-profile/category-affinity.md)
       + [Kundenattribute](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Profilsynchronisierung in Echtzeit für mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Real-time profile syncing for mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
       + [Nützliche Variablen, Profile, Parameter und Methoden](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Häufig gestellte Fragen zu Zielen und Zielgruppen {#faq-audiences}
       + [Häufig gestellte Fragen zu Zielen und Zielgruppen](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
