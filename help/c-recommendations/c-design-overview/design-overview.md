@@ -8,7 +8,7 @@ title: Designübersicht
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -91,7 +91,7 @@ Das folgende Beispiel zeigt, wie JSON-Antworten zurückgesendet werden können, 
 | Parameter | Wert |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target-Clientcode (verfügbar unter ../target/products.html#recsSettings &gt; Recommendations API Token &gt; Client Code. |
-| `[YOUR_MBOX_NAME]` | Der Name, den Sie im Abschnitt „Speicherorte“ der formularbasierten Recommendations gewählt haben, in diesem Fall YOUR_CLIENT_CODE |
+| `[YOUR_MBOX_NAME]` | Der Name, den Sie im Abschnitt "Orte"der formularbasierten Empfehlungen ausgewählt haben, in diesem Fall Sample_Recs_Response. |
 | `[ENTITY_ID`] | Die `entity.id` eines Artikels in Ihrem Katalog |
 | `[AT_PROPERTY_TOKEN]` | (Optional) Fügen Sie dies hinzu, wenn Sie bei der Einrichtung Ihrer Aktivität eine Eigenschaft (Teil der Unternehmensberechtigungen) ausgewählt haben. |
 
