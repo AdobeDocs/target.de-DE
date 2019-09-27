@@ -1,14 +1,14 @@
 ---
 description: Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
-keywords: bekannte Probleme; gelöste Probleme; Versionshinweise
-seo-description: Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
-seo-title: Bekannte Probleme und gelöste Probleme in Adobe Target
+keywords: bekannte Probleme; gelöste Probleme; Versionshinweise;Fehler;Probleme;Fehlerbehebungen
+seo-description: Informationen zu bekannten Problemen in dieser Version von Adobe Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
+seo-title: Bekannte Probleme und gelöste Probleme  in Adobe Target
 solution: Target
 title: Bekannte Probleme und gelöste Probleme
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -23,11 +23,11 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 
 ## Bekannte Probleme {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
-Die folgenden Abschnitte führen zu bekannten Problemen zu [!DNL Target]:
+Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
-### Vorschau-Links zur AktivitätsQS {#preview}
+### Vorschaulinks für Aktivitäts-QAs {#preview}
 
-[Die Vorschau](/help/c-activities/c-activity-qa/activity-qa.md) -Links zur Aktivitätsüberprüfung für gespeicherte Aktivitäten werden möglicherweise nicht geladen, wenn Ihr Konto zu viele gespeicherte Aktivitäten enthält. Das erneute Testen der Vorschau-Links sollte funktionieren. Um zu verhindern, dass dies weiterhin geschieht, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv genutzt werden. (TNT-32697)
+[Vorschaulinks für Aktivitäts-QAs](/help/c-activities/c-activity-qa/activity-qa.md) werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Ein erneuter Versuch mit den Vorschau-Links sollte das Problem lösen. Um dieses Problem zu verhindern, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden. (TNT-32697)
 
 ### Umleitungsangebote {#redirect}
 
@@ -124,7 +124,7 @@ Wenn bekannte Probleme behoben sind, werden sie in die folgenden Abschnitte vers
 
 * Recommendations-Feed-Index kann „Warten auf Index“ anzeigen, wenn die Elemente im Feed mit denen im vorherigen Schritt übereinstimmen. Die Produkterfassung für die Bereitstellung wird nicht beeinträchtigt. (RECS-6663)
 
-   Dieses Problem wurde in der Target-Version 19.4.2 behoben.
+   Dieses Problem wurde in Target-Version 19.4.2 behoben.
 
 * Recommendations-Feeds werden langsamer verarbeitet als erwartet. (COR-2836)
 
@@ -159,7 +159,7 @@ Mboxes werden in Microsoft Explorer 11-Browsern nicht ausgelöst, nachdem ein U
 
 Mit der Veröffentlichung von API 2.3.0 oder höher behoben.
 
-### Geo Targeting
+### Geo  Targeting
 
 Die Suche nach Zeichenfolgen, die Sonderzeichen enthalten (wie z. B. Leerzeichen oder Komma), wird bei der Erstellung von Geotargeting-Zielgruppen derzeit nicht unterstützt. Das Problem tritt beispielsweise auf, wenn Sie Zielgruppen basierend auf Städten, Bundesländern, Ländern usw. erstellen. Wenn Sie z. B. „New York“ eingeben, werden keine gültigen Suchergebnisse zurückgegeben.
 
