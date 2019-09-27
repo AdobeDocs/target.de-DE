@@ -8,7 +8,7 @@ title: Automatische Zuordnung
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -47,7 +47,7 @@ Mit der automatisierten Zuordnung werden neue Besucher auf vernünftige Weise de
 * Verwenden Sie einen standardmäßigen **[A/B-Test](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**, wenn Sie die Leistung aller Erlebnisse vor der Optimierung Ihrer Site charakterisieren möchten. Ein A/B-Test hilft Ihnen dabei, alle Ihre Erlebnisse in einer Reihenfolge zu ordnen, während die automatisierte Traffic-Zuordnung Spitzenreiter findet, jedoch keine Differenzierung unter den weniger leistungsstarken Erlebnissen garantiert.
 * Verwenden Sie [Automatisierte Personalisierung](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9), wenn Sie Optimierungsalgorithmen mit höchster Komplexität wünschen, zum Beispiel Modelle für maschinelles Lernen, die Vorhersagen auf der Basis von individuellen Profilattributen aufbauen. Die automatisierte Traffic-Zuordnung betrachtet das zusammentreffende Verhalten von Erlebnissen (wie A/B-Standardtests) und unterscheidet nicht zwischen den Besuchern.
 
-## Wesentliche Vorteile {#section_0913BF06F73C4794862561388BBDDFF0}
+## Wesentliche Vorteile  {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Behält die Genauigkeit eines A/B-Tests bei
 * Ermittelt einen statistisch bedeutenden Sieger schneller als mit manuellen A/B-Tests
@@ -171,7 +171,7 @@ Derzeit bevorzugt die Logik Besucher, die schnell konvertieren oder die Site hä
 
 **Kann ich den Rechner für die Stichprobengröße verwenden, wenn ich die automatisierte Zuordnung nutze, um zu schätzen, wie lange die Aktivität brauchen wird, um den Gewinner zu identifizieren?**
 
-Sie können den vorhandenen [Rechner für die Stichprobengröße](https://docs.adobe.com/content/target-microsite/testcalculator.html) mit einer passend angewendeten Bonferroni-Korrektur verwenden, um eine Schätzung der Laufzeit des Tests zu erhalten. Bei unseren Experimenten haben wir festgestellt, dass die automatisierte Zuordnungsaktivität wesentlich früher endet, als diese Stichprobengröße.
+Sie können den vorhandenen [Rechner für die Stichprobengröße](https://docs.adobe.com/content/target-microsite/testcalculator.html) mit einer passend angewendeten Bonferroni-Korrektur verwenden, um eine Schätzung der Laufzeit des Tests zu erhalten. Die Verwendung des Rechners für eine Aktivität mit automatisierter Zuordnung ist optional, da die automatisierte Zuordnung einen Gewinner für Sie festlegt. Der Rechner gibt Ihnen eine grobe Schätzung der benötigten Stichprobengröße. Bei unseren Experimenten haben wir festgestellt, dass die automatisierte Zuordnungsaktivität wesentlich früher endet, als diese Stichprobengröße.
 
 **Sollte ich ein leistungsschwaches Erlebnis aus einer Aktivität mit automatischer Zuordnung entfernen, um einen Gewinner zu bestimmen?**
 
