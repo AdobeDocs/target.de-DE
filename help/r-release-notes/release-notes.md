@@ -1,6 +1,6 @@
 ---
 description: Diese Versionshinweise enthalten Informationen zu Funktionen, Erweiterungen, Fehlerbehebungen und bekannten Problemen in jeder Target Standard- und Target Premium-Version.
-keywords: Versionshinweise; Vorabversion
+keywords: Versionshinweise;Neue Funktionen;Updates;Update;Version;Verbesserung;Erweiterungen;Fehlerbehebungen;Fehlerbehebungen
 seo-description: Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen, Fehlerbehebungen und bekannten Problemen für jede Adobe Target Standard- und Target Premium-Version.
 seo-title: Adobe Target-Versionshinweise (aktuell)
 solution: Target
@@ -8,7 +8,7 @@ title: Target-Versionshinweise (aktuell)
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -19,9 +19,9 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 ## Target Standard/Premium 19.9.1 (10. September 2019)
 
-| Funktion / Verbesserung | Beschreibung |
+| Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
-| ![Premium-Zeichen](/help/assets/premium.png) für Unternehmen | Mit der Version Target September 2019 bieten Enterprise Permissions Kunden die folgenden Zugriffssteuerungen:<UL><li>Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet werden kann.</li><li>Sie können eine Rolle auf die Adobe I/O-Integration anwenden: Genehmiger, Editor oder Beobachter.</li></ul>Eine schrittweise Anleitung und weitere Informationen finden Sie unter Zugriff auf Arbeitsbereiche und Rollen [durch Adobe-E/A-Integrationen zuweisen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Premium-Zeichen](/help/assets/premium.png) für Unternehmen | Mit der Version Target September 2019 bieten Enterprise Permissions Kunden die folgenden Zugriffssteuerungen:<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>Sie können der Adobe I/O-Integration eine Rolle zuweisen: Genehmiger, Bearbeiter oder Beobachter.</li></ul>Schrittweise Anleitungen und weitere Informationen finden Sie unter [Gewähren von Zugriff von Adobe I/O Integrationen auf Arbeitsbereiche und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ## Dokumentationsänderungen, historische Versionshinweise und Experience Cloud-Versionshinweise {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
