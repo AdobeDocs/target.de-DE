@@ -7,7 +7,7 @@ solution: Target
 title: Wie lange sollten A/B-Tests laufen?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -34,9 +34,9 @@ Target bietet Tools, mit denen Sie sicherstellen können, dass Ihre Aktivität e
 
    Weitere Informationen finden Sie unter [Automatische Zuordnung](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-* **Target-Stichprobengrößenrechner:** Wenn Sie statt der automatischen Zuordnung manuelle A/B-Tests durchführen wollen, können Sie mit dem Target-Stichprobengrößenrechner die für einen erfolgreichen Test erforderliche Stichprobengröße bestimmen. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
+* **Target-Stichprobengrößenrechner:** Wenn Sie statt der automatischen Zuordnung manuelle A/B-Tests durchführen wollen, können Sie mit dem Target-Stichprobengrößenrechner die für einen erfolgreichen Test erforderliche Stichprobengröße bestimmen. Ein manueller A/B-Test ist ein fester Horizonttest, daher ist der Rechner äußerst hilfreich. Die Verwendung des Rechners für eine Aktivität mit automatisierter Zuordnung ist optional, da die automatisierte Zuordnung einen Gewinner für Sie festlegt. Der Rechner gibt Ihnen eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
-## Adobe Target-Stichprobengrößenrechner {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe Target-Stichprobengrößenrechner  {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
@@ -130,7 +130,7 @@ Es gibt einen Trade-off zwischen der durch den Test zuverlässig ermittelbaren M
 
 In diesem Beispiel könnten Sie entscheiden, dass die Möglichkeit, eine Steigerung von 5 % (die einer Konversionsrate des alternativen Angebots von (100 % + 5 %) x 5 % = 5,25 % entspricht) bei 80 von 100 Tests zu ermitteln, angemessen ist. Sie benötigen daher eine Stichprobengröße von 100.000 Besuchern für jedes Angebot. Wenn die Site pro Tag 20.000 Besucher aufweist und Sie zwei Angebote testen, muss der Test über 2 x 100.000/20.000 = 10 Tage ausgeführt werden, bevor sich ermitteln lässt, ob das Alternativangebot dem Kontrollangebot statistisch signifikant überlegen ist. Auch hier wird in jedem Fall empfohlen, die erforderliche Zeit auf eine ganze Woche aufzurunden, um Wochentagseffekte zu vermeiden. In diesem Beispiel würde der Test vor der Auswertung der Ergebnisse über zwei Wochen ausgeführt werden.
 
-## Umsatz-pro-Besuch-Metrik {#section_C704C0861C9B4641AB02E911648D2DC2}
+## Umsatz-pro-Besuch-Metrik  {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Bei Nutzung des Umsatzes pro Besuch (Revenue per Visit - RPV) als Metrik wird eine weitere Streuungsquelle hinzugefügt, da RPV das Produkt aus Umsatz pro Bestellung und Konversionsrate ist (RPV = Umsatz / Anzahl der Besucher = (Umsatz pro Bestellung x Anzahl der Bestellungen) / Anzahl der Besucher = Umsatz pro Bestellung x (Anzahl der Besucher x CTR) / Anzahl der Besucher = Umsatz pro Bestellung x CTR), mit der jeweils eigenen Varianz. Die Varianz der Konversionsrate kann mithilfe eines mathematischen Modells unmittelbar geschätzt werden, die Varianz von Umsatz pro Bestellung hängt jedoch von der Kampagne ab. Daher sollten Sie Ihr Wissen über diese Varianz aus früheren Kampagnen nutzen oder für die Dauer von ein paar Tagen einen A/B-Test durchführen, um die Varianz des Umsatzes zu schätzen. Die Varianz wird aus den Werten für Summe der Verkäufe, Summe der Verkäufe im Quadrat sowie Anzahl der Benutzer berechnet, die in der herunterladbaren CSV-Datei zu finden sind. Sobald diese ermittelt ist, verwenden Sie die Tabelle, um die erforderliche Zeit zur Durchführung des Tests zu berechnen.
 
@@ -150,7 +150,7 @@ Im Allgemeinen dauert es bei der Verwendung von RPV als Metrik um 20 bis 30 Proz
 
 Jedes Mal, wenn Sie zwei Angebote vergleichen, entspricht die Wahrscheinlichkeit eines Falsch-Positiv-Werts (Beobachtung eines statistisch signifikanten Unterschieds, auch wenn es keinen Unterschied bei der Konversionsrate gibt) dem Signifikanzniveau. Wenn zum Beispiel fünf Angebote A/B/C/D/E vorliegen und es sich bei A um das Kontrollangebot handelt, werden vier Vergleiche vorgenommen (Kontrolle zu B, Kontrolle zu C, Kontrolle zu D und Kontrolle zu E) und die Wahrscheinlichkeit eines Falsch-Positiv-Werts beträgt 18,5 %, selbst wenn das Konfidenzniveau 95 % beträgt, da Pr (mindestens ein Falsch-Positiv-Wert) = 1 - Pr (keine Falsch-Positiv-Werte) = 1 - 0,95 = 18,5 %. Als Falsch-Positiv-Wert gilt in diesem Zusammenhang, wenn der Kontrollwert besser als die Alternative bzw. wenn die Alternative besser als der Kontrollwert ausfällt, auch wenn es tatsächlich keinen Unterschied zwischen diesen Werten gibt.
 
-## Schlussfolgerung {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Schlussfolgerung  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
 Durch Verwendung einer Aktivität mit automatischer Zuordnung ermittelt Target einen Gewinner unter zwei oder mehr Erlebnissen und ordnet dem Gewinnererlebnis automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird. Mit der automatischen Zuordnung erreichen Sie Ihre Konversionsziele ohne Aufwand und Ungewissheit.
 
