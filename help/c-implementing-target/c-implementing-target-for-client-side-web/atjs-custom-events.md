@@ -1,6 +1,6 @@
 ---
 description: 'Informationen zu benutzerdefinierten Ereignissen für at.js. '
-keywords: Benutzerdefinierte Ereignisse;at.js;Anforderung fehlgeschlagen;Anforderung erfolgreich;Inhaltswiedergabe fehlgeschlagen;Inhaltswiedergabe erfolgreich;Bibliothek geladen;Anforderungsstart;Inhaltswiedergabe starten;Inhaltswiedergabe ohne Angebote;Inhaltswiedergabe
+keywords: benutzerspezifische Ereignisse; at.js; Anforderung fehlgeschlagen; Anforderung erfolgreich; Inhalt-Rendering fehlgeschlagen; Erfolgreiches Rendering von Inhalten; Bibliothek geladen; Request starten; Start des Inhalts-Rendervorgangs; kein Content Rendering von Angeboten; Redirect von Inhalts-Rendering
 seo-description: Informationen zu benutzerdefinierten Ereignissen für die JavaScript-Bibliothek von Adobe Target at.js
 seo-title: Informationen zu benutzerdefinierten Ereignissen für die JavaScript-Bibliothek von Adobe Target at.js
 solution: Target
