@@ -1,6 +1,6 @@
 ---
 description: Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ablauf anderer Aktivitätstypen.
-keywords: automatisierte Personalisierung;Zielgruppen;Ensemble;Random Forest;Restschwankung;Fehlerschwankung;Lebenszeitwert
+keywords: Automatisierte Personalisierung;Zielgruppen;Ensemble;Random Forest;Restschwankung;Fehlerschwankung;Lebenszeitwert
 seo-description: Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ablauf anderer Aktivitätstypen.
 seo-title: Erstellen einer Automated Personalization-Aktivität
 solution: Target
@@ -23,21 +23,21 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    ![Aktivität erstellen: Automatisierte Personalisierung](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. Klicken Sie zum Verwenden von Visual Experience Composer (VEC) auf **[!UICONTROL Visuell (Standard)]**.
+1. Klicken Sie zum Verwenden vom Visual Experience Composer (VEC) auf **[!UICONTROL Visuell (Standard)]**.
 
-   ![Dialogfeld "Automatisierte Personalisierung" erstellen](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
+   ![Dialogfeld zum Erstellen einer automatisierten Personalisierung](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular aus]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   Wenn Sie den formularbasierten Experience Composer bevorzugen, wählen Sie [!UICONTROL Formular] aus. Weitere Informationen finden Sie unter [Formularbasierter Experience Composer](/help/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
-   >Zusätzlich zum VEC und Form-Based Experience Composer bietet Target die Einzelseitenanwendung VEC und VEC für mobile Apps an. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Zusätzlich zum VEC und zum formularbasierten Experience Composer bietet Target den VEC für Einzelseitenanwendungen und den VEC für Mobile Apps. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
    >
-   >Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >Informationen zur Problembehebung für den VEC finden Sie unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
+   >Die Option [!UICONTROL „Arbeitsplatz auswählen“] in der obigen Abbildung ist eine Funktion von [Target Premium](/help/c-intro/intro.md). Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
 
-1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Abhängig von Ihrer Lizenz) Wenn Sie Target Premium-Kunde sind, [wählen Sie einen Arbeitsbereich](/help/administrating-target/c-user-management/property-channel/property-channel.md) aus.
 
 1. Überprüfen Sie die Aktivitäts-URL bzw. geben Sie sie ein und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
@@ -64,33 +64,33 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
    | - | Minus |
    | @ | At-Zeichen |
 
-1. Modify page elements as explained in [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Die Seitenelemente können Sie wie im Abschnitt zu den [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) beschrieben ändern.
 
    Sie können aus dem Asset-Manager mehrere Bilder auf einmal auswählen. Dies ermöglicht Ihnen, sich die Seite mit jedem der für die Aktivität konfigurierten Bilder schnell anzusehen. Sie können auch einfach Textelemente in Ihren Angeboten bearbeiten. Wenn Sie ein Element bearbeiten, werden Balken darauf eingeblendet, um darauf hinzuweisen, dass Sie Änderungen vorgenommen haben.
 
 1. Klicken Sie auf **[!UICONTROL Inhalt verwalten]**, um die verfügbaren Kombinationen zu konfigurieren.
 
-   ![Inhalt verwalten, Option](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![Option „Inhalt verwalten“](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
    Oben auf dem Bildschirm wird ein Dialogfeld mit drei Optionen angezeigt: „Erlebnisse“, „Angebote“ und „Ausschlussgruppen“.
 
-   ![Inhaltsverwaltung, Dialogfeld](/help/c-activities/t-automated-personalization/assets/ap_content-new.png)
+   ![Dialogfeld „Inhalt verwalten“](/help/c-activities/t-automated-personalization/assets/ap_content-new.png)
 
    >[!NOTE]
    >
    >Obwohl Sie bis zu 30.000 Erlebnisse in einer AP-Aktivität erstellen können, funktionieren die Aktivitäten am besten, wenn weniger als 5.000 Erlebnisse verwendet werden.
 
-   Die Liste [!UICONTROL Erlebnisse] zeigt jedes für die Aktivität ausgewählte Inhaltselement und den Ort, dem diese zugeordnet ist.
+   Die Liste [!UICONTROL Erlebnisse] zeigt jedes für die Aktivität ausgewählte Inhaltselement und den Ort, dem diese Aktivität zugeordnet ist.
 
-   Sie können spezifische Erlebnisse ausschließen, indem mit dem Mauszeiger über das gewünschte Erlebnis fahren und dann auf das Ausschlusssymbol klicken.
+   Sie können spezifische Erlebnisse ausschließen, indem Sie den Mauszeiger über das gewünschte Erlebnis bewegen und dann auf das Ausschlusssymbol klicken.
 
-   ![Symbol zum Ausschließen des Symbols](/help/c-activities/t-automated-personalization/assets/icon-exclude.png)
+   ![Symbol zum Ausschließen](/help/c-activities/t-automated-personalization/assets/icon-exclude.png)
 
-   Sie können Erlebnisse auswählen/schließen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann auf das Ausschließen-Symbol in der oberen rechten Ecke des Dialogfelds klicken.
+   Sie können Erlebnisse in einem Batch-Vorgang ausschließen/einschließen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann in der oberen rechten Ecke des Dialogfelds auf das Ausschließen-Symbol klicken.
 
-   ![Optionen für das Ausschließen von Stapeln](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
+   ![Optionen für den Batch-Vorgang zum Ausschließen](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
-   You can filter this list view to see only excluded or only included activities by clicking the **Status** drop-down list.
+   Sie können diese Listenansicht so filtern, dass nur ausgeschlossene oder nur eingeschlossene Aktivitäten angezeigt werden. Klicken Sie dazu auf die Dropdownliste **Status**.
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Angebote]**, um Inhalte auszuwählen und sie den richtigen Berichtsgruppen zuzuweisen oder per Targeting nur bestimmten Besuchern die Anzeige bestimmter Angebote zu ermöglichen.
 
@@ -98,11 +98,11 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    Mit der Liste [!UICONTROL Standort] können Sie Angebote nach Standort filtern. Mit der Liste [!UICONTROL Berichtsgruppe] können Sie Angebote nach Berichtsgruppe filtern. Sie können die Liste [!UICONTROL Berichtsgruppe] auch verwenden, um [!UICONTROL nicht zugewiesenen Angeboten] zu filtern und so ein Angebot, dem bisher noch keine Berichtsgruppe zugewiesen wurde, einer beliebigen Gruppe zuzuweisen.
 
-   Sie können einer Berichtsgruppe spezifische Erlebnisse hinzufügen, indem Sie den Mauszeiger über das gewünschte Angebot bewegen und dann auf das Ordnersymbol klicken.
+   Sie können bestimmte Erlebnisse zu einer Berichtsgruppe hinzufügen, indem Sie den Mauszeiger über das gewünschte Angebot bewegen und auf das Ordnersymbol klicken.
 
-   ![Hover-Symbol des Ordners](/help/c-activities/t-automated-personalization/assets/icon-folder.png)
+   ![Ordnersymbol](/help/c-activities/t-automated-personalization/assets/icon-folder.png)
 
-   Sie können Erlebnisse in eine Berichtsgruppe einbeziehen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann in der rechten oberen Ecke des Dialogfelds auf die Schaltfläche "Berichtsgruppe" klicken.
+   Sie können Erlebnisse in einem Batch-Vorgang zu einer Berichtsgruppe hinzufügen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann oben rechts im Dialogfeld auf das Berichtsgruppen-Ordnersymbol klicken.
 
    ![Optionen für Berichtsgruppen](/help/c-activities/t-automated-personalization/assets/report-group-options.png)
 
@@ -110,9 +110,9 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    Weitere Informationen zum Targeting eines Angebots für bestimmte Zielgruppen erhalten Sie unter [Target-AP-Angebote](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Ausschlussgruppen]**, um beliebige Kombinationen der Elemente auszuwählen, die Sie aus der Aktivität ausschließen möchten.
+1. (Abhängig von Ihrer Lizenz) Klicken Sie auf **[!UICONTROL Ausschlussgruppen]**, um beliebige Kombinationen der Elemente auszuwählen, die Sie aus der Aktivität ausschließen möchten.
 
-   ![Ausschlussgruppen, Registerkarte "Inhalt verwalten «](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
+   ![Registerkarte mit Ausschlussgruppen im Dialogfeld „Inhalt verwalten“](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
    Obwohl Sie bis zu 30.000 Erlebnisse in einem AP-Test erstellen können, funktionieren die Algorithmen am besten, wenn weniger als 10.000 eindeutige Erlebnisse verwendet werden.
 
@@ -120,7 +120,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    Bewegen Sie zum Bearbeiten einer vorhandenen Ausschlussgruppe den Mauszeiger über die Gruppe, die Sie bearbeiten möchten, und klicken Sie dann auf das Stiftsymbol.
 
-1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
+1. Klicken Sie auf **[!UICONTROL Fertig]**, wenn Sie die Einrichtung des Inhalts Ihrer Aktivität abgeschlossen haben.
 
 1. Der **Targeting**-Schritt wird Ihnen vertraut vorkommen, wenn Sie andere Target-Aktivitätstypen verwendet haben. Hier können Sie eine Zielgruppe auswählen und den Prozentsatz der Besucher angeben, denen das Kontrollerlebnis angezeigt wird. Klicken Sie dazu auf die Dropdownliste **[!UICONTROL Zuordnung anpassen]** und klicken Sie dann auf **Weiter**.
 
@@ -128,11 +128,11 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    ![Dropdown-Liste für die Traffic-Zuordnung](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **Personalisierungsalgorithmus auswerten (50/50):** Wenn Sie den Algorithmus testen möchten, sollten Sie eine 50/50-Prozentaufteilung der Besucher zwischen dem Kontroll- und dem Zielalgorithmus verwenden. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung. Für die Verwendung mit "Random Experiences" als Steuerelement vorgeschlagen.
-   * **Personalisierungs-Datenverkehr maximieren (90/10):** Wenn Sie eine „Always on“-Aktivität erstellen möchten, sollten Sie 10 % der Besucher in den Kontrollbereich versetzen, um sicherzustellen, dass ausreichend Daten vorhanden sind, damit die Algorithmen mit der Zeit weiterhin lernen werden können. Beachten Sie, dass das Personalisieren einer größeren Traffic-Menge zur Folge hat, dass die Bestimmung der exakten Steigerung weniger präzise ist. Unabhängig von Ihrem Ziel ist dies die empfohlene Traffic-Aufteilung, wenn ein bestimmtes Erlebnis als Steuerung verwendet wird.
+   * **Personalisierungsalgorithmus auswerten (50/50):** Wenn Sie den Algorithmus testen möchten, sollten Sie eine 50/50-Prozentaufteilung der Besucher zwischen dem Kontroll- und dem Zielalgorithmus verwenden. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung. Für die Verwendung mit „zufällige Erlebnisse“ als Kontrolle empfohlen.
+   * **Personalisierungs-Traffic maximieren (90/10):** Wenn Sie eine „Always on“-Aktivität erstellen möchten, sollten Sie 10 % der Besucher in den Kontrollbereich versetzen, um sicherzustellen, dass ausreichend Daten vorhanden sind, damit die Algorithmen mit der Zeit weiterhin lernen können. Beachten Sie, dass das Personalisieren einer größeren Traffic-Menge zur Folge hat, dass die Bestimmung der exakten Steigerung weniger präzise ist. Unabhängig von Ihrem Ziel ist dies die empfohlene Traffic-Aufteilung, wenn ein bestimmtes Erlebnis als Kontrolle verwendet wird.
    * **Zuordnung anpassen:** Teilen Sie den Prozentsatz nach Bedarf manuell auf.
 
-1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
+1. (Abhängig von Ihrer Lizenz) Wählen Sie aus der Dropdownliste [!UICONTROL Kontrolle] ein [spezifisches Erlebnis aus, das als Kontrolle verwendet werden soll, ](/help/c-activities/t-automated-personalization/experience-as-control.md)oder wählen Sie [!UICONTROL Zufälliges Erlebnis] aus.
 
    Das Kontrollerlebnis liefert einen Vergleich, um zu ermitteln, welche Steigerung der automatisierte Test ermöglicht.
 
@@ -142,7 +142,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
    >
    >In automatisierten Personalisierungsaktivitäten werden nun Eingabekriterien (URL-Targeting, Vorlagenregeln und Zielgruppen-Targeting) für jede Abfrage ausgewertet. In älteren Versionen wurden Eingabekriterien nur einmal pro Sitzung bewertet.
 
-1. Click **[!UICONTROL Next]** to display the **[!UICONTROL Goals &amp; Settings]** page.
+1. Klicken Sie auf **[!UICONTROL Weiter]**, um die Seite **[!UICONTROL Ziele und Einstellungen]** anzuzeigen.
 1. Konfigurieren Sie die Aktivität mit den folgenden Einstellungen und klicken Sie dann auf **[!UICONTROL Speichern und schließen]**.
 
    | Einstellung | Beschreibung |
