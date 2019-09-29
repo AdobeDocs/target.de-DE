@@ -24,7 +24,7 @@ Da ein multivariater Test mehrere Erlebnisse auf einer Seite vergleicht, ist es 
 
 1. Klicken Sie auf ein Erlebnis in der Liste, um dieses anzusehen.
 
-1. To exclude one or more experiences from the multivariate test, select the desired experiences, then click **[!UICONTROL Exclude]**.
+1. Um ein oder mehrere Erlebnisse aus dem Multivarianz-Test auszuschließen, wählen Sie die gewünschten Erlebnisse aus und klicken Sie dann auf **[!UICONTROL Ausschließen]**.
 
    ![Erlebnisse ausschließen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
