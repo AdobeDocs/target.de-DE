@@ -25,7 +25,7 @@ Die Zählmethode gibt an, was Target als Nenner für die Konversionsraten verwen
 * Besucher
 * Besuche
 
-## Kann ich eine Standardmetrik für die Target-Berichte festlegen? {#section_50C20D286AA042CCA958184C9C0767DD}
+## Kann ich eine Standardmetrik für die Target-Berichte festlegen?  {#section_50C20D286AA042CCA958184C9C0767DD}
 
 Für den Aktivitätsbericht können Administratoren die Standardmetrik so ändern, dass bei jeder Ausführung des Berichts dieselben Metriken angezeigt werden. Anderenfalls wird der Bericht standardmäßig auf die letzte Metrik festgesetzt, die Sie für Ihren letzten Bericht angewendet haben.
 
@@ -37,7 +37,7 @@ Die Anwendung der Segmente auf die Berichte erfolgt wie die Anwendung von Segmen
 
 Es ist möglich, mit einer errechneten Metrik Segmente auf Metriken anzuwenden. Dies erfolgt im Allgemeinen, wenn Sie einen neuen Typ von Erfolgsereignis erstellen möchten. Zum Beispiel, wenn Sie sehen möchten, wie viele Besucher zu Ihrer generierten Aktivität zurückkehren oder wie viele Besucher zu einer bestimmten Seite gelangen und Ihren Test sehen. Bitte beachten Sie, dass Steigerung und Konfidenz derzeit nicht für errechnete Metriken generiert werden können.
 
-## Sollte ich beim Anzeigen von Berichten Besucher, Aktivitätsimpressions oder Besuche verwenden? {#metrics}
+## Sollte ich beim Anzeigen von Berichten Besucher, Aktivitätsimpressions oder Besuche verwenden?  {#metrics}
 
 Es gibt mehrere Optionen, von denen jede über eigene Vorteile verfügt:
 
@@ -52,7 +52,7 @@ Beachten Sie Folgendes:
 
 * Alle oben genannten Metriken werden ausgelöst, wenn ein Benutzer sich für eine Aktivität qualifiziert und Inhalt von [!DNL Target] zurückgegeben wird. Das bedeutet nicht zwingend, dass der Benutzer das Angebot gesehen hat. Wenn ein Aktivitätserlebnis sich unterhalb des angezeigten Bildschirmbereichs befindet und der Benutzer nicht nach unten scrollt, wurde das Angebot zwar von [!DNL Target] bereitgestellt, aber nicht vom Benutzer gesehen.
 * [!UICONTROL Aktivitätsimpressionen] (gemessen durch [!DNL Target]) und [!UICONTROL Instanzen] (gemessen durch [!DNL Analytics]) sind gleich, sofern nicht mehrere Mbox-Aufrufe auf derselben Seite in derselben Aktivität vorhanden sind. Hierdurch werden mehrere [!UICONTROL Aktivitätsimpressionen] gezählt, aber nur eine [!UICONTROL Instanz].
-* Wenn Sie [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversionsmetriken] in verwenden, stellen Sie sicher, dass für beide Metriken [!DNL Analysis Workspace]dieselben Touch-Zuordnungsmodelle angewendet werden. Modelle können angewendet werden, indem Sie auf das Spalteneinstellungswerkzeug klicken, [!UICONTROL Nicht-Standard-Zuordnungsmodelle]aktivieren und dann [!UICONTROL Gleich Touch]auswählen. Weitere Informationen zur Zuordnung finden Sie im Überblick[ über die ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)Attributes-IQ im *Analytics-Tools-Handbuch*.
+* Stellen Sie bei Verwendung von [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversionsmetriken] [!DNL Analysis Workspace] sicher, dass auf beide Metriken die Attributionsmodelle [!UICONTROL Same Touch] angewendet werden. Modelle können angewendet werden, indem Sie auf das Zahnradsymbol der Spalte klicken, [!UICONTROL Nicht standardmäßige Attributionsmodelle] aktivieren und [!UICONTROL Same Touch] auswählen. Weitere Informationen zur Zuordnung finden Sie im Überblick[ über die ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)Attributes-IQ im *Analytics-Tools-Handbuch*.
 
 ## Was bedeutet „Aktivitätskonversionen“, wenn der Marketingexperte beim Setup einer Aktivität eine Analytics-Metrik auswählt? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +62,7 @@ Beachten Sie Folgendes:
 
 ![](assets/unspecified.png)
 
-In anderen Berichten bedeutet „Nicht angegeben“, dass Daten eine bestimmte Classification nicht erfüllt haben. Dies sollte jedoch in A4T nie passieren. Wenn Sie „Nicht angegeben“ angezeigt bekommen, wurde der Classifications-Service noch nicht ausgeführt. In der Regel dauert es zwischen 24 und 72 Stunden, bis Aktivitätsdaten in den Berichten angezeigt werden. Obwohl die Aktivitäten erst zu diesem Zeitpunkt in diesem Bericht angezeigt werden, werden alle an diese Aktivitäten geknüpften Besucherdaten erfasst und nach dem Abschluss der Classification angezeigt.
+In anderen Berichten bedeutet „Nicht angegeben“, dass Daten eine bestimmte Classification nicht erfüllt haben. Dies sollte jedoch in A4T nie passieren. Wenn Sie „Nicht angegeben“ angezeigt bekommen, wurde der Classifications-Service noch nicht ausgeführt. Es dauert normalerweise zwischen 24 und 72 Stunden, bis Aktivitätsdaten in den Berichten angezeigt werden. Obwohl die Aktivitäten erst zu diesem Zeitpunkt in diesem Bericht angezeigt werden, werden alle an diese Aktivitäten geknüpften Besucherdaten erfasst und nach dem Abschluss der Classification angezeigt.
 
 Nach dem Klassifizierungszeitraum werden Daten ca. eine Stunde nach Erfassung auf der Site in diesen Berichten angezeigt. Sämtliche Metriken, Segmente und Werte in den Berichten stammen aus der Berichtssuite, die Sie bei der Einrichtung der Aktivität ausgewählt haben.
 
@@ -122,7 +122,7 @@ Die Metrik „Unique Visitors“ zeigt die Anzahl der Personen im Test, die die 
 
 Sie können den Zeitraum für die Persistenz der Target-Variablen auf eine Sitzung verkürzen. Dies ist jedoch meist problematisch für Tests, bei denen das Konversionsereignis wahrscheinlich nicht in derselben Sitzung erfolgt.
 
-## Warum wird in Analytics derselbe Besucher manchmal bei mehreren Besuchen gezählt? {#section_1397E972D31C4207A142E4D2D6D794A2}
+## Warum wird in Analytics derselbe Besucher manchmal bei mehreren Besuchen gezählt?  {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 Die folgende Liste erklärt die Gründe, warum derselbe Besucher in Analytics bei mehreren Besuchen gezählt werden konnte:
 
