@@ -1,7 +1,7 @@
 ---
-description: 'Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: „at.js“ oder „mbox.js“.'
+description: 'Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: at.js oder mbox.js'
 keywords: Übersicht und Referenz; SEO; Suchmaschinenoptimierung
-seo-description: 'Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: „at.js“ oder „mbox.js“.'
+seo-description: 'Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: at.js oder mbox.js'
 seo-title: Funktionsweise von Adobe Target
 solution: Target
 subtopic: Erste Schritte
@@ -20,22 +20,22 @@ Informationen darüber, wie Adobe Target funktioniert, einschließlich Informati
 
 ## JavaScript-Bibliotheken in Target {#libraries}
 
-Adobe Target wird mit einer von zwei javascript-Bibliotheken in Websites integriert: " at. js" oder "mbox. js «
+Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: at.js oder mbox.js
 
-* **at.js:** Die [at.js-Bibliothek](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) ist die neue Implementierungsbibliothek für Target. Die „at.js“-Bibliothek sorgt für kürzere Seitenladezeiten bei Webimplementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. „at.js“ ist die empfohlene Implementierungsbibliothek und wird häufig mit neuen Funktionen aktualisiert. Wir empfehlen allen Kunden, die [neueste Version von „at.js“](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu implementieren oder zu ihr zu migrieren.
+* **at.js:** Die [at.js-Bibliothek](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) ist die neue Implementierungsbibliothek für Target. Die „at.js“-Bibliothek sorgt für kürzere Seitenladezeiten bei Webimplementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. „at.js“ ist die empfohlene Implementierungsbibliothek und wird häufig mit neuen Funktionen aktualisiert. Wir empfehlen allen Kunden, die  [neueste Version von „at.js“](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu implementieren oder zu ihr zu migrieren.
 * **mbox.js:** Die „mbox.js“-Bibliothek ist die alte Implementierungsbibliothek für Target. Die „mbox.js“-Bibliothek wird weiterhin unterstützt, aber es gibt keine weiteren Funktionsupdates.
 
 >[!IMPORTANT]
 >
 >Alle Kunden sollten auf at.js migrieren. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-Sie müssen auf jeder Seite Ihrer Site auf die Javascript-Bibliotheksdatei von Target verweisen. Sie können sie beispielsweise Ihrer globalen Kopfzeile hinzufügen. Alternativ können Sie den [Adobe Launch-Tag-Manager verwenden.](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+Auf jeder Seite Ihrer Website muss auf die Datei der Target-JavaScript-Bibliothek verwiesen werden. Sie können sie beispielsweise Ihrer globalen Kopfzeile hinzufügen. Alternativ können Sie auch den [Tag-Manager von Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) verwenden.
 
-Jedes Mal, wenn ein Besucher eine Seite aufruft, die für Target optimiert wurde, wird eine Anfrage an das Targeting-System gesendet, um festzulegen, welcher Inhalt für einen Besucher bereitgestellt werden soll. Dieser Vorgang erfolgt in Echtzeit— Bei jedem Laden einer Seite wird eine Anforderung für den Inhalt erstellt und vom System ausgeführt. Der Inhalt wird durch die vom Marketingspezialisten kontrollierten Aktivitäten und Erlebnisse geregelt und auf den einzelnen Besucher der Site zugeschnitten. Es werden Inhalte bereitgestellt, auf die die einzelnen Besucher der Site mit großer Wahrscheinlichkeit reagieren, damit interagieren und letztendlich eine Kaufentscheidung treffen, um die Antwortraten, Erwerbsraten und den Umsatz zu maximieren.
+Jedes Mal, wenn ein Besucher eine Seite aufruft, die für Target optimiert wurde, wird eine Anfrage an das Targeting-System gesendet, um festzulegen, welcher Inhalt für einen Besucher bereitgestellt werden soll. Dieser Prozess erfolgt in Echtzeit – jedes Mal, wenn eine Seite geladen wird, wird eine Anfrage nach dem Inhalt gesendet, die vom System verarbeitet wird. Der Inhalt wird durch die vom Marketingspezialisten kontrollierten Aktivitäten und Erlebnisse geregelt und auf den einzelnen Besucher der Site zugeschnitten. Es werden Inhalte bereitgestellt, auf die die einzelnen Besucher der Site mit großer Wahrscheinlichkeit reagieren, damit interagieren und letztendlich eine Kaufentscheidung treffen, um die Antwortraten, Erwerbsraten und den Umsatz zu maximieren.
 
-In Target ist jedes Element auf der Seite Bestandteil eines einheitlichen Erlebnisses für die gesamte Seite. Jedes Erlebnis kann mehrere Elemente auf der Seite enthalten.
+In Target ist jedes Element auf der Seite Bestandteil eines einheitlichen Erlebnisses für die gesamte Seite. Jedes Erlebnis kann verschiedene Elemente auf der Seite umfassen.
 
-Der für Besucher angezeigte Inhalt hängt von der Art der Aktivität ab, die Sie erstellen:
+Der Inhalt, der Besuchern angezeigt wird, hängt vom erstellten Aktivitätstyp ab:
 
 ### A/B-Test
 
@@ -48,7 +48,7 @@ Sie können für jedes Erlebnis prozentuale Ziele festlegen. In diesem Fall wird
 1. Ein Kunde ruft eine Seite von Ihrem Server auf und zeigt sie im Browser an.
 2. Im Browser des Benutzers wird ein Erstanbieter-Cookie gesetzt, um das Kundenverhalten zu speichern.
 3. Die Seite ruft das Targeting-System auf.
-4. Inhalte werden basierend auf den Regeln Ihrer Aktivität angezeigt.
+4. Basierend auf den Regeln Ihrer Aktivität werden Inhalte angezeigt.
 
 ### Automatische Zuordnung
 
@@ -60,7 +60,7 @@ Die Funktion „Automatisch zuweisen“ identifiziert einen Gewinner unter zwei 
 
 Weitere Informationen finden Sie unter [Automatisches Targeting](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 
-Automatisches Targeting verwendet fortschrittliche maschinelle Lernprogramme, um aus mehreren leistungsstarken Erlebnissen mit Marketingexperten auszuwählen und auf Grundlage ihres individuellen Kundenprofils und des Verhaltens älterer Besucher mit ähnlichen Profilen das umfassendste Erlebnis für jeden Besucher bereitzustellen, um Inhalte zu personalisieren und Umrechnungen zu fördern.
+Beim automatischen Targeting werden mehrere marketerdefinierte Erlebnisse mit hoher Leistung über das erweiterte maschinelle Lernen ausgewählt. Zudem erhalten alle Besucher basierend auf ihrem individuellen Kundenprofil und dem Verhalten vorheriger Besucher mit ähnlichen Profilen ein optimal auf sie zugeschnittenes Erlebnis, um die Inhalte zu personalisieren und Konversionen zu fördern.
 
 ### Automatisierte Personalisierung (AP)
 
@@ -74,7 +74,7 @@ Die automatisierte Personalisierung (AP) kombiniert Angebote oder Nachrichten un
 
 Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basierend auf einem Satz aus vermarkterdefinierten Regeln und Kriterien bereitgestellt.
 
-Erlebnis-Targeting, einschließlich Geotargeting, ermöglicht die Definition von Regeln für Erlebnisse oder Inhalte, die auf eine bestimmte Zielgruppe ausgerichtet sind. Es können mehrere Regeln für eine Aktivität bereitgestellt werden, um verschiedene Inhaltvarianten für verschiedene Zielgruppen bereitzustellen. Wenn Besucher Ihre Website aufrufen, werden sie vom Erlebnis-Targeting (XT) geprüft, um festzustellen, ob sie die von Ihnen festgelegten Kriterien erfüllen. Ist dies der Fall, treten sie in die Aktivität ein und das für die qualifizierenden Zielgruppen entworfene Erlebnis wird angezeigt. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
+Erlebnis-Targeting, einschließlich Geotargeting, ermöglicht die Definition von Regeln für Erlebnisse oder Inhalte, die auf eine bestimmte Zielgruppe ausgerichtet sind. Für eine Aktivität können mehrere Regeln definiert werden, um verschiedene Inhaltsvarianten für verschiedene Zielgruppen bereitzustellen. Wenn Besucher Ihre Website aufrufen, werden sie vom Erlebnis-Targeting (XT) geprüft, um festzustellen, ob sie die von Ihnen festgelegten Kriterien erfüllen. Ist dies der Fall, treten sie in die Aktivität ein und das für die qualifizierenden Zielgruppen entworfene Erlebnis wird angezeigt. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
 
 ### Multivarianz-Tests (MVT)
 
@@ -86,37 +86,37 @@ Beim Multivariate Tests (MVT) werden Kombinationen aus Angeboten in Elementen au
 
 Weitere Informationen finden Sie unter [Empfehlungen](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
-Recommendations-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten. Empfehlungen tragen dazu bei, Kunden zu relevanten Elementen zu lenken, von denen sie andernfalls möglicherweise nichts wissen.
+Recommendations-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten. Mit diesen Empfehlungen stellen Sie Kunden relevante Artikel vor, von denen diese andernfalls möglicherweise nichts gewusst hätten.
 
 ## Das Edge-Netzwerk {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 „Edge“ ist eine räumlich verteilte Serving-Architektur, die Endnutzern, die Inhalte anfordern, optimale Reaktionszeiten gewährleistet, unabhängig davon, wo sie sich auf der Welt befinden.
 
-Um die Reaktionszeiten zu verbessern, hosten Edge-Umgebungen nur die Aktivitätslogik und das zwischengespeicherte Profil und Angebotsinformationen. Die Aktivitäts- und Inhaltsdatenbanken, [!DNL Analytics]-Daten, APIs und Benutzeroberflächen der Marketingspezialisten werden in den zentralen Datenumgebungen von Adobe gespeichert. Aktualisierungen werden an die Edge-Knoten gesendet. Die zentralen Umgebungen und Edge-Knoten werden automatisch synchronisiert, um die zwischengespeicherten Aktivitätsdaten kontinuierlich zu aktualisieren. Außerdem wird auf jeder Kante 1:1-Modellierung gespeichert, sodass komplexere Anforderungen auch auf der Edge verarbeitet werden können.
+Um die Reaktionszeiten zu verbessern, hosten Edge-Umgebungen nur Informationen über die Aktivitäten-Logik, das zwischengespeicherte Profil und das Angebot. Die Aktivitäts- und Inhaltsdatenbanken, [!DNL Analytics]-Daten, APIs und Benutzeroberflächen der Marketingspezialisten werden in den zentralen Datenumgebungen von Adobe gespeichert. Aktualisierungen werden an die Edge-Knoten gesendet. Die zentralen Umgebungen und Edge-Knoten werden automatisch synchronisiert, um die zwischengespeicherten Aktivitätsdaten kontinuierlich zu aktualisieren. Außerdem werden an allen Edges 1:1-Modelle gespeichert, weshalb auch komplexere Anforderungen an den Edges verarbeitet werden können.
 
 Jeder Edge-Knoten verfügt über alle notwendigen Informationen, um auf die Inhaltsanforderung des Benutzers zu antworten und Analysedaten zu der Anforderung nachzuverfolgen. Benutzeranforderungen werden an den nächstgelegenen Edge-Knoten weitergeleitet.
 
-![Zuordnung mit Kernedge-Sites und Edge-Sites](assets/edge_network.png)
+![Karte mit Core-Edge-Standorten und Edge-Standorten](assets/edge_network.png)
 
-Die Quelle für dieses Mage ist das [White Paper Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
+The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-Die Adobe Target-Lösung wird auf von Adobe geteilten Datenzentren und von Adobe-rechenzentren gehostet. Admin-Server werden vollständig innerhalb von Rechenzentren von Adobe in London, Singapur und mehreren Standorten in den USA gehostet, einschließlich Oregon und Virginia. Edge Server werden sowohl auf Adobe-eigenen als auch auf Adobe-kompatiblen Servern in Amazon AWS-Rechenzentren in London, Hongkong, Singapur, Tokio und Sydney gehostet.
+Die Adobe Target-Lösung wird auf Adobe-eigenen und von Adobe geleasten Rechenzentren auf der ganzen Welt gehostet. Administrationsserver werden zur Gänze in Rechenzentren von Adobe in London, Singapur und mehreren Standorten in den USA gehostet, darunter Oregon und Virginia. Edge-Server werden sowohl auf Adobe-eigenen als auch auf von Adobe geleasten Servern in Amazon-AWS-Rechenzentren in London, Hongkong, Singapur, Tokio und Sydney gehostet.
 
-Speicherorte für Administratorserver enthalten ein Datenerfassungscenter und ein Datenverarbeitungscenter. Edge-Standorte umfassen nur ein Datenerfassungscenter. Jede Report Suite wird einem speziellen Datenverarbeitungscenter zugewiesen.
+An den Administrationsserver-Standorten befinden sich sowohl ein Datenerfassungscenter als auch ein Datenverarbeitungscenter. Edge-Standorte umfassen nur ein Datenerfassungscenter. Jede Report Suite wird einem speziellen Datenverarbeitungscenter zugewiesen.
 
-Anstatt auf alle Targeting-Anfragen von einem einzelnen Standort zu antworten, werden Anforderungen von der Edge-Umgebung verarbeitet, die am nächsten dem Besucher liegt, wodurch die Auswirkungen der Netzwerk-/Internet-Reisedauer beeinträchtigt werden.
+Anstatt auf alle Targeting-Anfragen an einem einzigen Standort zu antworten, werden Anfragen von der Edge-Umgebung verarbeitet, die dem Besucher am nächsten liegt, wodurch die Auswirkungen der Netzwerk-/Internet-Antwortzeit abgefedert werden.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] verfügt derzeit über kein Edge-Netzwerk in China und die Endbenutzerleistung wird für [!DNL Target] Kunden in China weiterhin eingeschränkt. Aufgrund der großen Firewall und dem Fehlen von Edge-Knoten innerhalb des Landes sind die Erlebnisse von Sites mit [!DNL Target] bereitgestellter Bereitstellung langsam und die Seitenladevorgänge beeinträchtigt. Außerdem können Marketingexperten bei der Verwendung der [!DNL Target] Authoring-Benutzeroberfläche Latenzzeiten aufweisen.
+>[!DNL Adobe Target] verfügt derzeit über kein Edge-Netzwerk in China, weshalb die Endnutzerleistung für [!DNL Target] für Kunden in China weiterhin eingeschränkt ist. Aufgrund der großen Firewall von China und dem Fehlen von Edge-Knoten innerhalb des Landes werden die Erlebnisse von Sites mit [!DNL Target] langsam gerendert und die Seitenladevorgänge sind beeinträchtigt. Außerdem können bei der Verwendung der [!DNL Target]-Authoring-Benutzeroberfläche durch Marketing-Experten Latenzzeiten auftreten.
 
 ## Protected User Experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe stellt sicher, dass die Verfügbarkeit und Performance der Targeting-Infrastruktur so zuverlässig wie möglich ist. Allerdings kann es durch einen Kommunikationsausfall zwischen dem Browser eines Endbenutzers und den Servern von Adobe zu einer Unterbrechung bei der Bereitstellung der Inhalte kommen.
 
-To safeguard against service interruptions and connectivity issues, all locations are set up to include default content (defined by the client), which is displayed if the user’s browser cannot connect to [!DNL Target].
+Zum Schutz vor Dienstunterbrechungen und Verbindungsproblemen sind alle Orte so eingerichtet, dass sie (vom Kunden festgelegte) Standardinhalte beinhalten, die angezeigt werden, wenn der Browser des Benutzers keine Verbindung zu [!DNL Target] aufbauen kann.
 
-Es werden keine Änderungen an der Seite vorgenommen, wenn der Browser des Benutzers innerhalb eines festgelegten Timeout-Zeitraums (standardmäßig: 15 Sekunden). Wenn dieser Timeout-Schwellenwert erreicht wird, wird der Standardinhalt angezeigt.
+An der Seite werden keine Änderungen vorgenommen, wenn der Browser des Benutzers innerhalb eines festgelegten Timeout-Zeitraums (standardmäßig 15 Sekunden) keine Verbindung herstellen kann. Wenn diese Timeout-Frist erreicht ist, wird der Standardinhalt angezeigt.
 
 Adobe schützt das Benutzererlebnis durch die Optimierung und Sicherung der Performance.
 
@@ -160,7 +160,7 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
    Berücksichtigen Sie außerdem, wie einfach auf die zu testende Seite zugegriffen werden kann. Sollte die Seite nicht für Suchmaschinen verfügbar sein und war sie niemals dafür gedacht, in organische Rankings von Suchmaschinen aufgenommen zu werden (beispielsweise im Falls einer besonderen Landingpage für E-Mail-Kampagnen), spielen die oben genannten Punkte keinerlei Rolle.
 
-Google legt fest, dass die Einhaltung dieser Richtlinien dazu führen sollte, dass Ihre Tests in den Suchergebnissen wenig oder keine Auswirkungen auf Ihre Site haben. «
+Laut Google wirken sich Tests beim Befolgen der Richtlinien nicht oder nur geringfügig auf das Trefferranking Ihrer Site aus.
 
 Zusätzlich zu diesen Richtlinien stellt Google eine weitere Richtlinie in der Dokumentation für das Werkzeug für Inhaltstests bereit:
 
@@ -172,13 +172,13 @@ Unserer Ansicht nach ist es jedoch eher schwierig, die Bedeutung originaler Inha
 
 ## Bots {#bots}
 
-Adobe Target verwendet [deviceatlas](https://deviceatlas.com/) , um bekannte Bots zu erkennen. Der als von einem Bot generierte Traffic wird wie ein gewöhnlicher Benutzer weiterhin bereitgestellt, um sicherzustellen, dass er mit SEO-Richtlinien in Einklang gebracht wird. Durch Verwendung von Bot-Traffic können A/B-Tests oder Personalisierungsalgorithmen verfälschen, wenn sie wie normale Benutzer behandelt werden. Wenn daher ein bekannter Bot in Ihrer Target-Aktivität erkannt wird, wird der Traffic etwas anders behandelt. Das Entfernen von Bot-Traffic bietet eine genauere Messung der Benutzeraktivität.
+Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. Wenn erkannt wird, dass Traffic von einem Bot generiert wurde, wird dem Bot derselbe Inhalt wie einem Benutzer bereitgestellt, um im Einklang mit SEO-Richtlinien zu bleiben. Die Verwendung von Bot-Traffic kann A/B-Tests oder Personalisierungsalgorithmen verfälschen, wenn Bots wie normale Benutzer behandelt werden. Wenn daher ein bekannter Bot in Ihrer Target-Aktivität erkannt wird, wird der Traffic etwas anders behandelt. Durch das Entfernen des Bot-Traffics erhalten Sie eine korrektere Messung der Benutzeraktivität.
 
-Speziell für bekannte Bot-Traffic-Target gilt Folgendes:
+Insbesondere unterlässt Target bei bekanntem Bot-Traffic-Target Folgendes:
 
 * Ein Besucherprofil erstellen oder abrufen
-* Protokollieren von Profilattributen oder Ausführen von Profilskripten
-* Suchen Sie nach Adobe Audience Manager (AAM)-Segmenten (falls zutreffend).
-* Verwenden Sie Bot-Traffic in der Modellierung und stellen Sie personalisierte Inhalte für Recommendations, automatisches Targeting, automatisierte Personalisierung oder automatisierte Zuordnung bereit.
-* Protokollieren Sie einen Aktivitätsbesuch für die Berichterstellung.
-* Protokolldaten, die an die Adobe Experience Cloud-Plattform gesendet werden sollen
+* Profilattribute erfassen oder Profilskripte ausführen
+* Nach Adobe Audience Manager (AAM)-Segmenten suchen (falls zutreffend).
+* Bot-Traffic in der Modellierung und Bereitstellung von personalisiertem Inhalt für Recommendations, automatisches Targeting, automatisierte Personalisierung oder automatisierte Zuordnung verwenden
+* Einen Aktivitätsbesuch für Berichte erfassen
+* Daten protokollieren, um sie an die Adobe Experience Cloud-Plattform zu senden
