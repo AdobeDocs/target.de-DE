@@ -25,15 +25,15 @@ Sie können Offlineberechnungen für A4T durchführen. Dazu ist jedoch ein Schri
 
 Die Steigerung ist die prozentuale Differenz zwischen den Ergebnissen Ihrer Kontrollseite und einer erfolgreichen Testvariante.
 
-## Wie wird die Konfidenz berechnet? {#section_97DB24D833E742988318CA65DA65DAD9}
+## Wie wird die Konfidenz berechnet?  {#section_97DB24D833E742988318CA65DA65DAD9}
 
 Die Konfidenzniveau ist die Wahrscheinlichkeit, dass die gemessene Konversionsrate von der Konversionsrate der Siegerseite aus anderen Gründen als reinem Zufall abweicht.
 
-## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen? {#section_D3E44E24782A409DBD88AE4D1595CB58}
+## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen?  {#section_D3E44E24782A409DBD88AE4D1595CB58}
 
 Steigerung und Konfidenz können derzeit nicht für errechnete Metriken generiert werden. In den meisten Fällen sollte dies jedoch kein Problem sein, da die Steigerung durch die Normalisierungsmetrik normalisiert wird. Wenn Sie beispielsweise die Steigerung für Bestellungen auswählen und die Normalisierungsmetrik „Besuche“ lautet, wird die Steigerung auf dem Verhältnis der beiden errechnet. Das ist dann die Konversionsrate.
 
-## Wie verwaltet A4T Konfidenzberechnungen? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
+## Wie verwaltet A4T Konfidenzberechnungen?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
 A4T verwendet nicht binäre Metrikberechnungen mit Daten der Quadratsumme. Die Varianz wird mit den Daten der Quadratsumme errechnet. Extreme Bestellungen werden nicht berücksichtigt.
 
