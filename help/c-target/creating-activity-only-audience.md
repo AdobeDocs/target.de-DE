@@ -1,8 +1,8 @@
 ---
-description: Erstellen Sie Zielgruppen „Nur Aktivität“ innerhalb des geleiteten Arbeitsablaufs mit drei Schritten, während Sie eine Aktivität erstellen. Diese Ad-hoc-Zielgruppen können an anderen Orten innerhalb derselben Aktivität verwendet werden, werden aber nicht in der Zielgruppenbibliothek gespeichert und können nicht in anderen Aktivitäten verwendet werden.
+description: Erstellen Sie Zielgruppen vom Typ „Nur Aktivität“ innerhalb des geleiteten Arbeitsablaufs mit drei Schritten, während Sie eine Aktivität erstellen. Diese Ad-hoc-Zielgruppen können an anderen Orten innerhalb derselben Aktivität verwendet werden, werden aber nicht in der Zielgruppenbibliothek gespeichert und können nicht in anderen Aktivitäten verwendet werden.
 keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen; nur Aktivität; nur Activity; adhoc
-seo-description: Erstellen Sie ausschließlich Zielgruppen aus dem mit drei Schritten geleiteten Arbeitsablauf für Adobe Target, wenn Sie eine Aktivität erstellen. Diese Ad-hoc-Zielgruppen können an anderen Orten innerhalb derselben Aktivität verwendet werden, werden aber nicht in der Zielgruppenbibliothek gespeichert und können nicht in anderen Aktivitäten verwendet werden.
-seo-title: Erstellen einer Zielgruppe „Nur Aktivität“ in Adobe Target
+seo-description: Erstellen Sie Zielgruppen „Nur Aktivität“ innerhalb des geleiteten Arbeitsablaufs mit drei Schritten in Adobe Target, während Sie eine Aktivität erstellen. Diese Ad-hoc-Zielgruppen können an anderen Orten innerhalb derselben Aktivität verwendet werden, werden aber nicht in der Zielgruppenbibliothek gespeichert und können nicht in anderen Aktivitäten verwendet werden.
+seo-title: Erstellen einer Zielgruppe „Nur Aktivität“  in Adobe Target
 solution: Target
 title: Erstellen einer Zielgruppe „Nur Aktivität“
 topic: Advanced,Standard,Classic
@@ -15,18 +15,18 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Erstellen einer Zielgruppe „Nur Aktivität“{#create-an-activity-only-audience}
 
-Erstellen Sie Zielgruppen „Nur Aktivität“ innerhalb des geleiteten Arbeitsablaufs mit drei Schritten, während Sie eine Aktivität erstellen. These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
+Erstellen Sie Zielgruppen „Nur Aktivität“ innerhalb des geleiteten Arbeitsablaufs mit drei Schritten, während Sie eine Aktivität erstellen. Diese Ad-hoc-Zielgruppen können an anderen Orten innerhalb derselben Aktivität verwendet werden, werden aber nicht in der [!UICONTROL Zielgruppenbibliothek] gespeichert und können nicht in anderen Aktivitäten verwendet werden.
 
 Zielgruppen „Nur Aktivität“ bieten die folgenden Vorteile:
 
-* You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again.
-* Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. Gleichzeitig sind sie so auch vor Änderungen durch andere Personen in Ihrer Organisation geschützt.
+* Sie können Zielgruppen vom Typ „Nur Aktivität“ verwenden, um eine Zielgruppe zu erstellen, die Sie nur einmal verwenden und nicht in der [!UICONTROL Zielgruppenbibliothek] speichern möchten. Somit sammeln sich keine Zielgruppen in der [!UICONTROL Zielgruppenbibliothek], die Sie nie wieder verwenden möchten.
+* Zielgruppen „Nur Aktivität“ werden in der [!UICONTROL Zielgruppenbibliothek] nicht angezeigt. Gleichzeitig sind sie so auch vor Änderungen durch andere Personen in Ihrer Organisation geschützt.
 
-1. While creating an [activity](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Target]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
+1. Klicken Sie beim Erstellen einer [Aktivität](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der **[!UICONTROL Target]**-Seite auf das Symbol mit den drei vertikalen Strichen und dann auf **[!UICONTROL Zielgruppe ändern]**.
 
    ![Schrittergebnis](assets/edit_audience.png)
 
-1. On the [!UICONTROL Choose Audience] page, click **[!UICONTROL Activity Only Audience]**.
+1. Klicken Sie auf der Seite [!UICONTROL Zielgruppe auswählen] auf **[!UICONTROL Zielgruppe „Nur Aktivität“]**.
 
    ![](assets/activity-only-aud.png)
 
@@ -48,9 +48,9 @@ Zielgruppen „Nur Aktivität“ bieten die folgenden Vorteile:
 Berücksichtigen Sie beim Arbeiten mit Zielgruppen „Nur Aktivität“ folgende Informationen:
 
 * Sie können Zielgruppen „Nur Aktivität“ im Visual Experience Composer (VEC) oder im Form-Based Experience Composer erstellen. Diese Funktionalität ersetzt Verfeinerungsregeln in früheren Versionen von Target.
-* You can create an activity to store in the [!UICONTROL Audience Library] for reuse in other activities or you create an activity-only audience. Wenn Sie die Zielgruppe gespeichert haben, können Sie den Zielgruppentyp nicht mehr ändern.
+* Sie können eine Aktivität erstellen und für die spätere Verwendung in anderen Aktivitäten in der [!UICONTROL Zielgruppenbibliothek] speichern oder eine Zielgruppe „Nur Aktivität“ erstellen. Wenn Sie die Zielgruppe gespeichert haben, können Sie den Zielgruppentyp nicht mehr ändern.
 * Verfeinerungen für vorhandene Aktivitäten werden in Zielgruppen „Nur Aktivität“ migriert.
-* Activity-only audiences have a status of [!UICONTROL Used] or [!UICONTROL Unused]. Nicht verwendete Zielgruppen „Nur Aktivität“ werden angezeigt, bis die Aktivität gespeichert wird. Wenn Sie sie nicht verwenden und versuchen, die Aktivität zu speichern, wird Ihnen ein Warnhinweis angezeigt, der Sie darauf hinweist, dass die nicht verwendete Zielgruppe „Nur Aktivität“ gelöscht wird.
+* Der Status von Zielgruppen vom Typ „Nur Aktivität“ kann [!UICONTROL Verwendet] oder [!UICONTROL Nicht verwendet] sein. Nicht verwendete Zielgruppen „Nur Aktivität“ werden angezeigt, bis die Aktivität gespeichert wird. Wenn Sie sie nicht verwenden und versuchen, die Aktivität zu speichern, wird Ihnen ein Warnhinweis angezeigt, der Sie darauf hinweist, dass die nicht verwendete Zielgruppe „Nur Aktivität“ gelöscht wird.
 * Sie können die Details zur Zielgruppendefinition über Pop-up-Karten in der Zielgruppenauswahl anzeigen, ohne die Zielgruppe zu öffnen.
 * Sie können [mehrere Zielgruppen kombinieren](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), um „Nur Aktivität“-Zielgruppen zu erstellen.
 
