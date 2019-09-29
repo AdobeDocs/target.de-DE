@@ -47,7 +47,7 @@ Am Anfang dieses Abschnitts haben wir Ansichten als ganze Site oder sogar als ei
 
 Klicken Sie auf die Schaltfläche „Mehr laden“, um weitere Produkte auf der Site zu erkunden. In diesem Fall ändert sich die Website-URL nicht. Hier kann auch nur die zweite Zeile der oben gezeigten Produkte als Ansicht angesehen werden. Der Name der Ansicht könnte also „PRODUKTSEITE-2“ lauten.
 
-**Link:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link:[Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![Checkout-Seite](/help/c-experiences/assets/checkout.png)
 
@@ -114,7 +114,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Link:[Produkte-Site](https://target.enablementadobe.com/react/demo/#/products)**
+   **Link:[Produktseite](https://target.enablementadobe.com/react/demo/#/products)**
 
    Schauen wir uns nun ein Beispiel an, das etwas komplizierter ist. Nehmen wir als Marketing-Experten an, wir möchten die zweite Reihe der Produkte personalisieren, indem wir die Farbe der Preisbeschriftung auf Rot ändern, nachdem ein Benutzer auf die Schaltfläche „Mehr laden“ geklickt hat.
 
@@ -143,7 +143,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
    }
    ```
 
-   **Link:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Link:[Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![React-Checkout](/help/c-experiences/assets/react6.png)
 
@@ -198,7 +198,7 @@ Im Bedienfeld [!UICONTROL Änderungen] werden die für eine bestimmte Ansicht er
 
 **Aktionen**
 
-Durch Klicken auf eine Aktion wird das Element auf der Sites hervorgehoben, in dem diese Aktion angewendet wird. Jede VEC-Aktion, die unter einer Ansicht erstellt wurde, hat folgende Symbole, wie unten dargestellt: Informationen, Bearbeiten, Klonen, Verschieben und Löschen.
+Durch Klicken auf eine Aktion wird das Element auf der Sites hervorgehoben, in dem diese Aktion angewendet wird. Jede VEC-Aktion, die unter einer Ansicht erstellt wurde, verfügt über die folgenden, unten aufgeführten Symbole: Informationen, Bearbeiten, Klonen, Verschieben und Löschen.
 
 ![Änderungen](/help/c-experiences/assets/modifications.png)
 
@@ -208,13 +208,13 @@ Die einzelnen Aktionen sind in der folgenden Tabelle beschrieben:
 | --- | --- |
 | Informationen | Zeigt die Details der Aktion an. |
 | Bearbeiten | Ermöglicht die direkte Bearbeitung der Eigenschaften dieser Aktion. |
-| Klonen | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**Hinweis**: Nachdem ein Klonvorgang durchgeführt wurde, müssen Sie über [!UICONTROL Durchsuchen] zur Ansicht im VEC navigieren, um zu sehen, ob die geklonte Aktion ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
-| Verschieben | Verschiebt die Aktion in ein Seitenladereignis oder eine andere Ansicht, die bereits im Änderungs-Bedienfeld vorhanden ist.<br>[!UICONTROL Seitenladereignis] - Alle Aktionen, die dem Seitenladeereignis entsprechen, werden beim ersten Laden Ihrer Webanwendung angewendet.<br>**Hinweis** : Nachdem Sie einen Verschiebevorgang durchgeführt haben, müssen Sie über Durchsuchen zur Ansicht im VEC navigieren, um zu sehen, ob der Verschiebevorgang ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
+| Klonen | Sie können die Aktion auf eine oder mehrere Ansichten klonen, die im Bedienfeld [!UICONTROL Änderungen] vorhanden sind, oder auf eine oder mehrere Ansichten, die Sie im VEC durchsucht haben oder zu denen Sie navigiert sind. Die Aktion muss nicht unbedingt im Bedienfeld [!UICONTROL „Änderungen“] vorhanden sein.<br>**Hinweis**: Navigieren Sie nach einem Klonvorgang mit [!UICONTROL Durchsuchen] zur Ansicht im VEC, um zu überprüfen, ob die Klon-Aktion ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
+| Verschieben | Hiermit wird die Aktion in ein Seitenladereignis oder eine andere Ansicht verschoben, die im Änderungs-Bedienfeld bereits vorhanden ist.<br>[!UICONTROL Seitenladereignis]: Alle Aktionen, die mit dem Seitenladeereignis in Verbindung stehen, werden beim ersten Laden Ihrer Webanwendung angewendet.<br>**Hinweis**: Navigieren Sie nach einem Verschiebevorgang mit „Durchsuchen“ zur Ansicht im VEC, um zu sehen, ob das Verschieben ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
 | Löschen | Löscht die Aktion. |
 
 >[!NOTE]
 >
->Sie können viele Aktionen ausführen, bevor die Seite im VEC geladen wird, oder auch, wenn die Seite nicht vollständig geladen wird. Aktionen, die nicht bearbeitet werden können, bevor die Website geladen ist, sind in der Benutzeroberfläche von deaktiviert.
+>Sie können viele Aktionen ausführen, bevor die Seite im VEC geladen wird, oder selbst dann, wenn die Seite gar nicht geladen werden kann. Aktionen, die nicht vor dem Laden der Website bearbeitet werden können, sind in der Benutzeroberfläche deaktiviert.
 
 **Beispiel 1**
 
@@ -359,7 +359,7 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 | [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Ja |
 | [AEM-Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
-## Unterstützte Funktionen {#supported-features}
+## Unterstützte Funktionen  {#supported-features}
 
 | Funktion | Unterstützt? |
 | --- | --- |
@@ -371,71 +371,71 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 | [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md) | Ja |
 | [Bereitstellung mehrerer Aktivitäten](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) | Ja |
 
-## Page Delivery settings for the SPA VEC {#page-delivery-settings}
+## Seitenbereitstellungs-Einstellungen für den SPA-VEC {#page-delivery-settings}
 
-[!UICONTROL Mit den Einstellungen für die Seitenauslieferung] können Sie Regeln konfigurieren, um zu bestimmen, wann eine Target-Aktivität qualifiziert und für eine Zielgruppe ausgeführt werden soll.
+Mit den Einstellungen für die [!UICONTROL Seitenbereitstellung] können Sie mithilfe von Regeln bestimmten, wann eine Target-Aktivität auf eine Zielgruppe zutrifft und ausgeführt werden soll.
 
-To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+Um über den dreiteiligen geleiteten VEC-Workflow zur Erstellung von Aktivitäten auf die Optionen zur [!UICONTROL Seitenbereitstellung] zuzugreifen, klicken Sie im Schritt **[!UICONTROL Erlebnisse]** auf **[!UICONTROL Konfigurieren]** (Zahnradsymbol) &gt; **[!UICONTROL Seitenbereitstellung]**.
 
-![Seitenauslieferungsoptionen, Dialogfeld](/help/c-experiences/assets/page-delivery.png)
+![Dialogfeld „Seitenbereitstellung“](/help/c-experiences/assets/page-delivery.png)
 
-For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lands directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. Dies funktioniert perfekt für jede mehrseitige Anwendung, bei der jede Interaktion mit der Seite eine Seitenneuladung aufruft, für die at. js die Aktivitäten abruft, die sich für die URL qualifizieren, zu der der Benutzer navigiert.
+So qualifiziert sich beispielsweise eine Target-Aktivität gemäß den obigen Einstellungen zur [!UICONTROL Seitenbereitstellung]. Sie wird ausgeführt, wenn ein Besucher direkt auf `https://www.adobe.com`*landet oder* wenn ein Besucher auf einer beliebigen URL landet, die `https://www.adobe.com/products` enthält. Dies eignet sich besonders für alle mehrseitigen Anwendungen, bei der bei jeder Seiteninteraktion die Seite neu geladen wird. In at.js werden dabei die Aktivitäten abgerufen, die sich für die vom Benutzer geöffnete URL qualifizieren.
 
-However, because SPAs work differently, the [!UICONTROL Page Delivery] settings must be configured in a way that allows all actions to be applied to the Views as defined in the SPA VEC activity.
+Da aber SPAs anders funktionieren, müssen die Einstellungen für die [!UICONTROL Seitenbereitstellung] so konfiguriert sein, dass alle Aktionen auf die Ansichten gemäß der Definition in der SPA-VEC-Aktivität angewendet werden können.
 
-### Verwendungsfall
+### Anwendungsfall
 
-Betrachten Sie diesen Beispiel-Anwendungsfall:
+Im Folgenden wird ein Anwendungsfall beschrieben:
 
-![SPA VEC-Änderungsbedienfeld](/help/c-experiences/assets/page-delivery-example.png)
+![Bedienfeld für SPA-VEC-Änderungen](/help/c-experiences/assets/page-delivery-example.png)
 
 Folgende Änderungen wurden vorgenommen:
 
-* Changed the background color in the Home view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Die Hintergrundfarbe in der Startansicht unter dieser URL wurde geändert: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
 * Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
 With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
 
-![Seitenbereitstellung, Dialogfeld](/help/c-experiences/assets/spa-page-delivery.png)
+![Dialogfeld „Seitenbereitstellung“](/help/c-experiences/assets/spa-page-delivery.png)
 
-Die folgende Abbildung zeigt den Target Flow - Seitenlastanforderung in at. js 2.*x*:
+Die folgende Abbildung zeigt den Target-Ablauf: Seitenladeanfrage in at.js 2.*x*:
 
-![Zielfluss - at. js 2.0 Seitenladenanforderung](/help/c-experiences/assets/page-load-request.png)
+![Target-Ablauf: Seitenladeanfrage in at.js 2.0](/help/c-experiences/assets/page-load-request.png)
 
-**Benutzerreise Nr. 1**
+**Customer Journey Nr. 1**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* gibt an, ob eine Aktivität für die URL ausgeführt werden muss: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* In Schritt 6 gibt Target Edge die Aktionen für die Start- und Produktansicht zurück, sodass sie im Browser zwischengespeichert werden.
+* at.js 2.*x*  makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* In Schritt 6 gibt Target Edge die Aktionen für die Startseiten- und Produktansicht zurück, sodass sie im Browser zwischengespeichert werden.
 
-**Ergebnis**: Der Benutzer sieht die grüne Hintergrundfarbe in der Startansicht. When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view.
+**Ergebnis**: Der Benutzer sieht die grüne Hintergrundfarbe in der Startansicht. Wenn der Benutzer dann zu [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products navigiert, wird die blaue Hintergrundfarbe der Schaltfläche angezeigt, da die Aktion im Browser unter der Produktansicht zwischengespeichert wird.
 
 Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
 
-**Benutzerreise Nr. 2**
+**Customer Journey Nr. 2**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* gibt an, ob eine Aktivität für die URL ausgeführt werden muss: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x*  makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* Da keine Aktivitäten qualifiziert sind, gibt es keine Aktionen und Ansichten für at. js 2 zwischengespeichert.*x* auszulösen.
+* Da es keine Aktivitäten gibt, müssen auch keine Aktionen und Ansichten zwischengespeichert werden, damit at.js 2 *x* ausgelöst werden kann.
 
-**Ergebnis**: Selbst wenn Sie für `triggerView()` die Produktansicht definiert und eine Aktion an die Produktansicht über SPA VEC durchgeführt haben, wird die erwartete Aktion nicht angezeigt, da Sie keine Regel erstellt haben, die [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) in den Seitenbereitstellungseinstellungen enthält.
+**Ergebnis**: Selbst wenn Sie `triggerView()` für die Produktansicht definiert haben und über den SPA VEC in der Produktansicht eine Aktion ausgeführt haben, wird die erwartete Aktion nicht ausgeführt, da Sie keine Regel erstellt haben, die [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products in den Seitenbereitstellungs-Einstellungen enthält.
 
 ### Best Practice
 
-Sie können sehen, dass die Verwaltung der Benutzerreise recht schwierig sein kann, da Benutzer auf einer beliebigen URL Ihrer Einzelseitenanwendung landen können und zu jeder anderen Seite navigieren. Daher empfiehlt es sich, eine Seitenauslieferungsregel anzugeben, die die Basis-URL enthält, damit sie die gesamte Einzelseitenanwendung enthält. Auf diese Weise müssen Sie nicht alle verschiedenen Routen und Pfade berücksichtigen, die ein Benutzer benötigt, um zu einer Seite zu gelangen, auf der Sie eine A/B-Test- oder Erlebnis-Targeting (XT)-Aktivität anzeigen möchten.
+Die Verwaltung der Customer Journey kann schwierig sein, da Kunden auf jeder beliebigen URL der Einzelseitenanwendung landen und zu jeder anderen Seite navigieren können. Daher empfiehlt es sich, eine Seitenbereitstellungsregel zu spezifizieren, die die Basis-URL beinhaltet, damit die gesamte Einzelseitenanwendung enthalten ist. Auf diese Weise müssen Sie nicht alle möglichen Routen und Pfade bedenken, die ein Kunde nehmen könnte, um zu einer Seite zu gelangen, auf der Sie eine A/B-Test- oder Erlebnis-Targeting (XT)-Aktivität anzeigen möchten.
 
-Um das oben stehende Problem zu beheben, können wir beispielsweise die Basis-URL in den Seitenbereitstellungseinstellungen angeben:
+Um das oben stehende Problem zu beheben, können Sie beispielsweise die Basis-URL in den Seitenbereitstellungs-Einstellungen spezifizieren:
 
-![Seitenbereitstellung, Dialogfeld](/help/c-experiences/assets/conclusion.png)
+![Dialogfeld „Seitenbereitstellung“](/help/c-experiences/assets/conclusion.png)
 
-Dadurch wird sichergestellt, dass immer, wo ein Besucher auf die SPA landet und zur Homepage oder zur Seitenansicht navigiert, die angewendeten Aktionen angezeigt werden.
+Dadurch wird sichergestellt, dass ein Kunde die angewendeten Aktionen sehen kann, unabhängig davon, wo er auf der SPA landet und ob er zur Startseite oder zur Seitenansicht navigiert.
 
-Now, whenever you add an action to a View in the SPA VEC, we will show you the following pop-up message to remind you to think about the [!UICONTROL Page Delivery] rules.
+Wenn Sie jetzt eine Aktion zu einer Ansicht im SPA VEC hinzufügen, wird Ihnen die folgende Popup-Nachricht angezeigt, um Sie daran zu erinnern, die [!UICONTROL Seitenbereitstellungsregeln] zu beachten.
 
-![Seitenbereitstellungseinstellungen](/help/c-experiences/assets/pop-up-message.png)
+![Meldung zu den Seitenbereitstellungs-Einstellungen ](/help/c-experiences/assets/pop-up-message.png)
 
-Diese Meldung wird angezeigt, wenn Sie die erste Aktion einer Ansicht für jede neue Aktivität hinzufügen, die Sie erstellen. This message helps ensure that everyone in your organization learns how to apply these [!UICONTROL Page Delivery] rules correctly.
+Diese Meldung wird angezeigt, wenn Sie die erste Aktion einer Ansicht für jede von Ihnen neu erstellte Aktivität hinzufügen. Diese Meldung stellt sicher, dass alle Mitarbeiter in Ihrer Organisation wissen, wie diese [!UICONTROL Seitenbereitstellungsregeln] korrekt anzuwenden sind.
 
 ## Schulungsvideo: Verwendung von VEC für SPAs in Adobe Target
 
