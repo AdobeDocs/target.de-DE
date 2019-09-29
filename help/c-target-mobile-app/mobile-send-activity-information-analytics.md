@@ -55,7 +55,7 @@ In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinfor
 
    Analysieren Sie die Antwort, die von Target im Callback zurückgegeben wurde. Sie können NSJSONSerialization verwenden, um diese Antwort zu analysieren und sie in einem Dict oder Array zu speichern.
 
-   Refer to the [NSJSONSerialization documentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information.
+   Weitere Informationen finden Sie in der [NSJSONSerialization-Dokumentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) .
 1. Daten an Analytics senden.
 
    Fügen Sie die analysierten Aktivitätsinformationen (wie `tntVal` in der obigen Antwort) Ihrem Kontextdatenobjekt in einem Analytics-Aufruf hinzu. Dieser Analytics-Aufruf mit den Kontextdaten kann sofort ausgelöst werden oder warten, bis der nächste Analytics-Aufruf ausgelöst wird.
