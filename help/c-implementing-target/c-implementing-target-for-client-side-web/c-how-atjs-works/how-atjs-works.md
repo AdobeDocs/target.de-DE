@@ -1,6 +1,6 @@
 ---
 description: Target-Systemdiagramm zur Darstellung des Anruf- und Informationsflusses bei Aufrufen oder Datensammlungen einer automatisch erstellten globalen Mbox bei der Verwendung von „at.js“.
-keywords: Systemdiagramm;flackern;Target Standard;at.js;Implementierung;javascript library;js
+keywords: Systemdiagramm;flackern;Target Standard;at.js;Implementierung;javascript Bibliothek;js
 seo-description: Adobe Target-Systemdiagramm zur Darstellung des Anruf- und Informationsflusses bei Aufrufen oder Datensammlungen einer automatisch erstellten globalen Mbox bei der Verwendung von „at.js“.
 seo-title: Funktionsweise von Adobe Target „at.js“
 solution: Target
@@ -21,7 +21,7 @@ Bei Client-seitigen Implementierungen von [!DNL Adobe Target] stellt [!DNL Targe
 
 ## Was ist at.js?
 
-Die [at.js-Bibliothek](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) ist die neue Implementierungsbibliothek für Target. Die „at.js“-Bibliothek sorgt für kürzere Seitenladezeiten bei Webimplementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. „at.js“ ist die empfohlene Implementierungsbibliothek und wird häufig mit neuen Funktionen aktualisiert. Wir empfehlen allen Kunden, die [neueste Version von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu implementieren oder zu ihr zu migrieren.
+Die [at.js-Bibliothek](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) ist die neue Implementierungsbibliothek für Target. Die „at.js“-Bibliothek sorgt für kürzere Seitenladezeiten bei Webimplementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. „at.js“ ist die empfohlene Implementierungsbibliothek und wird häufig mit neuen Funktionen aktualisiert. Wir empfehlen allen Kunden, die  [neueste Version von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu implementieren oder zu ihr zu migrieren.
 
 Weitere Informationen finden Sie unter [JavaScript-Bibliotheken in Target](/help/c-intro/how-target-works.md#libraries).
 
@@ -49,7 +49,7 @@ Die folgenden Diagramme helfen Ihnen dabei, den Arbeitsablauf von at.js 2.x mit 
 | 3 | Es wird eine Seitenlade-Anfrage durchgeführt, in der alle konfigurierten Parameter (MCID, SDID und Kunden-ID) enthalten sind. |
 | 4 | Profilskripte werden ausgeführt und anschließend in den Profilspeicher eingespeist. Der Speicher ruft geeignete Zielgruppen aus der Zielgruppenbibliothek ab (beispielsweise über Adobe Analytics, Zielgruppen-Management etc. bereitgestellte Zielgruppen).<br>Kundenattribute werden in einem Batch-Prozess an den Profilspeicher übermittelt. |
 | 5 | Basierend auf den URL-Anfrageparametern und den Profildaten entscheidet [!DNL Target], welche Aktivitäten und Erlebnisse für die aktuelle Seite und zukünftige Ansichten an den Besucher zurückgegeben werden sollen. |
-| 6 | Zielgerichteter Inhalt wird zurück an die Seite übermittelt. Dieser enthält optional Profilwerte für eine weitere Personalisierung.<br>Die zielgerichteten Inhalte auf der aktuellen Seite werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern.<br>Zielgerichteter Inhalt für Ansichten, die als Ergebnis von Benutzeraktionen in einer SPA angezeigt werden, wird im Browser zwischengespeichert, sodass er sofort ohne zusätzlichen Serveraufruf angewendet werden kann, wenn die Ansichten durch ausgelöst werden `triggerView()`. |
+| 6 | Zielgerichteter Inhalt wird zurück an die Seite übermittelt. Dieser enthält optional Profilwerte für eine weitere Personalisierung.<br>Die zielgerichteten Inhalte auf der aktuellen Seite werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern.<br>Targeted content for views that are shown as a result of user actions in a SPA is cached in the browser so it can be instantly applied without an additional server call when the views are triggered through .`triggerView()` |
 | 7 | Analytics-Daten werden an Datenerfassungsserver übermittelt. |
 | 8 | Zielgerichtete Daten werden über die SDID mit Analytics-Daten abgeglichen und im Analytics-Berichtspeicher abgelegt.<br>Analytics-Daten können dann sowohl in Analytics als auch in Target eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs Analytics for Target (A4T). |
 
@@ -68,7 +68,7 @@ Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten un
 
 ## at.js 1.x-Diagramm
 
-![Zielfluss - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Target-Ablauf at.js 1 x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Schritt | Beschreibung | Aufruf | Beschreibung |
 |--- |--- |--- |--- |
@@ -77,22 +77,22 @@ Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten un
 | 5 | Basierend auf URL, Mbox-Parametern und Profildaten wird von [!DNL Target] entschieden, welche Aktivitäten und Erlebnisse dem Besucher angezeigt werden sollen. | 6 | Zielgerichteter Inhalt wird zurück an die Seite übermittelt. Dieser enthält optional Profilwerte für eine weitere Personalisierung.<br>Das Erlebnis wird so schnell wie möglich ohne ein Flackern der Standardinhalte bereitgestellt. |
 | 7 | [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. | 8 | [!DNL Target]-Daten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und im [!DNL Analytics]-Berichtspeicher abgelegt.<br>[!DNL Analytics]-Daten können dann sowohl in [!DNL Analytics] als auch in [!DNL Target] eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs [!DNL Analytics for Target] (A4T). |
 
-## So rendert at.js Angebote mit HTML-Inhalten {#render}
+## Darstellung von Angeboten mit HTML-Inhalten durch at.js {#render}
 
-Beim Rendern von Angeboten mit HTML-Inhalten wendet at.js den folgenden Algorithmus an:
+Bei der Darstellung von Angeboten mit HTML-Inhalten wendet at.js den folgenden Algorithmus an:
 
-1. Bilder werden vorab geladen (sofern im HTML-Inhalt `<img>` -Tags vorhanden sind).
+1. Bilder werden vorab geladen (wenn `<img>`-Tags in HTML-Inhalten vorhanden sind).
 
-1. HTML-Inhalt wird an den DOM-Knoten angehängt.
+1. HTML-Inhalte sind mit dem DOM-Knoten verbunden.
 
-1. Inline-Skripten werden ausgeführt (Code in `<script>` -Tags eingeschlossen).
+1. Inline-Skripte werden ausgeführt (Code, der in `<script>`-Tags eingeschlossen ist).
 
-1. Remote-Skripten werden asynchron geladen und ausgeführt (`<script>` Tags mit `src` Attributen).
+1. Remote-Skripte werden asynchron geladen und ausgeführt (`<script>`-Tags mit `src`-Attributen).
 
 Wichtige Hinweise:
 
-* at.js bietet keine Garantien für die Reihenfolge der Ausführung von Remote-Skripten, da diese asynchron geladen werden.
-* Inline-Skripten sollten keine Abhängigkeiten von Remote-Skripten haben, da diese später geladen und ausgeführt werden.
+* at.js garantiert nicht die Reihenfolge der Ausführung von Remote-Skripten, da diese asynchron geladen werden.
+* Inline-Skripte sollten nicht von Remote-Skripten abhängig sein, da diese später geladen und ausgeführt werden.
 
 ## Schulungsvideo: at.js 2.x-Architekturdiagramm
 
