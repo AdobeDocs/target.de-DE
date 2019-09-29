@@ -26,7 +26,7 @@ Für Benutzer von AP (Automated Personalization)- und AT (Automatisches Targetin
 >
 >Personalization Insights-Berichte werden nur in der [Standardumgebung](../../administrating-target/hosts.md) unterstützt.
 >
->Personalisierungsinsight-Berichte werden nur für Aktivitäten generiert, die sich im Live-Status befinden und für mindestens 15 Tage aktiviert und empfangen wurden.
+>Personalization Insight-Berichte werden nur für Aktivitäten generiert, die sich im Live-Status befinden und die mindestens 15 Tage lang aktiviert wurden und Traffic erhalten haben.
 
 ## Übersicht über die Personalization Insights-Berichte {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -34,7 +34,7 @@ Ziel der [!UICONTROL Personalization Insights]-Berichte ist es, mehr Information
 
 Da die Personalization Insights-Berichte vermitteln sollen, wie die Target-Personalisierungsmodelle entscheiden, welche Inhalte an welchen Besucher gesendet werden, spiegeln die Personalization Insights-Berichte nur ein Untersegment des gesamten durch Ihre AP- oder AT-Aktivitäten bereitgestellten Traffics wider. Genauer gesagt enthalten die beiden Berichte sämtlichen Traffic, der das Personalisierungsmodell genutzt hat. Personalization Insights-Berichte berücksichtigen also nicht den Kontrolltraffic oder den Traffic, der vom Gesamt-Gewinnermodell bereitgestellt wird.
 
-Es stehen zwei Insight-Einblicke zur Verfügung:
+Es stehen zwei Personalisierungseinblicke-Berichte zur Verfügung:
 
 | Bericht | Details |
 |--- |--- |
@@ -46,7 +46,7 @@ Es stehen zwei Insight-Einblicke zur Verfügung:
 Es gibt zwei Arten von Attributen in [!UICONTROL Personalization Insights]-Berichten, die in Ihren AP- oder AT-Modellen verwendet werden:
 
 * **Automatisch von Target erfasste Attribute:** Target verwendet einen Basis-Datensatz, um die Personalisierungsalgorithmen in AP- und AT-Aktivitäten zu erstellen, die in Personalization Insights angezeigt werden. Siehe [Datenerfassung für die Personalisierungsalgorithmen](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) von Target für Datentypen, Beispielattribute und ihre Benennungskonvention für [!UICONTROL Personalization Insights]. Beachten Sie, dass, obwohl diese Attribute berücksichtigt werden, die individuellen Modelle einer Aktivität nicht unbedingt all diese Attribute im endgültigen Modell verwenden.
-* **An Target übergebene Attribute:** Siehe [Hochladen von Daten für die Target-Personalisierungs-Algorithmen](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* **An Target übergebene Attribute:** Siehe  [Hochladen von Daten für die Target-Personalisierungs-Algorithmen](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 Target bietet verschiedene Möglichkeiten, zusätzliche Daten zu übergeben, um den Basis-Datensatz zu erweitern, der für die Erstellung der Personalisierungsalgorithmen in AP- und AT-Aktivitäten eingesetzt wird:
 
@@ -62,4 +62,4 @@ Target bietet verschiedene Möglichkeiten, zusätzliche Daten zu übergeben, um 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=ger)
 
-Weitere Informationen finden Sie unter [Verwenden der Personalisierungs Insight-Berichte in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Weitere Informationen finden Sie unter [Verwenden der Berichte "Personalization Insights"in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
