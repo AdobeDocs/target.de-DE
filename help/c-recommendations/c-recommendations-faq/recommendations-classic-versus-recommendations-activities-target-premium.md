@@ -61,10 +61,10 @@ Weitere Informationen zur Verwendung und Erstellung von Kriterien finden Sie unt
 Der [!DNL Recommendations]-Arbeitsablauf wurde vereinfacht. Anstatt komplizierte Formulare auszufüllen, folgen Sie einem visuellen Arbeitsablauf, um:
 
 1. die Kriterien auszuwählen,
-1. einen vorkonfigurierten [Entwurf](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)auszuwählen,
+1. einen vorkonfigurierten  [Entwurf](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) auszuwählen,
 1. die resultierenden Empfehlungen in der Vorschau zu betrachten.
 
-## Visuelle Vorschau {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Visuelle Vorschau  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Sie können Ihre Empfehlungen in einer Vorschau anzeigen, nachdem Sie diese eingerichtet haben, und alle notwendigen Änderungen vornehmen, ohne dass Sie diese auf der Seite erstellen und die Seite dann zum Testen verlassen müssen. Die Vorschau steht in [!DNL Target] zur Verfügung.
 
