@@ -148,7 +148,7 @@ Sehen Sie sich das folgende Beispiel an. Das Skiangebot generiert eine viel höh
 
 Um dieses Problem zu vermeiden, müssen Sie Ihre Geschäftsmetriken sorgfältig überwachen, um die Auswirkungen von Angeboten zu erkennen, oder besser noch möglichst eine Metrik verwenden, die näher an Ihren Geschäftszielen liegt.
 
-## Fazit: Erfolgreiche A/B-Tests durch Erkennen und Umgehen der Fallen {#section_54D33248163A481EBD4421A786FE2B15}
+## Fazit: Erfolgreiche A/B-Tests durch Erkennen und Umgehen der Fallen  {#section_54D33248163A481EBD4421A786FE2B15}
 
 Nachdem Sie jetzt die gängigen Fallstricke der A/B-Tests kennen, können Sie hoffentlich erkennen, wann und wo Sie diesen möglicherweise zum Opfer gefallen sind. Wir hoffen außerdem, dass wir Ihnen mehr Wissen zu einigen der Statistik- und Wahrscheinlichkeitskonzepten im Zusammenhang mit A/B-Tests vermitteln konnten, die sich häufig wie eine Domäne für Mathematiker anfühlen.
 
