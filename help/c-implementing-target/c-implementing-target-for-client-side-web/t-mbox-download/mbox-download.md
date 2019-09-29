@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Möchten Sie Target Standard oder Target Premium verwenden, fügen Sie eine Codezeile hinzu, mit der „mbox.js“ aufgerufen wird.
 
-Sie können eine der beiden Referenzbibliotheken verwenden: [!DNL mbox.js] oder [!DNL at.js]. [Die Vorteile von at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) erklären die Unterschiede zwischen den beiden Bibliotheken.
+Sie können eine der beiden Referenzbibliotheken verwenden: [!DNL mbox.js] oder [!DNL at.js]. [Die Vorteile von at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) werden die Unterschiede zwischen den beiden Bibliotheken erklärt.
 
 >[!NOTE]
 >
@@ -40,5 +40,5 @@ Daher müssen Sie keine unterschiedlichen Dateiversionen für einzelne Aktivitä
 
    `<script src="/ *`directory`*/ *`scripts`*/mbox.js"></script>`
 
-   Dabei ist ` *`directory`*/ *`scripts`*` das Verzeichnis, in dem Sie die [!DNL mbox.js]-Datei nach dem Herunterladen gespeichert haben. 
+   Dabei ist ` *`directory`*/ *`scripts`*` das Verzeichnis, in dem Sie die [!DNL mbox.js]-Datei nach dem Herunterladen gespeichert haben.
 Wenn Sie bereits Mboxes aus einer bestehenden Implementierung auf Ihrer Seite haben, können diese Mboxes weiterhin auf der neuen Oberfläche verwendet werden. Die aktualisierte [!DNL mbox.js]-Datei ist nach wie vor erforderlich, diese Mboxes können jedoch für Aktivitäten ausgewählt und mit dem [!UICONTROL Visual Experience Composer] bearbeitet werden.
