@@ -16,11 +16,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Berichte{#reports}
 
-Berichte enthalten Informationen über den Fortschritt und die Ergebnisse Ihrer Aktivitäten, die Ihnen bei der Entscheidungsfindung auf Grundlage Ihrer Daten helfen. Mit Berichtsdaten können Sie entscheiden, wann ein Test beendet werden soll, Sie sehen, welches Erlebnis ein Gewinner ist, und Einblicke oder Lernmöglichkeiten bereitstellen, um die nächsten Aktionen zu bestimmen.
+Berichte enthalten Informationen über den Fortschritt und die Ergebnisse Ihrer Aktivitäten, die Ihnen bei der datengestützten Entscheidungsfindung helfen. Berichtsdaten können Ihnen bei der Entscheidung helfen, wann ein Test beendet werden soll, zeigen Ihnen, welches Erlebnis oder Angebot der Gewinner ist, und bieten Einblicke oder Erkenntnisse, um die nächsten Aktionen zu bestimmen.
 
 >[!NOTE]
 >
->Sie können Besucher von bestimmten IP-Adressen für die Aufnahme in Berichten blockieren. Wenden Sie sich an ClientCare, um IP-Filter einzurichten. Diese Filterung wird nicht angewendet, wenn Sie [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) als Berichtsquelle verwenden.
+>Sie können Besucher von bestimmten IP-Adressen für die Aufnahme in Berichten blockieren. Wenden Sie sich an ClientCare, um IP-Filter einzurichten. Diese Filterung wird nicht angewendet, wenn Sie  [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) als Berichtsquelle verwenden.
 
 ## Berichtsinformationen für bestimmte Aktivitätstypen {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
@@ -42,7 +42,7 @@ Neben den allgemeinen Reporting-Informationen in diesem Thema und seinen Unterth
 
    Beispielsweise können Sie die Optionen [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] aus der Dropdownliste [!UICONTROL Typ] auswählen sowie [!UICONTROL Live] aus der Liste [!UICONTROL Status], um ausschließlich aktive Aktivitäten mit A/B-Tests und Erlebnis-Targeting anzuzeigen.
 
-   Die folgende Abbildung zeigt die Dropdownliste [!UICONTROL Typ] mit zwei ausgewählten Typen: A/B-Test und Erlebnis-Targeting. Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. Sie können bei Bedarf einen oder mehrere Typen aufheben.
+   Die folgende Abbildung zeigt die Dropdownliste [!UICONTROL Typ] mit zwei ausgewählten Typen:  A/B-Tests und Erlebnis-Targeting. Beachten Sie, dass die drei Typen von A/B-Tests (manuell, [automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) und [automatisches Targeting](/help/c-activities/auto-target-to-optimize.md)) standardmäßig ausgewählt sind. Sie können einen oder mehrere Typen nach Bedarf aufheben.
 
    ![Berichte nach Typ filtern](/help/c-reports/assets/report_filters-new.png)
 
@@ -55,7 +55,7 @@ Neben den allgemeinen Reporting-Informationen in diesem Thema und seinen Unterth
    Die Legende enthält folgende Informationen:
 
    * den Aktivitätsstatus, einschließlich des Datumsbereichs, in dem die Aktivität ausgeführt wurde
-   * Das projizierte erfolgreichste Erlebnis (falls verfügbar).
+   * Das prognostizierte erfolgreichste Erlebnis (falls verfügbar).
    >[!NOTE]
    >
    >Erlebnisergebnisse werden angezeigt, nachdem mindestens ein Teilnehmer das Erlebnis gesehen hat.
