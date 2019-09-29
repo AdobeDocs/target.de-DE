@@ -1,6 +1,6 @@
 ---
 description: 'Informationen zur Funktion adobe.target.trackEvent(options) für at.js. '
-keywords: adobe. target. trackevent; Trackevent; trackevent; track-Ereignis; at. js; Funktionen; function; Preventdefault; preventdefault; Standard verhindern
+keywords: adobe.target.trackevent; Trackevent; trackevent; Ereignis tracken; at.js; Funktionen; funktion; Preventdefault; preventdefault; Standard verhindern
 seo-description: Informationen zur Funktion adobe.target.trackEvent(options) für die JavaScript-Bibliothek von Adobe Target at.js.
 seo-title: Informationen zur Funktion adobe.target.trackEvent(options) für die JavaScript-Bibliothek von Adobe Target at.js.
 solution: Target
