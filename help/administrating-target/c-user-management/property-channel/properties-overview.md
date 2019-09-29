@@ -22,7 +22,7 @@ Informationen zu den erforderlichen Aufgaben für das Hinzufügen von Benutzern 
 
 >[!NOTE]
 >
->Die Funktionalitäten für Eigenschaften und Berechtigungen sind als Bestandteil der Lösung [Target Premium](/help/c-intro/intro.md#premium) verfügbar. Sie sind in [!DNL Target Standard] nicht ohne [!DNL Target Premium]-Lizenz verfügbar.
+>Die Funktionalitäten für Eigenschaften und Berechtigungen sind als Bestandteil der Lösung [Target Premium](/help/c-intro/intro.md#premium) verfügbar. In [!DNL Target Standard] sind sie nur mit einer [!DNL Target Premium]-Lizenz verfügbar.
 
 In der folgenden Tabelle sind alle Aufgaben aufgeführt, die Sie zur Erstellung von Eigenschaften und der Zuweisung von Benutzerrollen und Berechtigungen ausführen sollten. Weitere Informationen zu den einzelnen Aufgaben finden Sie in den nachfolgenden Abschnitten.
 
@@ -41,7 +41,7 @@ Greifen Sie für diese in der Adobe Admin Console for Enterprise ausgeführten A
 
    Oder
 
-   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
+   Sind Sie bereits in Experience Cloud angemeldet, navigieren Sie zu [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), klicken Sie auf das [!UICONTROL App]-Symbol oben in der Navigationsleiste und rechts auf **[!UICONTROL Administration]**.
 
 1. (Bedingt) Sollten Sie über Zugriff auf die [!DNL Admin Console for Enterprise] für mehr als ein Unternehmen verfügen, klicken Sie rechts in der oberen Navigationsleiste auf den Benutzeravatar und wählen Sie die gewünschte Organisation aus.
 
@@ -49,7 +49,7 @@ Greifen Sie für diese in der Adobe Admin Console for Enterprise ausgeführten A
 
 Wenn Sie mit der Verwendung der neuen Funktion [!UICONTROL Eigenschaften] beginnen, müssen alle Benutzer in der [!DNL Adobe Admin Console for Enterprise] verwaltet werden. All Ihre bereits in [!DNL Target] angelegten Benutzer werden jedoch von [!DNL Target] in die [!DNL Admin Console for Enterprise] migriert.
 
-1. [Klicken Sie in der Admin-Konsole](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)oben auf der Seite auf die **[!UICONTROL Registerkarte Benutzer]** &gt; **[!UICONTROL Benutzer]** hinzufügen, um neue Benutzer zu erstellen oder bestehende Benutzer zu bearbeiten.
+1. [Klicken Sie in der Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) auf die Registerkarte **[!UICONTROL Benutzer]** oben auf der Seite und anschließend auf **[!UICONTROL Benutzer hinzufügen]**, um neue Benutzer zu erstellen oder vorhandene Benutzer zu bearbeiten.
 1. Befolgen Sie die Anweisungen unter [Verwalten von Benutzern und Gruppen in der Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) im *Enterprise-Benutzerhandbuch*.
 
 ## Schritt 2: Arbeitsbereich (Produktprofil) erstellen{#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -58,7 +58,7 @@ Mithilfe eines Arbeitsbereichs (Produktprofil) können Organisationen bestimmte 
 
 Organisationen können mit der Nutzung der Berechtigungsfunktionalität für Unternehmen beginnen, indem sie neue Arbeitsbereiche in Admin Console erstellen, diesen Arbeitsbereichen Target-Eigenschaften zuordnen und Benutzer aus der Konfiguration „Standardarbeitsbereich“ in diese neueren Arbeitsbereiche mit beschränktem Zugriff verschieben.
 
-Kunden können diese Arbeitsflächen verwenden, um den Zugriff auf verschiedene Teams nach Region, Geschäftseinheit, Site-Abschnitt oder über andere, von ihnen bevorzugte Methoden zu trennen.
+Kunden können diese Arbeitsbereiche verwenden, um den Zugriff auf verschiedene Teams nach Region, Abteilung, Standort oder anderen beliebigen Methoden aufzuteilen.
 
 Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen Arbeitsbereichen sogar unterschiedliche Rollen einnehmen.
 
@@ -83,7 +83,7 @@ Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen A
 >[!NOTE]
 >Weitere Informationen zum Konfigurieren von Arbeitsbereichen finden Sie im Schulungsvideo unten.
 
-### Obtain your Workspace ID {#workspace-id}
+### Arbeitsbereichs-ID abrufen{#workspace-id}
 
 Sie müssen die Workspace-ID weiterreichen, um in [Target-APIs Unternehmensberechtigungen zu nutzen](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
 
@@ -114,7 +114,7 @@ Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail und API/Sonstige) zug
 
    Füllen Sie die Felder aus:
 
-   * **Kanal:** Wählen Sie den gewünschten Kanal für die Eigenschaft aus: Web, mobile App, E-Mail oder Sonstige/API (z. B. ein Set-Top-Feld oder playstation-Konsole).
+   * **Kanal:** Wählen Sie den gewünschten Kanal für die Eigenschaft aus: Web, mobile App, E-Mail oder Sonstige/API (beispielsweise für Set-Top-Box oder PlayStation-Konsole).
    * **Name: (erforderlich)** Geben Sie einen beschreibenden Namen für die Eigenschaft ein.
    * **Beschreibung:** Geben Sie eine optionale Beschreibung für die Eigenschaft an.
 
@@ -149,11 +149,11 @@ Möchten Sie die Benutzerberechtigungsfunktion in [!DNL Target] nutzen, müssen 
 
    Die [!DNL Target]-Implementierung kann auf unterschiedliche Art aktualisiert werden. Für Webseiten können beispielsweise die folgenden Verfahren angewendet werden:
 
-   * **Über einen globalen Parameter in[!DNL Adobe Launch]:**
+   * **Über einen „globalen Parameter“ im[!DNL Adobe Launch]:**
 
       For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
-   * **Über einen globalen Parameter in[!DNL Dynamic Tag Management]:**
+   * **Über einen „globalen Parameter“ im[!DNL Dynamic Tag Management]:**
 
       ![](assets/property_token_2.png)
 
@@ -169,7 +169,7 @@ Möchten Sie die Benutzerberechtigungsfunktion in [!DNL Target] nutzen, müssen 
 
       ![](assets/property_token_3.png)
 
-      Weitere Informationen zu diesem Verfahren mit at.js finden Sie unter [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) und [mboxCreate(mbox, params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
+      Weitere Informationen zu diesem Verfahren mit at.js finden Sie unter  [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) und [mboxCreate(mbox, params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Schritt 6: Rollen und Berechtigungen festlegen {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -179,12 +179,12 @@ Möchten Sie die Benutzerberechtigungsfunktion in [!DNL Target] nutzen, müssen 
 
    >[!NOTE]
    >
-   >The Properties and Permissions functionality applies to [Target Standard/Premium](/help/c-intro/intro.md#premium) only. Für [!DNL Target Classic] steht die Funktion nicht zur Verfügung.
+   >Die Funktion für Eigenschaften und Berechtigungen gilt ausschließlich für [Target Standard/Premium](/help/c-intro/intro.md#premium). Für [!DNL Target Classic] steht die Funktion nicht zur Verfügung.
 
 1. Klicken Sie auf den Namen des gewünschten Profils.
 1. Klicken Sie auf **[!UICONTROL Benutzer]**.
 
-   The [!UICONTROL Users] tab displays all of the users in that workspace.
+   Auf der Registerkarte [!UICONTROL Benutzer] werden alle Benutzer des Arbeitsbereichs aufgeführt.
 
    ![Konfigurieren von Benutzern](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
 
@@ -193,7 +193,7 @@ Möchten Sie die Benutzerberechtigungsfunktion in [!DNL Target] nutzen, müssen 
    | Rolle | Beschreibung |
    |--- |--- |
    | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-   | Editor | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
+   | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
    | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
 
    Weitere Informationen finden Sie unter [Verwalten von Produktberechtigungen und Rollen in der Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) im *Enterprise-Benutzerhandbuch*.
