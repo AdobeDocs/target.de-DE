@@ -1,6 +1,6 @@
 ---
 description: 'Informationen zur registerExtension()-Funktion für at.js. '
-keywords: Registerextension; Registererweiterung; Registrierung registrieren; at. js; Funktionen; function; Clientcode; Serverdomain; Globalmboxname; Globalmboxautocreate; timeout
+keywords: Registerextension; Registererweiterung; Register erweitern; at.js; Funktionen; funktion; Clientcode; Serverdomain; Globalmboxname; Globalmbox autocreate; Zeitüberschreitung
 seo-description: Informationen zur registerExtension()-Funktion für die Adobe Target-JavaScript-Bibliothek at.js.
 seo-title: Informationen zur registerExtension()-Funktion für die Adobe Target-JavaScript-Bibliothek at.js.
 solution: Target
@@ -46,7 +46,7 @@ Weitere Informationen und Beispiele zur Verwendung von `registerExtension` finde
 | globalMboxAutoCreate | Boolesch | Zeigt an, ob die automatische Erstellung aktiviert oder deaktiviert ist. |
 | Zeitüberschreitung | Nummer | Zeitüberschreitung der Abfrage |
 
-## Methoden für Logger-Module {#section_10AF62B49AEF48F981E950D26E176138}
+## Methoden für Logger-Module  {#section_10AF62B49AEF48F981E950D26E176138}
 
 | Schlüssel | Typ | Beschreibung |
 |--- |--- |--- |
