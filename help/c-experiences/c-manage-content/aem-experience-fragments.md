@@ -1,8 +1,8 @@
 ---
 description: Informationen zur Verwendung von Erlebnisfragmenten, die in Adobe Experience Manager (AEM) in Target-Aktivitäten erstellt werden, um die Optimierung oder Personalisierung zu unterstützen.
-keywords: Erlebnis; json; aem; adobe experience manager; Export in adobe target; Erlebnisfragmente; Fragmente; XF
+keywords: experience;json;aem;adobe Experience Manager;Export in adobe target;Erlebnisfragmente;Fragmente;XF
 seo-description: Informationen zur Verwendung von in Adobe Experience Manager (AEM) erstellten Erlebnisfragmenten in Adobe Target-Aktivitäten zur Optimierung oder Personalisierung.
-seo-title: Adobe Experience Manager (AEM) Erlebnisfragmente in Adobe Target
+seo-title: Adobe Experience Manager (AEM)-Erlebnisfragmente in Adobe Target
 solution: Target
 title: AEM-Erlebnisfragmente
 topic: Standard
@@ -25,13 +25,13 @@ Information about using experience fragments created in [!DNL Adobe Experience M
 
 Using experience fragments created in AEM in [!DNL Target] activities lets you combine the ease-of-use and power of AEM with powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.
 
-AEM kombiniert all Ihre Inhalte und Assets an einer zentralen Stelle, um Ihre Personalisierungsstrategie zu begünstigen. Mit AEM können Sie an einer Stelle problemlos Inhalte für Desktops, Tablets und mobile Geräte erstellen, ohne Code zu schreiben. Für jedes Gerät müssen keine Seiten erstellt werden. AEM passt jedes Erlebnis automatisch an Ihre Inhalte an.
+AEM kombiniert all Ihre Inhalte und Assets an einer zentralen Stelle, um Ihre Personalisierungsstrategie zu begünstigen. Mit AEM können Sie an einer Stelle problemlos Inhalte für Desktops, Tablets und mobile Geräte erstellen, ohne Code zu schreiben. Es ist nicht erforderlich, Seiten für jedes Gerät zu erstellen. AEM passt jedes Erlebnis automatisch mit Ihren Inhalten an.
 
 [!DNL Target]Mit können Sie personalisierte Erlebnisse bedarfsgerecht bereitstellen. Dies erfolgt auf der Grundlage einer Kombination aus regelbasierten und AI-gestützten Ansätzen des maschinellen Lernens, zu denen Verhaltens-, Kontext- und Offline-Variablen zählen. With [!DNL Target] you can easily set up and run [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Multivariate](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activities to determine the best offers, content, and experiences.
 
 Experience fragments represent a huge step forward to link the content/experience creators and managers to the optimization and personalization professionals who are driving business outcomes using [!DNL Target].
 
-## Voraussetzungen {#section_AE6F0971E1574B3AA324003599B96E5A}
+## Voraussetzungen  {#section_AE6F0971E1574B3AA324003599B96E5A}
 
 You must be provisioned with the experience fragments functionality within [!DNl Target]. Darüber hinaus müssen Sie AEM 6.3 mit dem richtigen Service Pack oder AEM 6.4 (oder höher) verwenden. Ihr Kundenbetreuer kann Ihnen helfen, die Anforderungen zur Verwendung dieser Funktion zu erfüllen:
 
@@ -48,17 +48,17 @@ In order to use AEM experience fragments in [!DNL Target], you must perform the 
 
 Weitere Informationen finden Sie unter:
 
-* **AEM 6.3**: [in Adobe Analytics und Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) in der _Dokumentation zu_ Adobe Experience Manager 6.3.
-* **AEM 6.4**: [Zugriff in Adobe Analytics und Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) in der _Dokumentation zu_ Adobe Experience Manager 6.4.
-* **AEM 6.5**: [Zugriff in Adobe Analytics und Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) in der *Dokumentation zu Adobe Experience Manager 6.5* .
+* **AEM 6.3**: Entscheidung [für Adobe Analytics und Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) in der Dokumentation zu _Adobe Experience Manager 6.3_ .
+* **AEM 6.4**: Entscheidung [für Adobe Analytics und Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) in der Dokumentation zu _Adobe Experience Manager 6.4_ .
+* **AEM 6.5**: Entscheidung [für Adobe Analytics und Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) in der Dokumentation zu *Adobe Experience Manager 6.5* .
 
 ### Schritt 2: Erlebnisfragment erstellen
 
 Erlebnisfragmente werden in AEM erstellt. Weitere Informationen finden Sie unter:
 
-* **AEM 6.3**: [Erlebnisfragmente](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) in der *Dokumentation zu* Adobe Experience Manager 6.3.
-* **AEM 6.4**: [Erlebnisfragmente](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) in der *Dokumentation zu* Adobe Experience Manager 6.4.
-* **AEM 6.5**: [Erlebnisfragmente](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) in der *Dokumentation zu Adobe Experience Manager 6.5* .
+* **AEM 6.3**: [Erlebnisfragmente](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) in der Dokumentation zu *Adobe Experience Manager 6.3* .
+* **AEM 6.4**: [Erlebnisfragmente](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) in der Dokumentation zu *Adobe Experience Manager 6.4* .
+* **AEM 6.5**: [Erlebnisfragmente](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) in der Dokumentation zu *Adobe Experience Manager 6.5* .
 
 ### Schritt 3: AEM für das Teilen des Erlebnisfragments mit Target konfigurieren
 
@@ -73,11 +73,11 @@ Erlebnisfragmente werden in AEM erstellt. Weitere Informationen finden Sie unter
 
 ### Schritt 4: Das Erlebnisfragment veröffentlichen und nach Target exportieren
 
-Je nach Ihrer AEM-Version finden Sie die folgenden Links für schrittweise Anweisungen:
+Abhängig von Ihrer AEM-Version finden Sie unter den folgenden Links schrittweise Anweisungen:
 
-* **AEM 6.3**: [Exportieren eines Erlebnisfragments in Target](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) in der *Dokumentation zu* Adobe Experience Manager 6.3
-* **AEM 6.4**: [Exportieren eines Erlebnisfragments in Target](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) in der *Dokumentation zu* Adobe Experience Manager 6.4
-* **AEM 6.5**: [Exportieren eines Erlebnisfragments in Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) in der *Dokumentation zu Adobe Experience Manager 6.5*
+* **AEM 6.3**: [Exportieren eines Erlebnisfragments in Target](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) in der Dokumentation zu *Adobe Experience Manager 6.3* .
+* **AEM 6.4**: [Exportieren eines Erlebnisfragments in Target](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) in der Dokumentation zu *Adobe Experience Manager 6.4* .
+* **AEM 6.5**: [Exportieren eines Erlebnisfragments in Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) in der Dokumentation zu *Adobe Experience Manager 6.5* .
 
 ## Verwenden von Erlebnisfragmenten in Target-Aktivitäten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -105,7 +105,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 
    * [!UICONTROL Einfügen vor]
    * [!UICONTROL Einfügen nach]
-   * [!UICONTROL Mit Erlebnisfragment tauschen]
+   * [!UICONTROL Erlebnisfragment austauschen]
    The [!UICONTROL Experience Fragment] list displays all of the content created in AEM that is now natively available from within [!DNL Target].
 
    >[!NOTE]
@@ -142,7 +142,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 
 * [!DNL Target] sucht derzeit alle zehn Minuten nach zu importierenden Erlebnisfragmenten. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Beachten Sie, dass die „Master“-Version des Erlebnisfragments in AEM verbleibt. You cannot edit the experience fragment in [!DNL Target].
-* Sie können JSON-Angebote als Erlebnisfragmente importieren. [!DNL Target] Diese Angebote werden jedoch als HTML-Angebote importiert. JSON-Angebote (Erlebnisfragmente) werden in der [!DNL Target] Benutzeroberfläche derzeit nicht vollständig unterstützt.
+* Sie können JSON-Angebote als Erlebnisfragmente in importieren [!DNL Target]. Diese Angebote werden jedoch als HTML-Angebote importiert. JSON-Angebote (Erlebnisfragmente) werden derzeit nicht vollständig in der [!DNL Target] Benutzeroberfläche unterstützt.
 
 ## Schulungsvideo: Verwenden von AEM-Erlebnisfragmenten mit Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
 
