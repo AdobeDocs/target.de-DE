@@ -27,13 +27,13 @@ Wenn Sie Regeln oder Parameter mit „OR“ kombinieren, müssen die Mitglieder 
 
 Sie können die beiden booleschen Operatoren auch mischen und so komplexe Regeln schaffen, allerdings müssen Operatoren auf derselben Regelebene übereinstimmen. Die Benutzeroberfläche wendet automatisch den richtigen Operator an.
 
-For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
+Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome *oder* Firefox auf einem Windows-Computer nutzen:
 
 ![Zielgruppe erstellen](assets/audience_create.png)
 
 >[!NOTE]
 >
->Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
+>Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. So ist es beispielsweise nicht möglich, dass ein Besucher eine Seite mit Chrome *und* gleichzeitig mit Firefox besucht.
 
 ## Neue Zielgruppe erstellen
 
@@ -45,7 +45,7 @@ For example, the following rule targets visitors who use either Chrome *or* Fire
 
    Oder
 
-   Möchten Sie eine Zielgruppe kopieren, halten Sie in der [!UICONTROL Zielgruppenliste] den Mauszeiger über die gewünschte Zielgruppe und klicken Sie auf das **[!UICONTROL Kopiersymbol.]** Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
+   Möchten Sie eine Zielgruppe kopieren, halten Sie in der [!UICONTROL Zielgruppenliste] den Mauszeiger über die gewünschte Zielgruppe und klicken Sie auf das **[!UICONTROL Kopiersymbol]**. Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
 
 1. Geben Sie einen eindeutigen beschreibenden Namen für die Zielgruppe ein.
 1. Klicken Sie auf **[!UICONTROL + Regel hinzufügen]**.
