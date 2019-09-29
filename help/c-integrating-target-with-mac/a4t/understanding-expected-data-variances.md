@@ -31,13 +31,13 @@ Im Folgenden finden Sie einige Szenarien, in denen möglicherweise Datenabweichu
 
    >[!NOTE]
    >
-   >Ein bekanntes Problem wird ausgeblendet, das eine begrenzte Anzahl von Kunden mit Umleitungen mit A 4 T verursacht, um einen höheren Prozentsatz an nicht zugewiesenen Trefferraten zu sehen. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+   >Es gibt ein bekanntes Problem, bei dem einer begrenzten Anzahl von Kunden mit Redirects mit A4T ein höherer Prozentsatz an aufgetrennten Treffern angezeigt wird. Siehe [Bekannte Probleme und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 * Angenommen, Sie erstellen eine Aktivität des Typs „Automatische Zuordnung“ für alle Besucher einer bestimmten Seite. Da Aktivitäten des Typs „Automatische Zuordnung“ A4T nicht unterstützen, werden alle Aktivitätsdaten von [!DNL Target] erfasst. Möglicherweise erwarten Sie, dass die Besucher der Aktivität in der [!DNL Target] Berichterstellung den Besuchern auf der Seite in der [!DNL Analytics] Berichterstellung für den gleichen Datumsbereich entsprechen. Dies ist ein Szenario, in dem die unten beschriebene Abweichung erwartet wird.
 
    Eine vollständige Liste der Aktivitätstypen, die A4T unterstützen, finden Sie unter [Unterstützte Aktivitätstypen](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
-## Erwartete Datenabweichungen bei der *Nichtverwendung* von A4T {#expected-not-using-a4t}
+## Erwartete Datenabweichungen bei der *Nichtverwendung* von A4T  {#expected-not-using-a4t}
 
 Abweichungen von 15–20 % sind normal, selbst mit ähnlichen Datensätzen. Systeme, die unterschiedlich zählen, können deutlich höhere Datenabweichungen von bis zu 35–50 % aufweisen. In manchen Fällen können Abweichungen sogar noch höher ausfallen.
 
@@ -49,7 +49,7 @@ Berichte in [!DNL Target] zeigen die Leistung basierend auf der Konversions-Mbox
 
 Erwartete Datenabweichungen können sowohl technischer als auch geschäftlicher Natur sein.
 
-### Beispiele technischer Abweichungen {#section_C3B50ED2E2F9416FAC91437CF1A87369}
+### Beispiele technischer Abweichungen  {#section_C3B50ED2E2F9416FAC91437CF1A87369}
 
 Datenabweichungen können durch folgende technische Unterschiede entstehen:
 
@@ -59,7 +59,7 @@ Datenabweichungen können durch folgende technische Unterschiede entstehen:
 * Zeitzonen-Probleme
 * Unterschiede, auf welchen Geräten Zählungen möglich sind
 
-### Beispiele geschäftlicher Abweichungen {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### Beispiele geschäftlicher Abweichungen  {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 Datenabweichungen können durch die folgenden geschäftlichen Unterschiede entstehen:
 
