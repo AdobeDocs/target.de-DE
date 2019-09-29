@@ -20,7 +20,7 @@ Der VEC ist eine der Hauptkomponenten von Adobe Target. Beim VEC handelt es sich
 
 Der EEC stellt eine Erweiterung des VEC dar, der Sie beim Bearbeiten eines Erlebnisses für eine iFrame-Busting-Website oder Seiten, die noch nicht über eine Target-Implementierung verfügen, unterstützt. Wenn Sie Probleme mit dem Öffnen Ihrer Seite im VEC haben, versuchen Sie es mit dem EEC.
 
-Informationen über den VEC und den EEC finden Sie unter [Erlebnisse](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Informationen über den VEC und den EEC finden Sie unter  [Erlebnisse](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Beachten Sie, dass einige Probleme sowohl VEC als auch EEC betreffen, während andere nur in einem der beiden Composer auftreten. Weitere Informationen finden Sie auf der entsprechenden Seite.
 
