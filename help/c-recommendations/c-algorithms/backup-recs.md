@@ -48,4 +48,4 @@ Duplikate werden aus Empfehlungen-Batches entfernt.
 
 Die Nutzung von Reserveempfehlungen ist normalerweise Gegenstand der Diskussion im Implementierungsteam während des ersten Setups. Wenn Sie die Einstellungen für die Reserveempfehlung ändern möchten, wenden Sie sich bitte an Ihren Kundenbetreuer.
 
-Wenn „Teilweises Design-Rendering aktivieren“ (siehe [Ähnlichkeit von Inhalten](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) deaktiviert ist und die Vorlage nicht angezeigt wird, wird entweder die Reserveempfehlung oder der Standardinhalt angezeigt.
+Wenn „Teilweises Design-Rendering aktivieren“ (siehe  [Ähnlichkeit von Inhalten](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) deaktiviert ist und die Vorlage nicht angezeigt wird, wird entweder die Reserveempfehlung oder der Standardinhalt angezeigt.
