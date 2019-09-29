@@ -50,7 +50,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 * Im Mobile App VEC dürfen nur Elemente ausgewählt werden, bei denen ein Klick-Handler angehängt ist.
 * Sie können zu jedem Bereich der App navigieren, Sie sollten jedoch sicherstellen, dass [Ansichten](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views) für den Bereich definiert sind, in dem Sie Elemente für das Klick-Tracking auswählen.
 * Wenn bei der Bearbeitung einer Aktivität das Gerät bereits in Schritt 1 ausgewählt wurde, müssen Sie das Gerät nicht erneut auswählen. Wenn Sie jedoch direkt zur Klick-Tracking-Seite navigieren, wird Ihnen ein Bildschirm zur Geräteauswahl angezeigt, auf dem Sie ein autorisiertes Gerät auswählen können.
-* In der Mobile App VEC wird ein Bedienfeld für Änderungen angezeigt, in dem die Elemente angezeigt werden, die Sie für die Klick-Tracking eingerichtet haben.
+* Der Mobile App VEC enthält ein Bedienfeld namens „Änderungen“, in dem die für Klick-Tracking eingerichteten Elemente angezeigt werden.
 
-   ![Änderungs-Bedienfeld mit Klick-Tracking
+   ![Bedienfeld „Änderungen“ mit Klick-Tracking-Anzeige
    ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)
