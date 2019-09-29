@@ -1,11 +1,11 @@
 ---
-description: Informationen zu Content Security Policy-Richtlinien (CSP), die Sie bei Verwendung von Adobe Target at. js 2.1 oder höher hinzufügen sollten.
-keywords: content security policy; csp; at. js; whitelist; flackern; pre-hide; pre-hide; ausblenden
-seo-description: Informationen zu Content Security Policy-Richtlinien (CSP), die Sie bei Verwendung von Adobe Target at. js 2.1 oder höher hinzufügen sollten.
-seo-title: Content Security Policies (CSP)
+description: Informationen zu den Richtlinien für Content Security Policy (CSP), die Sie bei Verwendung von Adobe Target "at.js 2.1"oder höher hinzufügen sollten.
+keywords: Sicherheitsrichtlinie für Inhalte;csp;at.js;Whitelist;Flicker;Pre-hide;Pre-hide;Prehiding
+seo-description: Informationen zu den Richtlinien für Content Security Policy (CSP), die Sie bei Verwendung von Adobe Target "at.js 2.1"oder höher hinzufügen sollten.
+seo-title: Content Security-Richtlinien (CSP)
 solution: Target
 subtopic: Erste Schritte
-title: Content Security Policy (CSP)-Anweisungen
+title: Richtlinien zur Content Security Policy (CSP)
 topic: Standard
 translation-type: tm+mt
 source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
@@ -13,10 +13,10 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
 ---
 
 
-# Content Security Policy (CSP)-Anweisungen
+# Richtlinien zur Content Security Policy (CSP)
 
-Wenn Sie [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) für Ihre Target-Implementierung verwenden, sollten Sie bei Verwendung von [at. js 2.1 oder höher die folgenden CSP-Anweisungen hinzufügen](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md):
+Wenn Sie [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) für Ihre Target-Implementierung verwenden, sollten Sie die folgenden CSP-Anweisungen bei Verwendung von [at.js 2.1 oder höher](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)hinzufügen:
 
-* `connect-src``*.tt.omtrdc.net` mit der Positivliste. Erforderlich, damit die Netzwerkanforderung an [!DNL Target] die Kante gesendet werden kann.
-* `style-src unsafe-inline`. Erforderlich für das Ausblenden und Flimmern.
-* `script-src unsafe-inline`.  Erforderlich, um die javascript-Ausführung zu ermöglichen, die Teil eines HTML-Angebots ist.
+* `connect-src` mit `*.tt.omtrdc.net` weißer Liste. Erforderlich, um die Netzwerkanforderung an der [!DNL Target] Kante zu ermöglichen.
+* `style-src unsafe-inline`. Erforderlich für das Prähnen und Flimmern.
+* `script-src unsafe-inline`.  Erforderlich, um die Ausführung von JavaScript zu ermöglichen, die Teil eines HTML-Angebots sein könnte.
