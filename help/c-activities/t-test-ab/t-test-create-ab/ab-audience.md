@@ -23,13 +23,13 @@ Die Zielgruppe legt fest, welche Besucher der Site in Ihre Aktivität eingegeben
 
 Klicken Sie im Feld [!UICONTROL „Zielgruppe“] auf das Bearbeitungssymbol (drei vertikale Ellipsen) und dann auf **[!UICONTROL Zielgruppe ersetzen]**.
 
-![Option "Zielgruppe ersetzen «](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+![Option „Zielgruppe ersetzen“](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Standardeinstellung ist, dass alle Besucher Ihrer Zielgruppe angehören. Sie können die Zielgruppe jedoch anpassen. Zielgruppen werden aus der Zielgruppenbibliothek ausgewählt. Alternativ können Sie eine Zielgruppe „Nur Aktivität“ erstellen. Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. You can select an audience from the library, [create a new audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Wählen Sie für einen A/B-Test ohne Festlegen bestimmter Zielgruppen die Standardeinstellung „Alle Besucher“ aus.
+Standardeinstellung ist, dass alle Besucher Ihrer Zielgruppe angehören. Sie können die Zielgruppe jedoch anpassen. Zielgruppen werden aus der Zielgruppenbibliothek ausgewählt. Alternativ können Sie eine Zielgruppe „Nur Aktivität“ erstellen. Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. Sie können in der Bibliothek eine Zielgruppe auswählen, [eine neue Zielgruppe erstellen](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) oder [eine Zielgruppe „Nur Aktivität“ erstellen](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Wählen Sie für einen A/B-Test ohne Festlegen bestimmter Zielgruppen die Standardeinstellung „Alle Besucher“ aus.
 
 Beachten Sie, dass Sie eine Zielgruppe auch bearbeiten oder kopieren können, indem Sie im Dialogfeld [!UICONTROL Zielgruppe wählen] die Maus über die gewünschte Zielgruppe bewegen, wie unten dargestellt. Das Kopieren einer Zielgruppe ist hilfreich, wenn Sie für eine vorhandene Zielgruppe eine ähnliche Zielgruppe erstellen möchten. Sie können eine Kopie der Zielgruppe erstellen, Bearbeitungen vornehmen und sie dann als neue Zielgruppe speichern. Diese Mauszeigerfunktionalität existiert auch in anderen Aktivitätstypen.
 
-![Hover der Zielgruppe](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+![Symbol für Zielgruppe](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
 Wenn Sie eine Zielgruppe erstellen, können Sie einen Standort (mbox) auswählen und Parameter für ihn festlegen. Wählen Sie unter „Benutzerdefinierte Parameter“ die Mbox und geben Sie dann die gewünschten Parameter an.
 
@@ -41,9 +41,9 @@ Klicken Sie auf den nach unten weisenden Pfeil, um die bestehende Zielgruppe zu 
 
 Sie können angeben, welcher Anteil der qualifizierten Besucher in die Aktivität aufgenommen werden soll. So können Sie zum Beispiel festlegen, dass 50 % aller Besucher berücksichtigt werden sollen.
 
-![Zielgruppenprozentsatz](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+![Prozentsatz für Zielgruppen](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-Sie können sich außerdem dafür entscheiden, Target [automatisch Traffic zuweisen zu lassen](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Sie können sich außerdem dafür entscheiden, Target  [automatisch Traffic zuweisen zu lassen](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Schulungsvideos
 
