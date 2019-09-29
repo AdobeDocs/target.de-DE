@@ -1,8 +1,8 @@
 ---
-description: Erstellen Sie Zielgruppen, um Besucher basierend auf der Suchmaschine oder der Landingpage als Ziel auszuwählen, der sie auf Ihre Site verweist.
-keywords: Targeting; Traffic-Quellen; Target-Traffic-Quellen; Target-Suchmaschine; Suchmaschine; Zielseite; Target-Zielseite; verweisende Zielseite
-seo-description: Erstellen Sie Zielgruppen in Adobe Target, um Besucher basierend auf der Suchmaschine oder der Landingpage als Ziel für Ihre Site anzusprechen.
-seo-title: Target-Traffic-Quellen in Adobe Target
+description: Erstellen von Zielgruppen aus Besuchern auf Grundlage der Suchmaschine oder Landingpage, von der sie auf Ihre Site geleitet werden.
+keywords: Targeting; Traffic-Quellen; Target-Traffic-Quellen; Target-Suchmaschine; Suchmaschine; Landingpage; Target-Zielseite; verweisende Zielseite
+seo-description: Erstellen Sie Zielgruppen in Adobe Target aus Besuchern auf Grundlage der Suchmaschine oder Landingpage, von der sie auf Ihre Site geleitet werden.
+seo-title: Targeting von Traffic-Quellen in Adobe Target
 solution: Target
 title: Bericht zu
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
@@ -14,9 +14,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Traffic-Quellen{#traffic-sources}
 
-Erstellen Sie Zielgruppen, um Besucher basierend auf der Suchmaschine oder der Landingpage als Ziel auszuwählen, der sie auf Ihre Site verweist.
+Erstellen von Zielgruppen aus Besuchern auf Grundlage der Suchmaschine oder Landingpage, von der sie auf Ihre Site geleitet werden.
 
-Sie können z. B. das Ziel nach dem Browser des Benutzers, der Suchmaschine oder der verweisenden Landingpage bestimmen. Die verweisende Einstiegsseite ist die Seite, von der aus der Besucher auf die aktuelle Site gelangt ist, um diese Sitzung zu erreichen. (For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
+Sie können z. B. das Ziel nach dem Browser des Benutzers, der Suchmaschine oder der verweisenden Landingpage bestimmen. Die verweisende Landingpage ist die Seite, von der der Besucher in dieser Sitzung zur aktuellen Site gelangte. (Wenn der Besucher z. B. auf eine Anzeige in Google geklickt hat und diese Sie ihn zur Homepage `adobe.com` führte, ist die verweisende Landingpage `google.com`.)
 
 Sie können mehrere Traffic-Quellen kombinieren, um eine komplexe Targeting-Regel zu erstellen.
 
