@@ -36,7 +36,7 @@ Nachstehend finden Sie die Viewports und Auflösungen für einige bekannte Gerä
 | iPhone 7 | 375 (B) x 667 (H) | 750 (B) x 1334 (H) |
 | iPhone 6 | 375 (B) x 667 (H) | 750 (B) x 1334 (H) |
 | iPhone 6s | 414 (B) x 736 (H) | 1080 (B) x 1920 (H) |
-| iPad Pro | 1024 (B) x 1366 (H) | 2048 (B) x 2732 (H) |
+| iPad  Pro | 1024 (B) x 1366 (H) | 2048 (B) x 2732 (H) |
 | iPad der 3. und 4. Generation | 768 (B) x 1024 (H) | 1536 (B) x 2048 (H) |
 | iPad Air 1 und 2 | 768 (B) x 1024 (H) | 1536 (B) x 2048 (H) |
 | iPad Mini | 768 (B) x 1024 (H) | 768 (B) x 1024 (H) |
