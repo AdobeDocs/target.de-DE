@@ -21,23 +21,23 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >
 >Das Target-Team pflegt nur zwei Versionen von [!DNL at.js] – die aktuelle Version und die zweitneueste Version. Führen Sie bei Bedarf ein Upgrade von [!DNL at.js] durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 
-## at.js Version 2.1.1 (24. Juli 2019)
+## at.js-Version 2.1.1 (24. Juli 2019)
 
-Diese Version von at.js ist ein Maintenance Release und umfasst die folgenden Erweiterungen und Fehlerbehebungen:
+Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
-(Die Ausgabennummern in Klammern dienen internen Adobe-Benutzern.)
+(Die Problemnummern in Klammern sind für den internen Gebrauch von Adobe.)
 
-* Es wurde ein Fehler behoben, der dazu führte, dass mehrere Beacons ausgelöst wurden, wenn die Klickverfolgungsmetrik auf der Seite Ziele und Einstellungen im Visual Experience Composer (VEC) verwendet wurde. (TNT-32812)
-* Es wurde ein Fehler behoben, der dazu führte, dass Angebote nicht mehr als einmal gerendert `triggerView()` wurden. (TNT-32780)
-* Es wurde ein Problem behoben, durch das sichergestellt wurde, dass die Anforderung Marketing Cloud ID(MCID)-Informationen enthält. `triggerView()` (TNT-32776)
-* Es wurde ein Fehler behoben, der verhinderte, dass die `triggerView()` Benachrichtigung ausgelöst wurde, selbst wenn keine gespeicherten Ansichten vorhanden waren. (TNT-32614)
-* Es wurde ein Fehler behoben, der aufgrund der Verwendung der Komponente decodeURIcomponent einen Fehler verursachte, der zu Problemen führte, wenn die URL einen fehlerhaften Abfragezeichenfolgenparameter enthielt. (TNT-32710)
-* Das Beacon-Flag ist jetzt im Zusammenhang mit über die `Navigator.sendBeacon()` API gesendeten Auslieferungsanforderungen auf "true"gesetzt. (TNT-32683)
-* Es wurde ein Fehler behoben, der verhinderte, dass Recommendations-Angebote für einige Kunden auf Websites angezeigt wurden. Kunden konnten den Angebotsinhalt im Bereitstellungs-API-Aufruf sehen, aber das Angebot wurde nicht auf der Website angewendet. (TNT-32680)
-* Es wurde ein Fehler behoben, der dazu führte, dass Klick-Tracking über mehrere Erlebnisse hinweg nicht wie erwartet funktionierte. (TNT-32644)
-* Es wurde ein Fehler behoben, der verhinderte, dass at.js die zweite Metrik anwenden konnte, nachdem die Wiedergabe der ersten Metrik fehlschlug. (TNT-32628)
-* Es wurde ein Fehler behoben, der beim Übergeben `mboxThirdPartyId` mit der `targetPageParams` Funktion dazu führte, dass die Anforderungs-Nutzlast weder in den Abfrageparametern noch in der Anforderungs-Nutzlast vorhanden war. (TNT-32613)
-* Es wurde ein Fehler behoben, der dazu führte, dass Anzeigen- und Klickbenachrichtigungsantworten in Chrome-basierten Browsern (einschließlich Google Chrome) blockiert wurden. (TNT-32290)
+* Es wurde ein Problem behoben, durch das mehrere Beacons ausgelöst wurden, wenn die Klick-Tracking-Metrik auf der Seite „Ziele und Einstellungen“ im Visual Experience Composer (VEC) verwendet wurde. (TNT-32812)
+* Es wurde ein Problem behoben, durch das `triggerView()` Angebote nicht öfter als einmal gerendert hat. (TNT-32780)
+* Es wurde ein Problem mit `triggerView()` behoben, sodass Anfragen jetzt Experience Cloud ID (ECID)-Informationen enthalten. (TNT-32776)
+* Es wurde ein Problem behoben, durch das die `triggerView()`-Benachrichtigung auch dann nicht ausgelöst wurde, wenn keine gespeicherten Ansichten vorhanden waren. (TNT-32614)
+* Es wurde ein Fehler behoben, der aufgrund der Verwendung von decodeURIcomponent auftrat, wenn die URL einen falsch formatierten Abfragezeichenparameter enthielt. (TNT-32710)
+* Das Beacon-Flag ist nun im Kontext von Versandanfragen, die über die `Navigator.sendBeacon()`-API gesendet werden, auf „true“ gesetzt. (TNT-32683)
+* Es wurde ein Problem behoben, durch das Recommendations-Angebote für manche Kunden nicht auf Websites angezeigt wurden. Kunden konnten zwar den Angebotsinhalt im Bereitstellungs-API-Aufruf sehen, das Angebot wurde jedoch nicht auf der Website gezeigt. (TNT-32680)
+* Es wurde ein Problem behoben, durch das Klick-Tracking erlebnisübergreifend nicht wie erwartet funktionierte. (TNT-32644)
+* Es wurde ein Problem behoben, durch das at.js die zweite Metrik nicht mehr anwenden konnte, wenn die Darstellung der ersten Metrik fehlgeschlagen war. (TNT-32628)
+* Es wurde ein Problem beim Weiterleiten der `mboxThirdPartyId` mit der Funktion `targetPageParams` behoben, was dazu geführt hatte, dass die Payload der Anfrage weder in den Abfrageparametern noch in der Payload der Anfrage vorhanden war. (TNT-32613)
+* Es wurde ein Problem behoben, durch das die Antworten auf Anzeige- und Klick-Benachrichtigungen in Chromium-basierten Browsern blockiert wurden (einschließlich Google Chrome). (TNT-32290)
 
 ## at.js-Version 2.1.0 (3. Juni 2019)
 
