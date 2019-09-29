@@ -40,7 +40,7 @@ Es gibt mehrere Einschränkungen:
    * Die Rawbox und das Erlebnis in Target
    * Die Bereitstellung in Campaign
 
-## Vorabinformationen {#section_FF19BF1BCA064260930BF6C141313B0E}
+## Vorabinformationen  {#section_FF19BF1BCA064260930BF6C141313B0E}
 
 Bevor Sie Adobe Campaign verwenden, um ihre zielgerichteten E-Mail-Angebote einzurichten, legen Sie in Target Folgendes fest:
 
@@ -53,7 +53,7 @@ Bevor Sie Adobe Campaign verwenden, um ihre zielgerichteten E-Mail-Angebote einz
 
 Starten Sie die Aktivität in Target, bevor Sie den Kampagnenteil der Integration einrichten.
 
-## Ein Target-Angebot in eine Adobe Campaign-E-Mail übernehmen {#section_B201BBE27A704E18AF0D553F35695837}
+## Ein Target-Angebot in eine Adobe Campaign-E-Mail übernehmen  {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Erstellen Sie eine E-Mail in Adobe Campaign.
 1. Klicken Sie in den E-Mail-Eigenschaften auf **[!UICONTROL Einschließen]** &gt; **[!UICONTROL Dynamisches Bild bereitgestellt von Adobe Target]**.
