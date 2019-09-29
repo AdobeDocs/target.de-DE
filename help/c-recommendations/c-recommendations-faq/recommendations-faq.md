@@ -54,7 +54,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Warum stehen beim Erstellen einer Recommendations-Aktivität nicht alle Kriterien, einschließlich benutzerdefinierter Kriterien, zur Verfügung? {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Warum stehen beim Erstellen einer Recommendations-Aktivität nicht alle Kriterien, einschließlich benutzerdefinierter Kriterien, zur Verfügung?  {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 Die verfügbaren Kriterien basieren auf der aktuellen Kategorie. Beim Erstellen von Recommendations-Angeboten zeigt der Algorithmus-Wähler Kriterien auf Grundlage der Kategorie-ID an.
 
@@ -87,7 +87,7 @@ Die folgende Liste enthält Sonderfälle, in denen das Kontrollkästchen [!UICON
 * Auf der Seite werden keine Mbox-Aufrufe ausgelöst (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalmbox)
 * Es sind keine Target-Parameter definiert.
 
-## Was sollte ich tun, wenn eine Sammlung in Recommendations den Wert null (0) annimmt? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## Was sollte ich tun, wenn eine Sammlung in Recommendations den Wert null (0) annimmt?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Beachten Sie die folgenden Informationen, wenn eine Sammlung, die zuvor nicht null war, den Wert null annimmt:
 
@@ -115,7 +115,7 @@ Dieser Gewichtungstyp ist dynamischer und basiert auf dem aktuellen „Empfehlun
 
 ![](assets/content_similarity_example.png)
 
-## Warum ist Target manchmal nicht in der Lage, Empfehlungen anzuzeigen? {#section_DB3F40673AED42228E407C05437D99E9}
+## Warum ist Target manchmal nicht in der Lage, Empfehlungen anzuzeigen?  {#section_DB3F40673AED42228E407C05437D99E9}
 
 Target kann manchmal keine Empfehlungen anzeigen, wenn zu wenig Empfehlungen verfügbar sind.
 
@@ -132,13 +132,13 @@ Das folgende JavaScript kann zu Beginn des Designs verwendet werden, um die Anza
 #end 
 ```
 
-## Welche Größenbeschränkung besteht für einen API-Aufruf beim Einfügen/Aktualisieren von Produkten? Kann ich 50.000 Produkte mit einem Aufruf aktualisieren, indem ich die API statt eines Feeds verwende? {#section_434FE1F187B7436AA39B7C14C7895168}
+## Welche Größenbeschränkung besteht für einen API-Aufruf beim Einfügen/Aktualisieren von Produkten? Kann ich 50.000 Produkte mit einem Aufruf aktualisieren, indem ich die API statt eines Feeds verwende?  {#section_434FE1F187B7436AA39B7C14C7895168}
 
 Target begrenzt Posts auf Anwendungsebene auf 50 MB. Dies erfolgt jedoch nur, wenn der Content-Type-Header `application/x-www-form-urlencoded` übergeben wird.
 
 Sie können sicherlich versuchen, 50.000 Produkte in einem einzigen Aufruf zu senden. Wenn das nicht funktioniert, teilen Sie die Produkte in Batches auf. Normalerweise wird empfohlen, dass Kunden Aufrufe in Batches mit jeweils 5.000 oder 10.000 Produkten aufteilen, um die Wahrscheinlichkeit einer Zeitüberschreitung aufgrund von hoher Systemauslastung zu reduzieren.
 
-## Muss ich einen Mbox-Namen angeben, wenn ich Recommendations-Kriterien, -Promotions oder Vorlagentestregeln erstelle? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Muss ich einen Mbox-Namen angeben, wenn ich Recommendations-Kriterien, -Promotions oder Vorlagentestregeln erstelle?  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Beim Erstellen von Recommendations-Kriterien, -Promotions oder Vorlagentestregeln, die auf einem basieren, erhalten Sie von `mboxParameter`mboxParameter keine Aufforderung mehr, `mboxName` einzugeben. Der Mbox-Name ist nun optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde.
 
@@ -151,13 +151,13 @@ Bei keiner der Methoden gibt es eine Verbindung zwischen Mbox und Parameter. Die
 
 Wenn Sie bestehende Kriterien, Promotions oder Vorlagentestregeln bearbeiten, werden die Filterkriterien mit dem Mbox-Namen angezeigt, der bei der Erstellung angegeben wurde.
 
-## Warum kann ich meine alte Recommendations-Aktivität nicht speichern, nachdem ich eine neue Zielgruppe definiert habe? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Warum kann ich meine alte Recommendations-Aktivität nicht speichern, nachdem ich eine neue Zielgruppe definiert habe?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Stellen Sie sicher, dass die Zielgruppe einen eindeutigen Namen aufweist. Wenn Sie der Zielgruppe den Namen einer bereits vorhandenen Zielgruppe zugewiesen haben, können Sie die alte Recommendations-Aktivität, also Recommendations-Aktivitäten, die vor Oktober 2016 erstellt wurden, nicht speichern.
 
-## Wie groß dürfen CSV-Dateien für den Feedupload maximal sein? {#section_20F1AF4839A447B9889B246D6E873538}
+## Wie groß dürfen CSV-Dateien für den Feedupload maximal sein?  {#section_20F1AF4839A447B9889B246D6E873538}
 
-Es gibt keine feste Grenze hinsichtlich der Zeilen oder Dateigröße für den Feedupload von CSV-Dateien. Als Best Practice empfehlen wir jedoch, die CSV-Datei auf 1 GB zu beschränken, um Fehler während des Uploadprozesses zu vermeiden. Wenn die Größe der Datei 1 GB übersteigt, teilen Sie sie am besten in mehrere Feeddateien auf. Die maximale Anzahl benutzerdefinierter Attributspalten ist 100 und benutzerdefinierte Attribute sind auf 4.096 Zeichen beschränkt. Zusätzliche Beschränkungen zur Länge der erforderlichen Spalten finden Sie auf der [Seite mit Target-Beschränkungen](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Es gibt keine feste Grenze hinsichtlich der Zeilen oder Dateigröße für den Feedupload von CSV-Dateien. Als Best Practice empfehlen wir jedoch, die CSV-Datei auf 1 GB zu beschränken, um Fehler während des Uploadprozesses zu vermeiden. Wenn die Größe der Datei 1 GB übersteigt, teilen Sie sie am besten in mehrere Feeddateien auf. Die maximale Anzahl benutzerdefinierter Attributspalten ist 100 und benutzerdefinierte Attribute sind auf 4.096 Zeichen beschränkt. Zusätzliche Beschränkungen zur Länge der erforderlichen Spalten finden Sie auf der  [Seite mit Target-Beschränkungen](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Kann ich eine Entität dynamisch ausschließen?
 
