@@ -45,7 +45,7 @@ Greifen Sie für in der Adobe Admin Console ausgeführte Aufgaben auf die Konsol
 
    Oder
 
-   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
+   Sind Sie bereits in Experience Cloud angemeldet, navigieren Sie zu [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), klicken Sie auf das [!UICONTROL App]-Symbol oben in der Navigationsleiste und rechts auf **[!UICONTROL Administration]**.
 
 1. (Bedingt) Sollten Sie über Zugriff auf die [!DNL Admin Console for Enterprise] für mehr als ein Unternehmen verfügen, klicken Sie rechts in der oberen Navigationsleiste auf den Benutzeravatar und wählen Sie die gewünschte Organisation aus.
 
@@ -53,14 +53,14 @@ Greifen Sie für in der Adobe Admin Console ausgeführte Aufgaben auf die Konsol
 
 Die gesamte Benutzerverwaltung muss in der [!DNL Adobe Admin Console for Enterprise] erfolgen. All Ihre bereits in [!DNL Target] angelegten Benutzer werden jedoch von [!DNL Target] in die [!DNL Admin Console for Enterprise] migriert.
 
-1. [Klicken Sie in der Admin-Konsole](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)auf **[!UICONTROL Benutzer]** &gt; **[!UICONTROL Benutzer]** , um neue Benutzer zu erstellen oder bestehende Benutzer zu bearbeiten.
+1. [Klicken Sie in der Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Benutzer]** &gt; **[!UICONTROL Benutzer]**, um neue Benutzer zu erstellen oder vorhandene Benutzer zu bearbeiten.
 1. Befolgen Sie die Anweisungen unter [Verwalten von Benutzern und Gruppen in der Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) im *Enterprise-Benutzerhandbuch*.
 
 ## Benutzergruppen erstellen {#user-groups}
 
 Sie können Benutzergruppen wie Entwickler, Analytiker, Marketingexperten, Manager usw. erstellen und ihnen dann Benutzerrechte für verschiedene Adobe-Produkte und -Arbeitsbereiche zuweisen. Das Zuweisen der passenden Berechtigungen für ein Team-Mitglied für zwei Adobe-Produkte kann oft einfach durch Zuweisung zu einer einzigen Benutzergruppe vorgenommen werden.
 
-1. [Klicken Sie in der Admin-Konsole](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)auf **[!UICONTROL Benutzer]** &gt; **[!UICONTROL Benutzergruppen]** , um neue Benutzergruppen zu erstellen oder bestehende Gruppen zu bearbeiten.
+1. [Klicken Sie in der Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Benutzer]** &gt; **[!UICONTROL Benutzergruppen]**, um neue Benutzergruppen zu erstellen oder bestehende Gruppen zu bearbeiten.
 1. Befolgen Sie die Anweisungen unter [Verwalten von Benutzern und Gruppen in der Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) im *Enterprise-Benutzerhandbuch*.
 
 ## Rollen und Berechtigungen festlegen {#roles-permissions}
@@ -71,12 +71,12 @@ Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden n
 
 1. [Klicken Sie in der Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Produkte]** und wählen Sie dann den Namen des gewünschten Produkts aus.
 
-   ![Registerkarte "Produkte «](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![Registerkarte „Produkte“](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
 1. Klicken Sie auf den Namen der gewünschten Konfiguration.
 1. Klicken Sie auf **[!UICONTROL Benutzer]**.
 
-   The [!UICONTROL Users] tab displays all of the users in that workspace.
+   Auf der Registerkarte [!UICONTROL Benutzer] werden alle Benutzer des Workspace aufgeführt.
 
    ![Konfigurationsbenutzer](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
@@ -85,7 +85,7 @@ Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden n
    | Rolle | Beschreibung |
    |--- |--- |
    | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-   | Editor | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
+   | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
    | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
 
 Weitere Informationen finden Sie unter [Verwalten von Produktberechtigungen und Rollen in der Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) im *Enterprise-Benutzerhandbuch*.
@@ -94,8 +94,8 @@ Weitere Informationen finden Sie unter [Verwalten von Produktberechtigungen und 
 
 Lernziele:
 
-* Zugriff auf die Adobe Admin-Konsole über die Adobe Target-Oberfläche (drei Möglichkeiten)
-* Arbeitsbereich in der Adobe Admin-Konsole konfigurieren
+* Auf die Adobe Admin Console über die Adobe Target-Schnittstelle (3 Methoden) zugreifen
+* Konfigurieren eines Workspace in Adobe Admin Console
    * Hinzufügen von Benutzern zu Arbeitsbereichen
    * Hinzufügen von Eigenschaften zu Arbeitsbereichen
 * Grundlegende Informationen zu Standardarbeitsbereichen
