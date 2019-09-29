@@ -20,7 +20,7 @@ Verwenden Sie eine Weiterleitung auf ähnliche Weise, wie Sie eine Mbox für Ihr
 
 Weiterleitungen werden mit einer speziellen Weiterleitungs-URL erstellt, die eine Weiterleitungs-Mbox (Weiterleitung) in Ihr Konto lädt. Verwenden Sie diese Weiterleitung auf ähnliche Weise, wie Sie eine Mbox für Ihre Tests verwenden. Senden Sie die Weiterleitungs-URL als Ziel-Link der Werbung an Ihr Werbenetzwerk.
 
-Verwenden Sie die Weiterleitung, um folgende Aktionen auszuführen:
+Verwenden Sie die Weiterleitung, um  folgende Aktionen auszuführen:
 
 * Klicks von Ihren Display-Anzeigen auf Ihre Seite zu verfolgen
 * Einen einzigen, zentralisierten Bericht zur Verfolgung von Klicks auf Display-Anzeigen in mehreren Werbenetzwerken zu erstellen
@@ -30,7 +30,7 @@ Verwenden Sie die Weiterleitung, um folgende Aktionen auszuführen:
 
 * Finden Sie heraus, welche Landingpage die meisten Konversionen bringt.
 
-Hilfe zur Entscheidung über die richtigen Einstellungen finden Sie unter [Nicht-JavaScript-basierte Implementierungen](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Hilfe zur Entscheidung über die richtigen Einstellungen finden Sie unter  [Nicht-JavaScript-basierte Implementierungen](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 ## Erstellen einer Weiterleitung {#task_76608B0F73FC45C4A9F125B894DCF821}
 
@@ -108,7 +108,7 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 &mboxPageValue=-0.1&mboxDefault=​https://www.yourcompany.com/usualdestination.htm
 ```
 
-### Übergeben vom Umsatz pro Klick {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
+### Übergeben vom Umsatz pro Klick  {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
 
 Verwenden Sie eine Weiterleitung, um den Umsatz pro Klick weiterzugeben.
 
