@@ -233,19 +233,19 @@ Es gibt bestimmte Szenarien, in denen Sie die Vorabruf-API erneut aufrufen müss
 + (void) prefetchOffersBackground;
 ```
 
-## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
+## Tutorials: Implementieren von Experience Cloud in mobile Objective-C- und Swift-Anwendungen unter iOS{#tutorial}
 
-* [Implementieren der Experience Cloud in Mobile ios-Target-C-Anwendungen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-* [Implementieren der Experience Cloud in Mobile ios Swift-Anwendungen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+* [Implementieren von Experience Cloud in mobile Objective-C-Anwendungen unter iOS](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [Implementieren von Experience Cloud in mobile Swift-Anwendungen unter iOS](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
 
-Nach Abschluss dieser Übungen können Sie:
+Nach diesem Tutorial können Sie Folgendes:
 
-* Mobile Launch-Eigenschaft erstellen
-* Installieren einer Start-Eigenschaft in einer Target-C- oder Swift-App
+* Erstellen einer mobilen Launch-Property
+* Installieren einer Launch-Property in einer Objective-C- oder Swift-App
 * Implementieren Sie die folgenden Adobe Experience Cloud-Lösungen:
    * Experience Cloud ID-Dienst
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* Veröffentlichen von Änderungen im Start über Entwicklungs-, Staging- und Produktionsumgebungen
+* Veröffentlichen von Änderungen in Launch über Entwicklungs-, Staging- und Produktionsumgebungen
