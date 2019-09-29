@@ -1,6 +1,6 @@
 ---
-description: Target Standard kann in Adobe Dynamic Media Classic (früher Scene 7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek bereitzustellen.
-seo-description: Target Standard kann in Adobe Dynamic Media Classic (früher Scene 7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek bereitzustellen.
+description: Target Standard kann in Adobe Dynamic Media Classic (zuvor Scene7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek zu ermöglichen.
+seo-description: Target Standard kann in Adobe Dynamic Media Classic (zuvor Scene7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek zu ermöglichen.
 seo-title: Integration von Dynamic Media Classic
 solution: Target
 subtopic: Erste Schritte
@@ -13,32 +13,32 @@ source-git-commit: c6a59843c80017e6f072f65ffad822fe198ebb55
 ---
 
 
-# Dynamic Media Classic integration{#scene-settings}
+# Integration von Dynamic Media Classic{#scene-settings}
 
-Target Standard kann in Adobe Dynamic Media Classic (früher Scene 7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek bereitzustellen.
+Target Standard kann in Adobe Dynamic Media Classic (zuvor Scene7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek zu ermöglichen.
 
 >[!NOTE]
 >
->Die Integration von Target mit Dynamic Media Classic ermöglicht die Bereitstellung von Assets (als Teil von Aktivitäten), die in den Adobe Experience Cloud-Asset-Ordner hochgeladen wurden. Diese Integration ermöglicht keinen Zugriff auf alle Assets, die in Dynamic Media Classic hochgeladen wurden, um die Bereitstellung in Target-Aktivitäten durchzuführen.
+>Die Integration von Target mit Dynamic Media Classic ermöglicht die Bereitstellung von Assets (als Teil von Aktivitäten), die in den Asset-Ordner von Adobe Experience Cloud hochgeladen wurden. Diese Integration gibt jedoch keinen Zugriff auf alle Assets, die in Dynamic Media Classic hochgeladen wurden, um sie in Target-Aktivitäten bereitzustellen.
 
-Wenn Sie bereits über ein Konto für dynamische Medien verfügen, können Sie Ihre vorhandenen Anmeldedaten bereitstellen. Wenn Sie kein Konto haben, können Sie ein dynamisches Media Media Classic-Konto ohne zusätzliche Gebühren von Ihrem Adobe-Vertreter abfordern. Dieses Konto kann für Zwecke verwendet werden, die sich ausschließlich auf Target beschränken. Dieser Service steht Kunden für Workflows zur Verfügung, die eine Bildtauschfunktionalität benötigen.
+Wenn Sie bereits über ein Dynamic Media-Konto verfügen, können Sie Ihre vorhandenen Anmeldedaten verwenden. Wenn Sie noch kein Konto haben, können Sie ein Dynamic Media Classic-Konto mit beschränkter Nutzung ohne zusätzliche Kosten bei einem Adobe-Support-Mitarbeiter anfordern. Dieses Konto kann für Zwecke verwendet werden, die sich ausschließlich auf Target beschränken. Dieser Service steht Kunden für Workflows zur Verfügung, die eine Bildtauschfunktionalität benötigen.
 
-Wenn diese Einstellung nicht konfiguriert ist, steht die Angebotsoption „Bild austauschen“ im Workflow für die Erstellung der Aktivität nicht zur Verfügung. Nachdem diese Einstellung konfiguriert wurde, steht die Option zum Austauschen/Ändern von Bildangeboten in [Visual Experience Composer (VEC) und im formularbasierten Experience Composer](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) zur Verfügung. Anschließend können Sie die Bildangebote mit Bildern nutzen, die aus Adobe Experience Cloud für die Verwendung in Target-Aktivitäten hochgeladen wurden.
+Wenn diese Einstellung nicht konfiguriert ist, steht die Angebotsoption „Bild austauschen“ im Workflow für die Erstellung der Aktivität nicht zur Verfügung. Nachdem diese Einstellung konfiguriert wurde, steht die Option zum Austauschen/Ändern von Bildangeboten in  [Visual Experience Composer (VEC) und im formularbasierten Experience Composer](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) zur Verfügung. Anschließend können Sie die Bildangebote mit Bildern nutzen, die aus Adobe Experience Cloud für die Verwendung in Target-Aktivitäten hochgeladen wurden.
 
 Wenn Sie während der Aktivitätserstellung direkt in einem Angebot oder in benutzerspezifischem Code auf eine URL zu einem öffentlichen Bild verweisen möchten, sollten Sie das Bild auf Ihren eigenen Webservern bereitstellen und Ihre eigene URL im Code verwenden. Es gibt keine Möglichkeit, mithilfe von Adobe Target die veröffentlichte URL eines in Experience Cloud hochgeladenen Bilds abzurufen, um es direkt oder außerhalb der Targeting-Workflows zu verwenden. Diese Funktionalität ist entsprechend dem Vertrag nicht zulässig.
 
-Beachten Sie, dass die Speicher-URL und die endgültigen Veröffentlichungs-urls von Bildern von dynamischen Medien unterschiedlich sind und eine KEINE Angebote mithilfe des Speicherlinks von Bildern erstellt werden kann, wenn die Bereitstellung in diesen Fällen nicht funktioniert. Stattdessen muss die Bildangebotsfunktionalität verwendet werden. Erläuterungen dazu finden Sie in unserer Hilfedokumentation.
+Beachten Sie, dass sich die Speicher-URL und die endgültigen Veröffentlichungs-URLs von Bildern aus Dynamic Media unterscheiden. Zudem dürfen KEINE Angebote über den Speicherlink der Bilder erstellt werden, da die Bereitstellung in solchen Fällen nicht funktioniert. Stattdessen muss die Bildangebotsfunktionalität verwendet werden. Erläuterungen dazu finden Sie in unserer Hilfedokumentation.
 
-Zur Integration mit Dynamic Media Classic (Scene 7) müssen Sie einige der folgenden Informationen angeben.
+Zur Integration mit Dynamic Media Classic (Scene7) müssen Sie einige der folgenden Informationen angeben.
 
 1. Klicken Sie auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Scene7-Einstellungen]**.
-1. Geben Sie die folgenden dynamischen Media Classic-Kontoinformationen an:
+1. Geben Sie die folgenden Informationen zum Dynamic Media Classic-Konto an:
 
-   **Region:** Die Region für Ihr dynamisches Medienkonto: Nordamerika, Europa oder Asien.
+   **Region:** Die Region Ihres Dynamic Media-Kontos: Nordamerika, Europa oder Asien.
 
-   **Adhoc-Ordner:** Der Speicherort für Inhalte, die sich außerhalb des Zielordners befinden und manuell in dynamische Medien hochgeladen werden.
+   **Adhoc-Ordner:** Der Ort für Inhalt, der außerhalb des Zielordners liegt und manuell in Dynamic Media hochgeladen wird.
 
-   **E-Mail-Adresse:** Die E-Email-Adresse, die für die Anmeldung bei Dynamic Media Classic (Scene 7) verwendet wird.
+   **E-Mail-Adresse:** Die für die Anmeldung bei Dynamic Media Classic (Scene7) verwendete E-Mail-Adresse.
 
-   **Kennwort:** Das Kennwort für die Anmeldung bei Dynamic Media Classic (Scene 7).
+   **Passwort:** Das Passwort für die Anmeldung bei Dynamic Media Classic (Scene7).
 1. Klicken Sie auf **[!UICONTROL Senden]**.
