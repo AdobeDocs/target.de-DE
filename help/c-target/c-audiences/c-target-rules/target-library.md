@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Benutzer basierend auf vorab erstellten Targeting-Regeln gezielt ansprechen
 
-Vorab eingestellte Zielgruppen in der Target-Bibliothekskategorie sind veraltete Zielgruppen und bestehen auch in anderen Kategorien. Weitere Informationen und Best Practices finden Sie unter [Häufig gestellte Fragen zu Targeting und Zielgruppen](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Vorab eingestellte Zielgruppen in der Target-Bibliothekskategorie sind veraltete Zielgruppen und bestehen auch in anderen Kategorien. Weitere Informationen und Best Practices finden Sie unter  [Häufig gestellte Fragen zu Targeting und Zielgruppen](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Vorab eingestellte Zielgruppen in der Target-Bibliothekskategorie sind veraltete
 
    Zu vorab erstellten Targeting-Regeln gehören Betriebssystem Windows, Tablet-Gerät, Safari-Browser, wiederkehrende Besucher, von Google weitergeleitet und viele andere.
 
-   Die vordefinierte Zielgruppe "Tablet-Gerät" qualifiziert sich bereits, wenn der Benutzeragent eine der folgenden Zeichenfolgen enthält (einige davon sind eine Modellnummer von Geräten). Sie müssen keine eigenen Targeting-Regeln für diese Geräte erstellen.
+   Die vordefinierte Zielgruppe „Tablet Device“ ist bereits qualifiziert, wenn der Benutzeragent eine der folgenden Zeichenfolgen enthält (einige davon sind Modellnummern von Geräten). Sie müssen keine eigenen Targeting-Regeln für diese Geräte erstellen.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 und Tablet-PC.
 
