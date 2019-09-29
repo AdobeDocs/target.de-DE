@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Berechtigungen für Unternehmensbenutzer{#enterprise-user-permissions}
 
-Enterprise-Benutzerberechtigungen bieten eine Möglichkeit, unternehmensweite Benutzerzugriff auf Target zu verwalten. Fügen Sie Benutzer zu Target hinzu, weisen Sie Berechtigungen auf Grundlage ihrer Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf unterschiedlichen Abteilungen, globalen Orten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzer die Rollen "Beobachter" ," Editor" oder "Genehmiger" zuweisen.
+Enterprise-Benutzerberechtigungen bieten eine Möglichkeit, unternehmensweite Benutzerzugriff auf Target zu verwalten. Fügen Sie Benutzer zu Target hinzu, weisen Sie Berechtigungen auf Grundlage ihrer Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf unterschiedlichen Abteilungen, globalen Orten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzer die Rollen „Beobachter“, „Editor“ oder „Genehmiger“ zuweisen.
 
 ## Stellen Sie fest, ob Sie Zugriff auf die Berechtigungen für Unternehmensbenutzer haben
 
@@ -54,7 +54,7 @@ Die Eigenschaften ähneln denen des Dynamic Tag Management (Activation) insofern
 
 Eine Webeigenschaft besteht aus einer Bibliothek von Regeln und einem Einbettungscode. Es kann sich bei einer Webeigenschaft um eine beliebige Gruppierung einer oder mehrerer Domänen bzw. Subdomänen handeln.
 
-Eigenschaften werden aktiviert, indem ein bestimmtes Name-Wert-Paar beliebigen Aufrufen (mbox, API usw.) an Target hinzugefügt wird. 
+Eigenschaften werden aktiviert, indem ein bestimmtes Name-Wert-Paar beliebigen Aufrufen (mbox, API usw.) an Target hinzugefügt wird.
 Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail oder API/Sonstige) zugeordnet.
 
 ### Arbeitsbereich (Produktprofil)
@@ -103,7 +103,7 @@ Der Kanal gibt den Content-Typ an, in dem Ihre Target-Aktivitäten bereitgestell
 
 Bei Erstellung einer neuen Aktivität wird diese dem aktuell ausgewählten Arbeitsbereich zugewiesen. Optionen für die Kanalauswahl finden sich im ersten Dialogfeld, in dem Sie den gewünschten Aktivitätskanal festlegen können: Web, mobile App, E-Mail oder Sonstige/API.
 
-## Übersicht über Berechtigungen {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Übersicht über Berechtigungen  {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 Die folgenden Informationen erläutern, wie Berechtigungen zuvor in [!DNL Target] umgesetzt wurden und wie sie mit der neuen Funktion für [!UICONTROL Eigenschaften] und [!UICONTROL Berechtigungen] umgesetzt werden.
 
@@ -122,7 +122,7 @@ Jede Rolle verfügt über eigene Zugriffsniveaus:
 | Rolle | Beschreibung |
 |--- |--- |
 | Beobachter | Verfügt ausschließlich über Lesezugriff auf Aktivitäten. Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-| Editor | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
+| Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
 | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
 
 Es muss dabei berücksichtigt werden, dass die Benutzerrolle für alle Seiten, Eigenschaften oder Sites Ihres Kontos gilt, die über [!DNL Target]-Tags verfügen, wie unten dargestellt:
@@ -141,13 +141,13 @@ Außerdem kann Jan keine Seiten, Eigenschaften oder Sites in [!DNL Target] anzei
 
 In diesem Beispiel kann Jan die Produktseiten, die russische Site und die Karriere-Site nicht sehen.
 
-## Anwendungsszenarien {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## Anwendungsszenarien  {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 Die folgenden Anwendungsfälle zeigen wie Eigenschaften, Projekte, Rollen und Berechtigungen genutzt werden können, um Marketingziele mit [!DNL Target] zu erreichen:
 
 ### Multinationale Organisation
 
-Wenn Sie Teil einer multinationalen Organisation sind, besitzen Sie eventuell einen Arbeitsbereich für Ihre europäischen Webseiten, Eigenschaften oder Sites und einen weiteren Arbeitsbereich für Ihre amerikanischen Webseiten, Eigenschaften oder Sites. 
+Wenn Sie Teil einer multinationalen Organisation sind, besitzen Sie eventuell einen Arbeitsbereich für Ihre europäischen Webseiten, Eigenschaften oder Sites und einen weiteren Arbeitsbereich für Ihre amerikanischen Webseiten, Eigenschaften oder Sites.
 Nach einer Umstrukturierung richten Sie für die Personen aus der obigen Abbildung folgende Arbeitsbereiche und Berechtigungen ein:
 
 * **Jan**: Jan leitet die Optimierungsabteilung im Center of Excellence für die US-Webseiten, -Objekte und -Sites ihrer Organisation. Sie besitzt Systemadministratorrechte in der Adobe Experience Cloud.
