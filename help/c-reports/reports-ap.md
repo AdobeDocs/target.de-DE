@@ -34,13 +34,13 @@ Für Benutzer der automatisierten Personalisierung stehen spezialisierte Bericht
 
 [!UICONTROL Automatisierte Personalisierung] liefert die folgenden Berichte:
 
-## Aktivitätsstufenbericht {#section_6F72FC5C790B4492B3DCECBFFA971337}
+## Aktivitätsstufenbericht  {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
 Der Bericht [!UICONTROL Aktivitätsebene] vergleicht die Gesamtleistung beim Einsatz eines „[!UICONTROL Automatisierte Personalisierung]“-Algorithmus mit zufällig bereitgestellten Inhalten (Kontrolle).
 
 ![](assets/box_plot_ap.jpg)
 
-Die Standardregeln für die Auswertung von A/B-Testergebnissen gelten weiterhin, einschließlich Steigerung, Konfidenz, Trends, Dauer und so weiter. Weitere Informationen zur Ergebnisauswertung finden Sie in [Über die Konversionsrate](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)
+Die Standardregeln für die Auswertung von A/B-Testergebnissen gelten weiterhin, einschließlich Steigerung, Konfidenz, Trends, Dauer und so weiter. Weitere Informationen zur Ergebnisauswertung finden Sie in  [Über die Konversionsrate](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)
 
 ## Angebotsstufenbericht {#section_CAA6409879E349C6906E2BE8156D87A1}
 
