@@ -1,7 +1,7 @@
 ---
-description: Verwenden Sie Visual Experience Composer (VEC) in Adobe Target, um die Angebote zu erstellen, die Sie in Ihren Multivarianz-Test (MVT) einbeziehen möchten.
-seo-description: Verwenden Sie Visual Experience Composer (VEC) in Adobe Target, um die Angebote zu erstellen, die Sie in Ihren Multivarianz-Test (MVT) einbeziehen möchten.
-seo-title: Erstellen von Kombinationen aus Multivarianz-Tests (MVT) mit Adobe Target
+description: Erstellen Sie mit dem Visual Experience Composer (VEC) in Adobe Target die Angebote, die Sie in Ihren Multivarianz-Test (MVT) einbeziehen möchten.
+seo-description: Erstellen Sie mit dem Visual Experience Composer (VEC) in Adobe Target die Angebote, die Sie in Ihren Multivarianz-Test (MVT) einbeziehen möchten.
+seo-title: Erstellen Sie mit Adobe Target Kombinationen in Multivarianz-Tests (MVT).
 title: Erstellen von Kombinationen
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
@@ -12,31 +12,31 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Erstellen von Kombinationen{#create-combinations}
 
-Verwenden Sie Visual Experience Composer (VEC) in Adobe Target, um die Angebote zu erstellen, die Sie in Ihren Multivarianz-Test (MVT) einbeziehen möchten.
+Erstellen Sie mit dem Visual Experience Composer (VEC) in Adobe Target die Angebote, die Sie in Ihren Multivarianz-Test (MVT) einbeziehen möchten.
 
-For more information about using the VEC to create and edit offers, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+Weitere Informationen zur Verwendung des VEC zum Erstellen und Bearbeiten von Angeboten finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
 >Sie können bei der Auswahl von Objekten auf der Seite auf **[!UICONTROL Auswahl erweitern]** klicken, um das übergeordnete Element zusätzlich zum ursprünglich ausgewählten Element auszuwählen. Wenn Sie ein übergeordnetes Element auswählen, werden alle untergeordneten Elemente dieses Elements automatisch ausgewählt. Sie können diese Auswahl mehrere Male erweitern.
 >
->You can also use the [DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) to navigate elements.
+>Sie können auch den [DOM-Pfad](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) zum Navigieren in Elementen verwenden.
 
-## Bildangebote {#section_A48333211DB149ED926AE467D0032914}
+## Bildangebote  {#section_A48333211DB149ED926AE467D0032914}
 
 Testen Sie mehrere Bildangebote an einem Ort, um zu ermitteln, welches Bild am erfolgreichsten ist.
 
 1. Klicken Sie auf ein Bild auf Ihrer Seite und wählen Sie dann **[!UICONTROL Bild ändern]**.
 
-   ![Bild ändern, Option](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
+   ![Option „Bild ändern“](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
 1. Wählen Sie alle Bilder aus, die Sie in den Test einbeziehen möchten, und klicken Sie anschließend auf **[!UICONTROL Speichern]**.
 
-   ![Dialogfeld "Inhalt auswählen" zum Hinzufügen von Bildern](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
+   ![Dialogfeld „Inhalt auswählen“ zum Hinzufügen von Bildern](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
 Jedes Bild wird zu einem eigenen Erlebnis an diesem Ort.
 
-## HTML-Angebote {#section_DF016101AFA9412C9B99862C23DE77B1}
+## HTML-Angebote  {#section_DF016101AFA9412C9B99862C23DE77B1}
 
 Testen Sie mehrere Text-/HTML-Angebote an einem Ort, um zu ermitteln, welches Angebot am erfolgreichsten ist.
 
@@ -60,7 +60,7 @@ Jedes Text-/HTML-Angebot wird zu einem eigenen Erlebnis an diesem Ort.
 * Sie können nun bei der Erstellung von multivariaten Tests über 10 Prozent der Erlebnisse aus dem Test ausschließen, vorausgesetzt Sie sind damit einverstanden, dass für die Analyse Offline-Berichterstellungen genutzt werden.
 * Nutzen Sie die Vorschaufunktion, um unerwünschte Inhaltskombinationen zu vermeiden. Zum Beispiel kann es zwei Bilder geben, die verschiedene Rabatte für denselben Artikel oder Service anbieten. Wenn beide Bilder auf derselben Seite eingeblendet werden, ist dies unlogisch und sorgt wahrscheinlich für Verwirrung.
 * Verwenden Sie die Traffic-Schätzung, um sicherzustellen, dass Ihr Test für das Datenverkehrsaufkommen konzipiert ist, das auf Ihrer Seite anfällt. Vergewissern Sie sich, dass die Traffic-Schätzung Ihre Testkonfiguration freigibt, sodass Sie die gewünschten Ergebnisse erhalten.
-* Sie müssen mindestens drei Testelemente haben. Wenn Sie weniger haben, starten Sie eine Reihe von A/B-Tests.
+* Sie müssen mindestens drei Testelemente haben. Wenn Sie weniger haben, starten Sie eine Reihe von  A/B-Tests.
 * Es wird empfohlen, dass sich die Alternativen der einzelnen Elemente deutlich voneinander unterscheiden.
 * Eine bewährte, wenn auch nicht erforderliche Vorgehensweise besteht darin, für jedes Element die gleiche Anzahl von Alternativen zu verwenden.
 
