@@ -1,8 +1,8 @@
 ---
 description: 'Informationen zur Funktion adobe.target.getOffers() für at.js. '
-keywords: adobe.target.getOffers;getOffers;get-Angebote;at.js;Funktionen;Funktion
-seo-description: Informationen über die Funktion adobe.target.getOffers(options) für die JavaScript-Bibliothek von Adobe Target at.js.
-seo-title: Informationen über die Funktion adobe.target.getOffers() für die JavaScript-Bibliothek von Adobe Target at.js.
+keywords: adobe.target.getoffers;Getoffers;getoffers;Angebote abrufen;at.js;Funktionen;funktion
+seo-description: Informationen über die Funktion adobe.target.getOffers(options) für die JavaScript-Bibliothek von Adobe Target „at.js“.
+seo-title: Informationen über die Funktion adobe.target.getOffers() für die JavaScript-Bibliothek von Adobe Target „at.js“.
 solution: Target
 subtopic: Erste Schritte
 title: adobe.target.getOffers(options)
@@ -23,7 +23,7 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 
 | Schlüssel | Typ | Erforderlich? | Beschreibung |
 | --- | --- | --- | --- |
-| consumerId | Zeichenfolge | Nein | Der Standardwert ist die globale Mbox des Kunden, falls nicht angegeben. Dieser Schlüssel wird verwendet, um die ID für zusätzliche Daten zu generieren, die für die A4T-Integration verwendet wird. Dieser Schlüssel ist eine eindeutige Zeichenfolge pro Besucher. |
+| consumerId | Zeichenfolge | Nein | Der Standardwert ist die globale Mbox des Kunden, falls nicht angegeben. Dieser Schlüssel wird verwendet, um die zusätzliche Daten-ID für die A4T-Integration zu generieren. Dieser Schlüssel ist eine eindeutige Zeichenfolge für jeden Besucher. |
 | Anfrage | Objekt | Ja | Siehe Anforderungstabelle unten. |
 | Zeitüberschreitung | Nummer | Nein | Zeitüberschreitung der Anfrage. Wenn nicht angegeben, wird die standardmäßige at.js-Zeitüberschreitung verwendet. |
 
