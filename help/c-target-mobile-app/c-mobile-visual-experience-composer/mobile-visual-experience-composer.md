@@ -20,7 +20,7 @@ Der bestehende [Visual Experience Composer](../../c-experiences/experiences.md#s
 
 Der Mobile App VEC unterstützt die in [Unterstützte Browser](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) aufgeführten Browser.
 
-## Verwenden von Visual Experience Composer für native Apps {#using-the-mobile-vec}
+## Verwenden von Visual Experience Composer für native Apps  {#using-the-mobile-vec}
 
 Die folgende Illustration stellt den Prozess der Verwendung des Mobile App VEC dar:
 
