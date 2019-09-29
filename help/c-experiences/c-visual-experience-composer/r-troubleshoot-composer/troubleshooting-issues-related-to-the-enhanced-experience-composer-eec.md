@@ -40,13 +40,13 @@ Nachstehend sind die Ursachen für diese Fehlermeldung und die Lösungen zum Kor
 
    **Abhilfe:** Fügen Sie die oben aufgeführten IP-Adressen der Whitelist hinzu.
 
-* **Problem:** Die IP-Adressen befinden sich auf der Whitelist, Ihre Website unterstützt jedoch nicht TLS 1.2. Target verwendet zurzeit 1.2 in der Standardkonfiguration. Vor Target 18.4.1 (25. April 2018) wurde TLS 1.0 von der Standardkonfiguration unterstützt. Weitere Informationen finden Sie unter [Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **Problem:** Die IP-Adressen befinden sich auf der Whitelist, Ihre Website unterstützt jedoch nicht TLS 1.2. Target verwendet zurzeit 1.2 in der Standardkonfiguration. Vor Target 18.4.1 (25. April 2018) wurde TLS 1.0 von der Standardkonfiguration unterstützt. Weitere Informationen finden Sie unter  [Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
    **Lösung:** Siehe die folgende Frage (Der Enhanced Visual Experience Composer wird auf sicheren Seiten auf meiner Website, für die TLS 1.2 verwendet wird, nicht geladen).
 
 ## Der EEC wird auf sicheren Seiten meiner Website, für die TLS 1.0 verwendet wird, nicht geladen. (nur EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Möglicherweise wird die zuvor unter „Der Enhanced Visual Experience Composer wird auf sicheren Seiten auf meiner Website, für die TLS 1.2 verwendet wird, nicht geladen“ beschriebene Fehlermeldung angezeigt. Dies kann geschehen, wenn die IP-Adressen sich auf der Whitelist befinden, Ihre Website jedoch TLS 1.2 nicht unterstützt. Target verwendet zurzeit 1.2 in der Standardkonfiguration. Vor Target 18.4.1 (25. April 2018) wurde TLS 1.0 von der Standardkonfiguration unterstützt. Weitere Informationen finden Sie unter [Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Möglicherweise wird die zuvor unter „Der Enhanced Visual Experience Composer wird auf sicheren Seiten auf meiner Website, für die TLS 1.2 verwendet wird, nicht geladen“ beschriebene Fehlermeldung angezeigt. Dies kann geschehen, wenn die IP-Adressen sich auf der Whitelist befinden, Ihre Website jedoch TLS 1.2 nicht unterstützt. Target verwendet zurzeit 1.2 in der Standardkonfiguration. Vor Target 18.4.1 (25. April 2018) wurde TLS 1.0 von der Standardkonfiguration unterstützt. Weitere Informationen finden Sie unter  [Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 So überprüfen Sie die TLS-Version auf Ihrer Website mit Firefox (bei anderen Browsern sind die Schritte ähnlich):
 
@@ -63,7 +63,7 @@ So überprüfen Sie die TLS-Version auf Ihrer Website mit Firefox (bei anderen B
 
    ![](assets/firefox_more_info_3.png)
 
-1. Wenn für Ihre Website TLS 1.0 angezeigt wird, finden Sie unter [Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) weitere Informationen über die TLS-Unterstützungsrichtlinie für Target. Um vorläufig Abhilfe zu schaffen (gültig bis 12. September 2018), wenden Sie sich zur Konfiguration mit Ihrer TLS-Version und der Domäne an die [Kundenunterstützung](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+1. Wenn für Ihre Website TLS 1.0 angezeigt wird, finden Sie unter  [Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) weitere Informationen über die TLS-Unterstützungsrichtlinie für Target. Um vorläufig Abhilfe zu schaffen (gültig bis 12. September 2018), wenden Sie sich zur Konfiguration mit Ihrer TLS-Version und der Domäne an die [Kundenunterstützung](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 ## Beim Laden von Seiten mit aktiviertem Proxy werden Fehlermeldungen zu Zeitüberschreitungen oder verweigertem Zugriff ausgegeben. (nur EEC) {#section_60CBB9022DC449F593606C0E6252302D}
 
