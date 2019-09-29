@@ -19,7 +19,7 @@ Informationen dazu, wie Sie die Elemente festlegen können, die in Berichten auf
 
 Möchten Sie einen Bericht anzeigen, klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **Berichte[!UICONTROL .]**
 
-![Benutzeroberfläche für Bericht](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+![Benutzeroberfläche für den Bericht](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Zielvorgabe {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -36,7 +36,7 @@ Sie können auch einzelne Aktivitätsberichte nach Bedarf konfigurieren und als 
 
    Das Dialogfeld für eine neue Voreinstellung wird angezeigt:
 
-   ![Neues Vorgabendialogfeld](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
+   ![Dialogfeld für neue Voreinstellung](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. Überprüfen Sie die Informationen in den Abschnitten „Filter“ und „Einstellungen“, um sicherzustellen, dass der Bericht wie gewünscht konfiguriert ist, und geben Sie dann den **[!UICONTROL Vorgabenamen]** (bis zu 50 Zeichen) an.
 1. (Optional) Wenn Sie die Berichtsansicht als Standard oder Favoriten festlegen möchten, aktivieren Sie **[!UICONTROL Als Standardeinstellung festlegen].**
@@ -46,7 +46,7 @@ Sie können auch einzelne Aktivitätsberichte nach Bedarf konfigurieren und als 
 
 Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Zielvorgabe]aus.**
 
-![Vorgabendropdown-Liste](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
+![Voreinstellungs-Dropdownliste](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
 **Voreinstellung bearbeiten**
 
@@ -63,14 +63,14 @@ Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Z
 
    Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Aktualisieren], um die aktuelle Vorgabe zu ändern.**
 
-   ![Standardupdate für Bericht](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
+   ![Aktualisierung des Berichts](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **Voreinstellung löschen**
 
 1. Wählen Sie die Voreinstellung aus, die Sie löschen möchten.
 1. Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Löschen]**.
 
-   ![Standardmäßige Löschung von Berichten](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
+   ![Löschung des Berichts](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. Klicken Sie erneut auf **[!UICONTROL Löschen], um den Löschvorgang zu bestätigen.**
 
@@ -92,7 +92,7 @@ Klicken Sie auf die Dropdown-Liste **[!UICONTROL Berichtsmetrik]**, um eine ande
 
 Standardmäßig wird die primäre Metrik in der Einrichtung der Erfolgsmetriken beim Erstellen der Aktivität bestimmt. Wenn Sie die Einrichtung ändern und die Aktivität erneut speichern, wird die primäre Metrik für die Berichterstattung aktualisiert.
 
-Weitere Informationen zum Auswählen mehrerer Metriken für die Anzeige in Berichten finden Sie unter [Mehrere Metriken in einem Bericht anzeigen](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Weitere Informationen zum Auswählen mehrerer Metriken für die Anzeige in Berichten finden Sie unter  [Mehrere Metriken in einem Bericht anzeigen](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Zielgruppe {#section_70926EB4618945D9AFF2B0564FF3717B}
 
@@ -122,7 +122,7 @@ Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu konfigurieren
 
 In der folgenden Illustration ist das Einstellungsdialogfeld für eine A/B-Aktivität dargestellt:
 
-![Einstellungen, Dialogfeld](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
+![Dialogfeld für Einstellungen](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
 
 Die Optionen variieren abhängig vom gewählten Aktivitätstyp:
 
@@ -150,11 +150,11 @@ Klicken Sie auf das Symbol „Herunterladen“, um Berichtsdaten in einem [!DNL 
 
 Klicken Sie auf das Aktualisierungssymbol, um die Tabellen- und Diagrammansicht eines Berichts zu aktualisieren, ohne dass die gesamte Seite, die Konfiguration oder der Datumsbereich aktualisiert werden muss.
 
-## Weitere Optionen {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## Weitere Optionen  {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Klicken Sie auf das Symbol für weitere Optionen (drei vertikale Ellipsen), um auf die Optionen [!UICONTROL „Aktivität bearbeiten“] und [!UICONTROL „Erlebnis-URLs anzeigen“] zuzugreifen.
 
-## Tabellenansicht {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## Tabellenansicht  {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
 Klicken Sie auf das Symbol für **[!UICONTROL Tabellenansicht], um den Bericht in Tabellenform anzuzeigen.**
 
@@ -173,7 +173,7 @@ Beachten Sie Folgendes:
 * Nur verfügbar, wenn Berichte in der Tabellenansicht angezeigt werden.
 * Diese Funktion steht nicht für Aktivitäten zur Verfügung, die Analytics als Berichtsquelle verwenden (A4T).
 
-## Ortsbeschränkung {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Ortsbeschränkung  {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Klicken Sie auf das Symbol **[!UICONTROL Location Contribution], um den Bericht zu wechseln, sodass der Beitrag nach Standort angezeigt wird.**
 
@@ -183,7 +183,7 @@ Klicken Sie auf das Symbol **[!UICONTROL Location Contribution], um den Bericht 
 
 Wählen Sie auf der linken Seite des Diagramms Erlebnisse aus oder heben Sie die Auswahl auf, um die entsprechenden Erlebnisse in das Diagramm ein- oder aus dem Diagramm auszublenden.
 
-Wenn die folgende Abbildung gezeigt wird, werden nur die Erlebnisse Default, Mid East und Total im Bericht angezeigt. Das Asien-Erlebnis wird im Diagramm ausgeblendet.
+In der folgenden Abbildung werden nur die Erlebnisse Default, Mid-East und Total im Bericht angezeigt. Das Asien-Erlebnis wird im Diagramm ausgeblendet.
 
 ![Erlebnisse](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
@@ -198,7 +198,7 @@ Wählen Sie die gewünschte Grafikansicht:
 * Täglich
 * Tägliche Steigerung
 
-![Bericht läuft durchschnittlich](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
+![Bericht „Gleitendes Mittel“](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
