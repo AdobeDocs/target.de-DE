@@ -34,7 +34,7 @@ Sie können einen Ordner oder ein Angebot bearbeiten oder kopieren, indem Sie mi
 
 ![](assets/offer-picker-large.png)
 
-## Angebotsdefinitionen anzeigen {#section_6B059DD121434E6292CAB393507D010E}
+## Angebotsdefinitionen anzeigen  {#section_6B059DD121434E6292CAB393507D010E}
 
 Sie können Details zur Angebotsdefinition in einer Pop-up-Karte in der Angebotsbibliothek anzeigen, ohne das Angebot zu öffnen.
 
