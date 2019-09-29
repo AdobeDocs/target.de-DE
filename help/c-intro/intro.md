@@ -17,7 +17,7 @@ source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 
-Die folgenden Videos bieten ein Grundverständnis darüber, wie Target zusammen mit anderen Adobe Experience Cloud-Lösungen Ihre Organisation bei der Erreichung ihrer Ziele unterstützen kann:
+In den folgenden Videos wird kurz erläutert, wie Sie Target gemeinsam mit anderen Adobe Experience Cloud-Lösungen beim Erreichen Ihrer Unternehmensziele unterstützen kann:
 
 >[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
 
@@ -31,7 +31,7 @@ Die [!DNL Adobe Target]-Lösung enthält verschiedene Komponenten:
 | Target Premium | ergänzt die Target Standard-Oberfläche um Premium-Funktionen. |
 | Recommendations Classic | Zeigt automatisch Produkte oder Inhalte an, die ausgehend von der bisherigen Benutzeraktivität auf Ihrer Website für die betreffenden Kunden von Interesse sein könnten. |
 
-## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## Target Standard  {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
 [!DNL Target Standard] bietet ein vereinfachtes Frontend von [!DNL Adobe Target], mit dem Sie visuell A/B-Tests und regelbasierte Targeting-Aktivitäten erstellen und eine Verbindung zu Adobe Experience Cloud herstellen können. [!DNL Target Standard] unterstützt auch das Einfügen von benutzerdefiniertem Code sowohl im als auch außerhalb des [!UICONTROL Visual Experience Composer]-Arbeitsablaufs. [!DNL Target Standard] bietet außerdem eine vereinfachte Implementierungsstrategie für Ihre digitalen Eigenschaften: Nur eine einzelne Codezeile auf jeder Seite verwaltet die gesamte zwischen Ihrer Site und [!DNL Adobe Target] erforderliche Kommunikation.
 
@@ -57,7 +57,7 @@ Bei [Automatisches Targeting für personalisierte Erlebnisse](../c-activities/au
 
 ### Recommendations
 
-[Recommendations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten für Ihre Kunden interessant sein könnten. Empfehlungen tragen dazu bei, Kunden zu relevanten Elementen zu lenken, von denen sie andernfalls möglicherweise nichts wissen.
+[Recommendations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten für Ihre Kunden interessant sein könnten. Mit diesen Empfehlungen stellen Sie Kunden relevante Artikel vor, von denen diese andernfalls möglicherweise nichts gewusst hätten.
 
 Eine Empfehlung bestimmt, wie ein Produkt einem Kunden je nach dessen Aktivitäten auf der Site vorgeschlagen werden soll. Beispiel:
 
@@ -94,9 +94,9 @@ Mit der [Berechtigungsfunktion für Unternehmensbenutzer](../administrating-targ
 
 Weitere Informationen finden Sie in der [Dokumentation zu Recommendations Classic](../assets/adobe-recommendations-classic.pdf).
 
-## Experience League: The Adobe Target Welcome Kit {#kit}
+## Experience League: Das Adobe Target Welcome Kit {#kit}
 
-Erstellen Sie mit diesem Begrüßungs-Kit Ihre Optimierungs- und Personalisierungsprogramme für Adobe Target! Es enthält wichtige Informationen, Werkzeuge und Ressourcen, die Ihnen bei der Vorbereitung und dem Start Ihrer ersten Adobe Target-Aktivität helfen und mit kurzen quickwins und langfristigen Optimierungsstrategien beginnen.
+Mit diesem Welcome Kit können Sie ein Optimierungs- und Personalisierungsprogramm in Adobe Target erstellen. Es enthält wichtige Informationen, Werkzeuge und Ressourcen, die Ihnen bei der Vorbereitung und dem Start Ihrer ersten Adobe Target-Aktivität helfen. Es bietet auch Strategien für kurzfristige Gewinne und langfristige Optimierungsmaßnahmen.
 
 [Das Adobe Target-Begrüßungs-Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
