@@ -298,7 +298,7 @@ Aktualisiert nur Profile. Kann kein Profil für einen potenziellen Benutzer erst
 
 ### Beispiele für Codes
 
-GET und POST werden unterstützt. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+GET und POST werden unterstützt.  `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
 ### Links zu relevanten Informationen
 
