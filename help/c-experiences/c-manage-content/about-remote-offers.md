@@ -1,7 +1,7 @@
 ---
 description: Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich in einem Inhaltsverwaltungssystem oder einem anderen System befinden, entweder aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen.
 keywords: Remote-Angebot;Auswahlmatrix für Remote-Angebote;gecachter Inhalt;dynamischer Inhalt
-seo-description: Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich in einem Inhaltsverwaltungssystem oder einem anderen System befinden, entweder aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen.
+seo-description: Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen in einem Content-Management- oder einem anderen System befinden.
 seo-title: Remote-Angebote erstellen
 solution: Target
 title: Remote-Angebote erstellen
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Remote-Angebote erstellen{#create-remote-offers}
 
-Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich in einem Inhaltsverwaltungssystem oder einem anderen System befinden, entweder aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen.
+Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen in einem Content-Management- oder einem anderen System befinden.
 
 >[!NOTE]
 >
