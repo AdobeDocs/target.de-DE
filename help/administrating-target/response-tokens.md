@@ -2,7 +2,7 @@
 description: Mithilfe von Antwort-Token können Sie Target-spezifische Informationen automatisch ausgeben (Kampagnendetails, Benutzerprofilinformationen, Geoinformationen usw.), um sie im Debugging zu verwenden oder in Drittanbietersysteme zu integrieren (z. B. Clicktale).
 keywords: Antwort-Token;Token;Plugins;Plug-ins;at.js
 seo-description: Mithilfe von Antwort-Token können Sie Target-spezifische Informationen automatisch ausgeben (Kampagnendetails, Benutzerprofilinformationen, Geoinformationen usw.), um sie im Debugging zu verwenden oder in Drittanbietersysteme zu integrieren (z. B. Clicktale).
-seo-title: Token für Antworten in Adobe Target
+seo-title: Antwort-Token in Adobe Target
 solution: Target
 subtopic: Erste Schritte
 title: Antwort-Token
@@ -20,7 +20,7 @@ Mithilfe von Antwort-Token können Sie Target-spezifische Informationen automati
 
 Adobe Target Classic verfügte über eine Funktion mit der Bezeichnung „Server-Plug-ins“, mit deren Hilfe Sie JavaScript senden konnten, das mit einer Mbox-Antwort ausgeführt wurde. Antwort-Token ähneln Plug-ins: Sie ermöglichen Ihnen das Abrufen von Target-spezifischen Informationen, die an anderer Stelle verwendet werden sollen. Mit Antwort-Token können Sie wählen, welche Variablen Sie verwenden möchten. Anschließend können Sie sie aktivieren, damit sie als Bestandteil einer Mbox-Antwort gesendet werden. Dazu aktivieren Sie einfach eine Variable mithilfe des Switches. Daraufhin wird die Variable mit Mbox-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Antwort-Token können auch im Vorschaumodus verwendet werden.
 
-Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, dass Plug-ins JavaScript für die Seite bereitstellen, das bei Bereitstellung ausgeführt wird, wohingegen Antwort-Token ein Objekt bereitstellen, das anschließend gelesen und auf das mithilfe von Ereignislistenern reagiert werden kann. Weitere Informationen finden Sie unter [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) und in den Beispielen im späteren Verlauf dieses Artikels. Der Ansatz der Antwort-Token ist sicherer und ermöglicht eine problemlosere Bereitstellung und Wartung von Drittanbieterintegrationen.
+Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, dass Plug-ins JavaScript für die Seite bereitstellen, das bei Bereitstellung ausgeführt wird, wohingegen Antwort-Token ein Objekt bereitstellen, das anschließend gelesen und auf das mithilfe von Ereignislistenern reagiert werden kann. Weitere Informationen finden Sie unter  [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) und in den Beispielen im späteren Verlauf dieses Artikels. Der Ansatz der Antwort-Token ist sicherer und ermöglicht eine problemlosere Bereitstellung und Wartung von Drittanbieterintegrationen.
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Wie zuvor erwähnt, agieren Antwort-Token mit den für Benutzer gespeicherten Pr
 
 Target führt in regelmäßigen Abständen eine Aktualisierung der Attribute durch. Nicht aktivierte Attribute werden bei der nächsten Aktualisierung entfernt. Wenn jedoch ein Attribut vorhanden ist, das aktiviert und entfernt wurde (wenn Sie beispielsweise ein als Token verwendetes Profilskript entfernt haben), wird dieses Skript erst nach dessen Deaktivierung aus der Attributliste entfernt. Target entfernt die deaktivierten Attribute erst aus der Liste, wenn sie gelöscht oder umbenannt werden.
 
-## Senden von Daten an Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Senden von Daten an Google Analytics via at.js  {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Daten können via at.js an Google Analytics gesendet werden, indem Sie auf der HTML-Seite den folgenden Code hinzufügen:
 
@@ -230,7 +230,7 @@ Daten können via at.js an Google Analytics gesendet werden, indem Sie auf der H
 </script>
 ```
 
-## Debugging (ähnelt dem ttMeta-Plug-in) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## Debugging (ähnelt dem ttMeta-Plug-in)  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen des folgenden Codes zu der HTML-Seite erstellt werden:
 
@@ -284,6 +284,6 @@ Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen
 
 ## Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Antworttoken und benutzerdefinierte at. js-Ereignisse verwenden, um Profilinformationen von Target auf Drittanbietersysteme freizugeben.
+Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Antwort-Token und benutzerspezifische at.js-Ereignisse verwenden können, um Profilinformationen aus Target an Drittanbietersysteme zu übergeben.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=ger)
