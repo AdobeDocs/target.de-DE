@@ -30,7 +30,7 @@ Beachten Sie beim Arbeiten mit Kundenattributen und Target die folgenden Informa
 
 * Sie müssen einige Voraussetzungen erfüllen, bevor Sie die Funktion [!UICONTROL Kundenattribute] im Core-Service [!DNL People] verwenden können. For more information, see "Prerequisites for Uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Core Services User Guide*. Beachten Sie, dass [!DNL at.js] (beliebige Version) oder [!DNL mbox.js], Version 58 oder neuer erforderlich ist.
 * Adobe kann nicht garantieren, dass 100 % der Kundenattribut (Besucherprofil)-Daten aus CRM-Datenbanken in die Experience Cloud integriert werden und somit für die Targeting-Verwendung in Target verfügbar sind. In unserem aktuellen Design besteht die Möglichkeit, dass ein geringer Prozentsatz der Daten nicht integriert wird.
-* Die Lebensdauer der aus der Experience Cloud in Target importierten Kundenattributdaten ist von der Lebensdauer des Besucherprofils abhängig, die standardmäßig 14 Tage beträgt. Weitere Informationen finden Sie unter [Lebensdauer des Besucherprofils](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
+* Die Lebensdauer der aus der Experience Cloud in Target importierten Kundenattributdaten ist von der Lebensdauer des Besucherprofils abhängig, die standardmäßig 14 Tage beträgt. Weitere Informationen finden Sie unter  [Lebensdauer des Besucherprofils](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
 * Wenn die `vst.*`-Parameter das Einzige sind, was den Benutzer identifiziert, wird das vorhandene „authentifizierte“ Profil nicht abgerufen, solange `authState` UNAUTHENTICATED (0) ist. Das Profil kommt nur ins Spiel, wenn `authState` in UNAUTHENTICATED (1) geändert wird.
 
    Wenn beispielsweise der Parameter `vst.myDataSource.id` verwendet wird, um den Benutzer zu identifizieren (wobei `myDataSource` der Aliasname für die Datenquelle ist), und es keine MCID oder Drittanbieter-ID gibt, ruft die Verwendung des Parameters `vst.myDataSource.authState=0` nicht das Profil auf, das möglicherweise durch einen Kundenattribut-Import erstellt wurde. Wenn das gewünschte Verhalten darin bestehen soll, das authentifizierte Profil aufzurufen, muss `vst.myDataSource.authState` den Wert 1 (AUTHENTICATED) haben.
@@ -126,7 +126,7 @@ Wenn Sie den Experience Cloud ID-Service verwenden, müssen Sie eine Kunden-ID u
 
 Weitere Informationen zum Verwenden von Kundenattributen in [!DNL Target] finden Sie unter den folgenden Ressourcen:
 
-* Erstellen[Sie eine Kundenattributquelle und laden Sie die Datendatei](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) im *Core Services-Benutzerhandbuch hoch.*
+* Create a customer attribute source and upload the data file in the Core Services User Guide[](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html)**
 * [Kundenattribute: Je mehr Details, desto besser die Verbindung](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) im *Digital Marketing-Blog*
 
 ## Häufig von Kunden erkannte Probleme {#section_BE0F70E563F64294B17087DE2BC1E74C}
