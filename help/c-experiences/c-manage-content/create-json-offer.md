@@ -24,9 +24,9 @@ Beachten Sie Folgendes, wenn Sie mit JSON-Angeboten arbeiten:
 * JSON-Angebote sind derzeit nur für AB- und XT-Aktivitäten verfügbar.
 * JSON-Angebote können nur in formularbasierten Aktivitäten verwendet werden.
 * JSON kann direkt abgerufen werden, wenn Sie die Server-seitige API, das Mobile-SDK oder das NodeJS-SDK verwenden.
-* Im Browser kann JSON NUR über at.js 1.2.3 (oder neuer) und mit [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) abgerufen werden, indem Aktionen mit der Aktion `setJson` gefiltert werden.
+* Im Browser kann JSON NUR über at.js 1.2.3 (oder neuer) und mit  [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) abgerufen werden, indem Aktionen mit der Aktion `setJson` gefiltert werden.
 * JSON-Angebote werden als native JSON-Objekte und nicht als Zeichenfolgen ausgeliefert. Nutzer dieser Objekte müssen diese also nicht mehr als Zeichenfolgen behandeln und in JSON-Objekte konvertieren.
-* JSON-Angebote werden im Gegensatz zu anderen Angeboten (z. B. HTML-Angeboten) nicht automatisch eingesetzt, da es sich bei JSON-Angeboten um nicht visuelle Angebote handelt. Der Entwickler muss Code schreiben, um das Angebot explizit zum Einsatz zu bringen. [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
+* JSON-Angebote werden im Gegensatz zu anderen Angeboten (z. B. HTML-Angeboten) nicht automatisch eingesetzt, da es sich bei JSON-Angeboten um nicht visuelle Angebote handelt. Der Entwickler muss Code schreiben, um das Angebot explizit zum Einsatz zu bringen.  [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
 * Wenn Sie mbox.js verwenden, werden JSON-Angebote nicht unterstützt.
 
 ## Erstellen eines JSON-Angebots {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
@@ -129,7 +129,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Filterung von Angeboten nach dem JSON-Angebotstyp {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## Filterung von Angeboten nach dem JSON-Angebotstyp  {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
 Sie können die Angebotsbibliothek nach dem JSON-Angebotstyp filtern, indem Sie auf die Dropdownliste **[!UICONTROL Typ]** klicken und dann das Kontrollkästchen **JSON]aktivieren.[!UICONTROL **
 
