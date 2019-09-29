@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlungsvorlagen anzupassen.
 
-## Velocity overview {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Velocity-Übersicht {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 Informationen über Velocity finden Sie unter [](https://velocity.apache.org)https://velocity.apache.org.
 
@@ -157,7 +157,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 Sie können `algorithm.name` und `algorithm.dayCount` als Variablen in Entwürfen verwenden, sodass ein Design zum Testen mehrerer Kriterien verwendet und der Kriterienname dynamisch in dem Design angezeigt werden kann. Dies zeigt dem Besucher, dass er „Topverkäufe“ oder „Kunden, die diesen Artikel angesehen haben, haben folgende Artikel gekauft“ sieht. Sie können diese Variablen sogar dazu verwenden, den `dayCount` anzuzeigen (Anzahl der Tage, deren Daten vom Kriterium verwendet werden, z. B. „Topverkäufe während der beiden letzten Tage“ usw.).
 
-## Scenario: Display key item with recommended products {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Szenario: Schlüsselelement mit empfohlenen Produkten anzeigen {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Sie können Ihren Entwurf ändern, um Ihre Schlüsselelemente neben anderen empfohlenen Produkten anzuzeigen. Sie möchten zum Beispiel das aktuelle Element als Referenz neben den Empfehlungen anzeigen.
 
@@ -180,7 +180,7 @@ Das Ergebnis ist ein Entwurf wie der folgende, in dem das Schlüsselelement in e
 
 Wenn Sie Ihre [!DNL Recommendations]-Aktivität erstellen und das Schlüsselelement vom Benutzerprofil genommen wird, zum Beispiel „Zuletzt gekaufter Artikel“, zeigt [!DNL Target] ein zufällig ausgewähltes Produkt im [!UICONTROL Visual Experience Composer an]. Dies beruht darauf, dass ein Profil beim Erstellen der Aktivität nicht verfügbar ist. Wenn Besucher die Seite anzeigen, sehen sie das erwartete Schlüsselelement.
 
-## Scenario: Replace the decimal point with the comma delimiter in a sales price {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Szenario: Dezimalpunkt in einem Verkaufspreis durch Kommatrennzeichen ersetzen {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 Sie können Ihren Entwurf anpassen, um den Dezimalpunkt, der in den USA zum Einsatz kommt, durch ein Kommatrennzeichen zu ersetzen, wie es in Europa und anderen Ländern üblich ist.
 
@@ -206,15 +206,15 @@ Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreise
                                     </span>
 ```
 
-## Scenario: Create a 4x2 default Recommendations design with null-checking logic {#default}
+## Szenario: Erstellen Sie ein standardmäßiges Recommendations-Design von 4 x 2 mit Null-Prüfungen. {#default}
 
-Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
+Mithilfe eines Velocity-Skripts zur Steuerung der dynamischen Größe der Entitätsanzeige wird die folgende Vorlage für ein 1-zu-viele-Ergebnis verwendet, um zu verhindern, dass leere HTML-Elemente erstellt werden, wenn von [!DNL Recommendations]nicht genügend übereinstimmende Entitäten zurückgegeben werden. Dieses Skript eignet sich optimal für Szenarios, bei denen Reserveempfehlungen nicht sinnvoll sind und [!UICONTROL Teilweises Vorlagen-Rendering] aktiviert ist.
 
-Der folgende HTML-Abschnitt ersetzt den vorhandenen HTML-Teil im Standardentwurf von 4 x 2 (die CSS wird hier aufgrund der Ähnlichkeit nicht berücksichtigt):
+Der folgende HTML-Abschnitt ersetzt den vorhandenen HTML-Teil im Standardentwurf von 4 x 2 (die CSS ist hier aus Platzgründen nicht enthalten):
 
-* If a fifth entity exists, the script inserts a closing div and opens a new row with `<div class="at-table-row">`.
-* With 4x2, the maximum results shown will be eight, but this could be customized for smaller or larger lists by modifying `$count <=8`.
-* Beachten Sie, dass die Logik die Entitäten in mehreren Zeilen nicht ausgewogen abgleicht. Wenn es beispielsweise fünf oder sechs anzuzeigende Entitäten gibt, wird sie nicht dynamisch drei und zwei am unteren Ende (oder drei oben und drei unten) angezeigt. Die oberste Zeile zeigt vier Elemente, bevor Sie eine zweite Zeile starten.
+* Wenn eine fünfte Entität vorhanden ist, fügt das Skript ein schließendes div ein und öffnet eine neue Zeile mit `<div class="at-table-row">`.
+* Mit 4 x 2 werden maximal acht Ergebnisse angezeigt. Dies kann für kleinere oder größere Listen durch Ändern von `$count <=8` angepasst werden.
+* Beachten Sie, dass die Logik die Entitäten in mehreren Zeilen nicht ausgleicht. Wenn es beispielsweise fünf oder sechs anzuzeigende Entitäten gibt, werden nicht drei oben und zwei am unteren Ende (oder drei oben und drei unten) dynamisch angezeigt. Die oberste Zeile zeigt vier Elemente und beginnt dann mit einer zweiten Zeile.
 
 ```
 <div class="at-table">
