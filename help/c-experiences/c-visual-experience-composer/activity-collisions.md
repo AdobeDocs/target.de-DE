@@ -18,7 +18,7 @@ In der Registerkarte „Kollisionen“ auf der Seite „Aktivitätsübersicht“
 
 Eine Aktivitätskollision tritt auf, wenn mehrere Aktivitäten eingerichtet sind, die Inhalt für dieselbe Seite bereitstellen sollen. Tritt eine Aktivitätskollision auf, wird möglicherweise nicht der erwartete Inhalt auf Ihrer Seite angezeigt.
 
-Enthält Ihre Aktivität mögliche Kollisionen, wird die Registerkarte [!UICONTROL Kollisionen] auf der Aktivitätsübersichtsseite angezeigt. Es werden alle Aktivitäten mit der gleichen URL aufgelistet, unabhängig vom Zielgruppen-Targeting in der jeweiligen Aktivität. Auf dieser Registerkarte finden Sie eine Liste der möglicherweise kollidierenden Aktivitäten. Klicken Sie in der Liste auf eine Aktivität, damit eine Übersichtsseite für die Aktivität angezeigt wird. Führt die Kollision zu einer Änderung des erwarteten Erlebnisses, muss die Aktivität bearbeitet werden.
+Enthält Ihre Aktivität mögliche Kollisionen, wird die Registerkarte [!UICONTROL Kollisionen] auf der Aktivitätsübersichtsseite angezeigt. Dort werden unabhängig vom Zielgruppen-Targeting in den einzelnen Aktivität alle Aktivitäten auf der gleichen URL aufgelistet. Auf dieser Registerkarte finden Sie eine Liste der möglicherweise kollidierenden Aktivitäten. Klicken Sie in der Liste auf eine Aktivität, damit eine Übersichtsseite für die Aktivität angezeigt wird. Führt die Kollision zu einer Änderung des erwarteten Erlebnisses, muss die Aktivität bearbeitet werden.
 
 Die Kollisionsliste hilft Ihnen dabei:
 
