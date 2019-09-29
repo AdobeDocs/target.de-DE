@@ -58,7 +58,7 @@ Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt
 
 Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
-## Berichterstellungseinstellungen {#section_13119392051044FBA6387D9B3B1C43CF}
+## Berichterstellungseinstellungen  {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Die folgenden Einstellungen sind verfügbar:
 
