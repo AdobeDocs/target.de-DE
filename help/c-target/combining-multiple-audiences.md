@@ -25,11 +25,11 @@ Sie können mit den Operatoren AND und OR bis zu zehn Zielgruppen miteinander ko
 
 Sie können kombinierte Zielgruppen an verschiedenen Stellen der [!DNL Target]-Oberfläche verwenden.
 
-## Create a combined audience while creating an activity {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Erstellen einer kombinierten Zielgruppe bei Erstellung einer Aktivität {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad-hoc-Zielgruppe erstellen, während Sie durch den dreistufigen Prozess geleitet werden.
 
-1. While creating an [activity](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Target]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
+1. Klicken Sie beim Erstellen einer [Aktivität](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der **[!UICONTROL Target]**-Seite auf das Symbol mit den drei vertikalen Strichen und dann auf **[!UICONTROL Zielgruppe ändern]**.
 
    ![Schrittergebnis](assets/edit_audience.png)
 
@@ -47,11 +47,11 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
    1. Sie können per Drag-and-drop Zielgruppen eines bereits bestehenden Abschnitts als Bausteine der Stufe 2 hinzufügen. Möchten Sie Bausteine der Stufe 1 hinzufügen, aktivieren Sie das Kontrollkästchen neben der gewünschten Zielgruppe und klicken Sie auf **[!UICONTROL Zu Regeln hinzufügen]**.
 
-      Nehmen wir beispielsweise an, dass Sie jetzt Safari-Benutzer in die kombinierte Zielgruppe aufnehmen möchten. Suchen Sie nach der Zielgruppe "Safari Browser" und ziehen Sie sie auf der rechten Seite in das Feld" Firefox Browser" , wie im folgenden Beispiel:
+      Nehmen wir beispielsweise an, dass Sie im vorhin beschriebenen Szenario auch Safari-Anwender in die kombinierte Zielgruppe aufnehmen möchten. Suchen Sie nach der Zielgruppe „Safari Browser“ und ziehen Sie sie in das Feld „Firefox Browser“ rechts, wie unten dargestellt:
 
       ![](assets/combine_multiple_audiences3.png)
 
-      In diesem Fall lautet der Operator für die beiden Browsertypen „AND“. Wählen Sie die Dropdownliste Und aus und ändern Sie sie in "OR" , um eine neue kombinierte Zielgruppe für neue Besucher mit Firefox oder Safari zu erstellen. Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. Beispielsweise kann es nicht passieren, dass Benutzer eine Seite gleichzeitig mit Firefox und Safari besuchen.
+      In diesem Fall lautet der Operator für die beiden Browsertypen „AND“. Wählen Sie die Dropdownliste „AND“ aus und ändern Sie den Operator zu „OR“, um eine neue kombinierte Zielgruppe für neue Besucher mit den Browsern Safari oder Firefox zu erstellen. Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. So ist es beispielsweise nicht möglich, dass ein Besucher eine Seite mit Safari und gleichzeitig mit Firefox besucht.
 
       >[!NOTE]
       >
@@ -65,7 +65,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
       ![](assets/combine_multiple_audiences3b.png)
 
-      Um beispielsweise die US-Besucher aus neuen Besuchern auszuschließen, könnten Sie den Markt ziehen: Die US-Zielgruppe in das Feld, wie unten dargestellt:
+      Um z. B. Besucher aus den USA aus den neuen Besuchern auszuschließen, können Sie die Zielgruppe „Markt: USA“ wie unten gezeigt in das Feld ziehen:
 
       ![](assets/combine_multiple_audiences3b2.png)
 
@@ -77,12 +77,12 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
 1. Geben Sie einen beschreibenden Namen für die kombinierte Zielgruppe ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Create a combined audience for use in metric targeting {#section_A42E795AFCBD4575809C5942039910F0}
+## Erstellen einer kombinierten Zielgruppe zur Verwendung im Metrik-Targeting {#section_A42E795AFCBD4575809C5942039910F0}
 
 Sie können eine kombinierte Ad-hoc-Zielgruppe, die Sie im Metrik-Targeting verwenden möchten, auf der Seite [!UICONTROL Ziele und Einstellungen] der Aktivität erstellen. So erstellen Sie beispielsweise ein Targeting basierend auf Konversionen mithilfe einer kombinierten Zielgruppe:
 
 1. Wählen Sie beim Bearbeiten oder Erstellen einer [Aktivität](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der Seite **[!UICONTROL Ziele &amp; Einstellungen]** **[!UICONTROL Konversion]** für die Erfolgsmetrik aus und wählen Sie anschließend **[!UICONTROL Mbox angezeigt]** als Aktion aus.
-1. Wählen Sie die gewünschte Mbox aus dem Feld **[!UICONTROL Mbox suchen]aus.**
+1. Wählen Sie die gewünschte Mbox aus dem Feld **[!UICONTROL Mbox suchen]** aus.
 
    ![](assets/combine_multiple_audiences4.png)
 
@@ -103,7 +103,7 @@ Sie können eine kombinierte Ad-hoc-Zielgruppe auch auf der Seite [!UICONTROL Zi
 
 1. Fahren Sie mit [Schritt 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) unter „Erstellen einer kombinierten Zielgruppe bei Erstellung einer Aktivität“ fort, um die kombinierte Zielgruppe zu erstellen.
 
-## Create a combined audience while editing an activity {#section_364A12CE96E04B61B7C18113AA586C2C}
+## Erstellen einer kombinierten Zielgruppe bei Bearbeitung einer Aktivität {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 Sie können eine kombinierte Ad-hoc-Zielgruppe erstellen, während Sie eine bestehende Aktivität bearbeiten.
 
@@ -113,7 +113,7 @@ Sie können eine kombinierte Ad-hoc-Zielgruppe erstellen, während Sie eine best
 
    Klicken Sie auf die gewünschte Aktivität, um sie zu öffnen, und klicken Sie anschließend auf **[!UICONTROL Aktivität bearbeiten]**.
 
-1. Click the **[!UICONTROL Configure]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Multiple Audiences]**.
+1. Klicken Sie auf **[!UICONTROL Konfigurieren]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Mehrere Zielgruppen]**.
 
    ![Konfigurieren &gt; Zielgruppen &gt; Mehrere Zielgruppen](/help/c-target/assets/combine_multiple_audiences7.png)
 
