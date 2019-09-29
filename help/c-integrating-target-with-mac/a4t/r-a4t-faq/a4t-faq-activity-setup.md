@@ -25,7 +25,7 @@ Eine vollständige Liste finden Sie unter „Unterstützte Aktivitätstypen“ i
 
 Beim Erstellen einer Aktivität sendet Target eine Classifications-Datei an Analytics. Obwohl Analytics die Daten erfasst und verarbeitet, werden sie erst nach der Aktualisierung der Classifications-Datei in den Berichten angezeigt. Dies kann bis zu 24 Stunden dauern. Wenn Ihre Daten auch nach 48 Stunden noch nicht angezeigt werden, [wenden Sie sich an den Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Wenn Sie wissen, dass Sie eine Aktivität starten möchten, können Sie die Aktivität auch schon einige Tage im Voraus erstellen. Die Classifications werden dann gesendet, wenn die Aktivität gespeichert wird. Dadurch werden Ihre Daten gleich beim Start in den Berichten angezeigt. Bitte beachten Sie, dass es zwischen 45 und 90 Minuten dauern kann, bis die Daten in Analytics verarbeitet werden.
 
-## Warum kann ich Analytics nicht als meine Berichterstellungsquelle auswählen, wenn ich eine neue Aktivität erstelle? {#section_9F4F69C3085F4C2480AF439127EB27CD}
+## Warum kann ich Analytics nicht als meine Berichterstellungsquelle auswählen, wenn ich eine neue Aktivität erstelle?  {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 Sie können Ihre Berichterstellungseinstellungen bei der Einrichtung ändern.
 
