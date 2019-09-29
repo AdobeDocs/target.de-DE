@@ -1,8 +1,8 @@
 ---
-description: Verwenden Sie Zielgruppen, um verschiedene Inhalte und Erlebnisse auf bestimmte Zielgruppen zu zielen, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften an die richtigen Personen zur richtigen Zeit anzeigen.
+description: Richten Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen aus, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen.
 keywords: Targeting; Zielgruppen; Prozentziel
-seo-description: Verwenden Sie Zielgruppen in Adobe Target, um verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen zu zielen, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften an die richtigen Personen zur richtigen Zeit anzeigen.
-seo-title: Zielgruppen in Adobe Target
+seo-description: Richten Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen in Adobe Target aus, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen.
+seo-title: Zielgruppen in Adobe Target
 solution: Target
 title: Zielgruppen
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
@@ -14,11 +14,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Zielgruppen{#audiences}
 
-Verwenden Sie Zielgruppen, um verschiedene Inhalte und Erlebnisse auf bestimmte Zielgruppen zu zielen, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften an die richtigen Personen zur richtigen Zeit anzeigen.
+Richten Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen aus, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen.
 
-Eine Zielgruppe ist eine Gruppe ähnlicher Aktivitätsteilnehmer, die eine zielgerichtete Aktivität sehen werden. Eine Zielgruppe ist eine Gruppe von Personen mit denselben Merkmalen wie einem neuen Besucher, einem wiederkehrenden Besucher oder zurückkehrenden Besuchern aus der Mitte. Mit der Funktion Zielgruppe können Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen ausrichten, um Ihr digitales Marketing zu optimieren, indem Sie geeignete Botschaften an die richtigen Personen zur richtigen Zeit anzeigen. Wenn ein Besucher als Teil einer Zielgruppe identifiziert wird, bestimmt Target basierend auf den Kriterien, die während der Aktivitätserstellung definiert wurden, welches Erlebnis angezeigt werden soll.
+Eine Zielgruppe ist eine Gruppe ähnlicher Aktivitätsteilnehmer, für die eine zielgerichtete Aktivität angezeigt wird.  Eine Zielgruppe ist eine Gruppe von Personen mit denselben Merkmalen, wie z. B. ein neuer Besucher, ein wiederkehrender Besucher oder wiederkehrende Besucher aus einer bestimmten Region. Mit der Zielgruppenfunktion können Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen ausrichten, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen. Wird der Besucher als Teil einer Zielgruppe identifiziert, bestimmt Target basierend auf den Kriterien, die bei der Erstellung der Aktivität festgelegt wurden, welches Erlebnis angezeigt wird.
 
-Standardmäßig wird Traffic gleichmäßig zwischen Erlebnissen aufgeteilt. Sie können jedoch Prozentsatzziele für jedes Erlebnis angeben.
+Standardmäßig wird Traffic gleichmäßig zwischen Erlebnissen aufgeteilt. Sie können jedoch  Prozentsatzziele für jedes Erlebnis angeben.
 
 Ziele können außerdem regelbasiert sein. Ein regelbasiertes Ziel basiert auf über den Besucher erfassten Informationen, wie Standort, Browser, Betriebssystem, Mobilgerät oder anderen Daten des Besuchers.
 
@@ -28,7 +28,7 @@ Gelangt ein Besucher auf eine Seite, auf der Sie eine Aktivität eingerichtet ha
 
 Wird der Besucher als Teil der Zielgruppe identifiziert, bestimmt [!DNL Target] basierend auf den Kriterien, die bei der Erstellung der Aktivität festgelegt wurden, welches Erlebnis angezeigt wird.
 
-## Schulungsvideo: Aktivitäts-Targeting (2:13)
+## Schulungsvideo: Aktivitäts-Targeting  (2:13)
 
 Dieses Video enthält Informationen zur Einrichtung und zum Targeting von Zielgruppen.
 
