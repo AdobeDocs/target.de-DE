@@ -108,7 +108,7 @@ Bei der Firefox-Erweiterung „Modify Response Headers“ müssen Sie wie folgt 
 
 Öffnen Sie Target, nachdem Sie eine der Erweiterungen eingerichtet haben. Ihre Seiten sollten nun in Visual Experience Composer geladen werden, selbst wenn Enhanced Experience Composer deaktiviert ist.
 
-## Meine Seite wird im VEC nicht angezeigt (nur VEC) {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Meine Seite wird im VEC nicht angezeigt (nur VEC)  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * Der Browser wird nicht unterstützt.
 * Der Browser blockiert eine nicht sichere Seite auf einer sicheren Site.
