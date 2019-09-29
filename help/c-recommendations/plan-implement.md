@@ -29,7 +29,7 @@ Was Sie vor der Erstellung einer [!DNL Recommendations]-Aktivität wissen müsse
 |--- |--- |--- |
 | ![Schritt 1](/help/c-recommendations/assets/step1_red.png) | JavaScript-Bibliothek | Jede der Seiten muss einen Verweis auf at.js, Version 0.9.1 (oder neuer) oder mbox.js, Version 55 (oder neuer) enthalten. Dieser Implementierungsschritt ist auf allen Seiten erforderlich, auf denen eine Target-Aktivität verwendet wird; er kann Schlüssel wie eine Produkt- oder Kategorie-ID umfassen.<BR>Weitere Informationen zu at.js finden Sie unter [at.js-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Weitere Informationen zu mbox.js finden Sie unter [Mbox.js-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
 | ![Schritt 2](/help/c-recommendations/assets/step2_red.png) | Schlüssel | Der Schlüssel legt den Produkttyp bzw. den Inhaltstyp fest, der in Ihren Empfehlungen angezeigt wird. Zum Beispiel kann der Schlüssel eine Produktkategorie sein. Siehe [Aufbauen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). |
-| ![Schritt 3](/help/c-recommendations/assets/step3_red.png) | Attribute | Attribute liefern spezifischere Informationen über die Produkte, die Sie anzeigen möchten. Beispielsweise könnte es sein, dass Sie Produkte in einem bestimmten Preisbereich oder Artikel, deren Bestand einen Schwellenwert erreicht, anzeigen möchten. Attribute können in einer Mbox oder durch einen [Feed](/help/c-recommendations/c-products/feeds.md)bereitgestellt werden.<br>Siehe [Einschlussregeln](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) und [Entitätsattribute](/help/c-recommendations/c-products/entity-attributes.md). |
+| ![Schritt 3](/help/c-recommendations/assets/step3_red.png) | Attribute | Attribute liefern spezifischere Informationen über die Produkte, die Sie anzeigen möchten. Beispielsweise könnte es sein, dass Sie Produkte in einem bestimmten Preisbereich oder Artikel, deren Bestand einen Schwellenwert erreicht, anzeigen möchten. Attribute können in einer Mbox oder durch einen  [Feed](/help/c-recommendations/c-products/feeds.md) bereitgestellt werden.<br>Siehe [Einschlussregeln](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) und [Entitätsattribute](/help/c-recommendations/c-products/entity-attributes.md). |
 | ![Schritt 4](/help/c-recommendations/assets/step4_red.png) | Ausnahmen | Ausnahmen legen fest, welche spezifischen Artikel nicht in Ihren Empfehlungen angezeigt werden.<br>Siehe [Ausnahmen](/help/c-recommendations/c-products/exclusions.md). |
 | ![Schritt 5](/help/c-recommendations/assets/step5_red.png) | Kaufdetails | Kaufdetails enthalten Informationen über die gekauften Artikel und die Reihenfolge und die Bestellung nach Abschluss des Kaufs. |
 
@@ -44,11 +44,11 @@ Es gibt zwei Methoden für die Bereitstellung von Informationen über Produkte u
 | Methode | Beschreibung |
 |--- |--- |
 | Direkte Übermittlung von Parametern an die Seite | Diese Methode eignet sich gut für Elemente, die sich häufig ändern. Da hierfür jedoch die Vornahme von Änderungen direkt an der Seite notwendig ist, erfordert diese Methode in vielen Organisationen die Einbeziehung der IT-Abteilung und der Personen, die Seiten implementieren. |
-| Übermittlung von Parametern über einen Google- oder CSV-Feed | Diese Methode eignet sich gut für Sammlungen, die sich selten ändern. Normalerweise ist es nicht notwendig, Ihre Implementierung oder andere Seiten-Code zu ändern, um Produktinformationen über einen Feed bereitzustellen. Die Produktliste bleibt jedoch statisch, sodass schnelle Änderungen mit größeren Schwierigkeiten verbunden sind. Weitere Informationen finden Sie unter [Feeds](/help/c-recommendations/c-products/feeds.md). |
+| Übermittlung von Parametern über einen Google- oder CSV-Feed | Diese Methode eignet sich gut für Sammlungen, die sich selten ändern. Normalerweise ist es nicht notwendig, Ihre Implementierung oder Ihren Seiten-Code zu verändern, um Produktinformationen über ein Feed bereitzustellen. Die Produktliste bleibt jedoch statisch, sodass schnelle Änderungen mit größeren Schwierigkeiten verbunden sind. Weitere Informationen finden Sie unter [Feeds](/help/c-recommendations/c-products/feeds.md). |
 
 Diese Methoden können separat oder gemeinsam wie in den folgenden Beispielen verwendet werden.
 
-## Beispiel 1: Kombinieren von Seite und Feeds {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
+## Beispiel 1: Kombinieren von Seite und Feeds  {#section_DF6BAE4BF11548BD9C44D0A426BCF5A7}
 
 Eine übliche Implementierungsoption für [!DNL Recommendations] verwendet sowohl Seitenparameter als auch Feeds.
 
@@ -70,7 +70,7 @@ Verwenden Sie einen Feed, um Informationen bereitzustellen, die sich häufig nic
    * `entity.message`
    * Alle benutzerdefinierten Attribute
 
-Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
+Sobald der Feed eingerichtet und an die Seite weitergegeben [!DNL Recommendations]wird, übermitteln Sie Parameter auf der Seite für Attribute, die häufig geändert werden, d. h. häufiger als täglich.
 
 * Erforderliche Parameter
 
@@ -96,7 +96,7 @@ Dieses Beispiel kann von besonderem Nutzen für Medienunternehmen sein, deren In
    * `entity.categoryId`
    * Alle sonstigen Attribute
 
-## Beispielcode {#section_6E8A73376F30468BB549F337C4C220B1}
+## Beispielcode  {#section_6E8A73376F30468BB549F337C4C220B1}
 
 Sie können beispielsweise den folgenden Code in der Kopfzeile Ihrer Produkt- oder Inhaltsseiten verwenden:
 
@@ -113,7 +113,7 @@ function targetPageParams() {
 }
 ```
 
-Weitere Beispiele des Codes, den Sie auf verschiedenen Seitentypen verwenden können, finden Sie im Abschnitt [Implementierung nach Seitentyp](../c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
+Weitere Beispiele des Codes, den Sie auf verschiedenen Seitentypen verwenden können, finden Sie im Abschnitt  [Implementierung nach Seitentyp](../c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
 
 ## Implementierung nach Seitentyp {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
 
@@ -149,7 +149,7 @@ Weitere Informationen zur Implementierung [!DNL at.js]finden Sie unter [Bereitst
 
 Weitere Informationen zur Implementierung von [!DNL mbox.js] finden Sie unter [Mbox.js-Implementierung](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
-For more information about the differences between the two Target Javascript libraries, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+Weitere Informationen zu den Unterschieden zwischen den beiden Target-JavaScript-Bibliotheken finden Sie unter.[Vorteile von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Kategorieseite {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
@@ -182,7 +182,7 @@ function targetPageParams() {
 }
 ```
 
-## Einkaufswagenseite {#section_D37E48700F074556B925D0CA0291405E}
+## Einkaufswagenseite  {#section_D37E48700F074556B925D0CA0291405E}
 
 Wahrscheinlich möchten Sie auf einer Einkaufswagenseite einige Artikel aus Ihren Empfehlungen ausnehmen, wie zum Beispiel solche Artikel, die bereits im Einkaufswagen sind.
 
@@ -196,11 +196,11 @@ function targetPageParams() {
 </script>
 ```
 
-## Danksagungsseite {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+## Danksagungsseite  {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
 
 Möglicherweise möchten Sie auf der Danksagungsseite den Gesamtbetrag und die ID sowie die gekauften Produkte anzeigen, ohne weitere Artikel zu empfehlen. Sie können eine zweite Mbox implementieren, um die Bestellinformationen zu erfassen.
 
-* Lesen Sie bei der Verwendung von at.js [Konversions-Tracking](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* Lesen Sie bei der Verwendung von at.js  [Konversions-Tracking](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
 * Wenn Sie mbox.js verwenden, lesen Sie [Erstellen einer Mbox für Auftragsbestätigungen - mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
 
 ## Einstellungen {#concept_C1E1E2351413468692D6C21145EF0B84}
