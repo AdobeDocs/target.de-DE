@@ -16,11 +16,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Im Visual Experience Composer (VEC) und Enhanced Experience Composer (EEC) treten unter bestimmten Umständen mitunter Anzeigeprobleme auf.
 
-## Unterstützt Target Iframes auf mehreren Ebenen?
+## Unterstützt Target iFrames mit mehreren Ebenen?
 
-Target unterstützt keine mehrstufigen Iframes. Lädt Ihre Website einen iframe mit einem untergeordneten iframe, interagieren Target-Bibliotheken (at. js und mbox. js) nur mit dem übergeordneten iframe. Target-Bibliotheken interagieren nicht mit dem untergeordneten iframe.
+Nein, Target unterstützt keine iFrames mit mehreren Ebenen. Wenn Ihre Website einen iFrame mit einem untergeordneten iFrame lädt, interagieren Target-Bibliotheken (at.js und mbox.js) nur mit dem übergeordneten iFrame. Target-Bibliotheken interagieren nicht mit dem untergeordneten iFrame.
 
-Als Behelfslösung können Sie eine Seite im Erlebnis mit der URL des untergeordneten iframe hinzufügen.
+Als Behelfslösung können Sie im Erlebnis eine Seite mit der URL des untergeordneten iFrame hinzufügen.
 
 ## Wenn ich versuche, eine Seite zu bearbeiten, sehe ich lediglich ein Netz anstelle meiner Seite. (VEC und EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
@@ -63,11 +63,11 @@ Wir empfehlen allen VEC-Benutzern ein Upgrade auf die [neueste Version von mbox.
 
 ## Wenn ich ein Element auf der Seite ändere, ändern sich mehrere Elemente. (VEC und EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
-Wenn für mehrere Elemente auf der Seite die gleiche DOM-Element-ID verwendet wird, werden beim Ändern eines dieser Elemente alle Elemente mit dieser ID geändert. Um dies zu verhindern, sollte eine ID nur einmal auf jeder Seite verwendet werden. Dies ist eine übliche Best Practice für HTML. Weitere Informationen finden Sie unter [Szenarien für die Seitenmodifizierung](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Wenn für mehrere Elemente auf der Seite die gleiche DOM-Element-ID verwendet wird, werden beim Ändern eines dieser Elemente alle Elemente mit dieser ID geändert. Um dies zu verhindern, sollte eine ID nur einmal auf jeder Seite verwendet werden. Dies ist eine übliche Best Practice für HTML. Weitere Informationen finden Sie unter  [Szenarien für die Seitenmodifizierung](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Die Bearbeitung von Erlebnissen für eine Site, die iFrames zerstört, ist nicht möglich. (VEC und EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Dieses Problem kann durch die Aktivierung des Enhanced Experience Composer behoben werden. Klicken Sie auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Voreinstellungen]** und aktivieren Sie dann das Kontrollkästchen zum Aktivieren von Enhanced Experience Composer. Der Enhanced Experience Composer verwendet ein von Adobe verwaltetes Proxy, um Ihre Seite zur Bearbeitung zu laden. Dies ermöglicht Ihnen die Bearbeitung von Sites, die iFrames zerstören, sowie die Bearbeitung auf Sites und Seiten, auf denen Sie noch keinen Adobe Target-Code hinzugefügt haben. Solange kein Code hinzugefügt wurde, liefern die Aktivitäten nicht an die Site. Einige Websites werden in Enhanced Experience Composer möglicherweise nicht geladen. In diesem Fall können Sie diese Option deaktivieren, um Visual Experience Composer in einem iFrame zu laden. []
+Dieses Problem kann durch die Aktivierung des Enhanced Experience Composer behoben werden. Klicken Sie auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Voreinstellungen]** und aktivieren Sie dann das Kontrollkästchen zum Aktivieren von Enhanced Experience Composer. Der Enhanced Experience Composer verwendet ein von Adobe verwaltetes Proxy, um Ihre Seite zur Bearbeitung zu laden. Dies ermöglicht Ihnen die Bearbeitung von Sites, die iFrames zerstören, sowie die Bearbeitung auf Sites und Seiten, auf denen Sie noch keinen Adobe Target-Code hinzugefügt haben. Solange kein Code hinzugefügt wurde, liefern die Aktivitäten nicht an die Site. Einige Websites werden in Enhanced Experience Composer möglicherweise nicht geladen. In diesem Fall können Sie diese Option deaktivieren, um Visual Experience Composer in einem iFrame zu laden.  []
 
 >[!NOTE]
 >
