@@ -2,7 +2,7 @@
 description: Sie können Zielgruppen auf der Basis von Netzwerkdetails erstellen.
 keywords: Targeting; Netzwerk; Zielnetzwerk; ISP; Domänenname; Verbindungsgeschwindigkeit; Target ISP; Zieldomänenname; Zielverbindungsgeschwindigkeit
 seo-description: Sie können Zielgruppen in Adobe Target basierend auf Netzwerkdetails erstellen.
-seo-title: Erstellen Sie Zielgruppen in Adobe Target basierend auf Netzwerkdetails.
+seo-title: Erstellen von Zielgruppen in Adobe Target basierend auf Netzwerkdetails.
 solution: Target
 title: Netzwerk
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
@@ -55,9 +55,9 @@ Sie können Zielgruppen auf der Basis von Netzwerkdetails erstellen.
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
+Die folgende Abbildung zeigt eine Zielgruppe, die Besucher auswählt, die AT&amp;T mit einer Verbindungsgeschwindigkeit von [!UICONTROL Mobile] verwenden.
 
-![Netzwerkziel](assets/target_network.png)
+![Netzwerk als Zielgruppe](assets/target_network.png)
 
 ## Schulungsvideo: Erstellen von Zielgruppen
 
