@@ -1,8 +1,8 @@
 ---
 description: Entitäten beziehen sich auf die Artikel, die Sie empfehlen möchten. Entitäten können sich auf Verschiedenes beziehen, etwa auf Produkte, Inhalte (zum Beispiel Artikel, Slideshows, Bilder, Filme und Fernsehsendungen), Stellenausschreibungen, Restaurant und so weiter.
 keywords: Produkt; Sammlungen
-seo-description: Entitäten verweisen auf die Artikel, die Sie mit Adobe Target empfehlen möchten. Entitäten können sich auf Verschiedenes beziehen, etwa auf Produkte, Inhalte (zum Beispiel Artikel, Slideshows, Bilder, Filme und Fernsehsendungen), Stellenausschreibungen, Restaurant und so weiter.
-seo-title: Entitäten in Adobe Target
+seo-description: Entitäten beziehen sich auf die Artikel, die Sie mit Adobe Target empfehlen möchten. Entitäten können sich auf Verschiedenes beziehen, etwa auf Produkte, Inhalte (zum Beispiel Artikel, Slideshows, Bilder, Filme und Fernsehsendungen), Stellenausschreibungen, Restaurant und so weiter.
+seo-title: Entitäten in Adobe Target
 solution: Target
 title: Entitäten
 title-outputclass: premium
