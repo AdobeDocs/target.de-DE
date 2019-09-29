@@ -24,7 +24,7 @@ Weitere Informationen finden Sie in der [Dokumentation der Adobe Experience Clou
 
 Die folgenden Videos führen Sie Schritt für Schritt durch den Debugging-Prozess:
 
-### Hinzufügen der Adobe Experience Cloud-Debugger-Erweiterung {#section_8CD96F76E397476193529573F3199615}
+### Hinzufügen der Adobe Experience Cloud-Debugger-Erweiterung  {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?captions=ger)
 
