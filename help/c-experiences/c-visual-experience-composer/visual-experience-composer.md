@@ -14,9 +14,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Informationen zur Verwendung von Visual Experience Composer (VEC).
 
-VEC ist WYSIWYG-Benutzeroberfläche, mit der Sie personalisierte Erlebnisse und Angebote im Site-Kontext mühelos erstellen und testen können. Sie können Erlebnisse und Angebote für Target-Aktivitäten erstellen, indem Sie das Layout und den Inhalt einer Webseite (oder eines Angebots) oder einer mobilen Webseite per Drag &amp; Drop austauschen und austauschen.
+Der VEC verfügt über eine WYSIWYG-Benutzeroberfläche, mit der Sie einfach personalisierte Erlebnisse und Angebote für Websites erstellen und testen können. Sie können Erlebnisse und Angebote für Targeting-Aktivitäten erstellen, indem Sie das Layout und den Inhalt einer Webseite (oder eines Angebots) oder einer mobilen Webseite per Drag &amp; Drop austauschen und verändern.
 
-Der VEC ist eine der Hauptkomponenten von [!DNL Adobe Target]. Mit VEC können Marketingexperten und Designer Inhalte mithilfe einer visuellen Benutzeroberfläche erstellen und ändern. Viele Entwurfsentscheidungen können getroffen werden, ohne den Code direkt bearbeiten zu müssen. Die Bearbeitung von HTML und JavaScript ist über die Bearbeitungsoptionen, die im Composer verfügbar sind, ebenfalls möglich.
+Der VEC ist eine der Hauptkomponenten von [!DNL Adobe Target]. Der VEC ermöglicht Marketingexperten und Designern, Inhalte über eine visuelle Benutzeroberfläche zu erstellen und zu ändern. Viele Entwurfsentscheidungen können getroffen werden, ohne den Code direkt bearbeiten zu müssen. Die Bearbeitung von HTML und JavaScript ist über die Bearbeitungsoptionen, die im Composer verfügbar sind, ebenfalls möglich.
 
 Auf der Registerkarte **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Voreinstellungen]** von Target können Sie die Standard-URL von Visual Experience Composer eingeben.
 
