@@ -27,7 +27,7 @@ Nach der Implementierung von Analytics als Berichtsquelle für Target sind Sie a
 
 ## Schritt 2: Einrichten der Benutzerberechtigungen
 
-Die Benutzerkontoanforderungen müssen erfüllt sein, bevor Sie eine Adobe Analytics-basierte Aktivität in Adobe Target erstellen können. Siehe [Anforderungen hinsichtlich Benutzerberechtigungen](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
+Die Benutzerkontoanforderungen müssen erfüllt sein, bevor Sie eine Adobe Analytics-basierte Aktivität in Adobe Target erstellen können. Siehe  [Anforderungen hinsichtlich Benutzerberechtigungen](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
 
 ## Schritt 3: Implementieren des Experience Cloud-Besucher-ID-Service
 
@@ -55,7 +55,7 @@ Wenn Sie at.js oder mbox.js zuvor bereitgestellt haben, können Sie Ihre vorhand
 
 Alternativ kann diese Datei zusammen mit dem Besucher-ID-Service und AppMeasurement for JavaScript-Dateien gehostet werden. Diese Dateien müssen auf einem Webserver gehostet werden, der für alle Seiten Ihrer Site zugänglich ist. Für den nächsten Schritt benötigen Sie den Pfad zu den Dateien.
 
-## Schritt 7: Verweisen auf at.js oder mbox.js auf allen Seiten der Website {#step7}
+## Schritt 7: Verweisen auf at.js oder mbox.js auf allen Seiten der Website  {#step7}
 
 Fügen Sie at.js oder mbox.js unterhalb von VisitorAPI.js ein, indem Sie die folgende Codezeile zum Tag auf den einzelnen Seiten hinzufügen:
 
