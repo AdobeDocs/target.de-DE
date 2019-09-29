@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Verwenden Sie in A/B-Aktivitäten Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
 
-Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Ausführliche Informationen zu Erfolgsmetriken finden Sie unter  [Erfolgsmetriken](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Geben Sie das Ziel der Aktivität an.
 1. Wählen Sie eine [Erfolgsmetrik](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) aus.
