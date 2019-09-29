@@ -1,7 +1,7 @@
 ---
-description: Erstellen Sie Zielgruppen für Mobilgeräte basierend auf Parametern wie Mobilgerät, Gerätetyp, Gerätehersteller, Bildschirmabmessungen (x Pixel) und mehr.
+description: Sie können Zielgruppen erstellen, um Mobilgeräte auf Basis von Parametern wie Mobilgerät, Gerätetyp, Geräteanbieter, Bildschirmmaßen (in Pixeln) usw. auszuwählen.
 keywords: Targeting; mobil; target mobile; deviceatlas; iPhone; iPhone-Modelle; deviceatlas; Displaybreite; Display Breite; Displayhöhe; Gerätetyp; Displayhöhe; Mobiltelefon; Tablet; Gerätemodell
-seo-description: Erstellen Sie Zielgruppen in Adobe Target, um Mobilgeräte basierend auf Parametern wie Mobilgerät, Gerätetyp, Gerätehersteller, Bildschirmabmessungen (x Pixel) und mehr als Ziel auszuwählen.
+seo-description: Sie können in Adobe Target Zielgruppen erstellen, um Mobilgeräte auf Basis von Parametern wie Mobilgerät, Gerätetyp, Geräteanbieter, Bildschirmmaßen (in Pixeln) usw. auszuwählen.
 seo-title: Zielgruppe für Mobilgeräte in Adobe Target
 solution: Target
 title: Mobil
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Mobil{#mobile}
 
-Erstellen Sie Zielgruppen für Mobilgeräte basierend auf Parametern wie Mobilgerät, Gerätetyp, Gerätehersteller, Bildschirmabmessungen (x Pixel) und mehr.
+Sie können Zielgruppen erstellen, um Mobilgeräte auf Basis von Parametern wie Mobilgerät, Gerätetyp, Geräteanbieter, Bildschirmmaßen (in Pixeln) usw. auszuwählen.
 
 Zum Beispiel möchten Sie möglicherweise abhängig davon, ob ein Benutzer über ein Telefon oder einen Computer auf Ihre Seite zugreift, unterschiedliche Inhalte anzeigen. In diesem Fall können Sie die Zielgruppe „Mobil“ und anschließend die Option **[!UICONTROL Ist Mobiltelefon]auswählen und dann für Sie bedeutende spezifische Details wie den Telefontyp, die Bildschirmgröße (in Pixeln) usw. hinzufügen.**
 
@@ -57,9 +57,9 @@ Kunden, die eine benutzerspezifische Integration (also weder at.js noch das Mobi
    * Bildschirmbreite (px)
    >[!NOTE]
    >
-   >Aufgrund der neuen in ios 12.2 eingeführten Änderungen wird die Erstellung einer Zielgruppe mit Regeln, die vom Gerätemarketingname und Gerätemodell definiert werden, auf die iphone-Modelle angewendet werden, beeinträchtigt. Wir können keine Benutzer mehr als Ziel auswählen, die iphones mit ios 12.2 auf ihnen installiert haben. Wenn diese Benutzer jedoch nicht über ios 12.2 verfügen, funktioniert das iphone-Modell-Targeting weiterhin ordnungsgemäß.
+   >Aufgrund neuer Änderungen in iOS 12.2 ist die Erstellung einer Zielgruppe mit Regeln beeinträchtigt, die von der Gerätemarketingbezeichnung und vom Gerätemodell definiert werden, die iPhone-Modelle spezifizieren. Benutzer mit iPhones mit iOS 12.2 können nicht mehr als Zielgruppe ausgewählt werden. Wenn diese Benutzer jedoch nicht iOS 12.2 installiert haben, funktioniert das iPhone-Modell-Targeting weiterhin ordnungsgemäß.
    >
-   >Das ios 12.2-Update hat keine Auswirkungen auf die Identifizierung der folgenden Modelle, da diese Modelle das Upgrade auf ios 12.2 nicht unterstützen: Iphone, iphone 3 G, iphone 3 GS, iphone 4, iphone 4 s, iphone 5, iphone 5 c, ipad, ipad 2, ipad/Retina display, ipad Retina (4. Gen), ipod Touch 4 und ipod Touch 5.
+   >Das iOS 12.2-Update hat keine Auswirkungen auf die Identifizierung der folgenden Modelle, da diese Modelle das Upgrade auf iOS 12.2 nicht unterstützen: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina Display, iPad Retina (4th Gen), iPod Touch 4 und iPod Touch 5.
 
    >[!NOTE]
    >
@@ -68,9 +68,9 @@ Kunden, die eine benutzerspezifische Integration (also weder at.js noch das Mobi
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Die folgende Abbildung zeigt eine Zielgruppe für Besucher, die Geräte verwenden, die von Google produziert werden und ein Mobilgerät sind.
+Die folgende Abbildung zeigt eine Zielgruppe bestehend aus Besuchern, die Geräte verwenden, die von Google produziert wurden und Mobilgeräte sind.
 
-![Target-Mobilgeräte](assets/target_mobile.png)
+![Zielgruppe mit Mobilgeräten](assets/target_mobile.png)
 
 ## Schulungsvideo: Erstellen von Zielgruppen
 
