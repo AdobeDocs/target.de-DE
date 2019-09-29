@@ -2,7 +2,7 @@
 description: Bei Ihrem Datenerfassungsprozess treten verschiedene Änderungen auf, wenn Sie Analytics als Berichtsquelle für Target (A4T) verwenden.
 keywords: Recommendations
 seo-description: Bei Ihrem Datenerfassungsprozess treten verschiedene Änderungen auf, wenn Sie Analytics als Berichtsquelle für Target (A4T) verwenden.
-seo-title: Vor der Implementierung Adobe Analytics als Berichtsquelle für Adobe Target (A4T)
+seo-title: Vor der Implementierung  Adobe Analytics als Berichtsquelle für Adobe Target (A4T)
 solution: Target
 title: Vor der Implementierung
 topic: Premium
@@ -66,7 +66,7 @@ Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analy
 
 Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des Experience Cloud-Besucher-ID-Services beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
 
-## Zusätzliche ID {#section_2C1F745A2B7D41FE9E30915539226E3A}
+## Zusätzliche ID  {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
 Zu allen Target-Aufrufen, die von einer A4T-Aktivität zur Übermittlung von Inhalten oder zur Aufzeichnung der Zielmetrik verwendet werden, muss es einen zugehörigen Analytics-Treffer geben, der die gleiche Zusatz-ID hat, damit A4T ordnungsgemäß funktioniert.
 
