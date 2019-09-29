@@ -1,8 +1,8 @@
 ---
 description: Wählen Sie eine Erfolgsmetrik aus, die den Benutzer für die Berichterstellungszielgruppe qualifiziert.
 keywords: Targeting; Zielgruppe; Berichterstellung; Erfolgsmetrik
-seo-description: Wählen Sie eine Erfolgsmetrik in Adobe Target, die den Benutzer für die Berichterstellungszielgruppe qualifiziert.
-seo-title: Anwenden einer Berichterstellungs-Zielgruppe auf eine Erfolgsmetrik in Adobe Target
+seo-description: Wählen Sie in Adobe Target eine Erfolgsmetrik aus, die den Benutzer für die Berichterstellungszielgruppe qualifiziert.
+seo-title: Anwenden einer Reporting-Zielgruppe auf eine Erfolgsmetrik in Adobe Target
 solution: Target
 title: Anwenden einer Reporting-Zielgruppe auf eine Erfolgsmetrik
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
