@@ -41,17 +41,17 @@ Die drei Bibliotheken müssen sowohl auf der Seite mit dem Weiterleitungsangebot
 
 Es werden einige Datendiskrepanzen erwartet. Weitere Informationen finden Sie unter [Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
-## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-Wenn Sie at. js Version 1.6.3 oder höher verwenden, ist dies kein Problem. Diese Race-Bedingung betrifft nur Kunden, die frühere Versionen verwenden. Das Target-Team unterhält zwei Versionen von at. js: die aktuelle Version und die aktuelle Version. Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+Wenn die at.js-Version 1.6.3 oder höher verwendet wird, ist dies kein Problem. Diese Race-Bedingung betrifft nur Kunden, die frühere Versionen verwenden. Das Target-Team behält zwei Versionen von at.js: die aktuelle Version und die davor. Führen Sie bei Bedarf ein Upgrade von at.js durch, um sicherzustellen, dass Sie eine [unterstützte Version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ausführen.
 
-Wenn Sie eine frühere, nicht unterstützte Version von at. js verwenden, besteht die Möglichkeit, dass eine Race-Bedingung eintreten kann, die dazu führen kann, dass der Analytics-Aufruf ausgelöst wird, bevor die Umleitung auf der ersten Seite ausgeführt wird. Dies kann dazu führen, dass die Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt werden. Diese Situation führt zu einem zusätzlichen Seitenaufruf auf der ersten Seite, selbst wenn der Besucher diese erste Seite nie wirklich „gesehen“ hat.
+Wenn Sie eine frühere, nicht unterstützte Version von at.js verwenden, besteht die Möglichkeit, dass eine Race-Bedingung eintritt, die dazu führen kann, dass der Analytics-Aufruf ausgelöst wird, bevor die Umleitung auf der ersten Seite ausgeführt wird. Dies kann dazu führen, dass die Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt werden. Diese Situation führt zu einem zusätzlichen Seitenaufruf auf der ersten Seite, selbst wenn der Besucher diese erste Seite nie wirklich „gesehen“ hat.
 
 Es wird empfohlen, den formularbasierten Composer zum Erstellen einer Redirect-Aktivität zu verwenden, um die Geschwindigkeit der Seitenumleitung zu erhöhen. Das beeinflusst, wo der Code auf der Seite ausgeführt wird. Es wird zudem die Erstellung eines Umleitungsangebots für jeden Besuch einschließlich des Standardbesuchs empfohlen, wobei die Umleitung zur ursprünglichen Seite zurückführen würde. Dadurch wird gewährleistet, dass im Falle von Fehlzählungen alle Besuche berücksichtigt werden, sodass Berichte und Analysen für den Test weiterhin gültig sind.
 
-Ein Grund für die Verwendung von Umleitungsangeboten für alle Erlebnisse in der Aktivität, einschließlich des Standarderlebnisses (Kontrollerlebnis), besteht darin, dieselben Bedingungen für alle Erlebnisse zu platzieren. Wenn das Standarderlebnis beispielsweise kein Umleitungsangebot enthält, aber die anderen Erlebnisse Umleitungsangebote haben, hat die Geschwindigkeit des Erlebnisses ohne Umleitungsangebot einen eigenen Vorteil. Umleitungsangebote werden nur für temporäre Szenarien empfohlen, z. B. Tests. Umleitungsangebote werden nicht für permanente Szenarien wie Personalisierung empfohlen. Nachdem Sie den Gewinner ermittelt haben, sollten Sie die Umleitung entfernen, um die Seitenladeleistung zu verbessern.
+Ein Grund für die Verwendung von Umleitungsangeboten für alle Erlebnisse in der Aktivität, einschließlich des Standarderlebnisses (Kontrollerlebnis), besteht darin, dieselben Bedingungen für alle Erlebnisse zu verwenden. Wenn das Standarderlebnis beispielsweise kein Umleitungsangebot enthält, aber die anderen Erlebnisse Umleitungsangebote haben, stellt die Geschwindigkeit des Erlebnisses ohne Umleitungsangebot einen Vorteil dar. Umleitungsangebote werden nur für temporäre Szenarien empfohlen, z. B. Tests. Umleitungsangebote werden nicht für permanente Szenarien wie die Personalisierung empfohlen. Nachdem Sie den „Gewinner“ ermittelt haben, sollten Sie die Umleitung entfernen, um die Seitenladeleistung zu verbessern.
 
-For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+Weitere Informationen zu diesem Problem finden Sie in dem Informationen zu „Weiterleitungsangeboten“ unter [Bekannte Probleme](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Kann ich Umleitungsangebote in A4T nutzen, wenn ich die JavaScript-Bibliothek mbox.js verwende? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
@@ -74,7 +74,7 @@ Die folgenden Abfrage String-Parameter sind Umleitungsangeboten zugeordnet:
 
 Diese Parameter werden automatisch zu den Umleitungs-URLs hinzugefügt, wenn die integrierten Umleitungsangebote in VEC und in Form-Based Experience Composer verwendet werden, wenn der Besucher-ID-Service auf der Seite implementiert ist. Wenn Sie Ihren eigenen benutzerdefinierten Code in VEC und in Form-Based Experience Composer verwenden, müssen Sie sicherstellen, dass Sie diese Parameter mit Ihrem benutzerdefinierten Code weitergeben.
 
-## Meine Webserver entfernen diese Parameter aus meinen URLs, was soll ich tun? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Meine Webserver entfernen diese Parameter aus meinen URLs, was soll ich tun?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 Sie müssen diese Parameter (`adobe_mc_sdid` und `adobe_mc_ref`) mit Ihrem IT-Team zusammen gesondert zulassen.
 
