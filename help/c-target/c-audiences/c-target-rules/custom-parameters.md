@@ -52,7 +52,7 @@ Die [Popupkarte mit Definitionsdetails](../../../c-target/c-audiences/audiences.
 
 ## Zu beachten {#considerations}
 
-* Zielgruppen und Aktivitäten werden für eine bestimmte Mbox ausgewertet. Wenn die globale Mbox beispielsweise einen bestimmten Parameter übergibt, die regionale Mbox dies jedoch nicht tut, wird das Targeting der Aktivität/Zielgruppe für diesen Parameter in der regionalen Mbox nicht qualifiziert.
+* Zielgruppen und Aktivitäten werden für eine spezifische Mbox ausgewertet. Wenn die globale Mbox beispielsweise einen bestimmten Parameter übergibt, die regionale Mbox jedoch nicht, qualifiziert sich die mit diesem Parameter verknüpfte Aktivität/Zielgruppe nicht in der regionalen Mbox.
 
 ## Schulungsvideo: Erstellen von Zielgruppen
 
