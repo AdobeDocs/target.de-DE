@@ -81,11 +81,11 @@ Im Bericht zu Bestelldetails (in [!DNL Target Classic] auch „Prüfbericht“ g
 * Werte, die über den `ProductPurchasedId`-Mbox-Parameter weitergegeben wurden, werden im Bestelldetailbericht aufgelistet.
 * Best Practice ist, eine `orderID` sowie eine `orderTotal` aufzunehmen. Dadurch können doppelte Bestellungen automatisch ignoriert werden.
 
-## Einschränkungen {#section_49B9590904A645B18E694B4EFFFC1DEF}
+## Einschränkungen  {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
 Die folgenden Informationen gelten für den Download:
 
-* Sie können Berichte für A/B-Tests, automatisierte Personalisierung, Erlebnis-Targeting und Multivarianz-Aktivitäten herunterladen. Sie können jedoch keinen Erfolgsmetrikenbericht für Recommendations-Aktivitäten herunterladen.
+* You can download both reports for A/B Test, Automated Personalization, Experience Targeting, and Multivariate activities. Sie können jedoch keinen Erfolgsmetrikenbericht für Recommendations-Aktivitäten herunterladen.
 * Die Option zum Herunterladen steht nicht für A/B- und Erlebniszielaktivitäten zur Verfügung, die vor der Target-Version 15.7.1 (Juli 2015) erstellt wurden.
 * Erlebnisse ohne verknüpfte Daten werden im heruntergeladenen Bericht nicht erfasst.
 * In der Reporting-Benutzeroberfläche von Target angewendete Zielgruppen werden nicht in den Download-Bericht übertragen.
