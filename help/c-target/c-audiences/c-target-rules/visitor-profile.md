@@ -1,10 +1,10 @@
 ---
-description: Erstellen Sie Zielgruppen, um Besucher als Ziel auszuwählen, die bestimmte Profilparameter erfüllen.
+description: Erstellen Sie Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen.
 keywords: Besucherprofil; Target-Besucherprofil
-seo-description: Erstellen Sie Zielgruppen in Adobe Target, um Besucher als Ziel auszuwählen, die bestimmte Profilparameter erfüllen.
+seo-description: Erstellen Sie in Adobe Target Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen.
 seo-title: Besucherprofil
 solution: Target
-title: Zielgruppen erstellen, um Besucherprofile mit Adobe Target als Ziel auszuwählen
+title: Erstellen von Zielgruppen, um mit Adobe Target Besucherprofile auszuwählen
 topic: Premium
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Besucherprofil{#visitor-profile}
 
-Erstellen Sie Zielgruppen, um Besucher als Ziel auszuwählen, die bestimmte Profilparameter erfüllen.
+Erstellen Sie Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen.
 
 1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
