@@ -20,6 +20,6 @@ Im Änderungsprotokoll befindet sich ein Datensatz zu den Personen, die Ihre Akt
 
    ![Aktivitätsänderungsprotokoll](/help/c-activities/assets/change_log.png)
 
-   Datum und Benutzer werden immer dann aufgeführt, wenn eine Aktivität erstellt, aktualisiert, aktiviert oder deaktiviert wird. Änderungen an benutzerdefinierten Zielen und in der Aktivität verwendeten Angeboten werden ebenfalls aufgelistet. In der Spalte „Status“ wird angezeigt, ob die Aktion abgeschlossen, ausstehend oder fehlgeschlagen ist.
+   Das Datum und der Benutzer werden bei jeder Erstellung, Aktualisierung, Aktivierung und Deaktivierung einer Aktivität aufgelistet. Änderungen an benutzerdefinierten Zielen und in der Aktivität verwendeten Angeboten werden ebenfalls aufgelistet. In der Spalte „Status“ wird angezeigt, ob die Aktion abgeschlossen, ausstehend oder fehlgeschlagen ist.
 
    Aktualisieren Sie die Seite, um die Statusänderungen zu sehen.
