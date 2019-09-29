@@ -1,8 +1,8 @@
 ---
 description: Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werden.
 keywords: Ausnahmen
-seo-description: Erstellen Sie eine Ausschlussliste in Adobe Target, um zu verhindern, dass Artikel empfohlen werden.
-seo-title: Ausnahmen in Adobe Target
+seo-description: Erstellen Sie eine Ausschlussliste in Adobe Target, um zu verhindern, dass gewisse Artikel empfohlen werden.
+seo-title: Ausschlüsse in Adobe Target
 solution: Target
 title: Ausnahmen
 topic: Premium
@@ -43,7 +43,7 @@ Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werde
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Einen Ausschluss mithilfe der erweiterten Suche erstellen
+## Erstellen eines Ausschlusses mit der erweiterten Suche
 
 Sie können Ausschlüsse auch mit der erweiterten Suche auf der Seite „Katalogsuche“ ([!UICONTROL Recommendations] &gt; [!UICONTROL Katalogsuche] &gt; [!UICONTROL Erweiterte Suche]) erstellen. 
 
@@ -55,11 +55,11 @@ Nachdem Sie beispielsweise eine Suche mit „id“ &gt; „contains“ erstellt
 >
 >Bei der Funktion „Erweiterte Suche“ wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die zum Zeitpunkt der Auslieferung zurückgegebenen Produkte basieren jedoch auf der Suche mit Unterscheidung zwischen Groß- und Kleinschreibung. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Ausschlüsse auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Ausschluss mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszuschließen, werden nur Produkte mit dem Zusatz „urlaub“ ausgeschlossen. Produkte, die „Urlaub“ enthalten, werden nicht ausgeschlossen.
 
-## Schulungsvideo: Erstellen von Sammlungen und Ausschlüssen in Recommendations (7:05)
+## Schulungsvideo: Sammlungen und Ausschlüsse in Recommendations erstellen (07:05)
 
 Dieses Video enthält die folgenden Informationen:
 
-* Erstellen einer Sammlung
+* Eine Sammlung erstellen
 * Einen Ausschluss erstellen
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?captions=ger)
