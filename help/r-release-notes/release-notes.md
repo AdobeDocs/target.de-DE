@@ -21,7 +21,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 | Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
-| ![Premium-Zeichen](/help/assets/premium.png) für Unternehmen | Mit der Version Target September 2019 bieten Enterprise Permissions Kunden die folgenden Zugriffssteuerungen:<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>Sie können der Adobe I/O-Integration eine Rolle zuweisen: Genehmiger, Bearbeiter oder Beobachter.</li></ul>Schrittweise Anleitungen und weitere Informationen finden Sie unter [Gewähren von Zugriff von Adobe I/O Integrationen auf Arbeitsbereiche und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Premium-Zeichen](/help/assets/premium.png) für Unternehmen | Mit der Version Target September 2019 bieten Enterprise Permissions Kunden die folgenden Zugriffssteuerungen:<UL><li>Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet werden kann.</li><li>Sie können der Adobe I/O-Integration eine Rolle zuweisen: Genehmiger, Bearbeiter oder Beobachter.</li></ul>Schrittweise Anleitungen und weitere Informationen finden Sie unter [Gewähren von Zugriff von Adobe I/O Integrationen auf Arbeitsbereiche und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ## Dokumentationsänderungen, historische Versionshinweise und Experience Cloud-Versionshinweise {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
