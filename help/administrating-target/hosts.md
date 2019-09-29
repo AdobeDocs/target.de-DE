@@ -46,7 +46,7 @@ Informationen über die Bedingungen, die erfüllt sein müssen, damit [!DNL Targ
 Damit ein Host erkannt werden kann, müssen folgende Bedingungen erfüllt werden:
 
 * Auf dem Host muss mindestens eine Mbox vorhanden sein.
-* Eine Seite auf dem Host muss Folgendes aufweisen:
+* Eine Seite auf dem Host muss  Folgendes aufweisen:
 
    * einen genauen [!DNL mbox.js]-Verweis
    * einen Mbox- oder automatisch generierten globalen Mbox-Aufruf
@@ -87,11 +87,11 @@ Möchten Sie die [!UICONTROL Hostgruppenliste] sortieren, klicken Sie auf eine S
 
 Möchten Sie die [!UICONTROL Hostgruppenliste] durchsuchen, geben Sie einen Suchbegriff in das Suchfeld ein.
 
-## Auswählen mehrerer Hosts {#section_EF3B458475184B7EA997C3559714397C}
+## Auswählen mehrerer Hosts  {#section_EF3B458475184B7EA997C3559714397C}
 
 Möchten Sie mehrere Hosts auswählen, aktivieren Sie die Kontrollkästchen neben der Spalte [!UICONTROL Name] der gewünschten Hosts. Sie können alle ausgewählten Hosts verschieben oder löschen.
 
-## Erstellen einer Umgebung {#section_32097D0993724DF3A202D164D3F18674}
+## Erstellen einer Umgebung  {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen].**
 1. Klicken Sie auf **[!UICONTROL Umgebung erstellen]**.
