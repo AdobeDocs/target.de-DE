@@ -21,16 +21,16 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 27. September 2019 | [Wie lange sollten A/B-Tests laufen?](/help/c-activities/t-test-ab/sample-size-determination.md) | Der Text zum Stichprobengrößenrechner von Target wurde aktualisiert. |
-|  | [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Der Text zum Stichprobengrößenrechner von Target wurde aktualisiert. |
-| 24. September 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Changed date of the Target/Standard 19.2.1 release to September 30, 2019. |
+| 27. September 2019 | [Wie lange sollten A/B-Tests laufen?](/help/c-activities/t-test-ab/sample-size-determination.md) | Updated text about the Target Sample Size Calculator. |
+|  | [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Updated text about the Target Sample Size Calculator. |
+| September 24, 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Changed date of the Target/Standard 19.2.1 release to September 30, 2019. |
 |  | [Recommendations als Angebot](/help/c-recommendations/recommendations-as-an-offer.md) | Ein Schulungsvideo wurde hinzugefügt. |
-| 10. September 2019 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Added information about the Target Standard/Premium 19.9.1 release. |
-| September 9, 2019 | [AEM-Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Abschnitt "Überlegungen"hinzugefügt. |
-|  | [SameSite-Cookie-Richtlinien von Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Der Text für das gesamte Thema wurde aktualisiert. |
+| 10. September 2019 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version Target Standard/Premium 19.9.1 hinzugefügt. |
+| 9. September 2019 | [AEM-Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Added "Considerations" section. |
+|  | [SameSite-Cookie-Richtlinien von Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Updated text for entire topic. |
 |  | [Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Neues Thema |
 | 6. September 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Version Target Standard/Premium 19.9.1 (10. September 2019) hinzugefügt. |
-|  | [Häufig gestellte Fragen zu Target für mobile Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Neues Thema |
+|  | [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Neues Thema |
 | 4. September 2019 | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das Thema wurde aktualisiert. |
 | 23. August 2019 | [Mobile Target-Vorschau](/help/c-target-mobile-app/target-mobile-preview.md) | Aktualisiertes Code-Snippet in `AndroidManifest.xml`. |
 | 22. August 2019 | [Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Informationen zur Verwendung unzulässiger Zeichen in App-IDs wurden entfernt. Es gibt keine Einschränkungen mehr. |
