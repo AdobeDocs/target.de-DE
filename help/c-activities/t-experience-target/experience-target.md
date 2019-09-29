@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basierend auf einem Satz aus vermarkterdefinierten Regeln und Kriterien bereitgestellt.
 
-Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. Es können mehrere Regeln für eine Aktivität bereitgestellt werden, um verschiedene Inhaltvarianten für verschiedene Zielgruppen bereitzustellen.
+Erlebnis-Targeting, einschließlich [Geotargeting](/help/c-target/c-audiences/c-target-rules/geo.md), ermöglicht die Definition von Regeln für Erlebnisse oder Inhalte, die auf eine bestimmte Zielgruppe ausgerichtet sind. Für eine Aktivität können mehrere Regeln definiert werden, um verschiedene Inhaltsvarianten für verschiedene Zielgruppen bereitzustellen.
 
 Wenn Besucher Ihre Website aufrufen, werden sie vom Erlebnis-Targeting (XT) geprüft, um festzustellen, ob sie die von Ihnen festgelegten Kriterien erfüllen. Ist dies der Fall, treten sie in die Aktivität ein und das für die qualifizierenden Zielgruppen entworfene Erlebnis wird angezeigt. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
 
@@ -24,9 +24,9 @@ Das Erlebnis-Targeting ist der erste Schritt in die Welt der Personalisierung un
 
 ## Szenario: Erlebnis-Targeting
 
-Angenommen, Ihre Website verfügt über Außengeräte. Ihre Berichte für A/B-Tests weisen darauf hin, dass Sie drei Erlebnisse mit verschiedenen Zielgruppen haben. Um diese Erkennung nutzen zu können, möchten Sie ein anderes Heldenbild auf Ihrer Homepage anzeigen, das je nach Standort oder Hobbies der Besucher auf diese verschiedenen Zielgruppen anspricht. In diesem Szenario möchten Sie Besuchern aus New Jersey ein Hikingbild und ein Surfen für Besucher von Hawaii anzeigen. Sie haben auch eine Zielgruppe, die getaggt wird. Sie möchten ein drittes Hero-Bild anzeigen, das an Ihre Zielgruppe gesendet wird.
+Angenommen, Sie bieten auf Ihrer Website Outdoor-Ausrüstung an. Ihre Berichte für A/B-Tests weisen darauf hin, dass Sie drei Erlebnisse haben, die bei verschiedenen Zielgruppen gut ankommen. Um diese Erkenntnis zu nutzen, möchten Sie je nach Standort oder Hobbys der Besucher für jede dieser Zielgruppen ein anderes Hero-Bild auf Ihrer Homepage zeigen. Angenommen, Sie möchten für Besucher aus Bayern ein Bild eines Wanderers und für Besucher aus dem Norden ein Bild eines Surfers darstellen. Außerdem gibt es eine Zielgruppe, die an Fahrrädern interessiert ist. Deshalb möchten Sie ein drittes Hero-Bild zeigen, das Ihre Fahrrad-Zielgruppe anspricht.
 
-Mit einer XT-Aktivität können Sie diese drei Zielgruppen mit einem anderen Heldenbild ansprechen, das an jede Zielgruppe gesendet wird. The video below, *From A/B Testing to Experience Targeting* shows you how to create experiences targeted to both states and a third experience targeted to biking enthusiasts. Das Video zeigt Ihnen auch, wie Sie die drei Erlebnisse zur Erreichung Ihrer Ziele sortieren. Watch the video, then continue with [Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
+Mit einer XT-Aktivität können Sie diesen drei Zielgruppen je ein anderes Hero-Bild zeigen. Das Video unten *From A/B Testing to Experience Targeting* zeigt Ihnen, wie Sie Erlebnisse erstellen, die sich an die beiden Besuchergruppen richten, sowie ein drittes Erlebnis für Fahrradfans. Im Video erfahren Sie auch, wie Sie die drei Erlebnisse anordnen müssen, um Ihr gewünschtes Ergebnis zu erhalten. Sehen Sie sich das Video an und fahren Sie danach mit der [Erstellung einer Erlebnis-Targeting-Aktivität](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)fort.
 
 ## Schulungsvideos:
 
