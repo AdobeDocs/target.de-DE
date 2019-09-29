@@ -91,7 +91,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 1. [Entwurf auswählen](/help/c-recommendations/c-design-overview/design-overview.md).
 
-   Ein Entwurf ist eine Vorlage, die das Aussehen der Orte auf Ihrer Seite festlegt. [!DNL Target] enthält mehrere vorkonfigurierte Entwürfe. Sie können auch Ihre eigenen, benutzerdefinierten Entwürfe erstellen. Weitere Informationen finden Sie unter [Erstellen eines Entwurfs](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) und [Anpassen eines Entwurfs](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Ein Entwurf ist eine Vorlage, die das Aussehen der Orte auf Ihrer Seite festlegt. [!DNL Target] enthält mehrere vorkonfigurierte Entwürfe. Sie können auch Ihre eigenen, benutzerdefinierten Entwürfe erstellen. Weitere Informationen finden Sie unter  [Erstellen eines Entwurfs](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) und [Anpassen eines Entwurfs](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![Dialogfeld „Entwurf auswählen“](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -105,7 +105,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
-   Sie haben auch die Möglichkeit, Ihren Empfehlungen Promotions hinzuzufügen. Weitere Informationen über das Hinzufügen von Vorwärts- und Rückwärts-Promotions finden Sie unter [Hinzufügen von Promotions](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   Sie haben auch die Möglichkeit, Ihren Empfehlungen Promotions hinzuzufügen. Weitere Informationen über das Hinzufügen von Vorwärts- und Rückwärts-Promotions finden Sie unter  [Hinzufügen von Promotions](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Im Bildschirm „VEC“ wird das Empfehlungsdesign Ihrer Seite angezeigt.
@@ -171,6 +171,6 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    Kollisionen von Aktivitäten treten auf, wenn mehrere Aktivitäten Inhalte auf derselben Seite bereitstellen sollen. Dies kann zur Darstellung unerwarteter Inhalte führen.
 
-## Schulungsvideo: Recommendations-Aktivität erstellen (7:15)
+## Schulungsvideo: Erstellen einer Recommendations-Aktivität (7:15)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?captions=ger)
