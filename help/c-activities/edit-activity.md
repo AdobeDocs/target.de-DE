@@ -19,29 +19,29 @@ Informationen zu den verschiedenen Methoden zum Bearbeiten einer vorhandenen Akt
 
 Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichkeit, vorhandene Aktivitäten zu bearbeiten. Der Vorgang variiert je nach gewählter Methode.
 
-## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Bearbeiten einer Aktivität mithilfe der Hover-Schaltfläche auf der Seite „Aktivitäten“{#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. Fahren Sie der Seite **[!UICONTROL Aktivitäten]** mit dem Mauszeiger über die zu bearbeitende Aktivität und klicken Sie auf das Symbol **Bearbeiten[!UICONTROL .]**
+1. Bewegen Sie auf der Seite **[!UICONTROL Aktivitäten]** den Mauszeiger über die zu bearbeitende Aktivität und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten.]**.
 
-   ![Symbol bearbeiten](/help/c-activities/assets/hover_edit.png)
+   ![Bearbeiten-Symbol ](/help/c-activities/assets/hover_edit.png)
 
-   Target öffnet die Aktivität im Visual Experience Composer (VEC) und Sie sehen die Seite [!UICONTROL Erlebnisse] (der erste Schritt im geleiteten Arbeitsablauf mit drei Schritten).
+   Die Aktivität wird in Target im Visual Experience Composer (VEC) geöffnet und die Seite [!UICONTROL Erlebnisse] erscheint (der erste Schritt im dreistufigen geleiteten Workflow).
 
-1. Bearbeiten Sie die Aktivität wie gewünscht mithilfe der [VEC-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Bearbeiten Sie die Aktivität nach Bedarf mithilfe der [VEC-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Klicken Sie auf die Unterteilung, um zum nächsten Schritt zu gelangen oder um die Aktivität zu speichern.
+1. Klicken Sie auf die Trennschaltfläche, um zum nächsten Schritt zu gelangen oder um die Aktivität zu speichern.
 
-   ![Schaltfläche "Teilen «](/help/c-activities/assets/edit_split_button_2.png)
+   ![Trennschaltfläche](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Weiter:** Klicken Sie zum Bearbeiten einer weiteren Seite in dem dreistufigen Workflow auf **[!UICONTROL Weiter]**, um zu dem gewünschten Schritt zu wechseln. Wenn Sie beispielsweise in der Abbildung oben auf [!UICONTROL Weiter] klicken, wird der Targeting-Schritt angezeigt.
+   * **Weiter:** Klicken Sie zum Bearbeiten einer weiteren Seite in dem dreistufigen Workflow auf **[!UICONTROL Weiter]**, um zu dem gewünschten Schritt zu wechseln. Wenn Sie beispielsweise in der Abbildung oben auf [!UICONTROL Weiter] klicken, wird der [!UICONTROL Targeting]-Schritt angezeigt.
    * **Speichern &amp; Schließen:** Nehmen Sie die gewünschten Änderungen im aktuellen Schritt vor, klicken Sie auf das Dropdown-Menü auf der Trennschaltfläche und wählen Sie dann **[!UICONTROL Speichern und Schließen]**, um die Änderungen zu speichern und die Seite [!UICONTROL Übersicht] der Aktivität anzuzeigen.
    * **Speichern:** Nehmen Sie die gewünschten Änderungen in einem Schritt vor, klicken Sie auf das Dropdown-Menü auf der Trennschaltfläche und wählen Sie dann **[!UICONTROL Speichern]** aus, um Ihre Änderungen zu speichern und bei dem Schritt zu bleiben, in dem Sie weiterhin Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
-## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Bearbeiten einer Aktivität durch Öffnen der Aktivität per Klick auf den Namen auf der Seite „Aktivitäten“{#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. Um das Abarbeiten des gesamten Workflows zu vermeiden, klicken Sie auf der Seite „Aktivitäten“ auf die gewünschte Aktivität, um sie zu öffnen. Wählen Sie dann in der Dropdownliste **[!UICONTROL Aktivität bearbeiten]eine Option aus.**
+1. Um das Abarbeiten des gesamten Workflows zu vermeiden, klicken Sie auf der Seite „Aktivitäten“ auf die gewünschte Aktivität, um sie zu öffnen. Wählen Sie dann in der Dropdownliste **[!UICONTROL Aktivität bearbeiten]** eine Option aus.
 
-   ![Dropdown-Liste Aktivität bearbeiten](/help/c-activities/assets/edit_activity.png)
+   ![Dropdown-Liste „Aktivität bearbeiten“](/help/c-activities/assets/edit_activity.png)
 
 1. Wählen Sie die gewünschte Option aus::
 
@@ -60,9 +60,9 @@ Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichk
 
 
 
-## Arbeiten mit älteren Aktivitäten, die in Recommendations Classic erstellt wurden {#classic}
+## Verwendung älterer Aktivitäten, die in Recommendations Classic erstellt wurden {#classic}
 
-In der [!UICONTROL Aktivitätenliste] werden Aktivitäten angezeigt [!DNL Recommendations Classic], die in verschiedenen Quellen erstellt wurden. Die folgenden Aktionen sind verfügbar, wenn Sie mit Legacy-Aktivitäten arbeiten, die erstellt wurden in [!DNL Recommendations Classic]:
+In der Liste [!UICONTROL Aktivitäten] werden Aktivitäten angezeigt, die in unterschiedlichen Quellen erstellt wurden, u. a. [!DNL Recommendations Classic]. Wenn Sie ältere Aktivitäten verwenden, die in [!DNL Recommendations Classic] erstellt wurden, sind die folgenden Aktionen verfügbar:
 
 * [!UICONTROL Aktivieren]
 * [!UICONTROL Deaktivieren]
@@ -70,9 +70,9 @@ In der [!UICONTROL Aktivitätenliste] werden Aktivitäten angezeigt [!DNL Recomm
 * [!UICONTROL Kopieren]
 * [!UICONTROL Löschen]
 
-[!DNL Recommendations] Eine Aktivität kann nicht direkt bearbeitet werden. Wenn Sie die Aktivität bearbeiten möchten, sollten Sie eine Kopie der Aktivität erstellen und [!DNL Target Premium] dann die neu erstellte Aktivität speichern. Diese neu erstellte Aktivität kann dann nach Bedarf bearbeitet werden.
+Eine [!DNL Recommendations]-Aktivität kann nicht direkt bearbeitet werden. Wenn Sie die Aktivität bearbeiten möchten, erstellen Sie eine Kopie der Aktivität mit [!DNL Target Premium] und speichern Sie dann die neu erstellte Aktivität. Diese neue Aktivität kann dann nach Bedarf bearbeitet werden.
 
-## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Speichern einer Aktivität in Entwurfsform {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Wenn Sie eine neue, noch nicht gespeicherte Aktivität erstellen oder eine Aktivität bearbeiten, die zuvor in Entwurfsform gespeichert wurde, werden unter der Trennschaltfläche die Optionen für Entwurf speichern angezeigt.
 
@@ -97,7 +97,7 @@ Mithilfe eines Arbeitsbereichs können Organisationen bestimmte Benutzergruppen 
 
 Wenn Sie Teil einer multinationalen Organisation sind, besitzen Sie eventuell einen Arbeitsbereich für Ihre europäischen Webseiten, Eigenschaften oder Sites und einen weiteren Arbeitsbereich für Ihre amerikanischen Webseiten, Eigenschaften oder Sites. Wenn Sie einer Organisation angehören, die mehrere Marken besitzt, haben Sie eventuell für jede Marke einen eigenen Arbeitsbereich.
 
-Weitere Informationen über Arbeitsbereiche und zur Funktionalität „Berechtigungen für Unternehmensbenutzer“ finden Sie unter [Berechtigungen für Unternehmensbenutzer](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
+Weitere Informationen über Arbeitsbereiche und zur Funktionalität „Berechtigungen für Unternehmensbenutzer“ finden Sie unter  [Berechtigungen für Unternehmensbenutzer](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
 Wenn Sie „Berechtigungen für Unternehmensbenutzer“ in Ihrer Umgebung aktiviert haben, können Sie Aktivitäten in denselben Arbeitsbereich oder in einen anderen Arbeitsbereich kopieren. Es ist zurzeit nicht möglich, eine Aktivität von einem Arbeitsbereich in einen anderen zu verschieben. Fahren Sie zum Kopieren einer Aktivität in einen anderen Arbeitsbereich auf der Seite [!UICONTROL „Aktivitäten“] mit dem Mauszeiger über die zu kopierende Aktivität, klicken Sie auf das Symbol [!UICONTROL „Kopieren“] und wählen Sie den gewünschten Arbeitsbereich aus der Dropdownliste aus.
 
