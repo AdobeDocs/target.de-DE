@@ -46,7 +46,7 @@ Führen Sie die folgenden Aufgaben in [!DNL Adobe Analytics] aus:
 
 Zur Erstellung oder Anzeige von Berichten für eine Analytics-gesteuerte Aktivität müssen Sie Mitglied der Gruppe **[!UICONTROL Zugriff auf alle Berichte]** sein bzw. einer Gruppe, die Zugriff auf mindestens einen Bericht in der Report Suite hat, die Sie verwenden möchten. Stellen Sie sicher, dass Sie Mitglied dieser Gruppen sind, um Berichte anzeigen zu können.
 
-For more information, see [Product profiles and groups](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
+Weitere Informationen finden Sie unter [Produktprofile und -gruppen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
 
 ### Zugriff auf die Webdienste-Zugriffsgruppe konfigurieren
 
