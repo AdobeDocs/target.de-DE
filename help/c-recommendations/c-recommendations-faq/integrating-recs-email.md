@@ -21,7 +21,7 @@ Informationen zu den Methoden zum Integrieren der E-Mail-Funktion in Recommendat
 
 Die Möglichkeiten Ihres E-Mail-Service-Anbieters bestimmen die Methode. Ihr Kundenbetreuer oder Berater kann Ihnen bei der Wahl der am besten geeigneten Option behilflich sein.
 
-## Option 1: Verwenden der Bereitstellungs-API {#section_9F00D271BABA4B7390B461F4C44EC319}
+## Option 1: Verwenden der Bereitstellungs-API  {#section_9F00D271BABA4B7390B461F4C44EC319}
 
 Die Bereitstellungs-API ist eine POST-Anforderung, die zusammen mit der Erstellungszeit-E-Mail verwendet wird. Diese Option ist die bevorzugte Methode für die Erstellungszeit-E-Mail.
 
