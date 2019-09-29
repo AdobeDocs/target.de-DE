@@ -27,7 +27,7 @@ Die maximale Länge von benutzerdefinierten Attributen für Einzelwert-Entitäte
 
 Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte enthalten. Jeder einzelne Wert ist auf 100 Zeichen begrenzt. Die Gesamtanzahl der Zeichen für alle Werte muss den Beschränkungen für die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten entsprechen (siehe oben).
 
-## Benutzerdefinierte Entitätsattributwerte {#section_313331A9F8194A89B5EDD89363018651}
+## Benutzerdefinierte Entitätsattributwerte  {#section_313331A9F8194A89B5EDD89363018651}
 
 Benutzerdefinierte Entitätsattribute können einen oder mehrere Werte umfassen. Die Werte der Entitätsattribute werden in der Produktansicht dargestellt.
 
@@ -77,7 +77,7 @@ Sie können bis zu 500 Werte in einem Attribut mit mehreren Werten einbeziehen.
 
 **Verwenden von targetPageParams**
 
-Das folgende Beispiel zeigt, wie Sie Folgendes verwenden: `targetPageParams`
+Das folgende Beispiel zeigt, wie Sie Folgendes verwenden:  `targetPageParams`
 
 ```
 function targetPageParams() { 
@@ -122,13 +122,13 @@ using the Delivery and Save entities APIs.
 
 Wenden Sie Operatoren nur für benutzerdefinierte Attribute mit mehreren Werten in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln an, lautet das Ergebnis *true* (wahr), wenn mindestens ein Wert in der Liste die Operation (Boolesches *or*) erfolgreich durchläuft.
 
-Im folgenden Beispiel lautet die Regel: `message contains abc`.
+Im folgenden Beispiel lautet die Regel:  `message contains abc`.
 
 1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.
 
 2. Fall: `entity.genre = ["abcde","de","ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.
 
-Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Lautet der Operator beispielsweise `notEquals`, lautet das Ergebnis *false* (falsch), wenn nur ein beliebiger Wert die Operation erfüllt.
+Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Lautet der Operator beispielsweise  `notEquals`, lautet das Ergebnis *false* (falsch), wenn nur ein beliebiger Wert die Operation erfüllt.
 
 In der Tabelle unten finden Sie Informationen zum Verhalten der Operatoren in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln.
 
@@ -150,7 +150,7 @@ In der Tabelle unten finden Sie Informationen zum Verhalten der Operatoren in Al
 >
 >*Double* ist ein Java-Datentyp. Bei Operatoren, für die numerische Werte erforderlich sind, werden bei der Verdoppelung alle Werte aus der Ergebnisberechnung ausgeschlossen, die nicht numerisch sind.
 
-## Attribute mit mehreren Werten in Entwürfen {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Attribute mit mehreren Werten in Entwürfen  {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Attribute mit mehreren Werten werden als kommagetrennte Liste aufgeführt, wenn sich in einem Entwurf darauf bezogen wird.
 
