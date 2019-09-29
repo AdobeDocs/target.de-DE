@@ -20,7 +20,7 @@ Stellen Sie mithilfe einer AdBox Bilder in einer externen Implementierung bereit
 
 Eine AdBox funktioniert wie eine Mbox, wird aber mithilfe einer URL statt mit JavaScript gesteuert. AdBoxes werden mit einer speziellen AdBox-URL erstellt, die eine „Werbeanzeigen“-Mbox (oder AdBox) in Ihr Adobe-Konto lädt. Verwenden Sie diese AdBox anstelle der Mbox für Ihre Aktivitäten. Verwenden Sie die AdBox-URL anstelle eines direkten Bildverweises in E-Mail- oder anderen Nicht-JavaScript-Implementierungen.
 
-Hilfe zur Auswahl der richtigen Einstellungen finden Sie unter [Nicht-JavaScript-basierte Implementierungen](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Hilfe zur Auswahl der richtigen Einstellungen finden Sie unter  [Nicht-JavaScript-basierte Implementierungen](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 1. Erstellen der AdBox-URL:
 
