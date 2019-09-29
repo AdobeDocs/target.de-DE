@@ -22,7 +22,7 @@ Dieser Abschnitt enthält die ersten Schritte für [!DNL Target]-Administratoren
 
 Ein Systemadministrator muss Sie in der [!DNL Adobe Admin Console] als Benutzer hinzufügen, indem er Ihnen eine Einladung zu [!DNL Target] schickt. Der Systemadministrator sollte Sie dann zu einer oder mehreren rollenspezifischen Gruppen hinzufügen. Beide Aufgaben werden in der [Adobe Admin Console](https://adminconsole.adobe.com) durchgeführt.
 
-Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -produkten](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in der Hilfe *zu Experience Cloud und Core Services*.
+Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in der Hilfe *zu* Experience Cloud und Core Services.
 
 Nachdem der Systemadministrator diese Schritte durchgeführt hat, erhalten Sie eine Einladungs-E-Mail.
 
@@ -42,7 +42,7 @@ Nehmen Sie die Einladung in [!DNL Adobe Experience Cloud] nach deren Erhalt an, 
    >
    >Wenn Sie Ihr Konto nicht verknüpfen, können Sie nicht auf [!DNL Target] zugreifen.
 
-   Alle Experience Cloud-Produkte werden auf der Verknüpfungsseite angezeigt. Click `Link Target` and enter your Target username and password to access Target Standard.
+   Alle Experience Cloud-Produkte werden auf der Verknüpfungsseite angezeigt. Klicken Sie auf `Link Target` und geben Sie Ihren Benutzernamen und Ihr Passwort für Target ein, um auf Target Standard zugreifen zu können.
 1. Klicken Sie auf **[!UICONTROL Weiter zu Experience Cloud]**.
 
    Sie haben zu diesem Zeitpunkt noch keine Gruppen mit Berechtigungen eingerichtet, die verknüpft werden können.
