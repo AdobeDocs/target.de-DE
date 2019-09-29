@@ -13,7 +13,7 @@ source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 ---
 
 
-# Multiple experience audiences in an A/B Test{#multiple-experience-versions-in-an-a-b-test}
+# Verschiedene Erlebniszielgruppen in A/B-Tests{#multiple-experience-versions-in-an-a-b-test}
 
 Sie können in A/B-Aktivitäten verschiedene Versionen des gleichen Erlebnisses für unterschiedliche Zielgruppen zur Verfügung stellen. Im Visual Experience Composer oder dem Form-Based Experience Composer können mehrere Zielgruppen für ein Erlebnis eingerichtet werden.
 
@@ -37,7 +37,7 @@ In diesem Fall müssen Sie regionsspezifische Versionen des Erlebnisses erstelle
 
 1. Wählen Sie das Erlebnis aus und klicken Sie auf **[!UICONTROL Konfigurieren]** &gt; **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Mehrere Zielgruppen]**.
 
-   ![Option "Mehrere Zielgruppen «](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
+   ![Option „Mehrere Zielgruppen“](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
 1. Klicken Sie auf **[!UICONTROL Zielgruppe hinzufügen]** und wählen Sie die erste Zielgruppe aus. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
 
