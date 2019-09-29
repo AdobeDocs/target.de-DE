@@ -15,9 +15,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Targeting von Angeboten mit automatisierter Personalisierung{#target-automated-personalization-offers}
 
-In einer automatisierten Personalisierung (AP) können Sie Angebote auf bestimmte Zielgruppen ausrichten.
+In der Aktivität „Automatisierte Personalisierung“ (AP) können Sie Angebote auf spezielle Zielgruppen ausrichten.
 
-Mit dieser Funktion reduzieren Sie die Anzahl von Angeboten, die ein spezifischer Besucher anzeigen darf. Betrachten Sie beispielsweise eine AP-Aktivität mit drei Angeboten. Das Angebot 1 verfügt über eine Targeting-Regel, die die Exposition auf Audience A beschränkt. Diese AP-Aktivität wurde von zwei Besuchern gesehen.
+Mit dieser Funktion reduzieren Sie die Anzahl der Angebote, die ein bestimmter Besucher zu sehen bekommt. Gehen wir hierfür von einer AP-Aktivität aus, die drei Angebote aufweist. Angebot 1 verfügt über eine Targeting-Regel, durch die das Angebot auf Zielgruppe A beschränkt wird. Zwei Besucher haben diese AP-Aktivität gesehen.
 
 |  | Besucher 1 | Besucher 2 |
 |--- |--- |--- |
@@ -30,24 +30,24 @@ In diesem Szenario wird Besucher 1 Angebot 1 angezeigt (da er sich als Teil vo
 
 ## Einrichten von Targeting-Regeln
 
-1. Create an [Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers you want to target.
-1. After setting up the offers for the activity in the Visual Experience Composer, click **[!UICONTROL Manage Content]**.
+1. Erstellen Sie eine [Aktivität vom Typ „Automatisierte Personalisierung“](/help/c-activities/t-automated-personalization/create-ap-activity.md), die die Angebote enthält, die Sie auswählen möchten.
+1. Nachdem Sie die Angebote für die Aktivität im Visual Experience Composer eingerichtet haben, klicken Sie auf **[!UICONTROL Inhalt verwalten]**.
 
    ![Verwalten von Inhalt](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
    Das Dialogfeld „Inhalt verwalten“ wird geöffnet.
 
-1. Klicken Sie auf die Registerkarte Angebote.
+1. Klicken Sie auf die Registerkarte „Angebote“.
 
    ![Angebotsseite](/help/c-activities/t-automated-personalization/assets/manage-content-offers.png)
 
-1. Wählen Sie das gewünschte Angebot aus und wählen Sie die Zielgruppen aus, die Sie für die Anzeige dieses Angebots qualifizieren möchten.
+1. Wählen Sie das bzw. die gewünschten Angebote aus und danach die Zielgruppen, die diese sehen sollen.
 
-   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTORL Targeting]** icon.
+   Um die Zielgruppenauswahl für ein einzelnes Angebot einzurichten, bewegen Sie den Mauszeiger über das gewünschte Angebot und klicken Sie dann auf das **[!UICONTORL Targeting]**-Symbol.
 
-   To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Targeting] icon that displays at the top right of the list.
+   Um die Zielgruppenauswahl für mehrere Angebote einzurichten, wählen Sie die Kontrollkästchen für die gewünschten Angebote aus und klicken Sie dann auf das **[!UICONTROL Targeting]-Symbol, das oben rechts in der Liste angezeigt wird.
 
-1. In the [!UICONTROL Choose Audience] dialog box, select the desired audience(s) for the offer(s), then click **[!UICONTROL Done]** to return to the [!UICONTROL Manage Content] dialog box.
+1. Wählen Sie im Dialogfeld [!UICONTROL Zielgruppe auswählen] die gewünschten Zielgruppen für die Angebote aus und klicken Sie dann auf **[!UICONTROL Fertig]**, um zum Dialogfeld [!UICONTROL Inhalt verwalten] zurückzukehren.
 
    >[!NOTE]
    >
@@ -57,4 +57,4 @@ In diesem Szenario wird Besucher 1 Angebot 1 angezeigt (da er sich als Teil vo
 
 >[!NOTE]
 >
->Sie können bis zu 50 Positionen einrichten und bis zu 250 Angebote pro Position.
+>Sie können bis zu 50 Positionen und bis zu 250 Angebote pro Position einrichten.
