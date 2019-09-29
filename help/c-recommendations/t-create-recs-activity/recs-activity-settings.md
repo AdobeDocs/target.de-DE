@@ -1,7 +1,7 @@
 ---
 description: Es können verschiedene Einstellungen verwendet werden, um eine Recommendations-Aktivität zu beschreiben und zu steuern.
 keywords: Empfehlungen; Einstellungen; Name; Ziel; Priorität; Dauer; Berichterstellungseinstellungen; andere Metadaten
-seo-description: Es können mehrere Einstellungen verwendet werden, um eine Recommendations-Aktivität in Adobe Target zu beschreiben und zu steuern.
+seo-description: Es können verschiedene Einstellungen verwendet werden, um eine Recommendations-Aktivität in Adobe Target zu beschreiben und zu steuern.
 seo-title: Einstellungen für Recommendations-Aktivitäten in Adobe Target
 solution: Target
 subtopic: Recommendations
@@ -20,7 +20,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 Informationen über die Einstellungen, mit denen Sie eine [!UICONTROL Recommendations]-Aktivität beschreiben und steuern können.
 
-![Seite "Recommendations Ziele und Einstellungen «](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
+![Seite „Recommendations-Ziele und -Einstellungen“](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
 Die folgenden Abschnitte beschreiben die verfügbaren Einstellungen für eine [!UICONTROL Recommendations]-Aktivität.
 
@@ -47,7 +47,7 @@ Wenn Sie den Namen einer [!UICONTROL Recommendations]-Aktivität angeben, der be
 
 ## Priorität
 
-Nehmen Sie eine Anpassung mit dem Schieberegler vor, um die Prioritätsstufe zu bestimmen.
+Stellen Sie mit dem Schieberegler die Prioritätsstufe ein.
 
 Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
@@ -55,12 +55,12 @@ Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit de
 
 Legen Sie die Dauer der Aktivität fest.
 
-Die Aktivität kann bei Aktivierung gestartet werden oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
+Die Aktivität kann bei Aktivierung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
-## Berichterstellungseinstellungen
+## Berichterstellungseinstellungen 
 
-* **Berichtsquelle:** Wählen Sie die Berichtsquelle aus: Adobe Target oder [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Ändern Sie die Berichtsquelle nicht, nachdem die Aktivität live geschaltet wurde. Eine Änderung der Berichtsquelle nach der Live-Schaltung einer Aktivität führt zu inkonsistenten Berichten.
-* **Zielmetrik:** Wählen Sie die Erfolgsmetrik aus, die bestimmt, ob die Aktivität erfolgreich ist.
+* **Berichtsquelle:** Wählen Sie die Berichtsquelle aus: Adobe Target oder [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Ändern Sie die Berichtsquelle nicht mehr, nachdem die Aktivität aktiviert wurde. Eine Änderung der Berichtsquelle nach der Aktivierung einer Aktivität führt zu inkonsistenten Berichten.
+* **Zielmetrik:** Wählen Sie die Erfolgsmetrik aus, die festlegt, ob eine Aktivität erfolgreich ist.
 * **Zusätzliche Metriken:** Konfigurieren Sie weitere Erfolgsmetriken zur Verwendung in Ihren Berichten.
 * **Zielgruppen für Berichterstellung:** Definieren Sie Zielgruppen, die beim Filtern Ihrer Berichte verwendet werden können.
 
