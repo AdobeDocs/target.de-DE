@@ -1,8 +1,8 @@
 ---
 description: Mit der neuen SDK-Bibliothek von Target müssen Entwickler die Einrichtung nur einmal für ihre Android-Apps durchführen, damit die Funktionen des Mobile Visual Experience Composer (VEC) für Marketing-Experten verfügbar sind.
 keywords: mobile vec; Visual Experience Composer für Mobilgeräte; Mobile Experience Composer-Optionen; Einrichten; Android
-seo-description: Die neue SDK-Bibliothek von Adobe Target ermöglicht es Entwicklern, eine einmalige Einrichtung für ihre Android-Mobil-Apps durchzuführen und Marketingexperten die Funktionen von Visual Experience Composer (VEC) zu verwenden.
-seo-title: Android - Einrichten der mobilen App für Adobe Target
+seo-description: Mit der neuen SDK-Bibliothek von Adobe Target müssen Entwickler die Einrichtung nur einmal für ihre Android-Apps durchführen, damit die Funktionen des Mobile Visual Experience Composer (VEC) für Marketing-Experten verfügbar sind.
+seo-title: Android – Einrichten der mobilen App für Adobe Target
 solution: Target
 title: Android – Einrichten der App
 topic: Standard
@@ -299,18 +299,18 @@ Es gibt bestimmte Szenarien, in denen Sie die Vorabruf-API erneut aufrufen müss
    public static void prefetchOffersBackground();
    ```
 
-## Lernprogramm: Implementieren der Experience Cloud in Mobile Android-Anwendungen {#tutorial}
+## Lernprogramm: Implementieren der Experience Cloud in Android-Apps{#tutorial}
 
-* [Implementieren der Experience Cloud in Mobile Android-Anwendungen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+* [Implementieren der Experience Cloud in Android-Apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
 
-Nach Abschluss dieses Übung können Sie:
+Nach diesem Tutorial können Sie Folgendes:
 
-* Mobile Launch-Eigenschaft erstellen
-* Installieren einer Starteigenschaft in einer Android-App
+* Erstellen einer mobilen Launch-Property
+* Installieren einer Launch-Property in einer Android-App
 * Implementieren Sie die folgenden Adobe Experience Cloud-Lösungen:
    * Experience Cloud ID-Dienst
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* Veröffentlichen von Änderungen im Start über Entwicklungs-, Staging- und Produktionsumgebungen
+* Veröffentlichen von Änderungen in Launch über Entwicklungs-, Staging- und Produktionsumgebungen
