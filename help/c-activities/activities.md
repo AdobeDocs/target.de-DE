@@ -52,7 +52,7 @@ Die Aktivitätenliste bietet eine Übersicht über alle Aktivitäten:
 | Name | Der Name der Aktivität. |
 | URL | Die URL erscheint in hellerem Text unter dem Namen.<br>Die URL für die Aktivität identifiziert, wo die Aktivität angezeigt wird. Auf diese Weise können Sie innerhalb kürzester Zeit eine Aktivität definieren und bestimmen, ob auf einer bestimmten Seite bereits ein Test ausgeführt wird.<br>Wird ein Test für mehrere URLs ausgeführt, zeigt ein Link, wie viele weitere URLs verwendet werden. Klicken Sie auf den Link, um die vollständige Liste an URLs für diese Aktivität anzuzeigen.<br>Sie können anhand der URL suchen. Verwenden Sie die Dropdownliste neben dem Suchfeld und wählen Sie [!UICONTROL URL suchen]. |
 | Status | Der Status der Aktivität kann wie folgt lauten:<ul><li>**Live**: Die Aktivität wird derzeit ausgeführt.</li><li>**Entwurf:** Die Einrichtung der Aktivität hat begonnen, sie kann jedoch noch nicht ausgeführt werden.</li><li>**Geplant:** Die Aktivität wird zum festgelegten Startdatum und zur festgelegten Startzeit aktiviert.</li><li>**Inaktiv:** Die Aktivität wurde angehalten oder deaktiviert.</li><li>**Synchronisierung:** Die Aktivität wurde gespeichert und wird mit dem Target-Bereitstellungsnetzwerk synchronisiert.</li><li>**Beendet:** Das angegebene Enddatum und die angegebene Uhrzeit der Aktivität wurden erreicht und die Aktivität wird nicht mehr bedient.</li><li>**Archiviert:** Die Aktivität wurde archiviert. Sie können eine archivierte Aktivität wieder aktivieren, um sie erneut zu verwenden.</li></ul>**Hinweis:** Wenn Sie bestimmte Aktionen ausführen (z. B. eine Aktivität außerhalb der Benutzeroberfläche über API-Methoden aktivieren), kann es bis zu 10 Minuten dauern, bis die Aktualisierung bis zur Benutzeroberfläche propagiert wird. |
-| Quelle | Zeigt, wo die Aktivität erstellt wurde:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| Quelle | Zeigt, wo die Aktivität erstellt wurde:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager  (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
 | Eigenschaft | Zeigt die [Eigenschaft](/help/administrating-target/c-user-management/property-channel/property-channel.md) für die Aktivität an. |
 | Geschätzte Umsatzsteigerung | Zeigt die voraussichtliche Umsatzsteigerung an, wenn 100 % der Zielgruppe das erfolgreichste Erlebnis sehen.<br>Wird anhand der folgenden Formel berechnet:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>Das Ergebnis wird auf maximal eine Dezimalstelle gerundet, wenn die gekürzte Form vor der Dezimalstelle nur eine Ziffer enthält. Beispiele: 1,6 Mio. $, 60 K $, 900 $, 8,5 K $, 205 K $<br>Diese Spalte zeigt „---“ für Aktivitäten, die nicht genügend Daten haben, um einen Gewinner festzustellen, oder keine Kostenschätzung haben.<br>Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
 | Zuletzt aktualisiert | Das Datum der letzten Aktualisierung und der Name der Person, die sie durchgeführt hat. |
@@ -70,7 +70,7 @@ Die folgenden Aktionen sind verfügbar (je nach Ihren Berechtigungen):
 | Aktivieren | Eine inaktive oder bereite Aktion starten. |
 | Archivieren | Die Aktivitätenliste an das Archiv senden. Archivierte Aktivitäten werden standardmäßig nicht mehr in der Aktivitätenliste aufgeführt. Ändern Sie den Filter für die Aktivitätenliste, damit auch archivierte Aktivitäten angezeigt werden. Sie können eine archivierte Aktivität wieder aktivieren, um sie erneut zu verwenden.<br>Wenn Sie eine Aktivität deaktivieren oder archivieren und später erneut aktivieren, gehören die Besucher, die vor der Deaktivierung oder Archivierung Teil der Aktivität waren, nach der erneuten Aktivierung weiterhin zur Aktivität. Alle zwischen den beiden Ereignissen aufgezeichneten Konversionsmetriken werden nicht auf die Aktivität angerechnet. |
 | Kopieren | Eine Aktivität kopieren. Jede Aktivität kann kopiert werden. Beim Kopieren einer Aktivität wird eine neue Aktivität mit dem gleichen Namen und dem Appendix „Copy“ erstellt. Beispielsweise wird ein Test mit der Bezeichnung „Browser Offers“ in „Browser Offers Copy“ umbenannt.<br>Visuelle Angebote werden mit der Aktivität kopiert. Sie können die Angebote in der Kopie sicher bearbeiten, ohne dass sich dies auf die ursprüngliche Aktivität auswirkt. Die einzige Ausnahme sind gespeicherte Angebote und Bilder im Inhalts-/Assets-Ordner. |
-| Löschen | Entwurf oder Aktivität löschen.<BR>**HINWEIS**: Gelöschte Aktivitäten können nicht wiederhergestellt werden. Unless you are absolutely sure that you'll never need this activity again, use the [!UICONTROL Archive] action. Sie können die Aktivität dann bei Bedarf erneut aktivieren. |
+| Löschen | Einen Entwurf oder eine Aktivität löschen.<BR>**HINWEIS**: Gelöschte Aktivitäten können nicht wiederhergestellt werden. Wenn Sie denken, dass Sie diese Aktivität vielleicht noch einmal benötigen könnten, verwenden Sie die Aktion [!UICONTROL Archivieren]. Sie können die Aktivität dann bei Bedarf erneut aktivieren. |
 
 Beachten Sie folgende Details zur Aktivitätenliste:
 
@@ -89,13 +89,13 @@ Beachten Sie folgende Details zur Aktivitätenliste:
 
 Standardmäßig wird die Liste nach dem Datum der letzten Änderung der Aktivität sortiert, vom neuesten Datum absteigend. Es gibt jedoch mehrere Filteroptionen, mit deren Hilfe Sie die Liste anpassen können, sodass die von Ihnen gewünschten Aktivitäten angezeigt werden.
 
-### Suche {#search-heading}
+### Suche  {#search-heading}
 
 Verwenden Sie das Suchfeld, um nach Aktivitäten zu suchen, die auf Ihre Suchkriterien zutreffen.
 
 ![Aktivitätssuche](/help/c-activities/assets/activities_search_new.png)
 
-Das Suchfeld enthält ein Dropdownmenü, mit dessen Hilfe Sie Ihre Suche durch Festlegen eines der folgenden Suchfilter eingrenzen können: [!UICONTROL Aktivitätsname] und [!UICONTROL URL].
+Das Suchfeld enthält ein Dropdownmenü, mit dessen Hilfe Sie Ihre Suche durch Festlegen eines der folgenden Suchfilter eingrenzen können:  [!UICONTROL Aktivitätsname] und [!UICONTROL URL].
 
 ### Aktivitätslistenfilter
 
