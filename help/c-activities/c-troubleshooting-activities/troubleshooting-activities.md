@@ -85,7 +85,7 @@ Nachdem Sie in Target als Benutzer hinzugefügt wurden, müssen Sie die Rolle �
 
 * Erstellen Sie die Aktivität erneut.
 
-Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter [Szenarien für die Seitenmodifizierung](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter  [Szenarien für die Seitenmodifizierung](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Die Struktur der Seite wird während des Seitenladevorgangs (während der Laufzeit) verändert.
 
@@ -98,7 +98,7 @@ Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige v
 * Aktualisieren Sie den Seiten-Code, um jedes zu testende Element eindeutig zu identifizieren (mithilfe einer id).
 * Unterbrechen Sie die dynamische Modifizierung der Klasse oder Geschwister wie oben beschrieben.
 
-Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter [Szenarien für die Seitenmodifizierung](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter  [Szenarien für die Seitenmodifizierung](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## mbox.js verschiebt sämtlichen folgenden Code aus dem Kopf in den Textkörper.
 
