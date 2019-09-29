@@ -16,12 +16,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Verwenden Sie in multivariaten Tests Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
 
-Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Ausführliche Informationen zu Erfolgsmetriken finden Sie unter  [Erfolgsmetriken](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Geben Sie das Ziel der Aktivität an.
 1. Wählen Sie eine [Erfolgsmetrik](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) aus.
 
-   ![Metrikenliste festlegen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
+   ![Festlegen der Liste der Metriken](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
    Auf der Seite [!UICONTROL Metriken auswählen] werden die Erfolgsmetriken, die Sie für Ihre Aktivität auswählen können, angezeigt. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
 
@@ -39,7 +39,7 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken
 
    Weitere Informationen finden Sie unter [Erfolgsmetriken](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 1. (Optional) Fügen Sie zusätzliche Metriken hinzu.
-1. Klicken Sie auf **[!UICONTROL Weiter]**, wenn Sie die Einstellung Ihrer Metriken abgeschlossen haben. 
+1. Klicken Sie auf **[!UICONTROL Weiter]**, wenn Sie die Einstellung Ihrer Metriken abgeschlossen haben.
 Beachten Sie, dass bei der (Um-)Benennung von Metriken folgende Zeichen nicht zulässig sind:
 
    | Zeichen | Beschreibung |
