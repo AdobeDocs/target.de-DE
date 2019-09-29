@@ -1,8 +1,8 @@
 ---
-description: Definieren Sie eine Zielgruppe, um zwei Profilattribute für Ihre Target-Zielgruppenbibliothek oder nur für eine Zielgruppe zu vergleichen. Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
+description: Definieren Sie eine Zielgruppe, um zwei Profilattribute für Ihre Zielgruppenbibliothek oder in einer reinen Aktivitätszielgruppe zu vergleichen. Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
 keywords: Zielgruppe; Tendenz; Profilattribut; Vergleichen; Vergleich; Zielgruppe erstellen; Erstellen einer Zielgruppe
-seo-description: Definieren Sie eine Zielgruppe, um zwei Profilattribute für Ihre Target-Zielgruppenbibliothek oder nur für eine Zielgruppe zu vergleichen. Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
-seo-title: Erstellen einer Zielgruppe zum Profilattributvergleich in Adobe Target
+seo-description: Definieren Sie eine Zielgruppe, um zwei Profilattribute für Ihre Zielgruppenbibliothek oder in einer reinen Aktivitätszielgruppe zu vergleichen. Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
+seo-title: Erstellen einer Zielgruppe zum Profilattributvergleich  in Adobe Target
 solution: Target
 title: Erstellen einer Zielgruppe zum Profilattributvergleich
 topic: Advanced,Standard,Classic
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Erstellen einer Zielgruppe zum Profilattributvergleich{#create-a-profile-attribute-comparison-audience}
 
-Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
+Definieren Sie eine Zielgruppe, um zwei Profilattribute für Ihre [Zielgruppenbibliothek](/help/c-target/c-audiences/audiences.md) oder in einer [reinen Aktivitätszielgruppe](/help/c-target/creating-activity-only-audience.md) zu vergleichen. Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
 
 >[!NOTE]
 >
@@ -32,18 +32,18 @@ Gehen wir beispielsweise von einem Möbelunternehmen aus, in dem zwei Propensity
 
 Sie könnten eine Zielgruppe erstellen, die dadurch definiert ist, dass die Neigung zum Kauf von Esszimmermöbeln größer als die Neigung zum Kauf von Wohnzimmermöbeln ist. Target würde daraufhin die Propensity Scores für Ess- bzw. Wohnzimmermöbel des vorliegenden Besuchers dynamisch miteinander vergleichen, um zu bestimmen, ob der Besucher in die entsprechende Zielgruppe fällt.
 
-Weitere Informationen finden Sie unter     [Verfahren für die Datenübernahme in Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
 ## Erstellen einer Zielgruppe zum Profilattributvergleich {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. Klicken Sie auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]** &gt; **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Besucherprofil]**.
 1. Wählen Sie in der Dropdownliste **[!UICONTROL Besucherprofil]ein Attribut aus:**
 
-   ![Propensity-Score 1](assets/propensity_score_1.png)
+   ![Propensity Score 1](assets/propensity_score_1.png)
 
 1. Wählen Sie einen Auswerter aus:
 
-   ![Propensity-Score 2](assets/propensity_score_2.png)
+   ![Propensity Score 2](assets/propensity_score_2.png)
 
 1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Vergleichstyp]** die Option **[!UICONTROL Attribut]** aus.
 
