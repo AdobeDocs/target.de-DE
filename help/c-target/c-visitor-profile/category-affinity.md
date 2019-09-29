@@ -1,7 +1,7 @@
 ---
 description: Die Kategorieaffinitätsfunktion erfasst automatisch alle Kategorien, die ein Benutzer besucht, und berechnet die Affinität des Benutzers für diese Kategorien, sodass diese zielgerichtet und segmentiert eingesetzt werden können. Hierdurch wird gewährleistet, dass Inhalte zielgerichtet auf Besucher angewendet werden, die mit großer Wahrscheinlichkeit aufgrund dieser Informationen handeln.
 keywords: Affinität; Kategorieaffinität
-seo-description: Die Kategorieaffinitätsfunktion in Adobe Target erfasst automatisch die Kategorien, die ein Benutzer besucht, und berechnet dann die Affinität des Benutzers für die Kategorie, sodass er gezielt ausgerichtet und segmentiert werden kann. Hierdurch wird gewährleistet, dass Inhalte zielgerichtet auf Besucher angewendet werden, die mit großer Wahrscheinlichkeit aufgrund dieser Informationen handeln.
+seo-description: Die Kategorieaffinitätsfunktion in Adobe Target erfasst automatisch alle Kategorien, die ein Benutzer besucht, und berechnet die Affinität des Benutzers für diese Kategorien, sodass diese zielgerichtet und segmentiert eingesetzt werden können. Hierdurch wird gewährleistet, dass Inhalte zielgerichtet auf Besucher angewendet werden, die mit großer Wahrscheinlichkeit aufgrund dieser Informationen handeln.
 seo-title: Verwenden der Kategorieaffinität in Adobe Target
 solution: Target
 title: Kategorieaffinität
@@ -21,7 +21,7 @@ Die Kategorieaffinitätsfunktion erfasst automatisch alle Kategorien, die ein Be
 
 Wenn ein Benutzer Ihre Site besucht, werden besucherspezifische Profilparameter in der [!DNL Target]-Datenbank aufgezeichnet. Diese Daten sind an das Cookie des Benutzers gebunden. Ein besonders nützlicher Parameter ist `user.categoryId`, ein Mbox-Parameter, der auf einer Produktseite zugewiesen wird. Wenn der Besucher weiter auf der Site surft oder für eine andere Sitzung zurückkehrt, können die Produktkategorien aufgezeichnet werden, die sich ein bestimmter Benutzer ansieht. Kategoriedaten können auch aufgezeichnet werden, indem sie als Mbox-Parameter `user.categoryId` in einer beliebigen Mbox (einschließlich verschachtelter Mboxes), als URL-Parameter `user.categoryId` oder mit globaler Mbox als Target-Seitenparameter übermittelt werden. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
 
-Trennen Sie Kategorien durch ein Komma, um ein Element in mehrere Kategorien einzubinden. Beispiel:
+Trennen Sie Kategorien durch ein Komma, um ein Element in mehrere Kategorien einzubeziehen. Beispiel:
 
 * `user.categoryId=clothing,shoes,nike,running,nike clothing,nike shoes,nike running shoes`
 
@@ -31,7 +31,7 @@ Sie können `user.categoryAffinities[]` in einem Profilskript benutzen, um ein A
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` ist erforderlich, um die bevorzugte Kategorie eines Benutzers zu verfolgen. `entity.categoryId` ist für Basisempfehlungen auf der Kategorie der aktuellen Seite oder des aktuellen Elements erforderlich. Übergeben Sie beide Werte an Adobe Target, wenn Sie beide Funktionen verwenden möchten.
+>Das `user.categoryId`-Attribut, das für den Kategorieaffinitätsalgorithmus von Adobe Target verwendet wird, unterscheidet sich von dem `entity.categoryId`-Attribut, das für die Produkt- und Inhaltsempfehlungen von Adobe Target Recommendations verwendet wird. `user.categoryId` ist erforderlich, um die bevorzugte Kategorie eines Benutzers zu verfolgen. `entity.categoryId` ist erforderlich, um Empfehlungen auf der Basis der Kategorie der aktuellen Seite oder des aktuellen Elements zu erhalten. Senden Sie beide Werte an Adobe Target, wenn Sie beide Funktionen verwenden möchten.
 
 ## Geschäftsfall für Kategorieaffinität {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
