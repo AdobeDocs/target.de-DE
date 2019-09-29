@@ -53,7 +53,7 @@ Wenn Sie über einen Einsatz von A4T nachdenken, sollten Sie die folgenden Punkt
 * Bei der Verwendung von Analytics als Berichtsquelle ist nur eine einzige Mbox-basierte Metrik erlaubt.
 * Bei einem Server-zu-Server-Aufruf von Target zu Analytics werden Aktivitäts- und Erlebnisinformationen an Analytics gesendet. Durch diese Integration werden keine zusätzlichen Server-Aufrufe für Target oder Analytics getätigt.
 
-   In bestimmten Situationen schlägt der Classification-Aufruf von Target an Analytics möglicherweise fehl und Aktivitäten zeigen keine Daten in Analytics an. In diesem Fall finden Sie unter [Fehlerbehebung bei der Integration von Analytics und Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können sich auch an den Kundendienst [wenden](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) , um weitere Hilfe zu erhalten.
+   In bestimmten Situationen schlägt der Classification-Aufruf von Target an Analytics möglicherweise fehl und Aktivitäten zeigen keine Daten in Analytics an. In diesem Fall finden Sie unter [Fehlerbehebung bei der Integration von Analytics und Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). You can also contact Client Care for further assistance.[](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)
 
 ## Unterstützte Aktivitätstypen {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -79,7 +79,7 @@ Die folgende Tabelle zeigt, welche Aktivitätstypen von Analytics als Berichtsqu
 
 Da noch nicht alle Aktivitätstypen A4T unterstützen, empfiehlt es sich, wichtige Konversions-Mboxes (wie die Mbox „orderConfirmPage“) beizubehalten oder zu implementieren.
 
-## Beispiele für A4T-Berichte {#section_F0A43A1CB2F04E8282B909E4D7034361}
+## Beispiele für A4T-Berichte  {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
 Um A4T-Berichte in [!DNL Target]**anzuzeigen, klicken Sie auf[!UICONTROL Aktivitäten]**, dann in der Liste auf die gewünschte Aktivität, die [!DNL Analytics] als Berichtsquelle verwendet, und anschließend auf die Registerkarte **[!UICONTROL Berichte].**
 
