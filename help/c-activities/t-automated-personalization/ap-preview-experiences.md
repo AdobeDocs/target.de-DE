@@ -1,8 +1,8 @@
 ---
-description: Da eine automatisierte Personalisierungsaktivität mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in der Vorschau anzuzeigen.
+description: Da eine automatisierte Personalisierungsaktivität mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
 keywords: Recommendations
-seo-description: Da eine automatisierte Personalisierung (AP) mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in der Vorschau anzuzeigen.
-seo-title: Vorschau von Erlebnissen für eine automatisierte Personalisierung (AP) im Adobe Target Visual Experience Composer
+seo-description: Da eine automatisierte Personalisierungsaktivität (AP) mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
+seo-title: Anzeigen einer Erlebnisvorschau für eine automatisierte Personalisierung (AP) im Visual Experience Composer
 solution: Target
 title: Anzeigen einer Erlebnisvorschau für Automated Personalization im Visual Experience Composer
 title-outputclass: Premium
@@ -17,34 +17,34 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Anzeigen einer Erlebnisvorschau für automatisierte Personalisierung im Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
-Da eine automatisierte Personalisierung (AP) mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in der Vorschau anzuzeigen.
+Da eine automatisierte Personalisierungsaktivität (AP) mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
 
-1. From the Visual Experience Composer, click **[!UICONTROL Preview]**.
+1. Klicken Sie im Visual Experience Composer auf **[!UICONTROL Vorschau]**.
 
    ![Vorschau-Symbol](/help/c-activities/t-automated-personalization/assets/preview.png)
 
-   Es wird eine Liste aller Erlebnisse angezeigt.
+   Es erscheint eine Liste aller Erlebnisse.
 
    ![Vorschau von Erlebnissen](/help/c-activities/t-automated-personalization/assets/ap_preview-new.png)
 
 1. Klicken Sie auf ein spezifisches Erlebnis in der Liste, um es anzuzeigen.
 
-1. (Conditional) To exclude one or more experiences from the activity, click the **[!UICONTROL Exclude]** icon.
+1. (Abhängig von Ihrer Lizenz) Um ein oder mehrere Erlebnisse aus der Aktivität auszuschließen, klicken Sie auf das Symbol **[!UICONTROL Ausschließen]**.
 
-   ![Symbol "Ausschließen «](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
+   ![Symbol „Ausschließen“](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
-   Das Dialogfeld "Inhalt verwalten" wird angezeigt.
+   Das Dialogfeld „Inhalt verwalten“ wird angezeigt.
 
-   ![Inhaltsverwaltung, Dialogfeld](/help/c-activities/t-automated-personalization/assets/preview-exclude.png)
+   ![Dialogfeld „Inhalt verwalten“](/help/c-activities/t-automated-personalization/assets/preview-exclude.png)
 
-   Sie können auswählen, ein Erlebnis auszuschließen, das widersprüchliche Varianten anzeigt oder ästhetisch nicht ausgewogen ist.
+   Sie können Erlebnisse ausschließen, die widersprüchliche Varianten aufweisen oder optisch nicht ansprechend wirken.
 
-   To exclude an experience, hover over the experience and click the **[!UICONTROL Exclude]** icon.
+   Um ein Erlebnis auszuschließen, bewegen Sie den Mauszeiger über das Erlebnis und klicken Sie auf das Symbol **[!UICONTROL Ausschließen]**.
 
-   To exclude multiple experiences, select the checkboxes for the desired experiences, then click the **[!UICONTROL Exclude]** icon at the top right of the list.
+   Um mehrere Erlebnisse auszuschließen, aktivieren Sie die Kontrollkästchen der jeweiligen Erlebnisse und klicken Sie dann oben rechts in der Liste auf das Symbol **[!UICONTROL Ausschließen]**.
 
-   Standardmäßig sind alle Erlebnisse in der Aktivität „Automatisierte Personalisierung“ eingeschlossen. To include an experience that has been excluded, hover over the experience and click the  **[!UICONTROL Include]** icon.
+   Standardmäßig sind alle Erlebnisse in der Aktivität „Automatisierte Personalisierung“ eingeschlossen. Um ein Erlebnis einzubeziehen, das ausgeschlossen wurde, bewegen Sie den Mauszeiger über das Erlebnis und klicken Sie auf das Symbol **[!UICONTROL Einschließen]**.
 
-   To include multiple experiences that have been excluded, select the checkboxes for the desired experiences, then click the **[!UICONTROL Include]** icon at the top right of the list.
+   Um mehrere Erlebnisse einzuschließen, die ausgeschlossen wurden, aktivieren Sie die Kontrollkästchen der jeweiligen Erlebnisse und klicken Sie dann oben rechts in der Liste auf das Symbol **[!UICONTROL Einschließen]**.
 
-1. Click **[!UICONTROL Compose]** to return to the Visual Experience Composer so you can make changes, or click **[!UICONTROL Next]** to go to the [!UICONTROL Targeting] step.
+1. Klicken Sie auf **[!UICONTROL Composer]**, um zum Visual Experience Composer zurückzukehren und Änderungen vorzunehmen, oder klicken Sie auf **[!UICONTROL Weiter]**, um zum [!UICONTROL Targeting]-Schritt zu gelangen.
