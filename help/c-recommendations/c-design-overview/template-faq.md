@@ -19,15 +19,15 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Entwürfen.
 
-## Der Preis meines empfohlenen Artikels zeigt nicht beide Werte rechts vom Dezimalpunkt an. Wie kann ich sie anzeigen?
+## Der Preis meines empfohlenen Artikels zeigt nicht beide Ziffern rechts vom Dezimalzeichen an. Wie kann ich sie anzeigen?
 
-Standardmäßig werden in den in den Designvorlagen zurückgegebenen numerischen Werten (z. `entity.value`B.) nach dem Dezimalpunkt keine nachfolgenden Nullen angezeigt. Wenn ein Element beispielsweise 35,00 US-Dollar hat, `entity.value` gleich 35 und nur 35 auf der Seite angezeigt wird, nicht 35,00 $.
+Standardmäßig werden bei numerischen Werten (z. B. `entity.value`), die in Designvorlagen zurückgegebenen werden, nach dem Dezimalzeichen keine Nullen angezeigt. Wenn ein Artikel beispielsweise 35,00 $ kostet, ist `entity.value` gleich 35, und nur „35“ wird auf der Seite angezeigt, und nicht „35,00“ $.
 
-Für dieses Problem stehen zwei Optionen zur Verfügung.
+Zur Behebung dieses Problems stehen zwei Möglichkeiten zur Verfügung.
 
-* Sie können die Velocity-Skripterstellung oder Javascript verwenden, um die Formatierung auf den zurückgegebenen Wert anzuwenden.
+* Sie können Velocity-Skripts oder JavaScript verwenden, um die Formatierung auf den zurückgegebenen Wert anzuwenden.
 
-* Sie können den Preis des Elements in zwei separate Entitätsattribute übergeben. Die erste kann `entity.value`für numerische Vergleiche verwendet werden (z. B. Preisvergleichsregeln). Die zweite sollte ein benutzerdefiniertes Attribut sein, z. B. `entity.displayValue` der Wert der Entität als Zeichenfolge speichert, um eine ordnungsgemäße Wiedergabe zu ermöglichen.
+* Sie können den Preis des Artikels zwei separaten Entitätsattributen übermitteln. Das erste, `entity.value`, kann für numerische Vergleiche verwendet werden (z. B. Preisvergleichsregeln). Das zweite sollte ein benutzerdefiniertes Attribut sein, z. B. `entity.displayValue`, das den Wert der Entität als Zeichenfolge speichert, um eine korrekte Darstellung zu ermöglichen.
 
    Beispiel:
 
@@ -37,11 +37,11 @@ Für dieses Problem stehen zwei Optionen zur Verfügung.
 
 Die Kategorie-ID kann nicht in dem Entwurf angezeigt werden. Da mehrere Kategorien gespeichert werden können, kann das System nicht ermitteln, welche Kategorie angezeigt werden sollte.
 
-## Wie kann ich einen Entwurf so ändern, dass ein sofortiges Update erfolgt? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+## Wie kann ich einen Entwurf so ändern, dass ein sofortiges Update erfolgt?  {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
 Wenn Sie den aktuell verwendeten Entwurf ändern, erfolgt das entsprechende Update erst nach einiger Zeit. Wenn Sie den Entwurf sofort ändern möchten, erstellen Sie einen neuen Entwurf, wählen Sie diesen in der Kampagne aus und speichern Sie die Empfehlung.
 
-## Wie können wesentliche Informationen für eine Anzeige in dem Entwurf erfasst werden? Beispiel: Wenn die Kategorie des Schlüsselprodukts angezeigt werden soll, wie kann dieser Wert in dem Velocity-Entwurf codiert werden? {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## Wie können wesentliche Informationen für eine Anzeige in dem Entwurf erfasst werden? Beispiel: Wenn die Kategorie des Schlüsselprodukts angezeigt werden soll, wie kann dieser Wert in dem Velocity-Entwurf codiert werden?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 Der Parameter `$key. *`Wert`*` erfasst die meisten Informationen des Schlüsselprodukts, die innerhalb des Entwurfs angezeigt werden. Beispiel: Wenn Sie die Miniaturansicht des Schlüsselprodukts anzeigen möchten, sollten Sie `$key.thumbnailURL` verwenden.
 
