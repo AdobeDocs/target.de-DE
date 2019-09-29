@@ -34,7 +34,7 @@ Wenn der Vorgang „Auswählen“ verwendet wird und Sie eine Sortierung nach *T
 >
 >Mit Target erstellte Berichte haben eine Wartezeit von vier Minuten. Für Aktivitäten, die mit A4T erstellt werden, kann es sowohl bei Target- als auch bei Analytics-Berichten bis zu 24 Stunden nach der erstmaligen Speicherung der Aktivität dauern, bevor die Berichtsdaten durch Erlebnisse aufgegliedert werden können. Die in den ersten 24 Stunden gesammelten Daten sind noch präzise und werden dem richtigen Erlebnis zugewiesen.
 
-## Berichte in Analytics {#section_F6884872DC864AE7913587FAED4CD11C}
+## Berichte in Analytics  {#section_F6884872DC864AE7913587FAED4CD11C}
 
 Klicken Sie in Analytics im linken Menü auf **[!UICONTROL Target]** &gt; **[!UICONTROL Target-Aktivitäten]**. In Target zeigen die Berichte der Aktivität automatisch Analytics-Daten, Metriken und Segmente an. Daten erscheinen in diesen Berichten ca. eine Stunde nach der Erfassung auf der Site. Sämtliche Metriken, Zielgruppen und Werte in den Berichten stammen aus der Report Suite, die Sie bei der Einrichtung der Aktivität ausgewählt haben.
 
@@ -51,7 +51,7 @@ Verwenden Sie in Analytics den Target-Aktivitätenbericht, um die Ergebnisse Ihr
 >
 >Wenn in Ihrem Target-Aktivitätenbericht in Analytics anstelle einer Auflistung Ihrer Aktivitäten die Meldung „nicht angegeben“ erscheint, ist ein Update für das für Sie bereitgestellte Konto erforderlich. Wenden Sie sich an den Kundendienst, um dieses Problem zu beheben.
 
-## Berichte in Target {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## Berichte in Target  {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
 Wenn Analytics als Berichtsquelle verwendet wird, zeigen die Berichte in Target Standard die Daten an, die über Analytics erfasst werden. Der Bericht unterscheidet sich leicht von anderen Target Standard-Berichten:
 
