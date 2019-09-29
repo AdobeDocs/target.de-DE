@@ -118,21 +118,21 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
    Wenn Sie eine neue [!UICONTROL Recommendations]-Aktivität erstellen oder eine bestehende bearbeiten, wird das Kontrollkästchen **[!UICONTROL Kriterien für später speichern]** automatisch aktiviert. Sollten Sie die Kriterien nicht in anderen Aktivitäten verwenden wollen, deaktivieren Sie das Kontrollkästchen, bevor Sie speichern.
 
-## Geschätzte Verarbeitungszeit für Kriterien {#process-time}
+## Geschätzte Verarbeitungszeit für Kriterien  {#process-time}
 
-Nach dem Speichern einer Aktivität, die ein Kriterium enthält, werden Empfehlungen basierend auf der ausgewählten Sammlung und den ausgewählten Kriterien [!DNL Target] berechnet. Diese Berechnung dauert etwas länger, und der Zeitrahmen unterscheidet sich je nach ausgewählter Empfehlungslogik, Datenbereich, Anzahl der Elemente in Ihrem Katalog, Menge der von Ihren Kunden generierten Verhaltensdaten und ausgewählter verhaltensbezogener Datenquelle. Die verhaltensbasierte Datenquelle hat den größten Einfluss auf die Verarbeitungszeit:
+After saving an Activity containing a Criteria,  computes recommendations based on the selected Collection and Criteria. [!DNL Target] Diese Berechnung nimmt etwas Zeit in Anspruch. Der Zeitrahmen hängt von der ausgewählten Empfehlungslogik, dem Datumsbereich, der Anzahl der Elemente in Ihrem Katalog, der Anzahl der Verhaltensdaten Ihrer Kunden und der ausgewählten Verhaltensdatenquelle ab. Die Verhaltensdatenquelle hat den größten Einfluss auf die Verarbeitungszeit, wie im Folgenden dargestellt wird:
 
-### Mboxes arbeiten
+### Mboxes
 
-Wenn mboxes als verhaltensbasierte Datenquelle ausgewählt sind, werden die Kriterien sofort ausgeführt. Je nach Menge der verwendeten Verhaltensdaten und der Größe des Katalogs kann die Ausführung des Algorithmus bis zu 12 Stunden dauern. Änderungen an der Kriterienkonfiguration führen im Allgemeinen dazu, dass der Algorithmus erneut ausgeführt wird. Je nach vorgenommener Änderung sind die zuvor berechneten Empfehlungen möglicherweise verfügbar, bis eine erneute Ausführung abgeschlossen ist, oder bei größeren Änderungen sind nur Backup- oder Standardinhalte verfügbar, bis eine erneute Ausführung abgeschlossen ist. Wenn ein Algorithmus nicht geändert wird, wird er je nach ausgewähltem Datenbereich automatisch [!DNL Target] alle 12-48 Stunden erneut ausgeführt.
+Wenn Mboxes als Verhaltensdatenquelle ausgewählt wird, werden die Kriterien nach der Erstellung sofort ausgeführt. Je nach Menge der verwendeten Verhaltensdaten und der Größe des Katalogs kann die Ausführung des Algorithmus bis zu 12 Stunden dauern. Änderungen an der Kriterienkonfiguration bewirken normalerweise eine Neuausführung des Algorithmus. Je nach Änderung stehen u. U. die zuvor berechneten Empfehlungen zur Verfügung, bis die Neuausführung abgeschlossen ist. Bei größeren Änderungen ist nur das Backup oder der Standardinhalt verfügbar, bis die Neuausführung abgeschlossen ist. Wenn ein Algorithmus nicht geändert wird, wird er von [!DNL Target] je nach ausgewähltem Datumsbereich automatisch alle 12 bis 48 Stunden erneut ausgeführt.
 
 ### Adobe Analytics
 
-If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
+Wenn das Kriterium [!DNL Adobe Analytics] als Verhaltens-Datenquelle verwendet, hängt der Zeitpunkt der Verfügbarkeit der Kriterien nach deren Erstellung davon ab, ob die ausgewählte Report Suite und das Lookback-Fenster bereits für andere Kriterien verwendet wurden.
 
-* **Einmalige Report Suite-Einrichtung**: Wenn eine Report Suite zum ersten Mal mit einem bestimmten Datenbereich-Lookback-Fenster verwendet wird, [!DNL Target Recommendations] kann es zwei bis sieben Tage dauern, bis die Verhaltensdaten für die ausgewählte Report Suite vollständig heruntergeladen wurden [!DNL Analytics]. Dieser Zeitrahmen hängt von der [!DNL Analytics] Systemlast ab.
-* **Neue oder bearbeitete Kriterien mit einer bereits verfügbaren Report Suite**: Wenn beim Erstellen eines neuen Kriteriums oder Bearbeiten eines vorhandenen Kriteriums die ausgewählte Report Suite bereits verwendet wurde [!DNL Target Recommendations], wobei der Datenbereich mindestens dem ausgewählten Datenbereich entspricht, sind die Daten sofort verfügbar und es ist keine einmalige Einrichtung erforderlich. In diesem Fall oder wenn die Einstellungen eines Algorithmus bearbeitet werden, ohne die ausgewählte Report Suite oder den ausgewählten Datenbereich zu ändern, wird der Algorithmus innerhalb von 12 Stunden ausgeführt oder erneut ausgeführt.
-* **Laufender Algorithmus wird ausgeführt**: Daten fließen täglich von [!DNL Analytics] zu [!DNL Target Recommendations] Tag. Beispiel: Bei der Empfehlung für die [!UICONTROL angezeigte Affinität] wird bei der Anzeige eines Produkts ein Rückverfolgungsaufruf für die Produktansicht an [!DNL Analytics] Echtzeit übergeben. Die [!DNL Analytics] Daten werden an den [!DNL Target] nächsten Tag verschoben und [!DNL Target] führen den Algorithmus in weniger als 12 Stunden aus.
+* **Einmalige Einrichtung der Report Suite**: Wenn eine Report Suite zum ersten Mal mit einem Datumsbereich-Lookback-Fenster verwendet wird, kann es zwei bis sieben Tage dauern, bis [!DNL Target Recommendations] die Verhaltensdaten für die ausgewählte Report Suite von [!DNL Analytics] vollständig heruntergeladen hat. Dieser Zeitraum hängt von der [!DNL Analytics]-Systemlast ab.
+* **Neue oder bearbeitete Kriterien mit einer bereits verfügbaren Report Suite**: Wenn Sie ein neues Kriterium erstellen oder ein vorhandenes Kriterium bearbeiten und die ausgewählte Report Suite bereits mit [!DNL Target Recommendations] verwendet wurde und der Datumsbereich gleich oder kleiner als der ausgewählte Datumsbereich ist, sind die Daten unmittelbar verfügbar und es ist keine einmalige Einrichtung erforderlich. In diesem Fall oder wenn die Einstellungen eines Algorithmus bearbeitet werden, ohne dass die ausgewählte Report Suite oder der ausgewählte Datumsbereich geändert wird, wird der Algorithmus innerhalb von 12 Stunden ausgeführt bzw. erneut ausgeführt.
+* **Laufende Ausführung von Algorithmen**: Daten werden täglich von [!DNL Analytics] zu [!DNL Target Recommendations] übertragen. Beispiel: Wenn sich ein Benutzer ein Produkt ansieht, wird für die Empfehlung [!UICONTROL Viewed Affinity] in nahezu Echtzeit ein Produktansichts-Tracking-Aufruf an [!DNL Analytics] gesendet. Die [!DNL Analytics]-Daten werden am Morgen des nächsten Tages an [!DNL Target] gesendet und [!DNL Target] führt den Algorithmus in weniger als 12 Stunden aus.
 
 ## Stützen der Empfehlung auf einen Empfehlungsschlüssel {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -191,7 +191,7 @@ Seiten mit einer Kategorie.
 
 NICHT auf Seiten ohne Suchergebnisse verwenden.
 
-### Benutzerspezifisches Attribut {#custom}
+### Benutzerspezifisches Attribut  {#custom}
 
 Die Empfehlung wird anhand eines Artikels ermittelt, der im Besucherprofil gespeichert ist, entweder mithilfe des Attributs user.*x* oder Profile.*x* Attribute.
 
@@ -331,7 +331,7 @@ Die Empfehlung wird von den am meisten bevorzugten Artikeln auf Ihrer Site besti
 
 Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
 
-### Vor Kurzem aufgerufene Artikel {#recently-viewed}
+### Vor Kurzem aufgerufene Artikel  {#recently-viewed}
 
 Nutzt den Verlauf des Benutzers (sitzungsübergreifend) für die Anzeige der letzten *x* vom Besucher angesehenen Artikel, basierend auf der Anzahl x der im Entwurf vorhandenen Plätze.
 
@@ -343,7 +343,7 @@ Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
 
 >[!NOTE]
 >
->Vor Kurzem aufgerufene Artikel berücksichtigt sowohl die globalen Einstellungen für Ausnahmen als auch die ausgewählte Einstellung für die Sammlung für die Aktivität. Wenn ein Element durch einen globalen Ausschluss ausgeschlossen wird oder nicht in der ausgewählten Sammlung enthalten ist, wird es nicht angezeigt. Bei Verwendung eines Kriteriums "Zuletzt angezeigte Elemente"sollte daher generell die Einstellung "Alle Sammlungen"verwendet werden.
+>Vor Kurzem aufgerufene Artikel  berücksichtigt sowohl globale Ausschlüsse als auch die ausgewählte Sammlungseinstellung für die Aktivität. Wenn ein Artikel durch einen globalen Ausschluss ausgeschlossen oder nicht in der ausgewählten Sammlung enthalten ist, wird er nicht angezeigt. Daher sollte bei Verwendung des Kriteriums „Vor Kurzem aufgerufene Artikel“ die Einstellung „Alle Sammlungen“ verwendet werden.
 
 ## Einschlussregeln {#task_28DB20F968B1451481D8E51BAF947079}
 
