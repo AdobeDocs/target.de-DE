@@ -47,7 +47,7 @@ Steigerung = (Erlebnis-CR - Kontroll-CR) / Kontroll-CR
 
 Wenn die Kontrollinstanz 0 ist, gibt es keine prozentuale Steigerung.
 
-## Konfidenz (statistische Bedeutung) {#section_35DB6724813D40C7B0808DE18FE595C1}
+## Konfidenz (statistische Bedeutung)  {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 Diese Zahl zeigt die Wahrscheinlichkeit, dass sich die Ergebnisse bei einem erneut durchgeführten Test verdoppeln würden. Das Vertrauen wird auf 100 % aufgerundet, wenn es größer oder gleich 99,995 % ist.
 
@@ -103,7 +103,7 @@ Das *Konfidenzintervall* ist ein Bereich, in dem der wahre Wert auf einer bestim
 * **Probengröße:** Wenn die Probengröße steigt, wird das Intervall kleiner. Das wird bevorzugt, da es bedeutet, dass Ihre Berichte näher an den wahren Wert der Erfolgsmetrik herankommen.
 * **Standardabweichung geringer:** Weitere ähnliche Ergebnisse, z. B. ähnliche AOVs oder ähnliche Besucher-Konversionszahlen pro Tag, führen zu einer Reduzierung der Standardabweichung.
 
-## Berechnung der Konfidenz und Anleitung zur Offline-Berechnung {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## Berechnung der Konfidenz und Anleitung zur Offline-Berechnung  {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 Der [heruntergeladene CSV-Bericht](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
 
@@ -134,7 +134,7 @@ Wenn Sie beispielsweise eine Optimierung für Seitenansichten pro Besucher durch
    | Anforderungsname | Geben Sie einen Namen für Ihre Anforderung ein. |
    | Berichtsdatum | Geben Sie einen Zeitraum und eine Granularität an.<br>Es hat sich bewährt, für die erste Anforderung maximal eine Stunde oder einen Tag mit Daten auszuwählen.  Die Verarbeitung von Data Warehouse-Dateien dauert umso länger, je länger der angeforderte Zeitraum ist. Daher ist es immer am besten, zunächst Daten für einen kleineren Zeitraum anzufordern, um sicherzustellen, dass die Datei das erwartete Ergebnis zurückgibt. Rufen Sie anschließend Request Manager auf, duplizieren Sie die Anforderung und fragen Sie beim zweiten Durchlauf mehr Daten an. Wenn Sie zudem die Granularität auf eine andere Einstellung als „Keine“ festlegen, steigt die Dateigröße drastisch.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
    | Verfügbare Segmente | Wenden Sie bei Bedarf ein Segment an. |
-   | Aufschlüsselung | Wählen Sie die gewünschten Dimensionen aus: Die Standardeinstellung ist Out-Of-The-Box (OOTB), während die benutzerdefinierte Einstellung eVars und Eigenschaften umfasst. Es wird empfohlen, anstelle von „Experience Cloud-Besucher-ID“ die „Besucher-ID“ zu verwenden, wenn Informationen zur Besucher-ID-Stufe benötigt werden.<ul><li>Die Besucher-ID ist die finale ID, die von Analytics verwendet wird. Sie lautet entweder AID (wenn es sich um einen bestehenden Kunden handelt) oder MID (wenn der Kunde neu ist oder nach dem Start des MC-Besucher-ID-Diensts Cookies gelöscht hat).</li><li>Die Experience Cloud-Besucher-ID wird nur für Kunden festgelegt, die neu sind oder nach dem Start des MC-Besucher-ID-Service Cookies gelöscht haben.</li></ul> |
+   | Aufschlüsselung | Wählen Sie die gewünschten Dimensionen aus:   Die Standardeinstellung ist Out-Of-The-Box (OOTB), während die benutzerdefinierte Einstellung eVars und Eigenschaften umfasst. Es wird empfohlen, anstelle von „Experience Cloud-Besucher-ID“ die „Besucher-ID“ zu verwenden, wenn Informationen zur Besucher-ID-Stufe benötigt werden.<ul><li>Die Besucher-ID ist die finale ID, die von Analytics verwendet wird. Sie lautet entweder AID (wenn es sich um einen bestehenden Kunden handelt) oder MID (wenn der Kunde neu ist oder nach dem Start des MC-Besucher-ID-Diensts Cookies gelöscht hat).</li><li>Die Experience Cloud-Besucher-ID wird nur für Kunden festgelegt, die neu sind oder nach dem Start des MC-Besucher-ID-Service Cookies gelöscht haben.</li></ul> |
    | Metriken | Wählen Sie die gewünschten Metriken aus. Die Standardeinstellung lautet OOTB, während die benutzerdefinierte Einstellung benutzerdefinierte Ereignisse einschließt. |
    | Berichtvorschau | Überprüfen Sie vor dem Planen des Berichts Ihre Einstellungen.<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
    | Auslieferung planen | Geben Sie eine E-Mail-Adresse ein, an den die Datei gesendet wird. Benennen Sie die Datei und wählen Sie dann [!UICONTROL Sofort senden] aus.<br>Hinweis: Die Datei kann über FTP unter [!UICONTROL Erweiterte Auslieferungsoptionen]<br>![Lieferung planen](/help/c-reports/assets/datawarehouse3.png) ausgegeben werden. |
