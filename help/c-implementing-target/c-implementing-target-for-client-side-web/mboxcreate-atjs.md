@@ -1,6 +1,6 @@
 ---
 description: 'Informationen zur mboxCreate(mbox, params)-Funktion für at.js. '
-keywords: Mboxcreate; mboxcreate; mbox create; at. js; Funktionen; function
+keywords: Mboxcreate; mboxcreate; mbox create; at.js; Funktionen; funktion
 seo-description: Informationen über die mboxCreate(mbox, params)-Funktion für die JavaScript-Bibliothek at.js von Adobe Target.
 seo-title: Informationen über die mboxCreate(mbox, params)-Funktion für die JavaScript-Bibliothek at.js von Adobe Target.
 solution: Target
