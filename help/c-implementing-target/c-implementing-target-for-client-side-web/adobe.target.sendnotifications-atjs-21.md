@@ -1,11 +1,11 @@
 ---
-description: 'Informationen zur Funktion adobe. target. sendnotifications (options) für at. js. '
-keywords: adobe. target. sendnotifications; Sendnotifications; sendnotifications; Senden von Benachrichtigungen; Benachrichtigungen; at. js; Funktionen; function
-seo-description: Informationen über die Funktion adobe. target. sendnotifications (options) für die javascript-Bibliothek von Adobe Target at. js.
-seo-title: Informationen über die Funktion adobe. target. sendnotifications (options) für die javascript-Bibliothek von Adobe Target at. js.
+description: 'Informationen zur Funktion adobe.target.sendNotifications(options) für at.js. '
+keywords: adobe.target.sendnotifications;Sendnotifications;sendnotifications;Senden von Benachrichtigungen;Benachrichtigungen;at.js;Funktionen;funktion
+seo-description: Informationen über die Funktion adobe.target.sendNotifications(options) für die at.js JavaScript-Bibliothek von Adobe Target.
+seo-title: Informationen über die Funktion adobe.target.sendNotifications(options) für die at.js JavaScript-Bibliothek von Adobe Target.
 solution: Target
 subtopic: Erste Schritte
-title: adobe. target. sendnotifications (options)
+title: adobe.target.sendnotifications(options)
 topic: Standard
 translation-type: tm+mt
 source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
@@ -13,58 +13,58 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 ---
 
 
-# adobe. target. sendnotifications (options)
+# adobe.target.sendnotifications(options)
 
-Diese Funktion sendet eine Benachrichtigung an Target-Edge, wenn ein Erlebnis ohne Verwendung `adobe.target.applyOffer()` oder `adobe.target.applyOffers()`.
+Diese Funktion sendet eine Benachrichtigung an Target Edge, wenn ein Erlebnis ohne `adobe.target.applyOffer()` oder `adobe.target.applyOffers()` gerendert wird.
 
 >[!NOTE]
 >
->Diese Funktion wurde in at. js 2.1.0 eingeführt und steht für alle Versionen über 2.1.0 zur Verfügung.
+>Diese Funktion wurde in at.js 2.1.0 eingeführt und steht für Versionen höher als 2.1.0 zur Verfügung.
 
 | Schlüssel | Typ | Erforderlich? | Beschreibung |
 | --- | --- | --- | --- |
 | consumerId | Zeichenfolge | Nein | Der Standardwert ist die globale Mbox des Kunden, falls nicht angegeben. Dieser Schlüssel wird verwendet, um die ID für zusätzliche Daten zu generieren, die für die A4T-Integration verwendet wird. |
-| Anfrage | Objekt | Ja | Siehe Anfragetabelle unten. |
+| Anfrage | Objekt | Ja | Siehe Anforderungstabelle unten. |
 | Zeitüberschreitung | Nummer | Nein | Zeitüberschreitung der Abfrage. Wenn nicht angegeben, wird die standardmäßige at.js-Zeitüberschreitung verwendet. |
 
 ## Anfrage
 
 | Feldname | Typ | Erforderlich? | Einschränkung | Beschreibung |
 | --- | --- | --- | --- | --- |
-| Anforderung &gt; Benachrichtigungen | Array von Objekten | Ja |  | Benachrichtigungen für den angezeigten Inhalt, angeklickte Selektoren und/oder besuchte Ansichten oder mboxes. |
-| Anforderung &gt; Benachrichtigungen &gt; Adresse | Objekt | Nein |  |  |
-| Anforderung &gt; Benachrichtigungen &gt; Adresse &gt; URL | Zeichenfolge | Nein |  | URL, aus der die Benachrichtigung ausgelöst wurde. |
-| Anforderung &gt; Benachrichtigungen &gt; Adresse &gt; referringurl | Zeichenfolge | Nein |  | Die verweisende URL, aus der die Benachrichtigung ausgelöst wurde. |
-| Anforderung &gt; Benachrichtigungen &gt; Parameter | Objekt | Nein | Die folgenden Namen sind für Parameter nicht zulässig:<ul><li>orderId</li><li>orderTotal</li><li>Productpurchasedids</li></ul>Beachten Sie Folgendes:<ul><li>Max. 50 Parameter.</li><li>Parametername darf nicht leer sein.</li><li>Max. Länge des Parameternamens 128.</li><li>Parametername darf nicht mit "profile" beginnen.</li><li>Maximale Parameterlänge 5000.</li></ul> |  |
-| Anforderung &gt; Benachrichtigungen &gt; profileparameter | Objekt | Nein | Die folgenden Namen sind für Parameter nicht zulässig:<ul><li>orderId</li><li>orderTotal</li><li>Productpurchasedids</li></ul>Beachten Sie Folgendes:<ul><li>Max. 50 Parameter.</li><li>Parametername darf nicht leer sein.</li><li>Max. Länge des Parameternamens 128.</li><li>Parametername darf nicht mit "profile" beginnen.</li><li>Maximale Parameterlänge 5000.</li></ul> |  |
-| Anforderung &gt; Benachrichtigungen &gt; Reihenfolge | Objekt | Nein |  | Objekt, das die Bestelldetails beschreibt. |
-| Anforderung &gt; Benachrichtigungen &gt; Reihenfolge &gt; ID | Zeichenfolge | Nein | `<=` 250 Zeichen. | Bestell-ID. |
-| Anforderung &gt; Benachrichtigungen &gt; Bestellung &gt; Gesamt | Zeichenfolge | Nein | `>=` 0 | Bestellsumme. |
-| Anforderung &gt; Benachrichtigungen &gt; Bestellung &gt; purchasedproductids | Array von Zeichenfolge | Nein | <ul><li>Keine leeren Werte zulässig.</li><li>Jede Produkt-ID max. 50.</li><li>Produkt-IDs (durch Kommas getrennt und verkettet) sollten 250 nicht überschreiten.</li></ul> | Bestellprodukt-IDs. |
-| Anforderung &gt; Benachrichtigungen &gt; Produkt | Objekt | Nein |  |  |
-| Anforderung &gt; Benachrichtigungen &gt; Produkt &gt; ID | Zeichenfolge | Nein | `<=` 128 Zeichen; darf nicht leer sein. | Produkt-ID. |
-| Anforderung &gt; Benachrichtigungen &gt; Produkt &gt; categoryid | Zeichenfolge | Nein | `<=` 128 Zeichen; darf nicht leer sein. | Kategorie-ID. |
-| Anforderung &gt; Benachrichtigungen &gt; ID | Zeichenfolge | Ja | `<=` 200 Zeichen. | Die Benachrichtigungs-ID wird als Antwort zurückgegeben und zeigt an, dass die Benachrichtigung erfolgreich verarbeitet wurde. |
-| Anforderung &gt; Benachrichtigungen &gt; impressionid | Zeichenfolge | Nein | `<= 128` Zeichen. | Die Impressions-ID wird verwendet, um die aktuelle Benachrichtigung mit einer vorherigen Benachrichtigung zu verknüpfen oder auszuführen oder eine Anforderung auszuführen. Stimmen beide überein, generiert die zweite und andere nachfolgende Anforderungen keine neue Impression für die Aktivität oder das Erlebnis. |
-| Anforderung &gt; Benachrichtigungen &gt; Typ | Zeichenfolge | Ja | " click" oder "display" wird unterstützt. | Benachrichtigungstyp. |
-| Anforderung &gt; Benachrichtigungen &gt; Zeitstempel | Nummer`<int64>` | Ja |  | Zeitstempel der Benachrichtigung in Millisekunden seit der UNIX-Epoche. |
-| Anforderung &gt; Benachrichtigungen &gt; Tokens | Array von Zeichenfolge | Ja |  | Eine Liste der Token für angezeigte Inhalte oder angeklickte Selektoren basierend auf dem Typ der Benachrichtigung. |
-| Anforderung &gt; Benachrichtigungen &gt; mbox | Objekt | Nein |  | Benachrichtigungen für die mbox. |
-| Anforderung &gt; Benachrichtigungen &gt; mbox &gt; Name | Zeichenfolge | Nein | Keine leeren Werte zulässig.<br>Zulässige Zeichen: Siehe Hinweis unten. | Name der Mbox. |
-| Anforderung &gt; Benachrichtigungen &gt; mbox &gt; Status | Zeichenfolge | Nein |  | mbox-Statustoken. |
-| Anforderung &gt; Benachrichtigungen &gt; Ansicht | Objekt | Nein |  |  |
-| Anforderung &gt; Benachrichtigungen &gt; Ansicht &gt; ID | Ganzzahl `<int64>` | Nein |  | Anzeigen Sie id. Die ID, die der Ansicht zugewiesen wurde, wenn die Ansicht über die Ansicht-API erstellt wurde. |
-| Anforderung &gt; Benachrichtigungen &gt; Ansicht &gt; Name | Zeichenfolge | Nein | `<= 128` Zeichen. | Name der Ansicht. |
-| Anforderung &gt; Benachrichtigungen &gt; Ansicht &gt; Schlüssel | Zeichenfolge | Nein | `<=` 512 Zeichen. | Ansichtsschlüssel. Der Schlüssel, der mit der Ansicht über die API festgelegt wurde. |
-| Anforderung &gt; Benachrichtigungen &gt; Ansicht &gt; Status | Zeichenfolge | Nein |  | Statustoken anzeigen. |
+| Request &gt; notifications | Array von Objekten | Ja |  | Benachrichtigungen für den angezeigten Inhalt, angeklickte Selektoren und/oder besuchte Ansichten oder Mboxes. |
+| Request &gt; notifications &gt; address | Objekt | Nein |  |  |
+| Request &gt; notifications &gt; address &gt; url | Zeichenfolge | Nein |  | URL, über die die Benachrichtigung ausgelöst wurde. |
+| Request &gt; notifications &gt; address &gt; referringUrl | Zeichenfolge | Nein |  | Die Referenz-URL, über die die Benachrichtigung ausgelöst wurde. |
+| Request &gt; notifications &gt; parameters | Objekt | Nein | Die folgenden Namen sind für Parameter nicht zulässig:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Beachten Sie Folgendes:<ul><li>Maximale Begrenzung für Parameter: 50.</li><li>Der Parametername darf nicht leer sein.</li><li>Maximale Länge des Parameternamens: 128</li><li>Parameternamen dürfen nicht mit „profile“ beginnen.</li><li>Maximale Wertelänge des Parameters: 5.000.</li></ul> |  |
+| Request &gt; notifications &gt; profileParameters | Objekt | Nein | Die folgenden Namen sind für Parameter nicht zulässig:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Beachten Sie Folgendes:<ul><li>Maximale Begrenzung für Parameter: 50.</li><li>Der Parametername darf nicht leer sein.</li><li>Maximale Länge des Parameternamens: 128</li><li>Parameternamen dürfen nicht mit „profile“ beginnen.</li><li>Maximale Wertelänge: 5.000.</li></ul> |  |
+| Request &gt; notifications &gt; order | Objekt | Nein |  | Objekt, das die Bestelldetails beschreibt. |
+| Request &gt; notifications &gt; order &gt; id | Zeichenfolge | Nein | `<=` 250 Zeichen. | Bestell-ID. |
+| Request &gt; notifications &gt; order &gt; total | Zeichenfolge | Nein | `>=` 0 | Bestellsumme. |
+| Request &gt; notifications &gt; order &gt; purchasedProductIds | Zeichenfolgen-Array | Nein | <ul><li>Keine leeren Werte zulässig.</li><li>Maximale Länger der Produkt-ID: 50</li><li>Produkt-IDs (durch Kommas getrennt und verkettet) dürfen eine Gesamtlänge von 250 nicht überschreiten.</li></ul> | Bestellprodukt-IDs. |
+| Request &gt; notifications &gt; product | Objekt | Nein |  |  |
+| Request &gt; notifications &gt; product &gt; id | Zeichenfolge | Nein | `<=` 128 Zeichen; darf nicht leer sein. | Produkt-ID. |
+| Request &gt; notifications &gt; product &gt; categoryId | Zeichenfolge | Nein | `<=` 128 Zeichen; darf nicht leer sein. | Kategorie-ID. |
+| Request &gt; notifications &gt; id | Zeichenfolge | Ja | `<=` 200 Zeichen. | Die Benachrichtigungs-ID wird in der Antwort zurückgegeben und gibt an, dass die Benachrichtigung erfolgreich verarbeitet wurde. |
+| Request &gt; notifications &gt; impressionId | Zeichenfolge | Nein | `<= 128` Zeichen. | Die Impressions-ID wird verwendet, um die aktuelle Benachrichtigung mit einer vorherigen Benachrichtigung oder Ausführungsanforderung zu verknüpfen. Stimmen beide überein, generieren die zweite sowie andere nachfolgende Anforderungen keine neue Impression für die Aktivität oder das Erlebnis. |
+| Anforderung &gt; Benachrichtigungen &gt; Typ | Zeichenfolge | Ja | „click“ oder „display“ wird unterstützt. | Benachrichtigungstyp. |
+| Request &gt; notifications &gt; timestamp | Nummer`<int64>` | Ja |  | Zeitstempel der Benachrichtigung in Millisekunden, die seit Beginn der UNIX-Epoche verstrichen sind. |
+| Request &gt; notifications &gt; tokens | Zeichenfolgen-Array | Ja |  | Eine Liste der Token für angezeigte Inhalte oder angeklickte Selektoren basierend auf dem Typ der Benachrichtigung. |
+| Request &gt; notifications &gt; mbox | Objekt | Nein |  | Benachrichtigungen für die Mbox. |
+| Request &gt; notifications &gt; mbox &gt; name | Zeichenfolge | Nein | Keine leeren Werte zulässig.<br>Zulässige Zeichen: Siehe Hinweis nach dieser Tabelle. | Name der Mbox. |
+| Request &gt; notifications &gt; mbox &gt; state | Zeichenfolge | Nein |  | Mbox-Statustoken. |
+| Request &gt; notifications &gt; view | Objekt | Nein |  |  |
+| Request &gt; notifications &gt; view &gt; id | Ganzzahl `<int64>` | Nein |  | Ansicht-ID Die ID, die der Ansicht zugewiesen wurde, als die Ansicht über die Ansicht-API erstellt wurde. |
+| Request &gt; notifications &gt; view &gt; name | Zeichenfolge | Nein | `<= 128` Zeichen | Name der Ansicht. |
+| Request &gt; notifications &gt; view &gt; key | Zeichenfolge | Nein | `<=` 512 Zeichen. | Ansichtsschlüssel. Der Schlüssel, der mit der Ansicht über die API festgelegt wurde. |
+| Request &gt; notifications &gt; view &gt; state | Zeichenfolge | Nein |  | Token für den Ansichtsstatus. |
 
-**Hinweis**: Folgende Zeichen sind zulässig `Request > notifications > mbox > name`:
+**Hinweis**: Folgende Zeichen sind für `Request > notifications > mbox > name` zulässig:
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
 ```
 
-## Sendnotifications ()-Aufruf nach dem Rendern von vorab erstellten mboxes
+## sendNotifications()-Aufruf nach dem Rendern vorgeladener Mboxes
 
 ```
 function createTokens(options) {
@@ -120,4 +120,4 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->Wenn Sie Adobe Analytics verwenden, `getOffers()` mit nur einem Präfix, `sendNotifications()`muss die Analytics-Anforderung ausgelöst werden, nachdem `sendNotifications()` sie ausgeführt wurde. Dadurch soll sichergestellt werden, dass die durch `sendNotifications()` die SDID generierte SDID mit der an Analytics und Target gesendeten SDID übereinstimmt.
+>Wenn Sie Adobe Analytics verwenden, `getOffers()` nur mit Vorabruf und `sendNotifications()`, muss die Analytics-Anforderung ausgelöst werden, nachdem `sendNotifications()` ausgeführt wurde. Dadurch soll sichergestellt werden, dass die durch `sendNotifications()` generierte SDID mit der an Analytics und Target gesendeten SDID übereinstimmt.
