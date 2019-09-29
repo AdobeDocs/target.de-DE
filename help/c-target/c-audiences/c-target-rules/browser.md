@@ -1,7 +1,7 @@
 ---
-description: Sie können Zielgruppen in Adobe Target erstellen, um Benutzer, die einen bestimmten Browser oder eine bestimmte Browseroptionen verwenden, beim Besuch Ihrer Seite als Ziel auszuwählen.
+description: Sie können Zielgruppen in Adobe Target erstellen, um Benutzer auszuwählen, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden.
 keywords: Browseroptionen; Typ; Browsertyp; Browsersprache; Sprache; Version; Browserversion
-seo-description: Sie können Zielgruppen in Adobe Target erstellen, um Benutzer, die einen bestimmten Browser oder eine bestimmte Browseroptionen verwenden, beim Besuch Ihrer Seite als Ziel auszuwählen.
+seo-description: Sie können Zielgruppen in Adobe Target erstellen, um Benutzer auszuwählen, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden.
 seo-title: Browseroptionen in Adobe Target-Zielgruppen
 solution: Target
 subtopic: Multivarianz-Test
@@ -43,7 +43,7 @@ Es gibt zwei Möglichkeiten, Browser auszurichten:
 1. Nennen Sie die Zielgruppe.
 1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Browser]**.
 
-   ![Regeln &gt; Brower](assets/target_browser.png)
+   ![Regeln &gt; Browser](assets/target_browser.png)
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
@@ -62,7 +62,7 @@ Das folgende Beispiel zeigt eine Zielgruppe, die Internet Explorer-Benutzer in V
 
 Wählen Sie Aktivitätsteilnehmer basierend auf ihrem Browsertyp, ihrer Sprache oder Version als Zielgruppe aus oder schließen Sie sie aus.
 
-### Typ {#section_6ADC758F23F145B3A310151546D83D56}
+### Typ  {#section_6ADC758F23F145B3A310151546D83D56}
 
 Schließen Sie einen bestimmten Browser als Ziel ein oder aus.
 
@@ -73,11 +73,11 @@ Wählen Sie **[!UICONTROL Typ]** und wählen Sie entweder gleich oder nicht glei
 
 Wählen Sie einen oder mehrere Browser aus. Mehrfachoptionen sind mit einem ODER verbunden.
 
-### Sprache {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Sprache  {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
-Schließen Sie bestimmte Browser mit bestimmten Sprachen ein oder aus.
+Schließen Sie bestimmte Browserversionen, die spezifische Sprachen verwenden, als Ziel ein oder aus.
 
-Wenn ein Angebot beispielsweise nur auf Englisch verfügbar ist, können Sie Browser mit ihrer Sprache auf Englisch ausrichten. Oder wenn Ihre Seite keine Doppel-Byte-Zeichen unterstützt, können Sie Browser ausschließen, die für asiatische Sprachen eingestellt sind.
+Wenn zum Beispiel ein Angebot nur auf Englisch verfügbar ist, können Sie Browser als Ziel einschließen, deren Sprache auf Englisch festgelegt ist. Oder wenn Ihre Seite keine Doppel-Byte-Zeichen unterstützt, können Sie Browser ausschließen, die für asiatische Sprachen eingestellt sind.
 
 In Fällen, in denen die Sprache wichtiger als der Standort ist, bietet das Ein- oder Ausschließen von Browsersprachen eine zielgerichtetere Besucheransprache als die geografisch basierte Kundenansprache. Wenn Sie zum Beispiel einen auf Englisch geschriebenen Artikel anbieten, können Sie entweder englischsprachige Länder oder Länder, deren Sprache auf Englisch festgelegt ist, als Ziel einschließen. Wenn Sie den Browser als Ziel einschließen, steht der Artikel Personen zur Verfügung, die Englisch verstehen, sich jedoch in Ländern befinden, in denen Englisch nicht die Hauptsprache ist.
 
@@ -100,7 +100,7 @@ Folgende Browsersprachen können als Ziel ein- oder ausgeschlossen werden.
 * Spanisch
 * Traditionelles Chinesisch
 
-### Version {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Version  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Schließen Sie bestimmte Browserversionen als Ziel ein oder aus.
 
