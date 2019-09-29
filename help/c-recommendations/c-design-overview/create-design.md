@@ -48,11 +48,11 @@ Sie können einen [!UICONTROL Recommendations]-Entwurf erstellen, indem ein Stan
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Schulungsvideo: Benutzerdefinierte Designs in Recommendations erstellen (3:20)
+## Schulungsvideo: Erstellen von benutzerdefinierten Entwürfen in Recommendations (03:20)
 
 Dieses Video enthält die folgenden Informationen:
 
 * Erstellen eines benutzerdefinierten Entwurfs
-* Verstehen Sie, wie Sie auf Anzeigevariablen in Ihren Designs verweisen.
+* Informationen zur Referenzierung von Anzeigevariablen in Entwürfen
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?captions=ger)
