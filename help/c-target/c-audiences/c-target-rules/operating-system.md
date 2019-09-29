@@ -29,7 +29,7 @@ Sie können Benutzer, die ein bestimmtes Betriebssystem verwenden, als Ziel ausw
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Die folgenden Abbildungen zeigen eine Zielgruppe für Besucher, die ein Macintosh OS verwenden.
+Die folgenden Abbildungen zeigen eine Zielgruppe, die Besucher auswählt, die ein Macintosh-Betriebssystem verwenden.
 
 ![](assets/target_os.png)
 
