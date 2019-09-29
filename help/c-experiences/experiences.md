@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Ein Erlebnis legt fest, welcher Inhalt angezeigt wird, wenn der Besucher die Zielgruppenkriterien für eine Aktivität erfüllt.
 
-Ein Erlebnis kann ein Angebot, Bild, Text, Schaltfläche, Video, Kombination dieser verschiedenen Elemente auf einer Seite, eine gesamte Webseite oder eine Reihe vonseiten sein, die möglicherweise einen Kauftrichter oder eine andere logische Folge vonseiten bilden. Dies kann auch die Antwort eines Sprecherassistenten, ein Kundendienstskript oder ein personalisiertes Flachen von einem Drink-Computer sein. You test or personalize experiences in [!DNL Target] activities.
+Ein Erlebnis kann ein Angebot, ein Bild, ein Text, eine Schaltfläche, ein Video, eine Kombination dieser Elemente auf einer Seite, eine gesamte Webseite oder mehrere Seiten sein, die möglicherweise einen Kauftrichter oder eine andere logische Seitenfolge bilden. Ein Erlebnis kann auch die Antwort eines Sprachassistenten, ein Skript für den Kundendienst oder sogar ein personalisierter Geschmack in einem Getränkeautomaten sein. Sie können Erlebnisse in [!DNL Target] Aktivitäten testen oder personalisieren.
 
 Eine Aktivität enthält in der Regel mehr als ein Erlebnis. So sehen Besucher aus dem Großraum München möglicherweise ein Angebot, bei dem Sie einen Rabatt von 30 € auf Skischuhe bekommen, während für Besucher aus Westerland Angebote zu Taucheranzügen erscheinen. Oder aber Sie testen eine Seite mit verschiedenen Sonderangeboten für wiederkehrende Besucher. Alle dieser Angebote erscheinen in verschiedenen Erlebnissen.
 
