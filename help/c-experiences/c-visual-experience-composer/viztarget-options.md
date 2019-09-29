@@ -54,7 +54,7 @@ Verwenden Sie den Farbwähler, um eine Hintergrundfarbe auszuwählen oder zu kon
 
 **Hinweis:** Diese Option ist nicht für Elemente verfügbar, wenn ein Hintergrundbild festgelegt ist.
 
-#### Stile {#styles}
+#### Stile  {#styles}
 
 Verwenden Sie das Bedienfeld [!UICONTROL Stile], um den Wert vorhandener Stile für das ausgewählte Element anzuzeigen oder zu bearbeiten. Sie können auch zusätzliche Formatierungen hinzufügen.
 
@@ -76,17 +76,17 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
 * **Hintergrund**
 
-   Ändern Sie die Hintergrundfarbe und das Bild.
+   Sie können die Hintergrundfarbe und das Bild ändern.
 
    * Farbe (geben Sie den Farbcode an oder verwenden Sie den Farbwähler)
    * Bild (wählen Sie ein Bild aus der Bildauswahl aus)
    * Bildquelle (geben Sie eine externe URL an)
-   * Anlage
-      * Klicken Sie auf die obere Dropdownliste, um einen Bildlauf, ein festes Layout oder ein lokal auszuwählen.
-      * Klicken Sie auf die untere Dropdownliste, um wiederholen, repeat-x, repeat-y, no-repeat, space oder round auszuwählen.
-   * Clip
-      * Klicken Sie auf die obere Dropdownliste, um die Randfarbe, das Umrandungsfeld, den Inhaltsfeld oder den Text auszuwählen.
-      * Klicken Sie auf die untere Dropdownliste, um die automatische Audio- oder Audiowiedergabe auszuwählen.
+   * Anhang
+      * Klicken Sie auf die obere Dropdownliste, um einen Bildlauf, ein festes Layout oder „lokal“ auszuwählen.
+      * Klicken Sie auf die untere Dropdownliste, um „Wiederholen“, „Wiederholung x“, „Wiederholung y, „Keine Wiederholung“, „Leerzeichen“ oder „Bildlauf“ auszuwählen.
+   * Schneiden
+      * Klicken Sie auf die obere Dropdownliste, um „Rahmen“, „Umrandung“, „Inhaltsfenster“ oder „Text“ auszuwählen.
+      * Klicken Sie auf die untere Dropdownliste, um die automatische Audiowiedergabe oder Audiowiedergabe auszuwählen.
 
 * **Typografie**
 
@@ -313,11 +313,11 @@ Ziehen Sie das Element an einen anderen Ort innerhalb des gleichen übergeordnet
 
 **Hinweis:** Die Größe von Inline-Elementen kann nicht geändert werden.
 
-#### Verschieben {#move}
+#### Verschieben  {#move}
 
 Verschieben Sie Elemente auf Ihrer Seite. Im Gegensatz zu [!UICONTROL Elemente neu anordnen] werden bei der Option [!UICONTROL Verschieben] keine anderen Elemente verschoben, um Platz für das verschobene Element zu machen. Verwenden Sie die Pfeiltasten, um geringfügige Korrekturen vorzunehmen. (Geplante Erweiterung: Es soll sichergestellt werden können, dass verschobene Elemente nicht hinter anderen Elementen verborgen werden.)
 
-In manchen Fällen, zum Beispiel wenn eine CSS-Beschränkung es erfordert, dass ein Element innerhalb des übergeordneten Elements verbleibt, können Sie das Element nicht außerhalb des übergeordneten Elements verschieben. Ein Element kann nicht außerhalb eines Containers verschoben werden, der über die folgende CSS-Eigenschaft verfügt: `overflow: hidden`.
+In manchen Fällen, zum Beispiel wenn eine CSS-Beschränkung es erfordert, dass ein Element innerhalb des übergeordneten Elements verbleibt, können Sie das Element nicht außerhalb des übergeordneten Elements verschieben. Elemente können nicht aus einem Container verschoben werden, der folgende CSS-Eigenschaft hat:`overflow: hidden`
 
 #### Ausblenden
 
@@ -343,7 +343,7 @@ Rückgängigmachen von Änderungen, die Sie während einer Bearbeitungssitzung a
 
 ## Zu beachten {#considerations}
 
-* Wenn ein Angebot HTML-Inhalte enthält, finden Sie unter "How at. js render offer with HTML content" in [How at. js funktioniert](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
+* Weitere Informationen zu Angeboten mit HTML-Inhalten finden Sie unter „Darstellung von Angeboten mit HTML-Inhalten durch at.js“ in [Funktionsweise von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render).
 
 ## In Elementen mithilfe des DOM-Pfades navigieren {#dom-path}
 
