@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 In Target Standard sind die Erfolgsmetriken zu Berichts- und Verfolgungszwecken vorkonfiguriert.
 
-Erfolgsmetriken sind Parameter, die zum Messen des Erfolgs einer Aktivität verwendet werden. Erfolgsmetriken beinhalten wichtige Geschäftsmaßnahmen, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können. Sie können beispielsweise bestimmen, ob ein neues Angebot Ihren Umsatz pro Besucher steigern oder einen Artikel zu einem Warenkorb hinzufügt. Erfolgsmetriken können hilfreich sein, um Probleme mit Registrierung, Sortierung oder Kauftrichter zu ermitteln, aber auch einfach mit Besucherbindung oder Kundenbindung.
+Erfolgsmetriken sind Parameter, die zur Messung des Erfolgs einer Aktivität verwendet werden. Erfolgsmetriken umfassen die wichtigsten betrieblichen Messwerte, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können. So können Sie beispielsweise feststellen, ob ein neues Angebot oder das Hinzufügen eines Artikel zu einem Warenkorb Ihren Umsatz pro Besucher steigert. Erfolgsmetriken können hilfreich sein, um Probleme mit der Registrierung, der Sortierung oder dem Kauftrichter oder einfach mit der Besucher- und Kundeninteraktion zu ermitteln.
 
 Im Zuge des Ziels von [!DNL Target Standard], die Testerstellung zu vereinfachen, übernimmt die Anwendung einige der Konfigurationen, die in [!DNL Target Classic] noch manuell durchgeführt werden mussten. Erfolgsmetriken werden beispielsweise mit den optimalen Optionen vorkonfiguriert.
 
@@ -54,9 +54,9 @@ Mit den erweiterten Einstellungen können Sie verwalten, wie Sie Erfolg messen. 
 >
 >Wenn Sie [!DNL Adobe Analytics] als Ihre Berichterstellungsquelle verwenden, werden die Einstellungen vom [!DNL Analytics]-Server verwaltet. Die Option für erweiterte Einstellungen steht nicht zur Verfügung.
 
-![Dropdown-Liste Erweiterte Einstellungen](/help/c-activities/r-success-metrics/assets/Menu_AdvancedSettings.png)
+![Dropdown-Liste „Erweiterte Einstellungen“](/help/c-activities/r-success-metrics/assets/Menu_AdvancedSettings.png)
 
-Darüber hinaus können Sie abhängige Erfolgsmetriken über die erweiterten Einstellungen erstellen, die immer nur dann als erreicht verbucht werden, wenn ein Besucher zuvor eine andere Metrik erfüllt hat.
+Darüber hinaus können Sie mithilfe der erweiterten Einstellungen abhängige Erfolgsmetriken erstellen, die immer nur dann als erreicht verbucht werden, wenn ein Besucher zuvor eine andere Metrik erfüllt hat.
 
 ![Abhängigkeit hinzufügen](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
@@ -75,9 +75,9 @@ Verwenden Sie die erweiterten Einstellungen, um festzulegen, was geschehen soll,
 
 | Ein Benutzer findet diese Sollmetrik vor | Optionen |
 |--- |--- |
-| Anzahl erhöhen und Benutzer in der Aktivität belassen | Angeben, wie die Anzahl erhöht wird:<ul><li>Einmal pro Teilnehmer (Standard)</li><li>Bei jeder Anzeige, einschließlich Seitenaktualisierungen</li><li>Bei jeder Anzeige</li></ul> |
-| Anzahl erhöhen, Benutzer entlassen und erneute Teilnahme zulassen | Auswahl des Erlebnisses, das der Besucher bei erneuter Teilnahme an der Aktivität sieht:<ul><li>Das gleiche Erlebnis (Standard)</li><li>Ein zufällig ausgewähltes Erlebnis</li><li>Ein noch nicht gesehenes Erlebnis</li></ul> |
-| Anzahl erhöhen, Benutzer entlassen und den Benutzer für die erneute Teilnahme sperren | Festlegen, was der Benutzer anstelle des Aktivitätsinhalts sieht:<ul><li>Das gleiche Erlebnis, ohne Tracking (Standard)</li><li>Den Standardinhalt oder den Inhalt einer anderen Aktivität</li></ul> |
+| Anzahl erhöhen und Benutzer in der Aktivität belassen | Angeben, wie die Anzahl erhöht wird:<ul><li>Einmal pro Teilnehmer  (Standard)</li><li>Bei jeder Anzeige, einschließlich Seitenaktualisierungen</li><li>Bei jeder Anzeige</li></ul> |
+| Anzahl erhöhen, Benutzer entlassen und erneute Teilnahme zulassen | Auswahl des Erlebnisses, das der Besucher bei erneuter Teilnahme an der Aktivität sieht:<ul><li>Das gleiche Erlebnis  (Standard)</li><li>Ein zufällig ausgewähltes Erlebnis</li><li>Ein noch nicht gesehenes Erlebnis</li></ul> |
+| Anzahl erhöhen, Benutzer entlassen und den Benutzer für die erneute Teilnahme sperren | Festlegen, was der Benutzer anstelle des Aktivitätsinhalts sieht:<ul><li>Das gleiche Erlebnis, ohne Tracking  (Standard)</li><li>Den Standardinhalt oder den Inhalt einer anderen Aktivität</li></ul> |
 
 ## Schulungsvideo: Aktivitätsmetriken
 
