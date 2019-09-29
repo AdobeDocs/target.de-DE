@@ -73,7 +73,7 @@ target/t_mixed_content_ie.xml
 
 Es wird empfohlen, den Computer nach der Änderung dieser Einstellung neu zu starten.
 
-## Zulassen von gemischtem Inhalt in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Zulassen von gemischtem Inhalt in Chrome  {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 Wenn Sie eine Seite über eine sichere Verbindung besuchen, verifiziert Google Chrome, dass der Inhalt auf der Webseite sicher übermittelt wurde.
 
