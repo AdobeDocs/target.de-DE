@@ -17,12 +17,12 @@ source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 Die [!DNL Target] Vorabruffunktion verwendet die iOS- und Android Mobile-SDKs, um so wenige Angebotsinhalte wie möglich abzurufen, indem sie die Serverantworten zwischenspeichert.
 
-Dieser Prozess reduziert die Ladezeit, verhindert multiple Netzwerkaufrufe und ermöglicht es [!DNL Target], darüber benachrichtigt zu werden, welche Mbox vom Benutzer der mobilen Anwendung besucht wurde. Der gesamte Inhalt wird während des Vorab-Aufrufs abgerufen und zwischengespeichert. Dieser Inhalt wird für alle zukünftigen Aufrufe, die zwischengespeicherten Inhalt für den angegebenen Mbox-Namen enthalten, aus dem Cache abgerufen.
+Dieser Prozess reduziert die Ladezeit, verhindert multiple Netzwerkaufrufe und ermöglicht es [!DNL Target], darüber benachrichtigt zu werden, welche Mbox vom Benutzer der mobilen Anwendung besucht wurde. Der gesamte Inhalt wird abgerufen und während des Aufrufs für den Vorabruf im Cache abgelegt, und dieser Inhalt wird bei allen zukünftigen Aufrufen abgerufen, die im Cache abgelegte Inhalte für den spezifizierten mbox-Namen enthalten.
 
-Beachten Sie Folgendes, wenn Sie mit den iOS- und Android Mobile SDKs in der prefetch-Methode arbeiten:
+Beachten Sie Folgendes, wenn mit der Vorabruf-Methode iOS- und Android-Mobile SDKs verwendet werden:
 
 * Vorabgerufene Inhalte werden nicht über Starts hinweg behalten. Der Inhalt des vorherigen Artikels wird zwischengespeichert, solange die Anwendung aktiv ist oder bis die `clearPrefetchCache()` Methode aufgerufen wird.
-* Die Funktion "Prefetch"in den iOS- und Android Mobile-SDKs wird für Aktivitätstypen "Automatisches Targeting", "Automatisierte Zuordnung"und "Automatisierte Personalisierung"nicht unterstützt.
+* Die Vorabruffunktion in iOS- und Android-Mobile-SDKs wird nicht für die Aktivitätstypen „Automatisches Targeting“, „Automatisierte Zuordnung“ und „Automatisierte Personalisierung“ unterstützt.
 
 Weitere Informationen einschließlich Vorabruf-Methoden, öffentliche Klassen und Code-Beispiele finden Sie unter:
 
