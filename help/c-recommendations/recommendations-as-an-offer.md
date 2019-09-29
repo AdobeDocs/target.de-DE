@@ -70,9 +70,9 @@ Sie haben zwei Möglichkeiten, um die Konfiguration eines Angebots zu bearbeiten
 
 ### Bearbeiten eines Empfehlungsangebots über das Menü „Bearbeiten“
 
-1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
+1. Klicken Sie auf das Angebot, das Sie bearbeiten möchten, und dann auf **[!UICONTROL Bearbeiten]**.
 
-   ![Empfehlungsangebot bearbeiten](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![Bearbeiten eines Recommendations-Angebots](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. Wählen Sie aus den folgenden Optionen:
 
@@ -85,7 +85,7 @@ Sie haben zwei Möglichkeiten, um die Konfiguration eines Angebots zu bearbeiten
 
 ### Bearbeiten eines Empfehlungsangebots über das Bedienfeld „Änderungen“
 
-1. Click the [!UICONTROL Modifications] icon  **(`</>`)** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. Klicken Sie auf das Symbol [!UICONTROL Änderungen] **(`</>`)**, um den Bereich [Änderungen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) anzuzeigen.
 1. Bewegen Sie den Mauszeiger über die gewünschte Aktion und klicken Sie auf das Symbol für das **[!UICONTROL Bearbeiten].**
 
    ![Bedienfeld für Änderungen](/help/c-recommendations/assets/recs-offer-modifications.png)
@@ -107,20 +107,20 @@ Es gibt zwei Möglichkeiten, ein Empfehlungsangebot zu löschen:
 
 ### Löschen eines Empfehlungsangebots über das Bedienfeld für Änderungen
 
-1. Click the [!UICONTROL Modifications] icon **( &lt;/&gt; )** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. Klicken Sie auf das Symbol [!UICONTROL Änderungen] **(&lt;/&gt;)**, um den Bereich [Änderungen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) anzuzeigen.
 1. Bewegen Sie den Mauszeiger über die gewünschte Aktion und klicken Sie dann auf das [!UICONTROL Löschen]-Symbol.
 
    ![Symbol „Löschen“](/help/c-recommendations/assets/recs-offer-delete.png)
 
 ### Status des Recommendations-Angebots anzeigen {#status}
 
-The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
+Der Status der Recommendations-Angebote (Algorithmus) wird unten auf der [!UICONTROL Übersichtsseite] für A/B-Test- und XT-Aktivitäten angezeigt, die Recommendations-Angebote enthalten.
 
 * Ergebnisse bereit
-* Ergebnisse nicht verfügbar
+* Ergebnisse nicht bereit
 * Feed-Fehler
 
-![Recommendations offer status](/help/c-recommendations/assets/recs-offer-status.png)
+![Status des Recommendations-Angebots](/help/c-recommendations/assets/recs-offer-status.png)
 
 ## Training video: Recommendations as an offer
 
