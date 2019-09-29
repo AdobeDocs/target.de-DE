@@ -27,7 +27,7 @@ Target kann Ihre Recommendations auch als JSON-Objekte versenden, die in E-Mail-
 
 Das folgende Beispiel zeigt, wie JSON-Antworten zurückgesendet werden können, wenn eine Aktivität über den formularbasierten Editor konfiguriert wird.
 
-1. Erstellen Sie ein Design aus der Designbibliothek oder aus dem formularbasierten Workflow heraus. Wenn Sie dies innerhalb des Visual Experience Composer (VEC)-Arbeitsablaufs versuchen, können Sie nichts anderes als ein HTML-Design erstellen, das umschlossen ist von einem `<div>` für das Klick-Tracking.
+1. Erstellen Sie ein Design aus der Designbibliothek oder aus dem formularbasierten Workflow heraus. Wenn Sie dies innerhalb des Visual Experience Composer (VEC)-Arbeitsablaufs versuchen, können Sie nichts anderes als ein HTML-Design erstellen, das umschlossen ist von einem  `<div>` für das Klick-Tracking.
 1. Achten Sie darauf, dass die Option „HTML-Design“ ausgeschaltet ist:
 
    ![](assets/html_design_toggle.png)
