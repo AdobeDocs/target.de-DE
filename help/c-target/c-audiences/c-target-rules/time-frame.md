@@ -40,7 +40,7 @@ Verwenden Sie beispielsweise die Funktion](../../../c-target/combining-multiple-
 
    Über die Optionen für die Wochen- und Tagesaufteilung können Sie z. B. eine Option „Chat“ nur an den Tagen und während der Stunden anzeigen, in denen Ihr Call-Center besetzt ist.
 
-   Wählen Sie einen oder mehrere Wochentage aus und legen Sie dann die Start- und Endzeiten fest. Klicken Sie gegebenenfalls auf **[!UICONTROL Weitere hinzufügen], um weitere Muster festzulegen.**
+   Wählen Sie einen oder mehrere Wochentage aus und legen Sie dann die Start- und Endzeiten fest. Klicken Sie gegebenenfalls auf **[!UICONTROL Weitere hinzufügen]**, um weitere Muster festzulegen.
 
    >[!NOTE]
    >
