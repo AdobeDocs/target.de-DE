@@ -33,7 +33,7 @@ Besuchen Sie das [Target-Community-Forum](https://forums.adobe.com/community/exp
 
 Registrierungsinformationen und Links zu früheren Sitzungen der Webinar-Reihe zu Target-Grundlagen, einer Webinar-Reihe von der Community für Ihren Erfolg.
 
-[Klicken Sie hier, um sich vergangene Sitzungen anzusehen oder weitere Informationen zu anstehenden Sitzungen und Registrierungsinformationen zu erhalten](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
+[Klicken Sie hier, um sich die vergangenen Sitzungen anzusehen oder mehr über kommende Sitzungen und Registrierungsinformationen](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)zu erfahren.
 
 
 ## Geschäftszeiten der Adobe-Kundenunterstützung {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
@@ -46,9 +46,9 @@ Aktuelle aufgezeichnete Target-Sitzungen:
 
 | Thema/Dauer/Aufzeichnungsdatum | Behandelte Themen |
 |--- |--- |
-| [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br><br>50:23 Dezember Dezember 2017 | Erfahren Sie mehr:<ul><li>So funktioniert der VEC</li><li>So vermeiden Sie häufige Probleme mit dem VEC</li><li>Workarounds für den VEC</li></ul>Weitere Informationen hierzu finden Sie unter [Erlebnisse](/help/c-experiences/experiences.md). |
-| [Adobe Target: Analytics/Target-Integration (A 4 T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Januar 2018 | Erfahren Sie mehr:<ul><li>So richten Sie die Integration ein und überprüfen, ob sie funktioniert </li><li>So funktioniert die Integration</li><li>Erfahren Sie, welche Berichte Sie in Analytics am besten verwenden</li><li>Antworten auf häufige Fragen zu A4T</li></ul>Weitere Informationen hierzu finden Sie unter [Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at. js: Best Practices und Best Practices für die Implementierung](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>April 2018 | Erfahren Sie mehr: <ul><li>So funktioniert die at.js-Bibliothek</li><li>Vorteile von at.js gegenüber mbox.js</li><li>Verwaltung von Flackern mit „at.js“</li><li>Fehlerbehandlung in at.js</li><li>Debugging-Methoden</li><li>Bekannte Probleme und Roadmap</li></ul>Weitere Informationen hierzu finden Sie unter [„at.js“-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>Dezember 2017 | Erfahren Sie mehr:<ul><li>So funktioniert der VEC</li><li>So vermeiden Sie häufige Probleme mit dem VEC</li><li>Workarounds für den VEC</li></ul>Weitere Informationen hierzu finden Sie unter  [Erlebnisse](/help/c-experiences/experiences.md). |
+| [Adobe Target: Integration von Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Januar 2018 | Erfahren Sie mehr:<ul><li>So richten Sie die Integration ein und überprüfen, ob sie funktioniert </li><li>So funktioniert die Integration</li><li>Erfahren Sie, welche Berichte Sie in Analytics am besten verwenden</li><li>Antworten auf häufige Fragen zu A4T</li></ul>Weitere Informationen hierzu finden Sie unter [Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
+| [at.js: Vorteile und Best Practices](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>für die Implementierung26:43<br>April 2018 | Erfahren Sie mehr: <ul><li>So funktioniert die at.js-Bibliothek</li><li>Vorteile von at.js gegenüber mbox.js</li><li>Verwaltung von Flackern mit „at.js“</li><li>Fehlerbehandlung in at.js</li><li>Debugging-Methoden</li><li>Bekannte Probleme und Roadmap</li></ul>Weitere Informationen hierzu finden Sie unter  [„at.js“-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ In der [Ankündigung](https://theblog.adobe.com/stay-optimized-adobe-target-insi
 
 >[!IMPORTANT]
 >
->[Registrieren Sie sich, um automatisch den Adobe Target-Insider-Newsletter in Ihrem Posteingang zu erhalten](https://www.adobe.com/subscription/adobe_target_newsletter.html).
+>[Melden Sie sich an, um den Adobe Target Insider-Newsletter automatisch in Ihrem Posteingang](https://www.adobe.com/subscription/adobe_target_newsletter.html)zu erhalten.
 
 Wenn Sie frühere Newsletter verpasst haben, finden Sie sie unter den folgenden Links:
 
@@ -106,7 +106,7 @@ Wenn Sie frühere Newsletter verpasst haben, finden Sie sie unter den folgenden 
 
 Der Kundendienst hilft Ihnen gerne dabei, alle möglicherweise auftretenden Probleme zu lösen. Diese Seite enthält die von Ihnen benötigten Informationen, wenn Sie den Kundendienst kontaktieren, um eine Lösung voranzutreiben.
 
-### Basisinformationen {#section_CC8B206F58D6495C9372D5C0D4055CF6}
+### Basisinformationen  {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
 Wenn Sie auf Probleme stoßen oder Fragen bei der Verwendung von Target haben, haben Sie eine Reihe von Möglichkeiten:
 
@@ -147,7 +147,7 @@ Bereiten Sie zudem Informationen in Verbindung mit dem spezifischen Problem vor.
    Gibt es eine hohe Anzahl von Segmenten? (Aktualisieren Sie die Segmente z. B. drei- bis viermal pro Stunde auf der Admin-Oberfläche?) Diese Information hilft dem Kundendienst dabei, die Interaktion zwischen den Admin-Oberflächen und den Edges für diese Kampagne zu verstehen. Häufige Updates der Kampagne bedeuten ein häufiges erneutes Laden vom zentralen Server, wodurch weitere Remoteaufrufe oder neue Ladevorgänge des Cache erzwungen werden können.
 * Sämtliche weitere Daten, die Ihrer Ansicht nach hilfreich sind.
 
-### Im Falle von Ausfällen {#section_2CB3BC53E4C641F38D50949E2E7A2886}
+### Im Falle von Ausfällen  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
 Wenn Sie einen Ausfall vermuten, prüfen Sie zunächst die [Experience Cloud-Systemstatus-Seite](https://status.adobe.com) ([!DNL https://status.adobe.com]). Dort werden sämtliche Ausfälle, Vorfälle und Wartungsarbeiten für Experience Cloud-Lösungen, einschließlich Target, aufgezeichnet. Dort sind auch die neuesten Updates unseres Tech Ops-Teams enthalten. Sollten Sie weiterhin Unterstützung benötigen, sollten Sie neben den oben genannten Informationen Folgendes wissen und können, wenn Sie den Kundendienst kontaktieren:
 
@@ -160,7 +160,7 @@ Wenn Sie einen Ausfall vermuten, prüfen Sie zunächst die [Experience Cloud-Sys
 
 Hier finden Sie Angaben zur Kontaktaufnahme mit Adobe und rechtliche Hinweise zu Ihrer Nutzung des Produkts und der Dokumentation.
 
-### Hilfe und technischer Support {#section_354AC2658BA84A2A96E64C5B2C43B73B}
+### Hilfe und technischer Support  {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
 Das Adobe Experience Cloud-Kundendienst-Team hilft Ihnen gerne und kann auf verschiedenen Wegen kontaktiert werden:
 
@@ -178,7 +178,7 @@ Wenn Sie vorzeitige Benachrichtigungen zu anstehenden Produktverbesserungen erha
 
 Je nach Konfiguration Ihrer Lösung stehen Ihnen eventuell einige der in diesem Handbuch beschriebenen Optionen nicht zur Verfügung. Da für jeden Kunden besondere Bedingungen gelten, entnehmen Sie Informationen über Preise, Fälligkeitsdaten und Bedingungen bitte Ihrem Vertrag. Wenden Sie sich an Ihren Kundenbetreuer, falls Sie etwas zu Ihrem Service-Level hinzufügen oder es ändern möchten oder Fragen zu Ihrem aktuellen Service haben.
 
-### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
+### Feedback  {#section_8154D6D712054220A90D85FA8E92933E}
 
 Wir freuen uns immer über Rückmeldungen und Verbesserungsvorschläge zu unserer Lösung. Verbesserungsvorschläge und Ideen für die Analytics Suite können im Bereich „[Customer Idea Exchange](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3)“ eingebracht werden.
 
