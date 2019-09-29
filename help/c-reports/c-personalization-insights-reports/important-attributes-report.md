@@ -72,7 +72,7 @@ Folgende Tabelle enthält Informationen dazu, wie der Bericht zu interpretieren 
 
 | Element | Details |
 |--- |--- |
-| Balkendiagramm | Das mehrfarbige Balkendiagramm oben auf dem Bildschirm zeigt die relative Wichtigkeit und ordnet sie der Punktfarbe neben den Attributen in der Tabelle zu. Sie können auch mit dem Mauszeiger über eine Farbe im Balkendiagramm fahren, um das Attribut anzuzeigen, für das sie steht.  Die Bewertungen der wichtigsten Attribute ergeben zusammen 100 %. Weitere Informationen zum Hinzufügen zusätzlicher Attribute, die die Target-Personalisierungsmodelle verwenden können, finden Sie unter [Hochladen von Daten für die Personalisierungsalgorithmen von Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
+| Balkendiagramm | Das mehrfarbige Balkendiagramm oben auf dem Bildschirm zeigt die relative Wichtigkeit und ordnet sie der Punktfarbe neben den Attributen in der Tabelle zu. Sie können auch mit dem Mauszeiger über eine Farbe im Balkendiagramm fahren, um das Attribut anzuzeigen, für das sie steht.  Die Bewertungen der wichtigsten Attribute ergeben zusammen 100 %. Weitere Informationen zum Hinzufügen zusätzlicher Attribute, die die Target-Personalisierungsmodelle verwenden können, finden Sie unter  [Hochladen von Daten für die Personalisierungsalgorithmen von Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
 | Diagramm „Modell-Attribut-Ranking“ | Das Diagramm „Modell-Attribut-Ranking“ enthält die 10 Attribute, die für die Entscheidung des Target-Personalisierungsmodells, welche Inhalte welchem Besucher angezeigt werden sollen, am wichtigsten waren. Die Bewertung zeigt, wie wichtig ein bestimmter Wert (im Verhältnis zu den 100 wichtigsten Attributen) für die Target-Personalisierungsmodelle in dieser Aktivität waren. |
 
 ## Häufig gestellte Fragen zu wichtigen Attributen {#section_740910A52FA646B4AC9452F98C2F5719}
@@ -113,15 +113,15 @@ Die Wichtigkeitsbewertung im Abschnitt „Attribut-Wichtigkeitsbewertung“ des 
 
 **Warum erhalten in einem bestimmten automatisierten Segment manche Angebote/Erlebnisse mit einer geringeren Konversionsrate mehr Traffic als andere Angebote/Erlebnisse?**
 
-Es gibt mehrere mögliche Gründe, weshalb Sie mehr Besuche in einem Angebot/Erlebnis mit geringer Umrechnung sehen können, einschließlich:
+Es kann verschiedene Gründe dafür geben, dass Ihnen in einem automatisierten Segment mehr Besuche für Angebote oder Erlebnisse mit einer geringeren Konversionsrate angezeigt werden:
 
-* Geringe Anzahl von Aufrufen für manche oder alle Angebote/Erlebnisse eines bestimmten automatisierten Segments
-* Aktivitäten mit geringerem Volumen, bei denen bestimmte Angebote oder Erlebnisse nicht erstellt wurden.
-* Aktivitäten mit geringerem Volumen, in denen Modelle für einige Angebote/Erlebnisse früher erstellt wurden als andere. Angenommen, ein zusätzliches Modell wurde am Tag 22 erstellt und Sie sehen sich Daten aus den Tagen 10–24 an.
-* Targeting-Regeln für ein bestimmtes Angebot, die einschränken, welche Besucher welche Angebote/Erlebnisse sehen können.
-* In den Insight-Berichten gibt es keine Konfidenzintervalle. Wenn die Konversionsraten nahe genug sind, kann das Modell Traffic so liefern, dass es im Punktbetrag höher ist, aber es sind keine statistisch unterschiedlichen Zahlen.
+* Geringe Anzahl von Aufrufen für manche oder alle Angebote/Erlebnisse eines bestimmten automatisierten Segments.
+* Aktivitäten mit geringerem Volumen, in denen für bestimmte Angebote oder Erlebnisse keine Modelle erstellt wurden.
+* Aktivitäten mit geringerem Volumen, in denen Modelle für einige Angebote/Erlebnisse früher erstellt wurden als andere. Beispiel: Ein zusätzliches Modell wurde am Tag 22 erstellt und Sie sehen sich Daten von den Tagen 10 bis 24 an.
+* Targeting-Regeln in einem bestimmten Angebot, die einschränken, welchen Besuchern welche Angebote/Erlebnisse angezeigt werden.
+* In den Insight-Berichten gibt es keine Konfidenzintervalle. Wenn jedoch die Konversionsraten nahe genug beieinander liegen, kann das Modell Traffic liefern, dessen punktuelles Volumen zwar höher ist, aber die Zahlen nicht „statistisch voneinander abweichen“.
 
-Das Wissen, wie das Modell funktioniert, das Traffic bereitstellt, kann hilfreich sein. Jede einzelne Person wird auf der Grundlage ihres Gesamtprofils bereitgestellt. Die Insight-Berichte veranschaulichen dieses Verhalten jedoch, um es durch einen Menschen besser interpretieren zu können. Daher schließen sich Segmente nicht gegenseitig aus. Dies kann zu einzelnen Segmenten führen, die diesen Verhaltenstyp anzeigen, da dieselbe Person in mehreren Segmenten angezeigt werden kann.
+Es kann hilfreich sein zu wissen, wie das Modell funktioniert, das Traffic bereitstellt. Jede einzelne Person wird auf der Grundlage ihres Gesamtprofils angesprochen. Die Insight-Berichte verallgemeinern dieses Verhalten jedoch, damit es von Menschen besser interpretiert werden kann. Daher schließen sich Segmente nicht gegenseitig aus. Dies kann zu einzelnen Segmenten führen, die dieses Verhalten aufweisen, da eine Person in mehreren Segmenten vorkommen kann.
 
 **Wozu kann ich die Informationen in Personalization Insights nutzen?**
 
