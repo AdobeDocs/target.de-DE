@@ -1,7 +1,7 @@
 ---
 description: Der Visual Experience Composer stellt eine visuelle Benutzeroberfläche zur Bearbeitung von Erlebnissen auf Ihrer Seite zur Verfügung.
 keywords: Targeting;Erlebnis;Erlebnis hinzufügen;Erlebnisse hinzufügen
-seo-description: Der Visual Experience Composer (VEC) in Adobe Target bietet eine visuelle Benutzeroberfläche zum Bearbeiten der Erlebnisse auf Ihrer Seite.
+seo-description: Der Visual Experience Composer (VEC) in Adobe Target stellt eine visuelle Benutzeroberfläche zur Bearbeitung von Erlebnissen auf Ihrer Seite zur Verfügung.
 seo-title: Hinzufügen von Erlebnissen
 solution: Target
 title: Hinzufügen von Erlebnissen
@@ -14,13 +14,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Hinzufügen von Erlebnissen{#add-experience}
 
-Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Hinzufügen und Bearbeiten der Erlebnisse auf Ihrer Seite.
+Der Visual Experience Composer (VEC) stellt eine visuelle Benutzeroberfläche zum Hinzufügen und Bearbeiten von Erlebnissen auf Ihrer Seite zur Verfügung.
 
 Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 1. Klicken Sie auf **[!UICONTROL Erlebnis hinzufügen]**.
 
-   ![Erlebnis hinzufügen, Option](/help/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
+   ![Option „Erlebnis hinzufügen“](/help/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
 
    >[!NOTE]
    >
@@ -39,11 +39,11 @@ Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](../../../c-ex
    >
    >Wenn Sie ein Bild aus einer anderen Quelle als der Hauptseite bereitstellen (z. B. ein Bild, das auf akamei.net gehostet und auf dell.com bereitgestellt wird), wird das Bild nicht in der Miniaturansicht der Seite, die auf dem Flussdiagramm zu sehen ist, angezeigt.
 
-1. Click **[!UICONTROL Save]** when you are finished designing the experience.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie mit dem Entwerfen des Erlebnisses fertig sind.
 
-## Erlebnis umbenennen
+## Umbenennen eines Erlebnisses
 
-Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
+Wenn Sie dem Erlebnis einen anderen Namen geben möchten, klicken Sie im Erlebnis im A/B-Test oder in der Experience Targeting (XT)-Aktivität auf das Symbol [!UICONTROL Erlebnis umbenennen].
 
 ![Erlebnis umbenennen](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,11 +62,11 @@ Beachten Sie, dass bei der (Um-)Benennung von Erlebnissen folgende Zeichen nicht
 
 ## Zur URL umleiten
 
-Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
+Klicken Sie zuerst in einem A/B-Test oder in einer Experience Targeting (XT)-Aktivität auf einem Erlebnis auf das Symbol „Mehr“ (drei Querstriche) und danach auf [!UICONTROL Zur URL umleiten].
 
-For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
+Weitere Informationen finden Sie unter [Zur URL umleiten](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
-**HINWEIS**: Wenn Sie ein Erlebnis benennen oder umbenennen, sind die folgenden Zeichen nicht zulässig:
+**HINWEIS**: Bei der (Um-)Benennung von Erlebnissen sind folgende Zeichen nicht zulässig:
 
 | Zeichen | Beschreibung |
 |--- |--- |
@@ -85,13 +85,13 @@ Sie können ein Erlebnis aus einem A/B-Test kopieren, um kleinere Änderungen vo
 
 Klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (der erste Schritt im Drei-Schritte-Workflow) auf die drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Duplizieren]**.
 
-![Option "Doppelt multiplizieren «](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
+![Option „Erlebnis duplizieren“](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## Löschen eines Erlebnisses
 
 Klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (der erste Schritt im Drei-Schritte-Workflow) auf die drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Duplizieren]**.
 
-![Erlebnisoption löschen](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
+![Option „Erlebnis löschen“](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
 ## Schulungsvideo: Verwenden von Visual Experience Composer
 
