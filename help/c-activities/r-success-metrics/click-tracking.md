@@ -22,7 +22,7 @@ Mit Target können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, erfa
 >
 >Das Tracking von Klicks wird in globalen Target-Mboxes nicht unterstützt, wenn sie als Standort in formularbasierten Aktivitäten verwendet werden.
 
-## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
+## Einrichten von Klick-Tracking{#section_5540C5A533114E57BAE022A600B02E72}
 
 1. Wenn Sie die Ziele für Ihre Aktivität auf der Seite [!UICONTROL Ziele und Einstellungen] festlegen, wählen Sie die Erfolgsmetrik **[!UICONTROL Konversion]aus.**
 1. Wählen Sie als Aktion **[!UICONTROL Klicks auf ein Element]** aus und klicken Sie anschließend auf **[!UICONTROL Elemente auswählen]**.
@@ -37,13 +37,13 @@ Mit Target können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, erfa
 
 Wenn ein Aktivitätsteilnehmer auf ein ausgewähltes Element klickt, wird dieser Klick als Konversion gezählt.
 
-## Selected Elements panel {#selected-elements}
+## Bedienfeld „Ausgewählte Elemente“{#selected-elements}
 
-For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+Für A/B-Tests, Erlebnis-Targeting (XT), Automatisierte Personalisierung (AP) und Multivarianz-Tests (MVT) werden im Bereich [!UICONTROL Ausgewählte Elemente] alle für Klick-Tracking ausgewählten Elemente auf der rechten Seite aufgeführt.
 
-![Bedienfeld "Ausgewählte Elemente «](/help/c-activities/r-success-metrics/assets/selected-elements.png)
+![Bedienfeld „Ausgewählte Elemente“](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. Die folgende Tabelle beschreibt die einzelnen Aktionen, die für ein Element durchgeführt werden können:
+Es gibt verschiedene Aktionen, die angewendet werden können, wenn Sie den Mauszeiger über ein Element im Bereich [!UICONTROL Ausgewählte Elemente] bewegen. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
 
 | Aktion | Beschreibung |
 | --- | --- |
@@ -55,13 +55,13 @@ There are a several actions that can be applied when you hover over an element i
 
 Wenn Sie den DOM-Pfad zum Selektor bereits kennen, können Sie ihn manuell hinzufügen, indem Sie auf das Pluszeichen oben im Bedienfeld klicken.
 
-![Symbol "Element hinzufügen «](/help/c-activities/r-success-metrics/assets/add-element.png)
+![Symbol „Element hinzufügen“](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### Popup zum Hover ausgewählt
+### Liste ausgewählter Elemente
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. Die Liste enthält den vollständigen DOM-Pfad für das Element, damit Sie überprüfen können, ob das ausgewählte Element für die Klick-Tracking verwendet werden soll.
+Nachdem Sie mehrere Elemente für das Klick-Tracking ausgewählt haben, können Sie den Link [!UICONTROL Ausgewählte Elemente] im Aktivitätsschritt [!UICONTROL Ziele und Einstellungen] anklicken, um die vollständige Liste der für das Klick-Tracking ausgewählten Elemente anzuzeigen. Die Liste enthält den vollständigen DOM-Pfad eines jeden Elements, damit Sie überprüfen können, ob das ausgewählte Element für das Klick-Tracking verwendet werden soll.
 
-![Link "Elemente ausgewählt «](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
+![Link „Ausgewählte Elemente“](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## Zu beachten {#considerations}
 
@@ -75,7 +75,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 
    Weitere Informationen finden Sie unter [Navigate elements using the DOM path (In Elementen über den DOM-Pfad navigieren)](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer–Optionen*.
 
-* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der [Mehrseiten-Funktion](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) in die Aktivität aufgenommen werden, und [!DNL at.js] oder [!DNL mbox.js] muss darin implementiert werden.
+* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der  [Mehrseiten-Funktion](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) in die Aktivität aufgenommen werden, und [!DNL at.js] oder [!DNL mbox.js] muss darin implementiert werden.
 * Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzeln Erfolgsmetriken für sie festlegen.
 * Achten Sie darauf, die Ebene des Elements auszuwählen, die Sie verfolgen möchten. Wenn Sie zum Beispiel eine Schaltfläche angeben möchten, achten Sie darauf, den Link und nicht den Schaltflächentext auszuwählen.
 * Klickereignisse werden auf derselben Seite des Klicks an [!DNL Target] gesendet.
@@ -84,9 +84,9 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 
    | Zeichen | Beschreibung |
    |---|---|
-   | # | Raute oder Hash |
+   | # | Raute  oder Hash |
    | : | Doppelpunkt |
-   | . | Zeitraum |
+   | . | Punkt |
    | $ | Dollarzeichen |
    | `[ ]` | Eckige Klammern |
 
