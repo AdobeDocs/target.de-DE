@@ -1,6 +1,6 @@
 ---
 description: 'Informationen zur Funktion adobe.target.triggerView (viewName, options) für at.js. '
-keywords: adobe. target. triggerview; Triggerview; triggerview; trigger-Ansicht; at. js; Funktionen; function; Viewname; viewname; Anzeigename
+keywords: adobe.target.triggerview;Triggerview;triggerview;trigger-Ansicht;at.js;Funktionen;funktion;Viewname;viewname;Anzeigename
 seo-description: Informationen zur Funktion adobe.target.triggerView (viewName, options) für die JavaScript-Bibliothek von Adobe Target at.js.
 seo-title: Informationen zur Funktion adobe.target.triggerView (viewName, options) für die JavaScript-Bibliothek von Adobe Target at.js.
 solution: Target
@@ -25,11 +25,11 @@ Diese Funktion kann immer aufgerufen werden, wenn eine neue Seite geladen wird o
 | --- | --- | --- | --- |
 | viewName | Zeichenfolge | Ja | Geben Sie eine beliebige Zeichenfolge als Namen für Ihre Ansicht an. Der Name dieser Ansicht wird im Bedienfeld [!UICONTROL Änderungen] von VEC angezeigt, sodass Marketing-Experten Aktionen erstellen und ihre A/B- und XT-Aktivitäten ausführen können. |
 | options | Objekt | Nein |  |
-| Optionen &gt; Seite | Boolesch | Nein | **TRUE:** Der Standardwert der Seite ist „wahr“. Bei page=true werden Benachrichtigungen zum Erhöhen der Impressions-Anzahl an das [!DNL Target]-Backend gesendet.<br>Wenn der Ansicht keine Aktivität oder Aktivitätsmetrik zugeordnet ist, wird keine Benachrichtigung gesendet.<br>**FALSE:** Bei page=false werden keine Benachrichtigungen zum Erhöhen der Impressions-Anzahl gesendet. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
+| Optionen &gt; Seite | Boolesch | Nein | **TRUE:** Der Standardwert der Seite ist „wahr“. Bei page=true werden Benachrichtigungen zum Erhöhen der Impressions-Anzahl an das [!DNL Target]-Backend gesendet.<br>Wenn der Ansicht kein Aktivitätserlebnis und keine Aktivitätsmetrik zugeordnet sind, wird keine Benachrichtigung gesendet.<br>**FALSE:** Bei page=false werden keine Benachrichtigungen zum Erhöhen der Impressions-Anzahl gesendet. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
 
 ## Beispiel: True
 
-`triggerView()` Aufruf, um eine Benachrichtigung an den Target-Back-Backend zur inkrementierten Aktivitätsimpressionen und anderen Metriken zu senden.
+Aufruf von `triggerView()`, um eine Benachrichtigung an das Target-Backend zur Erhöhung der Aktivitätsimpressionen und anderer Metriken zu senden.
 
 ```
 adobe.target.triggerView("homeView")
@@ -37,7 +37,7 @@ adobe.target.triggerView("homeView")
 
 ## Beispiel: False
 
-`triggerView()` Keine Benachrichtigungen an das Target-Backend zur Impressionszählung gesendet.
+Aufruf von `triggerView()`, um keine Benachrichtigungen zur Impressions-Zählung an das Target-Backend zu senden.
 
 ```
 adobe.target.triggerView("homeView", {page: false})
