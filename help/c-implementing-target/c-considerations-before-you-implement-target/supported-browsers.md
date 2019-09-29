@@ -20,7 +20,7 @@ Die Bereitstellung der [!DNL Adobe Target]-Anwendung und von Inhalten wurde für
 
 Weitere wichtige Informationen zu TLS finden Sie unter [Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
-## [!DNL Target] Standard-/Premium-Benutzeroberfläche {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target] Standard/Premium-Benutzeroberfläche {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 Die [!DNL [!DNL Target]]-Standard/Premium]-Benutzeroberfläche unterstützt folgende Browser und Geräte:
 
@@ -29,7 +29,7 @@ Die [!DNL [!DNL Target]]-Standard/Premium]-Benutzeroberfläche unterstützt folg
 | Windows | <ul><li>Microsoft Edge</li><li>Google Chrome (neueste Version, neueste Version minus 1)</li><li>Mozilla Firefox (neueste Version, neueste Version minus 1)</li></ul> |
 | Mac | <ul><li>Firefox (neueste Version, neueste Version minus 1)</li><li>Chrome (neueste Version, neueste Version minus 1)</li></ul> |
 
-## Content delivery {#section_1045A946056441268D40025529918D3D}
+## Inhaltsbereitstellung {#section_1045A946056441268D40025529918D3D}
 
 Die Inhaltsbereitstellung wurde für folgende Browser und Geräte getestet:
 
