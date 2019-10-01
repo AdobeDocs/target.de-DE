@@ -1,6 +1,6 @@
 ---
 description: Diese Versionshinweise enthalten Informationen zu Funktionen, Erweiterungen, Fehlerbehebungen und bekannten Problemen in jeder Target Standard- und Target Premium-Version.
-keywords: Versionshinweise;Neue Funktionen;Versionen;Updates;Update;Version;Verbesserung;Verbesserungen;Fehlerbehebungen;Fehlerbehebungen
+keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
 seo-description: Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen, Fehlerbehebungen und bekannten Problemen für jede Adobe Target Standard- und Target Premium-Version.
 seo-title: Adobe Target-Versionshinweise (aktuell)
 solution: Target
@@ -8,7 +8,7 @@ title: Target-Versionshinweise (aktuell)
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dbf7c1f306c9d6f70d8fb8fdb851091fb6db2879
+source-git-commit: dd6bbdc6ab571b769d8426e7554e8a1d52813c3a
 
 ---
 
@@ -22,12 +22,13 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 Dieser Maintenance Release enthält die folgende Verbesserung:
 
 * Verschiedene Korrekturen von Sicherheitsfehlern, einschließlich eines Sicherheits-Updates für den Rich-Text-Editor (RTE) im Visual Experience Composer (VEC). (TGT-35383)
+* Recommendations Offers can now be added to elements other than DIV (e.g. P, UL, H1), in addition to DIV, in A/B Test and Experience Targeting activities. (TGT-34333)
 
 ## Target Standard/Premium 19.9.1 (10. September 2019)
 
 | Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
-| ![Premium badge Enterprise Permissions](/help/assets/premium.png) | With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>Sie können der Adobe I/O-Integration eine Rolle zuweisen: Genehmiger, Bearbeiter oder Beobachter.</li></ul>Schrittweise Anleitungen und weitere Informationen finden Sie unter [Gewähren von Zugriff von Adobe I/O Integrationen auf Arbeitsbereiche und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Premium badge Enterprise Permissions](/help/assets/premium.png) | Mit der Version Target September 2019 bieten Enterprise Permissions Kunden die folgenden Zugriffssteuerungen:<UL><li>Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet werden kann.</li><li>Sie können der Adobe I/O-Integration eine Rolle zuweisen: Genehmiger, Bearbeiter oder Beobachter.</li></ul>Schrittweise Anleitungen und weitere Informationen finden Sie unter [Gewähren von Zugriff von Adobe I/O Integrationen auf Arbeitsbereiche und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ## Dokumentationsänderungen, historische Versionshinweise und Experience Cloud-Versionshinweise {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
