@@ -8,7 +8,7 @@ title: Bekannte Probleme und gelöste Probleme
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 
 ---
 
@@ -62,8 +62,9 @@ Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Ange
 
 Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
 
-* Der Recommendations-Fehler „error.restapi.algorithmProfileAttributeInvalid“ tritt auf, wenn spezielle Profilattribute als Kriterienschlüssel verwendet werden.
-* Wenn in einer Recommendations-Aktivität die Funktion „Rückwärtsgerichtete Promotion“ verwendet wird, werden keine Kriterieneinschlussfilter auf Sicherungs-ERs angewendet.
+* Entitäten sind nach 60 Tagen, nachdem sie keine Aktualisierungen per Feed oder API erhalten haben, korrekt abgelaufen; Die abgelaufenen Entitäten werden jedoch nach Ablauf nicht aus dem Index für die Katalogsuche entfernt. (IRI-857)
+* Die Überlagerungen "Gebrauchsinformationen"für Kriterien und Entwürfe spiegeln ihre Verwendung in A/B- und Erlebnis-Targeting-Aktivitäten nicht wider (TGT-34331)
+* Recommendations-Angebote in A/B- und Erlebnis-Targeting-Aktivitäten zeigen keine visuelle Vorschau des Recommendations-Fachs (TGT-33426)
 
 ### Multivarianz-Test (MVT)-Aktivitäten
 
