@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
+source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
 
 ---
 
@@ -76,7 +76,7 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 adobe.target.getOffers({
     request: {
       prefetch: {
-        views: []
+        views: [{}]
     }
   }
 });
