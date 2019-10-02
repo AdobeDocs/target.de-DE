@@ -1,6 +1,6 @@
 ---
 source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Beitrag
@@ -19,12 +19,11 @@ Melden Sie zunächst ein Problem. Die Beitragenden zu diesem Projekt bemühen si
 
 ## Lizenzvereinbarung für Beitragende
 
-Für alle Drittanbieter-Beiträge zu diesem Projekt ist eine unterzeichnete Lizenzvereinbarung für Beitragende erforderlich, Somit ist es Adobe gestattet, Ihre Beiträge im Rahmen des Projekts neu zu verteilen. [Signieren Sie unsere CLA](http://opensource.adobe.com/cla.html)-Datei. Sie müssen die Adobe-CLA nur einmal unterzeichnen. Wenn Sie sie also bereits unterzeichnet haben, können Sie loslegen!
+Für alle Drittanbieter-Beiträge zu diesem Projekt ist eine unterzeichnete Lizenzvereinbarung für Beitragende erforderlich, Somit ist es Adobe gestattet, Ihre Beiträge im Rahmen des Projekts neu zu verteilen. [Unterzeichnen Sie unsere Lizenzvereinbarung für Beitragende (CLA)](http://opensource.adobe.com/cla.html). Sie müssen die Adobe-CLA nur einmal unterzeichnen. Wenn Sie sie also bereits unterzeichnet haben, können Sie loslegen!
 
 ## Code-Überprüfungen
 
-Alle Code-Beiträge sollten als Pull-Anforderungen übermittelt werden und müssen von den Projektverantwortlichen geprüft werden. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+Alle Code-Beiträge sollten als Pull-Anforderungen übermittelt werden und müssen von den Projektverantwortlichen geprüft werden. Lesen Sie die [GitHub-Dokumentation zu Pull-Anforderungen](https://help.github.com/articles/about-pull-requests/), um Informationen zum Versand von Pull-Anforderungen zu erhalten.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -37,4 +36,4 @@ Wir lieben die Beiträge unserer Community! Wenn Sie nicht nur zu den Beitragend
 
 ## Sicherheitsprobleme
 
-Sicherheitsprobleme sollten nicht über diesen Problem-Tracker gemeldet werden. Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
+Sicherheitsprobleme sollten nicht über diesen Problem-Tracker gemeldet werden. [Melden Sie das Problem in diesem Fall unseren Sicherheitsexperten](https://helpx.adobe.com/de/security/alertus.html).
