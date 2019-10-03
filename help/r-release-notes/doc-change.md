@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 9ad116dc4834cf90ba6d6d98da7e270544fd0113
 
 ---
 
@@ -17,14 +17,14 @@ source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentation aufgeführt.
 
-## Adobe Target/Standard/Premium 19.9.1 (30. September 2019)
+## Adobe Target/Standard/Premium 19.9.1 (September 30, 2019)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 3. Oktober 2019 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Added known issue and workaround when creating an experience with no modifications using the at.js 2.*x* library. |
-|  | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Added note to "mboxDebug" section. |
+| 3. Oktober 2019 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde Folgendes hinzugefügt: <ul><li>Known issue and workaround when creating an experience with no modifications using the at.js 2.*x* -Bibliothek.</li><li>Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche von Target nicht sichtbar und können nur über API bearbeitet werden.</li><li>Recommendations-Aktivitäten, die über API erstellt wurden, können in der Benutzeroberfläche angezeigt werden, können aber nur über API bearbeitet werden.</li></ul> |
+|  | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Hinweis zum Abschnitt "mboxDebug"hinzugefügt. |
 | 2. Oktober 2029 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zu kommenden Versionen hinzugefügt. |
-| 1. Oktober 2019 | [Nützliche Variablen, Profile, Parameter und Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Updated text in the "Customer attributes" section. |
+| 1. Oktober 2019 | [Nützliche Variablen, Profile, Parameter und Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Der Text im Abschnitt "Kundenattribute"wurde aktualisiert. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Codebeispiel im Abschnitt "Aufruf von getOffers() für alle Ansichten"aktualisiert. |
 | 30. September 2019 | [Versionshinweise](/help/r-release-notes/release-notes.md): 19.9.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
@@ -32,15 +32,15 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 27. September 2019 | [Wie lange sollten A/B-Tests laufen?](/help/c-activities/t-test-ab/sample-size-determination.md) | Updated text about the Target Sample Size Calculator. |
+| 27. September 2019 | [Wie lange sollten A/B-Tests laufen?](/help/c-activities/t-test-ab/sample-size-determination.md) | Der Text zum Stichprobengrößenrechner von Target wurde aktualisiert. |
 |  | [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Der Text zum Stichprobengrößenrechner von Target wurde aktualisiert. |
 | 24. September 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Das Datum der Target/Standard-Version 19.2.1 wurde auf den 30. September 2019 geändert. |
 |  | [Recommendations als Angebot](/help/c-recommendations/recommendations-as-an-offer.md) | Ein Schulungsvideo wurde hinzugefügt. |
 | 10. September 2019 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version Target Standard/Premium 19.9.1 hinzugefügt. |
-| September 9, 2019 | [AEM-Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Abschnitt "Überlegungen"hinzugefügt. |
+| 9. September 2019 | [AEM-Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Abschnitt "Überlegungen"hinzugefügt. |
 |  | [SameSite-Cookie-Richtlinien von Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Der Text für das gesamte Thema wurde aktualisiert. |
 |  | [Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Neues Thema |
-| September 6, 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Added information about the Target Standard/Premium 19.9.1 (September 10, 2019) release. |
+| 6. September 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Version Target Standard/Premium 19.9.1 (10. September 2019) hinzugefügt. |
 |  | [Häufig gestellte Fragen zu Target für mobile Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Neues Thema |
 | 4. September 2019 | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das Thema wurde aktualisiert. |
 | 23. August 2019 | [Mobile Target-Vorschau](/help/c-target-mobile-app/target-mobile-preview.md) | Aktualisiertes Code-Snippet in `AndroidManifest.xml`. |
