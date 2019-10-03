@@ -4,7 +4,7 @@ audience: Endbenutzer
 user-guide-title: Adobe Target-Hilfe
 user-guide-url: /content/help/de-DE/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
          + [Löschen des Target-Cookies](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [SameSite-Cookie-Richtlinien von Google Chrome](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [Richtlinien zur Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Content Security Policy (CSP) directives](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + Verfahren für die Datenübernahme in Target {#methods}
          + [Methoden](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profil-API-Einstellungen](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -139,7 +139,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
          + [Einrichten des Klick-Trackings im Mobile VEC](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [Häufig gestellte Fragen zu Target für mobile Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + Server-seitig: Target-Implementierung {#server-side}
-      + [Versionshinweise - APIs und SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Release notes - APIs and SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Server-seitig: Target-Implementierung – Überblick](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Übergang von Target-Legacy-APIs zu Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + E-Mail: Target-Implementierung {#implement-email}
@@ -247,7 +247,6 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [Aktivitäts-QA – Überblick](c-activities/c-activity-qa/activity-qa.md)
       + [Lesezeichenliste für Aktivitäts-QA](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [Verwenden von Aktivitäts-QA mit Server-seitiger Bereitstellung](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-   + [Aktivitätsbenachrichtigungen](c-activities/notifications.md)
 + Zielgruppen{#audiences}
    + [Zielgruppen – Überblick](c-target/target.md)
    + [Funktionsweise von Targeting](c-target/target-how-target-works.md)
