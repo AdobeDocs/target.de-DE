@@ -1,15 +1,15 @@
 ---
 description: Wenn Ihre Seite nicht den erwarteten Inhalt anzeigt, gibt es ein paar Schritte, die Sie unternehmen können, um eine Fehlerdiagnose für die Inhaltsbereitstellung vorzunehmen.
 keywords: Mbox debuggen;Fehlerbehebung für Mbox;Mbox-Probleme;Flackern;mboxDebug;mboxTrace;Token;Debugger;Priorität;Aktivitätspriorität;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst Mbox kaufen;bester Verkauf;bestverkauftes Produkt
-seo-description: Wenn Ihre Seite nicht den erwarteten Inhalt anzeigt, gibt es ein paar Schritte, die Sie unternehmen können, um eine Fehlerdiagnose für die Inhaltsbereitstellung vorzunehmen.
-seo-title: Fehlerbehebung bei der Inhaltsbereitstellung
+seo-description: If your page does not display the expected content, there are a few steps you can take to debug content delivery in Adobe Target.
+seo-title: Fehlerbehebung bei der Inhaltsbereitstellung in Adobe Target
 solution: Target
 subtopic: Multivarianz-Test
 title: Fehlerbehebung bei der Inhaltsbereitstellung
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -79,7 +79,7 @@ Das Einschließen von  `=console`, `=json` oder `=window` im Abfrageparameter is
 
 Die normale Funktionsweise und Erscheinung Ihrer Website wird durch mboxTrace nicht beeinträchtigt. Besucher sehen Ihr normales Empfehlungsdesign.
 
-## mboxDebug {#section_DC92A0E4388A4A2787365AD9D556FEFA}
+## mboxDebug {#mboxdebug}
 
 Ergänzen Sie zur Verwendung von mboxDebug Ihre URL um einen mboxDebug-Parameter. Die folgende Tabelle enthält Informationen zu Mbox-verwandten URL-Parametern.
 
@@ -95,6 +95,10 @@ Ergänzen Sie zur Verwendung von mboxDebug Ihre URL um einen mboxDebug-Parameter
 | `mboxDebug=x-profile` | Anzeigen des Profilsets. |
 | `mboxDebug=x-time` | Anzeigen der Reaktionszeiten für jede Mbox-Anforderung |
 | `mboxOverride.browserIp=<Insert IP address>` | Geotargeting-Test<br>Mit diesem URL-Parameter wird das Geotargeting getestet. Geben Sie eine IP-Adresse als Wert für dieses Attribut ein. Daraufhin wertet das Test&amp;Target Geotargeting diese IP-Adresse anhand eines Geotargeting- oder Segmentierungssatzes in einer Kampagne aus. |
+
+>[!NOTE]
+>
+>Stellen Sie sicher, dass das URL-Fragment nach den Abfragezeichenfolgenparametern steht. Alles nach dem ersten `#` ist ein Fragmentbezeichner und führt dazu, dass Debugging-Parameter nicht korrekt funktionieren.
 
 ## Adobe Experience Cloud-Debugger  {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
