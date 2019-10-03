@@ -8,7 +8,7 @@ title: Versionshinweise für vorherige Versionen
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
+source-git-commit: 2118ab105a8f9e5195ce5839a68299454e633cdc
 
 ---
 
@@ -27,7 +27,7 @@ Versionshinweise für vorherige Target-Versionen, einschließlich Versionshinwei
 
 | Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
-| ![Premium badge Enterprise Permissions](/help/assets/premium.png) | Mit der Version Target September 2019 bieten Enterprise Permissions Kunden die folgenden Zugriffssteuerungen:<UL><li>Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet werden kann.</li><li>Sie können der Adobe I/O-Integration eine Rolle zuweisen: Genehmiger, Bearbeiter oder Beobachter.</li></ul>Schrittweise Anleitungen und weitere Informationen finden Sie unter [Gewähren von Zugriff von Adobe I/O-Integrationen auf Arbeitsbereiche und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Premium badge Enterprise Permissions](/help/assets/premium.png) | With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet werden kann.</li><li>Sie können der Adobe I/O-Integration eine Rolle zuweisen: Genehmiger, Bearbeiter oder Beobachter.</li></ul>Schrittweise Anleitungen und weitere Informationen finden Sie unter [Gewähren von Zugriff von Adobe I/O-Integrationen auf Arbeitsbereiche und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 
 ### Target Mobile VEC SDK iOS 2.1.0 und Android 1.1.1 (7. August 2019)
@@ -52,7 +52,7 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Erweiterungen:
 | --- | --- |
 | Visual Experience Composer für mobile Apps | Der Mobile App VEC enthält ein neues Bedienfeld namens „Änderungen“, in dem die für Klick-Tracking eingerichteten Elemente angezeigt werden. (TGT-31741)<br>Siehe [Einrichten des Klick-Trackings in der Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) |
 | ![ Premium-Zeichen](/help/assets/premium.png)<br>Recommendations in A/B-Test- und Erlebnis-Targeting-Aktivitäten (XT) | Der Status der Recommendations-Angebote (Algorithmus) wird auf der Übersichtsseite für A/B-Test- und XT-Aktivitäten angezeigt, die Recommendations-Angebote enthalten. Zu den Status gehören: Ergebnisse bereit, Ergebnisse nicht bereit und Feed-Fehler. (TGT-33649)<br>Siehe [Empfehlungen als Angebot](/help/c-recommendations/recommendations-as-an-offer.md#status). |
-| Unterstützung von domänenübergreifendem Tracking für at.js 2.0 und höher über die Experience Cloud ID-Bibliothek (ECID) | Bisher wurde das domänenübergreifende Tracking in at.js 2 nicht unterstützt.*x*. Mit dieser Version können jetzt Kunden, die at.js 2.0 oder höher verwenden, domänenübergreifendes Tracking über die ECID-Bibliothek nutzen. Damit das domänenübergreifende Tracking funktioniert, muss die ECID-Bibliothek gemeinsam mit at. js 2.0 oder höher auf der Seite installiert sein. [Experience Cloud ID library 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) must be used.<br>Siehe [Unterstützung von domänenübergreifendem Tracking in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
+| Unterstützung von domänenübergreifendem Tracking für at.js 2.0 und höher über die Experience Cloud ID-Bibliothek (ECID) | Bisher wurde das domänenübergreifende Tracking in at.js 2 nicht unterstützt.*x*. Mit dieser Version können jetzt Kunden, die at.js 2.0 oder höher verwenden, domänenübergreifendes Tracking über die ECID-Bibliothek nutzen. Damit das domänenübergreifende Tracking funktioniert, muss die ECID-Bibliothek gemeinsam mit at. js 2.0 oder höher auf der Seite installiert sein. [Experience Cloud ID library 4.3.0+ must be used.](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)<br>Siehe [Unterstützung von domänenübergreifendem Tracking in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
 | Target-Unterstützung für ITP 2.1 und ITP 2.2 von Apple über die Experience Cloud ID-Bibliothek 4.3 (ECID) | Jetzt können Target-Kunden ITP 2.1 und ITP 2.2 von Apple mithilfe des CNAME-Zertifizierungsprogramms von Adobe umgehen.<br>Mit dieser Version führt Target eine nahtlose Integration in die ECID-Bibliothek 4.3 ein, die ein serverseitiges Cookie nutzt, um ITP 2.1 und ITP 2.2 zu minimieren. Es wird dringend empfohlen, dass Target-Kunden [ECID-Bibliothek 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) in Verbindung mit der JavaScript-Bibliothek von Target bereitstellen, um zukünftige ITP-Versionen zu minimieren. Die ECID-Bibliothek wird weiterhin Verbesserungen veröffentlichen, die eine verlässliche Lösung für die sich ständig ändernden Cookie-Richtlinien von Browsern bieten.<br>Siehe [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
 
 **Verbesserungen, Fehlerbehebungen und Änderungen**
@@ -2191,10 +2191,6 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
  </thead>
  <tbody> 
-  <tr> 
-   <td colname="col1"> Experience Cloud-Benachrichtigungen </td> 
-   <td colname="col2"> <p>Benachrichtigungen von Target sind in allen Adobe Experience Cloud-Lösungen sichtbar. Sie werden automatisch gesendet, wenn eine Aktivität aktiviert oder deaktiviert wird. Diese Benachrichtigungen stehen allen Benutzern mit Zugriff auf Target Standard/Premium zur Verfügung. </p> <p>Sie sind darüber hinaus in Target Standard/Premium sichtbar. </p> <p>Siehe  <a href="../c-activities/notifications.md#concept_557351F8BB7D40F39A65951A77B79D62" format="dita" scope="local"> Benachrichtigungen </a> </p> </td> 
-  </tr> 
   <tr> 
    <td colname="col1"> Verbesserungen an der Benutzeroberfläche </td> 
    <td colname="col2"> <p>Die Benutzeroberfläche wurde in dieser Version stark überarbeitet. Die auffälligsten Änderungen sind die folgenden: </p> <p> 
