@@ -1,14 +1,14 @@
 ---
 description: Je nachdem, welche Target-Oberfläche und welche Funktion zum Erstellen von Aktivitäten Sie verwenden (Visual Experience Composer oder formularbasierter Composer), bestimmt Target, welche Aktivität (bzw. welche Aktivitäten) für eine Seite anders bereitgestellt werden soll(en).
 keywords: Einstellungen;Priorität
-seo-description: Je nachdem, welche Target-Oberfläche und welche Funktion zum Erstellen von Aktivitäten Sie verwenden (Visual Experience Composer oder formularbasierter Composer), bestimmt Target, welche Aktivität (bzw. welche Aktivitäten) für eine Seite anders bereitgestellt werden soll(en).
-seo-title: Priorität
+seo-description: Adobe Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function (Visual Experience Composer or Form Based composer) you're using.
+seo-title: Priorität in Adobe Target
 solution: Target
 title: Priorität
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
