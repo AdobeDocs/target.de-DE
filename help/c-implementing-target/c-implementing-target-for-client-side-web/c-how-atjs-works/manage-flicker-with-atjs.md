@@ -1,6 +1,6 @@
 ---
 description: Informationen dazu, wie mit der JavaScript-Bibliothek at.js beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
-keywords: flackern;Target Standard;at.js;Implementierung
+keywords: Flackern;at.js;Implementierung
 seo-description: Informationen dazu, wie mit der Adobe Target JavaScript-Bibliothek at.js beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
 seo-title: Verwaltung von Flackern mit Adobe Target at.js
 solution: Target
@@ -8,7 +8,7 @@ title: Verwaltung von Flackern mit „at.js“
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -103,11 +103,11 @@ Anstelle der Standardeinstellung:
 body {opacity: 0 !important}
 ```
 
-## Vermeiden von Flackern in at.js 2.x für triggerView()
+## Flackern in at.js 2.x für triggerView() verwalten
 
 Wenn Sie `triggerView()` benutzen, um zielgerichtete Inhalte in Ihrer SPA anzuzeigen, wird das Flackern vorkonfiguriert gehandhabt. Das bedeutet, dass die Pre-hiding-Logik nicht manuell hinzugefügt werden muss. Stattdessen blendet at.js 2.x im Voraus den Ort aus, an dem Ihre Ansicht angezeigt werden muss, bevor der zielgerichtete Inhalt angewendet wird.
 
-## Verhindern von Flackern mit getOffer() und applyOffer()
+## Flackern mit getOffer() und applyOffer() verwalten
 
 Da es sich sowohl bei `getOffer()` als auch bei `applyOffer()` um einfache APIs handelt, sind keine Mechanismen zur Flackerverhinderung integriert. Sie können einen Selektor oder ein HTML-Element als Option an `applyOffer()` übermitteln. In diesem Fall fügt `applyOffer()` den Aktivitätsinhalt diesem Element zu, wobei Sie jedoch gewährleisten müssen, dass das Element vor dem Aufruf von `getOffer()` und `applyOffer()` vollständig ausgeblendet wurde.
 
