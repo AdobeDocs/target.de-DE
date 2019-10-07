@@ -4,12 +4,12 @@ keywords: a4t; Analytics; Analytics für Target; Analytics-Berichtsquelle; Adobe
 seo-description: Adobe „Analytics for Target“ (A4T) ist eine lösungsübergreifende Integration, die Ihnen das Erstellen von Aktivitäten ermöglicht, die auf Konversionsmetriken und Zielgruppensegmenten aus Analytics basieren. Dank dieser Integration können Sie Ihre Ergebnisse anhand von Analytics-Berichten überprüfen. Wenn Sie Analytics als Berichterstellungsquelle für eine Aktivität verwenden, basiert die gesamte Berichterstellung und Segmentierung für diese Aktivität auf der Analytics-Datenerfassung.
 seo-title: Adobe Analytics als Berichtsquelle für Adobe Target (A4T)
 solution: Target
-subtopic: Multivarianz-Test
+subtopic: Integration
 title: Adobe Analytics als Berichtsquelle für Adobe Target (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -53,7 +53,7 @@ Wenn Sie über einen Einsatz von A4T nachdenken, sollten Sie die folgenden Punkt
 * Bei der Verwendung von Analytics als Berichtsquelle ist nur eine einzige Mbox-basierte Metrik erlaubt.
 * Bei einem Server-zu-Server-Aufruf von Target zu Analytics werden Aktivitäts- und Erlebnisinformationen an Analytics gesendet. Durch diese Integration werden keine zusätzlichen Server-Aufrufe für Target oder Analytics getätigt.
 
-   In bestimmten Situationen schlägt der Classification-Aufruf von Target an Analytics möglicherweise fehl und Aktivitäten zeigen keine Daten in Analytics an. In diesem Fall finden Sie unter [Fehlerbehebung bei der Integration von Analytics und Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). You can also contact Client Care for further assistance.[](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)
+   In bestimmten Situationen schlägt der Classification-Aufruf von Target an Analytics möglicherweise fehl und Aktivitäten zeigen keine Daten in Analytics an. In diesem Fall finden Sie unter [Fehlerbehebung bei der Integration von Analytics und Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können sich auch an den Kundendienst [wenden](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) , um weitere Hilfe zu erhalten.
 
 ## Unterstützte Aktivitätstypen {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -81,7 +81,7 @@ Da noch nicht alle Aktivitätstypen A4T unterstützen, empfiehlt es sich, wichti
 
 ## Beispiele für A4T-Berichte  {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-Um A4T-Berichte in [!DNL Target]**anzuzeigen, klicken Sie auf[!UICONTROL Aktivitäten]**, dann in der Liste auf die gewünschte Aktivität, die [!DNL Analytics] als Berichtsquelle verwendet, und anschließend auf die Registerkarte **[!UICONTROL Berichte].**
+Um A4T-Berichte in [!DNL Target] anzuzeigen, klicken Sie auf **[!UICONTROL Aktivitäten]**, dann in der Liste auf die gewünschte Aktivität, die [!DNL Analytics] als Berichtsquelle verwendet, und anschließend auf die Registerkarte **[!UICONTROL Berichte]**.
 
 >[!NOTE]
 >
