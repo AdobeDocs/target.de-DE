@@ -1,17 +1,17 @@
 ---
 description: Versionshinweise zu den serverseitigen APIs und SDKs in Adobe Target
-keywords: at.js;api;sdk;release;updates;apis;sdks;serverseitig;serverseitig
-seo-description: Versionshinweise zu den serverseitigen APIs und SDKs in Adobe Target
-seo-title: Versionshinweise zu den serverseitigen APIs und SDKs in Adobe Target
+keywords: at.js;api;release;updates;apis;sdks;serverseitig;serverseitig
+seo-description: Versionshinweise zu den serverseitigen APIs von Adobe Target.
+seo-title: Versionshinweise zu den serverseitigen APIs von Adobe Target.
 solution: Target
-title: Versionshinweise - APIs und SDKs
+title: Versionshinweise - Target-serverseitige APIs
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
-# Versionshinweise - APIs und SDKs
+# Versionshinweise - Target-serverseitige APIs
 
-Versionshinweise zu den serverseitigen APIs und SDKs von Adobe Target.
+Versionshinweise zu den serverseitigen APIs von Adobe Target.
