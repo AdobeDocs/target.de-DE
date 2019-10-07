@@ -1,6 +1,6 @@
 ---
-description: Sehen Sie sich Schulungsvideos an, in denen Sie erfahren, wie Sie Target Standard und Target Premium optimal nutzen.
-keywords: Target Standard; Target Premium; Schulungsvideos; Youtube; Videos; Videoschulung
+description: Sehen Sie sich Schulungsvideos an, die Ihnen helfen, Adobe Target Standard und Target Premium optimal zu nutzen.
+keywords: Schulungsvideos;YouTube;Videos;Videoschulung;Tutorial;Tutorials;Video
 seo-description: Sehen Sie sich Schulungsvideos an, in denen Sie erfahren, wie Sie Target Standard und Target Premium optimal nutzen.
 seo-title: Schulungsvideos für Adobe Target Standard und Premium
 solution: Target
@@ -8,7 +8,7 @@ title: Schulungsvideos für Adobe Target Standard und Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
