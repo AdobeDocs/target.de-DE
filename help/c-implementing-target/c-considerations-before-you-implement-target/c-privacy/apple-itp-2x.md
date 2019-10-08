@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: Apple ITP 2.x
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -26,7 +26,7 @@ Die unten angegebenen ITP-Versionen beinhalten die folgenden Einschränkungen:
 
 ## Welchen Einfluss hat dies auf mich als Adobe Target-Kunde?
 
-[!DNL Target] stellt Ihnen JavaScript-Bibliotheken bereit, die Sie auf Ihren Seiten verwenden können, sodass [!DNL Target] Ihren Besuchern Echtzeit-Personalisierung bieten kann. Es gibt drei Target-JavaScript-Bibliotheken ([at. js 1,*x* und at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md), and [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)), die clientseitige [!DNL Target] Cookies über die `document.cookie`-API auf den Browsern Ihrer Besucher platzieren. Daher haben ITP 2.1 und 2.2 von Apple eine Auswirkung auf [!DNL Target]-Cookies, die nach 7 Tagen (bei ITP 2.1) und nach einem Tag (bei ITP 2.2) ablaufen.
+[!DNL Target] stellt Ihnen JavaScript-Bibliotheken bereit, die Sie auf Ihren Seiten verwenden können, sodass [!DNL Target] Ihren Besuchern Echtzeit-Personalisierung bieten kann. Es gibt drei Target-JavaScript-Bibliotheken ([at. js 1,*x* und in at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md), and [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)), die clientseitige [!DNL Target] Cookies über die `document.cookie`-API auf den Browsern Ihrer Besucher platzieren. Daher haben ITP 2.1 und 2.2 von Apple eine Auswirkung auf [!DNL Target]-Cookies, die nach 7 Tagen (bei ITP 2.1) und nach einem Tag (bei ITP 2.2) ablaufen.
 
 Apple ITP 2.1 und 2.2 haben in den folgendne Bereichen Einfluss auf [!DNL Target]:
 
