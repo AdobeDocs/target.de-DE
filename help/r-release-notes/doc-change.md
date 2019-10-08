@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9ad116dc4834cf90ba6d6d98da7e270544fd0113
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -17,11 +17,12 @@ source-git-commit: 9ad116dc4834cf90ba6d6d98da7e270544fd0113
 
 Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentation aufgeführt.
 
-## Adobe Target/Standard/Premium 19.9.1 (September 30, 2019)
+## Adobe Target/Standard/Premium 19.9.1 (30. September 2019)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 3. Oktober 2019 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde Folgendes hinzugefügt: <ul><li>Known issue and workaround when creating an experience with no modifications using the at.js 2.*x* -Bibliothek.</li><li>Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche von Target nicht sichtbar und können nur über API bearbeitet werden.</li><li>Recommendations-Aktivitäten, die über API erstellt wurden, können in der Benutzeroberfläche angezeigt werden, können aber nur über API bearbeitet werden.</li></ul> |
+| 8. Oktober 2019 | [Target Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md) | Neues Thema mit Links zum ersten Stapel von Newslettern, mit weiteren Informationen. |
+| 3. Oktober 2019 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde Folgendes hinzugefügt: <ul><li>Bekanntes Problem und Problemumgehung beim Erstellen eines Erlebnisses ohne Änderungen mit at.js 2.*x* -Bibliothek.</li><li>Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche von Target nicht sichtbar und können nur über API bearbeitet werden.</li><li>Recommendations-Aktivitäten, die über API erstellt wurden, können in der Benutzeroberfläche angezeigt werden, können aber nur über API bearbeitet werden.</li></ul> |
 |  | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Hinweis zum Abschnitt "mboxDebug"hinzugefügt. |
 | 2. Oktober 2029 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zu kommenden Versionen hinzugefügt. |
 | 1. Oktober 2019 | [Nützliche Variablen, Profile, Parameter und Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Der Text im Abschnitt "Kundenattribute"wurde aktualisiert. |
