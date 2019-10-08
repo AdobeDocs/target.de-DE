@@ -1,14 +1,14 @@
 ---
 description: Testen Sie dynamisch Bilder in E-Mails und ändern Sie diese Bilder gegebenenfalls im Handumdrehen, wenn jemand die E-Mail öffnet.
-keywords: E-Mail; AdBox
-seo-description: Testen Sie dynamisch Bilder in E-Mails und ändern Sie diese Bilder gegebenenfalls im Handumdrehen, wenn jemand die E-Mail öffnet.
-seo-title: Testen einer E-Mail-Bild-AdBox
+keywords: email;adbox;email image adbox
+seo-description: Testen Sie mit Adobe Target dynamisch Bilder in E-Mails und ändern Sie diese Bilder sogar spontan, wenn jemand die E-Mail öffnet.
+seo-title: E-Mail-Image-Adbox mit Adobe Target testen
 solution: Target
 title: Testen einer E-Mail-Bild-AdBox
 topic: Recommendations
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -28,12 +28,12 @@ Zum Testen von E-Mail-Bildern werden modifizierte Versionen von AdBoxes verwende
 **Beispielcode für eine Bild-AdBox in einer E-Mail:**
 
 ```
-<img src=“https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
+<img src="https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
 mbox={email_header}&
 mboxDefault=​{http%3A%2F%2Fwww.domain.com%2Fheader.jpg}&
 mboxXDomain=disabled&
 mboxSession={123456}&
-mboxPC={123456}” border=“0"/>
+mboxPC={123456}” border=:"0"/>
 ```
 
 Hierbei sind die unten stehenden Werte spezifisch für Sie:
