@@ -7,14 +7,14 @@ solution: Target
 title: Versionshinweise - Target-serverseitige APIs
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
 
 ---
 
 
 # Versionshinweise - Target-serverseitige APIs
 
-Versionshinweise zu den [!DNL Adobe Target] serverseitigen APIs.
+Versionshinweise zu den serverseitigen [Adobe Target-APIs](https://developers.adobetarget.com/api/delivery-api/).
 
 ## V1/Auslieferung (9. Oktober 2019)
 
