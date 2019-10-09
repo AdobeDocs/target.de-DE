@@ -1,6 +1,6 @@
 ---
 description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Adobe Target-Aktivitäten verwendet werden können.
-keywords: Profilskript; Profilskriptattribute; Best Practices für Profilskripte; debug; Debugging
+keywords: Profilskript;Profilskriptattribute;Profilskript-Best Practices;Debugging;Skripten;Profilskripte;Attribute;Attribut;Parameter
 seo-description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Adobe Target-Aktivitäten verwendet werden können.
 seo-title: Profilattribute in Adobe Target
 solution: Target
@@ -8,7 +8,7 @@ title: Profilattribute
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
