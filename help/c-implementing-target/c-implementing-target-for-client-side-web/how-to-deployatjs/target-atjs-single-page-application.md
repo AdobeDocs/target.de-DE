@@ -1,6 +1,6 @@
 ---
 description: Informationen zur Verwendung von at.js 2.x zur Implementierung von Einzelseiten-Apps (SPAs).
-keywords: Implementierung einer Einzelseiten-Apps;Implementieren einer Einzelseiten-App;SPA;at.js 2.x; at.js; Einzelseitenanwendung; Einzelseiten-App
+keywords: Implementierung einer Einzelseiten-Apps;Implementieren einer Einzelseiten-App;SPA;at.js 2.x; at.js; Einzelseitenanwendung; Einzelseiten-App;spa;SPAs
 seo-description: Informationen zur Verwendung von Adobe Target at.js 2.x zur Implementierung von Einzelseiten-Apps (SPAs).
 seo-title: Implementierung einer Einzelseitenanwendung in Adobe Target
 solution: Target
@@ -8,7 +8,7 @@ title: Implementieren von Einzelseiten-Apps
 topic: Standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -33,13 +33,13 @@ Adobe Target VEC für SPAs basiert auf einem neuen Konzept für Ansichten: Eine 
 
 Um Ansichten genauer erklären zu können, navigieren wir einmal über diese fiktive E-Commerce-Site, die in React implementiert wurde, und betrachten einige Beispielansichten. Klicken Sie auf die folgenden Links, um diese Website auf einer neuen Browser-Registerkarte zu öffnen.
 
-**Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
+**Link:[Homepage](https://target.enablementadobe.com/react/demo/#/)**
 
 ![Homepage](/help/c-experiences/assets/home.png)
 
 Wenn wir zur Homepage navigieren, können wir sofort ein Hero-Bild sehen, das einen Osterverkauf bewirbt, sowie die neuesten Produkte, die auf der Site verkauft werden. In diesem Fall kann die gesamte Homepage als Ansicht definiert werden. Dies sollten Sie im Hinterkopf behalten, da wir darauf im Abschnitt „Implementieren von Adobe Target-Ansichten“ unten näher eingehen werden.
 
-**Link:[Product Site](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:[Produktseite](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![Produktseite](/help/c-experiences/assets/product-site.png)
 
@@ -53,7 +53,7 @@ Am Anfang dieses Abschnitts haben wir Ansichten als ganze Site oder sogar als ei
 
 Klicken Sie auf die Schaltfläche „Mehr laden“, um weitere Produkte auf der Site zu erkunden. In diesem Fall ändert sich die Website-URL nicht. Hier kann auch nur die zweite Zeile der oben gezeigten Produkte als Ansicht angesehen werden. Der Name der Ansicht könnte also „PRODUKTSEITE-2“ lauten.
 
-**Link: Checkout[](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link:[Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![Checkout-Seite](/help/c-experiences/assets/checkout.png)
 
@@ -87,7 +87,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
 
    Im Folgenden sehen wir einige beispielhafte Anwendungsfälle dazu, wie Sie in React die `triggerView()`-Funktion für unsere fiktive E-Commerce-SPA aufrufen:
 
-   **Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
+   **Link:[Homepage](https://target.enablementadobe.com/react/demo/#/)**
 
    ![Home-React-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Link: Products Site[](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:[Produktseite](https://target.enablementadobe.com/react/demo/#/products)**
 
 Schauen wir uns nun ein Beispiel an, das etwas komplizierter ist. Nehmen wir als Marketing-Experten an, wir möchten die zweite Reihe der Produkte personalisieren, indem wir die Farbe der Preisbeschriftung auf Rot ändern, nachdem ein Benutzer auf die Schaltfläche „Mehr laden“ geklickt hat.
 
@@ -147,7 +147,7 @@ Schauen wir uns nun ein Beispiel an, das etwas komplizierter ist. Nehmen wir als
  }
 ```
 
-**Link: Checkout[](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link:[Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![React-Checkout](/help/c-experiences/assets/react6.png)
 
@@ -281,13 +281,13 @@ Weitere Informationen dazu finden Sie in den folgenden Videos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ger)
 
-See Understanding how at.js 2.x works for more information.[](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html)
+Weitere Informationen finden Sie unter [Die Funktionsweise](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) von at.js 2.x.
 
 ### Implementieren von at.js 2.x in einer SPA
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=ger)
 
-See Implement Adobe Target's at.js 2.x in a Single Page Application (SPA) for more information.[](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html)
+Weitere Informationen finden Sie unter [Implementieren von "at.js 2.x"in einer Einzelseitenanwendung (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) von Adobe Target.
 
 ### Verwendung von VEC für SPAs in Adobe Target
 
