@@ -1,7 +1,7 @@
 ---
 description: Mithilfe von Antwort-Token können Sie Target-spezifische Informationen automatisch ausgeben (Kampagnendetails, Benutzerprofilinformationen, Geoinformationen usw.), um sie im Debugging zu verwenden oder in Drittanbietersysteme zu integrieren (z. B. Clicktale).
-keywords: Antwort-Token;Token;Plugins;Plug-ins;at.js
-seo-description: Mithilfe von Antwort-Token können Sie Target-spezifische Informationen automatisch ausgeben (Kampagnendetails, Benutzerprofilinformationen, Geoinformationen usw.), um sie im Debugging zu verwenden oder in Drittanbietersysteme zu integrieren (z. B. Clicktale).
+keywords: Antwort-Token;Token;Plugins;Plug-ins;at.js;Antwort
+seo-description: Mithilfe von Antworttoken können Sie Target-spezifische Informationen (Aktivitätsdetails, Benutzerprofilinformationen, Geo-Informationen usw.) automatisch ausgeben, die beim Debugging oder bei der Integration in Drittanbietersysteme (z. B. Clicktale) verwendet werden können
 seo-title: Antwort-Token in Adobe Target
 solution: Target
 subtopic: Erste Schritte
@@ -9,7 +9,7 @@ title: Antwort-Token
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -24,7 +24,7 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
 
 >[!NOTE]
 >
->Antwort-Token sind mit [!DNL at.js] 1.1 verfügbar. mbox.js unterstützt keine Antwort-Token.
+>Antwort-Token sind mit at.js 1.1 oder höher verfügbar. mbox.js unterstützt keine Antwort-Token.
 
 | Verwendete Target-Bibliothek | Empfohlene Aktionen |
 |--- |--- |
