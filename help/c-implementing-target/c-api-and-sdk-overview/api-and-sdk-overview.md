@@ -1,95 +1,58 @@
 ---
-description: Informationen zu den Server-seitigen Target-Bereitstellungs- und Recommendations-APIs sowie zum NodeJS-SDK.
-keywords: Server-seitig;Server-Seite;API;SDK;NodeJS;Node JS;Recommendations-API
-seo-description: Informationen zu den Server-seitigen Adobe Target-Bereitstellungs- und Recommendations-APIs sowie zum NodeJS-SDK.
-seo-title: Adobe Target Server-seitig implementieren
+description: Informationen zu den APIs für die serverseitige Bereitstellung von Adobe Target, Node.js SDK und Target Recommendations-APIs.
+keywords: serverseitig;serverseitig;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
+seo-description: Informationen zu den APIs für die serverseitige Bereitstellung von Adobe Target, Node.js SDK und Target Recommendations-APIs.
+seo-title: Informationen zu den APIs für die serverseitige Bereitstellung von Adobe Target, Node.js SDK und Target Recommendations-APIs.
 solution: Target
 title: 'Server-seitig: Target-Implementierung'
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
 
 # Server-seitig: Target-Implementierung{#server-side-implement-target}
 
-Informationen zu [!DNL Adobe Target]Server-seitigen Target-Bereitstellungs-APIs, Server-seitigen Batch-Bereitstellungs-APIs, NodeJS-SDK,[!DNL Target Recommendations] APIs und [!DNL Target Classic]-APIs (beendet).
+Informationen zu [!DNL Adobe Target] serverseitigen Bereitstellungs-APIs, Node.js SDK und [!DNL Target Recommendations] APIs.
 
 Der folgende Prozess wird in einer Server-seitigen Implementierung von [!DNL Target] ausgeführt:
 
 1. Ein Client-Gerät fordert über Ihren Server ein Erlebnis an.
 1. Ihr Server sendet diese Anforderung an [!DNL Target].
 1. [!DNL Target] sendet die Antwort zurück an den Server.
-1. Ihr Server entscheidet, welches Erlebnis auf dem Client-Gerät bereitgestellt werden soll, damit es gerendert wird.
+1. Ihr Server entscheidet, welches Erlebnis an das Client-Gerät gesendet werden soll, damit es wiedergegeben werden kann.
 
-Das Erlebnis muss nicht in einem Browser angezeigt werden. Es kann auch in einer E-Mail oder an einem Kiosk, über einen Sprachassistenten oder über ein anderes nicht visuelles Erlebnis oder nicht browserbasiertes Gerät angezeigt werden. Da sich Ihr Server zwischen dem Client und [!DNL Target] befindet, ist diese Art der Implementierung auch dann optimal, wenn Sie mehr Kontrolle und Sicherheit benötigen oder komplexe Backend-Prozesse haben, die auf Ihrem Server ausgeführt werden sollen.
+Das Erlebnis muss nicht in einem Browser angezeigt werden. Das Erlebnis kann in einer E-Mail oder einem Kiosk, über einen Sprachassistenten oder über ein anderes nicht visuelles Erlebnis oder ein nicht browserbasiertes Gerät angezeigt werden. Da sich Ihr Server zwischen dem Client und [!DNL Target] befindet, ist diese Art der Implementierung auch dann optimal, wenn Sie mehr Kontrolle und Sicherheit benötigen oder komplexe Backend-Prozesse haben, die auf Ihrem Server ausgeführt werden sollen.
 
-Im folgenden Abschnitt werden die verschiedenen APIs und das NodeJS-SDK aufgeführt und zusätzliche Informationen bereitgestellt:
+Die folgenden Abschnitte enthalten weitere Informationen zu den verschiedenen APIs und dem NodeJS SDK:
 
-## Server-seitige Bereitstellungs-APIs
+## APIs für die Serverbereitstellung
 
-Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/#server-side-delivery)
+Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
 
-`/rest/v1/mbox`
+`/rest/v1/delivery`
 
-Mit [!DNL Target] kann Ihre Anwendung Mbox-Aufrufe über beliebige Browser, Mobilgeräte oder sogar andere Server tätigen. Die Server-seitige Bereitstellungs-API wurde speziell dazu entwickelt, [!DNL Target] in beliebige Server-seitige Plattformen zu integrieren, die HTTP-/HTTPS-Aufrufe durchführen.
+Mithilfe der [!DNL Target] Auslieferungs-API können Sie:
 
-Sie können die API verwenden, um Ihre benutzerspezifische Anwendung in [!DNL Target] zu integrieren. Das ist besonders nützlich für Organisationen, die Targeting in einem nicht browserbasierten IoT-Gerät bereitstellen möchten, wie z. B. einem vernetzten TV-Gerät, einem Verkaufsautomaten oder einem digitalen Bildschirm im Geschäft.
+* Stellen Sie Erlebnisse über das Web, einschließlich SPAs, mobile Kanäle und Nicht-Browser-basierte IoT-Geräte, wie z. B. angeschlossene TVs, Kiosks oder digitale In-Store-Bildschirme, bereit.
+* Stellen Sie Erlebnisse von jeder serverseitigen Plattform oder Anwendung bereit, die HTTP/s-Aufrufe ausführen kann.
+* Stellen Sie einem Besucher konsistente und personalisierte Erlebnisse bereit, unabhängig davon, welcher Kanal oder welche Geräte der Besucher verwendet hat, um mit Ihrem Unternehmen in Kontakt zu treten.
+* Cache-Erlebnisse für einen Besucher während einer Sitzung auf Ihrem Server, sodass mehrere API-Aufrufe vermieden werden können, wodurch eine bessere Leistung erzielt wird.
+* Nahtlose Integration mit [!DNL Adobe Experience Cloud] Produkten wie [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] (AAM) und dem [!DNL Experience Cloud ID Service] Server.
 
-Dieser Endpunkt kann Angebote nur für gewöhnliche Mboxes zurückgeben. Sie können Inhalte nur für eine einzelne Mbox abrufen.
+## Node.js SDK
 
-Diese API implementiert vorhandene Mbox-Funktionen per RESTful-Methode.
+Link: SDK [Node.js](https://github.com/adobe/target-nodejs-sdk)
 
-Diese API verarbeitet keine Cookies oder Weiterleitungsaufrufe.
+Das Node.js SDK ist ein ausgereiftes Software Development Kit, das die Komplexität der Verwaltung von Cookies, Sitzungen und Integration in [!DNL Experience Cloud] Produkte wie [!DNL Analytics], [!DNL Experience Cloud Visitor ID Service]und [!DNL Audience Manager]unterstützt. Hinter den Kulissen verwendet das SDK Node.js die `/rest/v1/delivery` API. Im Folgenden finden Sie einige wichtige Funktionen, die im SDK Node.js unterstützt werden:
 
-## Server-seitige Batch-Bereitstellungs-APIs
+* **** Unterstützung für Prefetch und Benachrichtigungen, die eine Leistungsoptimierung durch Zwischenspeicherung ermöglichen: Sie können das SDK Node.js verwenden, um Erlebnisse abzurufen und sie lokal auf Ihrem Node.js-Server zu zwischenspeichern, um Serveraufrufe zu minimieren [!DNL Target] und Ihre Anwendungsleistung zu optimieren.
+* **** Möglichkeit zum Abrufen von VEC-erstellten Aktivitäten: Rufen Sie serverseitig von VEC erstellte Aktivitäten ab. Die Antwort, die VEC-erstellte Aktivitäten enthält, enthält Selektoren, mit denen nur Teile Ihrer Seite, die personalisiert werden müssen, vorausgeblendet werden können. Auf diese Weise können Sie die Metrik[" ](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)Erster Inhalt"Ihrer Seite optimieren, die ein wichtiger KPI für Ihr Unternehmen ist, um einen hohen Wert im [Google PageRank](https://en.wikipedia.org/wiki/PageRank) -System zu erzielen.
 
-Link: [Server Side Batch Delivery APIs](https://developers.adobetarget.com/api/#server-side-batch-delivery)
-
-`/rest/v2/batchmbox`
-
-Mit der Batch-Bereitstellungs-API kann Ihre Anwendung Inhalte für verschiedene Mboxes in einem einzelnen Aufruf anfordern. Sie verfügt darüber hinaus über einen Vorabruf-Modus, mit dem Clients wie Apps, Server usw. Inhalte für verschiedene Mboxes in einer Anfrage abrufen, lokal zwischenspeichern und später [!DNL Target] benachrichtigen können, wenn der Benutzer die entsprechenden Mboxes besucht.
-
-Dieser Endpunkt kann Angebote nur für gewöhnliche Mboxes zurückgeben. Da Sie Inhalte für mehrere Mboxes abrufen können, ist es für die Performance sinnvoller, die Batch-Mbox-API zu verwenden. Hierüber vermeiden Sie wiederholte HTTP-Anfragen, die unter Umständen viel Leistung beanspruchen.
-
-## NodeJS-SDK
-
-Link: [NodeJS SDK](https://www.npmjs.com/package/@adobe/target-node-client)
-
-Aktuell ist nur ein SDK verfügbar: das NodeJS-SDK.
-
-Das NodeJS-SDK ist ein Thin-Wrapper um das NodeJS-HTTP/HTTPS-Kernmodul herum. Im Hintergrund verwenden die NodeJS-SDK-APIs dieselben Server-seitigen Bereitstellungs-APIs.
-
-Die Zuordnung lautet wie folgt:
-
-* `MarketingCloudClient.getOffer() \*- invokes \*/res/v1/mbox endpoint`
-* `MarketingCloudClient.getOffers() \*- invokes \*/res/v2/batchmbox endpoint`
-
-## [!DNL Target Recommendations]-APIs
+## Target Recommendations-APIs
 
 Link: [Target Recommendations APIs](https://developers.adobetarget.com/api/recommendations)
 
-Mit den Recommendations-APIs können Sie programmgesteuert mit den Recommendations-Servern von Target interagieren. Diese APIs können in verschiedene Anwendungs-Stacks integriert werden, um Funktionen durchzuführen, die Sie für gewöhnlich über die Benutzeroberfläche ausführen würden.
-
-## [!DNL Target Classic]-APIs
-
-Die [!DNL Target Classic]-Benutzeroberfläche und -APIs wurden eingestellt. Informationen über den Umstieg auf die modernen APIs von Target finden Sie unter [Übergang von veralteten Target-APIs zu Adobe I/O](../../c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md#concept_3A31E26C8FAF49598152ACFE088BD4D2).
-
->[!NOTE]
->Authoring-APIs (in denen Sie Aktivitäten, Angebote, Zielgruppen usw. erstellen) unterstützen kein Cross Origin Resource Sharing (CORS).
-
-## Unterschiede zwischen Server-seitigen Target-Bereitstellungs-APIs und NodeJS-SDK {#section_10336B7934F54CE98E35907A4748A4A4}
-
-Viele Kunden kennen die Unterschiede zwischen den Server-seitigen APIs und dem NodeJS-SDK nicht. Das gilt insbesondere hinsichtlich der Performance.
-
-Folgende häufig gestellte Fragen unterstützen Sie bei der Auswahl der für Sie passenden Methode:
-
-**Wann sollten Sie die „rohen“ Server-seitigen APIs und wann das NodeJS-SDK verwenden?**
-
-Wenn Sie NodeJS als Backend-Technologie verwenden, ist das NodeJS-SDK die naheliegende Wahl. Das SDK übernimmt viele Details, wie z. B. Cookies, Header, Payload usw. So können Sie sich auf den Kern Ihrer Anwendung konzentrieren.
-
-**Lassen sich durch Verwendung des NodeJS-SDKs Leistungsverbesserungen erzielen?**
-
-Leider haben wir hierzu keine Zahlen vorliegen. In der Regel erbringt das NodeJS-SDK jedoch dank der NodeJS-Ereignis-basierten Architektur eine gute Performance. Die meiste Zeit wird hierbei am [!DNL Target]-Backend benötigt. Das NodeJS-SDK übernimmt nur einen geringen Teil der Verarbeitung. Das SDK ist im Grunde genommen für die Paketierung einer [!DNL Target]-Anfrage und das Parsen einer [!DNL Target]-Antwort verantwortlich.
+The Recommendations APIs let you programmatically interact with [!DNL Target] recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] user interface.
