@@ -1,6 +1,6 @@
 ---
 description: Target-Systemdiagramme, die den Fluss von Aufrufen und Informationen anzeigen, die für eine automatisch erstellte globale Mbox mit at.js gesendet oder erfasst wurden.
-keywords: Systemdiagramm;Flackern;at.js;Implementierung;JavaScript-Bibliothek;js
+keywords: Systemdiagramm;Flackern;at.js;Implementierung;JavaScript-Bibliothek;js;ATJS
 seo-description: Adobe Target-Systemdiagramm zur Darstellung des Anruf- und Informationsflusses bei Aufrufen oder Datensammlungen einer automatisch erstellten globalen Mbox bei der Verwendung von „at.js“.
 seo-title: Funktionsweise der JavaScript-Bibliothek "at.js"in Adobe Target
 solution: Target
@@ -8,7 +8,7 @@ title: Funktionsweise von „at.js“
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -27,7 +27,7 @@ Weitere Informationen finden Sie unter [JavaScript-Bibliotheken in Target](/help
 
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. Zudem wurden zentrale Experience Cloud-Services implementiert: Adobe Launch, Zielgruppen und Besucher-ID-Service.
 
-## Was ist der Unterschied zwischen at.js 1.*x*- und at.js 2.x-Workflow-Diagrammen?
+## Was ist der Unterschied zwischen "at.js 1"?*x*- und at.js 2.x-Workflow-Diagrammen?
 
 Weitere Informationen zu den Unterschieden, die in 2.x im Vergleich zu 1.x eingeführt wurden, finden Sie unter [Aktualisieren von at.js 1.x auf at.js 2](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md).*x*.
 
