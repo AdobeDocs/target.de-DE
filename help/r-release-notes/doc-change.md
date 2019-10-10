@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -24,6 +24,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 | 10. Oktober 2019 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | Neuer Abschnitt hinzugefügt: "serverState". |
 |  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu den Versionen at.js 2.2 und at.js 1.8 hinzugefügt. |
 |  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zu den Versionen at.js 2.2 und at.js 1.8 hinzugefügt. |
+|  | [Fehlerbehebung bei Aktivitäten](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Neuer Abschnitt hinzugefügt: "Ich habe eine Aktivität mit der Target-Benutzeroberfläche erstellt und kann sie nicht über die API aktualisieren." |
 | 9. Oktober 2019 | [Server-seitig: Target-Implementierung](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Das Thema wurde aktualisiert. |
 |  | [Versionshinweise - Target-serverseitige APIs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Neues Thema |
 |  | [Versionshinweise - SDK für Target Node.js](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Neues Thema |
