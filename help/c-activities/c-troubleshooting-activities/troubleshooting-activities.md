@@ -8,7 +8,7 @@ title: Fehlerbehebung bei Aktivitäten
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -22,6 +22,10 @@ Wenn Ihre Aktivität nicht auf Ihrer Site erscheint, helfen Ihnen diese Empfehlu
 >Zusätzlich zu den folgenden Informationen zur Fehlerbehebung finden Sie unter [Fehlerbehebung in Target](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) Links zu weiteren Fehlerbehebungsthemen, FAQs und weitere nützliche Informationen zur Fehlerbehebung bei Aktivitäten und anderen [!DNL Adobe Target]-Funktionen.
 
 Die folgenden Abschnitte enthalten möglicherweise auftretende Probleme sowie Lösungsvorschläge.
+
+## Ich habe eine Aktivität mithilfe der Target-Benutzeroberfläche erstellt und kann sie nicht über die API aktualisieren.
+
+Aktivitäten, die mit der Target-Benutzeroberfläche erstellt wurden, können *nur* über die Target-Benutzeroberfläche aktualisiert werden. Über API erstellte Aktivitäten können *nur* über API aktualisiert werden. Versuchen Sie, die Aktivität mit derselben Methode (UI oder API) zu aktualisieren, mit der die Aktivität erstellt wurde.
 
 ## Sie sehen Ihren Standardinhalt.
 
