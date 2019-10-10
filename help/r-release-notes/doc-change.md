@@ -1,6 +1,6 @@
 ---
 description: Auf dieser Seite sind wichtige Änderungen an der Target-Dokumentation aufgeführt.
-keywords: Änderungsprotokoll für Target-Dokumentation; Aktualisierungen der Dokumentation
+keywords: Änderungsprotokoll für Target-Dokumentation; Aktualisierungen der Dokumentation;neue Themen;Bearbeitungen
 seo-description: Auf dieser Seite sind wichtige Änderungen an der Adobe Target-Dokumentation aufgeführt.
 seo-title: Änderungen an der Adobe Target-Produktdokumentation.
 solution: Target
@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
 
 ---
 
@@ -21,6 +21,9 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 10. Oktober 2019 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | Neuer Abschnitt hinzugefügt: "serverState". |
+|  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu den Versionen at.js 2.2 und at.js 1.8 hinzugefügt. |
+|  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zu den Versionen at.js 2.2 und at.js 1.8 hinzugefügt. |
 | 9. Oktober 2019 | [Server-seitig: Target-Implementierung](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Das Thema wurde aktualisiert. |
 |  | [Versionshinweise - Target-serverseitige APIs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Neues Thema |
 |  | [Versionshinweise - SDK für Target Node.js](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Neues Thema |
