@@ -8,7 +8,7 @@ title: Fehlerbehebung bei Aktivitäten
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: e2592d9b117ac163876257fe6003f1cfb9cfe093
 
 ---
 
@@ -25,7 +25,9 @@ Die folgenden Abschnitte enthalten möglicherweise auftretende Probleme sowie L�
 
 ## Ich habe eine Aktivität mithilfe der Target-Benutzeroberfläche erstellt und kann sie nicht über die API aktualisieren.
 
-Aktivitäten, die mit der Target-Benutzeroberfläche erstellt wurden, können *nur* über die Target-Benutzeroberfläche aktualisiert werden. Über API erstellte Aktivitäten können *nur* über API aktualisiert werden. Versuchen Sie, die Aktivität mit derselben Methode (UI oder API) zu aktualisieren, mit der die Aktivität erstellt wurde.
+Aktivitäten, die mit der Target-Benutzeroberfläche erstellt wurden, sollten über die Target-Benutzeroberfläche aktualisiert werden. Über API erstellte Aktivitäten sollten über API aktualisiert werden. Wenn Sie beispielsweise ursprünglich eine Aktivität mit der API erstellen, die Aktivität dann später jedoch über die Target-Benutzeroberfläche bearbeiten, werden nicht alle Änderungen aktualisiert. Alle Änderungen werden im Backend gespeichert und können durch einen weiteren API-Aufruf aktualisiert werden.
+
+Am besten sollten Sie die Aktivität mit derselben Methode (UI oder API) aktualisieren, mit der die Aktivität ursprünglich erstellt wurde.
 
 ## Sie sehen Ihren Standardinhalt.
 
