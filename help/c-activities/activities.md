@@ -1,21 +1,21 @@
 ---
-description: Mit Aktivitäten können Sie Seitenentwürfe testen und Inhalt auf bestimmte Zielgruppen ausrichten.
-keywords: Aktivitätenliste;Aktivitäten;Aktivität;Aktivitätstypen;Aktivität bearbeiten;Aktivitätsaktionen;Aktivitätsattribut;Aktivitätslistenfilter;Aktivitätsbeschränkungen
-seo-description: Mit Aktivitäten in Adobe Target können Sie Seitenentwürfe testen und Inhalt auf bestimmte Zielgruppen ausrichten.
-seo-title: Aktivitäten in Adobe Target
+description: Mit Aktivitäten in Adobe Target können Sie Inhalte an bestimmte Zielgruppen anpassen und Seitenentwürfe testen.
+keywords: Aktivitätenliste;Aktivitäten;Aktivität;Aktivitätstypen;Aktivität bearbeiten;Aktivitätsaktionen;Aktivitätsattribut;Aktivitätslistenfilter;Aktivitätsbeschränkungen;Personalisierung;Personalisierung
+seo-description: Mit Aktivitäten in Adobe Target können Sie Inhalte auf bestimmte Zielgruppen anpassen und Seitenentwürfe testen.
+seo-title: Mit Aktivitäten in Adobe Target können Sie Inhalte an bestimmte Zielgruppen anpassen und Seitenentwürfe testen.
 solution: Target
 title: Aktivitäten
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2b8dbccdc890626a0b7cb56d4cf03af1e7d8cf22
 
 ---
 
 
 # Aktivitäten{#activities}
 
-Mit Aktivitäten können Sie Seitenentwürfe testen und Inhalt auf bestimmte Zielgruppen ausrichten. Eine Aktivität legt die Erlebnisse fest, auf die ein Site-Besucher stoßen kann.
+Mit Aktivitäten in Adobe Target können Sie Inhalte an bestimmte Zielgruppen anpassen und Seitenentwürfe testen.
 
 Sie können z. B. eine Aktivität entwerfen, die zwei verschiedene Landingpages testet: eine, die Informationen zu Sommerschuhen für Damen hervorhebt, und eine andere Landingpage, die allgemein Sommerbekleidung bewirbt. Durch die Aktivität werden die Bedingungen festgelegt, die steuern, wann diese beiden Landingpages angezeigt werden, sowie die Metriken, die bestimmen, welche Seite erfolgreicher ist. Die Aktivität wird so konfiguriert, dass sie bei Zutreffen bestimmter Bedingungen beginnt und endet (z. B. zwischen bestimmten Terminen) oder dass sie beginnt, wenn die Aktivität genehmigt wird, und endet, wenn sie deaktiviert wird.
 
