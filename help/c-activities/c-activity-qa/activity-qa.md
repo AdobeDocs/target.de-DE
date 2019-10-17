@@ -8,7 +8,7 @@ title: Aktivitäts-QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 308e3777f96a31f9f553de1879b37bce46bcc89b
+source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
 
 ---
 
@@ -27,9 +27,9 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 * Die Fähigkeit, eine Vorschau für ein Erlebnis anzuzeigen, das isoliert oder gemeinsam mit anderen Live-Aktivitäten angezeigt wird, die die Bereitstellungskriterien erfüllen (Seite/mbox/Zielgruppe).
 * Die Fähigkeit, einen QA-Bericht der gesamten User Journey zu erstellen. Mit dem QA-Link können Sie einmal auf Ihre Seite zugreifen und die gesamte Seite in Aktivitäts-QA durchsuchen. Sie bleiben in Activity-QA, bis Sie die Sitzung beenden oder Sie das  [QA Target-Bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) verwenden, um das Beenden von Aktivitäts-QA zu erzwingen. Diese Funktion ist besonders hilfreich, wenn Sie eine Aktivität haben, die sich über mehrere Webseiten erstreckt.
 
->[!NOTE]
->
->Dies gilt für at.js-Implementierungen mit Version 2.*x* oder höher. Für at.js 1.*x* - und mbox.js-Implementierungen ist dies nur der Fall, wenn der Browser des Besuchers keine Drittanbieter-Cookies blockiert.
+   >[!NOTE]
+   >
+   >Dies gilt für at.js-Implementierungen mit Version 2.*x* oder höher. Für at.js 1.*x* - und mbox.js-Implementierungen ist dies nur der Fall, wenn der Browser des Besuchers keine Drittanbieter-Cookies blockiert.
 
 ## Zugreifen auf und Freigeben einer QA-URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
