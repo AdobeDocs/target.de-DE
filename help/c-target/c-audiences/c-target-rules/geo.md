@@ -8,7 +8,7 @@ title: Geo  Targeting in Adobe Target
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
 
 ---
 
@@ -39,7 +39,7 @@ Geo-Positionsparameter ermöglichen das Targeting der Aktivitäten und Erlebniss
 
    [!DNL Target] verwendet für Mobilnetzbetreiber die IP-Adressregistrierungsdaten (die Eigentümer des IP-Adressenblocks sind), um den geeigneten Mobilnetzbetreiber mithilfe von [Mobile Country Codes (MCC) und Mobile Network Codes (MNC)](https://www.mcc-mnc.com) zu ermitteln.
 
-1. Spezifizieren Sie einen Operator und den entsprechenden Wert.
+1. Geben Sie einen Operator und den entsprechenden Wert an.
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
