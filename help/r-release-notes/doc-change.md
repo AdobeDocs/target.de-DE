@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
 
 ---
 
@@ -21,6 +21,8 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 17. Oktober 2019 | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Thema aktualisiert, um zu erläutern, wie Activity QA mit Drittanbieter-Cookies funktioniert. |
+|  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Versionshinweise wurden aktualisiert und enthalten nun Informationen zu Änderungen an der einheitlichen Shell. |
 | 10. Oktober 2019 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | Neuer Abschnitt hinzugefügt: "serverState". |
 |  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu den Versionen at.js 2.2 und at.js 1.8 hinzugefügt. |
 |  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zu den Versionen at.js 2.2 und at.js 1.8 hinzugefügt. |
