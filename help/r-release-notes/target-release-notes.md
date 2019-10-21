@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d2a36e78f4487fd180812c9e9c82e08f0f385b4e
+source-git-commit: 956a6b88fac9a13b98ede655e930aa016fe82533
 
 ---
 
@@ -29,7 +29,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 | Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
-| ![Premium-Zeichen](/help/assets/premium.png) Benutzerbasierte Empfehlungen | Empfiehlt Artikel basierend auf dem Browsing, der Anzeige und dem Kaufverlauf jedes Besuchers. Diese Elemente werden allgemein als "Empfohlen für Sie"bezeichnet.<br>Mithilfe dieser Kriterien können Sie personalisierte Inhalte und Erlebnisse sowohl für neue als auch für wiederkehrende Besucher bereitstellen. Die Liste der Empfehlungen wird mit der neuesten Aktivität des Besuchers gewichtet und wird während der Sitzung aktualisiert und personalisiert, wenn der Besucher Ihre Site aufsucht. |
+| ![Premium-Zeichen](/help/assets/premium.png) Benutzerbasierte Empfehlungen<br>(24. Oktober 2019) | Empfiehlt Artikel basierend auf dem Browsing, der Anzeige und dem Kaufverlauf jedes Besuchers. Diese Elemente werden allgemein als "Empfohlen für Sie"bezeichnet.<br>Mithilfe dieser Kriterien können Sie personalisierte Inhalte und Erlebnisse sowohl für neue als auch für wiederkehrende Besucher bereitstellen. Die Liste der Empfehlungen wird mit der neuesten Aktivität des Besuchers gewichtet und wird während der Sitzung aktualisiert und personalisiert, wenn der Besucher Ihre Site aufsucht.<br>Weitere Informationen finden Sie unter "Benutzerbasierte Empfehlungen"in [Kriterien/Algorithmen](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
 
 ### Verbesserungen, Korrekturen von Problemen und Änderungen
 
@@ -56,7 +56,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
    >
    >Diese Funktionen werden nicht sofort bereitgestellt und auch nicht für alle Kunden gemeinsam bereitgestellt. Wir werden diese Funktionen im Laufe der nächsten Tage ab der [!DNL Target Standard/Premium] Version vom 19.10.1 (22. Oktober 2019) herausgeben.
    >
-   >Im Rahmen der Einführung der neuen Shell werden Sie auch einige URL-Änderungen feststellen. Alle vorherigen mit Lesezeichen versehenen Links funktionieren weiterhin, aber wir empfehlen Ihnen, neue Links mit Lesezeichen zu versehen, um das Öffnen zu beschleunigen.
+   >Bei der Einführung der neuen Navigationsleiste werden Sie auch einige URL-Änderungen feststellen. Alle vorherigen mit Lesezeichen versehenen Links funktionieren weiterhin, aber wir empfehlen Ihnen, neue Links mit Lesezeichen zu versehen, um das Öffnen zu beschleunigen.
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
