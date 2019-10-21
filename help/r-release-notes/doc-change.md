@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 9e7d1b0b9beae7817e958735e306c24318109b9f
 
 ---
 
@@ -21,7 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 22. Oktober 2019 |  |  |
+| 22. Oktober 2019 | [Kriterien/Algorithmen ](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | Zeile für benutzerbasierte Empfehlungen hinzugefügt. |
 |  | [Versionshinweise](/help/r-release-notes/release-notes.md): 19.10.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe Target/Standard/Premium 19.9.1 (30. September 2019)
