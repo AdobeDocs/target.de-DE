@@ -8,7 +8,7 @@ title: Häufig gestellte Fragen zu Zielen und Zielgruppen
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # Häufig gestellte Fragen zu Zielen und Zielgruppen{#targets-and-audiences-faq}
 
 Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
+
+## Wird beim Erstellen komplexer URL-Zeichenfolgen die gesamte URL ausgewertet [!DNL Target] ?
+
+Wenn Sie denselben Parameternamen mehrmals in einer URL-Zeichenfolge verwenden, berücksichtigt HTTP den ersten Parameternamen und ignoriert nachfolgende Parameter mit demselben Namen.
+
+Beispiel: In der folgenden URL-Zeichenfolge:
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
+
+wird die erste Instanz des `Category` Parameters ausgewertet und der zweite `Category` Parameter wird ignoriert.
 
 ## Warum sind voreingestellte Zielgruppen in der Target-Bibliothek beim Erstellen von Zielgruppen unter anderen Kategorien aufgeführt? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
