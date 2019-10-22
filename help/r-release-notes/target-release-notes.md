@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -31,7 +31,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 | --- | --- |
 | ![Premium-Zeichen](/help/assets/premium.png) Benutzerbasierte Empfehlungen<br>(24. Oktober 2019) | Empfiehlt Artikel basierend auf dem Browsing, der Anzeige und dem Kaufverlauf jedes Besuchers. Diese Elemente werden allgemein als "Empfohlen für Sie"bezeichnet.<br>Mithilfe dieser Kriterien können Sie personalisierte Inhalte und Erlebnisse sowohl für neue als auch für wiederkehrende Besucher bereitstellen. Die Liste der Empfehlungen wird mit der neuesten Aktivität des Besuchers gewichtet und wird während der Sitzung aktualisiert und personalisiert, wenn der Besucher Ihre Site aufsucht.<br>Weitere Informationen finden Sie unter "Benutzerbasierte Empfehlungen"in [Kriterien/Algorithmen](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
 
-### Verbesserungen, Korrekturen von Problemen und Änderungen
+### Adobe Experience Cloud-Navigation
 
 * Wenn Sie sich beim [!DNL Adobe Experience Cloud]System anmelden, werden Sie zur neuen Kopfzeilennavigation geleitet. Es sieht sehr ähnlich wie die vorherige Navigation mit der schwarzen Leiste oben aus, bietet jedoch die folgenden Verbesserungen:
 
@@ -54,7 +54,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
    * Benachrichtigungen für [!DNL Target] sind derzeit nicht in der Dropdown-Liste [!UICONTROL Benachrichtigungen] in der Kopfzeile verfügbar.
    >[!NOTE]
    >
-   >Diese Funktionen werden nicht sofort bereitgestellt und auch nicht für alle Kunden gemeinsam bereitgestellt. Wir werden diese Funktionen im Laufe der nächsten Tage ab der [!DNL Target Standard/Premium] Version vom 19.10.1 (22. Oktober 2019) herausgeben.
+   >Diese Funktionen werden nicht sofort bereitgestellt und auch nicht für alle Kunden gemeinsam bereitgestellt. Diese Funktionen werden wir im Laufe der nächsten Wochen, beginnend mit der Version vom [!DNL Target Standard/Premium] 19.10.1 (22. Oktober 2019), herausgeben.
    >
    >Bei der Einführung der neuen Navigationsleiste werden Sie auch einige URL-Änderungen feststellen. Alle vorherigen mit Lesezeichen versehenen Links funktionieren weiterhin, aber wir empfehlen Ihnen, neue Links mit Lesezeichen zu versehen, um das Öffnen zu beschleunigen.
 
