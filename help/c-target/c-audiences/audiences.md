@@ -1,5 +1,5 @@
 ---
-description: Mithilfe von Zielgruppen wird bestimmt, wer Inhalte und Erlebnisse in einer Target-Aktivität anzeigen kann.
+description: Mithilfe von Zielgruppen in Adobe Target wird bestimmt, wer Inhalte und Erlebnisse in einer Target-Aktivität anzeigen kann.
 keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen; Zielgruppentargeting; Zielgruppenberichterstellung; Zielgruppenbericht; Segment; benutzerdefinierte Profilparameter; Zielgruppendefinition; Zielgruppenliste
 seo-description: Mithilfe von Zielgruppen in Adobe Target wird bestimmt, wer Inhalte und Erlebnisse in einer Target-Aktivität anzeigen kann.
 seo-title: Erstellen von Zielgruppen in Adobe Target
@@ -8,14 +8,14 @@ title: Erstellen von Zielgruppen
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
 
 ---
 
 
 # Erstellen von Zielgruppen{#create-audiences}
 
-Mithilfe von Zielgruppen wird bestimmt, wer Inhalte und Erlebnisse in einer Target-Aktivität anzeigen kann.
+Mithilfe von Zielgruppen in Adobe Target wird bestimmt, wer Inhalte und Erlebnisse in einer Target-Aktivität anzeigen kann.
 
 Zielgruppen werden überall dort eingesetzt, wo Targeting zur Verfügung steht. Beim Targeting einer Aktivität können Sie entweder eine wiederverwendbare Zielgruppe aus der [!UICONTROL Zielgruppenliste] auswählen, [eine aktivitätsspezifische Zielgruppe erstellen](/help/c-target/creating-activity-only-audience.md) und verwenden oder [mehrere Zielgruppen kombinieren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), um eine Ad-hoc-Zielgruppe zu erstellen.
 
