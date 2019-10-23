@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
+source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
 
 ---
 
@@ -44,7 +44,9 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
    Die Beschreibung soll dazu beitragen, dass Sie das Kriterium identifizieren können, und kann Informationen über den Zweck des Kriteriums enthalten.
 1. Wählen Sie einen **[!UICONTROL vertikalen Markt]** aus.
 
-   Andere Optionen für Kriterien können sich je nach vertikalem Markt, den Sie auswählen, ändern. 1. Wählen Sie einen **[!UICONTROL Seitentyp]** aus.
+   Andere Optionen für Kriterien können sich je nach vertikalem Markt, den Sie auswählen, ändern.
+
+1. Wählen Sie einen **[!UICONTROL Seitentyp]** aus.
 
    Verschiedene Seitentypen stehen zur Verfügung.
 
@@ -59,7 +61,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
    Einschlussregeln helfen Ihnen dabei, die in Ihren Empfehlungen angezeigten Elemente einzuschränken. Siehe [Einschlussregeln](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Wählen Sie den **[!UICONTROL Speicherort]** Ihrer CSV-Datei aus.
 
-   Die CSV-Datei muss korrekt formatiert sein, um erfolgreich hochgeladen werden zu können. Klicken Sie auf **[!UICONTROL CSV-Vorlage herunterladen], um eine Vorlage mit richtiger Formatierung zu erhalten.**
+   Die CSV-Datei muss korrekt formatiert sein, um erfolgreich hochgeladen werden zu können. Klicken Sie auf **[!UICONTROL CSV-Vorlage herunterladen]**, um eine Vorlage mit richtiger Formatierung zu erhalten.
 
    Es gibt für Orte zwei Optionen:
 
