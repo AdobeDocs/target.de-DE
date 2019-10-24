@@ -1,28 +1,32 @@
 ---
-description: In Target Standard sind die Erfolgsmetriken zu Berichts- und Verfolgungszwecken vorkonfiguriert.
-keywords: Targeting;Erfolg;Konversionsmetrik;Metrik für Seitenwertung;Metrik für Seitenansichten;Umsatzmetriken;Metrik „Besuchszeit pro Site“;geschätzter Wert;erweiterte Einstellungen
-seo-description: In Target Standard sind die Erfolgsmetriken zu Berichts- und Verfolgungszwecken vorkonfiguriert.
-seo-title: Erfolgsmetriken
+description: In Adobe Target sind Erfolgsmetriken sowohl für die Berichterstellung als auch für die Verfolgung vorkonfiguriert.
+keywords: Targeting;Erfolg;Konversionsmetrik;Metrik für Seitenergebnisse;Metrik für Seitenansichten;Umsatzmetriken;Metrik für die Zeit auf der Site;geschätzter Wert;Erweiterte Einstellungen;Erfolgsmetriken
+seo-description: In Adobe Target sind Erfolgsmetriken sowohl für die Berichterstellung als auch für die Verfolgung vorkonfiguriert.
+seo-title: Erfolgsmetriken in Adobe Target
 solution: Target
 title: Erfolgsmetriken
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # Erfolgsmetriken{#success-metrics}
 
-In Target Standard sind die Erfolgsmetriken zu Berichts- und Verfolgungszwecken vorkonfiguriert.
+In Adobe Target sind Erfolgsmetriken sowohl für die Berichterstellung als auch für die Verfolgung vorkonfiguriert.
 
 Erfolgsmetriken sind Parameter, die zur Messung des Erfolgs einer Aktivität verwendet werden. Erfolgsmetriken umfassen die wichtigsten betrieblichen Messwerte, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können. So können Sie beispielsweise feststellen, ob ein neues Angebot oder das Hinzufügen eines Artikel zu einem Warenkorb Ihren Umsatz pro Besucher steigert. Erfolgsmetriken können hilfreich sein, um Probleme mit der Registrierung, der Sortierung oder dem Kauftrichter oder einfach mit der Besucher- und Kundeninteraktion zu ermitteln.
 
 Im Zuge des Ziels von [!DNL Target Standard], die Testerstellung zu vereinfachen, übernimmt die Anwendung einige der Konfigurationen, die in [!DNL Target Classic] noch manuell durchgeführt werden mussten. Erfolgsmetriken werden beispielsweise mit den optimalen Optionen vorkonfiguriert.
 
-Standardmäßig sind Konversionsereignisse in [!DNL Target Standard] auf „einmal zählen und Teilnehmer in der Aktivität halten“ festgelegt. Konversionen werden nur einmal gezählt. Wiederholte Konversionen werden nicht gezählt, und dem Besucher wird immer der Testinhalt angezeigt.
+By default, conversion events are set to "Count once and keep the entrant in the activity" in [!DNL Target Standard]. Konversionen werden nur einmal gezählt. Wiederholte Konversionen werden nicht gezählt, und dem Besucher wird immer der Testinhalt angezeigt.
 
 Umsatzmetriken, die auf „Anzahl inkrementieren und Benutzer in der Aktivität beibehalten“ festgelegt sind, protokollieren Bestelldetails nur für die erste Bestellung, die von demselben Besucher aufgegeben wurde. Alle nachfolgenden Bestellungen erhöhen die Anzahl Konversionen, steigern den Umsatz von RPV/AOV/Vertrieb jedoch nicht und werden nicht in den Bestelldetailbericht aufgenommen.
+
+>[!NOTE]
+>
+>Das Standardverhalten für Aktivitäten, die [Analytics als Berichtsquelle](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, lautet "Anzahl erhöhen und Benutzer in der Aktivität belassen"mit "Einmal pro Teilnehmer".
 
 Es sind folgende Erfolgsmetriken verfügbar:
 
