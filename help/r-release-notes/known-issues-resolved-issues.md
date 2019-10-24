@@ -1,14 +1,14 @@
 ---
 description: Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
 keywords: bekannte Probleme; gelöste Probleme; Versionshinweise;Fehler;Probleme;Fehlerbehebungen
-seo-description: Information about known issues for this release of Adobe Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
+seo-description: Informationen zu bekannten Problemen in dieser Version von Adobe Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
 seo-title: Bekannte Probleme und gelöste Probleme  in Adobe Target
 solution: Target
 title: Bekannte Probleme und gelöste Probleme
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -62,7 +62,7 @@ Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Ange
 
 Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
 
-* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
+* Entitäten sind nach 60 Tagen, nachdem sie keine Aktualisierungen per Feed oder API erhalten haben, korrekt abgelaufen; Die abgelaufenen Entitäten werden jedoch nach Ablauf nicht aus dem Index für die Katalogsuche entfernt. (IRI-857)
 * Die Überlagerungen "Gebrauchsinformationen"für Kriterien und Entwürfe spiegeln ihre Verwendung in A/B- und Erlebnis-Targeting-Aktivitäten nicht wider (TGT-34331)
 * Recommendations-Angebote in A/B- und Erlebnis-Targeting-Aktivitäten zeigen keine visuelle Vorschau des Recommendations-Fachs (TGT-33426)
 * Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche von Target nicht sichtbar und können nur über API bearbeitet werden. (TGT-35777)
@@ -72,13 +72,17 @@ Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
 
 In einer MVT-Aktivität ist der in der Tabelle und im Diagramm angezeigte Gewinner nicht konsistent, wenn Sie die Metriken prüfen. Dieses Phänomen tritt auf, wenn ein Benutzer von der Zusammenfassungs- zur Diagrammansicht und wieder zurück zur Zusammenfassungsansicht wechselt, eine Metrik ändert und dann zur Diagrammansicht wechselt. Wenn dieses Problem auftritt, wird in der Zusammenfassungsansicht immer der korrekte Gewinner angezeigt. Wenn der Benutzer die Diagrammansicht nie zwischen Zusammenfassungsansichten wechselt, wird in der Diagrammansicht der korrekte Gewinner angezeigt.
 
-### at.js
+### at.js {#atjs}
 
 Bekannte Probleme mit at.js:
 
-* If you create an experience with no modifications using at.js 2.*x (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics.* In addition, the [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) might not work correctly.
+* Wenn Sie ein Erlebnis ohne Änderungen mit at.js 2.1.1 oder früher erstellen (z. B. ein Standarderlebnis), wird das Erlebnis möglicherweise nicht in Berichten, Analytics für Target (A4T), Adobe Analytics oder Google Analytics gezählt. Darüber hinaus funktioniert das [ttMeta-Plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) möglicherweise nicht ordnungsgemäß.
 
-   As a workaround, use a whitespace in the experience content. (TNT-33366)
+   Verwenden Sie als Problemumgehung einen Leerraum im Erlebnisinhalt. (TNT-33366)
+
+   >[!NOTE]
+   >
+   >Eine Behebung dieses Problems wurde in at.js 2.2.0 vorgenommen. Sie sollten auf die [neueste Version oder at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) aktualisieren oder die oben erwähnte Problemumgehung nur für at.js-Versionen vor 2.2.0 verwenden.
 
 * Beim Laden einer Seite in Visual Experience Composer (VEC) muss Target ermitteln, ob die globale Mbox-Einstellung aktiviert oder deaktiviert ist und ob an der Stelle, an der der Benutzer die Empfehlung im VEC anwenden möchte, ein entityID- oder categoryID-Eintrag vorhanden ist. Basierend auf diesen Informationen wird die Kriterienliste gefiltert. Die Standardliste enthält zwar gefilterte Algorithmen, doch mit dem [Kompatibilitäts-Kontrollkästchen](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) können Sie die vollständige Algorithmenliste anzeigen.
 
