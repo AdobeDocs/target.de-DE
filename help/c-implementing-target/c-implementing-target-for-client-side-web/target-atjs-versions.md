@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: „at.js“-Versionsdetails
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 0e4298003d7eb99f29b700923cf53b445c3ef637
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -21,7 +21,7 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >
 >Das Target-Team pflegt nur zwei Versionen von [!DNL at.js] – die aktuelle Version und die zweitneueste Version. Führen Sie bei Bedarf ein Upgrade von [!DNL at.js] durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 
-## at.js Version 2.2 (10. Oktober 2019)
+## at.js Version 2.2.0 (10. Oktober 2019)
 
 Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen:
 
@@ -34,7 +34,7 @@ Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen
 
 * at.js Version 2.2 bietet außerdem eine neue Einstellung namens `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration von Target implementiert wird. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client-Seite als auch die Bereitstellungs-API oder ein Target-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden. For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
-## at.js Version 1.8 (10. Oktober 2019)
+## at.js Version 1.8.0 (10. Oktober 2019)
 
 Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen:
 
