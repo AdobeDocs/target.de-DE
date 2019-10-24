@@ -10,7 +10,7 @@ topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 32fea099784cfc481028358c2270a40a98696a33
 
 ---
 
@@ -92,167 +92,52 @@ Um die gewünschte Aktion auszuwählen, bewegen Sie den Mauszeiger über das Zah
 | Für diese Kriterien keine Ergebnisse anzeigen | Entitätsattributübereinstimmung<br>Profilattributübereinstimmung<br>Parameterübereinstimmung | Dies ist die Standardaktion für die Entitätsattributübereinstimmung.<br>Durch diese Aktion wird bestimmt, wie Target leere Werte vor dem Hinzufügen dieser Option verarbeitet hat: Für diese Kriterien werden keine Ergebnisse angezeigt. |
 | Statischen Wert verwenden | Entitätsattributübereinstimmung<br>Profilattributübereinstimmung<br>Parameterübereinstimmung | Wenn ein Wert leer ist, können Sie die Verwendung eines statischen Werts festlegen. |
 
-Sehen Sie sich für ein Beispiel zum Umgang mit leeren Werten das [Szenario 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) unten an:
+## Beispiele zur Profilattribut-Übereinstimmung {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-## Szenarien mit dynamischem Filter  {#section_9873E2F22E094E479569D05AD5BB1D40}
+[!UICONTROL Mit der Profilattribut-Übereinstimmung] können Sie nur die Elemente empfehlen, die mit einem Attribut aus dem Besucherprofil übereinstimmen, wie in den folgenden Beispielen.
 
-**Szenario 1:** Anstatt mithilfe eines statischen Filters ein Element aus einem Katalog mit anderen Elementen aus einem Katalog zu vergleichen, können Sie einen dynamischen Filter verwenden, um ein Element aus einem Katalog mit einem Attribut aus dem Profil des Besuchers zu vergleichen.
-
-Sie können beispielsweise die Option [!UICONTROL Profilattributübereinstimmung] zum Erstellen einer Regel verwenden, laut der Elemente nur dann empfohlen werden, wenn die Marke mit dem Wert oder Text übereinstimmt, der unter `profile.favoritebrand` gespeichert ist. Wenn ein Besucher mit einer solchen Regel nach Laufshorts von einer bestimmten Marke sucht, werden nur Empfehlungen angezeigt, die mit der Lieblingsmarke des jeweiligen übereinstimmen (dem unter `profile.favoritebrand` im Profil des Benutzers gespeicherten Wert).
-
-**Szenario 2:** Bevor in Target die Möglichkeit bestand, Attributinformationen aus dem Profil eines Besuchers zu verwenden, mussten Sie beim Einrichten von Stellenausschreibungen, die nur für Arbeitssuchende aus einem bestimmten Ort und mit einem bestimmten Schulabschluss angezeigt werden, zahlreiche Aktivitäten mit verschiedenen Zielgruppen einrichten (eine für jeden Ort und jeden Abschluss). Wenn Sie in mehreren Städten Stellenausschreibungen vornehmen, kann diese Aufgabe sehr beschwerlich sein.
-
-Von nun an können Sie Einschlussregeln verwenden, um Ort und Abschluss eines Arbeitssuchenden aus seinem Profil mit einer Stellenausschreibung zu vergleichen, wie im folgenden Beispiel dargestellt:
-
-![](assets/job_seeker.png)
-
-Laut der Stellenausschreibung auf der linken Seite muss der Besucher aus San Francisco, New York oder Los Angeles (`entity.jobCity`) kommen und einen BSCS- oder MBA-Abschluss (`entity.requiredDegree`) haben.
-
-Der Arbeitssuchende auf der rechten Seite kommt aus Los Angeles (`profile.usersCity`) und hat einen MBA-Abschluss (`profile.degree`).
-
-Mithilfe eines dynamischen Filters mit Profilattributübereinstimmung können Sie den im unteren Teil der oberen Abbildung gezeigten Filter erstellen, durch den nur Stellenausschreibungen empfohlen werden, für die sich der Besucher basierend auf seinem Wohnort und seinem Abschluss qualifiziert.
-
-Die Kriterien für diese Filter lauten wie folgt:
+**Beispiel 1: Empfehlungen für Artikel aus der Lieblingsmarke** des BenutzersBeispielsweise können Sie mit der Option [!UICONTROL Profilattribut-Übereinstimmung] eine Regel erstellen, die Artikel nur dann empfiehlt, wenn die Marke dem in gespeicherten Wert oder Text entspricht `profile.favoritebrand`. Wenn ein Besucher mit einer solchen Regel nach Laufshorts von einer bestimmten Marke sucht, werden nur Empfehlungen angezeigt, die mit der Lieblingsmarke des jeweiligen übereinstimmen (dem unter `profile.favoritebrand` im Profil des Benutzers gespeicherten Wert).
 
 ```
-entity.jobCity - equals - the value/text stored in - profile.usersCity
+Profile Attribute Matching
+brand - equals - the value/text stored in - profile.favoritebrand
 ```
 
-und
+**Beispiel 2: Zuordnen von Arbeitsplätzen zu Arbeitssuchenden** Nehmen wir an, Sie versuchen, Arbeitsplätze mit Arbeitssuchenden zu verbinden. Sie möchten nur Arbeitsplätze empfehlen, die sich in derselben Stadt wie der Arbeitsuchende befinden.
+
+Sie können Einschlussregeln verwenden, um den Standort eines Arbeitsuchenden vom Profil seines Besuchers zu einer Stellenauflistung zuzuordnen, wie im folgenden Beispiel:
 
 ```
-entity.requiredDegree - equals - the value/text stored in - profile.degree
+Profile Attribute Matching
+jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
-Mit dynamischen Filtern mit Profilattributübereinstimmung können Sie mit weniger Aktivitäten mehr erreichen, wie unten dargestellt:
+## Beispiele für Übereinstimmungen von Entitätsattributen
 
-![](assets/dynamic_before_and_after.png)
+[!UICONTROL Die Zuordnung] von Entitätsattributen ermöglicht es Ihnen, nur die Artikel zu empfehlen, die mit einem Attribut übereinstimmen, entweder mit dem Artikel, den der Benutzer gerade anzeigt, dem Artikel, den er zuletzt gekauft hat, dem Artikel, den der Benutzer am häufigsten angezeigt hat, oder mit einem Artikel, der in einem benutzerspezifischen Attribut im Besucherprofil gespeichert ist, wie in den folgenden Beispielen dargestellt.
 
-Das Diagramm im oberen Teil der oberen Abbildung zeigt, wie dynamische Filter mit Profilattributen funktionieren. Sie können eine Zielgruppe erstellen, die Kriterien verwendet (im oberen Beispiel Wohnort und Abschluss), um eine Stellenausschreibung anzuzeigen, für die sich der Besucher qualifiziert. Dieser Filter funktioniert für eine nahezu unbegrenzte Anzahl an Möglichkeiten bezüglich des Wohnorts und Abschlusses.
-
-Das Diagramm am unteren Rand der Abbildung zeigt nur zwei der unzähligen Zielgruppen, die Sie einrichten müssten, wenn Sie keine Kriterien oder keine Promotion mit dynamischen Filtern konfigurieren würden, für die Profilattribute verwendet werden. Sie müssten für jeden Ort und jeden Abschluss eine andere Zielgruppe einrichten. Die Anzahl Zielgruppen würde schnell unüberschaubar werden, insbesondere dann, wenn es sich um viele Stellenausschreibungen in verschiedenen Städten handelt.
-
-Ohne die Verwendung von Profilattributen würden Ihre Zielgruppen und Erlebnisse aussehen wie die obere Hälfte der folgenden Abbildung, jedoch mit zusätzlichen Zielgruppen/Erlebnis-Paaren für jedes denkbare Szenario.
-
-![](assets/dynamic_audience_experience_pairs.png)
-
-Mithilfe von dynamischen Filtern mit Profilattributen, die Entitätsattribute mit Benutzerattributen vergleichen, können Sie eine einzelne Zielgruppe einrichten. Diese Zielgruppe stellt das gewünschte Erlebnis in kürzester Zeit dynamisch bereit, wie in der unteren Hälfte der Abbildung oben dargestellt.
-
-Vorausgesetzt, dass Sie die erforderlichen Informationen in die einzelnen Stellenausschreibungen eingebettet haben und dass Sie die erforderlichen Informationen innerhalb der Benutzerprofile erfassen, wird die Erstellung und Verwaltung von Zielgruppen und Erlebnissen stark vereinfacht.
-
-**Szenario 3:** Ein Sportartikelhersteller möchte auf seiner Website Artikel zu Teams zeigen, für die sich eine Person interessiert. Für jeden Artikel könnte ein Feld mit `entity.featuredTeams` vorhanden sein, das alle in dem Artikel behandelten Teams umfasst. Für jedes Profilattribut könnte eine Liste mit Lieblingsteams existieren, die der Benutzer „abonniert“.
-
-Ein Beispiel für eine Einschlussregel könnte wie folgt lauten:
-
-Nur einschließen, wenn `entity.featuredTeam` mindestens einen Wert enthält, der mit `profile.favoriteTeams` übereinstimmt.
-
-Beachten Sie bei den folgenden Beispielen, dass mindestens ein gesamter Zeichenfolgenwert übereinstimmen muss (vollständig). Es liegt keine Übereinstimmung vor, wenn keine Zeichenfolge übereinstimmt. Beachten Sie die Entkopplung der Entitätsattribute in den Übereinstimmungsregeln. Dies ermöglicht den Abgleich zwischen verschiedenen Metadatenfeldern.
-
-Beispiele/Beschreibungen
-
-`"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics"`
-
-Gilt als Übereinstimmung, weil „Athletics“ übereinstimmt, obwohl dies bei „Red Sox“ nicht der Fall ist.
-
-`"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
-
-Gilt als Übereinstimmung, weil sowohl „Athletics“ als auch „Red Sox“ gleich ist, obwohl nicht beide Teams übereinstimmen müssen.
-
-`"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
-
-Gilt als Übereinstimmung, weil „Athletics“ übereinstimmt, obwohl dies bei „Red Sox“ nicht der Fall ist.
-
-`"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletic"`
-
-Keine Übereinstimmung, weil „Athletics“ (Plural) nicht gleich „Athletic“ (Singular) ist.
-
-Alternativ könnten Sie „enthält“ anstelle von „gleich“ verwenden, damit dies als Übereinstimmung gilt.
-
-`"entity.featuredTeam" - "Athletic" equals "profile.favoriteTeams" - "Athletics"`
-
-Stimmt nicht überein, weil „Athletic“ (Singular) nicht gleich „Athletics“ (Plural) ist.
-
-Alternativ könnten Sie „beginnt mit“ anstelle von „gleich“ verwenden, damit dies als Übereinstimmung gilt.
-
-**Szenario 4:** Die folgende Abbildung veranschaulicht die Verwendung der Operatoren „gleich“ und „ist zwischen“ zum Bewerben teurerer Artikel, die aus derselben Kategorie und von derselben Marke stammen. So kann z. B. ein Unternehmen für Sportbekleidung teurere Laufschuhe bewerben, um einen Upsell eines Besucher zu erzielen, der nach Laufschuhen sucht.
-
-![](assets/dynamic3.png)
-
-In diesem Beispiel werden folgende Regeln verwendet:
+**Beispiel 3: Upsell auf ein teureres Produkt** Angenommen, Sie sind ein Bekleidungshändler und möchten Benutzer dazu ermutigen, teurere und damit gewinnbringendere Artikel in Betracht zu ziehen. Sie können die Operatoren "Gleich"und "Ist zwischen"verwenden, um teurere Artikel zu bewerben, die aus derselben Kategorie und derselben Marke stammen. So kann ein Besucher, der ein laufendes Unternehmen sieht, teurere Laufschuhe fördern, um einen Besucher, der sich Laufschuhe ansieht, zu verkaufen.
 
 ```
+Entity Attribute Matching
 category - equals - current item's - category 
 And 
+Entity Attribute Matching
 brand - equals - current item's - brand 
 And 
+Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
->[!NOTE]
->
->Sie können den Schlüssel in einer dynamischen Promotion nicht mit mehreren Regeln ändern (die dritte Dropdown-Liste in den ersten beiden Regeln, die in der Abbildung „Aktueller Artikel“ genannt werden).
-
-**Szenario 5:** Die zweite Abbildung zeigt die Verwendung der Operatoren „gleich“ und „ist zwischen“, um teurere Elemente zu bewerben, die zu derselben Kategorie und derselben Marke und Hausmarke gehören. So könnte z. B. ein Anbieter von Bürobedarf teurere Tonerkartuschen bewerben, sowohl von derselben Marke als auch von der Hausmarke des Unternehmens, um einen Upsell eines Besuchers zu erzielen, der nach Druckern sucht.
-
-![](assets/dynamic4.png)
-
-In diesem Beispiel werden folgende Regeln verwendet:
+**Beispiel 4: Werbung für Produkte**, die mit einem Eigenetikett versehen sind. Sie können dynamische und statische Filter kombinieren, um Produkte mit einem privaten Etikett zu bewerben. So kann ein Bürolieferungsunternehmen beispielsweise Tonerkassetten der Firmenmarke fördern, um einen profitableren Verkauf für einen Besucher zu fördern, der sich Toner ansieht - und die Marken der Firmenmarke für einen gewinnbringenderen Verkauf für einen Besucher zu bewerben, der sich Stifte ansieht.
 
 ```
+Entity Attribute Matching
 category - equals - current item's - category 
-And 
-IsHouseBrand - equals - true 
-And 
-value - is between - 100% and 1000% of - current item's - value
+And
+Static Filter
+IsHouseBrand - equals - true
 ```
-
-Beachten Sie, dass in diesem Beispiel zwei dynamische Regeln und eine statische Regel verwendet werden.
-
-**Szenario 6:** Die dritte Abbildung zeigt die Verwendung des Operators „ist nicht gleich“, um eine Serie zu bewerben, die nicht mit der Serie übereinstimmt, die der Besucher sich gerade ansieht. So könnte z. B. eine Medien-Website eine Fernsehserie bewerben, die nicht mit der Serie übereinstimmt, die sich der Besucher gerade ansieht.
-
-![](assets/dynamic5.png)
-
-In diesem Beispiel wird die folgende Regel verwendet:
-
-```
-series - does not equal - current item's - series
-```
-
-**Szenario 7:** Die vierte Abbildung zeigt, wie passende Zubehörartikel für den vom Besucher zuletzt gekauften Artikel beworben werden können. Wenn z. B. jemand ein neues Fernsehgerät gekauft hat, könnten Sie auf dynamische Art und Weise ein HDMI-Kabel bewerben.
-
-![](assets/dynamic1.png)
-
-In diesem Beispiel werden folgende Regeln verwendet:
-
-```
-id - equals - last purchased item's - compatibleAccessoryids
-```
-
-**Szenario 8:** Die nächste Abbildung zeigt, wie Artikel beworben werden können, die zu einem Preis von zwischen 90 und 110 Prozent des Preises des Artikels verkauft werden, den sich der Besucher gerade ansieht. Wenn sich z. B. jemand ein Fernsehgerät ansieht, können dynamisch ähnliche Fernsehgeräte beworben werden, die sich etwa in derselben Preisklasse bewegen.
-
-![](assets/dynamic2.png)
-
-In diesem Beispiel werden folgende Regeln verwendet:
-
-```
-salesPrice - is between - 90% and 110% of - current item's - price
-```
-
-**Szenario 9:** Ziehen Sie das folgende Szenario für eine Sportmedien-Website bezüglich des Umgangs mit leeren Werten in Erwägung, wie zuvor unter [Umgang mit leeren Werten beim Filtern nach Entitätsattributübereinstimmung, Profilattributübereinstimmung und Parameterübereinstimmung](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8) erläutert:
-
-Das Inhaltsteam für eine Sportmedien-Website möchte Benutzern Inhalte zu deren Lieblingsmannschaften präsentieren. Wenn ein Benutzer eine Lieblingsmannschaft angegeben hat, sollen Medien für die jeweilige Mannschaft angezeigt werden. Wenn ein Benutzer keine Lieblingsmannschaft angegeben hat, kann die Dropdownliste „Wenn *x* leer ist“ verwendet werden, um eine der folgenden Aktionen auszuführen:
-
-* Verwenden Sie die Option [!UICONTROL Diese Filterregel ignorieren], um den Mannschaftsfilter insgesamt zu ignorieren, wie in der folgenden Abbildung dargestellt:
-
-   ![](assets/missing1.png)
-
-* Verwenden Sie die Option [!UICONTROL Keine Ergebnisse für diese Kriterien anzeigen], um keine Medien im Rahmen dieser Kriterien anzuzeigen, wie in der folgenden Abbildung dargestellt:
-
-   ![](assets/missing7.png)
-
-* Verwenden Sie die Option [!UICONTROL Statischen Wert verwenden], um Medien zu einer bestimmten Mannschaft anzuzeigen (z. B. zu den 49ers), wie in der folgenden Abbildung dargestellt:
-
-   ![](assets/missing10.png)
 
 ## Einschränkungen {#section_A889FAF794B7458CA074DEE06DD0E345}
 
