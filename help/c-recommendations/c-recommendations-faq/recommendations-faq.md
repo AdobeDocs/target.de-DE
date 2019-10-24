@@ -1,8 +1,8 @@
 ---
 description: Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Aktivitäten.
 keywords: Fehlerbehebung; häufig gestellte Fragen; FAQ; FAQs; Empfehlungen; Sonderzeichen; Attributgewichtung; Ähnlichkeit von Inhalten
-seo-description: Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Aktivitäten.
-seo-title: Recommendations-FAQs
+seo-description: Liste der häufig gestellten Fragen (FAQs) zu Adobe Target Recommendations-Aktivitäten.
+seo-title: Häufig gestellte Fragen zu Adobe Target Recommendations
 solution: Target
 title: Recommendations-FAQs
 title-outputclass: Premium
@@ -10,14 +10,14 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) FAQ zu Recommendations{#recommendations-faq}
 
-Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Aktivitäten.
+Liste der häufig gestellten Fragen (FAQs) zu Adobe Target Recommendations-Aktivitäten.
 
 ## Wie lange dauert es, bis Aktualisierungen an Elementen in meinem Katalog auf meiner Site erscheinen?
 
@@ -119,9 +119,9 @@ Dieser Gewichtungstyp ist dynamischer und basiert auf dem aktuellen „Empfehlun
 
 Target kann manchmal keine Empfehlungen anzeigen, wenn zu wenig Empfehlungen verfügbar sind.
 
-Die Anzahl der pro Kriterium generierten Werte ist die 5-fache Anzahl der im Design angegebenen Entitäten. Die Laufzeitfilterung (beispielsweise Inventar, Mbox-Attributabgleich) wird angewendet, nachdem die 5x-Werte generiert wurden. Daher ist es möglich, dass zur Bereitstellungszeit weniger als 5x-Werte vorhanden sind. Erhöhen Sie zum Abschwächen dieser Situation die Anzahl der Entitäten im Design, indem Sie zusätzliche Entitäten ausblenden.
+Die Anzahl der pro Kriterium generierten Werte ist die 3-fache Anzahl der im Design angegebenen Entitäten. Die Laufzeitfilterung (beispielsweise Inventar, Mbox-Attributabgleich) wird angewendet, nachdem die 3x-Werte generiert wurden. Daher ist es möglich, dass zur Bereitstellungszeit weniger als 3x-Werte vorhanden sind. Erhöhen Sie zum Abschwächen dieser Situation die Anzahl der Entitäten im Design, indem Sie zusätzliche Entitäten ausblenden.
 
-Das folgende JavaScript kann zu Beginn des Designs verwendet werden, um die Anzahl der angeforderten Entitäten zu erhöhen. In diesem Beispiel würde die angeforderte Anzahl von Entitäten 50 (5 x 10) betragen.
+Das folgende JavaScript kann zu Beginn des Designs verwendet werden, um die Anzahl der angeforderten Entitäten zu erhöhen. In diesem Beispiel würde die angeforderte Anzahl von Entitäten 30 (3 x 10) betragen.
 
 ```
 #foreach($entity in $entities) 
