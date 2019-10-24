@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -21,6 +21,9 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 24. Oktober 2019 | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | Text in den folgenden häufig gestellten Fragen aktualisiert: "Warum kann Target manchmal keine Empfehlungen anzeigen?" |
+|  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Es wurde ein Hinweis zu einem bekannten Problem hinzugefügt, das ältere Versionen von at.js betrifft (früher als Version 2.2.0). |
+|  | [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md) | Es wurde ein Hinweis zum Standardverhalten von Erfolgsmetriken für Aktivitäten mit A4T hinzugefügt. |
 | 22. Oktober 2019 | [Kriterien/Algorithmen ](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | Zeile für benutzerbasierte Empfehlungen hinzugefügt. |
 |  | [Kriterien](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | Neuer Abschnitt hinzugefügt: "Verwenden eines benutzerdefinierten Empfehlungsschlüssels." |
 |  | [Häufig gestellte Fragen zu Target und Zielgruppen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Neue FAQs hinzugefügt: "Wird beim Erstellen komplexer URL-Zeichenfolgen die gesamte URL ausgewertet [!DNL Target] ?" |
