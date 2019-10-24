@@ -9,7 +9,7 @@ title: Implementieren von Target ohne einen Tag-Manager
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -112,7 +112,7 @@ So laden Sie [!DNL at.js] mithilfe der API herunter.
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   Ersetzen Sie den ` < *`Clientcode`*>` durch den Clientcode aus Schritt 1.
+   Replace `client code` with the client code from Step 1.
 
    Das Ergebnis nach dem Laden dieser URL sollte in etwa wie im folgenden Beispiel aussehen:
 
@@ -132,9 +132,9 @@ So laden Sie [!DNL at.js] mithilfe der API herunter.
    https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
    ```
 
-   * Ersetzen Sie die ` < *`Administratornummer`*>` durch Ihre Administratornummer.
-   * Ersetzen Sie den ` < *`Clientcode`*>` durch den Clientcode aus Schritt 1.
-   * Ersetzen Sie die ` < *`Versionsnummer`*>` durch die gewünschte [[!DNL at.js]-Versionsnummer](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (z. B. 1.6.2).
+   * Replace `admin number` with your admin number.
+   * Replace `client code` with the client code from Step 1.
+   * Replace `version number` with the desired at.js version number (for example, 2.2).
    >[!IMPORTANT]
    >
    >Das Target-Team pflegt nur zwei Versionen von [!DNL at.js] – die aktuelle Version und die zweitneueste Version. Führen Sie bei Bedarf ein Upgrade von [!DNL at.js] durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen zu den Funktionen in den einzelnen Versionen finden Sie unter [„at.js“-Versionsdetails](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
