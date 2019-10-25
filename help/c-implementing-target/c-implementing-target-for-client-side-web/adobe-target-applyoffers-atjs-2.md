@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: adobe.target.applyOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -27,6 +27,10 @@ Mit dieser Funktion können Sie mehr als ein Angebot, das von `adobe.target.getO
 | Antwort | Objekt | Ja | Antwortobjekt von `getOffers()`.<br>Siehe Anfragetabelle unten. |
 
 ## Antwort
+
+>[!NOTE]
+>
+>Informationen zu den zulässigen Typen für alle unten aufgeführten Felder finden Sie in der Dokumentation[ zur ](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)Auslieferungs-API.
 
 | Feldname | Beschreibung |
 | --- | --- |
