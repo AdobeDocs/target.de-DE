@@ -8,7 +8,7 @@ title: Benutzerdefinierte Parameter
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -53,6 +53,7 @@ Die [Popupkarte mit Definitionsdetails](../../../c-target/c-audiences/audiences.
 ## Zu beachten {#considerations}
 
 * Zielgruppen und Aktivitäten werden für eine spezifische Mbox ausgewertet. Wenn die globale Mbox beispielsweise einen bestimmten Parameter übergibt, die regionale Mbox jedoch nicht, qualifiziert sich die mit diesem Parameter verknüpfte Aktivität/Zielgruppe nicht in der regionalen Mbox.
+* Das Targeting wird nicht anhand interner Mbox-Parameter wie mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId und mboxVersion ausgewertet.
 
 ## Schulungsvideo: Erstellen von Zielgruppen
 
