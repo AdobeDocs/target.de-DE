@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -28,6 +28,10 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 | Zeitüberschreitung | Nummer | Nein | Zeitüberschreitung der Anfrage. Wenn nicht angegeben, wird die standardmäßige at.js-Zeitüberschreitung verwendet. |
 
 ## Anfrage
+
+>[!NOTE]
+>
+>Informationen zu den zulässigen Typen für alle unten aufgeführten Felder finden Sie in der Dokumentation[ zur ](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)Auslieferungs-API.
 
 | Feldname | Erforderlich? | Einschränkungen | Beschreibung |
 | --- | --- | --- | --- |
