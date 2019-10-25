@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -28,6 +28,10 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 ## Target Standard/Premium 20.1.1
 
 Die Target Standard/Premium-Version 20.1.1 wird im Januar 2020 veröffentlicht. Das genaue Datum, die Funktionen und Verbesserungen werden hier bekannt gegeben.
+
+>[!NOTE]
+>
+>Die Target Standard/Premium-Version 19.10.2 ist für den 30. Oktober 2019 geplant.
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
