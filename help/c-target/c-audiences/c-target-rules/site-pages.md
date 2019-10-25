@@ -1,21 +1,21 @@
 ---
 description: Targeting von Besuchern, die sich auf einer bestimmten Seite befinden oder die einen bestimmten Mbox-Parameter aufweisen.
 keywords: Seiten der Site; Seiten der Target-Site; Targeting; aktuelle Seite; Targeting der aktuellen Seite; vorherige Seite; Targeting der vorherigen Seite; Zielseite; Targeting-Zielseite; mbox; Ziel-mbox
-seo-description: Targeting von Besuchern, die sich auf einer bestimmten Seite befinden oder die einen bestimmten Mbox-Parameter aufweisen.
-seo-title: Seiten der Site
+seo-description: Sie können mit Adobe Target auf Besucher abzielen, die sich auf einer bestimmten Seite befinden oder einen bestimmten mbox-Parameter haben.
+seo-title: Site-Seiten in Adobe Target
 solution: Target
 title: Seiten der Site
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
 
 # Seiten der Site{#site-pages}
 
-Targeting von Besuchern, die sich auf einer bestimmten Seite befinden oder die einen bestimmten Mbox-Parameter aufweisen.
+Sie können auf Besucher abzielen, die sich auf einer bestimmten Seite befinden oder einen bestimmten mbox-Parameter haben.
 
 >[!NOTE]
 >
@@ -56,6 +56,19 @@ Verwenden Sie:
 Siehe Abbildung unten:
 
 ![](assets/site_pages.png)
+
+## Fehlerbehebung {#ts}
+
+* Damit Zielgruppen von Einstiegsseiten ordnungsgemäß funktionieren, muss für Anforderungen der `mboxReferrer` mbox-Parameter korrekt festgelegt sein. Die JavaScript-Bibliothek "at.js"ruft von der Seite ab, die sie verwendet `mboxReferrer``document.referrer` .
+
+   Wenn diese Parameter nicht richtig eingerichtet sind, kann ein Besucher eine Aktivität verlassen, nachdem er zu einer nachfolgenden Seite navigiert hat. Wenn der Besucher zum Beispiel auf der Einstiegsseite verwendet `document.referrer` [!DNL Target] wird, aber nicht auf den nachfolgenden Seiten, kann er nicht sicherstellen, dass er in der Aktivität bleibt.
+
+   Wenn Sie auf diese Situation stoßen, führen Sie einen der folgenden Schritte aus:
+
+   * Stellen Sie sicher, dass Ihre Website `document.referrer` korrekt geladen wird.
+   * Übergeben Sie [Mbox-Parameter](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) , die für Targeting-Zwecke verwendet [!DNL Target] werden sollen.
+   * Verwenden Sie eine [A/B-Testaktivität](/help/c-activities/t-test-ab/test-ab.md) anstelle einer Einstiegsseitenaktivität. A/B-Test-Aktivitäten wechseln nicht zwischen Erlebnissen für denselben Besucher.
+   * Verwenden Sie stattdessen ein [Besucherprofil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) .
 
 ## Schulungsvideo: Erstellen von Zielgruppen
 
