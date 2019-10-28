@@ -2,13 +2,13 @@
 description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Target unterstützen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen (FAQ) und weitere hilfreiche Informationen.
 keywords: Fehlerbehebung für Target; Fehlerbehebung in Target
 seo-description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Target unterstützen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen (FAQ) und weitere hilfreiche Informationen.
-seo-title: Fehlerbehebung in Target
+seo-title: Fehlerbehebung bei Adobe Target
 solution: Target
 title: Fehlerbehebung in Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
 
 ---
 
@@ -70,7 +70,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 * [Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [Profilskriptattribute](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
+* [Site-Seiten](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## Inhalt
 
