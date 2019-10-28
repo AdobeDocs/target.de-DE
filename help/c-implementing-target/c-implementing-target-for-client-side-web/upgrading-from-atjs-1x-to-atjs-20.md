@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: Aktualisieren von at.js 1.*x* auf at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
 
 ---
 
@@ -187,7 +187,7 @@ Stellt eine Standardart zur Registrierung bestimmter Erweiterungen dar.
 
 Dies wird nicht mehr unterstützt und sollte nicht verwendet werden.
 
-## Übersicht über veraltete, neue und unterstützte Funktionen in at.js 2.0
+## Übersicht über veraltete, neue und unterstützte Funktionen in at.js 2.*x* 
 
 | Methode | Unterstützt? | Neu? | Nicht mehr verwendet?<br>(Standardinhalt wird angezeigt) |
 | --- | --- | --- | --- |
@@ -318,7 +318,7 @@ Nein, Sie müssen vor dem Aufrufen von `triggerView()` keinen Pre-hiding-Code hi
 
 ## Kompatibilität von at.js
 
-Die folgenden Tabellen erläutern die at.js. 2.0.0-Kompatibilität mit verschiedenen Aktivitätstypen, Integrationen, Funktionen und Funktionen von at.js.
+Die folgenden Tabellen erläutern die at.js. 2.*x* compatibility with different activity types, integrations, features, and at.js functions.
 
 ### Aktivitätstypen  {#types}
 
@@ -396,7 +396,7 @@ Ein weiterer wichtiger Unterschied besteht darin, dass:
 * at.js 2.*x*  - Client-Code wird als Abfragezeichenfolgenparameter gesendet, z. B.:
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-Die folgenden Abschnitte listen jeden at.js 1.*x*-Parameter, dessen Beschreibung und die entsprechende 2.0.0 JSON-Nutzlast auf (falls anwendbar):
+Die folgenden Abschnitte listen jeden at.js 1.*x* -Parameter, seine Beschreibung und die entsprechende 2.*x* JSON-Nutzlast (falls zutreffend):
 
 ### at_property
 
