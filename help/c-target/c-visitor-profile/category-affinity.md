@@ -8,7 +8,7 @@ title: Kategorieaffinität
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
 
 ---
 
@@ -131,6 +131,7 @@ Dieser Abschnitt enthält die folgenden Informationen:
    * Dritte Kategorie
    * Vierte Kategorie
    * Fünfte Kategorie
+   Die Optionen "Favoritenkategorie"und "Erste Kategorie"sind gleichwertig.
 
 1. Wählen Sie einen Auswerter aus:
 
