@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -22,6 +22,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 29. Oktober 2019 | [Ähnlichkeit von Inhalten](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Es wurde ein Hinweis hinzugefügt. |
+|  | [Vorschau Ihrer Recommendations-Aktivität anzeigen und starten](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | Neues Thema |
 | 25. Oktober 2019 | [Benutzerdefinierte Parameter](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Es wurde ein neuer Artikel unter "Überlegungen"hinzugefügt, der erklärt, dass Targeting nicht anhand interner Mbox-Parameter bewertet wird. |
 |  | [Verwenden dynamischer und statischer Einschlussregeln](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | Das Thema wurde vollständig aktualisiert und veraltete Beispiele wurden entfernt. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Es wurde ein Hinweis-Link zur Target-Bereitstellungs-API-Dokumentation hinzugefügt, der Ihnen hilft, die verfügbaren Typen für Anforderungen/Antworten (Array, Zeichenfolge usw.) zu verstehen. |
@@ -100,7 +101,6 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 |  | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Ein Hinweis wurde aktualisiert, sodass jetzt angegeben wird, wie lange der Klassifizierungsprozess dauert. |
 |  | [Vorschriften zur Privatsphäre und zum Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Das Thema wurde aktualisiert und enthält jetzt auch Informationen zum California Consumer Privacy Act (CCPA). |
 | 6. August 2019 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Versionshinweise für Target Mobile VEC SDK iOS 2.1.0 und Android 1.1.0 wurden hinzugefügt. |
-|  | [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Der folgende Abschnitt wurde aktualisiert: „Geschätzte Verarbeitungszeit für Kriterien“. |
 |  | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Informationen zur Verwendung der Metriken [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversionen] in [!DNL Analysis Workspace] wurden aktualisiert. |
 | 1. August 2019 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Eine wichtige Mitteilung zur API-Unterstützung für Enterprise-Berechtigungen wurde hinzugefügt. |
 |  | [Zugriff von Adobe I/O Integrationen auf Arbeitsbereiche gewähren und Rollen zuweisen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Neues Thema |
