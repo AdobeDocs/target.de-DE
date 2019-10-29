@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
+source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
 
 ---
 
@@ -120,7 +120,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
 ## Geschätzte Verarbeitungszeit für Kriterien  {#process-time}
 
-After saving an Activity containing a Criteria,  computes recommendations based on the selected Collection and Criteria. [!DNL Target] Diese Berechnung nimmt etwas Zeit in Anspruch. Der Zeitrahmen hängt von der ausgewählten Empfehlungslogik, dem Datumsbereich, der Anzahl der Elemente in Ihrem Katalog, der Anzahl der Verhaltensdaten Ihrer Kunden und der ausgewählten Verhaltensdatenquelle ab. Die Verhaltensdatenquelle hat den größten Einfluss auf die Verarbeitungszeit, wie im Folgenden dargestellt wird:
+Nach dem Speichern einer Aktivität, die ein Kriterium enthält, werden Empfehlungen basierend auf der ausgewählten Sammlung und den ausgewählten Kriterien [!DNL Target] berechnet. Diese Berechnung nimmt etwas Zeit in Anspruch. Der Zeitrahmen hängt von der ausgewählten Empfehlungslogik, dem Datumsbereich, der Anzahl der Elemente in Ihrem Katalog, der Anzahl der Verhaltensdaten Ihrer Kunden und der ausgewählten Verhaltensdatenquelle ab. Die Verhaltensdatenquelle hat den größten Einfluss auf die Verarbeitungszeit, wie im Folgenden dargestellt wird:
 
 ### Mboxes
 
@@ -441,6 +441,10 @@ Mithilfe der Funktion für Ähnlichkeit von Inhalten werden Artikelattribut-Schl
 Eine Erstellung von Empfehlungen anhand der Ähnlichkeit von Inhalten ist besonders bei neuen Artikeln effektiv, die bei Empfehlungen mit der Funktion *Personen, die das ansahen, sahen auch dies an* und anderen, auf historischem Verhalten von Benutzern basierenden Optionen nicht angezeigt werden. Anhand der Ähnlichkeit von Inhalten können sinnvolle Empfehlungen für neue Benutzer erstellt werden, für die noch keine historischen Daten oder Einkäufe verzeichnet wurden.
 
 Wenn Sie **[!UICONTROL Elemente]**/**[!UICONTROL Medien mit ähnlichen Attributen]** auswählen, können Sie Regeln erstellen, um die Wichtigkeit bestimmter Elementattribute beim Bestimmen von Empfehlungen zu erhöhen oder zu verringern. Bei Artikeln wie beispielsweise Büchern möchten Sie möglicherweise die Bedeutung von Attributen wie *Genre*, *Autor*, *Serie* und so weiter hervorheben, um ähnliche Bücher zu empfehlen.
+
+>[!NOTE]
+>
+>Der Algorithmus zur Ähnlichkeit von Inhalten verwendet bei der Berechnung der Ähnlichkeit zwischen Elementen möglicherweise Stichproben. Infolgedessen können die Übereinstimmungsbewertungen von Elementen je nach Ausführung des Algorithmus variieren.
 
 ![](assets/ContentSimilarity.png)
 
