@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -112,20 +112,4 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusinformationen]**, um 
 Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusnutzung]**, um eine Liste der Aktivitäten anzuzeigen, die das ausgewählte Kriterium verwenden. Die Karte führt aktive und inaktive Aktivitäten auf. Klicken Sie auf die Dropdownliste „Live-Aktivitäten“ oder „Inaktivitäten“, um die gesamte Liste von Aktivitäten anzuzeigen, die das Kriterium verwenden. Sie können auf einen Aktivitätslink klicken, um die Aktivität zur Bearbeitung zu öffnen.
 
 ![Registerkarte „Kriteriennutzung“](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
-
-## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
-
-Über das Aktivitätsdiagramm zeigen die Kriterienkarten es jetzt an, wenn die Ergebnisse zur Anzeige bereit sind. Wenn Sie wissen, wann die Ergebnisse bereit sind, können Sie bestimmen, ob Ihre Aktivität zur Liveschaltung bereit ist. Darüber hinaus wissen Sie so, ob Probleme mit den Kriterien vorliegen.
-
->[!NOTE]
->
->Informationen zu Ladezeiten finden Sie unter „Erwartete Verarbeitungszeit für Kriterien“ unter [Erstellen von Kriterien](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
-
-Folgende Abbildung zeigt das Aktivitätsdiagramm auf der Übersichtsseite einer Recommendations-Aktivität. Während des Workflows zur Aktivitätserstellung sehen Sie auch das Aktivitätsdiagramm samt den Kriterienstatus-Ergebnissen aus Schritt 2.
-
-![Kriterienstatus auf der Übersichtsseite](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
-
-Der Ergebnisstatus kann wie folgt lauten: Ergebnisse bereit, Ergebnisse nicht bereit oder Feed-Fehler. Siehe hierzu folgende Abbildung:
-
-![](assets/criteria_status_multi.png)
 
