@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
+source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 
 ---
 
@@ -22,7 +22,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 29. Oktober 2019 | [Ähnlichkeit von Inhalten](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Es wurde ein Hinweis hinzugefügt. |
-|  | [Benutzerdefinierte Parameter](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Es wurde ein neuer Artikel unter "Überlegungen"hinzugefügt, der erklärt, dass Targeting nicht anhand interner Mbox-Parameter bewertet wird. |
+| 25. Oktober 2019 | [Benutzerdefinierte Parameter](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Es wurde ein neuer Artikel unter "Überlegungen"hinzugefügt, der erklärt, dass Targeting nicht anhand interner Mbox-Parameter bewertet wird. |
 |  | [Verwenden dynamischer und statischer Einschlussregeln](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | Das Thema wurde vollständig aktualisiert und veraltete Beispiele wurden entfernt. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Es wurde ein Hinweis-Link zur Target-Bereitstellungs-API-Dokumentation hinzugefügt, der Ihnen hilft, die verfügbaren Typen für Anforderungen/Antworten (Array, Zeichenfolge usw.) zu verstehen. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Es wurde ein Hinweis-Link zur Target-Bereitstellungs-API-Dokumentation hinzugefügt, der Ihnen hilft, die verfügbaren Typen für Anforderungen/Antworten (Array, Zeichenfolge usw.) zu verstehen. |
