@@ -10,7 +10,7 @@ title-outputclass: Premium
 topic: Premium
 badge: Premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
 
 ---
 
@@ -23,6 +23,7 @@ Nachdem Sie Ihre [!UICONTROL Recommendations]-, [!UICONTROL A/B-Test]- oder [!UI
 
 Nach dem Erstellen einer Aktivität wird ein Algorithmus zum Generieren von Empfehlungen [!DNL Recommendations] ausgeführt. Die Ausführung dieses Algorithmus kann einige Stunden dauern.
 
+Sie können prüfen, ob der Algorithmus im Übersichtsdiagramm [!UICONTROL Aktivität] , in dem der Kriterienstatus aufgeführt ist, ausgeführt wurde. Die folgende Abbildung zeigt den Status im Aktivitätsdiagramm auf der Seite " [!DNL Recommendations]Übersicht[!UICONTROL  "einer ] Aktivität:
 
 ![Recommendations-Aktivitätsübersichtsseite](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
@@ -36,7 +37,7 @@ Zu den Statusergebnissen gehören die folgenden:
 * [!UICONTROL Ergebnisse nicht verfügbar]: Gibt an, dass der Algorithmus noch nicht ausgeführt wurde.
 * [!UICONTROL Feed-Fehler]: Gibt an, dass die Feed-Datei mit benutzerdefinierten Kriterien nicht abgerufen werden konnte.
 
-![Dialogfeld "Ergebnisse"](/help/c-recommendations/t-create-recs-activity/assets/results.png)
+![Dialogfeld "Ergebnisse"](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## Wie lange dauert die Ausführung des Algorithmus?
 
@@ -48,7 +49,7 @@ Die Verhaltensdatenquelle hat den größten Einfluss auf die Verarbeitungszeit, 
 
 Wenn Mboxes als Verhaltensdatenquelle ausgewählt wird, werden die Kriterien nach der Erstellung sofort ausgeführt. Je nach Menge der verwendeten Verhaltensdaten und der Größe des Katalogs kann die Ausführung des Algorithmus bis zu 12 Stunden dauern. Änderungen an der Kriterienkonfiguration bewirken normalerweise eine Neuausführung des Algorithmus. Je nach vorgenommener Änderung stehen die zuvor berechneten Empfehlungen möglicherweise erst nach Abschluss einer erneuten Ausführung zur Verfügung oder bei größeren Änderungen sind nur Backup- oder Standardinhalte verfügbar, bis eine erneute Ausführung abgeschlossen ist. Wenn ein Algorithmus nicht geändert wird, wird er von [!DNL Target] je nach ausgewähltem Datumsbereich automatisch alle 12 bis 48 Stunden erneut ausgeführt.
 
-## Adobe Analytics
+### Adobe Analytics
 
 Wenn das Kriterium [!DNL Adobe Analytics] als Verhaltens-Datenquelle verwendet, hängt der Zeitpunkt der Verfügbarkeit der Kriterien nach deren Erstellung davon ab, ob die ausgewählte Report Suite und das Lookback-Fenster bereits für andere Kriterien verwendet wurden.
 
