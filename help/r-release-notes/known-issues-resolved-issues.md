@@ -8,7 +8,7 @@ title: Bekannte Probleme und gelöste Probleme
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -24,6 +24,10 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 ## Bekannte Probleme {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
+
+### Seitenbereitstellung {#page-delivery}
+
+Wenn Sie eine Vorlagenregel wie URL enthält (/Checkout, /Warenkorb) bei der [Seitenauslieferung](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)hinzufügen, werden Ihren Regeln zusätzliche Leerzeichen vorangestellt. Dies ist ein kosmetisches Problem und hat keinen Einfluss auf die Erstellung und Bereitstellung von Zielgruppendefinitionen. (TGT-35916)
 
 ### Vorschaulinks für Aktivitäts-QAs {#preview}
 
