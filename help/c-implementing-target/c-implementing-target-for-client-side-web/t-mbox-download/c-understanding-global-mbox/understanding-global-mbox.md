@@ -1,22 +1,22 @@
 ---
-description: Informationen über die globale mbox, eine Bezeichnung für einen einzelnen Server-Aufruf, der oben auf jeder Webseite der Target-Implementierung durchgeführt wird.
+description: Informationen zur globalen Mbox, einem Namen, der verwendet wird, um auf den einzelnen Server-Aufruf zu verweisen, der oben auf jeder Webseite in Ihrer Adobe Target-Implementierung erfolgt.
 keywords: globale Mbox;mbox.js implementieren;at.js implementieren
-seo-description: Informationen über die globale mbox, eine Bezeichnung für einen einzelnen Server-Aufruf, der oben auf jeder Webseite der Target-Implementierung durchgeführt wird.
+seo-description: Informationen zur globalen Mbox, einem Namen, der verwendet wird, um auf den einzelnen Server-Aufruf zu verweisen, der oben auf jeder Webseite in Ihrer Adobe Target-Implementierung erfolgt.
 seo-title: Erläuterung der globalen Mbox
 solution: Target
 subtopic: Erste Schritte
-title: Erläuterung der globalen Mbox
+title: Erläuterung der globalen Mbox in Adobe Target
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
 
 # Erläuterung der globalen Mbox{#understand-the-global-mbox}
 
-Informationen über die globale mbox, eine Bezeichnung für einen einzelnen Server-Aufruf, der oben auf jeder Webseite der Target-Implementierung durchgeführt wird.
+Informationen zur globalen Mbox, einem Namen, der verwendet wird, um auf den einzelnen Server-Aufruf zu verweisen, der oben auf jeder Webseite in Ihrer Adobe Target-Implementierung erfolgt.
 
 Standardmäßig erhält die globale Mbox den Namen [!DNL target-global-mbox]. Sie kann für Ihr Konto bei Bedarf aber auch umbenannt werden.
 
