@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: Aktualisieren von at.js 1.*x* auf at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
+source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
 
 ---
 
@@ -316,6 +316,19 @@ Wenn ein Prefetch-Aufruf an das [!DNL Target]-Backend erfolgt, werden die Profil
 
 Nein, Sie müssen vor dem Aufrufen von `triggerView()` keinen Pre-hiding-Code hinzufügen. at.js 2.*x*  verwaltet die Pre-Hiding- und Flacker-Logik, bevor die Ansicht angezeigt und angewendet wird.
 
+### Welches at.js 1.*x* -Parameter zum Erstellen von Zielgruppen werden in at.js 2 nicht unterstützt.*x*? {#audience-parameters}
+
+Die folgenden at.js 1.x-Parameter werden derzeit bei Verwendung von at.js 2 für die Zielgruppenerstellung *NICHT* unterstützt.*x*:
+
+* browserHeight
+* browserWidth
+* browserTimeOffset
+* screenHeight
+* screenWidth
+* screenOrientation
+* colorDepth
+* devicePixelRatio
+
 ## Kompatibilität von at.js
 
 Die folgenden Tabellen erläutern die at.js. 2.*x* compatibility with different activity types, integrations, features, and at.js functions.
@@ -411,112 +424,6 @@ Wird für [Unternehmens-Benutzerberechtigungen verwendet](/help/administrating-t
     "token": "1213213123122313121"
   }
   ....
-}
-```
-
-### browserHeight
-
-(at.js 1.*x*-Parameter)
-
-Die Höhe des Browserfensters des Besuchers.
-
-at.js 2.*x*  JSON-Payload:
-
-```
-{
-  "context": {
-    "window": {
-       "height": 200
-    }
-  }
-}
-```
-
-### browserWidth
-
-(at.js 1.*x*-Parameter)
-
-Die Breite des Browserfensters des Besuchers.
-
-at.js 2.*x*  JSON-Payload:
-
-```
-{
-  "context": {
-    "window": {
-       "width": 200
-    }
-  }
-}
-```
-
-### browserTimeOffset
-
-(at.js 1.*x*-Parameter)
-
-Der Zeitzonenversatz.
-
-at.js 2.*x*  JSON-Payload:
-
-```
-{
-  "context": {
-    "timeOffsetInMinutes": -480
-  }
-}
-```
-
-### screenHeight
-
-(at.js 1.*x*-Parameter)
-
-Die Höhe des Besucherbildschirms.
-
-at.js 2.*x*  JSON-Payload:
-
-```
-{
-  "context": {
-    "screen": {
-       "height": 200
-    }
-  }
-}
-```
-
-### screenWidth
-
-(at.js 1.*x*-Parameter)
-
-Die Breite des Besucherbildschirms.
-
-at.js 2.*x*  JSON-Payload:
-
-```
-{
-  "context": {
-    "screen": {
-       "width": 200
-    }
-  }
-}
-```
-
-### colorDepth
-
-(at.js 1.*x*-Parameter)
-
-Die Farbtiefe des Besucherbildschirms.
-
-at.js 2.*x*  JSON-Payload:
-
-```
-{
-  "context": {
-    "screen": {
-       "colorDepth": 24
-    }
-  }
 }
 ```
 
