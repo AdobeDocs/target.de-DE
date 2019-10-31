@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
 
 ---
 
@@ -21,6 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 30. Oktober 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Version Target Premium 19.10.2 (31. Oktober 2019) hinzugefügt. |
 | 29. Oktober 2019 | [Ähnlichkeit von Inhalten](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Es wurde ein Hinweis hinzugefügt. |
 |  | [Vorschau Ihrer Recommendations-Aktivität anzeigen und starten](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | Neues Thema |
 | 25. Oktober 2019 | [Benutzerdefinierte Parameter](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Es wurde ein neuer Artikel unter "Überlegungen"hinzugefügt, der erklärt, dass Targeting nicht anhand interner Mbox-Parameter bewertet wird. |
