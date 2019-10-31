@@ -7,7 +7,7 @@ solution: Target
 title: Versionshinweise - SDK für Target Node.js
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
+source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
 # Versionshinweise - SDK für Target Node.js
 
 Versionshinweise zum [Adobe Target-SDK](https://github.com/adobe/target-nodejs-sdk)"Node.js".
+
+Mit dem SDK "Target Node.js"können Sie [!DNL Target] serverseitig bereitstellen.
+
+Dieses Node.js-SDK unterstützt Sie bei der einfachen Integration [!DNL Target] mit anderen [!DNL Adobe Experience Cloud] Lösungen, z. B. [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]und [!DNL Adobe Audience Manager].
+
+Das Node.js-SDK führt Best Practices ein und entfernt bei der Integration mit [!DNL Target] über unsere Bereitstellungs-API Komplexität, sodass sich Ihre Entwicklungsteams auf die Geschäftslogik konzentrieren können.
 
 ## Version 1.0.0 (9. Oktober 2019)
 
