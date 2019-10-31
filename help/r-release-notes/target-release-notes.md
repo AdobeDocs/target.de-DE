@@ -8,7 +8,7 @@ title: Target-Versionshinweise (Vorabversion)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
 
 ---
 
@@ -17,13 +17,19 @@ source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen für die neuesten oder kommenden [!DNL Adobe Target]-Versionen.
 
-**Zuletzt aktualisiert am: 23. Oktober 2019**
+**Zuletzt aktualisiert am: 230. Oktober 2019**
 
 >[!NOTE]
 >
 >Diese Versionshinweise enthalten Vorabversionsinformationen. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden. Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Timing der Versionen identisch sein oder abweichen.
 >
 >Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+
+## Target Standard/Premium 19.10.2 (31. Oktober 2019)
+
+| Funktion  / Verbesserung | Beschreibung |
+| --- | --- |
+| ![Premium-Zeichen](/help/assets/premium.png) Arbeiten mit Attributen mit mehreren Werten | Manchmal möchten Sie mit einem Feld mit mehreren Werten arbeiten. Sehen Sie sich folgende Beispiele an:<ul><li>Sie bieten den Benutzern Filme an. Ein Film hat mehrere Schauspieler.</li><li>Sie verkaufen Tickets für Konzerte. Ein Benutzer hat mehrere Lieblingsbands.</li><li>Du verkaufst Kleidung. Ein Hemd ist in verschiedenen Größen erhältlich.</li></ul>Um Empfehlungen in diesen Szenarien zu bearbeiten, können Sie Daten mit mehreren Werten an Target Recommendations weiterleiten und spezielle Operatoren mit mehreren Werten verwenden. |
 
 ## Target Standard/Premium 20.1.1
 
