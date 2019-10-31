@@ -8,7 +8,7 @@ title: Target-Versionshinweise (aktuell)
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
 
 ---
 
@@ -18,6 +18,12 @@ source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen für jede Target Standard- und Target Premium-Version. Zusätzlich werden gegebenenfalls Versionshinweise für Target-APIs, SDKs, die JavaScript-Bibliothek (at.js) und andere Plattformänderungen einbezogen.
 
 Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+
+## Target-Plattform (31. Oktober 2019)
+
+| Funktion  / Verbesserung | Beschreibung |
+| --- | --- |
+| Java SDK | Mit dem [!DNL Target] Java-SDK können Sie [!DNL Target] serverseitig bereitstellen. Mit diesem Java-SDK können Sie problemlos [!DNL Target] mit anderen [!DNL Adobe Experience Cloud] Lösungen wie dem [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]und [!DNL Adobe Audience Manager]dem<br>Das Java-SDK führt Best Practices ein und entfernt bei der Integration mit [!DNL Target] unserer Bereitstellungs-API Komplexitäten, sodass sich Ihre Entwicklungsteams auf die Geschäftslogik konzentrieren können. Die folgenden bemerkenswerten Funktionen werden in der neuesten Version eingeführt:<ul><li>Unterstützung für Vorab-Abruf und Benachrichtigungen, die eine Leistungsoptimierung durch Zwischenspeicherung ermöglichen.</li><li>Unterstützung für die Leistungsoptimierung, wenn Sie eine Hybrid-Integration von sowohl auf Ihren Webseiten als auch auf [!DNL Target] der Serverseite haben. Wir führen eine Einstellung ein, `serverState` die von Erlebnissen gefüllt wird, die serverseitig abgerufen werden, sodass at.js 2.2 keinen zusätzlichen Serveraufruf mehr ausführt, um die Erlebnisse abzurufen. Dieser Ansatz optimiert die Seitenladeleistung.</li><li>Unterstützung für das Abrufen von VEC-erstellten Aktivitäten über das Java-SDK, das durch die neue API zur Auslieferung ermöglicht wird.</li><li>Open Source, damit Ihre Entwickler zum Java-SDK[von ](https://github.com/adobe/target-java-sdk)Target beitragen können.</li></ul>Weitere Informationen finden Sie unter [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md). |
 
 ## Target Standard/Premium 19.10.2 (31. Oktober 2019)
 
