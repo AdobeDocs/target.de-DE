@@ -8,7 +8,7 @@ title: 'Server-seitig: Target-Implementierung'
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: afec96b2bec18048ab7132232711d2c14769c46c
 
 ---
 
@@ -28,7 +28,7 @@ Das Erlebnis muss nicht in einem Browser angezeigt werden. Das Erlebnis kann in 
 
 Die folgenden Abschnitte enthalten weitere Informationen zu den verschiedenen APIs und dem NodeJS SDK:
 
-## APIs für die Serverbereitstellung
+## Server-seitige Bereitstellungs-APIs
 
 Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
 
@@ -50,6 +50,13 @@ Das Node.js SDK ist ein ausgereiftes Software Development Kit, das die Komplexit
 
 * **** Unterstützung für Prefetch und Benachrichtigungen, die eine Leistungsoptimierung durch Zwischenspeicherung ermöglichen: Sie können das SDK Node.js verwenden, um Erlebnisse abzurufen und sie lokal auf Ihrem Node.js-Server zu zwischenspeichern, um Serveraufrufe zu minimieren [!DNL Target] und Ihre Anwendungsleistung zu optimieren.
 * **** Möglichkeit zum Abrufen von VEC-erstellten Aktivitäten: Rufen Sie serverseitig von VEC erstellte Aktivitäten ab. Die Antwort, die VEC-erstellte Aktivitäten enthält, enthält Selektoren, mit denen nur Teile Ihrer Seite, die personalisiert werden müssen, vorausgeblendet werden können. Auf diese Weise können Sie die Metrik[" ](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)Erster Inhalt"Ihrer Seite optimieren, die ein wichtiger KPI für Ihr Unternehmen ist, um einen hohen Wert im [Google PageRank](https://en.wikipedia.org/wiki/PageRank) -System zu erzielen.
+
+## Target Java SDK
+
+Das Java SDK ist ein ausgereiftes Software Development Kit, das die Komplexität der Verwaltung von Cookies, Sitzungen und Integration in [!DNL Adobe Experience Cloud] Lösungen wie [!DNL Adobe Analytics], die [!DNL Experience Cloud Visitor ID Service]und [!DNL Adobe Audience Manager]die Hinter den Kulissen verwendet das Java SDK die `/rest/v1/delivery` API. Im Folgenden finden Sie einige wichtige Funktionen, die vom Java SDK unterstützt werden:
+
+* **Unterstützung für Prefetch und Benachrichtigungen, die eine Leistungsoptimierung durch Zwischenspeicherung** ermöglichen: Sie können JavaSDK verwenden, um Erlebnisse abzurufen und sie lokal auf Ihrem Java-Server zwischenspeichern, um Serveraufrufe zu minimieren [!DNL Target] und Ihre Anwendungsleistung zu optimieren.
+* **Möglichkeit zum Abrufen von VEC-erstellten Aktivitäten**: Rufen Sie serverseitig von VEC erstellte Aktivitäten ab. Die Antwort, die VEC-erstellte Aktivitäten enthält, enthält Selektoren, mit denen nur Teile Ihrer Seite, die personalisiert werden müssen, vorausgeblendet werden können. Auf diese Weise können Sie die Metrik " [Erster Inhaltsstoff](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) "Ihrer Seite optimieren, die ein wichtiger KPI für Ihr Unternehmen ist, um einen hohen Wert im [Google PageRank](https://en.wikipedia.org/wiki/PageRank) -System zu erzielen.
 
 ## Target Recommendations-APIs
 
