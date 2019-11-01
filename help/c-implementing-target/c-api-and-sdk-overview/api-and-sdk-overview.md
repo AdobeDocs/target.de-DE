@@ -8,7 +8,7 @@ title: 'Server-seitig: Target-Implementierung'
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: afec96b2bec18048ab7132232711d2c14769c46c
+source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 ---
 
@@ -52,6 +52,8 @@ Das Node.js SDK ist ein ausgereiftes Software Development Kit, das die Komplexit
 * **** Möglichkeit zum Abrufen von VEC-erstellten Aktivitäten: Rufen Sie serverseitig von VEC erstellte Aktivitäten ab. Die Antwort, die VEC-erstellte Aktivitäten enthält, enthält Selektoren, mit denen nur Teile Ihrer Seite, die personalisiert werden müssen, vorausgeblendet werden können. Auf diese Weise können Sie die Metrik[" ](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)Erster Inhalt"Ihrer Seite optimieren, die ein wichtiger KPI für Ihr Unternehmen ist, um einen hohen Wert im [Google PageRank](https://en.wikipedia.org/wiki/PageRank) -System zu erzielen.
 
 ## Target Java SDK
+
+Link: Java SDK [für Target](https://github.com/adobe/target-java-sdk)
 
 Das Java SDK ist ein ausgereiftes Software Development Kit, das die Komplexität der Verwaltung von Cookies, Sitzungen und Integration in [!DNL Adobe Experience Cloud] Lösungen wie [!DNL Adobe Analytics], die [!DNL Experience Cloud Visitor ID Service]und [!DNL Adobe Audience Manager]die Hinter den Kulissen verwendet das Java SDK die `/rest/v1/delivery` API. Im Folgenden finden Sie einige wichtige Funktionen, die vom Java SDK unterstützt werden:
 
