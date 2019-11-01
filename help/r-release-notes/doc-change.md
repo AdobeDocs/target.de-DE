@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 ---
 
@@ -23,7 +23,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 | --- | --- | --- |
 | 31. Oktober 2019 | [Arbeiten mit Attributen mit mehreren Werten](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Neues Thema |
 |  | [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Neues Thema |
-|  | [Aktualisieren von at.js 1.*x* auf at.js 2.*x* ](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | Neuer Abschnitt hinzugefügt: "Welches at.js 1.*x* -Parameter zum Erstellen von Zielgruppen werden in at.js 2 nicht unterstützt.*x*?" |
+|  | [Aktualisieren von at.js 1.x auf at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | Neuer Abschnitt hinzugefügt: "Welches at.js 1.*x* -Parameter zum Erstellen von Zielgruppen werden in at.js 2 nicht unterstützt.*x*?" |
 |  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde ein neues bekanntes Problem mit zusätzlichen Leerzeichen hinzugefügt, die zu Vorlagenregeln hinzugefügt werden. |
 |  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version Target Premium 19.10.2 und zur Target Java SDK-Version hinzugefügt. |
 | 30. Oktober 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur kommenden Target Premium-Version 19.10.2 (31. Oktober 2019) hinzugefügt. |
