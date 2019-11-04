@@ -8,7 +8,7 @@ subtopic: Erste Schritte
 title: Häufig gestellte Fragen zu „at.js“
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 ---
 
@@ -204,6 +204,8 @@ Diese Nachrichten stehen in keiner Verbindung zur [!DNL at.js]-Funktionalität. 
 
 Nachfolgend finden Sie mögliche Grundursachen für diesen Warnhinweis:
 
+* Die Seite wird dynamisch erstellt und at.js kann das Element nicht finden.
+* Der Benutzer befindet sich in einem langsamen Netzwerk und at.js kann den Selektor im DOM nicht finden.
 * Die Seitenstruktur, auf der diese Aktivität ausgeführt wird, wurde geändert. Wenn Sie die Aktivität erneut im Visual Experience Composer (VEC) öffnen, sollte Ihnen ein Warnhinweis angezeigt werden. Sie sollten die Aktivität aktualisieren, damit alle erforderlichen Elemente gefunden werden können.
 * Die zugrundeliegende Seite ist Teil einer Einzelseiten-App (SPA) oder die Seite enthält Elemente, die weiter unten auf der Seite auftauchen und der „Selektor-Polling-Mechanismus“ von [!DNL at.js] kann diese Elemente nicht finden. Es ist unter Umständen hilfreich, den `selectorsPollingTimeout` zu erhöhen. Weitere Informationen finden Sie unter [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Eine beliebige Klick-Tracking-Metrik versucht, sich zu jeder Seite hinzuzufügen, unabhängig von der URL, in der die Metrik eingerichtet wurde. Diese Situation ist zwar harmlos, hat aber viele dieser Warnhinweise zur Folge. Neuere Versionen von [!DNL at.js] versuchen, diese Warnhinweise zu unterdrücken. Viele Kunden nutzen jedoch noch ältere Versionen von [!DNL at.js] oder [!DNL mbox.js].
