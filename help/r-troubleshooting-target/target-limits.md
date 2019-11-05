@@ -8,7 +8,7 @@ title: Beschränkungen
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: ce1202589faa4328ee74d15c7690552cfd9fde86
 
 ---
 
@@ -37,9 +37,7 @@ Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgrup
 
 ## Zielgruppennamen
 
-**Limit**: 256 Zeichen.
-
-Werte mit mehr als 256 Zeichen werden gekürzt.
+**Limit**: 255 Zeichen.
 
 ## Zielgruppen
 
@@ -47,7 +45,7 @@ Werte mit mehr als 256 Zeichen werden gekürzt.
 
 ## categoryId-Parameter
 
-**Limit**: 250 Zeichen.
+**Limit**: 128 Zeichen.
 
 ## Kundenattributnamen
 
@@ -80,7 +78,7 @@ Bei GET-Anforderungen beträgt der Grenzwert für das Back-End zwar 5 KB, aufgru
 
 ## Erlebnisnamen
 
-**Limit**: 20 Zeichen.
+**Limit**: 50 Zeichen.
 
 ## Erlebnisse pro Aktivität
 
@@ -217,8 +215,9 @@ Dies bezieht sich auf die Anzahl der durch eine Zeile getrennten Werte im Target
 
 ## Targeting-Regeln
 
-**Empfohlenes Limit**: 2.500 einmalige Werte pro Targeting-Regel.
+**Empfohlene Beschränkung**: 2.500 Zeichen pro Targeting-Regelwert.
 
 **Empfohlenes Limit**: 30.000 einmalige Werte pro Zielgruppe in Targeting-Regeln.
 
 **Empfohlenes Limit**: 100.000 einmalige Werte für Targeting-Regeln pro Aktivität.
+
