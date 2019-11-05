@@ -8,7 +8,7 @@ title: Dokumentationsänderungen
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -21,6 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 5. November 2019 | [Site-Seiten](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Der Text im Abschnitt "Fehlerbehebung"wurde aktualisiert. |
 | 4. November 2019 | [Häufig gestellte Fragen zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Text unter den folgenden häufig gestellten Fragen aktualisiert: "Warum sehe ich Warnmeldungen wie "Aktionen mit fehlenden Selektoren"?" |
 | 31. Oktober 2019 | [Arbeiten mit Attributen mit mehreren Werten](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Neues Thema |
 |  | [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Neues Thema |
