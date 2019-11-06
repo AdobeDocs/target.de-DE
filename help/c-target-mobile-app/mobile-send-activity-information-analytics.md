@@ -1,29 +1,30 @@
 ---
 description: In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinformationen an Adobe Analytics für postAdHoc-Segmentierung senden.
-seo-description: In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinformationen an Adobe Analytics für postAdHoc-Segmentierung senden.
-seo-title: Senden von Aktivitätsinformationen an Adobe Analytics
+keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
+seo-description: In diesem Abschnitt wird beschrieben, wie Sie Adobe Target-Aktivitätsinformationen für mobile Apps zur postAhoc-Segmentierung an Adobe Analytics senden.
+seo-title: Adobe Target-Aktivitätsinformationen an Adobe Analytics senden
 title: Senden von Aktivitätsinformationen an Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5ba619bc501b7421f3aed0300a35ae8ed798a884
 
 ---
 
 
 # Senden von Aktivitätsinformationen an Adobe Analytics{#send-activity-information-to-adobe-analytics}
 
-In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinformationen an Adobe Analytics für postAdHoc-Segmentierung senden.
+This section describes how to send [!DNL Target] mobile app activity information to Adobe [!DNL Analytics] for post hoc segmentation.
 
 **Voraussetzungen**
 
-* Für diese Integration müssen Analytics und Target mit dem mobilen SDK implementiert sein.
-* Stellen Sie sicher, dass Ihre Report Suite aktiviert ist, um Aktivitätsinformationen aus Target zu erhalten.
+* This integration requires that [!DNL Analytics] and [!DNL Target] are implemented using the mobile SDK.
+* Ensure that your report suite is enabled to receive activity information from [!DNL Target].
 
-   Dies erfolgt normalerweise durch Hinzufügen des Target-Kunden-Codes zur Analytics Report Suite. Dies kann bereits aktiviert sein, wenn Sie die SiteCatalyst-Test&amp;Target-Integration für Webaktivitäten verwenden. Wenden Sie sich an den Kundendienst von Adobe, wenn Sie Fragen zu diesem Schritt haben.
+   This is usually done by adding the [!DNL Target] client code to the [!DNL Analytics] report suite. Dies kann bereits aktiviert sein, wenn Sie die SiteCatalyst-Test&amp;Target-Integration für Webaktivitäten verwenden. Wenden Sie sich an den Kundendienst von Adobe, wenn Sie Fragen zu diesem Schritt haben.
 
 1. Rufen Sie die Aktivitätsinformationen ab.
 
-   Wenn Sie in Ihren Erlebnisinhalt eine Zeichenfolge wie die folgende einfügen, gibt Target die Kampagneninformationen zurück, die Sie an Analytics senden können:
+   If you include a string like the following in your experience content, [!DNL Target] returns the activity information that you can send to [!DNL Analytics]:
 
    ```
    ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
@@ -39,9 +40,9 @@ In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinfor
    }
    ```
 
-   In diesem Beispiel wird ein Knoten mit der Variable `tntVal` hinzugefügt, um die Aktivitätsinformationen abzurufen. Fügen Sie einen ähnlichen Code für die anderen Erlebnisse mit einem passenden Titel und einer passenden Meldung hinzu.
+   In this example, a node with the variable `tntVal` is added to obtain the activity information. Fügen Sie einen ähnlichen Code für die anderen Erlebnisse mit einem passenden Titel und einer passenden Meldung hinzu.
 
-   Diese Zeichenfolge liefert eine Zahl (z. B. 115110:0:0) in der Antwort von Target. Dies zeigt die Aktivitäts-ID, Erlebnis-ID und den Traffic-Typ an. Es folgt eine Beispielantwort von Target:
+   Diese Zeichenfolge liefert eine Zahl (z. B. 115110:0:0) in der Antwort von [!DNL Target]. Dies zeigt die Aktivitäts-ID, Erlebnis-ID und den Traffic-Typ an. The following is a sample response from [!DNL Target]:
 
    ```
    { 
@@ -53,12 +54,13 @@ In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinfor
 
 1. Analysieren Sie das JSON-Objekt.
 
-   Analysieren Sie die Antwort, die von Target im Callback zurückgegeben wurde. Sie können NSJSONSerialization verwenden, um diese Antwort zu analysieren und sie in einem Dict oder Array zu speichern.
+   Parse the response that came back from [!DNL Target] in the callback. You can use `NSJSONSerialization` to parse this response and store it in a dictionary or an array.
 
    Weitere Informationen finden Sie in der [NSJSONSerialization-Dokumentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) .
-1. Daten an Analytics senden.
 
-   Fügen Sie die analysierten Aktivitätsinformationen (wie `tntVal` in der obigen Antwort) Ihrem Kontextdatenobjekt in einem Analytics-Aufruf hinzu. Dieser Analytics-Aufruf mit den Kontextdaten kann sofort ausgelöst werden oder warten, bis der nächste Analytics-Aufruf ausgelöst wird.
+1. Send the data to [!DNL Analytics].
+
+   Add the parsed activity information (such as `tntVal` in the above response) to your context data object in an [!DNL Analytics] call. This [!DNL Analytics] call containing the context data can be fired immediately or it can wait until the next [!DNL Analytics] call is fired.
 
    Dieser Aufruf kann beispielsweise im Callback des Aufrufs `targetLoadRequest` ausgelöst werden:
 
@@ -69,5 +71,5 @@ In diesem Abschnitt wird beschrieben, wie Sie Target Mobile App-Aktivitätsinfor
 
    >[!NOTE]
    >
-   >`&&tnt` ist ein reservierter Ereignisschlüssel im mobilen SDK. Die Post-Klassifizierung der `tntVal`-Variable in Analytics funktioniert im mobilen SDK genauso wie im Internet (JavaScript). Sobald die Informationen in Analytics verarbeitet werden, sollten Sie Aktivitäten- und Erlebnisnamen in der Benutzeroberfläche von Analytics sehen.
+   >`&&tnt` ist ein reservierter Ereignisschlüssel im mobilen SDK. Die Post-Klassifizierung der `tntVal`-Variable funktioniert im mobilen SDK genauso wie im Internet (JavaScript). [!DNL Analytics] After the information is processed in [!DNL Analytics], you should see activity and experience names in the [!DNL Analytics] interface.
 
