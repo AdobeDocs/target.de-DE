@@ -1,14 +1,11 @@
 ---
-description: Auf dieser Seite sind die Änderungen bei jeder Version von mbox.js aufgeführt.
 keywords: mbox.js-Änderungen;mbox.js-Versionen
-seo-description: Auf dieser Seite sind die Änderungen bei jeder Version von mbox.js aufgeführt.
-seo-title: „mbox.js“-Versionsdetails
-solution: Target
-subtopic: Erste Schritte
+description: Auf dieser Seite sind die Änderungen bei jeder Version von mbox.js aufgeführt.
 title: „mbox.js“-Versionsdetails
+subtopic: Erste Schritte
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
