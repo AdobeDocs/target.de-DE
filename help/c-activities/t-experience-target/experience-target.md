@@ -1,13 +1,10 @@
 ---
-description: Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basierend auf einem Satz aus vermarkterdefinierten Regeln und Kriterien bereitgestellt.
 keywords: Targeting;Erlebnis-Targeting;XT;Landingpage;Landingpage-Kampagne
-seo-description: Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basierend auf einem Satz aus vermarkterdefinierten Regeln und Kriterien bereitgestellt.
-seo-title: Erlebnis-Targeting
-solution: Target
+description: Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basierend auf einem Satz aus vermarkterdefinierten Regeln und Kriterien bereitgestellt.
 title: Erlebnis-Targeting
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
