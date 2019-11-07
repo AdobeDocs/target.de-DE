@@ -1,14 +1,11 @@
 ---
-description: In diesem Artikel werden gängige Integrationen mit Target und der jeweilige Status der Unterstützung mit „at.js“ beschrieben.
 keywords: at.js-Integration;unterstützte Integrationen;nicht unterstützte Integrationen;Drittanbieter-Integrationen
-seo-description: In diesem Artikel werden gängige Integrationen mit Target und der jeweilige Status der Unterstützung mit „at.js“ beschrieben.
-seo-title: „at.js“-Integrationen
-solution: Target
+description: In diesem Artikel werden gängige Integrationen mit Target und der jeweilige Status der Unterstützung mit „at.js“ beschrieben.
 title: „at.js“-Integrationen
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
