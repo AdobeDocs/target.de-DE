@@ -1,15 +1,12 @@
 ---
-description: Besucherprofile enthalten Informationen darüber, wie Besucher Ihre Seiten und andere optimierte Inhaltsverzeichnisse verwenden.
 keywords: Übersicht und Referenz
-seo-description: Besucherprofile enthalten Informationen darüber, wie Besucher Ihre Seiten und andere optimierte Inhaltsverzeichnisse verwenden.
-seo-title: Besucherprofile
-solution: Target
-subtopic: Erste Schritte
+description: Besucherprofile enthalten Informationen darüber, wie Besucher Ihre Seiten und andere optimierte Inhaltsverzeichnisse verwenden.
 title: Besucherprofile
+subtopic: Erste Schritte
 topic: Standard
 uuid: 09ffd9ca-5544-4ea1-bb0c-b20e42e6bcf6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
