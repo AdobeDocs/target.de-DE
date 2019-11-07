@@ -1,13 +1,11 @@
 ---
-description: Verwenden Sie in multivariaten Tests Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
 keywords: Multivarianz;MVT;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
-seo-description: Verwenden Sie in multivariaten Tests Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
-seo-title: Festlegen von Metriken
-solution: Target,Standard
+description: Verwenden Sie in multivariaten Tests Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
 title: Festlegen von Metriken
+solution: Target,Standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
