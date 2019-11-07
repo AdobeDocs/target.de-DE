@@ -1,16 +1,10 @@
 ---
-description: Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlungsvorlagen anzupassen.
 keywords: Benutzerdefinierter Entwurf; Geschwindigkeit; Dezimal; Komma; Entwurf anpassen
-seo-description: Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlungsvorlagen anzupassen.
-seo-title: Anpassen eines Designs mithilfe von Velocity
-solution: Target
+description: Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlungsvorlagen anzupassen.
 title: Anpassen eines Designs mithilfe von Velocity
-title-outputclass: premium
-topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
