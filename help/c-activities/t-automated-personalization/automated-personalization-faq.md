@@ -1,16 +1,10 @@
 ---
-description: Liste häufig gestellter Fragen zur automatisierten Personalisierung (AP).
 keywords: Fehlerbehebung;häufig gestellte Fragen;FAQs;automatisierte Personalisierung
-seo-description: Liste häufig gestellter Fragen zur automatisierten Personalisierung (AP).
-seo-title: Häufig gestellte Fragen zur automatisierten Personalisierung
-solution: Target
+description: Liste häufig gestellter Fragen zur automatisierten Personalisierung (AP).
 title: Häufig gestellte Fragen zur automatisierten Personalisierung
-title-outputclass: Premium
-topic: Premium
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
-badge: Premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
