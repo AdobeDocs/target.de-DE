@@ -1,14 +1,11 @@
 ---
-description: Die Migration von „mbox.js“ zu „at.js“ ist ein unkomplizierter Vorgang.
 keywords: Target;at.js;Migration zu at.js;Vorbereitung;at.js prüfen;at.js integrieren
-seo-description: Die Migration von „mbox.js“ zu „at.js“ ist ein unkomplizierter Vorgang.
-seo-title: Migration von „mbox.js“ zu „at.js“
-solution: Target
+description: Die Migration von „mbox.js“ zu „at.js“ ist ein unkomplizierter Vorgang.
 title: Migration von „mbox.js“ zu „at.js“
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
