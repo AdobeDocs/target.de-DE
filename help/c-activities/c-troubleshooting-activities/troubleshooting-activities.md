@@ -1,14 +1,11 @@
 ---
-description: Wenn Ihre Aktivität nicht auf Ihrer Site erscheint, helfen Ihnen diese Empfehlungen zur Fehlerbehebung vielleicht bei der Suche nach Ihrer Lösung.
 keywords: Fehlerbehebung in Target;Problembehebung in Target;Standardinhalte;Test nicht verfügbar;Aktivität nicht verfügbar;Targeting funktioniert nicht;vorheriges Erlebnis erscheint;kann keine Aktivitäten erstellen;Aktivitäten erstellen;Seitenstruktur geändert;Seitenstruktur modifiziert;Fehlermeldung;Fehler beim Löschen von Profilskript;AJAX funktioniert nicht
-seo-description: Wenn Ihre Aktivität nicht auf Ihrer Site erscheint, helfen Ihnen diese Empfehlungen zur Fehlerbehebung vielleicht bei der Suche nach Ihrer Lösung.
-seo-title: Fehlerbehebung bei Aktivitäten
-solution: Target
+description: Wenn Ihre Aktivität nicht auf Ihrer Site erscheint, helfen Ihnen diese Empfehlungen zur Fehlerbehebung vielleicht bei der Suche nach Ihrer Lösung.
 title: Fehlerbehebung bei Aktivitäten
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: e2592d9b117ac163876257fe6003f1cfb9cfe093
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
