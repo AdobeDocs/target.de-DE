@@ -1,14 +1,11 @@
 ---
-description: Mithilfe von QA-URLs mit serverseitiger Bereitstellung können Sie einfach End-to-End-Aktivitäts-QAs durchführen und unveränderbare Vorschaulinks, ein optionales Zielgruppen-Targeting und QA-Berichte einfügen, die basierend auf Live-Aktivitätsdaten segmentiert bleiben.
 keywords: QS; serverseitig, Server-seitig, Vorschau, Vorschaulinks
-seo-description: Mithilfe von QA-URLs mit serverseitiger Bereitstellung können Sie einfach End-to-End-Aktivitäts-QAs durchführen und unveränderbare Vorschaulinks, ein optionales Zielgruppen-Targeting und QA-Berichte einfügen, die basierend auf Live-Aktivitätsdaten segmentiert bleiben.
-seo-title: Verwenden von Aktivitäts-QA mit serverseitiger Bereitstellung
-solution: Target
+description: Mithilfe von QA-URLs mit serverseitiger Bereitstellung können Sie einfach End-to-End-Aktivitäts-QAs durchführen und unveränderbare Vorschaulinks, ein optionales Zielgruppen-Targeting und QA-Berichte einfügen, die basierend auf Live-Aktivitätsdaten segmentiert bleiben.
 title: Verwenden von Aktivitäts-QA mit serverseitiger Bereitstellung
 topic: Advanced,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
