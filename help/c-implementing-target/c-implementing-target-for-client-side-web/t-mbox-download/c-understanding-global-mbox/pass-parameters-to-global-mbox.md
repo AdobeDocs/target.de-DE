@@ -1,15 +1,12 @@
 ---
-description: Die JavaScript-Funktion targetPageParams wird verwendet, um Parameter an die globale Mbox zu übergeben. Dies ist in allen Szenarien erforderlich, in denen zusätzliche Targeting- bzw. Kontextinformationen an Target übergeben werden müssen.
 keywords: globale Mbox-Parameter;targetPageParams;Abfragezeichenfolge;Array;JSON;DTM;Dynamic Tag Management
-seo-description: Die JavaScript-Funktion targetPageParams wird verwendet, um Parameter an die globale Mbox zu übergeben. Dies ist in allen Szenarien erforderlich, in denen zusätzliche Targeting- bzw. Kontextinformationen an Target übergeben werden müssen.
-seo-title: Übergeben von Parametern an eine globale Mbox
-solution: Target
-subtopic: Erste Schritte
+description: Die JavaScript-Funktion targetPageParams wird verwendet, um Parameter an die globale Mbox zu übergeben. Dies ist in allen Szenarien erforderlich, in denen zusätzliche Targeting- bzw. Kontextinformationen an Target übergeben werden müssen.
 title: Übergeben von Parametern an eine globale Mbox
+subtopic: Erste Schritte
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
