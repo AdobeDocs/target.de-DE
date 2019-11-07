@@ -1,14 +1,11 @@
 ---
-description: Bei Umleitungsangeboten wird der Browser zu einer neuen Seite umgeleitet.
 keywords: Umleitungsangebot;Umleitungsangebote erstellen;HTML-Angebot hinzufügen;alle URL-Parameter bei der Umleitung übermitteln;mboxSessionId bei der Umleitung übermitteln (nur erforderlich, wenn eine Umleitung auf eine andere Domäne erfolgt)
-seo-description: Informationen über Umleitungsangebote in Adobe Target, die bewirken, dass ein Browser zu einer neuen Seite weiterleitet.
-seo-title: Erstellen von Umleitungsangeboten
-solution: Target
+description: Informationen über Umleitungsangebote in Adobe Target, die bewirken, dass ein Browser zu einer neuen Seite weiterleitet.
 title: Erstellen von Umleitungsangeboten
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
