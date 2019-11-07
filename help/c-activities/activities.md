@@ -1,14 +1,11 @@
 ---
-description: Mit Aktivitäten in Adobe Target können Sie Inhalte an bestimmte Zielgruppen anpassen und Seitenentwürfe testen.
 keywords: Aktivitätenliste;Aktivitäten;Aktivität;Aktivitätstypen;Aktivität bearbeiten;Aktivitätsaktionen;Aktivitätsattribut;Aktivitätslistenfilter;Aktivitätsbeschränkungen;Personalisierung;Personalisierung
-seo-description: Mit Aktivitäten in Adobe Target können Sie Inhalte auf bestimmte Zielgruppen anpassen und Seitenentwürfe testen.
-seo-title: Mit Aktivitäten in Adobe Target können Sie Inhalte an bestimmte Zielgruppen anpassen und Seitenentwürfe testen.
-solution: Target
-title: Aktivitäten
+description: Mit Aktivitäten in Adobe Target können Sie Inhalte auf bestimmte Zielgruppen anpassen und Seitenentwürfe testen.
+title: Mit Aktivitäten in Adobe Target können Sie Inhalte an bestimmte Zielgruppen anpassen und Seitenentwürfe testen.
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 2b8dbccdc890626a0b7cb56d4cf03af1e7d8cf22
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
