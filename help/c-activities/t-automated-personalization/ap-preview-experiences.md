@@ -1,16 +1,10 @@
 ---
-description: Da eine automatisierte Personalisierungsaktivität mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
 keywords: Recommendations
-seo-description: Da eine automatisierte Personalisierungsaktivität (AP) mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
-seo-title: Anzeigen einer Erlebnisvorschau für eine automatisierte Personalisierung (AP) im Visual Experience Composer
-solution: Target
-title: Anzeigen einer Erlebnisvorschau für Automated Personalization im Visual Experience Composer
-title-outputclass: Premium
-topic: Premium
+description: Da eine automatisierte Personalisierungsaktivität (AP) mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
+title: Anzeigen einer Erlebnisvorschau für eine automatisierte Personalisierung (AP) im Visual Experience Composer
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
