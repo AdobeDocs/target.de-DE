@@ -1,16 +1,10 @@
 ---
-description: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Aktivität (XT) mit Recommendations-Angeboten erstellt haben, sollten Sie eine Vorschau davon anzeigen, um sicherzustellen, dass Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Target Recommendations bietet mehrere Möglichkeiten zur Vorschau Ihrer Empfehlungen. '
 keywords: Recommendations;Angebot;Vorschau;Start
-seo-description: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Aktivität (XT) mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie eine Vorschau davon anzeigen, um sicherzustellen, dass Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Target Recommendations bietet mehrere Möglichkeiten zur Vorschau Ihrer Empfehlungen. '
-seo-title: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Aktivität (XT) mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie eine Vorschau davon anzeigen, um sicherzustellen, dass Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Target Recommendations bietet mehrere Möglichkeiten zur Vorschau Ihrer Empfehlungen. '
-solution: Target
+description: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Aktivität (XT) mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie eine Vorschau davon anzeigen, um sicherzustellen, dass Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Target Recommendations bietet mehrere Möglichkeiten zur Vorschau Ihrer Empfehlungen. '
+title: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Aktivität (XT) mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie eine Vorschau davon anzeigen, um sicherzustellen, dass Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Target Recommendations bietet mehrere Möglichkeiten zur Vorschau Ihrer Empfehlungen. '
 subtopic: Recommendations
-title: Anzeigen einer Vorschau und Starten Ihrer Recommendations-Aktivität
-title-outputclass: Premium
-topic: Premium
-badge: Premium
 translation-type: tm+mt
-source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
