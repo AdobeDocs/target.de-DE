@@ -1,15 +1,12 @@
 ---
-description: Diese Informationen helfen Ihren technischen Mitarbeitern dabei, die „mbox.js“-Implementierung und die möglichen Auswirkungen auf Ihre Site zu verstehen.
 keywords: Implementierung;mbox.js;DOM-Manipulations-Bibliothek;target.js;Visual Experience Composer;iFrame;Angular-Sites;Einzelseiten-Apps;Einzelseitenanwendung;SPA
-seo-description: Diese Informationen helfen Ihren technischen Mitarbeitern dabei, die „mbox.js“-Implementierung und die möglichen Auswirkungen auf Ihre Site zu verstehen.
-seo-title: Funktionsweise von „mbox.js“
-solution: Target
-subtopic: Erste Schritte
+description: Diese Informationen helfen Ihren technischen Mitarbeitern dabei, die „mbox.js“-Implementierung und die möglichen Auswirkungen auf Ihre Site zu verstehen.
 title: Funktionsweise von „mbox.js“
+subtopic: Erste Schritte
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
