@@ -1,13 +1,10 @@
 ---
-description: Informationen zur Verwendung der Visual Experience Composer (VEC) Helper-Browsererweiterung, um Websites zuverlässig innerhalb von VEC zu laden und so schnell Erlebnisse zu erstellen und zu überprüfen.
 keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser
-seo-description: Informationen zur Verwendung der Adobe Target Visual Experience Composer (VEC) Helper-Browsererweiterung, um Websites zuverlässig innerhalb von VEC zu laden und so schnell Erlebnisse zu erstellen und zu überprüfen.
-seo-title: Adobe Target Visual Experience Composer (VEC) Helper-Erweiterung
-solution: Target
-title: Visual Experience Composer Helper-Erweiterung
+description: Informationen zur Verwendung der Adobe Target Visual Experience Composer (VEC) Helper-Browsererweiterung, um Websites zuverlässig innerhalb von VEC zu laden und so schnell Erlebnisse zu erstellen und zu überprüfen.
+title: Adobe Target Visual Experience Composer (VEC) Helper-Erweiterung
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
