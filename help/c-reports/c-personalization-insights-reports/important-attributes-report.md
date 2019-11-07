@@ -1,15 +1,10 @@
 ---
-description: Informationen zum Bericht „Wichtige Attribute“, einem der beiden für Benutzer der AP (Automated Personalization)- und AT (Automatisches Targeting)-Aktivitäten verfügbaren speziellen Berichte.
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; Auto-Target; Auto Target; Auto-Target-Bericht; Auto Target-Bericht; Personalisierung; Insights; FAQ; häufig gestellte Fragen; wichtige Attribute
-seo-description: Informationen zum Bericht „Wichtige Attribute“, einem der beiden für Benutzer der AP (Automated Personalization)- und AT (Automatisches Targeting)-Aktivitäten verfügbaren speziellen Berichte.
-seo-title: Bericht „Wichtige Attribute“
-solution: Target
+description: Informationen zum Bericht „Wichtige Attribute“, einem der beiden für Benutzer der AP (Automated Personalization)- und AT (Automatisches Targeting)-Aktivitäten verfügbaren speziellen Berichte.
 title: Bericht „Wichtige Attribute“
-title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
