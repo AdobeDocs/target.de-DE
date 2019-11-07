@@ -1,14 +1,11 @@
 ---
-description: Aktualisieren von at.js 1.*x* auf at.js 2.*x*
 keywords: at.js-Versionen;at.js-Releases;Einzelseiten-App;spa;domänenübergreifend;Domänen übergreifend
-seo-description: Detaillierte Informationen zur Aktualisierung von Adobe Target at.js 1.x auf at.js-Version 2.0.0
-seo-title: Aktualisierung von Adobe Target at.js Version 1.*x* auf at.js Version 2.*x nicht unterstützt*
-solution: Target
+description: Detaillierte Informationen zur Aktualisierung von Adobe Target at.js 1.x auf at.js-Version 2.0.0
+title: Aktualisierung von Adobe Target at.js Version 1.*x* auf at.js Version 2.*x nicht unterstützt*
 subtopic: Erste Schritte
-title: Aktualisieren von at.js 1.*x* auf at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
