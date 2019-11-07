@@ -1,15 +1,12 @@
 ---
-description: Informationen über die verschiedenen Verfahren, die Sie verwenden können, um Daten in Target zu übertragen, einschließlich der Seitenparameter, der Profilattribute innerhalb der Seite, der Skriptprofilattribute, der Datenanbieter, der Bulk-Profilupdate-API, der Single-Profilupdate-API und der Kundenattribute.
 keywords: implementieren;Implementierung;einrichten;Einrichtung;Seitenparameter;Tomcat;URL-encoded;In-page-Profilattribut;Mbox-Parameter;In-page-Profilattribute;Skript-Profilattribut;Bulk-Profilupdate-API;API für einzelne Dateiaktualisierungen;Kundenattribute;Datenanbieter;Daten-Anbieter;Datenanbieter
-seo-description: Informationen über die verschiedenen Verfahren, die Sie verwenden können, um Daten in Target zu übertragen, einschließlich der Seitenparameter, der Profilattribute innerhalb der Seite, der Skriptprofilattribute, der Datenanbieter, der Bulk-Profilupdate-API, der Single-Profilupdate-API und der Kundenattribute.
-seo-title: Verfahren für die Datenübernahme in Target
-solution: Target
-subtopic: Erste Schritte
+description: Informationen über die verschiedenen Verfahren, die Sie verwenden können, um Daten in Target zu übertragen, einschließlich der Seitenparameter, der Profilattribute innerhalb der Seite, der Skriptprofilattribute, der Datenanbieter, der Bulk-Profilupdate-API, der Single-Profilupdate-API und der Kundenattribute.
 title: Verfahren für die Datenübernahme in Target
+subtopic: Erste Schritte
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
