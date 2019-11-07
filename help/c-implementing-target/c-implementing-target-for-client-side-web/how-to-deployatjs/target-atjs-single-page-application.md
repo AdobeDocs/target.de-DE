@@ -1,14 +1,11 @@
 ---
-description: Informationen zur Verwendung von at.js 2.x zur Implementierung von Einzelseiten-Apps (SPAs).
-keywords: Implementierung einer Einzelseiten-Apps;Implementieren einer Einzelseiten-App;SPA;at.js 2.x; at.js; Einzelseitenanwendung; Einzelseiten-App;spa;SPAs
-seo-description: Informationen zur Verwendung von Adobe Target at.js 2.x zur Implementierung von Einzelseiten-Apps (SPAs).
-seo-title: Implementierung einer Einzelseitenanwendung in Adobe Target
-solution: Target
-title: Implementieren von Einzelseiten-Apps
+keywords: Implementierung einer Einzelseitenanwendung;Implementierung einer Einzelseitenanwendung;SPA;at.js 2.x;at.js;Einzelseitenanwendung;Einzelseitenanwendung;SPA;SPAs
+description: Informationen zur Verwendung von Adobe Target at.js 2.x zur Implementierung von Einzelseiten-Apps (SPAs).
+title: Implementierung einer Einzelseitenanwendung in Adobe Target
 topic: Standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
