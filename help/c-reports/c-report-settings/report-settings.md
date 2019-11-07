@@ -1,14 +1,10 @@
 ---
-description: Informationen dazu, wie Sie die Elemente festlegen können, die in Berichten aufgeführt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
 keywords: Target; Berichte; Berichtseinstellungen; Voreinstellung; Target-Vorgabe; Metrik; Zielgruppe; Datumsbereich; Einstellungen; Download; Tabellenansicht; Graphansicht; durchschnittliche Steigerung; Steigerung; Steigerungsgrenzen; Konfidenzintervall; Konfidenz; Ortseinfluss; laufender Durchschnitt; Zählmethodik
-seo-description: Informationen dazu, wie Sie die Elemente festlegen können, die in Berichten aufgeführt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
-seo-title: Berichtseinstellungen
-solution: Target
+description: Informationen dazu, wie Sie die Elemente festlegen können, die in Berichten aufgeführt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
 title: Berichtseinstellungen
-topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
