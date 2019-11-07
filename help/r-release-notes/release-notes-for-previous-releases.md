@@ -1,14 +1,11 @@
 ---
-description: 'Versionshinweise für vorherige Target-Versionen, einschließlich Versionshinweisen für Target Standard/Premium, die Target-Plattform und die Target-JavaScript-Bibliotheken (at.js und mbox.js). Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr des Release.'
 keywords: Versionshinweise
-seo-description: 'Versionshinweise für vorherige Target-Versionen, einschließlich Versionshinweisen für Target Standard/Premium, die Target-Plattform und die Target-JavaScript-Bibliotheken (at.js und mbox.js). Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr des Release.'
-seo-title: Versionshinweise für vorherige Versionen
-solution: Target
+description: 'Versionshinweise für vorherige Target-Versionen, einschließlich Versionshinweisen für Target Standard/Premium, die Target-Plattform und die Target-JavaScript-Bibliotheken (at.js und mbox.js). Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr des Release.'
 title: Versionshinweise für vorherige Versionen
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
