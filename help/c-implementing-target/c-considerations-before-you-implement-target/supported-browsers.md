@@ -1,15 +1,12 @@
 ---
-description: Die Bereitstellung der Adobe Target-Anwendung und von Inhalten wurde für eine breite Auswahl von Browsern und Geräten geprüft.
 keywords: Browser;Bedingungen;Voraussetzungen;Internet Explorer;Chrome;Firefox;Safari;Android;Surface
-seo-description: Die Bereitstellung der Adobe Target-Anwendung und von Inhalten wurde für eine breite Auswahl von Browsern und Geräten geprüft.
-seo-title: Unterstützte Browser
-solution: Target
-subtopic: Erste Schritte
+description: Die Bereitstellung der Adobe Target-Anwendung und von Inhalten wurde für eine breite Auswahl von Browsern und Geräten geprüft.
 title: Unterstützte Browser
+subtopic: Erste Schritte
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
