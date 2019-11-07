@@ -1,15 +1,12 @@
 ---
-description: Informationen zur Interpretation des AT-Zusammenfassungsberichts.
 keywords: Berichte; auto-target; auto target; AT
-seo-description: Informationen zur Interpretation des AT-Zusammenfassungsberichts.
-seo-title: AT (Automatisches Targeting)-Zusammenfassungsbericht
-solution: Target
-subtopic: Multivarianz-Test
+description: Informationen zur Interpretation des AT-Zusammenfassungsberichts.
 title: AT (Automatisches Targeting)-Zusammenfassungsbericht
+subtopic: Multivarianz-Test
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
