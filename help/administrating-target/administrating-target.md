@@ -1,15 +1,12 @@
 ---
-description: Information, die Sie bei der Einrichtung von Target unterstützen, darunter Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene7-Einstellungen, Hostverwaltung und Antwort-Token.
 keywords: Implementieren; wird implementiert; einrichten; Einrichtung
-seo-description: Informationen, die Sie bei der Einrichtung von Adobe Target unterstützen, darunter Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene7-Einstellungen, Hostverwaltung und Antwort-Token.
-seo-title: Adobe Target verwalten
-solution: Target
+description: Informationen, die Sie bei der Einrichtung von Adobe Target unterstützen, darunter Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene7-Einstellungen, Hostverwaltung und Antwort-Token.
+title: Adobe Target verwalten
 subtopic: Erste Schritte
-title: Verwaltung von Target
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
