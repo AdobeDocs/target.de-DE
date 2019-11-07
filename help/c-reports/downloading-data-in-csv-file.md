@@ -1,15 +1,12 @@
 ---
-description: Sie können Daten im .csv-Format herunterladen, um sie schnell in Excel, Access oder andere Datenanalyseprogramme zu importieren.
 keywords: Berichte; Herunterladen von Berichten; csv; Erfolgsmetriken; Bestelldetails
-seo-description: Laden Sie Daten im .csv-Format herunter, um sie schnell in Excel, Access oder andere Datenanalyseprogramme mit Adobe Target zu importieren.
-seo-title: Herunterladen von Daten in einer CSV-Datei mit Adobe Target
-solution: Target
+description: Laden Sie Daten im .csv-Format herunter, um sie schnell in Excel, Access oder andere Datenanalyseprogramme mit Adobe Target zu importieren.
+title: Herunterladen von Daten in einer CSV-Datei mit Adobe Target
 subtopic: Multivarianz-Test
-title: Herunterladen von Daten in Form einer CSV-Datei
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -85,7 +82,7 @@ Im Bericht zu Bestelldetails (in [!DNL Target Classic] auch „Prüfbericht“ g
 
 Die folgenden Informationen gelten für den Download:
 
-* You can download both reports for A/B Test, Automated Personalization, Experience Targeting, and Multivariate activities. Sie können jedoch keinen Erfolgsmetrikenbericht für Recommendations-Aktivitäten herunterladen.
+* Sie können Berichte für A/B-Tests, automatisierte Personalisierung, Erlebnis-Targeting und Multivarianz-Aktivitäten herunterladen. Sie können jedoch keinen Erfolgsmetrikenbericht für Recommendations-Aktivitäten herunterladen.
 * Die Option zum Herunterladen steht nicht für A/B- und Erlebniszielaktivitäten zur Verfügung, die vor der Target-Version 15.7.1 (Juli 2015) erstellt wurden.
 * Erlebnisse ohne verknüpfte Daten werden im heruntergeladenen Bericht nicht erfasst.
 * In der Reporting-Benutzeroberfläche von Target angewendete Zielgruppen werden nicht in den Download-Bericht übertragen.
