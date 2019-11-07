@@ -1,16 +1,10 @@
 ---
-description: Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Entwürfen.
 keywords: Empfehlungen; häufig gestellte Fragen; FAQ
-seo-description: Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Entwürfen.
-seo-title: 'Häufig gestellte Fragen: Entwürfe'
-solution: Target
+description: Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Entwürfen.
 title: 'Häufig gestellte Fragen: Entwürfe'
-title-outputclass: premium
-topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
-badge: premium
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
