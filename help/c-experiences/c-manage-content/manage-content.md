@@ -1,13 +1,10 @@
 ---
-description: Verwalten Sie mithilfe der Angebotsbibliothek die Inhalte Ihres Code- und Bildangebots.
 keywords: Inhalt;Assets;Inhalt verwalten;Angebote;Assets verwalten;Auswahlmodus aufrufen;Auswahlmodus
-seo-description: Verwalten Sie mithilfe der Angebotsbibliothek die Inhalte Ihres Code- und Bildangebots.
-seo-title: Angebote
-solution: Target
+description: Verwalten Sie mithilfe der Angebotsbibliothek die Inhalte Ihres Code- und Bildangebots.
 title: Angebote
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
