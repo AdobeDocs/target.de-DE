@@ -1,13 +1,10 @@
 ---
-description: Für einen erfolgreichen A/B-Test ist eine ausreichende Anzahl von Besuchern erforderlich (Stichprobengröße), um die Konversionsrate zu steigern. Aber wie lässt sich bestimmen, wie lange ein A/B-Test ausgeführt werden muss? Dieser Artikel enthält Informationen hinsichtlich Aktivitäten zur automatischen Zuordnung sowie den Target-Stichprobengrößenrechner, mit dem Sie sicherstellen können, dass Ihre Aktivität ausreichend Besucher umfasst, um Ihre Ziele zu erreichen.
 keywords: AB;A/B;AB...n;Stichprobengröße;Stichprobengrößenrechner;Auto-Zuordnung;automatische Zuordnung
-seo-description: Für einen erfolgreichen A/B-Test ist eine ausreichende Anzahl von Besuchern erforderlich (Stichprobengröße), um die Konversionsrate zu steigern. Aber wie lässt sich bestimmen, wie lange ein A/B-Test ausgeführt werden muss? Dieser Artikel enthält Informationen hinsichtlich Aktivitäten zur automatischen Zuordnung sowie den Target-Stichprobengrößenrechner, mit dem Sie sicherstellen können, dass Ihre Aktivität ausreichend Besucher umfasst, um Ihre Ziele zu erreichen.
-seo-title: Wie lange sollten A/B-Tests laufen?
-solution: Target
+description: Für einen erfolgreichen A/B-Test ist eine ausreichende Anzahl von Besuchern erforderlich (Stichprobengröße), um die Konversionsrate zu steigern. Aber wie lässt sich bestimmen, wie lange ein A/B-Test ausgeführt werden muss? Dieser Artikel enthält Informationen hinsichtlich Aktivitäten zur automatischen Zuordnung sowie den Target-Stichprobengrößenrechner, mit dem Sie sicherstellen können, dass Ihre Aktivität ausreichend Besucher umfasst, um Ihre Ziele zu erreichen.
 title: Wie lange sollten A/B-Tests laufen?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
