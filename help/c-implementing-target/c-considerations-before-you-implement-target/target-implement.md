@@ -1,13 +1,11 @@
 ---
-description: Implementieren Sie Target, indem Sie die Verweise auf die Target-Bibliotheken („at.js“ oder „mbox.js“) in Ihre Webseiten integrieren.
 keywords: document.write;Target;implementieren;Target implementieren;DTM;Dynamic Tag Management;at.js;mbox.js;target.js;Mbox
-seo-description: Implementieren Sie Target, indem Sie die Verweise auf die Target-Bibliotheken („at.js“ oder „mbox.js“) in Ihre Webseiten integrieren.
-seo-title: Erläuterung der JavaScript-Bibliotheken in Target
+description: Implementieren Sie Target, indem Sie die Verweise auf die Target-Bibliotheken („at.js“ oder „mbox.js“) in Ihre Webseiten integrieren.
 title: Erläuterung der JavaScript-Bibliotheken in Target
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
