@@ -1,16 +1,10 @@
 ---
-description: Verwenden Sie Entitätsattribute mit einzelnen oder mehreren Werten zur Festlegung weiterer Informationen zu Artikeln in Ihrem Katalog.
 keywords: Entitätsattribute mit mehreren Werten; benutzerdefinierte Entitätsattribute; Gültiges JSON; Entitätsattributwert; JSON-Array; mehrere Werte; mehrwertig
-seo-description: Verwenden Sie Entitätsattribute mit einzelnen oder mehreren Werten zur Festlegung weiterer Informationen zu Artikeln in Ihrem Katalog.
-seo-title: Benutzerdefinierte Entitätsattribute
-solution: Target
+description: Verwenden Sie Entitätsattribute mit einzelnen oder mehreren Werten zur Festlegung weiterer Informationen zu Artikeln in Ihrem Katalog.
 title: Benutzerdefinierte Entitätsattribute
-title-outputclass: premium
-topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
-badge: premium
 translation-type: tm+mt
-source-git-commit: 41a287ede7326b8d7ed8c4763a3a733c5bd08333
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
