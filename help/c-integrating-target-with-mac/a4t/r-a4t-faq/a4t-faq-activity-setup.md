@@ -1,14 +1,11 @@
 ---
-description: Dieses Thema enthält Antworten auf häufig zum Aktivitäts-Setup und zur Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Aktivitätseinrichtung
-seo-description: Dieses Thema enthält Antworten auf häufig zum Aktivitäts-Setup und zur Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
-seo-title: Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T
-solution: Target
+description: Dieses Thema enthält Antworten auf häufig zum Aktivitäts-Setup und zur Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 title: Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
