@@ -1,14 +1,10 @@
 ---
-description: Auswählen mehrerer Metriken für die Anzeige in einem Bericht.
 keywords: Target; Berichte; Berichtseinstellungen; mehrere Metriken; Metriken
-seo-description: Wählen Sie mehrere Metriken aus, die in einem Bericht mit Adobe Target angezeigt werden sollen.
-seo-title: Mehrere Metriken in einem Bericht mit Adobe Target anzeigen
-solution: Target
-title: Anzeigen mehrerer Metriken in einem Bericht
-topic: Premium
+description: Wählen Sie mehrere Metriken aus, die in einem Bericht mit Adobe Target angezeigt werden sollen.
+title: Mehrere Metriken in einem Bericht mit Adobe Target anzeigen
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
