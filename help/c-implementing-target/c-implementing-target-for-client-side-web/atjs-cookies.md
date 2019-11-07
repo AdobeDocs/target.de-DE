@@ -1,14 +1,11 @@
 ---
-description: Informationen darüber, wie at.js 2.x und at.js 1.x Cookies verarbeiten
 keywords: at.js;2.0;1.x;Cookies
-seo-description: Informationen darüber, wie Adobe Target at.js 2.x und at.js 1.x Cookies verarbeiten
-seo-title: Adobe Target at.js-Cookies
-solution: Target
+description: Informationen darüber, wie Adobe Target at.js 2.x und at.js 1.x Cookies verarbeiten
+title: Adobe Target at.js-Cookies
 subtopic: Erste Schritte
-title: „at.js“-Cookies
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
