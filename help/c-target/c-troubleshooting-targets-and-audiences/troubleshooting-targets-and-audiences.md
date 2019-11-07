@@ -1,14 +1,11 @@
 ---
-description: Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
 keywords: Fehlerbehebung; häufig gestellte Fragen; FAQ; FAQs; Targets; Zielgruppen
-seo-description: Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
-seo-title: Häufig gestellte Fragen zu Zielen und Zielgruppen
-solution: Target
+description: Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
 title: Häufig gestellte Fragen zu Zielen und Zielgruppen
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
