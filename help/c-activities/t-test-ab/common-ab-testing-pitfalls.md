@@ -1,13 +1,10 @@
 ---
-description: A/B-Tests bilden das Rückgrat der meisten Programme zur Optimierung des digitalen Marketings. Marketingexperten können Ihren Besuchern und Kunden dazu optimierte und zielgerichtete Erlebnisse bieten. In diesem Abschnitt werden neun der schwerwiegendsten Fehler beschrieben, die Unternehmen beim Durchführen von A/B-Tests unterlaufen. Er bietet außerdem Wege zur Vermeidung dieser Fehler. So steigert Ihr Unternehmen die Investitionsrendite seiner Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
 keywords: AB;A/B;AB...n;Fehler;Fallen;Irrtum;Schwierigkeit
-seo-description: A/B-Tests bilden das Rückgrat der meisten Programme zur Optimierung des digitalen Marketings. Marketingexperten können Ihren Besuchern und Kunden dazu optimierte und zielgerichtete Erlebnisse bieten. In diesem Abschnitt werden neun der schwerwiegendsten Fehler beschrieben, die Unternehmen beim Durchführen von A/B-Tests unterlaufen. Er bietet außerdem Wege zur Vermeidung dieser Fehler. So steigert Ihr Unternehmen die Investitionsrendite seiner Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
-seo-title: Neun häufige Fehler bei A/B-Tests und wie diese vermieden werden
-solution: Target
+description: A/B-Tests bilden das Rückgrat der meisten Programme zur Optimierung des digitalen Marketings. Marketingexperten können Ihren Besuchern und Kunden dazu optimierte und zielgerichtete Erlebnisse bieten. In diesem Abschnitt werden neun der schwerwiegendsten Fehler beschrieben, die Unternehmen beim Durchführen von A/B-Tests unterlaufen. Er bietet außerdem Wege zur Vermeidung dieser Fehler. So steigert Ihr Unternehmen die Investitionsrendite seiner Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
 title: Neun häufige Fehler bei A/B-Tests und wie diese vermieden werden
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
