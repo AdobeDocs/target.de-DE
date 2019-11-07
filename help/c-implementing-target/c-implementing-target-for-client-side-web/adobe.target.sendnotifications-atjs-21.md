@@ -1,14 +1,11 @@
 ---
-description: 'Informationen zur Funktion adobe.target.sendNotifications(options) für at.js. '
 keywords: adobe.target.sendnotifications;Sendnotifications;sendnotifications;Senden von Benachrichtigungen;Benachrichtigungen;at.js;Funktionen;funktion
-seo-description: Informationen über die Funktion adobe.target.sendNotifications(options) für die at.js JavaScript-Bibliothek von Adobe Target.
-seo-title: Informationen über die Funktion adobe.target.sendNotifications(options) für die at.js JavaScript-Bibliothek von Adobe Target.
-solution: Target
+description: Informationen über die Funktion adobe.target.sendNotifications(options) für die at.js JavaScript-Bibliothek von Adobe Target.
+title: Informationen über die Funktion adobe.target.sendNotifications(options) für die at.js JavaScript-Bibliothek von Adobe Target.
 subtopic: Erste Schritte
-title: adobe.target.sendnotifications(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
