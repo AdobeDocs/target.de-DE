@@ -1,13 +1,10 @@
 ---
-description: Visual Experience Composer in Target ermöglicht Ihnen, einen Multivarianz-Test (MVT) direkt auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Target zu verändern.
 keywords: MVT;Multivariater Test;Multivariater Test erstellen;Erstellen von Multivariater Tests;MVT-Erstellung;Erstellen von MVT;wie MVT;wie Multivariater Tests
-seo-description: Visual Experience Composer (VEC) in Adobe Target ermöglicht Ihnen, einen Multivarianz-Test (MVT) direkt auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Target zu verändern.
-seo-title: Erstellen eines Multivarianz-Tests
-solution: Target
+description: Visual Experience Composer (VEC) in Adobe Target ermöglicht Ihnen, einen Multivarianz-Test (MVT) direkt auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Target zu verändern.
 title: Erstellen eines Multivarianz-Tests
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
