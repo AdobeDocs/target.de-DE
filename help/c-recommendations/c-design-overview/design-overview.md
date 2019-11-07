@@ -1,14 +1,10 @@
 ---
-description: Übersichtsinformationen über Designs, die definieren, wie Empfehlungen auf einer Seite angezeigt werden.
 keywords: Empfehlungsentwurf; Vorlage; Entwurf erstellen; Lieferung; Ausgabe
-seo-description: Übersichtsinformationen über Designs, die definieren, wie Empfehlungen auf einer Seite angezeigt werden.
-seo-title: Designübersicht
-solution: Target
+description: Übersichtsinformationen über Designs, die definieren, wie Empfehlungen auf einer Seite angezeigt werden.
 title: Designübersicht
-topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
