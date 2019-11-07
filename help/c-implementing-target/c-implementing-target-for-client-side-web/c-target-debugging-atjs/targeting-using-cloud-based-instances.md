@@ -1,13 +1,10 @@
 ---
-description: Informationen zu Problemen, die Kunden beim Verwenden Cloud-basierter Instanzen zum Testen von Adobe Target haben.
 keywords: Cloud-Instanzen;öffentliche Suffix-Liste;öffentliches Suffix;Cookie;Erstanbieter-Cookie;Erstanbieter-Cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-seo-description: Informationen zu Problemen, die Kunden beim Verwenden Cloud-basierter Instanzen zum Testen von Adobe Target haben.
-seo-title: Verwenden Cloud-basierter Instanzen mit Target
-solution: Target
+description: Informationen zu Problemen, die Kunden beim Verwenden Cloud-basierter Instanzen zum Testen von Adobe Target haben.
 title: Verwenden Cloud-basierter Instanzen mit Target
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
