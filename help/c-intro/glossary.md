@@ -1,13 +1,10 @@
 ---
-description: Definitionen der in Adobe Target verwendeten Begriffe.
-seo-description: Begriffsdefinitionen.
-seo-title: Adobe Target-Glossar
-solution: Target
-title: Glossar
+description: Begriffsdefinitionen.
+title: Adobe Target-Glossar
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
