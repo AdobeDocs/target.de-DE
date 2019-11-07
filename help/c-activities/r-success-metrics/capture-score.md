@@ -1,15 +1,12 @@
 ---
-description: Mit dem Interaktionstyp Ergebniserfassung wird ein kumuliertes Ergebnis auf Grundlage des den auf der Site besuchten Seiten zugewiesenen Wertes ab dem Zeitpunkt errechnet, zu dem der Besucher die Anzeige-Mbox der Kampagne zum ersten Mal anzeigt.
 keywords: Ergebniserfassung;Ergebnis
-seo-description: Mit dem Interaktionstyp Ergebniserfassung wird ein kumuliertes Ergebnis auf Grundlage des den auf der Site besuchten Seiten zugewiesenen Wertes ab dem Zeitpunkt errechnet, zu dem der Besucher die Anzeige-Mbox der Kampagne zum ersten Mal anzeigt.
-seo-title: Ergebniserfassung
-solution: Target
-subtopic: Erste Schritte
+description: Mit dem Interaktionstyp Ergebniserfassung wird ein kumuliertes Ergebnis auf Grundlage des den auf der Site besuchten Seiten zugewiesenen Wertes ab dem Zeitpunkt errechnet, zu dem der Besucher die Anzeige-Mbox der Kampagne zum ersten Mal anzeigt.
 title: Ergebniserfassung
+subtopic: Erste Schritte
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
