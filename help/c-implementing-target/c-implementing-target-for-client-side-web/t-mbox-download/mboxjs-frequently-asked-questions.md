@@ -1,14 +1,11 @@
 ---
-description: Antworten auf häufig zu „mbox.js“ gestellte Fragen
 keywords: mbox.js FAQ;häufig gestellte Fragen zu mbox.js;document.write;tt.omtrdc.net;Parser-Blockierung
-seo-description: Antworten auf häufig zu „mbox.js“ gestellte Fragen
-seo-title: Häufig gestellte Fragen zu „mbox.js“
-solution: Target
-subtopic: Erste Schritte
+description: Antworten auf häufig zu „mbox.js“ gestellte Fragen
 title: Häufig gestellte Fragen zu „mbox.js“
+subtopic: Erste Schritte
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
