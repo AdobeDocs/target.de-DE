@@ -1,13 +1,10 @@
 ---
-description: In Adobe Target sind Erfolgsmetriken sowohl für die Berichterstellung als auch für die Verfolgung vorkonfiguriert.
 keywords: Targeting;Erfolg;Konversionsmetrik;Metrik für Seitenergebnisse;Metrik für Seitenansichten;Umsatzmetriken;Metrik für die Zeit auf der Site;geschätzter Wert;Erweiterte Einstellungen;Erfolgsmetriken
-seo-description: In Adobe Target sind Erfolgsmetriken sowohl für die Berichterstellung als auch für die Verfolgung vorkonfiguriert.
-seo-title: Erfolgsmetriken in Adobe Target
-solution: Target
-title: Erfolgsmetriken
+description: In Adobe Target sind Erfolgsmetriken sowohl für die Berichterstellung als auch für die Verfolgung vorkonfiguriert.
+title: Erfolgsmetriken in Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
