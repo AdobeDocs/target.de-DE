@@ -1,15 +1,12 @@
 ---
-description: Mit Target können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, erfassen.
 keywords: Klick-Tracking;Klicks verfolgen;Klicks;AppMeasurement
-seo-description: Mit Target können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, erfassen.
-seo-title: Klick-Tracking
-solution: Target
-subtopic: Erste Schritte
+description: Mit Target können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, erfassen.
 title: Klick-Tracking
+subtopic: Erste Schritte
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
