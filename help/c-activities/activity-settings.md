@@ -1,15 +1,12 @@
 ---
-description: Verwenden Sie zum Verwalten des Ziels, der Priorität und der Dauer Ihrer Aktivitäten die „Aktivitätseinstellungen“.
 keywords: Ziele & Einstellungen;Ziel;Priorität;Dauer
-seo-description: Verwenden Sie zum Verwalten des Ziels, der Priorität und der Dauer Ihrer Aktivitäten die „Aktivitätseinstellungen“.
-seo-title: Aktivitätseinstellungen
-solution: Target
-subtopic: Multivarianz-Test
+description: Verwenden Sie zum Verwalten des Ziels, der Priorität und der Dauer Ihrer Aktivitäten die „Aktivitätseinstellungen“.
 title: Aktivitätseinstellungen
+subtopic: Multivarianz-Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
