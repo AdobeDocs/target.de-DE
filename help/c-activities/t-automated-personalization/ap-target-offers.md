@@ -1,14 +1,10 @@
 ---
 description: In einer Aktivität „Automatisierte Personalisierung“ können Sie Angebote auf spezielle Zielgruppen ausrichten.
-seo-description: In einer Aktivität „Automatisierte Personalisierung“ können Sie Angebote auf spezielle Zielgruppen ausrichten.
-seo-title: Targeting von Automated Personalization-Angeboten
-solution: Target,Analytics
 title: Targeting von Automated Personalization-Angeboten
-title-outputclass: Premium
+solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
