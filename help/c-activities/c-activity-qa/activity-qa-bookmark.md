@@ -1,14 +1,11 @@
 ---
-description: Informationen, die Sie bei der Verwendung des Adobe Target-QA-Bookmarklets unterstützen, um Target zu zwingen, Sie aus dem Qualitätssicherungs-Modus zu entfernen.
 keywords: QS;Vorschau;Bookmarklet;Vorschaulinks
-seo-description: Informationen, die Sie bei der Verwendung des Adobe Target-QA-Bookmarklets unterstützen, um Target zu zwingen, Sie aus dem Qualitätssicherungs-Modus zu entfernen.
-seo-title: Activity QA-Bookmarklet für Adobe Target
-solution: Target
-title: Lesezeichenliste für Aktivitäts-QA
+description: Informationen, die Sie bei der Verwendung des Adobe Target-QA-Bookmarklets unterstützen, um Target zu zwingen, Sie aus dem Qualitätssicherungs-Modus zu entfernen.
+title: Activity QA-Bookmarklet für Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
