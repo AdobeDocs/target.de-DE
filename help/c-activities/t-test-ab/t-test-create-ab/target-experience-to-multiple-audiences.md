@@ -1,14 +1,11 @@
 ---
-description: Sie können in A/B-Aktivitäten verschiedene Versionen des gleichen Erlebnisses für unterschiedliche Zielgruppen zur Verfügung stellen. Im Visual Experience Composer oder dem Form-Based Experience Composer können mehrere Zielgruppen für ein Erlebnis eingerichtet werden.
 keywords: mehrere Zielgruppen;Erlebnisversionen;Erlebnisversionen auswählen
-seo-description: Sie können in A/B-Aktivitäten verschiedene Versionen des gleichen Erlebnisses für unterschiedliche Zielgruppen zur Verfügung stellen. Im Visual Experience Composer oder dem Form-Based Experience Composer können mehrere Zielgruppen für ein Erlebnis eingerichtet werden.
-seo-title: Verschiedene Erlebnisversionen in A/B-Tests
-solution: Target
+description: Sie können in A/B-Aktivitäten verschiedene Versionen des gleichen Erlebnisses für unterschiedliche Zielgruppen zur Verfügung stellen. Im Visual Experience Composer oder dem Form-Based Experience Composer können mehrere Zielgruppen für ein Erlebnis eingerichtet werden.
 title: Verschiedene Erlebnisversionen in A/B-Tests
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
