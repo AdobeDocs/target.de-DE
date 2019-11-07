@@ -1,15 +1,12 @@
 ---
-description: Informationen zum Benutzermanagement in Target Standard sowie zur Verwaltung von Unternehmensassets und -berechtigungen in Target Premium.
 keywords: Benutzer hinzufügen;Benutzer verwalten;Benutzerberechtigungen
-seo-description: Informationen zum Benutzermanagement in Target Standard sowie zur Verwaltung von Unternehmensassets und -berechtigungen in Target Premium.
-seo-title: Benutzerverwaltung
-solution: Target
-subtopic: Erste Schritte
+description: Informationen zum Benutzermanagement in Target Standard sowie zur Verwaltung von Unternehmensassets und -berechtigungen in Target Premium.
 title: Benutzerverwaltung
+subtopic: Erste Schritte
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
