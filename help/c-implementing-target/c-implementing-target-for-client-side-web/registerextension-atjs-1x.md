@@ -1,14 +1,11 @@
 ---
-description: 'Informationen zur registerExtension()-Funktion für at.js. '
 keywords: Registerextension; Registererweiterung; Register erweitern; at.js; Funktionen; funktion; Clientcode; Serverdomain; Globalmboxname; Globalmbox autocreate; Zeitüberschreitung
-seo-description: Informationen zur registerExtension()-Funktion für die Adobe Target-JavaScript-Bibliothek at.js.
-seo-title: Informationen zur registerExtension()-Funktion für die Adobe Target-JavaScript-Bibliothek at.js.
-solution: Target
+description: Informationen zur registerExtension()-Funktion für die Adobe Target-JavaScript-Bibliothek at.js.
+title: Informationen zur registerExtension()-Funktion für die Adobe Target-JavaScript-Bibliothek at.js.
 subtopic: Erste Schritte
-title: registerExtension()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
