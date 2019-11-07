@@ -1,13 +1,11 @@
 ---
-description: Target kann für die Optimierung und Personalisierung mobiler Apps verwendet werden.
 keywords: mobile App;mobiler App-Prozess;Targeting mobiler Apps;mobile Target-Standorte; Erfolgsmetriken für mobile Apps
-seo-description: Target kann für die Optimierung und Personalisierung mobiler Apps verwendet werden.
-seo-title: Target für mobile Apps
+description: Target kann für die Optimierung und Personalisierung mobiler Apps verwendet werden.
 title: Target für mobile Apps
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
