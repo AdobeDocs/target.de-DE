@@ -1,16 +1,10 @@
 ---
-description: Liste der häufig gestellten Fragen (FAQs) zu Recommendations-Aktivitäten.
 keywords: Fehlerbehebung; häufig gestellte Fragen; FAQ; FAQs; Empfehlungen; Sonderzeichen; Attributgewichtung; Ähnlichkeit von Inhalten
-seo-description: Liste der häufig gestellten Fragen (FAQs) zu Adobe Target Recommendations-Aktivitäten.
-seo-title: Häufig gestellte Fragen zu Adobe Target Recommendations
-solution: Target
-title: Recommendations-FAQs
-title-outputclass: Premium
-topic: Premium
+description: Liste der häufig gestellten Fragen (FAQs) zu Adobe Target Recommendations-Aktivitäten.
+title: Häufig gestellte Fragen zu Adobe Target Recommendations
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
-badge: Premium
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
