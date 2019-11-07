@@ -1,15 +1,10 @@
 ---
-description: Für Benutzer der automatisierten Personalisierung stehen spezialisierte Berichte zur Verfügung.
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; Aktivitätsstufenbericht; Angebotsebenenbericht; Angebotsdetailbericht
-seo-description: Für Benutzer der automatisierten Personalisierung stehen spezialisierte Berichte zur Verfügung.
-seo-title: Automated Personalization-Zusammenfassungsberichte
-solution: Target
+description: Für Benutzer der automatisierten Personalisierung stehen spezialisierte Berichte zur Verfügung.
 title: Automated Personalization-Zusammenfassungsberichte
-title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
