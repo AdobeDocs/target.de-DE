@@ -1,13 +1,10 @@
 ---
 description: Da ein multivariater Test mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
-seo-description: Da ein multivariater Test mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
-seo-title: Erlebnisvorschau für Multivarianz-Tests
-solution: Target
 title: Erlebnisvorschau für Multivarianz-Tests
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
