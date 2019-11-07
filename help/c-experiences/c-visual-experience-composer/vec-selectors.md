@@ -1,14 +1,11 @@
 ---
-description: Ein Element-Selektor ist ein CSS-Ausdruck, der eines oder mehrere Elemente kennzeichnen kann.
 keywords: Erlebnis-Targeting;Landingpage-Test
-seo-description: Ein Element-Selektor ist ein CSS-Ausdruck, der eines oder mehrere Elemente kennzeichnen kann.
-seo-title: Element-Selektoren, die im Visual Experience Composer verwendet werden
-solution: Target
+description: Ein Element-Selektor ist ein CSS-Ausdruck, der eines oder mehrere Elemente kennzeichnen kann.
 title: Element-Selektoren, die im Visual Experience Composer verwendet werden
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
