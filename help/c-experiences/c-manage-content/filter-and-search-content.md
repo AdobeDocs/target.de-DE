@@ -1,14 +1,10 @@
 ---
-description: Suchen Sie anhand bestimmter Schlüsselwörter nach Assets und speichern Sie Suchordner, auch „intelligente Sammlungen“ genannt, die automatisch mit Ihren Suchergebnissen aktualisiert werden.
 keywords: Inhaltsbibliothek;Assets;Suche;intelligente Sammlungen;Suchordner;Filter
-seo-description: Suchen Sie anhand bestimmter Schlüsselwörter nach Assets und speichern Sie Suchordner, auch „intelligente Sammlungen“ genannt, die automatisch mit Ihren Suchergebnissen aktualisiert werden.
-seo-title: Durchsuchen von Inhalten und Erstellen intelligenter Sammlungen
-solution: Target
+description: Suchen Sie anhand bestimmter Schlüsselwörter nach Assets und speichern Sie Suchordner, auch „intelligente Sammlungen“ genannt, die automatisch mit Ihren Suchergebnissen aktualisiert werden.
 title: Durchsuchen von Inhalten und Erstellen intelligenter Sammlungen
-topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
