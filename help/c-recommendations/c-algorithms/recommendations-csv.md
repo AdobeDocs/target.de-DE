@@ -1,16 +1,10 @@
 ---
-description: Laden Sie eine CSV-Datei hoch, um Empfehlungen anzupassen.
 keywords: Erstellen benutzerdefinierter Kriterien; Algorithmen; Kriterien; Empfehlungskriterien; csv; ftp; CSV hochladen
-seo-description: Laden Sie eine CSV-Datei hoch, um Empfehlungen anzupassen.
-seo-title: Hochladen benutzerdefinierter Kriterien
-solution: Target
+description: Laden Sie eine CSV-Datei hoch, um Empfehlungen anzupassen.
 title: Hochladen benutzerdefinierter Kriterien
-title-outputclass: premium
-topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
-badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
