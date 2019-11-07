@@ -1,16 +1,10 @@
 ---
-description: Eine Sammlung ist ein Satz von Produkten oder Artikeln, die für die Empfehlung infrage kommen.
 keywords: Sammlung; Targeting
-seo-description: Eine Sammlung ist ein Satz von Produkten oder Artikeln in Adobe Target, die für die Empfehlung infrage kommen.
-seo-title: Sammlungen in Adobe Target
-solution: Target
-title: Sammlungen
-title-outputclass: premium
-topic: Premium
+description: Eine Sammlung ist ein Satz von Produkten oder Artikeln in Adobe Target, die für die Empfehlung infrage kommen.
+title: Sammlungen in Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
-badge: premium
 translation-type: tm+mt
-source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
