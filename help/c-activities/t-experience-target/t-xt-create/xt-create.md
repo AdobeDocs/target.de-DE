@@ -1,14 +1,11 @@
 ---
-description: Verwendung des Visual Experience Composers, um eine Erlebnis-Targeting-Aktivität auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Target zu verändern.
-seo-description: Verwendung des Visual Experience Composers, um eine Erlebnis-Targeting-Aktivität (XT) auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Adobe Target zu verändern.
-seo-title: Erstellen einer Erlebnis-Targeting-Aktivität
-solution: Target
-subtopic: Multivarianz-Test
+description: Verwendung des Visual Experience Composers, um eine Erlebnis-Targeting-Aktivität (XT) auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Adobe Target zu verändern.
 title: Erstellen einer Erlebnis-Targeting-Aktivität
+subtopic: Multivarianz-Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
