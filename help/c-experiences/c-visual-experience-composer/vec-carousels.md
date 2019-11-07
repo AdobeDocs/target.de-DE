@@ -1,15 +1,12 @@
 ---
-description: In diesem Thema wird erläutert, wie ein Karussell erstellt wird, das im Visual Experience Composer (VEC) bearbeitet werden kann.
 keywords: Visual Experience Composer;VEC;Karussell
-seo-description: In diesem Thema wird erläutert, wie ein Karussell erstellt wird, das im Visual Experience Composer (VEC) bearbeitet werden kann.
-seo-title: Erstellen von Karussells, die in Visual Experience Composer funktionieren
-solution: Target
-subtopic: Multivarianz-Test
+description: In diesem Thema wird erläutert, wie ein Karussell erstellt wird, das im Visual Experience Composer (VEC) bearbeitet werden kann.
 title: Erstellen von Karussells, die in Visual Experience Composer funktionieren
+subtopic: Multivarianz-Test
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
