@@ -1,14 +1,11 @@
 ---
-description: Mit der neuen SDK-Bibliothek von Target müssen Entwickler die Einrichtung nur einmal für ihre Android-Apps durchführen, damit die Funktionen des Mobile Visual Experience Composer (VEC) für Marketing-Experten verfügbar sind.
 keywords: mobile vec; Visual Experience Composer für Mobilgeräte; Mobile Experience Composer-Optionen; Einrichten; Android
-seo-description: Mit der neuen SDK-Bibliothek von Adobe Target müssen Entwickler die Einrichtung nur einmal für ihre Android-Apps durchführen, damit die Funktionen des Mobile Visual Experience Composer (VEC) für Marketing-Experten verfügbar sind.
-seo-title: Android – Einrichten der mobilen App für Adobe Target
-solution: Target
-title: Android – Einrichten der App
+description: Mit der neuen SDK-Bibliothek von Adobe Target müssen Entwickler die Einrichtung nur einmal für ihre Android-Apps durchführen, damit die Funktionen des Mobile Visual Experience Composer (VEC) für Marketing-Experten verfügbar sind.
+title: Android – Einrichten der mobilen App für Adobe Target
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
