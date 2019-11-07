@@ -1,14 +1,11 @@
 ---
-description: Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten nützlich sind.
 keywords: Variablen; Profile; Parameter; eingebaute Profile; Methoden; URL-Variablen; Geo-Profile; Drittanbieterprofile; Mbox-Variablen; Kampagnenvariablen; Kundenattribute
-seo-description: Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten nützlich sind.
-seo-title: Nützliche Variablen, Profile, Parameter und Methoden
-solution: Target
+description: Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten nützlich sind.
 title: Nützliche Variablen, Profile, Parameter und Methoden
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -93,4 +90,4 @@ Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten n
 
 Kundenattribute können in Profilskripts referenziert werden, formatiert als `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Diese Attribute stehen auch als Tokens in Profilskripts und direkt in Angeboten zur Verfügung, ohne dass zunächst ein Profilskript erforderlich ist. Das Token sollte folgende Form aufweisen: `${crs.datasourceName.attributeName}`. Note that spaces in the `datasourceName` should be stripped from any API call.
+Diese Attribute stehen auch als Tokens in Profilskripts und direkt in Angeboten zur Verfügung, ohne dass zunächst ein Profilskript erforderlich ist. Das Token sollte folgende Form aufweisen: `${crs.datasourceName.attributeName}`. Beachten Sie, dass Leerzeichen im `datasourceName` API-Aufruf entfernt werden sollten.
