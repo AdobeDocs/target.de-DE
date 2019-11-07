@@ -1,13 +1,10 @@
 ---
-description: Versionshinweise zum Adobe Target-SDK Node.js
 keywords: at.js;sdk;node.js;release;updates;sdks;serverseitig;serverseitig;nodejs
-seo-description: Versionshinweise zu den serverseitigen APIs von Adobe Target.
-seo-title: Versionshinweise zum Adobe Target-SDK Node.js.
-solution: Target
-title: Versionshinweise - SDK für Target Node.js
+description: Versionshinweise zu den serverseitigen APIs von Adobe Target.
+title: Versionshinweise zum Adobe Target-SDK Node.js.
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
