@@ -1,14 +1,11 @@
 ---
-description: Informationen zu den verschiedenen Methoden zum Bearbeiten einer vorhandenen Aktivität, einschließlich des Speicherns einer Aktivität in Entwurfsform.
 keywords: Aktivitäten;Aktivität;Aktivitätstypen;Aktivität bearbeiten;bearbeiten;Entwurf
-seo-description: Informationen zu den verschiedenen Methoden zum Bearbeiten einer vorhandenen Aktivität, einschließlich des Speicherns einer Aktivität in Entwurfsform.
-seo-title: Bearbeiten einer Aktivität oder Speichern als Entwurf
-solution: Target
+description: Informationen zu den verschiedenen Methoden zum Bearbeiten einer vorhandenen Aktivität, einschließlich des Speicherns einer Aktivität in Entwurfsform.
 title: Bearbeiten einer Aktivität oder Speichern als Entwurf
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -47,15 +44,15 @@ Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichk
 
    * **Erlebnisse bearbeiten:** Sie gelangen direkt zur Seite [!UICONTROL Erlebnisse] (der erste Schritt im geführten Workflow). Nehmen Sie die gewünschten Änderungen vor und speichern Sie dann die Aktivität mithilfe der Trennschaltfläche (siehe Erklärung oben).
 
-      * Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen], um die Änderungen zu speichern und die Seite „Übersicht“ der Aktivität anzuzeigen.**
+      * Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**, um die Änderungen zu speichern und die Seite „Übersicht“ der Aktivität anzuzeigen.
       * Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen zu speichern und bei dem Schritt zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
    * **Targeting bearbeiten:** Sie gelangen direkt zur Seite [!UICONTROL Targeting] (der zweite Schritt im geführten Workflow). Nehmen Sie die gewünschten Änderungen vor und speichern Sie dann die Aktivität mithilfe der Trennschaltfläche (siehe Erklärung oben).
 
-      * Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen], um die Änderungen zu speichern und die Seite „Übersicht“ der Aktivität anzuzeigen.**
+      * Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**, um die Änderungen zu speichern und die Seite „Übersicht“ der Aktivität anzuzeigen.
       * Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen zu speichern und bei dem Schritt zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
    * **Ziele &amp; Einstellungen bearbeiten:** Sie gelangen direkt zu der Seite [!UICONTROL Ziele &amp; Einstellungen] (der letzte Schritt im geführten Workflow). Nehmen Sie die gewünschten Änderungen vor und speichern Sie dann die Aktivität mithilfe der Trennschaltfläche (siehe Erklärung oben).
 
-      * Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen], um die Änderungen zu speichern und die Seite „Übersicht“ der Aktivität anzuzeigen.**
+      * Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**, um die Änderungen zu speichern und die Seite „Übersicht“ der Aktivität anzuzeigen.
       * Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen zu speichern und bei dem Schritt zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
 
@@ -83,9 +80,9 @@ Sie können eine Aktivität im Entwurfsmodus speichern, wenn die Aktivitätseinr
 
    ![Entwurf speichern](/help/c-activities/assets/save_draft.png)
 
-   * **Weiter:** Klicken Sie zum Bearbeiten einer weiteren Seite in dem dreistufigen Workflow auf **[!UICONTROL Weiter], um zu dem gewünschten Schritt zu wechseln.**
+   * **Weiter:** Klicken Sie zum Bearbeiten einer weiteren Seite in dem dreistufigen Workflow auf **[!UICONTROL Weiter]**, um zu dem gewünschten Schritt zu wechseln.
    * **Entwurf speichern &amp; Schließen:** Nehmen Sie die gewünschten Änderungen im aktuellen Schritt vor, klicken Sie auf das Dropdown-Menü auf der Trennschaltfläche und wählen Sie dann **[!UICONTROL Entwurf speichern und Schließen]**, um die Änderungen zu speichern und die Seite [!UICONTROL Übersicht] der Aktivität anzuzeigen.
-   * **Entwurf speichern:** Nehmen Sie die gewünschten Änderungen in einem Schritt vor, klicken Sie auf das Dropdown-Menü auf der Trennschaltfläche und wählen Sie dann **[!UICONTROL Entwurf speichern]aus, um Ihre Änderungen zu speichern und bei dem Schritt zu bleiben.**
+   * **Entwurf speichern:** Nehmen Sie die gewünschten Änderungen in einem Schritt vor, klicken Sie auf das Dropdown-Menü auf der Trennschaltfläche und wählen Sie dann **[!UICONTROL Entwurf speichern]** aus, um Ihre Änderungen zu speichern und bei dem Schritt zu bleiben.
 
 ## Kopieren/Bearbeiten einer Aktivität beim Verwenden von Arbeitsbereichen {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
