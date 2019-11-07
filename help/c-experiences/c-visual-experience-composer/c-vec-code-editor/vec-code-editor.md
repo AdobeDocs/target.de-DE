@@ -1,15 +1,12 @@
 ---
-description: Informationen zur Seite „Änderungen“, auf der Sie Änderungen an Ihrer Seite anzeigen und zusätzliche Änderungen (CSS-Selektor, Mbox und benutzerspezifischen Code) hinzufügen können.
 keywords: CSS-Selektor;benutzerspezifischer Code;Code-Editor;Mobile Web Experience-Editor
-seo-description: Informationen zur Seite „Änderungen“, auf der Sie Änderungen an Ihrer Seite anzeigen und zusätzliche Änderungen (CSS-Selektor, Mbox und benutzerspezifischen Code) hinzufügen können.
-seo-title: Änderungen
-solution: Target
-subtopic: Code-Editor
+description: Informationen zur Seite „Änderungen“, auf der Sie Änderungen an Ihrer Seite anzeigen und zusätzliche Änderungen (CSS-Selektor, Mbox und benutzerspezifischen Code) hinzufügen können.
 title: Änderungen
+subtopic: Code-Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
