@@ -1,13 +1,10 @@
 ---
-description: Sie können Zielgruppen auf der Basis von Netzwerkdetails erstellen.
 keywords: Targeting; Netzwerk; Zielnetzwerk; ISP; Domänenname; Verbindungsgeschwindigkeit; Target ISP; Zieldomänenname; Zielverbindungsgeschwindigkeit
-seo-description: Sie können Zielgruppen in Adobe Target basierend auf Netzwerkdetails erstellen.
-seo-title: Erstellen von Zielgruppen in Adobe Target basierend auf Netzwerkdetails.
-solution: Target
-title: Netzwerk
+description: Sie können Zielgruppen in Adobe Target basierend auf Netzwerkdetails erstellen.
+title: Erstellen von Zielgruppen in Adobe Target basierend auf Netzwerkdetails.
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
