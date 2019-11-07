@@ -1,13 +1,11 @@
 ---
-description: Sie können weitere Informationen über Ort oder Benutzer als Namen-Wert-Paare an Target übermitteln.
 keywords: mobile App; Daten mit mobilen Apps senden; Targeting mobiler Apps; benutzerdefinierte Daten für Mobilbenutzer; benutzerdefinierte Daten für mobile Apps
-seo-description: Sie können weitere Informationen über Ort oder Benutzer als Namen-Wert-Paare an Target übermitteln.
-seo-title: iOS – Senden benutzerdefinierter Benutzerdaten
+description: Sie können weitere Informationen über Ort oder Benutzer als Namen-Wert-Paare an Target übermitteln.
 title: iOS – Senden benutzerdefinierter Benutzerdaten
 topic: Target
 uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
