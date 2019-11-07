@@ -1,15 +1,12 @@
 ---
-description: Verwenden Sie eine Weiterleitung auf ähnliche Weise, wie Sie eine Mbox für Ihre Tests verwenden.
 keywords: Implementierung; mbox.js nicht-JavaScript; Weiterleitung; Kosten pro Klick; Umsatz pro Klick
-seo-description: Verwenden Sie eine Weiterleitung auf ähnliche Weise, wie Sie eine Mbox für Ihre Tests verwenden.
-seo-title: Arbeiten mit Weiterleitungen
-solution: Target
-subtopic: Erste Schritte
+description: Verwenden Sie eine Weiterleitung auf ähnliche Weise, wie Sie eine Mbox für Ihre Tests verwenden.
 title: Arbeiten mit Weiterleitungen
+subtopic: Erste Schritte
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
