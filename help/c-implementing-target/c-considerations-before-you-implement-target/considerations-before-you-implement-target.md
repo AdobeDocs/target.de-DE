@@ -1,15 +1,12 @@
 ---
-description: Überlegungen vor der Implementierung von Adobe Target.
 keywords: implementieren;Implementierung
-seo-description: Überlegungen vor der Implementierung von Adobe Target.
-seo-title: Vor der Implementierung
-solution: Target
-subtopic: Erste Schritte
+description: Überlegungen vor der Implementierung von Adobe Target.
 title: Vor der Implementierung
+subtopic: Erste Schritte
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
