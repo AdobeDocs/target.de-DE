@@ -1,13 +1,10 @@
 ---
-description: Erstellen von Zielgruppen aus Besuchern auf Grundlage der Suchmaschine oder Landingpage, von der sie auf Ihre Site geleitet werden.
 keywords: Targeting; Traffic-Quellen; Target-Traffic-Quellen; Target-Suchmaschine; Suchmaschine; Landingpage; Target-Zielseite; verweisende Zielseite
-seo-description: Erstellen Sie Zielgruppen in Adobe Target aus Besuchern auf Grundlage der Suchmaschine oder Landingpage, von der sie auf Ihre Site geleitet werden.
-seo-title: Targeting von Traffic-Quellen in Adobe Target
-solution: Target
-title: Bericht zu
+description: Erstellen Sie Zielgruppen in Adobe Target aus Besuchern auf Grundlage der Suchmaschine oder Landingpage, von der sie auf Ihre Site geleitet werden.
+title: Targeting von Traffic-Quellen in Adobe Target
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
