@@ -1,16 +1,10 @@
 ---
-description: Wenn Sie die Funktion „Reserveempfehlung“ verwenden, zeigen Empfehlungen, die nicht über genügend empfohlene Elemente verfügen, keinen Standardinhalt an. Stattdessen zeigen Empfehlungen die Ergebnisse des Reservealgorithmus an.
 keywords: Empfehlung; Backup; Sicherung
-seo-description: Wenn Sie die Funktion „Reserveempfehlung“ verwenden, zeigen Empfehlungen, die nicht über genügend empfohlene Elemente verfügen, keinen Standardinhalt an. Stattdessen zeigen Empfehlungen die Ergebnisse des Reservealgorithmus an.
-seo-title: Verwenden einer Reserveempfehlung
-solution: Target
+description: Wenn Sie die Funktion „Reserveempfehlung“ verwenden, zeigen Empfehlungen, die nicht über genügend empfohlene Elemente verfügen, keinen Standardinhalt an. Stattdessen zeigen Empfehlungen die Ergebnisse des Reservealgorithmus an.
 title: Verwenden einer Reserveempfehlung
-title-outputclass: premium
-topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
