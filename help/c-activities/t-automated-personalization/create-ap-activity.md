@@ -1,16 +1,11 @@
 ---
-description: Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ablauf anderer Aktivitätstypen.
 keywords: Automatisierte Personalisierung;Zielgruppen;Ensemble;Random Forest;Restschwankung;Fehlerschwankung;Lebenszeitwert
-seo-description: Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ablauf anderer Aktivitätstypen.
-seo-title: Erstellen einer Automated Personalization-Aktivität
-solution: Target
+description: Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ablauf anderer Aktivitätstypen.
 title: Erstellen einer Automated Personalization-Aktivität
-title-outputclass: Premium
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
-badge: Premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
