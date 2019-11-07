@@ -1,15 +1,12 @@
 ---
-description: Informationen zu wichtigen Konzepten, die Sie beim Verstehen der Features und Funktionen von Adobe Target unterstützen.
 keywords: Übersicht und Referenz; ACT
-seo-description: Informationen zu wichtigen Konzepten, die Sie beim Verstehen der Features und Funktionen von Adobe Target unterstützen.
-seo-title: Wichtige Target-Konzepte
-solution: Target
-subtopic: Erste Schritte
+description: Informationen zu wichtigen Konzepten, die Sie beim Verstehen der Features und Funktionen von Adobe Target unterstützen.
 title: Wichtige Target-Konzepte
+subtopic: Erste Schritte
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
