@@ -1,13 +1,11 @@
 ---
-description: Möchten Sie Target in Ihrer mobilen App verwenden, erstellen Sie einen Ort und eine Erfolgsmetrik.
 keywords: mobile App; Ort der mobilen App; Targeting mobiler Apps; mobile Zielstandorte; Erfolgsmetriken für mobile Apps
-seo-description: Möchten Sie Target in Ihrer mobilen App verwenden, erstellen Sie einen Ort und eine Erfolgsmetrik.
-seo-title: iOS – Erstellen von Target-Standorten und Erfolgsmetriken
+description: Möchten Sie Target in Ihrer mobilen App verwenden, erstellen Sie einen Ort und eine Erfolgsmetrik.
 title: iOS – Erstellen von Target-Standorten und Erfolgsmetriken
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
