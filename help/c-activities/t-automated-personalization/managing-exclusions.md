@@ -1,13 +1,11 @@
 ---
-description: Verwalten von Ausschlüssen durch die Erstellung von Ausschlussgruppen, Ausschließen von doppelten Angeboten, Ausschließen von bestimmten Erlebnissen und Ausschließen von Standardinhalten in automatisierten Personalisierungs-Aktivitäten (AP)
 keywords: deduplizieren;Duplikate zulassen;duplizierte Angebote ausschließen;automatisierte Personalisierung;duplizierte Angebote nicht zulassen
-seo-description: Verwalten von Ausschlüssen durch die Erstellung von Ausschlussgruppen, Ausschließen von doppelten Angeboten, Ausschließen von bestimmten Erlebnissen und Ausschließen von Standardinhalten in automatisierten Personalisierungs-Aktivitäten (AP) in Adobe Target
-seo-title: Verwalten von Ausschlüssen
-solution: Target,Analytics
+description: Verwalten von Ausschlüssen durch die Erstellung von Ausschlussgruppen, Ausschließen von doppelten Angeboten, Ausschließen von bestimmten Erlebnissen und Ausschließen von Standardinhalten in automatisierten Personalisierungs-Aktivitäten (AP) in Adobe Target
 title: Verwalten von Ausschlüssen
+solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
