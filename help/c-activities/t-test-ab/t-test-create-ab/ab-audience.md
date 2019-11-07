@@ -1,14 +1,11 @@
 ---
-description: Die Zielgruppe legt fest, welche Besucher der Site in Ihre Aktivität eingegeben werden.
 keywords: Zielgruppe;Zielgruppe auswählen;Zielgruppe wählen;Auswahl
-seo-description: Die Zielgruppe legt fest, welche Besucher der Site in Ihre Aktivität eingegeben werden.
-seo-title: Zielgruppenauswahl
-solution: Target
+description: Die Zielgruppe legt fest, welche Besucher der Site in Ihre Aktivität eingegeben werden.
 title: Zielgruppenauswahl
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
