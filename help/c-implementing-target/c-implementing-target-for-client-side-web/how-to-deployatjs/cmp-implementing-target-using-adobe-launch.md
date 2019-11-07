@@ -1,12 +1,10 @@
 ---
-description: Launch ist die Tag-Management-Plattform der nächsten Generation von Adobe und die bevorzugte Methode zur Implementierung von Adobe Target. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind.
-keywords: implementieren;implementieren;Implementierung;Adobe Launch;Launch;Race;umleitenStarten der Erlebnisplattform
-seo-description: Adobe Experience Platform Launch ist die Tag-Management-Plattform der nächsten Generation von Adobe und die bevorzugte Methode zur Implementierung von Adobe Target. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind.
-seo-title: Implementieren von Target mit Adobe Launch
+keywords: implementieren;Implementierung;Implementierung;adobe-Start;Start;Rennen;Umleiten;Erlebnis-Plattformstart
+description: Adobe Experience Platform Launch ist die Tag-Management-Plattform der nächsten Generation von Adobe und die bevorzugte Methode zur Implementierung von Adobe Target. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind.
 title: Implementieren von Target mit Adobe Launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
