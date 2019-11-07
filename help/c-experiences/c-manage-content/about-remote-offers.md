@@ -1,14 +1,11 @@
 ---
-description: Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich in einem Inhaltsverwaltungssystem oder einem anderen System befinden, entweder aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen.
 keywords: Remote-Angebot;Auswahlmatrix für Remote-Angebote;gecachter Inhalt;dynamischer Inhalt
-seo-description: Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen in einem Content-Management- oder einem anderen System befinden.
-seo-title: Remote-Angebote erstellen
-solution: Target
+description: Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen in einem Content-Management- oder einem anderen System befinden.
 title: Remote-Angebote erstellen
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
