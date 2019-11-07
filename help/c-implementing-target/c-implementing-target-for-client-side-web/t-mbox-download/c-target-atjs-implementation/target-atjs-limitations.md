@@ -1,14 +1,10 @@
 ---
-description: Zwischen „at.js“ und mbox.js bestehen einige Unterschiede. In diesem Abschnitt werden einige Unterschiede und Einschränkungen behandelt, damit Sie erfolgreich mit „at.js“ arbeiten können.
 keywords: Einschränkungen von Visual Experience Composer;Browserunterstützung;Integrationen;Plug-ins;asynchrone Überlegungen
-seo-description: Zwischen „at.js“ und mbox.js bestehen einige Unterschiede. In diesem Abschnitt werden einige Unterschiede und Einschränkungen behandelt, damit Sie erfolgreich mit „at.js“ arbeiten können.
-seo-title: Einschränkungen von „at.js“
-solution: Target
+description: Zwischen „at.js“ und mbox.js bestehen einige Unterschiede. In diesem Abschnitt werden einige Unterschiede und Einschränkungen behandelt, damit Sie erfolgreich mit „at.js“ arbeiten können.
 title: Einschränkungen von „at.js“
-topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
