@@ -1,14 +1,11 @@
 ---
-description: Den Gewinner in einer A/B-Aktivität mit automatisierter Zuordnung erkennen Sie an Indikatoren in der Target-Benutzeroberfläche.
 keywords: Automatisierte Traffic-Zuordnung; Targeting; Gewinner; statistische Garantie; Konfidenz; Gewinner bestimmen
-seo-description: Den Gewinner in einer A/B-Aktivität mit automatisierter Zuordnung erkennen Sie an Indikatoren in der Target-Benutzeroberfläche.
-seo-title: Ermitteln eines Gewinners
-solution: Target
+description: Den Gewinner in einer A/B-Aktivität mit automatisierter Zuordnung erkennen Sie an Indikatoren in der Target-Benutzeroberfläche.
 title: Ermitteln eines Gewinners
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
