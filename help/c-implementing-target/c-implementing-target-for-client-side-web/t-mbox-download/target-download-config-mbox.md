@@ -1,15 +1,12 @@
 ---
-description: Target Standard und Premium verwenden eine modifizierte Version der Adobe Target-Datei „mbox.js“.
 keywords: Implementierung;Mbox;mbox.js;mbox.js herunterladen;mbox.js konfigurieren
-seo-description: Target Standard und Premium verwenden eine modifizierte Version der Adobe Target-Datei „mbox.js“.
-seo-title: mbox.js herunterladen
-solution: Target
-subtopic: Erste Schritte
+description: Target Standard und Premium verwenden eine modifizierte Version der Adobe Target-Datei „mbox.js“.
 title: mbox.js herunterladen
+subtopic: Erste Schritte
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
