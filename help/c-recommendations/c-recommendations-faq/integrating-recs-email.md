@@ -1,16 +1,11 @@
 ---
-description: Informationen zu den Methoden zum Integrieren der E-Mail-Funktion in Recommendations.
 keywords: E-Mail; ESP; E-Mail-Serviceprovider; Rawbox; Lieferungs-API; Nur-Download-Vorlage; E-Mail-Vorlage; Batchverarbeitung; Build-Time-E-Mail
-seo-description: Informationen zu den Methoden zum Integrieren der E-Mail-Funktion in Recommendations.
-seo-title: Integration von Recommendations in E-Mail
-solution: Target
+description: Informationen zu den Methoden zum Integrieren der E-Mail-Funktion in Recommendations.
 title: Integration von Recommendations in E-Mail
-title-outputclass: premium
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
