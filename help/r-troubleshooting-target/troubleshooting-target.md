@@ -1,14 +1,11 @@
 ---
-description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Target unterstützen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen (FAQ) und weitere hilfreiche Informationen.
 keywords: Fehlerbehebung für Target; Fehlerbehebung in Target
-seo-description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Target unterstützen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen (FAQ) und weitere hilfreiche Informationen.
-seo-title: Fehlerbehebung bei Adobe Target
-solution: Target
-title: Fehlerbehebung in Target
+description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Target unterstützen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen (FAQ) und weitere hilfreiche Informationen.
+title: Fehlerbehebung bei Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
