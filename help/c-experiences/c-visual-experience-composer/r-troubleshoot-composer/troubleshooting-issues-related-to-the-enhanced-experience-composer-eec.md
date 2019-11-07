@@ -1,13 +1,10 @@
 ---
-description: Unter bestimmten Umständen treten im Enhanced Experience Composer (EEC) manchmal Anzeigeprobleme auf.
 keywords: Targeting;EEC;Visual Experience Composer;Fehlerbehebung für Enhanced Experience Composer;Fehlerbehebung
-seo-description: Unter bestimmten Umständen treten im Enhanced Experience Composer (EEC) manchmal Anzeigeprobleme auf.
-seo-title: Beheben von Problemen mit Enhanced Experience Composer
-solution: Target
+description: Unter bestimmten Umständen treten im Enhanced Experience Composer (EEC) manchmal Anzeigeprobleme auf.
 title: Beheben von Problemen mit Enhanced Experience Composer
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
