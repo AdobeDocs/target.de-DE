@@ -1,15 +1,12 @@
 ---
-description: Informationen, die Sie dabei unterstützen, eine globale Mbox für „at.js“ und „mbox.js“ anzupassen
 keywords: globale Mbox;globale Mbox anpassen;mbox.js bearbeiten;at.js bearbeiten;at.js;mbox.js implementieren;at.js implementieren
-seo-description: Informationen, die Sie dabei unterstützen, eine globale Mbox für „at.js“ und „mbox.js“ anzupassen
-seo-title: Anpassen einer globalen mbox
-solution: Target
-subtopic: Erste Schritte
+description: Informationen, die Sie dabei unterstützen, eine globale Mbox für „at.js“ und „mbox.js“ anzupassen
 title: Anpassen einer globalen mbox
+subtopic: Erste Schritte
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
