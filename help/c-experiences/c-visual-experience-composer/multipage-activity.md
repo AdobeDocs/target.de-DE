@@ -1,14 +1,11 @@
 ---
-description: Mit einer mehrseitigen Aktivität können Sie eine Story über mehrere Seiten erstellen, mit einem für die einzelnen Seiten spezifischen Design.
 keywords: mehrseitig;Verlaufstests;mehrseitige Aktivität
-seo-description: Mit einer mehrseitigen Aktivität können Sie eine Story über mehrere Seiten erstellen, mit einem für die einzelnen Seiten spezifischen Design.
-seo-title: Mehrseitige Aktivität
-solution: Target
+description: Mit einer mehrseitigen Aktivität können Sie eine Story über mehrere Seiten erstellen, mit einem für die einzelnen Seiten spezifischen Design.
 title: Mehrseitige Aktivität
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
