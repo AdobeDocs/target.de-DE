@@ -1,15 +1,12 @@
 ---
-description: 'Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: at.js oder mbox.js'
 keywords: Übersicht und Referenz; SEO; Suchmaschinenoptimierung
-seo-description: 'Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: at.js oder mbox.js'
-seo-title: Funktionsweise von Adobe Target
-solution: Target
-subtopic: Erste Schritte
+description: 'Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: at.js oder mbox.js'
 title: Funktionsweise von Adobe Target
+subtopic: Erste Schritte
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
