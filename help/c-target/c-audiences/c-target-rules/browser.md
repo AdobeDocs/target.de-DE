@@ -1,15 +1,11 @@
 ---
-description: Sie können Zielgruppen in Adobe Target erstellen, um Benutzer auszuwählen, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden.
 keywords: Browseroptionen; Typ; Browsertyp; Browsersprache; Sprache; Version; Browserversion
-seo-description: Sie können Zielgruppen in Adobe Target erstellen, um Benutzer auszuwählen, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden.
-seo-title: Browseroptionen in Adobe Target-Zielgruppen
-solution: Target
+description: Sie können Zielgruppen in Adobe Target erstellen, um Benutzer auszuwählen, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden.
+title: Browseroptionen in Adobe Target-Zielgruppen
 subtopic: Multivarianz-Test
-title: Browser
-topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
