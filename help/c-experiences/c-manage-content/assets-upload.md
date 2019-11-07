@@ -1,14 +1,11 @@
 ---
-description: Sie können der Bildangebotsliste Elemente hinzufügen.
 keywords: Inhalt;Inhalt aktualisieren;Assets;Inhalt hochladen;Asset hochladen
-seo-description: Sie können der Bildangebotsliste Elemente hinzufügen.
-seo-title: Hochladen von Inhalten
-solution: Target
+description: Sie können der Bildangebotsliste Elemente hinzufügen.
 title: Hochladen von Inhalten
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
