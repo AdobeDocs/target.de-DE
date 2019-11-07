@@ -1,14 +1,11 @@
 ---
-description: Informationen zur Adobe Experience Cloud-Gerätekooperation, einem Programm, das Teilnehmern die Zusammenarbeit ermöglicht, um Verbraucher besser über digitale Touchpoints zu identifizieren, und gleichzeitig ein Höchstmaß an Privatsphäre und Transparenz gewährleistet.
 keywords: Experience Cloud; Gerätekooperation; Analytics; Zielgruppen-Manager; AAM; Media Optimizer; Gerätediagramm
-seo-description: Informationen zur Adobe Experience Cloud-Gerätekooperation, einem Programm, das Teilnehmern die Zusammenarbeit ermöglicht, um Verbraucher besser über digitale Touchpoints zu identifizieren, und gleichzeitig ein Höchstmaß an Privatsphäre und Transparenz gewährleistet.
-seo-title: Experience Cloud-Gerätekooperation
-solution: Target
+description: Informationen zur Adobe Experience Cloud-Gerätekooperation, einem Programm, das Teilnehmern die Zusammenarbeit ermöglicht, um Verbraucher besser über digitale Touchpoints zu identifizieren, und gleichzeitig ein Höchstmaß an Privatsphäre und Transparenz gewährleistet.
 title: Experience Cloud-Gerätekooperation
 topic: Standard
 uuid: b689a964-613f-4a64-9f15-e9111e6bf945
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
