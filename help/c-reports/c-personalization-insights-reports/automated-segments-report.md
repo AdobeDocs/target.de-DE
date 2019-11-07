@@ -1,15 +1,10 @@
 ---
-description: Informationen zum Bericht „Automatisierte Segmente“, einem der beiden für Benutzer der AP (Automated Personalization)- und AT (Automatisches Targeting)-Aktivitäten verfügbaren speziellen Berichte.
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; auto-target; auto target; Auto-Target-Bericht; auto-target-Bericht; Personalisierung; Insights; automatisierte Segmente; FAQ; häufig gestellte Fragen
-seo-description: Informationen zum Bericht „Automatisierte Segmente“, einem der beiden für Benutzer der AP (Automated Personalization)- und AT (Automatisches Targeting)-Aktivitäten verfügbaren speziellen Berichte.
-seo-title: Bericht „Automatisierte Segmente“
-solution: Target
+description: Informationen zum Bericht „Automatisierte Segmente“, einem der beiden für Benutzer der AP (Automated Personalization)- und AT (Automatisches Targeting)-Aktivitäten verfügbaren speziellen Berichte.
 title: Bericht „Automatisierte Segmente“
-title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
