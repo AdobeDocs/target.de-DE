@@ -1,14 +1,11 @@
 ---
-description: Mit dem formularbasierten Experience Composer können Erlebnisse nicht visuell erstellt werden.
 keywords: Form-Based Experience Composer;Form-Based Composer;Verfeinerungen
-seo-description: Mit dem formularbasierten Experience Composer können Erlebnisse nicht visuell erstellt werden.
-seo-title: Form-Based Experience Composer
-solution: Target
+description: Mit dem formularbasierten Experience Composer können Erlebnisse nicht visuell erstellt werden.
 title: Form-Based Experience Composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
