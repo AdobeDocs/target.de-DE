@@ -1,14 +1,11 @@
 ---
-description: Die Aktivitäts-URL legt die Seite fest, die bei dem Test verwendet und beim Entwurf des Tests geöffnet wird.
 keywords: Übersicht und Referenz
-seo-description: Die Aktivitäts-URL legt die Seite fest, die bei dem Test verwendet und beim Entwurf des Tests geöffnet wird.
-seo-title: Aktivitäts-URL
-solution: Target
+description: Die Aktivitäts-URL legt die Seite fest, die bei dem Test verwendet und beim Entwurf des Tests geöffnet wird.
 title: Aktivitäts-URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
