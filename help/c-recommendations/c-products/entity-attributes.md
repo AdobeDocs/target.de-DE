@@ -1,16 +1,10 @@
 ---
-description: Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an Recommendations zu übermitteln.
 keywords: Entität Entitätsattribute; Weiterleiten von Informationen an Recommendations; Verhaltensdaten; Datenzähler; relative URL definieren; Lagerbestandsebene anzeigen; Preis festlegen; Festlegen der Gewinnspanne; benutzerdefinierte Attribute
-seo-description: Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an Recommendations zu übermitteln.
-seo-title: Entitätsattribute
-solution: Target
+description: Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an Recommendations zu übermitteln.
 title: Entitätsattribute
-title-outputclass: premium
-topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
-badge: premium
 translation-type: tm+mt
-source-git-commit: dddaaedc59702b1b2a7fc1672a2771d958f4062a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
