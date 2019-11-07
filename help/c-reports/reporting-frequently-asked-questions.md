@@ -1,14 +1,11 @@
 ---
-description: Liste der häufig gestellten Fragen zur Berichterstellung in Target
 keywords: Fehlerbehebung; Metrikdiskrepanzen; häufig gestellte Fragen; Berichte
-seo-description: Liste der häufig gestellten Fragen zur Berichterstellung in Adobe Target
-seo-title: Häufig gestellte Fragen zur Berichterstellung in Adobe Target
-solution: Target
-title: Häufig gestellte Fragen zum Reporting
+description: Liste der häufig gestellten Fragen zur Berichterstellung in Adobe Target
+title: Häufig gestellte Fragen zur Berichterstellung in Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: a6f2eceaddf67653b36a1687ba071f7226169516
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
