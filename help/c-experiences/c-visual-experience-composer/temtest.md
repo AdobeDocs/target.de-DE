@@ -1,14 +1,10 @@
 ---
-description: Wenn Sie die Struktur Ihrer Seite mithilfe einer Seitenvorlage erstellen oder wenn Ihre Seite ähnliche Elemente enthält, können Sie mithilfe dieser Funktion Variationen in ähnlich strukturierten Seitenelementen testen.
 keywords: Vorlagentests;Vorlage;gleiches Erlebnis auf ähnlichen Seiten;Vorlagentest
-seo-description: Wenn Sie die Struktur Ihrer Seite mithilfe einer Seitenvorlage erstellen oder wenn Ihre Seite ähnliche Elemente enthält, können Sie mithilfe dieser Funktion Variationen in ähnlich strukturierten Seitenelementen testen.
-seo-title: Gleiches Erlebnis auf ähnlichen Seiten
-solution: Target
+description: Wenn Sie die Struktur Ihrer Seite mithilfe einer Seitenvorlage erstellen oder wenn Ihre Seite ähnliche Elemente enthält, können Sie mithilfe dieser Funktion Variationen in ähnlich strukturierten Seitenelementen testen.
 title: Gleiches Erlebnis auf ähnlichen Seiten
-topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
