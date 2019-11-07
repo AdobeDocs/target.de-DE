@@ -1,13 +1,11 @@
 ---
-description: Verwenden Sie in A/B-Aktivitäten Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
 keywords: A/B;Aktivitätsmetriken;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
-seo-description: Verwenden Sie in A/B-Aktivitäten Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
-seo-title: Festlegen von Metriken
-solution: Target,Standard
+description: Verwenden Sie in A/B-Aktivitäten Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
 title: Festlegen von Metriken
+solution: Target,Standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
