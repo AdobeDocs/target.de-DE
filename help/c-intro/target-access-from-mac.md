@@ -1,15 +1,12 @@
 ---
-description: Anweisungen zum Zugriff auf Adobe Target über Adobe Experience Cloud.
 keywords: Experience Cloud; Anmeldung
-seo-description: Anweisungen zum Zugriff auf Adobe Target über Adobe Experience Cloud.
-seo-title: Zugriff auf Target über Adobe Experience Cloud
-solution: Target
-subtopic: Erste Schritte
+description: Anweisungen zum Zugriff auf Adobe Target über Adobe Experience Cloud.
 title: Zugriff auf Target über Adobe Experience Cloud
+subtopic: Erste Schritte
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
