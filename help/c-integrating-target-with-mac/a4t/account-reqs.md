@@ -1,14 +1,12 @@
 ---
-description: Benutzerkontoanforderungen für die Erstellung einer Adobe Analytics-basierten Aktivität in Adobe Target (A4T).
 keywords: Analytics als Berichtsquelle; a4t; A4T
-seo-description: Benutzerkontoanforderungen für die Erstellung einer Adobe Analytics-basierten Aktivität in Adobe Target (A4T).
-seo-title: Anforderungen hinsichtlich Benutzerberechtigungen
-solution: Target,Analytics
+description: Benutzerkontoanforderungen für die Erstellung einer Adobe Analytics-basierten Aktivität in Adobe Target (A4T).
 title: Anforderungen hinsichtlich Benutzerberechtigungen
+solution: Target,Analytics
 topic: Reports and Analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
