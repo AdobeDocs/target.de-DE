@@ -1,14 +1,11 @@
 ---
-description: Auf dieser Seite sind wichtige Änderungen an der Target-Dokumentation aufgeführt.
-keywords: Änderungsprotokoll für Target-Dokumentation; Aktualisierungen der Dokumentation;neue Themen;Bearbeitungen
-seo-description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Dokumentation aufgelistet, die nach Versionen sortiert wurden.
-seo-title: Änderungen an der Adobe Target-Produktdokumentation.
-solution: Target
-title: Dokumentationsänderungen
+keywords: Änderungsprotokoll der Zieldokumentation;Dokumentationsaktualisierungen;neue Themen;Bearbeitungen
+description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Dokumentation aufgelistet, die nach Versionen sortiert wurden.
+title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
