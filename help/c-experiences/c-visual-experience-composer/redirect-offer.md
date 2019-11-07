@@ -1,14 +1,11 @@
 ---
 description: Verwenden Sie diese Option, wenn Sie den Besucher auf eine andere Seite umleiten möchten, statt Inhalte auf derselben Seite anzuzeigen.
-seo-description: Verwenden Sie diese Option, wenn Sie den Besucher auf eine andere Seite umleiten möchten, statt Inhalte auf derselben Seite anzuzeigen.
-seo-title: Zu einer URL umleiten
-solution: Target
-subtopic: Multivarianz-Test
 title: Zu einer URL umleiten
+subtopic: Multivarianz-Test
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
