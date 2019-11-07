@@ -1,15 +1,12 @@
 ---
-description: Informationen zum Verwenden von Unternehmenskundendaten aus einer Customer Relationship Management-Datenbank für das Targeting von Inhalten in Adobe Target mithilfe von Kundenattributen im Adobe Core-Service „Profile und Zielgruppen“.
 keywords: Kundendatensatzdienst; crs; crm; MboxdrittanbieterID; Kundenattribute; Targeting
-seo-description: Informationen zum Verwenden von Unternehmenskundendaten aus einer Customer Relationship Management-Datenbank für das Targeting von Inhalten in Adobe Target mithilfe von Kundenattributen im Adobe Core-Service „Profile und Zielgruppen“.
-seo-title: Kundenattribute in Adobe Target
-solution: Target
+description: Informationen zum Verwenden von Unternehmenskundendaten aus einer Customer Relationship Management-Datenbank für das Targeting von Inhalten in Adobe Target mithilfe von Kundenattributen im Adobe Core-Service „Profile und Zielgruppen“.
+title: Kundenattribute in Adobe Target
 subtopic: Erste Schritte
-title: Kundenattribute
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -68,8 +65,8 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Mithilfe der HTTP-Methode können Datendateien mit einer Größe von bis zu 100 MB hochgeladen werden. Dateien mit einer Größe von mehr als 100 MB bis zu 4 GB können über FTP hochgeladen werden.
 
-   * **HTTPS:** You can drag-and-drop the .csv data file or click **[!UICONTROL Browse]** to upload from your file system.
-   * **FTP:** Click the FTP link to [upload the file through FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Der erste Schritt besteht darin, ein Kennwort für den von Adobe bereitgestellten FTP-Server anzugeben. Specify the password, then click **[!UICONTROL Done]**.
+   * **** HTTPS: Sie können die .csv-Datendatei per Drag &amp; Drop verschieben oder auf **[!UICONTROL Durchsuchen]** klicken, um sie aus Ihrem Dateisystem hochzuladen.
+   * **** FTP: Klicken Sie auf den FTP-Link, um die Datei über FTP [hochzuladen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Der erste Schritt besteht darin, ein Kennwort für den von Adobe bereitgestellten FTP-Server anzugeben. Specify the password, then click **[!UICONTROL Done]**.
 
       Übertragen Sie nun Ihre CSV-/ZIP-/GZIP-Datei auf den FTP-Server. Nachdem die Dateiübertragung erfolgreich war, erstellen Sie eine neue Datei mit demselben Namen und der Erweiterung .fin. Übertragen Sie diese leere Datei auf den Server. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
