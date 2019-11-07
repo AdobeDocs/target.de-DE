@@ -1,14 +1,11 @@
 ---
-description: Der Location Contribution-Bericht zeigt die Leistung jedes einzelnen Elements und jedes einzelnen Angebots an.
 keywords: MVT; Multivariater Tests; Location Contribution-Bericht
-seo-description: Der Location Contribution-Bericht zeigt die Leistung jedes einzelnen Elements und jedes einzelnen Angebots an.
-seo-title: Location Contribution-Bericht (MVT)
-solution: Target
+description: Der Location Contribution-Bericht zeigt die Leistung jedes einzelnen Elements und jedes einzelnen Angebots an.
 title: Location Contribution-Bericht (MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
