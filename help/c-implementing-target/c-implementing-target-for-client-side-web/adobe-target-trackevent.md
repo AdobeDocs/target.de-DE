@@ -1,14 +1,11 @@
 ---
-description: 'Informationen zur Funktion adobe.target.trackEvent(options) für at.js. '
 keywords: adobe.target.trackevent; Trackevent; trackevent; Ereignis tracken; at.js; Funktionen; funktion; Preventdefault; preventdefault; Standard verhindern
-seo-description: Informationen zur Funktion adobe.target.trackEvent(options) für die JavaScript-Bibliothek von Adobe Target at.js.
-seo-title: Informationen zur Funktion adobe.target.trackEvent(options) für die JavaScript-Bibliothek von Adobe Target at.js.
-solution: Target
+description: Informationen zur Funktion adobe.target.trackEvent(options) für die JavaScript-Bibliothek von Adobe Target at.js.
+title: Informationen zur Funktion adobe.target.trackEvent(options) für die JavaScript-Bibliothek von Adobe Target at.js.
 subtopic: Erste Schritte
-title: adobe.target.trackEvent(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
