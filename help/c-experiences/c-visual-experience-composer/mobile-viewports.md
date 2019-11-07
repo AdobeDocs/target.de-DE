@@ -1,14 +1,10 @@
 ---
-description: Mit mobilen Viewports können Sie eine Vorschau Ihrer Aktivitäten auf unterschiedlich großen Bildschirmen anzeigen.
 keywords: responsiv;mobile Viewports;Viewport;Geräte;Mobilbeispiel;iPhone
-seo-description: Mit mobilen Viewports können Sie eine Vorschau Ihrer Aktivitäten auf unterschiedlich großen Bildschirmen anzeigen.
-seo-title: Mobile Viewports für responsive Erlebnisse
-solution: Target
+description: Mit mobilen Viewports können Sie eine Vorschau Ihrer Aktivitäten auf unterschiedlich großen Bildschirmen anzeigen.
 title: Mobile Viewports für responsive Erlebnisse
-topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
