@@ -1,14 +1,11 @@
 ---
-description: Kombinieren mehrerer Zielgruppen (einschließlich Adobe Experience Cloud- und Target-Zielgruppen) ohne Zwischenschritte zur Erstellung von Ad-hoc-Zielgruppen. Sie können auch Ausschlussregeln erstellen und darüber Zielgruppen ausschließen.
 keywords: Zielgruppe; Zielgruppenregeln; Kombinieren von Zielgruppen; Ausschluss; Ausschluss hinzufügen; Ausschließen; Kombinieren von Zielgruppen; Ad-hoc-Zielgruppe; Adhoc-Zielgruppe
-seo-description: Kombinieren mehrerer Zielgruppen (einschließlich Adobe Experience Cloud- und Target-Zielgruppen) ohne Zwischenschritte zur Erstellung von Ad-hoc-Zielgruppen. Sie können auch Ausschlussregeln erstellen und darüber Zielgruppen ausschließen.
-seo-title: Kombinieren mehrerer Zielgruppen in Adobe Target
-solution: Target
-title: Kombinieren mehrerer Zielgruppen
+description: Kombinieren mehrerer Zielgruppen (einschließlich Adobe Experience Cloud- und Target-Zielgruppen) ohne Zwischenschritte zur Erstellung von Ad-hoc-Zielgruppen. Sie können auch Ausschlussregeln erstellen und darüber Zielgruppen ausschließen.
+title: Kombinieren mehrerer Zielgruppen in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
