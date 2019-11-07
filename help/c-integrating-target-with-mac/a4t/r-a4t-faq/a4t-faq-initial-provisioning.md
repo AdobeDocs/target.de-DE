@@ -1,14 +1,11 @@
 ---
-description: Dieses Thema enthält Antworten auf häufig zur Bereitstellung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4t; Bereitstellung; Bereitstellen; Adobe Experience Cloud
-seo-description: Dieses Thema enthält Antworten auf häufig zur Bereitstellung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
-seo-title: Erste Bereitstellung – Häufig gestellte Fragen zu A4T
-solution: Target
+description: Dieses Thema enthält Antworten auf häufig zur Bereitstellung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 title: Erste Bereitstellung – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
