@@ -1,15 +1,12 @@
 ---
-description: In der Adobe Admin Console können Sie Benutzer hinzufügen und ihre Berechtigungen verwalten.
 keywords: Benutzer hinzufügen;Benutzer verwalten;Benutzerberechtigungen
-seo-description: In der Adobe Admin Console können Sie Benutzer hinzufügen und ihre Berechtigungen verwalten.
-seo-title: Benutzer
-solution: Target
-subtopic: Erste Schritte
+description: In der Adobe Admin Console können Sie Benutzer hinzufügen und ihre Berechtigungen verwalten.
 title: Benutzer
+subtopic: Erste Schritte
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
