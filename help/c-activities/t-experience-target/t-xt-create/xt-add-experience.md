@@ -1,14 +1,11 @@
 ---
-description: Der Visual Experience Composer (VEC) bietet eine visuelle Oberfläche zum Bearbeiten der Erlebnisse auf Ihrer Seite in einer Erlebnis-Targeting-Aktivität (XT).
 keywords: Erlebnis erstellen;Erlebniserstellung;Priorität;Zielgruppe;Erlebnis;Visual Experience Composer
-seo-description: Der Visual Experience Composer (VEC) von Adobe Target bietet eine visuelle Oberfläche zum Bearbeiten der Erlebnisse auf Ihrer Seite in einer Erlebnis-Targeting-Aktivität (XT).
-seo-title: Erlebnis erstellen
-solution: Target
+description: Der Visual Experience Composer (VEC) von Adobe Target bietet eine visuelle Oberfläche zum Bearbeiten der Erlebnisse auf Ihrer Seite in einer Erlebnis-Targeting-Aktivität (XT).
 title: Erlebnis erstellen
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
