@@ -1,15 +1,12 @@
 ---
-description: Dieser Abschnitt enthält die ersten Schritte für Target-Administratoren, die nach dem Erhalt der Einladung in Adobe Experience Cloud durchgeführt werden sollten.
 keywords: Administration;Genehmiger-Rolle;Genehmiger
-seo-description: Dieser Abschnitt enthält die ersten Schritte für Target-Administratoren, die nach dem Erhalt der E-Mail-Einladung zu Adobe Experience Cloud durchgeführt werden sollten.
-seo-title: Erste Schritte für Administratoren
-solution: Target
-subtopic: Erste Schritte
+description: Dieser Abschnitt enthält die ersten Schritte für Target-Administratoren, die nach dem Erhalt der E-Mail-Einladung zu Adobe Experience Cloud durchgeführt werden sollten.
 title: Erste Schritte für Administratoren
+subtopic: Erste Schritte
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
