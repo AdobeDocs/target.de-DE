@@ -1,14 +1,11 @@
 ---
-description: Ein Erlebnis legt fest, welcher Inhalt angezeigt wird, wenn der Besucher die Zielgruppenkriterien für eine Aktivität erfüllt.
 keywords: Erlebnis;Visual Experience Composer;Enhanced Experience Composer;Form Based Experience Composer;Form Composer;Visual Composer;Experience Composer;gemischte Inhalte;iFrame;iFrame-Busting;iFrame brechen;X-Frame-Options;X-Frame-Options;Cross Origin;Probleme mit Cross Origin;Authentifizierungs-Arbeitsablauf;IP-Blacklist;IP-Whitelist
-seo-description: Ein Erlebnis legt fest, welcher Inhalt angezeigt wird, wenn der Besucher die Zielgruppenkriterien für eine Aktivität erfüllt.
-seo-title: Erlebnisse und Angebote
-solution: Target
+description: Ein Erlebnis legt fest, welcher Inhalt angezeigt wird, wenn der Besucher die Zielgruppenkriterien für eine Aktivität erfüllt.
 title: Erlebnisse und Angebote
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
