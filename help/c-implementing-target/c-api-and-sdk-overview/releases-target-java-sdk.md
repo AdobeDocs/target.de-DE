@@ -1,13 +1,10 @@
 ---
-description: Versionshinweise zum Java-SDK von Adobe Target
 keywords: at.js;sdk;release;updates;sdks;serverseitig;serverseitig;java;java sdk
-seo-description: Versionshinweise zum Java-SDK von Adobe Target.
-seo-title: Versionshinweise zum Java-SDK von Adobe Target.
-solution: Target
-title: Versionshinweise - Target Java SDK
+description: Versionshinweise zum Java-SDK von Adobe Target.
+title: Versionshinweise zum Java-SDK von Adobe Target.
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
