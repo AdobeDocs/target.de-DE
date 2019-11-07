@@ -1,13 +1,10 @@
 ---
-description: Richten Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen aus, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen.
 keywords: Targeting; Zielgruppen; Prozentziel
-seo-description: Richten Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen in Adobe Target aus, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen.
-seo-title: Zielgruppen in Adobe Target
-solution: Target
-title: Zielgruppen
+description: Richten Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen in Adobe Target aus, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen.
+title: Zielgruppen in Adobe Target
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
