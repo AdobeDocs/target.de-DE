@@ -1,14 +1,11 @@
 ---
-description: Verwenden Sie Target mit Adobe Campaign, um E-Mail-Inhalte zu optimieren.
 keywords: Übersicht und Referenz
-seo-description: Verwenden Sie Target mit Adobe Campaign, um E-Mail-Inhalte zu optimieren.
-seo-title: Integration von Target in Adobe Campaign
-solution: Target
+description: Verwenden Sie Target mit Adobe Campaign, um E-Mail-Inhalte zu optimieren.
 title: Integration von Target in Adobe Campaign
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
