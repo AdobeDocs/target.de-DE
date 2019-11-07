@@ -1,16 +1,10 @@
 ---
-description: Verwenden Sie Feeds, damit Entitäten in Recommendations importiert werden. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feedformat bzw. Adobe Analytics-Classifications gesendet werden.
 keywords: Empfehlungs-Feed; Feed; SAINT; ftp; csv;klassifizierungen;analytics classifications
-seo-description: Verwenden Sie Feeds, damit Entitäten in Adobe Recommendations importiert werden. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feedformat bzw. Adobe Analytics-Classifications gesendet werden.
-seo-title: Feeds
-solution: Target
+description: Verwenden Sie Feeds, damit Entitäten in Adobe Recommendations importiert werden. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feedformat bzw. Adobe Analytics-Classifications gesendet werden.
 title: Feeds
-title-outputclass: premium
-topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
-badge: premium
 translation-type: tm+mt
-source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -189,7 +183,7 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Analytics-Classifications  {#section_79E430D2C75443BEBC9AA0916A337E0A}
+## Analytics-Classifications {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Classification. For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. Es ist möglich, dass nicht alle für Empfehlungen benötigten Informationen in Ihrer aktuellen Implementierung verfügbar sind. Befolgen Sie dieses Benutzerhandbuch, wenn Sie Informationen zu Ihrer Classification-Datei benötigen.
 
@@ -202,7 +196,7 @@ Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Class
 >* Target unterstützt nur Produkt-Classifications. Die Analytics-Produkt-SKU muss derselben Ebene wie die `entity.id` von Recommendations zugeordnet sein. Die benutzerspezifischen Analytics-Classifications können mit Adobe Consulting Services entwickelt werden. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Fragen haben.
 
 
-## Feed erstellen  {#steps}
+## Feed erstellen {#steps}
 
 Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in [!DNL Recommendations] einzufügen.
 
@@ -258,13 +252,13 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Nachdem Sie einen Feed erstellt oder bearbeitet haben, wird er sofort ausgeführt und anschließend anhand der von Ihnen festgelegten Parameter aktualisiert. Es dauert ein wenig, bis alle Informationen zur Verfügung stehen. Zunächst muss der Feed synchronisiert, dann bearbeitet und anschließend indexiert werden, bevor er veröffentlicht und verfügbar gemacht werden kann. Der aktuelle Status wird unter  [Feed-Status](/help/c-recommendations/c-products/feeds.md#status) in der Liste „Feeds“ angezeigt. Sie können [!DNL Target] schließen, bevor der Prozess abgeschlossen ist, und der Prozess wird weiter ausgeführt.
+Nachdem Sie einen Feed erstellt oder bearbeitet haben, wird er sofort ausgeführt und anschließend anhand der von Ihnen festgelegten Parameter aktualisiert. Es dauert ein wenig, bis alle Informationen zur Verfügung stehen. Zunächst muss der Feed synchronisiert, dann bearbeitet und anschließend indexiert werden, bevor er veröffentlicht und verfügbar gemacht werden kann. Der aktuelle Status wird unter [Feed-Status](/help/c-recommendations/c-products/feeds.md#status) in der Liste „Feeds“ angezeigt. Sie können [!DNL Target] schließen, bevor der Prozess abgeschlossen ist, und der Prozess wird weiter ausgeführt.
 
 Während der Indexierung erscheinen Produkte und Feed-Header vor der Indexierung von individuellen Werten. Dies ermöglicht Ihnen, Produkte zu suchen und anzusehen, sodass Sie Sammlungen, Ausnahmen, Entwürfe und Aktivitäten erstellen können, bevor die Indexierung abgeschlossen wurde.
 
 Wenn als Status „Erfolg“ gemeldet wird, bedeutet dies, dass die Datei gefunden und korrekt analysiert wurde. Bis zum Abschluss der Indexierung, die abhängig von der Größe Ihrer Datei einige Zeit in Anspruch nehmen kann, steht die Information nicht zur Verwendung in [!DNL Recommendations] zur Verfügung. Wenn der Prozess fehlschlägt, bedeutet dies, dass die Datei nicht gefunden wurde (zum Beispiel, wenn Sie eine fehlerhafte URL oder fehlerhafte FTP-Daten verwendet haben) oder dass bei der Analyse Fehler aufgetreten sind.
 
-## Feedstatus-Optionen und -Indikatoren  {#concept_E475986720D1400999868B3DFD14A7A0}
+## Feedstatus-Optionen und -Indikatoren {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Informationen über die möglichen Feedstatus-Optionen und deren Indikatoren.
 
@@ -291,14 +285,14 @@ Möchten Sie einen Feed aktualisieren (beispielsweise, um Änderungen an der Fee
 >
 >Hochgeladene Entitäten laufen nach 61 Tagen ab. Das bedeutet, dass Ihre Feed-Datei mindestens alle 60 Tage hochgeladen werden sollte, um eine Unterbrechung Ihrer Empfehlungsaktivitäten zu vermeiden. Wenn ein Element nicht mindestens alle 60 Tage in einer Feed-Datei (oder einer anderen Methode zur Aktualisierung der Entität) enthalten ist, wird das Element nicht mehr von Adobe Target aufgezeichnet und aus dem Katalog entfernt.
 
-### Feedstatus-Indikatoren  {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+### Feedstatus-Indikatoren {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
 Die folgenden Feedstatus-Indikatoren werden in der Spalte [!UICONTROL Status] angezeigt:
 
 | Statusindikator | Beschreibung |
 |--- |--- |
 | Grüner Statusindikator | Wenn die Indexierung eines Feeds erfolgreich abgeschlossen wurde, zeigt ein grüner Statuspunkt an, dass der Feed einen erfolgreichen Status hat. |
-| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Ein gelber Punkt wird beispielsweise für einen Feed angezeigt, für den eine tägliche Ausführung festgelegt wurde, sofern der Index nicht innerhalb von sechs Stunden nach der geplanten Zeit abgeschlossen wurde.  Hinweis: Sobald der Feed-Status „Warten auf Indexwarteschlange“ lautet, sind die neu aktualisierten Werte in der Bereitstellung und Kriterienverarbeitung verfügbar. |
+| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Ein gelber Punkt wird beispielsweise für einen Feed angezeigt, für den eine tägliche Ausführung festgelegt wurde, sofern der Index nicht innerhalb von sechs Stunden nach der geplanten Zeit abgeschlossen wurde.   Hinweis: Sobald der Feed-Status „Warten auf Indexwarteschlange“ lautet, sind die neu aktualisierten Werte in der Bereitstellung und Kriterienverarbeitung verfügbar. |
 | Weißer Statusindikator | Wenn ein Feed nicht geplant ist, gibt ein weißer Punkt für den Status an, dass der Feed noch nicht ausgeführt wurde. |
 | Roter Statusindikator | Wenn der Feed keine Daten auf den Server laden kann, wird ein roter Statusindikator angezeigt. |
 Sehen Sie sich folgende Beispiele an:
@@ -312,8 +306,8 @@ Der Status ist gelb, da der Index vor rund 6,5 Stunden erstellt werden sollte. 6
 
 **Beispiel 2:**
 
-* 1. Januar: Monatlicher Feed wird um 9:00 Uhr verarbeitet
-* 3. Februar: Es ist 10:00 Uhr und der Feed wurde einen Monat, einen Tag und eine Stunde lang nicht ausgeführt
+* Am 1. Januar: Monatlicher Feed wird um 9:00 Uhr verarbeitet
+* Am 3. Februar: Es ist 10:00 Uhr und der Feed wurde einen Monat, einen Tag und eine Stunde lang nicht ausgeführt
 
 Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte ausgeführt werden müssen. Auch wenn dies nur (31 + (1 / 25)) / 30 = 1,03 % der Häufigkeitseinstellung ergibt, wurde der Höchstwert von einem Tag für die Verzögerung überschritten.
 
