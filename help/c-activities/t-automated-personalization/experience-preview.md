@@ -1,16 +1,11 @@
 ---
-description: Erlebnis-URLs können für Aktivitäten zur automatisierten Personalisierung in Target generiert werden, um Erlebnisinhalte direkt auf Ihrer Site anzuzeigen, bevor die Aktivität für Vorschau und QA livegeschaltet wird. Erlebnis-URLs umgehen Targeting, um die Ansicht eines bestimmten Erlebnisses zu erzwingen.
 keywords: Erlebnisvorschau;Erlebnis-URLs;URLs generieren;Erlebnis-URLs anzeigen
-seo-description: Erlebnis-URLs können für Aktivitäten zur automatisierten Personalisierung in Target generiert werden, um Erlebnisinhalte direkt auf Ihrer Site anzuzeigen, bevor die Aktivität für Vorschau und QA livegeschaltet wird. Erlebnis-URLs umgehen Targeting, um die Ansicht eines bestimmten Erlebnisses zu erzwingen.
-seo-title: Weitergeben von Erlebnis-URLs zur Automated Personalization-Vorschau außerhalb von Target
-solution: Target
+description: Erlebnis-URLs können für Aktivitäten zur automatisierten Personalisierung in Target generiert werden, um Erlebnisinhalte direkt auf Ihrer Site anzuzeigen, bevor die Aktivität für Vorschau und QA livegeschaltet wird. Erlebnis-URLs umgehen Targeting, um die Ansicht eines bestimmten Erlebnisses zu erzwingen.
 title: Weitergeben von Erlebnis-URLs zur Automated Personalization-Vorschau außerhalb von Target
-title-outputclass: Premium
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
