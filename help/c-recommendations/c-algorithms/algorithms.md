@@ -1,16 +1,10 @@
 ---
-description: Kriterien sind Regeln, die auf Basis vorab ermittelter Verhaltensweisen von Besuchern festlegen, welche Produkte empfohlen werden.
-keywords: Empfehlungen; Empfehlungs-Aktivität; Kriterien;Algorithmus;Empfehlungsschlüssel;benutzerdefinierter Schlüssel;Branche;Handel;E-Commerce;Interessentenanwerbung;b2b;Finanzdienstleistungen;Medien;Veröffentlichung
-seo-description: Kriterien in Adobe Target Recommendations sind Regeln, die festlegen, welche Produkte basierend auf einem vordefinierten Satz von Besucherverhalten empfohlen werden sollen.
-seo-title: Kriterien in Adobe Target Recommendations
-solution: Target
-title: Kriterien
-title-outputclass: premium
-topic: Premium
+keywords: Empfehlungen;Empfehlungsaktivität;Kriterien;Algorithmus;Empfehlungsschlüssel;benutzerspezifischer Schlüssel;Branche;Branche;Handel;Interessentenanwerbung;b2b;Finanzdienstleistungen;Medien;Veröffentlichung
+description: Kriterien in Adobe Target Recommendations sind Regeln, die festlegen, welche Produkte basierend auf einem vordefinierten Satz von Besucherverhalten empfohlen werden sollen.
+title: Kriterien in Adobe Target Recommendations
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
-badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
