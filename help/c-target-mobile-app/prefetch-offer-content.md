@@ -1,14 +1,11 @@
 ---
+keywords: Angebot;Prefetch;iOS;android;sdk;mobile;mobile SDK
 description: Die Vorabruffunktion von Adobe Target verwendet iOS- und Android Mobile-SDKs, um so wenig Angebotsinhalt wie möglich abzurufen, indem die Serverantworten im Cache abgelegt werden.
-keywords: Angebot; Vorabruf; iOS; android;sdk;mobile;mobile sdk
-seo-description: Die Vorabruffunktion von Adobe Target verwendet iOS- und Android Mobile-SDKs, um so wenig Angebotsinhalt wie möglich abzurufen, indem die Serverantworten im Cache abgelegt werden.
-seo-title: Vorabruf des Angebotsinhalts
-solution: Target
 title: Vorabruf des Angebotsinhalts
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
