@@ -1,14 +1,11 @@
 ---
-description: Informationen dazu, wie mit der JavaScript-Bibliothek at.js beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
 keywords: Flackern;at.js;Implementierung
-seo-description: Informationen dazu, wie mit der Adobe Target JavaScript-Bibliothek at.js beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
-seo-title: Verwaltung von Flackern mit Adobe Target at.js
-solution: Target
-title: Verwaltung von Flackern mit „at.js“
+description: Informationen dazu, wie mit der Adobe Target JavaScript-Bibliothek at.js beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
+title: Verwaltung von Flackern mit Adobe Target at.js
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
