@@ -1,14 +1,10 @@
 ---
-description: Die Szenarien in diesem Thema veranschaulichen, wie sich an Ihrer Seite vorgenommene Änderungen auf die Fähigkeit von Target auswirken, ein Erlebnis anzuzeigen.
 keywords: Recommendations
-seo-description: Die Szenarien in diesem Thema veranschaulichen, wie sich an Ihrer Seite vorgenommene Änderungen auf die Fähigkeit von Target auswirken, ein Erlebnis anzuzeigen.
-seo-title: Szenarien für die Seitenmodifizierung
-solution: Target
+description: Die Szenarien in diesem Thema veranschaulichen, wie sich an Ihrer Seite vorgenommene Änderungen auf die Fähigkeit von Target auswirken, ein Erlebnis anzuzeigen.
 title: Szenarien für die Seitenmodifizierung
-topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
