@@ -1,13 +1,10 @@
 ---
-description: Benutzer basierend auf vorab erstellten Targeting-Regeln gezielt ansprechen
 keywords: Targeting; Target-Bibliothek; Bibliothek
-seo-description: Benutzer basierend auf vorab erstellten Targeting-Regeln gezielt ansprechen
-seo-title: Ziel-Bibliothek
-solution: Target
+description: Benutzer basierend auf vorab erstellten Targeting-Regeln gezielt ansprechen
 title: Ziel-Bibliothek
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
