@@ -1,14 +1,11 @@
 ---
-description: Details zu Änderungen in den verschiedenen Versionen von „at.js“.
 keywords: at.js-Releases;at.js-Versionen
-seo-description: Details zu Änderungen in den verschiedenen Versionen von „at.js“.
-seo-title: „at.js“-Versionsdetails
-solution: Target
-subtopic: Erste Schritte
+description: Details zu Änderungen in den verschiedenen Versionen von „at.js“.
 title: „at.js“-Versionsdetails
+subtopic: Erste Schritte
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
