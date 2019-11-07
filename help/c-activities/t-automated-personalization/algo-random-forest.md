@@ -1,15 +1,10 @@
 ---
-description: Der wichtigste Personalisierungsalgorithmus von Target, der sowohl in der automatisierten Personalisierung als auch im automatischen Targeting verwendet wird, ist Random Forest. Ensemble-Methoden wie Random Forest verwenden mehrere Lernalgorithmen, um eine bessere Prognoseleistung zu erzielen, als dies bei der isolierten Verwendung dieser Lernalgorithmen möglich wäre. Der Random Forest-Algorithmus der automatisierten Personalisierung ist eine Classification- oder Regressionsmethode, deren Funktionsweise die Konstruktion einer Vielzahl von Entscheidungsbäumen während der Anlernzeit zugrunde liegt.
 keywords: Targeting
-seo-description: Der wichtigste Personalisierungsalgorithmus von Target, der sowohl in der automatisierten Personalisierung als auch im automatischen Targeting verwendet wird, ist Random Forest. Ensemble-Methoden wie Random Forest verwenden mehrere Lernalgorithmen, um eine bessere Prognoseleistung zu erzielen, als dies bei der isolierten Verwendung dieser Lernalgorithmen möglich wäre. Der Random Forest-Algorithmus der automatisierten Personalisierung ist eine Classification- oder Regressionsmethode, deren Funktionsweise die Konstruktion einer Vielzahl von Entscheidungsbäumen während der Anlernzeit zugrunde liegt.
-seo-title: Random-Forest-Algorithmus
-solution: Target
+description: Der wichtigste Personalisierungsalgorithmus von Target, der sowohl in der automatisierten Personalisierung als auch im automatischen Targeting verwendet wird, ist Random Forest. Ensemble-Methoden wie Random Forest verwenden mehrere Lernalgorithmen, um eine bessere Prognoseleistung zu erzielen, als dies bei der isolierten Verwendung dieser Lernalgorithmen möglich wäre. Der Random Forest-Algorithmus der automatisierten Personalisierung ist eine Classification- oder Regressionsmethode, deren Funktionsweise die Konstruktion einer Vielzahl von Entscheidungsbäumen während der Anlernzeit zugrunde liegt.
 title: Random-Forest-Algorithmus
-title-outputclass: Premium
 uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
