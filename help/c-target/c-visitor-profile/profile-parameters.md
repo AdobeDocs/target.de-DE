@@ -5,7 +5,7 @@ title: Profilattribute in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -253,7 +253,7 @@ zu verwenden. Dieser Abschnitt dient als kurze Referenz, um Sie in wenigen Minut
 
 Skript-Profilparameter befinden sich auf der Registerkarte „mboxes/profile“. Sie können Javascript-Programme schreiben, die einen beliebigen Javascript-Typ (Zeichenfolge, Ganzzahl, Array usw.) zurückgeben.
 
-### Beispiele für Skript-Profilparameter
+### Beispiele für Skript-Profilparameter {#examples}
 
 **Name:***user.recency*
 
@@ -279,7 +279,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Erstellt eine Variable namens „frequency“ und initialisiert sie entweder für den vorherigen Wert oder 0, wenn kein vorheriger Wert vorhanden war. Wenn der mbox-Name `orderThankyouPage` lautet, wird der inkrementierte Wert zurückgegeben.
+Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. Wenn der mbox-Name `orderThankyouPage` lautet, wird der inkrementierte Wert zurückgegeben.
 
 **Name:***user.monetaryvalue*
 
@@ -291,6 +291,20 @@ if (mbox.name == 'orderThankyouPage') {
 ```
 
 Erstellt eine Variable namens `monetaryValue`, die den aktuellen Wert für einen bestimmten Besucher ermittelt (oder auf 0 setzt, wenn kein vorheriger Wert vorhanden war). Wenn der mbox-Name `orderThankyouPage` lautet, wird der neue Geldwert zurückgegeben, indem der vorherige und der Wert des an die Mbox übergebenen `orderTotal` Parameters hinzugefügt werden.
+
+**** Name: adobeQA
+
+```
+if (page.param("adobeQA"))
+     return page.param("adobeQA");
+else if (page.param("adobeqa"))
+     return page.param("adobeqa");
+else if (mbox.param("adobeQA"))
+     return mbox.param("adobeQA");
+```
+
+Erstellt eine Variable `adobeQA` zur Verfolgung eines Benutzers für die [Aktivitätsüberprüfung](/help/c-activities/c-activity-qa/activity-qa.md).
+
 
 ### Objekte und Methoden
 
