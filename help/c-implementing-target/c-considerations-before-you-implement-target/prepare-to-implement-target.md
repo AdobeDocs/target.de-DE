@@ -1,15 +1,12 @@
 ---
-description: Als Vorbereitung auf Adobe Target-Implementierungen sollten einige Aufgaben erledigt und Informationen zusammengetragen werden.
 keywords: implementieren;Implementierung;RFI;Informationsanfrage
-seo-description: Als Vorbereitung auf Adobe Target-Implementierungen sollten einige Aufgaben erledigt und Informationen zusammengetragen werden.
-seo-title: Vorbereiten der Adobe Target-Implementierung
-solution: Target
+description: Als Vorbereitung auf Adobe Target-Implementierungen sollten einige Aufgaben erledigt und Informationen zusammengetragen werden.
+title: Vorbereiten der Adobe Target-Implementierung
 subtopic: Erste Schritte
-title: Vorbereiten der Target-Implementierung
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
