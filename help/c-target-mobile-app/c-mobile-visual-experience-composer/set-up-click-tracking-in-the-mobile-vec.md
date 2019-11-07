@@ -1,14 +1,11 @@
 ---
-description: Der Mobile Visual Experience Composer (VEC) unterstützt das Einrichten von Klick-Tracking-Zielen für Target-Aktivitäten.
 keywords: Mobile App VEC; Visual Experience Composer für Mobilgeräte; Mobile Experience Composer – Optionen; Optionen für Mobilerlebnisse; Target-Ansicht; Klicks; Klick-Tracking; Track
-seo-description: Der Mobile Visual Experience Composer (VEC) unterstützt das Einrichten von Klick-Tracking-Zielen für Adobe Target-Aktivitäten.
-seo-title: Einrichten des Klick-Trackings im Mobile App VEC
-solution: Target
+description: Der Mobile Visual Experience Composer (VEC) unterstützt das Einrichten von Klick-Tracking-Zielen für Adobe Target-Aktivitäten.
 title: Einrichten des Klick-Trackings im Mobile App VEC
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
