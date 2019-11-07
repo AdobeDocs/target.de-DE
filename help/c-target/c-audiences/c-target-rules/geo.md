@@ -1,14 +1,12 @@
 ---
-description: Verwenden Sie Zielgruppen, um Benutzer anhand ihres geografischen Standortes auszuwählen (inklusive Land, Bundesland, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber).
 keywords: Targeting; a4t;geo; geotargeting; Genauigkeit von Geotargeting; Land; Bundesland; Stadt; Postleitzahl; dma; Mobilnetzbetreiber; Stadtvorwahl; Regionalcode; Landesvorwahl; Metrocode; Profilskripts; Geotargeting Profilskripts; Geotargeting mobiler Geräte
-seo-description: Verwenden Sie Adobe Target-Audiences, um Benutzer anhand ihres geografischen Standortes auszuwählen (inklusive Land, Bundesland, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber).
-seo-title: Geo
+description: Verwenden Sie Adobe Target-Audiences, um Benutzer anhand ihres geografischen Standortes auszuwählen (inklusive Land, Bundesland, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber).
+title: Geo
 solution: Target,Analytics
-title: Geo  Targeting in Adobe Target
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
