@@ -1,16 +1,10 @@
 ---
-description: Die Katalogsuche hilft Ihnen dabei, Produkte oder Inhalte in Ihrem Katalog zu finden.
 keywords: Katalog; suchen
-seo-description: Die Katalogsuche in Adobe Target hilft Ihnen dabei, Produkte oder Inhalte in Ihrem Katalog zu finden.
-seo-title: Katalogsuche in Adobe Target
-solution: Target
-title: Katalogsuche
-title-outputclass: premium
-topic: Premium
+description: Die Katalogsuche in Adobe Target hilft Ihnen dabei, Produkte oder Inhalte in Ihrem Katalog zu finden.
+title: Katalogsuche in Adobe Target
 uuid: e0876963-5905-4850-a615-953e435f26e9
-badge: premium
 translation-type: tm+mt
-source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
