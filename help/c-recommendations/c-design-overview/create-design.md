@@ -1,16 +1,10 @@
 ---
-description: Mit einem Entwurf wird festgelegt, wie Empfehlungen auf einer Seite dargestellt werden.
 keywords: Empfehlungsentwurf; Entwurf erstellen; Entwurf kopieren
-seo-description: Mit einem Entwurf wird festgelegt, wie Empfehlungen auf einer Seite dargestellt werden.
-seo-title: Erstellen eines Designs
-solution: Target
+description: Mit einem Entwurf wird festgelegt, wie Empfehlungen auf einer Seite dargestellt werden.
 title: Erstellen eines Designs
-title-outputclass: premium
-topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
-badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
