@@ -1,13 +1,10 @@
 ---
 description: Im Änderungsprotokoll befindet sich ein Datensatz zu den Personen, die Ihre Aktivitäten geändert haben; er gibt auch den Zeitpunkt dieser Änderungen an.
-seo-description: Im Änderungsprotokoll befindet sich ein Datensatz zu den Personen, die Ihre Aktivitäten geändert haben; er gibt auch den Zeitpunkt dieser Änderungen an.
-seo-title: Aktivitätsänderungsprotokoll in Adobe Target
-solution: Target
 title: Aktivitätsänderungsprotokoll in Adobe Target
 topic: Advanced
 uuid: 5bf4d79f-f15b-4ac4-9303-8eb2de5729d6
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
