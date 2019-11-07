@@ -1,14 +1,11 @@
 ---
-description: 'Informationen zur Funktion adobe.target.getOffers() für at.js. '
 keywords: adobe.target.getoffers;Getoffers;getoffers;Angebote abrufen;at.js;Funktionen;funktion
-seo-description: Informationen über die Funktion adobe.target.getOffers(options) für die JavaScript-Bibliothek von Adobe Target „at.js“.
-seo-title: Informationen über die Funktion adobe.target.getOffers() für die JavaScript-Bibliothek von Adobe Target „at.js“.
-solution: Target
+description: Informationen über die Funktion adobe.target.getOffers(options) für die JavaScript-Bibliothek von Adobe Target „at.js“.
+title: Informationen über die Funktion adobe.target.getOffers() für die JavaScript-Bibliothek von Adobe Target „at.js“.
 subtopic: Erste Schritte
-title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
