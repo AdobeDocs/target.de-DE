@@ -1,15 +1,12 @@
 ---
-description: In diesem Thema werden einige allgemeine Probleme behandelt, die auftreten, wenn Analytics als Berichtsquelle für Target (A4T) verwendet wird.
 keywords: Analytics-Trackingserver; A4T; Analytics-Segmente; Report Suites; falsche Daten; verwaist; sdid; VisitorAPI.js; mboxMCSDID; Phantom; unspezifisch
-seo-description: In diesem Thema werden einige allgemeine Probleme behandelt, die auftreten, wenn Analytics als Berichtsquelle für Target (A4T) verwendet wird.
-seo-title: Fehlerbehebung bei der Analytics- und Target-Integration (A4T)
-solution: Target
-subtopic: Multivarianz-Test
+description: In diesem Thema werden einige allgemeine Probleme behandelt, die auftreten, wenn Analytics als Berichtsquelle für Target (A4T) verwendet wird.
 title: Fehlerbehebung bei der Analytics- und Target-Integration (A4T)
+subtopic: Multivarianz-Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
