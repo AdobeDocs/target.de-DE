@@ -1,14 +1,11 @@
 ---
-description: Erstellen Sie JSON-Angebote in der Angebotsbibliothek für die Verwendung im formularbasierten Experience Composer.
 keywords: Remote-Angebot;Remote-Angebot erstellen
-seo-description: Erstellen Sie JSON-Angebote in der Angebotsbibliothek für die Verwendung im formularbasierten Experience Composer.
-seo-title: Erstellen von JSON-Angeboten
-solution: Target
+description: Erstellen Sie JSON-Angebote in der Angebotsbibliothek für die Verwendung im formularbasierten Experience Composer.
 title: Erstellen von JSON-Angeboten
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
