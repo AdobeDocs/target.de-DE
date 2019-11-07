@@ -1,16 +1,10 @@
 ---
-description: Informationen, die bei der Entscheidung zwischen Recommendations Classic und Recommendations-Aktivitäten in Target Premium helfen.
 keywords: Empfehlungen; Empfehlungs-Algorithmen; Empfehlungs-Aktivitäten; Recommendations Classic
-seo-description: Informationen, die bei der Entscheidung zwischen Recommendations Classic und Recommendations-Aktivitäten in Target Premium helfen.
-seo-title: Recommendations Classic und Recommendations-Aktivitäten in Target Premium
-solution: Target
+description: Informationen, die bei der Entscheidung zwischen Recommendations Classic und Recommendations-Aktivitäten in Target Premium helfen.
 title: Recommendations Classic und Recommendations-Aktivitäten in Target Premium
-title-outputclass: premium
-topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
