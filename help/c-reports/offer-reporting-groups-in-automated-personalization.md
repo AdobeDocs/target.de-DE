@@ -1,16 +1,11 @@
 ---
-description: Informationen zur Verwendung von Berichtsgruppen in AP-(Automated Personalization-)Aktivitäten.
-keywords: Automatisierte Personalisierung; Angebot; Berichterstellung; Gruppe;Berichtsgruppe
-seo-description: Informationen zur Verwendung von Berichtsgruppen in automatisierten Personalisierungsaktivitäten (AP) in Adobe Target.
-seo-title: Berichtgruppen in Aktivitäten mit automatisierter Personalisierung (AP) in Adobe Target anbieten
-solution: Target
-title: Berichtsgruppen für Angebote in Automated Personalization
-title-outputclass: premium
+keywords: Automatisierte Personalisierung;Angebot;Berichterstellung;Gruppe;Berichtsgruppe
+description: Informationen zur Verwendung von Berichtsgruppen in automatisierten Personalisierungsaktivitäten (AP) in Adobe Target.
+title: Berichtgruppen in Aktivitäten mit automatisierter Personalisierung (AP) in Adobe Target anbieten
 topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
-badge: premium
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
