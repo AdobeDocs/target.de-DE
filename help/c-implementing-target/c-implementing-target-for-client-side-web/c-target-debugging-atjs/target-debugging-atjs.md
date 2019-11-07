@@ -1,13 +1,11 @@
 ---
-description: Informationen zur Verwendung des Adobe Experience Cloud-Debuggers, einer Erweiterung, die eine schnelle und einfache Problembehebung in Ihrer Target-Implementierung ermöglicht.
 keywords: at.js;at.js debuggen;Adobe Experience Cloud Debugger;Experience Cloud Debugger;Mbox-Verfolgung;Mbox-Hervorhebung;debug;Debugging
-seo-description: Informationen zur Verwendung des Adobe Experience Cloud-Debuggers, einer Erweiterung, die eine schnelle und einfache Problembehebung in Ihrer Target-Implementierung ermöglicht.
-seo-title: „at.js“-Debugging mit dem Adobe Experience Cloud-Debugger
+description: Informationen zur Verwendung des Adobe Experience Cloud-Debuggers, einer Erweiterung, die eine schnelle und einfache Problembehebung in Ihrer Target-Implementierung ermöglicht.
 title: „at.js“-Debugging mit dem Adobe Experience Cloud-Debugger
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
