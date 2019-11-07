@@ -1,13 +1,10 @@
 ---
-description: Adobe Target wird mithilfe der JavaScript-Bibliothek „at.js“ oder „mbox.js“ in Ihre Webseiten integriert.
 keywords: Targeting; Cookie; Erstanbieter-Cookie; Erstanbietercookie
-seo-description: Adobe Target wird mithilfe der JavaScript-Bibliothek „at.js“ oder „mbox.js“ in Ihre Webseiten integriert.
-seo-title: Funktionsweise von Targeting
-solution: Target
+description: Adobe Target wird mithilfe der JavaScript-Bibliothek „at.js“ oder „mbox.js“ in Ihre Webseiten integriert.
 title: Funktionsweise von Targeting
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
