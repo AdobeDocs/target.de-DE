@@ -1,14 +1,11 @@
 ---
-description: Informationen zu den APIs für die serverseitige Bereitstellung von Adobe Target, Node.js SDK und Target Recommendations-APIs.
 keywords: serverseitig;serverseitig;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-seo-description: Informationen zu den APIs für die serverseitige Bereitstellung von Adobe Target, Node.js SDK und Target Recommendations-APIs.
-seo-title: Informationen zu den APIs für die serverseitige Bereitstellung von Adobe Target, Node.js SDK und Target Recommendations-APIs.
-solution: Target
-title: 'Server-seitig: Target-Implementierung'
+description: Informationen zu den APIs für die serverseitige Bereitstellung von Adobe Target, Node.js SDK und Target Recommendations-APIs.
+title: Informationen zu den APIs für die serverseitige Bereitstellung von Adobe Target, Node.js SDK und Target Recommendations-APIs.
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
