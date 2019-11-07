@@ -1,15 +1,12 @@
 ---
-description: Legen Sie Ihre Kontovoreinstellungen fest, um Target Standard oder Target Premium so zu konfigurieren, dass es korrekt mit Ihrem Konto funktioniert.
 keywords: Kontovoreinstellungen;Voreinstellungen;Site-Details;benutzerdefinierter Mbox-Name;für das Reporting verwendete Experience Cloud-Lösung;geschätzte Umsatzsteigerung anzeigen;CSS-Selektoren;Elementklassen verwenden;Standard-URL für Visual Experience Composer;Enhanced Experience Composer aktivieren;Erlebnismomentaufnahmen generieren;mobile Viewport-Konfiguration;vertikaler Markt;inkompatible Kriterien filtern
-seo-description: Legen Sie Ihre Kontovoreinstellungen fest, um Adobe Target Standard oder Target Premium so zu konfigurieren, dass es korrekt mit Ihrem Konto funktioniert.
-seo-title: Voreinstellungen
-solution: Target
-subtopic: Erste Schritte
+description: Legen Sie Ihre Kontovoreinstellungen fest, um Adobe Target Standard oder Target Premium so zu konfigurieren, dass es korrekt mit Ihrem Konto funktioniert.
 title: Voreinstellungen
+subtopic: Erste Schritte
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
