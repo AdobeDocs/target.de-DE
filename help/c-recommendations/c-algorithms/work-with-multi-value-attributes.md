@@ -1,15 +1,9 @@
 ---
-description: Informationen zum Arbeiten mit einem Feld mit mehreren Werten in Adobe Target Recommendations mithilfe spezieller Operatoren mit mehreren Werten.
 keywords: Multi-Wert;Attribute;Empfehlungen;Mehrwert;Mehrwert
-seo-description: Informationen zum Arbeiten mit einem Feld mit mehreren Werten in Adobe Target Recommendations mithilfe spezieller Operatoren mit mehreren Werten.
-seo-title: Arbeiten mit Attributen mit mehreren Werten in Adobe Target Recommendations
-solution: Target
-title: Arbeiten mit Attributen mit mehreren Werten
-title-outputclass: Premium
-topic: Premium
-badge: Premium
+description: Informationen zum Arbeiten mit einem Feld mit mehreren Werten in Adobe Target Recommendations mithilfe spezieller Operatoren mit mehreren Werten.
+title: Arbeiten mit Attributen mit mehreren Werten in Adobe Target Recommendations
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
