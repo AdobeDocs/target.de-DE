@@ -1,18 +1,18 @@
 ---
-keywords: QS; Vorschau; Vorschaulinks
-description: Mithilfe von QA-URLs können Sie einfach End-to-End-Aktivitäts-QAs durchführen und unveränderbare Vorschaulinks, ein optionales Zielgruppen-Targeting und QA-Berichte einfügen, die basierend auf Live-Aktivitätsdaten segmentiert bleiben.
+keywords: qa;Vorschau;Vorschau-Links;adobe-Ziel;Ziel
+description: Verwenden Sie Adobe Target-QS-URLs, um eine einfache End-to-End-Aktivitäts-QS mit Vorschau-Links durchzuführen, die sich nie ändern, optionales Zielgruppen-Targeting und QS-Berichte, die aus Live-Aktivitätsdaten segmentiert bleiben.
 title: Aktivitäts-QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
 
 ---
 
 
 # Aktivitäts-QA {#activity-qa}
 
-Mithilfe von QA-URLs können Sie einfach End-to-End-Aktivitäts-QAs durchführen und unveränderbare Vorschaulinks, ein optionales Zielgruppen-Targeting und QA-Berichte einfügen, die basierend auf Live-Aktivitätsdaten segmentiert bleiben.
+Verwenden Sie QS-URLs in Adobe Target, um eine einfache End-to-End-Aktivitäts-QS mit Vorschau-Links durchzuführen, die sich nie ändern, optionales Zielgruppen-Targeting und QS-Berichte, die aus Live-Aktivitätsdaten segmentiert bleiben.
 
 ## Überblick {#section_11B761A522A14E61978275772210A4C2}
 
