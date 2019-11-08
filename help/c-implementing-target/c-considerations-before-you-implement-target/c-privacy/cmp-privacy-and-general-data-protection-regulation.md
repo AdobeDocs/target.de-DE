@@ -5,7 +5,7 @@ title: Informationen über die Datenschutz-Grundverordnung (DSGVO) der Europäis
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 ---
 
@@ -44,6 +44,10 @@ Das Gesetz überträgt den Bürgern Kaliforniens auf hoher Ebene verschiedene gr
 * Einholen von Informationen darüber, dass personenbezogene Daten bekannt gemacht oder verkauft werden
 
 Wenn Sie sich im vergangenen Jahr auf das europäische Datenschutzrecht (DSGVO) vorbereitet haben, sind Ihnen einige dieser Rechte wahrscheinlich bekannt. Möglicherweise können Sie viele der bereits durchgeführten Aufgaben für das neue Gesetz verwenden.
+
+>[!NOTE]
+>
+>Der Zugriff auf und das Löschen von Daten, wie sie für das CCPA gelten, erfolgt nach demselben Verfahren wie für das GDPR.
 
 ## Opt-in-Funktion in Adobe Target und [!DNL Experience Platform Launch] {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -289,3 +293,7 @@ Die im Beispiel verwendeten JSON-Felder des Profils werden in der folgenden Tabe
 ### Unterstützt Target IP-Verschleierung?  {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] unterstützt IP-Verschleierung, wenn Sie sie im Rahmen Ihrer DSGVO- oder CCPA-Implementierungsstrategie einsetzen. Weitere Informationen finden Sie unter  [Datenschutz](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+
+### Muss ich etwas unternehmen, um zu verhindern, dass meine Daten an Dritte weitergegeben oder verkauft werden?
+
+Target kann Kunden nicht erlauben, Daten direkt von Target an Dritte weiterzugeben oder zu verkaufen. Daher gibt es keinen Ausschluss vom Verkauf für Target.
