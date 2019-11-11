@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -139,6 +139,10 @@ Vor diesem Vorgang müssen Sie alle Cookies entfernen.
 **Wie werden Gebiete wie Puerto Rico und Hongkong der Geotargeting-Struktur zugeordnet?**
 
 Puerto Rico, Hongkong und andere Gebiete werden als separate Länderwerte verarbeitet.
+
+**Erfasst (und speichert)[!DNL Target]Informationen wie Postleitzahlen, wenn Aktivitäten mit Geo-Standort-Targeting-Funktionen ins Visier genommen werden?**
+
+Nein, [!DNL Target] verwendet nur für die Dauer der Sitzung geografische Daten, dann werden die Daten verworfen.
 
 ## Schulungsvideo: Erstellen von Zielgruppen
 
