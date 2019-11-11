@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 117e4c8712d49a284331552268cec42bb34cf013
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -20,6 +20,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 | --- | --- | --- |
 | 11. November 2019 | [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Es wurden Informationen über Version 1.0.1 hinzugefügt. |
 |  | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das ganze Thema wurde aktualisiert. |
+|  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | Es wurden Informationen hinzugefügt, die erklären, dass Geoinformationen [!DNL Target] nicht gespeichert werden, wie z. B. Postleitzahlen. |
 | 8. November 2019 | [Target Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md) | Es wurden Links zu weiteren Problemen in der Vergangenheit hinzugefügt. |
 |  | [Vorschriften zur Privatsphäre und zum Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | CCPA-Abschnitt mit neuer Notiz aktualisiert.<br>Es wurden neue FAQ hinzugefügt, die Kunden darüber informieren, dass Target Kunden nicht die Möglichkeit bietet, Daten direkt von Target an Dritte weiterzugeben oder zu verkaufen. Daher gibt es keine Möglichkeit, den Verkauf für Target abzuwählen. |
 | 7. November 2019 | [Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | Codebeispiel für den Parameter adobeQA hinzugefügt. |
