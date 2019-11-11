@@ -5,7 +5,7 @@ title: Versionshinweise zu Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -21,6 +21,14 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 >Diese Versionshinweise enthalten Vorabversionsinformationen. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden. Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Timing der Versionen identisch sein oder abweichen.
 >
 >Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+
+## Target Java SDK Version 1.0.1 (11. November 2019)
+
+Das folgende Problem wurde in Version 1.0.1 behoben:
+
+* Senden Sie zusätzliche Daten-IDs in einer Target-Anforderung, selbst wenn kein Besucher-API-Cookie vorhanden ist.
+
+Weitere Informationen finden Sie unter [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
 
 ## Target-Plattform (31. Oktober 2019)
 
