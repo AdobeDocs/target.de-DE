@@ -1,11 +1,11 @@
 ---
-keywords: Änderungsprotokoll der Zieldokumentation;Dokumentationsaktualisierungen;neue Themen;Bearbeitungen
+keywords: target documentation change log;documentation updates;new topics;edits
 description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Dokumentation aufgelistet, die nach Versionen sortiert wurden.
 title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
+source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
 
 ---
 
@@ -18,6 +18,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 15. November 2019 | [Zehn häufige A/B-Testfallen und wie sie vermieden werden können](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | "Pitfall 7: Änderung der Traffic-Zuordnung während des Testzeitraums." |
 | 11. November 2019 | [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Es wurden Informationen über Version 1.0.1 hinzugefügt. |
 |  | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das ganze Thema wurde aktualisiert. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | Es wurden Informationen hinzugefügt, die erklären, dass Geoinformationen [!DNL Target] nicht gespeichert werden, wie z. B. Postleitzahlen. |
