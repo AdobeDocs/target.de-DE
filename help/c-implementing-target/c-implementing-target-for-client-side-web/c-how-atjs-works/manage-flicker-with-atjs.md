@@ -1,11 +1,11 @@
 ---
-keywords: Flackern;at.js;Implementierung
+keywords: flicker;at.js;implementation
 description: Informationen dazu, wie mit der Adobe Target JavaScript-Bibliothek at.js beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
 title: Verwaltung von Flackern mit Adobe Target at.js
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 12761951688cae6fd8908ceded7b252b58d51165
 
 ---
 
@@ -42,7 +42,11 @@ Weitere Informationen zum Überschreiben mit `bodyHiddenStyle` finden Sie unter 
 
 Das asynchrone Laden von at.js eignet sich hervorragend, um zu verhindern, dass das Rendern des Browsers blockiert wird. Bei dieser Technik kann es jedoch zu Flackereffekten auf der Webseite kommen.
 
-Sie können das Flackern verhindern, indem Sie einen vorab ausgeblendeten Ausschnitt verwenden, der sichtbar ist, nachdem die relevanten HTML-Elemente von [!DNL Target] personalisiert wurden. Es wird empfohlen, einen Tag-Manager wie Adobe DTM oder das neue Adobe Launch zu verwenden, um den vorab ausgeblendeten Ausschnitt hinzuzufügen. Der Ausschnitt muss vor dem Laden von at.js hinzugefügt werden.
+Sie können das Flackern verhindern, indem Sie einen vorab ausgeblendeten Ausschnitt verwenden, der sichtbar ist, nachdem die relevanten HTML-Elemente von [!DNL Target] personalisiert wurden. 
+
+at.js kann asynchron geladen werden, entweder direkt auf der Seite eingebettet oder über einen Tag-Manager (Adobe Launch, Dynamischer Tag-Manager (DTM) usw.).
+
+Wenn at.js auf der Seite eingebettet ist, muss das Codefragment vor dem Laden von at.js hinzugefügt werden. Wenn Sie at.js über einen Tag-Manager laden, der auch asynchron geladen wird, müssen Sie das Snippet vor dem Laden des Tag-Managers hinzufügen. Wenn der Tag-Manager synkronisch geladen wird, kann das Skript vor "at.js"im Tag-Manager enthalten sein.
 
 Der Code für den vorab ausgeblendeten Ausschnitt lautet wie folgt:
 
