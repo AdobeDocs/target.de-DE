@@ -1,11 +1,11 @@
 ---
-keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen; Zielgruppentargeting; Zielgruppenberichterstellung; Zielgruppenbericht; Segment; benutzerdefinierte Profilparameter; Zielgruppendefinition; Zielgruppenliste
+keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Mithilfe von Zielgruppen in Adobe Target wird bestimmt, wer Inhalte und Erlebnisse in einer Target-Aktivität anzeigen kann.
 title: Erstellen von Zielgruppen in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 8c78e7f917e71cae69e068091d3436b95b2afb4f
 
 ---
 
@@ -23,7 +23,7 @@ In [!DNL Target] stehen zwei Zielgruppentypen zur Verfügung:
 * **Target-Zielgruppen:** Dieser Typ wird verwendet, um verschiedenen Besuchertypen unterschiedliche Inhalte bereitzustellen.
 * **Berichtszielgruppen:** Dieser Typ wird verwendet, um zu bestimmen, wie verschiedene Benutzertypen auf den gleichen Inhalt reagieren, und unterstützt Sie bei der Analyse Ihrer Testergebnisse.
 
-   In [!DNL Target] können Sie Berichtszielgruppen nur dann konfigurieren, wenn Sie [!DNL Target] als Berichtsquelle verwenden. Wenn Sie [DNL Adobe Analytics als Berichtsquelle](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, müssen Sie Ihre Berichterstellungszielgruppen in [!DNL Analytics] konfigurieren.
+   In [!DNL Target] können Sie Berichtszielgruppen nur dann konfigurieren, wenn Sie [!DNL Target] als Berichtsquelle verwenden. Wenn Sie [ Adobe Analytics als Berichtsquelle](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, müssen Sie Ihre Berichterstellungszielgruppen in [!DNL Analytics] konfigurieren.
 
 ## Verwenden der Zielgruppenliste
 
