@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -18,6 +18,9 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 26. November 2019 | [Verwaltung von Flackern mit „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Text in "Verwalten des Flackerns beim asynchronen Laden von at.js"aktualisiert. |
+|  | [Target Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md) | Es wurde ein Link zum Newsletter vom November 2019 hinzugefügt. |
+|  | [Benutzer](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Text und Bilder unter "Rollen und Berechtigungen festlegen"wurden aktualisiert. |
 | 15. November 2019 | [Zehn häufige A/B-Testfallen und wie sie vermieden werden können](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | "Pitfall 7: Änderung der Traffic-Zuordnung während des Testzeitraums." |
 | 11. November 2019 | [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Es wurden Informationen über Version 1.0.1 hinzugefügt. |
 |  | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das ganze Thema wurde aktualisiert. |
