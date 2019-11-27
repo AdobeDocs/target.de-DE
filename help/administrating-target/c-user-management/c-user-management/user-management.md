@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -70,20 +70,23 @@ Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden n
 
    ![Registerkarte „Produkte“](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-1. Klicken Sie auf den Namen der gewünschten Konfiguration.
-1. Klicken Sie auf **[!UICONTROL Benutzer]**.
+1. Klicken Sie auf den gewünschten Arbeitsbereich (z. B. Standardarbeitsbereich).
+
+   ![Standardarbeitsbereich](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace.png)
 
    Auf der Registerkarte [!UICONTROL Benutzer] werden alle Benutzer des Workspace aufgeführt.
 
    ![Konfigurationsbenutzer](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
-1. Wählen Sie die gewünschte Berechtigungsrolle (Beobachter, Editor oder Genehmiger) aus, indem Sie in der Spalte [!UICONTROL Produktrolle] die entsprechende Dropdownliste nutzen.
+1. Wählen Sie das gewünschte Berechtigungsniveau (Genehmiger, Editor oder Beobachter) aus, indem Sie in der Spalte [!UICONTROL Produktrolle] das entsprechende Dropdown-Menü nutzen.
+
+   ![Dropdown-Liste "Produktrolle"](/help/administrating-target/c-user-management/c-user-management/assets/product-role.png)
 
    | Rolle | Beschreibung |
    |--- |--- |
-   | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-   | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
    | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
+   | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
+   | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
 
 Weitere Informationen finden Sie unter [Verwalten von Produktberechtigungen und Rollen in der Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) im *Enterprise-Benutzerhandbuch*.
 
