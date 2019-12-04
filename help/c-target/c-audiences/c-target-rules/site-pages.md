@@ -1,22 +1,18 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
-description: Sie können mit Adobe Target auf Besucher abzielen, die sich auf einer bestimmten Seite befinden oder einen bestimmten mbox-Parameter haben.
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+description: Sie können Besucher, die sich auf einer bestimmten Seite Ihrer Site befinden, als Ziel auswählen.
 title: Site-Seiten in Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
+source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 
 ---
 
 
 # Seiten der Site{#site-pages}
 
-Sie können auf Besucher abzielen, die sich auf einer bestimmten Seite befinden oder einen bestimmten mbox-Parameter haben.
-
->[!NOTE]
->
->Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. Sie können Website-Zielgruppen auch mit einem eigenen „benutzerdefinierten Abfrageparameter“ oder „benutzerdefinierten Header“ erstellen.
+Sie können Besucher, die sich auf einer bestimmten Seite Ihrer Site befinden, als Ziel auswählen.
 
 1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
@@ -32,7 +28,7 @@ Sie können auf Besucher abzielen, die sich auf einer bestimmten Seite befinden 
 
    Die folgenden Optionen stehen in der ersten Dropdown-Liste zur Verfügung, wenn Sie " [!UICONTROL Auswählen]"wählen.
 
-   * **Aktuelle Seite:** Die Seite, die der Benutzer gegenwärtig aufruft und die eine Mbox in der Aktivität enthält. Wenn Sie ein Ziel auf Aktivitätsebene auswählen, könnte dies eine Seite mit einer Mbox sein, die Sie verwenden, um Eintragsbedingungen zu definieren, oder eine Seite, die Inhalte anzeigt. Wenn Sie ein Ziel nach Erlebnis auswählen, ist die aktuelle Seite die Seite, auf der sich die Display-Mbox befindet. Für Erfolgsmetrik- oder Konversions-Targeting ist es die Seite, auf der sich diese Mboxes befinden.
+   * **** Aktuelle Seite: Die Seite, auf der sich der Benutzer derzeit befindet.
 
       Die folgenden Optionen stehen in der zweiten Dropdownliste zur Verfügung, wenn Sie diese Option wählen:
 
@@ -68,7 +64,7 @@ Sie können auf Besucher abzielen, die sich auf einer bestimmten Seite befinden 
       >
       >Das `landing.url`-Objekt wird bei einer Änderung der Subdomäne oder einer direkten URL-Ersetzung zurückgesetzt.
 
-   * **** HTTP-Kopfzeile: Mit dieser Option werden die Informationen im HTTP-Header der ersten Seite ausgewertet, die dem Besucher beim Zugriff auf Ihre Site angezeigt wird. Wenn der HTTP-Header beispielsweise Sprachinformationen enthält, können Sie eine Regel erstellen, die die `Accept-Language: es` Bedingung für das Targeting von Besuchern enthält.
+   * **** HTTP-Kopfzeile: Diese Option bewertet die Informationen im HTTP-Header der Target-Anforderung. Wenn der HTTP-Header beispielsweise Sprachinformationen enthält, können Sie eine Regel erstellen, die die `Accept-Language: es` Bedingung für das Targeting von Besuchern enthält, die die Seite auf Spanisch aufrufen.
 
       Die folgenden Optionen stehen in der zweiten Dropdownliste zur Verfügung, wenn Sie diese Option wählen:
 
@@ -79,7 +75,7 @@ Sie können auf Besucher abzielen, die sich auf einer bestimmten Seite befinden 
       * Genehmigung
       * Cache-Control
       * Verbindung
-      * content-light
+      * Content-Length
       * Content-MDS
       * Content-Type
       * Datum
