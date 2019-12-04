@@ -1,11 +1,11 @@
 ---
-keywords: Seiten der Site; Seiten der Target-Site; Targeting; aktuelle Seite; Targeting der aktuellen Seite; vorherige Seite; Targeting der vorherigen Seite; Zielseite; Targeting-Zielseite; mbox; Ziel-mbox
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
 description: Sie können mit Adobe Target auf Besucher abzielen, die sich auf einer bestimmten Seite befinden oder einen bestimmten mbox-Parameter haben.
 title: Site-Seiten in Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
 
 ---
 
@@ -16,7 +16,7 @@ Sie können auf Besucher abzielen, die sich auf einer bestimmten Seite befinden 
 
 >[!NOTE]
 >
->Die Zielgruppen-Website-Typen und Vergleichsoperatoren stimmen nun mit den Typen und Vergleichsoperatoren in Target Classic überein. Sie können Website-Zielgruppen auch mit einem eigenen „benutzerdefinierten Abfrageparameter“ oder „benutzerdefinierten Header“ erstellen.
+>Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. Sie können Website-Zielgruppen auch mit einem eigenen „benutzerdefinierten Abfrageparameter“ oder „benutzerdefinierten Header“ erstellen.
 
 1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
@@ -24,21 +24,93 @@ Sie können auf Besucher abzielen, die sich auf einer bestimmten Seite befinden 
 
    ![Seiten der Site als Zielgruppe](assets/target_site_pages.png)
 
-1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
+1. Klicken Sie auf die Dropdownliste **[!UICONTROL Auswählen]** , wählen Sie eine der folgenden Optionen und konfigurieren Sie dann die Regel wie gewünscht.
 
-   * **Aktuelle Seite:** Die Seite, die der Benutzer gegenwärtig aufruft und die eine Mbox in der Aktivität enthält. Wenn Sie ein Ziel auf Aktivitätsebene auswählen, könnte dies eine Seite mit einer Mbox sein, die Sie verwenden, um Eintragsbedingungen zu definieren, oder eine Seite, die Inhalte anzeigt. Wenn Sie ein Ziel nach Erlebnis auswählen, ist die aktuelle Seite die Seite, auf der sich die Display-Mbox befindet. Für Erfolgsmetriken oder Konversions-Targeting ist es die Seite, auf der sich diese Mboxes befinden.
+   Die verfügbaren Optionen und Auswerter in nachfolgenden Dropdownlisten in der Regel variieren je nach ausgewählter Option. Die folgende Abbildung zeigt die verfügbaren Optionen, wenn Sie " [!UICONTROL Aktuelle Seite]"auswählen:
+
+   ![Aktuelle Seite](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
+
+   Die folgenden Optionen stehen in der ersten Dropdown-Liste zur Verfügung, wenn Sie " [!UICONTROL Auswählen]"wählen.
+
+   * **Aktuelle Seite:** Die Seite, die der Benutzer gegenwärtig aufruft und die eine Mbox in der Aktivität enthält. Wenn Sie ein Ziel auf Aktivitätsebene auswählen, könnte dies eine Seite mit einer Mbox sein, die Sie verwenden, um Eintragsbedingungen zu definieren, oder eine Seite, die Inhalte anzeigt. Wenn Sie ein Ziel nach Erlebnis auswählen, ist die aktuelle Seite die Seite, auf der sich die Display-Mbox befindet. Für Erfolgsmetrik- oder Konversions-Targeting ist es die Seite, auf der sich diese Mboxes befinden.
+
+      Die folgenden Optionen stehen in der zweiten Dropdownliste zur Verfügung, wenn Sie diese Option wählen:
+
+      * URL
+      * Domäne
+      * Abfrage
+      * Subdomäne
+      * Domäne auf oberster Ebene
+      * Pfad
+      * Hash (#)-Fragment
    * **Vorherige Seite:** Die Seite, die der Benutzer vor dem Anklicken der aktuellen Seite aufgerufen hat. (Der Benutzer muss von der letzten Seite auf die aktuelle Seite klicken, damit die Seite nachverfolgt wird. Die vorherige Seite wird nicht verfolgt, wenn der Benutzer eine neue URL in den Browser eingibt.) Der tatsächliche Inhalt auf dieser Seite hängt vom Design Ihrer Site ab. Wenn beispielsweise auf der aktuellen Seite Informationen zu einem bestimmten Produkt angezeigt werden, kann es sich bei der letzten Seite um eine Kategorieseite, auf der der Benutzer ein bestimmtes Element ausgewählt hat (zum Beispiel eine Seite, auf mehrere Kameras eines bestimmten Typs angezeigt werden) oder eine Homepage mit Verweis auf die Ausstiegsseite handeln.
+
+      Die folgenden Optionen stehen in der zweiten Dropdownliste zur Verfügung, wenn Sie diese Option wählen:
+
+      * URL
+      * Domäne
+      * Abfrage
+      * Subdomäne
+      * Domäne auf oberster Ebene
+      * Pfad
    * **Landingpage:** Die Landingpage ist die Seite, die Besuchern beim Zugriff auf Ihre Site zuerst angezeigt wird. Wenn der Besucher z. B. auf einen Link in Google klickt, der zu einer Kategorieseite führt, ist die Kategorieseite die Landingpage. Wenn der Link zu Ihrer Homepage führt, ist die Homepage die Landingpage. Die Landingpage wird während der Benutzersitzung gespeichert. Sie können Ihr Ziel tiefer in die Site richten, je nachdem, welche Seite die Landingpage des Benutzers in dieser Sitzung war.
 
+      Die folgenden Optionen stehen in der zweiten Dropdownliste zur Verfügung, wenn Sie diese Option wählen:
+
+      * URL
+      * Domäne
+      * Abfrage
+      * Subdomäne
+      * Domäne auf oberster Ebene
+      * Pfad
+      * Hash (#)-Fragment
       >[!NOTE]
       >
       >Das `landing.url`-Objekt wird bei einer Änderung der Subdomäne oder einer direkten URL-Ersetzung zurückgesetzt.
 
-   * **mbox:** Die mbox, die Gegenstand des Targeting ist. Wenn Sie z. B. Bestellungen mit einer Bestellsumme von 100 Euro oder mehr zählen möchten, geben Sie `orderTotal` als Mbox-Parameter mit dem hier angegebenen Targeting weiter.
+   * **** HTTP-Kopfzeile: Mit dieser Option werden die Informationen im HTTP-Header der ersten Seite ausgewertet, die dem Besucher beim Zugriff auf Ihre Site angezeigt wird. Wenn der HTTP-Header beispielsweise Sprachinformationen enthält, können Sie eine Regel erstellen, die die `Accept-Language: es` Bedingung für das Targeting von Besuchern enthält.
+
+      Die folgenden Optionen stehen in der zweiten Dropdownliste zur Verfügung, wenn Sie diese Option wählen:
+
+      * Accept
+      * Accept-Charset
+      * Accept-Encoding
+      * Accept-Language
+      * Genehmigung
+      * Cache-Control
+      * Verbindung
+      * content-light
+      * Content-MDS
+      * Content-Type
+      * Datum
+      * Erwarten
+      * Von
+      * Host
+      * If-Match
+      * If-Modified-Since
+      * If-none-match
+      * If-Range
+      * If-Unchanged-Since
+      * Max. Vorwärts
+      * Pragma
+      * Proxy-Autorisierung
+      * Bereich
+      * Referer
+      * TE
+      * Aktualisierung
+      * User-Agent
+      * Via
+      * Warnung
+   Wenn Sie " [!UICONTROL Aktuelle Seite]", " [!UICONTROL Vorherige Seite]"oder " [!UICONTROL Einstiegsseite]"auswählen, stehen die Optionen " [!UICONTROL Domäne] "und " [!UICONTROL Abfrage] "zur Verfügung. Berücksichtigen Sie bei der Auswahl dieser Optionen Folgendes:
+
    * **Domäne:** Die vollständige Domäne der Seite Für das Festlegen einer Domäne wird die Versendung von „contains“ empfohlen. Beispiel: „Domain equals facebook.com“ wird `m.facebook.com` oder `www.facebook.com` nicht akzeptieren. „Domain contains facebook.com“ hingegen erfasst alle Varianten von „facebook.com“.
    * **Abfrage:** Der Inhalt der URL nach dem ersten Fragezeichen (?) 
 
       `foo.html?e0a72cb2a2c7`
+
+
+
+
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
