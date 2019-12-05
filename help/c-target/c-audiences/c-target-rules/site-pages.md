@@ -5,7 +5,7 @@ title: Site-Seiten in Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
+source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
 
 ---
 
@@ -116,7 +116,7 @@ Sie können Website-Zielgruppen auch mit einem eigenen „benutzerdefinierten Ab
 Verwenden Sie:
 
 * Abfrageparameter, wenn die vom Benutzer ausgewählte Regel „Aktuelle Seite“, „Landingpage“ oder „Vorherige Seite“ lautet.
-* Header, wenn die von einem Benutzer ausgewählte Regel in einem HTTP-Header enthalten ist.
+* Kopfzeile, wenn die vom Benutzer ausgewählte Regel ein HTTP-Header ist.
 
 Siehe Abbildung unten:
 
