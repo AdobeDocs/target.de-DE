@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -18,6 +18,8 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 10. Dezember 2019 | [Zielbegrenzungen](/help/r-troubleshooting-target/target-limits.md) | Der Abschnitt "mbox-Parameter"wurde aktualisiert. |
+|  | [Kriterien](/help/c-recommendations/c-algorithms/algorithms.md) | Es wurde ein Hinweis zur Unterstützung der Funktion Kriterienverwendung hinzugefügt. |
 | 5. Dezember 2019 | [Seiten der Site](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Das Thema wurde aktualisiert. |
 | 2. Dezember 2019 | [Standortdienst verwenden](/help/c-target-mobile-app/use-location-service.md) | Neues Thema |
 | 26. November 2019 | [Verwaltung von Flackern mit „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Text in "Verwalten des Flackerns beim asynchronen Laden von at.js"aktualisiert. |
