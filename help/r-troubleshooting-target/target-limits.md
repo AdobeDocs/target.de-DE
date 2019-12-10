@@ -1,11 +1,11 @@
 ---
-keywords: Zeichenbeschränkung; Mbox-Parameter; Batch-Bereitstellungs-API; Profilparameter; Beschränkungen; integrierte Profile; Maximum; Beschränkung; Bedingung; Zeichen; Best Practice; BestellID; gesamte Bestellung; MboxdrittanbieterID; Kategorie; KategorieID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
 title: Beschränkungen
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
 
 ---
 
@@ -107,14 +107,38 @@ Alle Profile über 50 werden ignoriert.
 
 **Limit**: Die folgenden Beschränkungen gelten für Mbox-Parameter:
 
+Für Standard-Mbox-Aufrufe:
 * Mbox-Parameter: 500 Parameter pro Mbox.
-* Profilparameter: 500 Parameter.
-* Profilparameter pro Mbox:
+* Profilparameter: 500 Parameter Profilparameter pro mbox.
 * Andere Parameter (URL, verweisende URL usw.): 50 Parameter pro Mbox für jeden Parametertyp.
 
-Für Parameter, die in der Target-Datenbank protokolliert werden, gelten die oben genannten Grenzwerte für Standard-Mbox-Anfragen. Diese Beschränkungen gelten, sofern die Anfrage nicht durch Webbrowser-Beschränkungen gekürzt wird.
+Diese Beschränkungen gelten, sofern die Anfrage nicht durch Webbrowser-Beschränkungen gekürzt wird.
 
-Wenn Sie die [Batch-Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-batch-delivery) im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Wenn eine Anforderung mehr als diese Beschränkungen enthält, gibt die API die folgende Fehlermeldung zurück:„Die Anzahl der Mbox-Parameter darf 100 nicht überschreiten.“
+Wenn Sie die [Batch-Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-batch-delivery) im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Wenn eine Anforderung mehr als diese Beschränkungen enthält, gibt die API die folgende Fehlermeldung zurück:
+
+"Die Anzahl der mboxParameters darf 50 nicht überschreiten."
+
+Für Endpunkte festgelegte Grenzwerte:
+
+Batch-mbox v2:
+* mbox-Parameter 100
+* Mbox-Parametername max. Länge 128
+* mbox-Parameterwert darf nicht null sein
+* mbox-Parameterwert 5000
+* Profilparameter 50
+* Profilparametername max. Länge 128
+* profile parameter value cannot be null
+* Profilparameterwert max. Länge 256
+
+Endpunkt der Auslieferungs-API
+* mbox-Parameter 50
+* Mbox-Parametername max. Länge 128
+* mbox-Parameterwert darf nicht null sein
+* mbox-Parameterwert 5000
+* Profilparameter 50
+* Profilparametername max. Länge 128
+* profile parameter value cannot be null
+* Profilparameterwert max. Länge 256
 
 ## URL-Adressen zur Mbox-Anfrage
 
