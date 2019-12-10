@@ -1,10 +1,10 @@
 ---
-keywords: Empfehlungen;Empfehlungsaktivität;Kriterien;Algorithmus;Empfehlungsschlüssel;benutzerspezifischer Schlüssel;Branche;Branche;Handel;Interessentenanwerbung;b2b;Finanzdienstleistungen;Medien;Veröffentlichung
+keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Kriterien in Adobe Target Recommendations sind Regeln, die festlegen, welche Produkte basierend auf einem vordefinierten Satz von Besucherverhalten empfohlen werden sollen.
 title: Kriterien in Adobe Target Recommendations
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -107,3 +107,6 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusnutzung]**, um eine L
 
 ![Registerkarte „Kriteriennutzung“](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
+>[!NOTE]
+>
+>Die Funktion Kriterienverwendung wird derzeit nur für Recommendations-Aktivitäten unterstützt. Aktivitäten mit A/B-Tests und Erlebnis-Targeting (XT) werden derzeit nicht unterstützt.
