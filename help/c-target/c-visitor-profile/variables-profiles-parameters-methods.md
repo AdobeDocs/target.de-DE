@@ -1,11 +1,11 @@
 ---
-keywords: Variablen; Profile; Parameter; eingebaute Profile; Methoden; URL-Variablen; Geo-Profile; Drittanbieterprofile; Mbox-Variablen; Kampagnenvariablen; Kundenattribute
+keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten nützlich sind.
 title: Nützliche Variablen, Profile, Parameter und Methoden
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 ---
 
@@ -41,7 +41,7 @@ Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten n
 | user.setLocal('param_name','value'); |  |
 | user.get('param_name') |  |
 | user.parameter | Aus Profilskripten erstellte beständige Profilattribute. Verweist auch auf „Systemprofile“ wie geografischer Standort, Besucherzahlen usw. |
-| profile.get('param_name') |  |
+| profile.get('param_name') | Die richtige Methode zum Abrufen eines Profilparameters, der in einem Profilskript verwendet werden soll, ist die Methode profile.get('param_name'). |
 | profile.param('param_name'); |  |
 | profile.parameter('parameter_name'); | mbox-Parameter, die aufgrund ihres Profil.  -Präfix als beständig festgelegt wurden. |
 | „profile.browserTime“ | Die lokale Browserzeit des Besuchers. Erstellen Sie für die Systemzeit ein neues Datenobjekt im Profilskript. |
