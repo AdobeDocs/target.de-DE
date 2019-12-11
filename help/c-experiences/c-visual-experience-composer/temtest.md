@@ -1,10 +1,10 @@
 ---
-keywords: Vorlagentests;Vorlage;gleiches Erlebnis auf ähnlichen Seiten;Vorlagentest
+keywords: template testing;template;same experience on similar pages;template test
 description: Wenn Sie die Struktur Ihrer Seite mithilfe einer Seitenvorlage erstellen oder wenn Ihre Seite ähnliche Elemente enthält, können Sie mithilfe dieser Funktion Variationen in ähnlich strukturierten Seitenelementen testen.
 title: Gleiches Erlebnis auf ähnlichen Seiten
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -36,7 +36,7 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
 
 1. Legen Sie den Seitenbereich fest. Der Seitenbereich kann einer der folgenden sein:
 
-   * URL
+   * URL (Weitere Informationen zur Bewertung von URLs durch Target finden Sie unter Häufig gestellte Fragen zu [Zielen und Zielgruppen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * Domäne
    * Pfad
    * Hashfragment (#) (Nehmen Sie ein Targeting auf den Teil der URL vor, der auf das #-Symbol folgt.)
