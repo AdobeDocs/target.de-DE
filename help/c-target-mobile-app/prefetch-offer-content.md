@@ -1,11 +1,11 @@
 ---
-keywords: Angebot;Prefetch;iOS;android;sdk;mobile;mobile SDK
+keywords: offer;prefetch;iOS;android;sdk;mobile;mobile sdk
 description: Die Vorabruffunktion von Adobe Target verwendet iOS- und Android Mobile-SDKs, um so wenig Angebotsinhalt wie möglich abzurufen, indem die Serverantworten im Cache abgelegt werden.
 title: Vorabruf des Angebotsinhalts
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
 
 ---
 
@@ -16,10 +16,10 @@ Die [!DNL Target] Vorabruffunktion verwendet die iOS- und Android Mobile-SDKs, u
 
 Dieser Prozess reduziert die Ladezeit, verhindert multiple Netzwerkaufrufe und ermöglicht es [!DNL Target], darüber benachrichtigt zu werden, welche Mbox vom Benutzer der mobilen Anwendung besucht wurde. Der gesamte Inhalt wird abgerufen und während des Aufrufs für den Vorabruf im Cache abgelegt, und dieser Inhalt wird bei allen zukünftigen Aufrufen abgerufen, die im Cache abgelegte Inhalte für den spezifizierten mbox-Namen enthalten.
 
-Beachten Sie Folgendes, wenn mit der Vorabruf-Methode iOS- und Android-Mobile SDKs verwendet werden:
+Beachten Sie bei der Verwendung der prefetch-Methode mit den iOS- und Android Mobile SDKs die folgenden Einschränkungen:
 
 * Vorabgerufene Inhalte werden nicht über Starts hinweg behalten. Der Inhalt des vorherigen Artikels wird zwischengespeichert, solange die Anwendung aktiv ist oder bis die `clearPrefetchCache()` Methode aufgerufen wird.
-* Die Vorabruffunktion in iOS- und Android-Mobile-SDKs wird nicht für die Aktivitätstypen „Automatisches Targeting“, „Automatisierte Zuordnung“ und „Automatisierte Personalisierung“ unterstützt.
+* Die Funktion "Prefetch"wird nicht unterstützt für [!UICONTROL Zuordnungsmethoden für Traffic-Zuordnungen mit automatisierter Zuordnung] und [!UICONTROL automatisiertem Targeting] , für Aktivitätstypen mit [!UICONTROL automatisierter Personalisierung] oder [!UICONTROL Recommendations] oder für [Empfehlungsangebote innerhalb einer A/B- oder XT-Aktivität](/help/c-recommendations/recommendations-as-an-offer.md).
 
 Weitere Informationen einschließlich Vorabruf-Methoden, öffentliche Klassen und Code-Beispiele finden Sie unter:
 
