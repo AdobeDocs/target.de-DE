@@ -4,7 +4,7 @@ description: Kriterien in Adobe Target Recommendations sind Regeln, die festlege
 title: Kriterien in Adobe Target Recommendations
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 980e446a73e30e06d79b7c73e6102c6e32930481
+source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
 
 ---
 
@@ -109,4 +109,4 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusnutzung]**, um eine L
 
 >[!NOTE]
 >
->Die Funktion Algorithmusverwendung wird derzeit nur für Recommendations-Aktivitäten unterstützt. Diese Funktion unterstützt derzeit keine Aktivitäten für A/B-Tests und Erlebnis-Targeting (XT).
+>Die Funktion [!UICONTROL Algorithmusverwendung] wird derzeit nur für Recommendations-Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für Aktivitäten mit A/B-Tests und Erlebnis-Targeting (XT) unterstützt, die [Empfehlungen als Angebot](/help/c-recommendations/recommendations-as-an-offer.md)enthalten.
