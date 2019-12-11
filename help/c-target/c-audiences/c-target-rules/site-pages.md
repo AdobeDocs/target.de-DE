@@ -5,7 +5,7 @@ title: Site-Seiten in Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -32,7 +32,7 @@ Sie können Besucher, die sich auf einer bestimmten Seite Ihrer Site befinden, a
 
       Die folgenden Optionen stehen in der zweiten Dropdownliste zur Verfügung, wenn Sie diese Option wählen:
 
-      * URL
+      * URL (Weitere Informationen zur Bewertung von URLs durch Target finden Sie unter Häufig gestellte Fragen zu [Zielen und Zielgruppen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domäne
       * Abfrage
       * Subdomäne
@@ -43,7 +43,7 @@ Sie können Besucher, die sich auf einer bestimmten Seite Ihrer Site befinden, a
 
       Die folgenden Optionen stehen in der zweiten Dropdownliste zur Verfügung, wenn Sie diese Option wählen:
 
-      * URL
+      * URL (Weitere Informationen zur Bewertung von URLs durch Target finden Sie unter Häufig gestellte Fragen zu [Zielen und Zielgruppen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domäne
       * Abfrage
       * Subdomäne
@@ -53,7 +53,7 @@ Sie können Besucher, die sich auf einer bestimmten Seite Ihrer Site befinden, a
 
       Die folgenden Optionen stehen in der zweiten Dropdownliste zur Verfügung, wenn Sie diese Option wählen:
 
-      * URL
+      * URL (Weitere Informationen zur Bewertung von URLs durch Target finden Sie unter Häufig gestellte Fragen zu [Zielen und Zielgruppen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domäne
       * Abfrage
       * Subdomäne
