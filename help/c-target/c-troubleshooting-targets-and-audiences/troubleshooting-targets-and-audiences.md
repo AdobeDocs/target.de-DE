@@ -1,11 +1,11 @@
 ---
-keywords: Fehlerbehebung; häufig gestellte Fragen; FAQ; FAQs; Targets; Zielgruppen
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
 title: Häufig gestellte Fragen zu Zielen und Zielgruppen
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
 
 ---
 
@@ -13,6 +13,37 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 # Häufig gestellte Fragen zu Zielen und Zielgruppen{#targets-and-audiences-faq}
 
 Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
+
+## Wie bewertet Target URLs beim Targeting? {#url}
+
+Target bewertet die URLs unterschiedlich, je nachdem, ob Sie beim Erstellen einer Aktivität das Zielgruppen-URL-Targeting verwenden oder ob Sie beim Erstellen einer Zielgruppe URL-Targeting verwenden.
+
+Betrachten Sie die folgende URL:
+
+`http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+
+**Zielgruppen-URL-Targeting**: Um beim Erstellen einer Aktivität das Zielgruppen-URL-Targeting anzuwenden, klicken Sie auf der Seite "Erlebnisse"(Schritt eins des geleiteten Arbeitsablaufs mit drei Schritten) auf das Zahnradsymbol, klicken Sie auf Seitenbereitstellung und geben Sie dann die gewünschte URL an.
+
+![Seiten-Auslieferungs-URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+
+Zielgruppen-URL-Targeting sucht nach einer exakten URL-Übereinstimmung. Wenn die URL übereinstimmt, berücksichtigt Target keine weitere Logik. Wenn in der oben genannten URL die Aktivität auf "auslösen"eingestellt ist, `www.example.com`wird die URL für die folgenden URLs passend, da das Zielgruppen-URL-Targeting Abfrageagnostik ist:
+
+* `www.example.com?query=something`
+* `www.example.com?query=anything`
+* `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
+
+Als Best Practice können Sie neben dem Zielgruppen-Targeting für die URL auch bestimmte Werte angeben, die in der Abfrage enthalten sein können.
+
+**URL-Targeting**: Um beim Erstellen einer Zielgruppe das URL-Targeting anzuwenden, klicken Sie auf Regel hinzufügen, klicken Sie auf Site-Seiten, wählen Sie eine Option aus der ersten Dropdownliste (Aktuelle Seite, Vorherige Seite oder Einstiegsseite), wählen Sie die URL aus der zweiten Dropdownliste aus, geben Sie einen Auswerter an und geben Sie dann die gewünschte URL an.
+
+![Site-Seiten &gt; Aktuelle Seite &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+
+URL-Targeting wandelt die URL in einen Regelsatz zur Bewertung um:
+
+* URL-Domäne = `example.com`
+* Pfad = path1/path2/path3
+* queryStringParam1 = test123
+* queryStringParam2 = test7
 
 ## Wird beim Erstellen komplexer URL-Zeichenfolgen die gesamte URL ausgewertet [!DNL Target] ?
 
