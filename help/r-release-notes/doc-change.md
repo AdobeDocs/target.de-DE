@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -18,6 +18,7 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 11. Dezember 2019 | [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Neue FAQs hinzugefügt: "Wie bewertet Target URLs beim Targeting?" |
 | 10. Dezember 2019 | [Zielbegrenzungen](/help/r-troubleshooting-target/target-limits.md) | Der Abschnitt "mbox-Parameter"wurde aktualisiert. |
 |  | [Kriterien](/help/c-recommendations/c-algorithms/algorithms.md) | Es wurde ein Hinweis zur Unterstützung der Funktion Kriterienverwendung hinzugefügt. |
 | 5. Dezember 2019 | [Seiten der Site](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Das Thema wurde aktualisiert. |
