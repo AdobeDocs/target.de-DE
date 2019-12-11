@@ -4,7 +4,7 @@ description: Kriterien in Adobe Target Recommendations sind Regeln, die festlege
 title: Kriterien in Adobe Target Recommendations
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 980e446a73e30e06d79b7c73e6102c6e32930481
 
 ---
 
@@ -105,8 +105,8 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusinformationen]**, um 
 
 Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusnutzung]**, um eine Liste der Aktivitäten anzuzeigen, die das ausgewählte Kriterium verwenden. Die Karte führt aktive und inaktive Aktivitäten auf. Klicken Sie auf die Dropdownliste „Live-Aktivitäten“ oder „Inaktivitäten“, um die gesamte Liste von Aktivitäten anzuzeigen, die das Kriterium verwenden. Sie können auf einen Aktivitätslink klicken, um die Aktivität zur Bearbeitung zu öffnen.
 
-![Registerkarte „Kriteriennutzung“](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![Registerkarte "Algorithmusverwendung"](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->Die Funktion Kriterienverwendung wird derzeit nur für Recommendations-Aktivitäten unterstützt. Aktivitäten mit A/B-Tests und Erlebnis-Targeting (XT) werden derzeit nicht unterstützt.
+>Die Funktion Algorithmusverwendung wird derzeit nur für Recommendations-Aktivitäten unterstützt. Diese Funktion unterstützt derzeit keine Aktivitäten für A/B-Tests und Erlebnis-Targeting (XT).
