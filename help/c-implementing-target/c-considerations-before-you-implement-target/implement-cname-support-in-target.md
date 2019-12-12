@@ -1,11 +1,11 @@
 ---
-keywords: Client-Pflege;cname;Zertifikatprogramm;Kanonischer Name;Cookies;Zertifikat;amc;adobe-verwaltetes Zertifikat;Digicert;Domänenkontrollvalidierung;dcv
+keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
 description: Informationen zur Arbeit mit Adobe Client Care zur Implementierung der CNAME-Unterstützung (Canonical Name) in Adobe Target.
 title: CNAME und Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 872e2329e7954453b5c8bd4f4885b94f1b02fd1f
+source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
 
 ---
 
@@ -65,6 +65,14 @@ Ja, dazu können Sie ein eigenes Zertifikat angeben:
 ### Ich habe bereits eine CNAME-Implementierung für [!DNL Adobe Analytics], können wir dasselbe Zertifikat oder denselben Hostnamen verwenden?
 
 Nein, es [!DNL Target] ist ein separater Hostname und Zertifikat erforderlich.
+
+### Ist meine aktuelle Implementierung von Target von ITP 2.1 oder 2.2 betroffen?
+
+Navigieren Sie in einem Safari-Browser zu Ihrer Website, auf der Sie über eine Target-JavaScript-Bibliothek verfügen. If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.1 or 2.2.
+
+ITP-Probleme können für Target nur mit einem Analytics-CNAME gelöst werden. Sie benötigen einen separaten Target-CNAME nur bei Werbeblockierungsszenarien, in denen Target blockiert ist.
+
+Weitere Informationen zu ITP finden Sie unter [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
 ### Wie kann ich überprüfen, ob meine CNAME-Implementierung für Traffic bereit ist?
 
