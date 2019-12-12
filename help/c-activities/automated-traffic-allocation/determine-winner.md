@@ -1,20 +1,32 @@
 ---
-keywords: Automatisierte Traffic-Zuordnung; Targeting; Gewinner; statistische Garantie; Konfidenz; Gewinner bestimmen
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
 description: Den Gewinner in einer A/B-Aktivität mit automatisierter Zuordnung erkennen Sie an Indikatoren in der Target-Benutzeroberfläche.
 title: Ermitteln eines Gewinners
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 ---
 
 
-# Ermitteln eines Gewinners{#determine-a-winner}
+# Berichte zur automatischen Zuordnung interpretieren {#determine-a-winner}
 
-Den Gewinner in einer A/B-Aktivität mit automatisierter Zuordnung erkennen Sie an Indikatoren in der Target-Benutzeroberfläche.
+Interpretieren Sie die Ergebnisse einer A/B-Aktivität mit automatisierter Zuordnung, indem Sie wichtige Indikatoren wie Steigerung und Konfidenz in der Target-Benutzeroberfläche untersuchen.
 
 Viele Marketingexperten machen den Fehler, ein Erlebnis vorzeitig zum Gewinner zu erklären, bevor endgültige Ergebnisse vorliegen. Wir haben es nun leichter für Sie gemacht, den Gewinner zu ermitteln.
+
+## Informationen zu Steigerungs- und Vertrauensberichten in Aktivitäten mit automatisierter Zuordnung {#lift-confidence}
+
+Bei Aktivitäten mit automatisierter Zuordnung wird das erste Erlebnis (standardmäßig Erlebnis A genannt) auf der Registerkarte "Berichte"immer als Kontrollerlebnis definiert. Dieses Erlebnis wird bei der Modellierung zur Bestimmung der Leistung von Erlebnissen nicht als echte statistische Kontrolle behandelt, sondern als Referenz oder Grundlage für einige Zahlen im Bericht.
+
+Der numerische Wert "Steigerung"und die Grenzen von 95 % für jedes Erlebnis werden immer unter Bezugnahme auf das definierte Erlebnis "Kontrolle"berechnet. Das definierte Kontrollerlebnis kann keine Steigerung im Verhältnis zu sich selbst aufweisen. Daher wird für dieses Erlebnis ein leerer "—"-Wert gemeldet. Im Gegensatz zu A/B-Tests wird bei Tests mit automatisierter Zuordnung kein negativer Steigerungswert gemeldet, wenn ein Erlebnis schlechter als die definierte Kontrolle ausfällt. stattdessen wird "—"angezeigt.
+
+Die angezeigten Vertrauensbereich-Balken repräsentieren das Konfidenzintervall von 95 % um die mittlere Schätzung der Konversionsrate eines Erlebnisses. Diese sind auch in Bezug auf das definierte Kontrollerlebnis farbkodiert. Die Leiste des Erlebnisses "Control"ist immer grau gefärbt. Die Teile der Konfidenzintervalle unter dem Konfidenzintervall des "Control"-Erlebnisses sind rot und die Teile der Konfidenzintervalle über dem Kontrollerlebnis grün.
+
+Ein Gewinner wird gefunden, wenn sich das 95 %-Vertrauensintervall des führenden Erlebnisses nicht mit anderen Erlebnissen überschneidet. Das Gewinner-Erlebnis wird mit einem grünen Sternzeichen links neben dem Erlebnisnamen und im Banner "Gewinner"gekennzeichnet. Wenn kein Stern sichtbar ist, lautet das Banner "Noch kein Gewinner"und ein Gewinner wurde noch nicht gefunden.
+
+Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine "Konfidenz"angezeigt. Diese Zahl wird erst gemeldet, wenn die Konfidenz des führenden Erlebnisses mindestens 60 % erreicht hat. Wenn genau zwei Erlebnisse im Experiment mit automatisierter Zuordnung vorhanden sind, stellt diese Zahl das Vertrauensniveau dar, dass das Erlebnis eine bessere Leistung erzielt als das andere Erlebnis. Wenn im Experiment mit der automatischen Zuordnung mehr als zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, das das Erlebnis besser abschneidet als das definierte Kontrollerlebnis. Wenn das Kontrollerlebnis gewinnt, wird keine "Konfidenz"angegeben.
 
 ## Anzeigen des Siegerabzeichens in der Target-Benutzeroberfläche {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
