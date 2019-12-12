@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 ---
 
@@ -197,7 +197,7 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
          + [Verschiedene Erlebniszielgruppen in A/B-Tests](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Automatisch zuweisen {#auto-allocate}
       + [Automatische Zuordnung](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-      + [Ermitteln eines Gewinners](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [Berichte zur automatischen Zuordnung interpretieren](c-activities/automated-traffic-allocation/determine-winner.md)
    + [Automatisches Targeting](c-activities/auto-target-to-optimize.md)
    + Automatisierte Personalisierung {#automated-personalization}
       + [Automated Personalization – Überblick](c-activities/t-automated-personalization/automated-personalization.md)
