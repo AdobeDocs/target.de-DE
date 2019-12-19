@@ -1,10 +1,10 @@
 ---
-keywords: at.js;sdk;release;updates;sdks;serverseitig;serverseitig;java;java sdk
+keywords: at.js;sdk;release;updates;sdks;server side;serverside;server-side;java;java sdk
 description: Versionshinweise zum Java-SDK von Adobe Target.
 title: Versionshinweise zum Java-SDK von Adobe Target.
 topic: Standard
 translation-type: tm+mt
-source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
+source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 
 ---
 
@@ -18,6 +18,14 @@ Mit dem [!DNL Target] Java-SDK können Sie [!DNL Target] serverseitig bereitstel
 Das Java-SDK führt Best Practices ein und entfernt bei der Integration mit [!DNL Target] unserer Bereitstellungs-API Komplexitäten, sodass sich Ihre Entwicklungsteams auf die Geschäftslogik konzentrieren können.
 
 Weitere Informationen zum Target Java SDK finden Sie im Adobe Tech Blog - [Serverseitige Optimierung mit dem neuen Target Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2).
+
+## Version 1.1.0 (16. Dezember 2019)
+
+Im folgenden Abschnitt finden Sie weitere Informationen zur Version 1.1.0 des Target Java SDK:
+
+### Hinzugefügt:
+
+* Unterstützung für die Proxy-Konfiguration hinzugefügt aufgrund eines Open-Source-Beitrags von @hisham-hassan.
 
 ## Version 1.0.1 (11. November 2019)
 
