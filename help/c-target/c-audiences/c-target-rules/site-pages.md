@@ -5,7 +5,7 @@ title: Site-Seiten in Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 ---
 
@@ -14,19 +14,19 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 Sie können Besucher, die sich auf einer bestimmten Seite Ihrer Site befinden, als Ziel auswählen.
 
-1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
+1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]**>**[!UICONTROL  Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Seiten der Site]**.
+1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]**>**[!UICONTROL  Seiten der Site]**.
 
    ![Seiten der Site als Zielgruppe](assets/target_site_pages.png)
 
-1. Klicken Sie auf die Dropdownliste **[!UICONTROL Auswählen]** , wählen Sie eine der folgenden Optionen und konfigurieren Sie dann die Regel wie gewünscht.
+1. Klicken Sie auf die Dropdownliste **[!UICONTROL Auswählen]**, wählen Sie eine der folgenden Optionen und konfigurieren Sie dann die Regel wie gewünscht.
 
-   Die verfügbaren Optionen und Auswerter in nachfolgenden Dropdownlisten in der Regel variieren je nach ausgewählter Option. Die folgende Abbildung zeigt die verfügbaren Optionen, wenn Sie " [!UICONTROL Aktuelle Seite]"auswählen:
+   Die verfügbaren Optionen und Auswerter in nachfolgenden Dropdownlisten in der Regel variieren je nach ausgewählter Option. Die folgende Abbildung zeigt die verfügbaren Optionen, wenn Sie &quot; [!UICONTROL Aktuelle Seite]&quot;auswählen:
 
    ![Aktuelle Seite](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
-   Die folgenden Optionen stehen in der ersten Dropdown-Liste zur Verfügung, wenn Sie " [!UICONTROL Auswählen]"wählen.
+   Die folgenden Optionen stehen in der ersten Dropdown-Liste zur Verfügung, wenn Sie &quot; [!UICONTROL Auswählen]&quot;wählen.
 
    * **** Aktuelle Seite: Die Seite, auf der sich der Benutzer derzeit befindet.
 
@@ -97,7 +97,7 @@ Sie können Besucher, die sich auf einer bestimmten Seite Ihrer Site befinden, a
       * User-Agent
       * Via
       * Warnung
-   Wenn Sie " [!UICONTROL Aktuelle Seite]", " [!UICONTROL Vorherige Seite]"oder " [!UICONTROL Einstiegsseite]"auswählen, stehen die Optionen " [!UICONTROL Domäne] "und " [!UICONTROL Abfrage] "zur Verfügung. Berücksichtigen Sie bei der Auswahl dieser Optionen Folgendes:
+   Wenn Sie &quot; [!UICONTROL Aktuelle Seite]&quot;, &quot; [!UICONTROL Vorherige Seite]&quot;oder &quot; [!UICONTROL Einstiegsseite]&quot;auswählen, stehen die Optionen &quot; [!UICONTROL Domäne] &quot;und &quot; [!UICONTROL Abfrage] &quot;zur Verfügung. Berücksichtigen Sie bei der Auswahl dieser Optionen Folgendes:
 
    * **Domäne:** Die vollständige Domäne der Seite Für das Festlegen einer Domäne wird die Versendung von „contains“ empfohlen. Beispiel: „Domain equals facebook.com“ wird `m.facebook.com` oder `www.facebook.com` nicht akzeptieren. „Domain contains facebook.com“ hingegen erfasst alle Varianten von „facebook.com“.
    * **Abfrage:** Der Inhalt der URL nach dem ersten Fragezeichen (?) 
@@ -108,7 +108,7 @@ Sie können Besucher, die sich auf einer bestimmten Seite Ihrer Site befinden, a
 
 
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
+1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]**und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Sie können Website-Zielgruppen auch mit einem eigenen „benutzerdefinierten Abfrageparameter“ oder „benutzerdefinierten Header“ erstellen.
@@ -132,6 +132,12 @@ Siehe Abbildung unten:
    * Verwenden Sie eine [A/B-Testaktivität](/help/c-activities/t-test-ab/test-ab.md) anstelle einer Einstiegsseitenaktivität. A/B-Test-Aktivitäten wechseln nicht zwischen Erlebnissen für denselben Besucher.
    * Verwenden Sie stattdessen ein [Besucherprofil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) .
 
+* Beachten Sie bei der Verwendung von &quot;beginnt/endet mit&quot;-Evaluatoren für Zeichenfolgen, die Kommas enthalten, dass diese Werte als Array von Werten ausgewertet werden, in denen jeder durch Kommas getrennte Wert ausgewertet wird. Beispiel: Wenn wir den Wert für eine Kopfzeile haben: Es `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` eignet sich für Bedingungen wie:
+   * beginnt mit zh,
+   * beginnt mit en,
+   * endet mit 0,7,
+   * endet mit 0,8.
+
 ## Schulungsvideo: Erstellen von Zielgruppen
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
@@ -139,4 +145,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
