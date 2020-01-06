@@ -1,10 +1,10 @@
 ---
-keywords: Bekannte Probleme;gelöste Probleme;Versionshinweise;Fehler;Probleme;Fehlerbehebungen
+keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: Informationen zu bekannten Problemen in dieser Version von Adobe Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
 title: Bekannte Probleme und gelöste Probleme  in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
 
 ---
 
@@ -63,10 +63,11 @@ Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Ange
 Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
 
 * Entitäten sind nach 60 Tagen, nachdem sie keine Aktualisierungen per Feed oder API erhalten haben, korrekt abgelaufen; Die abgelaufenen Entitäten werden jedoch nach Ablauf nicht aus dem Index für die Katalogsuche entfernt. (IRI-857)
-* Die Überlagerungen "Gebrauchsinformationen"für Kriterien und Entwürfe spiegeln ihre Verwendung in A/B- und Erlebnis-Targeting-Aktivitäten nicht wider (TGT-34331)
+* Die Überlagerungen &quot;Gebrauchsinformationen&quot;für Kriterien und Entwürfe spiegeln ihre Verwendung in A/B- und Erlebnis-Targeting-Aktivitäten nicht wider (TGT-34331)
 * Recommendations-Angebote in A/B- und Erlebnis-Targeting-Aktivitäten zeigen keine visuelle Vorschau des Recommendations-Fachs (TGT-33426)
 * Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche von Target nicht sichtbar und können nur über API bearbeitet werden. (TGT-35777)
 * Recommendations-Aktivitäten, die über API erstellt wurden, können in der Benutzeroberfläche angezeigt werden, können aber nur über API bearbeitet werden.
+* Der Feed-Status &quot;Benutzerspezifische Kriterien&quot;in der Kriterienlisten-(Karten-)Ansicht wird alle 10 Minuten aktualisiert und kann in seltenen Fällen mehr als 10 Minuten veraltet sein. Der in der Ansicht zum Bearbeiten benutzerdefinierter Kriterien angezeigte Status wird in Echtzeit und immer auf dem neuesten Stand abgerufen. (TGT-35896, TGT-36173)
 
 ### Multivarianz-Test (MVT)-Aktivitäten
 
@@ -90,7 +91,7 @@ Bekannte Probleme mit at.js:
 
    Dieses Problem gilt nur für Recommendations-Aktivitäten, für die VEC verwendet wird.
 
-   **Problemumgehung**: Deaktivieren Sie die Option [!UICONTROL Inkompatible Kriterien filtern] in [!UICONTROL Recommendations &gt; Einstellungen]. Nach dem Deaktivieren dieser Einstellung werden alle Kriterien (kompatible und inkompatible) in der Kriterienauswahl angezeigt. (TGT-25949)
+   **Problemumgehung**: Deaktivieren Sie die Option [!UICONTROL Inkompatible Kriterien filtern] in [!UICONTROL Recommendations > Einstellungen]. Nach dem Deaktivieren dieser Einstellung werden alle Kriterien (kompatible und inkompatible) in der Kriterienauswahl angezeigt. (TGT-25949)
 
 * Mboxes werden in Microsoft Explorer 11-Browsern nicht ausgelöst, nachdem ein Upgrade auf die at.js-Version 1.0 ausgeführt wurde. Die Ursache dafür ist die Interaktion zwischen at.js und Visitor API 2.2.0. Dieses Problem betrifft die at.js-Version 0.9.6 und höher. (TNT-27600)
 * at.js funktioniert möglicherweise nicht bei Cordova-/Hybrid-Apps, da Erstanbieter-Cookies von diesen Anwendungen nicht unterstützt werden. (TNT-26166)
@@ -105,7 +106,7 @@ Die mbox.js-Bibliothek unterstützt keine clientseitigen Vorlagensprachen wie Ha
 
 ### Implementierung: Globale Mbox automatisch erstellen
 
-Auf der Registerkarte Implementierung ([!UICONTROL Einrichtung &gt; Implementierung]) ist das Feld [!UICONTROL Globale Mbox automatisch erstellen] für einen neu bereitgestellten Mandanten standardmäßig „false“.
+Auf der Registerkarte Implementierung ([!UICONTROL Einrichtung > Implementierung]) ist das Feld [!UICONTROL Globale Mbox automatisch erstellen] für einen neu bereitgestellten Mandanten standardmäßig „false“.
 
 Beim ersten Herunterladen von mbox.js nach der Bereitstellung ist das Feld [!UICONTROL Globale Mbox automatisch erstellen] in der heruntergeladenen Datei mbox.js und im [!DNL Target]-Backend auf „false“ festgelegt. Es wird jedoch weiterhin als „false“ auf der Seite [!UICONTROL Implementierung] der Benutzeroberfläche angezeigt, bis die Seite aktualisiert wird (nach dem Aktualisieren der Seite lautet der Status „true“).
 
@@ -293,7 +294,7 @@ Die Möglichkeit, mehrere Metriken in einem Bericht anzuzeigen, besteht seit Tar
 
 ### Angebote
 
-Aus der Bildangebotsbibliothek gelöschte Bilder (Angebote \&gt; Bildangebote) bleiben in der Benutzeroberfläche sichtbar. In einer kommenden Version werden keine gelöschten Bilder mehr angezeigt. In der Zwischenzeit werden gelöschte Bilder auf der Benutzeroberfläche mit dem Status Gelöscht angezeigt. (TGT-23793)
+Aus der Bildangebotsbibliothek gelöschte Bilder (Angebote \> Bildangebote) bleiben in der Benutzeroberfläche sichtbar. In einer kommenden Version werden keine gelöschten Bilder mehr angezeigt. In der Zwischenzeit werden gelöschte Bilder auf der Benutzeroberfläche mit dem Status Gelöscht angezeigt. (TGT-23793)
 
 In Target 17.4.1 (27. April 2017) behoben.
 
