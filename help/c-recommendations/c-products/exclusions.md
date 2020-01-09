@@ -1,10 +1,10 @@
 ---
-keywords: Ausnahmen
+keywords: exclusions
 description: Erstellen Sie eine Ausschlussliste in Adobe Target, um zu verhindern, dass gewisse Artikel empfohlen werden.
 title: Ausschlüsse in Adobe Target
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 ---
 
@@ -19,7 +19,7 @@ Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werde
 
 **So erstellen Sie einen Ausschluss:**
 
-1. Klicken Sie auf **[!UICONTROL Empfehlungen]** &gt; **[!UICONTROL Ausnahmen]**, um die Liste der vorhandenen Ausnahmen anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Recommendations]** >**[!UICONTROL  Ausschlüsse]**, um die Liste vorhandener Ausschlüsse anzuzeigen. 
 
    ![](assets/exclusions_list.png)
 
@@ -31,7 +31,7 @@ Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werde
 
    ![Ausschluss erstellen](/help/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Geben Sie einen **[!UICONTROL Namen]** für den Ausschluss ein und geben Sie eine optionale Beschreibung ein.
+1. Geben Sie einen **[!UICONTROL Namen]**für den Ausschluss ein und geben Sie eine optionale Beschreibung ein.
 
 1. Verwenden Sie den Rule Builder, um Ihre Ausnahmen zu erstellen.
 
@@ -41,11 +41,11 @@ Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werde
 
 ## Erstellen eines Ausschlusses mit der erweiterten Suche
 
-Sie können Ausschlüsse auch mit der erweiterten Suche auf der Seite „Katalogsuche“ ([!UICONTROL Recommendations] &gt; [!UICONTROL Katalogsuche] &gt; [!UICONTROL Erweiterte Suche]) erstellen. 
+Sie können Ausschlüsse auch mit der erweiterten Suche auf der Seite „Katalogsuche“ ([!UICONTROL Recommendations] > [!UICONTROL Katalogsuche] > [!UICONTROL Erweiterte Suche]) erstellen. 
 
-[Speichern unter](/help/c-recommendations/c-products/assets/save-as.png)
+![Speichern unter](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-Nachdem Sie beispielsweise eine Suche mit „id“ &gt; „contains“ erstellt haben, können Sie auf [!UICONTROL „Speichern unter“] &gt; [!UICONTROL „Ausschluss“] klicken. Weitere Informationen finden Sie unter [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md).
+Nachdem Sie beispielsweise eine Suche mit „id“ > „contains“ erstellt haben, können Sie auf [!UICONTROL „Speichern unter“] > [!UICONTROL „Ausschluss“] klicken. Weitere Informationen finden Sie unter [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md).
 
 >[!IMPORTANT]
 >
@@ -58,4 +58,4 @@ Dieses Video enthält die folgenden Informationen:
 * Eine Sammlung erstellen
 * Einen Ausschluss erstellen
 
->[!VIDEO](https://video.tv.adobe.com/v/27689?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)
