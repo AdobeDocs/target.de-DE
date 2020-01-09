@@ -1,10 +1,10 @@
 ---
-keywords: Katalog; suchen
+keywords: catalog;search
 description: Die Katalogsuche in Adobe Target hilft Ihnen dabei, Produkte oder Inhalte in Ihrem Katalog zu finden.
 title: Katalogsuche in Adobe Target
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1a1e1a0f2ff802ee630c47ceeb3241c55eb2cb65
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Die Katalogsuche hilft Ihnen dabei, Produkte oder Inhalte in Ihrem Katalog zu finden.
 
-Um auf die Katalogsuche zuzugreifen, klicken Sie auf **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Katalogsuche]**.
+To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  Catalog Search]**.
 
 Sie können die Suche verfeinern, indem Sie eine Suchoption aus dem Menü „Optionen“ auswählen, das eingeblendet wird, wenn Sie im Suchfeld auf den Abwärtspfeil klicken.
 
@@ -28,9 +28,9 @@ Zu den Suchoptionen zählen:
 * ID
 * Nachricht
 
-**[!UICONTROL ALLE]** durchsucht alle anderen Suchkriterien mithilfe der ODER-Logik.
+**[!UICONTROL ALLE]**durchsucht alle anderen Suchkriterien mithilfe der ODER-Logik.
 
-Klicken Sie in den Suchergebnissen auf den **[!UICONTROL Umgebungsfilter]**, um die [Umgebung der Produktions-Hostgruppe](/help/administrating-target/hosts.md) anzugeben, deren Katalog Sie anzeigen. Sie können die Elemente in den Suchergebnissen auch durchblättern, um Miniaturen und andere Produktinformationen anzuzeigen.
+Klicken Sie in den Suchergebnissen auf den **[!UICONTROL Umgebungsfilter]**, um die[Umgebung der Produktions-Hostgruppe](/help/administrating-target/hosts.md)anzugeben, deren Katalog Sie anzeigen. Sie können die Elemente in den Suchergebnissen auch durchblättern, um Miniaturen und andere Produktinformationen anzuzeigen.
 
 Die neben „Produkte“ angezeigte Nummer ist die Anzahl der Produkte, die von den insgesamt in der angegebenen Umgebung verfügbaren Produkten dem Suchbegriff entsprechen.
 
@@ -38,11 +38,11 @@ Der Katalog wird automatisch aktualisiert, wenn Updates über Feed-Dateien, API-
 
 ## Erstellen einer Sammlung oder eines Ausschlusses basierend auf der erweiterten Suche
 
-Sie können [Sammlungen](/help/c-recommendations/c-products/collections.md) oder [Ausschlüsse](/help/c-recommendations/c-products/exclusions.md) mithilfe der erweiterten Suche auf der Seite „Katalogsuche“ ([!UICONTROL Empfehlungen] &gt; [!UICONTROL Katalogsuche] &gt; [!UICONTROL Erweiterte Suche]) erstellen.
+Sie können [Sammlungen](/help/c-recommendations/c-products/collections.md) oder [Ausschlüsse](/help/c-recommendations/c-products/exclusions.md) mithilfe der erweiterten Suche auf der Seite „Katalogsuche“ ([!UICONTROL Empfehlungen] > [!UICONTROL Katalogsuche] > [!UICONTROL Erweiterte Suche]) erstellen.
 
-![Speichern unter](/help/c-recommendations/c-products/assets/save-as.png)
+![Speichern unter, Dialogfeld](/help/c-recommendations/c-products/assets/save-as.png)
 
-Nachdem Sie eine Suche mit "id &gt; contains" erstellt haben, können Sie zum Beispiel auf [!UICONTROL Speichern unter] &gt; [!UICONTROL Sammlung oder Ausschluss] klicken.
+Nachdem Sie eine Suche mit &quot;id > contains&quot; erstellt haben, können Sie zum Beispiel auf [!UICONTROL Speichern unter] > [!UICONTROL Sammlung oder Ausschluss] klicken.
 
 >[!IMPORTANT]
 >
