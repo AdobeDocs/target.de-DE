@@ -1,10 +1,10 @@
 ---
-keywords: Sammlung; Targeting
+keywords: collection;Targeting
 description: Eine Sammlung ist ein Satz von Produkten oder Artikeln in Adobe Target, die für die Empfehlung infrage kommen.
 title: Sammlungen in Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 ---
 
@@ -35,7 +35,7 @@ Wenn Sie eine [!DNL Recommendations]-Aktivität erstellen oder bearbeiten, ersch
 
 Erstellen Sie eine Sammlung, um die Produkte zu organisieren, die Sie in Ihren Empfehlungen anzeigen möchten.
 
-1. Klicken **[!UICONTROL Sie auf Empfehlungen]** &gt; **[!UICONTROL Sammlungen]**, um die Liste der vorhandenen Sammlungen anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Recommendations]** >**[!UICONTROL  Sammlungen]**, um die Liste vorhandener Sammlungen anzuzeigen.
 
    ![Sammlungsliste](assets/collections_list.png)
 
@@ -43,11 +43,11 @@ Erstellen Sie eine Sammlung, um die Produkte zu organisieren, die Sie in Ihren E
 
 1. Klicken Sie auf **[!UICONTROL Sammlung erstellen]**.
 
-1. (Bedingt) Wählen Sie eine Umgebung aus dem **[!UICONTROL Umgebungs-]** Filter, während Sie eine Sammlung erstellen (oder aktualisieren), um eine Vorschau der Inhalte der Sammlung in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
+1. (Bedingt) Wählen Sie eine Umgebung aus dem **[!UICONTROL Umgebungs-]**Filter, während Sie eine Sammlung erstellen (oder aktualisieren), um eine Vorschau der Inhalte der Sammlung in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
 
    ![Sammlung erstellen](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Geben Sie einen **[!UICONTROL Namen]** für die Sammlung ein.
+1. Geben Sie einen **[!UICONTROL Namen]**für die Sammlung ein.
 
    Sie können je nach Wunsch auch eine **[!UICONTROL Beschreibung eingeben]**.
 
@@ -61,11 +61,11 @@ Erstellen Sie eine Sammlung, um die Produkte zu organisieren, die Sie in Ihren E
 
 ## Erstellen einer Sammlung mit der erweiterten Suche
 
-Sie können Sammlungen auch über „Erweiterte Suche“ auf der Seite [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md) erstellen ([!UICONTROL Empfehlungen] &gt; [!UICONTROL Katalogsuche] &gt; [!UICONTROL Erweiterte Suche]).
+Sie können Sammlungen auch über „Erweiterte Suche“ auf der Seite [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md) erstellen ([!UICONTROL Empfehlungen] > [!UICONTROL Katalogsuche] > [!UICONTROL Erweiterte Suche]).
 
-![Speichern unter](/help/c-recommendations/c-products/assets/save-as.png)
+![Speichern unter, Dialogfeld](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-Nachdem Sie eine Suche mit "id &gt; contains" erstellt haben, können Sie z. B. auf [!UICONTROL Speichern unter] &gt; [!UICONTROL Sammlung] klicken.
+Nachdem Sie eine Suche mit &quot;id > contains&quot; erstellt haben, können Sie z. B. auf [!UICONTROL Speichern unter] > [!UICONTROL Sammlung] klicken.
 
 >[!IMPORTANT]
 >
@@ -78,4 +78,4 @@ Dieses Video enthält die folgenden Informationen:
 * Eine Sammlung erstellen
 * Einen Ausschluss erstellen
 
->[!VIDEO](https://video.tv.adobe.com/v/27689?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)
