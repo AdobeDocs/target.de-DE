@@ -5,7 +5,7 @@ title: Versionshinweise zu Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: cab8de265b173c393af37cde31006302e5238f25
+source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 ---
 
@@ -25,6 +25,12 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 ## Target Standard/Premium 20.1.1 (22. Januar 2020) 
 
 Die Target Standard/Premium-Version 20.1.1 ist der 22. Januar 2020. Die Funktionen und Verbesserungen werden hier bekannt gegeben.
+
+>[!IMPORTANT]
+>
+>Ab dem 1. März 2020 deaktiviert Target die Unterstützung für TLS 1.1- und TLS 1.0-Verschlüsselung. Transport Layer Security (TLS) ist das am weitesten verbreitete Sicherheitsprotokoll, das aktuell in Webbrowsern und anderen Anwendungen Verwendung findet, bei denen über ein Netzwerk übertragene Daten geschützt werden müssen. Diese Änderung ist erforderlich, um den allgemein anerkannten Sicherheitsstandard von TLS 1.2 oder höher zu erfüllen. Überprüfen Sie, welche TLS-Version Sie aktuell verwenden. Wenn Ihre Version niedriger als 1.2 ist, implementieren Sie die erforderlichen Änderungen vor dem 1. März 2020, um Target wie erwartet weiter zu verwenden.
+>
+> Detaillierte Informationen zu den möglichen Auswirkungen und den Schritten, die Sie zur Aktualisierung Ihrer Implementierung unternehmen müssen, finden Sie unter Änderungen[der ](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)TLS-Verschlüsselung (Transport Layer Security).
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
