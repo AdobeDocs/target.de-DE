@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 ---
 
@@ -18,7 +18,8 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 6. Januar 2019 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde ein bekanntes Problem mit dem Feed-Status Benutzerspezifische Kriterien hinzugefügt. |
+| 9. Januar 2020 | [Änderungen der TLS-Verschlüsselung (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Text aktualisiert.<br>Ab dem 1. März 2020 unterstützt Adobe Target keine TLS 1.1-Verschlüsselung mehr für Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), Aktivitätsbereitstellung, APIs usw. Bitte aktualisieren Sie vor dem 1. März 2020 auf TLS 1.2, um Probleme zu vermeiden. |
+| 6. Januar 2020 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde ein bekanntes Problem mit dem Feed-Status Benutzerspezifische Kriterien hinzugefügt. |
 | 19. Dezember 2019 | [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Es wurden Informationen über Version 1.1.0 hinzugefügt. |
 | 12. Dezember 2019 | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Abschnitt FAQ aktualisiert. |
 |  | [Berichte zur automatischen Zuordnung interpretieren](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Thema umbenannt und der folgende Abschnitt hinzugefügt: &quot;Verstehen Sie die Berichte zu Steigerung und Vertrauen in Aktivitäten mit automatisierter Zuordnung.&quot; |
