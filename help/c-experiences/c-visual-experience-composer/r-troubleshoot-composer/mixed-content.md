@@ -1,20 +1,16 @@
 ---
-keywords: gemischte Inhalte;sicher;unsicher;Chrome;Fehlerbehebung;VEC;Visual Experience Composer;nicht sicher
+keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure
 description: Einige Browser blockieren die Anzeige einer Seite, wenn sicherer Inhalt mit unsicherem Inhalt gemischt wird.
 title: Zulassen von gemischtem Inhalt in Ihrem Browser
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
 
-# Zulassen von gemischtem Inhalt in Ihrem Browser{#enabling-mixed-content-in-your-browser}
-
-Einige Browser blockieren die Anzeige einer Seite, wenn sicherer Inhalt mit unsicherem Inhalt gemischt wird.
-
-## Zulassen von gemischtem Inhalt in Ihrem Browser{#concept_46D022D50280468C9EF6D5DF6EFC911C}
+# Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
 
 Einige Browser blockieren die Anzeige einer Seite, wenn sicherer Inhalt mit unsicherem Inhalt gemischt wird.
 
@@ -34,7 +30,37 @@ Wenn Ihre Website in einer unsicheren (HTTP-)Domäne betrieben wird, müssen Sie
 
 Weitere Informationen finden Sie unter [Gemischte Inhalte](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) auf der *Mozilla-Entwicklernetzwerk* (MDN-)Website.
 
-## Zulassen von gemischtem Inhalt in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enabling mixed content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+
+Wenn Sie eine Seite über eine sichere Verbindung besuchen, verifiziert Google Chrome, dass der Inhalt auf der Webseite sicher übermittelt wurde.
+
+<!-- 
+
+target/t_mixed_content_chrome.xml
+
+ -->
+
+Siehe [Diese Seite enthält unsichere Inhalte](https://support.google.com/chrome/answer/1342714?hl=en) in der Google Chrome-Hilfe.
+
+### Schulungsvideo: VEC in Chrome aktivieren (Januar 2020)
+
+Wenn Sie VEC mit der neuesten Version von Chrome (Version 79.0.3945.117 oder höher) verwenden, müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
+
+>[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo&feature=youtu.be)
+
+Im obigen Video werden die erforderlichen Schritte beschrieben:
+
+1. Klicken Sie auf das Sperren- oder Warnsymbol und dann auf Site-Einstellungen.
+
+   ![Site-Einstellungen](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
+
+1. Blättern Sie zu Insecure-Inhalt und verwenden Sie dann die Dropdownliste, um Block (Standard) in Allow zu ändern.
+
+   ![Unsicherer Inhalt](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
+
+1. Laden Sie die VEC-Seite neu.
+
+## Enabling mixed content in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 Firefox blockiert standardmäßig Seiten, auf denen sicherer und unsicherer Inhalt gemischt ist. Es wird empfohlen, zur Verwendung von [!DNL Target] diese Einstellung dauerhaft zu ändern.
 
@@ -51,7 +77,7 @@ target/t_mixed_content_firefox.xml
 
    Der Wert ändert sich von „true“ zu „false“. Wenn der Wert „false“ anzeigt, sind Sie fertig.  Es wird empfohlen, den Computer nach der Änderung dieser Einstellung neu zu starten.
 
-## Zulassen von gemischtem Inhalt in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling mixed content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
 Internet Explorer blockiert standardmäßig Seiten, auf denen sicherer und unsicherer Inhalt gemischt ist. Es wird empfohlen, zur Verwendung von Target Standard diese Einstellung dauerhaft zu ändern.
 
@@ -61,23 +87,12 @@ target/t_mixed_content_ie.xml
 
  -->
 
-1. Klicken Sie in Internet Explorer auf das Einstellungssymbol &gt; **[!UICONTROL Internetoptionen]**.
+1. Klicken Sie in Internet Explorer auf das Einstellungssymbol > **[!UICONTROL Internetoptionen]**.
 1. Öffnen Sie die Registerkarte [!UICONTROL Sicherheit.]
-1. Wählen Sie **[!UICONTROL Internet]** und klicken Sie dann auf **[!UICONTROL Stufe anpassen]**.
+1. Wählen Sie **[!UICONTROL Internet]**und klicken Sie dann auf**[!UICONTROL  Stufe anpassen]**.
 1. Wählen Sie **[!UICONTROL Verschiedenes]**.
 1. Aktivieren Sie unter [!UICONTROL Verschiedenes]**[!UICONTROL Gemischte Inhalte anzeigen]**.
-1. Klicken Sie auf **[!UICONTROL OK]** &gt; **[!UICONTROL Ja]** &gt; **[!UICONTROL Aktivieren]**.
+1. Klicken Sie auf **[!UICONTROL OK]**>**[!UICONTROL  Ja]** > **[!UICONTROL Anwenden]**.
 
 Es wird empfohlen, den Computer nach der Änderung dieser Einstellung neu zu starten.
 
-## Zulassen von gemischtem Inhalt in Chrome  {#task_FF297A08F66E47A588C14FD67C037B3A}
-
-Wenn Sie eine Seite über eine sichere Verbindung besuchen, verifiziert Google Chrome, dass der Inhalt auf der Webseite sicher übermittelt wurde.
-
-<!-- 
-
-target/t_mixed_content_chrome.xml
-
- -->
-
-Siehe [Diese Seite enthält unsichere Inhalte](https://support.google.com/chrome/answer/1342714?hl=en) in der Google Chrome-Hilfe.
