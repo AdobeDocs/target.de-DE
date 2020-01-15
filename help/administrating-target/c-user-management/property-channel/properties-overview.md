@@ -1,11 +1,11 @@
 ---
-keywords: Benutzer hinzufügen;Projekt;Benutzergruppe;Eigenschaften;Arbeitsbereich;Eigenschaft verwalten;Eigenschaft;at_property;Rollen;Berechtigungen
+keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: Informationen zu den erforderlichen Aufgaben für das Hinzufügen von Benutzern zur Target-Implementierung; Erstellen von Arbeitsbereichen, Benutzergruppen und Eigenschaften; Aktualisieren der Target-Implementierung, um den Parameter „at_property“ hinzuzufügen; Festlegen von Rollen und Berechtigungen.
 title: Konfigurieren von Unternehmensberechtigungen
-subtopic: Erste Schritte
+subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
@@ -31,7 +31,7 @@ In der folgenden Tabelle sind alle Aufgaben aufgeführt, die Sie zur Erstellung 
 
 Greifen Sie für diese in der Adobe Admin Console for Enterprise ausgeführten Aufgaben auf die Konsole zu, indem Sie die folgenden Schritte durchführen:
 
-1. Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt; sign in using your Adobe ID, if you have not already logged in.
+1. Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
 
    Oder
 
@@ -43,7 +43,7 @@ Greifen Sie für diese in der Adobe Admin Console for Enterprise ausgeführten A
 
 Wenn Sie mit der Verwendung der neuen Funktion [!UICONTROL Eigenschaften] beginnen, müssen alle Benutzer in der [!DNL Adobe Admin Console for Enterprise] verwaltet werden. All Ihre bereits in [!DNL Target] angelegten Benutzer werden jedoch von [!DNL Target] in die [!DNL Admin Console for Enterprise] migriert.
 
-1. [Klicken Sie in der Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) auf die Registerkarte **[!UICONTROL Benutzer]** oben auf der Seite und anschließend auf **[!UICONTROL Benutzer hinzufügen]**, um neue Benutzer zu erstellen oder vorhandene Benutzer zu bearbeiten.
+1. [Klicken Sie in der Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) auf die Registerkarte **[!UICONTROL Benutzer]**oben auf der Seite und anschließend auf**[!UICONTROL  Benutzer hinzufügen]**, um neue Benutzer zu erstellen oder vorhandene Benutzer zu bearbeiten.
 1. Befolgen Sie die Anweisungen unter [Verwalten von Benutzern und Gruppen in der Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) im *Enterprise-Benutzerhandbuch*.
 
 ## Schritt 2: Arbeitsbereich (Produktprofil) erstellen{#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -56,7 +56,7 @@ Kunden können diese Arbeitsbereiche verwenden, um den Zugriff auf verschiedene 
 
 Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen Arbeitsbereichen sogar unterschiedliche Rollen einnehmen.
 
-1. Klicken Sie in der Admin Console auf **[!UICONTROL Produkte]** und wählen Sie dann den Namen des gewünschten Produkts aus.
+1. Klicken Sie in der Admin Console auf **[!UICONTROL Produkte]**und wählen Sie dann den Namen des gewünschten Produkts aus.
 
    ![Arbeitsbereich](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -90,7 +90,7 @@ Sie müssen die Workspace-ID weiterreichen, um in [Target-APIs Unternehmensberec
 
 Sie können Benutzergruppen wie Entwickler, Analytiker, Marketingexperten, Manager usw. erstellen und ihnen dann Benutzerrechte für verschiedene Adobe-Produkte und -Arbeitsbereiche zuweisen. Das Zuweisen der passenden Berechtigungen für ein Team-Mitglied für zwei Adobe-Produkte kann oft einfach durch Zuweisung zu einer einzigen Benutzergruppe vorgenommen werden.
 
-1. Klicken Sie in der Admin Console auf die Registerkarte **[!UICONTROL Benutzer]** oben auf der Seite und anschließend auf **Benutzergruppen], um neue Benutzergruppen zu erstellen oder vorhandene Gruppen zu bearbeiten.[!UICONTROL **
+1. Klicken Sie in der Admin Console auf die Registerkarte **[!UICONTROL Benutzer]**oben auf der Seite und anschließend auf**[!UICONTROL  Benutzergruppen]**, um neue Benutzergruppen zu erstellen oder vorhandene Gruppen zu bearbeiten.
 1. Befolgen Sie die Anweisungen unter [Verwalten von Benutzern und Gruppen einer Produktkonfiguration](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) im *Enterprise-Benutzerhandbuch*.
 
 ## Schritt 4. Erstellen von Eigenschaften {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
@@ -101,7 +101,7 @@ Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail und API/Sonstige) zug
 
 **Tipp:** Weitere Informationen zum Erstellen von Eigenschaften finden Sie im Schulungsvideo unten.
 
-1. Klicken Sie in [!DNL Target] auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Eigenschaften]**, um die Liste der [!UICONTROL Eigenschaften] aufzurufen.
+1. Klicken Sie in [!DNL Target] auf **[!UICONTROL Einrichtung]**>**[!UICONTROL  Eigenschaften]**, um die Liste der [!UICONTROL Eigenschaften] aufzurufen.
 1. Klicken Sie auf **Eigenschaft erstellen**.
 
    ![Neue Eigenschaft, Dialogfeld](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
@@ -112,9 +112,9 @@ Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail und API/Sonstige) zug
    * **Name: (erforderlich)** Geben Sie einen beschreibenden Namen für die Eigenschaft ein.
    * **Beschreibung:** Geben Sie eine optionale Beschreibung für die Eigenschaft an.
 
-1. Klicken Sie auf **[!UICONTROL Code generieren]**, um den Code zu generieren, den Sie bei der Ausführung der Schritte in [5: Implementierung aktualisieren, sodass der Parameter at_property enthalten ist](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8) verwenden.
+1. Klicken Sie auf **[!UICONTROL Code generieren]**, um den Code zu generieren, den Sie bei der Ausführung der Schritte in[5: Implementierung aktualisieren, sodass der Parameter at_property enthalten ist](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)verwenden.
 1. Kopieren Sie den Code in die Zwischenablage.
-1. Klicken Sie auf **[!UICONTROL Speichern], wenn Sie fertig sind.**
+1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
 
 >[!NOTE]
 >Weitere Informationen zum Erstellen von Eigenschaften finden Sie im Schulungsvideo unten.
@@ -129,7 +129,7 @@ Möchten Sie die Benutzerberechtigungsfunktion in [!DNL Target] nutzen, müssen 
 
    Oder
 
-   Klicken Sie in [!DNL Target] auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Eigenschaften]**, um die Liste der [!UICONTROL Eigenschaften] aufzurufen.
+   Klicken Sie in [!DNL Target] auf **[!UICONTROL Einrichtung]**>**[!UICONTROL  Eigenschaften]**, um die Liste der [!UICONTROL Eigenschaften] aufzurufen.
 
    1. Fahren Sie mit dem Mauszeiger über die Spalte [!UICONTROL „Zuletzt aktualisiert“] der gewünschten Eigenschaft und wählen Sie das [!UICONTROL Codesymbol] aus.
 
@@ -167,13 +167,9 @@ Möchten Sie die Benutzerberechtigungsfunktion in [!DNL Target] nutzen, müssen 
 
 ## Schritt 6: Rollen und Berechtigungen festlegen {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
-1. Klicken Sie in der Admin Console auf **[!UICONTROL Produkte]** und wählen Sie dann den Namen des gewünschten Produkts aus.
+1. Klicken Sie in der Admin Console auf **[!UICONTROL Produkte]**und wählen Sie dann den Namen des gewünschten Produkts aus.
 
    ![Arbeitsbereich](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
-
-   >[!NOTE]
-   >
-   >Die Funktion für Eigenschaften und Berechtigungen gilt ausschließlich für [Target Standard/Premium](/help/c-intro/intro.md#premium). Für [!DNL Target Classic] steht die Funktion nicht zur Verfügung.
 
 1. Klicken Sie auf den Namen des gewünschten Profils.
 1. Klicken Sie auf **[!UICONTROL Benutzer]**.
@@ -208,7 +204,7 @@ In diesem Video wird das Erstellen von Arbeitsbereichen erläutert.
 
 * Grundlegende Informationen zu Standardarbeitsbereichen
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
 ### Erstellen von Eigenschaften in Adobe Target (3:05)
 
@@ -220,4 +216,4 @@ In diesem Video wird das Erstellen von Arbeitsbereichen erläutert.
    * Mobile App
    * E-Mail, Set-Top-Box oder API-Aufrufe
 
->[!VIDEO](https://video.tv.adobe.com/v/18990/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/18990/)
