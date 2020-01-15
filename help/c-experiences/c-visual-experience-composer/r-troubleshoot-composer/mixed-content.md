@@ -5,7 +5,7 @@ title: Zulassen von gemischtem Inhalt in Ihrem Browser
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: 9286c85e7f0427b563807e1c424b0caca1abe8f2
 
 ---
 
@@ -46,7 +46,7 @@ Siehe [Diese Seite enthält unsichere Inhalte](https://support.google.com/chrome
 
 Wenn Sie VEC mit der neuesten Version von Chrome (Version 79.0.3945.117 oder höher) verwenden, müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 
->[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo&feature=youtu.be)
+>[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo)
 
 Im obigen Video werden die erforderlichen Schritte beschrieben:
 
