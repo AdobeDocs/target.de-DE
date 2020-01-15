@@ -1,12 +1,12 @@
 ---
-keywords: Übersicht und Referenz; SEO; Suchmaschinenoptimierung
+keywords: Overview and Reference;SEO;search engine optimization
 description: 'Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: at.js oder mbox.js'
 title: Funktionsweise von Adobe Target
-subtopic: Erste Schritte
+subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
@@ -97,7 +97,7 @@ Jeder Edge-Knoten verfügt über alle notwendigen Informationen, um auf die Inha
 
 The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-Die Adobe Target-Lösung wird auf Adobe-eigenen und von Adobe geleasten Rechenzentren auf der ganzen Welt gehostet. Administrationsserver werden zur Gänze in Rechenzentren von Adobe in London, Singapur und mehreren Standorten in den USA gehostet, darunter Oregon und Virginia. Edge-Server werden sowohl auf Adobe-eigenen als auch auf von Adobe geleasten Servern in Amazon-AWS-Rechenzentren in London, Hongkong, Singapur, Tokio und Sydney gehostet.
+Die Adobe Target-Lösung wird auf Adobe-eigenen und von Adobe geleasten Rechenzentren auf der ganzen Welt gehostet. Administrationsserver werden zur Gänze in Rechenzentren von Adobe in London, Singapur und mehreren Standorten in den USA gehostet, darunter Oregon und Virginia. Edge-Server werden sowohl auf Adobe-eigenen als auch auf Adobe-gemieteten Servern in Amazon AWS-Rechenzentren in London, Hong Kong SAR in China, Singapur, Tokio und Sydney gehostet.
 
 An den Administrationsserver-Standorten befinden sich sowohl ein Datenerfassungscenter als auch ein Datenverarbeitungscenter. Edge-Standorte umfassen nur ein Datenerfassungscenter. Jede Report Suite wird einem speziellen Datenverarbeitungscenter zugewiesen.
 
@@ -105,7 +105,7 @@ Anstatt auf alle Targeting-Anfragen an einem einzigen Standort zu antworten, wer
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] verfügt derzeit über kein Edge-Netzwerk in China, weshalb die Endnutzerleistung für [!DNL Target] für Kunden in China weiterhin eingeschränkt ist. Aufgrund der großen Firewall von China und dem Fehlen von Edge-Knoten innerhalb des Landes werden die Erlebnisse von Sites mit [!DNL Target] langsam gerendert und die Seitenladevorgänge sind beeinträchtigt. Außerdem können bei der Verwendung der [!DNL Target]-Authoring-Benutzeroberfläche durch Marketing-Experten Latenzzeiten auftreten.
+>[!DNL Adobe Target] verfügt derzeit über kein Edge-Netzwerk in China, weshalb die Endnutzerleistung für [!DNL Target] für Kunden in China weiterhin eingeschränkt ist. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
 ## Protected User Experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -139,7 +139,7 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
    Target wurde als Plattform so entworfen, dass Bots von Suchmaschinen genau wie normale Benutzer behandelt werden. Das bedeutet, dass Bots möglicherweise in Tests eingeschlossen werden, wenn sie zufällig ausgewählt werden, und die Testvariationen „zu sehen bekommen“.
 
-* **Verwendung von rel="canonical"** - Manchmal müssen für einen A/B-Test für Inhaltsvariationen unterschiedliche URLs erstellt werden. In diesen Fällen sollten alle Variationen das Tag `rel="canonical"` enthalten, das auf die ursprüngliche (Kontroll-)URL verweist. Prüft Adobe beispielsweise die eigene Startseite mit verschiedenen URLs für jede Variation, wäre im Tag `<head>` folgendes Canonical-Tag für jede der Variationen enthalten:
+* **Verwendung von rel=&quot;canonical&quot;** - Manchmal müssen für einen A/B-Test für Inhaltsvariationen unterschiedliche URLs erstellt werden. In diesen Fällen sollten alle Variationen das Tag `rel="canonical"` enthalten, das auf die ursprüngliche (Kontroll-)URL verweist. Prüft Adobe beispielsweise die eigene Startseite mit verschiedenen URLs für jede Variation, wäre im Tag `<head>` folgendes Canonical-Tag für jede der Variationen enthalten:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
