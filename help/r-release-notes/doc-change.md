@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
 
 ---
 
@@ -19,6 +19,8 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 15. Januar 2020 | [Zulassen von gemischtem Inhalt in Ihrem Browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Es wurde ein Schulungsvideo und eine Anleitung hinzugefügt, die erklären, wie Sie Ihre Site-Einstellungen aktualisieren, um gemischten Inhalt in der neuesten Version von Chrome zuzulassen. |
+|  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Es wurde ein Hinweis zum Hochladen und Entfernen von Entitäts- und Entitätsattributen hinzugefügt. |
+|  | [Erstellen einer Mbox für Auftragsbestätigungen – mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | Es wurde ein Hinweis hinzugefügt, der erklärt, wie eine Auftragsbestätigung mit at.js 2 durchgeführt wird.*x*. |
 | 9. Januar 2020 | [Änderungen der TLS-Verschlüsselung (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Text aktualisiert.<br>Ab dem 1. März 2020 unterstützt Adobe Target keine TLS 1.1-Verschlüsselung mehr für Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), Aktivitätsbereitstellung, APIs usw. Bitte aktualisieren Sie vor dem 1. März 2020 auf TLS 1.2, um Probleme zu vermeiden. |
 | 6. Januar 2020 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde ein bekanntes Problem mit dem Feed-Status Benutzerspezifische Kriterien hinzugefügt. |
 | 19. Dezember 2019 | [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Es wurden Informationen über Version 1.1.0 hinzugefügt. |
