@@ -1,10 +1,10 @@
 ---
-keywords: Fehlerbehebung; häufig gestellte Fragen; FAQ; FAQs; Empfehlungen; Sonderzeichen; Attributgewichtung; Ähnlichkeit von Inhalten
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
 description: Liste der häufig gestellten Fragen (FAQs) zu Adobe Target Recommendations-Aktivitäten.
 title: Häufig gestellte Fragen zu Adobe Target Recommendations
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
 
 ---
 
@@ -35,7 +35,7 @@ Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus aus
 
 ## Was sollte ich tun, wenn mein Array durch Sonderzeichen umbrochen wird? {#section_D27214116EE443638A60887C7D1C534E}
 
-Verwenden Sie Escape-Werte in JavaScript. Das Array kann durch Anführungszeichen (") umbrochen werden. Der folgende Codeausschnitt ist ein Beispiel für Escape-Werte:
+Verwenden Sie Escape-Werte in JavaScript. Das Array kann durch Anführungszeichen (&quot;) umbrochen werden. Der folgende Codeausschnitt ist ein Beispiel für Escape-Werte:
 
 ```
 #set($String='') 
@@ -62,7 +62,7 @@ Das Ziel verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](.
 >
 >Diese Einstellung gilt nur für Aktivitäten, die im Visual Experience Composer (VEC) erstellt wurden. Sie gilt nicht für Aktivitäten, die im Formular-basierten Experience Composer erstellt wurden (Target verfügt über keinen Speicherortkontext).
 
-Wenn Sie auf die Einstellung [!UICONTROL Inkompatible Kriterien filtern] zugreifen möchten, klicken Sie auf [!UICONTROL Recommendations] &gt; [!UICONTROL Einstellungen]:
+Wenn Sie auf die Einstellung [!UICONTROL Inkompatible Kriterien filtern] zugreifen möchten, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Einstellungen]:
 
 ![](assets/recs_settings_filter.png)
 
@@ -168,3 +168,23 @@ Der Ausschluss wird nur für den aktuellen Target-Aufruf durchgeführt. Elemente
 To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Wenn die Inhalts-URL extrahiert wird, werden die erforderlichen Parameter mit aktuellen Mbox-Anforderungsparametern ersetzt.
 
 Diese Funktion ist für neu erstellte Empfehlungen standardmäßig aktiviert. Bestehende Empfehlungen müssen gespeichert werden, um eine Unterstützung für dynamisch ausgeschlossene Entitäten zu gewährleisten.
+
+## Was bedeutet die Antwort NO_CONTENT manchmal, die im Content Trace von Recommendations zurückgegeben wird?
+
+NO_CONTENT wird zurückgegeben, wenn für die angeforderte Algorithmus- und Schlüsselkombination keine Empfehlungen verfügbar sind. Im Allgemeinen tritt dies auf, wenn Backups für den Algorithmus deaktiviert sind und mindestens einer der folgenden Punkte ebenfalls zutrifft:
+
+* Die Ergebnisse sind noch nicht bereit.
+
+   Dies tritt in der Regel auf, wenn eine neu erstellte Aktivität zum ersten Mal gespeichert wird oder nachdem Konfigurationsänderungen an der Sammlung, den Kriterien oder den in der Aktivität verwendeten Promotions vorgenommen wurden.
+
+* Die Ergebnisse sind für die angeforderte Algorithmus-/Schlüsselkombination bereit, jedoch noch nicht auf dem nächsten Edge-Server zwischengespeichert.
+
+   Die soeben angeforderte Anforderung initiiert einen Zwischenspeicherungsvorgang, der nach einigen Seitenneuladungen und/oder einigen Minuten nach Ablauf gelöst werden sollte.
+
+* Die Ergebnisse sind bereit, aber für den bereitgestellten Schlüsselwert nicht verfügbar.
+
+   Dies tritt in der Regel auf, wenn Empfehlungen für ein Element angefordert werden, das nach der Ausführung des letzten Algorithmus zum Katalog hinzugefügt wurde, und sich nach der Ausführung des nächsten Algorithmus selbst auflösen.
+
+* Die teilweise Vorlagenwiedergabe ist deaktiviert und es sind nicht genügend Ergebnisse zum Ausfüllen der Vorlage verfügbar.
+
+   Dies tritt in der Regel auf, wenn Sie über eine dynamische Einschlussregel verfügen, die viele Elemente aus den möglichen Ergebnissen aggressiv filtert. Um dies zu vermeiden, aktivieren Sie Backups und wenden Sie die Einschlussregel nicht auf Backups an oder verwenden Sie die Kriterien in einer Sequenz mit weniger aggressiv gefilterten Kriterien.
