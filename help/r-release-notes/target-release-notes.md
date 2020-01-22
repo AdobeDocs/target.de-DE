@@ -5,7 +5,7 @@ title: Versionshinweise zu Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen für die neuesten oder kommenden [!DNL Adobe Target]-Versionen.
 
-**Letzte Aktualisierung: 8. Januar 2020**
+**Letzte Aktualisierung: 22. Januar 2020**
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 >
 >Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## Target Standard/Premium 20.1.1 (22. Januar 2020) 
+## Target Standard/Premium 20.1.1 (29. Januar 2020) 
 
-Die Target Standard/Premium-Version 20.1.1 ist der 22. Januar 2020. Die Funktionen und Verbesserungen werden hier bekannt gegeben.
+Die Target Standard/Premium-Version 20.1.1 ist der 29. Januar 2020. Die Funktionen und Verbesserungen werden hier bekannt gegeben.
 
 >[!IMPORTANT]
 >
