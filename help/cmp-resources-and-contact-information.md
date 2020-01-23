@@ -1,11 +1,11 @@
 ---
-keywords: Kontakt; legal; technischer Support; technischer Support; Support; Service; Fähigkeiten; Rechnungsstellung; Feedback
+keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
 description: Informationen zu zusätzlichen Ressourcen, mit denen Sie mehr über die Target-Funktionen lernen und erfahren, wie Sie sich an Adobe wenden können, wenn Sie Unterstützung für Target benötigen.
 title: Ressourcen und Kontaktinformationen
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -117,7 +117,6 @@ Das Adobe Experience Cloud-Kundendienst-Team hilft Ihnen gerne und kann auf ve
 
 * [Auf den Experience Cloud-Hilfeseiten finden Sie Hinweise, Tipps und FAQs.](https://helpx.adobe.com/marketing-cloud.html)
 * [Kurze Fragen können Sie über Twitter an @AdobeExpCare stellen.](https://twitter.com/adobeexpcare)
-* [Melden Sie Probleme über unser Kundenportal](https://customers.omniture.com/login.php).
 * [Kontaktieren Sie die Kundenunterstützung direkt.](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [Überprüfen Sie Verfügbarkeit und Status von Experience Cloud-Lösungen.](https://status.adobe.com/)
 
