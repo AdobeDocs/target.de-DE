@@ -1,10 +1,10 @@
 ---
-keywords: Entität Entitätsattribute; Weiterleiten von Informationen an Recommendations; Verhaltensdaten; Datenzähler; relative URL definieren; Lagerbestandsebene anzeigen; Preis festlegen; Festlegen der Gewinnspanne; benutzerdefinierte Attribute
+keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an Recommendations zu übermitteln.
 title: Entitätsattribute
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -103,7 +103,7 @@ Zeigt den Lagerbestand des Artikels.
 
 Beispiel: `'entity.inventory=1'`
 
-**Handhabung von leeren Lagerattributen:** Wenn Sie für die Bereitstellung eine Einschlussregel, eine Sammlungsregel oder eine Kriterieneinstellung mit `entity.inventory`„&gt; 0“ oder `entity.inventory`„= 0“ festlegen und das Produkt den Bestand nicht enthält, [!DNL Target] wird dies auf TRUE gesetzt und enthält Produkte, bei denen der Bestand nicht eingestellt ist. Dies geschieht standardmäßig, damit auch Produkte, deren Inventar nicht festgelegt ist, in Empfehlungsergebnissen angezeigt werden.
+**Handhabung von leeren Lagerattributen:** Wenn Sie für die Bereitstellung eine Einschlussregel, eine Sammlungsregel oder eine Kriterieneinstellung mit `entity.inventory`„> 0“ oder `entity.inventory`„= 0“ festlegen und das Produkt den Bestand nicht enthält, [!DNL Target] wird dies auf TRUE gesetzt und enthält Produkte, bei denen der Bestand nicht eingestellt ist. Dies geschieht standardmäßig, damit auch Produkte, deren Inventar nicht festgelegt ist, in Empfehlungsergebnissen angezeigt werden.
 
 Wenn Sie eine globale Ausschlussregel mit `entity.inventory` = 0 und `entity.inventory` nicht festgelegt haben, wird diese Regel von [!DNL Target] auf TRUE gesetzt und das Produkt ausgeschlossen.
 
@@ -179,7 +179,11 @@ Recommendations sendet die `productId` oder `productPurchasedId` (`entity.id` im
 
 Von den meisten vorab definierten Parametern wird nur ein einzelner Wert akzeptiert, wobei neue Werte die alten überschreiben. Der `categoryId`-Parameter kann für jede Kategorie, in der das Produkt enthalten ist, eine kommagetrennte Liste mit Werten akzeptieren. Neue `categoryId`-Werte überschreiben die vorhandenen Werte nicht mehr, sondern werden bei einer Entitätsaktualisierung angehängt (Längenbeschränkung von 250 Zeichen).
 
-Die Mbox mit den angezeigten Informationen könnte z. B. wie im folgenden Beispiel aussehen. Ändern Sie die fettgedruckten Details, damit sie auf Ihre Produkte verweisen.
+Im Allgemeinen kann die Mbox mit den Anzeigeinformationen wie im folgenden Beispiel aussehen, wenn Sie at.js 1 verwenden.*x* mit `mboxCreate`.
+
+>[!NOTE]
+>
+>Wenn Sie at.js 2 verwenden.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So geben Sie Produkt- oder Inhaltsinformationen mithilfe von at.js 2 an Recommendations weiter.*x* verwenden Sie die folgenden API-Methoden: [getOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md), [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md), [applyOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)oder [applyOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md).
 
 >[!NOTE]
 >
