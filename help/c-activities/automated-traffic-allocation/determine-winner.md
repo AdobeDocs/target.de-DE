@@ -5,7 +5,7 @@ title: Ermitteln eines Gewinners
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9937bf3f9f2675f43de535d8a09c493769b060be
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -48,17 +48,21 @@ Diese Abbildung zeigt eine Aktivität, zu der es einen Gewinner gibt:
 
 ![](assets/winner_found.png)
 
+>[!IMPORTANT]
+>
+>Target zeigt einen Gewinner nach einer vordefinierten Mindestanzahl an Konversionen an. Die endgültige Entscheidung, den Gewinner auszuwählen, sollte sich jedoch immer auf die Ergebnisse des Adobe Target- [Stichprobengrößenrechners](https://docs.adobe.com/content/target-microsite/testcalculator.html)stützen. Target berücksichtigt nicht die grundlegenden Konversionsraten einer Site und andere wichtige Aspekte, die in den Rechner eingespeist werden, um die Dauer der Aktivität zu bestimmen. Daher könnte Target aufgrund einer Mindestanzahl von Konversionen einen Gewinner früher als erforderlich anzeigen. Weitere Informationen finden Sie unter [Stichprobengrößenrechner](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+
 ## Informationen zu Steigerungs- und Vertrauensberichten in Aktivitäten mit automatisierter Zuordnung {#lift-confidence}
 
-Bei Aktivitäten mit automatisierter Zuordnung wird das erste Erlebnis (standardmäßig Erlebnis A genannt) auf der Registerkarte "Berichte"immer als Kontrollerlebnis definiert. Dieses Erlebnis wird bei der Modellierung zur Bestimmung der Leistung von Erlebnissen nicht als echte statistische Kontrolle behandelt, sondern als Referenz oder Grundlage für einige Zahlen im Bericht.
+Bei Aktivitäten mit automatisierter Zuordnung wird das erste Erlebnis (standardmäßig Erlebnis A genannt) auf der Registerkarte &quot;Berichte&quot;immer als Kontrollerlebnis definiert. Dieses Erlebnis wird bei der Modellierung zur Bestimmung der Leistung von Erlebnissen nicht als echte statistische Kontrolle behandelt, sondern als Referenz oder Grundlage für einige Zahlen im Bericht.
 
-Der numerische Wert "Steigerung"und die Grenzen von 95 % für jedes Erlebnis werden immer unter Bezugnahme auf das definierte Erlebnis "Kontrolle"berechnet. Das definierte Kontrollerlebnis kann keine Steigerung im Verhältnis zu sich selbst aufweisen. Daher wird für dieses Erlebnis ein leerer "—"-Wert gemeldet. Im Gegensatz zu A/B-Tests wird bei Tests mit automatisierter Zuordnung kein negativer Steigerungswert gemeldet, wenn ein Erlebnis schlechter als die definierte Kontrolle ausfällt. stattdessen wird "—"angezeigt.
+Der numerische Wert &quot;Steigerung&quot;und die Grenzen von 95 % für jedes Erlebnis werden immer unter Bezugnahme auf das definierte Erlebnis &quot;Kontrolle&quot;berechnet. Das definierte Kontrollerlebnis kann keine Steigerung im Verhältnis zu sich selbst aufweisen. Daher wird für dieses Erlebnis ein leerer &quot;—&quot;-Wert gemeldet. Im Gegensatz zu A/B-Tests wird bei Tests mit automatisierter Zuordnung kein negativer Steigerungswert gemeldet, wenn ein Erlebnis schlechter als die definierte Kontrolle ausfällt. stattdessen wird &quot;—&quot;angezeigt.
 
-Die angezeigten Vertrauensbereich-Balken repräsentieren das Konfidenzintervall von 95 % um die mittlere Schätzung der Konversionsrate eines Erlebnisses. Diese sind auch in Bezug auf das definierte Kontrollerlebnis farbkodiert. Die Leiste des Erlebnisses "Control"ist immer grau gefärbt. Die Teile der Konfidenzintervalle unter dem Konfidenzintervall des "Control"-Erlebnisses sind rot und die Teile der Konfidenzintervalle über dem Kontrollerlebnis grün.
+Die angezeigten Vertrauensbereich-Balken repräsentieren das Konfidenzintervall von 95 % um die mittlere Schätzung der Konversionsrate eines Erlebnisses. Diese sind auch in Bezug auf das definierte Kontrollerlebnis farbkodiert. Die Leiste des Erlebnisses &quot;Control&quot;ist immer grau gefärbt. Die Teile der Konfidenzintervalle unter dem Konfidenzintervall des &quot;Control&quot;-Erlebnisses sind rot und die Teile der Konfidenzintervalle über dem Kontrollerlebnis grün.
 
-Ein Gewinner wird gefunden, wenn sich das 95 %-Vertrauensintervall des führenden Erlebnisses nicht mit anderen Erlebnissen überschneidet. Das Gewinner-Erlebnis wird mit einem grünen Sternzeichen links neben dem Erlebnisnamen und im Banner "Gewinner"gekennzeichnet. Wenn kein Stern sichtbar ist, lautet das Banner "Noch kein Gewinner"und ein Gewinner wurde noch nicht gefunden.
+Ein Gewinner wird gefunden, wenn sich das 95 %-Vertrauensintervall des führenden Erlebnisses nicht mit anderen Erlebnissen überschneidet. Das Gewinner-Erlebnis wird mit einem grünen Sternzeichen links neben dem Erlebnisnamen und im Banner &quot;Gewinner&quot;gekennzeichnet. Wenn kein Stern sichtbar ist, lautet das Banner &quot;Noch kein Gewinner&quot;und ein Gewinner wurde noch nicht gefunden.
 
-Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine "Konfidenz"angezeigt. Diese Zahl wird erst gemeldet, wenn die Konfidenz des führenden Erlebnisses mindestens 60 % erreicht hat. Wenn genau zwei Erlebnisse im Experiment mit automatisierter Zuordnung vorhanden sind, stellt diese Zahl das Vertrauensniveau dar, dass das Erlebnis eine bessere Leistung erzielt als das andere Erlebnis. Wenn im Experiment mit der automatischen Zuordnung mehr als zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, das das Erlebnis besser abschneidet als das definierte Kontrollerlebnis. Wenn das Kontrollerlebnis gewinnt, wird keine "Konfidenz"angegeben.
+Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine &quot;Konfidenz&quot;angezeigt. Diese Zahl wird erst gemeldet, wenn die Konfidenz des führenden Erlebnisses mindestens 60 % erreicht hat. Wenn genau zwei Erlebnisse im Experiment mit automatisierter Zuordnung vorhanden sind, stellt diese Zahl das Vertrauensniveau dar, dass das Erlebnis eine bessere Leistung erzielt als das andere Erlebnis. Wenn im Experiment mit der automatischen Zuordnung mehr als zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, das das Erlebnis besser abschneidet als das definierte Kontrollerlebnis. Wenn das Kontrollerlebnis gewinnt, wird keine &quot;Konfidenz&quot;angegeben.
 
 ## Häufig gestellte Fragen {#section_C8E068512A93458D8C006760B1C0B6A2}
 
@@ -72,6 +76,6 @@ Die folgenden Gründe erläutern, warum für sämtliche Aktivitäten in der Spal
 
    Bei der automatischen Zuordnung wird die Wahrscheinlichkeit gezeigt, mit der ein bestimmtes Erlebnis aus allen Erlebnissen als Gewinner hervorgeht. Das bedeutet, dass nur ein erfolgreichstes Erlebnis (dasjenige Erlebnis, das am wahrscheinlichsten als Gewinner hervorgeht) über einen Wert verfügt, der nicht 0 ist. Alle anderen Erlebnisse werden als wahrscheinliche Verlierer eingestuft und mit dem Wert 0 % angezeigt.
 
-* Die Konfidenz wird in der automatischen Zuordnung nur angezeigt, nachdem das erfolgreichste Erlebnis einen Wert von mehr als 60 % erzielen konnte. Diese Konfidenzniveaus treten in der Regel in etwa der Hälfte der Zeit auf, die ein normaler A/B-Test dauern würde (obwohl dies nicht garantiert wird). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." Typischerweise wird die Konfidenz angezeigt, nachdem jedes Erlebnis mindestens 50 % der erforderlichen Stichproben pro Erlebnis sammeln konnte. Somit erhalten Sie einen Überblick darüber, wann die Konfidenz höchstwahrscheinlich angezeigt wird.
+* Die Konfidenz wird in der automatischen Zuordnung nur angezeigt, nachdem das erfolgreichste Erlebnis einen Wert von mehr als 60 % erzielen konnte. Diese Konfidenzniveaus treten in der Regel in etwa der Hälfte der Zeit auf, die ein normaler A/B-Test dauern würde (obwohl dies nicht garantiert wird). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control&#39;s conversion-rate in &quot;Baseline conversion rate,&quot; &quot;5%&quot; for &quot;Lift,&quot; and 95% for &quot;Confidence.&quot; Typischerweise wird die Konfidenz angezeigt, nachdem jedes Erlebnis mindestens 50 % der erforderlichen Stichproben pro Erlebnis sammeln konnte. Somit erhalten Sie einen Überblick darüber, wann die Konfidenz höchstwahrscheinlich angezeigt wird.
 * Wird im Bericht überall der Wert 0 % angezeigt, ist die Aktivität höchstwahrscheinlich noch nicht lange genug online.
 
