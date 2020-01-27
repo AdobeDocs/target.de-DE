@@ -5,12 +5,12 @@ title: Ressourcen und Kontaktinformationen
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
 
-# Ressourcen und Kontaktinformationen{#resources-and-contact-information}
+# Resources and contact information{#resources-and-contact-information}
 
 Informationen zu zusätzlichen Ressourcen, mit denen Sie mehr über die Target-Funktionen lernen und erfahren, wie Sie sich an Adobe wenden können, wenn Sie Unterstützung für Target benötigen.
 
@@ -117,6 +117,7 @@ Das Adobe Experience Cloud-Kundendienst-Team hilft Ihnen gerne und kann auf ve
 
 * [Auf den Experience Cloud-Hilfeseiten finden Sie Hinweise, Tipps und FAQs.](https://helpx.adobe.com/marketing-cloud.html)
 * [Kurze Fragen können Sie über Twitter an @AdobeExpCare stellen.](https://twitter.com/adobeexpcare)
+* [Öffnen Sie ein Ticket, um Hilfe vom Support zu erhalten](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [Kontaktieren Sie die Kundenunterstützung direkt.](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [Überprüfen Sie Verfügbarkeit und Status von Experience Cloud-Lösungen.](https://status.adobe.com/)
 
