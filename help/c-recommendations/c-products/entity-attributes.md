@@ -4,7 +4,7 @@ description: Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformati
 title: Entitätsattribute
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 2ee61d04c9afcb79be980f70fe5ecedcd5eefa9f
+source-git-commit: 96b62977729064da624e3b8fc951bbef3f9a36c1
 
 ---
 
@@ -183,7 +183,7 @@ Im Allgemeinen kann die Mbox mit den Anzeigeinformationen wie im folgenden Beisp
 
 >[!NOTE]
 >
->Wenn Sie at.js 2 verwenden.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So geben Sie Produkt- oder Inhaltsinformationen mithilfe von at.js 2 an Recommendations weiter.*x*, verwenden Sie [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md).
+>Wenn Sie at.js 2 verwenden.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So geben Sie Produkt- oder Inhaltsinformationen mithilfe von at.js 2 an Recommendations weiter.*x*, verwenden Sie [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ein Beispiel hierfür finden Sie unter [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md).
 
 >[!NOTE]
 >
