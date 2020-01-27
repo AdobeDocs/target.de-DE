@@ -1,10 +1,10 @@
 ---
-keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; auto-target; auto target; Auto-Target-Bericht; Auto Target-Bericht; Personalisierung; Insights; automatisierte Segmente; FAQ; häufig gestellte Fragen; wichtige Attribute
+keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: Für Benutzer von Automatisierte Personalisierung (AP) und von Automatisches Targeting (AT) sind zwei spezialisierte Berichte verfügbar, die die Berichte für automatisierte Segmente und wichtige Attribute enthalten.
 title: Berichte zu Personalization Insights
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
 
 ---
 
@@ -55,6 +55,12 @@ Target bietet verschiedene Möglichkeiten, zusätzliche Daten zu übergeben, um 
 
 ## Schulungsvideo: Verwenden der Personalization Insights-Berichte
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-Weitere Informationen finden Sie unter [Verwenden der Berichte "Personalization Insights"in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Weitere Informationen finden Sie unter [Verwenden der Berichte &quot;Personalization Insights&quot;in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+
+## Adobe Blogs
+
+* Teil 1: Das Mysterium aus der Magie der AI-getriebenen Personalisierung [herausbringen](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* Teil 2: Hinter [dem Vorhang der AI für Personalisierung in Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* Teil 3: [MAGIX — Lösung des Black Box-Problems der AI-getriebenen Personalisierung](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
