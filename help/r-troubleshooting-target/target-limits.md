@@ -5,7 +5,7 @@ title: Beschränkungen
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -114,9 +114,11 @@ Für Standard-Mbox-Aufrufe:
 
 Diese Beschränkungen gelten, sofern die Anfrage nicht durch Webbrowser-Beschränkungen gekürzt wird.
 
+Wenn Sie die Batch Delivery API verwenden, beträgt die Beschränkung 50 Mboxes pro Batch-Anforderung.
+
 Wenn Sie die [Batch-Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-batch-delivery) im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Wenn eine Anforderung mehr als diese Beschränkungen enthält, gibt die API die folgende Fehlermeldung zurück:
 
-"Die Anzahl der mboxParameters darf 50 nicht überschreiten."
+&quot;Die Anzahl der mboxParameters darf 50 nicht überschreiten.&quot;
 
 Für Endpunkte festgelegte Grenzwerte:
 
