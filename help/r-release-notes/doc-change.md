@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -18,8 +18,10 @@ Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentat
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 27. Januar 2020 | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Folgende Informationen wurden hinzugefügt: &quot;Wenn Sie die Batch Delivery API verwenden, beträgt der Grenzwert 50 Mboxes pro Batch-Anforderung.&quot; |
+|  | [Ressourcen und Kontaktinformationen](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | Link zum Öffnen eines Support-Tickets aktualisiert. |
 | 23. Januar 2020 | [Berichte zur automatischen Zuordnung interpretieren](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Es wurde ein Hinweis zur Verwendung des Stichprobengrößenrechners von Adobe Target hinzugefügt, um den Gewinner zu ermitteln. |
-|  | [Entitätsattribute](/help/c-recommendations/c-products/entity-attributes.md) | Es wurde ein Hinweis hinzugefügt, der erklärt, dass bei Verwendung von at.js 2.*x*, `mboxCreate` wird nicht mehr unterstützt. So geben Sie Produkt- oder Inhaltsinformationen mithilfe von at.js 2 an Recommendations weiter.*x*, verwenden `targePageParams`. |
+|  | [Entitätsattribute](/help/c-recommendations/c-products/entity-attributes.md) | Es wurde ein Hinweis hinzugefügt, der erklärt, dass bei Verwendung von at.js 2.*x*, `mboxCreate` wird nicht mehr unterstützt. So geben Sie Produkt- oder Inhaltsinformationen mithilfe von at.js 2 an Recommendations weiter.*x*, verwenden `targetPageParams`. |
 | 22. Januar 2020 | [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Folgende häufig gestellte Fragen wurden aktualisiert: &quot;Kann ich den Stichprobengrößenrechner verwenden, wenn ich die automatisierte Zuordnung verwende, um abzuschätzen, wie lange die Aktivität dauern wird, um den Gewinner zu ermitteln?&quot; |
 | 15. Januar 2020 | [Zulassen von gemischtem Inhalt in Ihrem Browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Es wurde ein Schulungsvideo und eine Anleitung hinzugefügt, die erklären, wie Sie Ihre Site-Einstellungen aktualisieren, um gemischten Inhalt in der neuesten Version von Chrome zuzulassen. |
 |  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Es wurde ein Hinweis zum Hochladen und Entfernen von Entitäts- und Entitätsattributen hinzugefügt. |
