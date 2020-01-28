@@ -5,7 +5,7 @@ title: Versionshinweise zu Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 ---
 
@@ -16,7 +16,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 
 
-**Letzte Aktualisierung: 27. Januar 2020**
+**Letzte Aktualisierung: 28. Januar 2020**
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
    Detaillierte Informationen zu den möglichen Auswirkungen und den Schritten, die Sie zur Aktualisierung Ihrer Implementierung unternehmen müssen, finden Sie unter Änderungen[der ](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)TLS-Verschlüsselung (Transport Layer Security).
 
 
-## Target Standard/Premium 20.1.1 (29. Januar 2020) 
+## Target Standard/Premium 20.1.1 (4. Februar 2020)
 
 Das Target Standard/Premium Release 20.1.1 ist ein Maintenance Release und umfasst Backend-Erweiterungen und -Verbesserungen. Darüber hinaus wurden folgende Fehlerbehebungen vorgenommen:
 
