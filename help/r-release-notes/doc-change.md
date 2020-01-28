@@ -5,19 +5,20 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 98716582ced4b3f3c0d1cb56e186bd24b7cd4cb6
 
 ---
 
 
 # Dokumentationsänderungen{#documentation-changes}
 
-Auf dieser Seite sind wichtige Änderungen an der [!DNL Adobe Target]-Dokumentation aufgeführt.
+This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
 ## Adobe Target/Standard/Premium 19.10.1 (22. Oktober 2019)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 28. Januar 2020 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Das Veröffentlichungsdatum der Version Target Standard/Premium 20.1.1 wurde geändert. Das Veröffentlichungsdatum ist jetzt der 4. Februar 2020. |
 | 27. Januar 2020 | [Berichte zu Personalization Insights](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Neuer Abschnitt hinzugefügt: &quot;Adobe Blogs&quot;. |
 |  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Folgende Informationen wurden hinzugefügt: &quot;Wenn Sie die Batch Delivery API verwenden, beträgt der Grenzwert 50 Mboxes pro Batch-Anforderung.&quot; |
 |  | [Ressourcen und Kontaktinformationen](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | Link zum Öffnen eines Support-Tickets aktualisiert. |
