@@ -1,10 +1,10 @@
 ---
-keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; Aktivitätsstufenbericht; Angebotsebenenbericht; Angebotsdetailbericht
+keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: Für Benutzer der automatisierten Personalisierung stehen spezialisierte Berichte zur Verfügung.
 title: Automated Personalization-Zusammenfassungsberichte
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 ---
 
@@ -15,21 +15,17 @@ Für Benutzer der automatisierten Personalisierung stehen spezialisierte Bericht
 
 >[!NOTE]
 >
->Automatisierte Personalisierung ist als Teil der [!DNL Target Premium]-Lösung verfügbar. Sie wird bei [!DNL Target Standard] ohne [!DNL Target Premium]-Lizenz ausgeschlossen.
+>Automatisierte Personalisierung ist als Teil der [!DNL Target Premium]-Lösung verfügbar. Sie ist nicht in [!DNL Target Standard] ohne [Target Premium-Lizenz enthalten](/help/c-intro/intro.md#premium).
 
-1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte [!UICONTROL automatisierte Personalisierung] aus der Liste aus und klicken Sie auf die Registerkarte **Berichte[!UICONTROL .]**
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte[!UICONTROL automatisierte Personalisierung]aus der Liste aus und klicken Sie auf die Registerkarte**[!UICONTROL  Berichte.]**
 
    Wenn Sie viele Aktivitäten haben, können Sie die Liste filtern, indem Sie [!UICONTROL Automatisierte Personalisierung] in der Dropdownliste [!UICONTROL Typ] auswählen.
 
 1. (Optional) Klicken Sie auf das Symbol zum [!UICONTROL Herunterladen], um die Zusammenfassungsansicht herunterzuladen (etwa zum Vergleichen von Kontroll- und Targeting-Traffic), aufgeschlüsselt nach allen verfügbaren Erfolgsmetriken.
 
->[!NOTE]
->
->Das [!UICONTROL Einstellungssymbol] steht nicht für Berichte für [!UICONTROL Automatisierte Personalisierung] zur Verfügung.
-
 [!UICONTROL Automatisierte Personalisierung] liefert die folgenden Berichte:
 
-## Aktivitätsstufenbericht  {#section_6F72FC5C790B4492B3DCECBFFA971337}
+## Aktivitätsstufenbericht {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
 Der Bericht [!UICONTROL Aktivitätsebene] vergleicht die Gesamtleistung beim Einsatz eines „[!UICONTROL Automatisierte Personalisierung]“-Algorithmus mit zufällig bereitgestellten Inhalten (Kontrolle).
 
@@ -39,7 +35,7 @@ Die Standardregeln für die Auswertung von A/B-Testergebnissen gelten weiterhin,
 
 ## Angebotsstufenbericht {#section_CAA6409879E349C6906E2BE8156D87A1}
 
-Der Bericht [!UICONTROL Angebotsebene] für das „Random Forest“-Erlebnis vergleicht die Leistung der einzelnen durch Algorithmen bereitgestellten Angebote mit demselben, zufällig bereitgestellten Angebot (Kontrolle). Aus diesem Grund sollten Angebote in dieser Ansicht nicht miteinander verglichen werden. Im Beispiel unten ist ersichtlich, dass Angebot D eine Steigerung von 12,43 % verzeichnet, wenn es gemäß der Logik des Algorithmus (Random Forest) und nicht zufällig (Kontrolle) bereitgestellt wird.
+Der Bericht [!UICONTROL Angebotsebene] für das „Random Forest“-Erlebnis vergleicht die Leistung der einzelnen durch Algorithmen bereitgestellten Angebote mit demselben, zufällig bereitgestellten Angebot (Kontrolle). Aus diesem Grund sollten Angebote in dieser Ansicht nicht miteinander verglichen werden.
 
 Klicken Sie auf den Erlebnisalgorithmus (Random Forest oder Kontrolle), um den Bericht „Angebotsebene“ aufzurufen.
 
@@ -50,4 +46,3 @@ Angebote können innerhalb von Berichtsgruppen angezeigt werden. Diese Berichtsg
 >[!NOTE]
 >
 >Das Uhrsymbol zeigt an, dass das Algorithmusmodell noch erstellt wird. Das Häkchen zeigt an, dass der Basisalgorithmus eingerichtet wurde.
-
