@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 98716582ced4b3f3c0d1cb56e186bd24b7cd4cb6
+source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 29. Januar 2020 | [Anpassen eines Designs mithilfe von Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Text- und Codebeispiele aktualisiert. Neue Codebeispiele zeigen, wie Zahlen in Velocity-Vorlagen verwendet werden. |
 | 28. Januar 2020 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Das Veröffentlichungsdatum der Version Target Standard/Premium 20.1.1 wurde geändert. Das Veröffentlichungsdatum ist jetzt der 4. Februar 2020. |
 | 27. Januar 2020 | [Berichte zu Personalization Insights](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Neuer Abschnitt hinzugefügt: &quot;Adobe Blogs&quot;. |
 |  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Folgende Informationen wurden hinzugefügt: &quot;Wenn Sie die Batch Delivery API verwenden, beträgt der Grenzwert 50 Mboxes pro Batch-Anforderung.&quot; |
