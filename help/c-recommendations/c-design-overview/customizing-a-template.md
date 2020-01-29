@@ -1,10 +1,10 @@
 ---
-keywords: Benutzerdefinierter Entwurf; Geschwindigkeit; Dezimal; Komma; Entwurf anpassen
+keywords: custom design;velocity;decimal;comma;customize design
 description: Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlungsvorlagen anzupassen.
 title: Anpassen eines Designs mithilfe von Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
 
 ---
 
@@ -71,87 +71,117 @@ verwenden Sie diesen Code:
 
 ```
 <table style="border:1px solid #CCCCCC;"> 
- 
 <tr> 
- 
 <td colspan="3" style="font-size: 130%; border-bottom:1px solid  
 #CCCCCC;"> You May Also Like... </td> 
- 
 </tr> 
- 
 <tr> 
- 
 <td style="border-right:1px solid #CCCCCC;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity1.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity1.id</a></div> 
- 
 By $entity1.message <a href="?x14=brand;q14=$entity1.message"> 
 (More)</a><br/> 
- 
 sku: $entity1.prodId<br/> Price: $$entity1.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="border-right:1px solid #CCCCCC; padding-left:10px;"> 
- 
-<div class="search_content_inner" style="border-bottom:0px;"> 
- 
+<div class="search_content_inner" style="border-bottom:0px;">  
 <div class="search_title"><a href="$entity2.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity2.id</a></div> 
- 
 By $entity2.message <a href="?x14=brand;q14=$entity2.message"> 
 (More)</a><br/> 
- 
 sku: $entity2.prodId<br/> 
- 
 Price: $$entity2.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="padding-left:10px;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity3.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity3.id</a></div> 
- 
 By $entity3.message <a href="?x14=brand;q14=$entity3.message"> 
 (More)</a><br/> 
- 
 sku: $entity3.prodId<br/> Price: $$entity3.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
-</tr> 
- 
+</tr>  
 </table>
 ```
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
->Wenn Sie nach dem Variablenwert Informationen hinzufügen möchten, können Sie dies mit einer formalen Notation tun. Beispiel: `${entity1.thumbnailUrl}.gif`.
+>Wenn Sie Text nach dem Wert einer Variablen vor einem Tag hinzufügen möchten, das angibt, dass der Variablenname abgeschlossen ist, können Sie dies mit einer formalen Notation tun, um den Namen der Variablen einzuschließen. Beispiel: `${entity1.thumbnailUrl}.gif`.
 
 Sie können `algorithm.name` und `algorithm.dayCount` als Variablen in Entwürfen verwenden, sodass ein Design zum Testen mehrerer Kriterien verwendet und der Kriterienname dynamisch in dem Design angezeigt werden kann. Dies zeigt dem Besucher, dass er „Topverkäufe“ oder „Kunden, die diesen Artikel angesehen haben, haben folgende Artikel gekauft“ sieht. Sie können diese Variablen sogar dazu verwenden, den `dayCount` anzuzeigen (Anzahl der Tage, deren Daten vom Kriterium verwendet werden, z. B. „Topverkäufe während der beiden letzten Tage“ usw.).
 
-## Szenario: Schlüsselelement mit empfohlenen Produkten anzeigen {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Arbeiten mit Zahlen in Velocity-Vorlagen
+
+Velocity-Vorlagen behandeln alle Entitätsattribute standardmäßig als Zeichenfolgenwerte. Sie können ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang durchzuführen oder ihn mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
+1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder in einen doppelten Wert
+2. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich, damit der Vorlagenparser von Target Recommendations die Vorlage validieren und speichern kann)
+3. Übergeben Sie das Entitätsattribut an die `parseInt` oder- `parseDouble` Methode für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in eine Ganzzahl oder einen doppelten Wert umzuwandeln
+4. Durchführen des Mathematik-Vorgangs oder -Vergleichs mit dem neuen numerischen Wert
+
+**Beispiel: Berechnen eines Rabattpreises**
+
+Nehmen wir an, Sie möchten den angezeigten Preis eines Artikels um 0,99 USD reduzieren, um einen Rabatt zu erhalten. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('priceBeforeDiscount') != '' )
+    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    Item price: $$discountedPrice
+#else
+    Item price unavailable
+#end
+```
+
+**Beispiel: Auswahl der Anzahl der anzuzeigenden Sterne anhand der Bewertung eines Elements**
+
+Angenommen, Sie möchten eine entsprechende Anzahl von Sternen basierend auf der numerischen durchschnittlichen Kundenbewertung eines Artikels anzeigen. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('rating') != '' )
+    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #if( $rating >= 4.5 )
+        <img src="5_stars.jpg">
+    #elseif( $rating >= 3.5 )
+        <img src="4_stars.jpg">
+    #elseif( $rating >= 2.5 )
+        <img src="3_stars.jpg">
+    #elseif( $rating >= 1.5 )
+        <img src="2_stars.jpg">
+    #else
+        <img src="1_star.jpg">
+    #end
+#else
+    <img src="no_rating_default.jpg">
+#end
+```
+
+**Beispiel: Zeit in Stunden und Minuten auf Grundlage der Länge eines Artikels in Minuten berechnen**
+
+Angenommen, Sie speichern die Länge eines Films in Minuten, möchten die Länge jedoch in Stunden und Minuten anzeigen. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
+
+```
+#if( $entity1.get('length_minutes') )
+#set( $Integer = 1 )
+#set( $nbr = $Integer.parseInt($entity1.get('length_minutes')) )
+#set( $hrs = $nbr / 60)
+#set( $mins = $nbr % 60)
+#end
+```
+
+## Anzeigen eines Schlüsselelements mit empfohlenen Produkten {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Sie können Ihren Entwurf ändern, um Ihre Schlüsselelemente neben anderen empfohlenen Produkten anzuzeigen. Sie möchten zum Beispiel das aktuelle Element als Referenz neben den Empfehlungen anzeigen.
 
@@ -174,9 +204,9 @@ Das Ergebnis ist ein Entwurf wie der folgende, in dem das Schlüsselelement in e
 
 Wenn Sie Ihre [!DNL Recommendations]-Aktivität erstellen und das Schlüsselelement vom Benutzerprofil genommen wird, zum Beispiel „Zuletzt gekaufter Artikel“, zeigt [!DNL Target] ein zufällig ausgewähltes Produkt im [!UICONTROL Visual Experience Composer an]. Dies beruht darauf, dass ein Profil beim Erstellen der Aktivität nicht verfügbar ist. Wenn Besucher die Seite anzeigen, sehen sie das erwartete Schlüsselelement.
 
-## Szenario: Dezimalpunkt in einem Verkaufspreis durch Kommatrennzeichen ersetzen {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Ersetzen in einem Zeichenfolgenwert {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-Sie können Ihren Entwurf anpassen, um den Dezimalpunkt, der in den USA zum Einsatz kommt, durch ein Kommatrennzeichen zu ersetzen, wie es in Europa und anderen Ländern üblich ist.
+Sie können Ihren Entwurf ändern, um Werte in einer Zeichenfolge zu ersetzen. Ersetzen Sie beispielsweise das in den USA verwendete Dezimalzeichen durch das in Europa und anderen Ländern verwendete Komma-Trennzeichen.
 
 Folgender Code zeigt eine einzelne Zeile in einem bedingten Verkaufspreis-Beispiel:
 
@@ -200,7 +230,7 @@ Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreise
                                     </span>
 ```
 
-## Szenario: Erstellen Sie ein standardmäßiges Recommendations-Design von 4 x 2 mit Null-Prüfungen. {#default}
+## Anpassen der Vorlagengröße und Prüfen auf leere Werte {#default}
 
 Mithilfe eines Velocity-Skripts zur Steuerung der dynamischen Größe der Entitätsanzeige wird die folgende Vorlage für ein 1-zu-viele-Ergebnis verwendet, um zu verhindern, dass leere HTML-Elemente erstellt werden, wenn von [!DNL Recommendations]nicht genügend übereinstimmende Entitäten zurückgegeben werden. Dieses Skript eignet sich optimal für Szenarios, bei denen Reserveempfehlungen nicht sinnvoll sind und [!UICONTROL Teilweises Vorlagen-Rendering] aktiviert ist.
 
