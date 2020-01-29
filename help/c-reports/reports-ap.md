@@ -4,7 +4,7 @@ description: Für Benutzer der automatisierten Personalisierung stehen spezialis
 title: Automated Personalization-Zusammenfassungsberichte
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: ea6d526c07a32c84d85d9cd62f2cda804e81d418
 
 ---
 
@@ -29,7 +29,7 @@ Für Benutzer der automatisierten Personalisierung stehen spezialisierte Bericht
 
 Der Bericht [!UICONTROL Aktivitätsebene] vergleicht die Gesamtleistung beim Einsatz eines „[!UICONTROL Automatisierte Personalisierung]“-Algorithmus mit zufällig bereitgestellten Inhalten (Kontrolle).
 
-![](assets/box_plot_ap.jpg)
+![Aktivitätsstufenbericht](/help/c-reports/assets/box_plot_ap.png)
 
 Die Standardregeln für die Auswertung von A/B-Testergebnissen gelten weiterhin, einschließlich Steigerung, Konfidenz, Trends, Dauer und so weiter. Weitere Informationen zur Ergebnisauswertung finden Sie in  [Über die Konversionsrate](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)
 
