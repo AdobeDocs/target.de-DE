@@ -4,7 +4,7 @@ description: Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlu
 title: Anpassen eines Designs mithilfe von Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
+source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 ---
 
@@ -122,15 +122,16 @@ Sie können `algorithm.name` und `algorithm.dayCount` als Variablen in Entwürfe
 
 ## Arbeiten mit Zahlen in Velocity-Vorlagen
 
-Velocity-Vorlagen behandeln alle Entitätsattribute standardmäßig als Zeichenfolgenwerte. Sie können ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang durchzuführen oder ihn mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
+Velocity-Vorlagen behandeln alle Entitätsattribute standardmäßig als Zeichenfolgenwerte. Möglicherweise möchten Sie ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang durchzuführen oder es mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
+
 1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder in einen doppelten Wert
-2. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich, damit der Vorlagenparser von Target Recommendations die Vorlage validieren und speichern kann)
-3. Übergeben Sie das Entitätsattribut an die `parseInt` oder- `parseDouble` Methode für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in eine Ganzzahl oder einen doppelten Wert umzuwandeln
-4. Durchführen des Mathematik-Vorgangs oder -Vergleichs mit dem neuen numerischen Wert
+1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich, damit der Vorlagenparser von Target Recommendations die Vorlage validieren und speichern kann)
+1. Übergeben Sie das Entitätsattribut an die `parseInt` oder- `parseDouble` Methode für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in eine Ganzzahl oder einen doppelten Wert umzuwandeln
+1. Durchführen des Mathematik-Vorgangs oder -Vergleichs mit dem neuen numerischen Wert
 
 **Beispiel: Berechnen eines Rabattpreises**
 
-Nehmen wir an, Sie möchten den angezeigten Preis eines Artikels um 0,99 USD reduzieren, um einen Rabatt zu erhalten. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
+Angenommen, Sie möchten den angezeigten Preis eines Artikels um 0,99 USD reduzieren, um einen Rabatt zu erhalten. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
 
 ```
 #set( $Double = 0.1 )
