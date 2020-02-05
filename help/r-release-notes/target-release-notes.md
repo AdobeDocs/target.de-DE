@@ -5,7 +5,7 @@ title: Versionshinweise zu Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
+source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen für die neuesten oder kommenden [!DNL Adobe Target]-Versionen.
 
-
-
-**Letzte Aktualisierung: 28. Januar 2020**
+**Zuletzt aktualisiert: 4. Februar 2020**
 
 >[!NOTE]
 >
@@ -32,12 +30,9 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
    Detaillierte Informationen zu den möglichen Auswirkungen und den Schritten, die Sie zur Aktualisierung Ihrer Implementierung unternehmen müssen, finden Sie unter Änderungen[der ](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)TLS-Verschlüsselung (Transport Layer Security).
 
 
-## Target Standard/Premium 20.1.1 (4. Februar 2020)
+## Target Standard/Premium 20.2.1 (19. Februar 2020)
 
-Das Target Standard/Premium Release 20.1.1 ist ein Maintenance Release und umfasst Backend-Erweiterungen und -Verbesserungen. Darüber hinaus wurden folgende Fehlerbehebungen vorgenommen:
-
-* Es wurde ein Fehler behoben, der dazu führte, dass das Feld für den Adobe Analytics-Tracking-Server auf der Seite Ziele und Einstellungen für vorhandene Adobe für Target-Aktivitäten (A4T) leer war. (TGT-35960)
-* Es wurde ein Problem in der Benutzeroberfläche behoben, durch das Ihre Auswahl in der zweiten Dropdownliste beim Erstellen einer Zielgruppe für Kategorieaffinität nicht angezeigt wurde. (TGT-36098)
+Die Version Target Standard/Premium 20.2.1 ist für den 19. Februar 2020 geplant. Informationen zu bestimmten Funktionen, Verbesserungen und Fehlerbehebungen werden in den kommenden Tagen hier veröffentlicht.
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
