@@ -1,10 +1,10 @@
 ---
-keywords: AB;A/B;AB...n;Erlebnisse vergleichen;Targeting;Inhalte vergleichen
+keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content
 description: Beim A/B-Test werden zwei oder mehr Versionen Ihrer Website-Inhalte verglichen, um festzustellen, mit welcher Version Ihre Konversionen in einem vorab festgelegten Zeitraum verbessert werden.
 title: A/B-Test
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -27,7 +27,7 @@ Sie können beim Einrichten Ihres Tests festlegen, welcher Prozentsatz an Besuch
 
 Bei mehr als fünf verschiedenen Erlebnissen mit zwei oder mehr Orten ist möglicherweise ein [Multivarianz-Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md) empfehlenswert, bevor Sie Ihre A/B-Tests durchführen. Der Multivariater Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Orte, auf die sich ein Marketingexperte konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf der wichtigste Ort zur Erreichung Ihrer Ziele ist. Sobald Sie festgelegt haben, welche Orte und Inhalte am nützlichsten sind, um Sie bei der Erreichung Ihrer Ziele zu unterstützen, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern, wie zum Beispiel den vergleichenden Test zweier spezifischer Bilder oder den Vergleich von Formulierungen oder Farben eines Aktionsaufrufs. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
 
-## Schulungsvideo: Aktivitätstypen (9:03)
+## ![Schulungsvideo zum](/help/assets/overview.png) Überblick: Aktivitätstypen (9:03)
 
 In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivitätstypen erläutert.
 
@@ -35,4 +35,4 @@ In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivi
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
