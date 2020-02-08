@@ -1,11 +1,11 @@
 ---
-keywords: experience;json;aem;adobe Experience Manager;Export in adobe target;Erlebnisfragmente;Fragmente;XF
+keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: Informationen zur Verwendung von in Adobe Experience Manager (AEM) erstellten Erlebnisfragmenten in Adobe Target-Aktivitäten zur Optimierung oder Personalisierung.
 title: Adobe Experience Manager (AEM)-Erlebnisfragmente in Adobe Target
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -60,7 +60,7 @@ Erlebnisfragmente werden in AEM erstellt. Weitere Informationen finden Sie unter
 ### Schritt 3: AEM für das Teilen des Erlebnisfragments mit Target konfigurieren
 
 1. Wählen Sie in AEM das gewünschte Erlebnisfragment oder den Ordner, der dieses Fragment enthält, und klicken Sie dann auf **[!UICONTROL Eigenschaften]**.
-2. Klicken Sie auf die Registerkarte **[!UICONTROL Cloud-Services]** und wählen Sie dann in der Dropdownliste **[!UICONTROL Cloud-Servicekonfiguration]** den Eintrag **Adobe Target[!UICONTROL aus]**.
+2. Klicken Sie auf die Registerkarte **[!UICONTROL Cloud-Services]** und wählen Sie dann in der Dropdownliste **[!UICONTROL Cloud-Servicekonfiguration]** den Eintrag **[!UICONTROL Adobe Target]** aus.
 
    >[!NOTE]
    >
@@ -141,6 +141,10 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Beachten Sie, dass die „Master“-Version des Erlebnisfragments in AEM verbleibt. You cannot edit the experience fragment in [!DNL Target].
 * Sie können JSON-Angebote als Erlebnisfragmente in importieren [!DNL Target]. Diese Angebote werden jedoch als HTML-Angebote importiert. JSON-Angebote (Erlebnisfragmente) werden derzeit nicht vollständig in der [!DNL Target] Benutzeroberfläche unterstützt.
 
-## Schulungsvideo: Verwenden von AEM-Erlebnisfragmenten mit Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
+## ![Schulungsvideo zum](/help/assets/overview.png) Abzeichen: Verwenden von AEM Experience Fragments mit Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
 
-Das folgende Video zeigt, wie Sie Erlebnisfragmente einrichten und verwenden können: [Verwenden von AEM-Erlebnisfragmenten in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-feature-video-use.html).
+Das folgende Video zeigt, wie Sie Erlebnisfragmente einrichten und verwenden:
+
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
+
+Weitere Informationen finden Sie unter [Verwenden von Erlebnisfragmenten mit Adobe Target](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) auf der Seite Videos und Tutorials *zu* AEM-Sites.
