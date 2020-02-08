@@ -1,11 +1,11 @@
 ---
-keywords: automatisierte Personalisierung;Zielgruppen;Ensemble;Random Forest
+keywords: automated personalization;Audiences;ensemble;random forest
 description: Die automatisierte Personalisierung (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besuchern basierend auf deren individuellen Kundenprofilen mithilfe des erweiterten maschinellen Lernens verschiedene Angebotsvarianten zu, um die Inhalte zu personalisieren und Konversionen zu fördern.
 title: Automatisierte Personalisierung
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -34,7 +34,7 @@ Die folgenden Begriffe und Definitionen sind hilfreich, wenn es um die [!UICONTR
 
 Folgendes sollte beim Einsatz der [!UICONTROL automatisierten Personalisierung] beachtet werden:
 
-**Die[!UICONTROL automatisierte Personalisierung]verwendet einen Random Forest-Algorithmus.**
+**[!UICONTROL Die automatisierte Personalisierung]verwendet einen Random Forest-Algorithmus.**
 
 Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Sprache der Datenwissenschaftler ist dies eine Ensemble-Classification- oder Regressionsmethode, die auf der Grundlage von Besuchern und Besuchsattributen eine große Anzahl von Entscheidungsbäumen erstellt. Random Forest wird von Target eingesetzt, um zu bestimmen, welches Erlebnis die höchste Wahrscheinlichkeit einer Konversion (oder den höchsten Umsatz pro Besuch) für jeden einzelnen Besucher hat. Beispiel: Besucher, die Google Chrome verwenden, Mitglieder der Treuestufe „Gold“ sind und am Dienstag Ihre Website besuchen, konvertieren wahrscheinlicher bei Erlebnis A, während Besucher aus New York eher bei Erlebnis B konvertieren. Weitere Informationen zu Random Forest in Target finden Sie unter  [Random-Forest-Algorithmus](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
@@ -72,7 +72,7 @@ Offline-Daten wie CRM-Informationen oder Propensity Scores zur Kundenabwanderung
 
 Informationen zu den Daten, die automatisch von den Personalisierungsalgorithmen der [!UICONTROL automatisierten Personalisierung] und des [!UICONTROL automatischen Targetings] gesammelt und verwendet werden, finden Sie unter [Datenerfassung für die automatisierte Personalisierung](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
-## Schulungsvideo: Aktivitätstypen
+## ![Schulungsvideo zum](/help/assets/overview.png) Überblick: Aktivitätstypen
 
 In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivitätstypen erläutert. [!UICONTROL Automatisierte Personalisierung wird ab 5:55 besprochen.]
 
@@ -80,4 +80,4 @@ In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivi
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
