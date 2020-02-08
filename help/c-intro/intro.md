@@ -1,11 +1,11 @@
 ---
-keywords: Target Standard;Recommendations;Target Premium;Automatisierte Personalisierung;Auto-Targeting;Auto-Targeting;Berechtigungen;Was ist adobe target;
+keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
 description: Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 title: Einführung in Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -37,6 +37,10 @@ In [!DNL Target Standard] sind die Best Practices der Branche integriert und Sta
 ## Target Premium {#premium}
 
 [!DNL Target Premium] ist eine erweiterte [!DNL Target]-Lizenz, die [!DNL Target Standard] durch Premium-Funktionen ergänzt.
+
+Target Premium-Themen in dieser Hilfe beinhalten das Premium-Zeichen oben auf der Seite:
+
+![Premium-Zeichen](/help/assets/premium.png)
 
 Target Premium verfügt über folgende Premium-Funktionen:
 
@@ -97,7 +101,7 @@ Mit diesem Welcome Kit können Sie ein Optimierungs- und Personalisierungsprogra
 
 [Das Adobe Target-Begrüßungs-Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Schulungsvideo: Aktivitätstypen (9:03)
+## ![Schulungsvideo zum](/help/assets/overview.png) Überblick: Aktivitätstypen (9:03)
 
 Im folgenden Video wird erklärt, welche Aktivitätstypen in [!DNL Target Standard/Premium] verfügbar sind und wie der angeleitete dreistufige Arbeitsablauf von Target dazu beiträgt, dass Sie die Ziele für Ihre Site erreichen.
 
@@ -105,4 +109,4 @@ Im folgenden Video wird erklärt, welche Aktivitätstypen in [!DNL Target Standa
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
