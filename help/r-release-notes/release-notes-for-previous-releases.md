@@ -5,7 +5,7 @@ title: Versionshinweise für vorherige Versionen
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
+source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
 
 ---
 
@@ -104,20 +104,7 @@ Dieser Maintenance Release enthält die folgende Verbesserung:
 
 | Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
-| ![Premium-Zeichen](/help/assets/premium.png) für Unternehmen | Mit der Version Target September 2019 bieten Enterprise Permissions Kunden die folgenden Zugriffssteuerungen:<UL><li>Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet werden kann.</li><li>Sie können der Adobe I/O-Integration eine Rolle zuweisen: Genehmiger, Bearbeiter oder Beobachter.</li></ul>Schrittweise Anleitungen und weitere Informationen finden Sie unter [Gewähren von Zugriff von Adobe I/O-Integrationen auf Arbeitsbereiche und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
-
-
-### Target Mobile VEC SDK iOS 2.1.0 und Android 1.1.1 (7. August 2019)
-
-Diese Version von Mobile VEC SDK enthält die folgenden Erweiterungen und Fehlerbehebungen:
-
-(Die Problemnummern in Klammern sind für den internen Gebrauch von Adobe.)
-
-* Unterstützung für die Vorschau von visuellen Aktivitäten auf Mobilgeräten wurde hinzugefügt. (TGT-27875)
-* Es wurde ein Problem behoben, durch das aufgrund der Verwendung von `UIImagePickerController` eine Apple Standard-Verletzung verursacht wurde.
-* Die GSON-Abhängigkeit von Android SDK wurde entfernt. (TGT-31710)
-* Andere redundante Gradle-Abhängigkeiten wurden entfernt (TGT -35479)
-* Es wurde ein Problem behoben, durch das das Bereitstellungsangebot zum Zeitpunkt der Erstellung nicht zurückgesetzt wurde. (TGT-35270)
+| ![Premium-Zeichen](/help/assets/premium.png) für Unternehmen | Mit der Version Target September 2019 bieten Enterprise Permissions Kunden die folgenden Zugriffssteuerungen:<UL><li>Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet werden kann.</li><li>Sie können der Adobe I/O-Integration eine Rolle zuweisen: Genehmiger, Bearbeiter oder Beobachter.</li></ul>Schrittweise Anleitungen und weitere Informationen finden Sie unter [Gewähren von Zugriff von Adobe I/O Integrationen auf Arbeitsbereiche und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ### Target Standard/Premium 19.7.1 (24. Juli 2019) {#tgt-19-7-1}
 
@@ -127,7 +114,6 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Erweiterungen:
 
 | Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
-| Visual Experience Composer für mobile Apps | Der Mobile App VEC enthält ein neues Bedienfeld namens „Änderungen“, in dem die für Klick-Tracking eingerichteten Elemente angezeigt werden. (TGT-31741)<br>Siehe [Einrichten des Klick-Trackings in der Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) |
 | ![ Premium-Zeichen](/help/assets/premium.png)<br>Recommendations in A/B-Test- und Erlebnis-Targeting-Aktivitäten (XT) | Der Status der Recommendations-Angebote (Algorithmus) wird auf der Übersichtsseite für A/B-Test- und XT-Aktivitäten angezeigt, die Recommendations-Angebote enthalten. Zu den Status gehören: Ergebnisse bereit, Ergebnisse nicht bereit und Feed-Fehler. (TGT-33649)<br>Siehe [Empfehlungen als Angebot](/help/c-recommendations/recommendations-as-an-offer.md#status). |
 | Unterstützung von domänenübergreifendem Tracking für at.js 2.0 und höher über die Experience Cloud ID-Bibliothek (ECID) | Bisher wurde das domänenübergreifende Tracking in at.js 2 nicht unterstützt.*x*. Mit dieser Version können jetzt Kunden, die at.js 2.0 oder höher verwenden, domänenübergreifendes Tracking über die ECID-Bibliothek nutzen. Damit das domänenübergreifende Tracking funktioniert, muss die ECID-Bibliothek gemeinsam mit at. js 2.0 oder höher auf der Seite installiert sein. [Experience Cloud ID-Bibliothek 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) muss verwendet werden.<br>Siehe [Unterstützung von domänenübergreifendem Tracking in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
 | Target-Unterstützung für ITP 2.1 und ITP 2.2 von Apple über die Experience Cloud ID-Bibliothek 4.3 (ECID) | Jetzt können Target-Kunden ITP 2.1 und ITP 2.2 von Apple mithilfe des CNAME-Zertifizierungsprogramms von Adobe umgehen.<br>Mit dieser Version führt Target eine nahtlose Integration in die ECID-Bibliothek 4.3 ein, die ein serverseitiges Cookie nutzt, um ITP 2.1 und ITP 2.2 zu minimieren. Es wird dringend empfohlen, dass Target-Kunden [ECID-Bibliothek 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) in Verbindung mit der JavaScript-Bibliothek von Target bereitstellen, um zukünftige ITP-Versionen zu minimieren. Die ECID-Bibliothek wird weiterhin Verbesserungen veröffentlichen, die eine verlässliche Lösung für die sich ständig ändernden Cookie-Richtlinien von Browsern bieten.<br>Siehe [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
@@ -168,7 +154,6 @@ Diese Version umfasst die folgenden neuen Funktionen und Erweiterungen:
 | --- | --- |
 | Visual Experience Composer (VEC) | **Neue Menüoptionen im VEC**: Wenn Sie im VEC auf ein Seitenelement klicken, werden in einem Menü die für diesen Elementtyp verfügbaren Optionen angezeigt.<ul><li>Sie können jetzt die Option [!UICONTROL Stile > Hintergrund] verwenden, um das Hintergrundbild und die Hintergrundfarbe für das ausgewählte Element zu ändern. (TGT-15001)</li></ul>Siehe *Stile* in [Visual Experience-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Verbesserungen beim Klick-Tracking **: Der Vorgang zur Konfiguration des Klick-Trackings im VEC und im VEC für Einzelseiten-Apps (SPA) wurde verbessert.<ul><li>Bei der Auswahl von Elementen im Klick-Tracking werden auf der rechten Seite im Bedienfeld „Änderungen“ die Namen aller verfügbaren Elemente angezeigt, sodass die gewünschten Elemente schnell und einfach ausgewählt werden können.</li><li>Auf der Seite [!UICONTROL Ziele und Einstellungen] des dreiteiligen geführten Aktivitäts-Workflows wird eine Zahl angezeigt, die die Anzahl der für das Klick-Tracking ausgewählten Elemente wiedergibt. Wenn Sie den Mauszeiger über diese Zahl bewegen, werden die Namen aller ausgewählten Elemente angezeigt. (TGT-33878)</li></ul>Siehe [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
 | Visual Experience Composer für Einzelseiten-Apps (SPAs)  (SPA VEC) | **Geführter Workflow**: Ein neuer geführter Workflow hilft Ihnen dabei, die Einstellungen für die Seitenauslieferung zu konfigurieren, sodass eine Aktivität für eine Einzelseiten-App erfolgreich ausgeführt werden kann. (TGT-33718)<br> Siehe [Visual Experience Composer für Einzelseiten-Apps (SPAs)](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Änderungen klonen **: Sie können jetzt eine Änderung mithilfe des SPA VEC definieren und diese Änderung dann klonen, um sie in anderen Ansichten Ihrer Einzelseiten-App zu verwenden. (TGT-33882)<br>Siehe[Visual Experience Composer für Einzelseiten-Apps (SPAs)](/help/c-experiences/spa-visual-experience-composer.md). |
-| Mobile Visual Experience Composer | **Mehrere App-Versionen**: Sie können jetzt Aktivitäten für mehrere Versionen Ihrer Mobile App erstellen. Dadurch sparen Sie Zeit und Mühe, wenn die Versionen ähnlich sind, und Sie müssen die Benutzeroberfläche der App nicht wesentlich ändern. (TGT-34231)<br>Siehe „Verwalten mehrerer App-Versionen“ in [Visual Experience Composer für Mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
 | ![Premium-Zeichen](/help/assets/premium.png) Automatisierte Personalisierung (AP) und Automatisches Targeting | **Bestimmtes Erlebnis als Kontrollelement**: Sie können beim Erstellen eines AP oder eines automatischen Targetings ein Kontrollerlebnis auswählen. Mit dieser Funktion können Sie den gesamten Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu einem bestimmten Erlebnis leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem einen Erlebnis vergleichen. Die aktuelle Kontrolloption (zufällig bereitgestellte Erlebnisse) ist weiterhin verfügbar. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>Siehe [Auswahl des Kontrollelements für die Aktivität „Automatisierte Personalisierung“ oder „Automatisches Targeting“](/help/c-activities/t-automated-personalization/experience-as-control.md). Beachten Sie, dass es derzeit mit dieser Funktion [ein bekanntes Problem](/help/r-release-notes/known-issues-resolved-issues.md) gibt.<br>**Personalization Insights-Berichte **: Die marketerfreundliche Benennung von Attributen, wenn ein Besucher ein bestimmtes Inhaltselement an einem bestimmten Ort sieht, bietet aussagekräftigere Informationen. (TGT-33421 &amp; TGT-34957)<br>See[Datenerfassung für die Target-Personalisierungsalgorithmen](/help/c-activities/t-automated-personalization/ap-data.md). |
 | ![Premium-Zeichen](/help/assets/premium.png) Recommendations | Sie können den Schalter „Zuvor gekaufte Artikel empfehlen“ beim Erstellen der Logik „Kürzlich angezeigte Elemente“ nutzen. (TGT-34030)<br>Weitere Informationen finden Sie unter [Kürzlich angezeigte Elemente](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) in „Kriterien erstellen“. |
 | SameSite-Cookie-Richtlinien von Google Chrome | Google kündigte kürzlich an, dass die Entwickler beginnend mit Chrome 76, das am 30. Juli 2019 veröffentlicht werden soll, explizit angeben müssen, welche Cookies auf allen Websites funktionieren und welche Cookies Benutzer tracken können.<br>Da die Branche Maßnahmen trifft, um das Web für Verbraucher sicherer zu machen, setzt sich Target intensiv dafür ein, personalisierte Erlebnisse zu liefern, gleichzeitig aber auch die Besuchererwartungen an den Datenschutz einzuhalten.<br>Siehe [SameSite-Cookie-Richtlinien von Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
@@ -199,12 +184,6 @@ Wir freuen uns, folgende Funktionen in at.js 2.1.0 bekannt geben zu können:
 #### Verbesserungen, Fehlerbehebungen und Änderungen
 
 * Die Symbole der Symbolleiste werden entsprechend angezeigt, nachdem Sie das Laden einer Seite innerhalb des VEC abgebrochen haben. Wenn bestimmte Aktionen erst nach dem vollständigen Laden der Seite ausgeführt werden können, werden die zugehörigen Symbolleistensymbole deaktiviert. (TGT-33811)
-
-### Mobile App Visual Experience Composer (14. Mai 2019) {#mobile-vec-may14-2}
-
-| Funktion  / Verbesserung | Beschreibung |
-| --- | --- |
-| Mobile App Visual Experience Composer für mobile Apps (VEC) | Mit dem Mobile App VEC für native Apps können Sie Aktivitäten und personalisierte Inhalte in nativen Apps selbstständig erstellen, ohne von der kontinuierlichen Weiterentwicklung und den App-Release-Zyklen abhängig zu sein.<br>Weitere Informationen finden Sie unter:<ul><li>[Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS – Einrichten der App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Einrichten des Klick-Trackings im Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[Video: Visual Experience Composer für mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.4.2 (30. April 2019) {#release-19-4-2}
 
@@ -2123,7 +2102,7 @@ Dieses Release enthält die folgenden Fehlerbehebungen:
 Die folgenden Probleme sind bekannt:
 
 * Wenn „JavaScript deaktivieren“ in einer mehrseitigen Aktivität für Seite A ausgewählt wird, wird JavaScript global deaktiviert, obwohl „JavaScript deaktivieren“ nicht für andere Seiten festgelegt wurde.
-* Problem mit der Erlebnisvorschau-URL für Erlebnisse mit Umleitung. Klicken Sie als Workaround in Experience Composer auf **[!UICONTROL Konfigurieren]**, wählen Sie**[!UICONTROL  Mehrere Zielgruppen]** und fügen Sie **[!UICONTROL Alle Besucher]**als einzige Zielgruppe hinzu. Speichern Sie dann Ihre Aktivität. Dieser Vorgang wirkt sich nicht auf die Bereitstellung Ihrer Aktivität aus, ermöglicht jedoch die Darstellung der Vorschau. Es ist geplant, das Problem in der Juliversion von Adobe Target zu beheben.
+* Problem mit der Erlebnisvorschau-URL für Erlebnisse mit Umleitung. Klicken Sie als Workaround in Experience Composer auf **[!UICONTROL Konfigurieren]**, wählen Sie **[!UICONTROL Mehrere Zielgruppen]** und fügen Sie **[!UICONTROL Alle Besucher]** als einzige Zielgruppe hinzu. Speichern Sie dann Ihre Aktivität. Dieser Vorgang wirkt sich nicht auf die Bereitstellung Ihrer Aktivität aus, ermöglicht jedoch die Darstellung der Vorschau. Es ist geplant, das Problem in der Juliversion von Adobe Target zu beheben.
 
 * In der Dokumentation ist das erwartete Verhalten des Kontrollkästchens für die Umleitungs-URL beschrieben. Aufgrund eines Fehlers wird das Kontrollkästchen jedoch nicht standardmäßig ausgewählt. Dieser Fehler wird in einer der nächsten Versionen behoben.
 
@@ -2210,7 +2189,7 @@ Der Bereitstellungsprozess für A4T wurde verbessert.
 Die folgenden Probleme sind bekannt:
 
 * Wenn „JavaScript deaktivieren“ in einer mehrseitigen Aktivität für Seite A ausgewählt wird, wird JavaScript global deaktiviert, obwohl „JavaScript deaktivieren“ nicht für andere Seiten festgelegt wurde.
-* Problem mit der Erlebnisvorschau-URL für Erlebnisse mit Umleitung. Klicken Sie als Workaround in Experience Composer auf **[!UICONTROL Konfigurieren]**, wählen Sie**[!UICONTROL  Mehrere Zielgruppen]** und fügen Sie **[!UICONTROL Alle Besucher]**als einzige Zielgruppe hinzu. Speichern Sie dann Ihre Aktivität. Dieser Vorgang wirkt sich nicht auf die Bereitstellung Ihrer Aktivität aus, ermöglicht jedoch die Darstellung der Vorschau. Es ist geplant, das Problem in der Juliversion von Adobe Target zu beheben.
+* Problem mit der Erlebnisvorschau-URL für Erlebnisse mit Umleitung. Klicken Sie als Workaround in Experience Composer auf **[!UICONTROL Konfigurieren]**, wählen Sie **[!UICONTROL Mehrere Zielgruppen]** und fügen Sie **[!UICONTROL Alle Besucher]** als einzige Zielgruppe hinzu. Speichern Sie dann Ihre Aktivität. Dieser Vorgang wirkt sich nicht auf die Bereitstellung Ihrer Aktivität aus, ermöglicht jedoch die Darstellung der Vorschau. Es ist geplant, das Problem in der Juliversion von Adobe Target zu beheben.
 
 ### Neue Target-Implementierungsbibliothek „at.js“ 0.8.0 (5. Mai 2016)  {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -2378,7 +2357,7 @@ Die folgenden Probleme sind bekannt:
 * Mit Version 48 von Chrome trat ein Problem auf, das dazu führte, dass Visual Experience Composer in Chrome nicht richtig funktionierte. Google arbeitet bereits an einer Lösung. Weitere Informationen erhalten Sie unter [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). So umgehen Sie das Problem:
 
    * Nutzen Sie Firefox oder Internet Explorer.
-   * Aktivieren Sie Enhanced Experience Composer. Das Programm kann auf der Registerkarte unter **[!UICONTROL Einrichten]**>**[!UICONTROL  Einstellungen]** konfiguriert werden.
+   * Aktivieren Sie Enhanced Experience Composer. Das Programm kann auf der Registerkarte unter **[!UICONTROL Einrichten]** > **[!UICONTROL Einstellungen]** konfiguriert werden.
 
 ### Adobe Target Standard/Premium 16.2.1 (18. Februar 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2400,7 +2379,7 @@ Die folgenden Probleme sind bekannt:
 * Mit Version 48 von Chrome trat ein Problem auf, das dazu führte, dass Visual Experience Composer in Chrome nicht richtig funktionierte. Google arbeitet bereits an einer Lösung. Weitere Informationen erhalten Sie unter [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). So umgehen Sie das Problem:
 
    * Nutzen Sie Firefox oder Internet Explorer.
-   * Aktivieren Sie Enhanced Experience Composer. Das Programm kann auf der Registerkarte unter **[!UICONTROL Einrichten]**>**[!UICONTROL  Einstellungen]** konfiguriert werden.
+   * Aktivieren Sie Enhanced Experience Composer. Das Programm kann auf der Registerkarte unter **[!UICONTROL Einrichten]** > **[!UICONTROL Einstellungen]** konfiguriert werden.
 
 ### Adobe Target Standard/Premium 16.1.1 (28. Januar 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2478,7 +2457,7 @@ Die folgenden Probleme sind bekannt:
 * Mit Version 48 von Chrome trat ein Problem auf, das dazu führte, dass Visual Experience Composer in Chrome nicht richtig funktionierte. Google arbeitet bereits an einer Lösung. Weitere Informationen erhalten Sie unter [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). So umgehen Sie das Problem:
 
    * Nutzen Sie Firefox oder Internet Explorer.
-   * Aktivieren Sie Enhanced Experience Composer. Das Programm kann auf der Registerkarte unter **[!UICONTROL Einrichten]**>**[!UICONTROL  Einstellungen]** konfiguriert werden.
+   * Aktivieren Sie Enhanced Experience Composer. Das Programm kann auf der Registerkarte unter **[!UICONTROL Einrichten]** > **[!UICONTROL Einstellungen]** konfiguriert werden.
 
 ## Versionen 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -3120,7 +3099,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 | Funktion/Verbesserung | Beschreibung |
 |---|---|
-| Einfügen und Bearbeiten von JavaScript zulässig | Es besteht von nun an die Möglichkeit, benutzerdefiniertes JavaScript im Erlebnis-Editor zu bearbeiten und einzufügen, indem Sie im Aktionsmenü **[!UICONTROL HTML bearbeiten]**auswählen. |
+| Einfügen und Bearbeiten von JavaScript zulässig | Es besteht von nun an die Möglichkeit, benutzerdefiniertes JavaScript im Erlebnis-Editor zu bearbeiten und einzufügen, indem Sie im Aktionsmenü **[!UICONTROL HTML bearbeiten]** auswählen. |
 | Automatischer Zielgruppenimport | Zielgruppen werden automatisch im Hintergrund importiert, wenn ein Benutzer die Zielgruppenliste öffnet und die importierten Zielgruppen älter als 10 Minuten sind. |
 | Anhebung der Größe von HTML-Angeboten, die mit [!DNL Target Classic] synchronisiert werden können | Die vorherige Größenbeschränkung von 64 KB wurde auf 256 KB erhöht. |
 
@@ -3143,7 +3122,7 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Erweiterungen:
 **Fehlerkorrekturen**
 
 * Es wurde ein Fehler behoben, der die Erstellung eines Berichtsdiagramms bei gleichzeitigem Navigieren zwischen unterschiedlichen Aktivitäten verhinderte.
-* Es wurde ein Fehler behoben, bei dem ausgewählte Links nicht als  ausgewählt markiert wurden, wenn der Benutzer auf der Seite **[!UICONTROL Ziele und Einstellungen]**auf[!UICONTROL „Link auswählen“]geklickt hat.
+* Es wurde ein Fehler behoben, bei dem ausgewählte Links nicht als  ausgewählt markiert wurden, wenn der Benutzer auf der Seite **[!UICONTROL Ziele und Einstellungen]** auf [!UICONTROL „Link auswählen“] geklickt hat.
 
 * Es wurde ein Fehler behoben, der verhinderte, dass eine neue Aktivität nach deren Aktivierung auf der [!UICONTROL Übersichtsseite] in der [!UICONTROL Aktivitätsliste] angezeigt wurde.
 
@@ -3394,7 +3373,7 @@ Dieses Release weist die folgenden bekannten Probleme auf. Diese Fehler werden i
 * Es tritt ein Synchronisierungsfehler auf, wenn Geo-Zielgruppen in Target Standard erstellt werden und die Geolokation in Target Advanced deaktiviert ist.
 * Ein Bild kann nicht ausgetauscht werden, wenn das Bild in CSS referenziert wird.
 * Klick-Tracking funktioniert nicht mit Elementen, die mithilfe des Visual Experience Composer neu angeordnet wurden. Richten Sie Klick-Tracking nicht für neu angeordnete Elemente ein, bis dieser Fehler behoben ist.
-* Benutzer können die Aktion **[!UICONTROL Entfernen]**nicht für Inhalt verwenden, der in einer Mbox eingeschlossen ist.
+* Benutzer können die Aktion **[!UICONTROL Entfernen]** nicht für Inhalt verwenden, der in einer Mbox eingeschlossen ist.
 
 ### Adobe Target Standard 1.2 (31. Oktober 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
@@ -3426,7 +3405,7 @@ Diese Version umfasst die folgende Funktion:
 
 | Funktion | Beschreibung |
 |---|---|
-| [!DNL mbox.js]-Download in Target Standard | Die [!DNL mbox.js]-Datei kann nun direkt auf der Target Standard-Oberfläche unter **[!UICONTROL Einrichten]**>**[!UICONTROL  Implementierung]** heruntergeladen werden. Bisher musste die Datei in Target Advanced heruntergeladen oder von Ihrem Kundenbetreuer oder Kundenberater bereitgestellt werden. |
+| [!DNL mbox.js]-Download in Target Standard | Die [!DNL mbox.js]-Datei kann nun direkt auf der Target Standard-Oberfläche unter **[!UICONTROL Einrichten]** > **[!UICONTROL Implementierung]** heruntergeladen werden. Bisher musste die Datei in Target Advanced heruntergeladen oder von Ihrem Kundenbetreuer oder Kundenberater bereitgestellt werden. |
 
 Dieses Release enthält die folgenden Fehlerbehebungen und Erweiterungen:
 
