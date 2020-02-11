@@ -1,10 +1,10 @@
 ---
-keywords: Empfehlungsentwurf; Entwurf erstellen; Entwurf kopieren
+keywords: recommendations design;create design;copy design
 description: Mit einem Entwurf wird festgelegt, wie Empfehlungen auf einer Seite dargestellt werden.
 title: Erstellen eines Designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Mit einem Entwurf wird festgelegt, wie Empfehlungen auf einer Seite dargestellt werden.
 
-Sie können einen [!UICONTROL Recommendations]-Entwurf erstellen, indem ein Standardentwurf oder ein benutzerdefinierter Entwurf verwendet wird. Im Bildschirm **[!UICONTROL Recommendations &gt; Entwürfe]** werden sowohl Standardentwurfskarten als auch von Ihnen erstellte Entwürfe angezeigt. Die Standardentwürfe können nicht bearbeitet oder gelöscht werden.
+Sie können einen [!UICONTROL Recommendations]-Entwurf erstellen, indem ein Standardentwurf oder ein benutzerdefinierter Entwurf verwendet wird. Im Bildschirm **[!UICONTROL Recommendations > Entwürfe]** werden sowohl Standardentwurfskarten als auch von Ihnen erstellte Entwürfe angezeigt. Die Standardentwürfe können nicht bearbeitet oder gelöscht werden.
 
-1. Bewegen Sie den Mauszeiger auf dem Bildschirm **[!UICONTROL Empfehlungen &gt; Entwürfe]** über die Karte für den Entwurf, den Sie erstellen möchten.
+1. Bewegen Sie den Mauszeiger auf dem Bildschirm **[!UICONTROL Empfehlungen > Entwürfe]** über die Karte für den Entwurf, den Sie erstellen möchten.
 
    ![](assets/Card_CopyDesign.png)
 
@@ -23,7 +23,7 @@ Sie können einen [!UICONTROL Recommendations]-Entwurf erstellen, indem ein Stan
 
    Oder
 
-   Möchten Sie einen benutzerdefinierten Entwurf erstellen, klicken Sie auf die Option **[!UICONTROL Entwurf erstellen]**, verfügbar im Bildschirm **Recommendations &gt; Entwurf[!UICONTROL .]**
+   Möchten Sie einen benutzerdefinierten Entwurf erstellen, klicken Sie auf die Option **[!UICONTROL Entwurf erstellen]**, verfügbar im Bildschirm **[!UICONTROL Recommendations > Entwurf.]**
 
    ![](assets/createDesign.png)
 
@@ -42,11 +42,11 @@ Sie können einen [!UICONTROL Recommendations]-Entwurf erstellen, indem ein Stan
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Schulungsvideo: Erstellen von benutzerdefinierten Entwürfen in Recommendations (03:20)
+## Training video: Create custom designs in Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
 
 Dieses Video enthält die folgenden Informationen:
 
 * Erstellen eines benutzerdefinierten Entwurfs
 * Informationen zur Referenzierung von Anzeigevariablen in Entwürfen
 
->[!VIDEO](https://video.tv.adobe.com/v/27687?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)
