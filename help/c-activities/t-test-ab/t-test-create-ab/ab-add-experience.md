@@ -1,10 +1,10 @@
 ---
-keywords: Targeting;Erlebnis;Erlebnis hinzufügen;Erlebnisse hinzufügen
+keywords: Targeting;experience;add experience;experience add
 description: Der Visual Experience Composer (VEC) in Adobe Target stellt eine visuelle Benutzeroberfläche zur Bearbeitung von Erlebnissen auf Ihrer Seite zur Verfügung.
 title: Hinzufügen von Erlebnissen
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -90,11 +90,11 @@ Klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (der erste Schritt im Drei
 
 ![Option „Erlebnis löschen“](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Schulungsvideo: Verwenden von Visual Experience Composer
+## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
 
 Im Video unten erhalten Sie Informationen zur Verwendung der Optionen in Visual Experience Composer. (7:17)
 
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
