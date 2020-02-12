@@ -4,7 +4,7 @@ description: Erstellen Sie eine Ausschlussliste in Adobe Target, um zu verhinder
 title: Ausschlüsse in Adobe Target
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,7 +19,7 @@ Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werde
 
 **So erstellen Sie einen Ausschluss:**
 
-1. Klicken Sie auf **[!UICONTROL Recommendations]** >**[!UICONTROL  Ausschlüsse]**, um die Liste vorhandener Ausschlüsse anzuzeigen. 
+1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Ausschlüsse]**, um die Liste vorhandener Ausschlüsse anzuzeigen. 
 
    ![](assets/exclusions_list.png)
 
@@ -31,7 +31,7 @@ Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werde
 
    ![Ausschluss erstellen](/help/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Geben Sie einen **[!UICONTROL Namen]**für den Ausschluss ein und geben Sie eine optionale Beschreibung ein.
+1. Geben Sie einen **[!UICONTROL Namen]** für den Ausschluss ein und geben Sie eine optionale Beschreibung ein.
 
 1. Verwenden Sie den Rule Builder, um Ihre Ausnahmen zu erstellen.
 
@@ -51,7 +51,7 @@ Nachdem Sie beispielsweise eine Suche mit „id“ > „contains“ erstellt ha
 >
 >Bei der Funktion „Erweiterte Suche“ wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die zum Zeitpunkt der Auslieferung zurückgegebenen Produkte basieren jedoch auf der Suche mit Unterscheidung zwischen Groß- und Kleinschreibung. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Ausschlüsse auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Ausschluss mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszuschließen, werden nur Produkte mit dem Zusatz „urlaub“ ausgeschlossen. Produkte, die „Urlaub“ enthalten, werden nicht ausgeschlossen.
 
-## Schulungsvideo: Sammlungen und Ausschlüsse in Recommendations erstellen (07:05)
+## Schulungsvideo: Sammlungen und Ausschlüsse in Recommendations erstellen (07:05) Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
