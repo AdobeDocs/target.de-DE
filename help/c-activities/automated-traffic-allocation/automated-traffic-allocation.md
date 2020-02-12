@@ -5,7 +5,7 @@ title: Automatische Zuordnung
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -182,7 +182,7 @@ Es gibt wirklich keinen Grund, ein leistungsschwaches Erlebnis zu entfernen. Die
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Arbeitsablauf für Aktivitäten – Targeting (2:14)
+### Arbeitsablauf für Aktivitäten – Targeting (2:14) Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 In diesem Video sind Informationen zur Einrichtung der Traffic-Zuordnung enthalten.
 
@@ -193,7 +193,7 @@ In diesem Video sind Informationen zur Einrichtung der Traffic-Zuordnung enthalt
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Erstellen von A/B-Tests (8:36)
+### Erstellen von A/B-Tests (8:36) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein A/B-Test erstellt wird. Automatisierte Traffic-Zuordnung wird ab 4:45 besprochen.
 
