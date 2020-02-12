@@ -1,12 +1,12 @@
 ---
-keywords: Antwort-Token;Token;Plug-Ins;at.js;Antwort
+keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: Mithilfe von Antworttoken können Sie Target-spezifische Informationen (Aktivitätsdetails, Benutzerprofilinformationen, Geo-Informationen usw.) automatisch ausgeben, die beim Debugging oder bei der Integration in Drittanbietersysteme (z. B. Clicktale) verwendet werden können
 title: Antwort-Token in Adobe Target
-subtopic: Erste Schritte
+subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -34,7 +34,7 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
 
    Weitere Informationen finden Sie unter [at.js herunterladen](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. Klicken Sie in [!DNL Target] auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Antwort-Token]**.
+1. Klicken Sie in [!DNL Target] auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Antwort-Token]**.
 
    ![](assets/response_tokens.png)
 
@@ -279,8 +279,8 @@ Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen
 </script>
 ```
 
-## Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse {#section_3AA0A6C8DBD94A528337A2525E3E05D5} Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Antwort-Token und benutzerspezifische at.js-Ereignisse verwenden können, um Profilinformationen aus Target an Drittanbietersysteme zu übergeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)
