@@ -4,7 +4,7 @@ description: Für Benutzer von Automatisierte Personalisierung (AP) und von Auto
 title: Berichte zu Personalization Insights
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -53,7 +53,7 @@ Target bietet verschiedene Möglichkeiten, zusätzliche Daten zu übergeben, um 
 | Gemeinsam genutzte Zielgruppen (Adobe Audience Manager oder Adobe Analytics) | Mittels Adobe Audience Manager oder Adobe Analytics erstellte und für Target freigegebene Zielgruppen. | `Custom - Experience Cloud Segment - [segment name]` |
 | Aktivitätsinterne(s) Reporting-Zielgruppen/-Segment | Während der Einrichtung in „Ziele und Metriken“ definierte Zielgruppen in Ihrer AP- oder AT-Aktivität. | `Custom - Reporting Segment - [segment name]` |
 
-## Schulungsvideo: Verwenden der Personalization Insights-Berichte
+## Schulungsvideo: Verwenden der Personalization Insights-Berichte Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
