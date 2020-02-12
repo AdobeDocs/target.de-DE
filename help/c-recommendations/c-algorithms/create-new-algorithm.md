@@ -3,7 +3,7 @@ description: Kriterien steuern den Inhalt Ihrer Adobe Recommendations-Aktivität
 title: Erstellen von Kriterien
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -18,9 +18,9 @@ Kriterien steuern den Inhalt Ihrer [!DNL Recommendations]-Aktivitäten. Erstelle
 
 Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien erstellen] zu gelangen. Einige Bildschirmoptionen variieren je nachdem, wie Sie auf den Bildschirm gelangen.
 
-* Wenn Sie eine [!DNL Recommendations]**-Aktivität erstellen, klicken Sie auf[!UICONTROL Neu erstellen]** auf dem Bildschirm [!UICONTROL Kriterien auswählen]. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!DNL Recommendations]-Aktivitäten zu verwenden.
+* Wenn Sie eine [!DNL Recommendations]**[!UICONTROL -Aktivität erstellen, klicken Sie auf Neu erstellen]** auf dem Bildschirm [!UICONTROL Kriterien auswählen]. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!DNL Recommendations]-Aktivitäten zu verwenden.
 * Klicken Sie beim Bearbeiten einer [!DNL Recommendations]Aktivität in ein Feld für die [!UICONTROL Empfehlungsposition] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern]**. Klicken Sie auf dem Bildschirm [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Neu erstellen]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!DNL Recommendations]-Aktivitäten zu verwenden.
-* Klicken Sie auf dem Bibliotheksbildschirm **[!UICONTROL Empfehlungen]** &gt; **[!UICONTROL Kriterien]** auf **[!UICONTROL Kriterien erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!DNL Recommendations]-Aktivitäten zur Verfügung.
+* Klicken Sie auf dem Bibliotheksbildschirm unter **[!UICONTROL Empfehlungen]** > **[!UICONTROL Kriterien]** auf **[!UICONTROL Kriterien erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!DNL Recommendations]-Aktivitäten zur Verfügung.
 
 1. Klicken Sie auf **[!UICONTROL Kriterien erstellen]** oder **[!UICONTROL Neu erstellen]**.
 
@@ -65,7 +65,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
    >[!NOTE]
    >
-   >Wenn Sie **[!UICONTROL Elemente]**/**[!UICONTROL Medien mit ähnlichen Attributen]** auswählen, können Sie [Regeln zur Ähnlichkeit von Inhalten](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) festlegen.
+   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
 1. Legen Sie den **[!UICONTROL Datumsbereich]** fest, um den Zeitraum der verfügbaren historischen Benutzerverhaltensdaten festzulegen, die bei der Bestimmung der anzuzeigenden Empfehlungen verwendet werden.
 
@@ -81,7 +81,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
    * Ein Monat
    * Zwei Monate
 
-1. Wählen Sie die gewünschte **[!UICONTROL Verhaltensdatenquelle]** aus: [!UICONTROL mboxes] oder [!UICONTROL Analytics].
+1. Wählen Sie die gewünschte **[!UICONTROL Verhaltensdatenquelle]**: [!UICONTROL Mboxes] oder [!UICONTROL Analytics].
 
    Wenn Sie sich für [!UICONTROL Analytics] entschieden haben, wählen Sie die gewünschte Report Suite.
 
@@ -426,7 +426,7 @@ Mithilfe der Funktion für Ähnlichkeit von Inhalten werden Artikelattribut-Schl
 
 Eine Erstellung von Empfehlungen anhand der Ähnlichkeit von Inhalten ist besonders bei neuen Artikeln effektiv, die bei Empfehlungen mit der Funktion *Personen, die das ansahen, sahen auch dies an* und anderen, auf historischem Verhalten von Benutzern basierenden Optionen nicht angezeigt werden. Anhand der Ähnlichkeit von Inhalten können sinnvolle Empfehlungen für neue Benutzer erstellt werden, für die noch keine historischen Daten oder Einkäufe verzeichnet wurden.
 
-Wenn Sie **[!UICONTROL Elemente]**/**[!UICONTROL Medien mit ähnlichen Attributen]** auswählen, können Sie Regeln erstellen, um die Wichtigkeit bestimmter Elementattribute beim Bestimmen von Empfehlungen zu erhöhen oder zu verringern. Bei Artikeln wie beispielsweise Büchern möchten Sie möglicherweise die Bedeutung von Attributen wie *Genre*, *Autor*, *Serie* und so weiter hervorheben, um ähnliche Bücher zu empfehlen.
+Wählen Sie **[!UICONTROL Artikel]**/**[!UICONTROL Medien mit ähnlichen Attributen]** aus, haben Sie die Option, Regeln zur Steigerung oder Minderung der Wichtigkeit bestimmter Artikelattribute bei der Erstellung von Empfehlungen festzulegen. Bei Artikeln wie beispielsweise Büchern möchten Sie möglicherweise die Bedeutung von Attributen wie *Genre*, *Autor*, *Serie* und so weiter hervorheben, um ähnliche Bücher zu empfehlen.
 
 ![](assets/ContentSimilarity.png)
 
@@ -438,7 +438,7 @@ Standardmäßig sind alle Attribute auf den Wert *Grundlinie* eingestellt. Sie m
 >
 >Der Algorithmus zur Ähnlichkeit von Inhalten verwendet bei der Berechnung der Ähnlichkeit zwischen Elementen möglicherweise Stichproben. Infolgedessen können die Übereinstimmungsbewertungen von Elementen je nach Ausführung des Algorithmus variieren.
 
-## Schulungsvideo: Kriterien in Recommendations erstellen (12:33)
+## Schulungsvideo: Kriterien in Recommendations erstellen (12:33) !![Tutorial badge](/help/assets/tutorial.png
 
 Dieses Video enthält die folgenden Informationen:
 
@@ -446,4 +446,4 @@ Dieses Video enthält die folgenden Informationen:
 * Erstellen von Kriteriensequenzen
 * Hochladen benutzerdefinierter Kriterien
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
