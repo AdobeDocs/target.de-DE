@@ -1,11 +1,11 @@
 ---
-keywords: Arbeitsbereiche;Eigenschaft verwalten;Berechtigungen;Produktkonfiguration;Produktprofil;Rollen;Projekt
+keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Informationen zur Erstellung von Eigenschaften und zur Verwendung der Funktionalität für Eigenschaften und Berechtigungen, mit deren Hilfe Target-Administratoren in Target verschiedene Arbeitsbereiche (Produktprofile) erstellen und anschließend Benutzern basierend auf diesen Arbeitsbereichen unterschiedliche Rollen und Berechtigungen für einzelne Seiten, Eigenschaften oder Websites zuweisen können.
 title: Berechtigungen für Unternehmensbenutzer
-subtopic: Erste Schritte
+subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,13 +24,13 @@ Enterprise-Benutzerberechtigungen bieten eine Möglichkeit, unternehmensweite Be
 
 Sie können feststellen, ob Ihr Unternehmen über eine Standard- oder Premium-Lizenz verfügt, indem Sie oben in der Benutzeroberfläche auf den Link [!UICONTROL Einrichten] [!DNL Target] klicken.
 
-* **[!DNL Target Standard]/Kunden**: Wenn die Registerkarte [!UICONTROL Benutzer] ([!UICONTROL Einrichtung &gt; Benutzer]) angezeigt wird, verfügt Ihr Unternehmen über eine [!DNL Target Standard]-Lizenz. [!DNL Target Standard]-Kunden sollten die Anweisungen in [Benutzer](/help/administrating-target/c-user-management/c-user-management/user-management.md) befolgen, um Benutzer hinzuzufügen und Berechtigungen in der Adobe Admin Console zuzuweisen.
+* **[!DNL Target Standard]/Kunden **: Wenn die Registerkarte[!UICONTROL Benutzer]([!UICONTROL Einrichtung > Benutzer]) angezeigt wird, verfügt Ihr Unternehmen über eine[!DNL Target Standard]-Lizenz.[!DNL Target Standard]-Kunden sollten die Anweisungen in[Benutzer](/help/administrating-target/c-user-management/c-user-management/user-management.md)befolgen, um Benutzer hinzuzufügen und Berechtigungen in der Adobe Admin Console zuzuweisen.
 
    [!DNL Target Standard]Benutzer von sehen die folgende Fehlermeldung, wenn sie auf die Registerkarte [!UICONTROL Eigenschaften] klicken. Mit [!DNL Target] ist alles in Ordnung. [!DNL Target Standard]Benutzer haben keinen Zugriff auf die [!DNL Target Premium]-Funktionalität [!UICONTROL Unternehmensberechtigungen].
 
    ![Fehlermeldung](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
-* **[!DNL Target Premium]Kunden**: Wenn die Registerkarte [!UICONTROL Eigenschaften] ([!UICONTROL Einrichtung &gt; Eigenschaften]) angezeigt wird, besitzt Ihr Unternehmen eine [!DNL Target Premium]-Lizenz. [!DNL Target Premium]-Kunden sollten die Anweisungen in diesem Artikel und in [Konfigurieren von Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md) folgen.
+* **[!DNL Target Premium]Kunden **: Wenn die Registerkarte[!UICONTROL Eigenschaften]([!UICONTROL Einrichtung > Eigenschaften]) angezeigt wird, besitzt Ihr Unternehmen eine[!DNL Target Premium]-Lizenz.[!DNL Target Premium]-Kunden sollten die Anweisungen in diesem Artikel und in[Konfigurieren von Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)folgen.
 
 ## Bevor Sie mit Unternehmensberechtigungen arbeiten
 
@@ -196,7 +196,7 @@ Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL 
 
 * **Zielgruppenerstellung:** Bei Erstellung einer neuen Zielgruppe wird diese dem aktuell ausgewählten Arbeitsbereich zugewiesen.
 * **Angebotserstellung:** Bei Erstellung eines neuen Angebots wird dieses dem aktuell ausgewählten Arbeitsbereich zugewiesen.
-* **Eigenschaftenseite (Einrichtung &gt; Eigenschaften):** Es sind das [!UICONTROL Suchfeld] sowie die Optionen [!UICONTROL Kanal] und [!UICONTROL Produktprofil] verfügbar, anhand deren die [!UICONTROL Eigenschaftsliste] gefiltert werden kann.
+* **Eigenschaftenseite (Einrichtung > Eigenschaften):** Es sind das [!UICONTROL Suchfeld] sowie die Optionen [!UICONTROL Kanal] und [!UICONTROL Produktprofil] verfügbar, anhand deren die [!UICONTROL Eigenschaftsliste] gefiltert werden kann.
 
    ![](assets/properties_list.png)
 
@@ -272,7 +272,7 @@ Wenn ein Besucher Seite 1 in einem Browser öffnet, wird er zu Seite 2 weitergel
 
 Wenn die Weiterleitungsseite und die Aktivitäts-URL zu derselben Eigenschaft gehören, funktionieren die Klick-Tracks erwartungsgemäß. Weitere Informationen finden Sie unter [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Schulungsvideo: Schulungsvideo für Unternehmensberechtigungen {#section_2FA080303A064242B63FF16CFA6DB31D}
+## Schulungsvideo: Kennzeichen {#section_2FA080303A064242B63FF16CFA6DB31D} für Schulungsvideo zu ![Berechtigungen in Unternehmen](/help/assets/overview.png)
 
 Lernziele:
 
@@ -280,4 +280,4 @@ Lernziele:
 * Die Konzepte von Eigenschaften und Arbeitsbereichen und wie diese Grenzen und Gruppierungen funktionieren, um die Zugangsebenen der Benutzer steuern zu können
 * Verschiedene Beispiele für Eigenschaften für Ihre Organisation
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
