@@ -5,7 +5,7 @@ title: Erstellen von Zielgruppen in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 8c78e7f917e71cae69e068091d3436b95b2afb4f
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -38,7 +38,7 @@ Bei der Arbeit mit Zielgruppen, die ursprünglich in AAM erstellt wurden, werden
 * Wenn eine Zielgruppe in AAM gelöscht wurde, wird sowohl in der Liste [!UICONTROL „Zielgruppe“] als auch in der Zielgruppenauswahl ein Warnsymbol angezeigt. Darüber hinaus gibt eine QuickInfo an, dass die Zielgruppe in AAM gelöscht wurde.
 * Wenn Sie versuchen, mehrere Zielgruppen mit einer gelöschten Zielgruppe zu kombinieren oder eine Aktivität zu speichern, die auf eine gelöschte Zielgruppe verweist, wird eine Warnmeldung angezeigt.
 
-Sie können auch benutzerdefinierte Profilparameter und `user.`-Parameter als Ziel auswählen. Klicken Sie beim Hinzufügen einer Zielgruppe auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Besucherprofil]** und wählen Sie dann den Parameter aus, den Sie zum Targeting Ihrer Aktivität verwenden möchten. Wird der gewünschte Parameter nicht angezeigt, wurde er nicht von einer Mbox ausgelöst. In der Dropdownliste [!UICONTROL Benutzerdefinierte Parameter] sind weitere benutzerdefinierte Mbox-Parameter verfügbar.
+Sie können auch benutzerdefinierte Profilparameter und `user.`-Parameter als Ziel auswählen. When adding an audience, click **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. Wird der gewünschte Parameter nicht angezeigt, wurde er nicht von einer Mbox ausgelöst. In der Dropdownliste [!UICONTROL Benutzerdefinierte Parameter] sind weitere benutzerdefinierte Mbox-Parameter verfügbar.
 
 Durchsuchen Sie die [!UICONTROL Zielgruppenliste] über das Suchfeld. Sie können nach einem beliebigen Teil des Zielgruppennamens suchen oder eine bestimmte Zeichenfolge in Anführungszeichen setzen.
 
@@ -50,11 +50,11 @@ Sie können Details zur Zielgruppendefinition auf einer Pop-up-Karte an verschie
 
 Der Zugriff auf die folgende Zielgruppendefinitionskarte erfolgt beispielsweise durch Bewegen des Mauszeigers über eine Zielgruppe in der Zielgruppenliste und anschließendes Klicken auf das Ansichtssymbol:
 
-![Aktivitäten &gt; Zielgruppendefinition](assets/audience_definition_list.png)
+![Aktivitäten > Zielgruppendefinition](assets/audience_definition_list.png)
 
 Der Zugriff auf die folgende Zielgruppendefinition erfolgt durch Klicken auf das Ansichtssymbol auf der Übersichtsseite einer Aktivität:
 
-![Aktivitäten &gt; Zielgruppendefinition](assets/audience_definition_list.png)
+![Aktivitäten > Zielgruppendefinition](assets/audience_definition_list.png)
 
 Klicken Sie auf die Registerkarte [!UICONTROL Zielgruppennutzung], um andere Aktivitäten anzuzeigen, die ggf. auf diese Zielgruppe verweisen. So können Sie beim Bearbeiten von Zielgruppen nicht beabsichtigte Auswirkungen auf andere Aktivitäten verhindern. Zu „Informationen“ zählen „Live-Aktivitäten“, „Inaktive Aktivitäten“, „Archivierte Aktivitäten“ und „Aktivitätssynchronisierung“. Diese Funktion ist für alle Zielgruppen (Bibliothekszielgruppen und  [Zielgruppen vom Typ „Nur Aktivität“](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)) verfügbar.
 
@@ -71,7 +71,7 @@ Für diese importierten Zielgruppentypen sind die folgenden Details verfügbar:
 | Zielgruppentyp | Details |
 |--- |--- |
 | Mobile Zielgruppe | Marketing-Name, Hersteller und Modell.<br>Der `matches | does not match`-Operator wird anstelle `equals | does not equal`<br>![ der Importierten Mobilen Zielgruppe](/help/c-target/c-audiences/assets/imported_mobile_audience.png) angezeigt. |
-| Besucherverhalten-Zielgruppe | **user.categoryAffinity:** `categoryAffinity` mit `FAVORITE`-Parameter.<br>![Importierte Kategorieaffinität](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br> **-Überwachung:** Überwachungsdienst ist True.<br>**Kein Überwachungsdienst:**&#x200B;Überwachungsdienst ist False.<br>![Importierte Überwachung](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Besucherverhalten-Zielgruppe | **user.categoryAffinity:** `categoryAffinity` mit `FAVORITE`-Parameter.<br>![Importierte Kategorieaffinität](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>** -Überwachung:**Überwachungsdienst ist True.<br>**Kein Überwachungsdienst:**&#x200B;Überwachungsdienst ist False.<br>![Importierte Überwachung](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Zielgruppen mit dem Operator NOT | **Einzelregel:** Target zeigt die Zielgruppe im Format `[All Visitor AND [NOT [rule]` an. Einzelne NOT-Regel wird mit UND mit `AllVisitor`-Zielgruppe angezeigt.<br>![Importierte Not-Zielgruppe](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Berücksichtigen Sie beim Arbeiten mit importierten Zielgruppen Folgendes:
@@ -79,7 +79,7 @@ Berücksichtigen Sie beim Arbeiten mit importierten Zielgruppen Folgendes:
 * Ausdrucksziel-Zielgruppen werden in Target Standard/Premium nicht mehr unterstützt.
 * Target Standard/Premium unterstützt einige veraltete Zielgruppen nicht oder verfügt über verbesserte Operatoren zur einfachen Nutzung. Daher bedeutet die Definition einer importierten Zielgruppe trotz definitionsgemäßer Funktion nicht zwingendermaßen, dass dieselbe nun für die Erstellung in der Standard/Premium-Schnittstelle verfügbar ist. Beispielsweise sind soziale Zielgruppen zwar mit den zugehörigen Regeln sichtbar, aber Target Standard/Premium lässt die Erstellung sozialer Zielgruppen nicht zu.
 
-## Schulungsvideo: Verwenden von Zielgruppen
+## Schulungsvideo: Verwenden von Zielgruppen Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppen.
 
@@ -89,4 +89,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppen.
 * Zuordnung einer Aktivität zu einer Zielgruppe
 * Verwenden von Zielgruppen für die passive Berichterstattung zu einer Aktivität
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
