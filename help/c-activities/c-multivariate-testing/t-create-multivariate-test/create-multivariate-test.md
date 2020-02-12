@@ -1,10 +1,10 @@
 ---
-keywords: MVT;Multivariater Test;Multivariater Test erstellen;Erstellen von Multivariater Tests;MVT-Erstellung;Erstellen von MVT;wie MVT;wie Multivariater Tests
+keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: Visual Experience Composer (VEC) in Adobe Target ermöglicht Ihnen, einen Multivarianz-Test (MVT) direkt auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Target zu verändern.
 title: Erstellen eines Multivarianz-Tests
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,7 +17,7 @@ Der Point-and-Click-Editor in Target ermöglicht Ihnen, einen beliebigen Ort aus
 
 Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. Anders ausgedrückt bedeutet das, dass der Test auf einer spezifischen URL ausgeführt wird, mit den Erlebnissen, die Sie für diese Seite entwerfen.
 
-1. Klicken Sie auf **[!UICONTROL Aktivität erstellen]** &gt; **[!UICONTROL Multivarianz-Test]**.
+1. Klicken Sie auf **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL Multivarianz-Test]**.
 
    ![Erstellen eines Multivarianz-Tests](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
@@ -114,11 +114,11 @@ Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. An
 
 1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]**, um die Aktivität zu erstellen.
 
-## Schulungsvideo: Erstellen von multivarianten Tests (9:25)
+## Schulungsvideo:Erstellen von Multivarianz-Tests (9:25) - ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test geplant und erstellt wird.
 
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
