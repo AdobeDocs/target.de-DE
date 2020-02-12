@@ -1,10 +1,10 @@
 ---
-keywords: Targeting; Zielgruppen; Prozentziel
+keywords: Targeting;audiences;percentage target
 description: Richten Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen in Adobe Target aus, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen.
 title: Zielgruppen in Adobe Target
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ Gelangt ein Besucher auf eine Seite, auf der Sie eine Aktivität eingerichtet ha
 
 Wird der Besucher als Teil der Zielgruppe identifiziert, bestimmt [!DNL Target] basierend auf den Kriterien, die bei der Erstellung der Aktivität festgelegt wurden, welches Erlebnis angezeigt wird.
 
-## Schulungsvideo: Aktivitäts-Targeting  (2:13)
+## Schulungsvideo: Aktivitäts-Targeting  (2:13) Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Einrichtung und zum Targeting von Zielgruppen.
 
@@ -34,4 +34,4 @@ Dieses Video enthält Informationen zur Einrichtung und zum Targeting von Zielgr
 * Auswählen der Zuordnungsmethode für den Traffic
 * Zuweisen von Traffic zu verschiedenen Erlebnissen
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
