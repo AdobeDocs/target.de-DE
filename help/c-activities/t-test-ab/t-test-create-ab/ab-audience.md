@@ -1,11 +1,11 @@
 ---
-keywords: Zielgruppe;Zielgruppe auswählen;Zielgruppe wählen;Auswahl
+keywords: audience;select audience;choose audience;Selectors
 description: Die Zielgruppe legt fest, welche Besucher der Site in Ihre Aktivität eingegeben werden.
 title: Zielgruppenauswahl
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -46,7 +46,7 @@ Sie können sich außerdem dafür entscheiden, Target  [automatisch Traffic zuwe
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Verwenden von Zielgruppen in Adobe Target (6:21)
+### Verwenden von Zielgruppen in Adobe Target (6:21) Kennzeichen ![Übersicht](/help/assets/overview.png)
 
 In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/Premium] einsetzen lassen.
 
@@ -56,9 +56,9 @@ In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/P
 * Zuordnung einer Aktivität zu einer Zielgruppe
 * Verwenden von Zielgruppen für die passive Berichterstattung zu einer Aktivität
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Arbeitsablauf für Aktivitäten – Targeting (2:14)
+### Arbeitsablauf für Aktivitäten - Targeting (2:14) - ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video sind Informationen zur Einrichtung von Zielgruppen enthalten.
 
@@ -67,6 +67,6 @@ In diesem Video sind Informationen zur Einrichtung von Zielgruppen enthalten.
 * Auswählen der Zuordnungsmethode für den Traffic
 * Zuweisen von Traffic zu verschiedenen Erlebnissen
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 Detaillierte Informationen finden Sie unter [Zielgruppen](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
