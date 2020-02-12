@@ -1,11 +1,11 @@
 ---
-keywords: Systemdiagramm;Flackern;at.js;Implementierung;JavaScript-Bibliothek;js;ATJS
+keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Adobe Target-Systemdiagramm zur Darstellung des Anruf- und Informationsflusses bei Aufrufen oder Datensammlungen einer automatisch erstellten globalen Mbox bei der Verwendung von „at.js“.
 title: Funktionsweise der JavaScript-Bibliothek "at.js"in Adobe Target
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,14 +24,14 @@ Weitere Informationen finden Sie unter [JavaScript-Bibliotheken in Target](/help
 
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. Zudem wurden zentrale Experience Cloud-Services implementiert: Adobe Launch, Zielgruppen und Besucher-ID-Service.
 
-## Was ist der Unterschied zwischen "at.js 1"?*x*- und at.js 2.x-Workflow-Diagrammen?
+## Was ist der Unterschied zwischen &quot;at.js 1&quot;?*x*- und at.js 2.x-Workflow-Diagrammen?
 
 Weitere Informationen zu den Unterschieden, die in 2.x im Vergleich zu 1.x eingeführt wurden, finden Sie unter [Aktualisieren von at.js 1.x auf at.js 2](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md).*x*.
 
 Grob betrachtet gibt es einige Unterschiede zwischen den beiden Versionen:
 
 * at.js 2.x hat kein globales Mbox-Anfragekonzept, sondern stellt Anfragen beim Laden der Seite. Eine Anfrage beim Laden der Seite kann als Anfrage zum Abrufen von Inhalten verstanden werden, die beim ersten Laden Ihrer Website angewendet werden soll.
-* at.js 2.x verwaltet Konzepte namens "Ansichten", die für Einzelseitenanwendungen (SPAs) verwendet werden. at.js 1.*x* kennt dieses Konzept nicht.
+* at.js 2.x verwaltet Konzepte namens &quot;Ansichten&quot;, die für Einzelseitenanwendungen (SPAs) verwendet werden. at.js 1.*x* kennt dieses Konzept nicht.
 
 ## Diagramme in at.js 2.x
 
@@ -91,10 +91,10 @@ Wichtige Hinweise:
 * at.js garantiert nicht die Reihenfolge der Ausführung von Remote-Skripten, da diese asynchron geladen werden.
 * Inline-Skripte sollten nicht von Remote-Skripten abhängig sein, da diese später geladen und ausgeführt werden.
 
-## Schulungsvideo: at.js 2.x-Architekturdiagramm
+## Schulungsvideo: &quot;at.js 2.x&quot;-Zeichen ![Übersicht](/help/assets/overview.png) ![Übersicht](/help/assets/overview.png)
 
 at.js 2.x verbessert die Unterstützung von Adobe Target für SPAs und kann mit anderen Experience Cloud-Lösungen integriert werden. In diesem Video wird erklärt, wie alles zusammenkommt.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Weitere Informationen finden Sie unter [Die Funktionsweise](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) von at.js 2.x.
