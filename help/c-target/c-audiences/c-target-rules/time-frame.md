@@ -1,10 +1,10 @@
 ---
-keywords: Zeitraum; Startdatum; Enddatum; Start-/Enddatum; Zeitrahmen; Zielzeitplan; Wochenaufteilung; Tagesaufteilung; Aufteilung
+keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: Sie können Start-/Enddaten und -zeiten jederzeit hinzufügen, um Benutzer als Ziel festzulegen, die Ihre Seite während eines bestimmten Zeitraums besuchen. Sie können außerdem Optionen für die Wochen- und Tagesaufteilung festlegen, um wiederkehrende Muster für das Zielgruppen-Targeting zu erstellen.
 title: Zeitrahmen
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -15,9 +15,9 @@ Sie können Start-/Enddaten und -zeiten jederzeit hinzufügen, um Benutzer als Z
 
 Verwenden Sie beispielsweise die Funktion](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) [für kombinierte Ad-hoc-Zielgruppen, können Sie in den drei Tagen vor Black Friday spezielle Inhalte gezielt für wenig Geld ausgebende Personen schalten und nach Black Friday andere Inhalte anzeigen.
 
-1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
+1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Zeitrahmen]**.
+1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** > **[!UICONTROL Zeitrahmen]**.
 
    ![](assets/target_timeframe_dialog.png)
 
@@ -31,7 +31,7 @@ Verwenden Sie beispielsweise die Funktion](../../../c-target/combining-multiple-
    >
    >Die Zeitzone für Start-/Enddatum wird als GMT +/- NN:NN angezeigt, wobei NN: NN den Offset von GMT darstellt und die Zeitzone auf Benutzerkontoebene und nicht die Zeitzone des Besuchers widerspiegelt. Die Zeitzone von Kalifornien wird z. B. als GMT -08:00 angezeigt.
 
-1. (Bedingt) Klicken Sie auf **[!UICONTROL Wochen- und Tagesaufteilung], um wiederkehrende Muster festzulegen, wie Wochentage und Uhrzeiten.**
+1. (Bedingt) Klicken Sie auf **[!UICONTROL Wochen- und Tagesaufteilung]**, um wiederkehrende Muster festzulegen, wie Wochentage und Uhrzeiten.
 
    ![Wochen- und Tagesaufteilung](assets/week_and_day_parting.png)
 
@@ -49,11 +49,11 @@ Verwenden Sie beispielsweise die Funktion](../../../c-target/combining-multiple-
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Schulungsvideo: Erstellen von Zielgruppen
+## Schulungsvideo: Erscheinungsbild ![Zielgruppenübersicht erstellen](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
