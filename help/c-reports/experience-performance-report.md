@@ -1,10 +1,10 @@
 ---
-keywords: Multivariater Tests; MVT; Experience Performance-Bericht
+keywords: multivariate test;mvt;experience performance report
 description: Der Experience Performance-Bericht veranschaulicht die Leistung der einzelnen Erlebnisse in der Aktivität. Dieser Bericht enthält Informationen über die Zahl der Teilnehmer, die Konversionsrate, die Steigerung und die Konfidenz.
 title: Experience Performance-Bericht (MVT)
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Der Experience Performance-Bericht zeigt, wie die einzelnen Erlebnisse in der Aktivität funktionieren. Dieser Bericht enthält Informationen über die Anzahl der Teilnehmer, die Konversionsrate, die Steigerung und die Konfidenz.
 
-Sie können ein Erlebnis oder mehrere Erlebnisse zum Vergleich auswählen. Klicken Sie auf ein Erlebnis und wählen Sie **[!UICONTROL Vorschau], um das Erlebnis in einer Registerkarte des Browsers zu öffnen.**
+Sie können ein Erlebnis oder mehrere Erlebnisse zum Vergleich auswählen. Klicken Sie auf ein Erlebnis und wählen Sie **[!UICONTROL Vorschau]**, um das Erlebnis in einer Registerkarte des Browsers zu öffnen.
 
 ![](assets/experienceperformancetable.png)
 
@@ -33,8 +33,8 @@ Sie können jeweils die besten oder die schlechtesten fünf bzw. alle Erlebnisse
 
 Unter dem Diagramm zeigt eine Tabelle an, wie viele Teilnehmer die einzelnen Erlebnisse angesehen haben. Außerdem werden weitere Informationen angezeigt, die für Ihre Erfolgsmetrik relevant sind.
 
-## Schulungsvideo: Erstellen eines Multivarianz-Tests
+## Schulungsvideo: Erstellen eines Multivarianz-Tests Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Der Experience Performance-Bericht wird ab 8:20 beschrieben.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
