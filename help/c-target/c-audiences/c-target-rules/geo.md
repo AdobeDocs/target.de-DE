@@ -1,12 +1,12 @@
 ---
-keywords: Targeting; a4t;geo; geotargeting; Genauigkeit von Geotargeting; Land; Bundesland; Stadt; Postleitzahl; dma; Mobilnetzbetreiber; Stadtvorwahl; Regionalcode; Landesvorwahl; Metrocode; Profilskripts; Geotargeting Profilskripts; Geotargeting mobiler Geräte
+keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Verwenden Sie Adobe Target-Audiences, um Benutzer anhand ihres geografischen Standortes auszuwählen (inklusive Land, Bundesland, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber).
-title: Geo
+title: 'Geo '
 solution: Target,Analytics
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,9 +19,9 @@ Geo-Positionsparameter ermöglichen das Targeting der Aktivitäten und Erlebniss
 
 ## Erstellen einer Zielgruppe mit Geotargeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
+1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Geo]**.
+1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** > **[!UICONTROL Geo]**.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
@@ -144,11 +144,11 @@ Puerto Rico, Hongkong und andere Gebiete werden als separate Länderwerte verarb
 
 Nein, [!DNL Target] verwendet nur für die Dauer der Sitzung geografische Daten, dann werden die Daten verworfen.
 
-## Schulungsvideo: Erstellen von Zielgruppen
+## Schulungsvideo: Abzeichen ![&quot;Zielgruppen erstellen&quot;](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
