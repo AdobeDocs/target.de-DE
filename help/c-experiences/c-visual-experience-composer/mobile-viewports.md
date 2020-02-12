@@ -4,7 +4,7 @@ description: Mit mobilen Viewports können Sie eine Vorschau Ihrer Aktivitäten 
 title: Mobile Viewports für responsive Erlebnisse
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -73,7 +73,7 @@ Wenn Ihre Site nicht responsiv ist, können Sie zum Anzeigen einer Site weiterhi
 
 Konfigurieren Sie alle mobilen Viewports, die Sie beim Erstellen Ihrer Erlebnisse verfügbar machen möchten.
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen]**>**[!UICONTROL  Voreinstellungen]**.
+1. Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Voreinstellungen]**.
 1. Klicken Sie im Abschnitt für die Konfiguration des mobilen Viewports auf der Seite „Kontoeinstellungen“ auf **[!UICONTROL Neu hinzufügen]**, um einen mobilen Viewport hinzuzufügen.
 
    Um die Konfiguration eines bestehenden mobilen Viewports zu ändern, wählen Sie diesen Viewport aus und klicken Sie anschließend auf das Stiftsymbol „Bearbeiten“.
@@ -106,8 +106,8 @@ Konfigurieren Sie alle mobilen Viewports, die Sie beim Erstellen Ihrer Erlebniss
 Fügen Sie Ihren Target-Aktivitäten mobile Viewports hinzu, um responsive Erlebnisse für Mobilgeräte zu erstellen.
 
 1. Erstellen Sie eine Aktivität.
-1. Klicken Sie im Visual Experience Composer auf das Symbol **[!UICONTROL Einstellungen]**und wählen Sie anschließend**[!UICONTROL  Mobile Viewports hinzufügen]** aus.
-1. Klicken Sie auf das Symbol **[!UICONTROL Geräte]**und aktivieren Sie dann jedes Gerät, das über einen mobilen Viewport verfügen soll.
+1. Klicken Sie im Visual Experience Composer auf das Symbol **[!UICONTROL Einstellungen]** und wählen Sie anschließend **[!UICONTROL Mobile Viewports hinzufügen]** aus.
+1. Klicken Sie auf das Symbol **[!UICONTROL Geräte]** und aktivieren Sie dann jedes Gerät, das über einen mobilen Viewport verfügen soll.
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -126,7 +126,7 @@ Fügen Sie Ihren Target-Aktivitäten mobile Viewports hinzu, um responsive Erleb
 
 In diesem Anwendungsfall wird erklärt, wie Erlebnisse für zwei verschiedene iPhone-Versionen, das iPhone 6 und das iPhone 6 Plus, mithilfe der Funktion Mobile Viewports in Target Standard erstellt werden können.
 
-1. Klicken Sie in Target Standard auf **[!UICONTROL Setup]**>**[!UICONTROL  Voreinstellungen]**.
+1. Klicken Sie in Target Standard auf **[!UICONTROL Setup]** > **[!UICONTROL Voreinstellungen]**.
 1. Erstellen Sie im Konfigurationsabschnitt der Voreinstellungsseite für Mobile Viewport mobile Viewports für iPhone 6 und iPhone 6 Plus.
 
    Verwenden Sie für die Viewports folgende Einstellungen:
@@ -140,7 +140,7 @@ In diesem Anwendungsfall wird erklärt, wie Erlebnisse für zwei verschiedene iP
 
 1. Erstellen Sie eine Aktivität mit dem Erlebnis, das Sie für das Targeting einsetzen möchten.
 1. Wählen Sie das Erlebnis aus, das Sie für Benutzer bereitstellen möchten, die über ein iPhone 6 oder iPhone 6 Plus auf Ihre Site zugreifen.
-1. Klicken Sie für die Auswahl Ihres Ziels auf **[!UICONTROL Zielgruppe erstellen]**und konfigurieren Sie wie unten dargestellt eine Zielgruppe:
+1. Klicken Sie für die Auswahl Ihres Ziels auf **[!UICONTROL Zielgruppe erstellen]** und konfigurieren Sie wie unten dargestellt eine Zielgruppe:
 
    ![](assets/iphoneaudiences.png)
 
@@ -152,7 +152,7 @@ In diesem Anwendungsfall wird erklärt, wie Erlebnisse für zwei verschiedene iP
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Visual Experience Composer (2 von 2) (7:29)
+### Visual Experience Composer (2 von 2) (7:29) Kennzeichen ![Übersicht](/help/assets/overview.png)
 
 Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Experience Composer mit mobilen Viewports arbeiten:
 
@@ -165,7 +165,7 @@ Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Expe
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Kontovoreinstellungen in Adobe Target
+### Kontovoreinstellungen in der Adobe Target- ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 In diesem Video finden Sie Informationen zur Einrichtung von Mobile Viewports in den Kontovoreinstellungen. Dies wird ab 4:40 erläutert.
 
