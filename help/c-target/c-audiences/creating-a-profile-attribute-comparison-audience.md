@@ -1,11 +1,11 @@
 ---
-keywords: Zielgruppe; Tendenz; Profilattribut; Vergleichen; Vergleich; Zielgruppe erstellen; Erstellen einer Zielgruppe
+keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
 description: Definieren Sie eine Zielgruppe, um zwei Profilattribute für Ihre Zielgruppenbibliothek oder in einer reinen Aktivitätszielgruppe zu vergleichen. Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
 title: Erstellen einer Zielgruppe zum Profilattributvergleich  in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,8 +33,8 @@ Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Ta
 
 ## Erstellen einer Zielgruppe zum Profilattributvergleich {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Klicken Sie auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]** &gt; **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Besucherprofil]**.
-1. Wählen Sie in der Dropdownliste **[!UICONTROL Besucherprofil]ein Attribut aus:**
+1. Klicken Sie auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]** > **[!UICONTROL Regel hinzufügen]** > **[!UICONTROL Besucherprofil]**.
+1. Wählen Sie in der Dropdownliste **[!UICONTROL Besucherprofil]** ein Attribut aus:
 
    ![Propensity Score 1](assets/propensity_score_1.png)
 
@@ -56,8 +56,8 @@ Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Ta
 
    ![](assets/propensity_score_4.png)
 
-## Schulungsvideo {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Abzeichen {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} für Schulungsvideo- ![Übersicht](/help/assets/overview.png)
 
 Das folgende Video enthält weitere Informationen sowie ein Szenario, in dem Sie diese Funktion einsetzen könnten:
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)
