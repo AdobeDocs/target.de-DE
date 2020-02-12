@@ -3,7 +3,7 @@ description: Informationen zur Verwendung von Visual Experience Composer (VEC) i
 title: Adobe Target Visual Experience Composer (VEC)
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ Der VEC verfügt über eine WYSIWYG-Benutzeroberfläche, mit der Sie einfach per
 
 Der VEC ist eine der Hauptkomponenten von [!DNL Adobe Target]. Der VEC ermöglicht Marketingexperten und Designern, Inhalte über eine visuelle Benutzeroberfläche zu erstellen und zu ändern. Viele Entwurfsentscheidungen können getroffen werden, ohne den Code direkt bearbeiten zu müssen. Die Bearbeitung von HTML und JavaScript ist über die Bearbeitungsoptionen, die im Composer verfügbar sind, ebenfalls möglich.
 
-Auf der Registerkarte **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Voreinstellungen]** von Target können Sie die Standard-URL von Visual Experience Composer eingeben.
+Auf der Registerkarte **[!UICONTROL Einrichten]** > **[!UICONTROL Einstellungen]** in Target können Sie die Standard-URL für Visual Experience Composer eingeben.
 
 ![Standard-VEC-URL-Einstellungen](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -42,7 +42,7 @@ Klicken Sie auf das **[!UICONTROL Overlays]**-Symbol, um die Anzeigeart der Herv
 
 ![Überlagerungseinstellungen ändern](/help/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-Klicken Sie auf ein hervorgehobenes Element, um ein Menü mit für dieses Element verfügbaren Optionen anzuzeigen. Sie können beispielsweise auf ein Bild klicken und **[!UICONTROL Bearbeiten &gt; Text/HTML]** auswählen, um den Text zu ändern, oder auf eine Schaltfläche klicken und die Hintergrundfarbe zu ändern. Sie können die Schaltflächen oben links auf der Seite verwenden, um die Overlays ein- und auszuschalten.
+Klicken Sie auf ein hervorgehobenes Element, um ein Menü mit für dieses Element verfügbaren Optionen anzuzeigen. Sie können beispielsweise auf ein Bild klicken und **[!UICONTROL Bearbeiten > Text/HTML]** auswählen, um den Text zu ändern, oder auf eine Schaltfläche klicken und die Hintergrundfarbe zu ändern. Sie können die Schaltflächen oben links auf der Seite verwenden, um die Overlays ein- und auszuschalten.
 
 Sie können auch auf **[!UICONTROL Durchsuchen]** klicken und dann von der primären Seite, wie zum Beispiel einer Versandseite oder einem Einkaufswagen, zu einer verfügbaren Seite navigieren und Änderungen an dieser Seite testen. Sie können auch auf Seitenelemente zugreifen, die verfügbar werden, wenn Sie den Mauszeiger darüber bewegen, wie zum Beispiel Flyout-Menüs und Minicarts. Wenn Sie mit dem Durchsuchen der Seite fertig sind, klicken Sie auf **[!UICONTROL Erstellen]**, um das Erlebnis zu bearbeiten. Vielleicht möchten Sie zum Beispiel den Entwurf für ein Einkaufswagendropdown oder ein Bilderkarussell verändern.
 
@@ -109,14 +109,14 @@ Um weiterhin Erlebnisse in der aktuellen Aktivität zu verwalten oder neue Ände
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Visual Experience Composer (1 von 2) (7:17)
+### Visual Experience Composer (1 von 2) (7:17) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer (2 von 2) (7:29)
+### Visual Experience Composer (2 von 2) (7:29) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
 * Erlebnis umbenennen und duplizieren
 * Umleitungserlebnis erstellen
@@ -125,9 +125,9 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 * Erlebnisse für responsive Websites ansehen und erstellen
 * Überlagerungen zum Hervorheben von Elementtypen nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Office Hours: Visual Experience Composer
+### Bürozeiten: Abzeichen für Visual Experience Composer- ![Übungen](/help/assets/tutorial.png)
 
 Dieses Video ist eine Aufzeichnung von „[Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)“, einer Initiative der Adobe-Kundenunterstützung.
 
@@ -135,4 +135,4 @@ Dieses Video ist eine Aufzeichnung von „[Office Hours](../../cmp-resources-and
 * So vermeiden Sie häufige Probleme mit dem VEC
 * Workarounds für den VEC
 
->[!VIDEO](https://video.tv.adobe.com/v/20784/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/20784/)
