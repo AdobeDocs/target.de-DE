@@ -1,11 +1,11 @@
 ---
-keywords: MVT; Multivariater Tests; Location Contribution-Bericht
+keywords: mvt;multivariate test;location contribution report
 description: Der Location Contribution-Bericht zeigt die Leistung jedes einzelnen Elements und jedes einzelnen Angebots an.
 title: Location Contribution-Bericht (MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -30,8 +30,8 @@ Die zweite Tabelle liefert einen Bericht auf Angebotsebene. Sie zeigt die Konver
 
 ![](assets/locationcontributionbottom.png)
 
-## Schulungsvideo: Erstellen eines Multivarianz-Tests
+## Schulungsvideo: Erstellen eines Multivarianz-Tests Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Der Location Contribution-Bericht wird ab 8:45 beschrieben.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
