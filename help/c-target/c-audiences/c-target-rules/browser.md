@@ -1,11 +1,11 @@
 ---
-keywords: Browseroptionen; Typ; Browsertyp; Browsersprache; Sprache; Version; Browserversion
+keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Sie können Zielgruppen in Adobe Target erstellen, um Benutzer auszuwählen, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden.
 title: Browseroptionen in Adobe Target-Zielgruppen
-subtopic: Multivarianz-Test
+subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,11 +35,11 @@ Es gibt zwei Möglichkeiten, Browser auszurichten:
 
 **Benutzerdefinierte Browser-Zielgruppenregel:** Mit einer benutzerdefinierten Zielgruppe können Sie mehrere Browser als Ziel definieren oder Regeln bzw. Ausschlüsse für spezielle Browser, Browserversionen oder Browsersprachen festlegen. Dies bietet eine erhebliche Flexibilität bei der Ausrichtung einer Kampagne auf der Grundlage von Browserattributen.
 
-1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
+1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Browser]**.
+1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** > **[!UICONTROL Browser]**.
 
-   ![Regeln &gt; Browser](assets/target_browser.png)
+   ![Regeln > Browser](assets/target_browser.png)
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
@@ -117,11 +117,11 @@ Es können nur Hauptversionen in das Textfeld eingegeben werden. Die angegebene 
 
 Mehrfachoptionen sind mit einem ODER verbunden.
 
-## Schulungsvideo: Erstellen von Zielgruppen
+## Schulungsvideo: Erstellen von Zielgruppen Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
