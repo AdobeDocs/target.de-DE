@@ -1,10 +1,10 @@
 ---
-keywords: Kriteriensequenz; mehrere Kriterien; Algorithmen; Kriterien; Empfehlungskriterien
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: Verwenden Sie Sequenzen von bis zu fünf Kriterien, um eine größere Kontrolle über die Elemente zu erhalten, die in Ihren Recommendations-Aktivitäten angezeigt werden.
 title: Erstellen von Kriteriensequenzen
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -39,9 +39,9 @@ Eine Kriteriensequenz für eine Startseite kann in der folgenden Reihenfolge vor
 
 Es gibt mehrere Möglichkeiten, um auf den Bildschirm [!UICONTROL Kriteriensequenz erstellen] zu gelangen. Einige Bildschirmoptionen variieren je nachdem, wie Sie auf den Bildschirm gelangen.
 
-* Klicken Sie beim Erstellen einer [!UICONTROL Empfehlungs]-Aktivität auf **[!UICONTROL Neu erstellen]** &gt; **[!UICONTROL Kriteriensequenz erstellen]** auf dem Bildschirm [!UICONTROL Kriterien auswählen]. Sie haben die Möglichkeit, Ihre neue Kriteriensequenz zu speichern, um sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
-* Wenn Sie eine [!UICONTROL Recommendations]-Aktivität bearbeiten, klicken Sie in ein Feld für die [!UICONTROL Empfehlungsposition] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern aus]**. Klicken Sie auf dem Bildschirm [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Neu erstellen]** &gt; **[!UICONTROL Kriteriensequenz erstellen]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
-* Klicken Sie auf dem Bibliotheksbildschirm **[!UICONTROL Empfehlungen]** &gt; **[!UICONTROL Kriterien]** auf **[!UICONTROL Kriterien erstellen]** &gt; **[!UICONTROL Kriteriensequenz erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!UICONTROL Recommendations]-Aktivitäten zur Verfügung.
+* Wenn Sie eine [!UICONTROL Recommendations]-Aktivität erstellen, klicken Sie im Bildschirm **[!UICONTROL Kriterien auswählen]** auf **[!UICONTROL Neu erstellen]** > [!UICONTROL Kriteriensequenz erstellen]. Sie haben die Möglichkeit, Ihre neue Kriteriensequenz zu speichern, um sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
+* Wenn Sie eine [!UICONTROL Recommendations]-Aktivität bearbeiten, klicken Sie in ein Feld für die [!UICONTROL Empfehlungsposition] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern aus]**. Klicken Sie im Bildschirm [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Neu erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
+* Klicken Sie im Bildschirm der Bibliothek **[!UICONTROL Empfehlungen]** > **[!UICONTROL Kriterien]** auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!UICONTROL Recommendations]-Aktivitäten zur Verfügung.
 
 1. Klicken Sie auf **[!UICONTROL Kriterien erstellen]** oder **[!UICONTROL Neu erstellen]**.
 
@@ -86,7 +86,7 @@ Es gibt mehrere Möglichkeiten, um auf den Bildschirm [!UICONTROL Kriterienseque
 
    Weitere Informationen zu den Empfehlungslogikoptionen finden Sie unter [Kriterien](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Schulungsvideo: Kriterien in Recommendations erstellen (12:33)
+## Schulungsvideo: Kriterien in Recommendations erstellen (12:33) !![Tutorial badge](/help/assets/tutorial.png
 
 Dieses Video enthält die folgenden Informationen:
 
@@ -94,4 +94,4 @@ Dieses Video enthält die folgenden Informationen:
 * Erstellen von Kriteriensequenzen
 * Hochladen benutzerdefinierter Kriterien
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
