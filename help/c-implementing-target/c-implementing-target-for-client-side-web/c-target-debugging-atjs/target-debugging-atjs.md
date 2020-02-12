@@ -1,11 +1,11 @@
 ---
-keywords: at.js;at.js debuggen;Adobe Experience Cloud Debugger;Experience Cloud Debugger;Mbox-Verfolgung;Mbox-Hervorhebung;debug;Debugging
+keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
 description: Informationen zur Verwendung des Adobe Experience Cloud-Debuggers, einer Erweiterung, die eine schnelle und einfache Problembehebung in Ihrer Target-Implementierung ermöglicht.
 title: „at.js“-Debugging mit dem Adobe Experience Cloud-Debugger
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -22,14 +22,14 @@ Weitere Informationen finden Sie in der [Dokumentation der Adobe Experience Clou
 
 Die folgenden Videos führen Sie Schritt für Schritt durch den Debugging-Prozess:
 
-### Hinzufügen der Adobe Experience Cloud-Debugger-Erweiterung  {#section_8CD96F76E397476193529573F3199615}
+### Hinzufügen der Adobe Experience Cloud-Debugger-Erweiterung  Kennzeichen {#section_8CD96F76E397476193529573F3199615}![Übersicht](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Grundlegendes Target-Debugging mit dem Adobe Experience Cloud-Debugger {#section_AB2814A994DC4A86BABDD0441343D911}
+### Basic Target Debugging Using the Adobe Experience Cloud Debugger {#section_AB2814A994DC4A86BABDD0441343D911} ![Overview badge](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Mbox Trace {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Markierung {#section_FD3BC8019FA847209AB8BCA747C50211} für Mbox-Trace- ![Übersicht](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/)
