@@ -1,12 +1,12 @@
 ---
-keywords: a4t; Analytics; Analytics für Target; Analytics-Berichtsquelle; Adobe Analytics als Berichtsquelle für Target
+keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: Adobe „Analytics for Target“ (A4T) ist eine lösungsübergreifende Integration, die Ihnen das Erstellen von Aktivitäten ermöglicht, die auf Konversionsmetriken und Zielgruppensegmenten aus Analytics basieren. Dank dieser Integration können Sie Ihre Ergebnisse anhand von Analytics-Berichten überprüfen. Wenn Sie Analytics als Berichterstellungsquelle für eine Aktivität verwenden, basiert die gesamte Berichterstellung und Segmentierung für diese Aktivität auf der Analytics-Datenerfassung.
 title: Adobe Analytics als Berichtsquelle für Adobe Target (A4T)
-subtopic: Integration
+subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -108,7 +108,7 @@ Um den Bericht in [!DNL Analytics] statt in [!DNL Target] anzuzeigen, klicken Si
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Analytics for Target (A4T) (4:32)
+### Analytics for Target (A4T) (4:32) - ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 In diesem Video wird erläutert, wie sich Adobe Analytics als eine Adobe Target-Berichtsquelle einsetzen lässt, die die Analysen Ihres Optimierungsprogramms unterstützt.
 
@@ -116,9 +116,9 @@ In diesem Video wird erläutert, wie sich Adobe Analytics als eine Adobe Targe
 * Erläuterung der Funktionsweise von A4T
 * Verstehen der Voraussetzungen für die Verwendung von A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/17384?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics/Target-Integration (A4T) (40:33)
+### Analytics/Target-Integration (A4T) (40:33) !![Tutorial badge](/help/assets/tutorial.png
 
 Dieses Video ist eine Aufzeichnung von [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7), eine Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
 
