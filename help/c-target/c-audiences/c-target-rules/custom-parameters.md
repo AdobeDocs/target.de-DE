@@ -1,11 +1,11 @@
 ---
-keywords: benutzerdefinierte Parameter; Targeting von benutzerdefinierten Parametern; Targeting von Seitenparametern; Targeting von Mbox-Parametern
+keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 description: Benutzerdefinierte Parameter sind Mbox-Parameter. Wenn Sie Mbox-Parameter an Mboxes übergeben oder die Funktion „targetPageParams“ verwenden, werden diese Parameter hier angezeigt und können in Zielgruppen verwendet werden.
 title: Benutzerdefinierte Parameter in Adobe Target
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -18,9 +18,9 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
 
 Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhalten Sie von `mboxParameter`mboxParameter keine Aufforderung mehr, `mboxName` einzugeben. Der Mbox-Name ist nun optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde.
 
-1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
+1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Benutzerdefiniert]**.
+1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Custom]**.
 
    So wählen Sie den gewünschten Parameter aus:
 
@@ -52,11 +52,11 @@ Die [Popupkarte mit Definitionsdetails](../../../c-target/c-audiences/audiences.
 * Zielgruppen und Aktivitäten werden für eine spezifische Mbox ausgewertet. Wenn die globale Mbox beispielsweise einen bestimmten Parameter übergibt, die regionale Mbox jedoch nicht, qualifiziert sich die mit diesem Parameter verknüpfte Aktivität/Zielgruppe nicht in der regionalen Mbox.
 * Das Targeting wird nicht anhand interner Mbox-Parameter wie mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId und mboxVersion ausgewertet.
 
-## Schulungsvideo: Erstellen von Zielgruppen
+## Schulungsvideo: Abzeichen ![&quot;Zielgruppen erstellen&quot;](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
