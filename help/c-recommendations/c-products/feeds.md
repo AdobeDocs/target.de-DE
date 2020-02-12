@@ -4,7 +4,7 @@ description: Verwenden Sie Feeds, damit Entitäten in Adobe Recommendations impo
 title: Feeds
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -21,7 +21,7 @@ Sie können auswählen, welche Spalten aus Ihrer [!DNL Target]-Produkt-Classific
 
 Wenn Daten von einem Entitäts-Feed und einer Mbox erfasst werden, haben die aktuellen Daten Priorität. In der Regel stammen die aktuellen Daten von einer mbox, da sie häufiger angezeigt wird. Für den seltenen Fall, dass die Entitäts-Feed-Daten und die Mbox-Daten gleich aktuell sind, werden die Mbox-Daten verwendet.
 
-Die Liste [!UICONTROL Feeds] (**[!UICONTROL Recommendations]**>**[!UICONTROL  Feeds]**) liefert Informationen zu den von Ihnen erstellten Feeds.
+Die Liste [!UICONTROL Feeds] (**[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) liefert Informationen zu den von Ihnen erstellten Feeds.
 
 ![Feeds-Seite](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -208,19 +208,19 @@ Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Class
 
 Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in [!DNL Recommendations] einzufügen.
 
-1. Klicken Sie in der Target-Benutzeroberfläche auf **[!UICONTROL Empfehlungen]**>**[!UICONTROL  Feeds]** > **[!UICONTROL Feed erstellen]**.
+1. Klicken Sie in der Target-Benutzeroberfläche auf **[!UICONTROL Empfehlungen]** > **[!UICONTROL Feeds]** > **[!UICONTROL Feed erstellen]**.
 
    ![Erstellen eines Feed-Dialogfelds](assets/CreateFeed.png)
 
 1. Geben Sie einen beschreibenden Namen für Ihren Feed an.
-1. Wählen Sie einen **[!UICONTROL Quelltyp]**aus.
+1. Wählen Sie einen **[!UICONTROL Quelltyp]** aus.
 
    * CSV
    * Google-Produkt-Feed
    * Analytics-Classifications
    Informationen zu den Feed-Typen CSV und Google-Produkt-Feed finden Sie unter [Feeds-Übersicht](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. (Situationsbedingt) Wenn Sie **[!UICONTROL CSV]**oder**[!UICONTROL  Google-Produkt-Feed]** ausgewählt haben, geben Sie an, wo auf den Feed zugegriffen werden kann.
+1. (Situationsbedingt) Wenn Sie **[!UICONTROL CSV]** oder **[!UICONTROL Google-Produkt-Feed]** ausgewählt haben, geben Sie an, wo auf den Feed zugegriffen werden kann.
 
    * **FTP**: Wenn Sie „FTP“ ausgewählt haben, geben Sie die FTP-Serverdaten, die Anmeldedaten, den Dateinamen und das FTP-Verzeichnis an. Sie haben die Möglichkeit, für ein sicheres Hochladen FTP mit SSL-Verschlüsselung (FTPS) zu verwenden.
 
@@ -233,9 +233,9 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
    * **URL**: Wenn Sie „URL“ auswählen, geben Sie die URL an.
 
 
-1. (Situationsbedingt) Wenn Sie **[!UICONTROL Analytics Classifications]**ausgewählt haben, wählen Sie die Report Suite aus der Dropdownliste aus.
+1. (Situationsbedingt) Wenn Sie **[!UICONTROL Analytics Classifications]** ausgewählt haben, wählen Sie die Report Suite aus der Dropdownliste aus.
 
-1. Klicken Sie auf den **[!UICONTROL Weiter]**-Pfeil, um die[!UICONTROL Planungsoptionen]anzuzeigen.
+1. Klicken Sie auf den **[!UICONTROL Weiter]**-Pfeil, um die [!UICONTROL Planungsoptionen] anzuzeigen.
 
    ![Schrittergebnis](assets/CreateFeedSchedule.png)
 
@@ -250,7 +250,7 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
 
    Diese Option basiert auf der Zeitzone, die in Ihrem Browser verwendet wird. Wenn Sie einen Zeitpunkt in einer anderen Zeitzone verwenden möchten, müssen Sie diesen Zeitpunkt anhand Ihrer Zeitzone berechnen.
 
-1. Klicken Sie auf den **[!UICONTROL Weiter]**-Pfeil, um die[!UICONTROL Zuordnungsoptionen]anzuzeigen, und geben Sie an, wie Sie Ihre Daten den[!DNL Target]-Definitionen zuordnen möchten.
+1. Klicken Sie auf den **[!UICONTROL Weiter]**-Pfeil, um die [!UICONTROL Zuordnungsoptionen] anzuzeigen, und geben Sie an, wie Sie Ihre Daten den [!DNL Target]-Definitionen zuordnen möchten.
 
    ![Schrittergebnis](assets/CreatFeedMapping.png)
 
@@ -323,7 +323,7 @@ Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte aus
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Informationen zu Feeds in Recommendations (3:01)
+### Informationen zu Feeds in Recommendations (3:01) Kennzeichen ![Übersicht](/help/assets/overview.png)
 
 Dieses Video enthält die folgenden Informationen:
 
@@ -332,7 +332,7 @@ Dieses Video enthält die folgenden Informationen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Einen Feed erstellen (6:44)
+### Einen Feed erstellen (6:44) Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
