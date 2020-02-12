@@ -1,11 +1,11 @@
 ---
-keywords: at.js-Versionen;at.js-Releases;Einzelseiten-App;spa;domänenübergreifend;Domänen übergreifend
+keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: Detaillierte Informationen zur Aktualisierung von Adobe Target at.js 1.x auf at.js-Version 2.0.0
 title: Aktualisierung von Adobe Target at.js Version 1.*x* auf at.js Version 2.*x nicht unterstützt*
-subtopic: Erste Schritte
+subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,7 +24,7 @@ Hier einige Vorteile der Verwendung von at.js 2.*x*, die in früheren Versionen 
 
 Die folgenden Diagramme helfen Ihnen, den Arbeitsablauf von at.js 2.*x* mit View zu verstehen und wie dieser die SPA-Integration verbessert. Eine bessere Einführung in die in at.js 2.*x* verwendeten Konzepte finden Sie unter [Implementieren von Einzelseiten-Apps](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![Target-Ablauf mit at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Target-Ablauf mit at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Aufruf | Details |
 | --- | --- |
@@ -246,7 +246,7 @@ Im Grunde wurde das Konzept der globalen Mbox eingeführt, um [!DNL Target] mitz
 
 ### Ist der Name der globalen Mbox in at.js nicht mehr wichtig?
 
-Kunden können einen globalen Mbox-Namen über [!UICONTROL Target &gt; Einrichtung &gt; Implementierung &gt; at.js-Einstellungen bearbeiten] angeben. Diese Einstellung wird von den [!DNL Target]-Edge-Servern verwendet, um „Ausführen &gt; Seite laden“ in den globalen Mbox-Namen zu übersetzen, der in der [!DNL Target]-Benutzeroberfläche angezeigt wird. Dadurch können Kunden mit dem globalen Mbox-Namen weiterhin Server-seitige APIs, den Form-Based Composer und Profilskripts verwenden und Zielgruppen erstellen. Wir empfehlen dringend, dass Sie auch sicherstellen, dass der gleiche globale Mbox-Name auch auf der Seite [!UICONTROL Einrichtung &gt; Voreinstellungen] konfiguriert ist, falls Sie noch Seiten haben, die at.js. 1.*x* oder mbox.js, benutzen, wie in den folgenden Abbildungen dargestellt.
+Kunden können einen globalen Mbox-Namen über [!UICONTROL Target > Einrichtung > Implementierung > at.js-Einstellungen bearbeiten] angeben. Diese Einstellung wird von den [!DNL Target]-Edge-Servern verwendet, um „Ausführen > Seite laden“ in den globalen Mbox-Namen zu übersetzen, der in der [!DNL Target]-Benutzeroberfläche angezeigt wird. Dadurch können Kunden mit dem globalen Mbox-Namen weiterhin Server-seitige APIs, den Form-Based Composer und Profilskripts verwenden und Zielgruppen erstellen. Wir empfehlen dringend, dass Sie auch sicherstellen, dass der gleiche globale Mbox-Name auch auf der Seite [!UICONTROL Einrichtung > Voreinstellungen] konfiguriert ist, falls Sie noch Seiten haben, die at.js. 1.*x* oder mbox.js, benutzen, wie in den folgenden Abbildungen dargestellt.
 
 ![Dialogfeld „at.js ändern“](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -256,15 +256,15 @@ und
 
 ### Muss die Einstellung „Globale Mbox automatisch erstellen“ für at.js 2.*x* aktiviert sein?
 
-In den meisten Fällen ja. Diese Einstellung teilt at.js 2.*x* mit, dass beim Laden der Seite eine Anfrage an die [!DNL Target]-Edge-Server gesendet wird. Da die globale Mbox als „Ausführen &gt; Seite laden“ übersetzt wird, sollte diese Einstellung aktiviert sein, wenn Sie eine Anfrage beim Laden der Seite auslösen möchten.
+In den meisten Fällen ja. Diese Einstellung teilt at.js 2.*x* mit, dass beim Laden der Seite eine Anfrage an die [!DNL Target]-Edge-Server gesendet wird. Da die globale Mbox als „Ausführen > Seite laden“ übersetzt wird, sollte diese Einstellung aktiviert sein, wenn Sie eine Anfrage beim Laden der Seite auslösen möchten.
 
 ### Funktionieren vorhandene VEC-Aktivitäten weiterhin, auch wenn der Zielname der globalen Mbox nicht in at.js 2.*x* angegeben ist?
 
-Ja, weil „Ausführen &gt; Seite laden“ auf dem [!DNL Target]-Backend wie `target-global-mbox` behandelt wird.
+Ja, weil „Ausführen > Seite laden“ auf dem [!DNL Target]-Backend wie `target-global-mbox` behandelt wird.
 
 ### Wenn meine formularbasierten Aktivitäten auf `target-global-mbox` zielen, funktionieren diese Aktivitäten weiterhin?
 
-Ja, weil „Ausführen &gt; Seite laden“ auf den [!DNL Target]-Edge-Servern wie `target-global-mbox` behandelt wird.
+Ja, weil „Ausführen > Seite laden“ auf den [!DNL Target]-Edge-Servern wie `target-global-mbox` behandelt wird.
 
 ### Unterstützte und nicht unterstützte at.js 2.*x*-Einstellungen
 
@@ -290,11 +290,11 @@ Wenn Sie domänenübergreifendes Tracking verwenden möchten, müssen Sie die [E
 
 ### Automatische Erstellung einer globalen Mbox wird unterstützt
 
-Diese Einstellung veranlasst at.js 2.*x* beim Laden der Seite eine Anfrage an die [!DNL Target]-Edge-Server zu senden. Da die globale Mbox als „Ausführen &gt; Seite laden“ übersetzt wird und dies von den [!DNL Target]-Edge-Servern interpretiert wird, sollten Kunden dies aktivieren, wenn sie eine Anfrage beim Laden der Seite auslösen möchten.
+Diese Einstellung veranlasst at.js 2.*x* beim Laden der Seite eine Anfrage an die [!DNL Target]-Edge-Server zu senden. Da die globale Mbox als „Ausführen > Seite laden“ übersetzt wird und dies von den [!DNL Target]-Edge-Servern interpretiert wird, sollten Kunden dies aktivieren, wenn sie eine Anfrage beim Laden der Seite auslösen möchten.
 
 ### Globaler Mbox-Name wird unterstützt
 
-Kunden können einen globalen Mbox-Namen über [!UICONTROL Target &gt; Einrichtung &gt; Implementierung &gt; at.js-Einstellungen bearbeiten] angeben. Diese Einstellung wird von den [!DNL Target]-Edge-Servern verwendet, um „Ausführen &gt; Seite laden“ in den eingegebenen globalen Mbox-Namen zu übersetzen. Dadurch können Kunden weiterhin Server-seitige APIs, den formularbasierten Composer und Profilskripts verwenden und Zielgruppen erstellen, die auf die globale Mbox zielen.
+Kunden können einen globalen Mbox-Namen über [!UICONTROL Target > Einrichtung > Implementierung > at.js-Einstellungen bearbeiten] angeben. Diese Einstellung wird von den [!DNL Target]-Edge-Servern verwendet, um „Ausführen > Seite laden“ in den eingegebenen globalen Mbox-Namen zu übersetzen. Dadurch können Kunden weiterhin Server-seitige APIs, den formularbasierten Composer und Profilskripts verwenden und Zielgruppen erstellen, die auf die globale Mbox zielen.
 
 ### Gelten die folgenden benutzerdefinierten at.js-Ereignisse für `triggerView()` oder gilt dies nur für `applyOffer()` oder `applyOffers()`?
 
@@ -750,10 +750,10 @@ at.js 2.*x*  JSON-Payload:
 
 Version wird als Abfragezeichenfolgenparameter über den Versionsparameter gesendet.
 
-## Schulungsvideo: at.js 2.*x*-Architekturdiagramm
+## Schulungsvideo: at.js 2.*x* Abzeichen ![für Architekturdiagramm](/help/assets/overview.png)
 
 at.js 2.*x*  verbessert die Unterstützung von Adobe Target für SPAs und kann mit anderen Experience Cloud-Lösungen integriert werden. In diesem Video wird erklärt, wie alles zusammenkommt.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Siehe [Erläuterungen zu at.js 2.*x* funktioniert](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) für weitere Informationen.
