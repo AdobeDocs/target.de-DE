@@ -1,11 +1,11 @@
 ---
-keywords: Umleitungsangebot;Umleitungsangebote erstellen;HTML-Angebot hinzufügen;alle URL-Parameter bei der Umleitung übermitteln;mboxSessionId bei der Umleitung übermitteln (nur erforderlich, wenn eine Umleitung auf eine andere Domäne erfolgt)
+keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: Informationen über Umleitungsangebote in Adobe Target, die bewirken, dass ein Browser zu einer neuen Seite weiterleitet.
 title: Erstellen von Umleitungsangeboten
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ Bei Umleitungsangeboten wird der Browser zu einer neuen Seite umgeleitet.
 
 Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, anstatt lediglich Inhaltselemente innerhalb einer Seite zu ändern. In diesem Fall vergleicht Ihr A/B-Test Seite A mit Seite B. Richten Sie eine A/B-Test-Kampagne mit zwei Erlebnissen ein: einem, das auf die Standardseite A verweist, und einem anderen, das auf die Seite B umleitet. Das Angebot wird so konfiguriert, dass der Besucher auf eine andere Seite umgeleitet wird.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Sie können keine Umleitungsangebote in Ajax-Mboxes (`mboxUpdate`) verwenden.
 >
@@ -26,14 +26,14 @@ Weitere Informationen zum Einrichten eines Erlebnisses mit Umleitung finden Sie 
 
 Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser umzuleiten. Hierbei wird die Methode `window.location.replace();` verwendet, sodass die Seite, von der der Besucher umgeleitet wird, nicht im Browserverlauf gespeichert wird. Daher kann der Besucher die Zurück-Schaltfläche des Browsers wie gewohnt verwenden.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Wenn Sie den Referrer-Wert der Landingpage übergeben möchten, sollten Sie statt eines Umleitungsangebots ein HTML-Angebot verwenden.
 
 **So erstellen Sie ein Weiterleitungsangebot:**
 
-1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie anschließend die Registerkarte **Code-Angebote]aus.[!UICONTROL **
-1. Klicken Sie auf **[!UICONTROL Erstellen]** &gt; **[!UICONTROL Umleitungsangebot]**.
+1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie anschließend die Registerkarte **[!UICONTROL Code-Angebote]** aus.
+1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Umleitungsangebot]**.
 1. Geben Sie einen Angebotsnamen ein.
 1. Geben Sie die URL für den eindeutigen Inhalt oder das eindeutige Ziel an, zu dem Sie umleiten möchten. Hierbei muss es sich um eine absolute URL handeln.
 
@@ -51,11 +51,11 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
    Wenn Sie die Einstellung für Erst- und Drittanbieter-Cookie verwenden, müssen Sie die Sitzungs-ID der Mbox beim Wechseln von Domänen nicht weitergeben. Sie bleibt beim Drittanbieter-Cookie erhalten, deshalb ist sie in der URL nicht erforderlich.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Wenden Sie sich an Ihren Implementierungsberater, bevor Sie diese Tests starten.
 
-## Schulungsvideo: Das Content-Repository (4:56)
+## Schulungsvideo: Das Content-Repository (4:56) Kennzeichen ![Übersicht](/help/assets/overview.png)
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 
@@ -63,4 +63,4 @@ In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
