@@ -1,12 +1,12 @@
 ---
-keywords: Mbox debuggen;Fehlerbehebung für Mbox;Mbox-Probleme;Flackern;mboxDebug;mboxTrace;Token;Debugger;Priorität;Aktivitätspriorität;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst Mbox kaufen;bester Verkauf;bestverkauftes Produkt
+keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Wenn Ihre Seite nicht den erwarteten Inhalt anzeigt, können Sie einige Schritte unternehmen, um die Bereitstellung von Inhalten in Adobe Target zu debuggen.
 title: Fehlerbehebung bei der Inhaltsbereitstellung in Adobe Target
-subtopic: Multivarianz-Test
+subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -27,7 +27,7 @@ Da mboxTrace und mboxDebug Kampagnen- und Profildaten für Dritte enthüllen kö
 
 So wird das Autorisierungstoken abgerufen:
 
-1. Klicken Sie auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Implementierung]**.
+1. Klicken Sie auf **[!UICONTROL Setup]** > **[!UICONTROL Implementierung]**.
 1. Wählen Sie **[!UICONTROL mbox.js]** oder **[!UICONTROL at.js]** aus.
 1. Klicken Sie auf **[!UICONTROL Authentifizierungstoken generieren]**.
 
@@ -103,7 +103,7 @@ Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Proble
 
 Weitere Informationen finden Sie in den Schulungsvideos unten:
 
-Weitere Informationen finden Sie unter " [Debuggen von at.js mit dem Adobe Experience Cloud-Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)".
+Weitere Informationen finden Sie unter &quot; [Debuggen von at.js mit dem Adobe Experience Cloud-Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)&quot;.
 
 ## Wenn target.js bei der Bereitstellung nicht geladen wird {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -157,14 +157,14 @@ at. js löst Target-mboxes nicht aus, wenn Sie einen ungültigen Doctype verwend
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Erweiterung hinzufügen
+### Erweiterung hinzufügen Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Grundlegendes Target-Debugging
+### Grundlegendes Ziel-Debugging- ![Tutorialzeichen](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Mbox Trace
+### Mbox Trace- ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
