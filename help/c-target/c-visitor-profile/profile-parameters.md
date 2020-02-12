@@ -5,7 +5,7 @@ title: Profilattribute in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ Profilattribute sind Parameter, die speziell für einen Besucher gelten. Diese A
 
 Wenn ein Besucher auf Ihrer Website surft oder zu einer anderen Sitzung zurückkehrt, können die gespeicherten Profilattribute genutzt werden, um Zielinhalte festzulegen oder Informationen zur Segmentfilterung zu protokollieren.
 
-Klicken Sie zum Einrichten von Profilattributen auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Profilskripte]**.
+Um Profilattribute einzurichten, klicken Sie auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Profilskripte]**.
 
 ![Registerkarte „Profilskripte“ ](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -24,7 +24,7 @@ Die folgenden Typen von Profilattributen sind verfügbar:
 
 | Parametertyp | Beschreibung |
 |--- |--- |
-| mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Hinweis**: Target erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an Target übergeben müssen, können Sie hierzu die API-Methode Profilupdate nutzen. Weitere Informationen finden Sie unter [Profilupdate in der Dokumentation zur Adobe Target-API](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Hinweis **: Target erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an Target übergeben müssen, können Sie hierzu die API-Methode Profilupdate nutzen. Weitere Informationen finden Sie unter[Profilupdate in der Dokumentation zur Adobe Target-API](http://developers.adobetarget.com/api/#updating-profiles). |
 | Skript | Direkt mit einem JavaScript-Codebeispiel definiert. Mit diesen können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte können bei jeder Mbox-Anfrage ausgeführt werden. Siehe Profilskriptattribute unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -74,7 +74,7 @@ if (mbox.name == 'Track_Interest') {
 
 Sie können Popupkarten mit Profilskriptinformationen (ähnlich den Karten mit Angebotsinformationen) anzeigen. Auf diesen Karten mit Profilskriptinformationen können Sie die Liste der Aktivitäten, die auf das ausgewählte Profilskript verweisen, sowie weitere nützliche Metadaten anzeigen.
 
-Sie können beispielsweise auf folgende Karte mit Profilskriptinformationen zugreifen, indem Sie in der Liste mit Profilskripten (Zielgruppen &gt; Profilskripte) mit dem Mauszeiger über ein Profilskript fahren und auf das Informationssymbol klicken.
+Sie können beispielsweise auf folgende Karte mit Profilskriptinformationen zugreifen, indem Sie in der Liste mit Profilskripten (Zielgruppen > Profilskripte) mit dem Mauszeiger über ein Profilskript fahren und auf das Informationssymbol klicken.
 
 Die Registerkarte [!UICONTROL Skriptinformationen] enthält folgende Informationen: Name, Status, Token-Typ, Skript-ID, Änderungsprotokoll und Beschreibung.
 
@@ -82,7 +82,7 @@ Die Registerkarte [!UICONTROL Skriptinformationen] enthält folgende Information
 
 Die Registerkarte [!UICONTROL Nutzung von Skripten] enthält die Aktivitäten (und ihre Arbeitsbereiche), die auf das ausgewählte Profilskript verweisen.
 
-![Informationskarte „Profilskript“ &gt; Registerkarte „Skriptnutzung“](assets/profile_script_info_card_usage_tab.png)
+![Informationskarte „Profilskript“ > Registerkarte „Skriptnutzung“](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
@@ -232,7 +232,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 * **mboxTrace-Debugging-Tool verwenden, um Profilskripte zu debuggen:**
 
-   Diese Methode erfordert ein Autorisierungstoken, das Sie durch Klicken auf **[!UICONTROL Target]** &gt; **[!UICONTROL Einstellungen]** &gt; **[!UICONTROL Implementierung]** &gt; **[!UICONTROL Autorisierungstoken generieren]** erstellen können.
+   Diese Methode erfordert ein Autorisierungstoken, das Sie generieren können, indem Sie auf **[!UICONTROL Target]** > **[!UICONTROL Setup]** > **[!UICONTROL Implementierung]** > **[!UICONTROL Autorisierungstoken erstellen]** klicken.
 
    Fügen Sie anschließend diese beiden Parameter Ihrer Seiten-URL nach dem „?“ hinzu: `mboxTrace=window&authorization=YOURTOKEN`.
 
@@ -345,7 +345,7 @@ Alle standardmäßigen JavaScript-Operatoren sind vorhanden und können verwende
 | `||` | Fügt die Ausdrücke links und rechts daneben logisch mit „ORs“ zusammen, nur „true“, wenn beide Seiten true sind (andernfalls „false“). |
 | `//` | Prüft, ob die Quelle alle Elemente aus dem Booleschen Zielwert enthält (Array-Quelle, Array-Ziel).<br>`//` extrahiert Unterzeichenfolge aus dem Ziel (entspricht regexp) und dekodiert sie`Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Die Funktion unterstützt auch die Verwendung konstanter Zeichenfolgenwerte, Gruppierung (`condition1 || condition2) && condition3` und reguläre Ausdrücke `/[^a-z]$/.test(landing.referring.url)`). |
 
-## Schulungsvideo: Profilskripte
+## Schulungsvideo: Profilskripte - ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video erfahren Sie, wie Profilskripte erstellt und verwendet werden.
 
@@ -355,4 +355,4 @@ In diesem Video erfahren Sie, wie Profilskripte erstellt und verwendet werden.
 * Verwenden des Menüs „Verfügbare Token“ für den Zugriff auf verfügbare Optionen
 * Aktivieren und Deaktivieren von Profilskripten
 
->[!VIDEO](https://video.tv.adobe.com/v/17394?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17394)
