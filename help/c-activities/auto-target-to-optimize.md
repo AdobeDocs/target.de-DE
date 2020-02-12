@@ -1,10 +1,10 @@
 ---
-keywords: Automatisches Targeting; Targeting; Traffic-Zuordnung; häufig gestellte Fragen; FAQ; Fehlerbehebung; Problembehebung
+keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: Automatisches Targeting
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -122,7 +122,7 @@ Es gibt verschiedene Szenarien, in denen Sie möglicherweise [!UICONTROL Automat
 
 ## Worin unterscheidet sich [!UICONTROL Automatisches Targeting] von „Automatisierte Personalisierung“? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
-**Für die Erstellung eines personalisierten Modells ist beim[!UICONTROL automatischen Targeting]häufig weniger Traffic erforderlich als bei der automatisierten Personalisierung.**
+**[!UICONTROL Für die Erstellung eines personalisierten Modells ist beim automatischen Targeting]häufig weniger Traffic erforderlich als bei der automatisierten Personalisierung.**
 
 Auch wenn die zum Erstellen der Modelle [!UICONTROL Automatisches Targeting] und [!UICONTROL Automatisierte Personalisierung] erforderliche Traffic-Menge *pro Erlebnis* identisch ist, liegen in der Regel in einer Aktivität vom Typ „Automatisierte Personalisierung“ mehr Aktivitäten vor als in einer Aktivität vom Typ [!UICONTROL Automatisches Targeting]. Wenn Sie beispielsweise über eine Aktivität vom Typ [!UICONTROL Automatisierte Personalisierung] verfügen, in der Sie zwei Angebote pro Position mit zwei Positionen erstellen, verfügen Sie insgesamt über vier (2 = 4) in der Aktivität enthaltene Erlebnisse (ohne Ausschlüsse). Mit [!UICONTROL Automatisches Targeting] können Sie festlegen, dass Erlebnis 1 Angebot 1 an Position 1 und Angebot 2 an Position 2 einbezieht und dass Erlebnis 2 Angebot 1 an Position 1 und Angebot 2 an Position 2 einbezieht. Da Ihnen [!UICONTROL Automatisches Targeting] ermöglicht auszuwählen, dass Sie über mehrere Änderungen in einem Erlebnis verfügen möchten, können Sie die Anzahl der Gesamterlebnisse in Ihrer Aktivität reduzieren.
 
@@ -131,11 +131,11 @@ Für [!UICONTROL Automatisches Targeting] können einfache Faustregeln zum Nachv
 * **Wenn „Konversion“ Ihre Erfolgsmetrik ist:** 1.000 Besuche und mindestens 50 Konversionen pro Tag pro Erlebnis. Zusätzlich muss die Aktivität über mindestens 7.000 Besuche und 350 Konversionen verfügen.
 * **Wenn „Umsatz pro Besuch“ Ihre Erfolgsmetrik ist:** 1.000 Besuche und mindestens 50 Konversionen pro Tag pro Erlebnis. Zusätzlich muss die Aktivität über mindestens 1.000 Konversionen pro Erlebnis verfügen. Für „Umsatz pro Besuch (RPV)“ sind aufgrund der höheren Datenvarianz, die im Vergleich zur Konversionsrate für gewöhnlich im Besuchsumsatz vorhanden ist, in der Regel mehr Daten zum Erstellen von Modellen erforderlich.
 
-**Für das[!UICONTROL automatische Targeting]ist ein kompletter Satz von Setup-Funktionen vorhanden.**
+**[!UICONTROL Für das automatische Targeting]ist ein kompletter Satz von Setup-Funktionen vorhanden.**
 
 * Da [!UICONTROL Automatisches Targeting] im Arbeitsablauf einer A/B-Aktivität eingebettet wird, profitiert [!UICONTROL Automatisches Targeting] vom ausgereiften und bewährten Visual Experience Composer (VEC). [QS-Links](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) können ebenfalls mit [!UICONTROL Automatisches Targeting] genutzt werden.
 
-**Für[!UICONTROL automatisches Targeting]gibt es ein umfangreiches Framework für Online-Tests.**
+**[!UICONTROL Für automatisches Targeting]gibt es ein umfangreiches Framework für Online-Tests.**
 
 * Der „mehrarmige Bandit“ ist Bestandteil eines größeren Online-Test-Frameworks, das es unseren Datenwissenschaftlern und Forschern erlaubt, die Resultate ihrer kontinuierlichen Verbesserungen unter Praxisbedingungen zu untersuchen.
 * Künftig ermöglicht uns diese Testumgebung, unseren datenaffinen Kunden unsere maschinelle Lernplattform bereitzustellen, damit diese ihre eigenen Modelle einbringen und so die in Target vorhandenen Modelle noch ergänzen können.
@@ -247,7 +247,7 @@ Bei einer Aktivität vom Typ [!UICONTROL Automatisches Targeting] wird der Benut
 
 Nehmen wir zum Beispiel an, dass eine Aktivität mit einer Konversionsmetrik (C1) und einer zusätzlichen Metrik (A1) besteht. A1 ist abhängig von C1. Wenn ein Besucher die Aktivität das erste Mal antrifft und die Kriterien zum Konvertieren von A1 und C1 nicht konvertiert werden, wird die Metrik A1 aufgrund der Erfolgsmetrikabhängigkeit nicht konvertiert. Wenn der Besucher C1 konvertiert und erst danach A1, wird A1 auch dann nicht konvertiert, da der Besucher abgekoppelt wird, sobald C1 konvertiert ist.
 
-## Schulungsvideo: Erklärungen zu Aktivitäten vom Typ „Automatisches Targeting“
+## Schulungsvideo: Erklärungen zu Aktivitäten vom Typ „Automatisches Targeting“ Kennzeichen ![Übersicht](/help/assets/overview.png)
 
 In diesem Video wird die Einrichtung einer A/B-Aktivität für [!UICONTROL Automatisches Targeting] beschrieben.
 
@@ -257,4 +257,4 @@ Nach Abschluss dieser Schulung sollten Sie zu Folgendem in der Lage sein:
 * Vergleichen und Kontrahieren von [!UICONTROL Automatisches Targeting] mit „Automatisierte Personalisierung“
 * Erstellen von Aktivitäten für [!UICONTROL Automatisches Targeting]
 
->[!VIDEO](https://video.tv.adobe.com/v/18558?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/18558)
