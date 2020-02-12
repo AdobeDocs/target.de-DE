@@ -4,7 +4,7 @@ description: Eine Sammlung ist ein Satz von Produkten oder Artikeln in Adobe Tar
 title: Sammlungen in Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,7 +35,7 @@ Wenn Sie eine [!DNL Recommendations]-Aktivität erstellen oder bearbeiten, ersch
 
 Erstellen Sie eine Sammlung, um die Produkte zu organisieren, die Sie in Ihren Empfehlungen anzeigen möchten.
 
-1. Klicken Sie auf **[!UICONTROL Recommendations]** >**[!UICONTROL  Sammlungen]**, um die Liste vorhandener Sammlungen anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Sammlungen]**, um die Liste vorhandener Sammlungen anzuzeigen.
 
    ![Sammlungsliste](assets/collections_list.png)
 
@@ -43,11 +43,11 @@ Erstellen Sie eine Sammlung, um die Produkte zu organisieren, die Sie in Ihren E
 
 1. Klicken Sie auf **[!UICONTROL Sammlung erstellen]**.
 
-1. (Bedingt) Wählen Sie eine Umgebung aus dem **[!UICONTROL Umgebungs-]**Filter, während Sie eine Sammlung erstellen (oder aktualisieren), um eine Vorschau der Inhalte der Sammlung in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
+1. (Bedingt) Wählen Sie eine Umgebung aus dem **[!UICONTROL Umgebungs-]** Filter, während Sie eine Sammlung erstellen (oder aktualisieren), um eine Vorschau der Inhalte der Sammlung in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
 
    ![Sammlung erstellen](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Geben Sie einen **[!UICONTROL Namen]**für die Sammlung ein.
+1. Geben Sie einen **[!UICONTROL Namen]** für die Sammlung ein.
 
    Sie können je nach Wunsch auch eine **[!UICONTROL Beschreibung eingeben]**.
 
@@ -71,7 +71,7 @@ Nachdem Sie eine Suche mit &quot;id > contains&quot; erstellt haben, können Sie
 >
 >Bei der Funktion „Erweiterte Suche“ wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die zum Zeitpunkt der Auslieferung zurückgegebenen Produkte basieren jedoch auf der Suche mit Unterscheidung zwischen Groß- und Kleinschreibung. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Kollektionen auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Katalog mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszugeben, werden nur Produkte mit dem Zusatz „urlaub“ ausgegeben. Produkte, die „Urlaub“ enthalten, werden nicht angezeigt.
 
-## Schulungsvideo: Sammlungen und Ausschlüsse in Recommendations erstellen (07:05)
+## Schulungsvideo: Sammlungen und Ausschlüsse in Recommendations erstellen (07:05) Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
