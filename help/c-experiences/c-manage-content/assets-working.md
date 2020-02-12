@@ -1,10 +1,10 @@
 ---
-keywords: Inhaltsbibliothek;Assets;kommentieren;kopieren;Asset löschen;Asset herunterladen;Inhalt bearbeiten;Karte freigeben;Inhaltseigenschaften anzeigen
+keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: Es gibt eine Reihe von Aufgaben, die Sie für ein Asset in der Bibliothek durchführen können.
 title: Arbeiten mit Inhalten in der Bibliothek
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,7 +33,7 @@ Informationen über die Aufgaben, die Sie für ein Asset in der Inhalte-Biblioth
 
 1. Klicken Sie zum Ändern des Bildes, das für ein Element in der Bibliothek steht, auf das Element und anschließend auf das Symbol **[!UICONTROL Eigenschaften]**. Klicken Sie dann auf **[!UICONTROL Bearbeiten]** und fügen Sie ein Bild hinzu.
 
-## Schulungsvideo: Das Content-Repository
+## Schulungsvideo: Abzeichen &quot;Content Repository- ![Übersicht&quot;](/help/assets/overview.png)
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden. (4:56)
 
@@ -41,4 +41,4 @@ In diesem Video wird beschrieben, wie Inhalte verwaltet werden. (4:56)
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
