@@ -1,11 +1,11 @@
 ---
-keywords: Aktivitätseinstellungen;A/B-Ziele und -Einstellungen;Einstellungen der Berichterstellung;Zielmetriken;Erfolgsmetriken;abhängige Erfolgsmetriken;erweiterte Einstellungen;primäres Ziel;zusätzliche Metriken;Ziel;Priorität;Dauer;Berichtslösung;Ziele;Zielgruppen für die Berichterstellung;Welche Erfolgsmetriken müssen erreicht werden, bevor diese Metrik inkrementiert wird;Was passiert, nachdem ein Benutzer auf diese Zielmetrik stößt;Hinweise
+keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zielen des Tests eingeben.
 title: Ziele und Einstellungen
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -65,7 +65,7 @@ Weitere Informationen zu erweiterten Einstellungen finden Sie unter [Erfolgsmetr
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Aktivitätseinstellungen (3:02)
+###  Aktivitätseinstellungen (3:02) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
@@ -77,11 +77,11 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
 (https://video.tv.adobe.com/v/17381?captions=ger)
 
-### Erstellen von A/B-Tests (8:36)
+### Erstellen von A/B-Tests (8:36) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie Aktivitätseinstellungen bei der Einrichtung einer Aktivität mit dem drei Schritte umfassenden, geleiteten Arbeitsablauf integriert werden können. Ziele und Einstellungen werden ab 5:30 erläutert.
 
 * Erstellen einer A/B-Aktivität in Adobe Target
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
