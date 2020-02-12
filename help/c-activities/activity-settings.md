@@ -1,12 +1,12 @@
 ---
-keywords: Ziele & Einstellungen;Ziel;Priorität;Dauer
+keywords: Goal &Settings;objective;priority;duration
 description: Verwenden Sie zum Verwalten des Ziels, der Priorität und der Dauer Ihrer Aktivitäten die „Aktivitätseinstellungen“.
 title: Aktivitätseinstellungen
-subtopic: Multivarianz-Test
+subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -54,7 +54,7 @@ Auf der Seite [!UICONTROL „Ziele und Einstellungen“] befinden sich zusätzli
 * [Multivarianz-Test](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Schulungsvideo: Aktivitätseinstellungen
+## Schulungsvideo: Aktivitätseinstellungen Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
@@ -64,4 +64,4 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ger)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381)
