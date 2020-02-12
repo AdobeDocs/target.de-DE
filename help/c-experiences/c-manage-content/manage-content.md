@@ -1,10 +1,10 @@
 ---
-keywords: Inhalt;Assets;Inhalt verwalten;Angebote;Assets verwalten;Auswahlmodus aufrufen;Auswahlmodus
+keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: Verwalten Sie mithilfe der Angebotsbibliothek die Inhalte Ihres Code- und Bildangebots.
 title: Angebote
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -83,7 +83,7 @@ Die folgenden Informationen sind verfügbar:
 * Umleitungs-URL-Typ
 * Absolute oder relative URL
 
-## Schulungsvideo: Das Content-Repository
+## Schulungsvideo: Das Content-Repository Kennzeichen ![Übersicht](/help/assets/overview.png)
 
 In diesem Video wird beschrieben, wie Angebote verwaltet werden.
 
@@ -91,4 +91,4 @@ In diesem Video wird beschrieben, wie Angebote verwaltet werden.
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
