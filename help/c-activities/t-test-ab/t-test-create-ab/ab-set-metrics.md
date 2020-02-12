@@ -1,11 +1,11 @@
 ---
-keywords: A/B;Aktivitätsmetriken;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
+keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Verwenden Sie in A/B-Aktivitäten Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
 title: Festlegen von Metriken
-solution: Target,Standard
+solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -52,7 +52,7 @@ Beachten Sie, dass bei der (Um-)Benennung von Metriken folgende Zeichen nicht zu
 | - | Minus |
 | @ | At-Zeichen |
 
-## Schulungsvideo: Aktivitätsmetriken (7:43)
+## Schulungsvideo: Aktivitätsmetriken (7:43) Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Arbeit mit Erfolgsmetriken.
 
@@ -60,4 +60,4 @@ Dieses Video enthält Informationen zur Arbeit mit Erfolgsmetriken.
 * Verstehen und Erstellen von Metriken für Konversionen, Umsatz und Interaktion
 * Erstellen einer Metrik mit Klick-Tracking
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
