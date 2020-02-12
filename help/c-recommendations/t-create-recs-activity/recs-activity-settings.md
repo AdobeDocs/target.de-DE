@@ -1,11 +1,11 @@
 ---
-keywords: Empfehlungen; Einstellungen; Name; Ziel; Priorität; Dauer; Berichterstellungseinstellungen; andere Metadaten
+keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: Es können verschiedene Einstellungen verwendet werden, um eine Recommendations-Aktivität in Adobe Target zu beschreiben und zu steuern.
 title: Einstellungen für Recommendations-Aktivitäten in Adobe Target
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -62,7 +62,7 @@ Die Aktivität kann bei Aktivierung starten, oder Sie können ein bestimmtes Dat
 
 Geben Sie Anmerkungen zu Ihrer Aktivität ein.
 
-## Schulungsvideo: Aktivitätseinstellungen (3:02)
+## Schulungsvideo: Aktivitätseinstellungen (3:02) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
@@ -72,4 +72,4 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
