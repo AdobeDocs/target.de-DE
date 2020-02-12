@@ -5,7 +5,7 @@ title: Zulassen von gemischtem Inhalt in Ihrem Browser
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -36,7 +36,7 @@ Wenn Sie eine Seite über eine sichere Verbindung besuchen, verifiziert Google C
 
 Siehe [Diese Seite enthält unsichere Inhalte](https://support.google.com/chrome/answer/1342714?hl=en) in der Google Chrome-Hilfe.
 
-### Schulungsvideo: VEC in Chrome Version 79.0.3945.117 oder höher aktivieren (Januar 2020)
+### Schulungsvideo: VEC in Chrome Version 79.0.3945.117 oder höher (Januar 2020) ![Übersichtskennzeichnung aktivieren](/help/assets/overview.png)
 
 Wenn Sie VEC mit der neuesten Version von Chrome (Version 79.0.3945.117 oder höher) verwenden, müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 
@@ -71,10 +71,10 @@ Internet Explorer blockiert standardmäßig Seiten, auf denen sicherer und unsic
 
 1. Klicken Sie in Internet Explorer auf das Einstellungssymbol > **[!UICONTROL Internetoptionen]**.
 1. Öffnen Sie die Registerkarte [!UICONTROL Sicherheit.]
-1. Wählen Sie **[!UICONTROL Internet]**und klicken Sie dann auf**[!UICONTROL  Stufe anpassen]**.
+1. Wählen Sie **[!UICONTROL Internet]** und klicken Sie dann auf **[!UICONTROL Stufe anpassen]**.
 1. Wählen Sie **[!UICONTROL Verschiedenes]**.
 1. Aktivieren Sie unter [!UICONTROL Verschiedenes]**[!UICONTROL Gemischte Inhalte anzeigen]**.
-1. Klicken Sie auf **[!UICONTROL OK]**>**[!UICONTROL  Ja]** > **[!UICONTROL Anwenden]**.
+1. Klicken Sie auf **[!UICONTROL OK]** > **[!UICONTROL Ja]** > **[!UICONTROL Anwenden]**.
 
 Es wird empfohlen, den Computer nach Änderung dieser Einstellung neu zu starten.
 
