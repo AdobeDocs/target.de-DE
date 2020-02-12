@@ -1,11 +1,11 @@
 ---
-keywords: Form-Based Experience Composer;Form-Based Composer;Verfeinerungen
+keywords: form-based experience composer;form-based composer;refinements
 description: Mit dem formularbasierten Experience Composer können Erlebnisse nicht visuell erstellt werden.
 title: Form-Based Experience Composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -63,14 +63,14 @@ Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. W�
    **HTML-Angebot erstellen:**
 
    1. Klicken Sie auf [!UICONTROL Angebote] und wählen Sie anschließend die Registerkarte [!UICONTROL Code-Angebote] aus.
-   1. Klicken Sie auf [!UICONTROL Erstellen] &gt; [!UICONTROL HTML-Angebot].
+   1. Klicken Sie auf [!UICONTROL Erstellen] > [!UICONTROL HTML-Angebot].
    1. Geben Sie einen Angebotsnamen ein.
    1. Geben Sie im Feld „Code“ den HTML-Code ein oder kopieren Sie ihn dorthin.
    1. Klicken Sie auf [!UICONTROL Speichern].
    **JSON-Angebot erstellen:**
 
    1. Klicken Sie auf [!UICONTROL Angebote] und wählen Sie anschließend die Registerkarte [!UICONTROL Code-Angebote] aus.
-   1. Klicken Sie auf [!UICONTROL Erstellen] &gt; [!UICONTROL JSON-Angebot].
+   1. Klicken Sie auf [!UICONTROL Erstellen] > [!UICONTROL JSON-Angebot].
    1. Geben Sie einen Angebotsnamen ein.
    1. Schreiben Sie Ihren JSON-Code in das Feld „Code“ oder kopieren Sie ihn dorthin.
    1. Klicken Sie auf [!UICONTROL Speichern].
@@ -91,7 +91,7 @@ Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. W�
 * [Erstellen einer Erlebnis-Targeting-Aktivität](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Erstellen einer Recommendations-Aktivität](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Schulungsvideo: Form-Based Composer
+## Schulungsvideo: Form-Based Composer Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 Im folgenden Video wird der Form-Based Experience Composer vorgeführt.
 
@@ -99,4 +99,4 @@ Im folgenden Video wird der Form-Based Experience Composer vorgeführt.
 * Wann Form-Based Experience Composer und wann Visual Experience Composer verwendet werden sollte
 * Verfeinerungen zur Ausrichtung auf einen Standort nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/17390?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
