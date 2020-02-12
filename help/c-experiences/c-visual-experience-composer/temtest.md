@@ -4,7 +4,7 @@ description: Wenn Sie die Struktur Ihrer Seite mithilfe einer Seitenvorlage erst
 title: Gleiches Erlebnis auf ähnlichen Seiten
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -72,7 +72,7 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
 >
 > Target kann die Seiten nicht überprüfen, um sicherzustellen, dass sie wie erwartet angezeigt werden. Wenn Sie diese Funktion verwenden, sollten Sie daher die betroffenen Seiten immer testen, bevor Sie sie veröffentlichen.
 
-## Schulungsvideo: Visual Experience Composer (2 von 2) (7:29)
+## Schulungsvideo: Visual Experience Composer (2 von 2) (7:29) Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 * Erlebnis umbenennen und duplizieren
 * Umleitungserlebnis erstellen
@@ -81,4 +81,4 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
 * Erlebnisse für responsive Websites ansehen und erstellen
 * Überlagerungen zum Hervorheben von Elementtypen nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
