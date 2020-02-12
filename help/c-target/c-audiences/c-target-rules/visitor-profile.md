@@ -1,10 +1,10 @@
 ---
-keywords: Besucherprofil; Target-Besucherprofil
+keywords: visitor profile;target visitor profile
 description: Erstellen Sie in Adobe Target Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen.
 title: Besucherprofil
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Erstellen Sie Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen.
 
-1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
+1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Besucherprofil]**.
+1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** > **[!UICONTROL Besucherprofil]**.
 
    ![](assets/target_visitor_profile.png)
 
@@ -39,11 +39,11 @@ Erstellen Sie Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Schulungsvideo: Erstellen von Zielgruppen
+## Schulungsvideo: Erscheinungsbild ![Zielgruppenübersicht erstellen](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
