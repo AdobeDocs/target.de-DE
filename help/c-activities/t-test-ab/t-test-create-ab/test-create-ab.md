@@ -1,11 +1,11 @@
 ---
-keywords: A/B erstellen;A/B-Test;A/B-Aktivität;neue A/B-Aktivität
+keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: Verwenden Sie Visual Experience Composer in Target, um Ihren Test direkt auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Target zu verändern.
 title: Erstellen eines A/B-Tests
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Verwenden Sie Visual Experience Composer in Target, um Ihren Test direkt auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Target zu verändern.
 
-1. Klicken Sie in der Liste [!UICONTROL Aktivitäten] auf **[!UICONTROL Aktivität erstellen]** &gt; **[!UICONTROL A/B-Test]**.
+1. Klicken Sie in der Liste [!UICONTROL Aktivitäten] auf **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL A/B-Test]**.
 
    ![Dropdownliste „Aktivität erstellen“](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -36,7 +36,7 @@ Verwenden Sie Visual Experience Composer in Target, um Ihren Test direkt auf ein
    >
    >Informationen zur Problembehebung für den VEC finden Sie unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >Die Option [!UICONTROL [Arbeitsplatz auswählen](/help/administrating-target/c-user-management/property-channel/property-channel.md) in der obigen Abbildung ist eine Funktion von [Target Premium](/help/c-intro/intro.md). Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
+   >Die Option [!UICONTROL [„Arbeitsplatz auswählen“](/help/administrating-target/c-user-management/property-channel/property-channel.md) in der obigen Abbildung ist eine Funktion von [Target Premium](/help/c-intro/intro.md). Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
 
 1. (Abhängig von Ihrer Lizenz) Wenn Sie [Target Premium-Kunde ](/help/c-intro/intro.md#premium)sind, wählen Sie einen [Arbeitsbereich](/help/administrating-target/c-user-management/property-channel/property-channel.md) aus.
 
@@ -99,7 +99,7 @@ Verwenden Sie Visual Experience Composer in Target, um Ihren Test direkt auf ein
    * **[!UICONTROL Automatisch dem besten Erlebnis zuordnen]**: Die meisten Aktivitätsteilnehmer werden automatisch zu leistungsstärkeren Erlebnissen weitergeleitet. Einige Besucher werden allen Erlebnissen zugeordnet, um die Erforschung von Erlebnissen beizubehalten und Änderungen an Leistungstrends zu erkennen. Siehe [Automatisierte Traffic-Zuordnung](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
    * **[!UICONTROL Automatisches Targeting für personalisierte Erlebnisse]**: Target setzt erweiterte maschinelle Lernalgorithmen ein, um Besucher automatisch mit dem besten Erlebnis anzusprechen und so Ihre Ziele zu maximieren. Weitere Informationen finden Sie unter [Automatisches Targeting zum Optimieren](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
-   Sie können auch auf **[!UICONTROL Erlebnis hinzufügen]klicken, um ein weiteres Erlebnis zur Aktivität hinzuzufügen.**
+   Sie können auch auf **[!UICONTROL Erlebnis hinzufügen]** klicken, um ein weiteres Erlebnis zur Aktivität hinzuzufügen.
 
 1. Wenn Sie mit der Auswahl Ihrer Zielgruppen und Erlebnisse zufrieden sind, klicken Sie auf **[!UICONTROL Weiter]**, um im geleiteten dreistufigen Arbeitsablauf zum nächsten Schritt zu springen.
 
@@ -111,11 +111,11 @@ Verwenden Sie Visual Experience Composer in Target, um Ihren Test direkt auf ein
 
 Nach Erstellung der Aktivität werden in der Registerkarte „Übersicht“ Informationen über die Aktivität inklusive eines Diagramms zu Ihrer Aktivität angezeigt.
 
-## Schulungsvideo: Erstellen von A/B-Tests (8:36)
+## Schulungsvideo: Erstellen von A/B-Tests (8:36) Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten [!DNL Target]-Arbeitsablaufs mit drei Schritten ein A/B-Test erstellt wird.
 
 * Erstellen einer A/B-Aktivität in Adobe Target
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
