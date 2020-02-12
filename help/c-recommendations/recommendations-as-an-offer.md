@@ -1,9 +1,9 @@
 ---
-keywords: Empfehlungen; Angebot
+keywords: Recommendations;offer
 description: Adobe Recommendations als Angebot in A/B-Tests (einschließlich Automatisierte Zuordnung und Automatisches Targeting) und Erlebnis-Targeting-Aktivitäten (XT)
 title: Adobe Recommendations als Angebot in A/B-Tests (einschließlich Automatisierte Zuordnung und Automatisches Targeting) und Erlebnis-Targeting-Aktivitäten (XT)
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -29,9 +29,9 @@ Als erstes erstellen Sie eine [!UICONTROL A/B-Test]- oder [!UICONTROL Erlebnis-T
    >
    >Denken Sie bei A/B-Tests daran, dass Sie die Option [Automatisierte Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) wählen können, um Traffic automatisch an die leistungsschwächsten Empfehlungen oder die Option [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md) zu leiten, um Besuchern benutzerspezifische Empfehlungserlebnisse basierend auf ihrem Profil zuzuweisen.
 
-1. Klicken Sie beim Erstellen eines [Erlebnisses](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) auf das Element, dem Sie eine Empfehlung hinzufügen möchten, und wählen Sie die Aktion **[!UICONTROL Einfügen vor]**, **[!UICONTROL Einfügen nach]** oder **[!UICONTROL Ersetzen mit]** und danach [!UICONTROL Empfehlung] aus.
+1. Klicken Sie beim Erstellen eines [Erlebnisses](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) auf das Element, dem Sie eine Empfehlung hinzufügen möchten, und wählen Sie die Aktion **[!UICONTROL Einfügen vor]**, **[!UICONTROL Einfügen nach]** oder **[!UICONTROL Ersetzen mit]** und wählen Sie dann [!UICONTROL Empfehlung] aus.
 
-   Die folgende Abbildung zeigt die Option [!UICONTROL Einfügen nach &gt; Empfehlung].
+   Die folgende Abbildung zeigt die Option [!UICONTROL Einfügen nach > Empfehlung].
 
    ![Empfehlung als Angebot einfügen](/help/c-recommendations/assets/replace-after-recommendations.png)
 
@@ -81,7 +81,7 @@ Sie haben zwei Möglichkeiten, um die Konfiguration eines Angebots zu bearbeiten
 ### Bearbeiten eines Empfehlungsangebots über das Bedienfeld „Änderungen“
 
 1. Klicken Sie auf das Symbol [!UICONTROL Änderungen] **(`</>`)**, um den Bereich [Änderungen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) anzuzeigen.
-1. Bewegen Sie den Mauszeiger über die gewünschte Aktion und klicken Sie auf das Symbol für das **[!UICONTROL Bearbeiten].**
+1. Bewegen Sie den Mauszeiger über die gewünschte Aktion und klicken Sie auf das Symbol für das **[!UICONTROL Bearbeiten]**.
 
    ![Bedienfeld für Änderungen](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -96,13 +96,13 @@ Es gibt zwei Möglichkeiten, ein Empfehlungsangebot zu löschen:
 
 ### Löschen eines Empfehlungsangebots über das Menü „Bearbeiten“
 
-1. Klicken Sie auf das Angebot, das Sie entfernen möchten, und dann auf **[!UICONTROL Layout &gt; Entfernen]**.
+1. Klicken Sie auf das Angebot, das Sie entfernen möchten, und dann auf **[!UICONTROL Layout > Entfernen]**.
 
    ![Entfernen](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### Löschen eines Empfehlungsangebots über das Bedienfeld für Änderungen
 
-1. Klicken Sie auf das Symbol [!UICONTROL Änderungen] **(&lt;/&gt;)**, um den Bereich [Änderungen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) anzuzeigen.
+1. Klicken Sie auf das Symbol [!UICONTROL Änderungen] **(&lt;/>)**, um den Bereich [Änderungen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) anzuzeigen.
 1. Bewegen Sie den Mauszeiger über die gewünschte Aktion und klicken Sie dann auf das [!UICONTROL Löschen]-Symbol.
 
    ![Symbol „Löschen“](/help/c-recommendations/assets/recs-offer-delete.png)
@@ -117,6 +117,6 @@ Der Status der Recommendations-Angebote (Algorithmus) wird unten auf der [!UICON
 
 ![Status des Recommendations-Angebots](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Schulungsvideo: Empfehlungen als Angebot
+## Schulungsvideo: Empfehlungsübersicht ![als Abzeichen](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/28878?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/28878)
