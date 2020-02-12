@@ -1,10 +1,10 @@
 ---
-keywords: Targeting; Traffic-Quellen; Target-Traffic-Quellen; Target-Suchmaschine; Suchmaschine; Landingpage; Target-Zielseite; verweisende Zielseite
+keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Erstellen Sie Zielgruppen in Adobe Target aus Besuchern auf Grundlage der Suchmaschine oder Landingpage, von der sie auf Ihre Site geleitet werden.
 title: Targeting von Traffic-Quellen in Adobe Target
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,9 +17,9 @@ Sie können z. B. das Ziel nach dem Browser des Benutzers, der Suchmaschine ode
 
 Sie können mehrere Traffic-Quellen kombinieren, um eine komplexe Targeting-Regel zu erstellen.
 
-1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
+1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Traffic-Quellen]**.
+1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** > **[!UICONTROL Traffic-Quellen]**.
 
    ![](assets/target_traffic_source.png)
 
@@ -39,11 +39,11 @@ Sie können mehrere Traffic-Quellen kombinieren, um eine komplexe Targeting-Rege
 
 Sie können Benutzer, die durch eine bestimmte Suchmaschine oder eine bestimmte Landingpage auf Ihre Site verwiesen werden, als Ziel auswählen.
 
-## Schulungsvideo: Erstellen von Zielgruppen
+## Schulungsvideo: Erstellen von Zielgruppen Kennzeichen ![Übersicht](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
