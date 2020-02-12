@@ -1,11 +1,11 @@
 ---
-keywords: Aktivitätseinstellungen;MVT-Ziele und -Einstellungen;Multivarianz-Ziele und -Einstellungen;Zielmetriken;Erfolgsmetriken;abhängige Erfolgsmetriken;erweiterte Einstellungen;primäres Ziel;zusätzliche Metriken;Ziel;Priorität;Dauer;Berichterstellungslösung;Ziele;Zielgruppen für die Berichterstellung;Welche Erfolgsmetriken müssen erreicht werden, bevor diese Metrik inkrementiert wird;Was passiert, nachdem ein Benutzer auf diese Zielmetrik stößt;Hinweise
+keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zielen des Tests eingeben.
 title: Ziele und Einstellungen
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -152,7 +152,7 @@ Geben Sie sämtliche Informationen ein, die für Sie und Ihre Team-Mitglieder vo
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Aktivitätseinstellungen (3:02)
+###  Aktivitätseinstellungen (3:02) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
@@ -162,13 +162,13 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Erstellen von multivariaten Tests (9:25)
+### Erstellen von Multivarianz-Tests (9:25) - ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Ziele und Einstellungen werden ab 7:00 erläutert.
 
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
