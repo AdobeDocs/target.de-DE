@@ -1,10 +1,10 @@
 ---
-keywords: Erstellen benutzerdefinierter Kriterien; Algorithmen; Kriterien; Empfehlungskriterien; csv; ftp; CSV hochladen
+keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: Laden Sie eine CSV-Datei hoch, um Empfehlungen anzupassen.
 title: Hochladen benutzerdefinierter Kriterien
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,7 +17,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
 * Wenn Sie eine [!UICONTROL Recommendations]-Aktivität erstellen, klicken Sie auf **[!UICONTROL Neu erstellen]** auf dem Bildschirm [!UICONTROL Kriterien auswählen]. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
 * Wenn Sie eine [!UICONTROL Recommendations]-Aktivität bearbeiten, klicken Sie in ein Feld für die [!UICONTROL Empfehlungsposition] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern aus]**. Klicken Sie auf dem Bildschirm [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Neu erstellen]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
-* Klicken Sie im Bildschirm **[!UICONTROL Empfehlungen]** &gt; **[!UICONTROL Kriterien auf]** Kriterien **[!UICONTROL erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!UICONTROL Recommendations]-Aktivitäten zur Verfügung.
+* Klicken Sie auf dem Bibliotheksbildschirm unter **[!UICONTROL Empfehlungen]** > **[!UICONTROL Kriterien]** auf **[!UICONTROL Kriterien erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!UICONTROL Recommendations]-Aktivitäten zur Verfügung.
 
 1. Klicken Sie auf **[!UICONTROL Kriterien erstellen]**.
 
@@ -74,9 +74,9 @@ Wenden Sie sich an Adobe Client Care, um die Einstellung zum Verwerfen bestehend
 
 Benutzerspezifische Kriterien-Feeds werden alle 24 Stunden aktualisiert.
 
-Sie können den Upload- und Synchronisationsstatus Ihrer benutzerdefinierten Kriterien am Ende jeder Kriterienkarte auf der Seite „Recommendations“ &gt; „Kriterien“ sehen. Sie können den Status auch im Dialogfeld „Bearbeiten“ sehen, wenn Sie benutzerdefinierte Kriterien bearbeiten.
+Sie können den Upload- und Synchronisationsstatus Ihrer benutzerdefinierten Kriterien am Ende jeder Kriterienkarte auf der Seite „Recommendations“ > „Kriterien“ sehen. Sie können den Status auch im Dialogfeld „Bearbeiten“ sehen, wenn Sie benutzerdefinierte Kriterien bearbeiten.
 
-Der Ablauf für einen fehlerfreien Upload sollte folgendermaßen aussehen: „Geplant“ &gt; „Download der Feed-Datei“ &gt; „Import“ &gt; „Erfolgreich“.
+Der Ablauf für einen fehlerfreien Upload sollte folgendermaßen aussehen: „Geplant“ > „Download der Feed-Datei“ > „Import“ > „Erfolgreich“.
 
 Im Folgenden finden Sie mögliche Fehlermeldungen, die Sie erhalten können, wenn Target auf ein Problem beim Upload stößt:
 
@@ -89,7 +89,7 @@ Im Folgenden finden Sie mögliche Fehlermeldungen, die Sie erhalten können, wen
 | Verzeichnis nicht gefunden | Geben Sie ein Verzeichnis an, das auf dem Server existiert. |
 | Datei nicht gefunden | Geben Sie den Namen einer Datei an, die auf dem Server im angegebenen Verzeichnis existiert. |
 
-## Schulungsvideo: Kriterien in Recommendations erstellen (12:33)
+## Schulungsvideo: Kriterien in Recommendations erstellen (12:33) !![Tutorial badge](/help/assets/tutorial.png
 
 Dieses Video enthält die folgenden Informationen:
 
@@ -97,4 +97,4 @@ Dieses Video enthält die folgenden Informationen:
 * Erstellen von Kriteriensequenzen
 * Hochladen benutzerdefinierter Kriterien
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
