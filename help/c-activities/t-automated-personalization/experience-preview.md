@@ -1,11 +1,11 @@
 ---
-keywords: Erlebnisvorschau;Erlebnis-URLs;URLs generieren;Erlebnis-URLs anzeigen
+keywords: experience preview;experience urls;generate urls;view experience urls
 description: Erlebnis-URLs können für Aktivitäten zur automatisierten Personalisierung in Target generiert werden, um Erlebnisinhalte direkt auf Ihrer Site anzuzeigen, bevor die Aktivität für Vorschau und QA livegeschaltet wird. Erlebnis-URLs umgehen Targeting, um die Ansicht eines bestimmten Erlebnisses zu erzwingen.
 title: Weitergeben von Erlebnis-URLs zur Automated Personalization-Vorschau außerhalb von Target
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 533a2aac50ceb085b090ad5f9d7b1fff396c2de4
 
 ---
 
@@ -37,7 +37,7 @@ Verwenden Sie Erlebnis-URLs, um Erlebnisse für Team-Mitglieder freizugeben und 
    In einem modalen Fenster werden Links zu den Erlebnissen auf Ihrer Site angezeigt, um eine „echte Vorschau“ der Erlebnisse außerhalb des Visual Experience Composer von Target zu erhalten. Sie müssen die Links in der Nachricht freigeben, um die Vorschau freigeben zu können. Das Anklicken des Links und das Kopieren der resultierenden URL auf der Seite funktionieren nicht, weil die URL einen Parameter enthält, der die Seite nur dann korrekt anzeigt, wenn Sie vom Link in der Nachricht aus auf die Seite zugreifen. Kopieren Sie stattdessen den Text im modalen Fenster und senden Sie den ganzen Text per E-Mail an Ihr Team.
 1. Klicken Sie auf **[!UICONTROL Alle erzeugen]** und klicken Sie auf jedes Erlebnis, dessen Vorschau Sie anzeigen möchten.
 
-   Wenn Sie anschließend Änderungen an den Erlebnissen vornehmen, stellen Sie sicher, dass Sie neue Vorschaulinks für Ihr Team generieren, indem Sie zum modalen Fenster zurückkehren und auf **Alle erzeugen** klicken, um neue Links zu erhalten.
+   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
 
    **Hinweis:** Die Vorschau-Links werden in neuen Registerkarten geöffnet; dafür muss der Pop-up-Blocker in Ihrem Browser deaktiviert sein.
 
