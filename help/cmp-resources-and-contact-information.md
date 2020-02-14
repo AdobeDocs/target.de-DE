@@ -5,7 +5,7 @@ title: Ressourcen und Kontaktinformationen
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: fe738d15eb165df0315e6b7edd10494110c0ba5c
 
 ---
 
@@ -78,25 +78,7 @@ Damit Ihr Problem schnellstmöglich bearbeitet werden kann, halten Sie bei der K
 | Geschäftsauswirkungen | Welche Auswirkungen hat dies auf Ihr Geschäft? Führt dieses Problem zu Umsatzverlusten oder wird das Produkt dadurch unbrauchbar und gibt es eine nachhaltige Möglichkeit zur Umgehung des Problems? |
 | Erwartungen | Was wird Ihren Erwartungen zufolge passieren? |
 
-Bereiten Sie zudem Informationen in Verbindung mit dem spezifischen Problem vor. Beispielsweise ist eines der häufigsten Probleme, das dem Kundendienst vorgetragen wird, dass die Mboxes zu langsam laden. Zur Behebung dieses Problems sind folgende Daten hilfreich:
-
-* Eine Firebug-Ablaufverfolgung, die die wiederholbare Langsamkeit bis zu einer URL oder einem Host aufzeigt.
-
-   Ein Gomez-Bericht mit einer oder zwei ausgelagerten Anfragen enthält nicht genügend Daten, um das Problem zu analysieren oder zu beheben.
-* Ein Screenshot der Traceroute von dem Rechner, auf dem der Firebug läuft, NACH 70.42.13.100.
-
-   Dies ist sehr wichtig. Die EDGE-Netzwerke sind weltweit aufgestellt, deshalb ist es sehr schwer, festzulegen, von wo aus der Client gesendet wurde. Wenn Sie das Problem z. B. von Ihrem Arbeitsplatz in Ihrem Büro aus reproduzieren können, geben Sie an: „Ich kann dieses Problem von meinem Arbeitsplatz aus reproduzieren, und ich bin mit EDGE 20 vernetzt.“
-* Ihr Client-Code und der Name der Mbox (sofern vorhanden).
-* Die Anzahl der auf der Seite eingebetteten Mboxes.
-
-   Ist nur eine von vielen Mboxes auf der Seite langsam?
-* Wie wiederholbar ist die Langsamkeit dieser Mbox auf der jeweiligen Seite?
-
-   Durch die Bereitstellung einer Firebug-Ablaufverfolgung kann dem Kundendienst ein einmaliges Fallszenario aufgezeigt werden. Wenn Sie statistische Daten bereitstellen können, wie z. B. „das Niedrigste, was ich beobachten konnte, waren 300 Millisekunden, das Höchste waren 1,1 Sekunden, und ich habe das Ganze fünfzig Mal getestet“, hilft dies dabei, eine schnellere Lösung zu finden.
-* Informationen über alles, was an Ihren Kampagnen außergewöhnlich ist.
-
-   Gibt es eine hohe Anzahl von Segmenten? (Aktualisieren Sie die Segmente z. B. drei- bis viermal pro Stunde auf der Admin-Oberfläche?) Diese Information hilft dem Kundendienst dabei, die Interaktion zwischen den Admin-Oberflächen und den Edges für diese Kampagne zu verstehen. Häufige Updates der Kampagne bedeuten ein häufiges erneutes Laden vom zentralen Server, wodurch weitere Remoteaufrufe oder neue Ladevorgänge des Cache erzwungen werden können.
-* Sämtliche weitere Daten, die Ihrer Ansicht nach hilfreich sind.
+Informationen zu möglichen Lösungen und Informationen zur Fehlerbehebung finden Sie unter [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md) .
 
 ### Im Falle von Ausfällen  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
