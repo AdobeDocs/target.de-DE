@@ -5,7 +5,7 @@ title: Versionshinweise zu Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 93ffd24946ad23780b8c141bec79e4492f0e8cda
+source-git-commit: 48b0141e7234ad3bbff9a6805cdf5ccb4c1aa0b9
 
 ---
 
@@ -31,6 +31,14 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 
 ## Target Standard/Premium 20.2.1 (19. Februar 2020)
+
+>[!IMPORTANT]
+>
+>Am 30. August 2020 wird die Bibliothek &quot;mbox.js&quot;von Adobe Target nicht mehr unterstützt. Nach dem 30. August 2020 schlagen alle Aufrufe von &quot;mbox.js&quot;fehl und wirken sich auf die Seiten aus, auf denen Target-Aktivitäten ausgeführt werden. Es wird empfohlen, dass alle Kunden vor diesem Datum zur neuesten Version der at.js-Bibliothek migrieren, um potenzielle Probleme mit Ihren Sites zu vermeiden. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>
+>Obwohl &quot;mbox.js&quot;derzeit unterstützt wird, wurden seit Juli 2017 keine Funktionsaktualisierungen dieser Bibliothek bereitgestellt. Die neuere at.js bietet viele Vorteile gegenüber mbox.js. Neben anderen Vorteilen verbessert at.js die Seitenladezeit für Webimplementierungen, verbessert die Sicherheit und bietet bessere Implementierungsoptionen für Einzelseitenanwendungen.
+>
+>Indem wir alle Kunden zu at.js verschieben, können unsere Ingenieure und Support-Mitarbeiter Ihnen neue Funktionen anbieten und Ihnen den Support anbieten, den Sie von Adobe erwarten.
 
 Diese Version enthält die folgenden Erweiterungen und Fehlerbehebungen:
 
