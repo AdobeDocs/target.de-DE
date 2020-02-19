@@ -5,7 +5,7 @@ title: Versionshinweise für vorherige Versionen
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -17,6 +17,15 @@ Versionshinweise für vorherige Target-Versionen, einschließlich Versionshinwei
 >[!NOTE]
 >
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
+
+## Versionshinweise - 2020
+
+### Target Standard/Premium 20.1.1 (4. Februar 2020)
+
+Das Target Standard/Premium Release 20.1.1 ist ein Maintenance Release und umfasst Backend-Erweiterungen und -Verbesserungen. Darüber hinaus wurden folgende Fehlerbehebungen vorgenommen:
+
+* Es wurde ein Fehler behoben, der dazu führte, dass das Feld für den Adobe Analytics-Tracking-Server auf der Seite Ziele und Einstellungen für vorhandene Adobe für Target-Aktivitäten (A4T) leer war. (TGT-35960)
+* Es wurde ein Problem in der Benutzeroberfläche behoben, durch das Ihre Auswahl in der zweiten Dropdownliste beim Erstellen einer Zielgruppe für Kategorieaffinität nicht angezeigt wurde. (TGT-36098)
 
 ## Versionshinweise 2019 {#releases-2019}
 
