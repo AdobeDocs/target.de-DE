@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -206,7 +206,7 @@ source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
       + [Verwalten von Ausschlüssen](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Wählen Sie das Steuerelement für die automatisierte Personalisierung oder die automatische Targeting-Aktivität aus](c-activities/t-automated-personalization/experience-as-control.md)
       + [Häufig gestellte Fragen zur automatisierten Personalisierung](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Weitergeben von Erlebnis-URLs zur Automated Personalization-Vorschau außerhalb von Target](c-activities/t-automated-personalization/experience-preview.md)
+      + [Vorschau von automatisierten Personalisierungsaktivitäten mit Erlebnisvorschau-URLs](c-activities/t-automated-personalization/experience-preview.md)
       + [Fehlerbehebung bei der automatisierten Personalisierung](c-activities/t-automated-personalization/ap-trouble.md)
    + Erlebnis-Targeting {#experience-targeting}
       + [Erlebnis-Targeting – Überblick](c-activities/t-experience-target/experience-target.md)
