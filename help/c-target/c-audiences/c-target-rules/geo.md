@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -138,7 +138,7 @@ Vor diesem Vorgang müssen Sie alle Cookies entfernen.
 
 >[!NOTE]
 >
->mboxOverride.browserIp wird nur in at.js 1.*jx* unterstützt. Diese Funktion wird in at.js 2 nicht unterstützt.*x*.
+>`mboxOverride.browserIp` wird nur in at.js 1.*jx* unterstützt. Diese Funktion wird in at.js 2 nicht unterstützt.*x*.
 
 **Wie werden Gebiete wie Puerto Rico und Hongkong der Geotargeting-Struktur zugeordnet?**
 
