@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -14,12 +14,18 @@ source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
+## Adobe Target Standard/Premium 20.2.1 (19. Februar 2020)
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| 19. Februar 2020 | [Versionshinweise](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur bevorstehenden Vernichtung der Bibliothek &quot;mbox.js&quot;hinzugefügt. |
+|  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Es wurde ein Hinweis hinzugefügt, der in at.js 1 unterstützt `mboxOverride.browserIp` wird.*x*, zur Verfügung. |
+|  | [Versionshinweise](/help/r-release-notes/release-notes.md): 20.2.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
+
 ## Adobe Target Standard/Premium 20.1.1 (4. Februar 2020)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 18. Februar 2020 | [Versionshinweise](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur bevorstehenden Vernichtung der Bibliothek &quot;mbox.js&quot;hinzugefügt. |
-|  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Es wurde ein Hinweis hinzugefügt, dass mboxOverride.browserIp nur in at.js 1 unterstützt wird.*x*. |
 | Februar 4 | [Versionshinweise](/help/r-release-notes/release-notes.md): 20.1.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe Target Standard/Premium 19.10.1 (22. Oktober 2019)
