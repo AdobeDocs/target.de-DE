@@ -1,11 +1,11 @@
 ---
-keywords: at.js-Releases;at.js-Versionen
+keywords: at.js releases;at.js versions
 description: Details zu Änderungen in den verschiedenen Versionen von „at.js“.
 title: „at.js“-Versionsdetails
-subtopic: Erste Schritte
+subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
 
 ---
 
@@ -16,7 +16,7 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 
 >[!IMPORTANT]
 >
->Das Target-Team pflegt nur zwei Versionen von [!DNL at.js] – die aktuelle Version und die zweitneueste Version. Führen Sie bei Bedarf ein Upgrade von [!DNL at.js] durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
+>Das Target-Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 
 ## at.js Version 2.2.0 (10. Oktober 2019)
 
@@ -29,7 +29,7 @@ Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen
    >
    >Aktualisieren Sie Ihre ECID Launch Extension auf Version 4.4, um diese Leistungsverbesserung nutzen zu können.
 
-* at.js Version 2.2 bietet außerdem eine neue Einstellung namens `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration von Target implementiert wird. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client-Seite als auch die Bereitstellungs-API oder ein Target-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden. For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js Version 2.2 bietet außerdem eine neue Einstellung namens `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration von Target implementiert wird. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client-Seite als auch die Bereitstellungs-API oder ein Target-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js Version 1.8.0 (10. Oktober 2019)
 
@@ -243,7 +243,7 @@ at.js Version 1.3.0 ist verfügbar.
 
 [!DNL at.js], Version 1.2.1 ist verfügbar.
 
-* Es wurde ein Problem bei der Verfolgung per Klick auf einen Link mit target="_blank" behoben, das das Öffnen des Links auf einer neuen Registerkarte in Target verhindert hat.
+* Es wurde ein Problem bei der Verfolgung per Klick auf einen Link mit target=&quot;_blank&quot; behoben, das das Öffnen des Links auf einer neuen Registerkarte in Target verhindert hat.
 
 ## „at.js“-Version 1.2.0{#section_1C3A18C595C34B25A14A440D213F3B9C}
 
