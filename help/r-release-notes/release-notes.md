@@ -5,7 +5,7 @@ title: 'Adobe Target-Versionshinweise (aktuell) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -32,12 +32,19 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
 
-## Target Standard/Premium 20.1.1 (4. Februar 2020)
+## Target Standard/Premium 20.2.1 (19. Februar 2020)
 
-Das Target Standard/Premium Release 20.1.1 ist ein Maintenance Release und umfasst Backend-Erweiterungen und -Verbesserungen. Darüber hinaus wurden folgende Fehlerbehebungen vorgenommen:
+>[!IMPORTANT]
+>
+>Siehe Informationen über die Einstellung von &quot;mbox.js&quot;.
 
-* Es wurde ein Fehler behoben, der dazu führte, dass das Feld für den Adobe Analytics-Tracking-Server auf der Seite Ziele und Einstellungen für vorhandene Adobe für Target-Aktivitäten (A4T) leer war. (TGT-35960)
-* Es wurde ein Problem in der Benutzeroberfläche behoben, durch das Ihre Auswahl in der zweiten Dropdownliste beim Erstellen einer Zielgruppe für Kategorieaffinität nicht angezeigt wurde. (TGT-36098)
+Diese Version enthält die folgenden Erweiterungen und Fehlerbehebungen:
+
+* Es wurde ein Fehler behoben, der verhinderte, dass Kunden beim Durchführen einer Katalogsuche eine Sammlung auswählen konnten. (TGT-36230)
+* Es wurde ein Problem behoben, durch das Kriterien, die über API erstellt wurden, aber nicht von einer in der Target-Benutzeroberfläche erstellten Aktivität referenziert wurden, fälschlicherweise aus der Benutzeroberfläche gelöscht werden konnten. (TGT-35917)
+* Implementierung von Sicherheitsverbesserungen in Content Security Policy (CSP). (TGT-36190)
+* Es wurde ein Fehler behoben, der dazu führte, dass &quot;NaN%&quot;angezeigt wurde, wenn die prozentuale Attributgewichtung nach links verschoben wurde. (TGT-36211)
+* Lokalisierungsprobleme wurden behoben, sodass der Text der Benutzeroberfläche in verschiedenen Sprachen korrekt angezeigt wird.
 
 ## Zusätzliche Versionshinweise und Versionshinweise
 
