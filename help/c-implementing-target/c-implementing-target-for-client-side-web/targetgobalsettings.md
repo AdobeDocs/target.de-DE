@@ -1,11 +1,11 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetGlobalSettings;globalSettings;global settings;at.js;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle ContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;opt-out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
 description: Informationen zur Funktion targetGlobalSettings() für die Adobe Target-JavaScript-Bibliothek at.js.
 title: Informationen zur Funktion targetGlobalSettings() für die Adobe Target-JavaScript-Bibliothek at.js.
-subtopic: Erste Schritte
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -22,7 +22,7 @@ Folgende Einstellungen können überschrieben werden:
 
 | Einstellungen | Typ | Standardwert | Beschreibung |
 |--- |--- |--- |--- |
-| serverState | Siehe "serverState" unten. | Siehe "serverState" unten. | Siehe "serverState" unten. |
+| serverState | Siehe &quot;serverState&quot; unten. | Siehe &quot;serverState&quot; unten. | Siehe &quot;serverState&quot; unten. |
 | clientCode | Zeichenfolge | In der Oberfläche festgelegter Wert | Steht für den Kunden-Code |
 | serverDomain | Zeichenfolge | In der Oberfläche festgelegter Wert | Steht für den Target-Edge-Server |
 | cookieDomain | Zeichenfolge | Möglichst auf Domäne auf oberster Ebene festlegen | Steht für die Domäne, die beim Speichern von Cookies verwendet wird |
@@ -30,7 +30,9 @@ Folgende Einstellungen können überschrieben werden:
 | Zeitüberschreitung | Nummer | In der Oberfläche festgelegter Wert | Steht für Abfrage-Zeitüberschreitung des Target-Edges |
 | globalMboxAutoCreate | Boolesch | In der Oberfläche festgelegter Wert | Gibt an, ob die globale Mbox-Anfrage gestellt werden soll oder nicht |
 | visitorApiTimeout | Nummer | 2.000 ms = 2 s | Steht für die Anfrage-Zeitüberschreitung der Besucher-API |
-| aktiviert | Boolesch | wahr | Gibt an, ob at.js als Bibliothek aktiviert ist, d. h., ob es Aktionen ausführen soll oder nicht. Der häufigste Anwendungsfall für diese Einstellung ist bei der Deaktivierung von Cookies oder anderen benutzerdefinierten Einstellungen, bei denen die Funktion von at.js deaktiviert würde. |
+| aktiviert | Boolesch | wahr | Wenn diese Option aktiviert ist, wird automatisch eine Target-Anforderung zum Abrufen von Erlebnissen und zur DOM-Manipulation zum Rendern der Erlebnisse ausgeführt. Darüber hinaus können Target-Aufrufe manuell über `getOffer(s)` / `applyOffer(s)`<br>Bei Deaktivierung werden Target-Anfragen nicht automatisch oder manuell ausgeführt |
+| pageLoadEnabled | Boolesch | wahr | Bei Aktivierung werden Erlebnisse automatisch abgerufen, die beim Laden der Seite zurückgegeben werden müssen |
+| viewsEnabled | Boolesch | wahr | Wenn diese Option aktiviert ist, werden Ansichten automatisch abgerufen, die beim Laden der Seite zurückgegeben werden müssen. Ansichten werden in at.js 2 unterstützt.*x*, zur Verfügung |
 | defaultContentHiddenStyle | Zeichenfolge | visibility: hidden | Wird nur für das Umbrechen von Mboxes verwendet, bei denen DIV mit dem Klassennamen „mboxDefault“ eingesetzt wird und die über `mboxUpdate()`, `mboxCreate()` oder `mboxDefine()` ausgeführt werden, um Standardinhalte auszublenden. |
 | defaultContentVisibleStyle | Zeichenfolge | visibility: visible | Wird nur für das Umbrechen von Mboxes verwendet, bei denen DIV mit dem Klassennamen „mboxDefault“ eingesetzt wird und die über `mboxUpdate()`, `mboxCreate()` oder `mboxDefine()` ausgeführt werden, um Standardinhalte oder angewendete Angebote einzublenden. |
 | bodyHiddenStyle | Zeichenfolge | body { opacity: 0 } | Wird nur verwendet, wenn `globalMboxAutocreate === true`, um die Wahrscheinlichkeit eines Flackerns zu minimieren.<br>Weitere Informationen finden Sie unter [Verwaltung von Flackern mit „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
@@ -38,14 +40,14 @@ Folgende Einstellungen können überschrieben werden:
 | imsOrgId | Zeichenfolge | IMS-ORG-ID | Steht für die IMS-ORG-ID |
 | secureOnly | Boolesch | false | Zeigt an, ob at.js nur HTTPS verwenden sollte oder es ermöglicht wird, dass basierend auf dem Seitenprotokoll zwischen HTTP und HTTPS umgeschaltet wird. |
 | overrideMboxEdgeServer | Boolesch | true (true ab at.js, Version 1.6.2) | Zeigt an, ob die Domäne `<clientCode>.tt.omtrdc.net` oder die Domäne `mboxedge<clusterNumber>.tt.omtrdc.net` verwendet werden sollte.<br>Ist dieser Wert wahr, wird die Domäne `mboxedge<clusterNumber>.tt.omtrdc.net` in einem Cookie gespeichert. |
-| overrideMboxEdgeServerTimeout | Nummer | 1860000 =&gt; 31 Minuten | Zeigt die Gültigkeitsdauer des Cookies an, in dem der Wert `mboxedge<clusterNumber>.tt.omtrdc.net` gespeichert wurde. |
+| overrideMboxEdgeServerTimeout | Nummer | 1860000 => 31 Minuten | Zeigt die Gültigkeitsdauer des Cookies an, in dem der Wert `mboxedge<clusterNumber>.tt.omtrdc.net` gespeichert wurde. |
 | optoutEnabled | Boolesch | false | Zeigt an, ob Target die Besucher-API-Funktion `isOptedOut()` aufrufen sollte. Diese Funktion ist Teil der Aktivierung für Gerätediagramme. |
 | selectorsPollingTimeout | Nummer | 5000 ms = 5 s | In at.js 0.9.6 führte Target diese neue Einstellung ein, die über `targetGlobalSettings` außer Kraft gesetzt werden kann.<br>`selectorsPollingTimeout` gibt an, wie lange der Kunde bereit ist, darauf zu warten, dass sämtliche über Selektoren identifizierten Elemente auf der Seite angezeigt werden.<br>Über Visual Experience Composer (VEC) erstellte Aktivitäten haben Angebote, die Selektoren enthalten. |
 | dataProviders | Siehe „Datenanbieter“ unten. | Siehe „Datenanbieter“ unten. | Siehe „Datenanbieter“ unten. |
 
 ## Nutzung {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Diese Funktion kann definiert werden, bevor at.js geladen wird, oder alternativ unter **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Implementierung]** &gt; **[!UICONTROL at.js-Einstellungen bearbeiten]** &gt; **[!UICONTROL Codeeinstellungen]** &gt; **[!UICONTROL Bibliothekskopfzeile]**.
+Diese Funktion kann definiert werden, bevor at.js geladen wird, oder alternativ unter **[!UICONTROL Einrichten]** > **[!UICONTROL Implementierung]** > **[!UICONTROL at.js-Einstellungen bearbeiten]** > **[!UICONTROL Codeeinstellungen]** > **[!UICONTROL Bibliothekskopfzeile]**.
 
 Die Bibliothekskopfzeile ermöglicht es Ihnen, JavaScript ohne Formvorgabe zu verwenden. Der Anpassungscode sollte dem folgenden Beispiel ähneln:
 
@@ -180,7 +182,7 @@ Beachten Sie Folgendes, wenn Sie die Einstellung `dataProviders` verwenden.
 
 ### Voraussetzungen
 
-Sie müssen eine hybride Integration von haben [!DNL Target].
+Sie müssen über eine Hybridintegration von verfügen [!DNL Target].
 
 * **Serverseitig**:  Sie müssen die neue [Auslieferungs-API](https://developers.adobetarget.com/api/delivery-api/) oder [Target-SDKs](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)verwenden.
 * **Clientseitig**: Sie müssen [at.js Version 2.2 oder höher](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)verwenden.
@@ -303,11 +305,11 @@ Consider the following when using `serverState`:
 
    * **Hinweis**:  Derzeit werden auf der Serverseite abgerufene Mboxes in nicht unterstützt `serverState`.
 
-* Beim Anwenden von `serverState `Angeboten berücksichtigt at.js `pageLoadEnabled` und `viewsEnabled` Einstellungen, z. B. werden keine Seitenladereservices angewendet, wenn die `pageLoadEnabled` Einstellung "false"ist.
+* Beim Anwenden von `serverState `Angeboten berücksichtigt at.js `pageLoadEnabled` und `viewsEnabled` Einstellungen, z. B. werden keine Seitenladereservices angewendet, wenn die `pageLoadEnabled` Einstellung &quot;false&quot;ist.
 
-   Um diese Einstellungen zu aktivieren, aktivieren Sie den Umschalter unter **[UICONTROL-Einstellungen &gt; Implementierung &gt; Einstellungen bearbeiten &gt; Seitenladeaktivierung]**.
+   Um diese Einstellungen zu aktivieren, aktivieren Sie den Umschalter unter **[UICONTROL-Einstellungen > Implementierung > Einstellungen bearbeiten > Seitenladeaktivierung]**.
 
-   ![Einstellungen für "Seitenladeaktivierung"](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+   ![Einstellungen für &quot;Seitenladeaktivierung&quot;](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
 ### Zusätzliche Ressourcen
 
