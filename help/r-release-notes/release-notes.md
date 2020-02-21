@@ -5,7 +5,7 @@ title: 'Adobe Target-Versionshinweise (aktuell) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 
 ---
 
@@ -33,6 +33,31 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
    >
 * Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
+
+## Adobe Experience Cloud-Navigation (22. Februar 2019)
+
+* Wenn Sie sich beim [!DNL Adobe Experience Cloud]System anmelden, werden Sie zur neuen Kopfzeilennavigation geleitet. Es sieht sehr ähnlich wie die vorherige Navigation mit der schwarzen Leiste oben aus, bietet jedoch die folgenden Verbesserungen:
+
+   * Einfacherer Wechsel zwischen [!DNL Identity Management System] (IMS-)Organisationen oder zu einer anderen Lösung.
+   * Verbesserte Benutzerhilfe: Zu den Suchergebnissen gehören die Ergebnisse der [!DNL Target] Produktdokumentation sowie Community-Foren und weitere Videoinhalte, sodass Sie leichter auf weitere Inhalte zugreifen können, um das Beste zu erzielen [!DNL Target]. Wir haben auch einen Feedback-Mechanismus direkt im Menü [!UICONTROL Hilfe] hinzugefügt, der es einfacher macht, Probleme zu melden oder Ideen auszutauschen.
+
+   * Verbesserte Feedback-Funktion für Net Promoter Score (NPS), sodass der Umfragemodus Ihren Arbeitsablauf nicht stört.
+   * Verbesserter Anmeldefluss. Bisher wurden alle [!DNL Target] Kunden auf der Target-Einstiegsseite gelandet, nachdem sie auf das [!DNL Target] Symbol in der Kopfzeile geklickt hatten. Auf dieser Seite konnten Kunden dann fortfahren, [!DNL Target Standard/Premium], [!DNL Search&Promote]oder [!DNL Recommendations Classic], wie unten dargestellt:
+
+      ![Landingpage](/help/r-release-notes/assets/landing.png)
+
+      Wir haben diese Landingpage für alle unsere Kunden eliminiert. Sie gelangen jetzt immer direkt zur Seite &quot; [!UICONTROL Aktivitätenliste] &quot;, indem Sie auf das [!DNL Target] Symbol in der neuen Kopfzeile der Navigationsleiste klicken.
+
+      Wenn Sie [!DNL Recommendations Classic]diese verwenden, können Sie entweder direkt zur Lösung wechseln oder über den Kurzlink, der auf der Registerkarte &quot; [!UICONTROL Recommendations] &quot;erstellt wurde, wie nachfolgend gezeigt:
+
+      ![Recs Classic Deep-Link](/help/r-release-notes/assets/recs-classic.png)
+
+      Wenn Sie [!DNL Search&Promote]diese verwenden, müssen Sie direkt zur [Search&amp;Promote-URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1) wechseln. Der Pfad, der von innen [!DNL Search&Promote] von [!DNL Adobe Target] zu erreichen ist, wurde vollständig entfernt.
+
+   * Benachrichtigungen für [!DNL Target] sind derzeit nicht in der Dropdown-Liste [!UICONTROL Benachrichtigungen] in der Kopfzeile verfügbar.
+   >[!NOTE]
+   >
+   >Bei der Einführung der neuen Navigationsleiste werden Sie auch einige URL-Änderungen feststellen. Alle vorherigen mit Lesezeichen versehenen Links funktionieren weiterhin, aber wir empfehlen Ihnen, neue Links mit Lesezeichen zu versehen, um das Öffnen zu beschleunigen.
 
 ## Target Standard/Premium 20.2.1 (19. Februar 2020)
 
