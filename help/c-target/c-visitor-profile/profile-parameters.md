@@ -5,7 +5,7 @@ title: Profilattribute in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
+source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 ---
 
@@ -120,16 +120,17 @@ Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verf
 * Berücksichtigen Sie nicht nur die individuelle Skriptperformance, sondern auch die Performance aller Skripte. Als Best Practice empfehlen wir insgesamt weniger als 5.000 Anweisungen. Sie müssen jedoch nicht die einzelnen Anweisungen zählen, sondern nur beachten, dass Skripte mit einer Größe von über 2 KB automatisch deaktiviert werden. Es gibt keine feste Grenze für die Anzahl ausgeführter Skripte, jedoch wird jedes Skript mit jedem einzelnen Mbox-Aufruf ausgeführt. Führen Sie also nur so viele Skripte aus wie nötig.
 * Bei einem Regex ist fast nie Punkt-Stern am Beginn (z. B.: `/.*match/`, `/a|.*b/`) erforderlich. Die Regex-Suche beginnt auf allen Positionen in einer Zeichenfolge (außer wenn durch `^` begrenzt), sodass Punkt-Stern bereits vorausgesetzt wird. Die Skriptausführung kann unterbrochen werden, wenn ein solcher Regex mit langen Eingabedaten abgeglichen wird (kann auch mehrere hundert Zeichen lang sein).
 * Schlägt alles fehl, verpacken Sie das Skript in einer try/catch-Anweisung.
-* Empfehlungen zur Beschränkung der Profilskriptkomplexität: Profilskripte können eine begrenzte Anzahl von Anweisungen ausführen.
+* Empfehlungen zur Beschränkung der Profilskriptkomplexität.
+
+    Profilskripte können eine begrenzte Anzahl von Anweisungen ausführen.
 
    Als Best Practice:
 
    * Halten Sie Profilskripte klein und so einfach wie möglich.
-   * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur sehr einfache reguläre Ausdrücke. Sogar einfache Ausdrücke können eine Menge Anweisungen zur Bewertung benötigen.
+   * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur sehr einfache reguläre Ausdrücke. Sogar einfache Ausdrücke können viele Anweisungen zur Bewertung benötigen.
    * Rekursion vermeiden.
-   Profilskripte sollten vor dem Hinzufügen zu Target einem Leistungstest unterzogen werden. Alle Profilskripte werden bei jeder mbox-Anfrage ausgeführt. Wenn Profilskripte nicht korrekt ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger. Dies könnte sich auf Traffic und Umrechnung auswirken.
-
-   Wenn Profilskripte zu komplex werden, sollten Sie stattdessen Antwort-Token verwenden.
+   * Profilskripte sollten vor dem Hinzufügen zu Target einem Leistungstest unterzogen werden. Alle Profilskripte werden bei jeder mbox-Anfrage ausgeführt. Wenn Profilskripte nicht korrekt ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger, was sich möglicherweise auf Traffic und Konversion auswirkt.
+   * Wenn Profilskripte zu komplex werden, sollten Sie stattdessen [Antwort-Token](/help/administrating-target/response-tokens.md) verwenden.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
