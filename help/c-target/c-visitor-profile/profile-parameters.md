@@ -5,7 +5,7 @@ title: Profilattribute in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
 
 ---
 
@@ -34,10 +34,6 @@ Definieren Sie ein Profilskriptattribut mit dem zu diesem gehörigen JavaScript-
 Mithilfe von Profilskripten können Sie Besucherattribute über mehrere Besuche hinweg erfassen. Profilskripte sind Code-Snippets, die in Target festgelegt werden und eine Form serverseitigen JavaScript verwenden. Beispielsweise könnten Sie ein Profilskript verwenden, um aufzuzeichnen, wie oft ein Besucher auf Ihre Seite kommt und wann er sie zuletzt aufgerufen hat.
 
 Profilskripte sind nicht das Gleiche wie Profilparameter. Profilparameter zeichnen mit der Implementierung des Mbox-Codes von Target Benutzerdaten auf.
-
->[!NOTE]
->
->[!DNL Target] hat maximal 1.000 Profilskripte pro Konto.
 
 ## Profilskripte erstellen {#section_CB02F8B97CAF407DA84F7591A7504810}
 
@@ -124,6 +120,17 @@ Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verf
 * Berücksichtigen Sie nicht nur die individuelle Skriptperformance, sondern auch die Performance aller Skripte. Als Best Practice empfehlen wir insgesamt weniger als 5.000 Anweisungen. Sie müssen jedoch nicht die einzelnen Anweisungen zählen, sondern nur beachten, dass Skripte mit einer Größe von über 2 KB automatisch deaktiviert werden. Es gibt keine feste Grenze für die Anzahl ausgeführter Skripte, jedoch wird jedes Skript mit jedem einzelnen Mbox-Aufruf ausgeführt. Führen Sie also nur so viele Skripte aus wie nötig.
 * Bei einem Regex ist fast nie Punkt-Stern am Beginn (z. B.: `/.*match/`, `/a|.*b/`) erforderlich. Die Regex-Suche beginnt auf allen Positionen in einer Zeichenfolge (außer wenn durch `^` begrenzt), sodass Punkt-Stern bereits vorausgesetzt wird. Die Skriptausführung kann unterbrochen werden, wenn ein solcher Regex mit langen Eingabedaten abgeglichen wird (kann auch mehrere hundert Zeichen lang sein).
 * Schlägt alles fehl, verpacken Sie das Skript in einer try/catch-Anweisung.
+* Empfehlungen zur Beschränkung der Profilskriptkomplexität: Profilskripte können eine begrenzte Anzahl von Anweisungen ausführen.
+
+   Als Best Practice:
+
+   * Halten Sie Profilskripte klein und so einfach wie möglich.
+   * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur sehr einfache reguläre Ausdrücke. Sogar einfache Ausdrücke können eine Menge Anweisungen zur Bewertung benötigen.
+   * Rekursion vermeiden.
+   Profilskripte sollten vor dem Hinzufügen zu Target einem Leistungstest unterzogen werden. Alle Profilskripte werden bei jeder mbox-Anfrage ausgeführt. Wenn Profilskripte nicht korrekt ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger. Dies könnte sich auf Traffic und Umrechnung auswirken.
+
+   Wenn Profilskripte zu komplex werden, sollten Sie stattdessen Antwort-Token verwenden.
+
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## Profilskripte zum Testen von sich gegenseitig ausschließenden Aktivitäten {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
