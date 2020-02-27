@@ -5,7 +5,7 @@ title: Beschränkungen
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
+source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 ---
 
@@ -192,9 +192,7 @@ Eine längere Zeichenfolge wird vom System begrenzt.
 
 **Empfohlene Obergrenze für Profilskripte pro Konto**: 2.000
 
-**Empfehlungen zur Beschränkung der Profilskriptkomplexität**: Profilskripte können eine begrenzte Anzahl von Anweisungen ausführen. Weitere Informationen finden Sie unter [Bewährte Verfahren](/help/c-target/c-visitor-profile/profile-parameters.md#best) in [Profilattributen](/help/c-target/c-visitor-profile/profile-parameters.md).
-
-**Empfohlenes Limit**: Maximal 500.000 Schleifen pro Profilskript.
+**Empfehlungen zur Beschränkung der Profilskriptkomplexität**: Profilskripte können eine begrenzte Anzahl von Anweisungen ausführen. Weitere Informationen finden Sie unter [Bewährte Verfahren](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profilattributen*.
 
 ## Properties
 
