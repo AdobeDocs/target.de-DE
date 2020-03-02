@@ -5,7 +5,7 @@ title: Profilattribute in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: c408a4c7169c8a94c6c303e54f65391a0869b634
 
 ---
 
@@ -14,18 +14,26 @@ source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 Profilattribute sind Parameter, die speziell für einen Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Aktivitäten verwendet werden können.
 
-Wenn ein Besucher auf Ihrer Website surft oder zu einer anderen Sitzung zurückkehrt, können die gespeicherten Profilattribute genutzt werden, um Zielinhalte festzulegen oder Informationen zur Segmentfilterung zu protokollieren.
+Ein Benutzerprofil enthält demografische und verhaltensbezogene Informationen zu Besuchern einer Webseite, z. B. Alter, Geschlecht, erworbene Produkte, letzte Besuchszeit usw., die Target verwendet, um die Inhalte, die es dem Besucher bereitstellt, zu personalisieren.
 
-Um Profilattribute einzurichten, klicken Sie auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Profilskripte]**.
+Wenn ein Besucher auf Ihrer Website surft oder zu einer anderen Sitzung zurückkehrt, können die gespeicherten Profilattribute im Profil verwendet werden, um Inhalte oder Protokollinformationen für die Segmentfilterung anzugeben.
 
-![Registerkarte „Profilskripte“ ](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+So richten Sie Profilattribute ein:
 
-Die folgenden Typen von Profilattributen sind verfügbar:
+1. Klicken Sie auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Profilskripte.]**
 
-| Parametertyp | Beschreibung |
-|--- |--- |
-| mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Hinweis **: Target erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an Target übergeben müssen, können Sie hierzu die API-Methode Profilupdate nutzen. Weitere Informationen finden Sie unter[Profilupdate in der Dokumentation zur Adobe Target-API](http://developers.adobetarget.com/api/#updating-profiles). |
-| Skript | Direkt mit einem JavaScript-Codebeispiel definiert. Mit diesen können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte können bei jeder Mbox-Anfrage ausgeführt werden. Siehe Profilskriptattribute unten. |
+   ![Registerkarte „Profilskripte“ ](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+
+1. Klicken Sie auf Skript **[!UICONTROL erstellen]**.
+
+   ![Dialogfeld „Profilskript erstellen“](/help/c-target/c-visitor-profile/assets/create-script.png)
+
+   Die folgenden Typen von Profilattributen sind verfügbar:
+
+   | Parametertyp | Beschreibung |
+   |--- |--- |
+   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Hinweis **: Target erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an Target übergeben müssen, können Sie hierzu die API-Methode Profilupdate nutzen. Weitere Informationen finden Sie unter[Profilupdate in der Dokumentation zur Adobe Target-API](http://developers.adobetarget.com/api/#updating-profiles). |
+   | Profil | Direkt mit einem JavaScript-Codebeispiel definiert. Mit diesen können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte können bei jeder Mbox-Anfrage ausgeführt werden. Siehe Profilskriptattribute unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
@@ -43,13 +51,13 @@ Um ein neues Profilskript hinzuzufügen, klicken Sie auf die Registerkarte **[!U
 
 Oder
 
-Um ein vorhandenes Profilskript zu kopieren, halten Sie in der Liste [!UICONTROL Profilskripte] den Mauszeiger über das gewünschte Skript und klicken Sie dann auf das **[!UICONTROL Kopiersymbol]**: (assets/icon_copy.png)
+To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
 
 ![Dialogfeld „Profilskript erstellen“](assets/profile-script.png)
 
-Profilskripte führen Profilattribut-„Fänger“ bei jeder Ortsanforderung aus. Beim Empfang einer Ortsanforderung bestimmt Target, welche Aktivität ausgeführt werden soll, und zeigt den für diese Aktivität und das Erlebnis geeigneten Inhalt an. Das Programm verfolgt den Erfolg der Aktivität und führt relevante Profilskripte aus. Auf diese Weise können Sie Informationen über den Besuch erfassen, z. B. Ort, Tageszeit und Anzahl der Besuche auf der Site, ob zuvor ein Kauf getätigt wurde usw. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können.
+Profilskripte führen Profilattribut-„Fänger“ bei jeder Ortsanforderung aus. Beim Empfang einer Ortsanforderung bestimmt Target, welche Aktivität ausgeführt werden soll, und zeigt den für diese Aktivität und das Erlebnis geeigneten Inhalt an. Das Programm verfolgt den Erfolg der Aktivität und führt relevante Profilskripte aus. Auf diese Weise können Sie Informationen zum Besuch nachverfolgen, z. B. Ort, Tageszeit, Anzahl der Besuche auf der Site, ggf. frühere Einkäufe usw. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können.
 
 Profilskriptattribute haben das `user.`-Tag vor dem Attributnamen eingefügt. Beispiel:
 
@@ -60,6 +68,8 @@ if (mbox.name == 'Track_Interest') {
     } 
 }
 ```
+
+Beachten Sie die folgenden Informationen:
 
 * Siehe Profilskriptattribute (auch das im Code enthaltene) im Code mit `user.get('parameterName')`.
 * Speichern Sie Variablen, die beim nächsten Ausführen des Skripts (bei der nächsten mbox-Anfrage) aufgerufen werden könnten, mit `user.setLocal('variable_name', 'value')`. Verweisen Sie auf die Variable mit `user.getLocal('variable_name')`. Dies ist hilfreich in Situationen, in denen Sie einen Verweis für Datum und Uhrzeit der letzten Anfrage setzen möchten.
@@ -87,10 +97,9 @@ Die Registerkarte [!UICONTROL Nutzung von Skripten] enthält die Aktivitäten (u
 > * Die in der Aktivität verwendeten Inhalte oder Angebote verwenden Skriptvariablen (entweder ein Inline-Angebot innerhalb der Aktivität oder ein Angebot in der Angebotsbibliothek).
 
 
-
 ## Target deaktiviert in bestimmten Situationen Profilskripte {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-[!DNL Target] deaktiviert in bestimmten Situationen automatisch Profilskripte, beispielsweise wenn diese für die Ausführung zu lang sind oder über zu viele Anweisungen verfügen.
+[!DNL Target] deaktiviert Profilskripte in bestimmten Situationen automatisch, z. B. wenn die Ausführung zu lange dauert oder zu viele Anweisungen vorliegen.
 
 Wird ein Profilskript deaktiviert, erscheint in der Target-Benutzeroberfläche neben dem betroffenen Skript ein gelbes Warnsymbol, wie unten dargestellt:
 
@@ -111,25 +120,23 @@ Typische Gründe für die Deaktivierung von Profilskripten durch das System sind
 
 Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verfassen, die möglichst fehlerfrei sind. Sie können Code schreiben, der so fehlschlägt, dass die Skripts ohne erzwungenes Beenden des Skripts durch das System verarbeitet werden. Diese Leitlinien sind das Ergebnis der Best Practices, die für eine effiziente Funktionsweise nachgewiesen wurden. Diese Richtlinien gelten neben den Grundsätzen und Empfehlungen der Rhino-Entwicklungsgemeinde.
 
-* Setzen Sie den aktuellen Skriptwert auf eine lokale Variable im Benutzerskript, und legen Sie einen Failover im leeren String fest.
+* Stellen Sie den aktuellen Skriptwert auf eine lokale Variable im Benutzerskript ein, und legen Sie einen Failover auf eine leere Zeichenfolge fest.
 * Validieren Sie die lokale Variable, indem Sie sicherstellen, dass sie kein leerer String ist.
-* Verwenden Sie die stringbasierten Manipulationsfunktionen oder regulären Ausdrücke.
+* Verwenden Sie stringbasierte Manipulationsfunktionen im Vergleich zu regulären Ausdrücken.
 * Verwenden Sie limited for- bzw. open ended for-Schleifen oder while-Schleifen.
 * Halten Sie die Vorgabe von maximal 1.300 Zeichen bzw. 50 Schleifeniterationen ein.
 * Überschreiten Sie nicht die Maximalzahl von 2.000 JavaScript-Anweisungen. Target verfügt über einen Maximalwert von 2.000 JavaScript-Anweisungen pro Skript, die Anzahl kann jedoch nicht einfach durch manuelles Lesen des JavaScript bestimmt werden. Rhino beispielsweise behandelt alle Funktionsaufrufe und „neuen“ Aufrufe als 100 Anweisungen. Außerdem kann sich die Größe der eingegebenen Daten (beispielsweise der URL-Werte) auf die Anzahl der Anweisungen auswirken.
 * Berücksichtigen Sie nicht nur die individuelle Skriptperformance, sondern auch die Performance aller Skripte. Als Best Practice empfehlen wir insgesamt weniger als 5.000 Anweisungen. Sie müssen jedoch nicht die einzelnen Anweisungen zählen, sondern nur beachten, dass Skripte mit einer Größe von über 2 KB automatisch deaktiviert werden. Es gibt keine feste Grenze für die Anzahl ausgeführter Skripte, jedoch wird jedes Skript mit jedem einzelnen Mbox-Aufruf ausgeführt. Führen Sie also nur so viele Skripte aus wie nötig.
 * Bei einem Regex ist fast nie Punkt-Stern am Beginn (z. B.: `/.*match/`, `/a|.*b/`) erforderlich. Die Regex-Suche beginnt auf allen Positionen in einer Zeichenfolge (außer wenn durch `^` begrenzt), sodass Punkt-Stern bereits vorausgesetzt wird. Die Skriptausführung kann unterbrochen werden, wenn ein solcher Regex mit langen Eingabedaten abgeglichen wird (kann auch mehrere hundert Zeichen lang sein).
 * Schlägt alles fehl, verpacken Sie das Skript in einer try/catch-Anweisung.
-* Empfehlungen zur Beschränkung der Profilskriptkomplexität.
-
-    Profilskripte können eine begrenzte Anzahl von Anweisungen ausführen.
+* Die folgenden Empfehlungen helfen Ihnen, die Komplexität von Profilskripten zu begrenzen.  Profilskripte können eine begrenzte Anzahl von Anweisungen ausführen.
 
    Als Best Practice:
 
    * Halten Sie Profilskripte klein und so einfach wie möglich.
    * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur sehr einfache reguläre Ausdrücke. Sogar einfache Ausdrücke können viele Anweisungen zur Bewertung benötigen.
    * Rekursion vermeiden.
-   * Profilskripte sollten vor dem Hinzufügen zu Target einem Leistungstest unterzogen werden. Alle Profilskripte werden bei jeder mbox-Anfrage ausgeführt. Wenn Profilskripte nicht korrekt ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger, was sich möglicherweise auf Traffic und Konversion auswirkt.
+   * Profilskripte sollten vor dem Hinzufügen zu Target einem Leistungstest unterzogen werden. Alle Profilskripte werden bei jeder mbox-Anfrage ausgeführt. Wenn Profilskripte nicht korrekt ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger. Dies könnte sich auf Traffic und Umrechnung auswirken.
    * Wenn Profilskripte zu komplex werden, sollten Sie stattdessen [Antwort-Token](/help/administrating-target/response-tokens.md) verwenden.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -140,12 +147,12 @@ Mithilfe von Profilattributen können Sie Tests zum Vergleich mehrerer Aktivitä
 
 Hierdurch wird verhindert, dass ein Besucher einer Aktivität die Testergebnisse der anderen Aktivitäten beeinflusst. Wenn ein Besucher an mehreren Aktivitäten teilnimmt, ist es oft schwierig festzustellen, ob die positiven oder negativen Änderungen auf das Erlebnis des Besuchers in einer Aktivität zurückzuführen sind oder ob die Ergebnisse einer oder mehrerer Aktivitäten durch die Interaktionen zwischen den Aktivitäten beeinflusst wurden.
 
-So können Sie zum Beispiel zwei Bereiche Ihres E-Commerce-Systems testen. Vielleicht möchten Sie testen, welche Auswirkungen die Änderung der Farbe der Schaltfläche „Zum Warenkorb hinzufügen“ von blau auf rot hat. Vielleicht möchten Sie einen neuen Checkout-Prozess testen, der anstelle von fünf nur noch aus zwei Schritten besteht. Wenn bei beiden Aktivitäten das Erfolgserlebnis gleich ist (ein getätigter Kauf), ist es womöglich schwierig festzustellen, ob die Konversionsverbesserungen auf die rote Schaltfläche oder den optimierten Checkout-Prozess zurückzuführen sind. Durch Trennung der Tests in zwei sich gegenseitig ausschließende Aktivitäten können Sie jede Veränderung einzeln prüfen.
+So können Sie zum Beispiel zwei Bereiche Ihres E-Commerce-Systems testen. Sie können testen, ob Sie die Schaltfläche &quot;Zum Warenkorb hinzufügen&quot;rot anstelle von blau gestalten möchten. Vielleicht möchten Sie einen neuen Checkout-Prozess testen, der anstelle von fünf nur noch aus zwei Schritten besteht. Wenn beide Aktivitäten dasselbe Erfolgsereignis aufweisen (ein abgeschlossener Kauf), kann es schwierig sein, festzustellen, ob die rote Schaltfläche die Konversionen verbessert oder ob dieselben Konversionen auch aufgrund des verbesserten Checkout-Prozesses erhöht wurden. Durch Trennung der Tests in zwei sich gegenseitig ausschließende Aktivitäten können Sie jede Veränderung einzeln prüfen.
 
 Beachten Sie die folgenden Informationen, wenn Sie eines der folgenden Profilskripte verwenden:
 
 * Das Profilskript muss ausgeführt werden, bevor die Aktivität gestartet wird, und das Skript muss unverändert bleiben, während die Aktivität ausgeführt wird.
-* Durch diese Methode wird die Traffic-Menge in der Aktivität reduziert, wodurch die Aktivität möglicherweise länger ausgeführt wird. Sie müssen diesen Umstand berücksichtigen, wenn Sie die Dauer der Aktivität schätzen.
+* Durch diese Technik wird der Traffic in der Aktivität reduziert, was möglicherweise eine längere Aktivität erfordert. Sie müssen diesen Umstand berücksichtigen, wenn Sie die Dauer der Aktivität schätzen.
 
 ### Einrichten von zwei Aktivitäten
 
@@ -162,17 +169,17 @@ if (!user.get('twogroups')) {
 }
 ```
 
-`if (!user.get('twogroups'))` bestimmt, ob das Profilattribut *twogroups* für den aktuellen Besucher eingerichtet ist. Falls ja, sind keine weiteren Aktionen erforderlich.
+* `if (!user.get('twogroups'))` bestimmt, ob das Profilattribut *twogroups* für den aktuellen Besucher eingerichtet ist. Falls ja, sind keine weiteren Aktionen erforderlich.
 
-`var ran_number=Math.floor(Math.random() *99)` bezeichnet eine neue Variable namens „ran_number“, legt ihren Wert auf eine Zufallsdezimalzahl zwischen 0 und 1 fest, multipliziert diese mit 99 und rundet sie ab, um einen Bereich von 100 (0–99) zu erstellen. Dies ist nützlich zur Angabe des Prozentsatzes von Besuchern, welche die Aktivität sehen.
+* `var ran_number=Math.floor(Math.random() *99)` bezeichnet eine neue Variable namens „ran_number“, legt ihren Wert auf eine Zufallsdezimalzahl zwischen 0 und 1 fest, multipliziert diese mit 99 und rundet sie ab, um einen Bereich von 100 (0–99) zu erstellen. Dies ist nützlich zur Angabe des Prozentsatzes von Besuchern, welche die Aktivität sehen.
 
-`if (ran_number <= 49)` beginnt mit einer Routine, die bestimmt, zu welcher Gruppe der Besucher gehört. Wird eine Zahl zwischen 0 und 49 ausgegeben, wird der Besucher Gruppe A zugewiesen. Wird eine Zahl zwischen 50 und 99 ausgegeben, wird der Besucher Gruppe B zugewiesen. Welche Aktivität der Besucher angezeigt bekommt, wird durch seine Gruppenzugehörigkeit bestimmt.
+* `if (ran_number <= 49)` beginnt mit einer Routine, die bestimmt, zu welcher Gruppe der Besucher gehört. Wird eine Zahl zwischen 0 und 49 ausgegeben, wird der Besucher Gruppe A zugewiesen. Wird eine Zahl zwischen 50 und 99 ausgegeben, wird der Besucher Gruppe B zugewiesen. Welche Aktivität der Besucher angezeigt bekommt, wird durch seine Gruppenzugehörigkeit bestimmt.
 
-Nachdem Sie das Profilattribut erstellt haben, richten Sie das Targeting der ersten Aktivität auf die gewünschte Population aus, indem Sie die Anforderung aufstellen, dass der Benutzerprofilparameter „user.twogroups“ dem für Gruppe A festgelegten Wert entspricht.
+After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
 
 >[!NOTE]
 >
->Wählen Sie am Seitenanfang eine Mbox aus. Durch den Code wird festgelegt, ob einem Benutzer die Kampagne angezeigt wird. Solange zuerst beim Browser eine Mbox auftritt, kann sie zum Festlegen dieses Werts verwendet werden.
+>Wählen Sie am Seitenanfang eine Mbox aus. Dieser Code bestimmt, ob ein Besucher die Aktivität erfährt. Solange zuerst beim Browser eine Mbox auftritt, kann sie zum Festlegen dieses Werts verwendet werden.
 
 Richten Sie die zweite Kampagne so ein, dass der Benutzerprofilparameter `user.twogroups` dem für Gruppe B festgelegten Wert entspricht.
 
@@ -256,8 +263,7 @@ Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgefü
 
 ## JavaScript-Referenz für Skript-Profilparameter
 
-Einfache JavaScript-Kenntnisse sind erforderlich, um Skript-Profilparameter effektiv
-zu verwenden. Dieser Abschnitt dient als kurze Referenz, um Sie in wenigen Minuten mit dieser Funktionalität vertraut zu machen.
+Für die effektive Verwendung von Skript-Profilparametern ist einfaches Javascript-Wissen erforderlich. Dieser Abschnitt dient als kurze Referenz, um Sie in wenigen Minuten mit dieser Funktionalität vertraut zu machen.
 
 Skript-Profilparameter befinden sich auf der Registerkarte „mboxes/profile“. Sie können Javascript-Programme schreiben, die einen beliebigen Javascript-Typ (Zeichenfolge, Ganzzahl, Array usw.) zurückgeben.
 
@@ -313,7 +319,6 @@ else if (mbox.param("adobeQA"))
 
 Erstellt eine Variable `adobeQA` zur Verfolgung eines Benutzers für die [Aktivitätsüberprüfung](/help/c-activities/c-activity-qa/activity-qa.md).
 
-
 ### Objekte und Methoden
 
 Die folgenden Eigenschaften und Methoden können durch Skript-Profilparameter referenziert werden:
@@ -322,7 +327,7 @@ Die folgenden Eigenschaften und Methoden können durch Skript-Profilparameter re
 | --- | --- |
 | `page.url` | Die aktuelle URL |
 | `page.protocol` | Das für die Seite verwendete Protokoll (http oder https). |
-| page.domain | Die aktuelle URL-Domäne (alles vor dem ersten Schrägstrich). Zum Beispiel `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
+| `page.domain` | Die aktuelle URL-Domäne (alles vor dem ersten Schrägstrich). Zum Beispiel `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
 | `page.query` | Die Abfragezeichenfolge für die aktuelle Seite. Alles nach dem „?“. Zum Beispiel `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small` |
 | `page.param(‘<par_name>’)` | Der durch `<par_name>` angegebene Wert des Parameters. Wenn Ihre aktuelle URL die Google-Suchseite ist und Sie `page.param('hl')` eingegeben haben, erhalten Sie „en“ für die URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Derselbe Satz an Vorgängen wie oben wird für Referrer und Landingpage angewendet (d. h. referrer.url ist die URL-Adresse des Referrers). |
