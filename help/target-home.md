@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target-Produktdokumentation
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 
-**Zuletzt aktualisiert: 21. Februar 2020 ([siehe Änderungen](r-release-notes/doc-change.md))**
+**Zuletzt aktualisiert: 4. März 2020 ([Siehe Änderungen](r-release-notes/doc-change.md))**
 
 In den folgenden Abschnitten finden Sie nützliche Links in diesem Handbuch, die von der vorgesehenen Zielgruppe basierend auf typischen Auftragsfunktionen ausgerichtet wurden:
 
@@ -49,7 +49,7 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 - [Target implementieren](c-implementing-target/implementing-target.md): Erklärt die Implementierung von [!DNL Target] in Websites, mobilen Apps, Einzelseitenapps (SPAs) und iOT/OTT-Plattformen.
 - [Target Server-Side APIs](https://developers.adobetarget.com/api/delivery-api/): Beschreibt die Ressourcen, aus denen die Adobe Target-Bereitstellungs-API besteht.
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Erläutert, wie Target serverseitig bereitgestellt wird. Mit diesem Node.js-SDK können Sie Target mühelos in andere Adobe Experience Cloud-Lösungen integrieren.
-- [Target Java SDK](https://github.com/adobe/target-java-sdk): Erläutert, wie Target serverseitig bereitgestellt wird. Mit diesem Java-SDK können Sie Target problemlos in andere Adobe Experience Cloud-Lösungen integrieren.
+- [Target Java SDK](https://github.com/adobe/target-java-sdk): Erläutert, wie Target serverseitig bereitgestellt wird. Mit diesem Java-SDK können Sie Target mühelos in andere Adobe Experience Cloud-Lösungen integrieren.
 - [Target Recommendations-API](https://developers.adobetarget.com/api/recommendations/): Beschreibt die Ressourcen, aus denen die offizielle Adobe Target Recommendations-API besteht.
 - [Target-Dokumentation zu Adobe.IO](http://developers.adobetarget.com/api/#introduction): Beschreibt die Verwendung der Administrator- und Profil-REST-APIs von Target, die die Adobe.IO-Integration zum Verwalten von Aktivitäten, Zielgruppen, Angeboten, Eigenschaften, Berichten, Mboxes, Umgebungen und Profilen verwenden.
 
