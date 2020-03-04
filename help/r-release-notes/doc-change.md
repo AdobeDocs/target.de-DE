@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a7929ef8070dbe94c43832df915c6b75cd69f0a7
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 4. März | [Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md) | Das gesamte Thema wurde aktualisiert und der Abschnitt &quot;Best Practices&quot;wurde umfassend überarbeitet. |
 | 21. Februar | [Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur neuen Adobe Experience Cloud-Navigation hinzugefügt. |
 | 20. Februar | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Es wurden Informationen zu den folgenden Einstellungen hinzugefügt: `pageLoadEnabled` und `viewsEnabled`. |
 | 19. Februar | [Versionshinweise](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur bevorstehenden Vernichtung der Bibliothek &quot;mbox.js&quot;hinzugefügt. |
@@ -46,7 +47,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 22. Januar 2020 | [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Folgende häufig gestellte Fragen wurden aktualisiert: &quot;Kann ich den Stichprobengrößenrechner verwenden, wenn ich die automatisierte Zuordnung verwende, um abzuschätzen, wie lange die Aktivität dauern wird, um den Gewinner zu ermitteln?&quot; |
 | 15. Januar 2020 | [Zulassen von gemischtem Inhalt in Ihrem Browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Es wurde ein Schulungsvideo und eine Anleitung hinzugefügt, die erklären, wie Sie Ihre Site-Einstellungen aktualisieren, um gemischten Inhalt in der neuesten Version von Chrome zuzulassen. |
 |  | [Feeds](/help/c-recommendations/c-products/feeds.md) | Es wurde ein Hinweis zum Hochladen und Entfernen von Entitäts- und Entitätsattributen hinzugefügt. |
-|  | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Folgende häufig gestellte Fragen wurden hinzugefügt:Was bedeutet die Antwort NO_CONTENT manchmal, die im Content Trace von Recommendations zurückgegeben wird? |
+|  | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: Was bedeutet die Antwort NO_CONTENT manchmal, die im Content Trace von Recommendations zurückgegeben wird? |
 |  | [Erstellen einer Mbox für Auftragsbestätigungen – mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | Es wurde ein Hinweis hinzugefügt, der erklärt, wie eine Auftragsbestätigung mit at.js 2 durchgeführt wird.*x*. |
 | 9. Januar 2020 | [Änderungen der TLS-Verschlüsselung (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Text aktualisiert.<br>Ab dem 1. März 2020 unterstützt Adobe Target keine TLS 1.1-Verschlüsselung mehr für Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), Aktivitätsbereitstellung, APIs usw. Bitte aktualisieren Sie vor dem 1. März 2020 auf TLS 1.2, um Probleme zu vermeiden. |
 | 6. Januar 2020 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde ein bekanntes Problem mit dem Feed-Status Benutzerspezifische Kriterien hinzugefügt. |
@@ -58,7 +59,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Kriterien](/help/c-recommendations/c-algorithms/algorithms.md) | Es wurde ein Hinweis zur Unterstützung der Funktion Kriterienverwendung hinzugefügt. |
 | 5. Dezember 2019 | [Seiten der Site](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Das Thema wurde aktualisiert. |
 | 2. Dezember 2019 | [Standortdienst verwenden](/help/c-target-mobile-app/use-location-service.md) | Neues Thema |
-| 26. November 2019 | [Verwaltung von Flackern mit „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Text in &quot;Verwalten des Flackerns beim asynchronen Laden von at.js&quot;aktualisiert. |
+| 26. November 2019 | [Verwaltung von Flackern mit „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Der Text unter &quot;Verwalten des Flackerns beim asynchronen Laden von at.js&quot;wurde aktualisiert. |
 |  | [Target Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md) | Es wurde ein Link zum Newsletter vom November 2019 hinzugefügt. |
 |  | [Benutzer](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Text und Bilder unter &quot;Rollen und Berechtigungen festlegen&quot;wurden aktualisiert. |
 | 15. November 2019 | [Zehn häufige A/B-Testfallen und wie sie vermieden werden können](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | &quot;Pitfall 7: Änderung der Traffic-Zuordnung während des Testzeitraums.&quot; |
@@ -78,7 +79,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 30. Oktober 2019 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur kommenden Target Premium-Version 19.10.2 (31. Oktober 2019) hinzugefügt. |
 | 29. Oktober 2019 | [Ähnlichkeit von Inhalten](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Es wurde ein Hinweis hinzugefügt. |
 |  | [Vorschau Ihrer Recommendations-Aktivität anzeigen und starten](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | Neues Thema |
-| 25. Oktober 2019 | [Benutzerdefinierte Parameter](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Es wurde ein neuer Artikel unter &quot;Überlegungen&quot;hinzugefügt, der erklärt, dass Targeting nicht anhand interner Mbox-Parameter bewertet wird. |
+| 25. Oktober 2019 | [Benutzerdefinierte Parameter](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Es wurde ein neuer Artikel unter &quot;Überlegungen&quot;hinzugefügt, der erklärt, dass das Targeting nicht anhand interner Mbox-Parameter bewertet wird. |
 |  | [Verwenden dynamischer und statischer Einschlussregeln](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | Das Thema wurde vollständig aktualisiert und veraltete Beispiele wurden entfernt. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Es wurde ein Hinweis-Link zur Target-Bereitstellungs-API-Dokumentation hinzugefügt, der Ihnen hilft, die verfügbaren Typen für Anforderungen/Antworten (Array, Zeichenfolge usw.) zu verstehen. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Es wurde ein Hinweis-Link zur Target-Bereitstellungs-API-Dokumentation hinzugefügt, der Ihnen hilft, die verfügbaren Typen für Anforderungen/Antworten (Array, Zeichenfolge usw.) zu verstehen. |
@@ -106,7 +107,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Versionshinweise - SDK für Target Node.js](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Neues Thema |
 |  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu den Versionen V1/Delivery API und Node.js SDK hinzugefügt. |
 | 8. Oktober 2019 | [Target Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md) | Neues Thema mit Links zum ersten Stapel von Newslettern, mit weiteren Informationen. |
-| 3. Oktober 2019 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde Folgendes hinzugefügt: <ul><li>Bekanntes Problem und Problemumgehung beim Erstellen eines Erlebnisses ohne Änderungen mit at.js 2.*x* -Bibliothek.</li><li>Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche von Target nicht sichtbar und können nur über API bearbeitet werden.</li><li>Recommendations-Aktivitäten, die über API erstellt wurden, können in der Benutzeroberfläche angezeigt werden, können aber nur über API bearbeitet werden.</li></ul> |
+| 3. Oktober 2019 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde Folgendes hinzugefügt: <ul><li>Bekanntes Problem und Problemumgehung beim Erstellen eines Erlebnisses ohne Änderungen mit at.js 2.*x* -Bibliothek.</li><li>Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche von Target nicht sichtbar und können nur über API bearbeitet werden.</li><li>Recommendations-Aktivitäten, die über API erstellt wurden, können in der Benutzeroberfläche angezeigt werden, können jedoch nur über die API bearbeitet werden.</li></ul> |
 |  | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Hinweis zum Abschnitt &quot;mboxDebug&quot;hinzugefügt. |
 | 2. Oktober 2029 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zu kommenden Versionen hinzugefügt. |
 | 1. Oktober 2019 | [Nützliche Variablen, Profile, Parameter und Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Der Text im Abschnitt &quot;Kundenattribute&quot;wurde aktualisiert. |
