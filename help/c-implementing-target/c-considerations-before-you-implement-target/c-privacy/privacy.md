@@ -1,12 +1,12 @@
 ---
-keywords: Übersicht und Referenz
+keywords: Overview and Reference
 description: Adobe Target bietet Prozesse und Einstellungen, die Ihnen die Verwendung von Target unter Einhaltung der geltenden Datenschutzgesetze ermöglichen.
 title: Datenschutz
-subtopic: Erste Schritte
+subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 85b736bb70a46ff06b765cfabaca298d9590edbe
 
 ---
 
@@ -25,9 +25,15 @@ Adobe hat eine neue, in das Design integrierte Datenschutzeinstellung entwickelt
 
 Wenn diese Funktion aktiviert ist, wird die IP-Adresse so stark anonymisiert, dass sie nicht mehr als persönliche Information identifiziert werden kann. Demzufolge kann Adobe Target in Ländern, die kein Erfassen persönlicher Informationen zulassen, unter Einhaltung der Datenschutzgesetze verwendet werden. Das Ermitteln von Information auf Stadtebene wird durch die Verschleierung der IP-Adresse wahrscheinlich merklich beeinträchtigt. Das Ermitteln von Informationen auf Regions- und Landesebene dürfte nur leicht beeinträchtigt sein.
 
-Es ist auch eine Einstellung zur Verschleierung der gesamten IP-Adresse verfügbar.
-
 Wenden Sie sich an Adobe Client Care, um die Funktion zur IP-Verschleierung zu aktivieren.
+
+Die folgenden Einstellungen sind verfügbar:
+
+* Keine Verschleierung: Target blendet keinen Teil der IP-Adresse aus.
+* Letztes Oktett: Target blendet das letzte Oktett der IP-Adresse aus.
+* Vollständige IP: Target blendet die gesamte IP-Adresse aus.
+
+Target empfängt die vollständige IP-Adresse und verschleiert sie (sofern als Letztes Oktett oder Vollständige IP festgelegt) wie angegeben. Target speichert dann die verschleierte IP-Adresse für die Dauer der Sitzung im Speicher.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
