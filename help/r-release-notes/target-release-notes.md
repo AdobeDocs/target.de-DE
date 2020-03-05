@@ -5,7 +5,7 @@ title: Versionshinweise zu Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
 
 ---
 
@@ -55,7 +55,7 @@ Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderu
 * Die folgenden Adobe Analytics-Metriken werden ab der Target-Version März 2020 nicht mehr für Analytics for Target (A4T) unterstützt:
    * averagevisitdepth
    * Bots
-* Die folgenden Metriken werden nicht mehr unterstützt und beim ersten Ändern einer Aktivität, die die Metrik enthält, automatisch in neue Versionen derselben Metrik konvertiert:
+* Die folgenden Metriken werden nicht mehr unterstützt und beim ersten Ändern einer Aktivität, die die Metrik enthält, automatisch in neue Versionen der Metrik konvertiert:
 
    | Veraltete Metrik | Neue Metrik |
    |--- |--- |
