@@ -5,7 +5,7 @@ title: Versionshinweise zu Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 
 ---
 
@@ -39,7 +39,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
    Indem wir alle Kunden zu at.js verschieben, können unsere Ingenieure und Support-Mitarbeiter Ihnen neue Funktionen anbieten und Ihnen den Support anbieten, den Sie von Adobe erwarten.
 
 
-## Target Standard/Premium 20.2.1 (3. März 2020) 
+## Target Standard/Premium 20.2.1 (9. März 2020) 
 
 >[!IMPORTANT]
 >
