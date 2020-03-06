@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
 
 ---
 
@@ -25,8 +25,6 @@ Adobe hat eine neue, in das Design integrierte Datenschutzeinstellung entwickelt
 
 Wenn diese Funktion aktiviert ist, wird die IP-Adresse so stark anonymisiert, dass sie nicht mehr als persönliche Information identifiziert werden kann. Demzufolge kann Adobe Target in Ländern, die kein Erfassen persönlicher Informationen zulassen, unter Einhaltung der Datenschutzgesetze verwendet werden. Das Ermitteln von Information auf Stadtebene wird durch die Verschleierung der IP-Adresse wahrscheinlich merklich beeinträchtigt. Das Ermitteln von Informationen auf Regions- und Landesebene dürfte nur leicht beeinträchtigt sein.
 
-Wenden Sie sich an Adobe Client Care, um die Funktion zur IP-Verschleierung zu aktivieren.
-
 Die folgenden Einstellungen sind verfügbar:
 
 * Keine Verschleierung: Target blendet keinen Teil der IP-Adresse aus.
@@ -34,6 +32,10 @@ Die folgenden Einstellungen sind verfügbar:
 * Vollständige IP: Target blendet die gesamte IP-Adresse aus.
 
 Target empfängt die vollständige IP-Adresse und verschleiert sie (sofern als Letztes Oktett oder Vollständige IP festgelegt) wie angegeben. Target speichert dann die verschleierte IP-Adresse für die Dauer der Sitzung im Speicher.
+
+>[!NOTE]
+>
+>[Wenden Sie sich an den Adobe ClientCare](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) , um zu ermitteln, welche Einstellung Sie derzeit verwenden, oder um die IP-Verschleierungsfunktion zu aktivieren.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
