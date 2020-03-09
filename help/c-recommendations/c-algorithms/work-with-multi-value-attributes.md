@@ -1,9 +1,9 @@
 ---
-keywords: Multi-Wert;Attribute;Empfehlungen;Mehrwert;Mehrwert
-description: Informationen zum Arbeiten mit einem Feld mit mehreren Werten in Adobe Target Recommendations mithilfe spezieller Operatoren mit mehreren Werten.
-title: Arbeiten mit Attributen mit mehreren Werten in Adobe Target Recommendations
+keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
+description: Informationen zum Arbeiten mit einem Feld mit mehreren Werten in Adobe Zielgruppe Recommendations mithilfe spezieller Operatoren mit mehreren Werten.
+title: Arbeiten mit Attributen mit mehreren Werten in Adobe Zielgruppe Recommendations
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Manchmal möchten Sie mit einem Feld mit mehreren Werten arbeiten. Sehen Sie sich folgende Beispiele an:
 
-* Sie bieten den Benutzern Filme an. Ein Film hat mehrere Schauspieler.
+* Sie können Angebote an Benutzer senden. Ein Film hat mehrere Schauspieler.
 * Sie verkaufen Tickets für Konzerte. Ein Benutzer hat mehrere Lieblingsbands.
 * Du verkaufst Kleidung. Ein Hemd ist in verschiedenen Größen erhältlich.
 
@@ -20,14 +20,24 @@ Um Empfehlungen in diesen Szenarien zu bearbeiten, können Sie Daten mit mehrere
 
 Um Daten mit mehreren Werten [!DNL Recommendations] zu identifizieren, sollten diese wie in den folgenden Codebeispielen als JSON-Array gesendet werden.
 
-## Übergeben eines mbox-Parameters mit mehreren Werten in JavaScript
+## Übergeben eines Parameters mit mehreren Werten in JavaScript
 
 ```
- <!-- pass in the value of mbox parameter “favName” as JSON array -->
-<script type="text/javascript">
-   mboxCreate('myMbox','entity.id=<key>','favName=["a","b","c"]');
-</script>
+function targetPageParams() { 
+  return { 
+    'entity.id':                   '123', 
+    'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
+    'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
+    'entity.event.detailsOnly':     'true', 
+    'excludedIds":                  '[123, 3232, 2323, 4344]', 
+    'orderId":                      '123456', 
+    'orderTotal":                   '195.32', 
+    'productPurchaseId":            '[001,002,003]' 
+  }; 
+}
 ```
+
+Weitere Informationen finden Sie unter [Implementieren von Attributen](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) mit mehreren Werten in *benutzerdefinierten Entitätsattributen*.
 
 ## Übergeben eines Entitätsattributs mit mehreren Werten in einer CSV-Datei
 
@@ -46,7 +56,7 @@ Um Daten mit mehreren Werten [!DNL Recommendations] zu identifizieren, sollten d
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Wenn ein Entitätsattribut, ein Profilattribut oder ein mbox-Parameter gemäß dem oben stehenden Format als Mehrwert bereitgestellt wird, deutet [!DNL Recommendations] dies automatisch darauf hin, dass es sich um ein Feld mit mehreren Werten handelt.
+Wenn ein Entitätsattribut, ein Profil- oder ein mbox-Parameter gemäß dem oben stehenden Format als Mehrwert bereitgestellt wird, deutet [!DNL Recommendations] dies automatisch darauf hin, dass es sich um ein Mehrwert handelt.
 
 Die folgenden Operatoren stehen für Entitäts-, Profil- und Mbox-Attribute mit mehreren Werten zur Verfügung:
 
@@ -57,12 +67,12 @@ Die folgenden Operatoren stehen für Entitäts-, Profil- und Mbox-Attribute mit 
 
 >[!NOTE]
 >
->Die Unterstützung für die dynamische Übereinstimmung mit Attributen mit mehreren Werten ist derzeit nur in Kriterien verfügbar, wenn beim Vergleich eines einzelnen Werts links mit einem Mehrwert rechts eine Übereinstimmungs- oder Parameterattributzuordnungsregel (mbox) verwendet wird. Anfang 2020 wird Unterstützung für Promotions, Entitätsattributzuordnung und für Listen auf der linken Seite der Einschlussregeln verfügbar sein.
+>Die Unterstützung für die dynamische Zuordnung zu Attributen mit mehreren Werten ist derzeit nur in Kriterien verfügbar, wenn beim Vergleich eines Profil-Attributzuweises oder einer Parameterzuordnungsregel (mbox) ein einzelner Wert links mit einem Mehrwert rechts verglichen wird. Anfang 2020 werden Promotions, die Zuordnung von Entitätsattributen und Listen auf der linken Seite der Einschlussregeln unterstützt.
 
 
 ### Beispiel: Zuletzt überwachte Elemente ausschließen
 
-Angenommen, Sie möchten verhindern, dass Filme, die sich in den letzten zehn überwachten Filmen des Benutzers befinden, empfohlen werden. Schreiben Sie zunächst ein Profilskript, das aufgerufen wird, um die letzten zehn angezeigten Filme als JSON-Array `user.lastWatchedMovies` zu verfolgen. Anschließend können Sie die Elemente mithilfe der folgenden Einschlussregel ausschließen:
+Angenommen, Sie möchten verhindern, dass Filme, die sich in den letzten zehn überwachten Filmen des Benutzers befinden, empfohlen werden. Schreiben Sie zunächst ein Profil-Skript, das aufgerufen wird, um die letzten zehn angezeigten Filme als JSON-Array `user.lastWatchedMovies` zu verfolgen. Anschließend können Sie die Elemente mithilfe der folgenden Einschlussregel ausschließen:
 
 ```
 `Profile Attribute Matching`
@@ -84,7 +94,7 @@ JSON API-Darstellung der Einschlussregel:
 
 ### Beispiel: Artikel aus den Favoriten des Benutzers empfehlen
 
-Angenommen, Sie möchten Tickets nur zu Konzerten empfehlen, wenn die Band, die spielt, eine der Lieblingsbands des Benutzers ist. Vergewissern Sie sich zunächst, dass Sie über eine Profilvariable mit dem Namen `profile.favoriteBands` verfügen, die die Lieblingsbänder des Benutzers enthält. Stellen Sie dann sicher, dass Ihr Katalog ein Attribut enthält, `entity.artistPerforming` das den Künstler enthält, der im Konzert auftritt. Anschließend können Sie die folgende Einschlussregel verwenden:
+Angenommen, Sie möchten Tickets nur zu Konzerten empfehlen, wenn die Band, die spielt, eine der Lieblingsbands des Benutzers ist. Vergewissern Sie sich zunächst, dass Sie über eine Profil-Variable mit dem Namen `profile.favoriteBands` verfügen, die die Lieblingsbänder des Benutzers enthält. Stellen Sie dann sicher, dass Ihr Katalog ein Attribut enthält, `entity.artistPerforming` das den Künstler enthält, der im Konzert auftritt. Anschließend können Sie die folgende Einschlussregel verwenden:
 
 ```
 `Profile Attribute Matching`
@@ -106,7 +116,7 @@ JSON API-Darstellung der Einschlussregel:
 
 ### Beispiel: API-Erstellung von Kriterien, die Artikel aus den Favoriten eines Benutzers empfehlen
 
-Kriterien mit Filterregeln mit mehreren Werten können wie alle Kriterien über Adobe-I/O-APIs erstellt werden. Ein Beispiel-API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut in der mbox-Parameterliste enthalten `id` ist, finden Sie hier `favorites` :
+Kriterien mit Filterregeln mit mehreren Werten können wie alle Kriterien über Adobe-I/O-APIs erstellt werden. Ein Beispiel-API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut in der Liste der mbox-Parameter enthalten `id` ist, finden Sie hier `favorites` :
 
 ```
 curl -X POST \
