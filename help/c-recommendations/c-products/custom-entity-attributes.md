@@ -1,10 +1,10 @@
 ---
-keywords: Entitätsattribute mit mehreren Werten; benutzerdefinierte Entitätsattribute; Gültiges JSON; Entitätsattributwert; JSON-Array; mehrere Werte; mehrwertig
+keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Verwenden Sie Entitätsattribute mit einzelnen oder mehreren Werten zur Festlegung weiterer Informationen zu Artikeln in Ihrem Katalog.
 title: Benutzerdefinierte Entitätsattribute
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -21,7 +21,7 @@ Die maximale Länge von benutzerdefinierten Attributen für Einzelwert-Entitäte
 
 Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte enthalten. Jeder einzelne Wert ist auf 100 Zeichen begrenzt. Die Gesamtanzahl der Zeichen für alle Werte muss den Beschränkungen für die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten entsprechen (siehe oben).
 
-## Benutzerdefinierte Entitätsattributwerte  {#section_313331A9F8194A89B5EDD89363018651}
+## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
 
 Benutzerdefinierte Entitätsattribute können einen oder mehrere Werte umfassen. Die Werte der Entitätsattribute werden in der Produktansicht dargestellt.
 
@@ -61,7 +61,7 @@ Wurde ein benutzerdefiniertes Attribut als gültiges JSON-Array übermittelt, wi
 * Arrays müssen einen einzigen Werttyp enthalten. Arrays mit gemischten Werten (`["AB",1,true]`) werden nicht unterstützt.
 * Ein Attribut mit mehreren Werten, das ein verschachteltes JSON-Array (`[10,12,[1,2,3]]`) enthält, wird als Attribut mit einem Wert behandelt.
 
-## Implementieren von Attributen mit mehreren Werten {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 Benutzerdefinierte Entitätsattribute mit mehreren Werten werden unterstützt, wenn Feeds (CSV), `targetPageParams` oder die APIs für Bereitstellung und Speicherung von Entitäten für das Hochladen von Produkten verwendet werden. Alte Werte werden durch neue Werte ersetzt, nicht ergänzt. Leere Arrays ([]) werden wie Arrays ohne Werte behandelt.
 
@@ -109,10 +109,16 @@ Gehen Sie bei der direkten Bearbeitung einer CSV-Katalogdatei im Rohformat vorsi
 
 **Verwenden von APIs**
 
+Sie können Attribute mit mehreren Werten mithilfe der Versand-API in einem mbox-Parameter als Zeichenfolgenwert mit einem Escape-Array übergeben.
+
+```
+"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+```
+
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
 using the Delivery and Save entities APIs.
 
-## Verwenden von Operatoren mit Attributen mit mehreren Werten {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Wenden Sie Operatoren nur für benutzerdefinierte Attribute mit mehreren Werten in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln an, lautet das Ergebnis *true* (wahr), wenn mindestens ein Wert in der Liste die Operation (Boolesches *or*) erfolgreich durchläuft.
 
@@ -144,7 +150,7 @@ In der Tabelle unten finden Sie Informationen zum Verhalten der Operatoren in Al
 >
 >*Double* ist ein Java-Datentyp. Bei Operatoren, für die numerische Werte erforderlich sind, werden bei der Verdoppelung alle Werte aus der Ergebnisberechnung ausgeschlossen, die nicht numerisch sind.
 
-## Attribute mit mehreren Werten in Entwürfen  {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Attribute mit mehreren Werten werden als kommagetrennte Liste aufgeführt, wenn sich in einem Entwurf darauf bezogen wird.
 
