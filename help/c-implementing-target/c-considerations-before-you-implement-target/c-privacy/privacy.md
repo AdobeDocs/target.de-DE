@@ -1,12 +1,12 @@
 ---
-keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations
+keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Adobe Target bietet Prozesse und Einstellungen, die Ihnen die Verwendung von Target unter Einhaltung der geltenden Datenschutzgesetze ermöglichen.
 title: Datenschutz
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -27,11 +27,11 @@ Wenn diese Funktion aktiviert ist, wird die IP-Adresse so stark anonymisiert, da
 
 Die folgenden Einstellungen sind verfügbar:
 
-* Keine Verschleierung: Target blendet keinen Teil der IP-Adresse aus.
-* Letztes Oktett: Target blendet das letzte Oktett der IP-Adresse aus.
-* Vollständige IP: Target blendet die gesamte IP-Adresse aus.
+* Keine Verschleierung: Zielgruppe verdeckt keinen Teil der IP-Adresse.
+* Letztes Oktett: Zielgruppe verbirgt das letzte Oktett der IP-Adresse.
+* Vollständige IP: Zielgruppe blendet die gesamte IP-Adresse aus.
 
-Target empfängt die vollständige IP-Adresse und verschleiert sie (sofern als Letztes Oktett oder Vollständige IP festgelegt) wie angegeben. Target speichert dann die verschleierte IP-Adresse für die Dauer der Sitzung im Speicher.
+Zielgruppe empfängt die vollständige IP-Adresse und verschleiert sie (sofern auf Letztes Oktett oder Vollständige IP festgelegt) wie angegeben. Zielgruppe speichert dann die verschleierte IP-Adresse während der Sitzungsdauer im Speicher.
 
 >[!NOTE]
 >
