@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: 759bd27a43cf831441d44b1d5c6b1f05f1d505d8
 
 ---
 
@@ -23,7 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Benutzerdefinierte Entitätsattribute](/help/c-recommendations/c-products/custom-entity-attributes.md) | Codebeispiel in *Verwenden von APIs* unter *Implementieren von Attributen* mit mehreren Werten hinzugefügt. |
 |  | [Versionshinweise](/help/r-release-notes/release-notes.md) | Das Veröffentlichungsdatum wurde auf den 9. März geändert. |
 | 4. März | [Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md) | Das gesamte Thema wurde aktualisiert und der Abschnitt &quot;Best Practices&quot;wurde umfassend überarbeitet. |
-|  | [Versionshinweise](/help/r-release-notes/release-notes.md) | Das Veröffentlichungsdatum wurde auf den 9. März geändert. |
+|  | [Versionshinweise](/help/r-release-notes/release-notes.md) | Es wurde angegeben, dass dieses Veröffentlichungsdatum noch nicht ermittelt wurde. |
 |  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu veralteten und geänderten Metriken bei Verwendung von Zielgruppe für Analytics (A4T) hinzugefügt. |
 | 21. Februar | [Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur neuen Adobe Experience Cloud-Navigation hinzugefügt. |
 | 20. Februar | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Es wurden Informationen zu den folgenden Einstellungen hinzugefügt: `pageLoadEnabled` und `viewsEnabled`. |
