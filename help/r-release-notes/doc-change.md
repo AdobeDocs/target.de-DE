@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 759bd27a43cf831441d44b1d5c6b1f05f1d505d8
+source-git-commit: f26423b4f34ce824383da181deec3a87a7b62cc6
 
 ---
 
@@ -21,7 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | März 9 | [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Es wurden weitere Informationen im Abschnitt &quot;Ersetzen des letzten Oktetts von IP-Adressen&quot;hinzugefügt. |
 |  | [Arbeiten mit Attributen mit mehreren Werten](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Codebeispiel in *Übergeben eines Parameters mit mehreren Werten in JavaScript* aktualisiert. |
 |  | [Benutzerdefinierte Entitätsattribute](/help/c-recommendations/c-products/custom-entity-attributes.md) | Codebeispiel in *Verwenden von APIs* unter *Implementieren von Attributen* mit mehreren Werten hinzugefügt. |
-|  | [Versionshinweise](/help/r-release-notes/release-notes.md) | Das Veröffentlichungsdatum wurde auf den 9. März geändert. |
+|  | [Versionshinweise](/help/r-release-notes/release-notes.md) | Es wurde angegeben, dass das Datum dieser Version noch nicht ermittelt wurde. |
 | 4. März | [Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md) | Das gesamte Thema wurde aktualisiert und der Abschnitt &quot;Best Practices&quot;wurde umfassend überarbeitet. |
 |  | [Versionshinweise](/help/r-release-notes/release-notes.md) | Es wurde angegeben, dass dieses Veröffentlichungsdatum noch nicht ermittelt wurde. |
 |  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu veralteten und geänderten Metriken bei Verwendung von Zielgruppe für Analytics (A4T) hinzugefügt. |
