@@ -4,7 +4,7 @@ description: Laden Sie eine CSV-Datei hoch, um Empfehlungen anzupassen.
 title: Hochladen benutzerdefinierter Kriterien
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -89,9 +89,9 @@ Im Folgenden finden Sie mögliche Fehlermeldungen, die Sie erhalten können, wen
 | Verzeichnis nicht gefunden | Geben Sie ein Verzeichnis an, das auf dem Server existiert. |
 | Datei nicht gefunden | Geben Sie den Namen einer Datei an, die auf dem Server im angegebenen Verzeichnis existiert. |
 
-## Schulungsvideo: Kriterien in Recommendations erstellen (12:33) !![Tutorial badge](/help/assets/tutorial.png
+## Schulungsvideo: Kriterien in Recommendations erstellen (12:33) Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
-Dieses Video enthält die folgenden Informationen:
+Dieses Video enthält die folgenden Informationen (Details zum Hochladen benutzerdefinierter Kriterien beginnen um 11:43 Uhr):
 
 * Erstellen von Kriterien
 * Erstellen von Kriteriensequenzen
