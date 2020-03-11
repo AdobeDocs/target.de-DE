@@ -5,7 +5,7 @@ title: 'Adobe Target-Versionshinweise (aktuell) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -34,9 +34,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 * Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
 
-## Zielgruppe Standard/Premium 20.2.1 (zu bestimmen)
-
-Hier finden Sie das genaue Datum, an dem diese Informationen verfügbar werden.
+## Target Standard/Premium 20.2.1 (17. März 2020) 
 
 >[!IMPORTANT]
 >
