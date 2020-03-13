@@ -1,10 +1,10 @@
 ---
-keywords: Target; Berichte; Berichtseinstellungen; Voreinstellung; Target-Vorgabe; Metrik; Zielgruppe; Datumsbereich; Einstellungen; Download; Tabellenansicht; Graphansicht; durchschnittliche Steigerung; Steigerung; Steigerungsgrenzen; Konfidenzintervall; Konfidenz; Ortseinfluss; laufender Durchschnitt; Zählmethodik
+keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Informationen dazu, wie Sie die Elemente festlegen können, die in Berichten aufgeführt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
 title: Berichtseinstellungen
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Informationen dazu, wie Sie die Elemente festlegen können, die in Berichten aufgeführt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
 
-Möchten Sie einen Bericht anzeigen, klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **Berichte[!UICONTROL .]**
+Möchten Sie einen Bericht anzeigen, klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte.]**
 
 ![Benutzeroberfläche für den Bericht](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
@@ -23,9 +23,12 @@ Sie können bis zu zehn verschiedene Voreinstellungen für die Berichte der einz
 
 Sie können auch einzelne Aktivitätsberichte nach Bedarf konfigurieren und als Standardeinstellung oder Favoriten speichern. So wird jedes Mal, wenn Sie den Bericht der entsprechenden Aktivität öffnen, diese Ansicht angezeigt.
 
-**Vor- oder Standardeinstellung erstellen**
+### Vorgabe oder Standardvorgabe erstellen
 
-1. Konfigurieren Sie den Aktivitätsbericht wie gewünscht (Metriken, Datumsbereiche, Zielgruppen, erweiterte Einstellungen usw.).
+1. Konfigurieren Sie den Bericht der Aktivität nach Bedarf.
+
+   Die verfügbaren Einstellungen, einschließlich Metriken, Datumsbereiche, Audiencen, erweiterte Einstellungen usw., werden nachfolgend erläutert.
+
 1. Klicken Sie neben **[!UICONTROL Target-Vorgabe]** auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Als neu speichern]**.
 
    ![Berichtsvorgabe](/help/c-reports/c-report-settings/assets/report_preset-new.png)
@@ -35,16 +38,16 @@ Sie können auch einzelne Aktivitätsberichte nach Bedarf konfigurieren und als 
    ![Dialogfeld für neue Voreinstellung](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. Überprüfen Sie die Informationen in den Abschnitten „Filter“ und „Einstellungen“, um sicherzustellen, dass der Bericht wie gewünscht konfiguriert ist, und geben Sie dann den **[!UICONTROL Vorgabenamen]** (bis zu 50 Zeichen) an.
-1. (Optional) Wenn Sie die Berichtsansicht als Standard oder Favoriten festlegen möchten, aktivieren Sie **[!UICONTROL Als Standardeinstellung festlegen].**
+1. (Optional) Wenn Sie die Berichtsansicht als Standard oder Favoriten festlegen möchten, aktivieren Sie **[!UICONTROL Als Standardeinstellung festlegen]**.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-**Andere Voreinstellung auswählen**
+### Eine andere Vorgabe auswählen
 
-Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Zielvorgabe]aus.**
+Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Zielvorgabe]** aus.
 
 ![Voreinstellungs-Dropdownliste](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
-**Voreinstellung bearbeiten**
+### Voreinstellung bearbeiten
 
 1. Wählen Sie die Voreinstellung aus, die Sie bearbeiten möchten.
 1. Bearbeiten Sie die Berichtskonfiguration wie gewünscht (Metriken, Datumsbereiche, Zielgruppen, erweiterte Einstellungen usw.).
@@ -53,24 +56,24 @@ Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Z
 
    ![Berichtsvorgabe mit Sternchen](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
-1. Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Als neu speichern], um eine neue Vorgabe zu erstellen.**
+1. Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Als neu speichern]**, um eine neue Vorgabe zu erstellen.
 
    Oder
 
-   Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Aktualisieren], um die aktuelle Vorgabe zu ändern.**
+   Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Aktualisieren]**, um die aktuelle Vorgabe zu ändern.
 
    ![Aktualisierung des Berichts](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
-**Voreinstellung löschen**
+### Eine Vorgabe löschen
 
 1. Wählen Sie die Voreinstellung aus, die Sie löschen möchten.
 1. Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Löschen]**.
 
    ![Löschung des Berichts](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. Klicken Sie erneut auf **[!UICONTROL Löschen], um den Löschvorgang zu bestätigen.**
+1. Klicken Sie erneut auf **[!UICONTROL Löschen]**, um den Löschvorgang zu bestätigen.
 
-**Handhabung von Einstellungsfehlern**
+### Vorgabenfehlerverarbeitung
 
 Warnhinweise und Meldungen weisen Sie darauf hin, wenn eine Voreinstellung ungültig ist. Die Hinweise oder Meldungen enthalten Anweisungen zur Auswahl einer anderen Zielgruppe, Metrik oder Hostgruppe oder eines anderen Erlebnisses, um das Problem zu beheben.
 
@@ -80,7 +83,7 @@ Die folgende Liste enthält Beschreibungen zu verschiedenen Situationen, in dene
 * Mindestens eine Metrik wurde gelöscht, ist jedoch noch in der Definition der Voreinstellung enthalten (wenn Sie beispielsweise eine oder mehrere Metriken aus der Aktivität löschen und anschließend neue Metriken hinzufügen).
 * Mindestens eine Hostgruppe wurde gelöscht, ist jedoch noch in der Definition der Voreinstellung enthalten.
 * Mindestens ein Erlebnis wurde gelöscht, ist jedoch noch in der Definition der Voreinstellung enthalten.
-* Eine Voreinstellung weist eine fehlerhafte Semantik auf, da referenzierte Elemente zwar vorhanden sind, aber auf eine Weise aktualisiert wurden, die sich auf die Semantik der Einstellungsdefinition ausgewirkt hat. Gehen Sie beispielsweise von einer Voreinstellung namens „Umsätze über Chrome“ aus. Nach Erstellung der Voreinstellung ändern Sie die Aktivität, damit sie die Konversions- statt der Umsatzmetrik misst. Diese Änderung der Aktivitätsdefinition macht die Definition der Voreinstellung semantisch ungültig.
+* Eine Voreinstellung weist eine fehlerhafte Semantik auf, da referenzierte Elemente zwar vorhanden sind, aber auf eine Weise aktualisiert wurden, die sich auf die Semantik der Einstellungsdefinition ausgewirkt hat. Gehen Sie beispielsweise von einer Voreinstellung namens „Umsätze über Chrome“ aus. Nach Erstellung der Voreinstellung ändern Sie die Aktivität, damit sie die Konversions- statt der Umsatzmetrik misst. Durch dieses Update der Definition der Aktivität wird die voreingestellte Definition semantisch ungültig.
 
 ## Berichtsmetrik {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -92,17 +95,17 @@ Weitere Informationen zum Auswählen mehrerer Metriken für die Anzeige in Beric
 
 ## Zielgruppe {#section_70926EB4618945D9AFF2B0564FF3717B}
 
-Klicken Sie auf die Dropdown-Liste [!UICONTROL Zielgruppe], um die angezeigte [Zielgruppe](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) für den Bericht zu ändern.
+Klicken Sie auf die Dropdown-Liste [!UICONTROL Zielgruppe], um die angezeigte Zielgruppe für den Bericht zu ändern.
 
 Weitere Informationen finden Sie unter [Zielgruppen](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
 ## Datumsbereich {#section_A410A768403C4E01891F95CB357E63ED}
 
-Das Feld „Datumsbereich“ zeigt den aktuellen Datumsbereich des Berichts an. Klicken Sie auf das Dropdownsymbol, um einen Kalender anzuzeigen, in dem Sie den Datumsbereich des Berichts ändern können.
+Im Feld Datumsbereich wird der aktuelle Datumsbereich des Berichts angezeigt. Klicken Sie auf das Dropdownsymbol, um einen Kalender anzuzeigen, in dem Sie den Datumsbereich des Berichts ändern können.
 
 ![Kalender](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Wählen Sie neue **[!UICONTROL Start-]** und **[!UICONTROL Enddaten]** für den Bericht aus. Sie können auch die Kontrollkästchen **[!UICONTROL Vom Start der Aktivität]** und **Bis Ende von Aktivität]verwenden.[!UICONTROL **
+Wählen Sie neue **[!UICONTROL Start-]** und **[!UICONTROL Enddaten]** für den Bericht aus. Sie können auch die Kontrollkästchen **[!UICONTROL Vom Start der Aktivität]** und **[!UICONTROL Bis Ende von Aktivität]** verwenden.
 
 Klicken Sie auf **[!UICONTROL Benutzerdefinierte Daten]**, um die vordefinierten Datumsbereiche auszuwählen: Letzte 7 Tage, Letzte 15 Tage oder Letzte 30 Tage. Diese vordefinierten Datumsbereiche werden automatisch weiterverschoben. Wenn das Startdatum weniger als die ausgewählte Anzahl von Tagen zurückliegt, zeigt der Kalender den Bereich ab dem Startdatum an, bewegt sich jedoch weiter, sobald das Startdatum mehr als die ausgewählte Anzahl von Tagen zurückliegt, während sich die Dauer der Aktivität erhöht..
 
@@ -114,7 +117,7 @@ Für Berichte gelten folgende Datenbeschränkungen:
 
 ## Einstellungen {#section_D99CE462107D45CABE0960F820E1E972}
 
-Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu konfigurieren, und anschließend auf **[!UICONTROL Einstellungen speichern], wenn Sie alle gewünschten Änderungen vorgenommen haben.**
+Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu konfigurieren, und anschließend auf **[!UICONTROL Einstellungen speichern]**, wenn Sie alle gewünschten Änderungen vorgenommen haben.
 
 In der folgenden Illustration ist das Einstellungsdialogfeld für eine A/B-Aktivität dargestellt:
 
@@ -146,17 +149,20 @@ Klicken Sie auf das Symbol „Herunterladen“, um Berichtsdaten in einem [!DNL 
 
 Klicken Sie auf das Aktualisierungssymbol, um die Tabellen- und Diagrammansicht eines Berichts zu aktualisieren, ohne dass die gesamte Seite, die Konfiguration oder der Datumsbereich aktualisiert werden muss.
 
-## Weitere Optionen  {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Klicken Sie auf das Symbol für weitere Optionen (drei vertikale Ellipsen), um auf die Optionen [!UICONTROL „Aktivität bearbeiten“] und [!UICONTROL „Erlebnis-URLs anzeigen“] zuzugreifen.
 
-## Tabellenansicht  {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## Optionen für Ansichten
 
-Klicken Sie auf das Symbol für **[!UICONTROL Tabellenansicht], um den Bericht in Tabellenform anzuzeigen.**
+Der Bericht kann je nach Aktivität in verschiedenen Formaten Ansicht werden. Wählen Sie die gewünschte Option aus.
 
-## Grafikansicht {#section_0D24B902A8D142468ADB7EEF1D941786}
+![Symbole für Ansichten](/help/c-reports/c-report-settings/assets/view-options.png)
 
-Klicken Sie auf das Symbol für **[!UICONTROL Diagrammansicht], um den Bericht als Grafik anzuzeigen.**
+* **Ansicht** der Tabelle: Klicken Sie auf das Symbol **[!UICONTROL Tabellenansicht]** , um den Bericht als Tabelle Ansicht.
+* **Graph-Ansicht**: Klicken Sie auf das Symbol für die **[!UICONTROL Ansicht]** des Diagramms, um den Bericht als Diagramm Ansicht.
+* **Automatisierte Segmente**:(Nur für Aktivitäten mit automatisierter Personalisierung (AP) und automatischer Zielgruppe (AT) verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automatisierte Segmente] , um den Bericht [&quot;](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)Automatisierte Segmente&quot;Ansicht.
+* **Wichtige Attribute**: (Nur für Aktivitäten der automatisierten Personalisierung (AP) und der automatischen Zielgruppe (AT) verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Wichtige Attribute] , um den Bericht &quot; [Wichtige Attribute&quot;Ansicht](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -167,11 +173,11 @@ Weitere Informationen finden Sie unter [Durchschnittliche Steigerung, Steigerung
 Beachten Sie Folgendes:
 
 * Nur verfügbar, wenn Berichte in der Tabellenansicht angezeigt werden.
-* Diese Funktion steht nicht für Aktivitäten zur Verfügung, die Analytics als Berichtsquelle verwenden (A4T).
+* Diese Funktion steht nicht für Aktivitäten zur Verfügung, die [Analytics als Berichtsquelle verwenden (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 ## Ortsbeschränkung  {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
-Klicken Sie auf das Symbol **[!UICONTROL Location Contribution], um den Bericht zu wechseln, sodass der Beitrag nach Standort angezeigt wird.**
+Klicken Sie auf das Symbol **[!UICONTROL Location Contribution]**, um den Bericht zu wechseln, sodass der Beitrag nach Standort angezeigt wird.
 
 ## Erlebnisse {#section_3A450DE1FA7E43F0AAB73165EC3D1C34}
 
@@ -187,18 +193,21 @@ In der folgenden Abbildung werden nur die Erlebnisse Default, Mid-East und Total
 
 (Nur verfügbar, wenn der Bericht in Grafikansicht dargestellt wird)
 
+&quot;Running Average&quot;spiegelt die kumulativen Konvertierungen (vom Beginn des Berichte-Fensters bis zum im Diagramm dargestellten Datum) dividiert durch die kumulativen Besucher wider.
+
 Wählen Sie die gewünschte Grafikansicht:
 
 * Gleitendes Mittel
 * Gleitendes Mittel der Steigerung
-* Täglich
+* Täglich Control
+* Tägliches Targeting
 * Tägliche Steigerung
 
 ![Bericht „Gleitendes Mittel“](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
->Der Name dieser Dropdown-Liste variiert je nach ausgewählter Ansicht. Es wird jedoch eine der vier oben aufgeführten Ansichten angezeigt.
+>Der Name dieser Dropdown-Liste hängt von der ausgewählten Ansicht ab, es handelt sich jedoch um eine der oben aufgeführten Ansichten.
 
 ## Zählmethodik {#section_01B0ED5665C74AE1AE97259800190C3E}
 
@@ -206,17 +215,17 @@ Wählen Sie die gewünschte Grafikansicht:
 
 Sie können die Zählmethodologie für Diagramme in Berichten wählen. Beachten Sie, dass dies für Aktivitäten zur automatisierten Personalisierung (AP) nicht unterstützt wird.
 
-Wenn Sie auf die Option „Zählmethodologie“ zugreifen möchten, während Sie einen Bericht im Diagrammmodus anzeigen, klicken Sie auf das Dropdown-Menü **[!UICONTROL Mein primäres Ziel]und wählen Sie dann die Zählmethodologie aus.**
+Wenn Sie auf die Option „Zählmethodologie“ zugreifen möchten, während Sie einen Bericht im Diagrammmodus anzeigen, klicken Sie auf das Dropdown-Menü **[!UICONTROL Mein primäres Ziel]** und wählen Sie dann die Zählmethodologie aus.
 
 Die Zählmethodologie ist identisch mit der Auswahl im Dialogfeld [!UICONTROL Einstellungen], wie zuvor beschrieben.
 
-![Zählmethodik](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
+![Zählmethodik](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 Standardmäßig wird das Diagramm im Modus [!UICONTROL Täglich] gezeichnet.
 
-Sie können den Modus ändern, indem Sie auf die Dropdownliste [!UICONTROL Täglich] klicken und dann [!UICONTROL Kumulativ] auswählen.
+You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then selecting a cumulative option.
 
-![Kumulativ](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
+![Kumulativ](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 >[!NOTE]
 >
@@ -226,17 +235,17 @@ Für Aktivitäten zum automatischen Targeting existieren vier Modi: tägliche Ko
 
 Die Standardreihenfolge, in der das Diagramm gezeichnet wird, lautet wie folgt:
 
-* A/B-Tests (einschließlich „Automatisch zuweisen und „Automatisierte Personalisierung“): Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
-* Erlebnis-Targeting (XT): Reihenfolge der Erlebnisse in der Aktivität.
-* Multivarianztest (MVT): Alphabetisch nach Erlebnisname.
-* Recommendations: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
+* **A/B-Tests (einschließlich automatisierter Zuordnung und automatisierter Personalisierung)**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
+* **Erlebnis-Targeting (XT)**: Reihenfolge der Erlebnisse in der Aktivität.
+* **Multivarianz-Test (MVT)**: Alphabetisch nach Erlebnisname.
+* **Empfehlungen**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
 
 Beachten Sie beim Arbeiten mit den Optionen zur Zählmethodologie die folgenden Widersprüche:
 
-* Bei einer automatischen Targeting-Aktivität existiert keine Option zum Auswählen von „Besuchern“ als Zählmethodologie. Das automatische Targeting ist der einzige Aktivitätstyp, der nicht basierend auf Besuchern dargestellt werden kann.
-* Bei Aktivitäten, in denen Analytics als Berichtsquelle (A4T) verwendet wird, ist das kumulative Zeichnen von Besucher, Besuch oder Impressionen nicht möglich.
+* For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. Das automatische Targeting ist der einzige Aktivitätstyp, der nicht basierend auf Besuchern dargestellt werden kann.
+* For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
-**Arbeiten mit Diagrammen mit mehr als 16 Erlebnissen in der Aktivität**
+## Arbeiten mit Diagrammen mit mehr als 16 Erlebnissen in der Aktivität
 
 Wenn eine Aktivität weniger als 16 Erlebnisse umfasst, wird jedes Erlebnis im Diagramm mit einer anderen Farbe gezeichnet.
 
