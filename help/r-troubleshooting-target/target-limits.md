@@ -5,7 +5,7 @@ title: Beschränkungen
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -109,12 +109,12 @@ Alle Profile über 50 werden ignoriert.
 
 Für Standard-Mbox-Aufrufe:
 * Mbox-Parameter: 500 Parameter pro Mbox.
-* Profilparameter: 500 Parameter Profilparameter pro mbox.
+* Profil-Parameter: 500 Parameter Profil-Parameter pro mbox.
 * Andere Parameter (URL, verweisende URL usw.): 50 Parameter pro Mbox für jeden Parametertyp.
 
 Diese Beschränkungen gelten, sofern die Anfrage nicht durch Webbrowser-Beschränkungen gekürzt wird.
 
-Wenn Sie die Batch Delivery API verwenden, beträgt die Beschränkung 50 Mboxes pro Batch-Anforderung.
+Wenn Sie die Batch Versand API verwenden, beträgt die Beschränkung 50 Mboxes pro Batch-Anforderung.
 
 Wenn Sie die [Batch-Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-batch-delivery) im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Wenn eine Anforderung mehr als diese Beschränkungen enthält, gibt die API die folgende Fehlermeldung zurück:
 
@@ -127,20 +127,20 @@ Batch-mbox v2:
 * Mbox-Parametername max. Länge 128
 * mbox-Parameterwert darf nicht null sein
 * mbox-Parameterwert 5000
-* Profilparameter 50
-* Profilparametername max. Länge 128
-* profile parameter value cannot be null
-* Profilparameterwert max. Länge 256
+* Profil-Parameter 50
+* Profil-Parametername max. Länge 128
+* Profil-Parameterwert darf nicht null sein
+* Profil-Parameterwert max. Länge 256
 
-Endpunkt der Auslieferungs-API
+Versand-API-Endpunkt
 * mbox-Parameter 50
 * Mbox-Parametername max. Länge 128
 * mbox-Parameterwert darf nicht null sein
 * mbox-Parameterwert 5000
-* Profilparameter 50
-* Profilparametername max. Länge 128
-* profile parameter value cannot be null
-* Profilparameterwert max. Länge 256
+* Profil-Parameter 50
+* Profil-Parametername max. Länge 128
+* Profil-Parameterwert darf nicht null sein
+* Profil-Parameterwert max. Länge 256
 
 ## URL-Adressen zur Mbox-Anfrage
 
@@ -188,11 +188,11 @@ Eine längere Zeichenfolge wird vom System begrenzt.
 
 ## Profilskripte
 
-**Empfohlene Beschränkung aktiver Profilskripte**: 300
+**Empfohlene Beschränkung aktiver Profil-Skripte**: 300
 
-**Empfohlene Obergrenze für Profilskripte pro Konto**: 2.000
+**Empfohlene Obergrenze für Profil-Skripten pro Konto**: 2.000
 
-**Empfehlungen zur Beschränkung der Profilskriptkomplexität**: Profilskripte können eine begrenzte Anzahl von Anweisungen ausführen. Weitere Informationen finden Sie unter [Bewährte Verfahren](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profilattributen*.
+**Empfehlungen zur Begrenzung der Komplexität** von Profil-Skripten: Profil-Skripten können eine begrenzte Anzahl von Anweisungen ausführen. Weitere Informationen finden Sie unter [Bewährte Verfahren](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profil-Attributen*.
 
 ## Properties
 
@@ -204,9 +204,7 @@ Eine längere Zeichenfolge wird vom System begrenzt.
 
 ## Wiederverwendbare Zielgruppen/Konto
 
-**Empfohlenes Limit**: 75 Zielgruppen.
-
-Wenn zu viele vorhanden sind, kommt es auf der Benutzeroberfläche zu JavaScript-Timeouts.
+**Empfohlenes Limit**: 20,000 Zielgruppen.
 
 ## Skriptprofil-Eingabefeld in der Target-Benutzeroberfläche
 
