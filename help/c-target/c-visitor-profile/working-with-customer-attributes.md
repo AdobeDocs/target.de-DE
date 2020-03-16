@@ -1,12 +1,12 @@
 ---
-keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm
 description: Informationen zum Verwenden von Unternehmenskundendaten aus einer Customer Relationship Management-Datenbank für das Targeting von Inhalten in Adobe Target mithilfe von Kundenattributen im Adobe Core-Service „Profile und Zielgruppen“.
-title: Kundenattribute in Adobe Target
+title: Kundenattribute in Adobe Zielgruppe
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -33,7 +33,7 @@ Consider the following information as your work with customer attributes and [!D
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. In unserem aktuellen Design besteht die Möglichkeit, dass ein geringer Prozentsatz der Daten nicht integriert wird.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. Weitere Informationen finden Sie unter  [Lebensdauer des Besucherprofils](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). Das Profil kommt nur ins Spiel, wenn `authState` in UNAUTHENTICATED (1) geändert wird.
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will only come into play if `authState` is changed to AUTHENTICATED (1).
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. Wenn das gewünschte Verhalten darin bestehen soll, das authentifizierte Profil aufzurufen, muss `vst.myDataSource.authState` den Wert 1 (AUTHENTICATED) haben.
 
@@ -65,8 +65,8 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Mithilfe der HTTP-Methode können Datendateien mit einer Größe von bis zu 100 MB hochgeladen werden. Dateien mit einer Größe von mehr als 100 MB bis zu 4 GB können über FTP hochgeladen werden.
 
-   * **** HTTPS: Sie können die .csv-Datendatei per Drag &amp; Drop verschieben oder auf **[!UICONTROL Durchsuchen]** klicken, um sie aus Ihrem Dateisystem hochzuladen.
-   * **** FTP: Klicken Sie auf den FTP-Link, um die Datei über FTP [hochzuladen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Der erste Schritt besteht darin, ein Kennwort für den von Adobe bereitgestellten FTP-Server anzugeben. Specify the password, then click **[!UICONTROL Done]**.
+   * **HTTPS:** Sie können die .csv-Datendatei per Drag &amp; Drop verschieben oder auf **[!UICONTROL Durchsuchen]** klicken, um sie aus Ihrem Dateisystem hochzuladen.
+   * **FTP:** Klicken Sie auf den FTP-Link, um die Datei über FTP [hochzuladen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Der erste Schritt besteht darin, ein Kennwort für den von Adobe bereitgestellten FTP-Server anzugeben. Specify the password, then click **[!UICONTROL Done]**.
 
       Übertragen Sie nun Ihre CSV-/ZIP-/GZIP-Datei auf den FTP-Server. Nachdem die Dateiübertragung erfolgreich war, erstellen Sie eine neue Datei mit demselben Namen und der Erweiterung .fin. Übertragen Sie diese leere Datei auf den Server. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
@@ -82,7 +82,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. Konfigurieren von Abonnements und Aktivieren der Attributquelle.
 
-   Klicken Sie auf **[!UICONTROL Abonnement hinzufügen]** und wählen Sie die Lösung zum Abonnieren dieser Attribute aus. [Durch die Konfiguration von Abonnements](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) wird der Datenfluss zwischen der [!DNL Experience Cloud] und den Lösungen eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Lösungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
+   Klicken Sie auf **[!UICONTROL Abonnement hinzufügen]** und wählen Sie die Lösung zum Abonnieren dieser Attribute aus. [Abonnement](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) konfigurieren richtet den Datenfluss zwischen der [!DNL Experience Cloud] und den Lösungen ein. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Lösungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
 
    ![](assets/solution.png)
 
@@ -148,6 +148,6 @@ Probleme in den Zeilen 1 und 2 oben verursachen ca. 60 % der Probleme in dies
 
 ## Schulungsvideo: Hochladen von Offline-Daten mithilfe von Kundenattributen {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
-In diesem Video erfahren Sie, wie Sie Offline-CRM-, Help Desk-, Point-of-Sale- und andere Marketing-Daten in den Experience Cloud People-Dienst importieren und mit den Besuchern, die ihre bekannten IDs verwenden, verknüpfen.
+In diesem Video erfahren Sie, wie Sie Offline-CRM-, Help Desk-, Point-of-Sale- und andere Marketing-Daten in den Experience Cloud People-Dienst importieren und mit den bekannten IDs mit Besuchern verknüpfen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
