@@ -5,7 +5,7 @@ title: Beschränkungen
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -40,6 +40,10 @@ Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgrup
 
 **Limit**: 50 Zielgruppen pro Mbox, Metrik oder Erlebnis.
 
+## Audiencen, pro Konto wiederverwendbar
+
+**Empfohlenes Limit**: 20,000 Zielgruppen.
+
 ## categoryId-Parameter
 
 **Limit**: 128 Zeichen.
@@ -51,6 +55,12 @@ Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgrup
 ## Kundenattribut-Alias-ID
 
 **Limit**: 50 Zeichen.
+
+## Kundenattribute, hochladen
+
+* **Maximale Dateigröße für jeden Upload mit der HTTP-Methode**: 100 MB.
+* **maximale Dateigröße für jeden Upload mit der FTP-Methode**: 4 GB
+* **Anzahl der Attribute, die abonniert** werden dürfen: 5 für [!DNL Target Standard] und 200 für [!DNL Target Premium].
 
 ## Benutzerdefinierte Entitätsattribute
 
@@ -201,10 +211,6 @@ Eine längere Zeichenfolge wird vom System begrenzt.
 ## Berichtszielgruppen/-segmente
 
 **Limit**: 50 Berichtszielgruppen/-segmente pro Aktivität.
-
-## Wiederverwendbare Zielgruppen/Konto
-
-**Empfohlenes Limit**: 20,000 Zielgruppen.
 
 ## Skriptprofil-Eingabefeld in der Target-Benutzeroberfläche
 
