@@ -5,7 +5,7 @@ title: Versionshinweise zu Adobe Zielgruppe
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen für die neuesten oder kommenden [!DNL Adobe Target]-Versionen.
 
-**Zuletzt aktualisiert: 9. März 2020**
+**Zuletzt aktualisiert: 20. März 2020**
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
    Indem wir alle Kunden zu at.js verschieben, können unsere Ingenieure und Support-Mitarbeiter Ihnen neue Funktionen und Angebote anbieten, die Sie von Adobe erwarten.
 
 
-## Target Standard/Premium 20.2.1 (17. März 2020) 
+## Target Standard/Premium 20.2.1 (23. März 2020) 
 
 >[!IMPORTANT]
 >
@@ -52,18 +52,21 @@ Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderu
 * Implementierung von Sicherheitsverbesserungen in Content Security Policy (CSP). (TGT-36190)
 * Es wurde ein Fehler behoben, der dazu führte, dass &quot;NaN%&quot;angezeigt wurde, wenn die prozentuale Attributgewichtung nach links verschoben wurde. (TGT-36211)
 * Es wurden Probleme mit der lokale Anpassung behoben, sodass der Benutzeroberflächentext in verschiedenen Sprachen korrekt angezeigt wird.
-* Die folgenden Adobe Analytics-Metriken werden ab Version der Zielgruppe vom März 2020 nicht mehr für Analytics for Zielgruppe (A4T) unterstützt:
-   * averagevisitdepth
-   * Bots
-* Die folgenden Metriken werden nicht mehr unterstützt und beim ersten Ändern einer Aktivität mit der Metrik automatisch in neue Versionen der Metrik konvertiert:
+* Wir haben die Liste der verfügbaren Metriken aus Adobe Analytics für die Zielgruppe (A4T)-Aktivitäten standardisiert, indem Adobe Analytics-Metriken, die in der aktuellen Version der Adobe Analytics-APIs nicht unterstützt werden, nicht mehr unterstützt werden. Auf diese Weise können wir unsere A4T-Unterstützung in zukünftigen Adobe-Zielgruppen erweitern.
 
-   | Veraltete Metrik | Neue Metrik |
+   Folgende Änderungen wurden vorgenommen:
+
+   * &quot;Durchschnittliche Besuchszeit pro Seite&quot;wurde durch &quot;Durchschnittliche Besuchszeit pro Site&quot;ersetzt. Alle Aktivitäten, die diese Metrik als Metrik für primäre Ziele verwenden, haben &quot;Durchschnittliche Besuchszeit pro Site&quot;(Hinweis: in Minuten statt in Sekunden), die beim nächsten Bearbeiten der Aktivität als primäre Zielmetrik ausgewählt wurde.
+   * &quot;Besucher&quot;wurde durch &quot;Individuelle Besucher&quot;ersetzt. Bei allen Aktivitäten, die diese Metrik als primäre Zielmetrik verwenden, wird beim nächsten Bearbeiten der Aktivität &quot;Individuelle Besucher&quot;als primäre Zielmetrik ausgewählt.
+
+* Die folgenden Metriken wurden nicht mehr unterstützt und können nicht mehr als primäre Zielmetrik beim Erstellen einer neuen A4T-Aktivität ausgewählt werden.
+
+   | Veraltete Metriken | Vorgeschlagene Ersatzmetriken |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (Hinweis: gemessen in Minuten statt in Sekunden) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | Tägliche Besucher, stündliche Besucher, monatliche Besucher, vierteljährliche Besucher, wöchentliche Besucher, jährliche Besucher | Unique Visitors |
+   | Durchschnittliche Besuchstiefe | entfällt. Nicht als primäre Zielmetrik vorgeschlagen |
+   | Bots | entfällt. Nicht als primäre Zielmetrik vorgeschlagen |
+   | Absturzrate für Mobilgeräte, durchschnittliche Länge der vorherigen Sitzung, Durchschn. Avg. Rang für den Mobile App Store, Absturzrate für Mobilanwendungen, Durchschn. Bewertung für den App Store | entfällt. Nicht als primäre Zielmetrik vorgeschlagen |
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
