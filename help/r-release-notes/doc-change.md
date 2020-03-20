@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -18,16 +18,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 20. März | [Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Die Zielgruppe Standard/Premium 20.2.1 wird am 23. März 2020 veröffentlicht. |
 | 13. März | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Die Anzahl der &quot;Audiencen, die pro Konto wiederverwendet werden können&quot;wurde aktualisiert. |
-| 12. März | [Versionshinweise](/help/r-release-notes/release-notes.md#summit) | Es wurden Informationen zur Registrierung für den freien Zugang zur Online-Konferenz des digitalen Gipfels hinzugefügt. |
-| 11. März | [Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Die Zielgruppe Standard/Premium 20.2.1 wird am 17. März 2020 veröffentlicht. |
+| 12. März | [Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md#summit) | Es wurden Informationen zur Registrierung für den freien Zugang zur Online-Konferenz des digitalen Gipfels hinzugefügt. |
 | März 9 | [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Es wurden weitere Informationen im Abschnitt &quot;Ersetzen des letzten Oktetts von IP-Adressen&quot;hinzugefügt. |
 |  | [Arbeiten mit Attributen mit mehreren Werten](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Codebeispiel in *Übergeben eines Parameters mit mehreren Werten in JavaScript* aktualisiert. |
 |  | [Benutzerdefinierte Entitätsattribute](/help/c-recommendations/c-products/custom-entity-attributes.md) | Codebeispiel in *Verwenden von APIs* unter *Implementieren von Attributen* mit mehreren Werten hinzugefügt. |
-|  | [Versionshinweise](/help/r-release-notes/release-notes.md) | Es wurde angegeben, dass das Datum dieser Version noch nicht ermittelt wurde. |
 | 4. März | [Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md) | Das gesamte Thema wurde aktualisiert und der Abschnitt &quot;Best Practices&quot;wurde umfassend überarbeitet. |
-|  | [Versionshinweise](/help/r-release-notes/release-notes.md) | Es wurde angegeben, dass dieses Veröffentlichungsdatum noch nicht ermittelt wurde. |
-|  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu veralteten und geänderten Metriken bei Verwendung von Zielgruppe für Analytics (A4T) hinzugefügt. |
 | 21. Februar | [Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur neuen Adobe Experience Cloud-Navigation hinzugefügt. |
 | 20. Februar | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Es wurden Informationen zu den folgenden Einstellungen hinzugefügt: `pageLoadEnabled` und `viewsEnabled`. |
 | 19. Februar | [Versionshinweise](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur bevorstehenden Vernichtung der Bibliothek &quot;mbox.js&quot;hinzugefügt. |
