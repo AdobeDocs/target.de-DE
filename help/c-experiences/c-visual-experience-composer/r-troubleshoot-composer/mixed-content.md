@@ -5,7 +5,7 @@ title: Zulassen von gemischtem Inhalt in Ihrem Browser
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -40,7 +40,7 @@ Siehe [Diese Seite enthält unsichere Inhalte](https://support.google.com/chrome
 
 Wenn Sie VEC mit der neuesten Version von Chrome (Version 79.0.3945.117 oder höher) verwenden, müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 
->[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo)
+>[!VIDEO](https://www.youtube.com/v=6zGCi5Y8eVo)
 
 Im obigen Video werden die erforderlichen Schritte beschrieben:
 
@@ -48,7 +48,7 @@ Im obigen Video werden die erforderlichen Schritte beschrieben:
 
    ![Site-Einstellungen](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Blättern Sie zu Insecure-Inhalt und verwenden Sie dann die Dropdownliste, um Block (Standard) in Allow zu ändern.
+1. Blättern Sie zu Unsicheren Inhalten und ändern Sie dann mithilfe der Dropdown-Liste Block (Standard) in Allow.
 
    ![Unsicherer Inhalt](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
