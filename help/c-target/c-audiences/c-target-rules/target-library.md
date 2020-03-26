@@ -1,10 +1,10 @@
 ---
-keywords: Targeting; Target-Bibliothek; Bibliothek
+keywords: Targeting;target library;library
 description: Benutzer basierend auf vorab erstellten Targeting-Regeln gezielt ansprechen
 title: Ziel-Bibliothek
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,13 +15,9 @@ Benutzer basierend auf vorab erstellten Targeting-Regeln gezielt ansprechen
 
 Vorab eingestellte Zielgruppen in der Target-Bibliothekskategorie sind veraltete Zielgruppen und bestehen auch in anderen Kategorien. Weitere Informationen und Best Practices finden Sie unter  [Häufig gestellte Fragen zu Targeting und Zielgruppen](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
->[!NOTE]
->
->Target Classic verwendete Ausdrucksziele, damit Sie einmalig komplexe Ziele erstellen und diese dann wiederholt in verschiedenen Aktivitäten, Erlebnissen usw. verwenden können. Diese Funktion ist in Target Standard/Premium nicht vorhanden.
-
-1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
+1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Ziel-Bibliothek]**.
+1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** > **[!UICONTROL Ziel-Bibliothek]**.
 
    ![Ziel-Bibliothek](assets/target_library.png)
 
@@ -43,4 +39,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
