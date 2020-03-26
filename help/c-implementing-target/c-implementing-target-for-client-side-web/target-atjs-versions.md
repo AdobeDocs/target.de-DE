@@ -5,7 +5,7 @@ title: „at.js“-Versionsdetails
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -16,7 +16,21 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 
 >[!IMPORTANT]
 >
->Das Target-Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
+>Das Zielgruppe-Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
+
+## at.js-Version 2.3.0 (25. März 2020)
+
+Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
+
+* Die Einstellung der Content Security Policy erfolgt nicht bei SKRIPT- und STYLE-Tags, die beim Anwenden der bereitgestellten Zielgruppe-Angebot an das Seiten-DOM angehängt werden. Kunden können festlegen `targetGlobalSettings.cspScriptNonce` und `targetGlobalSettings.cspStyleNonce` so at.js die entsprechenden Tags für Skript- und Stil auf angewendeten Angeboten festlegen. See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
+* Es wurde ein Problem behoben, das beim Kompilieren von &quot;at.js&quot;mit dem Google Closure-Compiler für die Bereitstellung von Google Tag Manager auftrat.
+* Das at.js-Cookie wurde von `check` in `at_check` umbenannt, um Kollisionen mit den Implementierungen von Kunden zu vermeiden.
+
+## at.js-Version 1.8.1 (25. März 2020)
+
+Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
+
+* Das at.js-Cookie wurde von `check` in `at_check` umbenannt, um Kollisionen mit den Implementierungen von Kunden zu vermeiden.
 
 ## at.js Version 2.2.0 (10. Oktober 2019)
 
@@ -29,7 +43,7 @@ Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen
    >
    >Aktualisieren Sie Ihre ECID Launch Extension auf Version 4.4, um diese Leistungsverbesserung nutzen zu können.
 
-* at.js Version 2.2 bietet außerdem eine neue Einstellung namens `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration von Target implementiert wird. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client-Seite als auch die Bereitstellungs-API oder ein Target-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js Version 2.2 bietet außerdem eine neue Einstellung namens `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration der Zielgruppe implementiert ist. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client- als auch Versand-API oder ein Zielgruppe-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js Version 1.8.0 (10. Oktober 2019)
 
