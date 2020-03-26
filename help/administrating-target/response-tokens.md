@@ -1,12 +1,12 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: Mithilfe von Antworttoken können Sie Target-spezifische Informationen (Aktivitätsdetails, Benutzerprofilinformationen, Geo-Informationen usw.) automatisch ausgeben, die beim Debugging oder bei der Integration in Drittanbietersysteme (z. B. Clicktale) verwendet werden können
+description: Mithilfe von Antworttoken können Sie automatisch Zielgruppen-spezifische Informationen (Details zur Aktivität, Profil des Benutzers, Geo-Informationen usw.) ausgeben, die beim Debugging oder bei der Integration mit Drittanbietersystemen (z. B. Clicktale) verwendet werden sollen
 title: Antwort-Token in Adobe Target
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 Mithilfe von Antwort-Token können Sie Target-spezifische Informationen automatisch ausgeben (Kampagnendetails, Benutzerprofilinformationen, Geoinformationen usw.), um sie im Debugging zu verwenden oder in Drittanbietersysteme zu integrieren (z. B. Clicktale).
 
-Adobe Target Classic verfügte über eine Funktion mit der Bezeichnung „Server-Plug-ins“, mit deren Hilfe Sie JavaScript senden konnten, das mit einer Mbox-Antwort ausgeführt wurde. Antwort-Token ähneln Plug-ins: Sie ermöglichen Ihnen das Abrufen von Target-spezifischen Informationen, die an anderer Stelle verwendet werden sollen. Mit Antwort-Token können Sie wählen, welche Variablen Sie verwenden möchten. Anschließend können Sie sie aktivieren, damit sie als Bestandteil einer Mbox-Antwort gesendet werden. Dazu aktivieren Sie einfach eine Variable mithilfe des Switches. Daraufhin wird die Variable mit Mbox-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Antwort-Token können auch im Vorschaumodus verwendet werden.
+Mit Antwort-Token können Sie wählen, welche Variablen Sie verwenden möchten. Anschließend können Sie sie aktivieren, damit sie als Bestandteil einer Mbox-Antwort gesendet werden. Dazu aktivieren Sie einfach eine Variable mithilfe des Switches. Daraufhin wird die Variable mit Mbox-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Antwort-Token können auch im Vorschaumodus verwendet werden.
 
 Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, dass Plug-ins JavaScript für die Seite bereitstellen, das bei Bereitstellung ausgeführt wird, wohingegen Antwort-Token ein Objekt bereitstellen, das anschließend gelesen und auf das mithilfe von Ereignislistenern reagiert werden kann. Weitere Informationen finden Sie unter  [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) und in den Beispielen im späteren Verlauf dieses Artikels. Der Ansatz der Antwort-Token ist sicherer und ermöglicht eine problemlosere Bereitstellung und Wartung von Drittanbieterintegrationen.
 
