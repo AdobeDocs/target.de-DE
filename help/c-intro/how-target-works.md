@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -95,7 +95,7 @@ Jeder Edge-Knoten verfügt über alle notwendigen Informationen, um auf die Inha
 
 ![Karte mit Core-Edge-Standorten und Edge-Standorten](assets/edge_network.png)
 
-The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
+Die Quelle für dieses Bild ist das Whitepaper [Adobe Zielgruppe Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
 
 Die Adobe Target-Lösung wird auf Adobe-eigenen und von Adobe geleasten Rechenzentren auf der ganzen Welt gehostet. Administrationsserver werden zur Gänze in Rechenzentren von Adobe in London, Singapur und mehreren Standorten in den USA gehostet, darunter Oregon und Virginia. Edge-Server werden sowohl auf Adobe-eigenen als auch auf Adobe-gemieteten Servern in Amazon AWS-Rechenzentren in London, Hong Kong SAR in China, Singapur, Tokio und Sydney gehostet.
 
