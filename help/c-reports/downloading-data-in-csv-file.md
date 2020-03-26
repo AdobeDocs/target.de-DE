@@ -1,12 +1,12 @@
 ---
-keywords: Berichte; Herunterladen von Berichten; csv; Erfolgsmetriken; Bestelldetails
-description: Laden Sie Daten im .csv-Format herunter, um sie schnell in Excel, Access oder andere Datenanalyseprogramme mit Adobe Target zu importieren.
-title: Herunterladen von Daten in einer CSV-Datei mit Adobe Target
-subtopic: Multivarianz-Test
+keywords: reports;download reports;csv;success metrics;order details
+description: Laden Sie Daten im .csv-Format herunter, um sie schnell in Excel, Access oder andere Programm zur Analyse von Daten mit Adobe Zielgruppe zu importieren.
+title: Herunterladen von Daten in einer CSV-Datei mit Adobe Zielgruppe
+subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -21,8 +21,8 @@ So laden Sie Daten als CSV-Datei herunter:
 
    Sollten Ihnen viele Aktivitäten zur Auswahl stehen, können Sie die Liste filtern, indem Sie Optionen aus den Dropdownlisten [!UICONTROL Typ], [!UICONTROL Status], [!UICONTROL Berichtsquelle], [!UICONTROL Experience Composer], [!UICONTROL Metriktyp] und [!UICONTROL Aktivitätsquelle] auswählen.
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Berichte].**
-1. Klicken Sie auf das Symbol **[!UICONTROL „Herunterladen“]und wählen Sie einen Berichtstyp aus, den Sie für die Analyse in Excel oder anderen Tools herunterladen möchten.**
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Berichte]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL „Herunterladen“]** und wählen Sie einen Berichtstyp aus, den Sie für die Analyse in Excel oder anderen Tools herunterladen möchten.
 
    * [!UICONTROL Berichte in CSV exportieren]
    * [!UICONTROL Bestelldetails als CSV exportieren]
@@ -39,11 +39,11 @@ Die Daten werden bis zum Ende der Aktivität gespeichert.
 
 >[!NOTE]
 >
->Der CSV-Bericht enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>Der CSV-Bericht enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## Bestelldetails als CSV exportieren {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-Im Bericht zu Bestelldetails (in [!DNL Target Classic] auch „Prüfbericht“ genannt) sind Informationen zu Ihren Bestellungen enthalten, darunter auch folgende:
+Der Bericht &quot;Bestelldetails&quot;enthält Informationen zu Ihren Bestellungen, darunter:
 
 * Datum und Uhrzeit der Bestellung
 * Bestellmenge (wenn Sie eine Bestellaufgabe-Mbox eingefügt haben)
