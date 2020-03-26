@@ -4,7 +4,7 @@ title: Adobe Target-Glossar
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -161,7 +161,7 @@ Ein Teilnehmer ist ein Besucher, der die Kriterien zur Teilnahme an einer Aktivi
 
 **Umgebung**
 
-Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Voreingestellte Hostgruppen sind Produktion, Staging und Entwicklung. Sie können jedoch neue Hostgruppen hinzufügen und die vorhandenen Hostgruppen umbenennen. In [!DNL Target Classic] wurden Umgebungen als „Hostgruppen“ bezeichnet.
+Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Voreingestellte Hostgruppen sind Produktion, Staging und Entwicklung. Sie können jedoch neue Hostgruppen hinzufügen und die vorhandenen Hostgruppen umbenennen.
 
 **Erlebnis**
 
