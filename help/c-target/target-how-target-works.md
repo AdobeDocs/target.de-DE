@@ -1,19 +1,17 @@
 ---
-keywords: Targeting; Cookie; Erstanbieter-Cookie; Erstanbietercookie
+keywords: targeting;cookie;first-party cookie;1st-party cookie
 description: Adobe Target wird mithilfe der JavaScript-Bibliothek „at.js“ oder „mbox.js“ in Ihre Webseiten integriert.
 title: Funktionsweise von Targeting
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
 
 # Funktionsweise von Targeting{#how-targeting-works}
 
-Adobe Target wird mithilfe der JavaScript-Bibliothek „at.js“ oder „mbox.js“ in Ihre Webseiten integriert.
-
-[!DNL Target Classic] verwendet Mboxes für jeden Bereich Ihrer Seite, in dem Sie zielgerichtete Inhalte anzeigen oder Daten erfassen möchten. Diese Mboxes sind in [!DNL Target Standard] nicht erforderlich. Zum Ausführen Ihrer Optimierungsaktivitäten benötigen Sie stattdessen nur eine JavaScript-Bibliothek, auf die auf jeder Seite verwiesen wird.
+Adobe Target wird mithilfe der JavaScript-Bibliothek „at.js“ oder „mbox.js“ in Ihre Webseiten integriert. Sie benötigen lediglich eine JavaScript-Bibliothek, auf die auf jeder Seite verwiesen wird, um Ihre Optimierungsbibliotheken ausführen zu können.
 
 Jedes Mal, wenn ein Besucher eine [!DNL Target]-aktivierte Seite anfordert, verwendet Target den folgenden Prozess zur Bereitstellung von Angeboten:
 
