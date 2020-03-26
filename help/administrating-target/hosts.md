@@ -1,11 +1,11 @@
 ---
-keywords: Host;Hosts;Hostgruppe;Umgebung;Fehlerbehebung;Best Practices
+keywords: host;hosts;host group;environment;troubleshooting;best practices
 description: Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung.
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -17,8 +17,6 @@ Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für e
 ## Hosts {#concept_516BB01EBFBD4449AB03940D31AEB66E}
 
 Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung.
-
-In [!DNL Target Classic] gab es ähnliche Funktionen. Hostgruppen aus [!DNL Target Classic] werden in [!DNL Target Standard/Premium] als „Umgebungen“ bezeichnet.
 
 Das Hauptziel bei der Hostverwaltung besteht darin, dafür zu sorgen, dass auf der Seite nicht versehentlich inaktive Inhalte erscheinen. Hostverwaltung ermöglicht es Ihnen zudem, Berichtsdaten nach Umgebung aufzuteilen.
 
@@ -32,7 +30,7 @@ Wenn eine Mbox-Anfrage von neuen Websites oder Domänen empfangen wird, werden d
 
 Target beschränkt einen Host nicht, der Mboxes senden und empfangen kann. Wenn also neue Server oder Domänen erkannt werden, funktionieren sie automatisch (außer es wurde eine Whitelist oder eine Blacklist eingerichtet). Auf diese Weise wird auch das Testen von Werbeanzeigen auf verschiedenen Domänen ermöglicht, die unbekannt sind oder nicht antizipiert werden können.
 
-Um Hosts und Umgebungen zu verwalten, klicken Sie auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Hosts]**.
+Möchten Sie Hosts und Umgebungen bearbeiten, klicken Sie auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Hosts]**.
 
 ![](assets/hosts_list.png)
 
@@ -52,13 +50,13 @@ Damit ein Host erkannt werden kann, müssen folgende Bedingungen erfüllt werden
 
 Nach Aufruf der Seite erscheint der Host in der [!UICONTROL Hostgruppenliste], sodass Sie ihn in einer Umgebung verwalten, eine Vorschau anzeigen und Aktivitäten und Tests starten können.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Dies umfasst sämtliche persönlichen Entwicklungsserver.
 
 Stellen Sie nach dem Hinzufügen eines Hosts zur [!UICONTROL Hostgruppenliste] sicher, dass der Host erkannt wird.
 
-1. Klicken Sie auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Hosts]**.
+1. Klicken Sie auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Hosts]**.
 1. Wird der Host nicht angezeigt, aktualisieren Sie den Browser. 
 Standardmäßig wird ein neu erkannter Host zur Umgebung „Produktion“ hinzugefügt. Diese Umgebung ist am sichersten, da es in ihr nicht zulässig ist, inaktive Aktivitäten über diese Hosts anzuzeigen.
 1. (Bedingt) Verschieben Sie den Host in die Entwicklungs- oder Staging-Umgebung.
@@ -72,13 +70,13 @@ Standardmäßig wird ein neu erkannter Host zur Umgebung „Produktion“ hinzug
 Informationen, die Sie dabei unterstützen, Hosts und Umgebungen (Hostgruppen) zu verwalten, darunter Einrichten der Standardberichterstattung, Erstellen von Whitelists, Ändern des Namens einer Umgebung, Verschieben eines Hosts in eine andere Umgebung und Löschen eines Hosts oder einer Umgebung
 
 
-Um auf die [!UICONTROL Hostliste] zuzugreifen, klicken Sie auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Hosts]**.
+Möchten Sie auf die [!UICONTROL Hostgruppenliste] zugreifen, klicken Sie auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Hosts]**.
 
 ![](assets/hosts_list.png)
 
 ## Filtern, Sortieren und Durchsuchen der Hostgruppenliste {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-Möchten Sie die [!UICONTROL Hostgruppenliste] nach Umgebung filtern, klicken Sie auf die Dropdownliste **[!UICONTROL Alle]und wählen Sie die gewünschte Umgebung aus (Produktion, Staging, Entwicklung oder eine von Ihnen erstellte, benutzerdefinierte Umgebung).**
+Möchten Sie die [!UICONTROL Hostgruppenliste] nach Umgebung filtern, klicken Sie auf die Dropdownliste **[!UICONTROL Alle]** und wählen Sie die gewünschte Umgebung aus (Produktion, Staging, Entwicklung oder eine von Ihnen erstellte, benutzerdefinierte Umgebung).
 
 Möchten Sie die [!UICONTROL Hostgruppenliste] sortieren, klicken Sie auf eine Spaltenüberschrift („Name“, „Umgebung“ oder „Zuletzt angefordert“), um die Liste auf- oder absteigend zu sortieren.
 
@@ -90,7 +88,7 @@ Möchten Sie mehrere Hosts auswählen, aktivieren Sie die Kontrollkästchen nebe
 
 ## Erstellen einer Umgebung  {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen].**
+1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen]**.
 1. Klicken Sie auf **[!UICONTROL Umgebung erstellen]**.
 1. Geben Sie einen beschreibenden Namen für die Umgebung an.
 1. Legen Sie den aktiven Modus für die Umgebung fest: [!UICONTROL Aktive Aktivitäten] oder [!UICONTROL aktive und inaktive Aktivitäten].
@@ -104,8 +102,8 @@ Sollten Sie die Produktionsumgebung als Standardeinstellung festlegen, werden ih
 
 So legen Sie die Standardumgebung für die Berichterstellung fest:
 
-1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Einstellungen].**
-1. Wählen Sie den Standardhost aus der Dropdownliste **[!UICONTROL Umgebungseinstellungen]aus.**
+1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Einstellungen]**.
+1. Wählen Sie den Standardhost aus der Dropdownliste **[!UICONTROL Umgebungseinstellungen]** aus.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 >[!NOTE]
@@ -118,9 +116,9 @@ Sie können eine Whitelist erstellen, in der Hosts (Domänen) aufgeführt sind, 
 
 So erstellen Sie eine Whitelist:
 
-1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Einstellungen].**
-1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Aktivierte Hosts für Inhaltsbereitstellung aktivieren].**
-1. Fügen Sie nach Wunsch Hosts im Feld **[!UICONTROL Im Host enthalten]hinzu.**
+1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Einstellungen]**.
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Aktivierte Hosts für Inhaltsbereitstellung aktivieren]**.
+1. Fügen Sie nach Wunsch Hosts im Feld **[!UICONTROL Im Host enthalten]** hinzu.
 
    Es können mehrere Hosts, einer pro Zeile, aufgeführt sein.
 
@@ -138,7 +136,7 @@ Des Weiteren können Sie eine Blacklist erstellen, in der Hosts (Domänen) aufge
 
 ## Ändern des Namens einer Umgebung {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen].**
+1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen]**.
 1. Halten Sie den Mauszeiger über die gewünschte Umgebung und klicken Sie auf das **[!UICONTROL Bearbeitungssymbol.]**
 1. Ändern Sie den Namen der Umgebung.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
@@ -155,7 +153,7 @@ Sie können einen Host, der nicht mehr gebraucht wird, löschen.
 
 1. Halten Sie in der [!UICONTROL Hostgruppenliste] den Mauszeiger über denjenigen Host, den Sie löschen möchten.
 1. Klicken Sie auf das **[!UICONTROL Löschsymbol.]**
-1. Klicken Sie auf **[!UICONTROL Löschen], um den Löschvorgang zu bestätigen.**
+1. Klicken Sie auf **[!UICONTROL Löschen]**, um den Löschvorgang zu bestätigen.
 
 >[!NOTE]
 >
@@ -165,10 +163,10 @@ Sie können einen Host, der nicht mehr gebraucht wird, löschen.
 
 Sie können eine Umgebung, die nicht mehr benötigt wird, löschen.
 
-1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen].**
+1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen]**.
 1. Halten Sie den Mauszeiger über die Umgebung, die Sie löschen möchten.
 1. Klicken Sie auf das **[!UICONTROL Löschsymbol.]**
-1. Klicken Sie auf **[!UICONTROL Löschen], um den Löschvorgang zu bestätigen.**
+1. Klicken Sie auf **[!UICONTROL Löschen]**, um den Löschvorgang zu bestätigen.
 
 >[!NOTE]
 >
@@ -212,8 +210,8 @@ Wenn Ihre Produkte nicht angezeigt werden, stellen Sie sicher, dass Sie die rich
 
 Der Umgebungsfilter ist an den folgenden Orten in der Target-Benutzeroberfläche verfügbar:
 
-* Katalogsuche ([!UICONTROL Recommendations &gt; Katalogsuche])
-* Dialogfeld „Sammlung erstellen“ ([!UICONTROL Recommendations &gt; Sammlungen &gt; Neu erstellen])
-* Dialogfeld „Sammlung aktualisieren“ ([!UICONTROL Recommendations &gt; Sammlungen &gt; Bearbeiten])
-* Dialogfeld „Ausschluss erstellen“ ([!UICONTROL Recommendations &gt; Ausschlüsse &gt; Neu erstellen])
-* Dialogfeld „Ausschluss aktualisieren“ ([!UICONTROL Recommendations &gt; Ausschlüsse &gt; Bearbeiten])
+* Katalogsuche ([!UICONTROL Recommendations > Katalogsuche])
+* Dialogfeld „Sammlung erstellen“ ([!UICONTROL Recommendations > Sammlungen > Neu erstellen])
+* Dialogfeld „Sammlung aktualisieren“ ([!UICONTROL Recommendations > Sammlungen > Bearbeiten])
+* Dialogfeld „Ausschluss erstellen“ ([!UICONTROL Recommendations > Ausschlüsse > Neu erstellen])
+* Dialogfeld „Ausschluss aktualisieren“ ([!UICONTROL Recommendations > Ausschlüsse > Bearbeiten])
