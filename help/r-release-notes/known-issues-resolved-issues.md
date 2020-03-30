@@ -1,10 +1,10 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: Informationen zu bekannten Problemen in dieser Version von Adobe Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
+description: Informationen zu bekannten Problemen in dieser Version von Adobe Zielgruppe. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
 title: Bekannte Probleme und gelöste Probleme  in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -21,9 +21,9 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
-### Seitenbereitstellung {#page-delivery}
+### Seiten-Versand {#page-delivery}
 
-Wenn Sie eine Vorlagenregel wie URL enthält (/Checkout, /Warenkorb) bei der [Seitenauslieferung](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)hinzufügen, werden Ihren Regeln zusätzliche Leerzeichen vorangestellt. Dies ist ein kosmetisches Problem und hat keinen Einfluss auf die Erstellung und Bereitstellung von Zielgruppendefinitionen. (TGT-35916)
+Wenn Sie eine Vorlagenregel hinzufügen, z. B. URL enthält (/Checkout, /Einkaufswagen), werden Ihren Regeln im [Versand](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)zusätzliche Leerzeichen vorangestellt. Dies ist ein kosmetischer Aspekt und hat keinen Einfluss auf die Erstellung von Audiencen und den Versand von Angeboten. (TGT-35916)
 
 ### Vorschaulinks für Aktivitäts-QAs {#preview}
 
@@ -63,11 +63,11 @@ Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Ange
 Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
 
 * Entitäten sind nach 60 Tagen, nachdem sie keine Aktualisierungen per Feed oder API erhalten haben, korrekt abgelaufen; Die abgelaufenen Entitäten werden jedoch nach Ablauf nicht aus dem Index für die Katalogsuche entfernt. (IRI-857)
-* Die Überlagerungen &quot;Gebrauchsinformationen&quot;für Kriterien und Entwürfe spiegeln ihre Verwendung in A/B- und Erlebnis-Targeting-Aktivitäten nicht wider (TGT-34331)
-* Recommendations-Angebote in A/B- und Erlebnis-Targeting-Aktivitäten zeigen keine visuelle Vorschau des Recommendations-Fachs (TGT-33426)
-* Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche von Target nicht sichtbar und können nur über API bearbeitet werden. (TGT-35777)
-* Recommendations-Aktivitäten, die über API erstellt wurden, können in der Benutzeroberfläche angezeigt werden, können aber nur über API bearbeitet werden.
-* Der Feed-Status &quot;Benutzerspezifische Kriterien&quot;in der Kriterienliste (Karten) wird alle zehn Minuten aktualisiert und kann in seltenen Fällen mehr als zehn Minuten veraltet sein. Der in der Ansicht &quot;Benutzerdefinierte Kriterien bearbeiten&quot;angezeigte Status wird in Echtzeit abgerufen und ist immer auf dem neuesten Stand. (TGT-35896, TGT-36173)
+* Die Überlagerungen &quot;Gebrauchsinformationen&quot;für Kriterien und Entwürfe spiegeln ihre Verwendung in A/B- und Erlebnis-Targeting-Aktivitäten (TGT-34331) nicht wider.
+* Recommendations-Angebot in den Aktivitäten A/B und Erlebnis-Targeting zeigen keine visuelle Vorschau des Recommendations-Fachs (TGT-33426)
+* Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche der Zielgruppe nicht sichtbar und können nur über API bearbeitet werden. (TGT-35777)
+* Recommendations-Aktivitäten, die über API erstellt wurden, können in der Benutzeroberfläche angezeigt werden, können jedoch nur über die API bearbeitet werden.
+* Der Feed-Status &quot;Benutzerspezifische Kriterien&quot;in der Ansicht &quot;Kriterien-Liste (Karte)&quot;wird alle zehn Minuten aktualisiert und kann in seltenen Fällen mehr als zehn Minuten veraltet sein. Der in der Ansicht zur Bearbeitung benutzerdefinierter Kriterien angezeigte Status wird in Echtzeit abgerufen und ist stets auf dem neuesten Stand. (TGT-35896, TGT-36173)
 
 ### Multivarianz-Test (MVT)-Aktivitäten
 
@@ -77,7 +77,8 @@ In einer MVT-Aktivität ist der in der Tabelle und im Diagramm angezeigte Gewinn
 
 Bekannte Probleme mit at.js:
 
-* Wenn Sie ein Erlebnis ohne Änderungen mit at.js 2.1.1 oder früher erstellen (z. B. ein Standarderlebnis), wird das Erlebnis möglicherweise nicht in Berichten, Analytics für Target (A4T), Adobe Analytics oder Google Analytics gezählt. Darüber hinaus funktioniert das [ttMeta-Plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) möglicherweise nicht ordnungsgemäß.
+* Bei Verwendung von at.js-Versionen vor 2.2.0 werden bei der Klick-Verfolgung keine Konversionen in Analytics for Zielgruppe (A4T) gemeldet, wenn Adobe Analytics-Code nicht in Seitenelementen (wie Schaltflächen) vorhanden ist. Für dieses Problem wurde in at.js 2.2.0 eine Korrektur eingeführt. Wenn [dieses Problem auftritt, aktualisieren Sie bitte auf die neueste at.js-Version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) .
+* Wenn Sie ein Erlebnis ohne Änderungen mit at.js 2.1.1 oder früher erstellen (z. B. ein Standarderlebnis), wird das Erlebnis möglicherweise nicht in Berichten, Analytics für die Zielgruppe (A4T), Adobe Analytics oder Google Analytics gezählt. Darüber hinaus funktioniert das [ttMeta-Plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) möglicherweise nicht ordnungsgemäß.
 
    Verwenden Sie als Problemumgehung einen Leerraum im Erlebnisinhalt. (TNT-33366)
 
