@@ -5,7 +5,7 @@ title: Implementierung einer Einzelseitenanwendung in Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 
 ---
 
@@ -274,17 +274,17 @@ Wenn die vorhergehenden Schritte eingehalten werden, sollten Sie eine robuste A4
 
 Weitere Informationen dazu finden Sie in den folgenden Videos:
 
-### Funktionsweise von at.js 2.x
+### Funktionsweise von at.js 2.x Kennzeichen ![Übersicht](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26250) Kennzeichen ![Übersicht](/help/assets/overview.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Weitere Informationen finden Sie unter [Die Funktionsweise](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) von at.js 2.x.
 
-### Implementieren von at.js 2.x in einer SPA
+### &quot;at.js 2.x&quot;in ein SPA- ![Tutorial-Abzeichen implementieren](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26248) Abzeichen ![für Übungen](/help/assets/tutorial.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Weitere Informationen finden Sie unter [Implementieren von &quot;at.js 2.x&quot;in einer Einzelseitenanwendung (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) von Adobe Target.
+Weitere Informationen finden Sie unter &quot; [Implementieren von &quot;at.js 2.x&quot;in einer Einzelseitenanwendung (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) der Adobe-Zielgruppe.
 
 ### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
