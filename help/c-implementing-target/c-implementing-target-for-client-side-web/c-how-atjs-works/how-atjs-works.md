@@ -1,11 +1,11 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Adobe Target-Systemdiagramm zur Darstellung des Anruf- und Informationsflusses bei Aufrufen oder Datensammlungen einer automatisch erstellten globalen Mbox bei der Verwendung von „at.js“.
-title: Funktionsweise der JavaScript-Bibliothek "at.js"in Adobe Target
+title: So funktioniert die JavaScript-Bibliothek "at.js"der Adobe-Zielgruppe
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -31,7 +31,7 @@ Weitere Informationen zu den Unterschieden, die in 2.x im Vergleich zu 1.x einge
 Grob betrachtet gibt es einige Unterschiede zwischen den beiden Versionen:
 
 * at.js 2.x hat kein globales Mbox-Anfragekonzept, sondern stellt Anfragen beim Laden der Seite. Eine Anfrage beim Laden der Seite kann als Anfrage zum Abrufen von Inhalten verstanden werden, die beim ersten Laden Ihrer Website angewendet werden soll.
-* at.js 2.x verwaltet Konzepte namens &quot;Ansichten&quot;, die für Einzelseitenanwendungen (SPAs) verwendet werden. at.js 1.*x* kennt dieses Konzept nicht.
+* at.js 2.x verwaltet Konzepte, die als Ansichten bezeichnet werden und für Einzelseitenanwendungen (SPAs) verwendet werden. at.js 1.*x* kennt dieses Konzept nicht.
 
 ## Diagramme in at.js 2.x
 
@@ -46,7 +46,7 @@ Die folgenden Diagramme helfen Ihnen dabei, den Arbeitsablauf von at.js 2.x mit 
 | 3 | Es wird eine Seitenlade-Anfrage durchgeführt, in der alle konfigurierten Parameter (MCID, SDID und Kunden-ID) enthalten sind. |
 | 4 | Profilskripte werden ausgeführt und anschließend in den Profilspeicher eingespeist. Der Speicher ruft geeignete Zielgruppen aus der Zielgruppenbibliothek ab (beispielsweise über Adobe Analytics, Zielgruppen-Management etc. bereitgestellte Zielgruppen).<br>Kundenattribute werden in einem Batch-Prozess an den Profilspeicher übermittelt. |
 | 5 | Basierend auf den URL-Anfrageparametern und den Profildaten entscheidet [!DNL Target], welche Aktivitäten und Erlebnisse für die aktuelle Seite und zukünftige Ansichten an den Besucher zurückgegeben werden sollen. |
-| 6 | Zielgerichteter Inhalt wird zurück an die Seite übermittelt. Dieser enthält optional Profilwerte für eine weitere Personalisierung.<br>Die zielgerichteten Inhalte auf der aktuellen Seite werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern.<br>Zielgerichteter Inhalt für Ansichten, die als Ergebnis von Benutzeraktionen in einer SPA angezeigt werden, wird im Browser zwischengespeichert, sodass er sofort ohne zusätzlichen Serveraufruf angewendet werden kann, wenn die Ansichten durch ausgelöst werden `triggerView()`. |
+| 6 | Zielgerichteter Inhalt wird zurück an die Seite übermittelt. Dieser enthält optional Profilwerte für eine weitere Personalisierung.<br>Die zielgerichteten Inhalte auf der aktuellen Seite werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern.<br>Gezielte Inhalte für Ansichten, die aufgrund von Benutzeraktionen in einer SPA angezeigt werden, werden im Browser zwischengespeichert, sodass sie sofort ohne zusätzlichen Serveraufruf angewendet werden können, wenn die Ansichten durch ausgelöst werden `triggerView()`. |
 | 7 | Analytics-Daten werden an Datenerfassungsserver übermittelt. |
 | 8 | Zielgerichtete Daten werden über die SDID mit Analytics-Daten abgeglichen und im Analytics-Berichtspeicher abgelegt.<br>Analytics-Daten können dann sowohl in Analytics als auch in Target eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs Analytics for Target (A4T). |
 
@@ -91,7 +91,7 @@ Wichtige Hinweise:
 * at.js garantiert nicht die Reihenfolge der Ausführung von Remote-Skripten, da diese asynchron geladen werden.
 * Inline-Skripte sollten nicht von Remote-Skripten abhängig sein, da diese später geladen und ausgeführt werden.
 
-## Schulungsvideo: &quot;at.js 2.x&quot;-Zeichen ![Übersicht](/help/assets/overview.png) ![Übersicht](/help/assets/overview.png)
+## Schulungsvideo: &quot;at.js 2.x&quot;-Zeichen ![für Architekturdiagramme](/help/assets/overview.png)
 
 at.js 2.x verbessert die Unterstützung von Adobe Target für SPAs und kann mit anderen Experience Cloud-Lösungen integriert werden. In diesem Video wird erklärt, wie alles zusammenkommt.
 
