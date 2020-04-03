@@ -28,7 +28,7 @@ Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten n
 | user.daysSinceLastVisit |  |
 | user.browser | Der Benutzeragent |
 | user.header | Alle `user.header`-Profile werden von den Kopfzeilendaten einer Mbox-Anfrage integriert |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | Die öffentliche IP-Adresse der Netzwerkverbindung des Besuchers.<br>Sie können dies auf verschiedenen Wegen erreichen, z. B. [whatismyip. com](https://www.whatismyip.com/). Die IP-Adresse ist nicht die NAT-Adresse (interne Adresse), die mit 10., 192.168. oder 172 beginnt.<br>HINWEIS: Diese Kopfzeile funktioniert nicht in neueren AWS-Kanten. Verwenden Sie `user.header('x-forwarded-for')` stattdessen. |
+| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | Die öffentliche IP-Adresse der Netzwerkverbindung des Besuchers.<br>HINWEIS: Der Header user.header(&#39;x-cluster-client-ip&#39;) funktioniert nicht in neueren AWS-Kanten.<br>Sie können dies auf verschiedenen Wegen erreichen, z. B. [whatismyip. com](https://www.whatismyip.com/). Die IP-Adresse ist nicht die NAT-Adresse (interne Adresse), die mit 10., 192.168. oder 172 beginnt. |
 | user.header(&#39;host&#39;) | Website-Hostname |
 | user.header(&#39;cookie&#39;) | Cookie-Daten des Besuchers |
 | user.header(&#39;user-agent&#39;) | Benutzeragent des Benutzer-Browsers |
