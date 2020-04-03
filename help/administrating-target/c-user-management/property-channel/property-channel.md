@@ -5,7 +5,7 @@ title: Berechtigungen für Unternehmensbenutzer
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
 
 ---
 
@@ -272,7 +272,7 @@ Wenn ein Besucher Seite 1 in einem Browser öffnet, wird er zu Seite 2 weitergel
 
 Wenn die Weiterleitungsseite und die Aktivitäts-URL zu derselben Eigenschaft gehören, funktionieren die Klick-Tracks erwartungsgemäß. Weitere Informationen finden Sie unter [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Schulungsvideo: Kennzeichen {#section_2FA080303A064242B63FF16CFA6DB31D} für Schulungsvideo zu ![Berechtigungen in Unternehmen](/help/assets/overview.png)
+## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 Lernziele:
 
