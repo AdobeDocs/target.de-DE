@@ -1,15 +1,15 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: Informationen zu bekannten Problemen in dieser Version von Adobe Zielgruppe. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
-title: Bekannte Probleme und gelöste Probleme  in Adobe Target
+description: Informationen zu bekannten Problemen in dieser Version von Adobe Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
+title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
 
-# Bekannte Probleme und gelöste Probleme{#known-issues-and-resolved-issues}
+# Bekannte Probleme und gelöste Probleme {#known-issues-and-resolved-issues}
 
 Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
 
@@ -21,9 +21,9 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
-### Seiten-Versand {#page-delivery}
+### Seitenversand {#page-delivery}
 
-Wenn Sie eine Vorlagenregel hinzufügen, z. B. URL enthält (/Checkout, /Einkaufswagen), werden Ihren Regeln im [Versand](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)zusätzliche Leerzeichen vorangestellt. Dies ist ein kosmetischer Aspekt und hat keinen Einfluss auf die Erstellung von Audiencen und den Versand von Angeboten. (TGT-35916)
+Wenn Sie eine Vorlagenregel hinzufügen, z. B. URL enthält (/Checkout, /Warenkorb), werden Ihren Regeln im [Seitenversand](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zusätzliche Leerzeichen vorangestellt. Diese Änderung hat rein optische Auswirkungen und keinen Einfluss auf die Erstellung von Audience-Definitionen und den Versand von Angeboten. (TGT-35916)
 
 ### Vorschaulinks für Aktivitäts-QAs {#preview}
 
@@ -62,33 +62,33 @@ Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Ange
 
 Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
 
-* Entitäten sind nach 60 Tagen, nachdem sie keine Aktualisierungen per Feed oder API erhalten haben, korrekt abgelaufen; Die abgelaufenen Entitäten werden jedoch nach Ablauf nicht aus dem Index für die Katalogsuche entfernt. (IRI-857)
-* Die Überlagerungen &quot;Gebrauchsinformationen&quot;für Kriterien und Entwürfe spiegeln ihre Verwendung in A/B- und Erlebnis-Targeting-Aktivitäten (TGT-34331) nicht wider.
-* Recommendations-Angebot in den Aktivitäten A/B und Erlebnis-Targeting zeigen keine visuelle Vorschau des Recommendations-Fachs (TGT-33426)
-* Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche der Zielgruppe nicht sichtbar und können nur über API bearbeitet werden. (TGT-35777)
-* Recommendations-Aktivitäten, die über API erstellt wurden, können in der Benutzeroberfläche angezeigt werden, können jedoch nur über die API bearbeitet werden.
-* Der Feed-Status &quot;Benutzerspezifische Kriterien&quot;in der Ansicht &quot;Kriterien-Liste (Karte)&quot;wird alle zehn Minuten aktualisiert und kann in seltenen Fällen mehr als zehn Minuten veraltet sein. Der in der Ansicht zur Bearbeitung benutzerdefinierter Kriterien angezeigte Status wird in Echtzeit abgerufen und ist stets auf dem neuesten Stand. (TGT-35896, TGT-36173)
+* Entitäten verlieren ordnungsgemäß die Gültigkeit, wenn innerhalb von 60 Tagen keine Updates per Feed oder API empfangen werden. Die abgelaufenen Entitäten werden jedoch nach ihrem Ablauf nicht aus dem Katalogsuchindex entfernt. (IRI-857)
+* Die Overlays „Informationen zur Verwendung“ für Kriterien und Designs entsprechen nicht ihrer Verwendung in A/B- und Erlebnis-Targeting-Aktivitäten. (TGT-34331)
+* Für Recommendations-Angebote in A/B- und Erlebnis-Targeting-Aktivitäten wird keine Vorschau der Recommendations-Taskleiste angezeigt. (TGT-33426)
+* Sammlungen, Ausschlüsse, Kriterien und Designs, die über die API erstellt wurden, sind in der Target-Benutzeroberfläche nicht sichtbar und können nur über die API bearbeitet werden. (TGT-35777)
+* Recommendations-Aktivitäten, die über die API erstellt wurden, können zwar in der Benutzeroberfläche angezeigt, aber nur über die API bearbeitet werden.
+* Der Feed-Status „Benutzerspezifische Kriterien“ in der Kriterien-Listenansicht (Karte) wird alle zehn Minuten aktualisiert und kann in seltenen Fällen mehr als zehn Minuten veraltet sein. Der in der Ansicht zur Bearbeitung benutzerdefinierter Kriterien angezeigte Status wird in Echtzeit abgerufen und ist stets auf dem neuesten Stand. (TGT-35896, TGT-36173)
 
 ### Multivarianz-Test (MVT)-Aktivitäten
 
 In einer MVT-Aktivität ist der in der Tabelle und im Diagramm angezeigte Gewinner nicht konsistent, wenn Sie die Metriken prüfen. Dieses Phänomen tritt auf, wenn ein Benutzer von der Zusammenfassungs- zur Diagrammansicht und wieder zurück zur Zusammenfassungsansicht wechselt, eine Metrik ändert und dann zur Diagrammansicht wechselt. Wenn dieses Problem auftritt, wird in der Zusammenfassungsansicht immer der korrekte Gewinner angezeigt. Wenn der Benutzer die Diagrammansicht nie zwischen Zusammenfassungsansichten wechselt, wird in der Diagrammansicht der korrekte Gewinner angezeigt.
 
-### at.js {#atjs}
+### at.js  {#atjs}
 
 Bekannte Probleme mit at.js:
 
-* Bei Verwendung von at.js-Versionen vor 2.2.0 werden bei der Klick-Verfolgung keine Konversionen in Analytics for Zielgruppe (A4T) gemeldet, wenn Adobe Analytics-Code nicht in Seitenelementen (wie Schaltflächen) vorhanden ist. Für dieses Problem wurde in at.js 2.2.0 eine Korrektur eingeführt. Wenn [dieses Problem auftritt, aktualisieren Sie bitte auf die neueste at.js-Version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) .
-* Wenn Sie ein Erlebnis ohne Änderungen mit at.js 2.1.1 oder früher erstellen (z. B. ein Standarderlebnis), wird das Erlebnis möglicherweise nicht in Berichten, Analytics für die Zielgruppe (A4T), Adobe Analytics oder Google Analytics gezählt. Darüber hinaus funktioniert das [ttMeta-Plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) möglicherweise nicht ordnungsgemäß.
+* Bei Verwendung von at.js-Versionen älter als 2.2.0 werden beim Klick-Tracking keine Konversionen in Analytics for Target (A4T) gemeldet, wenn der Adobe Analytics-Code nicht in Seitenelementen (wie Schaltflächen) vorhanden ist. Für dieses Problem wurde in at.js 2.2.0 eine Korrektur implementiert. Wenn dieses Problem auftritt, [führen Sie ein Upgrade auf die neueste at.js-Version durch](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* Wenn Sie ein Erlebnis ohne Änderungen mit at.js 2.1.1 oder einer früheren Version erstellen (z. B. ein Standarderlebnis), wird das Erlebnis möglicherweise nicht in Berichten, Analytics für Target (A4T), Adobe Analytics oder Google Analytics gezählt. Darüber hinaus funktioniert das [ttMeta-Plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) möglicherweise nicht ordnungsgemäß.
 
-   Verwenden Sie als Problemumgehung einen Leerraum im Erlebnisinhalt. (TNT-33366)
+   Verwenden Sie als Problemumgehung im Erlebnisinhalt einen Leerraum. (TNT-33366)
 
    >[!NOTE]
    >
-   >Eine Behebung dieses Problems wurde in at.js 2.2.0 vorgenommen. Sie sollten auf die [neueste Version oder at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) aktualisieren oder die oben erwähnte Problemumgehung nur für at.js-Versionen vor 2.2.0 verwenden.
+   >Eine Korrektur dieses Problems wurde in at.js 2.2.0 implementiert. Sie sollten ein Upgrade auf die [neueste Version oder at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) vornehmen oder die oben genannte Problemumgehung nur für at.js-Versionen vor 2.2.0 verwenden.
 
 * Beim Laden einer Seite in Visual Experience Composer (VEC) muss Target ermitteln, ob die globale Mbox-Einstellung aktiviert oder deaktiviert ist und ob an der Stelle, an der der Benutzer die Empfehlung im VEC anwenden möchte, ein entityID- oder categoryID-Eintrag vorhanden ist. Basierend auf diesen Informationen wird die Kriterienliste gefiltert. Die Standardliste enthält zwar gefilterte Algorithmen, doch mit dem [Kompatibilitäts-Kontrollkästchen](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) können Sie die vollständige Algorithmenliste anzeigen.
 
-   Bei der Verwendung von at.js ist das Kontrollkästchen Kompatibilität ausgeblendet, sodass Sie keine inkompatiblen Algorithmen anzeigen können.
+   Bei der Verwendung von at.js ist das Kontrollkästchen „Kompatibilität“ ausgeblendet, sodass Sie keine inkompatiblen Algorithmen anzeigen können.
 
    Dieses Problem gilt nur für Recommendations-Aktivitäten, für die VEC verwendet wird.
 
@@ -172,7 +172,7 @@ Mboxes werden in Microsoft Explorer 11-Browsern nicht ausgelöst, nachdem ein U
 
 Mit der Veröffentlichung von API 2.3.0 oder höher behoben.
 
-### Geo  Targeting
+### Geo   Targeting
 
 Die Suche nach Zeichenfolgen, die Sonderzeichen enthalten (wie z. B. Leerzeichen oder Komma), wird bei der Erstellung von Geotargeting-Zielgruppen derzeit nicht unterstützt. Das Problem tritt beispielsweise auf, wenn Sie Zielgruppen basierend auf Städten, Bundesländern, Ländern usw. erstellen. Wenn Sie z. B. „New York“ eingeben, werden keine gültigen Suchergebnisse zurückgegeben.
 
@@ -214,9 +214,9 @@ In den Sicherungsempfehlungen wird fälschlicherweise „Aktiviert“ auf den Ka
 
 Dieses Problem wurde in Version 18.4.1 behoben. Nun wird „Deaktiviert“ angezeigt.
 
-### AT-(Automatisches Targeting-)Aktivitäten und Reporting-Zielgruppen
+### AT-(Automatisches Targeting)-Aktivitäten und Reporting-Zielgruppen
 
-Wenn der Name einer in einer AT-(Automatisches Targeting-)Aktivität verwendeten Reporting-Zielgruppe geändert wird, schlagen weitere Updates von Target für diese Aktivität möglicherweise mit einer Fehlermeldung fehl.
+Wenn der Name einer in einer AT-(Automatisches Targeting)-Aktivität verwendeten Reporting-Zielgruppe geändert wird, schlagen weitere Updates von Target für diese Aktivität möglicherweise mit einer Fehlermeldung fehl.
 
 Dieses Problem wurde in Target-Version 18.5.1 (22. Mai 2018) behoben.
 
@@ -295,7 +295,7 @@ Die Möglichkeit, mehrere Metriken in einem Bericht anzuzeigen, besteht seit Tar
 
 ### Angebote
 
-Aus der Bildangebotsbibliothek gelöschte Bilder (Angebote \> Bildangebote) bleiben in der Benutzeroberfläche sichtbar. In einer kommenden Version werden keine gelöschten Bilder mehr angezeigt. In der Zwischenzeit werden gelöschte Bilder auf der Benutzeroberfläche mit dem Status Gelöscht angezeigt. (TGT-23793)
+Aus der Bildangebotsbibliothek gelöschte Bilder (Angebote > Bildangebote) bleiben in der Benutzeroberfläche sichtbar. In einer kommenden Version werden keine gelöschten Bilder mehr angezeigt. In der Zwischenzeit werden gelöschte Bilder auf der Benutzeroberfläche mit dem Status Gelöscht angezeigt. (TGT-23793)
 
 In Target 17.4.1 (27. April 2017) behoben.
 
