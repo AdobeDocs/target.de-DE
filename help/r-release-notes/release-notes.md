@@ -5,7 +5,7 @@ title: 'Adobe Target-Versionshinweise (aktuell) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
 
 ---
 
@@ -33,16 +33,6 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
    >
 * Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-
-## Summit Live: Die Konferenz über digitale Erfahrungen {#summit}
-
-Adobe Summit ist zu einem virtuellen Ereignis geworden! Mit einem Live-Digital-Erlebnis ab dem 31. März 2020 holt Adobe alle Stationen heraus. Zu diesem Live-Erlebnis gehören unsere Haupt-Keynote-Adresse, Mini-Keynotes mit den neuesten Trends und Fortschritten, Einblicke in den Erfolg von Branchenführern und Breakout-Sitzungen.
-
-* **Sehen Sie sich die Keynote live** an: Lernen Sie Trends und neue Produkte kennen, die die Branche von Ihrem Wohn- und Geschäftsleben aus verändern.
-* **Lernen Sie mehr als 100 Arbeitsgruppen bei Bedarf kennen:** Erhalten Sie kostenlosen Zugriff auf über hundert bedarfsgesteuerte Arbeitssitzungen von Adobe, Kunden und Partnern.
-* **Einen Höhepunkt in der Zukunft**: Lassen Sie sich von unserem Gast Chelsea Handler mit den neuesten experimentellen Technologien in unseren Laboren verbinden — bei Adobe Sneaks.
-
-Um sich für den freien Zugriff auf das gesamte digitale Ereignis zu registrieren, besuchen Sie [die Digital Experience Conference: Gipfelseite](https://www.adobe.com/summit.html) .
 
 ## Zielgruppe at.js (25. März 2020)
 
