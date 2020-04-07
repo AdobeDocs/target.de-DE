@@ -1,11 +1,11 @@
 ---
-keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Steigerung; Ad-hoc; Report Builder; Konfidenz
+keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;report builder;confidence
 description: Dieses Thema enthält Antworten auf häufig zur Steigerung und Konfidenz bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 title: Steigerung und Konfidenz – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: b5191230c76135d5299754e72c9651d018086e60
 
 ---
 
@@ -28,7 +28,13 @@ Die Konfidenzniveau ist die Wahrscheinlichkeit, dass die gemessene Konversionsra
 
 ## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen?  {#section_D3E44E24782A409DBD88AE4D1595CB58}
 
-Steigerung und Konfidenz können derzeit nicht für errechnete Metriken generiert werden. In den meisten Fällen sollte dies jedoch kein Problem sein, da die Steigerung durch die Normalisierungsmetrik normalisiert wird. Wenn Sie beispielsweise die Steigerung für Bestellungen auswählen und die Normalisierungsmetrik „Besuche“ lautet, wird die Steigerung auf dem Verhältnis der beiden errechnet. Das ist dann die Konversionsrate.
+Steigerung und Konfidenz werden derzeit nicht mit berechneten Metriken unterstützt. In den meisten Fällen ist dies jedoch kein Problem, da der im A4T-Bericht berechnete Konversionsrate bereits eine berechnete Metrik ist, bei der der Nenner die normalisierende Metrik ist (Instanzen, Besuche, Besucher). Wenn Sie beispielsweise die Bestellmetrik auswählen und die Normalisierungsmetrik Besucher ist, wird der Konversionsrate (Bestellungen/Besucher) automatisch über den A4T-Berichte berechnet. Die resultierende Steigerungsmetrik spiegelt den Unterschied in diesem Konversionsrate in den Texterlebnissen im Vergleich zum Standard wider.
+
+Die am häufigsten für die Optimierung berechneten Metriken lassen sich in eine von zwei Kategorien unterteilen: Aggregat-Metriken und andere Konversionsberechnungen, z. B. durchschnittlicher Bestellwert (AOV).
+
+Aggregat-Metriken werden verwendet, wenn ein Unternehmen eindeutige Ereignis verwendet, um verschiedene &quot;Aromen&quot;der Speicherkonvertierung zu erfassen. Wenn Ihr Ziel z. B. darin besteht, Interessentenformularsendungen zu fördern und Sie über 10 verschiedene Interessentenformulare verfügen, kann eine Firma eindeutige Ereignis zur Zählung der einzelnen Formularkonvertierungstypen erstellen. Um die Gesamtanzahl aller gesendeten Interessentenformulare anzuzeigen, müssen sie eine einfache errechnete Metrik erstellen, um sie alle zusammen hinzuzufügen. Eine bessere, modernere Methode zur Verfolgung dieses Problems besteht darin, ein einzelnes Ereignis für die Interessentenübermittlung in Analytics zu implementieren und dann eine eVar zur Erfassung des Interessentenformulartyps zu verwenden. Bei Verwendung dieser Methode sind weniger Variablen erforderlich, sodass keine individuellen Metriken mehr Aggregat werden müssen und Sie weiterhin die Möglichkeit haben, eine holistische Interessentenformularumrechnung zu sehen und diese mithilfe der eVar nach Interessententypen zu unterteilen. Dadurch entfällt auch die Notwendigkeit von Aggregat-Metriken bei der Bewertung der Leistung einer Zielgruppe-Aktivität.
+
+Eine andere häufig verwendete berechnete Metrik, der durchschnittliche Bestellwert, wird derzeit nicht mit Steigerung und Konfidenz unterstützt, da die Normalisierungsmetrik keine Standardmetrik ist (Instanzen, Besuche, Besucher). Stattdessen sollten Sie die beiden einflussreichen Metriken AOV, Umsatz pro Besucher und Konversionsrat im Auge behalten.
 
 ## Wie verwaltet A4T Konfidenzberechnungen?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
