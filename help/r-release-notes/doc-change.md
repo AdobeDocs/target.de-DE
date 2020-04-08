@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cb5dd23e6cc8b15fda81cdb4fb615ac3efdad83f
+source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| April 7 | [Steigerung und Konfidenz – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Der Text für &quot;Warum kann ich Steigerung und Konfidenz bei berechneten Metriken nicht sehen?&quot; wurde aktualisiert. |
 | April 2 | [Nützliche Variablen, Profile, Parameter und Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Es wurden Informationen zur Verwendung `user.header('x-forwarded-for')` mit neueren AWS-Kanten zum Abrufen der IP-Adressen von Benutzern hinzugefügt. |
 |  | [Aktualisieren von at.js 1.*x* auf at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Folgender Hinweis wurde hinzugefügt:<ul><li>Nach der Installation der ECID-Bibliothek v 4.3.0 + und at.js 2.*x* können Sie Aktivitäten erstellen, die mehrere Domänen umfassen und Benutzer tracken können. Beachten Sie, dass diese Funktion erst nach Ablauf der Sitzung funktioniert.</li></ul> |
 | 30. März | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Es wurden bekannte Probleme hinzugefügt, die at.js-Versionen vor at.js 2.2.0 betreffen. Dieses Problem führte dazu, dass Klick-Tracking keine Konvertierungen in Analytics für die Zielgruppe (A4T) meldete, wenn Adobe Analytics-Code nicht in Seitenelementen vorhanden war. |
@@ -80,7 +81,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das ganze Thema wurde aktualisiert. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | Es wurden Informationen hinzugefügt, die erklären, dass Geoinformationen [!DNL Target] nicht gespeichert werden, wie z. B. Postleitzahlen. |
 | 8. November 2019 | [Zielgruppe Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md) | Es wurden Links zu weiteren Problemen in der Vergangenheit hinzugefügt. |
-|  | [Vorschriften zur Privatsphäre und zum Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | CCPA-Abschnitt mit neuer Notiz aktualisiert.<br>Es wurden neue FAQ hinzugefügt, die Kunden darüber informieren, dass Zielgruppe nicht in der Lage ist, Kunden die Daten direkt von der Zielgruppe an Dritte zu teilen oder zu verkaufen, sodass es keinen Opt-out zum Verkauf zur Zielgruppe gibt. |
+|  | [Vorschriften zur Privatsphäre und zum Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | CCPA-Abschnitt mit neuer Notiz aktualisiert.<br>Es wurden neue FAQ hinzugefügt, die Kunden darüber informieren, dass Zielgruppe nicht in der Lage ist, Kunden die Möglichkeit zu geben, Daten direkt von der Zielgruppe an Dritte zu teilen oder zu verkaufen, sodass es keinen Opt-out zum Verkauf zur Zielgruppe gibt. |
 | 7. November 2019 | [Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | Codebeispiel für den Parameter adobeQA hinzugefügt. |
 | 5. November 2019 | [Site-Seiten](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Der Text im Abschnitt &quot;Fehlerbehebung&quot;wurde aktualisiert. |
 | 4. November 2019 | [Häufig gestellte Fragen zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Text unter den folgenden häufig gestellten Fragen aktualisiert: &quot;Warum sehe ich Warnmeldungen wie &quot;Aktionen mit fehlenden Selektoren&quot;?&quot; |
@@ -120,7 +121,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Versionshinweise - Zielgruppe Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Neues Thema |
 |  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu den Versionen V1/Versand API und Node.js SDK hinzugefügt. |
 | 8. Oktober 2019 | [Zielgruppe Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md) | Neues Thema mit Links zum ersten Stapel von Newslettern, mit weiteren Informationen. |
-| 3. Oktober 2019 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde Folgendes hinzugefügt: <ul><li>Bekanntes Problem und Problemumgehung beim Erstellen eines Erlebnisses ohne Änderungen mit at.js 2.*x* -Bibliothek.</li><li>Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche der Zielgruppe nicht sichtbar und können nur über API bearbeitet werden.</li><li>Recommendations-Aktivitäten, die über API erstellt wurden, können in der Benutzeroberfläche angezeigt werden, können jedoch nur über die API bearbeitet werden.</li></ul> |
+| 3. Oktober 2019 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde Folgendes hinzugefügt: <ul><li>Bekanntes Problem und Problemumgehung beim Erstellen eines Erlebnisses ohne Änderungen mit at.js 2.*x* -Bibliothek.</li><li>Sammlungen, Ausschlüsse, Kriterien und Designs, die über die API erstellt wurden, sind in der Target-Benutzeroberfläche nicht sichtbar und können nur über die API bearbeitet werden.</li><li>Recommendations-Aktivitäten, die über die API erstellt wurden, können zwar in der Benutzeroberfläche angezeigt, aber nur über die API bearbeitet werden.</li></ul> |
 |  | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Hinweis zum Abschnitt &quot;mboxDebug&quot;hinzugefügt. |
 | 2. Oktober 2029 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zu kommenden Versionen hinzugefügt. |
 | 1. Oktober 2019 | [Nützliche Variablen, Profile, Parameter und Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Der Text im Abschnitt &quot;Kundenattribute&quot;wurde aktualisiert. |
