@@ -5,7 +5,7 @@ title: Implementierung einer Einzelseitenanwendung in Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
+source-git-commit: 58ec4ee9821b06dcacd2a24e758fb8d083f39947
 
 ---
 
@@ -269,6 +269,34 @@ document.addEventListener("at-view-end", function(e) {
 Obwohl diese Beispiele JavaScript-Code verwenden, kann all dies vereinfacht werden, wenn Sie einen Tag-Manager verwenden, z. B. [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 Wenn die vorhergehenden Schritte eingehalten werden, sollten Sie eine robuste A4T-Lösung für SPAs haben.
+
+## Best Practices zur Implementierung
+
+Mit at.js 2.x-APIs können Sie Ihre [!DNL Target] Implementierung auf verschiedene Weise anpassen. Dabei ist es jedoch wichtig, die richtige Reihenfolge der Vorgänge zu beachten.
+
+Die folgenden Informationen beschreiben die Reihenfolge der Vorgänge, die beim ersten Laden einer Einzelseitenanwendung in einem Browser ausgeführt werden müssen, sowie die Reihenfolge der Ansichten, die danach vorgenommen werden.
+
+### Reihenfolge der Vorgänge beim ersten Laden der Seite
+
+| Schritt | Aktion | Details |
+| --- | --- | --- |
+| 1 | Laden von VisitorAPI-JS | Diese Bibliothek ist für die Zuweisung einer ECID zum Besucher zuständig. Diese ID wird später von anderen [!DNL Adobe] Lösungen auf der Webseite verwendet. |
+| 2 | at.js 2.x laden | at.js 2.x lädt alle erforderlichen APIs, die Sie zur Implementierung von [!DNL Target] Anforderungen und Ansichten verwenden. |
+| 3 | Anfrage [!DNL Target] ausführen | Wenn Sie über eine Datenschicht verfügen, sollten Sie kritische Daten laden, die gesendet werden müssen, [!DNL Target] bevor eine [!DNL Target] Anforderung ausgeführt wird. Auf diese Weise können Sie alle Daten `targetPageParams` senden, die Sie für das Targeting verwenden möchten. Sie müssen sicherstellen, dass Sie in diesem API-Aufruf die Anforderung &quot;execute&quot;> &quot;pageLoad&quot;sowie &quot;prefetch&quot;> &quot;Ansichten&quot;anfordern. Wenn Sie die Ansichten festgelegt haben `pageLoadEnabled` und `viewsEnabled`ausführen > pageLoad und prefetch > automatisch mit Schritt 2 ausgeführt werden; Andernfalls müssen Sie die `getOffers()` API verwenden, um diese Anforderung zu stellen. |
+| 4 | Aufruf `triggerView()` | Da die [!DNL Target] Anforderung, die Sie in Schritt 3 initiiert haben, sowohl Erlebnisse für die Ausführung von &quot;Seitenladevorgang&quot;als auch für Ansichten zurückgeben kann, stellen Sie sicher, dass `triggerView()` der Aufruf nach Rückgabe der [!DNL Target] Anforderung erfolgt und dass die Anwendung der Angebot im Cache abgeschlossen ist. Sie müssen diesen Schritt nur einmal pro Ansicht ausführen. |
+| 5 | Rufen Sie den Beacon für die [!DNL Analytics] Ansicht auf | Dieser Beacon sendet die mit den Schritten 3 und 4 verknüpfte SDID [!DNL Analytics] zur Datenzuordnung an. |
+| 6 | Aufruf zusätzlich `triggerView({"page": false})` | Dies ist ein optionaler Schritt für SPA-Frameworks, die bestimmte Komponenten auf der Seite potenziell wiedergeben können, ohne dass eine Änderung der Ansicht stattfindet. In solchen Fällen ist es wichtig, dass Sie diese API aufrufen, um sicherzustellen, dass [!DNL Target] Erlebnisse erneut angewendet werden, nachdem das SPA-Framework die Komponenten erneut gerendert hat. Sie können diesen Schritt so oft ausführen, wie Sie möchten, um sicherzustellen, dass [!DNL Target] Erlebnisse in Ihren SPA-Ansichten bestehen bleiben. |
+
+### Reihenfolge der Vorgänge für die Änderung der SPA-Ansicht (kein vollständiges Neuladen der Seite)
+
+| Schritt | Aktion | Details |
+| --- | --- | --- |
+| 1 | Aufruf `visitor.resetState()` | Diese API stellt sicher, dass die SDID beim Laden für die neue Ansicht neu generiert wird. |
+| 2 | Cache aktualisieren durch Aufruf der `getOffer()` API | Dies ist ein optionaler Schritt, der durchgeführt werden kann, wenn diese Änderung der Ansicht das Potenzial hat, den aktuellen Besucher für weitere [!DNL Target] Aktivitäten zu qualifizieren oder sie von Aktivitäten zu deaktivieren. An dieser Stelle können Sie auch zusätzliche Daten senden, an die Sie weitere Targeting-Funktionen [!DNL Target] aktivieren möchten. |
+| 3 | Aufruf `triggerView()` | Wenn Sie Schritt 2 ausgeführt haben, müssen Sie auf die [!DNL Target] Anforderung warten und die Angebot auf den Cache anwenden, bevor Sie diesen Schritt ausführen. Sie müssen diesen Schritt nur einmal pro Ansicht ausführen. |
+| 4 | Aufruf `triggerView()` | Wenn Sie Schritt 2 nicht ausgeführt haben, können Sie diesen Schritt ausführen, sobald Sie Schritt 1 abgeschlossen haben. Wenn Sie Schritt 2 und Schritt 3 ausgeführt haben, sollten Sie diesen Schritt überspringen. Sie müssen diesen Schritt nur einmal pro Ansicht ausführen. |
+| 5 | Rufen Sie den Beacon für die [!DNL Analytics] Ansicht auf | Dieser Beacon sendet die mit Schritt 2, 3 und 4 verknüpfte SDID [!DNL Analytics] zur Datenzuordnung an. |
+| 6 | Aufruf zusätzlich `triggerView({"page": false})` | Dies ist ein optionaler Schritt für SPA-Frameworks, die bestimmte Komponenten auf der Seite potenziell wiedergeben können, ohne dass eine Änderung der Ansicht stattfindet. In solchen Fällen ist es wichtig, dass Sie diese API aufrufen, um sicherzustellen, dass [!DNL Target] Erlebnisse erneut angewendet werden, nachdem das SPA-Framework die Komponenten erneut gerendert hat. Sie können diesen Schritt so oft ausführen, wie Sie möchten, um sicherzustellen, dass [!DNL Target] Erlebnisse in Ihren SPA-Ansichten bestehen bleiben. |
 
 ## Schulungsvideos
 
