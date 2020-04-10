@@ -5,7 +5,7 @@ title: Implementierung einer Einzelseitenanwendung in Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
+source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
 
 ---
 
@@ -270,7 +270,7 @@ Obwohl diese Beispiele JavaScript-Code verwenden, kann all dies vereinfacht werd
 
 Wenn die vorhergehenden Schritte eingehalten werden, sollten Sie eine robuste A4T-Lösung für SPAs haben.
 
-## Best Practices zur Implementierung
+## Best Practices zur Implementierung {#bp}
 
 Mit at.js 2.x-APIs können Sie Ihre [!DNL Target] Implementierung auf verschiedene Weise anpassen. Es ist jedoch wichtig, die richtige Reihenfolge der Vorgänge während dieses Prozesses zu befolgen.
 
