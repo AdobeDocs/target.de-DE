@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -107,6 +107,8 @@ Anstatt auf alle Targeting-Anfragen an einem einzigen Standort zu antworten, wer
 >
 >[!DNL Adobe Target] verfügt derzeit über kein Edge-Netzwerk in China, weshalb die Endnutzerleistung für [!DNL Target] für Kunden in China weiterhin eingeschränkt ist. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
+Sie können bei Bedarf die Randnotizen der weißen Zielgruppe anzeigen. Weitere Informationen finden Sie unter [Whitelist Zielgruppe Edge-Knoten](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md).
+
 ## Protected User Experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe stellt sicher, dass die Verfügbarkeit und Performance der Targeting-Infrastruktur so zuverlässig wie möglich ist. Allerdings kann es durch einen Kommunikationsausfall zwischen dem Browser eines Endbenutzers und den Servern von Adobe zu einer Unterbrechung bei der Bereitstellung der Inhalte kommen.
@@ -131,7 +133,7 @@ Google fördert Prüfung durch Benutzer und gibt in seiner Dokumentation an, das
 Weitere Informationen finden Sie unter folgenden Google-Ressourcen:
 
 * [Website-Tests und Google-Suche](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Experimente und Maskierung](https://support.google.com/analytics/answer/2576845?hl=en&ref_topic=1745207)
+* [Experimente und Maskierung](https://support.google.com/analytics/answer/2576845?hl=en&amp;ref_topic=1745207)
 
 Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) veröffentlicht. Obwohl dieser Beitrag aus dem Jahr 2012 stammt, ist er die aktuellste Stellungnahme von Google zu diesem Thema und die Richtlinien sind nach wie vor gültig.
 
