@@ -4,7 +4,7 @@ title: Adobe Target-Glossar
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
 
 ---
 
@@ -328,6 +328,10 @@ Dieser Interaktionstyp entspricht der während des Besuchs verbrachten Zeit (in 
 Immer, wenn die Seite mit der Mbox von einem Besucher angezeigt wird, werden alle Variablen der Verweisseite und der Seiten-URL automatisch an die Mbox weitergegeben. Diese URL-Variablen sind dann für die Verwendung durch das Anzeige-Targeting oder die Segmentfilter in Berichten verfügbar.
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+
+**visit**
+
+Ein Besuch wird manchmal als Sitzung bezeichnet. Ein Besuch endet nach 30 Minuten Inaktivität, d. h., zwischen den Serveranforderungen an die Zielgruppe sind mindestens 30 Minuten vergangen.
 
 **Besucher**
 
