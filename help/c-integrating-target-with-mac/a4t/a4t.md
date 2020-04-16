@@ -6,7 +6,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -50,7 +50,7 @@ Wenn Sie über einen Einsatz von A4T nachdenken, sollten Sie die folgenden Punkt
 * Bei der Verwendung von Analytics als Berichtsquelle ist nur eine einzige Mbox-basierte Metrik erlaubt.
 * Bei einem Server-zu-Server-Aufruf von Target zu Analytics werden Aktivitäts- und Erlebnisinformationen an Analytics gesendet. Durch diese Integration werden keine zusätzlichen Server-Aufrufe für Target oder Analytics getätigt.
 
-   In bestimmten Situationen schlägt der Classification-Aufruf von Target an Analytics möglicherweise fehl und Aktivitäten zeigen keine Daten in Analytics an. In diesem Fall finden Sie unter [Fehlerbehebung bei der Integration von Analytics und Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können sich auch an den Kundendienst [wenden](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) , um weitere Hilfe zu erhalten.
+   In einigen Fällen schlägt der Classification-Aufruf von Zielgruppe zu Analytics möglicherweise fehl und die Aktivitäten zeigen keine Daten in Analytics an. In diesem Fall finden Sie weitere Informationen unter [Fehlerbehebung bei der Analytics- und Zielgruppe-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können sich auch an den Kundendienst [wenden](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) , um weitere Hilfe zu erhalten.
 
 ## Unterstützte Aktivitätstypen {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -108,7 +108,7 @@ Um den Bericht in [!DNL Analytics] statt in [!DNL Target] anzuzeigen, klicken Si
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Analytics for Target (A4T) (4:32) - ![Übersichtskennzeichnung](/help/assets/overview.png)
+### Kennzeichen &quot;Analytics for Zielgruppe&quot;(A4T) (4:32) ![Überblick](/help/assets/overview.png)
 
 In diesem Video wird erläutert, wie sich Adobe Analytics als eine Adobe Target-Berichtsquelle einsetzen lässt, die die Analysen Ihres Optimierungsprogramms unterstützt.
 
@@ -118,7 +118,7 @@ In diesem Video wird erläutert, wie sich Adobe Analytics als eine Adobe Targe
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics/Target-Integration (A4T) (40:33) !![Tutorial badge](/help/assets/tutorial.png
+### Analytics/Zielgruppe Integration (A4T) (40:33) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
 Dieses Video ist eine Aufzeichnung von [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7), eine Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
 
@@ -127,4 +127,4 @@ Dieses Video ist eine Aufzeichnung von [Office Hours](../../cmp-resources-and-co
 * Erfahren Sie, welche Berichte Sie in Analytics am besten verwenden
 * Antworten auf häufige Fragen zu A4T
 
-[Ambulanzstunden für die Analytics/Target-Integration (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Ambulanzzeiten für Analytics/Zielgruppe-Integration (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
