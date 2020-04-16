@@ -4,7 +4,7 @@ description: Verwenden Sie Sequenzen von bis zu fünf Kriterien, um eine größe
 title: Erstellen von Kriteriensequenzen
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -86,7 +86,7 @@ Es gibt mehrere Möglichkeiten, um auf den Bildschirm [!UICONTROL Kriterienseque
 
    Weitere Informationen zu den Empfehlungslogikoptionen finden Sie unter [Kriterien](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Schulungsvideo: Kriterien in Recommendations erstellen (12:33) !![Tutorial badge](/help/assets/tutorial.png
+## Schulungsvideo: Kriterien in Recommendations erstellen (12:33) Abzeichen ![für Übungen](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
