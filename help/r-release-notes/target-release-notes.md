@@ -5,7 +5,7 @@ title: Versionshinweise zu Adobe Zielgruppe
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
+source-git-commit: a6de4442ff6b3c8ad3eb18a8105f71458e43f097
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert: 20. April 2020**
+**Zuletzt aktualisiert: 21. April 2020**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -49,6 +49,77 @@ Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderu
 * Es wurde ein Fehler behoben, der verhinderte, dass einige Benutzer Elemente aus einem Recommendations-Katalog löschen konnten. (TGT-36455)
 * Es wurde ein Fehler behoben, der verhinderte, dass Benutzer Recommendations-Kriterien auf einer mehrseitigen Aktivität speichern konnten. (TGT-36249)
 * Es wurde ein Anzeigeproblem behoben, das dazu führte, dass ein Recommendations-Algorithmus &quot;Ergebnisse abrufen&quot;für einen längeren Zeitraum anzeigte. (TGT-36550 und TGT-36551)
+
+## Änderungen an Profil Batch Status API Version 2 (4. Mai 2020)
+
+Ab Version 4. Mai gibt der Profil Batch-Status nur noch Fehlerdaten auf Zeilenebene zurück (Erfolgsdaten werden nicht zurückgegeben). Fehlgeschlagene Profil-IDs werden von der API in Zukunft zurückgegeben.
+
+Die vorherigen und neuen API-Antworten lauten wie folgt:
+
+`ProfileBatchStatus Api
+http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+
+**Zurzeit sehen wir die Antwort wie folgt:**
+
+`https://mboxedge17.tt.omtrdc.net/m2/amazonwebservicesinc/v2/profile/batchStatus?batchId=amazonwebservicesinc-1585929692655-59449976`
+
+```
+<response>
+ 
+    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>1514187733806-729395</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>1573612762055-214017</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+**Nach dem 4. Mai lautet die Antwort:**
+
+```
+<response>
+ 
+    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
