@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
+source-git-commit: 710b442dd7e2d906dafc5ec73748268681e08448
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| April 22 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Neuer Abschnitt hinzugefügt: Änderungen an *Profil Batch Status API Version 2 (4. Mai 2020).* |
 | April 20 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Neuer Abschnitt hinzugefügt: *Adobe Zielgruppe Skill Builder: Entwickler-Chat, migrieren Sie &quot;mbox.js&quot;der Adobe-Zielgruppe in &quot;at.js&quot;.* |
 | April 14 | [Edge-Hosts der Whitelist-Zielgruppe](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Neues Thema |
 | April 10 | [Implementieren von Einzelseiten-Apps](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Neuer Abschnitt hinzugefügt: &quot;Best Practices für die Implementierung&quot;. |
