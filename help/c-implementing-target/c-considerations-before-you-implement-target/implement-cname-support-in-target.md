@@ -5,7 +5,7 @@ title: CNAME und Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8267de6c27566ec397651d3bfc88aad0818ed8d2
+source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 
 ---
 
@@ -22,7 +22,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    DigiCert ruft diesen Prozess zur Überprüfung der [Domänenkontrolle (DCV)](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/)auf. Adobe darf erst dann ein Zertifikat unter Ihrer Domäne generieren, wenn dieser Prozess für mindestens eine der folgenden DCV-Methoden abgeschlossen ist:
 
-   * Die schnellste DCV-Methode ist die __DNS-CNAME-Methode__, bei der Sie Ihrer Domäne einen DNS-CNAME-Eintrag (mit einem Token) hinzufügen, der auf den DCV-Hostnamen von DigiCert (dcv.digicert.com) verweist. Dieser CNAME-Datensatz gibt DigiCert an, dass Adobe berechtigt ist, das Zertifikat zu generieren. Adobe Client Care sendet Ihnen die Anweisungen mit den erforderlichen DNS-Aufzeichnungen. Ein Beispiel:
+   * Die schnellste DCV-Methode ist die DNS-CNAME-Methode, bei der Sie Ihrer Domäne einen DNS-CNAME-Eintrag (mit einem Token) hinzufügen, der auf den DCV-Hostnamen (`dcv.digicert.com`) von DigiCert verweist. Dieser CNAME-Datensatz gibt DigiCert an, dass Adobe berechtigt ist, das Zertifikat zu generieren. Adobe Client Care sendet Ihnen die Anweisungen mit den erforderlichen DNS-Aufzeichnungen. Ein Beispiel:
 
       ```
       3b0332e02daabf31651a5a0d81ba830a.target.example.com.  IN  CNAME  dcv.digicert.com.
@@ -30,13 +30,13 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
       >[!NOTE]
       >
-      >Diese DCV-Token laufen nach 30 Tagen ab. Adobe Client Care wird Sie dann mit aktualisierten Token in Verbindung setzen. Damit Sie Ihre CNAME-Anforderung so schnell wie möglich lösen können, sollten Sie diese DNS-Änderungen an allen angeforderten Domänen vornehmen, bevor Sie Ihre Anfrage senden.
+      >* Diese DCV-Token laufen nach 30 Tagen ab. Adobe Client Care wird Sie dann mit aktualisierten Token in Verbindung setzen. Damit Sie Ihre CNAME-Anforderung so schnell wie möglich lösen können, sollten Sie diese DNS-Änderungen an allen angeforderten Domänen vornehmen, bevor Sie Ihre Anforderung senden.
+         >
+         >
+      * Wenn Ihre Domäne über [DNS-CAA-Einträge](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)verfügt, müssen Sie `digicert.com` diese hinzufügen, wenn sie noch nicht hinzugefügt wurde. Dieser DNS-Datensatz gibt an, welche Zertifizierungsstellen zur Ausstellung von Zertifikaten für die Domäne berechtigt sind. Der resultierende DNS-Datensatz würde wie folgt aussehen: `example.com. IN CAA 0 issue "digicert.com"`. Mit [der G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CAA) können Sie ermitteln, ob Ihre Stammdomäne einen CAA-Datensatz enthält. Mehr darüber, wie DigiCert mit CAA-Aufzeichnungen umgeht, können Sie [hier](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check)lesen.
 
-      >[!NOTE]
-      >
-      >Wenn Ihre Domäne über [DNS-CAA-Einträge](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)verfügt, müssen Sie diese hinzufügen, `digicert.com` wenn sie noch nicht hinzugefügt wurde. Dieser DNS-Datensatz gibt an, welche Zertifizierungsstellen zur Ausstellung von Zertifikaten für die Domäne berechtigt sind. Der resultierende DNS-Datensatz würde wie folgt aussehen: `example.com. IN CAA 0 issue "digicert.com"`. Mit [der G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CAA) können Sie ermitteln, ob Ihre Stammdomäne einen CAA-Datensatz enthält. Mehr darüber, wie DigiCert mit CAA-Aufzeichnungen umgeht, können Sie [hier](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check)lesen.
 
-   * DigiCert wird auch die __E-Mail-Methode__ ausprobieren, bei der E-Mails an Adressen gesendet werden, die in den WHOIS-Informationen der Domäne enthalten sind, sowie an vorab festgelegte E-Mail-Adressen (Admin, Administrator, Webmaster, Hostmaster und Postmaster `@[domain_name]`). Weitere Informationen finden Sie in der Dokumentation [zu den](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) DCV-Methoden.
+   * DigiCert versucht auch die E-Mail-Methode, bei der E-Mail-Nachrichten an Adressen gesendet werden, die in den WHOIS-Informationen der Domäne gefunden wurden, sowie an vorab festgelegte E-Mail-Adressen (Admin, Administrator, Webmaster, Hostmaster und Postmaster `@[domain_name]`). Weitere Informationen finden Sie in der Dokumentation [zu den](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) DCV-Methoden.
 
       Um den DCV-E-Mail-Prozess zu beschleunigen, gibt DigiCert die folgende Empfehlung ab:
 
@@ -58,13 +58,13 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 Die folgenden Informationen beantworten häufig gestellte Fragen zum Anfordern und Implementieren von CNAME-Unterstützung in [!DNL Target]:
 
-### Kann ich mein eigenes Zertifikat (auch BYOC genannt) angeben? Wenn ja, wie sieht der Vorgang aus?
+### Kann ich ein eigenes Zertifikat (auch BYOC) angeben? Wenn ja, wie sieht der Vorgang aus?
 
-Ja, Sie können Ihr eigenes Zertifikat bereitstellen, __es wird jedoch nicht empfohlen__. Die Verwaltung des SSL-Zertifikatlebenszyklus ist sowohl für Adobe als auch für den Kunden erheblich einfacher, wenn Adobe das Zertifikat kauft und steuert. SSL-Zertifikate müssen jedes Jahr erneuert werden. Das bedeutet, dass Adobe Client Care jedes Jahr mit Ihnen in Verbindung treten muss, um Adobe ein neues Zertifikat rechtzeitig zu senden. Manche Kunden haben möglicherweise Schwierigkeiten, jedes Jahr ein neues Zertifikat rechtzeitig zu erstellen, was ihre [!DNL Target] Implementierung gefährdet, da Browser nach Ablauf des Zertifikats keine Verbindung mehr herstellen.
+Ja, Sie können Ihr eigenes Zertifikat bereitstellen. wird jedoch nicht empfohlen. Die Verwaltung des SSL-Zertifikatlebenszyklus ist sowohl für Adobe als auch für Sie erheblich einfacher, wenn Adobe das Zertifikat kauft und steuert. SSL-Zertifikate müssen jedes Jahr erneuert werden. Das bedeutet, dass Adobe Client Care Sie jedes Jahr kontaktieren muss, um Adobe ein neues Zertifikat rechtzeitig zu senden. Manche Kunden haben möglicherweise Schwierigkeiten, jedes Jahr ein neues Zertifikat zeitnah zu erstellen, was ihre [!DNL Target] Implementierung gefährdet, da Browser die Verbindung nach Ablauf des Zertifikats verweigern.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Bitte beachten Sie, dass Sie bei Anforderung einer CNAME-Implementierung mit [!DNL Target] eigenem Zertifikat dafür verantwortlich sind, Adobe Client Care jedes Jahr neue Zertifikate zur Verfügung zu stellen. Wenn Ihr CNAME-Zertifikat abläuft, bevor Adobe ein neues Zertifikat bereitstellen kann, führt dies zu einem Ausfall für Ihre spezifische [!DNL Target] Implementierung.
+>Wenn Sie eine CNAME-Implementierung mit [!DNL Target] eigenem Zertifikat anfordern, müssen Sie Adobe Client Care jedes Jahr neue Zertifikate zukommen lassen. Wenn Ihr CNAME-Zertifikat abläuft, bevor Adobe ein neues Zertifikat bereitstellen kann, führt dies zu einem Ausfall für Ihre spezifische [!DNL Target] Implementierung.
 
 1. Überspringen Sie Schritt 1 oben, aber führen Sie die Schritte 2 und 3 aus. Wenn Sie ein Adobe Client Care-Ticket öffnen (Schritt 3), teilen Sie ihm mit, dass Sie Ihr eigenes Zertifikat bereitstellen werden.
 
@@ -78,13 +78,13 @@ Ja, Sie können Ihr eigenes Zertifikat bereitstellen, __es wird jedoch nicht emp
 
 ### Wie lange dauert es, bis mein neues SSL-Zertifikat abläuft?
 
-Zertifikate, die vor dem 1. September 2020 ausgestellt werden, sind zweijährige Zertifikate. Zertifikate, die ab dem 1. September 2020 ausgestellt werden, sind 1-Jahres-Zertifikate. Weitere Informationen zum Umstieg auf 1-Jahres-Zertifikate finden Sie [hier](https://www.digicert.com/position-on-1-year-certificates).
+Zertifikate, die vor dem 1. September 2020 ausgestellt werden, sind zweijährige Zertifikate. Zertifikate, die am oder nach dem 1. September 2020 ausgestellt werden, sind einjährige Zertifikate. Weitere Informationen zum Umstieg auf einjährige Zertifikate finden Sie [hier](https://www.digicert.com/position-on-1-year-certificates).
 
 ### Welche Hostnamen sollte ich wählen? Wie viele Hostnamen pro Domäne sollte ich wählen?
 
-[!DNL Target] Für CNAME-Implementierungen ist nur ein Hostname pro Domäne im SSL-Zertifikat und im DNS des Kunden erforderlich. Daher empfehlen wir Ihnen Folgendes: Einige Kunden benötigen für ihre eigenen Zwecke zusätzliche Hostnamen pro Domäne (z. B. Tests im Staging), was unterstützt wird.
+[!DNL Target] Für CNAME-Implementierungen ist nur ein Hostname pro Domäne im SSL-Zertifikat und im DNS des Kunden erforderlich. Daher empfehlen wir Ihnen Folgendes: Einige Kunden benötigen für ihre eigenen Zwecke (z. B. Testen im Staging) zusätzliche Hostnamen pro Domäne.
 
-Die meisten Kunden wählen einen Hostnamen wie `target.example.com`, daher empfehlen wir Ihnen, aber die Wahl liegt letztendlich bei Ihnen. Bitte stellen Sie sicher, dass Sie keinen Hostnamen eines vorhandenen DNS-Datensatzes anfordern, da dies zu Konflikten und Verzögerungen bei der Auflösung Ihrer [!DNL Target] CNAME-Anforderung führen würde.
+Die meisten Kunden wählen einen Hostnamen wie `target.example.com`, daher empfehlen wir Ihnen, aber die Wahl liegt letztendlich bei Ihnen. Achten Sie darauf, keinen Hostnamen eines vorhandenen DNS-Datensatzes anzufordern, da dies zu Konflikten und Verzögerungen bei der Auflösung Ihrer [!DNL Target] CNAME-Anforderung führen würde.
 
 ### Ich habe bereits eine CNAME-Implementierung für [!DNL Adobe Analytics], können wir dasselbe Zertifikat oder denselben Hostnamen verwenden?
 
@@ -150,4 +150,4 @@ Verwenden Sie die folgenden Befehle (im MacOs- oder Linux-Befehlszeilenterminal 
 
    >[!NOTE]
    >
-   >Wenn dieser Befehl fehlschlägt, aber der obige `validateEdgeFpsslSni` Befehl erfolgreich ausgeführt wird, müssen Sie möglicherweise warten, bis Ihre DNS-Updates vollständig übertragen werden. DNS-Datensätze verfügen über eine zugehörige [TTL (Time-to-Live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) , die den Cache-Ablauf für DNS-Antworten dieser Datensätze vorschreibt. Daher müssen Sie möglicherweise mindestens so lange warten, wie Ihre TTLs funktionieren. Sie können den `dig target.example.com` Befehl oder [die G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) verwenden, um Ihre spezifischen TTLs zu suchen.
+   >Wenn dieser Befehl fehlschlägt, aber der obige `validateEdgeFpsslSni` Befehl erfolgreich ausgeführt wird, müssen Sie möglicherweise warten, bis Ihre DNS-Updates vollständig übertragen werden. DNS-Datensätze verfügen über eine zugehörige [TTL (Time-to-Live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) , die den Cache-Ablauf für DNS-Antworten dieser Datensätze vorschreibt. Daher müssen Sie möglicherweise mindestens so lange warten, wie Ihre TTLs funktionieren. Sie können den `dig target.example.com` Befehl oder [die G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) verwenden, um Ihre spezifischen TTLs nachzuschlagen.
