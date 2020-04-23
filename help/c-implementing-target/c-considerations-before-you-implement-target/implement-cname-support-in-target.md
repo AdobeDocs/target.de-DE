@@ -5,14 +5,14 @@ title: CNAME und Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
+source-git-commit: 8267de6c27566ec397651d3bfc88aad0818ed8d2
 
 ---
 
 
 # CNAME und Adobe Target {#cname-and-adobe-target}
 
-Instructions about working with Adobe Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target]. Zur bestmöglichen Behandlung von Problemen mit der Werbeblockierung oder von ITP-bezogenen Cookie-Richtlinien wird ein CNAME verwendet, sodass Aufrufe an eine Domäne des Kunden statt an eine Domäne im Besitz von Adobe erfolgen.
+Instructions for working with Adobe Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target]. Zur bestmöglichen Behandlung von Problemen mit der Werbeblockierung oder von ITP-bezogenen Cookie-Richtlinien wird ein CNAME verwendet, damit Aufrufe an eine Domäne des Kunden statt an eine Domäne im Besitz von Adobe gesendet werden.
 
 ## CNAME-Unterstützung anfordern
 
@@ -20,39 +20,53 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. Die Zertifizierungsstelle von Adobe (DigiCert) muss überprüfen, ob Adobe berechtigt ist, Zertifikate unter Ihrer Domäne zu generieren.
 
-   DigiCert ruft diesen Prozess [zur Überprüfung](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) der Domänenkontrolle (DCV) auf. Adobe darf erst nach Abschluss dieses Vorgangs ein Zertifikat unter Ihrer Domäne generieren.
+   DigiCert ruft diesen Prozess zur Überprüfung der [Domänenkontrolle (DCV)](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/)auf. Adobe darf erst dann ein Zertifikat unter Ihrer Domäne generieren, wenn dieser Prozess für mindestens eine der folgenden DCV-Methoden abgeschlossen ist:
 
-   DCV verwendet einige Methoden. Vor dem Öffnen eines Adobe Client Care Tickets (Schritt 3) können Sie einige Schritte ausführen, um den DCV-Prozess zu beschleunigen:
+   * Die schnellste DCV-Methode ist die __DNS-CNAME-Methode__, bei der Sie Ihrer Domäne einen DNS-CNAME-Eintrag (mit einem Token) hinzufügen, der auf den DCV-Hostnamen von DigiCert (dcv.digicert.com) verweist. Dieser CNAME-Datensatz gibt DigiCert an, dass Adobe berechtigt ist, das Zertifikat zu generieren. Adobe Client Care sendet Ihnen die Anweisungen mit den erforderlichen DNS-Aufzeichnungen. Ein Beispiel:
 
-   * DigiCert wird zunächst die E-Mail-Methode ausprobieren, bei der E-Mails an Adressen gesendet werden, die in den WHOIS-Informationen der Domäne enthalten sind, sowie an vorab festgelegte E-Mail-Adressen (Admin, Administrator, Webmaster, Hostmaster und Postmaster `@[domain_name]`). Weitere Informationen finden Sie in der Dokumentation[ zu den ](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/)DCV-Methoden.
+      ```
+      3b0332e02daabf31651a5a0d81ba830a.target.example.com.  IN  CNAME  dcv.digicert.com.
+      ```
+
+      >[!NOTE]
+      >
+      >Diese DCV-Token laufen nach 30 Tagen ab. Adobe Client Care wird Sie dann mit aktualisierten Token in Verbindung setzen. Damit Sie Ihre CNAME-Anforderung so schnell wie möglich lösen können, sollten Sie diese DNS-Änderungen an allen angeforderten Domänen vornehmen, bevor Sie Ihre Anfrage senden.
+
+      >[!NOTE]
+      >
+      >Wenn Ihre Domäne über [DNS-CAA-Einträge](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)verfügt, müssen Sie diese hinzufügen, `digicert.com` wenn sie noch nicht hinzugefügt wurde. Dieser DNS-Datensatz gibt an, welche Zertifizierungsstellen zur Ausstellung von Zertifikaten für die Domäne berechtigt sind. Der resultierende DNS-Datensatz würde wie folgt aussehen: `example.com. IN CAA 0 issue "digicert.com"`. Mit [der G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CAA) können Sie ermitteln, ob Ihre Stammdomäne einen CAA-Datensatz enthält. Mehr darüber, wie DigiCert mit CAA-Aufzeichnungen umgeht, können Sie [hier](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check)lesen.
+
+   * DigiCert wird auch die __E-Mail-Methode__ ausprobieren, bei der E-Mails an Adressen gesendet werden, die in den WHOIS-Informationen der Domäne enthalten sind, sowie an vorab festgelegte E-Mail-Adressen (Admin, Administrator, Webmaster, Hostmaster und Postmaster `@[domain_name]`). Weitere Informationen finden Sie in der Dokumentation [zu den](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) DCV-Methoden.
 
       Um den DCV-E-Mail-Prozess zu beschleunigen, gibt DigiCert die folgende Empfehlung ab:
 
-      "Vergewissern Sie sich, dass Ihr Registrar/WHOIS-Anbieter keine [relevanten E-Mail-Adressen]maskiert oder entfernt hat. Falls ja, stellen Sie fest, ob sie eine Möglichkeit bieten (z.B. anonymisierte E-Mail-Adresse, Webformular), [Zertifikatbehörden] den Zugriff auf die WHOIS-Daten Ihrer Domäne zu ermöglichen."
+      &quot;Vergewissern Sie sich, dass Ihr Registrar/WHOIS-Anbieter keine [relevanten E-Mail-Adressen]maskiert oder entfernt hat. Falls ja, stellen Sie fest, ob sie eine Möglichkeit bieten (z.B. anonymisierte E-Mail-Adresse, Webformular), [Zertifikatbehörden] den Zugriff auf die WHOIS-Daten Ihrer Domäne zu ermöglichen.&quot;
 
-   * Wenn die DCV-E-Mail-Methode keine Option für Sie ist, ist die nächste Methode die DNS-TXT-Methode, bei der Sie Ihrer Domäne einen DNS-TXT-Datensatz mit einem Hashwert hinzufügen. Dieser TXT-Datensatz gibt DigiCert an, dass Adobe berechtigt ist, das Zertifikat zu generieren. Wenn Sie diese Methode verwenden müssen, teilen Sie dem Kundendienst von Adobe mit, wenn Sie ein Ticket öffnen (Schritt 3). Dadurch wird der DCV-Prozess beschleunigt.
-
-1. Erstellen Sie einen CNAME-Eintrag im DNS Ihrer Domäne, der auf Ihren regulären Hostnamen verweist `clientcode.tt.omtrdc.net`. Wenn Ihr Client-Code z. B. "cnamecustomer"ist und Ihr Hostname angegeben ist `target.example.com`, sollte Ihr DNS-CNAME-Eintrag wie folgt aussehen:
+1. Erstellen Sie einen CNAME-Eintrag im DNS Ihrer Domäne, der auf Ihren regulären Hostnamen verweist `clientcode.tt.omtrdc.net`. Wenn Ihr Client-Code z. B. &quot;cnamecustomer&quot;ist und Ihr Hostname angegeben ist `target.example.com`, sollte Ihr DNS-CNAME-Eintrag wie folgt aussehen:
 
    ```
-   target.example.com  IN  CNAME  cnamecustomer.tt.omtrdc.net.
+   target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
    ```
 
 1. Öffnen Sie ein [Adobe Client Care-Ticket, um CNAME-Unterstützung](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C) für Ihre [!DNL Target] Anrufe anzufordern.
 
    Adobe arbeitet mit DigiCert zusammen, um Ihr Zertifikat auf den Produktionsservern von Adobe zu erwerben und bereitzustellen. DigiCert initiiert den DCV-Prozess, und Adobe Client Care benachrichtigt Sie, wenn Ihre Implementierung fertig ist.
 
-1. Nachdem Sie die vorhergehenden Aufgaben ausgeführt haben und Adobe Client Care Sie darüber informiert hat, dass die Implementierung fertig ist, müssen Sie den neuen CNAME in at.js `serverDomain` aktualisieren.
+1. Nachdem Sie die vorherigen Aufgaben abgeschlossen und Adobe ClientCare Sie darüber informiert haben, dass die Implementierung fertig ist, müssen Sie den neuen CNAME in at.js aktualisieren, `serverDomain` um den neuen CNAME zu erhalten.
 
 ## Häufig gestellte Fragen  
 
-Die folgenden Informationen beantworten häufig gestellte Fragen zum Anfordern und Implementieren von CNAM-Unterstützung in [!DNL Target]:
+Die folgenden Informationen beantworten häufig gestellte Fragen zum Anfordern und Implementieren von CNAME-Unterstützung in [!DNL Target]:
 
-### Kann ich ein eigenes Zertifikat bereitstellen? Wenn ja, wie läuft das?
+### Kann ich mein eigenes Zertifikat (auch BYOC genannt) angeben? Wenn ja, wie sieht der Vorgang aus?
 
-Ja, dazu können Sie ein eigenes Zertifikat angeben:
+Ja, Sie können Ihr eigenes Zertifikat bereitstellen, __es wird jedoch nicht empfohlen__. Die Verwaltung des SSL-Zertifikatlebenszyklus ist sowohl für Adobe als auch für den Kunden erheblich einfacher, wenn Adobe das Zertifikat kauft und steuert. SSL-Zertifikate müssen jedes Jahr erneuert werden. Das bedeutet, dass Adobe Client Care jedes Jahr mit Ihnen in Verbindung treten muss, um Adobe ein neues Zertifikat rechtzeitig zu senden. Manche Kunden haben möglicherweise Schwierigkeiten, jedes Jahr ein neues Zertifikat rechtzeitig zu erstellen, was ihre [!DNL Target] Implementierung gefährdet, da Browser nach Ablauf des Zertifikats keine Verbindung mehr herstellen.
 
-1. Überspringen Sie Schritt 1 oben, aber führen Sie die Schritte 2 und 3 aus. Wenn Sie ein Adobe Client Care-Ticket öffnen (Schritt 3), teilen Sie ihm mit, dass Sie Ihr eigenes Zertifikat bereitstellen.
+>[!NOTE]
+>
+>Bitte beachten Sie, dass Sie bei Anforderung einer CNAME-Implementierung mit [!DNL Target] eigenem Zertifikat dafür verantwortlich sind, Adobe Client Care jedes Jahr neue Zertifikate zur Verfügung zu stellen. Wenn Ihr CNAME-Zertifikat abläuft, bevor Adobe ein neues Zertifikat bereitstellen kann, führt dies zu einem Ausfall für Ihre spezifische [!DNL Target] Implementierung.
+
+1. Überspringen Sie Schritt 1 oben, aber führen Sie die Schritte 2 und 3 aus. Wenn Sie ein Adobe Client Care-Ticket öffnen (Schritt 3), teilen Sie ihm mit, dass Sie Ihr eigenes Zertifikat bereitstellen werden.
 
    Adobe erstellt eine Anforderung zum Signieren von Zertifikaten (CSR) und sendet sie Ihnen zu.
 
@@ -62,17 +76,31 @@ Ja, dazu können Sie ein eigenes Zertifikat angeben:
 
 1. Führen Sie Schritt 4 aus, nachdem Adobe Client Care Sie darüber informiert hat, dass die Implementierung fertig ist.
 
+### Wie lange dauert es, bis mein neues SSL-Zertifikat abläuft?
+
+Zertifikate, die vor dem 1. September 2020 ausgestellt werden, sind zweijährige Zertifikate. Zertifikate, die ab dem 1. September 2020 ausgestellt werden, sind 1-Jahres-Zertifikate. Weitere Informationen zum Umstieg auf 1-Jahres-Zertifikate finden Sie [hier](https://www.digicert.com/position-on-1-year-certificates).
+
+### Welche Hostnamen sollte ich wählen? Wie viele Hostnamen pro Domäne sollte ich wählen?
+
+[!DNL Target] Für CNAME-Implementierungen ist nur ein Hostname pro Domäne im SSL-Zertifikat und im DNS des Kunden erforderlich. Daher empfehlen wir Ihnen Folgendes: Einige Kunden benötigen für ihre eigenen Zwecke zusätzliche Hostnamen pro Domäne (z. B. Tests im Staging), was unterstützt wird.
+
+Die meisten Kunden wählen einen Hostnamen wie `target.example.com`, daher empfehlen wir Ihnen, aber die Wahl liegt letztendlich bei Ihnen. Bitte stellen Sie sicher, dass Sie keinen Hostnamen eines vorhandenen DNS-Datensatzes anfordern, da dies zu Konflikten und Verzögerungen bei der Auflösung Ihrer [!DNL Target] CNAME-Anforderung führen würde.
+
 ### Ich habe bereits eine CNAME-Implementierung für [!DNL Adobe Analytics], können wir dasselbe Zertifikat oder denselben Hostnamen verwenden?
 
 Nein, es [!DNL Target] ist ein separater Hostname und Zertifikat erforderlich.
 
-### Ist meine aktuelle Implementierung von Target von ITP 2.1 oder 2.2 betroffen?
+### Hat meine derzeitige Implementierung von Zielgruppen Auswirkungen auf ITP 2.1 oder 2.2?
 
-Navigieren Sie in einem Safari-Browser zu Ihrer Website, auf der Sie über eine Target-JavaScript-Bibliothek verfügen. If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.1 or 2.2.
+Navigieren Sie in einem Safari-Browser zu Ihrer Website, auf der Sie über eine JavaScript-Zielgruppe verfügen. If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.1 or 2.2.
 
-ITP-Probleme können für Target nur mit einem Analytics-CNAME gelöst werden. Sie benötigen einen separaten Target-CNAME nur bei Werbeblockierungsszenarien, in denen Target blockiert ist.
+ITP-Probleme können für die Zielgruppe mit einem Analytics-CNAME gelöst werden. Sie benötigen einen separaten CNAME für Zielgruppen nur bei Werbeblockierungsszenarien, in denen die Zielgruppe blockiert ist.
 
 Weitere Informationen zu ITP finden Sie unter [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+
+### Kann Adobe/DigiCert die DCV-E-Mails an eine andere E-Mail-Adresse senden `<someone>@example.com`?
+
+Nein, DigiCert (oder eine Zertifizierungsstelle) erlaubt es nicht nur jedem, der unter einer Domäne eine E-Mail-Adresse hat, ein SSL-Zertifikat unter derselben Domäne zu autorisieren, es sei denn, diese E-Mail-Adresse ist auch in den WHOIS-Informationen der Domäne oder der vorab festgelegten Liste der Adressen enthalten (siehe oben). Dadurch wird sichergestellt, dass nur autorisierte Personen DCV für eine bestimmte Domäne genehmigen können. Sollte dies für Sie nicht möglich sein, empfehlen wir die Verwendung der DNS CNAME DCV-Methode (siehe oben).
 
 ### Wie kann ich überprüfen, ob meine CNAME-Implementierung für Traffic bereit ist?
 
@@ -83,7 +111,7 @@ Verwenden Sie die folgenden Befehle (im MacOs- oder Linux-Befehlszeilenterminal 
    ```
    function validateEdgeFpsslSni {
        domain=$1
-       for edge in mboxedge{17,21,22,26,{28..33}}.tt.omtrdc.net; do
+       for edge in mboxedge{17,21,22,26,{28..32},34,35,37,38}.tt.omtrdc.net; do
            echo "$edge: $(curl -sSv --connect-to $domain:443:$edge:443 https://$domain 2>&1 | grep subject:)"
        done
    }
@@ -108,7 +136,10 @@ Verwenden Sie die folgenden Befehle (im MacOs- oder Linux-Befehlszeilenterminal 
    mboxedge30.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge31.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge32.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge33.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
+   mboxedge34.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
+   mboxedge35.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
+   mboxedge37.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
+   mboxedge38.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    ```
 
 1. Validieren Sie Ihren neuen DNS-CNAME mit einer anderen Curl-Anforderung, die auch Folgendes anzeigen sollte `CN=target.example.com`:
@@ -119,4 +150,4 @@ Verwenden Sie die folgenden Befehle (im MacOs- oder Linux-Befehlszeilenterminal 
 
    >[!NOTE]
    >
-   >Wenn dieser Befehl fehlschlägt, aber der obige `validateEdgeFpsslSni` Befehl erfolgreich ausgeführt wird, müssen Sie möglicherweise warten, bis Ihre DNS-Updates vollständig übertragen werden.
+   >Wenn dieser Befehl fehlschlägt, aber der obige `validateEdgeFpsslSni` Befehl erfolgreich ausgeführt wird, müssen Sie möglicherweise warten, bis Ihre DNS-Updates vollständig übertragen werden. DNS-Datensätze verfügen über eine zugehörige [TTL (Time-to-Live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) , die den Cache-Ablauf für DNS-Antworten dieser Datensätze vorschreibt. Daher müssen Sie möglicherweise mindestens so lange warten, wie Ihre TTLs funktionieren. Sie können den `dig target.example.com` Befehl oder [die G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) verwenden, um Ihre spezifischen TTLs zu suchen.
