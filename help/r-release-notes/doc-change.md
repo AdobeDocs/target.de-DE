@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
+source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 ---
 
@@ -13,6 +13,12 @@ source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 # Dokumentationsänderungen{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.4.1 (27. April 2020)
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| April 27 | [Versionshinweise](/help/r-release-notes/release-notes.md): 20.4.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe Target Standard/Premium 20.2.1 (19. Februar 2020)
 
@@ -86,7 +92,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das ganze Thema wurde aktualisiert. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | Es wurden Informationen hinzugefügt, die erklären, dass Geoinformationen [!DNL Target] nicht gespeichert werden, wie z. B. Postleitzahlen. |
 | 8. November 2019 | [Zielgruppe Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md) | Es wurden Links zu weiteren Problemen in der Vergangenheit hinzugefügt. |
-|  | [Vorschriften zur Privatsphäre und zum Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | CCPA-Abschnitt mit neuer Notiz aktualisiert.<br>Es wurden neue FAQ hinzugefügt, die Kunden darüber informieren, dass Zielgruppe nicht in der Lage ist, Kunden die Möglichkeit zu geben, Daten direkt von der Zielgruppe an Dritte zu teilen oder zu verkaufen, sodass es keinen Opt-out zum Verkauf zur Zielgruppe gibt. |
+|  | [Vorschriften zur Privatsphäre und zum Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | CCPA-Abschnitt mit neuer Notiz aktualisiert.<br>Es wurden neue FAQ hinzugefügt, die Kunden darüber informieren, dass Zielgruppe nicht in der Lage ist, Kunden die Daten direkt von der Zielgruppe an Dritte zu teilen oder zu verkaufen, sodass es keinen Opt-out zum Verkauf zur Zielgruppe gibt. |
 | 7. November 2019 | [Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | Codebeispiel für den Parameter adobeQA hinzugefügt. |
 | 5. November 2019 | [Site-Seiten](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Der Text im Abschnitt &quot;Fehlerbehebung&quot;wurde aktualisiert. |
 | 4. November 2019 | [Häufig gestellte Fragen zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Text unter den folgenden häufig gestellten Fragen aktualisiert: &quot;Warum sehe ich Warnmeldungen wie &quot;Aktionen mit fehlenden Selektoren&quot;?&quot; |
