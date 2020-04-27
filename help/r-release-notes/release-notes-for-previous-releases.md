@@ -5,7 +5,7 @@ title: Versionshinweise für vorherige Versionen
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 ---
 
@@ -20,60 +20,53 @@ Versionshinweise für vorherige Target-Versionen, einschließlich Versionshinwei
 
 ## Versionshinweise - 2020
 
-### Target Standard/Premium 20.1.1 (4. Februar 2020)
+## Zielgruppe at.js (25. März 2020)
 
-Das Target Standard/Premium Release 20.1.1 ist ein Maintenance Release und umfasst Backend-Erweiterungen und -Verbesserungen. Darüber hinaus wurden folgende Fehlerbehebungen vorgenommen:
+Die folgenden neuen Versionen der JavaScript-Bibliotheken der Zielgruppe &quot;at.js&quot;sind verfügbar:
 
-* Es wurde ein Fehler behoben, der dazu führte, dass das Feld für den Adobe Analytics-Tracking-Server auf der Seite Ziele und Einstellungen für vorhandene Adobe für Target-Aktivitäten (A4T) leer war. (TGT-35960)
-* Es wurde ein Problem in der Benutzeroberfläche behoben, durch das Ihre Auswahl in der zweiten Dropdownliste beim Erstellen einer Zielgruppe für Kategorieaffinität nicht angezeigt wurde. (TGT-36098)
+* at.js Version 2.3.0
+* at.js Version 1.8.1
 
-## Versionshinweise 2019 {#releases-2019}
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-### Target Java SDK Version 1.1.0 (16. Dezember 2019)
+## Target Standard/Premium 20.2.1 (23. März 2020) 
 
-* Unterstützung für die Proxy-Konfiguration hinzugefügt aufgrund eines Open-Source-Beitrags von @hisham-hassan.
+Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderungen:
 
-Weitere Informationen finden Sie unter [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
+* Es wurde ein Fehler behoben, der verhinderte, dass Kunden beim Durchführen einer Katalogsuche eine Sammlung auswählen konnten. (TGT-36230)
+* Es wurde ein Problem behoben, durch das Kriterien, die über API erstellt wurden, aber nicht von einer in der Benutzeroberfläche der Zielgruppe erstellten Aktivität referenziert wurden, fälschlicherweise aus der Benutzeroberfläche gelöscht werden konnten. (TGT-35917)
+* Implementierung von Sicherheitsverbesserungen in Content Security Policy (CSP). (TGT-36190)
+* Es wurde ein Fehler behoben, der dazu führte, dass &quot;NaN%&quot;angezeigt wurde, wenn die prozentuale Attributgewichtung nach links verschoben wurde. (TGT-36211)
+* Es wurden Probleme mit der lokale Anpassung behoben, sodass der Benutzeroberflächentext in verschiedenen Sprachen korrekt angezeigt wird.
+* Wir haben die Liste der verfügbaren Metriken aus Adobe Analytics für die Zielgruppe (A4T)-Aktivitäten standardisiert, indem Adobe Analytics-Metriken, die in der aktuellen Version der Adobe Analytics-APIs nicht unterstützt werden, nicht mehr unterstützt werden. Auf diese Weise können wir unsere A4T-Unterstützung in zukünftigen Adobe-Zielgruppen erweitern.
 
-### Target Java SDK Version 1.0.1 (11. November 2019)
+   Folgende Änderungen wurden vorgenommen:
 
-Das folgende Problem wurde in Version 1.0.1 behoben:
+   * &quot;Durchschnittliche Besuchszeit pro Seite&quot;wurde durch &quot;Durchschnittliche Besuchszeit pro Site&quot;ersetzt. Alle Aktivitäten, die diese Metrik als Metrik für primäre Ziele verwenden, haben &quot;Durchschnittliche Besuchszeit pro Site&quot;(Hinweis: in Minuten statt in Sekunden), die beim nächsten Bearbeiten der Aktivität als primäre Zielmetrik ausgewählt wurde.
+   * &quot;Besucher&quot;wurde durch &quot;Individuelle Besucher&quot;ersetzt. Bei allen Aktivitäten, die diese Metrik als primäre Zielmetrik verwenden, wird beim nächsten Bearbeiten der Aktivität &quot;Individuelle Besucher&quot;als primäre Zielmetrik ausgewählt.
 
-* Senden Sie zusätzliche Daten-IDs in einer Target-Anforderung, selbst wenn kein Besucher-API-Cookie vorhanden ist.
+* Die folgenden Metriken wurden nicht mehr unterstützt und können nicht mehr als primäre Zielmetrik beim Erstellen einer neuen A4T-Aktivität ausgewählt werden.
 
-Weitere Informationen finden Sie unter [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
+   | Veraltete Metriken | Vorgeschlagene Ersatzmetriken |
+   |--- |--- |
+   | Tägliche Besucher, stündliche Besucher, monatliche Besucher, vierteljährliche Besucher, wöchentliche Besucher, jährliche Besucher | Unique Visitors |
+   | Durchschnittliche Besuchstiefe | entfällt. Nicht als primäre Zielmetrik vorgeschlagen |
+   | Bots | entfällt. Nicht als primäre Zielmetrik vorgeschlagen |
+   | Absturzrate für Mobilgeräte, durchschnittliche Länge der vorherigen Sitzung, Durchschn. Avg. Rang für den Mobile App Store, Absturzrate für Mobilanwendungen, Durchschn. Bewertung für den App Store | entfällt. Nicht als primäre Zielmetrik vorgeschlagen |
 
-### Target-Plattform (31. Oktober 2019)
+## Adobe Experience Cloud-Navigation (22. Februar 2019)
 
-| Funktion  / Verbesserung | Beschreibung |
-| --- | --- |
-| Java SDK | Mit dem [!DNL Target] Java-SDK können Sie [!DNL Target] serverseitig bereitstellen. Mit diesem Java-SDK können Sie problemlos [!DNL Target] mit anderen [!DNL Adobe Experience Cloud] Lösungen wie dem [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]und [!DNL Adobe Audience Manager]dem<br>Das Java-SDK führt Best Practices ein und entfernt bei der Integration mit [!DNL Target] unserer Bereitstellungs-API Komplexitäten, sodass sich Ihre Entwicklungsteams auf die Geschäftslogik konzentrieren können. Die folgenden bemerkenswerten Funktionen werden in der neuesten Version eingeführt:<ul><li>Unterstützung für Vorab-Abruf und Benachrichtigungen, die eine Leistungsoptimierung durch Zwischenspeicherung ermöglichen.</li><li>Unterstützung für die Leistungsoptimierung, wenn Sie eine Hybrid-Integration von sowohl auf Ihren Webseiten als auch auf [!DNL Target] der Serverseite haben. Wir führen eine Einstellung ein, `serverState` die von Erlebnissen gefüllt wird, die serverseitig abgerufen werden, sodass at.js 2.2 keinen zusätzlichen Serveraufruf mehr ausführt, um die Erlebnisse abzurufen. Dieser Ansatz optimiert die Seitenladeleistung.</li><li>Unterstützung für das Abrufen von VEC-erstellten Aktivitäten über das Java-SDK, das durch die neue API zur Auslieferung ermöglicht wird.</li><li>Open Source, damit Ihre Entwickler zum Java-SDK[von ](https://github.com/adobe/target-java-sdk)Target beitragen können.</li></ul>Weitere Informationen finden Sie unter [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).<br>Weitere Informationen zum Target Java SDK finden Sie im Adobe Tech Blog - [Serverseitige Optimierung mit dem neuen Target Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2). |
-
-### Target Standard/Premium 19.10.2 (31. Oktober 2019)
-
-| Funktion  / Verbesserung | Beschreibung |
-| --- | --- |
-| ![Premium-Zeichen](/help/assets/premium.png) Multi-Wert-Attribute | Manchmal möchten Sie mit einem Feld mit mehreren Werten arbeiten. Sehen Sie sich folgende Beispiele an:<ul><li>Sie bieten den Benutzern Filme an. Ein Film hat mehrere Schauspieler.</li><li>Sie verkaufen Tickets für Konzerte. Ein Benutzer hat mehrere Lieblingsbands.</li><li>Du verkaufst Kleidung. Ein Hemd ist in verschiedenen Größen erhältlich.</li></ul>Um Empfehlungen in diesen Szenarien zu bearbeiten, können Sie Daten mit mehreren Werten an Target Recommendations weiterleiten und spezielle Operatoren mit mehreren Werten verwenden.<br>Weitere Informationen finden Sie unter [Arbeiten mit Attributen](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)mit mehreren Werten. |
-
-### Target Standard/Premium 19.10.1 (22. Oktober 2019)
-
-| Funktion  / Verbesserung | Beschreibung |
-| --- | --- |
-| ![Premium-Zeichen](/help/assets/premium.png) Benutzerbasierte Empfehlungen<br>(24. Oktober 2019) | Empfiehlt Artikel basierend auf dem Browsing, der Anzeige und dem Kaufverlauf jedes Besuchers. Diese Elemente werden allgemein als &quot;Empfohlen für Sie&quot;bezeichnet.<br>Mithilfe dieser Kriterien können Sie personalisierte Inhalte und Erlebnisse sowohl für neue als auch für wiederkehrende Besucher bereitstellen. Die Liste der Empfehlungen wird mit der neuesten Aktivität des Besuchers gewichtet und wird während der Sitzung aktualisiert und personalisiert, wenn der Besucher Ihre Site aufsucht.<br>Weitere Informationen finden Sie unter &quot;Benutzerbasierte Empfehlungen&quot;in [Kriterien/Algorithmen](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
-
-**Adobe Experience Cloud-Navigation**
-
-* Wenn Sie sich beim [!DNL Adobe Experience Cloud]System anmelden, werden Sie zur neuen Kopfzeilennavigation geleitet. Es sieht sehr ähnlich wie die vorherige Navigation mit der schwarzen Leiste oben aus, bietet jedoch die folgenden Verbesserungen:
+* Wenn Sie sich bei der [!DNL Adobe Experience Cloud]Seite anmelden, werden Sie zur neuen Kopfzeilennavigation geleitet. Es sieht sehr ähnlich wie die vorherige Navigation mit der schwarzen Leiste oben aus, bietet jedoch die folgenden Verbesserungen:
 
    * Einfacherer Wechsel zwischen [!DNL Identity Management System] (IMS-)Organisationen oder zu einer anderen Lösung.
    * Verbesserte Benutzerhilfe: Zu den Suchergebnissen gehören die Ergebnisse der [!DNL Target] Produktdokumentation sowie Community-Foren und weitere Videoinhalte, sodass Sie leichter auf weitere Inhalte zugreifen können, um das Beste zu erzielen [!DNL Target]. Wir haben auch einen Feedback-Mechanismus direkt im Menü [!UICONTROL Hilfe] hinzugefügt, der es einfacher macht, Probleme zu melden oder Ideen auszutauschen.
 
-   * Verbesserte Feedback-Funktion für Net Promoter Score (NPS), sodass der Umfragemodus Ihren Arbeitsablauf nicht stört.
-   * Verbesserter Anmeldefluss. Bisher wurden alle [!DNL Target] Kunden auf der Target-Einstiegsseite gelandet, nachdem sie auf das [!DNL Target] Symbol in der Kopfzeile geklickt hatten. Auf dieser Seite konnten Kunden dann fortfahren, [!DNL Target Standard/Premium], [!DNL Search&Promote]oder [!DNL Recommendations Classic], wie unten dargestellt:
+   * Verbesserte Feedback-Funktion für Net Promoter Score (NPS), sodass der Umfrage-Modus Ihren Arbeitsablauf nicht stört.
+   * Verbesserter Anmeldefluss. Bisher wurden alle [!DNL Target] Kunden auf der Landingpage Zielgruppe landet, nachdem sie auf das [!DNL Target] Symbol in der Kopfzeile geklickt hatten. Auf dieser Seite konnten Kunden dann fortfahren, [!DNL Target Standard/Premium], [!DNL Search&Promote]oder [!DNL Recommendations Classic], wie unten dargestellt:
 
       ![Landingpage](/help/r-release-notes/assets/landing.png)
 
-      Wir haben diese Landingpage für alle unsere Kunden eliminiert. Sie gelangen jetzt immer direkt zur Seite &quot; [!UICONTROL Aktivitätenliste] &quot;, indem Sie auf das [!DNL Target] Symbol in der neuen Kopfzeile der Navigationsleiste klicken.
+      Wir haben diese Landingpage für alle unsere Kunden eliminiert. Sie gelangen jetzt immer direkt zur Liste [!UICONTROL der] Aktivitäten, indem Sie auf das [!DNL Target] Symbol in der neuen Kopfzeilennavigationsleiste klicken.
 
       Wenn Sie [!DNL Recommendations Classic]diese verwenden, können Sie entweder direkt zur Lösung wechseln oder über den Kurzlink, der auf der Registerkarte &quot; [!UICONTROL Recommendations] &quot;erstellt wurde, wie nachfolgend gezeigt:
 
@@ -81,39 +74,105 @@ Weitere Informationen finden Sie unter [Versionshinweise - Target Java SDK](/hel
 
       Wenn Sie [!DNL Search&Promote]diese verwenden, müssen Sie direkt zur [Search&amp;Promote-URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1) wechseln. Der Pfad, der von innen [!DNL Search&Promote] von [!DNL Adobe Target] zu erreichen ist, wurde vollständig entfernt.
 
-   * Benachrichtigungen für [!DNL Target] sind derzeit nicht in der Dropdown-Liste [!UICONTROL Benachrichtigungen] in der Kopfzeile verfügbar.
+   * Benachrichtigungen für [!DNL Target] sind derzeit nicht in der Dropdown-Liste &quot; [!UICONTROL Benachrichtigungen] &quot;in der Kopfzeile verfügbar.
+   >[!NOTE]
+   >
+   >Bei der Einführung der neuen Navigationsleiste werden Sie auch einige URL-Änderungen feststellen. Alle vorherigen mit Lesezeichen versehenen Links funktionieren weiterhin, aber wir empfehlen Ihnen, neue Links mit einem Lesezeichen zu versehen, um das Öffnen zu beschleunigen.
+
+### Target Standard/Premium 20.1.1 (4. Februar 2020)
+
+Die Version 20.1.1 von Zielgruppe Standard/Premium ist ein Maintenance Release und umfasst Backend-Erweiterungen und -Verbesserungen. Darüber hinaus wurden folgende Fehlerbehebungen vorgenommen:
+
+* Es wurde ein Fehler behoben, der dazu führte, dass auf der Seite Ziele und Einstellungen für bestehende Aktivitäten von Adobe für Zielgruppe (A4T) das Feld für den Adobe Analytics-Tracking-Server leer war. (TGT-35960)
+* Es wurde ein Problem in der Benutzeroberfläche behoben, durch das Ihre Auswahl in der zweiten Dropdown-Liste beim Erstellen einer Audience für die Affinität der Kategorie nicht angezeigt wurde. (TGT-36098)
+
+## Versionshinweise 2019 {#releases-2019}
+
+### Zielgruppe Java SDK Version 1.1.0 (16. Dezember 2019)
+
+* Unterstützung für die Proxy-Konfiguration hinzugefügt aufgrund eines Open-Source-Beitrags von @hisham-hassan.
+
+Weitere Informationen finden Sie unter [Versionshinweise - Zielgruppe Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
+
+### Zielgruppe Java SDK Version 1.0.1 (11. November 2019)
+
+Das folgende Problem wurde in Version 1.0.1 behoben:
+
+* Senden Sie zusätzliche Daten-IDs in einer Zielgruppe-Anforderung, selbst wenn kein Besucher-API-Cookie vorhanden ist.
+
+Weitere Informationen finden Sie unter [Versionshinweise - Zielgruppe Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
+
+### Plattform für Zielgruppe (31. Oktober 2019)
+
+| Funktion  / Verbesserung | Beschreibung |
+| --- | --- |
+| Java SDK | Mit dem [!DNL Target] Java-SDK können Sie [!DNL Target] serverseitig bereitstellen. Mit diesem Java-SDK können Sie problemlos [!DNL Target] mit anderen [!DNL Adobe Experience Cloud] Lösungen wie dem [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]und [!DNL Adobe Audience Manager]dem<br>Das Java-SDK führt Best Practices ein und entfernt bei der Integration mit [!DNL Target] über unsere Versand-API Komplexitäten, sodass sich Ihre Entwicklungsteams auf die Geschäftslogik konzentrieren können. Die folgenden bemerkenswerten Funktionen werden in der neuesten Version eingeführt:<ul><li>Unterstützung für Vorab-Abruf und Benachrichtigungen, mit denen Sie die Leistung durch Zwischenspeicherung optimieren können.</li><li>Unterstützung für die Leistungsoptimierung, wenn Sie eine Hybrid-Integration von sowohl auf Ihren Webseiten als auch auf [!DNL Target] der Serverseite haben. Wir führen eine Einstellung ein, `serverState` die von Erlebnissen gefüllt wird, die serverseitig abgerufen werden, sodass at.js 2.2 keinen zusätzlichen Serveraufruf mehr ausführt, um die Erlebnisse abzurufen. Dieser Ansatz optimiert die Seitenladeleistung.</li><li>Unterstützung für das Abrufen von VEC-erstellten Aktivitäten über das Java SDK, das durch die neue Versand-API ermöglicht wird.</li><li>Open Source, damit Ihre Entwickler zur [Zielgruppe Java SDK](https://github.com/adobe/target-java-sdk)beitragen können.</li></ul>Weitere Informationen finden Sie unter [Versionshinweise - Zielgruppe Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).<br>Erfahren Sie mehr über die Zielgruppe Java SDK im Adobe Tech Blog - [Serverseitige Optimierung mit der neuen Zielgruppe Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2). |
+
+### Target Standard/Premium 19.10.2 (31. Oktober 2019)
+
+| Funktion  / Verbesserung | Beschreibung |
+| --- | --- |
+| ![Premium-Zeichen](/help/assets/premium.png) Multi-Wert-Attribute | Manchmal möchten Sie mit einem Feld mit mehreren Werten arbeiten. Sehen Sie sich folgende Beispiele an:<ul><li>Sie können Angebote an Benutzer senden. Ein Film hat mehrere Schauspieler.</li><li>Sie verkaufen Tickets für Konzerte. Ein Benutzer hat mehrere Lieblingsbands.</li><li>Du verkaufst Kleidung. Ein Hemd ist in verschiedenen Größen erhältlich.</li></ul>Um Empfehlungen in diesen Szenarien zu bearbeiten, können Sie Daten mit mehreren Werten an Zielgruppen Recommendations weiterleiten und spezielle Operatoren mit mehreren Werten verwenden.<br>Weitere Informationen finden Sie unter [Arbeiten mit Attributen](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)mit mehreren Werten. |
+
+### Target Standard/Premium 19.10.1 (22. Oktober 2019)
+
+| Funktion  / Verbesserung | Beschreibung |
+| --- | --- |
+| ![Premium-Zeichen](/help/assets/premium.png) Benutzerbasierte Empfehlungen<br>(24. Oktober 2019) | Empfiehlt Artikel basierend auf dem Browsen, Anzeigen und Kaufverlauf jedes Besuchers. Diese Elemente werden allgemein als &quot;Empfohlen für Sie&quot;bezeichnet.<br>Mithilfe dieser Kriterien können Sie personalisierte Inhalte und Erlebnisse sowohl für neue als auch für wiederkehrende Besucher bereitstellen. Die Liste der Empfehlungen wird mit der neuesten Aktivität des Besuchers gewichtet und während der Sitzung aktualisiert und wird personalisierter, wenn der Besucher Ihre Site durchsucht.<br>Weitere Informationen finden Sie unter &quot;Benutzerbasierte Empfehlungen&quot;in [Kriterien/Algorithmen](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
+
+**Adobe Experience Cloud-Navigation**
+
+* Wenn Sie sich bei der [!DNL Adobe Experience Cloud]Seite anmelden, werden Sie zur neuen Kopfzeilennavigation geleitet. Es sieht sehr ähnlich wie die vorherige Navigation mit der schwarzen Leiste oben aus, bietet jedoch die folgenden Verbesserungen:
+
+   * Einfacherer Wechsel zwischen [!DNL Identity Management System] (IMS-)Organisationen oder zu einer anderen Lösung.
+   * Verbesserte Benutzerhilfe: Zu den Suchergebnissen gehören die Ergebnisse der [!DNL Target] Produktdokumentation sowie Community-Foren und weitere Videoinhalte, sodass Sie leichter auf weitere Inhalte zugreifen können, um das Beste zu erzielen [!DNL Target]. Wir haben auch einen Feedback-Mechanismus direkt im Menü [!UICONTROL Hilfe] hinzugefügt, der es einfacher macht, Probleme zu melden oder Ideen auszutauschen.
+
+   * Verbesserte Feedback-Funktion für Net Promoter Score (NPS), sodass der Umfrage-Modus Ihren Arbeitsablauf nicht stört.
+   * Verbesserter Anmeldefluss. Bisher wurden alle [!DNL Target] Kunden auf der Landingpage Zielgruppe landet, nachdem sie auf das [!DNL Target] Symbol in der Kopfzeile geklickt hatten. Auf dieser Seite konnten Kunden dann fortfahren, [!DNL Target Standard/Premium], [!DNL Search&Promote]oder [!DNL Recommendations Classic], wie unten dargestellt:
+
+      ![Landingpage](/help/r-release-notes/assets/landing.png)
+
+      Wir haben diese Landingpage für alle unsere Kunden eliminiert. Sie gelangen jetzt immer direkt zur Liste [!UICONTROL der] Aktivitäten, indem Sie auf das [!DNL Target] Symbol in der neuen Kopfzeilennavigationsleiste klicken.
+
+      Wenn Sie [!DNL Recommendations Classic]diese verwenden, können Sie entweder direkt zur Lösung wechseln oder über den Kurzlink, der auf der Registerkarte &quot; [!UICONTROL Recommendations] &quot;erstellt wurde, wie nachfolgend gezeigt:
+
+      ![Recs Classic Deep-Link](/help/r-release-notes/assets/recs-classic.png)
+
+      Wenn Sie [!DNL Search&Promote]diese verwenden, müssen Sie direkt zur [Search&amp;Promote-URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1) wechseln. Der Pfad, der von innen [!DNL Search&Promote] von [!DNL Adobe Target] zu erreichen ist, wurde vollständig entfernt.
+
+   * Benachrichtigungen für [!DNL Target] sind derzeit nicht in der Dropdown-Liste &quot; [!UICONTROL Benachrichtigungen] &quot;in der Kopfzeile verfügbar.
    >[!NOTE]
    >
    >Diese Funktionen werden nicht sofort bereitgestellt und auch nicht für alle Kunden gemeinsam bereitgestellt. Diese Funktionen werden wir im Laufe der nächsten Wochen, beginnend mit der Version vom [!DNL Target Standard/Premium] 19.10.1 (22. Oktober 2019), herausgeben.
    >
-   >Bei der Einführung der neuen Navigationsleiste werden Sie auch einige URL-Änderungen feststellen. Alle vorherigen mit Lesezeichen versehenen Links funktionieren weiterhin, aber wir empfehlen Ihnen, neue Links mit Lesezeichen zu versehen, um das Öffnen zu beschleunigen.
+   >Bei der Einführung der neuen Navigationsleiste werden Sie auch einige URL-Änderungen feststellen. Alle vorherigen mit Lesezeichen versehenen Links funktionieren weiterhin, aber wir empfehlen Ihnen, neue Links mit einem Lesezeichen zu versehen, um das Öffnen zu beschleunigen.
 
 ### &quot;at.js&quot;-Versionen 2.2 und 1.8 (10. Oktober 2019)
 
 | Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
-| at.js Version 2.2<br><br>andat.js Version 1.8 | Diese Versionen von at.js bieten:<ul><li>Verbesserte Leistung bei der Verwendung von Experience Cloud ID Service (ECID) Version 4.4 und at.js 2.2 oder at.js 1.8 auf Ihren Webseiten.</li><li>Zuvor führte die ECID zwei Sperraufrufe durch, bevor at.js Erlebnisse abrufen konnte. Dies wurde auf einen einzigen Aufruf reduziert, wodurch die Leistung deutlich verbessert wird.</li></ul> Um diese Leistungsverbesserungen nutzen zu können, bietet ein Upgrade auf at.js 2.2 oder at.js 1.8 zusammen mit ECID Library v4.4.<br>at.js 2.2 folgende Funktionen:<ul><li>**serverState**: Eine in at.js v2.2+ verfügbare Einstellung, die zur Optimierung der Seitenleistung verwendet werden kann, wenn eine Hybridintegration von Target implementiert wird. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client-Seite als auch die Bereitstellungs-API oder ein Target-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden.<br>Weitere Informationen finden Sie unter &quot;serverState&quot;in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul> |
+| at.js Version 2.2<br><br>andat.js Version 1.8 | Diese Versionen von at.js bieten:<ul><li>Die Leistung wurde verbessert, wenn sowohl der Experience Cloud ID-Dienst (ECID) v4.4 als auch at.js 2.2 oder at.js 1.8 auf Ihren Webseiten verwendet werden.</li><li>Zuvor führte die ECID zwei Sperraufrufe durch, bevor at.js Erlebnisse abrufen konnte. Dies wurde auf einen einzigen Aufruf reduziert, wodurch die Leistung deutlich verbessert wird.</li></ul> Um diese Leistungsverbesserungen nutzen zu können, bietet ein Upgrade auf at.js 2.2 oder at.js 1.8 zusammen mit ECID Library v4.4.<br>at.js 2.2 folgende Funktionen:<ul><li>**serverState**: Eine in at.js v2.2+ verfügbare Einstellung, die zur Optimierung der Seitenleistung verwendet werden kann, wenn eine Hybridintegration der Zielgruppe implementiert wird. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client- als auch Versand-API oder ein Zielgruppe-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden.<br>Weitere Informationen finden Sie unter &quot;serverState&quot;in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul> |
 
-### Target-Plattform (9. Oktober 2019)
+### Plattform für Zielgruppe (9. Oktober 2019)
 
 | Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
-| Node.js SDK Version 1.0 | Mit dem SDK &quot;Target Node.js&quot;können Sie Target serverseitig bereitstellen.<br>Dieses Node.js-SDK unterstützt Sie bei der einfachen Integration von Target in andere Experience Cloud-Lösungen, z. B. den Adobe Experience Cloud-Identitätsdienst, Adobe Analytics und Adobe Audience Manager.<br>Das Node.js-SDK stellt Best Practices vor und entfernt Komplexitäten, wenn es über unsere Bereitstellungs-API mit Adobe Target integriert wird, sodass sich Ihre Entwicklungsteams auf die Geschäftslogik konzentrieren können. Die folgenden bemerkenswerten Funktionen werden in der neuesten Version eingeführt:<ul><li>Unterstützung für Vorab-Abruf und Benachrichtigungen, die eine Leistungsoptimierung durch Zwischenspeicherung ermöglichen.</li><li>Unterstützung für die Leistungsoptimierung, wenn Sie eine hybride Integration von Target sowohl auf Ihren Webseiten als auch serverseitig haben. Wir führen eine Einstellung ein, die von Erlebnissen aufgefüllt wird, die über den Server abgerufen werden, sodass at.js 2.2 keinen zusätzlichen Server-Aufruf mehr vornimmt, um die Erlebnisse abzurufen. `serverState` Dieser Ansatz optimiert die Seitenladeleistung.</li><li> Unterstützung für das Abrufen von VEC-erstellten Aktivitäten über das Node.js SDK, das durch die neue API für die Auslieferung ermöglicht wird.</li><li>Open Source, damit Ihre Entwickler zum Node.js SDK beitragen können.</li></ul><br>Weitere Informationen finden Sie unter [Versionshinweise - SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)für Target Node.js. |
-| Auslieferungs-API | Ein vollständig neuer API-Endpunkt (/v1/delivery) ist in der Produktion verfügbar. Die wichtigsten Funktionen sind:<ul><li>Ein Endpunkt zum Abrufen von Erlebnissen für eine oder mehrere Mboxes.</li><li>Rufen Sie VEC-erstellte Aktivitäten über die API ab.</li><li>Unterstützung für ein völlig neues Objekt namens &quot;Ansichten&quot;, das für Einzelseitenanwendungen (SPAs) und mobile Anwendungen verwendet wird.</li></ul><br>Weitere Informationen finden Sie unter [Versionshinweise - Serverseitige Target-APIs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md). |
+| Node.js SDK Version 1.0 | Mit dem Zielgruppe Node.js-SDK können Sie die Zielgruppe serverseitig bereitstellen.<br>Dieses Node.js-SDK unterstützt Sie bei der einfachen Integration der Zielgruppe in andere Experience Cloud-Lösungen, wie den Adobe Experience Cloud-Identitätsdienst, Adobe Analytics und Adobe Audience Manager.<br>Das Node.js-SDK stellt Best Practices vor und entfernt Komplexitäten bei der Integration mit Adobe-Zielgruppen über unsere Versand-API, sodass sich Ihre Entwicklungsteams auf die Geschäftslogik konzentrieren können. Die folgenden bemerkenswerten Funktionen werden in der neuesten Version eingeführt:<ul><li>Unterstützung für Vorab-Abruf und Benachrichtigungen, mit denen Sie die Leistung durch Zwischenspeicherung optimieren können.</li><li>Unterstützung für die Leistungsoptimierung bei einer Hybrid-Integration von Zielgruppe auf Ihren Webseiten und serverseitig. Wir führen eine Einstellung ein, die von Erlebnissen aufgefüllt wird, die über die Serverseite abgerufen werden, sodass at.js 2.2 keinen zusätzlichen Server-Aufruf mehr vornimmt, um die Erlebnisse abzurufen. `serverState` Dieser Ansatz optimiert die Seitenladeleistung.</li><li> Unterstützung für das Abrufen von VEC-erstellten Aktivitäten über das Node.js SDK, das durch die neue Versand-API ermöglicht wird.</li><li>Open Source, damit Ihre Entwickler zum Node.js SDK beitragen können.</li></ul><br>Weitere Informationen finden Sie unter [Versionshinweise - Zielgruppe Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md). |
+| Versand-API | Ein komplett neuer Versand-API-Endpunkt (/v1/Versand) ist in der Produktion verfügbar. Die wichtigsten Funktionen sind:<ul><li>Ein Endpunkt zum Abrufen von Erlebnissen für eine oder mehrere Mboxes.</li><li>Rufen Sie VEC-erstellte Aktivitäten über die API ab.</li><li>Unterstützung für ein völlig neues Objekt namens &quot;Ansichten&quot;, das für Einzelseitenanwendungen (SPAs) und Mobilanwendungen verwendet wird.</li></ul><br>Weitere Informationen finden Sie unter [Versionshinweise - serverseitige APIs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)für die Zielgruppe. |
 
 ### Target Standard/Premium 19.9.2 (30. September 2019)
 
 Dieser Maintenance Release enthält die folgende Verbesserung:
 
 * Verschiedene Korrekturen von Sicherheitsfehlern, einschließlich eines Sicherheits-Updates für den Rich-Text-Editor (RTE) im Visual Experience Composer (VEC). (TGT-35383)
-* Recommendations-Angebote können jetzt neben DIV auch anderen Elementen als DIV (z. B. P, UL, H1) in A/B-Test- und Erlebnis-Targeting-Aktivitäten hinzugefügt werden. (TGT-34333)
-* Ereignisbenachrichtigungen (das Glockensymbol in der Target-Benutzeroberfläche) sind nicht mehr verfügbar. Die Benachrichtigungen werden demnächst neu angezeigt.
+* Recommendations-Angebot können jetzt neben DIV auch anderen Elementen als DIV (z. B. P, UL, H1) in den Aktivitäten A/B-Test und Erlebnis-Targeting hinzugefügt werden. (TGT-34333)
+* Ereignis-Benachrichtigungen (das Glockensymbol in der Benutzeroberfläche der Zielgruppe) sind nicht mehr verfügbar. Die Benachrichtigungen werden demnächst neu angezeigt.
 
 ### Target Standard/Premium 19.9.1 (10. September 2019)
 
 | Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
-| ![Premium-Zeichen](/help/assets/premium.png) für Unternehmen | Mit der Version Target September 2019 bieten Enterprise Permissions Kunden die folgenden Zugriffssteuerungen:<UL><li>Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet werden kann.</li><li>Sie können der Adobe I/O-Integration eine Rolle zuweisen: Genehmiger, Bearbeiter oder Beobachter.</li></ul>Schrittweise Anleitungen und weitere Informationen finden Sie unter [Gewähren von Zugriff von Adobe I/O Integrationen auf Arbeitsbereiche und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Premium-Zeichen](/help/assets/premium.png) für Unternehmen | Mit der Version Zielgruppe September 2019 bieten Enterprise Permissions den Kunden die folgenden Zugriffskontrollen:<UL><li>Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet werden kann.</li><li>Sie können der Adobe I/O-Integration eine Rolle zuweisen: Genehmiger, Bearbeiter oder Beobachter.</li></ul>Schrittweise Anleitungen und weitere Informationen finden Sie unter [Gewähren von Zugriff von Adobe I/O Integrationen auf Arbeitsbereiche und Zuweisen von Rollen](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ### Target Standard/Premium 19.7.1 (24. Juli 2019) {#tgt-19-7-1}
 
@@ -125,7 +184,7 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Erweiterungen:
 | --- | --- |
 | ![ Premium-Zeichen](/help/assets/premium.png)<br>Recommendations in A/B-Test- und Erlebnis-Targeting-Aktivitäten (XT) | Der Status der Recommendations-Angebote (Algorithmus) wird auf der Übersichtsseite für A/B-Test- und XT-Aktivitäten angezeigt, die Recommendations-Angebote enthalten. Zu den Status gehören: Ergebnisse bereit, Ergebnisse nicht bereit und Feed-Fehler. (TGT-33649)<br>Siehe [Empfehlungen als Angebot](/help/c-recommendations/recommendations-as-an-offer.md#status). |
 | Unterstützung von domänenübergreifendem Tracking für at.js 2.0 und höher über die Experience Cloud ID-Bibliothek (ECID) | Bisher wurde das domänenübergreifende Tracking in at.js 2 nicht unterstützt.*x*. Mit dieser Version können jetzt Kunden, die at.js 2.0 oder höher verwenden, domänenübergreifendes Tracking über die ECID-Bibliothek nutzen. Damit das domänenübergreifende Tracking funktioniert, muss die ECID-Bibliothek gemeinsam mit at. js 2.0 oder höher auf der Seite installiert sein. [Experience Cloud ID-Bibliothek 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) muss verwendet werden.<br>Siehe [Unterstützung von domänenübergreifendem Tracking in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
-| Target-Unterstützung für ITP 2.1 und ITP 2.2 von Apple über die Experience Cloud ID-Bibliothek 4.3 (ECID) | Jetzt können Target-Kunden ITP 2.1 und ITP 2.2 von Apple mithilfe des CNAME-Zertifizierungsprogramms von Adobe umgehen.<br>Mit dieser Version führt Target eine nahtlose Integration in die ECID-Bibliothek 4.3 ein, die ein serverseitiges Cookie nutzt, um ITP 2.1 und ITP 2.2 zu minimieren. Es wird dringend empfohlen, dass Target-Kunden [ECID-Bibliothek 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) in Verbindung mit der JavaScript-Bibliothek von Target bereitstellen, um zukünftige ITP-Versionen zu minimieren. Die ECID-Bibliothek wird weiterhin Verbesserungen veröffentlichen, die eine verlässliche Lösung für die sich ständig ändernden Cookie-Richtlinien von Browsern bieten.<br>Siehe [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
+| Target-Unterstützung für ITP 2.1 und ITP 2.2 von Apple über die Experience Cloud ID-Bibliothek 4.3 (ECID) | Jetzt können Target-Kunden ITP 2.1 und ITP 2.2 von Apple mithilfe des CNAME-Zertifizierungsprogramms von Adobe umgehen.<br>Mit dieser Version führt Zielgruppe eine nahtlose Integration mit der ECID-Bibliothek 4.3 ein, die ein serverseitiges Cookie nutzt, um ITP 2.1 und ITP 2.2 zu minimieren. Es wird dringend empfohlen, dass Zielgruppe-Kunden [ECID library 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) zusammen mit der JavaScript-Bibliothek der Zielgruppe bereitstellen, um zukünftige ITP-Versionen zu minimieren. Die ECID-Bibliothek wird weiterhin Verbesserungen veröffentlichen, die eine verlässliche Lösung für die sich ständig ändernden Cookie-Richtlinien von Browsern bieten.<br>Siehe [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
 
 **Verbesserungen, Fehlerbehebungen und Änderungen**
 
@@ -2759,7 +2818,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> Optionen zur Verwaltung und Bearbeitung von mbox.js </td> 
-   <td colname="col2"> <p>In Target Standard ist nun die Konfiguration und Bearbeitung von mbox.js in vollem Umfang verfügbar. Sie müssen in Target Classic keine Änderungen mehr vornehmen. </p> <p>Weitere Informationen finden Sie unter <a href="https://marketing-beta.adobe.com/resources/help/target/ov/r_advanced_mboxjs_settings.html" format="https" scope="external">Erweiterte mbox.js-Einstellungen </a>. </p> </td> 
+   <td colname="col2"> <p>In Target Standard ist nun die Konfiguration und Bearbeitung von mbox.js in vollem Umfang verfügbar. Sie müssen in Target Classic keine Änderungen mehr vornehmen. </p> <p>Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/de_DE/target/ov/r_advanced_mboxjs_settings.html" format="https" scope="external">Erweiterte mbox.js-Einstellungen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Profilsynchronisierung in Echtzeit für 3rdPartyId-Daten </td> 
