@@ -5,7 +5,7 @@ title: Nützliche Variablen, Profile, Parameter und Methoden
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -28,7 +28,7 @@ Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten n
 | user.daysSinceLastVisit |  |
 | user.browser | Der Benutzeragent |
 | user.header | Alle `user.header`-Profile werden von den Kopfzeilendaten einer Mbox-Anfrage integriert |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | Die öffentliche IP-Adresse der Netzwerkverbindung des Besuchers.<br>HINWEIS: Der Header user.header(&#39;x-cluster-client-ip&#39;) funktioniert nicht in neueren AWS-Kanten.<br>Sie können dies auf verschiedenen Wegen erreichen, z. B. [whatismyip. com](https://www.whatismyip.com/). Die IP-Adresse ist nicht die NAT-Adresse (interne Adresse), die mit 10., 192.168. oder 172 beginnt. |
+| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | Die öffentliche IP-Adresse der Netzwerkverbindung des Besuchers.<br>Sie können dies auf verschiedenen Wegen erreichen, z. B. [whatismyip. com](https://www.whatismyip.com/). Die IP-Adresse ist nicht die NAT-Adresse (interne Adresse), die mit 10., 192.168. oder 172 beginnt. |
 | user.header(&#39;host&#39;) | Website-Hostname |
 | user.header(&#39;cookie&#39;) | Cookie-Daten des Besuchers |
 | user.header(&#39;user-agent&#39;) | Benutzeragent des Benutzer-Browsers |
