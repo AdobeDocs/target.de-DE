@@ -3,8 +3,8 @@ keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: Informationen zu bekannten Problemen in dieser Version von Adobe Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
 title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: ht
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+translation-type: tm+mt
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
@@ -20,6 +20,20 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 ## Bekannte Probleme {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
+
+### Berichte und extreme Bestellungen
+
+Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. Vom 19. Dezember 2019 bis zum 23. April 2020 trat bei einem anderen Server dasselbe Problem auf. Dieses Problem betraf nicht alle Zielgruppen- oder Zielgruppen-Server.
+
+Sie wurden *nicht* betroffen, wenn:
+
+* Ihre Implementierung der Zielgruppe verwendet verschiedene Server.
+* Extreme Bestellungen wurden in Ihren Berichten nicht ausgeschlossen.
+* Sie haben zur Messung Ihrer Aktivitäten eine Konversionsmetrik verwendet.
+* Ihre Zielgruppe-Aktivitäten verwenden Analytics für die Zielgruppe (A4T).
+* Sie befinden sich in der Region Asien-Pazifik (APAC).
+
+Wenden Sie sich an den [Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB), um festzustellen, ob dieses Problem die Implementierung Ihrer Zielgruppe beeinträchtigt hat.
 
 ### Seitenversand {#page-delivery}
 
