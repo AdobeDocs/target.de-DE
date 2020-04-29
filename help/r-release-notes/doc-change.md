@@ -5,7 +5,7 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| April 29 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Bekanntes Problem beim Berichte mit extremen Bestellungen wurde hinzugefügt. |
 | April 28 | [Nützliche Variablen, Profile, Parameter und Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Informationen zum Abrufen der IP-Adressen von Benutzern mit `user.header('x-forwarded-for')` neueren AWS-Kanten wurden entfernt. Dieser Befehl funktioniert jetzt mit neueren AWS-Kanten. |
 |  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Das Datum der Zielgruppe Standard/Premium Version (20.4.1) wurde in den 6. Mai geändert. |
 | April 23 | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das Thema wurde aktualisiert. |
