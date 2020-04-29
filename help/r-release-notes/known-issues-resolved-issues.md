@@ -4,7 +4,7 @@ description: Informationen zu bekannten Problemen in dieser Version von Adobe Ta
 title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
+source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
 
 ---
 
@@ -33,7 +33,7 @@ Sie wurden *nicht* betroffen, wenn:
 * Ihre Zielgruppe-Aktivitäten verwenden Analytics für die Zielgruppe (A4T).
 * Sie befinden sich in der Region Asien-Pazifik (APAC).
 
-Wenden Sie sich an den [Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB), um festzustellen, ob dieses Problem die Implementierung Ihrer Zielgruppe beeinträchtigt hat.
+Wenden Sie sich an den [Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB), um festzustellen, ob dieses Problem Ihren Zielgruppe-Berichte beeinflusst hat.
 
 ### Seitenversand {#page-delivery}
 
