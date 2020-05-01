@@ -4,7 +4,7 @@ description: Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlu
 title: Anpassen eines Designs mithilfe von Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
 
 ---
 
@@ -122,11 +122,11 @@ Sie können `algorithm.name` und `algorithm.dayCount` als Variablen in Entwürfe
 
 ## Arbeiten mit Zahlen in Velocity-Vorlagen
 
-Velocity-Vorlagen behandeln alle Entitätsattribute standardmäßig als Zeichenfolgenwerte. Möglicherweise möchten Sie ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang durchzuführen oder es mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
+Velocity-Vorlagen behandeln alle Entitätsattribute standardmäßig als Zeichenfolgenwerte. Möglicherweise möchten Sie ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang auszuführen oder es mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
 
-1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder in einen doppelten Wert
-1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich, damit der Vorlagenparser von Target Recommendations die Vorlage validieren und speichern kann)
-1. Übergeben Sie das Entitätsattribut an die `parseInt` oder- `parseDouble` Methode für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in eine Ganzzahl oder einen doppelten Wert umzuwandeln
+1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder Dublette
+1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich, damit der Vorlagenparser von Zielgruppe Recommendations die Vorlage validieren und speichern kann)
+1. Übergeben Sie das Entitätsattribut an die `parseInt` oder- `parseDouble` Methode für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in einen Ganzzahlwert oder einen Dublette-Wert zu verwandeln
 1. Durchführen des Mathematik-Vorgangs oder -Vergleichs mit dem neuen numerischen Wert
 
 **Beispiel: Berechnen eines Rabattpreises**
@@ -205,7 +205,7 @@ Das Ergebnis ist ein Entwurf wie der folgende, in dem das Schlüsselelement in e
 
 Wenn Sie Ihre [!DNL Recommendations]-Aktivität erstellen und das Schlüsselelement vom Benutzerprofil genommen wird, zum Beispiel „Zuletzt gekaufter Artikel“, zeigt [!DNL Target] ein zufällig ausgewähltes Produkt im [!UICONTROL Visual Experience Composer an]. Dies beruht darauf, dass ein Profil beim Erstellen der Aktivität nicht verfügbar ist. Wenn Besucher die Seite anzeigen, sehen sie das erwartete Schlüsselelement.
 
-## Ersetzen in einem Zeichenfolgenwert {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Ausführen von Ersetzungen in einem Zeichenfolgenwert {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 Sie können Ihren Entwurf ändern, um Werte in einer Zeichenfolge zu ersetzen. Ersetzen Sie beispielsweise das in den USA verwendete Dezimalzeichen durch das in Europa und anderen Ländern verwendete Komma-Trennzeichen.
 
@@ -264,6 +264,6 @@ Der folgende HTML-Abschnitt ersetzt den vorhandenen HTML-Teil im Standardentwurf
             #set($count = $count + 1) 
         #end 
     #end
-    </div>
   </div>
+</div>
 ```
