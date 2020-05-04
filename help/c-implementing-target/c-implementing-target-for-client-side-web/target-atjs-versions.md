@@ -5,7 +5,7 @@ title: „at.js“-Versionsdetails
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -17,6 +17,8 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >[!IMPORTANT]
 >
 >Das Zielgruppe-Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
+>
+>[Der Start](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) von Adobe Experience Platform ist die bevorzugte Methode zum Aktualisieren von at.js. Extension-Entwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Updates werden in neue Versionen einer Erweiterung verpackt und als Upgrades im [!DNL Launch] Katalog verfügbar gemacht. Weitere Informationen finden Sie unter [Erweiterungs-Aktualisierung](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) im *Experience Platform Launch-Benutzerhandbuch*.
 
 ## at.js-Version 2.3.0 (25. März 2020)
 
