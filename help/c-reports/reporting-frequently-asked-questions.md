@@ -1,11 +1,11 @@
 ---
-keywords: Fehlerbehebung; Metrikdiskrepanzen; häufig gestellte Fragen; Berichte
+keywords: troubleshooting;metric discrepancies;FAQ;reports
 description: Liste der häufig gestellten Fragen zur Berichterstellung in Adobe Target
 title: Häufig gestellte Fragen zur Berichterstellung in Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -33,7 +33,7 @@ Sollten Sie eine Entwicklungsumgebung ausgewählt haben, wird möglicherweise fo
 
 So ändern Sie die Umgebung für einen Aktivitätsbericht:
 
-1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **Berichte[!UICONTROL .]**
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte.]**
 1. Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu bearbeiten.
 
    ![Dialogfeld für A/B-Einstellungen](/help/c-reports/c-report-settings/assets/ab_settings_dialog.png)
@@ -49,3 +49,18 @@ So ändern Sie die Umgebung für einen Aktivitätsbericht:
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Weitere Informationen zu Umgebungen finden Sie unter [Hosts](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+## Warum ist der Traffic zwischen meinen Erlebnissen ungleich in meiner A/B- oder MVT-Aktivität? {#uneven}
+
+Ich setzte die Traffic-Aufteilung beispielsweise auf 50/50 oder 33/33/33, sehe aber eine sehr unterschiedliche Verteilung der Erlebnisse im Berichte.
+
+Es gibt mehrere erklärbare Gründe für ungleichmäßige Traffic-Aufteilungen in [!DNL Target] Berichte:
+
+* Wenn eine [!DNL Target] [!DNL Target] Aktivität zum ersten Mal gestartet wird, kann die Traffic-Verteilung aufgrund der Edge-Knotenarchitektur, die zur Optimierung des Experience Versand verwendet wird, ungleich sein. Die beste Vorgehensweise ist, einer Aktivität Zeit zur Erhebung zusätzlicher Daten einzuräumen, und die Verteilung normalisiert sich. Weitere Informationen zu [!DNL Adobe Target] Architektur und Edge-Knoten finden Sie unter [Funktionsweise von Adobe Zielgruppe](/help/c-intro/how-target-works.md).
+* Welche Normalisierungsmetrik verwenden Sie? Wenn Sie sich in [!DNL Target] oder [!DNL Analytics] mit der Metrik &quot; **[!UICONTROL Besuche]** [!DNL Target] &quot;befinden, denken Sie daran, dass es sich um ein Besucher-basiertes System handelt und die Traffic-Verteilung für einen A/B- oder MVT-Test auf der Ebene des Besuchers zugewiesen wird. Wenn Sie also die Ergebnisse der Aktivität mithilfe der Metrik &quot; **[!UICONTROL Besuche]** &quot;untersuchen, wird die Traffic-Verteilung möglicherweise uneinheitlich angezeigt, da bestimmte Besucher möglicherweise mehrere Besuche haben.
+* Die beste Methode für A/B- und MVT-Tests besteht darin, Traffic-Aufteilungen gleichmäßig zu halten. Die Änderung der Traffic-Verteilung zwischen Erlebnissen (z. B. 90/10 bis 50/50) während eines Tests kann zu uneinheitlichen Besuchern über Erlebnisse hinweg führen.
+* Wenn Sie die oben genannten Best Practices befolgen und sich die Traffic-Aufteilung im Laufe der Zeit nicht normalisiert, sollten Sie Folgendes überprüfen:
+
+   * Verwenden Sie die neueste &quot;at.js&quot;-Bibliothek? Weitere Informationen zur aktuellen Version und den zugehörigen Versionshinweisen finden Sie unter [at.js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+   * Ist es ein Umleitungstest? Falsche Zeiträume, in denen Tags auf der Seite ausgelöst werden, können zu ungleichen Traffic-Aufteilungen führen, insbesondere wenn sie [!DNL Analytics] als Datenquelle für eine [!DNL Target] Aktivität verwendet werden. Weitere Informationen zur Behebung einer ungleichmäßigen Traffic-Verteilung bei einer Umleitungs-Aktivität mit Analytics for Zielgruppe (A4T) finden Sie unter [Umleitungs-Angebot - FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)zu A4T.
