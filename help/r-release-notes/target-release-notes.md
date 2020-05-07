@@ -5,7 +5,10 @@ title: Versionshinweise zu Adobe Zielgruppe
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +23,7 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 >[!NOTE]
 >
->* **&quot;mbox.js&quot;-Einstellung**: Am 30. August 2020 wird die Bibliothek &quot;mbox.js&quot;von Adobe Zielgruppe nicht mehr unterstützt. Nach dem 30. August 2020 schlagen alle Aufrufe von &quot;mbox.js&quot;fehl und wirken sich auf die Seiten aus, auf denen Aktivitäten zur Zielgruppe ausgeführt werden. Es wird empfohlen, dass alle Kunden vor diesem Datum zur neuesten Version der at.js-Bibliothek migrieren, um potenzielle Probleme mit Ihren Sites zu vermeiden. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Siehe *Adobe Zielgruppe Skill Builder: Entwickler-Chat, migrieren Sie &quot;mbox.js&quot;der Adobe-Zielgruppe zu &quot;at.js* &quot;unten, um Informationen zur Registrierung für einen demnächst erscheinenden Entwickler-Chat zu diesem Thema zu erhalten.
+>* **&quot;mbox.js&quot;-Einstellung**: Am 30. August 2020 wird die Bibliothek &quot;mbox.js&quot;von Adobe Zielgruppe nicht mehr unterstützt. Nach dem 30. August 2020 schlagen alle Aufrufe von &quot;mbox.js&quot;fehl und wirken sich auf die Seiten aus, auf denen Aktivitäten zur Zielgruppe ausgeführt werden. Es wird empfohlen, dass alle Kunden vor diesem Datum zur neuesten Version der at.js-Bibliothek migrieren, um potenzielle Probleme mit Ihren Sites zu vermeiden. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Siehe *Adobe Zielgruppe Skill Builder: Entwickler-Chat, migrieren Sie unten die Datei &quot;mbox.js&quot;der Adobe-Zielgruppe zu &quot;at.js&quot;* .
    >
    >   
    Obwohl &quot;mbox.js&quot;derzeit unterstützt wird, wurden seit Juli 2017 keine Funktionsaktualisierungen dieser Bibliothek bereitgestellt. Die neuere at.js bietet viele Vorteile gegenüber mbox.js. Neben anderen Vorteilen verbessert at.js die Seitenladezeit für Webimplementierungen, verbessert die Sicherheit und bietet bessere Implementierungsoptionen für Einzelseitenanwendungen.
@@ -31,11 +34,7 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 ## Adobe Zielgruppe Skill Builder: Entwickler-Chat, migrieren Sie &quot;mbox.js&quot;der Adobe-Zielgruppe in &quot;at.js&quot; {#skill-builder}
 
-Lernen Sie David Son, Adobe Zielgruppe Product Manager kennen, der die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;erläutert. Erfahren Sie mehr über die neuesten at.js-Updates, die verbesserten Funktionen und die Abstimmung mit größeren Trends im Technologiebereich. Außerdem erhalten Sie praktische Tipps, wie Sie bei der Migration von &quot;mbox.js&quot;zu &quot;at.js&quot;einen optimalen Nutzen aus der Zielgruppe ziehen können. Adobe Zielgruppe Developers wird dies nicht verpassen!
-
-Dienstag, 5. Mai, 8:00 - 9:00 Uhr (PDT)
-
-[Melden Sie sich jetzt hier an!](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
+Mit der bevorstehenden Vernichtung von &quot;mbox.js&quot;am 30. August 2020 hat David Son, Adobe Zielgruppe Product Manager, kürzlich einen Entwicklerchat gehostet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern. In den nächsten 30 Tagen können Sie die Aufzeichnung des Webinars [Ansicht](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)leisten.
 
 ## Target Standard/Premium 20.4.1 (6. Mai 2020) 
 
