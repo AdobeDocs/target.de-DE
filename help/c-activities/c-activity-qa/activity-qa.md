@@ -1,18 +1,21 @@
 ---
-keywords: qa;Vorschau;Vorschau-Links;adobe-Ziel;Ziel
-description: Verwenden Sie Adobe Target-QS-URLs, um eine einfache End-to-End-Aktivitäts-QS mit Vorschau-Links durchzuführen, die sich nie ändern, optionales Zielgruppen-Targeting und QS-Berichte, die aus Live-Aktivitätsdaten segmentiert bleiben.
+keywords: qa;preview;preview links;adobe target;target
+description: Verwenden Sie Adobe-Zielgruppe-QS-URLs, um eine durchgängige Qualitätssicherung mit Vorschauen-Links durchzuführen, die sich nie ändern, optionales Targeting von Audiencen und QS-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
 title: Aktivitäts-QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1489'
+ht-degree: 88%
 
 ---
 
 
 # Aktivitäts-QA {#activity-qa}
 
-Verwenden Sie QS-URLs in Adobe Target, um eine einfache End-to-End-Aktivitäts-QS mit Vorschau-Links durchzuführen, die sich nie ändern, optionales Zielgruppen-Targeting und QS-Berichte, die aus Live-Aktivitätsdaten segmentiert bleiben.
+Verwenden Sie QS-URLs in Adobe Zielgruppe, um eine durchgängige Qualitätssicherung mit Vorschauen-Links durchzuführen, die sich nie ändern, optionales Targeting von Audiencen und QS-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
 
 ## Überblick {#section_11B761A522A14E61978275772210A4C2}
 
@@ -30,7 +33,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
 ## Zugreifen auf und Freigeben einer QA-URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. Klicken Sie auf der Seite [!UICONTROL Übersicht] einer Aktivität (alle Typen außer „Automatisierte Personalisierung“) auf den Link **[!UICONTROL Aktivitäts-QA].**
+1. Klicken Sie auf der Seite [!UICONTROL Übersicht] einer Aktivität (alle Typen außer „Automatisierte Personalisierung“) auf den Link **[!UICONTROL Aktivitäts-QA]**.
 
    ![Link „Aktivitäts-QA“](assets/qa_link.png)
 
@@ -49,7 +52,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
       * Wenn Kollisionen zwischen der getesteten und anderen Live-Aktivitäten vorliegen,  [gelten die normalen Prioritätsregeln](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). Aufgrund dessen ist es möglich, dass die gewünschte QA-Aktivität nicht angezeigt wird.
       * Die Metriken werden für die angezeigten Aktivitäten inkrementiert, jedoch nicht in der QA-Berichtsumgebung.
 
-1. Klicken Sie auf **[!UICONTROL Fertig], um Ihre Änderungen zu speichern.**
+1. Klicken Sie auf **[!UICONTROL Fertig]**, um Ihre Änderungen zu speichern.
 1. Geben Sie die Activity-Link-URLs zu Testzwecken für Mitglieder Ihrer Organisation frei.
 
    Activity-Links laufen niemals ab, und die Links müssen nicht erneut gesendet werden, wenn jemand Änderungen an einer Aktivität oder an einem Erlebnis vornimmt. Wenn Sie jedoch eine andere Zielgruppe aus der Zielgruppenbibliothek anwenden, anstatt die Aktivität einfach zu bearbeiten, wird ein neuer Link generiert, den Sie erneut freigeben müssen.
@@ -72,7 +75,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
    Sie können sich auch manuell selbst aus dem Modus lösen, indem Sie auf Ihrer Site eine Seite laden, wobei der Parameter `at_preview_token` einen leeren Wert hat (beispielsweise `https://www.mysite.com/?at_preview_token=`).
 
 * Wenn Sie während der Erstellung der Aktivität [Verfeinerungen im formularbasierten Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) oder [Seitenbereitstellungsoptionen im Visual Experience Composer](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) „URL ist“ angegeben haben, funktioniert die QS-URL nicht, da die Aktivitäts-QS URL-Parameter anhängt. Klicken Sie zur Lösung dieses Problems auf die QA-URL, um zu Ihrer Site zu navigieren. Entfernen Sie die angehängten Parameter aus der URL und laden Sie dann die neue URL.
-* Wenn Sie at.js 1 haben.*x*, oder mbox.js, ist der Aktivitäts-QS-Modus nicht fixierbar, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren.
+* Wenn Sie at.js 1 haben.*Der QS-Modus für x* oder mbox.js ist nicht fixierbar, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Parameter für die Vorschau zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)implementiert haben.
 * Wenn in einer Aktivität mehrere Erlebniszielgruppen verwendet werden (z. B. eine US- und UK-Site, die in derselben Aktivität enthalten sind), werden für die vier Kombinationen (Erlebnis A/US-Site, Erlebnis A/UK-Site, Erlebnis B/US-Site, Erlebnis B/UK-Site) keine QA-Links generiert. Es werden nur zwei QA-Links (Erlebnis A und Erlebnis B) erstellt, und die Benutzer müssen sich für die entsprechende Zielgruppe qualifizieren, um die Seite anzeigen zu können. Eine Person mit QA für UK kann die US-Site nicht anzeigen.
 * Alle Parameter und Werte vom Typ `at_preview` sind bereits URL-kodiert. Meistens funktioniert alles erwartungsgemäß. Möglicherweise haben einige Kunden jedoch Systeme zur Lastverteilung oder Webserver, die versuchen, die Abfragezeichenfolgenparameter erneut zu kodieren.
 
