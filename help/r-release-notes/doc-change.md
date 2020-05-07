@@ -5,7 +5,10 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '7548'
+ht-degree: 81%
 
 ---
 
@@ -18,6 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Mai 7 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Mit der bevorstehenden Vernichtung von &quot;mbox.js&quot;am 30. August 2020 hat David Son, Adobe Zielgruppe Product Manager, kürzlich einen Entwicklerchat gehostet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern. Über einen Link können Sie sich das Webinar für die nächsten 30 Tage ansehen. |
+|  | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Abschnitt &quot;Überlegungen&quot;wurde aktualisiert. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Die Zeile &quot;overrideMboxEdgeServer&quot;unter &quot;Einstellungen&quot;wurde aktualisiert. |
+| Mai 6 | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Es wurden Informationen zu ITP 2.3 hinzugefügt. |
 | Mai 4 | [Häufig gestellte Fragen zum Reporting](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | Neue FAQs hinzugefügt: &quot;Warum ist der Traffic zwischen meinen Erlebnissen unterschiedlich, auch in meiner A/B- oder MVT-Aktivität?&quot; |
 | April 29 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Bekanntes Problem beim Berichte mit extremen Bestellungen wurde hinzugefügt. |
 | April 28 | [Nützliche Variablen, Profile, Parameter und Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Informationen zum Abrufen der IP-Adressen von Benutzern mit `user.header('x-forwarded-for')` neueren AWS-Kanten wurden entfernt. Dieser Befehl funktioniert jetzt mit neueren AWS-Kanten. |
