@@ -5,7 +5,10 @@ title: CNAME und Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
+source-git-commit: e3600c10764ad93e59e9ff4b6e1810fa02d6425f
+workflow-type: tm+mt
+source-wordcount: '1300'
+ht-degree: 2%
 
 ---
 
@@ -90,9 +93,9 @@ Die meisten Kunden wählen einen Hostnamen wie `target.example.com`, daher empfe
 
 Nein, es [!DNL Target] ist ein separater Hostname und Zertifikat erforderlich.
 
-### Hat meine derzeitige Implementierung von Zielgruppen Auswirkungen auf ITP 2.1 oder 2.2?
+### Hat meine aktuelle Implementierung von Zielgruppe Auswirkungen auf ITP 2.x?
 
-Navigieren Sie in einem Safari-Browser zu Ihrer Website, auf der Sie über eine JavaScript-Zielgruppe verfügen. If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.1 or 2.2.
+Navigieren Sie in einem Safari-Browser zu Ihrer Website, auf der Sie über eine JavaScript-Zielgruppe verfügen. If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.x.
 
 ITP-Probleme können für die Zielgruppe mit einem Analytics-CNAME gelöst werden. Sie benötigen einen separaten CNAME für Zielgruppen nur bei Werbeblockierungsszenarien, in denen die Zielgruppe blockiert ist.
 
