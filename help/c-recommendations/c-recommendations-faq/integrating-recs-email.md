@@ -5,10 +5,10 @@ title: Integration von Recommendations in E-Mail
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1431'
+ht-degree: 93%
 
 ---
 
@@ -60,7 +60,7 @@ Dabei ist `clientcode` Ihr Target-Client-Code.
 
 Weitere Informationen finden Sie in der [Dokumentation zur Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-delivery).
 
-## Option 2: Verwenden einer Rawbox-E-Mail-Vorlage {#section_C0D48A42BCCE45D6A68852F722C7C352}
+## Option 2: Verwenden einer Rawbox-E-Mail-Vorlage {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
 Eine Rawbox ähnelt einer Mbox-Anfrage, die für Nicht-Web-Umgebungen wie E-Mail-Dienstanbieter (ESP) erstellt wurde. Da Sie bei Rawbox-Anfragen nicht mit [!DNL mbox.js] oder [!DNL at.js] arbeiten, müssen die Anfragen manuell erstellt werden. In den unten stehenden Beispielen ist beschrieben, wie Rawbox-Anfragen in E-Mails verwendet werden.
 
@@ -107,7 +107,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Erforderlich für bestimmte Kriterientypen: Ansicht/Ansicht, Ansicht/Gekauft, Gekauft/Gekauft) | *entity_id* | Die „productId“, auf der die Empfehlung beruht, beispielsweise ein in den Einkaufskorb gelegtes, aber nicht erworbenes Produkt oder ein in der Vergangenheit getätigter Einkauf.<br>Falls von den Kriterien gefordert, muss der Rawbox-Aufruf `entity.id` enthalten. |  |
 | `entity.event.detailsOnly` | wahr | Wenn Sie weitergereicht werden, `entity.id` wird dringend empfohlen, diesen Parameter zu übergeben, um zu verhindern, dass die Anforderung die Anzahl der Seitenansichten für ein Element erhöht, sodass produktansichtsbasierte Algorithmen nicht verfälscht werden. |  |
 | `entity.categoryId`<br>(Für bestimmte Kriterientypen erforderlich: am häufigsten angezeigt nach Kategorie und Topverkäufe nach Kategorie) | *category_id* | Die Kategorie, auf der die Empfehlung basiert, beispielsweise die Topverkäufe einer Kategorie.<br>Falls von den Kriterien gefordert, muss der Rawbox-Aufruf `entity.categoryId` enthalten. |  |
-| `mboxDefault` | *`https://www.default.com`* | Ist kein `mboxNoRedirect`-Parameter vorhanden, sollte `mboxDefault` eine absolute URL sein, die Standardinhalte zurückgibt, wenn keine Empfehlung zur Verfügung steht. Es kann sich dabei um Bilder oder statische Inhalte handeln.<br>Wenn der `mboxNoRedirect`-Parameter vorhanden ist, kann es sich bei `mboxDefault` um einen beliebigen Text handeln, der angibt, dass es keine Empfehlungen gibt wie z. B. `no_content`.<br>Der E-Mail-Anbieter muss den Fall, dass der Wert zurückgegeben wird, handhaben und bei dessen Eintreten Standard-HTML-Inhalte in die E-Mail einfügen können. <br> Wenn die in der `mboxDefault` URL verwendete Domäne nicht in die Positivliste eingetragen ist, können Sie einer Open-Redirect-Schwachstelle ausgesetzt sein. Um die unbefugte Verwendung von Weiterleitungs-Links oder `mboxDefault` von Drittanbietern zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;, um die Standard-Umleitungs-URL-Domänen auf die Positivliste zu setzen. Zielgruppe verwendet Hosts zu Whitelist-Domänen, zu denen Sie Umleitungen zulassen möchten. Weitere Informationen finden Sie unter [Hosts](https://developers.adobetarget.com/api/#server-side-delivery). |  |
+| `mboxDefault` | *`https://www.default.com`* | Ist kein `mboxNoRedirect`-Parameter vorhanden, sollte `mboxDefault` eine absolute URL sein, die Standardinhalte zurückgibt, wenn keine Empfehlung zur Verfügung steht. Es kann sich dabei um Bilder oder statische Inhalte handeln.<br>Wenn der `mboxNoRedirect`-Parameter vorhanden ist, kann es sich bei `mboxDefault` um einen beliebigen Text handeln, der angibt, dass es keine Empfehlungen gibt wie z. B. `no_content`.<br>Der E-Mail-Anbieter muss den Fall, dass der Wert zurückgegeben wird, handhaben und bei dessen Eintreten Standard-HTML-Inhalte in die E-Mail einfügen können. <br> Wenn die in der `mboxDefault` URL verwendete Domäne nicht in die Positivliste eingetragen ist, können Sie einer Open-Redirect-Schwachstelle ausgesetzt sein. Um die unbefugte Verwendung von Weiterleitungs-Links oder `mboxDefault` von Drittanbietern zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;, um die Standard-Umleitungs-URL-Domänen auf die Positivliste zu setzen. Zielgruppe verwendet Hosts zu Whitelist-Domänen, zu denen Sie Umleitungen zulassen möchten. Weitere Informationen finden Sie unter Whitelists [erstellen, die Hosts angeben, die zum Senden von Mbox-Aufrufen an die Zielgruppe](/help/administrating-target/hosts.md#whitelist) in *Hosts* berechtigt sind. |  |
 | `mboxHost` | *mbox_host* | Die Domäne, die der Standardumgebung (Hostgruppe) hinzugefügt wird, wenn der Aufruf erfolgt. |  |
 | `mboxPC` | Empty | (Für Empfehlungen erforderlich, die das Profil eines Besuchers verwenden.)<br>Wenn keine „thirdPartyId“ angegeben wurde, wird eine neue „tntId“ generiert und als Teil der Antwort zurückgegeben. Ansonsten wird kein Wert angegeben.<br>**Hinweis **: Stellen Sie sicher, dass Sie einen eindeutigen Wert für`mboxSession`und`mboxPC`für jeden einzelnen E-Mail-Empfänger angeben (d. h. für jeden API-Aufruf). Wenn Sie keine eindeutigen Werte für diese Felder angeben, kann die API-Antwort aufgrund der großen Anzahl in einem einzigen Profil generierter Ereignisse lange dauern oder sogar fehlschlagen. | 1 &lt; Länge &lt; 128<br>Darf nicht mehr als einen einzelnen „.“ (Punkt) enthalten.<br>Der einzig zulässige Punkt ist derjenige vor dem Suffix für den Profilspeicherort. |
 
