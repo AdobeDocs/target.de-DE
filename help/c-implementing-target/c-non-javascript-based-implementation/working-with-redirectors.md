@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '680'
+ht-degree: 73%
 
 ---
 
@@ -32,7 +32,7 @@ Verwenden Sie die Weiterleitung, um  folgende Aktionen auszuführen:
 
 Hilfe zur Entscheidung über die richtigen Einstellungen finden Sie unter  [Nicht-JavaScript-basierte Implementierungen](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## Erstellen einer Weiterleitung {#task_76608B0F73FC45C4A9F125B894DCF821}
+## Create a redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
 
 Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen.
 
@@ -56,7 +56,7 @@ Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen
 
    * `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` ist das Standardziel.
 
-      Beachten Sie, dass Sie mit der Weiterleitung dem Risiko einer Open-Redirect-Verwundbarkeit ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;zur Whitelist der Standard-URL-Domänen für Umleitungen. Zielgruppe verwendet Hosts zu Whitelist-Domänen, zu denen Sie Umleitungen zulassen möchten. Weitere Informationen finden Sie unter [Hosts](/help/administrating-target/hosts.md).
+      Beachten Sie, dass Sie mit der Weiterleitung dem Risiko einer Open-Redirect-Verwundbarkeit ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;zur Whitelist der Standard-URL-Domänen für Umleitungen. Zielgruppe verwendet Hosts zu Whitelist-Domänen, zu denen Sie Umleitungen zulassen möchten. Weitere Informationen finden Sie unter Whitelists [erstellen, die Hosts angeben, die zum Senden von Mbox-Aufrufen an die Zielgruppe](/help/administrating-target/hosts.md#whitelist) in *Hosts* berechtigt sind.
 
       Hierbei muss es sich um einen URL-kodierten, absoluten Verweis handeln. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
@@ -90,7 +90,7 @@ Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen
 
 1. Senden Sie die vollständige Weiterleitungs-URL als Zielort der Display-Anzeige an Ihr Display-Anzeigenetzwerk.
 
-## Verwenden einer Weiterleitung zum Übergeben der Kosten pro Klick und vom Umsatz pro Klick {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Use a redirector to pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Informationen zum Verwenden einer Weiterleitung zum Übergeben der Kosten pro Klick und vom Umsatz pro Klick.
 
