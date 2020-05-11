@@ -5,10 +5,10 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1820'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Möchten Sie Hosts und Umgebungen bearbeiten, klicken Sie auf **[!UICONTROL Einr
 
 ![](assets/hosts_list.png)
 
-## Erkennen von Hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
+## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
 Informationen über die Bedingungen, die erfüllt sein müssen, damit [!DNL Target] einen Host erkennt und ihn der Hostgruppenliste hinzufügt
 
@@ -64,7 +64,7 @@ Standardmäßig wird ein neu erkannter Host zur Umgebung „Produktion“ hinzug
 >
 >Die Umgebung „Produktion“ kann nicht gelöscht werden, auch nicht, wenn sie umbenannt wird. Es wird angenommen, dass in dieser Gruppe fertiggestellte, aktive Aktivitäten und Tests bereitgestellt werden. In der Standardumgebung ist es nicht zulässig, inaktive Kampagnen anzuzeigen.
 
-## Verwalten von Hosts und Umgebungen {#concept_90573F5A52E04600A8C3C5897880C10F}
+## Manage hosts and environments {#concept_90573F5A52E04600A8C3C5897880C10F}
 
 Informationen, die Sie dabei unterstützen, Hosts und Umgebungen (Hostgruppen) zu verwalten, darunter Einrichten der Standardberichterstattung, Erstellen von Whitelists, Ändern des Namens einer Umgebung, Verschieben eines Hosts in eine andere Umgebung und Löschen eines Hosts oder einer Umgebung
 
@@ -73,7 +73,7 @@ Möchten Sie auf die [!UICONTROL Hostgruppenliste] zugreifen, klicken Sie auf **
 
 ![](assets/hosts_list.png)
 
-## Filtern, Sortieren und Durchsuchen der Hostgruppenliste {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## Filter, sort, or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 Möchten Sie die [!UICONTROL Hostgruppenliste] nach Umgebung filtern, klicken Sie auf die Dropdownliste **[!UICONTROL Alle]** und wählen Sie die gewünschte Umgebung aus (Produktion, Staging, Entwicklung oder eine von Ihnen erstellte, benutzerdefinierte Umgebung).
 
@@ -81,11 +81,11 @@ Möchten Sie die [!UICONTROL Hostgruppenliste] sortieren, klicken Sie auf eine S
 
 Möchten Sie die [!UICONTROL Hostgruppenliste] durchsuchen, geben Sie einen Suchbegriff in das Suchfeld ein.
 
-## Auswählen mehrerer Hosts  {#section_EF3B458475184B7EA997C3559714397C}
+## Select multiple hosts {#section_EF3B458475184B7EA997C3559714397C}
 
 Möchten Sie mehrere Hosts auswählen, aktivieren Sie die Kontrollkästchen neben der Spalte [!UICONTROL Name] der gewünschten Hosts. Sie können alle ausgewählten Hosts verschieben oder löschen.
 
-## Erstellen einer Umgebung  {#section_32097D0993724DF3A202D164D3F18674}
+## Create an environment {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen]**.
 1. Klicken Sie auf **[!UICONTROL Umgebung erstellen]**.
@@ -93,7 +93,7 @@ Möchten Sie mehrere Hosts auswählen, aktivieren Sie die Kontrollkästchen nebe
 1. Legen Sie den aktiven Modus für die Umgebung fest: [!UICONTROL Aktive Aktivitäten] oder [!UICONTROL aktive und inaktive Aktivitäten].
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Festlegen des Standardhosts für die Berichterstellung {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Set the default host for reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 Sie können die Umgebung auswählen, die Sie als Standard für alle Aktivitätsberichte festlegen möchten.
 
@@ -109,7 +109,7 @@ So legen Sie die Standardumgebung für die Berichterstellung fest:
 >
 >[!DNL Recommendations]-Benutzer müssen ihre Verhaltens- und Produktdatenbank neu erstellen, wenn Hosts die Hostgruppen wechseln.
 
-## Erstellen von Whitelists, die Hosts identifizieren, die Mbox-Anrufe an Target senden können{#section_0AF7F56C386A42C381AF704DEF08D5CC}
+## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
 Sie können eine Whitelist erstellen, in der Hosts (Domänen) aufgeführt sind, die Mbox-Aufrufe an [!DNL Target] senden können. Alle anderen Hosts, die Anrufe generieren, erhalten eine kommentierte Fehlermeldung, dass sie nicht autorisiert sind. Hosts, die einen Mbox-Anruf enthalten, werden standardmäßig bei [!DNL Target] in der Hostgruppe „Produktion“ registriert und erhalten Zugriff auf alle aktiven und genehmigten Aktivitäten. Wenn dies nicht gewünscht wird, können Sie mithilfe der Whitelist bestimmte Hosts festlegen, die zu Mbox-Aufrufen berechtigt sind und [!DNL Target]-Kampagneninhalte empfangen dürfen. Alle Hosts werden weiterhin in der [!UICONTROL Hostgruppenliste] angezeigt und sie können nach wie vor in den Umgebungen gruppiert und mit verschiedenen Ebenen versehen werden, beispielsweise, ob ein Host aktive und/oder inaktive Kampagnen sehen kann.
 
@@ -135,20 +135,20 @@ In Fällen, in denen `mboxHost` an einen API-Aufruf weitergegeben wird, wird die
 
 Des Weiteren können Sie eine Blacklist erstellen, in der Hosts (Domänen) aufgeführt werden, die keine Mbox-Aufrufe an [!DNL Target] senden können, indem Sie die entsprechenden Hosts in das Feld [!UICONTROL Nicht im Host enthalten] einfügen.
 
-## Ändern des Namens einer Umgebung {#section_9F5F94285F8E495E9CE69810CE94CA08}
+## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
 1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen]**.
 1. Halten Sie den Mauszeiger über die gewünschte Umgebung und klicken Sie auf das **[!UICONTROL Bearbeitungssymbol.]**
 1. Ändern Sie den Namen der Umgebung.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Verschieben eines Hosts in eine andere Umgebung {#section_9F52549958BD485EB74FE78C32773D2A}
+## Move a host to a different environment {#section_9F52549958BD485EB74FE78C32773D2A}
 
 1. Halten Sie in der [!UICONTROL Hostgruppenliste] den Mauszeiger über denjenigen Host, den Sie verschieben möchten.
 1. Klicken Sie auf das Symbol für das **[!UICONTROL Verschieben.]**
 1. Wählen Sie aus der Dropdownliste die gewünschte Umgebung aus und klicken Sie auf das Häkchen.
 
-## Löschen eines Hosts {#section_F56355BA4BC54B078A1A8179BC954632}
+## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 Sie können einen Host, der nicht mehr gebraucht wird, löschen.
 
@@ -160,7 +160,7 @@ Sie können einen Host, der nicht mehr gebraucht wird, löschen.
 >
 >Der Host wird erneut aufgeführt, wenn jemand auf dem Host eine Seite mit Mbox aufruft.
 
-## Löschen einer Umgebung {#section_737F8869612047868D03FC755B1223D3}
+## Delete an environment {#section_737F8869612047868D03FC755B1223D3}
 
 Sie können eine Umgebung, die nicht mehr benötigt wird, löschen.
 
