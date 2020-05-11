@@ -1,11 +1,14 @@
 ---
-keywords: host;hosts;host group;environment;troubleshooting;best practices
+keywords: host;hosts;host group;environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
 description: Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung.
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -121,6 +124,8 @@ So erstellen Sie eine Whitelist:
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Wenn auf einem nicht autorisierten Host ein Mbox-Aufruf erfolgt, antwortet der Aufruf mit `/* no display - unauthorized mbox host */`.
+
+Wenn Sie Ubox-Funktionen von verwenden, [!DNL Target]beachten Sie, dass diese Whitelist auch die Liste der Domänen steuert, zu denen Ihre [Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) navigieren können. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, denen Sie umleiten möchten, wenn Sie Ubox als Teil Ihrer Implementierung verwenden. Wenn die Whitelist nicht angegeben ist, kann Adobe die Umleitungs-URLs nicht überprüfen und vor möglichen bösartigen Umleitungen schützen.
 
 Die Whitelist hat gegenüber Umgebungen Vorrang. Wir empfehlen, alle Hosts zu löschen, bevor Sie die Whitelist-Funktionen nutzen. Dann werden nur die in der Whitelist zugelassenen Hosts in der Hostliste angezeigt. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
 
