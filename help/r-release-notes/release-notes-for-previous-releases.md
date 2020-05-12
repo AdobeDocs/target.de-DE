@@ -5,7 +5,10 @@ title: Versionshinweise für vorherige Versionen
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+workflow-type: tm+mt
+source-wordcount: '29279'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +22,69 @@ Versionshinweise für vorherige Target-Versionen, einschließlich Versionshinwei
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise - 2020
+
+### Zielgruppe at.js (25. März 2020)
+
+Die folgenden neuen Versionen der JavaScript-Bibliotheken der Zielgruppe &quot;at.js&quot;sind verfügbar:
+
+* at.js Version 2.3.0
+* at.js Version 1.8.1
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+### Target Standard/Premium 20.2.1 (23. März 2020) 
+
+>[!IMPORTANT]
+>
+>Siehe Informationen über die Einstellung von &quot;mbox.js&quot;.
+
+Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderungen:
+
+* Es wurde ein Fehler behoben, der verhinderte, dass Kunden beim Durchführen einer Katalogsuche eine Sammlung auswählen konnten. (TGT-36230)
+* Es wurde ein Problem behoben, durch das Kriterien, die über API erstellt wurden, aber nicht von einer in der Benutzeroberfläche der Zielgruppe erstellten Aktivität referenziert wurden, fälschlicherweise aus der Benutzeroberfläche gelöscht werden konnten. (TGT-35917)
+* Implementierung von Sicherheitsverbesserungen in Content Security Policy (CSP). (TGT-36190)
+* Es wurde ein Fehler behoben, der dazu führte, dass &quot;NaN%&quot;angezeigt wurde, wenn die prozentuale Attributgewichtung nach links verschoben wurde. (TGT-36211)
+* Es wurden Probleme mit der lokale Anpassung behoben, sodass der Benutzeroberflächentext in verschiedenen Sprachen korrekt angezeigt wird.
+* Wir haben die Liste der verfügbaren Metriken aus Adobe Analytics für die Zielgruppe (A4T)-Aktivitäten standardisiert, indem Adobe Analytics-Metriken, die in der aktuellen Version der Adobe Analytics-APIs nicht unterstützt werden, nicht mehr unterstützt werden. Auf diese Weise können wir unsere A4T-Unterstützung in zukünftigen Adobe-Zielgruppen erweitern.
+
+   Folgende Änderungen wurden vorgenommen:
+
+   * &quot;Durchschnittliche Besuchszeit pro Seite&quot;wurde durch &quot;Durchschnittliche Besuchszeit pro Site&quot;ersetzt. Alle Aktivitäten, die diese Metrik als Metrik für primäre Ziele verwenden, haben &quot;Durchschnittliche Besuchszeit pro Site&quot;(Hinweis: in Minuten statt in Sekunden), die beim nächsten Bearbeiten der Aktivität als primäre Zielmetrik ausgewählt wurde.
+   * &quot;Besucher&quot;wurde durch &quot;Individuelle Besucher&quot;ersetzt. Bei allen Aktivitäten, die diese Metrik als primäre Zielmetrik verwenden, wird beim nächsten Bearbeiten der Aktivität &quot;Individuelle Besucher&quot;als primäre Zielmetrik ausgewählt.
+
+* Die folgenden Metriken wurden nicht mehr unterstützt und können nicht mehr als primäre Zielmetrik beim Erstellen einer neuen A4T-Aktivität ausgewählt werden.
+
+   | Veraltete Metriken | Vorgeschlagene Ersatzmetriken |
+   |--- |--- |
+   | Tägliche Besucher, stündliche Besucher, monatliche Besucher, vierteljährliche Besucher, wöchentliche Besucher, jährliche Besucher | Unique Visitors |
+   | Durchschnittliche Besuchstiefe | entfällt. Nicht als primäre Zielmetrik vorgeschlagen |
+   | Bots | entfällt. Nicht als primäre Zielmetrik vorgeschlagen |
+   | Absturzrate für Mobilgeräte, durchschnittliche Länge der vorherigen Sitzung, Durchschn. Avg. Rang für den Mobile App Store, Absturzrate für Mobilanwendungen, Durchschn. Bewertung für den App Store | entfällt. Nicht als primäre Zielmetrik vorgeschlagen |
+
+### Adobe Experience Cloud-Navigation (22. Februar 2019)
+
+* Wenn Sie sich bei der [!DNL Adobe Experience Cloud]Seite anmelden, werden Sie zur neuen Kopfzeilennavigation geleitet. Es sieht sehr ähnlich wie die vorherige Navigation mit der schwarzen Leiste oben aus, bietet jedoch die folgenden Verbesserungen:
+
+   * Einfacherer Wechsel zwischen [!DNL Identity Management System] (IMS-)Organisationen oder zu einer anderen Lösung.
+   * Verbesserte Benutzerhilfe: Zu den Suchergebnissen gehören die Ergebnisse der [!DNL Target] Produktdokumentation sowie Community-Foren und weitere Videoinhalte, sodass Sie leichter auf weitere Inhalte zugreifen können, um das Beste zu erzielen [!DNL Target]. Wir haben auch einen Feedback-Mechanismus direkt im Menü [!UICONTROL Hilfe] hinzugefügt, der es einfacher macht, Probleme zu melden oder Ideen auszutauschen.
+
+   * Verbesserte Feedback-Funktion für Net Promoter Score (NPS), sodass der Umfrage-Modus Ihren Arbeitsablauf nicht stört.
+   * Verbesserter Anmeldefluss. Bisher wurden alle [!DNL Target] Kunden auf der Landingpage Zielgruppe landet, nachdem sie auf das [!DNL Target] Symbol in der Kopfzeile geklickt hatten. Auf dieser Seite konnten Kunden dann fortfahren, [!DNL Target Standard/Premium], [!DNL Search&Promote]oder [!DNL Recommendations Classic], wie unten dargestellt:
+
+      ![Landingpage](/help/r-release-notes/assets/landing.png)
+
+      Wir haben diese Landingpage für alle unsere Kunden eliminiert. Sie gelangen jetzt immer direkt zur Liste [!UICONTROL der] Aktivitäten, indem Sie auf das [!DNL Target] Symbol in der neuen Kopfzeilennavigationsleiste klicken.
+
+      Wenn Sie [!DNL Recommendations Classic]diese verwenden, können Sie entweder direkt zur Lösung wechseln oder über den Kurzlink, der auf der Registerkarte &quot; [!UICONTROL Recommendations] &quot;erstellt wurde, wie nachfolgend gezeigt:
+
+      ![Recs Classic Deep-Link](/help/r-release-notes/assets/recs-classic.png)
+
+      Wenn Sie [!DNL Search&Promote]diese verwenden, müssen Sie direkt zur [Search&amp;Promote-URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1) wechseln. Der Pfad, der von innen [!DNL Search&Promote] von [!DNL Adobe Target] zu erreichen ist, wurde vollständig entfernt.
+
+   * Benachrichtigungen für [!DNL Target] sind derzeit nicht in der Dropdown-Liste &quot; [!UICONTROL Benachrichtigungen] &quot;in der Kopfzeile verfügbar.
+   >[!NOTE]
+   >
+   >Bei der Einführung der neuen Navigationsleiste werden Sie auch einige URL-Änderungen feststellen. Alle vorherigen mit Lesezeichen versehenen Links funktionieren weiterhin, aber wir empfehlen Ihnen, neue Links mit einem Lesezeichen zu versehen, um das Öffnen zu beschleunigen.
 
 ### Target Standard/Premium 20.1.1 (4. Februar 2020)
 
