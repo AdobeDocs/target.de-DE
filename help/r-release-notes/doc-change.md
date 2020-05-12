@@ -5,9 +5,9 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
 workflow-type: tm+mt
-source-wordcount: '7601'
+source-wordcount: '7641'
 ht-degree: 81%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 81%
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe Target Standard/Premium 20.2.1 (19. Februar 2020)
+## Adobe Target Standard/Premium 20.4.1 (6. Mai 2020) 
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
@@ -29,6 +29,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Abschnitt &quot;Überlegungen&quot;wurde aktualisiert. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Die Zeile &quot;overrideMboxEdgeServer&quot;unter &quot;Einstellungen&quot;wurde aktualisiert. |
 | Mai 6 | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Es wurden Informationen zu ITP 2.3 hinzugefügt. |
+|  | [Versionshinweise](/help/r-release-notes/release-notes.md): 20.4.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
+
+## Adobe Target Standard/Premium 20.2.1 (19. Februar 2020)
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
 | Mai 4 | [Häufig gestellte Fragen zum Reporting](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | Neue FAQs hinzugefügt: &quot;Warum ist der Traffic zwischen meinen Erlebnissen unterschiedlich, auch in meiner A/B- oder MVT-Aktivität?&quot; |
 | April 29 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Bekanntes Problem beim Berichte mit extremen Bestellungen wurde hinzugefügt. |
 | April 28 | [Nützliche Variablen, Profile, Parameter und Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Informationen zum Abrufen der IP-Adressen von Benutzern mit `user.header('x-forwarded-for')` neueren AWS-Kanten wurden entfernt. Dieser Befehl funktioniert jetzt mit neueren AWS-Kanten. |
