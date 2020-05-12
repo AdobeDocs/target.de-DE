@@ -5,7 +5,7 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
+source-git-commit: 111a960201e14c5283b8c7212dffac9fde9c49e9
 workflow-type: tm+mt
 source-wordcount: '1823'
 ht-degree: 92%
@@ -127,7 +127,7 @@ Wenn auf einem nicht autorisierten Host ein Mbox-Aufruf erfolgt, antwortet der A
 
 >[!IMPORTANT]
 >
->*Best Practices* für Sicherheit: Wenn Sie Ubox-Funktionen von verwenden, [!DNL Target]beachten Sie, dass diese Whitelist auch die Liste der Domänen steuert, zu denen Ihre [Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) navigieren können. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, denen Sie umleiten möchten, wenn Sie Ubox als Teil Ihrer Implementierung verwenden. Wenn die Whitelist nicht angegeben ist, kann Adobe die Umleitungs-URLs nicht überprüfen und vor möglichen bösartigen Umleitungen schützen.
+>**Best Practices** für Sicherheit: Wenn Sie Ubox-Funktionen von verwenden, [!DNL Target]beachten Sie, dass diese Whitelist auch die Liste der Domänen steuert, zu denen Ihre [Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) navigieren können. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, denen Sie umleiten möchten, wenn Sie Ubox als Teil Ihrer Implementierung verwenden. Wenn die Whitelist nicht angegeben ist, kann Adobe die Umleitungs-URLs nicht überprüfen und vor möglichen bösartigen Umleitungen schützen.
 >
 >Die Whitelist hat gegenüber Umgebungen Vorrang. Wir empfehlen, alle Hosts zu löschen, bevor Sie die Whitelist-Funktionen nutzen. Dann werden nur die in der Whitelist zugelassenen Hosts in der Hostliste angezeigt. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
 
