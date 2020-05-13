@@ -5,9 +5,9 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
 workflow-type: tm+mt
-source-wordcount: '7641'
+source-wordcount: '7650'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Mai 13 | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Der Abschnitt &quot;Bekannte Einschränkungen&quot;wurde hinzugefügt. |
 | Mai 11 | [Hosts](/help/administrating-target/hosts.md) | Es wurden Informationen zur Verwendung der Ubox-Funktion mit Umleitungen und Whitelists hinzugefügt. |
 |  | [Arbeiten mit Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Es wurden Informationen zur Verwendung von Hosts hinzugefügt, um Open-Redirect-Schwachstellen zu vermeiden. |
 |  | [Integration von Recommendations in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Es wurden Informationen zur Verwendung von Hosts hinzugefügt, um Open-Redirect-Schwachstellen zu vermeiden. |
