@@ -1,11 +1,14 @@
 ---
-keywords: Target Standard; FAQ; häufig gestellte Fragen; Kurzdarstellung; kurze Darstellung
+keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: Eine Liste mit häufig gestellten Fragen über die Verwendung von Funktionen in Adobe Target zusammen mit Informationen und Links zu weiteren Informationen.
 title: Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '2904'
+ht-degree: 99%
 
 ---
 
@@ -131,7 +134,7 @@ Verwenden Sie die in Schritt 3 des aus drei Teilen bestehenden geführten Target
 Hierzu gibt es zwei Optionen:
 
 * Standard, mit drei Ebenen (Niedrig/Medium/Hoch)
-* Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für „Benutzerdefiniert“ die Funktion für die präzise Prioritätensetzung (Setup &gt; Voreinstellungen).
+* Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für „Benutzerdefiniert“ die Funktion für die präzise Prioritätensetzung (Setup > Voreinstellungen).
 
 ## Zielgruppen{#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -195,7 +198,7 @@ Beschäftigen Sie sich mit der Funktion [Mobile Viewports](../c-experiences/c-vi
 
 **Ich verfüge über mehrere Domänen. Für eine der Domänen muss „Enhanced Experience Composer“ aktiviert sein, während andere deaktiviert werden müssen. Wie kann ich dies vornehmen?**
 
-Sie können dazu immer die [Option „Enhanced Experience Composer“ auf der Aktivitätsebene](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) verwenden, um die Standardeinstellung (Setup &gt; Voreinstellungen) außer Kraft zu setzen.
+Sie können dazu immer die [Option „Enhanced Experience Composer“ auf der Aktivitätsebene](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) verwenden, um die Standardeinstellung (Setup > Voreinstellungen) außer Kraft zu setzen.
 
 **Warum wird mir keine Option zum Tauschen von Bildern angezeigt?**
 
@@ -253,7 +256,7 @@ Wir verfügen über eine [Weiterleitungs-URL](../c-experiences/c-manage-content/
 
 **Warum erfolgt im meiner Qualitätssicherung keine Inhaltsbereitstellung?**
 
-Es ist möglich, dass Ihre Site dynamische IDs, doppelte IDs oder dynamische Klassen für Elemente aufweist. Sie müssen die Voreinstellungsoptionen für die Site möglicherweise auf Kontoebene (oder auf Aktivitätsebene, wenn das Problem für eine Domäne oder Seite spezifisch ist) auswerten. Siehe [CSS-Selektoren](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+Es ist möglich, dass Ihre Site dynamische IDs, doppelte IDs oder dynamische Klassen für Elemente aufweist. Sie müssen die Voreinstellungsoptionen für die Site möglicherweise auf Kontoebene (oder auf Aktivitätsebene, wenn das Problem für eine Domäne oder Seite spezifisch ist) auswerten. Siehe [CSS-Selektoren](/help/administrating-target/visual-experience-composer-set-up.md#css).
 
 **Warum wird mir anstelle des gewünschten Angebots/Erlebnisses eine andere Aktivität angezeigt?**
 
