@@ -1,29 +1,32 @@
 ---
-keywords: Targeting;Erfolg;Konversionsmetrik;Metrik für Seitenergebnisse;Metrik für Seitenansichten;Umsatzmetriken;Metrik für die Zeit auf der Site;geschätzter Wert;Erweiterte Einstellungen;Erfolgsmetriken
-description: In Adobe Target sind Erfolgsmetriken sowohl für die Berichterstellung als auch für die Verfolgung vorkonfiguriert.
-title: Erfolgsmetriken in Adobe Target
+keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
+description: In Adobe Zielgruppe sind Erfolgsmetriken sowohl für Berichte- als auch für Verfolgungszwecke vorkonfiguriert.
+title: Erfolgsmetriken in Adobe Zielgruppe
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '1019'
+ht-degree: 92%
 
 ---
 
 
 # Erfolgsmetriken{#success-metrics}
 
-In Adobe Target sind Erfolgsmetriken sowohl für die Berichterstellung als auch für die Verfolgung vorkonfiguriert.
+In Adobe Zielgruppe sind Erfolgsmetriken sowohl für Berichte- als auch für Verfolgungszwecke vorkonfiguriert.
 
 Erfolgsmetriken sind Parameter, die zur Messung des Erfolgs einer Aktivität verwendet werden. Erfolgsmetriken umfassen die wichtigsten betrieblichen Messwerte, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können. So können Sie beispielsweise feststellen, ob ein neues Angebot oder das Hinzufügen eines Artikel zu einem Warenkorb Ihren Umsatz pro Besucher steigert. Erfolgsmetriken können hilfreich sein, um Probleme mit der Registrierung, der Sortierung oder dem Kauftrichter oder einfach mit der Besucher- und Kundeninteraktion zu ermitteln.
 
 Im Zuge des Ziels von [!DNL Target Standard], die Testerstellung zu vereinfachen, übernimmt die Anwendung einige der Konfigurationen, die in [!DNL Target Classic] noch manuell durchgeführt werden mussten. Erfolgsmetriken werden beispielsweise mit den optimalen Optionen vorkonfiguriert.
 
-By default, conversion events are set to "Count once and keep the entrant in the activity" in [!DNL Target Standard]. Konversionen werden nur einmal gezählt. Wiederholte Konversionen werden nicht gezählt, und dem Besucher wird immer der Testinhalt angezeigt.
+By default, conversion events are set to &quot;Count once and keep the entrant in the activity&quot; in [!DNL Target Standard]. Konversionen werden nur einmal gezählt. Wiederholte Konversionen werden nicht gezählt, und dem Besucher wird immer der Testinhalt angezeigt.
 
 Umsatzmetriken, die auf „Anzahl inkrementieren und Benutzer in der Aktivität beibehalten“ festgelegt sind, protokollieren Bestelldetails nur für die erste Bestellung, die von demselben Besucher aufgegeben wurde. Alle nachfolgenden Bestellungen erhöhen die Anzahl Konversionen, steigern den Umsatz von RPV/AOV/Vertrieb jedoch nicht und werden nicht in den Bestelldetailbericht aufgenommen.
 
 >[!NOTE]
 >
->Das Standardverhalten für Aktivitäten, die [Analytics als Berichtsquelle](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, lautet "Anzahl erhöhen und Benutzer in der Aktivität belassen"mit "Einmal pro Teilnehmer".
+>Das Standardverhalten für Aktivitäten, die [Analytics als Berichte-Quelle](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, lautet &quot;Anzahl erhöhen und Benutzer in der Aktivität belassen&quot;mit &quot;Einmal pro Teilnehmer&quot;.
 
 Es sind folgende Erfolgsmetriken verfügbar:
 
@@ -41,7 +44,7 @@ Sie können auch benutzerdefinierte Erfolgsmetriken erstellen.
 
 Wählen Sie nach Auswahl der Erfolgsmetrik die Aktion, die von einem Besucher unternommen wurde, um das Ziel zu erreichen. Wählen Sie beispielsweise eine Konversionsmetrik und legen Sie sie so fest, dass sie einmal pro Besucher gezählt wird. Legen Sie dann fest, ob Erfolg erzielt wird, wenn ein Besucher eine bestimmte Seite (oder eine Reihe von Seiten) anzeigt, eine bestimmte Mbox anzeigt oder auf einen bestimmten Link klickt.
 
-Bei Aktivierung bietet der geschätzte Wert eines Konversionsfeldes (nicht verfügbar für Seitenwertungsmetriken) einen Wert für Ihr Ziel, jedoch nicht für andere Metriken. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Die Schätzung verwendet für alle Umsatzmetriken (Umsatz pro Besucher, durchschnittlicher Bestellwert, Gesamtverkäufe und Bestellungen) die Metrik „Umsatz pro Besucher“. Der Datentyp ist eine Währung. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE).
+Bei Aktivierung bietet der geschätzte Wert eines Konversionsfeldes (nicht verfügbar für Seitenwertungsmetriken) einen Wert für Ihr Ziel, jedoch nicht für andere Metriken. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Die Schätzung verwendet für alle Umsatzmetriken (Umsatz pro Besucher, durchschnittlicher Bestellwert, Gesamtverkäufe und Bestellungen) die Metrik „Umsatz pro Besucher“. Der Datentyp ist eine Währung. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
 Die für Ihre Aktivität gewählten Erfolgsmetriken sind in den Berichtseinstellungen verfügbar, wenn Sie einen Bericht für die Aktivität anzeigen.
 
@@ -88,4 +91,4 @@ Dieses Video zeigt, wie Sie die verschiedenen Aktivitätsmetriken verwenden.
 * Verstehen und Erstellen von Metriken für Konversionen, Umsatz und Interaktion
 * Erstellen einer Metrik mit Klick-Tracking
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
