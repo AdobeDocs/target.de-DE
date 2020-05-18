@@ -1,11 +1,14 @@
 ---
-keywords: Übersicht und Referenz
+keywords: Overview and Reference
 description: Die Aktivitäts-URL legt die Seite fest, die bei dem Test verwendet und beim Entwurf des Tests geöffnet wird.
 title: Aktivitäts-URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +25,8 @@ Geben Sie die Aktivitäts-URL ein, wenn Sie während der Erstellung der Aktivit�
 
 ## Spezifizieren einer anderen URL
 
-Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] die Seite, die in Ihren [Konto-Voreinstellungen in Target](/help/administrating-target/r-target-account-preferences/target-account-preferences.md) angegeben ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md)
+. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
 Damit nach dem Öffnen von [!UICONTROL Visual Experience Composer] eine andere Seite angezeigt wird, klicken Sie auf das Zahnradsymbol **[!UICONTROL Konfigurieren]** und wählen Sie dann **[!UICONTROL Seitenbereitstellung]**. Geben Sie die URL in das Feld „Aktivitäts-URL“ ein.
 
@@ -41,7 +45,7 @@ Zusätzliche Regeln können auf Folgendem basieren:
 
 Zusätzliche Regeln können mithilfe von „AND“ oder „OR“ an die Aktivitäts-URL angefügt werden. Alle hinzugefügten Regeln werden per „AND“ miteinander verglichen.
 
-Klicken Sie auf **[!UICONTROL „Speichern“], wenn Sie damit fertig sind.**
+Klicken Sie auf **[!UICONTROL „Speichern“]**, wenn Sie damit fertig sind.
 
 >[!NOTE]
 >
