@@ -1,14 +1,14 @@
 ---
-keywords: host;hosts;host group;environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
 description: Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung.
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 111a960201e14c5283b8c7212dffac9fde9c49e9
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
 workflow-type: tm+mt
-source-wordcount: '1823'
-ht-degree: 92%
+source-wordcount: '1179'
+ht-degree: 68%
 
 ---
 
@@ -17,32 +17,30 @@ ht-degree: 92%
 
 Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung.
 
-Das Hauptziel bei der Hostverwaltung besteht darin, dafür zu sorgen, dass auf der Seite nicht versehentlich inaktive Inhalte erscheinen. Hostverwaltung ermöglicht es Ihnen zudem, Berichtsdaten nach Umgebung aufzuteilen.
+Das Hauptziel bei der Hostverwaltung besteht darin, dafür zu sorgen, dass auf der Seite nicht versehentlich inaktive Inhalte erscheinen. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
 Ein Host ist ein Webserver (oder eine Webdomäne), von dem aus Inhalte während der verschiedenen Phasen eines Projekts bereitgestellt werden. Alle Hosts, die eine Mbox beliefern, werden erkannt.
 
-Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Es können beispielsweise mehrere Dutzend Hosts in zwei oder drei Umgebungen aufgeteilt werden. Zu den aktuellen Umgebungen gehören Produktion, Staging und Entwicklung. Sie können nach Wunsch neue Umgebungen hinzufügen oder alte umbenennen.
+Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Es können beispielsweise mehrere Dutzend Hosts in zwei oder drei Umgebungen aufgeteilt werden. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. Sie können nach Wunsch neue Umgebungen hinzufügen oder alte umbenennen.
 
-Die Standardumgebung ist bereits fest mit „Produktion“ benannt. Die Standardumgebung kann nicht gelöscht werden, auch nicht, wenn sie umbenannt wird. In [!DNL Target] wird angenommen, dass in dieser Gruppe fertiggestellte, genehmigte Aktivitäten und Tests bereitgestellt werden.
+One environment, the default environment, is pre-named [!UICONTROL Production]. Die Standardumgebung kann nicht gelöscht werden, auch nicht, wenn sie umbenannt wird. In [!DNL Target] wird angenommen, dass in dieser Gruppe fertiggestellte, genehmigte Aktivitäten und Tests bereitgestellt werden.
 
-Wenn eine Mbox-Anfrage von neuen Websites oder Domänen empfangen wird, werden diese neuen Domänen stets in der Produktionsumgebung angezeigt. Die Einstellungen der Umgebung „Produktion“ können nicht geändert werden, sodass für unbekannte oder neue Sites definitiv nur die Inhalte angezeigt werden, die aktiv und fertig sind. Über die Hostverwaltung kann außerdem problemlos für die Qualität neuer Aktivitäten und Inhalte in der Testumgebung, Staging-Umgebung und Entwicklungsumgebung vor der Aktivierung der Aktivitäten gesorgt werden.
+When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Über die Hostverwaltung kann außerdem problemlos für die Qualität neuer Aktivitäten und Inhalte in der Testumgebung, Staging-Umgebung und Entwicklungsumgebung vor der Aktivierung der Aktivitäten gesorgt werden.
 
-Target beschränkt einen Host nicht, der Mboxes senden und empfangen kann. Wenn also neue Server oder Domänen erkannt werden, funktionieren sie automatisch (außer es wurde eine Whitelist oder eine Blacklist eingerichtet). Auf diese Weise wird auch das Testen von Werbeanzeigen auf verschiedenen Domänen ermöglicht, die unbekannt sind oder nicht antizipiert werden können.
+[!DNL Target] beschränkt einen Host nicht, der Mboxes senden und empfangen kann. Wenn also neue Server oder Domänen erkannt werden, funktionieren sie automatisch (außer es wurde eine Whitelist oder eine Blacklist eingerichtet). Auf diese Weise wird auch das Testen von Werbeanzeigen auf verschiedenen Domänen ermöglicht, die unbekannt sind oder nicht antizipiert werden können.
 
-Möchten Sie Hosts und Umgebungen bearbeiten, klicken Sie auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Hosts]**.
+Um Hosts zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
 ![](assets/hosts_list.png)
 
 ## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
-Informationen über die Bedingungen, die erfüllt sein müssen, damit [!DNL Target] einen Host erkennt und ihn der Hostgruppenliste hinzufügt
-
-Damit ein Host erkannt werden kann, müssen folgende Bedingungen erfüllt werden:
+Um einen Host zu erkennen und ihn der [!UICONTROL Hosts] -Liste hinzuzufügen, müssen die folgenden Bedingungen erfüllt sein:
 
 * Auf dem Host muss mindestens eine Mbox vorhanden sein.
 * Eine Seite auf dem Host muss  Folgendes aufweisen:
 
-   * einen genauen [!DNL mbox.js]-Verweis
+   * Ein genauer &quot;at.js&quot;- oder &quot;mbox.js&quot;-Verweis
    * einen Mbox- oder automatisch generierten globalen Mbox-Aufruf
 
 * Die Seite mit der Mbox muss in einem Browser angezeigt werden.
@@ -55,59 +53,23 @@ Nach Aufruf der Seite erscheint der Host in der [!UICONTROL Hostgruppenliste], s
 
 Stellen Sie nach dem Hinzufügen eines Hosts zur [!UICONTROL Hostgruppenliste] sicher, dass der Host erkannt wird.
 
-1. Klicken Sie auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Hosts]**.
+1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 1. Wird der Host nicht angezeigt, aktualisieren Sie den Browser. 
-Standardmäßig wird ein neu erkannter Host zur Umgebung „Produktion“ hinzugefügt. Diese Umgebung ist am sichersten, da es in ihr nicht zulässig ist, inaktive Aktivitäten über diese Hosts anzuzeigen.
-1. (Bedingt) Verschieben Sie den Host in die Entwicklungs- oder Staging-Umgebung.
+
+
+   By default, a newly recognized host is placed in the [!UICONTROL Production] environment. Diese Umgebung ist am sichersten, da es in ihr nicht zulässig ist, inaktive Aktivitäten über diese Hosts anzuzeigen.
+
+1. (Bedingt) Klicken Sie auf das Symbol Verschieben ( ![Verschieben-Symbol](/help/administrating-target/assets/icon-move.png) ), um den Host in die [!UICONTROL Entwicklungs]-, [!UICONTROL Staging]- oder andere Umgebung zu verschieben.
 
 >[!NOTE]
 >
->Die Umgebung „Produktion“ kann nicht gelöscht werden, auch nicht, wenn sie umbenannt wird. Es wird angenommen, dass in dieser Gruppe fertiggestellte, aktive Aktivitäten und Tests bereitgestellt werden. In der Standardumgebung ist es nicht zulässig, inaktive Kampagnen anzuzeigen.
+>The [!UICONTROL Production] environment cannot be deleted, even if you rename it. Es wird angenommen, dass in dieser Gruppe fertiggestellte, aktive Aktivitäten und Tests bereitgestellt werden. In der Standardumgebung ist es nicht zulässig, inaktive Kampagnen anzuzeigen.
 
-## Manage hosts and environments {#concept_90573F5A52E04600A8C3C5897880C10F}
+## Sort or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-Informationen, die Sie dabei unterstützen, Hosts und Umgebungen (Hostgruppen) zu verwalten, darunter Einrichten der Standardberichterstattung, Erstellen von Whitelists, Ändern des Namens einer Umgebung, Verschieben eines Hosts in eine andere Umgebung und Löschen eines Hosts oder einer Umgebung
+To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name], [!UICONTROL Environment], or [!UICONTROL Last Requested]) to sort the list in ascending or descending order.
 
-
-Möchten Sie auf die [!UICONTROL Hostgruppenliste] zugreifen, klicken Sie auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Hosts]**.
-
-![](assets/hosts_list.png)
-
-## Filter, sort, or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
-
-Möchten Sie die [!UICONTROL Hostgruppenliste] nach Umgebung filtern, klicken Sie auf die Dropdownliste **[!UICONTROL Alle]** und wählen Sie die gewünschte Umgebung aus (Produktion, Staging, Entwicklung oder eine von Ihnen erstellte, benutzerdefinierte Umgebung).
-
-Möchten Sie die [!UICONTROL Hostgruppenliste] sortieren, klicken Sie auf eine Spaltenüberschrift („Name“, „Umgebung“ oder „Zuletzt angefordert“), um die Liste auf- oder absteigend zu sortieren.
-
-Möchten Sie die [!UICONTROL Hostgruppenliste] durchsuchen, geben Sie einen Suchbegriff in das Suchfeld ein.
-
-## Select multiple hosts {#section_EF3B458475184B7EA997C3559714397C}
-
-Möchten Sie mehrere Hosts auswählen, aktivieren Sie die Kontrollkästchen neben der Spalte [!UICONTROL Name] der gewünschten Hosts. Sie können alle ausgewählten Hosts verschieben oder löschen.
-
-## Create an environment {#section_32097D0993724DF3A202D164D3F18674}
-
-1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen]**.
-1. Klicken Sie auf **[!UICONTROL Umgebung erstellen]**.
-1. Geben Sie einen beschreibenden Namen für die Umgebung an.
-1. Legen Sie den aktiven Modus für die Umgebung fest: [!UICONTROL Aktive Aktivitäten] oder [!UICONTROL aktive und inaktive Aktivitäten].
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
-## Set the default host for reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
-
-Sie können die Umgebung auswählen, die Sie als Standard für alle Aktivitätsberichte festlegen möchten.
-
-Sollten Sie die Produktionsumgebung als Standardeinstellung festlegen, werden ihr automatisch alle unbekannten Hosts hinzugefügt und Datenberichte aus dieser Umgebung werden in die Standardberichtsansicht übernommen. Die Erstellung einer „reinen“ Umgebung gewährleistet hingegen, dass ausschließlich Coresites/Domänen eingeschlossen werden.
-
-So legen Sie die Standardumgebung für die Berichterstellung fest:
-
-1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Einstellungen]**.
-1. Wählen Sie den Standardhost aus der Dropdownliste **[!UICONTROL Umgebungseinstellungen]** aus.
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
->[!NOTE]
->
->[!DNL Recommendations]-Benutzer müssen ihre Verhaltens- und Produktdatenbank neu erstellen, wenn Hosts die Hostgruppen wechseln.
+To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
 ## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
@@ -115,9 +77,13 @@ Sie können eine Whitelist erstellen, in der Hosts (Domänen) aufgeführt sind, 
 
 So erstellen Sie eine Whitelist:
 
-1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Einstellungen]**.
-1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Aktivierte Hosts für Inhaltsbereitstellung aktivieren]**.
-1. Fügen Sie nach Wunsch Hosts im Feld **[!UICONTROL Im Host enthalten]** hinzu.
+1. Klicken Sie in der Liste [!UICONTROL Hosts] auf Hosts **[!UICONTROL autorisieren]**.
+1. Aktivieren Sie den Umschalter Autorisierte Hosts für Content Versand **[!UICONTROL aktivieren]** .
+1. Add the desired hosts in the **[!UICONTROL Host contains]** box, as desired.
+
+   Es können mehrere Hosts, einer pro Zeile, aufgeführt sein.
+
+1. Add the desired hosts in the **[!UICONTROL Host does not contains]** box, as desired.
 
    Es können mehrere Hosts, einer pro Zeile, aufgeführt sein.
 
@@ -131,49 +97,22 @@ Wenn auf einem nicht autorisierten Host ein Mbox-Aufruf erfolgt, antwortet der A
 >
 >Die Whitelist hat gegenüber Umgebungen Vorrang. Wir empfehlen, alle Hosts zu löschen, bevor Sie die Whitelist-Funktionen nutzen. Dann werden nur die in der Whitelist zugelassenen Hosts in der Hostliste angezeigt. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
 
-Manchmal erscheinen Hosts anderer Sites in Ihren Umgebungen. Eine Domäne wird in der Liste angezeigt, wenn die Domäne Ihre mbox.js aufruft. Wenn beispielsweise eine Ihrer Webseiten auf den Server eines anderen kopiert wird, wird diese Domäne in Ihrer Umgebung angezeigt. Es können auch Domänen von Spider-Engines, Übersetzungssites oder lokalen Festplatten angezeigt werden.
+Manchmal erscheinen Hosts anderer Sites in Ihren Umgebungen. Eine Domäne wird in der Liste angezeigt, wenn die Domäne Ihre &quot;at.js&quot;oder &quot;mbox.js&quot;aufruft. Wenn beispielsweise eine Ihrer Webseiten auf den Server eines anderen kopiert wird, wird diese Domäne in Ihrer Umgebung angezeigt. Es können auch Domänen von Spider-Engines, Übersetzungssites oder lokalen Festplatten angezeigt werden.
 
-In Fällen, in denen `mboxHost` an einen API-Aufruf weitergegeben wird, wird die Konversion für die weitergegebene Umgebung aufgezeichnet. Wenn keine Umgebung weitergegeben wird, ist der Host beim Aufruf standardmäßig „Produktion“.
+In Fällen, in denen `mboxHost` an einen API-Aufruf weitergegeben wird, wird die Konversion für die weitergegebene Umgebung aufgezeichnet. If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
 Des Weiteren können Sie eine Blacklist erstellen, in der Hosts (Domänen) aufgeführt werden, die keine Mbox-Aufrufe an [!DNL Target] senden können, indem Sie die entsprechenden Hosts in das Feld [!UICONTROL Nicht im Host enthalten] einfügen.
-
-## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
-
-1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen]**.
-1. Halten Sie den Mauszeiger über die gewünschte Umgebung und klicken Sie auf das **[!UICONTROL Bearbeitungssymbol.]**
-1. Ändern Sie den Namen der Umgebung.
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
-## Move a host to a different environment {#section_9F52549958BD485EB74FE78C32773D2A}
-
-1. Halten Sie in der [!UICONTROL Hostgruppenliste] den Mauszeiger über denjenigen Host, den Sie verschieben möchten.
-1. Klicken Sie auf das Symbol für das **[!UICONTROL Verschieben.]**
-1. Wählen Sie aus der Dropdownliste die gewünschte Umgebung aus und klicken Sie auf das Häkchen.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 Sie können einen Host, der nicht mehr gebraucht wird, löschen.
 
-1. Halten Sie in der [!UICONTROL Hostgruppenliste] den Mauszeiger über denjenigen Host, den Sie löschen möchten.
-1. Klicken Sie auf das **[!UICONTROL Löschsymbol.]**
+1. From the [!UICONTROL Hosts] list, click the **[!UICONTROL Delete]** icon.
 1. Klicken Sie auf **[!UICONTROL Löschen]**, um den Löschvorgang zu bestätigen.
 
 >[!NOTE]
 >
 >Der Host wird erneut aufgeführt, wenn jemand auf dem Host eine Seite mit Mbox aufruft.
-
-## Delete an environment {#section_737F8869612047868D03FC755B1223D3}
-
-Sie können eine Umgebung, die nicht mehr benötigt wird, löschen.
-
-1. Klicken Sie in der [!UICONTROL Hostgruppenliste] auf die Registerkarte **[!UICONTROL Umgebungen]**.
-1. Halten Sie den Mauszeiger über die Umgebung, die Sie löschen möchten.
-1. Klicken Sie auf das **[!UICONTROL Löschsymbol.]**
-1. Klicken Sie auf **[!UICONTROL Löschen]**, um den Löschvorgang zu bestätigen.
-
->[!NOTE]
->
->Die Umgebung „Produktion“ kann nicht gelöscht werden, sie kann jedoch umbenannt werden.
 
 ## Fehlerbehebung für Hosts {#concept_B3D7583FA4BB480382CC7453529FE1B7}
 
@@ -184,7 +123,7 @@ Probieren Sie folgende Methoden zur Fehlerbehebung aus, falls Probleme mit Ihren
 **Der Host wird in der Mbox-Liste des Kontos nicht angezeigt.**
 
 * Aktualisieren Sie die Seite [!UICONTROL Hosts] Ihres Browsers.
-* Überprüfen Sie den Mbox-Code einschließlich des [!DNL mbox.js]-Verweises auf seine Richtigkeit.
+* Vergewissern Sie sich, dass der mbox-Code einschließlich des Verweises auf at.js oder mbox.js korrekt ist.
 * Versuchen Sie es damit, zu einer der Mboxes auf dem Host zu surfen. Es besteht die Möglichkeit, dass keine Mbox auf dem Host bislang in einem Browser wiedergegeben wurde.
 
 **In der[!UICONTROL Hostgruppenliste]werden zufällige oder unbekannte Domänen angezeigt.**
@@ -194,27 +133,3 @@ Eine Domäne wird in der Liste angezeigt, wenn von der Domäne [!DNL Target] auf
 **Meine Mbox gibt die Meldung /* Keine Anzeige - nicht autorisierter Mbox-Host */ zurück.**
 
 Wenn ein Mbox-Aufruf auf einem nicht autorisierten Host erfolgt, antwortet der Aufruf mit /* Keine Anzeige - nicht autorisierter Mbox-Host */.
-
-## Recommendations: Sammlungen und Ausschlüsse nach Umgebung (Hostgruppe) filtern
-
-![Premium-Zeichen](/help/assets/premium.png)
-
-Sie können eine Vorschau der Inhalte von Recommendations-Sammlungen und -Ausschlüssen für eine ausgewählte Umgebung (Hostgruppe) anzeigen.
-
->[!NOTE]
->Recommendations-Aktivitäten sind als Bestandteil der Target Premium-Lösung verfügbar. Ohne Target Premium-Lizenz sind sie nicht für Target Standard verfügbar.
-
-Die Hostgruppe kann verwendet werden, um die verfügbaren Elemente in Ihrem Katalog für verschiedene Verwendungen zu trennen. Sie können beispielsweise Hostgruppen für Entwicklungs- und Produktionsumgebungen, unterschiedliche Marken oder unterschiedliche Länder verwenden. Standardmäßig basieren die Vorschauergebnisse in „Katalogsuche“, „Sammlungen“ und „Ausnahmen“ auf der Standardhostgruppe. (Mit dem Umgebungsfilter können Sie auch eine andere Hostgruppe auswählen, um die Ergebnisse in der Vorschau anzuzeigen.) Neu hinzugefügte Elemente sind standardmäßig in allen Hostgruppen verfügbar, es sei denn, beim Erstellen oder Aktualisieren des Elements wurde eine Umgebungs-ID angegeben. Bereitgestellte Empfehlungen hängen von der in der Anfrage angegebenen Hostgruppe ab.
-
-Wenn Ihre Produkte nicht angezeigt werden, stellen Sie sicher, dass Sie die richtige Hostgruppe verwenden. Wenn Sie beispielsweise Ihre Empfehlung so festlegen, dass eine Staging-Umgebung verwendet wird, und Ihre Hostgruppe auf „Staging“ eingestellt ist, müssen Sie eventuell Ihre Erfassung in der Staging-Umgebung neu erstellen, damit die Angebote angezeigt werden. Um zu sehen, welche Produkte in jeder Umgebung verfügbar sind, verwenden Sie für jede Umgebung die Katalogsuche. Sie können auch eine Vorschau der Inhalte von Recommendations-Sammlungen und -Ausschlüssen für eine ausgewählte Umgebung (Hostgruppe) anzeigen.
-
->[!NOTE]
->Nachdem Sie die ausgewählte Umgebung geändert haben, müssen Sie auf „Suchen“ klicken, um die zurückgegebenen Ergebnisse zu aktualisieren.
-
-Der Umgebungsfilter ist an den folgenden Orten in der Target-Benutzeroberfläche verfügbar:
-
-* Katalogsuche ([!UICONTROL Recommendations > Katalogsuche])
-* Dialogfeld „Sammlung erstellen“ ([!UICONTROL Recommendations > Sammlungen > Neu erstellen])
-* Dialogfeld „Sammlung aktualisieren“ ([!UICONTROL Recommendations > Sammlungen > Bearbeiten])
-* Dialogfeld „Ausschluss erstellen“ ([!UICONTROL Recommendations > Ausschlüsse > Neu erstellen])
-* Dialogfeld „Ausschluss aktualisieren“ ([!UICONTROL Recommendations > Ausschlüsse > Bearbeiten])
