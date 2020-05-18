@@ -1,11 +1,14 @@
 ---
 description: Verwendung des Visual Experience Composers, um eine Erlebnis-Targeting-Aktivität (XT) auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Adobe Target zu verändern.
 title: Erstellen einer Erlebnis-Targeting-Aktivität
-subtopic: Multivarianz-Test
+subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +25,9 @@ Weitere Informationen zum Erlebnis-Targeting, einen Anwendungsfall und Schulungs
 
 **So erstellen Sie eine XT-Aktivität:**
 
-1. Klicken Sie in der Liste [!UICONTROL Aktivitäten] auf **[!UICONTROL Aktivität erstellen]** &gt; **[!UICONTROL Erlebnis-Targeting]**.
+1. Klicken Sie in der Liste [!UICONTROL Aktivitäten] auf **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL Erlebnis-Targeting]**.
 
-   ![Aktivität erstellen &gt; Erlebnis-Targeting](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
+   ![Aktivität erstellen > Erlebnis-Targeting](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
@@ -50,7 +53,7 @@ Weitere Informationen zum Erlebnis-Targeting, einen Anwendungsfall und Schulungs
 
 1. Geben Sie Ihre [Aktivitäts-URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) ein und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
-   Wenn Ihr Konto [mit einer Standard-URL konfiguriert wurde](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), dann wird diese URL standardmäßig angezeigt. Sie können bei Bedarf von der Standard-URL zu einer anderen URL wechseln.
+   Wenn Ihr Konto [mit einer Standard-URL konfiguriert wurde](/help/administrating-target/visual-experience-composer-set-up.md), dann wird diese URL standardmäßig angezeigt. Sie können bei Bedarf von der Standard-URL zu einer anderen URL wechseln.
 
    Der VEC wird geöffnet und zeigt die Seite an, auf die die URL verweist.
 
