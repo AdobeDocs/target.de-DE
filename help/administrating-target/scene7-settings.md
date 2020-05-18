@@ -1,18 +1,21 @@
 ---
 description: Target Standard kann in Adobe Dynamic Media Classic (zuvor Scene7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek zu ermöglichen.
-title: Integration von Dynamic Media Classic
-subtopic: Erste Schritte
+title: Integration von Dynamic Media Classic Konfigurationsintegration
+subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 95%
 
 ---
 
 
 # Integration von Dynamic Media Classic{#scene-settings}
 
-Target Standard kann in Adobe Dynamic Media Classic (zuvor Scene7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek zu ermöglichen.
+Target kann in Adobe Dynamic Media Classic (zuvor Scene7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek zu ermöglichen.
 
 >[!NOTE]
 >
@@ -26,9 +29,10 @@ Wenn Sie während der Aktivitätserstellung direkt in einem Angebot oder in benu
 
 Beachten Sie, dass sich die Speicher-URL und die endgültigen Veröffentlichungs-URLs von Bildern aus Dynamic Media unterscheiden. Zudem dürfen KEINE Angebote über den Speicherlink der Bilder erstellt werden, da die Bereitstellung in solchen Fällen nicht funktioniert. Stattdessen muss die Bildangebotsfunktionalität verwendet werden. Erläuterungen dazu finden Sie in unserer Hilfedokumentation.
 
-Zur Integration mit Dynamic Media Classic (Scene7) müssen Sie einige der folgenden Informationen angeben.
+Zur Integration mit Dynamic Media Classic (Scene7) müssen Sie die folgenden Informationen angeben.
 
-1. Klicken Sie auf **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Scene7-Einstellungen]**.
+1. Click **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
+
 1. Geben Sie die folgenden Informationen zum Dynamic Media Classic-Konto an:
 
    **Region:** Die Region Ihres Dynamic Media-Kontos: Nordamerika, Europa oder Asien.
@@ -38,4 +42,5 @@ Zur Integration mit Dynamic Media Classic (Scene7) müssen Sie einige der folgen
    **E-Mail-Adresse:** Die für die Anmeldung bei Dynamic Media Classic (Scene7) verwendete E-Mail-Adresse.
 
    **Passwort:** Das Passwort für die Anmeldung bei Dynamic Media Classic (Scene7).
+
 1. Klicken Sie auf **[!UICONTROL Senden]**.
