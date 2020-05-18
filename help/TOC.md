@@ -5,7 +5,10 @@ user-guide-title: Adobe Target-Hilfe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: fea8a9a7655507f53e5146f401a0113bcb4e90b0
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 93%
 
 ---
 
@@ -33,9 +36,15 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 + Verwaltung von Target {#administer}
    + [Verwaltung von Target – Überblick](administrating-target/administrating-target.md)
    + [Erste Schritte für Administratoren](administrating-target/start-target.md)
-   + Festlegen von Voreinstellungen {#preferences}
-      + [Voreinstellungen](administrating-target/r-target-account-preferences/target-account-preferences.md)
-      + [Geschätzte Umsatzsteigerung](administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [Konfigurieren des Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
+   + Berichterstellung {#reporting}
+      + [Berichte konfigurieren](/help/administrating-target/reporting.md)
+      + [Schätzen der Umsatzsteigerung](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [Integration von Dynamic Media Classic](administrating-target/scene7-settings.md)
+   + [Implementierung](/help/administrating-target/implementation.md)
+   + [Hosts](administrating-target/hosts.md)
+   + [Umgebung](/help/administrating-target/environments.md)
+   + [Antwort-Token](administrating-target/response-tokens.md)
    + Verwalten von Benutzern {#manage-users}
       + [Benutzerverwaltung](administrating-target/c-user-management/user-management.md)
       + Benutzer {#users}
@@ -45,9 +54,6 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
          + [Berechtigungen für Unternehmensbenutzer](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Konfigurieren von Unternehmensberechtigungen](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Zugriff von Adobe I/O Integrationen auf Arbeitsbereiche gewähren und Rollen zuweisen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Integration von Dynamic Media Classic](administrating-target/scene7-settings.md)
-   + [Hosts](administrating-target/hosts.md)
-   + [Antwort-Token](administrating-target/response-tokens.md)
 + Target implementieren {#implement-target}
    + [Implementierung von Target – Überblick](c-implementing-target/implementing-target.md)
    + Vor der Implementierung {#before-implement}
