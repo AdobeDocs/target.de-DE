@@ -5,9 +5,9 @@ title: Versionshinweise für vorherige Versionen
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
 workflow-type: tm+mt
-source-wordcount: '29279'
+source-wordcount: '29262'
 ht-degree: 92%
 
 ---
@@ -449,7 +449,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Berichtsquelle für Aktivitäten </p> </td> 
-   <td colname="col2"> <p>Unter <span class="wintitle">„Setup“</span> &gt; <span class="wintitle">„Voreinstellungen“</span> können Sie die Berichtsquelle für Ihre Aktivitäten auswählen: <span class="keyword">Target</span> oder <span class="keyword">Adobe Analytics</span>. Sie können die Berichtsquelle auch für jede Aktivität neu auswählen. </p> <p>Ab dieser Version sind bei der Auswahl der Berichtsquelle unter <span class="wintitle">Voreinstellungen</span> oder je Aktivität einige wichtige Punkte hinsichtlich des Workflows zu beachten. </p> <p>Siehe <a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external">Voreinstellungen </a>. </p> </td> 
+   <td colname="col2"> <p>Unter <span class="wintitle">„Setup“</span> &gt; <span class="wintitle">„Voreinstellungen“</span> können Sie die Berichtsquelle für Ihre Aktivitäten auswählen: <span class="keyword">Target</span> oder <span class="keyword">Adobe Analytics</span>. Sie können die Berichtsquelle auch für jede Aktivität neu auswählen. </p> <p>Ab dieser Version sind bei der Auswahl der Berichtsquelle unter <span class="wintitle">Voreinstellungen</span> oder je Aktivität einige wichtige Punkte hinsichtlich des Workflows zu beachten.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3390,7 +3390,7 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Erweiterungen:
  <tbody> 
   <tr> 
    <td colname="col1"> Schätzung der Umsatzsteigerung </td> 
-   <td colname="col2"> <p>Target kann die Umsatzsteigerung schätzen, die Sie erzielen könnten, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden. </p> <p>Für diese Schätzung werden das Ausmaß der Steigerung durch das erfolgreichste Erlebnis und die Gesamtanzahl Ihrer Besucher über den Testzeitraum berücksichtigt. Sie zeigt die Steigerung an, die möglicherweise erzielt werden könnte, wenn alle Besucher das erfolgreichste Erlebnis zu Gesicht bekämen, sofern sich die Trends fortsetzen, die während des Tests herrschten. </p> <p> Die Genauigkeit der Schätzung hängt von verschiedenen Faktoren ab, einschließlich prognostizierter Zahlen, wenn sich aktuelle Trends fortsetzen. Bei diesen Werten handelt es sich um Schätzungen, die auf Leistungsdaten aus der Vergangenheit beruhen, weshalb sie nicht als finanzielle Richtlinien angesehen werden sollten. Zukünftige Ergebnisse können abweichend ausfallen. </p> <p>Siehe <a href="../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local"> Schätzen der Umsatzsteigerung </a>. </p> </td> 
+   <td colname="col2"> <p>Target kann die Umsatzsteigerung schätzen, die Sie erzielen könnten, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden. </p> <p>Für diese Schätzung werden das Ausmaß der Steigerung durch das erfolgreichste Erlebnis und die Gesamtanzahl Ihrer Besucher über den Testzeitraum berücksichtigt. Sie zeigt die Steigerung an, die möglicherweise erzielt werden könnte, wenn alle Besucher das erfolgreichste Erlebnis zu Gesicht bekämen, sofern sich die Trends fortsetzen, die während des Tests herrschten. </p> <p> Die Genauigkeit der Schätzung hängt von verschiedenen Faktoren ab, einschließlich prognostizierter Zahlen, wenn sich aktuelle Trends fortsetzen. Bei diesen Werten handelt es sich um Schätzungen, die auf Leistungsdaten aus der Vergangenheit beruhen, weshalb sie nicht als finanzielle Richtlinien angesehen werden sollten. Zukünftige Ergebnisse können verschieden ausfallen. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Rückgängig/Wiederholen </td> 
