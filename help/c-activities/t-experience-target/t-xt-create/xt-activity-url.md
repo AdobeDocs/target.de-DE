@@ -4,7 +4,10 @@ description: Die Aktivitäts-URL bestimmt die Seite, die in der Erlebnis-Targeti
 title: Aktivitäts-URL
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +22,7 @@ Die Aktivitäts-URL bestimmt die Seite, die in der Erlebnis-Targeting-Aktivität
    >
    >[!DNL Target] unterscheidet nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]). Daher stimmen [!DNL `https://www.adobe.com`] und [!DNL `http://www.adobe.com`] überein.
    >
-   >Standardmäßig öffnet der VEC oder formularbasierte Experience Composer die Seite, die in Ihren [Konto-Voreinstellungen](/help/administrating-target/r-target-account-preferences/target-account-preferences.md) angegeben ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). Sie können während der Erstellung der Aktivität eine andere Seite angeben.
    >
    >Wenn Sie eine URL für eine Site eingegeben haben, die keinen Target Standard-JavaScript-Code enthält, können Sie keine Seitenelemente auswählen.
 
@@ -43,4 +46,4 @@ Die Aktivitäts-URL bestimmt die Seite, die in der Erlebnis-Targeting-Aktivität
    * Parameter „mbox“
    Zusätzliche Regeln können mithilfe von „AND“ oder „OR“ an die Aktivitäts-URL angefügt werden. Alle hinzugefügten Regeln werden per „AND“ miteinander verglichen.
 
-1. Klicken Sie auf **[!UICONTROL „Speichern“], wenn Sie damit fertig sind.**
+1. Klicken Sie auf **[!UICONTROL „Speichern“]**, wenn Sie damit fertig sind.
