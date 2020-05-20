@@ -5,10 +5,10 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 68%
+source-wordcount: '1232'
+ht-degree: 65%
 
 ---
 
@@ -102,6 +102,10 @@ Manchmal erscheinen Hosts anderer Sites in Ihren Umgebungen. Eine Domäne wird i
 In Fällen, in denen `mboxHost` an einen API-Aufruf weitergegeben wird, wird die Konversion für die weitergegebene Umgebung aufgezeichnet. If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
 Des Weiteren können Sie eine Blacklist erstellen, in der Hosts (Domänen) aufgeführt werden, die keine Mbox-Aufrufe an [!DNL Target] senden können, indem Sie die entsprechenden Hosts in das Feld [!UICONTROL Nicht im Host enthalten] einfügen.
+
+>[!NOTE]
+>
+>Da die Liste &quot;Autorisierte Hosts&quot;sowohl für Mbox-Hosts als auch für standardmäßige Weiterleitungshosts verwendet wird, müssen Sie alle vorhandenen Domänen hinzufügen, die für die Verwendung des Adobe Zielgruppe JavaScript SDK (at.js) zugelassen sind, *UND* alle Domänen, die in Ubox-Standard-Umleitungs-URLs verwendet werden. Sie müssen der Whitelist in Zukunft auch alle neuen ähnlichen Domänen hinzufügen.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
