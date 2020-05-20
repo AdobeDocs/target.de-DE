@@ -5,9 +5,9 @@ title: Versionshinweise zu Adobe Zielgruppe
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '413'
 ht-degree: 22%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 14. Mai 2020**
+**Letzte Aktualisierung: 20. Mai 2020**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -36,9 +36,12 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 Mit der bevorstehenden Vernichtung von &quot;mbox.js&quot;am 30. August 2020 hat David Son, Adobe Zielgruppe Product Manager, kürzlich einen Entwicklerchat gehostet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern. In den nächsten 30 Tagen können Sie die Aufzeichnung des Webinars [Ansicht](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)leisten.
 
-## Target Standard/Premium 20.5.1 (10. Juni 2020) 
+## Target Standard/Premium 20.6.1 (10. Juni 2020) 
 
-Details zu dieser Version werden hier veröffentlicht.
+| Funktion  / Verbesserung | Beschreibung |
+| --- | --- |
+| Herausgeberrolle | Diese neue Rolle ähnelt der aktuellen Beobachterrolle (Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung für aktive Aktivitäten. |
+| Administrationsseite<br>zuvor &quot;Setup&quot;. | Die Seite &quot;Einstellungen&quot;wurde in &quot;Administration&quot;umbenannt und die Benutzeroberfläche für alle Menüelemente wurde aktualisiert, um den Arbeitsablauf und die Benutzerfreundlichkeit zu verbessern.<br>Zu den verfügbaren Menüpunkten gehören:<ul><li>Visual Experience Composer</li><li>Berichterstellung</li><li>Scene7-Einstellungen</li><li>Implementierung</li><li>Properties</li><li>Hosts</li><li>Umgebung</li><li>Antwort-Token</li><li>Benutzer</li></ul> |
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
