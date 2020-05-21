@@ -1,11 +1,14 @@
 ---
-keywords: adobe.target.applyoffer;Applyoffer;applyangebote;Angebote anwenden;at.js;Funktionen; funktion
+keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;functions;function
 description: Informationen zur Funktion adobe.target.applyOffers(options) für die JavaScript-Bibliothek von Adobe Target at.js.
 title: Informationen zur Funktion adobe.target.applyOffers(options) für die JavaScript-Bibliothek von Adobe Target at.js.
-subtopic: Erste Schritte
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cd76bab4b3dbb73c57655403230aac09ddbd2a05
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 95%
 
 ---
 
@@ -20,54 +23,54 @@ Mit dieser Funktion können Sie mehr als ein Angebot, das von `adobe.target.getO
 
 | Schlüssel | Typ | Erforderlich? | Beschreibung |
 | --- | --- | --- | --- |
-| selector | Zeichenfolge | Nein | HTML-Element oder „selector“ in CSS wird dazu verwendet, das HTML-Element zu identifizieren, in dem [!DNL Target] die Angebotsinhalte platzieren soll. Wenn kein „selector“ bereitgestellt wurde, geht [!DNL Target] davon aus, dass das zu verwendende HTML-Element HTML HEAD lautet. |
+| selector | Zeichenfolge | Nein | HTML-Element oder „selector“ in CSS wird dazu verwendet, das HTML-Element zu identifizieren, in dem [!DNL Target] die Angebotsinhalte platzieren soll. If a selector is not provided, [!DNL Target] assumes that the HTML element to use is HTML HEAD. |
 | Antwort | Objekt | Ja | Antwortobjekt von `getOffers()`.<br>Siehe Anfragetabelle unten. |
 
 ## Antwort
 
 >[!NOTE]
 >
->Informationen zu den zulässigen Typen für alle unten aufgeführten Felder finden Sie in der Dokumentation[ zur ](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)Auslieferungs-API.
+>Informationen zu den zulässigen Typen für alle unten aufgeführten Felder finden Sie in der Dokumentation [zur](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) Versand-API.
 
 | Feldname | Beschreibung |
 | --- | --- |
-| Antwort &gt; Vorab abrufen &gt; Ansichten &gt; Optionen &gt; Inhalt | Beachten Sie, dass der Inhalt von „Option“ nicht klar definiert ist und direkt vom Optionstyp/von der Vorlagenstruktur abhängt. |
-| Antwort &gt; Vorab abrufen &gt; Ansichten &gt; Optionen &gt; Typ | Optionstyp. Spiegelt den Typ des Feldes „Inhalt“ wider. Der unterstützte Typ ist „Aktionen“. |
-| Antwort &gt; Vorab abrufen &gt; Ansichten &gt; Status | Ein Status-Token „verdunkelte Ansicht“, das mit der Anzeigebenachrichtigung für die Ansicht weitergeleitet werden sollte |
-| Antwort &gt; Vorab abrufen &gt; Ansichten &gt; Optionen &gt; responseTokens | Enthält die Zuordnung von `responseTokens`, die gesammelt wurden, währen die aktuelle Option verarbeitet wurde. |
-| Antwort &gt; Vorab abrufen &gt; Ansichten &gt; Analyse &gt; Nutzlast | Analysenutzlast für die Client-seitige Integration, die nach Anwendung der Ansicht an Analytics gesendet werden sollten. |
-| Antwort &gt; Vorab abrufen &gt; Ansichten &gt; Verfolgen | Das Objekt, das alle Trace-Daten für den Vorab-Aufruf pro Ansicht enthält.<br>Das Trace-Objekt enthält auch eine Version für die Nachverfolgung.<br>Das Trace-Objekt enthält auch Details zur aktuellen Ansicht. |
-| Antwort &gt; Vorab abrufen &gt; Ansichten &gt; Optionen &gt; eventToken | Die Ereignisprotokollierung erfolgt pro Option. Für jede angewendete Option sollte das entsprechende Ereignis-Token zur Liste der Benachrichtigungs-Token hinzugefügt werden. Beachten Sie, dass eine Ansicht aus mehreren Optionen besteht. Wenn alle Optionen angewendet und angezeigt wurden, müssen alle `eventTokens` in die Benachrichtigung einbezogen werden. |
-| Antwort &gt; Vorab abrufen &gt; Ansichten &gt; Name | Der für Menschen lesbare Anzeigename. |
-| Antwort &gt; Vorab abrufen &gt; Ansichten &gt; Metriken | Berichtsmetriken, die überwacht werden sollen und dann [!DNL Target] darüber benachrichtigen. Derzeit wird nur die Klickmetrik unterstützt. Wenn ein Klick auf das Element erfolgt, sollten die entsprechenden `eventTokens` erfasst und eine Benachrichtigung gesendet werden. |
-| Antwort &gt; Vorab abrufen &gt; Ansichten &gt; Schlüssel | Der Schlüssel oder Fingerabdruck, mit dem die Ansicht identifiziert wird. |
-| Antwort &gt; Vorab abrufen &gt; Ansichten &gt; ID | ID der Ansicht. |
-| Antwort &gt; Benachrichtigungen &gt; ID | Benachrichtigungs-ID. |
-| Antwort &gt; Benachrichtigungen &gt; Ereignisse &gt; Typ | Der Typ der Benachrichtigung, des Klicks oder der Anzeige. |
-| Antwort &gt; Benachrichtigungen &gt; Ereignisse &gt; Verfolgen | Die Verfolgung des Benachrichtigungsereignisses. |
-| Antwort &gt; Benachrichtigungen &gt; Ereignisse &gt; Token | Das Token, das mit dem Benachrichtigungsereignis gesendet wurde. |
-| Antwort &gt; Benachrichtigungen &gt; Ereignisse &gt; Zeitstempel | Der Zeitstempel, der mit dem Benachrichtigungsereignis gesendet wurde. |
-| Antwort &gt; Benachrichtigungen &gt; Ereignisse &gt; errorCode | Wenn die Benachrichtigung fehlschlägt, zeigt der Code den Grund für den Fehler an. |
-| Antwort &gt; Benachrichtigungen &gt; Ereignisse | Die Ereignisse, die für die aktuelle Benachrichtigung protokolliert wurden oder nicht protokolliert werden konnten. |
-| Antwort &gt; Benachrichtigungen | Gibt die protokollierten oder fehlgeschlagenen Benachrichtigungen an. |
-| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Verfolgen | Das Objekt, das alle Trace-Daten für jede einzelne Mbox-Anfrage enthält. |
-| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; responseTokens | Enthält Zuordnung von `responseTokens` einer bestimmten Mbox-Anfragesausführung. |
-| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Option &gt; Inhalt | Beachten Sie, dass der Inhalt von „Option“ nicht klar definiert ist und direkt vom Optionstyp/von der Vorlagenstruktur abhängt. |
-| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Option &gt; Typ | Optionstyp. Spiegelt den Typ des Feldes „Inhalt“ wider. Unterstützt werden: HTML, Redirect, JSON und dynamisch. |
-| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Optionen | Antwortoption. |
-| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Metriken &gt; eventToken | Token des Klickereignisses. |
-| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Metriken &gt; Typ | "click" |
-| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Metriken | Enthält eine Liste der `clickThrough`-Metriken. |
-| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Mbox | Der Name der Mbox. |
-| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Index | Gibt an, dass mit diesem Index der Anfrage die Antwort für Mbox ist. |
-| Antwort &gt; Ausführen &gt; Mboxes &gt; Mbox &gt; Analyse &gt; Nutzlast | Analysenutzlast für die Client-seitige Integration, die nach Anwendung der Mbox an Analytics gesendet werden sollten. (Siehe Abschnitt „Kampagnen mit A4T“.) |
-| Antwort &gt; Ausführen &gt; Mboxes | Liste der ausgeführten Mboxes. |
-| Antwort &gt; Ausführen &gt; pageLoad &gt; Optionen &gt; Inhalt | Beachten Sie, dass der Inhalt von „Option“ nicht klar definiert ist und direkt vom Optionstyp/von der Vorlagenstruktur abhängt. |
-| Antwort &gt; Ausführen &gt; pageLoad &gt; Optionen &gt; Typ | Optionstyp. Spiegelt den Typ des Feldes „Inhalt“ wider. Unterstützt werden: HTML, Redirect, JSON, dynamisch und Aktionen. |
-| Antwort &gt; Ausführen &gt; pageLoad &gt; Optionen | Optionen, die nicht nach Ansichten gruppiert werden (target-global-mbox + Optionen von Aktivitäten mit Ansichten, die nicht nach Ansichten gruppiert werden). |
-| Antwort &gt; Ausführen &gt; pageLoad &gt; Metriken | Klicken Sie auf Metriken, die nicht einer bestimmten Ansicht zugeordnet wurden. |
-| Antwort &gt; Ausführen &gt; pageLoad &gt; Verfolgen | Das Objekt, das alle Trace-Daten für die pageLoad-Anfrage enthält. |
-| Antwort &gt; Ausführen &gt; pageLoad &gt; Analyse &gt; Nutzlast | Analysenutzlast für die Client-seitige Integration, die nach Anwendung der Inhalte beim Seitenladen an Analytics gesendet werden sollten. (Siehe Abschnitt „Kampagnen mit A4T“.) |
+| Antwort > Vorab abrufen > Ansichten > Optionen > Inhalt | Beachten Sie, dass der Inhalt von „Option“ nicht klar definiert ist und direkt vom Optionstyp/von der Vorlagenstruktur abhängt. |
+| Antwort > Vorab abrufen > Ansichten > Optionen > Typ | Optionstyp. Spiegelt den Typ des Feldes „Inhalt“ wider. Der unterstützte Typ ist „Aktionen“. |
+| Antwort > Vorab abrufen > Ansichten > Status | Ein Status-Token „verdunkelte Ansicht“, das mit der Anzeigebenachrichtigung für die Ansicht weitergeleitet werden sollte |
+| Antwort > Vorab abrufen > Ansichten > Optionen > responseTokens | Enthält die Zuordnung von `responseTokens`, die gesammelt wurden, währen die aktuelle Option verarbeitet wurde. |
+| Antwort > Vorab abrufen > Ansichten > Analyse > Nutzlast | Analysenutzlast für die Client-seitige Integration, die nach Anwendung der Ansicht an Analytics gesendet werden sollten. |
+| Antwort > Vorab abrufen > Ansichten > Verfolgen | Das Objekt, das alle Trace-Daten für den Vorab-Aufruf pro Ansicht enthält.<br>Das Trace-Objekt enthält auch eine Version für die Nachverfolgung.<br>Das Trace-Objekt enthält auch Details zur aktuellen Ansicht. |
+| Antwort > Vorab abrufen > Ansichten > Optionen > eventToken | Die Ereignisprotokollierung erfolgt pro Option. Für jede angewendete Option sollte das entsprechende Ereignis-Token zur Liste der Benachrichtigungs-Token hinzugefügt werden. Beachten Sie, dass eine Ansicht aus mehreren Optionen besteht. Wenn alle Optionen angewendet und angezeigt wurden, müssen alle `eventTokens` in die Benachrichtigung einbezogen werden. |
+| Antwort > Vorab abrufen > Ansichten > Name | Der für Menschen lesbare Anzeigename. |
+| Antwort > Vorab abrufen > Ansichten > Metriken | Berichtsmetriken, die überwacht werden sollen und dann [!DNL Target] darüber benachrichtigen. Derzeit wird nur die Klickmetrik unterstützt. Wenn ein Klick auf das Element erfolgt, sollten die entsprechenden `eventTokens` erfasst und eine Benachrichtigung gesendet werden. |
+| Antwort > Vorab abrufen > Ansichten > Schlüssel | Der Schlüssel oder Fingerabdruck, mit dem die Ansicht identifiziert wird. |
+| Antwort > Vorab abrufen > Ansichten > ID | ID der Ansicht. |
+| Antwort > Benachrichtigungen > ID | Benachrichtigungs-ID. |
+| Antwort > Benachrichtigungen > Ereignisse > Typ | Der Typ der Benachrichtigung, des Klicks oder der Anzeige. |
+| Antwort > Benachrichtigungen > Ereignisse > Verfolgen | Die Verfolgung des Benachrichtigungsereignisses. |
+| Antwort > Benachrichtigungen > Ereignisse > Token | Das Token, das mit dem Benachrichtigungsereignis gesendet wurde. |
+| Antwort > Benachrichtigungen > Ereignisse > Zeitstempel | Der Zeitstempel, der mit dem Benachrichtigungsereignis gesendet wurde. |
+| Antwort > Benachrichtigungen > Ereignisse > errorCode | Wenn die Benachrichtigung fehlschlägt, zeigt der Code den Grund für den Fehler an. |
+| Antwort > Benachrichtigungen > Ereignisse | Die Ereignisse, die für die aktuelle Benachrichtigung protokolliert wurden oder nicht protokolliert werden konnten. |
+| Antwort > Benachrichtigungen | Gibt die protokollierten oder fehlgeschlagenen Benachrichtigungen an. |
+| Antwort > Ausführen > Mboxes > Mbox > Verfolgen | Das Objekt, das alle Trace-Daten für jede einzelne Mbox-Anfrage enthält. |
+| Antwort > Ausführen > Mboxes > Mbox > responseTokens | Enthält Zuordnung von `responseTokens` einer bestimmten Mbox-Anfragesausführung. |
+| Antwort > Ausführen > Mboxes > Mbox > Option > Inhalt | Beachten Sie, dass der Inhalt von „Option“ nicht klar definiert ist und direkt vom Optionstyp/von der Vorlagenstruktur abhängt. |
+| Antwort > Ausführen > Mboxes > Mbox > Option > Typ | Optionstyp. Spiegelt den Typ des Feldes „Inhalt“ wider. Unterstützt werden: HTML, Redirect, JSON und dynamisch. |
+| Antwort > Ausführen > Mboxes > Mbox > Optionen | Antwortoption. |
+| Antwort > Ausführen > Mboxes > Mbox > Metriken > eventToken | Token des Klickereignisses. |
+| Antwort > Ausführen > Mboxes > Mbox > Metriken > Typ | &quot;click&quot; |
+| Antwort > Ausführen > Mboxes > Mbox > Metriken | Enthält eine Liste der `clickThrough`-Metriken. |
+| Antwort > Ausführen > Mboxes > Mbox > Mbox | Der Name der Mbox. |
+| Antwort > Ausführen > Mboxes > Mbox > Index | Gibt an, dass mit diesem Index der Anfrage die Antwort für Mbox ist. |
+| Antwort > Ausführen > Mboxes > Mbox > Analyse > Nutzlast | Analysenutzlast für die Client-seitige Integration, die nach Anwendung der Mbox an Analytics gesendet werden sollten. (Siehe Abschnitt „Kampagnen mit A4T“.) |
+| Antwort > Ausführen > Mboxes | Liste der ausgeführten Mboxes. |
+| Antwort > Ausführen > pageLoad > Optionen > Inhalt | Beachten Sie, dass der Inhalt von „Option“ nicht klar definiert ist und direkt vom Optionstyp/von der Vorlagenstruktur abhängt. |
+| Antwort > Ausführen > pageLoad > Optionen > Typ | Optionstyp. Spiegelt den Typ des Feldes „Inhalt“ wider. Unterstützt werden: HTML, Redirect, JSON, dynamisch und Aktionen. |
+| Antwort > Ausführen > pageLoad > Optionen | Optionen, die nicht nach Ansichten gruppiert werden (target-global-mbox + Optionen von Aktivitäten mit Ansichten, die nicht nach Ansichten gruppiert werden). |
+| Antwort > Ausführen > pageLoad > Metriken | Klicken Sie auf Metriken, die nicht einer bestimmten Ansicht zugeordnet wurden. |
+| Antwort > Ausführen > pageLoad > Verfolgen | Das Objekt, das alle Trace-Daten für die pageLoad-Anfrage enthält. |
+| Antwort > Ausführen > pageLoad > Analyse > Nutzlast | Analysenutzlast für die Client-seitige Integration, die nach Anwendung der Inhalte beim Seitenladen an Analytics gesendet werden sollten. (Siehe Abschnitt „Kampagnen mit A4T“.) |
 
 ## Beispiel: applyOffers()-Aufruf
 
