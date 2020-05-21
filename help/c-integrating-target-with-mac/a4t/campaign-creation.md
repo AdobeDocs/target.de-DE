@@ -1,44 +1,49 @@
 ---
-keywords: a4t; A4T; Analytics als Berichtsquelle für Target
+keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Sie können eine Aktivität in Target Standard/Premium erstellen, um Adobe Analytics als Berichtsquelle (A4T) zu verwenden.
 title: Aktivitätserstellung
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 42%
 
 ---
 
 
 # Aktivitätserstellung{#activity-creation}
 
-Sie können eine Aktivität in Target Standard/Premium erstellen, um Adobe Analytics als Berichtsquelle (A4T) zu verwenden.
+You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as the reporting source (A4T).
 
-Bevor Sie eine Aktivität einrichten, die Analytics als Berichtsquelle verwendet, müssen Sie das Ziel für die Aktivität festlegen, beispielsweise die Verbesserung des Umsatzes pro Besucher (RPV) oder die Erhöhung der Klicks auf Ihren Warenkorb. Wählen Sie eine finale Erfolgsmetrik für die Aktivität aus. Auch wenn Sie jederzeit zusätzliche Metriken in Analytics auswählen können, müssen Sie trotzdem eine bestimmte Metrik angeben, auf die dieser Test erwartungsgemäß Auswirkungen hat.
+Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. Wählen Sie eine finale Erfolgsmetrik für die Aktivität aus. Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
 
-Das Erstellen einer Target Standard-Aktivität, die Analytics als Berichtsquelle verwendet, ähnelt dem Einrichten einer regulären Target Standard-Aktivität - mit einigen wesentlichen Unterschieden. Sie können beispielsweise während des Erstellens der Aktivität kein Segment für die Berichterstellung auswählen, da alle in Analytics verfügbaren Segmente beim Anzeigen eines Berichts angewendet werden können.
+Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report.
 
 1. Klicken Sie auf **[!UICONTROL Aktivität erstellen]**.
 
    >[!NOTE]
    >
-   >Wenn Analytics als Berichtsquelle verwendet wird, darf der Aktivitätsname das Zeichen „%“ nicht enthalten.
+   >An activity name cannot include the &quot;%&quot; character if [!DNL Analytics] is used as the reporting source.
 
 1. Wählen Sie den Aktivitätstyp aus und beginnen Sie mit der Einrichtung der Aktivität.
 1. Wählen Sie in den **[!UICONTROL Einstellungen]** für die Aktivität **[!UICONTROL Adobe Analytics]** aus und geben Sie Ihr Unternehmen an.
 1. Wählen Sie eine Report Suite aus.
 
-   Sie können eine beliebige Report Suite auswählen, die in Adobe Analytics verfügbar ist. Die Report Suite definiert, wo die erfassten Daten verfügbar sind. Virtuelle Report Suites werden nicht in der Liste der Report Suites aufgeführt.
+   You can choose any report suite that is available to you in [!DNL Analytics]. Die Report Suite definiert, wo die erfassten Daten verfügbar sind. Virtuelle Report Suites werden nicht in der Liste der Report Suites aufgeführt.
 
    Beim Auswählen der Report Suite kann es vorkommen, dass Ihnen zwei Fehler gemeldet werden:
 
    * Sie erhalten die Fehlermeldung, dass keine Report Suites verfügbar sind, obwohl Ihr Konto korrekt eingerichtet ist.
-   Vielleicht sollten Sie Ihr Analytics-Unternehmen überprüfen. Wenn Ihr Experience Cloud-Konto mit mehr als einem Analytics-Unternehmen verknüpft ist, müssen Sie sich bei Target abmelden und mit dem richtigen Unternehmen bei Analytics anmelden. Kehren Sie dann zu Target zurück, und die Report Suites werden geladen.
+
+      You might need to check your [!DNL Analytics] company. If your [!DNL Adobe Experience Cloud] account is tied to more than one [!DNL Analytics] company, log out of [!DNL Target], and log in to [!DNL Analytics] under the right company. Then return to [!DNL Target], and the report suites will load.
 
    * Ihnen wird nicht die Report Suite angezeigt, die Sie erwartet haben.
-   Es stehen nur Report Suites, die für die Verbindung mit Adobe Target bereitgestellt werden, zur Auswahl zur Verfügung. Wenn nicht die erwarteten Report Suites angezeigt werden, versuchen Sie, sich bei Adobe Experience Cloud ab- und dann wieder anzumelden, und wiederholen Sie den Vorgang.
 
+      Only report suites that are provisioned to connect to [!DNL Target] will be available for selection. If you don&#39;t see the report suite(s) you expect, first try logging out and logging back in to the [!DNL Adobe Experience Cloud] to try again.
    Wenn die Report Suite(s) weiterhin nicht in der Liste zu finden ist/sind, [wenden Sie sich an den Kundendienst](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+
 1. Legen Sie den Trackingserver fest.
 
    Siehe [Verwenden eines Analytics-Tracking-Servers](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
@@ -46,11 +51,11 @@ Das Erstellen einer Target Standard-Aktivität, die Analytics als Berichtsquelle
 1. Definieren Sie das Erlebnis.
 1. Legen Sie das Aktivitätsziel fest.
 
-   Sie müssen eine Erfolgsmetrik als zu verwendendes Ziel für jeden Test festlegen. Ihr Aktivitätsziel ist die Konversionsaktivität, die eine erfolgreiche Aktivität signalisiert. Die Best Practice ist, niemals einen Test ohne ein Ziel durchzuführen, das auf eine bestimmte Art und Weise verbessert werden soll. Sie können sämtliche in der Metrikauswahl von Analytics verfügbaren Analytics-Metriken auswählen.
+   Sie müssen eine Erfolgsmetrik auswählen, die als Ziel für jede Aktivität verwendet werden soll. Ihr Aktivitätsziel ist die Konversionsaktivität, die eine erfolgreiche Aktivität signalisiert. Die Best Practice ist, niemals einen Test ohne ein Ziel durchzuführen, das auf eine bestimmte Art und Weise verbessert werden soll. You can choose any [!DNL Analytics] metric available in the [!DNL Analytics] metric selector.
 
    >[!NOTE]
    >
-   >Sie können eine benutzerdefinierte Target-basierte Metrik an Analytics senden, statt sich nur auf Analytics-Daten zu stützen. Sie können beispielsweise das Klicken auf eine Seite überwachen, was in der Regel nicht von Analytics verfolgt wird. Die benutzerdefinierte Metrik wird automatisch vom Target-Server an Analytics gesendet und wird als „Target-Konversions“-Metrik in der Metrikauswahl in Analytics angezeigt. Wenn Sie sich für die Verwendung von Analytics-Metriken entscheiden, ist die Metrik Target-Konversion leer.
+   >You can send a custom Target-based metric to [!DNL Analytics] rather than relying only on [!DNL Analytics] data. For example, you can monitor clicking on a page, which is usually not tracked by [!DNL Analytics]. This custom metric is sent to [!DNL Analytics] automatically from the [!DNL Target] server, and appears as the &quot;[!DNL Target] Conversion&quot; metric in the metrics selector in [!DNL Analytics]. The [!DNL Target] Conversion metric is empty if you choose to use [!DNL Analytics] metrics.
 
    Das Einrichten eines Ziels hindert Sie nicht daran, eine andere Metrik beim Bewerten der Testergebnisse zu verwenden. Das Ziel ist jedoch eine Erinnerung an den einen Aspekt, den Sie durch die Aktivität verbessern möchten.
 
@@ -58,7 +63,6 @@ Das Erstellen einer Target Standard-Aktivität, die Analytics als Berichtsquelle
 
    >[!NOTE]
    >
-   >Wenn Sie eine Aktivität einrichten, nachdem Sie Analytics als Berichtsquelle festgelegt haben, gibt es keine Möglichkeit, Zielgruppen für die Berichterstellung festzulegen. Analytics-Segmente sind in den Target Activities-Berichten verfügbar.
+   >When setting up an activity after setting up [!DNL Analytics] as your reporting source, there is no option to set up audiences for reporting. [!DNL Analytics] Segmente sind im Bericht [!DNL Target] Aktivitäten verfügbar.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
