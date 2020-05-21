@@ -1,17 +1,20 @@
 ---
 keywords: Recommendations
 description: Bei Ihrem Datenerfassungsprozess treten verschiedene Änderungen auf, wenn Sie Analytics als Berichtsquelle für Target (A4T) verwenden.
-title: Vor der Implementierung  Adobe Analytics als Berichtsquelle für Adobe Target (A4T)
+title: Bevor Sie Adobe Analytics als Berichte für Adobe Zielgruppe (A4T) implementieren
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 57%
 
 ---
 
 
 # Vor der Implementierung{#before-you-implement}
 
-Bei Ihrem Datenerfassungsprozess treten verschiedene Änderungen auf, wenn Sie Analytics als Berichtsquelle für Target (A4T) verwenden.
+Several changes occur in your data collection process when enabling [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 Bevor Sie sich für die Verwendung dieser Integration entscheiden, überprüfen Sie folgende Abschnitte und berücksichtigen Sie die Auswirkungen auf Ihre Berichtsprozesse:
 
@@ -27,16 +30,16 @@ Für diese A4T-Integration müssen Sie in Abhängigkeit davon, ob Sie Weiterleit
 
 Bei dieser Integration müssen Sie die folgenden Bibliotheksversionen (oder neuer) implementieren, wenn Sie nicht planen, Weiterleitungsangebote mit A4T zu verwenden. Die angezeigte Reihenfolge ist die Reihenfolge der Vorgänge.
 
-* Experience Cloud-Besucher-ID-Service: visitorAPI.js, Version 1.8.0
-* Adobe Target (je nach Implementierung): at.js, Version 0.9.1 oder mbox.js, Version 61
+* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js, Version 1.8.0
+* [!DNL Adobe Target] (je nach Implementierung): at.js, Version 0.9.1 oder mbox.js, Version 61
 * Adobe Analytics: appMeasurement.js, Version 1.7.0
 
 ### Anforderungen, wenn Umleitungsangebote mit A4T verwendet werden
 
 Für die Verwendung von Weiterleitungsangeboten mit A4T müssen Sie die folgenden Bibliotheksversionen (oder neuere) implementieren: Die angezeigte Reihenfolge ist die Reihenfolge der Vorgänge.
 
-* Experience Cloud-Besucher-ID-Service: visitorAPI.js, Version 2.3.0
-* Adobe Target: at.js Version 1.6.2
+* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js, Version 2.3.0
+* [!DNL Adobe Target]: at.js, Version 1.6.2
 
    **Hinweis:** Die mbox.js-Bibliothek unterstützt keine Weiterleitungsangebote mit A4T. Ihre Implementierung muss at.js verwenden.
 
@@ -46,35 +49,35 @@ Download and deployment instructions are listed in [Analytics for Target Impleme
 
 ## Was Sie vor der Implementierung wissen sollten {#section_50D49CC52E11414089C89FB67F9B88F5}
 
-* Diese Integration ist bei neuen Aktivitäten aktiviert, wenn Sie Analytics als Berichtsquelle auswählen. Ihre bestehenden Aktivitäten sind von den in diesem Dokument beschriebenen Implementierungsänderungen nicht betroffen.
-* Der Prozess zur Einrichtung von Analytics als Berichtsquelle für Target umfasst verschiedene Implementierungsschritte, gefolgt von einem Bereitstellungsschritt. Es empfiehlt sich, vor der Implementierung die unten stehende Prozessbeschreibung durchzulesen. Nach dem Ausführen dieser Schritte können Sie Analytics als Ihre Berichtsquelle verwenden, sobald es für Sie aktiviert ist. Der Bereitstellungsprozess kann bis zu fünf Werktage dauern.
-* Der Besucher-ID-Service erstellt eine freigegebene Besucher-ID in Experience Cloud. Sie ersetzt zwar nicht die Target-mboxPC-ID oder die UUID in Audience Manager, jedoch ersetzt sie die Art und Weise, wie neue Besucher in Analytics ermittelt werden. Bei ordnungsgemäßer Konfiguration sollten wiederkehrende Analytics-Besucher ebenfalls über ihre alte Analytics-ID identifiziert werden, um Besucherklippen zu verhindern. Gleichermaßen gehen beim Upgrade auf den Besucher-ID-Service keine Profildaten von Target-Besuchern verloren, da die Target-mboxPC-ID intakt bleibt.
-* Der Besucher-ID-Service muss vor dem Analytics- und Target-Seiten-Code ausgeführt werden. Stellen Sie sicher, dass `VisitorAPI.js` über den Tags für alle anderen Experience Cloud-Produkte angezeigt wird.
+* This integration is enabled on new activities when you select to use [!DNL Analytics] as the reporting source. Ihre bestehenden Aktivitäten sind von den in diesem Dokument beschriebenen Implementierungsänderungen nicht betroffen.
+* The process of setting up [!DNL Analytics] as the reporting source for [!DNL Target] includes several implementation steps, followed by a provisioning step. Es empfiehlt sich, vor der Implementierung die unten stehende Prozessbeschreibung durchzulesen. After you complete these steps, you will be ready to use [!DNL Analytics] as your reporting source as soon as it is enabled for you. Der Bereitstellungsprozess kann bis zu fünf Werktage dauern.
+* Das [!DNL Visitor ID service] erstellt eine freigegebene Datei [!DNL Visitor ID] über das [!DNL Adobe Experience Cloud]. Although it does not replace the [!DNL Target] mboxPC id or [!DNL Audience Manager] UUID, it does replace the way [!DNL Analytics] identifies new visitors. If set up properly, returning [!DNL Analytics] visitors should also be identified via their old [!DNL Analytics] ID to prevent visitor cliffing. Similarly, because the [!DNL Target] mboxPCid remains intact, no [!DNL Target] visitor profile data is lost when you upgrade to the [!DNL Visitor ID service].
+* Die [!DNL Visitor ID service] Ausführung muss vor Ihrem [!DNL Analytics] und [!DNL Target] Seitencode erfolgen. Make sure that `VisitorAPI.js` appears above the tags for all other [!DNL Experience Cloud] solutions.
 
 ## Latenz {#section_9489BE6FD21641A4844E591711E3F813}
 
-Nach der Aktivierung dieser Integration werden Sie eine zusätzliche Latenz von 5 bis 10 Minuten in Adobe Analytics wahrnehmen. Diese Steigerung der Latenz ermöglicht die Speicherung von Daten aus Analytics und Target für den gleichen Treffer, sodass Sie Tests nach Seite und Site-Abschnitt aufschlüsseln können.
+After this integration is enabled, you will experience an additional 5-10 minutes of latency in [!DNL Analytics]. This latency increase allows data from [!DNL Analytics] and [!DNL Target] to be stored on the same hit, allowing you to break down activities by page and site section.
 
-Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analytics wider, einschließlich Live-Stream und Echtzeit-Berichterstattung, und gilt für folgende Szenarien:
+This increase is reflected in all [!DNL Analytics] services and tools, including the live-stream and real-time reporting, and applies in the following scenarios:
 
 * Bei Livestream, Echtzeitberichten &amp; API-Anforderungen sowie aktuellen Daten für Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
 * Für aktuelle Daten zu Konversionsmetriken, endgültige Daten und Datenfeeds werden alle Treffer um zusätzliche 5 bis 7 Minuten verzögert.
 
-Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des Experience Cloud-Besucher-ID-Services beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.
+Be aware that the latency increase starts after you implement the [!DNL Experience Cloud] visitor ID service, even if you have not fully implemented this integration.
 
 ## Zusätzliche ID  {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
-Zu allen Target-Aufrufen, die von einer A4T-Aktivität zur Übermittlung von Inhalten oder zur Aufzeichnung der Zielmetrik verwendet werden, muss es einen zugehörigen Analytics-Treffer geben, der die gleiche Zusatz-ID hat, damit A4T ordnungsgemäß funktioniert.
+All [!DNL Target] calls used by an A4T activity to deliver content or record the goal metric must have a corresponding [!DNL Analytics] hit that shares the same supplemental ID for A4T to work properly.
 
-Treffer, die Daten aus Analytics und Target enthalten, enthalten eine zusätzliche Daten-ID. You can see this ID in the [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) as the `sdid` parameter. Beispiel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Diese ID wird jedes Mal erstellt, wenn folgende Kriterien vorhanden sind:
+Hits that contain data from [!DNL Analytics] and [!DNL Target] contain a supplemental data ID. You can see this ID in the [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) as the `sdid` parameter. Beispiel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Diese ID wird jedes Mal erstellt, wenn folgende Kriterien vorhanden sind:
 
 * Der Besucher-ID-Service wurde implementiert.
 * Eine Version von [!DNL mbox.js], die diese Integration unterstützt, wurde implementiert.
 
-Stellen Sie bei der Fehlerbehebung sicher, dass die zusätzliche ID bei Analytics-Treffern vorhanden ist.
+When troubleshooting, be sure to confirm that the supplemental ID is present on [!DNL Analytics] hits.
 
 ## Clientseitige Analytics-Protokollierung {#client-side}
 
-Wenn sich at.js, die [!DNL Experience Cloud Visitor ID Service] und appMeasurement.js auf der Seite befinden, verknüpfen [!DNL Adobe Analytics]und [!DNL Target] standardmäßig Ereignisse für Reporting- und Analysezwecke im Backend, sofern die korrekte zusätzliche ID von der Seite wie oben erläutert einbezogen wird. Sie müssen keine weiteren Vorgänge für A4T verwalten und durchführen, damit sie ordnungsgemäß funktionieren.
+Wenn sich at.js, die [!DNL Experience Cloud Visitor ID Service] und appMeasurement.js auf der Seite befinden, verknüpfen [!DNL Analytics]und [!DNL Target] standardmäßig Ereignisse für Reporting- und Analysezwecke im Backend, sofern die korrekte zusätzliche ID von der Seite wie oben erläutert einbezogen wird. Sie müssen keine weiteren Vorgänge für A4T verwalten und durchführen, damit sie ordnungsgemäß funktionieren.
 
 In manchen Fällen könnten Sie aber mehr Kontrolle darüber haben wollen, wann und wie Analysedaten in Verbindung mit [!DNL Target] zu Berichtszwecken an [!DNL Analytics] gesendet werden sollen. Möglicherweise verfügen Sie über ein unternehmensinternes Analysetool, das Sie für interne Zwecke nutzen, und möchten auch die Analysedaten an [!DNL Analytics] über Ihr internes Analyseprodukt senden, damit andere Mitarbeiter weiterhin [!DNL Analytics] als visuelle Berichtsquelle nutzen können. Weitere Informationen finden Sie unter [Schritt 7: Verweisen auf at.js oder mbox.js auf allen Seiten der Website](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Implementieren von Analytics for Target*.
