@@ -1,12 +1,15 @@
 ---
-keywords: Analytics als Berichtsquelle; a4t; A4T
+keywords: Analytics as reporting source;a4t;A4T
 description: Benutzerkontoanforderungen für die Erstellung einer Adobe Analytics-basierten Aktivität in Adobe Target (A4T).
 title: Anforderungen hinsichtlich Benutzerberechtigungen
 solution: Target,Analytics
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 63%
 
 ---
 
@@ -35,20 +38,19 @@ Sie müssen Mitglied in mindestens einer [!DNL Experience Cloud]-Gruppe sein, di
 
 For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 Führen Sie die folgenden Aufgaben in [!DNL Adobe Analytics] aus:
 
 ### Zugriff auf die Analytics Report Suite konfigurieren
 
-Zur Erstellung oder Anzeige von Berichten für eine Analytics-gesteuerte Aktivität müssen Sie Mitglied der Gruppe **[!UICONTROL Zugriff auf alle Berichte]** sein bzw. einer Gruppe, die Zugriff auf mindestens einen Bericht in der Report Suite hat, die Sie verwenden möchten. Stellen Sie sicher, dass Sie Mitglied dieser Gruppen sind, um Berichte anzeigen zu können.
+Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. Stellen Sie sicher, dass Sie Mitglied dieser Gruppen sind, um Berichte anzeigen zu können.
 
-Weitere Informationen finden Sie unter [Produktprofile und -gruppen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
+Weitere Informationen finden Sie unter [Profil und Gruppen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
 
 ### Zugriff auf die Webdienste-Zugriffsgruppe konfigurieren
 
-Sie müssen zur Zugriffsgruppe für Webdienste in [!DNL Adobe Analytics] gehören, um [!DNL Analytics] als Berichtsquelle für [!DNL Target] nutzen zu können.
+Sie müssen zur Zugriffsgruppe für Webdienste in [!DNL Analytics] gehören, um [!DNL Analytics] als Berichtsquelle für [!DNL Target] nutzen zu können.
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
