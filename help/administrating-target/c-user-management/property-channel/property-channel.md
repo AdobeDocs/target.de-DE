@@ -5,79 +5,79 @@ title: Berechtigungen für Unternehmensbenutzer
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
+source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+workflow-type: tm+mt
+source-wordcount: '2899'
+ht-degree: 85%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Berechtigungen für Unternehmensbenutzer{#enterprise-user-permissions}
 
-Enterprise-Benutzerberechtigungen bieten eine Möglichkeit, unternehmensweite Benutzerzugriff auf Target zu verwalten. Fügen Sie Benutzer zu Target hinzu, weisen Sie Berechtigungen auf Grundlage ihrer Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf unterschiedlichen Abteilungen, globalen Orten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzer die Rollen „Beobachter“, „Editor“ oder „Genehmiger“ zuweisen.
+Enterprise user permissions is a means of formal administering enterprise-wide user access to [!DNL Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], or [!UICONTROL Approver].
 
-## Stellen Sie fest, ob Sie Zugriff auf die Berechtigungen für Unternehmensbenutzer haben
+## Bestimmen, ob Sie Zugriff auf Berechtigungen für Unternehmensbenutzer haben
 
 >[!NOTE]
 >
->Die Funktionalitäten für Eigenschaften und Berechtigungen sind als Bestandteil der Lösung Target Premium verfügbar. Ohne Target Premium-Lizenz sind sie nicht für Target Standard verfügbar.
+>Die Funktionalitäten für Eigenschaften und Berechtigungen sind als Bestandteil der Lösung [!DNL Target] Premium verfügbar. Für [!DNL Target] Standard sind sie nicht ohne [!DNL Target] Premium-Lizenz verfügbar.
 >
->Sie können für Ihre Target-Implementierung eine beliebige Version von at.js oder mbox.js verwenden.
+>Your [!DNL Target] implementation can be using any version of at.js or mbox.js.
 
-Sie können feststellen, ob Ihr Unternehmen über eine Standard- oder Premium-Lizenz verfügt, indem Sie oben in der Benutzeroberfläche auf den Link [!UICONTROL Einrichten] [!DNL Target] klicken.
+You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]/Kunden **: Wenn die Registerkarte[!UICONTROL Benutzer]([!UICONTROL Einrichtung > Benutzer]) angezeigt wird, verfügt Ihr Unternehmen über eine[!DNL Target Standard]-Lizenz.[!DNL Target Standard]-Kunden sollten die Anweisungen in[Benutzer](/help/administrating-target/c-user-management/c-user-management/user-management.md)befolgen, um Benutzer hinzuzufügen und Berechtigungen in der Adobe Admin Console zuzuweisen.
+* **[!DNL Target Standard]Kunden **: Wenn die Registerkarte &quot;[!UICONTROL Benutzer]&quot;([!UICONTROL Administration > Benutzer]) (und nicht die Registerkarte &quot;[!UICONTROL Eigenschaften]&quot;) angezeigt wird, verfügt Ihr Unternehmen über eine[!DNL Target Standard]Lizenz.[!DNL Target Standard]Kunden sollten die Anweisungen unter[Benutzer](/help/administrating-target/c-user-management/c-user-management/user-management.md)befolgen, um Benutzer hinzuzufügen und Berechtigungen im[!DNL Adobe Admin Console].
 
-   [!DNL Target Standard]Benutzer von sehen die folgende Fehlermeldung, wenn sie auf die Registerkarte [!UICONTROL Eigenschaften] klicken. Mit [!DNL Target] ist alles in Ordnung. [!DNL Target Standard]Benutzer haben keinen Zugriff auf die [!DNL Target Premium]-Funktionalität [!UICONTROL Unternehmensberechtigungen].
+* **[!DNL Target Premium]Kunden **: Wenn die Registerkarte &quot;[!UICONTROL Eigenschaften]&quot;([!UICONTROL Einstellungen > Eigenschaften]) und die Registerkarte &quot;[!UICONTROL Benutzer]&quot;angezeigt werden, verfügt Ihr Unternehmen über eine[!DNL Target Premium]Lizenz.[!DNL Target Premium]-Kunden sollten die Anweisungen in diesem Artikel und in[Konfigurieren von Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)folgen.
 
-   ![Fehlermeldung](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
-
-* **[!DNL Target Premium]Kunden **: Wenn die Registerkarte[!UICONTROL Eigenschaften]([!UICONTROL Einrichtung > Eigenschaften]) angezeigt wird, besitzt Ihr Unternehmen eine[!DNL Target Premium]-Lizenz.[!DNL Target Premium]-Kunden sollten die Anweisungen in diesem Artikel und in[Konfigurieren von Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)folgen.
-
-## Bevor Sie mit Unternehmensberechtigungen arbeiten
+## Bevor Sie mit den Unternehmensberechtigungen beginnen
 
 >[!IMPORTANT]
 >
->Stellen Sie sicher, dass Sie den Abschnitt [Einschränkungen](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) unten gelesen haben, bevor Sie mit den Unternehmensberechtigungen fortfahren.
+>Ensure that you read the [Caveats](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
 
-## In diesem Abschnitt verwendete Begriffe und Definitionen {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
+## Terms and definitions used in this section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
-In diesem Abschnitt werden die folgenden Begriffe verwendet, die Benutzern, die die Funktion für Eigenschaften und Berechtigungen in Target Premium verwenden möchten, möglicherweise noch nicht bekannt sind.
+The following terms are used throughout this section and might be new to users wanting to use the Properties and Permissions functionality in [!DNL Target] Premium.
 
 ### Eigenschaft
 
-Die Eigenschaften ähneln denen des Dynamic Tag Management (Activation) insofern, als sie sich durch einen einzigen Codeabschnitt unterscheiden lassen.
+Properties are similar in nature to those within [!DNL Adobe Platform Launch] in that they use a unique snippet of code to differentiate them.
 
 Eine Webeigenschaft besteht aus einer Bibliothek von Regeln und einem Einbettungscode. Es kann sich bei einer Webeigenschaft um eine beliebige Gruppierung einer oder mehrerer Domänen bzw. Subdomänen handeln.
 
-Eigenschaften werden aktiviert, indem ein bestimmtes Name-Wert-Paar beliebigen Aufrufen (mbox, API usw.) an Target hinzugefügt wird.
+Eigenschaften werden aktiviert, indem ein bestimmtes Name-Wert-Paar beliebigen Aufrufen (mbox, API usw.) an [!DNL Target].
+
 Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail oder API/Sonstige) zugeordnet.
 
 ### Arbeitsbereich (Produktprofil)
 
-Mithilfe eines Arbeitsbereichs können Organisationen bestimmte Benutzergruppen bestimmten Eigenschaftsgruppen zuweisen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in Adobe Analytics.
+Mithilfe eines Arbeitsbereichs können Organisationen bestimmte Benutzergruppen bestimmten Eigenschaftsgruppen zuweisen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in [!DNL Adobe Analytics].
 
-Hinweis: Arbeitsbereiche erscheinen als Produktprofile in der Adobe Admin Console for Enterprise.
+Note: Workspaces are known as [!UICONTROL Product Profiles] in the [!DNL Adobe Admin Console for Enterprise].
 
 Wenn Sie Teil einer multinationalen Organisation sind, besitzen Sie eventuell einen Arbeitsbereich für Ihre europäischen Webseiten, Eigenschaften oder Sites und einen weiteren Arbeitsbereich für Ihre amerikanischen Webseiten, Eigenschaften oder Sites. Wenn Sie einer Organisation angehören, die mehrere Marken besitzt, haben Sie eventuell für jede Marke einen eigenen Arbeitsbereich.
 
 Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen Arbeitsbereichen sogar unterschiedliche Rollen einnehmen.
 
-Benutzer können verschiedene Ansichten von Adobe Target verwenden, indem sie zwischen Arbeitsbereichen wechseln. Dies ähnelt dem Prinzip, dass Analytics-Benutzer über verschiedene Ansichten von Analytics verfügen, indem Sie zwischen Report Suites wechseln.
+Users can have different views of [!DNL Adobe Target] by moving between workspaces, similar to how [!DNL Analytics] users have different views of [!DNL Analytics] by moving between Report Suites.
 
 Arbeitsbereiche können vollständig verschiedene Zielgruppen, Codeangebote und Aktivitäten beinhalten.
 
 Alle Zielgruppen und Aktivitäten, die vor der Migration des Modells für Unternehmensberechtigungen erstellt wurden, werden zusammen im „Standardarbeitsbereich“ gruppiert, der weiter unten erläutert wird.
 
-Alle mit Adobe Experience Manager (AEM), Adobe Mobile Services und Adobe Target Classic erstellten Aktivitäten werden in das Projekt „Standardarbeitsbereich“ übernommen.
+All activities created via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services], and [!DNL Adobe Target Classic] will be part of the &quot;Default Workspace.&quot;
 
 ### Standardarbeitsbereich
 
-Alle vorhandenen Arbeitsbereiche (Produktprofile) in der Admin Console werden bei der Migration Ihrer Organisation zu dem neuen Unternehmensberechtigungsmodell in einem einzelnen Arbeitsbereich mit der Bezeichnung „Standardarbeitsbereich“ zusammengeführt.
+All existing workspaces (product profiles) within [!DNL Admin Console] are merged into a single workspace called &quot;Default Workspace&quot; during your organization&#39;s migration to the new Enterprise Permissions model.
 
 >[!IMPORTANT]
 >
 >Löschen Sie den Standardarbeitsbereich nicht.
 
-Alle Benutzerrollen und der Zugriff auf die gesamte Target-Funktionalität bleiben exakt genau so wie vor der Migration zum neuen Unternehmensberechtigungsmodell.
+All user roles and access to all [!DNL Target] functionality remains exactly the same as they were prior to the migration to the new Enterprise Permissions model.
 
 ### Benutzergruppen
 
@@ -85,19 +85,19 @@ Sie können Benutzergruppen wie Entwickler, Analytiker, Marketingexperten, Manag
 
 ### Rollen und Berechtigungen
 
-Rollen und Berechtigungen bestimmen, welche Zugriffsebene Benutzer haben, um Aktivitäten in der Target-Implementierung zu erstellen und zu verwalten. In Target gibt es folgende Rollen:
+Rollen und Berechtigungen bestimmen, welche Zugriffsebene Benutzer haben, um Aktivitäten in der [!DNL Target]-Implementierung zu erstellen und zu verwalten. In [!DNL Target] gibt es folgende Rollen:
 
-* Beobachter: Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten.
-* Bearbeiter: Kann Aktivitäten erstellen und bearbeiten, bevor sie aufgeschaltet werden, kann jedoch nicht den Start einer Aktivität genehmigen.
-* Genehmiger: Kann Aktivitäten erstellen, bearbeiten, aktivieren und stoppen.
+* **[!UICONTROL Beobachter]**: Können Aktivitäten in Ansichten erstellen oder bearbeiten, aber nicht.
+* **[!UICONTROL Editor]**: Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber den Start einer Aktivität nicht genehmigen.
+* **[!UICONTROL Genehmigende Person]**: Kann Aktivitäten erstellen, bearbeiten, aktivieren oder beenden.
 
 ### Kanal
 
-Der Kanal gibt den Content-Typ an, in dem Ihre Target-Aktivitäten bereitgestellt werden: Webseiten, mobile Apps, E-Mail-Nachrichten usw.
+Der Kanal gibt den Content-Typ an, in dem Ihre [!DNL Target]-Aktivitäten bereitgestellt werden: Webseiten, mobile Apps, E-Mail-Nachrichten usw.
 
 Bei Erstellung einer neuen Aktivität wird diese dem aktuell ausgewählten Arbeitsbereich zugewiesen. Optionen für die Kanalauswahl finden sich im ersten Dialogfeld, in dem Sie den gewünschten Aktivitätskanal festlegen können: Web, mobile App, E-Mail oder Sonstige/API.
 
-## Übersicht über Berechtigungen  {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Permissions overview {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 Die folgenden Informationen erläutern, wie Berechtigungen zuvor in [!DNL Target] umgesetzt wurden und wie sie mit der neuen Funktion für [!UICONTROL Eigenschaften] und [!UICONTROL Berechtigungen] umgesetzt werden.
 
@@ -135,7 +135,7 @@ Außerdem kann Jan keine Seiten, Eigenschaften oder Sites in [!DNL Target] anzei
 
 In diesem Beispiel kann Jan die Produktseiten, die russische Site und die Karriere-Site nicht sehen.
 
-## Anwendungsszenarien  {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## Use-case scenarios {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 Die folgenden Anwendungsfälle zeigen wie Eigenschaften, Projekte, Rollen und Berechtigungen genutzt werden können, um Marketingziele mit [!DNL Target] zu erreichen:
 
@@ -182,7 +182,7 @@ Nach einer Umstrukturierung richten Sie für die Personen aus der obigen Abbildu
 
 * **Diana**: Diana arbeitet jetzt als Analystin für die Organisation. Ihr wurden Beobachterberechtigungen für die Krankenhaus- und die Endverbraucher-Sites zugewiesen, mit denen sie reinen Lesezugriff auf Aktivitäten hat. Diana kann Aktivitäten anzeigen, sie aber nicht erstellen oder bearbeiten.
 
-## Touchpoints der Target-Benutzeroberfläche für Eigenschaften und Berechtigungen {#section_3414371393BB42999A268628B5456EC9}
+## Target UI Property and Permissions touchpoints {#section_3414371393BB42999A268628B5456EC9}
 
 Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL Target] gleich an mehreren Orten.
 
@@ -196,13 +196,13 @@ Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL 
 
 * **Zielgruppenerstellung:** Bei Erstellung einer neuen Zielgruppe wird diese dem aktuell ausgewählten Arbeitsbereich zugewiesen.
 * **Angebotserstellung:** Bei Erstellung eines neuen Angebots wird dieses dem aktuell ausgewählten Arbeitsbereich zugewiesen.
-* **Eigenschaftenseite (Einrichtung > Eigenschaften):** Es sind das [!UICONTROL Suchfeld] sowie die Optionen [!UICONTROL Kanal] und [!UICONTROL Produktprofil] verfügbar, anhand deren die [!UICONTROL Eigenschaftsliste] gefiltert werden kann.
+* **Seite &quot;Eigenschaften&quot;(&quot;Einstellungen&quot;> &quot;Eigenschaften&quot;):** Sie können das Feld [!UICONTROL Suchen] verwenden, um die Liste [!UICONTROL Eigenschaft] zu durchsuchen.
 
    ![](assets/properties_list.png)
 
 ## Einschränkungen {#section_9714311B1CD9497A86F4910F8AE635E2}
 
-Beachten Sie bei der Konfiguration von Eigenschaften und Berechtigungen in Target Premium Folgendes:
+Consider the following when using or configuring properties and permissions in [!DNL Target] Premium:
 
 * **Wichtig**: Löschen Sie keine Arbeitsbereiche mit Aktivitäten. Wenn dies geschieht, stellen Sie diese Aktivitäten zusammen mit dem Kundendienst wieder her.
 * Bei der Verwendung der Ansicht „Alle meine Arbeitsbereiche“ gilt Folgendes:
@@ -212,12 +212,17 @@ Beachten Sie bei der Konfiguration von Eigenschaften und Berechtigungen in Targe
    * Wenn Sie eine Aktivität, eine Zielgruppe oder ein Angebot in der Ansicht „Alle meine Arbeitsbereiche“ erstellen, müssen Sie den Arbeitsbereich auswählen, in dem das Element erstellt werden soll. Hierbei können Sie nur Arbeitsbereiche auswählen, für die Sie über Editor- oder Genehmiger-Berechtigungen verfügen.
    * Wenn Sie eine Aktivität, eine Zielgruppe oder ein Angebot in der Ansicht „Alle meine Arbeitsbereiche“ kopieren, müssen Sie den Arbeitsbereich auswählen, in den das Element kopiert werden soll. Hierbei können Sie nur Arbeitsbereiche auswählen, für die Sie über Editor- oder Genehmiger-Berechtigungen verfügen.
 
-* Die Einstellungen auf den folgenden Einrichtungsseiten können von jedem Genehmiger in einem beliebigen Arbeitsbereich gesteuert werden:
+* Jede Einstellung auf den folgenden Administrationsseiten kann von jedem Genehmiger in einem beliebigen Arbeitsbereich gesteuert werden:
 
-   * Voreinstellungen
-   * Implementierung
+   * Visual Experience Composer
+   * Berichterstellung
    * Scene7-Einstellungen
+   * Implementierung
+   * Properties
    * Hosts
+   * Umgebung
+   * Antwort-Token
+   * Benutzer
 
 * Benutzer können keine Ressourcen zwischen Arbeitsbereichen (Produktprofilen) verschieben. Das Kopieren wird jedoch unterstützt.
 * Beim Anzeigen der Zielgruppen über die [!DNL Audiences]-Seite lädt die Seite langsamer als erwartet. Nutzen Sie das Suchfeld, werden die Zielgruppen schneller geladen. Es handelt sich hierbei um ein bekanntes Problem, das in einer der folgenden Versionen behoben wird. Das Problem wirkt sich nicht auf die Auswahl von Zielgruppen bei der Erstellung von Aktivitäten aus.
@@ -236,7 +241,7 @@ Beachten Sie bei der Konfiguration von Eigenschaften und Berechtigungen in Targe
    * Aktivitäten, Zielgruppen, Codeangebote, Bildangebote oder andere mit den folgenden Lösungen oder Methoden erstellte Ressourcen können nicht durch das Unternehmensberechtigungsmodell gesteuert werden, werden jedoch Teil des Standardarbeitsbereichs sein: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services und Ressourcen, die über die API erstellt wurden. Unter über die API erstellte Ressourcen fallen Aktivitäten, Audiences, Codeangebote und Bildangebote).
    * Bildangebote (unter `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` gespeicherte Assets) können bisher nicht mithilfe des Unternehmensberechtigungsmodells gesteuert werden.
    * clickTracking und Weiterleitungen funktionieren nur dann, wenn der Ziellink oder die Zielseite Teil einer Eigenschaft sind, die in der Aktivität enthalten ist. Außerdem funktioniert clickTracking möglicherweise nicht, wenn die `targetPageParams()`-Funktion verwendet wird. `targetPageParamsAll()` ist die empfohlene Funktion.
-   Target erfordert zurzeit, dass auf allen Seiten, auf denen Tracking erfolgt, ein `at_property`-Token vorhanden ist. Falls das Token (1) nicht vorhanden ist, (2) zum Zeitpunkt der Aktivitätseinrichtung (im VEC) nicht erkannt wird oder (3) nicht an die clickTracking-Mbox über die `targetPageParamsAll()`-Funktion weitergegeben wird, wird die Metrik nicht erhöht und als „0“ angezeigt.
+   [!DNL Target] erfordert zurzeit, dass auf allen Seiten, auf denen Tracking erfolgt, ein `at_property`-Token vorhanden ist. Falls das Token (1) nicht vorhanden ist, (2) zum Zeitpunkt der Aktivitätseinrichtung (im VEC) nicht erkannt wird oder (3) nicht an die clickTracking-Mbox über die `targetPageParamsAll()`-Funktion weitergegeben wird, wird die Metrik nicht erhöht und als „0“ angezeigt.
 
    Dasselbe gilt für Aktivitäten, die Umleitungen verwenden. Auf der Zielseite muss ein `at_property`-Token vorhanden sein, das beim Einrichten in VEC erkannt wird.
 
