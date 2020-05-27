@@ -6,43 +6,46 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+workflow-type: tm+mt
+source-wordcount: '748'
+ht-degree: 62%
 
 ---
 
 
 # Benutzer{#users}
 
-In der Adobe Admin Console können Sie Benutzer hinzufügen und ihre Berechtigungen verwalten.
+You can add users and manage their permissions in the [!DNL Adobe Admin Console].
 
 >[!NOTE]
 >
 >Die Funktionalitäten für [!UICONTROL Eigenschaften] und [!UICONTROL Berechtigungen] sind als Bestandteil der Lösung [!DNL Target] Premium verfügbar. Für [!DNL Target] Standard sind sie nicht ohne [!DNL Target] Premium-Lizenz verfügbar.
->Sie können feststellen, ob Ihre Organisation über eine Standard- oder Premium-Lizenz verfügt, indem Sie am oberen Rand der [!DNL Target]-Benutzeroberfläche auf den Link [!UICONTROL Einrichten] klicken.
+>You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 >
->**[!DNL Target]Standard-Kunden:**Wenn die Registerkarte[!UICONTROL Benutzer]([!UICONTROL Einrichten > Benutzer]) angezeigt wird, hat Ihre Organisation eine[!DNL Target]-Standard-Lizenz. [!DNL Target Standard-Kunden sollten die Anweisungen in diesem Artikel befolgen, um in der[!DNL Adobe Admin Console]Benutzer hinzuzufügen und Berechtigungen zuzuweisen.
+>**[!DNL Target]Standardkunden **: Wenn die Registerkarte &quot;[!UICONTROL Benutzer]&quot;([!UICONTROL Administration > Benutzer]) (und nicht die Registerkarte &quot;**[!UICONTROL Eigenschaften ]**&quot;) angezeigt wird, verfügt Ihr Unternehmen über eine[!DNL Target]Standardlizenz. [!DNL Target Standard-Kunden sollten die Anweisungen in diesem Artikel befolgen, um in der[!DNL Adobe Admin Console]Benutzer hinzuzufügen und Berechtigungen zuzuweisen.
 >
->**[!DNL Target]Premium-Kunden:**Wenn die Registerkarte[!UICONTROL Eigenschaften]([!UICONTROL Einrichten > Eigenschaften]) angezeigt wird, hat Ihre Organisation eine[!DNL Target]-Premium-Lizenz.[!DNL Target]Premium-Kunden sollten den Anweisungen unter[Berechtigungen für Unternehmensbenutzer](/help/administrating-target/c-user-management/property-channel/property-channel.md)und[Konfigurieren von Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)folgen, um in der[!DNL Adobe Admin Console]Benutzer hinzuzufügen und Berechtigungen zuzuweisen.
+>**[!DNL Target]Premium-Kunden **: Wenn die Registerkarte &quot;[!UICONTROL Benutzer]&quot;und die Registerkarte &quot;[!UICONTROL Eigenschaften]&quot;angezeigt werden ([!UICONTROL Administration > Eigenschaften]), verfügt Ihr Unternehmen über eine[!DNL Target]Premium-Lizenz.[!DNL Target]Premium-Kunden sollten den Anweisungen unter[Berechtigungen für Unternehmensbenutzer](/help/administrating-target/c-user-management/property-channel/property-channel.md)und[Konfigurieren von Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)folgen, um in der[!DNL Adobe Admin Console]Benutzer hinzuzufügen und Berechtigungen zuzuweisen.
 
-Informationen zum Verwalten von Benutzern und Berechtigungen finden Sie unter [Verwalten von Produkten und Profilen](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) im Benutzerhandbuch für Unternehmen und Teams.
+Informationen zum Verwalten von Benutzern und Berechtigungen finden Sie unter [Verwalten von Produkten und Profilen](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) im Benutzerhandbuch für *Unternehmen und Teams*.
 
 Wenn Sie [!DNL Adobe Target] zum ersten Mal verwenden, sind bereits IDs (mit der Endung Adobe.com) in Ihrem [!DNL Adobe Experience Cloud]-Konto vorhanden. Diese IDs sind für Mitglieder des Adobe-Teams gedacht, um Ihnen mit Ihrem neuen Konto und der Verwendung des neuen [!DNL Adobe Target] helfen zu können, sollte dies erforderlich sein. Wenn Sie Unterstützung benötigen, wenden Sie sich auf dem üblichen Weg an Ihre Teams von Adobe.
 
-Die neuen Benutzer werden nicht in der [!UICONTROL Benutzerliste] aufgeführt, bis sich der jeweilige Benutzer bei seinem Adobe Experience Cloud-Konto anmeldet und sich anschließend in [!DNL Target Standard/Premium] anmeldet, indem er auf die [!DNL Target]-Karte klickt.
+You will not see the new user listed on the [!UICONTROL Users] page until the user logs in using his or her [!DNL Adobe Experience Cloud] account and then logs in to [!DNL Target Standard/Premium].
 
 Standardmäßig ist allen [!DNL Target]-Benutzern die Berechtigung „Beobachter“ zugewiesen.
 
-Administratoren werden in der Liste &quot;Benutzer&quot;identifiziert. Wenden Sie sich an einen der Systemadministratoren, wenn Sie Ihre Zugriffsstufe ändern möchten.
+Admin users are identified in the [!UICONTROL Users] list. Wenden Sie sich an einen der Systemadministratoren, wenn Sie Ihre Zugriffsstufe ändern möchten.
 
 ## Auf die Adobe Admin Console zugreifen {#access}
 
 Greifen Sie für in der Adobe Admin Console ausgeführte Aufgaben auf die Konsole zu, indem Sie die folgenden Schritte durchführen:
 
-1. Navigieren Sie zu [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/) und melden Sie sich mit Ihrer Adobe ID an, falls Sie noch nicht angemeldet sein sollten.
+1. Klicken Sie von dort [!DNL Target]auf **[!UICONTROL Administration]** > **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerverwaltung]**.
 
    Oder
 
-   Sind Sie bereits in Experience Cloud angemeldet, navigieren Sie zu [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), klicken Sie auf das [!UICONTROL App]-Symbol oben in der Navigationsleiste und rechts auf **[!UICONTROL Administration]**.
+   Go to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/), then sign in using your Adobe ID, if you have not already logged in.
 
 1. (Bedingt) Sollten Sie über Zugriff auf die [!DNL Admin Console for Enterprise] für mehr als ein Unternehmen verfügen, klicken Sie rechts in der oberen Navigationsleiste auf den Benutzeravatar und wählen Sie die gewünschte Organisation aus.
 
@@ -62,9 +65,9 @@ Sie können Benutzergruppen wie Entwickler, Analytiker, Marketingexperten, Manag
 
 ## Rollen und Berechtigungen festlegen {#roles-permissions}
 
-Benutzerrollen können in [!DNL Target] nur von Systemadministratoren festgelegt werden. Beispielsweise kann ein Standard-Benutzer mit der Rolle „Genehmigen“ keinen Beobachter zu einer genehmigenden Person ändern, ohne auch Experience Cloud-Administratorrechte zu haben.
+Benutzerrollen können in [!DNL Target] nur von Systemadministratoren festgelegt werden. For example, a Standard approver user cannot change an observer to an approver, without also having [!DNL Experience Cloud] Admin rights.
 
-Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden nicht automatisch hinzugefügt. Sie werden per E-Mail von Experience Cloud eingeladen und müssen ihre E-Mail-Adressen bestätigen, bevor ihre Konten registriert werden.
+Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden nicht automatisch hinzugefügt. They are invited by email from the [!DNL Experience Cloud] and must confirm their email addresses before their accounts are registered.
 
 1. [Klicken Sie in der Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Produkte]** und wählen Sie dann den Namen des gewünschten Produkts aus.
 
