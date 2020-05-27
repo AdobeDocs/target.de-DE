@@ -5,10 +5,10 @@ title: Versionshinweise zu Adobe Zielgruppe
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
+source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 22%
+source-wordcount: '483'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 20. Mai 2020**
+**Letzte Aktualisierung: 27. Mai 2020**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -40,6 +40,7 @@ Mit der bevorstehenden Vernichtung von &quot;mbox.js&quot;am 30. August 2020 hat
 
 | Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
+| Analytics for Target (A4T) Unterstützung für Aktivitäten mit automatisierter Zuordnung | Ab der Juni-Version unterstützen Tests mit automatisierter Zuordnung [Analytics für die Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t.md). Mit dieser Integration können Sie die Multi-Armed Bandit-Funktion der automatischen Zuordnung verwenden, um Traffic zu erfolgreichsten Erlebnissen zu steigern, während Sie eine Adobe Analytics-Zielmetrik und/oder Adobe Analytics-Berichte- und -Analysen-Funktionen verwenden. Wenn Sie bereits A4T [für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) implementiert haben, sind Sie alle bereit! |
 | Herausgeberrolle | Diese neue Rolle ähnelt der aktuellen Beobachterrolle (Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung für aktive Aktivitäten. |
 | Administrationsseite<br>zuvor &quot;Setup&quot;. | Die Seite &quot;Einstellungen&quot;wurde in &quot;Administration&quot;umbenannt und die Benutzeroberfläche für alle Menüelemente wurde aktualisiert, um den Arbeitsablauf und die Benutzerfreundlichkeit zu verbessern.<br>Zu den verfügbaren Menüpunkten gehören:<ul><li>Visual Experience Composer</li><li>Berichterstellung</li><li>Scene7-Einstellungen</li><li>Implementierung</li><li>Properties</li><li>Hosts</li><li>Umgebung</li><li>Antwort-Token</li><li>Benutzer</li></ul> |
 
