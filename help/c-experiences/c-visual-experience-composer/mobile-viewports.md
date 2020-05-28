@@ -4,7 +4,10 @@ description: Mit mobilen Viewports können Sie eine Vorschau Ihrer Aktivitäten 
 title: Mobile Viewports für responsive Erlebnisse
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +45,7 @@ Nachstehend finden Sie die Viewports und Auflösungen für einige bekannte Gerä
 | Google Pixel | 411 (B) x 731 (H) | 1080 (B) x 1920 (H) |
 | Google Pixel XL | 411 (B) x 731 (H) | 1440 (B) x 2560 (H) |
 | Google Pixel 2 | 411 (B) x 731 (H) | 1080 (B) x 1920 (H) |
-| Google Pixel 2 XL | 411 (B) x 731 (H) | 1440 (B) x 2560 (H) |
+| Google Pixel 2 XL | 411 (B) x 823 (H) | 1440 (B) x 2880 (H) |
 | Samsung Galaxy Note 5 | 480 (B) x 853 (H) | 1440 (B) x 2560 (H) |
 | LG G5 | 480 (B) x 853 (H) | 1440 (B) x 2560 (H) |
 | One Plus 3 | 480 (B) x 853 (H) | 1080 (B) x 1920 (H) |
@@ -152,7 +155,7 @@ In diesem Anwendungsfall wird erklärt, wie Erlebnisse für zwei verschiedene iP
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Visual Experience Composer (2 von 2) (7:29) Kennzeichen ![Übersicht](/help/assets/overview.png)
+### Visual Experience Composer (2 von 2) (7:29) ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Experience Composer mit mobilen Viewports arbeiten:
 
@@ -165,7 +168,7 @@ Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Expe
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Kontovoreinstellungen in der Adobe Target- ![Übersichtskennzeichnung](/help/assets/overview.png)
+### Kontovoreinstellungen in der Adobe Zielgruppe- ![Übersicht](/help/assets/overview.png)
 
 In diesem Video finden Sie Informationen zur Einrichtung von Mobile Viewports in den Kontovoreinstellungen. Dies wird ab 4:40 erläutert.
 
