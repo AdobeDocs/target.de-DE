@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zur Berichterstellung in Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
+source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 39%
+source-wordcount: '983'
+ht-degree: 35%
 
 ---
 
@@ -37,6 +37,14 @@ Betrachten Sie das folgende Beispiel unter Berücksichtigung der oben genannten 
 * Der Besucher kehrt zur Site zurück, nachdem die Bedingungen für wiederkehrende Besucher erfüllt wurden und als wiederkehrender Besucher gezählt wird.
 
 Dieser Besucher wird als ein Besucher in der Gesamtanzahl der Besucher der Aktivität gezählt, auch wenn er sowohl in den Segmenten &quot;Neue Besucher&quot;als auch in den Segmenten &quot;Wiederkehrende Besucher&quot;gezählt wird.
+
+Diskrepanzen zwischen den Zählungen für neue Besucher und wiederkehrende Besucher hängen auch davon ab, wie Sie die [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md)der Aktivität konfigurieren:
+
+Siehe folgendes Beispiel:
+
+Eine Reihe neuer Besucher besuchen Ihre Site und sind für eine Aktivität qualifiziert. Diese neuen Besucher werden für das Segment &quot;Neue Besucher&quot;gezählt. Alle diese Besucher verzeichneten auch einen Besuch in dieser Aktivität.
+
+Einige Besucher trafen die Konversionsmetrik, die als &quot;Anzahl erhöhen, Benutzer freigeben und Wiedereintritt zulassen&quot;konfiguriert wurde. Nehmen wir an, dass einige dieser Benutzer die Konversionsmetrik mehrmals treffen, wird die Konversionsmetrik nicht erhöht. Angesichts dieser Konfiguration könnten einige Benutzer jedoch die Konversionsmetrik treffen und dann zur Startseite zurückkehren, wodurch sie sich erneut zur Aktivität berechnen, um einen neuen Besuch aufzuzeichnen.
 
 ## Warum enthalten meine [!UICONTROL Erlebnis-Targeting] (XT)-Berichte Metriken für Kontrollerlebnisse?
 
