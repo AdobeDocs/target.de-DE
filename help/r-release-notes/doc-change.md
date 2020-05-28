@@ -5,10 +5,10 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 34%
+source-wordcount: '930'
+ht-degree: 35%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Mai 28 | [Häufig gestellte Fragen zum Reporting](/help/c-reports/reporting-frequently-asked-questions.md) | Folgende neue Frage wurde hinzugefügt: <ul><li>Wie werden die Metriken &quot;Neue Besucher&quot;und &quot;Wiederkehrende Besucher&quot;gezählt?</li></ul> |
 | Mai 27 | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Unterstützung von Analytics for Zielgruppe (A4T) für Aktivitäten mit automatisierter Zuordnung hinzugefügt. |
 | Mai 26 | [Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md) | Folgende Informationen wurden hinzugefügt: &quot;Der Parameter bleibt im Profil, nachdem das Skript deaktiviert wurde. Benutzer, deren Profil bereits einen Parameter enthalten, der in der Audience einer Aktivität verwendet wird, sind in dieser Aktivität berechtigt.&quot; |
 | Mai 21 | [Randknoten der Whitelist-Zielgruppe](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Der Liste `mboxedge30.tt.omtrdc.net` hinzugefügt. |
