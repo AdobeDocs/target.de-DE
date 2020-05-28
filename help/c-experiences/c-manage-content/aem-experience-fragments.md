@@ -5,7 +5,10 @@ title: Adobe Experience Manager (AEM)-Erlebnisfragmente in Adobe Zielgruppe
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: f243e0a74d5f4d91e399e1e64a0e0aa545517ee8
+source-git-commit: 4e1b4d31ba28e21513d314041add5231c9a3062a
+workflow-type: tm+mt
+source-wordcount: '1104'
+ht-degree: 22%
 
 ---
 
@@ -45,9 +48,9 @@ In order to use [!DNL AEM] experience fragments in [!DNL Target], you must perfo
 
 Weitere Informationen finden Sie unter:
 
-* **[!DNL AEM]6.3 **: Entscheidung[für Adobe Analytics und Adobe-Zielgruppe](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)in der_Dokumentation zu Adobe Experience Manager 6.3 _.
-* **[!DNL AEM]6.4 **: Entscheidung[für Adobe Analytics und Adobe-Zielgruppe](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)in der_Dokumentation zu Adobe Experience Manager 6.4 _.
-* **[!DNL AEM]6.5 **: Entscheidung[für Adobe Analytics und Adobe-Zielgruppe](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)in der *Dokumentation zu Adobe Experience Manager 6.5*.
+* **[!DNL AEM]6.3 **:[Einstieg in Adobe Analytics und Adobe-Zielgruppe](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)in der_Adobe Experience Manager 6.3 _-Dokumentation.
+* **[!DNL AEM]6.4 **:[Einstieg in Adobe Analytics und Adobe-Zielgruppe](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)in der_Adobe Experience Manager 6.4 _-Dokumentation.
+* **[!DNL AEM]6.5 **:[Einstieg in Adobe Analytics und Adobe-Zielgruppe](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)in der *Adobe Experience Manager 6.5*-Dokumentation.
 
 ### Schritt 2: Erlebnisfragment erstellen
 
@@ -72,11 +75,11 @@ Experience fragments are created in [!DNL AEM]. Weitere Informationen finden Sie
 
 Abhängig von Ihrer [!DNL AEM] Version finden Sie unter den folgenden Links schrittweise Anweisungen:
 
-* **[!DNL AEM]6.3 **: Exportieren[eines Erlebnisfragments in Zielgruppen](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)in der *Adobe Experience Manager 6.3*-Dokumentation.
-* **[!DNL AEM]6.4 **:[Exportieren eines Erlebnisfragments in Zielgruppen](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)in der *Adobe Experience Manager 6.4*-Dokumentation.
-* **[!DNL AEM]6.5 **:[Exportieren eines Erlebnisfragments in Zielgruppen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)in der *Adobe Experience Manager 6.5*-Dokumentation.
+* **[!DNL AEM]6.3 **:[Exportieren eines Erlebnisfragments in die Zielgruppe](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)in der *Adobe Experience Manager 6.3*-Dokumentation.
+* **[!DNL AEM]6.4 **:[Exportieren eines Erlebnisfragments in die Zielgruppe](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)in der *Adobe Experience Manager 6.4*-Dokumentation.
+* **[!DNL AEM]6.5 **:[Exportieren eines Erlebnisfragments in die Zielgruppe](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)in der *Adobe Experience Manager 6.5*-Dokumentation.
 
-## Using experience fragments in DNL Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 After performing the preceding tasks, the experience fragment displays on the [!UICONTROL Offers] page in [!DNL Target].
 
@@ -141,7 +144,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;master&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 * Sie können JSON-Angebot als Erlebnisfragmente in importieren [!DNL Target]. Diese Angebot werden jedoch als HTML-Angebot importiert. JSON-Angebot (Erlebnisfragmente) werden derzeit nicht vollständig in der [!DNL Target] Benutzeroberfläche unterstützt.
 
-## Schulungsvideo: Verwenden von DNL-AEM-Erlebnisfragmenten mit Adobe Zielgruppe {#section_C0EDC54063464F41A182492D2045BC64} Tutorial- ![Abzeichen](/help/assets/overview.png)
+## Training video: Using AEM experience fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
 
 Das folgende Video zeigt Ihnen, wie Sie Erlebnisfragmente einrichten und verwenden:
 
