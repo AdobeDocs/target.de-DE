@@ -4,10 +4,10 @@ description: Mit mobilen Viewports können Sie eine Vorschau Ihrer Aktivitäten 
 title: Mobile Viewports für responsive Erlebnisse
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 98%
+source-wordcount: '1346'
+ht-degree: 97%
 
 ---
 
@@ -28,6 +28,14 @@ Nachstehend finden Sie die Viewports und Auflösungen für einige bekannte Gerä
 
 | Gerät | Viewport-Größe | Geräteauflösung |
 |---|---|---|
+| iPhone SE | 375 (B) x 667 (H) | 750 (B) x 1334 (H) |
+| iPhone 11 Pro Max | 414 (B) x 896 (H) | 1242 (B) x 2688 (H) |
+| iPhone 11 Xs Max. | 414 (B) x 896 (H) | 1242 (B) x 2688 (H) |
+| iPhone 11 | 414 (B) x 896 (H) | 828 (B) x 1792 (H) |
+| iPhone 11 Xr | 414 (B) x 896 (H) | 828 (B) x 1792 (H) |
+| iPhone 11 Pro | 375 (B) x 812 (H) | 1125 (B) x 2436 (H) |
+| iPhone 11 X | 375 (B) x 812 (H) | 1125 (B) x 2436 (H) |
+| iPhone 11 Xs | 375 (B) x 812 (H) | 1125 (B) x 2436 (H) |
 | iPhone X | 375 (B) x 812 (H) | 1125 (B) x 2436 (H) |
 | iPhone 8 Plus | 414 (B) x 736 (H) | 1080 (B) x 1920 (H) |
 | iPhone 8 | 375 (B) x 667 (H) | 750 (B) x 1334 (H) |
