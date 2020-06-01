@@ -4,7 +4,7 @@ description: Informationen zu kommenden Ereignissen, einschließlich Zielgruppe 
 title: Mitteilungen zur Zielgruppe
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -27,7 +27,9 @@ Nehmen Sie an den Produktmanagern Tamer Myna und Mark Tuyay teil, wie sie wahre 
 * Automatisieren der Inhaltsaufnahme in Zielgruppe Recommendations
 * Verfolgen Sie die Leistung des empfohlenen Inhalts und wie er mit der Interessentengenerierung korreliert.
 
-Donnerstag, 4. Juni 2010:00 bis 10:45 Uhr (EST)
+**Donnerstag, 4. Juni 2020**
+
+**10:00 bis 10:45 Uhr (EST)**
 
 Um sich zu registrieren, besuchen Sie die [Registrierungsseite auf der Adobe Experience League-Website](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/).
 
