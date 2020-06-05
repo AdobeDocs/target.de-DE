@@ -5,7 +5,7 @@ title: Versionshinweise zu Adobe Zielgruppe
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 316c1157a4dff346f16862cfd7a04994c6a1bc7d
+source-git-commit: 68d49d4cdfd76fdea9c1e004adfaf7e6044d22bb
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 21%
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert: 3. Juni 2020**
+**Zuletzt aktualisiert: 4. Juni 2020**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -35,7 +35,7 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 * **Mitteilungen** zur Zielgruppe: Auf der Seite mit den Ankündigungen zur Zielgruppe finden Sie Informationen zu den kommenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinars und Zielgruppe Coffee Break-Sitzungen. Weitere Informationen finden Sie unter [Ankündigungen](/help/r-release-notes/target-announcements.md)der Zielgruppe.
 
 
-## Target Standard/Premium 20.5.1 (10. Juni 2020) 
+## Target Standard/Premium 20.5.1 (17. Juni 2020) 
 
 | Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
