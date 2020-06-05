@@ -4,9 +4,9 @@ description: Informationen zu kommenden Ereignissen, einschließlich Zielgruppe 
 title: Mitteilungen zur Zielgruppe
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ David Son, [!DNL Target] Produktmanager, wird alle Ihre Fragen beantworten. Das 
 
 * at.js 
 * Mobil
-* Alloy
+* Adobe Experience Platform - AEP Web SDK (Alloy)
 * -APIs
 
 Aber zögern Sie nicht, Fragen zur Zielgruppe zu stellen.
@@ -39,4 +39,4 @@ Sie müssen sich einfach bei der [Adobe Zielgruppe Community](https://experience
 
 ## Adobe Zielgruppe Skill Builder: Entwickler-Chat, migrieren Sie &quot;mbox.js&quot;der Adobe-Zielgruppe in &quot;at.js&quot; {#skill-builder}
 
-Mit der bevorstehenden Vernichtung von &quot;mbox.js&quot;am 30. August 2020 hat David Son, Adobe Zielgruppe Product Manager, kürzlich einen Entwicklerchat gehostet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern. In den nächsten 30 Tagen können Sie die Aufzeichnung des Webinars [Ansicht](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)leisten.
+Mit der bevorstehenden Vernichtung von &quot;mbox.js&quot;am 30. August 2020 hat David Son, Adobe Zielgruppe Product Manager, kürzlich einen Entwicklerchat gehostet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern. In den nächsten 30 Tagen können Sie die Aufzeichnung des Webinars [Ansicht](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)nehmen.
