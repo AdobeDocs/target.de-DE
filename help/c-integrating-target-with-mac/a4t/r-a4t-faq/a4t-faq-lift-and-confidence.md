@@ -5,7 +5,10 @@ title: Steigerung und Konfidenz – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
+source-git-commit: 894954ef73c0f65468d5c406ac1040d532e74b17
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 55%
 
 ---
 
@@ -28,13 +31,14 @@ Die Konfidenzniveau ist die Wahrscheinlichkeit, dass die gemessene Konversionsra
 
 ## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen?  {#lift-confidence}
 
-Steigerung und Konfidenz werden derzeit nicht mit berechneten Metriken unterstützt. In den meisten Fällen ist dies jedoch kein Problem, da der im A4T-Bericht berechnete Konversionsrate bereits eine berechnete Metrik ist, bei der der Nenner die normalisierende Metrik ist (Instanzen, Besuche oder Besucher). Wenn Sie beispielsweise die Bestellmetrik auswählen und die Normalisierungsmetrik Besucher ist, wird der Konversionsrate (Bestellungen/Besucher) automatisch über den A4T-Berichte berechnet. Die resultierende Steigerungsmetrik spiegelt den Unterschied in diesem Konversionsrate in den Texterlebnissen im Vergleich zum Standard wider.
+Berechnete Metriken werden derzeit nicht in den Funktionen Steigerung und Konfidenz unterstützt. Dies liegt daran, dass Analytics Metriken auf Aggregat- statt auf Besucher-Ebene berechnet. Konfidenz ist vor allem eine Berechnung auf Besucher-Ebene.
 
-Die meisten berechneten Metriken zur Optimierung lassen sich in eine von zwei Kategorien einteilen: Aggregat-Metriken oder andere Konversionsberechnungen, z. B. durchschnittlicher Bestellwert (AOV).
+Nicht berechnete (Standard-)Ereignis werden in Steigerung und Konfidenz unterstützt. Sie werden in der Steigerungsfunktion zum Zähler. der Zähler kann keine Berechnung selbst sein. Der Nenner sind die normalisierenden Metriken (Impressionen, Besuche oder Besucher). Beispiele für Standard-Ereignis sind Bestellungen, Umsatz, Aktivitäten-Konversionen, benutzerdefinierte Ereignis 1-1000 usw. Dies bedeutet, dass gängige Optimierungsmetriken wie die Konversationsrate (Bestellungen/Besucher) und RPV (Umsatz/Besucher) in Steigerung und Konfidenz unterstützt werden.
 
-Aggregat-Metriken werden verwendet, wenn ein Unternehmen eindeutige Ereignis verwendet, um verschiedene &quot;Aromen&quot;der Speicherkonvertierung zu erfassen. Wenn Ihr Ziel z. B. darin besteht, Interessentenformularsendungen zu fördern und Sie über zehn verschiedene Interessentenformulare verfügen, können Sie eindeutige Ereignis erstellen, um die einzelnen Arten der Formularkonvertierung zu zählen. Um die Gesamtanzahl aller gesendeten Interessentenformulare anzuzeigen, müssen Sie eine einfache errechnete Metrik erstellen, um sie zusammen hinzuzufügen. Eine bessere, modernere Methode zur Verfolgung dieses Problems besteht darin, ein einzelnes Lead-Submit-Ereignis in Analytics zu implementieren und dann eine eVar zur Erfassung des Interessentenformulartyps zu verwenden. Bei Verwendung dieser Methode sind weniger Variablen erforderlich, sodass keine individuellen Metriken mehr Aggregat werden müssen und Sie weiterhin die Möglichkeit haben, eine ganzheitliche Interessentenformularumrechnung zu sehen und diese mithilfe der eVar nach Interessentenformulartypen zu unterteilen. Dadurch entfällt auch die Notwendigkeit von Aggregat-Metriken bei der Bewertung der Leistung einer Zielgruppe-Aktivität.
+Beispiele für nicht unterstützte Metriken oder Anwendungsfälle:
 
-Eine andere häufig verwendete berechnete Metrik, der durchschnittliche Bestellwert, wird derzeit nicht mit Steigerung und Konfidenz unterstützt, da die Normalisierungsmetrik keine Standardmetrik ist (Instanzen, Besuche oder Besucher). Stattdessen sollten Sie die beiden einflussreichen Metriken AOV, Umsatz pro Besucher und Konversionsrat im Auge behalten.
+* Durchschnittlicher Bestellwert (Umsatz/Bestellung, pro Besucher). AOV wird nicht unterstützt, da der Zähler eine berechnete Metrik ist. Stattdessen wird empfohlen, die beiden einflussreichen Metriken von AOV - Umsatz pro Besucher und Konversionsrat zu berücksichtigen.
+* Berechnete Metriken, die die Summe der standardmäßigen Ereignis darstellen. Sie können z. B. zehn verschiedene Interessentenformulare in zehn separate Ereignis nachverfolgen und diese dann zusammen hinzufügen, um die Gesamtzahl der Interessenteneinsendungen zu erhalten. Eine empfohlene Methode zur Verfolgung dieser Ereignis ist die Implementierung eines einzigen Ereignisses zur Interessentenübermittlung in Analytics und dann die Verwendung einer eVar zur Erfassung des Interessentenformulartyps. Die Verwendung dieser Methode erfordert weniger Variablen und stellt sicher, dass Sie die Metrik für die Übermittlung einzelner Interessenten in den Steigerungs- und Konfidenzfunktionen verwenden können.
 
 ## Wie verwaltet A4T Konfidenzberechnungen?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
