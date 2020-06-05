@@ -6,10 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 59c26a766018affe5ef7b5fa4ea5a421ab3cc37d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 41%
+source-wordcount: '669'
+ht-degree: 35%
 
 ---
 
@@ -34,22 +34,30 @@ When the [!UICONTROL Select] operation is used and you sort on *Entrants*, then 
 >
 >Reports powered by [!DNL Target] have a latency of four minutes. For activities powered by A4T, in both the [!DNL Target] and [!DNL Analytics] reports, it can take up to 24 hours after the activity is initially saved before the report data can be broken down by experiences. Die in den ersten 24 Stunden gesammelten Daten sind noch präzise und werden dem richtigen Erlebnis zugewiesen.
 
-## Berichte in Analytics  {#section_F6884872DC864AE7913587FAED4CD11C}
+## Berichte in Analytics  {#analytics}
 
-In [!DNL Analytics], click **[!UICONTROL Target]** > **[!UICONTROL Target Activities]** in the left menu. In [!DNL Target], the activity&#39;s reports automatically show [!DNL Analytics] data, metrics, and segments. Daten erscheinen in diesen Berichten ca. eine Stunde nach der Erfassung auf der Site. Sämtliche Metriken, Zielgruppen und Werte in den Berichten stammen aus der Report Suite, die Sie bei der Einrichtung der Aktivität ausgewählt haben.
+Darüber [!DNL Analytics]hinaus stehen nach Aktivierung der A4T-Integration verschiedene Dimensionen und Metriken zur Verfügung.
 
-In [!DNL Analytics], use the [!UICONTROL Target Activities] report to view the results of your [!DNL Target] activity. Test&amp;Target (Legacy) Reports provides information about your old Test&amp;Target plug-in style page integrations and does not include [!DNL Analytics] for [!DNL Target] data. In the [!UICONTROL Activities] report, view information about your [!DNL Target] experiences. Klicken Sie auf **[!UICONTROL Metriken]** und wählen Sie dann den Metriktyp **[!UICONTROL Target.]** Für Ihren Bericht stehen zwei Metriken zur Verfügung:
+### Dimensionen
 
-* **Aktivitäten-Einträge:** Entspricht der Anzahl der Teilnehmer im [!DNL Target] Bericht.
-* **Aktivitäten-Konversionen:** Entspricht der Nummer der benutzerdefinierten Konvertierung im [!DNL Target] Bericht.
+* [!UICONTROL Analytics für Zielgruppe] - Die übergeordnete ID, die durch die Integration weitergegeben wird. Das Format dieser Dimension ist `Activity ID:Experience ID:3rd ID`festgelegt. Die folgenden Dimensionen sind Klassifizierungen dieser Dimension.
+* [!UICONTROL Target Activities]
+* [!UICONTROL Target-Erlebnisse]
+* [!UICONTROL Zielgruppe Aktivität] > [!UICONTROL Erlebnis]
+* [!UICONTROL 3. ID] - kann ignoriert werden
 
->[!NOTE]
->
->[!DNL Target] Details zu Steigerung und Konfidenz finden Sie auch in [!DNL Analytics]. Weitere Informationen finden Sie unter Steigerung der [Zielgruppe und Vertrauen](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html) im *Analytics-Komponentenhandbuch*.
+### Metriken
+
+* [!UICONTROL Aktivitäten-Impressionen] - Entspricht der [!UICONTROL Anzahl der Teilnehmer] im [!DNL Target] Bericht.
+* [!UICONTROL Aktivitäten-Konversionen] - Entspricht der [!UICONTROL benutzerspezifischen Konversionsnummer] im [!DNL Target] Bericht.
+
+Verwenden Sie [!DNL Analysis Workspace]das Bedienfeld [!UICONTROL Analytics für Zielgruppen] , um Ihre [!DNL Target] Aktivitäten und Erlebnisse mit Steigerung und Konfidenz zu analysieren. Weitere Informationen finden Sie im Bedienfeld [&quot;](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Zielgruppe&quot;(A4T) im *Analytics-Tools-Handbuch*.
 
 >[!IMPORTANT]
 >
 >If your [!UICONTROL Target Activities] report in [!DNL Analytics] lists &quot;unspecified&quot; instead of listing your activities, an update is required to your provisioned account. Wenden Sie sich an den Kundendienst, um dieses Problem zu beheben.
+
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by Adobe Experience League.
 
 ## Berichte in Target  {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
@@ -65,12 +73,6 @@ When [!DNL Analytics] is used as the reporting source, reports in [!DNL Target] 
 You can apply the metric or audience to the report in [!DNL Target] after the activity has started, or even after the test has completed. Es ist nicht erforderlich, dass Sie im Vorhinein genau wissen, was Sie messen möchten.
 
 Click to view the full [!DNL Analytics] report directly from the activity report page.
-
-## Berichte in Analysis Workspace {#reports-in-analysis-workspace}
-
-Sie können mithilfe von [!DNL Adobe Analysis Workspace] tiefere Einblicke gewinnen, um die Daten zu visualisieren oder Einblicke zu finden, die unter der Oberfläche verborgen sind.
-
-For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by [!DNL Adobe Experience League].
 
 ## Aktivitätserstellung {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
