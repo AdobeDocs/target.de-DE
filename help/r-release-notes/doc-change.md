@@ -5,10 +5,10 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 34%
+source-wordcount: '986'
+ht-degree: 33%
 
 ---
 
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Juni 5 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur Adobe Zielgruppe Coffee Break vom 10. Juni hinzugefügt. |
+| 4. Juni | [A4T-Reporting](/help/c-integrating-target-with-mac/a4t/reporting.md) | Der Abschnitt &quot;Berichte in Analytics&quot;wurde aktualisiert. |
 | Juni 1 | [Mitteilungen zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurde eine neue Seite zur Ankündigung anstehender Ereignis der Zielgruppe hinzugefügt. |
 |  | [Mobile Viewports für responsive Erlebnisse](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Die Viewport-Dimensionen und -Auflösungen für Apple iPhone 11-, Apple iPhone SE- und Google Pixel 2 XL-Modelle wurden aktualisiert. |
 | Mai 28 | [Häufig gestellte Fragen zum Reporting](/help/c-reports/reporting-frequently-asked-questions.md) | Folgende neue Frage wurde hinzugefügt: <ul><li>Wie werden die Metriken &quot;Neue Besucher&quot;und &quot;Wiederkehrende Besucher&quot;gezählt?</li></ul> |
