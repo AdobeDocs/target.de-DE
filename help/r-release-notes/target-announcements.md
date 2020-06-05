@@ -4,34 +4,38 @@ description: Informationen zu kommenden Ereignissen, einschließlich Zielgruppe 
 title: Mitteilungen zur Zielgruppe
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
 
-# Mitteilungen zur Zielgruppe
+# Ankündigungen und Ereignisse zur Zielgruppe
 
 Informationen zu kommenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinare und Zielgruppe Coffee Break-Sitzungen.
 
-## Adobe Zielgruppe Skill Builder: Wie `Adobe.com` verwendet Adobe Sensei AI zur Personalisierung von Erlebnissen
+## Adobe Zielgruppe Community Q&amp;A Coffee Break
 
-**Donnerstag, 4. Juni 2020**
+**Mittwoch, 10. Juni 2020**
 
-**10:00 bis 10:45 Uhr (EST)**
+**10:00 bis 11:00 Uhr (PST)**
 
-Als eine der größten B2E-Sites im Internet hat `Adobe.com` sich seine Rolle als &quot;Customer Zero&quot;für Adobe Experience Cloud voll und ganz zu Eigen gemacht und alle Lösungen für B2B- und B2C-Anwendungsfälle weltweit übernommen. Als digitales Ziel, das eine Vielzahl von Personen bedient, darunter handwerkliche Kreative, nicht-technische Vermarkter und zutiefst technische IT-Käufer, ist Personalisierung von entscheidender Bedeutung für den Erfolg `Adobe.com`von.
+Bitte nehmen Sie an unserer nächsten [!DNL Adobe Target] Community Q&amp;A Coffee Break teil! Dies ist Teil einer Reihe, die wir vor Kurzem für unsere internen Experten gestartet haben, um direkt mit Ihnen in unseren Forenthreads für eine &quot;Kaffeepause&quot;zusammenzuarbeiten. Stellen Sie sich das [!DNL Adobe Target] Community-Forum als Äquivalent zu einem AMA (Frag mich alles) oder einem Twitter-Chat vor.
 
-Nehmen Sie an den Produktmanagern Tamer Myna und Mark Tuyay teil, wie sie wahre Geschichten darüber präsentieren, wie Personalisierung funktioniert `Adobe.com`. In diesem Webinar lernen Sie Folgendes:
+David Son, [!DNL Target] Produktmanager, wird alle Ihre Fragen beantworten. Das Kompetenzfeld von David umfasst:
 
-* Inhalte ohne manuelle Aktualisierungen stets aktuell halten
-* Verwenden Sie flüssige Erlebnisse, um empfohlene Inhalte zu skalieren `Adobe.com`
-* Automatisieren der Inhaltsaufnahme in Zielgruppe Recommendations
-* Verfolgen Sie die Leistung des empfohlenen Inhalts und wie er mit der Interessentengenerierung korreliert.
+* at.js 
+* Mobil
+* Alloy
+* -APIs
 
-Um sich zu registrieren, besuchen Sie die [Registrierungsseite auf der Adobe Experience League-Website](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/).
+Aber zögern Sie nicht, Fragen zur Zielgruppe zu stellen.
+
+Sie müssen sich einfach bei der [Adobe Zielgruppe Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) anmelden, um daran teilnehmen zu können.
+
+[Hier registrieren](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Adobe Zielgruppe Skill Builder: Entwickler-Chat, migrieren Sie &quot;mbox.js&quot;der Adobe-Zielgruppe in &quot;at.js&quot; {#skill-builder}
 
