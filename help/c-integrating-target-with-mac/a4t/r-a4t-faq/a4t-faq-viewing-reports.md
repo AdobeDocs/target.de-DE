@@ -1,11 +1,14 @@
 ---
-keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Bericht; Berichte; Berichte anzeigen; Berichterstellung; Zählmethodik; Impressionen; Besucher; Besuche; Standardmetrik; Aktivitätskonversionen; unspezifisch
+keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: Dieses Thema enthält Antworten auf häufig zur Anzeige von Berichten bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 title: Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+workflow-type: tm+mt
+source-wordcount: '2023'
+ht-degree: 80%
 
 ---
 
@@ -14,34 +17,29 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Dieses Thema enthält Antworten auf häufig zur Anzeige von Berichten bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 
-## Was ist die Zählmethode und wie wende ich sie an? {#section_E9C21C47B5BE4E54BABF0CD7F03D3945}
+## Kann ich meine Target-Aktivitätsdaten im Analysis Workspace anzeigen? {#workspace}
 
-Die Zählmethode gibt an, was Target als Nenner für die Konversionsraten verwendet. Die Auswahlmöglichkeiten lauten wie folgt:
+Sie können den Arbeitsbereich für Analysen verwenden, um die Aktivitäten und Erlebnisse Ihrer Adobe-Zielgruppe zu analysieren. Im Bedienfeld [&quot;](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics für Zielgruppen&quot;können Sie die Steigerung und das Vertrauen für bis zu drei Erfolgsmetriken sehen. Mithilfe von Tabellen und Visualisierungen können Sie auch tiefer graben.
 
-* Impressionen
-* Besucher
-* Besuche
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
-## Kann ich eine Standardmetrik für die Target-Berichte festlegen?  {#section_50C20D286AA042CCA958184C9C0767DD}
+## Wo können Segmente in Analyse Workspace angewendet werden? {#segmentation}
 
-Für den Aktivitätsbericht können Administratoren die Standardmetrik so ändern, dass bei jeder Ausführung des Berichts dieselben Metriken angezeigt werden. Anderenfalls wird der Bericht standardmäßig auf die letzte Metrik festgesetzt, die Sie für Ihren letzten Bericht angewendet haben.
+Segmente werden meist am oberen Rand eines Bereichs in der Segment-Dropzone angewendet. Das Segment wird auf alle Tabellen und Visualisierungen im Bedienfeld angewendet. Diese Technik ist am nützlichsten, um zu sehen, wie der Test eine Untergruppe von Personen betrifft (wie hat dieser Test zum Beispiel für Menschen in Großbritannien funktioniert)?
 
-For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
+## Warum werden nicht verwandte Erlebnisse zurückgegeben, wenn ich ein Treffersegment für eine bestimmte Aktivität der Zielgruppe anwende? {#activity-segmentation}
 
-## Wann wende ich ein Segment auf die Metrik (mit einer errechneten Metrik) an und wann wende ich das Segment auf den Bericht an? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
+Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. (Hinweis: Diese Ablaufzeit kann bei Bedarf vom Kundendienst angepasst werden. Während Besucher durch die Site in diesem Ablauffenster navigieren, werden sie zu vielen Aktivitäten der Zielgruppe gehören, die alle in der Dimension erfasst werden.
 
-Die Anwendung der Segmente auf die Berichte erfolgt wie die Anwendung von Segmenten in Target Classic. Diese Technik ist besonders nützlich, wenn Sie sehen möchten, wie sich der Test auf eine Untergruppe von Personen auswirkt (zum Beispiel: Wie verlief der Test für Kunden in Großbritannien?).
+Wenn Sie daher segmentieren, dass eine Aktivität in einem Treffer vorhanden sein soll, erhalten Sie alle Erlebnisse, die Teil dieser Aktivität sind, PLUS alle anderen Erlebnisse, die bei diesem Treffer bestehen bleiben.
 
-Es ist möglich, mit einer errechneten Metrik Segmente auf Metriken anzuwenden. Dies erfolgt im Allgemeinen, wenn Sie einen neuen Typ von Erfolgsereignis erstellen möchten. Zum Beispiel, wenn Sie sehen möchten, wie viele Besucher zu Ihrer generierten Aktivität zurückkehren oder wie viele Besucher zu einer bestimmten Seite gelangen und Ihren Test sehen. Bitte beachten Sie, dass Steigerung und Konfidenz derzeit nicht für errechnete Metriken generiert werden können.
+## Sollte ich Besucher, Besuche oder Aktivitäten-Impressionen als Normalisierungsmetrik verwenden (d. h. als Zählmethodik)? {#metrics}
 
-## Sollte ich beim Anzeigen von Berichten Besucher, Aktivitätsimpressions oder Besuche verwenden?  {#metrics}
-
-Es gibt mehrere Optionen, von denen jede über eigene Vorteile verfügt:
+Es gibt mehrere Optionen zum Normalisieren von Metriken im A4T-Berichte. Diese Metrik, auch als Zählmethodik bezeichnet, wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.
 
 * ***Unique Visitors*** wird um eins erhöht, wenn ein Benutzer sich zum ersten Mal für eine Aktivität qualifiziert.
 * ***Besuche*** wird mit jeder Sitzung erhöht, sobald ein Benutzer (Unique Visitor) eine Aktivität beginnt, selbst wenn diese Aktivität nicht in nachfolgenden Besuchen angezeigt wird.
 * ***Aktivitätsimpressionen*** wird jedes Mal erhöht, wenn Aktivitätsinhalt bereitgestellt wird. (Gemessen durch Target)
-* ***Instanzen*** erhöht sich einmal pro Seite, wenn Aktivitätsinhalte bereitgestellt werden. (Gemessen durch Analytics)
 
 Wenn ein Besucher eine Seite anzeigt, die eine Aktivität enthält, wird eine Variable für diesen Besucher festgelegt, die den Namen der Aktivität enthält. Informationen zu den verschiedenen Zählmethoden finden Sie in den unten aufgeführten ausführlichen Szenarien.
 
@@ -49,7 +47,12 @@ Beachten Sie Folgendes:
 
 * Alle oben genannten Metriken werden ausgelöst, wenn ein Benutzer sich für eine Aktivität qualifiziert und Inhalt von [!DNL Target] zurückgegeben wird. Das bedeutet nicht zwingend, dass der Benutzer das Angebot gesehen hat. Wenn ein Aktivitätserlebnis sich unterhalb des angezeigten Bildschirmbereichs befindet und der Benutzer nicht nach unten scrollt, wurde das Angebot zwar von [!DNL Target] bereitgestellt, aber nicht vom Benutzer gesehen.
 * [!UICONTROL Aktivitätsimpressionen] (gemessen durch [!DNL Target]) und [!UICONTROL Instanzen] (gemessen durch [!DNL Analytics]) sind gleich, sofern nicht mehrere Mbox-Aufrufe auf derselben Seite in derselben Aktivität vorhanden sind. Hierdurch werden mehrere [!UICONTROL Aktivitätsimpressionen] gezählt, aber nur eine [!UICONTROL Instanz].
-* Stellen Sie bei Verwendung von [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversionsmetriken] [!DNL Analysis Workspace] sicher, dass auf beide Metriken die Attributionsmodelle [!UICONTROL Same Touch] angewendet werden. Modelle können angewendet werden, indem Sie auf das Zahnradsymbol der Spalte klicken, [!UICONTROL Nicht standardmäßige Attributionsmodelle] aktivieren und [!UICONTROL Same Touch] auswählen. Weitere Informationen zur Zuordnung finden Sie im Überblick[ über die ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)Attributes-IQ im *Analytics-Tools-Handbuch*.
+
+## Warum sind &quot;Aktivitäten-Impressionen&quot;und &quot;Aktivitäten-Konversionen&quot;im Arbeitsbereich für Analysen höher als &quot;Reports &amp; Analysen&quot;? {#sametouch}
+
+Reports &amp; Analysen wendet dasselbe Touch-Zuordnungsmodell auf &quot;Aktivität Impressionen&quot;und &quot;Aktivität-Konversionen&quot;an, während Analyse Workspace die Rohmetriken anzeigt, die aufgrund der Persistenz der Dimension &quot;Zielgruppe&quot;überhöht erscheinen können.
+
+To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. Modelle können angewendet werden, indem Sie auf das Zahnradsymbol der Spalte klicken, [!UICONTROL Nicht standardmäßige Attributionsmodelle] aktivieren und [!UICONTROL Same Touch] auswählen. Weitere Informationen zur Zuordnung finden Sie im Überblick [über die](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) Attributes-IQ im *Analytics-Tools-Handbuch*.
 
 ## Was bedeutet „Aktivitätskonversionen“, wenn der Marketingexperte beim Setup einer Aktivität eine Analytics-Metrik auswählt? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -57,15 +60,13 @@ Beachten Sie Folgendes:
 
 ## Warum steht in den Analytics-Berichten „Nicht angegeben“? Was bedeutet das? {#unspecified}
 
-![](assets/unspecified.png)
-
 In anderen Berichten bedeutet „Nicht angegeben“, dass Daten eine bestimmte Classification nicht erfüllt haben. Dies sollte jedoch in A4T nie passieren. Wenn Sie „Nicht angegeben“ angezeigt bekommen, wurde der Classifications-Service noch nicht ausgeführt. Es dauert normalerweise zwischen 24 und 72 Stunden, bis Aktivitätsdaten in den Berichten angezeigt werden. Obwohl die Aktivitäten erst zu diesem Zeitpunkt in diesem Bericht angezeigt werden, werden alle an diese Aktivitäten geknüpften Besucherdaten erfasst und nach dem Abschluss der Classification angezeigt.
 
 Nach dem Klassifizierungszeitraum werden Daten ca. eine Stunde nach Erfassung auf der Site in diesen Berichten angezeigt. Sämtliche Metriken, Segmente und Werte in den Berichten stammen aus der Berichtssuite, die Sie bei der Einrichtung der Aktivität ausgewählt haben.
 
 ## Warum werden Target-Metriken auch dann noch an Analytics gesendet, wenn die Aktivität deaktiviert wurde? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
-Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. Diese Ablauffrist kann bei Bedarf vom Kundendienst geändert werden. Diese Einstellung gilt für alle Aktivitäten, daher sollte sie nicht nur für einen Fall angepasst werden.
+Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. Dieser Ablaufzeitraum kann bei Bedarf vom Kundendienst angepasst werden. Diese Einstellung gilt für alle Aktivitäten, daher sollte sie nicht nur für einen Fall angepasst werden.
 
 Unter Umständen stellen Sie fest, dass Target-Variablen nach Ende der Ablauffrist an Analytics gesendet werden, da der Zeitraum sich auf 90 Tage beläuft, aber nur, wenn der jeweilige Benutzer keine andere Target-Aktivität sieht, für die A4T aktiviert ist. Wenn ein Benutzer am 45. Tag zur Site zurückkehrt und eine andere Aktivität ansieht, wird der gesamte Zähler für den A4T-eVar-Wert wieder auf 90 Tage zurückgesetzt. Das heißt, dass die erste Kampagne jetzt ab dem 1. Tag für 45 + 90 = 135 Tage fortbesteht. Falls der Benutzer anschließend weiterhin zurückkehrt, kann es sein, dass in Ihren Berichten irgendwann Metriken für weitaus ältere Aktivitäten an Analytics gesendet werden. Wenn Benutzer Cookies löschen und nicht zur Site zurückkehren, gehen die Zahlen für die entsprechende Aktivität zurück, werden aber weiterhin angezeigt.
 
@@ -136,9 +137,3 @@ Virtual Report Suites sind *nicht* in der Report Suite-Liste enthalten und Zielg
 Wenn Sie den Prozentsatz der Traffic-Zuordnung in einer Aktivität nach Aktivierung ändern, kann dies zu inkonsistenten Berichten in Analytics führen, da sich die Änderung nur auf neue Besucher auswirkt. Wiederkehrende Besucher sind nicht betroffen.
 
 Am besten sollten Sie die vorhandene Aktivität stoppen und dann eine neue Aktivität erstellen, anstatt den Prozentsatz nach der Aktivierung zu ändern. Die Berichterstellung für die neue Aktivität beginnt mit neuen Besuchern und Daten aus zurückkehrenden Besuchern führen nicht zu inkonsistenten Berichten.
-
-## Kann ich meine Target-Aktivitätsdaten im Adobe Analysis Workspace anzeigen?
-
-Sie können mithilfe von [!DNL Adobe Analysis Workspace] tiefere Einblicke gewinnen, um die Daten zu visualisieren oder Einblicke zu finden, die unter der Oberfläche verborgen sind.
-
-For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
