@@ -1,10 +1,13 @@
 ---
-keywords: IP-Adresse; IP-Adressen; Whitelist; Firewall; Recs; Feed; Server; Adobe Experience Cloud; Empfehlungen
+keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
 description: Mithilfe der Liste der von Servern, die den Recommendations-Feed verarbeiten, verwendeten IP-Adressen, die sich im Data Center in Oregon befinden, können Sie Ihre Firewall so konfigurieren, dass die entsprechenden IP-Adressen der Adobe-Server zugelassen werden.
 title: Von Recommendations-Feed verarbeitenden Servern verwendete IP-Adressen
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 87%
 
 ---
 
