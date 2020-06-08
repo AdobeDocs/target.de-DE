@@ -1,11 +1,11 @@
 ---
-keywords: implement;implementing;whitelist;white list;edge;edges
-description: Whitelist Adobe Zielgruppe Edge Nodes
-title: Whitelist Adobe Zielgruppe Edge Nodes
+keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
+description: Zulässige Adobe Zielgruppe Edge-Knoten
+title: Zulässige Adobe Zielgruppe Edge-Knoten
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 ---
 
 
-# Randknoten der Whitelist-Zielgruppe
+# Kantenknoten für zulässige Zielgruppen
 
-Informationen und eine aktuelle Liste von Hosts, die Sie bei der Whitelist von Adobe- [!DNL Target] Kanten unterstützen.
+Informationen und eine aktuelle Liste von Hosts, mit deren Hilfe Sie Adobe- [!DNL Target] Kanten leichter auflisten können.
 
 Eine Kante ist eine geografisch verteilte Serving-Architektur, die Endbenutzern, die Inhalte anfordern, optimale Reaktionszeiten gewährleistet, unabhängig davon, wo sie sich auf der ganzen Welt befinden. Jeder Edge-Knoten verfügt über alle erforderlichen Informationen, um auf die Inhaltsanforderung des Benutzers zu reagieren und Analysedaten zu dieser Anforderung zu verfolgen. Benutzeranforderungen werden an den nächsten Edge-Knoten weitergeleitet. Weitere Informationen finden Sie unter [Das Edge-Netzwerk](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Funktionsweise[!DNL Target]* von Adobe.
 
-Sie können bei Bedarf [!DNL Target] Edge-Knoten in der Whitelist anzeigen.
+Sie können [!DNL Target] Kantenknoten bei Bedarf zulassen.
 
 Die folgende Liste umfasst die aktuellen Hosts:
 
