@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 73%
@@ -60,11 +60,11 @@ Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen
 
       >[!IMPORTANT]
       >
-      >Beachten Sie, dass Sie mit der Weiterleitung dem Risiko einer Open-Redirect-Verwundbarkeit ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;zur Whitelist der Standard-URL-Domänen für Umleitungen. Zielgruppe verwendet Hosts zu Whitelist-Domänen, zu denen Sie Umleitungen zulassen möchten. Weitere Informationen finden Sie unter Whitelists [erstellen, die Hosts angeben, die zum Senden von Mbox-Aufrufen an die Zielgruppe](/help/administrating-target/hosts.md#whitelist) in *Hosts* berechtigt sind.
+      >Beachten Sie, dass Sie mit der Weiterleitung dem Risiko einer Open-Redirect-Verwundbarkeit ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;, um die standardmäßigen Umleitungs-URL-Domänen zuzulassen. Zielgruppe verwendet Hosts, um Domänen, zu denen Sie Umleitungen zulassen möchten, zuzulassen. Weitere Informationen finden Sie unter Zulässige Listen [erstellen, die Hosts angeben, die zum Senden von Mbox-Aufrufen an die Zielgruppe](/help/administrating-target/hosts.md#whitelist) in *Hosts* berechtigt sind.
 
 
 1. Validieren Sie die Weiterleitung.
-   1. *Best Practice* im Bereich Sicherheit: Stellen Sie sicher, dass die in der Weiterleitung verwendete Domäne wie oben angegeben in der Positivliste eingetragen ist. Wenn Sie eine Domäne verwenden, die nicht auf die Positivliste gesetzt ist, blockiert Adobe alle Aufrufe dieser Domäne, um zu verhindern, dass böswillige Akteure die Weiterleitung verwenden, um zu potenziell böswilligen Domänen umzuleiten.
+   1. *Best Practice* im Bereich Sicherheit: Stellen Sie sicher, dass die in der Weiterleitung verwendete Domäne wie oben angegeben zulässig ist. Wenn Sie eine Domäne verwenden, die nicht aufgelistet ist, blockiert Adobe alle Aufrufe dieser Domäne, um zu verhindern, dass böswillige Akteure die Weiterleitung verwenden, um zu potenziell böswilligen Domänen umzuleiten.
    1. Fügen Sie die Weiterleitungs-URL in eine Browserzeile ein, und aktualisieren Sie den Browser.
    1. Melden Sie sich bei Ihrem Konto an, aktualisieren Sie Ihre Mbox-Liste, und überprüfen Sie, ob die neue Weiterleitung als Mbox aufgelistet wird.
 1. Um verschiedene Ziele für eine Anzeige zu testen, erstellen Sie [Weiterleitungsangebote](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) für jede Version.
