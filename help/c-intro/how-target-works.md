@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2346'
+ht-degree: 94%
 
 ---
 
@@ -107,7 +110,7 @@ Anstatt auf alle Targeting-Anfragen an einem einzigen Standort zu antworten, wer
 >
 >[!DNL Adobe Target] verfügt derzeit über kein Edge-Netzwerk in China, weshalb die Endnutzerleistung für [!DNL Target] für Kunden in China weiterhin eingeschränkt ist. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-Sie können bei Bedarf die Randnotizen der weißen Zielgruppe anzeigen. Weitere Informationen finden Sie unter [Whitelist Zielgruppe Edge-Knoten](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md).
+Sie können bei Bedarf Zielgruppen-Randnotizen zulassen. Weitere Informationen finden Sie unter [Zulässige Zielgruppe Kantenknoten](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md).
 
 ## Protected User Experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
