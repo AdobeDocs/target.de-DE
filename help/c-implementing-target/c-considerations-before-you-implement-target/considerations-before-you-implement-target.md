@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 96%
 
 ---
 
@@ -28,4 +31,4 @@ Dieser Abschnitt enthält Informationen, die Entwickler für ihre Implementierun
 - [Unterstützte Browser](supported-browsers.md)
 - [Änderungen der TLS-Verschlüsselung (Transport Layer Security)](tls-transport-layer-security-encryption.md)
 - [CNAME und Adobe Target](implement-cname-support-in-target.md)
-- [Randknoten der Whitelist-Zielgruppe](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
+- [Kantenknoten für zulässige Zielgruppen](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
