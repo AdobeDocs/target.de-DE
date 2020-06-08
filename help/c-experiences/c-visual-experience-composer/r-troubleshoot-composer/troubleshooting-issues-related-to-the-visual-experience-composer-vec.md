@@ -84,7 +84,6 @@ Bei der Firefox-Erweiterung „Modify Response Headers“ müssen Sie wie folgt 
          >Bei via Requestly bearbeiteten Headern wird zwischen Groß- und Kleinschreibung unterschieden.
 
       * Ändern Sie **[!UICONTROL Entspricht]** zu **[!UICONTROL Enthält]** als Bedingung für die Quell-URL und geben Sie die URL der Aktivität ein, die Sie in VEC laden möchten.
-
       ![](assets/chrome_extension.png)
 
 
