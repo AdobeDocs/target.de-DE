@@ -1,10 +1,13 @@
 ---
-keywords: Targeting;Visual Experience Composer;Whitelist;White List;VEC;Fehlerbehebung Visual Experience Composer;Fehlerbehebung;TLS;TLS 1.2
+keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
 description: Unter bestimmten Umständen treten im Visual Experience Composer (VEC) manchmal Anzeigeprobleme auf.
 title: Beheben von Problemen mit Visual Experience Composer
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Die Seitenleistung in einer der Versionen von Experience Composer in Target kann
 
 Falls Probleme in Enhanced Experience Composer auftreten, versuchen Sie zunächst, Enhanced Experience Composer zu deaktivieren und stattdessen Visual Experience Composer zu verwenden.
 
-Deaktivieren Sie Enhanced Experience Composer, indem Sie zu **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Voreinstellungen]** navigieren und die Option **[!UICONTROL Enhanced Experience Composer aktivieren]** deaktivieren.
+Deaktivieren Sie Enhanced Experience Composer, indem Sie zu **[!UICONTROL Einrichten]** > **[!UICONTROL Einstellungen]** navigieren und die Option **[!UICONTROL Enhanced Experience Composer aktivieren]** deaktivieren.
 
 Bei einigen Benutzern wird in der Konsole die folgende Fehlermeldung angezeigt:
 
@@ -81,6 +84,7 @@ Bei der Firefox-Erweiterung „Modify Response Headers“ müssen Sie wie folgt 
          >Bei via Requestly bearbeiteten Headern wird zwischen Groß- und Kleinschreibung unterschieden.
 
       * Ändern Sie **[!UICONTROL Entspricht]** zu **[!UICONTROL Enthält]** als Bedingung für die Quell-URL und geben Sie die URL der Aktivität ein, die Sie in VEC laden möchten.
+
       ![](assets/chrome_extension.png)
 
 
@@ -116,7 +120,7 @@ Bei der Firefox-Erweiterung „Modify Response Headers“ müssen Sie wie folgt 
 
 ## Beim Aufrufen einer URL für eine VEC-Aktivität zeigt die Konsole die folgende Fehlermeldung an: „Uncaught ReferenceError:_AT is not defined“. (nur VEC) {#section_BB5B9B629AC4452496A82943EFF72B85}
 
-Dieser Fehler tritt auf, wenn Sie versuchen Visual Experience Composer-(VEC-)Kampagnen bereitzustellen und die über die Target-Benutzeroberfläche heruntergeladene mbox.js nicht mit der aktivierten Option [!UICONTROL Visual Experience Composer-Aktivitäten unterstützen] aktualisiert haben ([!UICONTROL Einrichtung] &gt; [!UICONTROL Implementierung] &gt; [!UICONTROL mbox.js] &gt; [!UICONTROL mbox.js-Einstellungen bearbeiten]).
+Dieser Fehler tritt auf, wenn Sie versuchen Visual Experience Composer-(VEC-)Kampagnen bereitzustellen und die über die Target-Benutzeroberfläche heruntergeladene mbox.js nicht mit der aktivierten Option [!UICONTROL Visual Experience Composer-Aktivitäten unterstützen] aktualisiert haben ([!UICONTROL Einrichtung] > [!UICONTROL Implementierung] > [!UICONTROL mbox.js] > [!UICONTROL mbox.js-Einstellungen bearbeiten]).
 
 Stellen Sie sicher, dass diese Einstellung aktiviert ist, laden Sie dann mbox.js erneut herunter und aktualisieren Sie damit Ihre Website.
 
