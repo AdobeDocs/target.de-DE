@@ -1,11 +1,14 @@
 ---
-keywords: Visual Experience Composer;Best Practices für Visual Experience Composer;Einschränkungen von Visual Experience Composer;Nachteile von Visual Experience Composer;Best Practices für VEC;VEC
+keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: Durch Befolgung dieser Best Practices können Sie dafür sorgen, dass Ihre Erlebnisse erwartungsgemäß funktionieren. Sie finden auch weitere Tipps und Einschränkungen für die Verwendung von Visual Experience Composer (VEC).
 title: Best Practices und Einschränkungen von Visual Experience Composer
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2446'
+ht-degree: 98%
 
 ---
 
@@ -28,13 +31,13 @@ Positionieren Sie „mbox.js“ am Ende des `<head>`-Abschnitts ohne weitere Dek
 
 **Der Enhanced Experience Composer kann auf Kontoebene (aktiviert für alle Aktivitäten, die mit diesem Konto erstellt werden) oder individuell für einzelne Aktivitäten aktiviert werden.**
 
-Möchten Sie den Enhanced Experience Composer auf Kontoebene aktivieren, klicken Sie auf [!UICONTROL Einrichtung &gt; Voreinstellungen] und stellen Sie den Regler auf die Position „Ein“.
+Möchten Sie den Enhanced Experience Composer auf Kontoebene aktivieren, klicken Sie auf [!UICONTROL Einrichtung > Voreinstellungen] und stellen Sie den Regler auf die Position „Ein“.
 
-Möchten Sie den Enhanced Experience Composer für einzelne Aktivitäten aktivieren, wenn Sie eine Aktivität im Visual Experience Composer erstellen, klicken Sie auf [!UICONTROL Konfigurieren &gt; URL] und stellen Sie den Regler auf die Position „Ein“.
+Möchten Sie den Enhanced Experience Composer für einzelne Aktivitäten aktivieren, wenn Sie eine Aktivität im Visual Experience Composer erstellen, klicken Sie auf [!UICONTROL Konfigurieren > URL] und stellen Sie den Regler auf die Position „Ein“.
 
-**Sie können bestimmte IP-Adressen in die Whitelist eintragen, falls der Enhanced Visual Experience Composer auf sicheren Seiten Ihrer Site nicht geladen wird.**
+**Sie können bestimmte IP-Adressen zulassen, wenn der Enhanced Visual Experience Composer nicht auf sicheren Seiten Ihrer Site geladen wird.**
 
-Probleme, die beim Laden des Enhanced Visual Experience Composer auftreten, können Sie durch Whitelisting der folgenden IP-Adressen beheben. Diese IP-Adressen stehen für den Server von Adobe zur Verfügung, der für den Proxy des Enhanced Experience Composer verwendet wird. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Besucher Ihrer Seite müssen diese IP-Adressen nicht auf ihre „Weiße Liste“ stellen.
+Probleme beim Laden des Enhanced Visual Experience Composer können durch Zulassen der folgenden IP-Adressen gelöst werden. Diese IP-Adressen stehen für den Server von Adobe zur Verfügung, der für den Proxy des Enhanced Experience Composer verwendet wird. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Besucher Ihrer Site benötigen diese zulässigen IP-Adressen nicht.
 
 Vereinigte Staaten: 52.55.99.45, 54.80.158.92 und 54.204.197.253
 
