@@ -5,9 +5,9 @@ title: Häufig gestellte Fragen zur Adobe-Zielgruppe für mobile Apps
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Nein, Sie benötigen at.js nicht, um die mobilen SDKs zu verwenden. at.js ist di
 
 ## Ist Zielgruppe Mobile nur eine Funktion der Adobe Zielgruppe Premium-Produkt-SKU?
 
-Für Kunden von Adobe Zielgruppe Standard können Sie unsere Mobile SDKs nur für Aktivitäten von A/B-Tests und Erlebnis-Targeting (XT) verwenden. Wenn Sie Recommendations oder AI-basierte Funktionen in der mobilen App verwenden möchten, benötigen Sie eine [Adobe Zielgruppe Premium](/help/c-intro/intro.md#premium) -Lizenz.
+Nein. Für [!DNL Adobe Target Standard] Kunden können Sie unsere Mobile SDKs nur mit dem [!DNL Target Standard] Mobile App Add-on für A/B-Test- und Erlebnis-Targeting (XT)-Aktivitäten verwenden. Wenn Sie Recommendations oder AI-basierte Funktionen in der mobilen App verwenden möchten, benötigen Sie eine [Adobe Zielgruppe Premium](/help/c-intro/intro.md#premium) -Lizenz.
 
 ## Gibt es eine mobile App-Integration zwischen Adobe Experience Manager (AEM) und mobilen Zielgruppe-Aktivitäten?
 
