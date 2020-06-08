@@ -5,10 +5,10 @@ title: Aktivitäts-QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -83,7 +83,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
    Sie sollten mit Ihrem IT-Team Rücksprache halten, um sicherzustellen, dass alle Vorschauparameter auf die Positivliste gesetzt werden, damit diese Werte nicht umgewandelt werden.
 
-   In der folgenden Tabelle finden Sie die Parameter, die in Ihrer Domain zur Whitelist hinzugefügt werden können:
+   In der folgenden Tabelle werden die Parameter Liste, die in Ihrer Domäne zulässig sind:
 
    | Parameter | Typ | Wert | Beschreibung |
    |--- |--- |--- |--- |
