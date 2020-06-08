@@ -5,7 +5,7 @@ title: Versionshinweise für vorherige Versionen
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '29262'
 ht-degree: 92%
@@ -281,6 +281,7 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
    * Nicht leere Ordner in der Bildangebotsbibliothek können gelöscht werden. Wenn auf keines der Bilder im Ordner in irgendeiner Aktivität verwiesen wird, werden der gesamte Ordner und dessen Inhalte gelöscht. Wenn in einer Aktivität auf einige Bilder im Ordner verwiesen wird, werden alle nicht referenzierten Bilder gelöscht. Referenzierte Bilder und Ordner, die diese Bilder enthalten, bleiben erhalten.
    * Das Rendering von Bildangeboten in der Bild-Asset-Auswahl erfolgt schneller und effizienter.
+
    Weitere Informationen finden Sie unter [Arbeiten mit Inhalten in der Bibliothek](/help/c-experiences/c-manage-content/assets-working.md). (TGT-32897)
 
 * Wir haben die Darstellung von Bildangeboten im Asset Picker verbessert. Das Anzeigen und Auswählen von Bildangeboten ist jetzt schneller und effizienter. (TGT-32897)
@@ -462,6 +463,7 @@ Diese Version von [!DNL Target] enthält folgende Verbesserungen, Fehlerbehebung
 
    * Wenn eine Zielgruppe in AAM gelöscht wurde, wird sowohl in der Liste [!UICONTROL „Zielgruppe“] als auch in der Zielgruppenauswahl ein Warnsymbol angezeigt. Darüber hinaus gibt eine QuickInfo an, dass die Zielgruppe in AAM gelöscht wurde.
    * Wenn Sie versuchen, mehrere Zielgruppen mit einer gelöschten Zielgruppe zu kombinieren oder eine Aktivität zu speichern, die auf eine gelöschte Zielgruppe verweist, wird eine Warnmeldung angezeigt.
+
    Siehe [Info über Zielgruppen](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html).
 
 * Es wurde ein Problem behoben, bei dem Benutzer in bestimmten Situationen keine Aktivität erstellen konnten, wenn Adobe Analytics auf der Seite [!UICONTROL „Setup“] als Berichtsquelle ausgewählt war. Benutzern wurde die Meldung „Bitte wählen Sie eine Berichtsquelle aus“ angezeigt, jedoch ohne die Option, eine Report Suite auszuwählen. (TGT-31968)
@@ -914,7 +916,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>Benutzerdefinierte Kriterien können nun analog zu anderen Kriterien in Empfehlungen konfiguriert werden. </p> </li> 
       <li id="li_AC201F0917BF465C985E8947635F762E"> <p>Sie können Sammlungen, Ausschlüsse und Einschlüsse (einschließlich der speziellen Regeln für „Preis“ und „Bestand“) auf dieselbe Weise wie andere Kriterien verwenden. Sammlungen und Ausschlüsse wurden bereits unterstützt. Diese Version beinhaltet nun auch Einschlüsse. </p> </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie unter  <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Kriterien </a>. </p> <p>(TGT-28488) </p> </td> 
+     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Kriterien </a>. </p> <p>(TGT-28488) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations, Einschlussregeln, Sammlungen und Ausschlüsse für kürzlich angesehene Kriterien </p> </td> 
@@ -922,11 +924,11 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>Kürzlich angesehene Kriterien können nun analog zu anderen Kriterien in Empfehlungen konfiguriert werden. </p> </li> 
       <li id="li_85452C03F0924D4C8D854509F1293021"> <p>Sie können Sammlungen, Ausschlüsse und Einschlüsse (einschließlich der speziellen Regeln für „Preis“ und „Bestand“) auf dieselbe Weise wie andere Kriterien verwenden. Sammlungen und Ausschlüsse wurden bereits unterstützt. Diese Version beinhaltet nun auch Einschlüsse. </p> </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie unter  <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Kriterien </a>. </p> <p>(TGT-22843) </p> </td> 
+     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Kriterien </a>. </p> <p>(TGT-22843) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target-Erweiterung für Adobe Launch </p> </td> 
-   <td colname="col2"> <p>Launch ist die nächste Generation der Tag-Management-Funktionen von Adobe. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind. </p> <p>Mit der Target-Erweiterung können Sie Target schnell und problemlos in Ihrer Umgebung implementieren. </p> <p>Weitere Informationen finden Sie unter  <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25" format="dita" scope="local"> Implementieren von Target mit Adobe Launch </a>. </p> </td> 
+   <td colname="col2"> <p>Launch ist die nächste Generation der Tag-Management-Funktionen von Adobe. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind. </p> <p>Mit der Target-Erweiterung können Sie Target schnell und problemlos in Ihrer Umgebung implementieren. </p> <p>Weitere Informationen finden Sie unter <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25" format="dita" scope="local"> Implementieren von Target mit Adobe Launch </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1203,7 +1205,7 @@ Diese Version beinhaltet die folgenden Funktionen und Erweiterungen (die Problem
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Mobile Erlebnisvorschau </p> </td> 
-   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Von nun an können Sie auf der Benutzeroberfläche mehrere mobile App-Aktivitäten auswählen und auf Ihrem Gerät eine Vorschau dafür anzeigen. Mithilfe dieser Funktion können Sie sich für die Vorschau und Qualitätssicherung mehrerer Erlebnisse registrieren, ohne sich auf spezielle Testversionen und Simulationen verlassen zu müssen. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie unter  <a href="../c-target-mobile-app/target-mobile-preview.md#concept_5FBF12C2FDFC42429FE4F5CFBD78E19D" format="dita" scope="local">Target Mobile-Vorschau</a>. </p> </td> 
+   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Von nun an können Sie auf der Benutzeroberfläche mehrere mobile App-Aktivitäten auswählen und auf Ihrem Gerät eine Vorschau dafür anzeigen. Mithilfe dieser Funktion können Sie sich für die Vorschau und Qualitätssicherung mehrerer Erlebnisse registrieren, ohne sich auf spezielle Testversionen und Simulationen verlassen zu müssen. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie unter     <a href="../c-target-mobile-app/target-mobile-preview.md#concept_5FBF12C2FDFC42429FE4F5CFBD78E19D" format="dita" scope="local">Target Mobile-Vorschau</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile Batch- und Vorabrufbereitstellung </p> </td> 
@@ -1554,7 +1556,7 @@ Diese Version von [!DNL Target] umfasst die folgenden Verbesserungen und Fehlerb
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Targeting (XT)-Aktivitäten </p> </td> 
-   <td colname="col2"> <p>Mithilfe der Drag-and-drop-Funktionalität können Sie beim Erstellen oder Bearbeiten von XT-Aktivitäten Zielgruppen und Erlebnisse in der gewünschten Reihenfolge anordnen. Die Besucher werden der Reihe nach von oben nach unten für Erlebnisse bewertet. </p> <p> <img src="assets/move_exp.jpg" id="image_0AA2EE2B5B00462C8E125A30F145E654" /> </p> <p>Weitere Informationen finden Sie unter  <a href="../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Erlebnis erstellen </a>. </p> </td> 
+   <td colname="col2"> <p>Mithilfe der Drag-and-drop-Funktionalität können Sie beim Erstellen oder Bearbeiten von XT-Aktivitäten Zielgruppen und Erlebnisse in der gewünschten Reihenfolge anordnen. Die Besucher werden der Reihe nach von oben nach unten für Erlebnisse bewertet. </p> <p> <img src="assets/move_exp.jpg" id="image_0AA2EE2B5B00462C8E125A30F145E654" /> </p> <p>Weitere Informationen finden Sie unter <a href="../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Erlebnis erstellen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Berichterstellung: A/B, XT und Recommendations </p> </td> 
@@ -1815,7 +1817,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enhanced Visual Experience Composer (VEC) </p> </td> 
-   <td colname="col2"> <p>IP-Adressen für den Enhanced Visual Experience Composer (VEC) wurden aktualisiert. </p> <p>Möchten Sie für den VEC verwendete IP-Adressen als sicher kennzeichnen, fügen Sie diese Adressen der Whitelist hinzu. </p> <p>Weitere Informationen finden Sie unter <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">Fehlerbehebung beim Visual Experience Composer </a>. </p> </td> 
+   <td colname="col2"> <p>IP-Adressen für den Enhanced Visual Experience Composer (VEC) wurden aktualisiert. </p> <p>Wenn Sie IP-Adressen zulassen, die für den VEC verwendet werden, fügen Sie die neuen IP-Adressen hinzu. </p> <p>Weitere Informationen finden Sie unter <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">Fehlerbehebung beim Visual Experience Composer </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2187,6 +2189,7 @@ Die folgenden Probleme sind bekannt:
    1. Ändern Sie die URL in die Test-URL und speichern Sie die Einstellung.
    1. Ändern Sie die Test-URL erneut in die erwartete Umleitungs-URL der Kampagne.
    1. Aktivieren Sie das Kontrollkästchen „Aktuelle Abfrageparameter einbeziehen“ und speichern Sie.
+
    Wird die Option aktiviert, während Sie ein neues Umleitungsangebot erstellen, werden die Abfrageparameter höchstwahrscheinlich in die Umleitung integriert.
 
    Ist diese Option bei älteren Aktivitäten im Experience Composer aktiviert, enthält die Umleitung die Abfrageparameter. Ist sie nicht aktiviert, werden aktuelle Abfrageparameter nicht in die Umleitung aufgenommen.
