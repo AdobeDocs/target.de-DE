@@ -1,11 +1,14 @@
 ---
-keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Weiterleitung; Weiterleitungsangebot; adobe-mc-sdid; adobe_mc_ref
+keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: Dieses Thema enthält Antworten auf häufig zum Einsatz von Umleitungsangeboten bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 title: Umleitungsangebote – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 96%
 
 ---
 
@@ -73,7 +76,7 @@ Diese Parameter werden automatisch zu den Umleitungs-URLs hinzugefügt, wenn die
 
 ## Meine Webserver entfernen diese Parameter aus meinen URLs, was soll ich tun?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-Sie müssen diese Parameter (`adobe_mc_sdid` und `adobe_mc_ref`) mit Ihrem IT-Team zusammen gesondert zulassen.
+You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
 
 ## Was ist, wenn ich A4T nicht für meine Umleitungsaktivitäten verwende und nicht möchte, dass diese zusätzlichen Parameter zu meinen URLs hinzugefügt werden? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -87,7 +90,7 @@ Wenn Sie A4T und Weiterleitungsangebote verwenden, hängt Target die Parameter `
 
 Aufgrund dieser doppelten Kodierung kann die Besucher-API den SDID-Wert nicht abrufen, wenn sie versucht, den Wert `adobe_mc_sdid` zu entschlüsseln, und sie erstellt dann eine neue SDID. Dies führt dazu, dass falsche SDID-Werte an Target und Analytics gesendet werden und Ihnen in Analytics-Berichten eine ungleiche Verteilung für Umleitungen angezeigt wird.
 
-Wir empfehlen Ihnen, sich mit Ihrem IT-Team in Verbindung zu setzen, um sicherzustellen, dass `adobe_mc_ref` und `adobe_mc_sdid` gesondert zugelassen werden, damit diese Werte nicht umgewandelt werden.
+We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
 
 ## Warum muss die verweisende URL an die neue Seite weitergegeben werden? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
