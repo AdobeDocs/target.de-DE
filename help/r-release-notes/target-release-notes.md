@@ -5,7 +5,7 @@ title: Versionshinweise zu Adobe Zielgruppe
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 68d49d4cdfd76fdea9c1e004adfaf7e6044d22bb
+source-git-commit: 2a8fde3f9011138e4df15d45cdc97595d5ded52e
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 21%
@@ -32,7 +32,7 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
    Indem wir alle Kunden zu at.js verschieben, können unsere Ingenieure und Support-Mitarbeiter Ihnen neue Funktionen und Angebote anbieten, die Sie von Adobe erwarten.
    >
    >
-* **Mitteilungen** zur Zielgruppe: Auf der Seite mit den Ankündigungen zur Zielgruppe finden Sie Informationen zu den kommenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinars und Zielgruppe Coffee Break-Sitzungen. Weitere Informationen finden Sie unter [Ankündigungen](/help/r-release-notes/target-announcements.md)der Zielgruppe.
+* **Mitteilungen** zur Zielgruppe: Auf der Seite &quot;Ankündigungen&quot;der Zielgruppe finden Sie Informationen zu den bevorstehenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinars und Zielgruppe Coffee Break-Sitzungen. Weitere Informationen finden Sie unter [Ankündigungen](/help/r-release-notes/target-announcements.md)der Zielgruppe.
 
 
 ## Target Standard/Premium 20.5.1 (17. Juni 2020) 
@@ -40,7 +40,7 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 | Funktion  / Verbesserung | Beschreibung |
 | --- | --- |
 | Analytics for Target (A4T) Unterstützung für Aktivitäten mit automatisierter Zuordnung | Ab der Juni-Version unterstützen Tests mit automatisierter Zuordnung [Analytics für die Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t.md). Mit dieser Integration können Sie die Multi-Armed Bandit-Funktion der automatischen Zuordnung verwenden, um Traffic zu erfolgreichsten Erlebnissen zu steigern, während Sie eine Adobe Analytics-Zielmetrik und/oder Adobe Analytics-Berichte- und -Analysen-Funktionen verwenden. Wenn Sie bereits A4T [für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) implementiert haben, sind Sie alle bereit! |
-| Herausgeberrolle | Diese neue Rolle ähnelt der aktuellen Beobachterrolle (Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung für aktive Aktivitäten. |
+| Herausgeberrolle | Diese neue Rolle ähnelt der aktuellen Beobachterrolle (Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
 | Administrationsseite<br>zuvor &quot;Setup&quot;. | Die Seite &quot;Einstellungen&quot;wurde in &quot;Administration&quot;umbenannt und die Benutzeroberfläche für alle Menüelemente wurde aktualisiert, um den Arbeitsablauf und die Benutzerfreundlichkeit zu verbessern.<br>Zu den verfügbaren Menüpunkten gehören:<ul><li>Visual Experience Composer</li><li>Berichterstellung</li><li>Scene7-Einstellungen</li><li>Implementierung</li><li>Properties</li><li>Hosts</li><li>Umgebung</li><li>Antwort-Token</li><li>Benutzer</li></ul> |
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
