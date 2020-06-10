@@ -5,10 +5,10 @@ user-guide-title: Adobe Target-Hilfe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1408'
+ht-degree: 93%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 0%
          + [SameSite-Cookie-Richtlinien von Google Chrome](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Richtlinien zur Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Kantenknoten für zulässige Zielgruppen](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
+         + [Kantenknoten für zulässige Zielgruppen](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Verfahren für die Datenübernahme in Target {#methods}
          + [Methoden](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profil-API-Einstellungen](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -326,7 +326,7 @@ ht-degree: 0%
       + [Arbeiten mit Inhalt in der Bibliothek](c-experiences/c-manage-content/assets-working.md)
       + [Durchsuchen von Inhalten und Erstellen intelligenter Sammlungen](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Übergeben dynamischer Daten in Angebote](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [AEM-Erlebnisfragmente](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEM-Experience Fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Berichte{#reports}
    + [Berichte – Überblick](c-reports/reports.md)
    + Berichtseinstellungen {#settings}
