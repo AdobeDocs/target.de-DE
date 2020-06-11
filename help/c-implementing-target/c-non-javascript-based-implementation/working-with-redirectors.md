@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '683'
+ht-degree: 73%
 
 ---
 
@@ -60,7 +60,7 @@ Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen
 
       >[!IMPORTANT]
       >
-      >Beachten Sie, dass Sie mit der Weiterleitung dem Risiko einer Open-Redirect-Verwundbarkeit ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;, um die standardmäßigen Umleitungs-URL-Domänen zuzulassen. Zielgruppe verwendet Hosts, um Domänen, zu denen Sie Umleitungen zulassen möchten, zuzulassen. Weitere Informationen finden Sie unter Zulässige Listen [erstellen, die Hosts angeben, die zum Senden von Mbox-Aufrufen an die Zielgruppe](/help/administrating-target/hosts.md#whitelist) in *Hosts* berechtigt sind.
+      >Beachten Sie, dass Sie mit der Weiterleitung dem Risiko einer Open-Redirect-Verwundbarkeit ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;, um die standardmäßigen Umleitungs-URL-Domänen zuzulassen. Zielgruppe verwendet Hosts, um Domänen, zu denen Sie Umleitungen zulassen möchten, zuzulassen. Weitere Informationen finden Sie unter Zulässige Listen [erstellen, die Hosts angeben, die zum Senden von Mbox-Aufrufen an die Zielgruppe](/help/administrating-target/hosts.md#allowlist) in *Hosts* berechtigt sind.
 
 
 1. Validieren Sie die Weiterleitung.
