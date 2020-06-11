@@ -1,14 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Informationen zur Funktion targetGlobalSettings() für die Adobe Target-JavaScript-Bibliothek at.js.
 title: Informationen zur Funktion targetGlobalSettings() für die Adobe Target-JavaScript-Bibliothek at.js.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 63%
+source-wordcount: '1638'
+ht-degree: 41%
 
 ---
 
@@ -23,32 +23,165 @@ In einigen Fällen, besonders bei der Bereitstellung von at.js über [!DNL Dynam
 
 Folgende Einstellungen können überschrieben werden:
 
-| Einstellungen | Typ | Standardwert | Beschreibung |
-|--- |--- |--- |--- |
-| serverState | Siehe &quot;Hybrid-Personalisierung&quot;weiter unten. | Siehe &quot;Hybrid-Personalisierung&quot;weiter unten. | Siehe &quot;Hybrid-Personalisierung&quot;weiter unten. |
-| clientCode | Zeichenfolge | In der Oberfläche festgelegter Wert | Steht für den Kunden-Code |
-| serverDomain | Zeichenfolge | In der Oberfläche festgelegter Wert | Steht für den Target-Edge-Server |
-| cookieDomain | Zeichenfolge | Möglichst auf Domäne auf oberster Ebene festlegen | Steht für die Domäne, die beim Speichern von Cookies verwendet wird |
-| crossDomain | Zeichenfolge | In der Oberfläche festgelegter Wert | Gibt an, ob domänenübergreifende Verfolgung aktiviert ist oder nicht<br>Zulässige Werte sind:<ul><li>disabled</li><li>aktiviert</li><li>nur x</li></ul> |
-| Zeitüberschreitung | Nummer | In der Oberfläche festgelegter Wert | Steht für Abfrage-Zeitüberschreitung des Target-Edges |
-| globalMboxAutoCreate | Boolesch | In der Oberfläche festgelegter Wert | Gibt an, ob die globale Mbox-Anfrage gestellt werden soll oder nicht |
-| visitorApiTimeout | Nummer | 2.000 ms = 2 s | Steht für die Anfrage-Zeitüberschreitung der Besucher-API |
-| aktiviert | Boolesch | wahr | Wenn diese Option aktiviert ist, wird automatisch eine Zielgruppe zum Abrufen von Erlebnissen und zur DOM-Manipulation zum Rendern der Erlebnisse ausgeführt. Darüber hinaus können Zielgruppen-Aufrufe manuell über `getOffer(s)` / `applyOffer(s)`<br>Bei Deaktivierung werden Zielgruppen nicht automatisch oder manuell ausgeführt |
-| pageLoadEnabled | Boolesch | wahr | Bei Aktivierung werden Erlebnisse automatisch abgerufen, die beim Laden der Seite zurückgegeben werden müssen |
-| viewsEnabled | Boolesch | wahr | Wenn diese Option aktiviert ist, werden automatisch Ansichten abgerufen, die beim Laden der Seite zurückgegeben werden müssen. Ansichten werden in at.js 2 unterstützt.*x*, zur Verfügung |
-| defaultContentHiddenStyle | Zeichenfolge | visibility: hidden | Wird nur für das Umbrechen von Mboxes verwendet, bei denen DIV mit dem Klassennamen „mboxDefault“ eingesetzt wird und die über `mboxUpdate()`, `mboxCreate()` oder `mboxDefine()` ausgeführt werden, um Standardinhalte auszublenden. |
-| defaultContentVisibleStyle | Zeichenfolge | visibility: visible | Wird nur für das Umbrechen von Mboxes verwendet, bei denen DIV mit dem Klassennamen „mboxDefault“ eingesetzt wird und die über `mboxUpdate()`, `mboxCreate()` oder `mboxDefine()` ausgeführt werden, um Standardinhalte oder angewendete Angebote einzublenden. |
-| bodyHiddenStyle | Zeichenfolge | body { opacity: 0 } | Wird nur verwendet, wenn `globalMboxAutocreate === true`, um die Wahrscheinlichkeit eines Flackerns zu minimieren.<br>Weitere Informationen finden Sie unter [Verwaltung von Flackern mit „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
-| bodyHidingEnabled | Boolesch | wahr | Wird zur Verminderung eines Flackerns eingesetzt, wenn `target-global-mbox` verwendet wird, um in Visual Experience Composer erstellte Angebote, auch „visuelle Angebote“ genannt, bereitzustellen. |
-| imsOrgId | Zeichenfolge | IMS-ORG-ID | Steht für die IMS-ORG-ID |
-| secureOnly | Boolesch | false | Zeigt an, ob at.js nur HTTPS verwenden sollte oder es ermöglicht wird, dass basierend auf dem Seitenprotokoll zwischen HTTP und HTTPS umgeschaltet wird. |
-| overrideMboxEdgeServer | Boolesch | true (true ab at.js, Version 1.6.2) | Zeigt an, ob die Domäne `<clientCode>.tt.omtrdc.net` oder die Domäne `mboxedge<clusterNumber>.tt.omtrdc.net` verwendet werden sollte.<br>Ist dieser Wert wahr, wird die Domäne `mboxedge<clusterNumber>.tt.omtrdc.net` in einem Cookie gespeichert.. Derzeit nicht mit [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
-| overrideMboxEdgeServerTimeout | Nummer | 1860000 => 31 Minuten | Zeigt die Gültigkeitsdauer des Cookies an, in dem der Wert `mboxedge<clusterNumber>.tt.omtrdc.net` gespeichert wurde. |
-| optoutEnabled | Boolesch | false | Zeigt an, ob Target die Besucher-API-Funktion `isOptedOut()` aufrufen sollte. Diese Funktion ist Teil der Aktivierung für Gerätediagramme. |
-| selectorsPollingTimeout | Nummer | 5000 ms = 5 s | In at.js 0.9.6 führte Target diese neue Einstellung ein, die über `targetGlobalSettings` außer Kraft gesetzt werden kann.<br>`selectorsPollingTimeout` gibt an, wie lange der Kunde bereit ist, darauf zu warten, dass sämtliche über Selektoren identifizierten Elemente auf der Seite angezeigt werden.<br>Über Visual Experience Composer (VEC) erstellte Aktivitäten haben Angebote, die Selektoren enthalten. |
-| dataProviders | Siehe „Datenanbieter“ unten. | Siehe „Datenanbieter“ unten. | Siehe „Datenanbieter“ unten. |
-| cspScriptNonce | Siehe &quot;Content Security Policy&quot; weiter unten. | Siehe &quot;Content Security Policy&quot; weiter unten. | Siehe &quot;Content Security Policy&quot; weiter unten. |
-| cspStyleNonce | Siehe &quot;Content Security Policy&quot; weiter unten. | Siehe &quot;Content Security Policy&quot; weiter unten. | Siehe &quot;Content Security Policy&quot; weiter unten. |
+### bodyHiddenStyle
+
+* **Typ**: String
+* **Standardwert**: body { opacity: 0 }
+* **Beschreibung**: Wird nur verwendet, wenn `globalMboxAutocreate === true` die Wahrscheinlichkeit des Flackerns minimiert wird.
+
+   Weitere Informationen finden Sie unter [Verwaltung von Flackern mit „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
+
+### bodyHidingEnabled
+
+* **Typ**: Boolesch
+* **Standardwert**: true
+* **Beschreibung**: Dient zum Steuern des Flackerns, wenn Angebot bereitgestellt `target-global-mbox` werden, die im Visual Experience Composer (auch als visuelle Angebot bezeichnet) erstellt wurden.
+
+### clientCode
+
+* **Typ**: String
+* **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
+* **Beschreibung**: Stellt den Clientcode dar.
+
+### cookieDomain
+
+* **Typ**: String
+* **Standardwert**: Falls möglich, auf die Domäne der obersten Ebene einstellen.
+* **Beschreibung**: Stellt die Domäne dar, die beim Speichern von Cookies verwendet wird.
+
+### crossDomain
+
+* **Typ**: String
+* **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
+* **Beschreibung**: Gibt an, ob die domänenübergreifende Verfolgung aktiviert ist. Folgende Werte sind zulässig: deaktiviert, aktiviert oder nur x-only.
+
+### cspScriptNonce
+
+* **Typ**: Siehe [Content Security Policy](#content-security) weiter unten.
+* **Standardwert**: Siehe [Content Security Policy](#content-security) weiter unten.
+* **Beschreibung**: Siehe [Content Security Policy](#content-security) weiter unten.
+
+### cspStyleNonce
+
+* **Typ**: Siehe [Content Security Policy](#content-security) weiter unten.
+* **Standardwert**: Siehe [Content Security Policy](#content-security) weiter unten.
+* **Beschreibung**: Siehe [Content Security Policy](#content-security) weiter unten.
+
+### dataProviders
+
+* **Typ**: Siehe [Datenanbieter](#data-providers) weiter unten.
+* **Standardwert**: Siehe [Datenanbieter](#data-providers) weiter unten.
+* **Beschreibung**: Siehe [Datenanbieter](#data-providers) weiter unten.
+
+### defaultContentHiddenStyle
+
+* **Typ**: String
+* **Standardwert**: Sichtbarkeit: ausgeblendet
+* **Beschreibung**: Wird nur zum Umbrechen von Mboxes verwendet, die DIV mit dem Klassennamen &quot;mboxDefault&quot;verwenden und über `mboxCreate()`, `mboxUpdate()`oder `mboxDefine()` zum Ausblenden von Standardinhalten ausgeführt werden.
+
+### defaultContentVisibleStyle
+
+* **Typ**: String
+* **Standardwert**: Sichtbarkeit: visible
+* **Beschreibung**: Wird nur zum Umbrechen von Mboxes verwendet, die DIV mit dem Klassennamen &quot;mboxDefault&quot;verwenden und über `mboxCreate()`, `mboxUpdate()`oder `mboxDefine()` zur Anzeige von angewendetem Angebot, sofern vorhanden oder Standardinhalt ausgeführt werden.
+
+### deviceIdLifetime
+
+* **Typ**: Nummer
+* **Standardwert**: 63244800000 ms = 2 Jahre
+* **Beschreibung**: Die Zeitdauer `deviceId` wird in Cookies beibehalten.
+
+### aktiviert
+
+* **Typ**: Boolesch
+* **Standardwert**: true
+* **Beschreibung**: Wenn diese Option aktiviert ist, wird automatisch eine [!DNL Target] Anforderung zum Abrufen von Erlebnissen und zur DOM-Manipulation zum Rendern der Erlebnisse ausgeführt. Darüber hinaus können [!DNL Target] Aufrufe manuell über `getOffer(s)` / `applyOffer(s)`.
+
+   Bei Deaktivierung werden [!DNL Target] Anforderungen nicht automatisch oder manuell ausgeführt.
+
+### globalMboxAutoCreate
+
+* **Typ**: Nummer
+* **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
+* **Beschreibung**: Gibt an, ob die globale Mbox-Anforderung ausgelöst werden soll.
+
+### imsOrgId
+
+* **Typ**: Sting
+* **Standardwert**: true
+* **Beschreibung**: Stellt die IMS-ORG-ID dar.
+
+### optoutEnabled
+
+* **Typ**: Boolesch
+* **Standardwert**: false
+* **Beschreibung**: Gibt an, ob Zielgruppe die Besucher-API- `isOptedOut()` Funktion aufrufen soll. Diese Funktion ist Teil der Aktivierung für Gerätediagramme.
+
+### overrideMboxEdgeServer
+
+* **Typ**: Boolesch
+* **Standardwert**: true (true), beginnend mit at.js Version 1.6.2)
+* **Beschreibung**: Gibt an, ob `<clientCode>.tt.omtrdc.net` Domäne oder `mboxedge<clusterNumber>.tt.omtrdc.net` Domäne verwendet werden soll.
+
+   If this value is true, `mboxedge<clusterNumber>.tt.omtrdc.net` domain will be saved to a cookie. Derzeit nicht mit [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+
+### overrideMboxEdgeServerTimeout
+
+* **Typ**: Nummer
+* **Standardwert**: 1860000 => 31 Minuten
+* **Beschreibung**: Gibt die Cookie-Lebensdauer an, die den `mboxedge<clusterNumber>.tt.omtrdc.net` Wert enthält.
+
+### pageLoadEnabled
+
+* **Typ**: Boolesch
+* **Standardwert**: true
+* **Beschreibung**: Wenn diese Option aktiviert ist, werden Erlebnisse automatisch abgerufen, die beim Laden der Seite zurückgegeben werden müssen.
+
+### secureOnly
+
+* **Typ**: Boolesch
+* **Standardwert**: false
+* **Beschreibung**: Gibt an, ob at.js nur HTTPS verwenden oder je nach Seitenprotokoll zwischen HTTP und HTTPS wechseln darf.
+
+### selectorsPollingTimeout
+
+* **Typ**: Nummer
+* **Standardwert**: 5000 ms = 5 s
+* **Beschreibung**: In at.js 0.9.6 wurde diese neue Einstellung [!DNL Target] eingeführt, die überschrieben werden kann `targetGlobalSettings`.
+
+   The `selectorsPollingTimeout` setting represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.
+
+   Über Visual Experience Composer (VEC) erstellte Aktivitäten haben Angebote, die Selektoren enthalten.
+
+### serverDomain
+
+* **Typ**: String
+* **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
+* **Beschreibung**: Stellt den Edge-Server der Zielgruppe dar.
+
+### serverState
+
+* **Typ**: Siehe [Hybrid-Personalisierung](#server-state) weiter unten.
+* **Standardwert**: Siehe [Hybrid-Personalisierung](#server-state) weiter unten.
+* **Beschreibung**: Siehe [Hybrid-Personalisierung](#server-state) weiter unten.
+
+### Zeitüberschreitung
+
+* **Typ**: Nummer
+* **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
+* **Beschreibung**: Stellt die Zeitüberschreitung der [!DNL Target] Edge-Anforderung dar.
+
+### viewsEnabled
+
+* **Typ**: Boolesch
+* **Standardwert**: true
+* **Beschreibung**: Wenn diese Option aktiviert ist, werden automatisch Ansichten abgerufen, die beim Laden der Seite zurückgegeben werden müssen. Ansichten werden in at.js 2 unterstützt.*x*, zur Verfügung.
+
+### visitorApiTimeout
+
+* **Typ**: Nummer
+* **Standardwert**: 2000 ms = 2 s
+* **Beschreibung**: Stellt die Zeitüberschreitung der [!UICONTROL Besucher-API] -Anforderung dar.
 
 ## Nutzung {#section_9AD6FA3690364F7480C872CB55567FB0}
 
