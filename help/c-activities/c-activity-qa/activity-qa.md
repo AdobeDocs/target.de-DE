@@ -5,10 +5,10 @@ title: Aktivitäts-QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
    Aufgrund dieser doppelten Kodierung kann Target den richtigen Tokenwert nicht extrahieren, wenn Sie versuchen, `at_preview_token` zu dekodieren, wodurch die Vorschau nicht funktioniert.
 
-   Sie sollten mit Ihrem IT-Team Rücksprache halten, um sicherzustellen, dass alle Vorschauparameter auf die Positivliste gesetzt werden, damit diese Werte nicht umgewandelt werden.
+   Wir empfehlen Ihnen, mit Ihrem IT-Team zu sprechen, um sicherzustellen, dass alle Parameter der Vorschau aufgelistet sind, damit diese Werte in keiner Weise verändert werden.
 
    In der folgenden Tabelle werden die Parameter Liste, die in Ihrer Domäne zulässig sind:
 
