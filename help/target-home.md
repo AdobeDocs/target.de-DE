@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target-Produktdokumentation
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 63%
@@ -17,7 +17,7 @@ ht-degree: 63%
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 
-**Zuletzt aktualisiert: 8. Juni 2020 ([Siehe Änderungen](r-release-notes/doc-change.md))**
+**Zuletzt aktualisiert: 12. Juni 2020 ([Siehe Änderungen](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 - [Target-Versionshinweise](r-release-notes/release-notes.md): Enthält Informationen über die aktuelle Version, Informationen zu bekannten Problemen, die sich auf [!DNL Target] auswirken, eine Liste mit wichtigen Änderungen an dieser Dokumentation und ein Archiv älterer Versionshinweise.
 - [Einführung in Target](c-intro/intro.md): Erklärt die Kernkonzepte der [!DNL Target]-Lösung.
 - Target in Adobe Experience Cloud integrieren: Hier erfahren Sie, wie Sie [!DNL Target] mit anderen [!DNL Experience Cloud]-Lösungen integrieren, einschließlich [Analytics für Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) und [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
-- [Adobe Zielgruppe-Lehrgänge](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html): Enthält Schulungen und Videos, mit denen Sie die Zielgruppe optimal nutzen können.
+- [Adobe Target-Übungen](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html): Enthält Schulungen und Videos, mit denen Sie die Zielgruppe optimal nutzen können.
 - [Fehlerbehebung in Target](r-troubleshooting-target/troubleshooting-target.md): Bietet Links zu Fehlerbehebungs-Informationen in diesem Handbuch, einschließlich Informationen zu den Zeichenbeschränkungen und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.), die Aktivitäten und andere Elemente in [!DNL Target] betreffen.
 - [Target für mobile Apps](c-target-mobile-app/target-mobile-app.md): Erläutert, wie [!DNL Target] für die Optimierung und Personalisierung mobiler Apps verwendet werden kann.
 - [Ressourcen und Kontaktinformationen](cmp-resources-and-contact-information.md): Bietet Informationen über zusätzliche Ressourcen, die Ihnen dabei helfen, mehr über [!DNL Target]-Funktionen zu erfahren und wie Sie [!DNL Adobe] kontaktieren können, sollten Sie Hilfe benötigen.
@@ -54,10 +54,10 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 ## Entwickler {#developers}
 
 - [Target implementieren](c-implementing-target/implementing-target.md): Erklärt die Implementierung von [!DNL Target] in Websites, mobilen Apps, Einzelseitenapps (SPAs) und iOT/OTT-Plattformen.
-- [Serverseitige APIs](https://developers.adobetarget.com/api/delivery-api/)der Zielgruppe: Beschreibt die Ressourcen, aus denen die Adobe Zielgruppe Versand API besteht.
+- [Serverseitige APIs](https://developers.adobetarget.com/api/delivery-api/)der Zielgruppe: Beschreibt die Ressourcen, aus denen die Adobe Target Versand-API besteht.
 - [Zielgruppe NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Erläutert, wie Zielgruppe serverseitig bereitgestellt wird. Dieses Node.js-SDK unterstützt Sie bei der einfachen Integration der Zielgruppe in andere Adobe Experience Cloud-Lösungen.
 - [Zielgruppe Java SDK](https://github.com/adobe/target-java-sdk): Erläutert, wie Zielgruppe serverseitig bereitgestellt wird. Mit diesem Java-SDK können Sie Zielgruppen mühelos in andere Adobe Experience Cloud-Lösungen integrieren.
-- [Zielgruppe Recommendations-API](https://developers.adobetarget.com/api/recommendations/): Beschreibt die Ressourcen, aus denen die offizielle Adobe Zielgruppe Recommendations-API besteht.
+- [Zielgruppe Recommendations-API](https://developers.adobetarget.com/api/recommendations/): Beschreibt die Ressourcen, aus denen die offizielle Adobe Target Recommendations-API besteht.
 - [Zielgruppe Adobe.IO-Dokumentation](http://developers.adobetarget.com/api/#introduction): Beschreibt die Verwendung der REST-APIs für Administratoren und Profil von Zielgruppen, die die Adobe.IO-Integration zum Verwalten von Aktivitäten, Audiencen, Angeboten, Eigenschaften, Berichten, Mboxes, Umgebung und Profilen verwenden.
 
 ## Target und Adobe Experience Cloud-Administratoren {#admins}
@@ -77,4 +77,4 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 
 | Hilfe zu Adobe [!DNL Target]-Lösungen | [!DNL Adobe Experience Cloud] Ressourcen |
 |--- |--- |
-| <ul><li>[Adobe Zielgruppe - Training und Support](https://helpx.adobe.com/de/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Target-API-Dokumentation](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target-Community-Forum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud - Versionshinweise](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud-Hilfe - Startseite](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Dokumentation zu Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Adobe-Schulungen und -Lernprogramme](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target - Training und Support](https://helpx.adobe.com/de/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Target-API-Dokumentation](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target-Community-Forum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud - Versionshinweise](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud-Hilfe - Startseite](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Dokumentation zu Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Adobe-Schulungen und -Lernprogramme](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
