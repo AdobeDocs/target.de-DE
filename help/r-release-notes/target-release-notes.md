@@ -1,14 +1,14 @@
 ---
 keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates
-description: Versionshinweise, die Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen in den neuesten oder künftigen Versionen der DNL-Adobe-Zielgruppe enthalten.
-title: Versionshinweise zu Adobe Zielgruppe
+description: Versionshinweise, die Informationen zu Funktionen, Verbesserungen und Fehlerbehebungen in den neuesten oder künftigen DNL-Adobe Target-Versionen enthalten.
+title: Versionshinweise zu Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 932711ea4ac1ed1a7f8e8084d6133d357752f99f
+source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 20%
+source-wordcount: '495'
+ht-degree: 18%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 20%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert: 10. Juni 2020**
+**Zuletzt aktualisiert: 12. Juni 2020**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
 >[!NOTE]
 >
->* **&quot;mbox.js&quot;-Einstellung**: Am 30. August 2020 wird die Bibliothek &quot;mbox.js&quot;von Adobe Zielgruppe nicht mehr unterstützt. Nach dem 30. August 2020 schlagen alle Aufrufe von &quot;mbox.js&quot;fehl und wirken sich auf die Seiten aus, auf denen Aktivitäten zur Zielgruppe ausgeführt werden. Es wird empfohlen, dass alle Kunden vor diesem Datum zur neuesten Version der at.js-Bibliothek migrieren, um potenzielle Probleme mit Ihren Sites zu vermeiden. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Siehe *Adobe Zielgruppe Skill Builder: Entwickler-Chat, migrieren Sie unten die Datei &quot;mbox.js&quot;der Adobe-Zielgruppe zu &quot;at.js&quot;* .
+>* **&quot;mbox.js&quot;-Einstellung**: Am 30. August 2020 wird die Bibliothek &quot;mbox.js&quot;von Adobe Target nicht mehr unterstützt. Nach dem 30. August 2020 schlagen alle Aufrufe von &quot;mbox.js&quot;fehl und wirken sich auf die Seiten aus, auf denen Aktivitäten zur Zielgruppe ausgeführt werden. Es wird empfohlen, dass alle Kunden vor diesem Datum zur neuesten Version der at.js-Bibliothek migrieren, um potenzielle Probleme mit Ihren Sites zu vermeiden. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Siehe *Adobe Target Skill Builder: Entwickler-Chat, migrieren Sie die Datei &quot;mbox.js&quot;von Adobe Target zu &quot;at.js* &quot;weiter unten.
    >
    >   
    Obwohl &quot;mbox.js&quot;derzeit unterstützt wird, wurden seit Juli 2017 keine Funktionsaktualisierungen dieser Bibliothek bereitgestellt. Die neuere at.js bietet viele Vorteile gegenüber mbox.js. Neben anderen Vorteilen verbessert at.js die Seitenladezeit für Webimplementierungen, verbessert die Sicherheit und bietet bessere Implementierungsoptionen für Einzelseitenanwendungen.
@@ -34,6 +34,20 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
    >
 * **Mitteilungen** zur Zielgruppe: Auf der Seite mit den Ankündigungen zur Zielgruppe finden Sie Informationen zu den kommenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinars und Zielgruppe Coffee Break-Sitzungen. Weitere Informationen finden Sie unter [Ankündigungen](/help/r-release-notes/target-announcements.md)der Zielgruppe.
 
+
+## Versionen von &quot;at.js&quot;1.8.2 und &quot;at.js 2.3.1&quot;(15. Juni 2020)
+
+Die folgenden Verbesserungen und Fehlerbehebungen wurden in den [!DNL Target] at.js-Bibliotheken vorgenommen:
+
+### at.js 1.8.2
+
+* Bei Verwendung von CNAME und Edge Override, at.js 1.*x* erstellt die Serverdomäne möglicherweise falsch, was dazu führte, dass die [!DNL Target] Anforderung fehlschlug. (TNT-35064)
+
+### at.js 2.3.1
+
+* Die `deviceIdLifetime` Einstellung wurde über [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)überschrieben. (TNT-36349)
+* Bei Verwendung von CNAME und Edge Override, at.js 2.*x* erstellt die Serverdomäne möglicherweise falsch, was dazu führte, dass die [!DNL Target] Anforderung fehlschlug. (TNT-35065)
+* Bei Verwendung der [!DNL Target] Erweiterung [!DNL Launch] v2 und der [!DNL Adobe Analytics] Erweiterung [!DNL Launch] verzögerte sich der [!DNL Target][!DNL Analytics] `sendBeacon` Aufruf. (TNT-36407, TNT-35990, TNT-36000)
 
 ## Target Standard/Premium 20.5.1 (17. Juni 2020) 
 
