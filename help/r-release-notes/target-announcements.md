@@ -4,10 +4,10 @@ description: Informationen zu kommenden Ereignissen, einschließlich Zielgruppe 
 title: Mitteilungen zur Zielgruppe
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
+source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 2%
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
@@ -16,27 +16,6 @@ ht-degree: 2%
 
 Informationen zu kommenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinare und Zielgruppe Coffee Break-Sitzungen.
 
-## Adobe Zielgruppe Community Q&amp;A Coffee Break
+## Adobe Target Skill Builder: Entwickler-Chat, migrieren Sie die Datei &quot;mbox.js&quot;von Adobe Target in &quot;at.js&quot; {#skill-builder}
 
-**Mittwoch, 10. Juni 2020**
-
-**10:00 bis 11:00 Uhr (PST)**
-
-Bitte nehmen Sie an unserer nächsten [!DNL Adobe Target] Community Q&amp;A Coffee Break teil! Dies ist Teil einer Reihe, die wir vor Kurzem für unsere internen Experten gestartet haben, um direkt mit Ihnen in unseren Forenthreads für eine &quot;Kaffeepause&quot;zusammenzuarbeiten. Stellen Sie sich das [!DNL Adobe Target] Community-Forum als Äquivalent zu einem AMA (Frag mich alles) oder einem Twitter-Chat vor.
-
-David Son, [!DNL Target] Produktmanager, wird alle Ihre Fragen beantworten. Das Kompetenzfeld von David umfasst:
-
-* at.js 
-* Mobil
-* Adobe Experience Platform - AEP Web SDK (Alloy)
-* -APIs
-
-Aber zögern Sie nicht, Fragen zur Zielgruppe zu stellen.
-
-Sie müssen sich einfach bei der [Adobe Zielgruppe Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) anmelden, um daran teilnehmen zu können.
-
-[Hier registrieren](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
-
-## Adobe Zielgruppe Skill Builder: Entwickler-Chat, migrieren Sie &quot;mbox.js&quot;der Adobe-Zielgruppe in &quot;at.js&quot; {#skill-builder}
-
-Mit der bevorstehenden Vernichtung von &quot;mbox.js&quot;am 30. August 2020 hat David Son, Adobe Zielgruppe Product Manager, kürzlich einen Entwicklerchat gehostet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern. In den nächsten 30 Tagen können Sie die Aufzeichnung des Webinars [Ansicht](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)nehmen.
+Mit der bevorstehenden Vernichtung von &quot;mbox.js&quot;am 30. August 2020, David Son, hat Adobe Target Product Manager kürzlich einen Entwicklerchat gehostet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern. In den nächsten 30 Tagen können Sie die Aufzeichnung des Webinars [Ansicht](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)leisten.
