@@ -5,10 +5,10 @@ title: Versionshinweise zu Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: bd39d7b6121eb6ccbfeb49d73a8b57618cc964ef
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 18%
+source-wordcount: '504'
+ht-degree: 17%
 
 ---
 
@@ -41,13 +41,13 @@ Die folgenden Verbesserungen und Fehlerbehebungen wurden in den [!DNL Target] at
 
 ### at.js 1.8.2
 
-* Bei Verwendung von CNAME und Edge Override, at.js 1.*x* erstellt die Serverdomäne möglicherweise falsch, was dazu führte, dass die [!DNL Target] Anforderung fehlschlug. (TNT-35064)
+* Es wurde ein Problem bei der Verwendung von CNAME und Edge Override von at.js 1 behoben.*x* erstellt die Serverdomäne möglicherweise falsch, was dazu führte, dass die [!DNL Target] Anforderung fehlschlug. (TNT-35064)
 
 ### at.js 2.3.1
 
 * Die `deviceIdLifetime` Einstellung wurde über [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)überschrieben. (TNT-36349)
-* Bei Verwendung von CNAME und Edge Override, at.js 2.*x* erstellt die Serverdomäne möglicherweise falsch, was dazu führte, dass die [!DNL Target] Anforderung fehlschlug. (TNT-35065)
-* Bei Verwendung der [!DNL Target] Erweiterung [!DNL Launch] v2 und der [!DNL Adobe Analytics] Erweiterung [!DNL Launch] verzögerte sich der [!DNL Target][!DNL Analytics] `sendBeacon` Aufruf. (TNT-36407, TNT-35990, TNT-36000)
+* Es wurde ein Problem bei der Verwendung von CNAME und Edge Override von at.js 2 behoben.*x* erstellt die Serverdomäne möglicherweise falsch, was dazu führte, dass die [!DNL Target] Anforderung fehlschlug. (TNT-35065)
+* Es wurde ein Problem behoben, das bei Verwendung der [!DNL Target] Erweiterung [!DNL Launch] v2 und der [!DNL Adobe Analytics] Erweiterung [!DNL Launch] den [!DNL Target][!DNL Analytics] `sendBeacon` Aufruf verzögerte. (TNT-36407, TNT-35990, TNT-36000)
 
 ## Target Standard/Premium 20.5.1 (17. Juni 2020) 
 
