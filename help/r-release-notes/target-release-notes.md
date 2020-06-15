@@ -5,10 +5,10 @@ title: Versionshinweise zu Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 17%
+source-wordcount: '563'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert: 12. Juni 2020**
+**Zuletzt aktualisiert: 15. Juni 2020**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -55,6 +55,7 @@ Die folgenden Verbesserungen und Fehlerbehebungen wurden in den [!DNL Target] at
 | --- | --- |
 | Analytics for Target (A4T) Unterstützung für Aktivitäten mit automatisierter Zuordnung | Ab der Juni-Version unterstützen Tests mit automatisierter Zuordnung [Analytics für die Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t.md). Mit dieser Integration können Sie die Multi-Armed Bandit-Funktion der automatischen Zuordnung verwenden, um Traffic zu erfolgreichsten Erlebnissen zu steigern, während Sie eine Adobe Analytics-Zielmetrik und/oder Adobe Analytics-Berichte- und -Analysen-Funktionen verwenden. Wenn Sie bereits A4T [für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) implementiert haben, sind Sie alle bereit! |
 | Herausgeberrolle | Diese neue Rolle ähnelt der aktuellen Beobachterrolle (Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
+| A4T-Unterstützung am 25. [!DNL Analysis Workspace]<br>Juni 2020 | [!UICONTROL Analytics für Zielgruppen] (A4T) wird jetzt in unterstützt [!DNL Analysis Workspace]. Im Bereich [!UICONTROL &quot;] Analytics for Zielgruppe&quot;(A4T) können Sie Ihre [!DNL Adobe Target] Aktivitäten und Erlebnisse in analysieren [!DNL Analysis Workspace].<br>Weitere Informationen finden Sie im Bedienfeld [&quot;](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Zielgruppe (A4T)&quot;im Handbuch *zu* Analytics-Tools. |
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
