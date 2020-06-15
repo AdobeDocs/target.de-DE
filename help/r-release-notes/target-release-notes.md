@@ -5,9 +5,9 @@ title: Hinweise zur Vorabversion des Adobe Targets
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '515'
 ht-degree: 17%
 
 ---
@@ -45,7 +45,6 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 ### Verbesserungen, Fehlerbehebungen und Änderungen
 
-* Die Benutzeroberfläche des Targets wurde verbessert, um die Angabe der globalen Mbox zu vereinfachen. (TGT-15280)
 * Es wurde ein Fehler behoben, der dazu führte, dass die Metrik &quot;Besucher&quot;in der Definition der Aktivität statt &quot;UniqueVisitors&quot;gespeichert wurde. (TGT-37098)
 * Es wurde ein Fehler in der [!DNL Target] Benutzeroberfläche behoben, der dazu führte, dass die vertikale Bildlaufleiste auf der Seite &quot; [!UICONTROL Audiencen] &quot;nicht korrekt funktionierte. (TGT-36968)
 
