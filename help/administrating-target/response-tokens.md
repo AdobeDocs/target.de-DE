@@ -1,12 +1,15 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: Mithilfe von Antworttoken können Sie automatisch Zielgruppen-spezifische Informationen (Details zur Aktivität, Profil des Benutzers, Geo-Informationen usw.) ausgeben, die beim Debugging oder bei der Integration mit Drittanbietersystemen (z. B. Clicktale) verwendet werden sollen
+description: Mithilfe von Antworttoken können Sie automatisch Target-spezifische Informationen (Details zur Aktivität, Profil des Benutzers, Geo-Informationen usw.) ausgeben, die beim Debugging oder bei der Integration mit Drittanbietersystemen (z. B. Clicktale) verwendet werden sollen
 title: Antwort-Token in Adobe Target
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '1484'
+ht-degree: 92%
 
 ---
 
@@ -34,9 +37,9 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
 
    Weitere Informationen finden Sie unter [at.js herunterladen](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. Klicken Sie in [!DNL Target] auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Antwort-Token]**.
+1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
-   ![](assets/response_tokens.png)
+   ![](assets/response_tokens-new.png)
 
 1. Aktivieren Sie die gewünschten Antwort-Token wie `activity.id`, `option.id` usw.
 
@@ -62,9 +65,9 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
    >
    >Parameter mit Sonderzeichen werden in der Liste nicht angezeigt. Es werden nur alphanumerische Zeichen und Unterstriche unterstützt.
 
-1. (Bedingt) Wenn Sie einen Profil-Parameter als Antwort-Token verwenden möchten, der Parameter jedoch nicht über einen Mbox-Aufruf weitergeleitet wurde und daher nicht in der Target-Benutzeroberfläche geladen wurde, können Sie die Schaltfläche „Erstellen“ verwenden, um das Profil zur Benutzeroberfläche hinzuzufügen.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
-   Klicken Sie auf **[!UICONTROL Erstellen]**, geben Sie den Namen des Tokens ein und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
+   Klicken Sie auf **[!UICONTROL Hinzufügen Antwort-Token]**, geben Sie den Token-Namen ein und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
 
    ![](assets/response_token_create.png)
 
@@ -279,7 +282,7 @@ Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen
 </script>
 ```
 
-## Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse {#section_3AA0A6C8DBD94A528337A2525E3E05D5} Abzeichen ![für Übungen](/help/assets/tutorial.png)
+## Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Antwort-Token und benutzerspezifische at.js-Ereignisse verwenden können, um Profilinformationen aus Target an Drittanbietersysteme zu übergeben.
 
