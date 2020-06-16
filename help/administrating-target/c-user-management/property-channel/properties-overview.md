@@ -5,10 +5,10 @@ title: Konfigurieren von Unternehmensberechtigungen
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 79%
+source-wordcount: '1418'
+ht-degree: 75%
 
 ---
 
@@ -34,7 +34,7 @@ In der folgenden Tabelle sind alle Aufgaben aufgeführt, die Sie zur Erstellung 
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. Klicken Sie in Adobe Zielgruppe auf **[!UICONTROL Administration]** > **[!UICONTROL Eigenschaften]** > Eigenschaften zu Arbeitsbereichen **[!UICONTROL zuweisen]**.
+1. Klicken Sie in Adobe Target auf **[!UICONTROL Administration]** > **[!UICONTROL Eigenschaften]** > Eigenschaften zu Arbeitsbereichen **[!UICONTROL zuweisen]**.
 
    Oder
 
@@ -172,22 +172,28 @@ Möchten Sie die Benutzerberechtigungsfunktion in [!DNL Target] nutzen, müssen 
 
 1. Klicken Sie in der Admin Console auf **[!UICONTROL Produkte]** und wählen Sie dann den Namen des gewünschten Produkts aus.
 
-   ![Arbeitsbereich](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![Arbeitsbereich](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. Klicken Sie auf den Namen des gewünschten Profils.
+1. Klicken Sie auf den Namen des gewünschten Profils (z. B. Standardarbeitsbereich).
+
+   ![Standardarbeitsbereich](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+
 1. Klicken Sie auf **[!UICONTROL Benutzer]**.
 
-   Auf der Registerkarte [!UICONTROL Benutzer] werden alle Benutzer des Arbeitsbereichs aufgeführt.
+   Auf der Registerkarte [!UICONTROL Benutzer] werden alle Benutzer des Workspace aufgeführt.
 
-   ![Konfigurieren von Benutzern](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
+   ![Konfigurationsbenutzer](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Wählen Sie das gewünschte Berechtigungsniveau (Genehmiger, Editor oder Beobachter) aus, indem Sie in der Spalte [!UICONTROL Produktrolle] das entsprechende Dropdown-Menü nutzen.
+1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+
+   ![Dropdown-Liste &quot;Produktrolle&quot;](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Rolle | Beschreibung |
    |--- |--- |
-   | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-   | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
    | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
+   | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
+   | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
+   | Publisher | Ähnlich wie bei der Rolle &quot;Beobachter&quot;(Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
 
    Weitere Informationen finden Sie unter [Verwalten von Produktberechtigungen und Rollen in der Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) im *Enterprise-Benutzerhandbuch*.
 
