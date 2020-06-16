@@ -6,10 +6,10 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 47%
+source-wordcount: '1257'
+ht-degree: 46%
 
 ---
 
@@ -53,7 +53,7 @@ Wenn Sie über einen Einsatz von A4T nachdenken, sollten Sie die folgenden Punkt
 * Only one mbox-based metric is allowed when using [!DNL Analytics] as the reporting source.
 * A server-to-server call from [!DNL Target] to [!DNL Analytics] sends activity and experience information to [!DNL Analytics]. This integration does not result in additional server calls for either [!DNL Target] or [!DNL Analytics].
 
-   In einigen Fällen schlägt der Classification-Aufruf von [!DNL Target] zu möglicherweise fehl und die Aktivitäten zeigen keine Daten an [!DNL Analytics] [!DNL Analytics]. In diesem Fall finden Sie weitere Informationen unter [Fehlerbehebung bei der Analytics- und Zielgruppe-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können sich auch an den Kundendienst [wenden](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) , um weitere Hilfe zu erhalten.
+   In einigen Fällen schlägt der Classification-Aufruf von [!DNL Target] zu möglicherweise fehl und die Aktivitäten zeigen keine Daten an [!DNL Analytics] [!DNL Analytics]. In diesem Fall finden Sie weitere Informationen unter [Fehlerbehebung bei der Analytics- und Target-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können sich auch an den Kundendienst [wenden](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) , um weitere Hilfe zu erhalten.
 
 ## Supported activity types {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -62,7 +62,7 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | Aktivitätstypen | Kompatibel mit A4T? | Anmerkungen (falls zutreffend) |
 |--- |--- |--- |
 | A/B-Aktivität mit manueller Traffic-Aufteilung | Ja |  |
-| A/B-Aktivität mit automatisierter Zuordnung | Nein |  |
+| A/B-Aktivität mit automatisierter Zuordnung | Ja | Siehe Unterstützung für [Analytics für Target (A4T) für Aktivitäten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)mit automatisierter Zuordnung. |
 | A/B-Aktivität mit automatischem Targeting | Nein |  |
 | Erlebnis-Targeting (XT) | Ja |  |
 | Multivarianz-Tests (MVT) | Ja | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
@@ -111,7 +111,7 @@ Open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.ado
 
 Die folgenden Videos enthalten weitere Informationen zu den in diesem Thema behandelten Konzepten.
 
-### Kennzeichen &quot;Analytics for Zielgruppe&quot;(A4T) (4:32) ![Überblick](/help/assets/overview.png)
+### Analytics für Target (A4T) (4:32) ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 This video explains how to use [!DNL Analytics] as a reporting source in [!DNL Target] to drive the analysis of your optimization program.
 
@@ -121,7 +121,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics/Zielgruppe Integration (A4T) (40:33) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
+### Analytics/Target-Integration (A4T) (40:33) ![Tutorialabzeichen](/help/assets/tutorial.png)
 
 Dieses Video ist eine Aufzeichnung von [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7), eine Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
 
@@ -130,4 +130,4 @@ Dieses Video ist eine Aufzeichnung von [Office Hours](../../cmp-resources-and-co
 * Erfahren Sie, welche Berichte Sie in Analytics am besten verwenden
 * Antworten auf häufige Fragen zu A4T
 
-[Ambulanzzeiten für Analytics/Zielgruppe-Integration (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Bürozeiten für die Analytics/Target-Integration (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
