@@ -1,10 +1,13 @@
 ---
-keywords: Integration; Rollen; Benutzerberechtigungen; Admin Console
+keywords: integration;roles;user permissions;admin console
 description: Informationen darüber, wie Sie vorhandenen Adobe I/O-Integrationen die gewünschte Rolle zuweisen und Zugriff auf alle Arbeitsbereiche in Adobe Target gewähren
 title: Adobe I/O-Integrationen Zugriff auf Arbeitsbereiche gewähren und Rollen in Adobe Target zuweisen
-subtopic: Erste Schritte
+subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +38,7 @@ Dieses Update unterstützt die folgenden Anwendungsfälle:
 
 >[!NOTE]
 >
->Wenn Sie diese Aktion nicht ausführen, wird die Zugriffskontrolle ab der [!DNL Target]-Version vom September 2019 aktiviert und Sie werden nur auf den Standard-Arbeitsbereich zugreifen können, sofern dies Ihre aktuelle Einstellung ist. Das vorzeitige Einrichten von Integrationen hat keine Nachteile. Je früher Sie diese Änderung vornehmen, desto besser. Je nach Anzahl der Arbeitsbereiche in Ihrem Unternehmen dauert dieser Vorgang nur einige Klicks, um eine vorhandene Integration in Arbeitsbereiche mit der gewünschten Rolle hinzuzufügen.
+>Wenn Sie diese Aktion nicht ausführen, wird die Zugriffskontrolle ab der [!DNL Target]-Version vom September 2019 aktiviert und Sie werden nur auf den Standard-Arbeitsbereich zugreifen können, sofern dies Ihre aktuelle Einstellung ist. Das vorzeitige Einrichten von Integrationen hat keine Nachteile. Je früher Sie diese Änderung vornehmen, desto besser. Je nach der Anzahl der Arbeitsbereiche in Ihrem Unternehmen dauert dieser Vorgang nur einige Klicks, um eine vorhandene Integration in Arbeitsbereiche mit der gewünschten Rolle hinzuzufügen.
 
 **So gewähren Sie Adobe I/O-Integrationen Zugriff auf Arbeitsbereiche und weisen eine Rolle zu:**
 
@@ -57,7 +60,9 @@ Dieses Update unterstützt die folgenden Anwendungsfälle:
 
 1. Wählen Sie aus der Dropdownliste **[!UICONTROL Produktrolle]** die gewünschte Rolle für diesen Arbeitsbereich aus:
 
-   * [!UICONTROL Genehmiger]
-   * [!UICONTROL Bearbeiter]
-   * [!UICONTROL Beobachter]
-   ![Produktprofilrolle auswählen](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   | Rolle | Beschreibung |
+   |--- |--- |
+   | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
+   | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
+   | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
+   | Publisher | Ähnlich wie bei der Rolle &quot;Beobachter&quot;(Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
