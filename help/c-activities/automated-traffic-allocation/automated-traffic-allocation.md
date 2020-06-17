@@ -5,7 +5,10 @@ title: Automatische Zuordnung
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+workflow-type: tm+mt
+source-wordcount: '3026'
+ht-degree: 90%
 
 ---
 
@@ -13,10 +16,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 # Automatisch zuweisen{#auto-allocate}
 
 Die Funktion „Automatisch zuweisen“ identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und ordnet dem Gewinner automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.
-
->[!IMPORTANT]
->
->Die „Automatische Zuordnung“ unterstützt keine [!DNL Target for Analytics]-Berichterstellung (A4T).
 
 Beim [Erstellen einer A/B-Aktivität mit einem geleiteten Arbeitsablauf mit drei Schritten](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) können Sie die Option [!UICONTROL Automatisch dem besten Erlebnis zuordnen] wählen.
 
@@ -92,10 +91,6 @@ Wenn das Modell für eine automatisierte Zuordnungsaktivität bereit ist (alle E
 
 ## Einschränkungen {#section_5C83F89F85C14FD181930AA420435E1D}
 
-**A/B-Aktivitäten mit automatisierter Zuordnung werden in Analytics for Target (A4T) nicht mehr unterstützt**
-
-Ab Version 16.10.1.0 (vom 25. Oktober 2016) unterstützt Target nicht mehr Analytics als Berichtsquelle für A/B-Aktivitäten mit automatisierter Zuordnung. Alle noch aktiven A/B-Aktivitäten mit automatischer Zuordnung, bei denen A4T aktiviert ist, werden auf den manuellen Modus umgestellt (gleichmäßige Zuordnung von Traffic).
-
 **Die Funktion „Automatisierte Zuordnung“ arbeitet mit nur einer einzigen erweiterten Metrikeinstellung: „Anzahl erhöhen und Benutzer in Aktivität belassen“.**
 
 Die folgenden erweiterten Metrikeinstellungen werden nicht unterstützt: „Anzahl erhöhen“, „Benutzer freigeben“, „Wiedereintritt erlauben und Anzahl erhöhen“ sowie „Benutzer freigeben und an Wiedereintritt hindern“.
@@ -131,6 +126,10 @@ Diese Faktoren können die Ergebnisse eines Tests mit automatisierter Zuordnung 
    Zum Beispiel signalisiert „30 Prozent Rabatt nur noch heute“ dem Besucher, noch heute zu konvertieren, während „50 Prozent Rabatt auf Ihren ersten Einkauf“ nicht denselben Handlungsdruck auslöst.
 
 ## Häufig gestellte Fragen {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+
+** Unterstützt Analytics for Target (A4T) Aktivitäten mit automatisierter Zuordnung?
+
+Ja. Weitere Informationen finden Sie unter Unterstützung von [Analytics für Target (A4T) für Aktivitäten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) mit automatisierter Zuordnung bei der Erstellung von *Aktivitäten*.
 
 **Werden wiederkehrende Besucher automatisch zu leistungsstarken Erlebnissen weitergeleitet?**
 
@@ -168,7 +167,7 @@ Derzeit bevorzugt die Logik Besucher, die schnell konvertieren oder die Site hä
 
 **Kann ich den Rechner für die Stichprobengröße verwenden, wenn ich die automatisierte Zuordnung nutze, um zu schätzen, wie lange die Aktivität brauchen wird, um den Gewinner zu identifizieren?**
 
-You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Wie bei herkömmlichen A/B-Tests sollten Sie Bonferroni-Korrekturen anwenden, wenn Sie mehr als zwei Angebote oder mehr als eine Konversionsmetrik/Hypothese testen.) Beachten Sie, dass dieser Rechner für herkömmliche A/B-Tests mit festem Horizont konzipiert ist und nur eine Schätzung liefert. Die Verwendung des Taschenrechners für eine Aktivität mit automatisierter Zuordnung ist optional, da die automatisierte Zuordnung einen Gewinner für Sie festlegt - Sie müssen keinen bestimmten Zeitpunkt auswählen, um die Testergebnisse anzuzeigen - die bereitgestellten Werte sind immer statistisch gültig. In unseren Experimenten haben wir Folgendes herausgefunden:
+You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Wie bei herkömmlichen A/B-Tests sollten Sie Bonferroni-Korrekturen anwenden, wenn Sie mehr als zwei Angebot oder mehr als eine Konversionsmetrik/Hypothese testen.) Beachten Sie, dass dieser Rechner für herkömmliche A/B-Tests mit festem Horizont konzipiert ist und nur eine Schätzung liefert. Die Verwendung des Taschenrechners für eine Aktivität mit automatisierter Zuordnung ist optional, da die automatisierte Zuordnung einen Gewinner für Sie festlegt - Sie müssen keinen festen Zeitpunkt auswählen, um die Testergebnisse anzuzeigen - die bereitgestellten Werte sind immer statistisch gültig. In unseren Experimenten haben wir Folgendes herausgefunden:
 * Beim Testen von genau zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Testen mit einem festen Horizont (d. h. dem vom Stichprobengrößenrechner vorgeschlagenen Zeitrahmen), wenn der Leistungsunterschied zwischen den Erlebnissen groß ist. Es kann jedoch mehr Zeit erforderlich sein, um einen Gewinner zu ermitteln, wenn der Leistungsunterschied zwischen den Erlebnissen gering ist. In diesen Fällen wären Tests mit festem Horizont in der Regel ohne ein statistisch signifikantes Ergebnis beendet worden.
 * Beim Testen von mehr als zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Testen mit einem festen Horizont (d. h. der vom Stichprobengrößenrechner vorgeschlagene Zeitrahmen), wenn ein einzelnes Erlebnis alle anderen Erlebnisse deutlich übertrifft. Wenn zwei oder mehr Erlebnisse im Vergleich zu anderen Erlebnissen &quot;gewonnen&quot;werden, aber eng miteinander übereinstimmen, kann die automatische Zuordnung mehr Zeit erfordern, um festzustellen, welches Erlebnis besser ist. In diesen Fällen wären Tests mit festem Horizont normalerweise zu dem Schluss gekommen, dass die &quot;erfolgreichsten&quot;Erlebnisse besser waren als die Erlebnisse mit geringerer Leistung, aber nicht ermittelt hätten, welches Erlebnis besser war.
 
@@ -182,7 +181,7 @@ Es gibt wirklich keinen Grund, ein leistungsschwaches Erlebnis zu entfernen. Die
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Arbeitsablauf für Aktivitäten – Targeting (2:14) Abzeichen ![für Übungen](/help/assets/tutorial.png)
+### Arbeitsablauf für Aktivitäten – Targeting (2:14) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video sind Informationen zur Einrichtung der Traffic-Zuordnung enthalten.
 
