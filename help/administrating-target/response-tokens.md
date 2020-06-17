@@ -6,17 +6,21 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 92%
+source-wordcount: '1531'
+ht-degree: 89%
 
 ---
 
 
 # Antwort-Token{#response-tokens}
 
-Mithilfe von Antwort-Token können Sie Target-spezifische Informationen automatisch ausgeben (Kampagnendetails, Benutzerprofilinformationen, Geoinformationen usw.), um sie im Debugging zu verwenden oder in Drittanbietersysteme zu integrieren (z. B. Clicktale).
+Mithilfe von Antwort-Token können Sie Target-spezifische Informationen automatisch ausgeben (Kampagnendetails, Benutzerprofilinformationen, Geoinformationen usw.), um sie im Debugging zu verwenden oder in Drittanbietersysteme zu integrieren (z. B. Clicktale)..
+
+>[!NOTE]
+>
+>Die Informationen in diesem Thema wurden aktualisiert, um Ihnen einen kurzen Höhepunkt bei den UI-Änderungen zu geben, die in der Target Standard/Premium-Version 20.6.1 (Juli 2020) erscheinen. Die meisten der in diesem Thema dargestellten Informationen gelten für die aktuelle Benutzeroberfläche; Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten.
 
 Mit Antwort-Token können Sie wählen, welche Variablen Sie verwenden möchten. Anschließend können Sie sie aktivieren, damit sie als Bestandteil einer Mbox-Antwort gesendet werden. Dazu aktivieren Sie einfach eine Variable mithilfe des Switches. Daraufhin wird die Variable mit Mbox-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Antwort-Token können auch im Vorschaumodus verwendet werden.
 
