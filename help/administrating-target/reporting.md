@@ -1,20 +1,24 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Konfigurieren Sie den Adobe Zielgruppe Visual Experience Composer (VEC), indem Sie seine allgemeinen Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
-title: Berichte in Adobe Zielgruppe konfigurieren
+description: Konfigurieren Sie den Adobe Target Visual Experience Composer (VEC), indem Sie seine allgemeinen Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
+title: Berichte in Adobe Target konfigurieren
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 69%
+source-wordcount: '695'
+ht-degree: 65%
 
 ---
 
 
-# Berichte in Zielgruppe konfigurieren
+# Berichte in Target konfigurieren
 
-Konfigurieren Sie allgemeine Einstellungen, die im Berichte Zielgruppe für Ihr gesamtes [!DNL Target] Konto verwendet werden.
+Konfigurieren Sie allgemeine Einstellungen, die im Target-Berichte verwendet werden, der für Ihr gesamtes [!DNL Target] Konto gilt.
+
+>[!NOTE]
+>
+>Die Informationen in diesem Thema wurden aktualisiert, um Ihnen einen kurzen Höhepunkt bei den UI-Änderungen zu geben, die in der Target Standard/Premium-Version 20.6.1 (Juli 2020) erscheinen. Die meisten der in diesem Thema dargestellten Informationen gelten für die aktuelle Benutzeroberfläche; Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten.
 
 Um auf die Konfigurationsseite des [!UICONTROL Berichte] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Berichte].**
 
@@ -51,7 +55,7 @@ Geben Sie die Zeitzone für den Berichte an.
 
 Geben Sie die Währung für den Berichte an.
 
-## IPs, die von den Daten des Berichte der Zielgruppe ausgeschlossen werden sollen
+## IPs, die von Target-Berichte-Daten ausgeschlossen werden sollen
 
 Geben Sie alle IP-Adressen an, die von den Daten des Berichte ausgeschlossen werden sollen. So können Sie z. B. durch das Ausschließen von Adressen interner Firmen sicherstellen, dass Ihre Berichte-Daten die Interaktionen Ihrer Kunden auf Ihrer Website widerspiegeln.
 
