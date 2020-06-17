@@ -5,9 +5,9 @@ title: CNAME und Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e31a4195097d3338e1b07679ab52dfa7f2299017
+source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1233'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,9 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. Bestimmen Sie die Liste der Hostnamen, die Sie für Ihr SSL-Zertifikat benötigen (siehe FAQ).
 
-1. Erstellen Sie für jeden Hostnamen einen CNAME-Eintrag in Ihrem DNS, der auf Ihren regulären [!DNL Target] Hostnamen verweist `clientcode.tt.omtrdc.net`. Wenn Ihr Client-Code z. B. &quot;cnamecustomer&quot;ist und Ihr Hostname angegeben ist `target.example.com`, sollte Ihr DNS-CNAME-Eintrag wie folgt aussehen:
+1. Erstellen Sie für jeden Hostnamen einen CNAME-Eintrag in Ihrem DNS, der auf Ihren regulären [!DNL Target] Hostnamen verweist `clientcode.tt.omtrdc.net`.
+
+   Wenn Ihr Client-Code z. B. &quot;cnamecustomer&quot;lautet und Ihr Hostname angegeben ist `target.example.com`, sollte Ihr DNS-CNAME-Eintrag wie folgt aussehen:
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -31,10 +33,10 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Die Adobe-Zertifikatbehörde DigiCert kann erst nach Abschluss dieses Schritts ein Zertifikat ausstellen. Daher kann Adobe Ihre Anforderung einer CNAME-Implementierung erst dann erfüllen, wenn dieser Schritt abgeschlossen ist.
+   >* Die Zertifizierungsstelle von Adobe, DigiCert, kann erst nach Abschluss dieses Schritts ein Zertifikat ausstellen. Daher kann Adobe Ihre Anforderung einer CNAME-Implementierung erst erfüllen, wenn dieser Schritt abgeschlossen ist.
 
 
-1. Füllen Sie das folgende Formular aus und fügen Sie es ein, wenn Sie ein Adobe Client Care-Ticket [öffnen, das CNAME-Unterstützung](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C)anfordert:
+1. Füllen Sie das folgende Formular aus und fügen Sie es ein, wenn Sie ein Adobe Client Care-Ticket [öffnen, das CNAME-Unterstützung](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)anfordert:
 
    * Adobe- [!DNL Target] Clientcode:
    * SSL-Zertifikat-Hostnamen (Beispiel: `target.example.com target.example.org`):
@@ -48,7 +50,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. Wenn Adobe das Zertifikat kauft, arbeitet Adobe mit DigiCert zusammen, um Ihr Zertifikat auf den Produktionsservern von Adobe zu erwerben und bereitzustellen.
 
-   Wenn der Kunde das Zertifikat (BYOC) kauft, sendet Ihnen Adobe Client Care die CSR-Anforderung (Certificate Signing Request) zurück, die Sie beim Erwerb des Zertifikats über Ihre Zertifizierungsstelle verwenden müssen. Nachdem das Zertifikat ausgestellt wurde, müssen Sie eine Kopie des Zertifikats und aller Zwischenzertifikate zur Bereitstellung an Adobe Client Care zurücksenden.
+   Wenn der Kunde das Zertifikat (BYOC) kauft, sendet Ihnen Adobe Client Care die CSR-Anforderung (Certificate Signing Request), die Sie beim Erwerb des Zertifikats über Ihre Zertifizierungsstelle verwenden müssen. Nachdem das Zertifikat ausgestellt wurde, müssen Sie eine Kopie des Zertifikats und aller dazwischen liegenden Zertifikate zur Bereitstellung an Adobe Client Care zurücksenden.
 
    Adobe Client Care benachrichtigt Sie, wenn Ihre Implementierung fertig ist.
 
@@ -90,7 +92,7 @@ Weitere Informationen zu ITP finden Sie unter [Apple Intelligent Tracking Preven
 
 ### Welche Art von Serviceunterbrechungen kann ich erwarten, wenn meine CNAME-Implementierung bereitgestellt wird?
 
-Bei der Bereitstellung des Zertifikats gibt es keine Serviceunterbrechung (einschließlich Zertifikatsverlängerungen). Wenn Sie jedoch den Hostnamen im Target-Implementierungscode (`serverDomain` in at.js) in den neuen CNAME-Hostnamen (`target.example.com`) ändern, behandeln Webbrowser rückkehrende Besucher als neue Besucher und ihre Profil-Daten gehen verloren, da der vorherige Cookie aufgrund von Browsersicherheitsmodellen nicht mehr unter dem alten Hostnamen (`clientcode.tt.omtrdc.net`) verfügbar ist. Dies ist eine einmalige Unterbrechung nur beim ersten CNAME-Cut-Over. Zertifikatverlängerungen haben nicht dieselbe Auswirkung, da sich der Hostname nicht ändert.
+Bei der Bereitstellung des Zertifikats gibt es keine Serviceunterbrechung (einschließlich Zertifikatsverlängerungen). Wenn Sie jedoch den Hostnamen im [!DNL Target] Implementierungscode (`serverDomain` in at.js) in den neuen CNAME-Hostnamen (`target.example.com`) ändern, behandeln Webbrowser rückkehrende Besucher als neue Besucher und ihre Profil-Daten gehen verloren, da der vorherige Cookie aufgrund von Browsersicherheitsmodellen nicht mehr unter dem alten Hostnamen (`clientcode.tt.omtrdc.net`) verfügbar ist. Dies ist eine einmalige Unterbrechung nur beim ersten CNAME-Cut-Over. Zertifikatverlängerungen haben nicht dieselbe Wirkung, da sich der Hostname nicht ändert.
 
 ### Welcher Schlüsseltyp und welcher Zertifikatssignaturalgorithmus werden für meine CNAME-Implementierung verwendet?
 
