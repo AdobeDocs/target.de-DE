@@ -5,10 +5,10 @@ title: Konfigurieren von Unternehmensberechtigungen
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 75%
+source-wordcount: '1465'
+ht-degree: 73%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 75%
 # ![PREMIUM](/help/assets/premium.png) Konfigurieren von Unternehmensberechtigungen{#configure-enterprise-permissions}
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
+
+>[!NOTE]
+>
+>Die Informationen in diesem Thema wurden aktualisiert, um Ihnen einen kurzen Höhepunkt bei den UI-Änderungen zu geben, die in der Target Standard/Premium-Version 20.6.1 (Juli 2020) erscheinen. Die meisten der in diesem Thema dargestellten Informationen gelten für die aktuelle Benutzeroberfläche; Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten.
 
 >[!NOTE]
 >
