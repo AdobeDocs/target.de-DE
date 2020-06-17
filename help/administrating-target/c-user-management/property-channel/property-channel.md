@@ -5,9 +5,9 @@ title: Berechtigungen für Unternehmensbenutzer
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '2948'
+source-wordcount: '2996'
 ht-degree: 85%
 
 ---
@@ -199,7 +199,7 @@ Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL 
 
 * **Zielgruppenerstellung:** Bei Erstellung einer neuen Zielgruppe wird diese dem aktuell ausgewählten Arbeitsbereich zugewiesen.
 * **Angebotserstellung:** Bei Erstellung eines neuen Angebots wird dieses dem aktuell ausgewählten Arbeitsbereich zugewiesen.
-* **Eigenschaftenseite (Einrichtung > Eigenschaften):** Sie können das Feld [!UICONTROL Suchen] verwenden, um die Liste [!UICONTROL Eigenschaft] zu durchsuchen.
+* **Seite &quot;Eigenschaften&quot;(&quot;Einstellungen&quot;> &quot;Eigenschaften&quot;):** Sie können das Feld [!UICONTROL Suchen] verwenden, um die Liste [!UICONTROL Eigenschaft] zu durchsuchen.
 
    ![](assets/properties_list.png)
 
@@ -281,7 +281,11 @@ Wenn ein Besucher Seite 1 in einem Browser öffnet, wird er zu Seite 2 weitergel
 
 Wenn die Weiterleitungsseite und die Aktivitäts-URL zu derselben Eigenschaft gehören, funktionieren die Klick-Tracks erwartungsgemäß. Weitere Informationen finden Sie unter [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
+## Schulungsvideos
+
+In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
+
+### Training Video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 Lernziele:
 
@@ -290,3 +294,14 @@ Lernziele:
 * Verschiedene Beispiele für Eigenschaften für Ihre Organisation
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
+
+### Bürozeiten: Target Premium-Arbeitsflächen
+
+Dieses Video ist eine Aufzeichnung von Office Hours, eine Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
+
+* Erstellen eines Arbeitsbereichs (Product Profil)
+* Eigenschaften erstellen
+* Hinzufügen von Benutzern
+* Implementierung aktualisieren
+
+>[!VIDEO](https://video.tv.adobe.com/v/23643/)
