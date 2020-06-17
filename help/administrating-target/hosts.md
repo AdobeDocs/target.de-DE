@@ -5,10 +5,10 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 57%
+source-wordcount: '1279'
+ht-degree: 55%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 57%
 # Hosts{#hosts}
 
 Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung.
+
+>[!NOTE]
+>
+>Die Informationen in diesem Thema wurden aktualisiert, um Ihnen einen kurzen Höhepunkt bei den UI-Änderungen zu geben, die in der Target Standard/Premium-Version 20.6.1 (Juli 2020) erscheinen. Die meisten der in diesem Thema dargestellten Informationen gelten für die aktuelle Benutzeroberfläche; Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten.
 
 Das Hauptziel bei der Hostverwaltung besteht darin, dafür zu sorgen, dass auf der Seite nicht versehentlich inaktive Inhalte erscheinen. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
@@ -27,7 +31,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Über die Hostverwaltung kann außerdem problemlos für die Qualität neuer Aktivitäten und Inhalte in der Testumgebung, Staging-Umgebung und Entwicklungsumgebung vor der Aktivierung der Aktivitäten gesorgt werden.
 
-[!DNL Target] beschränkt keine Hosts, die mboxes senden und empfangen können. Wenn also neue Server oder Domänen entstehen, funktionieren sie automatisch (es sei denn, Sie haben eine Listen- oder Blockliste eingerichtet). Auf diese Weise wird auch das Testen von Werbeanzeigen auf verschiedenen Domänen ermöglicht, die unbekannt sind oder nicht antizipiert werden können.
+[!DNL Target] beschränkt keine Hosts, die mboxes senden und empfangen können. Wenn also neue Server oder Domänen entstehen, funktionieren sie automatisch (es sei denn, Sie haben eine zulassungsliste oder blockierungsliste des eingerichtet). Auf diese Weise wird auch das Testen von Werbeanzeigen auf verschiedenen Domänen ermöglicht, die unbekannt sind oder nicht antizipiert werden können.
 
 Um Hosts zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
@@ -75,7 +79,7 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 
 You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. Alle anderen Hosts, die Anrufe generieren, erhalten eine kommentierte Fehlermeldung, dass sie nicht autorisiert sind. Hosts, die einen Mbox-Anruf enthalten, werden standardmäßig bei [!DNL Target] in der Hostgruppe „Produktion“ registriert und erhalten Zugriff auf alle aktiven und genehmigten Aktivitäten. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. Alle Hosts werden weiterhin in der [!UICONTROL Hostgruppenliste] angezeigt und sie können nach wie vor in den Umgebungen gruppiert und mit verschiedenen Ebenen versehen werden, beispielsweise, ob ein Host aktive und/oder inaktive Kampagnen sehen kann.
 
-So erstellen Sie eine zulässige Liste:
+So erstellen Sie eine zulassungsliste:
 
 1. Klicken Sie in der Liste [!UICONTROL Hosts] auf Hosts **[!UICONTROL autorisieren]**.
 1. Aktivieren Sie den Umschalter Autorisierte Hosts für Content Versand **[!UICONTROL aktivieren]** .
@@ -93,9 +97,9 @@ Wenn auf einem nicht autorisierten Host ein Mbox-Aufruf erfolgt, antwortet der A
 
 >[!IMPORTANT]
 >
->**Best Practices** für Sicherheit: Wenn Sie Ubox-Funktionen von verwenden, [!DNL Target]beachten Sie, dass diese Liste auch die Liste der Domänen steuert, zu denen Ihre [Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) navigieren können. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, denen Sie umleiten möchten, wenn Sie Ubox als Teil Ihrer Implementierung verwenden. Wenn die zulässige Liste nicht angegeben ist, kann Adobe die Umleitungs-URLs nicht überprüfen und sich vor möglichen böswilligen Umleitungen schützen.
+>**Best Practices** für Sicherheit: Wenn Sie die Ubox-Funktion von verwenden, [!DNL Target]beachten Sie, dass diese zulassungsliste auch die Liste der Domänen steuert, zu denen Ihre [Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) navigieren können. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, denen Sie umleiten möchten, wenn Sie Ubox als Teil Ihrer Implementierung verwenden. Wenn das zulassungsliste des nicht angegeben ist, kann Adobe die Umleitungs-URLs nicht überprüfen und sich vor möglichen böswilligen Umleitungen schützen.
 >
->Die zulässige Liste hat Vorrang vor Umgebung. Sie sollten alle Hosts löschen, bevor Sie die Funktion allowList verwenden. Dann werden nur die Hosts angezeigt, die in der zulässigen Liste zulässig sind. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
+>Das zulassungsliste hat Vorrang vor Umgebung. Sie sollten alle Hosts löschen, bevor Sie die zulassungsliste-Funktion von verwenden. Dann werden nur die von der zulassungsliste zugelassenen Hosts in Ihrer Hosts-Liste angezeigt. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
 
 Manchmal erscheinen Hosts anderer Sites in Ihren Umgebungen. Eine Domäne wird in der Liste angezeigt, wenn die Domäne Ihre &quot;at.js&quot;oder &quot;mbox.js&quot;aufruft. Wenn beispielsweise eine Ihrer Webseiten auf den Server eines anderen kopiert wird, wird diese Domäne in Ihrer Umgebung angezeigt. Es können auch Domänen von Spider-Engines, Übersetzungssites oder lokalen Festplatten angezeigt werden.
 
@@ -105,7 +109,7 @@ Des Weiteren können Sie eine Blacklist erstellen, in der Hosts (Domänen) aufge
 
 >[!NOTE]
 >
->Da die Liste &quot;Autorisierte Hosts&quot;sowohl für Mbox-Hosts als auch für standardmäßige Weiterleitungshosts verwendet wird, müssen Sie alle vorhandenen Domänen hinzufügen, die für die Verwendung des Adobe Zielgruppe JavaScript SDK (at.js) zugelassen sind, *UND* alle Domänen, die in Ubox-Standard-Umleitungs-URLs verwendet werden. Sie müssen in Zukunft auch alle neuen ähnlichen Domänen zur zulässigen Liste hinzufügen.
+>Da die Liste &quot;Autorisierte Hosts&quot;sowohl für Mbox-Hosts als auch für Standard-Umleitungshosts verwendet wird, müssen Sie alle vorhandenen Domänen hinzufügen, die für die Verwendung des Adobe Target JavaScript SDK (at.js) zugelassen sind, *UND* alle Domänen, die in den Ubox-Standard-Umleitungs-URLs verwendet werden. Sie müssen dem zulassungsliste in Zukunft auch alle neuen ähnlichen Domänen hinzufügen.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
