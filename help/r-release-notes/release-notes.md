@@ -5,10 +5,10 @@ title: 'Adobe Target-Versionshinweise (aktuell) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 30%
+source-wordcount: '941'
+ht-degree: 31%
 
 ---
 
@@ -33,6 +33,19 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
+## Target Standard/Premium 20.5.1 (17. Juni 2020) 
+
+| Funktion  / Verbesserung | Beschreibung |
+| --- | --- |
+| Analytics for Target (A4T) Unterstützung für [!UICONTROL Aktivitäten mit automatisierter Zuordnung] | [!UICONTROL Aktivitäten mit automatisierter Zuordnung] unterstützen jetzt [Analytics zum Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Diese Integration ermöglicht Ihnen die Verwendung der [!UICONTROL Funktion &quot;Automatisierte Zuordnung] von Multi-Armed Bandit&quot;, um Traffic zu erfolgreichsten Erlebnissen zu steigern, während Sie eine [!UICONTROL Adobe Analytics] -Zielmetrik und/oder Funktionen für den Berichte und die Analyse von [!UICONTROL Adobe Analytics] verwenden.<br>Wenn Sie bereits A4T [für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) implementiert haben, sind Sie alle bereit!<br>Weitere Informationen finden Sie unter Unterstützung von [Analytics für Target (A4T) für Aktivitäten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) mit automatisierter Zuordnung bei der Erstellung von *Aktivitäten*. |
+| [!UICONTROL Herausgeberrolle] | Diese neue Rolle ähnelt der aktuellen [!UICONTROL Beobachterrolle] (Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die [!UICONTROL Herausgeberrolle] verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten.<br>Weitere Informationen finden Sie unter: <ul><li>**Target Standard-Benutzer**: [Legen Sie Rollen und Berechtigungen](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Benutzern* fest.</li><li>**Target Premium-Nutzer**: [Schritt 6: Legen Sie Rollen und Berechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) unter *Unternehmensberechtigungen* konfigurieren fest.</li></ul> |
+| A4T-Unterstützung am 25. [!DNL Analysis Workspace]<br>Juni 2020 | [!UICONTROL Analytics für Target] (A4T) wird jetzt in unterstützt [!DNL Analysis Workspace]. Im Bedienfeld [!UICONTROL &quot;] Analytics für Target (A4T)&quot;können Sie Ihre [!DNL Adobe Target] Aktivitäten und Erlebnisse in analysieren [!DNL Analysis Workspace].<br>Weitere Informationen finden Sie unter [Berichte in Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) im Bereich *A4T-Berichte* und [Analytics für Target (A4T) im](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics Tools-Handbuch **. |
+
+### Verbesserungen, Korrekturen von Problemen und Änderungen
+
+* Es wurde ein Fehler behoben, der dazu führte, dass die Metrik &quot;Besucher&quot;in der Definition der Aktivität statt &quot;UniqueVisitors&quot;gespeichert wurde. (TGT-37098)
+* Es wurde ein Fehler in der [!DNL Target] Benutzeroberfläche behoben, der dazu führte, dass die vertikale Bildlaufleiste auf der Seite &quot; [!UICONTROL Audiencen] &quot;nicht korrekt funktionierte. (TGT-36968)
+
 ## Versionen von &quot;at.js&quot;1.8.2 und &quot;at.js 2.3.1&quot;(15. Juni 2020)
 
 Die folgenden Verbesserungen und Fehlerbehebungen wurden in den [!DNL Target] at.js-Bibliotheken vorgenommen:
@@ -41,91 +54,6 @@ Die folgenden Verbesserungen und Fehlerbehebungen wurden in den [!DNL Target] at
 | --- | --- |
 | at.js  1.8.2 | Diese Version von at.js ist ein Maintenance Release und beinhaltet die folgende Fehlerbehebung:<ul><li>Es wurde ein Problem bei der Verwendung von CNAME und Edge Override von at.js 1 behoben.*x* erstellt die Serverdomäne möglicherweise falsch, was dazu führte, dass die [!DNL Target] Anforderung fehlschlug. (TNT-35064)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | at.js 2.3.1 | Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:<ul><li>Die `deviceIdLifetime` Einstellung wurde über [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)überschrieben. (TNT-36349)</li><li>Es wurde ein Problem bei der Verwendung von CNAME und Edge Override von at.js 2 behoben.*x* erstellt die Serverdomäne möglicherweise falsch, was dazu führte, dass die [!DNL Target] Anforderung fehlschlug. (TNT-35065)</li><li>Es wurde ein Problem behoben, das bei Verwendung der [!DNL Target] Erweiterung [!DNL Launch] v2 und der [!DNL Adobe Analytics] Erweiterung [!DNL Launch] den [!DNL Target][!DNL Analytics] `sendBeacon` Aufruf verzögerte. (TNT-36407, TNT-35990, TNT-36000)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
-
-## Änderungen an Profil Batch Status API, Version 2 (14. Mai 2020)
-
-Ab der Version vom 20. Mai gibt der Profil Batch-Status nur noch Fehlerdaten auf Zeilenebene zurück (Erfolgsdaten werden nicht zurückgegeben). Fehlgeschlagene Profil-IDs werden von der API in Zukunft zurückgegeben.
-
-Die vorherigen und neuen API-Antworten lauten wie folgt:
-
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
-
-**Zurzeit sehen wir die Antwort wie folgt:**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>1514187733806-729395</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>1573612762055-214017</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
-
-**Nach dem 4. Mai lautet die Antwort:**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
-
-## Target Standard/Premium 20.4.1 (6. Mai 2020) 
-
-Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderungen:
-
-* Es wurde ein Problem behoben, durch das Geräte- und Browsertypen für eine Audience fälschlicherweise qualifiziert wurden. (TGT-36266)
-* Es wurde ein Fehler behoben, der verhinderte, dass Berichtsdaten angezeigt wurden, wenn sie auf Bildschirmen mit einer Breite von weniger als 963 Pixeln angezeigt wurden. (TGT-36549)
-* Es wurde ein Fehler behoben, der dazu führte, dass Berichte zur automatischen Personalisierung nicht korrekt dargestellt wurden. (TGT-36619)
-* Es wurde ein Fehler behoben, der dazu führte, dass inkompatible Metriken in Aktivitäten mit automatischer Zuordnung und automatischem Target, die Analytics zum Target (A4T) verwenden, ausgewählt wurden. (TGT-36646)
-* Es wurde ein Fehler behoben, der dazu führte, dass bestimmte Optionen im Visual Experience Composer (VEC) nicht korrekt angezeigt wurden. (TGT-36571)
-* Es wurde ein Fehler in der Benutzeroberfläche des Targets behoben, der dazu führte, dass andere Vorschauen des Recommendations-Angebots den bearbeiteten Inhalt anzeigten, nachdem ein Benutzer den Inhalt in einem Erlebnis ersetzt hatte. (TGT-36053 und TGT-36894)
-* Es wurde ein Fehler behoben, der verhinderte, dass einige Benutzer Elemente aus einem Recommendations-Katalog löschen konnten. (TGT-36455)
-* Es wurde ein Fehler behoben, der verhinderte, dass Benutzer Recommendations-Kriterien auf einer mehrseitigen Aktivität speichern konnten. (TGT-36249)
-* Es wurde ein Fehler behoben, der dazu führte, dass die Optionsfelder der verhaltensbasierten Datenquelle beim Bearbeiten der Kriterien eine zweite aufeinander folgende Zeit lang ausgeblendet wurden. (TGT-36796)
-* Es wurde ein Anzeigeproblem behoben, das dazu führte, dass ein Recommendations-Algorithmus &quot;Ergebnisse abrufen&quot;für einen längeren Zeitraum anzeigte. (TGT-36550 und TGT-36551)
-* Viele in verschiedenen Sprachen lokalisierte Benutzeroberflächenzeichenfolgen wurden aktualisiert.
 
 ## Zusätzliche Versionshinweise und Versionshinweise
 
