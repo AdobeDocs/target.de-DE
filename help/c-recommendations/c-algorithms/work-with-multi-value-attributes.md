@@ -1,9 +1,12 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
-description: Informationen zum Arbeiten mit einem Feld mit mehreren Werten in Adobe Zielgruppe Recommendations mithilfe spezieller Operatoren mit mehreren Werten.
-title: Arbeiten mit Attributen mit mehreren Werten in Adobe Zielgruppe Recommendations
+description: Informationen zum Arbeiten mit einem Feld mit mehreren Werten in Adobe Target Recommendations mithilfe spezieller Operatoren mit mehreren Werten.
+title: Arbeiten mit Attributen mit mehreren Werten in Adobe Target Recommendations
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +70,7 @@ Die folgenden Operatoren stehen für Entitäts-, Profil- und Mbox-Attribute mit 
 
 >[!NOTE]
 >
->Die Unterstützung für die dynamische Zuordnung zu Attributen mit mehreren Werten ist derzeit nur in Kriterien verfügbar, wenn beim Vergleich eines Profil-Attributzuweises oder einer Parameterzuordnungsregel (mbox) ein einzelner Wert links mit einem Mehrwert rechts verglichen wird. Anfang 2020 werden Promotions, die Zuordnung von Entitätsattributen und Listen auf der linken Seite der Einschlussregeln unterstützt.
+>Die Unterstützung für die dynamische Zuordnung zu Attributen mit mehreren Werten ist derzeit nur in Kriterien verfügbar, wenn beim Vergleich eines Profil-Attributzuweises oder einer Parameterzuordnungsregel (mbox) ein einzelner Wert links mit einem Mehrwert rechts verglichen wird. Attribute mit mehreren Werten werden derzeit nicht in Promotions, Entitätsattributzuordnung oder für Listen auf der linken Seite von Einschlussregeln unterstützt.
 
 
 ### Beispiel: Zuletzt überwachte Elemente ausschließen
