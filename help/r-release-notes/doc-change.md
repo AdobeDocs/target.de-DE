@@ -5,10 +5,10 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
+source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 35%
+source-wordcount: '1222'
+ht-degree: 34%
 
 ---
 
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 17. Juni | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das Thema wurde aktualisiert. |
+|  | [Antwort-Token](/help/administrating-target/response-tokens.md) | Es wurden Informationen zu Antwort-Token für die Traffic-Zuordnungsmethode für [!UICONTROL Aktivitäten für automatisches Target] und [!UICONTROL automatisierte Personalisierung] hinzugefügt. |
 |  | [Aktivitätserstellung](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Es wurden Informationen zur Unterstützung von Analytics für Target (A4T) für Aktivitäten mit automatisierter Zuordnung hinzugefügt. |
 |  | [Benutzer](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Es wurden Informationen zur neuen [!UICONTROL Herausgeberrolle] unter Rollen und Berechtigungen *festlegen* hinzugefügt. |
 |  | [Konfigurieren von Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Informationen zur neuen [!UICONTROL Herausgeberrolle] unter *Schritt 6 hinzugefügt: Legen Sie Rollen und Berechtigungen* fest. |
