@@ -5,10 +5,10 @@ title: Steigerung und Konfidenz – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 894954ef73c0f65468d5c406ac1040d532e74b17
+source-git-commit: 51b0a0b1666e03f2910335b34091d2b825082ac7
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 55%
+source-wordcount: '496'
+ht-degree: 50%
 
 ---
 
@@ -31,7 +31,7 @@ Die Konfidenzniveau ist die Wahrscheinlichkeit, dass die gemessene Konversionsra
 
 ## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen?  {#lift-confidence}
 
-Berechnete Metriken werden derzeit nicht in den Funktionen Steigerung und Konfidenz unterstützt. Dies liegt daran, dass Analytics Metriken auf Aggregat- statt auf Besucher-Ebene berechnet. Konfidenz ist vor allem eine Berechnung auf Besucher-Ebene.
+Berechnete Metriken werden derzeit nicht in den Funktionen Steigerung und Konfidenz unterstützt. Dies ist darauf zurückzuführen, dass Analytics Metriken auf der Ebene des Aggregats und nicht auf der Ebene des Besuchers berechnet. Konfidenz ist vor allem eine Berechnung auf Besucher-Ebene.
 
 Nicht berechnete (Standard-)Ereignis werden in Steigerung und Konfidenz unterstützt. Sie werden in der Steigerungsfunktion zum Zähler. der Zähler kann keine Berechnung selbst sein. Der Nenner sind die normalisierenden Metriken (Impressionen, Besuche oder Besucher). Beispiele für Standard-Ereignis sind Bestellungen, Umsatz, Aktivitäten-Konversionen, benutzerdefinierte Ereignis 1-1000 usw. Dies bedeutet, dass gängige Optimierungsmetriken wie die Konversationsrate (Bestellungen/Besucher) und RPV (Umsatz/Besucher) in Steigerung und Konfidenz unterstützt werden.
 
@@ -42,9 +42,7 @@ Beispiele für nicht unterstützte Metriken oder Anwendungsfälle:
 
 ## Wie verwaltet A4T Konfidenzberechnungen?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T verwendet nicht binäre Metrikberechnungen mit Daten der Quadratsumme. Die Varianz wird mit den Daten der Quadratsumme errechnet. Extreme Bestellungen werden nicht berücksichtigt.
-
-Es können alle Analytics-Segmente für den Bericht übernommen werden. So können Sie die „extreme Bestellung“ zu den anderen Segmentoptionen hinzufügen. Eine Metrik kann außerdem zum Beschränken von Elementen zusammengestellt werden, zum Beispiel, wie oft ein Besucher konvertiert.
+A4T verwendet nicht binäre Metrikberechnungen mit Daten der Quadratsumme. Die Varianz wird mit den Daten der Quadratsumme errechnet. Extreme Bestellungen werden nicht berücksichtigt. Darüber hinaus wendet die Konfidenzberechnung keine Bonferroni-Korrektur für mehrere Angebot an.
 
 ## Funktionieren die Steigerung und die Konfidenz mit Ad Hoc und Report Builder? Wenn es nicht nativ ist, kann ich es dann selbst hinzufügen? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
