@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 89%
+source-wordcount: '1571'
+ht-degree: 87%
 
 ---
 
@@ -62,6 +62,8 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
    |  | `profile.categoryAffinities` | Gibt eine Reihe der Top-5-Kategorien des Besuchers als Zeichenfolgen zurück. |
    | Aktivität | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Details der aktuellen Aktivität. Beachten Sie, dass „option“ und „offer“ gleich sind. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Weitere Informationen zur Verwendung von Geo-Targeting in Aktivitäten finden Sie unter [Geo](/help/c-target/c-audiences/c-target-rules/geo.md). |
+   | Traffic-<br>ZuordnungsmethodeGilt nur für [!UICONTROL Auto-Target] - und [!UICONTROL automatisierte Personalisierungslösungen] . | `experience.trafficAllocationId` | Gibt 0 zurück, wenn ein Besucher ein Erlebnis aus dem &quot;Kontroll&quot;-Traffic erhalten hat, und 1, wenn ein Besucher ein Erlebnis aus der &quot;zielgerichteten&quot; Traffic-Verteilung erhalten hat. |
+   |  | `experience.trafficAllocationType` | Gibt &quot;Kontrolle&quot;bzw. &quot;Targeting&quot;zurück. |
 
    Benutzerprofil- und Kundenattribute werden ebenfalls in der Liste angezeigt.
 
