@@ -5,10 +5,10 @@ title: Umgebung
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 61%
+source-wordcount: '702'
+ht-degree: 63%
 
 ---
 
@@ -21,17 +21,11 @@ Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für e
 >
 >Die Informationen in diesem Thema wurden aktualisiert, um Ihnen einen kurzen Höhepunkt bei den UI-Änderungen zu geben, die in der Target Standard/Premium-Version 20.6.1 (Juli 2020) erscheinen. Die meisten der in diesem Thema dargestellten Informationen gelten für die aktuelle Benutzeroberfläche; Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten.
 
-Das Hauptziel bei der Hostverwaltung besteht darin, dafür zu sorgen, dass auf der Seite nicht versehentlich inaktive Inhalte erscheinen. Hostverwaltung ermöglicht es Ihnen zudem, Berichtsdaten nach Umgebung aufzuteilen.
-
-A [host](/help/administrating-target/hosts.md) is any web server (or web domain) from where you serve content during any stage of your project. Alle Hosts, die eine Mbox beliefern, werden erkannt.
-
 Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Es können beispielsweise mehrere Dutzend Hosts in zwei oder drei Umgebungen aufgeteilt werden. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. Sie können nach Wunsch neue Umgebungen hinzufügen oder alte umbenennen.
 
 One environment, the default environment, is pre-named [!UICONTROL Production]. Die Standardumgebung kann nicht gelöscht werden, auch nicht, wenn sie umbenannt wird. In [!DNL Target] wird angenommen, dass in dieser Gruppe fertiggestellte, genehmigte Aktivitäten und Tests bereitgestellt werden.
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Über die Hostverwaltung kann außerdem problemlos für die Qualität neuer Aktivitäten und Inhalte in der Testumgebung, Staging-Umgebung und Entwicklungsumgebung vor der Aktivierung der Aktivitäten gesorgt werden.
-
-[!DNL Target] beschränkt keine Hosts, die mboxes senden und empfangen können. Wenn also neue Server oder Domänen entstehen, funktionieren sie automatisch (es sei denn, Sie haben eine zulassungsliste oder blockierungsliste des eingerichtet). Auf diese Weise wird auch das Testen von Werbeanzeigen auf verschiedenen Domänen ermöglicht, die unbekannt sind oder nicht antizipiert werden können.
 
 Um Umgebung zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Umgebung]**.
 
@@ -60,8 +54,7 @@ So legen Sie die Standardumgebung für die Berichterstellung fest:
 
 ## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. From the [!UICONTROL Environment] list, click the **[!UICONTROL Environments]** tab.
-1. Click the **[!UICONTROL Edit]** icon.
+1. Klicken Sie in der Liste [!UICONTROL Umgebung] auf das Symbol **[!UICONTROL Bearbeiten]** .
 1. Ändern Sie den Namen der Umgebung.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
