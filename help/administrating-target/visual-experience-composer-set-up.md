@@ -1,13 +1,13 @@
 ---
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
-description: Konfigurieren Sie den Adobe Zielgruppe Visual Experience Composer (VEC), indem Sie seine allgemeinen Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
-title: Adobe Zielgruppe Visual Experience Composer konfigurieren
+description: Konfigurieren Sie den Adobe Target Visual Experience Composer (VEC), indem Sie seine allgemeinen Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
+title: Adobe Target Visual Experience Composer konfigurieren
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 57%
+source-wordcount: '686'
+ht-degree: 52%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 57%
 # Konfigurieren des Visual Experience Composer
 
 Konfigurieren Sie den [!DNL Adobe Target] Visual Experience Composer  (VEC), indem Sie dessen allgemeine Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
+
+>[!NOTE]
+>
+>Die unten aufgelisteten Themen in diesem Abschnitt wurden aktualisiert, um Ihnen einen Spitzenwert bei den Änderungen der Benutzeroberfläche in der Version [!DNL Target Standard/Premium] 20.6.1 (Juli 2020) zu geben. Die meisten der in diesen Themen dargestellten Informationen gelten für die aktuelle Benutzeroberfläche; Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten.
 
 Um auf die Konfigurationsseite des [!UICONTROL Visual Experience Composer] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
@@ -38,15 +42,15 @@ Die Standard-URL, die von [!UICONTROL Visual Experience Composer] verwendet wird
 
 ### Erweiterten Experience Composer aktivieren
 
-Ermöglicht die Bearbeitung auf Sites, die iFrames zerstören, sowie auf Seiten mit gemischten Inhalten. Einige Sites sind möglicherweise nicht mit der erweiterten Version kompatibel. Deaktivieren Sie diese Option, um zum ursprünglichen Visual Experience Composer zurückzukehren. Die Aktivitätenbereitstellung auf Sites wird durch diese Auswahl nicht beeinträchtigt.
+Ermöglicht die Bearbeitung auf Sites, die iFrames zerstören, sowie auf Seiten mit gemischten Inhalten. Einige Sites sind möglicherweise nicht mit der erweiterten Version kompatibel. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. Die Aktivitätenbereitstellung auf Sites wird durch diese Auswahl nicht beeinträchtigt.
 
 Weitere Informationen finden Sie unter [Fehlerbehebung beim Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-Sie können den Enhanced Experience Composer auch auf der Ebene der Aktivität aktivieren.
+You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
 
 ### Gemischte Inhalte laden
 
-Aktivieren von gemischten Inhalten beim Öffnen einer Website mit dem Enhanced Experience Composer (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
 
 Diese Option ist hilfreich, wenn Sie zum Beispiel:
 
