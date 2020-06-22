@@ -5,10 +5,10 @@ title: Berechtigungen für Unternehmensbenutzer
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 984a58373c1a19fa4faf9041b5e3fb0c523fa4b5
 workflow-type: tm+mt
 source-wordcount: '2996'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -199,7 +199,7 @@ Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL 
 
 * **Zielgruppenerstellung:** Bei Erstellung einer neuen Zielgruppe wird diese dem aktuell ausgewählten Arbeitsbereich zugewiesen.
 * **Angebotserstellung:** Bei Erstellung eines neuen Angebots wird dieses dem aktuell ausgewählten Arbeitsbereich zugewiesen.
-* **Seite &quot;Eigenschaften&quot;(&quot;Einstellungen&quot;> &quot;Eigenschaften&quot;):** Sie können das Feld [!UICONTROL Suchen] verwenden, um die Liste [!UICONTROL Eigenschaft] zu durchsuchen.
+* **Eigenschaftenseite (Einrichtung > Eigenschaften):** Sie können das Feld [!UICONTROL Suchen] verwenden, um die Liste [!UICONTROL Eigenschaft] zu durchsuchen.
 
    ![](assets/properties_list.png)
 
@@ -219,7 +219,7 @@ Consider the following when using or configuring properties and permissions in [
 
    * Visual Experience Composer
    * Berichterstellung
-   * Scene7-Einstellungen
+   * Scene7-Konfiguration
    * Implementierung
    * Properties
    * Hosts
