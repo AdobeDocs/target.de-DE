@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: f81e03cb4bc7cd2080f7c8a8473192858b4bbef8
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 53%
+source-wordcount: '888'
+ht-degree: 49%
 
 ---
 
@@ -42,6 +42,18 @@ You will not see the new user listed on the [!UICONTROL Users] page until the us
 Standardmäßig ist allen [!DNL Target]-Benutzern die Berechtigung „Beobachter“ zugewiesen.
 
 Admin users are identified in the [!UICONTROL Users] list. Wenden Sie sich an einen der Systemadministratoren, wenn Sie Ihre Zugriffsstufe ändern möchten.
+
+## Ansicht von Benutzerinformationen aus dem Target
+
+Sie können eine Liste der aktuellen Benutzer in Ihrer Target-Umgebung, einschließlich ihrer Rollen pro Arbeitsbereich und E-Mail-Adressen, direkt von innerhalb von Target aus Ansicht werden.
+
+Klicken Sie zur Ansicht der Seite &quot;Benutzer&quot;auf **[!UICONTROL Administration]** > **[!UICONTROL Benutzer]**.
+
+![Benutzerdefinierte Liste aus Target](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+
+>[!NOTE]
+>
+>Um bestehende Benutzer zu verwalten oder neue Benutzer hinzuzufügen, müssen Sie die [!UICONTROL Adobe-Admin Console]verwenden, wie nachfolgend beschrieben.
 
 ## Auf die Adobe Admin Console zugreifen {#access}
 
