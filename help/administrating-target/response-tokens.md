@@ -6,23 +6,23 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 87%
+source-wordcount: '1571'
+ht-degree: 85%
 
 ---
 
 
 # Antwort-Token{#response-tokens}
 
-Mithilfe von Antwort-Token können Sie Target-spezifische Informationen automatisch ausgeben (Kampagnendetails, Benutzerprofilinformationen, Geoinformationen usw.), um sie im Debugging zu verwenden oder in Drittanbietersysteme zu integrieren (z. B. Clicktale)..
+Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
 
 >[!NOTE]
 >
 >Die Informationen in diesem Thema wurden aktualisiert, um Ihnen einen kurzen Höhepunkt bei den UI-Änderungen zu geben, die in der Target Standard/Premium-Version 20.6.1 (Juli 2020) erscheinen. Die meisten der in diesem Thema dargestellten Informationen gelten für die aktuelle Benutzeroberfläche; Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten.
 
-Mit Antwort-Token können Sie wählen, welche Variablen Sie verwenden möchten. Anschließend können Sie sie aktivieren, damit sie als Bestandteil einer Mbox-Antwort gesendet werden. Dazu aktivieren Sie einfach eine Variable mithilfe des Switches. Daraufhin wird die Variable mit Mbox-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Antwort-Token können auch im Vorschaumodus verwendet werden.
+Mit Antwort-Token können Sie wählen, welche Variablen Sie verwenden möchten. Anschließend können Sie sie aktivieren, damit sie als Bestandteil einer Mbox-Antwort gesendet werden. Dazu aktivieren Sie einfach eine Variable mithilfe des Switches. Daraufhin wird die Variable mit Mbox-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Response tokens work in [!UICONTROL Preview] mode as well.
 
 Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, dass Plug-ins JavaScript für die Seite bereitstellen, das bei Bereitstellung ausgeführt wird, wohingegen Antwort-Token ein Objekt bereitstellen, das anschließend gelesen und auf das mithilfe von Ereignislistenern reagiert werden kann. Weitere Informationen finden Sie unter  [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) und in den Beispielen im späteren Verlauf dieses Artikels. Der Ansatz der Antwort-Token ist sicherer und ermöglicht eine problemlosere Bereitstellung und Wartung von Drittanbieterintegrationen.
 
