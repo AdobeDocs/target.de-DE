@@ -5,9 +5,9 @@ user-guide-title: Adobe Target-Hilfe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 93%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 93%
 
 + [Adobe Target-Produktdokumentation](target-home.md)
 + Target-Versionshinweise {#release-notes}
-   + [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md)
+   + [Target-Mitteilungen und Ereignisse](/help/r-release-notes/target-announcements.md)
    + [Target-Versionshinweise (aktuell)](r-release-notes/release-notes.md)
    + [Target-Versionshinweise (Vorabversion)](r-release-notes/target-release-notes.md)
-   + [Zielgruppe Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md)
+   + [Target Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md)
    + [Bekannte Probleme und gelöste Probleme](r-release-notes/known-issues-resolved-issues.md)
    + [Systemstatusaktualisierungen und proaktive Benachrichtigungen](r-release-notes/system-status-updates.md)
    + [Dokumentationsänderungen](r-release-notes/doc-change.md)
@@ -41,7 +41,7 @@ ht-degree: 93%
    + Berichterstellung {#reporting}
       + [Berichte konfigurieren](/help/administrating-target/reporting.md)
       + [Schätzen der Umsatzsteigerung](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Integration von Dynamic Media Classic](administrating-target/scene7-settings.md)
+   + [Scene7-Konfiguration](administrating-target/scene7-settings.md)
    + [Implementierung](/help/administrating-target/implementation.md)
    + [Hosts](administrating-target/hosts.md)
    + [Umgebung](/help/administrating-target/environments.md)
@@ -67,7 +67,7 @@ ht-degree: 93%
          + [SameSite-Cookie-Richtlinien von Google Chrome](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Richtlinien zur Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Kantenknoten für zulässige Zielgruppen](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Zulassungsliste-Target-Edge-Knoten](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Verfahren für die Datenübernahme in Target {#methods}
          + [Methoden](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profil-API-Einstellungen](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -142,12 +142,12 @@ ht-degree: 93%
       + [Versenden von Aktivitätsinformationen an Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Mobile Target-Vorschau](c-target-mobile-app/target-mobile-preview.md)
       + [Vorabruf des Angebotsinhalts](c-target-mobile-app/prefetch-offer-content.md)
-      + [Häufig gestellte Fragen zur Zielgruppe von Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Häufig gestellte Fragen zum Target für mobile Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Standortdienst verwenden](/help/c-target-mobile-app/use-location-service.md)
    + Server-seitig: Target-Implementierung {#server-side}
-      + [Versionshinweise - serverseitige APIs der Zielgruppe](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [Versionshinweise - Zielgruppe Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [Versionshinweise - Zielgruppe Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
+      + [Versionshinweise - serverseitige APIs für Targets](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Versionshinweise - Target Node.js-SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [Versionshinweise - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Server-seitig: Target-Implementierung – Überblick](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Übergang von Target-Legacy-APIs zu Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + E-Mail: Target-Implementierung {#implement-email}
