@@ -1,11 +1,14 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Adobe Target-Systemdiagramm zur Darstellung des Anruf- und Informationsflusses bei Aufrufen oder Datensammlungen einer automatisch erstellten globalen Mbox bei der Verwendung von „at.js“.
-title: So funktioniert die JavaScript-Bibliothek "at.js"der Adobe-Zielgruppe
+title: Funktionsweise der JavaScript-Bibliothek "at.js"im Adobe Target
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+workflow-type: tm+mt
+source-wordcount: '1123'
+ht-degree: 88%
 
 ---
 
@@ -91,10 +94,27 @@ Wichtige Hinweise:
 * at.js garantiert nicht die Reihenfolge der Ausführung von Remote-Skripten, da diese asynchron geladen werden.
 * Inline-Skripte sollten nicht von Remote-Skripten abhängig sein, da diese später geladen und ausgeführt werden.
 
-## Schulungsvideo: &quot;at.js 2.x&quot;-Zeichen ![für Architekturdiagramme](/help/assets/overview.png)
+## Schulungsvideos
+
+In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
+
+### &quot;at.js 2.x&quot;-Zeichen ![für Architekturdiagramme](/help/assets/overview.png)
 
 at.js 2.x verbessert die Unterstützung von Adobe Target für SPAs und kann mit anderen Experience Cloud-Lösungen integriert werden. In diesem Video wird erklärt, wie alles zusammenkommt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Weitere Informationen finden Sie unter [Die Funktionsweise](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) von at.js 2.x.
+
+### Bürozeiten: &quot;at.js&quot;-Tipps und Übersicht (26. Juni 2019) ![Lehrplanausweis](/help/assets/tutorial.png)
+
+Dieses Video ist eine Aufzeichnung von Office Hours, eine Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
+
+* Vorteile der Verwendung von &quot;at.js&quot;
+* &quot;at.js&quot;-Einstellungen
+* Handhabung von Flackern
+* Debuggen von „at.js“
+* Bekannte Probleme
+* FAQs
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
