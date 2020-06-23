@@ -5,10 +5,10 @@ title: Hinweise zur Vorabversion des Adobe Targets
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 058828bbf3f13704d9e941563b7dab5259be6809
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 14%
+source-wordcount: '545'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert: 17. Juni 2020**
+**Zuletzt aktualisiert: 23. Juni 2020**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -35,19 +35,45 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 * **Target-Mitteilungen**: Auf der Seite &quot;Ankündigungen zum Target&quot;finden Sie Informationen zu kommenden Ereignissen, einschließlich Target Skill Builder-Sitzungen, Entwicklerchats, Webinars und Target Coffee Break-Sitzungen. Weitere Informationen finden Sie unter [Target-Mitteilungen](/help/r-release-notes/target-announcements.md).
 
 
-## Target Standard/Premium 20.5.1 (17. Juni 2020) 
+## Target Standard/Premium 20.6.1 (Juli 2020, genaues Datum TBD)
 
-| Funktion  / Verbesserung | Beschreibung |
-| --- | --- |
-| Analytics for Target (A4T) Unterstützung für [!UICONTROL Aktivitäten mit automatisierter Zuordnung] | [!UICONTROL Aktivitäten mit automatisierter Zuordnung] unterstützen jetzt [Analytics zum Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Diese Integration ermöglicht Ihnen die Verwendung der [!UICONTROL Funktion &quot;Automatisierte Zuordnung] von Multi-Armed Bandit&quot;, um Traffic zu erfolgreichsten Erlebnissen zu steigern, während Sie eine [!UICONTROL Adobe Analytics] -Zielmetrik und/oder Funktionen für den Berichte und die Analyse von [!UICONTROL Adobe Analytics] verwenden.<br>Wenn Sie bereits A4T [für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) implementiert haben, sind Sie alle bereit!<br>Weitere Informationen finden Sie unter Unterstützung von [Analytics für Target (A4T) für Aktivitäten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) mit automatisierter Zuordnung bei der Erstellung von *Aktivitäten*. |
-| Antwort-Token für die Traffic-Zuordnungsmethode für Aktivitäten mit automatischem Target und automatisierter Personalisierung | Zwei [Antworttokens](/help/administrating-target/response-tokens.md) wurden zu den Aktivitäten [!UICONTROL Automatisches Target] und [!UICONTROL Automatisierte Personalisierung] hinzugefügt, um festzustellen, ob ein Besucher ein bestimmtes Erlebnis erhalten hat, weil ihm &quot;Steuerung&quot;oder &quot;zielgerichteter&quot;Traffic zugewiesen wurde.<ul><li>`experience.trafficAllocationId` gibt 0 zurück, wenn ein Besucher ein Erlebnis aus dem Traffic &quot;Kontrolle&quot;erhalten hat, und 1, wenn ein Besucher ein Erlebnis aus der &quot;gezielten&quot;Traffic-Verteilung erhalten hat.</li><li>`experience.trafficAllocationType` gibt &quot;Kontrolle&quot;oder &quot;Targeting&quot;zurück.</li></ul>Weitere Informationen zu Kontroll- und zielgerichtetem Traffic finden Sie unter [Auswählen des Steuerelements für Ihre automatisierte Personalisierung oder Auto-Target-Aktivität](/help/c-activities/t-automated-personalization/experience-as-control.md). |
-| [!UICONTROL Herausgeberrolle] | Diese neue Rolle ähnelt der aktuellen [!UICONTROL Beobachterrolle] (Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die [!UICONTROL Herausgeberrolle] verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten.<br>Weitere Informationen finden Sie unter: <ul><li>**Target Standard-Benutzer**: [Legen Sie Rollen und Berechtigungen](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Benutzern* fest.</li><li>**Target Premium-Nutzer**: [Schritt 6: Legen Sie Rollen und Berechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) unter *Unternehmensberechtigungen* konfigurieren fest.</li></ul> |
-| A4T-Unterstützung am 25. [!DNL Analysis Workspace]<br>Juni 2020 | [!UICONTROL Analytics für Target] (A4T) wird jetzt in unterstützt [!DNL Analysis Workspace]. Im Bedienfeld [!UICONTROL &quot;] Analytics für Target (A4T)&quot;können Sie Ihre [!DNL Adobe Target] Aktivitäten und Erlebnisse in analysieren [!DNL Analysis Workspace].<br>Weitere Informationen finden Sie unter [Berichte in Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) im Bereich *A4T-Berichte* und [Analytics für Target (A4T) im](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics Tools-Handbuch **. |
+Diese Version umfasst die folgenden Verbesserungen:
 
-### Verbesserungen, Korrekturen von Problemen und Änderungen
+### Analytics für Target (A4T)-Unterstützung für [!UICONTROL Auto-Target] -Aktivitäten
 
-* Es wurde ein Fehler behoben, der dazu führte, dass die Metrik &quot;Besucher&quot;in der Definition der Aktivität statt &quot;UniqueVisitors&quot;gespeichert wurde. (TGT-37098)
-* Es wurde ein Fehler in der [!DNL Target] Benutzeroberfläche behoben, der dazu führte, dass die vertikale Bildlaufleiste auf der Seite &quot; [!UICONTROL Audiencen] &quot;nicht korrekt funktionierte. (TGT-36968)
+[!UICONTROL Auto-Target] -Aktivitäten unterstützen jetzt [Analytics für Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+
+Diese Integration nutzt fortschrittliches maschinelles Lernen, um aus mehreren leistungsstarken, von Marketingexperten definierten Erlebnissen auszuwählen, um Inhalte zu personalisieren und Konversionen zu fördern. Automatisches Targeting stellt das benutzerspezifische Erlebnis für jeden Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten voriger Besucher mit ähnlichen Profilen bereit.
+
+Wenn Sie bereits A4T [für die Verwendung mit A/B-Test-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) implementiert haben, sind Sie alle bereit!
+
+### [!UICONTROL Aktualisierung der Benutzeroberfläche des Administrationsbereichs]
+
+Wir haben den [!UICONTROL Administrationsbereich] (früher [!UICONTROL Admin]) und seine Seiten aktualisiert, um Ihre Workflows einfacher und effizienter zu gestalten.
+
+Zu den Highlights gehören:
+
+* **[!UICONTROL Visual Experience Composer]-Seite **: Auf dieser neuen Seite (**[!UICONTROL Administration ]**>**[!UICONTROL Visual Experience Composer ]**) können Sie:
+
+   * Konfigurieren Sie allgemeine Einstellungen für VEC (geben Sie die Standard-URL an, aktivieren Sie den [!UICONTROL Enhanced Experience Composer], laden Sie gemischte Inhalte und erstellen Sie Erlebnismomentaufnahmen im Flussdiagramm der Aktivität)
+   * Mobile Viewports konfigurieren
+   * CSS-Selektoren konfigurieren
+
+* **[!UICONTROL Berichte]-Seite **: Auf dieser neuen Seite (**[!UICONTROL Administration ]**>**[!UICONTROL Berichte ]**) können Sie allgemeine Einstellungen konfigurieren, die in[!DNL Target]Berichte verwendet werden, die für Ihr gesamtes[!DNL Target]Konto gelten.
+
+   Zu den verfügbaren Einstellungen gehören:
+
+   * Die [!DNL Adobe Experience Cloud] für den Berichte zu verwendende Lösung
+   * Die für den Berichte zu verwendende Zeitzone
+   * Die für den Berichte zu verwendende Währung
+   * IP-Adressen, die vom Berichte ausgeschlossen werden
+   * Zeigt eine geschätzte Umsatzsteigerung im Berichte an
+   * Eignung für genau festgelegte Prioritäten
+
+* Die vorherige [!UICONTROL Hostingseite] wurde in zwei neue Seiten unterteilt:
+
+   * [!UICONTROL Hosts]
+   * [!UICONTROL Umgebung]
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
