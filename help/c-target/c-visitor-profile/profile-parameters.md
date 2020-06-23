@@ -5,10 +5,10 @@ title: Profilattribute in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2d4dd143056218c2f67f0641c15059cd078111b
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 80%
+source-wordcount: '2442'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 80%
 
 Profilattribute sind Parameter, die speziell für einen Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Aktivitäten verwendet werden können.
 
-Ein Profil eines Benutzers enthält demografische und verhaltensbezogene Informationen über einen Besucher einer Webseite, z. B. Alter, Geschlecht, erworbene Produkte, letzte Besuchszeit usw. Diese Zielgruppe verwendet diese Informationen, um die Inhalte, die dem Besucher zur Verfügung stehen, zu personalisieren.
+Ein Profil eines Benutzers enthält demografische und verhaltensbezogene Informationen zu einem Besucher einer Webseite, z. B. Alter, Geschlecht, erworbene Produkte, letztes Mal bei einem Besuch usw. In diesem Target werden die Inhalte, die dem Besucher zur Verfügung stehen, personalisiert.
 
 Wenn ein Besucher auf Ihrer Website surft oder der Besucher zu einer anderen Sitzung zurückkehrt, können die im Profil gespeicherten Profil-Attribute zur Zielgruppe von Inhalten oder Protokollinformationen für die Segmentfilterung verwendet werden.
 
@@ -80,6 +80,7 @@ Beachten Sie die folgenden Informationen:
 * Weitere JavaScript-Syntax finden Sie im Abschnitt „JavaScript-Referenz für Skript-Profilparameter“.
 * Der Parameter bleibt nach dem Deaktivieren des Profils im Skript. Benutzer, deren Profil bereits einen Parameter enthalten, der in der Audience einer Aktivität verwendet wird, können sich für diese Aktivität qualifizieren.
 * Profil-Skripten können nicht gelöscht werden, während sie in einer Aktivität verwendet werden.
+* Es wird nicht empfohlen, Skripte mit abhängigen Profilen zu erstellen, die das Ergebnis eines Profil-Skripts in einem anderen Profil-Skript verwenden. Die Reihenfolge der Ausführung von Profil-Skripten ist nicht garantiert.
 
 ## Anzeigen der Karten mit Profilskriptinformationen {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
@@ -141,7 +142,7 @@ Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verf
    * Halten Sie Profil-Skripten klein und so einfach wie möglich.
    * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur sehr einfache reguläre Ausdrücke. Sogar einfache Ausdruck können viele Anleitungen zur Bewertung verwenden.
    * Rekursion vermeiden.
-   * Profil-Skripten sollten vor dem Hinzufügen zur Zielgruppe einem Leistungstest unterzogen werden. Alle Profil-Skripten werden bei jeder mbox-Anfrage ausgeführt. Wenn Profil-Skripten nicht korrekt ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger. Dies könnte sich auf Traffic und Umrechnung auswirken.
+   * Profil-Skripten sollten vor dem Hinzufügen zu Target einem Leistungstest unterzogen werden. Alle Profil-Skripten werden bei jeder mbox-Anfrage ausgeführt. Wenn Profil-Skripten nicht korrekt ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger. Dies könnte sich auf Traffic und Umrechnung auswirken.
    * Wenn Profil-Skripte zu komplex werden, sollten Sie stattdessen [Antwort-Token](/help/administrating-target/response-tokens.md) verwenden.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
