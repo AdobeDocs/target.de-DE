@@ -5,9 +5,9 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1273'
 ht-degree: 33%
 
 ---
@@ -23,6 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 23. Juni | [Target-Mitteilungen und Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur Kaffeepause vom 24. Juni hinzugefügt. |
 |  | [Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md) | Es wurde ein Hinweis hinzugefügt, dass das Erstellen von Skripten mit abhängigen Profilen, die das Ergebnis eines Profil-Skripts in einem anderen Profil-Skript verwenden, nicht empfohlen wird. |
+|  | [Funktionsweise von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Das folgende Video wurde hinzugefügt: Bürozeiten: &quot;at.js&quot;-Tipps und -Übersicht |
 | 17. Juni | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das Thema wurde aktualisiert. |
 |  | [Antwort-Token](/help/administrating-target/response-tokens.md) | Es wurden Informationen zu Antwort-Token für die Traffic-Zuordnungsmethode für [!UICONTROL Aktivitäten für automatisches Target] und [!UICONTROL automatisierte Personalisierung] hinzugefügt. |
 |  | [Aktivitätserstellung](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Es wurden Informationen zur Unterstützung von Analytics für Target (A4T) für Aktivitäten mit automatisierter Zuordnung hinzugefügt. |
