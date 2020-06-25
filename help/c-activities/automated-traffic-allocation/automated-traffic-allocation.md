@@ -5,10 +5,10 @@ title: Automatische Zuordnung
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
 workflow-type: tm+mt
-source-wordcount: '3026'
-ht-degree: 90%
+source-wordcount: '3014'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ Die Abbildung zeigt, wie sich der den einzelnen Erlebnissen zugeordnete Traffic 
 
 Verfügt die Aktivität nur über zwei Erlebnisse, erhalten beide gleich große Anteile des Traffics, bis Target das Erlebnis mit 90 % Konfidenz ermitteln konnte. Ab diesem Zeitpunkt werden 70 % des Traffics an das Gewinnerlerlebnis und 30 % an das andere Erlebnis weitergeleitet. Wird eine Konfidenz von 95 % erzielt, werden 100 % des Traffics an das Gewinnerlerlebnis weitergeleitet und 0 % an das übrige Erlebnis.
 
-Wenn das Modell für eine automatisierte Zuordnungsaktivität bereit ist (alle Erlebnisse haben mindestens 1.000 Besucher und 50 Konversionen), sind folgende Vorgänge über die Benutzeroberfläche nicht mehr zulässig:
+After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
 * Umschalten des Modus „Traffic-Zuordnung“ auf „Manuell“
 * Ändern des Zielmetriktyps
