@@ -5,10 +5,10 @@ title: Hinweise zur Vorabversion des Adobe Targets
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 15%
+source-wordcount: '558'
+ht-degree: 18%
 
 ---
 
@@ -59,30 +59,6 @@ Im Rahmen dieser Aktualisierung können Sie auf einfache Weise viele Aktionen mi
 * IP-Adressen von Besuchern aus Datenschutzgründen verschleiern (**[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**)
 * Ansicht der bestehenden Liste der Benutzer nach Arbeitsbereich und deren Rollen, bevor sie in Adobe Admin Console verwaltet werden (**[!UICONTROL Administration]** > **[!UICONTROL Benutzer]**).
 * Suchen und filtern Sie alle Tabellen im Abschnitt &quot; [!UICONTROL Administration] &quot;.
-
-Zu den bedeutsamen Änderungen gehören:
-
-* **[!UICONTROL Visual Experience Composer]-Seite **: Auf dieser neuen Seite (**[!UICONTROL Administration ]**>**[!UICONTROL Visual Experience Composer ]**) können Sie:
-
-   * Konfigurieren Sie allgemeine Einstellungen für VEC (geben Sie die Standard-URL an, aktivieren Sie den [!UICONTROL Enhanced Experience Composer], laden Sie gemischte Inhalte und erstellen Sie Erlebnismomentaufnahmen im Flussdiagramm der Aktivität)
-   * Mobile Viewports konfigurieren
-   * CSS-Selektoren konfigurieren
-
-* **[!UICONTROL Berichte]-Seite **: Auf dieser neuen Seite (**[!UICONTROL Administration ]**>**[!UICONTROL Berichte ]**) können Sie allgemeine Einstellungen konfigurieren, die in[!DNL Target]Berichte verwendet werden, die für Ihr gesamtes[!DNL Target]Konto gelten.
-
-   Zu den verfügbaren Einstellungen gehören:
-
-   * Die [!DNL Adobe Experience Cloud] für den Berichte zu verwendende Lösung
-   * Die für den Berichte zu verwendende Zeitzone
-   * Die für den Berichte zu verwendende Währung
-   * IP-Adressen, die vom Berichte ausgeschlossen werden
-   * Zeigt eine geschätzte Umsatzsteigerung im Berichte an
-   * Eignung für genau festgelegte Prioritäten
-
-* Die vorherige [!UICONTROL Hostingseite] wurde in zwei neue Seiten unterteilt:
-
-   * [!UICONTROL Hosts]
-   * [!UICONTROL Umgebung]
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
