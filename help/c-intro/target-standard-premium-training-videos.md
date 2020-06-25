@@ -1,11 +1,14 @@
 ---
-keywords: Schulungsvideos;YouTube;Videos;Videoschulung;Tutorial;Tutorials;Video
+keywords: training videos;youtube;videos;video training;tutorial;tutorials;video
 description: Sehen Sie sich Schulungsvideos an, in denen Sie erfahren, wie Sie Target Standard und Target Premium optimal nutzen.
 title: Schulungsvideos für Adobe Target Standard und Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 71%
 
 ---
 
@@ -30,7 +33,7 @@ Schulungsvideos wurden in die relevanten Themen dieses Leitfadens eingebettet. K
 
 ## Adobe Target - Tutorials und Videos
 
-Eine Sammlung von Videos und Tutorials, die die Funktionen von Target hervorheben, finden Sie auf der Seite [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target).
+A collection of how-to videos and tutorials highlighting the capabilities of Target available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page.
 
 ![Videos zu Experience League](/help/c-intro/assets/experience-league.png)
 
