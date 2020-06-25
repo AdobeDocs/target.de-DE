@@ -5,10 +5,10 @@ title: Hinweise zur Vorabversion des Adobe Targets
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 18%
+source-wordcount: '555'
+ht-degree: 19%
 
 ---
 
@@ -35,7 +35,7 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 * **Target-Mitteilungen**: Auf der Seite &quot;Ankündigungen zum Target&quot;finden Sie Informationen zu kommenden Ereignissen, einschließlich Target Skill Builder-Sitzungen, Entwicklerchats, Webinars und Target Coffee Break-Sitzungen. Weitere Informationen finden Sie unter [Target-Mitteilungen](/help/r-release-notes/target-announcements.md).
 
 
-## Target Standard/Premium 20.6.1 (Juli 2020, genaues Datum TBD)
+## Target Standard/Premium 20.7.1 (21. Juli 2020) 
 
 Diese Version umfasst die folgenden Verbesserungen:
 
