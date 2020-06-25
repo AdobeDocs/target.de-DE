@@ -5,10 +5,10 @@ title: Hinweise zur Vorabversion des Adobe Targets
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: e99277bdbbed26058abc4e0b1375489fe8ca2df4
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 19%
+source-wordcount: '478'
+ht-degree: 17%
 
 ---
 
@@ -38,14 +38,6 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 ## Target Standard/Premium 20.7.1 (21. Juli 2020) 
 
 Diese Version umfasst die folgenden Verbesserungen:
-
-### Analytics für Target (A4T)-Unterstützung für [!UICONTROL Auto-Target] -Aktivitäten
-
-[!UICONTROL Auto-Target] -Aktivitäten unterstützen jetzt [Analytics für Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
-
-Diese Integration nutzt fortschrittliches maschinelles Lernen, um aus mehreren leistungsstarken, von Marketingexperten definierten Erlebnissen auszuwählen, um Inhalte zu personalisieren und Konversionen zu fördern. Automatisches Targeting stellt das benutzerspezifische Erlebnis für jeden Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten voriger Besucher mit ähnlichen Profilen bereit.
-
-Wenn Sie bereits A4T [für die Verwendung mit A/B-Test-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) implementiert haben, sind Sie alle bereit!
 
 ### [!UICONTROL Aktualisierung der Benutzeroberfläche des Administrationsbereichs]
 
