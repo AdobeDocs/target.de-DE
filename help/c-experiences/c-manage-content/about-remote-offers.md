@@ -1,11 +1,14 @@
 ---
-keywords: Remote-Angebot;Auswahlmatrix für Remote-Angebote;gecachter Inhalt;dynamischer Inhalt
+keywords: remote offer;remote offer selection matrix;cached content;dynamic content
 description: Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen in einem Content-Management- oder einem anderen System befinden.
 title: Remote-Angebote erstellen
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 100%
 
 ---
 
@@ -30,8 +33,8 @@ Einige Beispiele für Remote-Angebote sind:
 
 **So erstellen Sie ein Remote-Angebot:**
 
-1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie anschließend die Registerkarte **Code-Angebote]aus.[!UICONTROL **
-1. Klicken Sie auf **[!UICONTROL Erstellen]** &gt; **[!UICONTROL Remote-Angebot]**.
+1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie anschließend die Registerkarte **[!UICONTROL Code-Angebote]** aus.
+1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Remote-Angebot]**.
 
    ![](assets/remote_offer_ui.png)
 
@@ -78,6 +81,6 @@ Mit der Auswahlmatrix für Remote-Angebote können Sie entscheiden, welcher Typ 
 | Inhaltsaktualisierungen | Alle 2 Stunden im Cache gespeichert | Sofort nach jeder Anforderung aktualisiert |
 | Ladezeit | Schneller | Langsamer aufgrund Anforderungsverarbeitung |
 | JavaScript wird auf Seite angezeigt | Ja | Nein, aber kann per URL übergeben werden |
-| Angebote können JavaScript enthalten. | Ja | Nein |
+| Angebote können JavaScript enthalten. | Ja | Ja |
 | Angebots-URL | Absolut      oder Relativ | Relativ |
 | Anfordernder Computer | Adobe-Server | Der Computer des Besuchers, auf dem die Cookies des Besuchers gespeichert sind |
