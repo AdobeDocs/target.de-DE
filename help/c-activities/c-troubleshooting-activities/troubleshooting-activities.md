@@ -1,11 +1,14 @@
 ---
-keywords: Fehlerbehebung in Target;Problembehebung in Target;Standardinhalte;Test nicht verfügbar;Aktivität nicht verfügbar;Targeting funktioniert nicht;vorheriges Erlebnis erscheint;kann keine Aktivitäten erstellen;Aktivitäten erstellen;Seitenstruktur geändert;Seitenstruktur modifiziert;Fehlermeldung;Fehler beim Löschen von Profilskript;AJAX funktioniert nicht
+keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: Wenn Ihre Aktivität nicht auf Ihrer Site erscheint, helfen Ihnen diese Empfehlungen zur Fehlerbehebung vielleicht bei der Suche nach Ihrer Lösung.
 title: Fehlerbehebung bei Aktivitäten
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 81%
 
 ---
 
@@ -20,9 +23,9 @@ Wenn Ihre Aktivität nicht auf Ihrer Site erscheint, helfen Ihnen diese Empfehlu
 
 Die folgenden Abschnitte enthalten möglicherweise auftretende Probleme sowie Lösungsvorschläge.
 
-## Ich habe eine Aktivität mithilfe der Target-Benutzeroberfläche erstellt und kann sie nicht über die API aktualisieren.
+## Ich habe eine Aktivität mit der Benutzeroberfläche des Targets erstellt und kann sie nicht über die API aktualisieren.
 
-Aktivitäten, die mit der Target-Benutzeroberfläche erstellt wurden, sollten über die Target-Benutzeroberfläche aktualisiert werden. Über API erstellte Aktivitäten sollten über API aktualisiert werden. Wenn Sie beispielsweise ursprünglich eine Aktivität mit der API erstellen, die Aktivität dann später jedoch über die Target-Benutzeroberfläche bearbeiten, werden nicht alle Änderungen aktualisiert. Alle Änderungen werden im Backend gespeichert und können durch einen weiteren API-Aufruf aktualisiert werden.
+Aktivitäten, die mit der Benutzeroberfläche des Targets erstellt wurden, sollten über die Benutzeroberfläche des Targets aktualisiert werden. Über API erstellte Aktivitäten sollten über API aktualisiert werden. Wenn Sie beispielsweise eine Aktivität ursprünglich mit der API erstellen, die Aktivität dann später jedoch über die Benutzeroberfläche des Targets bearbeiten, werden nicht alle Änderungen aktualisiert. Alle Änderungen werden im Backend gespeichert und können durch einen weiteren API-Aufruf aktualisiert werden.
 
 Am besten sollten Sie die Aktivität mit derselben Methode (UI oder API) aktualisieren, mit der die Aktivität ursprünglich erstellt wurde.
 
@@ -54,7 +57,7 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 
 **Optionen:**
 
-* Gehen Sie zum Visual Experience Composer und klicken Sie auf URL\&gt; Erweitert\&gt;Aktuelle Seite.
+* Gehen Sie zum Visual Experience Composer und klicken Sie auf URL\> Erweitert\>Aktuelle Seite.
 
 ## Anstelle eines neuen Erlebnisses wird ein früheres Erlebnis eingeblendet.
 
@@ -76,7 +79,7 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 Nachdem Sie in Target als Benutzer hinzugefügt wurden, müssen Sie die Rolle „Genehmiger“ haben, damit Sie Aktivitäten erstellen können.
 
 * Bitten Sie den Administrator Ihres Konto darum, Ihnen die Genehmigerrolle zu geben.
-* Sollten Sie der Administrator sein, können Sie sich in Target Standard unter Einrichten &gt; Benutzer selbst die Rolle „Genehmiger“ geben.
+* Sollten Sie der Administrator sein, können Sie sich in Target Standard unter Einrichten > Benutzer selbst die Rolle „Genehmiger“ geben.
 
    Weitere Informationen finden Sie unter [Zuweisen der Rolle „Genehmiger“](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -135,10 +138,10 @@ Führen Sie einen der folgenden Schritte aus:
 * Erneut löschen. Die Erfolgsmeldung wird angezeigt.
 * Warten Sie ungefähr 10 Minuten, bis der Target Standard-/Premium-Importer ausgeführt werden kann. Der Importer aktualisiert die Profilskriptliste.
 
-## Einige AJAX-Mbox-Aufrufe funktionieren nicht.
+## Some ajax [!DNL Target] calls are not working.
 
-**Hinweis:** Mehrere AJAX-Mbox-Aufrufe mit demselben Mbox-Namen, jedoch verschiedenen Parametern auf derselben Seite funktionieren nicht. Nur der erste Aufruf erfolgt.
+**Hinweis:** Mehrere AJAX- [!DNL Target] Aufrufe mit demselben Namen, aber unterschiedlichen Parametern funktionieren nicht auf derselben Seite. Nur der erste Aufruf erfolgt.
 
-## Sie haben eine Aktivität über die Target API aktiviert, aber die Aktivität zeigt in der Target-Benutzeroberfläche den Status „Inaktiv“.
+## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
 
 Hinweis: Wenn Sie bestimmte Aktionen ausführen, wie zum Beispiel eine Aktivität außerhalb der Benutzeroberfläche über die Target-API zu aktivieren, kann es bis zu 10 Minuten dauern, bis die Aktualisierung bis zur Benutzeroberfläche propagiert wird.
