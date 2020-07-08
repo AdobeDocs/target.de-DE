@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 81%
+source-wordcount: '1567'
+ht-degree: 77%
 
 ---
 
@@ -51,7 +51,7 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
 
    | Typ | Parameter | Hinweise |
    |--- |--- |--- |
-   | Integrierte Profile | `profile.activeActivities` | Gibt eine Reihe an `activityIds` aus, für die der Besucher qualifiziert ist. Die Inkrementierung erfolgt im Zuge der Benutzerqualifizierung. Auf einer Seite mit zwei Mboxes, die zwei verschiedene Aktivitäten bereitstellen, beinhaltet die zweite Mbox beispielsweise beide Aktivitäten. |
+   | Integrierte Profile | `profile.activeActivities` | Gibt eine Reihe an `activityIds` aus, für die der Besucher qualifiziert ist. Die Inkrementierung erfolgt im Zuge der Benutzerqualifizierung. For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
    |  | `profile.isFirstSession` | Gibt „true“ oder „false“ zurück. |
    |  | `profile.isNewSession` | Gibt „true“ oder „false“ zurück. |
    |  | `profile.daysSinceLastVisit` | Gibt die Anzahl der Tage seit dem letzten Zugriff des Besuchers zurück. |
@@ -71,7 +71,7 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
    >
    >Parameter mit Sonderzeichen werden in der Liste nicht angezeigt. Es werden nur alphanumerische Zeichen und Unterstriche unterstützt.
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
    Klicken Sie auf **[!UICONTROL Hinzufügen Antwort-Token]**, geben Sie den Token-Namen ein und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
 
@@ -79,7 +79,7 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
 
 1. Erstellen Sie eine Aktivität.
 
-Verwenden Sie die benutzerdefinierten [at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md), um auf die Mbox-Antwort zu warten und die Antwort-Token zu lesen.
+Use [at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) to listen for the [!DNL Target] response and read the response tokens.
 
 Mit dem folgenden Code-Beispiel wird direkt ein benutzerdefinierter [!DNL at.js]-Eventhandler auf der HTML-Seite hinzugefügt:
 
@@ -136,15 +136,15 @@ Die Antwort-Token werden zwar angezeigt, at.js kann sie jedoch nicht verwenden.
 
 **Was geschieht, wenn ich at.js 1.1 (oder neuer) auf einigen Seiten meiner Site verwende, während ich auf anderen Seiten mbox.js nutze?**
 
-Antwort-Token werden für [!DNL at.js]-Mbox-Antworten, aber nicht für [!DNL mbox.js]-Antworten bereitgestellt.
+Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
 
 **Können Target Classic-Plug-ins und Antwort-Token gleichzeitig aktiv sein?**
 
 Plug-ins und Antwort-Token sind parallel verfügbar, Plug-ins werden jedoch in der Zukunft eingestellt.
 
-**Werden Antwort-Token über alle Mbox-Antworten oder nur über Mboxes mit Aktivitätsbereitstellung bereitgestellt?**
+**Werden Antworttoken durch alle[!DNL Target]Antworten oder nur durch[!DNL Target]Antworten bereitgestellt, die eine Aktivität liefern?**
 
-Antwort-Token werden nur über Mboxes gesendet, mit deren Hilfe eine Aktivität bereitgestellt wird.
+Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
 **Mein Target Classic-Plug-in beinhaltet JavaScript. Wie reproduziere ich diese Funktionalität mithilfe von Antwort-Token?**
 
