@@ -1,21 +1,21 @@
 ---
 keywords: qa;preview;preview links;adobe target;target
-description: Verwenden Sie Adobe-Zielgruppe-QS-URLs, um eine durchgängige Qualitätssicherung mit Vorschauen-Links durchzuführen, die sich nie ändern, optionales Targeting von Audiencen und QS-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
+description: Verwenden Sie Adobe Target-QS-URLs, um eine durchgängige Qualitätssicherung mit Vorschauen-Links durchzuführen, die sich nie ändern, optionales Targeting von Audiencen und QS-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
 title: Aktivitäts-QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 85%
+ht-degree: 79%
 
 ---
 
 
 # Aktivitäts-QA {#activity-qa}
 
-Verwenden Sie QS-URLs in Adobe Zielgruppe, um eine durchgängige Qualitätssicherung mit Vorschauen-Links durchzuführen, die sich nie ändern, optionales Targeting von Audiencen und QS-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
+Verwenden Sie QS-URLs in Adobe Target, um eine durchgängige Qualitätssicherung mit Vorschauen-Links durchzuführen, die sich nie ändern, optionales Targeting von Audiencen und QS-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
 
 ## Überblick {#section_11B761A522A14E61978275772210A4C2}
 
@@ -24,7 +24,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 * Links für die Freigabe für Team-Mitglieder, die sich nie ändern oder nie neu generiert werden müssen. Dies ist unabhängig von an den Erlebnissen oder Aktivitäten vorgenommenen Aktualisierungen. Dadurch können Sie Ihre Aktivitäten vollständig über die gesamte User Journey hinweg testen.
 * Zielgruppenbedingungen werden optional respektiert, sodass Vermarkter Targeting-Kriterien testen oder Targeting-Kriterien für QA ignorieren können, ohne die Zielgruppenbedingungen erfüllen zu müssen.
 * QA-Berichte werden erfasst, sodass Vermarkter bestätigen können, dass Metriken erwartungsgemäß inkrementiert werden und die QA-Berichtsdaten von den Produktionsberichten separiert bleiben (für Nicht-A4T-Berichte).
-* Die Fähigkeit, eine Vorschau für ein Erlebnis anzuzeigen, das isoliert oder gemeinsam mit anderen Live-Aktivitäten angezeigt wird, die die Bereitstellungskriterien erfüllen (Seite/mbox/Zielgruppe).
+* Die Fähigkeit, ein Erlebnis isoliert oder in Verbindung mit anderen Live-Aktivitäten, die die Kriterien des Versands erfüllen (Seitenanfrage/Target-Anforderung/Audience), Vorschau.
 * Die Fähigkeit, einen QA-Bericht der gesamten User Journey zu erstellen. Mit dem QA-Link können Sie einmal auf Ihre Seite zugreifen und die gesamte Seite in Aktivitäts-QA durchsuchen. Sie bleiben in Activity-QA, bis Sie die Sitzung beenden oder Sie das  [QA Target-Bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) verwenden, um das Beenden von Aktivitäts-QA zu erzwingen. Diese Funktion ist besonders hilfreich, wenn Sie eine Aktivität haben, die sich über mehrere Webseiten erstreckt.
 
    >[!NOTE]
@@ -45,7 +45,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
       Wenn sich diese Einstellung in der Stellung „aus“ befindet, werden beim Klicken auf die Links die Erlebnisse angezeigt (unabhängig davon, ob Sie sich qualifizieren oder nicht). Bei der QA-Ausführung können Sie die Festlegung einer erforderlichen bzw. nicht erforderlichen Respektierung des Zielgruppen-Targetings ändern.
 
-   * **Für alle anderen Aktivitäten Standardinhalt anzeigen:** Wenn sich diese Option in der Stellung „ein“ befindet, wird Standardinhalt für alle anderen Aktivitäten angezeigt (zum Beispiel wird die Vorschau isoliert und ohne die ganzen anderen Live-Aktivitäten derselben Seite/Mbox angezeigt.
+   * **Standardinhalt für alle anderen Aktivitäten anzeigen:** Wenn diese Option auf die &quot;on&quot;-Position umgeschaltet wird, wird Standardinhalt für alle anderen Aktivitäten angezeigt (z. B. wird die Vorschau isoliert angezeigt, ohne alle anderen Live-Aktivitäten auf derselben Seite/[!DNL Target] Anforderung zu berücksichtigen).
 
       Achten Sie auf Folgendes, wenn diese Einstellung auf „aus“ festgelegt ist:
 
@@ -81,16 +81,16 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
    Aufgrund dieser doppelten Kodierung kann Target den richtigen Tokenwert nicht extrahieren, wenn Sie versuchen, `at_preview_token` zu dekodieren, wodurch die Vorschau nicht funktioniert.
 
-   Wir empfehlen Ihnen, mit Ihrem IT-Team zu sprechen, um sicherzustellen, dass alle Parameter der Vorschau aufgelistet sind, damit diese Werte in keiner Weise verändert werden.
+   Es wird empfohlen, mit Ihrem IT-Team zu sprechen, um sicherzustellen, dass alle Vorschau-Parameter so auf die Zulassungsliste gesetzt werden, dass diese Werte in keiner Weise verändert werden.
 
-   In der folgenden Tabelle werden die Parameter Liste, die in Ihrer Domäne zulässig sind:
+   In der folgenden Tabelle sind die Listen aufgeführt, die in Ihrer Domäne verwendet werden können:
 
    | Parameter | Typ | Wert | Beschreibung |
    |--- |--- |--- |--- |
    | `at_preview_token` | Verschlüsselte Zeichenfolge | Erforderlich; kein Standardwert | Ein verschlüsseltes Element, das die Liste der Kampagnen-IDs enthält, die im QA-Modus ausgeführt werden dürfen. |
    | `at_preview_index` | Zeichenfolge | Empty | Das Format des Parameters ist `<campaignIndex>` oder `<campaignIndex>_< experienceIndex>`<br>Beide Indexes beginnen mit 1. |
    | `at_preview_listed_activities_only` | Boolescher Wert (true/false) | Standardwert: false | Bei „true“ werden alle in den `at_preview_index`-Parametern angegebenen Kampagnen verarbeitet.<br>Bei „false“ werden alle Kampagnen der Seite bearbeitet, selbst wenn sie nicht im Vorschau-Token angegeben wurden. |
-   | `at_preview_evaluate_as_true_audience_ids` | Zeichenfolge | Empty | Durch Unterstriche (_) getrennte Liste der Segment-IDs, die (auf Targeting- und Reporting-Ebene) im Rahmen der Mbox-Anfrage immer mit „true“ bewertet werden sollten. |
+   | `at_preview_evaluate_as_true_audience_ids` | Zeichenfolge | Empty | Underscore-separated (&quot;_&quot;) list of segmentId-s that should always (at targetting and reporting level) be evaluated as &quot;true&quot; in the scope of the [!DNL Target] request. |
    | `_AT_Debug` | Zeichenfolge | Fenster oder Konsole | Konsolenprotokollierung oder neues Fenster. |
    | `adobe_mc_ref` |  |  | Übergibt gibt die verweisende URL der Standardseite an die neue Seite. Bei der Nutzung mit `AppMeasurement.js`-Version 2.1 (oder höher) verwendet [!DNL Adobe Analytics] diesen Parameterwert als Verweis-URL auf der neuen Seite. |
    | `adobe_mc_sdid` |  |  | Übergibt die [!DNL Supplemental Data Id] (SDID) und [!DNL Experience Cloud Org Id] von der Standardseite an die neue Seite, damit Analytics für Target (A4T) die Target-Anfrage auf der Standardseite mit der Analytics-Anfrage auf der neuen Seite verknüpfen kann. |
