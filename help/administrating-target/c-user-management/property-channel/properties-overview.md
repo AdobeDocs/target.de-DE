@@ -5,7 +5,7 @@ title: Konfigurieren von Unternehmensberechtigungen
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 70%
@@ -78,7 +78,6 @@ Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen A
 
       * Neue Arbeitsbereiche in der [!DNL Admin Console for Enterprise] erstellen.
       * Arbeitsbereichen Target-Eigenschaften zuweisen.
-
    Mithilfe der Arbeitsbereiche können Sie den Zugriff auf verschiedene Teams nach Region, Abteilung, Standort oder anderen beliebigen Kategorien festlegen. Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen Arbeitsbereichen unterschiedliche Rollen einnehmen.
 
 1. Befolgen Sie die Anweisungen unter [Erstellen und Verwalten von Produktkonfigurationen](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) im *Benutzerhandbuch für Unternehmen*.
@@ -153,7 +152,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    * **Über einen „globalen Parameter“ im[!DNL Adobe Launch]:**
 
-      For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
+      For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
    * **Über einen „globalen Parameter“ im[!DNL Dynamic Tag Management]:**
 
