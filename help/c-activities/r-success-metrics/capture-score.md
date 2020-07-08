@@ -1,29 +1,32 @@
 ---
-keywords: Ergebniserfassung;Ergebnis
-description: Mit dem Interaktionstyp Ergebniserfassung wird ein kumuliertes Ergebnis auf Grundlage des den auf der Site besuchten Seiten zugewiesenen Wertes ab dem Zeitpunkt errechnet, zu dem der Besucher die Anzeige-Mbox der Kampagne zum ersten Mal anzeigt.
+keywords: capture score;score
+description: Die Interaktionsmetrik "Ergebniserfassung"berechnet einen aggregierten Wert basierend auf dem Wert, der den auf der Site besuchten Targets zugewiesen wurde, ab dem Zeitpunkt, zu dem der Besucher die Anzeige der Kampagne zum ersten Mal anzeigt.
 title: Ergebniserfassung
-subtopic: Erste Schritte
+subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '770'
+ht-degree: 52%
 
 ---
 
 
 # Ergebniserfassung{#capture-score}
 
-Mit dem Interaktionstyp Ergebniserfassung wird ein kumuliertes Ergebnis auf Grundlage des den auf der Site besuchten Seiten zugewiesenen Wertes ab dem Zeitpunkt errechnet, zu dem der Besucher die Anzeige-Mbox der Kampagne zum ersten Mal anzeigt.
+The Capture Score engagement metric calculates an aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the campaign&#39;s first display [!DNL Target] request.
 
 Im folgenden Beispiel wird gezeigt, wie die Bewertungsinteraktion in einer Kampagne berechnet wird, in der zwei Erlebnisse (mit dem Bild einer Katze und dem Bild eines Hundes) geprüft werden.
 
 ![](assets/example_score.png)
 
-In diesem Beispiel wird dem Benutzer zuerst die Katze angezeigt. Wir gehen davon aus, dass eine globale Mbox in die Bewertung auf Grundlage des Wertes auf der Seite einbezogen wird. Wenn der Marketing-Experte die Seitenzahlinteraktion mit einer mit `**any mbox**` verbundenen Erfolgsmetrik erfasst hat, wird die Besuchszahl bei jeder erfassten Mbox-Anfrage hinter der Anzeige-Mbox um das Katzenbild hochgeschaltet.
+In diesem Beispiel wird dem Benutzer zuerst die Katze angezeigt. Assume that a global [!DNL Target] request passes in a page score based on the value of the page. If the marketer has captured page count engagement on a success metric associated with `**any Target request**`, the visit score accumulates for any request seen after the display request around the cat image.
 
 Die erste Seite fügt 1 zum Ergebnis hinzu, die zweite Seite 0,25, die dritte 0,10 und die vierte 0,10, insgesamt 1,45. Dies kann entweder als Währung oder als Punkte interpretiert werden. Bei einem weiteren Besuch findet der Besucher das Hundebild vor. Der Benutzer hat zwar weniger Seiten besucht, das Ergebnis ist aber mit 2,10 höher als beim anderen Besuch, da der Besucher wertvollere Seiten besucht hat.
 
-Sie können Erwerbskosten und Partnerlinkkosten über AdBoxes und Weiterleitungen mit einbeziehen. Siehe hierzu auch den folgenden Seitenfluss. Beachten Sie, dass in diesem Beispiel beide Mboxes auf der Artikelseite ein Ergebnis erzielen, das möglicherweise einer bekannten CPM entspricht.
+Sie können Erwerbskosten und Partnerlinkkosten über AdBoxes und Weiterleitungen mit einbeziehen. Siehe hierzu auch den folgenden Seitenfluss. Notice that, in this example, both [!DNL Target] requests on the article page pass a score, possibly representing a known CPM.
 
 ![](assets/example_score2.png)
 
@@ -33,30 +36,30 @@ Sie können jeder Seite auf Ihrer Site nach persönlichem Ermessen einen Wert zu
 
 Es gibt zwei Methoden zur Zuweisung eines Ergebnisses zu einer Seite:
 
-* Erstellen Sie im Mbox-Code einen Mbox-Parameter mit der Bezeichnung `mboxPageValue`.
+* Erstellen Sie in der [!DNL Target] Anforderung einen Parameter namens `mboxPageValue`.
 
    Beispiel: `('global_mbox', 'mboxPageValue=10');`
 
-   Der angegebene Wert wird jedes Mal, wenn die Seite mit dieser Mbox aufgerufen wird, zum Gesamtergebnis hinzugefügt. Wenn mehrere Mboxes auf der Seite Ergebniswerte enthalten, so entspricht das Ergebnis für die Seite dem Gesamtwert aller Mboxes. `mboxPageValue` ist ein reservierter Parameter zur Übergabe von Werten an eine mbox, um ein Interaktionsergebnis zu erfassen. Es können positive and negative Werte übergeben werden. Die Summe wird am Ende jedes Besuchs berechnet, um das Gesamtergebnis für den Besuch zu errechnen.
+   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. Wenn mehrere Anforderungen auf der Seite Ergebniswerte enthalten, entspricht das Ergebnis für die Seite der Gesamtwert aller Anforderungswerte. `mboxPageValue` ist ein reservierter Parameter, mit dem Werte in einer Target-Anforderung übergeben werden, um eine Interaktionsbewertung zu erfassen. Es können positive and negative Werte übergeben werden. Die Summe wird am Ende jedes Besuchs berechnet, um das Gesamtergebnis für den Besuch zu errechnen.
 
 * Geben Sie den Parameter `?mboxPageValue=n` in die URL der Seite ein.
 
    Beispiel: `https://www.mydomain.com?mboxPageValue=5`
 
-   Bei Anwendung dieser Methode wird der angegebene Wert zum Ergebnis für jede Mbox auf der Seite hinzugefügt. Wenn Sie zum Beispiel den Parameter `?mboxPageValue=10` eingeben und sich auf der Seite drei Mboxes befinden, beträgt das Ergebnis für die Seite 30.
+   Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
->Mboxes, die sich oberhalb der ersten Anzeige-Mbox der Kampagne befinden, werden im Ergebnis nicht berücksichtigt.
+>Target-Anfragen, die sich oberhalb der ersten Display- [!DNL Target] Anforderung der Aktivität befinden, werden nicht in das Ergebnis einbezogen.
 
-Die Best Practice ist, Werte im Mbox-Code zuzuweisen. So können Sie die gemessenen Werte genauer erfassen - abhängig vom Inhalt jeder mbox.
+Best practice is to assign values in the [!DNL Target] request. Auf diese Weise können Sie die Werte, die Sie messen, genau bestimmen, je nach Inhalt der einzelnen Anforderungen.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Zur einfacheren Wartung können Sie die Wertezuweisungen des Seitenergebnisses Ihrer Site in der Datei [!DNL at.js] oder [!DNL mbox.js] mit bedingter JavaScript-Logik konfigurieren. So müssen Sie keinen weiteren Code zu Ihren Seiten hinzufügen. Wenden Sie sich an Ihren Berater, wenn Sie weitere Hilfe benötigen.
 
-Sie können auch beide Methoden miteinander kombinieren. Dies könnte jedoch zu einem unerwartet hohen Ergebnis führen. Wenn Sie beispielsweise den drei Mboxes den Wert 10, einer vierten Mbox kein Ergebnis zuweisen und den URL-Parameter `?mboxPageValue=5` übergeben, wird das Seitenergebnis 50, 30 für die ersten drei Mboxes mit zugewiesenem Wert, und 5 für jede der vier weiteren Mboxes auf der Seite betragen.
+Sie können auch beide Methoden miteinander kombinieren. Dies könnte jedoch zu einem unerwartet hohen Ergebnis führen. For example, if you assign a value of 10 to each of three [!DNL Target] requests and no score to a fourth request, then pass the URL parameter `?mboxPageValue=5`, your page score will be 50, 30 for the three requests with assigned values, and then 5 for each of the four requests on the page.
 
-Der Zähler beginnt mit der ersten Anzeige-Mbox und nicht mit der Einstieg-Mbox. Wenn Sie also die Kampagne auf der Homepage ohne Display-Mbox beginnen, verknüpfen Sie sie mit einer Katalogseite mit einer Display-Mbox. Der Zähler startet, wenn Sie zur Katalogseite navigieren.
+Der Zähler Beginn mit der ersten Anzeigeanforderung, nicht mit der Einstiegsanforderung. Wenn Sie z. B. die Aktivität auf der Homepage ohne Display-Anforderung eingeben und dann mit der Katalogseite, die eine Display-Anforderung enthält, verknüpfen, beginnt der Zähler, wenn Sie zur Katalogseite wechseln.
 
 Sie können auch negative Werte für Seiten vergeben, die Sie Geld kosten und auf den Besucher keine positive Wirkung haben. Die negativen Werte gehen ebenfalls in das Gesamtergebnis ein. Diese Methode kann für Seiten verwendet werden, die Benutzer von einer Werbung aus erreichen. So können Sie die Höhe des CPC erkennen. Sie eignet sich auch für eine Support- oder Kontaktseite, bei deren Besuch mit einer nachfolgenden Supportanfrage zu rechnen ist.
