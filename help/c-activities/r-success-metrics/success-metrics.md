@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
-description: In Adobe Zielgruppe sind Erfolgsmetriken sowohl für Berichte- als auch für Verfolgungszwecke vorkonfiguriert.
-title: Erfolgsmetriken in Adobe Zielgruppe
+description: In Adobe Target sind Erfolgsmetriken sowohl für Berichte- als auch für Verfolgungszwecke vorkonfiguriert.
+title: Erfolgsmetriken im Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 92%
+source-wordcount: '1020'
+ht-degree: 83%
 
 ---
 
 
 # Erfolgsmetriken{#success-metrics}
 
-In Adobe Zielgruppe sind Erfolgsmetriken sowohl für Berichte- als auch für Verfolgungszwecke vorkonfiguriert.
+In Adobe Target sind Erfolgsmetriken sowohl für Berichte- als auch für Verfolgungszwecke vorkonfiguriert.
 
 Erfolgsmetriken sind Parameter, die zur Messung des Erfolgs einer Aktivität verwendet werden. Erfolgsmetriken umfassen die wichtigsten betrieblichen Messwerte, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können. So können Sie beispielsweise feststellen, ob ein neues Angebot oder das Hinzufügen eines Artikel zu einem Warenkorb Ihren Umsatz pro Besucher steigert. Erfolgsmetriken können hilfreich sein, um Probleme mit der Registrierung, der Sortierung oder dem Kauftrichter oder einfach mit der Besucher- und Kundeninteraktion zu ermitteln.
 
@@ -35,14 +35,14 @@ Es sind folgende Erfolgsmetriken verfügbar:
 | Konversion | Konversionsbasiert | Eine Konversion liegt vor, wenn ein Besucher eine Aktion auf Ihrer Website ausführt, die Sie definiert haben (Klicken auf eine Schaltfläche, Anzeigen einer Seite, Teilnehmen an einer Umfrage oder Tätigen eines Kaufs). Eine Konversion kann entweder einmal pro Besucher oder jedes Mal, wenn ein Besucher eine Konversion durchführt, gezählt werden. |
 | Umsatz | Konversionsbasiert | Durch den Besuch generierter Umsatz. Sie können aus folgenden Umsatzmetriken wählen:<ul><li>Umsatz pro Besucher (RPV)</li><li>Durchschnittlicher Bestellwert (AOV)</li><li>Gesamtverkäufe</li></ul> |
 | Seitenansichten | Interaktionsbasiert | Jeder eindeutige Besuch wird als Konversion gezählt. |
-| Besuchszeit pro Site | Interaktionsbasiert | Die während des Besuchs verbrachte Zeit (in Sekunden) ab der Anzeige der ersten Anzeige-Mbox der Aktivität bis zum Laden der letzten Seite mit einer Mbox während der Sitzung. |
-| Benutzerspezifisches Ergebnis | Interaktionsbasiert | Kumuliertes Ergebnis auf Grundlage des den auf der Site besuchten Seiten zugewiesenen Wertes ab dem Zeitpunkt, zu dem der Besucher die Anzeige-Mbox der Aktivität zum ersten Mal anzeigt. |
+| Besuchszeit pro Site | Interaktionsbasiert | Besuchszeit (in Sekunden) ab dem Zeitpunkt, zu dem der Besucher die erste Anfrage zur Anzeige des Targets der Aktivität bis zum Laden der letzten Seite mit einer Anforderung in der Sitzung anzeigt. |
+| Benutzerspezifisches Ergebnis | Interaktionsbasiert | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 
 Bei interaktionsbasierten Metriken müssen sich Besucher (im Gegensatz zu konversions- oder umsatzbasierten Metriken) erneut für die Aktivität qualifizieren, um den Zähler für diese Sitzung zu erhöhen. Die zugehörige Metrik steigt nach erneuter Qualifikation und endet mit dem Ende der jeweiligen Besuchersitzung. Sitzungen enden nach einer Inaktivität von 30 Minuten. Deshalb sind die Ergebnisse nicht direkt während des Tests verfügbar, sondern erst einige Minuten nach Ende der Sitzung.
 
 Sie können auch benutzerdefinierte Erfolgsmetriken erstellen.
 
-Wählen Sie nach Auswahl der Erfolgsmetrik die Aktion, die von einem Besucher unternommen wurde, um das Ziel zu erreichen. Wählen Sie beispielsweise eine Konversionsmetrik und legen Sie sie so fest, dass sie einmal pro Besucher gezählt wird. Legen Sie dann fest, ob Erfolg erzielt wird, wenn ein Besucher eine bestimmte Seite (oder eine Reihe von Seiten) anzeigt, eine bestimmte Mbox anzeigt oder auf einen bestimmten Link klickt.
+Wählen Sie nach Auswahl der Erfolgsmetrik die Aktion, die von einem Besucher unternommen wurde, um das Ziel zu erreichen. For example, choose a Conversion metric, set it to be counted once per visitor, then set whether success is achieved when a visitor views a certain page (or set of pages), views a specific [!DNL Target] request, or clicks a specific link.
 
 Bei Aktivierung bietet der geschätzte Wert eines Konversionsfeldes (nicht verfügbar für Seitenwertungsmetriken) einen Wert für Ihr Ziel, jedoch nicht für andere Metriken. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Die Schätzung verwendet für alle Umsatzmetriken (Umsatz pro Besucher, durchschnittlicher Bestellwert, Gesamtverkäufe und Bestellungen) die Metrik „Umsatz pro Besucher“. Der Datentyp ist eine Währung. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
