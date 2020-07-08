@@ -1,12 +1,15 @@
 ---
-keywords: Klick-Tracking;Klicks verfolgen;Klicks;AppMeasurement
+keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: Mit Target können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, erfassen.
 title: Klick-Tracking
-subtopic: Erste Schritte
+subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 97%
 
 ---
 
@@ -17,11 +20,11 @@ Mit Target können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, erfa
 
 >[!NOTE]
 >
->Das Tracking von Klicks wird in globalen Target-Mboxes nicht unterstützt, wenn sie als Standort in formularbasierten Aktivitäten verwendet werden.
+>Die Verfolgung von Klicks wird für die Anforderung des globalen Targets nicht unterstützt, wenn sie als Ort in einer formularbasierten Aktivität verwendet wird.
 
 ## Einrichten von Klick-Tracking{#section_5540C5A533114E57BAE022A600B02E72}
 
-1. Wenn Sie die Ziele für Ihre Aktivität auf der Seite [!UICONTROL Ziele und Einstellungen] festlegen, wählen Sie die Erfolgsmetrik **[!UICONTROL Konversion]aus.**
+1. Wenn Sie die Ziele für Ihre Aktivität auf der Seite [!UICONTROL Ziele und Einstellungen] festlegen, wählen Sie die Erfolgsmetrik **[!UICONTROL Konversion]** aus.
 1. Wählen Sie als Aktion **[!UICONTROL Klicks auf ein Element]** aus und klicken Sie anschließend auf **[!UICONTROL Elemente auswählen]**.
 
    Ihre Seite wird im [!UICONTROL Visual Experience Composer] (VEC) geöffnet.
@@ -113,4 +116,4 @@ In diesem Video sind Informationen zur Erstellung von Klick-Tracking-Erfolgsmetr
 * Verstehen und Erstellen von Metriken für Konversionen, Umsatz und Interaktion
 * Erstellen einer Metrik mit Klick-Tracking
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
