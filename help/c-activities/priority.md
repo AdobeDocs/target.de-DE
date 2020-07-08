@@ -1,11 +1,14 @@
 ---
-keywords: Einstellungen;Priorität
-description: Adobe Target bestimmt, welche Aktivität (oder welche Aktivitäten) auf einer Seite unterschiedlich bereitgestellt werden sollen, je nachdem, welche Target-Oberfläche und welche Funktion zur Aktivitätserstellung (Visual Experience Composer oder Form Based Composer) Sie verwenden.
-title: Priorität in Adobe Target
+keywords: settings;priority
+description: Adobe Target bestimmt, welche Aktivität (oder welche Aktivitäten) auf eine Seite unterschiedlich bereitgestellt werden soll, je nachdem, welche Target-Oberfläche und welche Aktivität-Erstellungsfunktion (Visual Experience Composer oder Form Based Composer) Sie verwenden.
+title: Priorität im Adobe Target
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1167'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Je nachdem, welche Target-Oberfläche und welche Funktion zum Erstellen von Aktivitäten Sie verwenden (Visual Experience Composer oder formularbasierter Composer), bestimmt Target, welche Aktivität (bzw. welche Aktivitäten) für eine Seite anders bereitgestellt werden soll(en).
 
-## Nur Target Standard/Premium Visual Experience Composer oder nur formularbasierter Composer mit globaler Mbox {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Wenn Ihr Unternehmen ausschließlich Target Standard/Premium und den Visual Experience Composer verwendet, können Inhalte von mehreren Aktivitäten für denselben Aufruf zurückgegeben werden. Aktivitäten werden mithilfe des folgenden Entscheidungsflusses bereitgestellt:
 
@@ -46,8 +49,8 @@ Wenn Ihr Unternehmen ausschließlich Target Standard/Premium und den Visual Expe
 
 Wenn Ihr Unternehmen den formularbasierten Composer und den Visual Experience Composer in Target Standard/Premium verwendet, können Inhalte von mehreren Visual Experience Composer-Aktivitäten, jedoch nur eine Aktivität von Target Classic oder den formularbasierten Arbeitsabläufen, bereitgestellt werden. Die Aktivitätsbereitstellung wird anhand des folgenden Entscheidungsablaufs bestimmt:
 
-1. Target-Server-Aufruf kommt mit Informationen zu Mbox und URL zu Target.
-1. Target Classic und Standard ziehen alle Aktivitäten, die in dieser Mbox ausgeführt werden.
+1. Target server call comes to Target with information about the [!DNL Target] request and URL.
+1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
 1. Target versucht, dem Besucher Aktivitäten zuzuordnen.
 
    Wenn sich der Besucher bereits in einem A/B-Test oder Multivarianztest befindet, wird er diesem Test zugeordnet, bis er konvertiert. Wenn er sich zuvor in einer Erlebnisziel-Aktivität befand, muss er erneut zugeordnet werden. Sind die Zielgruppenregeln erfüllt, fällt der Besucher in diese Aktivitäten und in spezifische Erlebnisse.
@@ -63,17 +66,17 @@ Wenn von zwei Aktivitäten eine auf den Marken-Suchbegriff „Nike“ und die zw
 
 Verfügen beide Zielaktivitäten über die gleiche Priorität, wird diejenige angezeigt, die zuletzt aufgerufen wurde. Wenn der Besucher neu auf der Seite ist, wird die zuletzt aktivierte Aktivität angezeigt.
 
-## Formularbasierter Composer in Target Standard/Premium mit nicht globalen Mboxes  {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Diese Informationen gelten auch für alle laufenden Kampagnen, die in Target Classic erstellt wurden.
 
-Wenn Ihr Unternehmen im formularbasierten Composer andere Mboxes als die globale Mbox verwendet, können Inhalte aus nur einer Aktivität pro Aufruf zurückgegeben werden. Die Aktivitätsbereitstellung wird anhand des folgenden Entscheidungsablaufs bestimmt:
+If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. Die Aktivitätsbereitstellung wird anhand des folgenden Entscheidungsablaufs bestimmt:
 
-1. Der Target-Server-Aufruf kommt mit Informationen zur Mbox und URL zu Target.
-1. Target zieht jede Aktivität, die in dieser Mbox ausgeführt wird.
-1. Target versucht, den Besucher der Aktivität mit der höchsten Priorität zuzuordnen.
+1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
+1. [!DNL Target] ruft jede Aktivität ab, die in dieser [!DNL Target] Anforderung ausgeführt wird.
+1. [!DNL Target] versucht, den Besucher der Aktivität mit der höchsten Priorität zuzuordnen.
 
    Wenn sich der Besucher bereits in einem A/B-Test oder Multivarianztest befindet, wird er diesem Test zugeordnet, bis er konvertiert. Wenn er sich zuvor in einer Erlebnisziel-Aktivität befand, muss er erneut zugeordnet werden. Sind die Zielgruppenregeln erfüllt, fällt der Besucher in diese Aktivitäten und in spezifische Erlebnisse.
 
@@ -88,7 +91,7 @@ Wenn Ihr Unternehmen im formularbasierten Composer andere Mboxes als die globale
 >
 >Abhängig von Ihren Einstellungen variieren auch die Prioritätswerte. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren. Weitere Informationen finden Sie unter  [Aktivitätseinstellungen](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Zwei Target Classic-Kampagnen verwenden nicht globale Mboxes**
+**Zwei Target Classic-Kampagnen verwenden nicht globale Target-Anforderungen**
 
 * Kampagne 1: homePageHero, offer1, Priorität hoch
 * Kampagne 2: homePageHero, offer2, Priorität niedrig
@@ -136,4 +139,4 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
