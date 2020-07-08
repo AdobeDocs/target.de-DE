@@ -1,10 +1,13 @@
 ---
-keywords: Umgebungsdaten;Sitzungsdaten; Geodaten; geografische Daten; Gerätedaten; mobile Daten; Attribute; Profilattribute
+keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
 description: Adobe Target sammelt und verwendet automatisch eine Vielzahl von Daten zum Erstellen der Personalisierungsalgorithmen in den Aktivitäten „Automatisierte Personalisierung“ (AP) und „Automatisches Targeting“ (AT). Wenn ein Besucher die AP- oder AT-Aktivität aktiviert, wird diese Momentaufnahme an Informationen an ein Set von Trainingsdatensätzen (die Besucherdaten, anhand deren die Personalisierungsalgorithmen lernen) weitergegeben.
 title: Datenerfassung für die Adobe Target-Personalisierungsalgorithmen
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1755'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +27,7 @@ Folgende Tabelle zeigt die Daten, die von der automatisierten Personalisierung u
 | Experience Cloud-Segment | Zielgruppen, die in Audience Manager oder Analytics erstellt und über Experience Cloud freigegeben wurden | `Custom - Experience Cloud Audience - [Audience Name]` | Benutzerspezifische Daten |
 | [Geografische Daten](#geo) | Informationen zum Standort des Besuchers.<br>Siehe „Geografische Daten“ unten. | `Geo - [geo attribute]` | Stadt<br>Land<br>Region/Bundesstaat<br>Postleitzahl<br>Breitengrad<br>Längengrad<br>ISP oder Mobilnetzbetreiber |
 | Profilattribute | Profilskripte oder Attribute, die direkt über die Aktualisierungs-API in das Target-Profil hochgeladen werden | `Custom - Visitor Profile - [attribute name]` | Benutzerspezifische Daten |
-| Verweisende URL-Parameter | Im Allgemeinen entspricht die verweisende URL der URL, die auf eine bestimmte Seite verweist, die den Mbox-Aufruf initiiert hat.<br>Beachten Sie, dass sich die Aktivität der Benutzer auf Ihrer Site und die technische Implementierung Ihrer Site auf diese Variable auswirken kann. | `Custom - [Referring URL Parameter] - [Parameter value]` | Benutzerspezifische Daten |
+| Verweisende URL-Parameter | Im Allgemeinen ist die verweisende URL die URL, die auf eine bestimmte Seite verweist, die den Target-Aufruf ausgelöst hat.<br>Beachten Sie, dass sich die Aktivität der Benutzer auf Ihrer Site und die technische Implementierung Ihrer Site auf diese Variable auswirken kann. | `Custom - [Referring URL Parameter] - [Parameter value]` | Benutzerspezifische Daten |
 | Berichtssegmente | Alle bei der Aktivitätseinrichtung ausgewählte Segmente. | `Reporting Segment -[Segment Name]` | Benutzerspezifische Daten |
 | [Sitzungsdaten](#session) | Informationen über das Verhalten des Besuchers in der Sitzung beim Zugriff auf die Aktivität | `Visitor Profile - [Attribute Name]` | Visitor Profile - Start of Most Recent Visit |
 | URL-Parameter | Target untersucht die URL, um die URL-Parameter zu extrahieren. | `Custom - URL Parameter - [URL Parameter]` | Benutzerspezifische Daten |
@@ -96,13 +99,13 @@ Die folgenden Abschnitte enthalten detaillierte Informationen zu den verschieden
 | Visitor Profile - First Visit | Gibt den Zeitpunkt des ersten Besuchs an, bei dem der Benutzer mit Target interagiert hat. | Doppelt, Millisekunden |
 | Visitor Profile - Hours since Last Visit | Gibt die Stunden seit dem letzten Besuch einer bestimmten Aktivität an. | Doppelt (nur positive Ganzzahl) 1, 2, 3 usw. |
 | Visitor Profile - Impressions of Location/Content | Gibt die Anzahl der Impressionen bei einer bestimmten Kombination aus Ort/Inhalt bei einer bestimmten Aktivität an. | Doppelt (nur positive Ganzzahl) 1, 2, 3 usw. |
-| Visitor Profile - Last Target Interaction | Gibt den Zeitpunkt der letzten Interaktion mit Target an. Interaktion erfolgt bei jeder Mbox-Anfrage, da die aktuelle Implementierung von Target das Profil bei jeder Anfrage aktualisiert. | Doppelt, Millisekunden |
+| Visitor Profile - Last Target Interaction | Gibt den Zeitpunkt der letzten Interaktion mit Target an. Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request. | Doppelt, Millisekunden |
 | Visitor Profile - Pages Seen Before Activity | Gibt die Anzahl aller Seitenansichten (Impressionen) einschließlich des aktuellen Besuchs/der aktuellen Sitzung an, bevor der Besucher die Aktivität aufruft. | Doppelt (nur positive Ganzzahl) 1, 2, 3 usw. |
 | Visitor Profile - Page Views in Current Visit | Gibt die Anzahl der Seitenansichten beim aktuellen Besuch/bei der aktuellen Sitzung an, bevor der Besucher die Aktivität aufruft. Genauer gesagt, die Anzahl der Impressionen. Diese Impressionen sind keine echten Seitenansichten, sondern geben an, wie oft die Anfrage Target erreicht hat. Target kann nicht zwischen Timeouts und anderen Gründen unterscheiden, weshalb der Benutzer den Inhalt nicht empfangen oder anzeigen kann. | Doppelt (nur positive Ganzzahl) |
-| Visitor Profile - Start of Current Visit | Gibt den Zeitpunkt an, zu dem der aktuelle Besuch/die aktuelle Sitzung mit Target begonnen hat. Der Besuch mit Target kann ohne Eingabe einer Aktivität eingeleitet werden. Erforderlich ist lediglich ein Aufruf einer beliebigen Mbox. Es kann einige Zeit dauern, bis ein Besucher die Aktivität auslöst und die Momentaufnahme aufgenommen wird. | Doppelt, Millisekunden |
+| Visitor Profile - Start of Current Visit | Gibt den Zeitpunkt an, zu dem der aktuelle Besuch/die aktuelle Sitzung mit Target begonnen hat. Der Besuch mit Target kann ohne Eingabe einer Aktivität eingeleitet werden. All that is required is a call to any [!DNL Target] request. Es kann einige Zeit dauern, bis ein Besucher die Aktivität auslöst und die Momentaufnahme aufgenommen wird. | Doppelt, Millisekunden |
 | Visitor Profile - Start of Most Recent Visit | Gibt den Zeitpunkt an, zu dem der letzte Besuch/die letzte Sitzung mit Target gestartet wurde. Dieses Attribut wird aktualisiert, wenn die Sitzung abgelaufen ist.<br>Wenn dies die erste Sitzung für den Besucher ist, steht `LAST_SESSION_START = 0.` | Doppelt, Millisekunden |
 | Visitor Profile - Time Since Most Recent Visit When First Enter Activity | Gibt die Dauer zwischen der vorherigen Sitzung und dem Zeitpunkt an, zu dem der Benutzer die Aktivität aufruft und die Momentaufnahme aufgenommen wird. | Doppelt, Millisekunden |
-| Visitor Profile - Time in Visit Before Enter Activity | Gibt den Unterschied zwischen der letzten Interaktion mit Target und dem Beginn des aktuellen Besuchs an. Dieses Attribut kann als Besuchs-/Sitzungsdauer betrachtet werden, bis der Benutzer die Aktivität aufruft und die Momentaufnahme erfolgt.<br>Negative Werte treten auf, wenn die Sitzung beginnt und die letzte Aktualisierungszeit durch denselben Mbox-Aufruf ausgelöst wird. Negative Werte sollten als 0 (Null) betrachtet werden. | Doppelt, Millisekunden |
+| Visitor Profile - Time in Visit Before Enter Activity | Gibt den Unterschied zwischen der letzten Interaktion mit Target und dem Beginn des aktuellen Besuchs an. Dieses Attribut kann als Besuchs-/Sitzungsdauer betrachtet werden, bis der Benutzer die Aktivität aufruft und die Momentaufnahme erfolgt.<br>Negative Werte treten auf, wenn der Beginn der Sitzung und die letzte Aktualisierungszeit durch denselben [!DNL Target] Aufruf ausgelöst werden. Negative Werte sollten als 0 (Null) betrachtet werden. | Doppelt, Millisekunden |
 | Besucherprofil – Gesamtbesuche | Gibt die Gesamtzahl der Besuche/Sitzungen an. Der aktuelle Besuch/die aktuelle Sitzung ist ausgeschlossen. | Doppelt (nur positive Ganzzahl) 1, 2, 3 usw. |
 | Visitor Profile - Total Visits to Activity | Gibt die Anzahl der Besuche bis zu einer bestimmten Aktivität an. Wenn kein vorheriger Besuch vorhanden ist, wird 0 (null) zurückgegeben. | Doppelt (nur positive Ganzzahl) 1, 2, 3 usw. |
 | Visitor Profile - Total Visits to Activity with Conversion | Gibt die Anzahl der Besuche/Sitzungen bis zu einer bestimmten Aktivität an, wenn mindestens eine Konversion während des Besuchs stattgefunden hat. | Double |
