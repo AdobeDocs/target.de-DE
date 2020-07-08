@@ -1,11 +1,14 @@
 ---
-keywords: Erlebnis erstellen;Erlebniserstellung;Priorität;Zielgruppe;Erlebnis;Visual Experience Composer
+keywords: create experience;experience create;priority;audience;experience;visual experience composer
 description: Der Visual Experience Composer (VEC) von Adobe Target bietet eine visuelle Oberfläche zum Bearbeiten der Erlebnisse auf Ihrer Seite in einer Erlebnis-Targeting-Aktivität (XT).
 title: Erlebnis erstellen
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +27,7 @@ Der [!UICONTROL Visual Experience Composer] (VEC) bietet eine visuelle Oberfläc
 
    Wenn Sie den Mauszeiger über die Elemente auf Ihrer Seite bewegen, werden diese Elemente hervorgehoben. Alle hervorgehobenen Elemente können mit dem VEC geändert werden. Eine Liste der Aktionen, die für ein Element durchgeführt werden können, um das Erlebnis zu ändern, finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Wenn Sie mit [!DNL Target Classic] eine Mbox auf der Seite erstellt haben, wird diese Mbox als Element mit dem Mbox-Namen angezeigt und kann wie jedes andere Element bearbeitet werden.
+   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
 
    >[!NOTE]
    >
@@ -42,7 +45,7 @@ Der [!UICONTROL Visual Experience Composer] (VEC) bietet eine visuelle Oberfläc
    >
    >Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Wenn Sie eine Zielgruppe erstellen, können Sie einen Standort (mbox) auswählen und Parameter für ihn festlegen. Wählen Sie unter [!UICONTROL Benutzerdefiniert] (Zielgruppe erstellen &gt; Regel hinzufügen &gt; Benutzerdefiniert) die mbox aus und geben Sie die gewünschten Parameter ein.
+   Beim Erstellen einer Audience können Sie einen Ort auswählen und Parameter für diesen Ort angeben. Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
 
    >[!NOTE]
    >
@@ -76,7 +79,7 @@ Der [!UICONTROL Visual Experience Composer] (VEC) bietet eine visuelle Oberfläc
 
    [!UICONTROL Beim Erlebnis-Targeting kommt es auf die Reihenfolge an. ] Wenn ein Besucher unter das erste Zielgruppen-/Erlebnispaar fällt, wird das erste Erlebnis bereitgestellt.
 
-   Nehmen wir beispielsweise an, Ihnen war nicht bewusst, dass es beim Erstellen einer XT-Aktivität auf die Reihenfolge ankommt. Später im Verlauf des Tests stellen Sie fest, dass sich Besucher, die sich Ihrer Meinung nach eigentlich für Erlebnis B oder C qualifizieren müssten, stattdessen für Erlebnis A qualifizieren. Eine Ursache dafür könnte sein, dass sich die Zielgruppen nicht gegenseitig ausschließen und sich nicht in der richtigen Reihenfolge befinden (z. B. Erlebnis A = USA, Erlebnis B = San Francisco und Erlebnis C = Kalifornien). In diesem Szenario qualifizieren sich alle Benutzer aus den USA für Erlebnis A, selbst wenn sie in San Francisco oder in einem anderen Ort in Kalifornien leben. Sie können die Reihenfolge der Zielgruppen-/Erlebnispaare von der stärksten Einschränkung zur geringsten Einschränkung ändern (San Francisco &gt; Kalifornien &gt; USA), ohne die gesamte Aktivität neu erstellen zu müssen.
+   Nehmen wir beispielsweise an, Ihnen war nicht bewusst, dass es beim Erstellen einer XT-Aktivität auf die Reihenfolge ankommt. Später im Verlauf des Tests stellen Sie fest, dass sich Besucher, die sich Ihrer Meinung nach eigentlich für Erlebnis B oder C qualifizieren müssten, stattdessen für Erlebnis A qualifizieren. Eine Ursache dafür könnte sein, dass sich die Zielgruppen nicht gegenseitig ausschließen und sich nicht in der richtigen Reihenfolge befinden (z. B. Erlebnis A = USA, Erlebnis B = San Francisco und Erlebnis C = Kalifornien). In diesem Szenario qualifizieren sich alle Benutzer aus den USA für Erlebnis A, selbst wenn sie in San Francisco oder in einem anderen Ort in Kalifornien leben. Sie können die Reihenfolge der Zielgruppen-/Erlebnispaare von der stärksten Einschränkung zur geringsten Einschränkung ändern (San Francisco > Kalifornien > USA), ohne die gesamte Aktivität neu erstellen zu müssen.
 
    Wenn Ihre Zielgruppe [!UICONTROL Alle Besucher] lautet, stellen Sie sicher, dass es sich nicht um die erste Zielgruppe im Diagramm handelt. Ein Erlebnis, das auf „Alle Besucher“ abzielt, kann als das letzte Erlebnis der entsprechenden Targeting-Aktivität eingesetzt werden, um auch die Besucher zu erfassen, die bei keinem anderen Erlebnis erfasst wurden.
 
@@ -115,7 +118,7 @@ Dieses Video beschreibt, wie Sie A/B-Tests mit Erlebnis-Targeting (XT) erweitern
 * Bereitstellung standortspezifischer Inhalte für Zielgruppen in unterschiedlichen Gebieten
 * Neusortierung von Erlebnissen, um zu gewährleisten, dass der richtige Inhalt der richtigen Zielgruppe bereitgestellt wird
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Aktivitätstypen (9:03)
 
@@ -125,7 +128,7 @@ In diesem Video werden die in Target Standard/Premium verfügbaren Aktivitätsty
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Verwenden des Visual Experience Composer
 
@@ -134,4 +137,4 @@ In diesem Video erhalten Sie Informationen zum Verwenden der Optionen in Visual 
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
