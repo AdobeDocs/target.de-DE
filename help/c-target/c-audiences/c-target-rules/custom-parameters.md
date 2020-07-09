@@ -5,7 +5,10 @@ title: Benutzerdefinierte Parameter in Adobe Target
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: e78cba101db2c5fb6c7d98130cb78b1b295c9f34
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 90%
 
 ---
 
@@ -26,6 +29,7 @@ Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhal
 
    * Wählen Sie beim Erstellen einer neuen Zielgruppe einen Parameter aus der Liste aus oder geben Sie die ersten Buchstaben des Parameternamens bzw. den gesamten Namen des gewünschten Parameters ein.
    * Wenn Sie den Mbox-, aber nicht den Parameternamen kennen, filtern Sie mithilfe des Kontrollkästchens nach der bekannten Mbox, die den gewünschten Parameter übergibt.
+
    Bei keiner der Methoden gibt es eine Verbindung zwischen Mbox und Parameter. Die Zielgruppe funktioniert basierend auf dem Parameter über alle Mboxes hinweg, die diesen Parameter übergeben.
 
    Wenn Sie eine bestehende Zielgruppe bearbeiten, werden die Filterkriterien mit dem Mbox-Namen angezeigt, der bei der Erstellung angegeben wurde.
@@ -35,6 +39,7 @@ Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhal
    * enthält (nicht von Schreibweise abhängig)
    * enthält nicht (nicht von Schreibweise abhängig)
    * Gleich
+
    ![Benutzerdefinierte Parameter-Zielgruppe](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
 1. Geben Sie jeden Wert in eine neue Zeile ein.
@@ -50,9 +55,9 @@ Die [Popupkarte mit Definitionsdetails](../../../c-target/c-audiences/audiences.
 ## Zu beachten {#considerations}
 
 * Zielgruppen und Aktivitäten werden für eine spezifische Mbox ausgewertet. Wenn die globale Mbox beispielsweise einen bestimmten Parameter übergibt, die regionale Mbox jedoch nicht, qualifiziert sich die mit diesem Parameter verknüpfte Aktivität/Zielgruppe nicht in der regionalen Mbox.
-* Das Targeting wird nicht anhand interner Mbox-Parameter wie mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId und mboxVersion ausgewertet.
+* Das Targeting wird nicht anhand interner Mbox-Parameter wie mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId und mboxVersion ausgewertet.
 
-## Schulungsvideo: Abzeichen ![&quot;Zielgruppen erstellen&quot;](/help/assets/tutorial.png)
+## Schulungsvideo: Audiencen- ![Tutorialzeichen erstellen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
