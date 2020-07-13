@@ -1,12 +1,15 @@
 ---
-keywords: Implementierung; mbox.js nicht-JavaScript; Mbox; AdBox
-description: Verwenden Sie eine AdBox, um mithilfe von Adobe Target Bilder in einer Offsite-Implementierung bereitzustellen.
+keywords: Implementation;mbox.js non javascript;mbox;adbox
+description: Verwenden Sie eine AdBox, um Bilder mithilfe von Adobe Target in einer Offsite-Implementierung bereitzustellen.
 title: Erstellen einer AdBox für ein Bild mit Adobe Target
-subtopic: Erste Schritte
+subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 83%
 
 ---
 
@@ -29,9 +32,9 @@ Hilfe zur Auswahl der richtigen Einstellungen finden Sie unter  [Nicht-JavaScrip
 
    * Bei `myClientCode` handelt es sich um den Clientcode Ihres Unternehmens. Der Clientcode Ihres Unternehmens enthält ausschließlich Kleinbuchstaben und keine Sonderzeichen.
 
-      * **at.js**: Ihren Clientcode finden Sie in der [!UICONTROL -Benutzeroberfläche unter ]„Einrichten“ &gt; „Implementierung“ ganz oben auf der Seite „at.js-Einstellungen bearbeiten“[!DNL Target].
+      * **at.js**: Ihren Clientcode finden Sie in der [!UICONTROL -Benutzeroberfläche unter ]„Einrichten“ > „Implementierung“ ganz oben auf der Seite „at.js-Einstellungen bearbeiten“[!DNL Target].
 
-      * **mbox.js**: Ihren Clientcode finden Sie oben auf der Seite [!UICONTROL „Einrichten“ &gt; „Implementierung“ &gt; „mbox.js-Einstellungen bearbeiten“].
+      * **mbox.js**: Ihren Clientcode finden Sie oben auf der Seite [!UICONTROL „Einrichten“ > „Implementierung“ > „mbox.js-Einstellungen bearbeiten“].
    * Bei `image` handelt es sich um den Aufruftyp. In diesem Fall handelt es sich um ein Bild.
 
    * Bei `emailHeroImage123_320x200` handelt es sich um den Namen der AdBox.
@@ -43,7 +46,7 @@ Hilfe zur Auswahl der richtigen Einstellungen finden Sie unter  [Nicht-JavaScrip
 
 1. Erstellen Sie [Weiterleitungsangebote](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) für alle alternativen Bilder.
 
-   >[!NOTE] {class="- topic/note "}
+   >[!NOTE]
    >
    >In AdBoxes muss ein Weiterleitungsangebot oder das standardmäßige Inhaltsangebot geladen sein. Andere Angebotstypen funktionieren nicht. Da es sich bei der AdBox um eine URL handelt, können nur die URLs angezeigt werden, die sie empfängt, weshalb nur die Weiterleitungsangebote funktionieren.
 
