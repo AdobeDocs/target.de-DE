@@ -1,15 +1,15 @@
 ---
 keywords: capture score;score
-description: Die Interaktionsmetrik "Ergebniserfassung"berechnet einen aggregierten Wert basierend auf dem Wert, der den auf der Site besuchten Targets zugewiesen wurde, ab dem Zeitpunkt, zu dem der Besucher die Anzeige der Kampagne zum ersten Mal anzeigt.
+description: Die Einsatzmetrik "Ergebniserfassung"berechnet einen aggregierten Wert basierend auf dem Wert, der den auf der Site besuchten Zielgruppen zugewiesen wird, ab dem Zeitpunkt, zu dem der Besucher die Anfrage zur ersten Anzeige der Kampagne anzeigt.
 title: Ergebniserfassung
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 52%
+source-wordcount: '764'
+ht-degree: 51%
 
 ---
 
@@ -40,7 +40,7 @@ Es gibt zwei Methoden zur Zuweisung eines Ergebnisses zu einer Seite:
 
    Beispiel: `('global_mbox', 'mboxPageValue=10');`
 
-   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. Wenn mehrere Anforderungen auf der Seite Ergebniswerte enthalten, entspricht das Ergebnis für die Seite der Gesamtwert aller Anforderungswerte. `mboxPageValue` ist ein reservierter Parameter, mit dem Werte in einer Target-Anforderung übergeben werden, um eine Interaktionsbewertung zu erfassen. Es können positive and negative Werte übergeben werden. Die Summe wird am Ende jedes Besuchs berechnet, um das Gesamtergebnis für den Besuch zu errechnen.
+   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. Wenn mehrere Anforderungen auf der Seite Ergebniswerte enthalten, entspricht das Ergebnis für die Seite der Gesamtwert aller Anforderungswerte. `mboxPageValue` ist ein reservierter Parameter, der zum Übergeben von Werten in einer Zielgruppe-Anforderung verwendet wird, um eine Interaktionsbewertung zu erfassen. Es können positive and negative Werte übergeben werden. Die Summe wird am Ende jedes Besuchs berechnet, um das Gesamtergebnis für den Besuch zu errechnen.
 
 * Geben Sie den Parameter `?mboxPageValue=n` in die URL der Seite ein.
 
@@ -48,13 +48,13 @@ Es gibt zwei Methoden zur Zuweisung eines Ergebnisses zu einer Seite:
 
    Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
->Target-Anfragen, die sich oberhalb der ersten Display- [!DNL Target] Anforderung der Aktivität befinden, werden nicht in das Ergebnis einbezogen.
+>Zielgruppen, die sich oberhalb der ersten Display- [!DNL Target] Anforderung der Aktivität befinden, werden nicht in das Ergebnis einbezogen.
 
 Best practice is to assign values in the [!DNL Target] request. Auf diese Weise können Sie die Werte, die Sie messen, genau bestimmen, je nach Inhalt der einzelnen Anforderungen.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Zur einfacheren Wartung können Sie die Wertezuweisungen des Seitenergebnisses Ihrer Site in der Datei [!DNL at.js] oder [!DNL mbox.js] mit bedingter JavaScript-Logik konfigurieren. So müssen Sie keinen weiteren Code zu Ihren Seiten hinzufügen. Wenden Sie sich an Ihren Berater, wenn Sie weitere Hilfe benötigen.
 
