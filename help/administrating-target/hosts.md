@@ -5,9 +5,9 @@ title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1125'
 ht-degree: 26%
 
 ---
@@ -25,7 +25,7 @@ Das Hauptziel bei der Hostverwaltung besteht darin, dafür zu sorgen, dass auf d
 
 Ein Host ist eine Domäne, von der aus eine [!DNL Target] Anforderung ausgeführt wird. Auf einer Website ist es normalerweise die `location.hostname` Eigenschaft der URL, die die [!DNL Target] Anforderung ausführt.
 
-Standardmäßig beschränkt [!DNL Target] dies keinen Host, der [!DNL Target] [!DNL Target] Anforderungen stellen und Antworten empfangen kann. Wenn neue Hosts Anforderungen stellen, funktionieren diese automatisch. Dies ermöglicht auch Tests auf verschiedenen Domänen, die Sie nicht kennen oder nicht vorhersehen können. Wenn Sie dieses Standardverhalten außer Kraft setzen möchten, können Sie eine zulassungsliste oder blockierungsliste einrichten, um zu begrenzen, mit welchen Hosts gearbeitet wird [!DNL Target].
+Standardmäßig beschränkt [!DNL Target] dies keinen Host, der [!DNL Target] [!DNL Target] Anforderungen stellen und Antworten empfangen kann. Wenn neue Hosts Anforderungen stellen, funktionieren diese automatisch. Dies ermöglicht auch Tests auf verschiedenen Domänen, die Sie nicht kennen oder nicht vorhersehen können. Wenn Sie dieses Standardverhalten außer Kraft setzen möchten, können Sie eine Zulassungsliste oder Blockierungsliste einrichten, um zu begrenzen, mit welchen Hosts gearbeitet wird [!DNL Target].
 
 Um Hosts zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
@@ -45,7 +45,7 @@ Um einen Host zu erkennen und ihn der [!UICONTROL Hosts] -Liste hinzuzufügen, m
 
 After the page is viewed, the host is listed in the [!UICONTROL Hosts] list, allowing you to manage it in an environment, as well as preview and launch activities and tests.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Dies umfasst sämtliche persönlichen Entwicklungsserver.
 
@@ -73,7 +73,7 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 
 You can create an allowlist that specifies hosts (domains) that are authorized to send [!DNL Target] requests to [!DNL Target]. Alle anderen Hosts, die Anforderungen generieren, erhalten eine kommentierte Fehlermeldung zur Autorisierung. By default, any host that contains a [!DNL Target] request registers with [!DNL Target] in the [!UICONTROL Production] environment and has access to all active and approved activities. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make [!DNL Target] requests and receive [!DNL Target] content. All hosts will continue to display in the [!UICONTROL Hosts] list, and environments can still be used to group these hosts and assign different levels to each, such as whether the host can see active and/or inactive activities.
 
-So erstellen Sie eine zulassungsliste:
+So erstellen Sie eine Zulassungsliste:
 
 1. Klicken Sie in der Liste [!UICONTROL Hosts] auf Hosts **[!UICONTROL autorisieren]**.
 1. Aktivieren Sie den Umschalter Autorisierte Hosts für Content Versand **[!UICONTROL aktivieren]** .
@@ -91,9 +91,9 @@ If a [!DNL Target] request is made on an unauthorized host, the call will respon
 
 >[!IMPORTANT]
 >
->**Best Practices** für Sicherheit: Wenn Sie die Ubox-Funktion von verwenden, [!DNL Target]beachten Sie, dass diese zulassungsliste auch die Liste der Domänen steuert, zu denen Ihre [Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) navigieren können. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, denen Sie umleiten möchten, wenn Sie Ubox als Teil Ihrer Implementierung verwenden. Wenn die zulassungsliste des  nicht angegeben ist, können [!DNL Adobe] die Umleitungs-URLs nicht überprüft und vor möglichen böswilligen Umleitungen geschützt werden.
+>**Best Practices** für Sicherheit: Wenn Sie die Ubox-Funktion von verwenden, [!DNL Target]beachten Sie, dass diese Zulassungsliste auch die Liste der Domänen steuert, zu denen Ihre [Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) navigieren können. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, denen Sie umleiten möchten, wenn Sie Ubox als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben ist, [!DNL Adobe] können die Umleitungs-URLs nicht überprüft und vor möglichen böswilligen Umleitungen geschützt werden.
 >
->Das zulassungsliste hat Vorrang vor Umgebung. Sie sollten alle Hosts löschen, bevor Sie die zulassungsliste-Funktion von verwenden. Dann werden nur die von der zulassungsliste zugelassenen Hosts in Ihrer Hosts-Liste angezeigt. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
+>Die Zulassungsliste hat Vorrang vor Umgebung. Sie sollten alle Hosts löschen, bevor Sie die Funktion &quot;Zulassungsliste&quot;verwenden. Dann werden nur die Hosts angezeigt, die von der Zulassungsliste zugelassen sind. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
 
 Manchmal erscheinen Hosts anderer Sites in Ihren Umgebungen. Eine Domäne wird in der Liste angezeigt, wenn die Domäne Ihre &quot;at.js&quot;oder &quot;mbox.js&quot;aufruft. Wenn beispielsweise eine Ihrer Webseiten auf den Server eines anderen kopiert wird, wird diese Domäne in Ihrer Umgebung angezeigt. Es können auch Domänen von Spider-Engines, Übersetzungssites oder lokalen Festplatten angezeigt werden.
 
@@ -103,7 +103,7 @@ You can also create a denylist that specifies hosts (domains) than cannot send [
 
 >[!NOTE]
 >
->Da die Liste &quot;Autorisierte Hosts&quot;sowohl für [!DNL Target] Hosts als auch für Standard-Umleitungshosts verwendet wird, müssen Sie alle vorhandenen Domänen hinzufügen, die für die Verwendung des [!DNL Adobe Target] JavaScript-SDK (at.js) zugelassen sind, *UND* alle Domänen, die in den Ubox-Standard-Umleitungs-URLs verwendet werden. Sie müssen dem zulassungsliste in Zukunft auch alle neuen ähnlichen Domänen hinzufügen.
+>Da die Liste &quot;Autorisierte Hosts&quot;sowohl für [!DNL Target] Hosts als auch für Standard-Umleitungshosts verwendet wird, müssen Sie alle vorhandenen Domänen hinzufügen, die für die Verwendung des [!DNL Adobe Target] JavaScript-SDK (at.js) zugelassen sind, *UND* alle Domänen, die in den Ubox-Standard-Umleitungs-URLs verwendet werden. Sie müssen der Zulassungsliste in Zukunft auch alle neuen ähnlichen Domänen hinzufügen.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
