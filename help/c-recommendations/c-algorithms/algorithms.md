@@ -1,10 +1,13 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Kriterien in Adobe Target Recommendations sind Regeln, die festlegen, welche Produkte basierend auf einem vordefinierten Satz von Besucherverhalten empfohlen werden sollen.
-title: Kriterien in Adobe Target Recommendations
+description: Kriterien in Adobe Target Recommendations sind Regeln, die festlegen, welche Produkte basierend auf einem vordefinierten Satz von Besuchern empfohlen werden sollen.
+title: Kriterien in Adobe Target-Empfehlungen
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1631'
+ht-degree: 74%
 
 ---
 
@@ -39,11 +42,11 @@ Der ausgewählte Empfehlungsschlüssel bestimmt den Kriterientyp. Es gibt viele 
 
 ## Verwenden eines benutzerdefinierten Empfehlungsschlüssels {#custom-key}
 
-Empfehlungen können auch auf dem Wert eines benutzerdefinierten Profilattributs basieren.
+Sie können Empfehlungen auch auf dem Wert eines benutzerspezifischen Profil-Attributs basieren.
 
 >[!NOTE]
 >
->Benutzerdefinierte Profilparameter können über JavaScript, API oder Integrationen an Target übergeben werden. Weitere Informationen zu benutzerdefinierten Profilattributen finden Sie unter [Besucherprofile](/help/c-target/c-visitor-profile/visitor-profile.md).
+>Benutzerdefinierte Profil-Parameter können über JavaScript, API oder Integrationen an die Zielgruppe übergeben werden. Weitere Informationen zu benutzerdefinierten Profil-Attributen finden Sie unter [Besucher-Profil](/help/c-target/c-visitor-profile/visitor-profile.md).
 
 Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Benutzer der Warteschlange zuletzt hinzugefügt hat.
 
@@ -65,9 +68,9 @@ Nehmen wir beispielsweise an, Sie möchten die Artikel mit den besten Verkäufen
 
 1. Wählen Sie das Entitätsattribut aus, das dem ausgewählten Schlüssel entspricht. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-   [!DNL Recommendations] erstellt nun eine Liste der "Topverkäufe"für jede Marke und zeigt dem Benutzer anhand des im Profilattribut [!UICONTROL Favoritenmarke] gespeicherten Wertes die entsprechende Liste der "Topverkäufe"an.
+   [!DNL Recommendations] erstellt nun für jede Marke eine &quot;Topverkäufe&quot;-Liste und zeigt dem Benutzer die entsprechende &quot;Topverkäufe&quot;-Liste basierend auf dem im Profil [!UICONTROL Favoritenmarke] gespeicherten Wert an.
 
-   ![Attribut "Topverkäufe"](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
+   ![Attribut &quot;Topverkäufe&quot;](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
 ## Criteria/algorithms {#criteria-algorithms}
 
@@ -75,7 +78,7 @@ Nehmen wir beispielsweise an, Sie möchten die Artikel mit den besten Verkäufen
 
 | Kriterien | Beschreibung |
 |--- |--- |
-| Artikel/Medien mit ähnlichen Attributen | Empfiehlt auf Grundlage von aktueller Seitenaktivität oder früherem Besucherverhalten Artikel oder Medien, die eine Ähnlichkeit zu anderen Artikeln oder Medien aufweisen.<br>**Hinweis:** Wenn Sie Elemente/Medien mit ähnlichen Attributen auswählen, können Sie Regeln zur Ähnlichkeit von Inhalten festlegen. |
+| Artikel/Medien mit ähnlichen Attributen | Empfiehlt auf Grundlage von aktueller Seitenaktivität oder früherem Besucherverhalten Artikel oder Medien, die eine Ähnlichkeit zu anderen Artikeln oder Medien aufweisen.<br>**Hinweis:**Wenn Sie Elemente/Medien mit ähnlichen Attributen auswählen, können Sie Regeln zur Ähnlichkeit von Inhalten festlegen. |
 | Personen, die das ansahen, sahen auch dies an | Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird. |
 | Personen, die das ansahen, kauften dies | Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird. Dieses Kriterium gibt andere Produkte zurück, die Personen nach dem Ansehen dieses Artikels gekauft haben. Das angegebene Produkt ist nicht in der Ergebnismenge enthalten. |
 | Personen, die das kauften, kauften dies | Empfiehlt Artikel, die am häufigsten von Kunden zur selben Zeit gekauft werden, wie der angegebene Artikel. |
@@ -83,9 +86,9 @@ Nehmen wir beispielsweise an, Sie möchten die Artikel mit den besten Verkäufen
 | Topverkäufe | Die Artikel, die in den meisten abgeschlossenen Bestellungen enthalten sind Wenn derselbe Artikel in einer Bestellung mehrmals bestellt wurde, zählt dies als eine Bestellung. |
 | Am häufigsten angezeigt | Die am häufigsten angezeigten Artikel oder Medien |
 | Kürzlich angesehene Artikel/Medien | Artikel, die vom Besucher kürzlich angesehen wurden Wenn Sie dieses Kriterium verwenden, sollten Sie den Target-Entwurf aktualisieren, damit keine leeren Empfehlungen angezeigt werden, wenn vor Kurzem aufgerufene Artikel nicht in ausreichender Zahl für die Anzeige zur Verfügung stehen. |
-| Benutzerbasierte Empfehlungen | Empfiehlt Artikel basierend auf dem Browsing, der Anzeige und dem Kaufverlauf jedes Besuchers. Diese Elemente werden allgemein als "Empfohlen für Sie"bezeichnet.<br>Mithilfe dieser Kriterien können Sie personalisierte Inhalte und Erlebnisse sowohl für neue als auch für wiederkehrende Besucher bereitstellen. Die Liste der Empfehlungen wird mit der neuesten Aktivität des Besuchers gewichtet und wird während der Sitzung aktualisiert und personalisiert, während der Benutzer Ihre Site besucht.<br>Sowohl Ansichten als auch Einkäufe werden zur Bestimmung der empfohlenen Artikel verwendet. Der angegebene Empfehlungsschlüssel (z. B. "Aktuelles Element") wird verwendet, um ausgewählte Einschlussregelfilter anzuwenden. Sie können zum Beispiel:<ul><li>Ausschließen von Artikeln, die bestimmte Kriterien nicht erfüllen (Produkte nicht vorrätig, Artikel, die vor mehr als 30 Tagen veröffentlicht wurden, Filme mit Rating R usw.)</li><li>Eingeschränkte Elemente auf eine einzelne Kategorie oder auf die aktuelle Kategorie beschränken</li></ul> |
+| Benutzerbasierte Empfehlungen | Empfiehlt Artikel basierend auf dem Browsen, Anzeigen und Kaufverlauf jedes Besuchers. Diese Elemente werden allgemein als &quot;Empfohlen für Sie&quot;bezeichnet.<br>Mithilfe dieser Kriterien können Sie personalisierte Inhalte und Erlebnisse sowohl für neue als auch für wiederkehrende Besucher bereitstellen. Die Liste der Empfehlungen wird mit der neuesten Aktivität des Besuchers gewichtet und während der Sitzung aktualisiert und personalisiert, während der Benutzer Ihre Site besucht.<br>Sowohl Ansichten als auch Einkäufe werden zur Bestimmung der empfohlenen Artikel verwendet. Der angegebene Empfehlungsschlüssel (z. B. &quot;Aktuelles Element&quot;) wird verwendet, um die von Ihnen gewählten Einschlussregel-Filter anzuwenden. Sie können zum Beispiel:<ul><li>Ausschließen von Artikeln, die bestimmte Kriterien nicht erfüllen (Produkte nicht vorrätig, Artikel, die vor mehr als 30 Tagen veröffentlicht wurden, Filme mit Rating R usw.)</li><li>Eingeschränkte Elemente auf eine einzige Kategorie oder auf die aktuelle Kategorie beschränken</li></ul> |
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Wenn Sie eine Empfehlung ausführen und deren Kriterien ändern, verlieren Sie Ihre Berichtsdaten.
 
@@ -105,8 +108,8 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusinformationen]**, um 
 
 Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusnutzung]**, um eine Liste der Aktivitäten anzuzeigen, die das ausgewählte Kriterium verwenden. Die Karte führt aktive und inaktive Aktivitäten auf. Klicken Sie auf die Dropdownliste „Live-Aktivitäten“ oder „Inaktivitäten“, um die gesamte Liste von Aktivitäten anzuzeigen, die das Kriterium verwenden. Sie können auf einen Aktivitätslink klicken, um die Aktivität zur Bearbeitung zu öffnen.
 
-![Registerkarte "Algorithmusverwendung"](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![Registerkarte &quot;Algorithmusverwendung&quot;](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->Die Funktion [!UICONTROL Algorithmusverwendung] wird derzeit nur für Recommendations-Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für Aktivitäten mit A/B-Tests und Erlebnis-Targeting (XT) unterstützt, die [Empfehlungen als Angebot](/help/c-recommendations/recommendations-as-an-offer.md)enthalten.
+>Die Funktion [!UICONTROL Algorithmusverwendung] wird derzeit nur für Recommendations-Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für A/B-Test- und Erlebnis-Targeting-Aktivitäten (XT) unterstützt, die [Empfehlungen als Angebot](/help/c-recommendations/recommendations-as-an-offer.md)enthalten.
