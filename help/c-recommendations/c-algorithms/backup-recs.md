@@ -1,10 +1,13 @@
 ---
-keywords: Empfehlung; Backup; Sicherung
+keywords: recommendation;backup;back up
 description: Wenn Sie die Funktion „Reserveempfehlung“ verwenden, zeigen Empfehlungen, die nicht über genügend empfohlene Elemente verfügen, keinen Standardinhalt an. Stattdessen zeigen Empfehlungen die Ergebnisse des Reservealgorithmus an.
 title: Verwenden einer Reserveempfehlung
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Entsprechend diesem Behälterprozess werden Sicherungsempfehlungen in der folgen
 
 Ohne das Bucketing von Sicherungsempfehlungen ist es möglich, das 499. am häufigsten angezeigte Element, gefolgt vom 200. am häufigsten angezeigten Element, gefolgt vom 380. am häufigsten angezeigten Element usw. anzuzeigen. Das Bucketing stellt sicher, dass die am häufigsten angezeigten Elemente als Erstes angezeigt werden.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Wenn Sie Ihre Artikel in Katalogen gruppieren, verwenden die für jeden Algorithmus innerhalb der Empfehlung erzeugten Reserveempfehlungen ebenfalls den Katalog, sodass nur Artikel im Katalog in die Reserveempfehlung aufgenommen werden.
 
