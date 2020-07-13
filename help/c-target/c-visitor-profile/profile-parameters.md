@@ -5,9 +5,9 @@ title: Profilattribute in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: '2441'
 ht-degree: 79%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 79%
 
 Profilattribute sind Parameter, die speziell für einen Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Aktivitäten verwendet werden können.
 
-Ein Profil eines Benutzers enthält demografische und verhaltensbezogene Informationen zu einem Besucher einer Webseite, z. B. Alter, Geschlecht, erworbene Produkte, letztes Mal bei einem Besuch usw. In diesem Target werden die Inhalte, die dem Besucher zur Verfügung stehen, personalisiert.
+Ein Profil eines Benutzers enthält demografische und verhaltensbezogene Informationen über einen Besucher einer Webseite, z. B. Alter, Geschlecht, erworbene Produkte, letzte Besuchszeit usw. Diese Zielgruppe verwendet diese Informationen, um die Inhalte, die dem Besucher zur Verfügung stehen, zu personalisieren.
 
 Wenn ein Besucher auf Ihrer Website surft oder der Besucher zu einer anderen Sitzung zurückkehrt, können die im Profil gespeicherten Profil-Attribute zur Zielgruppe von Inhalten oder Protokollinformationen für die Segmentfilterung verwendet werden.
 
@@ -96,9 +96,10 @@ Die Registerkarte [!UICONTROL Nutzung von Skripten] enthält die Aktivitäten (u
 
 ![Informationskarte „Profilskript“ > Registerkarte „Skriptnutzung“](assets/profile_script_info_card_usage_tab.png)
 
->[!Note]
+>[!NOTE]
 >
 >Auf der Registerkarte „Skriptnutzung“ werden keine Aktivitäten angezeigt, die auf das ausgewählte Profilskript in den folgenden Situationen verweisen:
+>
 > * Die Aktivität befindet sich im Entwurfsstatus.
 > * Die in der Aktivität verwendeten Inhalte oder Angebote verwenden Skriptvariablen (entweder ein Inline-Angebot innerhalb der Aktivität oder ein Angebot in der Angebotsbibliothek).
 
@@ -142,7 +143,7 @@ Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verf
    * Halten Sie Profil-Skripten klein und so einfach wie möglich.
    * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur sehr einfache reguläre Ausdrücke. Sogar einfache Ausdruck können viele Anleitungen zur Bewertung verwenden.
    * Rekursion vermeiden.
-   * Profil-Skripten sollten vor dem Hinzufügen zu Target einem Leistungstest unterzogen werden. Alle Profil-Skripten werden bei jeder mbox-Anfrage ausgeführt. Wenn Profil-Skripten nicht korrekt ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger. Dies könnte sich auf Traffic und Umrechnung auswirken.
+   * Profil-Skripten sollten vor dem Hinzufügen zur Zielgruppe einem Leistungstest unterzogen werden. Alle Profil-Skripten werden bei jeder mbox-Anfrage ausgeführt. Wenn Profil-Skripten nicht korrekt ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger. Dies könnte sich auf Traffic und Umrechnung auswirken.
    * Wenn Profil-Skripte zu komplex werden, sollten Sie stattdessen [Antwort-Token](/help/administrating-target/response-tokens.md) verwenden.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
