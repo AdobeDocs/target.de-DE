@@ -5,7 +5,10 @@ title: Erstellen von Umleitungsangeboten
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +19,7 @@ Bei Umleitungsangeboten wird der Browser zu einer neuen Seite umgeleitet.
 
 Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, anstatt lediglich Inhaltselemente innerhalb einer Seite zu ändern. In diesem Fall vergleicht Ihr A/B-Test Seite A mit Seite B. Richten Sie eine A/B-Test-Kampagne mit zwei Erlebnissen ein: einem, das auf die Standardseite A verweist, und einem anderen, das auf die Seite B umleitet. Das Angebot wird so konfiguriert, dass der Besucher auf eine andere Seite umgeleitet wird.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Sie können keine Umleitungsangebote in Ajax-Mboxes (`mboxUpdate`) verwenden.
 >
@@ -26,7 +29,7 @@ Weitere Informationen zum Einrichten eines Erlebnisses mit Umleitung finden Sie 
 
 Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser umzuleiten. Hierbei wird die Methode `window.location.replace();` verwendet, sodass die Seite, von der der Besucher umgeleitet wird, nicht im Browserverlauf gespeichert wird. Daher kann der Besucher die Zurück-Schaltfläche des Browsers wie gewohnt verwenden.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Wenn Sie den Referrer-Wert der Landingpage übergeben möchten, sollten Sie statt eines Umleitungsangebots ein HTML-Angebot verwenden.
 
@@ -51,11 +54,11 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
    Wenn Sie die Einstellung für Erst- und Drittanbieter-Cookie verwenden, müssen Sie die Sitzungs-ID der Mbox beim Wechseln von Domänen nicht weitergeben. Sie bleibt beim Drittanbieter-Cookie erhalten, deshalb ist sie in der URL nicht erforderlich.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Wenden Sie sich an Ihren Implementierungsberater, bevor Sie diese Tests starten.
 
-## Schulungsvideo: Das Content-Repository (4:56) Kennzeichen ![Übersicht](/help/assets/overview.png)
+## Schulungsvideo: Das Content-Repository (4:56) ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 
