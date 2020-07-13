@@ -4,7 +4,10 @@ description: Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlu
 title: Anpassen eines Designs mithilfe von Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1010'
+ht-degree: 65%
 
 ---
 
@@ -114,7 +117,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Wenn Sie Text nach dem Wert einer Variablen vor einem Tag hinzufügen möchten, das angibt, dass der Variablenname abgeschlossen ist, können Sie dies mit einer formalen Notation tun, um den Namen der Variablen einzuschließen. Beispiel: `${entity1.thumbnailUrl}.gif`.
 
