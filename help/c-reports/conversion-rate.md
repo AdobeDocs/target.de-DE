@@ -5,7 +5,10 @@ title: Konversionsrate
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +21,7 @@ In der folgenden Illustration wird die Diagrammüberschrift für eine Beispielak
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Duplizierte Bestellungen werden in allen Daten ignoriert, wenn ein `orderID` übergeben wird. Im Audit-Bericht werden die ignorierten duplizierten Bestellungen aufgelistet.
 
@@ -104,7 +107,7 @@ Das *Konfidenzintervall* ist ein Bereich, in dem der wahre Wert auf einer bestim
 
 Der [heruntergeladene CSV-Bericht](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
 
-To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -121,8 +124,8 @@ Wenn Sie beispielsweise eine Optimierung für Seitenansichten pro Besucher durch
 **So verwenden Sie die[!DNL Analytics]-Datenexportfunktion:**
 
 1. Melden Sie sich bei [!DNL Adobe Analytics] an.
-1. Klicken Sie auf **[!UICONTROL Tools]** &gt; **[!UICONTROL Data Warehouse]**.
-1. Füllen Sie auf der Registerkarte **[!UICONTROL Data Warehouse-Anforderung]die Felder aus.**
+1. Klicken Sie auf **[!UICONTROL Werkzeuge]** > **[!UICONTROL Data Warehouse]**.
+1. Füllen Sie auf der Registerkarte **[!UICONTROL Data Warehouse-Anforderung]** die Felder aus.
 
    Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
 
@@ -138,14 +141,14 @@ Wenn Sie beispielsweise eine Optimierung für Seitenansichten pro Besucher durch
 
 1. Klicken Sie auf **[!UICONTROL Diesen Bericht anfordern]**.
 
-   Die Dateibereitstellung kann je nach Umfang der angeforderten Daten bis zu 72 Stunden in Anspruch nehmen. Sie können den Fortschritt Ihrer Anforderung jederzeit überprüfen, indem Sie auf [!UICONTROL Werkzeuge] &gt; [!UICONTROL Data Warehouse] &gt; [!UICONTROL Request Manager] klicken.
+   Die Dateibereitstellung kann je nach Umfang der angeforderten Daten bis zu 72 Stunden in Anspruch nehmen. Sie können den Fortschritt Ihrer Anforderung jederzeit überprüfen, indem Sie auf [!UICONTROL Werkzeuge] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager] klicken.
 
    Wenn Sie in der Vergangenheit angeforderte Daten erneut anfordern möchten, können Sie eine alte Anforderung über den [!UICONTROL Request Manager] bei Bedarf duplizieren.
 
 Weitere Informationen über [!DNL Data Warehouse] finden Sie in der [!DNL Analytics]-Hilfsdokumentation unter den folgenden Links:
 
 * [Erstellen einer Data Warehouse-Anforderung](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Best Practices für Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Data warehouse Best Practices](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Zählmethodik {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -180,6 +183,6 @@ Berichte können nach folgenden Zählmethodiken angezeigt werden:
 
    Ein einzelner Besuch kann diverse Impressionen, z. B. Ihrer Startseite, beinhalten.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >In der Regel werden Zählungen durch Cookies und Sitzungsaktivitäten bestimmt. Wenn Sie jedoch den End-Konversionspunkt einer Aktivität erreichen und die Aktivität dann erneut aufrufen, werden Sie als neuer Teilnehmer und neuer Aktivitätsbesuch gezählt. Dies trifft auch dann zu, wenn sich die Werte Ihrer PCID und der `sessionID` nicht geändert haben.
