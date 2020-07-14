@@ -4,7 +4,10 @@ title: Automatisches Targeting
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '3365'
+ht-degree: 96%
 
 ---
 
@@ -146,7 +149,9 @@ Weitere Informationen finden Sie unter [Zusammenfassender Bericht zu „Automati
 
 ## Häufig gestellte Fragen zum automatischen Targeting {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-**Wie lauten die Best Practices zum Einrichten einer Aktivität vom Typ[!UICONTROL Automatisches Targeting]?**
+Lesen Sie die folgenden häufig gestellten Fragen und Antworten, während Sie mit Aktivitäten der [!UICONTROL automatischen Zielgruppe] arbeiten:
+
+### Wie lauten die Best Practices zum Einrichten einer Aktivität vom Typ [!UICONTROL Automatisches Targeting]?
 
 * Entscheiden Sie, ob der Geschäftswert einer Erfolgsmetrik vom Typ „Umsatz pro Besuch“ (RPV) die zusätzlichen Traffic-Anforderungen wert ist. RPV benötigt in der Regel mindestens 1.000 Konversionen pro Erlebnis, damit eine Aktivität gegenüber einer Konversion funktioniert.
 * Legen Sie die Zuordnung zwischen der Kontrolle und den personalisierten Erlebnissen fest, bevor Sie die Aktivität auf Basis Ihrer Ziele beginnen.
@@ -159,15 +164,15 @@ Weitere Informationen finden Sie unter [Zusammenfassender Bericht zu „Automati
 
 * Versuchen Sie, während des Aktivitätsverlaufs wesentliche Änderungen an den Erlebnissen vorzunehmen.
 
-**Werden die Häkchen, die angeben, ob ein Modell für das jeweilige Erlebnis erstellt ist, aktualisiert, wenn sich der Berichtsdatumsbereich ändert?**
+### Werden die Häkchen, die angeben, ob ein Modell für das jeweilige Erlebnis erstellt ist, aktualisiert, wenn sich der Berichtsdatumsbereich ändert?
 
 Nein, Häkchen für die Modellgenerierung zeigen nur die bisher erstellten Modelle an. Es gibt keine Möglichkeit zurückzukehren und zu sehen, ob ein Modell abgeschlossen wurde.
 
-**Wenn ein Besucher die Aktivität vom Typ[!UICONTROL Automatisches Targeting]NICHT sieht und konvertiert, zählt dann die Konversion dann in meiner Aktivität?**
+### Wenn ein Besucher die Aktivität vom Typ [!UICONTROL Automatisches Targeting] NICHT sieht und konvertiert, zählt dann die Konversion dann in meiner Aktivität?
 
 Nein, es werden nur die Besucher im Bericht gezählt, die sich für die Aktivität vom Typ [!UICONTROL Automatisches Targeting] qualifizieren und sie anzeigen.
 
-**Meine Aktivität vom Typ[!UICONTROL Automatisches Targeting]generiert offenbar keine Steigerung. Was ist los?**
+### Meine Aktivität vom Typ [!UICONTROL Automatisches Targeting] generiert offenbar keine Steigerung. Was ist los?  
 
 Es sind vier Faktoren erforderlich, damit eine Aktivität vom Typ [!UICONTROL Automatisierte Personalisierung] eine Steigerung generiert:
 
@@ -180,13 +185,13 @@ Es empfiehlt sich zunächst mithilfe eines einfachen, nicht personalisierten A/B
 
 Wenn in den Ergebnissen eines A/B-Tests eine signifikante Steigerung von mindestens einem Erlebnis gezeigt wird, ist es wahrscheinlich, dass eine personalisierte Aktivität funktioniert. Natürlich kann die Personalisierung selbst dann funktionieren, wenn keine Unterschiede in den Gesamtantwortraten der Erlebnisse vorliegen. Das Problem geht in der Regel auf Angebote/Positionen zurück, die sich nicht stark genug auf das mit statistischer Bedeutung zu ermittelnde Optimierungsziel auswirken.
 
-**Wann sollte ich meine Aktivität vom Typ[!UICONTROL Automatisches Targeting]anhalten?**
+### Wann sollte ich meine Aktivität vom Typ [!UICONTROL Automatisches Targeting] anhalten?
 
 [!UICONTROL „Automatisches Targeting“] kann als eine „Always on“-Personalisierung verwendet werden, die kontinuierlich optimiert wird. Insbesondere für zeitlose Inhalte besteht keine Notwendigkeit, Ihre Aktivität vom Typ [!UICONTROL Automatisches Targeting] anzuhalten.
 
 Wenn Sie wesentliche Änderungen an den Inhalten in Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] vornehmen möchten, empfiehlt es sich, eine neue Aktivität zu beginnen, damit andere Benutzer, die Berichte überprüfen, vergangene Ergebnisse nicht mit anderen Inhalten verwechseln oder in Beziehung setzen.
 
-**Wie lange sollte ich warten, bis Modelle erstellt werden?**
+### Wie lange sollte ich warten, bis Modelle erstellt werden? 
 
 Wie lange es dauert, bis in Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] Modelle erstellt werden, hängt in der Regel vom Traffic Ihrer ausgewählten Aktivitätsposition(en) und Ihrer Aktivitätserfolgsmetrik ab.
 
@@ -195,21 +200,27 @@ Für [!UICONTROL Automatisches Targeting] können einfache Faustregeln zum Nachv
 * **Wenn „Konversion“ Ihre Erfolgsmetrik ist:** 1.000 Besuche und mindestens 50 Konversionen pro Tag pro Erlebnis. Zusätzlich muss die Aktivität über mindestens 7.000 Besuche und 350 Konversionen verfügen.
 * **Wenn „Umsatz pro Besuch“ Ihre Erfolgsmetrik ist:** 1.000 Besuche und mindestens 50 Konversionen pro Tag pro Erlebnis. Zusätzlich muss die Aktivität über mindestens 1.000 Konversionen pro Erlebnis verfügen. Für „Umsatz pro Besuch (RPV)“ sind aufgrund der höheren Datenvarianz, die im Vergleich zur Konversionsrate für gewöhnlich im Besuchsumsatz vorhanden ist, in der Regel mehr Daten zum Erstellen von Modellen erforderlich.
 
-**Ein Modell wird in meiner Aktivität erstellt. Sind die Besuche bei diesem Erlebnis personalisiert?**
+### Ein Modell wird in meiner Aktivität erstellt. Sind die Besuche bei diesem Erlebnis personalisiert?  
 
 Nein, es müssen mindestens zwei Modelle in Ihrer Aktivität erstellt werden, damit die Personalisierung gestartet wird.
 
-**Ab wann kann ich die Ergebnisse meiner Aktivität vom Typ[!UICONTROL Automatisches Targeting]anzeigen?**
+### Ab wann kann ich die Ergebnisse meiner Aktivität vom Typ [!UICONTROL Automatisches Targeting] anzeigen?
 
 Sie können die Ergebnisse Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] anzeigen, sobald Sie über mindestens zwei Erlebnisse mit für das Erlebnis erstellten Modellen (grünes Häkchen) verfügen, die Modelle erstellt haben.
 
-**Kann ich ein bestimmtes Erlebnis als Kontrollerlebnis angeben?**
+### Kann ich ein bestimmtes Erlebnis als Kontrollerlebnis angeben?
 
 Sie können bei der Erstellung einer [automatisierten Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) oder eines [automatischen Targetings](/help/c-activities/auto-target-to-optimize.md) (AT) ein Kontrollerlebnis auswählen.
 
 Mit dieser Funktion können Sie den gesamten Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu einem bestimmten Erlebnis leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem einen Erlebnis vergleichen.
 
 Weitere Informationen finden Sie unter [Verwenden eines bestimmten Erlebnisses als Kontrolle](/help/c-activities/t-automated-personalization/experience-as-control.md).
+
+### Kann ich die Zielmetrik in der Mitte durch eine Auto-Zielgruppe-Aktivität ändern? {#change-metric}
+
+Es wird nicht empfohlen, die Zielmetrik mitten in einer Aktivität zu ändern. Obwohl die Zielmetrik während einer Aktivität mithilfe der [!DNL Target] Benutzeroberfläche geändert werden kann, sollten Sie immer eine neue Aktivität Beginn haben. Wir garantieren nicht, was passiert, wenn Sie die Sollmetrik in einer Aktivität nach der Ausführung ändern.
+
+Diese Empfehlung gilt für [!UICONTROL Aktivitäten mit automatisierter Zuordnung], [!UICONTROL automatischer Zielgruppe]und [!UICONTROL automatisierter Personalisierung] , die entweder [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte verwenden.
 
 ## Fehlerbehebung für [!UICONTROL Automatisches Targeting] {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -247,7 +258,7 @@ Bei einer Aktivität vom Typ [!UICONTROL Automatisches Targeting] wird der Benut
 
 Nehmen wir zum Beispiel an, dass eine Aktivität mit einer Konversionsmetrik (C1) und einer zusätzlichen Metrik (A1) besteht. A1 ist abhängig von C1. Wenn ein Besucher die Aktivität das erste Mal antrifft und die Kriterien zum Konvertieren von A1 und C1 nicht konvertiert werden, wird die Metrik A1 aufgrund der Erfolgsmetrikabhängigkeit nicht konvertiert. Wenn der Besucher C1 konvertiert und erst danach A1, wird A1 auch dann nicht konvertiert, da der Besucher abgekoppelt wird, sobald C1 konvertiert ist.
 
-## Schulungsvideo: Erklärungen zu Aktivitäten vom Typ „Automatisches Targeting“ Kennzeichen ![Übersicht](/help/assets/overview.png)
+## Schulungsvideo: Erklärungen zu Aktivitäten vom Typ „Automatisches Targeting“ ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 In diesem Video wird die Einrichtung einer A/B-Aktivität für [!UICONTROL Automatisches Targeting] beschrieben.
 
