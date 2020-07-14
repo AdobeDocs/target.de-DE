@@ -5,9 +5,9 @@ title: Hinweise zur Vorabversion des Adobe Targets
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
+source-git-commit: 7f23f80a0528ea2e6de78a5491c87ca72862813d
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '561'
 ht-degree: 16%
 
 ---
@@ -60,7 +60,6 @@ Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderu
 * Es wurde ein Problem behoben, bei dem [!UICONTROL Einfügen nach] > [!UICONTROL Bild] nicht ordnungsgemäß mit SVG-Bildern (Scalable Vector Graphics) funktionierte. (TGT-37242)
 * Es wurde ein Problem für Benutzer mit der Rolle [!UICONTROL Herausgeber] behoben, das das Löschen von Aktivitäten verhinderte. (TGT-37358)
 * Es wurde ein Fehler behoben, der verhinderte, dass Benutzer eine Aktivität bearbeiten konnten, wenn &quot; [!UICONTROL Alle meine Arbeitsbereiche] &quot;ausgewählt wurde. (TGT-37276)
-* Die vorhandenen Profil-Skriptinformationskarten mit Informationen zur Audience wurden verbessert. (TGT-37302)
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
