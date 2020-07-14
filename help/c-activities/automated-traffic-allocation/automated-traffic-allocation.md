@@ -5,10 +5,10 @@ title: Automatische Zuordnung
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '3014'
-ht-degree: 89%
+source-wordcount: '3112'
+ht-degree: 84%
 
 ---
 
@@ -127,55 +127,63 @@ Diese Faktoren können die Ergebnisse eines Tests mit automatisierter Zuordnung 
 
 ## Häufig gestellte Fragen {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-** Unterstützt Analytics for Target (A4T) Aktivitäten mit automatisierter Zuordnung?
+Beachten Sie bei der Arbeit mit [!UICONTROL Aktivitäten zur automatischen Zuordnung] die folgenden häufig gestellten Fragen und Antworten:
 
-Ja. Weitere Informationen finden Sie unter Unterstützung von [Analytics für Target (A4T) für Aktivitäten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) mit automatisierter Zuordnung bei der Erstellung von *Aktivitäten*.
+### Unterstützt Analytics für Zielgruppe (A4T) Aktivitäten mit automatisierter Zuordnung?
 
-**Werden wiederkehrende Besucher automatisch zu leistungsstarken Erlebnissen weitergeleitet?**
+Ja. Weitere Informationen finden Sie unter Unterstützung von [Analytics für Zielgruppe (A4T) für Aktivitäten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) mit automatisierter Zuordnung bei der Erstellung von *Aktivitäten*.
+
+### Werden wiederkehrende Besucher automatisch zu leistungsstarken Erlebnissen weitergeleitet?
 
 Nein. Nur neue Besucher werden automatisch zugeordnet. Wiederkehrende Besucher sehen weiterhin ihr ursprüngliches Erlebnis. Dies schützt die Gültigkeit des A/B-Tests.
 
-**Wie behandelt der Algorithmus falsch-positive Ergebnisse?**
+### Wie behandelt der Algorithmus falsch-positive Ergebnisse?
 
 Der Algorithmus garantiert eine Konfidenz von 95 % oder eine Falsch-positiv-Rate von 5 %, wenn Sie warten, bis ein Gewinnerabzeichen angezeigt wird.
 
-**Ab wann wird bei automatischer Zuordnung Traffic zugeordnet?**
+### Ab wann wird bei automatischer Zuordnung Traffic zugeordnet?
 
 Der Algorithmus setzt ein, nachdem sämtliche Erlebnisse in der Aktivität mindestens 1.000 Besucher und 50 Konversionen erreicht haben.
 
-**Wie aggressiv wertet der Algorithmus aus?**
+### Wie aggressiv wertet der Algorithmus aus?
 
 80 % des Traffics werden mittels automatisierter Zuordnung und 20 % des Traffics auf zufälliger Basis zugeteilt. Wenn ein Gewinner ermittelt ist, erhält dieser die gesamten 80 %, während alle Erlebnisse, einschließlich des Gewinners, ihren jeweiligen Anteil an den 20 % des Traffics erhalten.
 
-**Werden sehr schwache Erlebnisse überhaupt angezeigt?**
+### Werden sehr schwache Erlebnisse überhaupt angezeigt?
 
 Ja. Die Multi-Armed Bandit-Methode stellt sicher, dass mindestens 20 % des Datenverkehrs für die Erforschung von Änderungsmustern oder Konversionsraten in allen Erlebnissen reserviert werden.
 
-**Was passiert mit Aktivitäten mit langen Konversionsverzögerungen?**
+### Was passiert mit Aktivitäten mit langen Konversionsverzögerungen?
 
 Solange alle Erlebnisse, die optimiert werden, ähnliche Verzögerungen aufweisen, ist das Verhalten wie bei einer Aktivität mit schnellerem Konversionszyklus, auch wenn es länger dauert, den Grenzwert von 50 Konversionen zu erreichen, ab dem die Traffic-Zuordnung beginnt.
 
-**Worin unterscheidet sich automatisierte Zuordnung von automatisierter Personalisierung?**
+### Worin unterscheidet sich automatisierte Zuordnung von automatisierter Personalisierung?
 
 Bei der automatisierten Personalisierung werden die Profilattribute aller Besucher verwendet, um das beste Erlebnis zu bestimmen. Dadurch wird die Aktivität für den jeweiligen Besucher nicht nur optimiert, sondern auch personalisiert.
 
 Bei der automatisierten Zuordnung handelt es sich jedoch um einen A/B-Test, der einen Gesamtgewinner erzeugt (das beliebteste Erlebnis, das nicht zwingend für jeden Benutzer das effektivste Erlebnis sein muss).
 
-**Erhöhen wiederkehrende Besucher die Konversionsrate in meiner Erfolgsmetrik?**
+### Erhöhen wiederkehrende Besucher die Konversionsrate in meiner Erfolgsmetrik?
 
 Derzeit bevorzugt die Logik Besucher, die schnell konvertieren oder die Site häufiger besuchen. Dies beruht darauf, dass solche Besucher die Gesamtkonversionsrate des Erlebnisses, zu dem sie gehören, vorübergehend erhöhen. Der Algorithmus passt sich häufig von selbst an, sodass die Steigerung der Konversionsrate bei jeder Momentaufnahme verstärkt wird. Wenn die Site viele wiederkehrende Besucher verzeichnet, können deren Konversionen die Gesamtkonversionsrate für das Erlebnis, zu dem sie gehören, möglicherweise erhöhen. Es bestehen gute Chancen, dass wiederkehrende Besucher per Zufall verteilt werden; in diesem Fall wird die Gesamtwirkung (Anstieg) ausgeglichen. Um diese Auswirkung zu beschränken, sollten Sie die Änderung der Zählmethode der Erfolgsmetrik erwägen, um jeden Teilnehmer nur einmal zu zählen.
 
-**Kann ich den Rechner für die Stichprobengröße verwenden, wenn ich die automatisierte Zuordnung nutze, um zu schätzen, wie lange die Aktivität brauchen wird, um den Gewinner zu identifizieren?**
+### Kann ich den Rechner für die Stichprobengröße verwenden, wenn ich die automatisierte Zuordnung nutze, um zu schätzen, wie lange die Aktivität brauchen wird, um den Gewinner zu identifizieren?
 
 You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Wie bei herkömmlichen A/B-Tests sollten Sie Bonferroni-Korrekturen anwenden, wenn Sie mehr als zwei Angebot oder mehr als eine Konversionsmetrik/Hypothese testen.) Beachten Sie, dass dieser Rechner für herkömmliche A/B-Tests mit festem Horizont konzipiert ist und nur eine Schätzung liefert. Die Verwendung des Taschenrechners für eine Aktivität mit automatisierter Zuordnung ist optional, da die automatisierte Zuordnung einen Gewinner für Sie festlegt - Sie müssen keinen festen Zeitpunkt auswählen, um die Testergebnisse anzuzeigen - die bereitgestellten Werte sind immer statistisch gültig. In unseren Experimenten haben wir Folgendes herausgefunden:
 * Beim Testen von genau zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Testen mit einem festen Horizont (d. h. dem vom Stichprobengrößenrechner vorgeschlagenen Zeitrahmen), wenn der Leistungsunterschied zwischen den Erlebnissen groß ist. Es kann jedoch mehr Zeit erforderlich sein, um einen Gewinner zu ermitteln, wenn der Leistungsunterschied zwischen den Erlebnissen gering ist. In diesen Fällen wären Tests mit festem Horizont in der Regel ohne ein statistisch signifikantes Ergebnis beendet worden.
 * Beim Testen von mehr als zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Testen mit einem festen Horizont (d. h. der vom Stichprobengrößenrechner vorgeschlagene Zeitrahmen), wenn ein einzelnes Erlebnis alle anderen Erlebnisse deutlich übertrifft. Wenn zwei oder mehr Erlebnisse im Vergleich zu anderen Erlebnissen &quot;gewonnen&quot;werden, aber eng miteinander übereinstimmen, kann die automatische Zuordnung mehr Zeit erfordern, um festzustellen, welches Erlebnis besser ist. In diesen Fällen wären Tests mit festem Horizont normalerweise zu dem Schluss gekommen, dass die &quot;erfolgreichsten&quot;Erlebnisse besser waren als die Erlebnisse mit geringerer Leistung, aber nicht ermittelt hätten, welches Erlebnis besser war.
 
-**Sollte ich ein leistungsschwaches Erlebnis aus einer Aktivität mit automatischer Zuordnung entfernen, um einen Gewinner zu bestimmen?**
+### Sollte ich ein leistungsschwaches Erlebnis aus einer Aktivität mit automatisierter Zuordnung entfernen, um den Gewinner schneller zu ermitteln?
 
-Es gibt wirklich keinen Grund, ein leistungsschwaches Erlebnis zu entfernen. Die automatisierte Zuordnung bietet automatisch öfter leistungsstarke Erlebnisse und liefert weniger häufig leistungsschwache Erlebnisse. Wenn Sie ein leistungsschwaches Erlebnis in der Aktivität hinterlassen, wird die Geschwindigkeit zur Ermittlung eines Gewinners dadurch nicht wesentlich beeinträchtigt.
+Es gibt wirklich keinen Grund, ein Erlebnis mit schlechter Leistung zu entfernen. Die automatisierte Zuordnung liefert automatisch leistungsstarke Erlebnisse häufiger und liefert weniger leistungsstarke Erlebnisse. Das Verlassen eines leistungsschwachen Erlebnisses in der Aktivität hat keine signifikanten Auswirkungen auf die Geschwindigkeit, mit der ein Gewinner ermittelt wird.
 
-20 % der Besucher werden zufällig über alle Erlebnisse verteilt. Der Traffic, der für ein leistungsschwaches Erlebnis bereitgestellt wird, ist nur minimal (20 % geteilt durch die Anzahl der Erlebnisse).
+20 % der Besucher werden zufällig über alle Erlebnisse verteilt. Der Traffic, der zu einem Erlebnis mit schlechter Performance geleitet wurde, ist minimal (20 % geteilt durch die Anzahl der Erlebnisse).
+
+### Kann ich die Zielmetrik in der Mitte durch eine Aktivität mit automatisierter Zuordnung ändern? {#change-metric}
+
+Es wird nicht empfohlen, die Zielmetrik mitten in einer Aktivität zu ändern. Obwohl die Zielmetrik während einer Aktivität mithilfe der [!DNL Target] Benutzeroberfläche geändert werden kann, sollten Sie immer eine neue Aktivität Beginn haben. Wir garantieren nicht, was passiert, wenn Sie die Sollmetrik in einer Aktivität nach der Ausführung ändern.
+
+Diese Empfehlung gilt für [!UICONTROL Aktivitäten mit automatisierter Zuordnung], [!UICONTROL automatischer Zielgruppe]und [!UICONTROL automatisierter Personalisierung] , die entweder [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte verwenden.
 
 ## Schulungsvideos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
