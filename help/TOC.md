@@ -5,10 +5,10 @@ user-guide-title: Adobe Target-Hilfe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: f2cd428fa16bd1a6b3c677f862f163bd8b66ef41
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 92%
+source-wordcount: '1423'
+ht-degree: 91%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 92%
    + Automatisch zuweisen {#auto-allocate}
       + [Automatische Zuordnung](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Berichte zur automatischen Zuordnung interpretieren](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [Die automatische Zuordnung bietet schnellere Testergebnisse und höhere Umsätze als ein manueller Test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+      + [Die automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und mehr Umsatz als ein manueller Test liefern](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Automatisches Targeting](c-activities/auto-target-to-optimize.md)
    + Automatisierte Personalisierung {#automated-personalization}
       + [Automated Personalization – Überblick](c-activities/t-automated-personalization/automated-personalization.md)
