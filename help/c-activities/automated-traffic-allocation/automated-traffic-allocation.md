@@ -5,10 +5,10 @@ title: Automatische Zuordnung
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 84%
+source-wordcount: '3134'
+ht-degree: 83%
 
 ---
 
@@ -88,6 +88,10 @@ After an [!UICONTROL Auto-Allocate] activity is activated, the following operati
 * Umschalten des Modus „Traffic-Zuordnung“ auf „Manuell“
 * Ändern des Zielmetriktyps
 * Ändern der Optionen im Bedienfeld „Erweiterte Einstellungen“
+
+## Funktionsweise der automatischen Zuordnung
+
+Weitere Informationen finden Sie unter [Automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und mehr Umsatz als ein manueller Test liefern.](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
 
 ## Einschränkungen {#section_5C83F89F85C14FD181930AA420435E1D}
 
