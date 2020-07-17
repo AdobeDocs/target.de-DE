@@ -5,9 +5,9 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1365'
 ht-degree: 32%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Juli 17 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur Kaffeepause vom 22. Juli hinzugefügt. |
 | Juli 15 | [Die automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und mehr Umsatz als ein manueller Test liefern](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | Neues Thema |
 | Juli 14 | [Häufig gestellte Fragen zur automatischen Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[automatischen Zielgruppe](/help/c-activities/auto-target-to-optimize.md)<br><br>[und automatisierten Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Häufig gestellte Fragen wurden hinzugefügt, in denen empfohlen wird, die Zielmetrik nicht mitten in einer Aktivität zu ändern. |
 | Juli 7 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zum 8. Juli Adobe Target Kaffeepause hinzugefügt. |
