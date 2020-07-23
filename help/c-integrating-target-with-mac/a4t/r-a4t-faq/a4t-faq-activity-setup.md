@@ -1,11 +1,14 @@
 ---
-keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Aktivitätseinrichtung
+keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: Dieses Thema enthält Antworten auf häufig zum Aktivitäts-Setup und zur Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 title: Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 89%
 
 ---
 
@@ -24,13 +27,13 @@ Beim Erstellen einer Aktivität sendet Target eine Classifications-Datei an Anal
 
 ## Warum kann ich Analytics nicht als meine Berichterstellungsquelle auswählen, wenn ich eine neue Aktivität erstelle?  {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-Sie können Ihre Berichterstellungseinstellungen bei der Einrichtung ändern.
+Sie können die Optionen für die Berichte-Einstellungen in Administration ändern.
 
-1. Klicken Sie in Adobe Target auf **[!UICONTROL Einrichten]**.
+1. In Adobe Target, click **[!UICONTROL Administration]**.
 1. Klicken Sie in der Dropdownliste **[!UICONTROL Für die Berichterstellung verwendete Experience Cloud-Lösung]** auf **[!UICONTROL Pro Aktivität auswählen]**.
 
 ![](assets/select-per-activity.png)
 
-Die Dropdownliste **[!UICONTROL Berichterstellungsquelle]** wird auf dem Bildschirm **Ziele und Einstellungen]für Erstellungs- und Bearbeitungsaktivitäten aktiviert.[!UICONTROL **
+Die Dropdownliste **[!UICONTROL Berichterstellungsquelle]** wird auf dem Bildschirm **[!UICONTROL Ziele und Einstellungen]** für Erstellungs- und Bearbeitungsaktivitäten aktiviert.
 
-Möchten Sie stets Analytics als Berichtsquelle verwenden, wählen Sie aus der Dropdownliste in der Einrichtung die Option **[!UICONTROL Adobe Analytics]aus.**
+To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Administration.
