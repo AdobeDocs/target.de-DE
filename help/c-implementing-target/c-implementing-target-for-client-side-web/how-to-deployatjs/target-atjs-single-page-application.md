@@ -5,7 +5,10 @@ title: Implementierung einer Einzelseitenanwendung in Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '2752'
+ht-degree: 74%
 
 ---
 
@@ -30,7 +33,7 @@ Adobe Target VEC für SPAs basiert auf einem neuen Konzept für Ansichten: Eine 
 
 Um Ansichten genauer erklären zu können, navigieren wir einmal über diese fiktive E-Commerce-Site, die in React implementiert wurde, und betrachten einige Beispielansichten. Klicken Sie auf die folgenden Links, um diese Website auf einer neuen Browser-Registerkarte zu öffnen.
 
-**Link:[Homepage](https://target.enablementadobe.com/react/demo/#/)**
+**Link:[Startseite](https://target.enablementadobe.com/react/demo/#/)**
 
 ![Homepage](/help/c-experiences/assets/home.png)
 
@@ -68,7 +71,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
 
    Zunächst müssen Sie at.js 2.x installieren. Diese Version von at.js wurde speziell für SPAs entwickelt. Frühere Versionen von at.js und mbox.js unterstützen Adobe Target-Ansichten und VEC für SPAs nicht.
 
-   Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter [!UICONTROL Einrichtung > Implementierung] herunter. at.js 2.x kann auch über Adobe Launch bereitgestellt werden. Die Adobe Target-Erweiterungen sind derzeit jedoch nicht aktuell und werden nicht unterstützt.
+   Download at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x kann auch über Adobe Launch bereitgestellt werden. Die Adobe Target-Erweiterungen sind derzeit jedoch nicht aktuell und werden nicht unterstützt.
 
 1. Implementieren Sie die neueste at.js 2.x-Funktion `triggerView()` auf Ihren Sites.
 
@@ -84,7 +87,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
 
    Im Folgenden sehen wir einige beispielhafte Anwendungsfälle dazu, wie Sie in React die `triggerView()`-Funktion für unsere fiktive E-Commerce-SPA aufrufen:
 
-   **Link:[Homepage](https://target.enablementadobe.com/react/demo/#/)**
+   **Link:[Startseite](https://target.enablementadobe.com/react/demo/#/)**
 
    ![Home-React-1](/help/c-experiences/assets/react1.png)
 
@@ -302,7 +305,7 @@ Die folgenden Informationen beschreiben die Reihenfolge der Vorgänge, die beim 
 
 Weitere Informationen dazu finden Sie in den folgenden Videos:
 
-### Funktionsweise von at.js 2.x Kennzeichen ![Übersicht](/help/assets/overview.png)
+### Funktionsweise von at.js 2.x ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
@@ -312,7 +315,7 @@ Weitere Informationen finden Sie unter [Die Funktionsweise](https://helpx.adobe.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Weitere Informationen finden Sie unter &quot; [Implementieren von &quot;at.js 2.x&quot;in einer Einzelseitenanwendung (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) der Adobe-Zielgruppe.
+Weitere Informationen finden Sie unter [Implementieren von &quot;at.js 2.x&quot;in einer Einzelseitenanwendung (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) .
 
 ### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
