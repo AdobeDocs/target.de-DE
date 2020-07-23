@@ -5,10 +5,10 @@ title: Berechtigungen für Unternehmensbenutzer
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2999'
-ht-degree: 82%
+source-wordcount: '3053'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 * **[!DNL Target Standard]Kunden **: Wenn die Registerkarte &quot;[!UICONTROL Benutzer]&quot;([!UICONTROL Administration > Benutzer]) (und nicht die Registerkarte &quot;[!UICONTROL Eigenschaften]&quot;) angezeigt wird, verfügt Ihr Unternehmen über eine[!DNL Target Standard]Lizenz.[!DNL Target Standard]Kunden sollten die Anweisungen unter[Benutzer](/help/administrating-target/c-user-management/c-user-management/user-management.md)befolgen, um Benutzer hinzuzufügen und Berechtigungen im[!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]Kunden **: Wenn die Registerkarte &quot;[!UICONTROL Eigenschaften]&quot;([!UICONTROL Einstellungen > Eigenschaften]) und die Registerkarte &quot;[!UICONTROL Benutzer]&quot;angezeigt werden, verfügt Ihr Unternehmen über eine[!DNL Target Premium]Lizenz.[!DNL Target Premium]-Kunden sollten die Anweisungen in diesem Artikel und in[Konfigurieren von Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)folgen.
+* **[!DNL Target Premium]Kunden **: Wenn die Registerkarte &quot;[!UICONTROL Eigenschaften]&quot;([!UICONTROL Administration > Eigenschaften]) und die Registerkarte &quot;[!UICONTROL Benutzer]&quot;angezeigt werden, verfügt Ihr Unternehmen über eine[!DNL Target Premium]Lizenz.[!DNL Target Premium]-Kunden sollten die Anweisungen in diesem Artikel und in[Konfigurieren von Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)folgen.
 
 ## Bevor Sie mit den Unternehmensberechtigungen beginnen
 
@@ -47,7 +47,7 @@ Properties are similar in nature to those within [!DNL Adobe Platform Launch] in
 
 Eine Webeigenschaft besteht aus einer Bibliothek von Regeln und einem Einbettungscode. Es kann sich bei einer Webeigenschaft um eine beliebige Gruppierung einer oder mehrerer Domänen bzw. Subdomänen handeln.
 
-Eigenschaften werden aktiviert, indem ein bestimmtes Name/Wert-Paar als Parameter mit jedem Aufruf (Target-Aufruf, API-Aufruf usw.) hinzugefügt wird. an [!DNL Target].
+Eigenschaften werden aktiviert, indem ein bestimmtes Namens-/Wertpaar als Parameter bei jedem Aufruf hinzugefügt wird (Zielgruppe-Aufruf, API-Aufruf usw.) an [!DNL Target].
 
 Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail oder API/Sonstige) zugeordnet.
 
@@ -199,7 +199,7 @@ Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL 
 
 * **Zielgruppenerstellung:** Bei Erstellung einer neuen Zielgruppe wird diese dem aktuell ausgewählten Arbeitsbereich zugewiesen.
 * **Angebotserstellung:** Bei Erstellung eines neuen Angebots wird dieses dem aktuell ausgewählten Arbeitsbereich zugewiesen.
-* **Seite &quot;Eigenschaften&quot;(&quot;Einstellungen&quot;> &quot;Eigenschaften&quot;):** Sie können das Feld [!UICONTROL Suchen] verwenden, um die Liste [!UICONTROL Eigenschaft] zu durchsuchen.
+* **Eigenschaftenseite (Administration > Eigenschaften):** Sie können das Feld [!UICONTROL Suchen] verwenden, um die Liste [!UICONTROL Eigenschaft] zu durchsuchen.
 
    ![](assets/properties_list.png)
 
@@ -295,7 +295,7 @@ Lernziele:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Bürozeiten: Target Premium-Arbeitsflächen
+### Bürozeiten: Zielgruppe Premium-Arbeitsflächen
 
 Dieses Video ist eine Aufzeichnung von Office Hours, eine Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
 
@@ -303,5 +303,9 @@ Dieses Video ist eine Aufzeichnung von Office Hours, eine Initiative, die vom Te
 * Eigenschaften erstellen
 * Hinzufügen von Benutzern
 * Implementierung aktualisieren
+
+>[!NOTE]
+>
+>Die Benutzeroberfläche des [!DNL Target] Administrationsmenüs [!UICONTROL (früher] Setup ) wurde überarbeitet, um die Leistung zu verbessern, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu verkürzen und die Benutzerfreundlichkeit im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
