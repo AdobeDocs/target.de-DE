@@ -5,10 +5,10 @@ title: Fehlerbehebung bei Aktivitäten
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 81%
+source-wordcount: '799'
+ht-degree: 79%
 
 ---
 
@@ -23,9 +23,9 @@ Wenn Ihre Aktivität nicht auf Ihrer Site erscheint, helfen Ihnen diese Empfehlu
 
 Die folgenden Abschnitte enthalten möglicherweise auftretende Probleme sowie Lösungsvorschläge.
 
-## Ich habe eine Aktivität mit der Benutzeroberfläche des Targets erstellt und kann sie nicht über die API aktualisieren.
+## Ich habe eine Aktivität mit der Benutzeroberfläche der Zielgruppe erstellt und kann sie nicht über die API aktualisieren.
 
-Aktivitäten, die mit der Benutzeroberfläche des Targets erstellt wurden, sollten über die Benutzeroberfläche des Targets aktualisiert werden. Über API erstellte Aktivitäten sollten über API aktualisiert werden. Wenn Sie beispielsweise eine Aktivität ursprünglich mit der API erstellen, die Aktivität dann später jedoch über die Benutzeroberfläche des Targets bearbeiten, werden nicht alle Änderungen aktualisiert. Alle Änderungen werden im Backend gespeichert und können durch einen weiteren API-Aufruf aktualisiert werden.
+Aktivitäten, die mit der Benutzeroberfläche der Zielgruppe erstellt wurden, sollten über die Benutzeroberfläche der Zielgruppe aktualisiert werden. Über API erstellte Aktivitäten sollten über API aktualisiert werden. Wenn Sie beispielsweise eine Aktivität ursprünglich mit der API erstellen, die Aktivität dann später jedoch über die Benutzeroberfläche der Zielgruppe bearbeiten, werden nicht alle Änderungen aktualisiert. Alle Änderungen werden im Backend gespeichert und können durch einen weiteren API-Aufruf aktualisiert werden.
 
 Am besten sollten Sie die Aktivität mit derselben Methode (UI oder API) aktualisieren, mit der die Aktivität ursprünglich erstellt wurde.
 
@@ -79,7 +79,7 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 Nachdem Sie in Target als Benutzer hinzugefügt wurden, müssen Sie die Rolle „Genehmiger“ haben, damit Sie Aktivitäten erstellen können.
 
 * Bitten Sie den Administrator Ihres Konto darum, Ihnen die Genehmigerrolle zu geben.
-* Sollten Sie der Administrator sein, können Sie sich in Target Standard unter Einrichten > Benutzer selbst die Rolle „Genehmiger“ geben.
+* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
    Weitere Informationen finden Sie unter [Zuweisen der Rolle „Genehmiger“](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
