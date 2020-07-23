@@ -3,7 +3,10 @@ description: Informationen zur Verwendung von Visual Experience Composer (VEC) i
 title: Adobe Target Visual Experience Composer (VEC)
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +19,7 @@ Der VEC verfügt über eine WYSIWYG-Benutzeroberfläche, mit der Sie einfach per
 
 Der VEC ist eine der Hauptkomponenten von [!DNL Adobe Target]. Der VEC ermöglicht Marketingexperten und Designern, Inhalte über eine visuelle Benutzeroberfläche zu erstellen und zu ändern. Viele Entwurfsentscheidungen können getroffen werden, ohne den Code direkt bearbeiten zu müssen. Die Bearbeitung von HTML und JavaScript ist über die Bearbeitungsoptionen, die im Composer verfügbar sind, ebenfalls möglich.
 
-Auf der Registerkarte **[!UICONTROL Einrichten]** > **[!UICONTROL Einstellungen]** in Target können Sie die Standard-URL für Visual Experience Composer eingeben.
+On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
 
 ![Standard-VEC-URL-Einstellungen](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -109,7 +112,7 @@ Um weiterhin Erlebnisse in der aktuellen Aktivität zu verwalten oder neue Ände
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Visual Experience Composer (1 von 2) (7:17) ![Tutorialzeichen](/help/assets/tutorial.png)
+### Visual Experience Composer (1 von 2) (7:17) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
