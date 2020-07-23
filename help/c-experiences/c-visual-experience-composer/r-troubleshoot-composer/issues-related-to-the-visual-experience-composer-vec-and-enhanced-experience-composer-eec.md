@@ -4,10 +4,10 @@ description: Im Visual Experience Composer (VEC) und Enhanced Experience Compose
 title: Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '964'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Wenn für mehrere Elemente auf der Seite die gleiche DOM-Element-ID verwendet wi
 
 ## Die Bearbeitung von Erlebnissen für eine Site, die iFrames zerstört, ist nicht möglich. (VEC und EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Dieses Problem kann durch die Aktivierung des Enhanced Experience Composer behoben werden. Klicken Sie auf **[!UICONTROL Einrichten]** > **[!UICONTROL Einstellungen]** und wählen Sie dann das Kontrollkästchen, mit dem der Enhanced Experience Composer aktiviert wird. Der Enhanced Experience Composer verwendet ein von Adobe verwaltetes Proxy, um Ihre Seite zur Bearbeitung zu laden. Dies ermöglicht Ihnen die Bearbeitung von Sites, die iFrames zerstören, sowie die Bearbeitung auf Sites und Seiten, auf denen Sie noch keinen Adobe Target-Code hinzugefügt haben. Solange kein Code hinzugefügt wurde, liefern die Aktivitäten nicht an die Site. Einige Websites werden in Enhanced Experience Composer möglicherweise nicht geladen. In diesem Fall können Sie diese Option deaktivieren, um Visual Experience Composer in einem iFrame zu laden.  []
+Dieses Problem kann durch die Aktivierung des Enhanced Experience Composer behoben werden. Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the Enhanced Experience Composer. Der Enhanced Experience Composer verwendet ein von Adobe verwaltetes Proxy, um Ihre Seite zur Bearbeitung zu laden. Dies ermöglicht Ihnen die Bearbeitung von Sites, die iFrames zerstören, sowie die Bearbeitung auf Sites und Seiten, auf denen Sie noch keinen Adobe Target-Code hinzugefügt haben. Solange kein Code hinzugefügt wurde, liefern die Aktivitäten nicht an die Site. Einige Websites werden in Enhanced Experience Composer möglicherweise nicht geladen. In diesem Fall können Sie diese Option deaktivieren, um Visual Experience Composer in einem iFrame zu laden.  []
 
 >[!NOTE]
 >
