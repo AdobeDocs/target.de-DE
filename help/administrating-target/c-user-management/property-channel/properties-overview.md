@@ -5,10 +5,10 @@ title: Konfigurieren von Unternehmensberechtigungen
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 70%
+source-wordcount: '1476'
+ht-degree: 69%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 70%
 # ![PREMIUM](/help/assets/premium.png) Konfigurieren von Unternehmensberechtigungen{#configure-enterprise-permissions}
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
-
->[!NOTE]
->
->Die Informationen in diesem Thema wurden aktualisiert, um Ihnen einen kurzen Höhepunkt bei den UI-Änderungen zu geben, die in der Target Standard/Premium-Version 20.6.1 (Juli 2020) erscheinen. Die meisten der in diesem Thema dargestellten Informationen gelten für die aktuelle Benutzeroberfläche; Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten.
 
 >[!NOTE]
 >
@@ -78,6 +74,7 @@ Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen A
 
       * Neue Arbeitsbereiche in der [!DNL Admin Console for Enterprise] erstellen.
       * Arbeitsbereichen Target-Eigenschaften zuweisen.
+
    Mithilfe der Arbeitsbereiche können Sie den Zugriff auf verschiedene Teams nach Region, Abteilung, Standort oder anderen beliebigen Kategorien festlegen. Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen Arbeitsbereichen unterschiedliche Rollen einnehmen.
 
 1. Befolgen Sie die Anweisungen unter [Erstellen und Verwalten von Produktkonfigurationen](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) im *Benutzerhandbuch für Unternehmen*.
@@ -103,7 +100,7 @@ Sie können Benutzergruppen wie Entwickler, Analytiker, Marketingexperten, Manag
 
 ## Schritt 4. Eigenschaften erstellen {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-Eigenschaften werden aktiviert, indem ein bestimmtes Name/Wert-Paar als Parameter mit jedem Aufruf (Target-Aufruf, API-Aufruf usw.) hinzugefügt wird. an Target hinzugefügt wird.
+Eigenschaften werden aktiviert, indem ein bestimmtes Namens-/Wertpaar als Parameter bei jedem Aufruf hinzugefügt wird (Zielgruppe-Aufruf, API-Aufruf usw.) an Target hinzugefügt wird.
 
 Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail und API/Sonstige) zugeordnet..
 
@@ -205,7 +202,11 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Konfigurieren von Target-Arbeitsbereichen (6:55) ![Tutorialzeichen](/help/assets/tutorial.png)
+>[!NOTE]
+>
+>Die Benutzeroberfläche des [!DNL Target] Administrationsmenüs [!UICONTROL (früher] Setup ) wurde überarbeitet, um die Leistung zu verbessern, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu verkürzen und die Benutzerfreundlichkeit im gesamten Produkt zu verbessern. Die Informationen in den folgenden Videos sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
+
+### Konfigurieren von Zielgruppe Workspaces (6:55) - ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird das Erstellen von Arbeitsbereichen erläutert.
 
