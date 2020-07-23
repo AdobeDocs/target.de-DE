@@ -1,12 +1,15 @@
 ---
-keywords: globale Mbox;globale Mbox anpassen;mbox.js bearbeiten;at.js bearbeiten;at.js;mbox.js implementieren;at.js implementieren
+keywords: global mbox;customize global mbox;edit mbox.js;edit at.js;at.js;implement mbox.js;implement at.js
 description: Informationen, die Sie dabei unterstützen, eine globale Mbox für „at.js“ und „mbox.js“ anzupassen
 title: Anpassen einer globalen mbox
-subtopic: Erste Schritte
+subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 97%
 
 ---
 
@@ -17,10 +20,11 @@ Informationen, die Sie dabei unterstützen, eine globale Mbox für „at.js“ u
 
 1. Bearbeiten von „mbox.js“
 
-   Navigieren Sie zu **[!UICONTROL Target]** &gt; **[!UICONTROL Einrichtung]** &gt; **[!UICONTROL Implementierung]**.
+   Go to **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    * Klicken Sie für „mbox.js“ auf **[!UICONTROL mbox.js-Einstellungen bearbeiten]**.
-   * Wählen Sie für [!DNL at.js]**die Option[!UICONTROL at.js]** unter „Implementierungsmethode“ aus und klicken Sie anschließend auf **[!UICONTROL mbox.js-Einstellungen bearbeiten]**.
+   * Wählen Sie für [!DNL at.js]**[!UICONTROL die Option at.js]** unter „Implementierungsmethode“ aus und klicken Sie anschließend auf **[!UICONTROL mbox.js-Einstellungen bearbeiten]**.
+
    ![](assets/step-1-edit-mboxjs.png)
 
 1. Bearbeiten Sie [!DNL mbox.js] oder [!DNL at.js].
@@ -29,7 +33,7 @@ Informationen, die Sie dabei unterstützen, eine globale Mbox für „at.js“ u
 
    ![](assets/step-2-edit-mboxjs-or-atjs.png)
 
-   Klicken Sie auf **[!UICONTROL Speichern], wenn Sie fertig sind.**
+   Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
 1. Integrieren Sie die Bibliothek [!DNL mbox.js] oder [!DNL at.js] in Ihre Site.
 
 * Weitere Informationen zu mbox.js finden Sie unter [„mbox.js“-Implementierung](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
