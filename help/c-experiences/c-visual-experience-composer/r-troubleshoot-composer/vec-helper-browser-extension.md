@@ -1,10 +1,13 @@
 ---
-keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser
+keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: Informationen zur Verwendung der Adobe Target Visual Experience Composer (VEC) Helper-Browsererweiterung, um Websites zuverlässig innerhalb von VEC zu laden und so schnell Erlebnisse zu erstellen und zu überprüfen.
 title: Adobe Target Visual Experience Composer (VEC) Helper-Erweiterung
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +36,7 @@ Vorteile der Verwendung der VEC Helper-Erweiterung:
 ## Beziehen und Installieren der VEC Helper-Browsererweiterung
 
 1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
-1. Klicken Sie auf [!UICONTROL Zu Chrome hinzufügen &gt; Erweiterung hinzufügen].
+1. Klicken Sie auf [!UICONTROL Zu Chrome hinzufügen > Erweiterung hinzufügen].
 1. Um die Erweiterung zu verwenden, klicken Sie in der Symbolleiste des Chrome-Browsers auf das VEC Helper-Symbol (![VEC Helper-Symbol](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)), während Sie sich im VEC oder [QA-Modus](/help/c-activities/c-activity-qa/activity-qa.md) befinden.
 
 Die folgende Abbildung zeigt den VEC Helper mit aktivierter Einstellung [!UICONTROL Target-Bibliotheken injizieren]:
@@ -51,7 +54,7 @@ Die folgende Abbildung zeigt den VEC Helper an mit der Frage, ob Sie [!DNL Targe
 
    Beachten Sie, dass diese Markierung eine globale Einstellung ist. Sie wird für alle im VEC geöffneten Websites aktiviert bzw. deaktiviert. Wenn Sie diese Markierung beispielsweise aktivieren und eine Webseite öffnen, auf der at.js bereits implementiert ist, erhalten Sie eine Meldung, dass at.js bereits geladen ist. Wir erwarten, dass die meisten Kunden bereits at.js auf ihren Seiten implementiert haben und die Standardeinstellung (deaktiviert) verwenden werden.
 
-* Die Erweiterung lädt die neueste Version von at.js, die über [!DNL Target UI] [!UICONTROL Einrichtung &gt; Implementierung] verfügbar ist.
+* The extension loads the latest version of at.js that is available from the [!DNL Target UI] in [!UICONTROL Administration > Implementation].
 * Wenn Sie die Erweiterung verwenden, um at.js im [QA-Modus](/help/c-activities/c-activity-qa/activity-qa.md) einzufügen, muss eine andere Chrome-Registerkarte geöffnet sein. Diese Chrome-Registerkarte muss für dieselbe [!DNL Adobe Experience Cloud]-Organisation authentifiziert sein, in der Sie die Aktivität erstellt haben.
 * Die folgenden Meldungen helfen Ihnen dabei, auf dem neuesten Stand zu bleiben:
 
