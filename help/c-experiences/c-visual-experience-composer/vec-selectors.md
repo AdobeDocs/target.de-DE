@@ -1,11 +1,14 @@
 ---
-keywords: Erlebnis-Targeting;Landingpage-Test
+keywords: Experience Targeting;Landing Page Test
 description: Ein Element-Selektor ist ein CSS-Ausdruck, der eines oder mehrere Elemente kennzeichnen kann.
 title: Element-Selektoren, die im Visual Experience Composer verwendet werden
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +19,7 @@ Ein Element-Selektor ist ein CSS-Ausdruck, der eines oder mehrere Elemente kennz
 
 Grundlegende Informationen zu CSS-Selektoren finden Sie im Dokument [Selektoren](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) im Mozilla Developer Network (MDN).
 
-Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovoreinstellungen verwenden möchten. Klicken Sie auf **[!UICONTROL Einrichtung &gt; Voreinstellungen]** und wählen Sie dann Ihre bevorzugten CSS-Selektoren aus.
+Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovoreinstellungen verwenden möchten. Klicken Sie auf **[!UICONTROL Administration > Visual Experience Composer]** und wählen Sie dann Ihre bevorzugten CSS-Selektoren aus.
 
 ![](assets/css_selectors.png)
 
@@ -68,7 +71,7 @@ Target verwendet zur Erstellung eines Selektors einen einfachen Algorithmus. Hie
 
    In diesem Beispiel:
 
-   Selektor: `#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)` („&gt;“ gibt das unmittelbar untergeordnete Element an.)
+   Selektor: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` („>“ gibt das unmittelbar untergeordnete Element an.)
 
    `eq` gibt für den Index an, dass es ein Element mit „tagName=UL“ gibt und die erste Klasse `navigation` lautet. Deshalb ist `index` = 0. Weitere Informationen finden Sie im Artikel [Selektoren](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) im MDN.
 
@@ -89,7 +92,7 @@ Target verwendet zur Erstellung eines Selektors einen einfachen Algorithmus. Hie
    </div>
    ```
 
-   Selektor: `#container` &gt; `ul.navigation(0)` &gt; `li:nth-of-type(4)`
+   Selektor: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
 
    Weitere Informationen zu [nth-of-type finden Sie auf der Webseite „CSS-Tricks“](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
 
