@@ -1,10 +1,13 @@
 ---
-keywords: erweiterte mbox.js-Einstellungen;Client;Serverdomäne;xdomain;Komprimierungsstufe;Unterstützung von Client-Sitzungs-ID;secureOnly;Unterstützung von Client PC-ID;Pass Page;verweisende URL;Traffic-Stufe;Traffic-Dauer;Funktionsrumpf mboxParameters();Funktionsrumpf mboxSupported();Funktionsrumpf mboxCookieDomain();Extra-JavaScript;SiteCatalyst-Plug-in;mbox.js als selbstextrahierendes JavaScript erhalten;flackern;Körper ausblenden;Körper ausblenden
+keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: Informationen, die Sie bei der Festlegung verschiedener Einstellungen auf der „mbox.js“-Einstellungsseite unterstützen.
 title: mbox.js konfigurieren
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 91%
 
 ---
 
@@ -23,13 +26,13 @@ Die folgenden Einstellungen sind verfügbar:
 
 Der Kundencode für Ihr Konto
 
-Wenn Sie [!UICONTROL Einrichten &gt; Implementierung &gt; „mbox.js“-Einstellungen bearbeiten] aufrufen, finden Sie den Clientcode für Ihr Konto ganz oben.
+When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
 
 ## Zeitüberschreitung
 
 Zeitüberschreitung der Target-Anfrage.
 
-Unter [!UICONTROL Einrichtung &gt; Implementierung &gt; mbox.js-Einstellungen bearbeiten] ist die Zeitüberschreitung nach der Komprimierungsstufe die Zeitüberschreitung Ihrer Target-Anfrage. Standardmäßig ist dieser Wert auf 15 Sekunden festgelegt. Wir empfehlen jedoch, den Wert auf 2–5 Sekunden festzulegen.
+Wenn Sie [!UICONTROL Administration > Implementierung]anzeigen, ist die Einstellung Timeout (Sekunden) der Timeout-Wert Ihrer Zielgruppe. Standardmäßig ist dieser Wert auf 15 Sekunden festgelegt. Wir empfehlen jedoch, den Wert auf 2–5 Sekunden festzulegen.
 
 ## XDomain
 
@@ -47,7 +50,7 @@ Gibt zusätzliche Parameter zurück, die an jeden Mbox-Aufruf weitergegeben werd
 
 Beispiel:
 
-return "test=123";
+return &quot;test=123&quot;;
 
 ## mboxSupported()-Funktionsrumpf
 
@@ -55,7 +58,7 @@ Gibt „false“ zurück, um bestimmte Benutzer auszuschließen.
 
 Beispiel:
 
-return !navigator.userAgent.indexOf('Safari') != -1;
+return !navigator.userAgent.indexOf(&#39;Safari&#39;) != -1;
 
 Folgende Browser können akzeptiert oder ausgeschlossen werden:
 
@@ -70,7 +73,7 @@ Gibt eine Zeichenfolge zurück, die die Domäne für das Einrichten der Erstanbi
 
 Beispiel:
 
-return "YOUR-DOMAIN";
+return &quot;YOUR-DOMAIN&quot;;
 
 ## Extra JavaScript
 
