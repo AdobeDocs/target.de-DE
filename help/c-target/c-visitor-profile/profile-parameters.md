@@ -5,10 +5,10 @@ title: Profilattribute in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 79%
+source-wordcount: '2446'
+ht-degree: 78%
 
 ---
 
@@ -158,7 +158,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 * **Profilskripte als Antworttoken hinzufügen, um Profilskripte zu debuggen:**
 
-   Klicken Sie in Target auf **[!UICONTROL Einstellungen]**, klicken Sie auf **[!UICONTROL Antworttoken]** und aktivieren Sie dann das Profilskript, das Sie debuggen möchten.
+   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
 
    Jedes Mal, wenn Sie eine Seite Ihrer Site laden, die Target enthält, enthält die Antwort von Target wie unten gezeigt Ihren Wert für das entsprechende Profilskript:
 
@@ -166,7 +166,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 * **mboxTrace-Debugging-Tool verwenden, um Profilskripte zu debuggen:**
 
-   Diese Methode erfordert ein Autorisierungstoken, das Sie generieren können, indem Sie auf **[!UICONTROL Target]** > **[!UICONTROL Setup]** > **[!UICONTROL Implementierung]** > **[!UICONTROL Autorisierungstoken erstellen]** klicken.
+   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
 
    Fügen Sie anschließend diese beiden Parameter Ihrer Seiten-URL nach dem „?“ hinzu: `mboxTrace=window&authorization=YOURTOKEN`.
 
