@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -134,7 +134,7 @@ Verwenden Sie die in Schritt 3 des aus drei Teilen bestehenden geführten Target
 Hierzu gibt es zwei Optionen:
 
 * Standard, mit drei Ebenen (Niedrig/Medium/Hoch)
-* Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für „Benutzerdefiniert“ die Funktion für die präzise Prioritätensetzung (Setup > Voreinstellungen).
+* Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für &quot;Benutzerdefiniert&quot;die Funktion &quot;Präzise Prioritäten&quot;(&quot;Administration&quot;> &quot;Visual Experience Composer&quot;).
 
 ## Zielgruppen{#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -198,7 +198,7 @@ Beschäftigen Sie sich mit der Funktion [Mobile Viewports](../c-experiences/c-vi
 
 **Ich verfüge über mehrere Domänen. Für eine der Domänen muss „Enhanced Experience Composer“ aktiviert sein, während andere deaktiviert werden müssen. Wie kann ich dies vornehmen?**
 
-Sie können dazu immer die [Option „Enhanced Experience Composer“ auf der Aktivitätsebene](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) verwenden, um die Standardeinstellung (Setup > Voreinstellungen) außer Kraft zu setzen.
+You can always use [Enhanced Experience Composer option at the activity level](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
 
 **Warum wird mir keine Option zum Tauschen von Bildern angezeigt?**
 
