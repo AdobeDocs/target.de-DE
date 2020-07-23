@@ -4,10 +4,10 @@ description: Zur Implementierung von Adobe Analytics als Berichterstellungsquell
 title: Implementieren von Analytics for Target
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 59%
+source-wordcount: '879'
+ht-degree: 56%
 
 ---
 
@@ -38,9 +38,9 @@ See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.co
 
 Sie müssen die erforderliche Version von appMeasurement.js implementieren oder migrieren. Weitere Informationen finden Sie in den „Implementierungsanforderungen“ unter [Vor der Implementierung](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Informationen zu neuen Implementierungen finden Sie unter Übersicht über die [JavaScript-Implementierung](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) im *Analytics-Implementierungshandbuch*.
+Informationen zu neuen Implementierungen finden Sie unter Übersicht über die [JavaScript-Implementierung](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) im *Analytics Implementierungshandbuch*.
 
-Eine Migration finden Sie unter [Migration zu AppMeasurement für JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) im *Analytics-Implementierungshandbuch*.
+Eine Migration finden Sie unter [Migration zu AppMeasurement für JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) im *Analytics Implementierungshandbuch*.
 
 ## Schritt 5: Herunterladen und Aktualisieren von at.js oder mbox.js
 
@@ -171,7 +171,7 @@ Wir empfehlen, dass Sie die vorherige Integration entfernen, um Ihre Implementie
 
 ## Schritt 10: Aktivieren der Optionen für die Verwendung von Analytics als Berichtsquelle für Target
 
-Klicken Sie in [!DNL Target] auf **[!UICONTROL Setup > Voreinstellungen]**, und wählen Sie entweder **[!UICONTROL Pro Aktivität auswählen]** oder **[!UICONTROL Adobe Analytics]** aus, um die Optionen zu aktivieren.
+In [!DNL Target], click **[!UICONTROL Administation > Visual Experience Composer]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
 
 * **[!UICONTROL Pro Aktivität auswählen ermöglicht Ihnen die Auswahl zwischen und beim Erstellen der einzelnen Aktivitäten.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL Adobe legt Analytics als Berichtsquelle für alle von Ihnen erstellten Aktivitäten fest.]**[!DNL Analytics]
