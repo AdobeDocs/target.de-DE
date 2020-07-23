@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 72%
+source-wordcount: '659'
+ht-degree: 69%
 
 ---
 
@@ -47,9 +47,8 @@ Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen
 
    * Bei `yourclientcode` handelt es sich um den Clientcode Ihres Unternehmens. Der Clientcode Ihres Unternehmens enthält ausschließlich Kleinbuchstaben und keine Sonderzeichen.
 
-      * **at.js**: Ihren Clientcode finden Sie in der [!UICONTROL -Benutzeroberfläche unter ]„Einrichten“ > „Implementierung“ ganz oben auf der Seite „at.js-Einstellungen bearbeiten“[!DNL Target].
+      Your client code is available at the top of the [!UICONTROL Administration > Implementation] page of the [!DNL Target] interface.
 
-      * **mbox.js**: Ihren Clientcode finden Sie oben auf der Seite [!UICONTROL „Einrichten“ > „Implementierung“ > „mbox.js-Einstellungen bearbeiten“].
    * `redirectorlink_456` ist der Name der Weiterleitungs-mbox, die in Ihrem Konto zur Verwendung für Kampagnen und Tests angezeigt wird.
 
       Weiterleitungen funktionieren anders als andere Mboxes, erscheinen in Ihrem Konto aber so wie beliebige andere Mboxes. Benennen Sie die Weiterleitung so, dass sie sich einfach von den Standard-Mboxes in Ihrem Konto unterscheiden lässt.  Es hat sich bewährt, den Mbox-Namen mit „redirectorlink“ beginnen zu lassen.
@@ -61,7 +60,6 @@ Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen
       >[!IMPORTANT]
       >
       >Beachten Sie, dass Sie mit der Weiterleitung dem Risiko einer Open-Redirect-Verwundbarkeit ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;, um die Standard-URL-Domänen für die Weiterleitung zu Zulassungslisten. Zielgruppe verwendet Hosts für Zulassungslisten-Domänen, zu denen Sie Umleitungen zulassen möchten. Weitere Informationen finden Sie unter Zulassungslisten [erstellen, die Hosts angeben, die zum Senden von Mbox-Aufrufen an die Zielgruppe](/help/administrating-target/hosts.md#allowlist) in *Hosts* berechtigt sind.
-
 
 1. Validieren Sie die Weiterleitung.
    1. *Best Practice* im Bereich Sicherheit: Stellen Sie sicher, dass die in der Weiterleitung verwendete Domäne auf die Zulassungsliste gesetzt ist, wie oben angegeben. Wenn Sie eine Domäne verwenden, die nicht auf die Zulassungsliste gesetzt wird, blockiert Adobe alle Aufrufe dieser Domäne, um zu verhindern, dass böswillige Akteure die Weiterleitung verwenden, um zu potenziell böswilligen Domänen umzuleiten.
