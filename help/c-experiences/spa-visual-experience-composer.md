@@ -1,11 +1,14 @@
 ---
-keywords: SPA VEC;React;Angular;react.js;SPA Visual Experience Composer;Optionen in SPA Experience Composer;Einzelseiten-App;Single-Page-App;SPA;Optionen für mobile Erlebnisse;Target-Ansicht
+keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs) in Adobe Target ermöglicht es Marketing-Experten, für SPAs selbst Tests zu erstellen und Inhalt zu personalisieren, ohne von der kontinuierlichen Weiterentwicklung abhängig zu sein. Mit VEC können Aktivitäten auf Basis der beliebtesten Frameworks erstellt werden, beispielsweise mit React oder Angular.
 title: Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3692'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +27,7 @@ Adobe Target VEC für SPAs basiert auf einem neuen Konzept für Ansichten: Eine 
 
 Um Ansichten genauer erklären zu können, navigieren wir einmal über diese fiktive E-Commerce-Site, die in React implementiert wurde, und betrachten einige Beispielansichten. Klicken Sie auf die folgenden Links, um diese Website auf einer neuen Browser-Registerkarte zu öffnen.
 
-**Link:[Homepage](https://target.enablementadobe.com/react/demo/#/)**
+**Link:[Startseite](https://target.enablementadobe.com/react/demo/#/)**
 
 ![Homepage](/help/c-experiences/assets/home.png)
 
@@ -64,7 +67,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
 
    ![Dialogfeld „Implementierungsdetails“](/help/c-experiences/assets/imp-200.png)
 
-   Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter [!UICONTROL Einrichtung &gt; Implementierung] herunter. at.js 2.x kann auch über [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) bereitgestellt werden. Die Adobe Target-Erweiterungen sind derzeit jedoch nicht aktuell und werden nicht unterstützt.
+   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x kann auch über [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) bereitgestellt werden. Die Adobe Target-Erweiterungen sind derzeit jedoch nicht aktuell und werden nicht unterstützt.
 
 1. Implementieren Sie die neueste at.js 2.x-Funktion: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) auf Ihren Sites.
 
@@ -76,11 +79,11 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
    | --- | --- | --- | --- | --- |
    | viewName | Zeichenfolge | Ja | 1. Keine nachfolgenden Leerzeichen.<br>2. Darf nicht leer sein.<br>3. Der Name der Ansicht sollte für alle Seiten eindeutig sein.<br>4. **Warnung:** Der Anzeigename sollte nicht mit „`/`“ beginnen oder enden. Dies liegt daran, dass der Kunde den Anzeigenamen im Allgemeinen aus dem URL-Pfad entnimmt. Für uns sind „home“ und „`/home`“ unterschiedlich.<br>5. **Warnung:** Dieselbe Ansicht sollte nicht mehrmals hintereinander mit der Option `{page: true}` ausgelöst werden. | Geben Sie eine beliebige Zeichenfolge als Namen für Ihre Ansicht an. Der Name dieser Ansicht wird im Bedienfeld [!UICONTROL Änderungen] von VEC angezeigt, sodass Marketing-Experten Aktionen erstellen und ihre A/B- und XT-Aktivitäten ausführen können. |
    | options | Objekt | Nein |  |  |
-   | Optionen &gt; Seite | Boolesch | Nein |  | **TRUE**: Der Standardwert der Seite ist „wahr“. Bei `page=true` werden Benachrichtigungen zur Erhöhung der Impressions-Anzahl an die Edge-Server gesendet.<br>**FALSE**: Bei `page=false` werden keine Benachrichtigungen zur Erhöhung der Impressions-Anzahl gesendet. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
+   | Optionen > Seite | Boolesch | Nein |  | **TRUE**: Der Standardwert der Seite ist „wahr“. Bei `page=true` werden Benachrichtigungen zur Erhöhung der Impressions-Anzahl an die Edge-Server gesendet.<br>**FALSE **: Bei`page=false`werden keine Benachrichtigungen zur Erhöhung der Impressions-Anzahl gesendet. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
 
    Im Folgenden sehen wir einige beispielhafte Anwendungsfälle dazu, wie Sie in React die `triggerView()`-Funktion für unsere fiktive E-Commerce-SPA aufrufen:
 
-   **Link:[Homepage](https://target.enablementadobe.com/react/demo/#/)**
+   **Link:[Startseite](https://target.enablementadobe.com/react/demo/#/)**
 
    ![Home-React-1](/help/c-experiences/assets/react1.png)
 
@@ -205,8 +208,8 @@ Die einzelnen Aktionen sind in der folgenden Tabelle beschrieben:
 | --- | --- |
 | Informationen | Zeigt die Details der Aktion an. |
 | Bearbeiten | Ermöglicht die direkte Bearbeitung der Eigenschaften dieser Aktion. |
-| Klonen | Sie können die Aktion auf eine oder mehrere Ansichten klonen, die im Bedienfeld [!UICONTROL Änderungen] vorhanden sind, oder auf eine oder mehrere Ansichten, die Sie im VEC durchsucht haben oder zu denen Sie navigiert sind. Die Aktion muss nicht unbedingt im Bedienfeld [!UICONTROL „Änderungen“] vorhanden sein.<br>**Hinweis**: Navigieren Sie nach einem Klonvorgang mit [!UICONTROL Durchsuchen] zur Ansicht im VEC, um zu überprüfen, ob die Klon-Aktion ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
-| Verschieben | Hiermit wird die Aktion in ein Seitenladereignis oder eine andere Ansicht verschoben, die im Änderungs-Bedienfeld bereits vorhanden ist.<br>[!UICONTROL Seitenladereignis]: Alle Aktionen, die mit dem Seitenladeereignis in Verbindung stehen, werden beim ersten Laden Ihrer Webanwendung angewendet.<br>**Hinweis**: Navigieren Sie nach einem Verschiebevorgang mit „Durchsuchen“ zur Ansicht im VEC, um zu sehen, ob das Verschieben ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
+| Klonen | Sie können die Aktion auf eine oder mehrere Ansichten klonen, die im Bedienfeld [!UICONTROL Änderungen] vorhanden sind, oder auf eine oder mehrere Ansichten, die Sie im VEC durchsucht haben oder zu denen Sie navigiert sind. Die Aktion muss nicht unbedingt im Bedienfeld [!UICONTROL „Änderungen“] vorhanden sein.<br>**Hinweis **: Navigieren Sie nach einem Klonvorgang mit[!UICONTROL Durchsuchen]zur Ansicht im VEC, um zu überprüfen, ob die Klon-Aktion ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
+| Verschieben | Hiermit wird die Aktion in ein Seitenladereignis oder eine andere Ansicht verschoben, die im Änderungs-Bedienfeld bereits vorhanden ist.<br>[!UICONTROL Seitenladereignis]: Alle Aktionen, die mit dem Seitenladeereignis in Verbindung stehen, werden beim ersten Laden Ihrer Webanwendung angewendet.<br>**Hinweis **: Navigieren Sie nach einem Verschiebevorgang mit „Durchsuchen“ zur Ansicht im VEC, um zu sehen, ob das Verschieben ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
 | Löschen | Löscht die Aktion. |
 
 >[!NOTE]
@@ -354,7 +357,7 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 | [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
 | [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md) | Ja |
 | [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Ja |
-| [AEM-Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
+| [AEM-Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
 ## Unterstützte Funktionen  {#supported-features}
 
@@ -372,7 +375,7 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 
 Mit den Einstellungen für die [!UICONTROL Seitenbereitstellung] können Sie mithilfe von Regeln bestimmten, wann eine Target-Aktivität auf eine Zielgruppe zutrifft und ausgeführt werden soll.
 
-Um über den dreiteiligen geleiteten VEC-Workflow zur Erstellung von Aktivitäten auf die Optionen zur [!UICONTROL Seitenbereitstellung] zuzugreifen, klicken Sie im Schritt **[!UICONTROL Erlebnisse]** auf **[!UICONTROL Konfigurieren]** (Zahnradsymbol) &gt; **[!UICONTROL Seitenbereitstellung]**.
+Um über den dreiteiligen geleiteten VEC-Workflow zur Erstellung von Aktivitäten auf die Optionen zur [!UICONTROL Seitenbereitstellung] zuzugreifen, klicken Sie im Schritt **[!UICONTROL Erlebnisse]** auf **[!UICONTROL Konfigurieren]** (Zahnradsymbol) > **[!UICONTROL Seitenbereitstellung]**.
 
 ![Dialogfeld „Seitenbereitstellung“](/help/c-experiences/assets/page-delivery.png)
 
@@ -436,6 +439,6 @@ Diese Meldung wird angezeigt, wenn Sie die erste Aktion einer Ansicht für jede 
 
 ## Schulungsvideo: Verwendung von VEC für SPAs in Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
