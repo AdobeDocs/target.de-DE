@@ -4,10 +4,10 @@ description: Konfigurieren Sie den Adobe Target Visual Experience Composer (VEC)
 title: Adobe Target Visual Experience Composer konfigurieren
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 52%
+source-wordcount: '694'
+ht-degree: 51%
 
 ---
 
@@ -15,10 +15,6 @@ ht-degree: 52%
 # Konfigurieren des Visual Experience Composer
 
 Konfigurieren Sie den [!DNL Adobe Target] Visual Experience Composer  (VEC), indem Sie dessen allgemeine Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
-
->[!NOTE]
->
->Die unten aufgelisteten Themen in diesem Abschnitt wurden aktualisiert, um Ihnen einen Spitzenwert bei den Änderungen der Benutzeroberfläche in der Version [!DNL Target Standard/Premium] 20.6.1 (Juli 2020) zu geben. Die meisten der in diesen Themen dargestellten Informationen gelten für die aktuelle Benutzeroberfläche; Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten.
 
 Um auf die Konfigurationsseite des [!UICONTROL Visual Experience Composer] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
@@ -104,5 +100,9 @@ Sie können diese Einstellung pro Aktivität außer Kraft setzen (klicken Sie da
 In diesem Video finden Sie Informationen zu Kontovoreinstellungen.
 
 * Beschreibung der in [!DNL Target Standard] verfügbaren Kontoeinstellungen
+
+>[!NOTE]
+>
+>Die Benutzeroberfläche des [!DNL Target] Administrationsmenüs [!UICONTROL (früher] Setup ) wurde überarbeitet, um die Leistung zu verbessern, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu verkürzen und die Benutzerfreundlichkeit im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
