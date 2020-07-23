@@ -4,7 +4,10 @@ description: Informationen zu bekannten Problemen in dieser Version von Adobe Ta
 title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3201'
+ht-degree: 95%
 
 ---
 
@@ -20,20 +23,6 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 ## Bekannte Probleme {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
-
-### Berichte und extreme Bestellungen
-
-Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. Vom 19. Dezember 2019 bis zum 23. April 2020 trat bei einem anderen Server dasselbe Problem auf. Dieses Problem betraf nicht alle Zielgruppen- oder Zielgruppen-Server.
-
-Sie wurden *nicht* betroffen, wenn:
-
-* Ihre Implementierung der Zielgruppe verwendet verschiedene Server.
-* Extreme Bestellungen wurden in Ihren Berichten nicht ausgeschlossen.
-* Sie haben zur Messung Ihrer Aktivitäten eine Konversionsmetrik verwendet.
-* Ihre Zielgruppe-Aktivitäten verwenden Analytics für die Zielgruppe (A4T).
-* Sie befinden sich in der Region Asien-Pazifik (APAC).
-
-Wenden Sie sich an den [Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB), um festzustellen, ob dieses Problem Ihren Zielgruppe-Berichte beeinflusst hat.
 
 ### Seitenversand {#page-delivery}
 
@@ -121,7 +110,7 @@ Die mbox.js-Bibliothek unterstützt keine clientseitigen Vorlagensprachen wie Ha
 
 ### Implementierung: Globale Mbox automatisch erstellen
 
-Auf der Registerkarte Implementierung ([!UICONTROL Einrichtung > Implementierung]) ist das Feld [!UICONTROL Globale Mbox automatisch erstellen] für einen neu bereitgestellten Mandanten standardmäßig „false“.
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
 
 Beim ersten Herunterladen von mbox.js nach der Bereitstellung ist das Feld [!UICONTROL Globale Mbox automatisch erstellen] in der heruntergeladenen Datei mbox.js und im [!DNL Target]-Backend auf „false“ festgelegt. Es wird jedoch weiterhin als „false“ auf der Seite [!UICONTROL Implementierung] der Benutzeroberfläche angezeigt, bis die Seite aktualisiert wird (nach dem Aktualisieren der Seite lautet der Status „true“).
 
@@ -146,6 +135,20 @@ Kunden können keine CRUD-Vorgänge für Aktivitäten mit Automatisierte Zuordnu
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Wenn bekannte Probleme behoben sind, werden sie in die folgenden Abschnitte verschoben und es werden ggf. zusätzliche Notizen hinzugefügt.
+
+### Berichte und extreme Bestellungen
+
+Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. Vom 19. Dezember 2019 bis zum 23. April 2020 trat bei einem anderen Server dasselbe Problem auf. Dieses Problem betraf nicht alle Zielgruppen- oder Zielgruppen-Server.
+
+Sie wurden *nicht* betroffen, wenn:
+
+* Ihre Implementierung der Zielgruppe verwendet verschiedene Server.
+* Extreme Bestellungen wurden in Ihren Berichten nicht ausgeschlossen.
+* Sie haben zur Messung Ihrer Aktivitäten eine Konversionsmetrik verwendet.
+* Ihre Zielgruppe-Aktivitäten verwenden Analytics für die Zielgruppe (A4T).
+* Sie befinden sich in der Region Asien-Pazifik (APAC).
+
+Wenden Sie sich an den [Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB), um festzustellen, ob dieses Problem Ihren Zielgruppe-Berichte beeinflusst hat.
 
 ### Recommendations
 
