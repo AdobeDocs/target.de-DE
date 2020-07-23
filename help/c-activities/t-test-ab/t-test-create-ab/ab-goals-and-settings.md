@@ -5,7 +5,10 @@ title: Ziele und Einstellungen
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1260'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +26,7 @@ Welche Einstellungen verfügbar sind, hängt davon ab, ob Sie als Datenquelle Ta
 | Einstellungen | Beschreibung |
 |--- |--- |
 | Ziel | Geben Sie ein optionales Ziel ein. Beim Ziel kann es sich um beliebige Informationen handeln, die Ihnen und Ihren Team-Mitgliedern beim Identifizieren der Kampagne helfen. |
-| Priorität | Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für Prioritäten. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren.<br>Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.<br>Wurde diese Option unter Einrichtung nicht aktiviert (Standardeinstellung), legen Sie eine Priorität fest: „Niedrig“, „Mittel“ oder „Hoch“. <br>Möchten Sie genauer unterteilte Prioritäten festlegen, klicken Sie auf Einrichtung und stellen Sie den Schieberegler Präzise Prioritätensetzung ermöglichen auf die Position „Ein“. <br>Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest: 0 = Niedrig und 999 = Hoch. <br>Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt wurden, wird eine niedrige Priorität in den Wert 0, eine mittlere in den Wert 5 und eine hohe in den Wert 10 umgewandelt. Diese Werte können nach Wunsch angepasst werden.<br>Hinweis: Haben Sie genauere Prioritäten verwendet und möchten Sie die Option deaktivieren, müssen zunächst alle Prioritätswerte auf 0, 5 und 10 zurückgesetzt werden. |
+| Priorität | Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für Prioritäten. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren.<br>Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.<br>Wenn diese Option in [!UICONTROL Administration] nicht aktiviert ist (Standard), geben Sie eine Priorität an: Niedrig, mittel oder hoch. <br>Klicken Sie zum Aktivieren detaillierter Prioritäten auf [!UICONTROL Administration] > [!UICONTROL Berichte]und aktivieren Sie dann die Option Feinkörnige Prioritäten aktivieren auf die Position &quot;Ein&quot;. <br>Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest: 0 = Niedrig und 999 = Hoch. <br>Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt wurden, wird eine niedrige Priorität in den Wert 0, eine mittlere in den Wert 5 und eine hohe in den Wert 10 umgewandelt. Diese Werte können nach Wunsch angepasst werden.<br>Hinweis: Haben Sie genauere Prioritäten verwendet und möchten Sie die Option deaktivieren, müssen zunächst alle Prioritätswerte auf 0, 5 und 10 zurückgesetzt werden. |
 | Dauer | Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu. |
 
 ## Berichterstellungseinstellungen  {#section_13119392051044FBA6387D9B3B1C43CF}
@@ -65,7 +68,7 @@ Weitere Informationen zu erweiterten Einstellungen finden Sie unter [Erfolgsmetr
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-###  Aktivitätseinstellungen (3:02) ![Tutorialzeichen](/help/assets/tutorial.png)
+### Aktivität Settings (3:02) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
 In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
