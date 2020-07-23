@@ -1,14 +1,14 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: Mithilfe von Antworttoken können Sie automatisch Target-spezifische Informationen (Details zur Aktivität, Profil des Benutzers, Geo-Informationen usw.) ausgeben, die beim Debugging oder bei der Integration mit Drittanbietersystemen (z. B. Clicktale) verwendet werden sollen
+description: Mithilfe von Antworttoken können Sie automatisch Zielgruppen-spezifische Informationen (Details zur Aktivität, Profil des Benutzers, Geo-Informationen usw.) ausgeben, die beim Debugging oder bei der Integration mit Drittanbietersystemen (z. B. Clicktale) verwendet werden sollen
 title: Antwort-Token in Adobe Target
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1574'
 ht-degree: 77%
 
 ---
@@ -18,11 +18,7 @@ ht-degree: 77%
 
 Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
 
->[!NOTE]
->
->Die Informationen in diesem Thema wurden aktualisiert, um Ihnen einen kurzen Höhepunkt bei den UI-Änderungen zu geben, die in der Target Standard/Premium-Version 20.6.1 (Juli 2020) erscheinen. Die meisten der in diesem Thema dargestellten Informationen gelten für die aktuelle Benutzeroberfläche; Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten.
-
-Mithilfe von Antworttoken können Sie festlegen, welche Variablen genutzt werden sollen, und dann ermöglichen, dass sie als Teil einer Target-Antwort gesendet werden. Dazu aktivieren Sie einfach eine Variable mit dem Switch und die Variable wird mit Target-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Response tokens work in [!UICONTROL Preview] mode as well.
+Mithilfe von Antworttoken können Sie festlegen, welche Variablen genutzt werden sollen, und dann ermöglichen, dass sie als Teil einer Zielgruppe-Antwort gesendet werden. Dazu aktivieren Sie einfach eine Variable mit dem Switch und die Variable wird mit Zielgruppe-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Response tokens work in [!UICONTROL Preview] mode as well.
 
 Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, dass Plug-ins JavaScript für die Seite bereitstellen, das bei Bereitstellung ausgeführt wird, wohingegen Antwort-Token ein Objekt bereitstellen, das anschließend gelesen und auf das mithilfe von Ereignislistenern reagiert werden kann. Weitere Informationen finden Sie unter  [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) und in den Beispielen im späteren Verlauf dieses Artikels. Der Ansatz der Antwort-Token ist sicherer und ermöglicht eine problemlosere Bereitstellung und Wartung von Drittanbieterintegrationen.
 
@@ -62,7 +58,7 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
    |  | `profile.categoryAffinities` | Gibt eine Reihe der Top-5-Kategorien des Besuchers als Zeichenfolgen zurück. |
    | Aktivität | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Details der aktuellen Aktivität. Beachten Sie, dass „option“ und „offer“ gleich sind. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Weitere Informationen zur Verwendung von Geo-Targeting in Aktivitäten finden Sie unter [Geo](/help/c-target/c-audiences/c-target-rules/geo.md). |
-   | Traffic-Zuordnungsmethode<br>(gilt nur für [!UICONTROL Auto-Target] - und [!UICONTROL automatisierte Personalisierungslösungen] .) | `experience.trafficAllocationId` | Gibt 0 zurück, wenn ein Besucher ein Erlebnis aus dem &quot;Kontroll&quot;-Traffic erhalten hat, und 1, wenn ein Besucher ein Erlebnis aus der &quot;zielgerichteten&quot; Traffic-Verteilung erhalten hat. |
+   | Traffic-Zuordnungsmethode<br>(gilt nur für [!UICONTROL Aktivitäten der automatischen Zielgruppe] und der [!UICONTROL automatisierten Personalisierung] .) | `experience.trafficAllocationId` | Gibt 0 zurück, wenn ein Besucher ein Erlebnis aus dem &quot;Kontroll&quot;-Traffic erhalten hat, und 1, wenn ein Besucher ein Erlebnis aus der &quot;zielgerichteten&quot; Traffic-Verteilung erhalten hat. |
    |  | `experience.trafficAllocationType` | Gibt &quot;Kontrolle&quot;oder &quot;Targeting&quot;zurück. |
 
    Benutzerprofil- und Kundenattribute werden ebenfalls in der Liste angezeigt.
@@ -291,5 +287,9 @@ Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen
 ## Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Antwort-Token und benutzerspezifische at.js-Ereignisse verwenden können, um Profilinformationen aus Target an Drittanbietersysteme zu übergeben.
+
+>[!NOTE]
+>
+>Die Benutzeroberfläche des [!DNL Target] Administrationsmenüs [!UICONTROL (früher] Setup ) wurde überarbeitet, um die Leistung zu verbessern, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu verkürzen und die Benutzerfreundlichkeit im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
