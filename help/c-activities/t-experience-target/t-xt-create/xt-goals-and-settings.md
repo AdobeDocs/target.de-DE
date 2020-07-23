@@ -1,11 +1,14 @@
 ---
-keywords: Aktivitätseinstellungen;Ziele und Einstellungen für Erlebnis-Targeting;XT-Ziele und -Einstellungen;Erlebnis-Targeting;Einstellungen der Berichterstellung;Zielmetriken;Erfolgsmetriken;abhängige Erfolgsmetriken;erweiterte Einstellungen;primäres Ziel;zusätzliche Metriken;Ziel;Priorität;Dauer;Berichtslösung;Ziele;Zielgruppen für die Berichterstellung;Welche Erfolgsmetriken müssen erreicht werden, bevor diese Metrik inkrementiert wird;Was passiert, nachdem ein Benutzer auf diese Zielmetrik stößt;Hinweise
+keywords: activity settings;experience targeting goals and settings;xt goals and settings;experience targeting;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zielen des Tests eingeben.
 title: Ziele und Einstellungen
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1228'
+ht-degree: 97%
 
 ---
 
@@ -36,9 +39,9 @@ Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche fü
 
 Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
-Wurde diese Option unter Einrichtung nicht aktiviert (Standardeinstellung), legen Sie eine Priorität fest: „Niedrig“, „Mittel“ oder „Hoch“.
+Wenn diese Option in Administration nicht aktiviert ist (Standard), geben Sie eine Priorität an: Niedrig, mittel oder hoch.
 
-Möchten Sie genauer unterteilte Prioritäten festlegen, klicken Sie auf Einrichtung und stellen Sie den Schieberegler Präzise Prioritätensetzung ermöglichen auf die Position „Ein“.
+To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest:
 
@@ -160,4 +163,4 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
