@@ -5,9 +5,9 @@ title: „at.js“-Versionsdetails
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '3947'
+source-wordcount: '3978'
 ht-degree: 86%
 
 ---
@@ -19,9 +19,15 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 
 >[!IMPORTANT]
 >
->Das Target-Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
+>Das Zielgruppe-Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) ist die bevorzugte Methode zum Aktualisieren von at.js. Extension-Entwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Updates werden in neue Versionen einer Erweiterung verpackt und als Upgrades im [!DNL Launch] Katalog verfügbar gemacht. Weitere Informationen finden Sie unter [Extension-Aktualisierung](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) im *Experience Platform Launch-Benutzerhandbuch*.
+
+## at.js 2.3.2 (24. Juli 2020)
+
+Diese Version von at.js ist ein Maintenance Release und beinhaltet die folgende Fehlerbehebung:
+
+* Es wurde ein Fehler behoben, der auftrat, wenn ein Skript oder Code dem Fenster oder Dokument die Standardeigenschaft hinzufügt.
 
 ## at.js 1.8.2 (15. Juni 2020)
 
@@ -41,7 +47,7 @@ Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterunge
 
 Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
-* Beim Anwenden von bereitgestellten Target-Angeboten wird das Festlegen von Content Security Policy-Ausschreibungen für SCRIPT- und STYLE-Tags unterstützt, die an das Seiten-DOM angehängt werden. Kunden können festlegen `targetGlobalSettings.cspScriptNonce` und `targetGlobalSettings.cspStyleNonce` so at.js die entsprechenden Tags für Skript- und Stil auf angewendeten Angeboten festlegen. See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
+* Die Einstellung der Content Security Policy erfolgt nicht bei SKRIPT- und STYLE-Tags, die beim Anwenden der bereitgestellten Zielgruppe-Angebot an das Seiten-DOM angehängt werden. Kunden können festlegen `targetGlobalSettings.cspScriptNonce` und `targetGlobalSettings.cspStyleNonce` so at.js die entsprechenden Tags für Skript- und Stil auf angewendeten Angeboten festlegen. See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
 * Es wurde ein Problem behoben, das beim Kompilieren von &quot;at.js&quot;mit dem Google Closure-Compiler für die Bereitstellung von Google Tag Manager auftrat.
 * Das at.js-Cookie wurde von `check` in `at_check` umbenannt, um Kollisionen mit den Implementierungen von Kunden zu vermeiden.
 
@@ -55,7 +61,7 @@ Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterunge
 
 Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen:
 
-* Es wurde ein Problem behoben, bei dem Klick-Tracking keine Konversionen in Analytics zum Target (A4T) meldete, wenn Adobe Analytics-Code nicht in Seitenelementen vorhanden war.
+* Es wurde ein Problem behoben, bei dem Klick-Tracking keine Konversionen in Analytics für Zielgruppe (A4T) meldete, wenn Adobe Analytics-Code nicht in Seitenelementen vorhanden war.
 * Verbesserte Leistung bei der Verwendung von Experience Cloud ID Service (ECID) v4.4 und at.js 2.2 auf Ihren Webseiten.
 * Zuvor führte die ECID zwei Sperraufrufe durch, bevor at.js Erlebnisse abrufen konnte. Dies wurde auf einen einzigen Aufruf reduziert, wodurch die Leistung deutlich verbessert wird.
 
@@ -63,7 +69,7 @@ Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen
    >
    >Aktualisieren Sie Ihre ECID Launch Extension auf Version 4.4, um diese Leistungsverbesserung nutzen zu können.
 
-* at.js Version 2.2 bietet außerdem eine neue Einstellung namens `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration von Target implementiert ist. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client- als auch die Versand-API oder ein Target-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js Version 2.2 bietet außerdem eine neue Einstellung namens `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration der Zielgruppe implementiert ist. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client- als auch Versand-API oder ein Zielgruppe-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js Version 1.8.0 (10. Oktober 2019)
 
