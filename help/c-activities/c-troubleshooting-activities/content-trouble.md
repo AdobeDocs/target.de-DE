@@ -6,10 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 67%
+source-wordcount: '1316'
+ht-degree: 66%
 
 ---
 
@@ -30,15 +30,14 @@ Da mboxTrace und mboxDebug Kampagnen- und Profildaten für Dritte enthüllen kö
 
 So wird das Autorisierungstoken abgerufen:
 
-1. Klicken Sie auf **[!UICONTROL Setup]** > **[!UICONTROL Implementierung]**.
-1. Wählen Sie **[!UICONTROL mbox.js]** oder **[!UICONTROL at.js]** aus.
-1. Klicken Sie auf **[!UICONTROL Authentifizierungstoken generieren]**.
+1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
+1. Klicken Sie im Abschnitt Debugger-Tools auf Neues Authentifizierungstoken **[!UICONTROL erstellen]**.
 
-   ![Autorisierungstoken generieren](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
+   ![Neues Authentifizierungstoken erstellen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 1. Fügen Sie das generierte Token Ihrer URL als Parameter hinzu, um eines der erweiterten Debuggingwerkzeuge zu aktivieren.
 
-   ![Autorisierungstoken](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
+   ![Autorisierungstoken](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
@@ -89,7 +88,7 @@ Ergänzen Sie zur Verwendung von mboxDebug Ihre URL um einen mboxDebug-Parameter
 
 | URL-Parameter | Zielsetzung |
 |--- |--- |
-| `mboxDebug=1` | Debugger<br>Adding this parameter to any URL with Target requests defined opens a pop-up window with valuable debugging details. Cookie-Informationen, PCid- und Sitzungs-ID-Werte werden ausgeschrieben und alle URLs sind sichtbar. Click on a Target request URL to show the response for that [!DNL Target] request. Weitere Details finden Sie unter [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
+| `mboxDebug=1` | <br>DebuggerDurch Hinzufügen dieses Parameters zu einer beliebigen URL mit definierten Zielgruppen-Anforderungen wird ein Popup-Fenster mit wertvollen Debugging-Details geöffnet. Cookie-Informationen, PCid- und Sitzungs-ID-Werte werden ausgeschrieben und alle URLs sind sichtbar. Click on a Target request URL to show the response for that [!DNL Target] request. Weitere Details finden Sie unter [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
 | `mboxDebug=x-cookie` | Ändern der Cookies |
 | `mboxDisable=1` | Deaktivieren von Mboxes auf der Seite |
 | `mboxDebug=x-profile` | Anzeigen des Profilsets. |
@@ -152,9 +151,9 @@ For remote offers, the [!DNL Target] response can contain `/* invalid remote off
 
 You can check the [!DNL Target] response in the browser or using mboxTrace. Weitere Informationen zu gültigen URLs finden Sie unter [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
 
-## Target-Anfragen werden nicht auf meiner Site ausgelöst.
+## Anfragen zur Zielgruppe werden nicht auf meiner Site ausgelöst.
 
-at.js löst keine Target-Anfragen aus, wenn Sie einen ungültigen doctype verwenden. at.js erfordert den Doctype HTML 5.
+at.js löst keine Anfragen zur Zielgruppe aus, wenn Sie einen ungültigen doctype verwenden. at.js erfordert den Doctype HTML 5.
 
 ## Schulungsvideos
 
@@ -164,7 +163,7 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Grundlegendes Target-Debugging- ![Tutorialzeichen](/help/assets/tutorial.png)
+### Grundlegende Zielgruppe Debugging- ![Tutorialzeichen](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
