@@ -4,21 +4,17 @@ description: Konfigurieren Sie den Adobe Target Visual Experience Composer (VEC)
 title: Berichte in Adobe Target konfigurieren
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 31%
+source-wordcount: '666'
+ht-degree: 33%
 
 ---
 
 
-# Berichte in Target konfigurieren
+# Berichte in Zielgruppe konfigurieren
 
 Konfigurieren Sie allgemeine Einstellungen, die in [!DNL Adobe Target] Berichte verwendet werden, die für Ihr gesamtes [!DNL Target] Konto gelten.
-
->[!NOTE]
->
->Die Informationen in diesem Thema wurden aktualisiert, um Ihnen einen kurzen Höhepunkt bei den UI-Änderungen zu geben, die in der Target Standard/Premium-Version 20.6.1 (Juli 2020) erscheinen. Die meisten der in diesem Thema dargestellten Informationen gelten für die aktuelle Benutzeroberfläche; Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten.
 
 Um auf die Konfigurationsseite des [!UICONTROL Berichte] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Berichte].**
 
@@ -33,7 +29,7 @@ Auf dieser Seite können Sie die folgenden Einstellungen festlegen:
 
 >[!NOTE]
 >
->Beachten Sie, dass die Zeitzone, Währung und IP-Adressen zum Ausschließen von Einstellungen für Aktivitäten gelten, die [!DNL Target] Berichte verwenden. Diese Einstellungen gelten nicht für Aktivitäten, die [Analytics für Target (A4T)] als Quelle des Berichte (/help/c-integrating-target-with-mac/a4t/a4t.md) verwenden.
+>Beachten Sie, dass die Zeitzone, Währung und IP-Adressen zum Ausschließen von Einstellungen für Aktivitäten gelten, die [!DNL Target] Berichte verwenden. Diese Einstellungen gelten nicht für Aktivitäten, die [Analytics für die Zielgruppe (A4T)] als Quelle des Berichte (/help/c-integrating-target-with-mac/a4t/a4t.md) verwenden.
 
 ![Berichte](/help/administrating-target/assets/reporting.png)
 
@@ -58,7 +54,7 @@ Geben Sie die Zeitzone für den Berichte an.
 
 Geben Sie die Währung für den Berichte an.
 
-## IPs, die von Target-Berichte-Daten ausgeschlossen werden sollen
+## IPs, die von den Daten des Berichte der Zielgruppe ausgeschlossen werden sollen
 
 Geben Sie alle IP-Adressen an, die von den Daten des Berichte ausgeschlossen werden sollen. So können Sie z. B. durch das Ausschließen von Adressen interner Firmen sicherstellen, dass Ihre Berichte-Daten die Interaktionen Ihrer Kunden auf Ihrer Website widerspiegeln.
 
