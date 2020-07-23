@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: f81e03cb4bc7cd2080f7c8a8473192858b4bbef8
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 49%
+source-wordcount: '895'
+ht-degree: 48%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 49%
 # Benutzer{#users}
 
 You can add users and manage their permissions in the [!DNL Adobe Admin Console].
-
->[!NOTE]
->
->Die Informationen in diesem Thema wurden aktualisiert, um Ihnen einen kurzen Höhepunkt bei den UI-Änderungen zu geben, die in der Target Standard/Premium-Version 20.6.1 (Juli 2020) erscheinen. Die meisten der in diesem Thema dargestellten Informationen gelten für die aktuelle Benutzeroberfläche; Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten.
 
 >[!NOTE]
 >
@@ -43,13 +39,13 @@ Standardmäßig ist allen [!DNL Target]-Benutzern die Berechtigung „Beobachter
 
 Admin users are identified in the [!UICONTROL Users] list. Wenden Sie sich an einen der Systemadministratoren, wenn Sie Ihre Zugriffsstufe ändern möchten.
 
-## Ansicht von Benutzerinformationen aus dem Target
+## Ansicht von Benutzerinformationen innerhalb der Zielgruppe
 
-Sie können eine Liste der aktuellen Benutzer in Ihrer Target-Umgebung, einschließlich ihrer Rollen pro Arbeitsbereich und E-Mail-Adressen, direkt von innerhalb von Target aus Ansicht werden.
+Sie können eine Liste der aktuellen Benutzer in Ihrer Zielgruppe-Umgebung, einschließlich ihrer Rollen pro Arbeitsbereich und E-Mail-Adressen, direkt aus der Zielgruppe heraus Ansichten durchführen.
 
 Klicken Sie zur Ansicht der Seite &quot;Benutzer&quot;auf **[!UICONTROL Administration]** > **[!UICONTROL Benutzer]**.
 
-![Benutzerdefinierte Liste aus Target](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+![Benutzerdefinierte Liste aus Zielgruppe](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -121,5 +117,9 @@ Lernziele:
    * Hinzufügen von Benutzern zu Arbeitsbereichen
    * Hinzufügen von Eigenschaften zu Arbeitsbereichen
 * Grundlegende Informationen zu Standardarbeitsbereichen
+
+>[!NOTE]
+>
+>Die Benutzeroberfläche des [!DNL Target] Administrationsmenüs [!UICONTROL (früher] Setup ) wurde überarbeitet, um die Leistung zu verbessern, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu verkürzen und die Benutzerfreundlichkeit im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
