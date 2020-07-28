@@ -4,15 +4,15 @@ description: Liste häufig gestellter Fragen zur automatisierten Personalisierun
 title: Häufig gestellte Fragen zur automatisierten Personalisierung
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 95%
+source-wordcount: '1965'
+ht-degree: 85%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Häufig gestellte Fragen zur automatisierten Personalisierung{#automated-personalization-faq}
+# ![PREMIUM](/help/assets/premium.png) Automated Personalization FAQ{#automated-personalization-faq}
 
 Liste häufig gestellter Fragen zur automatisierten Personalisierung (AP).
 
@@ -51,15 +51,19 @@ Es gibt keine Option, mit der sich der Vergleich von AP mit einem Standarderlebn
    * Es gibt keine Personalisierung zwischen den Angeboten in einer Berichtsgruppe: Die Angebote werden durch das Personalisierungsmodell alle identisch behandelt.
    * Legen Sie niemals alle Angebote in einer Aktivität in einer einzelnen Berichtsgruppe ab. Dadurch werden alle Angebote allen Besuchern in der Aktivität einheitlich nach dem Zufallsprinzip bereitgestellt.
 
-## Welche Einschränkungen gibt es bei der automatisierten Personalisierung?  {#section_08BA09ED51B547299963C94FE6417CFA}
+## Häufig gestellte Fragen  
+
+Beachten Sie bei der Arbeit mit Aktivitäten zur automatischen Zuordnung die folgenden häufig gestellten Fragen und Antworten:
+
+### Welche Einschränkungen gibt es bei der automatisierten Personalisierung?  {#section_08BA09ED51B547299963C94FE6417CFA}
 
 Target besitzt eine harte Begrenzung von 30.000 Erlebnissen. Bei weniger als 10.000 erstellten Erlebnissen ist die Funktionsweise jedoch am besten.
 
-## Wie wird die Kundenansprache auf Angebotsebene implementiert?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
+### Wie wird die Kundenansprache auf Angebotsebene implementiert?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
 Sobald der Besucher zur entsprechenden Position gelangt, wird der Satz der möglichen Angebote, die dem Besucher angezeigt werden, anhand der Regeln vom Typ „Kundenansprache auf Angebotsebene“ bestimmt. Anschließend wählt der Algorithmus das Angebot aus, das entsprechend der Prognose durch das Modell den besten erwarteten Umsatz oder die beste Konversionschance aufweist. Beachten Sie, dass sich das Angebots-Targeting auf die Wirksamkeit der maschinellen Lernalgorithmen von Target auswirkt und daher möglichst sparsam eingesetzt werden sollte.
 
-## „Meine Aktivität“ zeigt keine Steigerung an. Was ist los? {#section_BFA07C8C258F45318F73A461B8F32737}
+### „Meine Aktivität“ zeigt keine Steigerung an. Was ist los? {#section_BFA07C8C258F45318F73A461B8F32737}
 
 Es sind vier Faktoren erforderlich, damit eine Aktivität vom Typ „Automatisierte Personalisierung“ eine Steigerung generiert:
 
@@ -72,29 +76,29 @@ Es empfiehlt sich zunächst mithilfe eines einfachen, nicht personalisierten A/B
 
 Weitere Informationen finden Sie unter [Fehlerbehebung bei der automatisierten Personalisierung](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
-## Wie wird der Traffic meiner Aktivität durch die automatisierte Personalisierung zugeordnet? {#section_4369364F77804E0D9B78BEE551DA5659}
+### Wie wird der Traffic meiner Aktivität durch die automatisierte Personalisierung zugeordnet? {#section_4369364F77804E0D9B78BEE551DA5659}
 
 Die automatisierte Personalisierung leitet Besucher zu dem Erlebnis weiter, das die höchste prognostizierte Erfolgsmetrik basierend auf den neuesten [Random Forest](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)-Modellen aufweist, die für die einzelnen Modelle erstellt wurden. Diese Prognose basiert auf den spezifischen Informationen des Besuchers und dem Besuchskontext.
 
 Angenommen, eine Aktivität vom Typ „Automatisierte Personalisierung“ hatte zwei Positionen mit jeweils zwei Angeboten. An der ersten Position weist Angebot A eine prognostizierte Konversionsrate von 3 % für einen bestimmten Besucher auf, während Angebot B eine prognostizierte Konversionsrate von 1 % aufweist. An der zweiten Position weist Angebot C eine prognostizierte Konversionsrate von 2 % für denselben Besucher auf, während Angebot D eine prognostizierte Konversionsrate von 5 % aufweist. Daher würde die automatisierte Personalisierung diesem Besucher ein Erlebnis mit Angebot A und Angebot D unterbreiten.
 
-## Wann sollte ich meine Aktivität vom Typ „Automatisierte Personalisierung“ anhalten?  {#section_C51F3DAB8887463BB147373F6FE06B93}
+### Wann sollte ich meine Aktivität vom Typ „Automatisierte Personalisierung“ anhalten?  {#section_C51F3DAB8887463BB147373F6FE06B93}
 
 Die automatisierte Personalisierung kann als eine „Always on“-Personalisierung verwendet werden, die kontinuierlich optimiert wird. Insbesondere besteht für zeitlose Inhalte keine Notwendigkeit, Ihre Aktivität vom Typ „Automatisierte Personalisierung“ anzuhalten. Wenn Sie wesentliche Änderungen an den Inhalten vornehmen möchten, die den aktuell in Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ vorhandenen Angeboten nicht ähneln, empfiehlt es sich, eine neue Aktivität zu beginnen, damit andere Benutzer, die Berichte anzeigen, nicht verwirrt werden oder sich auf vergangene Ergebnisse mit anderen Inhalten beziehen.
 
-## Wie lange sollte ich warten, bis Modelle erstellt werden?  {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
+### Wie lange sollte ich warten, bis Modelle erstellt werden?  {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
 Wie lange es dauert, bis Modelle in Ihrer Aktivität erstellt werden, hängt in der Regel vom Traffic Ihrer ausgewählten Aktivitätsposition(en) und Ihrer Aktivitätserfolgsmetrik ab. Verwenden Sie stattdessen die [Traffic-Schätzung](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714), um zu bestimmen, wie lange das Erstellen von Modellen in Ihrer Aktivität erwartungsgemäß dauert.
 
-## Ein Modell wird in meiner Aktivität erstellt. Sind die Besuche bei diesem Erlebnis personalisiert? {#section_51EA953C6D1D4A3185FC9DD290D66621}
+### Ein Modell wird in meiner Aktivität erstellt. Sind die Besuche bei diesem Erlebnis personalisiert? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
 Nein, es müssen mindestens zwei Modelle in Ihrer Aktivität erstellt werden, damit die Personalisierung gestartet wird.
 
-## Wann kann ich die Ergebnisse meiner Aktivität vom Typ „Automatisierte Personalisierung“ anzeigen?  {#section_05DB5ACAE6AD429C9510766A7268EE2C}
+### Wann kann ich die Ergebnisse meiner Aktivität vom Typ „Automatisierte Personalisierung“ anzeigen?  {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
 Sie können beginnen sich die Ergebnisse Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ anzusehen, sobald Sie mindestens über zwei Erlebnisse mit für das Erlebnis erstellten Modellen (grünes Häkchen) verfügen, die Modelle erstellt haben.
 
-## Wie kann ich die für das Erstellen von Modellen in meiner Aktivität erforderliche Dauer reduzieren?  {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
+### Wie kann ich die für das Erstellen von Modellen in meiner Aktivität erforderliche Dauer reduzieren?  {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
 Überprüfen Sie Ihre Aktivitätseinrichtung dahingehend, ob Sie Änderungen vornehmen möchten, um die Geschwindigkeit zu verbessern, in der Modelle erstellt werden.
 
@@ -103,12 +107,24 @@ Sie können beginnen sich die Ergebnisse Ihrer Aktivität vom Typ „Automatisie
 * Gibt es einige Erlebnisse, die Sie aus Ihrer Aktivität ausschließen können? Wenn die Anzahl der Erlebnisse in einer Aktivität verringert wird, wird das Erstellen von Modellen beschleunigt.
 * Gibt es eine Seite mit höherem Traffic, auf der diese Aktivität erfolgreicher wäre? Je mehr Traffic und Konversionen an Ihren Aktivitätspositionen vorhanden sind, desto schneller werden die Modelle erstellt.
 
-## Warum werden Besuchern Erlebnisse für eine AP-Aktivität angezeigt, die sie nicht sehen sollten? {#section_41CECEAE0881446A8D9F3B016857914B}
+### Warum werden Besuchern Erlebnisse für eine AP-Aktivität angezeigt, die sie nicht sehen sollten? {#section_41CECEAE0881446A8D9F3B016857914B}
 
 Aktivitäten vom Typ „Automatisierte Personalisierung“ werden einmal pro Sitzung ausgewertet. Wenn für ein bestimmtes Erlebnis qualifizierte aktive Sitzungen vorhanden waren und diesen nun neue Angebote hinzugefügt werden, wird Benutzern der neue Inhalt zusammen mit den zuvor angezeigten Angeboten angezeigt. Da sie zuvor für diese Erlebnisse qualifiziert wurden, werden sie ihnen weiterhin für die Dauer der Sitzung angezeigt. Wenn dies bei jedem einzelnen Seitenbesuch ausgewertet werden soll, sollten Sie den Erlebnis-Targeting-Aktivitätstyp (XT) ändern.
 
-## Kann ich die Zielmetrik in der Zwischenzeit durch eine Aktivität der automatisierten Personalisierung ändern? {#change-metric}
+### Kann ich die Zielmetrik in der Mitte einer Automated Personalization-Aktivität ändern? {#change-metric}
 
 Es wird nicht empfohlen, die Zielmetrik mitten in einer Aktivität zu ändern. Obwohl die Zielmetrik während einer Aktivität mithilfe der [!DNL Target] Benutzeroberfläche geändert werden kann, sollten Sie immer eine neue Aktivität Beginn haben. Wir garantieren nicht, was passiert, wenn Sie die Sollmetrik in einer Aktivität nach der Ausführung ändern.
 
-Diese Empfehlung gilt für [!UICONTROL Aktivitäten mit automatisierter Zuordnung], [!UICONTROL automatischer Zielgruppe]und [!UICONTROL automatisierter Personalisierung] , die entweder [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte verwenden.
+Diese Empfehlung gilt für [!UICONTROL Aktivitäten mit automatisierter Zuordnung], [!UICONTROL automatischer Zielgruppe]und [!UICONTROL Automated Personalization] , die entweder [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte verwenden.
+
+### Kann ich beim Ausführen einer Automated Personalization-Aktivität die Option Berichtsdaten zurücksetzen verwenden?
+
+Die Verwendung der Option [!UICONTROL Berichtsdaten] zurücksetzen für [!UICONTROL Automated Personalization] -Aktivitäten wird nicht empfohlen. Obwohl die Daten des sichtbaren Berichte entfernt werden, entfernt diese Option nicht alle Schulungsdatensätze aus dem [!UICONTROL Automated Personalization] -Modell. Anstatt die Option &quot;Berichtsdaten [!UICONTROL zurücksetzen] &quot;für [!UICONTROL Automated Personalization] -Aktivitäten zu verwenden, erstellen Sie eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität. (Hinweis: Diese Anleitung gilt auch für [!UICONTROL Aktivitäten zur automatischen Zuordnung] und [!UICONTROL automatischen Zielgruppe] .)
+
+### Wie erstellt Automated Personalization Modelle in Bezug auf Umgebung?
+
+Ein Modell wird erstellt, um die Leistung der personalisierten Strategie im Vergleich zum zufällig bereitgestellten Traffic im Vergleich zum Senden des gesamten Traffics an das insgesamt erfolgreichste Erlebnis zu identifizieren. Bei diesem Modell werden Treffer und Konversionen nur in der Standard-Umgebung berücksichtigt.
+
+Traffic aus einem zweiten Satz von Modellen wird für jede Modellgruppe (AP) oder Erlebnis (AT) erstellt. Bei jedem dieser Modelle werden Treffer und Konversionen in allen Umgebung berücksichtigt.
+
+Anfragen werden daher unabhängig von der Umgebung mit demselben Modell bedient, aber die Datenverkehrsvielfalt sollte von der Standardeinstellung ausgehen, um sicherzustellen, dass das identifizierte Gesamterlebnis mit dem realen Umgebung übereinstimmt.
