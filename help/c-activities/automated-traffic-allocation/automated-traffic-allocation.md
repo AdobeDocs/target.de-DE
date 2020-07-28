@@ -5,10 +5,10 @@ title: Automatische Zuordnung
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3134'
-ht-degree: 83%
+source-wordcount: '3335'
+ht-degree: 78%
 
 ---
 
@@ -187,7 +187,19 @@ Es gibt wirklich keinen Grund, ein Erlebnis mit schlechter Leistung zu entfernen
 
 Es wird nicht empfohlen, die Zielmetrik mitten in einer Aktivität zu ändern. Obwohl die Zielmetrik während einer Aktivität mithilfe der [!DNL Target] Benutzeroberfläche geändert werden kann, sollten Sie immer eine neue Aktivität Beginn haben. Wir garantieren nicht, was passiert, wenn Sie die Sollmetrik in einer Aktivität nach der Ausführung ändern.
 
-Diese Empfehlung gilt für [!UICONTROL Aktivitäten mit automatisierter Zuordnung], [!UICONTROL automatischer Zielgruppe]und [!UICONTROL automatisierter Personalisierung] , die entweder [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte verwenden.
+Diese Empfehlung gilt für [!UICONTROL Aktivitäten mit automatisierter Zuordnung], [!UICONTROL automatischer Zielgruppe]und [!UICONTROL Automated Personalization] , die entweder [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte verwenden.
+
+### Kann ich die Option &quot;Berichtsdaten zurücksetzen&quot;beim Ausführen einer Aktivität für die automatische Zuordnung verwenden?
+
+Die Verwendung der Option [!UICONTROL Berichtsdaten] zurücksetzen für [!UICONTROL Aktivitäten mit automatisierter Zuordnung] wird nicht empfohlen. Obwohl die Daten des sichtbaren Berichte entfernt werden, entfernt diese Option nicht alle Schulungsdatensätze aus dem [!UICONTROL Modell für die automatische Zuordnung] . Anstatt die Option &quot;Berichtsdaten  zurücksetzen&quot;für [!UICONTROL Aktivitäten mit automatisierter Zuordnung] zu verwenden, erstellen Sie eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität. (Hinweis: Diese Anleitung gilt auch für [!UICONTROL Auto-Zielgruppe] - und [!UICONTROL Automated Personalization] -Aktivitäten.)
+
+### Wie werden Buildmodelle mit automatisierter Zuordnung in Bezug auf Umgebung erstellt?
+
+[!UICONTROL Bei der automatischen Zuordnung] werden Modelle basierend auf dem Traffic- und Konversionsverhalten erstellt, das nur in der Standardversion aufgezeichnet wird. Standardmäßig ist &quot; [!UICONTROL Produktion] &quot;die Standard-Umgebung. Dies kann jedoch unter &quot;Zielgruppe [Administration&quot;> &quot;Umgebung](/help/administrating-target/environments.md)&quot;geändert werden.
+
+Tritt ein Treffer in einer anderen (nicht standardmäßigen) Umgebung auf, wird der Traffic entsprechend dem beobachteten Konversionverhalten in der Standard-Umgebung verteilt. Das Ergebnis dieses Treffers (Konvertierung oder Nicht-Konvertierung) wird zu Berichte aufgezeichnet, jedoch nicht im [!UICONTROL Automatisch zugewiesenen] Modell berücksichtigt.
+
+Bei Auswahl einer anderen Umgebung zeigt der Bericht Traffic und Konversionen für diese Umgebung an. Die für einen Bericht standardmäßig ausgewählte Umgebung ist stets die für das gesamte Konto ausgewählte Standardeinstellung. Die Standardeinstellung für die Umgebung kann nicht pro Aktivität festgelegt werden.
 
 ## Schulungsvideos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
