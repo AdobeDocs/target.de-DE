@@ -5,10 +5,10 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 33%
+source-wordcount: '1573'
+ht-degree: 32%
 
 ---
 
@@ -21,6 +21,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Juli 28 | [Personalization Insights-Berichte](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[Automatisierte Segmente-Bericht](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>und Bericht &quot; [Wichtige Attribute&quot;](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Der Text in der Notiz wurde aktualisiert. |
+|  | [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Es wurden Informationen zu Internet Explorer und unbekannten Elementen hinzugefügt. |
+|  | [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. In unserem aktuellen Design besteht die Möglichkeit, dass ein kleiner Anteil der Daten (bis zu 0,1 % der großen Produktionschargen) möglicherweise nicht an Bord mitgeführt wird. |
 | Juli 27 | [Verwaltung von Target](/help/administrating-target/administrating-target.md) | Der Text in allen verknüpften Themen auf dieser Seite wurde aktualisiert, um die neuen Änderungen an der Benutzeroberfläche für die [!UICONTROL Administrationsseiten] widerzuspiegeln. |
 |  | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Folgende Änderungen wurden vorgenommen: <ul><li>Registrierungsinformationen für das folgende Webinar hinzugefügt: &quot;So nutzt HSBC Adobe Target und KI zur schnellen Optimierung und Bereitstellung von Personalisierung im Maßstab.&quot;</li><li>Es wurden Informationen darüber hinzugefügt, dass Adobe erneut als &quot;Leader&quot;im Gartner Magic Quadrant für Personalisierungsmaschinen bezeichnet wird.</li></ul> |
 |  | [Formularbasierter Experience Composer](/help/c-experiences/form-experience-composer.md) | Klarere Informationen unter Schritt 4: Wählen Sie einen Ort aus. |
@@ -41,7 +44,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md) | Es wurde ein Hinweis hinzugefügt, dass das Erstellen von Skripten mit abhängigen Profilen, die das Ergebnis eines Profil-Skripts in einem anderen Profil-Skript verwenden, nicht empfohlen wird. |
 |  | [Funktionsweise von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Das folgende Video wurde hinzugefügt: Bürozeiten: &quot;at.js&quot;-Tipps und -Übersicht |
 | 17. Juni | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das Thema wurde aktualisiert. |
-|  | [Antwort-Token](/help/administrating-target/response-tokens.md) | Es wurden Informationen zu Antwort-Token für die Traffic-Zuordnungsmethode für [!UICONTROL Aktivitäten zur automatischen Zielgruppe] und [!UICONTROL automatisierten Personalisierung] hinzugefügt. |
+|  | [Antwort-Token](/help/administrating-target/response-tokens.md) | Es wurden Informationen zu Antwort-Token für die Traffic-Zuordnungsmethode für [!UICONTROL Auto-Zielgruppe] - und [!UICONTROL Automated Personalization] -Aktivitäten hinzugefügt. |
 |  | [Aktivitätserstellung](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Es wurden Informationen zur Unterstützung von Analytics für Zielgruppe (A4T) für Aktivitäten mit automatisierter Zuordnung hinzugefügt. |
 |  | [Benutzer](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Es wurden Informationen zur neuen [!UICONTROL Herausgeberrolle] unter Rollen und Berechtigungen *festlegen* hinzugefügt. |
 |  | [Konfigurieren von Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Informationen zur neuen [!UICONTROL Herausgeberrolle] unter *Schritt 6 hinzugefügt: Legen Sie Rollen und Berechtigungen* fest. |
@@ -99,7 +102,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | April 2 | [Nützliche Variablen, Profile, Parameter und Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Es wurden Informationen zur Verwendung `user.header('x-forwarded-for')` mit neueren AWS-Kanten zum Abrufen der IP-Adressen von Benutzern hinzugefügt. |
 |  | [Aktualisieren von at.js 1.*x* auf at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Folgender Hinweis wurde hinzugefügt:<ul><li>Nach der Installation der ECID-Bibliothek v 4.3.0 + und at.js 2.*x* können Sie Aktivitäten erstellen, die mehrere Domänen umfassen und Benutzer tracken können. Beachten Sie, dass diese Funktion erst nach Ablauf der Sitzung funktioniert.</li></ul> |
 | 30. März | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Es wurden bekannte Probleme hinzugefügt, die at.js-Versionen vor at.js 2.2.0 betreffen. Dieses Problem führte dazu, dass Klick-Tracking keine Konversionen in Analytics für Zielgruppe (A4T) meldete, wenn Adobe Analytics-Code nicht in Seitenelementen vorhanden war. |
-|  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Die folgenden Informationen wurden den Details zu at.js Version 2.2.0 hinzugefügt:<ul><li>Es wurde ein Fehler behoben, der dazu führte, dass bei der Klick-Tracking keine Konvertierungen in Analytics für die Zielgruppe (A4T) gemeldet wurden, wenn in Seitenelementen kein Adobe Analytics-Code vorhanden war.</li></ul> |
+|  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Die folgenden Informationen wurden den Details zu at.js Version 2.2.0 hinzugefügt:<ul><li>Es wurde ein Fehler behoben, der dazu führte, dass bei der Klick-Tracking keine Konvertierungen in Analytics für die Zielgruppe (A4T) gemeldet wurden, wenn Adobe Analytics-Code nicht in Seitenelementen vorhanden war.</li></ul> |
 | 25. März | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zu den folgenden neuen Versionen von at.js hinzugefügt:<ul><li>at.js Version 2.3.0</li><li>at.js Version 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Die folgenden neuen Zeilen wurden im Abschnitt &quot;Einstellungen&quot;hinzugefügt:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>Der folgende neue Abschnitt wurde hinzugefügt:<ul><li>Content Security-Richtlinie</li></ul> |
 | 24. März | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Es wurden Informationen zu den Auswirkungen für Folgendes hinzugefügt:<ul><li>Profil-Skripten basierend auf 3rdPartyID</li><li>QS-/Vorschauen-URLs auf iOS-Geräten</li></ul> |
