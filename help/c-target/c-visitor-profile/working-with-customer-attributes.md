@@ -1,12 +1,15 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
 description: Informationen zum Verwenden von Unternehmenskundendaten aus einer CRM-Datenbank für das Targeting von Inhalten in Adobe Target mithilfe von Kundenattributen im Adobe Experience Cloud People-Core-Service.
-title: Kundenattribute in Adobe Zielgruppe
+title: Kundenattribute in Adobe Target
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '1508'
+ht-degree: 39%
 
 ---
 
@@ -33,7 +36,7 @@ Consider the following information as your work with customer attributes and [!D
    >
    >[!DNL at.js] (beliebige Version) oder [!DNL mbox.js] Version 58 oder höher erforderlich.
 
-* Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. In unserem aktuellen Design besteht die Möglichkeit, dass ein geringer Prozentsatz der Daten nicht integriert wird.
+* [!DNL Adobe] garantiert nicht, dass 100 % der Kundenattributdaten (Besucher-Profil) aus CRM-Datenbanken an die Daten des Unternehmens gesendet werden [!DNL Experience Cloud] und somit für das Targeting in [!DNL Target]der Datenbank zur Verfügung stehen. In unserem aktuellen Design besteht die Möglichkeit, dass ein kleiner Anteil der Daten (bis zu 0,1 % der großen Produktionschargen) möglicherweise nicht an Bord mitgeführt wird.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. Weitere Informationen finden Sie unter  [Lebensdauer des Besucherprofils](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
 * If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
 
@@ -83,6 +86,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
    * **HTTPS:** Sie können die .csv-Datendatei per Drag &amp; Drop verschieben oder auf **[!UICONTROL Durchsuchen]** klicken, um sie aus Ihrem Dateisystem hochzuladen.
    * **FTP:** Klicken Sie auf den FTP-Link, um die Datei über FTP [hochzuladen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Der erste Schritt besteht darin, ein Kennwort für den von Adobe bereitgestellten FTP-Server anzugeben. Specify the password, then click **[!UICONTROL Done]**.
+
    Übertragen Sie nun Ihre CSV-/ZIP-/GZIP-Datei auf den FTP-Server. Nachdem die Dateiübertragung erfolgreich war, erstellen Sie eine neue Datei mit demselben Namen und der Erweiterung .fin. Übertragen Sie diese leere Datei auf den Server. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. Prüfen des Schemas.
@@ -174,7 +178,7 @@ Beachten Sie die folgenden Implementierungsprobleme:
 * Die Besucher-ID wurde korrekt übergeben, aber der Status der AUTHENTIFIZIERUNG wurde nicht auf „Authentifiziert“ festgelegt.
 * `mbox3rdPartyId` wurde nicht korrekt weitergeleitet.
 
-### Problem 5: nicht ordnungsgemäß ausgeführt `mboxUpdate`
+### Problem 5: `mboxUpdate` nicht ordnungsgemäß ausgeführt
 
 `mboxUpdate` wurde nicht ordnungsgemäß mit `mbox3rdPartyId` ausgeführt.
 
