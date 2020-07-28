@@ -5,10 +5,10 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 32%
+source-wordcount: '1661'
+ht-degree: 31%
 
 ---
 
@@ -21,7 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| Juli 28 | [Personalization Insights-Berichte](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[Automatisierte Segmente-Bericht](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>und Bericht &quot; [Wichtige Attribute&quot;](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Der Text in der Notiz wurde aktualisiert. |
+| Juli 28 | [Personalization Insights-Berichte](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[Automatisierte Segmente-Bericht](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>und Bericht &quot; [Wichtige Attribute&quot;](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Der Text in der Notiz am Anfang der Themen wurde aktualisiert. |
+|  | [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Folgende FAQs wurden hinzugefügt:<ul><li>Kann ich die Option &quot;Berichtsdaten zurücksetzen&quot;beim Ausführen einer Aktivität für die automatische Zuordnung verwenden?</li><li>Wie werden Buildmodelle mit automatisierter Zuordnung in Bezug auf Umgebung erstellt?</li></ul> |
+|  | [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md) | Folgende Frage wurde hinzugefügt:    <ul><li>Kann ich die Option &quot;Berichtsdaten zurücksetzen&quot;beim Ausführen einer Aktivität für die automatische Zielgruppe verwenden?</li></ul>Der Text im Abschnitt &quot;Überlegungen&quot;wurde aktualisiert. |
+|  | [Häufig gestellte Fragen zu Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Folgende FAQs wurden hinzugefügt:<ul><li>Kann ich beim Ausführen einer Automated Personalization-Aktivität die Option Berichtsdaten zurücksetzen verwenden?</li><li>Wie erstellt Automated Personalization Modelle in Bezug auf Umgebung?</li></ul> |
 |  | [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Es wurden Informationen zu Internet Explorer und unbekannten Elementen hinzugefügt. |
 |  | [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. In unserem aktuellen Design besteht die Möglichkeit, dass ein kleiner Anteil der Daten (bis zu 0,1 % der großen Produktionschargen) möglicherweise nicht an Bord mitgeführt wird. |
 | Juli 27 | [Verwaltung von Target](/help/administrating-target/administrating-target.md) | Der Text in allen verknüpften Themen auf dieser Seite wurde aktualisiert, um die neuen Änderungen an der Benutzeroberfläche für die [!UICONTROL Administrationsseiten] widerzuspiegeln. |
