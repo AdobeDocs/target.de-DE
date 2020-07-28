@@ -4,7 +4,10 @@ description: Informationen zum Bericht „Wichtige Attribute“, einem der beide
 title: Bericht „Wichtige Attribute“
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '1629'
+ht-degree: 94%
 
 ---
 
@@ -14,15 +17,29 @@ source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 Informationen zum Bericht „Wichtige Attribute“, einem der beiden für Benutzer der AP (Automated Personalization)- und AT (Automatisches Targeting)-Aktivitäten verfügbaren speziellen Berichte.
 
 >[!NOTE]
->AP- und AT-Aktivitäten sind im Rahmen von Target Premium verfügbar. Sie sind nicht in Target Standard ohne Target Premium-Lizenz enthalten.
 >
->Personalization Insights-Berichte sind nur für AP- und AT-Aktivitäten verfügbar, die ein Konversionsoptimierungsziel verwenden. Auch Aktivitäten, deren Optimierungsziel von Konversion zu Umsatz geändert wurde, nachdem die Aktivität bereits live war, werden nicht unterstützt.|
+>Beachten Sie Folgendes, wenn Sie Personalization Insight-Berichte verwenden:
+>
+>* AP- und AT-Aktivitäten sind im Rahmen von [!DNL Target Premium] verfügbar. Sie sind nicht mit [!DNL Target Standard]ohne[!DNL Target Premium] Lizenz enthalten.
+   >
+   >
+* [!UICONTROL Personalization Insights-Berichte sind nur für AP- und AT-Aktivitäten verfügbar, die ein Konversionsoptimierungsziel verwenden. ] Auch Aktivitäten, deren Optimierungsziel von Konversion zu Umsatz geändert wurde, nachdem die Aktivität bereits live war, werden nicht unterstützt.
+   >
+   >
+* [!UICONTROL Personalization Insight] -Berichte stehen nur zur Verfügung, wenn das [!UICONTROL Primär Goal] aus der Dropdown-Liste [!UICONTROL Berichtsmetrik] ausgewählt wurde.
+   >
+   >
+* Personalization Insights-Berichte werden nur in der [Standardumgebung](../../administrating-target/hosts.md) unterstützt.
+   >
+   >
+* [!UICONTROL Personalization Insight] -Berichte werden nur für Aktivitäten generiert, die sich im [!UICONTROL Live] -Status befinden und die mindestens 15 Tage lang Traffic erhalten und aktiviert wurden.
+
 
 In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig für die Personalisierungsentscheidung des Modells. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar.
 
 ## Zugriff auf den Bericht „Wichtige Attribute“{#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
 
    Sollten Ihnen viele Aktivitäten zur Auswahl stehen, können Sie die Liste filtern, indem Sie Optionen aus den Dropdownlisten [!UICONTROL Typ], [!UICONTROL Status], [!UICONTROL Berichtsquelle], [!UICONTROL Experience Composer], [!UICONTROL Metriktyp] und [!UICONTROL Aktivitätsquelle] auswählen.
 
@@ -36,7 +53,7 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
    >
    >Der Bericht [!UICONTROL Wichtige Attribute] steht erst nach mindestens 15 Tagen nach der Aktivierung Ihrer Aktivität zur Verfügung. Bis dahin können Sie nicht auf diesen Bericht zugreifen und das Symbol für [!UICONTROL „Wichtige Attribute“] ist ausgegraut. Nach 15 Tagen und sofern ausreichend personalisierter Traffic in Ihrer Aktivität verfügbar ist, ist der Bericht [!UICONTROL Wichtige Attribute] verfügbar.
 
-1. 15 Tage nach der Aktivierung der Aktivität können Sie auf das Symbol **[!UICONTROL Wichtige Attribute]**klicken.
+1. 15 Tage nach der Aktivierung der Aktivität können Sie auf das Symbol **[!UICONTROL Wichtige Attribute]** klicken.
 
    ![](assets/model_attribute_ranking.png)
 
