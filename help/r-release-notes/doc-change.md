@@ -5,10 +5,10 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 18461d7b2e7e1e8e0ea097bea4bb7242d851f9af
+source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 31%
+source-wordcount: '1693'
+ht-degree: 30%
 
 ---
 
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | Juli 31 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde ein neues bekanntes Problem hinzugefügt: &quot;Angebote mit der Beschriftung &quot;Verarbeitung&quot;.&quot; |
+|  | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Registrierungsinformationen über das bevorstehende Adobe Target Community Coffee Break am 5. August hinzugefügt. |
 | Juli 28 | [Personalization Insights-Berichte](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[Automatisierte Segmente-Bericht](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>und Bericht &quot; [Wichtige Attribute&quot;](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Der Text in der Notiz am Anfang der Themen wurde aktualisiert. |
 |  | [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Folgende FAQs wurden hinzugefügt:<ul><li>Kann ich die Option &quot;Berichtsdaten zurücksetzen&quot;beim Ausführen einer Aktivität für die automatische Zuordnung verwenden?</li><li>Wie werden Buildmodelle mit automatisierter Zuordnung in Bezug auf Umgebung erstellt?</li></ul> |
 |  | [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md) | Folgende Frage wurde hinzugefügt:    <ul><li>Kann ich die Option &quot;Berichtsdaten zurücksetzen&quot;beim Ausführen einer Aktivität für die automatische Zielgruppe verwenden?</li></ul>Der Text im Abschnitt &quot;Überlegungen&quot;wurde aktualisiert. |
