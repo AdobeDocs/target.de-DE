@@ -4,9 +4,9 @@ description: Informationen zu kommenden Ereignissen, einschließlich Zielgruppe 
 title: Mitteilungen zur Zielgruppe
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,20 @@ Mitteilungen und Informationen zu kommenden Ereignissen, einschließlich Zielgru
 
 ## Adobe wurde erneut zum &quot;Leader in Gartner Magic Quadrant&quot;für Personalisierungsmaschinen ernannt
 
-Adobe wurde im dritten Jahr im Gartner Magic Quadrant for Personalization Engines 2020-Bericht erneut als &quot;Leader&quot;ausgezeichnet. Der Gartner Magic Quadrant for Personalization Engines bewertete Anbieter anhand von 15 Kriterien, die in zwei Kategorien unterteilt sind: Vollständigkeit der Sicht und Ausführungsfähigkeit. [Lesen Sie dazu im Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+Adobe wurde im dritten Gartner Magic Quadrant for Personalization Engines 2020-Bericht erneut zum Leader ernannt. Der Gartner Magic Quadrant for Personalization Engines bewertete Anbieter anhand von 15 Kriterien, die in zwei Kategorien unterteilt sind: Vollständigkeit der Sicht und Ausführungsfähigkeit. [Lesen Sie mehr darüber im Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## Adobe Target Community Kaffeepause
+
+* **10:00 - 11:00 Uhr (PDT)**
+* **Mittwoch, 5. August 2020**
+
+Wir werden von Cristinel Anastasoaie, Adobe Target Product Manager, begleitet, der sich bei der Adobe Target Community anmeldet, um direkt mit Ihnen zu sprechen und Fragen zu Ihren brennenden Adobe Targets zu beantworten, die seine Fachgebiete betreffen:
+
+* Adobe Target-Benutzeroberfläche
+* Adobe Target-Integrationen
+* Unternehmensberechtigungen und Arbeitsbereiche
+
+[Registrieren Sie sich in der Adobe Target Community.](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)
 
 ## Webinar: Nutzung von Adobe Target und API von HSBC zur schnellen Optimierung und Bereitstellung von Personalisierung im Maßstab
 
