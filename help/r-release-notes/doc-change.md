@@ -5,9 +5,9 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1706'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | Juli 31 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde ein neues bekanntes Problem hinzugefügt: &quot;Angebote mit der Beschriftung &quot;Verarbeitung&quot;.&quot; |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Codebeispiel für die Durchführung `getoffers()` von pageLoad hinzugefügt. |
 |  | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Registrierungsinformationen über das bevorstehende Adobe Target Community Coffee Break am 5. August hinzugefügt. |
 | Juli 28 | [Personalization Insights-Berichte](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[Automatisierte Segmente-Bericht](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md),<br>und Bericht &quot; [Wichtige Attribute&quot;](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Der Text in der Notiz am Anfang der Themen wurde aktualisiert. |
 |  | [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Folgende FAQs wurden hinzugefügt:<ul><li>Kann ich die Option &quot;Berichtsdaten zurücksetzen&quot;beim Ausführen einer Aktivität für die automatische Zuordnung verwenden?</li><li>Wie werden Buildmodelle mit automatisierter Zuordnung in Bezug auf Umgebung erstellt?</li></ul> |
