@@ -5,10 +5,10 @@ title: Informationen über die Funktion adobe.target.getOffers() für die JavaSc
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+source-git-commit: 99cdabf409a3009d80e06243b9e068a439513823
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 94%
+source-wordcount: '1224'
+ht-degree: 95%
 
 ---
 
@@ -271,4 +271,14 @@ Beachten Sie, dass dieses Beispiel `prefetch > mboxes` verwendet, Sie könnten a
 
 Das folgende Beispiel zeigt, wie Sie pageLoad mit getOffers() mit at.js 2 ausführen.*x* 
 
-adobe.Zielgruppe.getOffers({request: {execute: {pageLoad: {Parameter: {}}}});
+```
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {
+                parameters: {}
+            }
+        }
+    }
+});
+```
