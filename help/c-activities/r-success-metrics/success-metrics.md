@@ -4,10 +4,10 @@ description: In Adobe Target sind Erfolgsmetriken sowohl für Berichte- als auch
 title: Erfolgsmetriken im Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 83%
+source-wordcount: '1062'
+ht-degree: 79%
 
 ---
 
@@ -35,7 +35,7 @@ Es sind folgende Erfolgsmetriken verfügbar:
 | Konversion | Konversionsbasiert | Eine Konversion liegt vor, wenn ein Besucher eine Aktion auf Ihrer Website ausführt, die Sie definiert haben (Klicken auf eine Schaltfläche, Anzeigen einer Seite, Teilnehmen an einer Umfrage oder Tätigen eines Kaufs). Eine Konversion kann entweder einmal pro Besucher oder jedes Mal, wenn ein Besucher eine Konversion durchführt, gezählt werden. |
 | Umsatz | Konversionsbasiert | Durch den Besuch generierter Umsatz. Sie können aus folgenden Umsatzmetriken wählen:<ul><li>Umsatz pro Besucher (RPV)</li><li>Durchschnittlicher Bestellwert (AOV)</li><li>Gesamtverkäufe</li></ul> |
 | Seitenansichten | Interaktionsbasiert | Jeder eindeutige Besuch wird als Konversion gezählt. |
-| Besuchszeit pro Site | Interaktionsbasiert | Besuchszeit (in Sekunden) ab dem Zeitpunkt, zu dem der Besucher die erste Anfrage zur Anzeige des Targets der Aktivität bis zum Laden der letzten Seite mit einer Anforderung in der Sitzung anzeigt. |
+| Besuchszeit pro Site | Interaktionsbasiert | Besuchszeit (in Sekunden) ab dem Zeitpunkt, zu dem der Besucher die erste Anfrage zur Zielgruppe der Anzeige der Aktivität bis zum Laden der letzten Seite mit einer Anforderung in der Sitzung anzeigt. |
 | Benutzerspezifisches Ergebnis | Interaktionsbasiert | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 
 Bei interaktionsbasierten Metriken müssen sich Besucher (im Gegensatz zu konversions- oder umsatzbasierten Metriken) erneut für die Aktivität qualifizieren, um den Zähler für diese Sitzung zu erhöhen. Die zugehörige Metrik steigt nach erneuter Qualifikation und endet mit dem Ende der jeweiligen Besuchersitzung. Sitzungen enden nach einer Inaktivität von 30 Minuten. Deshalb sind die Ergebnisse nicht direkt während des Tests verfügbar, sondern erst einige Minuten nach Ende der Sitzung.
@@ -82,6 +82,10 @@ Verwenden Sie die erweiterten Einstellungen, um festzulegen, was geschehen soll,
 | Anzahl erhöhen und Benutzer in der Aktivität belassen | Angeben, wie die Anzahl erhöht wird:<ul><li>Einmal pro Teilnehmer  (Standard)</li><li>Bei jeder Anzeige, einschließlich Seitenaktualisierungen</li><li>Bei jeder Anzeige</li></ul> |
 | Anzahl erhöhen, Benutzer entlassen und erneute Teilnahme zulassen | Auswahl des Erlebnisses, das der Besucher bei erneuter Teilnahme an der Aktivität sieht:<ul><li>Das gleiche Erlebnis  (Standard)</li><li>Ein zufällig ausgewähltes Erlebnis</li><li>Ein noch nicht gesehenes Erlebnis</li></ul> |
 | Anzahl erhöhen, Benutzer entlassen und den Benutzer für die erneute Teilnahme sperren | Festlegen, was der Benutzer anstelle des Aktivitätsinhalts sieht:<ul><li>Das gleiche Erlebnis, ohne Tracking  (Standard)</li><li>Den Standardinhalt oder den Inhalt einer anderen Aktivität</li></ul> |
+
+>[!NOTE]
+>
+>Wenn Sie eine Metrik auf eine der Optionen für die [!UICONTROL Anzahl] erhöhen (siehe oben) konfigurieren, wird die Metrikanzahl nur einmal pro Teilnehmer auf der Ebene des Besuchers korrekt inkrementiert. Die Metrikanzahl wird für jede neue Sitzung auf Besuchsebene einmal pro Besuch erhöht.
 
 ## Schulungsvideo: Aktivitätsmetriken
 
