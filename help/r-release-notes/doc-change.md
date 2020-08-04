@@ -5,9 +5,9 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
+source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1754'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | August 4 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Registrierungsinformationen zum Webinar &quot;Personalisierungsstrategien mit künstlicher Intelligenz und Adobe Target&quot;hinzugefügt, das für den 13. August geplant ist. |
+|  | [Zulassen von gemischtem Inhalt in Ihrem Browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Das Thema wurde aktualisiert. |
 | August 3 | [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md) | Es wurde ein Hinweis hinzugefügt, der verdeutlicht, was die Optionen [!UICONTROL Anzahl] erhöhen im Hinblick auf Besucher oder Besuche bedeuten. |
 | Juli 31 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Es wurde ein neues bekanntes Problem hinzugefügt: &quot;Angebote mit der Beschriftung &quot;Verarbeitung&quot;.&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Codebeispiel für die Durchführung `getoffers()` von pageLoad hinzugefügt. |
