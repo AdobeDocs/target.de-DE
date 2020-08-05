@@ -1,31 +1,61 @@
 ---
 description: Löschen Sie Ihre Target-Browsercookies, sodass Sie alle Ihre Erlebnisse validieren können.
-title: Löschen des Target-Cookies
+title: Löschen des Adobe Target-Cookies
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 8%
 
 ---
 
 
 # Löschen des Target-Cookies{#delete-the-target-cookie}
 
-Löschen Sie Ihre Target-Browsercookies, sodass Sie alle Ihre Erlebnisse validieren können.
+Sie können Ihre [!DNL Target] Browser-Cookies löschen, damit Sie alle Erlebnisse während des Tests validieren können.
 
-Wenn es kein Cookie gibt, gelten Sie als neuer Besucher und es wird Ihnen ein neues Erlebnis angezeigt. Es gibt mehrere Möglichkeiten, Ihr Target-Cookie zu löschen, ohne gleichzeitig alle Cookies in Ihrem Browser mit zu löschen.
+If there are no [!DNL Target] cookies, you are considered a new visitor and shown a new experience. There are several ways to delete your [!DNL Target] cookies without deleting all of your browser cookies.
 
-**So löschen Sie das Cookie im Internet Explorer:**
+&lt;[!NOTE]
+>Die folgenden Anweisungen gelten für die aufgelisteten Browser und Versionen. Suchen Sie im Internet nach Anweisungen für Ihren Browser oder Ihre Version.
+>
+## Löschen von Cookies aus Google Chrome
 
-1. Wählen Sie im Menü „Extras“ im Internet Explorer **[!UICONTROL Internetoptionen]**.
-1. Öffnen Sie die Registerkarte „Allgemein“, und klicken Sie im Abschnitt [!UICONTROL Browserverlauf] auf **[!UICONTROL Einstellungen]** &gt; **[!UICONTROL Dateien anzeigen]**.
-1. Wählen Sie den Mbox-Cookie aus.
-1. Wählen Sie aus dem Menü „Datei“ die Option **[!UICONTROL Löschen]** oder wählen Sie eine Datei und drücken Sie die **[!UICONTROL Entfernen-Taste]**.
+Version 84.0.4147.105
 
-**So löschen Sie das Cookie in Mozilla Firefox:**
+1. Klicken Sie auf das **Chrome** -Menü > **Voreinstellungen**.
+1. Klicken Sie auf die Registerkarte **Datenschutz und Sicherheit** .
+1. Klicken Sie auf **Cookies und andere Site-Daten**.
+1. Klicken Sie auf Alle Cookies und Site-Daten **anzeigen**.
+1. Wählen Sie die Sites für die Cookies aus, die Sie löschen möchten, und klicken Sie dann auf das Symbol **Löschen** .
 
-1. Wählen Sie **Extras** &gt; **Einstellungen** &gt; **Datenschutz** aus.
-1. Klicken Sie auf **Cookies anzeigen**.
-1. Sortieren Sie die Cookies nach Namen, um die Target-Cookies zu suchen.
-1. Wählen Sie die Cookies für die Websites aus, für die Sie eine Vorschau anzeigen, und klicken Sie auf **Cookie entfernen**.
+## Löschen von Cookies aus Mozilla Firefox
 
+Version 79.0
+
+1. Klicken Sie auf das **Firefox** -Menü > **Voreinstellungen**.
+1. Klicken Sie auf die Registerkarte **Datenschutz und Sicherheit** .
+1. Klicken Sie unter **Cookies und Site-Daten** auf Daten **verwalten**.
+1. Sortieren nach **Site** , um die [!DNL Target] Cookies zu finden.
+1. Wählen Sie die Sites für die Cookies aus, die Sie löschen möchten, und klicken Sie dann auf **Auswahl** entfernen > Änderungen **speichern**.
+
+## Löschen von Cookies aus Microsoft Edge
+
+Version 84.0.522.52
+
+1. Klicken Sie auf das Menü **Microsoft Edge** > **Voreinstellungen**.
+1. Click the **Site Permissions** tab.
+1. Klicken Sie auf **Cookies und Site-Daten**.
+1. Klicken Sie auf Alle Cookies und Site-Daten **anzeigen**.
+1. Wählen Sie die Sites für die Cookies aus, die Sie löschen möchten, und klicken Sie dann auf das Symbol **Löschen** .
+
+## Löschen von Cookies aus Apple Safari
+
+Version 13.1.2
+
+1. Klicken Sie auf das **Safari** -Menü > **Voreinstellungen**.
+1. Click the **Privacy** tab.
+1. Klicken Sie auf Website-Daten **verwalten**.
+1. Wählen Sie die Sites für die Cookies aus, die Sie löschen möchten, und klicken Sie dann auf **Entfernen**.
