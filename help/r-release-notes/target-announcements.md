@@ -4,9 +4,9 @@ description: Informationen zu kommenden Ereignissen, einschließlich Zielgruppe 
 title: Mitteilungen zur Zielgruppe
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
+source-git-commit: 35ea1bcf6ac75216d106722685ca460d7d00e808
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,6 @@ Mitteilungen und Informationen zu kommenden Ereignissen, einschließlich Zielgru
 ## Adobe wurde erneut zum &quot;Leader in Gartner Magic Quadrant&quot;für Personalisierungsmaschinen ernannt
 
 Adobe wurde im dritten Gartner Magic Quadrant for Personalization Engines 2020-Bericht erneut zum Leader ernannt. Der Gartner Magic Quadrant for Personalization Engines bewertete Anbieter anhand von 15 Kriterien, die in zwei Kategorien unterteilt sind: Vollständigkeit der Sicht und Ausführungsfähigkeit. [Lesen Sie mehr darüber im Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
-
-## Adobe Target Community-Kaffeepause
-
-* **10:00 - 11:00 Uhr (PDT)**
-* **Mittwoch, 5. August 2020**
-
-Gemeinsam mit Cristinel Anastasoaie, Adobe Target Product Manager, werden wir uns bei der Adobe Target Community anmelden, um direkt mit Ihnen zu sprechen und Ihre brennenden Adobe Target-Fragen zu seinen Fachgebieten zu beantworten:
-
-* Adobe Target-Benutzeroberfläche
-* Adobe Target-Integrationen
-* Unternehmensberechtigungen und Arbeitsbereiche
-
-[Registrieren Sie sich in der Adobe Target.](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)
 
 ## Webinar: Wie HSBC Adobe Target und AI nutzt, um Personalisierung schnell zu optimieren und zu liefern
 
