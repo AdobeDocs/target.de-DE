@@ -5,9 +5,9 @@ title: Änderungen an der Adobe Target-Produktdokumentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+source-git-commit: 864ce209675b465e229fad787e102e8d9bf5825c
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1762'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| August 5 | [Löschen des Target-Cookies](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | Das ganze Thema wurde aktualisiert. |
 | August 4 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Registrierungsinformationen zum Webinar &quot;Personalisierungsstrategien mit künstlicher Intelligenz und Adobe Target&quot;hinzugefügt, das für den 13. August geplant ist. |
 |  | [Zulassen von gemischtem Inhalt in Ihrem Browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Das Thema wurde aktualisiert. |
 | August 3 | [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md) | Es wurde ein Hinweis hinzugefügt, der verdeutlicht, was die Optionen [!UICONTROL Anzahl] erhöhen im Hinblick auf Besucher oder Besuche bedeuten. |
