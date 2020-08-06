@@ -4,10 +4,10 @@ title: Automatisches Targeting
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
 workflow-type: tm+mt
-source-wordcount: '3517'
-ht-degree: 91%
+source-wordcount: '3610'
+ht-degree: 85%
 
 ---
 
@@ -198,14 +198,17 @@ Wenn in den Ergebnissen eines A/B-Tests eine signifikante Steigerung von mindest
 
 Wenn Sie wesentliche Änderungen an den Inhalten in Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] vornehmen möchten, empfiehlt es sich, eine neue Aktivität zu beginnen, damit andere Benutzer, die Berichte überprüfen, vergangene Ergebnisse nicht mit anderen Inhalten verwechseln oder in Beziehung setzen.
 
-### Wie lange sollte ich warten, bis Modelle erstellt werden? 
+### Wie lange sollte ich warten, bis Modelle erstellt werden?  {#how-long}
 
-Wie lange es dauert, bis in Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] Modelle erstellt werden, hängt in der Regel vom Traffic Ihrer ausgewählten Aktivitätsposition(en) und Ihrer Aktivitätserfolgsmetrik ab.
+The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
 
-Für [!UICONTROL Automatisches Targeting] können einfache Faustregeln zum Nachvollziehen der Traffic-Anforderungen verwendet werden:
+[!UICONTROL Die automatische Zielgruppe] versucht nicht, ein personalisiertes Modell für ein bestimmtes Erlebnis zu erstellen, bis mindestens 50 Konvertierungen für dieses Erlebnis vorhanden sind. Wenn das erstellte Modell von unzureichender Qualität ist (was durch die Offline-Auswertung der &quot;Test&quot;-Daten unter Verwendung [einer Metrik, AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)genannt, bestimmt wird), wird das Modell nicht dazu verwendet, Traffic auf eine personalisierte Weise zu liefern.
 
-* **Wenn „Konversion“ Ihre Erfolgsmetrik ist:** 1.000 Besuche und mindestens 50 Konversionen pro Tag pro Erlebnis. Zusätzlich muss die Aktivität über mindestens 7.000 Besuche und 350 Konversionen verfügen.
-* **Wenn „Umsatz pro Besuch“ Ihre Erfolgsmetrik ist:** 1.000 Besuche und mindestens 50 Konversionen pro Tag pro Erlebnis. Zusätzlich muss die Aktivität über mindestens 1.000 Konversionen pro Erlebnis verfügen. Für „Umsatz pro Besuch (RPV)“ sind aufgrund der höheren Datenvarianz, die im Vergleich zur Konversionsrate für gewöhnlich im Besuchsumsatz vorhanden ist, in der Regel mehr Daten zum Erstellen von Modellen erforderlich.
+Einige weitere Punkte, die im Zusammenhang mit der Modellerstellung der [!UICONTROL Auto-Zielgruppe]zu beachten sind:
+
+* Sobald eine Aktivität live ist, berücksichtigt die [!UICONTROL automatische Zielgruppe] bis zu den letzten 45 Tagen zufällig bereiteter Daten, wenn versucht wird, Modelle zu erstellen (d. h. den Traffic zu steuern, sowie einige extra zufällig bereitgestellte Daten, die von unserem Algorithmus bereitgestellt werden).
+* Wenn [!UICONTROL Umsatz pro Besuch] Ihre Erfolgsmetrik ist, benötigen diese Aktivitäten in der Regel mehr Daten, um Modelle zu erstellen, da die Datenabweichung, die normalerweise im Besuchsumsatz im Vergleich zu Konversionsrat besteht, höher ist.
+* Da Modelle auf der Grundlage der einzelnen Erlebnisse erstellt werden, müssen beim Ersetzen eines Erlebnisses durch ein anderes ausreichend Traffic (d. h. mindestens 50 Konversionen) für das neue Erlebnis gesammelt werden, bevor personalisierte Modelle neu erstellt werden können.
 
 ### Ein Modell wird in meiner Aktivität erstellt. Sind die Besuche bei diesem Erlebnis personalisiert?  
 
