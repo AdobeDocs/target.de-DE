@@ -1,18 +1,21 @@
 ---
-keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Classifications; Classification; Classifications Importer; Post-TNT-Aktion
+keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
 description: Dieses Thema enthält Antworten auf häufig zu Classifications und zur Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 title: Classifications - Häufig gestellte Fragen zu A4T
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 66%
 
 ---
 
 
 # Classifications – Häufig gestellte Fragen zu A4T{#classifications-a-t-faq}
 
-Dieses Thema enthält Antworten auf häufig zu Classifications und zur Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
+This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 ## Wie passe ich den Wert post-tnt-action an einen Aktivitätsnamen an, nachdem ich Classifications mithilfe des Classifications Importer heruntergeladen habe? {#section_6045DAC488B248418F430E663C38D001}
 
@@ -22,7 +25,7 @@ Diese Nachschlagedatei ist besonders für Kunden nützlich, die den Clickstream-
 
 Das Zeichenfolgenformat der TNT-Variable lautet `activityID:experienceID:targettype|event`.
 
-* Der „targettype“ ist in A4T stets 0.
+* targetType = 0 (control/random) oder 1 (target) für [!UICONTROL Aktivitäten zur automatischen Zuordnung] und [!UICONTROL automatischen Zielgruppe] .
 * Erlebnis = 0 steht für den Eintritt in ein Erlebnis.
 * Erlebnis = 1 steht für einen Erlebnisbesuch.
 * Erlebnis = 2 steht für eine Aktivitätsimpression.
