@@ -4,10 +4,10 @@ description: Informationen zu bekannten Problemen in dieser Version von Adobe Ta
 title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 86ff105770a430b3cc56ab8ed490a154a1c2180f
+source-git-commit: f3bb126943bc5f3a44f2969e82190eac34fc5710
 workflow-type: tm+mt
-source-wordcount: '3352'
-ht-degree: 91%
+source-wordcount: '3421'
+ht-degree: 88%
 
 ---
 
@@ -124,15 +124,15 @@ Wenn eine Erfolgsmetrik bei jeder Impression erhöht werden soll, zählt Target 
 
 ### Analytics for Target (A4T)
 
-Target-Aktivitätsimpressionen und -konversionen werden derzeit im Analysis Workspace nicht richtig gezählt.
+Wenden Sie bei Verwendung von Impressionen und Konversionen der Zielgruppe in Analysis Workspace das Attribution IQ-Modell &quot;Gleich Touch&quot;auf die Metriken an, um eine genaue Zählung sicherzustellen. Um ein [nicht standardmäßiges Zuordnungsmodell](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)anzuwenden, klicken Sie mit der rechten Maustaste auf die Metrik, um die Spalteneinstellungen zu **ändern. Aktivieren Sie &quot;Nicht standardmäßiges Zuordnungsmodell verwenden&quot;> &quot;Gleiches Touch-Modell**&quot;auswählen. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
 
-Nutzen Sie als Workaround die A4T-Daten in Reports &amp; Analytics, bis das Problem behoben wurde.
+Alle aktuellen Analytics-Pakete können dieses Modell mit Attribution IQ hinzufügen. Wenn Sie keinen Zugriff auf Attribution IQ haben, verlassen Sie sich bitte auf A4T-Daten in Reports &amp; Analysen.
 
 ### Target-APIs
 
 Kunden können keine CRUD-Vorgänge für Aktivitäten mit Automatisierte Zuordnung über die v3-Version der A/B-Aktivitäten-API auf Adobe I/O durchführen.
 
-### GEO-Targeting
+### GEO Targeting
 
 Am 10. Mai 2020 haben wir unsere GEO-Provider-Dateien aktualisiert, die einige Inkonsistenzen eingeführt haben. Beispielsweise wurden einige Werte mit Kommas hinzugefügt. obwohl die Werte in bestehenden Audiencen kein Komma hatten. Nicht alle unsere Versand-Server waren von dieser Änderung betroffen. Daher haben Audiencen, die solche Werte verwenden, möglicherweise nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
 
@@ -146,17 +146,17 @@ Wenn bekannte Probleme behoben sind, werden sie in die folgenden Abschnitte vers
 
 ### Berichte und extreme Bestellungen
 
-Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. Vom 19. Dezember 2019 bis zum 23. April 2020 trat bei einem anderen Server dasselbe Problem auf. Dieses Problem betraf nicht alle Zielgruppen- oder Zielgruppen-Server.
+Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. Vom 19. Dezember 2019 bis zum 23. April 2020 trat bei einem anderen Server dasselbe Problem auf. This issue did not affect all Target servers or all Target customers.
 
-Sie wurden *nicht* betroffen, wenn:
+You were *not* affected if:
 
-* Ihre Implementierung der Zielgruppe verwendet verschiedene Server.
-* Extreme Bestellungen wurden in Ihren Berichten nicht ausgeschlossen.
-* Sie haben zur Messung Ihrer Aktivitäten eine Konversionsmetrik verwendet.
-* Ihre Zielgruppe-Aktivitäten verwenden Analytics für die Zielgruppe (A4T).
-* Sie befinden sich in der Region Asien-Pazifik (APAC).
+* Your Target implementation uses different servers.
+* Your reports did not exclude extreme orders.
+* You used a conversion metric to measure your activities.
+* Your Target activities use Analytics for Target (A4T).
+* You are located the Asia-Pacific (APAC) region.
 
-Wenden Sie sich an den [Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB), um festzustellen, ob dieses Problem Ihren Zielgruppe-Berichte beeinflusst hat.
+To determine if this issue impacted your Target reporting, reach out to [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Recommendations
 
