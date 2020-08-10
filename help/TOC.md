@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4b2479c51a01ccaa04d86290af36e949e98b69b3
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1429'
 ht-degree: 91%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 91%
    + [Target-Versionshinweise (aktuell)](r-release-notes/release-notes.md)
    + [Target-Versionshinweise (Vorabversion)](r-release-notes/target-release-notes.md)
    + [Übersicht über die Zielgruppe](/help/r-release-notes/target-documentation.md)
-   + [Zielgruppe Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md)
+   + [Target Insider newsletter](/help/r-release-notes/target-insider-newsletter.md)
    + [Bekannte Probleme und gelöste Probleme](r-release-notes/known-issues-resolved-issues.md)
    + [Systemstatusaktualisierungen und proaktive Benachrichtigungen](r-release-notes/system-status-updates.md)
    + [Dokumentationsänderungen](r-release-notes/doc-change.md)
@@ -131,7 +131,7 @@ ht-degree: 91%
          + [„mbox.js“-Cookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [„mbox.js“-Versionsdetails](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
          + Erläuterung der globalen Mbox {#global-mbox}
-            + [Übersicht über die globale Mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+            + [Understand the Global mbox overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
             + [Anpassen einer globalen Mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
             + [Verwenden einer globalen Mbox aus einer Legacy-Implementierung](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
             + [Übergeben von Parametern an eine globale Mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
@@ -182,6 +182,7 @@ ht-degree: 91%
          + [Alte Integration von SiteCatalyst in Test&amp;Target - Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud Audiences](c-integrating-target-with-mac/mmp.md)
+   + [Zielgruppe mit Adobe Audience Manager integrieren](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integration von Target in Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud-Gerätekooperation](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Aktivitäten {#activities}
@@ -203,7 +204,7 @@ ht-degree: 91%
    + Automatisch zuweisen {#auto-allocate}
       + [Automatische Zuordnung](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Berichte zur automatischen Zuordnung interpretieren](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [Die automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und mehr Umsatz als ein manueller Test liefern](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+      + [Auto-Allocate can give you faster test results and higher revenue than a manual test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Automatisches Targeting](c-activities/auto-target-to-optimize.md)
    + Automatisierte Personalisierung {#automated-personalization}
       + [Automated Personalization – Überblick](c-activities/t-automated-personalization/automated-personalization.md)
@@ -217,7 +218,7 @@ ht-degree: 91%
       + [Verwalten von Ausschlüssen](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Wählen Sie das Steuerelement für die automatisierte Personalisierung oder die automatische Targeting-Aktivität aus](c-activities/t-automated-personalization/experience-as-control.md)
       + [Häufig gestellte Fragen zur automatisierten Personalisierung](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Vorschau Automatisierte Personalisierungs-Aktivitäten mit Erlebnis-Vorschauen-URLs](c-activities/t-automated-personalization/experience-preview.md)
+      + [Preview Automated Personalization activities with experience preview URLs](c-activities/t-automated-personalization/experience-preview.md)
       + [Fehlerbehebung bei der automatisierten Personalisierung](c-activities/t-automated-personalization/ap-trouble.md)
    + Erlebnis-Targeting {#experience-targeting}
       + [Erlebnis-Targeting – Überblick](c-activities/t-experience-target/experience-target.md)
@@ -369,7 +370,7 @@ ht-degree: 91%
       + [Hochladen benutzerdefinierter Kriterien](c-recommendations/c-algorithms/recommendations-csv.md)
       + [Verwenden dynamischer und statischer Einschlussregeln](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Verwenden einer Reserveempfehlung](c-recommendations/c-algorithms/backup-recs.md)
-      + [Arbeiten mit Attributen mit mehreren Werten](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [Work with multi-value attributes](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
    + Design {#recommendations-design}
       + [Designübersicht](c-recommendations/c-design-overview/design-overview.md)
       + [Erstellen eines Designs](c-recommendations/c-design-overview/create-design.md)
@@ -380,7 +381,7 @@ ht-degree: 91%
       + [Kriterienauswahl](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [Hinzufügen von Promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Einstellungen für Recommendations-Aktivitäten](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Vorschau und Starten der Recommendations-Aktivität](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [Preview and launch your Recommendations activity](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommendations als Angebot](c-recommendations/recommendations-as-an-offer.md)
    + Häufig gestellte Fragen {#recommendations-faq}
       + [Recommendations-FAQs](c-recommendations/c-recommendations-faq/recommendations-faq.md)
