@@ -1,13 +1,13 @@
 ---
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: Mit mobilen Viewports können Sie Vorschauen dazu erstellen, wie Ihre Adobe Target-Aktivitäten auf Bildschirmen unterschiedlicher Größe angezeigt werden.
-title: Mobile Viewports for responsive experiences
+title: Mobile Viewports für responsive Erlebnisse
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 292c6a5f2a49e6de88778c944099f4971d8a10af
+source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 65%
+source-wordcount: '1402'
+ht-degree: 70%
 
 ---
 
@@ -84,7 +84,7 @@ Wenn Ihre Site nicht responsiv ist, können Sie zum Anzeigen einer Site weiterhi
 
 >[!IMPORTANT]
 >
->Obwohl Sie ein Erlebnis in mobilen Viewports bearbeiten können, gelten diese Änderungen für alle Viewports und Geräte, nicht nur für den Viewport, in dem Sie arbeiten. Gleichermaßen wird bei der Bearbeitung eines Erlebnisses in der normalen Desktop-Ansicht die Seite für alle Bildschirmgrößen und nicht nur für die Desktop-Ansicht geändert. Derzeit bieten wir keine Unterstützung für Viewport-spezifische Seitenänderungen.
+>Although you can edit an experience from within mobile viewports, these changes apply to all viewports and devices, not just the viewport that you&#39;re working in. Gleichermaßen wird bei der Bearbeitung eines Erlebnisses in der normalen Desktop-Ansicht die Seite für alle Bildschirmgrößen und nicht nur für die Desktop-Ansicht geändert. Derzeit bieten wir keine Unterstützung für Viewport-spezifische Seitenänderungen.
 
 ## Mobile viewport configuration {#task_B4B161499DC0470584ED922A4D20FCAB}
 
@@ -144,31 +144,31 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 1. Schalten Sie bei Bedarf zwischen Hoch- und Querformat um, indem Sie auf das gewünschte Ausrichtungssymbol klicken.
 
-   ![Orientation options](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
+   ![Ausrichtungsoptionen](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
 ## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-This use case shows how to configure experiences for two iPhone versions: iPhone 11 Pro Max and iPhone SE.
+Dieser Verwendungsfall zeigt, wie Erlebnisse für zwei iPhone-Versionen konfiguriert werden: iPhone 6 und iPhone 6 Plus.
 
-1. In Target, click **[!UICONTROL Administration]**.
-1. In the **[!UICONTROL Mobile viewport configuration]** section, create mobile viewports for iPhone 11 Pro Max and iPhone SE.
+1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
 
    Verwenden Sie für die Viewports folgende Einstellungen:
 
    | Name | Breite | Höhe | Betriebssystem |
    |---|---|---|---|
-   | iPhone 11 Pro Max | 414 | 896 | iOS |
-   | iPhone SE | 375 | 667 | iOS |
+   | iPhone 6 | 375 | 667 | iOS |
+   | iPhone 6 Plus | 414 | 736 | iOS |
 
    ![](assets/iphoneviewportconfig.png)
 
 1. Erstellen Sie eine Aktivität mit dem Erlebnis, das Sie Zielgruppe wünschen.
-1. Wählen Sie das Erlebnis aus, das Sie Besuchern, die über ein iPhone 11 Pro Max oder iPhone SE auf Ihre Site zugreifen, Zielgruppe geben möchten.
+1. Wählen Sie das Erlebnis aus, das Sie für Benutzer bereitstellen möchten, die über ein iPhone 6 oder iPhone 6 Plus auf Ihre Site zugreifen.
 1. Klicken Sie für die Auswahl Ihres Ziels auf **[!UICONTROL Zielgruppe erstellen]** und konfigurieren Sie wie unten dargestellt eine Zielgruppe:
 
    ![](assets/iphoneaudiences.png)
 
-   Da das Telefon in Querformat gedreht werden kann, sodass sowohl Höhe als auch Breite gleichzeitig größer als 320 sein müssen, ergibt sich eine Bedingung, dass nur das iPhone 11 Pro Max und iPhone SE erfüllt werden können, wenn es mit dem iPhone-Gerätemodell kombiniert wird.
+   Da das iPhone gedreht werden kann und so in das Querformat wechselt, müssen sowohl Breite als auch Höhe gleichzeitig größer als 320 sein. Dies führt zu einer Bedingung, die nur die Geräte 6 und 6 Plus erfüllen, wenn als Gerätemodell das iPhone angegeben wird.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Richten Sie die Aktivität wie gewohnt weiter ein.
 
