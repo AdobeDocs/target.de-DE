@@ -2,10 +2,11 @@
 keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
 description: Informationen zur Arbeit mit Adobe Client Care zur Implementierung der CNAME-Unterstützung (Canonical Name) in Adobe Target.
 title: CNAME und Adobe Target
+feature: null
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 45bd128a01dcb8d4d8d330d8ed4a4df04b98a612
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 2%
@@ -23,9 +24,9 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. Bestimmen Sie die Liste der Hostnamen, die Sie für Ihr SSL-Zertifikat benötigen (siehe FAQ).
 
-1. For each hostname, create a CNAME record in your DNS pointing to your regular [!DNL Target] hostname `clientcode.tt.omtrdc.net`.
+1. Erstellen Sie für jeden Hostnamen einen CNAME-Eintrag in Ihrem DNS, der auf Ihren regulären [!DNL Target] Hostnamen verweist `clientcode.tt.omtrdc.net`.
 
-   For example, if your client code is &quot;cnamecustomer&quot; and your proposed hostname is `target.example.com`, your DNS CNAME record should look something like this:
+   Wenn Ihr Client-Code z. B. &quot;cnamecustomer&quot;lautet und Ihr Hostname angegeben ist `target.example.com`, sollte Ihr DNS-CNAME-Eintrag wie folgt aussehen:
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -33,26 +34,26 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Adobe&#39;s certificate authority, DigiCert, cannot issue a certificate until this step is complete. Therefore, Adobe cannot fulfill your request for a CNAME implementation until this step is complete.
+   >* Die Zertifizierungsstelle der Adobe, DigiCert, kann erst nach Abschluss dieses Schritts ein Zertifikat ausstellen. Daher kann die Adobe Ihre Anforderung einer CNAME-Implementierung erst dann erfüllen, wenn dieser Schritt abgeschlossen ist.
 
 
-1. [Fill out this form](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) and include it when you [open an Adobe Client Care ticket requesting CNAME support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [Füllen Sie dieses Formular](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) aus und fügen Sie es ein, wenn Sie ein Adobe Client Care Ticket [öffnen, das CNAME-Support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)anfordert:
 
-   * Adobe- [!DNL Target] Client-Code:
+   * Adobe [!DNL Target] client code:
    * SSL-Zertifikat-Hostnamen (Beispiel: `target.example.com target.example.org`):
    * SSL-Zertifikatkäufer (Adobe wird dringend empfohlen, siehe FAQ): Adobe/Kunde
-   * Wenn der Kunde das Zertifikat kauft (auch BYOC genannt), füllen Sie bitte die folgenden zusätzlichen Angaben aus:
-      * Zertifikatorganisation (Beispiel: Beispiel Firma Inc):
+   * If the customer is purchasing the certificate (aka BYOC), please fill out these additional details:
+      * Certificate organization (example: Example Company Inc):
       * Organisatorische Einheit des Zertifikats (optional, Beispiel: Marketing):
       * Zertifikatland (Beispiel: US):
-      * Zertifikatstaat/-region (Beispiel: Kalifornien):
-      * Zertifikatort (Beispiel: San Jose):
+      * Certificate state/region (example: California):
+      * Certificate city (example: San Jose):
 
 1. Wenn die Adobe das Zertifikat kauft, arbeitet die Adobe mit DigiCert zusammen, um das Zertifikat auf den Produktionsservern der Adobe zu erwerben und bereitzustellen.
 
-   Wenn der Kunde das Zertifikat (BYOC) kauft, sendet Ihnen der Adobe Client Care die Zertifikatssignaturanforderung (CSR), die Sie beim Erwerb des Zertifikats über Ihre Zertifizierungsstelle verwenden müssen. Nachdem das Zertifikat ausgestellt wurde, müssen Sie eine Kopie des Zertifikats und aller Zwischenzertifikate zur Bereitstellung an Adobe Client Care zurücksenden.
+   Wenn der Kunde das Zertifikat (BYOC) kauft, sendet Ihnen der Adobe Client Care die Zertifikatssignaturanforderung (CSR), die Sie beim Erwerb des Zertifikats über Ihre Zertifizierungsstelle verwenden müssen. After the certificate is issued, you must send a copy of the certificate and any intermediate certificates back to Adobe Client Care for deployment.
 
-   Adobe Client Care benachrichtigt Sie, wenn Ihre Implementierung fertig ist.
+   Adobe Client Care will notify you when your implementation is ready.
 
 1. Nachdem Sie die vorherigen Aufgaben abgeschlossen und die Adobe Client Care Sie darauf hingewiesen haben, dass die Implementierung fertig ist, müssen Sie den CNAME in at.js aktualisieren, `serverDomain` um den neuen CNAME zu erhalten.
 
@@ -70,15 +71,15 @@ Ja, Sie können Ihr eigenes Zertifikat bereitstellen. wird jedoch nicht empfohle
 
 ### Wie lange dauert es, bis mein neues SSL-Zertifikat abläuft?
 
-Certificates issued before September 1, 2020 will be two-year certificates. Certificates issued on or after September 1, 2020 will be one-year certificates. You can read more about the move to one-year certificates [here](https://www.digicert.com/position-on-1-year-certificates).
+Zertifikate, die vor dem 1. September 2020 ausgestellt werden, sind zweijährige Zertifikate. Zertifikate, die am oder nach dem 1. September 2020 ausgestellt werden, sind einjährige Zertifikate. You can read more about the move to one-year certificates [here](https://www.digicert.com/position-on-1-year-certificates).
 
 ### What hostnames should I choose? How many hostnames per domain should I choose?
 
-[!DNL Target] CNAME implementations require only one hostname per domain on the SSL certificate and in the customer&#39;s DNS, so that&#39;s what we recommend. Some customers might require additional hostnames per domain for their own purposes (testing in staging, for example), which is supported.
+[!DNL Target] Für CNAME-Implementierungen ist nur ein Hostname pro Domäne im SSL-Zertifikat und im DNS des Kunden erforderlich. Daher empfehlen wir Ihnen Folgendes: Einige Kunden benötigen für ihre eigenen Zwecke (z. B. Testen im Staging) zusätzliche Hostnamen pro Domäne.
 
-Most customers choose a hostname like `target.example.com`, so that&#39;s what we recommend, but the choice is ultimately yours. Be sure not to request a hostname of an existing DNS record as that would cause a conflict and delay time to resolution of your [!DNL Target] CNAME request.
+Die meisten Kunden wählen einen Hostnamen wie `target.example.com`, daher empfehlen wir Ihnen, aber die Wahl liegt letztendlich bei Ihnen. Achten Sie darauf, keinen Hostnamen eines vorhandenen DNS-Datensatzes anzufordern, da dies zu Konflikten und Verzögerungen bei der Auflösung Ihrer [!DNL Target] CNAME-Anforderung führen würde.
 
-### I already have a CNAME implementation for [!DNL Adobe Analytics], can we use the same certificate or hostname?
+### Ich habe bereits eine CNAME-Implementierung für [!DNL Adobe Analytics], können wir dasselbe Zertifikat oder denselben Hostnamen verwenden?
 
 Nein, es [!DNL Target] ist ein separater Hostname und Zertifikat erforderlich.
 
@@ -102,7 +103,7 @@ Alle Zertifikate sind RSA SHA-256 und Schlüssel sind standardmäßig RSA 2048-B
 
 Verwenden Sie die folgenden Befehle (im MacOs- oder Linux-Befehlszeilenterminal mit bash und curl 7.49+):
 
-1. Fügen Sie zuerst diese Bash-Funktion in Ihr Terminal ein:
+1. First paste this bash function into your terminal:
 
    ```
    function validateEdgeFpsslSni {
@@ -113,13 +114,13 @@ Verwenden Sie die folgenden Befehle (im MacOs- oder Linux-Befehlszeilenterminal 
    }
    ```
 
-1. Fügen Sie diesen Befehl als Nächstes ein (ersetzen Sie ihn `target.example.com` durch Ihren Hostnamen):
+1. Next paste this command (replacing `target.example.com` with your hostname):
 
    ```
    validateEdgeFpsslSni target.example.com
    ```
 
-   Wenn die Implementierung fertig ist, sollten Sie die Ausgabe wie unten sehen. Wichtig ist, dass alle Zeilen angezeigt `CN=target.example.com`werden, was unserem gewünschten Hostnamen entspricht. Wenn eine davon angezeigt wird `CN=*.tt.omtrdc.net`, ist die Implementierung **nicht** bereit.
+   If the implementation is ready, you should see output like below. The important part is that all lines show `CN=target.example.com`, which matches our desired hostname. If any of them show `CN=*.tt.omtrdc.net`, the implementation is **not** ready.
 
    ```
    $ validateEdgeFpsslSni target.example.com
@@ -140,10 +141,10 @@ Verwenden Sie die folgenden Befehle (im MacOs- oder Linux-Befehlszeilenterminal 
 
    >[!NOTE]
    >
-   >Wenn dieser Befehl fehlschlägt, aber der obige `validateEdgeFpsslSni` Befehl erfolgreich ausgeführt wird, müssen Sie möglicherweise warten, bis Ihre DNS-Updates vollständig übertragen werden. DNS records have an associated [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) that dictates cache expiration time for DNS replies of those records, so you may need to wait at least as long as your TTLs. You can use the `dig target.example.com` command or [the G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) to look up your specific TTLs.
+   >Wenn dieser Befehl fehlschlägt, aber der obige `validateEdgeFpsslSni` Befehl erfolgreich ausgeführt wird, müssen Sie möglicherweise warten, bis Ihre DNS-Updates vollständig übertragen werden. DNS-Datensätze verfügen über eine zugehörige [TTL (Time-to-Live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) , die den Cache-Ablauf für DNS-Antworten dieser Datensätze vorschreibt. Daher müssen Sie möglicherweise mindestens so lange warten, wie Ihre TTLs funktionieren. Sie können den `dig target.example.com` Befehl oder [die G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) verwenden, um Ihre spezifischen TTLs nachzuschlagen.
 
 ## Bekannte Einschränkungen
 
-* QA mode will not be sticky when you have CNAME and at.js 1.x because it is based on a third-party cookie. The workaround is to add the preview parameters to each URL you navigate to. Der QS-Modus ist fixierbar, wenn Sie CNAME und at.js 2.x haben.
+* Der QS-Modus ist nicht fixierbar, wenn Sie CNAME und at.js 1.x verwenden, da er auf einem Drittanbieter-Cookie basiert. Die Lösung besteht darin, jeder URL, zu der Sie navigieren, die Parameter für die Vorschau hinzuzufügen. Der QS-Modus ist fixierbar, wenn Sie CNAME und at.js 2.x haben.
 * Currently the `overrideMboxEdgeServer` setting doesn&#39;t work properly with CNAME. Dies sollte so festgelegt werden, `false` dass keine fehlerhaften Anfragen gestellt werden.
-* Bei der Verwendung von CNAME erhöht sich die Wahrscheinlichkeit, dass die Größe des Cookie-Headers für Zielgruppen-Aufrufe zunimmt. Es wird empfohlen, die Cookie-Größe unter 8 KB zu halten.
+* Bei der Verwendung von CNAME erhöht sich die Wahrscheinlichkeit, dass die Größe des Cookie-Headers für Zielgruppen-Aufrufe zunimmt. We recommend keeping the cookie size under 8KB.
