@@ -2,9 +2,13 @@
 keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: Sie können Start-/Enddaten und -zeiten jederzeit hinzufügen, um Benutzer als Ziel festzulegen, die Ihre Seite während eines bestimmten Zeitraums besuchen. Sie können außerdem Optionen für die Wochen- und Tagesaufteilung festlegen, um wiederkehrende Muster für das Zielgruppen-Targeting zu erstellen.
 title: Zeitrahmen
+feature: null
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +53,7 @@ Verwenden Sie beispielsweise die Funktion](../../../c-target/combining-multiple-
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Schulungsvideo: Erscheinungsbild ![Zielgruppenübersicht erstellen](/help/assets/overview.png)
+## Training video: Creating Audiences ![Overview badge](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
