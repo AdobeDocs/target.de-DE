@@ -1,11 +1,12 @@
 ---
 description: Target Standard kann in Adobe Dynamic Media Classic (zuvor Scene7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek zu ermöglichen.
-title: Integration von Dynamic Media Classic Konfigurationsintegration
+title: Integration von Dynamic Media Classic configuration integration
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 29%
@@ -33,11 +34,11 @@ To integrate with [!DNL Dynamic Media Classic] ([!DNL Scene7]), you need to spec
 
 1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Scene7-Konfiguration]**.
 
-   ![Scene7-Seite](/help/administrating-target/assets/scene7.png)
+   ![Scene7 page](/help/administrating-target/assets/scene7.png)
 
 1. Specify the following [!DNL Dynamic Media Classic] account information:
 
-   **Region:** Die Region für Ihr [!DNL Dynamic Media] Konto: Nordamerika, Europa oder Asien.
+   **Region:** The region for your [!DNL Dynamic Media] account: North America, Europe, or Asia.
 
    **Adhoc-Ordner:** Der Speicherort für Inhalte, die sich außerhalb des Ordners &quot;Zielgruppe&quot;befinden und manuell hochgeladen werden [!DNL Dynamic Media].
 
