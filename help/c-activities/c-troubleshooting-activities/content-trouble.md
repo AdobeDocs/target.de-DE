@@ -1,12 +1,13 @@
 ---
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Wenn Ihre Seite nicht den erwarteten Inhalt anzeigt, können Sie einige Schritte zum Debugging von Content Versand in Adobe Target unternehmen.
-title: Fehlerbehebung beim Content Versand in Adobe Target
+title: Fehlerbehebung bei Content Versand in Adobe Target
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 66%
@@ -88,7 +89,7 @@ Ergänzen Sie zur Verwendung von mboxDebug Ihre URL um einen mboxDebug-Parameter
 
 | URL-Parameter | Zielsetzung |
 |--- |--- |
-| `mboxDebug=1` | <br>DebuggerDurch Hinzufügen dieses Parameters zu einer beliebigen URL mit definierten Zielgruppen-Anforderungen wird ein Popup-Fenster mit wertvollen Debugging-Details geöffnet. Cookie-Informationen, PCid- und Sitzungs-ID-Werte werden ausgeschrieben und alle URLs sind sichtbar. Click on a Target request URL to show the response for that [!DNL Target] request. Weitere Details finden Sie unter [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
+| `mboxDebug=1` | Debugger<br>Adding this parameter to any URL with Target requests defined opens a pop-up window with valuable debugging details. Cookie-Informationen, PCid- und Sitzungs-ID-Werte werden ausgeschrieben und alle URLs sind sichtbar. Click on a Target request URL to show the response for that [!DNL Target] request. Weitere Details finden Sie unter [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
 | `mboxDebug=x-cookie` | Ändern der Cookies |
 | `mboxDisable=1` | Deaktivieren von Mboxes auf der Seite |
 | `mboxDebug=x-profile` | Anzeigen des Profilsets. |
@@ -105,7 +106,7 @@ Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Proble
 
 Weitere Informationen finden Sie in den Schulungsvideos unten:
 
-Weitere Informationen finden Sie unter &quot; [Debuggen von at.js mit dem Adobe Experience Cloud-Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)&quot;.
+Weitere Informationen finden Sie unter [Debuggen von at.js mit dem Adobe Experience Cloud-Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Wenn target.js bei der Bereitstellung nicht geladen wird {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
