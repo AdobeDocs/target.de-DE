@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: 2fce6cd51f3d472001773d7b69eca52bcd1cf8c3
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 72%
 
 ---
 
@@ -17,17 +20,13 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 ## Melden Sie sich bei Adobe Target an und legen Sie Ihre Standardansicht fest.
 
-1. Nachdem Sie sich bei [!DNL Experience Cloud] angemeldet haben, klicken Sie auf das Anwendungssymbol in der Navigationsleiste.
+1. Melden Sie sich beim [Adobe Experience Cloud](https://experience.adobe.com/)an.
+
+1. Klicken Sie in der Navigationsleiste auf das **[!UICONTROL App-Symbol]** und dann auf **[!UICONTROL Zielgruppe]**.
+
+   You can also click the [!DNL Target] panel in the main window to access [!DNL Target] (or any other [!DNL Adobe Experience Cloud] solution you have access to).
 
    ![Anwendungssymbol](/help/c-intro/assets/appmenu-new.png)
-
-1. Klicken Sie auf das [!DNL Target]-Symbol im Anwendungsmenü.
-
-   ![Target-Symbol](/help/c-intro/assets/appmenu-target-new.png)
-
-1. Klicken Sie auf der **[!UICONTROL -Karte auf]** Starten[!DNL Target].
-
-   ![Target starten](/help/c-intro/assets/target-launch-new.png)
 
 1. (Optional) Stellen Sie ein, dass [!DNL Target] nach der Anmeldung in [!DNL Experience Cloud] als Standardansicht erscheint, indem Sie unter Ihrem Profilavatar auf **[!UICONTROL Profil bearbeiten]** klicken und anschließend Ihre bevorzugte Landingpage angeben.
 
@@ -35,13 +34,15 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 ## Standardsprache für die Target-Benutzeroberfläche ändern {#language}
 
-1. Nachdem Sie sich bei [!DNL Adobe Experience Cloud ] oder [!DNL Target] angemeldet haben, klicken Sie auf Ihren Profilavatar und klicken Sie dann auf **[!UICONTROL Profil bearbeiten]**.
+1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
 
    ![Profil bearbeiten](/help/c-intro/assets/change-language.png)
 
-1. Klicken Sie auf **[!UICONTROL Persönliche Informationen bearbeiten]**.
+1. Klicken Sie auf **[!UICONTROL Adobe-Konto]** , um auf Ihr [!DNL Adobe] Profil zuzugreifen.
 
-1. Klicken Sie in der oberen Menüleiste auf die Registerkarte **[!UICONTROL Kommunikation]**.
+   ![Adobe Account](/help/c-intro/assets/adobe-account.png)
+
+1. Klicken Sie in der oberen Menüleiste auf die Registerkarte &quot; **[!UICONTROL Benachrichtigungen]** &quot;und anschließend auf die Registerkarte &quot; **[!UICONTROL Voreinstellungen]** &quot;.
 
    ![Bevorzugte Sprachen](/help/c-intro/assets/prefered-language.png)
 
@@ -49,7 +50,7 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 1. Wählen Sie Ihre erste (primäre) Sprache aus und wählen Sie dann ggf. eine zweite Sprache aus.
 
-   Die Benutzeroberfläche von [!DNL Target] ist in den folgenden Sprachen verfügbar:
+   The [!DNL Target] UI is available in the following languages; although, notifications are available in more languages:
 
    * Englisch
    * Spanisch
@@ -68,7 +69,7 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 ## Ändern der Sprache für die Target-Produktdokumentation{#doc-lang}
 
-Ihr Betriebssystem oder Ihre Browsereinstellungen sollten Ihre bevorzugte Sprache erkennen und die Dokumentation in dieser Sprache anzeigen (falls verfügbar). Die Target-Dokumentation wird automatisch übersetzt und innerhalb von Stunden ab etwaigen Änderungen an der englischsprachigen Dokumentation synchronisiert.
+Ihr Betriebssystem oder Ihre Browsereinstellungen sollten Ihre bevorzugte Sprache erkennen und die Dokumentation in dieser Sprache anzeigen (falls verfügbar). [!DNL Target] documentation is automatically translated and will be in sync with the English version within hours of changes made to English documentation.
 
 Sie können die Sprache einfach auf die englische Version ändern, indem Sie auf den Link in der Kopfzeile der Seite klicken.
 
