@@ -2,9 +2,13 @@
 keywords: catalog;search
 description: Die Katalogsuche in Adobe Target hilft Ihnen dabei, Produkte oder Inhalte in Ihrem Katalog zu finden.
 title: Katalogsuche in Adobe Target
+feature: null
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 Die Katalogsuche hilft Ihnen dabei, Produkte oder Inhalte in Ihrem Katalog zu finden.
 
-To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  Catalog Search]**.
+To access catalog search, click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 Sie können die Suche verfeinern, indem Sie eine Suchoption aus dem Menü „Optionen“ auswählen, das eingeblendet wird, wenn Sie im Suchfeld auf den Abwärtspfeil klicken.
 
@@ -28,9 +32,9 @@ Zu den Suchoptionen zählen:
 * ID
 * Nachricht
 
-**[!UICONTROL ALLE]**durchsucht alle anderen Suchkriterien mithilfe der ODER-Logik.
+**[!UICONTROL ALLE]** durchsucht alle anderen Suchkriterien mithilfe der ODER-Logik.
 
-Klicken Sie in den Suchergebnissen auf den **[!UICONTROL Umgebungsfilter]**, um die[Umgebung der Produktions-Hostgruppe](/help/administrating-target/hosts.md)anzugeben, deren Katalog Sie anzeigen. Sie können die Elemente in den Suchergebnissen auch durchblättern, um Miniaturen und andere Produktinformationen anzuzeigen.
+Klicken Sie in den Suchergebnissen auf den **[!UICONTROL Umgebungsfilter]**, um die [Umgebung der Produktions-Hostgruppe](/help/administrating-target/hosts.md) anzugeben, deren Katalog Sie anzeigen. Sie können die Elemente in den Suchergebnissen auch durchblättern, um Miniaturen und andere Produktinformationen anzuzeigen.
 
 Die neben „Produkte“ angezeigte Nummer ist die Anzahl der Produkte, die von den insgesamt in der angegebenen Umgebung verfügbaren Produkten dem Suchbegriff entsprechen.
 
