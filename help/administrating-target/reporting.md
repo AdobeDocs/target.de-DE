@@ -1,10 +1,11 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Konfigurieren Sie den Adobe Target Visual Experience Composer (VEC), indem Sie seine allgemeinen Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
+description: Configure the Adobe Target Visual Experience Composer (VEC) by specifying its general settings, mobile viewport configuration, and CSS selectors.
 title: Berichte in Adobe Target konfigurieren
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 33%
@@ -20,7 +21,7 @@ Um auf die Konfigurationsseite des [!UICONTROL Berichte] zuzugreifen, klicken Si
 
 Auf dieser Seite können Sie die folgenden Einstellungen festlegen:
 
-* Die Adobe Experience Cloud-Lösung für Berichte
+* Adobe Experience Cloud-Lösung für den Berichte
 * Die für den Berichte zu verwendende Zeitzone
 * Die für den Berichte zu verwendende Währung
 * IP-Adressen, die vom Berichte ausgeschlossen werden
@@ -29,7 +30,7 @@ Auf dieser Seite können Sie die folgenden Einstellungen festlegen:
 
 >[!NOTE]
 >
->Beachten Sie, dass die Zeitzone, Währung und IP-Adressen zum Ausschließen von Einstellungen für Aktivitäten gelten, die [!DNL Target] Berichte verwenden. Diese Einstellungen gelten nicht für Aktivitäten, die [Analytics für die Zielgruppe (A4T)] als Quelle des Berichte (/help/c-integrating-target-with-mac/a4t/a4t.md) verwenden.
+>Beachten Sie, dass die Zeitzone, Währung und IP-Adressen zum Ausschließen von Einstellungen für Aktivitäten gelten, die [!DNL Target] Berichte verwenden. Diese Einstellungen gelten nicht für Aktivitäten, die [Analytics für die Zielgruppe (A4T)] als Berichte-Quelle verwenden (/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 ![Berichte](/help/administrating-target/assets/reporting.png)
 
@@ -44,7 +45,7 @@ Beachten Sie bei der Auswahl der Berichtsquelle folgende Informationen:
 * Wenn die Berichtsquelle hier auf **[!DNL Target]** festgelegt ist, dürfen Sie Aktivitäten, die als Berichtsquelle verwenden, nicht aktivieren. [!DNL Analytics] You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
 * If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to[!DNL Analytics]in your activity or change the reporting engine to**[!UICONTROL Select per activity ]**in**[!UICONTROL Administration]>[!UICONTROL Reporting ]**.
 * If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
-* [!UICONTROL Die Erstellung, Aktivierung und Deaktivierung der automatisierten Personalisierung] (AP)-Aktivität ist unabhängig von der ausgewählten Berichte-Quelle zulässig. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* [!UICONTROL Automated Personalization] (AP) activity creation, activation, and deactivation are allowed irrespective of the reporting source selected. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
 
 ## Zeitzone für Berichte
 
@@ -56,13 +57,13 @@ Geben Sie die Währung für den Berichte an.
 
 ## IPs, die von den Daten des Berichte der Zielgruppe ausgeschlossen werden sollen
 
-Geben Sie alle IP-Adressen an, die von den Daten des Berichte ausgeschlossen werden sollen. So können Sie z. B. durch das Ausschließen von Adressen interner Firmen sicherstellen, dass Ihre Berichte-Daten die Interaktionen Ihrer Kunden auf Ihrer Website widerspiegeln.
+Specify any IP addresses that you want to exclude from reporting data. For example, excluding internal company addresses is a good way to ensure that your reporting data reflects customer interactions on your website.
 
-Geben Sie jede IP-Adresse in eine neue Zeile ein.
+Enter each IP address on a new line.
 
 ## Geschätzte Umsatzsteigerung anzeigen
 
-Sie können die geschätzte Umsatzsteigerung anzeigen, wenn Sie einen Geldwert für Ihr Ziel eingeben. [!DNL Target] kann die Umsatzsteigerung schätzen, die Sie erzielen könnten, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden. Die Funktion zur Schätzung der Steigerung ist standardmäßig deaktiviert.
+You can choose to show the estimated lift in revenue if you enter a monetary value for your goal. [!DNL Target] kann die Umsatzsteigerung schätzen, die Sie erzielen könnten, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden. Die Funktion zur Schätzung der Steigerung ist standardmäßig deaktiviert.
 
 Only [!DNL Experience Cloud] Admin users can enable or disable this feature. Wenn die Schätzung der Steigerung deaktiviert ist, werden die entsprechenden Felder nicht auf der Benutzeroberfläche angezeigt. Durch die Deaktivierung der Funktion gehen keine Daten verloren, auch nicht die Daten, die für Ihre Schätzungen verwendet werden. Die Schätzungen basieren auf den erfassten Daten, unabhängig davon, ob die Funktion aktiviert ist oder nicht.
 
