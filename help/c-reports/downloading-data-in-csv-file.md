@@ -1,12 +1,16 @@
 ---
 keywords: reports;download reports;csv;success metrics;order details
-description: Laden Sie Daten im .csv-Format herunter, um sie schnell in Excel, Access oder andere Programm zur Analyse von Daten mit Adobe Zielgruppe zu importieren.
-title: Herunterladen von Daten in einer CSV-Datei mit Adobe Zielgruppe
+description: Laden Sie Daten im .csv-Format herunter, um sie schnell in Excel, Access oder andere Programm zur Analyse von Daten mit Adobe Target zu importieren.
+title: Herunterladen von Daten in einer CSV-Datei mit Adobe Target
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +30,7 @@ So laden Sie Daten als CSV-Datei herunter:
 
    * [!UICONTROL Berichte in CSV exportieren]
    * [!UICONTROL Bestelldetails als CSV exportieren]
+
    ![Download-Optionen](/help/c-reports/assets/download-options.png)
 
 ## Exportieren von Berichten in das CSV-Format {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -82,7 +87,7 @@ Der Bericht &quot;Bestelldetails&quot;enthält Informationen zu Ihren Bestellung
 
 Die folgenden Informationen gelten für den Download:
 
-* Sie können Berichte für A/B-Tests, automatisierte Personalisierung, Erlebnis-Targeting und Multivarianz-Aktivitäten herunterladen. Sie können jedoch keinen Erfolgsmetrikenbericht für Recommendations-Aktivitäten herunterladen.
+* Sie können Berichte für A/B-Tests, Automated Personalization-, Erlebnis-Targeting- und Multivarianz-Aktivitäten herunterladen. Sie können jedoch keinen Erfolgsmetrikenbericht für Recommendations-Aktivitäten herunterladen.
 * Die Option zum Herunterladen steht nicht für A/B- und Erlebniszielaktivitäten zur Verfügung, die vor der Target-Version 15.7.1 (Juli 2015) erstellt wurden.
 * Erlebnisse ohne verknüpfte Daten werden im heruntergeladenen Bericht nicht erfasst.
 * In der Reporting-Benutzeroberfläche von Target angewendete Zielgruppen werden nicht in den Download-Bericht übertragen.
