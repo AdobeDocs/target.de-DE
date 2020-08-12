@@ -2,10 +2,11 @@
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
 description: Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen in einem Content-Management- oder einem anderen System befinden.
 title: Remote-Angebote erstellen
+feature: null
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 92%
