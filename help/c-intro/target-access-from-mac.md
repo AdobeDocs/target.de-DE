@@ -2,11 +2,12 @@
 keywords: Experience Cloud;sign in;language;default ui language;default language
 description: Anweisungen zum Zugriff auf Adobe Target über Adobe Experience Cloud.
 title: Zugriff auf Target über Adobe Experience Cloud
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 0443d55739001d4ecce178d11338057865982c7c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 72%
@@ -24,7 +25,7 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 1. Klicken Sie in der Navigationsleiste auf das **[!UICONTROL App-Symbol]** und dann auf **[!UICONTROL Zielgruppe]**.
 
-   You can also click the [!DNL Target] panel in the main window to access [!DNL Target] (or any other [!DNL Adobe Experience Cloud] solution you have access to).
+   Sie können auch auf das [!DNL Target] Bedienfeld im Hauptfenster klicken, um auf [!DNL Target] (oder eine andere [!DNL Adobe Experience Cloud] Lösung, auf die Sie Zugriff haben) zuzugreifen.
 
    ![Anwendungssymbol](/help/c-intro/assets/appmenu-new.png)
 
@@ -40,9 +41,9 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 1. Klicken Sie auf **[!UICONTROL Adobe-Konto]** , um auf Ihr [!DNL Adobe] Profil zuzugreifen.
 
-   ![Adobe Account](/help/c-intro/assets/adobe-account.png)
+   ![Adoben-Konto](/help/c-intro/assets/adobe-account.png)
 
-1. Click the **[!UICONTROL Notifications]** tab in the top menu bar, then click the **[!UICONTROL Preferences]** tab on the left side.
+1. Klicken Sie in der oberen Menüleiste auf die Registerkarte &quot; **[!UICONTROL Benachrichtigungen]** &quot;und anschließend auf die Registerkarte &quot; **[!UICONTROL Voreinstellungen]** &quot;.
 
    ![Bevorzugte Sprachen](/help/c-intro/assets/prefered-language.png)
 
@@ -50,7 +51,7 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 1. Wählen Sie Ihre erste (primäre) Sprache aus und wählen Sie dann ggf. eine zweite Sprache aus.
 
-   The [!DNL Target] UI is available in the following languages; although, notifications are available in more languages:
+   Die [!DNL Target] Benutzeroberfläche ist in den folgenden Sprachen verfügbar: Die Benachrichtigungen sind jedoch in mehr Sprachen verfügbar:
 
    * Englisch
    * Spanisch
@@ -69,7 +70,7 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 ## Ändern der Sprache für die Target-Produktdokumentation{#doc-lang}
 
-Ihr Betriebssystem oder Ihre Browsereinstellungen sollten Ihre bevorzugte Sprache erkennen und die Dokumentation in dieser Sprache anzeigen (falls verfügbar). [!DNL Target] Dokumentation wird automatisch übersetzt und wird mit der englischen Version innerhalb von Stunden nach Änderungen an der englischen Dokumentation synchronisiert.
+Ihr Betriebssystem oder Ihre Browsereinstellungen sollten Ihre bevorzugte Sprache erkennen und die Dokumentation in dieser Sprache anzeigen (falls verfügbar). [!DNL Target] documentation is automatically translated and will be in sync with the English version within hours of changes made to English documentation.
 
 Sie können die Sprache einfach auf die englische Version ändern, indem Sie auf den Link in der Kopfzeile der Seite klicken.
 
