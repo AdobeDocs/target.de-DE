@@ -2,10 +2,11 @@
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
 description: Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 title: Einführung in Adobe Target
+feature: null
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 45bd128a01dcb8d4d8d330d8ed4a4df04b98a612
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 86%
@@ -29,7 +30,7 @@ In [!DNL Target Standard] sind die Best Practices der Branche integriert und Sta
 
 [!DNL Target Premium] ist eine erweiterte [!DNL Target]-Lizenz, die [!DNL Target Standard] durch Premium-Funktionen ergänzt.
 
-[!DNL Target Premium] Themen in dieser Hilfe umfassen das Premium-Abzeichen oben auf der Seite:
+[!DNL Target Premium] topics in this help include the Premium badge at the top of the page:
 
 ![Premium-Zeichen](/help/assets/premium.png)
 
