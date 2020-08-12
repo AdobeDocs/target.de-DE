@@ -1,10 +1,11 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Kriterien in Adobe Target Recommendations sind Regeln, die festlegen, welche Produkte basierend auf einem vordefinierten Satz von Besuchern empfohlen werden sollen.
-title: Kriterien in Adobe Target-Empfehlungen
+description: Kriterien in Adobe Target Recommendations sind Regeln, die festlegen, welche Produkte basierend auf einem vordefinierten Besucher-Verhalten empfohlen werden.
+title: Kriterien in Adobe Target Recommendations
+feature: null
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -86,7 +87,7 @@ Nehmen wir beispielsweise an, Sie möchten die Artikel mit den besten Verkäufen
 | Topverkäufe | Die Artikel, die in den meisten abgeschlossenen Bestellungen enthalten sind Wenn derselbe Artikel in einer Bestellung mehrmals bestellt wurde, zählt dies als eine Bestellung. |
 | Am häufigsten angezeigt | Die am häufigsten angezeigten Artikel oder Medien |
 | Kürzlich angesehene Artikel/Medien | Artikel, die vom Besucher kürzlich angesehen wurden Wenn Sie dieses Kriterium verwenden, sollten Sie den Target-Entwurf aktualisieren, damit keine leeren Empfehlungen angezeigt werden, wenn vor Kurzem aufgerufene Artikel nicht in ausreichender Zahl für die Anzeige zur Verfügung stehen. |
-| Benutzerbasierte Empfehlungen | Empfiehlt Artikel basierend auf dem Browsen, Anzeigen und Kaufverlauf jedes Besuchers. Diese Elemente werden allgemein als &quot;Empfohlen für Sie&quot;bezeichnet.<br>Mithilfe dieser Kriterien können Sie personalisierte Inhalte und Erlebnisse sowohl für neue als auch für wiederkehrende Besucher bereitstellen. Die Liste der Empfehlungen wird mit der neuesten Aktivität des Besuchers gewichtet und während der Sitzung aktualisiert und personalisiert, während der Benutzer Ihre Site besucht.<br>Sowohl Ansichten als auch Einkäufe werden zur Bestimmung der empfohlenen Artikel verwendet. Der angegebene Empfehlungsschlüssel (z. B. &quot;Aktuelles Element&quot;) wird verwendet, um die von Ihnen gewählten Einschlussregel-Filter anzuwenden. Sie können zum Beispiel:<ul><li>Ausschließen von Artikeln, die bestimmte Kriterien nicht erfüllen (Produkte nicht vorrätig, Artikel, die vor mehr als 30 Tagen veröffentlicht wurden, Filme mit Rating R usw.)</li><li>Eingeschränkte Elemente auf eine einzige Kategorie oder auf die aktuelle Kategorie beschränken</li></ul> |
+| Benutzerbasiertes Recommendations | Empfiehlt Artikel basierend auf dem Browsen, Anzeigen und Kaufverlauf jedes Besuchers. Diese Elemente werden allgemein als &quot;Empfohlen für Sie&quot;bezeichnet.<br>Mithilfe dieser Kriterien können Sie personalisierte Inhalte und Erlebnisse sowohl für neue als auch für wiederkehrende Besucher bereitstellen. Die Liste der Empfehlungen wird mit der neuesten Aktivität des Besuchers gewichtet und während der Sitzung aktualisiert und personalisiert, während der Benutzer Ihre Site besucht.<br>Both views and purchases are used to determine the recommended items. The specified Recommendation Key (e.g. Current Item) is used to apply any inclusion rule filters you select. Sie können zum Beispiel:<ul><li>Exclude items that don&#39;t meet certain criteria (products out of stock, articles published more than 30 days ago, movies rated R, and so forth)</li><li>Limit included items to a single category or to the current category</li></ul> |
 
 >[!NOTE]
 >
@@ -108,7 +109,7 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusinformationen]**, um 
 
 Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusnutzung]**, um eine Liste der Aktivitäten anzuzeigen, die das ausgewählte Kriterium verwenden. Die Karte führt aktive und inaktive Aktivitäten auf. Klicken Sie auf die Dropdownliste „Live-Aktivitäten“ oder „Inaktivitäten“, um die gesamte Liste von Aktivitäten anzuzeigen, die das Kriterium verwenden. Sie können auf einen Aktivitätslink klicken, um die Aktivität zur Bearbeitung zu öffnen.
 
-![Registerkarte &quot;Algorithmusverwendung&quot;](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![Algorithm Usage tab](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
