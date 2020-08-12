@@ -2,10 +2,11 @@
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: Informationen zur Verwendung von Adobe Target at.js 2.x zur Implementierung von Einzelseiten-Apps (SPAs).
 title: Implementierung einer Einzelseitenanwendung in Adobe Target
+feature: null
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 74%
@@ -285,33 +286,33 @@ Die folgenden Informationen beschreiben die Reihenfolge der Vorgänge, die beim 
 | --- | --- | --- |
 | 1 | Laden von VisitorAPI-JS | Diese Bibliothek ist für die Zuweisung einer ECID zum Besucher zuständig. Diese ID wird später von anderen [!DNL Adobe] Lösungen auf der Webseite verwendet. |
 | 2 | at.js 2.x laden | at.js 2.x lädt alle erforderlichen APIs, die Sie zur Implementierung von [!DNL Target] Anforderungen und Ansichten verwenden. |
-| 3 | Anfrage [!DNL Target] ausführen | Wenn Sie über eine Datenschicht verfügen, sollten Sie kritische Daten laden, die gesendet werden müssen, [!DNL Target] bevor eine [!DNL Target] Anforderung ausgeführt wird. Auf diese Weise können Sie alle Daten `targetPageParams` senden, die Sie für das Targeting verwenden möchten. Sie müssen sicherstellen, dass Sie in diesem API-Aufruf die Anforderung &quot;execute&quot;> &quot;pageLoad&quot;sowie &quot;prefetch&quot;> &quot;Ansichten&quot;anfordern. Wenn Sie die Ansichten festgelegt haben `pageLoadEnabled` und `viewsEnabled`ausführen > pageLoad und prefetch > automatisch mit Schritt 2 ausgeführt werden; Andernfalls müssen Sie die `getOffers()` API verwenden, um diese Anforderung zu stellen. |
+| 3 | Anfrage [!DNL Target] ausführen | Wenn Sie über eine Datenschicht verfügen, sollten Sie kritische Daten laden, die gesendet werden müssen, [!DNL Target] bevor eine [!DNL Target] Anforderung ausgeführt wird. Auf diese Weise können Sie alle Daten `targetPageParams` senden, die Sie für das Targeting verwenden möchten. You must ensure that you request for execute > pageLoad as well as prefetch > views in this API call. Wenn Sie die Ansichten festgelegt haben `pageLoadEnabled` und `viewsEnabled`ausführen > pageLoad und prefetch > automatisch mit Schritt 2 ausgeführt werden; Andernfalls müssen Sie die `getOffers()` API verwenden, um diese Anforderung zu stellen. |
 | 4 | Aufruf `triggerView()` | Da die [!DNL Target] Anforderung, die Sie in Schritt 3 initiiert haben, sowohl Erlebnisse für die Ausführung von &quot;Seitenladevorgang&quot;als auch für Ansichten zurückgeben kann, stellen Sie sicher, dass `triggerView()` der Aufruf nach Rückgabe der [!DNL Target] Anforderung erfolgt, und wenden Sie die Angebot auf den Cache an. Sie müssen diesen Schritt nur einmal pro Ansicht ausführen. |
 | 5 | Rufen Sie den Beacon für die [!DNL Analytics] Ansicht auf | Dieser Beacon sendet die mit den Schritten 3 und 4 verknüpfte SDID [!DNL Analytics] zur Datenzuordnung an. |
-| 6 | Aufruf zusätzlich `triggerView({"page": false})` | Dies ist ein optionaler Schritt für SPA-Frameworks, die bestimmte Komponenten auf der Seite potenziell wiedergeben können, ohne dass eine Änderung der Ansicht stattfindet. In solchen Fällen ist es wichtig, dass Sie diese API aufrufen, um sicherzustellen, dass [!DNL Target] Erlebnisse erneut angewendet werden, nachdem das SPA-Framework die Komponenten erneut gerendert hat. Sie können diesen Schritt so oft ausführen, wie Sie möchten, um sicherzustellen, dass [!DNL Target] Erlebnisse in Ihren SPA-Ansichten bestehen bleiben. |
+| 6 | Aufruf zusätzlich `triggerView({"page": false})` | Dies ist ein optionaler Schritt für SPA-Frameworks, die bestimmte Komponenten auf der Seite potenziell wiedergeben können, ohne dass eine Änderung der Ansicht stattfindet. In solchen Fällen ist es wichtig, dass Sie diese API aufrufen, um sicherzustellen, dass [!DNL Target] Erlebnisse erneut angewendet werden, nachdem das SPA-Framework die Komponenten erneut gerendert hat. You can execute this step as many times as you want to ensure that [!DNL Target] experiences persist in your SPA views. |
 
 ### Reihenfolge der Vorgänge für die Änderung der SPA-Ansicht (kein vollständiges Neuladen der Seite)
 
 | Schritt | Aktion | Details |
 | --- | --- | --- |
-| 1 | Aufruf `visitor.resetState()` | Diese API stellt sicher, dass die SDID beim Laden für die neue Ansicht neu generiert wird. |
-| 2 | Cache aktualisieren durch Aufruf der `getOffers()` API | Dies ist ein optionaler Schritt, der durchgeführt werden kann, wenn diese Änderung der Ansicht das Potenzial hat, den aktuellen Besucher für weitere [!DNL Target] Aktivitäten zu qualifizieren oder sie von Aktivitäten zu deaktivieren. An dieser Stelle können Sie auch zusätzliche Daten senden, an die Sie weitere Targeting-Funktionen [!DNL Target] aktivieren möchten. |
-| 3 | Aufruf `triggerView()` | Wenn Sie Schritt 2 ausgeführt haben, müssen Sie auf die [!DNL Target] Anforderung warten und die Angebot auf den Cache anwenden, bevor Sie diesen Schritt ausführen. Sie müssen diesen Schritt nur einmal pro Ansicht ausführen. |
+| 1 | Aufruf `visitor.resetState()` | This API ensures that the SDID is re-generated for the new view as it loads. |
+| 2 | Update cache by calling the `getOffers()` API | Dies ist ein optionaler Schritt, der durchgeführt werden kann, wenn diese Änderung der Ansicht das Potenzial hat, den aktuellen Besucher für weitere [!DNL Target] Aktivitäten zu qualifizieren oder sie von Aktivitäten zu deaktivieren. An dieser Stelle können Sie auch zusätzliche Daten senden, an die Sie weitere Targeting-Funktionen [!DNL Target] aktivieren möchten. |
+| 3 | Aufruf `triggerView()` | If you have executed Step 2, then you must wait for the [!DNL Target] request and apply the offers to cache before execute this step. You must execute this step only once per view. |
 | 4 | Aufruf `triggerView()` | Wenn Sie Schritt 2 nicht ausgeführt haben, können Sie diesen Schritt ausführen, sobald Sie Schritt 1 abgeschlossen haben. Wenn Sie Schritt 2 und Schritt 3 ausgeführt haben, sollten Sie diesen Schritt überspringen. Sie müssen diesen Schritt nur einmal pro Ansicht ausführen. |
 | 5 | Rufen Sie den Beacon für die [!DNL Analytics] Ansicht auf | Dieser Beacon sendet die mit Schritt 2, 3 und 4 verknüpfte SDID [!DNL Analytics] zur Datenzuordnung an. |
-| 6 | Aufruf zusätzlich `triggerView({"page": false})` | Dies ist ein optionaler Schritt für SPA-Frameworks, die bestimmte Komponenten auf der Seite potenziell wiedergeben können, ohne dass eine Änderung der Ansicht stattfindet. In solchen Fällen ist es wichtig, dass Sie diese API aufrufen, um sicherzustellen, dass [!DNL Target] Erlebnisse erneut angewendet werden, nachdem das SPA-Framework die Komponenten erneut gerendert hat. Sie können diesen Schritt so oft ausführen, wie Sie möchten, um sicherzustellen, dass [!DNL Target] Erlebnisse in Ihren SPA-Ansichten bestehen bleiben. |
+| 6 | Aufruf zusätzlich `triggerView({"page": false})` | This is an optional step for SPA frameworks that could potentially re-render certain components on the page without a view change happening. On such occasions, it is important that you invoke this API to ensure that [!DNL Target] experiences are re-applied after the SPA framework has re-rendered the components. You can execute this step as many times as you want to ensure that [!DNL Target] experiences persist in your SPA views. |
 
 ## Schulungsvideos
 
 Weitere Informationen dazu finden Sie in den folgenden Videos:
 
-### Funktionsweise von at.js 2.x ![Übersichtskennzeichnung](/help/assets/overview.png)
+### Funktionsweise von at.js 2.x ![Overview badge](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Weitere Informationen finden Sie unter [Die Funktionsweise](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) von at.js 2.x.
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
 
-### &quot;at.js 2.x&quot;in ein SPA- ![Tutorial-Abzeichen implementieren](/help/assets/tutorial.png)
+### Implement at.js 2.x in a SPA ![Tutorial badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
