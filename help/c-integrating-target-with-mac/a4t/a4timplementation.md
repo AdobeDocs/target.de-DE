@@ -2,9 +2,10 @@
 keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
 description: Zur Implementierung von Adobe Analytics als Berichterstellungsquelle für Target (A4T) sind einige Schritte erforderlich.
 title: Implementieren von Analytics for Target
+feature: null
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 56%
@@ -38,9 +39,9 @@ See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.co
 
 Sie müssen die erforderliche Version von appMeasurement.js implementieren oder migrieren. Weitere Informationen finden Sie in den „Implementierungsanforderungen“ unter [Vor der Implementierung](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Informationen zu neuen Implementierungen finden Sie unter Übersicht über die [JavaScript-Implementierung](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) im *Analytics Implementierungshandbuch*.
+Informationen zu neuen Implementierungen finden Sie unter Übersicht über die [JavaScript-Implementierung](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) im *Analytics-Implementierungshandbuch*.
 
-Eine Migration finden Sie unter [Migration zu AppMeasurement für JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) im *Analytics Implementierungshandbuch*.
+Eine Migration finden Sie unter [Migration zu AppMeasurement für JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) im *Analytics-Implementierungshandbuch*.
 
 ## Schritt 5: Herunterladen und Aktualisieren von at.js oder mbox.js
 
@@ -97,7 +98,7 @@ This set up has a global effect, which means that every call made by at.js will 
 }
 ```
 
-Die Nutzlast kann dann über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)an Analytics weitergeleitet werden.
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 Wenn statt einer globalen Einstellung ein situationsbezogener Ansatz gewünscht wird, können Sie die Funktion at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)verwenden, um dies durch Übergabe von,**analyticsLogging: &quot;client_side&quot;** zu erreichen. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
@@ -155,7 +156,7 @@ Die Antwort sieht wie folgt aus:
 }
 ```
 
-Die Nutzlast kann dann [!DNL Analytics] über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)an weitergeleitet werden.
+The payload can then be forwarded to [!DNL Analytics] via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Schritt 8: Validieren der Implementierung {#step8}
 
