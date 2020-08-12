@@ -1,11 +1,15 @@
 ---
-keywords: Optionen in Visual Experience Composer;Optionen in Experience Composer;Erlebnisoptionen;Text bearbeiten;HTML bearbeiten;Text/HTML bearbeiten;Hintergrundfarbe bearbeiten;Hintergrundfarbe;Element einfügen;Link bearbeiten;Link;Link für Visual Experience Composer;CSS-Klasse bearbeiten;CSS-Klasse;Angebot austauschen;Austausch von Angeboten;Austausch;Bild tauschen;Bildaustausch;Element entfernen;Entfernung von Elementen;Element ausblenden;Ausblendung von Elementen;neu anordnen;Element verschieben;Verschiebung von Elementen;Größe ändern;Größe anpassen;Element;Auswahl erweitern;zu diesem Link navigieren;zu Link navigieren;Linknavigation;navigieren;Link;rückgängig machen;wiederholen;rückgängig/wiederholen
+keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: Wenn Sie im Adobe Target Visual Experience Composer (VEC) auf ein Seitenelement klicken, werden in einem Menü die für diesen Elementtyp verfügbaren Optionen angezeigt.
 title: Adobe Target Visual Experience Composer (VEC) - Optionen
+feature: null
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -55,7 +59,7 @@ Verwenden Sie den Farbwähler, um eine Hintergrundfarbe auszuwählen oder zu kon
 
 Verwenden Sie das Bedienfeld [!UICONTROL Stile], um den Wert vorhandener Stile für das ausgewählte Element anzuzeigen oder zu bearbeiten. Sie können auch zusätzliche Formatierungen hinzufügen.
 
-Um auf das Bedienfeld [!UICONTROL Stile] zuzugreifen, klicken Sie innerhalb des VEC auf ein Seitenelement und dann auf **[!UICONTROL Bearbeiten]** &gt; **[!UICONTROL Stile]**.
+To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
 
 Das Bedienfeld [!UICONTROL Stile] wird rechts im VEC angezeigt. Das Bedienfeld enthält eine Liste der Stile, mit denen Sie das ausgewählte Element bearbeiten oder die Sie zum ausgewählten Element hinzufügen können. Mit einem Echtzeit-CSS-Editor können Sie Änderungen anzeigen und Stile hinzufügen, wenn Sie mit Cascading Style Sheets (CSS) gut vertraut sind oder Code von Ihrem Entwickler erhalten.
 
@@ -109,6 +113,7 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    * Auto
    * Wert (ziehen Sie den Regler, um den Rand festzulegen, oder legen Sie die Anzahl der Pixel für jeden Rand fest)
+
    Für den Rand werden positive und negative Werte unterstützt.
 
    Target unterstützt auch andere Größeneinheiten wie rem, pc, em usw. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
@@ -132,13 +137,14 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
    * Rahmenstil (keiner, ausgeblendet, gepunktet, gestrichelt, solide oder doppelt)
    * Rahmenfarbe (geben Sie den Farbcode an oder verwenden Sie den Farbwähler)
    * Rahmendicke (ziehen Sie den Regler, um eine Rahmendicke auszuwählen, oder legen Sie die Dicke in Pixeln fest)
+
    Rahmendicken von 0 aufwärts werden unterstützt.
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Position**
 
-   Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Klicken Sie auf die Dropdownliste [!UICONTROL Statisch], um aus den folgenden Positionsoptionen auszuwählen:
 
@@ -147,10 +153,12 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
    * Absolut
    * Stickiness
    * Fest
+
    Klicken Sie auf das Dropdownsymbol für jede Position, um unter den folgenden Optionen auszuwählen:
 
    * Auto
    * Wert (ziehen Sie den Schieberegler, um das Element zu positionieren, oder geben Sie die Anzahl der Pixel an, um die Sie das Element verschieben möchten)
+
    Für die Position werden positive und negative Werte unterstützt.
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
