@@ -1,11 +1,15 @@
 ---
-keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; überhöht; Besuch; Besucher; partieller Treffer; verwaist; Waise; partielle Treffer
+keywords: faq;frequently asked questions;analytics for target;a4T;inflated;visit;visitor;partial hit;orphaned;orphan;partial-hit
 description: Dieses Thema enthält Antworten auf häufig zu überhöhten Besuchs- und Besucherzahlen bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 title: Überhöhte Besuchs- und Besucherzahlen – Häufig gestellte Fragen zu A4T
+feature: null
 topic: Standard
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '639'
+ht-degree: 100%
 
 ---
 
