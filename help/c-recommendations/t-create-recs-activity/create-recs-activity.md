@@ -2,9 +2,13 @@
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendations-Aktivität direkt auf einer für Target aktivierten Seite erstellen und Teile der Seite in Target verändern.
 title: Erstellen einer Recommendations-Aktivität
+feature: null
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1150'
+ht-degree: 94%
 
 ---
 
@@ -61,6 +65,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
    * Suchergebnisseite
    * Danksagungsseite
    * Sonstige
+
    ![Optionen zur Auswahl des Seitentyps](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
 1. [Wählen Sie mindestens ein Kriterium aus](/help/c-recommendations/c-algorithms/algorithms.md).
@@ -165,6 +170,6 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    Kollisionen von Aktivitäten treten auf, wenn mehrere Aktivitäten Inhalte auf derselben Seite bereitstellen sollen. Dies kann zur Darstellung unerwarteter Inhalte führen.
 
-## Schulungsvideo: Erstellen einer Recommendations-Aktivität (7:15) Abzeichen ![für Übungen](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen einer Recommendations-Aktivität (7:15) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
