@@ -1,9 +1,13 @@
 ---
-keywords: Empfehlungen;Einführung;Webinar;Demo
+keywords: Recommendations;intro;introduction;webinar;demo
 description: Einführung in Adobe Target Recommendations-Aktivitäten, die automatisch Produkte oder Inhalte anzeigen, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten. Recommendations helfen, Kunden zu relevanten Elementen zu führen, von denen sie andernfalls möglicherweise nichts gewusst hätten.
 title: Einführung in Recommendations-Aktivitäten in Adobe Target
+feature: null
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2129'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +41,7 @@ Marketingexperten verwenden [!DNL Adobe Target], um personalisierte Erlebnisse f
 * **Gaming**: Gaming-Unternehmen verwenden [!DNL Target], um Benutzern auf ihren Konsolen Spiele und Inhalte zu empfehlen.
 * **B2B-Verkäufe**: [B2B-Unternehmen verwenden Target, um B2B-Pospects Videos, White Papers und Blog-Posts zu empfehlen, Downloads bereitzustellen und Bestandskunden Hilfe anzubieten](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
-* **Fahrt**: [Ein deutscher Reisebucher verwendet Target, um Hotels und mehr Reisenden](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)zu empfehlen.
+* **Fahrt**: [Ein deutscher Reiseveranstalter verwendet Zielgruppe, um Hotels und mehr Reisenden](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)zu empfehlen.
 
 * **Einzelhandel**: [Ein führender BB-Händler verwendet Target, um wiederkehrenden Besuchern im Browser und in seiner mobilen App die besten Kategorien und Produkte zu empfehlen](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2.
 
