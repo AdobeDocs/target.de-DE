@@ -1,12 +1,16 @@
 ---
-keywords: Übersicht und Referenz
+keywords: Overview and Reference
 description: Standardmäßig werden Besucherprofile 14 Tage lang gespeichert. Diese Profillebensdauer kann verlängert werden.
 title: Lebensdauer des Besucherprofils
-subtopic: Erste Schritte
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 100%
 
 ---
 
