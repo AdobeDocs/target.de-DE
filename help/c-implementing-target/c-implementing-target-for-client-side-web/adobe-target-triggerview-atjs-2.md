@@ -1,11 +1,15 @@
 ---
-keywords: adobe.target.triggerview;Triggerview;triggerview;trigger-Ansicht;at.js;Funktionen;funktion;Viewname;viewname;Anzeigename
+keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;functions;function;viewName;viewname;view name
 description: Informationen zur Funktion adobe.target.triggerView (viewName, options) für die JavaScript-Bibliothek von Adobe Target at.js.
 title: Informationen zur Funktion adobe.target.triggerView (viewName, options) für die JavaScript-Bibliothek von Adobe Target at.js.
-subtopic: Erste Schritte
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +26,7 @@ Diese Funktion kann immer aufgerufen werden, wenn eine neue Seite geladen wird o
 | --- | --- | --- | --- |
 | viewName | Zeichenfolge | Ja | Geben Sie eine beliebige Zeichenfolge als Namen für Ihre Ansicht an. Der Name dieser Ansicht wird im Bedienfeld [!UICONTROL Änderungen] von VEC angezeigt, sodass Marketing-Experten Aktionen erstellen und ihre A/B- und XT-Aktivitäten ausführen können. |
 | options | Objekt | Nein |  |
-| Optionen &gt; Seite | Boolesch | Nein | **TRUE:** Der Standardwert der Seite ist „wahr“. Bei page=true werden Benachrichtigungen zum Erhöhen der Impressions-Anzahl an das [!DNL Target]-Backend gesendet.<br>Wenn der Ansicht kein Aktivitätserlebnis und keine Aktivitätsmetrik zugeordnet sind, wird keine Benachrichtigung gesendet.<br>**FALSE:** Bei page=false werden keine Benachrichtigungen zum Erhöhen der Impressions-Anzahl gesendet. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
+| Optionen > Seite | Boolesch | Nein | **TRUE:** Der Standardwert der Seite ist „wahr“. Bei page=true werden Benachrichtigungen zum Erhöhen der Impressions-Anzahl an das [!DNL Target]-Backend gesendet.<br>Wenn der Ansicht kein Aktivitätserlebnis und keine Aktivitätsmetrik zugeordnet sind, wird keine Benachrichtigung gesendet.<br>**FALSE:**Bei page=false werden keine Benachrichtigungen zum Erhöhen der Impressions-Anzahl gesendet. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
 
 ## Beispiel: True
 
