@@ -1,10 +1,14 @@
 ---
 description: Da ein Multivariater Test mehrere Erlebnisse vergleicht, ist es wichtig zu wissen, wie hoch der erforderliche Traffic ist, um aussagekräftige Ergebnisse zu erzielen. Die Traffic-Schätzung verwendet Statistiken über Ihre Seite und die Anzahl der getesteten Erlebnisse, um das Traffic-Aufkommen und die erforderliche Testdauer für einen erfolgreichen Test zu schätzen.
 title: Schätzen des für einen erfolgreichen Test erforderlichen Traffics
+feature: null
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 100%
 
 ---
 
@@ -41,6 +45,7 @@ Die Traffic-Schätzung liefert auch Feedback, aus dem Sie erfahren, ob Sie über
    * [!UICONTROL Typische Konversionsrate]: Die Konversionsrate wird als Prozentsatz ausgedrückt und basiert auf Ihrer Schätzung oder auf historischen Daten aus Ihrem Analysesystem
    * [!UICONTROL Geschätzte Besucher pro Tag]: Dies ist die Anzahl der Besucher, die diese Seite basierend auf den Targeting-Kriterien wahrscheinlich ansehen werden. Dies kann auf Ihren Analytics-Daten basieren.
    * [!UICONTROL Testdauer]: Die Anzahl der Tage, während derer die Aktivität ausgeführt werden soll.
+
    Die Traffic-Schätzung verwendet diese Statistik, um zu ermitteln, welche Anpassungen erforderlich sind, um einen erfolgreichen Test auszuführen.
 
    Im oberen Bereich der Traffic-Schätzung werden die von ihnen eingegebenen Werte berechnet und die Ergebnisse werden angezeigt.
@@ -53,6 +58,7 @@ Die Traffic-Schätzung liefert auch Feedback, aus dem Sie erfahren, ob Sie über
 
    * Reduzieren Sie die Anzahl der Angebotskombinationen sowie die Anzahl der Orte.
    * Verlängern der Testdauer.
+
    Passen Sie die Zahlen so lange an, bis die Traffic-Schätzung Ihnen mitteilt, dass Sie über ausreichend Traffic verfügen. Dann können Sie Ihren Entwurf entsprechend entwerfen.
 
    ![](assets/estimatorok.png)
