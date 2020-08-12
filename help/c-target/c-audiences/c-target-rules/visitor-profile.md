@@ -2,9 +2,13 @@
 keywords: visitor profile;target visitor profile
 description: Erstellen Sie in Adobe Target Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen.
 title: Besucherprofil
+feature: null
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 97%
 
 ---
 
@@ -30,6 +34,7 @@ Erstellen Sie Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen
    * Erste Seite der Sitzung
    * Nicht die erste Seite der Sitzung
    * Kategorieaffinität
+
    Für jeden Mbox-Aufruf mit neuem `mboxPC`-Wert wird ein Besucherprofil im lokalen Edge-Speicher erstellt. Nach 30 Minuten Inaktivität wird das Profil in der Target-Datenbank gespeichert und ist für andere Edges zugänglich.
 
    Wenn sich ein Besucher der Site mitten in einer Sitzung anmeldet und die Kennung `3rdpartyId` erhält, sind alle vorher geladenen Profilattribute, die mit `3rdPartyId` verknüpft sind, sofort verfügbar.
@@ -39,7 +44,7 @@ Erstellen Sie Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Schulungsvideo: Erscheinungsbild ![Zielgruppenübersicht erstellen](/help/assets/overview.png)
+## Schulungsvideo: Kennzeichen ![Übersicht über Audiencen erstellen](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
