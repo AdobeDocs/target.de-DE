@@ -1,10 +1,14 @@
 ---
-keywords: Target; Berichte; Berichtseinstellungen; mehrere Metriken; Metriken
-description: Wählen Sie mehrere Metriken aus, die in einem Bericht mit Adobe Target angezeigt werden sollen.
-title: Mehrere Metriken in einem Bericht mit Adobe Target anzeigen
+keywords: Target;reports;report settings;multiple metrics;metrics
+description: Wählen Sie mehrere Metriken zur Ansicht in einem Bericht mit Adobe Target aus.
+title: Ansicht mehrerer Metriken in einem Bericht mit Adobe Target
+feature: null
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 70%
 
 ---
 
@@ -22,7 +26,7 @@ Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Info
 
 **So wählen Sie mehrere Metriken für die Anzeige im Bericht aus:**
 
-1. Möchten Sie einen Bericht anzeigen, klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **Berichte[!UICONTROL .]**
+1. Möchten Sie einen Bericht anzeigen, klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte.]**
 1. Klicken Sie auf die Dropdownliste **[!UICONTROL Berichtsmetrik]**, um die Listen [!UICONTROL Angezeigte Metriken] und [!UICONTROL Ausgeblendete Metriken] anzuzeigen.
 
    ![](assets/multiple_metrics.png)
@@ -41,14 +45,14 @@ Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Info
 
    Sie können die Metriken neu anordnen, indem Sie sie per Drag-and-drop in der Liste [!UICONTROL Angezeigte Metriken] in die gewünschte Reihenfolge bringen. Die ausgewählte Reihenfolge spiegelt sich in der Tabellenansicht und der Diagrammansicht wider. Wenn Sie eine Metrik aus der Liste [!UICONTROL Angezeigte Metriken] entfernen möchten, bewegen Sie Ihren Mauszeiger über die Metrik und klicken Sie dann auf das **X**-Symbol.
 
-1. Klicken Sie auf **[!UICONTROL Speichern], wenn Sie fertig sind.**
-1. (Bedingt) Bewegen Sie beim Anzeigen des Berichts in der Tabellenansicht den Mauszeiger über die Spaltenüberschrift einer Metrik, um einen blauen Pfeil anzuzeigen. Klicken Sie auf den Pfeil, um die Tabelle zu erweitern und [!UICONTROL Lift] und [!UICONTROL Vertrauen] für die jeweilige Metrik anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
+1. (Bedingt) Bewegen Sie beim Anzeigen des Berichts in der Ansicht &quot;Tabelle&quot;den Mauszeiger über die Spaltenüberschrift einer Metrik, um einen blauen Pfeil anzuzeigen. Klicken Sie auf den Pfeil, um die Tabelle zu erweitern und [!UICONTROL Lift] und [!UICONTROL Vertrauen] für die jeweilige Metrik anzuzeigen.
 
    ![](assets/multiple_metrics_table.png)
 
    Sie können nur jeweils eine Metrik/Spalte erweitern. Klicken Sie erneut auf den Pfeil, um die Spalten zu reduzieren.
 
-1. (Bedingt) Während Sie den Bericht in der Diagrammansicht anzeigen, können Sie einzelne Metriken auswählen, die in der Dropdownliste angezeigt werden sollen:
+1. (Conditional) While viewing the report in the Graph View, you can select individual metrics to display from the drop-down list:
 
    ![](assets/multiple_metrics_graph.png)
 
