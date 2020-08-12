@@ -1,18 +1,22 @@
 ---
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
-description: Mit Aktivitäten in Adobe Target können Sie Inhalte auf bestimmte Zielgruppen anpassen und Seitenentwürfe testen.
-title: Mit Aktivitäten in Adobe Target können Sie Inhalte an bestimmte Zielgruppen anpassen und Seitenentwürfe testen.
+description: Activities in Adobe Target let you personalize content to specific audiences and test page designs
+title: Activities in Adobe Target let you personalize content to specific audiences and test page designs.
+feature: null
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2092'
+ht-degree: 97%
 
 ---
 
 
 # Aktivitäten{#activities}
 
-Mit Aktivitäten in Adobe Target können Sie Inhalte an bestimmte Zielgruppen anpassen und Seitenentwürfe testen.
+Mit Aktivitäten in Adobe Target können Sie Inhalte an bestimmte Audiencen anpassen und Seitenentwürfe testen.
 
 Sie können z. B. eine Aktivität entwerfen, die zwei verschiedene Landingpages testet: eine, die Informationen zu Sommerschuhen für Damen hervorhebt, und eine andere Landingpage, die allgemein Sommerbekleidung bewirbt. Durch die Aktivität werden die Bedingungen festgelegt, die steuern, wann diese beiden Landingpages angezeigt werden, sowie die Metriken, die bestimmen, welche Seite erfolgreicher ist. Die Aktivität wird so konfiguriert, dass sie bei Zutreffen bestimmter Bedingungen beginnt und endet (z. B. zwischen bestimmten Terminen) oder dass sie beginnt, wenn die Aktivität genehmigt wird, und endet, wenn sie deaktiviert wird.
 
@@ -168,7 +172,7 @@ Dieser Import wird ausgeführt, wenn die Aktivitätenseite geöffnet wird. Die m
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Abzeichen &quot;Aktivitätstypen&quot;(9:03) ![Übersicht](/help/assets/overview.png)
+### Aktivität Types (9:03) - ![Überblick](/help/assets/overview.png)
 
 In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivitätstypen erläutert.
 
@@ -178,7 +182,7 @@ In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Verwalten von Aktivitäten (5:55) Abzeichen &quot; ![Übersicht&quot;](/help/assets/overview.png)
+### Verwalten von Aktivitäten (5:55) Kennzeichen ![&quot;Überblick&quot;](/help/assets/overview.png)
 
 In diesem Video wird erläutert, wie die Aktivitätenliste zur Verwaltung von Aktivitäten eingesetzt werden kann.
 
