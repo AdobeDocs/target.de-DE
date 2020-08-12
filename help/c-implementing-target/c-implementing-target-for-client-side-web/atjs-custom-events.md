@@ -2,10 +2,14 @@
 keywords: custom events;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
 description: Informationen zu benutzerdefinierten Ereignissen für die JavaScript-Bibliothek von Adobe Target at.js
 title: Informationen zu benutzerdefinierten Ereignissen für die JavaScript-Bibliothek von Adobe Target at.js
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '585'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +48,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## Schulungsvideo: Antwort-Token und benutzerspezifische at.js-Ereignisse {#section_ED304A7137DC42A4BDCD6D57C989F1FA} Abzeichen ![für Übungen](/help/assets/tutorial.png)
+## Schulungsvideo: Antwort-Token und benutzerspezifische at.js-Ereignisse {#section_ED304A7137DC42A4BDCD6D57C989F1FA} ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Antworttoken und benutzerspezifische at.js-Ereignisse nutzen können, um Profilinformationen aus Target an Drittanbietersysteme zu übergeben.
 
