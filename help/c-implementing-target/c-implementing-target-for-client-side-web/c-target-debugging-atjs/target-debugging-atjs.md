@@ -2,10 +2,14 @@
 keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
 description: Informationen zur Verwendung des Adobe Experience Cloud-Debuggers, einer Erweiterung, die eine schnelle und einfache Problembehebung in Ihrer Target-Implementierung ermöglicht.
 title: „at.js“-Debugging mit dem Adobe Experience Cloud-Debugger
+feature: null
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 82%
 
 ---
 
@@ -22,7 +26,7 @@ Weitere Informationen finden Sie in der [Dokumentation der Adobe Experience Clou
 
 Die folgenden Videos führen Sie Schritt für Schritt durch den Debugging-Prozess:
 
-### Hinzufügen der Adobe Experience Cloud-Debugger-Erweiterung  Kennzeichen {#section_8CD96F76E397476193529573F3199615}![Übersicht](/help/assets/overview.png)
+### Hinzufügen der Adobe Experience Cloud-Debugger-Erweiterung  {#section_8CD96F76E397476193529573F3199615} ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
