@@ -2,9 +2,13 @@
 keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
 description: Sie können sich eine beliebige Kategorie aus mehreren Kategorien zum Ziel setzen. Für jede Kategorie ist eine Registerkarte verfügbar, auf der Sie Targeting-Regeln (oder -Gruppen) für jede Kategorie erstellen können.
 title: Kategorien für Zielgruppen
+feature: null
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +29,7 @@ Durchsuchen Sie die [!UICONTROL Zielgruppenliste] über das Suchfeld. Sie könne
 
 Sie können die Zielgruppenliste nach Zielgruppennamen oder dem Datum der letzten Änderung sortieren. Wenn Sie eine Sortierung nach Name oder Datum vornehmen möchten, klicken Sie auf die Spaltenüberschrift und wählen Sie dann die Anzeige der Zielgruppen in aufsteigender oder absteigender Reihenfolge aus.
 
-## Schulungsvideo: Abzeichen ![&quot;Zielgruppen erstellen&quot;](/help/assets/tutorial.png)
+## Schulungsvideo: Audiencen- ![Tutorialzeichen erstellen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
