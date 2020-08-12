@@ -2,11 +2,15 @@
 keywords: Overview and Reference;act
 description: Informationen zu wichtigen Konzepten, die Sie beim Verstehen der Features und Funktionen von Adobe Target unterstützen.
 title: Wichtige Target-Konzepte
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1515'
+ht-degree: 98%
 
 ---
 
@@ -117,7 +121,7 @@ In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Verwenden von Audiencen in Adobe Zielgruppe (6:21) - ![Übersichtskennzeichnung](/help/assets/overview.png)
+### Audiencen in Adobe Target verwenden (6:21) - ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/Premium] einsetzen lassen.
 
