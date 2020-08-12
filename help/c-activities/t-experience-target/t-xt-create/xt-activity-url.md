@@ -2,9 +2,10 @@
 keywords: Targeting
 description: Die Aktivitäts-URL bestimmt die Seite, die in der Erlebnis-Targeting-Aktivität verwendet wird und im Visual Experience Composer (VEC) von Adobe Target oder im formularbasierten Experience Composer bei der Erstellung der Aktivität geöffnet wird.
 title: Aktivitäts-URL
+feature: null
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 92%
@@ -44,6 +45,7 @@ Die Aktivitäts-URL bestimmt die Seite, die in der Erlebnis-Targeting-Aktivität
    * Hashfragment (#)
    * Abfrage
    * Parameter „mbox“
+
    Zusätzliche Regeln können mithilfe von „AND“ oder „OR“ an die Aktivitäts-URL angefügt werden. Alle hinzugefügten Regeln werden per „AND“ miteinander verglichen.
 
 1. Klicken Sie auf **[!UICONTROL „Speichern“]**, wenn Sie damit fertig sind.
