@@ -1,10 +1,14 @@
 ---
-keywords: Inhaltsbibliothek;Assets;Suche;intelligente Sammlungen;Suchordner;Filter
+keywords: content library;assets;search;smart collections;search folder;filter
 description: Suchen Sie anhand bestimmter Schlüsselwörter nach Assets und speichern Sie Suchordner, auch „intelligente Sammlungen“ genannt, die automatisch mit Ihren Suchergebnissen aktualisiert werden.
 title: Durchsuchen von Inhalten und Erstellen intelligenter Sammlungen
+feature: null
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +24,7 @@ Dieser Abschnitt enthält die folgenden Informationen:
 
 ## Suche nach Assets mit Schlüsselwörtern  {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. Klicken Sie auf **[!UICONTROL Angebote]** &gt; **[!UICONTROL Bildangebote]**, um auf die [!UICONTROL Asset-Bibliothek] zuzugreifen.
+1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Bildangebote]**, um auf die [!UICONTROL Asset-Bibliothek] zuzugreifen.
 
    Sie können oben rechts auf das Symbol für die [!UICONTROL Kartenansicht] klicken, um Assets im Kartenformat anzuzeigen.
 
@@ -28,7 +32,7 @@ Dieser Abschnitt enthält die folgenden Informationen:
 
    Sie können oben rechts auf das Symbol für die [!UICONTROL Listenansicht] klicken, um Assets im Listenformat anzuzeigen.
 
-1. Klicken Sie oben links auf das Symbol **[!UICONTROL Nur Inhalt], um das Suchfeld einzublenden.**
+1. Klicken Sie oben links auf das Symbol **[!UICONTROL Nur Inhalt]**, um das Suchfeld einzublenden.
 
    ![](assets/search_assets.png)
 
@@ -38,7 +42,7 @@ Dieser Abschnitt enthält die folgenden Informationen:
 
 Sie können gespeicherte Suchen erstellen, auch „intelligente Sammlungen“ genannt, um Zeit zu sparen, wenn Sie ähnliche Suchen durchführen. Mit einer gespeicherten Suche wird eine intelligente Sammlung erstellt, die automatisch mit Suchergebnissen aktualisiert wird.
 
-1. Klicken Sie auf **[!UICONTROL Angebote]** &gt; **[!UICONTROL Bildangebote]**, um auf die [!UICONTROL Asset-Bibliothek] zuzugreifen.
+1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Bildangebote]**, um auf die [!UICONTROL Asset-Bibliothek] zuzugreifen.
 
    ![](assets/content.png)
 
