@@ -2,9 +2,13 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: Verwenden Sie Feeds, damit Entitäten in Adobe Recommendations importiert werden. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feedformat bzw. Adobe Analytics-Classifications gesendet werden.
 title: Feeds
+feature: null
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 93%
 
 ---
 
@@ -36,10 +40,10 @@ Die Feeds-Seite enthält die folgenden Spalten:
 
 >[!IMPORTANT]
 >
->Hochgeladene Entitäten und Entitätsattribute laufen nach 61 Tagen ab. Das bedeutet:
+>Uploaded entities and entity attributes expire after 61 days. Das bedeutet:
 >
->* Ihr Feed sollte mindestens monatlich ausgeführt werden, um sicherzustellen, dass Ihr Kataloginhalt nicht abläuft.
->* Wenn Sie ein Element aus Ihrer Feed-Datei entfernen, wird dieses Element nicht aus Ihrem Katalog entfernt. Um das Element aus dem Katalog zu entfernen, löschen Sie das Element manuell über die Target-Benutzeroberfläche oder -API. Sie können auch die Elementattribute (z. B. den Bestand) ändern, um sicherzustellen, dass der Artikel von der Berücksichtigung ausgeschlossen wird.
+>* Your feed should run at least monthly to ensure that your catalog contents do not expire.
+>* Removing an item from your feed file does not remove that item from your catalog. To remove the item from the catalog, manually delete the item via the Target UI or API. Or, modify the item attributes (such as inventory) to ensure that the item is excluded from consideration.
 
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
@@ -102,7 +106,7 @@ Wenn Sie über einen vorhandenen Google-Produkt-Feed verfügen, können Sie dies
 >
 >Es müssen nicht Google-Daten verwendet werden. [!DNL Recommendations] verwendet lediglich dasselbe Format wie Google. Sie können mit dieser Methode alle Ihre Daten hochladen und dabei die verfügbaren Planungsfunktionen nutzen. Dennoch müssen Sie die von Google festgelegten und vordefinierten Attributnamen verwenden, wenn Sie die Datei einrichten.
 
-Die meisten Händler laden Produkte in Google hoch, sodass diese angezeigt werden, wenn ein Besucher die Google-Produktsuche verwendet. [!DNL Recommendations] berücksichtigt für Entitäts-Feeds exakt die Spezifikationen von Google. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [Google-Shopping-Seiten](https://www.google.com/prdhp) durchsucht werden.
+Die meisten Händler laden Produkte in Google hoch, sodass diese angezeigt werden, wenn ein Besucher die Google-Produktsuche verwendet. [!DNL Recommendations] berücksichtigt für Entitäts-Feeds exakt die Spezifikationen von Google. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Die Ergebnisse können auf den [Google-Shopping-Seiten](https://www.google.com/prdhp) durchsucht werden.
 
 >[!NOTE]
 >
@@ -218,6 +222,7 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
    * CSV
    * Google-Produkt-Feed
    * Analytics-Classifications
+
    Informationen zu den Feed-Typen CSV und Google-Produkt-Feed finden Sie unter [Feeds-Übersicht](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
 1. (Situationsbedingt) Wenn Sie **[!UICONTROL CSV]** oder **[!UICONTROL Google-Produkt-Feed]** ausgewählt haben, geben Sie an, wo auf den Feed zugegriffen werden kann.
@@ -323,7 +328,7 @@ Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte aus
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Informationen zu Feeds in Recommendations (3:01) Kennzeichen ![Übersicht](/help/assets/overview.png)
+### Informationen zu Feeds in Recommendations (3:01) ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 Dieses Video enthält die folgenden Informationen:
 
@@ -332,7 +337,7 @@ Dieses Video enthält die folgenden Informationen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Einen Feed erstellen (6:44) Abzeichen ![für Übungen](/help/assets/tutorial.png)
+### Einen Feed erstellen (6:44) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
