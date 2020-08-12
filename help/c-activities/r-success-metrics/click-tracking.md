@@ -2,11 +2,12 @@
 keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: Mit Target können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, erfassen.
 title: Klick-Tracking
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 97%
@@ -20,7 +21,7 @@ Mit Target können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, erfa
 
 >[!NOTE]
 >
->Die Verfolgung von Klicks wird für die Anforderung des globalen Targets nicht unterstützt, wenn sie als Ort in einer formularbasierten Aktivität verwendet wird.
+>Die Verfolgung von Klicks wird bei der Anforderung globaler Zielgruppen nicht unterstützt, wenn sie als Ort in einer formularbasierten Aktivität verwendet wird.
 
 ## Einrichten von Klick-Tracking{#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -104,6 +105,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 
       * `A`-Tag (Link): Das Standard-Verhalten ist es, zu der URL zu navigieren, die durch das HREF-Attribut definiert wird.
       * `FORM`-Tag: Das Standard-Verhalten ist es, das Formular zu übermitteln.
+
    Bei diesem Standardverhalten kommt es möglicherweise zu Konflikten mit Analytics-Klick-Tracking. Wenn Sie Analytics verwenden, sollten Sie das Klick-Tracking über Analytics ausführen, und nicht über Target.
 
 * Klick-Tracking wird nicht auf Seiten aufgezeichnet, wo die Seite und die Aktivitäts-URL zu unterschiedlichen Präsenzen gehören. Berechtigungen für Unternehmensbenutzer sind eine Target Premium-Funktion. Weitere Informationen finden Sie unter [Berechtigungen für Unternehmensbenutzer](/help/administrating-target/c-user-management/property-channel/property-channel.md).
