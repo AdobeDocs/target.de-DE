@@ -2,9 +2,10 @@
 keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an Recommendations zu übermitteln.
 title: Entitätsattribute
+feature: null
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 14e0c0bacb8ffb22f0156a1e2c15e4de7717ee39
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 94%
@@ -186,7 +187,7 @@ Im Allgemeinen kann die Mbox mit den Anzeigeinformationen wie im folgenden Beisp
 
 >[!NOTE]
 >
->Wenn Sie at.js 2 verwenden.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So geben Sie Produkt- oder Inhaltsinformationen mithilfe von at.js 2 an Recommendations weiter.*x*, verwenden Sie [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ein Beispiel hierfür finden Sie unter [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md).
+>Wenn Sie at.js 2 verwenden.*x*, `mboxCreate` (as used in the  following example) is no longer supported. To pass product or content information to Recommendations using at.js 2.*x*, verwenden Sie [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ein Beispiel hierfür finden Sie unter Recommendations [planen und implementieren](/help/c-recommendations/plan-implement.md).
 
 >[!NOTE]
 >
