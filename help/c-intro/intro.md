@@ -5,25 +5,19 @@ title: Einführung in Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: ffb7d592cf4878f301f168f2f635a2b9c9455ece
+source-git-commit: 45bd128a01dcb8d4d8d330d8ed4a4df04b98a612
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 96%
+source-wordcount: '906'
+ht-degree: 86%
 
 ---
 
 
 # Einführung in Target{#introduction-to-target}
 
-Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
+[!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 
 Die [!DNL Adobe Target]-Lösung enthält verschiedene Komponenten:
-
-| Komponente | Beschreibung |
-|--- |--- |
-| Target Standard | bietet eine grafische Benutzeroberfläche für die Erstellung und Verwaltung von A/B-Tests und regelbasierten Targeting-Aktivitäten. |
-| Target Premium | ergänzt die Target Standard-Oberfläche um Premium-Funktionen. |
-| Recommendations Classic | Zeigt automatisch Produkte oder Inhalte an, die ausgehend von der bisherigen Benutzeraktivität auf Ihrer Website für die betreffenden Kunden von Interesse sein könnten. |
 
 ## Target Standard  {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
@@ -35,7 +29,7 @@ In [!DNL Target Standard] sind die Best Practices der Branche integriert und Sta
 
 [!DNL Target Premium] ist eine erweiterte [!DNL Target]-Lizenz, die [!DNL Target Standard] durch Premium-Funktionen ergänzt.
 
-Zielgruppe Premium-Themen in dieser Hilfe beinhalten das Premium-Zeichen oben auf der Seite:
+[!DNL Target Premium] Themen in dieser Hilfe umfassen das Premium-Abzeichen oben auf der Seite:
 
 ![Premium-Zeichen](/help/assets/premium.png)
 
@@ -84,7 +78,7 @@ Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 
 ### Berechtigungen für Unternehmensbenutzer
 
-Mit der [Berechtigungsfunktion für Unternehmensbenutzer](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) können Sie verschiedene Projekte (in der Adobe Admin Console for Enterprise als „Produktprofile“ bezeichnet) erstellen, die die Zuweisung bestimmter Rechte an einzelne Benutzer ermöglichen, sodass diese Benutzer Zugriff auf bestimmte Projekte erhalten. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in Adobe Analytics. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Somit können Kunden Ansicht, Bearbeitung und Genehmigungszugriff der Benutzer basierend auf Region, Umgebung (Entwicklung, Test, Produktion), Kanal oder anderen Kriterien einschränken.
+[Mit der Funktion &quot;Berechtigungen](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) für Enterprise-Benutzer&quot;können Sie verschiedene Profile erstellen (im Abschnitt &quot;Produktberechtigungen&quot; [!DNL Adobe Admin Console for Enterprise]), damit Sie einem einzelnen Benutzer unterschiedliche Berechtigungen zuweisen können, die dessen Zugriffsrechte für jedes Projekt vorschreiben. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in [!DNL Adobe Analytics]. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Dadurch können Kunden den Ansicht-, Bearbeitungs-, Genehmigungs- und Veröffentlichungszugriff auf ihre Benutzer je nach Region, Umgebung (dev/stage/prod), Kanal oder anderen benutzerspezifischen Kriterien einschränken.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -94,7 +88,7 @@ Weitere Informationen finden Sie in der [Dokumentation zu Recommendations Classi
 
 ## Experience League: Das Adobe Target Welcome Kit {#kit}
 
-Mit diesem Welcome Kit können Sie ein Optimierungs- und Personalisierungsprogramm in Adobe Target erstellen. Es enthält wichtige Informationen, Werkzeuge und Ressourcen, die Ihnen bei der Vorbereitung und dem Start Ihrer ersten Adobe Target-Aktivität helfen. Es bietet auch Strategien für kurzfristige Gewinne und langfristige Optimierungsmaßnahmen.
+Mit diesem Welcome Kit können Sie ein Optimierungs- und Personalisierungsprogramm in Adobe Target erstellen. It includes key information, tools, and resources to help you prepare for and launch your first [!DNL Adobe Target] activity, with short-term quick wins and long-term optimization strategies.
 
 [Das Adobe Target-Begrüßungs-Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
