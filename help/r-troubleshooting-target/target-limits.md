@@ -2,10 +2,14 @@
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
 title: Beschränkungen
+feature: null
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 77%
 
 ---
 
@@ -26,7 +30,7 @@ Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgrup
 
 **Empfohlenes Limit**: 10.000 aktive Live-Aktivitäten.
 
-**Empfohlene Beschränkung**: 10.000 aktive gespeicherte (und nicht beendete) Aktivitäten.
+**Recommended limit**: 10,000 active saved (and not ended) activities.
 
 ## Aktivitätsname
 
@@ -127,24 +131,24 @@ Wenn Sie die [Batch-Bereitstellungs-API](https://developers.adobetarget.com/api/
 Für Endpunkte festgelegte Grenzwerte:
 
 Batch-mbox v2:
-* mbox-Parameter 100
+* mbox parameters 100
 * Mbox-Parametername max. Länge 128
 * mbox-Parameterwert darf nicht null sein
 * mbox-Parameterwert 5000
-* Profil-Parameter 50
-* Profil-Parametername max. Länge 128
-* Profil-Parameterwert darf nicht null sein
-* Profil-Parameterwert max. Länge 256
+* profil-Parameter 50
+* profile parameter name max length 128
+* profil-Parameterwert darf nicht null sein
+* profil-Parameterwert max. Länge 256
 
 Versand-API-Endpunkt
 * mbox-Parameter 50
 * Mbox-Parametername max. Länge 128
 * mbox-Parameterwert darf nicht null sein
 * mbox-Parameterwert 5000
-* Profil-Parameter 50
-* Profil-Parametername max. Länge 128
-* Profil-Parameterwert darf nicht null sein
-* Profil-Parameterwert max. Länge 256
+* profil-Parameter 50
+* profile parameter name max length 128
+* profil-Parameterwert darf nicht null sein
+* profil-Parameterwert max. Länge 256
 
 ## URL-Adressen zur Mbox-Anfrage
 
@@ -192,11 +196,11 @@ Eine längere Zeichenfolge wird vom System begrenzt.
 
 ## Profilskripte
 
-**Empfohlene Beschränkung aktiver Profil-Skripte**: 300
+**Recommended limit of active profile scripts**: 300
 
 **Empfohlene Obergrenze für Profil-Skripten pro Konto**: 2.000
 
-**Empfehlungen zur Begrenzung der Komplexität** von Profil-Skripten: Profil-Skripten können eine begrenzte Anzahl von Anweisungen ausführen. Weitere Informationen finden Sie unter [Bewährte Verfahren](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profil-Attributen*.
+**Recommendations for limiting profile script complexity**: Profile scripts can execute a limited number of instructions. For more information, see [Best practices](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profile attributes*.
 
 ## Properties
 
@@ -238,7 +242,7 @@ Dies bezieht sich auf die Anzahl der durch eine Zeile getrennten Werte im Target
 
 ## Targeting-Regeln
 
-**Empfohlene Beschränkung**: 2.500 Zeichen pro Targeting-Regelwert.
+**Recommended limit**: 2,500 characters per targeting rule value.
 
 **Empfohlenes Limit**: 30.000 einmalige Werte pro Zielgruppe in Targeting-Regeln.
 
