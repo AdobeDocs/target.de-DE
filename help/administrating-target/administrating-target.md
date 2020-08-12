@@ -1,12 +1,13 @@
 ---
 keywords: setting up;setup;set-up;set up;administration
-description: Informationen zum Einrichten von Adobe Targets, einschließlich Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene7-Konfiguration, Hostverwaltung und Antwort-Token.
+description: Informationen zum Einrichten von Adobe Target, einschließlich Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene7-Konfiguration, Hostverwaltung und Antwort-Token.
 title: Adobe Target verwalten
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 17%
@@ -22,7 +23,7 @@ To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Admini
 
 * [Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
 * [Berichterstellung](/help/administrating-target/reporting.md)
-* [Scene7-Konfiguration](/help/administrating-target/scene7-settings.md)
+* [Scene7 Configuration](/help/administrating-target/scene7-settings.md)
 * [Implementierung](/help/c-implementing-target/implementing-target.md)
 * [Eigenschaften](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 * [Hosts](/help/administrating-target/hosts.md)
@@ -30,4 +31,4 @@ To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Admini
 * [Antwort-Token](/help/administrating-target/response-tokens.md)
 * [Benutzer](/help/administrating-target/c-user-management/user-management.md)
 
-![Menü &quot;Adobe Target-Verwaltung&quot;](/help/administrating-target/assets/administration.png)
+![Adobe Target-Administrationsmenü](/help/administrating-target/assets/administration.png)
