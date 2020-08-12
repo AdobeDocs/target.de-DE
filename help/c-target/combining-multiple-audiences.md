@@ -1,11 +1,15 @@
 ---
-keywords: Zielgruppe; Zielgruppenregeln; Kombinieren von Zielgruppen; Ausschluss; Ausschluss hinzufügen; Ausschließen; Kombinieren von Zielgruppen; Ad-hoc-Zielgruppe; Adhoc-Zielgruppe
+keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
 description: Kombinieren mehrerer Zielgruppen (einschließlich Adobe Experience Cloud- und Target-Zielgruppen) ohne Zwischenschritte zur Erstellung von Ad-hoc-Zielgruppen. Sie können auch Ausschlussregeln erstellen und darüber Zielgruppen ausschließen.
 title: Kombinieren mehrerer Zielgruppen in Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +38,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
    ![Schrittergebnis](assets/combine_multiple_audiences1.png)
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Kombinieren Sie mehrere Zielgruppen].**
+1. Klicken Sie oben rechts auf **[!UICONTROL Kombinieren Sie mehrere Zielgruppen]**.
 
    ![Schrittergebnis](assets/combine_multiple_audiences2.png)
 
@@ -54,7 +58,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
       >
       >Der Operator (AND oder OR) muss beim Kombinieren von Zielgruppen gleich bleiben. Sie können Operatoren nicht mischen und passend machen.
 
-   1. Um einer Regel einen Ausschluss hinzuzufügen, klicken Sie auf **[!UICONTROL Ausschluss]** &gt; **[!UICONTROL Ausschluss hinzufügen]**.
+   1. Um einen Ausschluss zu einer Regel hinzuzufügen, klicken Sie auf **[!UICONTROL Ausnahmen]** > **[!UICONTROL Ausnahme hinzufügen]**.
 
       ![](assets/combine_multiple_audiences3a.png)
 
@@ -68,7 +72,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
       Diese kombinierte Zielgruppe enthält alle neuen Besucher Ihrer Site (außer denen aus San Francisco), die Safari oder Firefox verwenden.
 
-   1. Um eine Zielgruppe aus einer Regel auszuschließen, klicken Sie auf **[!UICONTROL Ausschluss]** &gt; **[!UICONTROL Diese Zielgruppe ausschließen]**.
+   1. Um eine Zielgruppe von einer Regel auszuschließen, klicken Sie auf **[!UICONTROL Ausnahme]** > **[!UICONTROL Diese Zielgruppe ausschließen]**.
 
       Sie können z. B. eine kombinierte Zielgruppe erstellen, die alle neuen Besucher Ihrer Site enthält, ausgenommen diejenigen, die Firefox verwenden. Das Ausschließen der Besucher, die Firefox verwenden, ist leichter, als das Erstellen einer kombinierten Zielgruppe, die explizit mehrere Browser, außer Firefox, einschließt (Safari, Chrome und Internet Explorer).
 
@@ -104,15 +108,15 @@ Sie können eine kombinierte Ad-hoc-Zielgruppe auch auf der Seite [!UICONTROL Zi
 
 Sie können eine kombinierte Ad-hoc-Zielgruppe erstellen, während Sie eine bestehende Aktivität bearbeiten.
 
-1. Fahren Sie auf der Seite [!UICONTROL Aktivitäten] mit dem Mauszeiger über die gewünschte Aktivität und klicken Sie anschließend auf das **[!UICONTROL Bearbeitungssymbol].**
+1. Fahren Sie auf der Seite [!UICONTROL Aktivitäten] mit dem Mauszeiger über die gewünschte Aktivität und klicken Sie anschließend auf das **[!UICONTROL Bearbeitungssymbol]**.
 
    Oder
 
    Klicken Sie auf die gewünschte Aktivität, um sie zu öffnen, und klicken Sie anschließend auf **[!UICONTROL Aktivität bearbeiten]**.
 
-1. Klicken Sie auf **[!UICONTROL Konfigurieren]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Mehrere Zielgruppen]**.
+1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![Konfigurieren &gt; Zielgruppen &gt; Mehrere Zielgruppen](/help/c-target/assets/combine_multiple_audiences7.png)
+   ![Konfigurieren > Zielgruppen > Mehrere Zielgruppen](/help/c-target/assets/combine_multiple_audiences7.png)
 
 1. Klicken Sie auf das Symbol für weitere Optionen (drei vertikale Ellipsen) neben der aktuellen Zielgruppe der Aktivität und anschließend auf **[!UICONTROL Zielgruppe ändern]**.
 
