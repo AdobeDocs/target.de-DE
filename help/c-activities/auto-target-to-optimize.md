@@ -1,10 +1,11 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: Automatisches Targeting
+feature: null
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3610'
 ht-degree: 85%
@@ -232,9 +233,9 @@ Es wird nicht empfohlen, die Zielmetrik mitten in einer Aktivität zu ändern. O
 
 Diese Empfehlung gilt für [!UICONTROL Aktivitäten mit automatisierter Zuordnung], [!UICONTROL automatischer Zielgruppe]und [!UICONTROL Automated Personalization] , die entweder [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte verwenden.
 
-### Kann ich die Option &quot;Berichtsdaten zurücksetzen&quot;beim Ausführen einer Aktivität für die automatische Zielgruppe verwenden?
+### Can I use the Reset Report Data option while running an Auto-Target activity?
 
-Die Verwendung der Option [!UICONTROL Berichtsdaten] zurücksetzen für Aktivitäten mit [!UICONTROL automatischer Zielgruppe] wird nicht empfohlen. Obwohl die Daten des sichtbaren Berichte entfernt werden, entfernt diese Option nicht alle Schulungsdatensätze aus dem [!UICONTROL Modell der automatischen Zielgruppe] . Anstatt die Option Berichtsdaten [!UICONTROL zurücksetzen] für Aktivitäten mit [!UICONTROL automatischer Zielgruppe] zu verwenden, erstellen Sie eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität. (Hinweis: Diese Anleitung gilt auch für [!UICONTROL Aktivitäten mit automatisierter Zuordnung] und [!UICONTROL Automated Personalization] .)
+Using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Target] activities is not suggested. Obwohl die Daten des sichtbaren Berichte entfernt werden, entfernt diese Option nicht alle Schulungsdatensätze aus dem [!UICONTROL Modell der automatischen Zielgruppe] . Instead of using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Target] activities, create a new activity and de-activate the original activity. (Note: This guidance also applies to [!UICONTROL Auto-Allocate] and [!UICONTROL Automated Personalization] activities.)
 
 ## Fehlerbehebung für [!UICONTROL Automatisches Targeting] {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -272,7 +273,7 @@ Bei einer Aktivität vom Typ [!UICONTROL Automatisches Targeting] wird der Benut
 
 Nehmen wir zum Beispiel an, dass eine Aktivität mit einer Konversionsmetrik (C1) und einer zusätzlichen Metrik (A1) besteht. A1 ist abhängig von C1. Wenn ein Besucher die Aktivität das erste Mal antrifft und die Kriterien zum Konvertieren von A1 und C1 nicht konvertiert werden, wird die Metrik A1 aufgrund der Erfolgsmetrikabhängigkeit nicht konvertiert. Wenn der Besucher C1 konvertiert und erst danach A1, wird A1 auch dann nicht konvertiert, da der Besucher abgekoppelt wird, sobald C1 konvertiert ist.
 
-## Schulungsvideo: Erklärungen zu Aktivitäten vom Typ „Automatisches Targeting“ ![Übersichtskennzeichnung](/help/assets/overview.png)
+## Schulungsvideo: Erklärungen zu Aktivitäten vom Typ „Automatisches Targeting“ ![Overview badge](/help/assets/overview.png)
 
 In diesem Video wird die Einrichtung einer A/B-Aktivität für [!UICONTROL Automatisches Targeting] beschrieben.
 
