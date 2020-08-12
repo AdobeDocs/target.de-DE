@@ -2,9 +2,13 @@
 keywords: Recommendations
 description: Da eine automatisierte Personalisierungsaktivität (AP) mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
 title: Anzeigen einer Erlebnisvorschau für eine automatisierte Personalisierung (AP) im Visual Experience Composer
+feature: null
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 100%
 
 ---
 
