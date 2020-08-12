@@ -2,10 +2,11 @@
 keywords: implement;implementing
 description: Bevor Sie mit der Verwendung von Adobe Target beginnen, sollten Sie Target auf Ihrer Site implementieren, sich mit einigen Grundkonzepten und Begriffen sowie mit der Funktionsweise von Target und mit dessen Integration in Ihre Infrastruktur vertraut machen und verstehen, wie Besucher durch das Target-System verfolgt werden.
 title: Target implementieren
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b8eb49876c3759223eb5d6979678f6c6b24963e9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 43%
@@ -25,6 +26,6 @@ Weitere Informationen finden Sie in den verschiedenen Themen unter [Zielgruppe](
 
 1. Um die Seite &quot; [!UICONTROL Implementierung] &quot;aufzurufen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
 
-1. Informationen zu den Einstellungen auf dieser Seite finden Sie unter Zielgruppe ohne Tag-Manager [implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
+1. For information applicable to the settings on this page, see [Implement Target without a tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
 
-![Implementierungsseite](/help/administrating-target/assets/implementation.png)
+![Implementation page](/help/administrating-target/assets/implementation.png)
