@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4287c93058e279da6de262a19fbabb4bbacdf7ad
+source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1439'
 ht-degree: 91%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 91%
          + [SameSite-Cookie-Richtlinien von Google Chrome](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Richtlinien zur Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Zulassungsliste Zielgruppe Edge-Knoten](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Verfahren für die Datenübernahme in Target {#methods}
          + [Methoden](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profil-API-Einstellungen](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -145,12 +145,12 @@ ht-degree: 91%
       + [Versenden von Aktivitätsinformationen an Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Mobile Target-Vorschau](c-target-mobile-app/target-mobile-preview.md)
       + [Vorabruf des Angebotsinhalts](c-target-mobile-app/prefetch-offer-content.md)
-      + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
-      + [Standortdienst verwenden](/help/c-target-mobile-app/use-location-service.md)
+      + [Häufig gestellte Fragen zur Zielgruppe von Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Use Location Service](/help/c-target-mobile-app/use-location-service.md)
    + Server-seitig: Target-Implementierung {#server-side}
-      + [Versionshinweise - serverseitige APIs der Zielgruppe](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Release notes - Target server-side APIs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Versionshinweise - Zielgruppe Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
+      + [Versionshinweise - Zielgruppe Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Server-seitig: Target-Implementierung – Überblick](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Übergang von Target-Legacy-APIs zu Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + E-Mail: Target-Implementierung {#implement-email}
@@ -183,7 +183,7 @@ ht-degree: 91%
          + [Alte Integration von SiteCatalyst in Test&amp;Target - Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud Audiences](c-integrating-target-with-mac/mmp.md)
-   + [Integrate Target with Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [Zielgruppe mit Adobe Audience Manager integrieren](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integration von Target in Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud-Gerätekooperation](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Aktivitäten {#activities}
@@ -204,8 +204,8 @@ ht-degree: 91%
          + [Verschiedene Erlebniszielgruppen in A/B-Tests](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Automatisch zuweisen {#auto-allocate}
       + [Automatische Zuordnung](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-      + [Interpret Auto-Allocate reports](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [Auto-Allocate can give you faster test results and higher revenue than a manual test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+      + [Berichte zur automatischen Zuordnung interpretieren](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [Die automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und mehr Umsatz als ein manueller Test liefern](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Automatisches Targeting](c-activities/auto-target-to-optimize.md)
    + Automatisierte Personalisierung {#automated-personalization}
       + [Automated Personalization – Überblick](c-activities/t-automated-personalization/automated-personalization.md)
@@ -219,7 +219,7 @@ ht-degree: 91%
       + [Verwalten von Ausschlüssen](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Wählen Sie das Steuerelement für die automatisierte Personalisierung oder die automatische Targeting-Aktivität aus](c-activities/t-automated-personalization/experience-as-control.md)
       + [Häufig gestellte Fragen zur automatisierten Personalisierung](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Preview Automated Personalization activities with experience preview URLs](c-activities/t-automated-personalization/experience-preview.md)
+      + [Vorschau von Automated Personalization-Aktivitäten mit Erlebnis-Vorschauen-URLs](c-activities/t-automated-personalization/experience-preview.md)
       + [Fehlerbehebung bei der automatisierten Personalisierung](c-activities/t-automated-personalization/ap-trouble.md)
    + Erlebnis-Targeting {#experience-targeting}
       + [Erlebnis-Targeting – Überblick](c-activities/t-experience-target/experience-target.md)
@@ -371,7 +371,7 @@ ht-degree: 91%
       + [Hochladen benutzerdefinierter Kriterien](c-recommendations/c-algorithms/recommendations-csv.md)
       + [Verwenden dynamischer und statischer Einschlussregeln](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Verwenden einer Reserveempfehlung](c-recommendations/c-algorithms/backup-recs.md)
-      + [Work with multi-value attributes](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [Arbeiten mit Attributen mit mehreren Werten](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
    + Design {#recommendations-design}
       + [Designübersicht](c-recommendations/c-design-overview/design-overview.md)
       + [Erstellen eines Designs](c-recommendations/c-design-overview/create-design.md)
@@ -382,7 +382,7 @@ ht-degree: 91%
       + [Kriterienauswahl](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [Hinzufügen von Promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Einstellungen für Recommendations-Aktivitäten](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Preview and launch your Recommendations activity](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [Vorschau und Starten der Recommendations-Aktivität](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommendations als Angebot](c-recommendations/recommendations-as-an-offer.md)
    + Häufig gestellte Fragen {#recommendations-faq}
       + [Recommendations-FAQs](c-recommendations/c-recommendations-faq/recommendations-faq.md)
@@ -394,5 +394,5 @@ ht-degree: 91%
    + [Fehlerbehebung in Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Beschränkungen](r-troubleshooting-target/target-limits.md)
 + Target-APIs {#apis}
-   + [Understand Target APIs](/help/api/api-overview.md)
+   + [Übersicht über die Adobe Target API](/help/api/api-overview.md)
 + [Ressourcen und Kontaktinformationen](cmp-resources-and-contact-information.md)
