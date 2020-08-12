@@ -2,10 +2,14 @@
 keywords: troubleshoot target;troubleshooting target
 description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Target unterstützen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen (FAQ) und weitere hilfreiche Informationen.
 title: Fehlerbehebung bei Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 97%
 
 ---
 
@@ -124,7 +128,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 ## Mobile Anwendungen
 
-* [Häufig gestellte Fragen zu Target für mobile Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Berichterstellung
 
