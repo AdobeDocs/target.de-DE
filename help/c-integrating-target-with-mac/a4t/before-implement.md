@@ -1,10 +1,11 @@
 ---
 keywords: Recommendations
 description: Bei Ihrem Datenerfassungsprozess treten verschiedene Änderungen auf, wenn Sie Analytics als Berichtsquelle für Target (A4T) verwenden.
-title: Bevor Sie Adobe Analytics als Berichte für Adobe Zielgruppe (A4T) implementieren
+title: Vor der Implementierung von Adobe Analytics als Berichte-Quelle für Adobe Target (A4T)
+feature: null
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 57%
