@@ -2,9 +2,10 @@
 keywords: api;apis;admin api;delivery api;reporting api;profile api
 description: Informationen zu Adobe Target-APIs, einschließlich Admin-, Versand-, Berichte- und Profil-APIs.
 title: Übersicht über die Adobe Target API
+feature: null
 topic: APIs
 translation-type: tm+mt
-source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -12,22 +13,22 @@ ht-degree: 1%
 ---
 
 
-# Adobe Target API overview
+# Übersicht über die Adobe Target API
 
-[!DNL Adobe Target] APIs can be grouped according to type.
+[!DNL Adobe Target] APIs können nach Typ gruppiert werden.
 
-| API-Typ | What it enables you to do | Download-Link | Other helpful links |
+| API-Typ | Was es Ihnen ermöglicht | Download-Link | Weitere hilfreiche Links |
 | --- | --- | --- |--- |
-| Admin | Create, modify, and delete activities, audiences, offers, and other objects (including [!DNL Recommendations] entities, criteria, designs, and so on. The [!DNL Recommendations] APIs are a type of admin API.) | <UL><li>[Target Admin API Postman Collection](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[Recommendations API Postman Collection](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul> | [Recommendations APIs](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) in *Adobe Target-Tutorials verwenden* |
-| Bereitstellung | Abrufen optimierter und personalisierter Inhalte vom [!DNL Target] für den Versand bis zum Endbenutzer. | [Zielgruppe Versand API Postman Collection](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection) |  |
-| Berichterstellung | Export activity results and other reporting results. | Berichte-APIs sind in der [Zielgruppe Admin API Postman-Sammlung](https://developers.adobetarget.com/api/#admin-postman-collection)enthalten. |  |
-| Profil | Abrufen und Ändern von in Adobe Target gespeicherten Profilen. | [Target Profile API Postman Collection](https://developers.adobetarget.com/api/#profiles) |  |
+| Admin | Erstellen, ändern und löschen Sie Aktivitäten, Audiencen, Angebote und andere Objekte (einschließlich [!DNL Recommendations] Entitäten, Kriterien, Entwürfe usw.). Die [!DNL Recommendations] APIs sind eine Art Admin-API.) | <UL><li>[Zielgruppe Admin API Postman Collection](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[Recommendations API Postman Collection](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul> | [Use Recommendations APIs](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) in *Adobe Target Tutorials* |
+| Bereitstellung | Retrieve optimized and personalized content from [!DNL Target] for delivery to an end user. | [Target Delivery API Postman Collection](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection) |  |
+| Berichterstellung | Exportieren Sie Aktivitäten und andere Berichte. | Berichte-APIs sind in der [Zielgruppe Admin API Postman-Sammlung](https://developers.adobetarget.com/api/#admin-postman-collection)enthalten. |  |
+| Profil | Abrufen und Ändern von in Adobe Target gespeicherten Profilen. | [Zielgruppe Profil API Postman Collection](https://developers.adobetarget.com/api/#profiles) |  |
 
 >[!NOTE]
 >
->There are important distinctions between [!DNL Target] Admin APIs (including the [!DNL Recommendations] APIs) and [!DNL Target] Delivery APIs:
+>Es gibt wichtige Unterschiede zwischen [!DNL Target] Admin-APIs (einschließlich der [!DNL Recommendations] APIs) und [!DNL Target] Versand-APIs:
 >
->* Admin APIs let you configure various aspects of [!DNL Target] that you could also configure in the [!DNL Target] UI. Für Admin-APIs ist eine Authentifizierung erforderlich.
+>* Mit Admin-APIs können Sie verschiedene Aspekte konfigurieren, [!DNL Target] die Sie auch in der [!DNL Target] Benutzeroberfläche konfigurieren können. Für Admin-APIs ist eine Authentifizierung erforderlich.
    >
    >
 * Mit Versand-APIs können Sie Inhalte abrufen. Versand-APIs erfordern keine Authentifizierung.
