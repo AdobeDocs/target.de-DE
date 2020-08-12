@@ -2,11 +2,12 @@
 keywords: Goal &Settings;objective;priority;duration
 description: Verwenden Sie zum Verwalten des Ziels, der Priorität und der Dauer Ihrer Aktivitäten die „Aktivitätseinstellungen“.
 title: Aktivitätseinstellungen
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 90%
