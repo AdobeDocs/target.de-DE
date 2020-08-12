@@ -2,10 +2,14 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: Informationen dazu, wie mit der Adobe Target JavaScript-Bibliothek at.js beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
 title: Verwaltung von Flackern mit Adobe Target at.js
+feature: null
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 83%
 
 ---
 
@@ -32,7 +36,7 @@ Die folgende Abbildung zeigt die Aufrufe „Hide Body“ und „Show Body“ sow
 
 ![Target-Ablauf: at.js-Seitenlade-Anfrage](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x***
+**at.js 1.*x ***
 
 ![](assets/target-flow2.png)
 
@@ -46,7 +50,7 @@ Sie können das Flackern verhindern, indem Sie einen vorab ausgeblendeten Aussch
 
 at.js kann asynchron geladen werden, entweder direkt auf der Seite eingebettet oder über einen Tag-Manager (Adobe Launch, Dynamischer Tag-Manager (DTM) usw.).
 
-Wenn at.js auf der Seite eingebettet ist, muss das Codefragment vor dem Laden von at.js hinzugefügt werden. Wenn Sie at.js über einen Tag-Manager laden, der auch asynchron geladen wird, müssen Sie das Snippet vor dem Laden des Tag-Managers hinzufügen. Wenn der Tag-Manager synkronisch geladen wird, kann das Skript vor "at.js"im Tag-Manager enthalten sein.
+Wenn at.js auf der Seite eingebettet ist, muss das Codefragment vor dem Laden von at.js hinzugefügt werden. If you load at.js via a tag manager, which is also loaded asynchronously, you must add the snippet before loading the tag manager. If the tag manager is loaded syncronously, the script might be included within the tag manager before at.js.
 
 Der Code für den vorab ausgeblendeten Ausschnitt lautet wie folgt:
 
@@ -104,11 +108,11 @@ Anstelle der Standardeinstellung:
 body {opacity: 0 !important}
 ```
 
-## Flackern in at.js 2.x für triggerView() verwalten
+## Manage flicker in at.js 2.x for triggerView()
 
 Wenn Sie `triggerView()` benutzen, um zielgerichtete Inhalte in Ihrer SPA anzuzeigen, wird das Flackern vorkonfiguriert gehandhabt. Das bedeutet, dass die Pre-hiding-Logik nicht manuell hinzugefügt werden muss. Stattdessen blendet at.js 2.x im Voraus den Ort aus, an dem Ihre Ansicht angezeigt werden muss, bevor der zielgerichtete Inhalt angewendet wird.
 
-## Flackern mit getOffer() und applyOffer() verwalten
+## Manage flicker with getOffer() and applyOffer()
 
 Da es sich sowohl bei `getOffer()` als auch bei `applyOffer()` um einfache APIs handelt, sind keine Mechanismen zur Flackerverhinderung integriert. Sie können einen Selektor oder ein HTML-Element als Option an `applyOffer()` übermitteln. In diesem Fall fügt `applyOffer()` den Aktivitätsinhalt diesem Element zu, wobei Sie jedoch gewährleisten müssen, dass das Element vor dem Aufruf von `getOffer()` und `applyOffer()` vollständig ausgeblendet wurde.
 
