@@ -1,10 +1,14 @@
 ---
-keywords: Einschlussregeln; Aufnahmekriterien; Empfehlungen; neue Kriterien erstellen; Promotion; Promotions; dynamischer Filter; dynamisch; leere Werte; Filterregel ignorieren; statischer Filter; Filtern nach Wert; Entitätsattributübereinstimmung; Profilattributübereinstimmung; Parameterübereinstimmung; Filtern nach Wert; statischer Filter
-description: Informationen zum Erstellen von Einschlussregeln in Adobe Target Recommendations für Kriterien und Promotions sowie zum Hinzufügen zusätzlicher Regeln zum dynamischen oder statischen Filtern, um bessere Ergebnisse zu erzielen.
-title: Verwenden Sie dynamische und statische Einschlussregeln in Adobe Target Recommendations
+keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
+description: Informationen zum Erstellen von Inklusionsregeln in Adobe Target Recommendations für Kriterien und Promotions sowie zum Hinzufügen zusätzlicher Regeln zum dynamischen oder statischen Filtern, um bessere Ergebnisse zu erzielen.
+title: Use dynamic and static inclusion rules in Adobe Target Recommendations
+feature: null
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1453'
+ht-degree: 75%
 
 ---
 
@@ -37,7 +41,7 @@ In der folgenden Tabelle werden die Filteroptionstypen für Kriterien und Promot
 |--- |--- |--- |
 | **Dynamische Filterung** | **Entitätsattributübereinstimmung:** Dynamisches Filtern per Vergleich eines Pools mit potenziellen Empfehlungselementen mit einem speziellen Element, mit dem ein Benutzer interagiert hat.<br>Beispielsweise nur empfohlene Elemente, die mit der Marke des aktuellen Elements übereinstimmen. | ist gleich wie<br>ist nicht gleich wie<br>ist zwischen<br>enthält<br>enthält nicht<br>beginnt mit<br>endet mit<br>Wert ist präsent<br>Wert ist nicht präsent<br>ist größer oder gleich wie<br>ist kleiner oder gleich wie |
 |  | **Profilattributübereinstimmung:** Dynamisches Filtern per Vergleich von Elementen (Entitäten) mit einem Wert im Profil des Benutzers.<br>Beispielsweise nur empfohlene Elemente, die mit der Lieblingsmarke des Besuchers übereinstimmen. | ist gleich wie<br> ist nicht gleich wie<br>enthält<br>enthält nicht<br>beginnt mit<br>endet mit<br>ist größer oder gleich wie<br>ist geringer oder gleich wie<br>ist zwischen |
-|  | **Parameterübereinstimmung:** Dynamisches Filtern per Vergleich von Elementen (Entitäten) mit einem Wert in der Anforderung (API oder Mbox).<br>Beispielsweise nur empfohlene Inhalte, die mit dem Branchen-Seitenparameter übereinstimmen.<br>**Wichtig:** Wenn die Aktivität vor dem 31. Oktober 2016 erstellt wurde, schlägt die Bereitstellung bei der Verwendung des Filters „Parameterübereinstimmung“ fehl. So umgehen Sie das Problem:<ul><li>Erstellen Sie eine neue Aktivität und fügen Sie Ihre Kriterien darin hinzu.</li><li>Verwenden Sie Kriterien, die den Filter „Parameterübereinstimmung“ nicht enthalten.</li><li>Entfernen Sie den Filter „Parameterübereinstimmung“ aus Ihren Kriterien.</li></ul> | gleich<br>ist nicht gleich wie<br>enthält<br>enthält nicht<br>beginnt mit<br>endet mit<br>ist größer oder gleich wie<br>ist kleiner oder gleich wie<br>ist zwischen |
+|  | **Parameterübereinstimmung:** Dynamisches Filtern per Vergleich von Elementen (Entitäten) mit einem Wert in der Anforderung (API oder Mbox).<br>Beispielsweise nur empfohlene Inhalte, die mit dem Branchen-Seitenparameter übereinstimmen.<br>**Wichtig:**Wenn die Aktivität vor dem 31. Oktober 2016 erstellt wurde, schlägt die Bereitstellung bei der Verwendung des Filters „Parameterübereinstimmung“ fehl. So umgehen Sie das Problem:<ul><li>Erstellen Sie eine neue Aktivität und fügen Sie Ihre Kriterien darin hinzu.</li><li>Verwenden Sie Kriterien, die den Filter „Parameterübereinstimmung“ nicht enthalten.</li><li>Entfernen Sie den Filter „Parameterübereinstimmung“ aus Ihren Kriterien.</li></ul> | gleich<br>ist nicht gleich wie<br>enthält<br>enthält nicht<br>beginnt mit<br>endet mit<br>ist größer oder gleich wie<br>ist kleiner oder gleich wie<br>ist zwischen |
 | **Nach Wert filtern** | **Statischer Filter:** Geben Sie einen oder mehrere zu filternde Werte manuell ein.<br>Beispielsweise nur empfohlene Inhalte mit der MPAA-Einstufung „G“ oder „PG“. | ist gleich wie<br>ist nicht gleich wie<br>enthält<br>enthält nicht<br>beginnt mit<br>endet mit<br>Wert ist präsent<br>Wert ist nicht präsent<br>ist größer oder gleich wie<br>ist kleiner oder gleich wie |
 
 >[!NOTE]
@@ -86,20 +90,22 @@ Um die gewünschte Aktion auszuwählen, bewegen Sie den Mauszeiger über das Zah
 | Für diese Kriterien keine Ergebnisse anzeigen | Entitätsattributübereinstimmung<br>Profilattributübereinstimmung<br>Parameterübereinstimmung | Dies ist die Standardaktion für die Entitätsattributübereinstimmung.<br>Durch diese Aktion wird bestimmt, wie Target leere Werte vor dem Hinzufügen dieser Option verarbeitet hat: Für diese Kriterien werden keine Ergebnisse angezeigt. |
 | Statischen Wert verwenden | Entitätsattributübereinstimmung<br>Profilattributübereinstimmung<br>Parameterübereinstimmung | Wenn ein Wert leer ist, können Sie die Verwendung eines statischen Werts festlegen. |
 
-## Beispiele zur Profilattribut-Übereinstimmung {#section_9873E2F22E094E479569D05AD5BB1D40}
+## Profile Attribute Matching Examples {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL Mit der Profilattribut-Übereinstimmung] können Sie nur die Elemente empfehlen, die mit einem Attribut aus dem Besucherprofil übereinstimmen, wie in den folgenden Beispielen.
+[!UICONTROL Profile Attribute Matching] allows you to recommend only the items that match an attribute from the visitor&#39;s profile, as in the examples below.
 
-**Beispiel 1: Empfehlungen für Artikel aus der Lieblingsmarke** des BenutzersBeispielsweise können Sie mit der Option [!UICONTROL Profilattribut-Übereinstimmung] eine Regel erstellen, die Artikel nur dann empfiehlt, wenn die Marke dem in gespeicherten Wert oder Text entspricht `profile.favoritebrand`. Wenn ein Besucher mit einer solchen Regel nach Laufshorts von einer bestimmten Marke sucht, werden nur Empfehlungen angezeigt, die mit der Lieblingsmarke des jeweiligen übereinstimmen (dem unter `profile.favoritebrand` im Profil des Benutzers gespeicherten Wert).
+**Example 1: Recommending items from the user&#39;s favorite brand**
+For example, you can use the [!UICONTROL Profile Attribute Matching] option to create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. Wenn ein Besucher mit einer solchen Regel nach Laufshorts von einer bestimmten Marke sucht, werden nur Empfehlungen angezeigt, die mit der Lieblingsmarke des jeweiligen übereinstimmen (dem unter `profile.favoritebrand` im Profil des Benutzers gespeicherten Wert).
 
 ```
 Profile Attribute Matching
 brand - equals - the value/text stored in - profile.favoritebrand
 ```
 
-**Beispiel 2: Zuordnen von Arbeitsplätzen zu Arbeitssuchenden** Nehmen wir an, Sie versuchen, Arbeitsplätze mit Arbeitssuchenden zu verbinden. Sie möchten nur Arbeitsplätze empfehlen, die sich in derselben Stadt wie der Arbeitsuchende befinden.
+**Example 2: Matching jobs to job seekers**
+Suppose that you&#39;re trying to match jobs to job seekers. You want to recommend only jobs that are in the same city as the job seeker.
 
-Sie können Einschlussregeln verwenden, um den Standort eines Arbeitsuchenden vom Profil seines Besuchers zu einer Stellenauflistung zuzuordnen, wie im folgenden Beispiel:
+Sie können Einschlussregeln verwenden, um den Standort eines Arbeitsuchenden vom Profil seines Besuchers zu einer Stellenauflistung zuzuordnen, wie im folgenden Beispiel dargestellt:
 
 ```
 Profile Attribute Matching
@@ -108,9 +114,10 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 ## Beispiele für Übereinstimmungen von Entitätsattributen
 
-[!UICONTROL Die Zuordnung] von Entitätsattributen ermöglicht es Ihnen, nur die Artikel zu empfehlen, die mit einem Attribut übereinstimmen, entweder mit dem Artikel, den der Benutzer gerade anzeigt, dem Artikel, den er zuletzt gekauft hat, dem Artikel, den der Benutzer am häufigsten angezeigt hat, oder mit einem Artikel, der in einem benutzerspezifischen Attribut im Besucherprofil gespeichert ist, wie in den folgenden Beispielen dargestellt.
+[!UICONTROL Die Zuordnung] von Entitätsattributen ermöglicht es Ihnen, nur die Artikel zu empfehlen, die mit einem Attribut übereinstimmen, entweder mit dem Artikel, den der Benutzer gerade anzeigt, dem Artikel, den er zuletzt gekauft hat, dem Artikel, den der Benutzer am häufigsten angezeigt hat, oder mit einem Artikel, der in einem benutzerdefinierten Attribut im Profil des Besuchers gespeichert ist, wie in den folgenden Beispielen dargestellt.
 
-**Beispiel 3: Upsell auf ein teureres Produkt** Angenommen, Sie sind ein Bekleidungshändler und möchten Benutzer dazu ermutigen, teurere und damit gewinnbringendere Artikel in Betracht zu ziehen. Sie können die Operatoren "Gleich"und "Ist zwischen"verwenden, um teurere Artikel zu bewerben, die aus derselben Kategorie und derselben Marke stammen. So kann ein Besucher, der ein laufendes Unternehmen sieht, teurere Laufschuhe fördern, um einen Besucher, der sich Laufschuhe ansieht, zu verkaufen.
+**Example 3: Upselling to a more expensive product**
+Suppose that you&#39;re an apparel retailer and want to encourage users to consider higher-priced and therefore more profitable items. Sie können die Operatoren &quot;Gleich&quot;und &quot;Ist zwischen&quot;verwenden, um teurere Artikel zu bewerben, die aus derselben Kategorie und derselben Marke stammen. For example, a visitor seeing running company can promote more expensive running shoes in an effort to up-sell a visitor looking at running shoes.
 
 ```
 Entity Attribute Matching
@@ -123,7 +130,8 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-**Beispiel 4: Werbung für Produkte**, die mit einem Eigenetikett versehen sind. Sie können dynamische und statische Filter kombinieren, um Produkte mit einem privaten Etikett zu bewerben. So kann ein Bürolieferungsunternehmen beispielsweise Tonerkassetten der Firmenmarke fördern, um einen profitableren Verkauf für einen Besucher zu fördern, der sich Toner ansieht - und die Marken der Firmenmarke für einen gewinnbringenderen Verkauf für einen Besucher zu bewerben, der sich Stifte ansieht.
+**Example 4: Promoting private-label products**
+You can mix dynamic and static filters to promote private-label products. Eine Firma für die Büroversorgung kann beispielsweise Tonerkassetten der Hausmarke der Firma fördern, um einen rentableren Verkauf für einen Besucher zu fördern, der sich Toner ansieht - und um die Marke der Firma zu fördern, um einen profitableren Verkauf für einen Besucher zu fördern, der sich Stifte ansieht.
 
 ```
 Entity Attribute Matching
