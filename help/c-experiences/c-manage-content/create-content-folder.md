@@ -1,11 +1,15 @@
 ---
-keywords: Inhalt;Ordner erstellen;Assets;Ordner verschieben;Ordner kopieren;Ordner löschen;Ordner herunterladen;Ordner
+keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
 description: Erstellen Sie einen Ordner, um Elemente in der Angebotsbibliothek zu hinterlegen.
 title: Erstellen von Angebotsordnern
+feature: null
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 Erstellen Sie einen Ordner, um Elemente in der Angebotsbibliothek zu hinterlegen.
 
 1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie je nach Bedarf die Registerkarte **[!UICONTROL Code-Angebote]** oder **[!UICONTROL Bildangebote]** aus.
-1. Klicken Sie auf **[!UICONTROL Erstellen]** &gt; **[!UICONTROL Ordner]**.
+1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Ordner]**.
 1. Füllen Sie die Felder aus:
 
    | Feld | Beschreibung |
