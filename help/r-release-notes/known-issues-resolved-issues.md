@@ -2,9 +2,10 @@
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: Informationen zu bekannten Problemen in dieser Version von Adobe Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
 title: Bekannte Probleme und gelöste Probleme   in Adobe Target
+feature: null
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: f3bb126943bc5f3a44f2969e82190eac34fc5710
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3421'
 ht-degree: 88%
@@ -124,21 +125,21 @@ Wenn eine Erfolgsmetrik bei jeder Impression erhöht werden soll, zählt Target 
 
 ### Analytics for Target (A4T)
 
-Wenden Sie bei Verwendung von Impressionen und Konversionen der Zielgruppe in Analysis Workspace das Attribution IQ-Modell &quot;Gleich Touch&quot;auf die Metriken an, um eine genaue Zählung sicherzustellen. Um ein [nicht standardmäßiges Zuordnungsmodell](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)anzuwenden, klicken Sie mit der rechten Maustaste auf die Metrik, um die Spalteneinstellungen zu **ändern. Aktivieren Sie &quot;Nicht standardmäßiges Zuordnungsmodell verwenden&quot;> &quot;Gleiches Touch-Modell**&quot;auswählen. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
+Wenden Sie bei Verwendung von Impressionen und Konversionen der Zielgruppe in Analysis Workspace das Attribution IQ-Modell &quot;Gleich Touch&quot;auf die Metriken an, um eine genaue Zählung sicherzustellen. To apply a [non-default attribution model](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), right-click on the metric to **modify Column Settings > enable Use non-default attribution model > select Same Touch model**. Without this model applied, the metrics are overstated.
 
-Alle aktuellen Analytics-Pakete können dieses Modell mit Attribution IQ hinzufügen. Wenn Sie keinen Zugriff auf Attribution IQ haben, verlassen Sie sich bitte auf A4T-Daten in Reports &amp; Analysen.
+All current Analytics packages have the ability to add this model with Attribution IQ. If you do not have access to Attribution IQ, please rely on A4T data in Reports &amp; Analytics.
 
 ### Target-APIs
 
 Kunden können keine CRUD-Vorgänge für Aktivitäten mit Automatisierte Zuordnung über die v3-Version der A/B-Aktivitäten-API auf Adobe I/O durchführen.
 
-### GEO Targeting
+### GEO-Targeting
 
-Am 10. Mai 2020 haben wir unsere GEO-Provider-Dateien aktualisiert, die einige Inkonsistenzen eingeführt haben. Beispielsweise wurden einige Werte mit Kommas hinzugefügt. obwohl die Werte in bestehenden Audiencen kein Komma hatten. Nicht alle unsere Versand-Server waren von dieser Änderung betroffen. Daher haben Audiencen, die solche Werte verwenden, möglicherweise nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
+On May 10, 2020 we updated our GEO provider files, which introduced some inconsistencies. Beispielsweise wurden einige Werte mit Kommas hinzugefügt. obwohl die Werte in bestehenden Audiencen kein Komma hatten. Not all of our delivery servers were affected by this change. Daher haben Audiencen, die solche Werte verwenden, möglicherweise nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
 
-### Angebote mit der Beschriftung &quot;Verarbeitung&quot;
+### Image offers showing “Processing” label
 
-Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quot;Verarbeitung&quot;manchmal mehrere Stunden nach dem Hochladen der Bilder beibehalten. In den meisten Fällen handelt es sich hierbei nur um ein Problem mit der Bezeichnung: die Image-Angebot können weiterhin in Aktivitäten verwendet und bereitgestellt werden. In einigen Fällen ist jedoch unter Umständen kein Image-Angebot für die Aktion &quot;Inhalt ersetzen&quot;> &quot;Bild&quot;verfügbar. In diesem Fall sollten Sie das Image-Angebot erneut hochladen und nach einigen Stunden überprüfen, ob das Image-Angebot zum Austausch verfügbar ist. (TGT-37458)
+Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quot;Verarbeitung&quot;manchmal mehrere Stunden nach dem Hochladen der Bilder beibehalten. In den meisten Fällen handelt es sich hierbei nur um ein Problem mit der Bezeichnung: die Image-Angebot können weiterhin in Aktivitäten verwendet und bereitgestellt werden. In einigen Fällen ist jedoch unter Umständen kein Image-Angebot für die Aktion &quot;Inhalt ersetzen&quot;> &quot;Bild&quot;verfügbar. If this happens, you should upload the image offer again and check after a few hours to see if the image offer is available for replacement. (TGT-37458)
 
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
@@ -146,17 +147,17 @@ Wenn bekannte Probleme behoben sind, werden sie in die folgenden Abschnitte vers
 
 ### Berichte und extreme Bestellungen
 
-Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. Vom 19. Dezember 2019 bis zum 23. April 2020 trat bei einem anderen Server dasselbe Problem auf. This issue did not affect all Target servers or all Target customers.
+Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. Vom 19. Dezember 2019 bis zum 23. April 2020 trat bei einem anderen Server dasselbe Problem auf. Dieses Problem betraf nicht alle Zielgruppen- oder Zielgruppen-Server.
 
-You were *not* affected if:
+Sie wurden *nicht* betroffen, wenn:
 
-* Your Target implementation uses different servers.
-* Your reports did not exclude extreme orders.
-* You used a conversion metric to measure your activities.
-* Your Target activities use Analytics for Target (A4T).
-* You are located the Asia-Pacific (APAC) region.
+* Ihre Implementierung der Zielgruppe verwendet verschiedene Server.
+* Extreme Bestellungen wurden in Ihren Berichten nicht ausgeschlossen.
+* Sie haben zur Messung Ihrer Aktivitäten eine Konversionsmetrik verwendet.
+* Ihre Zielgruppe-Aktivitäten verwenden Analytics für die Zielgruppe (A4T).
+* Sie befinden sich in der Region Asien-Pazifik (APAC).
 
-To determine if this issue impacted your Target reporting, reach out to [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+Wenden Sie sich an den [Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB), um festzustellen, ob dieses Problem Ihren Zielgruppe-Berichte beeinflusst hat.
 
 ### Recommendations
 
