@@ -1,10 +1,14 @@
 ---
-keywords: promotions; front promotions; back promotions; Promotions-Typ
+keywords: promotions;front promotions;back promotions;promotions type
 description: Fügen Sie Promotionsartikel hinzu und steuern Sie deren Platzierung in Ihren Adobe Target-Recommendations-Designs. Sie können statische und dynamische Promotions hinzufügen.
 title: Fügen Sie Promotions in Adobe Target-Recommendations-Designs hinzu.
+feature: null
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 100%
 
 ---
 
@@ -50,12 +54,12 @@ Sie können einzelne Artikel bewerben, Artikel dynamisch bewerben, Artikel auf G
 
       Wenn Ihre Liste mehr Artikel enthält, als Slots für die Promotion festgelegt sind, können Sie das Kontrollkästchen **[!UICONTROL Elementreihenfolge randomisieren]** aktivieren, damit die Anzeige der beworbenen Artikel in Ihrem Design variiert wird. Durch die Auswahl dieser Option wählt Target die Anzahl der für Promotions aktivierten Elemente in der Vorlage aus dem gesamten Promotion-Satz für jeden Besuch zufällig aus.
 
-   * Wählen Sie **[!UICONTROL Hervorheben nach Attribut]aus und fügen Sie Regeln hinzu, um die Attribute der Artikel zu definieren, die beworben werden sollen.**
+   * Wählen Sie **[!UICONTROL Hervorheben nach Attribut]** aus und fügen Sie Regeln hinzu, um die Attribute der Artikel zu definieren, die beworben werden sollen.
 
       Wenn Sie „Hervorheben nach Attribut“ auswählen, können Sie dynamische Übereinstimmungen erstellen. Weitere Informationen finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
    * Wählen Sie **[!UICONTROL Sammlung hervorheben]** aus und wählen Sie eine Sammlung von Artikeln aus, die beworben werden soll. Sie können auch neue Sammlungen erstellen, die für Promotions verwendet werden sollen. Siehe [Erstellen einer Sammlung](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) für weitere Informationen.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern.]**.
 
 Promotions gelten für alle Erlebnisse in der Aktivität.
