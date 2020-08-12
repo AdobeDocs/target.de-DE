@@ -1,11 +1,15 @@
 ---
-keywords: Remote-Angebot;Remote-Angebot erstellen
+keywords: remote offer;create remote offer
 description: Erstellen Sie JSON-Angebote in der Angebotsbibliothek für die Verwendung im formularbasierten Experience Composer.
 title: Erstellen von JSON-Angeboten
+feature: null
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -28,13 +32,13 @@ Beachten Sie Folgendes, wenn Sie mit JSON-Angeboten arbeiten:
 
 ## Erstellen eines JSON-Angebots {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie anschließend die Registerkarte **Code-Angebote]aus.[!UICONTROL **
-1. Klicken Sie auf **[!UICONTROL Erstellen]** &gt; **[!UICONTROL JSON-Angebot]**.
+1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie anschließend die Registerkarte **[!UICONTROL Code-Angebote]** aus.
+1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL JSON-Angebot]**.
 
    ![](assets/offer-json.png)
 
 1. Geben Sie einen Angebotsnamen ein.
-1. Schreiben Sie Ihren JSON-Code in das Feld **[!UICONTROL Code]oder kopieren Sie ihn dorthin.**
+1. Schreiben Sie Ihren JSON-Code in das Feld **[!UICONTROL Code]** oder kopieren Sie ihn dorthin.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Beispiel {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
@@ -128,7 +132,7 @@ adobe.target.getOffer({
 
 ## Filterung von Angeboten nach dem JSON-Angebotstyp  {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Sie können die Angebotsbibliothek nach dem JSON-Angebotstyp filtern, indem Sie auf die Dropdownliste **[!UICONTROL Typ]** klicken und dann das Kontrollkästchen **JSON]aktivieren.[!UICONTROL **
+Sie können die Angebotsbibliothek nach dem JSON-Angebotstyp filtern, indem Sie auf die Dropdownliste **[!UICONTROL Typ]** klicken und dann das Kontrollkästchen **[!UICONTROL JSON]** aktivieren.
 
 ![](assets/offer-json-filter.png)
 
