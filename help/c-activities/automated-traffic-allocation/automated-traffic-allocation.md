@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: Die Funktion „Automatisch zuweisen“ identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und ordnet dem Gewinner automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.
 title: Automatische Zuordnung
+feature: null
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3335'
 ht-degree: 78%
@@ -133,9 +134,9 @@ Diese Faktoren können die Ergebnisse eines Tests mit automatisierter Zuordnung 
 
 Beachten Sie bei der Arbeit mit [!UICONTROL Aktivitäten zur automatischen Zuordnung] die folgenden häufig gestellten Fragen und Antworten:
 
-### Unterstützt Analytics für Zielgruppe (A4T) Aktivitäten mit automatisierter Zuordnung?
+### Does Analytics for Target (A4T) support Auto-Allocate activities?
 
-Ja. Weitere Informationen finden Sie unter Unterstützung von [Analytics für Zielgruppe (A4T) für Aktivitäten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) mit automatisierter Zuordnung bei der Erstellung von *Aktivitäten*.
+Ja. For more information, see [Analytics for Target (A4T) support for Auto-Allocate activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation*.
 
 ### Werden wiederkehrende Besucher automatisch zu leistungsstarken Erlebnissen weitergeleitet?
 
@@ -173,23 +174,23 @@ Derzeit bevorzugt die Logik Besucher, die schnell konvertieren oder die Site hä
 
 ### Kann ich den Rechner für die Stichprobengröße verwenden, wenn ich die automatisierte Zuordnung nutze, um zu schätzen, wie lange die Aktivität brauchen wird, um den Gewinner zu identifizieren?
 
-You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Wie bei herkömmlichen A/B-Tests sollten Sie Bonferroni-Korrekturen anwenden, wenn Sie mehr als zwei Angebot oder mehr als eine Konversionsmetrik/Hypothese testen.) Beachten Sie, dass dieser Rechner für herkömmliche A/B-Tests mit festem Horizont konzipiert ist und nur eine Schätzung liefert. Die Verwendung des Taschenrechners für eine Aktivität mit automatisierter Zuordnung ist optional, da die automatisierte Zuordnung einen Gewinner für Sie festlegt - Sie müssen keinen festen Zeitpunkt auswählen, um die Testergebnisse anzuzeigen - die bereitgestellten Werte sind immer statistisch gültig. In unseren Experimenten haben wir Folgendes herausgefunden:
-* Beim Testen von genau zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Testen mit einem festen Horizont (d. h. dem vom Stichprobengrößenrechner vorgeschlagenen Zeitrahmen), wenn der Leistungsunterschied zwischen den Erlebnissen groß ist. Es kann jedoch mehr Zeit erforderlich sein, um einen Gewinner zu ermitteln, wenn der Leistungsunterschied zwischen den Erlebnissen gering ist. In diesen Fällen wären Tests mit festem Horizont in der Regel ohne ein statistisch signifikantes Ergebnis beendet worden.
-* Beim Testen von mehr als zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Testen mit einem festen Horizont (d. h. der vom Stichprobengrößenrechner vorgeschlagene Zeitrahmen), wenn ein einzelnes Erlebnis alle anderen Erlebnisse deutlich übertrifft. Wenn zwei oder mehr Erlebnisse im Vergleich zu anderen Erlebnissen &quot;gewonnen&quot;werden, aber eng miteinander übereinstimmen, kann die automatische Zuordnung mehr Zeit erfordern, um festzustellen, welches Erlebnis besser ist. In diesen Fällen wären Tests mit festem Horizont normalerweise zu dem Schluss gekommen, dass die &quot;erfolgreichsten&quot;Erlebnisse besser waren als die Erlebnisse mit geringerer Leistung, aber nicht ermittelt hätten, welches Erlebnis besser war.
+You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Wie bei herkömmlichen A/B-Tests sollten Sie Bonferroni-Korrekturen anwenden, wenn Sie mehr als zwei Angebot oder mehr als eine Konversionsmetrik/Hypothese testen.) Note that this calculator is designed for traditional fixed-horizon A/B testing and provides an estimate only. Using the calculator for an Auto-Allocate activity is optional because Auto-Allocate will declare a winner for you--you don&#39;t need to pick a fixed point in time to look at the test results--the provided values are always statistically valid. In our experiments, we&#39;ve found the following:
+* When testing exactly two experiences, Auto-Allocate finds a winner more quickly than fixed-horizon testing (i.e. the timeframe suggested by the sample size calculator) when the performance difference between experiences is large, but might require extra time to identify a winner when the performance difference between experiences is small. In these cases, fixed-horizon tests would typically have ended without a statistically significant result.
+* Beim Testen von mehr als zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Testen mit einem festen Horizont (d. h. der vom Stichprobengrößenrechner vorgeschlagene Zeitrahmen), wenn ein einzelnes Erlebnis alle anderen Erlebnisse deutlich übertrifft. When two or more experiences are both &quot;winning&quot; against other experiences but closely matched to each other, Auto-Allocate might require extra time to determine which is superior. In diesen Fällen wären Tests mit festem Horizont normalerweise zu dem Schluss gekommen, dass die &quot;erfolgreichsten&quot;Erlebnisse besser waren als die Erlebnisse mit geringerer Leistung, aber nicht ermittelt hätten, welches Erlebnis besser war.
 
 ### Sollte ich ein leistungsschwaches Erlebnis aus einer Aktivität mit automatisierter Zuordnung entfernen, um den Gewinner schneller zu ermitteln?
 
-Es gibt wirklich keinen Grund, ein Erlebnis mit schlechter Leistung zu entfernen. Die automatisierte Zuordnung liefert automatisch leistungsstarke Erlebnisse häufiger und liefert weniger leistungsstarke Erlebnisse. Das Verlassen eines leistungsschwachen Erlebnisses in der Aktivität hat keine signifikanten Auswirkungen auf die Geschwindigkeit, mit der ein Gewinner ermittelt wird.
+Es gibt wirklich keinen Grund, ein Erlebnis mit schlechter Leistung zu entfernen. Auto-Allocate automatically serves high-performing experiences more often and serves under-performing experiences less often. Das Verlassen eines leistungsschwachen Erlebnisses in der Aktivität hat keine signifikanten Auswirkungen auf die Geschwindigkeit, mit der ein Gewinner ermittelt wird.
 
 20 % der Besucher werden zufällig über alle Erlebnisse verteilt. Der Traffic, der zu einem Erlebnis mit schlechter Performance geleitet wurde, ist minimal (20 % geteilt durch die Anzahl der Erlebnisse).
 
-### Kann ich die Zielmetrik in der Mitte durch eine Aktivität mit automatisierter Zuordnung ändern? {#change-metric}
+### Can I change the goal metric midway through an Auto-Allocate activity? {#change-metric}
 
 Es wird nicht empfohlen, die Zielmetrik mitten in einer Aktivität zu ändern. Obwohl die Zielmetrik während einer Aktivität mithilfe der [!DNL Target] Benutzeroberfläche geändert werden kann, sollten Sie immer eine neue Aktivität Beginn haben. Wir garantieren nicht, was passiert, wenn Sie die Sollmetrik in einer Aktivität nach der Ausführung ändern.
 
 Diese Empfehlung gilt für [!UICONTROL Aktivitäten mit automatisierter Zuordnung], [!UICONTROL automatischer Zielgruppe]und [!UICONTROL Automated Personalization] , die entweder [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte verwenden.
 
-### Kann ich die Option &quot;Berichtsdaten zurücksetzen&quot;beim Ausführen einer Aktivität für die automatische Zuordnung verwenden?
+### Can I use the Reset Report Data option while running an Auto-Allocate activity?
 
 Die Verwendung der Option [!UICONTROL Berichtsdaten] zurücksetzen für [!UICONTROL Aktivitäten mit automatisierter Zuordnung] wird nicht empfohlen. Obwohl die Daten des sichtbaren Berichte entfernt werden, entfernt diese Option nicht alle Schulungsdatensätze aus dem [!UICONTROL Modell für die automatische Zuordnung] . Anstatt die Option &quot;Berichtsdaten  zurücksetzen&quot;für [!UICONTROL Aktivitäten mit automatisierter Zuordnung] zu verwenden, erstellen Sie eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität. (Hinweis: Diese Anleitung gilt auch für [!UICONTROL Auto-Zielgruppe] - und [!UICONTROL Automated Personalization] -Aktivitäten.)
 
