@@ -2,10 +2,14 @@
 keywords: offer;prefetch;iOS;android;sdk;mobile;mobile sdk
 description: Die Vorabruffunktion von Adobe Target verwendet iOS- und Android Mobile-SDKs, um so wenig Angebotsinhalt wie möglich abzurufen, indem die Serverantworten im Cache abgelegt werden.
 title: Vorabruf des Angebotsinhalts
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 62%
 
 ---
 
@@ -19,9 +23,9 @@ Dieser Prozess reduziert die Ladezeit, verhindert multiple Netzwerkaufrufe und e
 Beachten Sie bei der Verwendung der prefetch-Methode mit den iOS- und Android Mobile SDKs die folgenden Einschränkungen:
 
 * Vorabgerufene Inhalte werden nicht über Starts hinweg behalten. Der Inhalt des vorherigen Artikels wird zwischengespeichert, solange die Anwendung aktiv ist oder bis die `clearPrefetchCache()` Methode aufgerufen wird.
-* Die Funktion "Prefetch"wird nicht unterstützt für [!UICONTROL Zuordnungsmethoden für Traffic-Zuordnungen mit automatisierter Zuordnung] und [!UICONTROL automatisiertem Targeting] , für Aktivitätstypen mit [!UICONTROL automatisierter Personalisierung] oder [!UICONTROL Recommendations] oder für [Empfehlungsangebote innerhalb einer A/B- oder XT-Aktivität](/help/c-recommendations/recommendations-as-an-offer.md).
+* Die Funktion &quot;Prefetch&quot;wird nicht unterstützt für [!UICONTROL Traffic-Zuordnungsmethoden für die automatische Zuordnung] und [!UICONTROL automatische Zielgruppe] , für [!UICONTROL Automated Personalization] - oder [!UICONTROL Recommendations] -Aktivitäten oder für [Recommendations-Angebot in einer A/B- oder XT-Aktivität](/help/c-recommendations/recommendations-as-an-offer.md).
 
 Weitere Informationen einschließlich Vorabruf-Methoden, öffentliche Klassen und Code-Beispiele finden Sie unter:
 
-* **** iOS:  Angebotsinhalte [in iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) in der *Mobile Services iOS SDK-Hilfe* vorab abrufen.
-* **** Android:  Angebotsinhalte [in Android](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) in der Hilfe zum *Mobile Services-Android-SDK abrufen*.
+* **iOS:**  [Vorab Angebot-Inhalte in iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) in der *Mobile Services iOS SDK-Hilfe* abrufen.
+* **Android:**  [Vorab Angebot-Inhalte in Android](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) in der *Mobile Services Android SDK-Hilfe* abrufen.
