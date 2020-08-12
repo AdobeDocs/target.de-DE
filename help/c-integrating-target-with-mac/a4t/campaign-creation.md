@@ -2,10 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Sie können eine Aktivität in Target Standard/Premium erstellen, um Adobe Analytics als Berichtsquelle (A4T) zu verwenden.
 title: Aktivitätserstellung
+feature: null
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: cbab5b34475b279cf3c58530665f096943ecbf95
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 22%
@@ -69,29 +70,29 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Analytics für Target (A4T)-Unterstützung für Aktivitäten mit automatisierter Zuordnung {#a4t-aa}
+## Unterstützung von Analytics for Zielgruppe (A4T) für Aktivitäten mit automatisierter Zuordnung {#a4t-aa}
 
-Wir haben die Analytics-Integration von Adobe Target zu Adobe aktualisiert, die als [Analytics zum Target](/help/c-integrating-target-with-mac/a4t/a4t.md)bezeichnet wird.
+Die Adobe Target-zu-Adobe Analytics-Integration, die als [Analytics for Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t.md)bezeichnet wird, wurde aktualisiert.
 
-[!UICONTROL Aktivitäten mit automatisierter Zuordnung] unterstützen jetzt [!UICONTROL Analytics zum Target]. Mit dieser Integration können Sie die Multi-Armed Bandit-Funktion der automatischen Zuordnung verwenden, um Traffic zu erfolgreichsten Erlebnissen zu verhelfen, während Sie eine [!DNL Adobe Analytics] [!DNL Adobe Analytics] Zielmetrik und/oder Funktionen für Berichte und Analyse verwenden. Wenn Sie A4T bereits für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten [](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)implementiert haben, können Sie loslegen!
+[!UICONTROL Aktivitäten mit automatisierter Zuordnung] unterstützen jetzt [!UICONTROL Analytics für die Zielgruppe]. Mit dieser Integration können Sie die Multi-Armed Bandit-Funktion der automatischen Zuordnung verwenden, um Traffic zu erfolgreichsten Erlebnissen zu verhelfen, während Sie eine [!DNL Adobe Analytics] [!DNL Adobe Analytics] Zielmetrik und/oder Funktionen für Berichte und Analyse verwenden. Wenn Sie A4T bereits für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten [](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)implementiert haben, können Sie loslegen!
 
 Erster Schritt:
 
 1. Erstellen Sie eine A/B-Test-Aktivität und wählen Sie **[!UICONTROL Automatisch dem besten Erlebnis]** zuordnen wie die **[!UICONTROL Traffic-Zuordnungsmethode]** auf der [!UICONTROL Targeting] -Seite.
-1. Wählen Sie **[!UICONTROL Adobe Analytics]** für Ihre **[!UICONTROL Berichte-Quelle]** auf der Seite &quot; **[!UICONTROL Ziele und Einstellungen]** &quot;und wählen Sie die Report Suite aus, die Ihrem gewünschten Optimierungsziel entspricht.
+1. Wählen Sie auf der Seite &quot; **[!UICONTROL Ziele und Einstellungen]** &quot; **[!UICONTROL Adobe Analytics]** für Ihre **[!UICONTROL Berichte-Quelle]** aus und wählen Sie die Report Suite aus, die Ihrem Optimierungsziel entspricht.
 1. Wählen Sie eine Metrik für das Primär-Ziel.
 
    Wählen Sie die **[!UICONTROL Konvertierung]** aus, [!DNL Adobe Target] um das Optimierungsziel festzulegen.
 
    Oder
 
-   Wählen Sie &quot; **[!UICONTROL Eine Analytics-Metrik]** verwenden&quot;und wählen Sie dann eine Metrik aus, die als Optimierungsziel verwendet werden [!DNL Analytics] soll. Sie können eine vordefinierte [!DNL Analytics] Konversionsmetrik oder ein [!DNL Analytics] benutzerdefiniertes Ereignis verwenden.
+   Wählen Sie **[!UICONTROL Analytics-Metrik]** verwenden und wählen Sie dann eine Metrik aus, die als Optimierungsziel verwendet werden [!DNL Analytics] soll. Sie können eine vordefinierte [!DNL Analytics] Konversionsmetrik oder ein [!DNL Analytics] benutzerdefiniertes Ereignis verwenden.
 
 1. Speichern und aktivieren Sie Ihre Aktivität.
 
    [!UICONTROL Die automatisierte Zuordnung] verwendet Ihre ausgewählte Metrik zur Optimierung der Aktivität und bringt Besucher zum Erlebnis, das Ihre Zielmetrik maximiert.
 
-1. Verwenden Sie die Registerkarte &quot; **[!UICONTROL Berichte]** &quot;, um den Berichte Ihrer Aktivität anhand Ihrer [!DNL Adobe Analytics] Metriken Ansicht. Klicken Sie auf **[!UICONTROL Ansicht in Analytics]** , um tief in Ihre Berichte-Daten einzutauchen und sie weiter zu segmentieren.
+1. Verwenden Sie die Registerkarte &quot; **[!UICONTROL Berichte]** &quot;, um den Berichte Ihrer Aktivität anhand Ihrer [!DNL Adobe Analytics] Metriken Ansicht. Klicken Sie in Analytics **[!UICONTROL auf]** Ansicht, um tief greifende Daten zu segmentieren und Ihre Berichte weiter zu segmentieren.
 
 ### Unterstützte Zielmetriken
 
@@ -101,25 +102,25 @@ Mit A4T für die [!UICONTROL automatische Zuordnung] können Sie einen der folge
 * [!DNL Adobe Analytics] Konversionsmetriken vorstellen
 * [!DNL Adobe Analytics] benutzerspezifische Ereignisse
 
-A4T für die [!UICONTROL automatische Zuordnung] erfordert die Auswahl einer Metrik, die auf einem binomialen Ereignis basiert, d. h. einem Ereignis, das entweder geschieht oder nicht, z. B. einem Klick, einer Konversion, einer Bestellung usw. (Diese Ereignisse werden manchmal auch als Bernoulli-, Binär- oder diskrete Ereignis bezeichnet.)
+A4T für die [!UICONTROL automatische Zuordnung] erfordert die Auswahl einer Metrik, die auf einem binomialen Ereignis basiert, d. h. einem Ereignis, das entweder geschieht oder nicht, z. B. einem Klick, einer Konversion, einer Bestellung usw. (These types of events are also sometimes referred to as Bernoulli, binary, or discrete events.)
 
-A4T für die [!UICONTROL automatische Zuordnung] unterstützt keine Optimierung für kontinuierliche Metriken wie Umsatz, Anzahl der bestellten Produkte, Sitzungsdauer, Anzahl der Ansichten während der Sitzung usw. (Diese nicht unterstützten Metriktypen werden manchmal auch als nicht-binomielle oder nicht-Bernoulli-Metriken bezeichnet.)
+A4T for [!UICONTROL Auto-Allocate] does not support optimization for continuous metrics such as revenue, number of products ordered, session duration, number of page views in session, etc. (These unsupported types of metrics are also sometimes referred to as non-binomial or non-Bernoulli metrics.)
 
-Die folgenden Metriktypen werden nicht als primäre Zielmetriken unterstützt:
+The following metric types are unsupported as primary goal metrics:
 
-* [!DNL Adobe Target] Interaktions- und Umsatzmetriken
+* [!DNL Adobe Target] engagement and revenue metrics
 * [!DNL Adobe Analytics] Interaktions- und Umsatzmetriken
 
    >[!NOTE]
    >
    >Es ist möglicherweise möglich, Interaktions- und Umsatzmetriken als primäre Zielmetrik auszuwählen, da [!DNL Analytics] nicht alle Interaktions- und Umsatzmetriken identifiziert werden können [!DNL Target] [!DNL Analytics]. Gehen Sie vorsichtig vor, um nur binomielle Konversionsmetriken oder benutzerdefinierte Ereignis aus [!DNL Analytics]auszuwählen.
 
-* Berechnete Adobe Analytics-Metriken
+* Adobe Analytics berechnete Metriken
 
 ### Einschränkungen und Hinweise
 
 * Die Berichte-Quelle kann nicht von [!DNL Analytics] zu [!DNL Target] oder umgekehrt geändert werden, sobald eine Aktivität aktiviert wurde.
-* Obwohl errechnete Metriken nicht als primäre Zielmetriken unterstützt werden, ist es oft möglich, das angestrebte Ergebnis zu erzielen, indem Sie stattdessen ein benutzerdefiniertes Ereignis als primäre Zielmetrik auswählen. Wenn Sie z. B. eine Metrik wie &quot;Formularabschlüsse pro Besucher&quot;optimieren möchten, wählen Sie ein benutzerdefiniertes Ereignis, das &quot;Formularabschlüsse&quot;als primäre Zielmetrik entspricht. [!DNL Target] normalisiert Konversionsmetriken automatisch pro Besuch, um eine ungleiche Traffic-Verteilung zu berücksichtigen. Daher ist es nicht erforderlich, eine berechnete Metrik für die Normalisierung zu verwenden.
+* Obwohl errechnete Metriken nicht als primäre Zielmetriken unterstützt werden, ist es oft möglich, das angestrebte Ergebnis zu erzielen, indem Sie stattdessen ein benutzerdefiniertes Ereignis als primäre Zielmetrik auswählen. For example, if you want to optimize for a metric such as &quot;form completions per visitor,&quot; select a custom event corresponding to &quot;form completions&quot; as your primary goal metric. [!DNL Target] normalisiert Konversionsmetriken automatisch pro Besuch, um eine ungleiche Traffic-Verteilung zu berücksichtigen. Daher ist es nicht erforderlich, eine berechnete Metrik für die Normalisierung zu verwenden.
 * [!DNL Target] verwendet das Zuordnungsmodell &quot;Gleich Touch&quot;in der A4T-Implementierung für die automatische Zuordnung.
 
-Weitere Informationen finden Sie unter Übersicht über die [Zuordnung](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) im Handbuch *Analytics Tools*.
+For more information, see [Attribution overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) in the *Analytics Tools Guide*.
