@@ -1,11 +1,12 @@
 ---
 keywords: settings;priority
-description: Adobe Target bestimmt, welche Aktivität (oder welche Aktivitäten) auf eine Seite unterschiedlich bereitgestellt werden soll, je nachdem, welche Target-Oberfläche und welche Aktivität-Erstellungsfunktion (Visual Experience Composer oder Form Based Composer) Sie verwenden.
-title: Priorität im Adobe Target
+description: Adobe Target legt fest, welche Aktivität (oder welche Aktivitäten) für eine Seite unterschiedlich bereitgestellt werden soll, je nachdem, welche Zielgruppe-Oberfläche und welche Aktivität-Erstellungsfunktion (Visual Experience Composer oder Form Based Composer) Sie verwenden.
+title: Priorität in Adobe Target
+feature: null
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
@@ -91,7 +92,7 @@ If your company uses [!DNL Target] requests other than the global [!DNL Target] 
 >
 >Abhängig von Ihren Einstellungen variieren auch die Prioritätswerte. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren. Weitere Informationen finden Sie unter  [Aktivitätseinstellungen](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Zwei Target Classic-Kampagnen verwenden nicht globale Target-Anforderungen**
+**Two Target Classic campaigns use non-global Target requests**
 
 * Kampagne 1: homePageHero, offer1, Priorität hoch
 * Kampagne 2: homePageHero, offer2, Priorität niedrig
