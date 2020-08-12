@@ -1,11 +1,15 @@
 ---
-keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQs;global;globale Mbox
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;global;global mbox
 description: Liste der häufig gestellten Fragen (FAQs) zu globalen Mboxes.
 title: Häufig gestellte Fragen zu globalen Mboxes
+feature: null
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 100%
 
 ---
 
