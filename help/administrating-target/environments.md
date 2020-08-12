@@ -2,10 +2,11 @@
 keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung.
 title: Umgebung
+feature: null
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 67%
@@ -27,7 +28,7 @@ Um Umgebung zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!
 
 ![Liste der Umgebung](/help/administrating-target/assets/environments.png)
 
-## Hinzufügen einer Umgebung {#section_32097D0993724DF3A202D164D3F18674}
+## hinzufügen einer Umgebung {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Klicken Sie in der Liste [!UICONTROL Umgebung] auf **[!UICONTROL Hinzufügen Umgebung]**.
 1. Geben Sie einen beschreibenden Namen für die Umgebung an.
@@ -42,7 +43,7 @@ If you use [!UICONTROL Production] as your default, all unknown hosts automatica
 
 So legen Sie die Standardumgebung für die Berichterstellung fest:
 
-1. Klicken Sie in der Liste [!UICONTROL Umgebung] auf das Symbol Stern
+1. From the [!UICONTROL Environments] list, click the Star icon
 
 >[!NOTE]
 >
@@ -50,7 +51,7 @@ So legen Sie die Standardumgebung für die Berichterstellung fest:
 
 ## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Klicken Sie in der Liste [!UICONTROL Umgebung] auf das Symbol **[!UICONTROL Bearbeiten]** .
+1. From the [!UICONTROL Environment] list, click the **[!UICONTROL Edit]** icon.
 1. Ändern Sie den Namen der Umgebung.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -58,7 +59,7 @@ So legen Sie die Standardumgebung für die Berichterstellung fest:
 
 Sie können eine Umgebung, die nicht mehr benötigt wird, löschen.
 
-1. Klicken Sie in der Liste [!UICONTROL Umgebung] auf das Symbol **[!UICONTROL Löschen]** .
+1. From the [!UICONTROL Environment] list, click the **[!UICONTROL Delete]** icon.
 1. Klicken Sie auf **[!UICONTROL Löschen]**, um den Löschvorgang zu bestätigen.
 
 >[!NOTE]
