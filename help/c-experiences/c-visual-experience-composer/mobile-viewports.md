@@ -2,9 +2,10 @@
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: Mit mobilen Viewports können Sie Vorschauen dazu erstellen, wie Ihre Adobe Target-Aktivitäten auf Bildschirmen unterschiedlicher Größe angezeigt werden.
 title: Mobile Viewports für responsive Erlebnisse
+feature: null
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 70%
@@ -142,13 +143,13 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
    ![iPhone 11 Pro Max. responsive Erlebnisse](/help/c-experiences/c-visual-experience-composer/assets/iphone11.png)
 
-1. Schalten Sie bei Bedarf zwischen Hoch- und Querformat um, indem Sie auf das gewünschte Ausrichtungssymbol klicken.
+1. If desired, toggle between portrait and landscape modes by clicking the desired orientation icon.
 
    ![Ausrichtungsoptionen](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
 ## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-Dieser Verwendungsfall zeigt, wie Erlebnisse für zwei iPhone-Versionen konfiguriert werden: iPhone 6 und iPhone 6 Plus.
+This use case shows how to configure experiences for two iPhone versions: iPhone 6 and iPhone 6 Plus.
 
 1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
 1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
@@ -162,7 +163,7 @@ Dieser Verwendungsfall zeigt, wie Erlebnisse für zwei iPhone-Versionen konfigur
 
    ![](assets/iphoneviewportconfig.png)
 
-1. Erstellen Sie eine Aktivität mit dem Erlebnis, das Sie Zielgruppe wünschen.
+1. Create an activity with the experience you would like to target.
 1. Wählen Sie das Erlebnis aus, das Sie für Benutzer bereitstellen möchten, die über ein iPhone 6 oder iPhone 6 Plus auf Ihre Site zugreifen.
 1. Klicken Sie für die Auswahl Ihres Ziels auf **[!UICONTROL Zielgruppe erstellen]** und konfigurieren Sie wie unten dargestellt eine Zielgruppe:
 
@@ -191,6 +192,6 @@ Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Expe
 
 ### Kontovoreinstellungen in der Adobe Target- ![Übersichtskennzeichnung](/help/assets/overview.png)
 
-Dieses Video enthält Informationen zum Einrichten von mobilen Viewports, beginnend um 4:40 Uhr im Video.
+This video includes information about setting up mobile viewports, beginning at 4:40 in the video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
