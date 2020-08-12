@@ -2,9 +2,10 @@
 keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reporting source
 description: Sollten Sie eine ältere Version von „at.js“ oder „mbox.js“ verwenden, müssen Sie einen Trackingserver für Aktivitäten angeben, bei denen Analytics for Target (A4T) zum Einsatz kommt.
 title: Verwenden eines Analytics-Trackingservers
+feature: null
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 39%
@@ -26,7 +27,7 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität wie
 
 1. Öffnen Sie auf der Seite, auf der Sie Ihre Aktivität erstellen, die [!DNL Adobe Experience Cloud Debugger].
 
-   Wenn Sie den Debugger nicht installiert haben, finden Sie weitere Informationen unter Experience Cloud-Debugger [installieren](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
+   Wenn Sie den Debugger nicht installiert haben, finden Sie weitere Informationen unter [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html)installieren.
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
@@ -35,6 +36,7 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität wie
    * (für CNAME-Implementierungen)
    * (für Implementierungen ohne RDC)
    * (für RDC-Implementierung)
+
    *Firma* steht für den Namen der [!DNL Analytics] Firma, *Metriken* sind ein Beispiel für einen CNAME-Wert und *d1* ist ein Beispiel für ein [!DNL Analytics] Rechenzentrum.
 1. Kopieren Sie den Inhalt des Felds vollständig.
 1. Fügen Sie die Daten im Abschnitt zu [!UICONTROL Berichtseinstellungen] im Bildschirm „[!UICONTROL Ziele und Einstellungen]**[!UICONTROL “ in das Feld Trackingserver]** ein.
