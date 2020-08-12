@@ -1,11 +1,15 @@
 ---
-keywords: Priorität;Erlebnis erstellen;Prioritäten;Erlebnis;Zielgruppe;Erlebnisse;Erlebnisse wechseln;Visual Experience Composer
+keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: Informationen dazu, wie Besucher bei sich entwickelnden Profilen im Erlebnis-Targeting (XT) zwischen Erlebnissen wechseln können.
 title: Wechsel zwischen Aktivitäten im Erlebnis-Targeting
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 100%
 
 ---
 
@@ -38,24 +42,24 @@ Damit diese Funktionen in [!DNL Target] sinnvoll eingesetzt werden können, müs
 
    In der folgenden Aktivitätseinstellung hat ein Besucher beispielsweise erst aus den USA und dann aus Deutschland auf Ihre Website zugegriffen. Während des ersten Besuchs qualifizierte er sich für Erlebnis A (Besucher in den USA). Nach dem Website-Besuch aus Deutschland wechselte der Besucher zu Erlebnis B (Besucher in Deutschland).
 
-   ![Priorität USA &gt; Deutschland](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+   ![Priorität USA > Deutschland](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **Besucher wechseln außerdem zwischen Erlebnissen, wenn sie sich nicht mehr für ihre aktuelle Zielgruppe qualifizieren, dafür aber für ein Erlebnis geringerer Priorität.**
 * **Wenn Besucher sich nicht mehr für ihr aktuelles Erlebnis qualifizieren und sich für kein anderes Erlebnis qualifizieren, wird ihnen standardmäßiger Inhalt angezeigt.**
 
    In der folgenden Aktivitätseinstellung hat ein Besucher beispielsweise erst aus den USA und dann aus Frankreich auf Ihre Website zugegriffen. Während des ersten Besuchs qualifizierte er sich für Erlebnis A (Besucher in den USA). Nach dem Besuch Ihrer Website aus Frankreich wird dem Besucher weiterhin das Originalerlebnis angezeigt.
 
-   ![Priorität USA &gt; Deutschland](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+   ![Priorität USA > Deutschland](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **Ein Erlebnis, das auf „Alle Besucher“ abzielt, kann als das letzte Erlebnis der entsprechenden Targeting-Aktivität eingesetzt werden, um auch die Besucher zu erfassen, die bei keinem anderen Erlebnis erfasst wurden. Wenn ein Erlebnis, das auf „Alle Besucher“ abzielt, nicht das letzte in der Reihenfolge ist, werden auch andere, niedriger eingestufte zielgerichtete Erlebnisse ausgewertet.**
 
    In der folgenden Aktivitätseinstellung hat ein Besucher beispielsweise erst aus den USA und dann aus Deutschland auf Ihre Website zugegriffen. Während des ersten Besuchs qualifizierte er sich für Erlebnis A (Besucher in den USA). Nach Besuch Ihrer Website aus Deutschland bleibt der Besucher Teil von Erlebnis A (Besucher in den USA).
 
-   ![Priorität USA &gt; Alle Besucher](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
+   ![Priorität USA > Alle Besucher](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
 
    Sollten Sie dies nicht wünschen, können Sie eine neue Zielgruppe erstellen, die explizit als Gegenteil der gewünschten Zielgruppe definiert wurde, wie im folgenden Beispiel gezeigt:
 
-   ![Priorität USA &gt; Nicht USA](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
+   ![Priorität USA > Nicht USA](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
 
 * **Bei einer XT-Aktivität mit nur einem Erlebnis verbleiben Besucher im Erlebnis, selbst wenn sie sich nicht mehr für die Zielgruppe qualifizieren, durch die sie diesem Erlebnis zugeordnet wurden.**
 
@@ -69,5 +73,5 @@ Damit diese Funktionen in [!DNL Target] sinnvoll eingesetzt werden können, müs
 
    Es ist dabei wichtig, Szenarien zu berücksichtigen, bei denen sich ein Besucher für mehr als eine der Zielgruppen qualifiziert. Wenn Sie beispielsweise über die beiden Erlebnisse „USA“ und „New York“ verfügen, qualifiziert sich ein Besucher aus New York für beide Zielgruppen. Sie müssen somit darauf achten, dass das Erlebnis „New York“ in der Target-Benutzeroberfläche vor dem Erlebnis „USA“ definiert wird. Somit ist gewährleistet, dass das zielgerichtetere Erlebnis „New York“ die höhere Priorität genießt, siehe Beispiel unten:
 
-   ![Priorität NY &gt; USA](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
+   ![Priorität NY > USA](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
 
