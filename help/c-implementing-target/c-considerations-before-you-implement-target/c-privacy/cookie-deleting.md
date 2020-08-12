@@ -1,10 +1,11 @@
 ---
 description: Löschen Sie Ihre Target-Browsercookies, sodass Sie alle Ihre Erlebnisse validieren können.
-title: Löschen des Adobe Target-Cookies
+title: Delete the Adobe Target cookie
+feature: null
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 871250ecaadafa7e9b56fad7e211f258767e3c18
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 5%
@@ -29,7 +30,7 @@ Version 84.0.4147.105
 1. Klicken Sie auf das **Chrome** -Menü > **Voreinstellungen**.
 1. Klicken Sie auf die Registerkarte **Datenschutz und Sicherheit** .
 1. Klicken Sie auf **Cookies und andere Site-Daten**.
-1. Klicken Sie auf Alle Cookies und Site-Daten **anzeigen**.
+1. Click **See all cookies and site data**.
 1. Erweitern Sie den `adobe.com` Abschnitt, wählen Sie das **mbox** -Cookie und klicken Sie dann auf das Löschsymbol (X).
 
 ## Löschen Sie das Cookie &quot;Zielgruppe&quot;aus Mozilla Firefox
@@ -49,19 +50,19 @@ Version 79.0
 
 ### Löschen eines einzelnen Cookies (mbox)
 
-1. Klicken Sie in Firefox auf **Werkzeuge** > **Webentwickler** > **Datenspeicherung-Inspektor**.
+1. In Firefox, click **Tools** > **Web Developer** > **Storage Inspector**.
 1. Click the **Advanced** tab.
-1. Navigieren Sie zu der Webseite, auf der sich das zu löschende Cookie befindet.
-1. Erweitern Sie den Abschnitt **Cookies** und klicken Sie auf `https://experience.adobe.com`.
+1. Navigate to the webpage that holds the cookie you want to delete.
+1. Expand the **Cookies** section, then click `https://experience.adobe.com`.
 1. Klicken Sie mit der rechten Maustaste auf das **mbox** -Cookie und dann auf **Löschen**.
 
 ## Löschen des Zielgruppen-Cookies aus Microsoft Edge
 
 Version 84.0.522.52
 
-1. Klicken Sie auf das Menü **Microsoft Edge** > **Voreinstellungen**.
+1. Click the **Microsoft Edge** menu > **Preferences**.
 1. Click the **Site Permissions** tab.
-1. Klicken Sie auf **Cookies und Site-Daten**.
+1. Click **Cookies and site data**.
 1. Klicken Sie auf Alle Cookies und Site-Daten **anzeigen**.
 1. Erweitern Sie den `adobe.com` Abschnitt, wählen Sie das **mbox** -Cookie und klicken Sie dann auf das Löschsymbol (X).
 
@@ -73,20 +74,20 @@ Version 13.1.2
 
 1. Klicken Sie auf das **Safari** -Menü > **Voreinstellungen**.
 1. Click the **Privacy** tab.
-1. Klicken Sie auf Website-Daten **verwalten**.
+1. Click **Manage Website Data**.
 1. Wählen Sie die Sites für die Cookies aus, die Sie löschen möchten, und klicken Sie dann auf **Entfernen**.
 
    >[!NOTE]
    >
-   >Dadurch werden alle mit der `adobe.com` Site verknüpften Cookies gelöscht. Wenn Sie ein einzelnes Cookie für eine Site löschen möchten, befolgen Sie die unten stehenden Anweisungen.
+   >This deletes all cookies associated with the `adobe.com` site. If you want to delete an individual cookie for a site, follow the instructions below.
 
-### Löschen eines einzelnen Cookies (mbox)
+### Delete an individual cookie (mbox)
 
-1. Klicken Sie auf das **Safari** -Menü > **Voreinstellungen**.
+1. Click the **Safari** menu > **Preferences**.
 1. Click the **Advanced** tab.
 1. Wählen Sie in der Menüleiste die Option &quot;Entwicklung **anzeigen&quot;** .
-1. Navigieren Sie zu der Webseite, auf der sich das zu löschende Cookie befindet.
-1. Klicken Sie auf das **Entwicklungsmenü** > Web-Inspektor **anzeigen**.
+1. Navigate to the webpage that holds the cookie you want to delete.
+1. Click the **Develop** menu > **Show Web Inspector**.
 1. Click the **Storage** tab.
 1. Erweitern Sie den Abschnitt **Cookies** und klicken Sie auf `www.adobe.com`.
-1. Klicken Sie mit der rechten Maustaste auf das **mbox** -Cookie und dann auf **Löschen**.
+1. Right-click the **mbox** cookie, then click **Delete**.
