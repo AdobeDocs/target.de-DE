@@ -1,11 +1,12 @@
 ---
 keywords: qa;preview;preview links;adobe target;target
-description: Verwenden Sie Adobe Target-QS-URLs, um eine durchgängige Qualitätssicherung mit Vorschauen-Links durchzuführen, die sich nie ändern, optionales Targeting von Audiencen und QS-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
+description: Verwenden Sie Adobe Target QA-URLs, um eine durchgängige Qualitätssicherung mit Vorschauen-Links durchzuführen, die sich nicht ändern, optionales Targeting von Audiencen und QS-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
 title: Aktivitäts-QA
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 79%
@@ -24,7 +25,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 * Links für die Freigabe für Team-Mitglieder, die sich nie ändern oder nie neu generiert werden müssen. Dies ist unabhängig von an den Erlebnissen oder Aktivitäten vorgenommenen Aktualisierungen. Dadurch können Sie Ihre Aktivitäten vollständig über die gesamte User Journey hinweg testen.
 * Zielgruppenbedingungen werden optional respektiert, sodass Vermarkter Targeting-Kriterien testen oder Targeting-Kriterien für QA ignorieren können, ohne die Zielgruppenbedingungen erfüllen zu müssen.
 * QA-Berichte werden erfasst, sodass Vermarkter bestätigen können, dass Metriken erwartungsgemäß inkrementiert werden und die QA-Berichtsdaten von den Produktionsberichten separiert bleiben (für Nicht-A4T-Berichte).
-* Die Fähigkeit, ein Erlebnis isoliert oder in Verbindung mit anderen Live-Aktivitäten, die die Kriterien des Versands erfüllen (Seitenanfrage/Target-Anforderung/Audience), Vorschau.
+* Die Fähigkeit, ein Erlebnis isoliert oder in Verbindung mit anderen Live-Aktivitäten, die die Kriterien des Versands erfüllen (Seitenanfrage/Zielgruppe/Audience), Vorschau.
 * Die Fähigkeit, einen QA-Bericht der gesamten User Journey zu erstellen. Mit dem QA-Link können Sie einmal auf Ihre Seite zugreifen und die gesamte Seite in Aktivitäts-QA durchsuchen. Sie bleiben in Activity-QA, bis Sie die Sitzung beenden oder Sie das  [QA Target-Bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) verwenden, um das Beenden von Aktivitäts-QA zu erzwingen. Diese Funktion ist besonders hilfreich, wenn Sie eine Aktivität haben, die sich über mehrere Webseiten erstreckt.
 
    >[!NOTE]
@@ -45,7 +46,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
       Wenn sich diese Einstellung in der Stellung „aus“ befindet, werden beim Klicken auf die Links die Erlebnisse angezeigt (unabhängig davon, ob Sie sich qualifizieren oder nicht). Bei der QA-Ausführung können Sie die Festlegung einer erforderlichen bzw. nicht erforderlichen Respektierung des Zielgruppen-Targetings ändern.
 
-   * **Standardinhalt für alle anderen Aktivitäten anzeigen:** Wenn diese Option auf die &quot;on&quot;-Position umgeschaltet wird, wird Standardinhalt für alle anderen Aktivitäten angezeigt (z. B. wird die Vorschau isoliert angezeigt, ohne alle anderen Live-Aktivitäten auf derselben Seite/[!DNL Target] Anforderung zu berücksichtigen).
+   * **Show Default Content for All Other Activities:** If this option is toggled to the &quot;on&quot; position, default content is shown for all other activities (for example, the preview will be shown in isolation without considering all other live activities on the same page/[!DNL Target] request.
 
       Achten Sie auf Folgendes, wenn diese Einstellung auf „aus“ festgelegt ist:
 
@@ -59,7 +60,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
    Mithilfe der einzelnen Activity-Link-URLs (für Exp A, Exp B usw.) können Sie die User Journey vom entsprechenden Erlebnis starten. Sie können auf die für ein Erlebnis generierte URL klicken und dann mit dem normalen Website-Browsing fortfahren, um Erlebnisse auf mehreren Seiten anzuzeigen (wenn mehrere Seiten vorhanden sind). Pro Erlebnis wird nur eine URL generiert. Dies ist selbst dann der Fall, wenn das Erlebnis mehrere Seiten überspannt (Vorlagentest oder Test mit mehreren Seiten).
 
-   Sie können auf der Website navigieren, um die anderen Seiten anzuzeigen, weil Aktivitäts-QA hängt. Beachten Sie, dass dies für at.js-Implementierungen mit Version 2 gilt.*x* oder höher. Für at.js 1.*x* - und mbox.js-Implementierungen ist dies nur der Fall, wenn der Browser des Besuchers keine Drittanbieter-Cookies blockiert.
+   Sie können auf der Website navigieren, um die anderen Seiten anzuzeigen, weil Aktivitäts-QA hängt. Beachten Sie, dass dies für at.js-Implementierungen mit Version 2 gilt.*x* oder höher. For at.js 1.*x* and mbox.js implementations, this is true only if the visitor&#39;s browser doesn&#39;t block third-party cookies.
 
 1. Wenn Sie die über Activity-Link-URLs generierten Berichte anzeigen möchten, klicken Sie auf die Seite **[!UICONTROL Berichte]** der Aktivität, klicken Sie auf das Symbol **[!UICONTROL Einstellungen]** (![](assets/icon_gear.png)) und wählen Sie dann **[!UICONTROL QS-Modus]** aus der Dropdown-Liste **[!UICONTROL Umgebung]** aus.
 
@@ -81,9 +82,9 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
    Aufgrund dieser doppelten Kodierung kann Target den richtigen Tokenwert nicht extrahieren, wenn Sie versuchen, `at_preview_token` zu dekodieren, wodurch die Vorschau nicht funktioniert.
 
-   Es wird empfohlen, mit Ihrem IT-Team zu sprechen, um sicherzustellen, dass alle Vorschau-Parameter so auf die Zulassungsliste gesetzt werden, dass diese Werte in keiner Weise verändert werden.
+   We recommend that you talk to your IT team to ensure that all preview parameters are allowlisted so that these values are not transformed in any way.
 
-   In der folgenden Tabelle sind die Listen aufgeführt, die in Ihrer Domäne verwendet werden können:
+   The following table lists the parameters that can be allowlisted in your domain:
 
    | Parameter | Typ | Wert | Beschreibung |
    |--- |--- |--- |--- |
