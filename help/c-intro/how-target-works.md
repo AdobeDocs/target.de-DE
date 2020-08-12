@@ -2,11 +2,12 @@
 keywords: Overview and Reference;SEO;search engine optimization
 description: 'Adobe Target wird mithilfe einer von zwei JavaScript-Bibliotheken in Websites integriert: at.js oder mbox.js'
 title: Funktionsweise von Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 94%
@@ -98,9 +99,9 @@ Jeder Edge-Knoten verfügt über alle notwendigen Informationen, um auf die Inha
 
 ![Karte mit Core-Edge-Standorten und Edge-Standorten](assets/edge_network.png)
 
-Die Quelle für dieses Bild ist das Whitepaper [Adobe Zielgruppe Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
+Die Quelle für dieses Bild ist das Whitepaper [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
 
-Die Adobe Target-Lösung wird auf Adobe-eigenen und von Adobe geleasten Rechenzentren auf der ganzen Welt gehostet. Administrationsserver werden zur Gänze in Rechenzentren von Adobe in London, Singapur und mehreren Standorten in den USA gehostet, darunter Oregon und Virginia. Edge-Server werden sowohl auf Adobe-eigenen als auch auf Adobe-gemieteten Servern in Amazon AWS-Rechenzentren in London, Hong Kong SAR in China, Singapur, Tokio und Sydney gehostet.
+Die Adobe Target-Lösung wird auf Adobe-eigenen und von Adobe geleasten Rechenzentren auf der ganzen Welt gehostet. Administrationsserver werden zur Gänze in Rechenzentren von Adobe in London, Singapur und mehreren Standorten in den USA gehostet, darunter Oregon und Virginia. Edge-Server werden sowohl auf Adoben- als auch auf Adoben-Leasingservern in Amazon AWS-Rechenzentren in London, Hong Kong SAR in China, Singapur, Tokio und Sydney gehostet.
 
 An den Administrationsserver-Standorten befinden sich sowohl ein Datenerfassungscenter als auch ein Datenverarbeitungscenter. Edge-Standorte umfassen nur ein Datenerfassungscenter. Jede Report Suite wird einem speziellen Datenverarbeitungscenter zugewiesen.
 
@@ -110,7 +111,7 @@ Anstatt auf alle Targeting-Anfragen an einem einzigen Standort zu antworten, wer
 >
 >[!DNL Adobe Target] verfügt derzeit über kein Edge-Netzwerk in China, weshalb die Endnutzerleistung für [!DNL Target] für Kunden in China weiterhin eingeschränkt ist. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-Sie können bei Bedarf Zielgruppen-Randnotizen zulassen. Weitere Informationen finden Sie unter [Zulässige Zielgruppe Kantenknoten](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
+Sie können bei Bedarf Zielgruppen-Randnotizen in Zulassungslisten anzeigen. Weitere Informationen finden Sie unter Edge-Knoten [der Zulassungsliste-Zielgruppe](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
 ## Protected User Experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
