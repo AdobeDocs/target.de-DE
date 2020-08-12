@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
 description: Den Gewinner in einer A/B-Aktivität mit automatisierter Zuordnung erkennen Sie an Indikatoren in der Target-Benutzeroberfläche.
 title: Ermitteln eines Gewinners
+feature: null
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 0c54560d1f19b498c3c541a2146aeeaf33f5bd17
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 50%
@@ -15,7 +16,7 @@ ht-degree: 50%
 
 # Berichte zur automatischen Zuordnung interpretieren {#determine-a-winner}
 
-Interpretieren Sie die Ergebnisse einer A/B-Aktivität mit automatisierter Zuordnung, indem Sie wichtige Indikatoren wie Steigerung und Konfidenz in der Benutzeroberfläche des Targets untersuchen.
+Interpretieren Sie die Ergebnisse einer A/B-Aktivität mit automatisierter Zuordnung, indem Sie wichtige Indikatoren wie Steigerung und Konfidenz in der Benutzeroberfläche der Zielgruppe untersuchen.
 
 Viele Marketingexperten machen den Fehler, ein Erlebnis vorzeitig zum Gewinner zu erklären, bevor endgültige Ergebnisse vorliegen. Wir haben es nun leichter für Sie gemacht, den Gewinner zu ermitteln.
 
@@ -49,7 +50,7 @@ Bei normalen A/B-Tests wird die Konfidenz basierend auf P-Werten berechnet. Für
 
 >[!IMPORTANT]
 >
->Target zeigt einen Gewinner nach einer vordefinierten Mindestanzahl an Konversionen an; Die endgültige Entscheidung, den Gewinner auszuwählen, sollte jedoch immer auf den Ergebnissen des [Stichprobengrößenrechners](https://docs.adobe.com/content/target-microsite/testcalculator.html)des Adobe Targets basieren. Target berücksichtigt nicht die grundlegenden Konversionsraten einer Site und andere wichtige Aspekte, die in den Rechner eingespeist werden, um die Dauer der Aktivität zu bestimmen. Infolgedessen könnte Target aufgrund einer Mindestanzahl von Konversionen einen Gewinner früher anzeigen, als dies aufgrund einer Mindestanzahl von Konversionen erforderlich ist. Weitere Informationen finden Sie unter [Stichprobengrößenrechner](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Zielgruppe zeigt einen Gewinner nach einer vordefinierten Mindestanzahl an Konversionen an; Die endgültige Entscheidung, den Gewinner auszuwählen, sollte jedoch stets auf den Ergebnissen des Adobe Target- [Stichprobengrößenrechners](https://docs.adobe.com/content/target-microsite/testcalculator.html)basieren. Zielgruppe berücksichtigt nicht die grundlegenden Konversionsraten einer Site und andere wichtige Aspekte, die in den Rechner eingespeist werden, um die Dauer der Aktivität zu bestimmen. Infolgedessen könnte die Zielgruppe aufgrund einer Mindestanzahl von Konversionen einen Gewinner früher als erforderlich anzeigen. Weitere Informationen finden Sie unter [Stichprobengrößenrechner](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Lift- und Confidence-Berichte in Aktivitäten mit automatisierter Zuordnung verstehen {#lift-confidence}
 
@@ -57,9 +58,9 @@ In Aktivitäten mit automatisierter Zuordnung wird das erste Erlebnis (standardm
 
 Der numerische Wert &quot;Steigerung&quot;und die Grenzen von 95 % für jedes Erlebnis werden immer unter Bezugnahme auf das definierte Erlebnis &quot;Kontrolle&quot;berechnet. Das definierte Kontrollerlebnis kann keine Steigerung im Verhältnis zu sich selbst aufweisen. Daher wird für dieses Erlebnis ein leerer &quot;—&quot;-Wert gemeldet. Im Gegensatz zu A/B-Tests wird bei Tests mit automatisierter Zuordnung kein negativer Steigerungswert gemeldet, wenn ein Erlebnis schlechter als die definierte Kontrolle ausfällt. stattdessen wird &quot;—&quot;angezeigt.
 
-Die angezeigten Vertrauensbereich-Balken stellen das Konfidenzintervall von 95 % um die mittlere Schätzung des Konversionsraten eines Erlebnisses dar. Diese sind auch in Bezug auf das definierte Kontrollerlebnis farbkodiert. Die Leiste des Erlebnisses &quot;Control&quot;ist immer grau gefärbt. Die Teile der Konfidenzintervalle unter dem Konfidenzintervall des &quot;Control&quot;-Erlebnisses sind rot und die Teile der Konfidenzintervalle über dem Kontrollerlebnis grün.
+Die angezeigten Vertrauensbereich-Balken stellen das Konfidenzintervall von 95 % um die mittlere Schätzung des Konversionsraten eines Erlebnisses dar. Diese sind auch in Bezug auf das definierte Kontrollerlebnis farbkodiert. The “Control” experience’s bar is always colored gray. The portions of confidence intervals below the “Control” experience’s confidence interval are colored red and the portions of confidence intervals above the “Control” experience are colored green.
 
-Ein Gewinner wird gefunden, wenn sich das 95 %-Vertrauensintervall des führenden Erlebnisses nicht mit anderen Erlebnissen überschneidet. Das Gewinner-Erlebnis wird mit einem grünen Sternzeichen links neben dem Erlebnisnamen und im Banner &quot;Gewinner&quot;gekennzeichnet. Wenn kein Stern sichtbar ist, lautet das Banner &quot;Noch kein Gewinner&quot;und ein Gewinner wurde noch nicht gefunden.
+A winner is found when the leading experience’s 95% Confidence Interval is not overlapping with any other experiences. The winning experience is designated with a green star badge to the left of the experience name and in the “Winner” banner. When no star is visible, the banner reads “No Winner Yet” and a winner has not yet been found.
 
 Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine &quot;Konfidenz&quot;angezeigt. Diese Zahl wird erst gemeldet, wenn die Konfidenz des führenden Erlebnisses mindestens 60 % erreicht hat. Wenn genau zwei Erlebnisse im Experiment mit automatisierter Zuordnung vorhanden sind, stellt diese Zahl das Vertrauensniveau dar, dass das Erlebnis eine bessere Leistung erzielt als das andere Erlebnis. Wenn im Experiment mit der automatischen Zuordnung mehr als zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, das das Erlebnis besser abschneidet als das definierte Kontrollerlebnis. Wenn das Kontrollerlebnis gewinnt, wird keine &quot;Konfidenz&quot;angegeben.
 
