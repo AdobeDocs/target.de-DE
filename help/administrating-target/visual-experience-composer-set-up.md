@@ -1,10 +1,11 @@
 ---
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
 description: Konfigurieren Sie den Adobe Target Visual Experience Composer (VEC), indem Sie seine allgemeinen Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
-title: Adobe Target Visual Experience Composer konfigurieren
+title: Configure the Adobe Target Visual Experience Composer
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 51%
@@ -12,21 +13,21 @@ ht-degree: 51%
 ---
 
 
-# Konfigurieren des Visual Experience Composer
+# Configure the Visual Experience Composer
 
-Konfigurieren Sie den [!DNL Adobe Target] Visual Experience Composer  (VEC), indem Sie dessen allgemeine Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
+Configure the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) by specifying its general settings, mobile viewport configuration, and CSS selectors.
 
 Um auf die Konfigurationsseite des [!UICONTROL Visual Experience Composer] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
 >
->Beachten Sie, dass die Einstellungen auf dieser Seite für das gesamte [!DNL Target] Konto gelten.
+>Be aware that settings on this page apply to the entire [!DNL Target] account.
 
-![Konfigurationsseite von Visual Experience Composer](/help/administrating-target/assets/vec.png)
+![Visual Experience Composer configuration page](/help/administrating-target/assets/vec.png)
 
 ## Allgemeine Einstellungen
 
-Sie können allgemeine Einstellungen für den Visual Experience Composer angeben.
+You can specify general settings to the Visual Experience Composer.
 
 ![Abschnitt &quot;Allgemeine Einstellungen&quot;](/help/administrating-target/assets/general-settings.png)
 
@@ -48,9 +49,9 @@ You can also enable the [!UICONTROL Enhanced Experience Composer] at the activit
 
 Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
 
-Diese Option ist hilfreich, wenn Sie zum Beispiel:
+This option is helpful if, for example:
 
-* Ihre CSP-Header (Content Security Policy) ermöglichen das Laden von gemischten Inhalten ohne die Verwendung von Proxyservern mit aktivierter EWG.
+* Your Content Security Policy (CSP) headers allow loading mixed content without the use of proxy servers with the EEC enabled.
 * Ihre HTTP-Website hat in der EWG eine längere Ladezeit, wodurch JavaScript, Bilder usw. länger über einen Proxy geladen werden müssen.
 
 ### Generieren von Erlebnismomentaufnahmen im Flussdiagramm der Aktivität
@@ -103,6 +104,6 @@ In diesem Video finden Sie Informationen zu Kontovoreinstellungen.
 
 >[!NOTE]
 >
->Die Benutzeroberfläche des [!DNL Target] Administrationsmenüs [!UICONTROL (früher] Setup ) wurde überarbeitet, um die Leistung zu verbessern, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu verkürzen und die Benutzerfreundlichkeit im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
+>The [!DNL Target] [!UICONTROL Administration] menu UI (formerly [!UICONTROL Setup]) has been redesigned to provide improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. Die Informationen im folgenden Video sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
