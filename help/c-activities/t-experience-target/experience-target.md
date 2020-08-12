@@ -1,10 +1,14 @@
 ---
-keywords: Targeting;Erlebnis-Targeting;XT;Landingpage;Landingpage-Kampagne
+keywords: Targeting;experience targeting;xt;landing page;landing page campaign
 description: Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basierend auf einem Satz aus vermarkterdefinierten Regeln und Kriterien bereitgestellt.
 title: Erlebnis-Targeting
+feature: null
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +41,7 @@ Dieses Video beschreibt, wie Sie A/B-Tests mit Erlebnis-Targeting (XT) erweitern
 * Bereitstellung standortspezifischer Inhalte für Zielgruppen in unterschiedlichen Gebieten
 * Neusortierung von Erlebnissen, um zu gewährleisten, dass der richtige Inhalt der richtigen Zielgruppe bereitgestellt wird
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Aktivitätstypen (9:03)
 
@@ -47,4 +51,4 @@ In diesem Video werden die in Target Standard/Premium verfügbaren Aktivitätsty
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
