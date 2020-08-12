@@ -1,9 +1,10 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
-description: Informationen zum Arbeiten mit einem Feld mit mehreren Werten in Adobe Target Recommendations mithilfe spezieller Operatoren mit mehreren Werten.
+description: Information about working with a multi-value field in Adobe Target Recommendations using special multi-value operators.
 title: Arbeiten mit Attributen mit mehreren Werten in Adobe Target Recommendations
+feature: null
 translation-type: tm+mt
-source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -11,19 +12,19 @@ ht-degree: 0%
 ---
 
 
-# Arbeiten mit Attributen mit mehreren Werten
+# Work with multi-value attributes
 
 Manchmal möchten Sie mit einem Feld mit mehreren Werten arbeiten. Sehen Sie sich folgende Beispiele an:
 
 * Sie können Angebote an Benutzer senden. Ein Film hat mehrere Schauspieler.
 * Sie verkaufen Tickets für Konzerte. Ein Benutzer hat mehrere Lieblingsbands.
-* Du verkaufst Kleidung. Ein Hemd ist in verschiedenen Größen erhältlich.
+* You sell clothing. A shirt is available in multiple sizes.
 
 Um Empfehlungen in diesen Szenarien zu bearbeiten, können Sie Daten mit mehreren Werten an spezielle Operatoren weiterleiten [!DNL Target Recommendations] und diese verwenden.
 
-Um Daten mit mehreren Werten [!DNL Recommendations] zu identifizieren, sollten diese wie in den folgenden Codebeispielen als JSON-Array gesendet werden.
+To allow [!DNL Recommendations] to identify multi-value data, it should be sent as a JSON array, as in the below code samples.
 
-## Übergeben eines Parameters mit mehreren Werten in JavaScript
+## Pass a multi-value parameter in JavaScript
 
 ```
 function targetPageParams() { 
@@ -40,9 +41,9 @@ function targetPageParams() {
 }
 ```
 
-Weitere Informationen finden Sie unter [Implementieren von Attributen](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) mit mehreren Werten in *benutzerdefinierten Entitätsattributen*.
+For more information, see [Implementing multi-value attributes](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Custom entity attributes*.
 
-## Übergeben eines Entitätsattributs mit mehreren Werten in einer CSV-Datei
+## Pass a multi-value entity attribute in a CSV file
 
 ```
 ## RECSRecommendations Upload File,,,,,,,,,,,,,,,,,,,
@@ -61,16 +62,16 @@ Weitere Informationen finden Sie unter [Implementieren von Attributen](/help/c-r
 
 Wenn ein Entitätsattribut, ein Profil- oder ein mbox-Parameter gemäß dem oben stehenden Format als Mehrwert bereitgestellt wird, deutet [!DNL Recommendations] dies automatisch darauf hin, dass es sich um ein Mehrwert handelt.
 
-Die folgenden Operatoren stehen für Entitäts-, Profil- und Mbox-Attribute mit mehreren Werten zur Verfügung:
+The following operators are available for use with multi-value entity, profile, and mbox attributes:
 
 * [!UICONTROL in der Liste]
-* [!UICONTROL ist nicht in der Liste enthalten]
+* [!UICONTROL is not contained in list]
 
 ## Arbeiten mit Attributen mit mehreren Werten in Einschlussregeln
 
 >[!NOTE]
 >
->Die Unterstützung für die dynamische Zuordnung zu Attributen mit mehreren Werten ist derzeit nur in Kriterien verfügbar, wenn beim Vergleich eines Profil-Attributzuweises oder einer Parameterzuordnungsregel (mbox) ein einzelner Wert links mit einem Mehrwert rechts verglichen wird. Attribute mit mehreren Werten werden derzeit nicht in Promotions, Entitätsattributzuordnung oder für Listen auf der linken Seite von Einschlussregeln unterstützt.
+>Die Unterstützung für die dynamische Zuordnung zu Attributen mit mehreren Werten ist derzeit nur in Kriterien verfügbar, wenn beim Vergleich eines Profil-Attributzuweises oder einer Parameterzuordnungsregel (mbox) ein einzelner Wert links mit einem Mehrwert rechts verglichen wird. Multi-value attributes are not currently supported in promotions, entity attribute matching, or for lists on the left side of inclusion rules.
 
 
 ### Beispiel: Zuletzt überwachte Elemente ausschließen
@@ -119,7 +120,7 @@ JSON API-Darstellung der Einschlussregel:
 
 ### Beispiel: API-Erstellung von Kriterien, die Artikel aus den Favoriten eines Benutzers empfehlen
 
-Kriterien mit Filterregeln mit mehreren Werten können wie alle Kriterien über Adobe-I/O-APIs erstellt werden. Ein Beispiel-API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut in der Liste der mbox-Parameter enthalten `id` ist, finden Sie hier `favorites` :
+Kriterien mit Filterregeln mit mehreren Werten können wie alle Kriterien über Adoben-I/O-APIs erstellt werden. Ein Beispiel-API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut in der Liste der mbox-Parameter enthalten `id` ist, finden Sie hier `favorites` :
 
 ```
 curl -X POST \
