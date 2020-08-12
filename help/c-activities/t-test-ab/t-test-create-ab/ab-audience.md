@@ -2,10 +2,14 @@
 keywords: audience;select audience;choose audience;Selectors
 description: Die Zielgruppe legt fest, welche Besucher der Site in Ihre Aktivität eingegeben werden.
 title: Zielgruppenauswahl
+feature: null
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +50,7 @@ Sie können sich außerdem dafür entscheiden, Target  [automatisch Traffic zuwe
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Verwenden von Zielgruppen in Adobe Target (6:21) Kennzeichen ![Übersicht](/help/assets/overview.png)
+### Verwenden von Zielgruppen in Adobe Target (6:21) ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/Premium] einsetzen lassen.
 
@@ -58,7 +62,7 @@ In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/P
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Arbeitsablauf für Aktivitäten - Targeting (2:14) - ![Tutorialzeichen](/help/assets/tutorial.png)
+### Activity Workflow - Targeting (2:14) ![Tutorial badge](/help/assets/tutorial.png)
 
 In diesem Video sind Informationen zur Einrichtung von Zielgruppen enthalten.
 
