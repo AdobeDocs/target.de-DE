@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: In der Adobe Admin Console können Sie Benutzer hinzufügen und ihre Berechtigungen verwalten.
 title: Benutzer
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 48%
@@ -37,7 +38,7 @@ You will not see the new user listed on the [!UICONTROL Users] page until the us
 
 Standardmäßig ist allen [!DNL Target]-Benutzern die Berechtigung „Beobachter“ zugewiesen.
 
-Admin users are identified in the [!UICONTROL Users] list. Wenden Sie sich an einen der Systemadministratoren, wenn Sie Ihre Zugriffsstufe ändern möchten.
+Admin users are identified in the [!UICONTROL Users] list. Contact one of the system admin users if you need your access level changed.
 
 ## Ansicht von Benutzerinformationen innerhalb der Zielgruppe
 
@@ -49,7 +50,7 @@ Klicken Sie zur Ansicht der Seite &quot;Benutzer&quot;auf **[!UICONTROL Administ
 
 >[!NOTE]
 >
->Um bestehende Benutzer zu verwalten oder neue Benutzer hinzuzufügen, müssen Sie die [!UICONTROL Adobe-Admin Console]verwenden, wie nachfolgend beschrieben.
+>To manage existing user or to add new users, you must use the [!UICONTROL Adobe Admin Console], as explained below.
 
 ## Auf die Adobe Admin Console zugreifen {#access}
 
@@ -87,7 +88,7 @@ Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden n
 
    ![Registerkarte „Produkte“](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. Klicken Sie auf den gewünschten Arbeitsbereich (z. B. Standardarbeitsbereich).
+1. Click the desired workspace (for example, Default Workspace).
 
    ![Standardarbeitsbereich](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
@@ -97,14 +98,14 @@ Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden n
 
 1. Wählen Sie das gewünschte Berechtigungsniveau (Genehmiger, Editor oder Beobachter) aus, indem Sie in der Spalte [!UICONTROL Produktrolle] das entsprechende Dropdown-Menü nutzen.
 
-   ![Dropdown-Liste &quot;Produktrolle&quot;](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
+   ![Product Role drop-down list](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Rolle | Beschreibung |
    |--- |--- |
    | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
    | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
    | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-   | Publisher | Ähnlich wie bei der Rolle &quot;Beobachter&quot;(Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
+   | Publisher | Similar to the Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities. |
 
 Weitere Informationen finden Sie unter [Verwalten von Produktberechtigungen und Rollen in der Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) im *Enterprise-Benutzerhandbuch*.
 
