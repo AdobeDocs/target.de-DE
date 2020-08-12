@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;report builder;confidence
 description: Dieses Thema enthält Antworten auf häufig zur Steigerung und Konfidenz bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 title: Steigerung und Konfidenz – Häufig gestellte Fragen zu A4T
+feature: null
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 51b0a0b1666e03f2910335b34091d2b825082ac7
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 50%
@@ -31,14 +32,14 @@ Die Konfidenzniveau ist die Wahrscheinlichkeit, dass die gemessene Konversionsra
 
 ## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen?  {#lift-confidence}
 
-Berechnete Metriken werden derzeit nicht in den Funktionen Steigerung und Konfidenz unterstützt. Dies ist darauf zurückzuführen, dass Analytics Metriken auf der Ebene des Aggregats und nicht auf der Ebene des Besuchers berechnet. Konfidenz ist vor allem eine Berechnung auf Besucher-Ebene.
+Berechnete Metriken werden derzeit nicht in den Funktionen Steigerung und Konfidenz unterstützt. This is due to the fact that Analytics calculates metrics at an aggregate-level, rather than at a visitor-level. Konfidenz ist vor allem eine Berechnung auf Besucher-Ebene.
 
-Nicht berechnete (Standard-)Ereignis werden in Steigerung und Konfidenz unterstützt. Sie werden in der Steigerungsfunktion zum Zähler. der Zähler kann keine Berechnung selbst sein. Der Nenner sind die normalisierenden Metriken (Impressionen, Besuche oder Besucher). Beispiele für Standard-Ereignis sind Bestellungen, Umsatz, Aktivitäten-Konversionen, benutzerdefinierte Ereignis 1-1000 usw. Dies bedeutet, dass gängige Optimierungsmetriken wie die Konversationsrate (Bestellungen/Besucher) und RPV (Umsatz/Besucher) in Steigerung und Konfidenz unterstützt werden.
+Non-calculated (standard) events are supported in lift and confidence. They become the numerator in the lift function; the numerator cannot be a calculation itself. Der Nenner sind die normalisierenden Metriken (Impressionen, Besuche oder Besucher). Beispiele für Standard-Ereignis sind Bestellungen, Umsatz, Aktivitäten-Konversionen, benutzerdefinierte Ereignis 1-1000 usw. Dies bedeutet, dass gängige Optimierungsmetriken wie die Konversationsrate (Bestellungen/Besucher) und RPV (Umsatz/Besucher) in Steigerung und Konfidenz unterstützt werden.
 
 Beispiele für nicht unterstützte Metriken oder Anwendungsfälle:
 
 * Durchschnittlicher Bestellwert (Umsatz/Bestellung, pro Besucher). AOV wird nicht unterstützt, da der Zähler eine berechnete Metrik ist. Stattdessen wird empfohlen, die beiden einflussreichen Metriken von AOV - Umsatz pro Besucher und Konversionsrat zu berücksichtigen.
-* Berechnete Metriken, die die Summe der standardmäßigen Ereignis darstellen. Sie können z. B. zehn verschiedene Interessentenformulare in zehn separate Ereignis nachverfolgen und diese dann zusammen hinzufügen, um die Gesamtzahl der Interessenteneinsendungen zu erhalten. Eine empfohlene Methode zur Verfolgung dieser Ereignis ist die Implementierung eines einzigen Ereignisses zur Interessentenübermittlung in Analytics und dann die Verwendung einer eVar zur Erfassung des Interessentenformulartyps. Die Verwendung dieser Methode erfordert weniger Variablen und stellt sicher, dass Sie die Metrik für die Übermittlung einzelner Interessenten in den Steigerungs- und Konfidenzfunktionen verwenden können.
+* Berechnete Metriken, die die Summe der standardmäßigen Ereignis darstellen. Sie können z. B. zehn verschiedene Interessentenformulare in zehn separate Ereignis nachverfolgen und diese dann zusammen hinzufügen, um die Gesamtzahl der Interessenteneinsendungen zu erhalten. Eine empfohlene Methode zur Verfolgung dieser Ereignis ist die Implementierung eines einzigen Ereignisses zur Interessentenübermittlung in Analytics und dann die Verwendung eines eVar zur Erfassung des Interessentenformulartyps. Die Verwendung dieser Methode erfordert weniger Variablen und stellt sicher, dass Sie die Metrik für die Übermittlung einzelner Interessenten in den Steigerungs- und Konfidenzfunktionen verwenden können.
 
 ## Wie verwaltet A4T Konfidenzberechnungen?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
