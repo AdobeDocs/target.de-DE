@@ -1,11 +1,15 @@
 ---
-keywords: Affinität; Kategorieaffinität
+keywords: affinity;category affinity
 description: Die Kategorieaffinitätsfunktion in Adobe Target erfasst automatisch alle Kategorien, die ein Benutzer besucht, und berechnet die Affinität des Benutzers für diese Kategorien, sodass diese zielgerichtet und segmentiert eingesetzt werden können. Hierdurch wird gewährleistet, dass Inhalte zielgerichtet auf Besucher angewendet werden, die mit großer Wahrscheinlichkeit aufgrund dieser Informationen handeln.
 title: Verwenden der Kategorieaffinität in Adobe Target
+feature: null
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -111,14 +115,14 @@ Dieser Abschnitt enthält die folgenden Informationen:
    Möchten Sie eine Zielgruppe kopieren, halten Sie in der Zielgruppenliste den Mauszeiger über die gewünschte Zielgruppe und klicken Sie auf das Kopiersymbol. Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
 
 1. Geben Sie einen beschreibenden Namen für die Zielgruppe ein.
-1. Klicken Sie auf **[!UICONTROL + Regel hinzufügen]** &gt; **[!UICONTROL Besucherprofil]**.
+1. Klicken Sie auf **[!UICONTROL + Regel hinzufügen]** > **[!UICONTROL Besucherprofil]**.
 1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Besucherprofil]** **[!UICONTROL die Option Kategorieaffinität]** aus.
 
-   ![Besucherprofil &gt; Kategorieaffinität](assets/affinity.png)
+   ![Besucherprofil > Kategorieaffinität](assets/affinity.png)
 
 1. Wählen Sie die gewünschte Kategorie aus:
 
-   ![Kategorieaffinität &gt; Kategorie](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![Kategorieaffinität > Kategorie](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
    Zu den Kategorien gehören:
 
@@ -128,7 +132,8 @@ Dieser Abschnitt enthält die folgenden Informationen:
    * Dritte Kategorie
    * Vierte Kategorie
    * Fünfte Kategorie
-   Die Optionen "Favoritenkategorie"und "Erste Kategorie"sind gleichwertig.
+
+   Die Optionen &quot;Favorite Kategorie&quot;und &quot;Erste Kategorie&quot;sind gleichwertig.
 
 1. Wählen Sie einen Auswerter aus:
 
