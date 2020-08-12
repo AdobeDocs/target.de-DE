@@ -1,11 +1,12 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Adobe Target-Systemdiagramm zur Darstellung des Anruf- und Informationsflusses bei Aufrufen oder Datensammlungen einer automatisch erstellten globalen Mbox bei der Verwendung von „at.js“.
-title: Funktionsweise der JavaScript-Bibliothek "at.js"im Adobe Target
+title: So funktioniert die Adobe Target JavaScript-Bibliothek "at.js"
+feature: null
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 88%
@@ -34,7 +35,7 @@ Weitere Informationen zu den Unterschieden, die in 2.x im Vergleich zu 1.x einge
 Grob betrachtet gibt es einige Unterschiede zwischen den beiden Versionen:
 
 * at.js 2.x hat kein globales Mbox-Anfragekonzept, sondern stellt Anfragen beim Laden der Seite. Eine Anfrage beim Laden der Seite kann als Anfrage zum Abrufen von Inhalten verstanden werden, die beim ersten Laden Ihrer Website angewendet werden soll.
-* at.js 2.x verwaltet Konzepte, die als Ansichten bezeichnet werden und für Einzelseitenanwendungen (SPAs) verwendet werden. at.js 1.*x* kennt dieses Konzept nicht.
+* at.js 2.x manages  a concepts called Views, which are use for Single Page Applications (SPAs). at.js 1.*x* kennt dieses Konzept nicht.
 
 ## Diagramme in at.js 2.x
 
