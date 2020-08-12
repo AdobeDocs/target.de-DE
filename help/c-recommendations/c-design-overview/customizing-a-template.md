@@ -2,9 +2,10 @@
 keywords: custom design;velocity;decimal;comma;customize design
 description: Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlungsvorlagen anzupassen.
 title: Anpassen eines Designs mithilfe von Velocity
+feature: null
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 65%
@@ -128,13 +129,13 @@ Sie können `algorithm.name` und `algorithm.dayCount` als Variablen in Entwürfe
 Velocity-Vorlagen behandeln alle Entitätsattribute standardmäßig als Zeichenfolgenwerte. Möglicherweise möchten Sie ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang auszuführen oder es mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
 
 1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder Dublette
-1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich, damit der Vorlagenparser von Zielgruppe Recommendations die Vorlage validieren und speichern kann)
+1. Ensure that the entity attribute you want to use is not blank (required for Target Recommendations&#39; template parser to validate and save the template)
 1. Übergeben Sie das Entitätsattribut an die `parseInt` oder- `parseDouble` Methode für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in einen Ganzzahlwert oder einen Dublette-Wert zu verwandeln
 1. Durchführen des Mathematik-Vorgangs oder -Vergleichs mit dem neuen numerischen Wert
 
-**Beispiel: Berechnen eines Rabattpreises**
+**Example: Calculating a discount price**
 
-Angenommen, Sie möchten den angezeigten Preis eines Artikels um 0,99 USD reduzieren, um einen Rabatt zu erhalten. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
+Suppose you want to reduce the displayed price of an item by $0.99 to apply a discount. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
 
 ```
 #set( $Double = 0.1 )
@@ -149,7 +150,7 @@ Angenommen, Sie möchten den angezeigten Preis eines Artikels um 0,99 USD reduzi
 
 **Beispiel: Auswahl der Anzahl der anzuzeigenden Sterne anhand der Bewertung eines Elements**
 
-Angenommen, Sie möchten eine entsprechende Anzahl von Sternen basierend auf der numerischen durchschnittlichen Kundenbewertung eines Artikels anzeigen. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
+Suppose you wish to display an appropriate number of stars based on an item&#39;s numerical average customer rating. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
 
 ```
 #set( $Double = 0.1 )
@@ -172,7 +173,7 @@ Angenommen, Sie möchten eine entsprechende Anzahl von Sternen basierend auf der
 #end
 ```
 
-**Beispiel: Zeit in Stunden und Minuten auf Grundlage der Länge eines Artikels in Minuten berechnen**
+**Example: Calculating the time in hours and minutes based on an item&#39;s length in minutes**
 
 Angenommen, Sie speichern die Länge eines Films in Minuten, möchten die Länge jedoch in Stunden und Minuten anzeigen. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
 
@@ -210,7 +211,7 @@ Wenn Sie Ihre [!DNL Recommendations]-Aktivität erstellen und das Schlüsselelem
 
 ## Ausführen von Ersetzungen in einem Zeichenfolgenwert {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-Sie können Ihren Entwurf ändern, um Werte in einer Zeichenfolge zu ersetzen. Ersetzen Sie beispielsweise das in den USA verwendete Dezimalzeichen durch das in Europa und anderen Ländern verwendete Komma-Trennzeichen.
+Sie können Ihren Entwurf ändern, um Werte in einer Zeichenfolge zu ersetzen. For example, replacing the decimal point delimiter used in the United States with the comma delimiter used in Europe and other countries.
 
 Folgender Code zeigt eine einzelne Zeile in einem bedingten Verkaufspreis-Beispiel:
 
@@ -234,7 +235,7 @@ Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreise
                                     </span>
 ```
 
-## Anpassen der Vorlagengröße und Prüfen auf leere Werte {#default}
+## Customizing the template size and checking for blank values {#default}
 
 Mithilfe eines Velocity-Skripts zur Steuerung der dynamischen Größe der Entitätsanzeige wird die folgende Vorlage für ein 1-zu-viele-Ergebnis verwendet, um zu verhindern, dass leere HTML-Elemente erstellt werden, wenn von [!DNL Recommendations]nicht genügend übereinstimmende Entitäten zurückgegeben werden. Dieses Skript eignet sich optimal für Szenarios, bei denen Reserveempfehlungen nicht sinnvoll sind und [!UICONTROL Teilweises Vorlagen-Rendering] aktiviert ist.
 
