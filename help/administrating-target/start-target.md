@@ -1,12 +1,16 @@
 ---
-keywords: Administration;Genehmiger-Rolle;Genehmiger
+keywords: Administration;approver role;approver
 description: Dieser Abschnitt enthält die ersten Schritte für Target-Administratoren, die nach dem Erhalt der E-Mail-Einladung zu Adobe Experience Cloud durchgeführt werden sollten.
 title: Erste Schritte für Administratoren
-subtopic: Erste Schritte
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +23,7 @@ Dieser Abschnitt enthält die ersten Schritte für [!DNL Target]-Administratoren
 
 Ein Systemadministrator muss Sie in der [!DNL Adobe Admin Console] als Benutzer hinzufügen, indem er Ihnen eine Einladung zu [!DNL Target] schickt. Der Systemadministrator sollte Sie dann zu einer oder mehreren rollenspezifischen Gruppen hinzufügen. Beide Aufgaben werden in der [Adobe Admin Console](https://adminconsole.adobe.com) durchgeführt.
 
-Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in der Hilfe *zu* Experience Cloud und Core Services.
+Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in der Hilfe zu *Experience Cloud und Core Services*.
 
 Nachdem der Systemadministrator diese Schritte durchgeführt hat, erhalten Sie eine Einladungs-E-Mail.
 
