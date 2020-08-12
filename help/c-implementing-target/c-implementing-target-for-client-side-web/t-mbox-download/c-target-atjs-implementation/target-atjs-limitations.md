@@ -1,10 +1,14 @@
 ---
-keywords: Einschränkungen von Visual Experience Composer;Browserunterstützung;Integrationen;Plug-ins;asynchrone Überlegungen
+keywords: visual experience composer limitations;browser support;integrations;plugins;asynchronous considerations
 description: Zwischen „at.js“ und mbox.js bestehen einige Unterschiede. In diesem Abschnitt werden einige Unterschiede und Einschränkungen behandelt, damit Sie erfolgreich mit „at.js“ arbeiten können.
 title: Einschränkungen von „at.js“
+feature: null
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 
@@ -48,7 +52,7 @@ Da nun alle Mboxes asynchron arbeiten, blockieren sie nicht das Rendern von Seit
 
    Sie können nicht mehr davon ausgehen, dass das von der ersten Mbox bereitgestellte Angebot vor dem von Ihrer zweiten Mbox bereitgestellten Angebot ausgeführt wird.
 
-* DOM-Manipulations- und Umleitungsangebote sollten über die automatisch erstellte globale Mbox in [!DNL at.js] und im Abschnitt `<head>` &gt; bereitgestellt werden.
+* DOM-Manipulations- und Umleitungsangebote sollten über die automatisch erstellte globale Mbox in [!DNL at.js] und im Abschnitt `<head>` > bereitgestellt werden.
 
    Eine `mboxCreate()`-Funktion ganz oben im Abschnitt `<body>` führt mit hoher Wahrscheinlichkeit zu einem Flackern der Standardinhalte.
 
