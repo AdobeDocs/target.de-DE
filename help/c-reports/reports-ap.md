@@ -2,9 +2,13 @@
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: Für Benutzer der automatisierten Personalisierung stehen spezialisierte Berichte zur Verfügung.
 title: Automated Personalization-Zusammenfassungsberichte
+feature: null
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 72f1a92f299286e14211f0c8773ba7718d779198
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +21,7 @@ Für Benutzer der automatisierten Personalisierung stehen spezialisierte Bericht
 >
 >Automatisierte Personalisierung ist als Teil der [!DNL Target Premium]-Lösung verfügbar. Sie ist nicht in [!DNL Target Standard] ohne [Target Premium-Lizenz enthalten](/help/c-intro/intro.md#premium).
 
-1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte[!UICONTROL automatisierte Personalisierung]aus der Liste aus und klicken Sie auf die Registerkarte**[!UICONTROL  Berichte.]**
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte [!UICONTROL automatisierte Personalisierung] aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte.]**
 
    Wenn Sie viele Aktivitäten haben, können Sie die Liste filtern, indem Sie [!UICONTROL Automatisierte Personalisierung] in der Dropdownliste [!UICONTROL Typ] auswählen.
 
