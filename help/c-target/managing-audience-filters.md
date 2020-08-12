@@ -1,10 +1,14 @@
 ---
-keywords: Targeting;Zielgruppenfilter;Zielgruppen;Filter
-description: Zielgruppenfilter in Adobe Target (oder Zielgruppen) sind Gruppen von Besuchern, die eine bestimmte Eigenschaft oder einen Satz von Merkmalen gemeinsam haben.
-title: Zielgruppenfilter für die Berichterstellung in Adobe Target
+keywords: Targeting;audience filter;audiences;filter
+description: Audience-Filter in Adobe Target (oder Audiencen) sind Gruppen von Besuchern, die ein bestimmtes Merkmal oder eine Reihe von Merkmalen aufweisen.
+title: Audience filters for reporting in Adobe Target
+feature: null
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '482'
+ht-degree: 80%
 
 ---
 
@@ -19,8 +23,8 @@ Zum Beispiel kann es sich bei Besuchern, die über eine bestimmte Suchmaschine z
 
 Berücksichtigen Sie bei der Planung der Verwendung von Zielgruppenfiltern für eine Aktivität die folgenden Richtlinien:
 
-* **Besucher können mehreren Zielgruppen angehören.** Wenn zwei Zielgruppen eingerichtet sind (z. B. "neue Besucher"und "Besucher von Google") und eine Person beide Kriterien erfüllt, wird dieser Besucher in beiden Zielgruppen gezählt und verfolgt. Daher stimmt die Summe der Besucher in den Zielgruppen nicht mit der Anzahl der Besucher in einer Aktivität überein.
-* **Richten Sie Zielgruppen ein, bevor Sie die Aktivität starten.** Zielgruppendaten können nicht nachträglich hinzugefügt werden. Wenn Sie Zielgruppenfilter nicht vor dem Start einer Aktivität konfigurieren und sich schließlich dazu entscheiden, diese einzusetzen, nachdem die Aktivität bereits eine bestimmte Zeit läuft, können Sie für die bereits vergangene Dauer der Aktivität keine Daten erfassen.
+* **Besucher können mehreren Zielgruppen angehören.** Wenn zwei Audiencen eingerichtet sind (z. B. &quot;neue Besucher&quot;und &quot;Besucher von Google&quot;) und eine Person beide Kriterien erfüllt, wird dieser Besucher in beiden Audiencen gezählt und verfolgt. Daher stimmt die Summe der Besucher in den Zielgruppen nicht mit der Anzahl der Besucher in einer Aktivität überein.
+* **Richten Sie Audiencen ein, bevor Sie die Aktivität starten.** Zielgruppendaten können nicht nachträglich hinzugefügt werden. Wenn Sie Zielgruppenfilter nicht vor dem Start einer Aktivität konfigurieren und sich schließlich dazu entscheiden, diese einzusetzen, nachdem die Aktivität bereits eine bestimmte Zeit läuft, können Sie für die bereits vergangene Dauer der Aktivität keine Daten erfassen.
 * **Starten Sie mit zwei bis vier Zielgruppen.** Fokussieren Sie sich auf grundlegende Informationen, wie z. B. die Traffic-Quelle.
 * **Benennen Sie Zielgruppen nach Bedarf um.** Sie können eine Zielgruppe ohne Beeinträchtigung der Daten umbenennen, um die Bedeutung des Zielgruppennamens besser an die erfassten Ergebnisse anzupassen, selbst wenn die Aktivität aktiv ist.
 * **Geben Sie genaue Werte ein.** Bei Zielgruppenfilterwerten wird zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie z. B. eine Zielgruppe verwenden, die eine Filterung von Städten vornimmt, müssen Sie eine „ODER“-Bedingung verwenden, um mögliche Variationen von Recht- und Großschreibung einzubeziehen, wie z. B. „Vienna“, „vienna“, „wien“ und „Wien“.
