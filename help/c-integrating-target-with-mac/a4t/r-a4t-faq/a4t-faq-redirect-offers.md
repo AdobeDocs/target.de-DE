@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: Dieses Thema enthält Antworten auf häufig zum Einsatz von Umleitungsangeboten bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 title: Umleitungsangebote – Häufig gestellte Fragen zu A4T
+feature: null
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 96%
