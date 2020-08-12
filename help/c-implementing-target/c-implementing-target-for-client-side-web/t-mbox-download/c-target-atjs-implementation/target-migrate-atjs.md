@@ -1,11 +1,15 @@
 ---
-keywords: Target;at.js;Migration zu at.js;Vorbereitung;at.js prüfen;at.js integrieren
+keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: Die Migration von „mbox.js“ zu „at.js“ ist ein unkomplizierter Vorgang.
 title: Migration von „mbox.js“ zu „at.js“
+feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 98%
 
 ---
 
@@ -42,6 +46,7 @@ Gehen Sie wie folgt vor, um eine Migration von [!DNL mbox.js] zu [!DNL at.js] du
    * mboxCookieDomain()
    * Extra Javascript
    * Andere Stellen
+
    Die meisten der [„mbox.js“-Objekte und -Methoden](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (z. B. `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` und andere) werden nicht unterstützt. Alternative Ansätze können Ihnen ebenfalls helfen, Ihr Ziel zu erreichen.
 
    **Befindet sich[!DNL mbox.js]auf all Ihren Webseiten?**
@@ -58,6 +63,7 @@ Gehen Sie wie folgt vor, um eine Migration von [!DNL mbox.js] zu [!DNL at.js] du
    * AAM (älteres Frondend)
    * AEM
    * Data Workbench
+
    Einige der älteren Integrationen werden von [!DNL at.js] nicht unterstützt. Weitere Informationen finden Sie auf der Seite [Integrationen](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39).
 
    **Integrieren Sie[!DNL Target]mit Drittanbieter-Tools?**
@@ -67,6 +73,7 @@ Gehen Sie wie folgt vor, um eine Migration von [!DNL mbox.js] zu [!DNL at.js] du
    * Demandbase
    * ClickTale
    * Sonstige
+
    Diese müssen für den Einsatz mit [!DNL at.js] möglicherweise angepasst werden. Weitere Informationen finden Sie auf der Seite [Integrationen](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39).
 
    **Verwenden Sie einen Tag-Manager?**
@@ -75,6 +82,7 @@ Gehen Sie wie folgt vor, um eine Migration von [!DNL mbox.js] zu [!DNL at.js] du
    * Ensighten
    * Tealium
    * Signal/BrightTag
+
    Weitere Informationen finden Sie unter [„at.js“-Integrationen](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39).
 
    >[!NOTE]
@@ -103,7 +111,7 @@ Gehen Sie wie folgt vor, um eine Migration von [!DNL mbox.js] zu [!DNL at.js] du
 
    Diese wurden unter der Annahme erstellt, dass von [!DNL mbox.js] ein zusätzliches `<div>`-Element zu Beginn der Seite hinzugefügt wird. Da [!DNL at.js] kein `<div>`-Element oben auf der Seite hinzufügt, würde dieser Selektor mit [!DNL at.js] nicht mehr funktionieren.
 
-   Dieses Problem kann gelöst werden, indem man die Aktivität im VEC für die URL unter Verwendung von [!DNL at.js] neu erstellt, oder indem man den Selektor unter Verwendung der VEC-Option **[!UICONTROL &lt;/&gt; Code]** &gt; **[!UICONTROL Änderungen]** manuell aktualisiert.
+   Dieses Problem kann gelöst werden, indem man die Aktivität im VEC für die URL unter Verwendung von [!DNL at.js] neu erstellt, oder indem man den Selektor unter Verwendung der VEC-Option **[!UICONTROL &lt;/> Code]** > **[!UICONTROL Änderungen]** manuell aktualisiert.
 
    Zur Lösung dieses Problems sollten Sie von der n-ten Anzahl im ersten DIV-Element nach dem Körper 1 abziehen. Im oben gezeigten Beispiel sähe der überarbeitete Code wie folgt aus:
 
