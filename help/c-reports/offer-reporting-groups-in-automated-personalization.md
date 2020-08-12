@@ -1,11 +1,15 @@
 ---
-keywords: Automatisierte Personalisierung;Angebot;Berichterstellung;Gruppe;Berichtsgruppe
-description: Informationen zur Verwendung von Berichtsgruppen in automatisierten Personalisierungsaktivitäten (AP) in Adobe Target.
-title: Berichtgruppen in Aktivitäten mit automatisierter Personalisierung (AP) in Adobe Target anbieten
+keywords: automated personalization;offer;reporting;group;reporting group
+description: Informationen zur Verwendung von Berichte-Gruppen in Automated Personalization (AP)-Aktivitäten in Adobe Target.
+title: Angebot-Berichte-Gruppen in Automated Personalization-Aktivitäten (AP) in Adobe Target
+feature: null
 topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 64%
 
 ---
 
@@ -36,11 +40,11 @@ Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe 
    ![](assets/ap_manage_content.png)
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Angebote]** oben im Dialogfeld [!UICONTROL Inhalt verwalten].
-1. (Optional) Fügen Sie bestimmte Erlebnisse zu einer Berichtsgruppe hinzu, indem Sie mit dem Mauszeiger über das gewünschte Angebot fahren und auf das Ordnersymbol **[!UICONTROL Berichtsgruppe]klicken.**
+1. (Optional) Fügen Sie bestimmte Erlebnisse zu einer Berichtsgruppe hinzu, indem Sie mit dem Mauszeiger über das gewünschte Angebot fahren und auf das Ordnersymbol **[!UICONTROL Berichtsgruppe]** klicken.
 
    ![](assets/ap_manage_content_2.png)
 
-1. (Optional) Fügen Sie Erlebnisse stapelweise zu einer Berichtsgruppe hinzu, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann oben rechts im Dialogfeld auf das Ordnersymbol **[!UICONTROL Berichtsgruppe]klicken.**
+1. (Optional) Fügen Sie Erlebnisse stapelweise zu einer Berichtsgruppe hinzu, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann oben rechts im Dialogfeld auf das Ordnersymbol **[!UICONTROL Berichtsgruppe]** klicken.
 
    ![](assets/ap_manage_content_3.png)
 
