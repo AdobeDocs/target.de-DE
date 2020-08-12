@@ -2,10 +2,14 @@
 keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: Verwenden Sie Visual Experience Composer in Target, um Ihren Test direkt auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Target zu verändern.
 title: Erstellen eines A/B-Tests
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 99%
 
 ---
 
@@ -111,7 +115,7 @@ Verwenden Sie Visual Experience Composer in Target, um Ihren Test direkt auf ein
 
 Nach Erstellung der Aktivität werden in der Registerkarte „Übersicht“ Informationen über die Aktivität inklusive eines Diagramms zu Ihrer Aktivität angezeigt.
 
-## Schulungsvideo: Erstellen von A/B-Tests (8:36) Abzeichen ![für Übungen](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen von A/B-Tests (8:36) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten [!DNL Target]-Arbeitsablaufs mit drei Schritten ein A/B-Test erstellt wird.
 
