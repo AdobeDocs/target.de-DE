@@ -1,11 +1,15 @@
 ---
-keywords: qa; Vorschau; Vorschau-Link; mobil; mobile Vorschau
+keywords: qa;preview;preview link;mobile;mobile preview
 description: Verwenden Sie die Vorschau für mobile Apps, um mühelos eine ganzheitliche Qualitätssicherung für Aktivitäten von mobilen Apps durchzuführen und sich ohne spezielle Prüfmittel direkt auf Ihrem Gerät für verschiedene Erlebnisse anzumelden.
 title: Verwenden des mobilen Vorschau-Links in Adobe Target Mobile
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 93%
 
 ---
 
@@ -28,8 +32,8 @@ Mit der mobilen Vorschaufunktionalität können Sie Aktivitäten in Ihrer mobile
 
    Eine Anleitung zum Herunterladen des erforderlichen SDK finden Sie unter:
 
-   * **** iOS: [Bevor Sie mit](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) der Hilfe zu *Mobile Services beginnen*.
-   * **** Android: [Bevor Sie mit](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) der Hilfe zu *Mobile Services beginnen*.
+   * **iOS:** [Vor dem Beginn](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) in der *Mobile Services iOS-Hilfe*.
+   * **Android:** [Vor dem Beginn](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) in der *Mobile Services-Hilfe*.
 
 1. **URL-Schema einrichten:** Der Vorschau-Link öffnet Ihre App über ein URL-Schema. Sie müssen ein einzigartiges URL-Schema für die Vorschau festlegen.
 
