@@ -1,11 +1,15 @@
 ---
-keywords: deduplizieren;Duplikate zulassen;duplizierte Angebote ausschließen;automatisierte Personalisierung;duplizierte Angebote nicht zulassen
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
 description: Verwalten von Ausschlüssen durch die Erstellung von Ausschlussgruppen, Ausschließen von doppelten Angeboten, Ausschließen von bestimmten Erlebnissen und Ausschließen von Standardinhalten in automatisierten Personalisierungs-Aktivitäten (AP) in Adobe Target
 title: Verwalten von Ausschlüssen
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 97%
 
 ---
 
@@ -24,13 +28,13 @@ Sie können auch einschränken, welche Zielgruppen bestimmte Angebote in den AP-
 
 **So erstellen Sie eine Ausschlussgruppe:**
 
-1. Klicken Sie beim [Erstellen oder Bearbeiten einer AP-Aktivität in der Header-Leiste auf ](/help/c-activities/t-automated-personalization/create-ap-activity.md) die Option **[!UICONTROL Inhalt verwalten]**.
+1. Klicken Sie [beim Erstellen oder Bearbeiten einer AP-Aktivität in der Header-Leiste ](/help/c-activities/t-automated-personalization/create-ap-activity.md)auf **[!UICONTROL Inhalt verwalten]**.
 
    ![Option „Inhalt verwalten“](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
 1. Klicken Sie im Dialogfeld [!UICONTROL Inhalt verwalten] auf **[!UICONTROL Ausschlussgruppe]**.
 
-   ![Inhalt verwalten &gt; Dialogfeld „Ausschlussgruppen“](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
+   ![Inhalt verwalten > Dialogfeld „Ausschlussgruppen“](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    Wenn Sie zuvor Ausschlussgruppen erstellt haben, werden sie in der Liste angezeigt. Wenn Sie noch keine Ausschlussgruppe erstellt haben, werden Sie aufgefordert, eine zu erstellen.
 
@@ -56,7 +60,7 @@ Verhindern Sie die Duplizierung von Angeboten aus der Bibliothek, wenn diese bei
 
 Möglicherweise verfügen Sie über eine Aktivität mit sechs Orten auf einer Seite mit 12 Angeboten. Hier besteht die Gefahr, dass das gleiche Angebot in einer Aktivität mehrmals angezeigt wird. Dadurch wird verhindert, dass doppelte Angebote gleichzeitig an unterschiedlichen Positionen in derselben Aktivität angezeigt werden.
 
-Klicken Sie auf **[!UICONTROL Konfigurieren]** &gt; **[!UICONTROL Doppelt vorhandenes Angebot]** und wählen Sie **[!UICONTROL Duplikate zulassen]** oder **[!UICONTROL Duplikate nicht zulassen]** aus.
+Klicken Sie auf **[!UICONTROL Konfigurieren]** > **[!UICONTROL Doppelt vorhandenes Angebot]** und wählen Sie **[!UICONTROL Duplikate zulassen]** oder **[!UICONTROL Duplikate nicht zulassen]** aus.
 
 ![Optionen für doppelte Angebote](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -96,7 +100,7 @@ Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Ers
 
 **So schließen Sie Standardinhalt mit Visual Experience Composer (VEC) aus:**
 
-1. Wählen Sie [beim Erstellen oder Bearbeiten einer AP-Aktivität ](/help/c-activities/t-automated-personalization/create-ap-activity.md)den zu ersetzenden Inhalt aus und klicken Sie auf **[!UICONTROL Text/HTML ändern]** oder **[!UICONTROL Bild ändern]** oder **[!UICONTROL Hintergrundfarbe ändern]**, um darauf zuzugreifen.
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
 1. Erstellen Sie im Dialogfeld Ihren neuen Inhalt und deaktivieren Sie **Einbeziehen** rechts neben dem Standardinhalt (oder deaktivieren Sie das Standardbild/-video auf dem Bildschirm „Inhalt auswählen“).
 
    Je nach Inhalts-/Angebotstyp befindet sich das Kontrollkästchen [!UICONTROL Einbeziehen] an einer etwas anderen Position.
@@ -122,7 +126,7 @@ Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Ers
 **So schließen Sie mit dem formularbasierten Experience Composer Standardinhalt aus:**
 
 1. Klicken Sie beim Erstellen oder Bearbeiten einer AP-Aktivität unter **[!UICONTROL Inhalt]** auf **[!UICONTROL Text/HTML ändern]** oder **[!UICONTROL Bildangebot ändern]**.
-1. Erstellen Sie im Dialogfeld Ihren neuen Inhalt und deaktivieren Sie **[!UICONTROL Einbeziehen]rechts neben dem Standardinhalt (oder deaktivieren Sie das Standardbild/-video auf dem Bildschirm „Inhalt auswählen“).**
+1. Erstellen Sie im Dialogfeld Ihren neuen Inhalt und deaktivieren Sie **[!UICONTROL Einbeziehen]** rechts neben dem Standardinhalt (oder deaktivieren Sie das Standardbild/-video auf dem Bildschirm „Inhalt auswählen“).
 
    Je nach Inhalts-/Angebotstyp befindet sich das Kontrollkästchen „Einbeziehen“ an einer etwas anderen Position.
 
