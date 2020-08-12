@@ -2,10 +2,11 @@
 keywords: Targeting
 description: Für jedes Erlebnis werden Konversionsrate, Steigerung, Konfidenz (statistische Bedeutung) und Konfidenzintervall in einem Bericht festgehalten.
 title: Konversionsrate
+feature: null
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
@@ -148,7 +149,7 @@ Wenn Sie beispielsweise eine Optimierung für Seitenansichten pro Besucher durch
 Weitere Informationen über [!DNL Data Warehouse] finden Sie in der [!DNL Analytics]-Hilfsdokumentation unter den folgenden Links:
 
 * [Erstellen einer Data Warehouse-Anforderung](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Data warehouse Best Practices](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Best Practices für Data Warehousen](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Zählmethodik {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
