@@ -2,9 +2,10 @@
 keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
 description: Adobe Target sammelt und verwendet automatisch eine Vielzahl von Daten zum Erstellen der Personalisierungsalgorithmen in den Aktivitäten „Automatisierte Personalisierung“ (AP) und „Automatisches Targeting“ (AT). Wenn ein Besucher die AP- oder AT-Aktivität aktiviert, wird diese Momentaufnahme an Informationen an ein Set von Trainingsdatensätzen (die Besucherdaten, anhand deren die Personalisierungsalgorithmen lernen) weitergegeben.
 title: Datenerfassung für die Adobe Target-Personalisierungsalgorithmen
+feature: null
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 96%
@@ -27,7 +28,7 @@ Folgende Tabelle zeigt die Daten, die von der automatisierten Personalisierung u
 | Experience Cloud-Segment | Zielgruppen, die in Audience Manager oder Analytics erstellt und über Experience Cloud freigegeben wurden | `Custom - Experience Cloud Audience - [Audience Name]` | Benutzerspezifische Daten |
 | [Geografische Daten](#geo) | Informationen zum Standort des Besuchers.<br>Siehe „Geografische Daten“ unten. | `Geo - [geo attribute]` | Stadt<br>Land<br>Region/Bundesstaat<br>Postleitzahl<br>Breitengrad<br>Längengrad<br>ISP oder Mobilnetzbetreiber |
 | Profilattribute | Profilskripte oder Attribute, die direkt über die Aktualisierungs-API in das Target-Profil hochgeladen werden | `Custom - Visitor Profile - [attribute name]` | Benutzerspezifische Daten |
-| Verweisende URL-Parameter | Im Allgemeinen ist die verweisende URL die URL, die auf eine bestimmte Seite verweist, die den Target-Aufruf ausgelöst hat.<br>Beachten Sie, dass sich die Aktivität der Benutzer auf Ihrer Site und die technische Implementierung Ihrer Site auf diese Variable auswirken kann. | `Custom - [Referring URL Parameter] - [Parameter value]` | Benutzerspezifische Daten |
+| Verweisende URL-Parameter | In general, the referring URL is the URL that referred to a particular page that initiated the Target call.<br>Beachten Sie, dass sich die Aktivität der Benutzer auf Ihrer Site und die technische Implementierung Ihrer Site auf diese Variable auswirken kann. | `Custom - [Referring URL Parameter] - [Parameter value]` | Benutzerspezifische Daten |
 | Berichtssegmente | Alle bei der Aktivitätseinrichtung ausgewählte Segmente. | `Reporting Segment -[Segment Name]` | Benutzerspezifische Daten |
 | [Sitzungsdaten](#session) | Informationen über das Verhalten des Besuchers in der Sitzung beim Zugriff auf die Aktivität | `Visitor Profile - [Attribute Name]` | Visitor Profile - Start of Most Recent Visit |
 | URL-Parameter | Target untersucht die URL, um die URL-Parameter zu extrahieren. | `Custom - URL Parameter - [URL Parameter]` | Benutzerspezifische Daten |
