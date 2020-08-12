@@ -1,11 +1,12 @@
 ---
 keywords: apple;ITP;intelligent tracking prevention
-description: Informationen zur Adobe-Zielgruppe-Unterstützung für Apple ITP 2.x über die Experience Cloud ID (ECID)-Bibliothek 4.3.
+description: Informationen zur Adobe Target-Unterstützung für ITP 2.x von Apple über die Experience Cloud-ID (ECID)-Bibliothek 4.3.
 title: Unterstützung von Adobe Target und Apple ITP
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 54%
@@ -23,7 +24,7 @@ Die unten angegebenen ITP-Versionen beinhalten die folgenden Einschränkungen:
 | --- | --- |
 | [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | Clientseitige Cookies, die im Browser mit der `document.cookie` API gesetzt werden, laufen nach sieben Tagen ab.<br>Veröffentlicht am 21. Februar 2019. |
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | Der Verfall nach sieben Tagen wurde drastisch auf einen Tag reduziert.<br>Veröffentlicht am Mittwoch, 24. April 2019. |
-| [ITP 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) | Es wurden mehrere Workarounds entfernt, z. B. die Verwendung von localStorage oder die Verwendung von JavaScript `Document.referrer property`.<br>Veröffentlicht am 23. September 2019. |
+| [ITP 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) | Eliminated several workarounds, such as employing localStorage or using the JavaScript `Document.referrer property`.<br>Veröffentlicht am 23. September 2019. |
 
 ## Welchen Einfluss hat dies auf mich als Adobe Target-Kunde? {#impact}
 
@@ -35,7 +36,7 @@ Auswirkungen von Apple ITP 2.x [!DNL Target] auf die folgenden Bereiche:
 | --- | --- |
 | Mögliche Zunahme von Unique Visitors | Da das Ablauffenster auf sieben Tage (mit ITP 2.1) und einen Tag (mit ITP 2.2 und ITP 2.3) eingestellt ist, kann es zu einer Zunahme der individuellen Besucher kommen, die von Safari-Browsern kommen. If your visitors revisit your domain after seven days (ITP 2.1) or one day (ITP 2.2 and ITP 2.3), [!DNL Target] is forced to place a new [!DNL Target] cookie on your domain in place of the expired cookie. Das neue [!DNL Target]-Cookie wird als neuer Unique Visitor gewertet, auch wenn der Benutzer derselbe ist. |
 | Verringerte Lookback-Zeiträume für [!DNL Target]-Aktivitäten | Besucherprofile für [!DNL Target]-Aktivitäten haben möglicherweise für die Entscheidungsfindung einen verringerten Lookback-Zeitraum. [!DNL Target]-Cookies werden verwendet, um einen Besucher zu erkennen und Benutzerprofilattribute zur Personalisierung zu speichern. Given that [!DNL Target] cookies can be expired on Safari after seven days (ITP 2.1) or one day (ITP 2.2 and 2.3), the user profile data that was tied to the purged [!DNL Target] cookie cannot be used for decisioning. |
-| Profil-Skripten basierend auf 3rdPartyID | Da das Ablauffenster auf sieben Tage (mit ITP 2.1) und einen Tag (mit ITP 2.2 und ITP 2.3) eingestellt ist, funktionieren [Profil-Skripte](/help/c-target/c-visitor-profile/profile-parameters.md) , die auf dem Cookie &quot;3rdPartyID&quot;basieren, nach Ablauf nicht mehr. |
+| Profile scripts based on 3rdPartyID | Da das Ablauffenster auf sieben Tage (mit ITP 2.1) und einen Tag (mit ITP 2.2 und ITP 2.3) eingestellt ist, funktionieren [Profil-Skripte](/help/c-target/c-visitor-profile/profile-parameters.md) , die auf dem Cookie &quot;3rdPartyID&quot;basieren, nach Ablauf nicht mehr. |
 | QS-/Vorschauen-URLs auf iOS-Geräten | Da das Ablauffenster auf sieben Tage (mit ITP 2.1) und einen Tag (mit ITP 2.2 und ITP 2.3) eingestellt wird, funktionieren [QA-/Vorschau-URLs](/help/c-activities/c-activity-qa/activity-qa.md) nach Ablauf nicht mehr, da die URLs auf dem Cookie &quot;3rdPartyID&quot;basieren. |
 
 ## Ist meine aktuelle [!DNL Target]-Implementierung betroffen?
@@ -52,7 +53,7 @@ Um die Auswirkungen künftiger ITP 2.x-Versionen auf die Zielgruppe zu mildern, 
 
    Die ECID-Bibliothek ermöglicht das Personenidentifizierungs-Framework für die Experience Cloud Core-Lösungen. Mit der ECID-Bibliothek können Sie dieselben Site-Besucher und deren Daten in verschiedenen Experience Cloud-Lösungen identifizieren, indem Sie persistente und eindeutige IDs zuweisen. Die ECID-Bibliothek wird häufig aktualisiert, damit Sie etwaige ITP-bezogenen Änderungen umgehen können, die sich auf Ihre Implementierung auswirken.
 
-   Für ITP 2.x muss die [ECID-Bibliothek 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) für die Minderung verwendet werden.
+   For ITP 2.x, [ECID library 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) must be utilized for mitigation.
 
 1. Verwenden Sie den CNAME von Adobe und melden Sie sich für das Managed Certificate Program von Adobe Analytics an.
 
