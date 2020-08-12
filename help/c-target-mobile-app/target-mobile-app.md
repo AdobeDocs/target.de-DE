@@ -1,11 +1,15 @@
 ---
-keywords: mobile App;mobiler App-Prozess;Targeting mobiler Apps;mobile Target-Standorte; Erfolgsmetriken für mobile Apps
+keywords: mobile app;mobile app process;target mobile app;mobile target locations;mobile app success metrics
 description: Target kann für die Optimierung und Personalisierung mobiler Apps verwendet werden.
 title: Target für mobile Apps
+feature: null
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 95%
 
 ---
 
