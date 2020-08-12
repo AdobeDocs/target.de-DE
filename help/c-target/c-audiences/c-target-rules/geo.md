@@ -1,12 +1,16 @@
 ---
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Verwenden Sie Adobe Target-Audiences, um Benutzer anhand ihres geografischen Standortes auszuwählen (inklusive Land, Bundesland, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber).
-title: 'Geo '
+title: 'Geo  '
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 88%
 
 ---
 
@@ -33,6 +37,7 @@ Geo-Positionsparameter ermöglichen das Targeting der Aktivitäten und Erlebniss
    * Längengrad
    * DMA
    * Mobilnetzbetreiber
+
    Die IP-Adresse eines Besuchers wird mit einer Mbox-Anfrage einmal pro Besuch (Sitzung) übermittelt, um Geotargeting-Parameter für den betreffenden Besucher aufzulösen.
 
    [!DNL Target] verwendet für Mobilnetzbetreiber die IP-Adressregistrierungsdaten (die Eigentümer des IP-Adressenblocks sind), um den geeigneten Mobilnetzbetreiber mithilfe von [Mobile Country Codes (MCC) und Mobile Network Codes (MNC)](https://www.mcc-mnc.com) zu ermitteln.
@@ -144,11 +149,11 @@ Vor diesem Vorgang müssen Sie alle Cookies entfernen.
 
 Puerto Rico, Hongkong und andere Gebiete werden als separate Länderwerte verarbeitet.
 
-**Erfasst (und speichert)[!DNL Target]Informationen wie Postleitzahlen, wenn Aktivitäten mit Geo-Standort-Targeting-Funktionen ins Visier genommen werden?**
+**Does[!DNL Target]capture (and store) information such as Zip Codes when activity is targeted with geo-location targeting capabilities?**
 
 Nein, [!DNL Target] verwendet nur für die Dauer der Sitzung geografische Daten, dann werden die Daten verworfen.
 
-## Schulungsvideo: Abzeichen ![&quot;Zielgruppen erstellen&quot;](/help/assets/tutorial.png)
+## Schulungsvideo: Audiencen- ![Tutorialzeichen erstellen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
