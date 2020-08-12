@@ -2,9 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: Für Benutzer von Automatisierte Personalisierung (AP) und von Automatisches Targeting (AT) sind zwei spezialisierte Berichte verfügbar, die die Berichte für automatisierte Segmente und wichtige Attribute enthalten.
 title: Berichte zu Personalization Insights
+feature: null
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 68%
@@ -74,5 +75,5 @@ Weitere Informationen finden Sie unter [Verwenden der Personalisierungseinblicke
 ## Adoben-Blogs
 
 * Teil 1: [Das Geheimnis aus der Magie der AI-getriebenen Personalisierung](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* Teil 2: [Ein Blick hinter den Vorhang der API für Personalisierung in Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* Teil 2: [Ein Blick hinter den Vorhang der AI für Personalisierung in Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
 * Teil 3: [MAGIX — Lösung des Black Box-Problems der AI-getriebenen Personalisierung](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
