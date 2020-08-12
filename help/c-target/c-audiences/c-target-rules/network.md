@@ -1,10 +1,14 @@
 ---
-keywords: Targeting; Netzwerk; Zielnetzwerk; ISP; Domänenname; Verbindungsgeschwindigkeit; Target ISP; Zieldomänenname; Zielverbindungsgeschwindigkeit
+keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
 description: Sie können Zielgruppen in Adobe Target basierend auf Netzwerkdetails erstellen.
 title: Erstellen von Zielgruppen in Adobe Target basierend auf Netzwerkdetails.
+feature: null
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 99%
 
 ---
 
@@ -13,9 +17,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Sie können Zielgruppen auf der Basis von Netzwerkdetails erstellen.
 
-1. Klicken Sie auf der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL Zielgruppen]** &gt; **[!UICONTROL Zielgruppe erstellen]**.
+1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** &gt; **[!UICONTROL Netzwerk]**.
+1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** > **[!UICONTROL Netzwerk]**.
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
    * **ISP:** Ein ISP ist eine Organisation, die ihren Abonnenten Internetzugang ermöglicht, in der Regel gegen eine monatliche oder jährliche Gebühr. Viele ISPs bieten weitere Services, wie Webhosting oder E-Mail. Das ISP-Feld enthält entweder einen kommerziellen ISP (beispielsweise Telekom oder Vodafone) oder eine andere Entität, wie beispielsweise ein Unternehmen oder eine Bildungseinrichtung.
@@ -63,4 +67,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
