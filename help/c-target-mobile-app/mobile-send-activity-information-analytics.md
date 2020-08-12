@@ -1,10 +1,14 @@
 ---
 keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
-description: In diesem Abschnitt wird beschrieben, wie Sie Adobe Target-Aktivitätsinformationen für mobile Apps zur postAhoc-Segmentierung an Adobe Analytics senden.
-title: Adobe Target-Aktivitätsinformationen an Adobe Analytics senden
+description: In diesem Abschnitt wird beschrieben, wie Sie Adobe Target-Informationen zur Aktivität mobiler Apps zur postAhoc-Segmentierung an Adobe Analytics senden.
+title: Adobe Target-Aktivitäten an Adobe Analytics senden
+feature: null
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 34%
 
 ---
 
@@ -40,7 +44,7 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    In this example, a node with the variable `tntVal` is added to obtain the activity information. Fügen Sie einen ähnlichen Code für die anderen Erlebnisse mit einem passenden Titel und einer passenden Meldung hinzu.
 
-   Diese Zeichenfolge liefert eine Zahl (z. B. 115110:0:0) in der Antwort von [!DNL Target]. Dies zeigt die Aktivitäts-ID, Erlebnis-ID und den Traffic-Typ an. The following is a sample response from [!DNL Target]:
+   Diese Zeichenfolge liefert eine Zahl (z. B. 115110:0:0) in der Antwort von [!DNL Target]. This indicates the activity ID, experience ID, and traffic type. The following is a sample response from [!DNL Target]:
 
    ```
    { 
