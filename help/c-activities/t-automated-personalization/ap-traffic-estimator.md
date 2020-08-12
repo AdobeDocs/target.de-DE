@@ -1,10 +1,14 @@
 ---
 description: Die Traffic-Schätzung liefert Feedback, aus dem Sie erfahren, ob Sie über ausreichend Traffic verfügen, damit Ihre Aktivität erfolgreich ist.
 title: Schätzen des für einen erfolgreichen Test erforderlichen Traffics
+feature: null
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +27,7 @@ Beachten Sie, dass Target zufällig so lange Erlebnisse verarbeitet, bis die Per
 
    ![Traffic-Symbol](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   Die Traffic-Schätzung wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]klicken, um die Traffic-Schätzung auszublenden.**
+   Die Traffic-Schätzung wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]** klicken, um die Traffic-Schätzung auszublenden.
 
    ![](assets/ap_est.png)
 
@@ -33,6 +37,7 @@ Beachten Sie, dass Target zufällig so lange Erlebnisse verarbeitet, bis die Per
    * Typical Conversion Rate (Typische Konversionsrate): Die Konversionsrate wird als Prozentsatz ausgedrückt und basiert auf Ihrer Schätzung oder auf historischen Daten aus Ihrem Analytics-System.
    * Estimated Visits Per Day (Geschätzte Besuche pro Tag): Hierbei handelt es sich um die Anzahl der Besuche pro Tag von Besuchern, welche die Aktivität auf Basis von Targeting-Kriterien anzeigen können. Dies kann auf Ihren Analytics-Daten basieren. Beachten Sie, dass es sich bei dieser Zahl um Besuche und nicht um Unique Visitors handeln sollte.
    * Testdauer: Die Anzahl der Tage, während derer Sie die Aktivität ausführen möchten.
+
    Die Traffic-Schätzung verwendet diese Statistik, um zu ermitteln, welche Anpassungen erforderlich sind, um einen erfolgreichen Test auszuführen.
 
    Im oberen Bereich der Traffic-Schätzung werden die von ihnen eingegebenen Werte berechnet und die Ergebnisse werden angezeigt.
@@ -46,6 +51,7 @@ Beachten Sie, dass Target zufällig so lange Erlebnisse verarbeitet, bis die Per
    * Verwenden Sie ggf. „Automatisches Targeting“ anstelle von „Automatisierte Personalisierung“, um Erlebnisse mit verschiedenen Angebotsänderungen in einer Erlebnisvariation zu erstellen.
    * Reduzieren Sie die Anzahl der Angebotskombinationen in Ihrer Aktivität des Typs „Automatisierte Personalisierung“.
    * Erhöhen Sie die Dauer der Aktivität.
+
    Passen Sie die Zahlen so lange an, bis die Traffic-Schätzung Ihnen mitteilt, dass Sie über ausreichend Traffic verfügen. Dann können Sie Ihren Entwurf entsprechend entwerfen.
 
    ![](assets/ap_est_yes.png)
