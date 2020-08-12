@@ -1,11 +1,15 @@
 ---
-keywords: Umsatzsteigerung;Umsatz;Schätzung der Umsatzsteigerung;Steigerung berechnen;geschätzter Wert
+keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: Target kann die Umsatzsteigerung schätzen, die Sie erzielen könnten, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden.
 title: Geschätzte Umsatzsteigerung
+feature: null
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +32,7 @@ Für diese Schätzung werden das Ausmaß der Steigerung durch das erfolgreichste
 
 Die geschätzte Umsatzsteigerung wird auf Basis von „Umsatz pro Besuch (RPV)“ berechnet, was wiederum von der Metrik für das primäre Ziel abgerufen wird.
 
-Die geschätzte Steigerung wird mit folgender Formel berechnet: (&lt;RPV des erfolgreichsten Erlebnisses&gt; - &lt;RPV des Kontrollerlebnises&gt;)*&lt;Gesamtanzahl Besucher in der Aktivität&gt;
+Die geschätzte Steigerung wird mit folgender Formel berechnet: (&lt;RPV des erfolgreichsten Erlebnisses> - &lt;RPV des Kontrollerlebnises>)*&lt;Gesamtanzahl Besucher in der Aktivität>
 
 Das Ergebnis wird auf maximal eine Dezimalstelle gerundet, wenn die gekürzte Form vor der Dezimalstelle nur eine Ziffer enthält. Beispiele: 1,6 Mio. $, 60 K $, 900 $, 8,5 K $, 205 K $
 
