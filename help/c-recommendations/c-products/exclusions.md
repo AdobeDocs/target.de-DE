@@ -2,9 +2,13 @@
 keywords: exclusions
 description: Erstellen Sie eine Ausschlussliste in Adobe Target, um zu verhindern, dass gewisse Artikel empfohlen werden.
 title: Ausschlüsse in Adobe Target
+feature: null
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +55,7 @@ Nachdem Sie beispielsweise eine Suche mit „id“ > „contains“ erstellt ha
 >
 >Bei der Funktion „Erweiterte Suche“ wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die zum Zeitpunkt der Auslieferung zurückgegebenen Produkte basieren jedoch auf der Suche mit Unterscheidung zwischen Groß- und Kleinschreibung. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Ausschlüsse auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Ausschluss mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszuschließen, werden nur Produkte mit dem Zusatz „urlaub“ ausgeschlossen. Produkte, die „Urlaub“ enthalten, werden nicht ausgeschlossen.
 
-## Schulungsvideo: Sammlungen und Ausschlüsse in Recommendations erstellen (07:05) Abzeichen ![für Übungen](/help/assets/tutorial.png)
+## Schulungsvideo: Sammlungen und Ausschlüsse in Recommendations erstellen (07:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
