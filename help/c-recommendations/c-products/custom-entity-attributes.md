@@ -2,9 +2,13 @@
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Verwenden Sie Entitätsattribute mit einzelnen oder mehreren Werten zur Festlegung weiterer Informationen zu Artikeln in Ihrem Katalog.
 title: Benutzerdefinierte Entitätsattribute
+feature: null
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: a686c6964bba360f013d6fb7effcfc7ae5f1eaf5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1364'
+ht-degree: 95%
 
 ---
 
@@ -109,7 +113,7 @@ Gehen Sie bei der direkten Bearbeitung einer CSV-Katalogdatei im Rohformat vorsi
 
 **Verwenden von APIs**
 
-Sie können Attribute mit mehreren Werten mithilfe der Versand-API in einem mbox-Parameter als Zeichenfolgenwert mit einem Escape-Array übergeben.
+You can pass multi-value attributes using the Delivery API in an mbox parameter as a string value containing an escaped JSON array.
 
 ```
 "execute": {
