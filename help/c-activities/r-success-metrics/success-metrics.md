@@ -1,10 +1,11 @@
 ---
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings
 description: In Adobe Target sind Erfolgsmetriken Parameter, mit denen der Erfolg einer Aktivität gemessen wird. Erfolgsmetriken umfassen die wichtigsten betrieblichen Messwerte, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können.
-title: Erfolgsmetriken im Adobe Target
+title: Erfolgsmetriken in Adobe Target
+feature: null
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 4fd2de5600060d58759ffa54a771a45b263f115b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 53%
@@ -22,7 +23,7 @@ So können Sie beispielsweise feststellen, ob ein neues Angebot oder das Hinzuf�
 
 Erfolgsmetriken [!DNL Target]werden vorkonfiguriert und bieten optimale Optionen für Berichte- und Verfolgungszwecke.
 
-Standardmäßig sind die Ereignis für die Konvertierung auf &quot;Anzahl[!UICONTROL erhöhen und Benutzer in Aktivität]belassen&quot;eingestellt. Konversionen werden nur einmal gezählt, keine wiederholten Konvertierungen gezählt und der Besucher sieht immer den Inhalt der Aktivität.
+By default, conversion events are set to &quot;[!UICONTROL Increment count &amp; keep user in activity].&quot; Konversionen werden nur einmal gezählt, keine wiederholten Konvertierungen gezählt und der Besucher sieht immer den Inhalt der Aktivität.
 
 Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep user in activity]&quot; log order details only for the first order made by the same visitor. All subsequent orders increase conversion count, but will not add revenue to RPV/AOV/Sales, and will not be included in the [!UICONTROL Order Details] report.
 
@@ -34,7 +35,7 @@ Es sind folgende Erfolgsmetriken verfügbar:
 
 | Erfolgsmetrik | Messungsansatz | Definition |
 |--- |--- |--- |
-| Konversion | Konversionsbasiert | Die Umrechnung erfolgt, wenn ein Besucher eine von Ihnen definierte Aktion auf Ihrer Site ausführt, z. B. <ul><li>Klicken auf eine Schaltfläche</li><li>Seite angezeigt</li><li>Umfrage abgeschlossen</li><li>Einkauf vorgenommen</li></ul>Eine Konversion kann einmal pro Besucher oder jedes Mal, wenn ein Besucher eine Konversion abschließt, gezählt werden. |
+| Konversion | Konversionsbasiert | Die Umrechnung erfolgt, wenn ein Besucher eine von Ihnen definierte Aktion auf Ihrer Site ausführt, z. B. <ul><li>Klicken auf eine Schaltfläche</li><li>Seite angezeigt</li><li>Umfrage abgeschlossen</li><li>Einkauf vorgenommen</li></ul>A conversion can be counted once per visitor or each time any visitor completes a conversion. |
 | Umsatz | Konversionsbasiert | Durch den Besuch generierter Umsatz. Sie können aus folgenden Umsatzmetriken wählen:<ul><li>Umsatz pro Besucher (RPV)</li><li>Durchschnittlicher Bestellwert (AOV)</li><li>Gesamtverkäufe</li><li>Bestellungen</li></ul> |
 | Seitenansichten | Interaktionsbasiert | Jeder eindeutige Besuch wird als Konversion gezählt. |
 | Benutzerspezifisches Ergebnis | Interaktionsbasiert | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
