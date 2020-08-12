@@ -2,9 +2,13 @@
 keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traffic estimator;when to use mvt;mvt considerations;multivariate;partial-factorial;partial factorial;full-factorial
 description: Beim Multivariate Tests (MVT) in Adobe Target werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt dieser Test an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 title: Multivarianz-Test
+feature: null
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1442'
+ht-degree: 91%
 
 ---
 
@@ -53,14 +57,14 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
 
 * Verwenden Sie einen Multivarianz-Test um zu ermitteln, welches Element am wichtigsten ist, und anschließend einen stärker fokussierten A/B-Test für dieses Element.
 
-   Wenn die Anzahl der verschiedenen Erlebnisse mehr als fünf beträgt und zwei oder mehr Elemente umfasst, sollten Sie einen Multivarianz-Test in Erwägung ziehen, bevor Sie Ihre A/B-Tests durchführen. Der Multivarianz Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Elemente, auf die sich ein Marketingexperte konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf das wichtigste Element zur Erreichung Ihrer Ziele ist. Sobald Sie festgelegt haben, welche Elemente und Inhalte am nützlichsten sind, um Sie bei der Erreichung Ihrer Ziele zu unterstützen, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern, wie zum Beispiel den vergleichenden Test zweier spezifischer Bilder oder den Vergleich von Formulierungen oder Farben eines Aktionsaufrufs. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
+   When the number of different experiences exceeds five and spans two or more elements, it&#39;s a good idea to consider an MVT test before running your A/B tests. Der Multivarianz Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Elemente, auf die sich ein Marketingexperte konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf das wichtigste Element zur Erreichung Ihrer Ziele ist. Sobald Sie festgelegt haben, welche Elemente und Inhalte am nützlichsten sind, um Sie bei der Erreichung Ihrer Ziele zu unterstützen, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern, wie zum Beispiel den vergleichenden Test zweier spezifischer Bilder oder den Vergleich von Formulierungen oder Farben eines Aktionsaufrufs. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
 
 ## Zu beachten {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * Verwenden Sie einen Multivarianz-Test, wenn Sie mindestens drei Elemente testen müssen. Wenn Sie weniger haben, starten Sie eine Reihe von  A/B-Tests.
 * Wählen Sie die Seitenelemente aus, von denen Sie glauben, dass sie den größten Einfluss auf die Ergebnisse haben.
 * Vermeiden Sie die Einbeziehung zu vieler Elemente oder Orte in einen Test. Je größer die Anzahl, desto länger die Testdauer.
-* Planen Sie den Testentwurf im Voraus. Es ist nicht ratsam, einen Test zu bearbeiten, nachdem er live geschaltet wurde und Daten erfasst und analysiert werden.
+* Planen Sie den Testentwurf im Voraus. It&#39;s not advisable to edit a test after it goes live and data starts being collected and analyzed.
 * Es wird empfohlen, dass die Elemente unabhängig voneinander sind.
 
    Testen Sie z. B. Ihr Layout und Ihren Inhalt nicht im selben Test.
@@ -87,9 +91,9 @@ Weitere Informationen und Best Practices finden Sie unter [Best Practices für M
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Abzeichen &quot;Aktivitätstypen&quot;(9:03) ![Übersicht](/help/assets/overview.png)
+### Aktivität Types (9:03) - ![Überblick](/help/assets/overview.png)
 
-In diesem Übersichtsvideo werden die in Target Standard/Premium verfügbaren Aktivitätstypen erläutert. Multivariate Tests werden ab 4:20 erklärt.
+In diesem Übersichtsvideo werden die in Target Standard/Premium verfügbaren Aktivitäten erläutert. Multivariate Tests werden ab 4:20 erklärt.
 
 * Beschreiben Sie die Arten von Aktivitäten, die Teil von [!DNL Adobe Target] sind
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
