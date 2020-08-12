@@ -2,9 +2,13 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: Wenn Sie die Struktur Ihrer Seite mithilfe einer Seitenvorlage erstellen oder wenn Ihre Seite ähnliche Elemente enthält, können Sie mithilfe dieser Funktion Variationen in ähnlich strukturierten Seitenelementen testen.
 title: Gleiches Erlebnis auf ähnlichen Seiten
+feature: null
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +40,7 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
 
 1. Legen Sie den Seitenbereich fest. Der Seitenbereich kann einer der folgenden sein:
 
-   * URL (Weitere Informationen zur Bewertung von URLs durch Target finden Sie unter Häufig gestellte Fragen zu [Zielen und Zielgruppen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * URL (Weitere Informationen zur Bewertung von URLs durch Zielgruppe finden Sie unter Häufig gestellte Fragen zu [Zielgruppen und Audiencen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * Domäne
    * Pfad
    * Hashfragment (#) (Nehmen Sie ein Targeting auf den Teil der URL vor, der auf das #-Symbol folgt.)
@@ -72,7 +76,7 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
 >
 > Target kann die Seiten nicht überprüfen, um sicherzustellen, dass sie wie erwartet angezeigt werden. Wenn Sie diese Funktion verwenden, sollten Sie daher die betroffenen Seiten immer testen, bevor Sie sie veröffentlichen.
 
-## Schulungsvideo: Visual Experience Composer (2 von 2) (7:29) Abzeichen ![für Übungen](/help/assets/tutorial.png)
+## Schulungsvideo: Visual Experience Composer (2 von 2) (7:29) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 * Erlebnis umbenennen und duplizieren
 * Umleitungserlebnis erstellen
