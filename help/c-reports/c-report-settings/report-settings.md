@@ -2,9 +2,13 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Informationen dazu, wie Sie die Elemente festlegen können, die in Berichten aufgeführt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
 title: Berichtseinstellungen
+feature: null
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1878'
+ht-degree: 84%
 
 ---
 
@@ -41,7 +45,7 @@ Sie können auch einzelne Aktivitätsberichte nach Bedarf konfigurieren und als 
 1. (Optional) Wenn Sie die Berichtsansicht als Standard oder Favoriten festlegen möchten, aktivieren Sie **[!UICONTROL Als Standardeinstellung festlegen]**.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-### Eine andere Vorgabe auswählen
+### Select a different preset
 
 Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Zielvorgabe]** aus.
 
@@ -64,7 +68,7 @@ Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Z
 
    ![Aktualisierung des Berichts](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
-### Eine Vorgabe löschen
+### Delete a preset
 
 1. Wählen Sie die Voreinstellung aus, die Sie löschen möchten.
 1. Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Löschen]**.
@@ -160,9 +164,9 @@ Der Bericht kann je nach Aktivität in verschiedenen Formaten Ansicht werden. W�
 ![Symbole für Ansichten](/help/c-reports/c-report-settings/assets/view-options.png)
 
 * **Ansicht** der Tabelle: Klicken Sie auf das Symbol **[!UICONTROL Tabellenansicht]** , um den Bericht als Tabelle Ansicht.
-* **Graph-Ansicht**: Klicken Sie auf das Symbol für die **[!UICONTROL Ansicht]** des Diagramms, um den Bericht als Diagramm Ansicht.
-* **Automatisierte Segmente**:(Nur für Aktivitäten mit automatisierter Personalisierung (AP) und automatischer Zielgruppe (AT) verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automatisierte Segmente] , um den Bericht [&quot;](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)Automatisierte Segmente&quot;Ansicht.
-* **Wichtige Attribute**: (Nur für Aktivitäten der automatisierten Personalisierung (AP) und der automatischen Zielgruppe (AT) verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Wichtige Attribute] , um den Bericht &quot; [Wichtige Attribute&quot;Ansicht](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+* **Graph View**: Click the **[!UICONTROL Graph View]** icon to view the report as a graph.
+* **Automatisierte Segmente**:(Nur für Aktivitäten mit Automated Personalization (AP) und Auto-Zielgruppe (AT) verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automatisierte Segmente] , um den Bericht [&quot;](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)Automatisierte Segmente&quot;Ansicht.
+* **Wichtige Attribute**: (Nur für Aktivitäten mit Automated Personalization (AP) und Auto-Zielgruppe (AT) verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Wichtige Attribute] , um den Bericht &quot; [Wichtige Attribute&quot;Ansicht](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -235,17 +239,17 @@ Für Aktivitäten zum automatischen Targeting existieren vier Modi: tägliche Ko
 
 Die Standardreihenfolge, in der das Diagramm gezeichnet wird, lautet wie folgt:
 
-* **A/B-Tests (einschließlich automatisierter Zuordnung und automatisierter Personalisierung)**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
-* **Erlebnis-Targeting (XT)**: Reihenfolge der Erlebnisse in der Aktivität.
+* **A/B Tests (including Auto-Allocate and Automated Personalization)**: Order of experience creation, in descending order.
+* **Experience Targeting (XT)**: Order of experiences in the activity.
 * **Multivarianz-Test (MVT)**: Alphabetisch nach Erlebnisname.
-* **Empfehlungen**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
+* **Recommendations**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
 
 Beachten Sie beim Arbeiten mit den Optionen zur Zählmethodologie die folgenden Widersprüche:
 
 * For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. Das automatische Targeting ist der einzige Aktivitätstyp, der nicht basierend auf Besuchern dargestellt werden kann.
 * For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
-## Arbeiten mit Diagrammen mit mehr als 16 Erlebnissen in der Aktivität
+## Working with graphs that have more than 16 experiences in the activity
 
 Wenn eine Aktivität weniger als 16 Erlebnisse umfasst, wird jedes Erlebnis im Diagramm mit einer anderen Farbe gezeichnet.
 
