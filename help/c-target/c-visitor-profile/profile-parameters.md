@@ -2,10 +2,11 @@
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Adobe Target-Aktivitäten verwendet werden können.
 title: Profilattribute in Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 78%
@@ -17,9 +18,9 @@ ht-degree: 78%
 
 Profilattribute sind Parameter, die speziell für einen Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Aktivitäten verwendet werden können.
 
-Ein Profil eines Benutzers enthält demografische und verhaltensbezogene Informationen über einen Besucher einer Webseite, z. B. Alter, Geschlecht, erworbene Produkte, letzte Besuchszeit usw. Diese Zielgruppe verwendet diese Informationen, um die Inhalte, die dem Besucher zur Verfügung stehen, zu personalisieren.
+A user profile contains demographic and behavioral information of a web page visitor, such as age, gender, products purchased, last time of visit, and so on that Target uses to personalize the content it serves to the visitor.
 
-Wenn ein Besucher auf Ihrer Website surft oder der Besucher zu einer anderen Sitzung zurückkehrt, können die im Profil gespeicherten Profil-Attribute zur Zielgruppe von Inhalten oder Protokollinformationen für die Segmentfilterung verwendet werden.
+As a visitor browses your website, or when the visitor returns for another session, the saved profile attributes in the profile can be used to target content or log information for segment filtering.
 
 So richten Sie Profil-Attribute ein:
 
@@ -27,7 +28,7 @@ So richten Sie Profil-Attribute ein:
 
    ![Registerkarte „Profilskripte“ ](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
-1. Klicken Sie auf Skript **[!UICONTROL erstellen]**.
+1. Click **[!UICONTROL Create Script]**.
 
    ![Dialogfeld „Profilskript erstellen“](/help/c-target/c-visitor-profile/assets/create-script.png)
 
@@ -106,7 +107,7 @@ Die Registerkarte [!UICONTROL Nutzung von Skripten] enthält die Aktivitäten (u
 
 ## Target deaktiviert in bestimmten Situationen Profilskripte {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-[!DNL Target] deaktiviert Profil-Skripten in bestimmten Situationen automatisch, z. B. wenn die Ausführung zu lange dauert oder zu viele Anweisungen vorliegen.
+[!DNL Target] automatically disables profile scripts in certain situations, such as if they take too long to execute or have too many instructions.
 
 Wird ein Profilskript deaktiviert, erscheint in der Target-Benutzeroberfläche neben dem betroffenen Skript ein gelbes Warnsymbol, wie unten dargestellt:
 
@@ -127,13 +128,13 @@ Typische Gründe für die Deaktivierung von Profilskripten durch das System sind
 
 Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verfassen, die möglichst fehlerfrei sind. Sie können Code schreiben, der so fehlschlägt, dass die Skripts ohne erzwungenes Beenden des Skripts durch das System verarbeitet werden. Diese Leitlinien sind das Ergebnis der Best Practices, die für eine effiziente Funktionsweise nachgewiesen wurden. Diese Richtlinien gelten neben den Grundsätzen und Empfehlungen der Rhino-Entwicklungsgemeinde.
 
-* Stellen Sie den aktuellen Skriptwert auf eine lokale Variable im Benutzerskript ein, und legen Sie einen Failover auf eine leere Zeichenfolge fest.
+* Set current script value to a local variable in the user script, set a failover to a blank string.
 * Validieren Sie die lokale Variable, indem Sie sicherstellen, dass sie kein leerer String ist.
-* Verwenden Sie stringbasierte Manipulationsfunktionen im Vergleich zu regulären Ausdrücken.
+* Use string-based manipulation functions vs. Regular Expressions.
 * Verwenden Sie limited for- bzw. open ended for-Schleifen oder while-Schleifen.
 * Halten Sie die Vorgabe von maximal 1.300 Zeichen bzw. 50 Schleifeniterationen ein.
 * Überschreiten Sie nicht die Maximalzahl von 2.000 JavaScript-Anweisungen. Target verfügt über einen Maximalwert von 2.000 JavaScript-Anweisungen pro Skript, die Anzahl kann jedoch nicht einfach durch manuelles Lesen des JavaScript bestimmt werden. Rhino beispielsweise behandelt alle Funktionsaufrufe und „neuen“ Aufrufe als 100 Anweisungen. Außerdem kann sich die Größe der eingegebenen Daten (beispielsweise der URL-Werte) auf die Anzahl der Anweisungen auswirken.
-* Berücksichtigen Sie nicht nur die individuelle Skriptperformance, sondern auch die Performance aller Skripte. Als Best Practice empfehlen wir insgesamt weniger als 5.000 Anweisungen. Die Zählung der Anzahl der Anweisungen ist nicht offensichtlich, aber es ist wichtig zu beachten, dass Skripte mit mehr als 2.000 Anweisungen automatisch deaktiviert werden. Die Anzahl der aktiven Profil-Skripten darf 300 nicht überschreiten. Jedes Skript wird mit jedem einzelnen Mbox-Aufruf ausgeführt. Führen Sie also nur so viele Skripte aus wie nötig.
+* Berücksichtigen Sie nicht nur die individuelle Skriptperformance, sondern auch die Performance aller Skripte. Als Best Practice empfehlen wir insgesamt weniger als 5.000 Anweisungen. Counting the number of instructions is not obvious, but the important thing to note is that scripts exceeding 2,000 instructions are automatically disabled. Die Anzahl der aktiven Profil-Skripten darf 300 nicht überschreiten. Jedes Skript wird mit jedem einzelnen Mbox-Aufruf ausgeführt. Führen Sie also nur so viele Skripte aus wie nötig.
 * Bei einem Regex ist fast nie Punkt-Stern am Beginn (z. B.: `/.*match/`, `/a|.*b/`) erforderlich. Die Regex-Suche beginnt auf allen Positionen in einer Zeichenfolge (außer wenn durch `^` begrenzt), sodass Punkt-Stern bereits vorausgesetzt wird. Die Skriptausführung kann unterbrochen werden, wenn ein solcher Regex mit langen Eingabedaten abgeglichen wird (kann auch mehrere hundert Zeichen lang sein).
 * Schlägt alles fehl, verpacken Sie das Skript in einer try/catch-Anweisung.
 * Die folgenden Empfehlungen helfen Ihnen, die Komplexität von Profil-Skripten zu begrenzen. Profil-Skripten können eine begrenzte Anzahl von Anweisungen ausführen.
@@ -253,7 +254,7 @@ Die folgenden Eigenschaften und Methoden können durch Skript-Profilparameter re
 | `landing.url`, `landing.protocol`, `landing.query`, und `landing.param` | Ähnlich wie die Seite, aber für die Landingpage. |
 | `mbox.name` | Der Name der aktiven Mbox. |
 | `mbox.param(‘<par_name>’)` | Ein mbox-Parameter nach dem angegebenen Namen in der aktiven Mbox. |
-| `profile.get(‘<par_name>’)` | Der vom Kunden erstellte Benutzerprofilparameter durch den Namen `<par_name>`. Wenn der Benutzer z. B. einen Profilparameter namens „Gender“ festgelegt hat, kann der Wert mit „profile.gender“ extrahiert werden. Gibt den Wert des Werts „`profile.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. Beachten Sie, dass dies als Funktionsaufruf qualifiziert `profile.get(<par_name>)` ist. |
+| `profile.get(‘<par_name>’)` | Der vom Kunden erstellte Benutzerprofilparameter durch den Namen `<par_name>`. Wenn der Benutzer z. B. einen Profilparameter namens „Gender“ festgelegt hat, kann der Wert mit „profile.gender“ extrahiert werden. Gibt den Wert des Werts „`profile.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. Note that `profile.get(<par_name>)` is qualified as a function call. |
 | `user.get(‘<par_name>’)` | Gibt den Wert des Werts „`user.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. |
 | `user.categoryAffinity` | Gibt den Namen der besten Kategorie zurück. |
 | `user.categoryAffinities` | Gibt ein Array mit den besten Kategorien zurück. |
