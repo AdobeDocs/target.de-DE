@@ -1,10 +1,14 @@
 ---
 description: Da ein multivariater Test mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
 title: Erlebnisvorschau für Multivarianz-Tests
+feature: null
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
 
@@ -33,5 +37,5 @@ Da ein multivariater Test mehrere Erlebnisse auf einer Seite vergleicht, ist es 
 
    Standardmäßig werden alle Erlebnisse in einen Multivariater Test einbezogen. Um ein Erlebnis einzubeziehen, das zuvor ausgeschlossen wurde, wählen Sie das ausgeschlossene Erlebnis und klicken Sie auf **[!UICONTROL Einbeziehen]**.
 
-Klicken Sie auf **[!UICONTROL Vorschaumodus verlassen]**, um zum Experience Composer zurückzukehren, sodass Sie Änderungen vornehmen können, oder klicken Sie auf **Weiter], um zur Testzusammenfassung zu wechseln.[!UICONTROL **
+Klicken Sie auf **[!UICONTROL Vorschaumodus verlassen]**, um zum Experience Composer zurückzukehren, sodass Sie Änderungen vornehmen können, oder klicken Sie auf **[!UICONTROL Weiter]**, um zur Testzusammenfassung zu wechseln.
 
