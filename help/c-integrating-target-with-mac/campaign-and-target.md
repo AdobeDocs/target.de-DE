@@ -2,10 +2,11 @@
 keywords: Overview and Reference
 description: Verwenden Sie Target mit Adobe Campaign, um E-Mail-Inhalte zu optimieren.
 title: Integration von Target in Adobe Campaign
+feature: null
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: c652be30b0dfede94457f402a8b540a35096bdb4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 46%
@@ -40,7 +41,7 @@ Es gibt mehrere Einschränkungen:
    * Die Rawbox und das Erlebnis in [!DNL Target]
    >[!NOTE]
    >
-   >Wenn Sie eine Rawbox verwenden und [!DNL Target]lesen Sie den wichtigen Sicherheitshinweis unter zulassungsliste [erstellen, die Hosts angeben, die zum Senden von Mbox-Aufrufen an Target](/help/administrating-target/hosts.md#allowlist)berechtigt sind.
+   >Wenn Sie eine Rawbox verwenden und [!DNL Target]lesen Sie den wichtigen Sicherheitshinweis unter Zulassungslisten [erstellen, die Hosts angeben, die zum Senden von Mbox-Aufrufen an die Zielgruppe](/help/administrating-target/hosts.md#allowlist)berechtigt sind.
 
    * The delivery in [!DNL Campaign]
 
