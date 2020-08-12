@@ -1,11 +1,15 @@
 ---
-keywords: DSGVO; eu; Europäische Union; Datenschutz; faq; häufig gestellte Fragen; california consumer privacy act; ccpa; Datenschutz; Schutz der Daten; opt-out; abmelden; Regierung; Vorschrift
+keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: Informationen über die Datenschutz-Grundverordnung (DSGVO) der Europäischen Union, den California Consumer Privacy Act (CCPA) sowie andere internationale Datenschutzanforderungen und wie sich diese Vorschriften auf Ihr Unternehmen und Adobe Target auswirken.
 title: Informationen über die Datenschutz-Grundverordnung (DSGVO) der Europäischen Union, den California Consumer Privacy Act (CCPA) sowie andere internationale Datenschutzanforderungen und wie sich diese Vorschriften auf Ihr Unternehmen und Adobe Target auswirken.
+feature: null
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2276'
+ht-degree: 93%
 
 ---
 
@@ -296,4 +300,4 @@ Die im Beispiel verwendeten JSON-Felder des Profils werden in der folgenden Tabe
 
 ### Muss ich etwas unternehmen, um zu verhindern, dass meine Daten an Dritte weitergegeben oder verkauft werden?
 
-Target kann Kunden nicht erlauben, Daten direkt von Target an Dritte weiterzugeben oder zu verkaufen. Daher gibt es keinen Ausschluss vom Verkauf für Target.
+Die Zielgruppe ist nicht in der Lage, Kunden die Möglichkeit zu geben, Daten direkt von der Zielgruppe an Dritte weiterzugeben oder zu verkaufen, sodass kein Ausschluss vom Verkauf zur Zielgruppe besteht.
