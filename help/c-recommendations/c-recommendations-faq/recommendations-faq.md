@@ -1,17 +1,21 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
-description: Liste der häufig gestellten Fragen (FAQs) zu Adobe Target Recommendations-Aktivitäten.
+description: Liste häufig gestellter Fragen zu Adobe Target Recommendations-Aktivitäten.
 title: Häufig gestellte Fragen zu Adobe Target Recommendations
+feature: null
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1933'
+ht-degree: 84%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) FAQ zu Recommendations{#recommendations-faq}
 
-Liste der häufig gestellten Fragen (FAQs) zu Adobe Target Recommendations-Aktivitäten.
+Liste häufig gestellter Fragen zu Adobe Target Recommendations-Aktivitäten.
 
 ## Wie lange dauert es, bis Aktualisierungen an Elementen in meinem Katalog auf meiner Site erscheinen?
 
@@ -159,7 +163,7 @@ In der Abfragezeichenfolge können Sie Entität-IDs für Entitäten übermitteln
 
 Verwenden Sie den Mbox-Parameter `excludedIds`, um die Ausschlussfunktion zu aktivieren. Dieser Parameter verweist auf eine Liste kommagetrennter Entitäts-IDs. Zum Beispiel `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Der Wert wird übermittelt, wenn Empfehlungen angefordert werden.
 
-Der Ausschluss wird nur für den aktuellen Target-Aufruf durchgeführt. Elemente werden bei nachfolgenden Target-Aufrufen nur dann ausgeschlossen, wenn der `excludedIds` Wert erneut übergeben wird. Um Artikel im Warenkorb von Empfehlungen auf jeder Seite auszuschließen, geben Sie den `excludedIds` Wert weiterhin auf jeder Seite weiter.
+Der Ausschluss wird nur für den Aufruf der aktuellen Zielgruppe durchgeführt. Elemente werden bei nachfolgenden Zielgruppen-Aufrufen nur dann ausgeschlossen, wenn der `excludedIds` Wert erneut übergeben wird. Um Artikel im Warenkorb von Empfehlungen auf jeder Seite auszuschließen, geben Sie den `excludedIds` Wert weiterhin auf jeder Seite weiter.
 
 >[!NOTE]
 >
@@ -169,7 +173,7 @@ To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the 
 
 Diese Funktion ist für neu erstellte Empfehlungen standardmäßig aktiviert. Bestehende Empfehlungen müssen gespeichert werden, um eine Unterstützung für dynamisch ausgeschlossene Entitäten zu gewährleisten.
 
-## Was bedeutet die Antwort NO_CONTENT manchmal, die im Content Trace von Recommendations zurückgegeben wird?
+## What does the NO_CONTENT response sometimes returned in the Recommendations content trace mean?
 
 NO_CONTENT wird zurückgegeben, wenn für die angeforderte Algorithmus- und Schlüsselkombination keine Empfehlungen verfügbar sind. Im Allgemeinen tritt dies auf, wenn Backups für den Algorithmus deaktiviert sind und mindestens einer der folgenden Punkte ebenfalls zutrifft:
 
@@ -185,6 +189,6 @@ NO_CONTENT wird zurückgegeben, wenn für die angeforderte Algorithmus- und Schl
 
    Dies tritt in der Regel auf, wenn Empfehlungen für ein Element angefordert werden, das nach der Ausführung des letzten Algorithmus zum Katalog hinzugefügt wurde, und sich nach der Ausführung des nächsten Algorithmus selbst auflösen.
 
-* Die teilweise Vorlagenwiedergabe ist deaktiviert und es sind nicht genügend Ergebnisse zum Ausfüllen der Vorlage verfügbar.
+* Die teilweise Vorlagenwiedergabe ist deaktiviert und es stehen nicht genügend Ergebnisse zum Ausfüllen der Vorlage zur Verfügung.
 
-   Dies tritt in der Regel auf, wenn Sie über eine dynamische Einschlussregel verfügen, die viele Elemente aus den möglichen Ergebnissen aggressiv filtert. Um dies zu vermeiden, aktivieren Sie Backups und wenden Sie die Einschlussregel nicht auf Backups an oder verwenden Sie die Kriterien in einer Sequenz mit weniger aggressiv gefilterten Kriterien.
+   Dies tritt in der Regel auf, wenn Sie über eine dynamische Einschlussregel verfügen, mit der viele Elemente aus den möglichen Ergebnissen aggressiv Filter werden. Um dies zu vermeiden, aktivieren Sie Backups und wenden Sie die Einschlussregel nicht auf Backups an oder verwenden Sie die Kriterien in einer Sequenz mit einem weniger aggressiv gefilterten Kriterium.
