@@ -2,11 +2,15 @@
 keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Adobe Target bietet Prozesse und Einstellungen, die Ihnen die Verwendung von Target unter Einhaltung der geltenden Datenschutzgesetze ermöglichen.
 title: Datenschutz
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 Adobe Target bietet Prozesse und Einstellungen, die Ihnen die Verwendung von Target unter Einhaltung der geltenden Datenschutzgesetze ermöglichen.
 
-## Sammlung von IP-Adressen {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## Collection of IP addresses {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 Die IP-Adresse eines Besuchers Ihrer Website wird an das Adobe-Datenverarbeitungscenter übergeben. Abhängig von der Netzwerkkonfiguration des Besuchers entspricht die IP-Adresse nicht unbedingt der IP-Adresse des Computers des Besuchers. Bei der IP-Adresse kann es sich z. B. um die externe IP-Adresse einer Network Address Translation-(NAT-)Firewall, eines HTTP-Proxys oder eines Internet-Gateways handeln. Target speichert keine IP-Adressen oder personenbezogenen Informationen des Benutzers. IP-Adressen werden von Target nur während der Dauer der Sitzung verwendet (im Arbeitsspeicher, nie persistent).
 
@@ -35,7 +39,7 @@ Zielgruppe empfängt die vollständige IP-Adresse und verschleiert sie (sofern a
 
 >[!NOTE]
 >
->[Wenden Sie sich an den Adobe ClientCare](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) , um zu ermitteln, welche Einstellung Sie derzeit verwenden, oder um die IP-Verschleierungsfunktion zu aktivieren.
+>[Wenden Sie sich an den Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) der Adobe, um zu ermitteln, welche Einstellung Sie aktuell verwenden, oder um die IP-Verschleierungsfunktion zu aktivieren.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
