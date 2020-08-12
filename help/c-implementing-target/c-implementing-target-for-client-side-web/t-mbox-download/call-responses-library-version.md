@@ -1,9 +1,13 @@
 ---
 description: Die Art, mit der Target Aufrufe an Ihre Seite sendet und auf Aufrufe der Seite antwortet, hängt von der Version der verwendeten Target-Bibliothek ab und davon, ob die Implementierung der Experience Cloud-Besucher-ID und die Besucher-ID vorhanden sind.
 title: Target-Seitenmethoden nach „mbox.js“-Bibliotheksversion
+feature: null
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 100%
 
 ---
 
