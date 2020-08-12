@@ -1,12 +1,16 @@
 ---
-keywords: partielle Daten; Teildaten; A4T; Diskrepanzen; Analytics für Target; verwaist; virtuelle Report Suite; Phantom; Fehlerbehebung; gelöst; überhöht; unspezifisch
+keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
 description: Hilfreiche Informationen dazu, wie Sie bei der Verwendung von Analytics als Berichtsquelle die Auswirkungen überhöhter Besuchs- und Besucherzahlen minimieren können.
 title: Minimieren überhöhter Besuchs- und Besucherzahlen in A4T
-subtopic: Multivarianz-Test
+feature: null
+subtopic: Multivariate Test
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +29,7 @@ Hilfreiche Informationen dazu, wie Sie bei der Verwendung von Analytics als Beri
 >* Experience Cloud-Besucher-ID-Service: visitorAPI.js, Version 2.3.0 oder neuer.
 >* Adobe Analytics: appMeasurement.js, Version 2.1.
 >* Adobe Target: at.js-Version 0.9.6 oder höher (ausgenommen Version 1.1.0 bei der Verwendung von Umleitungsangeboten mit A4T).
+
 >
 >  
 Die mbox.js Bibliothek unterstützt keine Umleitungsangebote in A4T. Ihre Implementierung muss at.js verwenden.
