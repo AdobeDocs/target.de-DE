@@ -1,11 +1,15 @@
 ---
-keywords: mehrseitig;Verlaufstests;mehrseitige Aktivität
+keywords: multi-page;journey testing;multipage activity
 description: Mit einer mehrseitigen Aktivität können Sie eine Story über mehrere Seiten erstellen, mit einem für die einzelnen Seiten spezifischen Design.
 title: Mehrseitige Aktivität
+feature: null
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +30,7 @@ Sie können Vorlagenregeln für alle Seiten im mehrseitigen Test angeben. Sie k�
 
 So fügen sie einem Test Seiten hinzu:
 
-1. Klicken Sie auf das Zahnradsymbol **[!UICONTROL Konfigurieren].**
+1. Klicken Sie auf das Zahnradsymbol **[!UICONTROL Konfigurieren]**.
 1. Klicken Sie auf **[!UICONTROL Weitere Seiten hinzufügen]**.
 
    Eine Navigationsleiste wird auf der linken Bildschirmseite angezeigt.
@@ -35,7 +39,7 @@ So fügen sie einem Test Seiten hinzu:
 
 1. Geben Sie über diese Navigationsleiste Ihre Seiten an und legen Sie darüber die Standardseite fest.
 
-   Klicken Sie auf **[!UICONTROL Seite hinzufügen], um eine weitere Seite hinzuzufügen.**
+   Klicken Sie auf **[!UICONTROL Seite hinzufügen]**, um eine weitere Seite hinzuzufügen.
 
    Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen, um ein Aktionsmenü anzuzeigen:
 
