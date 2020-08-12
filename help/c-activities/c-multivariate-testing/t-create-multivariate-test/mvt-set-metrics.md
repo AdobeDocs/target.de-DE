@@ -2,10 +2,11 @@
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Verwenden Sie in multivariaten Tests Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
 title: Festlegen von Metriken
+feature: null
 solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 99%
@@ -29,6 +30,7 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter  [Erfolgsmetrike
    * Konversion
    * Umsatz
    * Interaktion
+
    Sie können die vorgefertigten Erfolgsmetriken verwenden oder eine benutzerdefinierte Erfolgsmetrik erstellen. Sie können auch eine Erfolgsmetrik als primäre Metrik kennzeichnen. Berichte und Experience Cloud-Karten zeigen standardmäßig die primäre Metrik, falls eine festgelegt ist.
 1. Geben Sie die Einstellungen für Ihre Metriken an.
 
@@ -54,7 +56,7 @@ Beachten Sie, dass bei der (Um-)Benennung von Metriken folgende Zeichen nicht zu
    | `-` | Minus |
    | `@` | At-Zeichen |
 
-## Schulungsvideo: Aktivitätsmetriken (7:43) ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Aktivitätsmetriken (7:43) ![Tutorial badge](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Arbeit mit Erfolgsmetriken.
 
