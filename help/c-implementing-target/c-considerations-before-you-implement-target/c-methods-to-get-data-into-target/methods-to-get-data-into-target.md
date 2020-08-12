@@ -1,12 +1,16 @@
 ---
-keywords: implementieren;Implementierung;einrichten;Einrichtung;Seitenparameter;Tomcat;URL-encoded;In-page-Profilattribut;Mbox-Parameter;In-page-Profilattribute;Skript-Profilattribut;Bulk-Profilupdate-API;API für einzelne Dateiaktualisierungen;Kundenattribute;Datenanbieter;Daten-Anbieter;Datenanbieter
+keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: Informationen über die verschiedenen Verfahren, die Sie verwenden können, um Daten in Target zu übertragen, einschließlich der Seitenparameter, der Profilattribute innerhalb der Seite, der Skriptprofilattribute, der Datenanbieter, der Bulk-Profilupdate-API, der Single-Profilupdate-API und der Kundenattribute.
 title: Verfahren für die Datenübernahme in Target
-subtopic: Erste Schritte
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +57,7 @@ Die Daten werden in Echtzeit an Target gesendet und können bei demselben Server
 
    Zusätzlich zu den auf der IETF-Site aufgeführten Zeichen erlaubt Target auch folgende Zeichen in Abfragezeichenfolgen:
 
-   `&lt; &gt; # % " { } | \\ ^ \[\] \``
+   `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
    Alle anderen Zeichen müssen URL-codiert sein. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
@@ -224,8 +228,8 @@ Dokumentation: [Datenanbieter](/help/c-implementing-target/c-implementing-target
 
 ### Schulungsvideos:
 
-* [Verwenden von Datenanbietern in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implementieren von Datenanbietern in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Verwenden von Datenanbietern in Adobe Target](https://helpx.adobe.com/de/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Implementieren von Datenanbietern in Adobe Target](https://helpx.adobe.com/de/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## Bulk-Profil-Update-API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
