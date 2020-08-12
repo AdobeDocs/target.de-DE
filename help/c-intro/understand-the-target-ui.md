@@ -1,11 +1,12 @@
 ---
 keywords: target user interface;user interface;ui
-description: Die Adobe Target-Benutzeroberfläche
+description: Understanding the Adobe Target user interface
 title: Die Benutzeroberfläche der Zielgruppe
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8102b0322466e8cfb0a158b1ccb3f74e25d54cc1
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%
@@ -13,37 +14,37 @@ ht-degree: 28%
 ---
 
 
-# Die Benutzeroberfläche der Zielgruppe
+# Understand the Target UI
 
-Die Benutzeroberfläche ist in einem logischen und benutzerfreundlichen Format angeordnet, damit Sie das Beste aus dem Programm machen [!DNL Adobe Target]können. Die folgende Kurzübersicht hilft Ihnen, sich mit dem Thema vertraut zu machen [!DNL Target] und enthält Links zu detaillierteren Informationen und Anleitungen.
+The user interface is arranged in a logical and user-friendly format to help you get the most out of [!DNL Adobe Target]. The following brief overview will help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
 
-Die Kopfzeile oben auf der [!DNL Target] Benutzeroberfläche enthält Registerkarten und Optionen, mit denen Sie durch die verschiedenen Funktionen der Lösung navigieren, Organisationen und [!DNL Adobe Experience Cloud] Lösungen wechseln, Hilfe und Benachrichtigungen abrufen, Ihr [!DNL Adobe] Profil verwalten und sich abmelden können [!DNL Target].
+The header at the top of the [!DNL Target] UI contains tabs and options to help you navigate the different capabilities of the solution, as well as switch organizations and [!DNL Adobe Experience Cloud] solutions, get help and notifications, manage your [!DNL Adobe] profile, and log out of [!DNL Target].
 
-![Target header](/help/c-intro/assets/target-header.png)
+![Kopfzeile der Zielgruppe](/help/c-intro/assets/target-header.png)
 
-Über die Registerkarten auf der linken Seite können Sie auf die verschiedenen Funktionen von zugreifen, [!DNL Target]die wir später besprechen werden. Lassen Sie uns Beginn machen, indem wir die Optionen auf der rechten Seite diskutieren, bevor wir in die Register springen.
+The tabs along the left side let you access the various capabilities of [!DNL Target], which we&#39;ll discuss later. Lassen Sie uns Beginn machen, indem wir die Optionen auf der rechten Seite diskutieren, bevor wir in die Register springen.
 
 ## Organisationen
 
 An *organization* is the entity that enables an administrator to configure groups and users, and to control single sign-on in the [!DNL Adobe Experience Cloud]. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche [!DNL Experience Cloud]-Produkte und -Lösungen umfasst. In den meisten Fällen entspricht die Organisation dem Namen Ihres Unternehmens. Ein Unternehmen kann aber auch aus mehreren Organisationen bestehen.
 
-Wählen Sie die gewünschte Organisation in der Dropdown-Liste [!UICONTROL Organisation] aus, wenn Ihre Firma aus mehreren Organisationen besteht:
+Select the desired organization the [!UICONTROL Organization] drop-down list if your company has multiple organizations:
 
-![Organization drop-down list](/help/c-intro/assets/organizations.png)
+![Dropdown-Liste für Unternehmen](/help/c-intro/assets/organizations.png)
 
 ## Apps
 
 Mit dem App-Umschalter können Sie schnell auf die [!DNL Adobe Experience Cloud] Lösungen zugreifen, auf die Sie Zugriff haben.
 
-![Apps switcher](/help/c-intro/assets/apps.png)
+![App-Umschalter](/help/c-intro/assets/apps.png)
 
 ## Hilfe 
 
-Über das Hilfesymbol können Sie auf Informationen, Videos, Blogs und mehr zugreifen, um eine [!DNL Target] effizientere Nutzung zu ermöglichen. Sie können ein Support-Ticket erstellen, Support-Telefonnummern finden, Fragen über Twitter stellen oder uns Feedback geben, wie wir vorgehen [!DNL Target] können.
+The Help icon lets you access information, videos, blogs, and more to help you use [!DNL Target] more effectively. Sie können ein Support-Ticket erstellen, Support-Telefonnummern finden, Fragen über Twitter stellen oder uns Feedback geben, wie wir vorgehen [!DNL Target] können.
 
 ![Hilfe ](/help/c-intro/assets/help.png)
 
-## Notifications and announcements
+## Benachrichtigungen und Mitteilungen
 
 Mit den [!UICONTROL Feldern &quot;Benachrichtigungen] &quot;und &quot; [!UICONTROL Mitteilungen] &quot;bleiben Sie immer auf dem neuesten Stand [!DNL Adobe Target]. Proaktive Benachrichtigungen helfen Ihnen, den Status von [!DNL Adobe] Produkten und [!DNL Adobe Experience Cloud] Lösungen auf dem Laufenden zu halten. Proaktive Ankündigungen warnen Sie vor Ereignissen und Wartungsarbeiten.
 
@@ -57,7 +58,7 @@ Klicken Sie auf Ihren Profil Avatar, um Ihre [!DNL Adobe Experience Cloud] Vorei
 
 ![Profil Avatar](/help/c-intro/assets/change-language.png)
 
-Now let&#39;s discuss the tabs along the left side of the [!DNL Target] header.
+Lassen Sie uns nun die Registerkarten links neben der [!DNL Target] Kopfzeile besprechen.
 
 ## Aktivitäten
 
@@ -65,13 +66,13 @@ Die Liste **[!UICONTROL Aktivitäten]** ist die Standardansicht beim Öffnen [!D
 
 ![Aktivitätenliste](/help/c-intro/assets/activities-list.png)
 
-See [Activities](/help/c-activities/activities.md) for in-depth information about the activity types available in [!DNL Target] and to learn more about the [!UICONTROL Activity] list&#39;s user interface.
+Unter [Aktivitäten](/help/c-activities/activities.md) finden Sie ausführliche Informationen zu den verfügbaren Aktivitäten in [!DNL Target] und weitere Informationen zur Benutzeroberfläche der [!UICONTROL Aktivität] -Liste.
 
 ## Zielgruppen
 
 Klicken Sie auf die Registerkarte **[!UICONTROL Audiencen]** , um die Liste der [!UICONTROL Audiencen] anzuzeigen, in der Sie neue Audiencen erstellen und vorhandene Audiencen verwalten können.
 
-![Audience list](/help/c-intro/assets/audience-list.png)
+![Audience Liste](/help/c-intro/assets/audience-list.png)
 
 Eine Zielgruppe ist eine Gruppe ähnlicher Aktivitätsteilnehmer, für die eine zielgerichtete Aktivität angezeigt wird. Eine Zielgruppe ist eine Gruppe von Personen mit denselben Merkmalen, wie z. B. ein neuer Besucher, ein wiederkehrender Besucher oder wiederkehrende Besucher aus einer bestimmten Region. The [!UICONTROL Audience] feature allows you to target different content and experiences to specific audiences to optimize your digital marketing by displaying the right messages to the right people at the right time. If a visitor is identified as part of a target audience, [!DNL Target] determines which experience to display, based on criteria defined during activity creation.
 
@@ -81,15 +82,15 @@ Unter Audiencen [](/help/c-target/c-audiences/create-audience.md) erstellen find
 
 Klicken Sie auf die Registerkarte &quot; **[!UICONTROL Angebot]** &quot;, um die Liste &quot; [!UICONTROL Angebot] &quot;anzuzeigen, in der Sie neue Erlebnisse und Angebot erstellen und vorhandene Erlebnisse und Angebot verwalten können.
 
-![Offers list](/help/c-intro/assets/offers.png)
+![Liste Angebote](/help/c-intro/assets/offers.png)
 
 Ein Erlebnis kann ein Angebot, ein Bild, ein Text, eine Schaltfläche, ein Video, eine Kombination dieser Elemente auf einer Seite, eine gesamte Webseite oder mehrere Seiten sein, die möglicherweise einen Kauftrichter oder eine andere logische Seitenfolge bilden. Ein Erlebnis kann auch die Antwort eines Sprachassistenten, ein Skript für den Kundendienst oder sogar ein personalisierter Geschmack in einem Getränkeautomaten sein. Sie können Erlebnisse in [!DNL Target] Aktivitäten testen oder personalisieren.
 
-See [Offers](/help/c-experiences/c-manage-content/manage-content.md) for in-depth information about the offer types in [!DNL Target] and to learn more about the [!UICONTROL Offer] list&#39;s user interface.
+Detaillierte Informationen zu den Angebot-Typen finden Sie unter [Angebote](/help/c-experiences/c-manage-content/manage-content.md) in [!DNL Target] und weitere Informationen zur Benutzeroberfläche der [!UICONTROL Angebot] -Liste.
 
 ## Recommendations
 
-Click the **[!UICONTROL Recommendations]** tab to access [!DNL Target Recommendations].
+Klicken Sie auf die Registerkarte **[!UICONTROL Recommendations]** , um darauf zuzugreifen [!DNL Target Recommendations].
 
 >[!NOTE]
 >
@@ -103,10 +104,10 @@ Unter [Recommendations](/help/c-recommendations/recommendations.md) finden Sie a
 
 ## Administrations-
 
-Click the **[!UICONTROL Administration]** tab to access the [!UICONTROL Administration] pages.
+Klicken Sie auf die Registerkarte **[!UICONTROL Administration]** , um auf die [!UICONTROL Administrationsseiten] zuzugreifen.
 
 ![Administrationsseiten](/help/c-intro/assets/administration.png)
 
 Auf den [!UICONTROL Administrationsseiten] können Sie [!DNL Target]Konfigurationseinstellungen für [!UICONTROL Visual Experience Composer] (VEC), Berichte, [!DNL Scene7] Konfiguration, Implementierung, Hosts, Umgebung, Antwort-Token und Benutzer verwalten.
 
-Detaillierte Informationen und weitere Informationen zur Benutzeroberfläche finden Sie unter Übersicht über die [Verwaltung der Zielgruppe](/help/administrating-target/administrating-target.md) .
+See [Administer Target overview](/help/administrating-target/administrating-target.md) for in-depth information and to learn more about the user interface.
