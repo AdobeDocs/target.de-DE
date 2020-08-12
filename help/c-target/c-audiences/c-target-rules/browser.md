@@ -2,10 +2,14 @@
 keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Sie können Zielgruppen in Adobe Target erstellen, um Benutzer auszuwählen, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden.
 title: Browseroptionen in Adobe Target-Zielgruppen
+feature: null
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 99%
 
 ---
 
@@ -117,7 +121,7 @@ Es können nur Hauptversionen in das Textfeld eingegeben werden. Die angegebene 
 
 Mehrfachoptionen sind mit einem ODER verbunden.
 
-## Schulungsvideo: Erstellen von Zielgruppen Abzeichen ![für Übungen](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen von Zielgruppen ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
