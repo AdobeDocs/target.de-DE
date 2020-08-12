@@ -2,11 +2,12 @@
 keywords: Implementation;Mbox;mbox.js;download mbox.js;configure mbox.js
 description: Target Standard und Premium verwenden eine modifizierte Version der Adobe Target-Datei „mbox.js“.
 title: mbox.js herunterladen
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 94%
@@ -20,7 +21,7 @@ Target Standard und Premium verwenden eine modifizierte Version der Adobe Target
 
 Zur Verwendung des neuen [!DNL Adobe Target] [!UICONTROL  Visual Experience Editor] müssen Sie eine zusätzliche Zeile JavaScript als Teil Ihrer [!DNL mbox.js]-Datei einschließen.
 
-1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** in [!DNL Target Standard].
+1. Click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** in [!DNL Target Standard].
 1. Klicken Sie auf **[!UICONTROL mbox.js herunterladen]** und folgen Sie den Anweisungen zum Speichern der Datei.
 1. (Bedingt) Sollten Sie [!DNL mbox.js], Version 60 oder neuer verwenden, können Sie die Bibliothek so konfigurieren, dass automatisch Seiteninhalte ausgeblendet werden, bis die Mboxes geladen werden, damit das Flackern auf nicht responsiven Seiten verringert wird.
 
