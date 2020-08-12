@@ -2,9 +2,10 @@
 keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
 description: Was Sie vor der Erstellung einer Recommendations-Aktivität wissen müssen.
 title: Planen und Implementieren von Recommendations
+feature: null
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 97%
@@ -12,7 +13,7 @@ ht-degree: 97%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -Plan und -Implementierung von Recommendations {#plan-and-implement-recommendations}
+# ![PREMIUM](/help/assets/premium.png) -Plan und Umsetzung von Recommendations {#plan-and-implement-recommendations}
 
 Was Sie vor der Erstellung einer Recommendations-Aktivität wissen müssen.
 
