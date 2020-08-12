@@ -1,9 +1,13 @@
 ---
 description: Kriterien steuern den Inhalt Ihrer Adobe Recommendations-Aktivitäten. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen.
 title: Erstellen von Kriterien
+feature: null
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3605'
+ht-degree: 98%
 
 ---
 
@@ -47,6 +51,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
    * [!UICONTROL Einzelhandel/E-Commerce]
    * [!UICONTROL Lead-Generierung/B2B/Finanzdienstleistungen]
    * [!UICONTROL Medien/Verlagswesen]
+
    Andere Optionen für Kriterien ändern sich auf Grundlage des vertikalen Markts, den Sie auswählen.
 
 1. Wählen Sie einen **[!UICONTROL Seitentyp]** aus.
@@ -94,6 +99,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
    * [!UICONTROL Teilweise Designwiedergabe aktivieren]
    * [!UICONTROL Backup-Empfehlungen anzeigen]
    * [!UICONTROL Zuvor gekaufte Artikel empfehlen]
+
    Diese Einstellung basiert auf `productPurchasedId`. Es ist nützlich, wenn Sie Artikel verkaufen, die Kunden in der Regel nur einmal kaufen, zum Beispiel Kayaks. Wenn Sie Artikel verkaufen, die Kunden immer wieder kaufen, zum Beispiel Shampoo oder andere persönliche Artikel, sollten Sie diese Option deaktivieren.
 
 1. Legen Sie Ihre **[!UICONTROL Einschlussregeln]** fest.
