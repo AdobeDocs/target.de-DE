@@ -2,10 +2,14 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
 title: Häufig gestellte Fragen zu Zielen und Zielgruppen
+feature: null
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 69%
 
 ---
 
@@ -14,35 +18,35 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
 
-## Wie bewertet Target URLs beim Targeting? {#url}
+## Wie bewertet Zielgruppe URLs beim Targeting? {#url}
 
-Target bewertet die URLs unterschiedlich, je nachdem, ob Sie beim Erstellen einer Aktivität das Zielgruppen-URL-Targeting verwenden oder ob Sie beim Erstellen einer Zielgruppe URL-Targeting verwenden.
+Zielgruppe bewertet URLs unterschiedlich, je nachdem, ob Sie beim Erstellen einer Aktivität Audiencen-URL-Targeting verwenden oder ob Sie beim Erstellen einer Audience URL-Targeting verwenden.
 
 Betrachten Sie die folgende URL:
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-### Zielgruppen-URL-Targeting
+### Audiencen-URL-Targeting
 
- Um beim Erstellen einer Aktivität das Zielgruppen-URL-Targeting anzuwenden, klicken Sie auf der Seite "Erlebnisse"(Schritt eins des geleiteten Arbeitsablaufs mit drei Schritten) auf das Zahnradsymbol, klicken Sie auf Seitenbereitstellung und geben Sie dann die gewünschte URL an.
+Um beim Erstellen einer Aktivität das URL-Targeting für Audiencen anzuwenden, klicken Sie auf der Erlebnisse-Seite (Schritt eins des geleiteten Arbeitsablaufs mit drei Schritten) auf das Zahnradsymbol, klicken Sie auf Versand Seite und geben Sie dann die gewünschte URL an.
 
-![Seiten-Auslieferungs-URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+![Seiten-Versand-URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-Zielgruppen-URL-Targeting sucht nach einer exakten URL-Übereinstimmung. Wenn die URL übereinstimmt, berücksichtigt Target keine weitere Logik. Wenn in der oben genannten URL die Aktivität auf "auslösen"eingestellt ist, `www.example.com`wird die URL für die folgenden URLs passend, da das Zielgruppen-URL-Targeting Abfrageagnostik ist:
+Audiencen-URL-Targeting sucht nach einer exakten URL-Übereinstimmung. Wenn die URL übereinstimmt, berücksichtigt Zielgruppe keine weitere Logik. Wenn die Aktivität in der obigen URL auf &quot;Auslösen `www.example.com`&quot;eingestellt ist, wird die URL für die folgenden URLs passend, da das Targeting der Audience-URL für Abfragen unabhängig ist:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-Neben dem Zielgruppen-Targeting für die URL können Sie auch bestimmte Werte angeben, die in der Abfrage enthalten sein können.
+Neben dem Targeting von Audiencen auf die URL können Sie auch bestimmte Werte angeben, die in der Abfrage enthalten sein können.
 
 ### URL-Targeting
 
- Um beim Erstellen einer Zielgruppe das URL-Targeting anzuwenden, klicken Sie auf Regel hinzufügen, klicken Sie auf Site-Seiten, wählen Sie eine Option aus der ersten Dropdownliste (Aktuelle Seite, Vorherige Seite oder Einstiegsseite), wählen Sie die URL aus der zweiten Dropdownliste aus, geben Sie einen Auswerter an und geben Sie dann die gewünschte URL an.
+Wenn Sie beim Erstellen einer Audience ein URL-Targeting anwenden möchten, klicken Sie auf Hinzufügen Regel, klicken Sie auf &quot;Site-Seiten&quot;, wählen Sie eine Option aus der ersten Dropdown-Liste (Aktuelle Seite, Vorherige Seite oder Landingpage), wählen Sie die URL aus der zweiten Dropdown-Liste aus, geben Sie einen Auswerter an und geben Sie dann die gewünschte URL an.
 
-![Site-Seiten &gt; Aktuelle Seite &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![Site-Seiten > Aktuelle Seite > URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
-URL-Targeting wandelt die URL in einen Regelsatz zur Bewertung um:
+URL targeting transforms the URL into a set of rules to evaluate:
 
 * URL-Domäne = `example.com`
 * Pfad = path1/path2/path3
@@ -59,13 +63,13 @@ Beispiel: In der folgenden URL-Zeichenfolge:
 
 wird die erste Instanz des `Category` Parameters ausgewertet und der zweite `Category` Parameter wird ignoriert.
 
-Es empfiehlt sich, mehrere Werte einer Kategorie zuzuordnen, wie nachfolgend gezeigt:
+Es empfiehlt sich, mehrere Werte einer Kategorie zuzuordnen, wie unten dargestellt:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
 ## Warum sind voreingestellte Zielgruppen in der Target-Bibliothek beim Erstellen von Zielgruppen unter anderen Kategorien aufgeführt? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
-Vorab eingestellte Zielgruppen in der Target-Bibliothekskategorie sind veraltete Zielgruppen und bestehen auch in anderen Kategorien. Beispiel: Die veraltete Target-Bibliothek &gt; Zielgruppe „Neue Besucher“ verfügt über ein aktuelleres Gegenstück: Besucherprofil &gt; Neuer Besucher.
+Vorab eingestellte Zielgruppen in der Target-Bibliothekskategorie sind veraltete Zielgruppen und bestehen auch in anderen Kategorien. Beispiel: Die veraltete Target-Bibliothek > Zielgruppe „Neue Besucher“ verfügt über ein aktuelleres Gegenstück: Besucherprofil > Neuer Besucher.
 
 Best Practice ist, die neuen Zielgruppen einzusetzen, da diese eine bessere Leistung erzielen. Einigen Kunden verwenden möglicherweise ältere, voreingestellte Zielgruppen, die aus diesem Grund nicht aus der Target-Oberfläche gelöscht wurden.
 
@@ -83,7 +87,7 @@ In der folgenden Darstellung qualifiziert sich ein Benutzer aus Kalifornien mit 
 
 ## Warum unterscheiden sich die Namen der gleichen Zielgruppe in Target, Adobe Audience Manager (AAM) und der Zielgruppenbibliothek in den Core Services voneinander? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Zielgruppennamen in [!DNL Target] sind eindeutig; in [!DNL AAM] und [!DNL Audience Library] können Sie jedoch für mehrere Zielgruppen denselben Namen haben (wenn sie sich in verschiedenen Ordnern befinden). Wenn [!DNL Target] auf einen Zielgruppennamen trifft, der einer [!DNL AAM]- oder [!DNL Audience Library]-Zielgruppe entspricht, hängt [!DNL Target] ein "#&lt;Nummer&gt;" an den Namen an.
+Zielgruppennamen in [!DNL Target] sind eindeutig; in [!DNL AAM] und [!DNL Audience Library] können Sie jedoch für mehrere Zielgruppen denselben Namen haben (wenn sie sich in verschiedenen Ordnern befinden). Wenn [!DNL Target] auf einen Zielgruppennamen trifft, der einer [!DNL AAM]- oder [!DNL Audience Library]-Zielgruppe entspricht, hängt [!DNL Target] ein &quot;#&lt;Nummer>&quot; an den Namen an.
 
 So könnten Ihnen beispielsweise folgende Zielgruppen angezeigt werden: „PC-Nutzer“ (in [!DNL AAM]) und „PC-Nutzer #1“ (in [!DNL Target]).
 
