@@ -2,10 +2,11 @@
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung.
 title: Hosts
+feature: null
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 27%
@@ -19,9 +20,9 @@ Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für e
 
 Das Hauptziel bei der Hostverwaltung besteht darin, dafür zu sorgen, dass auf der Seite nicht versehentlich inaktive Inhalte erscheinen. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
-Ein Host ist eine Domäne, von der aus eine [!DNL Target] Anforderung ausgeführt wird. Auf einer Website ist es normalerweise die `location.hostname` Eigenschaft der URL, die die [!DNL Target] Anforderung ausführt.
+A host is any domain from which a [!DNL Target] request is made. On a website, it is usually the `location.hostname` property of the URL making the [!DNL Target] request.
 
-Standardmäßig beschränkt [!DNL Target] dies keinen Host, der [!DNL Target] [!DNL Target] Anforderungen stellen und Antworten empfangen kann. Wenn neue Hosts Anforderungen stellen, funktionieren diese automatisch. Dies ermöglicht auch Tests auf verschiedenen Domänen, die Sie nicht kennen oder nicht vorhersehen können. Wenn Sie dieses Standardverhalten außer Kraft setzen möchten, können Sie eine Zulassungsliste oder Blockierungsliste einrichten, um zu begrenzen, mit welchen Hosts gearbeitet wird [!DNL Target].
+Standardmäßig beschränkt [!DNL Target] dies keinen Host, der [!DNL Target] [!DNL Target] Anforderungen stellen und Antworten empfangen kann. Wenn neue Hosts Anforderungen stellen, funktionieren diese automatisch. This also enables testing on different domains you don’t know or can’t anticipate. Wenn Sie dieses Standardverhalten außer Kraft setzen möchten, können Sie eine Zulassungsliste oder Blockierungsliste einrichten, um zu begrenzen, mit welchen Hosts gearbeitet wird [!DNL Target].
 
 Um Hosts zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
@@ -67,7 +68,7 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 
 ## Create allowlists that specify hosts that are authorized to send Target requests to Target. {#allowlist}
 
-You can create an allowlist that specifies hosts (domains) that are authorized to send [!DNL Target] requests to [!DNL Target]. Alle anderen Hosts, die Anforderungen generieren, erhalten eine kommentierte Fehlermeldung zur Autorisierung. By default, any host that contains a [!DNL Target] request registers with [!DNL Target] in the [!UICONTROL Production] environment and has access to all active and approved activities. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make [!DNL Target] requests and receive [!DNL Target] content. All hosts will continue to display in the [!UICONTROL Hosts] list, and environments can still be used to group these hosts and assign different levels to each, such as whether the host can see active and/or inactive activities.
+You can create an allowlist that specifies hosts (domains) that are authorized to send [!DNL Target] requests to [!DNL Target]. All other hosts generating requests will get a commented-out authorization error response. By default, any host that contains a [!DNL Target] request registers with [!DNL Target] in the [!UICONTROL Production] environment and has access to all active and approved activities. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make [!DNL Target] requests and receive [!DNL Target] content. All hosts will continue to display in the [!UICONTROL Hosts] list, and environments can still be used to group these hosts and assign different levels to each, such as whether the host can see active and/or inactive activities.
 
 So erstellen Sie eine Zulassungsliste:
 
@@ -87,11 +88,11 @@ If a [!DNL Target] request is made on an unauthorized host, the call will respon
 
 >[!IMPORTANT]
 >
->**Best Practices** für Sicherheit: Wenn Sie die Ubox-Funktion von verwenden, [!DNL Target]beachten Sie, dass diese Zulassungsliste auch die Liste der Domänen steuert, zu denen Ihre [Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) navigieren können. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, denen Sie umleiten möchten, wenn Sie Ubox als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben ist, [!DNL Adobe] können die Umleitungs-URLs nicht überprüft und vor möglichen böswilligen Umleitungen geschützt werden.
+>**Security best practices**: If you use ubox functionality of [!DNL Target], note that this allowlist will also control the list of domains to which your [redirectors](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) can navigate. Ensure that you add any domains to which you want to redirect when you use ubox as a part of your implementation. If the allowlist is left unspecified, [!DNL Adobe] will not be able to verify the redirect URLs and protect from potential malicious redirects.
 >
 >Die Zulassungsliste hat Vorrang vor Umgebung. Sie sollten alle Hosts löschen, bevor Sie die Funktion &quot;Zulassungsliste&quot;verwenden. Dann werden nur die Hosts angezeigt, die von der Zulassungsliste zugelassen sind. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
 
-Manchmal erscheinen Hosts anderer Sites in Ihren Umgebungen. Eine Domäne wird in der Liste angezeigt, wenn die Domäne Ihre &quot;at.js&quot;oder &quot;mbox.js&quot;aufruft. Wenn beispielsweise eine Ihrer Webseiten auf den Server eines anderen kopiert wird, wird diese Domäne in Ihrer Umgebung angezeigt. Es können auch Domänen von Spider-Engines, Übersetzungssites oder lokalen Festplatten angezeigt werden.
+Manchmal erscheinen Hosts anderer Sites in Ihren Umgebungen. A domain appears in the list if the domain makes a call to your at.js or mbox.js. Wenn beispielsweise eine Ihrer Webseiten auf den Server eines anderen kopiert wird, wird diese Domäne in Ihrer Umgebung angezeigt. Es können auch Domänen von Spider-Engines, Übersetzungssites oder lokalen Festplatten angezeigt werden.
 
 In Fällen, in denen `mboxHost` an einen API-Aufruf weitergegeben wird, wird die Konversion für die weitergegebene Umgebung aufgezeichnet. If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
@@ -116,7 +117,7 @@ Sie können einen Host, der nicht mehr gebraucht wird, löschen.
 
 Probieren Sie folgende Methoden zur Fehlerbehebung aus, falls Probleme mit Ihren Hosts auftreten:
 
-**Der Host wird nicht in der Liste für Ihr Konto angezeigt.**
+**Host does not appear in the list for your account.**
 
 * Aktualisieren Sie die Seite [!UICONTROL Hosts] Ihres Browsers.
 * Überprüfen Sie, ob die [!DNL Target] Anforderung korrekt ist, einschließlich des Verweises auf at.js oder mbox.js.
@@ -126,6 +127,6 @@ Probieren Sie folgende Methoden zur Fehlerbehebung aus, falls Probleme mit Ihren
 
 A domain appears in this list if a request to [!DNL Target] is made from the domain. Häufig werden Domänen von Spider-Engines, Übersetzungssites oder lokalen Festplatten angezeigt. Wenn eine aufgeführte Domäne von Ihrem Team nicht verwendet wird, können Sie auf [!UICONTROL Löschen] klicken, um sie zu entfernen.
 
-**Meine[!DNL Target]Anfrage gibt /* keine Anzeige - nicht autorisierter Mbox-Host */ zurück.**
+**My[!DNL Target]request returns /* no display - unauthorized mbox host */.**
 
 If a [!DNL Target] request is made on an unauthorized host, the request will respond with /* no display - unauthorized mbox host */.
