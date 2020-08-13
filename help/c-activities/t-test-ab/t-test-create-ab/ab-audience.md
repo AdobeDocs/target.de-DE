@@ -2,11 +2,11 @@
 keywords: audience;select audience;choose audience;Selectors
 description: Die Zielgruppe legt fest, welche Besucher der Site in Ihre Aktivität eingegeben werden.
 title: Zielgruppenauswahl
-feature: null
+feature: ab
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 98%
@@ -62,7 +62,7 @@ In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/P
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Activity Workflow - Targeting (2:14) ![Tutorial badge](/help/assets/tutorial.png)
+### Aktivität Workflow - Targeting (2:14) - ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video sind Informationen zur Einrichtung von Zielgruppen enthalten.
 
