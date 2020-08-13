@@ -2,11 +2,11 @@
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: Die Funktion „Automatisch zuweisen“ identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und ordnet dem Gewinner automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.
 title: Automatische Zuordnung
-feature: auto-allocate
+feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3335'
 ht-degree: 78%
@@ -90,9 +90,9 @@ After an [!UICONTROL Auto-Allocate] activity is activated, the following operati
 * Ändern des Zielmetriktyps
 * Ändern der Optionen im Bedienfeld „Erweiterte Einstellungen“
 
-## Funktionsweise der automatischen Zuordnung
+## See how Auto-Allocate works
 
-Weitere Informationen finden Sie unter [Automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und mehr Umsatz als ein manueller Test liefern.](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+For more information, see [Auto-Allocate can give you faster test results and higher revenue than a manual test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
 
 ## Einschränkungen {#section_5C83F89F85C14FD181930AA420435E1D}
 
@@ -132,11 +132,11 @@ Diese Faktoren können die Ergebnisse eines Tests mit automatisierter Zuordnung 
 
 ## Häufig gestellte Fragen {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-Beachten Sie bei der Arbeit mit [!UICONTROL Aktivitäten zur automatischen Zuordnung] die folgenden häufig gestellten Fragen und Antworten:
+Consult the following FAQs and answers as you work with [!UICONTROL Auto-Allocate] activities:
 
 ### Unterstützt Analytics for Zielgruppe (A4T) Aktivitäten mit automatisierter Zuordnung?
 
-Ja. Weitere Informationen finden Sie unter Unterstützung von [Analytics for Zielgruppe (A4T) für Aktivitäten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) mit automatisierter Zuordnung bei der Erstellung von *Aktivitäten*.
+Ja. For more information, see [Analytics for Target (A4T) support for Auto-Allocate activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Activity creation*.
 
 ### Werden wiederkehrende Besucher automatisch zu leistungsstarken Erlebnissen weitergeleitet?
 
@@ -174,11 +174,11 @@ Derzeit bevorzugt die Logik Besucher, die schnell konvertieren oder die Site hä
 
 ### Kann ich den Rechner für die Stichprobengröße verwenden, wenn ich die automatisierte Zuordnung nutze, um zu schätzen, wie lange die Aktivität brauchen wird, um den Gewinner zu identifizieren?
 
-You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Wie bei herkömmlichen A/B-Tests sollten Sie Bonferroni-Korrekturen anwenden, wenn Sie mehr als zwei Angebot oder mehr als eine Konversionsmetrik/Hypothese testen.) Beachten Sie, dass dieser Rechner für herkömmliche A/B-Tests mit festem Horizont konzipiert ist und nur eine Schätzung liefert. Die Verwendung des Taschenrechners für eine Aktivität mit automatisierter Zuordnung ist optional, da die automatisierte Zuordnung einen Gewinner für Sie festlegt - Sie müssen keinen festen Zeitpunkt auswählen, um die Testergebnisse anzuzeigen - die bereitgestellten Werte sind immer statistisch gültig. In unseren Experimenten haben wir Folgendes herausgefunden:
-* Beim Testen von genau zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Testen mit einem festen Horizont (d. h. dem vom Stichprobengrößenrechner vorgeschlagenen Zeitrahmen), wenn der Leistungsunterschied zwischen den Erlebnissen groß ist. Es kann jedoch mehr Zeit erforderlich sein, um einen Gewinner zu ermitteln, wenn der Leistungsunterschied zwischen den Erlebnissen gering ist. In diesen Fällen wären Tests mit festem Horizont in der Regel ohne ein statistisch signifikantes Ergebnis beendet worden.
-* Beim Testen von mehr als zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Testen mit einem festen Horizont (d. h. der vom Stichprobengrößenrechner vorgeschlagene Zeitrahmen), wenn ein einzelnes Erlebnis alle anderen Erlebnisse deutlich übertrifft. Wenn zwei oder mehr Erlebnisse im Vergleich zu anderen Erlebnissen &quot;gewonnen&quot;werden, aber eng miteinander übereinstimmen, kann die automatische Zuordnung mehr Zeit erfordern, um festzustellen, welches Erlebnis besser ist. In diesen Fällen wären Tests mit festem Horizont normalerweise zu dem Schluss gekommen, dass die &quot;erfolgreichsten&quot;Erlebnisse besser waren als die Erlebnisse mit geringerer Leistung, aber nicht ermittelt hätten, welches Erlebnis besser war.
+You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (As with traditional A/B testing, apply Bonferroni correction if you are testing more than two offers or more than one conversion metric/hypothesis.) Beachten Sie, dass dieser Rechner für herkömmliche A/B-Tests mit festem Horizont konzipiert ist und nur eine Schätzung liefert. Die Verwendung des Taschenrechners für eine Aktivität mit automatisierter Zuordnung ist optional, da die automatisierte Zuordnung einen Gewinner für Sie festlegt - Sie müssen keinen festen Zeitpunkt auswählen, um die Testergebnisse anzuzeigen - die bereitgestellten Werte sind immer statistisch gültig. In our experiments, we&#39;ve found the following:
+* When testing exactly two experiences, Auto-Allocate finds a winner more quickly than fixed-horizon testing (i.e. the timeframe suggested by the sample size calculator) when the performance difference between experiences is large, but might require extra time to identify a winner when the performance difference between experiences is small. In diesen Fällen wären Tests mit festem Horizont in der Regel ohne ein statistisch signifikantes Ergebnis beendet worden.
+* When testing more than two experiences, Auto-Allocate finds a winner more quickly than fixed-horizon testing (i.e. the timeframe suggested by the sample size calculator) when a single experience strongly out-performs all other experiences. Wenn zwei oder mehr Erlebnisse im Vergleich zu anderen Erlebnissen &quot;gewonnen&quot;werden, aber eng miteinander übereinstimmen, kann die automatische Zuordnung mehr Zeit erfordern, um festzustellen, welches Erlebnis besser ist. In diesen Fällen wären Tests mit festem Horizont normalerweise zu dem Schluss gekommen, dass die &quot;erfolgreichsten&quot;Erlebnisse besser waren als die Erlebnisse mit geringerer Leistung, aber nicht ermittelt hätten, welches Erlebnis besser war.
 
-### Should I remove an under-performing experience from an Auto-Allocate activity to speed the process of determining a winner?
+### Sollte ich ein leistungsschwaches Erlebnis aus einer Aktivität mit automatisierter Zuordnung entfernen, um den Gewinner schneller zu ermitteln?
 
 Es gibt wirklich keinen Grund, ein Erlebnis mit schlechter Leistung zu entfernen. Die automatisierte Zuordnung liefert automatisch leistungsstarke Erlebnisse häufiger und liefert weniger leistungsstarke Erlebnisse. Das Verlassen eines leistungsschwachen Erlebnisses in der Aktivität hat keine signifikanten Auswirkungen auf die Geschwindigkeit, mit der ein Gewinner ermittelt wird.
 
@@ -186,9 +186,9 @@ Es gibt wirklich keinen Grund, ein Erlebnis mit schlechter Leistung zu entfernen
 
 ### Kann ich die Zielmetrik in der Mitte durch eine Aktivität mit automatisierter Zuordnung ändern? {#change-metric}
 
-Es wird nicht empfohlen, die Zielmetrik mitten in einer Aktivität zu ändern. Obwohl die Zielmetrik während einer Aktivität mithilfe der [!DNL Target] Benutzeroberfläche geändert werden kann, sollten Sie immer eine neue Aktivität Beginn haben. Wir garantieren nicht, was passiert, wenn Sie die Sollmetrik in einer Aktivität nach der Ausführung ändern.
+We do not recommend that you change the goal metric midway through an activity. Obwohl die Zielmetrik während einer Aktivität mithilfe der [!DNL Target] Benutzeroberfläche geändert werden kann, sollten Sie immer eine neue Aktivität Beginn haben. We do not warranty what happens if you change the goal metric in an activity after it is running.
 
-Diese Empfehlung gilt für [!UICONTROL Aktivitäten mit automatisierter Zuordnung], [!UICONTROL automatischer Zielgruppe]und [!UICONTROL Automated Personalization] , die entweder [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte verwenden.
+This recommendation applies to [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], and [!UICONTROL Automated Personalization] activities that use either [!DNL Target] or [!DNL Analytics] (A4T) as the reporting source.
 
 ### Kann ich die Option &quot;Berichtsdaten zurücksetzen&quot;beim Ausführen einer Aktivität für die automatische Zuordnung verwenden?
 
@@ -200,7 +200,7 @@ Die Verwendung der Option [!UICONTROL Berichtsdaten] zurücksetzen für [!UICONT
 
 Tritt ein Treffer in einer anderen (nicht standardmäßigen) Umgebung auf, wird der Traffic entsprechend dem beobachteten Konversionverhalten in der Standard-Umgebung verteilt. Das Ergebnis dieses Treffers (Konvertierung oder Nicht-Konvertierung) wird zu Berichte aufgezeichnet, jedoch nicht im [!UICONTROL Automatisch zugewiesenen] Modell berücksichtigt.
 
-Bei Auswahl einer anderen Umgebung zeigt der Bericht Traffic und Konversionen für diese Umgebung an. Die für einen Bericht standardmäßig ausgewählte Umgebung ist stets die für das gesamte Konto ausgewählte Standardeinstellung. Die Standardeinstellung für die Umgebung kann nicht pro Aktivität festgelegt werden.
+Bei Auswahl einer anderen Umgebung zeigt der Bericht Traffic und Konversionen für diese Umgebung an. The default selected environment for a report will always be the account-wide default that is selected. Die Standardeinstellung für die Umgebung kann nicht pro Aktivität festgelegt werden.
 
 ## Schulungsvideos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
