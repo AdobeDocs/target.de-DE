@@ -2,12 +2,12 @@
 keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
 description: Berichte enthalten Informationen zur Performance Ihrer Aktivitäten
 title: Berichte
-feature: null
+feature: reports
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 77%
@@ -30,7 +30,7 @@ Neben den allgemeinen Reporting-Informationen in diesem Thema und seinen Unterth
 | Aktivitätstyp | Details |
 |--- |--- |
 | [A/B-Test](/help/c-activities/t-test-ab/test-ab.md) | Informationen zur Steigerung und Konfidenz sowie zu den in [!DNL Target] verwendeten statistischen Konzepten finden Sie unter [Planen eines A/B-Tests](/help/c-activities/t-test-ab/sample-size-determination.md). |
-| [Berichte zur automatischen Zuordnung interpretieren](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Interpretieren Sie die Ergebnisse einer A/B-Aktivität mit automatisierter Zuordnung, indem Sie wichtige Indikatoren wie Steigerung und Konfidenz in der Benutzeroberfläche der Zielgruppe untersuchen. |
+| [Interpret Auto-Allocate reports](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Interpretieren Sie die Ergebnisse einer A/B-Aktivität mit automatisierter Zuordnung, indem Sie wichtige Indikatoren wie Steigerung und Konfidenz in der Benutzeroberfläche der Zielgruppe untersuchen. |
 | [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md) (AT) | Informationen zum [!UICONTROL Zusammenfassungsbericht] für AT-Aktivitäten. Weitere Informationen finden Sie unter [Zusammenfassungsbericht für Automatisches Targeting](/help/c-reports/auto-target-summary-report.md).<br>Informationen zu den beiden [!UICONTROL Personalization Insights]-Berichten für AT- und AP-Aktivitäten: Bericht für [!UICONTROL Automatisierte Segmente] und Bericht für [!UICONTROL Wichtige Attribute]. Weitere Informationen finden Sie unter [Personalization Insights-Berichte](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
 | [Automatisierte Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Informationen zu den zwei [!UICONTROL Zusammenfassungsberichten zur automatisierten Personalisierung] für AP-Aktivitäten: [!UICONTROL Aktivitätsstufenbericht] und [!UICONTROL Angebotsstufenbericht]. Weitere Informationen finden Sie unter [Automatisierte Personalisierung - Zusammenfassungsberichte](/help/c-reports/reports-ap.md).<br>Informationen zu den beiden [!UICONTROL Personalization Insights]-Berichten für AT- und AP-Aktivitäten: Bericht für [!UICONTROL Automatisierte Segmente] und Bericht für [!UICONTROL Wichtige Attribute]. Weitere Informationen finden Sie unter [Personalization Insights-Berichte](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
 | [Multivarianz-Tests](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Informationen zu den beiden Berichten für MVT-Aktivitäten: [!UICONTROL Experience Performance]-Berichte und [!UICONTROL Location Contribution]-Bericht. Weitere Informationen finden Sie unter [Experience Performance-Bericht (](/help/c-reports/experience-performance-report.md) MVT) und [Location Contribution-Bericht](/help/c-reports/location-contribution-report.md) (MVT). |
@@ -73,7 +73,7 @@ Neben den allgemeinen Reporting-Informationen in diesem Thema und seinen Unterth
 
 1. (Optional) Klicken Sie auf das Symbol für die **[!UICONTROL Tabellenansicht]** oder die **[!UICONTROL Diagrammansicht]**, um zwischen den Berichtsformaten zu wechseln.
 
-   Depending on the type of report you selected, other views and reports might be available:
+   Je nach ausgewähltem Berichtstyp stehen ggf. weitere Ansichten und Berichte zur Verfügung:
 
    | Berichtstyp | Ansicht |
    | --- | --- |
