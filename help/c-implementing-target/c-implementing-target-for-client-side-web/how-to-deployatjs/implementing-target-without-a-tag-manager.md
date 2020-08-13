@@ -2,12 +2,12 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: Informationen zur Implementierung von Adobe Target ohne einen Tag-Manager (Adobe Launch oder Dynamic Tag Management).
 title: Implementieren von Target ohne einen Tag-Manager
-feature: null
+feature: implementation general
 subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 66%
@@ -23,11 +23,11 @@ Information about implementing [!DNL Adobe Target] without using a tag manager (
 >
 >[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ist die bevorzugte Methode zur Implementierung von Target und der „at.js“-Bibliothek. Folgende Informationen gelten nicht, wenn Sie zur Implementierung von Target Adobe Launch verwenden.
 
-To access the [!UICONTROL Implementation] page, click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+Um die Seite &quot; [!UICONTROL Implementierung] &quot;aufzurufen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
 
-You can specify the following settings on this page:
+Auf dieser Seite können Sie die folgenden Einstellungen festlegen:
 
-* Account details
+* Kontodetails
 * Implementierungsmethoden
 * Profil-API
 * Debugger-Tools
@@ -50,24 +50,24 @@ Die folgenden Kontodetails können Ansicht werden. Diese Einstellungen können n
 
 Die folgenden Einstellungen können im Bereich &quot;Implementierungsmethoden&quot;konfiguriert werden:
 
-### Global settings
+### Globale Einstellungen
 
 >[!NOTE]
 >
->These settings are applied to all [!DNL Target] .js libraries. After performing changes in the [!UICONTROL Implementation methods] section you need to download the library and update it in your implementation.
+>Diese Einstellungen werden auf alle [!DNL Target] .js-Bibliotheken angewendet. Nachdem Sie Änderungen im Abschnitt [!UICONTROL Implementierungsmethoden] durchgeführt haben, müssen Sie die Bibliothek herunterladen und in Ihrer Implementierung aktualisieren.
 
-|Seitenladung aktiviert (Globale Mbox automatisch erstellen|Wählen Sie aus, ob der globale Mbox-Aufruf in die Datei &quot;at.js&quot;eingebettet werden soll, damit er bei jedem Seitenladevorgang automatisch ausgelöst wird.|
-|Global mbox|Select a name for the global mbox. Der Standardname lautet target-global-mbox.<br>Sonderzeichen wie das kaufmännische Und (&amp;) können mit at.js für Mbox-Namen verwendet werden.|
-|Timeout (seconds)|If [!DNL Target] does not respond with content within the defined period, the server call times out and default content is displayed. Während der Sitzung des Besuchers werden weiter Aufrufe durchgeführt. Der Standardwert liegt bei 5 Sekunden.<br>Die Bibliothek at.js verwendet die Timeout-Einstellung in `XMLHttpRequest`. Der Timeout beginnt, wenn die Anforderung ausgelöst wird, und endet, wenn [!DNL Target] eine Antwort von dem Server erhält. Weitere Informationen dazu finden Sie unter [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) im Mozilla Developer Network.<br>Tritt der festgelegte Timeout vor Erhalt der Antwort ein, wird dem Besucher ein Standardinhalt angezeigt, und der Besucher wird möglicherweise als Teilnehmer in einer Aktivität gezählt, da die gesamte Datenerfassung am [!DNL Target]-Edge erfolgt. Erreicht die Anforderung den [!DNL Target]-Edge, wird der Besucher gezählt.<br>Beim Konfigurieren der Timeout-Einstellung müssen Sie Folgendes beachten:<ul><li>Wenn der Wert zu niedrig ist, erhalten Besucher wahrscheinlich meist nur den Standardinhalt angezeigt, auch wenn sie möglicherweise als Teilnehmer in einer Aktivität gezählt werden.</li><li>Ist der Wert zu hoch, werden Besuchern unter Umständen leere Stellen auf Ihrer Webseite oder komplett leere Seiten angezeigt, falls Sie für längere Zeiträume Textausblendung einsetzen.</li></ul>Genaueres über Mbox-Antwortzeiten erfahren Sie auf der Registerkarte „Netzwerk“ in den Entwicklertools Ihres Browsers. Sie können auch Tools zur Überwachung der Webleistung einsetzen, die von Drittanbietern stammen, wie zum Beispiel Catchpoint.<br>**Hinweis:**Die Einstellung[visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)stellt sicher, dass[!DNL Target]nicht zu lange auf die Antwort der Besucher-API wartet. Diese Einstellung und die hier beschriebene Timeout-Einstellung für at.js beeinflussen sich nicht gegenseitig.|
-|Lebensdauer des Profils|Diese Einstellung bestimmt, wie lange Profile des Besuchers gespeichert werden. Profile werden standardmäßig zwei Wochen lang gespeichert. Dies kann auf bis zu 90 Tage erhöht werden.<br>Wenden Sie sich an den[Kundendienst](https://helpx.adobe.com/de/contact/enterprise-support.ec.html), um die Einstellung für die Lebensdauer des Profils zu ändern.|
+|Page load enabled (Auto-create global mbox|Select whether to embed the global mbox call in the at.js file to automatically fire on each page load.|
+|Globale Mbox|Wählen Sie einen Namen für die globale Mbox aus. Der Standardname lautet target-global-mbox.<br>Sonderzeichen wie das kaufmännische Und (&amp;) können mit at.js für Mbox-Namen verwendet werden.|
+|Timeout (seconds)|If [!DNL Target] does not respond with content within the defined period, the server call times out and default content is displayed. Während der Sitzung des Besuchers werden weiter Aufrufe durchgeführt. Der Standardwert liegt bei 5 Sekunden.<br>Die Bibliothek at.js verwendet die Timeout-Einstellung in `XMLHttpRequest`. Der Timeout beginnt, wenn die Anforderung ausgelöst wird, und endet, wenn [!DNL Target] eine Antwort von dem Server erhält. Weitere Informationen dazu finden Sie unter [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) im Mozilla Developer Network.<br>Tritt der festgelegte Timeout vor Erhalt der Antwort ein, wird dem Besucher ein Standardinhalt angezeigt, und der Besucher wird möglicherweise als Teilnehmer in einer Aktivität gezählt, da die gesamte Datenerfassung am [!DNL Target]-Edge erfolgt. Erreicht die Anforderung den [!DNL Target]-Edge, wird der Besucher gezählt.<br>Beim Konfigurieren der Timeout-Einstellung müssen Sie Folgendes beachten:<ul><li>Wenn der Wert zu niedrig ist, erhalten Besucher wahrscheinlich meist nur den Standardinhalt angezeigt, auch wenn sie möglicherweise als Teilnehmer in einer Aktivität gezählt werden.</li><li>Ist der Wert zu hoch, werden Besuchern unter Umständen leere Stellen auf Ihrer Webseite oder komplett leere Seiten angezeigt, falls Sie für längere Zeiträume Textausblendung einsetzen.</li></ul>Genaueres über Mbox-Antwortzeiten erfahren Sie auf der Registerkarte „Netzwerk“ in den Entwicklertools Ihres Browsers. Sie können auch Tools zur Überwachung der Webleistung einsetzen, die von Drittanbietern stammen, wie zum Beispiel Catchpoint.<br>**Hinweis:** Die Einstellung [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) stellt sicher, dass [!DNL Target] nicht zu lange auf die Antwort der Besucher-API wartet. Diese Einstellung und die hier beschriebene Timeout-Einstellung für at.js beeinflussen sich nicht gegenseitig.|
+|Lebensdauer des Profils|Diese Einstellung bestimmt, wie lange Profile des Besuchers gespeichert werden. Profile werden standardmäßig zwei Wochen lang gespeichert. Dies kann auf bis zu 90 Tage erhöht werden.<br>Wenden Sie sich an den [Kundendienst](https://helpx.adobe.com/de/contact/enterprise-support.ec.html), um die Einstellung für die Lebensdauer des Profils zu ändern.|
 
-### Main implementation method
+### Wichtigste Implementierungsmethode
 
 >[!IMPORTANT]
 >
->The Target team supports both at.js 1.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
+>Das Zielgruppe-Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 
-To download the desired at.js version, click the appropriate **[!UICONTROL Download]** button.
+Um die gewünschte at.js-Version herunterzuladen, klicken Sie auf die entsprechende **[!UICONTROL Download]** -Schaltfläche.
 
 Um at.js-Einstellungen zu bearbeiten, klicken Sie neben der gewünschten at.js-Version auf &quot; **[!UICONTROL Bearbeiten]** &quot;.
 
@@ -75,14 +75,14 @@ Um at.js-Einstellungen zu bearbeiten, klicken Sie neben der gewünschten at.js-V
 >
 >Wenden Sie sich vor dem Ändern dieser Standardeinstellungen an den [Kundendienst](/help/cmp-resources-and-contact-information.md) , damit Sie Ihre aktuelle Implementierung nicht beeinträchtigen.
 
-In addition to the settings explained above, the following specific at.js settings are also available:
+Zusätzlich zu den oben erläuterten Einstellungen stehen die folgenden spezifischen at.js-Einstellungen zur Verfügung:
 
 | Einstellung | Beschreibung |
 |--- |--- |
 | Benutzerdefinierte Bibliothekskopfzeile | Fügen Sie benutzerdefiniertes JavaScript hinzu, das oben in der Bibliothek aufgeführt wird. |
 | Benutzerdefinierte Bibliotheksfußzeile | Fügen Sie benutzerdefiniertes JavaScript hinzu, das unten in der Bibliothek aufgeführt wird. |
 
-### Profile API
+### Profil-API
 
 Aktivieren oder deaktivieren Sie die Authentifizierung für Batch-Aktualisierungen via API und generieren Sie ein Token für die Profilauthentifizierung.
 
@@ -108,7 +108,7 @@ Weitere Informationen finden Sie unter  [Datenschutz](/help/c-implementing-targe
 
 >[!NOTE]
 >
->The Legacy Browser Support option was available in at.js version 0.9.3 and earlier. Diese Option wurde in at.js, Version 0.9.4, entfernt. Eine Liste der von at.js unterstützten Browser finden Sie unter [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>Bei älteren Browsern handelt es sich in der Regel um alte Versionen, die CORS (Cross Origin Resource Sharing) nicht vollständig unterstützen. Solche Browser sind zum Beispiel alle Versionen von Internet Explorer vor Version 11 oder Safari Version 6 und ältere Versionen. Wenn die Unterstützung älterer Browser deaktiviert war, stellte Zielgruppe keine Inhalte bereit oder zählte keine Besucher in Berichten in diesen Browsern. Wenn diese Option aktiviert wurde, wird empfohlen, eine Qualitätssicherung in allen älteren Browsern durchzuführen, um eine gute Kundenerfahrung sicherzustellen.
+>Die Option &quot;Unterstützung älterer Browser&quot;war in at.js Version 0.9.3 und früher verfügbar. Diese Option wurde in at.js, Version 0.9.4, entfernt. Eine Liste der von at.js unterstützten Browser finden Sie unter [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>Bei älteren Browsern handelt es sich in der Regel um alte Versionen, die CORS (Cross Origin Resource Sharing) nicht vollständig unterstützen. Solche Browser sind zum Beispiel alle Versionen von Internet Explorer vor Version 11 oder Safari Version 6 und ältere Versionen. Wenn die Unterstützung älterer Browser deaktiviert war, stellte Zielgruppe keine Inhalte bereit oder zählte keine Besucher in Berichten in diesen Browsern. If this option was enabled, it is recommended to do quality assurance across older browsers to ensure a good customer experience.
 
 ## „at.js“ herunterladen {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
