@@ -2,11 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: Dieses Thema enthält Antworten auf häufig zur Anzeige von Berichten bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 title: Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
-feature: null
+feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 63%
@@ -20,23 +20,23 @@ This topic contains answers to questions that are frequently asked about viewing
 
 ## Kann ich meine Target-Aktivitätsdaten im Analysis Workspace anzeigen? {#workspace}
 
-You can use [!DNL Analysis Workspace] to analyze your [!DNL Target] activities and experiences. The [Analytics for Target panel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) lets you see lift &amp; confidence for as many as three success metrics. Mithilfe von Tabellen und Visualisierungen können Sie auch tiefer graben.
+Sie können Ihre [!DNL Analysis Workspace] Aktivitäten und Erlebnisse [!DNL Target] analysieren. Im Bereich [Analytics für Zielgruppen](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) können Sie die Steigerung und das Vertrauen für bis zu drei Erfolgsmetriken anzeigen. Mithilfe von Tabellen und Visualisierungen können Sie auch tiefer graben.
 
 For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
 ## Wo können Segmente in Analysis Workspace angewendet werden? {#segmentation}
 
-Segments are most commonly applied to the top of a panel in the segment drop zone. The segment is applied to all tables and visualizations in the panel. Diese Technik ist am nützlichsten, um zu sehen, wie der Test eine Untergruppe von Personen betrifft (wie hat dieser Test zum Beispiel für Menschen in Großbritannien funktioniert)?
+Segmente werden meist am oberen Rand eines Bereichs in der Segment-Dropzone angewendet. The segment is applied to all tables and visualizations in the panel. Diese Technik ist am nützlichsten, um zu sehen, wie der Test eine Untergruppe von Personen betrifft (wie hat dieser Test zum Beispiel für Menschen in Großbritannien funktioniert)?
 
 ## Warum werden nicht verwandte Erlebnisse zurückgegeben, wenn ich ein Treffersegment für eine bestimmte Aktivität der Zielgruppe anwende? {#activity-segmentation}
 
 Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. (Hinweis: Diese Ablaufzeit kann bei Bedarf vom Kundendienst angepasst werden. Während Besucher durch die Site in diesem Ablauffenster navigieren, gehören sie zu vielen [!DNL Target] Aktivitäten, die alle in der Dimension erfasst werden.
 
-Wenn Sie daher segmentieren, dass eine Aktivität in einem Treffer vorhanden sein soll, erhalten Sie alle Erlebnisse, die Teil dieser Aktivität sind, *sowie* alle anderen Erlebnisse, die bei diesem Treffer bestehen bleiben.
+As a result, when you segment for an activity to be present in a hit, you will get all the experiences that are part of that activity *plus* any other experiences that are persisting on that hit.
 
 ## Sollte ich Besucher, Besuche oder Aktivitäten-Impressionen als Normalisierungsmetrik verwenden (d. h. als Zählmethodik)? {#metrics}
 
-Es gibt mehrere Optionen zum Normalisieren von Metriken im A4T-Berichte. Diese Metrik, auch als Zählmethodik bezeichnet, wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.
+There are several options for normalizing metrics in A4T reporting. This metric, also referred to as the counting methodology, becomes the denominator of the lift calculation. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.
 
 * ***Unique Visitors*** wird um eins erhöht, wenn ein Benutzer sich zum ersten Mal für eine Aktivität qualifiziert.
 * ***Besuche*** wird mit jeder Sitzung erhöht, sobald ein Benutzer (Unique Visitor) eine Aktivität beginnt, selbst wenn diese Aktivität nicht in nachfolgenden Besuchen angezeigt wird.
@@ -126,7 +126,7 @@ The following list explains reasons why the same visitor could be counted in mul
 
 * The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
 * Wenn der Besucher die `mbox3rdPartyId` verwendet, sobald der anonyme Besucher mit seinem Drittanbieter-ID-Profil verschmolzen wird, könnte den Besucher in einen anderen Besuch einordnen, der mit der ID eines Drittanbieters übereinstimmt. [!DNL Target] Weitere Informationen finden Sie unter [Echtzeit-Profilsynchronisierung für mbox3rdPartyID](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
-* [!DNL Analytics] might be tracking different devices as the same visitor in a different way than [!DNL Target] tracks those devices: the 3rd party ID setup in [!DNL Target] is different than in Analytics.
+* [!DNL Analytics] kann verschiedene Geräte auf andere Weise als denselben Besucher verfolgen, und zwar auf andere Weise als die [!DNL Target] Verfolgung dieser Geräte: Die Einrichtung der Drittanbieter-ID in [!DNL Target] unterscheidet sich von der in Analytics.
 
 ## Unterstützt A4T Virtual Report Suites?
 
