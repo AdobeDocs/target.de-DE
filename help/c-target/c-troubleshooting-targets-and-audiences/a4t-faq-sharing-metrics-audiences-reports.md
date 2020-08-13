@@ -2,11 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;segments;a4T;share reports
 description: Dieses Thema enthält Antworten auf häufig gestellte Fragen zur Freigabe von Metriken, Segmenten und Berichten bei der Verwendung von Analytics als Berichtsquelle für Target (A4T).
 title: Freigabe von Metriken, Zielgruppen und Berichten – Häufig gestellte Fragen zu A4T
-feature: null
+feature: a4t troubleshooting
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 82%
