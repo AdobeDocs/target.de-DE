@@ -2,11 +2,11 @@
 keywords: Experience Targeting;Landing Page Test
 description: Ein Element-Selektor ist ein CSS-Ausdruck, der eines oder mehrere Elemente kennzeichnen kann.
 title: Element-Selektoren, die im Visual Experience Composer verwendet werden
-feature: null
+feature: vec
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
@@ -20,7 +20,7 @@ Ein Element-Selektor ist ein CSS-Ausdruck, der eines oder mehrere Elemente kennz
 
 Grundlegende Informationen zu CSS-Selektoren finden Sie im Dokument [Selektoren](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) im Mozilla Developer Network (MDN).
 
-Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovoreinstellungen verwenden möchten. Klicken Sie auf **[!UICONTROL Administration > Visual Experience Composer]** und wählen Sie dann Ihre bevorzugten CSS-Selektoren aus.
+Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovoreinstellungen verwenden möchten. Click **[!UICONTROL Administration > Visual Experience Composer]**, then choose your preferred CSS selectors.
 
 ![](assets/css_selectors.png)
 
