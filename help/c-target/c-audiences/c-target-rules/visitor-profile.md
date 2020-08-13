@@ -2,10 +2,10 @@
 keywords: visitor profile;target visitor profile
 description: Erstellen Sie in Adobe Target Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen.
 title: Besucherprofil
-feature: null
+feature: audiences
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 97%
@@ -44,7 +44,7 @@ Erstellen Sie Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Schulungsvideo: Kennzeichen ![Übersicht über Audiencen erstellen](/help/assets/overview.png)
+## Training video: Creating Audiences ![Overview badge](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
