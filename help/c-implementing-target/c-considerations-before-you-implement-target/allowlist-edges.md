@@ -1,12 +1,12 @@
 ---
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
-description: Allowlist Adobe Target edge nodes
-title: Allowlist Adobe Target edge nodes
-feature: null
+description: Adobe Target-Edge-Knoten in Zulassungslisten
+title: Adobe Target-Edge-Knoten in Zulassungslisten
+feature: privacy and security
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 ---
 
 
-# Allowlist Target edge nodes
+# Zulassungsliste Zielgruppe Edge-Knoten
 
-Information and an up-to-date list of hosts to help you allowlist Adobe [!DNL Target] edges.
+Informationen und eine aktuelle Liste von Hosts, die Sie bei der Zulassungsliste von Adoben [!DNL Target] unterstützen.
 
-Eine Kante ist eine geografisch verteilte Serving-Architektur, die Endbenutzern, die Inhalte anfordern, optimale Reaktionszeiten gewährleistet, unabhängig davon, wo sie sich auf der ganzen Welt befinden. Each edge node has all the information required to respond to the user&#39;s content request and to track analytics data on that request. User requests are routed to the nearest edge node. For more information, see [The edge network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *How Adobe[!DNL Target]works*.
+Eine Kante ist eine geografisch verteilte Serving-Architektur, die Endbenutzern, die Inhalte anfordern, optimale Reaktionszeiten gewährleistet, unabhängig davon, wo sie sich auf der ganzen Welt befinden. Each edge node has all the information required to respond to the user&#39;s content request and to track analytics data on that request. Benutzeranforderungen werden an den nächsten Edge-Knoten weitergeleitet. Weitere Informationen finden Sie unter [Das Edge-Netzwerk](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Funktionsweise der Adobe[!DNL Target]*.
 
 Sie können bei Bedarf [!DNL Target] Edge-Knoten in Zulassungslisten einfügen.
 
@@ -26,7 +26,7 @@ Die folgende Liste umfasst die aktuellen Hosts:
 
 * `CLIENTCODE.tt.omtrdc.net`
 
-   (where CLIENTCODE is your Target client ID)
+   (wobei CLIENTCODE Ihre Zielgruppe-Client-ID ist)
 
 * `mboxedge17.tt.omtrdc.net`
 * `mboxedge21.tt.omtrdc.net`
