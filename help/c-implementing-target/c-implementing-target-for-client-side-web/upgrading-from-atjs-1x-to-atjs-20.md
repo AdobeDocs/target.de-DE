@@ -2,11 +2,11 @@
 keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: Detaillierte Informationen zur Aktualisierung von Adobe Target at.js 1.x auf at.js-Version 2.0.0
 title: Aktualisierung von Adobe Target at.js Version 1.*x* auf at.js Version 2.*x nicht unterstützt*
-feature: null
+feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2747'
 ht-degree: 93%
@@ -28,7 +28,7 @@ Hier einige Vorteile der Verwendung von at.js 2.*x*, die in früheren Versionen 
 
 Die folgenden Diagramme helfen Ihnen, den Arbeitsablauf von at.js 2.*x* mit View zu verstehen und wie dieser die SPA-Integration verbessert. Eine bessere Einführung in die in at.js 2.*x* verwendeten Konzepte finden Sie unter [Implementieren von Einzelseiten-Apps](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![Target-Ablauf mit at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Target-Ablauf mit at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Aufruf | Details |
 | --- | --- |
@@ -290,11 +290,11 @@ In Target wird das Drittanbieter-Cookie in `<CLIENTCODE>.tt.omtrdc.net` gespeich
 
 In at.js 2.*x* wird HTTP GET jedoch nicht mehr verwendet, stattdessen wird HTTP POST verwendet. HTTP POST wird jetzt über at.js 2.*x* verwendet, um JSON-Payloads an Target Edge-Server zu senden. Das bedeutet, dass die Weiterleitungsanfrage zur Überprüfung, ob ein Browser Drittanbieter-Cookies unterstützt, jetzt nicht mehr funktioniert. Dies liegt daran, dass HTTP GET-Anfragen idempotent sind, während HTTP POST nicht idempotent ist und nicht willkürlich wiederholt werden darf. Daher wird domänenübergreifendes Tracking in at.js 2.*x* nicht mehr nativ unterstützt. Nur at.js 1.*x* verfügt über native Unterstützung für domänenübergreifendes Tracking.
 
-If you want to use cross-domain tracking, you must install the [ECID library v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) in conjunction with at.js 2.*x*. Die ECID-Bibliothek hat den Zweck, persistente IDs zu verwalten, die zur domänenübergreifenden Identifizierung eines Besuchers verwendet werden können.
+Wenn Sie domänenübergreifendes Tracking verwenden möchten, müssen Sie die [ECID-Bibliothek v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) in Verbindung mit at.js 2 installieren.*x*. Die ECID-Bibliothek hat den Zweck, persistente IDs zu verwalten, die zur domänenübergreifenden Identifizierung eines Besuchers verwendet werden können.
 
 >[!NOTE]
 >
->Nach der Installation der ECID-Bibliothek v 4.3.0 + und at.js 2.*x* können Sie Aktivitäten erstellen, die mehrere Domänen umfassen und Benutzer tracken können. It is important to note that this functionality works only after the session expires.
+>Nach der Installation der ECID-Bibliothek v 4.3.0 + und at.js 2.*x* können Sie Aktivitäten erstellen, die mehrere Domänen umfassen und Benutzer tracken können. Beachten Sie, dass diese Funktion erst nach Ablauf der Sitzung funktioniert.
 
 ### Automatische Erstellung einer globalen Mbox wird unterstützt
 
@@ -323,7 +323,7 @@ Nein, Sie müssen vor dem Aufrufen von `triggerView()` keinen Pre-hiding-Code hi
 
 ### Welches at.js 1.*x* Parameter zum Erstellen von Audiencen werden in at.js 2 nicht unterstützt.*x*? {#audience-parameters}
 
-The following at.js 1.x parameters are *NOT* currently supported for audience creation when using at.js 2.*x*:
+Die folgenden at.js 1.x-Parameter werden derzeit bei der Erstellung von Audiencen mit at.js 2 *NICHT* unterstützt.*x*:
 
 * browserHeight
 * browserWidth
@@ -414,7 +414,7 @@ Ein weiterer wichtiger Unterschied besteht darin, dass:
 * at.js 2.*x*  - Client-Code wird als Abfragezeichenfolgenparameter gesendet, z. B.:
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-Die folgenden Abschnitte listen jeden at.js 1.*x* parameter, its description, and the corresponding 2.*x* JSON-Nutzlast (falls zutreffend):
+Die folgenden Abschnitte listen jeden at.js 1.*x* parameter, its description, and the corresponding 2.*x* JSON payload (if applicable):
 
 ### at_property
 
@@ -758,10 +758,10 @@ at.js 2.*x*  JSON-Payload:
 
 Version wird als Abfragezeichenfolgenparameter über den Versionsparameter gesendet.
 
-## Schulungsvideo: at.js 2.*x* architectural diagram ![Overview badge](/help/assets/overview.png)
+## Schulungsvideo: at.js 2.*x* Abzeichen ![für Architekturdiagramm](/help/assets/overview.png)
 
 at.js 2.*x*  verbessert die Unterstützung von Adobe Target für SPAs und kann mit anderen Experience Cloud-Lösungen integriert werden. In diesem Video wird erklärt, wie alles zusammenkommt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-See [Understanding how at.js 2.*x* funktioniert](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) für weitere Informationen.
+Siehe [Erläuterungen zu at.js 2.*x* funktioniert](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) für weitere Informationen.
