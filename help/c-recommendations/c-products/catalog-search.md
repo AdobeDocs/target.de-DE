@@ -2,10 +2,10 @@
 keywords: catalog;search
 description: Die Katalogsuche in Adobe Target hilft Ihnen dabei, Produkte oder Inhalte in Ihrem Katalog zu finden.
 title: Katalogsuche in Adobe Target
-feature: null
+feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 96%
@@ -44,7 +44,7 @@ Der Katalog wird automatisch aktualisiert, wenn Updates über Feed-Dateien, API-
 
 Sie können [Sammlungen](/help/c-recommendations/c-products/collections.md) oder [Ausschlüsse](/help/c-recommendations/c-products/exclusions.md) mithilfe der erweiterten Suche auf der Seite „Katalogsuche“ ([!UICONTROL Empfehlungen] > [!UICONTROL Katalogsuche] > [!UICONTROL Erweiterte Suche]) erstellen.
 
-![Speichern unter, Dialogfeld](/help/c-recommendations/c-products/assets/save-as-dialog.png)
+![Save as dialog](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
 Nachdem Sie eine Suche mit &quot;id > contains&quot; erstellt haben, können Sie zum Beispiel auf [!UICONTROL Speichern unter] > [!UICONTROL Sammlung oder Ausschluss] klicken.
 
