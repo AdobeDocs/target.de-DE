@@ -1,11 +1,11 @@
 ---
 keywords: Recommendations;offer;preview;launch
-description: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Aktivität (XT) mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie diese Vorschau durchführen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Target Recommendations offers multiple ways to preview your recommendations. '
-title: 'After you’ve created your Recommendations, A/B Test, or Experience Targeting (XT) activity containing Adobe Target Recommendations offers, you’ll want to preview it to ensure results are available before launching the activity. Target Recommendations offers multiple ways to preview your recommendations. '
-feature: null
+description: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Aktivität (XT) mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie diese Vorschau durchführen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Zielgruppe Recommendations Angebote bietet mehrere Möglichkeiten, Ihre Empfehlungen Vorschau. '
+title: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Aktivität (XT) mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie diese Vorschau durchführen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Zielgruppe Recommendations Angebote bietet mehrere Möglichkeiten, Ihre Empfehlungen Vorschau. '
+feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 19%
@@ -13,9 +13,9 @@ ht-degree: 19%
 ---
 
 
-# Preview and launch your Recommendations activity
+# Vorschau und Starten der Recommendations-Aktivität
 
-Nachdem Sie Ihre [!UICONTROL Recommendations]-, [!UICONTROL A/B-Test]- oder [!UICONTROL Erlebnis-Targeting] -Aktivität mit [Recommendations-Angeboten](/help/c-recommendations/recommendations-as-an-offer.md)erstellt haben, sollten Sie Ihre Empfehlungen Vorschau haben, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. [!DNL Target Recommendations] offers multiple ways to preview your recommendations.
+Nachdem Sie Ihre [!UICONTROL Recommendations]-, [!UICONTROL A/B-Test]- oder [!UICONTROL Erlebnis-Targeting] -Aktivität mit [Recommendations-Angeboten](/help/c-recommendations/recommendations-as-an-offer.md)erstellt haben, sollten Sie Ihre Empfehlungen Vorschau haben, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. [!DNL Target Recommendations] angebote zur Vorschau Ihrer Empfehlungen auf verschiedene Weisen.
 
 ## Überprüfen des Recommendations-Algorithmusstatus
 
@@ -25,21 +25,21 @@ Sie können überprüfen, ob der Algorithmus fertig ausgeführt wurde, und zwar 
 
 ![Recommendations Aktivität - Übersichtsseite](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
-The following illustration depicts the status on an [!UICONTROL A/B Test] or XT activity’s [!UICONTROL Overview] page:
+Die folgende Abbildung zeigt den Status auf einer [!UICONTROL A/B-Test] - oder XT-Aktivität- [!UICONTROL Übersichtsseite] :
 
 ![Seite &quot;Übersicht über A/B-Tests&quot;](/help/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
 
 Zu den Statusergebnissen gehören die folgenden:
 
-* [!UICONTROL Results Ready]: Indicates the algorithm has returned results
+* [!UICONTROL Ergebnisse bereit]: Gibt an, dass der Algorithmus Ergebnisse zurückgegeben hat
 * [!UICONTROL Ergebnisse nicht verfügbar]: Gibt an, dass der Algorithmus noch nicht ausgeführt wurde.
-* [!UICONTROL Feed Failure]: Indicates the custom criteria feed file could not be retrieved.
+* [!UICONTROL Feed-Fehler]: Gibt an, dass die Feed-Datei mit benutzerdefinierten Kriterien nicht abgerufen werden konnte.
 
 ![Results dialog box](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
-## Wie lange dauert die Ausführung des Algorithmus?
+## How long will the algorithm take to run?
 
-Nach dem Speichern einer Aktivität, die ein Kriterium enthält, werden Empfehlungen basierend auf der ausgewählten Sammlung, den Kriterien, dem Entwurf und den Promotions [!DNL Target] berechnet. Diese Berechnung nimmt etwas Zeit in Anspruch. Der Zeitrahmen hängt von der ausgewählten Empfehlungslogik, dem Datumsbereich, der Anzahl der Elemente in Ihrem Katalog, der Anzahl der Verhaltensdaten Ihrer Kunden und der ausgewählten Verhaltensdatenquelle ab.
+After saving an activity containing a criteria, [!DNL Target] computes recommendations based on the selected collection, criteria, design, and promotions. Diese Berechnung nimmt etwas Zeit in Anspruch. Der Zeitrahmen hängt von der ausgewählten Empfehlungslogik, dem Datumsbereich, der Anzahl der Elemente in Ihrem Katalog, der Anzahl der Verhaltensdaten Ihrer Kunden und der ausgewählten Verhaltensdatenquelle ab.
 
 Die Verhaltensdatenquelle hat den größten Einfluss auf die Verarbeitungszeit, wie im Folgenden dargestellt wird:
 
@@ -57,7 +57,7 @@ Wenn das Kriterium [!DNL Adobe Analytics] als Verhaltens-Datenquelle verwendet, 
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] requires no offline algorithm run and results are instantly available. [!UICONTROL Algorithmen für die am häufigsten angezeigten] und [!UICONTROL Topverkäufe] , die auf Mbox-Daten basieren, liefern im Allgemeinen sehr schnell Ergebnisse, da eine einfachere Berechnung erforderlich ist. Dies können gute Optionen sein, wenn Sie eine Designänderung Vorschau oder sicherstellen möchten, dass Verhaltensdaten korrekt erfasst werden.
+>[!UICONTROL Recently Viewed Items] requires no offline algorithm run and results are instantly available. [!UICONTROL Top Viewed] and [!UICONTROL Top Sellers] algorithms based on mbox data generally produce results very quickly due to the simpler computation required. These can be good options when you want to preview a design change or confirm that behavioral data are being collected correctly.
 
 ## Using QA links to preview Recommendations
 
@@ -67,27 +67,27 @@ After the algorithm has results ready, you can preview those results using the [
 
 >[!NOTE]
 >
->Standardmäßig werden Sie [!DNL Target] automatisch zur erforderlichen Audience für den QA-Link hinzugefügt. Wenn diese Einstellung deaktiviert ist und Ihre Aktivität Targeting-Regeln hat, muss Ihr Profil diese Targeting-Regeln erfüllen, damit das Erlebnis mit Empfehlungen angezeigt wird.
+>Standardmäßig werden Sie [!DNL Target] automatisch zur erforderlichen Audience für den QA-Link hinzugefügt. If this setting is turned off and your activity has targeting rules, your user profile needs to meet those targeting rules to see the experience containing recommendations.
 
-Mithilfe eines QS-Links können Sie die Empfehlungen auf Ihrer Seite Vorschau haben:
+Using a QA link allows you to preview the recommendations on your page:
 
 ![Vorgestellte Produkte](/help/c-recommendations/t-create-recs-activity/assets/featured-products.png)
 
 >[!NOTE]
 >
->Der QS-Modus für Zielgruppen ist &quot;sticky&quot; und wird in einem Cookie gespeichert. Wenn Sie den Qualitätssicherungs-Modus nicht beenden, werden die Qualitätssicherungsergebnisse auf der gesamten Site angezeigt. Um den Qualitätssicherungs-Modus zu beenden, verwenden Sie das [Bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>Der QS-Modus für Zielgruppen ist &quot;sticky&quot; und wird in einem Cookie gespeichert. If you do not exit QA mode, you’ll keep seeing the QA results throughout the site. Um den Qualitätssicherungs-Modus zu beenden, verwenden Sie das [Bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
 
 >[!NOTE]
 >
 >Im Qualitätssicherungs-Modus hat das Durchsuchen der Site keine Auswirkungen auf die [!UICONTROL zuletzt angezeigten Artikel] oder die [!UICONTROL zuletzt gekauften Artikel]Ihres Profils. Dieses Verhalten wird standardmäßig ausgeführt, um eine unbeabsichtigte Verschmutzung der Produktionsverhaltensdaten zu vermeiden. Zur Vorschau der Ergebnisse von [!UICONTROL kürzlich angezeigten Artikeln] oder [!UICONTROL benutzerbasierten Recommendations] -Kriterien navigieren Sie zuerst außerhalb des Qualitätssicherungs-Modus und öffnen dann in derselben Sitzung einen QS-Modus-Link.
 
-## Verwenden des CSV-Downloads zur Vorschau von Empfehlungen
+## Using the CSV download to preview recommendations
 
-In einigen Fällen sollten Sie die empfohlenen Elemente prüfen. This is particularly helpful when using algorithms like [!UICONTROL People Who Viewed This, Viewed That], where a different set of items are recommended depending on the item the user is currently viewing, and you might have thousands or millions of different items in your catalog.
+In some cases, you might want to audit the specific items that are recommended. This is particularly helpful when using algorithms like [!UICONTROL People Who Viewed This, Viewed That], where a different set of items are recommended depending on the item the user is currently viewing, and you might have thousands or millions of different items in your catalog.
 
-Results are not available for download until a [!UICONTROL Results Ready] status is shown for at least one algorithm in the activity.
+Die Ergebnisse können erst heruntergeladen werden, wenn für mindestens einen Algorithmus in der Aktivität der Status &quot; [!UICONTROL Ergebnisbereit] &quot;angezeigt wird.
 
-To download results for preview, click the menu icon in the upper-right hand corner of the Activity overview page, then click **[!UICONTROL Download data]**.
+Um die Ergebnisse für die Vorschau herunterzuladen, klicken Sie auf das Menüsymbol in der oberen rechten Ecke der Übersichtsseite der Aktivität und dann auf Daten **[!UICONTROL herunterladen]**.
 
 ![Datenoption herunterladen](/help/c-recommendations/t-create-recs-activity/assets/download-data.png)
 
@@ -101,7 +101,7 @@ Von links nach rechts ist eine Liste empfohlener Artikel, in diesem Fall die am 
 >
 >Für Aktivitäten mit einem [!UICONTROL benutzerbasierten Recommendations] -Algorithmus stehen keine Ergebnisdownloads zur Verfügung. Ergebnisdownloads stehen für Kriterien nicht zur Verfügung, die die Empfehlungslogik [!UICONTROL Zuletzt angezeigte Elemente] verwenden.
 
-## Aktivieren der Recommendations-Aktivität
+## Activating your Recommendations activity
 
 Klicken Sie auf der Registerkarte [!UICONTROL Statusübersicht] auf den Dropdownpfeil neben dem Status und wählen Sie **[!UICONTROL Aktivieren]**.
 
@@ -125,14 +125,14 @@ Um zu vermeiden, dass eine Live-Aktivität gestört wird, sollten Sie beim Ände
 
 1. Duplikat der Aktivität und der Kriterien, die Sie ändern möchten.
 1. Nehmen Sie Änderungen an der duplizierten Aktivität und den Kriterien vor und warten Sie, bis der Algorithmus Ergebnisse generiert.
-1. Preview the new, modified activity and confirm that results are as desired.
+1. Vorschau der neuen, geänderten Aktivität und Vergewissern Sie sich, dass die Ergebnisse Ihren Wünschen entsprechen.
 1. Aktivieren Sie die neue Aktivität.
-1. Deactivate the old activity.
+1. Deaktivieren Sie die alte Aktivität.
 
-If you need to retain historical reporting results in the same activity, an alternative approach is possible, which might result in a temporary disruption to recommendations availability:
+Wenn Sie historische Berichte in der gleichen Aktivität beibehalten müssen, ist ein alternativer Ansatz möglich, der die Verfügbarkeit von Empfehlungen vorübergehend beeinträchtigen könnte:
 
-1. Duplicate the activity and criteria you want to modify.
-1. Make changes to the duplicated activity and criteria and wait for the algorithm to generate results.
+1. Duplikat der Aktivität und der Kriterien, die Sie ändern möchten.
+1. Nehmen Sie Änderungen an der duplizierten Aktivität und den Kriterien vor und warten Sie, bis der Algorithmus Ergebnisse generiert.
 1. Vorschau der neuen, geänderten Aktivität und Vergewissern Sie sich, dass die Ergebnisse Ihren Wünschen entsprechen.
 1. Halten Sie die vorhandene Aktivität an und tauschen Sie die Einstellungen/Kriterien gegen die neuen Kriterien aus.
 1. Vorschau der vorhandenen Aktivität und Vergewissern Sie sich, dass die Ergebnisse den Anforderungen entsprechen.
