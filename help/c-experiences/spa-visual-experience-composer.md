@@ -2,11 +2,11 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs) in Adobe Target ermöglicht es Marketing-Experten, für SPAs selbst Tests zu erstellen und Inhalt zu personalisieren, ohne von der kontinuierlichen Weiterentwicklung abhängig zu sein. Mit VEC können Aktivitäten auf Basis der beliebtesten Frameworks erstellt werden, beispielsweise mit React oder Angular.
 title: Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)
-feature: null
+feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -28,13 +28,13 @@ Adobe Target VEC für SPAs basiert auf einem neuen Konzept für Ansichten: Eine 
 
 Um Ansichten genauer erklären zu können, navigieren wir einmal über diese fiktive E-Commerce-Site, die in React implementiert wurde, und betrachten einige Beispielansichten. Klicken Sie auf die folgenden Links, um diese Website auf einer neuen Browser-Registerkarte zu öffnen.
 
-**Link:[Home Site](https://target.enablementadobe.com/react/demo/#/)**
+**Link:[Startseite](https://target.enablementadobe.com/react/demo/#/)**
 
 ![Homepage](/help/c-experiences/assets/home.png)
 
 Wenn wir zur Homepage navigieren, können wir sofort ein Hero-Bild sehen, das einen Osterverkauf bewirbt, sowie die neuesten Produkte, die auf der Site verkauft werden. In diesem Fall kann die gesamte Homepage als Ansicht definiert werden. Dies sollten Sie im Hinterkopf behalten, da wir darauf im Abschnitt „Implementieren von Adobe Target-Ansichten“ unten näher eingehen werden.
 
-**Link:[Produktseite](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:[Product Site](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![Produktseite](/help/c-experiences/assets/product-site.png)
 
@@ -48,7 +48,7 @@ Am Anfang dieses Abschnitts haben wir Ansichten als ganze Site oder sogar als ei
 
 Klicken Sie auf die Schaltfläche „Mehr laden“, um weitere Produkte auf der Site zu erkunden. In diesem Fall ändert sich die Website-URL nicht. Hier kann auch nur die zweite Zeile der oben gezeigten Produkte als Ansicht angesehen werden. Der Name der Ansicht könnte also „PRODUKTSEITE-2“ lauten.
 
-**Link:[Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![Checkout-Seite](/help/c-experiences/assets/checkout.png)
 
@@ -80,11 +80,11 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
    | --- | --- | --- | --- | --- |
    | viewName | Zeichenfolge | Ja | 1. Keine nachfolgenden Leerzeichen.<br>2. Darf nicht leer sein.<br>3. Der Name der Ansicht sollte für alle Seiten eindeutig sein.<br>4. **Warnung:** Der Anzeigename sollte nicht mit „`/`“ beginnen oder enden. Dies liegt daran, dass der Kunde den Anzeigenamen im Allgemeinen aus dem URL-Pfad entnimmt. Für uns sind „home“ und „`/home`“ unterschiedlich.<br>5. **Warnung:** Dieselbe Ansicht sollte nicht mehrmals hintereinander mit der Option `{page: true}` ausgelöst werden. | Geben Sie eine beliebige Zeichenfolge als Namen für Ihre Ansicht an. Der Name dieser Ansicht wird im Bedienfeld [!UICONTROL Änderungen] von VEC angezeigt, sodass Marketing-Experten Aktionen erstellen und ihre A/B- und XT-Aktivitäten ausführen können. |
    | options | Objekt | Nein |  |  |
-   | Optionen > Seite | Boolesch | Nein |  | **TRUE**: Der Standardwert der Seite ist „wahr“. Bei `page=true` werden Benachrichtigungen zur Erhöhung der Impressions-Anzahl an die Edge-Server gesendet.<br>**FALSE **: Bei`page=false`werden keine Benachrichtigungen zur Erhöhung der Impressions-Anzahl gesendet. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
+   | Optionen > Seite | Boolesch | Nein |  | **TRUE**: Der Standardwert der Seite ist „wahr“. Bei `page=true` werden Benachrichtigungen zur Erhöhung der Impressions-Anzahl an die Edge-Server gesendet.<br>**FALSE**: Bei `page=false` werden keine Benachrichtigungen zur Erhöhung der Impressions-Anzahl gesendet. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
 
    Im Folgenden sehen wir einige beispielhafte Anwendungsfälle dazu, wie Sie in React die `triggerView()`-Funktion für unsere fiktive E-Commerce-SPA aufrufen:
 
-   **Link:[Home Site](https://target.enablementadobe.com/react/demo/#/)**
+   **Link:[Startseite](https://target.enablementadobe.com/react/demo/#/)**
 
    ![Home-React-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +115,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Link:[Produktseite](https://target.enablementadobe.com/react/demo/#/products)**
+   **Link:[Products Site](https://target.enablementadobe.com/react/demo/#/products)**
 
    Schauen wir uns nun ein Beispiel an, das etwas komplizierter ist. Nehmen wir als Marketing-Experten an, wir möchten die zweite Reihe der Produkte personalisieren, indem wir die Farbe der Preisbeschriftung auf Rot ändern, nachdem ein Benutzer auf die Schaltfläche „Mehr laden“ geklickt hat.
 
@@ -144,7 +144,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
    }
    ```
 
-   **Link:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Link:[Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![React-Checkout](/help/c-experiences/assets/react6.png)
 
@@ -209,8 +209,8 @@ Die einzelnen Aktionen sind in der folgenden Tabelle beschrieben:
 | --- | --- |
 | Informationen | Zeigt die Details der Aktion an. |
 | Bearbeiten | Ermöglicht die direkte Bearbeitung der Eigenschaften dieser Aktion. |
-| Klonen | Sie können die Aktion auf eine oder mehrere Ansichten klonen, die im Bedienfeld [!UICONTROL Änderungen] vorhanden sind, oder auf eine oder mehrere Ansichten, die Sie im VEC durchsucht haben oder zu denen Sie navigiert sind. Die Aktion muss nicht unbedingt im Bedienfeld [!UICONTROL „Änderungen“] vorhanden sein.<br>**Hinweis **: Navigieren Sie nach einem Klonvorgang mit[!UICONTROL Durchsuchen]zur Ansicht im VEC, um zu überprüfen, ob die Klon-Aktion ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
-| Verschieben | Hiermit wird die Aktion in ein Seitenladereignis oder eine andere Ansicht verschoben, die im Änderungs-Bedienfeld bereits vorhanden ist.<br>[!UICONTROL Seitenladereignis]: Alle Aktionen, die mit dem Seitenladeereignis in Verbindung stehen, werden beim ersten Laden Ihrer Webanwendung angewendet.<br>**Hinweis **: Navigieren Sie nach einem Verschiebevorgang mit „Durchsuchen“ zur Ansicht im VEC, um zu sehen, ob das Verschieben ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
+| Klonen | Sie können die Aktion auf eine oder mehrere Ansichten klonen, die im Bedienfeld [!UICONTROL Änderungen] vorhanden sind, oder auf eine oder mehrere Ansichten, die Sie im VEC durchsucht haben oder zu denen Sie navigiert sind. Die Aktion muss nicht unbedingt im Bedienfeld [!UICONTROL „Änderungen“] vorhanden sein.<br>**Hinweis**: Navigieren Sie nach einem Klonvorgang mit [!UICONTROL Durchsuchen] zur Ansicht im VEC, um zu überprüfen, ob die Klon-Aktion ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
+| Verschieben | Hiermit wird die Aktion in ein Seitenladereignis oder eine andere Ansicht verschoben, die im Änderungs-Bedienfeld bereits vorhanden ist.<br>[!UICONTROL Seitenladereignis]: Alle Aktionen, die mit dem Seitenladeereignis in Verbindung stehen, werden beim ersten Laden Ihrer Webanwendung angewendet.<br>**Hinweis**: Navigieren Sie nach einem Verschiebevorgang mit „Durchsuchen“ zur Ansicht im VEC, um zu sehen, ob das Verschieben ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
 | Löschen | Löscht die Aktion. |
 
 >[!NOTE]
