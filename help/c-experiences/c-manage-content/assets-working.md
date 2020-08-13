@@ -2,10 +2,10 @@
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: Es gibt eine Reihe von Aufgaben, die Sie für ein Asset in der Bibliothek durchführen können.
 title: Arbeiten mit Inhalten in der Bibliothek
-feature: null
+feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -37,7 +37,7 @@ Informationen über die Aufgaben, die Sie für ein Asset in der Inhalte-Biblioth
 
 1. Klicken Sie zum Ändern des Bildes, das für ein Element in der Bibliothek steht, auf das Element und anschließend auf das Symbol **[!UICONTROL Eigenschaften]**. Klicken Sie dann auf **[!UICONTROL Bearbeiten]** und fügen Sie ein Bild hinzu.
 
-## Training video: The Content Repository ![Overview badge](/help/assets/overview.png)
+## Schulungsvideo: Abzeichen &quot;Content Repository- ![Übersicht&quot;](/help/assets/overview.png)
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden. (4:56)
 
