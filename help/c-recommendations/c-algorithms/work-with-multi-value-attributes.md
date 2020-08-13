@@ -2,9 +2,9 @@
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: Information about working with a multi-value field in Adobe Target Recommendations using special multi-value operators.
 title: Arbeiten mit Attributen mit mehreren Werten in Adobe Target Recommendations
-feature: null
+feature: criteria
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 ---
 
 
-# Work with multi-value attributes
+# Arbeiten mit Attributen mit mehreren Werten
 
-Manchmal möchten Sie mit einem Feld mit mehreren Werten arbeiten. Sehen Sie sich folgende Beispiele an:
+Sometimes you might want to work with a multi-value field. Sehen Sie sich folgende Beispiele an:
 
-* Sie können Angebote an Benutzer senden. Ein Film hat mehrere Schauspieler.
-* Sie verkaufen Tickets für Konzerte. Ein Benutzer hat mehrere Lieblingsbands.
-* You sell clothing. A shirt is available in multiple sizes.
+* You offer movies to users. A given movie has multiple actors.
+* You sell tickets to concerts. A given user has multiple favorite bands.
+* You sell clothing. Ein Hemd ist in verschiedenen Größen erhältlich.
 
-Um Empfehlungen in diesen Szenarien zu bearbeiten, können Sie Daten mit mehreren Werten an spezielle Operatoren weiterleiten [!DNL Target Recommendations] und diese verwenden.
+To handle recommendations in these scenarios, you can pass multi-value data to [!DNL Target Recommendations] and use special multi-value operators.
 
-To allow [!DNL Recommendations] to identify multi-value data, it should be sent as a JSON array, as in the below code samples.
+Um Daten mit mehreren Werten [!DNL Recommendations] zu identifizieren, sollten diese wie in den folgenden Codebeispielen als JSON-Array gesendet werden.
 
 ## Pass a multi-value parameter in JavaScript
 
@@ -43,7 +43,7 @@ function targetPageParams() {
 
 For more information, see [Implementing multi-value attributes](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Custom entity attributes*.
 
-## Pass a multi-value entity attribute in a CSV file
+## Übergeben eines Entitätsattributs mit mehreren Werten in einer CSV-Datei
 
 ```
 ## RECSRecommendations Upload File,,,,,,,,,,,,,,,,,,,
@@ -60,21 +60,21 @@ For more information, see [Implementing multi-value attributes](/help/c-recommen
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Wenn ein Entitätsattribut, ein Profil- oder ein mbox-Parameter gemäß dem oben stehenden Format als Mehrwert bereitgestellt wird, deutet [!DNL Recommendations] dies automatisch darauf hin, dass es sich um ein Mehrwert handelt.
+When an entity attribute, profile attribute, or mbox parameter is provided as multi-value according to the above format, [!DNL Recommendations] automatically infers that the field is multi-value.
 
-The following operators are available for use with multi-value entity, profile, and mbox attributes:
+Die folgenden Operatoren stehen für Entitäts-, Profil- und Mbox-Attribute mit mehreren Werten zur Verfügung:
 
 * [!UICONTROL in der Liste]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL ist nicht in der Liste enthalten]
 
-## Arbeiten mit Attributen mit mehreren Werten in Einschlussregeln
+## Working with multi-value attributes in inclusion rules
 
 >[!NOTE]
 >
 >Die Unterstützung für die dynamische Zuordnung zu Attributen mit mehreren Werten ist derzeit nur in Kriterien verfügbar, wenn beim Vergleich eines Profil-Attributzuweises oder einer Parameterzuordnungsregel (mbox) ein einzelner Wert links mit einem Mehrwert rechts verglichen wird. Multi-value attributes are not currently supported in promotions, entity attribute matching, or for lists on the left side of inclusion rules.
 
 
-### Beispiel: Zuletzt überwachte Elemente ausschließen
+### Example: Exclude recently watched items
 
 Angenommen, Sie möchten verhindern, dass Filme, die sich in den letzten zehn überwachten Filmen des Benutzers befinden, empfohlen werden. Schreiben Sie zunächst ein Profil-Skript, das aufgerufen wird, um die letzten zehn angezeigten Filme als JSON-Array `user.lastWatchedMovies` zu verfolgen. Anschließend können Sie die Elemente mithilfe der folgenden Einschlussregel ausschließen:
 
@@ -118,7 +118,7 @@ JSON API-Darstellung der Einschlussregel:
 }
 ```
 
-### Beispiel: API-Erstellung von Kriterien, die Artikel aus den Favoriten eines Benutzers empfehlen
+### Example: API creation of criteria recommending items from a user&#39;s favorites
 
 Kriterien mit Filterregeln mit mehreren Werten können wie alle Kriterien über Adoben-I/O-APIs erstellt werden. Ein Beispiel-API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut in der Liste der mbox-Parameter enthalten `id` ist, finden Sie hier `favorites` :
 
