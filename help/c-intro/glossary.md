@@ -1,11 +1,11 @@
 ---
 description: Begriffsdefinitionen.
 title: Adobe Target-Glossar
-feature: null
+feature: intro
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2291'
 ht-degree: 98%
@@ -335,7 +335,7 @@ Immer, wenn die Seite mit der Mbox von einem Besucher angezeigt wird, werden all
 
 **visit**
 
-Ein Besuch wird manchmal als Sitzung bezeichnet. Ein Besuch endet nach 30 Minuten Inaktivität, d. h., zwischen den Serveranforderungen an die Zielgruppe sind mindestens 30 Minuten vergangen.
+A visit is sometimes called a session. Ein Besuch endet nach 30 Minuten Inaktivität, d. h., zwischen den Serveranforderungen an die Zielgruppe sind mindestens 30 Minuten vergangen.
 
 **Besucher**
 
