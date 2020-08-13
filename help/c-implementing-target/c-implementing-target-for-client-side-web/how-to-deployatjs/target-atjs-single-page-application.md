@@ -2,11 +2,11 @@
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: Informationen zur Verwendung von Adobe Target at.js 2.x zur Implementierung von Einzelseiten-Apps (SPAs).
 title: Implementierung einer Einzelseitenanwendung in Adobe Target
-feature: null
+feature: implementation general
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 74%
@@ -84,7 +84,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
    | --- | --- | --- | --- | --- |
    | viewName | Zeichenfolge | Ja | 1. Keine nachfolgenden Leerzeichen.<br>2. Darf nicht leer sein.<br>3. Der Name der Ansicht sollte für alle Seiten eindeutig sein.<br>4. **Warnung:** Der Anzeigename sollte nicht mit „`/`“ beginnen oder enden. Dies liegt daran, dass der Kunde den Anzeigenamen im Allgemeinen aus dem URL-Pfad entnimmt. Für uns sind „home“ und „`/home`“ unterschiedlich.<br>5. **Warnung:** Dieselbe Ansicht sollte nicht mehrmals hintereinander mit der Option `{page: true}` ausgelöst werden. | Geben Sie eine beliebige Zeichenfolge als Namen für Ihre Ansicht an. Der Name dieser Ansicht wird im Bedienfeld [!UICONTROL Änderungen] von VEC angezeigt, sodass Marketing-Experten Aktionen erstellen und ihre A/B- und XT-Aktivitäten ausführen können. |
    | options | Objekt | Nein |  |  |
-   | Optionen > Seite | Boolesch | Nein |  | **TRUE**: Der Standardwert der Seite ist „wahr“. Bei `page=true` werden Benachrichtigungen zur Erhöhung der Impressions-Anzahl an die Edge-Server gesendet.<br>**FALSE **: Bei`page=false`werden keine Benachrichtigungen zur Erhöhung der Impressions-Anzahl gesendet. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
+   | Optionen > Seite | Boolesch | Nein |  | **TRUE**: Der Standardwert der Seite ist „wahr“. Bei `page=true` werden Benachrichtigungen zur Erhöhung der Impressions-Anzahl an die Edge-Server gesendet.<br>**FALSE**: Bei `page=false` werden keine Benachrichtigungen zur Erhöhung der Impressions-Anzahl gesendet. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
 
    Im Folgenden sehen wir einige beispielhafte Anwendungsfälle dazu, wie Sie in React die `triggerView()`-Funktion für unsere fiktive E-Commerce-SPA aufrufen:
 
@@ -286,33 +286,33 @@ Die folgenden Informationen beschreiben die Reihenfolge der Vorgänge, die beim 
 | --- | --- | --- |
 | 1 | Laden von VisitorAPI-JS | Diese Bibliothek ist für die Zuweisung einer ECID zum Besucher zuständig. Diese ID wird später von anderen [!DNL Adobe] Lösungen auf der Webseite verwendet. |
 | 2 | at.js 2.x laden | at.js 2.x lädt alle erforderlichen APIs, die Sie zur Implementierung von [!DNL Target] Anforderungen und Ansichten verwenden. |
-| 3 | Anfrage [!DNL Target] ausführen | Wenn Sie über eine Datenschicht verfügen, sollten Sie kritische Daten laden, die gesendet werden müssen, [!DNL Target] bevor eine [!DNL Target] Anforderung ausgeführt wird. Auf diese Weise können Sie alle Daten `targetPageParams` senden, die Sie für das Targeting verwenden möchten. You must ensure that you request for execute > pageLoad as well as prefetch > views in this API call. Wenn Sie die Ansichten festgelegt haben `pageLoadEnabled` und `viewsEnabled`ausführen > pageLoad und prefetch > automatisch mit Schritt 2 ausgeführt werden; Andernfalls müssen Sie die `getOffers()` API verwenden, um diese Anforderung zu stellen. |
-| 4 | Aufruf `triggerView()` | Da die [!DNL Target] Anforderung, die Sie in Schritt 3 initiiert haben, sowohl Erlebnisse für die Ausführung von &quot;Seitenladevorgang&quot;als auch für Ansichten zurückgeben kann, stellen Sie sicher, dass `triggerView()` der Aufruf nach Rückgabe der [!DNL Target] Anforderung erfolgt, und wenden Sie die Angebot auf den Cache an. Sie müssen diesen Schritt nur einmal pro Ansicht ausführen. |
+| 3 | Anfrage [!DNL Target] ausführen | Wenn Sie über eine Datenschicht verfügen, sollten Sie kritische Daten laden, die gesendet werden müssen, [!DNL Target] bevor eine [!DNL Target] Anforderung ausgeführt wird. Auf diese Weise können Sie alle Daten `targetPageParams` senden, die Sie für das Targeting verwenden möchten. Sie müssen sicherstellen, dass Sie in diesem API-Aufruf die Anforderung &quot;execute&quot;> &quot;pageLoad&quot;sowie &quot;prefetch&quot;> &quot;Ansichten&quot;anfordern. if you have set `pageLoadEnabled` and `viewsEnabled`, then both execute > pageLoad and prefetch > views automatically happen with Step 2; otherwise, you need to use the `getOffers()` API to make this request. |
+| 4 | Aufruf `triggerView()` | Because the [!DNL Target] request you initiated in Step 3 could return experiences for both Page Load execution as well as Views, ensure that `triggerView()` is called after the [!DNL Target] request is returned and finishes applying the offers to cache. Sie müssen diesen Schritt nur einmal pro Ansicht ausführen. |
 | 5 | Rufen Sie den Beacon für die [!DNL Analytics] Ansicht auf | Dieser Beacon sendet die mit den Schritten 3 und 4 verknüpfte SDID [!DNL Analytics] zur Datenzuordnung an. |
 | 6 | Aufruf zusätzlich `triggerView({"page": false})` | Dies ist ein optionaler Schritt für SPA-Frameworks, die bestimmte Komponenten auf der Seite potenziell wiedergeben können, ohne dass eine Änderung der Ansicht stattfindet. In solchen Fällen ist es wichtig, dass Sie diese API aufrufen, um sicherzustellen, dass [!DNL Target] Erlebnisse erneut angewendet werden, nachdem das SPA-Framework die Komponenten erneut gerendert hat. You can execute this step as many times as you want to ensure that [!DNL Target] experiences persist in your SPA views. |
 
-### Reihenfolge der Vorgänge für die Änderung der SPA-Ansicht (kein vollständiges Neuladen der Seite)
+### Order of operations for SPA view change (no full page reload)
 
 | Schritt | Aktion | Details |
 | --- | --- | --- |
 | 1 | Aufruf `visitor.resetState()` | This API ensures that the SDID is re-generated for the new view as it loads. |
-| 2 | Update cache by calling the `getOffers()` API | Dies ist ein optionaler Schritt, der durchgeführt werden kann, wenn diese Änderung der Ansicht das Potenzial hat, den aktuellen Besucher für weitere [!DNL Target] Aktivitäten zu qualifizieren oder sie von Aktivitäten zu deaktivieren. An dieser Stelle können Sie auch zusätzliche Daten senden, an die Sie weitere Targeting-Funktionen [!DNL Target] aktivieren möchten. |
+| 2 | Update cache by calling the `getOffers()` API | This is an optional step to take if this view change has a potential to qualify the current visitor for more [!DNL Target] activities or disqualify them from activities. At this point, you can also choose to send additional data to [!DNL Target] for enabling further targeting capabilities. |
 | 3 | Aufruf `triggerView()` | If you have executed Step 2, then you must wait for the [!DNL Target] request and apply the offers to cache before execute this step. You must execute this step only once per view. |
-| 4 | Aufruf `triggerView()` | Wenn Sie Schritt 2 nicht ausgeführt haben, können Sie diesen Schritt ausführen, sobald Sie Schritt 1 abgeschlossen haben. Wenn Sie Schritt 2 und Schritt 3 ausgeführt haben, sollten Sie diesen Schritt überspringen. Sie müssen diesen Schritt nur einmal pro Ansicht ausführen. |
-| 5 | Rufen Sie den Beacon für die [!DNL Analytics] Ansicht auf | Dieser Beacon sendet die mit Schritt 2, 3 und 4 verknüpfte SDID [!DNL Analytics] zur Datenzuordnung an. |
-| 6 | Aufruf zusätzlich `triggerView({"page": false})` | This is an optional step for SPA frameworks that could potentially re-render certain components on the page without a view change happening. On such occasions, it is important that you invoke this API to ensure that [!DNL Target] experiences are re-applied after the SPA framework has re-rendered the components. You can execute this step as many times as you want to ensure that [!DNL Target] experiences persist in your SPA views. |
+| 4 | Aufruf `triggerView()` | Wenn Sie Schritt 2 nicht ausgeführt haben, können Sie diesen Schritt ausführen, sobald Sie Schritt 1 abgeschlossen haben. If you have executed Step 2 and Step 3, then you should skip this step. You must execute this step only once per view. |
+| 5 | Call the [!DNL Analytics] page view beacon | This beacon sends the SDID associated with Step 2, 3, and 4 to [!DNL Analytics] for data stitching. |
+| 6 | Call additional `triggerView({"page": false})` | Dies ist ein optionaler Schritt für SPA-Frameworks, die bestimmte Komponenten auf der Seite potenziell wiedergeben können, ohne dass eine Änderung der Ansicht stattfindet. In solchen Fällen ist es wichtig, dass Sie diese API aufrufen, um sicherzustellen, dass [!DNL Target] Erlebnisse erneut angewendet werden, nachdem das SPA-Framework die Komponenten erneut gerendert hat. Sie können diesen Schritt so oft ausführen, wie Sie möchten, um sicherzustellen, dass [!DNL Target] Erlebnisse in Ihren SPA-Ansichten bestehen bleiben. |
 
 ## Schulungsvideos
 
 Weitere Informationen dazu finden Sie in den folgenden Videos:
 
-### Funktionsweise von at.js 2.x ![Overview badge](/help/assets/overview.png)
+### Funktionsweise von at.js 2.x ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+Weitere Informationen finden Sie unter [Die Funktionsweise](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) von at.js 2.x.
 
-### Implement at.js 2.x in a SPA ![Tutorial badge](/help/assets/tutorial.png)
+### &quot;at.js 2.x&quot;in ein SPA- ![Tutorial-Abzeichen implementieren](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
