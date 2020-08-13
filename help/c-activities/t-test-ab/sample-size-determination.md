@@ -2,10 +2,10 @@
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate
 description: Für einen erfolgreichen A/B-Test ist eine ausreichende Anzahl von Besuchern erforderlich (Stichprobengröße), um die Konversionsrate zu steigern. Aber wie lässt sich bestimmen, wie lange ein A/B-Test ausgeführt werden muss? Dieser Artikel enthält Informationen hinsichtlich Aktivitäten zur automatischen Zuordnung sowie den Target-Stichprobengrößenrechner, mit dem Sie sicherstellen können, dass Ihre Aktivität ausreichend Besucher umfasst, um Ihre Ziele zu erreichen.
 title: Wie lange sollten A/B-Tests laufen?
-feature: null
+feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '3108'
 ht-degree: 98%
@@ -35,7 +35,7 @@ Target bietet Tools, mit denen Sie sicherstellen können, dass Ihre Aktivität e
 
    Weitere Informationen finden Sie unter [Automatische Zuordnung](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-* **Target-Stichprobengrößenrechner:** Wenn Sie statt der automatischen Zuordnung manuelle A/B-Tests durchführen wollen, können Sie mit dem Target-Stichprobengrößenrechner die für einen erfolgreichen Test erforderliche Stichprobengröße bestimmen. Ein manueller A/B-Test ist ein fester Horizonttest, daher ist der Rechner äußerst hilfreich. Using the calculator for an Auto-Allocate activity is optional because Auto-Allocate will declare a winner for you. The calculator gives you a rough estimate of the sample size needed. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
+* **Target-Stichprobengrößenrechner:** Wenn Sie statt der automatischen Zuordnung manuelle A/B-Tests durchführen wollen, können Sie mit dem Target-Stichprobengrößenrechner die für einen erfolgreichen Test erforderliche Stichprobengröße bestimmen. Ein manueller A/B-Test ist ein fester Horizonttest, daher ist der Rechner äußerst hilfreich. Die Verwendung des Rechners für eine Aktivität mit automatisierter Zuordnung ist optional, da die automatisierte Zuordnung einen Gewinner für Sie festlegt. Der Rechner gibt Ihnen eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
 ## Adobe Target-Stichprobengrößenrechner  {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
