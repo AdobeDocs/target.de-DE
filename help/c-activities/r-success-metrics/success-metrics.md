@@ -2,10 +2,10 @@
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings
 description: In Adobe Target sind Erfolgsmetriken Parameter, mit denen der Erfolg einer Aktivität gemessen wird. Erfolgsmetriken umfassen die wichtigsten betrieblichen Messwerte, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können.
 title: Erfolgsmetriken in Adobe Target
-feature: null
+feature: success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 53%
@@ -23,7 +23,7 @@ So können Sie beispielsweise feststellen, ob ein neues Angebot oder das Hinzuf�
 
 Erfolgsmetriken [!DNL Target]werden vorkonfiguriert und bieten optimale Optionen für Berichte- und Verfolgungszwecke.
 
-By default, conversion events are set to &quot;[!UICONTROL Increment count &amp; keep user in activity].&quot; Konversionen werden nur einmal gezählt, keine wiederholten Konvertierungen gezählt und der Besucher sieht immer den Inhalt der Aktivität.
+Standardmäßig sind die Ereignis für die Konvertierung auf &quot;Anzahl[!UICONTROL erhöhen und Benutzer in Aktivität]belassen&quot;eingestellt. Konversionen werden nur einmal gezählt, keine wiederholten Konvertierungen gezählt und der Besucher sieht immer den Inhalt der Aktivität.
 
 Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep user in activity]&quot; log order details only for the first order made by the same visitor. All subsequent orders increase conversion count, but will not add revenue to RPV/AOV/Sales, and will not be included in the [!UICONTROL Order Details] report.
 
@@ -35,7 +35,7 @@ Es sind folgende Erfolgsmetriken verfügbar:
 
 | Erfolgsmetrik | Messungsansatz | Definition |
 |--- |--- |--- |
-| Konversion | Konversionsbasiert | Die Umrechnung erfolgt, wenn ein Besucher eine von Ihnen definierte Aktion auf Ihrer Site ausführt, z. B. <ul><li>Klicken auf eine Schaltfläche</li><li>Seite angezeigt</li><li>Umfrage abgeschlossen</li><li>Einkauf vorgenommen</li></ul>A conversion can be counted once per visitor or each time any visitor completes a conversion. |
+| Konversion | Konversionsbasiert | Die Umrechnung erfolgt, wenn ein Besucher eine von Ihnen definierte Aktion auf Ihrer Site ausführt, z. B. <ul><li>Clicked a button</li><li>Seite angezeigt</li><li>Umfrage abgeschlossen</li><li>Einkauf vorgenommen</li></ul>Eine Konversion kann einmal pro Besucher oder jedes Mal, wenn ein Besucher eine Konversion abschließt, gezählt werden. |
 | Umsatz | Konversionsbasiert | Durch den Besuch generierter Umsatz. Sie können aus folgenden Umsatzmetriken wählen:<ul><li>Umsatz pro Besucher (RPV)</li><li>Durchschnittlicher Bestellwert (AOV)</li><li>Gesamtverkäufe</li><li>Bestellungen</li></ul> |
 | Seitenansichten | Interaktionsbasiert | Jeder eindeutige Besuch wird als Konversion gezählt. |
 | Benutzerspezifisches Ergebnis | Interaktionsbasiert | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
@@ -43,7 +43,7 @@ Es sind folgende Erfolgsmetriken verfügbar:
 
 Bei interaktionsbasierten Metriken müssen sich Besucher (im Gegensatz zu konversions- oder umsatzbasierten Metriken) erneut für die Aktivität qualifizieren, um den Zähler für diese Sitzung zu erhöhen. Die zugehörige Metrik steigt nach erneuter Qualifikation und endet mit dem Ende der jeweiligen Besuchersitzung. Sitzungen enden nach einer Inaktivität von 30 Minuten. Daher werden die Ergebnisse beim Testen nicht sofort angezeigt. jedoch sind alle Ergebnisse dieser Sitzung innerhalb weniger Minuten nach dem Ende der Sitzung verfügbar.
 
-## Benutzerspezifische Erfolgsmetriken
+## Custom success metrics
 
 Sie können auch benutzerdefinierte Erfolgsmetriken erstellen.
 
@@ -59,7 +59,7 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 
 Mit den erweiterten Einstellungen können Sie verwalten, wie Sie Erfolg messen. Die Optionen umfassen das Zählen der Metrik pro Anzeige oder einmal pro Besucher sowie die Wahl, ob Benutzer in der Aktivität bleiben können oder entfernt werden.
 
-Um die [!UICONTROL erweiterten Einstellungen] aufzurufen, klicken Sie auf die **[!UICONTROL vertikalen Auslassungspunkte]** > **[!UICONTROL Erweiterte Einstellungen]**.
+To access the [!UICONTROL Advanced Settings] options, click the **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]**.
 
 ![Menü „Erweiterte Einstellungen“](/help/c-activities/r-success-metrics/assets/advanced-settings.png)
 
@@ -89,11 +89,11 @@ Verwenden Sie die erweiterten Einstellungen, um festzulegen, was geschehen soll,
 |--- |--- |
 | [!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] | Angeben, wie die Anzahl erhöht wird:<ul><li>Einmal pro Teilnehmer  (Standard)</li><li>Bei jeder Anzeige, einschließlich Seitenaktualisierungen</li><li>Bei jeder Anzeige</li></ul> |
 | [!UICONTROL Anzahl erhöhen, Benutzer freigeben und Wiedereintritt zulassen] | Auswahl des Erlebnisses, das der Besucher bei erneuter Teilnahme an der Aktivität sieht:<ul><li>Das gleiche Erlebnis  (Standard)</li><li>Ein zufällig ausgewähltes Erlebnis</li><li>Ein noch nicht gesehenes Erlebnis</li></ul> |
-| [!UICONTROL Anzahl erhöhen, Benutzer freigeben und an Wiedereintritt hindern] | Festlegen, was der Benutzer anstelle des Aktivitätsinhalts sieht:<ul><li>Das gleiche Erlebnis, ohne Tracking  (Standard)</li><li>Den Standardinhalt oder den Inhalt einer anderen Aktivität</li></ul> |
+| [!UICONTROL Increment Count, Release User, &amp; Bar from Reentry] | Festlegen, was der Benutzer anstelle des Aktivitätsinhalts sieht:<ul><li>Das gleiche Erlebnis, ohne Tracking  (Standard)</li><li>Den Standardinhalt oder den Inhalt einer anderen Aktivität</li></ul> |
 
 >[!NOTE]
 >
->Wenn Sie eine Metrik auf eine der Optionen für die [!UICONTROL Anzahl] erhöhen (siehe oben) konfigurieren, wird die Metrikanzahl nur einmal pro Teilnehmer auf der Ebene des Besuchers korrekt inkrementiert. Die Metrikanzahl wird für jede neue Sitzung auf Besuchsebene einmal pro Besuch erhöht.
+>If you configure a metric to one of the [!UICONTROL Increment Count] options (mentioned above), the metric count correctly increments once per entrant at the visitor level only. The metric count increments once per visit for every new session at the visit level.
 
 ## Schulungsvideo: Aktivitätsmetriken
 
