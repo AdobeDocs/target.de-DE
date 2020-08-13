@@ -1,13 +1,13 @@
 ---
 keywords: reports;download reports;csv;success metrics;order details
 description: Laden Sie Daten im .csv-Format herunter, um sie schnell in Excel, Access oder andere Programm zur Analyse von Daten mit Adobe Target zu importieren.
-title: Herunterladen von Daten in einer CSV-Datei mit Adobe Target
-feature: null
+title: Downloading data in a CSV file using Adobe Target
+feature: reports
 subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 83%
@@ -31,7 +31,7 @@ So laden Sie Daten als CSV-Datei herunter:
    * [!UICONTROL Berichte in CSV exportieren]
    * [!UICONTROL Bestelldetails als CSV exportieren]
 
-   ![Download-Optionen](/help/c-reports/assets/download-options.png)
+   ![Download options](/help/c-reports/assets/download-options.png)
 
 ## Exportieren von Berichten in das CSV-Format {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
