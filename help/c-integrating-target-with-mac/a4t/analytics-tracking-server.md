@@ -2,10 +2,10 @@
 keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reporting source
 description: Sollten Sie eine ältere Version von „at.js“ oder „mbox.js“ verwenden, müssen Sie einen Trackingserver für Aktivitäten angeben, bei denen Analytics for Target (A4T) zum Einsatz kommt.
 title: Verwenden eines Analytics-Trackingservers
-feature: null
+feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 39%
@@ -37,7 +37,7 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität wie
    * (für Implementierungen ohne RDC)
    * (für RDC-Implementierung)
 
-   *Firma* steht für den Namen der [!DNL Analytics] Firma, *Metriken* sind ein Beispiel für einen CNAME-Wert und *d1* ist ein Beispiel für ein [!DNL Analytics] Rechenzentrum.
+   *Company* represents the [!DNL Analytics] company name, *metrics* is an example of a CNAME value, and *d1* is an example of an [!DNL Analytics] data center.
 1. Kopieren Sie den Inhalt des Felds vollständig.
 1. Fügen Sie die Daten im Abschnitt zu [!UICONTROL Berichtseinstellungen] im Bildschirm „[!UICONTROL Ziele und Einstellungen]**[!UICONTROL “ in das Feld Trackingserver]** ein.
 
