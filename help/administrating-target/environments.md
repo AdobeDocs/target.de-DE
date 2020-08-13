@@ -2,11 +2,11 @@
 keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung.
 title: Umgebung
-feature: null
+feature: hosts and environments
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 67%
@@ -14,7 +14,7 @@ ht-degree: 67%
 ---
 
 
-# Umgebung
+# Environments
 
 Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung.
 
@@ -24,13 +24,13 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When a [!DNL Target] request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Über die Hostverwaltung kann außerdem problemlos für die Qualität neuer Aktivitäten und Inhalte in der Testumgebung, Staging-Umgebung und Entwicklungsumgebung vor der Aktivierung der Aktivitäten gesorgt werden.
 
-Um Umgebung zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Umgebung]**.
+To manage environments, click **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 
-![Liste der Umgebung](/help/administrating-target/assets/environments.png)
+![Environments list](/help/administrating-target/assets/environments.png)
 
-## hinzufügen einer Umgebung {#section_32097D0993724DF3A202D164D3F18674}
+## Add an environment {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Klicken Sie in der Liste [!UICONTROL Umgebung] auf **[!UICONTROL Hinzufügen Umgebung]**.
+1. From the [!UICONTROL Environments] list, click **[!UICONTROL Add Environment]**.
 1. Geben Sie einen beschreibenden Namen für die Umgebung an.
 1. Legen Sie den aktiven Modus für die Umgebung fest: [!UICONTROL Aktive Aktivitäten] oder [!UICONTROL aktive und inaktive Aktivitäten].
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
