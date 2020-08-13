@@ -2,11 +2,11 @@
 keywords: at.js releases;at.js versions
 description: Details zu Änderungen in den verschiedenen Versionen von „at.js“.
 title: „at.js“-Versionsdetails
-feature: null
+feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3978'
 ht-degree: 86%
@@ -20,23 +20,23 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 
 >[!IMPORTANT]
 >
->The Target team supports both at.js 1.*x* und at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version.
+>Das Zielgruppe-Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 >
->[Für die Aktualisierung von at.js wird Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) empfohlen. Extension-Entwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Updates werden in neue Versionen einer Erweiterung verpackt und als Upgrades im [!DNL Launch] Katalog verfügbar gemacht. For more information, see [Extension Upgrade](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) in the *Experience Platform Launch User Guide*.
+>[Für die Aktualisierung von at.js wird Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) empfohlen. Extension-Entwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Updates werden in neue Versionen einer Erweiterung verpackt und als Upgrades im [!DNL Launch] Katalog verfügbar gemacht. Weitere Informationen finden Sie unter [Extension-Aktualisierung](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) im *Experience Platform Launch-Benutzerhandbuch*.
 
-## at.js 2.3.2 (July 24, 2020)
+## at.js 2.3.2 (24. Juli 2020)
 
 Diese Version von at.js ist ein Maintenance Release und beinhaltet die folgende Fehlerbehebung:
 
 * Es wurde ein Fehler behoben, der auftrat, wenn ein Skript oder Code dem Fenster oder Dokument die Standardeigenschaft hinzufügt.
 
-## at.js 1.8.2 (June 15, 2020)
+## at.js 1.8.2 (15. Juni 2020)
 
 Diese Version von at.js ist ein Maintenance Release und beinhaltet die folgende Fehlerbehebung:
 
-* Fixed an issue when using CNAME and edge override, at.js 1.*x* erstellt die Serverdomäne möglicherweise falsch, was dazu führte, dass die [!DNL Target] Anforderung fehlschlug. (TNT-35064)
+* Es wurde ein Problem bei der Verwendung von CNAME und Edge Override von at.js 1 behoben.*x* might incorrectly create the server domain, which resulted in the [!DNL Target] request failing. (TNT-35064)
 
-## &quot;at.js&quot;Version 2.3.1 (15. Juni 2020)
+## at.js 2.3.1 releases (June 15, 2020)
 
 Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
@@ -48,15 +48,15 @@ Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterunge
 
 Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
-* Die Einstellung der Content Security Policy erfolgt nicht bei SKRIPT- und STYLE-Tags, die beim Anwenden der bereitgestellten Zielgruppe-Angebot an das Seiten-DOM angehängt werden. Kunden können festlegen `targetGlobalSettings.cspScriptNonce` und `targetGlobalSettings.cspStyleNonce` so at.js die entsprechenden Tags für Skript- und Stil auf angewendeten Angeboten festlegen. See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
-* Es wurde ein Problem behoben, das beim Kompilieren von &quot;at.js&quot;mit dem Google Closure-Compiler für die Bereitstellung von Google Tag Manager auftrat.
-* Das at.js-Cookie wurde von `check` in `at_check` umbenannt, um Kollisionen mit den Implementierungen von Kunden zu vermeiden.
+* Support setting Content Security Policy nonces on SCRIPT and STYLE tags appended to the page DOM when applying delivered Target offers. Customers can set `targetGlobalSettings.cspScriptNonce` and `targetGlobalSettings.cspStyleNonce` so that at.js can set the corresponding script and style tag nonces on applied offers. See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
+* Fixed an issue when compiling at.js with the Google Closure compiler for Google Tag Manager deployment.
+* Renamed the at.js check cookie from `check` to `at_check` in order to avoid collisions with customers&#39; implementations.
 
 ## at.js-Version 1.8.1 (25. März 2020)
 
 Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
-* Das at.js-Cookie wurde von `check` in `at_check` umbenannt, um Kollisionen mit den Implementierungen von Kunden zu vermeiden.
+* Renamed the at.js check cookie from `check` to `at_check` in order to avoid collisions with customers&#39; implementations.
 
 ## at.js version 2.2.0 (October 10, 2019)
 
@@ -64,13 +64,13 @@ Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen
 
 * Fixed an issue in which click tracking did not report conversions in Analytics for Target (A4T) when Adobe Analytics code was not present on page elements.
 * Improved performance when using both Experience Cloud ID Service (ECID) v4.4 and at.js 2.2 on your web pages.
-* Zuvor führte die ECID zwei Sperraufrufe durch, bevor at.js Erlebnisse abrufen konnte. Dies wurde auf einen einzigen Aufruf reduziert, wodurch die Leistung deutlich verbessert wird.
+* Zuvor führte die ECID zwei Sperraufrufe durch, bevor at.js Erlebnisse abrufen konnte. This has been reduced to a single call, which significantly improves performance.
 
    >[!NOTE]
    >
-   >Aktualisieren Sie Ihre ECID Launch Extension auf Version 4.4, um diese Leistungsverbesserung nutzen zu können.
+   >Upgrade your ECID Launch Extension to v4.4 to take advantage of this performance enhancement.
 
-* at.js Version 2.2 bietet außerdem eine neue Einstellung namens `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration der Zielgruppe implementiert ist. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client- als auch Versand-API oder ein Zielgruppe-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js version 2.2 also provides a new setting called `serverState`. This setting can be used to optimize page performance when a hybrid integration of Target is implemented. Hybrid integration means that you are using both at.js v2.2+ on the client-side and the delivery API or a Target SDK on the server-side to deliver experiences. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js Version 1.8.0 (10. Oktober 2019)
 
