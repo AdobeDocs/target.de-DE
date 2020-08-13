@@ -2,11 +2,11 @@
 keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
 description: Informationen über die Funktion adobe.target.getOffer(options) für die JavaScript-Bibliothek von Adobe Target at.js.
 title: Informationen über die Funktion adobe.target.getOffer(options) für die JavaScript-Bibliothek von Adobe Target at.js.
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 97%
@@ -26,7 +26,7 @@ Verwenden Sie sie mit `adobe.target.applyOffer()`, um die Antwort zu verarbeiten
 | params | Objekt | Nein | Mbox-Parameter Ein Objekt aus Schlüssel-Wert-Paaren mit der folgenden Struktur:<br>`{ "param1": "value1", "param2": "value2"}` |
 | success | Funktion | Ja | Rückruf wird ausgeführt, wenn eine Antwort vom Server eingegangen ist. Die Rückruffunktion „success“ erhält einen einzelnen Parameter, der ein Array von Angebotsobjekten enthält. Hier ein Beispiel für ein Rückruffunktion bei einem Erfolg:<br>`function handleSuccess(response){......}`<br>Weitere Informationen siehe Antworten unten. |
 | error | Funktion | Ja | Auszuführender Rückruf bei Eingang eines Fehlers Es gibt einige Fälle, die als fehlerhaft angesehen werden:<ul><li>Der HTTP-Status-Code weicht von „200 OK“ ab.</li><li>Die Antwort kann nicht analysiert werden. Dies kann zum Beispiel bei schlecht programmiertem JSON-Code oder HTML- statt JSON-Code auftreten.</li><li>Die Antwort enthält den Schlüssel „error“. Dies kann zum Beispiel der Fall sein, wenn eine Ausnahme auf dem Edgeserver auftritt und eine Anforderung nicht richtig verarbeitet werden konnte. Ein Fehler tritt auch dann auf, wenn eine Mbox blockiert ist und dafür keine Inhalte abgerufen werden konnten und so weiter. Die Rückruffunktion „error“ erhält zwei Parameter: „status“ und „error“. Im Folgenden finden Sie ein Beispiel für einen „error“-Rückruf:  `function handleError(status, error){......}`</li></ul>Details finden Sie unten unter „Fehlermeldungen“. |
-| Zeitüberschreitung | Nummer | Nein | Zeitüberschreitung in Millisekunden Wird kein Wert festgelegt, kommt der Standardwert für die Zeitüberschreitung in at.js zum Einsatz.<br>The default timeout can be set from the [!DNL Target] UI under [!UICONTROL Administration > Implementation]. |
+| Zeitüberschreitung | Nummer | Nein | Zeitüberschreitung in Millisekunden Wird kein Wert festgelegt, kommt der Standardwert für die Zeitüberschreitung in at.js zum Einsatz.<br>Der Standard-Timeout kann in der [!DNL Target] Benutzeroberfläche unter [!UICONTROL Administration > Implementierung]eingestellt werden. |
 
 ## Beispiele {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
 
