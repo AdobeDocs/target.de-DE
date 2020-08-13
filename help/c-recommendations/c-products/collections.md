@@ -2,10 +2,10 @@
 keywords: collection;Targeting
 description: Eine Sammlung ist ein Satz von Produkten oder Artikeln in Adobe Target, die für die Empfehlung infrage kommen.
 title: Sammlungen in Adobe Target
-feature: null
+feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 99%
@@ -75,7 +75,7 @@ Nachdem Sie eine Suche mit &quot;id > contains&quot; erstellt haben, können Sie
 >
 >Bei der Funktion „Erweiterte Suche“ wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die zum Zeitpunkt der Auslieferung zurückgegebenen Produkte basieren jedoch auf der Suche mit Unterscheidung zwischen Groß- und Kleinschreibung. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Kollektionen auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Katalog mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszugeben, werden nur Produkte mit dem Zusatz „urlaub“ ausgegeben. Produkte, die „Urlaub“ enthalten, werden nicht angezeigt.
 
-## Schulungsvideo: Sammlungen und Ausschlüsse in Recommendations erstellen (07:05) ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Sammlungen und Ausschlüsse in Recommendations erstellen (07:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
