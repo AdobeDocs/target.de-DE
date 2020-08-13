@@ -2,12 +2,12 @@
 keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Adobe Target bietet Prozesse und Einstellungen, die Ihnen die Verwendung von Target unter Einhaltung der geltenden Datenschutzgesetze ermöglichen.
 title: Datenschutz
-feature: null
+feature: privacy and security
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 78%
@@ -23,7 +23,7 @@ Adobe Target bietet Prozesse und Einstellungen, die Ihnen die Verwendung von Tar
 
 Die IP-Adresse eines Besuchers Ihrer Website wird an das Adobe-Datenverarbeitungscenter übergeben. Abhängig von der Netzwerkkonfiguration des Besuchers entspricht die IP-Adresse nicht unbedingt der IP-Adresse des Computers des Besuchers. Bei der IP-Adresse kann es sich z. B. um die externe IP-Adresse einer Network Address Translation-(NAT-)Firewall, eines HTTP-Proxys oder eines Internet-Gateways handeln. Target speichert keine IP-Adressen oder personenbezogenen Informationen des Benutzers. IP-Adressen werden von Target nur während der Dauer der Sitzung verwendet (im Arbeitsspeicher, nie persistent).
 
-## Ersetzen des letzten Oktetts von IP-Adressen {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## Replacement of last octet of IP addresses {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
 Adobe hat eine neue, in das Design integrierte Datenschutzeinstellung entwickelt, die durch Adobe Client Care für Adobe Target aktiviert werden kann. Wenn diese Einstellung aktiviert ist, wird das letzte 8-Bit-Zeichen (das Ende) der IP-Adresse ausgeblendet, sobald die IP-Adresse durch Adobe erfasst wird. Diese Anonymisierung wird vor jeder weiteren Verarbeitung der IP-Adresse durchgeführt, auch vor einer optionalen Geo-Suche für die IP-Adresse.
 
@@ -31,15 +31,15 @@ Wenn diese Funktion aktiviert ist, wird die IP-Adresse so stark anonymisiert, da
 
 Die folgenden Einstellungen sind verfügbar:
 
-* Keine Verschleierung: Zielgruppe verdeckt keinen Teil der IP-Adresse.
-* Letztes Oktett: Zielgruppe verbirgt das letzte Oktett der IP-Adresse.
+* No obfuscation: Target does not hide any part of the IP address.
+* Last octet: Target hides the last octet of the IP address.
 * Vollständige IP: Zielgruppe blendet die gesamte IP-Adresse aus.
 
-Zielgruppe empfängt die vollständige IP-Adresse und verschleiert sie (sofern auf Letztes Oktett oder Vollständige IP festgelegt) wie angegeben. Zielgruppe speichert dann die verschleierte IP-Adresse während der Sitzungsdauer im Speicher.
+Target receives the full IP address and obfuscates it (if set to Last octet or Full IP) as specified. Target then holds the obfuscated IP address in memory for the duration of the session.
 
 >[!NOTE]
 >
->[Wenden Sie sich an den Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) der Adobe, um zu ermitteln, welche Einstellung Sie aktuell verwenden, oder um die IP-Verschleierungsfunktion zu aktivieren.
+>[Contact Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to determine which setting you are currently using or to enable the IP obfuscation feature.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
