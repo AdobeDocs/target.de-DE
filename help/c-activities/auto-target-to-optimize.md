@@ -1,11 +1,11 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: Automatisches Targeting
-feature: null
+feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '3610'
 ht-degree: 85%
@@ -231,11 +231,11 @@ Weitere Informationen finden Sie unter [Verwenden eines bestimmten Erlebnisses a
 
 Es wird nicht empfohlen, die Zielmetrik mitten in einer Aktivität zu ändern. Obwohl die Zielmetrik während einer Aktivität mithilfe der [!DNL Target] Benutzeroberfläche geändert werden kann, sollten Sie immer eine neue Aktivität Beginn haben. Wir garantieren nicht, was passiert, wenn Sie die Sollmetrik in einer Aktivität nach der Ausführung ändern.
 
-Diese Empfehlung gilt für [!UICONTROL Aktivitäten mit automatisierter Zuordnung], [!UICONTROL automatischer Zielgruppe]und [!UICONTROL Automated Personalization] , die entweder [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte verwenden.
+This recommendation applies to [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], and [!UICONTROL Automated Personalization] activities that use either [!DNL Target] or [!DNL Analytics] (A4T) as the reporting source.
 
 ### Can I use the Reset Report Data option while running an Auto-Target activity?
 
-Using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Target] activities is not suggested. Obwohl die Daten des sichtbaren Berichte entfernt werden, entfernt diese Option nicht alle Schulungsdatensätze aus dem [!UICONTROL Modell der automatischen Zielgruppe] . Instead of using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Target] activities, create a new activity and de-activate the original activity. (Note: This guidance also applies to [!UICONTROL Auto-Allocate] and [!UICONTROL Automated Personalization] activities.)
+Using the [!UICONTROL Reset Report Data] option for [!UICONTROL Auto-Target] activities is not suggested. Although it removes the visible reporting data, this option does not remove all training records from the [!UICONTROL Auto-Target] model. Anstatt die Option Berichtsdaten [!UICONTROL zurücksetzen] für Aktivitäten mit [!UICONTROL automatischer Zielgruppe] zu verwenden, erstellen Sie eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität. (Note: This guidance also applies to [!UICONTROL Auto-Allocate] and [!UICONTROL Automated Personalization] activities.)
 
 ## Fehlerbehebung für [!UICONTROL Automatisches Targeting] {#section_23995AB813F24525AF294D20A20875C8}
 
