@@ -2,11 +2,11 @@
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: Informationen zu den erforderlichen Aufgaben für das Hinzufügen von Benutzern zur Target-Implementierung; Erstellen von Arbeitsbereichen, Benutzergruppen und Eigenschaften; Aktualisieren der Target-Implementierung, um den Parameter „at_property“ hinzuzufügen; Festlegen von Rollen und Berechtigungen.
 title: Konfigurieren von Unternehmensberechtigungen
-feature: null
+feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 69%
@@ -35,7 +35,7 @@ In der folgenden Tabelle sind alle Aufgaben aufgeführt, die Sie zur Erstellung 
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. In Adobe Target, click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Assign Properties to Workspaces]**.
+1. Klicken Sie in Adobe Target auf **[!UICONTROL Administration]** > **[!UICONTROL Eigenschaften]** > Eigenschaften zu Arbeitsbereichen **[!UICONTROL zuweisen]**.
 
    Oder
 
@@ -114,11 +114,11 @@ Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail und API/Sonstige) zug
 
    Füllen Sie die Felder aus:
 
-   * **Property Name (Required):** Specify a descriptive name for the property.
+   * **Eigenschaftsname (erforderlich):** Geben Sie einen beschreibenden Namen für die Eigenschaft an.
    * **Beschreibung:** Geben Sie eine optionale Beschreibung für die Eigenschaft an.
    * **Kanal:** Wählen Sie den gewünschten Kanal für die Eigenschaft aus: Web, mobile App, E-Mail oder Sonstige/API (beispielsweise für Set-Top-Box oder PlayStation-Konsole).
 
-1. Click **[!UICONTROL Copy]** to copy the code to your clipboard that you&#39;ll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. Klicken Sie auf **[!UICONTROL Kopieren]** , um den Code in die Zwischenablage zu kopieren, den Sie bei Ausführung der Schritte in [5 verwenden werden: Aktualisieren Sie Ihre Implementierung, um den Parameter](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property einzuschließen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
 
 >[!NOTE]
@@ -176,7 +176,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    ![Arbeitsbereich](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. Click the name of the desired profile (for example, Default Workspace).
+1. Klicken Sie auf den Namen des gewünschten Profils (z. B. Standardarbeitsbereich).
 
    ![Standardarbeitsbereich](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
@@ -195,7 +195,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
    | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
    | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
    | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-   | Publisher | Similar to the Observer role (can view activities, but cannot create or edit them). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
+   | Publisher | Ähnlich wie bei der Rolle &quot;Beobachter&quot;(Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
 
    Weitere Informationen finden Sie unter [Verwalten von Produktberechtigungen und Rollen in der Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) im *Enterprise-Benutzerhandbuch*.
 
@@ -205,7 +205,7 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 >[!NOTE]
 >
->The [!DNL Target] [!UICONTROL Administration] menu UI (formerly [!UICONTROL Setup]) has been redesigned to provide improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. Die Informationen in den folgenden Videos sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
+>Die Benutzeroberfläche des [!DNL Target] Administrationsmenüs [!UICONTROL (früher] Setup ) wurde überarbeitet, um die Leistung zu verbessern, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu verkürzen und die Benutzerfreundlichkeit im gesamten Produkt zu verbessern. Die Informationen in den folgenden Videos sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
 
 ### Konfigurieren von Zielgruppe Workspaces (6:55) - ![Tutorialzeichen](/help/assets/tutorial.png)
 
