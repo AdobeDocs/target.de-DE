@@ -2,10 +2,10 @@
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
 description: Unter bestimmten Umständen treten im Enhanced Experience Composer (EEC) manchmal Anzeigeprobleme auf.
 title: Beheben von Problemen mit Enhanced Experience Composer
-feature: null
+feature: vec
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
@@ -41,7 +41,7 @@ Nachstehend sind die Ursachen für diese Fehlermeldung und die Lösungen zum Kor
 
    **Lösung:** Zulassungsliste der oben aufgeführten IP-Adressen.
 
-* **Issue:** The IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **Problem:** Die IP-Adressen werden auf die Zulassungsliste gesetzt, aber Ihre Website unterstützt keine TLS Version 1.2. Zielgruppe verwendet derzeit die Standardkonfiguration 1.2. Vor der Zielgruppe 18.4.1 (25. April 2018) wurde TLS 1.0 von der Standardkonfiguration unterstützt. Weitere Informationen finden Sie unter Änderungen bei der Verschlüsselung von [TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
    **Lösung:** Siehe die folgende Frage (Der Enhanced Visual Experience Composer wird auf sicheren Seiten auf meiner Website, für die TLS 1.2 verwendet wird, nicht geladen).
 
