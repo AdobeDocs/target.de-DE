@@ -2,11 +2,11 @@
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
 description: Sie können Besucher auf einer bestimmten Seite Ihrer Site Zielgruppe werden.
 title: Site-Seiten in Adobe Target
-feature: null
+feature: audiences
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 43%
@@ -24,7 +24,7 @@ Sie können Besucher auf einer bestimmten Seite Ihrer Site Zielgruppe werden.
 
    ![Seiten der Site als Zielgruppe](assets/target_site_pages.png)
 
-1. Klicken Sie auf die Dropdown-Liste **[!UICONTROL Auswählen]** , wählen Sie eine der folgenden Optionen und konfigurieren Sie dann die Regel wie gewünscht.
+1. Click the **[!UICONTROL Select]** drop-down list, select one of the following options, then configure the rule as desired.
 
    Die verfügbaren Optionen und Bewertungsfaktoren in den nachfolgenden Dropdown-Listen in der Regel variieren je nach ausgewählter Option. Die folgende Abbildung zeigt die verfügbaren Optionen, wenn Sie &quot; [!UICONTROL Aktuelle Seite]&quot;auswählen:
 
@@ -69,7 +69,7 @@ Sie können Besucher auf einer bestimmten Seite Ihrer Site Zielgruppe werden.
       >
       >Das `landing.url`-Objekt wird bei einer Änderung der Subdomäne oder einer direkten URL-Ersetzung zurückgesetzt.
 
-   * **HTTP-Kopfzeile:** Mit dieser Option werden die Informationen im HTTP-Header der Anforderung &quot;Zielgruppe&quot;ausgewertet. For example, if the HTTP header contains language information, you could create a rule that contains the `Accept-Language: es` condition to target visitors who access the page in Spanish.
+   * **HTTP-Kopfzeile:** Mit dieser Option werden die Informationen im HTTP-Header der Anforderung &quot;Zielgruppe&quot;ausgewertet. Wenn der HTTP-Header beispielsweise Sprachinformationen enthält, können Sie eine Regel erstellen, die die `Accept-Language: es` Bedingung für Besucher der Zielgruppe enthält, die auf Spanisch zugreifen.
 
       Die folgenden Optionen stehen in der zweiten Dropdown-Liste zur Verfügung, wenn Sie diese Option wählen:
 
@@ -84,7 +84,7 @@ Sie können Besucher auf einer bestimmten Seite Ihrer Site Zielgruppe werden.
       * Content-MDS
       * Content-Type
       * Datum
-      * Expect
+      * Erwarten
       * Von
       * Host
       * If-Match
@@ -92,7 +92,7 @@ Sie können Besucher auf einer bestimmten Seite Ihrer Site Zielgruppe werden.
       * If-none-match
       * If-Range
       * If-Unchanged-Since
-      * Max. Vorwärts
+      * Max-Forwards
       * Pragma
       * Proxy-Autorisierung
       * Bereich
@@ -103,7 +103,7 @@ Sie können Besucher auf einer bestimmten Seite Ihrer Site Zielgruppe werden.
       * Via
       * Warnung
 
-   Wenn Sie &quot; [!UICONTROL Aktuelle Seite]&quot;, &quot; [!UICONTROL Vorherige Seite]&quot;oder &quot; [!UICONTROL Landingpage]&quot;auswählen, stehen die Optionen &quot; [!UICONTROL Domäne] &quot;und &quot; [!UICONTROL Abfrage] &quot;zur Verfügung. Consider the following when choosing these options:
+   If you chose [!UICONTROL Current Page], [!UICONTROL Previous Page], or [!UICONTROL Landing Page], the [!UICONTROL Domain] and [!UICONTROL Query] options are available. Consider the following when choosing these options:
 
    * **Domäne:** Die vollständige Domäne der Seite Für das Festlegen einer Domäne wird die Versendung von „contains“ empfohlen. Beispiel: „Domain equals facebook.com“ wird `m.facebook.com` oder `www.facebook.com` nicht akzeptieren. „Domain contains facebook.com“ hingegen erfasst alle Varianten von „facebook.com“.
    * **Abfrage:** Der Inhalt der URL nach dem ersten Fragezeichen (?) 
@@ -122,7 +122,7 @@ Sie können Website-Zielgruppen auch mit einem eigenen „benutzerdefinierten Ab
 Verwenden Sie:
 
 * Abfrageparameter, wenn die vom Benutzer ausgewählte Regel „Aktuelle Seite“, „Landingpage“ oder „Vorherige Seite“ lautet.
-* Kopfzeile, wenn die vom Benutzer ausgewählte Regel ein HTTP-Header ist.
+* Header if the rule selected by the user is an HTTP header.
 
 Siehe Abbildung unten:
 
@@ -130,19 +130,19 @@ Siehe Abbildung unten:
 
 ## Fehlerbehebung {#ts}
 
-* Damit Audiencen der Landingpage ordnungsgemäß funktionieren, müssen für Anforderungen die `mboxReferrer` Parametersätze festgelegt sein (für die Versand-API der `context.address.referringUrl` Parameter), die die JavaScript-Bibliothek &quot;at.js&quot;mithilfe des `document.referrer` Attributs von der Seite nimmt. Dieses `HTMLDocument` Attribut gibt den URI der Seite zurück, von der der Benutzer navigiert hat. The value of this attribute is an empty string when the user navigates to the page directly (not through a link, but, for example, via a bookmark).
+* For landing page audiences to function properly, requests must have the `mboxReferrer` parameter set (for the Delivery API the `context.address.referringUrl` parameter) that the at.js JavaScript library takes from the page using the `document.referrer` attribute. This `HTMLDocument` attribute returns the URI of the page the user has navigated from. The value of this attribute is an empty string when the user navigates to the page directly (not through a link, but, for example, via a bookmark).
 
-   Wenn dieses Verhalten nicht Ihren Anforderungen entspricht, führen Sie einen der folgenden Schritte aus:
+   If this behavior does not match your requirements, consider performing one of the following actions:
 
-   * Pass [mbox parameters](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) to [!DNL Target] to be used for targeting purposes.
-   * Verwenden Sie eine [A/B-Test-Aktivität](/help/c-activities/t-test-ab/test-ab.md) anstelle einer Landingpage-Aktivität. A/B Test activities do not switch experiences for the same visitor.
+   * Übergeben Sie [Mbox-Parameter](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) , die für Targeting-Zwecke verwendet [!DNL Target] werden sollen.
+   * Use an [A/B Test activity](/help/c-activities/t-test-ab/test-ab.md) instead of a landing page activity. A/B-Test-Aktivitäten wechseln die Erlebnisse nicht für denselben Besucher.
    * Verwenden Sie stattdessen ein [Besucher-Profil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) .
 
 * When using &quot;starts/ends with&quot; evaluators on strings containing commas, be aware that these
 are evaluated as an array of values, in which each value separated by comma is evaluated. For example if we have the value for a header: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` it will quaify for conditons like:
    * beginn mit Zh,
    * beginn mit en,
-   * ends with 0.7,
+   * endet mit 0,7,
    * endet mit 0,8.
 
 ## Schulungsvideo: Erstellen von Zielgruppen
