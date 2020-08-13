@@ -1,10 +1,10 @@
 ---
 description: Informationen zur Verwendung von Visual Experience Composer (VEC) in Adobe Target.
 title: Adobe Target Visual Experience Composer (VEC)
-feature: null
+feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -113,14 +113,14 @@ Um weiterhin Erlebnisse in der aktuellen Aktivität zu verwalten oder neue Ände
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Visual Experience Composer (1 von 2) (7:17) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
+### Visual Experience Composer (1 of 2) (7:17) ![Tutorial badge](/help/assets/tutorial.png)
 
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer (2 von 2) (7:29) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
+### Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
 
 * Erlebnis umbenennen und duplizieren
 * Umleitungserlebnis erstellen
