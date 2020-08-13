@@ -2,11 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Sie können eine Aktivität in Target Standard/Premium erstellen, um Adobe Analytics als Berichtsquelle (A4T) zu verwenden.
 title: Aktivitätserstellung
-feature: null
+feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 22%
@@ -54,7 +54,7 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 1. Definieren Sie das Erlebnis.
 1. Legen Sie das Aktivitätsziel fest.
 
-   Sie müssen eine Erfolgsmetrik auswählen, die als Ziel für jede Aktivität verwendet werden soll. Ihr Aktivitätsziel ist die Konversionsaktivität, die eine erfolgreiche Aktivität signalisiert. Die Best Practice ist, niemals einen Test ohne ein Ziel durchzuführen, das auf eine bestimmte Art und Weise verbessert werden soll. You can choose any [!DNL Analytics] metric available in the [!DNL Analytics] metric selector.
+   You are required to select a success metric to use as a goal for each activity. Ihr Aktivitätsziel ist die Konversionsaktivität, die eine erfolgreiche Aktivität signalisiert. Die Best Practice ist, niemals einen Test ohne ein Ziel durchzuführen, das auf eine bestimmte Art und Weise verbessert werden soll. You can choose any [!DNL Analytics] metric available in the [!DNL Analytics] metric selector.
 
    >[!NOTE]
    >
@@ -86,7 +86,7 @@ Erster Schritt:
 
    Oder
 
-   Wählen Sie **[!UICONTROL Analytics-Metrik]** verwenden und wählen Sie dann eine Metrik aus, die als Optimierungsziel verwendet werden [!DNL Analytics] soll. Sie können eine vordefinierte [!DNL Analytics] Konversionsmetrik oder ein [!DNL Analytics] benutzerdefiniertes Ereignis verwenden.
+   Choose **[!UICONTROL Use an Analytics metric]** and then select a metric from [!DNL Analytics] for use as the optimization goal. You can use an out-of-box [!DNL Analytics] conversion metric, or an [!DNL Analytics] custom event.
 
 1. Speichern und aktivieren Sie Ihre Aktivität.
 
@@ -102,25 +102,25 @@ Mit A4T für die [!UICONTROL automatische Zuordnung] können Sie einen der folge
 * [!DNL Adobe Analytics] Konversionsmetriken vorstellen
 * [!DNL Adobe Analytics] benutzerspezifische Ereignisse
 
-A4T für die [!UICONTROL automatische Zuordnung] erfordert die Auswahl einer Metrik, die auf einem binomialen Ereignis basiert, d. h. einem Ereignis, das entweder geschieht oder nicht, z. B. einem Klick, einer Konversion, einer Bestellung usw. (These types of events are also sometimes referred to as Bernoulli, binary, or discrete events.)
+A4T for [!UICONTROL Auto-Allocate] requires you to choose a metric that is based on a binomial event, that is, an event that either does or does not happen, for example a click, a conversion, an order, etc. (These types of events are also sometimes referred to as Bernoulli, binary, or discrete events.)
 
 A4T for [!UICONTROL Auto-Allocate] does not support optimization for continuous metrics such as revenue, number of products ordered, session duration, number of page views in session, etc. (These unsupported types of metrics are also sometimes referred to as non-binomial or non-Bernoulli metrics.)
 
 The following metric types are unsupported as primary goal metrics:
 
 * [!DNL Adobe Target] engagement and revenue metrics
-* [!DNL Adobe Analytics] Interaktions- und Umsatzmetriken
+* [!DNL Adobe Analytics] engagement and revenue metrics
 
    >[!NOTE]
    >
-   >Es ist möglicherweise möglich, Interaktions- und Umsatzmetriken als primäre Zielmetrik auszuwählen, da [!DNL Analytics] nicht alle Interaktions- und Umsatzmetriken identifiziert werden können [!DNL Target] [!DNL Analytics]. Gehen Sie vorsichtig vor, um nur binomielle Konversionsmetriken oder benutzerdefinierte Ereignis aus [!DNL Analytics]auszuwählen.
+   >It might be possible to select [!DNL Analytics] engagement and revenue metrics as your primary goal metric because [!DNL Target] cannot identify all engagement and revenue metrics from [!DNL Analytics]. Gehen Sie vorsichtig vor, um nur binomielle Konversionsmetriken oder benutzerdefinierte Ereignis aus [!DNL Analytics]auszuwählen.
 
-* Adobe Analytics berechnete Metriken
+* Adobe Analytics calculated metrics
 
-### Einschränkungen und Hinweise
+### Limitations and notes
 
-* Die Berichte-Quelle kann nicht von [!DNL Analytics] zu [!DNL Target] oder umgekehrt geändert werden, sobald eine Aktivität aktiviert wurde.
-* Obwohl errechnete Metriken nicht als primäre Zielmetriken unterstützt werden, ist es oft möglich, das angestrebte Ergebnis zu erzielen, indem Sie stattdessen ein benutzerdefiniertes Ereignis als primäre Zielmetrik auswählen. For example, if you want to optimize for a metric such as &quot;form completions per visitor,&quot; select a custom event corresponding to &quot;form completions&quot; as your primary goal metric. [!DNL Target] normalisiert Konversionsmetriken automatisch pro Besuch, um eine ungleiche Traffic-Verteilung zu berücksichtigen. Daher ist es nicht erforderlich, eine berechnete Metrik für die Normalisierung zu verwenden.
+* The reporting source cannot be changed from [!DNL Analytics] to [!DNL Target] or vice versa once an activity has been activated.
+* Although calculated metrics are not supported as primary goal metrics, it is often possible to achieve the intended result by instead selecting a custom event as the primary goal metric. Wenn Sie z. B. eine Metrik wie &quot;Formularabschlüsse pro Besucher&quot;optimieren möchten, wählen Sie ein benutzerdefiniertes Ereignis, das &quot;Formularabschlüsse&quot;als primäre Zielmetrik entspricht. [!DNL Target] automatically normalizes conversion metrics on a per-visit basis to account for uneven traffic distribution, so it is not necessary to use a calculated metric to perform normalization.
 * [!DNL Target] verwendet das Zuordnungsmodell &quot;Gleich Touch&quot;in der A4T-Implementierung für die automatische Zuordnung.
 
-For more information, see [Attribution overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) in the *Analytics Tools Guide*.
+Weitere Informationen finden Sie unter Übersicht über die [Zuordnung](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) im Handbuch *Analytics-Tools*.
