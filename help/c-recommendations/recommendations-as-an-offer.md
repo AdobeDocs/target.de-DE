@@ -2,9 +2,9 @@
 keywords: Recommendations;offer
 description: Adobe Recommendations als Angebot in A/B-Tests (einschließlich Automatisierte Zuordnung und Automatisches Targeting) und Erlebnis-Targeting-Aktivitäten (XT)
 title: Adobe Recommendations als Angebot in A/B-Tests (einschließlich Automatisierte Zuordnung und Automatisches Targeting) und Erlebnis-Targeting-Aktivitäten (XT)
-feature: null
+feature: recs creation
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 98%
@@ -121,6 +121,6 @@ Der Status der Recommendations-Angebote (Algorithmus) wird unten auf der [!UICON
 
 ![Status des Recommendations-Angebots](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Training video: Recommendations as an offer ![Overview badge](/help/assets/overview.png)
+## Schulungsvideo: Recommendations als Angebot- ![Übersicht](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
