@@ -2,11 +2,11 @@
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zielen des Tests eingeben.
 title: Ziele und Einstellungen
-feature: null
+feature: ab
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 96%
@@ -69,7 +69,7 @@ Weitere Informationen zu erweiterten Einstellungen finden Sie unter [Erfolgsmetr
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Activity Settings (3:02) ![Tutorial badge](/help/assets/tutorial.png)
+### Aktivität Settings (3:02) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
 In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
@@ -81,7 +81,7 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
 (https://video.tv.adobe.com/v/17381?captions=ger)
 
-### Erstellen von A/B-Tests (8:36) ![Tutorialzeichen](/help/assets/tutorial.png)
+### Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie Aktivitätseinstellungen bei der Einrichtung einer Aktivität mit dem drei Schritte umfassenden, geleiteten Arbeitsablauf integriert werden können. Ziele und Einstellungen werden ab 5:30 erläutert.
 
