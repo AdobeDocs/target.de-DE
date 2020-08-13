@@ -2,11 +2,11 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
 title: Häufig gestellte Fragen zu Zielen und Zielgruppen
-feature: null
+feature: audiences
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 69%
@@ -22,7 +22,7 @@ Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
 
 Zielgruppe bewertet URLs unterschiedlich, je nachdem, ob Sie beim Erstellen einer Aktivität Audiencen-URL-Targeting verwenden oder ob Sie beim Erstellen einer Audience URL-Targeting verwenden.
 
-Betrachten Sie die folgende URL:
+Consider the following URL:
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
@@ -32,7 +32,7 @@ Um beim Erstellen einer Aktivität das URL-Targeting für Audiencen anzuwenden, 
 
 ![Seiten-Versand-URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-Audiencen-URL-Targeting sucht nach einer exakten URL-Übereinstimmung. Wenn die URL übereinstimmt, berücksichtigt Zielgruppe keine weitere Logik. Wenn die Aktivität in der obigen URL auf &quot;Auslösen `www.example.com`&quot;eingestellt ist, wird die URL für die folgenden URLs passend, da das Targeting der Audience-URL für Abfragen unabhängig ist:
+Audiencen-URL-Targeting sucht nach einer exakten URL-Übereinstimmung. Wenn die URL übereinstimmt, berücksichtigt Zielgruppe keine weitere Logik. In the above URL, if the activity is set to fire on `www.example.com`, the URL matches for the following URLs because audience URL targeting is query agnostic:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -46,7 +46,7 @@ Wenn Sie beim Erstellen einer Audience ein URL-Targeting anwenden möchten, klic
 
 ![Site-Seiten > Aktuelle Seite > URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
-URL targeting transforms the URL into a set of rules to evaluate:
+URL-Targeting wandelt die URL in einen Regelsatz zur Bewertung um:
 
 * URL-Domäne = `example.com`
 * Pfad = path1/path2/path3
@@ -57,7 +57,7 @@ URL targeting transforms the URL into a set of rules to evaluate:
 
 Wenn Sie denselben Parameternamen mehrmals in einer URL-Zeichenfolge verwenden, berücksichtigt HTTP den ersten Parameternamen und ignoriert nachfolgende Parameter mit demselben Namen.
 
-Beispiel: In der folgenden URL-Zeichenfolge:
+For example, in the following URL string:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
