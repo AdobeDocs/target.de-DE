@@ -2,12 +2,12 @@
 keywords: implement;implementing
 description: Überlegungen vor der Implementierung von Adobe Target.
 title: Vor der Implementierung
-feature: null
+feature: implementation pre-reqs
 subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 96%
@@ -32,4 +32,4 @@ Dieser Abschnitt enthält Informationen, die Entwickler für ihre Implementierun
 - [Unterstützte Browser](supported-browsers.md)
 - [Änderungen der TLS-Verschlüsselung (Transport Layer Security)](tls-transport-layer-security-encryption.md)
 - [CNAME und Adobe Target](implement-cname-support-in-target.md)
-- [Zulassungsliste Zielgruppe Edge-Knoten](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [Allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
