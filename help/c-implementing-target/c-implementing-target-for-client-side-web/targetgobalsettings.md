@@ -2,11 +2,11 @@
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Informationen zur Funktion targetGlobalSettings() für die Adobe Target-JavaScript-Bibliothek at.js.
 title: Informationen zur Funktion targetGlobalSettings() für die Adobe Target-JavaScript-Bibliothek at.js.
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 39%
@@ -27,28 +27,28 @@ Folgende Einstellungen können überschrieben werden:
 ### bodyHiddenStyle
 
 * **Typ**: String
-* **Standardwert**: body { opacity: 0 }
-* **Description**: Used only when `globalMboxAutocreate === true` to minimize the chance of flicker.
+* **Default Value**: body { opacity: 0 }
+* **Beschreibung**: Wird nur verwendet, wenn `globalMboxAutocreate === true` die Wahrscheinlichkeit des Flackerns minimiert wird.
 
    Weitere Informationen finden Sie unter [Verwaltung von Flackern mit „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
 
 ### bodyHidingEnabled
 
-* **Typ**: Boolesch
-* **Standardwert**: true
+* **Type**: Boolean
+* **Default Value**: true
 * **Beschreibung**: Dient zum Steuern des Flackerns, wenn Angebot bereitgestellt `target-global-mbox` werden, die im Visual Experience Composer (auch als visuelle Angebot bezeichnet) erstellt wurden.
 
 ### clientCode
 
 * **Typ**: String
 * **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
-* **Beschreibung**: Stellt den Clientcode dar.
+* **Description**: Represents the client code.
 
 ### cookieDomain
 
 * **Typ**: String
-* **Standardwert**: Falls möglich, auf die Domäne der obersten Ebene einstellen.
-* **Beschreibung**: Stellt die Domäne dar, die beim Speichern von Cookies verwendet wird.
+* **Default Value**: If possible set to the top level domain.
+* **Description**: Represents the domain used when saving cookies.
 
 ### crossDomain
 
@@ -58,14 +58,14 @@ Folgende Einstellungen können überschrieben werden:
 
 ### cspScriptNonce
 
-* **Type**: See [Content Security Policy](#content-security) below.
-* **Default Value**: See [Content Security Policy](#content-security) below.
-* **Description**: See [Content Security Policy](#content-security) below.
+* **Typ**: Siehe [Content Security Policy](#content-security) weiter unten.
+* **Standardwert**: Siehe [Content Security Policy](#content-security) weiter unten.
+* **Beschreibung**: Siehe [Content Security Policy](#content-security) weiter unten.
 
 ### cspStyleNonce
 
 * **Typ**: Siehe [Content Security Policy](#content-security) weiter unten.
-* **Default Value**: See [Content Security Policy](#content-security) below.
+* **Standardwert**: Siehe [Content Security Policy](#content-security) weiter unten.
 * **Beschreibung**: Siehe [Content Security Policy](#content-security) weiter unten.
 
 ### dataProviders
@@ -88,31 +88,31 @@ Folgende Einstellungen können überschrieben werden:
 
 ### deviceIdLifetime
 
-* **Typ**: Nummer
-* **Default Value**: 63244800000 ms = 2 years
+* **Type**: Number
+* **Standardwert**: 63244800000 ms = 2 Jahre
 * **Beschreibung**: Die Zeitdauer `deviceId` wird in Cookies beibehalten.
 
 >[!NOTE]
 >
->The deviceIdLifetime setting is overrideable in at.js version 2.3.1 or later.
+>Die Einstellung deviceIdLifetime kann in at.js Version 2.3.1 oder höher überschrieben werden.
 
 ### aktiviert
 
-* **Type**: Boolean
-* **Default Value**: true
-* **Description**: When enabled, a [!DNL Target] request to retrieve experiences and DOM manipulation to render the experiences is executed automatically. Furthermore, [!DNL Target] calls can be executed manually via `getOffer(s)` / `applyOffer(s)`.
+* **Typ**: Boolesch
+* **Standardwert**: true
+* **Beschreibung**: Wenn diese Option aktiviert ist, wird automatisch eine [!DNL Target] Anforderung zum Abrufen von Erlebnissen und zur DOM-Manipulation zum Rendern der Erlebnisse ausgeführt. Darüber hinaus können [!DNL Target] Aufrufe manuell über `getOffer(s)` / `applyOffer(s)`.
 
    Bei Deaktivierung werden [!DNL Target] Anforderungen nicht automatisch oder manuell ausgeführt.
 
 ### globalMboxAutoCreate
 
 * **Type**: Number
-* **Default Value**: Value set via UI.
-* **Description**: Indicates whether the global mbox request should be fired or not.
+* **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
+* **Beschreibung**: Gibt an, ob die globale Mbox-Anforderung ausgelöst werden soll.
 
 ### imsOrgId
 
-* **Type**: Sting
+* **Typ**: Sting
 * **Standardwert**: true
 * **Beschreibung**: Stellt die IMS-ORG-ID dar.
 
@@ -125,8 +125,8 @@ Folgende Einstellungen können überschrieben werden:
 ### overrideMboxEdgeServer
 
 * **Typ**: Boolesch
-* **Default Value**: true (true beginning with at.js version 1.6.2)
-* **Description**: Indicates if we should use `<clientCode>.tt.omtrdc.net` domain or `mboxedge<clusterNumber>.tt.omtrdc.net` domain.
+* **Standardwert**: true (true), beginnend mit at.js Version 1.6.2)
+* **Beschreibung**: Gibt an, ob `<clientCode>.tt.omtrdc.net` Domäne oder `mboxedge<clusterNumber>.tt.omtrdc.net` Domäne verwendet werden soll.
 
    If this value is true, `mboxedge<clusterNumber>.tt.omtrdc.net` domain will be saved to a cookie. Derzeit nicht mit [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
 
@@ -145,14 +145,14 @@ Folgende Einstellungen können überschrieben werden:
 ### secureOnly
 
 * **Typ**: Boolesch
-* **Default Value**: false
+* **Standardwert**: false
 * **Beschreibung**: Gibt an, ob at.js nur HTTPS verwenden oder je nach Seitenprotokoll zwischen HTTP und HTTPS wechseln darf.
 
 ### selectorsPollingTimeout
 
 * **Typ**: Nummer
 * **Standardwert**: 5000 ms = 5 s
-* **Description**: In at.js 0.9.6, [!DNL Target] introduced this new setting that can be overridden via `targetGlobalSettings`.
+* **Beschreibung**: In at.js 0.9.6 wurde diese neue Einstellung [!DNL Target] eingeführt, die überschrieben werden kann `targetGlobalSettings`.
 
    The `selectorsPollingTimeout` setting represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.
 
@@ -161,7 +161,7 @@ Folgende Einstellungen können überschrieben werden:
 ### serverDomain
 
 * **Typ**: String
-* **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
+* **Default Value**: Value set via UI.
 * **Beschreibung**: Stellt den Edge-Server der Zielgruppe dar.
 
 ### serverState
@@ -174,13 +174,13 @@ Folgende Einstellungen können überschrieben werden:
 
 * **Type**: Number
 * **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
-* **Beschreibung**: Stellt die Zeitüberschreitung der [!DNL Target] Edge-Anforderung dar.
+* **Description**: Represents the [!DNL Target] edge request timeout.
 
 ### viewsEnabled
 
 * **Typ**: Boolesch
-* **Standardwert**: true
-* **Beschreibung**: Wenn diese Option aktiviert ist, werden automatisch Ansichten abgerufen, die beim Laden der Seite zurückgegeben werden müssen. Ansichten werden in at.js 2 unterstützt.*x*, zur Verfügung.
+* **Default Value**: true
+* **Description**: When enabled, automatically retrieve views that must be returned on page load. Views are supported in at.js 2.*x*, zur Verfügung.
 
 ### visitorApiTimeout
 
@@ -321,7 +321,7 @@ Beachten Sie Folgendes, wenn Sie die Einstellung `dataProviders` verwenden.
 
 ## Content Security Policy {#content-security}
 
-at.js 2.3.0+ supports setting Content Security Policy nonces on SCRIPT and STYLE tags appended to the page DOM when applying delivered Target offers.
+&quot;at.js 2.3.0+&quot;unterstützt das Festlegen von Content Security Policy-Nonces für SCRIPT- und STYLE-Tags, die beim Anwenden von bereitgestellten Zielgruppe-Angeboten an das Seiten-DOM angehängt werden.
 
 Die SCRIPT- und STYLE-Nonces sollten vor dem Laden von at.js 2.3.0 in `targetGlobalSettings.cspScriptNonce` und `targetGlobalSettings.cspStyleNonce` entsprechend eingestellt werden. Siehe Beispiel unten:
 
@@ -351,11 +351,11 @@ Nachdem Sie die Einstellungen `cspScriptNonce` und `cspStyleNonce` Einstellungen
 Sie müssen über eine Hybridintegration von verfügen [!DNL Target].
 
 * **Serverseitig**:  Sie müssen die neuen [Versand-API](https://developers.adobetarget.com/api/delivery-api/) oder [Zielgruppe-SDKs](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)verwenden.
-* **Client-side**: You must use [at.js version 2.2 or later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* **Clientseitig**: Sie müssen [at.js Version 2.2 oder höher](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)verwenden.
 
 ### Codebeispiele
 
-To better understand how this works, please see the code examples below that you would have on your server. Der Code setzt voraus, dass Sie das [Zielgruppe Node.js SDK](https://github.com/adobe/target-nodejs-sdk)verwenden.
+Um besser zu verstehen, wie dies funktioniert, sehen Sie sich bitte die Codebeispiele unten an, die Sie auf Ihrem Server haben würden. Der Code setzt voraus, dass Sie das [Zielgruppe Node.js SDK](https://github.com/adobe/target-nodejs-sdk)verwenden.
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -385,7 +385,7 @@ const PAGE_TEMPLATE = `
 // Return PAGE_TEMPLATE to the client ...
 ```
 
-A sample `serverState` object JSON for view prefetch looks as follows:
+Ein Beispiel für ein `serverState` JSON-Objekt für die Ansicht vor dem Abrufen sieht wie folgt aus:
 
 ```
 {
@@ -462,12 +462,12 @@ Nach dem Laden der Seite im Browser wendet at.js alle [!DNL Target] Angebot sofo
 
 Consider the following when using `serverState`:
 
-* At the moment, at.js v2.2 supports only delivering experiences via serverState for:
+* Zurzeit unterstützt at.js v2.2 nur die Bereitstellung von Erlebnissen über serverState für:
 
    * VEC-erstellte Aktivitäten, die beim Laden der Seite ausgeführt werden.
    * Vorab abgerufene Ansichten.
 
-      In case of SPAs using [!DNL Target] Views and `triggerView()` in the at.js API, at.js v2.2 caches the content for all Views prefetched on the server-side and applies these as soon as each View is triggered via `triggerView()`, again without firing any additional content-fetching calls to Target.
+      Bei SPAs, die [!DNL Target] Ansichten und die at.js-API verwenden, speichert at.js v2.2 den Inhalt für alle auf dem Server vorab abgerufenen Ansichten zwischen und wendet diese an, sobald jede Ansicht ausgelöst wird, `triggerView()` `triggerView()`ohne dass zusätzliche inhaltliche Abrufe an die Zielgruppe ausgelöst werden.
 
    * **Hinweis**:  Derzeit werden auf der Serverseite abgerufene Mboxes in nicht unterstützt `serverState`.
 
@@ -475,11 +475,11 @@ Consider the following when using `serverState`:
 
    Um diese Einstellungen zu aktivieren, aktivieren Sie den Umschalter unter &quot; **[UICONTROL-Administration&quot;> &quot;Implementierung&quot;> &quot;Bearbeiten&quot;> &quot;Seitenladevorgang aktiviert]**&quot;.
 
-   ![Page Load Enabled settings](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+   ![Einstellungen für &quot;Seitenladeaktivierung&quot;](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
 ### Zusätzliche Ressourcen
 
-To learn more how `serverState` works, check out the following resources:
+Weitere Informationen zur `serverState` Funktionsweise finden Sie in den folgenden Ressourcen:
 
 * [Beispielcode](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
 * [Beispiel-App für Einzelseitenanwendung (SPA) mit `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
