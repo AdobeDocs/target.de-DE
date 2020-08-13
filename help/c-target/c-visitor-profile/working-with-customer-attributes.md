@@ -2,12 +2,12 @@
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
 description: Informationen zum Verwenden von Unternehmenskundendaten aus einer CRM-Datenbank für das Targeting von Inhalten in Adobe Target mithilfe von Kundenattributen im Adobe Experience Cloud People-Core-Service.
 title: Kundenattribute in Adobe Target
-feature: null
+feature: visitor profiles
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 39%
@@ -23,9 +23,9 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Kundenattribute](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) im [!DNL People] Hauptdienst sind Teil des Dienstes [!DNL Adobe Experience Cloud] und bieten Unternehmen ein Werkzeug, um ihre Kundendaten auf die [!DNL Experience Cloud] Plattform zu übertragen.
+[Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the [!DNL People] core service is part of the [!DNL Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL Experience Cloud] platform.
 
-In [!DNL Experience Cloud] integrierte Daten sind für alle [!DNL Experience Cloud]-Workflows verfügbar. [!DNL Target] uses this data for targeting returning customer based on attributes. [!DNL Adobe Analytics] verwendet diese Attribute, und sie können für die Analyse und Segmentierung herangezogen werden.
+In [!DNL Experience Cloud] integrierte Daten sind für alle [!DNL Experience Cloud]-Workflows verfügbar. [!DNL Target] verwendet diese Daten für das Targeting rückkehrender Kunden basierend auf Attributen. [!DNL Adobe Analytics] verwendet diese Attribute, und sie können für die Analyse und Segmentierung herangezogen werden.
 
 ![crs-Beispiel](/help/c-target/c-visitor-profile/assets/crs.png)
 
@@ -37,7 +37,7 @@ Consider the following information as your work with customer attributes and [!D
    >
    >[!DNL at.js] (any version) or [!DNL mbox.js] version 58 or later is required.
 
-* [!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. In unserem aktuellen Design besteht die Möglichkeit, dass ein kleiner Anteil der Daten (bis zu 0,1 % der großen Produktionschargen) möglicherweise nicht an Bord mitgeführt wird.
+* [!DNL Adobe] garantiert nicht, dass 100 % der Kundenattributdaten (Besucher-Profil) aus CRM-Datenbanken an die Daten des Unternehmens gesendet werden [!DNL Experience Cloud] und somit für das Targeting in [!DNL Target]der Datenbank zur Verfügung stehen. In unserem aktuellen Design besteht die Möglichkeit, dass ein kleiner Anteil der Daten (bis zu 0,1 % der großen Produktionschargen) möglicherweise nicht an Bord mitgeführt wird.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. Weitere Informationen finden Sie unter  [Lebensdauer des Besucherprofils](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
 * If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
 
@@ -51,27 +51,27 @@ Consider the following information as your work with customer attributes and [!D
 
    ![Personen](/help/c-target/c-visitor-profile/assets/people.png)
 
-1. Click the **[!UICONTROL Customer Attributes]** tab.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Kundenattribute]** .
 
-   ![Customer Attributes tab](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
+   ![Registerkarte &quot;Kundenattribute&quot;](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
 ## Customer attribute workflow for Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 Führen Sie die folgenden Schritte aus, um CRM-Daten in [!DNL Target] zu verwenden, wie unten dargestellt:
 
-![crm workflow](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
+![crm-Arbeitsablauf](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
 Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
 
 1. Erstellen einer Datendatei.
 
-   Exportieren Sie die Kundendaten aus Ihrem CRM-System in das CSV-Format, um eine .csv-Datei zu erstellen. Alternativ kann eine ZIP- oder GZIP-Datei für den Upload erstellt werden. Ensure that first row of the CSV file is the header and all rows (customer data) have the same number of entries.
+   Exportieren Sie die Kundendaten aus Ihrem CRM-System in das CSV-Format, um eine .csv-Datei zu erstellen. Alternativ kann eine ZIP- oder GZIP-Datei für den Upload erstellt werden. Stellen Sie sicher, dass die erste Zeile der CSV-Datei die Kopfzeile und alle Zeilen (Kundendaten) die gleiche Anzahl von Einträgen aufweisen.
 
    Die folgende Abbildung zeigt eine Beispieldatendatei für Unternehmenskunden:
 
    ![crs-Beispiel](/help/c-target/c-visitor-profile/assets/CRS_sample.png)
 
-   The following illustration shows a sample enterprise customer .csv file:
+   Die folgende Abbildung zeigt eine Beispiel für eine CSV-Datei für Unternehmenskunden:
 
    ![CSV-Beispiel](/help/c-target/c-visitor-profile/assets/CRS_CSV_sample.png)
 
@@ -83,12 +83,12 @@ Detailed instructions for completing each of the following tasks can be found in
    >
    >Der Name der Datenquelle und der Attributname dürfen keinen Punkt enthalten.
 
-   Your data file must comply with the file Upload Requirements and must not exceed 100MB. Wenn Ihre Datei zu groß ist oder Sie Daten haben, die regelmäßig hochgeladen werden müssen, können Sie stattdessen eine FTP-Verbindung mit Ihren Dateien herstellen.
+   Ihre Datendatei muss den Anforderungen für das Hochladen der Datei entsprechen und darf 100 MB nicht überschreiten. Wenn Ihre Datei zu groß ist oder Sie Daten haben, die regelmäßig hochgeladen werden müssen, können Sie stattdessen eine FTP-Verbindung mit Ihren Dateien herstellen.
 
    * **HTTPS:** Sie können die .csv-Datendatei per Drag &amp; Drop verschieben oder auf **[!UICONTROL Durchsuchen]** klicken, um sie aus Ihrem Dateisystem hochzuladen.
    * **FTP:** Klicken Sie auf den FTP-Link, um die Datei über FTP [hochzuladen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Der erste Schritt besteht darin, ein Kennwort für den von Adobe bereitgestellten FTP-Server anzugeben. Specify the password, then click **[!UICONTROL Done]**.
 
-   Übertragen Sie nun Ihre CSV-/ZIP-/GZIP-Datei auf den FTP-Server. After this file transfer is successful, create a new file with same name and .fin extension. Übertragen Sie diese leere Datei auf den Server. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
+   Übertragen Sie nun Ihre CSV-/ZIP-/GZIP-Datei auf den FTP-Server. Nachdem die Dateiübertragung erfolgreich war, erstellen Sie eine neue Datei mit demselben Namen und der Erweiterung .fin. Übertragen Sie diese leere Datei auf den Server. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. Prüfen des Schemas.
 
@@ -104,7 +104,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Klicken Sie auf **[!UICONTROL Abonnement hinzufügen]** und wählen Sie die Lösung zum Abonnieren dieser Attribute aus. [Abonnement](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) konfigurieren richtet den Datenfluss zwischen der [!DNL Experience Cloud] und den Lösungen ein. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Lösungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
 
-   ![Configure solution](/help/c-target/c-visitor-profile/assets/solution.png)
+   ![Lösung konfigurieren](/help/c-target/c-visitor-profile/assets/solution.png)
 
    ![Aktivieren](/help/c-target/c-visitor-profile/assets/activate.png)
 
@@ -148,7 +148,7 @@ Wenn Sie den Experience Cloud ID-Service verwenden, müssen Sie eine Kunden-ID u
 
 Weitere Informationen zum Verwenden von Kundenattributen in [!DNL Target] finden Sie unter den folgenden Ressourcen:
 
-* [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud Product Documentation*
+* [Erstellen Sie eine Kundenattributquelle und laden Sie die Datendatei](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in der *Experience Cloud-Produktdokumentation hoch.*
 * [Kundenattribute: Je mehr Details, desto besser die Verbindung](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) im *Digital Marketing-Blog*
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
@@ -157,9 +157,9 @@ You might encounter the following issues when working with customer attributes a
 
 >[!NOTE]
 >
->Die Probleme 1 und 2 verursachen etwa 60 % der Probleme in diesem Bereich. Problem 3 verursacht ca. 30 % der Probleme. Issue 4 causes approximately 5% of problems. Die restlichen 5 % werden durch verschiedene andere Ursachen hervorgerufen.
+>Issues 1 and 2 cause approximately 60% of problems in this area. Problem 3 verursacht ca. 30 % der Probleme. Problem 4 verursacht ungefähr 5 % der Probleme. Die restlichen 5 % werden durch verschiedene andere Ursachen hervorgerufen.
 
-### Issue 1: Customer attributes are removed because the profile is too large
+### Problem 1: Kundenattribute werden entfernt, da das Profil zu groß ist
 
 Es gibt zwar keine Zeichenbeschränkung für ein bestimmtes Feld im Profil des Benutzers, wenn das Profil jedoch umfangreicher als 64 K ist, wird es durch Entfernen der ältesten Attribute so lange abgeschnitten, bis das Profil wieder kleiner als 64 K ist.
 
@@ -171,7 +171,7 @@ Dies ist normalerweise ein Pipeline-Verbindungsproblem. Bitten Sie zur Lösung d
 
 Das Profil wurde in Edge noch nicht aktualisiert. Bitten Sie zur Lösung das Kundenattribute-Team, den Feed erneut zu veröffentlichen.
 
-### Issue 4: Implementation issues
+### Problem 4: Implementierungsfragen
 
 Beachten Sie die folgenden Implementierungsprobleme:
 
