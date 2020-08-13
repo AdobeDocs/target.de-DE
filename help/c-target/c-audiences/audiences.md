@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Mithilfe von Zielgruppen in Adobe Target wird bestimmt, wer Inhalte und Erlebnisse in einer Target-Aktivität anzeigen kann.
 title: Erstellen von Zielgruppen in Adobe Target
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -75,7 +75,7 @@ Für diese importierten Zielgruppentypen sind die folgenden Details verfügbar:
 | Zielgruppentyp | Details |
 |--- |--- |
 | Mobile Zielgruppe | Marketing-Name, Hersteller und Modell.<br>Der `matches | does not match`-Operator wird anstelle `equals | does not equal`<br>![ der Importierten Mobilen Zielgruppe](/help/c-target/c-audiences/assets/imported_mobile_audience.png) angezeigt. |
-| Besucherverhalten-Zielgruppe | **user.categoryAffinity:** `categoryAffinity` mit `FAVORITE`-Parameter.<br>![Importierte Kategorieaffinität](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>** -Überwachung:**Überwachungsdienst ist True.<br>**Kein Überwachungsdienst:**&#x200B;Überwachungsdienst ist False.<br>![Importierte Überwachung](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Besucherverhalten-Zielgruppe | **user.categoryAffinity:** `categoryAffinity` mit `FAVORITE`-Parameter.<br>![Importierte Kategorieaffinität ](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**-Überwachung:** Überwachungsdienst ist True.<br>**Kein Überwachungsdienst:**&#x200B;Überwachungsdienst ist False.<br>![Importierte Überwachung](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Zielgruppen mit dem Operator NOT | **Einzelregel:** Target zeigt die Zielgruppe im Format `[All Visitor AND [NOT [rule]` an. Einzelne NOT-Regel wird mit UND mit `AllVisitor`-Zielgruppe angezeigt.<br>![Importierte Not-Zielgruppe](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Berücksichtigen Sie beim Arbeiten mit importierten Zielgruppen Folgendes:
@@ -83,7 +83,7 @@ Berücksichtigen Sie beim Arbeiten mit importierten Zielgruppen Folgendes:
 * Ausdrucksziel-Zielgruppen werden in Target Standard/Premium nicht mehr unterstützt.
 * Target Standard/Premium unterstützt einige veraltete Zielgruppen nicht oder verfügt über verbesserte Operatoren zur einfachen Nutzung. Daher bedeutet die Definition einer importierten Zielgruppe trotz definitionsgemäßer Funktion nicht zwingendermaßen, dass dieselbe nun für die Erstellung in der Standard/Premium-Schnittstelle verfügbar ist. Beispielsweise sind soziale Zielgruppen zwar mit den zugehörigen Regeln sichtbar, aber Target Standard/Premium lässt die Erstellung sozialer Zielgruppen nicht zu.
 
-## Schulungsvideo: Verwenden von Zielgruppen ![Tutorial badge](/help/assets/tutorial.png)
+## Schulungsvideo: Verwenden von Zielgruppen ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppen.
 
