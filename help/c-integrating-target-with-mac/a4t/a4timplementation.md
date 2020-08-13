@@ -2,10 +2,10 @@
 keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
 description: Zur Implementierung von Adobe Analytics als Berichterstellungsquelle für Target (A4T) sind einige Schritte erforderlich.
 title: Implementieren von Analytics for Target
-feature: null
+feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 56%
@@ -98,7 +98,7 @@ This set up has a global effect, which means that every call made by at.js will 
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Die Nutzlast kann dann über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)an Analytics weitergeleitet werden.
 
 Wenn statt einer globalen Einstellung ein situationsbezogener Ansatz gewünscht wird, können Sie die Funktion at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)verwenden, um dies durch Übergabe von,**analyticsLogging: &quot;client_side&quot;** zu erreichen. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
@@ -156,7 +156,7 @@ Die Antwort sieht wie folgt aus:
 }
 ```
 
-The payload can then be forwarded to [!DNL Analytics] via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Die Nutzlast kann dann [!DNL Analytics] über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)an weitergeleitet werden.
 
 ## Schritt 8: Validieren der Implementierung {#step8}
 
