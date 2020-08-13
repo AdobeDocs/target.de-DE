@@ -1,11 +1,11 @@
 ---
 keywords: implement;implementing;implementation;adobe launch;launch;race;redirect;experience platform launch
-description: Adobe Experience Platform Launch is the next-generation tag management platform from Adobe and is the preferred method to implement Adobe Target. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind.
+description: Adobe Experience Platform Launch ist die Tag-Management-Plattform der nächsten Generation aus der Adobe und die bevorzugte Methode zur Implementierung von Adobe Target. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind.
 title: Implementieren von Target mit Adobe Launch
-feature: null
+feature: implementation with launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 82%
@@ -27,7 +27,7 @@ In der folgenden Tabelle finden Sie verschiedene Quellen, über die Sie weitere 
 |--- |--- |
 | [Implementing Target using the Adobe Target Extension Tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Diese Anleitung enthält schrittweise Anweisungen zur Implementierung von Adobe Target auf einer Website mit Launch. Die Themen umfassen unter anderem das Hinzufügen der at.js-JavaScript-Bibliothek, das Auslösen der globalen Mbox, das Hinzufügen von Parametern und die Integration mit anderen Lösungen. Dieser Artikel ist Teil eines größeren Tutorials, in dem Sie erfahren, wie Sie Adobe Launch sowie die anderen Adobe Experience Cloud-Lösungen implementieren. |
 | [Adobe Launch-Dokumentation](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | Informationen zur Implementierung und Verwaltung der Analyse-, Marketing- und Werbe-Tags, die zur Unterstützung relevanter Kundenerlebnisse erforderlich sind. |
-| [Adobe Target Extension Documentation](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informationen zur Implementierung von Target mit Launch. |
+| [Dokumentation zur Adobe Target Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informationen zur Implementierung von Target mit Launch. |
 
 ## Vorteile der Implementierung von at.js mit der Target-Launch-Erweiterung {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
