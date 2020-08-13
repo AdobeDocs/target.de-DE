@@ -2,10 +2,10 @@
 keywords: integration;roles;user permissions;admin console
 description: Informationen darüber, wie Sie vorhandenen Adobe I/O-Integrationen die gewünschte Rolle zuweisen und Zugriff auf alle Arbeitsbereiche in Adobe Target gewähren
 title: Adobe I/O-Integrationen Zugriff auf Arbeitsbereiche gewähren und Rollen in Adobe Target zuweisen
-feature: null
+feature: user management
 subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 88%
@@ -66,4 +66,4 @@ Dieses Update unterstützt die folgenden Anwendungsfälle:
    | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
    | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
    | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-   | Publisher | Similar to the Observer role (can view activities, but cannot create or edit them). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
+   | Publisher | Similar to the Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities. |
