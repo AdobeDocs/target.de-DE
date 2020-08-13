@@ -2,10 +2,10 @@
 keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traffic estimator;when to use mvt;mvt considerations;multivariate;partial-factorial;partial factorial;full-factorial
 description: Beim Multivariate Tests (MVT) in Adobe Target werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt dieser Test an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 title: Multivarianz-Test
-feature: null
+feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1442'
 ht-degree: 91%
@@ -57,21 +57,21 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
 
 * Verwenden Sie einen Multivarianz-Test um zu ermitteln, welches Element am wichtigsten ist, und anschließend einen stärker fokussierten A/B-Test für dieses Element.
 
-   When the number of different experiences exceeds five and spans two or more elements, it&#39;s a good idea to consider an MVT test before running your A/B tests. Der Multivarianz Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Elemente, auf die sich ein Marketingexperte konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf das wichtigste Element zur Erreichung Ihrer Ziele ist. Sobald Sie festgelegt haben, welche Elemente und Inhalte am nützlichsten sind, um Sie bei der Erreichung Ihrer Ziele zu unterstützen, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern, wie zum Beispiel den vergleichenden Test zweier spezifischer Bilder oder den Vergleich von Formulierungen oder Farben eines Aktionsaufrufs. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
+   Wenn die Anzahl der verschiedenen Erlebnisse mehr als fünf beträgt und zwei oder mehr Elemente umfasst, sollten Sie einen Multivarianz-Test in Erwägung ziehen, bevor Sie Ihre A/B-Tests durchführen. Der Multivarianz Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Elemente, auf die sich ein Marketingexperte konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf das wichtigste Element zur Erreichung Ihrer Ziele ist. Sobald Sie festgelegt haben, welche Elemente und Inhalte am nützlichsten sind, um Sie bei der Erreichung Ihrer Ziele zu unterstützen, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern, wie zum Beispiel den vergleichenden Test zweier spezifischer Bilder oder den Vergleich von Formulierungen oder Farben eines Aktionsaufrufs. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
 
 ## Zu beachten {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * Verwenden Sie einen Multivarianz-Test, wenn Sie mindestens drei Elemente testen müssen. Wenn Sie weniger haben, starten Sie eine Reihe von  A/B-Tests.
 * Wählen Sie die Seitenelemente aus, von denen Sie glauben, dass sie den größten Einfluss auf die Ergebnisse haben.
 * Vermeiden Sie die Einbeziehung zu vieler Elemente oder Orte in einen Test. Je größer die Anzahl, desto länger die Testdauer.
-* Planen Sie den Testentwurf im Voraus. It&#39;s not advisable to edit a test after it goes live and data starts being collected and analyzed.
+* Planen Sie den Testentwurf im Voraus. Es wird nicht empfohlen, einen Beginn nach der Live-Schaltung und der Erfassung und Analyse von Daten zu bearbeiten.
 * Es wird empfohlen, dass die Elemente unabhängig voneinander sind.
 
    Testen Sie z. B. Ihr Layout und Ihren Inhalt nicht im selben Test.
 
 * Planen Sie in Anbetracht der gestiegenen Anzahl der Erlebnisse zusätzliche Zeit für die Qualitätssicherung ein. Sie können auch partielle Tests verwenden, um den Traffic zu verringern, der für einen Multivarianz-Test erforderlich ist. Weitere Informationen finden Sie unter Teilweise Tests unten:
 
-## Teilweise Prüfung
+## Partial-factorial testing
 
 [!DNL Target] bietet vollfaktorielle Multivariater Tests als integrierte Aktivitätsoption. In Statistiken bietet Design of Experiments viele Ansätze bzw. Designs, um zu bestimmen, welche Faktoren Ergebnisse beeinflussen. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. Mit Taguchi können Marketingexperten einen Satz von Voraussetzungen festlegen, der die Anzahl der Permutationen von Erlebnissen reduziert, die getestet werden müssen, und senkt gleichzeitig die Traffic-Anforderungen für einen multivariaten Test. Dieser Funktionalitäts- und Testansatz kann in [!DNL Target] unter Nutzung [dieser Offline-Tabelle](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx) verwendet werden.
 
@@ -91,9 +91,9 @@ Weitere Informationen und Best Practices finden Sie unter [Best Practices für M
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Aktivität Types (9:03) - ![Überblick](/help/assets/overview.png)
+### Activity Types (9:03) ![Overview badge](/help/assets/overview.png)
 
-In diesem Übersichtsvideo werden die in Target Standard/Premium verfügbaren Aktivitäten erläutert. Multivariate Tests werden ab 4:20 erklärt.
+This overview video explains the activity types available in Target Standard/Premium. Multivariate Tests werden ab 4:20 erklärt.
 
 * Beschreiben Sie die Arten von Aktivitäten, die Teil von [!DNL Adobe Target] sind
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
@@ -101,7 +101,7 @@ In diesem Übersichtsvideo werden die in Target Standard/Premium verfügbaren Ak
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Erstellen von Multivarianz-Tests (9:25) - ![Tutorialzeichen](/help/assets/tutorial.png)
+### Creating Multivariate Tests (9:25) ![Tutorial badge](/help/assets/tutorial.png)
 
 In diesem Video wird erklärt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test aufgebaut, geplant und erstellt wird.
 
