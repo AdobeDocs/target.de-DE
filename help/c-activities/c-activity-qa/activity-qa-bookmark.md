@@ -1,12 +1,12 @@
 ---
 keywords: qa;preview;bookmarklet;preview links
-description: Information to help you use the Adobe Target QA bookmarklet to force Target to release you from QA mode.
+description: Informationen, die Sie bei der Verwendung des Adobe Target QA-Bookmarklets unterstützen, um die Zielgruppe zu erzwingen, Sie aus dem QA-Modus zu entfernen.
 title: Aktivität QA Bookmarklet für Adobe Target
-feature: null
+feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 22%
