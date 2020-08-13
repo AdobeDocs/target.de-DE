@@ -2,12 +2,12 @@
 keywords: capture score;score
 description: Die Einsatzmetrik "Ergebniserfassung"berechnet einen aggregierten Wert basierend auf dem Wert, der den auf der Site besuchten Zielgruppen zugewiesen wird, ab dem Zeitpunkt, zu dem der Besucher die Anfrage zur ersten Anzeige der Kampagne anzeigt.
 title: Ergebniserfassung
-feature: null
+feature: success metrics
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 51%
@@ -41,7 +41,7 @@ Es gibt zwei Methoden zur Zuweisung eines Ergebnisses zu einer Seite:
 
    Beispiel: `('global_mbox', 'mboxPageValue=10');`
 
-   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. If multiple requests on the page include score values, the score for the page is the total of all request values. `mboxPageValue` ist ein reservierter Parameter, der zum Übergeben von Werten in einer Zielgruppe-Anforderung verwendet wird, um eine Interaktionsbewertung zu erfassen. Es können positive and negative Werte übergeben werden. Die Summe wird am Ende jedes Besuchs berechnet, um das Gesamtergebnis für den Besuch zu errechnen.
+   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. Wenn mehrere Anforderungen auf der Seite Ergebniswerte enthalten, entspricht das Ergebnis für die Seite der Gesamtwert aller Anforderungswerte. `mboxPageValue` is a reserved parameter used for passing values in a Target request to capture an engagement score. Es können positive and negative Werte übergeben werden. Die Summe wird am Ende jedes Besuchs berechnet, um das Gesamtergebnis für den Besuch zu errechnen.
 
 * Geben Sie den Parameter `?mboxPageValue=n` in die URL der Seite ein.
 
@@ -53,7 +53,7 @@ Es gibt zwei Methoden zur Zuweisung eines Ergebnisses zu einer Seite:
 >
 >Zielgruppen, die sich oberhalb der ersten Display- [!DNL Target] Anforderung der Aktivität befinden, werden nicht in das Ergebnis einbezogen.
 
-Best practice is to assign values in the [!DNL Target] request. Auf diese Weise können Sie die Werte, die Sie messen, genau bestimmen, je nach Inhalt der einzelnen Anforderungen.
+Best practice is to assign values in the [!DNL Target] request. This allows you to be precise in the values you measure, depending on the content of each request.
 
 >[!NOTE]
 >
