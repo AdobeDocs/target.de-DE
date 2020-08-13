@@ -2,12 +2,12 @@
 keywords: implementation;api;profile;profile api settings;authentication token
 description: Aktivieren oder deaktivieren Sie die Authentifizierung für Batch-Aktualisierungen via API und generieren Sie ein Token für die Profilauthentifizierung.
 title: Profil-API-Einstellungen
-feature: null
+feature: api
 subtopic: Getting Started
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 64%
@@ -26,7 +26,7 @@ Für noch mehr Sicherheit können Sie festlegen, dass beim API-Aufruf für die M
 **So fordern Sie die Authentifizierung und so generieren Sie ein Zugriffstoken mithilfe der Target-Benutzeroberfläche:**
 
 1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
-1. Under **[!UICONTROL Profile API]** slide the **[!UICONTROL Require Authentication]** toggle to the enabled or disabled position.
+1. Schieben Sie unter **[!UICONTROL Profil-API]** den Umschalter **[!UICONTROL Authentifizierung]** erforderlich auf die aktivierte oder deaktivierte Position.
 
    ![](assets/profile_api_settings.png)
 
