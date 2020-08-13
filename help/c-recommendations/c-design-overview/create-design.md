@@ -2,10 +2,10 @@
 keywords: recommendations design;create design;copy design
 description: Mit einem Entwurf wird festgelegt, wie Empfehlungen auf einer Seite dargestellt werden.
 title: Erstellen eines Designs
-feature: null
+feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 95%
@@ -114,7 +114,7 @@ Das folgende Beispiel zeigt, wie JSON-Antworten zurückgesendet werden können, 
 | Parameter | Wert |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target-Clientcode (verfügbar unter ../target/products.html#recsSettings > Recommendations API Token > Client Code. |
-| `[YOUR_MBOX_NAME]` | The name you&#39;ve selected in the &quot;locations&quot; section of the form-based Recommendations, in this case Sample_Recs_Response. |
+| `[YOUR_MBOX_NAME]` | Der Name, den Sie im Abschnitt &quot;Speicherorte&quot;des formularbasierten Recommendations ausgewählt haben, in diesem Fall Sample_Recs_Response. |
 | `[ENTITY_ID`] | Die `entity.id` eines Artikels in Ihrem Katalog |
 | `[AT_PROPERTY_TOKEN]` | (Optional) Fügen Sie dies hinzu, wenn Sie bei der Einrichtung Ihrer Aktivität eine Eigenschaft (Teil der Unternehmensberechtigungen) ausgewählt haben. |
 
