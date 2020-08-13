@@ -2,10 +2,10 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: Verwenden Sie Feeds, damit Entitäten in Adobe Recommendations importiert werden. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feedformat bzw. Adobe Analytics-Classifications gesendet werden.
 title: Feeds
-feature: null
+feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '2457'
 ht-degree: 93%
@@ -40,10 +40,10 @@ Die Feeds-Seite enthält die folgenden Spalten:
 
 >[!IMPORTANT]
 >
->Uploaded entities and entity attributes expire after 61 days. Das bedeutet:
+>Hochgeladene Entitäten und Entitätsattribute laufen nach 61 Tagen ab. Das bedeutet:
 >
->* Your feed should run at least monthly to ensure that your catalog contents do not expire.
->* Removing an item from your feed file does not remove that item from your catalog. To remove the item from the catalog, manually delete the item via the Target UI or API. Or, modify the item attributes (such as inventory) to ensure that the item is excluded from consideration.
+>* Ihr Feed sollte mindestens monatlich ausgeführt werden, um sicherzustellen, dass Ihr Kataloginhalt nicht abläuft.
+>* Wenn Sie ein Element aus Ihrer Feed-Datei entfernen, wird dieses Element nicht aus Ihrem Katalog entfernt. To remove the item from the catalog, manually delete the item via the Target UI or API. Sie können auch die Elementattribute (z. B. den Bestand) ändern, um sicherzustellen, dass der Artikel von der Berücksichtigung ausgeschlossen wird.
 
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
@@ -288,7 +288,7 @@ Folgende Statusoptionen stehen für Feeds zur Verfügung:
 | Warten auf Download | Target bereitet das Herunterladen der Feed-Datei vor. |
 | Herunterladen von Feed-Datei | Target lädt die Feed-Datei herunter. |
 | Importieren von Elementen | Target importiert Elemente aus der Feed-Datei. |
-| Feed erfolgreich importiert um *Zeit* | Target hat die Feed-Datei in das Inhaltsbereitstellungssystem importiert. Änderungen an Artikelattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in die bereitgestellten Empfehlungen übernommen. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es in Kürze erneut und aktualisieren Sie die Seite, die die Empfehlungen enthält.<br>*Hinweis 1:*Wenn Änderungen an den Attributen eines Artikels dazu führen, dass ein Artikel aus Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort übernommen. Wenn ein Artikel neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Artikel* nicht mehr *aus Empfehlungen ausgeschlossen wird, wird dies erst ab der nächsten Algorithmus-Aktualisierung angezeigt, die innerhalb von 24 Stunden durchgeführt wird.<br>*Hinweis 2:* Wenn dieser Status angezeigt wird, sind die Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche der Katalogsuche zu sehen. In der Katalogsuche wird ein separater Status aufgeführt, der angibt, wann der Katalog zuletzt aktualisiert wurde. |
+| Feed erfolgreich importiert um *Zeit* | Target hat die Feed-Datei in das Inhaltsbereitstellungssystem importiert. Änderungen an Artikelattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in die bereitgestellten Empfehlungen übernommen. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es in Kürze erneut und aktualisieren Sie die Seite, die die Empfehlungen enthält.<br>*Hinweis 1:* Wenn Änderungen an den Attributen eines Artikels dazu führen, dass ein Artikel aus Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort übernommen. Wenn ein Artikel neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Artikel *nicht mehr* aus Empfehlungen ausgeschlossen wird, wird dies erst ab der nächsten Algorithmus-Aktualisierung angezeigt, die innerhalb von 24 Stunden durchgeführt wird.<br>*Hinweis 2:* Wenn dieser Status angezeigt wird, sind die Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche der Katalogsuche zu sehen. In der Katalogsuche wird ein separater Status aufgeführt, der angibt, wann der Katalog zuletzt aktualisiert wurde. |
 | Index konnte nicht verwendet werden | Die Index-Operation ist fehlgeschlagen. Bitte versuchen Sie es erneut. |
 | Server nicht gefunden | FTP- oder URL-Speicherorte sind ungültig oder nicht erreichbar. |
 
