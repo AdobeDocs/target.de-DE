@@ -2,12 +2,12 @@
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Verwenden Sie Adobe Target-Audiences, um Benutzer anhand ihres geografischen Standortes auszuwählen (inklusive Land, Bundesland, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber).
 title: 'Geo  '
-feature: null
+feature: audiences
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 88%
@@ -149,7 +149,7 @@ Vor diesem Vorgang müssen Sie alle Cookies entfernen.
 
 Puerto Rico, Hongkong und andere Gebiete werden als separate Länderwerte verarbeitet.
 
-**Does[!DNL Target]capture (and store) information such as Zip Codes when activity is targeted with geo-location targeting capabilities?**
+**Erfasst (und speichert)[!DNL Target]Informationen wie Postleitzahlen, wenn die Aktivität auf Geolocation-Targeting-Funktionen ausgerichtet ist?**
 
 Nein, [!DNL Target] verwendet nur für die Dauer der Sitzung geografische Daten, dann werden die Daten verworfen.
 
