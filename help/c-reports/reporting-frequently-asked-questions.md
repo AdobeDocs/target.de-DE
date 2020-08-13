@@ -2,11 +2,11 @@
 keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: Liste der häufig gestellten Fragen zur Berichterstellung in Adobe Target
 title: Häufig gestellte Fragen zur Berichterstellung in Adobe Target
-feature: null
+feature: reports
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 31%
@@ -32,16 +32,16 @@ Ein Besucher wird in das Segment Neue Besucher einbezogen, wenn eine der folgend
 
 ### Zurückkehrende Besucher
 
-The visitor is included in the Returning Visitors segment if the user previously visited the site, left for at least 30 minutes, and returned to the site again with the same cookies. Solange ein Besucher innerhalb der Lebensdauer seines Profils zurückkehrt, ist er ein wiederkehrender Besucher.
+Der Besucher wird im Segment &quot;Rückkehrende Besucher&quot;enthalten, wenn der Benutzer die Site zuvor besucht hat, mindestens 30 Minuten lang verlassen hat und mit denselben Cookies erneut zur Site zurückkehrt. Solange ein Besucher innerhalb der Lebensdauer seines Profils zurückkehrt, ist er ein wiederkehrender Besucher.
 
-Suppose your profile lifetime is set for 14 days (the default). A visitor is included in the Returning Visitors segment if the following conditions are met:
+Angenommen, die Lebensdauer Ihres Profils ist auf 14 Tage eingestellt (Standard). Ein Besucher wird in das Segment &quot;Rückkehrende Besucher&quot;aufgenommen, wenn die folgenden Bedingungen erfüllt sind:
 
 * A visitor visits the site for the first time and is recorded as a New Visitor.
 * Der Besucher verlässt die Site, gibt aber sechs Tage später zurück.
 
-Da die Lebensdauer des Profils auf 14 Tage festgelegt ist, ist dieser Besucher im Segment &quot;Rückkehrende Besucher&quot;enthalten. Note that if the visitor has deleted cookies within that six-day period, that visitor will be included in the New Visitors segment.
+Da die Lebensdauer des Profils auf 14 Tage festgelegt ist, ist dieser Besucher im Segment &quot;Rückkehrende Besucher&quot;enthalten. Beachten Sie, dass, wenn der Besucher innerhalb dieses Zeitraums von sechs Tagen Cookies gelöscht hat, dieser Besucher in das Segment &quot;Neue Besucher&quot;aufgenommen wird.
 
-### Examples that explain discrepancies between metric counts
+### Beispiele zur Erklärung von Diskrepanzen zwischen Metrikwerten
 
 **Example 1**: If these two segments are applied to an activity, the New Visitors segment and the Returning Visitors segment do not always add up to the total number of visitors.
 
@@ -56,9 +56,9 @@ Dieser Besucher wird als ein Besucher in der Gesamtanzahl der Besucher der Aktiv
 
 Beispiel:
 
-Eine Reihe neuer Besucher besuchen Ihre Site und sind für eine Aktivität qualifiziert. These new visitors are counted towards the New Visitors segment. All of these visitors also recorded a visit into that activity.
+Eine Reihe neuer Besucher besuchen Ihre Site und sind für eine Aktivität qualifiziert. Diese neuen Besucher werden für das Segment &quot;Neue Besucher&quot;gezählt. Alle diese Besucher verzeichneten auch einen Besuch in dieser Aktivität.
 
-Some visitors hit the conversion metric, which was configured as &quot;Increment Count &amp; Keep User in Activity.&quot; Suppose some of these users hit the conversion metric multiple times, the conversion metric won&#39;t increase. Given that setup, however, some users might hit the conversion metric and then navigate back to the home page, qualifying into the activity again to record a new visit.
+Einige Besucher trafen die Konversionsmetrik, die als &quot;Anzahl erhöhen und Benutzer in Aktivität halten&quot;konfiguriert wurde. Nehmen wir an, dass einige dieser Benutzer die Konversionsmetrik mehrmals treffen, wird die Konversionsmetrik nicht erhöht. Angesichts dieser Konfiguration könnten einige Benutzer jedoch die Konversionsmetrik treffen und dann zur Startseite zurückkehren, wodurch sie sich erneut zur Aktivität berechnen, um einen neuen Besuch aufzuzeichnen.
 
 ## Warum enthalten meine [!UICONTROL Erlebnis-Targeting] (XT)-Berichte Metriken für Kontrollerlebnisse?
 
@@ -96,15 +96,15 @@ So ändern Sie die Umgebung für einen Aktivitätsbericht:
 
 Weitere Informationen zu Umgebungen finden Sie unter [Hosts](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
-## Why is the traffic split between my experiences uneven in my A/B or MVT activity? {#uneven}
+## Warum ist der Traffic zwischen meinen Erlebnissen ungleich in meiner A/B- oder MVT-Aktivität? {#uneven}
 
-For example, I set the traffic split to be 50/50 or 25/25/25/25 but I&#39;m seeing a vastly different distribution between experiences in the reporting. Es gibt eine Reihe erklärbarer Gründe für die ungleichmäßige Anzahl von Besuchern in [!DNL Target] Berichte:
+So setzte ich die Traffic-Aufteilung auf 50/50 oder 25/25/25/25 ein, sehe aber eine sehr unterschiedliche Verteilung der Erlebnisse im Berichte. Es gibt eine Reihe erklärbarer Gründe für die ungleichmäßige Anzahl von Besuchern in [!DNL Target] Berichte:
 
-* Wenn eine [!DNL Target] [!DNL Target] Aktivität zum ersten Mal gestartet wird, kann die Traffic-Verteilung aufgrund der Edge-Knotenarchitektur, die zur Optimierung des Experience Versand verwendet wird, ungleich sein. The best practice is to give an activity some time to collect additional data and the distribution will normalize. Weitere Informationen zu [!DNL Adobe Target] Architektur und Edge-Knoten finden Sie unter [Funktionsweise](/help/c-intro/how-target-works.md)von Adobe Target.
-* Wenn Sie sich in [!DNL Target] oder [!DNL Analytics] mit der Metrik &quot; **[!UICONTROL Besuche]** [!DNL Target] &quot;befinden, denken Sie daran, dass es sich um ein Besucher-basiertes System handelt und die Traffic-Verteilung für einen A/B- oder MVT-Test auf der Ebene des Besuchers zugewiesen wird. Wenn Sie also die Ergebnisse der Aktivität mithilfe der Metrik &quot; **[!UICONTROL Besuche]** &quot;untersuchen, kann die Traffic-Verteilung ungleich erscheinen, da bestimmte Besucher möglicherweise mehrere Besuche haben. Visitors is the standard normalizing metric when evaluating activity performance.
-* Die beste Methode für A/B- und MVT-Tests besteht darin, Traffic-Aufteilungen gleichmäßig zu halten. Die Änderung der Traffic-Verteilung zwischen Erlebnissen (z. B. 90/10 bis 50/50) während eines Tests kann zu uneinheitlichen Besuchern über Erlebnisse hinweg führen. Das geringere Traffic-Erlebnis wird möglicherweise nie &quot;aufholen&quot;.
+* Wenn eine [!DNL Target] [!DNL Target] Aktivität zum ersten Mal gestartet wird, kann die Traffic-Verteilung aufgrund der Edge-Knotenarchitektur, die zur Optimierung des Experience Versand verwendet wird, ungleich sein. Die beste Vorgehensweise ist, einer Aktivität Zeit zur Erhebung zusätzlicher Daten einzuräumen, und die Verteilung normalisiert sich. Weitere Informationen zu [!DNL Adobe Target] Architektur und Edge-Knoten finden Sie unter [Funktionsweise](/help/c-intro/how-target-works.md)von Adobe Target.
+* Wenn Sie sich in [!DNL Target] oder [!DNL Analytics] mit der Metrik &quot; **[!UICONTROL Besuche]** [!DNL Target] &quot;befinden, denken Sie daran, dass es sich um ein Besucher-basiertes System handelt und die Traffic-Verteilung für einen A/B- oder MVT-Test auf der Ebene des Besuchers zugewiesen wird. Wenn Sie also die Ergebnisse der Aktivität mithilfe der Metrik &quot; **[!UICONTROL Besuche]** &quot;untersuchen, kann die Traffic-Verteilung ungleich erscheinen, da bestimmte Besucher möglicherweise mehrere Besuche haben. Besucher ist die standardmäßige Normalisierungsmetrik bei der Bewertung der Aktivität.
+* Die beste Methode für A/B- und MVT-Tests besteht darin, Traffic-Aufteilungen gleichmäßig zu halten. Die Änderung der Traffic-Verteilung zwischen Erlebnissen (z. B. 90/10 bis 50/50) während eines Tests kann zu uneinheitlichen Besuchern über Erlebnisse hinweg führen. The lower traffic experience may never &quot;catch up.&quot;
 * Wenn Sie die oben genannten Best Practices befolgen und sich die Traffic-Aufteilung im Laufe der Zeit nicht normalisiert, sollten Sie Folgendes überprüfen:
 
-   * Verwenden Sie die neueste &quot;at.js&quot;-Bibliothek? Weitere Informationen zur aktuellen Version und den zugehörigen Versionshinweisen finden Sie unter [at.js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+   * Are you using the latest at.js library? For more information about the current version and associated release notes, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-   * Ist es ein Umleitungstest? Falsche Zeiträume, in denen Tags auf der Seite ausgelöst werden, können zu ungleichen Traffic-Aufteilungen führen, insbesondere wenn sie [!DNL Analytics] als Datenquelle für eine [!DNL Target] Aktivität verwendet werden. Weitere Informationen zur Behebung einer ungleichmäßigen Traffic-Verteilung bei einer Umleitungs-Aktivität mit Analytics for Zielgruppe (A4T) finden Sie unter [Umleitungs-Angebot - FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)zu A4T.
+   * Is it a redirect test? Incorrect timing of tags firing on the page can lead to uneven traffic splits, especially when using [!DNL Analytics] as the data source for a [!DNL Target] activity. For details to remedy uneven traffic distribution on a redirect activity with Analytics for Target (A4T), see [Redirect offers - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
