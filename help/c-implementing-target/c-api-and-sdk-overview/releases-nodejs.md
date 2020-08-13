@@ -2,10 +2,10 @@
 keywords: at.js;sdk;node.js;release;updates;sdks;server side;serverside;server-side;nodejs
 description: Versionshinweise zu Adobe Targets serverseitigen APIs.
 title: Versionshinweise zum Adobe Target-SDK "Node.js".
-feature: null
+feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -23,15 +23,15 @@ Dieses Node.js-SDK unterstützt Sie bei der einfachen Integration [!DNL Target] 
 
 Das Node.js-SDK führt Best Practices ein und entfernt bei der Integration mit [!DNL Target] über unsere Versand-API Komplexität, sodass sich Ihre Entwicklungsteams auf die Geschäftslogik konzentrieren können.
 
-Learn more about the Target Node.js SDK on the Adobe Tech Blog - [Open Sourcing the New Adobe Target Node.js SDK](https://medium.com/adobetech/open-sourcing-the-new-adobe-target-node-js-sdk-b6feafd828bc).
+Erfahren Sie mehr über das Zielgruppe Node.js SDK im Adobe Tech Blog - [Open Sourcing the New Adobe Target Node.js SDK](https://medium.com/adobetech/open-sourcing-the-new-adobe-target-node-js-sdk-b6feafd828bc).
 
-## Version 1.0.0 (October 9, 2019)
+## Version 1.0.0 (9. Oktober 2019)
 
-The following sections provide more information about version 1.0.0 of the Target Node.js SDK:
+Die folgenden Abschnitte enthalten weitere Informationen über Version 1.0.0 des Zielgruppe Node.js SDK:
 
 ### Hinzugefügt:
 
-* Target View Delivery v1 API support, including Page Load and View prefetch.
+* API-Unterstützung für Zielgruppe Ansicht Versand v1, einschließlich Seitenladevorgang und Ansicht-Vorabruf.
 * Volle Unterstützung für die Bereitstellung aller im Visual Experience Composer (VEC) erstellten Angebot.
 * Unterstützung für Vorab-Abruf und Benachrichtigungen zur Leistungsoptimierung durch Zwischenspeicherung vorab abgerufener Inhalte.
 * Unterstützung für die Leistungsoptimierung bei Hybrid- [!DNL Target] Integrationen, `serverState` wenn sowohl serverseitig als auch clientseitig bereitgestellt [!DNL Target] wird.
@@ -41,9 +41,9 @@ The following sections provide more information about version 1.0.0 of the Targe
 * Open Source auf GitHub als [Zielgruppe Node.js SDK](https://github.com/adobe/target-nodejs-sdk).
 * Neue API-Methode [](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientsendnotifications) sendNotifications() zum Senden von angezeigten/angeklickten Benachrichtigungen an [!DNL Target] Inhalte, die über [getOffers()](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers)im Voraus abgerufen werden.
 * Vereinfachte Erstellung von Ansicht Versand-API-Anfragen mit automatischer Feldausfüllung mit Standardeinstellungen (z. B. `request.id``request.context`usw.).
-* Validierung der Argumente der SDK-API-Methode.
+* Validation of SDK API method arguments.
 * README, Beispiele und Komponententests wurden aktualisiert.
-* Neuer CI-Fluss mit GitHub-Aktionen eingerichtet.
+* New CI flow set up using GitHub Actions.
 * CoC-, Beitragsrichtlinien-, PR- und Ausgabenvorlagen hinzugefügt
 
 ### Änderung von
@@ -52,11 +52,11 @@ The following sections provide more information about version 1.0.0 of the Targe
 * Umfassende Umgestaltung, Ersetzen der Zielgruppe BatchMbox v2 API durch die Zielgruppe Ansicht Versand v1 API.
 * [create() API-Methodenargumente](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientcreate) wurden geändert, wodurch redundante Verschachtelungen entfernt wurden (siehe Deklaration der alten Methode [hier](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientcreate)).
 * [Die Argumente der getOffers()-API-Methode](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) wurden geändert (siehe Deklaration der alten Methode [hier](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffers)).
-* Die `getTargetCookieName()` API-Methode wurde durch `TargetCookieName` Accessor ersetzt. Siehe [TargetClient-Dienstprogrammzugänge](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors).
+* The `getTargetCookieName()` API method has been replaced with `TargetCookieName` accessor. Siehe [TargetClient-Dienstprogrammzugänge](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors).
 * The `getTargetLocationHintCookieName()` API method has been replaced with `TargetLocationHintCookieName` accessor.  See [TargetClient utility accessors](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors).
 
 ### Entfernt
 
-* API-Unterstützung für Zielgruppe BatchMbox v2.
-* Die API-Methode [](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) getOffer() wurde entfernt. Verwenden Sie stattdessen die API-Methode [](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) getOffers().
+* Target BatchMbox v2 API support.
+* The [getOffer() API method](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) has been removed, use the [getOffers() API method](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) instead.
 
