@@ -2,10 +2,10 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
 description: Liste häufig gestellter Fragen zu Adobe Target Recommendations-Aktivitäten.
 title: Häufig gestellte Fragen zu Adobe Target Recommendations
-feature: null
+feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 84%
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 # ![PREMIUM](/help/assets/premium.png) FAQ zu Recommendations{#recommendations-faq}
 
-Liste häufig gestellter Fragen zu Adobe Target Recommendations-Aktivitäten.
+List of frequently asked questions (FAQs) about Adobe Target Recommendations activities.
 
 ## Wie lange dauert es, bis Aktualisierungen an Elementen in meinem Katalog auf meiner Site erscheinen?
 
@@ -163,7 +163,7 @@ In der Abfragezeichenfolge können Sie Entität-IDs für Entitäten übermitteln
 
 Verwenden Sie den Mbox-Parameter `excludedIds`, um die Ausschlussfunktion zu aktivieren. Dieser Parameter verweist auf eine Liste kommagetrennter Entitäts-IDs. Zum Beispiel `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Der Wert wird übermittelt, wenn Empfehlungen angefordert werden.
 
-Der Ausschluss wird nur für den Aufruf der aktuellen Zielgruppe durchgeführt. Elemente werden bei nachfolgenden Zielgruppen-Aufrufen nur dann ausgeschlossen, wenn der `excludedIds` Wert erneut übergeben wird. Um Artikel im Warenkorb von Empfehlungen auf jeder Seite auszuschließen, geben Sie den `excludedIds` Wert weiterhin auf jeder Seite weiter.
+The exclusion is performed for the current Target call only; items are not excluded on subsequent Target calls unless the `excludedIds` value is passed again. Um Artikel im Warenkorb von Empfehlungen auf jeder Seite auszuschließen, geben Sie den `excludedIds` Wert weiterhin auf jeder Seite weiter.
 
 >[!NOTE]
 >
@@ -173,9 +173,9 @@ To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the 
 
 Diese Funktion ist für neu erstellte Empfehlungen standardmäßig aktiviert. Bestehende Empfehlungen müssen gespeichert werden, um eine Unterstützung für dynamisch ausgeschlossene Entitäten zu gewährleisten.
 
-## What does the NO_CONTENT response sometimes returned in the Recommendations content trace mean?
+## Was bedeutet die Antwort NO_CONTENT manchmal, die im Recommendations Content Trace zurückgegeben wird?
 
-NO_CONTENT wird zurückgegeben, wenn für die angeforderte Algorithmus- und Schlüsselkombination keine Empfehlungen verfügbar sind. Im Allgemeinen tritt dies auf, wenn Backups für den Algorithmus deaktiviert sind und mindestens einer der folgenden Punkte ebenfalls zutrifft:
+NO_CONTENT is returned when recommendations are unavailable for the requested algorithm and key combination. Generally speaking, this occurs when backups are disabled for the algorithm and one or more of the following is also true:
 
 * Die Ergebnisse sind noch nicht bereit.
 
@@ -183,12 +183,12 @@ NO_CONTENT wird zurückgegeben, wenn für die angeforderte Algorithmus- und Schl
 
 * Die Ergebnisse sind für die angeforderte Algorithmus-/Schlüsselkombination bereit, jedoch noch nicht auf dem nächsten Edge-Server zwischengespeichert.
 
-   Die soeben angeforderte Anforderung initiiert einen Zwischenspeicherungsvorgang, der nach einigen Seitenneuladungen und/oder einigen Minuten nach Ablauf gelöst werden sollte.
+   The request just made will initiate a caching operation, so this should resolve itself after a few page reloads and/or a few minutes pass.
 
 * Die Ergebnisse sind bereit, aber für den bereitgestellten Schlüsselwert nicht verfügbar.
 
-   Dies tritt in der Regel auf, wenn Empfehlungen für ein Element angefordert werden, das nach der Ausführung des letzten Algorithmus zum Katalog hinzugefügt wurde, und sich nach der Ausführung des nächsten Algorithmus selbst auflösen.
+   This typically occurs when requesting recommendations for an item that was added to the catalog after the most recent algorithm run and will resolve itself after the next algorithm run.
 
-* Die teilweise Vorlagenwiedergabe ist deaktiviert und es stehen nicht genügend Ergebnisse zum Ausfüllen der Vorlage zur Verfügung.
+* Die teilweise Vorlagenwiedergabe ist deaktiviert und es sind nicht genügend Ergebnisse zum Ausfüllen der Vorlage verfügbar.
 
    Dies tritt in der Regel auf, wenn Sie über eine dynamische Einschlussregel verfügen, mit der viele Elemente aus den möglichen Ergebnissen aggressiv Filter werden. Um dies zu vermeiden, aktivieren Sie Backups und wenden Sie die Einschlussregel nicht auf Backups an oder verwenden Sie die Kriterien in einer Sequenz mit einem weniger aggressiv gefilterten Kriterium.
