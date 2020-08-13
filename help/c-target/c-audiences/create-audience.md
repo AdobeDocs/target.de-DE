@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience
 description: Sie können benutzerdefinierte Zielgruppen erstellen, diese in der Target-Bibliothek speichern und für Ihre Aktivitäten verwenden. Sie können eine bereits bestehende Zielgruppe kopieren und anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen und mehrere Zielgruppen miteinander zu kombinieren.
 title: Erstellen von Zielgruppen in Target
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 99%
@@ -60,7 +60,7 @@ Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome 
 
    Neu erstellte Zielgruppen werden erst nach einigen Sekunden Verarbeitungszeit in der Liste angezeigt. Falls die Zielgruppe nicht sofort in der Liste angezeigt wird, können Sie danach suchen oder die Liste aktualisieren.
 
-## Schulungsvideo: Erstellen von Zielgruppen ![Overview badge](/help/assets/overview.png)
+## Schulungsvideo: Erstellen von Zielgruppen ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Erstellung von Zielgruppen.
 
