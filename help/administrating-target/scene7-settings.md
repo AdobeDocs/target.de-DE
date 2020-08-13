@@ -1,12 +1,12 @@
 ---
 description: Target Standard kann in Adobe Dynamic Media Classic (zuvor Scene7) integriert werden, um Digital Asset Management (DAM) in der Inhaltsbibliothek zu ermöglichen.
-title: Integration von Dynamic Media Classic configuration integration
-feature: null
+title: Integration von Dynamic Media Classic Konfigurationsintegration
+feature: administration general
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 29%
@@ -34,7 +34,7 @@ To integrate with [!DNL Dynamic Media Classic] ([!DNL Scene7]), you need to spec
 
 1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Scene7-Konfiguration]**.
 
-   ![Scene7 page](/help/administrating-target/assets/scene7.png)
+   ![Scene7-Seite](/help/administrating-target/assets/scene7.png)
 
 1. Specify the following [!DNL Dynamic Media Classic] account information:
 
@@ -42,7 +42,7 @@ To integrate with [!DNL Dynamic Media Classic] ([!DNL Scene7]), you need to spec
 
    **Adhoc-Ordner:** Der Speicherort für Inhalte, die sich außerhalb des Ordners &quot;Zielgruppe&quot;befinden und manuell hochgeladen werden [!DNL Dynamic Media].
 
-   **E-Mail-Adresse:** Die für die Anmeldung bei [!DNL Dynamic Media Classic] ([!DNL Scene7]) verwendete E-Mail-Adresse.
+   **Email address:** The email address used to log in to [!DNL Dynamic Media Classic] ([!DNL Scene7]).
 
    **Kennwort:** Das für die Anmeldung bei [!DNL Dynamic Media Classic] ([!DNL Scene7]) verwendete Kennwort.
 
