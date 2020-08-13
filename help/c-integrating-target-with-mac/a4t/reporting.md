@@ -2,12 +2,12 @@
 keywords: analytics for target;a4t;analytics as the reporting source
 description: Durch die Verwendung von Analytics als Berichtsquelle für Target (A4T) erhalten Sie Zugriff auf Analytics-Berichte für Ihre Target-Aktivitäten.
 title: A4T-Reporting
-feature: null
+feature: a4t reports
 subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 35%
@@ -37,11 +37,11 @@ When the [!UICONTROL Select] operation is used and you sort on *Entrants*, then 
 
 ## Berichte in Analytics  {#analytics}
 
-In [!DNL Analytics], there are several dimensions and metrics made available after the A4T integration is enabled.
+Darüber [!DNL Analytics]hinaus stehen nach Aktivierung der A4T-Integration verschiedene Dimensionen und Metriken zur Verfügung.
 
 ### Dimensionen
 
-* [!UICONTROL Analytics für Zielgruppe] - Die übergeordnete ID, die durch die Integration weitergegeben wird. The format of this dimension is `Activity ID:Experience ID:3rd ID`. Die folgenden Dimensionen sind Klassifizierungen dieser Dimension.
+* [!UICONTROL Analytics für Zielgruppe] - Die übergeordnete ID, die durch die Integration weitergegeben wird. Das Format dieser Dimension ist `Activity ID:Experience ID:3rd ID`festgelegt. Die folgenden Dimensionen sind Klassifizierungen dieser Dimension.
 * [!UICONTROL Target Activities]
 * [!UICONTROL Target-Erlebnisse]
 * [!UICONTROL Zielgruppe Aktivität] > [!UICONTROL Erlebnis]
@@ -50,9 +50,9 @@ In [!DNL Analytics], there are several dimensions and metrics made available aft
 ### Metriken
 
 * [!UICONTROL Aktivitäten-Impressionen] - Entspricht der [!UICONTROL Anzahl der Teilnehmer] im [!DNL Target] Bericht.
-* [!UICONTROL Aktivitäten-Konversionen] - Entspricht der [!UICONTROL benutzerspezifischen Konversionsnummer] im [!DNL Target] Bericht.
+* [!UICONTROL Activity Conversions] - Matches the [!UICONTROL Custom Conversions] number in the [!DNL Target] report.
 
-In [!DNL Analysis Workspace], use the [!UICONTROL Analytics for Target] panel to analyze your [!DNL Target] activities and experiences with lift &amp; confidence. Weitere Informationen finden Sie im Bedienfeld [&quot;](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Zielgruppe&quot;(A4T) im *Analytics-Tools-Handbuch*.
+Verwenden Sie [!DNL Analysis Workspace]das Bedienfeld [!UICONTROL Analytics für Zielgruppen] , um Ihre [!DNL Target] Aktivitäten und Erlebnisse mit Steigerung und Konfidenz zu analysieren. Weitere Informationen finden Sie im Bedienfeld [&quot;](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Zielgruppe&quot;(A4T) im *Analytics-Tools-Handbuch*.
 
 >[!IMPORTANT]
 >
