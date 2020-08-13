@@ -2,11 +2,11 @@
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
 description: Informationen zur Funktion adobe.target.trackEvent(options) für die JavaScript-Bibliothek von Adobe Target at.js.
 title: Informationen zur Funktion adobe.target.trackEvent(options) für die JavaScript-Bibliothek von Adobe Target at.js.
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Hier finden Sie die Einzelheiten zur API:
 | mbox | Zeichenfolge | Ja | Name der Mbox |
 | selector | Zeichenfolge | Nein | CSS-Selektoren für die Ermittlung der HTML-Elemente Die Ereignislistener werden an die gefundenen Elemente angefügt.. |
 | Typ | Zeichenfolge | Nein | Stellt einen registrierten Ereignistyp dar. Dabei kann es sich um HTML-bekannte Ereignisse wie „click“, „mousedown“ und so weiter sowie benutzerdefinierte HTML-Ereignisse handeln. |
-| preventDefault | Boolesch | Nein | Gibt an, ob `event.preventDefault()` im Rückruf des Ereignislisteners verwendet werden soll. Standard ist „false“.<br>**Hinweis:**Nur`form[submit] and `a[click]werden unterstützt. Andere Szenarien werden aufgrund der Komplexität und der sehr großen Anzahl an zu unterstützenden Szenarien nicht unterstützt. |
+| preventDefault | Boolesch | Nein | Gibt an, ob `event.preventDefault()` im Rückruf des Ereignislisteners verwendet werden soll. Standard ist „false“.<br>**Hinweis:** Nur `form[submit] and `a[click] werden unterstützt. Andere Szenarien werden aufgrund der Komplexität und der sehr großen Anzahl an zu unterstützenden Szenarien nicht unterstützt. |
 | params | Objekt | Nein | Mbox-Parameter Ein Objekt aus Schlüssel-Wert-Paaren mit der folgenden Struktur:<br>`{ "param1": "value1", "param2": "value2"}` |
 | Zeitüberschreitung | Nummer | Nein | Zeitüberschreitung in Millisekunden<br>Wenn nichts angegeben, wird der Standardwert verwendet:<br>`...timeoutInSeconds: 0.15...}` |
 | success | Funktion | Nein | Eine Rückruffunktion, mit der signalisiert wird, dass das Ereignis gemeldet wurde |
