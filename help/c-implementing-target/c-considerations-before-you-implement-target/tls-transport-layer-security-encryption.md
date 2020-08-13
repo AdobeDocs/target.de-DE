@@ -2,11 +2,11 @@
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: Informationen zu Änderungen in Bezug auf die Verwendung von TLS (Transport Layer Security), die durch Adobe und Target vorgenommen werden, um den höchsten Sicherheitsstandards gerecht zu werden und die Sicherheit von Kundendaten zu fördern.
 title: Änderungen der TLS-Verschlüsselung (Transport Layer Security)
-feature: null
+feature: privacy and security
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 60%
@@ -16,7 +16,7 @@ ht-degree: 60%
 
 # Änderungen der TLS-Verschlüsselung (Transport Layer Security){#tls-transport-layer-security-encryption-changes}
 
-Information about changes to how Adobe and Adobe Target use TLS (Transport Layer Security) to maintain the highest security standards and promote the safety of customer data.
+Informationen über Änderungen bei der Verwendung von TLS (Transport Layer Security) durch Adobe und Adobe Target, um höchste Sicherheitsstandards zu gewährleisten und die Sicherheit von Kundendaten zu fördern.
 
 Transport Layer Security (TLS) ist das am weitesten verbreitete Sicherheitsprotokoll, das aktuell in Webbrowsern und anderen Anwendungen Verwendung findet, bei denen über ein Netzwerk übertragene Daten geschützt werden müssen. Um die Sicherheitsstandards von Adobe einzuhalten, muss die Unterstützung für ältere Protokolle beendet und durch TLS 1.2 als obligatorisches Sicherheitsprotokoll ersetzt werden, damit die Daten durch die neueste und sicherste Version des Protokolls geschützt sind.
 
@@ -34,13 +34,13 @@ Adobe führt TLS 1.2 schrittweise ein. Kunden, deren Domänen bereits mit 1.2 k
 
 In dieser Übergangsphase sollten keine Probleme auftreten. Wenn der VEC eine Site, die zuvor funktioniert hat, nicht mehr lädt,  [senden Sie eine Anfrage an den Kundendienst](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Geben Sie den Übergang zu TLS 1.2 als mögliche Ursache an.
 
-Wenn Sie jedoch einer der Kunden sind, die TSL 1.1 nutzen, ohne TLS 1.2 zu unterstützen, sollten Sie den Umstieg Ihrer Domänen/Infrastruktur auf TLS 1.2 planen. Wir werden das TLS 1.1-Protokoll bis zum 1. März 2020 weiterhin unterstützen. Starting March 1, 2020, Target will not support the TLS 1.1 protocol to be used for the VEC via the Enhanced Experience Composer capability.
+Wenn Sie jedoch einer der Kunden sind, die TSL 1.1 nutzen, ohne TLS 1.2 zu unterstützen, sollten Sie den Umstieg Ihrer Domänen/Infrastruktur auf TLS 1.2 planen. Wir werden das TLS 1.1-Protokoll bis zum 1. März 2020 weiterhin unterstützen. Ab dem 1. März 2020 unterstützt Zielgruppe das TLS 1.1-Protokoll, das über die Enhanced Experience Composer-Funktion für VEC verwendet werden soll, nicht.
 
 Auch wenn allen Kunden der Umstieg auf TLS 1.2 empfohlen wird – falls Sie als neuer Kunde TLS 1.2 *NICHT* unterstützen, teilen Sie dem Kundendienst mit, dass Sie TLS 1.1 für Enhanced Experience Composer verwenden müssen. However, please plan to move to TLS 1.2 as you will also not be supported beyond March 1, 2020.
 
 ## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
 
-Ab dem 1. März 2020 wird TLS 1.1 nicht mehr von Zielgruppen-Servern unterstützt. Mit dieser Änderung akzeptieren Zielgruppen-Server keine Anfragen von Besuchern mit älteren Geräten oder Webbrowsern, die TLS 1.2 (oder höher) nicht unterstützen. Ältere Geräte und Browser, die nur TLS 1.1 unterstützen (oder standardmäßig TLS 1.1 unterstützen), erhalten daher keine Aktivitäten von Adobe Target. Standardinhalte der Site werden gerendert.
+Starting March 1, 2020, Target servers will no longer support TLS 1.1. With this change, Target servers will no longer accept requests from visitors with older devices or web browsers that do not support TLS 1.2 (or later). Ältere Geräte und Browser, die nur TLS 1.1 unterstützen (oder standardmäßig TLS 1.1 unterstützen), erhalten daher keine Aktivitäten von Adobe Target. Standardinhalte der Site werden gerendert.
 
 Zu den betroffenen älteren Geräten und Browsern gehören:
 
@@ -52,11 +52,11 @@ Zu den betroffenen älteren Geräten und Browsern gehören:
 * Internet Explorer 10 unter Windows Phone 8.0
 * Safari 6.0.4/OS X 10.8.4 und frühere Versionen
 
-Beachten Sie bei der Planung dieser Änderung Folgendes (beachten Sie, dass die Frist vom 1. März 2020 alle diese Punkte betrifft):
+As you plan for this change, consider the following (note that the March 1, 2020 deadline affects all of these items):
 
 * Sie müssen sicherstellen, dass Ihre Standardsite vorbereitet ist und auf kompatiblen Geräten und Browsern genutzt werden kann.
 * Beachten Sie, dass die Anzahl der Besucher in Ihren Target-Berichten geringfügig zurückgehen kann.
-* You might need to change audiences created specifically to target older devices or browsers that do not support TLS 1.2. Delivery to those devices and browsers will no longer work.
+* Möglicherweise müssen Sie Audiencen ändern, die speziell für die Zielgruppe älterer Geräte oder Browser erstellt wurden, die TLS 1.2 nicht unterstützen. Versand zu diesen Geräten und Browsern funktioniert nicht mehr.
 
 Weitere Informationen zu unterstützten Browsern und Versionen finden Sie unter  [Unterstützte Browser](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
@@ -87,11 +87,11 @@ So überprüfen Sie die TLS-Version auf Ihrer Website mit Google Chrome:
 
 >[!NOTE]
 >
->Diese Anweisungen sind ab der Veröffentlichung aktuell und können geändert werden. Eine schnelle Internetsuche sollte helfen, falls sich diese Anweisungen ändern.  Andere Browser haben ähnliche Schritte.
+>Diese Anweisungen sind ab der Veröffentlichung aktuell und können geändert werden. A quick internet search should help should these instructions change.  Andere Browser haben ähnliche Schritte.
 
 ## Erwartetes Verhalten mit Browsern, die TLS-Versionen unter 1.2 unterstützen {#section_B5DA97A34EF248EB927610A5DA71EF2F}
 
-This section describes what to expect with browsers that support TLS versions below 1.2 only when using an at.js or mbox.js implementation. For comparison purposes, this section also describes what to expect with browsers that support TLS 1.2.
+In diesem Abschnitt wird beschrieben, was bei Browsern zu erwarten ist, die TLS-Versionen unter 1.2 nur bei Verwendung einer at.js- oder mbox.js-Implementierung unterstützen. For comparison purposes, this section also describes what to expect with browsers that support TLS 1.2.
 
 ### Central endpoints
 
@@ -104,8 +104,8 @@ This section describes what to expect with browsers that support TLS versions be
 
 | Target-JavaScript-Implementierung | Details |
 |--- |--- |
-| at.js | With TLS 1.0 or TLS 1.1 enabled:<ul><li>Mit Browser-Entwicklungstools wird auf der Registerkarte „Netzwerk“ die Meldung „200 OK“ angezeigt. Das bedeutet, dass die Anfrage erfolgreich war.</li><li>Benutzer sehen die Meldung „Keine sichere Verbindung zu dieser Seite möglich“. In der Nachricht wird erläutert, dass dies möglicherweise daran liegt, dass die Site veraltete oder unsichere TLS-Sicherheitseinstellungen verwendet.</li><li>Es wird kein Konsolenfehler angezeigt.</li><li>Der Standardinhalt wird bereitgestellt.</li></ul>Bei aktiviertem TLS 1.2:<ul><li>Der Angebotsinhalt wird bereitgestellt.</li></ul> |
-| mbox.js | With TLS 1.0 or TLS 1.1 enabled:<ul><li>Mit Browser-Entwicklungstools wird auf der Registerkarte „Netzwerk“ die Meldung „200 OK“ angezeigt. Das bedeutet, dass die Anfrage erfolgreich war.</li><li>Benutzer sehen die Meldung „Keine sichere Verbindung zu dieser Seite möglich“. In der Nachricht wird erläutert, dass dies möglicherweise daran liegt, dass die Site veraltete oder unsichere TLS-Sicherheitseinstellungen verwendet.</li><li>Es wird kein Konsolenfehler angezeigt.</li><li>Der Standardinhalt wird bereitgestellt.</li></ul>Bei aktiviertem TLS 1.2:<ul><li>Der Angebotsinhalt wird bereitgestellt.</li></ul> |
+| at.js | Bei aktivierten TLS 1.0 oder TLS 1.1:<ul><li>Mit Browser-Entwicklungstools wird auf der Registerkarte „Netzwerk“ die Meldung „200 OK“ angezeigt. Das bedeutet, dass die Anfrage erfolgreich war.</li><li>Benutzer sehen die Meldung „Keine sichere Verbindung zu dieser Seite möglich“. In der Nachricht wird erläutert, dass dies möglicherweise daran liegt, dass die Site veraltete oder unsichere TLS-Sicherheitseinstellungen verwendet.</li><li>Es wird kein Konsolenfehler angezeigt.</li><li>Der Standardinhalt wird bereitgestellt.</li></ul>Bei aktiviertem TLS 1.2:<ul><li>Der Angebotsinhalt wird bereitgestellt.</li></ul> |
+| mbox.js | Bei aktivierten TLS 1.0 oder TLS 1.1:<ul><li>Mit Browser-Entwicklungstools wird auf der Registerkarte „Netzwerk“ die Meldung „200 OK“ angezeigt. Das bedeutet, dass die Anfrage erfolgreich war.</li><li>Benutzer sehen die Meldung „Keine sichere Verbindung zu dieser Seite möglich“. In der Nachricht wird erläutert, dass dies möglicherweise daran liegt, dass die Site veraltete oder unsichere TLS-Sicherheitseinstellungen verwendet.</li><li>Es wird kein Konsolenfehler angezeigt.</li><li>Der Standardinhalt wird bereitgestellt.</li></ul>Bei aktiviertem TLS 1.2:<ul><li>Der Angebotsinhalt wird bereitgestellt.</li></ul> |
 
 ### Aktivität, die auf die Audience der Browser-Version (Internet Explorer, Versionen 6, 7 oder 8) zugeschnitten ist
 
@@ -116,4 +116,4 @@ This section describes what to expect with browsers that support TLS versions be
 | Target-JavaScript-Implementierung | Details |
 |--- |--- |
 | at.js | „at.js“ wird erst ab Internet Explorer 10 unterstützt. |
-| mbox.js | With TLS 1.0 or TLS 1.1 enabled:<ul><li>Der Standardinhalt wird bereitgestellt.</li><li>Es werden keine Target-Anfragen gesendet.</li><li>Es wird kein Konsolenfehler angezeigt.</li><li>Mit Browser-Entwicklungstools wird auf der Registerkarte „Netzwerk“ die Meldung „200 OK“ angezeigt. Das bedeutet, dass die Anfrage erfolgreich war.</li></ul>Bei aktiviertem TLS 1.2:<ul><li>Der Angebotsinhalt wird bereitgestellt.</li></ul> |
+| mbox.js | Bei aktivierten TLS 1.0 oder TLS 1.1:<ul><li>Der Standardinhalt wird bereitgestellt.</li><li>Es werden keine Target-Anfragen gesendet.</li><li>Es wird kein Konsolenfehler angezeigt.</li><li>Mit Browser-Entwicklungstools wird auf der Registerkarte „Netzwerk“ die Meldung „200 OK“ angezeigt. Das bedeutet, dass die Anfrage erfolgreich war.</li></ul>Bei aktiviertem TLS 1.2:<ul><li>Der Angebotsinhalt wird bereitgestellt.</li></ul> |
