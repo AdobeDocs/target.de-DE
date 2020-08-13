@@ -1,11 +1,11 @@
 ---
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
-description: Konfigurieren Sie den Adobe Target Visual Experience Composer (VEC), indem Sie seine allgemeinen Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
-title: Configure the Adobe Target Visual Experience Composer
-feature: null
+description: Configure the Adobe Target Visual Experience Composer (VEC) by specifying its general settings, mobile viewport configuration, and CSS selectors.
+title: Adobe Target Visual Experience Composer konfigurieren
+feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 51%
@@ -17,7 +17,7 @@ ht-degree: 51%
 
 Configure the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) by specifying its general settings, mobile viewport configuration, and CSS selectors.
 
-Um auf die Konfigurationsseite des [!UICONTROL Visual Experience Composer] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
+To access the [!UICONTROL Visual Experience Composer] configuration page, click **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
 >
@@ -27,13 +27,13 @@ Um auf die Konfigurationsseite des [!UICONTROL Visual Experience Composer] zuzug
 
 ## Allgemeine Einstellungen
 
-You can specify general settings to the Visual Experience Composer.
+Sie können allgemeine Einstellungen für den Visual Experience Composer angeben.
 
 ![Abschnitt &quot;Allgemeine Einstellungen&quot;](/help/administrating-target/assets/general-settings.png)
 
 Die folgenden Einstellungen sind verfügbar:
 
-### Standard-URL
+### Default URL
 
 Die Standard-URL, die von [!UICONTROL Visual Experience Composer] verwendet wird. Dies ist die Standardseite, wie Ihre Startseite, die verwendet wird, wenn Sie ein Erlebnis für jede neue Aktivität einrichten. Sollten Sie keine Standard-URL festlegen, müssen Sie für jede Aktivität bei deren Erstellung eine eigene URL eingeben.
 
@@ -49,9 +49,9 @@ You can also enable the [!UICONTROL Enhanced Experience Composer] at the activit
 
 Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
 
-This option is helpful if, for example:
+Diese Option ist hilfreich, wenn Sie zum Beispiel:
 
-* Your Content Security Policy (CSP) headers allow loading mixed content without the use of proxy servers with the EEC enabled.
+* Ihre CSP-Header (Content Security Policy) ermöglichen das Laden von gemischten Inhalten ohne die Verwendung von Proxyservern mit aktivierter EWG.
 * Ihre HTTP-Website hat in der EWG eine längere Ladezeit, wodurch JavaScript, Bilder usw. länger über einen Proxy geladen werden müssen.
 
 ### Generieren von Erlebnismomentaufnahmen im Flussdiagramm der Aktivität
@@ -104,6 +104,6 @@ In diesem Video finden Sie Informationen zu Kontovoreinstellungen.
 
 >[!NOTE]
 >
->The [!DNL Target] [!UICONTROL Administration] menu UI (formerly [!UICONTROL Setup]) has been redesigned to provide improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. Die Informationen im folgenden Video sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
+>Die Benutzeroberfläche des [!DNL Target] Administrationsmenüs [!UICONTROL (früher] Setup ) wurde überarbeitet, um die Leistung zu verbessern, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu verkürzen und die Benutzerfreundlichkeit im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
