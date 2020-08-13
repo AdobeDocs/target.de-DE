@@ -2,11 +2,11 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: Einige Browser blockieren die Anzeige einer Seite, wenn sicherer Inhalt mit unsicherem Inhalt gemischt wird.
 title: Enabling mixed content in your browser
-feature: null
+feature: vec
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 35%
@@ -18,7 +18,7 @@ ht-degree: 35%
 
 Gemischte Inhalte treten auf, wenn sowohl HTTPS- (sicherer) *als auch* HTTP- (unsicherer) Inhalte geladen werden, um dieselbe Webseite anzuzeigen, und die ursprüngliche Anforderung über HTTPS gesichert war.
 
-Modern browsers might block the display of a page or display warning messages if secure content is mixed with insecure content.
+Moderne Browser können die Anzeige einer Seite oder Warnmeldungen blockieren, wenn sicherer Inhalt mit unsicherem Inhalt gemischt wird.
 
 If the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
 
@@ -42,15 +42,15 @@ Wenn Sie eine Site über eine sichere Verbindung besuchen, prüft Chrome, ob der
 
 Siehe [Diese Seite enthält unsichere Inhalte](https://support.google.com/chrome/answer/1342714?hl=en) in der Google Chrome-Hilfe.
 
-Wenn Sie VEC mit der neuesten Version von Chrome (Version 79.0.3945.117 oder höher) verwenden, müssen Sie Ihre Site-Einstellungen aktualisieren. Visitors to your site do not need to complete these steps.
+Wenn Sie VEC mit der neuesten Version von Chrome (Version 79.0.3945.117 oder höher) verwenden, müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 
-1. Click the lock or caution icon, then click **[!UICONTROL Site settings]**.
+1. Klicken Sie auf das Sperren- oder Warnsymbol und dann auf **[!UICONTROL Site-Einstellungen]**.
 
    ![Site-Einstellungen](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Scroll to **[!UICONTROL Insecure content]**, then use the drop-down list to change &quot;Block (default)&quot; to &quot;Allow.&quot;
+1. Blättern Sie zu **[!UICONTROL Unsicheren Inhalten]** und verwenden Sie dann die Dropdown-Liste, um &quot;Blockieren (Standard)&quot;in &quot;Zulassen&quot;zu ändern.
 
-   ![Unsicherer Inhalt](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
+   ![Insecure content](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
 1. Laden Sie die VEC-Seite neu.
 
@@ -61,11 +61,11 @@ Firefox blockiert standardmäßig Seiten, auf denen sicherer und unsicherer Inha
 1. Geben Sie in Firefox `about:config` in die Adressleiste ein.
 1. Quittieren Sie die in Firefox angezeigte Warnmeldung.
 
-   ![Firefox-Warnung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
+   ![Firefox warning](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
 1. Geben Sie in die Suchleiste `block_active` ein.
 
-   ![Aktive Einstellung für Firefox-Block](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+   ![Firefox block active setting](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
 1. Doppelklicken Sie auf ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
@@ -77,16 +77,16 @@ We recommended that you restart your computer after changing this setting.
 
 ## Enabling mixed content in Microsoft Edge
 
-If you&#39;re visiting a site via a secure connection, Edge verifies that the content on the web page has been transmitted safely.
+Wenn Sie eine Site über eine sichere Verbindung besuchen, prüft Edge, ob der Inhalt auf der Webseite sicher übertragen wurde.
 
 If you are using the VEC with the latest version of Edge, you need to update your site settings. Visitors to your site do not need to complete these steps.
 
 1. Click the lock or caution icon, then click **[!UICONTROL Site Permissions]**.
 
-   ![Site Permissions in Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
+   ![Site-Berechtigungen in Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
 1. Blättern Sie zu **[!UICONTROL Unsicheren Inhalten]** und verwenden Sie dann die Dropdown-Liste, um &quot;Blockieren (Standard)&quot;in &quot;Zulassen&quot;zu ändern.
 
    ![Insecure content](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
 
-1. Laden Sie die VEC-Seite neu.
+1. Reload the VEC page.
