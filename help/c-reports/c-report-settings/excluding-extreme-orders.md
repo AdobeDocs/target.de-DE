@@ -1,11 +1,11 @@
 ---
 keywords: Target;reports;report settings;extreme orders;extreme values
 description: Sie können Extremwerte von Berichten in Adobe Target ausschließen, sodass einige ungewöhnliche Bestellungen Ihre Aktivitäten nicht beeinflussen. Ein Beispiel für eine ungewöhnliche Bestellung ist, wenn ein Trainer Ausrüstungen für eine ganze Mannschaft kauft, anstatt dass einzelne Sportler individuell bestellen.
-title: Extreme Werte in Adobe Target-Berichten ausschließen
-feature: null
+title: Exclude extreme values in Adobe Target reports
+feature: report settings
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 88%
@@ -32,7 +32,7 @@ Wenn ein Wert als extrem markiert wurde, wird der Bestellwert durch den durchsch
 **So schließen Sie extreme Werte aus Ihren Berichten aus:**
 
 1. Öffnen Sie eine Aktivität, die die Metriktypen Umsatz oder Interaktion enthält, und klicken Sie dann auf die Registerkarte **[!UICONTROL Berichte]**.
-1. Klicken Sie auf das Zahnradsymbol.
+1. Click the gear icon.
 
    ![Berichtseinstellungen](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
 
