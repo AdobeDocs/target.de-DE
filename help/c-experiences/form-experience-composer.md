@@ -2,11 +2,11 @@
 keywords: form-based experience composer;form-based composer;refinements
 description: Mit dem formularbasierten Experience Composer können Erlebnisse nicht visuell erstellt werden.
 title: Form-Based Experience Composer
-feature: null
+feature: form-based composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 79%
@@ -35,7 +35,7 @@ Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. W�
 
    When you click in the [!UICONTROL Select Location] box, a list of available locations appears. Wählen Sie einen dieser Standorte aus. Zur Auswahl des globalen Standorts, der über target.js bereitgestellt wurde, wählen Sie „target-global-mbox“.
 
-   Sie können auch einen Standort eingeben, der hier nicht aufgelistet ist. Dies kann sich als nützlich erweisen, wenn die Mbox noch nicht erstellt oder auf einer Seite angezeigt wurde. Geben Sie den Namen des Orts ein. Seien Sie vorsichtig, wenn Sie einen Standort eingeben, der noch nicht vorhanden ist. Wenn die Schreibweise oder Groß-/Kleinschreibung nicht mit der Schreibweise oder Groß-/Kleinschreibung bei Mbox-Aufruf übereinstimmt, dann wird die Aktivität nicht bereitgestellt. Manually entered locations are saved to the list of available locations. Wenn Sie das nächste Mal versuchen, eine manuell eingegebene Position auszuwählen, ist diese in der Dropdown-Liste [!UICONTROL Standort] auswählen für diese Aktivität verfügbar.
+   Sie können auch einen Standort eingeben, der hier nicht aufgelistet ist. Dies kann sich als nützlich erweisen, wenn die Mbox noch nicht erstellt oder auf einer Seite angezeigt wurde. Geben Sie den Namen des Orts ein. Seien Sie vorsichtig, wenn Sie einen Standort eingeben, der noch nicht vorhanden ist. Wenn die Schreibweise oder Groß-/Kleinschreibung nicht mit der Schreibweise oder Groß-/Kleinschreibung bei Mbox-Aufruf übereinstimmt, dann wird die Aktivität nicht bereitgestellt. Manuell eingegebene Orte werden in der Liste der verfügbaren Orte gespeichert. Wenn Sie das nächste Mal versuchen, eine manuell eingegebene Position auszuwählen, ist diese in der Dropdown-Liste [!UICONTROL Standort] auswählen für diese Aktivität verfügbar.
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. W�
 * [Erstellen einer Erlebnis-Targeting-Aktivität](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Erstellen einer Recommendations-Aktivität](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Schulungsvideo: Form-Based Composer ![Tutorial badge](/help/assets/tutorial.png)
+## Schulungsvideo: Form-Based Composer ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Im folgenden Video wird der Form-Based Experience Composer vorgeführt.
 
