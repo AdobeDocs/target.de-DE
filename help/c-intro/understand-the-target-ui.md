@@ -2,11 +2,11 @@
 keywords: target user interface;user interface;ui
 description: Understanding the Adobe Target user interface
 title: Die Benutzeroberfläche der Zielgruppe
-feature: null
+feature: intro
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%
@@ -14,13 +14,13 @@ ht-degree: 28%
 ---
 
 
-# Understand the Target UI
+# Die Benutzeroberfläche der Zielgruppe
 
-The user interface is arranged in a logical and user-friendly format to help you get the most out of [!DNL Adobe Target]. The following brief overview will help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
+Die Benutzeroberfläche ist in einem logischen und benutzerfreundlichen Format angeordnet, damit Sie das Beste aus dem Programm machen [!DNL Adobe Target]können. The following brief overview will help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
 
-The header at the top of the [!DNL Target] UI contains tabs and options to help you navigate the different capabilities of the solution, as well as switch organizations and [!DNL Adobe Experience Cloud] solutions, get help and notifications, manage your [!DNL Adobe] profile, and log out of [!DNL Target].
+Die Kopfzeile oben auf der [!DNL Target] Benutzeroberfläche enthält Registerkarten und Optionen, mit denen Sie durch die verschiedenen Funktionen der Lösung navigieren, Organisationen und [!DNL Adobe Experience Cloud] Lösungen wechseln, Hilfe und Benachrichtigungen abrufen, Ihr [!DNL Adobe] Profil verwalten und sich abmelden können [!DNL Target].
 
-![Kopfzeile der Zielgruppe](/help/c-intro/assets/target-header.png)
+![Target header](/help/c-intro/assets/target-header.png)
 
 The tabs along the left side let you access the various capabilities of [!DNL Target], which we&#39;ll discuss later. Lassen Sie uns Beginn machen, indem wir die Optionen auf der rechten Seite diskutieren, bevor wir in die Register springen.
 
@@ -28,7 +28,7 @@ The tabs along the left side let you access the various capabilities of [!DNL Ta
 
 An *organization* is the entity that enables an administrator to configure groups and users, and to control single sign-on in the [!DNL Adobe Experience Cloud]. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche [!DNL Experience Cloud]-Produkte und -Lösungen umfasst. In den meisten Fällen entspricht die Organisation dem Namen Ihres Unternehmens. Ein Unternehmen kann aber auch aus mehreren Organisationen bestehen.
 
-Select the desired organization the [!UICONTROL Organization] drop-down list if your company has multiple organizations:
+Wählen Sie die gewünschte Organisation in der Dropdown-Liste [!UICONTROL Organisation] aus, wenn Ihre Firma aus mehreren Organisationen besteht:
 
 ![Dropdown-Liste für Unternehmen](/help/c-intro/assets/organizations.png)
 
@@ -40,7 +40,7 @@ Mit dem App-Umschalter können Sie schnell auf die [!DNL Adobe Experience Cloud]
 
 ## Hilfe 
 
-The Help icon lets you access information, videos, blogs, and more to help you use [!DNL Target] more effectively. Sie können ein Support-Ticket erstellen, Support-Telefonnummern finden, Fragen über Twitter stellen oder uns Feedback geben, wie wir vorgehen [!DNL Target] können.
+Über das Hilfesymbol können Sie auf Informationen, Videos, Blogs und mehr zugreifen, um eine [!DNL Target] effizientere Nutzung zu ermöglichen. Sie können ein Support-Ticket erstellen, Support-Telefonnummern finden, Fragen über Twitter stellen oder uns Feedback geben, wie wir vorgehen [!DNL Target] können.
 
 ![Hilfe ](/help/c-intro/assets/help.png)
 
@@ -110,4 +110,4 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Administration]** , um auf die [
 
 Auf den [!UICONTROL Administrationsseiten] können Sie [!DNL Target]Konfigurationseinstellungen für [!UICONTROL Visual Experience Composer] (VEC), Berichte, [!DNL Scene7] Konfiguration, Implementierung, Hosts, Umgebung, Antwort-Token und Benutzer verwalten.
 
-See [Administer Target overview](/help/administrating-target/administrating-target.md) for in-depth information and to learn more about the user interface.
+Detaillierte Informationen und weitere Informationen zur Benutzeroberfläche finden Sie unter Übersicht über die [Verwaltung der Zielgruppe](/help/administrating-target/administrating-target.md) .
