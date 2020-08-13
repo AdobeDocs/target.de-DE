@@ -1,11 +1,11 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Configure the Adobe Target Visual Experience Composer (VEC) by specifying its general settings, mobile viewport configuration, and CSS selectors.
+description: Konfigurieren Sie den Adobe Target Visual Experience Composer (VEC), indem Sie seine allgemeinen Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
 title: Berichte in Adobe Target konfigurieren
-feature: null
+feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 33%
@@ -23,8 +23,8 @@ Auf dieser Seite können Sie die folgenden Einstellungen festlegen:
 
 * Adobe Experience Cloud-Lösung für den Berichte
 * Die für den Berichte zu verwendende Zeitzone
-* Die für den Berichte zu verwendende Währung
-* IP-Adressen, die vom Berichte ausgeschlossen werden
+* The currency to use for reporting
+* IP addresses to exclude from reporting
 * Zeigt eine geschätzte Umsatzsteigerung im Berichte an
 * Eignung für genau festgelegte Prioritäten
 
@@ -43,27 +43,27 @@ Wählen Sie die Berichterstellungsquelle für Ihre Aktivitäten aus; zur Wahl st
 Beachten Sie bei der Auswahl der Berichtsquelle folgende Informationen:
 
 * Wenn die Berichtsquelle hier auf **[!DNL Target]** festgelegt ist, dürfen Sie Aktivitäten, die als Berichtsquelle verwenden, nicht aktivieren. [!DNL Analytics] You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
-* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to[!DNL Analytics]in your activity or change the reporting engine to**[!UICONTROL Select per activity ]**in**[!UICONTROL Administration]>[!UICONTROL Reporting ]**.
+* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to [!DNL Analytics] in your activity or change the reporting engine to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
 * If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
 * [!UICONTROL Automated Personalization] (AP) activity creation, activation, and deactivation are allowed irrespective of the reporting source selected. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
 
-## Zeitzone für Berichte
+## Timezone for Reporting
 
-Geben Sie die Zeitzone für den Berichte an.
+Specify the time zone to use for reporting.
 
-## Währung für Berichte
+## Currency for Reporting
 
-Geben Sie die Währung für den Berichte an.
+Specify the currency to use for reporting.
 
-## IPs, die von den Daten des Berichte der Zielgruppe ausgeschlossen werden sollen
+## IPs to exclude from Target reporting data
 
 Specify any IP addresses that you want to exclude from reporting data. For example, excluding internal company addresses is a good way to ensure that your reporting data reflects customer interactions on your website.
 
-Enter each IP address on a new line.
+Geben Sie jede IP-Adresse in eine neue Zeile ein.
 
 ## Geschätzte Umsatzsteigerung anzeigen
 
-You can choose to show the estimated lift in revenue if you enter a monetary value for your goal. [!DNL Target] kann die Umsatzsteigerung schätzen, die Sie erzielen könnten, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden. Die Funktion zur Schätzung der Steigerung ist standardmäßig deaktiviert.
+Sie können die geschätzte Umsatzsteigerung anzeigen, wenn Sie einen Geldwert für Ihr Ziel eingeben. [!DNL Target] kann die Umsatzsteigerung schätzen, die Sie erzielen könnten, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden. Die Funktion zur Schätzung der Steigerung ist standardmäßig deaktiviert.
 
 Only [!DNL Experience Cloud] Admin users can enable or disable this feature. Wenn die Schätzung der Steigerung deaktiviert ist, werden die entsprechenden Felder nicht auf der Benutzeroberfläche angezeigt. Durch die Deaktivierung der Funktion gehen keine Daten verloren, auch nicht die Daten, die für Ihre Schätzungen verwendet werden. Die Schätzungen basieren auf den erfassten Daten, unabhängig davon, ob die Funktion aktiviert ist oder nicht.
 
