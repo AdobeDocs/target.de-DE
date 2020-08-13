@@ -2,11 +2,11 @@
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Adobe Target-Aktivitäten verwendet werden können.
 title: Profilattribute in Adobe Target
-feature: null
+feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 78%
@@ -18,7 +18,7 @@ ht-degree: 78%
 
 Profilattribute sind Parameter, die speziell für einen Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Aktivitäten verwendet werden können.
 
-A user profile contains demographic and behavioral information of a web page visitor, such as age, gender, products purchased, last time of visit, and so on that Target uses to personalize the content it serves to the visitor.
+Ein Profil eines Benutzers enthält demografische und verhaltensbezogene Informationen über einen Besucher einer Webseite, z. B. Alter, Geschlecht, erworbene Produkte, letzte Besuchszeit usw. Diese Zielgruppe verwendet diese Informationen, um die Inhalte, die dem Besucher zur Verfügung stehen, zu personalisieren.
 
 As a visitor browses your website, or when the visitor returns for another session, the saved profile attributes in the profile can be used to target content or log information for segment filtering.
 
@@ -28,7 +28,7 @@ So richten Sie Profil-Attribute ein:
 
    ![Registerkarte „Profilskripte“ ](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
-1. Click **[!UICONTROL Create Script]**.
+1. Klicken Sie auf Skript **[!UICONTROL erstellen]**.
 
    ![Dialogfeld „Profilskript erstellen“](/help/c-target/c-visitor-profile/assets/create-script.png)
 
@@ -36,7 +36,7 @@ So richten Sie Profil-Attribute ein:
 
    | Parametertyp | Beschreibung |
    |--- |--- |
-   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Hinweis **: Target erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an Target übergeben müssen, können Sie hierzu die API-Methode Profilupdate nutzen. Weitere Informationen finden Sie unter[Profilupdate in der Dokumentation zur Adobe Target-API](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Hinweis**: Target erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an Target übergeben müssen, können Sie hierzu die API-Methode Profilupdate nutzen. Weitere Informationen finden Sie unter [Profilupdate in der Dokumentation zur Adobe Target-API](http://developers.adobetarget.com/api/#updating-profiles). |
    | Profil | Direkt mit einem JavaScript-Codebeispiel definiert. Mit diesen können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte können bei jeder Mbox-Anfrage ausgeführt werden. Siehe Profilskriptattribute unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -61,7 +61,7 @@ Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgrupp
 
 ![Dialogfeld „Profilskript erstellen“](assets/profile-script.png)
 
-Profilskripte führen Profilattribut-„Fänger“ bei jeder Ortsanforderung aus. Beim Empfang einer Ortsanforderung bestimmt Target, welche Aktivität ausgeführt werden soll, und zeigt den für diese Aktivität und das Erlebnis geeigneten Inhalt an. Das Programm verfolgt den Erfolg der Aktivität und führt relevante Profilskripte aus. Auf diese Weise können Sie Informationen zum Besuch nachverfolgen, z. B. Ort, Tageszeit, Anzahl der Besuche auf der Site durch den Besucher, ggf. frühere Einkäufe usw. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können.
+Profilskripte führen Profilattribut-„Fänger“ bei jeder Ortsanforderung aus. Beim Empfang einer Ortsanforderung bestimmt Target, welche Aktivität ausgeführt werden soll, und zeigt den für diese Aktivität und das Erlebnis geeigneten Inhalt an. Das Programm verfolgt den Erfolg der Aktivität und führt relevante Profilskripte aus. This enables you to track information about the visit, such as the visitor&#39;s location, time of day, number of times that visitor has been to the site, if they&#39;ve purchased before, and so on. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können.
 
 Profilskriptattribute haben das `user.`-Tag vor dem Attributnamen eingefügt. Beispiel:
 
@@ -107,7 +107,7 @@ Die Registerkarte [!UICONTROL Nutzung von Skripten] enthält die Aktivitäten (u
 
 ## Target deaktiviert in bestimmten Situationen Profilskripte {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-[!DNL Target] automatically disables profile scripts in certain situations, such as if they take too long to execute or have too many instructions.
+[!DNL Target] deaktiviert Profil-Skripten in bestimmten Situationen automatisch, z. B. wenn die Ausführung zu lange dauert oder zu viele Anweisungen vorliegen.
 
 Wird ein Profilskript deaktiviert, erscheint in der Target-Benutzeroberfläche neben dem betroffenen Skript ein gelbes Warnsymbol, wie unten dargestellt:
 
@@ -128,13 +128,13 @@ Typische Gründe für die Deaktivierung von Profilskripten durch das System sind
 
 Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verfassen, die möglichst fehlerfrei sind. Sie können Code schreiben, der so fehlschlägt, dass die Skripts ohne erzwungenes Beenden des Skripts durch das System verarbeitet werden. Diese Leitlinien sind das Ergebnis der Best Practices, die für eine effiziente Funktionsweise nachgewiesen wurden. Diese Richtlinien gelten neben den Grundsätzen und Empfehlungen der Rhino-Entwicklungsgemeinde.
 
-* Set current script value to a local variable in the user script, set a failover to a blank string.
+* Stellen Sie den aktuellen Skriptwert auf eine lokale Variable im Benutzerskript ein, und legen Sie einen Failover auf eine leere Zeichenfolge fest.
 * Validieren Sie die lokale Variable, indem Sie sicherstellen, dass sie kein leerer String ist.
-* Use string-based manipulation functions vs. Regular Expressions.
+* Verwenden Sie stringbasierte Manipulationsfunktionen im Vergleich zu regulären Ausdrücken.
 * Verwenden Sie limited for- bzw. open ended for-Schleifen oder while-Schleifen.
 * Halten Sie die Vorgabe von maximal 1.300 Zeichen bzw. 50 Schleifeniterationen ein.
 * Überschreiten Sie nicht die Maximalzahl von 2.000 JavaScript-Anweisungen. Target verfügt über einen Maximalwert von 2.000 JavaScript-Anweisungen pro Skript, die Anzahl kann jedoch nicht einfach durch manuelles Lesen des JavaScript bestimmt werden. Rhino beispielsweise behandelt alle Funktionsaufrufe und „neuen“ Aufrufe als 100 Anweisungen. Außerdem kann sich die Größe der eingegebenen Daten (beispielsweise der URL-Werte) auf die Anzahl der Anweisungen auswirken.
-* Berücksichtigen Sie nicht nur die individuelle Skriptperformance, sondern auch die Performance aller Skripte. Als Best Practice empfehlen wir insgesamt weniger als 5.000 Anweisungen. Counting the number of instructions is not obvious, but the important thing to note is that scripts exceeding 2,000 instructions are automatically disabled. Die Anzahl der aktiven Profil-Skripten darf 300 nicht überschreiten. Jedes Skript wird mit jedem einzelnen Mbox-Aufruf ausgeführt. Führen Sie also nur so viele Skripte aus wie nötig.
+* Berücksichtigen Sie nicht nur die individuelle Skriptperformance, sondern auch die Performance aller Skripte. Als Best Practice empfehlen wir insgesamt weniger als 5.000 Anweisungen. Die Zählung der Anzahl der Anweisungen ist nicht offensichtlich, aber es ist wichtig zu beachten, dass Skripte mit mehr als 2.000 Anweisungen automatisch deaktiviert werden. Die Anzahl der aktiven Profil-Skripten darf 300 nicht überschreiten. Jedes Skript wird mit jedem einzelnen Mbox-Aufruf ausgeführt. Führen Sie also nur so viele Skripte aus wie nötig.
 * Bei einem Regex ist fast nie Punkt-Stern am Beginn (z. B.: `/.*match/`, `/a|.*b/`) erforderlich. Die Regex-Suche beginnt auf allen Positionen in einer Zeichenfolge (außer wenn durch `^` begrenzt), sodass Punkt-Stern bereits vorausgesetzt wird. Die Skriptausführung kann unterbrochen werden, wenn ein solcher Regex mit langen Eingabedaten abgeglichen wird (kann auch mehrere hundert Zeichen lang sein).
 * Schlägt alles fehl, verpacken Sie das Skript in einer try/catch-Anweisung.
 * Die folgenden Empfehlungen helfen Ihnen, die Komplexität von Profil-Skripten zu begrenzen. Profil-Skripten können eine begrenzte Anzahl von Anweisungen ausführen.
@@ -144,7 +144,7 @@ Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verf
    * Halten Sie Profil-Skripten klein und so einfach wie möglich.
    * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur sehr einfache reguläre Ausdrücke. Sogar einfache Ausdruck können viele Anleitungen zur Bewertung verwenden.
    * Rekursion vermeiden.
-   * Profil-Skripten sollten vor dem Hinzufügen zur Zielgruppe einem Leistungstest unterzogen werden. Alle Profil-Skripten werden bei jeder mbox-Anfrage ausgeführt. Wenn Profil-Skripten nicht korrekt ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger. Dies könnte sich auf Traffic und Umrechnung auswirken.
+   * Profil-Skripten sollten vor dem Hinzufügen zur Zielgruppe einem Leistungstest unterzogen werden. Alle Profil-Skripten werden bei jeder mbox-Anfrage ausgeführt. If profile scripts do not execute correctly, mbox requests take longer to execute. Dies könnte sich auf Traffic und Umrechnung auswirken.
    * Wenn Profil-Skripte zu komplex werden, sollten Sie stattdessen [Antwort-Token](/help/administrating-target/response-tokens.md) verwenden.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -237,7 +237,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Erstellt eine Variable `adobeQA` zur Benutzerverfolgung zur [Aktivität-Qualitätssicherung](/help/c-activities/c-activity-qa/activity-qa.md).
+Creates a variable called `adobeQA` to track a user for [Activity QA](/help/c-activities/c-activity-qa/activity-qa.md).
 
 ### Objekte und Methoden
 
@@ -278,7 +278,7 @@ Alle standardmäßigen JavaScript-Operatoren sind vorhanden und können verwende
 | `||` | Fügt die Ausdrücke links und rechts daneben logisch mit „ORs“ zusammen, nur „true“, wenn beide Seiten true sind (andernfalls „false“). |
 | `//` | Prüft, ob die Quelle alle Elemente aus dem Booleschen Zielwert enthält (Array-Quelle, Array-Ziel).<br>`//` extrahiert Unterzeichenfolge aus dem Ziel (entspricht regexp) und dekodiert sie`Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Die Funktion unterstützt auch die Verwendung konstanter Zeichenfolgenwerte, Gruppierung (`condition1 || condition2) && condition3` und reguläre Ausdrücke `/[^a-z]$/.test(landing.referring.url)`). |
 
-## Schulungsvideo: Profil Scripts ![Tutorial-Abzeichen](/help/assets/tutorial.png)
+## Training video: Profile Scripts ![Tutorial badge](/help/assets/tutorial.png)
 
 In diesem Video erfahren Sie, wie Profilskripte erstellt und verwendet werden.
 
