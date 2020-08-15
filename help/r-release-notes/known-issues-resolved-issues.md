@@ -5,9 +5,9 @@ title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3442'
 ht-degree: 88%
 
 ---
@@ -32,6 +32,10 @@ Wenn Sie eine Vorlagenregel hinzufügen, z. B. URL enthält (/Checkout, /Warenko
 ### Vorschaulinks für Aktivitäts-QAs {#preview}
 
 [Vorschaulinks für Aktivitäts-QAs](/help/c-activities/c-activity-qa/activity-qa.md) werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Ein erneuter Versuch mit den Vorschau-Links sollte das Problem lösen. Um dieses Problem zu verhindern, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden. (TNT-32697)
+
+### Qualitätssicherungsmodus für Recommendations-Aktivitäten
+
+Ein bekanntes Problem verhindert die Vorschau, wenn in der Aktivität verwendete Kriterien elementbasiert oder auf Kategorien basieren. (TNT-37455)
 
 ### Umleitungsangebote {#redirect}
 
@@ -125,21 +129,21 @@ Wenn eine Erfolgsmetrik bei jeder Impression erhöht werden soll, zählt Target 
 
 ### Analytics for Target (A4T)
 
-When using Target activity impressions and conversions in Analysis Workspace, apply the &quot;Same Touch&quot; Attribution IQ model to the metrics to ensure accurate counting. To apply a [non-default attribution model](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), right-click on the metric to **modify Column Settings > enable Use non-default attribution model > select Same Touch model**. Without this model applied, the metrics are overstated.
+Wenden Sie bei Verwendung von Impressionen und Konversionen der Zielgruppe in Analysis Workspace das Attribution IQ-Modell &quot;Gleich Touch&quot;auf die Metriken an, um eine genaue Zählung sicherzustellen. Um ein [nicht standardmäßiges Zuordnungsmodell](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)anzuwenden, klicken Sie mit der rechten Maustaste auf die Metrik, um die Spalteneinstellungen zu **ändern. Aktivieren Sie &quot;Nicht standardmäßiges Zuordnungsmodell verwenden&quot;> &quot;Gleiches Touch-Modell**&quot;auswählen. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
 
-All current Analytics packages have the ability to add this model with Attribution IQ. If you do not have access to Attribution IQ, please rely on A4T data in Reports &amp; Analytics.
+Alle aktuellen Analytics-Pakete können dieses Modell mit Attribution IQ hinzufügen. Wenn Sie keinen Zugriff auf Attribution IQ haben, verlassen Sie sich bitte auf A4T-Daten in Reports &amp; Analysen.
 
 ### Target-APIs
 
 Kunden können keine CRUD-Vorgänge für Aktivitäten mit Automatisierte Zuordnung über die v3-Version der A/B-Aktivitäten-API auf Adobe I/O durchführen.
 
-### GEO-Targeting
+### GEO Targeting
 
-On May 10, 2020 we updated our GEO provider files, which introduced some inconsistencies. For example, some values containing commas were added; although, values in existing audiences had no comma. Not all of our delivery servers were affected by this change. Daher haben Audiencen, die solche Werte verwenden, möglicherweise nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
+Am 10. Mai 2020 haben wir unsere GEO-Provider-Dateien aktualisiert, die einige Inkonsistenzen eingeführt haben. Beispielsweise wurden einige Werte mit Kommas hinzugefügt. obwohl die Werte in bestehenden Audiencen kein Komma hatten. Nicht alle unsere Versand-Server waren von dieser Änderung betroffen. Daher haben Audiencen, die solche Werte verwenden, möglicherweise nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
 
-### Image offers showing “Processing” label
+### Angebote mit der Beschriftung &quot;Verarbeitung&quot;
 
-Image offers on the Offers page sometimes retain the “processing” label for several hours after the images were uploaded. In most cases this is an issue with the label only: the image offers can still be used in activities and be delivered. In some cases, however, an image offer might not be available for the Replace Content > Image action. If this happens, you should upload the image offer again and check after a few hours to see if the image offer is available for replacement. (TGT-37458)
+Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quot;Verarbeitung&quot;manchmal mehrere Stunden nach dem Hochladen der Bilder beibehalten. In den meisten Fällen handelt es sich hierbei nur um ein Problem mit der Bezeichnung: die Image-Angebot können weiterhin in Aktivitäten verwendet und bereitgestellt werden. In einigen Fällen ist jedoch unter Umständen kein Image-Angebot für die Aktion &quot;Inhalt ersetzen&quot;> &quot;Bild&quot;verfügbar. In diesem Fall sollten Sie das Image-Angebot erneut hochladen und nach einigen Stunden überprüfen, ob das Image-Angebot zum Austausch verfügbar ist. (TGT-37458)
 
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
