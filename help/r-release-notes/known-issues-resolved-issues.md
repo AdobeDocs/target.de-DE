@@ -5,7 +5,7 @@ title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
 workflow-type: tm+mt
 source-wordcount: '3403'
 ht-degree: 88%
@@ -54,10 +54,6 @@ Die folgenden Probleme bei Umleitungsangeboten sind bekannt:
 
 * Bei Websites mit einseitigen Anwendungen (SPA) können Sie beim Abbrechen der Ladevorgänge keine Aktionen im Bedienfeld [!UICONTROL Änderungen] bearbeiten.
 
-### Unterstützung von Enterprise-Berechtigungen in Target-APIs {#api}
-
-Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Angebote werden möglicherweise in der Standardarbeitsfläche angezeigt, wenn die Liste der Angebote mit GET-APIs abgerufen wird. Dieses Problem wird in der ersten Märzwoche 2019 behoben. Nach dieser Fehlerbehebung werden Codeangebote in der entsprechenden Arbeitsfläche angezeigt, wenn sie aus APIs gezogen werden. Dieses Problem betrifft *keine* von APIs erstellten Angebote. Beispielsweise werden Codeangebote, die aus APIs erstellt wurden, in der Arbeitsfläche angezeigt, in der sie erstellt wurden, unabhängig davon, ob sie über GET-APIs oder über die Target-Benutzeroberfläche abgerufen wurde.
-
 ### Recommendations
 
 Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
@@ -99,14 +95,6 @@ Bekannte Probleme mit at.js:
 
    **Problemumgehung**: Konfigurieren Sie at.js mit aktivierter Option „x-only“ und übermitteln Sie `mboxThirdPartyId` in Aufrufen, um Benutzer zu verwalten.
 
-### Implementierung: Globale Mbox automatisch erstellen
-
-On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
-
-Beim ersten Herunterladen von mbox.js nach der Bereitstellung ist das Feld [!UICONTROL Globale Mbox automatisch erstellen] in der heruntergeladenen Datei mbox.js und im [!DNL Target]-Backend auf „false“ festgelegt. Es wird jedoch weiterhin als „false“ auf der Seite [!UICONTROL Implementierung] der Benutzeroberfläche angezeigt, bis die Seite aktualisiert wird (nach dem Aktualisieren der Seite lautet der Status „true“).
-
-at.js lädt `global_mbox_autocreate = false` mit einem neu bereitgestellten Mandanten herunter. Wenn zuerst mbox.js heruntergeladen wird, wird globale\_mbox\_autocreate auf „true“ gesetzt und at.js wird ebenfalls mit `global_mbox_autocreate = true` heruntergeladen. (TGT-15929)
-
 ### Erfolgsmetriken
 
 Erfolgsmetriken mit der Einstellung der erweiterten Option „Wie wird die Zählung erhöht“ auf „Jede Impression“ oder „Jede Impression (ohne Aktualisierungen)“ können nicht als Erfolgsmetrik verwendet werden, von der eine andere Metrik abhängig ist.
@@ -129,7 +117,7 @@ Am 10. Mai 2020 haben wir unsere GEO-Provider-Dateien aktualisiert, die einige I
 
 ### Angebote mit der Beschriftung &quot;Verarbeitung&quot;
 
-Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quot;Verarbeitung&quot;manchmal mehrere Stunden nach dem Hochladen der Bilder beibehalten. In most cases this is an issue with the label only: the image offers can still be used in activities and be delivered. In some cases, however, an image offer might not be available for the Replace Content > Image action. If this happens, you should upload the image offer again and check after a few hours to see if the image offer is available for replacement. (TGT-37458)
+Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quot;Verarbeitung&quot;manchmal mehrere Stunden nach dem Hochladen der Bilder beibehalten. In den meisten Fällen handelt es sich hierbei nur um ein Problem mit der Bezeichnung: die Image-Angebot können weiterhin in Aktivitäten verwendet und bereitgestellt werden. In einigen Fällen ist jedoch unter Umständen kein Image-Angebot für die Aktion &quot;Inhalt ersetzen&quot;> &quot;Bild&quot;verfügbar. In diesem Fall sollten Sie das Image-Angebot erneut hochladen und nach einigen Stunden überprüfen, ob das Image-Angebot zum Austausch verfügbar ist. (TGT-37458)
 
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
@@ -147,19 +135,31 @@ Die mbox.js-Bibliothek unterstützt keine clientseitigen Vorlagensprachen wie Ha
 
 **Hinweis**: Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
+### Implementierung: Globale Mbox automatisch erstellen
+
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
+
+Beim ersten Herunterladen von mbox.js nach der Bereitstellung ist das Feld [!UICONTROL Globale Mbox automatisch erstellen] in der heruntergeladenen Datei mbox.js und im [!DNL Target]-Backend auf „false“ festgelegt. Es wird jedoch weiterhin als „false“ auf der Seite [!UICONTROL Implementierung] der Benutzeroberfläche angezeigt, bis die Seite aktualisiert wird (nach dem Aktualisieren der Seite lautet der Status „true“).
+
+at.js lädt `global_mbox_autocreate = false` mit einem neu bereitgestellten Mandanten herunter. Wenn zuerst mbox.js heruntergeladen wird, wird globale\_mbox\_autocreate auf „true“ gesetzt und at.js wird ebenfalls mit `global_mbox_autocreate = true` heruntergeladen. (TGT-15929)
+
+### Unterstützung von Enterprise-Berechtigungen in Target-APIs {#api}
+
+Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Angebote werden möglicherweise in der Standardarbeitsfläche angezeigt, wenn die Liste der Angebote mit GET-APIs abgerufen wird. Dieses Problem wird in der ersten Märzwoche 2019 behoben. Nach dieser Fehlerbehebung werden Codeangebote in der entsprechenden Arbeitsfläche angezeigt, wenn sie aus APIs gezogen werden. Dieses Problem betrifft *keine* von APIs erstellten Angebote. Beispielsweise werden Codeangebote, die aus APIs erstellt wurden, in der Arbeitsfläche angezeigt, in der sie erstellt wurden, unabhängig davon, ob sie über GET-APIs oder über die Target-Benutzeroberfläche abgerufen wurde.
+
 ### Berichte und extreme Bestellungen
 
-Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. From December 19, 2019 until April 23, 2020, another server experienced the same issue. This issue did not affect all Target servers or all Target customers.
+Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. Vom 19. Dezember 2019 bis zum 23. April 2020 trat bei einem anderen Server dasselbe Problem auf. Dieses Problem betraf nicht alle Zielgruppen- oder Zielgruppen-Server.
 
-You were *not* affected if:
+Sie wurden *nicht* betroffen, wenn:
 
-* Your Target implementation uses different servers.
-* Your reports did not exclude extreme orders.
-* You used a conversion metric to measure your activities.
-* Your Target activities use Analytics for Target (A4T).
+* Ihre Implementierung der Zielgruppe verwendet verschiedene Server.
+* Extreme Bestellungen wurden in Ihren Berichten nicht ausgeschlossen.
+* Sie haben zur Messung Ihrer Aktivitäten eine Konversionsmetrik verwendet.
+* Ihre Zielgruppe-Aktivitäten verwenden Analytics für die Zielgruppe (A4T).
 * Sie befinden sich in der Region Asien-Pazifik (APAC).
 
-To determine if this issue impacted your Target reporting, reach out to [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+Wenden Sie sich an den [Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB), um festzustellen, ob dieses Problem Ihren Zielgruppe-Berichte beeinflusst hat.
 
 ### Recommendations
 
