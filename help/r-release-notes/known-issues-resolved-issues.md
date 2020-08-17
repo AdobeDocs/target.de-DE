@@ -5,9 +5,9 @@ title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '3442'
+source-wordcount: '3403'
 ht-degree: 88%
 
 ---
@@ -27,11 +27,7 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
 ### Seitenversand {#page-delivery}
 
-Wenn Sie eine Vorlagenregel hinzufügen, z. B. URL enthält (/Checkout, /Warenkorb), werden Ihren Regeln im [Seitenversand](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zusätzliche Leerzeichen vorangestellt. Diese Änderung hat rein optische Auswirkungen und keinen Einfluss auf die Erstellung von Audience-Definitionen und den Versand von Angeboten. (TGT-35916)
-
-### Vorschaulinks für Aktivitäts-QAs {#preview}
-
-[Vorschaulinks für Aktivitäts-QAs](/help/c-activities/c-activity-qa/activity-qa.md) werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Ein erneuter Versuch mit den Vorschau-Links sollte das Problem lösen. Um dieses Problem zu verhindern, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden. (TNT-32697)
+Wenn Sie eine Vorlagenregel hinzufügen, z. B. URL enthält (/Checkout, /Warenkorb), werden Ihren Regeln im [Seitenversand](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zusätzliche Leerzeichen vorangestellt. Diese Änderung hat rein optische Auswirkungen und keinen Einfluss auf die Erstellung von Audience-Definitionen und den Versand von Angeboten. (TGT-35920)
 
 ### Qualitätssicherungsmodus für Recommendations-Aktivitäten
 
@@ -43,10 +39,6 @@ Die folgenden Probleme bei Umleitungsangeboten sind bekannt:
 
 * Eine geringe Anzahl von Kunden hat gemeldet, dass unter bestimmten Bedingungen ein höherer Grad an Varianz in der Traffic-Verteilung auftritt, wenn ein Umleitungsangebot in Aktivitäten verwendet wird, die mit Analytics for Target (A4T) konfiguriert wurden. Adobe-Techniker arbeiten derzeit an diesem Problem.
 * Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
-
-### Ein Diagrammbericht für eine automatische Targeting-Aktivität kann nicht gerendert werden, wenn ein benutzerdefiniertes Erlebnis als Kontrolle verwendet wird.
-
-Ein Diagrammbericht für eine automatische Targeting-Aktivität kann für „Differenz“-Modi (durchschnittliche Steigerung und tägliche Steigerung) nicht gerendert werden, wenn in keinem Ereignis Daten vorhanden sind (0 Besuche). Diese Situation kann während der frühen Phase einer Aktivität auftreten, wenn das Kontrollerlebnis als benutzerdefiniert festgelegt ist. Für die anderen Modi (gleitendes Mittel für Kontrolle und Zielgruppe, tägliche Kontrolle und Zielgruppe sowie Besuche) funktioniert dies problemlos. Sobald einige Daten vorhanden sind (Besuche sind nicht gleich null), wird der Bericht erwartungsgemäß gerendert.
 
 ### Laden einer Seite im VEC abbrechen {#cancel}
 
@@ -107,12 +99,6 @@ Bekannte Probleme mit at.js:
 
    **Problemumgehung**: Konfigurieren Sie at.js mit aktivierter Option „x-only“ und übermitteln Sie `mboxThirdPartyId` in Aufrufen, um Benutzer zu verwalten.
 
-### mbox.js
-
-Die mbox.js-Bibliothek unterstützt keine clientseitigen Vorlagensprachen wie Handlebars und Mustache. Diese Sprachen *werden* von der Bibliothek at.js unterstützt.
-
-**Hinweis**: Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
-
 ### Implementierung: Globale Mbox automatisch erstellen
 
 On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
@@ -137,31 +123,43 @@ Alle aktuellen Analytics-Pakete können dieses Modell mit Attribution IQ hinzuf�
 
 Kunden können keine CRUD-Vorgänge für Aktivitäten mit Automatisierte Zuordnung über die v3-Version der A/B-Aktivitäten-API auf Adobe I/O durchführen.
 
-### GEO Targeting
+### GEO-Targeting
 
 Am 10. Mai 2020 haben wir unsere GEO-Provider-Dateien aktualisiert, die einige Inkonsistenzen eingeführt haben. Beispielsweise wurden einige Werte mit Kommas hinzugefügt. obwohl die Werte in bestehenden Audiencen kein Komma hatten. Nicht alle unsere Versand-Server waren von dieser Änderung betroffen. Daher haben Audiencen, die solche Werte verwenden, möglicherweise nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
 
 ### Angebote mit der Beschriftung &quot;Verarbeitung&quot;
 
-Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quot;Verarbeitung&quot;manchmal mehrere Stunden nach dem Hochladen der Bilder beibehalten. In den meisten Fällen handelt es sich hierbei nur um ein Problem mit der Bezeichnung: die Image-Angebot können weiterhin in Aktivitäten verwendet und bereitgestellt werden. In einigen Fällen ist jedoch unter Umständen kein Image-Angebot für die Aktion &quot;Inhalt ersetzen&quot;> &quot;Bild&quot;verfügbar. In diesem Fall sollten Sie das Image-Angebot erneut hochladen und nach einigen Stunden überprüfen, ob das Image-Angebot zum Austausch verfügbar ist. (TGT-37458)
+Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quot;Verarbeitung&quot;manchmal mehrere Stunden nach dem Hochladen der Bilder beibehalten. In most cases this is an issue with the label only: the image offers can still be used in activities and be delivered. In some cases, however, an image offer might not be available for the Replace Content > Image action. If this happens, you should upload the image offer again and check after a few hours to see if the image offer is available for replacement. (TGT-37458)
 
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Wenn bekannte Probleme behoben sind, werden sie in die folgenden Abschnitte verschoben und es werden ggf. zusätzliche Notizen hinzugefügt.
 
+### Ein Diagrammbericht für eine automatische Targeting-Aktivität kann nicht gerendert werden, wenn ein benutzerdefiniertes Erlebnis als Kontrolle verwendet wird.
+
+Ein Diagrammbericht für eine automatische Targeting-Aktivität kann für „Differenz“-Modi (durchschnittliche Steigerung und tägliche Steigerung) nicht gerendert werden, wenn in keinem Ereignis Daten vorhanden sind (0 Besuche). Diese Situation kann während der frühen Phase einer Aktivität auftreten, wenn das Kontrollerlebnis als benutzerdefiniert festgelegt ist. Für die anderen Modi (gleitendes Mittel für Kontrolle und Zielgruppe, tägliche Kontrolle und Zielgruppe sowie Besuche) funktioniert dies problemlos. Sobald einige Daten vorhanden sind (Besuche sind nicht gleich null), wird der Bericht erwartungsgemäß gerendert.
+
+Dieses Problem wurde in Target-Version 19.7.1 behoben.
+
+### mbox.js
+
+Die mbox.js-Bibliothek unterstützt keine clientseitigen Vorlagensprachen wie Handlebars und Mustache. Diese Sprachen *werden* von der Bibliothek at.js unterstützt.
+
+**Hinweis**: Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+
 ### Berichte und extreme Bestellungen
 
-Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. Vom 19. Dezember 2019 bis zum 23. April 2020 trat bei einem anderen Server dasselbe Problem auf. Dieses Problem betraf nicht alle Zielgruppen- oder Zielgruppen-Server.
+Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. From December 19, 2019 until April 23, 2020, another server experienced the same issue. This issue did not affect all Target servers or all Target customers.
 
-Sie wurden *nicht* betroffen, wenn:
+You were *not* affected if:
 
-* Ihre Implementierung der Zielgruppe verwendet verschiedene Server.
-* Extreme Bestellungen wurden in Ihren Berichten nicht ausgeschlossen.
-* Sie haben zur Messung Ihrer Aktivitäten eine Konversionsmetrik verwendet.
-* Ihre Zielgruppe-Aktivitäten verwenden Analytics für die Zielgruppe (A4T).
+* Your Target implementation uses different servers.
+* Your reports did not exclude extreme orders.
+* You used a conversion metric to measure your activities.
+* Your Target activities use Analytics for Target (A4T).
 * Sie befinden sich in der Region Asien-Pazifik (APAC).
 
-Wenden Sie sich an den [Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB), um festzustellen, ob dieses Problem Ihren Zielgruppe-Berichte beeinflusst hat.
+To determine if this issue impacted your Target reporting, reach out to [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Recommendations
 
