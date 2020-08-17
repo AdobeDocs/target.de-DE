@@ -6,10 +6,10 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 79%
+source-wordcount: '1531'
+ht-degree: 80%
 
 ---
 
@@ -25,12 +25,12 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 * Links für die Freigabe für Team-Mitglieder, die sich nie ändern oder nie neu generiert werden müssen. Dies ist unabhängig von an den Erlebnissen oder Aktivitäten vorgenommenen Aktualisierungen. Dadurch können Sie Ihre Aktivitäten vollständig über die gesamte User Journey hinweg testen.
 * Zielgruppenbedingungen werden optional respektiert, sodass Vermarkter Targeting-Kriterien testen oder Targeting-Kriterien für QA ignorieren können, ohne die Zielgruppenbedingungen erfüllen zu müssen.
 * QA-Berichte werden erfasst, sodass Vermarkter bestätigen können, dass Metriken erwartungsgemäß inkrementiert werden und die QA-Berichtsdaten von den Produktionsberichten separiert bleiben (für Nicht-A4T-Berichte).
-* Die Fähigkeit, ein Erlebnis isoliert oder in Verbindung mit anderen Live-Aktivitäten, die die Kriterien des Versands erfüllen (Seitenanfrage/Zielgruppe/Audience), Vorschau.
+* The ability to preview an experience in isolation or in conjunction with other live activities satisfying the delivery criteria (page/Target request/audience).
 * Die Fähigkeit, einen QA-Bericht der gesamten User Journey zu erstellen. Mit dem QA-Link können Sie einmal auf Ihre Seite zugreifen und die gesamte Seite in Aktivitäts-QA durchsuchen. Sie bleiben in Activity-QA, bis Sie die Sitzung beenden oder Sie das  [QA Target-Bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) verwenden, um das Beenden von Aktivitäts-QA zu erzwingen. Diese Funktion ist besonders hilfreich, wenn Sie eine Aktivität haben, die sich über mehrere Webseiten erstreckt.
 
    >[!NOTE]
    >
-   >Dies gilt für at.js-Implementierungen mit Version 2.*x* oder höher. For at.js 1.*x* - und mbox.js-Implementierungen ist dies nur der Fall, wenn der Browser des Besuchers keine Drittanbieter-Cookies blockiert.
+   >Dies gilt für at.js-Implementierungen mit Version 2.*x* oder höher. Für at.js 1.*x* - und mbox.js-Implementierungen ist dies nur der Fall, wenn der Browser des Besuchers keine Drittanbieter-Cookies blockiert.
 
 ## Zugreifen auf und Freigeben einer QA-URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -67,6 +67,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 ## Zu beachten {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * Der Link [!UICONTROL Aktivitäts-QA] wird auf der Seite [!UICONTROL Übersicht] aller Aktivitätstypen angezeigt, außer für die automatisierte Personalisierung (AP). Sie können  [Links](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) für AP-Aktivitäten in der Vorschau anzeigen.
+* Vorschaulinks für Aktivitäts-QAs werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Ein erneuter Versuch mit den Vorschau-Links sollte das Problem lösen. Um dieses Problem zu verhindern, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden.
 * Aktivitäts-QA-URLs sind für Aktivitäten mit Analytics als Berichtsquelle (A4T) verfügbar. Treffer, die generiert werden, während QA mit Aktivitäts-QA ausgeführt wird, werden in dieselbe Report Suite geleitet, wie die Daten der Aktivität, auch nachdem die Aktivität live geschaltet wurde.
 * Aktivitäts-QA zeigt keinen Inhalt für archivierte Aktivitäten oder Aktivitäten an, deren Enddatum vorüber ist. Wenn Sie eine beendete Aktivität deaktivieren, müssen Sie die Aktivität erneut speichern, damit Aktivitäts-QA funktioniert.
 * In Target Standard/Premium importierte Aktivitäten (beispielsweise aus Target Classic) unterstützen keine QA-URLs.
@@ -84,7 +85,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
    Wir empfehlen Ihnen, mit Ihrem IT-Team zu sprechen, um sicherzustellen, dass alle Parameter der Vorschau auf die Zulassungsliste gesetzt werden, damit diese Werte in keiner Weise verändert werden.
 
-   In der folgenden Tabelle werden die Parameter Liste, die in Ihrer Domäne auf die Zulassungsliste gesetzt werden können:
+   The following table lists the parameters that can be allowlisted in your domain:
 
    | Parameter | Typ | Wert | Beschreibung |
    |--- |--- |--- |--- |
