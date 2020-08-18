@@ -1,14 +1,14 @@
 ---
 keywords: Release notes
-description: 'Versionshinweise für vorherige Target-Versionen, einschließlich Versionshinweisen für Target Standard/Premium, die Target-Plattform und die Target-JavaScript-Bibliotheken (at.js und mbox.js). Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr des Release.'
+description: 'Versionshinweise zu früheren Versionen der Zielgruppe, einschließlich Versionshinweise zu Target Standard/Premium, der Zielgruppe-Plattform und der JavaScript-Zielgruppe (at.js). Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr des Release.'
 title: Versionshinweise für vorherige Versionen
 feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 234a995e9fab6e8e4063d2897aa1c3b80e2b2906
+source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
 workflow-type: tm+mt
-source-wordcount: '29474'
+source-wordcount: '29014'
 ht-degree: 89%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 # Versionshinweise für vorherige Versionen{#release-notes-for-previous-releases}
 
-Versionshinweise für vorherige Target-Versionen, einschließlich Versionshinweisen für Target Standard/Premium, die Target-Plattform und die Target-JavaScript-Bibliotheken (at.js und mbox.js). Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr des Release.
+Versionshinweise zu früheren Versionen der Zielgruppe, einschließlich Versionshinweise zu Target Standard/Premium, der Zielgruppe-Plattform und der JavaScript-Zielgruppe (at.js). Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr des Release.
 
 >[!NOTE]
 >
@@ -142,10 +142,6 @@ Die folgenden neuen Versionen der JavaScript-Bibliotheken der Zielgruppe &quot;a
 For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### Target Standard/Premium 20.2.1 (23. März 2020) 
-
->[!IMPORTANT]
->
->Siehe Informationen über die Einstellung von &quot;mbox.js&quot;.
 
 Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderungen:
 
@@ -1185,11 +1181,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
       <li id="li_97BC1B7295364ACDAD3FB07005ED592F"> <p>Es wurde ein Problem behoben, das dazu führte, dass <span class="codeph">getOffer() params</span> fehlschlug, wenn<span class="codeph"> targetPageParams()</span> eine leere Zeichenfolge zurückgab. (TNT-28359) </p> </li> 
       <li id="li_B542D4A4E37141BA8BE79D416E1B58DB"> <p>Es wurde ein Problem mit der Generierung von Sitzungs-IDs bei der Verwendung von x-only behoben. (TNT-28361) </p> </li> 
      </ul> </p> <p>Der voreingestellte Timeout für at.js wird von 15 Sekunden auf 5 Sekunden geändert. </p> <p>Wenn Ihre aktuelle Einstellung 15 Sekunden betrug, wird sie auf die neue Standardeinstellung von 5 Sekunden aktualisiert. Wenn Sie sie vorher auf etwas anderes geändert haben, wird Ihre Einstellung nicht verändert. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>mbox.js </p> </td> 
-   <td colname="col2"> <p>Der voreingestellte Timeout für mbox.js wird von 15 Sekunden auf 5 Sekunden geändert. </p> <p>Wenn Ihre aktuelle Einstellung 15 Sekunden betrug, wird sie auf die neue Standardeinstellung von 5 Sekunden aktualisiert. Wenn Sie sie vorher auf etwas anderes geändert haben, wird Ihre Einstellung nicht verändert. </p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -1472,7 +1464,7 @@ Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen, Korrekturen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Antwort-Token </p> </td> 
-   <td colname="col2"> <p>Mithilfe von Antwort-Token können Sie automatisch berechtigte Variablen (z. B. Profilattribute) in den Target-Antworten ausgeben, mit denen Aktivitäten bereitgestellt werden (d. h. Anzeigen von Mboxes). Antwort-Token können zu Debugging-Zwecken oder für die Integration mit Drittanbietern (z. B. Clicktale) verwendet werden. </p> <p>Antwort-Token ähneln den Server-Plugins von <span class="keyword">Adobe Target Classic</span> und stellen die Funktionsparität zwischen den beiden Lösungen bereit. </p> <p> <p>Hinweis: Antwort-Token sind in <span class="filepath">at.js</span> 1.1 oder neuer verfügbar. <span class="codeph">mbox.js</span> unterstützt keine Antwort-Token. </p> </p> <p>Weitere Informationen finden Sie unter <a href="../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">Antwort-Token</a>. </p> </td> 
+   <td colname="col2"> <p>Mithilfe von Antwort-Token können Sie automatisch berechtigte Variablen (z. B. Profilattribute) in den Target-Antworten ausgeben, mit denen Aktivitäten bereitgestellt werden (d. h. Anzeigen von Mboxes). Antwort-Token können zu Debugging-Zwecken oder für die Integration mit Drittanbietern (z. B. Clicktale) verwendet werden. </p> <p>Antwort-Token ähneln den Server-Plugins von <span class="keyword">Adobe Target Classic</span> und stellen die Funktionsparität zwischen den beiden Lösungen bereit. </p> <p> <p>Hinweis: Antwort-Token sind in <span class="filepath">at.js</span> 1.1 oder neuer verfügbar.</span>. </p> </p> <p>Weitere Informationen finden Sie unter <a href="../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">Antwort-Token</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1648,10 +1640,6 @@ Diese Version von [!DNL Target] umfasst die folgenden Verbesserungen und Fehlerb
  </tbody> 
 </table>
 
-Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen und Korrekturen für den Kunden (Problemnummern in Klammern dienen der internen Verwendung bei Adobe):
-
-* Es wurde ein XSS-Sicherheitsproblem mit [!DNL mbox.js] behoben. Bei dieser Korrektur handelt es sich um eine serverseitige Korrektur, für die kein Update von [!DNL mbox.js] erforderlich ist.
-
 ### Target Standard/Premium 17.4.1 (27. April 2017) {#section_24E6889AF1E0405497F6F77A407A9A46}
 
 Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
@@ -1768,7 +1756,7 @@ In dieser [!DNL Target]-Version liegt der Schwerpunkt auf Verbesserungen der Ben
 * Die Schaltfläche [!UICONTROL Aktivität erstellen] auf der Seite [!UICONTROL Aktivitäten] ist jetzt bereits vor dem Laden sämtlicher in der Liste vorhandener Aktivitätennamen aktiv. Durch diese Verbesserung können Benutzer neue Aktivitäten schneller erstellen, wenn das Konto viele konfigurierte Aktivitäten enthält. (TGT-21470)
 * Der Enhanced Experience Composer (EEC) wurde verbessert, um die Ladezeiten für Websites mit HTTPS zu verbessern, auf die über einen Proxy zugegriffen wird. Target ruft über einen Proxy keine Statistikressourcen mehr ab. (TGT-21793)
 * Die Seite [!UICONTROL Ziele und Einstellungen] wurde verbessert. Dies gilt insbesondere für die Ladezeit, wenn für eine Aktivität viele Metriken definiert sind. (TGT-21654)
-* Auf der Seite [!UICONTROL Ziele und Einstellungen] aller Aktivitäten, die die Berichterstellung von [!UICONTROL Analytics for Target] (A4T) verwenden, wurde eine QuickInfo hinzugefügt, die den Benutzer informiert, dass kein Trackingserver erforderlich ist, wenn auf den Seiten der Aktivität at.js (Version 0.9.1 oder neuer) oder mbox.js (Version 61 oder neuer) geladen ist. (TGT-22607)
+* Added a tool tip on the [!UICONTROL Goals &amp; Settings] page of all activities using [!UICONTROL Analytics for Target] (A4T) reporting informing users that a tracking server is not required if the activity&#39;s pages have at.js (version 0.9.1 or later) loaded. (TGT-22607)
 * Metriknamen werden auf der Seite [!UICONTROL Ziele und Einstellungen] jetzt angezeigt, ohne dass der Benutzer die einzelnen Metriken erweitern muss, um den vollständigen Namen zu sehen. Durch diese Verbesserung können Benutzer Metriken schneller und effizienter bearbeiten. (TGT-21276)
 * Sie können jetzt Einschlussregeln für [!DNL Recommendations] auf benutzerdefinierte Kriterien (als CSV-Datei hochgeladen) genau wie auf andere Kriterien anwenden. (TGT-21896)
 * Die Benutzeroberfläche der Seite [!UICONTROL Angebote] wurde verbessert und vereinfacht. Dies betrifft insbesondere das Erstellen und Verwalten von Ordnern und das Erstellen von Angeboten. (TGT-22509 und TGT-22187)
@@ -1799,7 +1787,7 @@ In dieser [!DNL Target]-Version liegt der Schwerpunkt auf Verbesserungen der Ben
    <td colname="col1"> <p> <span class="codeph"> at.js</span>, Version 0.9.4 </p> </td> 
    <td colname="col2"> <p>18. Januar 2017 </p> <p> <span class="codeph"> at.js</span>, Version 0.9.4 enthält folgende Änderungen: </p> <p> 
      <ul id="ul_8F149C28E2D946B9888B4D2F45167C3C"> 
-      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox-Namen können jetzt auch Sonderzeichen wie beispielsweise das kaufmännische Und (&amp;) enthalten. Sie stimmen somit nun mit den Benennungsregeln für Mbox-Namen mit <span class="codeph">mbox.js</span> überein. (TNT-26144) </p> <p>Weitere Informationen finden Sie unter <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js-Konfigurationen</a>. </p> </li> 
+      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> Mbox-Namen können jetzt Sonderzeichen wie das kaufmännische Und ( &amp; ) enthalten. (TNT-26144) </p> <p>Weitere Informationen finden Sie unter <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js-Konfigurationen</a>. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>Funktion <span class="codeph">secureOnly</span> hinzugefügt, die anzeigt, ob <span class="codeph">at.js</span> nur HTTPS verwenden soll oder ob es möglich ist, dass basierend auf dem Seitenprotokoll zwischen HTTP und HTTPS umgeschaltet wird. Es handelt sich hierbei um eine erweiterte Einstellung, deren Standardwert „false“ (falsch) lautet und die von <span class="codeph">targetGlobalSettings</span> überschrieben werden kann. (TNT-26183) </p> <p>Weitere Informationen finden Sie unter <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>Die Option <span class="wintitle">Unterstützung älterer Browser</span> ist in <span class="codeph">at.js</span>, Version 0.9.3 und älter verfügbar. Diese Option wurde in <span class="codeph">at.js</span>, Version 0.9.4 entfernt. </p> <p>Weitere Informationen finden Sie unter <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js-Konfigurationen</a>. </p> </li> 
      </ul> </p> <p>Detaillierte Informationen über die Änderungen der Versionen von <span class="codeph">at.js</span> finden Sie in den <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">Versionshinweisen zu „at.js“</a>. </p> </td> 
@@ -2011,7 +1999,7 @@ Diese Version umfasst die folgenden Verbesserungen:
    <td colname="col1"> <p> <span class="codeph"> at.js</span>, Version 0.9.2 </p> </td> 
    <td colname="col2"> <p>21. September 2016 </p> <p> <span class="codeph"> at.js</span>, Version 0.9.2 ist verfügbar. </p> <p> 
      <ul id="ul_0778A9049C9D48A7B6CB4B79A95F0F4C"> 
-      <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>Es wurde die Einstellung <span class="codeph">optoutEnabled</span> hinzugefügt, um die Abmeldung für Gerätediagramme zu ermöglichen. Ist diese Option als <span class="codeph">true</span> eingestellt und hat sich der Besucher gegen eine Verfolgung entschieden, ruft der Browser des Benutzers die Mbox nicht auf. Gerätediagramme sind derzeit als Betaversion verfügbar. Diese Einstellung ist standardmäßig als <span class="codeph">false</span> festgelegt, muss allerdings in <span class="codeph">true</span> geändert werden, wenn Sie Gerätediagramme nutzen. In <span class="codeph">mbox.js</span> v61 gibt es eine ähnliche Option. </p> </li> 
+      <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>Es wurde die Einstellung <span class="codeph">optoutEnabled</span> hinzugefügt, um die Abmeldung für Gerätediagramme zu ermöglichen. Ist diese Option als <span class="codeph">true</span> eingestellt und hat sich der Besucher gegen eine Verfolgung entschieden, ruft der Browser des Benutzers die Mbox nicht auf. Gerätediagramme sind derzeit als Betaversion verfügbar. Diese Einstellung ist standardmäßig als <span class="codeph">false</span> festgelegt, muss allerdings in <span class="codeph">true</span> geändert werden, wenn Sie Gerätediagramme nutzen.</p> </li> 
       <li id="li_663462C0680049F89CA8FE1853F31807"> <p>Erweiterte Unterstützung für <span class="codeph">CustomEvent</span> im Benachrichtigungsmechanismus. In der Vergangenheit konnte der Ereignis-Benachrichtigungsmechanismus von <span class="codeph">at.js</span> nicht mit Standard-DOM-APIs wie <span class="codeph">document.addEventListener()</span> verwendet werden. Sie können nun <span class="codeph">document.addEventListener()</span> verwenden, um <span class="codeph">at.js</span>-Ereignisse zu abonnieren, beispielsweise Abfrageereignisse und Wiedergabeereignisse. </p> </li> 
       <li id="li_3FB2914F8D2F4AFFAA9B4622E8CA1EFF"> <p>Es wurde ein Problem im Zusammenhang mit Angeboten behoben, die im Visual Experience Composer (VEC) erstellt wurden. In älteren Versionen wurden Auswahlwerkzeuge von Target ausgeblendet und nur eingeblendet, wenn alle Auswahlen übereinstimmten. In <span class="codeph">at.js</span> 0.9.2 werden einzelne Auswahlen von Target eingeblendet, sobald sie übereinstimmen. </p> </li> 
      </ul> </p> <p>Weitere Informationen finden Sie unter <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">at.js-Versionsdetails </a>. </p> </td> 
@@ -2272,8 +2260,7 @@ In der Version Adobe Target Standard/Premium 16.5.1 (19. Mai 2016) sind folge
       <li id="li_19045C86E1524649B56F82416934EF13">Verwenden der Inhaltsbibliothek </li> 
       <li id="li_8E89F3691A6F4400A2DFDFE5186DFA83">Verwenden von Profilskripten </li> 
       <li id="li_2EBB2B61BFA24F5FB858C0551AB20F70">Einrichten der Kontovoreinstellungen </li> 
-      <li id="li_E1886818C7BF4F36B07EC293F1A45911">Erläuterung der Modi des Visual Experience Composer </li> 
-      <li id="li_F74D2BA5ACD04595B658955A489602E5">Konfigurieren und Implementieren von „mbox.js“ </li> 
+      <li id="li_E1886818C7BF4F36B07EC293F1A45911">Erläuterung der Modi des Visual Experience Composer </li>  
       <li id="li_A87B876298344B2987BDC5FFD5580EC0">Erstellen und Verwalten von Benutzern in Target </li> 
       <li id="li_F90E1083444E4DBAA8C406AC293C0FD6">Festlegen von Erfolgsmetriken </li> 
      </ul> </p> </td> 
@@ -2307,12 +2294,6 @@ Die folgenden Probleme sind bekannt:
 
 „at.js“ ist die neue Implementierungsbibliothek für Target und ist sowohl auf typische Webimplementierungen als auch auf Einzelseitenanwendungen ausgelegt.
 
-„at.js“ ersetzt „mbox.js“ für Adobe Target-Implementierungen.
-
->[!NOTE]
->
->Obwohl at.js mbox.js ersetzt, wird mbox.js weiterhin unterstützt. „at.js“ bietet den meisten Benutzern gegenüber „mbox.js“ Vorteile. Dadurch haben Sie genug Zeit, „at.js“ zu testen und die Implementierung auf Ihren Seiten zu ändern.
-
 Neben anderen Vorteilen sorgt „at.js“ für kürzere Ladenzeiten von Seiten bei Webimplementierungen, bessere Sicherheit und bietet bessere Implementierungsoptionen für Einzelseitenanwendungen.
 
 „at.js “ enthält die Komponenten, die sich in „target.js“ befanden, weshalb kein Aufruf mehr an „target.js“ erfolgt.
@@ -2322,7 +2303,6 @@ Achten Sie bei der Implementierung von „at.js“ auf Folgendes:
 * Visual Experience Composer-Weiterleitungen funktionieren nicht.
 * Versionen von Internet Explorer, die älter als Version 8 sind, werden nicht unterstützt.
 * Aufgrund der asynchronen Implementierung funktionieren ältere Integrationen, wie das Plug-in von Test&amp;Target zu SiteCatalyst, möglicherweise nicht mehr.
-* Target-Plug-ins, die „mbox.js“-Objekte und -Methoden referenzieren, werden nicht unterstützt.
 * Alle Aufrufe an Target erfolgen über „XMLHTTPRequest“ und Inhalte werden über JSON zurückgegeben.
 
 ### Adobe Target Standard/Premium 16.4.1 Fix (5. Mai 2016)  {#section_70552F61E83140C7B4D2A245198B630E}
@@ -2425,13 +2405,12 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Erster Test: </p> <p>Neue Target-Implementierungsbibliothek „at.js“ </p> </td> 
-   <td colname="col2"> <p> <p>Hinweis: Diese Veröffentlichung ist per API-Download für erste Tests verfügbar. Sie wird in einer kommenden Version von Target auf der Benutzerfläche zur Verfügung stehen. In der Zwischenzeit können Sie die „at.js“-Bibliothek herunterladen, sie in Ihrer Umgebung testen und in Ihrer Target-Produktionsimplementierung einsetzen. </p> </p> <p> „at.js“ ist die neue Implementierungsbibliothek für Target und ist sowohl auf typische Webimplementierungen als auch auf Einzelseitenanwendungen ausgelegt. </p> <p> „at.js“ ersetzt „mbox.js“ für Adobe Target-Implementierungen. </p> <p> <p>Hinweis: Obwohl wir „at.js“ mit „mbox.js“ ersetzen, wird „mbox.js“ auch weiterhin unterstützt, auch wenn „at.js“ gegenüber „mbox.js“ den meisten Benutzern Vorteile bietet. Dadurch haben Sie genug Zeit, „at.js“ zu testen und die Implementierung auf Ihren Seiten zu ändern. </p> </p> <p>Neben anderen Vorteilen sorgt „at.js“ für kürzere Ladenzeiten von Seiten bei Webimplementierungen, bessere Sicherheit und bietet bessere Implementierungsoptionen für Einzelseitenanwendungen. </p> <p>„at.js “ enthält die Komponenten, die sich in „target.js“ befanden, weshalb kein Aufruf mehr an „target.js“ erfolgt. </p> <p>Achten Sie bei der Implementierung von „at.js“ auf Folgendes: </p> <p> 
+   <td colname="col2"> <p> <p>Hinweis: Diese Veröffentlichung ist per API-Download für erste Tests verfügbar. Sie wird in einer kommenden Version von Target auf der Benutzerfläche zur Verfügung stehen. In der Zwischenzeit können Sie die „at.js“-Bibliothek herunterladen, sie in Ihrer Umgebung testen und in Ihrer Target-Produktionsimplementierung einsetzen. </p> </p> <p> „at.js“ ist die neue Implementierungsbibliothek für Target und ist sowohl auf typische Webimplementierungen als auch auf Einzelseitenanwendungen ausgelegt. </p></p> <p>Neben anderen Vorteilen sorgt „at.js“ für kürzere Ladenzeiten von Seiten bei Webimplementierungen, bessere Sicherheit und bietet bessere Implementierungsoptionen für Einzelseitenanwendungen. </p> <p>„at.js “ enthält die Komponenten, die sich in „target.js“ befanden, weshalb kein Aufruf mehr an „target.js“ erfolgt. </p> <p>Achten Sie bei der Implementierung von „at.js“ auf Folgendes: </p> <p> 
      <ul id="ul_8C50C669AA7B4464A5FDECFCFD8662ED"> 
       <li id="li_6065B208480D46178055B40A2654E0C6">Visual Experience Composer-Weiterleitungen funktionieren nicht. </li> 
       <li id="li_A2FABD3C21994511A45DED84283E526E">Versionen von Internet Explorer, die älter als Version 8 sind, werden nicht unterstützt. </li> 
-      <li id="li_04499B391F784B89B09A1D6329B1C790">Aufgrund der asynchronen Implementierung funktionieren ältere Integrationen, wie das Plug-in von Test&amp;Target zu SiteCatalyst, möglicherweise nicht mehr. </li> 
-      <li id="li_D3C00EF206154038A54F53CA40B34DC3"> Target-Plug-ins, die „mbox.js“-Objekte und -Methoden referenzieren, werden nicht unterstützt. </li> 
-     </ul> </p> <p>Die Dokumentation finden Sie unter <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local">at.js-Implementierung</a>. </p> </td> 
+      <li id="li_04499B391F784B89B09A1D6329B1C790">Aufgrund der asynchronen Implementierung funktionieren ältere Integrationen, wie das Plug-in von Test&amp;Target zu SiteCatalyst, möglicherweise nicht mehr. </li>  
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Abhängige Erfolgsmetriken </td> 
@@ -2839,21 +2818,13 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
    <td colname="col2"> <p>Erstellen Sie eine Aktivität ohne Verwendung des Visual Experience Composer. Wählen Sie stattdessen die Standorte und Angebote anhand eines Formulars. Damit können Target Standard-Aktivitäten in E-Mails, mobilen Apps, Kiosks und an anderen Orten bereitgestellt werden, die nicht mit einem Visual Experience Composer arbeiten. </p> <p>Weitere Informationen finden Sie unter <a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> Form-Based Experience Compose</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Neue mbox.js </p> </td> 
-   <td colname="col2"> <p> Version 58 von mbox.js stellt sicher, dass der Experience Cloud-Besucher-ID-Service installiert ist, bevor die Target-Aufrufe vorgenommen werden. Dadurch wird sichergestellt, dass die Zielgruppendaten, die über den zentralen Service „Profile und Zielgruppen“ freigegeben werden, im selben Treffer verfügbar sind. Es kann jedoch vorkommen, dass Inhalte auf der Seite flackern, während Target darauf wartet, dass der Service wieder zur Verfügung steht; daher ist eine vollständige QS vor der Aufrüstung wichtig. Diese Version von mbox.js steht nur via API zur Verfügung. </p></td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> Konfigurierbare Erfolgsmetriken </td> 
    <td colname="col2"> <p> Anhand von fein abgestimmten Optionen können Sie festlegen, wie die Erfolgsmetriken gezählt werden sollen. Die Optionen umfassen das Zählen der Metrik pro Anzeige oder einmal pro Besucher sowie die Wahl, ob Benutzer in der Aktivität bleiben können oder entfernt werden. Dies entspricht den „erweiterten Optionen“ für Erfolgsmetriken, die in Target Classic verfügbar sind. </p> <p>Siehe <a href="../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local">Erfolgsmetriken</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Verbesserung: Erlebnisbeschränkung für Erlebnis-Targeting entfernt. </td> 
    <td colname="col2"> Die frühere Beschränkung auf zehn Erlebnisse im Erlebnis-Targeting wurde entfernt. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Optionen zur Verwaltung und Bearbeitung von mbox.js </td> 
-   <td colname="col2"> <p>In Target Standard ist nun die Konfiguration und Bearbeitung von mbox.js in vollem Umfang verfügbar. Sie müssen in Target Classic keine Änderungen mehr vornehmen. </p> <p>Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/de_DE/target/ov/r_advanced_mboxjs_settings.html" format="https" scope="external">Erweiterte mbox.js-Einstellungen </a>. </p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td colname="col1"> Profilsynchronisierung in Echtzeit für 3rdPartyId-Daten </td> 
    <td colname="col2"> Wenn sich ein Besucher der Site mitten in einer Sitzung anmeldet und die Kennung „3rdpartyId“ erhält, sind alle vorher geladenen Profilattribute, die mit „3rdPartyId“ verknüpft sind, sofort verfügbar. Siehe <a href="../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local">Besucherprofil</a>. </td> 
@@ -2875,7 +2846,6 @@ Dieses Release enthält die folgenden Fehlerbehebungen:
 
 * Analytics als Berichtsquelle für Target wird nun für XT-Aktivitäten unterstützt.
 * Es wurde ein Problem behoben, das dazu führte, dass sich das in Analytics angezeigte Kontrollerlebnis änderte, sobald die Aktivität live ging.
-* Es wurde ein Problem behoben, das Auswirkungen auf die Aktivierung von target.js hatte, wenn neu bereitgestellte Benutzer mbox.js heruntergeladen haben.
 * Es wurde ein Problem behoben, bei dem Werte nach einem # in einer URL bei der Erstellung der Zielgruppe bzw. des Segments als Teil des Pfads angesehen wurden.
 
 **Bekannte Probleme**
@@ -3105,14 +3075,6 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   <tr> 
    <td colname="col1"> <p class="premium">Neuer Aktivitätstyp: Recommendations </p> </td> 
    <td colname="col2"> <p>Recommendations-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten für Ihre Kunden interessant sein könnten. Mit diesen Empfehlungen stellen Sie Kunden relevante Artikel vor, von denen diese andernfalls möglicherweise nichts gewusst hätten. </p> <p>Recommendations ist als Bestandteil der Target Premium-Lösung verfügbar. Sie ist nicht in Target Standard ohne Target Premium-Lizenz enthalten. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> mbox.js v56 </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_4D4AEAC314964ECFA6C3A2669233060F"> 
-      <li id="li_F71CE15AD70E4A6E9216521E8AE2B102"> Änderungen bei Recommendations Premium zur Unterstützung der Übermittlung von Parametern an globale mbox </li> 
-      <li id="li_11F777D04DE04B848F681997C6458C8B"> Es wird ein 5-Sekunden-Timeout zum target.js-Ladeaufruf hinzugefügt. In dem seltenen Fall, dass die Datei nicht geladen wird, wird die Seite gerendert und es werden keine Target Standard-Aktivitäten angezeigt. </li> 
-     </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3494,17 +3456,9 @@ Dieses Release enthält die folgenden Fehlerbehebungen und Erweiterungen:
 * Erweiterte Grafiken zeigen standardmäßig stündliche Ergebnisse, wenn ein Test weniger als zwei Tage live ist.
 * Korrektur eines Fehlers, der dazu führte, dass das Kopieren einer nicht synchronisierten Aktivität fehlschlägt.
 * Hinzufügen von Tastatureingabefunktionen zu Dropdown-Menüs für Standort.
-* Korrektur eines Fehlers, der auftrat, wenn eine von Target Standard heruntergeladene [!DNL mbox.js]-Datei die Bezeichnung [!DNL mboxEditor.at.js] hat.
-
 * Verbesserung der Fehlermeldung, die beim Löschen eines in einer Aktivität verwendeten Angebots angezeigt wird.
 
 ### Adobe Target Standard 1.1 (18. Oktober 2013)  {#section_79FA6A61D2284D41A34F00014A342F07}
-
-Diese Version umfasst die folgende Funktion:
-
-| Funktion | Beschreibung |
-|---|---|
-| [!DNL mbox.js]-Download in Target Standard | The [!DNL mbox.js] file can now be downloaded directly from **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** in the Target Standard interface. Bisher musste die Datei in Target Advanced heruntergeladen oder von Ihrem Kundenbetreuer oder Kundenberater bereitgestellt werden. |
 
 Dieses Release enthält die folgenden Fehlerbehebungen und Erweiterungen:
 
