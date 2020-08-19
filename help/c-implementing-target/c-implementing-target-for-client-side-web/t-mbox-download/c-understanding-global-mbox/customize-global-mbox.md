@@ -1,55 +1,45 @@
 ---
-keywords: global mbox;customize global mbox;edit mbox.js;edit at.js;at.js;implement mbox.js;implement at.js
-description: Informationen, die Sie dabei unterstützen, eine globale Mbox für „at.js“ und „mbox.js“ anzupassen
+keywords: global mbox;customize global mbox;edit at.js;at.js;implement at.js
+description: Informationen zum Anpassen einer globalen Mbox für "at.js".
 title: Anpassen einer globalen mbox
 feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 97%
+source-wordcount: '160'
+ht-degree: 59%
 
 ---
 
 
 # Anpassen einer globalen Mbox{#customize-a-global-mbox}
 
-Informationen, die Sie dabei unterstützen, eine globale Mbox für „at.js“ und „mbox.js“ anzupassen
+Informationen zum Anpassen einer globalen Mbox für &quot;at.js&quot;.
 
-1. Bearbeiten von „mbox.js“
+1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
 
-   Go to **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Disable **[!UICONTROL Page load enabled (Auto create global mbox)]**, then add the name of the custom global mbox that you would like to use to deliver activities from [!DNL Target].
 
-   * Klicken Sie für „mbox.js“ auf **[!UICONTROL mbox.js-Einstellungen bearbeiten]**.
-   * Wählen Sie für [!DNL at.js]**[!UICONTROL die Option at.js]** unter „Implementierungsmethode“ aus und klicken Sie anschließend auf **[!UICONTROL mbox.js-Einstellungen bearbeiten]**.
+   Die globale Mbox wird auch für Klick-Tracking eingesetzt.
 
-   ![](assets/step-1-edit-mboxjs.png)
+   ![custom-global-mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/assets/custom-global-mbox.png)
 
-1. Bearbeiten Sie [!DNL mbox.js] oder [!DNL at.js].
+1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
 
-   Deaktivieren Sie **[!UICONTROL Globale Mbox automatisch erstellen]** und fügen Sie dann den Namen der globalen Mbox hinzu, die Aktivitäten aus [!DNL Target Standard/Premium] bereitstellen soll. Die globale Mbox wird auch für Klick-Tracking eingesetzt.
+1. Implement the [!DNL at.js] library on your site.
 
-   ![](assets/step-2-edit-mboxjs-or-atjs.png)
-
-   Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
-1. Integrieren Sie die Bibliothek [!DNL mbox.js] oder [!DNL at.js] in Ihre Site.
-
-* Weitere Informationen zu mbox.js finden Sie unter [„mbox.js“-Implementierung](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
-* Weitere Informationen zu at.js finden Sie unter [„at.js“-Implementierung](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
+   Weitere Informationen finden Sie unter [Bereitstellung von &quot;at.js&quot;](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) .
 
 1. Stimmen Sie die Umstellung mit Ihrer Veröffentlichung zeitlich ab.
 
-   Sind Sie bereit dafür, dass [!DNL Target Standard/Premium] künftig für alle Aktivitäten Ihre globale Mbox verwendet, können Sie mit diesem Schritt fortfahren.
+   Sind Sie bereit dafür, dass [!DNL Target] künftig für alle Aktivitäten Ihre globale Mbox verwendet, können Sie mit diesem Schritt fortfahren.
 
    Aktualisieren Sie den Namen der globalen mbox, sodass er dem in Schritt 2 (siehe oben) verwendeten Namen entspricht.
-
-   ![](assets/step-4-time-the-transition-with-your-release.png)
 
    >[!IMPORTANT]
    >
    >Beim Speichern werden alle Aktivitäten in Ihrem Konto mit dieser Mbox synchronisiert. Befindet sich die Mbox nicht auf Ihrer Site, funktionieren Ihre Aktivitäten nicht mehr.
 
-   Klicken Sie auf **[!UICONTROL Speichern]**.
