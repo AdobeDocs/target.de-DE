@@ -5,17 +5,39 @@ title: Beheben von Problemen mit Visual Experience Composer und Enhanced Experie
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 98%
+source-wordcount: '1253'
+ht-degree: 74%
 
 ---
 
 
 # Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
-Im Visual Experience Composer (VEC) und Enhanced Experience Composer (EEC) treten unter bestimmten Umständen mitunter Anzeigeprobleme auf.
+Anzeigeprobleme und andere Probleme treten manchmal im Visual Experience Composer (VEC) und im Enhanced Experience Composer (EEC) unter bestimmten Bedingungen auf.
+
+## Wie wirken sich die kürzlich angekündigten Google Chrome SameSite-Cookie-Durchsetzungsrichtlinien auf VEC und EEC aus? {#samesite}
+
+Mit den neuesten Änderungen (August 2020) haben alle Benutzer mit Chrome 80+-Browser-Versionen folgende Vorteile:
+
+* Wird *nicht* in der Lage sein, VEC (mit oder ohne VEC Helper Extension installiert und aktiviert) in kennwortgeschützten Seiten ihrer Sites zu verwenden. Der Grund dafür ist, dass ihre Site-Login-Cookies als Drittanbieter-Cookie betrachtet werden und nicht mit der Anmeldeanforderung gesendet werden. Die einzige Ausnahme besteht darin, dass der SameSite-Anmeldecookie des Kunden bereits über den Parameter SameSite auf &quot;none&quot;gesetzt ist.
+* Wird *nicht* in der Lage sein, [!DNL Target] Bibliotheken während der Bearbeitung einer Aktivität herunterzuladen (wenn diese nicht bereits auf der Site vorhanden sind). Dies liegt daran, dass der Download-Aufruf von der Kundendomäne zu einer gesicherten Adobe-Domäne erfolgt und als nicht authentifiziert abgelehnt wird.
+* Die EWG wird *nicht* für alle Benutzer funktionieren, da sie nicht in der Lage ist, das Attribut SameSite für Cookies einzustellen `adobemc.com domain`. Ohne dieses Attribut lehnt der Browser diese Cookies ab, wodurch die EWG fehlschlägt.
+
+Adobe hat eine aktualisierte VEC Helper-Erweiterung an den Google Chrome Store übermittelt. Diese Erweiterung überschreibt bei Bedarf die Cookie-Attribute, um das `SameSite="none"` Attribut festzulegen. Die [aktualisierte Erweiterung finden Sie hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+
+### Alternativen und Problemumgehungen
+
+Verwenden Sie eine der folgenden Optionen, um sicherzustellen, dass VEC und EEC wie erwartet funktionieren:
+
+* Laden Sie die aktualisierte [VEC Helper-Erweiterung herunter und verwenden Sie sie](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+* Verwenden Sie den Mozilla Firefox-Browser. Firefox erzwingt diese Richtlinie noch nicht.
+* Verwenden Sie weiterhin Chrome, setzen Sie das `chrome://flags/#same-site-by-default-cookies` Flag jedoch auf &quot;Deaktiviert&quot;.
+
+   >[!NOTE]
+   >
+   >Dies reicht *nicht* aus, wenn für Cookies bereits das Attribut SameSite auf &quot;Lax&quot;oder &quot;Strict&quot;vom Server eingestellt ist.
 
 ## Unterstützt Target iFrames mit mehreren Ebenen?
 
