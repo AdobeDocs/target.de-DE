@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 97%
+source-wordcount: '877'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
    Weitere Informationen finden Sie unter [Navigate elements using the DOM path (In Elementen über den DOM-Pfad navigieren)](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer–Optionen*.
 
 * Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der  [Mehrseiten-Funktion](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) in die Aktivität aufgenommen werden, und [!DNL at.js] oder [!DNL mbox.js] muss darin implementiert werden.
-* Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzeln Erfolgsmetriken für sie festlegen.
+* Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzeln Erfolgsmetriken für sie festlegen. Um ein Element zu zählen, indem Sie auf mehrere Elemente auf einer Seite klicken, bearbeiten Sie den CSS-Element-Selektor, um mehrere Elemente zuzuordnen.
 * Achten Sie darauf, die Ebene des Elements auszuwählen, die Sie verfolgen möchten. Wenn Sie zum Beispiel eine Schaltfläche angeben möchten, achten Sie darauf, den Link und nicht den Schaltflächentext auszuwählen.
 * Klickereignisse werden auf derselben Seite des Klicks an [!DNL Target] gesendet.
 * Wenn es sich bei der Klick-Verfolgungsmetrik um die Zielmetrik einer A4T-Aktivität handelt, muss der Besucher innerhalb von 60 Sekunden nach dem Laden der Seite auf dieses Element klicken, damit die Metrikverfolgung erfolgt.
