@@ -5,10 +5,10 @@ title: Mobile Viewports für responsive Erlebnisse
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 70%
+source-wordcount: '1443'
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 70%
 
 Mobile viewports help you preview how your [!DNL Target] activities appear on screens of various sizes.
 
-The mobile viewport preview feature is designed for responsive sites that render well on various devices, windows, or screen sizes. Responsive Sites passen sich automatisch an jede Bildschirmgröße an, einschließlich Desktop-PCs, Laptops, Tablets oder Mobiltelefone.
+Die Funktion zur mobilen Viewport-Vorschau wurde für responsive Sites entwickelt, die auf verschiedenen Geräten, Fenstern oder Bildschirmgrößen gut dargestellt werden. Responsive Sites passen sich automatisch an jede Bildschirmgröße an, einschließlich Desktop-PCs, Laptops, Tablets oder Mobiltelefone.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ The mobile viewport preview feature is designed for responsive sites that render
 
 Ein Viewport wird durch die Größe des Rechtecks definiert, das von einer Webseite auf Ihrem Bildschirm ausgefüllt wird. Es ist die Größe des Browser-Fensters abzüglich der Bildlaufleisten und Symbolleisten. Browser verwenden „CSS-Pixel“. Für viele Geräte, zum Beispiel solche mit Retina-Bildschirm, ist der Viewport kleiner als die beworbene Geräteauflösung.
 
-Nachstehend finden Sie die Viewports und Auflösungen für einige bekannte Geräte. Remember to use the viewport size in [!DNL Target]. Auf verschiedenen Websites sind die Viewport-Größen für gängige Geräte aufgeführt. For example, see [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) or consult the device maker&#39;s website.
+Nachstehend finden Sie die Viewports und Auflösungen für einige bekannte Geräte. Remember to use the viewport size in [!DNL Target]. Auf verschiedenen Websites sind die Viewport-Größen für gängige Geräte aufgeführt. Weitere Informationen finden Sie unter [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) oder auf der Website des Geräteherstellers.
 
 | Gerät | Viewport-Größe | Geräteauflösung |
 |---|---|---|
@@ -77,7 +77,7 @@ Nachstehend finden Sie die Viewports und Auflösungen für einige bekannte Gerä
 
 Wenn Sie eine Aktivität für Benutzer auf einem bestimmten Gerät bereitstellen möchten, wählen Sie im Aktivitätsdiagramm die entsprechende Zielgruppe für das Gerät aus. Verwenden Sie den Mobile Web Composer, um die Seite für das Gerät in der Aktivität zu bearbeiten. Wenn Sie eine Aktivität in all Ihren digitalen Erlebnissen ausführen und sicherstellen möchten, dass es auf allen Geräten ansprechend aussieht, wenden Sie nicht das Targeting an, sondern verwenden Sie mobile Viewports, um auf jeder Bildschirmgröße eine Vorschau für die Aktivität anzuzeigen.
 
-Wenn Sie über eine responsive Site verfügen, wird Ihre Site in der Regel so erstellt, dass beim Zugriff durch ein Gerät mit einer bestimmten Bildschirmgröße eine andere Ansicht geöffnet wird. Diese Bildschirmgrößen, die solche neuen Ansichten auslösen, werden auch als CSS-Haltepunkte bezeichnet. CSS breakpoints are points where website content responds depending on device width to display the optimal layout to visitors. CSS-Haltepunkte werden auch als [Media-Abfragen](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)bezeichnet.
+Wenn Sie über eine responsive Site verfügen, wird Ihre Site in der Regel so erstellt, dass beim Zugriff durch ein Gerät mit einer bestimmten Bildschirmgröße eine andere Ansicht geöffnet wird. Diese Bildschirmgrößen, die solche neuen Ansichten auslösen, werden auch als CSS-Haltepunkte bezeichnet. CSS-Haltepunkte sind Punkte, an denen Website-Inhalte je nach Gerätebreite antworten, um das optimale Layout für Besucher anzuzeigen. CSS-Haltepunkte werden auch als [Media-Abfragen](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)bezeichnet.
 
 Save your CSS breakpoints in [!DNL Target] so you can preview your experiences for each view you define. Each of these experiences is displayed in a mobile viewport in the [!DNL Target] interface. Öffnen Sie die Ansicht für jeden Bildschirm, indem Sie entlang der Oberkante der Anzeige auf diesen Viewport klicken.
 
@@ -119,6 +119,10 @@ Konfigurieren Sie alle mobilen Viewports, die Sie beim Erstellen Ihrer Erlebniss
    Wenn Sie [Enhanced Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) verwenden und ein Betriebssystem auswählen, emuliert dieses Gerät, wenn Sie die Seite aufrufen. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+>[!NOTE]
+>
+>Wenn Sie versuchen, einen verwendeten mobilen Viewport zu löschen, wird die folgende Meldung angezeigt: &quot;Dieser Viewport ist derzeit einer oder mehreren Aktivitäten zugeordnet. Sie müssen den Viewport aus diesen Aktivitäten entfernen, bevor Sie ihn löschen können.&quot;
 
 ## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
@@ -190,7 +194,7 @@ Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Expe
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Account Preferences in Adobe Target ![Overview badge](/help/assets/overview.png)
+### Kontovoreinstellungen in der Adobe Target- ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zum Einrichten von mobilen Viewports, beginnend um 4:40 Uhr im Video.
 
