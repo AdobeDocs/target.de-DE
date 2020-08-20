@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1922'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 20. August | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Folgender Abschnitt wurde hinzugefügt: &quot;Wie wirken sich die kürzlich angekündigten Richtlinien zur Durchsetzung von Cookies in Google Chrome auf VEC und EEC aus?&quot; |
+|  | [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md) | Der folgende Text wurde aktualisiert: &quot;Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzeln Erfolgsmetriken für sie festlegen. Um ein Element zu zählen, indem Sie auf mehrere Elemente auf einer Seite klicken, bearbeiten Sie den CSS-Element-Selektor, um mehrere Elemente zuzuordnen.&quot; |
+|  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Target Standard/Premium-Version 20.9.1 (2. September 2020) hinzugefügt. |
 | 14. August | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Bekanntes Problem bei der Qualitätssicherung in Recommendations-Aktivitäten wurde hinzugefügt. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Es wurde ein Text hinzugefügt, der angibt, dass bei Verwendung `serverState` und Verwendung von `<script>` -Tags im zurückgegebenen Inhalt sichergestellt werden muss, dass Ihr HTML-Inhalt `<\/script>` anstelle von `</script>`verwendet wird. |
 | 12. August | [Die Benutzeroberfläche der Zielgruppe](/help/c-intro/understand-the-target-ui.md) | Neues Thema |
