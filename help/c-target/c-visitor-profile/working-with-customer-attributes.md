@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 39%
@@ -23,7 +23,7 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the [!DNL People] core service is part of the [!DNL Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL Experience Cloud] platform.
+[Kundenattribute](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) im [!DNL People] Hauptdienst sind Teil des Dienstes [!DNL Adobe Experience Cloud] und bieten Unternehmen ein Werkzeug, um ihre Kundendaten auf die [!DNL Experience Cloud] Plattform zu übertragen.
 
 In [!DNL Experience Cloud] integrierte Daten sind für alle [!DNL Experience Cloud]-Workflows verfügbar. [!DNL Target] verwendet diese Daten für das Targeting rückkehrender Kunden basierend auf Attributen. [!DNL Adobe Analytics] verwendet diese Attribute, und sie können für die Analyse und Segmentierung herangezogen werden.
 
@@ -35,7 +35,7 @@ Consider the following information as your work with customer attributes and [!D
 
    >[!NOTE]
    >
-   >[!DNL at.js] (any version) or [!DNL mbox.js] version 58 or later is required.
+   >[!DNL at.js] (beliebige Version) oder [!DNL mbox.js] Version 58 oder höher erforderlich.
 
 * [!DNL Adobe] garantiert nicht, dass 100 % der Kundenattributdaten (Besucher-Profil) aus CRM-Datenbanken an die Daten des Unternehmens gesendet werden [!DNL Experience Cloud] und somit für das Targeting in [!DNL Target]der Datenbank zur Verfügung stehen. In unserem aktuellen Design besteht die Möglichkeit, dass ein kleiner Anteil der Daten (bis zu 0,1 % der großen Produktionschargen) möglicherweise nicht an Bord mitgeführt wird.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. Weitere Informationen finden Sie unter  [Lebensdauer des Besucherprofils](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
@@ -157,7 +157,7 @@ You might encounter the following issues when working with customer attributes a
 
 >[!NOTE]
 >
->Issues 1 and 2 cause approximately 60% of problems in this area. Problem 3 verursacht ca. 30 % der Probleme. Problem 4 verursacht ungefähr 5 % der Probleme. Die restlichen 5 % werden durch verschiedene andere Ursachen hervorgerufen.
+>Die Probleme 1 und 2 verursachen etwa 60 % der Probleme in diesem Bereich. Problem 3 verursacht ca. 30 % der Probleme. Problem 4 verursacht ungefähr 5 % der Probleme. Die restlichen 5 % werden durch verschiedene andere Ursachen hervorgerufen.
 
 ### Problem 1: Kundenattribute werden entfernt, da das Profil zu groß ist
 
@@ -179,7 +179,7 @@ Beachten Sie die folgenden Implementierungsprobleme:
 * Die Besucher-ID wurde korrekt übergeben, aber der Status der AUTHENTIFIZIERUNG wurde nicht auf „Authentifiziert“ festgelegt.
 * `mbox3rdPartyId` wurde nicht korrekt weitergeleitet.
 
-### Issue 5: `mboxUpdate` not performed properly
+### Problem 5: `mboxUpdate` nicht ordnungsgemäß ausgeführt
 
 `mboxUpdate` wurde nicht ordnungsgemäß mit `mbox3rdPartyId` ausgeführt.
 
@@ -187,7 +187,7 @@ Beachten Sie die folgenden Implementierungsprobleme:
 
 If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).
 
-## Training video: Upload Offline Data using Customer Attributes {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![Tutorial badge](/help/assets/tutorial.png)
+## Training video: Upload Offline Data using Customer Attributes ![Tutorial badge](/help/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
 
 This video shows you how to import offline CRM, help desk, point-of-sale, and other marketing data into the [!DNL Experience Cloud People] service and associate it with visitors using their known IDs.
 
