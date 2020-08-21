@@ -6,10 +6,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 90%
+source-wordcount: '1479'
+ht-degree: 88%
 
 ---
 
@@ -29,10 +29,17 @@ ht-degree: 90%
    + [Versionshinweise für vorherige Versionen](r-release-notes/release-notes-for-previous-releases.md)
 + Einführung {#introduction}
    + [Einführung in Target](c-intro/intro.md)
-   + [Adobe Target-Begrüßungs-Kit](/help/c-intro/target-welcome-kit.md)
    + [Zugriff auf Target über Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Wichtige Target-Konzepte](c-intro/target-key-concepts.md)
    + [Die Benutzeroberfläche der Zielgruppe](/help/c-intro/understand-the-target-ui.md)
+   + Adobe Target-Begrüßungs-Kit {#welcome}
+      + [Übersicht über das Adobe Target-Begrüßungs-Kit](/help/c-intro/target-welcome-kit.md)
+      + [Kapitel 1: Einführung](/help/c-intro/target-welcome-kit-1.md)
+      + [Kapitel 2: Adobe Target auf einen Blick](/help/c-intro/target-welcome-kit-2.md)
+      + [Kapitel 3: Entwicklung von Tests und Personalisierungsideen](/help/c-intro/target-welcome-kit-3.md)
+      + [Kapitel 4: Tipps zur Verwendung der Zielgruppe](/help/c-intro/target-welcome-kit-4.md)
+      + [Kapitel 5: Anregung für Test- und Personalisierungs-Aktivitäten](/help/c-intro/target-welcome-kit-5.md)
+      + [Kapitel 6: Einfach vermeidbare Fallstricke](/help/c-intro/target-welcome-kit-6.md)
    + [Glossar](c-intro/glossary.md)
    + [Funktionsweise von Adobe Target](c-intro/how-target-works.md)
    + [Schulung und Zertifizierung](c-intro/training-and-certification.md)
