@@ -4,9 +4,9 @@ description: Adobe Target-Begrüßungs-Kit - Kapitel 8
 title: Adobe Target-Begrüßungs-Kit - Kapitel 8
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,6 @@ Wenn Sie eine Aktivität ausführen und erstaunliche Ergebnisse erzielen, müsse
 
 Wenn Sie diese Ergebnisse mitteilen, ist es hilfreich, sie so anzugehen, als würden Sie eine Geschichte erzählen. Machen Sie es interessant und erklären Sie klar, was es getestet oder personalisiert wurde und warum und was die Ergebnisse waren. Verwenden Sie die Sprache und Terminologie, die von denjenigen verstanden werden, die die Ergebnisse überprüfen.
 
-In Microsoft PowerPoint wurde eine Vorlage für die Ergebnisse der Zusammenfassungen aufgenommen (siehe unten). Richten Sie sie mit dem Farbschema und Logo Ihres Unternehmens neu ein und präsentieren Sie die Ergebnisse Ihrer ersten Test- oder Personalisierungsstudie. Wie der Aktivität-Planer ist er im Begrüßungs-Kit als Standalone-Datei enthalten, aber wir haben hier auch ein Bild davon hinzugefügt, zusammen mit einem Beispiel für die Art der Informationen, die in jedem Bereich der Vorlage enthalten sein sollen.
+In Microsoft PowerPoint wurde eine Vorlage für die Ergebnisse der [Zusammenfassungen](/help/assets/executive-summary.zip) aufgenommen. Richten Sie sie mit dem Farbschema und Logo Ihres Unternehmens neu ein und präsentieren Sie die Ergebnisse Ihrer ersten Test- oder Personalisierungsstudie. Wie der Aktivität-Planer ist er im Begrüßungs-Kit als Standalone-Datei enthalten, aber wir haben hier auch ein Bild davon hinzugefügt, zusammen mit einem Beispiel für die Art der Informationen, die in jedem Bereich der Vorlage enthalten sein sollen.
 
 ![Zusammenfassender Bericht](/help/c-intro/assets/executive-summary-report.png)
