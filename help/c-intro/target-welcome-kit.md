@@ -4,7 +4,7 @@ description: Adobe Target Begrüßungs-Kit.
 title: Adobe Target-Begrüßungs-Kit
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
@@ -24,7 +24,6 @@ Dieses Begrüßungs-Kit enthält die folgenden Kapitel:
 * [Kapitel 4: Tipps zur Verwendung der Zielgruppe](/help/c-intro/target-welcome-kit-4.md)
 * [Kapitel 5: Anregung für Test- und Personalisierungs-Aktivitäten](/help/c-intro/target-welcome-kit-5.md)
 * [Kapitel 6: Einfach vermeidbare Fallstricke](/help/c-intro/target-welcome-kit-6.md)
-* Kapitel 7: Erstellen und Ausführen der ersten Zielgruppe-Aktivität
-* Kapitel 8: Aktivitäten kommunizieren
-* Kapitel 9: Nächste Schritte
-* Kapitel 10: Anhang
+* [Kapitel 7: Erstellen und Ausführen der ersten Zielgruppe-Aktivität](/help/c-intro/target-welcome-kit-7.md)
+* [Kapitel 8: Aktivitäten kommunizieren](/help/c-intro/target-welcome-kit-8.md)
+* [Kapitel 9: Nächste Schritte und Ressourcen](/help/c-intro/target-welcome-kit-9.md)
