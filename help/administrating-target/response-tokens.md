@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -19,7 +19,7 @@ ht-degree: 77%
 
 Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
 
-Mithilfe von Antworttoken können Sie festlegen, welche Variablen genutzt werden sollen, und dann ermöglichen, dass sie als Teil einer Zielgruppe-Antwort gesendet werden. In order to do so, you simply enable a variable using the switch and the variable will be sent with Target responses, which can be validated in network calls. Response tokens work in [!UICONTROL Preview] mode as well.
+Mithilfe von Antworttoken können Sie festlegen, welche Variablen genutzt werden sollen, und dann ermöglichen, dass sie als Teil einer Zielgruppe-Antwort gesendet werden. Dazu aktivieren Sie einfach eine Variable mit dem Switch und die Variable wird mit Zielgruppe-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Response tokens work in [!UICONTROL Preview] mode as well.
 
 Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, dass Plug-ins JavaScript für die Seite bereitstellen, das bei Bereitstellung ausgeführt wird, wohingegen Antwort-Token ein Objekt bereitstellen, das anschließend gelesen und auf das mithilfe von Ereignislistenern reagiert werden kann. Weitere Informationen finden Sie unter  [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) und in den Beispielen im späteren Verlauf dieses Artikels. Der Ansatz der Antwort-Token ist sicherer und ermöglicht eine problemlosere Bereitstellung und Wartung von Drittanbieterintegrationen.
 
@@ -70,7 +70,7 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
 
 1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
-   Click **[!UICONTROL Add Response Token]**, provide the token name, then click **[!UICONTROL Activate]**.
+   Klicken Sie auf **[!UICONTROL Hinzufügen Antwort-Token]**, geben Sie den Token-Namen ein und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
 
    ![](assets/response_token_create.png)
 
@@ -285,12 +285,12 @@ Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen
 </script>
 ```
 
-## Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse ![Tutorialzeichen](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Antwort-Token und benutzerspezifische at.js-Ereignisse verwenden können, um Profilinformationen aus Target an Drittanbietersysteme zu übergeben.
 
 >[!NOTE]
 >
->Die Benutzeroberfläche des [!DNL Target] Administrationsmenüs [!UICONTROL (früher] Setup ) wurde überarbeitet, um die Leistung zu verbessern, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu verkürzen und die Benutzerfreundlichkeit im gesamten Produkt zu verbessern. The information in the following video is generally correct; however, options might be in slightly different locations. Updated videos will be posted soon.
+>Die Benutzeroberfläche des [!DNL Target] Administrationsmenüs [!UICONTROL (früher] Setup ) wurde überarbeitet, um die Leistung zu verbessern, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu verkürzen und die Benutzerfreundlichkeit im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
