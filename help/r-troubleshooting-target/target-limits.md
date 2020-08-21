@@ -6,9 +6,9 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '993'
 ht-degree: 77%
 
 ---
@@ -44,7 +44,7 @@ Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgrup
 
 **Limit**: 50 Zielgruppen pro Mbox, Metrik oder Erlebnis.
 
-## Audiences, reusable per account
+## Audiencen, pro Konto wiederverwendbar
 
 **Empfohlenes Limit**: 20,000 Zielgruppen.
 
@@ -54,7 +54,7 @@ Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgrup
 
 ## Kundenattributnamen
 
-**Limit**: 128 Zeichen.
+**Maximal**: 250 Zeichen über Feed oder API.
 
 ## Kundenattribut-Alias-ID
 
@@ -117,37 +117,37 @@ Längere Werte werden abgeschnitten.
 
 Für Standard-Mbox-Aufrufe:
 * Mbox-Parameter: 500 Parameter pro Mbox.
-* Profile parameters: 500 parameters profile parameters per mbox.
+* Profil-Parameter: 500 Parameter Profil-Parameter pro mbox.
 * Andere Parameter (URL, verweisende URL usw.): 50 Parameter pro Mbox für jeden Parametertyp.
 
 Diese Beschränkungen gelten, sofern die Anfrage nicht durch Webbrowser-Beschränkungen gekürzt wird.
 
-If you are using the Batch Delivery API, the limit is 50 mboxes per batch request.
+Wenn Sie die Batch Versand API verwenden, beträgt die Beschränkung 50 Mboxes pro Batch-Anforderung.
 
-Wenn Sie die [Batch-Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-batch-delivery) im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. If a request contains more than these limits, the API will return the following error message:
+Wenn Sie die [Batch-Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-batch-delivery) im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Wenn eine Anforderung mehr als diese Beschränkungen enthält, gibt die API die folgende Fehlermeldung zurück:
 
-&quot;The number of mboxParameters cannot exceed 50.&quot;
+&quot;Die Anzahl der mboxParameters darf 50 nicht überschreiten.&quot;
 
-Limits set for endpoints:
+Für Endpunkte festgelegte Grenzwerte:
 
-Batch mbox v2:
+Batch-mbox v2:
 * mbox-Parameter 100
 * Mbox-Parametername max. Länge 128
-* mbox parameter value cannot be null
-* mbox parameter value 5000
+* mbox-Parameterwert darf nicht null sein
+* mbox-Parameterwert 5000
 * profil-Parameter 50
 * profil-Parametername max. Länge 128
 * profil-Parameterwert darf nicht null sein
 * profil-Parameterwert max. Länge 256
 
-Delivery API endpoint
+Versand-API-Endpunkt
 * mbox-Parameter 50
 * Mbox-Parametername max. Länge 128
-* mbox parameter value cannot be null
+* mbox-Parameterwert darf nicht null sein
 * mbox-Parameterwert 5000
 * profil-Parameter 50
 * profil-Parametername max. Länge 128
-* profile parameter value cannot be null
+* profil-Parameterwert darf nicht null sein
 * profil-Parameterwert max. Länge 256
 
 ## URL-Adressen zur Mbox-Anfrage
@@ -200,7 +200,7 @@ Eine längere Zeichenfolge wird vom System begrenzt.
 
 **Empfohlene Obergrenze für Profil-Skripten pro Konto**: 2.000
 
-**Recommendations zur Beschränkung der Komplexität** von Profil-Skripten: Profil-Skripten können eine begrenzte Anzahl von Anweisungen ausführen. For more information, see [Best practices](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profile attributes*.
+**Recommendations zur Beschränkung der Komplexität** von Profil-Skripten: Profil-Skripten können eine begrenzte Anzahl von Anweisungen ausführen. Weitere Informationen finden Sie unter [Bewährte Verfahren](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profil-Attributen*.
 
 ## Properties
 
@@ -242,7 +242,7 @@ Dies bezieht sich auf die Anzahl der durch eine Zeile getrennten Werte im Target
 
 ## Targeting-Regeln
 
-**Recommended limit**: 2,500 characters per targeting rule value.
+**Empfohlene Beschränkung**: 2.500 Zeichen pro Targeting-Regelwert.
 
 **Empfohlenes Limit**: 30.000 einmalige Werte pro Zielgruppe in Targeting-Regeln.
 
