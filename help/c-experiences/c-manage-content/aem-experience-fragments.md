@@ -6,7 +6,7 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 96%
@@ -146,7 +146,7 @@ Mit dem [Visual Experience Composer](/help/c-experiences/c-visual-experience-c
 * Das Experience Fragment wird derzeit in [!DNL Target] als HTML-Angebot importiert. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. Sie können das Experience Fragment nicht in [!DNL Target] bearbeiten.
 * Sie können JSON-Angebote als Experience Fragments nach [!DNL Target] importieren. Diese Angebote werden jedoch als HTML-Angebote importiert. JSON-Angebote (Experience Fragments) werden derzeit nicht vollständig in der [!DNL Target]-Benutzeroberfläche unterstützt.
 
-## Training video: Using AEM experience fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
+## Training video: Using AEM experience fragments with Adobe Target ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
 
 Das folgende Video zeigt Ihnen, wie Sie Experience Fragments einrichten und verwenden:
 
