@@ -4,9 +4,9 @@ description: Adobe Target Begrüßungs-Kit - Kapitel 7
 title: Adobe Target Begrüßungs-Kit - Kapitel 7
 feature: intro
 translation-type: tm+mt
-source-git-commit: 021d714ce4db25f019069ea7ecf49ac44b2b3b06
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Denken Sie bei der Entwicklung Ihrer Testidee daran, dass Sie im Idealfall mit D
 
 ## Planen Ihrer Aktivität mit dem Aktivitäten-Planer
 
-Wir haben den folgenden Aktivität-Planer als eigenständige PDF-Datei (siehe unten) integriert, die Sie immer wieder speichern und verwenden können. Um eine effektive Aktivität auszuführen, müssen Sie jeden Bereich des Planers ausfüllen. Verwenden Sie dieses Tool wie Sie und andere Brainstorming-Ideen für Test- und Personalisierungs-Aktivitäten.
+Wir haben den [Adobe Target Aktivität Planer](/help/assets/activity-planner.pdf) als eigenständige PDF-Datei integriert, die Sie immer wieder speichern und verwenden können. Um eine effektive Aktivität auszuführen, müssen Sie jeden Bereich des Planers ausfüllen. Verwenden Sie dieses Tool wie Sie und andere Brainstorming-Ideen für Test- und Personalisierungs-Aktivitäten.
 
 ![Adobe Target Aktivität-Planer](/help/c-intro/assets/activity-planner.png)
 
