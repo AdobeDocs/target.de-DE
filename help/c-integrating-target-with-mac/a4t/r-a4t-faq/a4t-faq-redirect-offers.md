@@ -6,10 +6,10 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 96%
+source-wordcount: '1206'
+ht-degree: 94%
 
 ---
 
@@ -95,7 +95,7 @@ We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `a
 
 ## Warum muss die verweisende URL an die neue Seite weitergegeben werden? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Angenommen, ein Besucher klickt auf einen Link [!DNL `www.google.com`] auf Ihrer Homepage ([!DNL `www.mysite.com/index.html]`), auf der eine Weiterleitungsaktivität aktiv ist, und wird anschließend zu einer neuen Seite weitergeleitet ([!DNL `www.mysite.com/index2.html`]).
+Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage (`www.mysite.com/index.html`) on which a redirect activity is live and is then redirected to a new page (`www.mysite.com/index2.html`).
 
 Bisher hat die [!DNL Analytics]-Anfrage auf der neuen Seite eine verweisende URL von [!DNL `www.mysite.com/index.html`] statt von [!DNL `www.google.com`] gemeldet. Dies führte zu ungenauen Berichten in [!DNL Analytics] im Zusammenhang mit den verweisenden URLs (beispielsweise Marketingkanalberichte). Somit berücksichtigten die Berichte nicht, dass Sie über [!DNL `www.google.com`] auf die Seite kamen.
 
