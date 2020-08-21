@@ -6,7 +6,7 @@ feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 82%
@@ -26,14 +26,14 @@ Weitere Informationen finden Sie in der [Dokumentation der Adobe Experience Clou
 
 Die folgenden Videos führen Sie Schritt für Schritt durch den Debugging-Prozess:
 
-### Hinzufügen der Adobe Experience Cloud-Debugger-Erweiterung  {#section_8CD96F76E397476193529573F3199615} ![Übersichtskennzeichnung](/help/assets/overview.png)
+### Hinzufügen der Adobe Experience Cloud-Debugger-Erweiterung  ![Übersichtskennzeichnung](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Basic Target Debugging Using the Adobe Experience Cloud Debugger {#section_AB2814A994DC4A86BABDD0441343D911} ![Overview badge](/help/assets/overview.png)
+### Basic Target Debugging Using the Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Markierung {#section_FD3BC8019FA847209AB8BCA747C50211} für Mbox-Trace- ![Übersicht](/help/assets/overview.png)
+### Abzeichen ![für Mbox-Ablaufverfolgungsübersicht](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/)
