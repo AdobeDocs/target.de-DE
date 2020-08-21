@@ -5,10 +5,10 @@ title: Beheben von Problemen mit Visual Experience Composer und Enhanced Experie
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 74%
+source-wordcount: '1282'
+ht-degree: 72%
 
 ---
 
@@ -26,6 +26,10 @@ Mit den neuesten Änderungen (August 2020) haben alle Benutzer mit Chrome 80+-Br
 * Die EWG wird *nicht* für alle Benutzer funktionieren, da sie nicht in der Lage ist, das Attribut SameSite für Cookies einzustellen `adobemc.com domain`. Ohne dieses Attribut lehnt der Browser diese Cookies ab, wodurch die EWG fehlschlägt.
 
 Adobe hat eine aktualisierte VEC Helper-Erweiterung an den Google Chrome Store übermittelt. Diese Erweiterung überschreibt bei Bedarf die Cookie-Attribute, um das `SameSite="none"` Attribut festzulegen. Die [aktualisierte Erweiterung finden Sie hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+
+Für Ihre eigenen Site-Cookies müssen Sie die Cookies anhand des Namens angeben. Schalten Sie den Regler für das [!UICONTROL Cookie] auf die Position &quot;Ein&quot;um und geben Sie dann das Cookie anhand des Namens an.
+
+![VEC Helper Extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
 
 ### Alternativen und Problemumgehungen
 
