@@ -5,7 +5,7 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 89%
@@ -57,7 +57,7 @@ In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target Basics-Webinar: Einführung in Recommendations {#intro-to-recs} ![Tutorial badge](/help/assets/tutorial.png)
+## Adobe Target Basics-Webinar: Einführung in Recommendations ![Tutorialzeichen](/help/assets/tutorial.png) {#intro-to-recs}
 
 Das Webinar *„Einführung in Recommendations“* beinhaltet eine ausführliche Untersuchung, wie der Wert von [!DNL Adobe Target Recommendations] wirksam eingesetzt werden kann. Erfahren Sie, wie diese [!DNL Target]-Aktivität automatisch Produkte oder Inhalte anzeigt, die für Ihre Kunden von Interesse sein könnten, indem sie Echtzeitvorschläge auf der Grundlage früherer Besuche optimiert. Außerdem können Sie in die [!DNL Target]-Benutzeroberfläche eintauchen, um eine schrittweise Übersicht über das Erstellen einer [!DNL Recommendations]-Aktivität zu erhalten.
 
