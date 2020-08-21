@@ -5,10 +5,10 @@ title: Erstellen eines Multivarianz-Tests
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. An
    >
    >Informationen zur Problembehebung für den VEC finden Sie bei Bedarf unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >Die Option [!UICONTROL „Arbeitsplatz auswählen“] in der obigen Abbildung ist eine Funktion von [Target Premium](/help/c-intro/intro.md). Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.]
+   >Die Option [!UICONTROL „Arbeitsplatz auswählen“] in der obigen Abbildung ist eine Funktion von [Target Premium](/help/c-intro/intro.md). Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.
 
 1. (Abhängig von Ihrer Lizenz) Wenn Sie Target Premium-Kunde sind, [wählen Sie einen Arbeitsbereich](/help/administrating-target/c-user-management/property-channel/property-channel.md) aus.
 
@@ -100,7 +100,7 @@ Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. An
 
    ![](assets/estimator2.png)
 
-1. Klicken Sie auf **[!UICONTROL Weiter]**, um zur [!UICONTROL Targeting]-Seite zu gelangen.
+1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] page.
 
 1. Wählen Sie die Zielgruppe und den Prozentsatz qualifizierter Besucher aus, die an der Aktivität teilnehmen sollen.
 
@@ -118,7 +118,7 @@ Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. An
 
 1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]**, um die Aktivität zu erstellen.
 
-## Training video: Creating Multivariate Tests (9:25) ![Tutorial badge](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen von Multivarianz-Tests (9:25) - ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test geplant und erstellt wird.
 
