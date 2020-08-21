@@ -5,7 +5,7 @@ title: Erstellen eines Designs
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 95%
@@ -115,7 +115,7 @@ Das folgende Beispiel zeigt, wie JSON-Antworten zurückgesendet werden können, 
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target-Clientcode (verfügbar unter ../target/products.html#recsSettings > Recommendations API Token > Client Code. |
 | `[YOUR_MBOX_NAME]` | Der Name, den Sie im Abschnitt &quot;Speicherorte&quot;des formularbasierten Recommendations ausgewählt haben, in diesem Fall Sample_Recs_Response. |
-| `[ENTITY_ID`] | Die `entity.id` eines Artikels in Ihrem Katalog |
+| `[ENTITY_ID` | Die `entity.id` eines Artikels in Ihrem Katalog |
 | `[AT_PROPERTY_TOKEN]` | (Optional) Fügen Sie dies hinzu, wenn Sie bei der Einrichtung Ihrer Aktivität eine Eigenschaft (Teil der Unternehmensberechtigungen) ausgewählt haben. |
 
 Nachdem Ihr Algorithmus ausgeführt wurde und Sie Ergebnisse erhalten haben, sollte Ihre Antwort ungefähr so aussehen:
