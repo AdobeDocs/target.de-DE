@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target-Begrüßungs-Kit - Kapitel 6
-title: Adobe Target-Begrüßungs-Kit - Kapitel 6
+description: Adobe Target-Begrüßungs-Kit - Kapitel 6 - leicht zu vermeidende Fallstricke
+title: Adobe Target-Begrüßungs-Kit - Kapitel 6 - leicht zu vermeidende Fallstricke
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '383'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 3%
 
 Das Gute am Start Ihres Optimierungs- und Personalisierungs-Programms ist, dass Menschen, die es schon seit einiger Zeit tun, bereits viele der leicht zu machenden Fehler aufgedeckt haben. Indem Sie diese Fallstricke kennen, können Sie sie leicht vermeiden oder beheben.
 
-Detaillierte Informationen finden Sie unter [Zehn gängige Fallstricke für A/B-Tests und wie diese](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) vermieden werden können. Zusätzlich zu den in diesem Artikel präsentierten Ideen sollten Sie diese kurze Liste verwenden, um diese häufig auftretenden Test- und Personalisierungsfehler zu vermeiden oder zu beheben.
+>[!NOTE]
+>
+>Detaillierte Informationen finden Sie unter [Zehn gängige Fallstricke für A/B-Tests und wie diese](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) vermieden werden können. Zusätzlich zu den in diesem Artikel präsentierten Ideen sollten Sie diese kurze Liste verwenden, um diese häufig auftretenden Test- und Personalisierungsfehler zu vermeiden oder zu beheben.
 
 | Fehler  | Lösung |
 | --- | --- |
