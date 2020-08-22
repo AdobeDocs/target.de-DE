@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target Begrüßungs-Kit - Kapitel 7
-title: Adobe Target Begrüßungs-Kit - Kapitel 7
+description: Adobe Target Begrüßungs-Kit - Kapitel 7 - Erstellen und Ausführen der Aktivität für die erste Zielgruppe
+title: Adobe Target Begrüßungs-Kit - Kapitel 7 - Erstellen und Ausführen der Aktivität für die erste Zielgruppe
 feature: intro
 translation-type: tm+mt
-source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,9 @@ Denken Sie bei der Entwicklung Ihrer Testidee daran, dass Sie im Idealfall mit D
 
 ## Planen Ihrer Aktivität mit dem Aktivitäten-Planer
 
-Wir haben den [Adobe Target Aktivität Planer](/help/assets/activity-planner.pdf) als eigenständige PDF-Datei integriert, die Sie immer wieder speichern und verwenden können. Um eine effektive Aktivität auszuführen, müssen Sie jeden Bereich des Planers ausfüllen. Verwenden Sie dieses Tool wie Sie und andere Brainstorming-Ideen für Test- und Personalisierungs-Aktivitäten.
+Wir haben den [Adobe Target Aktivität Planer](/help/assets/activity-planner.pdf) als eigenständige PDF-Datei integriert, die Sie immer wieder speichern und verwenden können. Klicken Sie auf den Link, um die PDF-Datei Ansicht. Klicken Sie mit der rechten Maustaste, um die PDF-Datei herunterzuladen.
+
+Um eine effektive Aktivität auszuführen, müssen Sie jeden Bereich des Planers ausfüllen. Verwenden Sie dieses Tool wie Sie und andere Brainstorming-Ideen für Test- und Personalisierungs-Aktivitäten.
 
 ![Adobe Target Aktivität-Planer](/help/c-intro/assets/activity-planner.png)
 
