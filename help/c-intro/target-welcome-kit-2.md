@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target-Begrüßungs-Kit - Kapitel 2
-title: Adobe Target-Begrüßungs-Kit - Kapitel 2
+description: Adobe Target Begrüßungs-Kit - Kapitel 2 - Zielgruppe auf einen Blick
+title: Adobe Target Begrüßungs-Kit - Kapitel 2 - Zielgruppe auf einen Blick
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2494'
+source-wordcount: '2504'
 ht-degree: 17%
 
 ---
@@ -28,12 +28,12 @@ Detailliertere Informationen zum Zeitpunkt und zur Verwendung der einzelnen Funk
 
 | Aktivität | Details |
 | --- | --- |
-| Erlebnis-Targeting (XT) | Bereitstellen von Inhalten für eine bestimmte Audience basierend auf einem Satz benutzerdefinierter Regeln und Kriterien. **[!UICONTROL Erlebnis-Targeting]** ist nützlich, wenn Sie ein bestimmtes Erlebnis oder einen bestimmten Inhalt auf eine bestimmte Audience ausrichten möchten, wenn Sie verstehen, dass eine Audience wertvoll ist und eine gute Vorstellung davon haben, welches Erlebnis bei ihnen ankommt. [Mehr Info](/help/c-activities/t-experience-target/experience-target.md). |
 | A/B-Tests | Vergleichen Sie zwei oder mehr Varianten Ihrer Erlebnisse oder Angebot auf Ihrer Website oder einen anderen Touchpoint für digitale Kunden, um festzustellen, welche Variante während eines vorab festgelegten Testzeitraums die wichtigsten Geschäftsmaßstäbe am meisten verbessert. A/B-Tests eignen sich gut für große Änderungen, wie z. B. neue Webseitenlayouts, verschiedene Ansätze zur Navigation auf der Site oder drastisch unterschiedliche Behandlungen einzelner Elemente eines digitalen Erlebnisses wie Kopieren, Bilder und Aktionsaufruf-Schaltflächen. [Mehr Info](/help/c-activities/t-test-ab/test-ab.md). |
-| Multivariate Tests (MVT) | Vergleichen Sie alle möglichen Kombinationen von verschiedenen Elementen auf Ihrer Seite oder im digitalen Erlebnis, z. B. drei verschiedene Hintergrundbilder, zwei Varianten der Kopie und zwei verschiedene Schaltflächenfarben. MVT bestimmt, welche Kombination die beste Leistung für eine bestimmte Audience erzielt und welche Elemente die meisten Auswirkungen auf die Ergebnisse haben. [Mehr Info](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | Automatische Zuordnung | Identifizieren Sie das leistungsstärkste Erlebnis unter zwei oder mehr Erlebnissen und weisen Sie dem Gewinner automatisch mehr Traffic zu, um die Konversionen zu erhöhen, während der Test weiter ausgeführt wird und lernt. Verwendet künstliche Intelligenz auf Basis [!DNL Adobe Sensei]. [Mehr Info](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| Auto-Zielgruppe<br>(Premium) | Nutzen Sie die Adobe Sensei AI, [!DNL Target] um das beste Erlebnis für mehrere Besucher zu ermitteln und zu liefern, basierend auf dem Profil des jeweiligen Kunden und dem Verhalten früherer Besucher mit ähnlichen Profilen. Die automatische Zielgruppe ermöglicht die Personalisierung im Maßstab. |
+| Auto-Zielgruppe<br>(Premium) | Nutzen Sie die Adobe Sensei AI, [!DNL Target] um das beste Erlebnis für mehrere Besucher zu ermitteln und zu liefern, basierend auf dem Profil des jeweiligen Kunden und dem Verhalten früherer Besucher mit ähnlichen Profilen. Die automatische Zielgruppe ermöglicht die Personalisierung im Maßstab. [Mehr Info](/help/c-activities/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | Verwenden Sie fortschrittliche maschinelle Lernalgorithmen und Automatisierungsfunktionen, [!DNL Adobe Sensei] um verschiedene Kombinationen von Bildern, Kopien und anderen Elementen in einem Angebot zu prüfen und die beste Kombination für jeden Besucher bereitzustellen, basierend darauf, welche Geschäftsziele am besten erreicht werden, wie z.B. höhere Konversionen oder höhere Umsätze pro Besucher. [Mehr Info](/help/c-activities/t-automated-personalization/automated-personalization.md). |
+| Erlebnis-Targeting (XT) | Bereitstellen von Inhalten für eine bestimmte Audience basierend auf einem Satz benutzerdefinierter Regeln und Kriterien. **[!UICONTROL Erlebnis-Targeting]** ist nützlich, wenn Sie ein bestimmtes Erlebnis oder einen bestimmten Inhalt auf eine bestimmte Audience ausrichten möchten, wenn Sie verstehen, dass eine Audience wertvoll ist und eine gute Vorstellung davon haben, welches Erlebnis bei ihnen ankommt. [Mehr Info](/help/c-activities/t-experience-target/experience-target.md). |
+| Multivariate Tests (MVT) | Vergleichen Sie alle möglichen Kombinationen von verschiedenen Elementen auf Ihrer Seite oder im digitalen Erlebnis, z. B. drei verschiedene Hintergrundbilder, zwei Varianten der Kopie und zwei verschiedene Schaltflächenfarben. MVT bestimmt, welche Kombination die beste Leistung für eine bestimmte Audience erzielt und welche Elemente die meisten Auswirkungen auf die Ergebnisse haben. [Mehr Info](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | Recommendations<br>(Premium) | Verwenden Sie Adobe Sensei AI, um automatisch Produkte oder Inhalte vorzuschlagen, die ausgehend von der vorherigen Aktivität und der anderer Kunden für Ihre Kunden von Interesse sein könnten. [Mehr Info](/help/c-recommendations/recommendations.md). |
 
 ## Kanäle
