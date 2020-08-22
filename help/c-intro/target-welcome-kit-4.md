@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target Begrüßungs-Kit - Kapitel 4
-title: Adobe Target Begrüßungs-Kit - Kapitel 4
+description: Adobe Target Begrüßungs-Kit - Kapitel 4 - Tipps zur Verwendung der Zielgruppe
+title: Adobe Target Begrüßungs-Kit - Kapitel 4 - Tipps zur Verwendung der Zielgruppe
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2882'
 ht-degree: 0%
 
 ---
