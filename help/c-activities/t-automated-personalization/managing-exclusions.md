@@ -6,9 +6,9 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '960'
 ht-degree: 97%
 
 ---
@@ -82,7 +82,7 @@ Es gibt möglicherweise bestimmte Kombinationen, die nicht gut gemeinsam funktio
 
    ![Ausschluss eines Erlebnisses mit dem Mauszeiger](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   Alternativ können Sie Erlebnisse in einem Batch-Vorgang ausschließen/einschließen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann in der oberen rechten Ecke des Dialogfelds auf das Symbol **[UICONTROL Ausschließen]** klicken. Das Symbol [!UICONTROL Ausschließen] wird angezeigt, wenn mindestens ein Erlebnis aktiviert ist.
+   Alternativ können Sie Erlebnisse in einem Batch-Vorgang ausschließen/einschließen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann in der oberen rechten Ecke des Dialogfelds auf das Symbol **[!UICONTROL Ausschließen]** klicken. Das Symbol [!UICONTROL Ausschließen] wird angezeigt, wenn mindestens ein Erlebnis aktiviert ist.
 
    ![Erlebnisse im Batch-Modus ausschließen](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
