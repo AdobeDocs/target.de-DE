@@ -5,10 +5,10 @@ title: Erfolgsmetriken in Adobe Target
 feature: success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 53%
+source-wordcount: '1129'
+ht-degree: 48%
 
 ---
 
@@ -35,7 +35,7 @@ Es sind folgende Erfolgsmetriken verfügbar:
 
 | Erfolgsmetrik | Messungsansatz | Definition |
 |--- |--- |--- |
-| Konversion | Konversionsbasiert | Die Umrechnung erfolgt, wenn ein Besucher eine von Ihnen definierte Aktion auf Ihrer Site ausführt, z. B. <ul><li>Clicked a button</li><li>Seite angezeigt</li><li>Umfrage abgeschlossen</li><li>Einkauf vorgenommen</li></ul>Eine Konversion kann einmal pro Besucher oder jedes Mal, wenn ein Besucher eine Konversion abschließt, gezählt werden. |
+| Konversion | Konversionsbasiert | Die Umrechnung erfolgt, wenn ein Besucher eine von Ihnen definierte Aktion auf Ihrer Site ausführt, z. B. <ul><li>Klicken auf eine Schaltfläche</li><li>Seite angezeigt</li><li>Umfrage abgeschlossen</li><li>Einkauf vorgenommen</li></ul>Eine Konversion kann einmal pro Besucher oder jedes Mal, wenn ein Besucher eine Konversion abschließt, gezählt werden. |
 | Umsatz | Konversionsbasiert | Durch den Besuch generierter Umsatz. Sie können aus folgenden Umsatzmetriken wählen:<ul><li>Umsatz pro Besucher (RPV)</li><li>Durchschnittlicher Bestellwert (AOV)</li><li>Gesamtverkäufe</li><li>Bestellungen</li></ul> |
 | Seitenansichten | Interaktionsbasiert | Jeder eindeutige Besuch wird als Konversion gezählt. |
 | Benutzerspezifisches Ergebnis | Interaktionsbasiert | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
@@ -43,7 +43,7 @@ Es sind folgende Erfolgsmetriken verfügbar:
 
 Bei interaktionsbasierten Metriken müssen sich Besucher (im Gegensatz zu konversions- oder umsatzbasierten Metriken) erneut für die Aktivität qualifizieren, um den Zähler für diese Sitzung zu erhöhen. Die zugehörige Metrik steigt nach erneuter Qualifikation und endet mit dem Ende der jeweiligen Besuchersitzung. Sitzungen enden nach einer Inaktivität von 30 Minuten. Daher werden die Ergebnisse beim Testen nicht sofort angezeigt. jedoch sind alle Ergebnisse dieser Sitzung innerhalb weniger Minuten nach dem Ende der Sitzung verfügbar.
 
-## Custom success metrics
+## Benutzerspezifische Erfolgsmetriken
 
 Sie können auch benutzerdefinierte Erfolgsmetriken erstellen.
 
@@ -57,9 +57,9 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 
 ## Erweiterte Einstellungen {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
-Mit den erweiterten Einstellungen können Sie verwalten, wie Sie Erfolg messen. Die Optionen umfassen das Zählen der Metrik pro Anzeige oder einmal pro Besucher sowie die Wahl, ob Benutzer in der Aktivität bleiben können oder entfernt werden.
+Mit den erweiterten Einstellungen können Sie verwalten, wie Sie Erfolg messen. Zu den Optionen gehören das Hinzufügen von Abhängigkeiten, die Auswahl, ob der Benutzer in der Aktivität bleiben oder entfernt werden soll und ob die Metrik einmal pro Teilnehmer oder bei jeder Impression gezählt werden soll.
 
-To access the [!UICONTROL Advanced Settings] options, click the **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]**.
+Um die [!UICONTROL erweiterten Einstellungen] aufzurufen, klicken Sie auf die **[!UICONTROL vertikalen Auslassungspunkte]** > **[!UICONTROL Erweiterte Einstellungen]**.
 
 ![Menü „Erweiterte Einstellungen“](/help/c-activities/r-success-metrics/assets/advanced-settings.png)
 
@@ -67,21 +67,27 @@ To access the [!UICONTROL Advanced Settings] options, click the **[!UICONTROL ve
 >
 >Wenn Sie [!DNL Adobe Analytics] als Ihre Berichterstellungsquelle verwenden, werden die Einstellungen vom [!DNL Analytics]-Server verwaltet. The [!UICONTROL Advanced Settings] option will not be available. For more information, see [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-Darüber hinaus können Sie mithilfe der erweiterten Einstellungen abhängige Erfolgsmetriken erstellen, die immer nur dann als erreicht verbucht werden, wenn ein Besucher zuvor eine andere Metrik erfüllt hat.
+### hinzufügen Abhängigkeit
+
+Sie können die erweiterten Einstellungen verwenden, um abhängige Erfolgsmetriken zu erstellen, wobei eine Metrik nur inkrementiert wird, wenn ein Besucher zuerst eine andere Metrik erreicht.
 
 ![Abhängigkeit hinzufügen](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 So kann eine Testkonversion zum Beispiel nur dann gültig sein, wenn ein Besucher das Angebot anklickt oder auf eine bestimmte Seite gelangt, bevor die Konversion erfolgt.
 
-Abhängige Erfolgsmetriken werden nur für Aktivitäten mit A/B-Test, automatisierter Personalisierung, Erlebnis-Targeting und Multivariate Tests unterstützt. Derzeit liegt keine Unterstützung für Empfehlungen vor.
+Dependency functionality is *not* supported for the following:
 
->[!NOTE]
->
->Abhängige Erfolgsmetriken werden in folgenden Fällen nicht umgewandelt:
->
->* Im Fall einer gegenseitigen Abhängigkeit, bei der Metrik1 von Metrik2 und Metrik2 von Metrik1 abhängt, kann keine der beiden Metriken umgewandelt werden.
->* Bei Aktivitäten mit automatisierter Personalisierung werden Benutzer freigegeben und die Aktivität neu gestartet, wenn die Konversionsmetriken erreicht werden. Metriken, die von der Konversionsmetrik abhängen, werden somit nicht umgewandelt.
+* [!UICONTROL Recommendations-Aktivitäten. ] Diese Funktionalität wird für alle anderen Aktivitätstypen unterstützt.
+* If you use [Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
+* Metriktyp „Angezeigte Seite“.
+* Metriktyp „Elementklick“ für Visual Experience Composer (VEC)-Aktivitäten.
 
+Abhängige Erfolgsmetriken werden in folgenden Fällen nicht umgewandelt:
+
+* Im Fall einer gegenseitigen Abhängigkeit, bei der Metrik1 von Metrik2 und Metrik2 von Metrik1 abhängt, kann keine der beiden Metriken umgewandelt werden.
+* Bei Aktivitäten mit automatisierter Personalisierung werden Benutzer freigegeben und die Aktivität neu gestartet, wenn die Konversionsmetriken erreicht werden. Metriken, die von der Konversionsmetrik abhängen, werden somit nicht umgewandelt.
+
+### Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft?
 
 Verwenden Sie die erweiterten Einstellungen, um festzulegen, was geschehen soll, wenn ein Benutzer die Sollmetrik erreicht. In der folgenden Tabelle finden Sie die verfügbaren Optionen:
 
@@ -89,11 +95,19 @@ Verwenden Sie die erweiterten Einstellungen, um festzulegen, was geschehen soll,
 |--- |--- |
 | [!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] | Angeben, wie die Anzahl erhöht wird:<ul><li>Einmal pro Teilnehmer  (Standard)</li><li>Bei jeder Anzeige, einschließlich Seitenaktualisierungen</li><li>Bei jeder Anzeige</li></ul> |
 | [!UICONTROL Anzahl erhöhen, Benutzer freigeben und Wiedereintritt zulassen] | Auswahl des Erlebnisses, das der Besucher bei erneuter Teilnahme an der Aktivität sieht:<ul><li>Das gleiche Erlebnis  (Standard)</li><li>Ein zufällig ausgewähltes Erlebnis</li><li>Ein noch nicht gesehenes Erlebnis</li></ul> |
-| [!UICONTROL Increment Count, Release User, &amp; Bar from Reentry] | Festlegen, was der Benutzer anstelle des Aktivitätsinhalts sieht:<ul><li>Das gleiche Erlebnis, ohne Tracking  (Standard)</li><li>Den Standardinhalt oder den Inhalt einer anderen Aktivität</li></ul> |
+| [!UICONTROL Anzahl erhöhen, Benutzer freigeben und an Wiedereintritt hindern] | Festlegen, was der Benutzer anstelle des Aktivitätsinhalts sieht:<ul><li>Das gleiche Erlebnis, ohne Tracking  (Standard)</li><li>Den Standardinhalt oder den Inhalt einer anderen Aktivität</li></ul> |
 
 >[!NOTE]
 >
->If you configure a metric to one of the [!UICONTROL Increment Count] options (mentioned above), the metric count correctly increments once per entrant at the visitor level only. The metric count increments once per visit for every new session at the visit level.
+>Wenn Sie eine Metrik auf eine der Optionen für die [!UICONTROL Anzahl] erhöhen (siehe oben) konfigurieren, wird die Metrikanzahl nur einmal pro Teilnehmer auf der Ebene des Besuchers korrekt inkrementiert. Die Metrikanzahl wird für jede neue Sitzung auf Besuchsebene einmal pro Besuch erhöht.
+
+### Wie wird die Anzahl erhöht:
+
+Wählen Sie das gewünschte Verhalten aus:
+
+* Einmal pro Teilnehmer 
+* Bei jeder Impression (ohne Seitenaktualisierungen)
+* Bei jeder Anzeige
 
 ## Schulungsvideo: Aktivitätsmetriken
 
