@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1685'
 ht-degree: 38%
 
 ---
@@ -34,26 +34,26 @@ Folgende Einstellungen können überschrieben werden:
 
 ### bodyHidingEnabled
 
-* **Type**: Boolean
-* **Default Value**: true
+* **Typ**: Boolesch
+* **Standardwert**: true
 * **Beschreibung**: Dient zum Steuern des Flackerns, wenn Angebot bereitgestellt `target-global-mbox` werden, die im Visual Experience Composer (auch als visuelle Angebot bezeichnet) erstellt wurden.
 
 ### clientCode
 
 * **Typ**: String
-* **Default Value**: Value set via UI.
-* **Description**: Represents the client code.
+* **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
+* **Beschreibung**: Stellt den Clientcode dar.
 
 ### cookieDomain
 
 * **Typ**: String
-* **Default Value**: If possible set to the top level domain.
+* **Standardwert**: Falls möglich, auf die Domäne der obersten Ebene einstellen.
 * **Beschreibung**: Stellt die Domäne dar, die beim Speichern von Cookies verwendet wird.
 
 ### crossDomain
 
 * **Typ**: String
-* **Default Value**: Value set via UI.
+* **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
 * **Beschreibung**: Gibt an, ob die domänenübergreifende Verfolgung aktiviert ist. Folgende Werte sind zulässig: deaktiviert, aktiviert oder nur x-only.
 
 ### cspScriptNonce
@@ -106,9 +106,9 @@ Folgende Einstellungen können überschrieben werden:
 
 ### globalMboxAutoCreate
 
-* **Type**: Number
+* **Typ**: Nummer
 * **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
-* **Description**: Indicates whether the global mbox request should be fired or not.
+* **Beschreibung**: Gibt an, ob die globale Mbox-Anforderung ausgelöst werden soll.
 
 ### imsOrgId
 
@@ -132,9 +132,9 @@ Folgende Einstellungen können überschrieben werden:
 
 ### overrideMboxEdgeServerTimeout
 
-* **Type**: Number
+* **Typ**: Nummer
 * **Standardwert**: 1860000 => 31 Minuten
-* **Description**: Indicates the cookie lifetime that contains the `mboxedge<clusterNumber>.tt.omtrdc.net` value.
+* **Beschreibung**: Gibt die Cookie-Lebensdauer an, die den `mboxedge<clusterNumber>.tt.omtrdc.net` Wert enthält.
 
 ### pageLoadEnabled
 
@@ -146,13 +146,13 @@ Folgende Einstellungen können überschrieben werden:
 
 * **Typ**: Boolesch
 * **Standardwert**: false
-* **Description**: Indicates whether at.js should use HTTPS only or be allowed to switch between HTTP and HTTPS based on the page protocol.
+* **Beschreibung**: Gibt an, ob at.js nur HTTPS verwenden oder je nach Seitenprotokoll zwischen HTTP und HTTPS wechseln darf.
 
 ### selectorsPollingTimeout
 
-* **Type**: Number
+* **Typ**: Nummer
 * **Standardwert**: 5000 ms = 5 s
-* **Description**: In at.js 0.9.6, [!DNL Target] introduced this new setting that can be overridden via `targetGlobalSettings`.
+* **Beschreibung**: In at.js 0.9.6 wurde diese neue Einstellung [!DNL Target] eingeführt, die überschrieben werden kann `targetGlobalSettings`.
 
    The `selectorsPollingTimeout` setting represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.
 
@@ -162,12 +162,12 @@ Folgende Einstellungen können überschrieben werden:
 
 * **Typ**: String
 * **Standardwert**: Über die Benutzeroberfläche eingestellter Wert.
-* **Description**: Represents the Target edge server.
+* **Beschreibung**: Stellt den Edge-Server der Zielgruppe dar.
 
 ### serverState
 
-* **Type**: See [Hybrid personalization](#server-state) below.
-* **Default Value**: See [Hybrid personalization](#server-state) below.
+* **Typ**: Siehe [Hybrid-Personalisierung](#server-state) weiter unten.
+* **Standardwert**: Siehe [Hybrid-Personalisierung](#server-state) weiter unten.
 * **Beschreibung**: Siehe [Hybrid-Personalisierung](#server-state) weiter unten.
 
 ### Zeitüberschreitung
@@ -321,9 +321,9 @@ Beachten Sie Folgendes, wenn Sie die Einstellung `dataProviders` verwenden.
 
 ## Content Security Policy {#content-security}
 
-at.js 2.3.0+ supports setting Content Security Policy nonces on SCRIPT and STYLE tags appended to the page DOM when applying delivered Target offers.
+&quot;at.js 2.3.0+&quot;unterstützt das Festlegen von Content Security Policy-Nonces für SCRIPT- und STYLE-Tags, die beim Anwenden von bereitgestellten Zielgruppe-Angeboten an das Seiten-DOM angehängt werden.
 
-The SCRIPT and STYLE nonces should be set in `targetGlobalSettings.cspScriptNonce` and `targetGlobalSettings.cspStyleNonce` correspondingly, prior to at.js 2.3.0+ loading. Siehe Beispiel unten:
+Die SCRIPT- und STYLE-Nonces sollten vor dem Laden von at.js 2.3.0 in `targetGlobalSettings.cspScriptNonce` und `targetGlobalSettings.cspStyleNonce` entsprechend eingestellt werden. Siehe Beispiel unten:
 
 ```
 ...
@@ -340,22 +340,22 @@ window.targetGlobalSettings = {
 ...
 ```
 
-After `cspScriptNonce` and `cspStyleNonce` settings are specified, at.js 2.3.0+ sets these as nonce attributes on all SCRIPT and STYLE tags that it appends to the DOM when applying Target offers.
+Nachdem Sie die Einstellungen `cspScriptNonce` und `cspStyleNonce` Einstellungen festgelegt haben, legt at.js 2.3.0+ diese auf allen SCRIPT- und STYLE-Tags, die beim Anwenden von Zielgruppe-Angeboten an das DOM angehängt werden, als Nonce-Attribute fest.
 
-## Hybrid personalization {#server-state}
+## Hybrid-Personalisierung {#server-state}
 
-`serverState` is a setting available in at.js v2.2+ that can be used to optimize page performance when a hybrid integration of Target is implemented. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client- als auch Versand-API oder ein Zielgruppe-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gives at.js v2.2+ the ability to apply experiences directly from content fetched on the server side and returned to the client as part of the page being served.
+`serverState` ist eine Einstellung in at.js v2.2+, die zur Optimierung der Seitenleistung verwendet werden kann, wenn eine Hybridintegration der Zielgruppe implementiert wird. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client- als auch Versand-API oder ein Zielgruppe-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden.
 
-### Pre-requisites
+### Voraussetzungen
 
-You must have a hybrid integration of [!DNL Target].
+Sie müssen über eine Hybridintegration von verfügen [!DNL Target].
 
-* **Server-side**:  You must use the new [delivery API](https://developers.adobetarget.com/api/delivery-api/) or [Target SDKs](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Client-side**: You must use [at.js version 2.2 or later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* **Serverseitig**:  Sie müssen die neuen [Versand-API](https://developers.adobetarget.com/api/delivery-api/) oder [Zielgruppe-SDKs](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)verwenden.
+* **Clientseitig**: Sie müssen [at.js Version 2.2 oder höher](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)verwenden.
 
 ### Codebeispiele
 
-To better understand how this works, please see the code examples below that you would have on your server. Der Code setzt voraus, dass Sie das [Zielgruppe Node.js SDK](https://github.com/adobe/target-nodejs-sdk)verwenden.
+Um besser zu verstehen, wie dies funktioniert, sehen Sie sich bitte die Codebeispiele unten an, die Sie auf Ihrem Server haben würden. Der Code setzt voraus, dass Sie das [Zielgruppe Node.js SDK](https://github.com/adobe/target-nodejs-sdk)verwenden.
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -473,7 +473,7 @@ Consider the following when using `serverState`:
 
 * Beim Anwenden von `serverState `Angeboten berücksichtigt at.js `pageLoadEnabled` und `viewsEnabled` Einstellungen, z. B. werden keine Angebot zum Laden der Seite angewendet, wenn die `pageLoadEnabled` Einstellung &quot;false&quot;ist.
 
-   Um diese Einstellungen zu aktivieren, aktivieren Sie den Umschalter unter &quot; **[UICONTROL-Administration&quot;> &quot;Implementierung&quot;> &quot;Bearbeiten&quot;> &quot;Seitenladevorgang aktiviert]**&quot;.
+   Um diese Einstellungen zu aktivieren, aktivieren Sie den Umschalter unter **[!UICONTROL Administration]>[!UICONTROL Implementierung]>[!UICONTROL Bearbeiten]>[!UICONTROL Seitenladeaktivierung]**.
 
    ![Einstellungen für &quot;Seitenladeaktivierung&quot;](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
