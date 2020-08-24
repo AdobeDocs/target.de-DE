@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 177fbaa1e26544d46dc56ae19558ffcfb4d2773c
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1939'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 24. August | [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Abschnitt &quot;Erweiterte Einstellungen&quot;aktualisiert. |
 | 21. August | [Übersicht über das Adobe Target-Begrüßungs-Kit](/help/c-intro/target-welcome-kit.md) | Neuer Artikel und Unterthemen. |
 | 20. August | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Folgender Abschnitt wurde hinzugefügt: &quot;Wie wirken sich die kürzlich angekündigten Richtlinien zur Durchsetzung von Cookies in Google Chrome auf VEC und EEC aus?&quot; |
 |  | [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md) | Der folgende Text wurde aktualisiert: &quot;Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzeln Erfolgsmetriken für sie festlegen. Um ein Element zu zählen, indem Sie auf mehrere Elemente auf einer Seite klicken, bearbeiten Sie den CSS-Element-Selektor, um mehrere Elemente zuzuordnen.&quot; |
