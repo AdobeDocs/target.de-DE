@@ -6,10 +6,10 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 96%
+source-wordcount: '1100'
+ht-degree: 92%
 
 ---
 
@@ -34,7 +34,7 @@ Experience Fragments sind ein großer Schritt vorwärts, um die Ersteller von In
 
 ## Voraussetzungen  {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-Sie müssen über die Funktion für Experience Fragments in [!DNTarget] verfügen. Darüber hinaus müssen Sie [!DNL AEM] 6.3 mit dem richtigen Service Pack oder [!DNL AEM] 6.4 (oder höher) verwenden. Ihr Kundenbetreuer kann Ihnen helfen, die Anforderungen zur Verwendung dieser Funktion zu erfüllen:
+You must be provisioned with the experience fragments functionality within [!DNL Target]. Darüber hinaus müssen Sie [!DNL AEM] 6.3 mit dem richtigen Service Pack oder [!DNL AEM] 6.4 (oder höher) verwenden. Ihr Kundenbetreuer kann Ihnen helfen, die Anforderungen zur Verwendung dieser Funktion zu erfüllen:
 
 * [!DNL Adobe Experience Manager] 6.4 (oder höher).
 * [!DNL Adobe Experience Manager] 6.3 SP2 (oder höher).
@@ -131,7 +131,7 @@ Mit dem [Visual Experience Composer](/help/c-experiences/c-visual-experience-c
 
 **So verwenden Sie Experience Fragments mit dem Form-Based Experience Composer:**
 
-1. Klicken Sie in [!DNTarget] beim Erstellen oder Bearbeiten eines Erlebnisses im [Form-Based Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) an die Stelle der Seite, an der Sie [!DNL AEM]-Inhalte einfügen möchten, und wählen Sie dann **[!UICONTROL Experience Fragment ändern]** aus, um die Liste [!UICONTROL Experience Fragment auswählen] anzuzeigen.
+1. In [!DNL Target], while creating or editing an experience in the [Form-Based Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert [!DNL AEM] content, then select **[!UICONTROL Change Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
 
    ![](assets/experience_fragment_list.png)
 
