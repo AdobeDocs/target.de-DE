@@ -4,7 +4,7 @@ title: Adobe Target Visual Experience Composer (VEC)
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Einige Gründe, weshalb Sie die Seitenladevorgänge im VEC abbrechen möchten:
 * Sie möchten weitere Regeln für Vorlagetestkriterien zu den Seitenbereitstellungskriterien hinzufügen.
 * Sie möchten den Global Enhanced Experience Composer (EEC) überschreiben, wenn eine Seite über das EEC oder nur über iframe geladen wird, was möglicherweise von Seite zu Seite unterschiedlich sein kann.
 
-Nachdem Sie das Laden der Seite im VEC abgebrochen haben, können Sie in der Aktivität zwischen Erlebnissen wechseln, ohne darauf warten zu müssen, dass die Seite geladen wird. Um die Seite erneut im VEC anzuzeigen, müssen Sie auf die Schaltfläche **[!UICONTOL Neu laden]** klicken.
+Nachdem Sie das Laden der Seite im VEC abgebrochen haben, können Sie in der Aktivität zwischen Erlebnissen wechseln, ohne darauf warten zu müssen, dass die Seite geladen wird. Um die Seite erneut im VEC anzuzeigen, müssen Sie auf die Schaltfläche **[!UICONTROL Neu laden]** klicken.
 
 >[!IMPORTANT]
 >
@@ -113,14 +113,14 @@ Um weiterhin Erlebnisse in der aktuellen Aktivität zu verwalten oder neue Ände
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Visual Experience Composer (1 of 2) (7:17) ![Tutorial badge](/help/assets/tutorial.png)
+### Visual Experience Composer (1 von 2) (7:17) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
+### Visual Experience Composer (2 von 2) (7:29) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
 * Erlebnis umbenennen und duplizieren
 * Umleitungserlebnis erstellen
