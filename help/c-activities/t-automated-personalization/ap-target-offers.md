@@ -5,7 +5,7 @@ feature: ap
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -43,7 +43,7 @@ In diesem Szenario wird Besucher 1 Angebot 1 angezeigt (da er sich als Teil vo
 
 1. Wählen Sie das bzw. die gewünschten Angebote aus und danach die Zielgruppen, die diese sehen sollen.
 
-   Um die Zielgruppenauswahl für ein einzelnes Angebot einzurichten, bewegen Sie den Mauszeiger über das gewünschte Angebot und klicken Sie dann auf das **[!UICONTORL Targeting]**-Symbol.
+   Um die Zielgruppenauswahl für ein einzelnes Angebot einzurichten, bewegen Sie den Mauszeiger über das gewünschte Angebot und klicken Sie dann auf das **[!UICONTROL Targeting]**-Symbol.
 
    Um die Zielgruppenauswahl für mehrere Angebote einzurichten, wählen Sie die Kontrollkästchen für die gewünschten Angebote aus und klicken Sie dann auf das **[!UICONTROL Targeting]-Symbol, das oben rechts in der Liste angezeigt wird.
 
