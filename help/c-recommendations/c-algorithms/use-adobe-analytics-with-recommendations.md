@@ -4,9 +4,9 @@ description: Durch die Verwendung von Adobe Analytics als verhaltensbasierte Dat
 title: Verwenden von Adobe Analytics mit Zielgruppe Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
+source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '877'
 ht-degree: 2%
 
 ---
@@ -95,10 +95,10 @@ Gehen Sie wie folgt vor, wenn alle Voraussetzungen erfüllt sind:
    >Sprechen Sie mit dem [!DNL Adobe Analytics] Team, bevor Sie diesen Schritt durchführen.
 
    * **Typ**: FTP
-   * **Host**: xxx.yyy.com
-   * **Pfad**: Ihr Zielgruppe-Client-Code
-   * **Benutzername**: xxxyyy
-   * **Kennwort**: xxxxxxxxxxx
+   * **Host**: `xxx.yyy.com`
+   * **Pfad**: Ihr [!DNL Target] Clientcode
+   * **Benutzername**: Geben Sie Ihren Benutzernamen ein
+   * **Kennwort**: Kennwort angeben
 
    Screenshot dient nur zu Referenzzwecken. Ihre Bereitstellung hat andere Anmeldeinformationen. Wenden Sie sich bei diesem Schritt an das [!DNL Adobe Analytics] Team oder den Kundendienst.
 
