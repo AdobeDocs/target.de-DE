@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 32853a516910358034bacaa58e594cfb1eb91f29
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 83%
 
 ---
 
@@ -30,4 +30,4 @@ Anhand der verwendeten [!DNL Target] JavaScript-Bibliothek ([!DNL at.js] oder [!
 
 Das Ablaufdatum wird für vorhandene Profile nicht zurückgesetzt. Wenn ein früherer Besucher nicht innerhalb von 15 Tagen zurückkehrt, läuft das Profil ab. Wenn ein früherer Besucher vor Ablauf des ursprünglichen zweiwöchigen Profils zurückkehrt, wird das Profil auf die verlängerte Lebensdauer zurückgesetzt. Für alle neuen Besucherprofile wird die verlängerte Profillebensdauer festgelegt.
 
-Wenn Sie zwei Sites unter einem Kundencode haben und ein Besucher beide Seiten besucht, wird für das Profil die Profillebensdauer der Site festgelegt, die zuletzt besucht wurde. Wenn z. B. Site 1 eine Profillebensdauer von 84 Tagen und Site 2 eine Profillebensdauer von 14 Tagen hat und der Besucher zuerst Site 1 und dann Site 2 besucht, läuft das Profil des Besuchers nach 14 Tagen Inaktivität ab. Wenn der Besucher Site 1 nach dem Besuch von Site 2 besucht, läuft das Profil nach 84 Tagen Inaktivität ab.
+Gehen Sie im folgenden Szenario davon aus, dass eine oder beide Sites mit &quot;mbox.js&quot;implementiert sind. Dies erfordert eine Codeaktualisierung, nachdem das Profil aktualisiert wurde. Wenn sich beide Sites unter einem Clientcode befinden und ein Besucher beide Sites besucht, wird das Profil auf die Lebensdauer der Profil auf der jeweiligen Site eingestellt, die zuletzt besucht wurde. Wenn z. B. Site 1 eine Profillebensdauer von 84 Tagen und Site 2 eine Profillebensdauer von 14 Tagen hat und der Besucher zuerst Site 1 und dann Site 2 besucht, läuft das Profil des Besuchers nach 14 Tagen Inaktivität ab. Wenn der Besucher Site 1 nach dem Besuch von Site 2 besucht, läuft das Profil nach 84 Tagen Inaktivität ab.
