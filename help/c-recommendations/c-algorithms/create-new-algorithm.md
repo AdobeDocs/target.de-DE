@@ -4,9 +4,9 @@ title: Erstellen von Kriterien
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
 workflow-type: tm+mt
-source-wordcount: '3605'
+source-wordcount: '3615'
 ht-degree: 98%
 
 ---
@@ -89,6 +89,8 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 1. Wählen Sie die gewünschte **[!UICONTROL Verhaltensdatenquelle]**: [!UICONTROL Mboxes] oder [!UICONTROL Analytics].
 
    Wenn Sie sich für [!UICONTROL Analytics] entschieden haben, wählen Sie die gewünschte Report Suite.
+
+   Weitere Informationen finden Sie unter [Verwenden von Adobe Analytics mit Zielgruppe Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 1. Legen Sie Ihre **[!UICONTROL Inhaltsregeln]** fest.
 
