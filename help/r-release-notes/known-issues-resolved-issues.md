@@ -5,10 +5,10 @@ title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
+source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
 workflow-type: tm+mt
-source-wordcount: '3521'
-ht-degree: 85%
+source-wordcount: '3657'
+ht-degree: 82%
 
 ---
 
@@ -24,6 +24,22 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 ## Bekannte Probleme {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
+
+### Berichterstellung
+
+Konversionen erhöhen sich derzeit je nach verwendeter Audience unterschiedlich.
+
+Wenn beispielsweise für denselben Besucher die Konversionszählung auf inkrementieren &quot;Einmal pro Teilnehmer:&quot;eingestellt ist:
+
+* Audience: &quot;Alle qualifizierten Besucher&quot;für Konversionen auf Besuchsebene werden nur einmal inkrementiert. Dies ist das erwartete Verhalten.
+* Audience: &quot;Neue Besucher&quot;für Konvertierungen auf Besuchsebene werden jedes Mal falsch inkrementiert, anstatt nur einmal zu inkrementieren. Dies ist nicht das erwartete Verhalten.
+
+Wenn die Konversionszählung auf inkrementieren &quot;Bei jedem Impression:&quot;eingestellt ist
+
+* Audience: &quot;Alle qualifizierten Besucher&quot;für Konvertierungen auf Besucher-Ebene werden nicht jedes Mal korrekt inkrementiert, sondern nur einmal. Dies ist nicht das erwartete Verhalten.
+* Audience: &quot;Neue Besucher&quot;für Konversionen auf Besucher-Ebene werden jedes Mal erhöht. Dies ist das erwartete Verhalten.
+
+Beachten Sie, dass sich dieses Problem nur auf den [!DNL Target] Berichte bezieht. Dies ist kein Problem bei der Verwendung von [!UICONTROL Analytics for Zielgruppe] (A4T)-Berichte.
 
 ### Seitenversand {#page-delivery}
 
