@@ -5,10 +5,10 @@ title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
+source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
 workflow-type: tm+mt
-source-wordcount: '3403'
-ht-degree: 88%
+source-wordcount: '3521'
+ht-degree: 85%
 
 ---
 
@@ -122,6 +122,12 @@ Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quo
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Wenn bekannte Probleme behoben sind, werden sie in die folgenden Abschnitte verschoben und es werden ggf. zusätzliche Notizen hinzugefügt.
+
+### Seiten, die nicht im Visual Experience Composer (VEC) oder Enhanced Experience Composer (EEC) geladen werden, wenn Google Chrome Version 80+ verwendet wird
+
+Dieses bekannte Problem bezieht sich auf die Entscheidung von Google, das Standardverhalten von Cookies ohne SameSite-Attribut zu ändern, beginnend mit Chrome Version 80. Vor der Änderung in Chrome wurden alle Cookies ohne das Attribut SameSite auf &quot;SameSite=None&quot;und jetzt standardmäßig auf &quot;SameSite=Lax&quot;gesetzt. Dadurch wird die Art und Weise geändert, wie Cookies bei GET- und POST-Anforderungen gesendet werden. Siehe [Gleiche Site-Aktualisierungen](https://www.chromium.org/updates/same-site).
+
+Weitere Informationen und eine Fehlerbehebung finden Sie unter &quot;Wie wirken sich die kürzlich angekündigten Google Chrome SameSite-Cookie-Durchsetzungsrichtlinien auf VEC und EEC aus?&quot; in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### Ein Diagrammbericht für eine automatische Targeting-Aktivität kann nicht gerendert werden, wenn ein benutzerdefiniertes Erlebnis als Kontrolle verwendet wird.
 
