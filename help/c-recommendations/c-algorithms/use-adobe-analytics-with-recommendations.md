@@ -4,9 +4,9 @@ description: Durch die Verwendung von Adobe Analytics als verhaltensbasierte Dat
 title: Verwenden von Adobe Analytics mit Zielgruppe Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: a6cdecbe6acb0b34edb036894c55a2dd2298ee6e
+source-git-commit: 250256e44044262adca2736a519cd48b938f3b40
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '988'
 ht-degree: 2%
 
 ---
@@ -148,3 +148,16 @@ Damit ist das auf der [!DNL Analytics] Seite eingerichtete Setup abgeschlossen. 
    ![Zuordnungsabschnitt](/help/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+## Häufig gestellte Fragen  
+
+Berücksichtigen Sie die folgenden häufig gestellten Fragen, wenn Sie [!DNL Analytics] mit [!DNL Target]:
+
+### Müssen die `entity.id` und `entity.categoryId` Werte innerhalb des [!DNL Target] mbox-Aufrufs weitergegeben werden?
+
+Ja, diese beiden Werte sind weiterhin erforderlich. Die übrigen Attribute können über einen [!DNL Analytics] Feed übergeben werden, wie in diesem Dokument beschrieben.
+
+### Kann ich dynamische Inklusionsregeln verwenden, z. B. Entitätsparameter stimmen mit Profil-Attributen mit dem [!DNL Analytics] Feed-Ansatz überein?
+
+Ja, das kannst du. Die Methode ist bei [!DNL Target] eigenständiger Verwendung ähnlich. In diesem Fall müssen Sie sich jedoch um den Zeitfaktor kümmern. Die Entitätsvariablen, die mit den Profil-Variablen übereinstimmen sollen, sind von der Datenschicht abhängig, die später auf der Seite angezeigt wird.
+
