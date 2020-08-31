@@ -4,10 +4,10 @@ description: Durch die Verwendung von Adobe Analytics als verhaltensbasierte Dat
 title: Verwenden von Adobe Analytics mit Zielgruppe Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 9bf30d6397fefdc85e51e2bd431ba163b10f6c09
+source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '1030'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Beim [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-a
 >
 >Wenn diese beiden Schaltflächen nicht in Ihrem Konto angezeigt werden, wenden Sie sich an den [Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-## Nutzungsszenarios
+## Anwendungsfälle für Analytics-Daten in der Zielgruppe
 
 Die Verwendung [!DNL Analytics] als Verhaltensdatenquelle für Empfehlungen bietet außerdem die Möglichkeit, bestimmte Anwendungsfälle bereitzustellen, ohne dass Entitätsseiten mit allen [!DNL Target] Entitätsparametern versehen werden müssen. Obwohl dies bestimmte Voraussetzungen erfordert, ist die Verfügbarkeit von &quot;Produktvariablen&quot;das wichtigste Element, damit diese Funktion reibungslos funktioniert. Reguläre eVars und Props reichen nicht aus, damit dieser Handshake automatisch zwischen [!DNL Analytics] und [!DNL Target]erfolgt.
 
@@ -39,7 +39,7 @@ Sie können [!DNL Analytics] als Verhaltensdatenquelle Folgendes verwenden:
 
 Die folgenden Abschnitte unterstützen Sie bei der Implementierung dieser Funktion auf der [!DNL Analytics] Seite.
 
-### Voraussetzungen: Produktvariablen in Analytics
+### Voraussetzungen: Produktvariablen in Analytics einrichten
 
 Sie müssen Produktvariablen in [!DNL Analytics] die erforderlichen Attribute implementieren, für die [!DNL Target Recommendations]dies erforderlich ist.
 
@@ -57,9 +57,83 @@ Weitere Informationen zum Einrichten von Produktvariablen finden Sie unter [Prod
 
 Für eine schnelle Entscheidungsfindung darüber, welche Datenquelle verwendet werden soll, wenn täglich viele organische Daten von Benutzern generiert werden und keine große Abhängigkeit von historischen Daten erforderlich ist, kann eine [!DNL Target] Mbox als verhaltensbasierte Datenquelle gut geeignet sein. In Fällen, in denen die Verfügbarkeit organischer Daten, die kürzlich generiert wurden, geringer ist, wenn Sie auf [!DNL Analytics] Daten zurückgreifen möchten, ist die Verwendung [!DNL Analytics] als verhaltensbasierte Datenquelle eine gute Wahl.
 
-### Wenden Sie sich an den Kundendienst, um einen Datenfeed für Sie zu erstellen.
+### Schritte zur Bereitstellung
 
-Wenn alle Voraussetzungen erfüllt sind, wenden Sie sich an die [Kundenunterstützung](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) , um einen Datenfeed für Sie zu erstellen.
+Wenn alle Voraussetzungen erfüllt sind, muss das Adobe Target Recommendations-Team die folgenden Aufgaben durchführen:
+
+>[WICHTIG]
+>
+>Die folgenden Schritte dienen als Beispiele. Beachten Sie, dass ein Mitglied des Recommendations-Teams diese Schritte derzeit durchführen muss. [Weitere Informationen erhalten Sie beim Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) .
+
+1. Klicken Sie [!DNL Target]auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** , um Ihren [!DNL Target] Clientcode zu erhalten.
+
+   ![Clientcode](/help/c-recommendations/c-algorithms/assets/client-code.png)
+
+1. Erwerben Sie Ihre [!DNL Analytics] Report Suite.
+
+   Verwenden Sie die Report Suite Ihrer [!DNL Analytics] Produktions-Site. Dies ist die Report Suite, die die Site verfolgt, auf der Sie [!DNL Recommendations] bereitgestellt haben.
+
+1. Klicken Sie [!DNL Analytics]in &quot; **[!UICONTROL Admin]** &quot;> &quot; **[!UICONTROL Datenfeeds]**&quot;.
+
+   ![Einstellungen > Datenfeeds](/help/c-recommendations/c-algorithms/assets/data-feed.png)
+
+1. Click **[!UICONTROL Add]** to create a new feed.
+
+   ![hinzufügen](/help/c-recommendations/c-algorithms/assets/add-feed.png)
+
+1. Füllen Sie die Feed-Informationen aus:
+
+   * **Name**: Recs Prod Feed
+   * **Report Suite**: Ihre vorab festgelegte Report Suite
+   * **E-Mail**: Geben Sie eine geeignete Adresse für einen Admin-Benutzer an
+   * **Feed-Intervall**: Wählen Sie das gewünschte Intervall
+   * **Verarbeitung** verzögern: Keine Verzögerung.
+   * **Beginns- und Enddaten**: Kontinuierlicher Feed
+
+   ![Feed-Informationen](/help/c-recommendations/c-algorithms/assets/feed-information.png)
+
+1. Fill in the details in the **[!UICONTROL Destination]** section:
+
+   >[!NOTE]
+   > 
+   >Sprechen Sie mit dem [!DNL Adobe Analytics] Team, bevor Sie diesen Schritt durchführen.
+
+   * **Typ**: FTP
+   * **Host**: `xxx.yyy.com`
+   * **Pfad**: Ihr [!DNL Target] Clientcode
+   * **Benutzername**: Geben Sie Ihren Benutzernamen ein
+   * **Kennwort**: Kennwort angeben
+
+   Screenshot dient nur zu Referenzzwecken. Ihre Bereitstellung hat andere Anmeldeinformationen. Wenden Sie sich bei diesem Schritt an das [!DNL Adobe Analytics] Team oder den Kundendienst.
+
+   ![Zielabschnitt](/help/c-recommendations/c-algorithms/assets/destination.png)
+
+1. Füllen Sie die **[!UICONTROL Datenspaltendefinitionen]** aus:
+
+   * **Komprimierungsformat**: Gzip
+   * **Verpackungstyp**:  Einzeldatei
+   * **Manifest:** Datei beenden
+
+      ![Einstellungen für Komprimierungsformat, Verpackungstyp und Manifest](/help/c-recommendations/c-algorithms/assets/compression.png)
+
+   * **Spalten einschließen**:
+
+      >[!IMPORTANT]
+      >
+      >Die Spalten müssen in der hier beschriebenen Reihenfolge hinzugefügt werden. Wählen Sie die Spalten in der folgenden Reihenfolge aus und klicken Sie für jede Spalte auf **[!UICONTROL Hinzufügen]** .
+
+      * hit_time_gmt
+      * visid_high
+      * visid_low
+      * event_list
+      * product_list
+      * visit_num
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+   ![Datenspaltendefinitionsabschnitt](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
+
+Damit ist das auf der [!DNL Analytics] Seite eingerichtete Setup abgeschlossen. Jetzt ist es an der Zeit, diese Variablen für eine kontinuierliche Bereitstellung von Verhaltensdaten [!DNL Target] nebeneinander zu ordnen.
 
 ## Implementierung in Zielgruppe
 
