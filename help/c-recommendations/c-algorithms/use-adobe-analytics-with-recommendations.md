@@ -4,9 +4,9 @@ description: Durch die Verwendung von Adobe Analytics als verhaltensbasierte Dat
 title: Verwenden von Adobe Analytics mit Zielgruppe Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
+source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1024'
 ht-degree: 2%
 
 ---
@@ -59,11 +59,11 @@ Für eine schnelle Entscheidungsfindung darüber, welche Datenquelle verwendet w
 
 ### Schritte zur Bereitstellung
 
-Wenn alle Voraussetzungen erfüllt sind, muss das Adobe Target Recommendations-Team die folgenden Aufgaben durchführen:
+Sofern alle Voraussetzungen erfüllt sind, muss das [!DNL Adobe Target Recommendations] Team die folgenden Aufgaben durchführen:
 
->[WICHTIG]
+>[!IMPORTANT]
 >
->Die folgenden Schritte dienen als Beispiele. Beachten Sie, dass ein Mitglied des Recommendations-Teams diese Schritte derzeit durchführen muss. [Weitere Informationen erhalten Sie beim Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) .
+>Die folgenden Schritte dienen nur zur Veranschaulichung. Ein Mitglied des [!DNL Recommendations] Teams muss diese Schritte derzeit ausführen. [Weitere Informationen erhalten Sie beim Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) .
 
 1. Klicken Sie [!DNL Target]auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** , um Ihren [!DNL Target] Clientcode zu erhalten.
 
