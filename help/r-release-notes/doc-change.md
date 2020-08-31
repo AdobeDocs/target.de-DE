@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: 773036f163b7de61759f6ccd8da06805b04d97ad
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2024'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 31. August | [Adobe Analytics mit Recommendations verwenden](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | FAQ-Abschnitt hinzugefügt. |
 | 28. August | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Folgendes aktualisiert:<ul><li>Der Abschnitt Bekannte Probleme wurde hinzugefügt: &quot;Berichte - Konversionen inkrementieren derzeit unterschiedlich, je nachdem, welche Audience verwendet wird.&quot;</li><li>Dem Abschnitt Behobene Probleme hinzugefügt: &quot;Seiten, die nicht in Visual Experience Composer (VEC) oder Enhanced Experience Composer (EEC) geladen werden, wenn Google Chrome Version 80+ verwendet wird.&quot;</li></ul> |
 |  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Das Verfallsdatum für &quot;mbox.js&quot;wurde vom 30. August 2020 auf den 18. Januar 2021 geändert. |
 | 26. August | [Adobe Analytics mit Zielgruppe Recommendations verwenden](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Neues Thema |
