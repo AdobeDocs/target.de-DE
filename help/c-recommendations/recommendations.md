@@ -5,9 +5,9 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '930'
 ht-degree: 59%
 
 ---
@@ -53,7 +53,7 @@ Bevor Sie mit der Verwendung beginnen, [!DNL Recommendations]sollten Sie sich mi
 | Begriff | Definition |
 | --- | --- |
 | Aktivität | Mit Aktivitäten in [!DNL Target] können Sie Inhalte an bestimmte Audiencen anpassen und Seitenentwürfe testen. [!DNL Recommendations] ist nur eine der vielen Aktivitäten in [!DNL Target]. Weitere Informationen finden Sie unter Aktivitäten der [Zielgruppe](/help/c-activities/target-activities-guide.md). |
-| Entitäten | Entitäten beziehen sich auf die Artikel, die Sie empfehlen möchten. Entitäten können beliebige Elemente sein, z. B. Produkte, Inhalte (Artikel, Diashows, Bilder, Filme und Fernsehsendungen), Stellenangebote, Restaurants usw. Weitere Informationen finden Sie unter [Entitäten](/help/c-recommendations/c-products/products.md). |
+| Entitäten | Entitäten beziehen sich auf die Artikel, die Sie empfehlen möchten. Entitäten können alles sein, wie Produkte, Inhalte (Artikel, Diashows, Bilder, Filme und Fernsehsendungen), Stellenangebote, Restaurants usw. For more information, see [Entities](/help/c-recommendations/c-products/products.md). |
 | Feeds | Feeds werden verwendet, um Entitäten in importieren zu [!DNL Recommendations]. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feedformat und Adobe Analytics-Classifications gesendet werden. Weitere Informationen finden Sie unter [Feeds](/help/c-recommendations/c-products/feeds.md). |
 | Katalog | Kataloge beziehen sich auf den gesamten Produktsatz (Entitäten). Ihr Katalog kann viele Sammlungen enthalten - eine Möglichkeit, Ihre Produkte in logischen Behältern zu organisieren. |
 | Erfassung | Sammlungen beziehen sich auf eine Reihe ähnlicher oder verwandter Elemente, z. B. eine einzelne Kategorie. Sie können jedoch beliebige Artikel in einer Kategorie gruppieren, wenn dies für Ihr Geschäft sinnvoll ist, wie zum Beispiel Produkte in einer bestimmten Preisspanne bzw. mit einer bestimmten Farbe, oder Artikel, die wahrscheinlich in einer bestimmten geografischen Region interessant sind. For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
