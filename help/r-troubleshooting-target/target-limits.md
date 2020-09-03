@@ -6,9 +6,9 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1012'
 ht-degree: 77%
 
 ---
@@ -65,6 +65,10 @@ Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgrup
 * **Maximale Dateigröße für jeden Upload mit der HTTP-Methode**: 100 MB.
 * **maximale Dateigröße für jeden Upload mit der FTP-Methode**: 4 GB
 * **Anzahl der Attribute, die abonniert** werden dürfen: 5 für [!DNL Target Standard] und 200 für [!DNL Target Premium].
+
+## Entitäten
+
+Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hardcodiert oder in Schleife, beträgt 99.
 
 ## Benutzerdefinierte Entitätsattribute
 
