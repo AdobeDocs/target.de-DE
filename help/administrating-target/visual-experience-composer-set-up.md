@@ -1,11 +1,11 @@
 ---
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
-description: Configure the Adobe Target Visual Experience Composer (VEC) by specifying its general settings, mobile viewport configuration, and CSS selectors.
+description: Konfigurieren Sie den Adobe Target Visual Experience Composer (VEC), indem Sie seine allgemeinen Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
 title: Adobe Target Visual Experience Composer konfigurieren
 feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 51%
@@ -13,17 +13,17 @@ ht-degree: 51%
 ---
 
 
-# Configure the Visual Experience Composer
+# Konfigurieren des Visual Experience Composer
 
-Configure the [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) by specifying its general settings, mobile viewport configuration, and CSS selectors.
+Konfigurieren Sie den [!DNL Adobe Target] Visual Experience Composer  (VEC), indem Sie dessen allgemeine Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
 
-To access the [!UICONTROL Visual Experience Composer] configuration page, click **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
+Um auf die Konfigurationsseite des [!UICONTROL Visual Experience Composer] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
 >
->Be aware that settings on this page apply to the entire [!DNL Target] account.
+>Beachten Sie, dass die Einstellungen auf dieser Seite für das gesamte [!DNL Target] Konto gelten.
 
-![Visual Experience Composer configuration page](/help/administrating-target/assets/vec.png)
+![Konfigurationsseite von Visual Experience Composer](/help/administrating-target/assets/vec.png)
 
 ## Allgemeine Einstellungen
 
@@ -33,11 +33,11 @@ Sie können allgemeine Einstellungen für den Visual Experience Composer angeben
 
 Die folgenden Einstellungen sind verfügbar:
 
-### Default URL
+### Standard-URL
 
 Die Standard-URL, die von [!UICONTROL Visual Experience Composer] verwendet wird. Dies ist die Standardseite, wie Ihre Startseite, die verwendet wird, wenn Sie ein Erlebnis für jede neue Aktivität einrichten. Sollten Sie keine Standard-URL festlegen, müssen Sie für jede Aktivität bei deren Erstellung eine eigene URL eingeben.
 
-### Erweiterten Experience Composer aktivieren
+### Erweiterten Experience Composer aktivieren {#eec}
 
 Ermöglicht die Bearbeitung auf Sites, die iFrames zerstören, sowie auf Seiten mit gemischten Inhalten. Einige Sites sind möglicherweise nicht mit der erweiterten Version kompatibel. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. Die Aktivitätenbereitstellung auf Sites wird durch diese Auswahl nicht beeinträchtigt.
 
