@@ -6,10 +6,10 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -53,7 +53,7 @@ Wenn Sie mit der Verwendung der neuen Funktion [!UICONTROL Eigenschaften] beginn
 
 ## Schritt 2: Create a workspace (product profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
-A workspace (product profile) lets an organization assign a specific set of users to a specific set of properties. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in [!DNL Analytics].
+Mit einem Arbeitsbereich (Produkt-Profil) kann eine Organisation einen bestimmten Benutzergruppe einem bestimmten Satz von Eigenschaften zuweisen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in [!DNL Analytics].
 
 Organizations can begin taking advantage of Enterprise permissions functionality by creating new workspaces within [!DNL Admin Console], assigning [!DNL Target] properties to these workspaces, and moving users from the &quot;Default Workspace&quot; configuration to these newer, limited-access workspaces.
 
@@ -158,7 +158,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       Weitere Informationen finden Sie unter [Globale Parameter - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target) in der *Produktdokumentation des Dynamic Tag Management*.
 
-   * **Mithilfe der Funktion targetPageParams():** Platzieren Sie den folgenden Code in die <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> Tags oberhalb Referenz „at.js“ oder „mbox.js“.
+   * **Über die Funktion targetPageParams():** Fügen Sie den folgenden Code in die `<head>` Tags oberhalb des Verweises auf at.js oder mbox.js ein.
 
       ![](assets/property_token_1.png)
 
