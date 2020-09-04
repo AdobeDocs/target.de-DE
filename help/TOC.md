@@ -6,7 +6,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 87%
@@ -159,10 +159,10 @@ ht-degree: 87%
       + [Häufig gestellte Fragen zur Zielgruppe von Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Standortdienst verwenden](/help/c-target-mobile-app/use-location-service.md)
    + Server-seitig: Target-Implementierung {#server-side}
+      + [Server-seitig: Target-Implementierung – Überblick](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Versionshinweise - serverseitige APIs der Zielgruppe](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Versionshinweise - Zielgruppe Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [Versionshinweise - Zielgruppe Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
-      + [Server-seitig: Target-Implementierung – Überblick](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Übergang von Target-Legacy-APIs zu Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + E-Mail: Target-Implementierung {#implement-email}
       + [E-Mail: Target-Implementierung – Überblick ](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
