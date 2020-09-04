@@ -5,10 +5,10 @@ title: Adobe Target Visual Experience Composer (VEC) Helper-Erweiterung
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 59%
+source-wordcount: '847'
+ht-degree: 58%
 
 ---
 
@@ -17,7 +17,11 @@ ht-degree: 59%
 
 The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
 
-Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöffnet werden:
+>[!NOTE]
+>
+>Der VEC Helper Browser ist eine Chrome-Erweiterung. Diese Erweiterung ist bei der Verwendung von Mozilla Firefox nicht erforderlich.
+
+## Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöffnet werden
 
 * Die Website hat strikte Sicherheitsrichtlinien.
 * Die Website befindet sich in einem iFrame.
@@ -27,7 +31,7 @@ Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöf
 
 The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [Enhanced Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md#eec) or third-party extensions, such as Requestly.
 
-Vorteile der Verwendung der VEC Helper-Erweiterung:
+## Vorteile der Verwendung der VEC Helper-Erweiterung
 
 * Alle iFrame-Busting-Kopfzeilen wie X-Frame-Options und Content-Sicherheitsrichtlinien werden implizit von der Website entfernt. Hierfür müssen keine komplizierten Regeln für Requestly mehr erstellt werden.
 * Wenn eine Webseite noch nicht die [!DNL Target]-JavaScript-Bibliothek at.js enthält, können Sie die Erweiterung verwenden, um die Bibliothek einzufügen, sodass Sie Erlebnisse für die Website erstellen können. Anschließend können Sie Aktivitäten erstellen und diese mithilfe von Vorschau-Links überprüfen.
