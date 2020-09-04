@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 66%
@@ -56,7 +56,7 @@ Die folgenden Einstellungen können im Bereich &quot;Implementierungsmethoden&qu
 >
 >Diese Einstellungen werden auf alle [!DNL Target] .js-Bibliotheken angewendet. Nachdem Sie Änderungen im Abschnitt [!UICONTROL Implementierungsmethoden] durchgeführt haben, müssen Sie die Bibliothek herunterladen und in Ihrer Implementierung aktualisieren.
 
-|Page load enabled (Auto-create global mbox|Select whether to embed the global mbox call in the at.js file to automatically fire on each page load.|
+|Seitenladung aktiviert (Globale Mbox automatisch erstellen|Wählen Sie aus, ob der globale Mbox-Aufruf in die Datei &quot;at.js&quot;eingebettet werden soll, damit er bei jedem Seitenladevorgang automatisch ausgelöst wird.|
 |Globale Mbox|Wählen Sie einen Namen für die globale Mbox aus. Der Standardname lautet target-global-mbox.<br>Sonderzeichen wie das kaufmännische Und (&amp;) können mit at.js für Mbox-Namen verwendet werden.|
 |Timeout (seconds)|If [!DNL Target] does not respond with content within the defined period, the server call times out and default content is displayed. Während der Sitzung des Besuchers werden weiter Aufrufe durchgeführt. Der Standardwert liegt bei 5 Sekunden.<br>Die Bibliothek at.js verwendet die Timeout-Einstellung in `XMLHttpRequest`. Der Timeout beginnt, wenn die Anforderung ausgelöst wird, und endet, wenn [!DNL Target] eine Antwort von dem Server erhält. Weitere Informationen dazu finden Sie unter [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) im Mozilla Developer Network.<br>Tritt der festgelegte Timeout vor Erhalt der Antwort ein, wird dem Besucher ein Standardinhalt angezeigt, und der Besucher wird möglicherweise als Teilnehmer in einer Aktivität gezählt, da die gesamte Datenerfassung am [!DNL Target]-Edge erfolgt. Erreicht die Anforderung den [!DNL Target]-Edge, wird der Besucher gezählt.<br>Beim Konfigurieren der Timeout-Einstellung müssen Sie Folgendes beachten:<ul><li>Wenn der Wert zu niedrig ist, erhalten Besucher wahrscheinlich meist nur den Standardinhalt angezeigt, auch wenn sie möglicherweise als Teilnehmer in einer Aktivität gezählt werden.</li><li>Ist der Wert zu hoch, werden Besuchern unter Umständen leere Stellen auf Ihrer Webseite oder komplett leere Seiten angezeigt, falls Sie für längere Zeiträume Textausblendung einsetzen.</li></ul>Genaueres über Mbox-Antwortzeiten erfahren Sie auf der Registerkarte „Netzwerk“ in den Entwicklertools Ihres Browsers. Sie können auch Tools zur Überwachung der Webleistung einsetzen, die von Drittanbietern stammen, wie zum Beispiel Catchpoint.<br>**Hinweis:** Die Einstellung [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) stellt sicher, dass [!DNL Target] nicht zu lange auf die Antwort der Besucher-API wartet. Diese Einstellung und die hier beschriebene Timeout-Einstellung für at.js beeinflussen sich nicht gegenseitig.|
 |Lebensdauer des Profils|Diese Einstellung bestimmt, wie lange Profile des Besuchers gespeichert werden. Profile werden standardmäßig zwei Wochen lang gespeichert. Dies kann auf bis zu 90 Tage erhöht werden.<br>Wenden Sie sich an den [Kundendienst](https://helpx.adobe.com/de/contact/enterprise-support.ec.html), um die Einstellung für die Lebensdauer des Profils zu ändern.|
@@ -108,7 +108,7 @@ Weitere Informationen finden Sie unter  [Datenschutz](/help/c-implementing-targe
 
 >[!NOTE]
 >
->Die Option &quot;Unterstützung älterer Browser&quot;war in at.js Version 0.9.3 und früher verfügbar. Diese Option wurde in at.js, Version 0.9.4, entfernt. Eine Liste der von at.js unterstützten Browser finden Sie unter [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>Bei älteren Browsern handelt es sich in der Regel um alte Versionen, die CORS (Cross Origin Resource Sharing) nicht vollständig unterstützen. Solche Browser sind zum Beispiel alle Versionen von Internet Explorer vor Version 11 oder Safari Version 6 und ältere Versionen. Wenn die Unterstützung älterer Browser deaktiviert war, stellte Zielgruppe keine Inhalte bereit oder zählte keine Besucher in Berichten in diesen Browsern. If this option was enabled, it is recommended to do quality assurance across older browsers to ensure a good customer experience.
+>Die Option &quot;Unterstützung älterer Browser&quot;war in at.js Version 0.9.3 und früher verfügbar. Diese Option wurde in at.js, Version 0.9.4, entfernt. Eine Liste der von at.js unterstützten Browser finden Sie unter [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>Bei älteren Browsern handelt es sich in der Regel um alte Versionen, die CORS (Cross Origin Resource Sharing) nicht vollständig unterstützen. Solche Browser sind zum Beispiel alle Versionen von Internet Explorer vor Version 11 oder Safari Version 6 und ältere Versionen. Wenn die Unterstützung älterer Browser deaktiviert war, stellte Zielgruppe keine Inhalte bereit oder zählte keine Besucher in Berichten in diesen Browsern. Wenn diese Option aktiviert wurde, wird empfohlen, eine Qualitätssicherung in allen älteren Browsern durchzuführen, um eine gute Kundenerfahrung sicherzustellen.
 
 ## „at.js“ herunterladen {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -184,7 +184,6 @@ Eine typische Implementierung von Target ohne Verwendung eines Tag-Managers wie 
 ```
 <!doctype html> 
 <html> 
- 
 <head> 
     <meta charset="utf-8"> 
     <title>Title of the Page</title> 
@@ -227,12 +226,10 @@ Eine typische Implementierung von Target ohne Verwendung eines Tag-Managers wie 
     <!--Target's JavaScript SDK, at.js--> 
     <script src="at.js"></script> 
     <!--/at.js--> 
-</head> 
- 
+</head>
 <body> 
     The default content of the page 
 </body> 
- 
 </html>
 ```
 
