@@ -6,10 +6,10 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '2320'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -147,9 +147,9 @@ window.targetGlobalSettings = {
 
 Folgende Änderungen wurden in dieser Version vorgenommen:
 
-* Die automatisch erstellte Antwort der globalen Mbox für Target Standard verwendet document.write() nicht mehr oder erstellt ein <div> Element.
+* Die automatisch erstellte Antwort der globalen Mbox für Target Standard verwendet document.write() nicht mehr oder erstellt ein `<div>` Element.
 
-   Dadurch wird die Anforderung entfernt, dass die mbox.js-Datei das letzte Element im <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> der Seite sein muss. Eine starke QS wird für die Aufrüstung auf diese neue Version empfohlen.
+   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. Eine starke QS wird für die Aufrüstung auf diese neue Version empfohlen.
 
    Diese Änderung kann Änderungen am Verhalten bei der Bereitstellung einiger Angebotstypen verursachen. Die folgenden spezifischen Bedingungen müssen in Betracht gezogen werden:
 
@@ -227,7 +227,7 @@ Version 53 wird durch IE-Korrekturen ergänzt.
 
 **Releasedatum:** 30. September 2014
 
-Ändert die globale Mbox-Implementierung von „document.write“ auf „AJAX“. Dadurch wird die Anforderung entfernt, dass die mbox.js-Datei das letzte Element im Abschnitt der Seite <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> sein muss. Diese Version steht nur via API zur Verfügung. Klienten können die Version herunterladen und diese mbox.js-Datei verwenden. Bei einigen Sites treten im Zusammenhang mit dieser Implementierung flackernde Inhalte auf. Daher sollten Sie die Integration in Ihre Site überprüfen.
+Ändert die globale Mbox-Implementierung von „document.write“ auf „AJAX“. Dadurch wird die Anforderung entfernt, dass die mbox.js-Datei das letzte Element im Abschnitt der Seite `<head>` sein muss. Diese Version steht nur via API zur Verfügung. Klienten können die Version herunterladen und diese mbox.js-Datei verwenden. Bei einigen Sites treten im Zusammenhang mit dieser Implementierung flackernde Inhalte auf. Daher sollten Sie die Integration in Ihre Site überprüfen.
 
 ## Mbox, Version 53
 
