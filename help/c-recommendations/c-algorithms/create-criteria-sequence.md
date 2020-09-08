@@ -1,87 +1,117 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
-description: Verwenden Sie Sequenzen von bis zu fünf Kriterien, um eine größere Kontrolle über die Elemente zu erhalten, die in Ihren Recommendations-Aktivitäten angezeigt werden.
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;
+description: Verwenden Sie Sequenzen von bis zu fünf Kriterien, um die Elemente, die in Ihren Adobe Target Recommendations-Aktivitäten angezeigt werden, besser zu kontrollieren.
 title: Erstellen von Kriteriensequenzen
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: b85237ba7526701dee76810af1b719be00fb4fc3
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 99%
+source-wordcount: '840'
+ht-degree: 57%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Kriteriensequenzen erstellen{#create-criteria-sequences}
+# ![PREMIUM](/help/assets/premium.png) Kriteriensequenzen erstellen
 
-Verwenden Sie Sequenzen von bis zu fünf Kriterien, um eine größere Kontrolle über die Elemente zu erhalten, die in Ihren Recommendations-Aktivitäten angezeigt werden.
+Verwenden Sie Sequenzen von bis zu fünf Kriterien, um mehr Kontrolle über die Elemente zu erhalten, die in Ihren [!UICONTROL Recommendations]-Aktivitäten angezeigt werden.
 
 >[!NOTE]
 >
 >Kriteriensequenzen können nicht mit [!UICONTROL Empfehlungs]-Aktivitäten verwendet werden, die vor der Version Oktober 2016 von [!DNL Target Premium] erstellt wurden.
 
-Bevor Sie eine Kriteriensequenz erstellen können, müssen Sie zuerst die Kriterien erstellen, die in der Sequenz stehen sollen. Siehe [Erstellen von Kriterien](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) für weitere Informationen.
+Bevor Sie eine Kriteriensequenz erstellen können, müssen Sie zuerst die Kriterien erstellen, die in der Sequenz stehen sollen. Siehe [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md) für weitere Informationen.
 
-Mithilfe einer Kriteriensequenz können Sie zusätzliche gezielte Empfehlungen bereitstellen, anstatt allgemeinere Reserveempfehlungen zu verwenden, wenn ein Kriterium nicht genügend Ergebnisse zurückgibt, um Ihr Design zu füllen. Eine Kriteriensequenz geht meist von einem spezifischeren Targeting, das möglicherweise weniger Ergebnisse zurückgibt, hin zu einem allgemeineren Targeting, das für gewöhnlich mehr Ergebnisse zurückgibt.
+Mithilfe einer Kriteriensequenz können Sie zusätzliche gezielte Empfehlungen bereitstellen, anstatt allgemeinere Reserveempfehlungen zu verwenden, wenn ein Kriterium nicht genügend Ergebnisse zurückgibt, um Ihr Design zu füllen. In der Regel wird eine Kriteriensequenz vom spezifischeren Targeting, das möglicherweise weniger Ergebnisse zurückgibt, zum allgemeineren Targeting fortgesetzt, das in der Regel mehr Ergebnisse zurückgibt.
 
-So kann zum Beispiel eine Kriteriensequenz für eine Produktseite in der folgenden Reihenfolge vorgehen:
+Die Sequenzen Ihrer Kriterien können je nach Seitentyp variieren, wie in den folgenden Beispielen gezeigt:
 
-1. Basierend auf dem aktuellen Artikel, von der gleichen Marke
-1. Basierend auf dem aktuellen Artikel, von allen Marken
-1. Basierend auf Inhaltsähnlichkeit
-1. Basierend auf Topverkäufen
-1. Basierend auf Artikeln, die auf der gesamten Website am häufigsten angezeigt wurden
+| Seitentyp | Mögliche Sequenzreihenfolge |
+| --- | --- |
+| Produktseite | <ol><li>Basierend auf dem aktuellen Artikel, von der gleichen Marke</li><li>Basierend auf dem aktuellen Artikel, von allen Marken</li><li>Basierend auf Inhaltsähnlichkeit</li><li>Basierend auf Topverkäufen</li><li>Basierend auf Artikeln, die auf der gesamten Website am häufigsten angezeigt wurden</li></ol> |
+| Startseite | <ol><li>Basierend auf dem letzten Einkauf des Besuchers </li><li>Basierend auf dem Lieblingsartikel des Besuchers</li><li>Basierend auf der Lieblingskategorie des Besuchers</li><li>Basierend auf Topverkäufen</li><li>Basierend auf den Elementen, die auf der gesamten Website am häufigsten angezeigt wurden</li></ol> |
 
-Eine Kriteriensequenz für eine Startseite kann in der folgenden Reihenfolge vorgehen:
-
-1. Basierend auf dem letzten Einkauf des Besuchers
-1. Basierend auf dem Lieblingsartikel des Besuchers
-1. Basierend auf der Lieblingskategorie des Besuchers
-1. Basierend auf Topverkäufen
-1. Basierend auf den Elementen, die auf der gesamten Website am häufigsten angezeigt wurden
+## Auf den Bildschirm &quot;Kriteriensequenz erstellen&quot;zugreifen
 
 Es gibt mehrere Möglichkeiten, um auf den Bildschirm [!UICONTROL Kriteriensequenz erstellen] zu gelangen. Einige Bildschirmoptionen variieren je nachdem, wie Sie auf den Bildschirm gelangen.
 
-* Wenn Sie eine [!UICONTROL Recommendations]-Aktivität erstellen, klicken Sie im Bildschirm **[!UICONTROL Kriterien auswählen]** auf **[!UICONTROL Neu erstellen]** > [!UICONTROL Kriteriensequenz erstellen]. Sie haben die Möglichkeit, Ihre neue Kriteriensequenz zu speichern, um sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
-* Wenn Sie eine [!UICONTROL Recommendations]-Aktivität bearbeiten, klicken Sie in ein Feld für die [!UICONTROL Empfehlungsposition] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern aus]**. Klicken Sie im Bildschirm [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Neu erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
 * Klicken Sie im Bildschirm der Bibliothek **[!UICONTROL Empfehlungen]** > **[!UICONTROL Kriterien]** auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!UICONTROL Recommendations]-Aktivitäten zur Verfügung.
+* Wenn Sie eine [!UICONTROL Recommendations] -Aktivität erstellen, klicken Sie im Bildschirm &quot;Kriterien auswählen&quot;auf Neu **** erstellen > Kriteriensequenz **[!UICONTROL erstellen]**. Sie haben die Möglichkeit, Ihre neue Kriteriensequenz zu speichern, um sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
+* When you are editing a [!UICONTROL Recommendations] activity, click in a [!UICONTROL Recommendations Location] box on your page, then select **[!UICONTROL Change Criteria]**. Klicken Sie im Bildschirm [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Neu erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
 
-1. Klicken Sie auf **[!UICONTROL Kriterien erstellen]** oder **[!UICONTROL Neu erstellen]**.
+Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten Methode auf den Bildschirm &quot;Kriteriensequenz [!UICONTROL erstellen&quot;zugreifen] : den Bibliotheksbildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** .
 
-   ![Neue Kriterien erstellen](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
-1. Wählen Sie **[!UICONTROL Kriteriensequenz erstellen]**.
+1. Klicken Sie auf Kriterien **[!UICONTROL erstellen]** > Kriteriensequenz **[!UICONTROL erstellen]**.
 
    ![](assets/CreateCriteriaSequence.png)
+
+## Füllen Sie den Abschnitt Informationen aus
 
 1. Geben Sie einen **[!UICONTROL Namen]** für die Sequenz ein.
 
    Dies ist der „interne“ Name, der zur Beschreibung der Kriteriensequenz dient. Besuchern Ihrer Website wird dieser Name nicht angezeigt.
+
+   ![Abschnitt &quot;Kriteriensequenz erstellen&quot;](/help/c-recommendations/c-algorithms/assets/criteria-sequence-info.png)
+
 1. Geben Sie einen öffentlich sichtbaren **[!UICONTROL generischen Anzeigetitel]** ein, der auf der Seite angezeigt werden soll, wenn zum Ausfüllen des [!UICONTROL Empfehlungs]-Entwurfs mehrere Kriterien in der Sequenz verwendet werden.
 
    Ein Beispiel: Sie möchten die Zeichenfolge „Kunden, die diesen Artikel angezeigt haben, haben sich auch interessiert für …“ ersetzen. Stattdessen soll „Für Sie empfohlen“ angezeigt werden, wenn das Design Artikel enthält, die auf mehreren [!UICONTROL Recommendations]-Schlüsseln basieren.
+
 1. Geben Sie eine kurze **[!UICONTROL Beschreibung]** der Kriteriensequenz ein.
 
-   Die Beschreibung soll helfen, die Kriteriensequenz wiederzuerkennen, und kann Informationen über den Verwendungszweck der Sequenz enthalten.
+   Die Beschreibung sollte Ihnen dabei helfen, die Kriteriensequenz zu identifizieren, und kann Informationen über ihren Zweck enthalten.
+
 1. Wählen Sie einen **[!UICONTROL vertikalen Markt]** aus.
 
-   Ihr standardmäßiger vertikaler Markt wird automatisch angezeigt.
+   Your default [industry vertical](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) appears automatically.
+
 1. Wählen Sie einen **[!UICONTROL Seitentyp]** aus.
 
    Verschiedene Seitentypen stehen zur Verfügung.
 
    Vertikaler Markt und Seitentypen dienen beide zusammen zur Kategorisierung Ihrer gespeicherten Kriteriensequenz, was die Wiederverwendung von Sequenzen für andere [!UICONTROL Recommendations]-Aktivitäten vereinfacht.
-1. Legen Sie Ihre **[!UICONTROL Inhaltsregeln]** fest.
 
-   Wenn Sie eine Kriteriensequenz erstellen, werden Einstellungen für Reserveempfehlungen und partielles Design-Rendering für die einzelnen Kriterien ignoriert, aus denen die Sequenz gebildet wird. Wenn Sie Reserveempfehlungen und partielles Design-Rendering verwenden möchten, müssen Sie sie für die Sequenz aktivieren. Wählen Sie die entsprechenden Einstellungen aus. Wenn Sie Reserveempfehlungen zulassen, können Sie auch auswählen, ob für die Reserven Einschlussregeln gelten sollen.
-1. Legen Sie die Sequenzreihenfolge fest.
+## Erstellen von Kriteriensequenzen
 
-1. Klicken Sie auf **[!UICONTROL Kriterien hinzufügen]**.
-1. Wählen Sie im Bildschirm „Kriterien hinzufügen“ ein Kriterium aus.
+Die Reihenfolge der Sequenz definiert die Reihenfolge, in der ein Entwurf gefüllt wird. Wenn Kriterium 1 nicht genügend Empfehlungen zum Ausfüllen Ihres Entwurfs enthält, werden die verbleibenden Plätze mit Kriterium 2 usw. ausgefüllt.
+
+1. Klicken Sie im Abschnitt **[!UICONTROL Kriteriensequenz]** auf **[!UICONTROL Hinzufügen Kriterien]**.
+
+   ![hinzufügen](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
+
+1. On the [!UICONTROL Select Criteria] screen, select a criteria.
+
+   ![Kriterienauswahl](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
+
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
-   Sie können einer Sequenz bis zu fünf Kriterien hinzufügen.
+1. Fügen Sie Ihrer Sequenz weiterhin Kriterien hinzu. Sie können einer Sequenz bis zu fünf Kriterien hinzufügen.
+
+## Ersatzinhalt angeben
+
+Wählen Sie aus, welche Inhalte zurückgegeben werden, wenn nicht genügend Empfehlungen zum Ausfüllen der Designvorlage verfügbar sind.
+
+Wenn Sie eine Kriteriensequenz erstellen, werden Einstellungen für Reserveempfehlungen und partielles Design-Rendering für die einzelnen Kriterien ignoriert, aus denen die Sequenz gebildet wird. Wenn Sie Reserveempfehlungen und partielles Design-Rendering verwenden möchten, müssen Sie sie für die Sequenz aktivieren. Wählen Sie die entsprechenden Einstellungen aus. Wenn Sie Reserveempfehlungen zulassen, können Sie auch auswählen, ob für die Reserven Einschlussregeln gelten sollen.
+
+![Einstellungen zum Sichern von Inhalten](/help/c-recommendations/c-algorithms/assets/backup-content-settings.png)
+
+1. (Optional) Schieben Sie den Umschalter für die **[!UICONTROL teilweise]** Entwurfswiedergabe an die Position &quot;Ein&quot;.
+
+   Es werden so viele Plätze wie möglich ausgefüllt, die Designvorlage kann jedoch Leerzeichen für die verbleibenden Plätze enthalten.
+
+1. (Optional) Schieben Sie den **[!UICONTROL Sicherungs-Recommendations]** -Umschalter auf die &quot;An&quot;-Position.
+
+   Füllen Sie alle verbleibenden leeren Slots im Design mit einer zufälligen Auswahl der am häufigsten angezeigten Produkte aus Ihrer gesamten Site.
+
+   Weitere Informationen finden Sie unter [Verwenden einer Reserveempfehlung](/help/c-recommendations/c-algorithms/backup-recs.md).
+
+1. (Bedingt) Wenn Sie im vorherigen Schritt &quot; **[!UICONTROL Sicherung von Recommendations]** &quot;ausgewählt haben, können Sie &quot;Einschlussregeln auf Reserveempfehlungen **[!UICONTROL anwenden&quot;auswählen]**.
+
+   For more information see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Die Kriteriensequenz wird in der Kriterienliste angezeigt.
