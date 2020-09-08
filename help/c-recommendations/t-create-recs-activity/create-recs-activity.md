@@ -5,7 +5,7 @@ title: Erstellen einer Recommendations-Aktivität
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
+source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 93%
@@ -84,8 +84,8 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
       Einige Kriterien werden durch [!DNL Recommendations] bereitgestellt. Sie und Ihr Team können auch eigene Kriterien erstellen.
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Erstellen von Kriterien](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
-   * Sie können auch Kriterien in Sequenzen gruppieren. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Weitere Informationen finden Sie unter [Erstellen von Kriteriensequenzen](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE).
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Erstellen von Kriterien](../../c-recommendations/c-algorithms/create-new-algorithm.md).
+   * Sie können auch Kriterien in Sequenzen gruppieren. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Weitere Informationen finden Sie unter Kriteriensequenz [erstellen](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) .
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 1. [Entwurf auswählen](/help/c-recommendations/c-design-overview/design-overview.md).
