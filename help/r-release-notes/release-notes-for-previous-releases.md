@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '29300'
+source-wordcount: '29294'
 ht-degree: 88%
 
 ---
@@ -758,7 +758,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
    <td colname="col2"> <p> 
      <ul id="ul_371C18DFC6D24E94B3D4FFFD83FC8D3A"> 
       <li id="li_9D11939014E7479AB7FD8910852A5386"> <p>Zeigen Sie eine Liste der Aktivitäten an, die ein bestimmtes Kriterium auf der Karte „Kriterien“ referenzieren. Die Karte führt aktive und inaktive Aktivitäten auf. (TGT-27672) </p> </li> 
-      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>Über das Aktivitätsdiagramm zeigen die Kriterienkarten es jetzt an, wenn die Ergebnisse zur Anzeige bereit sind. (TGT-27673) </p> <p>Weitere Informationen finden Sie im Abschnitt <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">Kriterien </a>. </p> </li> 
+      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>Über das Aktivitätsdiagramm zeigen die Kriterienkarten es jetzt an, wenn die Ergebnisse zur Anzeige bereit sind. (TGT-27673) </p> <p>Weitere Informationen finden Sie im Abschnitt <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">Kriterien </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1055,7 +1055,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>Benutzerdefinierte Kriterien können nun analog zu anderen Kriterien in Empfehlungen konfiguriert werden. </p> </li> 
       <li id="li_AC201F0917BF465C985E8947635F762E"> <p>Sie können Sammlungen, Ausschlüsse und Einschlüsse (einschließlich der speziellen Regeln für „Preis“ und „Bestand“) auf dieselbe Weise wie andere Kriterien verwenden. Sammlungen und Ausschlüsse wurden bereits unterstützt. Diese Version beinhaltet nun auch Einschlüsse. </p> </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Kriterien </a>. </p> <p>(TGT-28488) </p> </td> 
+     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Kriterien </a>. </p> <p>(TGT-28488) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations, Einschlussregeln, Sammlungen und Ausschlüsse für kürzlich angesehene Kriterien </p> </td> 
@@ -1063,7 +1063,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>Kürzlich angesehene Kriterien können nun analog zu anderen Kriterien in Empfehlungen konfiguriert werden. </p> </li> 
       <li id="li_85452C03F0924D4C8D854509F1293021"> <p>Sie können Sammlungen, Ausschlüsse und Einschlüsse (einschließlich der speziellen Regeln für „Preis“ und „Bestand“) auf dieselbe Weise wie andere Kriterien verwenden. Sammlungen und Ausschlüsse wurden bereits unterstützt. Diese Version beinhaltet nun auch Einschlüsse. </p> </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Kriterien </a>. </p> <p>(TGT-22843) </p> </td> 
+     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Kriterien </a>. </p> <p>(TGT-22843) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target-Erweiterung für Adobe Launch </p> </td> 
@@ -2623,7 +2623,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Frühere Käufe ausschließen </p> </td> 
-   <td colname="col2"> <p>Target schließt jetzt automatisch zuvor erworbene Artikel aus den Empfehlungen für einen Besucher aus. Diese Option kann für alle Kriterien deaktiviert werden. </p> <p>Bei allen sofort einsatzfähigen Kriterien ist diese Option jetzt aktiviert, einschließlich der Kriterien, die in Aktivitäten verwendet wurden, die vor dieser Version ausgeführt wurden. Wenn Sie vorherige Käufe nicht ausschließen möchten, sollten Sie diese Aktivitäten bearbeiten. </p> <p>Siehe <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local">Einschlussregeln</a>. </p> </td> 
+   <td colname="col2"> <p>Target schließt jetzt automatisch zuvor erworbene Artikel aus den Empfehlungen für einen Besucher aus. Diese Option kann für alle Kriterien deaktiviert werden. </p> <p>Bei allen sofort einsatzfähigen Kriterien ist diese Option jetzt aktiviert, einschließlich der Kriterien, die in Aktivitäten verwendet wurden, die vor dieser Version ausgeführt wurden. Wenn Sie vorherige Käufe nicht ausschließen möchten, sollten Sie diese Aktivitäten bearbeiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> Attributgewichtung </p> </td> 
@@ -2646,7 +2646,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
       <li id="li_901D4AAF7BE244FCB9277DC7EDD91E32">Benutzerdefinierte Attribute, die mit einer angegebenen entity.id übereinstimmen und Elemente mit ähnlichen Attributen verwenden. </li> 
       <li id="li_49D52B0182F346E982C11A0C2DA50B4F">Zuletzt angezeigte Artikel mit ähnlichen Attributen </li> 
       <li id="li_2DBAF32476AC435EB57D08D96CB55683">Am häufigsten angezeigte Artikel mit ähnlichen Attributen </li> 
-     </ul> </p> <p>Siehe <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local">Einschlussregeln</a>. </p> </td> 
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Neue Aktivitätslisten-Filter </td> 
@@ -2665,7 +2665,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
       <li id="li_1B44AB35B045416B8D8B72C428750822">Mehr Inhalte wie diese </li> 
       <li id="li_FEC84CCF3DF3444DAB39F4764DE897B0">Mehr Bildschirmpräsentationen wie diese </li> 
       <li id="li_5E874ACB5B004CACBDB4F8FF217BC593">Mehr Produkte wie diese </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie im Abschnitt <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">Kriterien </a>. </p> </td> 
+     </ul> </p> <p>Weitere Informationen finden Sie im Abschnitt <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">Kriterien </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Verbesserung: Bei der Verwendung von Analytics als Berichtsquelle werden verbesserte Berichtsdetails angezeigt. </td> 
@@ -2997,7 +2997,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
    <td colname="col1" class="premium"> <p class="Premium"> Funktionalität von Recommendations Classic wird nun in Recommendations Premium unterstützt </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E0D6A9C12B514DE3B3EA753BB4D56662"> 
-      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> Teilweises Vorlagen-Rendering <p>Weitere Informationen finden Sie im Abschnitt <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96" format="dita" scope="local">Inhaltseinstellungen </a>. </p> </li> 
+      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> Teilweises Vorlagen-Rendering <p>Weitere Informationen finden Sie im Abschnitt <a href="/help/c-recommendations/c-algorithms/create-new-algorithm.md#content" format="dita" scope="local">Inhaltseinstellungen </a>. </p> </li> 
       <li id="li_B1DFC829D19B4570AB5A7F937C7EF2CC"> Angabe der Sicherungsregeln pro Kriterium </li> 
       <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> Unterstützung von FTPS für Protokoll-Feeds</li> 
       <li id="li_3C0FA493C87345E4BE994936DF0D0162"> Benutzerdefinierte Algorithmen werden nun automatisch als Kriterium angezeigt.</li> 
