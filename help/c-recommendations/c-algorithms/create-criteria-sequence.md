@@ -5,10 +5,10 @@ title: Erstellen von Kriteriensequenzen
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: b85237ba7526701dee76810af1b719be00fb4fc3
+source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 57%
+source-wordcount: '1106'
+ht-degree: 43%
 
 ---
 
@@ -74,7 +74,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
 
    Vertikaler Markt und Seitentypen dienen beide zusammen zur Kategorisierung Ihrer gespeicherten Kriteriensequenz, was die Wiederverwendung von Sequenzen für andere [!UICONTROL Recommendations]-Aktivitäten vereinfacht.
 
-## Erstellen von Kriteriensequenzen
+## Sequenz erstellen {#sequence}
 
 Die Reihenfolge der Sequenz definiert die Reihenfolge, in der ein Entwurf gefüllt wird. Wenn Kriterium 1 nicht genügend Empfehlungen zum Ausfüllen Ihres Entwurfs enthält, werden die verbleibenden Plätze mit Kriterium 2 usw. ausgefüllt.
 
@@ -84,11 +84,27 @@ Die Reihenfolge der Sequenz definiert die Reihenfolge, in der ein Entwurf gefül
 
 1. On the [!UICONTROL Select Criteria] screen, select a criteria.
 
+   Sie können das Suchfeld und die Filter-Dropdownliste verwenden, um die gewünschten Kriterien zu finden.
+
    ![Kriterienauswahl](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
-1. Fügen Sie Ihrer Sequenz weiterhin Kriterien hinzu. Sie können einer Sequenz bis zu fünf Kriterien hinzufügen.
+1. (Optional) Schieben Sie die **[!UICONTROL Begrenzung der Anzahl der zurückgegebenen]** Elemente auf die Position &quot;Ein&quot;und geben Sie dann die Anzahl der Elemente an (zwischen 1 und 50).
+
+   ![Anzahl der zurückgegebenen Elemente begrenzen](/help/c-recommendations/c-algorithms/assets/limit-number.png)
+
+   Um den Wert der Option &quot;Anzahl der zurückgegebenen [!UICONTROL Elemente] begrenzen&quot;besser zu verstehen, sollten Sie die folgenden Anwendungsfälle berücksichtigen:
+
+   * **Verwendungsfall 1**: Sie möchten eine Mischung aus verschiedenen Arten von Artikeln in einer einzigen Recommendations-Ablage haben. Sie möchten beispielsweise eine Mischung aus Oberbekleidung (Jacken) und Oberteil (Hemden, T-Shirts) zeigen. Um dies zu erreichen, verwenden Sie eine Sammlung für die Aktivität, die alle potenziellen Produkttypen enthält, die Sie in beliebigen Slots in Ihrem Design verwenden möchten. Richten Sie dann Ihre ersten Kriterien mit einem statischen Filter ein, der die Kriterien auf nur Oberbekleidung beschränkt, und richten Sie Ihr zweites Kriterium mit einem statischen Filter ein, der die Kriterien auf nur Oberteile beschränkt. Fügen Sie schließlich beide Kriterien zu einer Kriteriensequenz hinzu und beschränken Sie die ersten Kriterien auf 2 Slots.
+
+      Die Empfehlungsablage könnte auf Ihrer Site wie folgt aussehen:
+
+      ![Empfehlungsbereich für spezielle Produkte](/help/c-recommendations/c-algorithms/assets/featured-products.png)
+
+   * **Anwendungsfall 2**: Sie möchten sowohl alternative Elemente als auch ergänzende Elemente miteinander kombinieren. Richten Sie ein Kriterium ein, um einen angezeigten/angezeigten Algorithmus zu verwenden und einen dynamischen Filter zu verwenden, der die empfohlenen Elemente auf die Kategorie des aktuellen Elements beschränkt. Richten Sie das zweite Kriterium ein, um einen angezeigten/gekauften Algorithmus zu verwenden und einen dynamischen Filter zu verwenden, der nur empfohlene Artikel enthält, die nicht mit der Kategorie des aktuellen Elements übereinstimmen. Fügen Sie schließlich beide Kriterien zu einer Sequenz hinzu und beschränken Sie die ersten Kriterien auf 2 Slots.
+
+1. Fügen Sie Ihrer Sequenz weitere Kriterien hinzu. Sie können einer Sequenz bis zu fünf Kriterien hinzufügen.
 
 ## Ersatzinhalt angeben
 
@@ -115,8 +131,6 @@ Wenn Sie eine Kriteriensequenz erstellen, werden Einstellungen für Reserveempfe
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Die Kriteriensequenz wird in der Kriterienliste angezeigt.
-
-   ![](assets/CriteriaSequenceCard.png)
 
    Weitere Informationen zu den Empfehlungslogikoptionen finden Sie unter [Kriterien](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
