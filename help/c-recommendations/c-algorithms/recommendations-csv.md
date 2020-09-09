@@ -5,10 +5,10 @@ title: Hochladen benutzerdefinierter Kriterien
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '823'
+ht-degree: 97%
 
 ---
 
@@ -54,10 +54,10 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
    Weitere Informationen zum Stützen von Kriterien auf einen Schlüssel finden Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 1. Legen Sie Ihre **[!UICONTROL Inhaltsregeln]** fest.
 
-   Inhaltsregeln bestimmen, was passiert, wenn die Anzahl an empfohlenen Artikeln Ihren Entwurf nicht vollständig füllt. Wenn Ihr Entwurf beispielsweise Platz für fünf Artikel bietet, Ihre Kriterien jedoch nur drei Artikelempfehlungen bereitstellen, können Sie den verbleibenden Platz leer lassen oder ihn mit Ersatzempfehlungen füllen. Wählen Sie die entsprechenden Einstellungen aus. Weitere Informationen finden Sie im Abschnitt [Inhaltseinstellungen](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96).
+   Inhaltsregeln bestimmen, was passiert, wenn die Anzahl an empfohlenen Artikeln Ihren Entwurf nicht vollständig füllt. Wenn Ihr Entwurf beispielsweise Platz für fünf Artikel bietet, Ihre Kriterien jedoch nur drei Artikelempfehlungen bereitstellen, können Sie den verbleibenden Platz leer lassen oder ihn mit Ersatzempfehlungen füllen. Wählen Sie die entsprechenden Einstellungen aus. Siehe [Geben Sie Inhaltseinstellungen](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)an.
 1. Legen Sie Ihre **[!UICONTROL Einschlussregeln]** fest.
 
-   Einschlussregeln helfen Ihnen dabei, die in Ihren Empfehlungen angezeigten Elemente einzuschränken. Siehe [Einschlussregeln](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Wählen Sie den **[!UICONTROL Speicherort]** Ihrer CSV-Datei aus.
+   Einschlussregeln helfen Ihnen dabei, die in Ihren Empfehlungen angezeigten Elemente einzuschränken. See [Specify inclusion rules](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). 1. Wählen Sie den **[!UICONTROL Speicherort]** Ihrer CSV-Datei aus.
 
    Die CSV-Datei muss korrekt formatiert sein, um erfolgreich hochgeladen werden zu können. Klicken Sie auf **[!UICONTROL CSV-Vorlage herunterladen]**, um eine Vorlage mit richtiger Formatierung zu erhalten.
 
