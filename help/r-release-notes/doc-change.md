@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2141'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| September 9 | [Lesezeichenliste für Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | JavaScript-Code zur Verwendung mit at.js 2 hinzugefügt.*x*. |
 | 3. September | [Visual Experience Composer Helper-Erweiterung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Der Abschnitt &quot;Abrufen und Installieren der VEC Helper-Browsererweiterung&quot;wurde mit Informationen zum Cookie-Namen und zur -Domäne aktualisiert. |
 |  | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Aktualisierung der &quot;Wie wirken sich die kürzlich angekündigten Google Chrome SameSite-Cookie-Durchsetzungsrichtlinien auf VEC und EEC aus?&quot; mit Informationen zum Cookie-Namen und zur Domäne. |
 | September 2 | [Versionshinweise](/help/r-release-notes/release-notes.md): 20.8.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
