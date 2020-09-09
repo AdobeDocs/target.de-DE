@@ -5,7 +5,7 @@ title: Erstellen von Kriteriensequenzen
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 43%
@@ -118,7 +118,7 @@ Wenn Sie eine Kriteriensequenz erstellen, werden Einstellungen für Reserveempfe
 
    Es werden so viele Plätze wie möglich ausgefüllt, die Designvorlage kann jedoch Leerzeichen für die verbleibenden Plätze enthalten.
 
-1. (Optional) Schieben Sie den **[!UICONTROL Sicherungs-Recommendations]** -Umschalter auf die &quot;An&quot;-Position.
+1. (Optional) Schieben Sie den **[!UICONTROL Sicherungs-Recommendations]** -Umschalter an die &quot;An&quot;-Position.
 
    Füllen Sie alle verbleibenden leeren Slots im Design mit einer zufälligen Auswahl der am häufigsten angezeigten Produkte aus Ihrer gesamten Site.
 
