@@ -5,7 +5,7 @@ title: Recommendations Classic und Recommendations-Aktivitäten in Target Prem
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,7 +52,7 @@ Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/c-rec
 
 Kriterien werden nach vertikalen Märkten, Seitentypen und Implementierung vorkonfiguriert. Zum Beispiel können Sie nach Kriterien suchen, die auf die Einzelhandelsbranche zutreffen, auf einer Produktseite verwendet werden und Produkte aus einer bestimmten Kategorie anzeigen (wie durch den Parameter `entity.categoryID` definiert).
 
-Weitere Informationen zur Verwendung und Erstellung von Kriterien finden Sie unter [Kriterien](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+Weitere Informationen zur Verwendung und Erstellung von Kriterien finden Sie unter [Kriterien](../../c-recommendations/c-algorithms/algorithms.md).
 
 ## Arbeitsablauf{#section_76B4A26297BF422382DE2C79A2713D3C}
 
