@@ -4,39 +4,45 @@ title: Erstellen von Kriterien
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '3615'
-ht-degree: 98%
+source-wordcount: '3759'
+ht-degree: 91%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Kriterien erstellen{#create-criteria}
 
-Kriterien steuern den Inhalt Ihrer Recommendations-Aktivitäten. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen.
+Kriterien steuern den Inhalt Ihrer [!UICONTROL Recommendations-]Aktivitäten. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen.
 
-## Erstellen von Kriterien {#task_8A9CB465F28D44899F69F38AD27352FE}
+## Neue Kriterien erstellen
 
-Kriterien steuern den Inhalt Ihrer [!DNL Recommendations]-Aktivitäten. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen.
+Die folgenden Abschnitte erläutern, wie Sie ein neues Kriterium erstellen.
+
+### Auf den Bildschirm &quot;Neue Kriterien erstellen&quot;zugreifen
 
 Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien erstellen] zu gelangen. Einige Bildschirmoptionen variieren je nachdem, wie Sie auf den Bildschirm gelangen.
 
-* Wenn Sie eine [!DNL Recommendations]**[!UICONTROL -Aktivität erstellen, klicken Sie auf Neu erstellen]** auf dem Bildschirm [!UICONTROL Kriterien auswählen]. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!DNL Recommendations]-Aktivitäten zu verwenden.
-* Klicken Sie beim Bearbeiten einer [!DNL Recommendations]Aktivität in ein Feld für die [!UICONTROL Empfehlungsposition] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern]**. Klicken Sie auf dem Bildschirm [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Neu erstellen]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!DNL Recommendations]-Aktivitäten zu verwenden.
-* Klicken Sie auf dem Bibliotheksbildschirm unter **[!UICONTROL Empfehlungen]** > **[!UICONTROL Kriterien]** auf **[!UICONTROL Kriterien erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!DNL Recommendations]-Aktivitäten zur Verfügung.
+* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!DNL Recommendations]-Aktivitäten zur Verfügung.
+* When you are creating a [!DNL Recommendations] activity, click **[!UICONTROL Create Criteria]** on the [!UICONTROL Select Criteria] screen. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!DNL Recommendations]-Aktivitäten zu verwenden.
+* Klicken Sie beim Bearbeiten einer [!DNL Recommendations]Aktivität in ein Feld für die [!UICONTROL Empfehlungsposition] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!DNL Recommendations]-Aktivitäten zu verwenden.
 
-1. Klicken Sie auf **[!UICONTROL Kriterien erstellen]** oder **[!UICONTROL Neu erstellen]**.
+Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten Methode auf den Bildschirm &quot;Neue Kriterien [!UICONTROL erstellen] &quot;zugreifen: den Bibliotheksbildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** .
 
-   ![Schaltfläche „Erstellen von Kriterien“](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
-1. Wählen Sie **[!UICONTROL Kriterien erstellen]**.
+1. Klicken Sie auf Kriterien **[!UICONTROL erstellen]** > Kriterien **[!UICONTROL erstellen]**.
 
    ![Neue Kriterien erstellen](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+
+### Füllen Sie den Abschnitt &quot;Grundlegende Informationen&quot;aus
 
 1. Geben Sie einen **[!UICONTROL Kriteriennamen]** ein.
 
    Dies ist der „interne“ Name, der für die Beschreibung der Kriterien verwendet wird. Sie möchten zum Beispiel Ihre Kriterien „Produkte mit der höchsten Marge“ nennen, Sie möchten jedoch nicht, dass dieser Titel öffentlich angezeigt wird. Sehen Sie sich den nächsten Schritt an, um den öffentlichen Titel festzulegen.
+
+   ![Abschnitt &quot;Grundlegende Informationen&quot;](/help/c-recommendations/c-algorithms/assets/basic-information.png)
 
 1. Geben Sie einen öffentlichen **[!UICONTROL Anzeigetitel]** ein, der auf der Seite für alle Empfehlungen angezeigt wird, die diesen Kriterien entsprechen.
 
@@ -44,7 +50,7 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
 
 1. Geben Sie eine kurze **[!UICONTROL Beschreibung]** des Kriteriums ein.
 
-   Die Beschreibung soll dazu beitragen, dass Sie das Kriterium identifizieren können, und kann Informationen über den Zweck des Kriteriums enthalten.
+   Die Beschreibung sollte Ihnen dabei helfen, die Kriterien zu identifizieren, und kann Informationen über den Zweck der Kriterien enthalten.
 
 1. Wählen Sie eine **[!UICONTROL Branche]** aus:
 
@@ -72,7 +78,11 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
+### Datenquellenoptionen angeben
+
 1. Legen Sie den **[!UICONTROL Datumsbereich]** fest, um den Zeitraum der verfügbaren historischen Benutzerverhaltensdaten festzulegen, die bei der Bestimmung der anzuzeigenden Empfehlungen verwendet werden.
+
+   ![Datenbereich-Schieberegler](/help/c-recommendations/c-algorithms/assets/data-range.png)
 
    Wählen Sie ein kürzeres Datenfenster, wenn Ihre Site durch hohes Traffic-Aufkommen und häufig wechselndes Verhalten gekennzeichnet ist. Ein kürzeres Fenster ermöglicht es [!DNL Recommendations], besser auf Änderungen am Markt und in Ihrem Unternehmen zu reagieren. Ein kürzeres Fenster bedeutet zum Beispiel, dass [!DNL Recommendations] Änderungen im Besucherverhalten erkennt, wenn Ihre Besucher Saisoneinkäufe absolvieren - wie etwa zum Schulanfang oder zu Weihnachten –, und Artikel empfiehlt, die zur jeweiligen Einkaufssaison passen.
 
@@ -86,45 +96,63 @@ Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien
    * Ein Monat
    * Zwei Monate
 
-1. Wählen Sie die gewünschte **[!UICONTROL Verhaltensdatenquelle]**: [!UICONTROL Mboxes] oder [!UICONTROL Analytics].
+1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+
+   ![Abschnitt &quot;Verhaltensdatenquelle&quot;](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    Wenn Sie sich für [!UICONTROL Analytics] entschieden haben, wählen Sie die gewünschte Report Suite.
 
-   Weitere Informationen finden Sie unter [Verwenden von Adobe Analytics mit Zielgruppe Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+   Weitere Informationen finden Sie unter [Adobe Analytics](#analytics) unten und [Verwenden von Adobe Analytics mit Zielgruppe Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-1. Legen Sie Ihre **[!UICONTROL Inhaltsregeln]** fest.
+### Inhaltseinstellungen festlegen
 
-   Inhaltsregeln bestimmen, was passiert, wenn die Anzahl an empfohlenen Artikeln Ihren Entwurf nicht vollständig füllt. Wenn Ihr Entwurf beispielsweise Platz für fünf Artikel bietet, Ihre Kriterien jedoch nur drei Artikelempfehlungen bereitstellen, können Sie den verbleibenden Platz leer lassen oder ihn mit Ersatzempfehlungen füllen.
+Legen Sie Ihre [!UICONTROL Inhaltsregeln] fest.
 
-   Wählen Sie die entsprechenden Einstellungen aus:
+Inhaltsregeln bestimmen, was passiert, wenn die Anzahl an empfohlenen Artikeln Ihren Entwurf nicht vollständig füllt. Wenn Ihr Entwurf beispielsweise Platz für fünf Artikel bietet, Ihre Kriterien jedoch nur drei Artikelempfehlungen bereitstellen, können Sie den verbleibenden Platz leer lassen oder ihn mit Ersatzempfehlungen füllen.
 
-   * [!UICONTROL Teilweise Designwiedergabe aktivieren]
-   * [!UICONTROL Backup-Empfehlungen anzeigen]
-   * [!UICONTROL Zuvor gekaufte Artikel empfehlen]
+![Inhaltsabschnitt](/help/c-recommendations/c-algorithms/assets/content.png)
 
-   Diese Einstellung basiert auf `productPurchasedId`. Es ist nützlich, wenn Sie Artikel verkaufen, die Kunden in der Regel nur einmal kaufen, zum Beispiel Kayaks. Wenn Sie Artikel verkaufen, die Kunden immer wieder kaufen, zum Beispiel Shampoo oder andere persönliche Artikel, sollten Sie diese Option deaktivieren.
+1. (Optional) Schieben Sie den Umschalter für die **[!UICONTROL teilweise]** Entwurfswiedergabe an die Position &quot;Ein&quot;.
 
-1. Legen Sie Ihre **[!UICONTROL Einschlussregeln]** fest.
+   Es werden so viele Plätze wie möglich ausgefüllt, die Designvorlage kann jedoch Leerzeichen für die verbleibenden Plätze enthalten.
+
+1. (Optional) Schieben Sie den Umschalter &quot;Sicherung **[!UICONTROL anzeigen&quot;Recommendations]** auf die &quot;Ein&quot;-Position.
+
+   Füllen Sie alle verbleibenden leeren Slots im Design mit einer zufälligen Auswahl der am häufigsten angezeigten Produkte aus Ihrer gesamten Site.
+
+   Weitere Informationen finden Sie unter [Verwenden einer Reserveempfehlung](/help/c-recommendations/c-algorithms/backup-recs.md).
+
+1. (Bedingt) Wenn Sie im vorherigen Schritt die Option Backup-Recommendations **** anzeigen ausgewählt haben, können Sie Einschlussregeln **[!UICONTROL anwenden aktivieren, um Reserveempfehlungen]** zu erstellen.
 
    Einschlussregeln legen fest, welche Artikel in Ihren Empfehlungen angezeigt werden. Die verfügbaren Optionen hängen von Ihrem vertikalen Markt ab.
 
    Weitere Informationen finden Sie unter [Einschlussregeln](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
-1. Konfigurieren Sie die **[!UICONTROL Attributgewichtung]**.
+1. (Optional) Schieben Sie den Umschalter &quot;Vorab gekaufte Artikel **[!UICONTROL empfehlen&quot;]** auf die Position &quot;Ein&quot;.
 
-   Sie können mehrere Regeln hinzufügen, um dem Algorithmus auf Grundlage wichtiger Beschreibungen oder Metadaten zum Inhaltskatalog eine Orientierung zu geben. So haben Sie zum Beispiel die Möglichkeit, rabattierten Artikeln eine höherer Gewichtung zu verleihen, damit sie öfter in den Empfehlungen erscheinen.
+   Diese Einstellung basiert auf `productPurchasedId`. Es ist nützlich, wenn Sie Artikel verkaufen, die Kunden in der Regel nur einmal kaufen, zum Beispiel Kayaks. Wenn Sie Artikel verkaufen, die Kunden immer wieder kaufen, zum Beispiel Shampoo oder andere persönliche Artikel, sollten Sie diese Option deaktivieren.
 
-   Weitere Informationen finden Sie unter [Attributgewichtung](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42).
+### Einschlussregeln angeben
 
-1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
+![Einschlussregeln](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
-   Wenn Sie eine neue [!UICONTROL Recommendations]-Aktivität erstellen oder eine bestehende bearbeiten, wird das Kontrollkästchen **[!UICONTROL Kriterien für später speichern]** automatisch aktiviert. Sollten Sie die Kriterien nicht in anderen Aktivitäten verwenden wollen, deaktivieren Sie das Kontrollkästchen, bevor Sie speichern.
+For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-### Adobe Analytics
+### Festlegen der Attributgewichtung
+
+Sie können mehrere Regeln hinzufügen, um dem Algorithmus auf Grundlage wichtiger Beschreibungen oder Metadaten zum Inhaltskatalog eine Orientierung zu geben. So haben Sie zum Beispiel die Möglichkeit, rabattierten Artikeln eine höherer Gewichtung zu verleihen, damit sie öfter in den Empfehlungen erscheinen.
+
+Weitere Informationen finden Sie unter [Attributgewichtung](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42).
+
+Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
+
+Wenn Sie eine neue [!UICONTROL Recommendations]-Aktivität erstellen oder eine bestehende bearbeiten, wird das Kontrollkästchen **[!UICONTROL Kriterien für später speichern]** automatisch aktiviert. Sollten Sie die Kriterien nicht in anderen Aktivitäten verwenden wollen, deaktivieren Sie das Kontrollkästchen, bevor Sie speichern.
+
+### Adobe Analytics {#analytics}
 
 Wenn das Kriterium [!DNL Adobe Analytics] als Verhaltens-Datenquelle verwendet, hängt der Zeitpunkt der Verfügbarkeit der Kriterien nach deren Erstellung davon ab, ob die ausgewählte Report Suite und das Lookback-Fenster bereits für andere Kriterien verwendet wurden.
 
-* **Einmalige Einrichtung der Report Suite**: Wenn eine Report Suite zum ersten Mal mit einem Datumsbereich-Lookback-Fenster verwendet wird, kann es zwei bis sieben Tage dauern, bis [!DNL Target Recommendations] die Verhaltensdaten für die ausgewählte Report Suite von [!DNL Analytics] vollständig heruntergeladen hat. Dieser Zeitraum hängt von der [!DNL Analytics]-Systemlast ab.
+* **Einmalige Einrichtung der Report Suite**: Wenn eine Report Suite zum ersten Mal mit einem Datumsbereich-Lookback-Fenster verwendet wird, kann es zwei bis sieben Tage dauern, bis [!DNL Target Recommendations] die Verhaltensdaten für die ausgewählte Report Suite von [!DNL Analytics] vollständig heruntergeladen hat. This time frame is dependent on the [!DNL Analytics] system load.
 * **Neue oder bearbeitete Kriterien mit einer bereits verfügbaren Report Suite**: Wenn Sie ein neues Kriterium erstellen oder ein vorhandenes Kriterium bearbeiten und die ausgewählte Report Suite bereits mit [!DNL Target Recommendations] verwendet wurde und der Datumsbereich gleich oder kleiner als der ausgewählte Datumsbereich ist, sind die Daten unmittelbar verfügbar und es ist keine einmalige Einrichtung erforderlich. In diesem Fall oder wenn die Einstellungen eines Algorithmus bearbeitet werden, ohne dass die ausgewählte Report Suite oder der ausgewählte Datumsbereich geändert wird, wird der Algorithmus innerhalb von 12 Stunden ausgeführt bzw. erneut ausgeführt.
 * **Laufende Ausführung von Algorithmen**: Daten werden täglich von [!DNL Analytics] zu [!DNL Target Recommendations] übertragen. Beispiel: Wenn sich ein Benutzer ein Produkt ansieht, wird für die Empfehlung [!UICONTROL Viewed Affinity] in nahezu Echtzeit ein Produktansichts-Tracking-Aufruf an [!DNL Analytics] gesendet. Die [!DNL Analytics]-Daten werden am Morgen des nächsten Tages an [!DNL Target] gesendet und [!DNL Target] führt den Algorithmus in weniger als 12 Stunden aus.
 
