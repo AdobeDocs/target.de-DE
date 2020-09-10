@@ -6,7 +6,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: f6cd9dacf554b04e65f3978fc28bd1346879a075
 workflow-type: tm+mt
 source-wordcount: '1509'
 ht-degree: 87%
@@ -378,8 +378,8 @@ ht-degree: 87%
    + Kriterien {#criteria}
       + [Kriterien – Überblick](c-recommendations/c-algorithms/algorithms.md)
       + [Erstellen von Kriterien](c-recommendations/c-algorithms/create-new-algorithm.md)
-      + [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Erstellen von Kriteriensequenzen](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Hochladen benutzerdefinierter Kriterien](c-recommendations/c-algorithms/recommendations-csv.md)
       + [Verwenden dynamischer und statischer Einschlussregeln](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Verwenden einer Reserveempfehlung](c-recommendations/c-algorithms/backup-recs.md)
