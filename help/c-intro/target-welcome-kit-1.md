@@ -4,7 +4,7 @@ description: Adobe Target Begrüßungs-Kit - Kapitel 1 - Einführung
 title: Adobe Target Begrüßungs-Kit - Kapitel 1 - Einführung
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: 31ee320c3a5d81a4d859881666ab098253f9047e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -29,3 +29,4 @@ Wenn Sie sich dieses Begrüßungs-Kit ansehen, haben Sie sich bereits entschloss
 Jetzt wollen wir sicherstellen, dass Ihr Beginn ihn auf die richtige Art und Weise nutzt.
 
 Um Ihnen dabei zu helfen, haben wir dieses Begrüßungs-Kit mit wichtigen Informationen, Tools und Ressourcen erstellt, mit denen Sie sich auf Ihre erste [!DNL Target] Aktivität vorbereiten und diese starten können. Langfristig bilden diese Inhalte auch die Grundlage für ein erfolgreiches Optimierungs- und Personalisierungs-Programm.
+
