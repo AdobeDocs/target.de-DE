@@ -1,33 +1,30 @@
 ---
-keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
 description: Kriterien steuern den Inhalt Ihrer Adobe Recommendations-Aktivitäten. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen.
 title: Erstellen von Kriterien
 feature: criteria
-mini-toc-levels: 2
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 31ee320c3a5d81a4d859881666ab098253f9047e
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '3609'
-ht-degree: 85%
+source-wordcount: '2402'
+ht-degree: 67%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Kriterien erstellen{#create-criteria}
 
-Kriterien steuern den Inhalt Ihrer [!UICONTROL Recommendations-]Aktivitäten. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen.
-
-## Neue Kriterien erstellen
+Kriterien in [!UICONTROL Adobe Target] [!UICONTROL Recommendations] kontrollieren den Inhalt Ihrer [!UICONTROL Recommendations] -Aktivitäten. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen. Diese Kriterien verwenden die Aktionen des Besuchers, um festzulegen, welche Inhalte oder Produkte angezeigt werden sollen.
 
 Die folgenden Abschnitte erläutern, wie Sie ein neues Kriterium erstellen.
 
-### Auf den Bildschirm &quot;Neue Kriterien erstellen&quot;zugreifen
+## Auf den Bildschirm &quot;Neue Kriterien erstellen&quot;zugreifen
 
 Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien erstellen] zu gelangen. Einige Bildschirmoptionen variieren je nachdem, wie Sie auf den Bildschirm gelangen.
 
 * On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!DNL Recommendations]-Aktivitäten zur Verfügung.
-* When you are creating a [!DNL Recommendations] activity, click **[!UICONTROL Create Criteria]** on the [!UICONTROL Select Criteria] screen. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!DNL Recommendations]-Aktivitäten zu verwenden.
+* Wenn Sie eine [!DNL Recommendations] Aktivität mit dem [!UICONTROL Visual Experience Composer] (VEC) erstellen, werden Sie sofort zum Bildschirm &quot;Kriterien  auswählen&quot;geleitet, nachdem Sie ein Element auf Ihrer Seite ausgewählt haben und auf &quot;Mit Recommendations ersetzen&quot;, &quot;Recommendations vor [!UICONTROL einfügen&quot;oder &quot;Recommendations nach]einfügen&quot;klicken. Sie können dann ein verfügbares Kriterium auswählen oder auf Kriterien **[!UICONTROL erstellen]** klicken. Wenn Sie ein neues Kriterium erstellen, haben Sie die Möglichkeit, Ihre Kriterien zur Verwendung mit anderen [!DNL Recommendations] Aktivitäten zu speichern. For more information, see [Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 * Klicken Sie beim Bearbeiten einer [!DNL Recommendations]Aktivität in ein Feld für die [!UICONTROL Empfehlungsposition] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!DNL Recommendations]-Aktivitäten zu verwenden.
 
 Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten Methode auf den Bildschirm &quot;Neue Kriterien [!UICONTROL erstellen] &quot;zugreifen: den Bibliotheksbildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** .
@@ -38,7 +35,9 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
 
    ![Neue Kriterien erstellen](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
-### Füllen Sie den Abschnitt &quot;Grundlegende Informationen&quot;aus {#info}
+1. Konfigurieren Sie die Informationen in den folgenden Abschnitten.
+
+## Basisinformationen  {#info}
 
 1. Geben Sie einen **[!UICONTROL Kriteriennamen]** ein.
 
@@ -70,7 +69,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
 
 1. Wählen Sie einen **[!UICONTROL Empfehlungsschlüssel]** aus.
 
-   Weitere Informationen zum Stützen von Kriterien auf einen Schlüssel finden Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+   Weitere Informationen zum Stützen von Kriterien auf einen Schlüssel finden Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 1. Wählen Sie die **[!UICONTROL Empfehlungslogik]** aus.
 
@@ -80,7 +79,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-### Datenquellenoptionen angeben
+## Datenquelle
 
 1. Legen Sie den **[!UICONTROL Datumsbereich]** fest, um den Zeitraum der verfügbaren historischen Benutzerverhaltensdaten festzulegen, die bei der Bestimmung der anzuzeigenden Empfehlungen verwendet werden.
 
@@ -116,25 +115,42 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
 
    Weitere Informationen finden Sie unter [Verwenden von Adobe Analytics mit Zielgruppe Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-### Inhaltseinstellungen festlegen {#content}
+## Inhalt {#content}
 
-Inhaltsregeln bestimmen, was passiert, wenn die Anzahl an empfohlenen Artikeln Ihren Entwurf nicht vollständig füllt. Möglicherweise geben Empfehlungskriterien weniger Empfehlungen zurück, als im Entwurf angegeben sind. Wenn Ihr Entwurf beispielsweise Platz für fünf Elemente hat, Ihre Kriterien jedoch nur drei Artikel empfehlen, können Sie den verbleibenden Platz leer lassen oder Reserveempfehlungen verwenden, um den zusätzlichen Platz zu füllen.
+Content rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/c-recommendations/c-design-overview/design-overview.md). Möglicherweise geben [!DNL Recommendations]-Kriterien weniger Empfehlungen zurück, als im Entwurf angegeben sind. Wenn Ihr Entwurf z. B. Slots für vier Elemente enthält, Ihre Kriterien jedoch nur zwei Artikel empfehlen, können Sie die verbleibenden Slots leer lassen oder Reserveempfehlungen verwenden, um die zusätzlichen Slots zu füllen.
 
 ![Inhaltsabschnitt](/help/c-recommendations/c-algorithms/assets/content.png)
 
 1. (Optional) Schieben Sie den Umschalter für die **[!UICONTROL teilweise]** Entwurfswiedergabe an die Position &quot;Ein&quot;.
 
-   Es werden so viele Plätze wie möglich ausgefüllt, die Designvorlage kann jedoch Leerzeichen für die verbleibenden Plätze enthalten.
+   Es werden so viele Plätze wie möglich ausgefüllt, die Designvorlage kann jedoch Leerzeichen für die verbleibenden Plätze enthalten. Wenn diese Option deaktiviert ist und nicht genügend Inhalte vorhanden sind, um alle verfügbaren Plätze auszufüllen, werden keine Empfehlungen bereitgestellt und stattdessen Standardinhalte angezeigt.
+
+   Aktivieren Sie diese Option, wenn Empfehlungen mit leeren Slots versorgt werden sollen. Verwenden Sie Reserveempfehlungen, wenn Sie möchten, dass Empfehlungszeiträume mit Inhalten gefüllt werden, die auf Ihren Kriterien basieren und mit leeren Slots gefüllt werden, die mit ähnlichen oder beliebten Inhalten Ihrer Site gefüllt sind, wie im nächsten Schritt beschrieben.
 
 1. (Optional) Schieben Sie den Umschalter &quot;Sicherung **[!UICONTROL anzeigen&quot;Recommendations]** auf die &quot;Ein&quot;-Position.
 
    Füllen Sie alle verbleibenden leeren Slots im Design mit einer zufälligen Auswahl der am häufigsten angezeigten Produkte aus Ihrer gesamten Site.
 
+   Die Verwendung von Reserveempfehlungen stellt sicher, dass Ihr Empfehlungsentwurf alle verfügbaren Plätze ausfüllt. Angenommen, Sie haben ein Design im Format 4 x 1, wie unten dargestellt:
+
+   ![4 x 1 Design](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   Nehmen wir einmal an, Ihre Kriterien führen dazu, dass nur zwei Artikel empfohlen werden. Wenn Sie die Option &quot; [!UICONTROL Teilweises Design-Rendering] &quot;aktivieren, werden die ersten beiden Slots ausgefüllt, aber die restlichen zwei Slots bleiben leer. Wenn Sie jedoch die Option &quot;Recommendations [!UICONTROL Sicherung] anzeigen&quot;aktivieren, werden die ersten beiden Slots nach Ihren angegebenen Kriterien ausgefüllt und die restlichen zwei Slots werden basierend auf Ihren Reserveempfehlungen ausgefüllt.
+
+   Die folgende Matrix zeigt das Ergebnis, das Sie bei Verwendung der [!UICONTROL Optionen für das Rendering] und [!UICONTROL Backup von Recommendations] bei partiellen Designs beobachten werden:
+
+   | Teilweises Entwurfs-Rendering | Ersatzempfehlungen | Ergebnis |
+   |--- |--- |--- |
+   | Deaktiviert | Deaktiviert | Wenn weniger Empfehlungen zurückgegeben werden als im Entwurf vorgesehen, wird der Empfehlungsentwurf durch Standardinhalte ersetzt und es erscheinen keine Empfehlungen. |
+   | Aktiviert | Deaktiviert | Der Entwurf wird gerendert, kann jedoch leere Positionen enthalten, falls weniger Empfehlungen zurückgegeben werden, als im Entwurf vorgesehen. |
+   | Aktiviert | Aktiviert | Ersatzempfehlungen erscheinen an solchen leeren Positionen und vervollständigen den Entwurf.<br>Sollte die Anwendung von Einschlussregeln auf die Ersatzempfehlungen die Anzahl an geeigneten Ersatzempfehlungen so stark einschränken, dass der Entwurf nicht vervollständigt werden kann, wird der Entwurf nur teilweise gerendert.<br>In dem Fall, dass die Kriterien keine Empfehlungen zurückgeben und die Einschlussregeln die Ersatzempfehlungen auf null reduzieren, wird der Entwurf durch Standardinhalte ersetzt. |
+   | Deaktiviert | Aktiviert | Ersatzempfehlungen erscheinen an solchen leeren Positionen und vervollständigen den Entwurf.<br>Sollte die Anwendung von Einschlussregeln auf die Ersatzempfehlungen die Anzahl an geeigneten Ersatzempfehlungen so stark einschränken, dass der Entwurf nicht vervollständigt werden kann, wird der Entwurf durch Standardinhalte ersetzt und es werden keine Empfehlungen angezeigt. |
+
    Weitere Informationen finden Sie unter [Verwenden einer Reserveempfehlung](/help/c-recommendations/c-algorithms/backup-recs.md).
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt die Option Backup-Recommendations **** anzeigen ausgewählt haben, können Sie Einschlussregeln **[!UICONTROL anwenden aktivieren, um Reserveempfehlungen]** zu erstellen.
 
-   Einschlussregeln legen fest, welche Artikel in Ihren Empfehlungen angezeigt werden. Die verfügbaren Optionen hängen von Ihrem vertikalen Markt ab.
+   Einschlussregeln bestimmen, welche Artikel in Ihren Empfehlungen enthalten sind. Die verfügbaren Optionen hängen von Ihrem vertikalen Markt ab.
 
    For more details, see [Specify inclusion rules](#inclusion) below.
 
@@ -142,16 +158,7 @@ Inhaltsregeln bestimmen, was passiert, wenn die Anzahl an empfohlenen Artikeln I
 
    Diese Einstellung basiert auf `productPurchasedId`. Das Standardverhalten ist es, zuvor gekaufte Artikel nicht zu empfehlen. In den meisten Fällen ist es nicht sinnvoll, Artikel zu bewerben, die Kunden kürzlich gekauft haben. Es ist nützlich, wenn Sie Artikel verkaufen, die Kunden in der Regel nur einmal kaufen, zum Beispiel Kayaks. Wenn Sie Artikel verkaufen, die Personen wiederholt kaufen, z. B. Shampoo oder andere persönliche Artikel, sollten Sie diese Option aktivieren.
 
-Die folgende Matrix zeigt das Ergebnis, das Sie bei Verwendung der [!UICONTROL Optionen für das Rendering] und [!UICONTROL Backup von Recommendations] bei partiellen Designs beobachten werden:
-
-| Teilweises Entwurfs-Rendering | Ersatzempfehlungen | Ergebnis |
-|--- |--- |--- |
-| Deaktiviert | Deaktiviert | Wenn weniger Empfehlungen zurückgegeben werden als im Entwurf vorgesehen, wird der Empfehlungsentwurf durch Standardinhalte ersetzt und es erscheinen keine Empfehlungen. |
-| Aktiviert | Deaktiviert | Der Entwurf wird gerendert, kann jedoch leere Positionen enthalten, falls weniger Empfehlungen zurückgegeben werden, als im Entwurf vorgesehen. |
-| Aktiviert | Aktiviert | Ersatzempfehlungen erscheinen an solchen leeren Positionen und vervollständigen den Entwurf.<br>Sollte die Anwendung von Einschlussregeln auf die Ersatzempfehlungen die Anzahl an geeigneten Ersatzempfehlungen so stark einschränken, dass der Entwurf nicht vervollständigt werden kann, wird der Entwurf nur teilweise gerendert.<br>In dem Fall, dass die Kriterien keine Empfehlungen zurückgeben und die Einschlussregeln die Ersatzempfehlungen auf null reduzieren, wird der Entwurf durch Standardinhalte ersetzt. |
-| Deaktiviert | Aktiviert | Ersatzempfehlungen erscheinen an solchen leeren Positionen und vervollständigen den Entwurf.<br>Sollte die Anwendung von Einschlussregeln auf die Ersatzempfehlungen die Anzahl an geeigneten Ersatzempfehlungen so stark einschränken, dass der Entwurf nicht vervollständigt werden kann, wird der Entwurf durch Standardinhalte ersetzt und es werden keine Empfehlungen angezeigt. |
-
-### Specify content similarity rules {#similarity}
+## Ähnlichkeit von Inhalten {#similarity}
 
 Verwenden Sie Regeln zur [!UICONTROL Ähnlichkeit von Inhalten] für die Bereitstellung von Empfehlungen basierend auf Artikeln oder Medienattributen.
 
@@ -175,11 +182,11 @@ Standardmäßig sind alle Attribute auf den Wert *Grundlinie* eingestellt. Sie m
 >
 >Der Algorithmus zur Ähnlichkeit von Inhalten verwendet bei der Berechnung der Ähnlichkeit zwischen Elementen möglicherweise Stichproben. Infolgedessen können die Übereinstimmungsbewertungen von Elementen je nach Ausführung des Algorithmus variieren.
 
-### Einschlussregeln angeben {#inclusion}
-
-![Einschlussregeln](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
+## Einschlussregeln {#inclusion}
 
 Mehrere Optionen ermöglichen es Ihnen, die in Ihren Empfehlungen angezeigten Elemente einzuschränken. Sie können Einschlussregeln beim Erstellen von Kriterien oder Promotions verwenden.
+
+![Einschlussregeln](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
 Einschlussregeln sind optional. Das Festlegen dieser Regeln jedoch ermöglicht Ihnen die bessere Steuerung der Artikel, die in Ihren Empfehlungen erscheinen. Jedes konfigurierte Detail schränkt die Anzeigekriterien weiter ein.
 
@@ -215,9 +222,9 @@ Führen Sie zum Erstellen einer einfachen Einschlussregel die folgenden Schritte
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-### Festlegen der Attributgewichtung
+## Attributgewichtung
 
-Sie können mehrere Regeln hinzufügen, um den Algorithmus basierend auf wichtigen Beschreibungen oder Metadaten zum Inhaltskatalog zu &quot;verschieben&quot;, sodass bestimmte Elemente mit höherer Wahrscheinlichkeit angezeigt werden.
+Sie können mehrere Regeln hinzufügen, um den Algorithmus basierend auf wichtigen Informationen oder Metadaten zum Inhaltskatalog zu &quot;verschieben&quot;, sodass bestimmte Elemente mit höherer Wahrscheinlichkeit angezeigt werden.
 
 So haben Sie zum Beispiel die Möglichkeit, rabattierten Artikeln eine höherer Gewichtung zu verleihen, damit sie öfter in den Empfehlungen erscheinen. Artikel, die nicht Teil des Sonderangebots sind, werden nicht vollständig ausgeschlossen, jedoch weniger häufig angezeigt. Auf denselben Algorithmus können mehrere gewichtete Attribute angewendet werden und die gewichteten Attribute können mit dem in der Empfehlung aufgeteilten Traffic getestet werden.
 
@@ -242,217 +249,6 @@ So haben Sie zum Beispiel die Möglichkeit, rabattierten Artikeln eine höherer 
 Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
 Wenn Sie eine neue [!UICONTROL Recommendations]-Aktivität erstellen oder eine bestehende bearbeiten, wird das Kontrollkästchen **[!UICONTROL Kriterien für später speichern]** automatisch aktiviert. Sollten Sie die Kriterien nicht in anderen Aktivitäten verwenden wollen, deaktivieren Sie das Kontrollkästchen, bevor Sie speichern.
-
-## Stützen der Empfehlung auf einen Empfehlungsschlüssel {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
-
-Die auf Schlüsseln basierenden Empfehlungen nutzen den Besucherverhaltenskontext zum Anzeigen relevanter Ergebnisse.
-
-Es gibt zwei Arten von Recommendations:
-
-* **Beliebtheit:** Führt Elemente gemäß „Am häufigsten angezeigt“, „Topverkäufe“ und „Top-Metriken“ auf. Der Schlüssel ist leer für die Beliebtheitskriterien.
-* **Schlüsselbasiert:** Bildet den Rest der Kriterien. Recommendations bietet eine vielfältige Reihe an Auswahlmöglichkeiten in Bezug auf den Schlüsseltyp. Die Möglichkeiten reichen von „Aktueller Artikel“ bis hin zu „Profilparameter“, wodurch Sie den Schlüssel der zu empfehlenden Werte programmgesteuert festlegen können. Sie können mehrere Kriterien miteinander vergleichen, indem Sie festlegen, dass die einzelnen Kriterien auf einem unterschiedlichen Schlüssel basieren.
-
-Jedes Kriterium ist in seinem eigenen Register definiert. Der Traffic wird gleichmäßig auf die verschiedenen Kriterientests verteilt. Anders ausgedrückt wird der Traffic bei zwei vorliegenden Kriterien gleichmäßig zwischen diesen aufgeteilt. Wenn Sie über zwei Kriterien und zwei Entwürfe verfügen, wird der Traffic gleichmäßig zwischen diesen vier Kombinationen aufgeteilt. Sie können auch den Prozentsatz der Websitebesucher festlegen, denen zum Vergleich der standardmäßige Inhalt gezeigt wird. In diesem Fall sieht ein angegebener Prozentsatz von Besuchern den Standardinhalt und der Rest wird auf die Kriterien- und Entwurfskombinationen verteilt.
-
-1. Erstellen Sie eine neue Empfehlung oder wählen Sie eine vorhandene Empfehlung aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
-1. Um den Empfehlungsschlüssel zu ändern, wählen Sie den neuen Schlüssel aus der Dropdown-Liste für [!UICONTROL Empfehlungsschlüssel] aus und klicken Sie dann auf **[!UICONTROL Speichern]**.
-
-   Da sich unterschiedliche Logiken auf unterschiedliche Empfehlungsschlüssel beziehen, werden unterschiedliche Empfehlungen auf unterschiedlichen Seitentypen platziert. Weitere Informationen zu den einzelnen Schlüsseln finden Sie in den folgenden Abschnitten.
-
-### Aktueller Artikel
-
-Die Empfehlung wird vom Artikel bestimmt, den der Besucher momentan ansieht.
-
-Recommendations zeigt andere Artikel an, die den Besucher aufgrund seiner derzeitigen Artikelwahl ebenfalls interessieren könnten.
-
-Wenn diese Option ausgewählt ist, muss der `entity.id`-Wert als Parameter in der Anzeige-Mbox weitergeleitet werden.
-
-#### Logik (Kriterien)
-
-* [!UICONTROL Artikel mit ähnlichen Attributen]
-* [!UICONTROL Personen, die das ansahen, sahen auch dies an]
-* [!UICONTROL Personen, die das ansahen, kauften dies]
-* [!UICONTROL Personen, die das kauften, kauften dies]
-* [!UICONTROL Site-Affinität]
-
-#### Verwendung auf Ihrer Site
-
-Seiten mit einzelnen Artikeln, beispielsweise Produktseiten.
-
-NICHT auf Seiten ohne Suchergebnisse verwenden.
-
-### Aktuelle Kategorie
-
-Die Empfehlung wird von der Produktkategorie bestimmt, die der Besucher momentan ansieht.
-
-In Empfehlungen werden Produkte aus der angegebenen Produktkategorie angezeigt.
-
-Wenn diese Option ausgewählt ist, muss der `entity.categoryId`-Wert als Parameter an die Anzeige-Mbox weitergeleitet werden.
-
-#### Logik (Kriterien)
-
-* Topverkäufe
-* Am häufigsten angezeigt
-
-#### Verwendung auf Ihrer Site
-
-Seiten mit einer Kategorie.
-
-NICHT auf Seiten ohne Suchergebnisse verwenden.
-
-### Benutzerspezifisches Attribut  {#custom}
-
-Die Empfehlung wird anhand eines Artikels ermittelt, der im Besucherprofil gespeichert ist, entweder mithilfe des Attributs user.*x* oder Profile.*x* Attribute.
-
-Wurde diese Option ausgewählt, muss der Wert `entity.id` im Profilattribut enthalten sein.
-
-#### Logik (Kriterien)
-
-* [!UICONTROL Personen, die das ansahen, sahen auch dies an]
-* [!UICONTROL Personen, die das ansahen, kauften dies]
-* [!UICONTROL Personen, die das kauften, kauften dies]
-* [!UICONTROL Gesamtverhalten]
-* [!UICONTROL Am häufigsten angezeigt]
-* [!UICONTROL Topverkäufe]
-
-Wenn der Schlüssel ein benutzerspezifisches Profilattribut ist und der Algorithmustyp „Am häufigsten angezeigt“ oder „Topverkäufe“ lautet, wird eine neue Dropdownliste namens „Nach eindeutigem Wert gruppieren von“ angezeigt, in der eine Liste bekannter Entitätsattribute (mit Ausnahme von ID, category, margin, value, inventory und environment) vorhanden ist. Dieses Feld ist ein Pflichtfeld.
-
-#### Verwendung auf Ihrer Site
-
-Kann auf beliebigen Seiten verwendet werden.
-
-#### Verwenden Sie einen benutzerdefinierten Empfehlungsschlüssel.
-
-Sie können Empfehlungen auf dem Wert eines benutzerdefinierten Profilattributs basieren. Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Besucher zuletzt der Warteschlange hinzugefügt hat.
-
-1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdownliste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. „Zuletzt zur Watchlist hinzugefügt“).
-1. Wählen Sie dann Ihre **[!UICONTROL Empfehlungslogik]** aus (z. B. „Personen, die das ansahen, sahen auch dies an“).
-
-   ![Neues Kriteriendialogfeld erstellen](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
-
-Wenn Ihr benutzerdefiniertes Profilattribut nicht direkt mit einer Entitäts-ID übereinstimmt, müssen Sie [!DNL Recommendations] erläutern, wie die Übereinstimmung mit einer Entität erfolgen soll. Angenommen, Sie möchten die wichtigsten Verkaufselemente aus der beliebtesten Marke eines Besuchers anzeigen.
-
-1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdownliste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. „Lieblingsmarke“).
-
-1. Wählen Sie dann die **[!UICONTROL Empfehlungslogik]**, die Sie mit diesem Schlüssel verwenden möchten (z. B. „Topverkäufe“).
-
-   Die Option [!UICONTROL Gruppieren nach individuellem Wert] wird angezeigt.
-
-1. Wählen Sie das Entitätsattribut aus, das dem ausgewählten Schlüssel entspricht. In diesem Fall stimmt „Lieblingsmarke“ mit `entity.brand` überein.
-
-   [!DNL Recommendations] erstellt nun für jede Marke eine Liste der Topverkäufe und zeigt den Besucher die entsprechende Liste „Topverkäufe“ basierend auf dem Wert an, der im Profilattribut „Lieblingsmarke“ des Besuchers gespeichert ist.
-
-   ![Neues Kriteriendialogfeld erstellen 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
-
-### Zuletzt gekaufter Artikel
-
-Die Empfehlung wird durch den letzten Artikel bestimmt, der von dem jeweiligen Unique Visitor gekauft wurde. Dies wird automatisch erfasst, und es müssen keine Werte auf der Seite weitergereicht werden.
-
-#### Logik (Kriterien)
-
-* [!UICONTROL Artikel mit ähnlichen Attributen]
-* [!UICONTROL Personen, die das ansahen, sahen auch dies an]
-* [!UICONTROL Personen, die das ansahen, kauften dies]
-* [!UICONTROL Personen, die das kauften, kauften dies]
-* [!UICONTROL Site-Affinität]
-
-#### Verwendung auf Ihrer Site
-
-Startseite, Seite „Mein Konto“, Offsite-Werbeanzeigen.
-
-NICHT auf Produktseiten oder Seiten verwenden, die für Einkäufe relevant sind.
-
-### Zuletzt angezeigter Artikel
-
-Die Empfehlung wird durch den letzten Artikel bestimmt, der von dem jeweiligen Unique Visitor angezeigt wurde. Dies wird automatisch erfasst, und es müssen keine Werte auf der Seite weitergereicht werden.
-
-#### Logik (Kriterien)
-
-* [!UICONTROL Artikel mit ähnlichen Attributen]
-* [!UICONTROL Personen, die das ansahen, sahen auch dies an]
-* [!UICONTROL Personen, die das ansahen, kauften dies]
-* [!UICONTROL Personen, die das kauften, kauften dies]
-* [!UICONTROL Site-Affinität]
-
-#### Verwendung auf Ihrer Site
-
-Startseite, Seite „Mein Konto“, Offsite-Werbeanzeigen.
-
-NICHT auf Produktseiten oder Seiten verwenden, die für Einkäufe relevant sind.
-
-### Am häufigsten angezeigter Artikel
-
-Die Empfehlung wird von dem Artikel bestimmt, der am häufigsten angezeigt wurde, wobei dieselbe Methode wie für die bevorzugte Kategorie verwendet wird.
-
-Dies wird vom Neuigkeits-/Häufigkeitskriterium bestimmt, das wie folgt funktioniert:
-
-* 10 Punkte für erstmalige Ansicht
-* 5 Punkte für alle folgenden Ansichten
-* Am Ende der Sitzung alle Werte durch 2 teilen
-
-Beispiel: Die Anzeige von Surfbrett A und Surfbrett B in einer Sitzung führt zu folgendem Ergebnis: A: 10 und B: 5. Am Ende der Sitzung ist das Ergebnis A: 5 und B: 2,5. Wenn Sie dieselben Artikel in der nächsten Sitzung anzeigen, ändern sich die Werte in A: 15 und B: 7,5.
-
-#### Logik (Kriterien)
-
-* [!UICONTROL Artikel mit ähnlichen Attributen]
-* [!UICONTROL Personen, die das ansahen, sahen auch dies an]
-* [!UICONTROL Personen, die das ansahen, kauften dies]
-* [!UICONTROL Personen, die das kauften, kauften dies]
-* [!UICONTROL Site-Affinität]
-
-#### Verwendung auf Ihrer Site
-
-Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
-
-### Favoritenkategorie
-
-Die Empfehlung wird von der Kategorie bestimmt, die am meisten Aktivität verzeichnete, wobei dieselbe Methode wie für den am häufigsten angezeigten Artikel verwendet wird, statt Produkten jedoch Kategorien bewertet werden.
-
-Dies wird vom Neuigkeits-/Häufigkeitskriterium bestimmt, das wie folgt funktioniert:
-
-* 10 Punkte für erstmalige Kategorieansicht
-* 5 Punkte für alle folgenden Ansichten
-
-Kategorien, die zum ersten Mal besucht werden, erhalten 10 Punkte. Für nachfolgende Besuche derselben Kategorie werden 5 Punkte vergeben. Bei jedem Besuch werden nicht aktuelle Kategorien, die zuvor besucht wurden, um 1 reduziert.
-
-Beispiel: Die Anzeige von Kategorie A und Kategorie B in einer Sitzung führt zu folgendem Ergebnis: A: 9 und B: 10. Wenn Sie in der nächsten Sitzung dieselben Elemente ansehen, ändern sich die Werte in A: 20 B: 9.
-
-#### Logik (Kriterien)
-
-* [!UICONTROL Topverkäufe]
-* [!UICONTROL Am häufigsten angezeigt]
-
-#### Verwendung auf Ihrer Site
-
-Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
-
-### Beliebtheit
-
-Die Empfehlung wird von den am meisten bevorzugten Artikeln auf Ihrer Site bestimmt. Unter „Popularität“ fallen Topverkäufe und die am häufigsten nach Mbox-Daten angezeigten Artikel sowie bei der Verwendung von Adobe Analytics alle verfügbaren Metriken im Produktbericht. Die Artikel werden je nach ausgewählter Recommendations-Logik in eine Rangfolge gebracht.
-
-#### Logik (Kriterien)
-
-* [!UICONTROL Topverkäufe]
-* [!UICONTROL Am häufigsten angezeigt]
-* Produktberichtsmetriken (bei der Verwendung von Adobe Analytics)
-
-#### Verwendung auf Ihrer Site
-
-Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
-
-### Vor Kurzem aufgerufene Artikel  {#recently-viewed}
-
-Nutzt den Verlauf des Benutzers (sitzungsübergreifend) für die Anzeige der letzten *x* vom Besucher angesehenen Artikel, basierend auf der Anzahl x der im Entwurf vorhandenen Plätze.
-
-Das Kriterium „Kürzlich angezeigte Elemente“ liefert jetzt Ergebnisse speziell für die jeweilige [Umgebung](/help/administrating-target/hosts.md). Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die jeweiligen Elemente der entsprechenden Umgebung an. Wenn zwei Sites in derselben Umgebung enthalten sind und ein Besucher zwischen ihnen wechselt, erhält er die kürzlich angezeigten Elemente für beide Sites.
-
-#### Verwendung auf Ihrer Site
-
-Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
-
->[!NOTE]
->
->Vor Kurzem aufgerufene Artikel  berücksichtigt sowohl globale Ausschlüsse als auch die ausgewählte Sammlungseinstellung für die Aktivität. Wenn ein Artikel durch einen globalen Ausschluss ausgeschlossen oder nicht in der ausgewählten Sammlung enthalten ist, wird er nicht angezeigt. Daher sollte bei Verwendung des Kriteriums „Vor Kurzem aufgerufene Artikel“ die Einstellung „Alle Sammlungen“ verwendet werden.
 
 ## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
