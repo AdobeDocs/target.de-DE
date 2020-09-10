@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2179'
 ht-degree: 30%
 
 ---
@@ -23,6 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 10. September | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version Target Standard/Premium 20.9.2 hinzugefügt, die die folgende neue Funktion enthält: Steuern Sie die Slots von Empfehlungen innerhalb von Kriteriensequenzen. |
+|  | [Erstellen von Kriteriensequenzen](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Es wurden Informationen zur Funktion &quot;Die Anzahl der zurückgegebenen Elemente begrenzen&quot;hinzugefügt. |
 | September 9 | [Lesezeichenliste für Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | JavaScript-Code zur Verwendung mit at.js 2 hinzugefügt.*x*. |
 | 3. September | [Visual Experience Composer Helper-Erweiterung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Der Abschnitt &quot;Abrufen und Installieren der VEC Helper-Browsererweiterung&quot;wurde mit Informationen zum Cookie-Namen und zur -Domäne aktualisiert. |
 |  | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Aktualisierung der &quot;Wie wirken sich die kürzlich angekündigten Google Chrome SameSite-Cookie-Durchsetzungsrichtlinien auf VEC und EEC aus?&quot; mit Informationen zum Cookie-Namen und zur Domäne. |
