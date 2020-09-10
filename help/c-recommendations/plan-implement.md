@@ -5,7 +5,7 @@ title: Planen und Implementieren von Recommendations
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 6ad358c8a8fcbed390b7460b93e4ea5e41e2ba2f
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 97%
@@ -27,7 +27,7 @@ Was Sie vor der Erstellung einer [!DNL Recommendations]-Aktivität wissen müsse
 |--- |--- |--- |
 | ![Schritt 1](/help/c-recommendations/assets/step1_red.png) | JavaScript-Bibliothek | Jede der Seiten muss einen Verweis auf at.js, Version 0.9.1 (oder neuer) oder mbox.js, Version 55 (oder neuer) enthalten. Dieser Implementierungsschritt ist auf allen Seiten erforderlich, auf denen eine Target-Aktivität verwendet wird; er kann Schlüssel wie eine Produkt- oder Kategorie-ID umfassen.<BR>Weitere Informationen zu at.js finden Sie unter [at.js-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Weitere Informationen zu mbox.js finden Sie unter [Mbox.js-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
 | ![Schritt 2](/help/c-recommendations/assets/step2_red.png) | Schlüssel | Der Schlüssel legt den Produkttyp bzw. den Inhaltstyp fest, der in Ihren Empfehlungen angezeigt wird. Zum Beispiel kann der Schlüssel eine Produktkategorie sein. Siehe [Aufbauen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
-| ![Schritt 3](/help/c-recommendations/assets/step3_red.png) | Attribute | Attribute liefern spezifischere Informationen über die Produkte, die Sie anzeigen möchten. Beispielsweise könnte es sein, dass Sie Produkte in einem bestimmten Preisbereich oder Artikel, deren Bestand einen Schwellenwert erreicht, anzeigen möchten. Attribute können in einer Mbox oder durch einen  [Feed](/help/c-recommendations/c-products/feeds.md) bereitgestellt werden.<br>Siehe [[Einschlussregeln](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)angeben. |
+| ![Schritt 3](/help/c-recommendations/assets/step3_red.png) | Attribute | Attribute liefern spezifischere Informationen über die Produkte, die Sie anzeigen möchten. Beispielsweise könnte es sein, dass Sie Produkte in einem bestimmten Preisbereich oder Artikel, deren Bestand einen Schwellenwert erreicht, anzeigen möchten. Attribute können in einer Mbox oder durch einen  [Feed](/help/c-recommendations/c-products/feeds.md) bereitgestellt werden.<br>Siehe [Einschlussregeln](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)angeben. |
 | ![Schritt 4](/help/c-recommendations/assets/step4_red.png) | Ausnahmen | Ausnahmen legen fest, welche spezifischen Artikel nicht in Ihren Empfehlungen angezeigt werden.<br>Siehe [Ausnahmen](/help/c-recommendations/c-products/exclusions.md). |
 | ![Schritt 5](/help/c-recommendations/assets/step5_red.png) | Kaufdetails | Kaufdetails enthalten Informationen über die gekauften Artikel und die Reihenfolge und die Bestellung nach Abschluss des Kaufs. |
 
