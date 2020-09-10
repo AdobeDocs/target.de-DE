@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '854'
 ht-degree: 11%
 
 ---
@@ -36,14 +36,14 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
    Indem wir alle Kunden zu at.js verschieben, können unsere Ingenieure und Support-Mitarbeiter Ihnen neue Funktionen und Angebote anbieten, die Sie von der Adobe erwarten.
    >
    >
-* **Mitteilungen** zur Zielgruppe: Auf der Seite mit den Ankündigungen zur Zielgruppe finden Sie Informationen zu den kommenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinars und Zielgruppe Coffee Break-Sitzungen. Weitere Informationen finden Sie unter [Ankündigungen](/help/r-release-notes/target-announcements.md)der Zielgruppe.
+* **Mitteilungen** zur Zielgruppe: Auf der Seite &quot;Ankündigungen&quot;der Zielgruppe finden Sie Informationen zu den bevorstehenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinars und Zielgruppe Coffee Break-Sitzungen. Weitere Informationen finden Sie unter [Ankündigungen](/help/r-release-notes/target-announcements.md)der Zielgruppe.
 
 
 ## Target Standard/Premium 20.8.2 (10. September 2020)
 
 | Funktion | Details |
 | --- | --- |
-| Empfehlungen und Slots innerhalb von Kriteriensequenzen kontrollieren | Kriteriensequenzen ermöglichen es Ihnen jetzt, die Anzahl der Slots zu steuern, die von den einzelnen Empfehlungskriterien aufgenommen wurden. So können Sie verschiedene Elementtypen oder verschiedene Algorithmuslogiken kombinieren und zuordnen.<br>Weitere Informationen finden Sie unter Kriteriensequenzen [erstellen](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) . |
+| ![Premium-Zeichen](/help/assets/premium.png) Control-Empfehlungen-Slots innerhalb von Kriteriensequenzen | Kriteriensequenzen ermöglichen es Ihnen jetzt, die Anzahl der Slots zu steuern, die von den einzelnen Empfehlungskriterien aufgenommen wurden. So können Sie verschiedene Elementtypen oder verschiedene Algorithmuslogiken kombinieren und zuordnen.<br>Weitere Informationen finden Sie unter Kriteriensequenzen [erstellen](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) . |
 
 ## Target Standard/Premium 20.8.1 (2. September 2020)
 
