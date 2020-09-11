@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Kriterien in Adobe Target Recommendations sind Regeln, die festlegen, welche Produkte basierend auf einem vordefinierten Besucher-Verhalten empfohlen werden.
+description: Kriterien in Adobe Target sind Regeln, die festlegen, welche Produkte oder Inhalte auf der Grundlage eines vordefinierten Verhaltens von Besuchern empfohlen werden.
 title: Kriterien in Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: d276693eeab095b7f2f5fad293a03ab10eb1faf6
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 69%
+source-wordcount: '1059'
+ht-degree: 53%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Kriterien
 
-Kriterien sind Regeln, die auf Basis vorab ermittelter Verhaltensweisen von Besuchern festlegen, welche Produkte empfohlen werden.
+Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. Die Kriterien können auf angesagten Trends, dem aktuellen und früheren Verhalten eines Besuchers oder auf ähnlichen Produkten und Inhalten basieren. Sie können mehrere Empfehlungstypen untereinander testen, indem Sie mehrere Kriterien verwenden.
 
-Kriterien bestimmen, welche Aktion zu welcher Empfehlung führt. Sie können mehrere Empfehlungstypen untereinander testen, indem Sie mehrere Kriterien verwenden.
+Die folgenden Abschnitte erläutern mehr über Kriterienkombinationen und die Empfehlungslogik, die Sie für jeden Schlüssel verwenden können. Klicken Sie auf die Links, um weitere Informationen anzuzeigen.
 
 ## Vertikaler Markt {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-Wählen Sie einen vertikalen Markt auf Grundlage der Ziele Ihrer Empfehlungsaktivität aus. Je nach ausgewählter Branchenstufe,
+Beim Erstellen eines Kriteriums wählen Sie eine Branche auf der Grundlage der Ziele Ihrer Recommendations-Aktivität aus.
 
 | Vertikaler Markt | Ziel |
 |--- |--- |
@@ -29,9 +29,15 @@ Wählen Sie einen vertikalen Markt auf Grundlage der Ziele Ihrer Empfehlungsakti
 | Lead-Generierung/B2B/Finanzdienstleistungen | Konversion ohne Kauf |
 | Medien/Verlagswesen | Interaktion |
 
+Andere Kriterienoptionen ändern sich je nach ausgewählter Branchenzahl. Sie können die Standardbranchenvertikale Einstellung auf der Seite **[!UICONTROL Recommendations > Einstellungen]** festlegen oder die Branche für jedes Kriterium festlegen.
+
 ## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 Der ausgewählte Empfehlungsschlüssel bestimmt den Kriterientyp. Es gibt viele Kriterientypen. Sie werden beim Einrichten einer [!DNL Recommendations]-Aktivität als Kriterienkarten dargestellt.
+
+![Kriterienseite](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+
+In der folgenden Tabelle werden die verschiedenen Kriterientypen und die zugehörigen Schlüssel erläutert. Klicken Sie auf die Links, um detaillierte Informationen zu den einzelnen Schlüsseln anzuzeigen.
 
 | Kriterientyp | Schlüssel |
 |--- |--- |
@@ -39,7 +45,7 @@ Der ausgewählte Empfehlungsschlüssel bestimmt den Kriterientyp. Es gibt viele 
 | Benutzerspezifisch | Empfohlene Artikel auf Grundlage benutzerspezifischer Attribute<ul><li>[Benutzerspezifisches Attribut ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>Wenn Sie Empfehlungen auf Grundlage von benutzerspezifischen Attributen erstellen, müssen Sie das benutzerspezifische Attribut auswählen und anschließend den Empfehlungstyp festlegen. |
 | Vergangenes Verhalten | Empfehlen Sie Artikel auf Basis früherer Reaktionen von Besuchern auf Artikel. Zum Beispiel ist die Wahrscheinlichkeit höher, dass Personen, die sich für eine bestimmte Marke entschieden haben, weitere Artikel dieser Marke kaufen.<ul><li>[Zuletzt gekaufter Artikel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[Zuletzt angezeigter Artikel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[Am häufigsten angezeigter Artikel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[Favoritenkategorie](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
 | Beliebtheit | Empfehlen Sie die beliebtesten Artikel, wie zum Beispiel die beliebtesten Videos in einer verwandten Kategorie oder Produkte, die auf Ihrer Site am häufigsten angezeigt wurden.<ul><li>[Beliebtheit](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| Vor Kurzem aufgerufene Artikel | Die Artikel empfehlen, die der Besucher vor Kurzem aufgerufen hat, wie zum Beispiel Artikel, die er oder sie sich bei seinem letzten Besuch auf Ihrer Website angesehen hat, oder Artikel, die momentan am meisten im Trend liegen.<br>Der Algorithmus „Kürzlich angezeigte Elemente“ liefert Ergebnisse, die spezifisch für die Aktivität eines Besuchers in einer [Umgebung](/help/administrating-target/hosts.md) sind. Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, gibt der Algorithmus nur die jeweiligen Elemente der entsprechenden Site zurück.<br>Dieser Kriterientyp wird nicht durch Sammlungen beschränkt.<ul><li>[Vor Kurzem aufgerufene Artikel ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)</li></ul>**Hinweis:** Sie können die Kriterien für kürzlich angesehene Elemente nicht für Backup-Recommendations verwenden.<br>„Kürzlich angezeigte Elemente/Medien“ kann so gefiltert werden, dass nur Elemente mit einem bestimmten Attribut angezeigt werden.<ul><li>Kürzlich angesehene Kriterien können analog zu anderen Kriterien in Empfehlungen konfiguriert werden.</li><li>Sie können [Sammlungen](/help/c-recommendations/c-products/collections.md), [Ausschlüsse](/help/c-recommendations/c-products/exclusions.md) und [Einschlüsse](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (einschließlich der speziellen Regeln für „Preis“ und „Bestand“) können auf die gleiche Weise wie alle anderen Kriterien genutzt werden.</li></ul>Mögliche Nutzungsszenarien:<ul><li>In einer multinationalen Firma mit mehreren Unternehmen zeigt möglicherweise ein Besucher Elemente über mehrere digitale Eigenschaften hinweg an. In diesem Fall können Sie die kürzlich angezeigten Elemente so begrenzen, dass nur die entsprechende Eigenschaft angezeigt wird, wo sie angezeigt wurden. Dadurch wird verhindert, dass kürzlich angezeigte Elemente für die Site einer anderen digitalen Eigenschaft angezeigt werden.</li></ul> |
+| [Vor Kurzem aufgerufene Artikel ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Empfehlen Sie Artikel, die ein Besucher zuletzt aufgerufen hat, z. B. Artikel, die ein Besucher beim letzten Besuch Ihrer Site angesehen hat, oder Artikel, die momentan am meisten im Trend liegen. |
 
 ## Verwenden eines benutzerdefinierten Empfehlungsschlüssels {#custom-key}
 
