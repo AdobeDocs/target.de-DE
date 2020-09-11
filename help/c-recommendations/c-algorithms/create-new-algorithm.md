@@ -5,10 +5,10 @@ title: Erstellen von Kriterien
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 67%
+source-wordcount: '2422'
+ht-degree: 66%
 
 ---
 
@@ -53,11 +53,13 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
 
    Die Beschreibung sollte Ihnen dabei helfen, die Kriterien zu identifizieren, und kann Informationen über den Zweck der Kriterien enthalten.
 
-1. Wählen Sie eine **[!UICONTROL Branche]** aus:
+1. Wählen Sie eine Branche, die auf den Zielen Ihrer Recommendations-Aktivität basiert.
 
-   * [!UICONTROL Einzelhandel/E-Commerce]
-   * [!UICONTROL Lead-Generierung/B2B/Finanzdienstleistungen]
-   * [!UICONTROL Medien/Verlagswesen]
+   | Vertikaler Markt | Ziel |
+   |--- |--- |
+   | Einzelhandel/E-Commerce | Zum Kauf führende Konversion |
+   | Lead-Generierung/B2B/Finanzdienstleistungen | Konversion ohne Kauf |
+   | Medien/Verlagswesen | Interaktion |
 
    Andere Optionen für Kriterien ändern sich auf Grundlage des vertikalen Markts, den Sie auswählen.
 
