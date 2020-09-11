@@ -5,9 +5,9 @@ title: Hochladen benutzerdefinierter Kriterien
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 66b3c42181daf582c9b3bee1f83a2229b823c5c3
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1893'
 ht-degree: 66%
 
 ---
@@ -49,11 +49,13 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
 
    Die Beschreibung sollte Ihnen dabei helfen, die Kriterien zu identifizieren, und kann Informationen über den Zweck der Kriterien enthalten.
 
-1. Wählen Sie eine **[!UICONTROL Branche]** aus:
+1. Wählen Sie eine Branche, die auf den Zielen Ihrer Recommendations-Aktivität basiert.
 
-   * [!UICONTROL Einzelhandel/E-Commerce]
-   * [!UICONTROL Lead-Generierung/B2B/Finanzdienstleistungen]
-   * [!UICONTROL Medien/Verlagswesen]
+   | Vertikaler Markt | Ziel |
+   |--- |--- |
+   | Einzelhandel/E-Commerce | Zum Kauf führende Konversion |
+   | Lead-Generierung/B2B/Finanzdienstleistungen | Konversion ohne Kauf |
+   | Medien/Verlagswesen | Interaktion |
 
    Andere Optionen für Kriterien ändern sich auf Grundlage des vertikalen Markts, den Sie auswählen.
 
