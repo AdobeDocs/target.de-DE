@@ -5,10 +5,10 @@ title: Erstellen von Kriteriensequenzen
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 43%
+source-wordcount: '1148'
+ht-degree: 44%
 
 ---
 
@@ -64,9 +64,17 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
 
    Die Beschreibung sollte Ihnen dabei helfen, die Kriteriensequenz zu identifizieren, und kann Informationen über ihren Zweck enthalten.
 
-1. Wählen Sie einen **[!UICONTROL vertikalen Markt]** aus.
+1. Wählen Sie eine Branche, die auf den Zielen Ihrer Recommendations-Aktivität basiert.
 
-   Your default [industry vertical](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) appears automatically.
+   | Vertikaler Markt | Ziel |
+   |--- |--- |
+   | Einzelhandel/E-Commerce | Zum Kauf führende Konversion |
+   | Lead-Generierung/B2B/Finanzdienstleistungen | Konversion ohne Kauf |
+   | Medien/Verlagswesen | Interaktion |
+
+   Ihr standardmäßiger vertikaler Markt wird automatisch angezeigt.
+
+   Andere Optionen für Kriterien ändern sich auf Grundlage des vertikalen Markts, den Sie auswählen.
 
 1. Wählen Sie einen **[!UICONTROL Seitentyp]** aus.
 
