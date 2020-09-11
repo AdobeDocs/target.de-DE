@@ -5,10 +5,10 @@ title: Stützen der Empfehlung auf einen Empfehlungsschlüssel
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 21c8e39669925e8fd26d7f64ea7dfe95f28795bf
+source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
 workflow-type: tm+mt
-source-wordcount: '2151'
-ht-degree: 70%
+source-wordcount: '2692'
+ht-degree: 72%
 
 ---
 
@@ -77,6 +77,23 @@ Wenn diese Option ausgewählt ist, muss der `entity.categoryId`-Wert als Paramet
 Die Empfehlung wird anhand eines Artikels ermittelt, der im Besucherprofil gespeichert ist, entweder mithilfe des Attributs user.*x* oder Profile.*x* Attribute.
 
 Wurde diese Option ausgewählt, muss der Wert `entity.id` im Profilattribut enthalten sein.
+
+Wenn Sie Empfehlungen auf Grundlage von benutzerspezifischen Attributen erstellen, müssen Sie das benutzerspezifische Attribut auswählen und anschließend den Empfehlungstyp festlegen.
+
+Zusätzlich zur Ausgabe Ihrer eigenen benutzerspezifischen Kriterien können Sie in Echtzeit filtern. So können Sie beispielsweise Ihre empfohlenen Elemente so begrenzen, dass nur die Favoritenkategorie oder -marke eines Besuchers angezeigt wird. Dadurch können Sie Offline-Berechnungen mit der Echtzeitfilterung kombinieren.
+
+This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. Dadurch lässt sich die Leistung Ihrer Datenwissenschaftler und Ihrer Datenrecherche mit der bewährten Bereitstellung, der Laufzeitfilterung, den A/B-Tests, dem Targeting, der Berichterstellung, den Integrationen und mehr von Adobe kombinieren.
+
+Wenn benutzerdefinierten Kriterien Einschlussregeln hinzugefügt werden, wandelt dies auf der Grundlage eines Besuchers andernfalls statische Empfehlungen in dynamische Empfehlungen um.
+
+* Benutzerdefinierte Kriterien können analog zu anderen Kriterien in Empfehlungen konfiguriert werden.
+* Sie können [Sammlungen](/help/c-recommendations/c-products/collections.md), [Ausschlüsse](/help/c-recommendations/c-products/exclusions.md) und [Einschlüsse](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (einschließlich der speziellen Regeln für „Preis“ und „Bestand“) können auf die gleiche Weise wie alle anderen Kriterien genutzt werden.
+
+Mögliche Nutzungsszenarien:
+
+* Sie möchten Filme aus einer benutzerdefiniert-kuratierten Liste nur dann empfehlen, wenn sie der Besucher noch nicht gesehen hat.
+* Sie möchten einen Offline-Algorithmus ausführen und die Ergebnisse verwenden, um Ihre Empfehlung zu verbessern. Dabei müssen Sie jedoch sicherstellen, dass vergriffene Artikel niemals empfohlen werden.
+* Sie möchten nur die Artikel einbeziehen, die aus der Favoritenkategorie dieses Besuchers stammen.
 
 #### Logik (Kriterien)
 
@@ -226,11 +243,15 @@ Das Kriterium „Kürzlich angezeigte Elemente“ liefert jetzt Ergebnisse spezi
 
 ## Empfehlungslogik
 
+[!DNL Target Recommendations] verwendet komplexe Algorithmen, um zu ermitteln, wann die Aktionen eines Benutzers den für Ihre Aktivität festgelegten Kriterien entsprechen. Der Empfehlungsschlüssel bestimmt die verfügbaren Optionen der Empfehlungslogik.
+
 Die folgende Empfehlungslogik (Kriterien) steht in der Dropdown-Liste [!UICONTROL Empfehlungslogik] zur Verfügung:
 
-### Elemente mit ähnlichen Attributen
+### Artikel/Medien mit ähnlichen Attributen
 
-Mithilfe der Funktion für Ähnlichkeit von Inhalten werden Artikelattribut-Schlüsselwörter verglichen und Empfehlungen basierend darauf erstellt, wie viele Schlüsselwörter die verschiedenen Artikel gemeinsam haben. Empfehlungen, die auf der Ähnlichkeit von Inhalten basieren, benötigen für herausragende Ergebnisse keine historischen Daten.
+Empfiehlt auf Grundlage von aktueller Seitenaktivität oder früherem Besucherverhalten Artikel oder Medien, die eine Ähnlichkeit zu anderen Artikeln oder Medien aufweisen.
+
+Wenn Sie Elemente/Medien mit ähnlichen Attributen auswählen, haben Sie die Möglichkeit, Regeln zur Ähnlichkeit von Inhalten festzulegen.
 
 Die Verwendung der Ähnlichkeit von Inhalten zum Generieren von Empfehlungen ist besonders wirksam für neue Artikel, die in Empfehlungen mit Personen, die dies angesehen haben, sahen dies an, und anderer Logik, die auf dem bisherigen Verhalten basiert, nicht angezeigt werden. Anhand der Ähnlichkeit von Inhalten können sinnvolle Empfehlungen für neue Benutzer erstellt werden, für die noch keine historischen Daten oder Einkäufe verzeichnet wurden.
 
@@ -245,9 +266,9 @@ Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
 ### Am häufigsten angezeigt
 
-Zeigt die am häufigsten angezeigten Elemente auf Ihrer Site an.
+Zeigt die Artikel oder Medien an, die am häufigsten auf Ihrer Site angezeigt werden.
 
-Mit dieser Logik können Sie Empfehlungen basierend auf den am häufigsten angezeigten Artikeln auf Ihrer Site anzeigen, um die Konversionen für andere Elemente zu erhöhen. Beispielsweise könnte eine Mediensite Empfehlungen für die beliebtesten Videos auf ihrer Startseite anzeigen, um Besucher zu ermutigen, sich weitere Videos anzusehen.
+Mit dieser Logik können Sie Empfehlungen basierend auf den am häufigsten angezeigten Artikeln auf Ihrer Site anzeigen, um die Konversionen für andere Elemente zu erhöhen. Beispielsweise könnte eine Mediensite Empfehlungen für die am häufigsten angezeigten Videos auf ihrer Startseite anzeigen, um Besucher dazu anzuregen, sich weitere Videos anzusehen.
 
 Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
@@ -258,9 +279,9 @@ Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
 ### Personen, die das kauften, kauften dies
 
-Zeigt Elemente an, die andere Besucher auch gekauft haben, die das ausgewählte Element gekauft haben.
+Empfiehlt Artikel, die am häufigsten von Kunden zur selben Zeit gekauft werden, wie der angegebene Artikel.
 
-Mit dieser Logik können Sie Querverkaufsmöglichkeiten erhöhen, indem Sie beispielsweise eine Empfehlung auf einer Zusammenfassungsseite des Einkaufswagens anzeigen, die Artikel anzeigt, die andere Käufer ebenfalls gekauft haben. Wenn der Besucher beispielsweise einen Anzug kauft, werden in der Empfehlung möglicherweise weitere Artikel angezeigt, die von anderen Besuchern gekauft wurden, z. B. Krawatten, Kleiderschuhe und Gurtbänder. Wenn Besucher ihre Käufe überprüfen, geben Sie ihnen zusätzliche Kaufempfehlungen.
+Mit dieser Logik können Sie Querverkaufsmöglichkeiten erhöhen, indem Sie beispielsweise eine Empfehlung auf einer Zusammenfassungsseite des Einkaufswagens anzeigen, die Artikel anzeigt, die andere Käufer ebenfalls gekauft haben. Wenn der Besucher z. B. einen Anzug kauft, könnte die Empfehlung weitere Artikel anzeigen, die andere Besucher zusammen mit dem Anzug gekauft haben, z. B. Krawatten, Kleiderschuhe und Gurtbänder. Wenn Besucher ihre Käufe überprüfen, geben Sie ihnen zusätzliche Empfehlungen.
 
 Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
@@ -272,9 +293,9 @@ Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
 ### Personen, die das ansahen, kauften dies
 
-Zeigt weitere Artikel an, die von Besuchern gekauft wurden, die das ausgewählte Element angezeigt haben.
+Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird. Dieses Kriterium gibt andere Produkte zurück, die Personen nach dem Ansehen dieses Artikels gekauft haben. Das angegebene Produkt ist nicht in der Ergebnismenge enthalten.
 
-Mit dieser Logik können Sie Querverkaufsmöglichkeiten erhöhen, indem Sie z. B. eine Empfehlung auf einer Produktseite anzeigen, die Artikel anzeigt, die andere Besucher gekauft haben. Wenn der Besucher z. B. einen Angelpunkt anzeigt, könnte die Empfehlung weitere Artikel anzeigen, die andere Besucher den gekauften Artikel ansehen, z. B. Kästen, Geflügel und Fischköpfe. Wenn Besucher Ihre Site durchsuchen, geben Sie ihnen zusätzliche Kaufempfehlungen.
+Mit dieser Logik können Sie Querverkaufsmöglichkeiten erhöhen, indem Sie z. B. eine Empfehlung auf einer Produktseite anzeigen, die Artikel anzeigt, die andere Besucher gekauft haben. Wenn der Besucher z. B. einen Angelpol anzeigt, könnte die Empfehlung weitere Artikel anzeigen, die andere Besucher gekauft haben, wie z. B. Angelschachteln, Geflügel und Fischköpfe. Wenn Besucher Ihre Site durchsuchen, geben Sie ihnen zusätzliche Kaufempfehlungen.
 
 Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
@@ -286,9 +307,9 @@ Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
 ### Personen, die das ansahen, sahen auch dies an
 
-Zeigt Elemente an, die andere Besucher auch angesehen haben, die das ausgewählte Element angezeigt haben.
+Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird.
 
-Mit dieser Logik können Sie zusätzliche Konvertierungsmöglichkeiten erstellen, indem Sie Artikel empfehlen, die andere Besucher, die einen Artikel angesehen haben, ebenfalls angesehen haben. Besucher, die beispielsweise Fahrräder auf Ihrer Site Ansicht haben, können sich auch Fahrradhelme, Fahrradsätze, Schlösser usw. ansehen. Sie können eine Empfehlung mit dieser Logik erstellen, die andere Produkte vorschlägt.
+Mit dieser Logik können Sie zusätzliche Konvertierungsmöglichkeiten erstellen, indem Sie Artikel empfehlen, die andere Besucher, die einen Artikel angesehen haben, ebenfalls angesehen haben. Besucher, die beispielsweise Fahrräder auf Ihrer Site Ansicht haben, können sich auch Fahrradhelme, Fahrradsätze, Schlösser usw. ansehen. Sie können eine Empfehlung mit dieser Logik erstellen, die andere Produkte vorschlägt, um den Umsatz zu steigern.
 
 Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
@@ -300,9 +321,11 @@ Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
 ### Site-Affinität
 
-Zeigt Artikel an, die einen proprietären Algorithmus verwenden, um anhand von Kriterien andere Artikel zu empfehlen, wie z. B. Ansichten der Produktseite, Käufe und Aktivitäten des Einkaufswagens (Hinzufügen oder Entfernen von Artikeln, Anzeigen des Einkaufswagens usw.)
+Empfiehlt Artikel auf Grundlage der Wahrscheinlichkeit eines Zusammenhangs zwischen Artikeln. Sie können dieses Kriterium anhand des Reglers „Einschlussregeln“ konfigurieren und festlegen, wie viele Daten gesammelt werden sollen, bevor eine Empfehlung angezeigt wird. Wenn Sie zum Beispiel Sehr stark auswählen, werden nur Produkte mit der höchsten Wahrscheinlichkeit einer Übereinstimmung empfohlen.
 
-Beispielsweise kann ein Online-Händler Artikel empfehlen, die ein Besucher während vergangener Sitzungen bei nachfolgenden Besuchen als interessant eingestuft hat. Die Aktivität für die Sitzung jedes Besuchers wird erfasst, um eine Affinität anhand eines Neuigkeits- und Häufigkeitsmodells zu berechnen. Wenn dieser Besucher zu Ihrer Site zurückkehrt, wird die Site-Affinität verwendet, um Empfehlungen anzuzeigen, die auf früheren Aktionen auf Ihrer Site basieren.
+Beispiel: Sie legen eine sehr starke Affinität fest und Ihr Entwurf umfasst fünf Artikel, von denen drei den Schwellenwert für einen wahrscheinlichen Zusammenhang übersteigen. Die zwei Artikel, die die Voraussetzung nicht erfüllen, werden nicht in Ihren Empfehlungen angezeigt und durch von Ihnen definierte Ersatzartikel ausgetauscht. Die Artikel mit der stärksten Affinität werden zuerst angezeigt.
+
+Beispielsweise kann ein Online-Händler Artikel bei nachfolgenden Besuchen empfehlen, an denen ein Besucher während vergangener Sitzungen Interesse gezeigt hat. Die Aktivität für die Sitzung jedes Besuchers wird erfasst, um eine Affinität basierend auf einem Neuigkeits- und Häufigkeitsmodell zu berechnen. Wenn dieser Besucher zu Ihrer Site zurückkehrt, wird die Site-Affinität verwendet, um Empfehlungen anzuzeigen, die auf früheren Aktionen auf Ihrer Site basieren.
 
 Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
@@ -313,11 +336,31 @@ Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
 ### Topverkäufe
 
-Zeigt die Artikel mit den meisten Verkäufen auf Ihrer Site an, die auf den Konversionen der Besucher basieren.
+Zeigt die Artikel an, die in den am häufigsten abgeschlossenen Bestellungen enthalten sind. Wenn derselbe Artikel in einer Bestellung mehrmals bestellt wurde, zählt dies als eine Bestellung.
 
-Mit dieser Logik können Sie Empfehlungen für beliebte Artikel auf Ihrer Site erstellen, um die Umrechnung zu erhöhen. Diese Logik eignet sich besonders für erstmalige Besucher Ihrer Site.
+Mit dieser Logik können Sie Empfehlungen für Artikel mit Top-Verkaufs auf Ihrer Site erstellen, um die Umrechnung und den Umsatz zu steigern. Diese Logik eignet sich besonders für erstmalige Besucher Ihrer Site.
 
 Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
 * Favoritenkategorie
 * Beliebtheit
+
+### Benutzerbasiertes Recommendations
+
+Empfiehlt Artikel basierend auf dem Browsen, Anzeigen und Kaufverlauf jedes Besuchers. Diese Elemente werden allgemein als &quot;Empfohlen für Sie&quot;bezeichnet.
+
+Mithilfe dieser Kriterien können Sie personalisierte Inhalte und Erlebnisse sowohl für neue als auch für wiederkehrende Besucher bereitstellen. Die Liste der Empfehlungen wird mit der neuesten Aktivität des Besuchers gewichtet und während der Sitzung aktualisiert und personalisiert, während der Benutzer Ihre Site besucht.
+
+Sowohl Ansichten als auch Einkäufe werden zur Bestimmung der empfohlenen Artikel verwendet. Der angegebene Empfehlungsschlüssel (z. B. &quot;Aktuelles Element&quot;) wird verwendet, um die von Ihnen gewählten Einschlussregel-Filter anzuwenden.
+
+Sie können zum Beispiel:
+
+* Ausschließen von Artikeln, die bestimmte Kriterien nicht erfüllen (Produkte nicht vorrätig, Artikel, die vor mehr als 30 Tagen veröffentlicht wurden, Filme mit R usw.).
+* Begrenzen Sie die eingeschlossenen Elemente auf eine einzige Kategorie oder auf die aktuelle Kategorie.
+
+Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
+
+* Aktueller Artikel
+* Zuletzt gekaufter Artikel
+* Zuletzt angezeigter Artikel
+* Am häufigsten angezeigter Artikel
