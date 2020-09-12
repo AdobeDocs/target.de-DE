@@ -5,7 +5,7 @@ title: Hochladen benutzerdefinierter Kriterien
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 63%
@@ -39,7 +39,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
 
 1. (Bedingt) Füllen Sie die Informationen im Abschnitt [Einschlussregeln](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) aus.
 
-1. (Bedingte Füllung der Informationen im Abschnitt [Attributgewichtung](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) .
+1. (Bedingt) Füllen Sie die Informationen im Abschnitt [Attributgewichtung](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) aus.
 
 1. Wählen Sie im Abschnitt **[!UICONTROL CSV]** hochladen den **[!UICONTROL Speicherort]** der CSV-Datei aus.
 
