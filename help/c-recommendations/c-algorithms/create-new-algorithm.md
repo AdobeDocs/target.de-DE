@@ -5,7 +5,7 @@ title: Erstellen von Kriterien
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -81,7 +81,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-## Datenquelle
+## Datenquelle {#data-source}
 
 1. Legen Sie den **[!UICONTROL Datumsbereich]** fest, um den Zeitraum der verfügbaren historischen Benutzerverhaltensdaten festzulegen, die bei der Bestimmung der anzuzeigenden Empfehlungen verwendet werden.
 
@@ -224,7 +224,7 @@ Führen Sie zum Erstellen einer einfachen Einschlussregel die folgenden Schritte
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-## Attributgewichtung
+## Attributgewichtung {#weighting}
 
 Sie können mehrere Regeln hinzufügen, um den Algorithmus basierend auf wichtigen Informationen oder Metadaten zum Inhaltskatalog zu &quot;verschieben&quot;, sodass bestimmte Elemente mit höherer Wahrscheinlichkeit angezeigt werden.
 
