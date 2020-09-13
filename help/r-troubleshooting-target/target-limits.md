@@ -6,10 +6,10 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 77%
+source-wordcount: '1021'
+ht-degree: 76%
 
 ---
 
@@ -72,7 +72,9 @@ Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden kö
 
 ## Benutzerdefinierte Entitätsattribute
 
-**Limit**: Die maximale Länge hängt von der Sprache ab.
+Sie können bis zu 100 benutzerdefinierte Entitätsattribute einbeziehen
+
+**Maximal**: Die maximale Zeichenlänge hängt von der Sprache ab.
 
 * 15.000 Zeichen (Einzelwert, Ein- und Zwei-Byte-Sprachen)
 * 500 Werte, 100 Zeichen pro Wert (mehrere Werte)
