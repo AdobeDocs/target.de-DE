@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 5074b7016db7baaa6b673e99ce510a44006064ef
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 19%
 
 ---
@@ -76,10 +76,10 @@ Die Adobe Target-zu-Adobe Analytics-Integration, die als [Analytics for Zielgrup
 
 Diese Integration ermöglicht Ihnen Folgendes:
 
-* Verwenden Sie die Multi-Armed Bandit-Funktion der [automatischen Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), um Traffic zu erfolgreichsten Erlebnissen zu verhelfen.
-* Verwenden Sie den [maschinellen Lernalgorithmus &quot;Automatisch Zielgruppe](/help/c-activities/auto-target-to-optimize.md)&quot;zur Auswahl eines optimalen Erlebnisses für jeden Besucher anhand seines Profils, seines Verhaltens und seines Kontextes.
+* Verwenden Sie die Multi-Armed Bandit-Funktion der [automatischen Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), um Traffic zu erfolgreichsten Erlebnissen zu fördern
+* Verwenden Sie den Algorithmus zum Lernen von [Automatisch Zielgruppe](/help/c-activities/auto-target-to-optimize.md)Ensemble-Maschinen, um basierend auf Profil, Verhalten und Kontext für jeden Besucher ein optimales Erlebnis auszuwählen.
 
-Alle während Sie eine [!DNL Adobe Analytics] Zielmetrik und [!DNL Adobe Analytics]die Rich-Berichte- und Analyse-Funktionen verwenden.
+alle während Sie eine [!DNL Adobe Analytics] Zielmetrik und [!DNL Adobe Analytics]die Rich-Berichte- und Analyse-Funktionen verwenden.
 
 Wenn Sie A4T bereits für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten [](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)implementiert haben, ist kein zusätzliches Setup erforderlich, damit Sie loslegen können!
 
@@ -100,6 +100,8 @@ Erster Schritt:
 1. Speichern und aktivieren Sie Ihre Aktivität.
 
    [!UICONTROL Die automatisierte Zuordnung] verwendet Ihre ausgewählte Metrik zur Optimierung der Aktivität und bringt Besucher zum Erlebnis, das Ihre Zielmetrik maximiert.
+
+   Oder
 
    [!UICONTROL Die automatische Zielgruppe] verwendet Ihre ausgewählte Metrik, um die Aktivität zu optimieren, wodurch Besucher zu einem personalisierten besten Erlebnis werden.
 
@@ -128,11 +130,11 @@ Die folgenden Metriktypen werden nicht als primäre Zielmetriken unterstützt:
 
 ### Einschränkungen und Hinweise
 
-* Die Berichte-Quelle kann nicht von [!DNL Analytics] zu [!DNL Target] oder umgekehrt geändert werden, sobald eine Aktivität aktiviert wurde.
+* Die Quelldatei des Berichte kann nach der Aktivierung einer Aktivität nicht mehr von [!DNL Analytics] zu [!DNL Target] bzw. umgekehrt geändert werden.
 * Obwohl errechnete Metriken nicht als primäre Zielmetriken unterstützt werden, ist es oft möglich, das angestrebte Ergebnis zu erzielen, indem Sie stattdessen ein benutzerdefiniertes Ereignis als primäre Zielmetrik auswählen. Wenn Sie z. B. eine Metrik wie &quot;Formularabschlüsse pro Besucher&quot;optimieren möchten, wählen Sie ein benutzerdefiniertes Ereignis, das &quot;Formularabschlüsse&quot;als primäre Zielmetrik entspricht. [!DNL Target] normalisiert Konversionsmetriken automatisch pro Besuch, um eine ungleiche Traffic-Verteilung zu berücksichtigen. Daher ist es nicht erforderlich, eine berechnete Metrik für die Normalisierung zu verwenden.
 * [!DNL Target] verwendet das Zuordnungsmodell &quot;Gleich Touch&quot;in der A4T-Implementierung für die [!UICONTROL automatische Zuordnung] .
 * [!UICONTROL Automatisch zugewiesene] Modelle werden wie gewohnt alle zwei Stunden trainiert.
-* [!UICONTROL Die Auto-Zielgruppe] trainiert wie gewohnt alle 24 Stunden. Konversionsdaten aus dem Ereignis [!DNL Analytics] werden jedoch um weitere sechs bis 24 Stunden verzögert. Dies bedeutet, dass die Verteilung des Traffics durch [!DNL Target] wird die neuesten Ereignis aufgezeichnet in [!DNL Adobe Analytics]. Dies wird die größte Wirkung in den ersten 48 Stunden nach dem ersten Aktivieren einer Aktivität haben. Die Performance der Aktivität spiegelt das [!DNL Adobe Analytics] Konversionsverhalten nach Ablauf von fünf Tagen stärker wider. Sie sollten die Verwendung der [!UICONTROL automatischen Zuordnung] anstelle der [!UICONTROL automatischen Zielgruppe] für Aktivitäten mit kurzer Dauer in Erwägung ziehen, bei denen der meisten Traffic innerhalb der ersten fünf Lebensjahre der Aktivität auftritt.
+* [!UICONTROL Die Auto-Zielgruppe] trainiert wie gewohnt alle 24 Stunden. Konversionsdaten aus dem Ereignis [!DNL Analytics] werden jedoch um weitere sechs bis 24 Stunden verzögert. Diese Verzögerung bedeutet, dass die Verteilung des Traffics durch [!DNL Target] wird die neuesten Ereignis aufgezeichnet in [!DNL Analytics]. Dies wird die größte Wirkung in den ersten 48 Stunden nach dem ersten Aktivieren einer Aktivität haben. Die Performance der Aktivität spiegelt das [!DNL Analytics] Konversionsverhalten nach Ablauf von fünf Tagen stärker wider. Sie sollten die Verwendung der [!UICONTROL automatischen Zuordnung] anstelle der [!UICONTROL automatischen Zielgruppe] für Aktivitäten mit kurzer Dauer in Erwägung ziehen, bei denen der meisten Traffic innerhalb der ersten fünf Lebensjahre der Aktivität auftritt.
 * Bei Verwendung [!DNL Analytics] als Datenquelle für eine [!UICONTROL Auto-Zielgruppe] -Aktivität werden Sitzungen nach Ablauf von sechs Stunden als beendet betrachtet. Konversionen, die nach sechs Stunden auftreten, werden nicht gezählt.
 
 Weitere Informationen finden Sie unter [Zuordnungsmodelle und Lookback-Fenster](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) im Handbuch *Analytics-Tools*.
