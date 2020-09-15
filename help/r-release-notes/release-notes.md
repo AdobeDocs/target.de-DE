@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 25%
+source-wordcount: '1185'
+ht-degree: 24%
 
 ---
 
@@ -32,10 +32,16 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
    Indem wir alle Kunden zu at.js verschieben, können unsere Ingenieure und Support-Mitarbeiter Ihnen neue Funktionen und Angebote anbieten, die Sie von der Adobe erwarten.
    >
    >
-* **Mitteilungen** zur Zielgruppe: Auf der Seite mit den Ankündigungen zur Zielgruppe finden Sie Informationen zu den kommenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinars und Zielgruppe Coffee Break-Sitzungen. Weitere Informationen finden Sie unter [Ankündigungen](/help/r-release-notes/target-announcements.md)der Zielgruppe.
+* **Mitteilungen** zur Zielgruppe: Auf der Seite &quot;Ankündigungen&quot;der Zielgruppe finden Sie Informationen zu den bevorstehenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinars und Zielgruppe Coffee Break-Sitzungen. Weitere Informationen finden Sie unter [Ankündigungen](/help/r-release-notes/target-announcements.md)der Zielgruppe.
 
 
 Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+
+## Target Standard/Premium 20.8.3 (15. September 2020)
+
+| Funktion | Details |
+| --- | --- |
+| ![Premium-Badge](/help/assets/premium.png) Analytics for Zielgruppe (A4T)-Unterstützung für Aktivitäten mit automatischer Zielgruppe | [!UICONTROL Aktivitäten der automatischen Zielgruppe] unterstützen jetzt [Analytics für die Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Diese Integration ermöglicht es Ihnen, mithilfe des [!UICONTROL Automatisch Zielgruppe] Lernalgorithmus ein optimales Erlebnis für jeden Besucher anhand seines Profils, seines Verhaltens und seines Kontexts zu wählen.<br>Wenn Sie bereits A4T [für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) implementiert haben, sind Sie alle bereit!<br>Weitere Informationen finden Sie unter [Analytics for Zielgruppe (A4T)-Unterstützung für Aktivitäten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) zur automatischen Zuordnung und automatischen Zielgruppe bei der Erstellung von *Aktivitäten*. |
 
 ## Target Standard/Premium 20.8.2 (10. September 2020)
 
