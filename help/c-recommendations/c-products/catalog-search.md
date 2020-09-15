@@ -5,9 +5,9 @@ title: Katalogsuche in Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 71a8e2a1a542f8a2ce4eb287efa6caa2d49847e9
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '950'
 ht-degree: 21%
 
 ---
@@ -70,7 +70,7 @@ Sie können eine einfache oder eine erweiterte Suche verwenden, um Elemente in I
 
 Mit der [!UICONTROL erweiterten Suche] können Sie Ihre Suchergebnisse weiter verfeinern oder Ihre Suchergebnisse als [Sammlung](/help/c-recommendations/c-products/collections.md) oder [Ausschluss](/help/c-recommendations/c-products/exclusions.md)speichern.
 
-1. Klicken Sie auf die **[!UICONTROL erweiterte Suche]**.
+1. Klicken Sie auf den Link **[!UICONTROL Erweiterte Suche]** .
 
    ![Erweiterte Suchseite](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -108,7 +108,7 @@ Alle Informationen zu diesem Element werden aus dem Katalogindex entfernt. Das E
 
 ## Katalog aktualisieren
 
-Der Index Ihres Katalogs wird automatisch erstellt, wenn Sie den ersten Feed hochladen, und gemäß dem festgelegten Zeitplan aktualisiert.
+Der Index Ihres Katalogs wird beim Hochladen des ersten Feeds automatisch erstellt und gemäß dem [festgelegten Zeitplan](/help/c-recommendations/c-products/feeds.md#steps)aktualisiert.
 
 Der Katalog wird automatisch aktualisiert, wenn Updates über Feed-Dateien, API- oder Mbox-Updates empfangen werden. Aktualisierungen sind normalerweise in einer Stunde abgeschlossen. Wenn Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet wurde. Wenn keine Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet und abgeschlossen wurde.
 
@@ -118,7 +118,7 @@ Sie können [Sammlungen](/help/c-recommendations/c-products/collections.md) oder
 
 1. Durchführen einer [erweiterten Suche](#advanced-search).
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Speichern unter]** und dann auf **[!UICONTROL Sammlung]** oder **[!UICONTROL Ausschluss]**.
+1. Klicken Sie auf **[!UICONTROL Speichern unter]** und dann auf **[!UICONTROL Sammlung]** oder **[!UICONTROL Ausschluss]**.
 
    ![Als Optionen speichern](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -150,6 +150,8 @@ Sie können der Seite &quot; [!UICONTROL Katalogsuche] &quot;weitere Filterfacet
 
 1. Wählen Sie die gewünschten Suchfelder aus (ID, Name, Nachricht usw.).
 
+   ![hinzufügen Filter](/help/c-recommendations/c-products/assets/add-filters.png)
+
 Beachten Sie, dass die zusätzlichen Filter-Facetten nur in der aktuellen Sitzung verfügbar sind.
 
 ### Spalten ändern
@@ -166,4 +168,4 @@ Sie können die aktiven Spalten auf der Seite &quot; [!UICONTROL Katalogsuche] &
 
    Sie können auch auf das Löschen-Symbol ( x) neben der Spalte klicken, die Sie vom aktiven zum inaktiven Abschnitt verschieben möchten.
 
-Denken Sie daran, dass die Änderungen, die Sie vornehmen, nur für die aktuelle Sitzung gelten.
+Denken Sie daran, dass alle Änderungen, die Sie vornehmen, nur für die aktuelle Sitzung gelten.
