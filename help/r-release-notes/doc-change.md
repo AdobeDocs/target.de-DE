@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 30%
+source-wordcount: '2275'
+ht-degree: 29%
 
 ---
 
@@ -22,6 +22,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 15. September | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version 20.8.3 von Target Standard/Premium hinzugefügt, die auch die Unterstützung von Analytics für die Zielgruppe (A4T) für Aktivitäten der automatischen Zielgruppe umfasst. In einer früheren Version wurde Unterstützung für Aktivitäten mit automatisierter Zuordnung hinzugefügt. |
+|  | [Unterstützung von Analytics für Zielgruppe (A4T) für Aktivitäten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)mit automatisierter Zuordnung und automatischer Zielgruppe. | Es wurden Informationen zur A4T-Unterstützung in Aktivitäten zur automatischen Zielgruppe hinzugefügt. |
+|  | [Lesezeichenliste für Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Text wurde aktualisiert, um anzugeben, dass die Methode, sich manuell aus dem QS-Modus zu drängen, indem eine Seite mit dem `at_preview_token` Parameter mit einem leeren Wert geladen wird, für at.js 1 gilt.*x*, zur Verfügung. |
+|  | [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md) | Das ganze Thema wurde aktualisiert. |
 | 10. September | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version Target Standard/Premium 20.9.2 hinzugefügt, die die folgende neue Funktion enthält: Steuern Sie die Slots von Empfehlungen innerhalb von Kriteriensequenzen. |
 |  | [Erstellen von Kriteriensequenzen](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Es wurden Informationen zur Funktion &quot;Die Anzahl der zurückgegebenen Elemente begrenzen&quot;hinzugefügt. |
 | September 9 | [Lesezeichenliste für Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | JavaScript-Code zur Verwendung mit at.js 2 hinzugefügt.*x*. |
@@ -100,7 +104,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Hinweise für die Version [!DNL Target Standard/Premium] 20.5.1 (17. Juni 2020) wurden aktualisiert und enthalten nun Informationen zur Unterstützung von A4T in [!DNL Analysis Workspace]. |
 | 12. Juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Informationen zur Einstellung `deviceIdLifetime` wurden hinzugefügt. |
 |  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zu den Versionen at.js 1.8.2 und at.js 2.3.1 hinzugefügt. |
-| Juni 8 | [Häufig gestellte Fragen zur Zielgruppe von Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Text für folgende häufig gestellte Fragen aktualisiert: &quot;Ist Zielgruppe Mobile nur eine Funktion der Adobe Target Premium-Produkt-SKU?&quot; |
+| Juni 8 | [Häufig gestellte Fragen zur Zielgruppe von mobilen Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Text für folgende häufig gestellte Fragen aktualisiert: &quot;Ist Zielgruppe Mobile nur eine Funktion der Adobe Target Premium-Produkt-SKU?&quot; |
 |  | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Das ganze Thema wurde aktualisiert. |
 | Juni 5 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur Adobe Target-Kaffeepause vom 10. Juni hinzugefügt. |
 |  | [Steigerung und Konfidenz – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Text für folgende häufig gestellte Fragen aktualisiert: &quot;Warum kann ich Steigerung und Konfidenz bei berechneten Metriken nicht sehen?&quot; |
