@@ -5,21 +5,27 @@ title: Ausschlüsse in Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
+source-git-commit: 28e97c03e21df246e208588d507d4af8d3695283
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 55%
+source-wordcount: '597'
+ht-degree: 45%
 
 ---
 
 
 # Ausnahmen{#exclusions}
 
-Erstellen Sie einen Ausschluss in, [!DNL Adobe Target Recommendations] um zu verhindern, dass Produkte oder Inhalte für Besucher empfohlen werden.
+Erstellen Sie einen Ausschluss in, [!DNL Adobe Target Recommendations] um zu verhindern, dass Produkte oder Inhalte für Besucher empfohlen werden. Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die den Besuchern nicht empfohlen werden sollten.
 
-Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die den Besuchern nicht empfohlen werden sollten. Beispielsweise können Sie Ausschlüsse verwenden, um zu verhindern, dass Produkte oder Inhalte in Empfehlungen angezeigt werden, die eingestellt wurden oder sensibel sind (z. B. Filme mit einer Bewertung, die aufgrund von Inhaltsbewertungen nicht für alle geeignet ist).
+Ausnahmen sind für das gesamte Konto verfügbar. Im Gegensatz zu Sammlungen, bei denen Sie bei der Erstellung einer [!UICONTROL Recommendations] -Aktivität für jedes Erlebnis eine bestimmte Sammlung angeben, gelten die Ausnahmen für alle Aktivitäten im Konto. Es gibt keine Option, während der Erstellung der Aktivität eine Ausschlussgruppe zuzuweisen.
 
-Ausnahmen sind für das gesamte Konto verfügbar.
+Einige Beispiele für die Verwendung von Ausnahmen:
+
+* Produkte, die eingestellt wurden
+* Der Herbst/Winter Katalog ist jetzt der einzige Katalog, der online verfügbar sein sollte. Artikel aus dem Sommerkatalog stehen nicht mehr zum Kauf zur Verfügung.
+* Artikel, die auf den meisten Seiten/Bildschirmen nicht empfohlen werden können (Produkte für Erwachsene, NC-17-Filme usw.)
+* Produkte mit unvollständigen Metadatenfeldern (fehlende Miniaturansicht, Preis oder andere wichtige Metadaten)
+* Produkte, die nie empfohlen werden sollten (im System gibt es möglicherweise eine SKU für etwas, aber es ist kein Artikel, oder es ist vielleicht eine falsche SKU für das QA-Team, einen Kauf zu simulieren, ohne tatsächlich etwas zu bestellen usw.)
 
 >[!IMPORTANT]
 >
