@@ -5,21 +5,21 @@ title: Sammlungen in Adobe Target
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 99%
+source-wordcount: '769'
+ht-degree: 69%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Sammlungen {#collections}
 
-Eine Sammlung ist ein Satz von Produkten oder Artikeln, die für die Empfehlung infrage kommen.
+Eine Sammlung ist ein Satz von Produkten oder Artikeln, die für die Empfehlung infrage kommen. Eine Sammlung wird definiert, indem die Bedingungen angegeben werden, die von Elementen erfüllt werden müssen, die Teil der Sammlung sein müssen.
 
-Im Allgemeinen ist eine Sammlung ein Satz von ähnlichen oder verwandten Artikeln, wie zum Beispiel eine Sammlung eines einzigen Produkts. Sie können jedoch beliebige Artikel in einer Kategorie gruppieren, wenn dies für Ihr Geschäft sinnvoll ist, wie zum Beispiel Produkte in einer bestimmten Preisspanne bzw. mit einer bestimmten Farbe, oder Artikel, die wahrscheinlich in einer bestimmten geografischen Region interessant sind.
+Im Allgemeinen ist eine Sammlung ein Satz von ähnlichen oder verwandten Artikeln, wie zum Beispiel eine Sammlung eines einzigen Produkts. Sie können jedoch alle Artikel in einer für Ihr Unternehmen sinnvollen Kategorie gruppieren, z. B. Produkte in einem bestimmten Preisbereich oder in einer bestimmten Farbe oder Artikel, die in einem bestimmten geografischen Gebiet wahrscheinlich interessant sind.
 
-Verwenden Sie Sammlungen, um Ihre Produkte in logischen Behältern zu organisieren. Wenn zum Beispiel einige Artikel in einer Region verfügbar sind, in einer anderen jedoch nicht, sollten Sie eventuell eine Sammlung erstellen, die die Artikel weglässt, die für Besucher in der Region nicht verfügbar sind. Sie können Sammlungen auch verwenden, um Saisonartikel oder beliebige andere organisatorische Parameter, die für Ihr Geschäft relevant sind, zu organisieren.
+Verwenden Sie Sammlungen, um Ihre Produkte in logischen Behältern zu organisieren. Wenn zum Beispiel einige Elemente in einem Bereich, aber nicht in einem anderen verfügbar sind, können Sie eine Sammlung erstellen, die Elemente ausschließt, die im Bereich des Besuchers nicht verfügbar sind. Sie können Sammlungen auch verwenden, um Saisonartikel oder beliebige andere organisatorische Parameter, die für Ihr Geschäft relevant sind, zu organisieren.
 
 Die für jedes Kriterium innerhalb der Empfehlung erzeugte [Reserveempfehlung](/help/c-recommendations/c-algorithms/backup-recs.md) verwendet ebenfalls die Sammlung, sodass nur Artikel aus der Sammlung in die Reserveempfehlung aufgenommen werden. Mit Sammlungen können Sie sicherstellen, dass nur Produkte an einem Ort angezeigt werden, für die dies Sinn macht.
 
@@ -37,11 +37,15 @@ Wenn Sie eine [!DNL Recommendations]-Aktivität erstellen oder bearbeiten, ersch
 
 ## Sammlung erstellen {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
-Erstellen Sie eine Sammlung, um die Produkte zu organisieren, die Sie in Ihren Empfehlungen anzeigen möchten.
+Erstellen Sie eine Sammlung, um die Produkte oder Inhalte zu organisieren, die Sie in Ihren Empfehlungen anzeigen möchten.
 
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Sammlungen]**, um die Liste vorhandener Sammlungen anzuzeigen.
 
    ![Sammlungsliste](assets/collections_list.png)
+
+   Auf der Seite &quot; [!UICONTROL Sammlungen] &quot;wird eine Liste der vorhandenen Sammlungen angezeigt. Neue Sammlungen erstellen Sie, indem Sie auf die Schaltfläche &quot;Sammlung [!UICONTROL erstellen&quot;klicken] . Sie können vorhandene Sammlungen auch bearbeiten, kopieren und löschen, indem Sie den Mauszeiger über die gewünschte Sammlung bewegen und auf das gewünschte Symbol klicken.
+
+   ![Mauszeiger-Symbole: bearbeiten, kopieren und löschen](/help/c-recommendations/c-products/assets/hover-icons.png)
 
    Die für jede Sammlung in der [!UICONTROL Sammlungslistenansicht] gemeldete „Anzahl an Elementen“ ist die Anzahl der Produkte, die mit den Regeln für diese Sammlung in der konfigurierten Standard-Umgebungs-[Hostgruppe](/help/administrating-target/hosts.md) (Umgebung) übereinstimmen. Siehe [Einstellungen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) zum Ändern der Standardhostgruppe.
 
@@ -59,15 +63,15 @@ Erstellen Sie eine Sammlung, um die Produkte zu organisieren, die Sie in Ihren E
 
    Ihre Sammlung kann beispielsweise auf einer Produkt-ID oder Kategorie, Marge oder einem anderen Parameter in der Liste basieren.
 
-   Sie können Regeln hinzufügen, um eine Sammlung durch mehrere Parameter zu definieren. Mehrere Regeln werden mit UND verknüpft. Alle angegebenen Regeln müssen eingehalten werden, damit die Sammlung angewendet wird.
+   Sie können Regeln hinzufügen, um eine Sammlung durch mehrere Parameter zu definieren. Mehrere Regeln werden mit einem UND-Operator verknüpft. Alle angegebenen Regeln müssen eingehalten werden, damit die Sammlung angewendet wird.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Erstellen einer Sammlung mit der erweiterten Suche
 
-Sie können Sammlungen auch über „Erweiterte Suche“ auf der Seite [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md) erstellen ([!UICONTROL Empfehlungen] > [!UICONTROL Katalogsuche] > [!UICONTROL Erweiterte Suche]).
+Sie können Sammlungen auch über „Erweiterte Suche“ auf der Seite [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md#save-as) erstellen ([!UICONTROL Empfehlungen] > [!UICONTROL Katalogsuche] > [!UICONTROL Erweiterte Suche]).
 
-![Speichern unter, Dialogfeld](/help/c-recommendations/c-products/assets/save-as-dialog.png)
+![Speichern unter, Dialogfeld](/help/c-recommendations/c-products/assets/save-as.png)
 
 Nachdem Sie eine Suche mit &quot;id > contains&quot; erstellt haben, können Sie z. B. auf [!UICONTROL Speichern unter] > [!UICONTROL Sammlung] klicken.
 
@@ -75,7 +79,19 @@ Nachdem Sie eine Suche mit &quot;id > contains&quot; erstellt haben, können Sie
 >
 >Bei der Funktion „Erweiterte Suche“ wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die zum Zeitpunkt der Auslieferung zurückgegebenen Produkte basieren jedoch auf der Suche mit Unterscheidung zwischen Groß- und Kleinschreibung. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Kollektionen auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Katalog mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszugeben, werden nur Produkte mit dem Zusatz „urlaub“ ausgegeben. Produkte, die „Urlaub“ enthalten, werden nicht angezeigt.
 
-## Schulungsvideo: Sammlungen und Ausschlüsse in Recommendations erstellen (07:05) ![Tutorial badge](/help/assets/tutorial.png)
+## Verwenden einer Sammlung in einer Recommendations-Aktivität
+
+1. Erstellen Sie eine Sammlung mit einer der oben genannten Methoden.
+
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und [erstellen Sie eine neue Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) -Aktivität oder bearbeiten Sie eine vorhandene Aktivität.
+
+1. Klicken Sie auf der Seite &quot; **[!UICONTROL Erlebnisse]** &quot;(Schritt 2 des geleiteten dreiteiligen Arbeitsablaufs) auf eine Stelle, an der Sie Empfehlungen platziert haben, und klicken Sie dann auf Sammlung **[!UICONTROL ändern]**.
+
+   ![Sammlungsoption ändern](/help/c-recommendations/c-products/assets/change-collection.png)
+
+1. Wählen Sie auf der Seite **[!UICONTROL Hinzufügen Sammlung]** die gewünschte Sammlung aus.
+
+## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
