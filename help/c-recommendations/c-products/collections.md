@@ -5,10 +5,10 @@ title: Sammlungen in Adobe Target
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 69%
+source-wordcount: '868'
+ht-degree: 61%
 
 ---
 
@@ -79,17 +79,29 @@ Nachdem Sie eine Suche mit &quot;id > contains&quot; erstellt haben, können Sie
 >
 >Bei der Funktion „Erweiterte Suche“ wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die zum Zeitpunkt der Auslieferung zurückgegebenen Produkte basieren jedoch auf der Suche mit Unterscheidung zwischen Groß- und Kleinschreibung. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Kollektionen auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Katalog mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszugeben, werden nur Produkte mit dem Zusatz „urlaub“ ausgegeben. Produkte, die „Urlaub“ enthalten, werden nicht angezeigt.
 
+## Bearbeiten, Kopieren oder Löschen einer Sammlung
+
+Bewegen Sie den Mauszeiger über die gewünschte Sammlung in der Liste und klicken Sie dann auf das entsprechende Symbol: bearbeiten, kopieren oder löschen.
+
+![Mauszeiger-Symbole für eine Sammlung](/help/c-recommendations/c-products/assets/hover-collections.png)
+
+Sie können eine vorhandene Sammlung kopieren, um eine Duplikat-Sammlung zu erstellen, die Sie dann ändern können. Auf diese Weise können Sie einen ähnlichen Ausschluss mit geringerem Aufwand erstellen.
+
+Beachten Sie, dass Sammlungen für das gesamte Konto verfügbar sind. Achten Sie darauf, dies zu berücksichtigen, bevor Sie eine Sammlung löschen. Gelöschte Sammlungen können nicht wiederhergestellt werden.
+
 ## Verwenden einer Sammlung in einer Recommendations-Aktivität
 
 1. Erstellen Sie eine Sammlung mit einer der oben genannten Methoden.
 
 1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und [erstellen Sie eine neue Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) -Aktivität oder bearbeiten Sie eine vorhandene Aktivität.
 
-1. Klicken Sie auf der Seite &quot; **[!UICONTROL Erlebnisse]** &quot;(Schritt 2 des geleiteten dreiteiligen Arbeitsablaufs) auf eine Stelle, an der Sie Empfehlungen platziert haben, und klicken Sie dann auf Sammlung **[!UICONTROL ändern]**.
+1. Nachdem Sie ein Kriterium und einen Entwurf ausgewählt haben, wird die Seite &quot; [!UICONTROL Optionen] &quot;angezeigt, auf der Sie die gewünschte Sammlung auswählen.
+
+   ![Sammlungsoption auswählen](/help/c-recommendations/c-products/assets/choose-collection.png)
+
+1. (Bedingt) Wenn Sie eine vorhandene Sammlungseinstellung ändern möchten, klicken Sie auf der Seite &quot; **[!UICONTROL Erlebnisse]** &quot;(Schritt 2 des geleiteten dreiteiligen Workflows) auf den Ort, an dem Sie Empfehlungen platziert haben, und klicken Sie auf Sammlung **[!UICONTROL ändern]**, und wählen Sie dann die gewünschte Sammlung aus.
 
    ![Sammlungsoption ändern](/help/c-recommendations/c-products/assets/change-collection.png)
-
-1. Wählen Sie auf der Seite **[!UICONTROL Hinzufügen Sammlung]** die gewünschte Sammlung aus.
 
 ## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
