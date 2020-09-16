@@ -5,23 +5,25 @@ title: Ausschlüsse in Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 99%
+source-wordcount: '407'
+ht-degree: 83%
 
 ---
 
 
 # Ausnahmen{#exclusions}
 
-Erstellen Sie eine Ausnahmeliste, um zu verhindern, dass Artikel empfohlen werden.
+Erstellen Sie einen Ausschluss in, [!DNL Adobe Target Recommendations] um zu verhindern, dass Produkte oder Inhalte für Besucher empfohlen werden.
+
+Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die Ihren Besuchern nicht empfohlen werden sollten. Beispielsweise können Sie Ausschlüsse verwenden, um zu verhindern, dass Produkte oder Inhalte in Empfehlungen angezeigt werden, die eingestellt wurden oder sensibel sind (z. B. Filme mit einer Bewertung, die nicht für alle Altersgruppen geeignet ist).
 
 >[!IMPORTANT]
 >
 >Statische und dynamische Ausschlussregeln sind leistungsstarke Funktionen, die Ihnen beim Marketing helfen können. Ausführliche Informationen, Beispiele und Anwendungsszenarios finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-**So erstellen Sie einen Ausschluss:**
+## Einen Ausschluss erstellen
 
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Ausschlüsse]**, um die Liste vorhandener Ausschlüsse anzuzeigen. 
 
@@ -49,7 +51,7 @@ Sie können Ausschlüsse auch mit der erweiterten Suche auf der Seite „Katalog
 
 ![Speichern unter](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-Nachdem Sie beispielsweise eine Suche mit „id“ > „contains“ erstellt haben, können Sie auf [!UICONTROL „Speichern unter“] > [!UICONTROL „Ausschluss“] klicken. Weitere Informationen finden Sie unter [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md).
+Nachdem Sie beispielsweise eine Suche mit „id“ > „contains“ erstellt haben, können Sie auf [!UICONTROL „Speichern unter“] > [!UICONTROL „Ausschluss“] klicken. Weitere Informationen finden Sie unter [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md#save-as).
 
 >[!IMPORTANT]
 >
