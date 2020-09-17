@@ -5,10 +5,10 @@ title: Erstellen eines Designs
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 43%
+source-wordcount: '988'
+ht-degree: 36%
 
 ---
 
@@ -36,7 +36,11 @@ Diese Abbildung zeigt einen benutzerdefinierten Entwurf:
 
 Sie können einen Entwurf während der Erstellung von Aktivitäten aus dem Visual Experience Composer (VEC) oder aus der Designbibliothek außerhalb der Erstellung von Aktivitäten erstellen. In den folgenden Abschnitten wird davon ausgegangen, dass Sie Entwürfe aus der Bibliothek erstellen, die Schritte sind jedoch ähnlich.
 
-## Entwurf auf der Grundlage eines Standardentwurfs erstellen
+## Entwürfe erstellen
+
+Sie können einen Entwurf auf der Grundlage eines Standardentwurfs erstellen oder einen benutzerdefinierten Entwurf erstellen.
+
+### Entwurf auf der Grundlage eines Standardentwurfs erstellen
 
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Entwürfe]** , um die [!UICONTROL Designbibliothek] anzuzeigen.
 
@@ -56,9 +60,9 @@ Sie können einen Entwurf während der Erstellung von Aktivitäten aus dem Visua
 
 1. (Bedingt) Bearbeiten Sie den **[!UICONTROL Code]** des Entwurfs nach Bedarf.
 
-   Empfehlungsentwürfe verwenden die Open Source-Entwurfssprache Velocity. Informationen über Velocity finden Sie unter [](https://velocity.apache.org)https://velocity.apache.org.
+   Empfehlungsentwürfe verwenden die Open Source-Entwurfssprache Velocity. Informationen zu Velocity finden Sie unter [https://velocity.apache.org](https://velocity.apache.org) und in [Anpassen eines Entwurfs mit Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Der Entwurf kann ein HTML- oder ein Nicht-HTML-Entwurf sein. Standardmäßig werden HTML-Entwürfe mit einem <div> Tag umschlossen, um Clicktracking in einer Webumgebung zuzulassen. Nicht-HTML-Entwürfe eignen sich für Nicht-Webumgebungen, in denen ein Klick-Tracking nicht möglich ist.
+   Der Entwurf kann ein HTML- oder ein Nicht-HTML-Entwurf sein. Standardmäßig werden HTML-Entwürfe mit einem <div> Tag umschlossen, um Clicktracking in einer Webumgebung zuzulassen. Nicht-HTML-Entwürfe eignen sich für Nicht-Webumgebungen, in denen ein Klick-Tracking nicht möglich ist. Schieben Sie den [!UICONTROL HTML-Design] -Umschalter an die &quot;Aus&quot;-Position, um Nicht-HTML-Code zu verwenden.
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ Sie können einen Entwurf während der Erstellung von Aktivitäten aus dem Visua
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Erstellen eines benutzerdefinierten Entwurfs
+### Erstellen eines benutzerdefinierten Entwurfs
 
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Entwürfe]** , um die [!UICONTROL Designbibliothek] anzuzeigen.
 
@@ -81,6 +85,18 @@ Sie können einen Entwurf während der Erstellung von Aktivitäten aus dem Visua
    Weitere Informationen finden Sie unter Schritt 4.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+## Bearbeiten, Kopieren oder Löschen eines Entwurfs
+
+Beachten Sie, dass Sie einen Standardentwurf weder bearbeiten noch kopieren können. Sie können nur Standardentwürfe kopieren.
+
+Bewegen Sie den Mauszeiger über den gewünschten Entwurf in der [!UICONTROL Design] -Bibliothek und klicken Sie dann auf das entsprechende Symbol: bearbeiten, kopieren oder löschen.
+
+![Mauszeiger-Symbole für einen Entwurf](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+
+Sie können einen vorhandenen Entwurf kopieren, um einen Duplikat-Entwurf zu erstellen, den Sie dann ändern können. Auf diese Weise können Sie ein ähnliches Design mit geringerem Aufwand erstellen.
+
+Beachten Sie, dass Entwürfe für das gesamte Konto verfügbar sind. Achten Sie darauf, dies zu berücksichtigen, bevor Sie einen Entwurf löschen. Gelöschte Entwürfe können nicht wiederhergestellt werden.
 
 ## JSON-Beispiel {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
