@@ -5,10 +5,10 @@ title: Erstellen eines Designs
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '854'
+ht-degree: 43%
 
 ---
 
@@ -17,24 +17,44 @@ ht-degree: 95%
 
 Mit einem Entwurf wird festgelegt, wie Empfehlungen auf einer Seite dargestellt werden.
 
-Sie können einen [!UICONTROL Recommendations]-Entwurf erstellen, indem ein Standardentwurf oder ein benutzerdefinierter Entwurf verwendet wird. Im Bildschirm **[!UICONTROL Recommendations > Entwürfe]** werden sowohl Standardentwurfskarten als auch von Ihnen erstellte Entwürfe angezeigt. Die Standardentwürfe können nicht bearbeitet oder gelöscht werden.
+Sie können einen [!UICONTROL Recommendations]-Entwurf erstellen, indem ein Standardentwurf oder ein benutzerdefinierter Entwurf verwendet wird. Im Bildschirm **[!UICONTROL Recommendations > Entwürfe]** werden sowohl Standarddesignkarten als auch alle Entwürfe angezeigt, die in Ihrem Konto erstellt wurden.
 
-1. Bewegen Sie den Mauszeiger auf dem Bildschirm **[!UICONTROL Empfehlungen > Entwürfe]** über die Karte für den Entwurf, den Sie erstellen möchten.
+Beachten Sie beim Arbeiten mit Entwürfen die folgenden Informationen:
+
+* Sie können einen Empfehlungsentwurf mit einem Standardentwurf erstellen oder einen benutzerdefinierten Entwurf erstellen.
+* Standardentwürfe können nicht bearbeitet oder gelöscht werden.
+* Sie können einen benutzerdefinierten Entwurf bearbeiten, kopieren oder löschen.
+* Um einen auf einem Standardentwurf basierenden Entwurf zu erstellen, müssen Sie zunächst den Entwurf kopieren und dann die Kopie bearbeiten.
+
+Diese Abbildung zeigt das Standarddesign 1 x 4:
+
+![1 x 4 Standardentwurf](/help/c-recommendations/c-design-overview/assets/default-design.png)
+
+Diese Abbildung zeigt einen benutzerdefinierten Entwurf:
+
+![Benutzerdefinierter Entwurf](/help/c-recommendations/c-design-overview/assets/custom-design.png)
+
+Sie können einen Entwurf während der Erstellung von Aktivitäten aus dem Visual Experience Composer (VEC) oder aus der Designbibliothek außerhalb der Erstellung von Aktivitäten erstellen. In den folgenden Abschnitten wird davon ausgegangen, dass Sie Entwürfe aus der Bibliothek erstellen, die Schritte sind jedoch ähnlich.
+
+## Entwurf auf der Grundlage eines Standardentwurfs erstellen
+
+1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Entwürfe]** , um die [!UICONTROL Designbibliothek] anzuzeigen.
+
+   ![Designbibliothek](/help/c-recommendations/c-design-overview/assets/design-library.png)
+
+1. Bewegen Sie den Mauszeiger über die Karte für den Entwurf, den Sie erstellen möchten, und klicken Sie dann auf das Symbol **[!UICONTROL Kopieren]** .
 
    ![](assets/Card_CopyDesign.png)
 
-1. Um einen vorhandenen Entwurf zu kopieren und zu bearbeiten, klicken Sie auf das Symbol **[!UICONTROL Kopieren]**.
-
-   Oder
-
-   Möchten Sie einen benutzerdefinierten Entwurf erstellen, klicken Sie auf die Option **[!UICONTROL Entwurf erstellen]**, verfügbar im Bildschirm **[!UICONTROL Recommendations > Entwurf.]**
+   Das Dialogfeld &quot;Entwurf [!UICONTROL erstellen] &quot;wird angezeigt.
 
    ![](assets/createDesign.png)
 
-1. Fügen Sie einen **[!UICONTROL Inhaltsnamen]** hinzu.
+1. Fügen Sie im **[!UICONTROL Informationsbedienfeld]** ein Bild für den **[!UICONTROL Inhaltsnamen]** und eine optionale Vorschau hinzu, die auf der Designkarte angezeigt werden sollen.
 
-   Verwenden Sie einen Standardentwurf, lautet dessen Name „Kopie“. Dieser Name erscheint im Feld **[!UICONTROL Inhaltsname]**. Sie können den Namen bearbeiten. 1. (Optional) Wählen Sie per Klick ein Bild aus, das auf der Entwurfskarte angezeigt werden soll.
-1. Bearbeiten Sie den Entwurfs-**[!UICONTROL Code]**.
+   When you use a default design, the design name and &quot;Copy&quot; appears in the **[!UICONTROL Content Name]** field. Sie können den Namen bearbeiten. Sie können auch ein Bild auswählen, das auf der Designkarte angezeigt werden soll.
+
+1. (Bedingt) Bearbeiten Sie den **[!UICONTROL Code]** des Entwurfs nach Bedarf.
 
    Empfehlungsentwürfe verwenden die Open Source-Entwurfssprache Velocity. Informationen über Velocity finden Sie unter [](https://velocity.apache.org)https://velocity.apache.org.
 
@@ -42,20 +62,37 @@ Sie können einen [!UICONTROL Recommendations]-Entwurf erstellen, indem ein Stan
 
    >[!NOTE]
    >
-   >Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hardcodiert oder in Schleife, beträgt 99.
+   >Die maximale Anzahl von Entitäten, auf die in einem Entwurf verwiesen werden kann (fest codiert oder in Schleifen), beträgt 99.
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+## Erstellen eines benutzerdefinierten Entwurfs
+
+1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Entwürfe]** , um die [!UICONTROL Designbibliothek] anzuzeigen.
+
+1. Klicken Sie auf Entwurf **[!UICONTROL erstellen]**.
+
+   Wenn Sie Ihren neuen benutzerdefinierten Entwurf auf einem vorhandenen Entwurf basieren möchten, bewegen Sie den Mauszeiger über den gewünschten Entwurf und klicken Sie dann auf das Symbol &quot; [!UICONTROL Kopieren] &quot;. Anschließend können Sie die Kopie bearbeiten, um einen neuen benutzerdefinierten Entwurf zu erstellen.
+
+1. hinzufügen eines **[!UICONTROL Inhaltsnamens]** und eines optionalen Vorschau-Bildes.
+
+1. (Bedingt) Bearbeiten Sie den **[!UICONTROL Code]** des Entwurfs nach Bedarf.
+
+   Weitere Informationen finden Sie unter Schritt 4.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## JSON-Beispiel {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-Das folgende Beispiel zeigt, wie JSON-Antworten zurückgesendet werden können, wenn eine Aktivität über den formularbasierten Editor konfiguriert wird.
+Das folgende Beispiel zeigt, wie JSON-Antworten zurückgegeben werden können, wenn eine Aktivität über den formularbasierten Editor konfiguriert wird.
 
-1. Erstellen Sie ein Design aus der Designbibliothek oder aus dem formularbasierten Workflow heraus. Wenn Sie dies innerhalb des Visual Experience Composer (VEC)-Arbeitsablaufs versuchen, können Sie nichts anderes als ein HTML-Design erstellen, das umschlossen ist von einem  `<div>` für das Klick-Tracking.
+1. Erstellen Sie einen Entwurf aus der Designbibliothek oder im formularbasierten Workflow. Wenn Sie dies innerhalb des Visual Experience Composer (VEC)-Arbeitsablaufs versuchen, können Sie nichts anderes als ein HTML-Design erstellen, das umschlossen ist von einem  `<div>` für das Klick-Tracking.
+
 1. Achten Sie darauf, dass die Option „HTML-Design“ ausgeschaltet ist:
 
    ![](assets/html_design_toggle.png)
 
-1. Der folgende Code ist ein Beispiel für das, was Sie in Ihr Design einfügen können:
+1. Der folgende Code ist ein Beispiel dafür, was Sie in Ihren Entwurf einfügen können:
 
    ```
        #* 
@@ -84,24 +121,22 @@ Das folgende Beispiel zeigt, wie JSON-Antworten zurückgesendet werden können, 
        }  
    ```
 
-1. Richten Sie eine formularbasierte Recommendations-Aktivität ein, die dieses Design verwendet.
+1. Set up a form-based [!DNL Recommendations] activity that uses this design.
 
-   1. Gehen Sie zur Seite „Aktivitäten“.
-   1. Klicken Sie auf **[!UICONTROL Aktivität erstellen]**.
-   1. Wählen Sie **[!UICONTROL Recommendations aus]**.
-   1. Wählen Sie unter **[!UICONTROL Experience Composer wählen]** die Option **[!UICONTROL Formular]** aus.
-
+   1. Navigate to the **[!UICONTROL Activities]** page.
+   1. Klicken Sie auf **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL Empfehlungen]**.
+   1. Wählen Sie unter &quot;Experience Composer **[!UICONTROL auswählen]**&quot;die Option **[!UICONTROL Formular]** und klicken Sie dann auf **[!UICONTROL Weiter]**.
    1. Geben Sie unter Speicherort den Text „Sample_Recs_Response“ ein.
    1. Klicken Sie unter **[!UICONTROL Standard-Content]** auf den Pfeil nach unten und dann auf **[!UICONTROL Empfehlung hinzufügen]**.
    1. Wählen Sie einen Seitentyp aus. Das legt fest, welches Bild Sie als nächstes sehen.
    1. Wählen Sie eine Kriterienkarte aus und klicken Sie dann auf **[!UICONTROL Nächste]**.
-   1. Wählen Sie das Design, das Sie im vorherigen Schritt erstellt haben, und klicken Sie dann auf **[!UICONTROL Speichern]**.
+   1. Select the design you created in the previous step, then click **[!UICONTROL Next]**.
    1. Schließen Sie den Setup-Vorgang ab.
    1. Klicken Sie auf den Pfeil neben **[!UICONTROL Inaktiv]** und wählen Sie dann **[!UICONTROL Aktivieren]**.
 
 1. Nachdem Ihre Aktivität eingerichtet und aktiviert wurde, können Sie eine Musteranforderung einrichten, um die korrekte JSON-Antwort zurückzubekommen.
 
-   Ab dem Zeitpunkt, zu dem Sie Ihre Aktivität speichern, muss Target ein Modell aufbauen, das die Konfiguration der ausgewählten Kriterien unterstützt. Abhängig von einer Reihe von Faktoren kann dies einige Zeit in Anspruch nehmen. Die Ergebnisse werden angezeigt, sobald das Modell aufgebaut wurde.
+   From the time that you save your activity, [!DNL Target] will need to build a model to support the selected criteria configuration. Abhängig von einer Reihe von Faktoren kann dies einige Zeit in Anspruch nehmen. Die Ergebnisse werden angezeigt, sobald das Modell aufgebaut wurde.
 
    Beispiel:
 
@@ -111,18 +146,18 @@ Das folgende Beispiel zeigt, wie JSON-Antworten zurückgesendet werden können, 
 
    wo
 
-| Parameter | Wert |
-|--- |--- |
-| `[YOUR_CLIENT_CODE]` | Target-Clientcode (verfügbar unter ../target/products.html#recsSettings > Recommendations API Token > Client Code. |
-| `[YOUR_MBOX_NAME]` | Der Name, den Sie im Abschnitt &quot;Speicherorte&quot;des formularbasierten Recommendations ausgewählt haben, in diesem Fall Sample_Recs_Response. |
-| `[ENTITY_ID` | Die `entity.id` eines Artikels in Ihrem Katalog |
-| `[AT_PROPERTY_TOKEN]` | (Optional) Fügen Sie dies hinzu, wenn Sie bei der Einrichtung Ihrer Aktivität eine Eigenschaft (Teil der Unternehmensberechtigungen) ausgewählt haben. |
+   | Parameter | Wert |
+   |--- |--- |
+   | `[YOUR_CLIENT_CODE]` | Target-Clientcode (verfügbar unter ../target/products.html#recsSettings > Recommendations API Token > Client Code. |
+   | `[YOUR_MBOX_NAME]` | Der Name, den Sie im Abschnitt &quot;Speicherorte&quot;des formularbasierten Recommendations ausgewählt haben, in diesem Fall Sample_Recs_Response. |
+   | `[ENTITY_ID` | Die `entity.id` eines Artikels in Ihrem Katalog |
+   | `[AT_PROPERTY_TOKEN]` | (Optional) Fügen Sie dies hinzu, wenn Sie bei der Einrichtung Ihrer Aktivität eine Eigenschaft (Teil der Unternehmensberechtigungen) ausgewählt haben. |
 
 Nachdem Ihr Algorithmus ausgeführt wurde und Sie Ergebnisse erhalten haben, sollte Ihre Antwort ungefähr so aussehen:
 
 ![](assets/json_recommendation.png){width=&quot;575px&quot;}
 
-## Zusätzliche Tipps und Tricks zu JSON-Objekten {#section_C305673C68944749969DB239E3221DC2}
+## Additional JSON object tips and tricks {#section_C305673C68944749969DB239E3221DC2}
 
 Sie können auch einfach eine durch Kommas getrennte Liste von Elementen zurücksenden, indem Sie ein Design mit folgender Syntax erstellen:
 
@@ -130,7 +165,7 @@ Sie können auch einfach eine durch Kommas getrennte Liste von Elementen zurück
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Außerdem können Sie mit der Antwort zusätzliche Informationen senden. Die folgende Codedatei ist ein komplexeres Beispiel, das viel mehr zurücksendet als die Entity-IDs mit den zugehörigen Slots (Bestellung). Dieses Designbeispiel sendet auch Aktivitätsdetails, Target-Profildetails (falls vorhanden) und andere `entity.attributes` zurück, die mit den zurückgesendeten Elementen verknüpft sind.
+Außerdem können Sie mit der Antwort zusätzliche Informationen senden. Die folgende Codedatei ist ein komplexeres Beispiel, das viel mehr zurücksendet als die Entity-IDs mit den zugehörigen Slots (Bestellung). This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
 
 ```
     {   
