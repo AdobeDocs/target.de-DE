@@ -1,21 +1,21 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlungsvorlagen anzupassen.
+description: Verwenden Sie die Open-Source-Entwurfssprache Velocity, um Empfehlungsentwürfe in Adobe Target Recommendations anzupassen.
 title: Anpassen eines Designs mithilfe von Velocity
 feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Personalisieren Sie einen Entwurf mit Velocity{#customize-a-design-using-velocity}
 
-Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlungsvorlagen anzupassen.
+Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
 
 ## Velocity-Übersicht {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -65,7 +65,7 @@ Wenn Sie in Ihrem Design ein Profilskript verwenden, muss auf das $ vor dem Skri
 
 >[!NOTE]
 >
->Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hardcodiert oder in Schleife, beträgt 99. Die Länge des Vorlagenskripts kann bis zu 65.000 Zeichen betragen.
+>Die maximale Anzahl von Entitäten, auf die in einem Entwurf verwiesen werden kann (fest codiert oder in Schleifen), beträgt 99. Die Länge des Vorlagenskripts kann bis zu 65.000 Zeichen betragen.
 
 Wenn Sie z. B. ein Design wünschen, das in etwa Folgendes anzeigen soll:
 
@@ -128,12 +128,12 @@ Sie können `algorithm.name` und `algorithm.dayCount` als Variablen in Entwürfe
 
 Velocity-Vorlagen behandeln alle Entitätsattribute standardmäßig als Zeichenfolgenwerte. Möglicherweise möchten Sie ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang auszuführen oder es mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
 
-1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder Dublette
-1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich, damit der Vorlagenparser von Zielgruppe Recommendations die Vorlage validieren und speichern kann)
-1. Übergeben Sie das Entitätsattribut an die `parseInt` oder- `parseDouble` Methode für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in einen Ganzzahlwert oder einen Dublette-Wert zu verwandeln
-1. Durchführen des Mathematik-Vorgangs oder -Vergleichs mit dem neuen numerischen Wert
+1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder Dublette.
+1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich, damit der Vorlagenparser von Zielgruppe Recommendations die Vorlage validieren und speichern kann).
+1. Übergeben Sie das Entitätsattribut an die `parseInt` oder- `parseDouble` Methode für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in eine Ganzzahl oder Dublette umzuwandeln.
+1. Führen Sie den Mathematikvorgang oder -vergleich für den neuen numerischen Wert durch.
 
-**Example: Calculating a discount price**
+### Beispiel: Berechnen eines Rabattpreises
 
 Angenommen, Sie möchten den angezeigten Preis eines Artikels um 0,99 USD reduzieren, um einen Rabatt zu erhalten. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
 
@@ -148,9 +148,9 @@ Angenommen, Sie möchten den angezeigten Preis eines Artikels um 0,99 USD reduzi
 #end
 ```
 
-**Beispiel: Auswahl der Anzahl der anzuzeigenden Sterne anhand der Bewertung eines Elements**
+### Beispiel: Auswahl der Anzahl der anzuzeigenden Sterne anhand der Bewertung eines Elements
 
-Angenommen, Sie möchten eine entsprechende Anzahl von Sternen basierend auf der numerischen durchschnittlichen Kundenbewertung eines Artikels anzeigen. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
+Angenommen, Sie möchten eine angemessene Anzahl von Sternen basierend auf der numerischen durchschnittlichen Kundenbewertung eines Artikels anzeigen. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
 
 ```
 #set( $Double = 0.1 )
@@ -173,7 +173,7 @@ Angenommen, Sie möchten eine entsprechende Anzahl von Sternen basierend auf der
 #end
 ```
 
-**Beispiel: Zeit in Stunden und Minuten auf Grundlage der Länge eines Artikels in Minuten berechnen**
+### Beispiel: Zeit in Stunden und Minuten auf Grundlage der Länge eines Artikels in Minuten berechnen
 
 Angenommen, Sie speichern die Länge eines Films in Minuten, möchten die Länge jedoch in Stunden und Minuten anzeigen. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
 
