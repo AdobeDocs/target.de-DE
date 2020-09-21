@@ -5,10 +5,10 @@ title: Erstellen einer Recommendations-Aktivität
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,9 +49,15 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
 1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
+   Besucher Ihrer Site sehen den empfohlenen Inhalt nur dann, wenn sie sich für die Empfehlung qualifizieren. Besuchern, die sich nicht für die Empfehlung qualifizieren, werden Standardinhalte angezeigt.
+
    ![Recommendations-Optionen](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   Wenn Sie ein Element durch Empfehlungen ersetzen, wird der aktuelle Inhalt gelöscht und durch Ihre Empfehlungen ersetzt.
+   * **[!UICONTROL w/Recommendations]** ersetzen: Wenn Sie ein Element durch Empfehlungen ersetzen, wird der aktuelle Inhalt gelöscht und durch Ihre Empfehlungen ersetzt. Wenn Besucher Ihre Site besuchen und sich für die Empfehlung qualifizieren, sehen sie die empfohlenen Artikel im angegebenen Bereich anstelle des vorhandenen Inhalts.
+   * **[!UICONTROL Recommendations einfügen vor]**: Beim Einfügen von Empfehlungen vor dem ausgewählten Element wird der empfohlene Inhalt vor diesem Element platziert. Je nach Seitenaufbau wird die Empfehlung über oder links des ausgewählten Elements angezeigt.
+   * **[!UICONTROL Recommendations einfügen nach]**: Beim Einfügen von Empfehlungen nach dem ausgewählten Element wird der empfohlene Inhalt nach diesem Element platziert. Je nach Seitenaufbau wird die Empfehlung unterhalb oder rechts neben dem ausgewählten Element angezeigt.
+
+   Mit der **[!UICONTROL Option &quot;Auswahl]** erweitern&quot;können Sie die ausgewählte Position (übergeordneten Container) erweitern, um die gewünschten Seitenelemente leichter identifizieren und einschließen zu können.
 
 1. Wählen Sie einen Seitentyp aus.
 
@@ -70,7 +76,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
 1. [Wählen Sie mindestens ein Kriterium aus](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   Kriterien werden in Form von Karten dargestellt, die Informationen zu dem jeweiligen Kriterium anzeigen. In der Standardeinstellung werden im Bildschirm [!UICONTROL Kriterien auswählen] Kriterien angezeigt, die mit Ihrem vertikalen Markt und dem von Ihnen ausgewählten Seitentyp kompatibel sind. Sie können diese Optionen ändern, wenn Sie andere Kriterien angezeigt haben möchten.
+   Kriterien werden in Form von Karten dargestellt, die Informationen zu dem jeweiligen Kriterium anzeigen. By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. Sie können diese Optionen ändern, wenn Sie andere Kriterien angezeigt haben möchten.
 
    >[!NOTE]
    >
@@ -90,7 +96,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 1. [Entwurf auswählen](/help/c-recommendations/c-design-overview/design-overview.md).
 
-   Ein Entwurf ist eine Vorlage, die das Aussehen der Orte auf Ihrer Seite festlegt. [!DNL Target] enthält mehrere vorkonfigurierte Entwürfe. Sie können auch Ihre eigenen, benutzerdefinierten Entwürfe erstellen. Weitere Informationen finden Sie unter  [Erstellen eines Entwurfs](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) und [Anpassen eines Entwurfs](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Ein Entwurf ist eine Vorlage, die das Aussehen der Orte auf Ihrer Seite festlegt. [!DNL Target] umfasst mehrere vorkonfigurierte Entwürfe. Sie können auch Ihre eigenen, benutzerdefinierten Entwürfe erstellen. Weitere Informationen finden Sie unter  [Erstellen eines Entwurfs](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) und [Anpassen eines Entwurfs](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![Dialogfeld „Entwurf auswählen“](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -105,6 +111,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
    Sie haben auch die Möglichkeit, Ihren Empfehlungen Promotions hinzuzufügen. Weitere Informationen über das Hinzufügen von Vorwärts- und Rückwärts-Promotions finden Sie unter  [Hinzufügen von Promotions](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Im Bildschirm „VEC“ wird das Empfehlungsdesign Ihrer Seite angezeigt.
@@ -158,7 +165,8 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    * die Aktivität aktivieren
    * die Aktivität bearbeiten
-   * die Aktivität an Ihre Experience Cloud-Pinnwand anheften
+   * Aktivität für Ihren Experience Cloud-Feed freigeben
+   * Qualitätssicherung der Aktivität
    * Ihre Erlebnis-URLs ansehen
    * Daten herunterladen
    * den Prozentsatz der Teilnehmer ändern, denen das Kontrollerlebnis angezeigt wird
@@ -166,6 +174,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
    * Code für Ihre Entwürfe ansehen
 
 1. (Optional) Öffnen Sie die Seite [!UICONTROL Berichte], um den Bericht anzusehen, der die Leistung Ihrer [!DNL Recommendations]-Aktivität anzeigt.
+
 1. (Optional) Öffnen Sie die Seite [!UICONTROL Kollisionen], um eventuell auftretende [Aktivitäten-Kollisionen](/help/c-experiences/c-visual-experience-composer/activity-collisions.md) anzuzeigen.
 
    Kollisionen von Aktivitäten treten auf, wenn mehrere Aktivitäten Inhalte auf derselben Seite bereitstellen sollen. Dies kann zur Darstellung unerwarteter Inhalte führen.
