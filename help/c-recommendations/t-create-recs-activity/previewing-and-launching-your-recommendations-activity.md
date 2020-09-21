@@ -5,10 +5,10 @@ title: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Akt
 feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +35,11 @@ Zu den Statusergebnissen gehören die folgenden:
 * [!UICONTROL Ergebnisse nicht verfügbar]: Gibt an, dass der Algorithmus noch nicht ausgeführt wurde.
 * [!UICONTROL Feed-Fehler]: Gibt an, dass die Feed-Datei mit benutzerdefinierten Kriterien nicht abgerufen werden konnte.
 
-![Results dialog box](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
+![Dialogfeld &quot;Ergebnisse&quot;](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
-## How long will the algorithm take to run?
+## Wie lange dauert die Ausführung des Algorithmus?
 
-After saving an activity containing a criteria, [!DNL Target] computes recommendations based on the selected collection, criteria, design, and promotions. Diese Berechnung nimmt etwas Zeit in Anspruch. Der Zeitrahmen hängt von der ausgewählten Empfehlungslogik, dem Datumsbereich, der Anzahl der Elemente in Ihrem Katalog, der Anzahl der Verhaltensdaten Ihrer Kunden und der ausgewählten Verhaltensdatenquelle ab.
+Nach dem Speichern einer Aktivität, die ein Kriterium enthält, werden Empfehlungen basierend auf der ausgewählten Sammlung, den Kriterien, dem Entwurf und den Promotions [!DNL Target] berechnet. Diese Berechnung dauert etwas länger, und der Zeitrahmen unterscheidet sich je nach ausgewählter Empfehlungslogik, Datenbereich, Anzahl der Elemente in Ihrem Katalog, Menge der von Ihren Kunden generierten Verhaltensdaten und ausgewählter verhaltensbezogener Datenquelle.
 
 Die Verhaltensdatenquelle hat den größten Einfluss auf die Verarbeitungszeit, wie im Folgenden dargestellt wird:
 
@@ -57,33 +57,33 @@ Wenn das Kriterium [!DNL Adobe Analytics] als Verhaltens-Datenquelle verwendet, 
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] requires no offline algorithm run and results are instantly available. [!UICONTROL Top Viewed] and [!UICONTROL Top Sellers] algorithms based on mbox data generally produce results very quickly due to the simpler computation required. These can be good options when you want to preview a design change or confirm that behavioral data are being collected correctly.
+>[!UICONTROL Vor Kurzem aufgerufene Elemente] erfordern keinen Offline-Algorithmus, und die Ergebnisse sind sofort verfügbar. [!UICONTROL Algorithmen für die am häufigsten angezeigten] und [!UICONTROL Topverkäufe] , die auf Mbox-Daten basieren, liefern im Allgemeinen sehr schnell Ergebnisse, da eine einfachere Berechnung erforderlich ist. Dies können gute Optionen sein, wenn Sie eine Designänderung Vorschau oder sicherstellen möchten, dass Verhaltensdaten korrekt erfasst werden.
 
-## Using QA links to preview Recommendations
+## Verwenden von QS-Links zur Vorschau Recommendations
 
-After the algorithm has results ready, you can preview those results using the [QA link](/help/c-activities/c-activity-qa/activity-qa.md) functionality of [!DNL Adobe Target]. Qualitätssicherungs-Links finden Sie im Abschnitt zur Qualitätssicherung [!UICONTROL von] Aktivitäten auf der Übersichtsseite zur Aktivität:
+Nachdem der Algorithmus Ergebnisse vorliegen haben, können Sie diese Ergebnisse mithilfe der [QS-Link](/help/c-activities/c-activity-qa/activity-qa.md) -Funktion von [!DNL Adobe Target]. Qualitätssicherungs-Links finden Sie im Abschnitt zur Qualitätssicherung [!UICONTROL von] Aktivitäten auf der Übersichtsseite zur Aktivität:
 
 ![Link „Aktivitäts-QA“](/help/c-recommendations/t-create-recs-activity/assets/qa-link.png)
 
 >[!NOTE]
 >
->Standardmäßig werden Sie [!DNL Target] automatisch zur erforderlichen Audience für den QA-Link hinzugefügt. If this setting is turned off and your activity has targeting rules, your user profile needs to meet those targeting rules to see the experience containing recommendations.
+>Standardmäßig werden Sie [!DNL Target] automatisch zur erforderlichen Audience für den QA-Link hinzugefügt. Wenn diese Einstellung deaktiviert ist und Ihre Aktivität Targeting-Regeln hat, muss Ihr Profil diese Targeting-Regeln erfüllen, damit das Erlebnis mit Empfehlungen angezeigt wird.
 
-Using a QA link allows you to preview the recommendations on your page:
+Mithilfe eines QS-Links können Sie die Empfehlungen auf Ihrer Seite Vorschau haben:
 
 ![Vorgestellte Produkte](/help/c-recommendations/t-create-recs-activity/assets/featured-products.png)
 
 >[!NOTE]
 >
->Der QS-Modus für Zielgruppen ist &quot;sticky&quot; und wird in einem Cookie gespeichert. If you do not exit QA mode, you’ll keep seeing the QA results throughout the site. Um den Qualitätssicherungs-Modus zu beenden, verwenden Sie das [Bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* Der QS-Modus für Zielgruppen ist &quot;sticky&quot; und wird in einem Cookie gespeichert. Wenn Sie den Qualitätssicherungs-Modus nicht beenden, werden die Qualitätssicherungsergebnisse auf der gesamten Site angezeigt. Um den Qualitätssicherungs-Modus zu beenden, verwenden Sie das [Bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+   >
+   >
+* Im Qualitätssicherungs-Modus hat das Durchsuchen der Site keine Auswirkungen auf die [!UICONTROL zuletzt angezeigten Artikel] oder die [!UICONTROL zuletzt gekauften Artikel]Ihres Profils.&quot; Dieses Verhalten wird planmäßig ausgeführt, um eine unbeabsichtigte Verschmutzung von Produktionsverhaltensdaten zu vermeiden. Zur Vorschau der Ergebnisse von [!UICONTROL kürzlich angezeigten Artikeln] oder [!UICONTROL benutzerbasierten Recommendations] -Kriterien navigieren Sie zuerst außerhalb des Qualitätssicherungs-Modus und öffnen dann in derselben Sitzung einen QS-Modus-Link.
 
->[!NOTE]
->
->Im Qualitätssicherungs-Modus hat das Durchsuchen der Site keine Auswirkungen auf die [!UICONTROL zuletzt angezeigten Artikel] oder die [!UICONTROL zuletzt gekauften Artikel]Ihres Profils. Dieses Verhalten wird standardmäßig ausgeführt, um eine unbeabsichtigte Verschmutzung der Produktionsverhaltensdaten zu vermeiden. Zur Vorschau der Ergebnisse von [!UICONTROL kürzlich angezeigten Artikeln] oder [!UICONTROL benutzerbasierten Recommendations] -Kriterien navigieren Sie zuerst außerhalb des Qualitätssicherungs-Modus und öffnen dann in derselben Sitzung einen QS-Modus-Link.
 
-## Using the CSV download to preview recommendations
+## Verwenden des CSV-Downloads zur Vorschau von Empfehlungen
 
-In some cases, you might want to audit the specific items that are recommended. This is particularly helpful when using algorithms like [!UICONTROL People Who Viewed This, Viewed That], where a different set of items are recommended depending on the item the user is currently viewing, and you might have thousands or millions of different items in your catalog.
+In einigen Fällen sollten Sie die empfohlenen Elemente prüfen. Dies ist besonders hilfreich, wenn Sie Algorithmen wie &quot; [!UICONTROL Personen, die das ansahen&quot;oder &quot;Angezeigt haben&quot;verwenden, wobei]je nach dem Artikel, den der Benutzer gerade anzeigt, unterschiedliche Artikel empfohlen werden und Sie möglicherweise Tausende oder Millionen von verschiedenen Artikeln in Ihrem Katalog haben.
 
 Die Ergebnisse können erst heruntergeladen werden, wenn für mindestens einen Algorithmus in der Aktivität der Status &quot; [!UICONTROL Ergebnisbereit] &quot;angezeigt wird.
 
@@ -101,7 +101,7 @@ Von links nach rechts ist eine Liste empfohlener Artikel, in diesem Fall die am 
 >
 >Für Aktivitäten mit einem [!UICONTROL benutzerbasierten Recommendations] -Algorithmus stehen keine Ergebnisdownloads zur Verfügung. Ergebnisdownloads stehen für Kriterien nicht zur Verfügung, die die Empfehlungslogik [!UICONTROL Zuletzt angezeigte Elemente] verwenden.
 
-## Activating your Recommendations activity
+## Aktivieren der Recommendations-Aktivität
 
 Klicken Sie auf der Registerkarte [!UICONTROL Statusübersicht] auf den Dropdownpfeil neben dem Status und wählen Sie **[!UICONTROL Aktivieren]**.
 
