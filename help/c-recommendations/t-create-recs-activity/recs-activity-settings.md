@@ -6,17 +6,17 @@ feature: recs creation
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations Activities-Einstellungen{#recommendations-activity-settings}
 
-Informationen über die Einstellungen, mit denen Sie eine [!UICONTROL Recommendations]-Aktivität beschreiben und steuern können.
+Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
 
 ![Seite „Recommendations-Ziele und -Einstellungen“](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -37,7 +37,7 @@ Folgende Zeichen sind im Aktivitätsnamen nicht zulässig:
 `-`
 `@`
 
-Wenn Sie den Namen einer [!UICONTROL Recommendations]-Aktivität angeben, der bereits für eine andere Aktivität in [!UICONTROL Recommendations Classic] existiert, wird die neue Aktivität mit einem neuen Namen erneut synchronisiert. Der neue Name ist der ursprüngliche Name, der mit einem Zeitstempel versehen wird, um ihn eindeutig zu machen. Dieser neue Name wird sowohl in Target Standard/Premium als auch in [!UICONTROL Recommendations Classic] angezeigt.
+Wenn Sie den Namen einer [!UICONTROL Recommendations]-Aktivität angeben, der bereits für eine andere Aktivität in [!UICONTROL Recommendations Classic] existiert, wird die neue Aktivität mit einem neuen Namen erneut synchronisiert. Der neue Name ist der ursprüngliche Name, der mit einem Zeitstempel versehen wird, um ihn eindeutig zu machen. This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
 
 ## Ziel
 
@@ -57,7 +57,7 @@ Die Aktivität kann bei Aktivierung starten, oder Sie können ein bestimmtes Dat
 
 ## Berichterstellungseinstellungen 
 
-* **Berichtsquelle:** Wählen Sie die Berichtsquelle aus: Adobe Target oder [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Ändern Sie die Berichtsquelle nicht mehr, nachdem die Aktivität aktiviert wurde. Eine Änderung der Berichtsquelle nach der Aktivierung einer Aktivität führt zu inkonsistenten Berichten.
+* **Berichte-Quelle:** Wählen Sie die Quelle des Berichte aus: [!DNL Adobe Target] oder [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Ändern Sie die Berichtsquelle nicht mehr, nachdem die Aktivität aktiviert wurde. Eine Änderung der Berichtsquelle nach der Aktivierung einer Aktivität führt zu inkonsistenten Berichten.
 * **Zielmetrik:** Wählen Sie die Erfolgsmetrik aus, die festlegt, ob eine Aktivität erfolgreich ist.
 * **Zusätzliche Metriken:** Konfigurieren Sie weitere Erfolgsmetriken zur Verwendung in Ihren Berichten.
 * **Zielgruppen für Berichterstellung:** Definieren Sie Zielgruppen, die beim Filtern Ihrer Berichte verwendet werden können.
