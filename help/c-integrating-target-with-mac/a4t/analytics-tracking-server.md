@@ -5,7 +5,7 @@ title: Verwenden eines Analytics-Trackingservers
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
+source-git-commit: 1957e67c8502c06be950c7dafdcc3f6878f87065
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 24%
@@ -62,7 +62,7 @@ Die Entwicklerwerkzeuge sollten auf einer Seite angezeigt werden, auf der die Ak
 
 1. Filtern Sie nach &quot;/ss&quot;, um die Analyseanforderungen anzuzeigen.
 
-   ![Chrome-Entwicklerwerkzeuge](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Chrome-Entwicklerwerkzeuge](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools-2.png)
 
    Der Tracking-Server ist der Hostname der Anforderung.
 
