@@ -6,10 +6,10 @@ feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 93%
+source-wordcount: '562'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten n
 | user.daysSinceLastVisit |  |
 | user.browser | Der Benutzeragent |
 | user.header | Alle `user.header`-Profile werden von den Kopfzeilendaten einer Mbox-Anfrage integriert |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | Die öffentliche IP-Adresse der Netzwerkverbindung des Besuchers.<br>Sie können dies auf verschiedenen Wegen erreichen, z. B. [whatismyip. com](https://www.whatismyip.com/). Die IP-Adresse ist nicht die NAT-Adresse (interne Adresse), die mit 10., 192.168. oder 172 beginnt. |
+| user.header(&#39;x-forwarded-for&#39;) | Die öffentliche IP-Adresse der Netzwerkverbindung des Besuchers.<br>Sie können dies auf verschiedenen Wegen erreichen, z. B. [whatismyip. com](https://www.whatismyip.com/). Die IP-Adresse ist nicht die NAT-Adresse (interne Adresse), die mit 10., 192.168. oder 172 beginnt.<br>Hinweis: user.header(&#39;x-cluster-client-ip&#39;) wurde nicht mehr unterstützt. |
 | user.header(&#39;host&#39;) | Website-Hostname |
 | user.header(&#39;cookie&#39;) | Cookie-Daten des Besuchers |
 | user.header(&#39;user-agent&#39;) | Benutzeragent des Benutzer-Browsers |
@@ -94,4 +94,4 @@ Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten n
 
 Kundenattribute können in Profilskripts referenziert werden, formatiert als `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Diese Attribute stehen auch als Tokens in Profilskripts und direkt in Angeboten zur Verfügung, ohne dass zunächst ein Profilskript erforderlich ist. Das Token sollte folgende Form aufweisen: `${crs.datasourceName.attributeName}`. Note that spaces in the `datasourceName` should be stripped from any API call.
+Diese Attribute stehen auch als Tokens in Profilskripts und direkt in Angeboten zur Verfügung, ohne dass zunächst ein Profilskript erforderlich ist. Das Token sollte folgende Form aufweisen: `${crs.datasourceName.attributeName}`. Beachten Sie, dass Leerzeichen im `datasourceName` API-Aufruf entfernt werden sollten.
