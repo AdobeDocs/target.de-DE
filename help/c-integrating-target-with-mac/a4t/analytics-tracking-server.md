@@ -1,14 +1,14 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source;developer tools
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
 description: Sollten Sie eine ältere Version von „at.js“ oder „mbox.js“ verwenden, müssen Sie einen Trackingserver für Aktivitäten angeben, bei denen Analytics for Target (A4T) zum Einsatz kommt.
 title: Verwenden eines Analytics-Trackingservers
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
+source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 24%
+source-wordcount: '698'
+ht-degree: 27%
 
 ---
 
@@ -44,6 +44,7 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität wie
    * **CNAME-Implementierungen**: `sstats.adobe.com` ist ein Beispiel für einen CNAME-Erstanbieter-Tracking-Server für eine HTTPS-Anforderung (sichere Anforderung). `stats.adobe.com` ist ein Beispiel für eine CNAME-Erstanbieteranforderung für eine http-Seite (nicht sicher).
 
 1. Kopieren Sie den Inhalt des Felds vollständig.
+
 1. Fügen Sie die Daten im Abschnitt zu **[!UICONTROL Berichtseinstellungen]** im Bildschirm „**[!UICONTROL Ziele und Einstellungen]****[!UICONTROL “ in das Feld Trackingserver]** ein.
 
    >[!NOTE]
@@ -69,4 +70,12 @@ Die Entwicklerwerkzeuge sollten auf einer Seite angezeigt werden, auf der die Ak
    * **Erstanbieter-Tracking-Server**: Wenn der Hostname der Anforderung mit der Domäne übereinstimmt, in der Sie sich befinden, ist es ein Erstanbieter-Tracking-Server. Wenn Sie sich beispielsweise auf `adobe.com`befinden, `adobe.com` ist dies der Erstanbieter-Tracking-Server.
    * **Tracking-Server** von Drittanbietern: Ein Drittanbieter-Tracking-Server ist normalerweise `[company].sc.omtrdc.net` der Name Ihrer Firma, endet aber immer in der Firma `sc.omtrdc.net`.
    * **CNAME-Implementierungen**: `sstats.adobe.com` ist ein Beispiel für einen CNAME-Erstanbieter-Tracking-Server für eine HTTPS-Anforderung (sichere Anforderung). `stats.adobe.com` ist ein Beispiel für eine CNAME-Erstanbieteranforderung für eine http-Seite (nicht sicher).
+
+1. Kopieren Sie den Inhalt des Felds vollständig.
+
+1. Fügen Sie die Daten im Abschnitt zu **[!UICONTROL Berichtseinstellungen]** im Bildschirm „**[!UICONTROL Ziele und Einstellungen]****[!UICONTROL “ in das Feld Trackingserver]** ein.
+
+   >[!NOTE]
+   >
+   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
