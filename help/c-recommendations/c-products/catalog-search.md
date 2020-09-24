@@ -5,10 +5,10 @@ title: Katalogsuche in Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 21%
+source-wordcount: '1050'
+ht-degree: 19%
 
 ---
 
@@ -169,3 +169,13 @@ Sie können die aktiven Spalten auf der Seite &quot; [!UICONTROL Katalogsuche] &
    Sie können auch auf das Löschen-Symbol ( x) neben der Spalte klicken, die Sie vom aktiven zum inaktiven Abschnitt verschieben möchten.
 
 Denken Sie daran, dass alle Änderungen, die Sie vornehmen, nur für die aktuelle Sitzung gelten.
+
+## Häufig gestellte Fragen {#faq}
+
+Hilfe zur Funktion [!UICONTROL Katalogsuche] erhalten Sie in den folgenden häufig gestellten Fragen:
+
+### Warum zeigt die Katalogsuche nicht die richtigen Ergebnisse an, wenn ich nach einem benutzerdefinierten Attribut mit einem numerischen Wert suche?
+
+Wenn Sie eine Katalogsuche für ein benutzerdefiniertes Attribut mit einem numerischen Wert durchführen, wird das benutzerdefinierte Attribut als String-Typ und nicht als numerischer Wert betrachtet.
+
+Derzeit gibt es keine Funktion, mit der Kunden den Attributtyp ändern können. Um eine Änderung vorzunehmen, [öffnen Sie ein Kundenproblem](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) , das auf die Attribute verweist, bei denen der Typ von der Zeichenfolge in numerisch geändert werden muss.
