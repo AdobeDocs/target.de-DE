@@ -5,7 +5,7 @@ title: Verwenden eines Analytics-Trackingservers
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 27%
@@ -13,9 +13,9 @@ ht-degree: 27%
 ---
 
 
-# Verwenden eines Analytics-Trackingservers{#use-an-analytics-tracking-server}
+# Verwenden eines Analytics-Trackingservers
 
-If you are using an older version of at.js or mbox.js, you must specify an analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
+If you are using an older version of at.js or mbox.js, you must specify an Analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
 
 >[!NOTE]
 >
@@ -23,9 +23,9 @@ If you are using an older version of at.js or mbox.js, you must specify an analy
 >
 >Das [!DNL Target] Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen. For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser&#39;s Developer Tools to determine the correct tracking server for your activity.
+To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an Analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser&#39;s Developer Tools to determine the correct tracking server for your activity.
 
-## Abrufen des Analytics-Trackingservers mit dem Adobe Experience Platform Debugger
+## Analytics-Tracking-Server mit dem Adobe Experience Platform Debugger abrufen
 
 Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität wiedergegeben werden soll, damit gewährleistet ist, dass der richtige Trackingserver ausgewählt wird. Alternativ kann für jedes Konto ein Standard-Trackingserver angegeben werden. Wenden Sie sich an die Kundenunterstützung, wenn Sie die Standardeinstellung bearbeiten oder festlegen möchten.
 
@@ -37,7 +37,7 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität wie
 
 1. Klicken Sie im linken Navigationsmenü auf **[!UICONTROL Analytics]** .
 
-   The analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
+   The Analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
 
    * **Erstanbieter-Tracking-Server**: Wenn der Hostname der Anforderung mit der Domäne übereinstimmt, in der Sie sich befinden, ist es ein Erstanbieter-Tracking-Server. Wenn Sie sich beispielsweise auf `adobe.com`befinden, `adobe.com` ist dies der Erstanbieter-Tracking-Server.
    * **Tracking-Server** von Drittanbietern: Ein Drittanbieter-Tracking-Server ist normalerweise `[company].sc.omtrdc.net` der Name Ihrer Firma, endet aber immer in der Firma `sc.omtrdc.net`.
@@ -51,7 +51,7 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität wie
    >
    >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
-## Abrufen des Analytics-Tracking-Servers mithilfe der Developer Tools Ihres Browsers
+## Analytics-Tracking-Server mit den Developer Tools Ihres Browsers abrufen
 
 Die Entwicklerwerkzeuge sollten auf einer Seite angezeigt werden, auf der die Aktivität bereitgestellt wird, um sicherzustellen, dass Sie den richtigen Trackingserver auswählen. Alternativ kann für jedes Konto ein Standard-Trackingserver angegeben werden. Wenden Sie sich an die Kundenunterstützung, wenn Sie die Standardeinstellung bearbeiten oder festlegen möchten.
 
@@ -61,7 +61,7 @@ Die Entwicklerwerkzeuge sollten auf einer Seite angezeigt werden, auf der die Ak
 
 1. Click the **[!UICONTROL Network]** tab.
 
-1. Filtern nach, `/ss,` um die Analyseanforderungen anzuzeigen.
+1. Filtern nach, `/ss,` um die Analytics-Anforderungen anzuzeigen.
 
    ![Chrome-Entwicklerwerkzeuge mit /ss-Suche](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
