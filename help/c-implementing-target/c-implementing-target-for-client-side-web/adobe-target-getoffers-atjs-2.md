@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1223'
 ht-degree: 95%
 
 ---
@@ -32,7 +32,7 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 
 >[!NOTE]
 >
->Consult the [Delivery API documentation](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) for information about the acceptable types for all fields listed below.
+>Informationen zu den zulässigen Typen für alle unten aufgeführten Felder finden Sie in der Dokumentation [zur](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) Versand-API.
 
 | Feldname | Erforderlich? | Einschränkungen | Beschreibung |
 | --- | --- | --- | --- |
@@ -268,9 +268,9 @@ In diesem Beispiel werden die CSS-Selektoren mit einer Zähl-Variablen erstellt.
 
 Beachten Sie, dass dieses Beispiel `prefetch > mboxes` verwendet, Sie könnten aber auch `execute > mboxes` verwenden. Stellen Sie sicher, dass Sie bei Verwendung von Vorausholen (prefetch) in `getOffers()` auch beim Aufruf von `applyOffers()` Vorausholen verwenden sollten.
 
-## Call Call `getOffers()` to perform a pageLoad
+## Aufruf `getOffers()` zur Ausführung von pageLoad
 
-The following example shows you how to perform a pageLoad using getOffers() with at.js 2.*x* 
+Das folgende Beispiel zeigt, wie Sie pageLoad mit getOffers() mit at.js 2 ausführen.*x* 
 
 ```
 adobe.target.getOffers({
