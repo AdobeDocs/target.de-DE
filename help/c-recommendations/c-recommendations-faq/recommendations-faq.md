@@ -5,17 +5,23 @@ title: Häufig gestellte Fragen zu Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 84%
+source-wordcount: '2019'
+ht-degree: 80%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) FAQ zu Recommendations{#recommendations-faq}
 
-List of frequently asked questions (FAQs) about Adobe Target Recommendations activities.
+Liste häufig gestellter Fragen zu Adobe Target Recommendations-Aktivitäten.
+
+## Warum zeigt die Katalogsuche nicht die richtigen Ergebnisse an, wenn ich nach einem benutzerdefinierten Attribut mit einem numerischen Wert suche?
+
+Wenn Sie eine Katalogsuche für ein benutzerdefiniertes Attribut mit einem numerischen Wert durchführen, wird das benutzerdefinierte Attribut als String-Typ und nicht als numerischer Wert betrachtet.
+
+Derzeit gibt es keine Funktion, mit der Kunden den Attributtyp ändern können. Um eine Änderung vorzunehmen, [öffnen Sie ein Kundenproblem](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) , das auf die Attribute verweist, bei denen der Typ von der Zeichenfolge in numerisch geändert werden muss.
 
 ## Wie lange dauert es, bis Aktualisierungen an Elementen in meinem Katalog auf meiner Site erscheinen?
 
@@ -163,7 +169,7 @@ In der Abfragezeichenfolge können Sie Entität-IDs für Entitäten übermitteln
 
 Verwenden Sie den Mbox-Parameter `excludedIds`, um die Ausschlussfunktion zu aktivieren. Dieser Parameter verweist auf eine Liste kommagetrennter Entitäts-IDs. Zum Beispiel `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Der Wert wird übermittelt, wenn Empfehlungen angefordert werden.
 
-The exclusion is performed for the current Target call only; items are not excluded on subsequent Target calls unless the `excludedIds` value is passed again. Um Artikel im Warenkorb von Empfehlungen auf jeder Seite auszuschließen, geben Sie den `excludedIds` Wert weiterhin auf jeder Seite weiter.
+Der Ausschluss wird nur für den Aufruf der aktuellen Zielgruppe durchgeführt. Elemente werden bei nachfolgenden Zielgruppen-Aufrufen nur dann ausgeschlossen, wenn der `excludedIds` Wert erneut übergeben wird. Um Artikel im Warenkorb von Empfehlungen auf jeder Seite auszuschließen, geben Sie den `excludedIds` Wert weiterhin auf jeder Seite weiter.
 
 >[!NOTE]
 >
@@ -175,7 +181,7 @@ Diese Funktion ist für neu erstellte Empfehlungen standardmäßig aktiviert. Be
 
 ## Was bedeutet die Antwort NO_CONTENT manchmal, die im Recommendations Content Trace zurückgegeben wird?
 
-NO_CONTENT is returned when recommendations are unavailable for the requested algorithm and key combination. Generally speaking, this occurs when backups are disabled for the algorithm and one or more of the following is also true:
+NO_CONTENT wird zurückgegeben, wenn für die angeforderte Algorithmus- und Schlüsselkombination keine Empfehlungen verfügbar sind. Im Allgemeinen tritt dies auf, wenn Backups für den Algorithmus deaktiviert sind und mindestens einer der folgenden Punkte ebenfalls zutrifft:
 
 * Die Ergebnisse sind noch nicht bereit.
 
@@ -183,11 +189,11 @@ NO_CONTENT is returned when recommendations are unavailable for the requested al
 
 * Die Ergebnisse sind für die angeforderte Algorithmus-/Schlüsselkombination bereit, jedoch noch nicht auf dem nächsten Edge-Server zwischengespeichert.
 
-   The request just made will initiate a caching operation, so this should resolve itself after a few page reloads and/or a few minutes pass.
+   Die soeben angeforderte Anforderung initiiert einen Zwischenspeicherungsvorgang, der nach einigen Seitenneuladungen und/oder einigen Minuten nach Ablauf gelöst werden sollte.
 
 * Die Ergebnisse sind bereit, aber für den bereitgestellten Schlüsselwert nicht verfügbar.
 
-   This typically occurs when requesting recommendations for an item that was added to the catalog after the most recent algorithm run and will resolve itself after the next algorithm run.
+   Dies tritt in der Regel auf, wenn Empfehlungen für ein Element angefordert werden, das nach der Ausführung des letzten Algorithmus zum Katalog hinzugefügt wurde, und sich nach der Ausführung des nächsten Algorithmus selbst auflösen.
 
 * Die teilweise Vorlagenwiedergabe ist deaktiviert und es sind nicht genügend Ergebnisse zum Ausfüllen der Vorlage verfügbar.
 
