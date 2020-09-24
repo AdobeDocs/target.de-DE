@@ -5,9 +5,9 @@ title: Katalogsuche in Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1016'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,12 @@ Sie können eine einfache oder eine erweiterte Suche verwenden, um Elemente in I
    Beachten Sie, dass Sie die Funktion für die automatische Vervollständigung der Suche verwenden können. In der folgenden Abbildung werden bei Eingabe von &quot;bik&quot;alle Produkte zurückgegeben, die das Wort &quot;bike&quot;enthalten.
 
    ![Autom. Suche](/help/c-recommendations/c-products/assets/bike-results-2.png)
+
+   >[!NOTE]
+   >
+   >Wenn Sie eine Katalogsuche für ein benutzerdefiniertes Attribut mit einem numerischen Wert durchführen, wird das benutzerdefinierte Attribut als String-Typ und nicht als numerischer Wert betrachtet.
+   >
+   >Derzeit gibt es keine Funktion, mit der Kunden den Attributtyp ändern können. Um eine Änderung vorzunehmen, [öffnen Sie ein Kundenproblem](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) , das auf die Attribute verweist, bei denen der Typ von der Zeichenfolge in numerisch geändert werden muss.
 
 1. Sie können auch Filter verwenden, um das gewünschte Produkt zu finden. Im folgenden Beispiel werden alle Fahrradwerkzeuge in Ihrem Katalog angezeigt, indem Sie die Facette [!UICONTROL Kollektionen] erweitern und &quot;Fahrradwerkzeuge&quot;auswählen.
 
@@ -170,12 +176,3 @@ Sie können die aktiven Spalten auf der Seite &quot; [!UICONTROL Katalogsuche] &
 
 Denken Sie daran, dass alle Änderungen, die Sie vornehmen, nur für die aktuelle Sitzung gelten.
 
-## Häufig gestellte Fragen {#faq}
-
-Hilfe zur Funktion [!UICONTROL Katalogsuche] erhalten Sie in den folgenden häufig gestellten Fragen:
-
-### Warum zeigt die Katalogsuche nicht die richtigen Ergebnisse an, wenn ich nach einem benutzerdefinierten Attribut mit einem numerischen Wert suche?
-
-Wenn Sie eine Katalogsuche für ein benutzerdefiniertes Attribut mit einem numerischen Wert durchführen, wird das benutzerdefinierte Attribut als String-Typ und nicht als numerischer Wert betrachtet.
-
-Derzeit gibt es keine Funktion, mit der Kunden den Attributtyp ändern können. Um eine Änderung vorzunehmen, [öffnen Sie ein Kundenproblem](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) , das auf die Attribute verweist, bei denen der Typ von der Zeichenfolge in numerisch geändert werden muss.
