@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '2361'
+source-wordcount: '2396'
 ht-degree: 29%
 
 ---
@@ -23,7 +23,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 24. September | [Lesezeichenliste für Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Code für das Aktivität QA Bookmarklet für at.js 2 aktualisiert.*x*. |
-|  | [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md#faq) | Es wurde ein FAQ-Abschnitt hinzugefügt. |
+|  | [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md#faq) | Es wurde ein Hinweis zur Suche nach einem benutzerdefinierten Attribut mit einem numerischen Wert hinzugefügt. |
+|  | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Warum zeigt die Katalogsuche nicht die richtigen Ergebnisse an, wenn ich nach einem benutzerspezifischen Attribut mit einem numerischen Wert suche?&quot; |
 |  | [Funktionsweise von Target](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | Die in &quot;The edge network&quot;aufgelisteten Speicherorte für Zielgruppen-Cluster und Zielgruppen-Zentrale wurden aktualisiert. |
 | 23. September | [Verwenden eines Analytics-Trackingservers](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | Das gesamte Thema wurde mit Informationen aus den Entwicklerwerkzeugen [!DNL Adobe Experience Platform Debugger] und dem Browser aktualisiert. |
 |  | [Nützliche Variablen, Profile, Parameter und Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Die Zeile &quot;user.header(&#39;x-forwarded-for&#39;)&quot;wurde aktualisiert, um anzugeben, dass &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot;nicht mehr unterstützt wurde. |
