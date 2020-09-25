@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -28,12 +28,12 @@ Neben anderen Vorteilen sorgt [!DNL at.js] für kürzere Ladezeiten von Seiten b
 
 ## Vorteile von at.js {#benefits}
 
-The following table explains the differences between the two libraries:
-4
-| Library Reference | Description |
+In der folgenden Tabelle werden die Unterschiede der beiden Bibliotheken erläutert:
+
+| Bibliotheksreferenz | Beschreibung |
 |--- |--- |
-|at.js|at.js replaces mbox.js for [!DNL Target] implementations.<br>Neben anderen Vorteilen sorgt at.js für kürzere Ladezeiten von Seiten bei Webimplementierungen, bessere Sicherheit, Vermeidung von document.write-Warnungen in Google Chrome und bessere Implementierungsoptionen für Einzelseiten-Apps.<br>Weitere Informationen finden Sie unter [„at.js“-Implementierung](#implement).|
-|mbox.js|Prior to [!DNL Target] 16.3.1 (March 2016), [!DNL Target] required a call to mbox.js to create the global mbox required for [!DNL Target] to deliver activities, track clicks, and track most success metrics. Diese Datei enthält alle für Ihre Aktivitäten erforderlichen Bibliotheken. Daher müssen Sie keine unterschiedlichen Dateiversionen für einzelne Aktivitäten verwalten.<br>Wenn bereits umgebrochene Mboxes von einer früheren [!DNL Target]-Implementierung auf Ihren Seiten vorhanden sind, können diese Mboxes auch auf der neuen Benutzeroberfläche verwendet werden. Die aktualisierte mbox.js-Datei ist nach wie vor erforderlich, diese Mboxes können jedoch für Aktivitäten ausgewählt und mit dem Visual Experience Composer bearbeitet werden.<br>[!DNL Target] Standard und Premium aktualisieren und ergänzen mbox.js mit einer Referenz zu einer Datei namens target.js. Die target.js-Datei wird von Adobe gehostet. Die Datei Target.js ermöglicht das Bearbeiten von Inhalten auf einer beliebigen Seite im Visual Experience Composer, auch dann, wenn die Seite keine vordefinierten Mboxes enthält. Auf jeder Seite Ihrer Website muss auf diese Datei verwiesen werden.<br>Weitere Informationen finden Sie unter [„mbox.js“-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md).<br>**Wichtig:**Die „mbox.js“-Bibliothek wird weiterhin unterstützt, aber es gibt keine weiteren Funktionsupdates. Alle Kunden sollten auf at.js migrieren. Weitere Informationen finden Sie unter[Migration zu at.js von mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)<br>|
+| at.js | at.js ersetzt mbox.js für [!DNL Target]-Implementierungen.<br>Neben anderen Vorteilen sorgt at.js für kürzere Ladezeiten von Seiten bei Webimplementierungen, bessere Sicherheit, Vermeidung von document.write-Warnungen in Google Chrome und bessere Implementierungsoptionen für Einzelseiten-Apps.<br>Weitere Informationen finden Sie unter [„at.js“-Implementierung](#implement). |
+| mbox.js | Vor [!DNL Target] 16.3.1 (März 2016) benötigte [!DNL Target] einen Aufruf an mbox.js, um die globale Mbox zu erstellen, die erforderlich war, damit [!DNL Target] Aktivitäten bereitstellen sowie Klicks und die meisten Erfolgsmetriken verfolgen konnte. Diese Datei enthält alle für Ihre Aktivitäten erforderlichen Bibliotheken. Daher müssen Sie keine unterschiedlichen Dateiversionen für einzelne Aktivitäten verwalten.<br>Wenn bereits umgebrochene Mboxes von einer früheren [!DNL Target]-Implementierung auf Ihren Seiten vorhanden sind, können diese Mboxes auch auf der neuen Benutzeroberfläche verwendet werden. Die aktualisierte mbox.js-Datei ist nach wie vor erforderlich, diese Mboxes können jedoch für Aktivitäten ausgewählt und mit dem Visual Experience Composer bearbeitet werden.<br>[!DNL Target] Standard und Premium aktualisieren und ergänzen mbox.js mit einer Referenz zu einer Datei namens target.js. Die target.js-Datei wird von Adobe gehostet. Die Datei Target.js ermöglicht das Bearbeiten von Inhalten auf einer beliebigen Seite im Visual Experience Composer, auch dann, wenn die Seite keine vordefinierten Mboxes enthält. Auf jeder Seite Ihrer Website muss auf diese Datei verwiesen werden.<br>Weitere Informationen finden Sie unter [„mbox.js“-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md).<br>**Wichtig:** Die „mbox.js“-Bibliothek wird weiterhin unterstützt, aber es gibt keine weiteren Funktionsupdates. Alle Kunden sollten auf at.js migrieren. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md) |
 
 ## Implementieren von at.js {#implement}
 
