@@ -5,9 +5,9 @@ title: Multivarianz-Test
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1440'
 ht-degree: 91%
 
 ---
@@ -29,7 +29,7 @@ Multivarianz-Tests helfen Ihnen auch dabei, zusammengesetzte Effekte zwischen zw
 
 In Target entspricht jede Kombination einem Erlebnis. Der Multivariater Test vergleicht die einzelnen Erlebnisse, sodass Sie erfahren, welche Kombinationen am erfolgreichsten sind. Daten werden gleichzeitig erfasst und analysiert, um zu verstehen, wie die Erfolgsmetrik durch die einzelnen Orte und Angebote beeinflusst wird.
 
-![](assets/multivariate.png){width=&quot;672px&quot;}
+![](assets/multivariate.png)
 
 Aufgrund der Anzahl der Kombinationen, die sich generieren lassen, erfordert ein Multivariater Test mehr Zeit und mehr Traffic als ein A/B-Test. Der auf der Seite eingehende Traffic muss ausreichend sein, um statistisch signifikante Ergebnisse für jedes Erlebnis zu erzielen. Um sinnvolle Ergebnisse zu erhalten, müssen Sie den eingehenden Traffic auf Ihrer Seite verstehen und die optimale Anzahl von Kombinationen über die richtige Zeitdauer testen. Die [Traffic-Schätzung](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) von Target kann Ihnen dabei helfen, einen Test zu entwerfen, der mit Ihrem Traffic funktioniert. Bevor Sie die Traffic-Schätzung verwenden, müssen Sie über gute Statistiken verfügen, aus denen die Anzahl der Impressionen und Konversionen hervorgeht, die Ihre Seite normalerweise erhält. Berücksichtigen Sie Ihr tägliches Traffic-Niveau. Je mehr Erlebnisse in einer Aktivität enthalten sind, desto mehr Traffic muss die Aktivität einbeziehen bzw. desto länger muss Ihre Aktivität ausgeführt werden. Wenn Ihr Traffic nicht sehr hoch ist, sollten Sie eine kleinere Anzahl von Kombinationen testen; anderenfalls könnte zu viel Zeit erforderlich sein, um gehaltvolle Testergebnisse zu erzielen.
 
@@ -71,7 +71,7 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
 
 * Planen Sie in Anbetracht der gestiegenen Anzahl der Erlebnisse zusätzliche Zeit für die Qualitätssicherung ein. Sie können auch partielle Tests verwenden, um den Traffic zu verringern, der für einen Multivarianz-Test erforderlich ist. Weitere Informationen finden Sie unter Teilweise Tests unten:
 
-## Partial-factorial testing
+## Teilweise Prüfung
 
 [!DNL Target] bietet vollfaktorielle Multivariater Tests als integrierte Aktivitätsoption. In Statistiken bietet Design of Experiments viele Ansätze bzw. Designs, um zu bestimmen, welche Faktoren Ergebnisse beeinflussen. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. Mit Taguchi können Marketingexperten einen Satz von Voraussetzungen festlegen, der die Anzahl der Permutationen von Erlebnissen reduziert, die getestet werden müssen, und senkt gleichzeitig die Traffic-Anforderungen für einen multivariaten Test. Dieser Funktionalitäts- und Testansatz kann in [!DNL Target] unter Nutzung [dieser Offline-Tabelle](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx) verwendet werden.
 
@@ -91,9 +91,9 @@ Weitere Informationen und Best Practices finden Sie unter [Best Practices für M
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Activity Types (9:03) ![Overview badge](/help/assets/overview.png)
+### Aktivität Types (9:03) - ![Überblick](/help/assets/overview.png)
 
-This overview video explains the activity types available in Target Standard/Premium. Multivariate Tests werden ab 4:20 erklärt.
+In diesem Übersichtsvideo werden die in Target Standard/Premium verfügbaren Aktivitäten erläutert. Multivariate Tests werden ab 4:20 erklärt.
 
 * Beschreiben Sie die Arten von Aktivitäten, die Teil von [!DNL Adobe Target] sind
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
@@ -101,7 +101,7 @@ This overview video explains the activity types available in Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Creating Multivariate Tests (9:25) ![Tutorial badge](/help/assets/tutorial.png)
+### Erstellen von Multivarianz-Tests (9:25) - ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird erklärt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test aufgebaut, geplant und erstellt wird.
 
