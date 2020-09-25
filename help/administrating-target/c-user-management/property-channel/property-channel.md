@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -18,7 +18,7 @@ ht-degree: 81%
 
 Enterprise user permissions is a means of formal administering enterprise-wide user access to [!DNL Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], or [!UICONTROL Approver].
 
-## Determine whether you have access to enterprise user permissions
+## Bestimmen, ob Sie Zugriff auf Berechtigungen für Unternehmensbenutzer haben
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Alle Zielgruppen und Aktivitäten, die vor der Migration des Modells für Untern
 
 All activities created via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services], and [!DNL Adobe Target Classic] will be part of the &quot;Default Workspace.&quot;
 
-### Default workspace
+### Standardarbeitsbereich
 
 All existing workspaces (product profiles) within [!DNL Admin Console] are merged into a single workspace called &quot;Default Workspace&quot; during your organization&#39;s migration to the new Enterprise Permissions model.
 
@@ -80,11 +80,11 @@ All existing workspaces (product profiles) within [!DNL Admin Console] are merge
 
 All user roles and access to all [!DNL Target] functionality remains exactly the same as they were prior to the migration to the new Enterprise Permissions model.
 
-### User groups
+### Benutzergruppen
 
 Sie können Benutzergruppen wie Entwickler, Analytiker, Marketingexperten, Manager usw. erstellen und ihnen dann Benutzerrechte für verschiedene Adobe-Produkte und -Arbeitsbereiche zuweisen. Das Zuweisen der passenden Berechtigungen für ein Team-Mitglied für zwei Adobe-Produkte kann oft einfach durch Zuweisung zu einer einzigen Benutzergruppe vorgenommen werden.
 
-### Roles and permissions
+### Rollen und Berechtigungen
 
 Rollen und Berechtigungen bestimmen, welche Zugriffsebene Benutzer haben, um Aktivitäten in der [!DNL Target]-Implementierung zu erstellen und zu verwalten. In [!DNL Target] gibt es folgende Rollen:
 
@@ -93,7 +93,7 @@ Rollen und Berechtigungen bestimmen, welche Zugriffsebene Benutzer haben, um Akt
 | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
 | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
 | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-| Publisher | Ähnlich wie bei der Rolle &quot;Beobachter&quot;(Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). However, the Publisher role has the additional permission to activate activities. |
+| Publisher | Ähnlich wie bei der Rolle &quot;Beobachter&quot;(Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
 
 ### Kanal
 
@@ -122,7 +122,8 @@ Jede Rolle verfügt über eigene Zugriffsniveaus:
 | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
 | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
 | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-| Publisher | Similar to the Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities. |
+| Publisher | Ähnlich wie bei der Rolle &quot;Beobachter&quot;(Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
+
 Es muss dabei berücksichtigt werden, dass die Benutzerrolle für alle Seiten, Eigenschaften oder Sites Ihres Kontos gilt, die über [!DNL Target]-Tags verfügen, wie unten dargestellt:
 
 ![](assets/permissions_2.png)
@@ -200,7 +201,7 @@ Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL 
 
 * **Zielgruppenerstellung:** Bei Erstellung einer neuen Zielgruppe wird diese dem aktuell ausgewählten Arbeitsbereich zugewiesen.
 * **Angebotserstellung:** Bei Erstellung eines neuen Angebots wird dieses dem aktuell ausgewählten Arbeitsbereich zugewiesen.
-* **Properties page (Administration > Properties):** You can use the [!UICONTROL Search] box to search the [!UICONTROL Property] list.
+* **Eigenschaftenseite (Administration > Eigenschaften):** Sie können das Feld [!UICONTROL Suchen] verwenden, um die Liste [!UICONTROL Eigenschaft] zu durchsuchen.
 
    ![](assets/properties_list.png)
 
@@ -220,11 +221,11 @@ Consider the following when using or configuring properties and permissions in [
 
    * Visual Experience Composer
    * Berichterstellung
-   * Scene7 Configuration
+   * Scene7-Konfiguration
    * Implementierung
    * Properties
    * Hosts
-   * Environments
+   * Umgebung
    * Antwort-Token
    * Benutzer
 
@@ -301,12 +302,12 @@ Lernziele:
 Dieses Video ist eine Aufzeichnung von Office Hours, eine Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
 
 * Erstellen eines Arbeitsbereichs (Profil des Produkts)
-* Creating properties
-* Adding users
-* Updating implementation
+* Eigenschaften erstellen
+* Hinzufügen von Benutzern
+* Implementierung aktualisieren
 
 >[!NOTE]
 >
->The [!DNL Target] [!UICONTROL Administration] menu UI (formerly [!UICONTROL Setup]) has been redesigned to provide improved performance, reduce the maintenance time required when releasing new features, and to improve the user experience across the product. The information in the following video is generally correct; however, options might be in slightly different locations. Updated videos will be posted soon.
+>Die Benutzeroberfläche des [!DNL Target] Administrationsmenüs [!UICONTROL (früher] Setup ) wurde überarbeitet, um die Leistung zu verbessern, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu verkürzen und die Benutzerfreundlichkeit im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
