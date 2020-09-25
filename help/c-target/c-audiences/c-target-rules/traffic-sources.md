@@ -1,14 +1,14 @@
 ---
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Erstellen Sie Zielgruppen in Adobe Target aus Besuchern auf Grundlage der Suchmaschine oder Landingpage, von der sie auf Ihre Site geleitet werden.
-title: Targeting von Traffic-Quellen in Adobe Target
+title: Optionen für Traffic-Quellen in Adobe Target-Audiencen
 feature: audiences
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 99%
+source-wordcount: '235'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Sie können mehrere Traffic-Quellen kombinieren, um eine komplexe Targeting-Rege
 
 Sie können Benutzer, die durch eine bestimmte Suchmaschine oder eine bestimmte Landingpage auf Ihre Site verwiesen werden, als Ziel auswählen.
 
-## Schulungsvideo: Erstellen von Zielgruppen ![Overview badge](/help/assets/overview.png)
+## Schulungsvideo: Erstellen von Zielgruppen ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
