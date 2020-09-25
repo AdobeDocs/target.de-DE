@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 57%
@@ -45,6 +45,6 @@ Sie müssen einige Parameter festlegen, um Ihre vorhandene globale MBox für [!D
 
 Die folgenden häufig gestellten Fragen können zur Fehlerbehebung bei der Implementierung der globalen Mbox verwendet werden:
 
-### Wieso wird die globale Mbox nicht geladen oder wieso gibt es eine Wartezeit beim Laden der globalen Mbox beim Laden der Seite?*
+### Wieso wird die globale Mbox nicht geladen oder wieso gibt es eine Wartezeit beim Laden der globalen Mbox beim Laden der Seite?
 
 Stellen Sie sicher, dass der &quot;at.js&quot;-Verweis der erste JavaScript-Aufruf auf der Seite ist. Weitere Lösungen zu diesem Problem finden Sie unter Häufig gestellte Fragen zur [globalen Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md).
