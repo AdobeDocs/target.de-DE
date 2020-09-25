@@ -1,14 +1,14 @@
 ---
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
 description: Sie können Besucher auf einer bestimmten Seite Ihrer Site Zielgruppe werden.
-title: Site-Seiten in Adobe Target
+title: Seitenoptionen in Adobe Target-Audiencen
 feature: audiences
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '862'
 ht-degree: 43%
 
 ---
@@ -24,7 +24,7 @@ Sie können Besucher auf einer bestimmten Seite Ihrer Site Zielgruppe werden.
 
    ![Seiten der Site als Zielgruppe](assets/target_site_pages.png)
 
-1. Click the **[!UICONTROL Select]** drop-down list, select one of the following options, then configure the rule as desired.
+1. Klicken Sie auf die Dropdown-Liste **[!UICONTROL Auswählen]** , wählen Sie eine der folgenden Optionen und konfigurieren Sie dann die Regel wie gewünscht.
 
    Die verfügbaren Optionen und Bewertungsfaktoren in den nachfolgenden Dropdown-Listen in der Regel variieren je nach ausgewählter Option. Die folgende Abbildung zeigt die verfügbaren Optionen, wenn Sie &quot; [!UICONTROL Aktuelle Seite]&quot;auswählen:
 
@@ -92,7 +92,7 @@ Sie können Besucher auf einer bestimmten Seite Ihrer Site Zielgruppe werden.
       * If-none-match
       * If-Range
       * If-Unchanged-Since
-      * Max-Forwards
+      * Max. Vorwärts
       * Pragma
       * Proxy-Autorisierung
       * Bereich
@@ -103,7 +103,7 @@ Sie können Besucher auf einer bestimmten Seite Ihrer Site Zielgruppe werden.
       * Via
       * Warnung
 
-   If you chose [!UICONTROL Current Page], [!UICONTROL Previous Page], or [!UICONTROL Landing Page], the [!UICONTROL Domain] and [!UICONTROL Query] options are available. Consider the following when choosing these options:
+   Wenn Sie &quot; [!UICONTROL Aktuelle Seite]&quot;, &quot; [!UICONTROL Vorherige Seite]&quot;oder &quot; [!UICONTROL Landingpage]&quot;auswählen, stehen die Optionen &quot; [!UICONTROL Domäne] &quot;und &quot; [!UICONTROL Abfrage] &quot;zur Verfügung. Berücksichtigen Sie bei der Auswahl dieser Optionen Folgendes:
 
    * **Domäne:** Die vollständige Domäne der Seite Für das Festlegen einer Domäne wird die Versendung von „contains“ empfohlen. Beispiel: „Domain equals facebook.com“ wird `m.facebook.com` oder `www.facebook.com` nicht akzeptieren. „Domain contains facebook.com“ hingegen erfasst alle Varianten von „facebook.com“.
    * **Abfrage:** Der Inhalt der URL nach dem ersten Fragezeichen (?) 
@@ -122,7 +122,7 @@ Sie können Website-Zielgruppen auch mit einem eigenen „benutzerdefinierten Ab
 Verwenden Sie:
 
 * Abfrageparameter, wenn die vom Benutzer ausgewählte Regel „Aktuelle Seite“, „Landingpage“ oder „Vorherige Seite“ lautet.
-* Header if the rule selected by the user is an HTTP header.
+* Kopfzeile, wenn die vom Benutzer ausgewählte Regel ein HTTP-Header ist.
 
 Siehe Abbildung unten:
 
@@ -130,16 +130,15 @@ Siehe Abbildung unten:
 
 ## Fehlerbehebung {#ts}
 
-* For landing page audiences to function properly, requests must have the `mboxReferrer` parameter set (for the Delivery API the `context.address.referringUrl` parameter) that the at.js JavaScript library takes from the page using the `document.referrer` attribute. This `HTMLDocument` attribute returns the URI of the page the user has navigated from. The value of this attribute is an empty string when the user navigates to the page directly (not through a link, but, for example, via a bookmark).
+* Damit Audiencen der Landingpage ordnungsgemäß funktionieren, müssen für Anforderungen die `mboxReferrer` Parametersätze festgelegt sein (für die Versand-API der `context.address.referringUrl` Parameter), die die JavaScript-Bibliothek &quot;at.js&quot;mithilfe des `document.referrer` Attributs von der Seite nimmt. Dieses `HTMLDocument` Attribut gibt den URI der Seite zurück, von der der Benutzer navigiert hat. Der Wert dieses Attributs ist eine leere Zeichenfolge, wenn der Benutzer direkt zur Seite navigiert (nicht über einen Link, sondern z. B. über ein Lesezeichen).
 
-   If this behavior does not match your requirements, consider performing one of the following actions:
+   Wenn dieses Verhalten nicht Ihren Anforderungen entspricht, führen Sie einen der folgenden Schritte aus:
 
    * Übergeben Sie [Mbox-Parameter](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) , die für Targeting-Zwecke verwendet [!DNL Target] werden sollen.
-   * Use an [A/B Test activity](/help/c-activities/t-test-ab/test-ab.md) instead of a landing page activity. A/B-Test-Aktivitäten wechseln die Erlebnisse nicht für denselben Besucher.
+   * Verwenden Sie eine [A/B-Test-Aktivität](/help/c-activities/t-test-ab/test-ab.md) anstelle einer Landingpage-Aktivität. A/B-Test-Aktivitäten wechseln die Erlebnisse nicht für denselben Besucher.
    * Verwenden Sie stattdessen ein [Besucher-Profil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) .
 
-* When using &quot;starts/ends with&quot; evaluators on strings containing commas, be aware that these
-are evaluated as an array of values, in which each value separated by comma is evaluated. For example if we have the value for a header: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` it will quaify for conditons like:
+* Beachten Sie bei der Verwendung von &quot;Beginns/ends with&quot;-Bewertungselementen für Zeichenfolgen, die Kommas enthalten, dass diese Werte als Wertearray ausgewertet werden, in dem jeder durch Kommas getrennte Wert ausgewertet wird. Beispiel: Wenn der Wert für eine Kopfzeile vorhanden ist: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` es ist für Bedingungen wie:
    * beginn mit Zh,
    * beginn mit en,
    * endet mit 0,7,
