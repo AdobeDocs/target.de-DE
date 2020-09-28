@@ -5,7 +5,7 @@ title: Vor der Implementierung von Adobe Analytics als Berichte-Quelle für Adob
 feature: a4t implementation
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 75fa021c00940c87cf4b2bfa0e2875bb396079a1
+source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 52%
@@ -75,7 +75,7 @@ Hits that contain data from [!DNL Analytics] and [!DNL Target] contain a supplem
 * Der Besucher-ID-Service wurde implementiert.
 * Eine Version von [!DNL mbox.js], die diese Integration unterstützt, wurde implementiert.
 
-When troubleshooting, be sure to confirm that the supplemental ID is present on [!DNL Analytics] hits.
+When [troubleshooting](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), be sure to confirm that the supplemental ID is present on [!DNL Analytics] hits.
 
 ## Clientseitige Analytics-Protokollierung {#client-side}
 
