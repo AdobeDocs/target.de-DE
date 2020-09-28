@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,10 @@ Die Liste der Report Suites, die in Target Standard/Premium angezeigt wird, ist 
 
 ## In meinen Berichten sind weniger Daten vorhanden als erwartet. {#section_75002584FA63456D8D9086172925DD8D}
 
-Überprüfen Sie Ihre Implementierung, insbesondere auf Seiten, auf denen Ihre Besucher die Kriterien für Erlebnisse erfüllen und stellen Sie sicher, dass die zusätzlichen Daten-IDs in den [!DNL Target]- und den [!DNL Analytics]-Aufrufen übereinstimmen. Im [!DNL Target]-Aufruf ist die zusätzliche ID im Parameter `mboxMCSDID` enthalten. Im [!DNL Analytics]-Aufruf ist die zusätzliche ID im Parameter `sdid` enthalten.
+Überprüfen Sie Ihre Implementierung, insbesondere auf Seiten, auf denen Ihre Besucher die Kriterien für Erlebnisse erfüllen und stellen Sie sicher, dass die zusätzlichen Daten-IDs in den [!DNL Target]- und den [!DNL Analytics]-Aufrufen übereinstimmen.
+
+* **at.js 1.x**: Im [!DNL Target] Aufruf ist die zusätzliche ID im Parameter enthalten `mboxMCSDID` . Im [!DNL Analytics]-Aufruf ist die zusätzliche ID im Parameter `sdid` enthalten.
+* **at.js 2.x**: Die zusätzliche ID wird im HTTP-Header als Wert für zurückgegeben `experienceCloud.analytics.supplementalDataId`.
 
 Falls im [!DNL Target]-Aufruf keine zusätzliche Daten-ID enthalten ist, prüfen Sie, ob die Datei [!DNL VisitorAPI.js] vor [!DNL at.js] oder [!DNL mbox.js] geladen wird. Falls im [!DNL Analytics]-Aufruf keine zusätzliche Daten-ID enthalten ist, prüfen Sie, ob der [!DNL Target]-Aufruf vor dem [!DNL Analytics]-Aufruf erfolgt.
 
