@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
+source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 95%
+source-wordcount: '741'
+ht-degree: 90%
 
 ---
 
@@ -81,6 +81,12 @@ Die Liste der Report Suites, die in Target Standard/Premium angezeigt wird, ist 
 
 * **at.js 1.x**: Im [!DNL Target] Aufruf ist die zusätzliche ID im Parameter enthalten `mboxMCSDID` . Im [!DNL Analytics]-Aufruf ist die zusätzliche ID im Parameter `sdid` enthalten.
 * **at.js 2.x**: Die zusätzliche ID wird im HTTP-Header als Wert für zurückgegeben `experienceCloud.analytics.supplementalDataId`.
+
+Die zusätzliche ID lässt sich am einfachsten mit dem Adobe Experience Platform Debugger überprüfen.
+
+Wenn Sie den Debugger nicht installiert haben, finden Sie weitere Informationen unter [Einführung in den Adobe Experience Platform Debugger](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+
+![Debugger](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
 Falls im [!DNL Target]-Aufruf keine zusätzliche Daten-ID enthalten ist, prüfen Sie, ob die Datei [!DNL VisitorAPI.js] vor [!DNL at.js] oder [!DNL mbox.js] geladen wird. Falls im [!DNL Analytics]-Aufruf keine zusätzliche Daten-ID enthalten ist, prüfen Sie, ob der [!DNL Target]-Aufruf vor dem [!DNL Analytics]-Aufruf erfolgt.
 
