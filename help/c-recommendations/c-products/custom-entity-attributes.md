@@ -6,9 +6,9 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
+source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1379'
 ht-degree: 90%
 
 ---
@@ -70,7 +70,7 @@ Doppelte Anführungszeichen müssen mit Escapezeichen angegeben werden. Zum Beis
 
 Sie können bis zu 500 Werte in einem Attribut mit mehreren Werten einbeziehen.
 
-**Verwenden von targetPageParams**
+### Verwenden von targetPageParams
 
 Das folgende Beispiel zeigt, wie Sie Folgendes verwenden:  `targetPageParams`
 
@@ -89,7 +89,7 @@ function targetPageParams() {
 }
 ```
 
-**Verwenden von CSV-Dateien**
+### Verwenden von CSV-Dateien
 
 Sie können Ihre CSV-Dateien im Rohformat verwalten, indem Sie einen Texteditor verwenden oder stattdessen mit einem Tabellenkalkulationsprogramm arbeiten.
 
@@ -108,7 +108,7 @@ Wird eine Tabelle in das .csv-Format konvertiert, werden vom Programm automatisc
 
 Gehen Sie bei der direkten Bearbeitung einer CSV-Katalogdatei im Rohformat vorsichtig vor.
 
-**Verwenden von APIs**
+### Verwenden von APIs
 
 Sie können Attribute mit mehreren Werten mithilfe der Versand-API in einem mbox-Parameter als Zeichenfolgenwert mit einem Escape-Array übergeben.
 
@@ -261,7 +261,6 @@ Beispiel:
 
 Wenn auf `entity.genre=["genre1","genre2"]` in einem Entwurf als `$entity<N>.genre` verwiesen wird, lautet das Ergebnis `genre1, genre2`.
 
->[!MORELIKETHIS]
->
->* [Entitätsattribute](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+## Verwandte Themen:
 
+* [Entitätsattribute](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
