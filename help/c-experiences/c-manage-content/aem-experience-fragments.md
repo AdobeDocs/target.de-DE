@@ -6,10 +6,10 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: e846109c476f98b4adc09d8b9dd2c2ef039b5ef7
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 92%
+source-wordcount: '1118'
+ht-degree: 91%
 
 ---
 
@@ -145,6 +145,7 @@ Mit dem [Visual Experience Composer](/help/c-experiences/c-visual-experience-c
 * [!DNL Target] sucht derzeit alle zehn Minuten nach zu importierenden Experience Fragments. Das importierte Experience Fragment sollte innerhalb von zehn Minuten in [!DNL Target] verfügbar sein. Dieser Zeitraum soll in Zukunft weiter reduziert werden.
 * Das Experience Fragment wird derzeit in [!DNL Target] als HTML-Angebot importiert. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. Sie können das Experience Fragment nicht in [!DNL Target] bearbeiten.
 * Sie können JSON-Angebote als Experience Fragments nach [!DNL Target] importieren. Diese Angebote werden jedoch als HTML-Angebote importiert. JSON-Angebote (Experience Fragments) werden derzeit nicht vollständig in der [!DNL Target]-Benutzeroberfläche unterstützt.
+* Sie können keine Erlebnisfragmente mit Adobe IO erstellen. Sie müssen Erlebnisfragmente mit AEM erstellen, wie oben beschrieben.
 
 ## Training video: Using AEM experience fragments with Adobe Target ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
 
