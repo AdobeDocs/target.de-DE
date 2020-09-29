@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '755'
 ht-degree: 90%
 
 ---
@@ -80,7 +80,7 @@ Die Liste der Report Suites, die in Target Standard/Premium angezeigt wird, ist 
 Überprüfen Sie Ihre Implementierung, insbesondere auf Seiten, auf denen Ihre Besucher die Kriterien für Erlebnisse erfüllen und stellen Sie sicher, dass die zusätzlichen Daten-IDs in den [!DNL Target]- und den [!DNL Analytics]-Aufrufen übereinstimmen.
 
 * **at.js 1.x**: Im [!DNL Target] Aufruf ist die zusätzliche ID im Parameter enthalten `mboxMCSDID` . Im [!DNL Analytics]-Aufruf ist die zusätzliche ID im Parameter `sdid` enthalten.
-* **at.js 2.x**: Die zusätzliche ID wird im HTTP-Header als Wert für zurückgegeben `experienceCloud.analytics.supplementalDataId`.
+* **at.js 2.x**: Im [!DNL Target] Aufruf wird die zusätzliche ID im HTTP-Header als Wert für zurückgegeben `experienceCloud.analytics.supplementalDataId`. Im [!DNL Analytics]-Aufruf ist die zusätzliche ID im Parameter `sdid` enthalten.
 
 Die zusätzliche ID lässt sich am einfachsten mit dem Adobe Experience Platform Debugger überprüfen.
 
