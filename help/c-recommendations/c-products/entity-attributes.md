@@ -5,7 +5,7 @@ title: Entitätsattribute
 feature: entities
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: ed4f132dbf1ac8614f4aac8bd29b39b3dfbce2fe
+source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 90%
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 # ![PREMIUM](/help/assets/premium.png) Entitätsattribute{#entity-attributes}
 
-Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an  weiterzuleiten.
+Use entity attributes to pass product or content information to [!DNL Adobe Target Recommendations].
 
 [!DNL Recommendations] sendet die `productId` oder `productPurchasedId` (`entity.id` im Code), die in den Algorithmen verwendet wird.
 
