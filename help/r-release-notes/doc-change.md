@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2420'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 29. September | [Fehlerbehebung bei der Analytics- und Target-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#section_75002584FA63456D8D9086172925DD8D) | Es wurden Informationen zum Prüfen der zusätzlichen ID in at.js 1.x und at.js 2.x hinzugefügt. |
 | 24. September | [Lesezeichenliste für Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Code für das Aktivität QA Bookmarklet für at.js 2 aktualisiert.*x*. |
 |  | [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md#faq) | Es wurde ein Hinweis zur Suche nach einem benutzerdefinierten Attribut mit einem numerischen Wert hinzugefügt. |
 |  | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Warum zeigt die Katalogsuche nicht die richtigen Ergebnisse an, wenn ich nach einem benutzerspezifischen Attribut mit einem numerischen Wert suche?&quot; |
@@ -127,7 +128,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Mai 14 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu den Änderungen an der Profil Batch Status API Version 2 hinzugefügt. |
 | Mai 13 | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Der Abschnitt &quot;Bekannte Einschränkungen&quot;wurde hinzugefügt. |
 | Mai 11 | [Hosts](/help/administrating-target/hosts.md) | Es wurden Informationen zur Verwendung der Ubox-Funktion mit Umleitungen und Zulassungslisten hinzugefügt. |
-|  | [Arbeiten mit Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Es wurden Informationen zur Verwendung von Hosts hinzugefügt, um Open-Redirect-Schwachstellen zu vermeiden. |
+|  | [Arbeiten mit Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Es wurden Informationen zur Verwendung von Hosts zur Vermeidung von Open-Redirect-Schwachstellen hinzugefügt. |
 |  | [Integration von Recommendations in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Es wurden Informationen zur Verwendung von Hosts hinzugefügt, um Open-Redirect-Schwachstellen zu vermeiden. |
 |  | [E-Mail: Target-Implementierung](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Es wurden Informationen zur Verwendung von Hosts hinzugefügt, um Open-Redirect-Schwachstellen zu vermeiden. |
 |  | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Abschnitt &quot;Überlegungen&quot;wurde aktualisiert. |
