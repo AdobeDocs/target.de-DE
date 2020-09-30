@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 29%
+source-wordcount: '2482'
+ht-degree: 30%
 
 ---
 
@@ -17,6 +17,13 @@ ht-degree: 29%
 # Dokumentationsänderungen{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.9.1 (30. September 2020) 
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| 20. September | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zum folgenden Live-Webinar hinzugefügt:<ul><li>Adaptive, feine Personalisierung im Maßstab mit Adobe Target und Analytics</li></ul> |
+|  | [Versionshinweise](/help/r-release-notes/release-notes.md): 20.9.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe Target Standard/Premium 20.8.1 (2. September 2020) 
 
@@ -112,7 +119,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Hinweise für die Version [!DNL Target Standard/Premium] 20.5.1 (17. Juni 2020) wurden aktualisiert und enthalten nun Informationen zur Unterstützung von A4T in [!DNL Analysis Workspace]. |
 | 12. Juni | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Informationen zur Einstellung `deviceIdLifetime` wurden hinzugefügt. |
 |  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zu den Versionen at.js 1.8.2 und at.js 2.3.1 hinzugefügt. |
-| Juni 8 | [Häufig gestellte Fragen zur Zielgruppe von Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Text für folgende häufig gestellte Fragen aktualisiert: &quot;Ist Zielgruppe Mobile nur eine Funktion der Adobe Target Premium-Produkt-SKU?&quot; |
+| Juni 8 | [Häufig gestellte Fragen zur Zielgruppe von mobilen Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Text für folgende häufig gestellte Fragen aktualisiert: &quot;Ist Zielgruppe Mobile nur eine Funktion der Adobe Target Premium-Produkt-SKU?&quot; |
 |  | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Das ganze Thema wurde aktualisiert. |
 | Juni 5 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur Adobe Target-Kaffeepause vom 10. Juni hinzugefügt. |
 |  | [Steigerung und Konfidenz – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Text für folgende häufig gestellte Fragen aktualisiert: &quot;Warum kann ich Steigerung und Konfidenz bei berechneten Metriken nicht sehen?&quot; |
@@ -129,7 +136,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Mai 13 | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Der Abschnitt &quot;Bekannte Einschränkungen&quot;wurde hinzugefügt. |
 | Mai 11 | [Hosts](/help/administrating-target/hosts.md) | Es wurden Informationen zur Verwendung der Ubox-Funktion mit Umleitungen und Zulassungslisten hinzugefügt. |
 |  | [Arbeiten mit Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Es wurden Informationen zur Verwendung von Hosts zur Vermeidung von Open-Redirect-Schwachstellen hinzugefügt. |
-|  | [Integration von Recommendations in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Es wurden Informationen zur Verwendung von Hosts hinzugefügt, um Open-Redirect-Schwachstellen zu vermeiden. |
+|  | [Integration von Recommendations in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Es wurden Informationen zur Verwendung von Hosts zur Vermeidung von Open-Redirect-Schwachstellen hinzugefügt. |
 |  | [E-Mail: Target-Implementierung](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Es wurden Informationen zur Verwendung von Hosts hinzugefügt, um Open-Redirect-Schwachstellen zu vermeiden. |
 |  | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Abschnitt &quot;Überlegungen&quot;wurde aktualisiert. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Die Zeile &quot;overrideMboxEdgeServer&quot;unter &quot;Einstellungen&quot;wurde aktualisiert. |
