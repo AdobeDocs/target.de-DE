@@ -1,29 +1,32 @@
 ---
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
-description: Informationen dazu, wie Sie die Elemente festlegen können, die in Berichten aufgeführt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
+description: Informationen zum Festlegen der Elemente, die im Adobe Target-Bericht angezeigt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
 title: Berichtseinstellungen
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 84%
+source-wordcount: '1887'
+ht-degree: 69%
 
 ---
 
 
 # Berichtseinstellungen{#report-settings}
 
-Informationen dazu, wie Sie die Elemente festlegen können, die in Berichten aufgeführt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
+Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
 
-Möchten Sie einen Bericht anzeigen, klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte.]**
+So zeigen Sie einen Bericht an:
 
-![Benutzeroberfläche für den Bericht](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und dann in der Liste auf die gewünschte Aktivität.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Berichte]**.
+
+   ![Benutzeroberfläche für den Bericht](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Zielvorgabe {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Sie können bis zu zehn verschiedene Voreinstellungen für die Berichte der einzelnen Aktivitäten speichern, nachdem Sie sie wie gewünscht konfiguriert haben (Metriken, Zielgruppen, erweiterte Einstellungen usw.). Alle Target-Benutzer können die verschiedenen Voreinstellungen anzeigen, bearbeiten und löschen – unabhängig vom Ersteller.
+Sie können bis zu zehn verschiedene Voreinstellungen für die Berichte der einzelnen Aktivitäten speichern, nachdem Sie sie wie gewünscht konfiguriert haben (Metriken, Zielgruppen, erweiterte Einstellungen usw.). All [!DNL Target] users can display, edit, and delete the various presets, regardless of who created them.
 
 Sie können auch einzelne Aktivitätsberichte nach Bedarf konfigurieren und als Standardeinstellung oder Favoriten speichern. So wird jedes Mal, wenn Sie den Bericht der entsprechenden Aktivität öffnen, diese Ansicht angezeigt.
 
@@ -31,7 +34,7 @@ Sie können auch einzelne Aktivitätsberichte nach Bedarf konfigurieren und als 
 
 1. Konfigurieren Sie den Bericht der Aktivität nach Bedarf.
 
-   The available settings, including metrics, date ranges, audiences, advanced settings, and so forth are explained below.
+   Die verfügbaren Einstellungen, einschließlich Metriken, Datumsbereiche, Audiencen, erweiterte Einstellungen usw., werden nachfolgend erläutert.
 
 1. Klicken Sie neben **[!UICONTROL Target-Vorgabe]** auf das Symbol mit den drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Als neu speichern]**.
 
@@ -41,8 +44,8 @@ Sie können auch einzelne Aktivitätsberichte nach Bedarf konfigurieren und als 
 
    ![Dialogfeld für neue Voreinstellung](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Überprüfen Sie die Informationen in den Abschnitten „Filter“ und „Einstellungen“, um sicherzustellen, dass der Bericht wie gewünscht konfiguriert ist, und geben Sie dann den **[!UICONTROL Vorgabenamen]** (bis zu 50 Zeichen) an.
-1. (Optional) Wenn Sie die Berichtsansicht als Standard oder Favoriten festlegen möchten, aktivieren Sie **[!UICONTROL Als Standardeinstellung festlegen]**.
+1. Review the information in the **[!UICONTROL Filters]** and **[!UICONTROL Settings]** sections to ensure that the report is configured as desired, then specify the **[!UICONTROL Preset Name]** (up to 50 characters).
+1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set as default preset]** toggle to the On position.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ### Eine andere Vorgabe auswählen
@@ -51,7 +54,7 @@ Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Z
 
 ![Voreinstellungs-Dropdownliste](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
-### Voreinstellung bearbeiten
+### Eine Vorgabe bearbeiten
 
 1. Wählen Sie die Voreinstellung aus, die Sie bearbeiten möchten.
 1. Bearbeiten Sie die Berichtskonfiguration wie gewünscht (Metriken, Datumsbereiche, Zielgruppen, erweiterte Einstellungen usw.).
@@ -75,9 +78,9 @@ Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Z
 
    ![Löschung des Berichts](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. Klicken Sie erneut auf **[!UICONTROL Löschen]**, um den Löschvorgang zu bestätigen.
+1. Klicken Sie erneut auf **[!UICONTROL Löschen]** , um den Löschvorgang zu bestätigen (gelöschte Vorgaben können nicht wiederhergestellt werden).
 
-### Preset error handling
+### Vorgabenfehlerverarbeitung
 
 Warnhinweise und Meldungen weisen Sie darauf hin, wenn eine Voreinstellung ungültig ist. Die Hinweise oder Meldungen enthalten Anweisungen zur Auswahl einer anderen Zielgruppe, Metrik oder Hostgruppe oder eines anderen Erlebnisses, um das Problem zu beheben.
 
@@ -109,7 +112,7 @@ Im Feld Datumsbereich wird der aktuelle Datumsbereich des Berichts angezeigt. Kl
 
 ![Kalender](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Wählen Sie neue **[!UICONTROL Start-]** und **[!UICONTROL Enddaten]** für den Bericht aus. Sie können auch die Kontrollkästchen **[!UICONTROL Vom Start der Aktivität]** und **[!UICONTROL Bis Ende von Aktivität]** verwenden.
+Wählen Sie neue **[!UICONTROL Start-]** und **[!UICONTROL Enddaten]** für den Bericht aus. You can also use the **[!UICONTROL From start of Activity]** and **[!UICONTROL Till end of Activity]** check boxes.
 
 Klicken Sie auf **[!UICONTROL Benutzerdefinierte Daten]**, um die vordefinierten Datumsbereiche auszuwählen: Letzte 7 Tage, Letzte 15 Tage oder Letzte 30 Tage. Diese vordefinierten Datumsbereiche werden automatisch weiterverschoben. Wenn das Startdatum weniger als die ausgewählte Anzahl von Tagen zurückliegt, zeigt der Kalender den Bereich ab dem Startdatum an, bewegt sich jedoch weiter, sobald das Startdatum mehr als die ausgewählte Anzahl von Tagen zurückliegt, während sich die Dauer der Aktivität erhöht..
 
@@ -121,7 +124,10 @@ Für Berichte gelten folgende Datenbeschränkungen:
 
 ## Einstellungen {#section_D99CE462107D45CABE0960F820E1E972}
 
-Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu konfigurieren, und anschließend auf **[!UICONTROL Einstellungen speichern]**, wenn Sie alle gewünschten Änderungen vorgenommen haben.
+So konfigurieren Sie Berichtseinstellungen:
+
+1. Klicken Sie auf das Zahnradsymbol und nehmen Sie die gewünschten Änderungen vor (wie unten beschrieben).
+1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
 
 In der folgenden Illustration ist das Einstellungsdialogfeld für eine A/B-Aktivität dargestellt:
 
@@ -129,29 +135,45 @@ In der folgenden Illustration ist das Einstellungsdialogfeld für eine A/B-Aktiv
 
 Die Optionen variieren abhängig vom gewählten Aktivitätstyp:
 
-* **Zählmethodik:** Wählen Sie die gewünschte Methodik aus:
+### Zählmethodik
 
-   * Besuchern
-   * Besuchen
-   * Aktivitätsimpressionen
+Wählen Sie die gewünschte Methode aus:
 
-* **Kontrolle:** Wählen Sie das zu verwendende Kontrollerlebnis für Berechnung und Vergleich der Steigerung.
-* **Umgebung:** Wählen Sie die Umgebung (Hostgruppe), die für den Bericht verwendet werden soll.  Weitere Informationen finden Sie unter [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
-* **Berichtsdaten zurücksetzen:** Berichtsdaten zurücksetzen, um alte Daten zu löschen. Aktuelle Besucher bleiben Teil der Aktivität.  Diese Option ist nur für Benutzer mit Genehmigerberechtigungen verfügbar.
+* Besuchern
+* Besuchen
+* Aktivitätsimpressionen
 
-   >[!IMPORTANT]
-   >
-   >Dies ist eine dauerhafte Aktion und kann nicht rückgängig gemacht werden.
+### Control
 
-* **Extreme Werte ausschließen:** Die Einstellung [!UICONTROL „Extreme Werte ausschließen“] gilt ausschließlich für Aktivitäten mit den Metriktypen Umsatz und Interaktion. Weitere Informationen finden Sie unter [Ausschließen extremer Bestellungen](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+Wählen Sie das Kontrollerlebnis aus, das beim Berechnen und Vergleichen der Steigerung verwendet werden soll.
+
+### Umgebung
+
+Wählen Sie die Umgebung (Hostgruppe), die für den Bericht verwendet werden soll. Weitere Informationen finden Sie unter [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+### Berichtsdaten zurücksetzen
+
+Berichte zurücksetzen, um alte Daten zu entfernen. Aktuelle Besucher bleiben Teil der Aktivität.  This option is available only for those with [!UICONTROL Approver] permissions.
+
+>[!IMPORTANT]
+>
+>Dies ist eine dauerhafte Aktion und kann nicht rückgängig gemacht werden.
+
+### Extremwerte ausschließen
+
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Weitere Informationen finden Sie unter [Ausschließen extremer Bestellungen](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Download {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Klicken Sie auf das Symbol „Herunterladen“, um Berichtsdaten in einem [!DNL .csv] Format herunterzuladen, mit dem schnell in Excel, Access oder andere Datenanalyseprogramme importiert werden kann. Weitere Informationen finden Sie unter [Herunterladen von Daten in einer CSV-Datei](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs.
+
+![Download-Symbol](/help/c-reports/c-report-settings/assets/download-icon.png)
+
+Weitere Informationen finden Sie unter [Herunterladen von Daten in einer CSV-Datei](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
 
 ## Aktualisieren {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Klicken Sie auf das Aktualisierungssymbol, um die Tabellen- und Diagrammansicht eines Berichts zu aktualisieren, ohne dass die gesamte Seite, die Konfiguration oder der Datumsbereich aktualisiert werden muss.
+Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and graph view without refreshing the entire page, its configuration, or its date range.
 
 ## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
@@ -161,12 +183,12 @@ Klicken Sie auf das Symbol für weitere Optionen (drei vertikale Ellipsen), um a
 
 Der Bericht kann je nach Aktivität in verschiedenen Formaten Ansicht werden. Wählen Sie die gewünschte Option aus.
 
-![View options icons](/help/c-reports/c-report-settings/assets/view-options.png)
+![Symbole für Ansichten](/help/c-reports/c-report-settings/assets/view-options.png)
 
 * **Ansicht** der Tabelle: Klicken Sie auf das Symbol **[!UICONTROL Tabellenansicht]** , um den Bericht als Tabelle Ansicht.
 * **Graph-Ansicht**: Klicken Sie auf das Symbol für die **[!UICONTROL Ansicht]** des Diagramms, um den Bericht als Diagramm Ansicht.
-* **Automated Segments**:(Available only for Automated Personalization (AP) and Auto-Target (AT) activities.) Click the **[!UICONTROL Automated Segments] icon to view the [Automated segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
-* **Important Attributes**: (Available only for Automated Personalization (AP) and Auto-Target (AT) activities.) Click the **[!UICONTROL Important Attributes] icon to view the [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+* **Automatisierte Segmente**:(Nur für Aktivitäten mit Automated Personalization (AP) und Auto-Zielgruppe (AT) verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automatisierte Segmente] , um den Bericht [&quot;](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)Automatisierte Segmente&quot;Ansicht.
+* **Wichtige Attribute**: (Nur für Aktivitäten mit Automated Personalization (AP) und Auto-Zielgruppe (AT) verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Wichtige Attribute] , um den Bericht &quot; [Wichtige Attribute&quot;Ansicht](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -197,29 +219,26 @@ In der folgenden Abbildung werden nur die Erlebnisse Default, Mid-East und Total
 
 (Nur verfügbar, wenn der Bericht in Grafikansicht dargestellt wird)
 
-&quot;Running Average&quot; reflects the cumulative conversions (from the start of the reporting window to the date represented on the graph) divided by the cumulative visitors.
+&quot;Running Average&quot;spiegelt die kumulativen Konvertierungen (vom Beginn des Berichte-Fensters bis zum im Diagramm dargestellten Datum) dividiert durch die kumulativen Besucher wider.
 
 Wählen Sie die gewünschte Grafikansicht:
 
 * Gleitendes Mittel
 * Gleitendes Mittel der Steigerung
-* Täglich Control
-* Tägliches Targeting
+* Täglich
 * Tägliche Steigerung
 
 ![Bericht „Gleitendes Mittel“](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
->[!NOTE]
->
->Der Name dieser Dropdown-Liste hängt von der ausgewählten Ansicht ab, es handelt sich jedoch um eine der oben aufgeführten Ansichten.
+Der Name dieser Dropdown-Liste hängt von der ausgewählten Ansicht ab, es handelt sich jedoch um eine der oben aufgeführten Ansichten.
 
 ## Zählmethodik {#section_01B0ED5665C74AE1AE97259800190C3E}
 
 (Nur verfügbar, wenn der Bericht in Grafikansicht dargestellt wird)
 
-Sie können die Zählmethodologie für Diagramme in Berichten wählen. Beachten Sie, dass dies für Aktivitäten zur automatisierten Personalisierung (AP) nicht unterstützt wird.
+Sie können die Zählmethodologie für Diagramme in Berichten wählen. Note that this is not supported for [!UICONTROL Automated Personalization] (AP) activities.
 
-Wenn Sie auf die Option „Zählmethodologie“ zugreifen möchten, während Sie einen Bericht im Diagrammmodus anzeigen, klicken Sie auf das Dropdown-Menü **[!UICONTROL Mein primäres Ziel]** und wählen Sie dann die Zählmethodologie aus.
+To access the [!UICONTROL Counting Methodology] option, while viewing a report in graph mode, click the **[!UICONTROL My Primary Goal]** drop-down, then select the counting methodology.
 
 Die Zählmethodologie ist identisch mit der Auswahl im Dialogfeld [!UICONTROL Einstellungen], wie zuvor beschrieben.
 
