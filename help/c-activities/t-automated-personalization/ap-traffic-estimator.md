@@ -6,9 +6,9 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
+source-git-commit: df9cb5c4a3cd44917ee9136300e4ad68f922d3c9
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '731'
 ht-degree: 27%
 
 ---
@@ -69,4 +69,4 @@ Beachten Sie bei der Arbeit mit der [!UICONTROL Traffic-Schätzung]die folgenden
 
 Unter bestimmten Umständen kann Ihr Traffic groß genug sein, um ein personalisiertes Modell zu erstellen, aber dieser Traffic kann darauf hinweisen, [!DNL Target] dass es keinen bedeutenden Unterschied zwischen dem personalisierten Modell und dem Zufallsprinzip gibt. Obwohl das Modell integriert [!DNL Target] und getestet wurde, wird es nicht bereitgestellt, da das Modell nicht wesentlich besser als zufällig ist.
 
-Ein möglicher Grund dafür, dass das Modell nicht besser als zufällig ist, könnte sein, dass sich die Angebot nicht wesentlich voneinander unterscheiden. In diesem Fall können Sie versuchen, die Unterschiede in den Angeboten zu vergrößern, indem Sie sie visueller anders gestalten oder den Inhalt selbst ändern.
+Ein möglicher Grund dafür, dass das Modell nicht besser als zufällig ist, könnte sein, dass sich die Angebot nicht wesentlich voneinander unterscheiden. Ist dies der Fall, können Sie versuchen, die Angebot visueller anders zu gestalten, wenn das Messaging ähnlich ist, oder Sie können versuchen, das Messaging selbst zu ändern.
