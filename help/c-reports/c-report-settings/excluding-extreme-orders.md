@@ -1,21 +1,21 @@
 ---
 keywords: Target;reports;report settings;extreme orders;extreme values
 description: Sie können Extremwerte von Berichten in Adobe Target ausschließen, sodass einige ungewöhnliche Bestellungen Ihre Aktivitäten nicht beeinflussen. Ein Beispiel für eine ungewöhnliche Bestellung ist, wenn ein Trainer Ausrüstungen für eine ganze Mannschaft kauft, anstatt dass einzelne Sportler individuell bestellen.
-title: Exclude extreme values in Adobe Target reports
+title: Extreme Werte in Adobe Target-Berichten ausschließen
 feature: report settings
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 88%
+source-wordcount: '343'
+ht-degree: 73%
 
 ---
 
 
-# Ausschließen von Extremwerten{#exclude-extreme-values}
+# Ausschließen von Extremwerten
 
-Sie können Extremwerte aus Berichten ausschließen, sodass einige ungewöhnliche Bestellungen die Aktivitätsergebnisse nicht beeinflussen. Ein Beispiel für eine ungewöhnliche Bestellung ist, wenn ein Trainer Ausrüstungen für eine ganze Mannschaft kauft, anstatt dass einzelne Sportler individuell bestellen.
+You can exclude extreme values from affecting reports in [!DNL Adobe Target] so a few unusual orders don&#39;t affect your activity results. Ein Beispiel für eine ungewöhnliche Bestellung ist, wenn ein Trainer Ausrüstungen für eine ganze Mannschaft kauft, anstatt dass einzelne Sportler individuell bestellen.
 
 >[!NOTE]
 >
@@ -27,18 +27,14 @@ Ein Wert wird als extrem betrachtet, wenn in den Daten des letzten Monats mehr a
 
 Bei der Verwendung von RPV ist der Filter für extreme Werte häufig nützlich. RPV kombiniert Konversionsraten und den durchschnittlichen Bestellwert und zeigt häufig die Unbeständigkeit dieser Metriken auf. Wenn Sie RPV verwenden und bestimmen, dass Aufträge nicht als normal verteilt angezeigt werden, sehen Sie normalere Ergebnisse, wenn Sie den Filter für extreme Bestellungen anwenden.
 
-Wenn ein Wert als extrem markiert wurde, wird der Bestellwert durch den durchschnittlichen Bestellwert des Erlebnisses des letzten Monats ersetzt, wobei die Extreme ausgespart werden. Die Bestellung wird auch im Bestelldetailbericht und im CSV-Download der täglichen Ergebnisse als extrem gekennzeichnet.
+Wenn ein Wert als extrem markiert wurde, wird der Bestellwert durch den durchschnittlichen Bestellwert des Erlebnisses des letzten Monats ersetzt, wobei die Extreme ausgespart werden. The order is also marked as extreme in the [!UICONTROL Order Details] report and in the CSV download for daily results.
 
 **So schließen Sie extreme Werte aus Ihren Berichten aus:**
 
 1. Öffnen Sie eine Aktivität, die die Metriktypen Umsatz oder Interaktion enthält, und klicken Sie dann auf die Registerkarte **[!UICONTROL Berichte]**.
-1. Click the gear icon.
-
-   ![Berichtseinstellungen](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
-
-   Das Dialogfeld [!UICONTROL Berichtseinstellungen] wird angezeigt.
+1. Klicken Sie auf das Zahnradsymbol, um das Dialogfeld **[!UICONTROL Einstellungen]** anzuzeigen.
 
    ![Schrittergebnis](assets/exclude_extreme_values.png)
 
-1. Schalten Sie die Option **[!UICONTROL Extreme Werte ausschließen]** ein bzw. aus.
+1. Schieben Sie den Umschalter Extreme Werte **[!UICONTROL ausschließen]** nach Wunsch an die Position &quot;Ein&quot;oder &quot;Aus&quot;.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
