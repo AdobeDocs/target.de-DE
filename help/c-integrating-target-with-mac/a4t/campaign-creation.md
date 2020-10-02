@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: d2c733b83fc0f53abd72e6279bb51e296d7a5840
+source-git-commit: e501100ba149472169f11072fd1663095dd40612
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1357'
 ht-degree: 19%
 
 ---
@@ -130,17 +130,19 @@ Die folgenden Metriktypen werden nicht als primäre Zielmetriken unterstützt:
 
 ### Einschränkungen und Hinweise
 
-**Automatische Zuordnung und Zielgruppe**
+Einige Einschränkungen und Hinweise gelten für die automatische Zuordnung und die automatische Zielgruppe. Andere Einschränkungen und Hinweise gelten für die eine oder andere Aktivität.
+
+#### Automatische Zuordnung und Zielgruppe
 
 * Die Quelldatei des Berichte kann nach der Aktivierung einer Aktivität nicht mehr von [!DNL Analytics] zu [!DNL Target] bzw. umgekehrt geändert werden.
 * Obwohl errechnete Metriken nicht als primäre Zielmetriken unterstützt werden, ist es oft möglich, das angestrebte Ergebnis zu erzielen, indem Sie stattdessen ein benutzerdefiniertes Ereignis als primäre Zielmetrik auswählen. Wenn Sie z. B. eine Metrik wie &quot;Formularabschlüsse pro Besucher&quot;optimieren möchten, wählen Sie ein benutzerdefiniertes Ereignis, das &quot;Formularabschlüsse&quot;als primäre Zielmetrik entspricht. [!DNL Target] normalisiert Konversionsmetriken automatisch pro Besuch, um eine ungleiche Traffic-Verteilung zu berücksichtigen. Daher ist es nicht erforderlich, eine berechnete Metrik für die Normalisierung zu verwenden.
 * [!DNL Target] verwendet das Zuordnungsmodell &quot;Gleich Touch&quot;in der A4T-Implementierung für die [!UICONTROL automatische Zuordnung] .
 
-**Automatische Zuordnung**
+#### Automatische Zuordnung
 
 * [!UICONTROL Automatisch zugewiesene] Modelle werden wie gewohnt alle zwei Stunden trainiert.
 
-**Automatisches Targeting**
+#### Automatisches Targeting
 
 * [!UICONTROL Die Auto-Zielgruppe] trainiert wie gewohnt alle 24 Stunden. Konversionsdaten aus dem Ereignis [!DNL Analytics] werden jedoch um weitere sechs bis 24 Stunden verzögert. Diese Verzögerung bedeutet, dass die Verteilung des Traffics durch [!DNL Target] wird die neuesten Ereignis aufgezeichnet in [!DNL Analytics]. Dies wird die größte Wirkung in den ersten 48 Stunden nach dem ersten Aktivieren einer Aktivität haben. Die Performance der Aktivität spiegelt das [!DNL Analytics] Konversionsverhalten nach Ablauf von fünf Tagen stärker wider. Sie sollten die Verwendung der [!UICONTROL automatischen Zuordnung] anstelle der [!UICONTROL automatischen Zielgruppe] für Aktivitäten mit kurzer Dauer in Erwägung ziehen, bei denen der meisten Traffic innerhalb der ersten fünf Lebensjahre der Aktivität auftritt.
 * Bei Verwendung [!DNL Analytics] als Datenquelle für eine [!UICONTROL Auto-Zielgruppe] -Aktivität werden Sitzungen nach Ablauf von sechs Stunden als beendet betrachtet. Konversionen, die nach sechs Stunden auftreten, werden nicht gezählt.
