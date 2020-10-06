@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 1c4c634fe80ba3a91ee3245871fc27c8a8684067
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 72%
+source-wordcount: '392'
+ht-degree: 70%
 
 ---
 
@@ -70,7 +70,7 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 ## Ändern der Sprache für die Target-Produktdokumentation{#doc-lang}
 
-Ihr Betriebssystem oder Ihre Browsereinstellungen sollten Ihre bevorzugte Sprache erkennen und die Dokumentation in dieser Sprache anzeigen (falls verfügbar). [!DNL Target] documentation is automatically translated and will be in sync with the English version within hours of changes made to English documentation.
+Ihr Betriebssystem oder Ihre Browsereinstellungen sollten Ihre bevorzugte Sprache erkennen und die Dokumentation in dieser Sprache anzeigen (falls verfügbar). [!DNL Target] Dokumentation wird automatisch übersetzt und wird mit der englischen Version innerhalb von Stunden nach Änderungen an der englischen Dokumentation synchronisiert.
 
 Sie können die Sprache einfach auf die englische Version ändern, indem Sie auf den Link in der Kopfzeile der Seite klicken.
 
@@ -92,15 +92,3 @@ Die Dokumentation von [!DNL Target] ist in den folgenden Sprachen verfügbar:
 * Vereinfachtes Chinesisch
 * Traditionelles Chinesisch
 * Koreanisch
-
-## Training video: Adobe Target in the Experience Cloud (4:59) ![Overview badge](/help/assets/overview.png)
-
-In diesem Video erfahren Sie mehr über [!DNL Adobe Target] in [!DNL Experience Cloud].
-
-* Beschreibung und Erläuterung des Mehrwerts von Adobe Experience Cloud
-* Anmeldung in Adobe Experience Cloud mit der Adobe ID oder Erstellen einer Adobe ID
-* Einladen neuer Benutzer in Adobe Experience Cloud
-* Verknüpfen Ihres Target-Kontos mit Adobe Experience Cloud
-* Einstellen von Adobe Target als Standard-Landingpage
-
->[!VIDEO](https://www.youtube.com/v=7lwYrYC7vdM)
