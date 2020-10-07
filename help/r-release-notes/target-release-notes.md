@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a89c951b3221056e8892831871ef46ed66e5b9c9
+source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 18%
+source-wordcount: '526'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 23. September 2020**
+**Zuletzt aktualisiert am: 7. Oktober 2020**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -39,13 +39,13 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 * **Mitteilungen** zur Zielgruppe: Auf der Seite &quot;Ankündigungen&quot;der Zielgruppe finden Sie Informationen zu den bevorstehenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinars und Zielgruppe Coffee Break-Sitzungen. Weitere Informationen finden Sie unter [Ankündigungen](/help/r-release-notes/target-announcements.md)der Zielgruppe.
 
 
-## Target Standard/Premium 20.9.1 (30. September 2020)
+## Target Standard/Premium 20.10.1 (27. Oktober 2020)
 
-Dieses Maintenance Release umfasst die folgenden Erweiterungen, Fehlerbehebungen und Änderungen:
+Diese Version enthält die folgenden neuen Funktionen:
 
-* Verbesserte Navigation und Funktionalität für Benutzer, die nur über Tastatur verfügen. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
-* Es wurden Beschriftungen in der Benutzeroberfläche hinzugefügt, um Benutzern mithilfe von Hilfstechnologien zu helfen. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
-* Verbesserter Text- und Farbkontrast für Bilder und Text in der Benutzeroberfläche. (TGT-34513)
+| Funktion | Details |
+| --- | --- |
+| Entscheidungen auf dem Gerät | Mit Entscheidungen auf dem Gerät können Marketingexperten und Produktentwickler experimentelle und maschinelle Learning-orientierte Personalisierung von einem Benutzergerät über Kanal hinweg mit nahezu null Latenz bereitstellen.<br>Schnelligkeit und Leistung sind wichtig - in Kundeneinsichten und Benutzerzufriedenheit. Mit geräteinternen Entscheidungen können Marketingexperten und jetzt Produktentwickler Erlebnisse direkt von einem Benutzergerät aus testen und optimieren, Entscheidungen und Ladezeiten für kontextbezogene Echtzeit auf nahezu null verkürzen.<br>Mit Entscheidungen auf dem Gerät können Sie alle Personalisierungs- und Experimentierungsanweisungen auf &quot;Optimierungsartefakte&quot;kompilieren, die auf Kundengeräte geladen werden. Diese Artikel mit einer Nulllatenz geben Marketingexperten eine persönliche Personalisierung, verhaltensbasiertes Retargeting und Echtzeitempfehlungen zu Produkten und Inhalten. Entwicklern und Produkteigentümern steht ein direkter Code zur Verfügung, um Benutzererfahrungen und Produkteinführungen zu testen und Zielgruppen und Produkteinführungen in Echtzeit zu optimieren. Und weil On-Device-Entscheidungen eine native Verbindung mit [!DNL Adobe Experience Cloud] Produkten herstellen, erhalten die [!DNL Target] Benutzer eine schnelle Analyse und schnellere Erlebnisdurchläufe. |
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
