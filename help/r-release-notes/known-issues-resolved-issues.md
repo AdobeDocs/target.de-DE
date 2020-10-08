@@ -5,9 +5,9 @@ title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4abd3678914c3866b08f56c5594df285cd903e08
+source-git-commit: 72ea4544313bcfd1d39c1a4ce63bb41fcad699c5
 workflow-type: tm+mt
-source-wordcount: '3794'
+source-wordcount: '3793'
 ht-degree: 80%
 
 ---
@@ -127,7 +127,7 @@ Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quo
 
 Wenn bekannte Probleme behoben sind, werden sie in die folgenden Abschnitte verschoben und es werden ggf. zusätzliche Notizen hinzugefügt.
 
-### Berichte der automatischen Zielgruppe (#at-metrics)
+### Berichte für die automatische Zielgruppe {#at-metrics}
 
 Es wurde ein Problem behoben, durch das der Berichte der [!DNL Adobe Target Premium] automatischen Zielgruppe [!UICONTROL von] Benutzern ab 15. September 2014:30 Uhr beeinträchtigt wurde. (PDT) bis 6. Oktober, 9.25 Uhr (PDT). Bei der Anzeige von Berichten für die betroffenen Konversionsmetriken (die entweder mit der Option &quot; [!UICONTROL Angezeigte Seite]&quot;oder &quot;[!UICONTROL Auf mbox]geklickt&quot;konfiguriert wurden) werden die Konversionsraten falsch gemeldet. Es ist derzeit kein Problem mit dem Versand bekannt.
 
