@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '2610'
+source-wordcount: '2631'
 ht-degree: 29%
 
 ---
@@ -26,6 +26,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Profil-API-Einstellungen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Thema aktualisiert, um die Berechtigungsebene anzugeben, die zum Generieren eines Authentifizierungstokens erforderlich ist. |
 |  | [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md) | Die Erfolgsgeschichte der realen Welt wurde mit der automatischen Zielgruppe hinzugefügt. |
 |  | [Gleiches Erlebnis auf ähnlichen Seiten](/help/c-experiences/c-visual-experience-composer/temtest.md) | Es wurde ein Abschnitt hinzugefügt, der erklärt, wie dieselbe Aktivität über die gesamte Domäne hinweg wiedergegeben wird. |
+|  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>Analytics for Zielgruppe (A4T)-Metriken für Aktivitäten mit automatisierter Zuordnung und automatischer Zielgruppe</li></ul> |
 | Oktober 8 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Das folgende Problem wurde behoben:<ul><li>[Berichte für die automatische Zielgruppe](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Das folgende Problem wurde aus dem Abschnitt &quot;Bekannte Probleme&quot;in den Abschnitt &quot;Behobene Probleme&quot;verschoben:<ul><li>[Berichterstellung](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Hybridimplementierung](/help/c-implementing-target/hybrid-implementation.md) | Neues Thema |
 | 7. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Version Target Standard/Premium 20.10.1 hinzugefügt. |
