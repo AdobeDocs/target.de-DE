@@ -1,23 +1,23 @@
 ---
 keywords: template testing;template;same experience on similar pages;template test
-description: Wenn Sie die Struktur Ihrer Seite mithilfe einer Seitenvorlage erstellen oder wenn Ihre Seite ähnliche Elemente enthält, können Sie mithilfe dieser Funktion Variationen in ähnlich strukturierten Seitenelementen testen.
-title: Gleiches Erlebnis auf ähnlichen Seiten
+description: Verwenden Sie eine Seitenvorlage in Adobe Target, um eine Struktur für Ihre Seiten bereitzustellen oder wenn Ihre Seiten ähnliche Elemente enthalten, um Variationen in ähnlich strukturierten Seitenelementen zu testen.
+title: Gleiches Erlebnis auf ähnlichen Seiten mit Adobe Target einschließen
 feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 96%
+source-wordcount: '608'
+ht-degree: 44%
 
 ---
 
 
-# Gleiches Erlebnis auf ähnlichen Seiten{#include-the-same-experience-on-similar-pages}
+# Gleiches Erlebnis auf ähnlichen Seiten
 
-Wenn Sie die Struktur Ihrer Seite mithilfe einer Seitenvorlage erstellen oder wenn Ihre Seite ähnliche Elemente enthält, können Sie mithilfe dieser Funktion Variationen in ähnlich strukturierten Seitenelementen testen.
+Verwenden Sie eine Seitenvorlage, [!DNL Adobe Target] um eine Struktur für Ihre Seiten bereitzustellen oder wenn Ihre Seiten ähnliche Elemente enthalten, um Variationen in ähnlich strukturierten Seitenelementen oder in Ihrer gesamten Domäne zu testen.
 
-Damit diese Funktion korrekt ausgeführt wird, muss sie auf Seiten mit einer sehr ähnlichen Struktur verwendet werden oder Vorlagenelemente, die auf allen Seiten gleich strukturiert sind, enthalten.
+Damit diese Funktion korrekt ausgeführt werden kann, muss sie auf Seiten mit einer ähnlichen Struktur oder Vorlagenelementen verwendet werden, die auf allen Seiten gleich strukturiert sind.
 
 >[!IMPORTANT]
 >
@@ -30,26 +30,28 @@ Sie können diese Funktion zum Beispiel zum Durchführen einer der folgenden Akt
 * Hinzufügen eines Banners zu allen Produktseiten
 * Ändern des Layouts der Artikelvorlage
 
-Im folgenden Informationsvideo erfahren Sie mehr dazu, wie Sie Vorlagen nutzen:
+Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Änderung auf Ihre Website oder Domäne anwenden.
 
-Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Änderung auf Ihre gesamte Site anwenden.
+1. Create  or edit an activity as described in [Activities](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Erstellen Sie eine Aktivität wie in [Aktivitäten](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) beschrieben.
-1. Um die Seiten anzugeben, auf denen das Erlebnis angezeigt werden soll, klicken Sie im Visual Experience Composer auf das Zahnradsymbol und wählen Sie **[!UICONTROL Bereitstellung der Seite]** aus.
+1. To specify the pages where the experience will appear, in the [!UICONTROL Visual Experience Composer] (VEC) click the gear icon, then select **[!UICONTROL Page Delivery]**.
+
+   ![Zahnradsymbol > Seiten-Versand](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
+
 1. Klicken Sie auf **[!UICONTROL Vorlagenregel hinzufügen]** und geben Sie dann die Kriterien für die Seiten an, zu denen Sie das Erlebnis hinzufügen möchten.
 
 1. Legen Sie den Seitenbereich fest. Der Seitenbereich kann einer der folgenden sein:
 
-   * URL (For more information about how Target evaluates URLs, see [Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * URL (Weitere Informationen zur Bewertung von URLs durch Zielgruppe finden Sie unter Häufig gestellte Fragen zu [Zielgruppen und Audiencen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * Domäne
    * Pfad
-   * Hashfragment (#) (Nehmen Sie ein Targeting auf den Teil der URL vor, der auf das #-Symbol folgt.)
+   * Hashfragment (#) (Zielgruppe des Teils einer URL, der auf das #-Symbol folgt)
    * Abfrage
    * Parameter
 
 1. Wählen Sie einen Operator aus.
 
-   Der Operator gibt an, in welcher Beziehung die Elemente nach dem Operator zum Seitenbereich stehen. Die verfügbaren Operatoren sind:
+   Der Operator gibt an, in welcher Beziehung die Elemente nach dem Operator zum Seitenbereich stehen. Zu den verfügbaren Operatoren gehören:
 
    * Enthält
    * Enthält nicht
@@ -66,17 +68,39 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
 
    >[!IMPORTANT]
    >
-   >Mehrere Elemente verwenden die `OR`-Logik, was bedeutet, dass jedes einzelne Element in der Liste die Bedingung wahr macht.
+   >Mehrere Elemente verwenden die OR-Logik, d. h., ein einzelnes Element in der Liste macht die Bedingung wahr.
 
-1. Geben Sie bei Bedarf zusätzliche Kriterien ein, indem Sie auf **[!UICONTROL Vorlagenregel hinzufügen]** klicken und die Vorgehensweise aus dem vorherigen Schritt wiederholen.
+1. If desired, enter additional criteria by clicking **[!UICONTROL Add Template Rule]** and repeating the procedure in the previous steps.
 
-   Mehrere Kriterien werden mit der UND-Logik verbunden. Adobe Target fügt das Erlebnis zu allen Seiten hinzu, die den angegebenen Kriterien entsprechen.
+   Mehrere Kriterien werden mit der UND-Logik verbunden. [!DNL Target] fügt das Erlebnis zu allen Seiten hinzu, die den angegebenen Kriterien entsprechen.
 
 >[!IMPORTANT]
 >
-> Target kann die Seiten nicht überprüfen, um sicherzustellen, dass sie wie erwartet angezeigt werden. Wenn Sie diese Funktion verwenden, sollten Sie daher die betroffenen Seiten immer testen, bevor Sie sie veröffentlichen.
+> [!DNL Target] kann die Seiten nicht überprüfen, um sicherzustellen, dass sie wie erwartet angezeigt werden. Wenn Sie diese Funktion verwenden, sollten Sie daher die betroffenen Seiten immer testen, bevor Sie sie veröffentlichen.
 
-## Schulungsvideo: Visual Experience Composer (2 von 2) (7:29) ![Tutorialzeichen](/help/assets/tutorial.png)
+## Anwendungsbeispiele
+
+Sehen Sie sich die folgenden Anwendungsfälle an, um Möglichkeiten zur Verwendung von Vorlagenregeln auf Ihrer Site zu finden:
+
+### Derselbe Aktivität über die gesamte Domäne rendern
+
+In den folgenden Anwendungsfällen sollten Sie die gleiche Aktivität in Ihrer gesamten Domäne mit Vorlagenregeln wiedergeben:
+
+* So fügen Sie eine globale Kopf- oder Fußzeile ein
+* So fügen Sie ein globales Banner ein (z. B. COVID-19-Mitteilungen)
+* So fügen Sie eine globale kostenlose Promo bei
+
+1. Create or edit an activity as described in [Activities](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+
+1. To specify the domain where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
+
+1. Klicken Sie auf **[!UICONTROL Hinzufügen Vorlagenregel]** > **[!UICONTROL Domäne]**.
+
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL Auswerter]** auswählen die Option **[!UICONTROL Enthält]** und geben Sie dann die Domäne an.
+
+   ![Domäne enthält](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
+
+## Training video: Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
 
 * Erlebnis umbenennen und duplizieren
 * Umleitungserlebnis erstellen
