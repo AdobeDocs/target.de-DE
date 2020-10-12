@@ -1,26 +1,26 @@
 ---
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Sie können eine Aktivität in Target Standard/Premium erstellen, um Adobe Analytics als Berichtsquelle (A4T) zu verwenden.
-title: Aktivitätserstellung
+title: Erstellen einer Aktivität, die A4T als Berichte-Quelle verwendet
 feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: e501100ba149472169f11072fd1663095dd40612
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1367'
 ht-degree: 19%
 
 ---
 
 
-# Aktivitätserstellung{#activity-creation}
+# Erstellen einer Aktivität, die Analytics als Berichte-Quelle verwendet
 
 You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as the reporting source (A4T).
 
 Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. Wählen Sie eine finale Erfolgsmetrik für die Aktivität aus. Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
 
-## Erstellen einer Aktivität, die Analytics als Berichte-Quelle verwendet
+## Erstellen Sie die Aktivität
 
 Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report.
 
