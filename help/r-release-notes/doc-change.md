@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2610'
 ht-degree: 29%
 
 ---
@@ -24,6 +24,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 12. Oktober | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Aktualisierung des Autorisierungstokens [abrufen, das mit Debuggingwerkzeugen](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) verwendet werden soll, um die Berechtigungsebene anzugeben, die zum Generieren eines Authentifizierungstokens erforderlich ist. |
 |  | [Profil-API-Einstellungen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Thema aktualisiert, um die Berechtigungsebene anzugeben, die zum Generieren eines Authentifizierungstokens erforderlich ist. |
+|  | [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md) | Die Erfolgsgeschichte der realen Welt wurde mit der automatischen Zielgruppe hinzugefügt. |
 |  | [Gleiches Erlebnis auf ähnlichen Seiten](/help/c-experiences/c-visual-experience-composer/temtest.md) | Es wurde ein Abschnitt hinzugefügt, der erklärt, wie dieselbe Aktivität über die gesamte Domäne hinweg wiedergegeben wird. |
 | Oktober 8 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Das folgende Problem wurde behoben:<ul><li>[Berichte für die automatische Zielgruppe](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Das folgende Problem wurde aus dem Abschnitt &quot;Bekannte Probleme&quot;in den Abschnitt &quot;Behobene Probleme&quot;verschoben:<ul><li>[Berichterstellung](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Hybridimplementierung](/help/c-implementing-target/hybrid-implementation.md) | Neues Thema |
