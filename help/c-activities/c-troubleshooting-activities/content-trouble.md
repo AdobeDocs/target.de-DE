@@ -1,16 +1,16 @@
 ---
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Wenn Ihre Seite nicht den erwarteten Inhalt anzeigt, können Sie einige Schritte zum Debugging von Content Versand in Adobe Target unternehmen.
-title: Troubleshoot content delivery in Adobe Target
+title: Fehlerbehebung bei Content Versand in Adobe Target
 feature: activities
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 66%
+source-wordcount: '1386'
+ht-degree: 58%
 
 ---
 
@@ -25,16 +25,28 @@ Wenn Ihre Seite nicht den erwarteten Inhalt anzeigt, gibt es ein paar Schritte, 
 
 mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. Jedoch ist mboxDebug nicht so detailliert, wie es für die Fehlerdiagnose bei der Inhaltsbereitstellung nützlich wäre. Wenn Ihre Aktivität nicht auf Ihrer Seite erscheint oder unerwünschter Inhalt eingeblendet wird, verwenden Sie mboxTrace, um die Seite ausführlich zu untersuchen und Fehler zu diagnostizieren.
 
-## Abrufen des Autorisierungstokens zur Verwendung mit Debuggingwerkzeugen {#section_BED130298E794D1FA229DB7C3358BA54}
+## Retrieve the authorization token to use with debugging tools {#section_BED130298E794D1FA229DB7C3358BA54}
 
 Da mboxTrace und mboxDebug Kampagnen- und Profildaten für Dritte enthüllen können, ist ein Autorisierungstoken erforderlich. Das Autorisierungstoken kann in der [!DNL Target]-Benutzeroberfläche abgerufen werden. Das Token ist sechs Stunden lang gültig.
 
+Sie benötigen eine der folgenden Benutzerberechtigungen, um ein Authentifizierungstoken zu generieren:
+
+* Mindestens [!UICONTROL Editor] -Berechtigung (oder [!UICONTROL Genehmiger])
+
+   Weitere Informationen für [!DNL Target Standard] Kunden finden Sie unter [Festlegen von Rollen und Berechtigungen](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Benutzern*. Weitere Informationen für [!DNL Target Premium] Kunden finden Sie unter [Unternehmensberechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md)konfigurieren.
+
+* Administratorrolle auf der Profil-/Arbeitsbereich-Ebene
+
+   Arbeitsbereiche stehen nur [!DNL Target Premium] Kunden zur Verfügung. For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+* Administratorrechte (Berechtigung &quot;Sysadmin&quot;) auf der [!DNL Adobe Target] Produktebene
+
 So wird das Autorisierungstoken abgerufen:
 
-1. Click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
 1. Klicken Sie im Abschnitt Debugger-Tools auf Neues Authentifizierungstoken **[!UICONTROL erstellen]**.
 
-   ![Generate New Authentication Token](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
+   ![Neues Authentifizierungstoken erstellen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 1. Fügen Sie das generierte Token Ihrer URL als Parameter hinzu, um eines der erweiterten Debuggingwerkzeuge zu aktivieren.
 
@@ -53,7 +65,7 @@ Die folgenden Parameter stehen zur Verfügung:
 | `?mboxTrace=window` | Wird im Pop-up-Fenster als JSON-Zeichenfolge ausgegeben |
 | `?mboxTrace=disable` | Schaltet den Trace-Sitzungsmodus ab |
 
-**Beispiel für mboxTrace-Aufruf**
+**Beispiel für einen mboxTrace-Aufruf**
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
@@ -66,7 +78,7 @@ Ein Teil der Informationen umfasst übereinstimmende und nicht übereinstimmende
 * **Unmatched**: Die Anforderung in diesem Aufruf wurde für diese Segmente oder Ziele nicht zugelassen.
 * **Matched**: Die Anforderung wurde für die angegebenen Segmente oder Ziele zugelassen.
 
-**mboxTrace auf Empfehlungsseiten verwenden**: Wenn Sie mboxTrace als Abfrageparameter auf Seiten mit Empfehlungen hinzufügen, wird das Empfehlungsdesign auf der Seite durch ein mboxTrace-Detailfenster ersetzt. In diesem Fenster werden ausführliche Informationen zu Ihren Empfehlungen angezeigt, darunter:
+**Verwenden von mboxTrace auf Empfehlungsseiten**: Durch das Hinzufügen von mboxTrace als Abfrage-Parameter auf Seiten mit Empfehlungen wird das Recommendations-Design auf der Seite durch ein mboxTrace-Detailfenster ersetzt, das detaillierte Informationen zu Ihren Empfehlungen enthält, darunter:
 
 * Zurückgegebene Empfehlungen im Vergleich zu abgefragten Empfehlungen
 * Der verwendete Schlüssel und ob er Empfehlungen generiert
@@ -102,11 +114,11 @@ Ergänzen Sie zur Verwendung von mboxDebug Ihre URL um einen mboxDebug-Parameter
 
 ## Adobe Experience Cloud-Debugger  {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Problembehebung in Ihrer Target-Implementierung. Hier können Sie schnell Ihre Bibliothekskonfiguration anzeigen, Anfragen untersuchen, um sicherzustellen, dass Ihre benutzerspezifischen Parameter ordnungsgemäß übergeben werden, die Konsolenprotokollierung aktivieren sowie alle Target-Anfragen deaktivieren. Authenticate into the Experience Cloud and you can use the powerful MboxTrace tool to inspect your activity and audience qualifications as well as your visitor profile.
+Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Problembehebung in Ihrer Target-Implementierung. Hier können Sie schnell Ihre Bibliothekskonfiguration anzeigen, Anfragen untersuchen, um sicherzustellen, dass Ihre benutzerspezifischen Parameter ordnungsgemäß übergeben werden, die Konsolenprotokollierung aktivieren sowie alle Target-Anfragen deaktivieren. Authentifizieren Sie sich im Experience Cloud und verwenden Sie das leistungsstarke MboxTrace-Tool, um Ihre Aktivität- und Audience-Qualifikationen sowie Ihr Besucher-Profil zu überprüfen.
 
 Weitere Informationen finden Sie in den Schulungsvideos unten:
 
-For more detailed information, see [Debug at.js using the Adobe Experience Cloud debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+Weitere Informationen finden Sie unter [Debuggen von at.js mit dem Adobe Experience Cloud-Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Wenn target.js bei der Bereitstellung nicht geladen wird {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -116,7 +128,7 @@ Mbox.js sendet Besuchern ein Cookie namens „em-disabled“, falls target.js be
 
 The *`SiteCatalyst: purchase`* call can&#39;t be used for Purchase algorithm traffic data. Verwenden Sie stattdessen den *`orderConfirmPage`* Aufruf.
 
-## Aktivitätspriorität prüfen {#section_3D0DD07240F0465BAF655D0804100AED}
+## Check activity priority {#section_3D0DD07240F0465BAF655D0804100AED}
 
 Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
 
@@ -130,7 +142,7 @@ Führen Sie ein Upgrade auf die [!DNL mbox.js]-Version 58 oder neuer durch.
 
 mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
-## Target-Cookie wird nicht gesetzt  {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Target cookie does not get set {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 Wenn Ihre Site eine Unterdomäne besitzt, z. B. [!DNL us.domain.com], das Target-Cookie aber auf [!DNL domain.com] gesetzt werden muss (anstatt auf [!DNL us.domain.com]), dann müssen Sie die Einstellung `cookieDomain` überschreiben. Weitere Informationen finden Sie unter [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
@@ -160,7 +172,7 @@ at.js löst keine Anfragen zur Zielgruppe aus, wenn Sie einen ungültigen doctyp
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Erweiterung hinzufügen ![Tutorial badge](/help/assets/tutorial.png)
+### Erweiterung hinzufügen ![Tutorialzeichen](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
