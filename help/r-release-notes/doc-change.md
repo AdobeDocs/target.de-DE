@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
-source-wordcount: '2537'
-ht-degree: 30%
+source-wordcount: '2564'
+ht-degree: 29%
 
 ---
 
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 12. Oktober | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Aktualisierung des Autorisierungstokens [abrufen, das mit Debuggingwerkzeugen](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) verwendet werden soll, um die Berechtigungsebene anzugeben, die zum Generieren eines Authentifizierungstokens erforderlich ist. |
 | Oktober 8 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Das folgende Problem wurde behoben:<ul><li>[Berichte für die automatische Zielgruppe](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Das folgende Problem wurde aus dem Abschnitt &quot;Bekannte Probleme&quot;in den Abschnitt &quot;Behobene Probleme&quot;verschoben:<ul><li>[Berichterstellung](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Hybridimplementierung](/help/c-implementing-target/hybrid-implementation.md) | Neues Thema |
 | 7. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Version Target Standard/Premium 20.10.1 hinzugefügt. |
