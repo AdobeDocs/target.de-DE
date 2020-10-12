@@ -5,15 +5,15 @@ title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2092247f235233d9628dc001a5e898df0aa9da8c
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '3793'
-ht-degree: 80%
+source-wordcount: '3898'
+ht-degree: 77%
 
 ---
 
 
-# Bekannte Probleme und gelöste Probleme {#known-issues-and-resolved-issues}
+# Bekannte Probleme und gelöste Probleme  
 
 Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
 
@@ -24,6 +24,12 @@ Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören
 ## Bekannte Probleme {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
+
+### Analytics for Zielgruppe (A4T)-Metriken für Aktivitäten mit automatisierter Zuordnung und automatischer Zielgruppe
+
+In der [!DNL Target] Benutzeroberfläche gibt es derzeit ein bekanntes Problem, bei dem Benutzer nicht unterstützte Interaktions- und Umsatzmetriken als Hauptzielmetrik für die Optimierung in den Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL automatische Zielgruppe] auswählen können. Konversionsmetriken werden unterstützt. Interaktions- und Umsatzmetriken werden *nicht* unterstützt. Wenn Sie Interaktions- oder Umsatzzielmetriken auswählen, wird kein Optimierungsmodell erstellt (auch wenn die Benutzeroberfläche der Zielgruppe es Ihnen derzeit ermöglicht, nicht unterstützte Zielmetriken auszuwählen).
+
+Eine Liste der unterstützten und nicht unterstützten Zielmetriken finden Sie unter [Unterstützte Zielmetriken](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Erstellen einer Aktivität, die Analytics als Berichte-Quelle* verwendet. (TNT-38409)
 
 ### Seitenversand {#page-delivery}
 
