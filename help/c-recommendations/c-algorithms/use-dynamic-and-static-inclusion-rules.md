@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 36%
+source-wordcount: '2100'
+ht-degree: 35%
 
 ---
 
@@ -60,25 +60,11 @@ Empfehlen Sie beispielsweise nur Artikel, die mit der Marke des aktuellen Artike
 
 Wenn die mbox auf einer Landingpage zurückgegeben wird `entity.brand=Nike`, werden nur Nike-Produkte zurückgegeben und auf dieser Seite angezeigt. Ebenso werden bei der Landingpage der Marke Adidas nur Adidas-Produkte zurückgegeben. Bei diesem Typ von Regeln zur dynamischen Inklusion muss der Benutzer nur eine Empfehlungsregel angeben, die die relevanten Markenergebnisse über alle Markenseiten hinweg zurückgibt, anstatt eine Sammlung oder einen statischen Filter anzugeben, der mit jedem Markennamen übereinstimmt.
 
-Verfügbare Operatoren:
-
-* gleich
-* ist nicht gleich
-* ist zwischen
-* enthält
-* „Enthält nicht“
-* beginnt mit
-* endet mit
-* Wert vorhanden
-* Wert nicht vorhanden
-* größer als oder gleich
-* kleiner als oder gleich
-
 #### Profilattributübereinstimmung
 
 Sie können Elemente (Entitäten) dynamisch mit einem Wert im Profil des Benutzers vergleichen.
 
-Verwenden Sie [!UICONTROL Profil Attribute Matching] , wenn Sie Empfehlungen anzeigen möchten, die mit einem im Profil des Besuchers gespeicherten Wert übereinstimmen, z. B. der Größe oder der Lieblingsmarke.
+Verwenden Sie die [!UICONTROL Profil-Attributübereinstimmung] , wenn Sie Empfehlungen anzeigen möchten, die mit einem im Profil des Besuchers gespeicherten Wert übereinstimmen, z. B. der Größe oder der Lieblingsmarke.
 
 Die folgenden Beispiele zeigen, wie Sie [!UICONTROL Profil Attribute Matching]verwenden können:
 
