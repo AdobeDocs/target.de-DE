@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 2d7435c420326a7eb1a59c95befa87b06c7614c8
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 35%
+source-wordcount: '2125'
+ht-degree: 34%
 
 ---
 
@@ -66,59 +66,12 @@ Sie können Elemente (Entitäten) dynamisch mit einem Wert im Profil des Benutze
 
 Verwenden Sie die [!UICONTROL Profil-Attributübereinstimmung] , wenn Sie Empfehlungen anzeigen möchten, die mit einem im Profil des Besuchers gespeicherten Wert übereinstimmen, z. B. der Größe oder der Lieblingsmarke.
 
-Die folgenden Beispiele zeigen, wie Sie [!UICONTROL Profil Attribute Matching]verwenden können:
+Die folgenden Szenarien zeigen, wie Sie [!UICONTROL Profil-Attributzuordnung]verwenden können:
 
 * Eine Firma, die Brillen verkauft, speichert die bevorzugte Rahmenfarbe eines Besuchers als &quot;Walnuss&quot;. Für diesen bestimmten Besucher werden nur Blasen-Rahmen zurückgegeben, die mit &quot;Walnuss&quot;farblich übereinstimmen.
 * Ein Profil-Parameter kann für die Bekleidungsgröße (z. B. klein, mittel oder groß) eines Besuchers beim Navigieren auf der Website Ihrer Firma definiert werden. Eine Empfehlung kann so eingestellt werden, dass sie mit diesem Profil-Parameter übereinstimmt und nur die vom Benutzer bevorzugten Bekleidungsgrößen zurückgibt.
 
-Schauen wir uns ein Beispiel an, um Kleidungsstücke zu empfehlen, die der im Profil des Besuchers festgelegten Bekleidungsgröße entsprechen.
-
-Die Produktseite sendet `entity.size` im mbox-Aufruf (roter Pfeil in der Abbildung unten).
-
-Sie können ein [Profil-Skript](/help/c-target/c-visitor-profile/profile-parameters.md) erstellen, um die Profil und Werte des Besuchers von der letzten Seite zu erfassen, die der Besucher besucht hat.
-
-Beispiel:
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-Das Profil-Skript erfasst den `entity.size` Wert aus der mbox mit dem Namen `target-global-mbox` und gibt ihn als Profil-Attribut mit dem Namen `user.size` (blauer Pfeil in unten stehender Abbildung) zurück.
-
-![mbox-groß-Aufruf](/help/c-recommendations/c-algorithms/assets/size.png)
-
-Klicken Sie beim Erstellen der Empfehlungskriterien auf [!UICONTROL Hinzufügen Filterregel]und wählen Sie [!UICONTROL Profil-Attributübereinstimmung].
-
-![Profil-Attributübereinstimmung Abbildung](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-Wenn Ihr `user.size` Profil in geladen wurde, wird es in der Dropdown-Liste zur Übereinstimmung angezeigt, wenn Sie die Regel so einrichten, dass der im mbox-Aufruf ( [!DNL Target]) übergebene Wert mit dem Profil-Skriptnamen (`size``user.size`) übereinstimmt.
-
-Sie können dann &quot;size&quot;als Wert/Profil auswählen, der in &quot;user.size&quot;gespeichert ist, um die Zuordnung Ihres Attributes zu ändern.
-
-Nach der Erstellung der Profil-Attributregeln werden alle Empfehlungen mit Attributen herausgefiltert, die nicht mit dem gespeicherten Profil-Attribut des Besuchers übereinstimmen.
-
-Sehen Sie sich eine Website an, auf der Fans verkauft werden, um ein Beispiel dafür zu erhalten, wie die Zuordnung von Profil-Attributen Empfehlungen beeinflusst.
-
-Wenn ein Besucher auf verschiedene Fächerbilder auf dieser Website klickt, legt jede Seite den Wert des `entity.size` Parameters fest, je nachdem, ob die Größe des Fans im Bild klein oder groß ist.
-
-Angenommen, Sie haben ein Profil-Skript erstellt, um zu verfolgen und zu zählen, wie oft der Wert auf klein oder groß eingestellt `entity.size` ist.
-
-Wenn der Besucher dann zur Startseite zurückkehrt, werden ihm gefilterte Empfehlungen angezeigt, je nachdem, ob mehr kleine Fans oder große Fans angeklickt wurden.
-
-Recommendations auf der Grundlage der Anzeige von mehr kleinen Fans auf der Website:
-
-![Empfehlungen für kleine Fans](/help/c-recommendations/c-algorithms/assets/small-fans.png)
-
-Recommendations auf der Grundlage der Anzeige größerer Fans auf der Website:
-
-![Empfehlungen für große Fans](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+Weitere Beispiele und Anleitungen finden Sie unter Beispiele für [Profil-Attributzuordnung](#section_9873E2F22E094E479569D05AD5BB1D40) .
 
 #### Parameterübereinstimmung
 
@@ -253,11 +206,64 @@ Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
+### Beispiel 3: Bekleidung empfehlen, die der Größe eines Besuchers entspricht
+
+Schauen wir uns ein Beispiel an, um Kleidungsstücke zu empfehlen, die der im Profil des Besuchers festgelegten Bekleidungsgröße entsprechen.
+
+Die Produktseite sendet `entity.size` im mbox-Aufruf (roter Pfeil in der Abbildung unten).
+
+Sie können ein [Profil-Skript](/help/c-target/c-visitor-profile/profile-parameters.md) erstellen, um die Profil und Werte des Besuchers von der letzten Seite zu erfassen, die der Besucher besucht hat.
+
+Beispiel:
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+Das Profil-Skript erfasst den `entity.size` Wert aus der mbox mit dem Namen `target-global-mbox` und gibt ihn als Profil-Attribut mit dem Namen `user.size` (blauer Pfeil in unten stehender Abbildung) zurück.
+
+![mbox-groß-Aufruf](/help/c-recommendations/c-algorithms/assets/size.png)
+
+Klicken Sie beim Erstellen der Empfehlungskriterien auf [!UICONTROL Hinzufügen Filterregel]und wählen Sie [!UICONTROL Profil-Attributübereinstimmung].
+
+![Profil-Attributübereinstimmung Abbildung](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+Wenn Ihr `user.size` Profil in geladen wurde, wird es in der Dropdown-Liste zur Übereinstimmung angezeigt, wenn Sie die Regel so einrichten, dass der im mbox-Aufruf ( [!DNL Target]) übergebene Wert mit dem Profil-Skriptnamen (`size``user.size`) übereinstimmt.
+
+Sie können dann &quot;size&quot;als Wert/Profil auswählen, der in &quot;user.size&quot;gespeichert ist, um die Zuordnung Ihres Attributes zu ändern.
+
+Nach der Erstellung der Profil-Attributregeln werden alle Empfehlungen mit Attributen herausgefiltert, die nicht mit dem gespeicherten Profil-Attribut des Besuchers übereinstimmen.
+
+### Beispiel 4: Artikel nach Größe empfehlen
+
+Sehen Sie sich eine Website an, auf der Fans verkauft werden, um ein Beispiel dafür zu erhalten, wie die Zuordnung von Profil-Attributen Empfehlungen beeinflusst.
+
+Wenn ein Besucher auf verschiedene Fächerbilder auf dieser Website klickt, legt jede Seite den Wert des `entity.size` Parameters fest, je nachdem, ob die Größe des Fans im Bild klein oder groß ist.
+
+Angenommen, Sie haben ein Profil-Skript erstellt, um zu verfolgen und zu zählen, wie oft der Wert auf klein oder groß eingestellt `entity.size` ist.
+
+Wenn der Besucher dann zur Startseite zurückkehrt, werden ihm gefilterte Empfehlungen angezeigt, je nachdem, ob mehr kleine Fans oder große Fans angeklickt wurden.
+
+Recommendations auf der Grundlage der Anzeige von mehr kleinen Fans auf der Website:
+
+![Empfehlungen für kleine Fans](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations auf der Grundlage der Anzeige größerer Fans auf der Website:
+
+![Empfehlungen für große Fans](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+
 ## Beispiele für Übereinstimmungen von Entitätsattributen
 
 [!UICONTROL Die Zuordnung] von Entitätsattributen ermöglicht es Ihnen, nur die Artikel zu empfehlen, die mit einem Attribut übereinstimmen, entweder mit dem Artikel, den der Benutzer gerade anzeigt, dem Artikel, den er zuletzt gekauft hat, dem Artikel, den der Benutzer am häufigsten angezeigt hat, oder mit einem Artikel, der in einem benutzerdefinierten Attribut im Profil des Besuchers gespeichert ist, wie in den folgenden Beispielen dargestellt.
 
-### Beispiel 3: Hochladen zu einem teureren Produkt
+### Beispiel 5: Hochladen zu einem teureren Produkt
 
 Angenommen, Sie sind ein Bekleidungshändler und möchten Benutzer dazu ermutigen, teurere und damit gewinnbringendere Artikel in Betracht zu ziehen. Sie können die Operatoren &quot;Gleich&quot;und &quot;Ist zwischen&quot;verwenden, um teurere Artikel zu bewerben, die aus derselben Kategorie und derselben Marke stammen. Beispielsweise kann ein Schuhhändler teurere Laufschuhe fördern, um einen Besucher, der Laufschuhe betrachtet, zu verkaufen.
 
@@ -272,7 +278,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-### Beispiel 4: Förderung von Produkten mit privatem Etikett
+### Beispiel 6: Förderung von Produkten mit privatem Etikett
 
 Sie können dynamische und statische Filter kombinieren, um Produkte für Privatbezeichnungen zu bewerben. Eine Firma für die Büroversorgung kann beispielsweise Tonerkassetten der Hausmarke der Firma fördern, um einen rentableren Verkauf für einen Besucher zu fördern, der sich Toner ansieht - und um die Marke der Firma zu fördern, um einen profitableren Verkauf für einen Besucher zu fördern, der sich Stifte ansieht.
 
