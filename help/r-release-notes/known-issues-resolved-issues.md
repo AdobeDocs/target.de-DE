@@ -5,9 +5,9 @@ title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 31bbee408ef4490ecd3a66223e895802ba9f88e5
+source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
 workflow-type: tm+mt
-source-wordcount: '3900'
+source-wordcount: '3897'
 ht-degree: 77%
 
 ---
@@ -27,7 +27,7 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
 ### Analytics for Zielgruppe (A4T)-Metriken für Aktivitäten mit automatisierter Zuordnung und automatischer Zielgruppe
 
-In der [!DNL Target] Benutzeroberfläche gibt es derzeit ein bekanntes Problem, bei dem Benutzer nicht unterstützte Interaktions- und Umsatzmetriken als Hauptzielmetrik für die Optimierung in den Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL automatische Zielgruppe] auswählen können. Konversionsmetriken werden unterstützt. Interaktions- und Umsatzmetriken werden *nicht* unterstützt. Wenn Sie Interaktions- oder Umsatzzielmetriken (z. B. Bestellungen) auswählen, wird kein Optimierungsmodell erstellt (auch wenn Sie in der [!DNL Target] Benutzeroberfläche derzeit nicht unterstützte Zielmetriken auswählen können).
+In der [!DNL Target] Benutzeroberfläche gibt es derzeit ein bekanntes Problem, bei dem Benutzer nicht unterstützte Interaktions- und Umsatzmetriken als Hauptzielmetrik für die Optimierung in den Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL automatische Zielgruppe] auswählen können. Konversionsmetriken werden unterstützt. Interaktions- und Umsatzmetriken werden *nicht* unterstützt. Wenn Sie Interaktions- oder Umsatzzielmetriken auswählen, wird kein Optimierungsmodell erstellt (auch wenn die [!DNL Target] Benutzeroberfläche Ihnen derzeit die Auswahl nicht unterstützter Zielmetriken erlaubt).
 
 Eine Liste der unterstützten und nicht unterstützten Zielmetriken finden Sie unter [Unterstützte Zielmetriken](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Erstellen einer Aktivität, die Analytics als Berichte-Quelle* verwendet. (TNT-38409)
 
