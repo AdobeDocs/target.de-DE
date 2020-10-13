@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 56%
+source-wordcount: '2135'
+ht-degree: 36%
 
 ---
 
@@ -40,13 +40,25 @@ In der folgenden Tabelle werden die Filteroptionstypen für Kriterien und Promot
 
 ### Dynamische Filterung
 
+Dynamische Inklusionsregeln sind leistungsfähiger als statische Inklusionsregeln und bieten bessere Ergebnisse und Interaktionen. Beachten Sie Folgendes:
+
+* Dynamische Inklusionsregeln liefern Empfehlungen, indem sie einem Attribut im Profil-Parameter eines Benutzers oder in einem Mbox-Aufruf entsprechen.
+
+   Sie können beispielsweise eine Empfehlung zu bevorzugten Kriterien erstellen und dann aus dem Satz der zurückgegebenen Empfehlungen alle in Echtzeit nach einem Attribut filtern, das beim Zugriff des Benutzers auf eine Seite, auf der die Empfehlungen angezeigt werden, weitergegeben wird.
+
+* Verwenden Sie statische Regeln, um zu begrenzen, welche Artikel in der Empfehlung enthalten sind (anstelle von Sammlungen).
+
+* Sie können so viele dynamische Einschlussregeln wie nötig erstellen. Die Einschlussregeln werden mit einem Operator vom Typ „AND“ verbunden. Alle Regeln müssen erfüllt sein, damit ein Artikel in den Empfehlungen berücksichtigt wird.
+
 Die folgenden Optionen stehen für die dynamische Filterung zur Verfügung:
 
 #### Entitätsattributübereinstimmung
 
 Sie können dynamisch filtern, indem Sie einen Pool potenzieller Empfehlungselemente mit einem bestimmten Element vergleichen, mit dem die Benutzer interagiert haben.
 
-Beispielsweise nur empfohlene Elemente, die mit der Marke des aktuellen Elements übereinstimmen.
+Empfehlen Sie beispielsweise nur Artikel, die mit der Marke des aktuellen Artikels übereinstimmen, wie im folgenden Beispiel:
+
+Wenn die mbox auf einer Landingpage zurückgegeben wird `entity.brand=Nike`, werden nur Nike-Produkte zurückgegeben und auf dieser Seite angezeigt. Ebenso werden bei der Landingpage der Marke Adidas nur Adidas-Produkte zurückgegeben. Bei diesem Typ von Regeln zur dynamischen Inklusion muss der Benutzer nur eine Empfehlungsregel angeben, die die relevanten Markenergebnisse über alle Markenseiten hinweg zurückgibt, anstatt eine Sammlung oder einen statischen Filter anzugeben, der mit jedem Markennamen übereinstimmt.
 
 Verfügbare Operatoren:
 
@@ -66,31 +78,79 @@ Verfügbare Operatoren:
 
 Sie können Elemente (Entitäten) dynamisch mit einem Wert im Profil des Benutzers vergleichen.
 
-Beispielsweise nur empfohlene Elemente, die mit der Lieblingsmarke des Besuchers übereinstimmen.
+Verwenden Sie [!UICONTROL Profil Attribute Matching] , wenn Sie Empfehlungen anzeigen möchten, die mit einem im Profil des Besuchers gespeicherten Wert übereinstimmen, z. B. der Größe oder der Lieblingsmarke.
 
-Verfügbare Operatoren:
+Die folgenden Beispiele zeigen, wie Sie [!UICONTROL Profil Attribute Matching]verwenden können:
 
-* gleich
-* ist nicht gleich
-* enthält
-* „Enthält nicht“
-* beginnt mit
-* endet mit
-* größer als oder gleich
-* kleiner als oder gleich
-* ist zwischen
+* Eine Firma, die Brillen verkauft, speichert die bevorzugte Rahmenfarbe eines Besuchers als &quot;Walnuss&quot;. Für diesen bestimmten Besucher werden nur Blasen-Rahmen zurückgegeben, die mit &quot;Walnuss&quot;farblich übereinstimmen.
+* Ein Profil-Parameter kann für die Bekleidungsgröße (z. B. klein, mittel oder groß) eines Besuchers beim Navigieren auf der Website Ihrer Firma definiert werden. Eine Empfehlung kann so eingestellt werden, dass sie mit diesem Profil-Parameter übereinstimmt und nur die vom Benutzer bevorzugten Bekleidungsgrößen zurückgibt.
+
+Schauen wir uns ein Beispiel an, um Kleidungsstücke zu empfehlen, die der im Profil des Besuchers festgelegten Bekleidungsgröße entsprechen.
+
+Die Produktseite sendet `entity.size` im mbox-Aufruf (roter Pfeil in der Abbildung unten).
+
+Sie können ein [Profil-Skript](/help/c-target/c-visitor-profile/profile-parameters.md) erstellen, um die Profil und Werte des Besuchers von der letzten Seite zu erfassen, die der Besucher besucht hat.
+
+Beispiel:
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+Das Profil-Skript erfasst den `entity.size` Wert aus der mbox mit dem Namen `target-global-mbox` und gibt ihn als Profil-Attribut mit dem Namen `user.size` (blauer Pfeil in unten stehender Abbildung) zurück.
+
+![mbox-groß-Aufruf](/help/c-recommendations/c-algorithms/assets/size.png)
+
+Klicken Sie beim Erstellen der Empfehlungskriterien auf [!UICONTROL Hinzufügen Filterregel]und wählen Sie [!UICONTROL Profil-Attributübereinstimmung].
+
+![Profil-Attributübereinstimmung Abbildung](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+Wenn Ihr `user.size` Profil in geladen wurde, wird es in der Dropdown-Liste zur Übereinstimmung angezeigt, wenn Sie die Regel so einrichten, dass der im mbox-Aufruf ( [!DNL Target]) übergebene Wert mit dem Profil-Skriptnamen (`size``user.size`) übereinstimmt.
+
+Sie können dann &quot;size&quot;als Wert/Profil auswählen, der in &quot;user.size&quot;gespeichert ist, um die Zuordnung Ihres Attributes zu ändern.
+
+Nach der Erstellung der Profil-Attributregeln werden alle Empfehlungen mit Attributen herausgefiltert, die nicht mit dem gespeicherten Profil-Attribut des Besuchers übereinstimmen.
+
+Sehen Sie sich eine Website an, auf der Fans verkauft werden, um ein Beispiel dafür zu erhalten, wie die Zuordnung von Profil-Attributen Empfehlungen beeinflusst.
+
+Wenn ein Besucher auf verschiedene Fächerbilder auf dieser Website klickt, legt jede Seite den Wert des `entity.size` Parameters fest, je nachdem, ob die Größe des Fans im Bild klein oder groß ist.
+
+Angenommen, Sie haben ein Profil-Skript erstellt, um zu verfolgen und zu zählen, wie oft der Wert auf klein oder groß eingestellt `entity.size` ist.
+
+Wenn der Besucher dann zur Startseite zurückkehrt, werden ihm gefilterte Empfehlungen angezeigt, je nachdem, ob mehr kleine Fans oder große Fans angeklickt wurden.
+
+Recommendations auf der Grundlage der Anzeige von mehr kleinen Fans auf der Website:
+
+![Empfehlungen für kleine Fans](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations auf der Grundlage der Anzeige größerer Fans auf der Website:
+
+![Empfehlungen für große Fans](/help/c-recommendations/c-algorithms/assets/large-fans.png)
 
 #### Parameterübereinstimmung
 
 Dynamisches Filtern durch Vergleich von Elementen (Entitäten) mit einem Wert in der Anforderung (API oder mbox).
 
-Beispielsweise nur empfohlene Inhalte, die mit dem Branchen-Seitenparameter übereinstimmen.
+Empfehlen Sie beispielsweise nur Inhalte, die mit dem Seitenparameter &quot;Branche&quot;oder anderen Parametern übereinstimmen, wie z. B. Geräteabmessungen oder Geolocation, wie in den folgenden Beispielen.
 
-Wichtig: Wenn die Aktivität vor dem 31. Oktober 2016 erstellt wurde, schlägt die Bereitstellung bei der Verwendung des Filters „Parameterübereinstimmung“ fehl. So umgehen Sie das Problem:
+* Mbox-Parameter für Bildschirmbreite und -höhe können zur Zielgruppe von mobilen Besuchern und zur Empfehlung von Mobilgeräten und Zubehör verwendet werden.
+* Regionale Geo-Positionsparameter können verwendet werden, um Empfehlungen für Tools während des Winters zurückzugeben. Schneeflocken und andere Schneefälle können für Besucher in Bereichen empfohlen werden, in denen es schneit, aber nicht für Besucher in Gebieten, in denen es nicht schneit.
 
-* Erstellen Sie eine neue Aktivität und fügen Sie Ihre Kriterien darin hinzu.
-* Verwenden Sie Kriterien, die den Filter „Parameterübereinstimmung“ nicht enthalten.
-* Entfernen Sie den Filter „Parameterübereinstimmung“ aus Ihren Kriterien.
+>[!NOTE]
+>
+>Wenn die Aktivität vor dem 31. Oktober 2016 erstellt wurde, schlägt ihr Versand fehl, wenn der Filter &quot;Parameterübereinstimmung&quot;verwendet wird. So umgehen Sie das Problem:
+>
+>* Erstellen Sie eine neue Aktivität und fügen Sie Ihre Kriterien darin hinzu.
+>* Verwenden Sie Kriterien, die den Filter „Parameterübereinstimmung“ nicht enthalten.
+>* Entfernen Sie den Filter „Parameterübereinstimmung“ aus Ihren Kriterien.
+
 
 Verfügbare Operatoren:
 
@@ -183,7 +243,7 @@ Um die gewünschte Aktion auszuwählen, bewegen Sie den Mauszeiger über das Zah
 | Keine Artikel bewerben | Entity Attribute<br>MatchingProfile Attribute<br>MatchingParameter Matching | Dies ist die Standardaktion für die Entitätsattributübereinstimmung.<br>[!DNL Target]Durch diese Aktion wird bestimmt, wie leere Werte vor dem Hinzufügen dieser Option verarbeitet hat: Für diese Kriterien werden keine Ergebnisse angezeigt. |
 | Statischen Wert verwenden | Entitätsattributübereinstimmung<br>Profilattributübereinstimmung<br>Parameterübereinstimmung | Wenn ein Wert leer ist, können Sie die Verwendung eines statischen Werts festlegen. |
 
-## Beispiele für Profil-Attributübereinstimmung {#section_9873E2F22E094E479569D05AD5BB1D40}
+## Profil-Attributzuordnungsbeispiele {#section_9873E2F22E094E479569D05AD5BB1D40}
 
 [!UICONTROL Profil Attribute Matching] ermöglicht es Ihnen, nur die Elemente zu empfehlen, die mit einem Attribut aus dem Profil des Besuchers übereinstimmen, wie in den folgenden Beispielen.
 
