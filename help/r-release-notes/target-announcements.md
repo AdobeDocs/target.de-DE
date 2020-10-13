@@ -5,9 +5,9 @@ title: Mitteilungen zur Zielgruppe
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,17 @@ Mitteilungen und Informationen zu kommenden Ereignissen, einschließlich Zielgru
 ## Adobe wurde erneut zum &quot;Leader in Gartner Magic Quadrant&quot;für Personalisierungsmaschinen ernannt
 
 Adobe wurde im dritten Gartner Magic Quadrant for Personalization Engines 2020-Bericht erneut zum Leader ernannt. Der Gartner Magic Quadrant for Personalization Engines bewertete Anbieter anhand von 15 Kriterien, die in zwei Kategorien unterteilt sind: Vollständigkeit der Sicht und Ausführungsfähigkeit. [Lesen Sie mehr darüber im Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## Webinar: Personalisieren und testen Sie mit Entscheidungen auf dem Gerät von Adobe Target
+
+Marketingfachleute, Produkteigentümer und Entwickler sind mehr denn je damit beschäftigt, die Kundenerfahrung auf Websites, in Apps und anderswo zu optimieren, wo sie mit ihren Kunden in Kontakt treten. Mehrere Tools mit Datensilos und komplizierten Implementierungen schneiden nicht.
+
+In diesem Live-Webinar diskutieren Produktexperten von Adobe Target, wie durch die Übertragung wichtiger Entscheidungen zur Optimierung von Erlebnissen auf dem Gerät, die lokal mit Null-Latenz ausgeführt werden sollen, aufregende neue Einsatzmöglichkeiten eröffnet werden können und gleichzeitig die Leistung der Website für Ihre Kunden verbessert wird.
+
+* **Dienstag, 10. November 2020**
+* **10 Uhr PT | 12.00 Uhr CT | 1:00 Uhr MEZ**
+
+[Melden Sie sich hier für dieses aufregende Ereignis an.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Webinar: Adaptive, feine Personalisierung im Maßstab mit Adobe Target und Analytics
 
@@ -40,7 +51,7 @@ In diesem Webinar lernen Sie Folgendes:
 
 ## Webinar: Wie HSBC Adobe Target und AI nutzt, um Personalisierung schnell zu optimieren und zu liefern
 
-* **Für die nächsten 30 Tage können Sie hier klicken, um die[Webinar-Aufzeichnung](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)Ansicht.**
+* **Für die nächsten 30 Tage können Sie hier klicken, um die [Webinar-Aufzeichnung](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)Ansicht.**
 
 McKinsey Digital berichtet, dass &quot;wir fünf Jahre nach der digitalen Akzeptanz von Verbrauchern und Unternehmen in etwa acht Wochen zurückgelegt haben&quot;. *
 
