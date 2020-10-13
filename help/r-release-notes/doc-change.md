@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2684'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 13. Oktober | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zum folgenden Live-Webinar hinzugefügt, das für den 10. November 2020 geplant ist:<ul><li>Personalisieren und testen Sie mit Entscheidungen auf dem Gerät von Adobe Target</li></ul> |
+|  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zum folgenden Live-Webinar hinzugefügt, das für den 10. November 2020 geplant ist:<ul><li>Personalisieren und testen Sie mit Entscheidungen auf dem Gerät von Adobe Target</li></ul> |
 | 12. Oktober | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Aktualisierung des Autorisierungstokens [abrufen, das mit Debuggingwerkzeugen](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) verwendet werden soll, um die Berechtigungsebene anzugeben, die zum Generieren eines Authentifizierungstokens erforderlich ist. |
 |  | [Profil-API-Einstellungen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Thema aktualisiert, um die Berechtigungsebene anzugeben, die zum Generieren eines Authentifizierungstokens erforderlich ist. |
 |  | [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md) | Die Erfolgsgeschichte der realen Welt wurde mit der automatischen Zielgruppe hinzugefügt. |
