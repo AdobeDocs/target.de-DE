@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 15%
+source-wordcount: '582'
+ht-degree: 13%
 
 ---
 
@@ -45,7 +45,7 @@ Diese Version enthält die folgenden neuen Funktionen:
 
 | Funktion | Details |
 | --- | --- |
-| Entscheidungen auf dem Gerät | Mit Entscheidungen auf dem Gerät können Marketingexperten und Produktentwickler experimentelle und maschinelle Learning-orientierte Personalisierung von einem Benutzergerät über Kanal hinweg mit nahezu null Latenz bereitstellen.<br>Schnelligkeit und Leistung sind wichtig - in Kundeneinsichten und Benutzerzufriedenheit. Mit geräteinternen Entscheidungen können Marketingexperten und jetzt Produktentwickler Erlebnisse direkt von einem Benutzergerät aus testen und optimieren, Entscheidungen und Ladezeiten für kontextbezogene Echtzeit auf nahezu null verkürzen.<br>Mit Entscheidungen auf dem Gerät können Sie alle Personalisierungs- und Experimentierungsanweisungen auf &quot;Optimierungsartefakte&quot;kompilieren, die auf Kundengeräte geladen werden. Diese Artikel mit einer Nulllatenz geben Marketingexperten eine persönliche Personalisierung, verhaltensbasiertes Retargeting und Echtzeitempfehlungen zu Produkten und Inhalten. Entwicklern und Produkteigentümern steht ein direkter Code zur Verfügung, um Benutzererfahrungen und Produkteinführungen zu testen und Zielgruppen und Produkteinführungen in Echtzeit zu optimieren. Und weil On-Device-Entscheidungen eine native Verbindung mit [!DNL Adobe Experience Cloud] Produkten herstellen, erhalten die [!DNL Target] Benutzer eine schnelle Analyse und schnellere Erlebnisdurchläufe. |
+| Entscheidungen auf dem Gerät | Mit Entscheidungen auf dem Gerät können Marketingexperten und Produktentwickler experimentelle und maschinelle Learning-orientierte Personalisierung von einem Benutzergerät über Kanal hinweg mit nahezu null Latenz bereitstellen.<br>Schnelligkeit und Leistung sind wichtig - in Kundeneinsichten und Benutzerzufriedenheit. Mit geräteinternen Entscheidungen können Marketingexperten und jetzt Produktentwickler Erlebnisse direkt von einem Benutzergerät aus testen und optimieren, Entscheidungen und Ladezeiten für kontextbezogene Echtzeit auf nahezu null verkürzen.<br>Mit Entscheidungen auf dem Gerät können Sie alle Personalisierungs- und Experimentierungsanweisungen auf &quot;Optimierungsartefakte&quot;kompilieren, die auf Kundengeräte geladen werden. Diese Artikel mit einer Nulllatenz geben Marketingexperten eine persönliche Personalisierung, verhaltensbasiertes Retargeting und Echtzeitempfehlungen zu Produkten und Inhalten. Entwicklern und Produkteigentümern steht ein direkter Code zur Verfügung, um Benutzererfahrungen und Produkteinführungen zu testen und Zielgruppen und Produkteinführungen in Echtzeit zu optimieren. Und weil On-Device-Entscheidungen eine native Verbindung mit [!DNL Adobe Experience Cloud] Produkten herstellen, erhalten die [!DNL Target] Benutzer eine schnelle Analyse und schnellere Erlebnisdurchläufe.<br>**Melden Sie sich jetzt für ein Live-Webinar an.** Nehmen Sie an Adobe Target-Produktexperten teil, wenn Sie besprechen, wie sich Entscheidungen zur Optimierung kritischer Erlebnisse auf dem Gerät zur lokalen Ausführung mit Nulllatenz aufregenden neuen Anwendungsfällen öffnen lassen und gleichzeitig die Site-Performance für Ihre Kunden verbessern können.<ul><li>10. November 2020</li><li>10.00 Uhr PT / 23.00 Uhr CT / 13.00 Uhr ET</li><li>[Hier registrieren](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
