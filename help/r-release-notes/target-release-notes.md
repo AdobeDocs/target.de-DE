@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 13%
+source-wordcount: '778'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert am: 7. Oktober 2020**
+**Zuletzt aktualisiert am: 14. Oktober 2020**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -46,6 +46,18 @@ Diese Version enthält die folgenden neuen Funktionen:
 | Funktion | Details |
 | --- | --- |
 | Entscheidungen auf dem Gerät | Mit Entscheidungen auf dem Gerät können Marketingexperten und Produktentwickler experimentelle und maschinelle Learning-orientierte Personalisierung von einem Benutzergerät über Kanal hinweg mit nahezu null Latenz bereitstellen.<br>Schnelligkeit und Leistung sind wichtig - in Kundeneinsichten und Benutzerzufriedenheit. Mit geräteinternen Entscheidungen können Marketingexperten und jetzt Produktentwickler Erlebnisse direkt von einem Benutzergerät aus testen und optimieren, Entscheidungen und Ladezeiten für kontextbezogene Echtzeit auf nahezu null verkürzen.<br>Mit Entscheidungen auf dem Gerät können Sie alle Personalisierungs- und Experimentierungsanweisungen auf &quot;Optimierungsartefakte&quot;kompilieren, die auf Kundengeräte geladen werden. Diese Artikel mit einer Nulllatenz geben Marketingexperten eine persönliche Personalisierung, verhaltensbasiertes Retargeting und Echtzeitempfehlungen zu Produkten und Inhalten. Entwicklern und Produkteigentümern steht ein direkter Code zur Verfügung, um Benutzererfahrungen und Produkteinführungen zu testen und Zielgruppen und Produkteinführungen in Echtzeit zu optimieren. Und weil On-Device-Entscheidungen eine native Verbindung mit [!DNL Adobe Experience Cloud] Produkten herstellen, erhalten die [!DNL Target] Benutzer eine schnelle Analyse und schnellere Erlebnisdurchläufe.<br>**Melden Sie sich jetzt für ein Live-Webinar an.** Nehmen Sie an Adobe Target-Produktexperten teil, wenn Sie besprechen, wie sich Entscheidungen zur Optimierung kritischer Erlebnisse auf dem Gerät zur lokalen Ausführung mit Nulllatenz aufregenden neuen Anwendungsfällen öffnen lassen und gleichzeitig die Site-Performance für Ihre Kunden verbessern können.<ul><li>10. November 2020</li><li>10.00 Uhr PT / 23.00 Uhr CT / 13.00 Uhr ET</li><li>[Hier registrieren](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+
+Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderungen:
+
+* Es wurde ein Fehler behoben, der verhinderte, dass [!UICONTROL durchschnittliches Vertrauensintervall] und [!UICONTROL Konfidenz] für die Zeile [!DNL Auto-Target] Gesamt [!UICONTROL in] Berichte angezeigt wurden. Die Messungen werden für alle einzelnen Erlebnisse korrekt angezeigt. (TGT-37301)
+* Es wurde ein Problem behoben, das den Berichte der [!DNL Adobe Target Premium] automatischen Zielgruppe [!UICONTROL von] Benutzern ab dem 15. September 2009 um 14:30 Uhr beeinträchtigte. (PDT) bis 6. Oktober, 9.25 Uhr (PDT). Bei der Anzeige von Berichten für die betroffenen Konversionsmetriken (die entweder mit der Option &quot;[!UICONTROL Angezeigte Seite]&quot;oder &quot;[!UICONTROL Auf mbox]geklickt&quot;konfiguriert wurden) werden die Konversionsraten falsch gemeldet. Es ist derzeit kein Problem mit dem Versand bekannt. Informationen zum Resynchronisieren und Korrigieren Ihres Berichte finden Sie im Berichte [zur automatischen Zielgruppe](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) unter *Behobene Probleme* bei *bekannten Problemen und gelöste Probleme*.
+* Es wurde eine auswählbare Spalte [!UICONTROL Letzte Aktualisierung am] in der Tabelle [!UICONTROL Katalogsuche] und ein Filter [!UICONTROL Letzte Aktualisierung am] hinzugefügt. Diese Verbesserung spart Zeit und Mühe, da Sie nicht jedes einzelne Element öffnen müssen, um zu sehen, wann es zuletzt aktualisiert wurde, und Sie nach dem Datum filtern können, an dem die Elemente zuletzt aktualisiert wurden.
+
+   ![Zuletzt aktualisiert bei Spalten- und Filterdarstellung](/help/r-release-notes/assets/column-and-filter.png)
+
+* Verbesserte Navigation und Funktionalität für Benutzer, die nur über Tastatur verfügen.
+* Es wurden Beschriftungen in der Benutzeroberfläche hinzugefügt, um Benutzern mithilfe von Hilfstechnologien zu helfen.
+* Verbesserter Text- und Farbkontrast für Bilder und Text in der Benutzeroberfläche.
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
