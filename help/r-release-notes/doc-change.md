@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b53918af5ddceded80829288d181102cf1b56841
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2716'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 15. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Versionshinweise für die Vorabversion von Target Standard/Premium 20.10.1 (27. Oktober 2020) wurden aktualisiert. |
 | 14. Oktober | [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Es wurde ein Hinweis zur Traffic-Zuordnung für eine Aktivität mit automatisierter Zuordnung mit nur zwei Erlebnissen hinzugefügt. |
 | 13. Oktober | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zum folgenden Live-Webinar hinzugefügt, das für den 10. November 2020 geplant ist:<ul><li>Personalisieren und testen Sie mit Entscheidungen auf dem Gerät von Adobe Target</li></ul> |
 |  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zum folgenden Live-Webinar hinzugefügt, das für den 10. November 2020 geplant ist:<ul><li>Personalisieren und testen Sie mit Entscheidungen auf dem Gerät von Adobe Target</li></ul> |
