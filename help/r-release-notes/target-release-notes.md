@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '803'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert am: 14. Oktober 2020**
+**Zuletzt aktualisiert am: 15. Oktober 2020**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -55,9 +55,10 @@ Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderu
 
    ![Zuletzt aktualisiert bei Spalten- und Filterdarstellung](/help/r-release-notes/assets/column-and-filter.png)
 
-* Verbesserte Navigation und Funktionalität für Benutzer, die nur über Tastatur verfügen.
-* Es wurden Beschriftungen in der Benutzeroberfläche hinzugefügt, um Benutzern mithilfe von Hilfstechnologien zu helfen.
-* Verbesserter Text- und Farbkontrast für Bilder und Text in der Benutzeroberfläche.
+* Es wurden Aktualisierungen vorgenommen, um die Benutzeroberfläche der Zielgruppe mit den [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level A und AA Success Criteria (WCAG 2.0 AA) kompatibel zu machen. (TGT-34384 und TGT-24679)
+* Verbesserungen der Content Security Policy (CSP). (TGT-37035)
+* Es wurde eine Methode zur Angabe des Clientcodes als Parameter für Kunden eingeführt, die CNAME verwenden. (TNT-38571)
+
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
