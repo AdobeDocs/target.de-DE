@@ -30,7 +30,7 @@ In [!DNL Target Standard] sind die Best Practices der Branche integriert und Sta
 
 [!DNL Target Premium] ist eine erweiterte [!DNL Target]-Lizenz, die [!DNL Target Standard] durch Premium-Funktionen ergänzt.
 
-[!DNL Target Premium] topics in this help include the Premium badge at the top of the page:
+[!DNL Target Premium] Themen in dieser Hilfe umfassen das Premium-Abzeichen oben auf der Seite:
 
 ![Premium-Zeichen](/help/assets/premium.png)
 
@@ -93,7 +93,7 @@ Mit diesem Welcome Kit können Sie ein Optimierungs- und Personalisierungsprogra
 
 [Das Adobe Target-Begrüßungs-Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Training video: Activity Types (9:03) ![Overview badge](/help/assets/overview.png)
+## Schulungsvideo: Aktivität Types (9:03) - ![Überblick](/help/assets/overview.png)
 
 Im folgenden Video wird erklärt, welche Aktivitätstypen in [!DNL Target Standard/Premium] verfügbar sind und wie der angeleitete dreistufige Arbeitsablauf von Target dazu beiträgt, dass Sie die Ziele für Ihre Site erreichen.
 
