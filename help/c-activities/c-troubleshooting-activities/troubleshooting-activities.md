@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 79%
@@ -109,7 +109,7 @@ Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige v
 
 ## mbox.js verschiebt sämtlichen folgenden Code aus dem Kopf in den Textkörper.
 
-**Validierung:** Betrachten Sie die Quelle, um zu ermitteln, ob der mbox.js-Datei vor dem schließenden </body> Tag Deklarationen folgen.
+**Validierung:** Betrachten Sie die Quelle, um zu ermitteln, ob der mbox.js-Datei vor dem schließenden `</body>` Tag Deklarationen folgen.
 
 **Optionen:**
 
