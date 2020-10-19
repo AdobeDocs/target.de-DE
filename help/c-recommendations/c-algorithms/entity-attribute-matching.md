@@ -4,9 +4,9 @@ description: Dynamische Filterung in Adobe Target Recommendations durch Vergleic
 title: Filtern nach Entitätsattribut-Übereinstimmung in Regeln für dynamische Inklusion in Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,17 @@ ht-degree: 0%
 
 Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
 
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+
 Empfehlen Sie beispielsweise nur Artikel, die mit der Marke des aktuellen Artikels übereinstimmen, wie im folgenden Beispiel:
 
-Wenn die mbox auf einer Landingpage zurückgegeben wird `entity.brand=Nike`, werden nur Nike-Produkte zurückgegeben und auf dieser Seite angezeigt. Ebenso werden bei der Landingpage Markenprodukte für Adidas nur Adidas zurückgegeben. Bei diesem Typ von Regeln zur dynamischen Inklusion muss der Benutzer nur eine Empfehlungsregel angeben, die die relevanten Markenergebnisse über alle Markenseiten hinweg zurückgibt, anstatt eine Sammlung oder einen statischen Filter anzugeben, der mit jedem Markennamen übereinstimmt.
+Wenn die mbox auf einer Landingpage zurückgegeben wird `entity.brand=Nike`, werden nur Nike-Produkte zurückgegeben und auf dieser Seite angezeigt. Ebenso werden bei der Landingpage Markenprodukte für Adidas nur Adidas zurückgegeben. Bei diesem Typ von Regeln für die dynamische Inklusion muss der Benutzer nur eine Empfehlungsregel angeben, die die relevanten Markenergebnisse über alle Markenseiten hinweg zurückgibt, anstatt eine Sammlung oder einen statischen Filter anzugeben, der mit jedem Markennamen übereinstimmt.
 
-## Beispiele für Übereinstimmungen von Entitätsattributen
+Beachten Sie, dass Sie die `entity.brand` in der mbox auf diesen Landingpages bereitstellen müssen, damit dies funktioniert.
+
+## Beispiele für die Zuordnung von Entitätsattributen
 
 [!UICONTROL Mit der Zuordnung] von Entitätsattributen können Sie nur die Elemente empfehlen, die übereinstimmen, z. B.:
 
@@ -29,6 +35,24 @@ Wenn die mbox auf einer Landingpage zurückgegeben wird `entity.brand=Nike`, wer
 * Der Artikel, den der Benutzer zuletzt gekauft hat
 * Der Artikel, den der Benutzer am häufigsten angesehen hat
 * Ein in einem benutzerdefinierten Attribut im Profil des Besuchers gespeichertes Element
+
+### Artikel nach Marke empfehlen
+
+Nach der Erstellung der Entitätsattributregeln werden alle Empfehlungen mit Attributen herausgefiltert, die nicht mit dem auf der Seite weitergeleiteten Entitätswert übereinstimmen.
+
+Das folgende Beispiel zeigt Empfehlungen, die mit der auf der Seite angezeigten Produktmarke übereinstimmen:
+
+Wenn Sie eine Seite besuchen, die ein Nike-Produkt enthält, setzt die Seite den Wert des `entity.brand` Parameters auf &quot;Nike&quot;.
+
+![Beispielaufruf für Zielgruppen](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
+
+In den Empfehlungen auf der Seite sehen Sie nur Nike-Produkte.
+
+![Nike-Empfehlungen](/help/c-recommendations/c-algorithms/assets/nike.png)
+
+Wenn Sie dann eine Adidas-Produktseite Ansicht haben, wird der `entity.brand` Wert auf &quot;Adidas&quot;zurückgesetzt und Sie sehen die auf den Adidas-Produktseiten empfohlenen Adidas-Produkte.
+
+![Adidas-Empfehlungen](/help/c-recommendations/c-algorithms/assets/adidas.png)
 
 ### Hochladen zu einem teureren Produkt
 
