@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 617333f8f243896bf581d7362b6f320ad9f3e7a9
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1563'
 ht-degree: 86%
 
 ---
@@ -384,7 +384,12 @@ ht-degree: 86%
       + [Erstellen von Kriteriensequenzen](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Hochladen benutzerdefinierter Kriterien](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [Verwenden dynamischer und statischer Einschlussregeln](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+      + Dynamic and static inclusion rules {#dynamic-static}
+         + [Verwenden dynamischer und statischer Einschlussregeln](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [Entitätsattributübereinstimmung](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [Profilattributübereinstimmung](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [Parameterübereinstimmung](/help/c-recommendations/c-algorithms/parameter-matching.md)
+         + [Statischer Filter](/help/c-recommendations/c-algorithms/static-value.md)
       + [Verwenden einer Reserveempfehlung](c-recommendations/c-algorithms/backup-recs.md)
       + [Arbeiten mit Attributen mit mehreren Werten](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [Adobe Analytics mit Recommendations verwenden](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
