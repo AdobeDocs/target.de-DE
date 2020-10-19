@@ -4,9 +4,9 @@ description: Dynamische Filterung in Adobe Target Recommendations durch Vergleic
 title: Filtern nach Profil-Attributübereinstimmung in Regeln für dynamische Inklusion in Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '655'
 ht-degree: 5%
 
 ---
@@ -16,14 +16,18 @@ ht-degree: 5%
 
 Dynamisches Filtern in [!DNL Adobe Target] [!DNL Recommendations] durch Vergleich von Elementen (Entitäten) mit einem Wert im Profil des Benutzers.
 
-Verwenden Sie [!UICONTROL Profil Attribute Matching] , wenn Sie Empfehlungen anzeigen möchten, die mit einem im Profil des Besuchers gespeicherten Wert übereinstimmen, z. B. der Größe oder der Lieblingsmarke.
+Verwenden Sie die [!UICONTROL Profil-Attributübereinstimmung] , wenn Sie Empfehlungen anzeigen möchten, die mit einem im Profil des Besuchers gespeicherten Wert übereinstimmen, z. B. der Größe oder der Lieblingsmarke.
+
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
 
 Die folgenden Szenarien zeigen, wie Sie [!UICONTROL Profil-Attributzuordnung]verwenden können:
 
 * Eine Firma, die Brillen verkauft, speichert die bevorzugte Rahmenfarbe eines Besuchers als &quot;Walnuss&quot;. Für diesen bestimmten Besucher werden nur Blasen-Rahmen zurückgegeben, die mit &quot;Walnuss&quot;farblich übereinstimmen.
 * Ein Profil-Parameter kann für die Bekleidungsgröße (z. B. klein, mittel oder groß) eines Besuchers beim Navigieren auf der Website Ihrer Firma definiert werden. Eine Empfehlung kann so eingestellt werden, dass sie mit diesem Profil-Parameter übereinstimmt und nur die vom Benutzer bevorzugten Bekleidungsgrößen zurückgibt.
 
-## Profil-Attributzuordnungsbeispiele {#section_9873E2F22E094E479569D05AD5BB1D40}
+## Beispiele für die Profil-Attributübereinstimmung {#section_9873E2F22E094E479569D05AD5BB1D40}
 
 [!UICONTROL Profil Attribute Matching] ermöglicht es Ihnen, nur die Elemente zu empfehlen, die mit einem Attribut aus dem Profil des Besuchers übereinstimmen, wie in den folgenden Beispielen.
 
@@ -72,7 +76,7 @@ Das Profil-Skript erfasst den `entity.size` Wert aus der mbox mit dem Namen `tar
 
 ![mbox-groß-Aufruf](/help/c-recommendations/c-algorithms/assets/size.png)
 
-Klicken Sie beim Erstellen der Empfehlungskriterien auf [!UICONTROL Hinzufügen Filterregel]und wählen Sie [!UICONTROL Profil-Attributübereinstimmung].
+Klicken Sie beim Erstellen der Empfehlungskriterien auf **[!UICONTROL Hinzufügen Filterregel]** und wählen Sie **[!UICONTROL Profil-Attributübereinstimmung]**.
 
 ![Profil-Attributübereinstimmung Abbildung](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
 
@@ -80,11 +84,13 @@ Wenn Ihr `user.size` Profil in geladen wurde, wird es in der Dropdown-Liste zur 
 
 Sie können dann &quot;size&quot;als Wert/Profil auswählen, der in &quot;user.size&quot;gespeichert ist, um die Zuordnung Ihres Attributes zu ändern.
 
+![Größenbeispiel](/help/c-recommendations/c-algorithms/assets/example-size.png)
+
 Nach der Erstellung der Profil-Attributregeln werden alle Empfehlungen mit Attributen herausgefiltert, die nicht mit dem gespeicherten Profil-Attribut des Besuchers übereinstimmen.
 
 ### Artikel nach Größe empfehlen
 
-Sehen Sie sich eine Website an, auf der Fans verkauft werden, um ein Beispiel dafür zu erhalten, wie die Zuordnung von Profil-Attributen Empfehlungen beeinflusst.
+Sehen Sie sich eine Website an, auf der Profil-Attributzuordnungen Empfehlungen vertreiben.
 
 Wenn ein Besucher auf verschiedene Fächerbilder auf dieser Website klickt, legt jede Seite den Wert des `entity.size` Parameters fest, je nachdem, ob die Größe des Fans im Bild klein oder groß ist.
 
