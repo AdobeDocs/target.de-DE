@@ -4,32 +4,19 @@ description: Geben Sie manuell einen oder mehrere statische Werte ein, um nach E
 title: Filtern nach statischen Werten in Einschlussregeln in Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 75%
+source-wordcount: '160'
+ht-degree: 73%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Statischer Filter
 
-Geben Sie manuell einen oder mehrere statische Werte ein, um nach Einschlussregeln in Adobe Target Recommendations zu filtern.
+Geben Sie manuell einen oder mehrere statische Werte ein, um mithilfe von Einschlussregeln in zu filtern [!DNL Adobe Target][!DNL Recommendations].
 
 Beispielsweise nur empfohlene Inhalte mit der MPAA-Einstufung „G“ oder „PG“.
-
-Verfügbare Operatoren:
-
-* gleich
-* ist nicht gleich
-* enthält
-* „Enthält nicht“
-* beginnt mit
-* endet mit
-* Wert vorhanden
-* Wert nicht vorhanden
-* größer als oder gleich
-* kleiner als oder gleich
 
 >[!NOTE]
 >
