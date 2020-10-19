@@ -4,10 +4,10 @@ description: Dynamische Filterung in Adobe Target Recommendations durch Vergleic
 title: Filtern nach Parameterübereinstimmung in Regeln für die dynamische Integration in Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 27%
+source-wordcount: '318'
+ht-degree: 10%
 
 ---
 
@@ -19,6 +19,7 @@ Dynamisches Filtern durch Vergleich von Elementen (Entitäten) mit einem Wert in
 Empfehlen Sie beispielsweise nur Inhalte, die mit dem Seitenparameter &quot;Branche&quot;oder anderen Parametern übereinstimmen, wie z. B. Geräteabmessungen oder Geolocation, wie in den folgenden Beispielen.
 
 * Mbox-Parameter für Bildschirmbreite und -höhe können zur Zielgruppe von mobilen Besuchern und zur Empfehlung von Mobilgeräten und Zubehör verwendet werden.
+* Erstellen Sie eine Recommendations-Regel, die nur die meistverkauften Mobiltelefone zurückgibt, die der Bildschirmhöhe des Mobilgeräts entsprechen oder diese überschreiten, das der Besucher mit der Ansicht verwendet.
 * Regionale Geo-Positionsparameter können verwendet werden, um Empfehlungen für Tools während des Winters zurückzugeben. Schneeflocken und andere Schneefälle können für Besucher in Bereichen empfohlen werden, in denen es schneit, aber nicht für Besucher in Gebieten, in denen es nicht schneit.
 
 >[!NOTE]
@@ -30,14 +31,16 @@ Empfehlen Sie beispielsweise nur Inhalte, die mit dem Seitenparameter &quot;Bran
 >* Entfernen Sie den Filter „Parameterübereinstimmung“ aus Ihren Kriterien.
 
 
-Verfügbare Operatoren:
+## Beispiele für Parameterübereinstimmung
 
-* gleich
-* ist nicht gleich
-* enthält
-* „Enthält nicht“
-* beginnt mit
-* endet mit
-* größer als oder gleich
-* kleiner als oder gleich
-* ist zwischen
+[!UICONTROL Mit der Parameterübereinstimmung] können Sie Inhalte empfehlen, die mit den Seitenparametern oder den Parametern des Besuchers übereinstimmen, z. B. Geräteabmessungen oder Geolocation, wie im folgenden Beispiel:
+
+[!DNL Recommendations] kann mit den Parameterwerten übereinstimmen, die im [!DNL Target] Aufruf gesendet werden. In diesem Fall [!DNL Target] [!DNL Target] erkennt ein Besucher, dass er ein Mobilgerät verwendet, basierend auf den im Aufruf gesendeten Parametern für Bildschirmhöhe und -breite, und empfiehlt nur Elemente, die Mobilgeräte sind.
+
+Betrachten Sie den folgenden Beispielaufruf zur Zielgruppe:
+
+![Zielgruppe-Aufruf](/help/c-recommendations/c-algorithms/assets/example-target-call-2.png)
+
+Auf der Seite, die ein Besucher anzeigt, werden Mobilgeräteprodukte angezeigt.
+
+![Produkte für Mobilgeräte](/help/c-recommendations/c-algorithms/assets/phones.png)
