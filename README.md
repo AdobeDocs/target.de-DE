@@ -1,11 +1,16 @@
 ---
-source-git-commit: bae4cd6ae1efaf4e9b057750dda11267e0e9a181
-translation-type: ht
+source-git-commit: 1911fc7f9fb82d57a995184e904fb993646ad2c1
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '509'
+ht-degree: 73%
 
 ---
 # Beiträge
 
-Matt ist PR-Tester
+| EXL-PR | EXL | Vorschau | Aktivieren | Veröffentlicht | Hilfe  |
+|--- |--- |--- |--- |--- |--- |
+| [![Build-Status](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_pr-exl/lastBuild/) | [![Build-Status](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_exl/lastBuild/lastBuild) | [Vorschauen-URL](https://experienceleague.corp.adobe.com/docs/target/using/target-home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live-URL](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=en) | [Autorenanleitung](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Wir freuen uns über Beiträge aus unserer Community sowie von Mitarbeitern von Adobe außerhalb der Dokumentationsteams.
 
@@ -15,13 +20,13 @@ Dieses Projekt hat den [Open-Source-Verhaltenskodex](code-of-conduct.md) oder de
 
 ## Informationen zu Ihren Beiträgen zu Adobe-Inhalten
 
-Weitere Informationen finden Sie im [Leitfaden für Beitragende zu Adobe-Dokumenten](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Siehe [Adobe Docs Mitarbeiter-Handbuch](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 Wie Sie Beiträge einbringen, hängt davon ab, wer Sie sind und welche Art von Änderungen Sie einbringen möchten:
 
 ### Geringfügige Änderungen
 
-Wenn Sie aus reiner Freundlichkeit kleinere Änderungen vornehmen möchten, rufen Sie den Artikel auf und klicken Sie auf den Link **Bearbeiten** im Artikel, der zur GitHub-Quelle des Artikels führt. Nehmen Sie die Änderungen einfach in der GitHub-Benutzeroberfläche vor. Weitere Informationen finden Sie im allgemeinen [Leitfaden für Beitragende zu Adobe-Dokumenten](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Wenn Sie aus reiner Freundlichkeit kleinere Änderungen vornehmen möchten, rufen Sie den Artikel auf und klicken Sie auf den Link **Bearbeiten** im Artikel, der zur GitHub-Quelle des Artikels führt. Nehmen Sie die Änderungen einfach in der GitHub-Benutzeroberfläche vor. See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
 
 Kleinere Korrekturen oder Erläuterungen, die Sie zur Dokumentation und als Codebeispiele in dieses Repository übermitteln, unterliegen den Adobe-Nutzungsbedingungen.
 
@@ -43,14 +48,14 @@ Wenn Sie ein technischer Redakteur, Programm-Manager oder Entwickler des Produkt
 
 Community-Mitarbeiter können die GitHub-Benutzeroberfläche zur einfachen Bearbeitung verwenden oder einen Fork des Repositorys durchführen, um wichtige Beiträge beizusteuern.
 
-Weitere Informationen finden Sie im [Leitfaden für Beitragende zu Adobe-Dokumenten](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
 
 ## Verwenden von Markdown zum Formatieren Ihres Themas
 
 Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie mit Markdown nicht vertraut sind, lesen Sie:
 
-* [Markdown-Grundlagen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Markdown-Kurzdarstellung zum Ausdrucken](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Grundlagen der Markierungen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Druckbares Markierungsblatt](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Bezeichnungen
 
