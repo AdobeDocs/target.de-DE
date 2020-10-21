@@ -6,9 +6,9 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 252bea6810e54c0592a14559874f872e39ae261d
 workflow-type: tm+mt
-source-wordcount: '3744'
+source-wordcount: '3731'
 ht-degree: 83%
 
 ---
@@ -52,7 +52,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
    Traffic aus einem zweiten Satz von Modellen wird für jede Modellgruppe (AP) oder Erlebnis (AT) erstellt. Bei jedem dieser Modelle werden Treffer und Konversionen in allen Umgebung berücksichtigt.
 
-   Anfragen werden daher unabhängig von der Umgebung mit demselben Modell bedient, aber die Datenverkehrsvielfalt sollte von der Standardeinstellung ausgehen, um sicherzustellen, dass das identifizierte Gesamterlebnis mit dem realen Umgebung übereinstimmt.
+   Anfragen werden daher unabhängig von der Umgebung mit demselben Modell bedient, aber die Datenverkehrsvielfalt sollte von der Standardeinstellung ausgehen, um sicherzustellen, dass das identifizierte, insgesamt erfolgreichste Erlebnis mit dem realen Verhalten in Einklang steht.
 
 * Es müssen mindestens zwei Erlebnisse verwendet werden.
 
@@ -125,8 +125,6 @@ Es gibt verschiedene Szenarien, in denen Sie möglicherweise [!UICONTROL Automat
 **Der Algorithmus optimiert kontinuierlich für eine einzige Zielmetrik.**
 
 * Diese Metrik kann auf Konversionen oder Umsätzen (genauer gesagt: Umsatz pro Besuch) basieren.
-
-**Die Verwendung von [!DNL Analytics] als Datenquelle oder Berichterstellungs-Endpunkt wird vom Algorithmus nicht unterstützt.**
 
 **Target sammelt automatisch Informationen über Besucher, um Personalisierungsmodelle zu erstellen.**
 
