@@ -6,9 +6,9 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1212'
 ht-degree: 2%
 
 ---
@@ -145,5 +145,5 @@ Verwenden Sie die folgenden Befehle (im MacOs- oder Linux-Befehlszeilenterminal 
 ## Bekannte Einschränkungen
 
 * Der QS-Modus ist nicht fixierbar, wenn Sie CNAME und at.js 1.x verwenden, da er auf einem Drittanbieter-Cookie basiert. Die Lösung besteht darin, jeder URL, zu der Sie navigieren, die Parameter für die Vorschau hinzuzufügen. Der QS-Modus ist fixierbar, wenn Sie CNAME und at.js 2.x haben.
-* Derzeit funktioniert die `overrideMboxEdgeServer` Einstellung nicht ordnungsgemäß mit CNAME. Dies sollte so festgelegt werden, `false` dass keine fehlerhaften Anfragen gestellt werden.
+* Zurzeit funktioniert die `overrideMboxEdgeServer` Einstellung nicht ordnungsgemäß mit CNAME, wenn at.js-Versionen vor at.js 1.8.2 und at.js 2.3.1 verwendet werden. Wenn Sie eine ältere Version von at.js verwenden, sollte dies so eingestellt werden, dass keine fehlerhaften Anforderungen `false` auftreten. Alternativ sollten Sie eine [Aktualisierung von at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) auf eine neuere, unterstützte Version in Erwägung ziehen.
 * Bei der Verwendung von CNAME erhöht sich die Wahrscheinlichkeit, dass die Größe des Cookie-Headers für Zielgruppen-Aufrufe zunimmt. Es wird empfohlen, die Cookie-Größe unter 8 KB zu halten.
