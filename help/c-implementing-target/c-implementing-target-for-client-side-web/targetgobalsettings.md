@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1698'
 ht-degree: 38%
 
 ---
@@ -128,7 +128,7 @@ Folgende Einstellungen können überschrieben werden:
 * **Standardwert**: true (true), beginnend mit at.js Version 1.6.2)
 * **Beschreibung**: Gibt an, ob `<clientCode>.tt.omtrdc.net` Domäne oder `mboxedge<clusterNumber>.tt.omtrdc.net` Domäne verwendet werden soll.
 
-   If this value is true, `mboxedge<clusterNumber>.tt.omtrdc.net` domain will be saved to a cookie. Derzeit nicht mit [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+   If this value is true, `mboxedge<clusterNumber>.tt.omtrdc.net` domain will be saved to a cookie. Wird derzeit nicht mit [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) verwendet, wenn at.js-Versionen vor &quot;at.js&quot;1.8.2 und &quot;at.js 2.3.1&quot;verwendet werden. Wenn dies ein Problem für Sie ist, sollten Sie [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) auf eine neuere, unterstützte Version aktualisieren.
 
 ### overrideMboxEdgeServerTimeout
 
@@ -348,7 +348,7 @@ Nachdem Sie die Einstellungen `cspScriptNonce` und `cspStyleNonce` Einstellungen
 
 ### Voraussetzungen
 
-Sie müssen über eine Hybridintegration von verfügen [!DNL Target].
+Sie müssen eine hybride Integration von haben [!DNL Target].
 
 * **Serverseitig**:  Sie müssen die neuen [Versand-API](https://developers.adobetarget.com/api/delivery-api/) oder [Zielgruppe-SDKs](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)verwenden.
 * **Clientseitig**: Sie müssen [at.js Version 2.2 oder höher](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)verwenden.
@@ -467,13 +467,13 @@ Consider the following when using `serverState`:
    * VEC-erstellte Aktivitäten, die beim Laden der Seite ausgeführt werden.
    * Vorab abgerufene Ansichten.
 
-      Bei SPAs, die [!DNL Target] Ansichten und die at.js-API verwenden, speichert at.js v2.2 den Inhalt für alle auf dem Server vorab abgerufenen Ansichten zwischen und wendet diese an, sobald jede Ansicht ausgelöst wird, `triggerView()` `triggerView()`ohne dass zusätzliche inhaltliche Abrufe an die Zielgruppe ausgelöst werden.
+      Bei SPA mit [!DNL Target] Ansichten und `triggerView()` in der at.js-API speichert at.js v2.2 den Inhalt für alle auf dem Server vorab abgerufenen Ansichten zwischen und wendet diese an, sobald jede Ansicht ausgelöst wird, `triggerView()`ohne dass zusätzliche inhaltliche Abrufe an die Zielgruppe ausgelöst werden.
 
    * **Hinweis**:  Derzeit werden auf der Serverseite abgerufene Mboxes in nicht unterstützt `serverState`.
 
 * Beim Anwenden von `serverState `Angeboten berücksichtigt at.js `pageLoadEnabled` und `viewsEnabled` Einstellungen, z. B. werden keine Angebot zum Laden der Seite angewendet, wenn die `pageLoadEnabled` Einstellung &quot;false&quot;ist.
 
-   Um diese Einstellungen zu aktivieren, aktivieren Sie den Umschalter unter **[!UICONTROL Administration]>[!UICONTROL Implementierung]>[!UICONTROL Bearbeiten]>[!UICONTROL Seitenladeaktivierung]**.
+   Um diese Einstellungen zu aktivieren, aktivieren Sie den Umschalter unter **[!UICONTROL Administration] > [!UICONTROL Implementierung] > [!UICONTROL Bearbeiten] > [!UICONTROL Seitenladeaktivierung]**.
 
    ![Einstellungen für &quot;Seitenladeaktivierung&quot;](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
@@ -484,4 +484,4 @@ Consider the following when using `serverState`:
 Weitere Informationen zur `serverState` Funktionsweise finden Sie in den folgenden Ressourcen:
 
 * [Beispielcode](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
-* [Beispiel-App für Einzelseitenanwendung (SPA) mit `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
+* [Beispiel-App für eine Einzelseitenanwendung (SPA) mit `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
