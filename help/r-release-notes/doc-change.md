@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '2716'
-ht-degree: 29%
+source-wordcount: '2746'
+ht-degree: 28%
 
 ---
 
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 22. Oktober | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Informationen zur Behebung einer CNAME-Unterstützung in den at.js-Versionen 1.8.2 und 2.3.1 hinzugefügt |
+|  | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Informationen zur Behebung einer CNAME-Unterstützung in den at.js-Versionen 1.8.2 und 2.3.1 hinzugefügt |
 | 15. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Versionshinweise für die Vorabversion von Target Standard/Premium 20.10.1 (27. Oktober 2020) wurden aktualisiert. |
 | 14. Oktober | [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Es wurde ein Hinweis zur Traffic-Zuordnung für eine Aktivität mit automatisierter Zuordnung mit nur zwei Erlebnissen hinzugefügt. |
 | 13. Oktober | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zum folgenden Live-Webinar hinzugefügt, das für den 10. November 2020 geplant ist:<ul><li>Personalisieren und testen Sie mit Entscheidungen auf dem Gerät von Adobe Target</li></ul> |
