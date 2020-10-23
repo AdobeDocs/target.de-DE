@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
+source-git-commit: b6d3a241362592d5034f9db6141b459db7c6739b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 9%
+source-wordcount: '816'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert am: 15. Oktober 2020**
+**Zuletzt aktualisiert am: 23. Oktober 2020**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -45,7 +45,7 @@ Diese Version enthält die folgenden neuen Funktionen:
 
 | Funktion | Details |
 | --- | --- |
-| Entscheidungen auf dem Gerät | Mit Entscheidungen auf dem Gerät können Marketingexperten und Produktentwickler experimentelle und maschinelle Learning-orientierte Personalisierung von einem Benutzergerät über Kanal hinweg mit nahezu null Latenz bereitstellen.<br>Schnelligkeit und Leistung sind wichtig - in Kundeneinsichten und Benutzerzufriedenheit. Mit geräteinternen Entscheidungen können Marketingexperten und jetzt Produktentwickler Erlebnisse direkt von einem Benutzergerät aus testen und optimieren, Entscheidungen und Ladezeiten für kontextbezogene Echtzeit auf nahezu null verkürzen.<br>Mit Entscheidungen auf dem Gerät können Sie alle Personalisierungs- und Experimentierungsanweisungen auf &quot;Optimierungsartefakte&quot;kompilieren, die auf Kundengeräte geladen werden. Diese Artikel mit einer Nulllatenz geben Marketingexperten eine persönliche Personalisierung, verhaltensbasiertes Retargeting und Echtzeitempfehlungen zu Produkten und Inhalten. Entwicklern und Produkteigentümern steht ein direkter Code zur Verfügung, um Benutzererfahrungen und Produkteinführungen zu testen und Zielgruppen und Produkteinführungen in Echtzeit zu optimieren. Und weil On-Device-Entscheidungen eine native Verbindung mit [!DNL Adobe Experience Cloud] Produkten herstellen, erhalten die [!DNL Target] Benutzer eine schnelle Analyse und schnellere Erlebnisdurchläufe.<br>**Melden Sie sich jetzt für ein Live-Webinar an.** Nehmen Sie an Adobe Target-Produktexperten teil, wenn Sie besprechen, wie sich Entscheidungen zur Optimierung kritischer Erlebnisse auf dem Gerät zur lokalen Ausführung mit Nulllatenz aufregenden neuen Anwendungsfällen öffnen lassen und gleichzeitig die Site-Performance für Ihre Kunden verbessern können.<ul><li>10. November 2020</li><li>10.00 Uhr PT / 23.00 Uhr CT / 13.00 Uhr ET</li><li>[Hier registrieren](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| Geräteinterne Entscheidungsfindung | Mit der gerätegestützten Entscheidungsfindung können sowohl Marketingexperten als auch Produktentwickler experimentelle und maschinelle Learning-gestützte Personalisierung von einem Benutzergerät über Kanal hinweg bei nahezu null Latenz bereitstellen.<br>Schnelligkeit und Leistung sind wichtig - in Kundeneinsichten und Benutzerzufriedenheit.<br>Mit der On-Device-Entscheidungsfindung können Sie wichtige Personalisierungs- und Experimentierungsanweisungen in den Aktivitäten A/B-Test- und Erlebnis-Targeting (XT) in &quot;Optimierungsartefakte:&quot;kompilieren, die über das CDN auf Kundengeräte geladen werden. Und weil die Entscheidung auf dem Gerät eine native Verbindung mit [!DNL Adobe Experience Cloud] Produkten herstellt, erhalten die [!DNL Target] Benutzer eine schnelle Analyse und schnellere Erlebnisdurchläufe.<br>**Melden Sie sich jetzt für ein Live-Webinar an.** Nehmen Sie an Adobe Target-Produktexperten teil, wenn Sie besprechen, wie sich Entscheidungen zur Optimierung kritischer Erlebnisse auf dem Gerät zur lokalen Ausführung mit Nulllatenz aufregenden neuen Anwendungsfällen öffnen lassen und gleichzeitig die Site-Performance für Ihre Kunden verbessern können.<ul><li>10. November 2020</li><li>10.00 Uhr PT / 23.00 Uhr CT / 13.00 Uhr ET</li><li>[Hier registrieren](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderungen:
 
