@@ -5,7 +5,7 @@ title: Target-Sicherheitsübersicht
 feature: privacy and security
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 94%
@@ -21,4 +21,4 @@ Wir von Adobe nehmen die Sicherheit Ihres Digitalerlebnisses sehr ernst. Sicherh
 
 Außerdem ermöglicht es uns die Zusammenarbeit mit unseren Partnern, Forschungsinstituten und anderen Brancheninstitutionen, stets über aktuellste Gefährdungen und Schwachstellen im Bilde zu sein. Wir implementieren auch regelmäßig erweiterte Sicherheitslösungen in unsere Services und Produkte.
 
-Weitere Informationen erhalten Sie im Whitepaper [Sicherheitsübersicht über Adobe Target](https://wwwimages.adobe.com/content/dam/Adobe/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
+Weitere Informationen erhalten Sie im Whitepaper [Sicherheitsübersicht über Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
