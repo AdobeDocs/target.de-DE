@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: b6d3a241362592d5034f9db6141b459db7c6739b
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 10%
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert am: 23. Oktober 2020**
+**Zuletzt aktualisiert am: 26. Oktober 2020**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -39,7 +39,7 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 * **Mitteilungen** zur Zielgruppe: Auf der Seite &quot;Ankündigungen&quot;der Zielgruppe finden Sie Informationen zu den bevorstehenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinars und Zielgruppe Coffee Break-Sitzungen. Weitere Informationen finden Sie unter [Ankündigungen](/help/r-release-notes/target-announcements.md)der Zielgruppe.
 
 
-## Target Standard/Premium 20.10.1 (27. Oktober 2020)
+## Target Standard/Premium 20.10.1 (28. Oktober 2020)
 
 Diese Version enthält die folgenden neuen Funktionen:
 
