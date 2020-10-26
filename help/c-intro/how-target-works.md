@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2403'
 ht-degree: 82%
 
 ---
@@ -99,7 +99,7 @@ Activity and content databases, [!DNL Analytics] data, APIs, and marketer user i
 
 Jeder Edge-Cluster verfügt über alle erforderlichen Informationen, um auf die Inhaltsanforderung des Benutzers zu reagieren und Analysedaten zu dieser Anforderung zu verfolgen. Benutzeranforderungen werden an den nächsten Edge-Cluster weitergeleitet.
 
-Weitere Informationen erhalten Sie im Whitepaper [Sicherheitsübersicht über Adobe Target](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
+Weitere Informationen erhalten Sie im Whitepaper [Sicherheitsübersicht über Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
 The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
@@ -108,6 +108,8 @@ Zentrale Clusterpositionen enthalten sowohl ein Datenerfassungscenter als auch e
 Die Daten zur Aktivität der Kunden-Site werden von sieben Edge-Clustern erfasst und an das vordefinierte Central Cluster-Ziel (einen von drei Standorten: Oregon, Dublin, Singapur) zur Verarbeitung bestimmt. Besucher-Profil-Daten werden auf dem Edge-Cluster gespeichert, der dem Site-Besucher am nächsten liegt (z. B. die Speicherorte Central Cluster und Virginia, Amsterdam, Sydney, Tokio und Hong Kong).
 
 Anstatt auf alle Targeting-Anfragen von einem einzigen Standort zu antworten, werden Anfragen vom Edge-Cluster verarbeitet, der dem Besucher am nächsten liegt, wodurch die Auswirkungen der Netzwerk-/Internetreisedauer verringert werden.
+
+![Serverzuordnung für Zielgruppen](/help/c-intro/assets/target-servers.png)
 
 Zielgruppe Central-Cluster, die auf Amazon Web Services (AWS) gehostet werden, befinden sich in:
 
