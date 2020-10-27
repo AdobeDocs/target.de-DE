@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '2757'
-ht-degree: 28%
+source-wordcount: '2872'
+ht-degree: 29%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 28%
 # Dokumentationsänderungen{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.10.1 (28. Oktober 2020)
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| 28. Oktober | [Server-seitig: Target-Implementierung](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Es wurde ein Link zum neuen *[Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/)* -Portal hinzugefügt. |
+|  | [Erstellen einer Aktivität, die Analytics als Berichte-Quelle verwendet](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Es wurden Informationen hinzugefügt, die besagt, dass Sie bei Verwendung von `analyticsLogging = client_side`Analytics als Berichte-Quelle (A4T) mit Aktivitäten zur automatischen Zielgruppe den `sessionId` Wert an übergeben müssen [!DNL Analytics] . |
+|  | [Implementieren von Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | Es wurden Informationen hinzugefügt, wonach bei [!UICONTROL Aktivitäten mit automatisierter Zuordnung] und [!UICONTROL automatischer Zielgruppe] auch die sessionId weitergeleitet werden muss `analyticsLogging = client_side`. |
+|  | [Versionshinweise](/help/r-release-notes/release-notes.md): 20.10.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe Target Standard/Premium 20.9.1 (30. September 2020) 
 
