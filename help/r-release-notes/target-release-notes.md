@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '835'
 ht-degree: 10%
 
 ---
@@ -45,7 +45,7 @@ Diese Version enthält die folgenden neuen Funktionen:
 
 | Funktion | Details |
 | --- | --- |
-| Geräteinterne Entscheidungsfindung | Mit der gerätegestützten Entscheidungsfindung können sowohl Marketingexperten als auch Produktentwickler experimentelle und maschinelle Learning-gestützte Personalisierung von einem Benutzergerät über Kanal hinweg bei nahezu null Latenz bereitstellen.<br>Schnelligkeit und Leistung sind wichtig - in Kundeneinsichten und Benutzerzufriedenheit.<br>Mit der On-Device-Entscheidungsfindung können Sie wichtige Personalisierungs- und Experimentierungsanweisungen in den Aktivitäten A/B-Test- und Erlebnis-Targeting (XT) in &quot;Optimierungsartefakte:&quot;kompilieren, die über das CDN auf Kundengeräte geladen werden. Und weil die Entscheidung auf dem Gerät eine native Verbindung mit [!DNL Adobe Experience Cloud] Produkten herstellt, erhalten die [!DNL Target] Benutzer eine schnelle Analyse und schnellere Erlebnisdurchläufe.<br>**Melden Sie sich jetzt für ein Live-Webinar an.** Nehmen Sie an Adobe Target-Produktexperten teil, wenn Sie besprechen, wie sich Entscheidungen zur Optimierung kritischer Erlebnisse auf dem Gerät zur lokalen Ausführung mit Nulllatenz aufregenden neuen Anwendungsfällen öffnen lassen und gleichzeitig die Site-Performance für Ihre Kunden verbessern können.<ul><li>10. November 2020</li><li>10.00 Uhr PT / 23.00 Uhr CT / 13.00 Uhr ET</li><li>[Hier registrieren](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| Geräteinterne Entscheidungsfindung | Mit der gerätegestützten Entscheidungsfindung können sowohl Marketingexperten als auch Produktentwickler experimentelle und maschinelle Learning-gestützte Personalisierung von einem Benutzergerät über Kanal hinweg bei nahezu null Latenz bereitstellen.<br>Schnelligkeit und Leistung sind wichtig - in Kundeneinsichten und Benutzerzufriedenheit.<br>Mit der On-Device-Entscheidungsfindung können Sie wichtige Personalisierungs- und Experimentierungsanweisungen in den Aktivitäten A/B-Test- und Erlebnis-Targeting (XT) in &quot;Optimierungsartefakte:&quot;kompilieren, die über das CDN auf Kundengeräte geladen werden. Und weil die Entscheidung auf dem Gerät eine native Verbindung mit [!DNL Adobe Experience Cloud] Produkten herstellt, erhalten die [!DNL Target] Benutzer eine schnelle Analyse und schnellere Erlebnisdurchläufe.<br>Weitere Informationen finden Sie unter *[Einführung in die Geräteentscheidung](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* im *Adobe Target SDKs-Handbuch*.<br>**Melden Sie sich jetzt für ein Live-Webinar an.** Nehmen Sie an Adobe Target-Produktexperten teil, wenn Sie besprechen, wie sich Entscheidungen zur Optimierung kritischer Erlebnisse auf dem Gerät zur lokalen Ausführung mit Nulllatenz aufregenden neuen Anwendungsfällen öffnen lassen und gleichzeitig die Site-Performance für Ihre Kunden verbessern können.<ul><li>10. November 2020</li><li>10.00 Uhr PT / 23.00 Uhr CT / 13.00 Uhr ET</li><li>[Hier registrieren](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderungen:
 
