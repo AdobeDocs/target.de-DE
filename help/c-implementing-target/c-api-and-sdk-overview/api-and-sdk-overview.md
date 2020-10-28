@@ -1,22 +1,22 @@
 ---
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-description: Informationen zu Adobe Target-serverseitigen Versand-APIs, Node.js-SDK und Zielgruppe-Recommendations-APIs.
+description: Informationen zu Adobe Target-serverseitigen Versand-APIs, SDKs und Zielgruppe-Recommendations-APIs.
 title: Informationen zu Adobe Target-serverseitigen Versand-APIs, Node.js-SDK und Zielgruppe-Recommendations-APIs.
 feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 21%
+source-wordcount: '388'
+ht-degree: 20%
 
 ---
 
 
 # Server-seitig: Target-Implementierung{#server-side-implement-target}
 
-Informationen zu [!DNL Adobe Target] serverseitigen Versand-APIs, Node.js-SDKs und [!DNL Target Recommendations] APIs.
+Informationen zu [!DNL Adobe Target] serverseitigen Versand-APIs, SDKs und [!DNL Target Recommendations] APIs.
 
 Der folgende Prozess wird in einer Server-seitigen Implementierung von [!DNL Target] ausgeführt:
 
@@ -26,6 +26,10 @@ Der folgende Prozess wird in einer Server-seitigen Implementierung von [!DNL Tar
 1. Ihr Server entscheidet, welches Erlebnis an das Client-Gerät gesendet werden soll, damit es gerendert werden kann.
 
 Das Erlebnis muss nicht in einem Browser angezeigt werden. Das Erlebnis kann in einer E-Mail oder einem Kiosk, über einen Sprachassistenten oder über ein anderes nicht visuelles Erlebnis oder ein nicht browserbasiertes Gerät angezeigt werden. Da sich Ihr Server zwischen dem Client und [!DNL Target] befindet, ist diese Art der Implementierung auch dann optimal, wenn Sie mehr Kontrolle und Sicherheit benötigen oder komplexe Backend-Prozesse haben, die auf Ihrem Server ausgeführt werden sollen.
+
+>[!NOTE]
+>
+>Ein erstmaliger Besucher kann nur clientseitig initialisiert werden. Ein erstmaliger Besucher *kann nicht* serverseitig initialisiert werden.
 
 Die folgenden Abschnitte enthalten weitere Informationen zu den verschiedenen APIs und dem NodeJS SDK:
 
