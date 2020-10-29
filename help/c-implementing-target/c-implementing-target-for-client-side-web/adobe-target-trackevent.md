@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: f782d5498c3aa3bc436cb6cfa2a4eb2f96f37b3e
+source-git-commit: a5a84e96ea3498140f4e0c9af4f75ec674bbf4b8
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 78%
@@ -24,7 +24,7 @@ Hier finden Sie die Einzelheiten zur API:
 
 | Schlüssel | Typ | Erforderlich | Beschreibung |
 |--- |--- |--- |--- |
-| mbox | Zeichenfolge | Ja | Mbox-<br>**NameHinweis**: Wenn ein trackEvent()-Aufruf mit einem Mbox-Namen ausgelöst wird, der bereits auf der Seite ausgelöst wurde, wird die SDID von trackEvent() zurückgesetzt und unterscheidet sich von den Seitenaufrufen für die Zielgruppe. Durch das Auslösen eines trackEvent()-Aufrufs mit einem anderen Mbox-Namen wird die SDID der trackEvent()-Aufrufe jedoch konsistent mit den Seitenlade-Anforderungs-/TriggerView()-Aufrufen auf der Seite gehalten. |
+| mbox | Zeichenfolge | Ja | Mbox-<br>**NameHinweis**: Wenn ein trackEvent()-Aufruf mit einem Mbox-Namen ausgelöst wird, der bereits auf der Seite ausgelöst wurde, wird die SDID von trackEvent() zurückgesetzt und unterscheidet sich von den Seitenaufrufen für die Zielgruppe. Durch das Auslösen eines trackEvent()-Aufrufs mit einem anderen Mbox-Namen wird die SDID des trackEvent()-Aufrufs jedoch konsistent mit dem Seitenlade-Request/triggerView()-Aufruf auf der Seite gehalten. |
 | selector | Zeichenfolge | Nein | CSS-Selektoren für die Ermittlung der HTML-Elemente Die Ereignislistener werden an die gefundenen Elemente angefügt.. |
 | Typ | Zeichenfolge | Nein | Stellt einen registrierten Ereignistyp dar. Dabei kann es sich um HTML-bekannte Ereignisse wie „click“, „mousedown“ und so weiter sowie benutzerdefinierte HTML-Ereignisse handeln. |
 | preventDefault | Boolesch | Nein | Gibt an, ob `event.preventDefault()` im Rückruf des Ereignislisteners verwendet werden soll. Standard ist „false“.<br>**Hinweis:** Nur `form[submit] and `a[click] werden unterstützt. Andere Szenarien werden aufgrund der Komplexität und der sehr großen Anzahl an zu unterstützenden Szenarien nicht unterstützt. |
