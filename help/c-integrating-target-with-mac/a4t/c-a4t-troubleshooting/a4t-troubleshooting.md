@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 90%
+source-wordcount: '787'
+ht-degree: 84%
 
 ---
 
@@ -73,7 +73,11 @@ Obwohl diese Metriken negativ sind, wird die Steigerung in den Target-Berichten 
 
 ## Die benötigte Report Suite wird nicht angezeigt.  {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-Die Liste der Report Suites, die in Target Standard/Premium angezeigt wird, ist die Liste der Report Suites, die für Analytics als Berichtsquelle für Target konfiguriert wurden. Das bedeutet, dass Sie möglicherweise nicht alle vorhandenen Report Suites sehen. Wenn Sie die Report Suite, nach der Sie suchen, nicht sehen, sollten Sie den Kundendienst kontaktieren und sie aktivieren lassen.
+Die Liste der Report Suites, die in Target Standard/Premium angezeigt wird, ist die Liste der Report Suites, die für Analytics als Berichtsquelle für Target konfiguriert wurden. Das bedeutet, dass Sie möglicherweise nicht alle vorhandenen Report Suites sehen.
+
+Wenn Sie außerdem mehrere Berichte-Quellen verwenden, MÜSSEN die Report Suites auch im Standardquellensatz des Berichte in der Zielgruppe vorhanden sein. Andernfalls werden die Report Suites nicht angezeigt.
+
+Wenn die gewünschte Report Suite immer noch nicht angezeigt wird, sollten Sie sich an den Kundendienst wenden, um sie zu aktivieren.
 
 ## In meinen Berichten sind weniger Daten vorhanden als erwartet. {#section_75002584FA63456D8D9086172925DD8D}
 
