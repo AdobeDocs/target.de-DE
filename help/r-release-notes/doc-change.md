@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2913'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| November 3 | [Fehlerbehebung bei der Analytics- und Target-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Das folgende Fehlerbehebungsthema wurde aktualisiert: &quot;Die benötigte Report Suite wird nicht angezeigt.&quot; |
 | 28. Oktober | [Server-seitig: Target-Implementierung](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Es wurde ein Hinweis hinzugefügt, dass erstmalige Besucher nur clientseitig und nicht serverseitig initialisiert werden können. |
 | 27. Oktober | [Server-seitig: Target-Implementierung](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Es wurde ein Link zum neuen *[Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/)* -Portal hinzugefügt. |
 |  | [Erstellen einer Aktivität, die Analytics als Berichte-Quelle verwendet](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Es wurden Informationen hinzugefügt, die besagt, dass Sie bei Verwendung von `analyticsLogging = client_side`Analytics als Berichte-Quelle (A4T) mit Aktivitäten zur automatischen Zielgruppe den `sessionId` Wert an übergeben müssen [!DNL Analytics] . |
