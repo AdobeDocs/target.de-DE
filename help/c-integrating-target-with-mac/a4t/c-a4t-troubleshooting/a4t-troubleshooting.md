@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 84%
+source-wordcount: '781'
+ht-degree: 80%
 
 ---
 
@@ -71,13 +71,13 @@ Dieses Problem ist bekannt.
 
 Obwohl diese Metriken negativ sind, wird die Steigerung in den Target-Berichten als positiv gezeigt. Beispiel: Obwohl Sie eine geringere Absprungrate wünschen, wird die höhere Absprungrate als Gewinner mit der höchsten Steigerung angezeigt. Wenn Sie Entscheidungen auf Basis Ihrer Berichte treffen, müssen Sie auf diese und ähnliche Metriken achten und darauf, ob Sie diese Zahlen senken oder erhöhen möchten.
 
-## Die benötigte Report Suite wird nicht angezeigt.  {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## The report suite I need does not display. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-Die Liste der Report Suites, die in Target Standard/Premium angezeigt wird, ist die Liste der Report Suites, die für Analytics als Berichtsquelle für Target konfiguriert wurden. Das bedeutet, dass Sie möglicherweise nicht alle vorhandenen Report Suites sehen.
+The list of report suites that appears in [!DNL Target Standard/Premium] is the list of report suites that have been configured for [!DNL Analytics] as the reporting source for [!DNL Target] (A4T). Das bedeutet, dass Sie möglicherweise nicht alle vorhandenen Report Suites sehen.
 
-Wenn Sie außerdem mehrere Berichte-Quellen verwenden, MÜSSEN die Report Suites auch im Standardquellensatz des Berichte in der Zielgruppe vorhanden sein. Andernfalls werden die Report Suites nicht angezeigt.
+Wenn Sie außerdem mehrere Berichte-Quellen verwenden, müssen die Report Suites [!DNL Target] auch im Standardquellensatz des Berichte vorhanden sein. Andernfalls werden die Report Suites nicht angezeigt.
 
-Wenn die gewünschte Report Suite immer noch nicht angezeigt wird, sollten Sie sich an den Kundendienst wenden, um sie zu aktivieren.
+If you still don&#39;t see the report suite you are looking for, contact [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
 
 ## In meinen Berichten sind weniger Daten vorhanden als erwartet. {#section_75002584FA63456D8D9086172925DD8D}
 
