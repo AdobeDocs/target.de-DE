@@ -4,7 +4,7 @@ description: Adobe Target Begrüßungs-Kit - Kapitel 7 - Erstellen und Ausführe
 title: Adobe Target Begrüßungs-Kit - Kapitel 7 - Erstellen und Ausführen der Aktivität für die erste Zielgruppe
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
@@ -26,13 +26,13 @@ Beispiel: Eine Media-Firma testet ihre aktuelle Version auf ihrer Website oder m
 
 ## Route 2: Personalisieren auf eine bestimmte Audience
 
-Sie könnten eine [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md) -Aktivität (XT) einrichten, mit der eine bestimmte Audience, die Sie wissen, für ein Angebot oder Erlebnis, das Sie mit ihnen in Einklang bringen würden, von Nutzen ist.
+Sie könnten eine [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md) -Aktivität (XT) einrichten, mit der eine bestimmte Audience, die Sie wissen, für ein Angebot oder Erlebnis, von dem Sie wissen, dass es bei ihnen ankommen würde, Zielgruppe wird.
 
 Beispiel: Eine Fluggesellschaft Zielgruppe ihren Platin-Mitgliedern ein spezielles Angebot, das ihre Punkte beim nächsten Kauf des Fluges Dublette, um sie zu belohnen und die Kundentreue weiter zu stärken.
 
 ## Route 3: Anwendung von KI und Automatisierung zur personalisierten Anpassung an individuelle Besucher
 
-Sie können eine AI-basierte Aktivität einrichten, um für jeden Besucher das beste Erlebnis aus mehreren zu bieten, indem Sie einfach im zweiten Schritt des Arbeitsablaufs für die Einrichtung von A/B-Tests die Option &quot; [Auto-Zielgruppe](/help/c-activities/auto-target-to-optimize.md) &quot;auswählen. Die Verwendung der Auto-Zielgruppe mit Ihrer ersten Aktivität kann sehr nützlich sein, wenn Sie nicht wissen, welches Erlebnis für verschiedene Besucher Resonanz findet. Mit der automatischen Zielgruppe können Sie mithilfe des maschinellen Lernens die prädiktiven Attribute in Echtzeit bewerten und bewerten und feststellen, welche Attribute Ihrer Besucher am wichtigsten sind, um zu bestimmen, welches Erlebnis bereitgestellt werden soll.
+Sie können eine AI-basierte Aktivität einrichten, um für jeden Besucher das beste Erlebnis aus mehreren zu bieten, indem Sie einfach im zweiten Schritt des Arbeitsablaufs für die Einrichtung von A/B-Tests die Option &quot; [Auto-Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md) &quot;auswählen. Die Verwendung der Auto-Zielgruppe mit Ihrer ersten Aktivität kann äußerst nützlich sein, wenn Sie nicht wissen, welches Erlebnis für verschiedene Besucher Resonanz findet. Mit der automatischen Zielgruppe können Sie mithilfe des maschinellen Lernens die prädiktiven Attribute in Echtzeit bewerten und bewerten und feststellen, welche Attribute Ihrer Besucher am wichtigsten sind, um zu bestimmen, welches Erlebnis bereitgestellt werden soll.
 
 Beispiel: Ein Telco, das mehrere Telefonmarken und -modelle vertreibt, aktiviert die automatische Zielgruppe, um mithilfe von Automatisierung und maschinellem Lernen festzustellen, welche von vier verschiedenen Erlebnissen oder Angeboten auf seiner Homepage oder dem Bildschirm zum Eröffnen von mobilen Apps am besten mit den verschiedensten Besuchern übereinstimmen.
 
@@ -104,7 +104,7 @@ Nachdem die Aktivität abgeschlossen ist, führen Sie ein Dokument der Ergebniss
 
 ### Was muss in der Aktivität präzisiert werden? Was sind die nächsten Schritte?
 
-Die Ergebnisse Ihrer Aktivität liefern oft Einblicke in die Aktionen, die Sie als Nächstes ausführen sollten. Wenn eine Erlebnisvariante sehr erfolgreich war, sollten Sie diese auf Ihrer Website hartcodieren. Möglicherweise sehen Sie Möglichkeiten, diesen Erfolg auf andere ähnliche Seiten anzuwenden. Die Ergebnisse könnten darauf hindeuten, dass noch mehr getan werden muss, um das Kundenerlebnis auf dieser Seite zu verbessern. Verwenden Sie diesen Bereich, um wichtige Lerninhalte aus der Aktivität zu Dokument zu nehmen und anhand dieser Lerninhalte das Dokument zu erhalten, was Sie tun werden.
+Die Ergebnisse Ihrer Aktivität liefern oft Einblicke in die Aktionen, die Sie als Nächstes ausführen sollten. Wenn eine Erlebnisvariante sehr erfolgreich war, sollten Sie diese auf Ihrer Website hartcodieren. Möglicherweise sehen Sie Möglichkeiten, diesen Erfolg auf andere ähnliche Seiten anzuwenden. Die Ergebnisse könnten darauf hindeuten, dass noch mehr getan werden muss, um das Kundenerlebnis auf dieser Seite zu verbessern. Verwenden Sie diesen Bereich, um wichtige Erkenntnisse aus der Aktivität zu Dokument zu nehmen und anhand dieser Lernprozesse Dokument zu geben, was Sie tun werden.
 
 ## Zielgruppe öffnen und Aktivität erstellen und starten
 
