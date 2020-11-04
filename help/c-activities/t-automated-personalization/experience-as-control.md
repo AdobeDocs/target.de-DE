@@ -6,7 +6,7 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # ![PREMIUM](/help/assets/premium.png) Auswahl des Kontrollelements für die Aktivität „Automatisierte Personalisierung“ oder „Automatisches Targeting“
 
-Sie können beim Erstellen einer [automatisierten Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) oder eines [automatischen Targetings](/help/c-activities/auto-target-to-optimize.md) (AT) auswählen, ob ein zufälliges oder ein bestimmtes Erlebnis als Kontrollelement verwendet werden soll.
+Sie können beim Erstellen einer [automatisierten Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) oder eines [automatischen Targetings](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) auswählen, ob ein zufälliges oder ein bestimmtes Erlebnis als Kontrollelement verwendet werden soll.
 
 Mit dieser Funktion können Sie den Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu den entsprechenden Erlebnissen leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem Kontrollerlebnis vergleichen und auswerten.
 
