@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -20,11 +20,11 @@ Erlebnis-Vorschauen-URLs können für die Zielgruppe von Automated Personalizati
 
 >[!NOTE]
 >
->Erlebnis-Vorschauen-URLs für Automated Personalization unterscheiden sich vom Qualitätssicherungs-Modus für Aktivitäten. Im Aktivitäts-QA-Modus können Sie Aktivitäts-URLs für andere Aktivitätstypen erstellen. Weitere Informationen finden Sie unter [Activitäts-QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40).
+>Erlebnis-Vorschauen-URLs für Automated Personalization unterscheiden sich vom Qualitätssicherungs-Modus für Aktivitäten. Im Aktivitäts-QA-Modus können Sie Aktivitäts-URLs für andere Aktivitätstypen erstellen. Weitere Informationen finden Sie unter [Activitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md).
 >
 >Erlebnis-Vorschauen-URLs für AP-Aktivitäten sind nur verfügbar, wenn at.js 1.x verwendet wird. Erlebnis-Vorschauen-URLs für AP-Aktivitäten werden derzeit für &quot;at.js 2.x&quot;nicht unterstützt.
 
-Use experience preview URLs to share experiences with team members and to QA experiences across browsers and environments, without creating a separate QA activity. Diese Funktion ist besonders nützlich, wenn eine Site komplex ist oder Ihre Sicherheitsrichtlinien das Anzeigen der Site in einem Simulator nicht zulassen.
+Verwenden Sie Erlebnis-Vorschauen-URLs, um Erlebnisse mit Teammitgliedern auszutauschen und Erlebnisse über Browser und Umgebung hinweg zu prüfen, ohne eine separate QS-Aktivität zu erstellen. Diese Funktion ist besonders nützlich, wenn eine Site komplex ist oder Ihre Sicherheitsrichtlinien das Anzeigen der Site in einem Simulator nicht zulassen.
 
 1. Erstellen Sie eine [automatisierte Personalisierungsaktivität](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) oder klicken Sie auf die Aktivität, um sie zu öffnen.
 
@@ -70,7 +70,7 @@ Use experience preview URLs to share experiences with team members and to QA exp
 
 * Die Vorschau funktioniert für alle gespeicherten Aktivitäten, solange die Seite nicht verändert wird.
 * Die Erlebnis-Vorschauen-URL steht unabhängig davon zur Verfügung, ob die Aktivität aktiv oder inaktiv ist.
-* You cannot preview an experience that is in Draft status.
+* Ein Erlebnis, das sich im Entwurfsstatus befindet, kann nicht Vorschau werden.
 * Berichte wird nicht durch die Anzeige von Erlebnis-Vorschauen-URLs beeinträchtigt.
 
 **Fehlerbehebung für Experience Vorschau-URLs**
