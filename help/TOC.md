@@ -8,10 +8,10 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 87%
+source-wordcount: '1555'
+ht-degree: 86%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 87%
       + [Wie lange sollten A/B-Tests laufen?](c-activities/t-test-ab/sample-size-determination.md)
       + [Zehn häufige A/B-Testfallen und wie sie vermieden werden können](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + Erstellen eines A/B-Tests {#create}
-         + [Erstellen eines Tests](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [Erstellen eines A/B-Tests](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Aktivitäts-URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [Hinzufügen von Erlebnissen](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [Zielgruppenauswahl](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
@@ -214,7 +214,8 @@ ht-degree: 87%
          + [Festlegen von Metriken](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Verschiedene Erlebniszielgruppen in A/B-Tests](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Automatisch zuweisen {#auto-allocate}
-      + [Automatische Zuordnung](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Übersicht über die automatische Zuordnung](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Erstellen einer Aktivität mit automatisierter Zuordnung](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Berichte zur automatischen Zuordnung interpretieren](c-activities/automated-traffic-allocation/determine-winner.md)
       + [Die automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und mehr Umsatz als ein manueller Test liefern](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Automatisches Targeting](c-activities/auto-target-to-optimize.md)
