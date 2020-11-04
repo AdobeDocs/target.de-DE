@@ -7,10 +7,10 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 63%
+source-wordcount: '267'
+ht-degree: 51%
 
 ---
 
@@ -45,13 +45,11 @@ Führen Sie die folgenden Aufgaben in [!DNL Adobe Analytics] aus:
 
 ### Zugriff auf die Analytics Report Suite konfigurieren
 
-Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. Stellen Sie sicher, dass Sie Mitglied dieser Gruppen sind, um Berichte anzeigen zu können.
+Um A4T für eine bestimmte Report Suite zu verwenden, müssen Sie Zugriff auf diese Report Suite haben. Um Zugriff auf die [!UICONTROL Admin Console]zu erhalten, klicken Sie auf ein [!DNL Analytics] Profil und dann auf die Registerkarte [!UICONTROL Berechtigungen] . Daraufhin können Sie sehen, auf welche Report Suites das Profil Zugriff hat. Vergewissern Sie sich, dass die Report Suite, auf die Sie zugreifen möchten, zu den Report Suites gehört, die im Profil aufgeführt sind, zu dem Sie gehören. [!DNL Target]
 
-Weitere Informationen finden Sie unter [Profil und Gruppen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
+Die folgende Abbildung zeigt ein Profil eines Produkts mit Zugriff auf alle Report Suites:
 
-### Zugriff auf die Webdienste-Zugriffsgruppe konfigurieren
-
-Sie müssen zur Zugriffsgruppe für Webdienste in [!DNL Analytics] gehören, um [!DNL Analytics] als Berichtsquelle für [!DNL Target] nutzen zu können.
+![Admin Console, Registerkarte Berechtigung](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
