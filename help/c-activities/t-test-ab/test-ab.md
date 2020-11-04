@@ -5,7 +5,7 @@ title: Überblick über A/B-Tests
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 6e0605304d99c0a070ad22a232e2ba2246611f94
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
@@ -45,7 +45,7 @@ Zusätzlich zur manuellen [!UICONTROL A/B-Test] -Aktivität (in diesem Abschnitt
 | --- | --- |
 | [!UICONTROL Manueller A/B-Test] | Vergleicht zwei oder mehr Erlebnisse, um zu prüfen, durch welche Erlebnisse Konversionen über einen zuvor definierten Testzeitraum am besten optimiert werden.<br>In diesem Abschnitt wird beschrieben, wie Sie eine manuelle [!UICONTROL A/B-Test] -Aktivität einrichten. Die Schritte für die anderen Typen von [!UICONTROL A/B-Test] -Aktivitäten sind jedoch ähnlich. |
 | [!UICONTROL Automatische Zuordnung] | Identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und leitet den Traffic dann an den Gewinner weiter, wobei die Konversionen durch die Testausführung und das Lernen erhöht werden.<br>Informationen zu den Vorteilen der Verwendung einer Aktivität mit automatisierter Zuordnung finden Sie unter [Automatisierte Zuordnung](/help/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) in *Wie lange sollten Sie einen A/B-Test* und eine Übersicht über die [automatische Zuordnung durchführen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| ![Premium-Zeichen](/help/assets/premium.png) [!UICONTROL Auto-Zielgruppe] | Verwendet das erweiterte maschinelle Lernen zum Personalisieren von Inhalt und Fördern von Konversionen, indem mehrere vom Vermarkter definierte Erlebnisse mit hoher Leistung identifiziert werden und das passendste Erlebnis für Benutzer bereitgestellt wird. Dies basiert auf den individuellen Kundenprofilen und dem Verhalten ähnlicher vorheriger Besucher.<br>Weitere Informationen finden Sie unter [Automatische Zielgruppe](/help/c-activities/auto-target-to-optimize.md). |
+| ![Premium-Zeichen](/help/assets/premium.png) [!UICONTROL Auto-Zielgruppe] | Verwendet das erweiterte maschinelle Lernen zum Personalisieren von Inhalt und Fördern von Konversionen, indem mehrere vom Vermarkter definierte Erlebnisse mit hoher Leistung identifiziert werden und das passendste Erlebnis für Benutzer bereitgestellt wird. Dies basiert auf den individuellen Kundenprofilen und dem Verhalten ähnlicher vorheriger Besucher.<br>Weitere Informationen finden Sie unter [Automatische Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 
 Weitere Informationen darüber, welche dieser [!UICONTROL A/B-Test] -Aktivitäten für Sie am besten geeignet sind, finden Sie im PDF-Dokument &quot;PDF [zu interaktiven](/help/c-activities/target-activities-guide.md)Adobe Target-Aktivitäten&quot;.
 
