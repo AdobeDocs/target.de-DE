@@ -6,10 +6,10 @@ feature: ap
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 98%
+source-wordcount: '1020'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 Ähnlich wie bei [!UICONTROL Automatisches Targeting] verwendet [!UICONTROL Automatisierte Personalisierung] einen Random Forest-Algorithmus, also eine führende Methode in der Datenwissenschaft, als wichtigsten Personalisierungsalgorithmus zum Ermitteln des besten Erlebnisses, das einem Besucher angezeigt werden kann. [!UICONTROL Automatisierte Personalisierung] kann während der Entdeckungsphase des Testens sehr hilfreich sein. Es ist zudem nützlich, maschinelles Lernen zu ermöglichen, um den effektivsten Inhalt zu bestimmen, wenn man unterschiedliche Besucher anspricht. Im Lauf der Zeit lernt der Algorithmus, die effektivsten Inhalte vorherzusagen, und zeigt die Inhalte an, die am wahrscheinlichsten zum Erreichen Ihrer Ziele beitragen.
 
-Weitere Informationen zum Unterschied zwischen [!UICONTROL automatisierter Personalisierung] und [!UICONTROL automatischem Targeting] finden Sie unter [Automatisches Targeting für personalisierte Erlebnisse](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+To find more information about how [!UICONTROL Automated Personalization] differs from [!UICONTROL Auto-Target], see [Auto-Target](/help/c-activities/auto-target-to-optimize.md).
 
 Marketer implementieren eine Datei auf ihrer Website, dank der sie beliebige Inhalte anklicken und dann mit Hilfe des VEC ([!UICONTROL Visual Experience Composer]) visuell zusätzliche Inhaltsoptionen für diesen Bereich erstellen und auswählen können. Dann bestimmt der Algorithmus auf Basis aller Verhaltensdaten, die das System über diesen Besucher hat, automatisch, welche Inhalte jedem einzelnen Besucher gezeigt werden sollen, und liefert so eine personalisierte Erfahrung. Da sich die [!UICONTROL automatisierte Personalisierung] an Veränderungen beim Besucherverhalten anpasst, kann sie ohne ein festgelegtes Enddatum ausgeführt werden und ermöglicht dennoch eine kontinuierliche Weiterentwicklung der Personalisierung. Dies wird manchmal auch als „Always-on“-Modus bezeichnet. Der Marketer muss keine Tests durchführen, keine Ergebnisse analysieren und keinen sich daraus ergebenen Gewinner ermitteln, bevor er erkennen kann, welche Steigerung sich aus der Optimierung ergibt. Das übernimmt eine festgelegte Reihenfolge von Operationen, die dann das Ergebnis einer standardmäßigen A/B-Aktivität implementiert.
 
@@ -38,7 +38,7 @@ Die folgenden Begriffe und Definitionen sind hilfreich, wenn es um die [!UICONTR
 
 Folgendes sollte beim Einsatz der [!UICONTROL automatisierten Personalisierung] beachtet werden:
 
-**[!UICONTROL Die automatisierte Personalisierung]verwendet einen Random Forest-Algorithmus.**
+**[!UICONTROL Die automatisierte Personalisierung] verwendet einen Random Forest-Algorithmus.**
 
 Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Sprache der Datenwissenschaftler ist dies eine Ensemble-Classification- oder Regressionsmethode, die auf der Grundlage von Besuchern und Besuchsattributen eine große Anzahl von Entscheidungsbäumen erstellt. Random Forest wird von Target eingesetzt, um zu bestimmen, welches Erlebnis die höchste Wahrscheinlichkeit einer Konversion (oder den höchsten Umsatz pro Besuch) für jeden einzelnen Besucher hat. Beispiel: Besucher, die Google Chrome verwenden, Mitglieder der Treuestufe „Gold“ sind und am Dienstag Ihre Website besuchen, konvertieren wahrscheinlicher bei Erlebnis A, während Besucher aus New York eher bei Erlebnis B konvertieren. Weitere Informationen zu Random Forest in Target finden Sie unter  [Random-Forest-Algorithmus](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
@@ -62,7 +62,7 @@ Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Sprache
 
 * Weitere Informationen zu den Attributen, die für [!UICONTROL automatisches Targeting] und [!UICONTROL automatisierte Personalisierung] verwendet werden, finden Sie unter [Datenerfassung für die automatisierte Personalisierung](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
-**Target verwendet automatisch alle[!DNL Adobe Experience Cloud]von gemeinsam genutzten Zielgruppen, um diese Personalisierungsmodelle zu erstellen.**
+**Target verwendet automatisch alle[!DNL Adobe Experience Cloud] von gemeinsam genutzten Zielgruppen, um diese Personalisierungsmodelle zu erstellen.**
 
 * Um Zielgruppen zu dem Modell hinzuzufügen, sind Ihrerseits keine besonderen Aktivitäten erforderlich. Weitere Informationen zum Verwenden von [!DNL Experience Cloud Audiences] mit [!DNL Target] finden Sie unter [Experience Cloud Audiences](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969).
 
@@ -76,7 +76,7 @@ Offline-Daten wie CRM-Informationen oder Propensity Scores zur Kundenabwanderung
 
 Informationen zu den Daten, die automatisch von den Personalisierungsalgorithmen der [!UICONTROL automatisierten Personalisierung] und des [!UICONTROL automatischen Targetings] gesammelt und verwendet werden, finden Sie unter [Datenerfassung für die automatisierte Personalisierung](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
-## ![Overview badge](/help/assets/overview.png) Training video: Activity Types
+## ![Schulungsvideo zum](/help/assets/overview.png) Überblick: Aktivitäten
 
 In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivitätstypen erläutert. [!UICONTROL Automatisierte Personalisierung wird ab 5:55 besprochen.]
 
