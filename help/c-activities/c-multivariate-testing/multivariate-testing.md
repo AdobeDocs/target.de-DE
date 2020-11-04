@@ -5,15 +5,15 @@ title: Multivarianz-Test
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1441'
 ht-degree: 91%
 
 ---
 
 
-# Multivarianz-Test{#multivariate-test}
+# Multivarianz-Tests – Überblick 
 
 [!UICONTROL Bei Multivariate Tests] (MVT) in [!DNL Adobe Target] werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt der Test an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 
