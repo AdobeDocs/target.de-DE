@@ -5,7 +5,7 @@ title: Häufig gestellte Fragen zur automatisierten Personalisierung
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
@@ -19,7 +19,7 @@ Liste häufig gestellter Fragen zur automatisierten Personalisierung (AP).
 
 ## Kann ich ein bestimmtes Erlebnis als Kontrollerlebnis angeben?
 
-Sie können bei der Erstellung einer [automatisierten Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) oder eines [automatischen Targetings](/help/c-activities/auto-target-to-optimize.md) (AT) ein Kontrollerlebnis auswählen.
+Sie können bei der Erstellung einer [automatisierten Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) oder eines [automatischen Targetings](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) ein Kontrollerlebnis auswählen.
 
 Mit dieser Funktion können Sie den gesamten Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu einem bestimmten Erlebnis leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem einen Erlebnis vergleichen.
 
@@ -31,7 +31,7 @@ Es gibt keine Option, mit der sich der Vergleich von AP mit einem Standarderlebn
 
 ## Mithilfe welcher Best Practices kann ich eine Aktivität vom Typ „Automatisierte Personalisierung“ einrichten?  {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Wenn Sie eine Seite mit geringerem Traffic personalisieren oder strukturelle Änderungen an dem Erlebnis vornehmen möchten, das Sie personalisieren, sollten Sie ggf. das automatische Targeting anstelle der automatisierten Personalisierung verwenden. Siehe  [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md).
+* Wenn Sie eine Seite mit geringerem Traffic personalisieren oder strukturelle Änderungen an dem Erlebnis vornehmen möchten, das Sie personalisieren, sollten Sie ggf. das automatische Targeting anstelle der automatisierten Personalisierung verwenden. Siehe  [Automatisches Targeting](/help/c-activities/auto-target/auto-target-to-optimize.md).
 * Schließen Sie ggf. eine A/B-Aktivität zwischen den Angeboten und Positionen ab, die Sie für Ihre Aktivität vom Typ „Automatisierte Personalisierung“ planen zu verwenden, um sicherzustellen, dass sich die Position(en) und Angebote auf das Optimierungsziel auswirken. Wenn eine A/B-Aktivität keinen signifikanten Unterschied aufzeigen kann, ist das Generieren der Steigerung durch die automatisierte Personalisierung wahrscheinlich ebenfalls fehlerhaft.
 
    * Wenn ein A/B…N-Test keine statistisch signifikanten Unterschiede zwischen Erlebnissen aufzeigt, da sich die von Ihnen in Erwägung gezogenen Angebote möglicherweise nicht ausreichend voneinander unterscheiden, wirken sich die von Ihnen ausgewählten Standorte nicht auf die Erfolgsmetrik aus oder das Optimierungsziel liegt zu weit vom Konversionstrichter entfernt, um von Ihren ausgewählten Angeboten betroffen zu sein.
@@ -79,7 +79,7 @@ Weitere Informationen finden Sie unter [Fehlerbehebung bei der automatisierten P
 
 ### Wie wird der Traffic meiner Aktivität durch die automatisierte Personalisierung zugeordnet? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-Die automatisierte Personalisierung leitet Besucher zu dem Erlebnis weiter, das die höchste prognostizierte Erfolgsmetrik basierend auf den neuesten [Random Forest](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)-Modellen aufweist, die für die einzelnen Modelle erstellt wurden. Diese Prognose basiert auf den spezifischen Informationen des Besuchers und dem Besuchskontext.
+Die automatisierte Personalisierung leitet Besucher zu dem Erlebnis weiter, das die höchste prognostizierte Erfolgsmetrik basierend auf den neuesten [Random Forest](/help/c-activities/t-automated-personalization/algo-random-forest.md)-Modellen aufweist, die für die einzelnen Modelle erstellt wurden. Diese Prognose basiert auf den spezifischen Informationen des Besuchers und dem Besuchskontext.
 
 Angenommen, eine Aktivität vom Typ „Automatisierte Personalisierung“ hatte zwei Positionen mit jeweils zwei Angeboten. An der ersten Position weist Angebot A eine prognostizierte Konversionsrate von 3 % für einen bestimmten Besucher auf, während Angebot B eine prognostizierte Konversionsrate von 1 % aufweist. An der zweiten Position weist Angebot C eine prognostizierte Konversionsrate von 2 % für denselben Besucher auf, während Angebot D eine prognostizierte Konversionsrate von 5 % aufweist. Daher würde die automatisierte Personalisierung diesem Besucher ein Erlebnis mit Angebot A und Angebot D unterbreiten.
 
@@ -128,4 +128,4 @@ Ein Modell wird erstellt, um die Leistung der personalisierten Strategie im Verg
 
 Traffic aus einem zweiten Satz von Modellen wird für jede Modellgruppe (AP) oder Erlebnis (AT) erstellt. Bei jedem dieser Modelle werden Treffer und Konversionen in allen Umgebung berücksichtigt.
 
-Anfragen werden daher unabhängig von der Umgebung mit demselben Modell bedient, aber die Datenverkehrsvielfalt sollte von der Standardeinstellung ausgehen, um sicherzustellen, dass das identifizierte Gesamterlebnis mit dem realen Umgebung übereinstimmt.
+Anfragen werden daher unabhängig von der Umgebung mit demselben Modell bedient, aber die Datenverkehrsvielfalt sollte von der Standardeinstellung ausgehen, um sicherzustellen, dass das identifizierte, insgesamt erfolgreichste Erlebnis mit dem realen Verhalten in Einklang steht.
