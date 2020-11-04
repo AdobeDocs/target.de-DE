@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1393'
 ht-degree: 18%
 
 ---
@@ -79,7 +79,7 @@ Diese Integration ermöglicht Ihnen Folgendes:
 * Verwenden Sie die Multi-Armed Bandit-Funktion der [automatischen Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), um Traffic zu erfolgreichsten Erlebnissen zu fördern
 * Verwenden Sie den [maschinellen Lernalgorithmus &quot;Automatisierte Zielgruppe](/help/c-activities/auto-target-to-optimize.md)&quot;, um für jeden Besucher anhand von Profil, Verhalten und Kontext ein optimales Erlebnis auszuwählen, während Sie eine [!DNL Adobe Analytics] Zielmetrik und [!DNL Adobe Analytics]die Rich-Berichte- und Analyse-Funktionen verwenden.
 
-Stellen Sie sicher, dass Sie A4T für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten [implementiert haben](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). Bei Verwendung `analyticsLogging = client_side`müssen Sie den `sessionId` Wert auch an übergeben [!DNL Analytics]. Weitere Informationen finden Sie unter [Adobe Analytics für Zielgruppe (A4T)](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) im Handbuch zur API für *Adobe Target Versand*
+Stellen Sie sicher, dass Sie A4T für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten [implementiert haben](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). Bei Verwendung `analyticsLogging = client_side`müssen Sie den `sessionId` Wert auch an übergeben [!DNL Analytics]. Weitere Informationen finden Sie im Berichte [zu](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) Analytics for Zielgruppe (A4T) im Handbuch *Adobe Target SDKs* .
 
 Erster Schritt:
 
