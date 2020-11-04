@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 97%
+source-wordcount: '433'
+ht-degree: 96%
 
 ---
 
@@ -27,11 +27,19 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 * [Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Fehlerbehebung für Aktivitäten](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL A/B-Test], [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] (AT)
+### A/B-Test
 
 * [Neun häufige Fehler bei A/B-Tests und wie diese vermieden werden](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [Automatisch zuweisen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
 * [Automatisches Targeting für personalisierte Erlebnisse](/help/c-activities/auto-target/auto-target-to-optimize.md)
+
+### Automatische Zuordnung
+
+* [Übersicht über die automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+
+### Automatisches Targeting
+
+* [Fehlerbehebung bei automatischer Zielgruppe und häufig gestellte Fragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### Automatisierte Personalisierung (AP)
 
