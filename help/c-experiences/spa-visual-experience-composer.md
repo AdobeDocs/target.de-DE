@@ -6,7 +6,7 @@ feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -28,13 +28,13 @@ Adobe Target VEC für SPAs basiert auf einem neuen Konzept für Ansichten: Eine 
 
 Um Ansichten genauer erklären zu können, navigieren wir einmal über diese fiktive E-Commerce-Site, die in React implementiert wurde, und betrachten einige Beispielansichten. Klicken Sie auf die folgenden Links, um diese Website auf einer neuen Browser-Registerkarte zu öffnen.
 
-**Link:[Startseite](https://target.enablementadobe.com/react/demo/#/)**
+**Link: [Startseite](https://target.enablementadobe.com/react/demo/#/)**
 
 ![Homepage](/help/c-experiences/assets/home.png)
 
 Wenn wir zur Homepage navigieren, können wir sofort ein Hero-Bild sehen, das einen Osterverkauf bewirbt, sowie die neuesten Produkte, die auf der Site verkauft werden. In diesem Fall kann die gesamte Homepage als Ansicht definiert werden. Dies sollten Sie im Hinterkopf behalten, da wir darauf im Abschnitt „Implementieren von Adobe Target-Ansichten“ unten näher eingehen werden.
 
-**Link:[Product Site](https://target.enablementadobe.com/react/demo/#/products)**
+**Link: [Produktseite](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![Produktseite](/help/c-experiences/assets/product-site.png)
 
@@ -48,7 +48,7 @@ Am Anfang dieses Abschnitts haben wir Ansichten als ganze Site oder sogar als ei
 
 Klicken Sie auf die Schaltfläche „Mehr laden“, um weitere Produkte auf der Site zu erkunden. In diesem Fall ändert sich die Website-URL nicht. Hier kann auch nur die zweite Zeile der oben gezeigten Produkte als Ansicht angesehen werden. Der Name der Ansicht könnte also „PRODUKTSEITE-2“ lauten.
 
-**Link:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link: [Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![Checkout-Seite](/help/c-experiences/assets/checkout.png)
 
@@ -84,7 +84,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
 
    Im Folgenden sehen wir einige beispielhafte Anwendungsfälle dazu, wie Sie in React die `triggerView()`-Funktion für unsere fiktive E-Commerce-SPA aufrufen:
 
-   **Link:[Startseite](https://target.enablementadobe.com/react/demo/#/)**
+   **Link: [Startseite](https://target.enablementadobe.com/react/demo/#/)**
 
    ![Home-React-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +115,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Link:[Products Site](https://target.enablementadobe.com/react/demo/#/products)**
+   **Link: [Produktseite](https://target.enablementadobe.com/react/demo/#/products)**
 
    Schauen wir uns nun ein Beispiel an, das etwas komplizierter ist. Nehmen wir als Marketing-Experten an, wir möchten die zweite Reihe der Produkte personalisieren, indem wir die Farbe der Preisbeschriftung auf Rot ändern, nachdem ein Benutzer auf die Schaltfläche „Mehr laden“ geklickt hat.
 
@@ -144,7 +144,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
    }
    ```
 
-   **Link:[Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Link: [Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![React-Checkout](/help/c-experiences/assets/react6.png)
 
@@ -343,11 +343,11 @@ Ja, at.js 2.x unterstützt A4T für SPA über die `triggerView()`-Funktion, wenn
 | [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja |
 | [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md) | Ja |
 | [Multivarianz-Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Nein |
-| [Automatisches Targeting](/help/c-activities/auto-target-to-optimize.md) | Nein |
+| [Automatisches Targeting](/help/c-activities/auto-target/auto-target-to-optimize.md) | Nein |
 | [Automatisierte Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization.md) | Nein |
 | [Recommendations](/help/c-recommendations/recommendations.md) | Nein |
 
-**Wie führen wir, wenn wir at.js 2.x installiert und`triggerView()`auf unseren Sites implementiert haben, A/B-Aktivitäten mit automatischem Targeting aus, da SPA VEC das automatische Targeting nicht unterstützt?**
+**Wie führen wir, wenn wir at.js 2.x installiert und `triggerView()` auf unseren Sites implementiert haben, A/B-Aktivitäten mit automatischem Targeting aus, da SPA VEC das automatische Targeting nicht unterstützt?**
 
 Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, können Sie alle Aktionen so verschieben, dass sie in VEC beim Laden der Seite ausgeführt werden. Bewegen Sie den Mauszeiger über die einzelnen Aktionen und klicken Sie auf die Schaltfläche [!UICONTROL Verschieben nach „Seite laden“]. Anschließend können Sie im nächsten Schritt das automatische Targeting für die Traffic-Zuordnungsmethode auswählen.
 
