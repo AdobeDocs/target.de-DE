@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 98%
@@ -64,7 +64,7 @@ Verwenden Sie unsere [Berichte zur Ermittlung des erfolgreichsten Erlebnisses](.
 
 **Kann ich eine Aktivität mit einer Personalisierungsebene als einen integralen Bestandteil der Aktivität durchführen?**
 
-Sehen Sie sich die Option [Automatische Zielgruppe](/help/c-activities/auto-target-to-optimize.md) an.
+Sehen Sie sich die Option [Automatische Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md) an.
 
 **Woran erkenne ich, welcher Aktivitätstyp sich am besten für meine Anforderungen eignet?**
 
@@ -120,7 +120,7 @@ Das ist auch möglich. Verwenden Sie [einfach die Option „Speichern“, um die
 
 **Wie kann ich eine Vorschau einer von mir eben erstellten Aktivität anzeigen und eine Qualitätssicherung diesbezüglich vornehmen?**
 
-Verwenden Sie unseren [leistungsstarken QS-Modus](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40), um eine Qualitätssicherung durchzuführen. Sie können Links für Ihr Qualitätssicherungsteam freigeben und die Aktivität auch durchgängig testen, einschließlich der Berichterstellung, um vollständig sicherzugehen, dass die Aktivität wie gewünscht und entsprechend dem Test funktioniert, sobald sie aktiv ist.
+Verwenden Sie unseren [leistungsstarken QS-Modus](/help/c-activities/c-activity-qa/activity-qa.md), um eine Qualitätssicherung durchzuführen. Sie können Links für Ihr Qualitätssicherungsteam freigeben und die Aktivität auch durchgängig testen, einschließlich der Berichterstellung, um vollständig sicherzugehen, dass die Aktivität wie gewünscht und entsprechend dem Test funktioniert, sobald sie aktiv ist.
 
 **Wie kann ich die Entscheidungsfindungsfunktion von Target verwenden, um ein Erlebnis/Angebot zu erhalten, das in Single-Page-Webanwendungen (Single Page Applications, SPAs) oder serverseitigen Integrationen verwendet werden kann?**
 
@@ -167,7 +167,7 @@ Lesen Sie die folgenden Aspekte des Produkts:
 
 * [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Kundenattribute](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
-* [Zielgruppen](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Zielgruppen](/help/c-integrating-target-with-mac/mmp.md)
 
 ## Erlebnisse {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
@@ -277,7 +277,7 @@ Lesen Sie die folgenden Aspekte des Produkts:
 
 * [Kundenattribute](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
-* [Zielgruppen](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Zielgruppen](/help/c-integrating-target-with-mac/mmp.md)
 
 
 **Kann ich die Slice-and-Dice-Funktionalität für die Berichte zu mehreren Benutzersegmenten verwenden?**
