@@ -6,7 +6,7 @@ feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 85dc58da0425bfbbea2b2892ab617152c0184d0b
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 64%
@@ -111,7 +111,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test] -Aktivität:
 
    * **[!UICONTROL Automatisch dem besten Erlebnis zuordnen]**: Die meisten Aktivitätsteilnehmer werden automatisch zu leistungsstärkeren Erlebnissen weitergeleitet. Einige Besucher werden allen Erlebnissen zugeordnet, um die Erforschung von Erlebnissen beizubehalten und Änderungen an Leistungstrends zu erkennen. Siehe [Automatisierte Traffic-Zuordnung](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-   * **[!UICONTROL Automatische Zielgruppe für personalisierte Erlebnisse]**: [!DNL Target] verwendet fortschrittliches maschinelles Lernen, um Inhalte zu personalisieren und Konversionen zu fördern, indem mehrere leistungsstarke, von Marketingexperten definierte Erlebnisse identifiziert werden, und dann den Besuchern das maßgeschneiderte Erlebnis zu bieten, das auf ihren individuellen Profilen und früheren Verhaltensweisen ähnlicher Besucher basiert. For more information, see [Auto-Target](/help/c-activities/auto-target-to-optimize.md).
+   * **[!UICONTROL Automatische Zielgruppe für personalisierte Erlebnisse]**: [!DNL Target] verwendet fortschrittliches maschinelles Lernen, um Inhalte zu personalisieren und Konversionen zu fördern, indem mehrere leistungsstarke, von Marketingexperten definierte Erlebnisse identifiziert werden, und dann den Besuchern das maßgeschneiderte Erlebnis zu bieten, das auf ihren individuellen Profilen und früheren Verhaltensweisen ähnlicher Besucher basiert. For more information, see [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
    You can also click **[!UICONTROL Add]** to add another experience to the activity.
 
 1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
