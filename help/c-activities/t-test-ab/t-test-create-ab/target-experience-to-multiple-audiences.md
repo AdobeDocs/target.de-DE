@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Sie prüfen zwei Erlebnisse, ein Banner mit Geotargeting und ein allgemeines Ban
 
 In diesem Fall müssen Sie regionsspezifische Versionen des Erlebnisses erstellen, sodass Sie Geotargeting mit einer nicht mit Geotargeting ausgestatteten Kontrollanzeige abgleichen können.
 
-1. [Erstellen Sie wie gewohnt eine A/B-Aktivität.](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
+1. [Erstellen Sie wie gewohnt eine A/B-Aktivität.](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 
    Wählen Sie während der Konfigurierung des Erlebnisses mit mehreren Versionen die Zielgruppen der einzelnen Versionen aus, wie unten dargestellt.
 
