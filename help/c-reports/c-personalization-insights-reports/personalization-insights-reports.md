@@ -5,7 +5,7 @@ title: Berichte zu Personalization Insights
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 68%
@@ -53,8 +53,8 @@ Es stehen zwei [!UICONTROL Personalisierungseinblicke] -Berichte zur Verfügung:
 
 Es gibt zwei Arten von Attributen in [!UICONTROL Personalization Insights]-Berichten, die in Ihren AP- oder AT-Modellen verwendet werden:
 
-* **Automatisch von erfasste Attribute:**[!DNL Target] Target verwendet einen Basis-Datensatz, um die Personalisierungsalgorithmen in AP- und AT-Aktivitäten zu erstellen, die in Personalization Insights angezeigt werden. Siehe [Datenerfassung für die Personalisierungsalgorithmen](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) von Target für Datentypen, Beispielattribute und ihre Benennungskonvention für [!UICONTROL Personalization Insights]. Beachten Sie, dass, obwohl diese Attribute berücksichtigt werden, die individuellen Modelle einer Aktivität nicht unbedingt all diese Attribute im endgültigen Modell verwenden.
-* **An Target übergebene Attribute:** Siehe  [Hochladen von Daten für die Target-Personalisierungs-Algorithmen](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* **Automatisch von erfasste Attribute:**[!DNL Target] Target verwendet einen Basis-Datensatz, um die Personalisierungsalgorithmen in AP- und AT-Aktivitäten zu erstellen, die in Personalization Insights angezeigt werden. Siehe [Datenerfassung für die Personalisierungsalgorithmen](/help/c-activities/t-automated-personalization/ap-data.md) von Target für Datentypen, Beispielattribute und ihre Benennungskonvention für [!UICONTROL Personalization Insights]. Beachten Sie, dass, obwohl diese Attribute berücksichtigt werden, die individuellen Modelle einer Aktivität nicht unbedingt all diese Attribute im endgültigen Modell verwenden.
+* **An Target übergebene Attribute:** Siehe  [Hochladen von Daten für die Target-Personalisierungs-Algorithmen](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 [!DNL Target] bietet viele Möglichkeiten, um zusätzliche Daten [!DNL Target] zur Erweiterung des Basisdatensatzes, der zum Aufbau der Personalisierungsalgorithmen in AP- und AT-Aktivitäten verwendet wird, weiterzugeben:
 
