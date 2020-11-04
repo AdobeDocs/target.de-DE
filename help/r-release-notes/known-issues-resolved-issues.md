@@ -5,7 +5,7 @@ title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -48,7 +48,7 @@ Ein bekanntes Problem verhindert die Vorschau, wenn in der Aktivität verwendete
 Die folgenden Probleme bei Umleitungsangeboten sind bekannt:
 
 * Eine geringe Anzahl von Kunden hat gemeldet, dass unter bestimmten Bedingungen ein höherer Grad an Varianz in der Traffic-Verteilung auftritt, wenn ein Umleitungsangebot in Aktivitäten verwendet wird, die mit Analytics for Target (A4T) konfiguriert wurden. Adobe-Techniker arbeiten derzeit an diesem Problem.
-* Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
+* Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](/help/c-activities/c-activity-qa/activity-qa.md) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
 
 ### Laden einer Seite im VEC abbrechen {#cancel}
 
