@@ -1,5 +1,5 @@
 ---
-keywords: Analytics as reporting source;a4t;A4T
+keywords: Analytics as reporting source;a4t;A4T;requirements
 description: Benutzerkontoanforderungen für die Erstellung einer Adobe Analytics-basierten Aktivität in Adobe Target (A4T).
 title: Anforderungen hinsichtlich Benutzerberechtigungen
 feature: a4t implementation
@@ -7,15 +7,15 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
+source-git-commit: 95e620e78fa6bcb2cded1c6efc79d365c5b70b30
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 51%
+source-wordcount: '257'
+ht-degree: 48%
 
 ---
 
 
-# Anforderungen hinsichtlich Benutzerberechtigungen {#user-permission-requirements}
+# Anforderungen hinsichtlich Benutzerberechtigungen
 
 Informationen zu den Benutzerkontoanforderungen, um eine [!DNL Adobe Analytics]-basierte Aktivität in [!DNL Adobe Target] (A4T) zu erstellen.
 
@@ -41,15 +41,19 @@ For more information, see [Manage Experience Cloud users and products](https://d
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Führen Sie die folgenden Aufgaben in [!DNL Adobe Analytics] aus:
+Configure access to the [!DNL Analytics] report suite:
 
-### Zugriff auf die Analytics Report Suite konfigurieren
+Um A4T für eine bestimmte Report Suite zu verwenden, müssen Sie Zugriff auf diese Report Suite haben.
 
-Um A4T für eine bestimmte Report Suite zu verwenden, müssen Sie Zugriff auf diese Report Suite haben. Um Zugriff auf die [!UICONTROL Admin Console]zu erhalten, klicken Sie auf ein [!DNL Analytics] Profil und dann auf die Registerkarte [!UICONTROL Berechtigungen] . Daraufhin können Sie sehen, auf welche Report Suites das Profil Zugriff hat. Vergewissern Sie sich, dass die Report Suite, auf die Sie zugreifen möchten, zu den Report Suites gehört, die im Profil aufgeführt sind, zu dem Sie gehören. [!DNL Target]
+1. Klicken Sie in **[!UICONTROL Admin Console]** auf ein [!DNL Analytics] -Produkt-Profil und dann auf die Registerkarte **[!UICONTROL Berechtigungen]** .
 
-Die folgende Abbildung zeigt ein Profil eines Produkts mit Zugriff auf alle Report Suites:
+   Daraufhin können Sie sehen, auf welche Report Suites das Profil Zugriff hat.
 
-![Admin Console, Registerkarte Berechtigung](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+1. Stellen Sie sicher, dass die Report Suite, auf die Sie zugreifen möchten, zu einer der Report Suites gehört, die im Profil aufgeführt sind, zu dem Sie gehören. [!DNL Target]
+
+   Die folgende Abbildung zeigt ein Profil eines Produkts mit Zugriff auf alle Report Suites:
+
+   ![Admin Console, Registerkarte Berechtigung](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
