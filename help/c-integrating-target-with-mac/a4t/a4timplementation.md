@@ -5,10 +5,10 @@ title: Implementieren von Analytics for Target
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 43%
+source-wordcount: '900'
+ht-degree: 44%
 
 ---
 
@@ -91,7 +91,7 @@ This set up has a global effect, which means that every call made by at.js will 
 }
 ```
 
-Die Nutzlast kann dann über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)an Analytics weitergeleitet werden. Beachten Sie, dass Sie bei [!UICONTROL Aktivitäten für die automatische Zuordnung] und [!UICONTROL automatische Zielgruppe] auch die sessionId weiterleiten müssen. Weitere Informationen finden Sie unter [Adobe Analytics für Zielgruppe (A4T)](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) im Handbuch zur API für *Adobe Target Versand*
+Die Nutzlast kann dann über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)an Analytics weitergeleitet werden. Beachten Sie, dass Sie bei [!UICONTROL Aktivitäten für die automatische Zuordnung] und [!UICONTROL automatische Zielgruppe] auch die sessionId weiterleiten müssen. Weitere Informationen finden Sie im Berichte [zu](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) Analytics for Zielgruppe (A4T) im Handbuch *Adobe Target SDKs* .
 
 Wenn statt einer globalen Einstellung ein situationsbezogener Ansatz gewünscht wird, können Sie die Funktion at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)verwenden, um dies durch Übergabe von,**analyticsLogging: &quot;client_side&quot;** zu erreichen. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
