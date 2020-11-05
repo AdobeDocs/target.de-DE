@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 85%
@@ -23,10 +23,10 @@ Mit der Mbox für Auftragsbestätigungen werden Informationen zu Bestellungen au
 >* Tätigen Benutzer auf Ihrer Website Einkäufe, empfehlen wir die Implementierung einer Auftragsbestätigungs-Mbox, selbst wenn Sie für die Berichterstellung Analytics for Target (A4T) einsetzen.
    >
    >
-* You can also create an Order Confirmation mbox for at.js 1.*x* mit derselben Methode; jedoch wird die [!DNL at.js] Methode bevorzugt. Weitere Informationen finden Sie unter [Konversions-Tracking](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* Sie können auch eine Auftragsbestätigungs-mbox für &quot;at.js 1&quot;erstellen.*x* mit derselben Methode; jedoch wird die [!DNL at.js] Methode bevorzugt. Weitere Informationen finden Sie unter [Konversions-Tracking](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
    >
    >
-* Wenn Sie at.js 2 verwenden.*x*, `mboxCreate` is no longer supported. Zur Auftragsbestätigung mit at.js 2.*x*, use the following tracking-related APIs: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) and [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+* Wenn Sie at.js 2 verwenden.*x*, `mboxCreate` wird nicht mehr unterstützt. Zur Auftragsbestätigung mit at.js 2.*x* verwenden Sie die folgenden tracking-bezogenen APIs: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) und [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 
 1. Fügen Sie auf Ihrer Bestellungsdetailseite das Mbox-Skript ein. Befolgen Sie dabei das folgende Modell:
