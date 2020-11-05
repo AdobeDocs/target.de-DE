@@ -5,7 +5,7 @@ title: Datenerfassung für die Adobe Target-Personalisierungsalgorithmen
 feature: ap
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 96%
@@ -19,7 +19,7 @@ Target sammelt und verwendet automatisch eine Vielzahl an Daten zum Erstellen se
 
 Weitere Informationen über die Target-Personalisierungsalgorithmen finden Sie unter  [Random-Forest-Algorithmus](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-Folgende Tabelle zeigt die Daten, die von der automatisierten Personalisierung und dem automatischen Targeting standardmäßig erfasst werden, ohne dass der Marketingexperte hierfür eine Aktion durchführen muss, sowie die Namenskonvention, die zur Anzeige dieser Attribute in [Berichten zu Personalization Insights](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) verwendet wird. Sie können den Eingabedatensatz jederzeit erweitern. Weitere Informationen über das Hochladen zusätzlicher Daten finden Sie unter  [Hochladen von Daten für die Personalisierungsalgorithmen von Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+Folgende Tabelle zeigt die Daten, die von der automatisierten Personalisierung und dem automatischen Targeting standardmäßig erfasst werden, ohne dass der Marketingexperte hierfür eine Aktion durchführen muss, sowie die Namenskonvention, die zur Anzeige dieser Attribute in [Berichten zu Personalization Insights](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) verwendet wird. Sie können den Eingabedatensatz jederzeit erweitern. Weitere Informationen über das Hochladen zusätzlicher Daten finden Sie unter  [Hochladen von Daten für die Personalisierungsalgorithmen von Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 | Datentyp | Beschreibung | Datentyp-Namenskonvention | Beispielattribute |
 | --- | --- | --- | --- |
