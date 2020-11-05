@@ -6,7 +6,7 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
@@ -52,7 +52,7 @@ Wenn die Kontrollinstanz 0 ist, gibt es keine prozentuale Steigerung.
 
 Diese Zahl zeigt die Wahrscheinlichkeit, dass sich die Ergebnisse bei einem erneut durchgeführten Test verdoppeln würden. Das Vertrauen wird auf 100 % aufgerundet, wenn es größer oder gleich 99,995 % ist.
 
-Siehe [Konfidenzniveau und Konfidenzintervall](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Siehe [Konfidenzniveau und Konfidenzintervall](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Verkaufsdaten {#section_30A674731BA6440E9BB93C421BE990EE}
 
@@ -106,7 +106,7 @@ Das *Konfidenzintervall* ist ein Bereich, in dem der wahre Wert auf einer bestim
 
 ## Berechnung der Konfidenz und Anleitung zur Offline-Berechnung  {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-Der [heruntergeladene CSV-Bericht](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
+Der [heruntergeladene CSV-Bericht](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
 
 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
@@ -122,7 +122,7 @@ Für A4T wird eine Student-T-Testberechnung für kontinuierliche Variablen verwe
 
 Wenn Sie beispielsweise eine Optimierung für Seitenansichten pro Besucher durchführen, würden Sie ein Beispiel für die Gesamtzahl Seitenansichten auf Benutzerbasis für einen angegebenen Zeitraum exportieren, möglicherweise für ein paar Tage (dazu benötigen Sie lediglich ein paar tausend Datenpunkte). Anschließend quadrieren Sie die einzelnen Werte und bilden die Summe der Gesamtwerte (die Reihenfolge der Vorgänge muss hier unbedingt beachtet werden). Dieser „Quadratsummen“-Wert wird anschließend im Complete Confidence Calculator verwendet. Verwenden Sie für diese Werte den Bereich „Umsatz“ dieses Arbeitsblatts.
 
-**So verwenden Sie die[!DNL Analytics]-Datenexportfunktion:**
+**So verwenden Sie die [!DNL Analytics]-Datenexportfunktion:**
 
 1. Melden Sie sich bei [!DNL Adobe Analytics] an.
 1. Klicken Sie auf **[!UICONTROL Werkzeuge]** > **[!UICONTROL Data Warehouse]**.
