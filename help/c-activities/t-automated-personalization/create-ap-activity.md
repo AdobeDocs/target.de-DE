@@ -6,7 +6,7 @@ feature: ap
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 98%
@@ -93,7 +93,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Angebote]**, um Inhalte auszuwählen und sie den richtigen Berichtsgruppen zuzuweisen oder per Targeting nur bestimmten Besuchern die Anzeige bestimmter Angebote zu ermöglichen.
 
-   Weitere Informationen finden Sie unter [Berichtsgruppen für Angebote in Automated Personalization](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+   Weitere Informationen finden Sie unter [Berichtsgruppen für Angebote in Automated Personalization](/help/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
 
    Mit der Liste [!UICONTROL Standort] können Sie Angebote nach Standort filtern. Mit der Liste [!UICONTROL Berichtsgruppe] können Sie Angebote nach Berichtsgruppe filtern. Sie können die Liste [!UICONTROL Berichtsgruppe] auch verwenden, um [!UICONTROL nicht zugewiesenen Angeboten] zu filtern und so ein Angebot, dem bisher noch keine Berichtsgruppe zugewiesen wurde, einer beliebigen Gruppe zuzuweisen.
 
@@ -107,7 +107,7 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
    Es ist wichtig zu verstehen, dass sich Berichtsgruppen darauf auswirken, wie Target seine Modelle erstellt. Daher wird empfohlen, dass Sie Berichtsgruppen nur dann verwenden, wenn Sie planen, Angebote zu ersetzen oder neue Angebote hinzuzufügen, während die Aktivität aktiv ist. Wenn ein neues Angebot in eine aktive Aktivität eingeführt wird, kann die Maschine durch das Verschieben des neuen Angebots in eine Gruppe mit vorhandenen ähnlichen Angeboten die für die anderen Angebote in der zugehörigen Gruppe bereits gesammelten Daten verwenden, um Informationen über das neue Angebot zu erhalten. Sie sollten niemals alle Angebote in eine einzelne Berichtsgruppe verschieben.
 
-   Weitere Informationen zum Targeting eines Angebots für bestimmte Zielgruppen erhalten Sie unter [Target-AP-Angebote](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+   Weitere Informationen zum Targeting eines Angebots für bestimmte Zielgruppen erhalten Sie unter [Target-AP-Angebote](/help/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
 1. (Abhängig von Ihrer Lizenz) Klicken Sie auf **[!UICONTROL Ausschlussgruppen]**, um beliebige Kombinationen der Elemente auszuwählen, die Sie aus der Aktivität ausschließen möchten.
 
@@ -171,4 +171,4 @@ Der Arbeitsablauf der automatisierten Personalisierung unterscheidet sich vom Ab
 
 Nachdem Sie auf **[!UICONTROL Erstellen]** geklickt haben, wird die Aktivitätsübersicht angezeigt. Klicken Sie auf **Vorschau für Erlebnisse**, um das Erscheinungsbild Ihrer Erlebnisse bei Bereitstellung in der Vorschau anzuzeigen. Ein Pop-up erscheint, das Sie zum Aufrufen und Freigeben der Links zu Ihren AP-Erlebnissen auf Ihrer Seite verwenden können, um eine Vorschau der Erlebnisse außerhalb des Visual Experience Composer von Target zu erhalten. Sie müssen die Links in der Nachricht freigeben, um die Vorschau freigeben zu können. Das Anklicken des Links und Kopieren der URL direkt auf der Seite funktionieren nicht, weil die URL einen Parameter enthält, der die Seite nur dann korrekt anzeigt, wenn Sie vom Link in der Nachricht aus auf die Seite zugreifen.
 
-Weitere Informationen zur Berichterstellung finden Sie unter [Automatisierte Personalisierungsberichte](../../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
+Weitere Informationen zur Berichterstellung finden Sie unter [Automatisierte Personalisierungsberichte](/help/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
