@@ -5,7 +5,7 @@ title: Wie lange sollten A/B-Tests laufen?
 feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3102'
 ht-degree: 75%
@@ -21,7 +21,7 @@ Es ist verlockend, einen Test zu stoppen, wenn eines der Angebote in den ersten 
 
 >[!IMPORTANT]
 >
->Das vorzeitige Abbrechen einer Aktivität ist eine der zehn bedeutenden Fallstricke, die Sie beim Durchführen von A/B-Tests möglicherweise als voreingenommen betrachten. Weitere Informationen finden Sie unter [Zehn häufige A/B-Testfallen und wie diese](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)vermieden werden können.
+>Das vorzeitige Abbrechen einer Aktivität ist eine der zehn bedeutenden Fallstricke, die Sie beim Durchführen von A/B-Tests möglicherweise als voreingenommen betrachten. Weitere Informationen finden Sie unter [Zehn häufige A/B-Testfallen und wie diese](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)vermieden werden können.
 
 [!DNL Target] stellt Tools bereit, die sicherstellen, dass Ihre Aktivität über eine ausreichend große Stichprobengröße verfügt, um Ihre Konvertierungsziele zu erreichen: Automatische Zuordnung
 
@@ -37,7 +37,7 @@ The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL Die Funktion „Automati
 
 Bei der Verwendung der Funktion [!UICONTROL „Automatisierte Zuordnung“] zeigt [!DNL Target] oben auf der Seite der Aktivität ein Abzeichen mit „Noch kein Gewinner“ an, bis die Aktivität die Mindestanzahl an Konversionen mit ausreichender Konfidenz erreicht hat. [!DNL Target] bestimmt dann das erfolgreichste Erlebnis, indem oben auf der Aktivitätsseite ein entsprechendes Symbol angezeigt wird.
 
-For more information, see [Auto-Allocate overview](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Adobe Target-Stichprobengrößenrechner  {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
