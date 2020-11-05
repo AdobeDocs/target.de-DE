@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -20,7 +20,7 @@ Mithilfe von Zielgruppen in Adobe Target wird bestimmt, wer Inhalte und Erlebnis
 
 Zielgruppen werden überall dort eingesetzt, wo Targeting zur Verfügung steht. Beim Targeting einer Aktivität können Sie entweder eine wiederverwendbare Zielgruppe aus der [!UICONTROL Zielgruppenliste] auswählen, [eine aktivitätsspezifische Zielgruppe erstellen](/help/c-target/creating-activity-only-audience.md) und verwenden oder [mehrere Zielgruppen kombinieren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), um eine Ad-hoc-Zielgruppe zu erstellen.
 
-Sie können auch Zielgruppendaten verwenden, die von [!DNL Analytics] für Echtzeit-Targeting und Personalisierung in [!DNL Adobe Target] und anderen [!DNL Experience Cloud]-Lösungen erfasst wurden. See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) in the *Core Services User Guide*.
+Sie können auch Zielgruppendaten verwenden, die von [!DNL Analytics] für Echtzeit-Targeting und Personalisierung in [!DNL Adobe Target] und anderen [!DNL Experience Cloud]-Lösungen erfasst wurden. Siehe [Audiencen](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) im *Core Services-Benutzerhandbuch*.
 
 In [!DNL Target] stehen zwei Zielgruppentypen zur Verfügung:
 
@@ -60,7 +60,7 @@ Der Zugriff auf die folgende Zielgruppendefinition erfolgt durch Klicken auf das
 
 ![Aktivitäten > Zielgruppendefinition](assets/audience_definition_list.png)
 
-Klicken Sie auf die Registerkarte [!UICONTROL Zielgruppennutzung], um andere Aktivitäten anzuzeigen, die ggf. auf diese Zielgruppe verweisen. So können Sie beim Bearbeiten von Zielgruppen nicht beabsichtigte Auswirkungen auf andere Aktivitäten verhindern. Zu „Informationen“ zählen „Live-Aktivitäten“, „Inaktive Aktivitäten“, „Archivierte Aktivitäten“ und „Aktivitätssynchronisierung“. Diese Funktion ist für alle Zielgruppen (Bibliothekszielgruppen und  [Zielgruppen vom Typ „Nur Aktivität“](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)) verfügbar.
+Klicken Sie auf die Registerkarte [!UICONTROL Zielgruppennutzung], um andere Aktivitäten anzuzeigen, die ggf. auf diese Zielgruppe verweisen. So können Sie beim Bearbeiten von Zielgruppen nicht beabsichtigte Auswirkungen auf andere Aktivitäten verhindern. Zu „Informationen“ zählen „Live-Aktivitäten“, „Inaktive Aktivitäten“, „Archivierte Aktivitäten“ und „Aktivitätssynchronisierung“. Diese Funktion ist für alle Zielgruppen (Bibliothekszielgruppen und  [Zielgruppen vom Typ „Nur Aktivität“](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)) verfügbar.
 
 Wenn eine Zielgruppe mit einer anderen Zielgruppe kombiniert und die kombinierte Zielgruppe zum Erstellen einer Aktivität verwendet wird, findet sich in den Nutzungsinformationen für beide Zielgruppen die neu erstellte Aktivität.
 
