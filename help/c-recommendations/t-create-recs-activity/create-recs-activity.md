@@ -5,10 +5,10 @@ title: Erstellen einer Recommendations-Aktivität
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1303'
+ht-degree: 78%
 
 ---
 
@@ -80,7 +80,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    >[!NOTE]
    >
-   >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, heben Sie die Auswahl für die Option **[!UICONTROL Kompatibel]** auf. Die Option [!UICONTROL Kompatibel] wird je nach Recommendations-Einstellungen (**[!UICONTROL Recommendations]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Inkompatible Kriterien filtern]**) möglicherweise nicht angezeigt. Weitere Informationen finden Sie unter [Einstellungen](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, heben Sie die Auswahl für die Option **[!UICONTROL Kompatibel]** auf. Die Option [!UICONTROL Kompatibel] wird je nach Recommendations-Einstellungen (**[!UICONTROL Recommendations]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Inkompatible Kriterien filtern]**) möglicherweise nicht angezeigt. Weitere Informationen finden Sie unter [Einstellungen](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
    ![Dialogfeld „Kriterien auswählen“](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -90,13 +90,13 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
       Einige Kriterien werden durch [!DNL Recommendations] bereitgestellt. Sie und Ihr Team können auch eigene Kriterien erstellen.
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Erstellen von Kriterien](../../c-recommendations/c-algorithms/create-new-algorithm.md).
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
    * Sie können auch Kriterien in Sequenzen gruppieren. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Weitere Informationen finden Sie unter Kriteriensequenz [erstellen](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) .
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 1. [Entwurf auswählen](/help/c-recommendations/c-design-overview/design-overview.md).
 
-   Ein Entwurf ist eine Vorlage, die das Aussehen der Orte auf Ihrer Seite festlegt. [!DNL Target] umfasst mehrere vorkonfigurierte Entwürfe. Sie können auch Ihre eigenen, benutzerdefinierten Entwürfe erstellen. Weitere Informationen finden Sie unter  [Erstellen eines Entwurfs](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) und [Anpassen eines Entwurfs](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Ein Entwurf ist eine Vorlage, die das Aussehen der Orte auf Ihrer Seite festlegt. [!DNL Target] umfasst mehrere vorkonfigurierte Entwürfe. Sie können auch Ihre eigenen, benutzerdefinierten Entwürfe erstellen. Weitere Informationen finden Sie unter  [Erstellen eines Entwurfs](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) und [Anpassen eines Entwurfs](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![Dialogfeld „Entwurf auswählen“](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -106,11 +106,11 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
       Wenn Sie mehrere Kriterien ausgewählt haben, können Sie lediglich einen Entwurf auswählen.
 
-   * Um einen benutzerdefinierten Entwurf zu erstellen, klicken Sie auf **[!UICONTROL Entwurf erstellen]** und geben dann den Namen und den Code für den neuen Entwurf ein. Klicken Sie auf **[!UICONTROL Weiter]**, wählen Sie anschließend ein Bild aus oder laden Sie ein Bild hoch und klicken Sie dann auf **[!UICONTROL Fertig]** > **[!UICONTROL Fertig]**. Weitere Informationen zum Erstellen eines neuen Entwurfs finden Sie unter [Erstellen eines Entwurfs](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Um einen benutzerdefinierten Entwurf zu erstellen, klicken Sie auf **[!UICONTROL Entwurf erstellen]** und geben dann den Namen und den Code für den neuen Entwurf ein. Klicken Sie auf **[!UICONTROL Weiter]**, wählen Sie anschließend ein Bild aus oder laden Sie ein Bild hoch und klicken Sie dann auf **[!UICONTROL Fertig]** > **[!UICONTROL Fertig]**. Weitere Informationen zum Erstellen eines neuen Entwurfs finden Sie unter [Erstellen eines Entwurfs](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
-   Sie haben auch die Möglichkeit, Ihren Empfehlungen Promotions hinzuzufügen. Weitere Informationen über das Hinzufügen von Vorwärts- und Rückwärts-Promotions finden Sie unter  [Hinzufügen von Promotions](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   Sie haben auch die Möglichkeit, Ihren Empfehlungen Promotions hinzuzufügen. Weitere Informationen über das Hinzufügen von Vorwärts- und Rückwärts-Promotions finden Sie unter  [Hinzufügen von Promotions](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -136,7 +136,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
       >[!NOTE]
       >
-      >Zusätzlich zur Auswahl einer vorhandenen Zielgruppe können Sie eine [Zielgruppe für nur eine Aktivität erstellen](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) oder [mehrere Zielgruppen kombinieren](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), um Ad-hoc-Zielgruppen zu erstellen statt eine neue Zielgruppe zu erstellen.
+      >Zusätzlich zur Auswahl einer vorhandenen Zielgruppe können Sie eine [Zielgruppe für nur eine Aktivität erstellen](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) oder [mehrere Zielgruppen kombinieren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), um Ad-hoc-Zielgruppen zu erstellen statt eine neue Zielgruppe zu erstellen.
 
       Standardmäßig werden Empfehlungen für alle Benutzer angezeigt. Sie können Empfehlungen jedoch auf eine spezifische Zielgruppe ausrichten.
 
@@ -151,7 +151,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 1. Klicken Sie auf **[!UICONTROL Weiter]**, wenn Sie fertig sind.
 1. Geben Sie Ihre Aktivitätseinstellungen an.
 
-   Geben Sie zum Beispiel einen Namen (erforderlich) und ein Ziel (optional) für die Aktivität ein. Weitere Informationen zu den Einstellungen finden Sie unter [Recommendations Activities-Einstellungen](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
+   Geben Sie zum Beispiel einen Namen (erforderlich) und ein Ziel (optional) für die Aktivität ein. Weitere Informationen zu den Einstellungen finden Sie unter [Recommendations Activities-Einstellungen](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
 
    >[!NOTE]
    >
