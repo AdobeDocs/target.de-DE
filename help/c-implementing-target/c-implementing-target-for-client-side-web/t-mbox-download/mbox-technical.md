@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Diese Informationen helfen Ihren technischen Mitarbeitern dabei, die „mbox.js“-Implementierung und die möglichen Auswirkungen auf Ihre Site zu verstehen.
 
-Target Standard erfordert die [!DNL mbox.js]-Version 58 oder neuer. Anweisungen zum Herunterladen und Aktualisieren von [!DNL mbox.js] finden Sie unter [Mbox-Implementierung](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+Target Standard erfordert die [!DNL mbox.js]-Version 58 oder neuer. Anweisungen zum Herunterladen und Aktualisieren von [!DNL mbox.js] finden Sie unter [Mbox-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
 Für Target Standard ruft [!DNL mbox.js] eine andere JavaScript-Datei auf, [!DNL target.js]. [!DNL Target.js] wird von Adobe gehostet und automatisch aktualisiert. Sie müssen nichts unternehmen, um [!DNL target.js] zu aktualisieren, und es gibt keine kundenspezifischen Anpassungen.
 
@@ -51,4 +51,4 @@ Wenn Sie den [!UICONTROL Visual Experience Composer] zum Einrichten eines Erlebn
 
 Sollten Sie Target in eine Angular-Site oder eine Einzelseiten-App (SPA) integrieren, sollten Sie die at.js-Bibliothek anstatt der mbox.js-Bibliothek verwenden.
 
-Weitere Informationen finden Sie unter [„at.js“-Implementierung](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
+Weitere Informationen finden Sie unter [„at.js“-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
