@@ -5,7 +5,7 @@ title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -179,7 +179,7 @@ Dieses Problem wurde in Target-Version 19.7.1 behoben.
 
 Die mbox.js-Bibliothek unterstützt keine clientseitigen Vorlagensprachen wie Handlebars und Mustache. Diese Sprachen *werden* von der Bibliothek at.js unterstützt.
 
-**Hinweis**: Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+**Hinweis**: Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Implementierung: Globale Mbox automatisch erstellen
 
