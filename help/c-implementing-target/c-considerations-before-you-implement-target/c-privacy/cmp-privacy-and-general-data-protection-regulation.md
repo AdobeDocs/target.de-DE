@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2250'
 ht-degree: 93%
@@ -73,9 +73,9 @@ window.targetGlobalSettings = {
 
 In Verbindung mit dem Opt-in gibt es drei Szenarien:
 
-1. **[!DNL Target]-Tag wird vorab über[!DNL Launch]genehmigt (oder die betroffene Person hat zuvor[!DNL Target]genehmigt):** Das [!DNL Target]-Tag wird nicht für die Einwilligung gespeichert und funktioniert wie erwartet.
-1. **Das[!DNL Target]-Tag wird NICHT vorab genehmigt und`bodyHidingEnabled`ist FALSE:** Das [!DNL Target]-Tag wird erst ausgelöst, wenn die Einwilligung vom Kunden eingeholt wurde. Bevor die Einwilligung eingeholt wird, ist nur der Standardinhalt verfügbar. Nachdem die Einwilligung eingeholt wurde, wird [!DNL Target] aufgerufen und der personalisierte Inhalt wird der betroffenen Person (Besucher) zur Verfügung gestellt. Da vor der Einwilligung nur der Standardinhalt verfügbar ist, ist die richtige Strategie entscheidend, wie z. B. eine Splash-Seite, die Seitenteile mit personalisierten Inhalten überdeckt. So wird gewährleistet, dass das Erlebnis für die betroffene Person (Besucher) einheitlich bleibt.
-1. **Das[!DNL Target]-Tag wird NICHT vorab genehmigt und`bodyHidingEnabled`ist TRUE:** Das [!DNL Target]-Tag wird erst ausgelöst, wenn die Einwilligung vom Kunden eingeholt wurde. Bevor die Einwilligung eingeholt wird, ist nur der Standardinhalt verfügbar. Da jedoch `bodyHidingEnabled` auf TRUE festgelegt ist, bestimmt `bodyHiddenStyle`, welcher Inhalt auf der Seite ausgeblendet wird, bis das [!DNL Target]-Tag ausgelöst wird (oder die betroffene Person den Opt-in ablehnt, woraufhin der Standardinhalt angezeigt wird). By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. Die empfohlene Seitenkonfiguration finden Sie unten. So können Sie den gesamten Body der Seite – abgesehen vom Einwilligungsdialog – ausblenden, indem Sie den Seiteninhalt in einen und den Einwilligungsdialog in einen anderen Container einfügen. Mit diesem Setup wird [!DNL Target] so konfiguriert, dass nur der Container mit dem Seiteninhalt ausgeblendet wird. Weitere Informationen zur Konfiguration dieser Einstellungen finden Sie in der [ Launch-Dokumentation](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
+1. **[!DNL Target]-Tag wird vorab über [!DNL Launch] genehmigt (oder die betroffene Person hat zuvor [!DNL Target]genehmigt):** Das [!DNL Target]-Tag wird nicht für die Einwilligung gespeichert und funktioniert wie erwartet.
+1. **Das [!DNL Target]-Tag wird NICHT vorab genehmigt und `bodyHidingEnabled` ist FALSE:** Das [!DNL Target]-Tag wird erst ausgelöst, wenn die Einwilligung vom Kunden eingeholt wurde. Bevor die Einwilligung eingeholt wird, ist nur der Standardinhalt verfügbar. Nachdem die Einwilligung eingeholt wurde, wird [!DNL Target] aufgerufen und der personalisierte Inhalt wird der betroffenen Person (Besucher) zur Verfügung gestellt. Da vor der Einwilligung nur der Standardinhalt verfügbar ist, ist die richtige Strategie entscheidend, wie z. B. eine Splash-Seite, die Seitenteile mit personalisierten Inhalten überdeckt. So wird gewährleistet, dass das Erlebnis für die betroffene Person (Besucher) einheitlich bleibt.
+1. **Das [!DNL Target]-Tag wird NICHT vorab genehmigt und `bodyHidingEnabled` ist TRUE:** Das [!DNL Target]-Tag wird erst ausgelöst, wenn die Einwilligung vom Kunden eingeholt wurde. Bevor die Einwilligung eingeholt wird, ist nur der Standardinhalt verfügbar. Da jedoch `bodyHidingEnabled` auf TRUE festgelegt ist, bestimmt `bodyHiddenStyle`, welcher Inhalt auf der Seite ausgeblendet wird, bis das [!DNL Target]-Tag ausgelöst wird (oder die betroffene Person den Opt-in ablehnt, woraufhin der Standardinhalt angezeigt wird). By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. Die empfohlene Seitenkonfiguration finden Sie unten. So können Sie den gesamten Body der Seite – abgesehen vom Einwilligungsdialog – ausblenden, indem Sie den Seiteninhalt in einen und den Einwilligungsdialog in einen anderen Container einfügen. Mit diesem Setup wird [!DNL Target] so konfiguriert, dass nur der Container mit dem Seiteninhalt ausgeblendet wird. Weitere Informationen zur Konfiguration dieser Einstellungen finden Sie in der [ Launch-Dokumentation](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
 
    Die empfohlene Seitenkonfiguration für Szenario 3 lautet wie folgt:
 
@@ -121,7 +121,7 @@ Alle DSGVO- und CCPA-Anfragen in [!DNL Experience Cloud]-Lösungen, wie [!DNL Ta
 
 ### Für welche Informationen ermöglicht [!DNL Adobe] eine Löschung, wenn Kunden von betroffenen Personen oder Benutzern dazu aufgefordert werden? {#section_4B51D00924EC4166B2442218B69214F0}
 
-In [!DNL Target] sind die Informationen zu den einzelnen Besuchern im jeweiligen [!DNL Target]-Besucherprofil enthalten. [!DNL Target]-Kunden können alle Daten löschen, die mit einer ID in ihrem Besucherprofil verbunden sind. Beispiele für die Profildaten, die [!DNL Target] speichert, finden Sie unter [Besucherprofil](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+In [!DNL Target] sind die Informationen zu den einzelnen Besuchern im jeweiligen [!DNL Target]-Besucherprofil enthalten. [!DNL Target]-Kunden können alle Daten löschen, die mit einer ID in ihrem Besucherprofil verbunden sind. Beispiele für die Profildaten, die [!DNL Target] speichert, finden Sie unter [Besucherprofil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 Aggregierte oder anonymisierte Daten (beispielsweise Berichtsdaten), in denen keine Person identifiziert wird, oder Daten, die nicht mit einer bestimmten Person in Verbindung gebracht werden können (beispielsweise Inhaltsdaten), werden bei der Löschungsanfrage eines Benutzers nicht berücksichtigt.
 
@@ -296,7 +296,7 @@ Die im Beispiel verwendeten JSON-Felder des Profils werden in der folgenden Tabe
 
 ### Unterstützt Target IP-Verschleierung?  {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] unterstützt IP-Verschleierung, wenn Sie sie im Rahmen Ihrer DSGVO- oder CCPA-Implementierungsstrategie einsetzen. Weitere Informationen finden Sie unter  [Datenschutz](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+[!DNL Target] unterstützt IP-Verschleierung, wenn Sie sie im Rahmen Ihrer DSGVO- oder CCPA-Implementierungsstrategie einsetzen. Weitere Informationen finden Sie unter  [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
 
 ### Muss ich etwas unternehmen, um zu verhindern, dass meine Daten an Dritte weitergegeben oder verkauft werden?
 
