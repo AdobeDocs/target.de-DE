@@ -6,7 +6,7 @@ feature: vec
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -22,11 +22,11 @@ Befolgen Sie diese Best Practices und Sie werden bei den von Ihnen entworfenen E
 
 ## Best Practices {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Bei der Verwendung von „mbox.js“ Version 57 und höher sowie von „at.js“ muss die Referenz „mbox.js“ oder „at.js“ oben im Abschnitt`<head>`Ihrer Seite platziert werden.**
+**Bei der Verwendung von „mbox.js“ Version 57 und höher sowie von „at.js“ muss die Referenz „mbox.js“ oder „at.js“ oben im Abschnitt `<head>` Ihrer Seite platziert werden.**
 
 Möchten Sie zudem den API-Besucherdienst verwenden, platzieren Sie das Skript der Besucher-API oberhalb von „mbox.js“ oder „at.js“.
 
-**Für „mbox.js“-Versionen, die älter sind als Version 57, muss der „mbox.js“-Code so weit unten wie möglich im Abschnitt`<head>`Ihrer Seite positioniert werden.**
+**Für „mbox.js“-Versionen, die älter sind als Version 57, muss der „mbox.js“-Code so weit unten wie möglich im Abschnitt `<head>` Ihrer Seite positioniert werden.**
 
 Positionieren Sie „mbox.js“ am Ende des `<head>`-Abschnitts ohne weitere Deklarationen im Anschluss. Andernfalls werden alle Skript- oder Link-Tags in den Abschnitt `<body>` verschoben.
 
@@ -99,9 +99,9 @@ Jede Änderung erstellt ein neues Element im Visual Experience Composer. Da die 
 
 Mit anderen Worten: Wenn Sie ein Element mit Text hinzufügen und dieses Element in einer anderen Aktion mit einem anderen Text bearbeiten, dann zeigt der Code-Editor beide Aktionen als separate Elemente. Bei der Bearbeitung des Elements haben Sie ein neues Element erstellt, das das ursprünglich von Ihnen erstellte Element ändert und den bearbeiteten Text enthält. Wenn Sie dann das ursprüngliche Element löschen, kann der bearbeitete Text das Element nicht finden, das bearbeitet wurde, und wird folglich nicht angezeigt. Das zweite Element bleibt in der Liste der Elemente erhalten, doch es hat keine Auswirkung auf die Seite, weil das Element, das es ändert, nicht mehr vorhanden ist.
 
-Siehe [Elementselektoren, die im Visual Experience Composer verwendet werden](../../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
+Siehe [Elementselektoren, die im Visual Experience Composer verwendet werden](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
-**Verwenden Sie die Tags`<b>`und`<i>`, wenn Sie Textelemente mit dem Rich-Text-Editor erstellen.**
+**Verwenden Sie die Tags `<b>` und `<i>`, wenn Sie Textelemente mit dem Rich-Text-Editor erstellen.**
 
 * Für fett gedruckten Text verwenden Sie `<b>` anstelle von `<strong>`.
 * Für kursiv gedruckten Text verwenden Sie `<i>` anstelle von `<em>`.
@@ -112,7 +112,7 @@ Die Tags `<strong>` und `<em>` können zu unerwarteten Ergebnissen führen.
 
 Bestimmte Formularfelder können Pflichtfelder für die Übermittlung sein. Das Entfernen dieser Formularfelder kann Auswirkungen auf Übermittlungen haben.
 
-**Binden Sie`mboxCreate`nicht in Skripts ein.**
+**Binden Sie `mboxCreate` nicht in Skripts ein.**
 
 Da `mboxCreate` `document.write` verwendet, ist es nicht empfehlenswert, `mboxCreate` in Skripts einzubinden. Verwenden Sie stattdessen `mboxDefine` und `mboxUpdate`, die den gleichen Zweck erfüllen.
 
@@ -151,7 +151,7 @@ Beispielsweise können Sie im VEC nicht auf Einkaufswagen-Text zielen, wenn Ihr 
 
 In diesem Beispiel wurde das gesamte Ankerelement im VEC ausgewählt, was sich negativ auf andere Elemente auswirkt, wenn ein Targeting ausgeführt wird.
 
-**Benutzen Sie die Variablen`top`und`self`nicht in JavaScript-Code.**
+**Benutzen Sie die Variablen `top` und `self` nicht in JavaScript-Code.**
 
 Wenn der Enhanced Experience Composer aktiviert ist, wird der Wert der Variablen „top“ und „self“ aktualisiert, um das iFrame-Busting zu deaktivieren. Arbeiten Sie stattdessen mit einer X-Frame-Optionsüberschrift, um iframe-Busting anstatt benutzerdefinierter JavaScript-Codes einzusetzen.
 
@@ -190,7 +190,7 @@ Beachten Sie folgende Einschränkungen bei der Verwendung von Visual Experience 
 
 **Die Funktion „Verschieben“ unterstützt z-index nicht.**
 
-Da keine z-index-Funktionalität vorhanden ist, kann das verschobene Element nicht über ein anderes Element verschoben werden. Weitere Details finden Sie unter [Einschränkungen](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+Da keine z-index-Funktionalität vorhanden ist, kann das verschobene Element nicht über ein anderes Element verschoben werden. Weitere Details finden Sie unter [Einschränkungen](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 **Eine Neuanordnung von Elementen wirkt sich auf das Klick-Tracking aus.**
 
@@ -198,7 +198,7 @@ Wenn ein für Klick-Tracking gekennzeichnetes Element neu angeordnet wird, ände
 
 Dies passiert, weil sowohl der Code zur Bereitstellung des Aktivitäteninhalts als auch der Code für das Klick-Tracking in einem einzigen Code enthalten ist, der für die Seite bereitgestellt wird. Wenn Sie zu einer anderen Seite navigieren und Klick-Tracking einrichten, dann werden der Aktivitätsinhalts-Code und der Klick-Trackingcode für diese Seite bereitgestellt. Wenn die Klick-Tracking-Seite eine ähnliche Struktur aufweist wie die Seite, auf der der Test ausgeführt wird, dann kann der Testinhalt auch auf der Klick-Tracking-Seite erscheinen.
 
-**Möglicherweise lässt sich in ein`<div>`, das eine Mbox ist, kein Element einfügen.**
+**Möglicherweise lässt sich in ein `<div>`, das eine Mbox ist, kein Element einfügen.**
 
 Enthält eine Mbox ein Angebot, kann ein einzufügendes Element als „insertBefore“ anstatt von „insertAfter“ angewendet werden, falls die Mbox nicht korrekt implementiert wurde.
 
