@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Zielgruppen „Nur Aktivität“ bieten die folgenden Vorteile:
 * Sie können Zielgruppen vom Typ „Nur Aktivität“ verwenden, um eine Zielgruppe zu erstellen, die Sie nur einmal verwenden und nicht in der [!UICONTROL Zielgruppenbibliothek] speichern möchten. Somit sammeln sich keine Zielgruppen in der [!UICONTROL Zielgruppenbibliothek], die Sie nie wieder verwenden möchten.
 * Zielgruppen „Nur Aktivität“ werden in der [!UICONTROL Zielgruppenbibliothek] nicht angezeigt. Gleichzeitig sind sie so auch vor Änderungen durch andere Personen in Ihrer Organisation geschützt.
 
-1. Klicken Sie beim Erstellen einer [Aktivität](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der **[!UICONTROL Target]**-Seite auf das Symbol mit den drei vertikalen Strichen und dann auf **[!UICONTROL Zielgruppe ändern]**.
+1. Klicken Sie beim Erstellen einer [Aktivität](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der **[!UICONTROL Target]**-Seite auf das Symbol mit den drei vertikalen Strichen und dann auf **[!UICONTROL Zielgruppe ändern]**.
 
    ![Schrittergebnis](assets/edit_audience.png)
 
@@ -39,7 +39,7 @@ Zielgruppen „Nur Aktivität“ bieten die folgenden Vorteile:
 
 1. Wählen Sie einen Regeltyp aus.
 
-   Jeder Regeltyp hat eigene Parameter. Weitere Informationen zum Konfigurieren der einzelnen Typen von Zielgruppenregeln finden Sie unter [Kategorien für Zielgruppen](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D).
+   Jeder Regeltyp hat eigene Parameter. Weitere Informationen zum Konfigurieren der einzelnen Typen von Zielgruppenregeln finden Sie unter [Kategorien für Zielgruppen](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D).
 
 1. Definieren Sie die Regelparameter.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
@@ -53,5 +53,5 @@ Berücksichtigen Sie beim Arbeiten mit Zielgruppen „Nur Aktivität“ folgende
 * Verfeinerungen für vorhandene Aktivitäten werden in Zielgruppen „Nur Aktivität“ migriert.
 * Der Status von Zielgruppen vom Typ „Nur Aktivität“ kann [!UICONTROL Verwendet] oder [!UICONTROL Nicht verwendet] sein. Nicht verwendete Zielgruppen „Nur Aktivität“ werden angezeigt, bis die Aktivität gespeichert wird. Wenn Sie sie nicht verwenden und versuchen, die Aktivität zu speichern, wird Ihnen ein Warnhinweis angezeigt, der Sie darauf hinweist, dass die nicht verwendete Zielgruppe „Nur Aktivität“ gelöscht wird.
 * Sie können die Details zur Zielgruppendefinition über Pop-up-Karten in der Zielgruppenauswahl anzeigen, ohne die Zielgruppe zu öffnen.
-* Sie können [mehrere Zielgruppen kombinieren](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), um „Nur Aktivität“-Zielgruppen zu erstellen.
+* Sie können [mehrere Zielgruppen kombinieren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), um „Nur Aktivität“-Zielgruppen zu erstellen.
 
