@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
@@ -28,7 +28,7 @@ So implementieren Sie einen einfachen mehrseitigen A4T-Anwendungsfall:
 
 ## Wie finde ich heraus, ob A4T in meinem Target-Konto aktiviert ist? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
-Zur Auswahl einer Report Suite bei der Definition einer Analytics-Aktivität brauchen Sie sowohl ein Analytics-Benutzerkonto als auch ein Target-Benutzerkonto. Ihre Benutzerkonten müssen wie in der Dokumentation beschrieben konfiguriert werden. Siehe [Anforderungen an die Benutzerberechtigungen](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
+Zur Auswahl einer Report Suite bei der Definition einer Analytics-Aktivität brauchen Sie sowohl ein Analytics-Benutzerkonto als auch ein Target-Benutzerkonto. Ihre Benutzerkonten müssen wie in der Dokumentation beschrieben konfiguriert werden. Siehe [Anforderungen an die Benutzerberechtigungen](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
 Sobald Sie Mitglied einer oder mehrerer Experience Cloud-Gruppen sind, die Zugriff auf Analytics und Target haben, und selbst auf alle Report Suites zugreifen können, sollte Ihnen unter **[!UICONTROL Aktivität erstellen die Option zum Erstellen eines A/B-Tests mithilfe von Analytics angezeigt werden]**.
 
