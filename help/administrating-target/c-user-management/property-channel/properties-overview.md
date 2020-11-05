@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 68%
@@ -48,7 +48,7 @@ For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], acce
 
 Wenn Sie mit der Verwendung der neuen Funktion [!UICONTROL Eigenschaften] beginnen, müssen alle Benutzer in der [!DNL Adobe Admin Console for Enterprise] verwaltet werden. All Ihre bereits in [!DNL Target] angelegten Benutzer werden jedoch von [!DNL Target] in die [!DNL Admin Console for Enterprise] migriert.
 
-1. [Klicken Sie in der Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) auf die Registerkarte **[!UICONTROL Benutzer]** oben auf der Seite und anschließend auf **[!UICONTROL Benutzer hinzufügen]**, um neue Benutzer zu erstellen oder vorhandene Benutzer zu bearbeiten.
+1. [Klicken Sie in der Admin Console](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) auf die Registerkarte **[!UICONTROL Benutzer]** oben auf der Seite und anschließend auf **[!UICONTROL Benutzer hinzufügen]**, um neue Benutzer zu erstellen oder vorhandene Benutzer zu bearbeiten.
 1. Befolgen Sie die Anweisungen unter [Verwalten von Benutzern und Gruppen in der Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) im *Enterprise-Benutzerhandbuch*.
 
 ## Schritt 2: Create a workspace (product profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -118,7 +118,7 @@ Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail und API/Sonstige) zug
    * **Beschreibung:** Geben Sie eine optionale Beschreibung für die Eigenschaft an.
    * **Kanal:** Wählen Sie den gewünschten Kanal für die Eigenschaft aus: Web, mobile App, E-Mail oder Sonstige/API (beispielsweise für Set-Top-Box oder PlayStation-Konsole).
 
-1. Klicken Sie auf **[!UICONTROL Kopieren]** , um den Code in die Zwischenablage zu kopieren, den Sie bei Ausführung der Schritte in [5 verwenden werden: Aktualisieren Sie Ihre Implementierung, um den Parameter](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property einzuschließen.
+1. Klicken Sie auf **[!UICONTROL Kopieren]** , um den Code in die Zwischenablage zu kopieren, den Sie bei Ausführung der Schritte in [5 verwenden werden: Aktualisieren Sie Ihre Implementierung, um den Parameter](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property einzuschließen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
 
 >[!NOTE]
@@ -128,9 +128,9 @@ Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail und API/Sonstige) zug
 
 To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
-**So erhalten Sie den Parameter-Code für`at_property`:**
+**So erhalten Sie den Parameter-Code für `at_property`:**
 
-1. (Bedingt) Verwenden Sie den Implementierungs-Code, den Sie generiert und in Ihrer Zwischenablage gespeichert haben, während Sie die Schritte unter [4. Eigenschaften erstellen](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD) ausgeführt haben, und fahren Sie mit Schritt 2 fort.
+1. (Bedingt) Verwenden Sie den Implementierungs-Code, den Sie generiert und in Ihrer Zwischenablage gespeichert haben, während Sie die Schritte unter [4. Eigenschaften erstellen](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD) ausgeführt haben, und fahren Sie mit Schritt 2 fort.
 
    Oder
 
@@ -148,11 +148,11 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    Die [!DNL Target]-Implementierung kann auf unterschiedliche Art aktualisiert werden. Für Webseiten können beispielsweise die folgenden Verfahren angewendet werden:
 
-   * **Über einen „globalen Parameter“ im[!DNL Adobe Launch]:**
+   * **Über einen „globalen Parameter“ im [!DNL Adobe Launch]:**
 
       For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
-   * **Über einen „globalen Parameter“ im[!DNL Dynamic Tag Management]:**
+   * **Über einen „globalen Parameter“ im [!DNL Dynamic Tag Management]:**
 
       ![](assets/property_token_2.png)
 
