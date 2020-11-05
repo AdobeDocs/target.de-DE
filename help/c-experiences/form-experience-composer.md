@@ -6,7 +6,7 @@ feature: form-based composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 79%
@@ -41,11 +41,11 @@ Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. W�
    >
    >Beim Erstellen einer Aktivität wird durch das Erstellen eines manuell eingegebenen Speicherorts nicht automatisch ein neuer Speicherort erstellt. Der Ortsname wird nur im Kontext der Aktivität gespeichert. Der Speicherort wird erstellt, wenn ein Content Versand-Aufruf erfolgt. Nach der Erstellung des Speicherorts steht er für die Verwendung in anderen Aktivitäten, zum Erstellen von Audiencen usw. zur Verfügung. aus der Dropdown-Liste der verfügbaren Standorte.
 
-1. Klicken Sie auf **[!UICONTROL Zielgruppenverfeinerungen hinzufügen]** und wählen Sie anschließend eine oder mehrere [Zielgruppen](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) für diese Aktivität aus.
+1. Klicken Sie auf **[!UICONTROL Zielgruppenverfeinerungen hinzufügen]** und wählen Sie anschließend eine oder mehrere [Zielgruppen](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) für diese Aktivität aus.
 
    ![](assets/location_refinements_2.png)
 
-   Im Form-Based Experience Composer wurden Verfeinerungen durch die volle Zielgruppen-Funktionalität ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden in  [Zielgruppen „Nur Aktivität“](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) migriert.
+   Im Form-Based Experience Composer wurden Verfeinerungen durch die volle Zielgruppen-Funktionalität ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden in  [Zielgruppen „Nur Aktivität“](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) migriert.
 1. Wählen Sie den Inhaltstyp aus, der an diesem Standort angezeigt werden soll.
 
    ![](assets/form_content.png)
@@ -100,8 +100,8 @@ Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. W�
 1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [Erstellen eines A/B-Tests](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [Erstellen einer Erlebnis-Targeting-Aktivität](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [Erstellen einer Recommendations-Aktivität](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Erstellen einer Erlebnis-Targeting-Aktivität](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [Erstellen einer Recommendations-Aktivität](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## Schulungsvideo: Form-Based Composer ![Tutorialzeichen](/help/assets/tutorial.png)
 
