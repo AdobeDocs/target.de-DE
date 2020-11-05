@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 66%
@@ -45,8 +45,8 @@ Reports provide information about the progress and results of your [!DNL Adobe T
    >
    >Erlebnisergebnisse werden angezeigt, nachdem mindestens ein Teilnehmer das Erlebnis gesehen hat.
 
-1. (Optional) [Konfigurieren Sie den Bericht](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) nach Bedarf.
-1. (Optional) [Laden Sie den Bericht im CSV-Format herunter](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75), um ihn in Excel und anderen Tools zu analysieren.
+1. (Optional) [Konfigurieren Sie den Bericht](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) nach Bedarf.
+1. (Optional) [Laden Sie den Bericht im CSV-Format herunter](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75), um ihn in Excel und anderen Tools zu analysieren.
 
    Die folgenden Optionen sind verfügbar:
 
@@ -82,4 +82,4 @@ Neben den allgemeinen Reporting-Informationen in diesem Thema und seinen Unterth
 
 Sie können Besucher von bestimmten IP-Adressen für die Aufnahme in Berichten blockieren. Dies ist beispielsweise hilfreich, um Berichte-Daten von Ihren internen Besuchern zu blockieren.
 
-[Wenden Sie sich an ClientCare, um IP-Filter einzurichten. ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Diese Filterung wird nicht angewendet, wenn Sie  [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) als Berichtsquelle verwenden.
+[Wenden Sie sich an ClientCare, um IP-Filter einzurichten. ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Diese Filterung wird nicht angewendet, wenn Sie  [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) als Berichtsquelle verwenden.
