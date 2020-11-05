@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -36,7 +36,7 @@ Ein wesentlicher Unterschied zwischen Plug-ins und Antwort-Token besteht darin, 
 
 1. Stellen Sie sicher, dass Sie [!DNL at.js] der Version 1.1 oder neuer verwenden.
 
-   Weitere Informationen finden Sie unter [at.js herunterladen](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Weitere Informationen finden Sie unter [at.js herunterladen](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -113,7 +113,7 @@ Die folgenden Anweisungen zeigen, wie Sie mit dem dynamischer Tag-Manager (DTM) 
    });
    ```
 
-Sie können das folgende Snippet zur [at.js-Setupseite](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) der Bibliotheksfußzeile hinzufügen, wenn Sie alles in einer Datei haben möchten.
+Sie können das folgende Snippet zur [at.js-Setupseite](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) der Bibliotheksfußzeile hinzufügen, wenn Sie alles in einer Datei haben möchten.
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -139,7 +139,7 @@ Response tokens will be delivered to the [!DNL at.js] Target responses, but not 
 
 Plug-ins und Antwort-Token sind parallel verfügbar, Plug-ins werden jedoch in der Zukunft eingestellt.
 
-**Werden Antworttoken durch alle[!DNL Target]Antworten oder nur durch[!DNL Target]Antworten bereitgestellt, die eine Aktivität liefern?**
+**Werden Antworttoken durch alle [!DNL Target] Antworten oder nur durch [!DNL Target] Antworten bereitgestellt, die eine Aktivität liefern?**
 
 Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
