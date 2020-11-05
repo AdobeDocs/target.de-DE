@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 92%
@@ -49,7 +49,7 @@ Nehmen Sie die Einladung in [!DNL Adobe Experience Cloud] nach deren Erhalt an, 
    Sie haben zu diesem Zeitpunkt noch keine Gruppen mit Berechtigungen eingerichtet, die verknüpft werden können.
 1. Wenn Sie möchten, sehen Sie sich das Einführungsvideo zu [!DNL Adobe Experience Cloud] an.
 1. Um Ihre neuen Berechtigungen anzuzeigen und auf das Produkt zuzugreifen, melden Sie sich bei [!DNL Adobe Experience Cloud] ab und dann wieder an.
-1. Fahren Sie mit dem nächsten Schritt fort und [weisen Sie sich die Rolle „Genehmiger“](../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7) zu.
+1. Fahren Sie mit dem nächsten Schritt fort und [weisen Sie sich die Rolle „Genehmiger“](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7) zu.
 
 ## Weisen Sie sich die Rolle „Genehmiger“ zu {#task_15CAA437A71444E2932B333D5E66A3C7}
 
