@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 79%
@@ -20,7 +20,7 @@ Wenn Ihre Aktivität nicht auf Ihrer Site erscheint, helfen Ihnen diese Empfehlu
 
 >[!NOTE]
 >
->Zusätzlich zu den folgenden Informationen zur Fehlerbehebung finden Sie unter [Fehlerbehebung in Target](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) Links zu weiteren Fehlerbehebungsthemen, FAQs und weitere nützliche Informationen zur Fehlerbehebung bei Aktivitäten und anderen [!DNL Adobe Target]-Funktionen.
+>Zusätzlich zu den folgenden Informationen zur Fehlerbehebung finden Sie unter [Fehlerbehebung in Target](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) Links zu weiteren Fehlerbehebungsthemen, FAQs und weitere nützliche Informationen zur Fehlerbehebung bei Aktivitäten und anderen [!DNL Adobe Target]-Funktionen.
 
 Die folgenden Abschnitte enthalten möglicherweise auftretende Probleme sowie Lösungsvorschläge.
 
@@ -82,7 +82,7 @@ Nachdem Sie in Target als Benutzer hinzugefügt wurden, müssen Sie die Rolle �
 * Bitten Sie den Administrator Ihres Konto darum, Ihnen die Genehmigerrolle zu geben.
 * If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
-   Weitere Informationen finden Sie unter [Zuweisen der Rolle „Genehmiger“](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+   Weitere Informationen finden Sie unter [Zuweisen der Rolle „Genehmiger“](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## Die Struktur der Seite hat sich seit der Einrichtung der Aktivität geändert.
 
@@ -92,7 +92,7 @@ Nachdem Sie in Target als Benutzer hinzugefügt wurden, müssen Sie die Rolle �
 
 * Erstellen Sie die Aktivität erneut.
 
-Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter  [Szenarien für die Seitenmodifizierung](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter  [Szenarien für die Seitenmodifizierung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Die Struktur der Seite wird während des Seitenladevorgangs (während der Laufzeit) verändert.
 
@@ -105,7 +105,7 @@ Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige v
 * Aktualisieren Sie den Seiten-Code, um jedes zu testende Element eindeutig zu identifizieren (mithilfe einer id).
 * Unterbrechen Sie die dynamische Modifizierung der Klasse oder Geschwister wie oben beschrieben.
 
-Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter  [Szenarien für die Seitenmodifizierung](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter  [Szenarien für die Seitenmodifizierung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## mbox.js verschiebt sämtlichen folgenden Code aus dem Kopf in den Textkörper.
 
