@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 80%
@@ -25,8 +25,8 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 * Links für die Freigabe für Team-Mitglieder, die sich nie ändern oder nie neu generiert werden müssen. Dies ist unabhängig von an den Erlebnissen oder Aktivitäten vorgenommenen Aktualisierungen. Dadurch können Sie Ihre Aktivitäten vollständig über die gesamte User Journey hinweg testen.
 * Zielgruppenbedingungen werden optional respektiert, sodass Vermarkter Targeting-Kriterien testen oder Targeting-Kriterien für QA ignorieren können, ohne die Zielgruppenbedingungen erfüllen zu müssen.
 * QA-Berichte werden erfasst, sodass Vermarkter bestätigen können, dass Metriken erwartungsgemäß inkrementiert werden und die QA-Berichtsdaten von den Produktionsberichten separiert bleiben (für Nicht-A4T-Berichte).
-* The ability to preview an experience in isolation or in conjunction with other live activities satisfying the delivery criteria (page/Target request/audience).
-* Die Fähigkeit, einen QA-Bericht der gesamten User Journey zu erstellen. Mit dem QA-Link können Sie einmal auf Ihre Seite zugreifen und die gesamte Seite in Aktivitäts-QA durchsuchen. Sie bleiben in Activity-QA, bis Sie die Sitzung beenden oder Sie das  [QA Target-Bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) verwenden, um das Beenden von Aktivitäts-QA zu erzwingen. Diese Funktion ist besonders hilfreich, wenn Sie eine Aktivität haben, die sich über mehrere Webseiten erstreckt.
+* Die Fähigkeit, ein Erlebnis isoliert oder in Verbindung mit anderen Live-Aktivitäten, die die Kriterien des Versands erfüllen (Seitenanfrage/Zielgruppe/Audience), Vorschau.
+* Die Fähigkeit, einen QA-Bericht der gesamten User Journey zu erstellen. Mit dem QA-Link können Sie einmal auf Ihre Seite zugreifen und die gesamte Seite in Aktivitäts-QA durchsuchen. Sie bleiben in Activity-QA, bis Sie die Sitzung beenden oder Sie das  [QA Target-Bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) verwenden, um das Beenden von Aktivitäts-QA zu erzwingen. Diese Funktion ist besonders hilfreich, wenn Sie eine Aktivität haben, die sich über mehrere Webseiten erstreckt.
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
       Achten Sie auf Folgendes, wenn diese Einstellung auf „aus“ festgelegt ist:
 
-      * Wenn Kollisionen zwischen der getesteten und anderen Live-Aktivitäten vorliegen,  [gelten die normalen Prioritätsregeln](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). Aufgrund dessen ist es möglich, dass die gewünschte QA-Aktivität nicht angezeigt wird.
+      * Wenn Kollisionen zwischen der getesteten und anderen Live-Aktivitäten vorliegen,  [gelten die normalen Prioritätsregeln](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). Aufgrund dessen ist es möglich, dass die gewünschte QA-Aktivität nicht angezeigt wird.
       * Die Metriken werden für die angezeigten Aktivitäten inkrementiert, jedoch nicht in der QA-Berichtsumgebung.
 
 1. Klicken Sie auf **[!UICONTROL Fertig]**, um Ihre Änderungen zu speichern.
@@ -66,17 +66,17 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
 ## Zu beachten {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* Der Link [!UICONTROL Aktivitäts-QA] wird auf der Seite [!UICONTROL Übersicht] aller Aktivitätstypen angezeigt, außer für die automatisierte Personalisierung (AP). Sie können  [Links](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) für AP-Aktivitäten in der Vorschau anzeigen.
+* Der Link [!UICONTROL Aktivitäts-QA] wird auf der Seite [!UICONTROL Übersicht] aller Aktivitätstypen angezeigt, außer für die automatisierte Personalisierung (AP). Sie können  [Links](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) für AP-Aktivitäten in der Vorschau anzeigen.
 * Vorschaulinks für Aktivitäts-QAs werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Ein erneuter Versuch mit den Vorschau-Links sollte das Problem lösen. Um dieses Problem zu verhindern, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden.
 * Aktivitäts-QA-URLs sind für Aktivitäten mit Analytics als Berichtsquelle (A4T) verfügbar. Treffer, die generiert werden, während QA mit Aktivitäts-QA ausgeführt wird, werden in dieselbe Report Suite geleitet, wie die Daten der Aktivität, auch nachdem die Aktivität live geschaltet wurde.
 * Aktivitäts-QA zeigt keinen Inhalt für archivierte Aktivitäten oder Aktivitäten an, deren Enddatum vorüber ist. Wenn Sie eine beendete Aktivität deaktivieren, müssen Sie die Aktivität erneut speichern, damit Aktivitäts-QA funktioniert.
 * In Target Standard/Premium importierte Aktivitäten (beispielsweise aus Target Classic) unterstützen keine QA-URLs.
 * Bei Aktivitäten für die automatisierte Zuweisung, das automatische Targeting und für Recommendations wird das Modell nicht von den in Aktivitäts-QA erfassten Besuchen beeinflusst.
-* Da Activity-QA nach dem Website-Browsen in Aktivitäts-QA hängt, muss die Target-Sitzung ablaufen oder Target muss Sie aus Aktivitäts-QA freigeben, bevor Sie Ihre Website wie ein normaler Besucher anzeigen können. Verwenden Sie das [Target QS-Bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), um das Beenden der Aktivitäts-QS zu erzwingen.
+* Da Activity-QA nach dem Website-Browsen in Aktivitäts-QA hängt, muss die Target-Sitzung ablaufen oder Target muss Sie aus Aktivitäts-QA freigeben, bevor Sie Ihre Website wie ein normaler Besucher anzeigen können. Verwenden Sie das [Target QS-Bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), um das Beenden der Aktivitäts-QS zu erzwingen.
 
    Sie können sich auch manuell selbst aus dem Modus lösen, indem Sie auf Ihrer Site eine Seite laden, wobei der Parameter `at_preview_token` einen leeren Wert hat (beispielsweise `https://www.mysite.com/?at_preview_token=`).
 
-* Wenn Sie während der Erstellung der Aktivität [Verfeinerungen im formularbasierten Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) oder [Seitenbereitstellungsoptionen im Visual Experience Composer](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) „URL ist“ angegeben haben, funktioniert die QS-URL nicht, da die Aktivitäts-QS URL-Parameter anhängt. Klicken Sie zur Lösung dieses Problems auf die QA-URL, um zu Ihrer Site zu navigieren. Entfernen Sie die angehängten Parameter aus der URL und laden Sie dann die neue URL.
+* Wenn Sie während der Erstellung der Aktivität [Verfeinerungen im formularbasierten Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) oder [Seitenbereitstellungsoptionen im Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) „URL ist“ angegeben haben, funktioniert die QS-URL nicht, da die Aktivitäts-QS URL-Parameter anhängt. Klicken Sie zur Lösung dieses Problems auf die QA-URL, um zu Ihrer Site zu navigieren. Entfernen Sie die angehängten Parameter aus der URL und laden Sie dann die neue URL.
 * Wenn Sie at.js 1 haben.*Der QS-Modus für x* oder mbox.js ist nicht fixierbar, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Parameter für die Vorschau zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)implementiert haben.
 * Wenn in einer Aktivität mehrere Erlebniszielgruppen verwendet werden (z. B. eine US- und UK-Site, die in derselben Aktivität enthalten sind), werden für die vier Kombinationen (Erlebnis A/US-Site, Erlebnis A/UK-Site, Erlebnis B/US-Site, Erlebnis B/UK-Site) keine QA-Links generiert. Es werden nur zwei QA-Links (Erlebnis A und Erlebnis B) erstellt, und die Benutzer müssen sich für die entsprechende Zielgruppe qualifizieren, um die Seite anzeigen zu können. Eine Person mit QA für UK kann die US-Site nicht anzeigen.
 * Alle Parameter und Werte vom Typ `at_preview` sind bereits URL-kodiert. Meistens funktioniert alles erwartungsgemäß. Möglicherweise haben einige Kunden jedoch Systeme zur Lastverteilung oder Webserver, die versuchen, die Abfragezeichenfolgenparameter erneut zu kodieren.
@@ -85,7 +85,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
    Wir empfehlen Ihnen, mit Ihrem IT-Team zu sprechen, um sicherzustellen, dass alle Parameter der Vorschau auf die Zulassungsliste gesetzt werden, damit diese Werte in keiner Weise verändert werden.
 
-   The following table lists the parameters that can be allowlisted in your domain:
+   In der folgenden Tabelle werden die Parameter Liste, die in Ihrer Domäne auf die Zulassungsliste gesetzt werden können:
 
    | Parameter | Typ | Wert | Beschreibung |
    |--- |--- |--- |--- |
