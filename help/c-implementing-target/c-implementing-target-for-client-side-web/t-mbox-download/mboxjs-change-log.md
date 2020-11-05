@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2320'
 ht-degree: 98%
@@ -22,11 +22,11 @@ Auf dieser Seite sind die Änderungen bei jeder Version von mbox.js aufgeführt.
 >
 >Wir empfehlen allen Benutzern von mbox.js die Aktualisierung auf Version 57 oder neuer. Einige Benutzer berichteten von Zeitüberschreitungen, wenn `target.js` nicht geladen werden konnte. In Version 57 wurde dieses Problem behoben. Verwenden Sie jedoch den [!DNL Experience Cloud Visitor ID]-Dienst, benötigen Sie mindestens Version 58.
 
-Die Art, mit der Target auf Aufrufe Ihrer Seite antwortet, hängt von der Version der verwendeten Target-Bibliothek ab und davon, ob die Implementierung der Besucher-ID vorhanden ist und ob die Besucher-ID existiert. Weitere Informationen finden Sie unter  [Antworten auf Target-Aufrufe nach Bibliotheksversion](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
+Die Art, mit der Target auf Aufrufe Ihrer Seite antwortet, hängt von der Version der verwendeten Target-Bibliothek ab und davon, ob die Implementierung der Besucher-ID vorhanden ist und ob die Besucher-ID existiert. Weitere Informationen finden Sie unter  [Antworten auf Target-Aufrufe nach Bibliotheksversion](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
->Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen. Weitere Informationen finden Sie unter [Migration von „mbox.js“ zu „at.js“](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen. Weitere Informationen finden Sie unter [Migration von „mbox.js“ zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ## „mbox.js“, Version 63{#section_ED8EFCF653A845ED8927F759578C4A33}
 
@@ -96,7 +96,7 @@ Außerdem werden in Version 60 alle Mboxes über einen AJAX-Endpunkt aufgerufen
 
 * Ansynchrone Aufrufe in V60
 
-   Bei der Verwendung von V60 mit dem Besucher-ID-Service werden alle Mbox-Aufrufe asynchron durchgeführt. Diese Arbeitsweise bei der Verwendung von Mboxes ist neu, gehen Sie bei der Aktualisierung auf diese Version also vorsichtig vor. Lesen Sie sich die [Hinweise zu asynchronen Aufrufen](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) in der Dokumentation von [!DNL at.js] durch ([!DNL at.js] arbeitet ebenfalls mit asynchronen Aufrufen), um einige der Risiken kennenzulernen.
+   Bei der Verwendung von V60 mit dem Besucher-ID-Service werden alle Mbox-Aufrufe asynchron durchgeführt. Diese Arbeitsweise bei der Verwendung von Mboxes ist neu, gehen Sie bei der Aktualisierung auf diese Version also vorsichtig vor. Lesen Sie sich die [Hinweise zu asynchronen Aufrufen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) in der Dokumentation von [!DNL at.js] durch ([!DNL at.js] arbeitet ebenfalls mit asynchronen Aufrufen), um einige der Risiken kennenzulernen.
 * Mögliches Flackern neuer Besucherszenarien
 
    Bei der Verwendung der Versionen 58, 59 und 60 im Besucher-ID-Service werden Mbox-Aufrufe erst durchgeführt, wenn die Besucher-ID gesetzt wurde (oder bis eine Zeitüberschreitung aufgetreten ist). Dies geschieht beim erstmaligen Laden einer Seite durch einen neuen Besucher.
