@@ -5,7 +5,7 @@ title: Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall
 feature: report settings
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 73%
@@ -19,7 +19,7 @@ Zu den Berichten gehören verschiedene Datenpunkte und Darstellungen zur Visuali
 
 >[!NOTE]
 >
->This feature is available only when viewing reports in [!UICONTROL Table] View. Diese Funktion steht nicht für Aktivitäten zur Verfügung, die [Analytics als Berichtsquelle verwenden (A4T)](../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>This feature is available only when viewing reports in [!UICONTROL Table] View. Diese Funktion steht nicht für Aktivitäten zur Verfügung, die [Analytics als Berichtsquelle verwenden (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 ## Interpretieren der Daten {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
