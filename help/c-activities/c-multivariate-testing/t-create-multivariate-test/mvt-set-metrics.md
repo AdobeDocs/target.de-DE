@@ -6,7 +6,7 @@ feature: mvt
 solution: Target
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 99%
@@ -18,10 +18,10 @@ ht-degree: 99%
 
 Verwenden Sie in multivariaten Tests Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
 
-Ausführliche Informationen zu Erfolgsmetriken finden Sie unter  [Erfolgsmetriken](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Ausführliche Informationen zu Erfolgsmetriken finden Sie unter  [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Geben Sie das Ziel der Aktivität an.
-1. Wählen Sie eine [Erfolgsmetrik](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) aus.
+1. Wählen Sie eine [Erfolgsmetrik](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) aus.
 
    ![Festlegen der Liste der Metriken](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
@@ -40,7 +40,7 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter  [Erfolgsmetrike
 
    Es ist sehr wichtig, die Erfolgsmetriken korrekt zu konfigurieren, um die erwarteten Daten zu erhalten.
 
-   Weitere Informationen finden Sie unter [Erfolgsmetriken](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+   Weitere Informationen finden Sie unter [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 1. (Optional) Fügen Sie zusätzliche Metriken hinzu.
 1. Klicken Sie auf **[!UICONTROL Weiter]**, wenn Sie die Einstellung Ihrer Metriken abgeschlossen haben.
 Beachten Sie, dass bei der (Um-)Benennung von Metriken folgende Zeichen nicht zulässig sind:
