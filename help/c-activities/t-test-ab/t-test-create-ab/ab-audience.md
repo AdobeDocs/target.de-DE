@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 98%
@@ -20,13 +20,13 @@ Die Zielgruppe legt fest, welche Besucher der Site in Ihre Aktivität eingegeben
 
 >[!NOTE]
 >
->Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+>Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 Klicken Sie im Feld [!UICONTROL „Zielgruppe“] auf das Bearbeitungssymbol (drei vertikale Ellipsen) und dann auf **[!UICONTROL Zielgruppe ersetzen]**.
 
 ![Option „Zielgruppe ersetzen“](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Standardeinstellung ist, dass alle Besucher Ihrer Zielgruppe angehören. Sie können die Zielgruppe jedoch anpassen. Zielgruppen werden aus der Zielgruppenbibliothek ausgewählt. Alternativ können Sie eine Zielgruppe „Nur Aktivität“ erstellen. Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. Sie können in der Bibliothek eine Zielgruppe auswählen, [eine neue Zielgruppe erstellen](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) oder [eine Zielgruppe „Nur Aktivität“ erstellen](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Wählen Sie für einen A/B-Test ohne Festlegen bestimmter Zielgruppen die Standardeinstellung „Alle Besucher“ aus.
+Standardeinstellung ist, dass alle Besucher Ihrer Zielgruppe angehören. Sie können die Zielgruppe jedoch anpassen. Zielgruppen werden aus der Zielgruppenbibliothek ausgewählt. Alternativ können Sie eine Zielgruppe „Nur Aktivität“ erstellen. Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von Target vorgefertigt sind. Sie können in der Bibliothek eine Zielgruppe auswählen, [eine neue Zielgruppe erstellen](/help/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) oder [eine Zielgruppe „Nur Aktivität“ erstellen](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Wählen Sie für einen A/B-Test ohne Festlegen bestimmter Zielgruppen die Standardeinstellung „Alle Besucher“ aus.
 
 Beachten Sie, dass Sie eine Zielgruppe auch bearbeiten oder kopieren können, indem Sie im Dialogfeld [!UICONTROL Zielgruppe wählen] die Maus über die gewünschte Zielgruppe bewegen, wie unten dargestellt. Das Kopieren einer Zielgruppe ist hilfreich, wenn Sie für eine vorhandene Zielgruppe eine ähnliche Zielgruppe erstellen möchten. Sie können eine Kopie der Zielgruppe erstellen, Bearbeitungen vornehmen und sie dann als neue Zielgruppe speichern. Diese Mauszeigerfunktionalität existiert auch in anderen Aktivitätstypen.
 
@@ -44,7 +44,7 @@ Sie können angeben, welcher Anteil der qualifizierten Besucher in die Aktivitä
 
 ![Prozentsatz für Zielgruppen](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-Sie können sich außerdem dafür entscheiden, Target  [automatisch Traffic zuweisen zu lassen](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Sie können sich außerdem dafür entscheiden, Target  [automatisch Traffic zuweisen zu lassen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Schulungsvideos
 
@@ -73,4 +73,4 @@ In diesem Video sind Informationen zur Einrichtung von Zielgruppen enthalten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-Detaillierte Informationen finden Sie unter [Zielgruppen](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+Detaillierte Informationen finden Sie unter [Zielgruppen](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
