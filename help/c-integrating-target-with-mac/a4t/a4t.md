@@ -7,7 +7,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 46%
@@ -45,7 +45,7 @@ Nach dem Klassifizierungszeitraum werden Daten ca. eine Stunde nach Erfassung au
 
 Wenn Sie über einen Einsatz von A4T nachdenken, sollten Sie die folgenden Punkte beachten:
 
-* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [Wenden Sie sich an Ihren Kundenvertreter,](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) wenn Sie eine der beiden Lösungen benötigen.
+* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [Wenden Sie sich an Ihren Kundenvertreter,](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) wenn Sie eine der beiden Lösungen benötigen.
 * Die Berichtsquelle wird für jede Aktivität festgelegt. [!DNL Target] erfasst weiterhin Daten, die in Berichte verwendet werden sollen, und [!DNL Target] Daten sind weiterhin verfügbar, wenn Sie eine Aktivität lieber auf Daten stützen möchten, die von [!DNL Target].
 * Sie können nur eine der beiden Berichtsquellen verwenden. Sie können für eine einzelne Aktivität nicht Daten aus beiden Quellen erfassen.
 * When using A4T, all success metrics available to your activities are [!DNL Analytics] metrics. Ihre Zielmetrik kann jedoch auf einem Mbox-Abruf basieren. For example, you can use Target&#39;s out-of-the-box click-tracking capabilities with A4T instead of having to implement [!DNL Analytics] click-tracking code.
@@ -124,7 +124,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 ### Analytics/Zielgruppe Integration (A4T) (40:33) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
-Dieses Video ist eine Aufzeichnung von [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7), eine Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
+Dieses Video ist eine Aufzeichnung von [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7), eine Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
 
 * So richten Sie die Integration ein und überprüfen, ob sie funktioniert
 * So funktioniert die Integration
