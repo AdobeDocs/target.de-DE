@@ -6,7 +6,7 @@ feature: server-side
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 93%
@@ -20,7 +20,7 @@ Informationen für einen leichteren Übergang von den Target-Vorgänger-APIs zu 
 
 Mit der Außerbetriebnahme von Adobe Target Classic stehen auch die mit Ihrem Target Classic-Konto verknüpften APIs nicht mehr zur Verfügung. Dieses Dokument enthält Informationen, die Ihnen beim Übergang von Ihren alten API-basierten Integrationen zu den Target-APIs von Adobe I/O helfen.
 
-Weitere Informationen zur Target-API-Dokumentation finden Sie unter  [Target-APIs und NodeJS-SDK](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
+Weitere Informationen zur Target-API-Dokumentation finden Sie unter  [Target-APIs und NodeJS-SDK](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
 
 ## Terminologie {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
