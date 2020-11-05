@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -26,7 +26,7 @@ Erlebnis-Vorschauen-URLs können für die Zielgruppe von Automated Personalizati
 
 Verwenden Sie Erlebnis-Vorschauen-URLs, um Erlebnisse mit Teammitgliedern auszutauschen und Erlebnisse über Browser und Umgebung hinweg zu prüfen, ohne eine separate QS-Aktivität zu erstellen. Diese Funktion ist besonders nützlich, wenn eine Site komplex ist oder Ihre Sicherheitsrichtlinien das Anzeigen der Site in einem Simulator nicht zulassen.
 
-1. Erstellen Sie eine [automatisierte Personalisierungsaktivität](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) oder klicken Sie auf die Aktivität, um sie zu öffnen.
+1. Erstellen Sie eine [automatisierte Personalisierungsaktivität](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) oder klicken Sie auf die Aktivität, um sie zu öffnen.
 
    Diese Aktivität muss nicht live sein, um eine Vorschau eines Erlebnisses anzeigen zu können.
 1. Klicken Sie auf der Aktivitätsübersichtsseite auf die drei vertikalen Punkte und dann auf **[!UICONTROL Erlebnis-URLs anzeigen]**.
