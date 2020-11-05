@@ -5,7 +5,7 @@ title: Anwenden einer Reporting-Zielgruppe auf eine Erfolgsmetrik in Adobe Targe
 feature: success metrics
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Ein Beispiel: Angenommen, Sie haben eine Aktivität für alle Besucher erstellt,
 
 Die Dropdownliste „Angewendet am“ bietet potentiell drei Kategorien: alle Besucher der Aktivität, nur Besucher, die einen bestimmten Schritt in der Aktivität erreichen oder nur Besucher, bei denen es zu einer Konversion kommt. Oder, anders gesagt, Sie können festlegen, dass ein Besucher eine Mbox auf der Entrypage der Aktivität, eine mbox, die einen bestimmten Punkt in der Mitte der Aktivität definiert, oder die Konversions-Mbox am Ende der Aktivität erreichen muss.
 
-[Erfolgsmetriken](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sind nur verfügbar, wenn Sie sie für Ihre Aktivität konfiguriert haben. Wenn Sie keine Erfolgsmetriken definiert haben, werden Ihnen in der Dropdownliste nur zwei Optionen angezeigt: Kampagneneintrag und Konversion.
+[Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sind nur verfügbar, wenn Sie sie für Ihre Aktivität konfiguriert haben. Wenn Sie keine Erfolgsmetriken definiert haben, werden Ihnen in der Dropdownliste nur zwei Optionen angezeigt: Kampagneneintrag und Konversion.
 
 Bedenken Sie folgende Informationen, wenn Sie einer Erfolgsmetrik eine Berichterstellungszielgruppe zuweisen:
 
