@@ -5,7 +5,7 @@ title: Zeitrahmenoptionen in Adobe Target-Audiencen
 feature: audiences
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 96%
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Sie können Start-/Enddaten und -zeiten jederzeit hinzufügen, um Benutzer als Ziel festzulegen, die Ihre Seite während eines bestimmten Zeitraums besuchen. Sie können außerdem Optionen für die Wochen- und Tagesaufteilung festlegen, um wiederkehrende Muster für das Zielgruppen-Targeting zu erstellen.
 
-Verwenden Sie beispielsweise die Funktion](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) [für kombinierte Ad-hoc-Zielgruppen, können Sie in den drei Tagen vor Black Friday spezielle Inhalte gezielt für wenig Geld ausgebende Personen schalten und nach Black Friday andere Inhalte anzeigen.
+Verwenden Sie beispielsweise die Funktion](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) [für kombinierte Ad-hoc-Zielgruppen, können Sie in den drei Tagen vor Black Friday spezielle Inhalte gezielt für wenig Geld ausgebende Personen schalten und nach Black Friday andere Inhalte anzeigen.
 
 1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Nennen Sie die Zielgruppe.
