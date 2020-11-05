@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -36,7 +36,7 @@ Im Folgenden finden Sie einige Szenarien, in denen möglicherweise Datenabweichu
 
 * Angenommen, Sie erstellen eine Aktivität des Typs „Automatische Zuordnung“ für alle Besucher einer bestimmten Seite. Da Aktivitäten des Typs „Automatische Zuordnung“ A4T nicht unterstützen, werden alle Aktivitätsdaten von [!DNL Target] erfasst. Möglicherweise erwarten Sie, dass die Besucher der Aktivität in der [!DNL Target] Berichterstellung den Besuchern auf der Seite in der [!DNL Analytics] Berichterstellung für den gleichen Datumsbereich entsprechen. Dies ist ein Szenario, in dem die unten beschriebene Abweichung erwartet wird.
 
-   Eine vollständige Liste der Aktivitätstypen, die A4T unterstützen, finden Sie unter [Unterstützte Aktivitätstypen](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
+   Eine vollständige Liste der Aktivitätstypen, die A4T unterstützen, finden Sie unter [Unterstützte Aktivitätstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
 ## Erwartete Datenabweichungen bei der *Nichtverwendung* von A4T  {#expected-not-using-a4t}
 
