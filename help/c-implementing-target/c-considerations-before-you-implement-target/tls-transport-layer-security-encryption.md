@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 60%
@@ -32,15 +32,15 @@ TLS 1.2 ist die Standardeinstellung ab dem 1. März 2020 und TLS 1.1 wird nicht 
 
 Adobe führt TLS 1.2 schrittweise ein. Kunden, deren Domänen bereits mit 1.2 konform sind, müssen beim Übergang zu TLS 1.2 keine Änderungen vornehmen. Die meisten Kundendomänen unterstützen bereits TLS 1.2. Wenn Ihre Domäne TLS 1.2 nicht unterstützt, behalten wir diese Domänen wie heute (bis März 2020) bei TLS 1.1.
 
-In dieser Übergangsphase sollten keine Probleme auftreten. Wenn der VEC eine Site, die zuvor funktioniert hat, nicht mehr lädt,  [senden Sie eine Anfrage an den Kundendienst](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Geben Sie den Übergang zu TLS 1.2 als mögliche Ursache an.
+In dieser Übergangsphase sollten keine Probleme auftreten. Wenn der VEC eine Site, die zuvor funktioniert hat, nicht mehr lädt,  [senden Sie eine Anfrage an den Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Geben Sie den Übergang zu TLS 1.2 als mögliche Ursache an.
 
 Wenn Sie jedoch einer der Kunden sind, die TSL 1.1 nutzen, ohne TLS 1.2 zu unterstützen, sollten Sie den Umstieg Ihrer Domänen/Infrastruktur auf TLS 1.2 planen. Wir werden das TLS 1.1-Protokoll bis zum 1. März 2020 weiterhin unterstützen. Ab dem 1. März 2020 unterstützt Zielgruppe das TLS 1.1-Protokoll, das über die Enhanced Experience Composer-Funktion für VEC verwendet werden soll, nicht.
 
-Auch wenn allen Kunden der Umstieg auf TLS 1.2 empfohlen wird – falls Sie als neuer Kunde TLS 1.2 *NICHT* unterstützen, teilen Sie dem Kundendienst mit, dass Sie TLS 1.1 für Enhanced Experience Composer verwenden müssen. However, please plan to move to TLS 1.2 as you will also not be supported beyond March 1, 2020.
+Auch wenn allen Kunden der Umstieg auf TLS 1.2 empfohlen wird – falls Sie als neuer Kunde TLS 1.2 *NICHT* unterstützen, teilen Sie dem Kundendienst mit, dass Sie TLS 1.1 für Enhanced Experience Composer verwenden müssen. Planen Sie jedoch den Umstieg auf TLS 1.2, da Sie auch nach dem 1. März 2020 nicht mehr unterstützt werden.
 
 ## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
 
-Starting March 1, 2020, Target servers will no longer support TLS 1.1. With this change, Target servers will no longer accept requests from visitors with older devices or web browsers that do not support TLS 1.2 (or later). Ältere Geräte und Browser, die nur TLS 1.1 unterstützen (oder standardmäßig TLS 1.1 unterstützen), erhalten daher keine Aktivitäten von Adobe Target. Standardinhalte der Site werden gerendert.
+Ab dem 1. März 2020 wird TLS 1.1 nicht mehr von Zielgruppen-Servern unterstützt. Mit dieser Änderung akzeptieren Zielgruppen-Server keine Anfragen von Besuchern mit älteren Geräten oder Webbrowsern, die TLS 1.2 (oder höher) nicht unterstützen. Ältere Geräte und Browser, die nur TLS 1.1 unterstützen (oder standardmäßig TLS 1.1 unterstützen), erhalten daher keine Aktivitäten von Adobe Target. Standardinhalte der Site werden gerendert.
 
 Zu den betroffenen älteren Geräten und Browsern gehören:
 
@@ -52,13 +52,13 @@ Zu den betroffenen älteren Geräten und Browsern gehören:
 * Internet Explorer 10 unter Windows Phone 8.0
 * Safari 6.0.4/OS X 10.8.4 und frühere Versionen
 
-As you plan for this change, consider the following (note that the March 1, 2020 deadline affects all of these items):
+Beachten Sie bei der Planung dieser Änderung Folgendes (beachten Sie, dass die Frist vom 1. März 2020 alle diese Punkte betrifft):
 
 * Sie müssen sicherstellen, dass Ihre Standardsite vorbereitet ist und auf kompatiblen Geräten und Browsern genutzt werden kann.
 * Beachten Sie, dass die Anzahl der Besucher in Ihren Target-Berichten geringfügig zurückgehen kann.
 * Möglicherweise müssen Sie Audiencen ändern, die speziell für die Zielgruppe älterer Geräte oder Browser erstellt wurden, die TLS 1.2 nicht unterstützen. Versand zu diesen Geräten und Browsern funktioniert nicht mehr.
 
-Weitere Informationen zu unterstützten Browsern und Versionen finden Sie unter  [Unterstützte Browser](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+Weitere Informationen zu unterstützten Browsern und Versionen finden Sie unter  [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## Adobe Target-APIs {#section_88797FA5434049EC89F908853CC76903}
 
@@ -70,7 +70,7 @@ Ab dem 1. März 2020 unterstützen Zielgruppe-APIs keine TLS 1.1-Verschlüsselun
 
 ## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Da für die Benutzeroberfläche von Target Standard/Premium bereits ein [aktueller Webbrowser](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) benötigt wird, werden keine Probleme erwartet. Wenn Sie keine Verbindung zu Target herstellen können, sollten Sie Ihren Browser auf die neueste Version aktualisieren.
+Da für die Benutzeroberfläche von Target Standard/Premium bereits ein [aktueller Webbrowser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) benötigt wird, werden keine Probleme erwartet. Wenn Sie keine Verbindung zu Target herstellen können, sollten Sie Ihren Browser auf die neueste Version aktualisieren.
 
 ## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
@@ -87,13 +87,13 @@ So überprüfen Sie die TLS-Version auf Ihrer Website mit Google Chrome:
 
 >[!NOTE]
 >
->Diese Anweisungen sind ab der Veröffentlichung aktuell und können geändert werden. A quick internet search should help should these instructions change.  Andere Browser haben ähnliche Schritte.
+>Diese Anweisungen sind ab der Veröffentlichung aktuell und können geändert werden. Eine schnelle Internetsuche sollte helfen, falls sich diese Anweisungen ändern.  Andere Browser haben ähnliche Schritte.
 
 ## Erwartetes Verhalten mit Browsern, die TLS-Versionen unter 1.2 unterstützen {#section_B5DA97A34EF248EB927610A5DA71EF2F}
 
-In diesem Abschnitt wird beschrieben, was bei Browsern zu erwarten ist, die TLS-Versionen unter 1.2 nur bei Verwendung einer at.js- oder mbox.js-Implementierung unterstützen. For comparison purposes, this section also describes what to expect with browsers that support TLS 1.2.
+In diesem Abschnitt wird beschrieben, was bei Browsern zu erwarten ist, die TLS-Versionen unter 1.2 nur bei Verwendung einer at.js- oder mbox.js-Implementierung unterstützen. Zum Vergleich wird in diesem Abschnitt auch beschrieben, was mit Browsern zu erwarten ist, die TLS 1.2 unterstützen.
 
-### Central endpoints
+### Zentrale Endpunkte
 
 | Target-JavaScript-Implementierung | Details |
 |--- |--- |
