@@ -5,7 +5,7 @@ title: Recommendations Classic und Recommendations-Aktivitäten in Target Prem
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,14 +52,14 @@ Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/c-rec
 
 Kriterien werden nach vertikalen Märkten, Seitentypen und Implementierung vorkonfiguriert. Zum Beispiel können Sie nach Kriterien suchen, die auf die Einzelhandelsbranche zutreffen, auf einer Produktseite verwendet werden und Produkte aus einer bestimmten Kategorie anzeigen (wie durch den Parameter `entity.categoryID` definiert).
 
-Weitere Informationen zur Verwendung und Erstellung von Kriterien finden Sie unter [Kriterien](../../c-recommendations/c-algorithms/algorithms.md).
+Weitere Informationen zur Verwendung und Erstellung von Kriterien finden Sie unter [Kriterien](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Arbeitsablauf{#section_76B4A26297BF422382DE2C79A2713D3C}
 
 Der [!DNL Recommendations]-Arbeitsablauf wurde vereinfacht. Anstatt komplizierte Formulare auszufüllen, folgen Sie einem visuellen Arbeitsablauf, um:
 
 1. die Kriterien auszuwählen,
-1. einen vorkonfigurierten  [Entwurf](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) auszuwählen,
+1. einen vorkonfigurierten  [Entwurf](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) auszuwählen,
 1. die resultierenden Empfehlungen in der Vorschau zu betrachten.
 
 ## Visuelle Vorschau  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
