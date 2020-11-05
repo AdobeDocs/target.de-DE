@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 100%
@@ -98,7 +98,7 @@ Mithilfe eines Arbeitsbereichs können Organisationen bestimmte Benutzergruppen 
 
 Wenn Sie Teil einer multinationalen Organisation sind, besitzen Sie eventuell einen Arbeitsbereich für Ihre europäischen Webseiten, Eigenschaften oder Sites und einen weiteren Arbeitsbereich für Ihre amerikanischen Webseiten, Eigenschaften oder Sites. Wenn Sie einer Organisation angehören, die mehrere Marken besitzt, haben Sie eventuell für jede Marke einen eigenen Arbeitsbereich.
 
-Weitere Informationen über Arbeitsbereiche und zur Funktionalität „Berechtigungen für Unternehmensbenutzer“ finden Sie unter  [Berechtigungen für Unternehmensbenutzer](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
+Weitere Informationen über Arbeitsbereiche und zur Funktionalität „Berechtigungen für Unternehmensbenutzer“ finden Sie unter  [Berechtigungen für Unternehmensbenutzer](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
 Wenn Sie „Berechtigungen für Unternehmensbenutzer“ in Ihrer Umgebung aktiviert haben, können Sie Aktivitäten in denselben Arbeitsbereich oder in einen anderen Arbeitsbereich kopieren. Es ist zurzeit nicht möglich, eine Aktivität von einem Arbeitsbereich in einen anderen zu verschieben. Fahren Sie zum Kopieren einer Aktivität in einen anderen Arbeitsbereich auf der Seite [!UICONTROL „Aktivitäten“] mit dem Mauszeiger über die zu kopierende Aktivität, klicken Sie auf das Symbol [!UICONTROL „Kopieren“] und wählen Sie den gewünschten Arbeitsbereich aus der Dropdownliste aus.
 
