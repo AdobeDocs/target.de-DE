@@ -5,7 +5,7 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -15,13 +15,13 @@ ht-degree: 59%
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
 
-[!DNL Adobe Target Recommendations] aktivitäten zeigen automatisch Produkte, Dienste oder Inhalte an, die ausgehend von früheren Benutzereinstellungen, Aktivitäten oder anderen Kriterien für Ihre Besucher von Interesse sein könnten. [!DNL Target Recommendations] hilft, Besucher zu relevanten Artikeln zu leiten, von denen sie sonst möglicherweise nichts wissen. [!DNL Recommendations] Sie können Ihren Besuchern relevante Inhalte zum richtigen Zeitpunkt und an der richtigen Stelle bereitstellen.
+[!DNL Adobe Target Recommendations] aktivitäten zeigen automatisch Produkte, Dienste oder Inhalte an, die ausgehend von früheren Aktivitäten, Voreinstellungen oder anderen Kriterien für Ihre Besucher von Interesse sein könnten. [!DNL Target Recommendations] hilft, Besucher zu relevanten Artikeln zu leiten, von denen sie sonst möglicherweise nichts wissen. [!DNL Recommendations] Sie können Ihren Besuchern relevante Inhalte zum richtigen Zeitpunkt und an der richtigen Stelle bereitstellen.
 
 >[!NOTE]
 >
 >[!DNL Recommendations] Aktivitäten sind als Bestandteil der [Target Premium-Lösung](/help/c-intro/intro.md#premium) verfügbar. Sie sind in [!DNL Target Standard] nicht ohne [!DNL Target Premium]-Lizenz verfügbar.
 >
->Falls Sie aktuell [!DNL Recommendations Classic] haben, finden Sie weitere Informationen zu den beiden Lösungen unter [Recommendations Classic versus Recommendations Activities in Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5).
+>Falls Sie aktuell [!DNL Recommendations Classic] haben, finden Sie weitere Informationen zu den beiden Lösungen unter [Recommendations Classic versus Recommendations Activities in Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5).
 
 [!DNL Recommendations] unterstützt Sie dabei, Echtzeitvorschläge über verschiedene Kanäle, Apps, Seiten, E-Mails und andere Bereitstellungsoptionen hinweg zu optimieren und zu personalisieren, um Interaktionen und Konversionen zu steigern, während gleichzeitig der Verwaltungsaufwand sinkt.
 
@@ -44,7 +44,7 @@ Eine Empfehlung bestimmt, wie ein Produkt einem Besucher je nach den Aktivitäte
 | Steigern Sie die Zeit, die ein Besucher auf Ihrer Medienwebsite verbringt, indem Sie Videoinhalte empfehlen, die den gerade angesehenen Videos ähneln. | Erstellen Sie mithilfe des „Personen, die dies angesehen haben, sahen auch“-Kriteriums eine Empfehlung, die andere Videos vorschlägt. |
 | Empfehlen Sie Kunden, die sich Informationen über Sparpläne bei Ihrer Bank angesehen haben, Informationen zu IRA-Konten. | Zeigen Sie mithilfe des „Personen, die diesen Artikel angesehen haben, kauften auch“-Kriteriums andere Produkte, die von Personen gekauft wurden, nachdem sie ein Produkt angesehen haben, ohne dabei das erste Produkt in den Empfehlungen anzuzeigen. |
 
-Weitere Informationen zu diesen und anderen [!DNL Recommendations]-Kriterien finden Sie unter [Kriterien](../c-recommendations/c-algorithms/algorithms.md).
+Weitere Informationen zu diesen und anderen [!DNL Recommendations]-Kriterien finden Sie unter [Kriterien](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Begriffe
 
