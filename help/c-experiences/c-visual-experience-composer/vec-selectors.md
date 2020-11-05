@@ -6,7 +6,7 @@ feature: vec
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
@@ -20,7 +20,7 @@ Ein Element-Selektor ist ein CSS-Ausdruck, der eines oder mehrere Elemente kennz
 
 Grundlegende Informationen zu CSS-Selektoren finden Sie im Dokument [Selektoren](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) im Mozilla Developer Network (MDN).
 
-Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovoreinstellungen verwenden möchten. Click **[!UICONTROL Administration > Visual Experience Composer]**, then choose your preferred CSS selectors.
+Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovoreinstellungen verwenden möchten. Klicken Sie auf **[!UICONTROL Administration > Visual Experience Composer]** und wählen Sie dann Ihre bevorzugten CSS-Selektoren aus.
 
 ![](assets/css_selectors.png)
 
@@ -28,7 +28,7 @@ Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovore
 >
 >Elementklassen sind als Selektoren in Aktivitäten mit A/B-Tests, automatisierter Personalisierung und Multivarianz-Tests verfügbar.
 
-Informationen dazu, wann CSS-Selektoren und wann eindeutige IDs verwendet werden sollen, finden Sie unter [Best Practices und Einschränkungen von Visual Experience Composer](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Informationen dazu, wann CSS-Selektoren und wann eindeutige IDs verwendet werden sollen, finden Sie unter [Best Practices und Einschränkungen von Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 ## Wie Adobe Target einen Selektor für ein Element erstellt {#section_D89D954BCBFB486CA081BE183776A475}
 
