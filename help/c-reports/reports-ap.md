@@ -5,7 +5,7 @@ title: Automated Personalization-Zusammenfassungsberichte
 feature: reports
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 56c77e1a7b5dd4e64f59b0416a16c3039a649ba3
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 72%
@@ -35,7 +35,7 @@ Der Bericht [!UICONTROL Aktivitätsebene] vergleicht die Gesamtleistung beim Ein
 
 ![Aktivitätsstufenbericht ](/help/c-reports/assets/box_plot_ap.png)
 
-Die Standardregeln für die Auswertung von A/B-Testergebnissen gelten weiterhin, einschließlich Steigerung, Konfidenz, Trends, Dauer und so weiter. Weitere Informationen zur Ergebnisauswertung finden Sie in  [Über die Konversionsrate](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)
+Die Standardregeln für die Auswertung von A/B-Testergebnissen gelten weiterhin, einschließlich Steigerung, Konfidenz, Trends, Dauer und so weiter. Weitere Informationen zur Ergebnisauswertung finden Sie in  [Über die Konversionsrate](/help/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)
 
 ## Angebotsstufenbericht {#section_CAA6409879E349C6906E2BE8156D87A1}
 
