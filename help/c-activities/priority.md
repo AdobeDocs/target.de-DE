@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
@@ -29,7 +29,7 @@ Wenn Ihr Unternehmen ausschließlich Target Standard/Premium und den Visual Expe
    Wenn sich der Besucher bereits in einem A/B-Test oder Multivarianztest befindet, wird er diesem Test zugeordnet, bis er konvertiert. Wenn er sich zuvor in einer Erlebnisziel-Aktivität befand, muss er erneut zugeordnet werden. Sind die Zielgruppenregeln erfüllt, fällt der Besucher in diese Aktivitäten und in spezifische Erlebnisse.
 
 1. Inhalte für alle Aktivitäten und Erlebnisse, die dem Besucher entsprechen, werden auf der Seite zurückgegeben.
-1. Wenn die Inhalte für jede Aktivität auf eine andere  [CSS-Auswahl](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) verweist, werden alle Inhalte angezeigt.
+1. Wenn die Inhalte für jede Aktivität auf eine andere  [CSS-Auswahl](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) verweist, werden alle Inhalte angezeigt.
 
    Wenn es eine Überschneidung oder eine duplizierte CSS-Auswahl gibt, werden die Aktivitätsinhalte mit der höchsten Priorität angezeigt. Die Ergebnisse sämtlicher Aktivitäten, die auf der Seite ausgeführt werden, werden in den Berichten gezählt und dargestellt.
 
@@ -90,7 +90,7 @@ If your company uses [!DNL Target] requests other than the global [!DNL Target] 
 
 >[!NOTE]
 >
->Abhängig von Ihren Einstellungen variieren auch die Prioritätswerte. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren. Weitere Informationen finden Sie unter  [Aktivitätseinstellungen](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Abhängig von Ihren Einstellungen variieren auch die Prioritätswerte. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren. Weitere Informationen finden Sie unter  [Aktivitätseinstellungen](/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
 **Zwei Zielgruppen Classic-Kampagnen verwenden nicht globale Zielgruppen-Anforderungen**
 
