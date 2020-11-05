@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 96%
@@ -50,8 +50,8 @@ Als Ursachen für partielle Daten haben wir die folgenden Punkte festgestellt:
 * **Abweichende Report Suite-IDs (Implementierung):** Die während der Aktivitätseinrichtung festgelegte Report Suite stimmt nicht mit der Report Suite für die Seite überein, auf der der Test erfolgt. Das sieht dann so aus, als ob Daten fehlen würden, da die Daten nicht auf [!DNL Analytics]-Servern abgeglichen werden können.
 * **Langsame Seite:** [!DNL Target]-Aufrufe erfolgen am Beginn der Seite, [!DNL Analytics]-Aufrufe dagegen meist am Ende der Seite. Bei einer Seite mit einer langsamen Ladegeschwindigkeit besteht daher eine höhere Wahrscheinlichkeit, dass Besucher die Seite verlassen, nachdem zwar der [!DNL Target]-Aufruf, nicht jedoch der [!DNL Analytics]-Aufruf ausgelöst wurde. Dies kann besonders bei mobilen Websites zu einem Problem werden, da dort die Verbindungsgeschwindigkeiten meist niedriger sind.
 * **Seitenfehler:** Wenn JavaScript-Fehler auftreten oder andere Szenarien vorliegen, in denen die einzelnen Endpunkte nicht ausgelöst werden (Experience Cloud ID-Service, Target und Analytics), führt dies zu partiellen Daten.
-* **Umleitungsangebot(e) in[!DNL Target]Aktivitäten:** Für Umleitungsangebote in Aktivitäten mit A4T muss Ihre Implementation bestimmten Mindestanforderungen entsprechen. Darüber hinaus gibt es wichtige Informationen, die Sie benötigen. Weitere Informationen finden Sie unter [Umleitungsangebote – A4T-FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Alte Versionen der Bibliotheken:** Im Verlauf des letzten Jahres hat Adobe verschiedene Verbesserungen in seinen JavaScript-Bibliotheken ([!DNL appMeasurement.js], `at.js/mbox.js` und `visitorAPI.js`) vorgenommen. Damit soll sichergestellt werden, dass Daten so effizient wie möglich gesendet werden. Weitere Informationen zu Implementierungsanforderungen finden Sie unter [Vor der Implementierung](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Umleitungsangebot(e) in [!DNL Target]Aktivitäten:** Für Umleitungsangebote in Aktivitäten mit A4T muss Ihre Implementation bestimmten Mindestanforderungen entsprechen. Darüber hinaus gibt es wichtige Informationen, die Sie benötigen. Weitere Informationen finden Sie unter [Umleitungsangebote – A4T-FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
+* **Alte Versionen der Bibliotheken:** Im Verlauf des letzten Jahres hat Adobe verschiedene Verbesserungen in seinen JavaScript-Bibliotheken ([!DNL appMeasurement.js], `at.js/mbox.js` und `visitorAPI.js`) vorgenommen. Damit soll sichergestellt werden, dass Daten so effizient wie möglich gesendet werden. Weitere Informationen zu Implementierungsanforderungen finden Sie unter [Vor der Implementierung](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## Welches sind die Best Practices zum Reduzieren partieller Daten? {#section_065C38501527451C8058278054A1818D}
 
