@@ -7,7 +7,7 @@ subtopic: Code Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Informationen zur Seite „Änderungen“, auf der Sie Änderungen an Ihrer Seite anzeigen und zusätzliche Änderungen (CSS-Selektor, Mbox und benutzerspezifischen Code) hinzufügen können.
 
-Auf der Seite „Änderungen“ finden Sie alle Änderungen, die im Visual Experience Composer an Ihrer Seite vorgenommen wurden, und können zusätzliche Änderungen vornehmen, indem Sie auf das jeweilige Element auf der Seite klicken und  [eine Aktion auswählen](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Jede vorgenommene Änderung erscheint in der Liste [!UICONTROL Änderungen] als separate Aktion oder separates Element. Sie können auch Änderungen hinzufügen, einschließlich folgender Änderungstypen: CSS-Selektor, Mbox und benutzerspezifischer Code.
+Auf der Seite „Änderungen“ finden Sie alle Änderungen, die im Visual Experience Composer an Ihrer Seite vorgenommen wurden, und können zusätzliche Änderungen vornehmen, indem Sie auf das jeweilige Element auf der Seite klicken und  [eine Aktion auswählen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Jede vorgenommene Änderung erscheint in der Liste [!UICONTROL Änderungen] als separate Aktion oder separates Element. Sie können auch Änderungen hinzufügen, einschließlich folgender Änderungstypen: CSS-Selektor, Mbox und benutzerspezifischer Code.
 
 ## Änderungen – Überblick{#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -69,7 +69,7 @@ Auf der Seite „Änderungen“ können Sie folgende Aktionen durchführen:
 
    >[!NOTE]
    >
-   >Um den Bereich „Änderungen“ im formularbasierten Experience Composer zu öffnen, erstellen oder bearbeiten Sie ein HTML-Angebot. Weitere Informationen finden Sie unter [Form-Based Experience Composer](../../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
+   >Um den Bereich „Änderungen“ im formularbasierten Experience Composer zu öffnen, erstellen oder bearbeiten Sie ein HTML-Angebot. Weitere Informationen finden Sie unter [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
 
    Die Seite [!UICONTROL „Änderungen“] wird geöffnet und unterteilt den Bildschirm in den visuellen Modus auf der linken und den Bereich „Änderungen“ auf der rechten Seite. Klicken Sie auf das [!UICONTROL Andocksymbol], um das Bedienfeld „Änderungen“ vertikal an der Seite oder horizontal an der Unterseite der Target-Benutzeroberfläche anzudocken. Beachten Sie, dass Erlebnis A in der folgenden Abbildung keine vorangegangenen Änderungen aufweist.
 
@@ -191,7 +191,7 @@ Auf der Registerkarte **[!UICONTROL Benutzerspezifischer Code]** können Sie Fol
 
 * Fügen Sie Adobe Target-Erlebnisvorlagen für die Verwendung in benutzerspezifischem Code hinzu. Target-Erlebnisvorlagen sind vorkonfigurierte Codebeispiele mit konfigurierbaren Eingaben, die für beliebte Marketing-Anwendungsfälle eingesetzt werden können. Diese Erlebnisvorlagen stehen Entwicklern und Marketing-Experten kostenlos zur Verfügung und bilden die Basis für beliebte Anwendungsfälle – entweder über den VEC oder den formularbasierten Experience Composer. Zu den Anwendungsfällen zählen Lightboxes, Karussells, Countdowns und mehr.
 
-   Weitere Informationen finden Sie unter [Erlebnisvorlagen](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
+   Weitere Informationen finden Sie unter [Erlebnisvorlagen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
 
 ## Best Practices für benutzerspezifischen Code {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -246,7 +246,7 @@ Jede Änderung erstellt ein neues Element im Bereich „Änderungen“. Da die z
 
 Mit anderen Worten: Wenn Sie ein Element mit Text hinzufügen und dieses Element in einer anderen Aktion mit anderem Text bearbeiten, dann zeigt der Bereich „Änderungen“ beide Aktionen als separate Elemente an. Bei der Bearbeitung des Elements haben Sie ein neues Element erstellt, das das ursprünglich von Ihnen erstellte Element ändert und den bearbeiteten Text enthält. Wenn Sie dann das ursprüngliche Element löschen, kann der bearbeitete Text das Element nicht finden, das bearbeitet wurde, und wird folglich nicht angezeigt. Das zweite Element bleibt in der Liste der Elemente erhalten, doch es hat keine Auswirkung auf die Seite, weil das Element, das es ändert, nicht mehr vorhanden ist.
 
-***Ein Element, das ich mit`document.write`in einem Skript erstellt habe, erscheint nicht dort, wo ich es erwarte.***
+***Ein Element, das ich mit `document.write` in einem Skript erstellt habe, erscheint nicht dort, wo ich es erwarte.***
 
 Skripts werden asynchron ausgeführt. Dies verursacht oft, dass `document.write`-Aktionen an der falschen Stelle einer Seite erscheinen. Die Verwendung von `document.write` in Skripten, die in benutzerspezifischem Code erstellt wurden, wird von Adobe nicht empfohlen.
 
