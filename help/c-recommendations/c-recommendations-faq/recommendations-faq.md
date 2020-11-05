@@ -5,7 +5,7 @@ title: Häufig gestellte Fragen zu Adobe Target Recommendations
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -66,7 +66,7 @@ Wenn der Speicherort, auf den Sie diese Kriterien anwenden, die Kategorie-ID nic
 
 Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vorhanden ist, enthält der Kriterien-Wähler alle anwendbaren Kriterien.
 
-Das Ziel verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84), um die intelligente Filterung der Algorithmusauswahl zu steuern.
+Das Ziel verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84), um die intelligente Filterung der Algorithmusauswahl zu steuern.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ Stellen Sie sicher, dass die Zielgruppe einen eindeutigen Namen aufweist. Wenn S
 
 ## Wie groß dürfen CSV-Dateien für den Feedupload maximal sein?  {#section_20F1AF4839A447B9889B246D6E873538}
 
-Es gibt keine feste Grenze hinsichtlich der Zeilen oder Dateigröße für den Feedupload von CSV-Dateien. Als Best Practice empfehlen wir jedoch, die CSV-Datei auf 1 GB zu beschränken, um Fehler während des Uploadprozesses zu vermeiden. Wenn die Größe der Datei 1 GB übersteigt, teilen Sie sie am besten in mehrere Feeddateien auf. Die maximale Anzahl benutzerdefinierter Attributspalten ist 100 und benutzerdefinierte Attribute sind auf 4.096 Zeichen beschränkt. Zusätzliche Beschränkungen zur Länge der erforderlichen Spalten finden Sie auf der  [Seite mit Target-Beschränkungen](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Es gibt keine feste Grenze hinsichtlich der Zeilen oder Dateigröße für den Feedupload von CSV-Dateien. Als Best Practice empfehlen wir jedoch, die CSV-Datei auf 1 GB zu beschränken, um Fehler während des Uploadprozesses zu vermeiden. Wenn die Größe der Datei 1 GB übersteigt, teilen Sie sie am besten in mehrere Feeddateien auf. Die maximale Anzahl benutzerdefinierter Attributspalten ist 100 und benutzerdefinierte Attribute sind auf 4.096 Zeichen beschränkt. Zusätzliche Beschränkungen zur Länge der erforderlichen Spalten finden Sie auf der  [Seite mit Target-Beschränkungen](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Kann ich eine Entität dynamisch ausschließen?
 
