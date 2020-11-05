@@ -6,7 +6,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Weitere Informationen zum Erlebnis-Targeting, einen Anwendungsfall und Schulungs
    >
    >Die verfügbaren Aktivitätstypen hängen von Ihrem Target-Konto ab. Einige Aktivitätstypen werden in Ihrer Liste eventuell nicht angezeigt. Beispielsweise ist die [!UICONTROL automatisierte Personalisierung] eine [Target Premium-Funktion](/help/c-intro/intro.md#premium).
    >
-   >Weitere Informationen zu den verschiedenen in [!DNL Target] verfügbaren Aktivitätstypen und ihren Unterschieden finden Sie unter [Aktivitäten](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Unter [Target-Aktivitätstypen](/help/c-activities/target-activities-guide.md) können Sie festlegen, welche Aktivitätstypen Ihre Anforderungen am besten erfüllen.
+   >Weitere Informationen zu den verschiedenen in [!DNL Target] verfügbaren Aktivitätstypen und ihren Unterschieden finden Sie unter [Aktivitäten](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Unter [Target-Aktivitätstypen](/help/c-activities/target-activities-guide.md) können Sie festlegen, welche Aktivitätstypen Ihre Anforderungen am besten erfüllen.
 
 1. Wählen Sie bei Bedarf **[!UICONTROL Visual (Standard)]** aus.
 
@@ -52,7 +52,7 @@ Weitere Informationen zum Erlebnis-Targeting, einen Anwendungsfall und Schulungs
 
 1. (Abhängig von Ihrer Lizenz) Wenn Sie Target Premium-Kunde sind, [wählen Sie einen Arbeitsbereich](/help/administrating-target/c-user-management/property-channel/property-channel.md) aus.
 
-1. Geben Sie Ihre [Aktivitäts-URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) ein und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Geben Sie Ihre [Aktivitäts-URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) ein und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
    Wenn Ihr Konto [mit einer Standard-URL konfiguriert wurde](/help/administrating-target/visual-experience-composer-set-up.md), dann wird diese URL standardmäßig angezeigt. Sie können bei Bedarf von der Standard-URL zu einer anderen URL wechseln.
 
@@ -81,4 +81,4 @@ Weitere Informationen zum Erlebnis-Targeting, einen Anwendungsfall und Schulungs
 
    Schrittweise Anweisungen finden Sie unter [Erlebnis hinzufügen](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
 
-1. Legen Sie [Ziele und Einstellungen](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) für die Aktivität fest.
+1. Legen Sie [Ziele und Einstellungen](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) für die Aktivität fest.
