@@ -4,7 +4,7 @@ title: Adobe Target Visual Experience Composer (VEC)
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -54,7 +54,7 @@ Sie können auch auf **[!UICONTROL Durchsuchen]** klicken und dann von der prim�
 >
 >Wenn ein Hover-Zustand von JavaScript abhängig ist, vergewissern Sie sich, dass **[!UICONTROL JavaScript deaktivieren]** nicht ausgewählt wurde. JavaScript muss aktiviert sein, um JavaScript-Elemente zu bearbeiten.
 
-Weitere Informationen zu den verfügbaren Optionen in VEC finden Sie unter [Visual Experience Composer-Optionen](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+Weitere Informationen zu den verfügbaren Optionen in VEC finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
 Sie können einige Änderungen auf einer Seite ausführen, während die Seite geladen wird (oder nachdem die Seite nicht geladen wurde), oder Sie können das Laden der Seite im VEC abbrechen. Weitere Informationen finden Sie unter:
 
@@ -133,7 +133,7 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 ### Bürozeiten: Abzeichen für Visual Experience Composer- ![Übungen](/help/assets/tutorial.png)
 
-Dieses Video ist eine Aufzeichnung von „[Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)“, einer Initiative der Adobe-Kundenunterstützung.
+Dieses Video ist eine Aufzeichnung von „[Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)“, einer Initiative der Adobe-Kundenunterstützung.
 
 * So funktioniert der VEC
 * So vermeiden Sie häufige Probleme mit dem VEC
