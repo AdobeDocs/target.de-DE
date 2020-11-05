@@ -6,7 +6,7 @@ feature: audiences
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 99%
@@ -47,9 +47,9 @@ Es gibt zwei Möglichkeiten, Browser auszurichten:
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
-   * **Typ:** Schließen Sie einen bestimmten Browser ein oder aus. Weitere Informationen finden Sie unter [Typ](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-   * **Sprache:** Schließen Sie bestimmte Browserversionen, die spezifische Sprachen verwenden, ein oder aus. Weitere Informationen finden Sie unter [Sprache](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-   * **Version:** Schließen Sie bestimmte Browserversionen ein oder aus. Weitere Informationen finden Sie unter [Version](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   * **Typ:** Schließen Sie einen bestimmten Browser ein oder aus. Weitere Informationen finden Sie unter [Typ](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+   * **Sprache:** Schließen Sie bestimmte Browserversionen, die spezifische Sprachen verwenden, ein oder aus. Weitere Informationen finden Sie unter [Sprache](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+   * **Version:** Schließen Sie bestimmte Browserversionen ein oder aus. Weitere Informationen finden Sie unter [Version](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
@@ -121,7 +121,7 @@ Es können nur Hauptversionen in das Textfeld eingegeben werden. Die angegebene 
 
 Mehrfachoptionen sind mit einem ODER verbunden.
 
-## Schulungsvideo: Erstellen von Zielgruppen ![Tutorial badge](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen von Zielgruppen ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
