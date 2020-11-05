@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 63%
@@ -26,21 +26,21 @@ For detailed information and examples, open the [Analytics &amp; Target: Best Pr
 
 ## Wo können Segmente in Analysis Workspace angewendet werden? {#segmentation}
 
-Segmente werden meist am oberen Rand eines Bereichs in der Segment-Dropzone angewendet. The segment is applied to all tables and visualizations in the panel. Diese Technik ist am nützlichsten, um zu sehen, wie der Test eine Untergruppe von Personen betrifft (wie hat dieser Test zum Beispiel für Menschen in Großbritannien funktioniert)?
+Segmente werden meist am oberen Rand eines Bereichs in der Segment-Dropzone angewendet. Das Segment wird auf alle Tabellen und Visualisierungen im Bedienfeld angewendet. Diese Technik ist am nützlichsten, um zu sehen, wie der Test eine Untergruppe von Personen betrifft (wie hat dieser Test zum Beispiel für Menschen in Großbritannien funktioniert)?
 
 ## Warum werden nicht verwandte Erlebnisse zurückgegeben, wenn ich ein Treffersegment für eine bestimmte Aktivität der Zielgruppe anwende? {#activity-segmentation}
 
 Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. (Hinweis: Diese Ablaufzeit kann bei Bedarf vom Kundendienst angepasst werden. Während Besucher durch die Site in diesem Ablauffenster navigieren, gehören sie zu vielen [!DNL Target] Aktivitäten, die alle in der Dimension erfasst werden.
 
-As a result, when you segment for an activity to be present in a hit, you will get all the experiences that are part of that activity *plus* any other experiences that are persisting on that hit.
+Wenn Sie daher segmentieren, dass eine Aktivität in einem Treffer vorhanden sein soll, erhalten Sie alle Erlebnisse, die Teil dieser Aktivität sind, *sowie* alle anderen Erlebnisse, die bei diesem Treffer bestehen bleiben.
 
 ## Sollte ich Besucher, Besuche oder Aktivitäten-Impressionen als Normalisierungsmetrik verwenden (d. h. als Zählmethodik)? {#metrics}
 
-There are several options for normalizing metrics in A4T reporting. This metric, also referred to as the counting methodology, becomes the denominator of the lift calculation. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.
+Es gibt mehrere Optionen zum Normalisieren von Metriken im A4T-Berichte. Diese Metrik, auch als Zählmethodik bezeichnet, wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.
 
 * ***Unique Visitors*** wird um eins erhöht, wenn ein Benutzer sich zum ersten Mal für eine Aktivität qualifiziert.
 * ***Besuche*** wird mit jeder Sitzung erhöht, sobald ein Benutzer (Unique Visitor) eine Aktivität beginnt, selbst wenn diese Aktivität nicht in nachfolgenden Besuchen angezeigt wird.
-* ***Aktivitätsimpressionen*** wird jedes Mal erhöht, wenn Aktivitätsinhalt bereitgestellt wird. (Measured by [!DNL Target]).
+* ***Aktivitätsimpressionen*** wird jedes Mal erhöht, wenn Aktivitätsinhalt bereitgestellt wird. (gemessen von [!DNL Target]).
 
 Wenn ein Besucher eine Seite anzeigt, die eine Aktivität enthält, wird eine Variable für diesen Besucher festgelegt, die den Namen der Aktivität enthält. Informationen zu den verschiedenen Zählmethoden finden Sie in den unten aufgeführten ausführlichen Szenarien.
 
@@ -49,11 +49,11 @@ Beachten Sie Folgendes:
 * All of the above metrics trigger when a user qualifies for an activity and content is returned from [!DNL [!DNL Target]]. Das bedeutet nicht zwingend, dass der Benutzer das Angebot gesehen hat. Wenn ein Aktivitätserlebnis sich unterhalb des angezeigten Bildschirmbereichs befindet und der Benutzer nicht nach unten scrollt, wurde das Angebot zwar von [!DNL Target] bereitgestellt, aber nicht vom Benutzer gesehen.
 * [!UICONTROL Aktivitätsimpressionen] (gemessen durch [!DNL Target]) und [!UICONTROL Instanzen] (gemessen durch [!DNL Analytics]) sind gleich, sofern nicht mehrere Mbox-Aufrufe auf derselben Seite in derselben Aktivität vorhanden sind. Hierdurch werden mehrere [!UICONTROL Aktivitätsimpressionen] gezählt, aber nur eine [!UICONTROL Instanz].
 
-## Why are &quot;activity impressions&quot; and &quot;activity conversions&quot; higher in Analysis Workspace than Reports &amp; Analytics? {#sametouch}
+## Warum sind &quot;Aktivitäten-Impressionen&quot;und &quot;Aktivitäten-Konversionen&quot;in Analysis Workspace höher als in Reports &amp; Analysen? {#sametouch}
 
-[!DNL Reports & Analytics] applies a same-touch attribution model to &quot;activity impressions&quot; and &quot;activity conversions,&quot; whereas [!DNL Analysis Workspace] displays the raw metrics, which can appear inflated due to persistence of the [!DNL Target] dimension.
+[!DNL Reports & Analytics] wendet ein Gleichheitszuordnungsmodell auf &quot;Aktivität Impressionen&quot;und &quot;Aktivität-Konversionen&quot;an, während die Rohmetriken angezeigt werden, die aufgrund der Persistenz der [!DNL Analysis Workspace] [!DNL Target] Dimension überhöht erscheinen können.
 
-To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. Modelle können angewendet werden, indem Sie auf das Zahnradsymbol der Spalte klicken, [!UICONTROL Nicht standardmäßige Attributionsmodelle] aktivieren und [!UICONTROL Same Touch] auswählen. Learn more about attribution in [Attributes IQ overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) in the *Analytics Tools Guide*.
+To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. Modelle können angewendet werden, indem Sie auf das Zahnradsymbol der Spalte klicken, [!UICONTROL Nicht standardmäßige Attributionsmodelle] aktivieren und [!UICONTROL Same Touch] auswählen. Weitere Informationen zur Zuordnung finden Sie im Überblick [über die](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) Attributes-IQ im *Analytics-Tools-Handbuch*.
 
 ## Was bedeutet „Aktivitätskonversionen“, wenn der Marketingexperte beim Setup einer Aktivität eine Analytics-Metrik auswählt? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -125,8 +125,8 @@ You can shorten the amount of time the [!DNL Target] variable persists down to a
 The following list explains reasons why the same visitor could be counted in multiple experiences in [!DNL Analytics]:
 
 * The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
-* Wenn der Besucher die `mbox3rdPartyId` verwendet, sobald der anonyme Besucher mit seinem Drittanbieter-ID-Profil verschmolzen wird, könnte den Besucher in einen anderen Besuch einordnen, der mit der ID eines Drittanbieters übereinstimmt. [!DNL Target] Weitere Informationen finden Sie unter [Echtzeit-Profilsynchronisierung für mbox3rdPartyID](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
-* [!DNL Analytics] kann verschiedene Geräte auf andere Weise als denselben Besucher verfolgen, und zwar auf andere Weise als die [!DNL Target] Verfolgung dieser Geräte: Die Einrichtung der Drittanbieter-ID in [!DNL Target] unterscheidet sich von der in Analytics.
+* Wenn der Besucher die `mbox3rdPartyId` verwendet, sobald der anonyme Besucher mit seinem Drittanbieter-ID-Profil verschmolzen wird, könnte den Besucher in einen anderen Besuch einordnen, der mit der ID eines Drittanbieters übereinstimmt. [!DNL Target] Weitere Informationen finden Sie unter [Echtzeit-Profilsynchronisierung für mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
+* [!DNL Analytics] kann verschiedene Geräte auf andere Weise als denselben Besucher verfolgen, und zwar auf andere Weise als [!DNL Target] die Verfolgung dieser Geräte: Die Einrichtung der Drittanbieter-ID in [!DNL Target] unterscheidet sich von der in Analytics.
 
 ## Unterstützt A4T Virtual Report Suites?
 
