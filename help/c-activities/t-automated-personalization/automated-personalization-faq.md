@@ -5,7 +5,7 @@ title: Häufig gestellte Fragen zur automatisierten Personalisierung
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
@@ -36,7 +36,7 @@ Es gibt keine Option, mit der sich der Vergleich von AP mit einem Standarderlebn
 
    * Wenn ein A/B…N-Test keine statistisch signifikanten Unterschiede zwischen Erlebnissen aufzeigt, da sich die von Ihnen in Erwägung gezogenen Angebote möglicherweise nicht ausreichend voneinander unterscheiden, wirken sich die von Ihnen ausgewählten Standorte nicht auf die Erfolgsmetrik aus oder das Optimierungsziel liegt zu weit vom Konversionstrichter entfernt, um von Ihren ausgewählten Angeboten betroffen zu sein.
 
-* Mithilfe der  [Traffic-Schätzung](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) können Sie einschätzen, wie lange es dauert, bis Personalisierungsmodelle in Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ erstellt werden.
+* Mithilfe der  [Traffic-Schätzung](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) können Sie einschätzen, wie lange es dauert, bis Personalisierungsmodelle in Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ erstellt werden.
 * Legen Sie die Zuordnung zwischen dem Kontroll- und Zielgruppe fest, bevor Sie Ihre Aktivität basierend auf Ihren Zielen starten.
 
    Je nach dem Ziel Ihrer Aktivität und der Art der gewählten Kontrolle gibt es drei Szenarien:
@@ -75,7 +75,7 @@ Es sind vier Faktoren erforderlich, damit eine Aktivität vom Typ „Automatisie
 
 Es empfiehlt sich zunächst mithilfe eines einfachen, nicht personalisierten A/B-Tests sicherzustellen, dass der Inhalt und die Positionen aus denen die Aktivitätserlebnisse bestehen, wirklich einen Unterschied zu den Gesamtantwortraten darstellen. Berechnen Sie die Stichprobengrößen im Voraus, um sicherzustellen, dass eine ausreichende Leistung vorliegt, um eine angemessene Steigerung zu sehen. Führen Sie zudem den A/B-Test für eine feste Dauer aus, ohne ihn anzuhalten oder Änderungen vorzunehmen. Wenn in den Ergebnissen eines A/B-Tests eine signifikante Steigerung von mindestens einem Erlebnis gezeigt wird, ist es wahrscheinlich, dass eine personalisierte Aktivität funktioniert. Natürlich kann die Personalisierung selbst dann funktionieren, wenn keine Unterschiede in den Gesamtantwortraten der Erlebnisse vorliegen. Das Problem geht in der Regel auf Angebote/Positionen zurück, die sich nicht stark genug auf das mit statistischer Bedeutung zu ermittelnde Optimierungsziel auswirken.
 
-Weitere Informationen finden Sie unter [Fehlerbehebung bei der automatisierten Personalisierung](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
+Weitere Informationen finden Sie unter [Fehlerbehebung bei der automatisierten Personalisierung](/help/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
 ### Wie wird der Traffic meiner Aktivität durch die automatisierte Personalisierung zugeordnet? {#section_4369364F77804E0D9B78BEE551DA5659}
 
@@ -89,7 +89,7 @@ Die automatisierte Personalisierung kann als eine „Always on“-Personalisieru
 
 ### Wie lange sollte ich warten, bis Modelle erstellt werden?  {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-Wie lange es dauert, bis Modelle in Ihrer Aktivität erstellt werden, hängt in der Regel vom Traffic Ihrer ausgewählten Aktivitätsposition(en) und Ihrer Aktivitätserfolgsmetrik ab. Verwenden Sie stattdessen die [Traffic-Schätzung](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714), um zu bestimmen, wie lange das Erstellen von Modellen in Ihrer Aktivität erwartungsgemäß dauert.
+Wie lange es dauert, bis Modelle in Ihrer Aktivität erstellt werden, hängt in der Regel vom Traffic Ihrer ausgewählten Aktivitätsposition(en) und Ihrer Aktivitätserfolgsmetrik ab. Verwenden Sie stattdessen die [Traffic-Schätzung](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714), um zu bestimmen, wie lange das Erstellen von Modellen in Ihrer Aktivität erwartungsgemäß dauert.
 
 ### Ein Modell wird in meiner Aktivität erstellt. Sind die Besuche bei diesem Erlebnis personalisiert? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
@@ -128,4 +128,4 @@ Ein Modell wird erstellt, um die Leistung der personalisierten Strategie im Verg
 
 Traffic aus einem zweiten Satz von Modellen wird für jede Modellgruppe (AP) oder Erlebnis (AT) erstellt. Bei jedem dieser Modelle werden Treffer und Konversionen in allen Umgebung berücksichtigt.
 
-Anfragen werden daher unabhängig von der Umgebung mit demselben Modell bedient, aber die Datenverkehrsvielfalt sollte von der Standardeinstellung ausgehen, um sicherzustellen, dass das identifizierte, insgesamt erfolgreichste Erlebnis mit dem realen Verhalten in Einklang steht.
+Anfragen werden daher unabhängig von der Umgebung mit demselben Modell bedient, aber die Datenverkehrsvielfalt sollte von der Standardeinstellung ausgehen, um sicherzustellen, dass das identifizierte Gesamterlebnis mit dem realen Umgebung übereinstimmt.
