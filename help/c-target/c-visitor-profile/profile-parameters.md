@@ -6,7 +6,7 @@ feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 78%
@@ -20,7 +20,7 @@ Profilattribute sind Parameter, die speziell für einen Besucher gelten. Diese A
 
 Ein Profil eines Benutzers enthält demografische und verhaltensbezogene Informationen über einen Besucher einer Webseite, z. B. Alter, Geschlecht, erworbene Produkte, letzte Besuchszeit usw. Diese Zielgruppe verwendet diese Informationen, um die Inhalte, die dem Besucher zur Verfügung stehen, zu personalisieren.
 
-As a visitor browses your website, or when the visitor returns for another session, the saved profile attributes in the profile can be used to target content or log information for segment filtering.
+Wenn ein Besucher auf Ihrer Website surft oder der Besucher zu einer anderen Sitzung zurückkehrt, können die im Profil gespeicherten Profil-Attribute zur Zielgruppe von Inhalten oder Protokollinformationen für die Segmentfilterung verwendet werden.
 
 So richten Sie Profil-Attribute ein:
 
@@ -61,7 +61,7 @@ Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgrupp
 
 ![Dialogfeld „Profilskript erstellen“](assets/profile-script.png)
 
-Profilskripte führen Profilattribut-„Fänger“ bei jeder Ortsanforderung aus. Beim Empfang einer Ortsanforderung bestimmt Target, welche Aktivität ausgeführt werden soll, und zeigt den für diese Aktivität und das Erlebnis geeigneten Inhalt an. Das Programm verfolgt den Erfolg der Aktivität und führt relevante Profilskripte aus. This enables you to track information about the visit, such as the visitor&#39;s location, time of day, number of times that visitor has been to the site, if they&#39;ve purchased before, and so on. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können.
+Profilskripte führen Profilattribut-„Fänger“ bei jeder Ortsanforderung aus. Beim Empfang einer Ortsanforderung bestimmt Target, welche Aktivität ausgeführt werden soll, und zeigt den für diese Aktivität und das Erlebnis geeigneten Inhalt an. Das Programm verfolgt den Erfolg der Aktivität und führt relevante Profilskripte aus. Auf diese Weise können Sie Informationen über den Besuch nachverfolgen, z. B. Ort, Tageszeit, Anzahl der Besuche auf der Site durch den Besucher, ggf. frühere Einkäufe usw. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können.
 
 Profilskriptattribute haben das `user.`-Tag vor dem Attributnamen eingefügt. Beispiel:
 
@@ -122,7 +122,7 @@ Typische Gründe für die Deaktivierung von Profilskripten durch das System sind
 * Es wird eine nicht definierte Variable referenziert.
 * Ein ungültiger Wert wird referenziert. Dies geschieht häufig aufgrund des Bezugs auf URL-Werte und andere vom Benutzer eingegebene Daten, die nicht ordnungsgemäß validiert wurden.
 * Zu viele JavaScript-Anweisungen wurden verwendet. Target verfügt über einen Maximalwert von 2.000 JavaScript-Anweisungen pro Skript, die Anzahl kann jedoch nicht einfach durch manuelles Lesen des JavaScript bestimmt werden. Rhino beispielsweise behandelt alle Funktionsaufrufe und „neuen“ Aufrufe als 100 Anweisungen. Das bedeutet, dass jeder Aufruf einer Funktion 100 Anweisungen erfordert. Außerdem kann sich die Größe der eingegebenen Daten (beispielsweise der URL-Werte) auf die Anzahl der Anweisungen auswirken.
-* Nichtbefolgen der unten beschriebenen [Best Practices](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0).
+* Nichtbefolgen der unten beschriebenen [Best Practices](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0).
 
 ## Best Practices{#best}.
 
@@ -144,7 +144,7 @@ Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verf
    * Halten Sie Profil-Skripten klein und so einfach wie möglich.
    * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur sehr einfache reguläre Ausdrücke. Sogar einfache Ausdruck können viele Anleitungen zur Bewertung verwenden.
    * Rekursion vermeiden.
-   * Profil-Skripten sollten vor dem Hinzufügen zur Zielgruppe einem Leistungstest unterzogen werden. Alle Profil-Skripten werden bei jeder mbox-Anfrage ausgeführt. If profile scripts do not execute correctly, mbox requests take longer to execute. Dies könnte sich auf Traffic und Umrechnung auswirken.
+   * Profil-Skripten sollten vor dem Hinzufügen zur Zielgruppe einem Leistungstest unterzogen werden. Alle Profil-Skripten werden bei jeder mbox-Anfrage ausgeführt. Wenn Profil-Skripten nicht korrekt ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger. Dies könnte sich auf Traffic und Umrechnung auswirken.
    * Wenn Profil-Skripte zu komplex werden, sollten Sie stattdessen [Antwort-Token](/help/administrating-target/response-tokens.md) verwenden.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -179,7 +179,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 **Kann ich mit Profilskripten Informationen von einer Seite erfassen, die sich im Daten-Layer befindet?**
 
-Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere  [Verfahren für die Datenübernahme in Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) übergeben werden. Sobald die Daten in Target verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
+Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere  [Verfahren für die Datenübernahme in Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) übergeben werden. Sobald die Daten in Target verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
 
 ## JavaScript-Referenz für Skript-Profilparameter
 
@@ -237,7 +237,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Creates a variable called `adobeQA` to track a user for [Activity QA](/help/c-activities/c-activity-qa/activity-qa.md).
+Erstellt eine Variable `adobeQA` zur Benutzerverfolgung zur [Aktivität-Qualitätssicherung](/help/c-activities/c-activity-qa/activity-qa.md).
 
 ### Objekte und Methoden
 
@@ -254,7 +254,7 @@ Die folgenden Eigenschaften und Methoden können durch Skript-Profilparameter re
 | `landing.url`, `landing.protocol`, `landing.query`, und `landing.param` | Ähnlich wie die Seite, aber für die Landingpage. |
 | `mbox.name` | Der Name der aktiven Mbox. |
 | `mbox.param(‘<par_name>’)` | Ein mbox-Parameter nach dem angegebenen Namen in der aktiven Mbox. |
-| `profile.get(‘<par_name>’)` | Der vom Kunden erstellte Benutzerprofilparameter durch den Namen `<par_name>`. Wenn der Benutzer z. B. einen Profilparameter namens „Gender“ festgelegt hat, kann der Wert mit „profile.gender“ extrahiert werden. Gibt den Wert des Werts „`profile.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. Note that `profile.get(<par_name>)` is qualified as a function call. |
+| `profile.get(‘<par_name>’)` | Der vom Kunden erstellte Benutzerprofilparameter durch den Namen `<par_name>`. Wenn der Benutzer z. B. einen Profilparameter namens „Gender“ festgelegt hat, kann der Wert mit „profile.gender“ extrahiert werden. Gibt den Wert des Werts „`profile.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. Beachten Sie, dass dies als Funktionsaufruf qualifiziert `profile.get(<par_name>)` ist. |
 | `user.get(‘<par_name>’)` | Gibt den Wert des Werts „`user.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. |
 | `user.categoryAffinity` | Gibt den Namen der besten Kategorie zurück. |
 | `user.categoryAffinities` | Gibt ein Array mit den besten Kategorien zurück. |
@@ -278,7 +278,7 @@ Alle standardmäßigen JavaScript-Operatoren sind vorhanden und können verwende
 | `||` | Fügt die Ausdrücke links und rechts daneben logisch mit „ORs“ zusammen, nur „true“, wenn beide Seiten true sind (andernfalls „false“). |
 | `//` | Prüft, ob die Quelle alle Elemente aus dem Booleschen Zielwert enthält (Array-Quelle, Array-Ziel).<br>`//` extrahiert Unterzeichenfolge aus dem Ziel (entspricht regexp) und dekodiert sie`Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Die Funktion unterstützt auch die Verwendung konstanter Zeichenfolgenwerte, Gruppierung (`condition1 || condition2) && condition3` und reguläre Ausdrücke `/[^a-z]$/.test(landing.referring.url)`). |
 
-## Training video: Profile Scripts ![Tutorial badge](/help/assets/tutorial.png)
+## Schulungsvideo: Profil Scripts ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
 In diesem Video erfahren Sie, wie Profilskripte erstellt und verwendet werden.
 
