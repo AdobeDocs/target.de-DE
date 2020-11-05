@@ -5,7 +5,7 @@ title: Planen und Implementieren von Recommendations
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 6ad358c8a8fcbed390b7460b93e4ea5e41e2ba2f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 97%
@@ -111,7 +111,7 @@ function targetPageParams() {
 }
 ```
 
-Weitere Beispiele des Codes, den Sie auf verschiedenen Seitentypen verwenden können, finden Sie im Abschnitt  [Implementierung nach Seitentyp](../c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
+Weitere Beispiele des Codes, den Sie auf verschiedenen Seitentypen verwenden können, finden Sie im Abschnitt  [Implementierung nach Seitentyp](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
 
 ## Implementierung nach Seitentyp {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
 
@@ -119,7 +119,7 @@ Seitentypen beeinflussen Ihre Implementierung von [!DNL Recommendations].
 
 Möglicherweise möchten Sie verschiedene Empfehlungstypen für Produktseiten und Kategorieseiten oder die Startseite bereitstellen. Bei jeder Seite können Sie vor dem Mbox-Aufruf spezifische Funktionen ausführen, um die passende Empfehlung anzuzeigen.
 
-Informationen zu den Attributen in den Beispielen finden Sie unter [Entitätsattribute](../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).
+Informationen zu den Attributen in den Beispielen finden Sie unter [Entitätsattribute](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).
 
 Es ist eine gültige JSON-Formatierung erforderlich.
 
@@ -130,11 +130,11 @@ Die in den Beispielen unten angezeigte Funktion `targetPageParams` ist besonders
 Sämtliche Seiten, die Empfehlungen enthalten, erfordern auf der Seite einen Verweis auf [!DNL at.js] oder [!DNL mbox.js]. Fügen Sie allen Seiten mit Empfehlungen eines der folgenden Elemente hinzu:
 
 ```
-<script src="../at.js /></script>
+<script src="/help/at.js /></script>
 ```
 
 ```
-<script src="../mbox.js /></script>
+<script src="/help/mbox.js /></script>
 ```
 
 Diese Implementierung erfordert Folgendes:
@@ -143,9 +143,9 @@ Diese Implementierung erfordert Folgendes:
 
 * [!DNL mbox.js] muss den Verweis auf [!DNL target.js] beinhalten ([!DNL at.js] erfordert keinen Verweis auf [!DNL target.js])
 
-Weitere Informationen zur Implementierung [!DNL at.js]finden Sie unter [Bereitstellen von at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556).
+Weitere Informationen zur Implementierung [!DNL at.js]finden Sie unter [Bereitstellen von at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556).
 
-Weitere Informationen zur Implementierung von [!DNL mbox.js] finden Sie unter [Mbox.js-Implementierung](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+Weitere Informationen zur Implementierung von [!DNL mbox.js] finden Sie unter [Mbox.js-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
 Weitere Informationen zu den Unterschieden zwischen den beiden Target-JavaScript-Bibliotheken finden Sie unter.[Vorteile von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
@@ -198,8 +198,8 @@ function targetPageParams() {
 
 Möglicherweise möchten Sie auf der Danksagungsseite den Gesamtbetrag und die ID sowie die gekauften Produkte anzeigen, ohne weitere Artikel zu empfehlen. Sie können eine zweite Mbox implementieren, um die Bestellinformationen zu erfassen.
 
-* Lesen Sie bei der Verwendung von at.js  [Konversions-Tracking](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
-* Wenn Sie mbox.js verwenden, lesen Sie [Erstellen einer Mbox für Auftragsbestätigungen - mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
+* Lesen Sie bei der Verwendung von at.js  [Konversions-Tracking](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* Wenn Sie mbox.js verwenden, lesen Sie [Erstellen einer Mbox für Auftragsbestätigungen - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
 
 ## Einstellungen {#concept_C1E1E2351413468692D6C21145EF0B84}
 
