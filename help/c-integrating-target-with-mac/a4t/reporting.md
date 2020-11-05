@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 35%
@@ -50,7 +50,7 @@ Darüber [!DNL Analytics]hinaus stehen nach Aktivierung der A4T-Integration vers
 ### Metriken
 
 * [!UICONTROL Aktivitäten-Impressionen] - Entspricht der [!UICONTROL Anzahl der Teilnehmer] im [!DNL Target] Bericht.
-* [!UICONTROL Activity Conversions] - Matches the [!UICONTROL Custom Conversions] number in the [!DNL Target] report.
+* [!UICONTROL Aktivitäten-Konversionen] - Entspricht der [!UICONTROL benutzerspezifischen Konversionsnummer] im [!DNL Target] Bericht.
 
 Verwenden Sie [!DNL Analysis Workspace]das Bedienfeld [!UICONTROL Analytics für Zielgruppen] , um Ihre [!DNL Target] Aktivitäten und Erlebnisse mit Steigerung und Konfidenz zu analysieren. Weitere Informationen finden Sie im Bedienfeld [&quot;](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Zielgruppe&quot;(A4T) im *Analytics-Tools-Handbuch*.
 
@@ -83,4 +83,4 @@ Während der Erstellung einer Aktivität müssen Sie auf der Seite [!UICONTROL E
 
 Sie können Offlineberechnungen für A4T durchführen. Dazu ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics] erforderlich.
 
-Weitere Informationen dazu finden Sie unter [Durchführen von Offline-Berechnungen für Analytics for Target (A4T)](../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Weitere Informationen dazu finden Sie unter [Durchführen von Offline-Berechnungen für Analytics for Target (A4T)](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
