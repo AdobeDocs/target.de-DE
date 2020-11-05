@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 29%
@@ -24,7 +24,7 @@ Target can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL
 
 If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use [!DNL Dynamic Media Classic] account at no additional charge from your [!DNL Adobe] representative. This account can be used for purposes restricted for use in [!DNL Target] only. Dieser Service steht Kunden für Workflows zur Verfügung, die eine Bildtauschfunktionalität benötigen.
 
-If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. Nachdem diese Einstellung konfiguriert wurde, steht die Option zum Austauschen/Ändern von Bildangeboten in  [Visual Experience Composer (VEC) und im formularbasierten Experience Composer](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) zur Verfügung. You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
+If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. Nachdem diese Einstellung konfiguriert wurde, steht die Option zum Austauschen/Ändern von Bildangeboten in  [Visual Experience Composer (VEC) und im formularbasierten Experience Composer](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) zur Verfügung. You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
 Wenn Sie während der Aktivitätserstellung direkt in einem Angebot oder in benutzerspezifischem Code auf eine URL zu einem öffentlichen Bild verweisen möchten, sollten Sie das Bild auf Ihren eigenen Webservern bereitstellen und Ihre eigene URL im Code verwenden. There is no way to obtain the published URL of an image uploaded into the [!DNL Experience Cloud] to consume directly or outside of targeting workflows using [!DNL Target]. Diese Funktionalität ist entsprechend dem Vertrag nicht zulässig.
 
@@ -38,11 +38,11 @@ To integrate with [!DNL Dynamic Media Classic] ([!DNL Scene7]), you need to spec
 
 1. Specify the following [!DNL Dynamic Media Classic] account information:
 
-   **Region:** The region for your [!DNL Dynamic Media] account: North America, Europe, or Asia.
+   **Region:** Die Region für Ihr [!DNL Dynamic Media] Konto: Nordamerika, Europa oder Asien.
 
    **Adhoc-Ordner:** Der Speicherort für Inhalte, die sich außerhalb des Ordners &quot;Zielgruppe&quot;befinden und manuell hochgeladen werden [!DNL Dynamic Media].
 
-   **Email address:** The email address used to log in to [!DNL Dynamic Media Classic] ([!DNL Scene7]).
+   **E-Mail-Adresse:** Die für die Anmeldung bei [!DNL Dynamic Media Classic] ([!DNL Scene7]) verwendete E-Mail-Adresse.
 
    **Kennwort:** Das für die Anmeldung bei [!DNL Dynamic Media Classic] ([!DNL Scene7]) verwendete Kennwort.
 
