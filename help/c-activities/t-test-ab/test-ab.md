@@ -5,7 +5,7 @@ title: Überblick über A/B-Tests
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
@@ -33,7 +33,7 @@ Beim Einrichten des A/B-Tests können Sie den Prozentsatz der Besucher ermitteln
 
 >[!NOTE]
 >
->Detaillierte Informationen zum Ermitteln der optimalen Stichprobengröße für einen A/B-Test finden Sie unter [Planen Ihrer A/B-Tests](../../c-activities/t-test-ab/sample-size-determination.md).
+>Detaillierte Informationen zum Ermitteln der optimalen Stichprobengröße für einen A/B-Test finden Sie unter [Planen Ihrer A/B-Tests](/help/c-activities/t-test-ab/sample-size-determination.md).
 
 Bei mehr als fünf verschiedenen Erlebnissen mit zwei oder mehr Orten ist möglicherweise ein [Multivarianz-Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md) empfehlenswert, bevor Sie Ihre A/B-Tests durchführen. Der Multivariater Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Orte, auf die sich ein Marketingexperte konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf der wichtigste Ort zur Erreichung Ihrer Ziele ist. Sobald Sie festgelegt haben, welche Orte und Inhalte am nützlichsten sind, um Ihnen bei der Erreichung Ihrer Ziele zu helfen, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern, z. B. um zwei spezifische Bilder untereinander zu testen oder die Formulierungen oder Farben eines Aktionsaufrufs zu vergleichen. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
 
