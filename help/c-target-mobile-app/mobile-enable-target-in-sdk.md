@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 88%
+source-wordcount: '232'
+ht-degree: 89%
 
 ---
 
@@ -22,13 +22,13 @@ Fügen Sie Ihrer Anwendung das Adobe Mobile Services SDK hinzu.
 
 1. Fügen Sie Ihrer Anwendung das Adobe Mobile Services SDK hinzu.
 
-   Anweisungen hierzu finden Sie unter [Kernimplementierung und Lebenszyklus](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/dev-qs.html).
+   Anweisungen hierzu finden Sie unter [Kernimplementierung und Lebenszyklus](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/dev-qs.html).
 
 1. Fügen Sie Kunden-Code und Zeitüberschreitung hinzu und aktivieren Sie SSL.
 
    Öffnen Sie „Mobile Services“ in der Experience Cloud und navigieren Sie zu **[!UICONTROL App-Einstellungen verwalten]** > **[!UICONTROL SDK-Target-Optionen]**.
 
-   Fügen Sie Kunden-Code und Zeitüberschreitung für Target hinzu. Der Kunden-Code ist ein eindeutiger Code für Ihr Konto oder Unternehmen. Die Zeitüberschreitung ist die Dauer in Anzahl der Sekunden, die Target auf eine Antwort wartet, bevor der Standardinhalt angezeigt wird. Stellen Sie sicher, dass Sie die Option **[!UICONTROL HTTPS verwenden]** auf der Seite „App-Einstellungen verwalten“ in Adobe Mobile Services aktiviert haben. If HTTPS isn&#39;t enabled, all calls in iOS9+ will be blocked unless you allowlist the Target server.
+   Fügen Sie Kunden-Code und Zeitüberschreitung für Target hinzu. Der Kunden-Code ist ein eindeutiger Code für Ihr Konto oder Unternehmen. Die Zeitüberschreitung ist die Dauer in Anzahl der Sekunden, die Target auf eine Antwort wartet, bevor der Standardinhalt angezeigt wird. Stellen Sie sicher, dass Sie die Option **[!UICONTROL HTTPS verwenden]** auf der Seite „App-Einstellungen verwalten“ in Adobe Mobile Services aktiviert haben. Wenn HTTPS nicht aktiviert ist, werden alle Aufrufe in iOS9+ blockiert, es sei denn, Sie führen eine Zulassungsliste des Zielgruppe-Servers durch.
 
    ![](assets/mobile-clientcode.png)
 
