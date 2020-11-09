@@ -5,9 +5,9 @@ title: Adobe Target Visual Experience Composer (VEC) Helper-Erweiterung
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '878'
 ht-degree: 56%
 
 ---
@@ -66,7 +66,7 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
    * Weitere Informationen zur Fehlerbehebung für den Browser des Attributs &quot;SameSite=None&quot;finden Sie unter Wie wirken sich die kürzlich angekündigten Google Chrome SameSite-Cookie-Durchsetzungsrichtlinien auf VEC und EEC aus? in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   * Der Cookie-Name ist &quot;mbox&quot;und die Cookie-Domäne ist die zweite und oberste Ebene der Domänen, von denen Sie die mbox beliefern. Da die Belieferung von der Domäne Ihres Unternehmens stattfindet, handelt es sich um ein Erstanbieter-Cookie. Beispiel: `mycompany.com`. Weitere Informationen finden Sie unter [Adobe Target-Cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) im *Experience Cloud-Interface-Benutzerhandbuch*.
+   * Der Cookie-Name ist &quot;mbox&quot;und die Cookie-Domäne ist die zweite und oberste Ebene der Domänen, von denen Sie die mbox beliefern. Da die Belieferung von der Domäne Ihres Unternehmens stattfindet, handelt es sich um ein Erstanbieter-Cookie. Beispiel: `mycompany.com`. Weitere Informationen finden Sie unter [Adobe Target-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) im *Experience Cloud-Interface-Benutzerhandbuch*.
 
 ## Hinweise
 
