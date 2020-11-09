@@ -3,10 +3,8 @@ keywords: Profile script;profile script attributes;mutually exclusive activities
 description: Mithilfe von Profilattributen können Sie Tests zum Vergleich mehrerer Aktivitäten einrichten, an denen jeweils unterschiedliche Besucher teilnehmen.
 title: Profil-Skripten zum Testen sich gegenseitig ausschließender Aktivitäten
 feature: visitor profiles
-topic: Advanced,Standard,Classic
-uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 81%
@@ -20,12 +18,12 @@ Mithilfe von Profilattributen können Sie Tests zum Vergleich mehrerer Aktivitä
 
 Hierdurch wird verhindert, dass ein Besucher einer Aktivität die Testergebnisse der anderen Aktivitäten beeinflusst. Wenn ein Besucher an mehreren Aktivitäten teilnimmt, ist es oft schwierig festzustellen, ob die positiven oder negativen Änderungen auf das Erlebnis des Besuchers in einer Aktivität zurückzuführen sind oder ob die Ergebnisse einer oder mehrerer Aktivitäten durch die Interaktionen zwischen den Aktivitäten beeinflusst wurden.
 
-So können Sie zum Beispiel zwei Bereiche Ihres E-Commerce-Systems testen. Sie können testen, ob Sie den Knopf &quot;Hinzufügen zum Warenkorb&quot;rot statt blau gestalten möchten. Vielleicht möchten Sie einen neuen Checkout-Prozess testen, der anstelle von fünf nur noch aus zwei Schritten besteht. If both activities have the same success event (a completed purchase), it can be difficult to determine whether the red button improves conversions, or whether those same conversions were also increased because of the improved checkout process. Durch Trennung der Tests in zwei sich gegenseitig ausschließende Aktivitäten können Sie jede Veränderung einzeln prüfen.
+So können Sie zum Beispiel zwei Bereiche Ihres E-Commerce-Systems testen. Sie können testen, ob Sie den Knopf &quot;Hinzufügen zum Warenkorb&quot;rot statt blau gestalten möchten. Vielleicht möchten Sie einen neuen Checkout-Prozess testen, der anstelle von fünf nur noch aus zwei Schritten besteht. Wenn beide Aktivitäten dasselbe Ereignis haben (ein abgeschlossener Einkauf), kann es schwierig sein, festzustellen, ob die rote Schaltfläche die Konversionen verbessert oder ob dieselben Konvertierungen aufgrund des verbesserten Checkout-Verfahrens ebenfalls erhöht wurden. Durch Trennung der Tests in zwei sich gegenseitig ausschließende Aktivitäten können Sie jede Veränderung einzeln prüfen.
 
 Beachten Sie die folgenden Informationen, wenn Sie eines der folgenden Profilskripte verwenden:
 
 * Das Profilskript muss ausgeführt werden, bevor die Aktivität gestartet wird, und das Skript muss unverändert bleiben, während die Aktivität ausgeführt wird.
-* This technique reduces the amount of traffic in the activity, which might require the activity to run longer. Sie müssen diesen Umstand berücksichtigen, wenn Sie die Dauer der Aktivität schätzen.
+* Auf diese Weise wird der Traffic in der Aktivität reduziert, was eine längere Ausführung der Aktivität erfordern könnte. Sie müssen diesen Umstand berücksichtigen, wenn Sie die Dauer der Aktivität schätzen.
 
 ## Einrichten von zwei Aktivitäten
 
