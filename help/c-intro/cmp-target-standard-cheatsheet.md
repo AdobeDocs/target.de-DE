@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2901'
 ht-degree: 98%
 
 ---
@@ -237,7 +237,7 @@ Verwenden Sie den [formularbasierten Ansatz](/help/c-experiences/form-experience
 
 **Kann ich sichergehen, dass einem Benutzer über allen seinen Geräten dasselbe Erlebnis auf konsistente Weise bereitgestellt wird?**
 
-Lesen Sie die Informationen zur [Gerätekooperation](https://docs.adobe.com/content/help/en/device-co-op/using/home.html), wodurch Sie mehrere Geräte eines Benutzers durch die Leistung einer Kooperation deterministisch und probabilistisch miteinander verknüpfen können.
+Lesen Sie die Informationen zur [Gerätekooperation](https://experienceleague.adobe.com/docs/device-co-op/using/home.html), wodurch Sie mehrere Geräte eines Benutzers durch die Leistung einer Kooperation deterministisch und probabilistisch miteinander verknüpfen können.
 
 Wenn Sie sich in der Kooperation befinden, kann die Funktion mithilfe einer einfachen Markierung auf der Seite „Ziele und Einstellungen“ aktiviert werden. Die Berichterstellung wird nun so geändert, dass anstelle von Besuchern Personen berücksichtigt werden. Wenden Sie sich an Ihren Adobe-Kontakt, um weitere Informationen über diese nicht in allen Regionen verfügbare Funktion zu erhalten.
 
