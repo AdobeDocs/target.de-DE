@@ -2,9 +2,8 @@
 description: Manchmal verlaufen Aktivitäten nicht erwartungsgemäß. Im Folgenden finden Sie einige potenzielle Herausforderungen, die sich möglicherweise aus der Verwendung der automatisierten Personalisierung ergeben, sowie die jeweils vorgeschlagenen Lösungen.
 title: Fehlerbehebung bei der automatisierten Personalisierung
 feature: ap
-uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 94%
@@ -40,7 +39,7 @@ Es sind verschiedene Faktoren erforderlich, damit eine Aktivität vom Typ „Aut
 
 ## Die Aktivitäts-URL meiner automatisierten Personalisierung zeigt Angebotsinhalte auf falschen Seiten an.  {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Once a user qualifies for an activity, the Target-request-level targeting rules are not re-evaluated. Die Zielgruppe wird jedoch zu Standort-Targeting-Regeln hinzugefügt.
+In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Sobald sich ein Benutzer für eine Aktivität qualifiziert hat, werden die Targeting-Regeln auf Zielgruppe-Anforderungsebene nicht erneut bewertet. Die Zielgruppe wird jedoch zu Standort-Targeting-Regeln hinzugefügt.
 
 **Lösung:** Fügen Sie die erforderlichen Vorlagenregeln als Eingabezielgruppe der Kampagne hinzu. Eine Zielgruppenprüfung findet bei jeder Anforderung/jedem Aufruf statt.
 
