@@ -3,12 +3,11 @@ keywords: catalog;search
 description: Die Katalogsuche in Adobe Target hilft Ihnen dabei, Produkte oder Inhalte in Ihrem Katalog zu finden.
 title: Katalogsuche in Adobe Target
 feature: catalog
-uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1016'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -156,7 +155,7 @@ Sie können der Seite &quot; [!UICONTROL Katalogsuche] &quot;weitere Filterfacet
 
 1. Wählen Sie die gewünschten Suchfelder aus (ID, Name, Nachricht usw.).
 
-   ![hinzufügen Filter](/help/c-recommendations/c-products/assets/add-filters.png)
+   ![Filter hinzufügen](/help/c-recommendations/c-products/assets/add-filters.png)
 
 Beachten Sie, dass die zusätzlichen Filter-Facetten nur in der aktuellen Sitzung verfügbar sind.
 
