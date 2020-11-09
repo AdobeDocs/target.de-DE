@@ -6,9 +6,9 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1474'
 ht-degree: 68%
 
 ---
@@ -156,7 +156,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       ![](assets/property_token_2.png)
 
-      Weitere Informationen finden Sie unter [Globale Parameter - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target) in der *Produktdokumentation des Dynamic Tag Management*.
+      Weitere Informationen finden Sie unter [Globale Parameter - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target) in der *Produktdokumentation des Dynamic Tag Management*.
 
    * **Über die Funktion targetPageParams():** Fügen Sie den folgenden Code in die `<head>` Tags oberhalb des Verweises auf at.js oder mbox.js ein.
 
