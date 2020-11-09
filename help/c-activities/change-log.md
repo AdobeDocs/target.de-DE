@@ -2,10 +2,8 @@
 description: Im Änderungsprotokoll befindet sich ein Datensatz zu den Personen, die Ihre Aktivitäten geändert haben; er gibt auch den Zeitpunkt dieser Änderungen an.
 title: Aktivität-Änderungsprotokoll in Adobe Target
 feature: activities
-topic: Advanced
-uuid: 5bf4d79f-f15b-4ac4-9303-8eb2de5729d6
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 93%
