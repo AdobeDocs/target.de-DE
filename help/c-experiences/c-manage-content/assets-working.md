@@ -5,10 +5,10 @@ title: Arbeiten mit Inhalten in der Bibliothek
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 96%
+source-wordcount: '511'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Informationen über die Aufgaben, die Sie für ein Asset in der Inhalte-Biblioth
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden. (4:56)
 
-* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) und der Target-Inhaltsbibliothek
+* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) und der Target-Inhaltsbibliothek
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 
