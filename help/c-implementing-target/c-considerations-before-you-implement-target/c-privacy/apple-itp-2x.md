@@ -1,14 +1,14 @@
 ---
 keywords: apple;ITP;intelligent tracking prevention
-description: Information about Adobe Target support for Apple’s ITP 2.x via the Experience Cloud ID (ECID) library 4.3.
+description: Informationen zur Adobe Target-Unterstützung für ITP 2.x von Apple über die Experience Cloud-ID (ECID)-Bibliothek 4.3.
 title: Unterstützung von Adobe Target und Apple ITP
 feature: privacy and security
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '883'
 ht-degree: 54%
 
 ---
@@ -30,7 +30,7 @@ Die unten angegebenen ITP-Versionen beinhalten die folgenden Einschränkungen:
 
 [!DNL Target] stellt Ihnen JavaScript-Bibliotheken bereit, die Sie auf Ihren Seiten verwenden können, sodass [!DNL Target] Ihren Besuchern Echtzeit-Personalisierung bieten kann. Es gibt drei Target-JavaScript-Bibliotheken ([at. js 1,x, at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md), and [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) that place client-side [!DNL Target] cookies on your visitors&#39; browsers via the `document.cookie` API. As a result, [!DNL Target] cookies are impacted by Apple’s ITP 2.x and will expire after seven days (with ITP 2.1) and after one day (with ITP 2.2 and ITP 2.3).
 
-Auswirkungen von Apple ITP 2.x [!DNL Target] auf die folgenden Bereiche:
+Die Auswirkungen von Apple ITP 2.x auf [!DNL Target] die folgenden Bereiche:
 
 | Wirkung | Details |
 | --- | --- |
@@ -53,13 +53,13 @@ Um die Auswirkungen künftiger ITP 2.x-Versionen auf die Zielgruppe zu mildern, 
 
    Die ECID-Bibliothek ermöglicht das Personenidentifizierungs-Framework für die Experience Cloud Core-Lösungen. Mit der ECID-Bibliothek können Sie dieselben Site-Besucher und deren Daten in verschiedenen Experience Cloud-Lösungen identifizieren, indem Sie persistente und eindeutige IDs zuweisen. Die ECID-Bibliothek wird häufig aktualisiert, damit Sie etwaige ITP-bezogenen Änderungen umgehen können, die sich auf Ihre Implementierung auswirken.
 
-   Für ITP 2.x muss die [ECID-Bibliothek 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) für die Minderung verwendet werden.
+   Für ITP 2.x muss die [ECID-Bibliothek 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) für die Minderung verwendet werden.
 
 1. Verwenden Sie den CNAME von Adobe und melden Sie sich für das Managed Certificate Program von Adobe Analytics an.
 
    Nach der Installation der ECID-Bibliothek 4.3.0+ können Sie den CNAME und das Managed Certificate Program von Adobe Analytics nutzen. Mit diesem Programm können Sie kostenlos ein Erstanbieter-Zertifikat für Erstanbieter-Cookies implementieren. Leveraging CNAME will help [!DNL Target] customers mitigate the impact of ITP 2.x.
 
-   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
+   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
 
 Nach der Implementierung einer JavaScript-Bibliothek von Target in Verbindung mit der ECID-Bibliothek Version 4.3.0 + bereitgestellt und der Anmeldung beim Adobe Managed Certificate Program zur Nutzung des CNAME, haben Sie einen robusten und langfristigen Umgehungsplan für ITP-bezogene Änderungen.
 
