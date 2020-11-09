@@ -3,9 +3,8 @@ keywords: Target;reports;report settings;environment;lift;lift bound;variance;co
 description: Zu den Berichten gehören verschiedene Datenpunkte und Darstellungen zur Visualisierung, mit deren Hilfe Sie die mit Ihrer Adobe Target-Aktivität verbundenen Steigerungs- und Konfidenzniveaus verstehen können, um einen Gewinner genauer zu ermitteln.
 title: Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall
 feature: report settings
-uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 73%
