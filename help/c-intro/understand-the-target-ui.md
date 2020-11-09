@@ -1,12 +1,10 @@
 ---
 keywords: target user interface;user interface;ui
-description: Understanding the Adobe Target user interface
+description: Die Adobe Target-Benutzeroberfläche
 title: Die Benutzeroberfläche der Zielgruppe
 feature: intro
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%
@@ -16,13 +14,13 @@ ht-degree: 28%
 
 # Die Benutzeroberfläche der Zielgruppe
 
-Die Benutzeroberfläche ist in einem logischen und benutzerfreundlichen Format angeordnet, damit Sie das Beste aus dem Programm machen [!DNL Adobe Target]können. The following brief overview will help you get familiarized with [!DNL Target] and provides links for more in-depth information and step-by-step instructions.
+Die Benutzeroberfläche ist in einem logischen und benutzerfreundlichen Format angeordnet, damit Sie das Beste aus dem Programm machen [!DNL Adobe Target]können. Die folgende Kurzübersicht hilft Ihnen, sich mit dem Thema vertraut zu machen [!DNL Target] und enthält Links zu detaillierteren Informationen und Anleitungen.
 
 Die Kopfzeile oben auf der [!DNL Target] Benutzeroberfläche enthält Registerkarten und Optionen, mit denen Sie durch die verschiedenen Funktionen der Lösung navigieren, Organisationen und [!DNL Adobe Experience Cloud] Lösungen wechseln, Hilfe und Benachrichtigungen abrufen, Ihr [!DNL Adobe] Profil verwalten und sich abmelden können [!DNL Target].
 
-![Target header](/help/c-intro/assets/target-header.png)
+![Kopfzeile der Zielgruppe](/help/c-intro/assets/target-header.png)
 
-The tabs along the left side let you access the various capabilities of [!DNL Target], which we&#39;ll discuss later. Lassen Sie uns Beginn machen, indem wir die Optionen auf der rechten Seite diskutieren, bevor wir in die Register springen.
+Über die Registerkarten auf der linken Seite können Sie auf die verschiedenen Funktionen von zugreifen, [!DNL Target]die wir später besprechen werden. Lassen Sie uns Beginn machen, indem wir die Optionen auf der rechten Seite diskutieren, bevor wir in die Register springen.
 
 ## Organisationen
 
