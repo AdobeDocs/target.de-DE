@@ -4,9 +4,9 @@ description: Adobe Target Begrüßungs-Kit - Kapitel 4 - Tipps zur Verwendung de
 title: Adobe Target Begrüßungs-Kit - Kapitel 4 - Tipps zur Verwendung der Zielgruppe
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2882'
+source-wordcount: '2880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Sie können Erlebnisse mit [!DNL Target] Daten sofort personalisieren. Aber Sie 
 
 Beispielsweise können Sie Kaufdaten aus Ihrem Verkaufsort mit einem Besucher-Profil verknüpfen. Erstellen Sie dazu einfach eine CSV-Datei mit bis zu 200 Offline-Variablen und laden Sie sie entweder direkt [!DNL Adobe Experience Cloud] über einen Datei-Upload hoch oder verwenden Sie FTP, um Ihre Datei zu hosten und regelmäßig zu aktualisieren. Sobald sich Ihre Kundenattribute befinden, können Sie sie [!DNL Adobe Experience Cloud]Lösungen zuordnen, z. B. [!DNL Experience Cloud] und [!DNL Adobe Analytics] [!DNL Target] wo sie für Analyse, Tests und Personalisierung verfügbar sein werden.
 
-Eine schrittweise Anleitung finden Sie unter [Benutzerdefinierte Attribute](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) .
+Eine schrittweise Anleitung finden Sie unter [Benutzerdefinierte Attribute](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) .
 
 **Gut zu wissen**: Da [!DNL Target] es sich um eine offene und agnostische Plattform handelt, die mit verschiedenen Technologien gut funktioniert, können Sie CRM- oder erworbene Daten auf viele verschiedene Arten hinzufügen. Das bedeutet, dass Sie eine Methode wählen können, die für Ihr Unternehmen am besten geeignet ist.
 
@@ -124,7 +124,7 @@ Anstatt einen großen Test mit mehreren Variablen und einer komplexen Entwicklun
 
 ## Tipp 14: Maximieren Sie Ihre Testauswirkungen, indem Sie Tests näher am Ende des Konversionstrichter durchführen.
 
-Wenn Sie so nahe an der Seite testen, auf der Besucher auf &quot;Kauf abschließen&quot;, &quot;Anwendung senden&quot;oder auf andere Weise eine Konversion abschließen, erzielen Sie in der Regel die wirkungsvollsten Ergebnisse. Besucher, die das Trichterende erreichen, sind qualifiziert, haben mehr Zeit investiert und sind bereit zu kaufen. Testen Sie daher Einblicke in ihre Präferenzen und Aktionen, um rentable Änderungen vorzunehmen. Da Seiten auf dem Kaufpfad für die Konversionsraten entscheidend sind, sollten auf diesen Seiten durchgeführte Tests mit wichtigen Interessenträgern verknüpft werden, bevor sie veröffentlicht werden.
+Wenn Sie so nahe an der Seite testen, auf der Besucher auf &quot;Kauf abschließen&quot;, &quot;Anwendung senden&quot;oder auf andere Weise eine Konversion abschließen, erzielen Sie mit der besten Wirkung die besten Ergebnisse. Besucher, die das Trichterende erreichen, sind qualifiziert, haben mehr Zeit investiert und sind bereit zu kaufen. Testen Sie daher Einblicke in ihre Präferenzen und Aktionen, um rentable Änderungen vorzunehmen. Da Seiten auf dem Kaufpfad für die Konversionsraten entscheidend sind, sollten auf diesen Seiten durchgeführte Tests mit wichtigen Interessenträgern verknüpft werden, bevor sie veröffentlicht werden.
 
 ![Umrechnungstrichterdarstellung](/help/c-intro/assets/conversion-funnel.png)
 
