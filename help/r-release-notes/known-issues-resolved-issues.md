@@ -5,10 +5,10 @@ title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3897'
-ht-degree: 77%
+source-wordcount: '3895'
+ht-degree: 78%
 
 ---
 
@@ -113,7 +113,7 @@ Wenn eine Erfolgsmetrik bei jeder Impression erhöht werden soll, zählt Target 
 
 ### Analytics for Target (A4T)
 
-Wenden Sie bei Verwendung von Impressionen und Konversionen der Zielgruppe in Analysis Workspace das Attribution IQ-Modell &quot;Gleich Touch&quot;auf die Metriken an, um eine genaue Zählung sicherzustellen. Um ein [nicht standardmäßiges Zuordnungsmodell](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)anzuwenden, klicken Sie mit der rechten Maustaste auf die Metrik, um die Spalteneinstellungen zu **ändern. Aktivieren Sie &quot;Nicht standardmäßiges Zuordnungsmodell verwenden&quot;> &quot;Gleiches Touch-Modell**&quot;auswählen. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
+Wenden Sie bei Verwendung von Impressionen und Konversionen der Zielgruppe in Analysis Workspace das Attribution IQ-Modell &quot;Gleich Touch&quot;auf die Metriken an, um eine genaue Zählung sicherzustellen. Um ein [nicht standardmäßiges Zuordnungsmodell](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)anzuwenden, klicken Sie mit der rechten Maustaste auf die Metrik, um die Spalteneinstellungen zu **ändern. Aktivieren Sie &quot;Nicht standardmäßiges Zuordnungsmodell verwenden&quot;> &quot;Gleiches Touch-Modell**&quot;auswählen. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
 
 Alle aktuellen Analytics-Pakete können dieses Modell mit Attribution IQ hinzufügen. Wenn Sie keinen Zugriff auf Attribution IQ haben, verlassen Sie sich bitte auf A4T-Daten in Reports &amp; Analysen.
 
