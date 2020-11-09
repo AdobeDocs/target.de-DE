@@ -3,9 +3,8 @@ keywords: automated traffic allocation;targeting;auto-allocate
 description: Die Funktion „Automatisch zuweisen“ identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und ordnet dem Gewinner automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.
 title: Die automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und mehr Umsatz als ein manueller Test liefern
 feature: auto-allocate
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 5%
@@ -41,9 +40,9 @@ Im folgenden Beispiel erzielte die [!UICONTROL automatisierte Zuordnung] währen
 
 ![Die automatische Zuordnung bietet eine bessere Darstellung des Umsatzes.](/help/c-activities/automated-traffic-allocation/assets/five-experiences.png)
 
-## In what cases should I stick with manual traffic allocation?
+## In welchen Fällen sollte ich bei der manuellen Traffic-Zuordnung bleiben?
 
-Wenn Sie die Rangfolge der einzelnen Erlebnisse im Vergleich zu den anderen festlegen müssen, ist ein manueller A/B-Test am besten geeignet. [!UICONTROL Auto-Allocate] finds and exploits top performers but does not guarantee differentiation among the lower performing experiences. Sie sollten die manuelle Traffic-Zuordnung verwenden, um vollständig zu kontrollieren, wie viel Traffic in Ihrem Besucher die einzelnen Testvarianten sieht, und um die statistischen Schwellenwerte anzupassen, die für Ihr Unternehmen relevant sind.
+Wenn Sie die Rangfolge der einzelnen Erlebnisse im Vergleich zu den anderen festlegen müssen, ist ein manueller A/B-Test am besten geeignet. [!UICONTROL Die automatisierte Zuordnung] findet und nutzt die leistungsstärksten Erlebnisse, garantiert jedoch keine Differenzierung zwischen den leistungsschwächeren Erlebnissen. Sie sollten die manuelle Traffic-Zuordnung verwenden, um vollständig zu kontrollieren, wie viel Traffic in Ihrem Besucher die einzelnen Testvarianten sieht, und um die statistischen Schwellenwerte anzupassen, die für Ihr Unternehmen relevant sind.
 
 ## Erste Schritte
 
