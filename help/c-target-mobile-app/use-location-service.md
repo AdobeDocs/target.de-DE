@@ -5,10 +5,10 @@ title: Standortdienst verwenden
 feature: mobile implementation
 topic: Target
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 4%
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +19,6 @@ Der Standort ist ein wichtiger Kontext für das Verständnis und die Interaktion
 
 Adobe Experience Platform Location Service (Location Service) ist ein Geo-Location-Service, mit dem mobile Apps mit Standortbewusstsein den Standortkontext verstehen können. Dazu werden umfangreiche und benutzerfreundliche SDK-Schnittstellen sowie eine flexible Datenbank mit POIs (Points of Interest) verwendet.
 
-Sie können den Location Service mit Zielgruppe verwenden, um die Regeln in [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) zu nutzen, um Ihre Ortsdaten an Ihre Adobe Target SDK-Ereignis anzuhängen.
+Sie können den Location Service mit Zielgruppe verwenden, um die Regeln in [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) zu nutzen, um Ihre Ortsdaten an Ihre Adobe Target SDK-Ereignis anzuhängen.
 
-Weitere Informationen finden Sie unter [Verwenden des Location Service mit Adobe Target](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-target/places-target.html) im Handbuch zum [Adobe Experience Platform Location Service](https://docs.adobe.com/content/help/en/places/using/home.html).
+Weitere Informationen finden Sie unter [Verwenden des Location Service mit Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) im Handbuch zum [Adobe Experience Platform Location Service](https://experienceleague.adobe.com/docs/places/using/home.html).
