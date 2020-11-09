@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 35%
 
 ---
@@ -52,7 +52,7 @@ Darüber [!DNL Analytics]hinaus stehen nach Aktivierung der A4T-Integration vers
 * [!UICONTROL Aktivitäten-Impressionen] - Entspricht der [!UICONTROL Anzahl der Teilnehmer] im [!DNL Target] Bericht.
 * [!UICONTROL Aktivitäten-Konversionen] - Entspricht der [!UICONTROL benutzerspezifischen Konversionsnummer] im [!DNL Target] Bericht.
 
-Verwenden Sie [!DNL Analysis Workspace]das Bedienfeld [!UICONTROL Analytics für Zielgruppen] , um Ihre [!DNL Target] Aktivitäten und Erlebnisse mit Steigerung und Konfidenz zu analysieren. Weitere Informationen finden Sie im Bedienfeld [&quot;](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Zielgruppe&quot;(A4T) im *Analytics-Tools-Handbuch*.
+Verwenden Sie [!DNL Analysis Workspace]das Bedienfeld [!UICONTROL Analytics für Zielgruppen] , um Ihre [!DNL Target] Aktivitäten und Erlebnisse mit Steigerung und Konfidenz zu analysieren. Weitere Informationen finden Sie im Bedienfeld [&quot;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Zielgruppe&quot;(A4T) im *Analytics-Tools-Handbuch*.
 
 >[!IMPORTANT]
 >
