@@ -3,9 +3,8 @@ keywords: content library;assets;annotate;copy;delete asset;download asset;edit 
 description: Es gibt eine Reihe von Aufgaben, die Sie für ein Asset in der Bibliothek durchführen können.
 title: Arbeiten mit Inhalten in der Bibliothek
 feature: offers
-uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 97%
