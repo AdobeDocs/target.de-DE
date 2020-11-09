@@ -3,11 +3,8 @@ keywords: implement;implementing;setting up;setup;page parameter;tomcat;url enco
 description: Informationen über die verschiedenen Verfahren, die Sie verwenden können, um Daten in Target zu übertragen, einschließlich der Seitenparameter, der Profilattribute innerhalb der Seite, der Skriptprofilattribute, der Datenanbieter, der Bulk-Profilupdate-API, der Single-Profilupdate-API und der Kundenattribute.
 title: Verfahren für die Datenübernahme in Target
 feature: implementation general
-subtopic: Getting Started
-topic: Standard
-uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 97%
