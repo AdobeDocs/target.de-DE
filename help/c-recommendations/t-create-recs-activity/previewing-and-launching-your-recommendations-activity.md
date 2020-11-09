@@ -3,9 +3,8 @@ keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Aktivität (XT) mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie diese Vorschau durchführen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Zielgruppe Recommendations Angebote bietet mehrere Möglichkeiten, Ihre Empfehlungen Vorschau. '
 title: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Aktivität (XT) mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie diese Vorschau durchführen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Zielgruppe Recommendations Angebote bietet mehrere Möglichkeiten, Ihre Empfehlungen Vorschau. '
 feature: recs creation
-subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 8ae2bf479a9b53693f830515aee55573987bb05b
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 16%
