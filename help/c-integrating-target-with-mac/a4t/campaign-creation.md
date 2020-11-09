@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1391'
 ht-degree: 18%
 
 ---
@@ -145,4 +145,4 @@ Einige Einschränkungen und Hinweise gelten für die automatische Zuordnung und 
 * [!UICONTROL Die Auto-Zielgruppe] trainiert wie gewohnt alle 24 Stunden. Konversionsdaten aus dem Ereignis [!DNL Analytics] werden jedoch um weitere sechs bis 24 Stunden verzögert. Diese Verzögerung bedeutet, dass die Verteilung des Traffics durch [!DNL Target] wird die neuesten Ereignis aufgezeichnet in [!DNL Analytics]. Dies wird die größte Wirkung in den ersten 48 Stunden nach dem ersten Aktivieren einer Aktivität haben. Die Performance der Aktivität spiegelt das [!DNL Analytics] Konversionsverhalten nach Ablauf von fünf Tagen stärker wider. Sie sollten die Verwendung der [!UICONTROL automatischen Zuordnung] anstelle der [!UICONTROL automatischen Zielgruppe] für Aktivitäten mit kurzer Dauer in Erwägung ziehen, bei denen der meisten Traffic innerhalb der ersten fünf Lebensjahre der Aktivität auftritt.
 * Bei Verwendung [!DNL Analytics] als Datenquelle für eine [!UICONTROL Auto-Zielgruppe] -Aktivität werden Sitzungen nach Ablauf von sechs Stunden als beendet betrachtet. Konversionen, die nach sechs Stunden auftreten, werden nicht gezählt.
 
-Weitere Informationen finden Sie unter [Zuordnungsmodelle und Lookback-Fenster](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) im Handbuch *Analytics-Tools*.
+Weitere Informationen finden Sie unter [Zuordnungsmodelle und Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) im Handbuch *Analytics-Tools*.
