@@ -3,10 +3,8 @@ keywords: variables;profiles;parameters;built in profiles;methods;url variables;
 description: Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten nützlich sind.
 title: Nützliche Variablen, Profile, Parameter und Methoden
 feature: visitor profiles
-topic: Standard
-uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 92%
