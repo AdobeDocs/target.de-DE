@@ -3,10 +3,8 @@ keywords: audience;audience rules;create audience;creating audience;activity onl
 description: Erstellen Sie Zielgruppen „Nur Aktivität“ innerhalb des geleiteten Arbeitsablaufs mit drei Schritten in Adobe Target, während Sie eine Aktivität erstellen. Diese Ad-hoc-Zielgruppen können an anderen Orten innerhalb derselben Aktivität verwendet werden, werden aber nicht in der Zielgruppenbibliothek gespeichert und können nicht in anderen Aktivitäten verwendet werden.
 title: Erstellen einer Zielgruppe „Nur Aktivität“  in Adobe Target
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
