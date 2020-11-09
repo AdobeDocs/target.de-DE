@@ -3,9 +3,8 @@ keywords: criteria;algorithm;industry vertical;page type;recommendation key;reco
 description: Kriterien steuern den Inhalt Ihrer Adobe Recommendations-Aktivitäten. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen.
 title: Erstellen von Kriterien
 feature: criteria
-uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
