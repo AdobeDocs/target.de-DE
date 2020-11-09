@@ -4,9 +4,9 @@ title: Bereitstellung von „at.js“ in einer Nicht-Produktionsumgebung
 feature: null
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 92%
 
 ---
@@ -22,7 +22,7 @@ Wenn Sie DTM verwenden, können Sie at.js ganz einfach in Ihrer Adobe Target-Too
 
 Speichern Sie die Bibliothek und verwenden Sie das DTM-Wechseltool, um sie mit Ihrem Produktionscode zu testen. Dadurch können Sie Ihre Adobe-Berater auch besser unterstützen.
 
-Weitere Informationen finden Sie unter [Option 3: Manuelle Implementierung von Target mit in DTM gehosteter JavaScript-Target-Bibliothek](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) im Abschnitt *Best Practices zur Implementierung von Adobe Target mit Dynamic Tag Management*.
+Weitere Informationen finden Sie unter [Option 3: Manuelle Implementierung von Target mit in DTM gehosteter JavaScript-Target-Bibliothek](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) im Abschnitt *Best Practices zur Implementierung von Adobe Target mit Dynamic Tag Management*.
 
 ## Chrome-Erweiterung „Requestly“ zum Zuordnen einer anderen Datei verwenden
 
