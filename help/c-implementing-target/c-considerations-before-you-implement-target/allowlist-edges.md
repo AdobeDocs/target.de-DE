@@ -3,10 +3,8 @@ keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;
 description: Adobe Target-Edge-Knoten in Zulassungslisten
 title: Adobe Target-Edge-Knoten in Zulassungslisten
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 Informationen und eine aktuelle Liste von Hosts, die Sie bei der Zulassungsliste von Adoben [!DNL Target] unterstützen.
 
-Eine Kante ist eine geografisch verteilte Serving-Architektur, die Endbenutzern, die Inhalte anfordern, optimale Reaktionszeiten gewährleistet, unabhängig davon, wo sie sich auf der ganzen Welt befinden. Each edge node has all the information required to respond to the user&#39;s content request and to track analytics data on that request. Benutzeranforderungen werden an den nächsten Edge-Knoten weitergeleitet. Weitere Informationen finden Sie unter [Das Edge-Netzwerk](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Funktionsweise der Adobe[!DNL Target]*.
+Eine Kante ist eine geografisch verteilte Serving-Architektur, die Endbenutzern, die Inhalte anfordern, optimale Reaktionszeiten gewährleistet, unabhängig davon, wo sie sich auf der ganzen Welt befinden. Jeder Edge-Knoten verfügt über alle erforderlichen Informationen, um auf die Inhaltsanforderung des Benutzers zu reagieren und Analysedaten zu dieser Anforderung zu verfolgen. Benutzeranforderungen werden an den nächsten Edge-Knoten weitergeleitet. Weitere Informationen finden Sie unter [Das Edge-Netzwerk](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Funktionsweise der Adobe [!DNL Target]*.
 
 Sie können bei Bedarf [!DNL Target] Edge-Knoten in Zulassungslisten einfügen.
 
