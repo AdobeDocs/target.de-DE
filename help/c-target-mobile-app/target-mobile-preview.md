@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 93%
+source-wordcount: '583'
+ht-degree: 94%
 
 ---
 
@@ -32,8 +32,8 @@ Mit der mobilen Vorschaufunktionalität können Sie Aktivitäten in Ihrer mobile
 
    Eine Anleitung zum Herunterladen des erforderlichen SDK finden Sie unter:
 
-   * **iOS:** [Vor dem Beginn](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) in der *Mobile Services iOS-Hilfe*.
-   * **Android:** [Vor dem Beginn](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) in der *Mobile Services-Hilfe*.
+   * **iOS:** [Vor dem Beginn](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) in der *Mobile Services iOS-Hilfe*.
+   * **Android:** [Vor dem Beginn](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) in der *Mobile Services-Hilfe*.
 
 1. **URL-Schema einrichten:** Der Vorschau-Link öffnet Ihre App über ein URL-Schema. Sie müssen ein einzigartiges URL-Schema für die Vorschau festlegen.
 
