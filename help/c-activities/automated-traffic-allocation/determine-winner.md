@@ -3,10 +3,8 @@ keywords: automated traffic allocation;targeting;winner;statistical guarantee;co
 description: Den Gewinner in einer A/B-Aktivität mit automatisierter Zuordnung erkennen Sie an Indikatoren in der Target-Benutzeroberfläche.
 title: Ermitteln eines Gewinners
 feature: auto-allocate
-topic: Standard
-uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 50%
@@ -16,15 +14,15 @@ ht-degree: 50%
 
 # Berichte zur automatischen Zuordnung interpretieren {#determine-a-winner}
 
-Interpret the results of an Auto-Allocate A/B activity by examining important indicators, including lift and confidence, in the Target UI.
+Interpretieren Sie die Ergebnisse einer A/B-Aktivität mit automatisierter Zuordnung, indem Sie wichtige Indikatoren wie Steigerung und Konfidenz in der Benutzeroberfläche der Zielgruppe untersuchen.
 
 Viele Marketingexperten machen den Fehler, ein Erlebnis vorzeitig zum Gewinner zu erklären, bevor endgültige Ergebnisse vorliegen. Wir haben es nun leichter für Sie gemacht, den Gewinner zu ermitteln.
 
 >[!NOTE]
 >
->For general information about declaring a winner, see [Ten common A/B testing pitfalls and how to avoid them](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
+>Allgemeine Informationen zum Gewinner finden Sie unter [Zehn häufige A/B-Testfallen und wie diese](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)vermieden werden können.
 
-## Identify the winning experience {#section_24007470CF5B4D30A06610CE8DD23CE3}
+## Identifizieren Sie das erfolgreichste Erlebnis. {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
 Bei der Verwendung der Funktion [!UICONTROL „Automatisierte Zuordnung“] zeigt [!DNL Target] oben auf der Seite der Aktivität ein Abzeichen mit „Noch kein Gewinner“ an, bis die Aktivität die Mindestanzahl an Konversionen mit ausreichender Konfidenz erreicht hat.
 
@@ -50,15 +48,15 @@ Bei normalen A/B-Tests wird die Konfidenz basierend auf P-Werten berechnet. Für
 
 >[!IMPORTANT]
 >
->Target shows a winner after a predefined minimum number of conversions; however, the final decision to pick the winner should always be on the results of the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html). Target does not consider the base conversion rates of a site and other important aspects that are fed into the calculator to determine the duration of the activity. As a result, Target might display a winner earlier than warranted on the basis of a minimum number of conversions. For more information, see [Sample Size Calculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Zielgruppe zeigt einen Gewinner nach einer vordefinierten Mindestanzahl an Konversionen an; Die endgültige Entscheidung, den Gewinner auszuwählen, sollte jedoch stets auf den Ergebnissen des Adobe Target- [Stichprobengrößenrechners](https://docs.adobe.com/content/target-microsite/testcalculator.html)basieren. Zielgruppe berücksichtigt nicht die grundlegenden Konversionsraten einer Site und andere wichtige Aspekte, die in den Rechner eingespeist werden, um die Dauer der Aktivität zu bestimmen. Infolgedessen könnte die Zielgruppe aufgrund einer Mindestanzahl von Konversionen einen Gewinner früher als erforderlich anzeigen. Weitere Informationen finden Sie unter [Stichprobengrößenrechner](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Lift- und Confidence-Berichte in Aktivitäten mit automatisierter Zuordnung verstehen {#lift-confidence}
 
-In Auto-Allocate activities, the first experience (by default named Experience A) is always defined as a “Control” experience on the Reports tab. This experience is not treated as a true statistical control in the modeling used to determine the performance of experiences, but it is treated as a reference or baseline for some figures in the report.
+In Aktivitäten mit automatisierter Zuordnung wird das erste Erlebnis (standardmäßig Erlebnis A genannt) auf der Registerkarte &quot;Berichte&quot;immer als Kontrollerlebnis definiert. Dieses Erlebnis wird bei der Modellierung zur Bestimmung der Leistung von Erlebnissen nicht als echte statistische Kontrolle behandelt, sondern als Referenz oder Grundlage für einige Zahlen im Bericht.
 
-The &quot;Lift” numeric value and 95% bounds for each experience are always calculated with reference to the defined “Control” experience. The defined “Control” experience cannot have lift relative to itself, so a blank “---” value is reported for this experience. Im Gegensatz zu A/B-Tests wird bei Tests mit automatisierter Zuordnung kein negativer Steigerungswert gemeldet, wenn ein Erlebnis schlechter als die definierte Kontrolle ausfällt. stattdessen wird &quot;—&quot;angezeigt.
+Der numerische Wert &quot;Steigerung&quot;und die Grenzen von 95 % für jedes Erlebnis werden immer unter Bezugnahme auf das definierte Erlebnis &quot;Kontrolle&quot;berechnet. Das definierte Kontrollerlebnis kann keine Steigerung im Verhältnis zu sich selbst aufweisen. Daher wird für dieses Erlebnis ein leerer &quot;—&quot;-Wert gemeldet. Im Gegensatz zu A/B-Tests wird bei Tests mit automatisierter Zuordnung kein negativer Steigerungswert gemeldet, wenn ein Erlebnis schlechter als die definierte Kontrolle ausfällt. stattdessen wird &quot;—&quot;angezeigt.
 
-The displayed Confidence Interval bars represent the 95% confidence interval around the mean estimate of an experience’s conversion rate. Diese sind auch in Bezug auf das definierte Kontrollerlebnis farbkodiert. Die Leiste des Erlebnisses &quot;Control&quot;ist immer grau gefärbt. Die Teile der Konfidenzintervalle unter dem Konfidenzintervall des &quot;Control&quot;-Erlebnisses sind rot und die Teile der Konfidenzintervalle über dem Kontrollerlebnis grün.
+Die angezeigten Vertrauensbereich-Balken stellen das Konfidenzintervall von 95 % um die mittlere Schätzung des Konversionsraten eines Erlebnisses dar. Diese sind auch in Bezug auf das definierte Kontrollerlebnis farbkodiert. Die Leiste des Erlebnisses &quot;Control&quot;ist immer grau gefärbt. Die Teile der Konfidenzintervalle unter dem Konfidenzintervall des &quot;Control&quot;-Erlebnisses sind rot und die Teile der Konfidenzintervalle über dem Kontrollerlebnis grün.
 
 Ein Gewinner wird gefunden, wenn sich das 95 %-Vertrauensintervall des führenden Erlebnisses nicht mit anderen Erlebnissen überschneidet. Das Gewinner-Erlebnis wird mit einem grünen Sternzeichen links neben dem Erlebnisnamen und im Banner &quot;Gewinner&quot;gekennzeichnet. Wenn kein Stern sichtbar ist, lautet das Banner &quot;Noch kein Gewinner&quot;und ein Gewinner wurde noch nicht gefunden.
 
