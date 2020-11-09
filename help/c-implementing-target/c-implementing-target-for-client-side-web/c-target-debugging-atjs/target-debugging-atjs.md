@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 82%
+source-wordcount: '180'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ Informationen zur Verwendung des Adobe Experience Cloud-Debuggers, einer Erweite
 
 Hier können Sie schnell Ihre Bibliothekskonfiguration anzeigen, Anfragen untersuchen, um sicherzustellen, dass Ihre benutzerspezifischen Parameter ordnungsgemäß übergeben werden, die Konsolenprotokollierung aktivieren sowie alle Target-Anfragen deaktivieren. Nach Authentifizierung bei der Experience Cloud können Sie das leistungsstarke Tool „Mbox Trace“ verwenden, um Ihre Aktivität und Ihre Zielgruppenqualifikationen sowie Ihr Besucherprofil zu untersuchen.
 
-Weitere Informationen finden Sie in der [Dokumentation der Adobe Experience Cloud-Debugger-Erweiterung](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html). Informationen speziell für Target finden Sie im Abschnitt [Tools](https://docs.adobe.com/content/help/en/debugger/using/tools.html).
+Weitere Informationen finden Sie in der [Dokumentation der Adobe Experience Cloud-Debugger-Erweiterung](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html). Informationen speziell für Target finden Sie im Abschnitt [Tools](https://experienceleague.adobe.com/docs/debugger/using/tools.html).
 
 ## Schulungsvideos
 
