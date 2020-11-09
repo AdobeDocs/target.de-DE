@@ -3,9 +3,8 @@ keywords: report;reports;reporting;experience cloud solution;timezone;time zone;
 description: Konfigurieren Sie den Adobe Target Visual Experience Composer (VEC), indem Sie seine allgemeinen Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
 title: Berichte in Adobe Target konfigurieren
 feature: administration general
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 33%
@@ -23,8 +22,8 @@ Auf dieser Seite können Sie die folgenden Einstellungen festlegen:
 
 * Adobe Experience Cloud-Lösung für den Berichte
 * Die für den Berichte zu verwendende Zeitzone
-* The currency to use for reporting
-* IP addresses to exclude from reporting
+* Die für den Berichte zu verwendende Währung
+* IP-Adressen, die vom Berichte ausgeschlossen werden
 * Zeigt eine geschätzte Umsatzsteigerung im Berichte an
 * Eignung für genau festgelegte Prioritäten
 
@@ -42,22 +41,22 @@ Wählen Sie die Berichterstellungsquelle für Ihre Aktivitäten aus; zur Wahl st
 
 Beachten Sie bei der Auswahl der Berichtsquelle folgende Informationen:
 
-* Wenn die Berichtsquelle hier auf **[!DNL Target]** festgelegt ist, dürfen Sie Aktivitäten, die als Berichtsquelle verwenden, nicht aktivieren. [!DNL Analytics] You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
-* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to [!DNL Analytics] in your activity or change the reporting engine to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
+* Wenn die Berichtsquelle hier auf **[!DNL Target]** festgelegt ist, dürfen Sie Aktivitäten, die als Berichtsquelle verwenden, nicht aktivieren. [!DNL Analytics] You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
+* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to [!DNL Analytics] in your activity or change the reporting engine to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
 * If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
-* [!UICONTROL Automated Personalization] (AP) activity creation, activation, and deactivation are allowed irrespective of the reporting source selected. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* [!UICONTROL Die Erstellung, Aktivierung und Deaktivierung von Automated Personalization] -Aktivitäten (AP) sind unabhängig von der ausgewählten Berichte-Quelle zulässig. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
 
-## Timezone for Reporting
+## Zeitzone für Berichte
 
-Specify the time zone to use for reporting.
+Geben Sie die Zeitzone für den Berichte an.
 
-## Currency for Reporting
+## Währung für Berichte
 
-Specify the currency to use for reporting.
+Geben Sie die Währung für den Berichte an.
 
-## IPs to exclude from Target reporting data
+## IPs, die von den Daten des Berichte der Zielgruppe ausgeschlossen werden sollen
 
-Specify any IP addresses that you want to exclude from reporting data. For example, excluding internal company addresses is a good way to ensure that your reporting data reflects customer interactions on your website.
+Geben Sie alle IP-Adressen an, die von den Daten des Berichte ausgeschlossen werden sollen. So können Sie z. B. durch das Ausschließen von Adressen interner Firmen sicherstellen, dass Ihre Berichte-Daten die Interaktionen Ihrer Kunden auf Ihrer Website widerspiegeln.
 
 Geben Sie jede IP-Adresse in eine neue Zeile ein.
 
