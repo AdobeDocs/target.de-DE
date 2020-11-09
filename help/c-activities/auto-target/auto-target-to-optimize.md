@@ -3,10 +3,8 @@ keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq
 description: Die automatische Zielgruppe in Adobe Target verwendet fortschrittliches maschinelles Lernen, um aus mehreren leistungsstarken, von Marketingexperten definierten Erlebnissen auszuwählen, um Inhalte zu personalisieren und Konversionen zu fördern. Automatisches Targeting stellt das benutzerspezifische Erlebnis für jeden Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten voriger Besucher mit ähnlichen Profilen bereit.
 title: Übersicht über die automatische Zielgruppe
 feature: auto-target
-topic: Standard
-uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 7284a37dde0d89e1c81ef3813f98d936a4eced3b
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 86%
@@ -54,7 +52,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
    Traffic aus einem zweiten Satz von Modellen wird für jede Modellgruppe (AP) oder Erlebnis (AT) erstellt. Bei jedem dieser Modelle werden Treffer und Konversionen in allen Umgebung berücksichtigt.
 
-   Anfragen werden daher unabhängig von der Umgebung mit demselben Modell bedient, aber die Datenverkehrsvielfalt sollte von der Standardeinstellung ausgehen, um sicherzustellen, dass das identifizierte Gesamterlebnis mit dem realen Umgebung übereinstimmt.
+   Anfragen werden daher unabhängig von der Umgebung mit demselben Modell bedient, aber die Datenverkehrsvielfalt sollte von der Standardeinstellung ausgehen, um sicherzustellen, dass das identifizierte, insgesamt erfolgreichste Erlebnis mit dem realen Verhalten in Einklang steht.
 
 * Es müssen mindestens zwei Erlebnisse verwendet werden.
 
