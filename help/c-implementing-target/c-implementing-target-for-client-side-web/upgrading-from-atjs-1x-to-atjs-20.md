@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2749'
 ht-degree: 92%
 
 ---
@@ -290,7 +290,7 @@ In Target wird das Drittanbieter-Cookie in `<CLIENTCODE>.tt.omtrdc.net` gespeich
 
 In at.js 2.*x* wird HTTP GET jedoch nicht mehr verwendet, stattdessen wird HTTP POST verwendet. HTTP POST wird jetzt über at.js 2.*x* verwendet, um JSON-Payloads an Target Edge-Server zu senden. Das bedeutet, dass die Weiterleitungsanfrage zur Überprüfung, ob ein Browser Drittanbieter-Cookies unterstützt, jetzt nicht mehr funktioniert. Dies liegt daran, dass HTTP GET-Anfragen idempotent sind, während HTTP POST nicht idempotent ist und nicht willkürlich wiederholt werden darf. Daher wird domänenübergreifendes Tracking in at.js 2.*x* nicht mehr nativ unterstützt. Nur at.js 1.*x* verfügt über native Unterstützung für domänenübergreifendes Tracking.
 
-Wenn Sie domänenübergreifendes Tracking verwenden möchten, müssen Sie die [ECID-Bibliothek v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) in Verbindung mit at.js 2 installieren.*x*. Die ECID-Bibliothek hat den Zweck, persistente IDs zu verwalten, die zur domänenübergreifenden Identifizierung eines Besuchers verwendet werden können.
+Wenn Sie domänenübergreifendes Tracking verwenden möchten, müssen Sie die [ECID-Bibliothek v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) in Verbindung mit at.js 2 installieren.*x*. Die ECID-Bibliothek hat den Zweck, persistente IDs zu verwalten, die zur domänenübergreifenden Identifizierung eines Besuchers verwendet werden können.
 
 >[!NOTE]
 >
