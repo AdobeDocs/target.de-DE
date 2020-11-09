@@ -4,9 +4,9 @@ description: Durch die Verwendung von Adobe Analytics als verhaltensbasierte Dat
 title: Verwenden von Adobe Analytics mit Zielgruppe Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1022'
 ht-degree: 2%
 
 ---
@@ -49,7 +49,7 @@ Ein [!DNL Target Recommendations] Beispiel-Feed-Format dient als Leitfaden, an d
 >
 >Wenn es sich um eine Content-Site handelt, müssen die entsprechenden Inhaltselemente als &quot;Produkte&quot;und zugehörige Attribute zu diesem Inhalt behandelt werden (Beispiel: Autorenname, Veröffentlichungsdatum, Inhaltstitel, Veröffentlichungsmonat usw.) muss als Attribute weitergegeben werden. Die Granularität der Kategorie oder der Kategorie sollte vom Unternehmen auf der Grundlage von Anwendungsfällen festgelegt werden.
 
-Weitere Informationen zum Einrichten von Produktvariablen finden Sie unter [Produkte](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/products.html) im *Analytics-Implementierungshandbuch*. Einige der Hinweise in dieser Dokumentation erfordern einen Ermessensspielraum des Teams, das sie bereitstellt (Beispiel: Kategorie). Es wird immer empfohlen, sich vor dieser Aktivität mit der Adobe zu beraten.
+Weitere Informationen zum Einrichten von Produktvariablen finden Sie unter [Produkte](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) im *Analytics-Implementierungshandbuch*. Einige der Hinweise in dieser Dokumentation erfordern einen Ermessensspielraum des Teams, das sie bereitstellt (Beispiel: Kategorie). Es wird immer empfohlen, sich vor dieser Aktivität mit der Adobe zu beraten.
 
 ### Zu beachten
 
