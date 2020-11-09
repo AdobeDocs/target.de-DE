@@ -3,9 +3,8 @@ keywords: Targeting
 description: Der wichtigste Personalisierungsalgorithmus von Target, der sowohl in der automatisierten Personalisierung als auch im automatischen Targeting verwendet wird, ist Random Forest. Ensemble-Methoden wie Random Forest verwenden mehrere Lernalgorithmen, um eine bessere Prognoseleistung zu erzielen, als dies bei der isolierten Verwendung dieser Lernalgorithmen möglich wäre. Der Random Forest-Algorithmus der automatisierten Personalisierung ist eine Classification- oder Regressionsmethode, deren Funktionsweise die Konstruktion einer Vielzahl von Entscheidungsbäumen während der Anlernzeit zugrunde liegt.
 title: Random-Forest-Algorithmus
 feature: ap
-uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 99%
