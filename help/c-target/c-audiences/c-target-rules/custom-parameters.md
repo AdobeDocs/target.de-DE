@@ -3,10 +3,8 @@ keywords: custom parameters;target custom parameters;targetpageparams;targeting 
 description: Benutzerdefinierte Parameter sind Mbox-Parameter. Wenn Sie Mbox-Parameter an Mboxes übergeben oder die Funktion „targetPageParams“ verwenden, werden diese Parameter hier angezeigt und können in Zielgruppen verwendet werden.
 title: Benutzerdefinierte Parameter in Adobe Target
 feature: audiences
-topic: Standard
-uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 90%
