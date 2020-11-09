@@ -6,9 +6,9 @@ feature: offers
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '560'
 ht-degree: 98%
 
 ---
@@ -63,7 +63,7 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 
-* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) und der Target-Inhaltsbibliothek
+* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) und der Target-Inhaltsbibliothek
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 
