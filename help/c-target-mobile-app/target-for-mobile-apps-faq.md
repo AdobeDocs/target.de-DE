@@ -6,27 +6,27 @@ feature: mobile implementation
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
 
 
-# Häufig gestellte Fragen zur Zielgruppe von Apps
+# Häufig gestellte Fragen zur Zielgruppe von mobilen Apps
 
 Liste häufig gestellter Fragen zu [!DNL Target] mobilen Apps.
 
 ## Soll ich das SDK [!DNL Adobe Experience Platform Launch] bereitstellen oder kann ich das SDK ohne Verwendung bereitstellen? [!DNL Launch]
 
-Das SDK ist auf der [Adobe Marketing Cloud-Git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)verfügbar. Wenn Sie [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html)nicht verwenden, müssen Sie Ihre eigene Einstellungsdatei verwalten und in Ihrer App verwalten.
+Das SDK ist auf der [Adobe Marketing Cloud-Git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)verfügbar. Wenn Sie [Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)nicht verwenden, müssen Sie Ihre eigene Einstellungsdatei verwalten und in Ihrer App verwalten.
 
 ## Welche SDKs stehen heute zur Verfügung?
 
-Die Adobe Experience Platform Mobile SDKs unterstützen derzeit iOS, Android und React. For more information, see the [Adobe Experience Cloud Platform Mobile SDKs guide](https://aep-sdks.gitbook.io/docs/).
+Die Adobe Experience Platform Mobile SDKs unterstützen derzeit iOS, Android und React. Weitere Informationen finden Sie im Handbuch [Adobe Experience Cloud Platform Mobile SDKs](https://aep-sdks.gitbook.io/docs/).
 
-## What is the frequency of the location-based feature, in terms of verification about the latitude and longitude?
+## Wie häufig erfolgt die Überprüfung der Breiten- und Längengrad durch die standortbasierte Funktion?
 
 Weitere Informationen finden Sie in der Dokumentation [zu](https://placesdocs.com/places-services-by-adobe-documentation/) Adoben-Orten.
 
@@ -34,10 +34,10 @@ Weitere Informationen finden Sie in der Dokumentation [zu](https://placesdocs.co
 
 Nein, Sie benötigen at.js nicht, um die mobilen SDKs zu verwenden. at.js ist die [!DNL Target] JavaScript-Bibliothek für Websites. Die Adobe Experience Platform Mobile SDKs sind für mobile Apps vorgesehen.
 
-## Is Target Mobile a functionality of Adobe Target Premium Product SKU only?
+## Ist Zielgruppe Mobile nur eine Funktion der Adobe Target Premium Product SKU?
 
-Nein. Für [!DNL Adobe Target Standard] Kunden können Sie unsere Mobile SDKs nur mit dem [!DNL Target Standard] Mobile App Add-on für A/B-Test- und Erlebnis-Targeting (XT)-Aktivitäten verwenden. If you want to use Recommendations or AI-powered features in the mobile app, you need an [Adobe Target Premium](/help/c-intro/intro.md#premium) license.
+Nein. Für [!DNL Adobe Target Standard] Kunden können Sie unsere Mobile SDKs nur mit dem [!DNL Target Standard] Mobile App Add-on für A/B-Test- und Erlebnis-Targeting (XT)-Aktivitäten verwenden. Wenn Sie Recommendations- oder AI-basierte Funktionen in der mobilen App verwenden möchten, benötigen Sie eine [Adobe Target Premium](/help/c-intro/intro.md#premium) -Lizenz.
 
-## Is there a mobile app integration between Adobe Experience Manager (AEM) and Target mobile activities?
+## Gibt es eine mobile App-Integration zwischen Adobe Experience Manager (AEM) und mobilen Zielgruppe-Aktivitäten?
 
-It is on our roadmap but there is no timeline yet. Currently, you can share JSON [Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) from AEM to Target and there might be potential to then use them in a mobile app activity.
+Es ist auf unserem Fahrplan, aber es gibt noch keinen Zeitplan. Zurzeit können Sie JSON- [Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md) von AEM zu Zielgruppe freigeben, und es besteht möglicherweise die Möglichkeit, sie dann in einer mobilen App-Aktivität zu verwenden.
