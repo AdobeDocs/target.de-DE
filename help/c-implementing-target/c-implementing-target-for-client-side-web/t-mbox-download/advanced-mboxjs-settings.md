@@ -3,9 +3,8 @@ keywords: advanced mbox.js settings;client;server domain;xdomain;compression lev
 description: Informationen, die Sie bei der Festlegung verschiedener Einstellungen auf der „mbox.js“-Einstellungsseite unterstützen.
 title: mbox.js konfigurieren
 feature: null
-uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 91%
@@ -33,7 +32,7 @@ When viewing [!UICONTROL Administration > Implementation], the Client at the top
 
 Zeitüberschreitung der Target-Anfrage.
 
-When viewing [!UICONTROL Administration > Implementation], the Timeout (seconds) setting is your Target request timeout. Standardmäßig ist dieser Wert auf 15 Sekunden festgelegt. Wir empfehlen jedoch, den Wert auf 2–5 Sekunden festzulegen.
+Wenn Sie [!UICONTROL Administration > Implementierung]anzeigen, ist die Einstellung Timeout (Sekunden) der Timeout-Wert Ihrer Zielgruppe. Standardmäßig ist dieser Wert auf 15 Sekunden festgelegt. Wir empfehlen jedoch, den Wert auf 2–5 Sekunden festzulegen.
 
 ## XDomain
 
