@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 92%
+source-wordcount: '402'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die ersten Schritte für [!DNL Target]-Administratoren
 
 Ein Systemadministrator muss Sie in der [!DNL Adobe Admin Console] als Benutzer hinzufügen, indem er Ihnen eine Einladung zu [!DNL Target] schickt. Der Systemadministrator sollte Sie dann zu einer oder mehreren rollenspezifischen Gruppen hinzufügen. Beide Aufgaben werden in der [Adobe Admin Console](https://adminconsole.adobe.com) durchgeführt.
 
-Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in der Hilfe zu *Experience Cloud und Core Services*.
+Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in der Hilfe zu *Experience Cloud und Core Services*.
 
 Nachdem der Systemadministrator diese Schritte durchgeführt hat, erhalten Sie eine Einladungs-E-Mail.
 
