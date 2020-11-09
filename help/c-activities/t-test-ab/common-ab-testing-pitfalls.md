@@ -1,11 +1,10 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: A/B-Tests bilden das Rückgrat der meisten Programme zur Optimierung des digitalen Marketings. Marketingexperten können Ihren Besuchern und Kunden dazu optimierte und zielgerichtete Erlebnisse bieten. This section outlines nine of the most significant pitfalls that companies fall prey to when performing A/B testing in Adobe Target. Er bietet außerdem Wege zur Vermeidung dieser Fehler. So steigert Ihr Unternehmen die Investitionsrendite seiner Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
+description: A/B-Tests bilden das Rückgrat der meisten Programme zur Optimierung des digitalen Marketings. Marketingexperten können Ihren Besuchern und Kunden dazu optimierte und zielgerichtete Erlebnisse bieten. In diesem Abschnitt werden neun der größten Fallstricke beschrieben, denen Firmen beim Durchführen von A/B-Tests in Adobe Target ausgesetzt sind. Er bietet außerdem Wege zur Vermeidung dieser Fehler. So steigert Ihr Unternehmen die Investitionsrendite seiner Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
 title: Neun häufige Fehler bei A/B-Tests und wie diese vermieden werden
 feature: ab
-uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3918'
 ht-degree: 88%
@@ -120,16 +119,16 @@ Wie bei den Problemen mit der Überwachung Ihres Tests ist es auch hier am beste
 ## Pitfall 7: Ändern der Traffic-Zuordnung während des Testzeitraums {#allocation}
 
 Es wird empfohlen, die Traffic-Zuordnungsprozentsätze während des Testzeitraums nicht zu ändern, da dies die Testergebnisse verfälschen kann, bis sich die Daten normalisieren.
-For example, suppose you have an A/B Test activity in which 80% of the traffic is assigned to Experience A (the control) and 20% of the traffic is assigned to Experience B. During the testing period, you change the allocation to 50% for each experience. Einige Tage später ändern Sie die Traffic-Zuordnung zu Erlebnis B auf 100 %.
+Angenommen, Sie verfügen über eine A/B-Test-Aktivität, bei der 80 % des Traffics Erlebnis A (Kontrolle) zugewiesen werden und 20 % des Traffics Erlebnis B zugeordnet werden. Während des Testzeitraums ändern Sie die Zuordnung für jedes Erlebnis auf 50 %. Einige Tage später ändern Sie die Traffic-Zuordnung zu Erlebnis B auf 100 %.
 
 Wie werden Benutzer in diesem Szenario Erlebnissen zugeordnet?
 
-If you manually change the allocation split to 100% for Experience B, visitors who were originally allocated to Experience A (the control) remain in their initially assigned experience (Experience A). The change in traffic allocation impacts new entrants only.
+Wenn Sie die Zuordnung für Erlebnis B manuell auf 100 % ändern, verbleiben Besucher, die ursprünglich Erlebnis A (das Steuerelement) zugeordnet waren, in ihrem ursprünglich zugewiesenen Erlebnis (Erlebnis A). Die Änderung der Traffic-Zuordnung wirkt sich nur auf neue Teilnehmer aus.
 
-If you want to change percentages or greatly affect the flow of visitors into each experience, we recommend that you create a new activity or copy the activity and then edit the traffic allocation percentages.
+Wenn Sie Prozentwerte ändern oder den Fluss der Besucher in die einzelnen Erlebnisse stark beeinflussen möchten, sollten Sie eine neue Aktivität erstellen oder die Aktivität kopieren und dann die Prozentsätze für die Traffic-Zuordnung bearbeiten.
 
-If you change the percentages for different experiences during the testing period, it takes a few days for the data to normalize, especially if many purchasers are returning visitors.
-As another example, if your A/B Test’s traffic allocation is split 50/50, and then you change the split to 80/20, for the first few days after that change the results might look skewed. If the average time to conversion is high, meaning it takes someone several hours or even days to make a purchase, these delayed conversions can affect your reports. In dem ersten Erlebnis, bei dem die Anzahl von 50 % auf 80 % stieg und die durchschnittliche Zeit bis zur Umstellung zwei Tage beträgt, werden am ersten Testtag nur Besucher von 50 % der Bevölkerung umgerechnet, obwohl heute 80 % der Bevölkerung in das Erlebnis eintreten. Dadurch sieht es so aus, als ob die Konvertierung Konversionsrat gefallen wäre, aber sie wird sich wieder normalisieren, nachdem diese 80 % der Besucher zwei Tage gebraucht haben.
+Wenn Sie die Prozentsätze für verschiedene Erlebnisse während des Testzeitraums ändern, dauert es einige Tage, bis sich die Daten normalisieren, insbesondere wenn viele Käufer Besucher zurückgeben.
+Ein weiteres Beispiel: Wenn die Traffic-Zuordnung Ihres A/B-Tests auf 50/50 aufgeteilt ist und Sie dann die Aufteilung auf 80/20 ändern, können die Ergebnisse in den ersten Tagen nach dieser Änderung verfälscht aussehen. Wenn die durchschnittliche Konvertierungszeit hoch ist, d. h. der Einkauf mehrere Stunden oder sogar Tage dauert, können sich diese verzögerten Konversionen auf Ihre Berichte auswirken. In dem ersten Erlebnis, bei dem die Anzahl von 50 % auf 80 % stieg und die durchschnittliche Zeit bis zur Umstellung zwei Tage beträgt, werden am ersten Testtag nur Besucher von 50 % der Bevölkerung umgerechnet, obwohl heute 80 % der Bevölkerung in das Erlebnis eintreten. Dadurch sieht es so aus, als ob die Konvertierung Konversionsrat gefallen wäre, aber sie wird sich wieder normalisieren, nachdem diese 80 % der Besucher zwei Tage gebraucht haben.
 
 ## Pitfall 8: Not considering novelty effects {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
