@@ -7,9 +7,9 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1269'
 ht-degree: 46%
 
 ---
@@ -69,7 +69,7 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | Multivarianz-Tests (MVT) | Ja | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
 | AP-Aktivität (Automatisierte Personalisierung) | Nein |  |
 | Recommendations-Aktivität | Ja |  |
-| Mobile App | Ja | Wird unterstützt mit dem Mobile Services SDK, Version 4.13.1 (oder neuer).  Weitere Informationen finden Sie in der [Dokumentation zu Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html). |
+| Mobile App | Ja | Wird unterstützt mit dem Mobile Services SDK, Version 4.13.1 (oder neuer).  Weitere Informationen finden Sie in der [Dokumentation zu Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html). |
 | E-Mail | Nein |  |
 | API für serverseitige Bereitstellung | Ja | Weitere Informationen finden Sie unter [Serverseitig: Target implementieren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | NodeJS-SDK | Ja | Weitere Informationen finden Sie unter [Serverseitig: Target implementieren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
