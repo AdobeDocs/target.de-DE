@@ -3,10 +3,8 @@ keywords: site pages;target site pages;targeting;current page;target current pag
 description: Sie können Besucher auf einer bestimmten Seite Ihrer Site Zielgruppe werden.
 title: Seitenoptionen in Adobe Target-Audiencen
 feature: audiences
-topic: Standard
-uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 43%
@@ -138,7 +136,7 @@ Siehe Abbildung unten:
    * Verwenden Sie eine [A/B-Test-Aktivität](/help/c-activities/t-test-ab/test-ab.md) anstelle einer Landingpage-Aktivität. A/B-Test-Aktivitäten wechseln die Erlebnisse nicht für denselben Besucher.
    * Verwenden Sie stattdessen ein [Besucher-Profil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) .
 
-* Beachten Sie bei der Verwendung von &quot;Beginns/ends with&quot;-Bewertungselementen für Zeichenfolgen, die Kommas enthalten, dass diese Werte als Wertearray ausgewertet werden, in dem jeder durch Kommas getrennte Wert ausgewertet wird. Beispiel: Wenn der Wert für eine Kopfzeile vorhanden ist: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` es ist für Bedingungen wie:
+* Beachten Sie bei der Verwendung von &quot;Beginns/ends with&quot;-Bewertungselementen für Zeichenfolgen, die Kommas enthalten, dass diese Werte als Wertearray ausgewertet werden, in dem jeder durch Kommas getrennte Wert ausgewertet wird. Beispiel: Wenn wir den Wert für eine Kopfzeile haben: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` es ist für Bedingungen wie:
    * beginn mit Zh,
    * beginn mit en,
    * endet mit 0,7,
