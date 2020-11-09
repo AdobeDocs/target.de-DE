@@ -5,10 +5,10 @@ title: Implementieren von Target mit Adobe Launch
 feature: implementation with launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 80%
+source-wordcount: '464'
+ht-degree: 81%
 
 ---
 
@@ -25,9 +25,9 @@ In der folgenden Tabelle finden Sie verschiedene Quellen, über die Sie weitere 
 
 | Ressource | Details |
 |--- |--- |
-| [Implementierung der Zielgruppe mithilfe des Adobe Target Extension Tutorials](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Diese Anleitung enthält schrittweise Anweisungen zur Implementierung von Adobe Target auf einer Website mit Launch. Die Themen umfassen unter anderem das Hinzufügen der at.js-JavaScript-Bibliothek, das Auslösen der globalen Mbox, das Hinzufügen von Parametern und die Integration mit anderen Lösungen. Dieser Artikel ist Teil eines größeren Tutorials, in dem Sie erfahren, wie Sie Adobe Launch sowie die anderen Adobe Experience Cloud-Lösungen implementieren. |
-| [Adobe Launch-Dokumentation](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | Informationen zur Implementierung und Verwaltung der Analyse-, Marketing- und Werbe-Tags, die zur Unterstützung relevanter Kundenerlebnisse erforderlich sind. |
-| [Dokumentation zur Adobe Target Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informationen zur Implementierung von Target mit Launch. |
+| [Implementierung der Zielgruppe mithilfe des Adobe Target Extension Tutorials](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Diese Anleitung enthält schrittweise Anweisungen zur Implementierung von Adobe Target auf einer Website mit Launch. Die Themen umfassen unter anderem das Hinzufügen der at.js-JavaScript-Bibliothek, das Auslösen der globalen Mbox, das Hinzufügen von Parametern und die Integration mit anderen Lösungen. Dieser Artikel ist Teil eines größeren Tutorials, in dem Sie erfahren, wie Sie Adobe Launch sowie die anderen Adobe Experience Cloud-Lösungen implementieren. |
+| [Adobe Launch-Dokumentation](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | Informationen zur Implementierung und Verwaltung der Analyse-, Marketing- und Werbe-Tags, die zur Unterstützung relevanter Kundenerlebnisse erforderlich sind. |
+| [Dokumentation zur Adobe Target Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informationen zur Implementierung von Target mit Launch. |
 
 ## Advantages of implementing at.js using the Target Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
