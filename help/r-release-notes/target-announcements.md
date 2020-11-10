@@ -4,9 +4,9 @@ description: Informationen zu kommenden Ereignissen, einschließlich Zielgruppe 
 title: Mitteilungen zur Zielgruppe
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fb843aef10721d138fa652c818d90295b606247e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -27,30 +27,28 @@ Marketingfachleute, Produkteigentümer und Entwickler sind mehr denn je damit be
 In diesem Live-Webinar diskutieren Produktexperten von Adobe Target, wie durch die Übertragung wichtiger Entscheidungen zur Optimierung von Erlebnissen auf dem Gerät, die lokal mit Null-Latenz ausgeführt werden sollen, aufregende neue Einsatzmöglichkeiten eröffnet werden können und gleichzeitig die Leistung der Website für Ihre Kunden verbessert wird.
 
 * **Dienstag, 10. November 2020**
-* **10 Uhr PT | 12.00 Uhr CT | 1:00 Uhr MEZ**
+* **10.00 Uhr PST | 12.00 Uhr CST | 13.00 EST**
 
 [Melden Sie sich hier für dieses aufregende Ereignis an.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
-## Webinar: Adaptive, feine Personalisierung im Maßstab mit Adobe Target und Analytics
+## Adobe Target Community Q&amp;A-Kaffeepause
 
-* **Dienstag, 27. Oktober 2020**
-* **8:00 PT | 10am CT | 11am ET**
-* **Dauer: 60 Minuten**
+* **Mittwoch, 11. November 2020**
+* **08:00 PST**
 
-Die digitale Akzeptanz nimmt derzeit zu und bringt ganz neue Kundensegmente mit hohen Erwartungen in Bezug auf die Suche nach dem, was sie brauchen, und die außergewöhnliche Betreuung und den Kundenservice. Die Personalisierung ist von entscheidender Bedeutung für die Anpassung an den unmittelbaren Wandel und die Weiterentwicklung Ihres Unternehmens für die Zukunft.
+Unser Experte wird Senior [!DNL Adobe Target] Product Manager David Son sein, der Einblicke und Fachwissen zu folgenden Themen austauschen wird:
 
-In diesem Webinar zeigen wir Ihnen, wie [!DNL Adobe Target] Sie vertrauensvoll auf [!DNL Analytics] Einblicke und Audiencen reagieren können, um sicherzustellen, dass Firmen branchenübergreifend ihre Geschäftstätigkeit mit AI-basierter Personalisierung und einer umfassenden Ansicht von Leistungsauswirkungen im Analytics-erweiterten Berichte schnell weiterentwickeln können.
+* Geräteinterne Entscheidungsfindung
+* At.js
+* Mobil
+* AEP Web SDK
+* -APIs
 
-In diesem Webinar lernen Sie Folgendes:
-
-* Die einzigartige Server-zu-Server-Integration zwischen [!DNL Adobe Analytics] und [!DNL Adobe Target] ermöglicht eine einheitliche Profil-, Audiencen- und Berichte für eine schnelle, leistungsgesteuerte Personalisierung
-* Tipps und Tricks zur Zeitersparnis von Firmen in der &quot;Analyse-Lähmung&quot; und zur schnellen Personalisierung ihrer kritischen Kundeninteraktionen im Maßstab
-
-[Melden Sie sich hier für dieses aufregende Ereignis an.](https://www.adobeeventsonline.com/Webinar/2020/PersonalizationScale/invite.html)
+[Hier registrieren.](https://adobe.ly/2H3MBX9)
 
 ## Webinar: Wie HSBC Adobe Target und AI nutzt, um Personalisierung schnell zu optimieren und zu liefern
 
-* **Für die nächsten 30 Tage können Sie hier klicken, um die [Webinar-Aufzeichnung](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)Ansicht.**
+* **Sie können hier klicken, um die [Webinar-Aufzeichnung](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)Ansicht.**
 
 McKinsey Digital berichtet, dass &quot;wir fünf Jahre nach der digitalen Akzeptanz von Verbrauchern und Unternehmen in etwa acht Wochen zurückgelegt haben&quot;. *
 
@@ -62,10 +60,8 @@ Nehmen Sie an diesem Webinar mit Adobe und HSBC teil, um zu erfahren:
 * Wie AI &amp; Analytics ihre Bemühungen beschleunigen und klare, bedeutende geschäftliche Auswirkungen erzielen
 * Wie HSBC ein erfolgreiches Programm mit über 3000 Aktivitäten aufgebaut hat
 
-[Melden Sie sich hier](https://hsbc-targetai.experienceleague.adobeevents.com/)für dieses spannende Webinar an.
-
 *McKinsey-Artikel: &quot;[Die COVID-19-Wiederherstellung wird digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)sein&quot;, Mai 2020
 
 ## Adobe Target Skill Builder: Entwickler-Chat, Adobe Targets &quot;mbox.js&quot;zu &quot;at.js&quot;migrieren {#skill-builder}
 
-Mit der bevorstehenden Vernichtung von &quot;mbox.js&quot;am 18. Januar 2021 hat Adobe Target Product Manager David Son kürzlich einen Entwickler-Chat veranstaltet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern. In den nächsten 30 Tagen können Sie die Aufzeichnung des Webinars [Ansicht](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)nehmen.
+Mit der bevorstehenden Vernichtung von &quot;mbox.js&quot;am 18. Januar 2021 hat Adobe Target Product Manager David Son kürzlich einen Entwickler-Chat veranstaltet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern. Die Aufzeichnung des Webinars können Sie hier [Ansicht](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)geben.
