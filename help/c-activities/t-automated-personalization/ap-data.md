@@ -4,21 +4,21 @@ description: Adobe Target sammelt und verwendet automatisch eine Vielzahl von Da
 title: Datenerfassung für die Adobe Target-Personalisierungsalgorithmen
 feature: ap
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 2b31d26bab2f2b702947c907c1d6966e5d0f20e3
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 96%
+source-wordcount: '1754'
+ht-degree: 91%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Datenerfassung für die Target-Personalisierungsalgorithmen{#data-collection-for-the-target-personalization-algorithms}
+# ![PREMIUM](/help/assets/premium.png) Datenerfassung für die Target-Personalisierungsalgorithmen
 
-Target sammelt und verwendet automatisch eine Vielzahl an Daten zum Erstellen seiner Personalisierungsalgorithmen in den Aktivitäten „Automatisierte Personalisierung“ (AP) und „Automatisches Targeting“ (AT). Wenn ein Besucher die AP- oder AT-Aktivität aktiviert, wird diese Momentaufnahme an Informationen an ein Set von Trainingsdatensätzen (die Besucherdaten, anhand deren die Personalisierungsalgorithmen lernen) weitergegeben.
+[!DNL Adobe Target] erfasst und verwendet automatisch eine Vielzahl von Daten, um Personalisierungsalgorithmen in [!UICONTROL Automated Personalization] - (AP-) und [!UICONTROL Auto-Zielgruppe] -(AT-)Aktivitäten zu erstellen. Wenn ein Besucher eine AP- oder AT-Aktivität eingibt, wird eine Momentaufnahme der Informationen an eine Reihe von &quot;Schulungsdatensätzen&quot;übergeben (die Daten des Besuchers, über die die Personalisierungsalgorithmen lernen).
 
 Weitere Informationen über die Target-Personalisierungsalgorithmen finden Sie unter  [Random-Forest-Algorithmus](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-Folgende Tabelle zeigt die Daten, die von der automatisierten Personalisierung und dem automatischen Targeting standardmäßig erfasst werden, ohne dass der Marketingexperte hierfür eine Aktion durchführen muss, sowie die Namenskonvention, die zur Anzeige dieser Attribute in [Berichten zu Personalization Insights](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) verwendet wird. Sie können den Eingabedatensatz jederzeit erweitern. Weitere Informationen über das Hochladen zusätzlicher Daten finden Sie unter  [Hochladen von Daten für die Personalisierungsalgorithmen von Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+The following table shows the data collected by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Sie können den Eingabedatensatz jederzeit erweitern. Weitere Informationen über das Hochladen zusätzlicher Daten finden Sie unter  [Hochladen von Daten für die Personalisierungsalgorithmen von Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 | Datentyp | Beschreibung | Datentyp-Namenskonvention | Beispielattribute |
 | --- | --- | --- | --- |
