@@ -4,10 +4,10 @@ description: Informationen zur Funktion adobe.target.triggerView (viewName, opti
 title: adobe.target.triggerView (viewName, options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 100%
+source-wordcount: '264'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ Diese Funktion kann immer aufgerufen werden, wenn eine neue Seite geladen wird o
 | --- | --- | --- | --- |
 | viewName | Zeichenfolge | Ja | Geben Sie eine beliebige Zeichenfolge als Namen für Ihre Ansicht an. Der Name dieser Ansicht wird im Bedienfeld [!UICONTROL Änderungen] von VEC angezeigt, sodass Marketing-Experten Aktionen erstellen und ihre A/B- und XT-Aktivitäten ausführen können. |
 | options | Objekt | Nein |  |
-| Optionen > Seite | Boolesch | Nein | **TRUE:** Der Standardwert der Seite ist „wahr“. Bei page=true werden Benachrichtigungen zum Erhöhen der Impressions-Anzahl an das [!DNL Target]-Backend gesendet.<br>Wenn der Ansicht kein Aktivitätserlebnis und keine Aktivitätsmetrik zugeordnet sind, wird keine Benachrichtigung gesendet.<br>**FALSE:** Bei page=false werden keine Benachrichtigungen zum Erhöhen der Impressions-Anzahl gesendet. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
+| Optionen > Seite | Boolesch | Nein | **TRUE:** Der Standardwert der Seite ist „wahr“. Bei page=true werden Benachrichtigungen zum Erhöhen der Impressions-Anzahl an das [!DNL Target]-Backend gesendet.<br>Eine Benachrichtigung wird immer standardmäßig gesendet, wenn ein Aufruf erfolgt, es sei denn, &quot;Optionen&quot;> &quot;Seite&quot;ist auf &quot;false&quot;gesetzt. `triggerView`<br>**FALSE:** Bei page=false werden keine Benachrichtigungen zum Erhöhen der Impressions-Anzahl gesendet. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
 
 ## Beispiel: True
 
