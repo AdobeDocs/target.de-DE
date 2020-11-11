@@ -4,10 +4,10 @@ description: Dieses Thema enthält Antworten auf häufig zu Classifications und 
 title: Classifications - Häufig gestellte Fragen zu A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 403a56da912fa143cf6c20b078c0bba63c6f4420
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 67%
+source-wordcount: '244'
+ht-degree: 65%
 
 ---
 
@@ -28,6 +28,7 @@ Das Zeichenfolgenformat der TNT-Variable lautet `activityID:experienceID:targett
 * Erlebnis = 0 steht für den Eintritt in ein Erlebnis.
 * Erlebnis = 1 steht für einen Erlebnisbesuch.
 * Erlebnis = 2 steht für eine Aktivitätsimpression.
+* Ereignis = 3-32766 stellt die Analytics-Erfolgsmetrik-ID dar.
 * Erlebnis = 32767 steht für eine Aktivitätskonversion.
 
 You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). Außerdem können Sie sich an den technischen Support werden, um die Datei als Nachschlagetabelle gemeinsam mit Clickstream-Daten-Feed zu beziehen.
