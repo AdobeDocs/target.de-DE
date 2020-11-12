@@ -4,10 +4,10 @@ description: Target Standard kann in die Adobe Dynamic Media Classic integriert 
 title: Integration der dynamischen Media Classic-Integration
 feature: administration general
 translation-type: tm+mt
-source-git-commit: 76ab5aef33f5e9c5de08b33e83e459b588bb0fba
+source-git-commit: 44d6cd2dcc71a84d4526aaf38ee606ffb0a97fb5
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 20%
+source-wordcount: '378'
+ht-degree: 22%
 
 ---
 
@@ -20,11 +20,13 @@ ht-degree: 20%
 >
 >Integrating [!DNL Target] with [!DNL Dynamic Media Classic] enables delivery of assets (as part of activities) uploaded to the [!DNL Adobe Experience Cloud] assets folder. This integration does not enable access to all assets uploaded in [!DNL Dynamic Media Classic] for delivery in [!DNL Target] activities.
 
-If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials.
+If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use [!DNL Dynamic Media Classic] account at no additional charge from your [!DNL Adobe] representative. This account can be used for purposes restricted for use in [!DNL Target] only. Dieser Service steht Kunden für Workflows zur Verfügung, die eine Bildtauschfunktionalität benötigen.
 
+<!-- 
 >[!NOTE]
 >
->Ein eingeschränktes kostenloses [!DNL Dynamic Media Classic] Konto für [!DNL Adobe Target] wird nicht mehr für neue Kunden oder neue Benutzer unterstützt. Die vorhandenen Anmeldedaten funktionieren wie gewohnt.
+>A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
+-->
 
 If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. Nachdem diese Einstellung konfiguriert wurde, steht die Option zum Austauschen/Ändern von Bildangeboten in  [Visual Experience Composer (VEC) und im formularbasierten Experience Composer](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) zur Verfügung. You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
