@@ -1,18 +1,18 @@
 ---
-keywords: at.js releases;at.js versions
-description: Details zu Änderungen in den verschiedenen Versionen von „at.js“.
+keywords: at.js releases;at.js versions;release notes
+description: Details zu den Änderungen in den einzelnen Versionen von Adobe Target at.js.
 title: „at.js“-Versionsdetails
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 40cf05566f8872b14f02811e18e12e2a955d1545
 workflow-type: tm+mt
-source-wordcount: '3975'
-ht-degree: 86%
+source-wordcount: '4003'
+ht-degree: 85%
 
 ---
 
 
-# „at.js“-Versionsdetails{#at-js-version-details}
+# „at.js“-Versionsdetails
 
 Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibliothek von [!DNL Adobe Target]
 
@@ -21,6 +21,12 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >Das Zielgruppe-Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 >
 >[Für die Aktualisierung von at.js wird Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) empfohlen. Extension-Entwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Updates werden in neue Versionen einer Erweiterung verpackt und als Upgrades im [!DNL Launch] Katalog verfügbar gemacht. Weitere Informationen finden Sie unter [Extension-Aktualisierung](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) im *Experience Platform Launch-Benutzerhandbuch*.
+
+## at.js 2.3.3 (13. November 2020)
+
+Diese Version von at.js ist ein Maintenance Release und beinhaltet die folgende Fehlerbehebung:
+
+* Es wurde ein Problem mit der mbox-Klick-Tracking und A4T behoben.
 
 ## at.js 2.3.2 (24. Juli 2020)
 
