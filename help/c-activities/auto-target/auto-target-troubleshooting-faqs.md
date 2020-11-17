@@ -1,13 +1,13 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting
+keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: Fehlerbehebung und häufig gestellte Fragen zur automatischen Zielgruppe in Adobe Target.
 title: Fehlerbehebung bei automatischer Zielgruppe und häufig gestellte Fragen
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 73%
+source-wordcount: '1830'
+ht-degree: 71%
 
 ---
 
@@ -37,11 +37,15 @@ Lesen Sie die folgenden häufig gestellten Fragen und Antworten, während Sie mi
 
 Die optimale Aufteilung der Traffic-Zuordnung hängt davon ab, was Sie erreichen möchten.
 
-Wenn Ihr Ziel darin besteht, so viel Traffic wie möglich zu personalisieren, können Sie während der gesamten Lebensdauer der Aktivität mit 90 % Targeting und 10 % Kontrolle arbeiten. Wenn Ihr Ziel darin besteht, ein Experiment durchzuführen, bei dem Sie vergleichen, wie gut personalisierte Algorithmen im Vergleich zu den Steuerelementen funktionieren, dann ist eine Aufteilung von 50/50 am besten.
+Wenn Ihr Ziel darin besteht, so viel Traffic wie möglich zu personalisieren, können Sie während der gesamten Lebensdauer der Aktivität mit 90 % Targeting und 10 % Kontrolle arbeiten. Wenn Ihr Ziel darin besteht, ein Experiment durchzuführen, bei dem Sie vergleichen, wie gut personalisierte Algorithmen im Vergleich zur Steuerung funktionieren, dann ist eine Aufteilung von 50/50 für die gesamte Lebensdauer der Aktivität am besten geeignet.
 
-### Werden die Häkchen, die angeben, ob ein Modell für das jeweilige Erlebnis erstellt ist, aktualisiert, wenn sich der Berichtsdatumsbereich ändert?
+Best Practice ist, die Traffic-Zuordnung während der gesamten Lebensdauer der Aktivität aufzuteilen, damit Besucher nicht zwischen zielgerichteten Erlebnissen und Kontrollerlebnissen wechseln.
 
-Nein, Häkchen für die Modellgenerierung zeigen nur die bisher erstellten Modelle an. Es gibt keine Möglichkeit zurückzukehren und zu sehen, ob ein Modell abgeschlossen wurde.
+<!-- 
+### Do the check marks indicating a model is built for that experience update if the report date range changes?
+
+No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+-->
 
 ### Wenn ein Besucher die Aktivität vom Typ [!UICONTROL Automatisches Targeting] NICHT sieht und konvertiert, zählt dann die Konversion dann in meiner Aktivität?
 
