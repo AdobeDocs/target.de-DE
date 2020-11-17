@@ -4,9 +4,9 @@ description: Dieses Thema enthält Antworten auf häufig zur Anzeige von Bericht
 title: Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2214'
 ht-degree: 57%
 
 ---
@@ -138,11 +138,11 @@ Am besten sollten Sie die vorhandene Aktivität stoppen und dann eine neue Aktiv
 
 ## Wie werden Besuche in Analytics gezählt und Umrechnungsgutschriften in einer Aktivität mit automatischer Zielgruppe zugeordnet, die A4T verwendet?
 
-Wenn sich ein Besucher für eine Ansicht qualifiziert, Inhalte bereitstellt oder in einer A4T-Aktivität konvertiert, [!DNL Target] sendet er Daten an [!DNL Analytics], wodurch Konversions-Ereignis und andere Clickstream-Ereignis, die auf der Seite stattfinden, den entsprechenden [!DNL Analytics] [!DNL Target] Aktivitäten und Erlebnissen zugeordnet werden können.
+Wenn sich ein Besucher für eine A4T-Aktivität qualifiziert, Inhalte Ansichten erstellt oder konvertiert, [!DNL Target] sendet er Ereignis-Daten an [!DNL Analytics], wodurch Konversions-Ereignis und andere Clickstream-Ereignis, die auf der Seite stattfinden, den entsprechenden [!DNL Analytics] [!DNL Target] Aktivitäten und Erlebnissen zugeordnet werden können.
 
 Beachten Sie bei der Anzeige von [!DNL Analytics] Berichten Folgendes:
 
-* Im Allgemeinen sollte das Fenster &quot;Berichte&quot;immer mit dem Beginn der Aktivität beginnen.
+* Als Best Practice sollten Sie mit dem Beginn der Aktivität beginnen.
 * Wenn eine Konversion außerhalb des Berichtsfensters erfolgt, ist die Konversion nicht sichtbar in [!DNL Analytics].
-* Wenn Besucher im &quot;zielgerichteten&quot;Teil des Traffics für Aktivitäten mit [!UICONTROL automatisierter Zielgruppe] unterschiedliche Erlebnisse von einer Sitzung zur nächsten sehen, hat sich z. B. ihr Profil oder Kontext verändert und [!DNL Target]die Algorithmen für maschinelles Lernen entscheiden, dass sie mit höherer Wahrscheinlichkeit ein neues Erlebnis konvertieren. Dies ist im Gegensatz zu normalen A/B-Testing-Aktivitäten, bei denen Erlebnisse über mehrere Besuche hinweg für einen Besucher Stickiness aufweisen.
-* Wenn ein Besucher mehrere Erlebnisse über mehrere Besuche hinweg sieht, wird jede Konversion immer dem letzten Erlebnis zugeordnet, das der Besucher gesehen hat. Die Besuchszahl wird jedoch für jedes Erlebnis, das der Besucher gesehen hat, inkrementiert. Dies kann die Konversionsraten pro Erlebnis künstlich herabsetzen, wenn Erlebnisse unter der Dimension &quot;[!UICONTROL Targeting]&quot;in [!DNL Adobe Analytics] Berichten angezeigt werden.
+* Wenn der Traffic für Aktivitäten mit der [!UICONTROL automatischen Zielgruppe] im &quot;Targeting&quot;-Bereich enthalten ist, sehen Besucher möglicherweise unterschiedliche Erlebnisse von einer Sitzung zur nächsten. Wenn sich beispielsweise das Profil oder der Kontext verändert haben und die Algorithmen für maschinelles Lernen entscheiden, können sie mit höherer Wahrscheinlichkeit ein neues Erlebnis konvertieren. [!DNL Target] Wenn Besucher von Erlebnis zu Erlebnis wechseln, wird die Anzahl der Besuche für jedes Erlebnis erhöht. Dies ist im Gegensatz zu normalen A/B-Testing-Aktivitäten, bei denen Erlebnisse über mehrere Besuche hinweg für einen Besucher Stickiness aufweisen.
+* Wenn ein Besucher mehrere Erlebnisse besuchsübergreifend sieht, wird jede Konversion immer dem letzten Erlebnis zugeordnet, das der Besucher gesehen hat. Wie bereits erwähnt, erhöht sich die Anzahl der Besuche für jedes Erlebnis, das der Besucher sah. Dies kann die Konversionsraten pro Erlebnis künstlich herabsetzen, wenn Erlebnisse unter der Dimension &quot;[!UICONTROL Targeting]&quot;in [!DNL Adobe Analytics] Berichten angezeigt werden.
