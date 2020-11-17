@@ -4,10 +4,10 @@ description: Dieses Thema enthält Antworten auf häufig zum Aktivitäts-Setup u
 title: Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 35%
+source-wordcount: '432'
+ht-degree: 42%
 
 ---
 
@@ -47,10 +47,3 @@ Wenn die Prozentsätze nicht in der Mitte der Aktivität angepasst werden, wird 
 
 * Nachdem der Besucher sich im zielgerichteten Traffic-Behälter befindet, kann er von Besuch zu Besuch an ein anderes Erlebnis gesendet werden, wenn die Modelle für maschinelles Lernen feststellen, dass ein anderes Erlebnis für den neuen Besuch relevant ist.
 * Nachdem einem Besucher das Kontrollelement &quot;Bucket&quot;für Traffic zugewiesen wurde, wird immer dasselbe Erlebnis angezeigt, da die Erlebniszuweisung auf einem deterministischen Pseudo-Zufall-Hash der visitorId des Besuchers basiert.
-
-## Wird empfohlen, das benutzerdefinierte Modell für die automatische Zielgruppe und A4T mit einer Aufteilung von 90(Control)/10(Targeting) zu verwenden, bis die Modelle erstellt wurden?
-
-Die optimale Aufteilung der Traffic-Zuordnung hängt davon ab, was Sie erreichen möchten.
-
-Wenn Ihr Ziel darin besteht, so viel Traffic wie möglich zu personalisieren, können Sie während der gesamten Lebensdauer der Aktivität mit 90 % Targeting und 10 % Kontrolle arbeiten. Wenn Ihr Ziel darin besteht, ein Experiment durchzuführen, bei dem Sie vergleichen, wie gut personalisierte Algorithmen im Vergleich zu den Steuerelementen funktionieren, dann ist eine Aufteilung von 50/50 am besten.
-
