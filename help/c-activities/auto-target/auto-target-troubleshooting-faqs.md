@@ -4,10 +4,10 @@ description: Fehlerbehebung und häufig gestellte Fragen zur automatischen Zielg
 title: Fehlerbehebung bei automatischer Zielgruppe und häufig gestellte Fragen
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 76%
+source-wordcount: '1845'
+ht-degree: 73%
 
 ---
 
@@ -32,6 +32,12 @@ Lesen Sie die folgenden häufig gestellten Fragen und Antworten, während Sie mi
    * Wenn ein A/B-Test keine statistisch signifikanten Unterschiede zwischen Erlebnissen aufzeigt, da sich die von Ihnen in Erwägung gezogenen Angebote möglicherweise nicht ausreichend voneinander unterscheiden, wirken sich die von Ihnen ausgewählten Standorte nicht auf die Erfolgsmetrik aus oder das Optimierungsziel liegt zu weit vom Konversionstrichter entfernt, um von Ihren ausgewählten Angeboten betroffen zu sein.
 
 * Versuchen Sie, während des Aktivitätsverlaufs wesentliche Änderungen an den Erlebnissen vorzunehmen.
+
+### Empfehlen Sie, die automatische Zielgruppe mit einer 90(Control)/10(Targeting)-Aufteilung zu verwenden, bis die Modelle erstellt wurden?
+
+Die optimale Aufteilung der Traffic-Zuordnung hängt davon ab, was Sie erreichen möchten.
+
+Wenn Ihr Ziel darin besteht, so viel Traffic wie möglich zu personalisieren, können Sie während der gesamten Lebensdauer der Aktivität mit 90 % Targeting und 10 % Kontrolle arbeiten. Wenn Ihr Ziel darin besteht, ein Experiment durchzuführen, bei dem Sie vergleichen, wie gut personalisierte Algorithmen im Vergleich zu den Steuerelementen funktionieren, dann ist eine Aufteilung von 50/50 am besten.
 
 ### Werden die Häkchen, die angeben, ob ein Modell für das jeweilige Erlebnis erstellt ist, aktualisiert, wenn sich der Berichtsdatumsbereich ändert?
 
