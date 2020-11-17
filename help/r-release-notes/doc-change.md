@@ -4,9 +4,9 @@ description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Do
 title: Änderungen an der Adobe Target-Produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '2993'
+source-wordcount: '2994'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| November 17 | [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Folgende häufig gestellte Fragen wurden hinzugefügt:<ul><li>Kann ein Besucher in einer Aktivität mit automatisierter Zielgruppe, die A4T verwendet, zwischen zielgerichteten und kontrollierten Erlebnissen bei verschiedenen Besuchen wechseln?</li><li>Wird empfohlen, das benutzerdefinierte Modell für die automatische Zielgruppe und A4T mit einer Aufteilung von 90(Control)/10(Targeting) zu verwenden, bis die Modelle erstellt wurden?</li></ul> |
+| November 17 | [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Kann ein Besucher in einer Aktivität mit automatisierter Zielgruppe, die A4T verwendet, zwischen zielgerichteten und kontrollierten Erlebnissen bei verschiedenen Besuchen wechseln?&quot; |
+|  | [Fehlerbehebung bei automatischer Zielgruppe und häufig gestellte Fragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Empfehlen Sie, die automatische Zielgruppe mit einer 90(Control)/10(Targeting)-Aufteilung zu verwenden, bis die Modelle erstellt wurden?&quot; |
 | November 13 | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informationen zur at.js-Version 2.3.3 wurden hinzugefügt. |
 | November 10 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur Adobe Target Community Q&amp;A-Kaffeepause hinzugefügt, die für den 11. November geplant ist. |
 | November 3 | [Fehlerbehebung bei der Analytics- und Target-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Das folgende Fehlerbehebungsthema wurde aktualisiert: &quot;Die benötigte Report Suite wird nicht angezeigt.&quot; |
