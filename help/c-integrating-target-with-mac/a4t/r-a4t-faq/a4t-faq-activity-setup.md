@@ -4,17 +4,17 @@ description: Dieses Thema enthält Antworten auf häufig zum Aktivitäts-Setup u
 title: Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 89%
+source-wordcount: '514'
+ht-degree: 35%
 
 ---
 
 
-# Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T{#activity-settings-a-t-faq}
+# Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T
 
-Dieses Thema enthält Antworten auf häufig zum Aktivitäts-Setup und zur Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
+This topic contains answers to questions that are frequently asked about activity setup and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 ## Welche Aktivitätstypen unterstützen Analytics als Berichtsquelle (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
@@ -22,17 +22,35 @@ Eine vollständige Liste finden Sie unter „Unterstützte Aktivitätstypen“ i
 
 ## Ich habe soeben eine Aktivität erstellt. Warum werden keine Daten angezeigt? {#section_9F8092BE4225442896F926540292F221}
 
-Beim Erstellen einer Aktivität sendet Target eine Classifications-Datei an Analytics. Obwohl Analytics die Daten erfasst und verarbeitet, werden sie erst nach der Aktualisierung der Classifications-Datei in den Berichten angezeigt. Dies kann bis zu 24 Stunden dauern. Wenn Ihre Daten auch nach 48 Stunden noch nicht angezeigt werden, [wenden Sie sich an den Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Wenn Sie wissen, dass Sie eine Aktivität starten möchten, können Sie die Aktivität auch schon einige Tage im Voraus erstellen. Die Classifications werden dann gesendet, wenn die Aktivität gespeichert wird. Dadurch werden Ihre Daten gleich beim Start in den Berichten angezeigt. Bitte beachten Sie, dass es zwischen 45 und 90 Minuten dauern kann, bis die Daten in Analytics verarbeitet werden.
+When an activity is created, [!DNL Target] sends a classification file to [!DNL Analytics]. Although [!DNL Analytics] is capturing the and processing the data, it does not show in the reports until the classification file has been updated. Dies kann bis zu 24 Stunden dauern. Wenn Ihre Daten auch nach 48 Stunden noch nicht angezeigt werden, [wenden Sie sich an den Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Wenn Sie wissen, dass Sie eine Aktivität starten möchten, können Sie die Aktivität auch schon einige Tage im Voraus erstellen. Die Classifications werden dann gesendet, wenn die Aktivität gespeichert wird. Dadurch werden Ihre Daten gleich beim Start in den Berichten angezeigt. Please note that it takes 45-90 minutes for data to be processed in [!DNL Analytics].
 
 ## Warum kann ich Analytics nicht als meine Berichterstellungsquelle auswählen, wenn ich eine neue Aktivität erstelle?  {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-Sie können die Optionen für die Berichte-Einstellungen in Administration ändern.
+You can change your [!UICONTROL Reporting Settings] options in [!UICONTROL Administration].
 
-1. In Adobe Target, click **[!UICONTROL Administration]**.
+1. Klicken Sie [!DNL Target]in &quot; **[!UICONTROL Administration]**&quot;.
 1. Klicken Sie in der Dropdownliste **[!UICONTROL Für die Berichterstellung verwendete Experience Cloud-Lösung]** auf **[!UICONTROL Pro Aktivität auswählen]**.
 
 ![](assets/select-per-activity.png)
 
 Die Dropdownliste **[!UICONTROL Berichterstellungsquelle]** wird auf dem Bildschirm **[!UICONTROL Ziele und Einstellungen]** für Erstellungs- und Bearbeitungsaktivitäten aktiviert.
 
-To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Administration.
+To always use [!DNL Analytics] as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in [!UICONTROL Administration].
+
+## Kann ein Besucher in einer Aktivität mit automatisierter Zielgruppe, die A4T verwendet, zwischen zielgerichteten und kontrollierten Erlebnissen bei verschiedenen Besuchen wechseln?
+
+Folgendes gilt, wenn die visitorId für einen Besucher zwischen Besuchen nicht geändert wird.
+
+Wenn der Prozentsatz für die Traffic-Zuordnung in der Mitte der Aktivität angepasst wird, kann es sein, dass ein Besucher zwischen zielgerichteten Erlebnissen und Kontrollerlebnissen wechseln kann.
+
+Wenn die Prozentsätze nicht in der Mitte der Aktivität angepasst werden, wird ein Besucher, der die Kontrolle anfänglich sieht, immer zur Kontrolle gesendet. Ein Besucher, der an zielgerichtete Erlebnisse gesendet wird, wird immer an zielgerichtete Erlebnisse gesendet.
+
+* Nachdem der Besucher sich im zielgerichteten Traffic-Behälter befindet, kann er von Besuch zu Besuch an ein anderes Erlebnis gesendet werden, wenn die Modelle für maschinelles Lernen feststellen, dass ein anderes Erlebnis für den neuen Besuch relevant ist.
+* Nachdem einem Besucher das Kontrollelement &quot;Bucket&quot;für Traffic zugewiesen wurde, wird immer dasselbe Erlebnis angezeigt, da die Erlebniszuweisung auf einem deterministischen Pseudo-Zufall-Hash der visitorId des Besuchers basiert.
+
+## Wird empfohlen, das benutzerdefinierte Modell für die automatische Zielgruppe und A4T mit einer Aufteilung von 90(Control)/10(Targeting) zu verwenden, bis die Modelle erstellt wurden?
+
+Die optimale Aufteilung der Traffic-Zuordnung hängt davon ab, was Sie erreichen möchten.
+
+Wenn Ihr Ziel darin besteht, so viel Traffic wie möglich zu personalisieren, können Sie während der gesamten Lebensdauer der Aktivität mit 90 % Targeting und 10 % Kontrolle arbeiten. Wenn Ihr Ziel darin besteht, ein Experiment durchzuführen, bei dem Sie vergleichen, wie gut personalisierte Algorithmen im Vergleich zu den Steuerelementen funktionieren, dann ist eine Aufteilung von 50/50 am besten.
+
