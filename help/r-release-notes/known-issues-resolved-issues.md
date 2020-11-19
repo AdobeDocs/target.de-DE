@@ -4,17 +4,17 @@ description: Informationen zu bekannten Problemen in dieser Version von Adobe Ta
 title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
 workflow-type: tm+mt
-source-wordcount: '3895'
-ht-degree: 78%
+source-wordcount: '3957'
+ht-degree: 76%
 
 ---
 
 
 # Bekannte Probleme und gelöste Probleme  
 
-Informationen zu bekannten Problemen in dieser Version von Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
+Informationen zu bekannten Problemen für [!DNL Adobe Target]. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
 
 >[!NOTE]
 >
@@ -127,6 +127,12 @@ Am 10. Mai 2020 haben wir unsere GEO-Provider-Dateien aktualisiert, die einige I
 ### Angebote mit der Beschriftung &quot;Verarbeitung&quot;
 
 Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quot;Verarbeitung&quot;manchmal mehrere Stunden nach dem Hochladen der Bilder beibehalten. In den meisten Fällen handelt es sich hierbei nur um ein Problem mit der Bezeichnung: die Image-Angebot können weiterhin in Aktivitäten verwendet und bereitgestellt werden. In einigen Fällen ist jedoch unter Umständen kein Image-Angebot für die Aktion &quot;Inhalt ersetzen&quot;> &quot;Bild&quot;verfügbar. In diesem Fall sollten Sie das Image-Angebot erneut hochladen und nach einigen Stunden überprüfen, ob das Image-Angebot zum Austausch verfügbar ist. (TGT-37458)
+
+### Berichte - Inkonsistente Daten im herunterladbaren .csv-Bericht im Vergleich zum angezeigten Bericht in der Benutzeroberfläche der Zielgruppe.
+
+Berichte, die als .csv-Dateien zum Herunterladen generiert wurden, sind inkonsistent, wenn die Aktivität mehr als eine Metrik verwendet. Der herunterladbare Bericht wird nur auf der Grundlage der Berichtseinstellungen erstellt und berücksichtigt denselben Wert für alle anderen verwendeten Metriken.
+
+Die Quelle der Wahrheit ist immer der angezeigte Bericht in der [!DNL Target] Benutzeroberfläche.
 
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
