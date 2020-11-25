@@ -4,10 +4,10 @@ description: Dieses Thema enthält Antworten auf häufig zum Aktivitäts-Setup u
 title: Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 42%
+source-wordcount: '498'
+ht-degree: 36%
 
 ---
 
@@ -19,6 +19,12 @@ This topic contains answers to questions that are frequently asked about activit
 ## Welche Aktivitätstypen unterstützen Analytics als Berichtsquelle (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 Eine vollständige Liste finden Sie unter „Unterstützte Aktivitätstypen“ in [Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
+## Warum kann ich bei der Konfiguration meiner Zielmetrik nicht auf Erweiterte Einstellungen zugreifen?
+
+Bei Aktivitäten, die [!DNL Analytics] als Berichte-Quelle (A4T) verwendet werden, verwendet die Zielmetrik immer die Einstellungen &quot;Anzahl[!UICONTROL erhöhen und Benutzer in Aktivität]halten&quot;und &quot;[!UICONTROL Bei jeder Impression]&quot;. Dies ist *nicht* konfigurierbar.
+
+Weitere Informationen finden Sie unter &quot;Warum kann ich beim Konfigurieren meiner Zielmetriken nicht auf die Optionen für erweiterte Einstellungen zugreifen?&quot; in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## Ich habe soeben eine Aktivität erstellt. Warum werden keine Daten angezeigt? {#section_9F8092BE4225442896F926540292F221}
 
