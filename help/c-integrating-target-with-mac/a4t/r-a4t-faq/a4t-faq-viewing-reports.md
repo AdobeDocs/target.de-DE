@@ -4,10 +4,10 @@ description: Dieses Thema enthält Antworten auf häufig zur Anzeige von Bericht
 title: Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 57%
+source-wordcount: '2280'
+ht-degree: 55%
 
 ---
 
@@ -31,6 +31,12 @@ Segmente werden meist am oberen Rand eines Bereichs in der Segment-Dropzone ange
 Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. (Hinweis: Diese Ablaufzeit kann bei Bedarf vom Kundendienst angepasst werden. Während Besucher durch die Site in diesem Ablauffenster navigieren, gehören sie zu vielen [!DNL Target] Aktivitäten, die alle in der Dimension erfasst werden.
 
 Wenn Sie daher segmentieren, dass eine Aktivität in einem Treffer vorhanden sein soll, erhalten Sie alle Erlebnisse, die Teil dieser Aktivität sind, *sowie* alle anderen Erlebnisse, die bei diesem Treffer bestehen bleiben.
+
+## Warum kann ich bei der Konfiguration meiner Zielmetrik nicht auf Erweiterte Einstellungen zugreifen?
+
+Bei Aktivitäten, die [!DNL Analytics] als Berichte-Quelle (A4T) verwendet werden, verwendet die Zielmetrik immer die Einstellungen &quot;Anzahl[!UICONTROL erhöhen und Benutzer in Aktivität]halten&quot;und &quot;[!UICONTROL Bei jeder Impression]&quot;. Dies ist *nicht* konfigurierbar.
+
+Weitere Informationen finden Sie unter &quot;Warum kann ich beim Konfigurieren meiner Zielmetriken nicht auf die Optionen für erweiterte Einstellungen zugreifen?&quot; in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## Sollte ich Besucher, Besuche oder Aktivitäten-Impressionen als Normalisierungsmetrik verwenden (d. h. als Zählmethodik)? {#metrics}
 
