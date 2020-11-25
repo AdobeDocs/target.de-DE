@@ -4,10 +4,10 @@ description: Informationen zu bekannten Problemen in dieser Version von Adobe Ta
 title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3957'
-ht-degree: 76%
+source-wordcount: '4273'
+ht-degree: 71%
 
 ---
 
@@ -128,7 +128,7 @@ Am 10. Mai 2020 haben wir unsere GEO-Provider-Dateien aktualisiert, die einige I
 
 Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quot;Verarbeitung&quot;manchmal mehrere Stunden nach dem Hochladen der Bilder beibehalten. In den meisten Fällen handelt es sich hierbei nur um ein Problem mit der Bezeichnung: die Image-Angebot können weiterhin in Aktivitäten verwendet und bereitgestellt werden. In einigen Fällen ist jedoch unter Umständen kein Image-Angebot für die Aktion &quot;Inhalt ersetzen&quot;> &quot;Bild&quot;verfügbar. In diesem Fall sollten Sie das Image-Angebot erneut hochladen und nach einigen Stunden überprüfen, ob das Image-Angebot zum Austausch verfügbar ist. (TGT-37458)
 
-### Berichte - Inkonsistente Daten im herunterladbaren .csv-Bericht im Vergleich zum angezeigten Bericht in der Benutzeroberfläche der Zielgruppe.
+### Berichte - Inkonsistente Daten im herunterladbaren .csv-Bericht im Vergleich zum angezeigten Bericht in der Benutzeroberfläche der Zielgruppe. {#csv}
 
 Berichte, die als .csv-Dateien zum Herunterladen generiert wurden, sind inkonsistent, wenn die Aktivität mehr als eine Metrik verwendet. Der herunterladbare Bericht wird nur auf der Grundlage der Berichtseinstellungen erstellt und berücksichtigt denselben Wert für alle anderen verwendeten Metriken.
 
@@ -137,6 +137,37 @@ Die Quelle der Wahrheit ist immer der angezeigte Bericht in der [!DNL Target] Be
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Wenn bekannte Probleme behoben sind, werden sie in die folgenden Abschnitte verschoben und es werden ggf. zusätzliche Notizen hinzugefügt.
+
+### Berichterstellung von Analytics for Target (A4T)
+
+Die folgenden Probleme im Zusammenhang mit A4T wurden behoben:
+
+* Ein Problem, das A4T-Aktivitäten mithilfe einer [!DNL Analytics] Zielmetrik beeinträchtigte, die dazu führte, dass A4T-Berichte eine unerwartete Traffic-Aufspaltung oder künstlich überhöhte Konversionen anzeigten.
+
+   Dieses Problem hatte Auswirkungen auf den A4T-Berichte unter folgenden Bedingungen:
+
+   * Die Aktivität wurde zwischen dem 15. September und dem 5. November 2020 (4.00 Uhr PST) erstellt oder gespeichert und
+   * Für die Aktivität wurde eine [!DNL Analytics] Metrik als Zielmetrik ausgewählt.
+
+   [!DNL Target] Traffic während dieser Zeit korrekt aufgeteilt. Eine Aufteilung der Aktivität auf 50/50 könnte jedoch beispielsweise als Aufschlüsselung auf 90/10 in A4T-Berichte erscheinen.
+
+   Bei betroffenen Aktivitäten ist die richtige Traffic-Aufteilung für erstmalige Besucher nach dem 5. November (4.00 Uhr PST) sichtbar. Neue Aktivitäten, die nach dieser Zeit erstellt oder gespeichert wurden, melden die Traffic-Aufschlüsselung korrekt.
+
+* Ein Problem, das A4T-Aktivitäten mithilfe einer [!DNL Target] Zielmetrik beeinträchtigte, die dazu führte, dass A4T-Berichte niedrige oder keine Konversionen meldeten.
+
+   >[!NOTE]
+   >
+   >Dieses Problem betraf nur den A4T-Berichte. Der Versand der Aktivität wurde dadurch nicht beeinflusst.
+
+   Dieses Problem hatte Auswirkungen auf den A4T-Berichte unter folgenden Bedingungen:
+
+   * Die A4T-Aktivität war vom 22. September bis 11. November 2020 (14.30 Uhr PST) live und
+   * In der Aktivität wurde eine [!DNL Target] Metrik als Zielmetrik ausgewählt und
+   * Wenn ein Besucher das Zielelement für die Aktivität erreicht hat (z. B. [!UICONTROL auf ein Ereignis]geklickt), gab es auch eine niedrigere Priorität, die nicht mit A4T-Aktivitäten übereinstimmte, die mit dem Konversions-Ereignis übereinstimmte. Dies kann vorkommen, wenn die Nicht-A4T-Aktivität entweder mit derselben Metrik wie die A4T-Aktivität konfiguriert wurde oder mit der Metrik &quot;beliebige mbox&quot;konfiguriert wurde.
+
+   Dieses Problem wirkte sich auf den Berichte von A4T-Aktivitäten aus, die zwischen dem 22. September und dem 11. November 2020 (14.30 Uhr PST) live waren. Berichte für betroffene A4T-Aktivitäten zeigen Konversionen außerhalb dieses Datumsbereichs korrekt an. Berichte für Nicht-A4T-Aktivitäten wurde nicht beeinträchtigt.
+
+Wenn Sie weitere Fragen haben, wenden Sie sich an Ihren Kundenbetreuer (Customer Success Manager, CSM) oder an die [Adobe Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
 
 ### Berichte für die automatische Zielgruppe {#at-metrics}
 
