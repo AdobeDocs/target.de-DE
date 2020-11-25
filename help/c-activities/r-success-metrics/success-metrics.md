@@ -4,15 +4,15 @@ description: In Adobe Target sind Erfolgsmetriken Parameter, mit denen der Erfol
 title: Erfolgsmetriken in Adobe Target
 feature: success metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1138'
 ht-degree: 48%
 
 ---
 
 
-# Erfolgsmetriken{#success-metrics}
+# Erfolgsmetriken
 
 In [!DNL Adobe Target] success metrics are parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a [!DNL Target] activity.
 
@@ -28,7 +28,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 
 >[!NOTE]
 >
->Das Standardverhalten für Aktivitäten, die [Analytics als Berichte-Quelle](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, lautet &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität]halten&quot;mit &quot;[!UICONTROL Einmal pro Teilnehmer]&quot;.
+>Bei Aktivitäten, die [Analytics als Berichte-Quelle](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;Anzahl[!UICONTROL erhöhen und Benutzer in Aktivität]halten&quot;und &quot;[!UICONTROL Bei jeder Impression]&quot;. Dies ist *nicht* konfigurierbar.
 
 Es sind folgende Erfolgsmetriken verfügbar:
 
@@ -105,7 +105,7 @@ Verwenden Sie die erweiterten Einstellungen, um festzulegen, was geschehen soll,
 Wählen Sie das gewünschte Verhalten aus:
 
 * Einmal pro Teilnehmer 
-* Bei jeder Impression (ohne Seitenaktualisierungen)
+* Bei jeder Impression (Seitenaktualisierungen ausschließen)
 * Bei jeder Anzeige
 
 ## Schulungsvideo: Aktivitätsmetriken
