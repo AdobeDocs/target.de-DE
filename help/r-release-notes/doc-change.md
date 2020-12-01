@@ -4,10 +4,10 @@ description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Do
 title: Änderungen an der Adobe Target-Produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
 workflow-type: tm+mt
-source-wordcount: '3093'
-ht-degree: 29%
+source-wordcount: '3115'
+ht-degree: 28%
 
 ---
 
@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Dezember 1 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Die Aufzeichnung des Webinars für &quot;Personalisieren und Testen mit Nulllatenz bei Entscheidungen auf dem Gerät von Adobe Target&quot;wurde eingebettet. |
 | November 24 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>[Berichte - Inkonsistente Daten im herunterladbaren .csv-Bericht im Vergleich zum angezeigten Bericht in der Benutzeroberfläche der Zielgruppe.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Das folgende Problem wurde behoben:<ul><li>[Berichterstellung von Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [Metrikdefinitionen – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Warum kann ich bei der Konfiguration meiner Zielmetriken nicht auf die Optionen für erweiterte Einstellungen zugreifen?&quot; |
 |  | [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md) | Der Text im Hinweis zu Aktivitäten, die A4T verwenden, wurde angepasst. |
