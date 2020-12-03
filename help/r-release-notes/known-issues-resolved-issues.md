@@ -4,10 +4,10 @@ description: Informationen zu bekannten Problemen in dieser Version von Adobe Ta
 title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: f80a1c3e27eee3310da69a92b8ffe0e0d94f9796
 workflow-type: tm+mt
-source-wordcount: '4273'
-ht-degree: 71%
+source-wordcount: '4326'
+ht-degree: 70%
 
 ---
 
@@ -73,6 +73,7 @@ Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
 * Sammlungen, Ausschlüsse, Kriterien und Designs, die über die API erstellt wurden, sind in der Target-Benutzeroberfläche nicht sichtbar und können nur über die API bearbeitet werden. (TGT-35777)
 * Recommendations-Aktivitäten, die über die API erstellt wurden, können zwar in der Benutzeroberfläche angezeigt, aber nur über die API bearbeitet werden.
 * Der Feed-Status „Benutzerspezifische Kriterien“ in der Kriterien-Listenansicht (Karte) wird alle zehn Minuten aktualisiert und kann in seltenen Fällen mehr als zehn Minuten veraltet sein. Der in der Ansicht zur Bearbeitung benutzerdefinierter Kriterien angezeigte Status wird in Echtzeit abgerufen und ist stets auf dem neuesten Stand. (TGT-35896, TGT-36173)
+* Die Kriterien- und Designkarten zeigen nicht die richtige Anzahl von Aktivitäten an, in denen sie verwendet werden. Wenn die Kriterien oder das Design in einer AB-Aktivität verwendet werden, wird die Aktivität nicht berücksichtigt, und die Karte kann zeigen, dass das Design/die Kriterien nicht verwendet werden, wenn es tatsächlich verwendet wird.
 
 ### Multivarianz-Test (MVT)-Aktivitäten
 
