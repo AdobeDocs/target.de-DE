@@ -4,9 +4,9 @@ description: Informationen zu bekannten Problemen in dieser Version von Adobe Ta
 title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 16a626878cab97dd81b22d3d2a170df80a025afb
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
-source-wordcount: '4327'
+source-wordcount: '4329'
 ht-degree: 70%
 
 ---
@@ -73,7 +73,7 @@ Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
 * Sammlungen, Ausschlüsse, Kriterien und Designs, die über die API erstellt wurden, sind in der Target-Benutzeroberfläche nicht sichtbar und können nur über die API bearbeitet werden. (TGT-35777)
 * Recommendations-Aktivitäten, die über die API erstellt wurden, können zwar in der Benutzeroberfläche angezeigt, aber nur über die API bearbeitet werden.
 * Der Feed-Status „Benutzerspezifische Kriterien“ in der Kriterien-Listenansicht (Karte) wird alle zehn Minuten aktualisiert und kann in seltenen Fällen mehr als zehn Minuten veraltet sein. Der in der Ansicht zur Bearbeitung benutzerdefinierter Kriterien angezeigte Status wird in Echtzeit abgerufen und ist stets auf dem neuesten Stand. (TGT-35896, TGT-36173)
-* Kriterien und Designkarten zeigen nicht die richtige Anzahl von Aktivitäten an, in denen sie verwendet werden. Wenn die Kriterien oder der Entwurf in einer A/B-Aktivität verwendet werden, zeigt die Karte möglicherweise fälschlicherweise an, dass der Entwurf oder die Kriterien nicht verwendet werden, selbst wenn der Entwurf oder die Kriterien in der Aktivität verwendet werden.
+* Kriterien und Designkarten zeigen nicht die richtige Anzahl von Aktivitäten an, in denen sie verwendet werden. Wenn die Kriterien oder der Entwurf in einer A/B-Aktivität verwendet werden, zeigt die Karte möglicherweise fälschlicherweise an, dass der Entwurf oder die Kriterien nicht verwendet werden, selbst wenn der Entwurf oder die Kriterien in der Aktivität verwendet werden. (TGT-36621, TGT-37217)
 
 ### Multivarianz-Test (MVT)-Aktivitäten
 
