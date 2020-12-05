@@ -4,7 +4,7 @@ description: Informationen über die Funktion adobe.target.getOffer(options) fü
 title: adobe.target.getOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 97%
@@ -30,7 +30,7 @@ Verwenden Sie sie mit `adobe.target.applyOffer()`, um die Antwort zu verarbeiten
 
 Das Hinzufügen von Parametern mit getOffer() und die Verwendung von applyOffer() für das Erfolgs-Handling:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -51,7 +51,7 @@ adobe.target.getOffer({
 
 Das Hinzufügen von Parametern und Profilparametern mit getOffer() und die Verwendung von applyOffer() für das Erfolgs-Handling:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -76,7 +76,7 @@ Verwendung von benutzerdefiniertem Timeout und benutzerdefiniertem Erfolgs-Handl
 
 „YOUR_OWN_CUSTOM_HANDLING_FUNCTION“ ist ein Platzhalter für eine Funktion, die der Kunde definieren würde.
 
-```
+```javascript
 adobe.target.getOffer({     
   "mbox": "target-global-mbox",   
   "success": function(offer) { 
@@ -102,7 +102,7 @@ Der Antwortparameter, der an die Rückruffunktion „success“ weitergegeben wu
 
 ## Beispiel
 
-```
+```javascript
 { 
     "sessionId": "1444512212156-384616", 
     "tntId": "1444512212156-384616.17_35", 
