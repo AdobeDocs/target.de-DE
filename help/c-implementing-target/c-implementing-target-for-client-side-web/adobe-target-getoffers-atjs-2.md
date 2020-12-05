@@ -4,10 +4,10 @@ description: Informationen über die Funktion adobe.target.getOffers(options) f�
 title: adobe.target.getOffers(options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 95%
+source-wordcount: '1219'
+ht-degree: 92%
 
 ---
 
@@ -73,9 +73,9 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 | Anfrage > Ausführen > Mboxes > Mbox > Bestellung > Gesamtsumme | Nein | `>=` 0 | Angebote für eine bestimmte Mbox mit den angegebenen Gesamtbestellsummen abrufen. |
 | Anfrage > Ausführen > Mboxes > Mbox > Bestellung > purchasedProductIds | Nein | Keine leeren Werte<br>Max. Länge jedes Wertes = 50<br>Per Komma verkettet und getrennt<br>Gesamtlänge der Produkt-IDs `<=` 250 | Angebote für eine bestimmte Mbox mit den angegebenen IDs der gekauften Produkte der Bestellung abrufen. |
 
-## Benutzen Sie `getOffers()`, um alle Ansichten aufzurufen
+## Aufruf von getOffers() für alle Ansichten
 
-```
+```javascript
 adobe.target.getOffers({
     request: {
       prefetch: {
@@ -85,9 +85,9 @@ adobe.target.getOffers({
 });
 ```
 
-## Benutzen Sie `getOffers()`, um die neuesten Ansichten mit den übergebenen Parametern und Profilparametern aufzurufen
+## Rufen Sie getOffers() auf, um die neuesten Ansichten mit den übergebenen Parametern und Profil-Parametern abzurufen.
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     "prefetch": {
@@ -106,9 +106,9 @@ adobe.target.getOffers({
 });
 ```
 
-## Benutzen Sie `getOffers()`, um Mboxes mit den übergebenen Parametern und Profilparametern aufzurufen
+## Rufen Sie getOffers() auf, um mboxes mit übergebenen Parametern und Profil-Parametern abzurufen.
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     execute: {
@@ -135,7 +135,7 @@ adobe.target.getOffers({
 
 ## Benutzen Sie getOffers(), um die Analytics-Nutzlast von der Clientseite abzurufen.
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -156,7 +156,7 @@ adobe.target.getOffers({
 
 **Antwort**:
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
@@ -193,7 +193,7 @@ Mit at.js 2.x können Sie mehrere Mboxes über die `getOffers()`-API abrufen. Si
 
 Das folgende Beispiel zeigt eine einfache HTML-Seite, auf der at.js 2.x implementiert ist:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -215,7 +215,7 @@ Angenommen, Sie haben drei Behälter, die Sie über einen Inhalt ändern möchte
 
 Die Anfrage und der Rendercode könnten wie folgt aussehen:
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     prefetch: {
@@ -266,11 +266,11 @@ In diesem Beispiel werden die CSS-Selektoren mit einer Zähl-Variablen erstellt.
 
 Beachten Sie, dass dieses Beispiel `prefetch > mboxes` verwendet, Sie könnten aber auch `execute > mboxes` verwenden. Stellen Sie sicher, dass Sie bei Verwendung von Vorausholen (prefetch) in `getOffers()` auch beim Aufruf von `applyOffers()` Vorausholen verwenden sollten.
 
-## Aufruf `getOffers()` zur Ausführung von pageLoad
+## Rufen Sie getOffers() auf, um pageLoad auszuführen
 
 Das folgende Beispiel zeigt, wie Sie pageLoad mit getOffers() mit at.js 2 ausführen.*x* 
 
-```
+```javascript
 adobe.target.getOffers({
     request: {
         execute: {
