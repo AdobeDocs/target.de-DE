@@ -4,7 +4,7 @@ description: Erstellen Sie JSON-Angebote in der Angebotsbibliothek für die Verw
 title: Erstellen von JSON-Angeboten
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
@@ -45,7 +45,7 @@ JSON-Angebote werden nur bei Aktivitäten unterstützt, die mit dem formularbasi
 
 Siehe folgendes Beispiel:
 
-```
+```json
 adobe.target.getOffer({ 
   mbox: "some-mbox", 
   success: function(actions) { 
@@ -59,7 +59,7 @@ adobe.target.getOffer({
 
 Die Aktionen, die an den Erfolgs-Callback übergeben werden, sind eine Reihe von Objekten. Angenommen, wir haben ein einzelnes JSON-Angebot mit folgendem Inhalt:
 
-```
+```json
 { 
   "demo": {"a": 1, "b": 2} 
 }
@@ -67,7 +67,7 @@ Die Aktionen, die an den Erfolgs-Callback übergeben werden, sind eine Reihe von
 
 Die Aktionsreihe hat diese Struktur:
 
-```
+```json
 [ 
  { 
    action: "setJson", 
@@ -84,7 +84,7 @@ Um das JSON-Angebot zu extrahieren, navigieren Sie durch Aktionen und suchen die
 
 Angenommen, das folgende JSON-Angebot wird an Ihre Webseite geliefert:
 
-```
+```json
 { 
     "_id": "5a65d24d8fafc966921e9169", 
     "index": 0, 
@@ -115,7 +115,7 @@ Angenommen, das folgende JSON-Angebot wird an Ihre Webseite geliefert:
 
 Der folgende Code zeigt Ihnen, wie Sie auf das Attribut „Begrüßung“ zugreifen können:
 
-```
+```json
 adobe.target.getOffer({   
   "mbox": "name_of_mbox", 
   "params": {}, 
