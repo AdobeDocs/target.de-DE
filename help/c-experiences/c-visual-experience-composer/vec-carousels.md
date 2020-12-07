@@ -4,7 +4,7 @@ description: In diesem Thema wird erläutert, wie ein Karussell erstellt wird, d
 title: Erstellen von Karussells, die in Visual Experience Composer funktionieren
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Sollten Sie mit den Anweisungen unten arbeiten, weiß [!DNL Target] stets, dass 
 
 1. Erstellen Sie statische HTML-Platzhalter.
 
-   ```
+   ```html
    <ul>
    <li class="show"> slide 1 </li>
    <li class="hidden"> slide 2 </li>
