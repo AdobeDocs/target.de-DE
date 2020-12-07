@@ -4,7 +4,7 @@ description: Zur Implementierung von Adobe Analytics als Berichterstellungsquell
 title: Implementieren von Analytics for Target
 feature: a4t implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 44%
@@ -60,7 +60,7 @@ Fügen Sie at.js unter VisitorAPI.js ein, indem Sie dem Tag auf jeder Seite die 
 
 Für at.js:
 
-```
+```javascript
 <script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
@@ -73,7 +73,7 @@ However, if you want more control on how and when to send analytics data related
 
 Beispiel:
 
-```
+```javascript
 window.targetGlobalSettings = {
   analyticsLogging: "client_side"
 };
@@ -81,7 +81,7 @@ window.targetGlobalSettings = {
 
 This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the [!DNL Target] requests and an analytics payload will be returned for every request. Bei dieser Einstellung sieht das Format der zurückgegebenen Nutzlast wie folgt aus:
 
-```
+```javascript
 "analytics": {
    "payload": {
       "pe": "tnt",
@@ -96,7 +96,7 @@ Wenn statt einer globalen Einstellung ein situationsbezogener Ansatz gewünscht 
 
 Beispiel:
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -119,7 +119,7 @@ Dieser Aufruf ruft eine Antwort auf, aus der Sie die Analyse-Nutzlast extrahiere
 
 Die Antwort sieht wie folgt aus:
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
