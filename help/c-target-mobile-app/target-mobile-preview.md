@@ -4,7 +4,7 @@ description: Verwenden Sie die Vorschau für mobile Apps, um mühelos eine ganzh
 title: Verwenden des mobilen Vorschau-Links in Adobe Target Mobile
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 94%
@@ -49,7 +49,7 @@ Mit der mobilen Vorschaufunktionalität können Sie Aktivitäten in Ihrer mobile
 
    Das folgende Code-Snippet dient als Beispiel:
 
-   ```
+   ```javascript
    - (BOOL) application:(UIApplication *)app openURL:(NSURL *)url 
                 options:(NSDictionary<NSString *,id> *)options { 
    
@@ -63,7 +63,7 @@ Mit der mobilen Vorschaufunktionalität können Sie Aktivitäten in Ihrer mobile
 
    **Android:** Rufen Sie in der App `Config.trackAdobeDeepLink(URL);` auf, wenn der Aufrufende dazu aufgefordert wird, die Ressource mit dem URL-Schema zu öffnen, das im vorherigen Schritt angegeben wurde.
 
-   ```
+   ```javascript
     private Boolean shouldOpenDeeplinkUrl() { 
         Intent appLinkIntent = getIntent(); 
         String appLinkAction = appLinkIntent.getAction(); 
@@ -78,7 +78,7 @@ Mit der mobilen Vorschaufunktionalität können Sie Aktivitäten in Ihrer mobile
 
    Damit die Vorschau für die Mobilversion funktioniert, müssen Sie außerdem das folgende Code-Snippet in [!DNL AndroidManifest.xml] hinzufügen:
 
-   ```
+   ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
