@@ -4,7 +4,7 @@ description: Mithilfe von QA-URLs mit serverseitiger Bereitstellung können Sie 
 title: Verwenden von Aktivitäts-QA mit serverseitiger Bereitstellung
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 82%
@@ -20,7 +20,7 @@ The standard implementation of Activity QA supports passing `qa_mode` parameters
 
 Folgendes Codebeispiel zeigt die Aktivitäts-QA in einem serverseitigen Aufruf:
 
-```
+```json
 {
   "mbox" : "orderConfirmPage",
   "clientSideAnalyticsLogging": true,
