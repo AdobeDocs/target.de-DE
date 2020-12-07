@@ -4,7 +4,7 @@ description: Mit einem Entwurf wird festgelegt, wie Empfehlungen auf einer Seite
 title: Erstellen eines Designs
 feature: designs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 35%
@@ -109,7 +109,7 @@ Das folgende Beispiel zeigt, wie JSON-Antworten zurückgegeben werden können, w
 
 1. Der folgende Code ist ein Beispiel dafür, was Sie in Ihren Entwurf einfügen können:
 
-   ```
+   ```javascript
        #* 
        * "Return a simple list of recommended entity ids"   
        *#
@@ -182,7 +182,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
 
 Außerdem können Sie mit der Antwort zusätzliche Informationen senden. Die folgende Codedatei ist ein komplexeres Beispiel, das viel mehr zurücksendet als die Entity-IDs mit den zugehörigen Slots (Bestellung). This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
 
-```
+```javascript
     {   
      "adobeRecommendations": {   
       "notes": {   
