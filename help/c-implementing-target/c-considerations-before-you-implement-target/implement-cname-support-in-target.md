@@ -4,9 +4,9 @@ description: Informationen zur Arbeit mit Adobe Client Care zur Implementierung 
 title: CNAME und Adobe Target
 feature: privacy and security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 677d5ed16377fc32b4506ca736084319e5643e67
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1210'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    >
    >Die Zertifizierungsstelle der Adobe, DigiCert, kann erst nach Abschluss dieses Schritts ein Zertifikat ausstellen. Daher kann die Adobe Ihre Anforderung einer CNAME-Implementierung erst dann erfüllen, wenn dieser Schritt abgeschlossen ist.
 
-1. [Füllen Sie dieses Formular](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) aus und fügen Sie es ein, wenn Sie ein Adobe Client Care Ticket [öffnen, das CNAME-Support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)anfordert:
+1. [Füllen Sie dieses Formular](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) aus und fügen Sie es ein, wenn Sie ein Adobe Client Care Ticket [öffnen, das CNAME-Support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)anfordert:
 
    * Adobe- [!DNL Target] Client-Code:
    * SSL-Zertifikat-Hostnamen (Beispiel: `target.example.com target.example.org`):
@@ -52,7 +52,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    Adobe Client Care benachrichtigt Sie, wenn Ihre Implementierung fertig ist.
 
-1. Nachdem Sie die vorherigen Aufgaben abgeschlossen und die Adobe Client Care Sie darauf hingewiesen haben, dass die Implementierung fertig ist, müssen Sie den CNAME in at.js aktualisieren, `serverDomain` um den neuen CNAME zu erhalten.
+1. Nachdem Sie die vorherigen Aufgaben abgeschlossen und die Adobe Client Care Sie darüber informiert haben, dass die Implementierung fertig ist, müssen Sie den CNAME in at.js aktualisieren, `serverDomain` um den neuen CNAME zu erhalten.
 
 ## Häufig gestellte Fragen  
 
