@@ -4,7 +4,7 @@ description: Informationen zur Seite „Änderungen“, auf der Sie Änderungen 
 title: Änderungen
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -113,7 +113,7 @@ Auf der Registerkarte **[!UICONTROL Benutzerspezifischer Code]** können Sie Fol
 
    So ändern Sie beispielsweise die Farbe eines Elements:
 
-   ```
+   ```javascript
    <script type="text/javascript"> 
    document.getElementById("element_id").style.color = "blue"; 
    </script> 
@@ -123,7 +123,7 @@ Auf der Registerkarte **[!UICONTROL Benutzerspezifischer Code]** können Sie Fol
 
    beispielsweise zur Definition einer Klasse für ein Überlagerungselement:
 
-   ```
+   ```html
    <style> 
    .overlay 
    { position: absolute; top:0; left: 0; right: 0; bottom: 0; background: red; } 
@@ -134,13 +134,13 @@ Auf der Registerkarte **[!UICONTROL Benutzerspezifischer Code]** können Sie Fol
 
    Verwenden Sie beispielsweise das folgende HTML-Snippet, um eine Überlagerung `<div>` anhand der oben definierten CSS-Klasse zu erstellen:
 
-   ```
+   ```html
    <div class="overlay"></div>
    ```
 
 * Wechsel zu DOM-bereit anhand von jQuery
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    jQuery( document ).ready(function() { 
@@ -152,7 +152,7 @@ Auf der Registerkarte **[!UICONTROL Benutzerspezifischer Code]** können Sie Fol
 
 * Wechsel zu DOM-bereit, ohne jQuery (Internet Explorer 8 wird nicht unterstützt)
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    document.addEventListener("DOMContentLoaded", function(event) {  
@@ -166,7 +166,7 @@ Auf der Registerkarte **[!UICONTROL Benutzerspezifischer Code]** können Sie Fol
 
    Der Vorteil besteht darin, dass der Tausch früher erfolgt als auf DOM-bereit. Das Plug-in verarbeitet Vorabausblenden und -einblenden; eine Kennung am Element ist dazu erforderlich.
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
@@ -178,7 +178,7 @@ Auf der Registerkarte **[!UICONTROL Benutzerspezifischer Code]** können Sie Fol
 
 * Benutzerdefinierte Umleitung zur Übergabe von vorhandenen Parametern, `s_tnt`-Parameter (für die Integration von Legacy in Analytics), Parametern für Referrer und Mbox-Sitzung
 
-   ```
+   ```javascript
    <style type="text/css">body{display:none!important;}</style> 
    <script type="text/javascript"> 
     var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
@@ -196,7 +196,7 @@ Auf der Registerkarte **[!UICONTROL Benutzerspezifischer Code]** können Sie Fol
 
 Beispiel:
 
-```
+```html
 <div id="custom-code"> 
 // My Code goes here 
 </div>
