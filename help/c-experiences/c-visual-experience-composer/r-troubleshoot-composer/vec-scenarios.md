@@ -4,7 +4,7 @@ description: Die Szenarien in diesem Thema veranschaulichen, wie sich an Ihrer S
 title: Szenarien für die Seitenmodifizierung
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Es besteht die Möglichkeit, dass am Element vorhandene erste Klasse durch JavaS
 
 **Eingefügtes Element:**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -48,7 +48,7 @@ Der Selektor funktioniert wie erwartet, da `li.women-section:eq(0)` nicht betrof
 
 Bevor:
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="men-section"> Men</li> <li class="women-section">Women</li>
@@ -58,7 +58,7 @@ Bevor:
 
 Nachher:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="kids-section">Kids</li>
@@ -73,7 +73,7 @@ Bei diesem Szenario wird versucht, eine Liste einzufügen, wenn ein Listenelemen
 
 **Eingefügtes Element:**
 
-```
+```html
 <ul class="nav"> 
    <li class="item"> Sale </li> 
    <li> class="item"> Offers </li> 
@@ -92,7 +92,7 @@ Der Selektor funktioniert nicht, weil `ul.nav:eq(0)` ein dynamisch hinzugefügte
 
 Bevor:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
@@ -102,7 +102,7 @@ Bevor:
 
 Nach (versucht):
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="item"> Sale</li>
@@ -121,7 +121,7 @@ Bei diesem Szenario wird nach dem ausgewählten Element ein Listenelement eingef
 
 **Eingefügtes Element:**
 
-```
+```html
 <ul class="nav"> 
    <li class="men-section"> Men Clothes</li> 
    <li class="women-section"> Women Clothes</li> 
@@ -140,7 +140,7 @@ In diesem Fall funktioniert das Einfügen einer Liste nach einer Liste, die mit 
 
 Bevor:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>       <li class="women">Women Shoes</li>
@@ -150,7 +150,7 @@ Bevor:
 
 Nachher:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>
@@ -169,7 +169,7 @@ Bei diesem Szenario wird das Listenelement vor dem ausgewählten Element gelösc
 
 **Entferntes Element:**
 
-```
+```html
 <li class="men-section"> Men </li>
 ```
 
@@ -185,7 +185,7 @@ Das Element wird erfolgreich entfernt, weil die Klasse des ausgewählten Element
 
 Bevor:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -196,7 +196,7 @@ Bevor:
 
 Nachher:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="women-section">Women</li>
@@ -210,7 +210,7 @@ Bei diesem Szenario wird das Listenelement nach dem ausgewählten Element gelös
 
 **Entferntes Element:**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -226,7 +226,7 @@ Das Element wird erfolgreich entfernt, weil die Klasse des ausgewählten Element
 
 Bevor:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -238,7 +238,7 @@ Bevor:
 
 Nachher:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -253,7 +253,7 @@ Bei diesem Szenario wird das ausgewählte Listenelement entfernt.
 
 **Entferntes Element:**
 
-```
+```html
 <li class="women-shoes">Women</li>
 ```
 
@@ -269,7 +269,7 @@ Das Element wurde erfolgreich entfernt.
 
 Bevor:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -280,7 +280,7 @@ Bevor:
 
 Nachher
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
        <li class="men-section">Men</li>
@@ -294,7 +294,7 @@ Bei diesem Szenario wird die Klasse des ausgewählten Listenelements umbenannt.
 
 **Geändertes Element:**
 
-```
+```html
 <li class="women-section">Women</li>
 ```
 
@@ -310,7 +310,7 @@ Die Elementklasse kann nicht umbenannt werden, weil `class` nicht gefunden wurde
 
 Bevor:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -321,7 +321,7 @@ Bevor:
 
 Nach (versucht):
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
