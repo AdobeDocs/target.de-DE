@@ -5,7 +5,7 @@ title: Benutzerdefinierte Entitätsattribute in Adobe Target
 feature: entities
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
@@ -73,7 +73,7 @@ Sie können bis zu 500 Werte in einem Attribut mit mehreren Werten einbeziehen.
 
 Das folgende Beispiel zeigt, wie Sie Folgendes verwenden:  `targetPageParams`
 
-```
+```javascript
 function targetPageParams() { 
   return { 
     'entity.id':                   '123', 
@@ -111,7 +111,7 @@ Gehen Sie bei der direkten Bearbeitung einer CSV-Katalogdatei im Rohformat vorsi
 
 Sie können Attribute mit mehreren Werten mithilfe der Versand-API in einem mbox-Parameter als Zeichenfolgenwert mit einem Escape-Array übergeben.
 
-```
+```javascript
 "execute": {
     "mboxes": [
       {
