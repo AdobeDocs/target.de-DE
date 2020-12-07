@@ -4,7 +4,7 @@ description: Durch Befolgung dieser Best Practices können Sie dafür sorgen, da
 title: Best Practices und Einschränkungen von Visual Experience Composer
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -135,7 +135,7 @@ Bei der Verwendung von Enhanced Experience Composer wird die Webseite im Hinterg
 
 Beispielsweise können Sie im VEC nicht auf Einkaufswagen-Text zielen, wenn Ihr Code wie folgt aussieht:
 
-```
+```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
    <img alt="Shopping Cart"src="/images/ico-cart.gif"></img> 
    Shopping Cart: 
@@ -167,7 +167,7 @@ Stellen Sie sicher, dass die Webseite wie erwartet lädt, nachdem solche Paramet
 
 Deaktivieren Sie iframe-Busting auf Ihrer Webseite und prüfen Sie, ob sie sich auf einer Platzhalterseite in einem iframe wie gewünscht öffnen lässt. Beispiel:
 
-```
+```html
 <!DOCTYPE 
 <html> 
 <html> 
@@ -208,7 +208,7 @@ Wenn Sie eine Bildaktion für ein Element austauschen und anschließend den Text
 
 Wenn Ihre Seite zum Beispiel Folgendes enthält:
 
-```
+```html
 <div> 
   <div class="mboxDefault" > 
   </div>
@@ -272,7 +272,7 @@ Das Skript wird nach dem Laden der Seite innerhalb des Geltungsbereichs von „t
 
 *Falsch:*
 
-```
+```html
 <script> 
   var myVar = 123; 
   function myFunc() { 
@@ -283,7 +283,7 @@ Das Skript wird nach dem Laden der Seite innerhalb des Geltungsbereichs von „t
 
 *Richtig:*
 
-```
+```html
 <script> 
   window.myVar = 123; 
   window.myFunc = function() { 
@@ -296,7 +296,7 @@ Das Skript wird nach dem Laden der Seite innerhalb des Geltungsbereichs von „t
 
 Fügen Sie ein Ankerelement innerhalb des div „customHeaderMessage“ sowie Platzhaltertext ein:
 
-```
+```html
 <a href="#"> 
 <span> Dummy text </span>
 </a>
@@ -306,7 +306,7 @@ Wählen Sie das div mithilfe von „Element einfügen“, um ein Bild als Geschw
 
 Nach Einfügen des Bilds sollte es wie folgt aussehen:
 
-```
+```html
 <a href="#">  
 <span> Dummy text </span> 
 <img src=""> This is inserted Image. </img> 
