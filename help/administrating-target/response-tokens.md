@@ -4,7 +4,7 @@ description: Mithilfe von Antworttoken können Sie automatisch Zielgruppen-spezi
 title: Antwort-Token in Adobe Target
 feature: response tokens
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -77,7 +77,7 @@ Use [at.js custom events](/help/c-implementing-target/c-implementing-target-for-
 
 Mit dem folgenden Code-Beispiel wird direkt ein benutzerdefinierter [!DNL at.js]-Eventhandler auf der HTML-Seite hinzugefügt:
 
-```
+```html
 <html> 
   <head> 
     .... 
@@ -104,7 +104,7 @@ Die folgenden Anweisungen zeigen, wie Sie mit dem dynamischer Tag-Manager (DTM) 
 
 1. Hängen Sie im Code-Editor den folgenden Code an [!DNL at.js] an:
 
-   ```
+   ```json
    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
      console.log("Request succeeded", e.detail); 
    });
@@ -112,7 +112,7 @@ Die folgenden Anweisungen zeigen, wie Sie mit dem dynamischer Tag-Manager (DTM) 
 
 Sie können das folgende Snippet zur [at.js-Setupseite](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) der Bibliotheksfußzeile hinzufügen, wenn Sie alles in einer Datei haben möchten.
 
-```
+```json
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
   console.log("Request succeeded", e.detail); 
 });
@@ -168,7 +168,7 @@ Target führt in regelmäßigen Abständen eine Aktualisierung der Attribute dur
 
 Daten können via at.js an Google Analytics gesendet werden, indem Sie auf der HTML-Seite den folgenden Code hinzufügen:
 
-```
+```javascript
 <script type="text/javascript"> 
   (function(i, s, o, g, r, a, m) { 
     i['GoogleAnalyticsObject'] = r; 
@@ -234,7 +234,7 @@ Daten können via at.js an Google Analytics gesendet werden, indem Sie auf der H
 
 Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen des folgenden Codes zu der HTML-Seite erstellt werden:
 
-```
+```javascript
 <script type="text/javascript" > 
   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) { 
     window.ttMETA= typeof(window.ttMETA)!="undefined" ? window.ttMETA : []; 
