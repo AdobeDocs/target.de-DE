@@ -4,7 +4,7 @@ description: In diesem Abschnitt wird beschrieben, wie Sie Adobe Target-Informat
 title: Adobe Target-Aktivitäten an Adobe Analytics senden
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 34%
@@ -27,13 +27,13 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    If you include a string like the following in your experience content, [!DNL Target] returns the activity information that you can send to [!DNL Analytics]:
 
-   ```
+   ```javascript
    ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
    ```
 
    Ersetzen Sie den Text in Ihrem Erlebnis-JSON-Code beispielsweise durch Folgendes:
 
-   ```
+   ```javascript
    { 
      "tntVal": ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}", 
      "title":"Welcome Message", 
@@ -45,7 +45,7 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    Diese Zeichenfolge liefert eine Zahl (z. B. 115110:0:0) in der Antwort von [!DNL Target]. Dies zeigt die Aktivitäten-ID, Erlebnis-ID und den Traffic-Typ an. The following is a sample response from [!DNL Target]:
 
-   ```
+   ```javascript
    { 
      "tntVal": 115110:0:0", 
      "title":"Welcome Message", 
@@ -65,7 +65,7 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    Dieser Aufruf kann beispielsweise im Callback des Aufrufs `targetLoadRequest` ausgelöst werden:
 
-   ```
+   ```javascript
    [ADBMobile trackAction:@"Welcome Screen"  
          data:@{@"&&tnt" : tntVal from response}];
    ```
