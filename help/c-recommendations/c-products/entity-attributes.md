@@ -4,7 +4,7 @@ description: Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformati
 title: Entitätsattribute
 feature: entities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 90%
@@ -40,7 +40,7 @@ Im Allgemeinen kann die Mbox mit den Anzeigeinformationen wie im folgenden Beisp
 
 Bei allen Entitätsparameterattributen wird zwischen Groß- und Kleinschreibung unterschieden.
 
-```
+```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
  
 mboxCreate('productPage', 
@@ -120,7 +120,7 @@ Bei kategoriebasierten Empfehlungen wird ein Komma verwendet, um Kategoriewerte 
 
 Im folgenden Code ist die Kategorie „Womens“ beispielsweise in mehrere Unterkategorien unterteilt:
 
-```
+```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
@@ -223,7 +223,7 @@ Beispiel: `'entity.event.detailsOnly=true'`
 
 In den unten gezeigten Beispielen werden Katalog- und Verhaltensdaten mit dem Mbox-Aufruf aktualisiert. Mit dem zweiten Mbox-Aufruf wird lediglich der Katalog aktualisiert.
 
-```
+```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
