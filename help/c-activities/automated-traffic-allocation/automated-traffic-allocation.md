@@ -1,13 +1,13 @@
 ---
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
-description: Die Funktion „Automatisch zuweisen“ identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und ordnet dem Gewinner automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.
+description: Die Aktivität "Automatisierte Zuordnung"in Adobe Target identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und weist automatisch mehr Traffic an den Gewinner zurück, um die Konversionen zu erhöhen, während der Test weiter ausgeführt und gelernt wird.
 title: Automatische Zuordnung
 feature: reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '3369'
-ht-degree: 75%
+source-wordcount: '3374'
+ht-degree: 74%
 
 ---
 
