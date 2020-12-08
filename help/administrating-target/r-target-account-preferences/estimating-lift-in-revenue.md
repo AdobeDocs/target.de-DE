@@ -1,13 +1,13 @@
 ---
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-description: Target kann die Umsatzsteigerung schätzen, die Sie erzielen könnten, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden.
+description: Adobe Target kann die Umsatzsteigerung schätzen, die Sie erzielen würden, wenn alle Benutzer das Gewinner-Erlebnis Ansicht hätten.
 title: Geschätzte Umsatzsteigerung
 feature: administration general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 96%
 
 ---
 
