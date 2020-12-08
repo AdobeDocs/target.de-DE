@@ -1,13 +1,13 @@
 ---
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Den Gewinner in einer A/B-Aktivität mit automatisierter Zuordnung erkennen Sie an Indikatoren in der Target-Benutzeroberfläche.
+description: Bestimmen Sie einen Gewinner in einer A/B-Aktivität mit automatisierter Zuordnung, indem Sie Indikatoren in der Adobe Target-Benutzeroberfläche anzeigen.
 title: Ermitteln eines Gewinners
 feature: auto-allocate
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 50%
+source-wordcount: '1110'
+ht-degree: 49%
 
 ---
 
