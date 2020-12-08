@@ -1,13 +1,13 @@
 ---
 keywords: add user;manage user;user permissions
-description: Informationen zum Benutzermanagement in Target Standard sowie zur Verwaltung von Unternehmensassets und -berechtigungen in Target Premium.
+description: Informationen zum Verwalten von Benutzern in Adobe Target Standard und zum Verwalten von Unternehmenseigenschaften und -berechtigungen in Adobe Target Premium.
 title: Benutzerverwaltung
 feature: user management
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 25%
+source-wordcount: '228'
+ht-degree: 18%
 
 ---
 
