@@ -1,13 +1,13 @@
 ---
 keywords: Targeting
-description: Die Aktivitäts-URL legt die Seite fest, die bei dem Test verwendet wird und die beim Entwurf des Multivarianz-Tests (MVT) in Adobe Target geöffnet wird.
+description: Die Aktivitäten-URL bestimmt die Seite, die in einem Adobe Target-Multivarianz-Test (MVT) verwendet wird und die geöffnet wird, wenn der Test in Adobe Target entworfen wurde.
 title: Aktivitäts-URL
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 93%
+source-wordcount: '288'
+ht-degree: 84%
 
 ---
 
