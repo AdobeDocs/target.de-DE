@@ -4,9 +4,9 @@ description: Informationen zu kommenden Ereignissen, einschließlich Zielgruppe 
 title: Mitteilungen zur Zielgruppe
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Marketingfachleute, Produkteigentümer und Entwickler sind mehr denn je damit be
 In diesem aufgezeichneten Webinar besprechen Adobe Target-Produktexperten, wie bewegliche Entscheidungen zur Optimierung kritischer Erlebnisse auf dem Gerät zur lokalen Ausführung mit Nulllatenz Türen für aufregende neue Anwendungsfälle eröffnen und gleichzeitig die Leistung Ihrer Kunden verbessern können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
-
-[Melden Sie sich hier für dieses aufregende Ereignis an.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Webinar: Wie HSBC Adobe Target und AI nutzt, um Personalisierung schnell zu optimieren und zu liefern
 
