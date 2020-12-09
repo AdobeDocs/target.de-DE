@@ -1,10 +1,10 @@
 ---
 keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: 'Die geräteinterne Entscheidungsfindung bietet die Möglichkeit, Ihre Adobe Target A/B- und Erlebnis-Targeting (XT)-Aktivitäten im Cache auf Ihrem Server zu speichern und Speicherentscheidungen mit einer Latenz von nahezu null durchzuführen, ohne Netzwerkanforderungen an Adobe Target Edge Network zu blockieren. '
+description: 'Die geräteinterne Entscheidungsfindung bietet die Möglichkeit, Ihre Adobe Target A/B- und Erlebnis-Targeting (XT)-Aktivitäten im Cache auf Ihrem Server zu speichern und Speicherentscheidungen mit einer Latenz von nahezu null durchzuführen, ohne Netzwerkanforderungen an das Adobe Target Edge Network zu blockieren. '
 title: Geräteinterne Entscheidungsfindung
 feature: server-side
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Geräteinterne Entscheidungsfindung
 
-Die geräteinterne Entscheidungsfindung bietet die Möglichkeit, Ihre [!DNL Adobe Target] A/B-Test [!UICONTROL - und] Erlebnis-Targeting [!UICONTROL -Aktivitäten auf Ihrem Server im Cache zu speichern und Speicherentscheidungen mit einer Latenz von nahezu null durchzuführen, ohne Netzwerkanforderungen an] [!DNL Adobe Target]das Edge-Netzwerk zu blockieren.
+Die geräteinterne Entscheidungsfindung bietet die Möglichkeit, Ihre [!DNL Adobe Target] A/B-Test [!UICONTROL - und] Erlebnis-Targeting [!UICONTROL -Aktivitäten (XT) auf Ihrem Server zwischenspeichern und Speicherentscheidungen mit einer Latenz von nahezu null durchführen zu können, ohne Netzwerkanforderungen an das] [!DNL Adobe Target] Edge-Netzwerk zu blockieren.
 
 Weitere Informationen finden Sie unter [Einführung in die Geräteentscheidung](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in der Dokumentation *[zu](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target-SDKs.
 
@@ -28,7 +28,7 @@ In diesem aufgezeichneten Webinar besprechen [!DNL Adobe Target] Produktexperten
 
 ## Übung: Geräteinterne Entscheidungsfindung
 
-[!DNL Adobe Targe]Die Entscheidung auf dem Gerät ermöglicht eine nahezu Null-Latenzzeit-Content-Versand.
+[!DNL Adobe Target] Die on-device-Entscheidungsfindung ermöglicht eine nahezu Null-Latenzzeit-Content-Versand.
 
 Dieses 7-minütige Video:
 
