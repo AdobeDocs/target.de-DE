@@ -4,9 +4,9 @@ description: 'Die geräteinterne Entscheidungsfindung bietet die Möglichkeit, I
 title: Geräteinterne Entscheidungsfindung
 feature: server-side
 translation-type: tm+mt
-source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
+source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,6 @@ Dieses 7-minütige Video:
 * Zeigt Beispiel-Node.JS-SDK-Code mit der Schlüsselkonfiguration an, die für die Entscheidungsfindung auf dem Gerät erforderlich ist
 * Demonstriert Ergebnisse in einem Browser
 
-Am Ende dieses Videos können Sie:
-
-* Beschreiben Sie die Entscheidung auf dem Gerät und deren Vorteile
-* Aktivieren Sie die Entscheidung auf dem Gerät in [!DNL Target]
-* Erstellen einer formularbasierten Composer-Aktivität, die für die Verwendung bei der Entscheidungsfindung auf dem Gerät vorgesehen ist
-* Weitere Informationen zur SDK-Konfiguration, die für die Entscheidungsfindung auf dem Gerät erforderlich ist, finden Sie in der [Adobe Target SDK-Dokumentation.](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Verstehen Sie, was Endbenutzer für Inhalte erleben, die mithilfe der Geräteentscheidung bereitgestellt werden.
-
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
+
+Weitere Videos und Tutorials finden Sie im Handbuch [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) .
