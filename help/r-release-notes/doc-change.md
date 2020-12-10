@@ -4,9 +4,9 @@ description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Do
 title: Änderungen an der Adobe Target-Produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
 workflow-type: tm+mt
-source-wordcount: '3120'
+source-wordcount: '3144'
 ht-degree: 28%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | Dezember 9 | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Neues Thema |
+|  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende Problem wurde aus dem Abschnitt &quot;Bekannte Probleme&quot;in den Abschnitt &quot;Behobene Probleme&quot;verschoben: &quot;Angebote mit der Beschriftung &quot;Verarbeitung&quot;.&quot; |
 | Dezember 1 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Die Aufzeichnung des Webinars für &quot;Personalisieren und Testen mit Nulllatenz bei Entscheidungen auf dem Gerät von Adobe Target&quot;wurde eingebettet. |
 | November 24 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>[Berichte - Inkonsistente Daten im herunterladbaren .csv-Bericht im Vergleich zum angezeigten Bericht in der Benutzeroberfläche der Zielgruppe.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Das folgende Problem wurde behoben:<ul><li>[Berichterstellung von Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [Metrikdefinitionen – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Warum kann ich bei der Konfiguration meiner Zielmetriken nicht auf die Optionen für erweiterte Einstellungen zugreifen?&quot; |
