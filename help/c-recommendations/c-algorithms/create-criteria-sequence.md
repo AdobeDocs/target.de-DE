@@ -1,12 +1,12 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: Verwenden Sie Sequenzen von bis zu fünf Kriterien, um die Elemente, die in Ihren Adobe Target Recommendations-Aktivitäten angezeigt werden, besser zu kontrollieren.
 title: Erstellen von Kriteriensequenzen
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4b9ff10ff01ea3bf4fc1be165b220d4975e1f948
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '808'
 ht-degree: 36%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 36%
 
 # ![PREMIUM](/help/assets/premium.png) Kriteriensequenzen erstellen
 
-Verwenden Sie Sequenzen von bis zu fünf Kriterien, um mehr Kontrolle über die Elemente zu erhalten, die in Ihren [!UICONTROL Recommendations]-Aktivitäten angezeigt werden.
+Verwenden Sie Sequenzen von bis zu fünf Kriterien, um mehr Kontrolle über die Elemente zu erhalten, die in Ihren [!UICONTROL Recommendations]-Aktivitäten angezeigt werden. Sie können auch die Anzahl der zurückgegebenen Elemente einschränken (manchmal auch als &quot;Steuerung auf Slot-Ebene&quot;bezeichnet).
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
 
    ![Anzahl der zurückgegebenen Elemente begrenzen](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Um den Wert der Option &quot;Anzahl der zurückgegebenen [!UICONTROL Elemente] begrenzen&quot;besser zu verstehen, sollten Sie die folgenden Anwendungsfälle berücksichtigen:
+   Um den Wert der Option &quot;Anzahl der zurückgegebenen [!UICONTROL Elemente] begrenzen&quot;(manchmal auch als &quot;Steuerung auf Ebene der Zeitnischen&quot;bezeichnet) zu verstehen, sollten Sie die folgenden Anwendungsfälle berücksichtigen:
 
    * **Verwendungsfall 1**: Sie möchten eine Mischung aus verschiedenen Arten von Artikeln in einer einzigen Recommendations-Ablage haben. Sie möchten beispielsweise eine Mischung aus Oberbekleidung (Jacken) und Oberteil (Hemden, T-Shirts) zeigen. Um dies zu erreichen, verwenden Sie eine Sammlung für die Aktivität, die alle potenziellen Produkttypen enthält, die Sie in beliebigen Slots in Ihrem Design verwenden möchten. Richten Sie dann Ihre ersten Kriterien mit einem statischen Filter ein, der die Kriterien auf nur Oberbekleidung beschränkt, und richten Sie Ihr zweites Kriterium mit einem statischen Filter ein, der die Kriterien auf nur Oberteile beschränkt. Fügen Sie schließlich beide Kriterien zu einer Kriteriensequenz hinzu und beschränken Sie die ersten Kriterien auf 2 Slots.
 
