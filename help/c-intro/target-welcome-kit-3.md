@@ -24,7 +24,7 @@ Identifizieren Sie die Möglichkeiten für Aktivitäten, die mit den Geschäftsz
 
 Führen Sie hierzu folgende Schritte aus:
 
-* Brainstorming potenzieller [!DNL Target] Aktivitäten basierend auf Site-Leistungsdaten, Konkurrent-Analyse und vorherigen Testergebnissen.
+* Brainstorming-Potenzielle [!DNL Target]-Aktivitäten basierend auf Site-Leistungsdaten, Konkurrent-Analyse und vorherigen Testergebnissen.
 * Entwicklung von Ideen für Aktivitäten zur Überprüfung, Feedback und Anmeldung.
 
 Suchen Sie z. B. nach einer Seite auf Ihrer Site mit einer hohen Absprungrate, überlegen Sie, was das Problem verursachen könnte, und beschreiben Sie, wie Sie die Absprungrate reduzieren können.
@@ -49,13 +49,13 @@ Führen Sie hierzu folgende Schritte aus:
 
 * Finalisieren der Einstiegskriterien und Metriken für die Aktivität, die zur Bestimmung der Leistung der Aktivität erforderlich sind.
 * Fertigstellung und Genehmigung von endgültigen Entwürfen für Aktivitäten
-* Dokumentationsanforderungen für die [!DNL Target] Aktivität, einschließlich Testeinstiegskriterien, Berichte-Metriken und Erlebnisänderungen.
+* Dokumentationsanforderungen für die [!DNL Target]-Aktivität, einschließlich Testeingabekriterien, Berichte-Metriken und Erlebnisänderungen.
 
 Verwenden Sie den später im Begrüßungs-Kit bereitgestellten Aktivitäten-Planer, um die Details der Aktivität zu Dokument zu führen, einschließlich der Metriken, die Sie zur Messung der Performance der Aktivität verwenden werden, z. B. Klicks auf eine Aktionsschaltfläche, Videostarts oder generierte Umsätze. Denken Sie daran, Screenshots oder Bilder der Erlebnisentwürfe einzuschließen, die Sie testen oder personalisieren möchten.
 
 ## Schritt 4: Erstellen und Ausführen
 
-Erstellen Sie die Aktivität und führen Sie sie aus, [!DNL Target]entwickeln Sie bei Bedarf Code, führen Sie QS-Tests durch und starten Sie die Aktivität.
+Erstellen und führen Sie die Aktivität innerhalb von [!DNL Target] aus, entwickeln Sie bei Bedarf Code, führen Sie QS-Tests durch und starten Sie die Aktivität.
 
 Führen Sie hierzu folgende Schritte aus:
 
@@ -71,7 +71,7 @@ Analysieren Sie die Performance der Aktivität und fassen Sie Aktivitäten, Erke
 
 Führen Sie hierzu folgende Schritte aus:
 
-* Nutzung der Analyse von Daten und Best Practices zum Verständnis der Ergebnisse der Aktivität.
+* Nutzung der Analyse und Best Practices von Daten, um die Ergebnisse der Aktivität zu verstehen.
 * Analysieren der Performance von Audiencen, um wertvolle Besucher zu finden.
 * Dokumentation von Einblicken, Ergebnissen und Empfehlungen.
 
