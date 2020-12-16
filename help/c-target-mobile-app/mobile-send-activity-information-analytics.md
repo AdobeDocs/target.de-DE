@@ -14,18 +14,18 @@ ht-degree: 34%
 
 # Senden von Aktivitätsinformationen an Adobe Analytics{#send-activity-information-to-adobe-analytics}
 
-This section describes how to send [!DNL Target] mobile app activity information to Adobe [!DNL Analytics] for post hoc segmentation.
+In diesem Abschnitt wird beschrieben, wie Sie [!DNL Target] Informationen zur mobilen App-Aktivität zur Post-hoc-Segmentierung an Adobe [!DNL Analytics] senden.
 
 **Voraussetzungen**
 
-* This integration requires that [!DNL Analytics] and [!DNL Target] are implemented using the mobile SDK.
-* Ensure that your report suite is enabled to receive activity information from [!DNL Target].
+* Für diese Integration müssen [!DNL Analytics] und [!DNL Target] mit dem mobilen SDK implementiert werden.
+* Stellen Sie sicher, dass Ihre Report Suite für den Empfang von Informationen zur Aktivität von [!DNL Target] aktiviert ist.
 
-   This is usually done by adding the [!DNL Target] client code to the [!DNL Analytics] report suite. Dies kann bereits aktiviert sein, wenn Sie die SiteCatalyst-Test&amp;Target-Integration für Webaktivitäten verwenden. Wenden Sie sich an den Kundendienst von Adobe, wenn Sie Fragen zu diesem Schritt haben.
+   Dies geschieht in der Regel durch Hinzufügen des [!DNL Target]-Clientcodes zur [!DNL Analytics] Report Suite. Dies kann bereits aktiviert sein, wenn Sie die SiteCatalyst-Test&amp;Target-Integration für Webaktivitäten verwenden. Wenden Sie sich an den Kundendienst von Adobe, wenn Sie Fragen zu diesem Schritt haben.
 
 1. Rufen Sie die Aktivitätsinformationen ab.
 
-   If you include a string like the following in your experience content, [!DNL Target] returns the activity information that you can send to [!DNL Analytics]:
+   Wenn Sie eine Zeichenfolge wie die folgende in Ihren Erlebnisinhalt einschließen, gibt [!DNL Target] die Informationen zur Aktivität zurück, die Sie an [!DNL Analytics] senden können:
 
    ```javascript
    ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
@@ -41,9 +41,9 @@ This section describes how to send [!DNL Target] mobile app activity information
    }
    ```
 
-   In this example, a node with the variable `tntVal` is added to obtain the activity information. Fügen Sie einen ähnlichen Code für die anderen Erlebnisse mit einem passenden Titel und einer passenden Meldung hinzu.
+   In diesem Beispiel wird ein Knoten mit der Variablen `tntVal` hinzugefügt, um die Informationen zur Aktivität abzurufen. Fügen Sie einen ähnlichen Code für die anderen Erlebnisse mit einem passenden Titel und einer passenden Meldung hinzu.
 
-   Diese Zeichenfolge liefert eine Zahl (z. B. 115110:0:0) in der Antwort von [!DNL Target]. Dies zeigt die Aktivitäten-ID, Erlebnis-ID und den Traffic-Typ an. The following is a sample response from [!DNL Target]:
+   Diese Zeichenfolge liefert eine Zahl (z. B. 115110:0:0) in der Antwort von [!DNL Target]. Dies zeigt die Aktivitäten-ID, Erlebnis-ID und den Traffic-Typ an. Die folgende Tabelle zeigt eine Beispielantwort von [!DNL Target]:
 
    ```javascript
    { 
@@ -55,13 +55,13 @@ This section describes how to send [!DNL Target] mobile app activity information
 
 1. Analysieren Sie das JSON-Objekt.
 
-   Parse the response that came back from [!DNL Target] in the callback. You can use `NSJSONSerialization` to parse this response and store it in a dictionary or an array.
+   Analysieren Sie die Antwort, die von [!DNL Target] im Rückruf zurückgegeben wurde. Sie können `NSJSONSerialization` verwenden, um diese Antwort zu analysieren und in einem Wörterbuch oder Array zu speichern.
 
-   Weitere Informationen finden Sie in der [NSJSONSerialization-Dokumentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) .
+   Weitere Informationen finden Sie in der [NSJSONSerialization-Dokumentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error).
 
-1. Send the data to [!DNL Analytics].
+1. Senden Sie die Daten an [!DNL Analytics].
 
-   Add the parsed activity information (such as `tntVal` in the above response) to your context data object in an [!DNL Analytics] call. This [!DNL Analytics] call containing the context data can be fired immediately or it can wait until the next [!DNL Analytics] call is fired.
+   hinzufügen Sie die Informationen zur analysierten Aktivität (z. B. `tntVal` in der obigen Antwort) in einem [!DNL Analytics]-Aufruf an Ihr Kontextdatenobjekt. Dieser [!DNL Analytics]-Aufruf, der die Kontextdaten enthält, kann sofort ausgelöst werden oder es kann gewartet werden, bis der nächste [!DNL Analytics]-Aufruf ausgelöst wird.
 
    Dieser Aufruf kann beispielsweise im Callback des Aufrufs `targetLoadRequest` ausgelöst werden:
 
@@ -72,5 +72,5 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    >[!NOTE]
    >
-   >`&&tnt` ist ein reservierter Ereignisschlüssel im mobilen SDK. Die Post-Klassifizierung der `tntVal`-Variable funktioniert im mobilen SDK genauso wie im Internet (JavaScript). [!DNL Analytics] After the information is processed in [!DNL Analytics], you should see activity and experience names in the [!DNL Analytics] interface.
+   >`&&tnt` ist ein reservierter Ereignisschlüssel im mobilen SDK. Die Post-Klassifizierung der `tntVal`-Variable funktioniert im mobilen SDK genauso wie im Internet (JavaScript). [!DNL Analytics] Nachdem die Informationen in [!DNL Analytics] verarbeitet wurden, sollten Sie die Aktivitäten- und Erlebnisnamen in der [!DNL Analytics]-Schnittstelle sehen.
 
