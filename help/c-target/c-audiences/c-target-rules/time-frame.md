@@ -52,7 +52,7 @@ Verwenden Sie beispielsweise die Funktion](/help/c-target/combining-multiple-aud
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Schulungsvideo: Kennzeichen ![Übersicht über Audiencen erstellen](/help/assets/overview.png)
+## Schulungsvideo: Erstellen von Audiencen ![Kennzeichen ](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
