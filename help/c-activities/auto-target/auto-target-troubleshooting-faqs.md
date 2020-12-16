@@ -12,13 +12,13 @@ ht-degree: 71%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Auto-Zielgruppe - Fehlerbehebung und häufig gestellte Fragen
+# ![](/help/assets/premium.png) PREMIUMAuto-Zielgruppe Fehlerbehebung und häufig gestellte Fragen
 
-Fehlerbehebung und häufig gestellte Fragen (FAQs) zur [!UICONTROL automatischen Zielgruppe] in [!DNL Adobe Target].
+Fehlerbehebung und häufig gestellte Fragen (FAQs) zu [!UICONTROL Auto-Zielgruppe] in [!DNL Adobe Target].
 
 ## Häufig gestellte Fragen zum automatischen Targeting {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Lesen Sie die folgenden häufig gestellten Fragen und Antworten, während Sie mit Aktivitäten der [!UICONTROL automatischen Zielgruppe] arbeiten:
+Beachten Sie beim Arbeiten mit Aktivitäten [!UICONTROL Auto-Zielgruppe] die folgenden häufig gestellten Fragen und Antworten:
 
 ### Wie lauten die Best Practices zum Einrichten einer Aktivität vom Typ [!UICONTROL Automatisches Targeting]?
 
@@ -70,16 +70,16 @@ Wenn in den Ergebnissen eines A/B-Tests eine signifikante Steigerung von mindest
 
 Wenn Sie wesentliche Änderungen an den Inhalten in Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] vornehmen möchten, empfiehlt es sich, eine neue Aktivität zu beginnen, damit andere Benutzer, die Berichte überprüfen, vergangene Ergebnisse nicht mit anderen Inhalten verwechseln oder in Beziehung setzen.
 
-### Wie lange sollte ich warten, bis Modelle erstellt werden?  {#how-long}
+### Wie lange sollte ich warten, bis Modelle erstellt werden?   {#how-long}
 
-The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
+Wie lange es dauert, bis Modelle in Ihrer [!UICONTROL Auto-Zielgruppe]-Aktivität erstellt werden, hängt in der Regel vom Traffic zu den ausgewählten Aktivitäten und den Konversionsraten ab, die mit der Erfolgsmetrik Ihrer Aktivität verbunden sind.
 
-[!UICONTROL Die automatische Zielgruppe] versucht nicht, ein personalisiertes Modell für ein bestimmtes Erlebnis zu erstellen, bis mindestens 50 Konvertierungen für dieses Erlebnis vorhanden sind. Wenn das erstellte Modell von unzureichender Qualität ist (was durch die Offline-Auswertung der &quot;Test&quot;-Daten unter Verwendung [einer Metrik, AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)genannt, bestimmt wird), wird das Modell nicht dazu verwendet, Traffic auf eine personalisierte Weise zu liefern.
+[!UICONTROL Auto-] Targeting versucht nicht, ein personalisiertes Modell für ein bestimmtes Erlebnis zu erstellen, bis mindestens 50 Konversionen für dieses Erlebnis vorhanden sind. Außerdem wird das Modell nicht verwendet, um Traffic auf eine personalisierte Art und Weise zu liefern, wenn das erstellte Modell von unzureichender Qualität ist (was durch die Offline-Auswertung der &quot;Test&quot;-Daten unter Verwendung von [einer Metrik namens AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve) bestimmt wird).
 
-Einige weitere Punkte, die im Zusammenhang mit der Modellerstellung der [!UICONTROL Auto-Zielgruppe]zu beachten sind:
+Einige weitere Punkte, die bei der Modellerstellung von [!UICONTROL Auto-Zielgruppe] beachtet werden sollten:
 
-* Sobald eine Aktivität live ist, berücksichtigt die [!UICONTROL automatische Zielgruppe] bis zu den letzten 45 Tagen zufällig bereiteter Daten, wenn versucht wird, Modelle zu erstellen (d. h. den Traffic zu steuern, sowie einige extra zufällig bereitgestellte Daten, die von unserem Algorithmus bereitgestellt werden).
-* Wenn [!UICONTROL Umsatz pro Besuch] Ihre Erfolgsmetrik ist, benötigen diese Aktivitäten in der Regel mehr Daten, um Modelle zu erstellen, da die Datenabweichung, die normalerweise im Besuchsumsatz im Vergleich zu Konversionsrat besteht, höher ist.
+* Sobald eine Aktivität live ist, berücksichtigt [!UICONTROL Automatische Zielgruppe] bis zu den letzten 45 Tagen zufällig bereitgestellter Daten, wenn versucht wird, Modelle zu erstellen (d. h. Traffic zu kontrollieren und einige extra zufällig bereitgestellte Daten, die von unserem Algorithmus bereitgestellt werden).
+* Wenn [!UICONTROL Umsatz pro Besuch] Ihre Erfolgsmetrik ist, benötigen diese Aktivitäten in der Regel mehr Daten zum Erstellen von Modellen, da die Datenabweichung, die normalerweise im Besuchsumsatz im Vergleich zu Konversionsrat besteht, höher ist.
 * Da Modelle auf der Grundlage der einzelnen Erlebnisse erstellt werden, müssen beim Ersetzen eines Erlebnisses durch ein anderes ausreichend Traffic (d. h. mindestens 50 Konversionen) für das neue Erlebnis gesammelt werden, bevor personalisierte Modelle neu erstellt werden können.
 
 ### Ein Modell wird in meiner Aktivität erstellt. Sind die Besuche bei diesem Erlebnis personalisiert?  
@@ -100,13 +100,13 @@ Weitere Informationen finden Sie unter [Verwenden eines bestimmten Erlebnisses a
 
 ### Kann ich die Zielmetrik in der Mitte durch eine Auto-Zielgruppe-Aktivität ändern? {#change-metric}
 
-Es wird nicht empfohlen, die Zielmetrik mitten in einer Aktivität zu ändern. Obwohl die Zielmetrik während einer Aktivität mithilfe der [!DNL Target] Benutzeroberfläche geändert werden kann, sollten Sie immer eine neue Aktivität Beginn haben. Wir garantieren nicht, was passiert, wenn Sie die Sollmetrik in einer Aktivität nach der Ausführung ändern.
+Es wird nicht empfohlen, die Zielmetrik mitten in einer Aktivität zu ändern. Obwohl es möglich ist, die Zielmetrik während einer Aktivität mithilfe der [!DNL Target]-Benutzeroberfläche zu ändern, sollten Sie immer eine neue Aktivität Beginn haben. Wir garantieren nicht, was passiert, wenn Sie die Sollmetrik in einer Aktivität nach der Ausführung ändern.
 
-Diese Empfehlung gilt für [!UICONTROL Aktivitäten mit automatisierter Zuordnung], [!UICONTROL automatischer Zielgruppe]und [!UICONTROL Automated Personalization] , die entweder [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte verwenden.
+Diese Empfehlung gilt für die Aktivitäten [!UICONTROL Automatische Zuordnung], [!UICONTROL Automatische Zielgruppe] und [!UICONTROL Automated Personalization], die [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte-Quelle verwenden.
 
 ### Kann ich die Option &quot;Berichtsdaten zurücksetzen&quot;beim Ausführen einer Aktivität für die automatische Zielgruppe verwenden?
 
-Die Verwendung der Option [!UICONTROL Berichtsdaten] zurücksetzen für Aktivitäten mit [!UICONTROL automatischer Zielgruppe] wird nicht empfohlen. Obwohl die Daten des sichtbaren Berichte entfernt werden, entfernt diese Option nicht alle Schulungsdatensätze aus dem [!UICONTROL Modell der automatischen Zielgruppe] . Anstatt die Option Berichtsdaten [!UICONTROL zurücksetzen] für Aktivitäten mit [!UICONTROL automatischer Zielgruppe] zu verwenden, erstellen Sie eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität. (Hinweis: Diese Anleitung gilt auch für [!UICONTROL Aktivitäten mit automatisierter Zuordnung] und [!UICONTROL Automated Personalization] .)
+Die Verwendung der Option [!UICONTROL Berichtsdaten zurücksetzen] für [!UICONTROL Aktivitäten mit automatischer Zielgruppe] wird nicht empfohlen. Obwohl die Daten des sichtbaren Berichte entfernt werden, entfernt diese Option nicht alle Schulungsdatensätze aus dem Modell [!UICONTROL Auto-Zielgruppe]. Erstellen Sie anstelle der Option [!UICONTROL Berichtsdaten zurücksetzen] für [!UICONTROL Aktivitäten mit automatischer Zielgruppe] eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität. (Hinweis: Diese Anleitung gilt auch für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automated Personalization].)
 
 ## Fehlerbehebung für [!UICONTROL Automatisches Targeting] {#section_23995AB813F24525AF294D20A20875C8}
 
