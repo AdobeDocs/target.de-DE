@@ -19,7 +19,7 @@ Der VEC verfügt über eine WYSIWYG-Benutzeroberfläche, mit der Sie einfach per
 
 Der VEC ist eine der Hauptkomponenten von [!DNL Adobe Target]. Der VEC ermöglicht Marketingexperten und Designern, Inhalte über eine visuelle Benutzeroberfläche zu erstellen und zu ändern. Viele Entwurfsentscheidungen können getroffen werden, ohne den Code direkt bearbeiten zu müssen. Die Bearbeitung von HTML und JavaScript ist über die Bearbeitungsoptionen, die im Composer verfügbar sind, ebenfalls möglich.
 
-On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
+Auf der Registerkarte &quot;Zielgruppe **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**&quot;können Sie die Standard-URL von Visual Experience Composer eingeben.
 
 ![Standard-VEC-URL-Einstellungen](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -112,14 +112,14 @@ Um weiterhin Erlebnisse in der aktuellen Aktivität zu verwalten oder neue Ände
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Visual Experience Composer (1 von 2) (7:17) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
+### Visual Experience Composer (1 von 2) (7:17) ![Tutorial badge](/help/assets/tutorial.png)
 
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer (2 von 2) (7:29) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
+### Visual Experience Composer (2 von 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
 
 * Erlebnis umbenennen und duplizieren
 * Umleitungserlebnis erstellen
@@ -130,7 +130,7 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Bürozeiten: Abzeichen für Visual Experience Composer- ![Übungen](/help/assets/tutorial.png)
+### Bürozeiten: Visual Experience Composer ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video ist eine Aufzeichnung von „[Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)“, einer Initiative der Adobe-Kundenunterstützung.
 
