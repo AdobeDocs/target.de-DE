@@ -30,7 +30,7 @@ Hilfe zur Auswahl der richtigen Einstellungen finden Sie unter  [Nicht-JavaScrip
 
    * Bei `myClientCode` handelt es sich um den Clientcode Ihres Unternehmens. Der Clientcode Ihres Unternehmens enthält ausschließlich Kleinbuchstaben und keine Sonderzeichen.
 
-      Your client code is available at the top of the [!UICONTROL Administation > Implementation] page of the [!DNL Target] interface.
+      Ihr Client-Code ist oben auf der Seite [!UICONTROL Administration > Implementierung] der [!DNL Target]-Schnittstelle verfügbar.
 
    * Bei `image` handelt es sich um den Aufruftyp. In diesem Fall handelt es sich um ein Bild.
 
@@ -38,7 +38,7 @@ Hilfe zur Auswahl der richtigen Einstellungen finden Sie unter  [Nicht-JavaScrip
 
    * Bei `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` handelt es sich um den Standardinhalt der Mbox. Dabei muss es sich um ein Bild handeln.
 
-      Hierbei muss es sich um einen URL-kodierten, absoluten Verweis handeln. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
+      Hierbei muss es sich um einen URL-kodierten, absoluten Verweis handeln. Sie können die [HTML-URL-Kodierungsreferenz](https://www.w3schools.com/tags/ref_urlencode.asp) verwenden, um Ihre URLs schnell zu kodieren.
 
 1. Erstellen Sie [Weiterleitungsangebote](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) für alle alternativen Bilder.
 
