@@ -20,7 +20,7 @@ Weitere wichtige Informationen zu TLS finden Sie unter [Änderungen hinsichtlich
 
 ## [!DNL Target] Standard/Premium-Benutzeroberfläche {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
-The [!DNL Target] interface supports the following browsers and devices:
+Die [!DNL Target]-Schnittstelle unterstützt die folgenden Browser und Geräte:
 
 | Gerätetyp | Browser-Version |
 |--- |--- |
