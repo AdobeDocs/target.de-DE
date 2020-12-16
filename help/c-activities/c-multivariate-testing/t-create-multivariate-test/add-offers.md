@@ -23,7 +23,7 @@ Weitere Informationen zur Verwendung des VEC zum Erstellen und Bearbeiten von An
 >
 >Sie können auch den [DOM-Pfad](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) zum Navigieren in Elementen verwenden.
 
-## Bildangebote  {#section_A48333211DB149ED926AE467D0032914}
+## Bildangebote   {#section_A48333211DB149ED926AE467D0032914}
 
 Testen Sie mehrere Bildangebote an einem Ort, um zu ermitteln, welches Bild am erfolgreichsten ist.
 
@@ -37,7 +37,7 @@ Testen Sie mehrere Bildangebote an einem Ort, um zu ermitteln, welches Bild am e
 
 Jedes Bild wird zu einem eigenen Erlebnis an diesem Ort.
 
-## HTML-Angebote  {#section_DF016101AFA9412C9B99862C23DE77B1}
+## HTML-Angebote   {#section_DF016101AFA9412C9B99862C23DE77B1}
 
 Testen Sie mehrere Text-/HTML-Angebote an einem Ort, um zu ermitteln, welches Angebot am erfolgreichsten ist.
 
