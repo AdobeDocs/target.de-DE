@@ -24,11 +24,11 @@ Sie können Offlineberechnungen für A4T durchführen. Dazu ist jedoch ein Schri
 
 Die Steigerung ist die prozentuale Differenz zwischen den Ergebnissen Ihrer Kontrollseite und einer erfolgreichen Testvariante.
 
-## Wie wird die Konfidenz berechnet?  {#section_97DB24D833E742988318CA65DA65DAD9}
+## Wie wird die Konfidenz berechnet?   {#section_97DB24D833E742988318CA65DA65DAD9}
 
 Die Konfidenzniveau ist die Wahrscheinlichkeit, dass die gemessene Konversionsrate von der Konversionsrate der Siegerseite aus anderen Gründen als reinem Zufall abweicht.
 
-## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen?  {#lift-confidence}
+## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen?   {#lift-confidence}
 
 Berechnete Metriken werden derzeit nicht in den Funktionen Steigerung und Konfidenz unterstützt. Dies liegt daran, dass Analytics Metriken auf Aggregat- statt auf Besucher-Ebene berechnet. Konfidenz ist vor allem eine Berechnung auf Besucher-Ebene.
 
@@ -39,7 +39,7 @@ Beispiele für nicht unterstützte Metriken oder Anwendungsfälle:
 * Durchschnittlicher Bestellwert (Umsatz/Bestellung, pro Besucher). AOV wird nicht unterstützt, da der Zähler eine berechnete Metrik ist. Stattdessen wird empfohlen, die beiden einflussreichen Metriken von AOV - Umsatz pro Besucher und Konversionsrat zu berücksichtigen.
 * Berechnete Metriken, die die Summe der standardmäßigen Ereignis darstellen. Sie können z. B. zehn verschiedene Interessentenformulare in zehn separate Ereignis nachverfolgen und diese dann zusammen hinzufügen, um die Gesamtzahl der Interessenteneinsendungen zu erhalten. Eine empfohlene Methode zur Verfolgung dieser Ereignis ist die Implementierung eines einzigen Ereignisses zur Interessentenübermittlung in Analytics und dann die Verwendung eines eVar zur Erfassung des Interessentenformulartyps. Die Verwendung dieser Methode erfordert weniger Variablen und stellt sicher, dass Sie die Metrik für die Übermittlung einzelner Interessenten in den Steigerungs- und Konfidenzfunktionen verwenden können.
 
-## Wie verwaltet A4T Konfidenzberechnungen?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
+## Wie verwaltet A4T Konfidenzberechnungen?   {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
 A4T verwendet nicht binäre Metrikberechnungen mit Daten der Quadratsumme. Die Varianz wird mit den Daten der Quadratsumme errechnet. Extreme Bestellungen werden nicht berücksichtigt. Darüber hinaus wendet die Konfidenzberechnung keine Bonferroni-Korrektur für mehrere Angebot an.
 
