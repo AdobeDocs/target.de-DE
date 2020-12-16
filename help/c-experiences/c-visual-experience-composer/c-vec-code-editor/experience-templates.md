@@ -26,13 +26,13 @@ Bei der [Erlebnisvorlage „Bannerkarussell mit Miniaturansichten“](https://gi
 
 ![](assets/exp-template-banner-carousel-thumbnails.png)
 
-## Bannerkarussell  {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+## Bannerkarussell   {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
 Bei der [Erlebnisvorlage „Bannerkarussell“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) handelt es sich um eine rotierende Karussellansicht, die häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird. Diese Karussellansicht schaltet nicht automatisch durch die Bilder, sondern muss durch Anklicken des Links- bzw. Rechtspfeils direkt aktiviert werden.
 
 ![](assets/exp-template-banner-carousel.png)
 
-## Banner-Countdown  {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+## Banner-Countdown   {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 Bei der [Erlebnisvorlage „Banner-Countdown“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) handelt es sich um ein großes Banner mit zentralem Countdown, das häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird.
 
@@ -44,7 +44,7 @@ Bei der [Erlebnisvorlage „Button-Builder“](https://github.com/Adobe-Marketin
 
 ![](assets/exp-template-button-builder.png)
 
-## Lightbox mit Countdown  {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## Lightbox mit Countdown   {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 Bei der [Erlebnisvorlage „Lightbox mit Countdown“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) handelt es sich um ein Lightbox-Overlay-Popup mit zentralem Countdown, das häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird.
 
