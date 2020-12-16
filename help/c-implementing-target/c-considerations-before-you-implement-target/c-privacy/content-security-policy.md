@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Richtlinien zur Content Security Policy (CSP)
 
-Wenn Sie [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) für die Implementierung der Zielgruppe verwenden, sollten Sie die folgenden CSP-Anweisungen bei Verwendung von [at.js 2.1 oder höher](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)hinzufügen:
+Wenn Sie [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) für Ihre Implementierung der Zielgruppe verwenden, sollten Sie bei Verwendung von [at.js 2.1 oder höher](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) die folgenden CSP-Anweisungen hinzufügen:
 
-* `connect-src` mit `*.tt.omtrdc.net` auf die Zulassungsliste gesetzt. Erforderlich, um die Netzwerkanforderung an der [!DNL Target] Kante zu ermöglichen.
+* `connect-src` mit  `*.tt.omtrdc.net` auf die Zulassungsliste gesetzt. Erforderlich, um die Netzwerkanforderung an die [!DNL Target]-Kante zu ermöglichen.
 * `style-src unsafe-inline`. Erforderlich für das Prähnen und Flimmern.
 * `script-src unsafe-inline`.  Erforderlich, um die Ausführung von JavaScript zu ermöglichen, die Teil eines HTML-Angebots sein könnte.
