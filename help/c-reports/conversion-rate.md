@@ -46,7 +46,7 @@ Steigerung = (Erlebnis-CR - Kontroll-CR) / Kontroll-CR
 
 Wenn die Kontrollinstanz 0 ist, gibt es keine prozentuale Steigerung.
 
-## Konfidenz (statistische Bedeutung)  {#section_35DB6724813D40C7B0808DE18FE595C1}
+## Konfidenz (statistische Bedeutung)   {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 Diese Zahl zeigt die Wahrscheinlichkeit, dass sich die Ergebnisse bei einem erneut durchgeführten Test verdoppeln würden. Das Vertrauen wird auf 100 % aufgerundet, wenn es größer oder gleich 99,995 % ist.
 
@@ -102,11 +102,11 @@ Das *Konfidenzintervall* ist ein Bereich, in dem der wahre Wert auf einer bestim
 * **Probengröße:** Wenn die Probengröße steigt, wird das Intervall kleiner. Das wird bevorzugt, da es bedeutet, dass Ihre Berichte näher an den wahren Wert der Erfolgsmetrik herankommen.
 * **Standardabweichung geringer:** Weitere ähnliche Ergebnisse, z. B. ähnliche AOVs oder ähnliche Besucher-Konversionszahlen pro Tag, führen zu einer Reduzierung der Standardabweichung.
 
-## Berechnung der Konfidenz und Anleitung zur Offline-Berechnung  {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## Berechnung der Konfidenz und Anleitung zur Offline-Berechnung   {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 Der [heruntergeladene CSV-Bericht](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
 
-To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+Um diese berechneten Metriken zu berechnen, laden Sie die Excel-Zielgruppe [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) herunter, um den Wert der Aktivität einzugeben, oder überprüfen Sie die [statistischen Berechnungen, die von Zielgruppe](/help/assets/statistical-calculations.pdf) verwendet werden.
 
 >[!NOTE]
 >
