@@ -14,7 +14,7 @@ ht-degree: 52%
 
 # Vor der Implementierung{#before-you-implement}
 
-Several changes occur in your data collection process when enabling [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+Bei der Datenerfassung treten mehrere Änderungen auf, wenn [!DNL Analytics] als Berichte-Quelle für [!DNL Target] (A4T) aktiviert wird.
 
 Bevor Sie sich für die Verwendung dieser Integration entscheiden, überprüfen Sie folgende Abschnitte und berücksichtigen Sie die Auswirkungen auf Ihre Berichtsprozesse:
 
@@ -22,7 +22,7 @@ Bevor Sie sich für die Verwendung dieser Integration entscheiden, überprüfen 
 
 >[!IMPORTANT]
 >
->Bevor Sie A4T verwenden können, müssen Sie eine Bereitstellung Ihres Kontos für die Integration anfordern. Verwenden Sie das [Marketing Cloud Integrations Provisioning-Formular](https://www.adobe.com/go/audiences) , um die Bereitstellung anzufordern.
+>Bevor Sie A4T verwenden können, müssen Sie eine Bereitstellung Ihres Kontos für die Integration anfordern. Verwenden Sie das Provisioning-Formular [Marketing Cloud-Integrationen](https://www.adobe.com/go/audiences), um die Bereitstellung anzufordern.
 
 Für diese A4T-Integration müssen Sie in Abhängigkeit davon, ob Sie Weiterleitungsangebote in A4T verwenden möchten oder nicht, die folgenden Bibliotheksversionen (oder neuere) implementieren:
 
@@ -45,36 +45,36 @@ Für die Verwendung von Weiterleitungsangeboten mit A4T müssen Sie die folgende
 
 * Adobe Analytics: appMeasurement.js, Version 2.1
 
-Download and deployment instructions are listed in [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
+Download- und Bereitstellungsanweisungen finden Sie unter [Analytics for Zielgruppe Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
 ## Was Sie vor der Implementierung wissen sollten {#section_50D49CC52E11414089C89FB67F9B88F5}
 
-* This integration is enabled on new activities when you select to use [!DNL Analytics] as the reporting source. Ihre bestehenden Aktivitäten sind von den in diesem Dokument beschriebenen Implementierungsänderungen nicht betroffen.
-* The process of setting up [!DNL Analytics] as the reporting source for [!DNL Target] includes several implementation steps, followed by a provisioning step. Es empfiehlt sich, vor der Implementierung die unten stehende Prozessbeschreibung durchzulesen. After you complete these steps, you will be ready to use [!DNL Analytics] as your reporting source as soon as it is enabled for you. Der Bereitstellungsprozess kann bis zu fünf Werktage dauern.
-* Das [!DNL Visitor ID service] erstellt eine freigegebene Datei [!DNL Visitor ID] über das [!DNL Adobe Experience Cloud]. Although it does not replace the [!DNL Target] mboxPC id or [!DNL Audience Manager] UUID, it does replace the way [!DNL Analytics] identifies new visitors. If set up properly, returning [!DNL Analytics] visitors should also be identified via their old [!DNL Analytics] ID to prevent visitor cliffing. Similarly, because the [!DNL Target] mboxPCid remains intact, no [!DNL Target] visitor profile data is lost when you upgrade to the [!DNL Visitor ID service].
-* Die [!DNL Visitor ID service] Ausführung muss vor Ihrem [!DNL Analytics] und [!DNL Target] Seitencode erfolgen. Make sure that `VisitorAPI.js` appears above the tags for all other [!DNL Experience Cloud] solutions.
+* Diese Integration ist auf neuen Aktivitäten aktiviert, wenn Sie [!DNL Analytics] als Berichte-Quelle auswählen. Ihre bestehenden Aktivitäten sind von den in diesem Dokument beschriebenen Implementierungsänderungen nicht betroffen.
+* Das Einrichten von [!DNL Analytics] als Berichte-Quelle für [!DNL Target] umfasst mehrere Implementierungsschritte, gefolgt von einem Bereitstellungsschritt. Es empfiehlt sich, vor der Implementierung die unten stehende Prozessbeschreibung durchzulesen. Nachdem Sie diese Schritte ausgeführt haben, können Sie [!DNL Analytics] als Berichte-Quelle verwenden, sobald diese für Sie aktiviert ist. Der Bereitstellungsprozess kann bis zu fünf Werktage dauern.
+* Das [!DNL Visitor ID service] erstellt ein freigegebenes [!DNL Visitor ID] über das [!DNL Adobe Experience Cloud]. Obwohl die UUID [!DNL Target] &quot;mboxPC-ID&quot;oder [!DNL Audience Manager] nicht ersetzt wird, ersetzt sie die Art und Weise, wie [!DNL Analytics] neue Besucher identifiziert. Bei ordnungsgemäßer Einrichtung sollten die zurückgegebenen [!DNL Analytics]-Besucher auch über ihre alte [!DNL Analytics]-ID identifiziert werden, um das Cliffen von Besuchern zu verhindern. Da die [!DNL Target]-mboxPCid intakt bleibt, gehen beim Upgrade auf [!DNL Visitor ID service] keine [!DNL Target]-Profil-Daten des Besuchers verloren.
+* Das [!DNL Visitor ID service] muss vor dem [!DNL Analytics]- und [!DNL Target]-Seitencode ausgeführt werden. Stellen Sie sicher, dass `VisitorAPI.js` für alle anderen [!DNL Experience Cloud]-Lösungen über den -Tags angezeigt wird.
 
 ## Latenz {#section_9489BE6FD21641A4844E591711E3F813}
 
-After this integration is enabled, you will experience an additional 5-10 minutes of latency in [!DNL Analytics]. This latency increase allows data from [!DNL Analytics] and [!DNL Target] to be stored on the same hit, allowing you to break down activities by page and site section.
+Nach Aktivierung dieser Integration wird eine zusätzliche Latenz von 5-10 Minuten in [!DNL Analytics] angezeigt. Durch diese Erhöhung der Latenz können Daten von [!DNL Analytics] und [!DNL Target] im selben Treffer gespeichert werden, sodass Sie Aktivitäten nach Seite und Site-Abschnitt unterteilen können.
 
-This increase is reflected in all [!DNL Analytics] services and tools, including the live-stream and real-time reporting, and applies in the following scenarios:
+Diese Steigerung spiegelt sich in allen [!DNL Analytics]-Diensten und -Tools einschließlich Live-Stream- und Echtzeit-Berichte wider und gilt für die folgenden Szenarien:
 
 * Bei Livestream, Echtzeitberichten &amp; API-Anforderungen sowie aktuellen Daten für Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
 * Für aktuelle Daten zu Konversionsmetriken, endgültige Daten und Datenfeeds werden alle Treffer um zusätzliche 5 bis 7 Minuten verzögert.
 
-Be aware that the latency increase starts after you implement the [!DNL Experience Cloud] visitor ID service, even if you have not fully implemented this integration.
+Beachten Sie, dass die Latenz die Beginn nach der Implementierung des Besucher-ID-Diensts [!DNL Experience Cloud] erhöht, auch wenn Sie diese Integration nicht vollständig implementiert haben.
 
-## Zusätzliche ID  {#section_2C1F745A2B7D41FE9E30915539226E3A}
+## Zusätzliche ID   {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
-All [!DNL Target] calls used by an A4T activity to deliver content or record the goal metric must have a corresponding [!DNL Analytics] hit that shares the same supplemental ID for A4T to work properly.
+Alle [!DNL Target]-Aufrufe, die von einer A4T-Aktivität zur Bereitstellung von Inhalten oder zur Aufzeichnung der Zielmetrik verwendet werden, müssen einen entsprechenden [!DNL Analytics]-Treffer haben, der dieselbe zusätzliche ID aufweist, damit A4T ordnungsgemäß funktioniert.
 
-Hits that contain data from [!DNL Analytics] and [!DNL Target] contain a supplemental data ID. You can see this ID in the [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) as the `sdid` parameter. Beispiel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Diese ID wird jedes Mal erstellt, wenn folgende Kriterien vorhanden sind:
+Treffer, die Daten von [!DNL Analytics] und [!DNL Target] enthalten, enthalten eine zusätzliche Daten-ID. Diese ID wird im [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) als `sdid`-Parameter angezeigt. Beispiel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Diese ID wird jedes Mal erstellt, wenn folgende Kriterien vorhanden sind:
 
 * Der Besucher-ID-Service wurde implementiert.
 * Eine Version von [!DNL mbox.js], die diese Integration unterstützt, wurde implementiert.
 
-When [troubleshooting](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), be sure to confirm that the supplemental ID is present on [!DNL Analytics] hits.
+Stellen Sie bei [Fehlerbehebung](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) sicher, dass die zusätzliche ID bei [!DNL Analytics]-Treffern vorhanden ist.
 
 ## Clientseitige Analytics-Protokollierung {#client-side}
 
@@ -84,12 +84,12 @@ In manchen Fällen könnten Sie aber mehr Kontrolle darüber haben wollen, wann 
 
 ## Freigegebene Zielgruppen
 
-Beachten Sie beim Ausfüllen des [Marketing Cloud Integrations-Bereitstellungsformulars](https://www.adobe.com/go/audiences)die folgenden wichtigen Informationen zur Option [!UICONTROL Freigegebene Audiencen] , die unter &quot;[!UICONTROL Für welche Funktionen wünschen Sie Bereitstellung]?&quot;aufgeführt ist.
+Beachten Sie beim Ausfüllen des Bereitstellungsformulars für [Marketing Cloud-Integrationen die folgenden wichtigen Informationen bezüglich der Option [!UICONTROL Freigegebene Audiencen], die unter &quot;[!UICONTROL Für welche Funktionen fordern Sie Bereitstellung]?&quot;aufgeführt ist.](https://www.adobe.com/go/audiences)
 
 ![Anforderungsformular](/help/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-Wenn Sie [!UICONTROL freigegebene Audiencen]anfordern, aktivieren Sie [!UICONTROL Zielgruppe] und [!UICONTROL Adobe Audience Manager] (AAM), um Informationen freizugeben, in diesem Fall Audiencen.
+Wenn Sie [!UICONTROL Freigegebene Audiencen] anfordern, aktivieren Sie [!UICONTROL Zielgruppe] und [!UICONTROL Adobe Audience Manager] (AAM), um Informationen freizugeben, in diesem Fall Audiencen.
 
 >[!IMPORTANT]
 >
->Diese Integration von [!UICONTROL Zielgruppe] und AAM bringt zusätzliche Kosten mit sich. Sie werden für jede [!UICONTROL Zielgruppe] in AAM in Rechnung gestellt.
+>Diese Integration zwischen [!UICONTROL Zielgruppe] und AAM ist mit zusätzlichen Kosten verbunden. Sie werden für jeden [!UICONTROL Zielgruppe]-Aufruf in AAM in Rechnung gestellt.
