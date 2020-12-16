@@ -20,7 +20,7 @@ Verwenden Sie Feeds, damit Entitäten in [!DNL Adobe Target Recommendations] imp
 
 Feeds ermöglichen es Ihnen, [Entitäten](/help/c-recommendations/c-products/products.md) weiterzugeben oder Ihre Mbox-Daten mit Informationen zu ergänzen, die auf der Seite nicht verfügbar sind oder nicht sicher von der Seite gesendet werden können, wie z. B. Marge, COGS usw.
 
-Mit Feeds können Sie detaillierte Artikelinformationen wie Produkt-ID, Kategorie, Name, Nachricht [!DNL Recommendations]und andere Attribute weiterleiten.
+Mit Feeds können Sie detaillierte Artikelinformationen an [!DNL Recommendations] weiterleiten, z. B. Produkt-ID, Kategorie, Name, Nachricht und andere Attribute.
 
 Sie können auswählen, welche Spalten aus Ihrer [!DNL Target]-Produkt-Classifications-Datei oder Google-Produktsuche-Datei Sie an den [!DNL Recommendations]-Server senden möchten.
 
@@ -31,7 +31,7 @@ Anhand dieser Daten zu jedem Element können Sie dann Folgendes tun:
 * Sortieren von Elementen in verschiedene Sammlungen
 * Ausnahmen auf Empfehlungen anwenden
 
-Elementbeschreibungen können [!DNL Target] mithilfe von Feeds oder Mboxes weitergeleitet werden. Wenn Daten von einem Entitäts-Feed und einer Mbox erfasst werden, haben die aktuellen Daten Priorität. In der Regel stammen die aktuellen Daten von einer mbox, da sie häufiger angezeigt wird. Für den seltenen Fall, dass die Entitäts-Feed-Daten und die Mbox-Daten gleich aktuell sind, werden die Mbox-Daten verwendet.
+Elementbeschreibungen können mithilfe von Feeds oder Mboxes an [!DNL Target] übergeben werden. Wenn Daten von einem Entitäts-Feed und einer Mbox erfasst werden, haben die aktuellen Daten Priorität. In der Regel stammen die aktuellen Daten von einer mbox, da sie häufiger angezeigt wird. Für den seltenen Fall, dass die Entitäts-Feed-Daten und die Mbox-Daten gleich aktuell sind, werden die Mbox-Daten verwendet.
 
 Die Liste [!UICONTROL Feeds] (**[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) liefert Informationen zu den von Ihnen erstellten Feeds.
 
@@ -209,11 +209,11 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Analytics-Classifications {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Classification. For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. Es ist möglich, dass nicht alle für Empfehlungen benötigten Informationen in Ihrer aktuellen Implementierung verfügbar sind. Befolgen Sie dieses Benutzerhandbuch, wenn Sie Informationen zu Ihrer Classification-Datei benötigen.
+Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Classification. Weitere Informationen zu dieser Classification-Datei finden Sie unter [Über Classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) im Handbuch *Analytics-Komponenten*. Es ist möglich, dass nicht alle für Empfehlungen benötigten Informationen in Ihrer aktuellen Implementierung verfügbar sind. Befolgen Sie dieses Benutzerhandbuch, wenn Sie Informationen zu Ihrer Classification-Datei benötigen.
 
 >[!IMPORTANT]
 >
->Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
+>Bevor Sie Entitätsdaten mit Analytics-Produktklassifizierungen in [!DNL Recommendations] importieren, beachten Sie, dass dies nicht die bevorzugte Methode ist.
 >
 > Beachten Sie die folgenden Einschränkungen:
 >
@@ -236,7 +236,7 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
    * Google-Produkt-Feed
    * Analytics-Classifications
 
-   Informationen zu den Feed-Typen CSV und Google-Produkt-Feed finden Sie unter [Feeds-Übersicht](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+   Informationen zu den Feed-Typen CSV und Google-Produkt-Feed finden Sie unter [Feeds-Übersicht](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Sie können auch [eine CSV-Modellanleitung](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) herunterladen, um den Feed korrekt zu formatieren.
 
 1. (Situationsbedingt) Wenn Sie **[!UICONTROL CSV]** oder **[!UICONTROL Google-Produkt-Feed]** ausgewählt haben, geben Sie an, wo auf den Feed zugegriffen werden kann.
 
@@ -309,7 +309,7 @@ Möchten Sie einen Feed aktualisieren (beispielsweise, um Änderungen an der Fee
 
 >[!IMPORTANT]
 >
->Hochgeladene Entitäten laufen nach 61 Tagen ab. Das bedeutet, dass Ihre Feed-Datei mindestens alle 60 Tage hochgeladen werden sollte, um eine Unterbrechung Ihrer Empfehlungsaktivitäten zu vermeiden. If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
+>Hochgeladene Entitäten laufen nach 61 Tagen ab. Das bedeutet, dass Ihre Feed-Datei mindestens alle 60 Tage hochgeladen werden sollte, um eine Unterbrechung Ihrer Empfehlungsaktivitäten zu vermeiden. Wenn ein Element mindestens einmal alle 60 Tage nicht in einer Feed-Datei (oder einer anderen Entitäts-Aktualisierungsmethode) enthalten ist, wird [!DNL Adobe Target] angezeigt, dass das Element nicht mehr relevant ist und es aus dem Katalog entfernt.
 
 ### Feedstatus-Indikatoren {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -342,7 +342,7 @@ Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte aus
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Informationen zu Feeds in Recommendations (3:01) ![Übersichtskennzeichnung](/help/assets/overview.png)
+### Informationen zu Feeds in Recommendations (3:01)  ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 Dieses Video enthält die folgenden Informationen:
 
@@ -351,7 +351,7 @@ Dieses Video enthält die folgenden Informationen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Einen Feed erstellen (6:44) ![Tutorialzeichen](/help/assets/tutorial.png)
+### Einen Feed erstellen (6:44)  ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
