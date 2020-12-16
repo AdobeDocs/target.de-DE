@@ -30,7 +30,7 @@ Positionieren Sie „mbox.js“ am Ende des `<head>`-Abschnitts ohne weitere Dek
 
 **Der Enhanced Experience Composer kann auf Kontoebene (aktiviert für alle Aktivitäten, die mit diesem Konto erstellt werden) oder individuell für einzelne Aktivitäten aktiviert werden.**
 
-To enable the Enhanced Experience Composer at the account level, click [!UICONTROL Administration > Visual Experience Composer], then toggle the switch to the On position.
+Um den Enhanced Experience Composer auf Kontoebene zu aktivieren, klicken Sie auf [!UICONTROL Administration > Visual Experience Composer] und stellen Sie dann den Schalter auf die Position &quot;Ein&quot;.
 
 Möchten Sie den Enhanced Experience Composer für einzelne Aktivitäten aktivieren, wenn Sie eine Aktivität im Visual Experience Composer erstellen, klicken Sie auf [!UICONTROL Konfigurieren > URL] und stellen Sie den Regler auf die Position „Ein“.
 
