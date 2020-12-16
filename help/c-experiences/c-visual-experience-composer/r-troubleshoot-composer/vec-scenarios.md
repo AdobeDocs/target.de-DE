@@ -288,7 +288,7 @@ Nachher
 </div>
 ```
 
-## Szenario: Die Klasse des ausgewählten Elements wird umbenannt  {#section_79D244C588BA452DB8E433D82B7F63EA}
+## Szenario: Die Klasse des ausgewählten Elements wird umbenannt   {#section_79D244C588BA452DB8E433D82B7F63EA}
 
 Bei diesem Szenario wird die Klasse des ausgewählten Listenelements umbenannt.
 
