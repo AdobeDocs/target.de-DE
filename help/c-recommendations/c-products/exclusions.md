@@ -1,6 +1,6 @@
 ---
 keywords: exclusions
-description: Erstellen Sie einen Ausschluss, [!DNL Adobe Target Recommendations] um zu verhindern, dass Produkte oder Inhalte für Besucher empfohlen werden.
+description: Erstellen Sie einen Ausschluss in [!DNL Adobe Target Recommendations] um zu verhindern, dass Produkte oder Inhalte für Besucher empfohlen werden.
 title: Ausschlüsse in Adobe Target
 feature: entities
 translation-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 45%
 
 # Ausnahmen{#exclusions}
 
-Erstellen Sie einen Ausschluss in, [!DNL Adobe Target Recommendations] um zu verhindern, dass Produkte oder Inhalte für Besucher empfohlen werden. Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die den Besuchern nicht empfohlen werden sollten.
+Erstellen Sie einen Ausschluss in [!DNL Adobe Target Recommendations], um zu verhindern, dass Produkte oder Inhalte für Besucher empfohlen werden. Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die den Besuchern nicht empfohlen werden sollten.
 
-Ausnahmen sind für das gesamte Konto verfügbar. Im Gegensatz zu Sammlungen, bei denen Sie bei der Erstellung einer [!UICONTROL Recommendations] -Aktivität für jedes Erlebnis eine bestimmte Sammlung angeben, gelten die Ausnahmen für alle Aktivitäten im Konto. Es gibt keine Option, während der Erstellung der Aktivität eine Ausschlussgruppe zuzuweisen.
+Ausnahmen sind für das gesamte Konto verfügbar. Im Gegensatz zu Sammlungen, bei denen Sie für jedes Erlebnis eine bestimmte Aktivität angeben, während Sie eine [!UICONTROL Recommendations] erstellen, gelten die Ausnahmen für alle Aktivitäten im Konto. Es gibt keine Option, während der Erstellung der Aktivität eine Ausschlussgruppe zuzuweisen.
 
 Einige Beispiele für die Verwendung von Ausnahmen:
 
@@ -54,7 +54,7 @@ Einige Beispiele für die Verwendung von Ausnahmen:
 
 ## Erstellen eines Ausschlusses mit der erweiterten Suche
 
-You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+Sie können auch Ausschlüsse mit [!UICONTROL Erweiterte Suche] auf der Seite [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Katalogsuche] > [!UICONTROL Erweiterte Suche]) erstellen.
 
 ![Speichern unter, Dialogfeld](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -62,7 +62,7 @@ Nachdem Sie beispielsweise eine Suche mit „id“ > „contains“ erstellt ha
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Ausschlüsse auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Ausschluss mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszuschließen, werden nur Produkte mit dem Zusatz „urlaub“ ausgeschlossen. Produkte, die „Urlaub“ enthalten, werden nicht ausgeschlossen.
+>Die Funktion [!UICONTROL Erweiterte Suche] unterscheidet nicht zwischen Groß- und Kleinschreibung; Die zum Zeitpunkt des Versands zurückgegebenen Produkte basieren jedoch auf der Suche nach Groß- und Kleinschreibung. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Ausschlüsse auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Ausschluss mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszuschließen, werden nur Produkte mit dem Zusatz „urlaub“ ausgeschlossen. Produkte, die „Urlaub“ enthalten, werden nicht ausgeschlossen.
 
 ## Bearbeiten, Kopieren oder Löschen eines Ausschlusses
 
@@ -74,7 +74,7 @@ Sie können einen vorhandenen Ausschluss kopieren, um einen Duplikat-Ausschluss 
 
 Beachten Sie, dass Ausschlüsse für das gesamte Konto verfügbar sind. Achten Sie darauf, dies zu berücksichtigen, bevor Sie einen Ausschluss löschen. Gelöschte Ausnahmen können nicht wiederhergestellt werden.
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen von Sammlungen und Ausschlüssen in Recommendations (7:05) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
