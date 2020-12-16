@@ -14,15 +14,15 @@ ht-degree: 65%
 
 # Übergeben von Parametern an eine globale Mbox{#pass-parameters-to-a-global-mbox}
 
-The JavaScript `targetPageParams` function is used to pass parameters to the global mbox in [!DNL Adobe Target]. This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
+Die JavaScript-Funktion `targetPageParams` wird verwendet, um Parameter an die globale Mbox in [!DNL Adobe Target] zu übergeben. Dies ist in jedem Szenario erforderlich, in dem zusätzliche Targeting-/Kontextinformationen an [!DNL Target] weitergegeben werden sollen.
 
-For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
+Verwenden Sie beispielsweise in einer [!DNL Recommendations]-Aktivität die Parameter, um das aktuelle Produkt oder die aktuelle Kategorie, die angezeigt wird, darzustellen.
 
 Der Code zum Aufrufen der JavaScript-Funktion muss vor der globalen Mbox auf der Seite stehen, unabhängig davon, ob die globale Mbox als Teil von at.js ausgelöst oder manuell im Seiten-Code eingefügt wird.
 
 >[!NOTE]
 >
->If you want to add parameters to all mboxes on the page, not just to the global mbox, use the [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) function.
+>Wenn Sie allen mboxes auf der Seite Parameter hinzufügen möchten, nicht nur der globalen Mbox, verwenden Sie die Funktion [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
 
 Um Parameter an `target-global-mbox` zu übergeben, können Sie die Funktion `targetPageParams()` auf eine der folgenden Arten verwenden:
 
