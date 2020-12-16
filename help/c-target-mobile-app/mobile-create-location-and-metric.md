@@ -20,7 +20,7 @@ In diesem Abschnitt finden Sie Beispiel-Code, der als Vorlage für Ihre App verw
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
+>Eine Liste aller verfügbaren Zielgruppen finden Sie in der [Mobildokumentation](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html).
 
 Möchten Sie einen Target-Ort in Ihrer Anwendung erstellen und eine Abfrage stellen, gibt es hierfür zwei Hauptverfahren:
 
