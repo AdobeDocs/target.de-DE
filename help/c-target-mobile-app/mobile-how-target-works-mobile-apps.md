@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Das Adobe SDK ruft den Target-Server auf, um den Inhalt sowie weitere Datenpunkte abzurufen und dem Benutzer das richtige Erlebnis anzuzeigen.
 
-## Zielorte und Erfolgsmetriken  {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
+## Zielorte und Erfolgsmetriken   {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
 
 Ein *Zielort* wird auch wie folgt genannt:  mbox. Ein in der Anwendung identifizierter Ort wird für Tests oder Personalisierung aktiviert (beispielsweise die Willkommensnachricht auf dem Starbildschirm). Diese Orte werden während der Testerstellung festgelegt.
 
