@@ -1,6 +1,9 @@
 ---
 source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '154'
+ht-degree: 100%
 
 ---
 # Beitrag
@@ -19,4 +22,4 @@ Bei allen Drittanbieter-Beiträgen zu diesem Projekt muss eine entsprechende unt
 
 ## Code-Überprüfungen
 
-Alle Code-Beiträge sollten als Pull-Anforderungen übermittelt werden und müssen von den Projektverantwortlichen geprüft werden. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+Alle Code-Beiträge sollten als Pull-Anforderungen übermittelt werden und müssen von den Projektverantwortlichen geprüft werden. Weitere Informationen zum Senden von Pull-Anfragen finden Sie in der [Dokumentation zu Pull Requests von GitHub](https://help.github.com/de/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
