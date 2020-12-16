@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Geräteinterne Entscheidungsfindung
 
-Die geräteinterne Entscheidungsfindung bietet die Möglichkeit, Ihre [!DNL Adobe Target] A/B-Test [!UICONTROL - und] Erlebnis-Targeting [!UICONTROL -Aktivitäten (XT) auf Ihrem Server zwischenspeichern und Speicherentscheidungen mit einer Latenz von nahezu null durchführen zu können, ohne Netzwerkanforderungen an das] [!DNL Adobe Target] Edge-Netzwerk zu blockieren.
+Die Geräteinterne Entscheidungsfindung bietet die Möglichkeit, Ihre [!DNL Adobe Target] [!UICONTROL A/B-Aktivitäten] und [!UICONTROL Erlebnis-Targeting] (XT) auf Ihrem Server im Cache zu speichern und eine Speicherentscheidung mit einer Latenz von nahezu null durchzuführen, ohne Netzwerkanforderungen an das [!DNL Adobe Target] Edge-Netzwerk zu blockieren.
 
-Weitere Informationen finden Sie unter [Einführung in die Geräteentscheidung](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in der Dokumentation *[zu](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target-SDKs.
+Weitere Informationen finden Sie unter [Einführung in die geräteinterne Entscheidungsfindung](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in der *[Adobe Target SDKs-Dokumentation](https://adobetarget-sdks.gitbook.io/docs/)*.
 
 ## Webinar: Personalisieren und testen Sie mit Entscheidungen auf dem Gerät von Adobe Target
 
 Marketingfachleute, Produkteigentümer und Entwickler sind mehr denn je damit beschäftigt, die Kundenerfahrung auf Websites, in Apps und anderswo zu optimieren, wo sie mit ihren Kunden in Kontakt treten. Mehrere Tools mit Datensilos und komplizierten Implementierungen schneiden nicht.
 
-In diesem aufgezeichneten Webinar besprechen [!DNL Adobe Target] Produktexperten, wie bewegliche Entscheidungen zur Optimierung kritischer Erlebnisse auf dem Gerät zur lokalen Ausführung mit nahezu null Latenz Türen für aufregende neue Anwendungsfälle eröffnen und gleichzeitig die Site-Performance Ihrer Kunden verbessern können.
+In diesem aufgezeichneten Webinar diskutieren Produktexperten darüber, wie bewegliche Entscheidungen zur Optimierung kritischer Erlebnisse auf dem Gerät zur lokalen Ausführung mit nahezu null Latenz Türen für aufregende neue Anwendungsfälle eröffnen und gleichzeitig die Site-Performance Ihrer Kunden verbessern können.[!DNL Adobe Target]
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
@@ -32,12 +32,12 @@ In diesem aufgezeichneten Webinar besprechen [!DNL Adobe Target] Produktexperten
 
 Dieses 7-minütige Video:
 
-* Beschreibt die Entscheidungsfindung auf dem Gerät, einschließlich des Vergleichs mit anderen Methoden der [!DNL Target] Implementierung
-* Demonstriert, wie die Entscheidung auf dem Gerät aktiviert wird in [!DNL Target]
+* Beschreibt die Entscheidungsfindung auf dem Gerät, einschließlich dessen, wie sie mit anderen Methoden der [!DNL Target]-Implementierung verglichen wird
+* Demonstriert, wie die Entscheidungsfindung auf dem Gerät in [!DNL Target] aktiviert wird
 * Untersucht eine formularbasierte Composer-Aktivität, die mit JSON-Inhalten konfiguriert wurde
 * Zeigt Beispiel-Node.JS-SDK-Code mit der Schlüsselkonfiguration an, die für die Entscheidungsfindung auf dem Gerät erforderlich ist
 * Demonstriert Ergebnisse in einem Browser
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
 
-Weitere Videos und Tutorials finden Sie im Handbuch [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) .
+Weitere Videos und Tutorials finden Sie im Handbuch [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
