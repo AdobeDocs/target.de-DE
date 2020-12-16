@@ -36,7 +36,7 @@ Wenn Sie jedoch einer der Kunden sind, die TSL 1.1 nutzen, ohne TLS 1.2 zu unter
 
 Auch wenn allen Kunden der Umstieg auf TLS 1.2 empfohlen wird – falls Sie als neuer Kunde TLS 1.2 *NICHT* unterstützen, teilen Sie dem Kundendienst mit, dass Sie TLS 1.1 für Enhanced Experience Composer verwenden müssen. Planen Sie jedoch den Umstieg auf TLS 1.2, da Sie auch nach dem 1. März 2020 nicht mehr unterstützt werden.
 
-## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
+## Aktivität Versand {#section_46CA5943E4354B259014C2BF340AECD6}
 
 Ab dem 1. März 2020 wird TLS 1.1 nicht mehr von Zielgruppen-Servern unterstützt. Mit dieser Änderung akzeptieren Zielgruppen-Server keine Anfragen von Besuchern mit älteren Geräten oder Webbrowsern, die TLS 1.2 (oder höher) nicht unterstützen. Ältere Geräte und Browser, die nur TLS 1.1 unterstützen (oder standardmäßig TLS 1.1 unterstützen), erhalten daher keine Aktivitäten von Adobe Target. Standardinhalte der Site werden gerendert.
 
@@ -66,11 +66,11 @@ Ab dem 1. März 2020 unterstützen Zielgruppe-APIs keine TLS 1.1-Verschlüsselun
 * API-Clients, die Java 8 verwenden, sollten nicht beeinträchtigt werden, da die Standardeinstellung TLS 1.2 ist.
 * Bei API-Clients, die andere Frameworks verwenden, müssen Sie die Details zur Unterstützung von TLS 1.2 beim jeweiligen Anbieter erfragen.
 
-## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
+## Zugriff auf Experience Cloud Solutions-Schnittstellen {#section_748870ADE77B4CBEB18518DC784E64E5}
 
 Da für die Benutzeroberfläche von Target Standard/Premium bereits ein [aktueller Webbrowser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) benötigt wird, werden keine Probleme erwartet. Wenn Sie keine Verbindung zu Target herstellen können, sollten Sie Ihren Browser auf die neueste Version aktualisieren.
 
-## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
+## Überprüfen, welche TLS-Version Ihr Browser verwendet{#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
 So überprüfen Sie die TLS-Version auf Ihrer Website mit Google Chrome:
 
@@ -87,7 +87,7 @@ So überprüfen Sie die TLS-Version auf Ihrer Website mit Google Chrome:
 >
 >Diese Anweisungen sind ab der Veröffentlichung aktuell und können geändert werden. Eine schnelle Internetsuche sollte helfen, falls sich diese Anweisungen ändern.  Andere Browser haben ähnliche Schritte.
 
-## Erwartetes Verhalten mit Browsern, die TLS-Versionen unter 1.2 unterstützen {#section_B5DA97A34EF248EB927610A5DA71EF2F}
+## Erwartetes Verhalten mit Browsern, die TLS-Versionen unter 1.2 {#section_B5DA97A34EF248EB927610A5DA71EF2F} unterstützen
 
 In diesem Abschnitt wird beschrieben, was bei Browsern zu erwarten ist, die TLS-Versionen unter 1.2 nur bei Verwendung einer at.js- oder mbox.js-Implementierung unterstützen. Zum Vergleich wird in diesem Abschnitt auch beschrieben, was mit Browsern zu erwarten ist, die TLS 1.2 unterstützen.
 
