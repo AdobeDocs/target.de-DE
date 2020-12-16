@@ -22,7 +22,7 @@ ht-degree: 97%
 
 Ähnlich wie bei [!UICONTROL Automatisches Targeting] verwendet [!UICONTROL Automatisierte Personalisierung] einen Random Forest-Algorithmus, also eine führende Methode in der Datenwissenschaft, als wichtigsten Personalisierungsalgorithmus zum Ermitteln des besten Erlebnisses, das einem Besucher angezeigt werden kann. [!UICONTROL Automatisierte Personalisierung] kann während der Entdeckungsphase des Testens sehr hilfreich sein. Es ist zudem nützlich, maschinelles Lernen zu ermöglichen, um den effektivsten Inhalt zu bestimmen, wenn man unterschiedliche Besucher anspricht. Im Lauf der Zeit lernt der Algorithmus, die effektivsten Inhalte vorherzusagen, und zeigt die Inhalte an, die am wahrscheinlichsten zum Erreichen Ihrer Ziele beitragen.
 
-To find more information about how [!UICONTROL Automated Personalization] differs from [!UICONTROL Auto-Target], see [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
+Weitere Informationen darüber, wie [!UICONTROL Automated Personalization] sich von [!UICONTROL Auto-Zielgruppe] unterscheidet, finden Sie unter [Automatische Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 Marketer implementieren eine Datei auf ihrer Website, dank der sie beliebige Inhalte anklicken und dann mit Hilfe des VEC ([!UICONTROL Visual Experience Composer]) visuell zusätzliche Inhaltsoptionen für diesen Bereich erstellen und auswählen können. Dann bestimmt der Algorithmus auf Basis aller Verhaltensdaten, die das System über diesen Besucher hat, automatisch, welche Inhalte jedem einzelnen Besucher gezeigt werden sollen, und liefert so eine personalisierte Erfahrung. Da sich die [!UICONTROL automatisierte Personalisierung] an Veränderungen beim Besucherverhalten anpasst, kann sie ohne ein festgelegtes Enddatum ausgeführt werden und ermöglicht dennoch eine kontinuierliche Weiterentwicklung der Personalisierung. Dies wird manchmal auch als „Always-on“-Modus bezeichnet. Der Marketer muss keine Tests durchführen, keine Ergebnisse analysieren und keinen sich daraus ergebenen Gewinner ermitteln, bevor er erkennen kann, welche Steigerung sich aus der Optimierung ergibt. Das übernimmt eine festgelegte Reihenfolge von Operationen, die dann das Ergebnis einer standardmäßigen A/B-Aktivität implementiert.
 
@@ -74,7 +74,7 @@ Offline-Daten wie CRM-Informationen oder Propensity Scores zur Kundenabwanderung
 
 Informationen zu den Daten, die automatisch von den Personalisierungsalgorithmen der [!UICONTROL automatisierten Personalisierung] und des [!UICONTROL automatischen Targetings] gesammelt und verwendet werden, finden Sie unter [Datenerfassung für die automatisierte Personalisierung](/help/c-activities/t-automated-personalization/ap-data.md).
 
-## ![Schulungsvideo zum](/help/assets/overview.png) Überblick: Aktivitäten
+## ![Überblick ](/help/assets/overview.png) badgeSchulungsvideo: Aktivitäten
 
 In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivitätstypen erläutert. [!UICONTROL Automatisierte Personalisierung wird ab 5:55 besprochen.]
 
