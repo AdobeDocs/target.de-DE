@@ -11,7 +11,7 @@ ht-degree: 86%
 ---
 
 
-# Adobe Target-Anleitung {#using}
+# Adobe Target-Anleitung  {#using}
 
 + [Adobe Target Guide - Startseite](target-home.md)
 + Target-Versionshinweise {#release-notes}
@@ -29,7 +29,7 @@ ht-degree: 86%
    + [Zugriff auf Target über Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Wichtige Target-Konzepte](c-intro/target-key-concepts.md)
    + [Die Benutzeroberfläche der Zielgruppe](/help/c-intro/understand-the-target-ui.md)
-   + Adobe Target-Begrüßungs-Kit {#welcome}
+   + Adobe Target Begrüßungs-Kit {#welcome}
       + [Übersicht über das Adobe Target-Begrüßungs-Kit](/help/c-intro/target-welcome-kit.md)
       + [Kapitel 1: Einführung](/help/c-intro/target-welcome-kit-1.md)
       + [Kapitel 2: Adobe Target auf einen Blick](/help/c-intro/target-welcome-kit-2.md)
@@ -177,7 +177,7 @@ ht-degree: 86%
       + Fehlerbehebung bei der Integration von Analytics und Target (A4T) {#troubleshoot-a4t}
          + [Fehlerbehebung bei A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimieren überhöhter Besuchs- und Besucherzahlen in A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + Häufig gestellte Fragen zu A4T  {#a4t-faq}
+      + Häufig gestellte Fragen zu A4T   {#a4t-faq}
          + [Erste Bereitstellung – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -308,7 +308,7 @@ ht-degree: 86%
       + [Freigabe von Metriken, Zielgruppen und Berichten – Häufig gestellte Fragen zu A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Erlebnisse und Angebote {#experiences}
    + [Erlebnisse und Angebote – Überblick](c-experiences/experiences.md)
-   + Visual Experience Composer (VEC)  {#vec}
+   + Visual Experience Composer (VEC)   {#vec}
       + [Visual Experience Composer – Überblick](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Visual Experience Composer–Optionen](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Gleiches Erlebnis auf ähnlichen Seiten](c-experiences/c-visual-experience-composer/temtest.md)
@@ -381,7 +381,7 @@ ht-degree: 86%
       + [Erstellen von Kriteriensequenzen](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Hochladen benutzerdefinierter Kriterien](c-recommendations/c-algorithms/recommendations-csv.md)
-      + Dynamic and static inclusion rules {#dynamic-static}
+      + Dynamische und statische Einschlussregeln {#dynamic-static}
          + [Verwenden dynamischer und statischer Einschlussregeln](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Entitätsattributübereinstimmung](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Profilattributübereinstimmung](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
