@@ -121,6 +121,6 @@ Der Status der Recommendations-Angebote (Algorithmus) wird unten auf der [!UICON
 
 ![Status des Recommendations-Angebots](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Schulungsvideo: Recommendations als Angebot- ![Übersicht](/help/assets/overview.png)
+## Schulungsvideo: Recommendations als Angebot ![Kennzeichen ](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
