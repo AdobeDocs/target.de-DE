@@ -26,13 +26,13 @@ Adobe Target VEC für SPAs basiert auf einem neuen Konzept für Ansichten: Eine 
 
 Um Ansichten genauer erklären zu können, navigieren wir einmal über diese fiktive E-Commerce-Site, die in React implementiert wurde, und betrachten einige Beispielansichten. Klicken Sie auf die folgenden Links, um diese Website auf einer neuen Browser-Registerkarte zu öffnen.
 
-**Link: [Startseite](https://target.enablementadobe.com/react/demo/#/)**
+**Link:  [Startseite](https://target.enablementadobe.com/react/demo/#/)**
 
 ![Homepage](/help/c-experiences/assets/home.png)
 
 Wenn wir zur Homepage navigieren, können wir sofort ein Hero-Bild sehen, das einen Osterverkauf bewirbt, sowie die neuesten Produkte, die auf der Site verkauft werden. In diesem Fall kann die gesamte Homepage als Ansicht definiert werden. Dies sollten Sie im Hinterkopf behalten, da wir darauf im Abschnitt „Implementieren von Adobe Target-Ansichten“ unten näher eingehen werden.
 
-**Link: [Produktseite](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:  [Produktseite](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![Produktseite](/help/c-experiences/assets/product-site.png)
 
@@ -46,7 +46,7 @@ Am Anfang dieses Abschnitts haben wir Ansichten als ganze Site oder sogar als ei
 
 Klicken Sie auf die Schaltfläche „Mehr laden“, um weitere Produkte auf der Site zu erkunden. In diesem Fall ändert sich die Website-URL nicht. Hier kann auch nur die zweite Zeile der oben gezeigten Produkte als Ansicht angesehen werden. Der Name der Ansicht könnte also „PRODUKTSEITE-2“ lauten.
 
-**Link: [Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link:  [Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![Checkout-Seite](/help/c-experiences/assets/checkout.png)
 
@@ -66,7 +66,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
 
    ![Dialogfeld „Implementierungsdetails“](/help/c-experiences/assets/imp-200.png)
 
-   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x kann auch über [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) bereitgestellt werden. Die Adobe Target-Erweiterungen sind derzeit jedoch nicht aktuell und werden nicht unterstützt.
+   Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter [!UICONTROL Administration > Implementierung] herunter. at.js 2.x kann auch über [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) bereitgestellt werden. Die Adobe Target-Erweiterungen sind derzeit jedoch nicht aktuell und werden nicht unterstützt.
 
 1. Implementieren Sie die neueste at.js 2.x-Funktion: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) auf Ihren Sites.
 
@@ -82,7 +82,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
 
    Im Folgenden sehen wir einige beispielhafte Anwendungsfälle dazu, wie Sie in React die `triggerView()`-Funktion für unsere fiktive E-Commerce-SPA aufrufen:
 
-   **Link: [Startseite](https://target.enablementadobe.com/react/demo/#/)**
+   **Link:  [Startseite](https://target.enablementadobe.com/react/demo/#/)**
 
    ![Home-React-1](/help/c-experiences/assets/react1.png)
 
@@ -113,7 +113,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Link: [Produktseite](https://target.enablementadobe.com/react/demo/#/products)**
+   **Link:  [Produktseite](https://target.enablementadobe.com/react/demo/#/products)**
 
    Schauen wir uns nun ein Beispiel an, das etwas komplizierter ist. Nehmen wir als Marketing-Experten an, wir möchten die zweite Reihe der Produkte personalisieren, indem wir die Farbe der Preisbeschriftung auf Rot ändern, nachdem ein Benutzer auf die Schaltfläche „Mehr laden“ geklickt hat.
 
@@ -142,7 +142,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
    }
    ```
 
-   **Link: [Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Link:  [Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![React-Checkout](/help/c-experiences/assets/react6.png)
 
@@ -358,7 +358,7 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 | [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Ja |
 | [AEM-Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
-## Unterstützte Funktionen  {#supported-features}
+## Unterstützte Funktionen   {#supported-features}
 
 | Funktion | Unterstützt? |
 | --- | --- |
@@ -391,9 +391,9 @@ Im Folgenden wird ein Anwendungsfall beschrieben:
 Folgende Änderungen wurden vorgenommen:
 
 * Die Hintergrundfarbe in der Startansicht unter dieser URL wurde geändert: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
-* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Die Schaltflächenfarbe in der Ansicht &quot;Produkte&quot;unter der URL wurde geändert: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
+Was passiert mit dem obigen Beispiel, wenn die Einstellungen für [!UICONTROL Page Versand] nur Folgendes umfassen: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in einem SPA mit at.js 2.*x*?
 
 ![Dialogfeld „Seitenbereitstellung“](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -403,19 +403,19 @@ Die folgende Abbildung zeigt den Target-Ablauf: Seitenladeanfrage in at.js 2.*x*
 
 **Customer Journey Nr. 1**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x*  makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Ein Benutzer navigiert direkt zu [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* at.js 2.*x*  eine Abfrage an die Kante vornimmt, um zu sehen, ob eine Aktivität für die URL ausgeführt werden muss: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * In Schritt 6 gibt Target Edge die Aktionen für die Startseiten- und Produktansicht zurück, sodass sie im Browser zwischengespeichert werden.
 
 **Ergebnis**: Der Benutzer sieht die grüne Hintergrundfarbe in der Startansicht. Wenn der Benutzer dann zu [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products navigiert, wird die blaue Hintergrundfarbe der Schaltfläche angezeigt, da die Aktion im Browser unter der Produktansicht zwischengespeichert wird.
 
-Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
+Hinweis: Der Benutzer, der zu [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) navigierte, hat kein Laden der Seite ausgelöst.
 
 **Customer Journey Nr. 2**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x*  makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Ein Benutzer navigiert direkt zu [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x*  eine Abfrage an die Kante vornimmt, um zu sehen, ob eine Aktivität für die URL ausgeführt werden muss: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Für [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) sind keine Aktivitäten qualifiziert.
 * Da es keine Aktivitäten gibt, müssen auch keine Aktionen und Ansichten zwischengespeichert werden, damit at.js 2 *x* ausgelöst werden kann.
 
 **Ergebnis**: Selbst wenn Sie `triggerView()` für die Produktansicht definiert haben und über den SPA VEC in der Produktansicht eine Aktion ausgeführt haben, wird die erwartete Aktion nicht ausgeführt, da Sie keine Regel erstellt haben, die [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products in den Seitenbereitstellungs-Einstellungen enthält.
@@ -440,4 +440,4 @@ Diese Meldung wird angezeigt, wenn Sie die erste Aktion einer Ansicht für jede 
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
+Weitere Informationen finden Sie unter Verwenden des Visual Experience Composer für Einzelseitenanwendung (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html).[
