@@ -20,7 +20,7 @@ Das Verhalten von Cookies ist davon abhängig, ob es sich um ein Erstanbieter-Co
 >
 >Dieses Thema enthält Informationen zu `mboxSession` und `mboxPC`. Unsere Best Practices für die Implementierung sehen vor, dass Sie in den Cookies `mboxSession` und `mboxPC` keine vertraulichen Informationen verlinken oder speichern.
 
-See also [Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
+Siehe auch [Löschen des Zielgruppe-Cookies](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
 
 ## Verwenden von Erstanbieter-Cookies und Drittanbieter-Cookies {#section_F71B29420C004A7FA3B1921E619B326E}
 
