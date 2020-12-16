@@ -50,17 +50,17 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 - [Target für mobile Apps](c-target-mobile-app/target-mobile-app.md): Erläutert, wie [!DNL Target] für die Optimierung und Personalisierung mobiler Apps verwendet werden kann.
 - [Ressourcen und Kontaktinformationen](cmp-resources-and-contact-information.md): Bietet Informationen über zusätzliche Ressourcen, die Ihnen dabei helfen, mehr über [!DNL Target]-Funktionen zu erfahren und wie Sie [!DNL Adobe] kontaktieren können, sollten Sie Hilfe benötigen.
 
-## Marketingexperten {#marketers}
+## Marketingexperten  {#marketers}
 
 - [Aktivitäten](c-activities/activities.md): Erklärt, wie man [!DNL Target]-Aktivitäten einrichtet und verwaltet und die Qualität sichert.
 - [Zielgruppen](c-target/target.md): Erklärt, wie Sie feststellen, wer Inhalte und Erlebnisse in zielgerichteten Aktivitäten sieht.
 - [Erlebnisse und Angebote](c-experiences/experiences.md): Erklärt, wie Sie angeben, welche Inhalte angezeigt werden, wenn ein Besucher die Zielgruppenkriterien für eine Aktivität erfüllt.
 - [Recommendations](c-recommendations/recommendations.md): Erläutert, wie [!DNL Recommendations]-Aktivitäten automatisch Produkte oder Inhalte anzeigen, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
 
-## Entwickler {#developers}
+## Entwickler  {#developers}
 
 - [Target implementieren](c-implementing-target/implementing-target.md): Erklärt die Implementierung von [!DNL Target] in Websites, mobilen Apps, Einzelseitenapps (SPAs) und iOT/OTT-Plattformen.
-- [Serverseitige APIs](https://developers.adobetarget.com/api/delivery-api/)der Zielgruppe: Beschreibt die Ressourcen, aus denen die Adobe Target Versand-API besteht.
+- [Serverseitige APIs](https://developers.adobetarget.com/api/delivery-api/) der Zielgruppe: Beschreibt die Ressourcen, aus denen die Adobe Target Versand-API besteht.
 - [Zielgruppe NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Erläutert, wie Zielgruppe serverseitig bereitgestellt wird. Dieses Node.js-SDK unterstützt Sie bei der einfachen Integration von Zielgruppe in andere Adobe Experience Cloud-Lösungen.
 - [Zielgruppe Java SDK](https://github.com/adobe/target-java-sdk): Erläutert, wie Zielgruppe serverseitig bereitgestellt wird. Mit diesem Java-SDK können Sie Zielgruppen problemlos in andere Adobe Experience Cloud-Lösungen integrieren.
 - [Zielgruppe Recommendations API](https://developers.adobetarget.com/api/recommendations/): Beschreibt die Ressourcen, aus denen die offizielle Adobe Target Recommendations API besteht.
@@ -70,12 +70,12 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 
 - [Target verwalten](administrating-target/administrating-target.md): Erklärt, wie Benutzer hinzugefügt und Ihr [!DNL Target]-Konto konfiguriert werden kann.
 
-## Analysten {#analysts}
+## Analysten  {#analysts}
 
 - [Zielgruppen](c-target/target.md): Erklärt, wie Sie feststellen, wer Inhalte und Erlebnisse in zielgerichteten Aktivitäten sieht.
 - [Berichte](c-reports/reports.md): Erklärt, wie Sie die Leistung Ihrer Aktivitäten interpretieren.
 
-## QA-Techniker {#qa}
+## QA-Techniker  {#qa}
 
 - [Aktivitäten](c-activities/activities.md): Erklärt, wie man [!DNL Target]-Aktivitäten einrichtet und verwaltet und die Qualität sichert.
 
