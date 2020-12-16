@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# adobe.target.sendnotifications(options)
+# adobe.target.sendNotifications(options)
 
 Diese Funktion sendet eine Benachrichtigung an Target Edge, wenn ein Erlebnis ohne `adobe.target.applyOffer()` oder `adobe.target.applyOffers()` gerendert wird.
 
