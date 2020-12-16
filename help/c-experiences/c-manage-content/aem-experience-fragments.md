@@ -30,9 +30,9 @@ Mit [!DNL Target] können Sie personalisierte Erlebnisse bedarfsgerecht bereitst
 
 Experience Fragments sind ein großer Schritt vorwärts, um die Ersteller von Inhalten/Erlebnissen und Manager mit den Optimierungs- und Personalisierungsexperten zu verknüpfen, die Geschäftsergebnisse mit [!DNL Target] optimieren.
 
-## Voraussetzungen  {#section_AE6F0971E1574B3AA324003599B96E5A}
+## Voraussetzungen   {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-You must be provisioned with the experience fragments functionality within [!DNL Target]. Darüber hinaus müssen Sie [!DNL AEM] 6.3 mit dem richtigen Service Pack oder [!DNL AEM] 6.4 (oder höher) verwenden. Ihr Kundenbetreuer kann Ihnen helfen, die Anforderungen zur Verwendung dieser Funktion zu erfüllen:
+Sie müssen über die Funktion für Erlebnisfragmente in [!DNL Target] verfügen. Darüber hinaus müssen Sie [!DNL AEM] 6.3 mit dem richtigen Service Pack oder [!DNL AEM] 6.4 (oder höher) verwenden. Ihr Kundenbetreuer kann Ihnen helfen, die Anforderungen zur Verwendung dieser Funktion zu erfüllen:
 
 * [!DNL Adobe Experience Manager] 6.4 (oder höher).
 * [!DNL Adobe Experience Manager] 6.3 SP2 (oder höher).
@@ -78,7 +78,7 @@ Abhängig von Ihrer [!DNL AEM]-Version finden Sie unter den folgenden Links schr
 * **[!DNL AEM]6.4**: [Exportieren von einem Experience Fragment nach Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) in der *Adobe Experience Manager 6.4*-Dokumentation.
 * **[!DNL AEM]6.5**: [Exportieren von einem Experience Fragment nach Target](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) in der *Adobe Experience Manager 6.5*-Dokumentation.
 
-## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Verwenden von Erlebnisfragmenten in Aktivitäten der Zielgruppe {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 Nach dem Ausführen der zuvor genannten Aufgaben wird das Experience Fragment auf der Seite [!UICONTROL Angebote] in [!DNL Target] angezeigt.
 
@@ -88,7 +88,7 @@ Nach dem Ausführen der zuvor genannten Aufgaben wird das Experience Fragment au
 
 >[!IMPORTANT]
 >
->Das Experience Fragment wird derzeit in [!DNL Target] als HTML-Angebot importiert. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. Sie können das Experience Fragment nicht in [!DNL Target] bearbeiten.
+>Das Experience Fragment wird derzeit in [!DNL Target] als HTML-Angebot importiert. Beachten Sie, dass das Erlebnisfragment &quot;primäre&quot;Version in [!DNL AEM] verbleibt. Sie können das Experience Fragment nicht in [!DNL Target] bearbeiten.
 
 Sie können den Mauszeiger über ein Experience Fragment in der Liste bewegen und dann auf das Symbol für die [!UICONTROL Ansicht] ![Ansichtssymbol](assets/icon_info.png) klicken, um weitere Informationen zum Experience Fragment anzuzeigen, einschließlich der URL des öffentlichen Angebots und des zugehörigen [!DNL AEM]-Pfads.
 
@@ -121,7 +121,7 @@ Mit dem [Visual Experience Composer](/help/c-experiences/c-visual-experience-c
 
    * **A/B-Test:** [Erstellen eines A/B-Tests](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **Automatische Zuordnung:** [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
-   * **Automatische Zielgruppe:** [Automatische Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md)
+   * **Auto-Zielgruppe:** [Auto-Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md)
    * **Automatisierte Personalisierung (AP):** [Erstellen einer Aktivität zur automatisierten Personalisierung](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **Erlebnis-Targeting (XT):** [Erstellen einer Erlebnis-Targeting-Aktivität](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **Multivarianz-Tests (MVT):** [Erstellen eines Multivarianz-Tests](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
@@ -129,7 +129,7 @@ Mit dem [Visual Experience Composer](/help/c-experiences/c-visual-experience-c
 
 **So verwenden Sie Experience Fragments mit dem Form-Based Experience Composer:**
 
-1. In [!DNL Target], while creating or editing an experience in the [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), select the location on the page where you want to insert [!DNL AEM] content, then select **[!UICONTROL Change Experience Fragment]** to display the [!UICONTROL Choose an Experience Fragment] list.
+1. Wählen Sie bei der Erstellung oder Bearbeitung eines Erlebnisses im [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) den Speicherort auf der Seite aus, auf der Sie [!DNL AEM]-Inhalte einfügen möchten, und wählen Sie **[!UICONTROL Erlebnisfragment]** ändern, um die Liste [!UICONTROL Erlebnisfragment] anzuzeigen.[!DNL Target]
 
    ![](assets/experience_fragment_list.png)
 
@@ -141,11 +141,11 @@ Mit dem [Visual Experience Composer](/help/c-experiences/c-visual-experience-c
 ## Zu beachten {#considerations}
 
 * [!DNL Target] sucht derzeit alle zehn Minuten nach zu importierenden Experience Fragments. Das importierte Experience Fragment sollte innerhalb von zehn Minuten in [!DNL Target] verfügbar sein. Dieser Zeitraum soll in Zukunft weiter reduziert werden.
-* Das Experience Fragment wird derzeit in [!DNL Target] als HTML-Angebot importiert. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. Sie können das Experience Fragment nicht in [!DNL Target] bearbeiten.
+* Das Experience Fragment wird derzeit in [!DNL Target] als HTML-Angebot importiert. Beachten Sie, dass das Erlebnisfragment &quot;primäre&quot;Version in [!DNL AEM] verbleibt. Sie können das Experience Fragment nicht in [!DNL Target] bearbeiten.
 * Sie können JSON-Angebote als Experience Fragments nach [!DNL Target] importieren. Diese Angebote werden jedoch als HTML-Angebote importiert. JSON-Angebote (Experience Fragments) werden derzeit nicht vollständig in der [!DNL Target]-Benutzeroberfläche unterstützt.
 * Sie können keine Erlebnisfragmente mit Adobe IO erstellen. Sie müssen Erlebnisfragmente mit AEM erstellen, wie oben beschrieben.
 
-## Training video: Using AEM experience fragments with Adobe Target ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
+## Schulungsvideo: Verwenden AEM Erlebnisfragmente mit Adobe Target ![Tutorial-Zeichen](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
 
 Das folgende Video zeigt Ihnen, wie Sie Experience Fragments einrichten und verwenden:
 
