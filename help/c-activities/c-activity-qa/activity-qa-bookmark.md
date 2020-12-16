@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # Lesezeichenliste für Aktivitäts-QA{#activity-qa-bookmarklet}
 
-Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Target] to release you from QA mode.
+Informationen, die Sie bei der Verwendung des [!DNL Target] QA-Bookmarklets unterstützen, damit [!DNL Target] erzwungen wird, Sie aus dem QA-Modus zu entfernen.
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Targ
 
 ## Aktivität QA Bookmarklet for at.js 1.*x* 
 
-Because [QA mode](/help/c-activities/c-activity-qa/activity-qa.md) is sticky, after you browse a website in QA mode, your [!DNL Target] session must expire or you need to have [!DNL Target] release you from QA mode before you can view your site like a typical visitor. Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
+Da [QS-Modus](/help/c-activities/c-activity-qa/activity-qa.md) fixierbar ist, muss nach dem Durchsuchen einer Website im QA-Modus Ihre [!DNL Target] Sitzung ablaufen oder Sie müssen [!DNL Target] aus dem QS-Modus freigeben, bevor Sie Ihre Site wie ein typischer Besucher Ansicht haben können. Verwenden Sie das QA [!DNL Target]-Lesezeichen, um sich aus dem QA-Modus zu drängen.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+Um das [!DNL Target] QA-Lesezeichen zu verwenden, erstellen Sie ein Lesezeichen mit dem folgenden JavaScript-Code und fügen Sie es der Lesezeichenleiste Ihres Browsers hinzu:
 
 ```javascript
 javascript:(
@@ -43,7 +43,7 @@ javascript:(
 )();
 ```
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+Sie können sich auch manuell aus dem QS-Modus verdrängen, indem Sie eine Seite mit dem Parameter `at_preview_token` mit einem leeren Wert auf Ihrer Site laden.
 
 Beispiel:
 
@@ -51,9 +51,9 @@ Beispiel:
 
 ## Aktivität QA Bookmarklet for at.js 2.*x* 
 
-Im Gegensatz zu at.js 1.*x*, at.js 2.*x* unterstützt keine Drittanbieter-Cookies, und der QS-Modus ist nur für die Erstanbieterdomäne fixierbar (durch ein Erstanbieter-Cookie, das von at.js gesetzt wird). Daher in at.js 2.*x*, die QS-Modus-Sitzung wird nur clientseitig verwaltet und keine Cookies im QS-Modus werden an die Zielgruppe gesendet.
+Im Gegensatz zu at.js 1.*x*, at.js 2.*Drittanbieter-Cookies werden von* xdoes nicht unterstützt, und der QS-Modus ist nur für die Erstanbieterdomäne fixierbar (durch ein Erstanbieter-Cookie, das von at.js gesetzt wird). Daher in at.js 2.*x*, die QS-Modus-Sitzung wird nur clientseitig verwaltet und keine Cookies im QS-Modus werden an die Zielgruppe gesendet.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+Um das [!DNL Target] QA-Lesezeichen zu verwenden, erstellen Sie ein Lesezeichen mit dem folgenden JavaScript-Code und fügen Sie es der Lesezeichenleiste Ihres Browsers hinzu:
 
 ```javascript
 javascript:(
