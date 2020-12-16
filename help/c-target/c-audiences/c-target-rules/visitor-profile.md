@@ -43,7 +43,7 @@ Erstellen Sie Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen
 1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Schulungsvideo: Kennzeichen ![Übersicht über Audiencen erstellen](/help/assets/overview.png)
+## Schulungsvideo: Erstellen von Audiencen ![Kennzeichen ](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
