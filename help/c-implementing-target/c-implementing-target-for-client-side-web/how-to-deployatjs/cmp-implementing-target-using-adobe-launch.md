@@ -28,7 +28,7 @@ In der folgenden Tabelle finden Sie verschiedene Quellen, über die Sie weitere 
 | [Adobe Launch-Dokumentation](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | Informationen zur Implementierung und Verwaltung der Analyse-, Marketing- und Werbe-Tags, die zur Unterstützung relevanter Kundenerlebnisse erforderlich sind. |
 | [Dokumentation zur Adobe Target Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informationen zur Implementierung von Target mit Launch. |
 
-## Advantages of implementing at.js using the Target Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Vorteile der Implementierung von at.js mit der Zielgruppe Launch Extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
 Folgende Vorteile erhalten Sie nur, wenn Sie Adobe Launch für die Implementierung von at.js verwenden. Deshalb empfehlen wir dringend, dass Sie statt DTM oder der manuellen Implementierung von at.js Adobe Launch einsetzen.
 
