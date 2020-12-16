@@ -22,11 +22,11 @@ Wenn ein Besucher auf Ihrer Website surft oder der Besucher zu einer anderen Sit
 
 So richten Sie Profil-Attribute ein:
 
-1. Klicken Sie auf **[!UICONTROL Audiencen]** > **[!UICONTROL Profil-Skripten.]**
+1. Klicken Sie auf **[!UICONTROL Audiencen]** > **[!UICONTROL Profil-Skripte.]**
 
    ![Registerkarte „Profilskripte“ ](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
-1. Klicken Sie auf Skript **[!UICONTROL erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Skript erstellen]**.
 
    ![Dialogfeld „Profilskript erstellen“](/help/c-target/c-visitor-profile/assets/create-script.png)
 
@@ -53,7 +53,7 @@ Um ein neues Profilskript hinzuzufügen, klicken Sie auf die Registerkarte **[!U
 
 Oder
 
-To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
+Um ein vorhandenes Skript zu kopieren, halten Sie den Mauszeiger in der Liste [!UICONTROL Profil-Skripte] über das gewünschte Profil und klicken Sie dann auf das Symbol **[!UICONTROL Kopieren]**: ![Kopiersymbol](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
 
@@ -143,9 +143,9 @@ Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verf
    * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur sehr einfache reguläre Ausdrücke. Sogar einfache Ausdruck können viele Anleitungen zur Bewertung verwenden.
    * Rekursion vermeiden.
    * Profil-Skripten sollten vor dem Hinzufügen zur Zielgruppe einem Leistungstest unterzogen werden. Alle Profil-Skripten werden bei jeder mbox-Anfrage ausgeführt. Wenn Profil-Skripten nicht korrekt ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger. Dies könnte sich auf Traffic und Umrechnung auswirken.
-   * Wenn Profil-Skripte zu komplex werden, sollten Sie stattdessen [Antwort-Token](/help/administrating-target/response-tokens.md) verwenden.
+   * Wenn Profil-Skripten zu komplex werden, sollten Sie stattdessen [Antwort-Token](/help/administrating-target/response-tokens.md) verwenden.
 
-* See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* Weitere Informationen finden Sie in der Dokumentation zur JS Rhino-Engine: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## Profilskripte debuggen {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -157,7 +157,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 * **Profilskripte als Antworttoken hinzufügen, um Profilskripte zu debuggen:**
 
-   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
+   Klicken Sie in der Zielgruppe auf **[!UICONTROL Administration]**, klicken Sie auf **[!UICONTROL Antworttoken]** und aktivieren Sie dann das Profil-Skript, das Sie debuggen möchten.
 
    Jedes Mal, wenn Sie eine Seite Ihrer Site laden, die Target enthält, enthält die Antwort von Target wie unten gezeigt Ihren Wert für das entsprechende Profilskript:
 
@@ -165,7 +165,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 * **mboxTrace-Debugging-Tool verwenden, um Profilskripte zu debuggen:**
 
-   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
+   Für diese Methode ist ein Autorisierungstoken erforderlich, das Sie durch Klicken auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** > **[!UICONTROL Autorisierungstoken generieren]** im Abschnitt [!UICONTROL Debugger-Tools] erstellen können.
 
    Fügen Sie anschließend diese beiden Parameter Ihrer Seiten-URL nach dem „?“ hinzu: `mboxTrace=window&authorization=YOURTOKEN`.
 
@@ -181,11 +181,12 @@ Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgefü
 
 ## JavaScript-Referenz für Skript-Profilparameter
 
-Für die effektive Verwendung von Skript-Profilparametern ist einfaches Javascript-Wissen erforderlich. Dieser Abschnitt dient als kurze Referenz, um Sie in wenigen Minuten mit dieser Funktionalität vertraut zu machen.
+Einfaches Javascript-Wissen erforderlich, um Skript-Profil effektiv zu verwenden
+Parameter. Dieser Abschnitt dient als kurze Referenz, um Sie in wenigen Minuten mit dieser Funktionalität vertraut zu machen.
 
 Skript-Profilparameter befinden sich auf der Registerkarte „mboxes/profile“. Sie können Javascript-Programme schreiben, die einen beliebigen Javascript-Typ (Zeichenfolge, Ganzzahl, Array usw.) zurückgeben.
 
-### Beispiele für Skript-Profilparameter {#examples}
+### Beispiele für Skript-Profilparameter  {#examples}
 
 **Name:***user.recency*
 
@@ -211,7 +212,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. Wenn der mbox-Name `orderThankyouPage` lautet, wird der inkrementierte Wert zurückgegeben.
+Erstellt eine Variable mit dem Namen `frequency` und initialisiert sie entweder auf den vorherigen Wert oder auf 0, wenn kein vorheriger Wert vorhanden ist. Wenn der mbox-Name `orderThankyouPage` lautet, wird der inkrementierte Wert zurückgegeben.
 
 **Name:***user.monetaryvalue*
 
@@ -235,7 +236,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Erstellt eine Variable `adobeQA` zur Benutzerverfolgung zur [Aktivität-Qualitätssicherung](/help/c-activities/c-activity-qa/activity-qa.md).
+Erstellt eine Variable mit dem Namen `adobeQA` zur Benutzerverfolgung für [Aktivität QA](/help/c-activities/c-activity-qa/activity-qa.md).
 
 ### Objekte und Methoden
 
@@ -252,7 +253,7 @@ Die folgenden Eigenschaften und Methoden können durch Skript-Profilparameter re
 | `landing.url`, `landing.protocol`, `landing.query`, und `landing.param` | Ähnlich wie die Seite, aber für die Landingpage. |
 | `mbox.name` | Der Name der aktiven Mbox. |
 | `mbox.param(‘<par_name>’)` | Ein mbox-Parameter nach dem angegebenen Namen in der aktiven Mbox. |
-| `profile.get(‘<par_name>’)` | Der vom Kunden erstellte Benutzerprofilparameter durch den Namen `<par_name>`. Wenn der Benutzer z. B. einen Profilparameter namens „Gender“ festgelegt hat, kann der Wert mit „profile.gender“ extrahiert werden. Gibt den Wert des Werts „`profile.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. Beachten Sie, dass dies als Funktionsaufruf qualifiziert `profile.get(<par_name>)` ist. |
+| `profile.get(‘<par_name>’)` | Der vom Kunden erstellte Benutzerprofilparameter durch den Namen `<par_name>`. Wenn der Benutzer z. B. einen Profilparameter namens „Gender“ festgelegt hat, kann der Wert mit „profile.gender“ extrahiert werden. Gibt den Wert des Werts „`profile.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. Beachten Sie, dass `profile.get(<par_name>)` als Funktionsaufruf qualifiziert ist. |
 | `user.get(‘<par_name>’)` | Gibt den Wert des Werts „`user.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. |
 | `user.categoryAffinity` | Gibt den Namen der besten Kategorie zurück. |
 | `user.categoryAffinities` | Gibt ein Array mit den besten Kategorien zurück. |
@@ -276,7 +277,7 @@ Alle standardmäßigen JavaScript-Operatoren sind vorhanden und können verwende
 | `||` | Fügt die Ausdrücke links und rechts daneben logisch mit „ORs“ zusammen, nur „true“, wenn beide Seiten true sind (andernfalls „false“). |
 | `//` | Prüft, ob die Quelle alle Elemente aus dem Booleschen Zielwert enthält (Array-Quelle, Array-Ziel).<br>`//` extrahiert Unterzeichenfolge aus dem Ziel (entspricht regexp) und dekodiert sie`Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Die Funktion unterstützt auch die Verwendung konstanter Zeichenfolgenwerte, Gruppierung (`condition1 || condition2) && condition3` und reguläre Ausdrücke `/[^a-z]$/.test(landing.referring.url)`). |
 
-## Schulungsvideo: Profil Scripts ![Tutorial-Abzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Profil-Skripten ![Tutorial-Zeichen](/help/assets/tutorial.png)
 
 In diesem Video erfahren Sie, wie Profilskripte erstellt und verwendet werden.
 
