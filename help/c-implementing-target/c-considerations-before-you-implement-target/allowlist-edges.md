@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Zulassungsliste Zielgruppe Edge-Knoten
 
-Informationen und eine aktuelle Liste von Hosts, die Sie bei der Zulassungsliste von Adoben [!DNL Target] unterstützen.
+Informationen und eine aktuelle Liste von Hosts zur Unterstützung der Zulassungsliste Adobe [!DNL Target] Kanten.
 
-Eine Kante ist eine geografisch verteilte Serving-Architektur, die Endbenutzern, die Inhalte anfordern, optimale Reaktionszeiten gewährleistet, unabhängig davon, wo sie sich auf der ganzen Welt befinden. Jeder Edge-Knoten verfügt über alle erforderlichen Informationen, um auf die Inhaltsanforderung des Benutzers zu reagieren und Analysedaten zu dieser Anforderung zu verfolgen. Benutzeranforderungen werden an den nächsten Edge-Knoten weitergeleitet. Weitere Informationen finden Sie unter [Das Edge-Netzwerk](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Funktionsweise der Adobe [!DNL Target]*.
+Eine Kante ist eine geografisch verteilte Serving-Architektur, die Endbenutzern, die Inhalte anfordern, optimale Reaktionszeiten gewährleistet, unabhängig davon, wo sie sich auf der ganzen Welt befinden. Jeder Edge-Knoten verfügt über alle erforderlichen Informationen, um auf die Inhaltsanforderung des Benutzers zu reagieren und Analysedaten zu dieser Anforderung zu verfolgen. Benutzeranforderungen werden an den nächsten Edge-Knoten weitergeleitet. Weitere Informationen finden Sie unter [Das Edge-Netzwerk](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Wie Adobe [!DNL Target] funktioniert*.
 
-Sie können bei Bedarf [!DNL Target] Edge-Knoten in Zulassungslisten einfügen.
+Sie können bei Bedarf [!DNL Target]-Edge-Knoten in Zulassungslisten einfügen.
 
 Die folgende Liste umfasst die aktuellen Hosts:
 
