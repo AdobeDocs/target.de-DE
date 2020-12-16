@@ -14,7 +14,7 @@ ht-degree: 88%
 
 # Funktionsweise von „at.js“{#how-at-js-works}
 
-To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
+Um [!DNL Adobe Target] clientseitig zu implementieren, müssen Sie die JavaScript-Bibliothek at.js verwenden.
 
 Bei Client-seitigen Implementierungen von [!DNL Adobe Target] stellt [!DNL Target] die mit einer Aktivität verknüpften Erlebnisse direkt dem Client-Browser bereit. Der Browser entscheidet, welches Erlebnis angezeigt werden soll, und zeigt es an. Bei einer Client-seitigen Implementierung können Sie einen WYSIWYG-Editor, Visual [Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) oder eine nicht visuelle Schnittstelle, den [formularbasierten Experience Composer](/help/c-experiences/form-experience-composer.md), verwenden, um Ihre Tests und Personalisierungserlebnisse zu erstellen.
 
@@ -24,7 +24,7 @@ Die [at.js-Bibliothek](/help/c-implementing-target/c-implementing-target-for-cli
 
 Weitere Informationen finden Sie unter [JavaScript-Bibliotheken in Target](/help/c-intro/how-target-works.md#libraries).
 
-In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. Zudem wurden zentrale Experience Cloud-Services implementiert: Adobe Launch, Zielgruppen und Besucher-ID-Service.
+In der unten dargestellten [!DNL Target]-Implementierung werden die folgenden [!DNL Adobe Experience Cloud]-Lösungen implementiert: Analytics, Zielgruppe und Audience Manager. Zudem wurden zentrale Experience Cloud-Services implementiert: Adobe Launch, Zielgruppen und Besucher-ID-Service.
 
 ## Was ist der Unterschied zwischen &quot;at.js 1&quot;?*x*- und at.js 2.x-Workflow-Diagrammen?
 
@@ -48,7 +48,7 @@ Die folgenden Diagramme helfen Ihnen dabei, den Arbeitsablauf von at.js 2.x mit 
 | 3 | Es wird eine Seitenlade-Anfrage durchgeführt, in der alle konfigurierten Parameter (MCID, SDID und Kunden-ID) enthalten sind. |
 | 4 | Profilskripte werden ausgeführt und anschließend in den Profilspeicher eingespeist. Der Speicher ruft geeignete Zielgruppen aus der Zielgruppenbibliothek ab (beispielsweise über Adobe Analytics, Zielgruppen-Management etc. bereitgestellte Zielgruppen).<br>Kundenattribute werden in einem Batch-Prozess an den Profilspeicher übermittelt. |
 | 5 | Basierend auf den URL-Anfrageparametern und den Profildaten entscheidet [!DNL Target], welche Aktivitäten und Erlebnisse für die aktuelle Seite und zukünftige Ansichten an den Besucher zurückgegeben werden sollen. |
-| 6 | Zielgerichteter Inhalt wird zurück an die Seite übermittelt. Dieser enthält optional Profilwerte für eine weitere Personalisierung.<br>Die zielgerichteten Inhalte auf der aktuellen Seite werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern.<br>Gezielte Inhalte für Ansichten, die aufgrund von Benutzeraktionen in einem SPA angezeigt werden, werden im Browser zwischengespeichert, sodass sie sofort ohne zusätzlichen Serveraufruf angewendet werden können, wenn die Ansichten durch ausgelöst werden `triggerView()`. |
+| 6 | Zielgerichteter Inhalt wird zurück an die Seite übermittelt. Dieser enthält optional Profilwerte für eine weitere Personalisierung.<br>Die zielgerichteten Inhalte auf der aktuellen Seite werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern.<br>Gezielte Inhalte für Ansichten, die aufgrund von Benutzeraktionen in einem SPA angezeigt werden, werden im Browser zwischengespeichert, sodass sie sofort ohne zusätzlichen Serveraufruf angewendet werden können, wenn die Ansichten durch ausgelöst werden  `triggerView()`. |
 | 7 | Analytics-Daten werden an Datenerfassungsserver übermittelt. |
 | 8 | Zielgerichtete Daten werden über die SDID mit Analytics-Daten abgeglichen und im Analytics-Berichtspeicher abgelegt.<br>Analytics-Daten können dann sowohl in Analytics als auch in Target eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs Analytics for Target (A4T). |
 
@@ -58,7 +58,7 @@ Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten un
 
 | Schritt | Details |
 | --- | --- |
-| 1 | `triggerView()` wird in der Einzelseiten-App aufgerufen, um eine Ansicht wiederzugeben und Aktionen anzuwenden, die visuelle Elemente ändern. |
+| 3 | `triggerView()` wird in der Einzelseiten-App aufgerufen, um eine Ansicht wiederzugeben und Aktionen anzuwenden, die visuelle Elemente ändern. |
 | 2 | Gezielte Inhalte für die Ansicht werden aus dem Cache gelesen. |
 | 3 | Die zielgerichteten Inhalte werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern. |
 | 4 | Die Benachrichtigungsanfrage wird an den [!DNL Target]-Profilspeicher gesendet, damit der Besucher in der Aktivität erfasst und die Metrik erhöht wird. |
@@ -71,7 +71,7 @@ at.js 2.x verbessert die Unterstützung von Adobe Target für SPAs und kann mit 
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Weitere Informationen finden Sie unter [Die Funktionsweise](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) von at.js 2.x.
+Weitere Informationen finden Sie unter [Funktionsweise von at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html).
 
 ## at.js 1.x-Diagramm
 
@@ -80,7 +80,7 @@ Weitere Informationen finden Sie unter [Die Funktionsweise](https://helpx.adobe.
 | Schritt | Beschreibung | Aufruf | Beschreibung |
 |--- |--- |--- |--- |
 | 1 | Ein Aufruf gibt die [!DNL Experience Cloud ID] (MCID) zurück, falls sich der Benutzer authentifiziert hat. Bei einem weiteren Aufruf wird die Kunden-ID synchronisiert. | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen. |
-| 3 | Es wird ein globaler Mbox-Aufruf durchgeführt, in dem alle konfigurierten Parameter, MCID, SDID und Kunden-IDs enthalten sind (optional). | 4 | Profilskripte werden ausgeführt und anschließend in den Profilspeicher eingespeist. Der Speicher ruft geeignete Zielgruppen aus der [!UICONTROL Zielgruppenbibliothek] ab (z. B. über [!DNL Adobe Analytics], [!DNL Audience Manager] usw. bereitgestellte Zielgruppen).<br>Kundenattribute werden in einem Batch-Prozess an [!DNL Profile Store] übermittelt. |
+| 1 | Es wird ein globaler Mbox-Aufruf durchgeführt, in dem alle konfigurierten Parameter, MCID, SDID und Kunden-IDs enthalten sind (optional). | 4 | Profilskripte werden ausgeführt und anschließend in den Profilspeicher eingespeist. Der Speicher ruft geeignete Zielgruppen aus der [!UICONTROL Zielgruppenbibliothek] ab (z. B. über [!DNL Adobe Analytics], [!DNL Audience Manager] usw. bereitgestellte Zielgruppen).<br>Kundenattribute werden in einem Batch-Prozess an [!DNL Profile Store] übermittelt. |
 | 5 | Basierend auf URL, Mbox-Parametern und Profildaten wird von [!DNL Target] entschieden, welche Aktivitäten und Erlebnisse dem Besucher angezeigt werden sollen. | 6 | Zielgerichteter Inhalt wird zurück an die Seite übermittelt. Dieser enthält optional Profilwerte für eine weitere Personalisierung.<br>Das Erlebnis wird so schnell wie möglich ohne ein Flackern der Standardinhalte bereitgestellt. |
 | 7 | [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. | 8 | [!DNL Target]-Daten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und im [!DNL Analytics]-Berichtspeicher abgelegt.<br>[!DNL Analytics]-Daten können dann sowohl in [!DNL Analytics] als auch in [!DNL Target] eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs [!DNL Analytics for Target] (A4T). |
 
