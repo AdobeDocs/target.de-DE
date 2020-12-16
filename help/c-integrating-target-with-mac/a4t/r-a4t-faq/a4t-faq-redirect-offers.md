@@ -40,7 +40,7 @@ Die drei Bibliotheken müssen sowohl auf der Seite mit dem Weiterleitungsangebot
 
 Es werden einige Datendiskrepanzen erwartet. Weitere Informationen finden Sie unter [Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
-## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt?   {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 Wenn die at.js-Version 1.6.3 oder höher verwendet wird, ist dies kein Problem. Diese Race-Bedingung betrifft nur Kunden, die frühere Versionen verwenden. Das Target-Team behält zwei Versionen von at.js: die aktuelle Version und die davor. Führen Sie bei Bedarf ein Upgrade von at.js durch, um sicherzustellen, dass Sie eine [unterstützte Version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ausführen.
 
@@ -73,9 +73,9 @@ Die folgenden Abfrage String-Parameter sind Umleitungsangeboten zugeordnet:
 
 Diese Parameter werden automatisch zu den Umleitungs-URLs hinzugefügt, wenn die integrierten Umleitungsangebote in VEC und in Form-Based Experience Composer verwendet werden, wenn der Besucher-ID-Service auf der Seite implementiert ist. Wenn Sie Ihren eigenen benutzerdefinierten Code in VEC und in Form-Based Experience Composer verwenden, müssen Sie sicherstellen, dass Sie diese Parameter mit Ihrem benutzerdefinierten Code weitergeben.
 
-## Meine Webserver entfernen diese Parameter aus meinen URLs, was soll ich tun?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Meine Webserver entfernen diese Parameter aus meinen URLs, was soll ich tun?   {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
+Sie müssen mit Ihrem IT-Team zusammenarbeiten, damit diese Parameter ( `adobe_mc_sdid` und `adobe_mc_ref`) auf die Zulassungsliste gesetzt werden.
 
 ## Was ist, wenn ich A4T nicht für meine Umleitungsaktivitäten verwende und nicht möchte, dass diese zusätzlichen Parameter zu meinen URLs hinzugefügt werden? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -89,11 +89,11 @@ Wenn Sie A4T und Weiterleitungsangebote verwenden, hängt Target die Parameter `
 
 Aufgrund dieser doppelten Kodierung kann die Besucher-API den SDID-Wert nicht abrufen, wenn sie versucht, den Wert `adobe_mc_sdid` zu entschlüsseln, und sie erstellt dann eine neue SDID. Dies führt dazu, dass falsche SDID-Werte an Target und Analytics gesendet werden und Ihnen in Analytics-Berichten eine ungleiche Verteilung für Umleitungen angezeigt wird.
 
-We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
+Wir empfehlen Ihnen, mit ihrem IT-Team zu sprechen, um sicherzustellen, dass `adobe_mc_ref` und `adobe_mc_sdid` auf die Zulassungsliste gesetzt werden, damit diese Werte in keiner Weise transformiert werden.
 
 ## Warum muss die verweisende URL an die neue Seite weitergegeben werden? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage (`www.mysite.com/index.html`) on which a redirect activity is live and is then redirected to a new page (`www.mysite.com/index2.html`).
+Angenommen, ein Besucher klickt auf einen Link auf [!DNL `www.google.com`] zu Ihrer Homepage (`www.mysite.com/index.html`), auf der eine Umleitungsseite live ist, und wird dann zu einer neuen Aktivität (`www.mysite.com/index2.html`) umgeleitet.
 
 Bisher hat die [!DNL Analytics]-Anfrage auf der neuen Seite eine verweisende URL von [!DNL `www.mysite.com/index.html`] statt von [!DNL `www.google.com`] gemeldet. Dies führte zu ungenauen Berichten in [!DNL Analytics] im Zusammenhang mit den verweisenden URLs (beispielsweise Marketingkanalberichte). Somit berücksichtigten die Berichte nicht, dass Sie über [!DNL `www.google.com`] auf die Seite kamen.
 
