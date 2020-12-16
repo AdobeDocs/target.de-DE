@@ -20,13 +20,13 @@ Anzeigeprobleme und andere Probleme treten manchmal im Visual Experience Compose
 
 Mit den neuesten Änderungen (August 2020) haben alle Benutzer mit Chrome 80+-Browser-Versionen folgende Vorteile:
 
-* Wird *nicht* in der Lage sein, VEC (mit oder ohne VEC Helper Extension installiert und aktiviert) in kennwortgeschützten Seiten ihrer Sites zu verwenden. Der Grund dafür ist, dass ihre Site-Login-Cookies als Drittanbieter-Cookie betrachtet werden und nicht mit der Anmeldeanforderung gesendet werden. Die einzige Ausnahme besteht darin, dass der SameSite-Anmeldecookie des Kunden bereits über den Parameter SameSite auf &quot;none&quot;gesetzt ist.
-* Wird *nicht* in der Lage sein, [!DNL Target] Bibliotheken während der Bearbeitung einer Aktivität herunterzuladen (wenn diese nicht bereits auf der Site vorhanden sind). Dies liegt daran, dass der Download-Aufruf von der Kundendomäne zu einer gesicherten Adobe-Domäne erfolgt und als nicht authentifiziert abgelehnt wird.
-* Die EWG wird *nicht* für alle Benutzer funktionieren, da sie nicht in der Lage ist, das Attribut SameSite für Cookies einzustellen `adobemc.com domain`. Ohne dieses Attribut lehnt der Browser diese Cookies ab, wodurch die EWG fehlschlägt.
+* Ist *nicht* in der Lage, VEC (mit oder ohne VEC Helper Extension installiert und aktiviert) auf kennwortgeschützten Seiten ihrer Sites zu verwenden. Der Grund dafür ist, dass ihre Site-Login-Cookies als Drittanbieter-Cookie betrachtet werden und nicht mit der Anmeldeanforderung gesendet werden. Die einzige Ausnahme besteht darin, dass der SameSite-Anmeldecookie des Kunden bereits über den Parameter SameSite auf &quot;none&quot;gesetzt ist.
+* Ist *nicht* in der Lage, [!DNL Target]-Bibliotheken beim Bearbeiten einer Aktivität herunterzuladen (wenn diese noch nicht auf der Site vorhanden sind)? Dies liegt daran, dass der Download-Aufruf von der Kundendomäne zu einer gesicherten Adobe-Domäne erfolgt und als nicht authentifiziert abgelehnt wird.
+* Die EEC wird für alle Benutzer die Funktion *nicht* verwenden, da sie nicht in der Lage ist, das Attribut SameSite für Cookies auf `adobemc.com domain` festzulegen. Ohne dieses Attribut lehnt der Browser diese Cookies ab, wodurch die EWG fehlschlägt.
 
-Adobe hat eine aktualisierte VEC Helper-Erweiterung an den Google Chrome Store übermittelt. Diese Erweiterung überschreibt bei Bedarf die Cookie-Attribute, um das `SameSite="none"` Attribut festzulegen. Die [aktualisierte Erweiterung finden Sie hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Weitere Informationen zum Installieren und Verwenden der VEC Helper Extension finden Sie unter [Visual Experience Composer Helper Extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+Adobe hat eine aktualisierte VEC Helper-Erweiterung an den Google Chrome Store übermittelt. Diese Erweiterung überschreibt die Cookie-Attribute, um bei Bedarf das `SameSite="none"`-Attribut festzulegen. Die [aktualisierte Erweiterung finden Sie hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Weitere Informationen zum Installieren und Verwenden der VEC Helper Extension finden Sie unter [Visual Experience Composer Helper Extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-Für Ihre eigenen Site-Cookies müssen Sie die Cookies anhand des Namens angeben. Schalten Sie den Schieberegler [!UICONTROL Cookie] auf die Position on um und geben Sie dann das Cookie anhand des Namens und der Cookie-Domäne an. Der Cookie-Name ist &quot;mbox&quot;und die Cookie-Domäne ist die zweite und oberste Ebene der Domänen, von denen Sie die mbox beliefern. Da die Belieferung von der Domäne Ihres Unternehmens stattfindet, handelt es sich um ein Erstanbieter-Cookie. Beispiel: `mycompany.com`. Weitere Informationen finden Sie unter [Adobe Target-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) im *Experience Cloud-Interface-Benutzerhandbuch*.
+Für Ihre eigenen Site-Cookies müssen Sie die Cookies anhand des Namens angeben. Schalten Sie den Regler [!UICONTROL Cookie] zur Position &quot;on&quot;um und geben Sie dann das Cookie nach Name und Cookie-Domäne an. Der Cookie-Name ist &quot;mbox&quot;und die Cookie-Domäne ist die zweite und oberste Ebene der Domänen, von denen Sie die mbox beliefern. Da die Belieferung von der Domäne Ihres Unternehmens stattfindet, handelt es sich um ein Erstanbieter-Cookie. Beispiel: `mycompany.com`. Weitere Informationen finden Sie unter [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) im *Experience Cloud-Benutzeroberfläche Benutzerhandbuch*.
 
 ![Cookies in der VEC Helper Extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -34,13 +34,13 @@ Für Ihre eigenen Site-Cookies müssen Sie die Cookies anhand des Namens angeben
 
 Verwenden Sie eine der folgenden Optionen, um sicherzustellen, dass VEC und EEC wie erwartet funktionieren:
 
-* Laden Sie die aktualisierte [VEC Helper-Erweiterung herunter und verwenden Sie sie](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+* Laden Sie die aktualisierte [VEC Helper Extension](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en) herunter und verwenden Sie sie.
 * Verwenden Sie den Mozilla Firefox-Browser. Firefox erzwingt diese Richtlinie noch nicht.
-* Verwenden Sie weiterhin Chrome, setzen Sie das `chrome://flags/#same-site-by-default-cookies` Flag jedoch auf &quot;Deaktiviert&quot;.
+* Verwenden Sie weiterhin Chrome, aber setzen Sie das `chrome://flags/#same-site-by-default-cookies`-Flag auf &quot;Deaktiviert&quot;.
 
    >[!NOTE]
    >
-   >Dies reicht *nicht* aus, wenn für Cookies bereits das Attribut SameSite auf &quot;Lax&quot;oder &quot;Strict&quot;vom Server eingestellt ist.
+   >Dies wird *nicht* ausreichen, wenn Cookies bereits das Attribut SameSite auf &quot;Lax&quot;oder &quot;Strict&quot;vom Server eingestellt haben.
 
 ## Unterstützt Target iFrames mit mehreren Ebenen?
 
@@ -93,7 +93,7 @@ Wenn für mehrere Elemente auf der Seite die gleiche DOM-Element-ID verwendet wi
 
 ## Die Bearbeitung von Erlebnissen für eine Site, die iFrames zerstört, ist nicht möglich. (VEC und EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Dieses Problem kann durch die Aktivierung des Enhanced Experience Composer behoben werden. Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the Enhanced Experience Composer. Der Enhanced Experience Composer verwendet ein von Adobe verwaltetes Proxy, um Ihre Seite zur Bearbeitung zu laden. Dies ermöglicht Ihnen die Bearbeitung von Sites, die iFrames zerstören, sowie die Bearbeitung auf Sites und Seiten, auf denen Sie noch keinen Adobe Target-Code hinzugefügt haben. Solange kein Code hinzugefügt wurde, liefern die Aktivitäten nicht an die Site. Einige Websites werden in Enhanced Experience Composer möglicherweise nicht geladen. In diesem Fall können Sie diese Option deaktivieren, um Visual Experience Composer in einem iFrame zu laden.  []
+Dieses Problem kann durch die Aktivierung des Enhanced Experience Composer behoben werden. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** und aktivieren Sie dann das Kontrollkästchen, das den Enhanced Experience Composer aktiviert. Der Enhanced Experience Composer verwendet ein von Adobe verwaltetes Proxy, um Ihre Seite zur Bearbeitung zu laden. Dies ermöglicht Ihnen die Bearbeitung von Sites, die iFrames zerstören, sowie die Bearbeitung auf Sites und Seiten, auf denen Sie noch keinen Adobe Target-Code hinzugefügt haben. Solange kein Code hinzugefügt wurde, liefern die Aktivitäten nicht an die Site. Einige Websites werden in Enhanced Experience Composer möglicherweise nicht geladen. In diesem Fall können Sie diese Option deaktivieren, um Visual Experience Composer in einem iFrame zu laden.   []
 
 >[!NOTE]
 >
