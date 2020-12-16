@@ -28,7 +28,7 @@ Durchsuchen Sie die [!UICONTROL Zielgruppenliste] über das Suchfeld. Sie könne
 
 Sie können die Zielgruppenliste nach Zielgruppennamen oder dem Datum der letzten Änderung sortieren. Wenn Sie eine Sortierung nach Name oder Datum vornehmen möchten, klicken Sie auf die Spaltenüberschrift und wählen Sie dann die Anzeige der Zielgruppen in aufsteigender oder absteigender Reihenfolge aus.
 
-## Schulungsvideo: Audiencen- ![Tutorialzeichen erstellen](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen von Audiencen ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
