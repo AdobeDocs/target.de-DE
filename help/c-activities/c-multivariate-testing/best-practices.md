@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und zum Korrigieren bekannter Probleme, die beim Erstellen und Ausführen von Multivarianz-Test-Aktivitäten (MVT) in [!DNL Adobe Target] auftreten könnten.
 
-## Planung  {#section_4D4A1F6226F042379BF48DB753608579}
+## Planung   {#section_4D4A1F6226F042379BF48DB753608579}
 
 * Beachten Sie die Orte auf Ihrer Seite, die wahrscheinlich signifikante Ergebnisse produzieren.
 
@@ -25,7 +25,7 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und zum Korrigi
 
    Machen Sie sich mit den unterschiedlichen Inhalten für jedes Angebot vertraut und erstellen Sie Bilder, Text und HTML-Angebote, die Sie wahrscheinlich im Multivarianz-Test verwenden werden.
 
-## Erstellung  {#section_C59C722CA82E48ABA58A4A7FA758F193}
+## Erstellung   {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
 * Vermeiden Sie die Einbeziehung von mehr Kombinationen als für den Test notwendig.
 
@@ -44,14 +44,14 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und zum Korrigi
    Vergewissern Sie sich, dass die Traffic-Schätzung Ihre Testkonfiguration freigibt, sodass Sie die gewünschten Ergebnisse erhalten.
 * Es wird empfohlen, dass sich die Alternativen der einzelnen Elemente deutlich voneinander unterscheiden.
 
-## Analyse  {#section_9A2118CF1039451681C13D9AE79A58AB}
+## Analyse   {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Nutzen Sie den [Location Contribution-Bericht](/help/c-reports/location-contribution-report.md) regelmäßig, um die Leistung der einzelnen Orte und Angebote zu überwachen.
 * Basieren Sie Ihre Entscheidungen im [Experience Performance-Bericht](/help/c-reports/experience-performance-report.md) auf Daten, die bei Nutzung der Filter „Beste 5“ und „Schlechteste 5“ angezeigt werden.
 
    Der Filter [!UICONTROL Alle] erschwert die Gewinnung der gewünschten Informationen und es ist nicht möglich, alle Erlebnisse im Diagramm anzuzeigen. Verwenden Sie den Filter [!UICONTROL Alle], wenn Sie ein spezifisches Erlebnis betrachten möchten, das nicht zu den besten oder schlechtesten fünf zählt.
 
-## Nachbereitung  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
+## Nachbereitung   {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
 * Obwohl [!DNL Target] Ihnen ermöglicht, eine Live-Aktivität zu bearbeiten, sollten Sie darauf achten, dass das Bearbeiten einer ausgeführten Aktivität zu einem Zurücksetzen des Tests führen kann. Berichte erkennen also möglicherweise manche Änderungen nicht. Es ist jedoch sicher, die Änderungen nur an den HTML-Angeboten in der Angebotsbibliothek vorzunehmen.
 
