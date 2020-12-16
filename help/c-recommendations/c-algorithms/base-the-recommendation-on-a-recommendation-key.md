@@ -15,7 +15,7 @@ ht-degree: 69%
 
 # Stützen der Empfehlung auf einen Empfehlungsschlüssel
 
-Recommendations based on keys use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities.
+Auf Schlüsseln basierende Recommendations verwenden den Verhaltenskontext des Besuchers, um relevante Ergebnisse in [!DNL Adobe Target] [!DNL Recommendations]-Aktivitäten anzuzeigen.
 
 Es gibt zwei Arten von Recommendations:
 
@@ -24,8 +24,8 @@ Es gibt zwei Arten von Recommendations:
 
 Jedes Kriterium ist in seinem eigenen Register definiert. Der Traffic wird gleichmäßig auf die verschiedenen Kriterientests verteilt. Anders ausgedrückt wird der Traffic bei zwei vorliegenden Kriterien gleichmäßig zwischen diesen aufgeteilt. Wenn Sie über zwei Kriterien und zwei Entwürfe verfügen, wird der Traffic gleichmäßig zwischen diesen vier Kombinationen aufgeteilt. Sie können auch den Prozentsatz der Websitebesucher festlegen, denen zum Vergleich der standardmäßige Inhalt gezeigt wird. In diesem Fall sieht ein angegebener Prozentsatz von Besuchern den Standardinhalt und der Rest wird auf die Kriterien- und Entwurfskombinationen verteilt.
 
-1. Create a new criteria, or select an existing criteria and click **[!UICONTROL Edit]**.
-1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list, then click **[!UICONTROL Save]** or **[!UICONTROL Update]**.
+1. Erstellen Sie ein neues Kriterium oder wählen Sie ein vorhandenes Kriterium aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Um den Empfehlungsschlüssel zu ändern, wählen Sie den neuen Schlüssel aus der Dropdown-Liste [!UICONTROL Empfehlungsschlüssel] und klicken Sie dann auf **[!UICONTROL Speichern]** oder **[!UICONTROL Aktualisieren]**.
 
    Da sich unterschiedliche Logiken auf unterschiedliche Empfehlungsschlüssel beziehen, werden unterschiedliche Empfehlungen auf unterschiedlichen Seitentypen platziert. Weitere Informationen zu den einzelnen Empfehlungsschlüsseln finden Sie in den folgenden Abschnitten.
 
@@ -54,7 +54,7 @@ Wenn diese Option ausgewählt ist, muss der `entity.id`-Wert als Parameter in de
 * Seiten mit einzelnen Artikeln, beispielsweise Produktseiten.
 * NICHT auf Seiten ohne Suchergebnisse verwenden.
 
-### Aktuelle Kategorie {#current-category}
+### Aktuelle Kategorie  {#current-category}
 
 Die Empfehlung wird von der Produktkategorie bestimmt, die der Besucher momentan ansieht.
 
@@ -72,7 +72,7 @@ Wenn diese Option ausgewählt ist, muss der `entity.categoryId`-Wert als Paramet
 * Seiten mit einer Kategorie.
 * NICHT auf Seiten ohne Suchergebnisse verwenden.
 
-### Benutzerspezifisches Attribut  {#custom}
+### Benutzerspezifisches Attribut   {#custom}
 
 Die Empfehlung wird anhand eines Artikels ermittelt, der im Besucherprofil gespeichert ist, entweder mithilfe des Attributs user.*x* oder Profile.*x* Attribute.
 
@@ -82,7 +82,7 @@ Wenn Sie Empfehlungen auf Grundlage von benutzerspezifischen Attributen erstelle
 
 Zusätzlich zur Ausgabe Ihrer eigenen benutzerspezifischen Kriterien können Sie in Echtzeit filtern. So können Sie beispielsweise Ihre empfohlenen Elemente so begrenzen, dass nur die Favoritenkategorie oder -marke eines Besuchers angezeigt wird. Dadurch können Sie Offline-Berechnungen mit der Echtzeitfilterung kombinieren.
 
-This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. Dadurch lässt sich die Leistung Ihrer Datenwissenschaftler und Ihrer Datenrecherche mit der bewährten Bereitstellung, der Laufzeitfilterung, den A/B-Tests, dem Targeting, der Berichterstellung, den Integrationen und mehr von Adobe kombinieren.
+Diese Funktion bedeutet, dass Sie [!DNL Target] verwenden können, um Ihre offline berechneten Empfehlungen oder benutzerspezifisch kuratierten Listen durch Personalisierung zu ergänzen. Dadurch lässt sich die Leistung Ihrer Datenwissenschaftler und Ihrer Datenrecherche mit der bewährten Bereitstellung, der Laufzeitfilterung, den A/B-Tests, dem Targeting, der Berichterstellung, den Integrationen und mehr von Adobe kombinieren.
 
 Wenn benutzerdefinierten Kriterien Einschlussregeln hinzugefügt werden, wandelt dies auf der Grundlage eines Besuchers andernfalls statische Empfehlungen in dynamische Empfehlungen um.
 
@@ -172,7 +172,7 @@ Die Empfehlung wird durch den letzten Artikel bestimmt, der von dem jeweiligen U
 * Startseite, Seite „Mein Konto“, Offsite-Werbeanzeigen.
 * NICHT auf Produktseiten oder Seiten verwenden, die für Einkäufe relevant sind.
 
-### Zuletzt angezeigter Artikel {#last-viewed}
+### Zuletzt angezeigter Artikel  {#last-viewed}
 
 Die Empfehlung wird durch den letzten Artikel bestimmt, der von dem jeweiligen Unique Visitor angezeigt wurde. Dies wird automatisch erfasst, und es müssen keine Werte auf der Seite weitergereicht werden.
 
@@ -189,7 +189,7 @@ Die Empfehlung wird durch den letzten Artikel bestimmt, der von dem jeweiligen U
 * Startseite, Seite „Mein Konto“, Offsite-Werbeanzeigen.
 * NICHT auf Produktseiten oder Seiten verwenden, die für Einkäufe relevant sind.
 
-### Am häufigsten angezeigter Artikel {#most-viewed}
+### Am häufigsten angezeigter Artikel  {#most-viewed}
 
 Die Empfehlung wird von dem Artikel bestimmt, der am häufigsten angezeigt wurde, wobei dieselbe Methode wie für die bevorzugte Kategorie verwendet wird.
 
@@ -213,7 +213,7 @@ Beispiel: Die Anzeige von Surfbrett A und Surfbrett B in einer Sitzung führt zu
 
 * Allgemeine Seiten wie Startseiten oder Einstiegsseiten und Offsite-Werbeanzeigen.
 
-### Beliebtheit {#popularity}
+### Beliebtheit  {#popularity}
 
 Die Empfehlung wird von den am meisten bevorzugten Artikeln auf Ihrer Site bestimmt. Unter „Popularität“ fallen Topverkäufe und die am häufigsten nach Mbox-Daten angezeigten Artikel sowie bei der Verwendung von Adobe Analytics alle verfügbaren Metriken im Produktbericht. Die Artikel werden je nach ausgewählter Recommendations-Logik in eine Rangfolge gebracht.
 
@@ -227,15 +227,15 @@ Die Empfehlung wird von den am meisten bevorzugten Artikeln auf Ihrer Site besti
 
 * Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
 
-### Vor Kurzem aufgerufene Artikel  {#recently-viewed}
+### Vor Kurzem aufgerufene Artikel   {#recently-viewed}
 
 Nutzt den Verlauf des Benutzers (sitzungsübergreifend) für die Anzeige der letzten *x* vom Besucher angesehenen Artikel, basierend auf der Anzahl x der im Entwurf vorhandenen Plätze.
 
-The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die jeweiligen Elemente der entsprechenden Umgebung an. Wenn zwei Sites in derselben Umgebung enthalten sind und ein Besucher zwischen ihnen wechselt, erhält er die kürzlich angezeigten Elemente für beide Sites.
+Das Kriterium &quot;Zuletzt angezeigte Elemente&quot;gibt Ergebnisse zurück, die für eine bestimmte [Umgebung](/help/administrating-target/hosts.md) spezifisch sind. Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die jeweiligen Elemente der entsprechenden Umgebung an. Wenn zwei Sites in derselben Umgebung enthalten sind und ein Besucher zwischen ihnen wechselt, erhält er die kürzlich angezeigten Elemente für beide Sites.
 
 >[!NOTE]
 >
->You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+>Sie können die Kriterien [!UICONTROL Zuletzt angezeigte Elemente] nicht für Reserveempfehlungen verwenden.
 
 „Kürzlich angezeigte Elemente/Medien“ kann so gefiltert werden, dass nur Elemente mit einem bestimmten Attribut angezeigt werden.
 
@@ -252,7 +252,7 @@ In einer multinationalen Firma mit mehreren Unternehmen zeigt möglicherweise ei
 
 >[!NOTE]
 >
->[!UICONTROL Bei kürzlich angezeigten Elementen] werden sowohl die globalen Einstellungen als auch die ausgewählte Sammlungseinstellung für die Aktivität berücksichtigt. If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
+>[!UICONTROL Bei kürzlich angezeigten ] Elementen werden sowohl globale Einstellungen als auch die ausgewählte Sammlungseinstellung für die Aktivität ausgeschlossen. Wenn ein Element durch einen globalen Ausschluss ausgeschlossen wird oder nicht in der ausgewählten Sammlung enthalten ist, wird es nicht angezeigt. Bei Verwendung des Kriteriums [!UICONTROL Zuletzt angezeigte Elemente] sollte daher generell die Einstellung &quot;Alle Sammlungen&quot;verwendet werden.
 
 ## Empfehlungslogik
 
@@ -268,7 +268,7 @@ Wenn Sie Elemente/Medien mit ähnlichen Attributen auswählen, haben Sie die Mö
 
 Die Verwendung der Ähnlichkeit von Inhalten zum Generieren von Empfehlungen ist besonders wirksam für neue Artikel, die in Empfehlungen mit Personen, die dies angesehen haben, sahen dies an, und anderer Logik, die auf dem bisherigen Verhalten basiert, nicht angezeigt werden. Anhand der Ähnlichkeit von Inhalten können sinnvolle Empfehlungen für neue Benutzer erstellt werden, für die noch keine historischen Daten oder Einkäufe verzeichnet wurden.
 
-Weitere Informationen finden Sie unter [Ähnlichkeit](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)von Inhalten.
+Weitere Informationen finden Sie unter [Ähnlichkeit von Inhalten](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
@@ -359,7 +359,7 @@ Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
 Zeigt die Artikel an, die in den am häufigsten abgeschlossenen Bestellungen enthalten sind. Wenn derselbe Artikel in einer Bestellung mehrmals bestellt wurde, zählt dies als eine Bestellung.
 
-Mit dieser Logik können Sie Empfehlungen für Artikel mit Top-Verkaufs auf Ihrer Site erstellen, um die Umrechnung und den Umsatz zu steigern. Diese Logik eignet sich besonders für erstmalige Besucher Ihrer Site.
+Mit dieser Logik können Sie Empfehlungen für Artikel mit Topverkäufe auf Ihrer Site erstellen, um die Umrechnung und den Umsatz zu steigern. Diese Logik eignet sich besonders für erstmalige Besucher Ihrer Site.
 
 Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
