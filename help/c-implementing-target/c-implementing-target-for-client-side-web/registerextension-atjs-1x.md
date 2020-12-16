@@ -45,7 +45,7 @@ Weitere Informationen und Beispiele zur Verwendung von `registerExtension` finde
 | globalMboxAutoCreate | Boolesch | Zeigt an, ob die automatische Erstellung aktiviert oder deaktiviert ist. |
 | Zeitüberschreitung | Nummer | Zeitüberschreitung der Abfrage |
 
-## Methoden für Logger-Module  {#section_10AF62B49AEF48F981E950D26E176138}
+## Methoden für Logger-Module   {#section_10AF62B49AEF48F981E950D26E176138}
 
 | Schlüssel | Typ | Beschreibung |
 |--- |--- |--- |
