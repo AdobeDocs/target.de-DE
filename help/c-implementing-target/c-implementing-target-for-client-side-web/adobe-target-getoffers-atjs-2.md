@@ -12,7 +12,7 @@ ht-degree: 92%
 ---
 
 
-# adobe.target.getOffers(options) - at.js 2.x
+# adobe.Zielgruppe.getOffers(options) - at.js 2.x
 
 Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mboxes übergeben. Darüber hinaus können mehrere Angebote für alle Ansichten in aktiven Aktivitäten abgerufen werden.
 
@@ -30,7 +30,7 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 
 >[!NOTE]
 >
->Informationen zu den zulässigen Typen für alle unten aufgeführten Felder finden Sie in der Dokumentation [zur](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) Versand-API.
+>Informationen zu den zulässigen Typen für alle unten aufgeführten Felder finden Sie in der [Versand-API-Dokumentation](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API).
 
 | Feldname | Erforderlich? | Einschränkungen | Beschreibung |
 | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ adobe.target.getOffers({
 }
 ```
 
-Die Nutzlast kann dann über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)an Adobe Analytics weitergeleitet werden.
+Die Nutzlast kann dann über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) an Adobe Analytics weitergeleitet werden.
 
 ## Daten aus mehreren Mboxes über getOffers() und applyOffers() abrufen und rendern {#multiple}
 
