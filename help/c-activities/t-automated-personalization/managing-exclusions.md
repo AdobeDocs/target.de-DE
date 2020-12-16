@@ -99,7 +99,7 @@ Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Ers
 
 **So schließen Sie Standardinhalt mit Visual Experience Composer (VEC) aus:**
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
+1. Wählen Sie beim Erstellen oder Bearbeiten einer AP-Aktivität](/help/c-activities/t-automated-personalization/create-ap-activity.md) den zu ersetzenden Inhalt aus und klicken Sie auf **[!UICONTROL Ändern Sie den Text/HTML]**, **[!UICONTROL Ändern Sie das Bild]** oder **[!UICONTROL Ändern der Hintergrundfarbe]**.[
 1. Erstellen Sie im Dialogfeld Ihren neuen Inhalt und deaktivieren Sie **Einbeziehen** rechts neben dem Standardinhalt (oder deaktivieren Sie das Standardbild/-video auf dem Bildschirm „Inhalt auswählen“).
 
    Je nach Inhalts-/Angebotstyp befindet sich das Kontrollkästchen [!UICONTROL Einbeziehen] an einer etwas anderen Position.
