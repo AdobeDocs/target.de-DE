@@ -24,14 +24,14 @@ Weitere Informationen finden Sie in der [Dokumentation der Adobe Experience Clou
 
 Die folgenden Videos führen Sie Schritt für Schritt durch den Debugging-Prozess:
 
-### Hinzufügen der Adobe Experience Cloud-Debugger-Erweiterung  ![Übersichtskennzeichnung](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
+### Hinzufügen der Adobe Experience Cloud-Debugger-Erweiterung   ![Übersichtskennzeichnung](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Basic Target Debugging Using the Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### Grundlegender Debugging von Zielgruppen mit dem Adobe Experience Cloud Debugger ![Kennzeichen ](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Abzeichen ![für Mbox-Ablaufverfolgungsübersicht](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Mbox Trace ![Abzeichen &quot;Überblick&quot;](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/)
