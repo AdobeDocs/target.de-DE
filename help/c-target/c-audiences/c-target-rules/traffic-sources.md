@@ -43,7 +43,7 @@ Sie können mehrere Traffic-Quellen kombinieren, um eine komplexe Targeting-Rege
 
 Sie können Benutzer, die durch eine bestimmte Suchmaschine oder eine bestimmte Landingpage auf Ihre Site verwiesen werden, als Ziel auswählen.
 
-## Schulungsvideo: Erstellen von Zielgruppen ![Übersichtskennzeichnung](/help/assets/overview.png)
+## Schulungsvideo: Erstellen von Zielgruppen  ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
