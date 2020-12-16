@@ -28,7 +28,7 @@ Zu einem Treffer mit partiellen Daten kommt es, wenn ein [!DNL Target]-Tag zu Be
 
 Weitere Informationen finden Sie unter [Minimieren überhöhter Besuchs- und Besucherzahlen in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## In meinen Besuchszahlen gibt es einen starken Anstieg. Woran kann ich erkennen, ob diese aus Treffern mit partiellen Daten resultieren?  {#section_28506672C6224ED18AC74F6A02F6F811}
+## In meinen Besuchszahlen gibt es einen starken Anstieg. Woran kann ich erkennen, ob diese aus Treffern mit partiellen Daten resultieren?   {#section_28506672C6224ED18AC74F6A02F6F811}
 
 Um einen partiellen Datenbericht zu erhalten, wenden Sie sich an die [Adobe-Kundenunterstützung](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). In der Benutzeroberfläche von [!DNL Analytics] ist diese Information nicht angegeben.
 
@@ -38,7 +38,7 @@ Treffer mit partiellen Daten resultieren meist aus einer fehlerhaften Implementi
 
 Mehr darüber erfahren Sie unter „Welche Ursachen gibt es für partielle Daten?“ in  [Minimieren überhöhter Besuchs- und Besucherzahlen in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Ich habe Treffer mit partiellen Daten. Wie kann ich meine Daten bereinigen?  {#section_CBE778A9D07A469E8FF98F68BACC7124}
+## Ich habe Treffer mit partiellen Daten. Wie kann ich meine Daten bereinigen?   {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 Sie können eine virtuelle Report Suite erstellen, um historische partielle Daten aus Ihren Berichten auszuschließen.
 
