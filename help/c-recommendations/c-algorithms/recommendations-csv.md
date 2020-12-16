@@ -18,29 +18,29 @@ Laden Sie eine CSV-Datei hoch, um Empfehlungen anzupassen.
 
 Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien erstellen] zu gelangen. Einige Bildschirmoptionen variieren je nachdem, wie Sie auf den Bildschirm gelangen.
 
-* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!DNL Recommendations]-Aktivitäten zur Verfügung.
-* Wenn Sie eine [!DNL Recommendations] Aktivität mit dem [!UICONTROL Visual Experience Composer] (VEC) erstellen, werden Sie sofort zum Bildschirm &quot;Kriterien  auswählen&quot;geleitet, nachdem Sie ein Element auf Ihrer Seite ausgewählt haben und auf &quot;Mit Recommendations ersetzen&quot;, &quot;Recommendations vor [!UICONTROL einfügen&quot;oder &quot;Recommendations nach]einfügen&quot;klicken. Sie können dann ein verfügbares Kriterium auswählen oder auf Kriterien **[!UICONTROL erstellen]** klicken. Wenn Sie ein neues Kriterium erstellen, haben Sie die Möglichkeit, Ihre Kriterien zur Verwendung mit anderen [!DNL Recommendations] Aktivitäten zu speichern. For more information, see [Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* Klicken Sie beim Bearbeiten einer [!DNL Recommendations]Aktivität in ein Feld für die [!UICONTROL Empfehlungsposition] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!DNL Recommendations]-Aktivitäten zu verwenden.
+* Klicken Sie im Bibliotheksbildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!DNL Recommendations]-Aktivitäten zur Verfügung.
+* Wenn Sie eine [!DNL Recommendations]-Aktivität mit dem [!UICONTROL Visual Experience Composer] (VEC) erstellen, werden Sie sofort zum Bildschirm [!UICONTROL Kriterien auswählen, nachdem Sie ein Element auf Ihrer Seite ausgewählt haben und auf [!UICONTROL Ersetzen mit Recommendations], [!UICONTROL Recommendations vor] oder [!UICONTROL einfügen Fügen Sie Recommendations nach] ein. ] Sie können dann ein verfügbares Kriterium auswählen oder auf **[!UICONTROL Kriterien erstellen]** klicken. Wenn Sie ein neues Kriterium erstellen, haben Sie die Möglichkeit, Ihre Kriterien für die Verwendung mit anderen [!DNL Recommendations]-Aktivitäten zu speichern. Weitere Informationen finden Sie unter [Erstellen einer Recommendations-Aktivität](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+* Klicken Sie beim Bearbeiten einer [!DNL Recommendations]Aktivität in ein Feld für die [!UICONTROL Empfehlungsposition] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern]**. Klicken Sie im Bildschirm [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Kriterien erstellen]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!DNL Recommendations]-Aktivitäten zu verwenden.
 
-Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten Methode auf den Bildschirm &quot;Neue Kriterien [!UICONTROL erstellen] &quot;zugreifen: den Bibliotheksbildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** .
+Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten Methode auf den Bildschirm [!UICONTROL Neue Kriterien erstellen] zugreifen: den Bibliotheksbildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
-1. Klicken Sie auf Kriterien **[!UICONTROL erstellen]** > Benutzerspezifische Kriterien **[!UICONTROL hochladen]**.
+1. Klicken Sie auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Benutzerspezifische Kriterien hochladen]**.
 
-1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
+1. Füllen Sie die Informationen im Abschnitt [Grundlegende Informationen](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) aus.
 
 1. Füllen Sie die Informationen im Abschnitt [Datenquelle](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) aus.
 
-1. Fill in the information in the [Content](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) section.
+1. Füllen Sie die Informationen im Abschnitt [Inhalt](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) aus.
 
-1. (Bedingt) Füllen Sie die Informationen im Abschnitt [Ähnlichkeit](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) von Inhalten aus.
+1. (Bedingt) Füllen Sie die Informationen im Abschnitt [Ähnlichkeit des Inhalts](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) aus.
 
 1. (Bedingt) Füllen Sie die Informationen im Abschnitt [Einschlussregeln](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) aus.
 
 1. (Bedingt) Füllen Sie die Informationen im Abschnitt [Attributgewichtung](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) aus.
 
-1. Wählen Sie im Abschnitt **[!UICONTROL CSV]** hochladen den **[!UICONTROL Speicherort]** der CSV-Datei aus.
+1. Wählen Sie im Abschnitt **[!UICONTROL CSV]** hochladen die Option **[!UICONTROL Speicherort]** Ihrer CSV-Datei aus.
 
    ![CSV-Abschnitt hochladen](/help/c-recommendations/c-algorithms/assets/upload-csv.png)
 
@@ -49,7 +49,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
    Es gibt für Orte zwei Optionen:
 
    * **FTP:** Um Ihre CSV-Datei von einem FTP-Server hochzuladen, wählen Sie **[!UICONTROL FTP]** aus und geben Sie die erforderlichen Informationen ein. Sie können optional SSL verwenden, wobei die CSV-Datei sicher mittels eines FTPS-Protokolls übermittelt wird.
-   * **URL:** Um Ihre CSV-Datei von einer URL hochzuladen, wählen Sie &quot; **[!UICONTROL URL]**&quot;und geben Sie dann eine Feed-URL ein.
+   * **URL:** Um Ihre CSV-Datei von einer URL hochzuladen, wählen Sie  **[!UICONTROL URL]** und geben Sie dann eine Feed-URL ein.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -67,7 +67,7 @@ Sie können den Upload- und Synchronisationsstatus Ihrer benutzerdefinierten Kri
 
 Der Ablauf für einen fehlerfreien Upload sollte folgendermaßen aussehen: „Geplant“ > „Download der Feed-Datei“ > „Import“ > „Erfolgreich“.
 
-The following are possible error messages you might receive if [!DNL Target] encounters a problem with the upload:
+Die folgenden Fehlermeldungen können Sie erhalten, wenn [!DNL Target] ein Problem beim Hochladen auftritt:
 
 | Fehlermeldung | Details |
 |--- |--- |
@@ -78,7 +78,7 @@ The following are possible error messages you might receive if [!DNL Target] enc
 | Verzeichnis nicht gefunden | Geben Sie ein Verzeichnis an, das auf dem Server existiert. |
 | Datei nicht gefunden | Geben Sie den Namen einer Datei an, die auf dem Server im angegebenen Verzeichnis existiert. |
 
-## Schulungsvideo: Kriterien in Recommendations erstellen (12:33) ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Kriterien in Recommendations erstellen (12:33)  ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen (Details zum Hochladen benutzerdefinierter Kriterien beginnen um 11:43 Uhr):
 
