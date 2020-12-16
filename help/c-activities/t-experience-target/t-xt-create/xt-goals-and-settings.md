@@ -40,7 +40,7 @@ Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit de
 
 Wenn diese Option in Administration nicht aktiviert ist (Standard), geben Sie eine Priorität an: Niedrig, mittel oder hoch.
 
-To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+Klicken Sie zum Aktivieren der Feinabstufungen auf **[!UICONTROL Administration]** > **[!UICONTROL Berichte]** und schalten Sie dann die Option Feinkörnige Prioritäten aktivieren auf die Position &quot;Ein&quot;.
 
 Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest:
 
@@ -57,7 +57,7 @@ Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt
 
 Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
-## Berichterstellungseinstellungen  {#section_13119392051044FBA6387D9B3B1C43CF}
+## Berichterstellungseinstellungen   {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Die folgenden Einstellungen sind verfügbar:
 
