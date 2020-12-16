@@ -22,7 +22,7 @@ Zwischen „at.js“ und mbox.js bestehen einige Unterschiede. In diesem Abschni
 
    Da das DOM bei Seitenladeereignissen für Einzelseiten-Apps nicht gelöscht wird, wie das bei normalen Websites der Fall ist, werden die Aktionen „Element einfügen“ und „Neu anordnen“ möglicherweise mehrere Male angewendet, abhängig davon, wie sich der Besucher in der Einzelseiten-App bewegt.
 
-## Integrationen und Plug-ins  {#section_D92E31170176406AAC7B5005F03D3425}
+## Integrationen und Plug-ins   {#section_D92E31170176406AAC7B5005F03D3425}
 
 Einige Funktionen von [!DNL mbox.js] stehen in [!DNL at.js] nicht zur Verfügung. Interne [„mbox.js“-Objekte und -Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (z. B. `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` und andere) werden in [!DNL at.js] nicht mehr unterstützt (Beispiel: `mboxFactoryDefault`). Dies ist beabsichtigt und soll verhindern, dass [!DNL at.js] für nicht unterstützte Funktionen manipuliert wird, was langfristig dazu führen kann, dass eine Implementierung beschädigt wird und eine Aktualisierung nicht mehr möglich ist. Die zulässigen Methoden werden im Abschnitt zu den APIs in dieser Dokumentation behandelt. Konsequenzen:
 
