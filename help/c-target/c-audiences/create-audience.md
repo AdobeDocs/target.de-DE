@@ -58,7 +58,7 @@ Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome 
 
    Neu erstellte Zielgruppen werden erst nach einigen Sekunden Verarbeitungszeit in der Liste angezeigt. Falls die Zielgruppe nicht sofort in der Liste angezeigt wird, können Sie danach suchen oder die Liste aktualisieren.
 
-## Schulungsvideo: Erstellen von Zielgruppen ![Übersichtskennzeichnung](/help/assets/overview.png)
+## Schulungsvideo: Erstellen von Zielgruppen  ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Erstellung von Zielgruppen.
 
