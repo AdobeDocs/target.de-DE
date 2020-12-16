@@ -14,7 +14,7 @@ ht-degree: 73%
 
 # Ausschließen von Extremwerten
 
-You can exclude extreme values from affecting reports in [!DNL Adobe Target] so a few unusual orders don&#39;t affect your activity results. Ein Beispiel für eine ungewöhnliche Bestellung ist, wenn ein Trainer Ausrüstungen für eine ganze Mannschaft kauft, anstatt dass einzelne Sportler individuell bestellen.
+Sie können Extremwerte von Berichten in [!DNL Adobe Target] ausschließen, sodass einige ungewöhnliche Bestellungen Ihre Aktivitäten nicht beeinflussen. Ein Beispiel für eine ungewöhnliche Bestellung ist, wenn ein Trainer Ausrüstungen für eine ganze Mannschaft kauft, anstatt dass einzelne Sportler individuell bestellen.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Ein Wert wird als extrem betrachtet, wenn in den Daten des letzten Monats mehr a
 
 Bei der Verwendung von RPV ist der Filter für extreme Werte häufig nützlich. RPV kombiniert Konversionsraten und den durchschnittlichen Bestellwert und zeigt häufig die Unbeständigkeit dieser Metriken auf. Wenn Sie RPV verwenden und bestimmen, dass Aufträge nicht als normal verteilt angezeigt werden, sehen Sie normalere Ergebnisse, wenn Sie den Filter für extreme Bestellungen anwenden.
 
-Wenn ein Wert als extrem markiert wurde, wird der Bestellwert durch den durchschnittlichen Bestellwert des Erlebnisses des letzten Monats ersetzt, wobei die Extreme ausgespart werden. The order is also marked as extreme in the [!UICONTROL Order Details] report and in the CSV download for daily results.
+Wenn ein Wert als extrem markiert wurde, wird der Bestellwert durch den durchschnittlichen Bestellwert des Erlebnisses des letzten Monats ersetzt, wobei die Extreme ausgespart werden. Die Bestellung wird auch im Bericht [!UICONTROL Bestelldetails] und im CSV-Download für die täglichen Ergebnisse als extrem markiert.
 
 **So schließen Sie extreme Werte aus Ihren Berichten aus:**
 
@@ -35,5 +35,5 @@ Wenn ein Wert als extrem markiert wurde, wird der Bestellwert durch den durchsch
 
    ![Schrittergebnis](assets/exclude_extreme_values.png)
 
-1. Schieben Sie den Umschalter Extreme Werte **[!UICONTROL ausschließen]** nach Wunsch an die Position &quot;Ein&quot;oder &quot;Aus&quot;.
+1. Schieben Sie den Umschalter **[!UICONTROL Extreme Werte ausschließen]** nach Bedarf an die Position &quot;Ein&quot;oder &quot;Aus&quot;.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
