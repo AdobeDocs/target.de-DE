@@ -37,15 +37,15 @@ Bei Ansicht der Seite [!UICONTROL Code-Angebote] können Sie folgende Ordnerakti
 
 Ordnerinformationen anzeigen.
 
-### Bearbeiten  ![](assets/icon_edit.png)
+### Bearbeiten   ![](assets/icon_edit.png)
 
 Den Ordner bearbeiten.
 
-### Kopieren  ![](assets/icon_copy.png)
+### Kopieren   ![](assets/icon_copy.png)
 
 Den Ordner kopieren.
 
-### Verschieben  ![](assets/icon_move_folder.png)
+### Verschieben   ![](assets/icon_move_folder.png)
 
 Klicken Sie auf das Symbol, navigieren Sie zu dem Standort, an den Sie den Ordner verschieben möchten, und klicken Sie dann auf das Ablagesymbol.
 
@@ -70,7 +70,7 @@ Wählen Sie einen oder mehrere Ordner aus, an dem oder denen Folgendes vorgenomm
 * Verschieben
 * Löschen
 
-### Download  ![](assets/icon_download.png)
+### Download   ![](assets/icon_download.png)
 
 Laden Sie Ordner und Inhalt herunter.
 
@@ -78,6 +78,6 @@ Laden Sie Ordner und Inhalt herunter.
 
 Geben Sie Ordner und Inhalte mit der Adobe Creative Cloud frei.
 
-### Kopieren  ![](assets/icon_copy_content.png)
+### Kopieren   ![](assets/icon_copy_content.png)
 
 Kopieren Sie Ordner und Inhalt.
