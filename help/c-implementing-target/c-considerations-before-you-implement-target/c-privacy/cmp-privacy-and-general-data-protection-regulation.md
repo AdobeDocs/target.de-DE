@@ -73,7 +73,7 @@ In Verbindung mit dem Opt-in gibt es drei Szenarien:
 
 1. **[!DNL Target]-Tag wird vorab über [!DNL Launch] genehmigt (oder die betroffene Person hat zuvor [!DNL Target]genehmigt):** Das [!DNL Target]-Tag wird nicht für die Einwilligung gespeichert und funktioniert wie erwartet.
 1. **Das [!DNL Target]-Tag wird NICHT vorab genehmigt und `bodyHidingEnabled` ist FALSE:** Das [!DNL Target]-Tag wird erst ausgelöst, wenn die Einwilligung vom Kunden eingeholt wurde. Bevor die Einwilligung eingeholt wird, ist nur der Standardinhalt verfügbar. Nachdem die Einwilligung eingeholt wurde, wird [!DNL Target] aufgerufen und der personalisierte Inhalt wird der betroffenen Person (Besucher) zur Verfügung gestellt. Da vor der Einwilligung nur der Standardinhalt verfügbar ist, ist die richtige Strategie entscheidend, wie z. B. eine Splash-Seite, die Seitenteile mit personalisierten Inhalten überdeckt. So wird gewährleistet, dass das Erlebnis für die betroffene Person (Besucher) einheitlich bleibt.
-1. **Das [!DNL Target]-Tag wird NICHT vorab genehmigt und `bodyHidingEnabled` ist TRUE:** Das [!DNL Target]-Tag wird erst ausgelöst, wenn die Einwilligung vom Kunden eingeholt wurde. Bevor die Einwilligung eingeholt wird, ist nur der Standardinhalt verfügbar. Da jedoch `bodyHidingEnabled` auf TRUE festgelegt ist, bestimmt `bodyHiddenStyle`, welcher Inhalt auf der Seite ausgeblendet wird, bis das [!DNL Target]-Tag ausgelöst wird (oder die betroffene Person den Opt-in ablehnt, woraufhin der Standardinhalt angezeigt wird). By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. Die empfohlene Seitenkonfiguration finden Sie unten. So können Sie den gesamten Body der Seite – abgesehen vom Einwilligungsdialog – ausblenden, indem Sie den Seiteninhalt in einen und den Einwilligungsdialog in einen anderen Container einfügen. Mit diesem Setup wird [!DNL Target] so konfiguriert, dass nur der Container mit dem Seiteninhalt ausgeblendet wird. Weitere Informationen zur Konfiguration dieser Einstellungen finden Sie in der [ Launch-Dokumentation](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
+1. **Das [!DNL Target]-Tag wird NICHT vorab genehmigt und `bodyHidingEnabled` ist TRUE:** Das [!DNL Target]-Tag wird erst ausgelöst, wenn die Einwilligung vom Kunden eingeholt wurde. Bevor die Einwilligung eingeholt wird, ist nur der Standardinhalt verfügbar. Da jedoch `bodyHidingEnabled` auf TRUE festgelegt ist, bestimmt `bodyHiddenStyle`, welcher Inhalt auf der Seite ausgeblendet wird, bis das [!DNL Target]-Tag ausgelöst wird (oder die betroffene Person den Opt-in ablehnt, woraufhin der Standardinhalt angezeigt wird). Standardmäßig ist `bodyHiddenStyle` auf `body { opacity:0;}` eingestellt, wodurch das HTML-Body-Tag ausgeblendet wird. Die empfohlene Seitenkonfiguration finden Sie unten. So können Sie den gesamten Body der Seite – abgesehen vom Einwilligungsdialog – ausblenden, indem Sie den Seiteninhalt in einen und den Einwilligungsdialog in einen anderen Container einfügen. Mit diesem Setup wird [!DNL Target] so konfiguriert, dass nur der Container mit dem Seiteninhalt ausgeblendet wird. Weitere Informationen zur Konfiguration dieser Einstellungen finden Sie in der [ Launch-Dokumentation](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
 
    Die empfohlene Seitenkonfiguration für Szenario 3 lautet wie folgt:
 
@@ -143,11 +143,11 @@ Aggregierte oder anonymisierte Daten (beispielsweise Berichtsdaten), in denen ke
 
 Die DSGVO und der CCPA schreiben nicht fest, wann Sie eine Einwilligung einholen müssen, sondern nur, wie Sie diese Einwilligung einholen. Die Einwilligungsstrategie jedes Kunden hängt von den erfassten Daten, den Verwendungspraktiken und den Datenschutzrichtlinien des Kunden ab. Das Einwilligungsmanagement für die DSGVO und den CCPA wird nicht von [!DNL Target] unterstützt und sollte auch nicht darüber durchgeführt werden.
 
-[!DNL Adobe] bietet zurzeit keine Lösung zur Verwaltung von Einwilligungen. Auf dem Markt werden jedoch verschiedene Tools entwickelt, durch die einige der neuen Anforderungen abgedeckt werden. For more information on privacy tools in general, including consent managers, see the [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) on the *International Association of Privacy Professionals (iaap)* website.
+[!DNL Adobe] bietet zurzeit keine Lösung zur Verwaltung von Einwilligungen. Auf dem Markt werden jedoch verschiedene Tools entwickelt, durch die einige der neuen Anforderungen abgedeckt werden. Weitere Informationen zu Datenschutzwerkzeugen im Allgemeinen, einschließlich Zustimmungsmanagern, finden Sie im [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) auf der *International Association of Privacy Professionals (iaap)*-Website.
 
 [!DNL Target] bietet Opt-in-Funktionalität über [!DNL Launch] zur Unterstützung Ihrer Einwilligungsverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Launch] zur Vorab-Genehmigung des [!DNL Target]-Tags. Es wird empfohlen, zur Verwaltung von Opt-ins [!DNL Launch] zu verwenden. In [!DNL Launch] können Sie außerdem präziser steuern, ob ausgewählte Elemente Ihrer Seite vor der [!DNL Target]-Auslösung ausgeblendet werden. Dies ist nützlich für Ihre Strategie zur Einwilligungsverwaltung.
 
-For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Lesen Sie auch den Abschnitt *Adobe Target- und Adobe Launch-Opt-in*.
+Weitere Informationen zu GDPR, CCPA und [!DNL Launch] finden Sie unter [Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Lesen Sie auch den Abschnitt *Adobe Target- und Adobe Launch-Opt-in*.
 
 ### Übermittelt AdobePrivacy.js Informationen an die DSGVO-API? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -200,7 +200,7 @@ Neben den Anforderungen des Central Privacy Service enthält eine gültige DSGVO
 }
 ```
 
-### Welche Arten von Antworten von Target über die DSGVO-API kann ich erwarten?  {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### Welche Arten von Antworten von Target über die DSGVO-API kann ich erwarten?   {#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | Anfragestatus | Target-Antwortnachricht | Szenario |
 |--- |--- |--- |
@@ -292,7 +292,7 @@ Die im Beispiel verwendeten JSON-Felder des Profils werden in der folgenden Tabe
 >
 >Dies ist zur Veranschaulichung eine gekürzte Version des JSON-Codes für ein [!DNL Target]-Profil. Bei zahlreichen Feldern im [!DNL Target]-Profil handelt es sich nicht um Standardfelder. Die zurückgegebenen Daten hängen von den Informationen im jeweiligen Besucherprofil ab.
 
-### Unterstützt Target IP-Verschleierung?  {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Unterstützt Target IP-Verschleierung?   {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] unterstützt IP-Verschleierung, wenn Sie sie im Rahmen Ihrer DSGVO- oder CCPA-Implementierungsstrategie einsetzen. Weitere Informationen finden Sie unter  [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
 
