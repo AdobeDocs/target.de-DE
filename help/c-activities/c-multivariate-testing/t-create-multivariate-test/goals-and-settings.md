@@ -38,9 +38,9 @@ Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche fü
 
 Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
-If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+Wenn diese Option in S[!UICONTROL Administration] > [!UICONTROL Berichte] (Standard) nicht aktiviert ist, geben Sie eine Priorität an: Niedrig, mittel oder hoch.
 
-To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+Klicken Sie zum Aktivieren der Feinabstufungen auf [!UICONTROL Administration] > [!UICONTROL Berichte] und schalten Sie dann die Option Feinkörnige Prioritäten aktivieren auf die Position &quot;Ein&quot;.
 
 Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest:
 
@@ -57,7 +57,7 @@ Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt
 
 Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
-## Berichterstellungseinstellungen  {#section_13119392051044FBA6387D9B3B1C43CF}
+## Berichterstellungseinstellungen   {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Die folgenden Einstellungen sind verfügbar:
 
@@ -154,7 +154,7 @@ Geben Sie sämtliche Informationen ein, die für Sie und Ihre Team-Mitglieder vo
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Aktivität Settings (3:02) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
+### Aktivität Settings (3:02) ![Tutorial badge](/help/assets/tutorial.png)
 
 In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
@@ -166,7 +166,7 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Erstellen von Multivarianz-Tests (9:25) - ![Tutorialzeichen](/help/assets/tutorial.png)
+### Erstellen von Multivarianz-Tests (9:25) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Ziele und Einstellungen werden ab 7:00 erläutert.
 
