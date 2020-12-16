@@ -14,7 +14,7 @@ ht-degree: 53%
 
 # ![PREMIUM](/help/assets/premium.png) Kriterien
 
-Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. Die Kriterien können auf angesagten Trends, dem aktuellen und früheren Verhalten eines Besuchers oder auf ähnlichen Produkten und Inhalten basieren. Sie können mehrere Empfehlungstypen untereinander testen, indem Sie mehrere Kriterien verwenden.
+Kriterien in [!DNL Adobe Target] sind Regeln, die festlegen, welche Besucher oder Inhalte basierend auf einem vordefinierten Satz von Verhaltensweisen empfohlen werden. Die Kriterien können auf angesagten Trends, dem aktuellen und früheren Verhalten eines Besuchers oder auf ähnlichen Produkten und Inhalten basieren. Sie können mehrere Empfehlungstypen untereinander testen, indem Sie mehrere Kriterien verwenden.
 
 Die folgenden Abschnitte erläutern mehr über Kriterienkombinationen und die Empfehlungslogik, die Sie für jeden Schlüssel verwenden können. Klicken Sie auf die Links, um weitere Informationen anzuzeigen.
 
@@ -28,9 +28,9 @@ Beim Erstellen eines Kriteriums wählen Sie eine Branche auf der Grundlage der Z
 | Lead-Generierung/B2B/Finanzdienstleistungen | Konversion ohne Kauf |
 | Medien/Verlagswesen | Interaktion |
 
-Andere Kriterienoptionen ändern sich je nach ausgewählter Branchenzahl. Sie können die Standardbranchenvertikale Einstellung auf der Seite **[!UICONTROL Recommendations > Einstellungen]** festlegen oder die Branche für jedes Kriterium festlegen.
+Andere Kriterienoptionen ändern sich je nach ausgewählter Branchenzahl. Sie können die Standardbranchenvertikale Einstellung auf der Seite **[!UICONTROL Recommendations > Settings]** oder die Branche für jedes Kriterium festlegen.
 
-## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Empfehlungsschlüssel {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 Der ausgewählte Empfehlungsschlüssel bestimmt den Kriterientyp. Es gibt viele Kriterientypen. Sie werden beim Einrichten einer [!DNL Recommendations]-Aktivität als Kriterienkarten dargestellt.
 
@@ -56,29 +56,29 @@ Sie können Empfehlungen auch auf dem Wert eines benutzerspezifischen Profil-Att
 
 Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Benutzer der Warteschlange zuletzt hinzugefügt hat.
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+1. Wählen Sie Ihr benutzerdefiniertes Profil-Attribut aus der Dropdown-Liste [!UICONTROL Empfehlungsschlüssel] aus (z. B. [!UICONTROL Letzte Anzeige hinzugefügt zur Watchlist]).
 
-1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+1. Wählen Sie die [!UICONTROL Empfehlungslogik] aus (z. B. [!UICONTROL Personen, die dies angezeigt haben, sahen dies] an).
 
    ![Neues Kriterium erstellen, Dialogfeld](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
-If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+Wenn Ihr benutzerdefiniertes Profil-Attribut nicht direkt mit einer Entitäts-ID übereinstimmt, müssen Sie [!DNL Recommendations] erklären, wie die Übereinstimmung mit einer Entität erfolgen soll.
 
 Nehmen wir beispielsweise an, Sie möchten die Artikel mit den besten Verkäufen von der Lieblingsmarke eines Benutzers anzeigen.
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
+1. Wählen Sie Ihr benutzerdefiniertes Profil-Attribut aus der Dropdown-Liste [!UICONTROL Empfehlungsschlüssel] (z. B. [!UICONTROL Favoritenmarke]).
 
-1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+1. Wählen Sie die [!UICONTROL Empfehlungslogik] aus, die Sie mit diesem Schlüssel verwenden möchten (z. B. [!UICONTROL Topverkäufe]).
 
    Die Option [!UICONTROL Gruppieren nach individuellem Wert] wird angezeigt.
 
-1. Wählen Sie das Entitätsattribut aus, das dem ausgewählten Schlüssel entspricht. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+1. Wählen Sie das Entitätsattribut aus, das dem ausgewählten Schlüssel entspricht. In diesem Fall stimmt [!UICONTROL Favoritenmarke] mit `entity.brand` überein.
 
-   [!DNL Recommendations] erstellt nun für jede Marke eine &quot;Topverkäufe&quot;-Liste und zeigt dem Benutzer die entsprechende &quot;Topverkäufe&quot;-Liste basierend auf dem im Profil [!UICONTROL Favoritenmarke] gespeicherten Wert an.
+   [!DNL Recommendations] erstellt nun eine &quot;Topverkäufe&quot;-Liste für jede Marke und zeigt dem Benutzer die passende &quot;Topverkäufe&quot;-Liste basierend auf dem im Attribut  [!UICONTROL Favorite ] Brandprofile gespeicherten Wert.
 
    ![Attribut &quot;Topverkäufe&quot;](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
-## Criteria/algorithms {#criteria-algorithms}
+## Kriterien/Algorithmen {#criteria-algorithms}
 
 [!DNL Target Recommendations] verwendet komplexe Algorithmen, um zu ermitteln, wann die Aktionen eines Benutzers den für Ihre Aktivität festgelegten Kriterien entsprechen. Der Empfehlungsschlüssel bestimmt die verfügbaren Optionen der Empfehlungslogik.
 
@@ -101,7 +101,7 @@ Sie können auch zusätzliche bekannte Informationen über einen Besucher verwen
 
 Alle eintägigen Kriterien werden zweimal täglich ausgeführt. Alle einwöchigen und längeren Kriterien werden einmal täglich ausgeführt. Site-Affinitätskriterien werden einmal täglich ausgeführt. Reservekriterien werden zweimal täglich ausgeführt.
 
-## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## Anzeigen von Kriterieninformationen {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 Sie können Kriteriendetails auf einer Popupkarte anzeigen, indem Sie mit dem Mauszeiger über eine Karte fahren und auf das Informationssymbol einer Kriterienkarte klicken, ohne das Kriterium zu öffnen.
 
@@ -117,4 +117,4 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusnutzung]**, um eine L
 
 >[!NOTE]
 >
->Die Funktion [!UICONTROL Algorithmusverwendung] wird derzeit nur für Recommendations-Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für Aktivitäten von A/B-Tests, automatisierter Zuordnung, automatischer Zielgruppe und Erlebnis-Targeting (XT) unterstützt, die [Empfehlungen als Angebot](/help/c-recommendations/recommendations-as-an-offer.md)enthalten.
+>Die Funktion [!UICONTROL Algorithmusverwendung] wird derzeit nur für Recommendations-Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für Aktivitäten von A/B-Tests, automatisierter Zuordnung, automatischer Zielgruppe und Erlebnis-Targeting (XT) unterstützt, die [Recommendations als Angebot](/help/c-recommendations/recommendations-as-an-offer.md) enthalten.
