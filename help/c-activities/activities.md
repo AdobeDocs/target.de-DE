@@ -88,7 +88,7 @@ Beachten Sie folgende Details zur Aktivitätenliste:
 
 Standardmäßig wird die Liste nach dem Datum der letzten Änderung der Aktivität sortiert, vom neuesten Datum absteigend. Es gibt jedoch mehrere Filteroptionen, mit deren Hilfe Sie die Liste anpassen können, sodass die von Ihnen gewünschten Aktivitäten angezeigt werden.
 
-### Suche  {#search-heading}
+### Suche   {#search-heading}
 
 Verwenden Sie das Suchfeld, um nach Aktivitäten zu suchen, die auf Ihre Suchkriterien zutreffen.
 
@@ -170,7 +170,7 @@ Dieser Import wird ausgeführt, wenn die Aktivitätenseite geöffnet wird. Die m
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Aktivität Types (9:03) - ![Überblick](/help/assets/overview.png)
+### Aktivitäten (9:03) ![Übersichtskennzeichen](/help/assets/overview.png)
 
 In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivitätstypen erläutert.
 
@@ -180,7 +180,7 @@ In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Verwalten von Aktivitäten (5:55) Kennzeichen ![&quot;Überblick&quot;](/help/assets/overview.png)
+### Verwalten von Aktivitäten (5:55) ![Kennzeichen &quot;Überblick&quot;](/help/assets/overview.png)
 
 In diesem Video wird erläutert, wie die Aktivitätenliste zur Verwaltung von Aktivitäten eingesetzt werden kann.
 
