@@ -32,7 +32,7 @@ Sobald Sie Mitglied einer oder mehrerer Experience Cloud-Gruppen sind, die Zugri
 
 Sollten Probleme bei der Bereitstellung auftreten, überprüfen Sie, ob A4T richtig bereitgestellt wird.
 
-## Warum werden meine Report Suites nicht geladen?  {#section_6CC8B2B3568A46C499895EB9811FDC2E}
+## Warum werden meine Report Suites nicht geladen?   {#section_6CC8B2B3568A46C499895EB9811FDC2E}
 
 Überprüfen Sie, ob eines der folgenden Probleme auftritt:
 
@@ -40,14 +40,14 @@ Sollten Probleme bei der Bereitstellung auftreten, überprüfen Sie, ob A4T rich
 * Wenn Sie mehrere Analytics-Firmenanmeldungen im selben Experience Cloud-Unternehmen verwenden, stellen Sie sicher, dass das letzte Analytics-Unternehmen, bei dem Sie angemeldet sind, mit dem Target-Konto für die Integration verknüpft ist.
 * Wenn Sie seit mehreren Stunden bei Experience Cloud angemeldet sind, kann in einigen Fällen die Sitzung abgelaufen sein. Melden Sie sich ab und dann wieder an und versuchen Sie es dann erneut.
 
-## Warum sehe ich in Target keine Analytics-Optionen?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Warum sehe ich in Target keine Analytics-Optionen?   {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 Siehe „Warum werden meine Report Suites nicht geladen?“ oben. Dieses Problem hat im Wesentlichen dieselbe Ursache.
 
-## Warum sehe ich in Analytics keine A4T-Berichte?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Warum sehe ich in Analytics keine A4T-Berichte?   {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 Siehe „Warum werden meine Report Suites nicht geladen?“ oben. Dieses Problem hat im Wesentlichen dieselbe Ursache.
 
-## Warum sind meine Berichte in Target leer?  {#section_3837104757464CB488C5A83014A669A1}
+## Warum sind meine Berichte in Target leer?   {#section_3837104757464CB488C5A83014A669A1}
 
 Siehe „Warum werden meine Report Suites nicht geladen?“ oben. Dieses Problem hat im Wesentlichen dieselbe Ursache.
