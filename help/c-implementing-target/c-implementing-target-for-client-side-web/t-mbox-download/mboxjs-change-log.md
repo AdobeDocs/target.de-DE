@@ -58,7 +58,7 @@ Folgende Verbesserungen und Fehlerbehebungen sind in Version 63 von [!DNL mbox.
    * Sind keine Besucher-ID-Cookies von Experience Cloud vorhanden, werden beim erstmaligen Laden der Seite Abfragen asynchron gegen [!DNL /ajax] ausgeführt. Beim zweiten Laden der Seite setzt Target den normalen Fluss ein, da die Besucher-ID-Werte bereits vorhanden sind.
    * Sollten Sie Adobe Analytics als Berichtsquelle für Ihre Aktivität verwenden, müssen Sie bei der Erstellung einer Aktivität und bei der Verwendung von mbox.js Version 61 (oder neuer) oder at.js Version 0.9.1 (oder neuer) keinen Trackingserver angeben. Die Bibliothek von mbox.js oder at.js sendet automatisch Trackingserverwerte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
 
-## „mbox.js“, Version 60  {#section_3BDAB885FA13444A8D35940A4BFF5825}
+## „mbox.js“, Version 60   {#section_3BDAB885FA13444A8D35940A4BFF5825}
 
 **Target-Version:** 16.4.1
 
@@ -99,7 +99,7 @@ Außerdem werden in Version 60 alle Mboxes über einen AJAX-Endpunkt aufgerufen
 
    Bei der Verwendung der Versionen 58, 59 und 60 im Besucher-ID-Service werden Mbox-Aufrufe erst durchgeführt, wenn die Besucher-ID gesetzt wurde (oder bis eine Zeitüberschreitung aufgetreten ist). Dies geschieht beim erstmaligen Laden einer Seite durch einen neuen Besucher.
 
-## „mbox.js“, Version 59  {#section_FF0E70C4C17E402D8374DE428C5D996E}
+## „mbox.js“, Version 59   {#section_FF0E70C4C17E402D8374DE428C5D996E}
 
 **Target-Version:** 16.2.1
 
@@ -112,7 +112,7 @@ Außerdem werden in Version 60 alle Mboxes über einen AJAX-Endpunkt aufgerufen
 
    Statt `display:none`, wie in Version 58, wird zum Ausblenden der Seite `opacity:0` verwendet. Diese Änderung verhindert Fehler, die bei der vorherigen Methode zum Ausblenden von Seiten bei Websites im Responsive-Design auftraten.
 
-## „mbox.js“, Version 58  {#section_5070B0D1C87F4937BB97727923DD36C7}
+## „mbox.js“, Version 58   {#section_5070B0D1C87F4937BB97727923DD36C7}
 
 **Target-Version:** 15.7.1
 
@@ -147,7 +147,7 @@ Folgende Änderungen wurden in dieser Version vorgenommen:
 
 * Die automatisch erstellte Antwort der globalen Mbox für Target Standard verwendet document.write() nicht mehr oder erstellt ein `<div>` Element.
 
-   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. Eine starke QS wird für die Aufrüstung auf diese neue Version empfohlen.
+   Dadurch wird die Anforderung entfernt, dass die Datei mbox.js das letzte Element in `<head>` der Seite sein muss. Eine starke QS wird für die Aufrüstung auf diese neue Version empfohlen.
 
    Diese Änderung kann Änderungen am Verhalten bei der Bereitstellung einiger Angebotstypen verursachen. Die folgenden spezifischen Bedingungen müssen in Betracht gezogen werden:
 
