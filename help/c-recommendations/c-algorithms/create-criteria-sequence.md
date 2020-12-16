@@ -33,23 +33,23 @@ Die Sequenzen Ihrer Kriterien können je nach Seitentyp variieren, wie in den fo
 
 ## Kriteriensequenz erstellen
 
-Kriteriensequenzen werden im Bildschirm &quot;Kriteriensequenz [!UICONTROL erstellen&quot;erstellt] .
+Kriteriensequenzen werden im Bildschirm [!UICONTROL Kriteriensequenz erstellen] erstellt.
 
 Es gibt mehrere Möglichkeiten, um auf den Bildschirm [!UICONTROL Kriteriensequenz erstellen] zu gelangen. Einige Bildschirmoptionen variieren je nachdem, wie Sie auf den Bildschirm gelangen.
 
 * Klicken Sie im Bildschirm der Bibliothek **[!UICONTROL Empfehlungen]** > **[!UICONTROL Kriterien]** auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!UICONTROL Recommendations]-Aktivitäten zur Verfügung.
-* Wenn Sie eine [!UICONTROL Recommendations] -Aktivität erstellen, klicken Sie im Bildschirm &quot;Kriterien auswählen&quot;auf Neu **** erstellen > Kriteriensequenz **[!UICONTROL erstellen]**. Sie haben die Möglichkeit, Ihre neue Kriteriensequenz zu speichern, um sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
-* When you are editing a [!UICONTROL Recommendations] activity, click in a [!UICONTROL Recommendations Location] box on your page, then select **[!UICONTROL Change Criteria]**. Klicken Sie im Bildschirm [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Neu erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
+* Wenn Sie eine [!UICONTROL Recommendations]-Aktivität erstellen, klicken Sie im Bildschirm &quot;Kriterien auswählen&quot;auf **[!UICONTROL Neu erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Sie haben die Möglichkeit, Ihre neue Kriteriensequenz zu speichern, um sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
+* Wenn Sie eine [!UICONTROL Recommendations]-Aktivität bearbeiten, klicken Sie auf ein Feld [!UICONTROL Recommendations-Position] und wählen Sie **[!UICONTROL Change Criteria]**. Klicken Sie im Bildschirm [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Neu erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!UICONTROL Recommendations]-Aktivitäten zu verwenden.
 
-Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten Methode auf den Bildschirm &quot;Kriteriensequenz [!UICONTROL erstellen&quot;zugreifen] : den Bibliotheksbildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** .
+Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten Methode auf den Bildschirm [!UICONTROL Kriteriensequenz erstellen] zugreifen: den Bibliotheksbildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
-1. Klicken Sie auf Kriterien **[!UICONTROL erstellen]** > Kriteriensequenz **[!UICONTROL erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**.
 
    ![](assets/CreateCriteriaSequence.png)
 
-1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
+1. Füllen Sie die Informationen im Abschnitt [Grundlegende Informationen](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) aus.
 
 1. Klicken Sie im Abschnitt **[!UICONTROL Kriteriensequenz]** auf **[!UICONTROL Hinzufügen Kriterien]**.
 
@@ -57,17 +57,17 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
 
    ![hinzufügen](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. Wählen Sie im Bildschirm &quot;Kriterien [!UICONTROL auswählen] &quot;ein Kriterium aus und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+1. Wählen Sie im Bildschirm [!UICONTROL Kriterien auswählen] ein Kriterium aus und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
    Sie können das Suchfeld und die Filter-Dropdownliste verwenden, um die gewünschten Kriterien zu finden.
 
    ![Kriterienauswahl](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
-1. (Optional) Schieben Sie die **[!UICONTROL Begrenzung der Anzahl der zurückgegebenen]** Elemente auf die Position &quot;Ein&quot;und geben Sie dann die Anzahl der Elemente an (zwischen 1 und 50).
+1. (Optional) Schieben Sie den Umschalter **[!UICONTROL Die Anzahl der zurückgegebenen Elemente auf die Position &quot;on&quot;und geben Sie dann die Anzahl der Elemente an (zwischen 1 und 50).]**
 
    ![Anzahl der zurückgegebenen Elemente begrenzen](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Um den Wert der Option &quot;Anzahl der zurückgegebenen [!UICONTROL Elemente] begrenzen&quot;(manchmal auch als &quot;Steuerung auf Ebene der Zeitnischen&quot;bezeichnet) zu verstehen, sollten Sie die folgenden Anwendungsfälle berücksichtigen:
+   Um den Wert der Option [!UICONTROL Anzahl der zurückgegebenen Elemente begrenzen (manchmal auch als &quot;Steuerung auf Slot-Ebene&quot;bezeichnet) zu verstehen, sollten Sie die folgenden Anwendungsfälle berücksichtigen:]
 
    * **Verwendungsfall 1**: Sie möchten eine Mischung aus verschiedenen Arten von Artikeln in einer einzigen Recommendations-Ablage haben. Sie möchten beispielsweise eine Mischung aus Oberbekleidung (Jacken) und Oberteil (Hemden, T-Shirts) zeigen. Um dies zu erreichen, verwenden Sie eine Sammlung für die Aktivität, die alle potenziellen Produkttypen enthält, die Sie in beliebigen Slots in Ihrem Design verwenden möchten. Richten Sie dann Ihre ersten Kriterien mit einem statischen Filter ein, der die Kriterien auf nur Oberbekleidung beschränkt, und richten Sie Ihr zweites Kriterium mit einem statischen Filter ein, der die Kriterien auf nur Oberteile beschränkt. Fügen Sie schließlich beide Kriterien zu einer Kriteriensequenz hinzu und beschränken Sie die ersten Kriterien auf 2 Slots.
 
@@ -79,7 +79,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
 
 1. Fügen Sie Ihrer Sequenz weitere Kriterien hinzu. Sie können einer Sequenz bis zu fünf Kriterien hinzufügen.
 
-1. Aktivieren Sie die Optionen zum [Sichern von Inhalten](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
+1. Aktivieren Sie die Optionen [Backup-Inhalt](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -87,7 +87,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten
 
    Weitere Informationen zu den Empfehlungslogikoptionen finden Sie unter [Kriterien](/help/c-recommendations/c-algorithms/algorithms.md).
 
-## Schulungsvideo: Kriterien in Recommendations erstellen (12:33) ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Kriterien in Recommendations erstellen (12:33)  ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
