@@ -99,7 +99,7 @@ Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. An
 
    ![](assets/estimator2.png)
 
-1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] page.
+1. Klicken Sie auf **[!UICONTROL Weiter]**, um zur Seite [!UICONTROL Targeting] fortzufahren.
 
 1. Wählen Sie die Zielgruppe und den Prozentsatz qualifizierter Besucher aus, die an der Aktivität teilnehmen sollen.
 
@@ -117,7 +117,7 @@ Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. An
 
 1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]**, um die Aktivität zu erstellen.
 
-## Schulungsvideo: Erstellen von Multivarianz-Tests (9:25) - ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen von Multivarianz-Tests (9:25) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test geplant und erstellt wird.
 
