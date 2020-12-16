@@ -20,7 +20,7 @@ Adobe Target bietet Prozesse und Einstellungen, die Ihnen die Verwendung von Tar
 
 Die IP-Adresse eines Besuchers Ihrer Website wird an das Adobe-Datenverarbeitungscenter übergeben. Abhängig von der Netzwerkkonfiguration des Besuchers entspricht die IP-Adresse nicht unbedingt der IP-Adresse des Computers des Besuchers. Bei der IP-Adresse kann es sich z. B. um die externe IP-Adresse einer Network Address Translation-(NAT-)Firewall, eines HTTP-Proxys oder eines Internet-Gateways handeln. Target speichert keine IP-Adressen oder personenbezogenen Informationen des Benutzers. IP-Adressen werden von Target nur während der Dauer der Sitzung verwendet (im Arbeitsspeicher, nie persistent).
 
-## Ersetzen des letzten Oktetts von IP-Adressen {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## Ersetzen des letzten Oktetts der IP-Adressen {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
 Adobe hat eine neue, in das Design integrierte Datenschutzeinstellung entwickelt, die durch Adobe Client Care für Adobe Target aktiviert werden kann. Wenn diese Einstellung aktiviert ist, wird das letzte 8-Bit-Zeichen (das Ende) der IP-Adresse ausgeblendet, sobald die IP-Adresse durch Adobe erfasst wird. Diese Anonymisierung wird vor jeder weiteren Verarbeitung der IP-Adresse durchgeführt, auch vor einer optionalen Geo-Suche für die IP-Adresse.
 
@@ -36,7 +36,7 @@ Zielgruppe empfängt die vollständige IP-Adresse und verschleiert sie (sofern a
 
 >[!NOTE]
 >
->[Wenden Sie sich an den Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) der Adobe, um zu ermitteln, welche Einstellung Sie aktuell verwenden, oder um die IP-Verschleierungsfunktion zu aktivieren.
+>[Wenden Sie sich an Adobe Client ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Caret, um zu ermitteln, welche Einstellung Sie aktuell verwenden, oder um die IP-Verschleierungsfunktion zu aktivieren.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -44,7 +44,7 @@ Wenn Sie das Austauschen des letzten 8-Bit-Zeichens der IP-Adresse aktivieren, k
 
 Wenn IP-Adressen vollständig verschleiert werden, stehen GeoSegmentation und Geo-Targeting nicht zur Verfügung.
 
-## Opt-out link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Ausschluss-Link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 Sie können einen Ausschluss-Link zu Ihren Sites hinzufügen, um Besuchern zu ermöglichen, die Zählung über und Inhaltsbereitstellung auszuschließen.
 
@@ -59,4 +59,4 @@ Auch wenn Sie eine Erstanbieter-Cookie-Implementierung verwenden, erfolgt der Au
 
 ## Vorschriften zur Privatsphäre und zum Datenschutz
 
-See [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) for information about the European Union&#39;s General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
+Informationen zur Datenschutzverordnung (GDPR) der Europäischen Vereinigung, zum kalifornischen Verbraucherschutzgesetz (CCPA) und anderen internationalen Datenschutzvorschriften sowie zu deren Auswirkungen auf Ihr Unternehmen und Adobe Target finden Sie unter [Datenschutzbestimmungen und Datenschutzbestimmungen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
