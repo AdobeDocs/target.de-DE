@@ -26,9 +26,9 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
 ### Analytics for Zielgruppe (A4T)-Metriken für Aktivitäten mit automatisierter Zuordnung und automatischer Zielgruppe
 
-In der [!DNL Target] Benutzeroberfläche gibt es derzeit ein bekanntes Problem, bei dem Benutzer nicht unterstützte Interaktions- und Umsatzmetriken als Hauptzielmetrik für die Optimierung in den Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL automatische Zielgruppe] auswählen können. Konversionsmetriken werden unterstützt. Interaktions- und Umsatzmetriken werden *nicht* unterstützt. Wenn Sie Interaktions- oder Umsatzzielmetriken auswählen, wird kein Optimierungsmodell erstellt (auch wenn die [!DNL Target] Benutzeroberfläche Ihnen derzeit die Auswahl nicht unterstützter Zielmetriken erlaubt).
+In der Benutzeroberfläche [!DNL Target] gibt es derzeit ein bekanntes Problem, mit dem Benutzer nicht unterstützte Interaktions- und Umsatzmetriken als Hauptzielmetrik für die Optimierung in den Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatische Zielgruppe] auswählen können. Konversionsmetriken werden unterstützt. Interaktions- und Umsatzmetriken werden nicht unterstützt. ** Wenn Sie Interaktions- oder Umsatzzielmetriken auswählen, wird kein Optimierungsmodell erstellt (auch wenn die [!DNL Target]-Benutzeroberfläche derzeit die Auswahl nicht unterstützter Zielmetriken ermöglicht).
 
-Eine Liste der unterstützten und nicht unterstützten Zielmetriken finden Sie unter [Unterstützte Zielmetriken](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Erstellen einer Aktivität, die Analytics als Berichte-Quelle* verwendet. (TNT-38409)
+Eine Liste der unterstützten und nicht unterstützten Zielmetriken finden Sie unter [Unterstützte Zielmetriken](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Erstellen Sie eine Aktivität, die Analytics als Berichte-Quelle* verwendet. (TNT-38409)
 
 ### Seitenversand {#page-delivery}
 
@@ -79,7 +79,7 @@ Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
 
 In einer MVT-Aktivität ist der in der Tabelle und im Diagramm angezeigte Gewinner nicht konsistent, wenn Sie die Metriken prüfen. Dieses Phänomen tritt auf, wenn ein Benutzer von der Zusammenfassungs- zur Diagrammansicht und wieder zurück zur Zusammenfassungsansicht wechselt, eine Metrik ändert und dann zur Diagrammansicht wechselt. Wenn dieses Problem auftritt, wird in der Zusammenfassungsansicht immer der korrekte Gewinner angezeigt. Wenn der Benutzer die Diagrammansicht nie zwischen Zusammenfassungsansichten wechselt, wird in der Diagrammansicht der korrekte Gewinner angezeigt.
 
-### at.js  {#atjs}
+### at.js   {#atjs}
 
 Bekannte Probleme mit at.js:
 
@@ -113,7 +113,7 @@ Wenn eine Erfolgsmetrik bei jeder Impression erhöht werden soll, zählt Target 
 
 ### Analytics for Target (A4T)
 
-Wenden Sie bei Verwendung von Impressionen und Konversionen der Zielgruppe in Analysis Workspace das Attribution IQ-Modell &quot;Gleich Touch&quot;auf die Metriken an, um eine genaue Zählung sicherzustellen. Um ein [nicht standardmäßiges Zuordnungsmodell](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)anzuwenden, klicken Sie mit der rechten Maustaste auf die Metrik, um die Spalteneinstellungen zu **ändern. Aktivieren Sie &quot;Nicht standardmäßiges Zuordnungsmodell verwenden&quot;> &quot;Gleiches Touch-Modell**&quot;auswählen. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
+Wenden Sie bei Verwendung von Impressionen und Konversionen der Zielgruppe in Analysis Workspace das Attribution IQ-Modell &quot;Gleich Touch&quot;auf die Metriken an, um eine genaue Zählung sicherzustellen. Um ein [Nicht-Standard-Zuordnungsmodell](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html) anzuwenden, klicken Sie mit der rechten Maustaste auf die Metrik, um **Spalteneinstellungen ändern > Nicht standardmäßiges Zuordnungsmodell verwenden zu aktivieren > Gleiches Touch-Modell** auszuwählen. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
 
 Alle aktuellen Analytics-Pakete können dieses Modell mit Attribution IQ hinzufügen. Wenn Sie keinen Zugriff auf Attribution IQ haben, verlassen Sie sich bitte auf A4T-Daten in Reports &amp; Analysen.
 
@@ -129,7 +129,7 @@ Am 10. Mai 2020 haben wir unsere GEO-Provider-Dateien aktualisiert, die einige I
 
 Berichte, die als .csv-Dateien zum Herunterladen generiert wurden, sind inkonsistent, wenn die Aktivität mehr als eine Metrik verwendet. Der herunterladbare Bericht wird nur auf der Grundlage der Berichtseinstellungen erstellt und berücksichtigt denselben Wert für alle anderen verwendeten Metriken.
 
-Die Quelle der Wahrheit ist immer der angezeigte Bericht in der [!DNL Target] Benutzeroberfläche.
+Die Quelle der Wahrheit ist immer der angezeigte Bericht in der [!DNL Target]-Benutzeroberfläche.
 
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
@@ -145,18 +145,18 @@ Dies wurde in der Version Target Standard/Premium 20.10.1 behoben.
 
 Die folgenden Probleme im Zusammenhang mit A4T wurden behoben:
 
-* Ein Problem, das A4T-Aktivitäten mithilfe einer [!DNL Analytics] Zielmetrik beeinträchtigte, die dazu führte, dass A4T-Berichte eine unerwartete Traffic-Aufspaltung oder künstlich überhöhte Konversionen anzeigten.
+* Ein Problem, das A4T-Aktivitäten mithilfe einer [!DNL Analytics]-Zielmetrik beeinträchtigte, die dazu führte, dass A4T-Berichte eine unerwartete Traffic-Aufspaltung oder künstlich überhöhte Konversionen anzeigten.
 
    Dieses Problem hatte Auswirkungen auf den A4T-Berichte unter folgenden Bedingungen:
 
    * Die Aktivität wurde zwischen dem 15. September und dem 5. November 2020 (4.00 Uhr PST) erstellt oder gespeichert und
-   * Für die Aktivität wurde eine [!DNL Analytics] Metrik als Zielmetrik ausgewählt.
+   * Für die Aktivität wurde eine [!DNL Analytics]-Metrik als Zielmetrik ausgewählt.
 
    [!DNL Target] Traffic während dieser Zeit korrekt aufgeteilt. Eine Aufteilung der Aktivität auf 50/50 könnte jedoch beispielsweise als Aufschlüsselung auf 90/10 in A4T-Berichte erscheinen.
 
    Bei betroffenen Aktivitäten ist die richtige Traffic-Aufteilung für erstmalige Besucher nach dem 5. November (4.00 Uhr PST) sichtbar. Neue Aktivitäten, die nach dieser Zeit erstellt oder gespeichert wurden, melden die Traffic-Aufschlüsselung korrekt.
 
-* Ein Problem, das A4T-Aktivitäten mithilfe einer [!DNL Target] Zielmetrik beeinträchtigte, die dazu führte, dass A4T-Berichte niedrige oder keine Konversionen meldeten.
+* Ein Problem, das A4T-Aktivitäten mit einer [!DNL Target]-Zielmetrik beeinträchtigte, die dazu führte, dass A4T-Berichte niedrige oder keine Konversionen meldeten.
 
    >[!NOTE]
    >
@@ -165,20 +165,20 @@ Die folgenden Probleme im Zusammenhang mit A4T wurden behoben:
    Dieses Problem hatte Auswirkungen auf den A4T-Berichte unter folgenden Bedingungen:
 
    * Die A4T-Aktivität war vom 22. September bis 11. November 2020 (14.30 Uhr PST) live und
-   * In der Aktivität wurde eine [!DNL Target] Metrik als Zielmetrik ausgewählt und
-   * Wenn ein Besucher das Zielelement für die Aktivität erreicht hat (z. B. [!UICONTROL auf ein Ereignis]geklickt), gab es auch eine niedrigere Priorität, die nicht mit A4T-Aktivitäten übereinstimmte, die mit dem Konversions-Ereignis übereinstimmte. Dies kann vorkommen, wenn die Nicht-A4T-Aktivität entweder mit derselben Metrik wie die A4T-Aktivität konfiguriert wurde oder mit der Metrik &quot;beliebige mbox&quot;konfiguriert wurde.
+   * Für die Aktivität wurde eine [!DNL Target]-Metrik als Zielmetrik ausgewählt und
+   * Wenn ein Besucher das Ziel-Ereignis für die Aktivität (z. [!UICONTROL Klicken Sie auf ein Element]). Es gab auch eine Aktivität mit niedrigerer Priorität, die nicht zu A4T gehört und mit dem Konversions-Ereignis übereinstimmte. Dies kann vorkommen, wenn die Nicht-A4T-Aktivität entweder mit derselben Metrik wie die A4T-Aktivität konfiguriert wurde oder mit der Metrik &quot;beliebige mbox&quot;konfiguriert wurde.
 
    Dieses Problem wirkte sich auf den Berichte von A4T-Aktivitäten aus, die zwischen dem 22. September und dem 11. November 2020 (14.30 Uhr PST) live waren. Berichte für betroffene A4T-Aktivitäten zeigen Konversionen außerhalb dieses Datumsbereichs korrekt an. Berichte für Nicht-A4T-Aktivitäten wurde nicht beeinträchtigt.
 
-Wenn Sie weitere Fragen haben, wenden Sie sich an Ihren Kundenbetreuer (Customer Success Manager, CSM) oder an die [Adobe Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
+Wenn Sie weitere Fragen haben, wenden Sie sich an Ihren Kundenbetreuer (Customer Success Manager, CSM) oder [Adobe Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
 
 ### Berichte für die automatische Zielgruppe {#at-metrics}
 
-Es wurde ein Problem behoben, durch das der Berichte der [!DNL Adobe Target Premium] automatischen Zielgruppe [!UICONTROL von] Benutzern ab 15. September 2014:30 Uhr beeinträchtigt wurde. (PDT) bis 6. Oktober, 9.25 Uhr (PDT). Bei der Anzeige von Berichten für die betroffenen Konversionsmetriken (die entweder mit der Option &quot;[!UICONTROL Angezeigte Seite]&quot;oder &quot;[!UICONTROL Auf mbox]geklickt&quot;konfiguriert wurden) werden die Konversionsraten falsch gemeldet. Es ist derzeit kein Problem mit dem Versand bekannt.
+Es wurde ein Problem behoben, das den Berichte [!DNL Adobe Target Premium] users[!UICONTROL Auto-Zielgruppe] ab 15. September 2009 um 14:30 Uhr beeinträchtigte. (PDT) bis 6. Oktober, 9.25 Uhr (PDT). Bei der Anzeige von Berichten für die betroffenen Konversionsmetriken (die entweder mit der Option &quot;[!UICONTROL Angezeigte Seite]&quot;oder &quot;[!UICONTROL Auf mbox] geklickt&quot;konfiguriert wurden) werden die Konversionsraten fälschlicherweise gemeldet. Es ist derzeit kein Problem mit dem Versand bekannt.
 
 So synchronisieren und korrigieren Sie Ihren Berichte:
 
-1. Kopieren Sie die betroffenen Aktivitäten für die [!UICONTROL automatische Zielgruppe] und speichern Sie sie.
+1. Kopieren Sie die betroffenen Aktivitäten [!UICONTROL Auto-Zielgruppe] und speichern Sie sie.
 1. Aktivieren Sie die neu gespeicherten Aktivitäten (sofern die betroffenen Aktivitäten live geschaltet wurden).
 1. Löschen Sie die ursprünglichen (betroffenen) Aktivitäten.
 
@@ -198,15 +198,15 @@ Wenn die Konversionszählung auf inkrementieren &quot;Bei jedem Impression:&quot
 * Audience: &quot;Alle qualifizierten Besucher&quot;für Konvertierungen auf Besucher-Ebene werden nicht jedes Mal korrekt inkrementiert, sondern nur einmal. Dies ist nicht das erwartete Verhalten.
 * Audience: &quot;Neue Besucher&quot;für Konversionen auf Besucher-Ebene werden jedes Mal erhöht. Dies ist das erwartete Verhalten.
 
-Beachten Sie, dass sich dieses Problem nur auf den [!DNL Target] Berichte bezieht. Dies ist kein Problem bei der Verwendung von [!UICONTROL Analytics for Zielgruppe] (A4T)-Berichte.
+Beachten Sie, dass dieses Problem nur mit dem Berichte [!DNL Target] in Zusammenhang steht. Dies ist kein Problem bei der Verwendung des Berichte [!UICONTROL Analytics für Zielgruppe] (A4T).
 
 Dieses Problem wurde behoben.
 
 ### Seiten, die nicht im Visual Experience Composer (VEC) oder Enhanced Experience Composer (EEC) geladen werden, wenn Google Chrome Version 80+ verwendet wird
 
-Dieses bekannte Problem bezieht sich auf die Entscheidung von Google, das Standardverhalten von Cookies ohne SameSite-Attribut zu ändern, beginnend mit Chrome Version 80. Vor der Änderung in Chrome wurden alle Cookies ohne das Attribut SameSite auf &quot;SameSite=None&quot;und jetzt standardmäßig auf &quot;SameSite=Lax&quot;gesetzt. Dadurch wird die Art und Weise geändert, wie Cookies bei GET- und POST-Anforderungen gesendet werden. Siehe [Gleiche Site-Aktualisierungen](https://www.chromium.org/updates/same-site).
+Dieses bekannte Problem bezieht sich auf die Entscheidung von Google, das Standardverhalten von Cookies ohne SameSite-Attribut zu ändern, beginnend mit Chrome Version 80. Vor der Änderung in Chrome wurden alle Cookies ohne das Attribut SameSite auf &quot;SameSite=None&quot;und jetzt standardmäßig auf &quot;SameSite=Lax&quot;gesetzt. Dadurch wird die Art und Weise geändert, wie Cookies bei GET- und POST-Anforderungen gesendet werden. Siehe [Gleiche Site-Updates](https://www.chromium.org/updates/same-site).
 
-Weitere Informationen und eine Fehlerbehebung finden Sie unter &quot;Wie wirken sich die kürzlich angekündigten Google Chrome SameSite-Cookie-Durchsetzungsrichtlinien auf VEC und EEC aus?&quot; in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+Weitere Informationen und eine Fehlerbehebung finden Sie unter &quot;Wie wirken sich die kürzlich angekündigten Google Chrome SameSite-Cookie-Durchsetzungsrichtlinien auf VEC und EEC aus?&quot; in [Fehlerbehebung bei Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### Ein Diagrammbericht für eine automatische Targeting-Aktivität kann nicht gerendert werden, wenn ein benutzerdefiniertes Erlebnis als Kontrolle verwendet wird.
 
@@ -222,7 +222,7 @@ Die mbox.js-Bibliothek unterstützt keine clientseitigen Vorlagensprachen wie Ha
 
 ### Implementierung: Globale Mbox automatisch erstellen
 
-On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
+Auf der Registerkarte Implementierung ([!UICONTROL Administration > Implementierung]) lautet das Feld [!UICONTROL Globale Mbox Automatische Erstellung] für einen neu bereitgestellten Mieter standardmäßig &quot;false&quot;.
 
 Beim ersten Herunterladen von mbox.js nach der Bereitstellung ist das Feld [!UICONTROL Globale Mbox automatisch erstellen] in der heruntergeladenen Datei mbox.js und im [!DNL Target]-Backend auf „false“ festgelegt. Es wird jedoch weiterhin als „false“ auf der Seite [!UICONTROL Implementierung] der Benutzeroberfläche angezeigt, bis die Seite aktualisiert wird (nach dem Aktualisieren der Seite lautet der Status „true“).
 
@@ -236,7 +236,7 @@ Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Ange
 
 Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. Vom 19. Dezember 2019 bis zum 23. April 2020 trat bei einem anderen Server dasselbe Problem auf. Dieses Problem betraf nicht alle Zielgruppen- oder Zielgruppen-Server.
 
-Sie wurden *nicht* betroffen, wenn:
+Sie waren nicht betroffen, wenn:**
 
 * Ihre Implementierung der Zielgruppe verwendet verschiedene Server.
 * Extreme Bestellungen wurden in Ihren Berichten nicht ausgeschlossen.
@@ -244,7 +244,7 @@ Sie wurden *nicht* betroffen, wenn:
 * Ihre Zielgruppe-Aktivitäten verwenden Analytics für die Zielgruppe (A4T).
 * Sie befinden sich in der Region Asien-Pazifik (APAC).
 
-Wenden Sie sich an den [Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB), um festzustellen, ob dieses Problem Ihren Zielgruppe-Berichte beeinflusst hat.
+Um festzustellen, ob dieses Problem den Berichte Ihrer Zielgruppe beeinflusst hat, wenden Sie sich an [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Recommendations
 
