@@ -42,7 +42,7 @@ Erstellen Sie eine Sammlung, um die Produkte oder Inhalte zu organisieren, die S
 
    ![Sammlungsliste](assets/collections_list.png)
 
-   Auf der Seite &quot; [!UICONTROL Sammlungen] &quot;wird eine Liste der vorhandenen Sammlungen angezeigt. Neue Sammlungen erstellen Sie, indem Sie auf die Schaltfläche &quot;Sammlung [!UICONTROL erstellen&quot;klicken] . Sie können vorhandene Sammlungen auch bearbeiten, kopieren und löschen, indem Sie den Mauszeiger über die gewünschte Sammlung bewegen und auf das gewünschte Symbol klicken.
+   Auf der Seite [!UICONTROL Sammlungen] wird eine Liste der vorhandenen Sammlungen angezeigt. Neue Sammlungen erstellen Sie, indem Sie auf die Schaltfläche [!UICONTROL Sammlung erstellen] klicken. Sie können vorhandene Sammlungen auch bearbeiten, kopieren und löschen, indem Sie den Mauszeiger über die gewünschte Sammlung bewegen und auf das gewünschte Symbol klicken.
 
    ![Mauszeiger-Symbole: bearbeiten, kopieren und löschen](/help/c-recommendations/c-products/assets/hover-icons.png)
 
@@ -92,17 +92,17 @@ Beachten Sie, dass Sammlungen für das gesamte Konto verfügbar sind. Achten Sie
 
 1. Erstellen Sie eine Sammlung mit einer der oben genannten Methoden.
 
-1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und [erstellen Sie eine neue Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) -Aktivität oder bearbeiten Sie eine vorhandene Aktivität.
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und [erstellen Sie eine neue Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)-Aktivität oder bearbeiten Sie eine vorhandene Aktivität.
 
-1. Nachdem Sie ein Kriterium und einen Entwurf ausgewählt haben, wird die Seite &quot; [!UICONTROL Optionen] &quot;angezeigt, auf der Sie die gewünschte Sammlung auswählen.
+1. Nachdem Sie ein Kriterium und einen Entwurf ausgewählt haben, wird die Seite [!UICONTROL Optionen] angezeigt, auf der Sie die gewünschte Sammlung auswählen.
 
    ![Sammlungsoption auswählen](/help/c-recommendations/c-products/assets/choose-collection.png)
 
-1. (Bedingt) Wenn Sie eine vorhandene Sammlungseinstellung ändern möchten, klicken Sie auf der Seite &quot; **[!UICONTROL Erlebnisse]** &quot;(Schritt 2 des geleiteten dreiteiligen Workflows) auf den Ort, an dem Sie Empfehlungen platziert haben, und klicken Sie auf Sammlung **[!UICONTROL ändern]**, und wählen Sie dann die gewünschte Sammlung aus.
+1. (Bedingt) Um eine vorhandene Sammlungseinstellung zu ändern, klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (Schritt 2 des dreiteiligen geleiteten Workflows) auf einen Ort, an dem Sie Empfehlungen platziert haben, und klicken Sie auf **[!UICONTROL Sammlung ändern]** und wählen Sie dann die gewünschte Sammlung aus.
 
    ![Sammlungsoption ändern](/help/c-recommendations/c-products/assets/change-collection.png)
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen von Sammlungen und Ausschlüssen in Recommendations (7:05) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
