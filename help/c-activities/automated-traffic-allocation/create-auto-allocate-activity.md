@@ -14,15 +14,15 @@ ht-degree: 61%
 
 # Erstellen einer Aktivität mit automatisierter Zuordnung
 
-Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC), [!DNL Adobe Target] um Ihre [!UICONTROL automatisch zugewiesene] [!UICONTROL A/B-Test] -Aktivität direkt auf einer [!DNL Target]aktivierten Seite zu erstellen und Teile der Seite innerhalb [!DNL Target]zu ändern.
+Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target], um Ihre [!UICONTROL Auto-Allokation] [!UICONTROL A/B-Aktivität direkt auf einer [!DNL Target]-aktivierten Seite zu erstellen und Teile der Seite innerhalb von [!DNL Target] zu ändern.]
 
 >[!NOTE]
 >
->Zusätzlich zur [!UICONTROL Aktivität für die automatisierte Zuordnung] von [!UICONTROL A/B-Tests] (in diesem Artikel besprochen) [!DNL Target] stehen zwei weitere Typen von [!UICONTROL A/B-Test] -Aktivitäten zur Verfügung: [!UICONTROL Manuelle (Standard)] und [!UICONTROL automatische Zielgruppe].
+>Zusätzlich zur Aktivität [!UICONTROL Automatische Zuordnung] [!UICONTROL A/B-Test] (in diesem Artikel besprochen) stellt [!DNL Target] zwei weitere Typen von [!UICONTROL A/B-Test]-Aktivitäten bereit: [!UICONTROL Manuell (Standard)] und [!UICONTROL Automatische Zielgruppe].
 >
->Siehe [Typen von A/B-Testing-Aktivitäten](/help/c-activities/t-test-ab/test-ab.md#types) in der Übersicht über *A/B-Tests*.
+>Siehe [Typen von A/B-Testing-Aktivitäten](/help/c-activities/t-test-ab/test-ab.md#types) in *A/B-Testübersicht*.
 
-So erstellen Sie eine [!UICONTROL Aktivität mit automatisierter Zuordnung] :
+So erstellen Sie eine [!UICONTROL Aktivität für die automatische Zuordnung]:
 
 1. Klicken Sie in der Liste **[!UICONTROL Aktivitäten]** auf **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL A/B-Test]**.
 
@@ -38,15 +38,15 @@ So erstellen Sie eine [!UICONTROL Aktivität mit automatisierter Zuordnung] :
 
    ![A/B-Test-Aktivität erstellen](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-   If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. Weitere Informationen finden Sie unter [Formularbasierter Experience Composer](/help/c-experiences/form-experience-composer.md).
+   Wenn Sie den [!UICONTROL Form-Based Experience Composer] verwenden möchten, wählen Sie [!UICONTROL Formular]. Weitere Informationen finden Sie unter [Formularbasierter Experience Composer](/help/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
-   >Zusätzlich zum VEC- und [!UICONTROL Form-Based Experience Composer]wird der VEC für Einzelseitenanwendungen [!DNL Target] Angebot. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
+   >Zusätzlich zu VEC und [!UICONTROL Form-Based Experience Composer] wird [!DNL Target] in der Einzelseitenanwendung VEC Angebot. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
    >
    >Informationen zur Problembehebung für den VEC finden Sie unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >Die Option [[!UICONTROL „Arbeitsplatz auswählen“]](/help/administrating-target/c-user-management/property-channel/property-channel.md) in der obigen Abbildung ist eine Funktion von [Target Premium](/help/c-intro/intro.md). Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
+   >Die Option [[!UICONTROL „Arbeitsplatz auswählen“]](/help/administrating-target/c-user-management/property-channel/property-channel.md) in der obigen Abbildung ist eine Funktion von [Target Premium](/help/c-intro/intro.md). Ihre Organisation verfügt über eine Lizenz für [!UICONTROL Target Standard], wenn diese Option nicht angezeigt wird.
 
 1. (Abhängig von Ihrer Lizenz) Wenn Sie [Target Premium-Kunde ](/help/c-intro/intro.md#premium)sind, wählen Sie einen [Arbeitsbereich](/help/administrating-target/c-user-management/property-channel/property-channel.md) aus.
 
@@ -89,9 +89,9 @@ So erstellen Sie eine [!UICONTROL Aktivität mit automatisierter Zuordnung] :
 
    Das Flussdiagramm führt Sie durch die Schritte zur Auswahl der Zielgruppe für die Aktivität und zum Einrichten der Erlebnisse.
 
-1. Klicken Sie im Feld [!UICONTROL Audience] auf das Bearbeitungssymbol (drei vertikale Auslassungspunkte), klicken Sie auf Audience **** ersetzen und [wählen Sie dann die Audience](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) für Ihre Aktivität aus.
+1. Klicken Sie im Feld [!UICONTROL Audience] auf das Bearbeitungssymbol (drei vertikale Auslassungspunkte), klicken Sie auf **[!UICONTROL Audience ersetzen]** und [wählen Sie die Audience](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) für Ihre Aktivität aus.
 
-   By default, the audience is set to [!UICONTROL All Visitors].
+   Standardmäßig ist die Audience auf [!UICONTROL Alle Besucher] eingestellt.
 
 1. Wählen Sie den Prozentsatz qualifizierter Besucher aus, der an der Aktivität teilnehmen soll.
 
@@ -103,32 +103,32 @@ So erstellen Sie eine [!UICONTROL Aktivität mit automatisierter Zuordnung] :
 
    Sie können der gleichen Zielgruppe mehrere Erlebnisse zeigen. Es wird ein Diagramm mit der ausgewählten Zielgruppe und den Erlebnissen, die Sie zur Aktivität hinzugefügt haben, angezeigt.
 
-   Wählen Sie die gewünschte Traffic-Zuordnungsmethode aus. Um eine [!UICONTROL Aktivität für die automatische Zuordnung] zu erstellen, wählen Sie &quot; **[!UICONTROL Automatisierte Zuordnung zu bestem Erlebnis]**&quot;aus.
+   Wählen Sie die gewünschte Traffic-Zuordnungsmethode aus. Um eine [!UICONTROL Aktivität für die automatische Zuordnung] zu erstellen, wählen Sie **[!UICONTROL Automatisches Zuordnen zu bestem Erlebnis]**.
 
    Die drei Arten der Traffic-Zuordnung werden nachfolgend beschrieben:
 
-   * **[!UICONTROL Manuell (Standard)]**: Geben Sie den Prozentsatz der Teilnehmer an, der jedes Erlebnis sehen kann. Sie können den Prozentsatz gleichmäßig auf alle Erlebnisse aufteilen oder für jedes Erlebnis einen höheren oder niedrigeren Prozentsatz festlegen. Die gesamte Anzahl aller Erlebnisse muss 100 % betragen. For more information, see [Create an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
+   * **[!UICONTROL Manuell (Standard)]**: Geben Sie den Prozentsatz der Teilnehmer an, der jedes Erlebnis sehen kann. Sie können den Prozentsatz gleichmäßig auf alle Erlebnisse aufteilen oder für jedes Erlebnis einen höheren oder niedrigeren Prozentsatz festlegen. Die gesamte Anzahl aller Erlebnisse muss 100 % betragen. Weitere Informationen finden Sie unter [A/B-Test erstellen](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
    * **[!UICONTROL Automatisch dem besten Erlebnis zuordnen]**: Die meisten Aktivitätsteilnehmer werden automatisch zu leistungsstärkeren Erlebnissen weitergeleitet. Einige Besucher werden allen Erlebnissen zugeordnet, um die Erforschung von Erlebnissen beizubehalten und Änderungen an Leistungstrends zu erkennen.
 
-   * **[!UICONTROL Automatische Zielgruppe für personalisierte Erlebnisse]**: [!DNL Target] verwendet fortschrittliches maschinelles Lernen, um Inhalte zu personalisieren und Konversionen zu fördern, indem mehrere leistungsstarke, von Marketingexperten definierte Erlebnisse identifiziert werden, und dann den Besuchern das maßgeschneiderte Erlebnis zu bieten, das auf ihren individuellen Profilen und früheren Verhaltensweisen ähnlicher Besucher basiert. For more information, see [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
-   You can also click **[!UICONTROL Add]** to add another experience to the activity.
+   * **[!UICONTROL Automatische Zielgruppe für personalisierte Erlebnisse]**:  [!DNL Target] verwendet fortschrittliches maschinelles Lernen, um Inhalte zu personalisieren und Konversionen zu fördern, indem mehrere leistungsstarke, von Marketingexperten definierte Erlebnisse identifiziert werden, und dann den Besuchern das maßgeschneiderte Erlebnis zu bieten, das auf ihren individuellen Profilen und früheren Verhaltensweisen ähnlicher Besucher basiert. Weitere Informationen finden Sie unter [Automatische Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md).
+   Sie können auch auf **[!UICONTROL Hinzufügen]** klicken, um der Aktivität ein weiteres Erlebnis hinzuzufügen.
 
-1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
+1. Wenn Sie mit Ihrer Audience, Ihren Erlebnisoptionen und den Optionen für die Traffic-Zuordnung zufrieden sind, klicken Sie auf **[!UICONTROL Weiter]**, um zum dritten Schritt des geleiteten Arbeitsablaufs zu wechseln.
 
 1. Legen Sie [Ziele und Einstellungen](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) für die Aktivität fest.
 
    ![A/B-Aktivitätseinstellungen](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]** oder **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]** oder **[!UICONTROL Speichern]**.
 
-After you create the activity, the [!UICONTROL Overview] tab shows information about the activity, including a diagram of your activity.
+Nachdem Sie die Aktivität erstellt haben, werden auf der Registerkarte [!UICONTROL Übersicht] Informationen zur Aktivität einschließlich eines Diagramms Ihrer Aktivität angezeigt.
 
-## Training video: Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen von A/B-Tests (8:36) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten [!DNL Target]-Arbeitsablaufs mit drei Schritten ein A/B-Test erstellt wird.
 
-* Erstellen Sie eine [!UICONTROL A/B-Test] -Aktivität in [!DNL Adobe Target]
+* Erstellen einer [!UICONTROL A/B-Aktivität ] in [!DNL Adobe Target]
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)
