@@ -14,15 +14,15 @@ ht-degree: 64%
 
 # Erstellen eines A/B-Tests
 
-Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create your [!UICONTROL A/B Test] activity directly on a [!DNL Target]-enabled page and to modify portions of the page within [!DNL Target].
+Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target], um Ihre [!UICONTROL A/B-Aktivität] direkt auf einer [!DNL Target]-aktivierten Seite zu erstellen und Teile der Seite innerhalb von [!DNL Target] zu ändern.
 
 >[!NOTE]
 >
->Zusätzlich zur manuellen (Standardeinstellung) [!UICONTROL A/B-Test] -Aktivität (in diesem Abschnitt erläutert) [!DNL Target] stehen zwei weitere Typen von [!UICONTROL A/B-Test] -Aktivitäten zur Verfügung: [!UICONTROL Automatische Zuordnung] und [!UICONTROL automatische Zielgruppe].
+>Zusätzlich zur Aktivität Manueller (Standard) [!UICONTROL A/B-Test] (siehe Abschnitt) stellt [!DNL Target] zwei weitere Typen von [!UICONTROL A/B-Test]-Aktivitäten bereit: [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatische Zielgruppe].
 >
->Siehe [Typen von A/B-Testing-Aktivitäten](/help/c-activities/t-test-ab/test-ab.md#types) in der Übersicht über *A/B-Tests*.
+>Siehe [Typen von A/B-Testing-Aktivitäten](/help/c-activities/t-test-ab/test-ab.md#types) in *A/B-Testübersicht*.
 
-So erstellen Sie eine manuelle [!UICONTROL A/B-Test] -Aktivität:
+So erstellen Sie eine manuelle [!UICONTROL A/B-Aktivität]:
 
 1. Klicken Sie in der Liste **[!UICONTROL Aktivitäten]** auf **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL A/B-Test]**.
 
@@ -38,15 +38,15 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test] -Aktivität:
 
    ![A/B-Test-Aktivität erstellen](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-   If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. Weitere Informationen finden Sie unter [Formularbasierter Experience Composer](/help/c-experiences/form-experience-composer.md).
+   Wenn Sie den [!UICONTROL Form-Based Experience Composer] verwenden möchten, wählen Sie [!UICONTROL Formular]. Weitere Informationen finden Sie unter [Formularbasierter Experience Composer](/help/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
-   >Zusätzlich zum VEC- und [!UICONTROL Form-Based Experience Composer]wird der VEC für Einzelseitenanwendungen [!DNL Target] Angebot. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
+   >Zusätzlich zu VEC und [!UICONTROL Form-Based Experience Composer] wird [!DNL Target] in der Einzelseitenanwendung VEC Angebot. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
    >
    >Informationen zur Problembehebung für den VEC finden Sie unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >Die Option [[!UICONTROL „Arbeitsplatz auswählen“]](/help/administrating-target/c-user-management/property-channel/property-channel.md) in der obigen Abbildung ist eine Funktion von [Target Premium](/help/c-intro/intro.md). Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
+   >Die Option [[!UICONTROL „Arbeitsplatz auswählen“]](/help/administrating-target/c-user-management/property-channel/property-channel.md) in der obigen Abbildung ist eine Funktion von [Target Premium](/help/c-intro/intro.md). Ihre Organisation verfügt über eine Lizenz für [!UICONTROL Target Standard], wenn diese Option nicht angezeigt wird.
 
 1. (Abhängig von Ihrer Lizenz) Wenn Sie [Target Premium-Kunde ](/help/c-intro/intro.md#premium)sind, wählen Sie einen [Arbeitsbereich](/help/administrating-target/c-user-management/property-channel/property-channel.md) aus.
 
@@ -89,9 +89,9 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test] -Aktivität:
 
    Das Flussdiagramm führt Sie durch die Schritte zur Auswahl der Zielgruppe für die Aktivität und zum Einrichten der Erlebnisse.
 
-1. Klicken Sie im Feld [!UICONTROL Audience] auf das Bearbeitungssymbol (drei vertikale Auslassungspunkte), klicken Sie auf Audience **** ersetzen und [wählen Sie dann die Audience](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) für Ihre Aktivität aus.
+1. Klicken Sie im Feld [!UICONTROL Audience] auf das Bearbeitungssymbol (drei vertikale Auslassungspunkte), klicken Sie auf **[!UICONTROL Audience ersetzen]** und [wählen Sie die Audience](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) für Ihre Aktivität aus.
 
-   By default, the audience is set to [!UICONTROL All Visitors].
+   Standardmäßig ist die Audience auf [!UICONTROL Alle Besucher] eingestellt.
 
 1. Wählen Sie den Prozentsatz qualifizierter Besucher aus, der an der Aktivität teilnehmen soll.
 
@@ -109,24 +109,24 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test] -Aktivität:
 
    * **[!UICONTROL Automatisch dem besten Erlebnis zuordnen]**: Die meisten Aktivitätsteilnehmer werden automatisch zu leistungsstärkeren Erlebnissen weitergeleitet. Einige Besucher werden allen Erlebnissen zugeordnet, um die Erforschung von Erlebnissen beizubehalten und Änderungen an Leistungstrends zu erkennen. Siehe [Automatisierte Traffic-Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-   * **[!UICONTROL Automatische Zielgruppe für personalisierte Erlebnisse]**: [!DNL Target] verwendet fortschrittliches maschinelles Lernen, um Inhalte zu personalisieren und Konversionen zu fördern, indem mehrere leistungsstarke, von Marketingexperten definierte Erlebnisse identifiziert werden, und dann den Besuchern das maßgeschneiderte Erlebnis zu bieten, das auf ihren individuellen Profilen und früheren Verhaltensweisen ähnlicher Besucher basiert. For more information, see [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
-   You can also click **[!UICONTROL Add]** to add another experience to the activity.
+   * **[!UICONTROL Automatische Zielgruppe für personalisierte Erlebnisse]**:  [!DNL Target] verwendet fortschrittliches maschinelles Lernen, um Inhalte zu personalisieren und Konversionen zu fördern, indem mehrere leistungsstarke, von Marketingexperten definierte Erlebnisse identifiziert werden, und dann den Besuchern das maßgeschneiderte Erlebnis zu bieten, das auf ihren individuellen Profilen und früheren Verhaltensweisen ähnlicher Besucher basiert. Weitere Informationen finden Sie unter [Automatische Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md).
+   Sie können auch auf **[!UICONTROL Hinzufügen]** klicken, um der Aktivität ein weiteres Erlebnis hinzuzufügen.
 
-1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
+1. Wenn Sie mit Ihrer Audience, Ihren Erlebnisoptionen und den Optionen für die Traffic-Zuordnung zufrieden sind, klicken Sie auf **[!UICONTROL Weiter]**, um zum dritten Schritt des geleiteten Arbeitsablaufs zu wechseln.
 
 1. Legen Sie [Ziele und Einstellungen](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) für die Aktivität fest.
 
    ![A/B-Aktivitätseinstellungen](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]** oder **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]** oder **[!UICONTROL Speichern]**.
 
-After you create the activity, the [!UICONTROL Overview] tab shows information about the activity, including a diagram of your activity.
+Nachdem Sie die Aktivität erstellt haben, werden auf der Registerkarte [!UICONTROL Übersicht] Informationen zur Aktivität einschließlich eines Diagramms Ihrer Aktivität angezeigt.
 
-## Training video: Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen von A/B-Tests (8:36) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten [!DNL Target]-Arbeitsablaufs mit drei Schritten ein A/B-Test erstellt wird.
 
-* Erstellen Sie eine [!UICONTROL A/B-Test] -Aktivität in [!DNL Adobe Target]
+* Erstellen einer [!UICONTROL A/B-Aktivität ] in [!DNL Adobe Target]
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)
