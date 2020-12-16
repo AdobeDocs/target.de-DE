@@ -26,7 +26,7 @@ Der [!UICONTROL Visual Experience Composer] (VEC) bietet eine visuelle Oberfläc
 
    Wenn Sie den Mauszeiger über die Elemente auf Ihrer Seite bewegen, werden diese Elemente hervorgehoben. Alle hervorgehobenen Elemente können mit dem VEC geändert werden. Eine Liste der Aktionen, die für ein Element durchgeführt werden können, um das Erlebnis zu ändern, finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   Wenn Sie eine [!DNL Target]-Anforderung auf der Seite mit [!DNL Target Classic] erstellt haben, wird diese [!DNL Target]-Anforderung als Element mit dem Anforderungsnamen angezeigt und kann wie jedes andere Element geändert werden.
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ Der [!UICONTROL Visual Experience Composer] (VEC) bietet eine visuelle Oberfläc
    >
    >Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Beim Erstellen einer Audience können Sie einen Ort auswählen und Parameter für diesen Ort angeben. Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
+   Beim Erstellen einer Audience können Sie einen Ort auswählen und Parameter für diesen Ort angeben. Wählen Sie unter [!UICONTROL Benutzerdefiniert] (Audience erstellen > Hinzufügen Regel > Benutzerdefiniert) den Speicherort und geben Sie dann die gewünschten Parameter an.
 
    >[!NOTE]
    >
