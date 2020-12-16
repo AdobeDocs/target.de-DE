@@ -14,7 +14,7 @@ ht-degree: 65%
 
 # Classifications – Häufig gestellte Fragen zu A4T{#classifications-a-t-faq}
 
-This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+Dieses Thema enthält Antworten auf häufig gestellte Fragen zu Klassifizierungen und die Verwendung von [!DNL Analytics] als Berichte für [!DNL Target] (A4T).
 
 ## Wie passe ich den Wert post-tnt-action an einen Aktivitätsnamen an, nachdem ich Classifications mithilfe des Classifications Importer heruntergeladen habe? {#section_6045DAC488B248418F430E663C38D001}
 
@@ -24,11 +24,11 @@ Diese Nachschlagedatei ist besonders für Kunden nützlich, die den Clickstream-
 
 Das Zeichenfolgenformat der TNT-Variable lautet `activityID:experienceID:targettype|event`.
 
-* targetType = 0 (control/random) oder 1 (target) für [!UICONTROL Aktivitäten zur automatischen Zuordnung] und [!UICONTROL automatischen Zielgruppe] .
+* targetType = 0 (control/random) oder 1 (target) für [!UICONTROL Auto-Allokation] und [!UICONTROL Auto-Zielgruppe]-Aktivitäten.
 * Erlebnis = 0 steht für den Eintritt in ein Erlebnis.
 * Erlebnis = 1 steht für einen Erlebnisbesuch.
 * Erlebnis = 2 steht für eine Aktivitätsimpression.
 * Ereignis = 3-32766 stellt die Analytics-Erfolgsmetrik-ID dar.
 * Erlebnis = 32767 steht für eine Aktivitätskonversion.
 
-You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). Außerdem können Sie sich an den technischen Support werden, um die Datei als Nachschlagetabelle gemeinsam mit Clickstream-Daten-Feed zu beziehen.
+Sie können die Classification-Datei häufig über die Benutzeroberfläche importieren, indem Sie einen [Browser-Import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) oder einen [FTP-Import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html) verwenden. Außerdem können Sie sich an den technischen Support werden, um die Datei als Nachschlagetabelle gemeinsam mit Clickstream-Daten-Feed zu beziehen.
