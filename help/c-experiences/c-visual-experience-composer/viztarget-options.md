@@ -44,7 +44,7 @@ Die folgenden HTML 5-Tags können verschachtelt sein:
 | --- | --- |
 | `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
 | `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
-| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
+| `<del>` | `<ul>`,  `<ol>`,  `<menu>`,  `<h1-h6>`,  `<p>` |
 | `<label>` | `<p>` |
 
 #### Hintergrundfarbe
@@ -53,11 +53,11 @@ Verwenden Sie den Farbwähler, um eine Hintergrundfarbe auszuwählen oder zu kon
 
 **Hinweis:** Diese Option ist nicht für Elemente verfügbar, wenn ein Hintergrundbild festgelegt ist.
 
-#### Stile  {#styles}
+#### Stile   {#styles}
 
 Verwenden Sie das Bedienfeld [!UICONTROL Stile], um den Wert vorhandener Stile für das ausgewählte Element anzuzeigen oder zu bearbeiten. Sie können auch zusätzliche Formatierungen hinzufügen.
 
-To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
+Um auf das Bedienfeld [!UICONTROL Stile] zuzugreifen, klicken Sie auf ein Seitenelement im VEC und dann auf **[!UICONTROL Bearbeiten]** > **[!UICONTROL Stile]**.
 
 Das Bedienfeld [!UICONTROL Stile] wird rechts im VEC angezeigt. Das Bedienfeld enthält eine Liste der Stile, mit denen Sie das ausgewählte Element bearbeiten oder die Sie zum ausgewählten Element hinzufügen können. Mit einem Echtzeit-CSS-Editor können Sie Änderungen anzeigen und Stile hinzufügen, wenn Sie mit Cascading Style Sheets (CSS) gut vertraut sind oder Code von Ihrem Entwickler erhalten.
 
@@ -114,7 +114,7 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    Für den Rand werden positive und negative Werte unterstützt.
 
-   Target unterstützt auch andere Größeneinheiten wie rem, pc, em usw. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target unterstützt auch andere Größeneinheiten wie rem, pc, em usw. Weitere Informationen zu diesen Einheiten finden Sie unter [CSS-Tipps und Tricks für Webstile](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Umrandung**
 
@@ -124,7 +124,7 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    Umrandungsdicken von 0 aufwärts werden unterstützt.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   Zielgruppe unterstützt auch [andere Größen wie z.B. rem, pc, em usw.](https://www.w3.org/Style/Examples/007/units.en.html)
 
 * **Rahmen**
 
@@ -138,11 +138,11 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    Rahmendicken von 0 aufwärts werden unterstützt.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   Zielgruppe unterstützt auch [andere Größen wie z.B. rem, pc, em usw.](https://www.w3.org/Style/Examples/007/units.en.html)
 
 * **Position**
 
-   Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. Sie können die Position des Elements oben, unten, links, rechts und [Z-Index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) ändern.
 
    Klicken Sie auf die Dropdownliste [!UICONTROL Statisch], um aus den folgenden Positionsoptionen auszuwählen:
 
@@ -159,7 +159,7 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    Für die Position werden positive und negative Werte unterstützt.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   Zielgruppe unterstützt auch [andere Größen wie z.B. rem, pc, em usw.](https://www.w3.org/Style/Examples/007/units.en.html)
 
 * **Größe**
 
@@ -316,7 +316,7 @@ Ziehen Sie das Element an einen anderen Ort innerhalb des gleichen übergeordnet
 
 **Hinweis:** Die Größe von Inline-Elementen kann nicht geändert werden.
 
-#### Verschieben  {#move}
+#### Verschieben   {#move}
 
 Verschieben Sie Elemente auf Ihrer Seite. Im Gegensatz zu [!UICONTROL Elemente neu anordnen] werden bei der Option [!UICONTROL Verschieben] keine anderen Elemente verschoben, um Platz für das verschobene Element zu machen. Verwenden Sie die Pfeiltasten, um geringfügige Korrekturen vorzunehmen. (Geplante Erweiterung: Es soll sichergestellt werden können, dass verschobene Elemente nicht hinter anderen Elementen verborgen werden.)
 
