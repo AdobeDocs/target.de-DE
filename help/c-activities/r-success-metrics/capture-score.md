@@ -14,17 +14,17 @@ ht-degree: 51%
 
 # Ergebniserfassung{#capture-score}
 
-The Capture Score engagement metric calculates an aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the campaign&#39;s first display [!DNL Target] request.
+Die Interaktionsmetrik &quot;Ergebniserfassung&quot;berechnet ein aggregiertes Ergebnis auf Grundlage des den auf der Site besuchten Seiten zugewiesenen Wertes ab dem Zeitpunkt, zu dem der Besucher die erste Anzeige der Kampagne [!DNL Target] anzeigt.
 
 Im folgenden Beispiel wird gezeigt, wie die Bewertungsinteraktion in einer Kampagne berechnet wird, in der zwei Erlebnisse (mit dem Bild einer Katze und dem Bild eines Hundes) geprüft werden.
 
 ![](assets/example_score.png)
 
-In diesem Beispiel wird dem Benutzer zuerst die Katze angezeigt. Assume that a global [!DNL Target] request passes in a page score based on the value of the page. If the marketer has captured page count engagement on a success metric associated with `**any Target request**`, the visit score accumulates for any request seen after the display request around the cat image.
+In diesem Beispiel wird dem Benutzer zuerst die Katze angezeigt. Angenommen, eine globale [!DNL Target]-Anforderung gibt einen Seitenergebnis basierend auf dem Wert der Seite ein. Wenn der Marketingspezialist die Seitenanzahl-Interaktion mit einer mit `**any Target request**` verknüpften Erfolgsmetrik erfasst hat, wird die Besuchszahl für alle Anforderungen, die nach der Anzeigenanforderung um das Katzenbild gesehen werden, akkumuliert.
 
 Die erste Seite fügt 1 zum Ergebnis hinzu, die zweite Seite 0,25, die dritte 0,10 und die vierte 0,10, insgesamt 1,45. Dies kann entweder als Währung oder als Punkte interpretiert werden. Bei einem weiteren Besuch findet der Besucher das Hundebild vor. Der Benutzer hat zwar weniger Seiten besucht, das Ergebnis ist aber mit 2,10 höher als beim anderen Besuch, da der Besucher wertvollere Seiten besucht hat.
 
-Sie können Erwerbskosten und Partnerlinkkosten über AdBoxes und Weiterleitungen mit einbeziehen. Siehe hierzu auch den folgenden Seitenfluss. Notice that, in this example, both [!DNL Target] requests on the article page pass a score, possibly representing a known CPM.
+Sie können Erwerbskosten und Partnerlinkkosten über AdBoxes und Weiterleitungen mit einbeziehen. Siehe hierzu auch den folgenden Seitenfluss. Beachten Sie, dass in diesem Beispiel sowohl [!DNL Target]-Anforderungen auf der Artikelseite eine Punktzahl übergeben, die möglicherweise eine bekannte CPM darstellt.
 
 ![](assets/example_score2.png)
 
@@ -34,29 +34,29 @@ Sie können jeder Seite auf Ihrer Site nach persönlichem Ermessen einen Wert zu
 
 Es gibt zwei Methoden zur Zuweisung eines Ergebnisses zu einer Seite:
 
-* Erstellen Sie in der [!DNL Target] Anforderung einen Parameter namens `mboxPageValue`.
+* Erstellen Sie in der Anforderung [!DNL Target] einen Parameter mit dem Namen `mboxPageValue`.
 
    Beispiel: `('global_mbox', 'mboxPageValue=10');`
 
-   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. Wenn mehrere Anforderungen auf der Seite Ergebniswerte enthalten, entspricht das Ergebnis für die Seite der Gesamtwert aller Anforderungswerte. `mboxPageValue` ist ein reservierter Parameter, der zum Übergeben von Werten in einer Zielgruppe-Anforderung verwendet wird, um eine Interaktionsbewertung zu erfassen. Es können positive and negative Werte übergeben werden. Die Summe wird am Ende jedes Besuchs berechnet, um das Gesamtergebnis für den Besuch zu errechnen.
+   Der angegebene Wert wird dem Ergebnis jedes Mal hinzugefügt, wenn die Seite mit dieser [!DNL Target]-Anforderung angezeigt wird. Wenn mehrere Anforderungen auf der Seite Ergebniswerte enthalten, entspricht das Ergebnis für die Seite der Gesamtwert aller Anforderungswerte. `mboxPageValue` ist ein reservierter Parameter, der zum Übergeben von Werten in einer Zielgruppe-Anforderung verwendet wird, um eine Interaktionsbewertung zu erfassen. Es können positive and negative Werte übergeben werden. Die Summe wird am Ende jedes Besuchs berechnet, um das Gesamtergebnis für den Besuch zu errechnen.
 
 * Geben Sie den Parameter `?mboxPageValue=n` in die URL der Seite ein.
 
    Beispiel: `https://www.mydomain.com?mboxPageValue=5`
 
-   Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
+   Bei Verwendung dieser Methode wird der angegebene Wert dem Ergebnis für jede [!DNL Target]-Anforderung auf der Seite hinzugefügt. Wenn Sie beispielsweise den Parameter `?mboxPageValue=10`übergeben und auf der Seite drei [!DNL Target]-Anforderungen vorhanden sind, beträgt das Ergebnis für die Seite 30.
 
 >[!NOTE]
 >
->Zielgruppen, die sich oberhalb der ersten Display- [!DNL Target] Anforderung der Aktivität befinden, werden nicht in das Ergebnis einbezogen.
+>Zielgruppen, die sich oberhalb der ersten Anzeige der Aktivität befinden, werden nicht in das Ergebnis einbezogen.[!DNL Target]
 
-Best practice is to assign values in the [!DNL Target] request. Auf diese Weise können Sie die Werte, die Sie messen, genau bestimmen, je nach Inhalt der einzelnen Anforderungen.
+Es empfiehlt sich, Werte in der [!DNL Target]-Anforderung zuzuweisen. Auf diese Weise können Sie die Werte, die Sie messen, genau bestimmen, je nach Inhalt der einzelnen Anforderungen.
 
 >[!NOTE]
 >
 >Zur einfacheren Wartung können Sie die Wertezuweisungen des Seitenergebnisses Ihrer Site in der Datei [!DNL at.js] oder [!DNL mbox.js] mit bedingter JavaScript-Logik konfigurieren. So müssen Sie keinen weiteren Code zu Ihren Seiten hinzufügen. Wenden Sie sich an Ihren Berater, wenn Sie weitere Hilfe benötigen.
 
-Sie können auch beide Methoden miteinander kombinieren. Dies könnte jedoch zu einem unerwartet hohen Ergebnis führen. For example, if you assign a value of 10 to each of three [!DNL Target] requests and no score to a fourth request, then pass the URL parameter `?mboxPageValue=5`, your page score will be 50, 30 for the three requests with assigned values, and then 5 for each of the four requests on the page.
+Sie können auch beide Methoden miteinander kombinieren. Dies könnte jedoch zu einem unerwartet hohen Ergebnis führen. Wenn Sie z. B. drei [!DNL Target]-Anforderungen den Wert 10 und einer vierten Anforderung keinen Wert zuweisen und dann den URL-Parameter `?mboxPageValue=5` übergeben, beträgt Ihr Seitenergebnis 50, 30 für die drei Anforderungen mit zugewiesenen Werten und dann 5 für jede der vier Anforderungen auf der Seite.
 
 Der Zähler Beginn mit der ersten Anzeigeanforderung, nicht mit der Einstiegsanforderung. Wenn Sie z. B. die Aktivität auf der Homepage ohne Display-Anforderung eingeben und dann mit der Katalogseite, die eine Display-Anforderung enthält, verknüpfen, beginnt der Zähler, wenn Sie zur Katalogseite wechseln.
 
