@@ -100,7 +100,7 @@ Zielgruppen können zur Wiederverwendung in verschiedenen Aktivitäten gespeiche
 |--- |--- |
 | Wiederverwendbare Zielgruppen | Wiederverwendbare Zielgruppen können für beliebige Aktivitäten ausgewählt werden. Wird eine dieser Zielgruppen verändert, so wird sie für alle Aktivitäten verändert, die diese Zielgruppe verwenden. |
 | Benutzerdefinierte Segmente | Benutzerdefinierte Segmente (auch kampagnenspezifische Segmente) sind spezifisch für eine Kampagne in Target Classic. Sie werden als Teil der Kampagne erstellt und können nicht in anderen Kampagnen wiederverwendet werden. |
-| Freigegebene Zielgruppen | Zielgruppen können über [!DNL Adobe Experience Cloud]-Lösungen hinweg freigegeben werden. Beispiele finden Sie unter [Audiencen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) . |
+| Freigegebene Zielgruppen | Zielgruppen können über [!DNL Adobe Experience Cloud]-Lösungen hinweg freigegeben werden. Beispiele finden Sie unter [Audiencen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). |
 
 Informationen darüber, wie das Besucherprofil Informationen über Besucher auf Ihrer Seite verfolgt, finden Sie unter [Besucherprofile](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
@@ -108,7 +108,7 @@ Informationen darüber, wie das Besucherprofil Informationen über Besucher auf 
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Aktivität Types (9:03) - ![Überblick](/help/assets/overview.png)
+### Aktivitäten (9:03) ![Übersichtskennzeichen](/help/assets/overview.png)
 
 In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivitätstypen erläutert.
 
@@ -118,7 +118,7 @@ In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Audiencen in Adobe Target verwenden (6:21) - ![Übersichtskennzeichnung](/help/assets/overview.png)
+### Verwenden von Audiencen in Adobe Target (6:21) ![Kennzeichen ](/help/assets/overview.png)
 
 In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/Premium] einsetzen lassen.
 
