@@ -14,17 +14,17 @@ ht-degree: 16%
 
 # Vorschau und Starten der Recommendations-Aktivität
 
-Nachdem Sie Ihre [!UICONTROL Recommendations]-, [!UICONTROL A/B-Test]- oder [!UICONTROL Erlebnis-Targeting] -Aktivität mit [Recommendations-Angeboten](/help/c-recommendations/recommendations-as-an-offer.md)erstellt haben, sollten Sie Ihre Empfehlungen Vorschau haben, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. [!DNL Target Recommendations] angebote zur Vorschau Ihrer Empfehlungen auf verschiedene Weisen.
+Nachdem Sie die Aktivität [!UICONTROL Recommendations], [!UICONTROL A/B-Test] oder [!UICONTROL Erlebnis-Targeting] (XT) mit [Recommendations-Angeboten](/help/c-recommendations/recommendations-as-an-offer.md) erstellt haben, sollten Sie Ihre Empfehlungen Vorschau haben, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. [!DNL Target Recommendations] angebote zur Vorschau Ihrer Empfehlungen auf verschiedene Weisen.
 
 ## Überprüfen des Recommendations-Algorithmusstatus
 
-Nach dem Erstellen einer Aktivität wird ein Algorithmus zum Generieren von Empfehlungen ausgeführt [!DNL Recommendations] . Die Ausführung dieses Algorithmus kann einige Stunden dauern.
+Nach dem Erstellen einer Aktivität führt [!DNL Recommendations] einen Algorithmus aus, um Empfehlungen zu generieren. Die Ausführung dieses Algorithmus kann einige Stunden dauern.
 
-Sie können überprüfen, ob der Algorithmus fertig ausgeführt wurde, und zwar im Übersichtsdiagramm zur [!UICONTROL Aktivität] , in dem der Kriterienstatus aufgeführt ist. Die folgende Abbildung zeigt den Status im Diagramm &quot;Aktivität&quot;auf der Seite &quot; [!DNL Recommendations] Übersicht [!UICONTROL &quot;einer] Aktivität:
+Sie können überprüfen, ob der Algorithmus im Übersichtsdiagramm [!UICONTROL Aktivität] ausgeführt wurde, in dem der Kriterienstatus aufgelistet ist. Die folgende Abbildung zeigt den Status im Diagramm &quot;Aktivität&quot;auf einer [!DNL Recommendations] Aktivität [!UICONTROL Übersicht]:
 
 ![Recommendations Aktivität - Übersichtsseite](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
-Die folgende Abbildung zeigt den Status auf einer [!UICONTROL A/B-Test] - oder XT-Aktivität- [!UICONTROL Übersichtsseite] :
+Die folgende Abbildung zeigt den Status auf einer [!UICONTROL A/B-Test]- oder XT-Aktivität [!UICONTROL Übersichtsseite]:
 
 ![Seite &quot;Übersicht über A/B-Tests&quot;](/help/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
 
@@ -38,7 +38,7 @@ Zu den Statusergebnissen gehören die folgenden:
 
 ## Wie lange dauert die Ausführung des Algorithmus?
 
-Nach dem Speichern einer Aktivität, die ein Kriterium enthält, werden Empfehlungen basierend auf der ausgewählten Sammlung, den Kriterien, dem Entwurf und den Promotions [!DNL Target] berechnet. Diese Berechnung dauert etwas länger, und der Zeitrahmen unterscheidet sich je nach ausgewählter Empfehlungslogik, Datenbereich, Anzahl der Elemente in Ihrem Katalog, Menge der von Ihren Kunden generierten Verhaltensdaten und ausgewählter verhaltensbezogener Datenquelle.
+Nach dem Speichern einer Aktivität, die ein Kriterium enthält, berechnet [!DNL Target] Empfehlungen basierend auf der ausgewählten Sammlung, den Kriterien, dem Entwurf und den Promotions. Diese Berechnung dauert etwas länger, und der Zeitrahmen unterscheidet sich je nach ausgewählter Empfehlungslogik, Datenbereich, Anzahl der Elemente in Ihrem Katalog, Menge der von Ihren Kunden generierten Verhaltensdaten und ausgewählter verhaltensbezogener Datenquelle.
 
 Die Verhaltensdatenquelle hat den größten Einfluss auf die Verarbeitungszeit, wie im Folgenden dargestellt wird:
 
@@ -51,22 +51,22 @@ Wenn Mboxes als Verhaltensdatenquelle ausgewählt wird, werden die Kriterien nac
 Wenn das Kriterium [!DNL Adobe Analytics] als Verhaltens-Datenquelle verwendet, hängt der Zeitpunkt der Verfügbarkeit der Kriterien nach deren Erstellung davon ab, ob die ausgewählte Report Suite und das Lookback-Fenster bereits für andere Kriterien verwendet wurden.
 
 * **Einmalige Einrichtung der Report Suite**: Wenn eine Report Suite zum ersten Mal mit einem Datumsbereich-Lookback-Fenster verwendet wird, kann es zwei bis sieben Tage dauern, bis [!DNL Target Recommendations] die Verhaltensdaten für die ausgewählte Report Suite von [!DNL Analytics] vollständig heruntergeladen hat. Dieser Zeitraum hängt von der [!DNL Analytics]-Systemlast ab.
-* **Neue oder bearbeitete Kriterien mit einer bereits verfügbaren Report Suite**: Wenn beim Erstellen eines neuen Kriteriums oder Bearbeiten eines vorhandenen Kriteriums die ausgewählte Report Suite bereits verwendet wurde [!DNL Target Recommendations], wobei der Datenbereich mindestens dem ausgewählten Datenbereich entspricht, sind die Daten sofort verfügbar und es ist keine einmalige Einrichtung erforderlich. In diesem Fall oder wenn die Einstellungen eines Algorithmus bearbeitet werden, ohne dass die ausgewählte Report Suite oder der ausgewählte Datumsbereich geändert wird, wird der Algorithmus innerhalb von 12 Stunden ausgeführt bzw. erneut ausgeführt.
-* **Laufende Ausführung von Algorithmen**: Daten werden täglich von [!DNL Analytics] zu [!DNL Target Recommendations] übertragen. Beispiel: Wenn sich ein Benutzer ein Produkt ansieht, wird für die Empfehlung [!UICONTROL Viewed Affinity] in nahezu Echtzeit ein Produktansichts-Tracking-Aufruf an [!DNL Analytics] gesendet. The [!DNL Analytics] data is pushed to [!DNL Target] early the next day and [!DNL Target] runs the algorithm in fewer than 12 hours.
+* **Neue oder bearbeitete Kriterien mit einer bereits verfügbaren Report Suite**: Wenn beim Erstellen eines neuen Kriteriums oder Bearbeiten eines vorhandenen Kriteriums die ausgewählte Report Suite bereits verwendet wurde  [!DNL Target Recommendations], wobei der Datenbereich mindestens dem ausgewählten Datenbereich entspricht, sind die Daten sofort verfügbar und es ist keine einmalige Einrichtung erforderlich. In diesem Fall oder wenn die Einstellungen eines Algorithmus bearbeitet werden, ohne dass die ausgewählte Report Suite oder der ausgewählte Datumsbereich geändert wird, wird der Algorithmus innerhalb von 12 Stunden ausgeführt bzw. erneut ausgeführt.
+* **Laufende Ausführung von Algorithmen**: Daten werden täglich von [!DNL Analytics] zu [!DNL Target Recommendations] übertragen. Beispiel: Wenn sich ein Benutzer ein Produkt ansieht, wird für die Empfehlung [!UICONTROL Viewed Affinity] in nahezu Echtzeit ein Produktansichts-Tracking-Aufruf an [!DNL Analytics] gesendet. Die [!DNL Analytics]-Daten werden am nächsten Tag an [!DNL Target] Anfang gesendet und [!DNL Target] führt den Algorithmus in weniger als 12 Stunden aus.
 
 >[!NOTE]
 >
->[!UICONTROL Vor Kurzem aufgerufene Elemente] erfordern keinen Offline-Algorithmus, und die Ergebnisse sind sofort verfügbar. [!UICONTROL Algorithmen für die am häufigsten angezeigten] und [!UICONTROL Topverkäufe] , die auf Mbox-Daten basieren, liefern im Allgemeinen sehr schnell Ergebnisse, da eine einfachere Berechnung erforderlich ist. Dies können gute Optionen sein, wenn Sie eine Designänderung Vorschau oder sicherstellen möchten, dass Verhaltensdaten korrekt erfasst werden.
+>[!UICONTROL Vor Kurzem aufgerufene ] Elemente erfordern keinen Offline-Algorithmus, und die Ergebnisse sind sofort verfügbar. [!UICONTROL Top-] Viewer- und  [!UICONTROL Top-] Sellersalgorithmen, die auf Mbox-Daten basieren, liefern aufgrund der vereinfachten Berechnung im Allgemeinen sehr schnell Ergebnisse. Dies können gute Optionen sein, wenn Sie eine Designänderung Vorschau oder sicherstellen möchten, dass Verhaltensdaten korrekt erfasst werden.
 
 ## Verwenden von QS-Links zur Vorschau Recommendations
 
-Nachdem der Algorithmus Ergebnisse vorliegen haben, können Sie diese Ergebnisse mithilfe der [QS-Link](/help/c-activities/c-activity-qa/activity-qa.md) -Funktion von [!DNL Adobe Target]. Qualitätssicherungs-Links finden Sie im Abschnitt zur Qualitätssicherung [!UICONTROL von] Aktivitäten auf der Übersichtsseite zur Aktivität:
+Nachdem der Algorithmus Ergebnisse vorliegen haben, können Sie diese Ergebnisse mit der [QA-Link](/help/c-activities/c-activity-qa/activity-qa.md)-Funktion von [!DNL Adobe Target] Vorschau haben. Die QS-Links finden Sie im Abschnitt [!UICONTROL Aktivität QA] auf der Übersichtsseite zur Aktivität:
 
 ![Link „Aktivitäts-QA“](/help/c-recommendations/t-create-recs-activity/assets/qa-link.png)
 
 >[!NOTE]
 >
->Standardmäßig werden Sie [!DNL Target] automatisch zur erforderlichen Audience für den QA-Link hinzugefügt. Wenn diese Einstellung deaktiviert ist und Ihre Aktivität Targeting-Regeln hat, muss Ihr Profil diese Targeting-Regeln erfüllen, damit das Erlebnis mit Empfehlungen angezeigt wird.
+>Standardmäßig fügt [!DNL Target] Sie automatisch zur erforderlichen Audience für den QA-Link hinzu. Wenn diese Einstellung deaktiviert ist und Ihre Aktivität Targeting-Regeln hat, muss Ihr Profil diese Targeting-Regeln erfüllen, damit das Erlebnis mit Empfehlungen angezeigt wird.
 
 Mithilfe eines QS-Links können Sie die Empfehlungen auf Ihrer Seite Vorschau haben:
 
@@ -74,19 +74,19 @@ Mithilfe eines QS-Links können Sie die Empfehlungen auf Ihrer Seite Vorschau ha
 
 >[!NOTE]
 >
->* Der QS-Modus für Zielgruppen ist &quot;sticky&quot; und wird in einem Cookie gespeichert. Wenn Sie den Qualitätssicherungs-Modus nicht beenden, werden die Qualitätssicherungsergebnisse auf der gesamten Site angezeigt. Um den Qualitätssicherungs-Modus zu beenden, verwenden Sie das [Bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* Der QS-Modus für Zielgruppen ist &quot;sticky&quot; und wird in einem Cookie gespeichert. Wenn Sie den Qualitätssicherungs-Modus nicht beenden, werden die Qualitätssicherungsergebnisse auf der gesamten Site angezeigt. Um den QA-Modus zu beenden, verwenden Sie das Lesezeichen [a1/>.](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)
    >
    >
-* Im Qualitätssicherungs-Modus hat das Durchsuchen der Site keine Auswirkungen auf die [!UICONTROL zuletzt angezeigten Artikel] oder die [!UICONTROL zuletzt gekauften Artikel]Ihres Profils.&quot; Dieses Verhalten wird planmäßig ausgeführt, um eine unbeabsichtigte Verschmutzung von Produktionsverhaltensdaten zu vermeiden. Zur Vorschau der Ergebnisse von [!UICONTROL kürzlich angezeigten Artikeln] oder [!UICONTROL benutzerbasierten Recommendations] -Kriterien navigieren Sie zuerst außerhalb des Qualitätssicherungs-Modus und öffnen dann in derselben Sitzung einen QS-Modus-Link.
+* Im QA-Modus hat das Durchsuchen der Site keine Auswirkungen auf die kürzlich angezeigten Elemente [!UICONTROL oder [!UICONTROL Zuletzt gekaufte Artikel] Ihres Profils.&quot; ] Dieses Verhalten wird planmäßig ausgeführt, um eine unbeabsichtigte Verschmutzung von Produktionsverhaltensdaten zu vermeiden. Zur Vorschau der Ergebnisse eines Kriteriums [!UICONTROL Zuletzt angezeigte Elemente] oder [!UICONTROL Benutzerbasierte Recommendations] durchsuchen Sie zunächst die Site außerhalb des Qualitätssicherungs-Modus und öffnen dann in derselben Sitzung einen Link zum Qualitätssicherungs-Modus.
 
 
 ## Verwenden des CSV-Downloads zur Vorschau von Empfehlungen
 
-In einigen Fällen sollten Sie die empfohlenen Elemente prüfen. Dies ist besonders hilfreich, wenn Sie Algorithmen wie &quot; [!UICONTROL Personen, die das ansahen&quot;oder &quot;Angezeigt haben&quot;verwenden, wobei]je nach dem Artikel, den der Benutzer gerade anzeigt, unterschiedliche Artikel empfohlen werden und Sie möglicherweise Tausende oder Millionen von verschiedenen Artikeln in Ihrem Katalog haben.
+In einigen Fällen sollten Sie die empfohlenen Elemente prüfen. Dies ist besonders hilfreich, wenn Sie Algorithmen wie [!UICONTROL Personen verwenden, die diese Ansicht angezeigt haben, und dies] anzeigen, wobei je nach dem Artikel, den der Benutzer gerade anzeigt, unterschiedliche Elemente empfohlen werden und Sie möglicherweise Tausende oder Millionen von verschiedenen Elementen in Ihrem Katalog haben.
 
-Die Ergebnisse können erst heruntergeladen werden, wenn für mindestens einen Algorithmus in der Aktivität der Status &quot; [!UICONTROL Ergebnisbereit] &quot;angezeigt wird.
+Die Ergebnisse können erst heruntergeladen werden, wenn für mindestens einen Algorithmus in der Aktivität der Status [!UICONTROL Ergebnisse bereit] angezeigt wird.
 
-Um die Ergebnisse für die Vorschau herunterzuladen, klicken Sie auf das Menüsymbol in der oberen rechten Ecke der Übersichtsseite der Aktivität und dann auf Daten **[!UICONTROL herunterladen]**.
+Um Ergebnisse für die Vorschau herunterzuladen, klicken Sie auf das Menüsymbol in der oberen rechten Ecke der Übersichtsseite der Aktivität und dann auf **[!UICONTROL Daten herunterladen]**.
 
 ![Datenoption herunterladen](/help/c-recommendations/t-create-recs-activity/assets/download-data.png)
 
@@ -94,19 +94,19 @@ Eine CSV-Datei wird heruntergeladen. Öffnen Sie es, um die empfohlenen Elemente
 
 ![CSV-Datei für empfohlene Elemente](/help/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
 
-Von links nach rechts ist eine Liste empfohlener Artikel, in diesem Fall die am häufigsten angezeigte. Die Empfehlungen werden durch Umgebung getrennt, in diesem Fall enthält nur die Umgebung Produktion Empfehlungen. Für diesen Algorithmus haben wir keine Einschränkungen auf Basis des Schlüsselwerts angewendet. Daher enthält die mit einem Sternchen (*) beschriftete Zeile den gesamten Empfehlungssatz. Bei anderen Algorithmustypen, die auf einem Schlüsselwert basieren, wie z. B. [!UICONTROL Personen, die diesen Artikel angezeigt haben, &quot;Angezeigt darauf]&quot;, werden die Schlüsselwerte (d. h. die &quot;This&quot;-Elemente) in der Spalte ganz links aufgelistet und die empfohlenen Elemente (d. h. die &quot;that&quot;-Elemente) werden von links nach rechts in den Spalten &quot;Recommendation_X&quot;aufgelistet.
+Von links nach rechts ist eine Liste empfohlener Artikel, in diesem Fall die am häufigsten angezeigte. Die Empfehlungen werden durch Umgebung getrennt, in diesem Fall enthält nur die Umgebung Produktion Empfehlungen. Für diesen Algorithmus haben wir keine Einschränkungen auf Basis des Schlüsselwerts angewendet. Daher enthält die mit einem Sternchen (*) beschriftete Zeile den gesamten Empfehlungssatz. Bei anderen Algorithmustypen, die auf einem Schlüsselwert basieren, wie [!UICONTROL Personen, die diesen Wert angezeigt haben, &quot;Angezeigt&quot;], werden die Schlüsselwerte (d.h. die &quot;This&quot;-Elemente) in der Spalte ganz links aufgelistet und die empfohlenen Elemente (d.h. die &quot;that&quot;-Elemente) werden von links nach rechts in den Spalten &quot;Recommendation_X&quot;aufgelistet.
 
 >[!NOTE]
 >
->Für Aktivitäten mit einem [!UICONTROL benutzerbasierten Recommendations] -Algorithmus stehen keine Ergebnisdownloads zur Verfügung. Ergebnisdownloads stehen für Kriterien nicht zur Verfügung, die die Empfehlungslogik [!UICONTROL Zuletzt angezeigte Elemente] verwenden.
+>Für Aktivitäten mit einem [!UICONTROL Benutzerbasierten Recommendations]-Algorithmus sind keine Ergebnisdownloads verfügbar. Ergebnisdownloads sind für Kriterien mit der Empfehlungslogik [!UICONTROL Zuletzt angezeigte Elemente] nicht verfügbar.
 
 ## Aktivieren der Recommendations-Aktivität
 
-Klicken Sie auf der Registerkarte [!UICONTROL Statusübersicht] auf den Dropdownpfeil neben dem Status und wählen Sie **[!UICONTROL Aktivieren]**.
+Klicken Sie auf der Registerkarte [!UICONTROL Übersicht über Aktivitäten] auf den Dropdownpfeil neben dem Status und wählen Sie **[!UICONTROL Aktivieren]**.
 
 ![Option aktivieren](/help/c-recommendations/t-create-recs-activity/assets/activate.png)
 
-Beachten Sie, dass der Status zu [!UICONTROL Aktivieren]wird:
+Beachten Sie, dass der Status zu [!UICONTROL Aktivieren] wird:
 
 ![ wird aktiviert ...](/help/c-recommendations/t-create-recs-activity/assets/activating.png)
 
@@ -118,7 +118,7 @@ Beachten Sie, dass Sie die Aktivität auch mit derselben Dropdown-Liste deaktivi
 
 ## Unterbrechungen beim Ändern der Recommendations-Einstellungen vermeiden
 
-Das Ändern von [!DNL Recommendations] Sammlungen, Kriterien, Promotions oder Designeinstellungen in einer Live-Aktivität kann dazu führen, dass die Algorithmusergebnisse ungültig werden und der Status eines Algorithmus in [!UICONTROL Ergebnisse nicht bereit]geändert wird.
+Wenn Sie Sammlungen, Kriterien, Promotions oder Designeinstellungen in einer Live-Aktivität ändern, können die Algorithmusergebnisse ungültig werden und der Algorithmusstatus in [!UICONTROL Ergebnisse nicht bereit] geändert werden.[!DNL Recommendations]
 
 Um zu vermeiden, dass eine Live-Aktivität gestört wird, sollten Sie beim Ändern einer Live-Aktivität folgende Vorgehensweise anwenden:
 
