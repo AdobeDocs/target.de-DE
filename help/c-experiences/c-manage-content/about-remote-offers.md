@@ -18,7 +18,7 @@ Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf 
 
 >[!NOTE]
 >
->Remote-Angebote können nur im formularbasierten Composer erstellt werden. Content will be injected in the [!DNL Target] request locations, so these are most likely not appropriate for a global [!DNL Target] request.
+>Remote-Angebote können nur im formularbasierten Composer erstellt werden. Inhalte werden in die Anforderungsspeicherorte [!DNL Target] eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anforderung geeignet sind.
 >
 >[!DNL Target Classic] verfügte über ähnliche Funktionen: [!UICONTROL Angebot auf Ihrer Seite] und [!UICONTROL Angebot außerhalb von Test&amp;Target].
 
@@ -46,7 +46,7 @@ Einige Beispiele für Remote-Angebote sind:
    | Option | Beschreibung |
    |--- |--- |
    | Zwischengespeichert | Der Inhalt eines zwischengespeicherten Remote-Angebots wird von Target bereitgestellt.<br>Alle zwei Stunden ruft [!DNL Target] den Inhalt der Remote-URL ab und speichert ihn in Target. Laden Besucher die Seite mit einem Erlebnis, in dem ein Remote-Angebot enthalten ist, wird das Angebot von Target bereitgestellt.<br>Zwischengespeicherte Remote-Angebote bieten gesteigerte Sicherheit, da jemand, der in Target angemeldet ist, den Inhalt nicht bearbeiten kann. Soll der Inhalt bearbeitet werden, müsste sich jemand im Inhaltsverwaltungssystem oder dem System anmelden, in dem der Inhalt gespeichert ist, und ihn dort bearbeiten.<br>Sie können für zwischengespeicherte Remote-Angebote eine absolute oder relative URL angeben. |
-   | Dynamisch | Ein dynamisches Remote-Angebot wird vom Inhaltsverwaltungssystem oder einem anderen System bereitgestellt, nicht von Target.<br>Möglicherweise möchten Sie nicht, dass Inhalte regelmäßig in den Zwischenspeicher geladen und anschließend von Target bereitgestellt werden, wenn Besucher die Seite mit einem Erlebnis laden, in dem ein Remote-Angebot enthalten ist. Stattdessen möchten Sie direkt das System aufrufen, in dem der Inhalt gehostet wird, und möglicherweise spezifische Daten weiterleiten, sodass das ausgegebene Angebot für jeden Besucher dynamisch oder angepasst ist.<br>Meldet sich ein Benutzer beispielsweise auf einer Kreditkarten-Website an, auf der ein dynamisches Angebot enthalten ist, können Sie in die URL Parameter für die Kontoinformationen des Benutzers einfügen. In diesem Fall zeigt die Webseite benutzerspezifische Daten an, beispielsweise den Kontostand.<br>Klicken Sie auf [!UICONTROL Hinzufügen Parameter] , um eine oder mehrere [!DNL Target] Anforderungen oder Anforderungsparameter hinzuzufügen. |
+   | Dynamisch | Ein dynamisches Remote-Angebot wird vom Inhaltsverwaltungssystem oder einem anderen System bereitgestellt, nicht von Target.<br>Möglicherweise möchten Sie nicht, dass Inhalte regelmäßig in den Zwischenspeicher geladen und anschließend von Target bereitgestellt werden, wenn Besucher die Seite mit einem Erlebnis laden, in dem ein Remote-Angebot enthalten ist. Stattdessen möchten Sie direkt das System aufrufen, in dem der Inhalt gehostet wird, und möglicherweise spezifische Daten weiterleiten, sodass das ausgegebene Angebot für jeden Besucher dynamisch oder angepasst ist.<br>Meldet sich ein Benutzer beispielsweise auf einer Kreditkarten-Website an, auf der ein dynamisches Angebot enthalten ist, können Sie in die URL Parameter für die Kontoinformationen des Benutzers einfügen. In diesem Fall zeigt die Webseite benutzerspezifische Daten an, beispielsweise den Kontostand.<br>Klicken Sie auf  [!UICONTROL Hinzufügen ] Parameter, um eine oder mehrere  [!DNL Target] Anforderungen oder Anforderungsparameter hinzuzufügen. |
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -54,7 +54,7 @@ Einige Beispiele für Remote-Angebote sind:
 
 Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
 
-* If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
+* Wenn sich Ihr Angebot in derselben Domäne wie die [!DNL Target]-Anforderungen befindet, können Sie mit der Option [!UICONTROL Zwischengespeichert] relative URLs zur Beschreibung Ihres Angebots verwenden.
 
    Beim Verschieben Ihrer Aktivität von den Vorbereitungsservern auf die Produktionsserver hat dieses Verfahren den Vorteil, dass ohne manuelles Ändern der URL automatisch auf den Inhalt zugegriffen werden kann.
 
