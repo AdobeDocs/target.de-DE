@@ -30,5 +30,5 @@ Mithilfe der Liste der von Servern, die den Recommendations-Feed verarbeiten, ve
 
 >[!NOTE]
 >
->For the complete, most up-to-date list, see [IP Addresses used in the Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html).
+>Die vollständige, aktuellste Liste finden Sie unter [IP-Adressen, die im Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) verwendet werden.
 
