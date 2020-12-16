@@ -50,7 +50,7 @@ Die folgende Abbildung zeigt eine Zielgruppe, die Benutzer auswählt, die auf di
 
 ## Genauigkeit {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-Die Genauigkeit von Geotargeting hängt von verschiedenen Faktoren ab. WLAN-Verbindungen sind genauer als Mobilfunknetze. Wenn der Besucher eine mobile Datenverbindung nutzt, kann die Genauigkeit der Standortsuche durch den Standort, die Datenbeziehung zwischen dem Anbieter und [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) und anderen Faktoren beeinflusst werden. Durch Mobilfunkmasten gestützte Netzwerkverbindungen sind in der Regel weniger genau als kabelgebundene oder WLAN-Verbindungen. Die IP-Adresse eines Besuchers kann zudem dem Standort seines ISP zugeordnet werden, der möglicherweise nicht dem tatsächlichen Standort des Besuchers entspricht. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+Die Genauigkeit von Geotargeting hängt von verschiedenen Faktoren ab. WLAN-Verbindungen sind genauer als Mobilfunknetze. Wenn der Besucher eine mobile Datenverbindung nutzt, kann die Genauigkeit der Standortsuche durch den Standort, die Datenbeziehung zwischen dem Anbieter und [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) und anderen Faktoren beeinflusst werden. Durch Mobilfunkmasten gestützte Netzwerkverbindungen sind in der Regel weniger genau als kabelgebundene oder WLAN-Verbindungen. Die IP-Adresse eines Besuchers kann zudem dem Standort seines ISP zugeordnet werden, der möglicherweise nicht dem tatsächlichen Standort des Besuchers entspricht. Einige Probleme mit der mobilen Geolokation können mit der [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) gelöst werden.
 
 In der folgenden Tabelle finden Sie Informationen zur Genauigkeit IP-basierter Standortdaten von [DigitalEnvoy](https://www.digitalelement.com/solutions/) für kabelgebundene oder WLAN-Internetverbindungen. DigitalEnvoy bietet die präzisesten Daten in der Branche. Die Gesamtgenauigkeit beläuft sich auf 99,9 % auf Länderebene und auf bis zu 97 % auf Stadtebene. Die Daten zur Genauigkeit sind nicht für durch Mobilfunkmasten gestützte Netzwerke gültig.
 
@@ -116,7 +116,7 @@ Beispiele:
 
 **Wie funktioniert Geotargeting für Mobilgeräte?**
 
-Die überwiegende Mehrheit der Mobilgerätebenutzer greift über WLAN auf Inhalte zu. Das bedeutet, dass das IP-basierte Geotargeting von Target genauso präzise ist wie auf einem Desktop. Funkzellenbasierte Verbindungen können ungenauer sein, da die IP-Adresse des Besuchers auf der Funkzelle basiert, bei der das Signal erfasst wird. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+Die überwiegende Mehrheit der Mobilgerätebenutzer greift über WLAN auf Inhalte zu. Das bedeutet, dass das IP-basierte Geotargeting von Target genauso präzise ist wie auf einem Desktop. Funkzellenbasierte Verbindungen können ungenauer sein, da die IP-Adresse des Besuchers auf der Funkzelle basiert, bei der das Signal erfasst wird. Einige Probleme mit der mobilen Geolokation können mit der [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) gelöst werden.
 
 **Wie geht die Geo-Funktion mit Besuchern von AOL um?**
 
@@ -141,17 +141,17 @@ Vor diesem Vorgang müssen Sie alle Cookies entfernen.
 
 >[!NOTE]
 >
->`mboxOverride.browserIp` wird nur in at.js 1.*jx* unterstützt. Diese Funktion wird in at.js 2 nicht unterstützt.*x*.
+>`mboxOverride.browserIp` wird nur in at.js 1.** jxonly unterstützt. Diese Funktion wird in at.js 2 nicht unterstützt.*x*.
 
 **Wie werden Gebiete wie Puerto Rico und Hongkong der Geotargeting-Struktur zugeordnet?**
 
 Puerto Rico, Hongkong und andere Gebiete werden als separate Länderwerte verarbeitet.
 
-**Erfasst (und speichert) [!DNL Target] Informationen wie Postleitzahlen, wenn die Aktivität auf Geolocation-Targeting-Funktionen ausgerichtet ist?**
+**Erfasst (und speichert)  [!DNL Target] Informationen wie Postleitzahlen, wenn die Aktivität mit Geolocation-Targeting-Funktionen ins Visier genommen wird?**
 
 Nein, [!DNL Target] verwendet nur für die Dauer der Sitzung geografische Daten, dann werden die Daten verworfen.
 
-## Schulungsvideo: Audiencen- ![Tutorialzeichen erstellen](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen von Audiencen ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
