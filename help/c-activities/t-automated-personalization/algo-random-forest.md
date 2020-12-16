@@ -43,11 +43,11 @@ Unser Beispiel würde zu dem unten stehenden Baum führen:
 
 ![](assets/decsion_tree_2.png)
 
-## Wie werden Entscheidungsbäume von Random Forest verwendet?  {#section_536C105EF9F540C096D60450CAC6F627}
+## Wie werden Entscheidungsbäume von Random Forest verwendet?   {#section_536C105EF9F540C096D60450CAC6F627}
 
 Entscheidungsbäume können ein effektives statistisches Werkzeug sein. Sie haben jedoch einige Nachteile. Am kritischsten ist, dass sie die Daten „überanpassen“ können, sodass ein einzelner Baum zukünftige Daten schlecht vorhersagt, die nicht für den Aufbau des ursprünglichen Baums verwendet wurden. Dieses Problem ist in der Statistik als [Verzerrung-Varianz-Dilemma](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) bekannt. Random Forest kann bei der Überwindung dieses „Überanpassungsproblems“ helfen. Auf der obersten Ebene ist Random Forest eine Sammlung von Entscheidungsbäumen, die leicht unterschiedlich auf dem gleichen Datensatz aufgebaut sind und gemeinsam „abstimmen“, um ein besseres Modell zu erhalten, als ein einzelner Baum dies kann. Die Bäume werden durch die zufällige Auswahl einer Teilmenge von Besuchsdatensätzen mit Ersetzungen (bekannt als „Bagging“) sowie durch die zufällige Auswahl einer Teilmenge der Attribute aufgebaut, sodass der Wald aus leicht unterschiedlichen Entscheidungsbäumen besteht. Diese Methode ermöglicht kleine Variationen der Bäume, die im Random Forest entstehen. Das Hinzufügen dieser kontrollierten Varianz hilft, die Vorhersagegenauigkeit des Algorithmus zu verbessern.
 
-## Wie wird Random Forest von den Personalisierungsalgorithmen von Target genutzt?  {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## Wie wird Random Forest von den Personalisierungsalgorithmen von Target genutzt?   {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **Der Aufbau von Modellen**
 
