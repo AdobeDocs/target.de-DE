@@ -12,13 +12,13 @@ ht-degree: 35%
 ---
 
 
-# Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
+# Aktivieren von gemischtem Inhalt in Ihrem Browser{#enabling-mixed-content-in-your-browser}
 
-Gemischte Inhalte treten auf, wenn sowohl HTTPS- (sicherer) *als auch* HTTP- (unsicherer) Inhalte geladen werden, um dieselbe Webseite anzuzeigen, und die ursprüngliche Anforderung über HTTPS gesichert war.
+Gemischte Inhalte treten auf, wenn sowohl HTTPS-Inhalte (sicher) *als auch HTTP-Inhalte (unsicher) geladen wurden, um dieselbe Webseite anzuzeigen, und die ursprüngliche Anforderung über HTTPS gesichert war.*
 
 Moderne Browser können die Anzeige einer Seite oder Warnmeldungen blockieren, wenn sicherer Inhalt mit unsicherem Inhalt gemischt wird.
 
-If the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
+Wenn der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] versucht, eine Seite mit gemischtem Inhalt zu öffnen, wird eine Meldung angezeigt, die zeigt, wie die Blockierung in Ihrem Browser deaktiviert werden kann, damit Sie eine HTTP-Site oder eine Site mit gemischten Aufrufen (HTTPS und HTTP) öffnen können.
 
 ![Warnung zu gemischten Inhalten](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -34,7 +34,7 @@ Wenn Ihre Website in einer unsicheren (HTTP-)Domäne betrieben wird, müssen Sie
 
 Weitere Informationen finden Sie unter [Gemischte Inhalte](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) auf der *Mozilla-Entwicklernetzwerk* (MDN-)Website.
 
-## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Aktivieren von gemischten Inhalten in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 Wenn Sie eine Site über eine sichere Verbindung besuchen, prüft Chrome, ob der Inhalt auf der Webseite sicher übertragen wurde.
 
@@ -46,13 +46,13 @@ Wenn Sie VEC mit der neuesten Version von Chrome (Version 79.0.3945.117 oder hö
 
    ![Site-Einstellungen](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Blättern Sie zu **[!UICONTROL Unsicheren Inhalten]** und verwenden Sie dann die Dropdown-Liste, um &quot;Blockieren (Standard)&quot;in &quot;Zulassen&quot;zu ändern.
+1. Blättern Sie zu **[!UICONTROL Unsicherer Inhalt]** und verwenden Sie dann die Dropdown-Liste, um &quot;Block (Standard)&quot;in &quot;Allow&quot;zu ändern.
 
    ![Unsicherer Inhalt](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
 1. Laden Sie die VEC-Seite neu.
 
-## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Zulassen von gemischtem Inhalt in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 Firefox blockiert standardmäßig Seiten, auf denen sicherer und unsicherer Inhalt gemischt ist. Es wird empfohlen, zur Verwendung von [!DNL Target] diese Einstellung dauerhaft zu ändern. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 
@@ -83,7 +83,7 @@ Wenn Sie den VEC mit der neuesten Version von Edge verwenden, müssen Sie Ihre S
 
    ![Site-Berechtigungen in Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
-1. Blättern Sie zu **[!UICONTROL Unsicheren Inhalten]** und verwenden Sie dann die Dropdown-Liste, um &quot;Blockieren (Standard)&quot;in &quot;Zulassen&quot;zu ändern.
+1. Blättern Sie zu **[!UICONTROL Unsicherer Inhalt]** und verwenden Sie dann die Dropdown-Liste, um &quot;Block (Standard)&quot;in &quot;Allow&quot;zu ändern.
 
    ![Unsicherer Inhalt](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
 
