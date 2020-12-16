@@ -18,7 +18,7 @@ Target Standard und Premium verwenden eine modifizierte Version der Adobe Target
 
 Zur Verwendung des neuen [!DNL Adobe Target] [!UICONTROL  Visual Experience Editor] müssen Sie eine zusätzliche Zeile JavaScript als Teil Ihrer [!DNL mbox.js]-Datei einschließen.
 
-1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** in [!DNL Target Standard].
+1. Klicken Sie unter [!DNL Target Standard] auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
 1. Klicken Sie auf **[!UICONTROL mbox.js herunterladen]** und folgen Sie den Anweisungen zum Speichern der Datei.
 1. (Bedingt) Sollten Sie [!DNL mbox.js], Version 60 oder neuer verwenden, können Sie die Bibliothek so konfigurieren, dass automatisch Seiteninhalte ausgeblendet werden, bis die Mboxes geladen werden, damit das Flackern auf nicht responsiven Seiten verringert wird.
 
@@ -30,6 +30,6 @@ Zur Verwendung des neuen [!DNL Adobe Target] [!UICONTROL  Visual Experience Edit
 
    >[!IMPORTANT]
    >
-   >Wenn Sie eine [!DNL mbox.js]-Version verwenden, die älter als Version 57 ist, dann muss der Verweis das letzte Element im `<head>`-Abschnitt Ihrer Seiten sein. Ist die Referenz nicht das letzte Element, kann dies zu schwerwiegenden Anzeige- und Performance-Problemen führen. Weitere Informationen finden Sie unter [Funktionsweise von](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md) &quot;mbox.js&quot;.
+   >Wenn Sie eine [!DNL mbox.js]-Version verwenden, die älter als Version 57 ist, dann muss der Verweis das letzte Element im `<head>`-Abschnitt Ihrer Seiten sein. Ist die Referenz nicht das letzte Element, kann dies zu schwerwiegenden Anzeige- und Performance-Problemen führen. Weitere Informationen finden Sie unter [Was mbox.js tut](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md).
 
 1. Laden Sie die gespeicherte [!DNL mbox.js]-Datei an den Ort in Ihrer Hosting-Umgebung hoch, den Sie im Code angegeben haben.
