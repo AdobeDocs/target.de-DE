@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Auto-Zielgruppe - Überblick
+# ![Überblick über ](/help/assets/premium.png) PREMIUMAuto-Zielgruppe
 
 [!UICONTROL Automatisches Targeting] verwendet fortschrittliches maschinelles Lernen, um aus mehreren leistungsstarken Erlebnissen mit Marketingexperten auswählen zu können, um Inhalte zu personalisieren und Konversionen zu fördern. Automatisches Targeting stellt das benutzerspezifische Erlebnis für jeden Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten voriger Besucher mit ähnlichen Profilen bereit.
 
@@ -20,15 +20,15 @@ ht-degree: 86%
 >
 >[!UICONTROL Automatisches Targeting] ist als Teil der [!DNL Target Premium]-Lösung verfügbar. Diese Funktion ist in [!DNL Target Standard] nicht ohne eine [!DNL Target Premium]-Lizenz verfügbar. Weitere Informationen zu den erweiterten Funktionen dieser Lizenz finden Sie unter [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL Analytics for Zielgruppe] (A4T) unterstützt Aktivitäten zur [!UICONTROL automatischen Zielgruppe] . Weitere Informationen finden Sie unter [Erstellen einer Aktivität, die Analytics als Berichte-Quelle](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)verwendet.
+>[!UICONTROL Analytics für Zielgruppe] (A4T) unterstützt  [!UICONTROL Auto-] Targeting-Aktivitäten. Weitere Informationen finden Sie unter [Erstellen einer Aktivität, die Analytics als Berichte-Quelle](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) verwendet.
 
-## Echtzeit-Erfolgsgeschichte mit automatisierter Zielgruppe {#success}
+## Real-world success story using Auto-Zielgruppe {#success}
 
-Ein großer Bekleidungshändler hat kürzlich eine [!UICONTROL Auto-Zielgruppe] -Aktivität mit zehn produktbasierten Erlebnissen (plus zufälliger Kontrolle) verwendet, um den richtigen Inhalt für jeden Besucher bereitzustellen. &quot;[!UICONTROL Hinzufügen zum Warenkorb]&quot;wurde als primäre Optimierungsmetrik gewählt. Die angestrebten Erlebnisse stiegen im Durchschnitt um 29,09 %. Nach der Erstellung der [!UICONTROL Automatisch Zielgruppe] Modelle wurde die Aktivität auf 90 % personalisierte Erlebnisse eingestellt.
+Ein großer Bekleidungshändler hat kürzlich eine [!UICONTROL Auto-Zielgruppe]-Aktivität mit zehn produktbasierten Erlebnissen (plus zufälliger Kontrolle) verwendet, um den richtigen Inhalt für jeden Besucher bereitzustellen. &quot;[!UICONTROL Hinzufügen zum Warenkorb]&quot;wurde als primäre Optimierungsmetrik ausgewählt. Die angestrebten Erlebnisse stiegen im Durchschnitt um 29,09 %. Nach dem Erstellen des Modells [!UICONTROL Automatische Zielgruppe] wurde die Aktivität auf 90 % personalisierte Erlebnisse eingestellt.
 
 In nur zehn Tagen wurden mehr als 1.700.000 Dollar an Steigerungen erzielt.
 
-Lesen Sie weiter, um zu erfahren, wie Sie mit der [!UICONTROL automatischen Zielgruppe] die Steigerung und den Umsatz in Ihrem Unternehmen steigern.
+Lesen Sie weiter, um zu erfahren, wie Sie mit [!UICONTROL Auto-Zielgruppe] die Steigerung und den Umsatz Ihres Unternehmens steigern können.
 
 ## Überblick {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -44,7 +44,7 @@ Im Gegensatz zu einer A/B-Aktivität, bei der die Erlebniszuordnung an einen bes
 
 ## Zu beachten
 
-There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
+Bei der Verwendung von [!UICONTROL Auto-Zielgruppe] sind einige wichtige Aspekte zu beachten:
 
 * Es ist nicht möglich, eine bestimmte Aktivität von [!UICONTROL Automatisches Targeting] in „Automatisierte Personalisierung“ umzuschalten und umgekehrt.
 * Es ist nicht möglich, von der manuellen Traffic-Zuordnung (herkömmlicher A/B-Test) zu [!UICONTROL Automatisches Targeting] und umgekehrt zu wechseln, sobald eine Aktivität aktiv ist.
@@ -76,7 +76,7 @@ Unter den folgenden Links erhalten Sie weitere Informationen über Daten und Alg
 | [Hochladen von Daten für die Personalisierungsalgorithmen von Target](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Es gibt mehrere Möglichkeiten, um Daten für die Modelle [!UICONTROL Automatisches Targeting] und „Automatisierte Personalisierung“ einzugeben. |
 | [Datenerfassung für die Target-Personalisierungsalgorithmen](/help/c-activities/t-automated-personalization/ap-data.md) | Die Personalisierungsalgorithmen von Target erfassen automatisch eine Vielzahl von Daten. |
 
-## Bestimmen der Traffic-Zuordnung  {#section_AB3656F71D2D4C67A55A24B38092958F}
+## Bestimmen der Traffic-Zuordnung   {#section_AB3656F71D2D4C67A55A24B38092958F}
 
 Je nach dem Ziel Ihrer Aktivität können Sie eine unterschiedliche Traffic-Zuordnung zwischen den Kontroll- und personalisierten Erlebnissen auswählen. Es empfiehlt sich, dieses Ziel festzulegen, bevor Sie Ihre Aktivität aktivieren.
 
@@ -162,7 +162,7 @@ Für [!UICONTROL Automatisches Targeting] können einfache Faustregeln zum Nachv
 
 Weitere Informationen finden Sie unter [Zusammenfassender Bericht zu „Automatisches Targeting“](/help/c-reports/auto-target-summary-report.md) im Abschnitt [Berichte](/help/c-reports/reports.md).
 
-## Schulungsvideo: Kennzeichen für Aktivitäten mit automatischer Zielgruppe - ![Übersicht](/help/assets/overview.png)
+## Schulungsvideo: Die Aktivitäten für die automatische Zielgruppe ![Kennzeichen ](/help/assets/overview.png)
 
 In diesem Video wird die Einrichtung einer A/B-Aktivität für [!UICONTROL Automatisches Targeting] beschrieben.
 
