@@ -32,7 +32,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
    >
    >Informationen zur Problembehebung für den VEC finden Sie unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.
+   >Die Option [!UICONTROL [Arbeitsplatz auswählen]](/help/administrating-target/c-user-management/property-channel/property-channel.md) in der obigen Abbildung ist eine [Zielgruppe Premium](/help/c-intro/intro.md)-Funktion. Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.
 
 1. (Abhängig von Ihrer Lizenz) Wenn Sie [Target Premium-Kunde ](/help/c-intro/intro.md#premium)sind, wählen Sie einen [Arbeitsbereich](/help/administrating-target/c-user-management/property-channel/property-channel.md) aus.
 
@@ -46,7 +46,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    Wenn Sie auf [!UICONTROL Weiter] klicken, wird Ihre Seite im VEC geöffnet. Sie können ein aktuelles Element durch Empfehlungen ersetzen oder Empfehlungen einfügen.
 
-1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
+1. Klicken Sie auf ein Element auf Ihrer Seite. Wenn Empfehlungen an der Stelle verfügbar sind, an der sich dieses Element befindet, klicken Sie auf **[!UICONTROL Ersetzen mit/ Recommendations]**, **[!UICONTROL Recommendations einfügen vor]** oder **[!UICONTROL Recommendations einfügen nach]**.
 
    Besucher Ihrer Site sehen den empfohlenen Inhalt nur dann, wenn sie sich für die Empfehlung qualifizieren. Besuchern, die sich nicht für die Empfehlung qualifizieren, werden Standardinhalte angezeigt.
 
@@ -56,7 +56,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
    * **[!UICONTROL Recommendations einfügen vor]**: Beim Einfügen von Empfehlungen vor dem ausgewählten Element wird der empfohlene Inhalt vor diesem Element platziert. Je nach Seitenaufbau wird die Empfehlung über oder links des ausgewählten Elements angezeigt.
    * **[!UICONTROL Recommendations einfügen nach]**: Beim Einfügen von Empfehlungen nach dem ausgewählten Element wird der empfohlene Inhalt nach diesem Element platziert. Je nach Seitenaufbau wird die Empfehlung unterhalb oder rechts neben dem ausgewählten Element angezeigt.
 
-   Mit der **[!UICONTROL Option &quot;Auswahl]** erweitern&quot;können Sie die ausgewählte Position (übergeordneten Container) erweitern, um die gewünschten Seitenelemente leichter identifizieren und einschließen zu können.
+   Mit der Option **[!UICONTROL Auswahl erweitern]** können Sie die ausgewählte Position (übergeordneter Container) erweitern, um die gewünschten Seitenelemente leichter identifizieren und einschließen zu können.
 
 1. Wählen Sie einen Seitentyp aus.
 
@@ -75,7 +75,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
 1. [Wählen Sie mindestens ein Kriterium aus](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   Kriterien werden in Form von Karten dargestellt, die Informationen zu dem jeweiligen Kriterium anzeigen. By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. Sie können diese Optionen ändern, wenn Sie andere Kriterien angezeigt haben möchten.
+   Kriterien werden in Form von Karten dargestellt, die Informationen zu dem jeweiligen Kriterium anzeigen. Standardmäßig werden im Bildschirm [!UICONTROL Kriterien auswählen] Kriterien angezeigt, die mit Ihrer Branche und dem Seitentyp kompatibel sind, den Sie im vorherigen Schritt ausgewählt haben. Sie können diese Optionen ändern, wenn Sie andere Kriterien angezeigt haben möchten.
 
    >[!NOTE]
    >
@@ -89,8 +89,8 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
       Einige Kriterien werden durch [!DNL Recommendations] bereitgestellt. Sie und Ihr Team können auch eigene Kriterien erstellen.
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
-   * Sie können auch Kriterien in Sequenzen gruppieren. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Weitere Informationen finden Sie unter Kriteriensequenz [erstellen](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) .
+   * Um ein neues Kriterium zu erstellen, klicken Sie auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]** und geben Sie dann die Informationen für das neue Kriterium ein. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
+   * Sie können auch Kriterien in Sequenzen gruppieren. Um eine neue Kriteriensequenz zu erstellen, klicken Sie auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Weitere Informationen finden Sie unter [Kriteriensequenz erstellen](/help/c-recommendations/c-algorithms/create-criteria-sequence.md).
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 1. [Entwurf auswählen](/help/c-recommendations/c-design-overview/design-overview.md).
@@ -178,6 +178,6 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    Kollisionen von Aktivitäten treten auf, wenn mehrere Aktivitäten Inhalte auf derselben Seite bereitstellen sollen. Dies kann zur Darstellung unerwarteter Inhalte führen.
 
-## Schulungsvideo: Erstellen einer Recommendations-Aktivität (7:15) ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen einer Recommendations-Aktivität (7:15)  ![Tutorialzeichen](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
