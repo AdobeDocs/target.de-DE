@@ -12,7 +12,7 @@ ht-degree: 95%
 ---
 
 
-# adobe.target.applyOffers(options) - at.js 2.x
+# adobe.Zielgruppe.applyOffers(options) - at.js 2.x
 
 Mit dieser Funktion können Sie mehr als ein Angebot, das von `adobe.target.getOffers()` abgerufen wurde, anwenden.
 
@@ -22,14 +22,14 @@ Mit dieser Funktion können Sie mehr als ein Angebot, das von `adobe.target.getO
 
 | Schlüssel | Typ | Erforderlich? | Beschreibung |
 | --- | --- | --- | --- |
-| selector | Zeichenfolge | Nein | HTML-Element oder „selector“ in CSS wird dazu verwendet, das HTML-Element zu identifizieren, in dem [!DNL Target] die Angebotsinhalte platzieren soll. If a selector is not provided, [!DNL Target] assumes that the HTML element to use is HTML HEAD. |
+| selector | Zeichenfolge | Nein | HTML-Element oder „selector“ in CSS wird dazu verwendet, das HTML-Element zu identifizieren, in dem [!DNL Target] die Angebotsinhalte platzieren soll. Ist kein Selektor angegeben, geht [!DNL Target] davon aus, dass das zu verwendende HTML-Element HTML-HEAD ist. |
 | Antwort | Objekt | Ja | Antwortobjekt von `getOffers()`.<br>Siehe Anfragetabelle unten. |
 
 ## Antwort
 
 >[!NOTE]
 >
->Informationen zu den zulässigen Typen für alle unten aufgeführten Felder finden Sie in der Dokumentation [zur](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) Versand-API.
+>Informationen zu den zulässigen Typen für alle unten aufgeführten Felder finden Sie in der [Versand-API-Dokumentation](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API).
 
 | Feldname | Beschreibung |
 | --- | --- |
