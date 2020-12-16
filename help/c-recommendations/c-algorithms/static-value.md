@@ -12,9 +12,9 @@ ht-degree: 48%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Statischer Filter
+# ![](/help/assets/premium.png) PREMIUMStatic Filter
 
-Geben Sie manuell einen oder mehrere statische Werte ein, um mithilfe von Einschlussregeln in zu filtern [!DNL Adobe Target][!DNL Recommendations].
+Geben Sie manuell einen oder mehrere statische Werte ein, um mithilfe von Einschlussregeln in [!DNL Adobe Target] [!DNL Recommendations] zu filtern.
 
 Empfehlen Sie zum Beispiel nur Inhalte mit einer MPA-Bewertung von &quot;G&quot;oder &quot;PG&quot;.
 
