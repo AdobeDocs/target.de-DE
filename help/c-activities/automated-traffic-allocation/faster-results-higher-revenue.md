@@ -18,13 +18,13 @@ Bei einer manuellen A/B-Aktivität verlieren Sie möglicherweise Konversionen, d
 
 ## Automatische Zuordnung von Traffic
 
-Wenn Sie möchten, dass das erfolgreichste Erlebnis öfter und früher in der Aktivität bereitgestellt wird und gleichzeitig die Einrichtungs- und Berechnungskosten für die Auswahl von Stichprobengrößen, Vertrauensniveaus und anderen statistischen Konzepten entfernt oder gesenkt werden, ist die [!UICONTROL automatische Zuordnung] die beste Option.
+Wenn Sie möchten, dass das erfolgreichste Erlebnis öfter und früher in der Aktivität bereitgestellt wird und gleichzeitig die Einrichtungs- und Berechnungskosten für die Auswahl von Stichprobengrößen, Vertrauensniveaus und anderen statistischen Konzepten entfernt oder gesenkt werden, ist [!UICONTROL Automatisierte Zuordnung] die beste Option.
 
 ## Wie funktioniert die automatische Zuordnung?
 
-[!UICONTROL Die automatische Zuordnung] verwendet das Prinzip des Multi-Armed Bandit. Wenn der Begriff nicht bekannt ist, ist ein einarmiger Bandit ein umgangssprachlicher Begriff für einen Spielautomaten (siehe: Las Vegas). Visualisieren Sie die automatische Zuordnung von Traffic als mit mehreren Stecknadelautomaten, in diesem Fall mit Testvarianten, und ziehen Sie zunächst alle Griffe gleich. Im Laufe der Zeit könnten eine oder mehrere Maschinen oder Testvarianten mehr auszahlen als andere. Wenn das passiert, würde ein Spieler natürlich Beginn die Griffe der Griffe ziehen, die öfter gewinnen. In Bezug auf die Traffic-Zuordnung [!DNL Adobe Target] werden mehr Besuchern das Erlebnis oder die Erlebnisse, die mehr gewinnen, bereitgestellt.
+[!UICONTROL Die automatische ] Zuordnung verwendet das Prinzip des Multi-Armed Bandit. Wenn der Begriff nicht bekannt ist, ist ein einarmiger Bandit ein umgangssprachlicher Begriff für einen Spielautomaten (siehe: Las Vegas). Visualisieren Sie die automatische Zuordnung von Traffic als mit mehreren Stecknadelautomaten, in diesem Fall mit Testvarianten, und ziehen Sie zunächst alle Griffe gleich. Im Laufe der Zeit könnten eine oder mehrere Maschinen oder Testvarianten mehr auszahlen als andere. Wenn das passiert, würde ein Spieler natürlich Beginn die Griffe der Griffe ziehen, die öfter gewinnen. In Traffic-Zuordnungsbegriffen liefert [!DNL Adobe Target] mehr Besuchern das Erlebnis oder die Erlebnisse, die mehr gewinnen.
 
-Betrachten Sie die folgende Abbildung einer zweiwöchigen A/B-Aktivität. Bei [!UICONTROL automatisierter Zuordnung]wird, sobald ein erfolgreiches Erlebnis entsteht, der Traffic zu diesem Gewinner frühzeitig im Test durch die [!UICONTROL Zielgruppe] umgeleitet.
+Betrachten Sie die folgende Abbildung einer zweiwöchigen A/B-Aktivität. Mit [!UICONTROL Automatisierte Zuordnung] leitet [!UICONTROL Zielgruppe], sobald ein erfolgreiches Erlebnis entsteht, &lt;a2/>den Traffic frühzeitig im Test zu diesem Gewinner weiter.
 
 ![Abbildung zur automatischen Zuordnung](/help/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 
@@ -34,15 +34,15 @@ Die Vorteile sind ziemlich klar: mehr Besucher sehen die Varianten, die am beste
 
 ## Wie könnte die automatisierte Zuordnung zu einem höheren Umsatz führen?
 
-[!UICONTROL Die automatisierte Zuordnung] findet den Gewinner schneller als eine manuelle A/B-Aufteilung und ermöglicht es Ihnen außerdem, diesen Gewinner sofort zu nutzen, um den Mehrwert zu erfassen, der bei einem herkömmlichen oder manuellen Ansatz verloren gegangen wäre. Da die [!UICONTROL automatisierte Zuordnung] mehr Traffic zum Erlebnis mit dem höchsten Konversionsrate leitet, kann sie Ihren Umsatz erhöhen, während die Aktivität ausgeführt wird und lernt.
+[!UICONTROL Die automatisierte ] Zuordnung findet den Gewinner schneller als eine manuelle A/B-Aufteilung und ermöglicht es Ihnen außerdem, diesen Gewinner sofort zu nutzen, um Umsätze aufzufangen, die bei einem herkömmlichen oder manuellen Ansatz verloren gegangen wären. Da [!UICONTROL Automatisierte Zuordnung] mehr Traffic zum Erlebnis mit dem höchsten Konversionsrate leitet, kann dies Ihren Umsatz steigern, während die Aktivität ausgeführt wird und lernt.
 
-Im folgenden Beispiel erzielte die [!UICONTROL automatisierte Zuordnung] während des Tests mehr Umsatz, indem mehr Traffic (40 %) zu Erlebnis D gedrängt wurde, das den höchsten Konversionsrat aufwies.
+Im folgenden Beispiel hat [!UICONTROL Automatisierte Zuordnung] während des Tests mehr Umsatz erzielt, indem mehr Traffic (40 %) zu Erlebnis D gedrängt wurde, das den höchsten Konversionsrate aufwies.
 
 ![Die automatische Zuordnung bietet eine bessere Darstellung des Umsatzes.](/help/c-activities/automated-traffic-allocation/assets/five-experiences.png)
 
 ## In welchen Fällen sollte ich bei der manuellen Traffic-Zuordnung bleiben?
 
-Wenn Sie die Rangfolge der einzelnen Erlebnisse im Vergleich zu den anderen festlegen müssen, ist ein manueller A/B-Test am besten geeignet. [!UICONTROL Die automatisierte Zuordnung] findet und nutzt die leistungsstärksten Erlebnisse, garantiert jedoch keine Differenzierung zwischen den leistungsschwächeren Erlebnissen. Sie sollten die manuelle Traffic-Zuordnung verwenden, um vollständig zu kontrollieren, wie viel Traffic in Ihrem Besucher die einzelnen Testvarianten sieht, und um die statistischen Schwellenwerte anzupassen, die für Ihr Unternehmen relevant sind.
+Wenn Sie die Rangfolge der einzelnen Erlebnisse im Vergleich zu den anderen festlegen müssen, ist ein manueller A/B-Test am besten geeignet. [!UICONTROL Die automatische ] Zuordnung findet und nutzt die leistungsstärksten Erlebnisse, garantiert jedoch keine Differenzierung zwischen den leistungsschwächeren Erlebnissen. Sie sollten die manuelle Traffic-Zuordnung verwenden, um vollständig zu kontrollieren, wie viel Traffic in Ihrem Besucher die einzelnen Testvarianten sieht, und um die statistischen Schwellenwerte anzupassen, die für Ihr Unternehmen relevant sind.
 
 ## Erste Schritte
 
