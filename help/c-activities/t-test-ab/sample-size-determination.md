@@ -14,35 +14,35 @@ ht-degree: 75%
 
 # Wie lange sollten A/B-Tests laufen?
 
-A successful [!UICONTROL A/B Test] activity requires an adequate number of visitors (sample size) to improve your conversion rate, but how do you know how long to run an A/B test? This article contains information about [!UICONTROL Auto-Allocate] activities and the [!UICONTROL Adobe Target] Sample Size Calculator to help you ensure that your activity has a sufficient number of visitors to achieve your goals.
+Für eine erfolgreiche [!UICONTROL A/B-Aktivität ist eine angemessene Anzahl von Besuchern (Stichprobengröße) erforderlich, um Ihr Konversionsrate zu verbessern. Wie wissen Sie jedoch, wie lange ein A/B-Test ausgeführt werden soll? ] Dieser Artikel enthält Informationen zu den Aktivitäten [!UICONTROL Automatische Zuordnung] und zum [!UICONTROL Adobe Target] Stichprobengrößenrechner, um sicherzustellen, dass Ihre Aktivität über eine ausreichende Anzahl von Besuchern verfügt, um Ihre Ziele zu erreichen.
 
 Es ist verlockend, einen Test zu stoppen, wenn eines der Angebote in den ersten Tagen der Aktivität deutlich besser oder schlechter abschneidet als die anderen. Wenn jedoch die Anzahl der Beobachtungen gering ist, ist die Wahrscheinlichkeit hoch, dass eine positive oder negative Steigerung nur zufällig beobachtet wurde, da die Konversionsrate als Durchschnitt einer geringen Besucherzahl ermittelt wurde. Wenn die Aktivität mehr Datenpunkte erfasst, nähern sich die Konversionsraten ihren eigentlichen, langfristigen Werten an.
 
 >[!IMPORTANT]
 >
->Das vorzeitige Abbrechen einer Aktivität ist eine der zehn bedeutenden Fallstricke, die Sie beim Durchführen von A/B-Tests möglicherweise als voreingenommen betrachten. Weitere Informationen finden Sie unter [Zehn häufige A/B-Testfallen und wie diese](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)vermieden werden können.
+>Das vorzeitige Abbrechen einer Aktivität ist eine der zehn bedeutenden Fallstricke, die Sie beim Durchführen von A/B-Tests möglicherweise als voreingenommen betrachten. Weitere Informationen finden Sie unter [Zehn häufige A/B-Testfallen und wie diese vermieden werden.](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)
 
 [!DNL Target] stellt Tools bereit, die sicherstellen, dass Ihre Aktivität über eine ausreichend große Stichprobengröße verfügt, um Ihre Konvertierungsziele zu erreichen: Automatische Zuordnung
 
 ## Automatisch zuweisen {#auto-allocate}
 
-An [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activity is a type of A/B test that identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
+Eine [Aktivität für die automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) ist ein Typ von A/B-Test, der einen Gewinner unter zwei oder mehr Erlebnissen identifiziert und automatisch mehr Traffic an den Gewinner weiterleitet, um die Konversionen zu erhöhen, während der Test weiter ausgeführt und gelernt wird.
 
 Mit A/B-Standardtests sind Kosten verbunden. Sie müssen Traffic generieren, um die Leistung jedes einzelnen Erlebnisses zu messen und durch Analysen die erfolgreichsten Erlebnisse zu ermitteln. Die Verteilung von Traffic bleibt auch dann festgelegt, wenn Sie erkennen, dass einige Erlebnisse andere übertreffen. Außerdem ist es schwierig, die Stichprobengröße korrekt zu bestimmen, und die Aktivität muss komplett durchlaufen, bevor Sie einen Sieger finden. Nachdem Sie all das durchgeführt haben, besteht immer noch die Möglichkeit, dass der ermittelte Sieger kein wirklicher Sieger ist.
 
-The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL Die Funktion „Automatisierte Zuordnung“ senkt diese Kosten sowie die Kosten für die Bestimmung eines erfolgreichsten Erlebnisses. ] [!UICONTROL Die Funktion „Automatisierte Zuordnung“ überwacht die Zielmetrikleistung aller Erlebnisse und sendet proportional mehr neue Teilnehmer an Erlebnisse mit einer hohen Leistung. ] Es wird ausreichend Traffic für die Erkundung der anderen Erlebnisse reserviert. Sie können die Vorteile der Aktivität auf Ihren Ergebnissen sehen, auch wenn die Aktivität noch ausgeführt wird: Optimierung erfolgt parallel zum Lernen.
+Die Lösung lautet [!UICONTROL Automatisierte Zuordnung]. [!UICONTROL Die Funktion „Automatisierte Zuordnung“ senkt diese Kosten sowie die Kosten für die Bestimmung eines erfolgreichsten Erlebnisses. ] [!UICONTROL Die Funktion „Automatisierte Zuordnung“ überwacht die Zielmetrikleistung aller Erlebnisse und sendet proportional mehr neue Teilnehmer an Erlebnisse mit einer hohen Leistung. ] Es wird ausreichend Traffic für die Erkundung der anderen Erlebnisse reserviert. Sie können die Vorteile der Aktivität auf Ihren Ergebnissen sehen, auch wenn die Aktivität noch ausgeführt wird: Optimierung erfolgt parallel zum Lernen.
 
 [!UICONTROL Die Funktion „Automatisierte Zuordnung“ überführt Besucher nach und nach zu den erfolgreichsten Erlebnissen, anstatt dass Sie mit dem Bestimmen eines Siegers warten müssen, bis die Aktivität abgeschlossen ist. ] Sie profitieren schneller von Steigerungen, da den Aktivitätsteilnehmern, die zu weniger erfolgreichen Erlebnissen geleitet worden wären, nun potenziell erfolgreiche Erlebnisse angezeigt werden.
 
 Bei der Verwendung der Funktion [!UICONTROL „Automatisierte Zuordnung“] zeigt [!DNL Target] oben auf der Seite der Aktivität ein Abzeichen mit „Noch kein Gewinner“ an, bis die Aktivität die Mindestanzahl an Konversionen mit ausreichender Konfidenz erreicht hat. [!DNL Target] bestimmt dann das erfolgreichste Erlebnis, indem oben auf der Aktivitätsseite ein entsprechendes Symbol angezeigt wird.
 
-For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+Weitere Informationen finden Sie unter [Übersicht über die automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Adobe Target-Stichprobengrößenrechner  {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe Target-Stichprobengrößenrechner   {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-If you choose to use a manual [!UICONTROL A/B Test] activity rather than [!UICONTROL Auto-Allocate], the [!DNL Target] Sample Size Calculator helps you determine the sample size needed for a successful test. Ein manueller A/B-Test ist ein fester Horizonttest, daher ist der Rechner äußerst hilfreich. Die Verwendung des Rechners für eine [!UICONTROL Aktivität mit automatisierter Zuordnung] ist optional, da die [!UICONTROL automatische Zuordnung] einen Gewinner erklärt. Der Rechner gibt Ihnen eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
+Wenn Sie anstelle der Aktivität [!UICONTROL A/B-Test] statt [!UICONTROL Automatische Zuordnung] einen manuellen &lt;a1/> verwenden, hilft Ihnen der [!DNL Target] Stichprobengrößenrechner bei der Ermittlung der Stichprobengröße, die für einen erfolgreichen Test erforderlich ist. Ein manueller A/B-Test ist ein fester Horizonttest, daher ist der Rechner äußerst hilfreich. Die Verwendung des Taschenrechners für eine [!UICONTROL Aktivität mit automatischer Zuordnung] ist optional, da [!UICONTROL Automatisierte Zuordnung] einen Gewinner erklärt. Der Rechner gibt Ihnen eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
-Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
+Bevor Sie Ihren A/B-Test einrichten, rufen Sie den Adobe Target [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html) auf.
 
 ![Adobe Target-Stichprobengrößenrechner](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -74,7 +74,7 @@ Es ist wünschenswert, keine Falsch-Positiv-Werte bzw. Falsch-Negativ-Werte zu e
 
 Das Signifikanzniveau eines Tests bestimmt, wie wahrscheinlich es ist, dass der Test einen signifikanten Unterschied in den Konversionsraten zwischen zwei verschiedenen Angeboten meldet, wenn es tatsächlich keinen echten Unterschied gibt. Dies wird als falsch-positiv bzw. als Fehler 1. Art bezeichnet. Das Signifikanzniveau ist ein vom Anwender angegebener Schwellenwert und stellt einen Trade-off zwischen der Toleranz für Falsch-Positiv-Werte und der Anzahl der Besucher dar, die in den Test einbezogen werden müssen.
 
-Bei einem A/B-Test wird zunächst angenommen, dass beide Angebote dieselbe Konversionsrate aufweisen. Anschließend wird die Wahrscheinlichkeit des beobachteten Ergebnisses auf Basis dieser Annahme berechnet. If this probability (the p-value) is smaller than some predefined threshold (the significance level), [!DNL Target] concludes that the initial assumption--that both offers have the same conversion rate--is incorrect and, therefore, the conversion rates of A and B are statistically different at the given significance level.
+Bei einem A/B-Test wird zunächst angenommen, dass beide Angebote dieselbe Konversionsrate aufweisen. Anschließend wird die Wahrscheinlichkeit des beobachteten Ergebnisses auf Basis dieser Annahme berechnet. Wenn diese Wahrscheinlichkeit (der p-Wert) kleiner als ein vordefinierter Schwellenwert (das Signifikanzniveau) ist, kommt [!DNL Target] zu dem Schluss, dass die ursprüngliche Annahme - dass beide Angebot dasselbe Konversionsrate haben - nicht korrekt ist und die Konversionsraten von A und B daher auf der angegebenen Signifikanzstufe statistisch unterschiedlich sind.
 
 Ein allgemein übliches Signifikanzniveau bei A/B-Tests beträgt 5 %, was einem Konfidenzniveau von 95 % entspricht (Konfidenzniveau = 100 % - Signifikanzniveau). Ein Konfidenzniveau von 95 % bedeutet, dass Sie jedes Mal, wenn Sie einen Test durchführen, mit einer Wahrscheinlichkeit von 5 % eine statistisch signifikante Steigerung beobachten werden, auch wenn kein Unterschied zwischen den Angeboten besteht.
 
@@ -138,11 +138,11 @@ In diesem Beispiel könnten Sie entscheiden, dass die Möglichkeit, eine Steiger
 
 Auch hier wird in jedem Fall empfohlen, die erforderliche Zeit auf eine ganze Woche aufzurunden, um Wochentagseffekte zu vermeiden. In diesem Beispiel würde der Test vor der Auswertung der Ergebnisse über zwei Wochen ausgeführt werden.
 
-### Umsatz-pro-Besuch-Metrik  {#section_C704C0861C9B4641AB02E911648D2DC2}
+### Umsatz-pro-Besuch-Metrik   {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Bei Nutzung des Umsatzes pro Besuch (Revenue per Visit - RPV) als Metrik wird eine weitere Streuungsquelle hinzugefügt, da RPV das Produkt aus Umsatz pro Bestellung und Konversionsrate ist (RPV = Umsatz / Anzahl der Besucher = (Umsatz pro Bestellung x Anzahl der Bestellungen) / Anzahl der Besucher = Umsatz pro Bestellung x (Anzahl der Besucher x CTR) / Anzahl der Besucher = Umsatz pro Bestellung x CTR), mit der jeweils eigenen Varianz. Die Varianz des Konversionsraten kann direkt mithilfe eines mathematischen Modells geschätzt werden, aber die Varianz des Umsatzes pro Bestellung ist für die Aktivität spezifisch. Verwenden Sie daher das Wissen über diese Varianz aus früheren Aktivitäten oder führen Sie den A/B-Test einige Tage aus, um die Varianz des Umsatzes zu schätzen. Die Varianz wird anhand der Werte &quot;Summe des Umsatzes&quot;, &quot;Summe des Umsatzes im Quadrat&quot;und &quot;Anzahl der Besucher&quot;berechnet, die in der CSV-Download-Datei enthalten sind. Verwenden Sie anschließend die Tabelle, um die erforderliche Zeit zum Abschluss des Tests zu berechnen.
 
-Der Stichprobengrößenrechner (Link siehe oben) kann Ihnen dabei helfen, die RPV-Metrik zu konfigurieren. When you open the calculator, you&#39;ll see a tab labeled [!UICONTROL RPV Metric]. Sie benötigen die folgenden Informationen, wenn Sie die RPV-Version des Rechners verwenden:
+Der Stichprobengrößenrechner (Link siehe oben) kann Ihnen dabei helfen, die RPV-Metrik zu konfigurieren. Wenn Sie den Rechner öffnen, sehen Sie eine Registerkarte mit der Bezeichnung [!UICONTROL RPV-Metrik]. Sie benötigen die folgenden Informationen, wenn Sie die RPV-Version des Rechners verwenden:
 
 * Anzahl der Besucher des Kontrollangebots
 * Gesamtumsatz des Kontrollangebots
@@ -155,12 +155,12 @@ Der Stichprobengrößenrechner (Link siehe oben) kann Ihnen dabei helfen, die RP
 
 Im Allgemeinen erfordert die Verwendung von RPV als Metrik 20-30 % länger, um das gleiche Niveau an statistischer Konfidenz für dieselbe Stufe der gemessenen Steigerung zu erreichen. Dies liegt daran, dass RPV die zusätzliche Varianz unterschiedlicher Bestellgrößen pro Konversion aufweist. Dies sollte bei der Auswahl zwischen gerader Konversionsrat und RPV als Metrik, auf der Ihre endgültige Geschäftsentscheidung basiert, berücksichtigt werden.
 
-## Correction for comparing multiple offers {#section_1474113764224D0B85472D8B023CCA15}
+## Korrektur für den Vergleich mehrerer Angebot {#section_1474113764224D0B85472D8B023CCA15}
 
 Jedes Mal, wenn Sie zwei Angebote vergleichen, entspricht die Wahrscheinlichkeit eines Falsch-Positiv-Werts (Beobachtung eines statistisch signifikanten Unterschieds, auch wenn es keinen Unterschied bei der Konversionsrate gibt) dem Signifikanzniveau. Wenn zum Beispiel fünf Angebote A/B/C/D/E vorliegen und es sich bei A um das Kontrollangebot handelt, werden vier Vergleiche vorgenommen (Kontrolle zu B, Kontrolle zu C, Kontrolle zu D und Kontrolle zu E) und die Wahrscheinlichkeit eines Falsch-Positiv-Werts beträgt 18,5 %, selbst wenn das Konfidenzniveau 95 % beträgt, da Pr (mindestens ein Falsch-Positiv-Wert) = 1 - Pr (keine Falsch-Positiv-Werte) = 1 - 0,95 = 18,5 %. Als Falsch-Positiv-Wert gilt in diesem Zusammenhang, wenn der Kontrollwert besser als die Alternative bzw. wenn die Alternative besser als der Kontrollwert ausfällt, auch wenn es tatsächlich keinen Unterschied zwischen diesen Werten gibt.
 
-## Schlussfolgerung  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Schlussfolgerung   {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-By using an [!UICONTROL Auto-Allocate] activity, [!DNL Target] identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn. [!UICONTROL Mit der automatischen Zuordnung erreichen Sie Ihre Konversionsziele ohne Aufwand und Ungewissheit.]
+Durch die Verwendung der Aktivität [!UICONTROL Automatisierte Zuordnung] identifiziert [!DNL Target] einen Gewinner unter zwei oder mehr Erlebnissen und weist automatisch mehr Traffic an den Gewinner zurück, um die Konversionen zu erhöhen, während der Test weiter ausgeführt und gelernt wird. [!UICONTROL Mit der automatischen Zuordnung erreichen Sie Ihre Konversionsziele ohne Aufwand und Ungewissheit.]
 
 Durch die Verwendung des in diesem Artikel vorgestellten Stichprobenkalkulators (Link siehe oben) und die Durchführung des Tests über den empfohlenen Zeitraum können Sie sicherstellen, dass Sie jederzeit hochwertige A/B-Tests durchführen, welche die Falsch-positiv- und Falsch-negativ-Raten berücksichtigen, die Sie für den spezifischen Test als angemessen festgelegt haben. Dadurch wird gewährleistet, dass Ihre Tests konsistent und in der Lage sind, die von Ihnen gewünschte Steigerung zuverlässig zu ermitteln.
