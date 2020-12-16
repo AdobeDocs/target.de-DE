@@ -36,7 +36,7 @@ Informationen über die Aufgaben, die Sie für ein Asset in der Inhalte-Biblioth
 
 1. Klicken Sie zum Ändern des Bildes, das für ein Element in der Bibliothek steht, auf das Element und anschließend auf das Symbol **[!UICONTROL Eigenschaften]**. Klicken Sie dann auf **[!UICONTROL Bearbeiten]** und fügen Sie ein Bild hinzu.
 
-## Schulungsvideo: Abzeichen &quot;Content Repository- ![Übersicht&quot;](/help/assets/overview.png)
+## Schulungsvideo: Inhaltsverzeichnis ![Kennzeichen ](/help/assets/overview.png)
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden. (4:56)
 
