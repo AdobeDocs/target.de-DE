@@ -25,9 +25,9 @@ Verwenden Sie zum Verwalten des Ziels, der Priorität und der Dauer Ihrer Aktivi
 
    Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
-   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+   Wenn diese Option in [!UICONTROL Administration] > [!UICONTROL Berichte] (Standard) nicht aktiviert ist, geben Sie eine Priorität an: Niedrig, mittel oder hoch.
 
-   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
+   Klicken Sie zum Aktivieren der Feinabstufungen auf [!UICONTROL Administration] > [!UICONTROL Berichte] und schalten Sie dann die Option [!UICONTROL Feinkörnige Prioritäten aktivieren] auf die Position &quot;Ein&quot;.
 
    Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest:
 
@@ -56,7 +56,7 @@ Auf der Seite [!UICONTROL „Ziele und Einstellungen“] befinden sich zusätzli
 * [Multivarianz-Test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommendations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Schulungsvideo: Aktivitätseinstellungen ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Aktivitätseinstellungen  ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
