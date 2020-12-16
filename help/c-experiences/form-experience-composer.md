@@ -31,9 +31,9 @@ Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. W�
 1. Benennen Sie die Aktivität.
 1. Wählen Sie einen Standort aus.
 
-   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. Wählen Sie einen dieser Standorte aus. Zur Auswahl des globalen Standorts, der über target.js bereitgestellt wurde, wählen Sie „target-global-mbox“.
+   Wenn Sie in das Feld [!UICONTROL Standort auswählen] klicken, wird eine Liste der verfügbaren Standorte angezeigt. Wählen Sie einen dieser Standorte aus. Zur Auswahl des globalen Standorts, der über target.js bereitgestellt wurde, wählen Sie „target-global-mbox“.
 
-   Sie können auch einen Standort eingeben, der hier nicht aufgelistet ist. Dies kann sich als nützlich erweisen, wenn die Mbox noch nicht erstellt oder auf einer Seite angezeigt wurde. Geben Sie den Namen des Orts ein. Seien Sie vorsichtig, wenn Sie einen Standort eingeben, der noch nicht vorhanden ist. Wenn die Schreibweise oder Groß-/Kleinschreibung nicht mit der Schreibweise oder Groß-/Kleinschreibung bei Mbox-Aufruf übereinstimmt, dann wird die Aktivität nicht bereitgestellt. Manuell eingegebene Orte werden in der Liste der verfügbaren Orte gespeichert. Wenn Sie das nächste Mal versuchen, eine manuell eingegebene Position auszuwählen, ist diese in der Dropdown-Liste [!UICONTROL Standort] auswählen für diese Aktivität verfügbar.
+   Sie können auch einen Standort eingeben, der hier nicht aufgelistet ist. Dies kann sich als nützlich erweisen, wenn die Mbox noch nicht erstellt oder auf einer Seite angezeigt wurde. Geben Sie den Namen des Orts ein. Seien Sie vorsichtig, wenn Sie einen Standort eingeben, der noch nicht vorhanden ist. Wenn die Schreibweise oder Groß-/Kleinschreibung nicht mit der Schreibweise oder Groß-/Kleinschreibung bei Mbox-Aufruf übereinstimmt, dann wird die Aktivität nicht bereitgestellt. Manuell eingegebene Orte werden in der Liste der verfügbaren Orte gespeichert. Wenn Sie das nächste Mal versuchen, einen manuell eingegebenen Ort auszuwählen, ist dieser in der Dropdown-Liste [!UICONTROL Ort auswählen] für diese Aktivität verfügbar.
 
    >[!NOTE]
    >
@@ -94,14 +94,14 @@ Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. W�
 
    ![](assets/change_criteria_2.png)
 
-1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
-1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
+1. (Optional für AB-Aktivitäten, Automated Personalization und Erlebnis-Targeting) Um diesen Vorgang für weitere Orte zu wiederholen, klicken Sie auf **[!UICONTROL Hinzufügen Ort]** und konfigurieren Sie den Ort und den Inhalt.
+1. Klicken Sie auf **[!UICONTROL Weiter]** und führen Sie dann wie gewohnt die Schritte zur Erstellung der Aktivität für Ihren Aktivität-Typ aus.
 
 * [Erstellen eines A/B-Tests](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Erstellen einer Erlebnis-Targeting-Aktivität](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Erstellen einer Recommendations-Aktivität](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Schulungsvideo: Form-Based Composer ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Form-Based Composer  ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Im folgenden Video wird der Form-Based Experience Composer vorgeführt.
 
