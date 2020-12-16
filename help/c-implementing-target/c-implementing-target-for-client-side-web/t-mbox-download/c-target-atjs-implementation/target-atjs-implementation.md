@@ -59,7 +59,7 @@ Sie können [!DNL at.js] überall einsetzen, wo Sie aktuell [!DNL mbox.js] verwe
 
 * Speziell für Einzelseiten-Apps/MVC-Rahmen entwickelte Funktionen
 
-## Schulungsvideo: Vorteile von at.js und Best Practices bei der Implementierung ![Übersichtskennzeichnung](/help/assets/overview.png)
+## Schulungsvideo: Vorteile von at.js und Best Practices bei der Implementierung  ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 Dieses Video ist eine Aufzeichnung von „[Office Hours](/help/cmp-resources-and-contact-information.md)“, einer Initiative der Adobe-Kundenunterstützung.
 
