@@ -36,7 +36,7 @@ Im Folgenden finden Sie einige Szenarien, in denen möglicherweise Datenabweichu
 
    Eine vollständige Liste der Aktivitätstypen, die A4T unterstützen, finden Sie unter [Unterstützte Aktivitätstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
-## Erwartete Datenabweichungen bei der *Nichtverwendung* von A4T  {#expected-not-using-a4t}
+## Erwartete Datenabweichungen bei der *Nichtverwendung* von A4T   {#expected-not-using-a4t}
 
 Abweichungen von 15–20 % sind normal, selbst mit ähnlichen Datensätzen. Systeme, die unterschiedlich zählen, können deutlich höhere Datenabweichungen von bis zu 35–50 % aufweisen. In manchen Fällen können Abweichungen sogar noch höher ausfallen.
 
@@ -48,7 +48,7 @@ Berichte in [!DNL Target] zeigen die Leistung basierend auf der Konversions-Mbox
 
 Erwartete Datenabweichungen können sowohl technischer als auch geschäftlicher Natur sein.
 
-### Beispiele technischer Abweichungen  {#section_C3B50ED2E2F9416FAC91437CF1A87369}
+### Beispiele technischer Abweichungen   {#section_C3B50ED2E2F9416FAC91437CF1A87369}
 
 Datenabweichungen können durch folgende technische Unterschiede entstehen:
 
@@ -58,7 +58,7 @@ Datenabweichungen können durch folgende technische Unterschiede entstehen:
 * Zeitzonen-Probleme
 * Unterschiede, auf welchen Geräten Zählungen möglich sind
 
-### Beispiele geschäftlicher Abweichungen  {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### Beispiele geschäftlicher Abweichungen   {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 Datenabweichungen können durch die folgenden geschäftlichen Unterschiede entstehen:
 
