@@ -26,7 +26,7 @@ Es gibt verschiedene Aktivitätseinrichtungsänderungen, welche die zum Erstelle
 * Gibt es einige Angebote oder Erlebnisse, die Sie aus Ihrer Aktivität ausschließen können? Wenn die Anzahl der Erlebnisse in einer Aktivität verringert wird, wird das Erstellen von Modellen beschleunigt.
 * Gibt es eine Seite mit höherem Traffic, auf der diese Aktivität erfolgreicher wäre? Je mehr Traffic und Konversionen an Ihren Aktivitätspositionen vorhanden sind, desto schneller werden die Modelle erstellt.
 
-## Die Aktivität meiner automatisierten Personalisierung generiert keine Steigerung.  {#section_8900BC8968474438B8092F7A94C0C6CF}
+## Die Aktivität meiner automatisierten Personalisierung generiert keine Steigerung.   {#section_8900BC8968474438B8092F7A94C0C6CF}
 
 Es sind verschiedene Faktoren erforderlich, damit eine Aktivität vom Typ „Automatisierte Personalisierung“ eine Steigerung generiert:
 
@@ -37,15 +37,15 @@ Es sind verschiedene Faktoren erforderlich, damit eine Aktivität vom Typ „Aut
 
 **Lösung:** Es empfiehlt sich zunächst mithilfe eines einfachen, nicht personalisierten A/B-Tests sicherzustellen, dass der Inhalt und die Positionen aus denen die Aktivitätserlebnisse bestehen, wirklich einen Unterschied zu den Gesamtantwortraten darstellen. Berechnen Sie die Stichprobengrößen im Voraus, um sicherzustellen, dass eine ausreichende Leistung vorliegt, um eine angemessene Steigerung zu sehen. Führen Sie zudem den A/B-Test für eine feste Dauer aus, ohne ihn anzuhalten oder Änderungen vorzunehmen. Wenn in den Ergebnissen eines A/B-Tests eine signifikante Steigerung von mindestens einem Erlebnis gezeigt wird, ist es wahrscheinlich, dass eine personalisierte Aktivität funktioniert. Natürlich kann die Personalisierung selbst dann funktionieren, wenn keine Unterschiede in den Gesamtantwortraten der Erlebnisse vorliegen. Das Problem geht in der Regel auf Angebote/Positionen zurück, die sich nicht stark genug auf das mit statistischer Bedeutung zu ermittelnde Optimierungsziel auswirken.
 
-## Die Aktivitäts-URL meiner automatisierten Personalisierung zeigt Angebotsinhalte auf falschen Seiten an.  {#section_82A224406DBF4107B05204BEFBBE458C}
+## Die Aktivitäts-URL meiner automatisierten Personalisierung zeigt Angebotsinhalte auf falschen Seiten an.   {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Sobald sich ein Benutzer für eine Aktivität qualifiziert hat, werden die Targeting-Regeln auf Zielgruppe-Anforderungsebene nicht erneut bewertet. Die Zielgruppe wird jedoch zu Standort-Targeting-Regeln hinzugefügt.
+In AP werden die URL- und Vorlagentestregeln der Anforderungseingabebeschränkung [!DNL Target] hinzugefügt (z. B. Zielgruppe-global-mbox), wo sie nur einmal ausgewertet werden. Sobald sich ein Benutzer für eine Aktivität qualifiziert hat, werden die Targeting-Regeln auf Zielgruppe-Anforderungsebene nicht erneut bewertet. Die Zielgruppe wird jedoch zu Standort-Targeting-Regeln hinzugefügt.
 
 **Lösung:** Fügen Sie die erforderlichen Vorlagenregeln als Eingabezielgruppe der Kampagne hinzu. Eine Zielgruppenprüfung findet bei jeder Anforderung/jedem Aufruf statt.
 
 Dieses Problem wird in einer kommenden Aktualisierung behoben.
 
-## Die von einer Konversionsmetrik abhängigen Metriken werden nicht konvertiert.  {#section_076D1F44298C4E4A849AC52F5A33214D}
+## Die von einer Konversionsmetrik abhängigen Metriken werden nicht konvertiert.   {#section_076D1F44298C4E4A849AC52F5A33214D}
 
 Dieses Ergebnis ist zu erwarten.
 
@@ -53,7 +53,7 @@ Bei einer automatisierten Personalisierungsaktivität wird der Benutzer von dem 
 
 Nehmen wir zum Beispiel an, dass eine Aktivität mit einer Konversionsmetrik (C1) und einer zusätzlichen Metrik (A1) besteht. A1 ist abhängig von C1. Wenn ein Besucher die Aktivität das erste Mal antrifft und die Kriterien zum Konvertieren von A1 und C1 nicht konvertiert werden, wird die Metrik A1 aufgrund der Erfolgsmetrikabhängigkeit nicht konvertiert. Wenn der Besucher C1 konvertiert und erst danach A1, wird A1 auch dann nicht konvertiert, da der Besucher abgekoppelt wird, sobald C1 konvertiert ist.
 
-## Meine Erlebnis-URLs funktionieren nicht erwartungsgemäß.  {#section_7B08DA1F30AA483E9406336DAF361BA4}
+## Meine Erlebnis-URLs funktionieren nicht erwartungsgemäß.   {#section_7B08DA1F30AA483E9406336DAF361BA4}
 
 * Wenn Sie die Vorschau nicht auf der neuen Registerkarte anzeigen können (aufgrund des Browser-Caches), aktualisieren Sie die Seite zwei- oder dreimal oder kopieren Sie den Link und öffnen Sie ihn in einem neuen Browser oder in einer neuen Sitzung.
 * Generieren Sie die Erlebnis-URL-Links erneut, wenn Sie Inhalte geändert haben, und geben Sie die neuen Links für Ihre Teamkollegen frei.
