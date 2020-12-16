@@ -40,7 +40,7 @@ Bei der Arbeit mit Zielgruppen, die ursprünglich in AAM erstellt wurden, werden
 * Wenn eine Zielgruppe in AAM gelöscht wurde, wird sowohl in der Liste [!UICONTROL „Zielgruppe“] als auch in der Zielgruppenauswahl ein Warnsymbol angezeigt. Darüber hinaus gibt eine QuickInfo an, dass die Zielgruppe in AAM gelöscht wurde.
 * Wenn Sie versuchen, mehrere Zielgruppen mit einer gelöschten Zielgruppe zu kombinieren oder eine Aktivität zu speichern, die auf eine gelöschte Zielgruppe verweist, wird eine Warnmeldung angezeigt.
 
-Sie können auch benutzerdefinierte Profilparameter und `user.`-Parameter als Ziel auswählen. When adding an audience, click **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. Wird der gewünschte Parameter nicht angezeigt, wurde er nicht von einer Mbox ausgelöst. In der Dropdownliste [!UICONTROL Benutzerdefinierte Parameter] sind weitere benutzerdefinierte Mbox-Parameter verfügbar.
+Sie können auch benutzerdefinierte Profilparameter und `user.`-Parameter als Ziel auswählen. Klicken Sie beim Hinzufügen einer Audience auf **[!UICONTROL Hinzufügen Regel]** > **[!UICONTROL Besucher-Profil]** und wählen Sie dann den Parameter, den Sie zur Zielgruppe Ihrer Aktivität verwenden möchten. Wird der gewünschte Parameter nicht angezeigt, wurde er nicht von einer Mbox ausgelöst. In der Dropdownliste [!UICONTROL Benutzerdefinierte Parameter] sind weitere benutzerdefinierte Mbox-Parameter verfügbar.
 
 Durchsuchen Sie die [!UICONTROL Zielgruppenliste] über das Suchfeld. Sie können nach einem beliebigen Teil des Zielgruppennamens suchen oder eine bestimmte Zeichenfolge in Anführungszeichen setzen.
 
@@ -81,7 +81,7 @@ Berücksichtigen Sie beim Arbeiten mit importierten Zielgruppen Folgendes:
 * Ausdrucksziel-Zielgruppen werden in Target Standard/Premium nicht mehr unterstützt.
 * Target Standard/Premium unterstützt einige veraltete Zielgruppen nicht oder verfügt über verbesserte Operatoren zur einfachen Nutzung. Daher bedeutet die Definition einer importierten Zielgruppe trotz definitionsgemäßer Funktion nicht zwingendermaßen, dass dieselbe nun für die Erstellung in der Standard/Premium-Schnittstelle verfügbar ist. Beispielsweise sind soziale Zielgruppen zwar mit den zugehörigen Regeln sichtbar, aber Target Standard/Premium lässt die Erstellung sozialer Zielgruppen nicht zu.
 
-## Schulungsvideo: Verwenden von Zielgruppen ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Verwenden von Zielgruppen  ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppen.
 
