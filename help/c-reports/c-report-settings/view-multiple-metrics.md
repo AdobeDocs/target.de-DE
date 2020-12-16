@@ -14,14 +14,14 @@ ht-degree: 61%
 
 # Anzeigen mehrerer Metriken in einem Bericht{#view-multiple-metrics-in-a-report}
 
-Sie können mehrere zu Ansicht Metriken in einem [!DNL Adobe Target] Bericht auswählen.
+Sie können mehrere zu Ansicht Metriken in einem [!DNL Adobe Target]-Bericht auswählen.
 
 Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Informationen:
 
-* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md), and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
-* You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
+* Die Möglichkeit zur Ansicht mehrerer Metriken ist nur für die Aktivitäten [A/B-Test](/help/c-activities/t-test-ab/test-ab.md), [Automatisierte Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Automatische Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md) und [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) verfügbar.
+* Sie können einem Bericht nicht mehr als 20 Metriken für eine Aktivität hinzufügen, die [Analytics für Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwendet. Sie können für Aktivitäten, die A4T verwenden, so viele Metriken wie in Ihrer Aktivität hinzufügen, die *nicht* verwenden.
 * Wenn Sie mehrere Metriken ausgewählt haben, können Sie die Option [](/help/c-reports/downloading-data-in-csv-file.md)Download nicht zum Herunterladen von Berichten in CSV verwenden. Zum Aktivieren der Option [!UICONTROL Download] dürfen Sie nur eine einzelne Metrik auswählen.
-* You cannot view multiple metrics for activities created before the July 2015 [!DNL Target] release (July 30, 2015).
+* Für Aktivitäten, die vor der [!DNL Target]-Version vom Juli 2015 (30. Juli 2015) erstellt wurden, können nicht mehrere Metriken Ansicht werden.
 
 **So wählen Sie mehrere Metriken für die Anzeige im Bericht aus:**
 
@@ -42,10 +42,10 @@ Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Info
 
    Die Liste [!UICONTROL Angezeigte Metriken] muss mindestens eine Metrik enthalten.
 
-   Sie können die Metriken neu anordnen, indem Sie sie per Drag-and-drop in der Liste [!UICONTROL Angezeigte Metriken] in die gewünschte Reihenfolge bringen. The selected order will be reflected in the [!UICONTROL Table View] and [!UICONTROL Graph View]. Wenn Sie eine Metrik aus der Liste [!UICONTROL Angezeigte Metriken] entfernen möchten, bewegen Sie Ihren Mauszeiger über die Metrik und klicken Sie dann auf das **X**-Symbol.
+   Sie können die Metriken neu anordnen, indem Sie sie per Drag-and-drop in der Liste [!UICONTROL Angezeigte Metriken] in die gewünschte Reihenfolge bringen. Die ausgewählte Reihenfolge wird in der [!UICONTROL Ansicht] und [!UICONTROL Grafik-Ansicht] angezeigt. Wenn Sie eine Metrik aus der Liste [!UICONTROL Angezeigte Metriken] entfernen möchten, bewegen Sie Ihren Mauszeiger über die Metrik und klicken Sie dann auf das **X**-Symbol.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
-1. (Conditional) While viewing the report in the [!UICONTROL Table View], hover your mouse pointer on any metric&#39;s column header to display a blue arrow. Klicken Sie auf den Pfeil, um die Tabelle zu erweitern und [!UICONTROL Lift] und [!UICONTROL Vertrauen] für die jeweilige Metrik anzuzeigen.
+1. (Bedingt) Bewegen Sie beim Anzeigen des Berichts in der Ansicht [!UICONTROL Tabelle] den Mauszeiger auf die Spaltenüberschrift einer Metrik, um einen blauen Pfeil anzuzeigen. Klicken Sie auf den Pfeil, um die Tabelle zu erweitern und [!UICONTROL Lift] und [!UICONTROL Vertrauen] für die jeweilige Metrik anzuzeigen.
 
    ![](assets/multiple_metrics_table.png)
 
