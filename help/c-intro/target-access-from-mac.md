@@ -18,11 +18,11 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 ## Melden Sie sich bei Adobe Target an und legen Sie Ihre Standardansicht fest.
 
-1. Melden Sie sich beim [Adobe Experience Cloud](https://experience.adobe.com/)an.
+1. Melden Sie sich bei [Adobe Experience Cloud](https://experience.adobe.com/) an.
 
 1. Klicken Sie in der Navigationsleiste auf das **[!UICONTROL App-Symbol]** und dann auf **[!UICONTROL Zielgruppe]**.
 
-   Sie können auch auf das [!DNL Target] Bedienfeld im Hauptfenster klicken, um auf [!DNL Target] (oder eine andere [!DNL Adobe Experience Cloud] Lösung, auf die Sie Zugriff haben) zuzugreifen.
+   Sie können auch auf das Bedienfeld [!DNL Target] im Hauptfenster klicken, um auf [!DNL Target] (oder eine andere [!DNL Adobe Experience Cloud]-Lösung, auf die Sie Zugriff haben) zuzugreifen.
 
    ![Anwendungssymbol](/help/c-intro/assets/appmenu-new.png)
 
@@ -32,15 +32,15 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 ## Standardsprache für die Target-Benutzeroberfläche ändern {#language}
 
-1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
+1. Klicken Sie nach der Anmeldung bei [!DNL Adobe Experience Cloud ] oder [!DNL Target] auf Ihren Profil Avatar und dann auf **[!UICONTROL Voreinstellungen bearbeiten]**.
 
    ![Profil bearbeiten](/help/c-intro/assets/change-language.png)
 
-1. Klicken Sie auf **[!UICONTROL Adobe-Konto]** , um auf Ihr [!DNL Adobe] Profil zuzugreifen.
+1. Klicken Sie auf **[!UICONTROL Adobe-Konto]**, um auf Ihr [!DNL Adobe]-Profil zuzugreifen.
 
    ![Adoben-Konto](/help/c-intro/assets/adobe-account.png)
 
-1. Klicken Sie in der oberen Menüleiste auf die Registerkarte &quot; **[!UICONTROL Benachrichtigungen]** &quot;und anschließend auf die Registerkarte &quot; **[!UICONTROL Voreinstellungen]** &quot;.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Benachrichtigungen]** in der oberen Menüleiste und dann auf die Registerkarte **[!UICONTROL Voreinstellungen]** auf der linken Seite.
 
    ![Bevorzugte Sprachen](/help/c-intro/assets/prefered-language.png)
 
@@ -48,7 +48,7 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 1. Wählen Sie Ihre erste (primäre) Sprache aus und wählen Sie dann ggf. eine zweite Sprache aus.
 
-   Die [!DNL Target] Benutzeroberfläche ist in den folgenden Sprachen verfügbar: Die Benachrichtigungen sind jedoch in mehr Sprachen verfügbar:
+   Die Benutzeroberfläche [!DNL Target] ist in den folgenden Sprachen verfügbar: Die Benachrichtigungen sind jedoch in mehr Sprachen verfügbar:
 
    * Englisch
    * Spanisch
