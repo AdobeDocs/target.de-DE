@@ -58,7 +58,7 @@ Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Ta
 
    ![](assets/propensity_score_4.png)
 
-## Kennzeichen ![für Schulungsvideo](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Schulungsvideo ![Kennzeichen ](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Das folgende Video enthält weitere Informationen sowie ein Szenario, in dem Sie diese Funktion einsetzen könnten:
 
