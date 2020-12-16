@@ -22,7 +22,7 @@ Definieren und aktualisieren Sie eine Mbox in Adobe Target.
 
 `mboxDefine()` und `mboxCreate()` sind an „DIV“-HTML-Elemente gebunden, in denen das Angebot angezeigt werden soll. Diese Elemente sollten die Klasse `mboxDefault` aufweisen. Wenn diese Klasse nicht an die HTML-Elemente angefügt wird, tritt möglicherweise ein deutliches Flackern auf.
 
-## mboxDefine  {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
+## mboxDefine   {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
 Erstellt eine interne Zuordnung zwischen einer „nodeid“ und einem Mbox-Namen, führt die Anforderung jedoch nicht aus Die Funktion kommt in der Regel zusammen mit `mboxUpdate()` zum Einsatz. Sie wurde vor allem deswegen in [!DNL at.js] integriert, um die Umstellung von [!DNL mbox.js] auf [!DNL at.js] zu erleichtern.
 
