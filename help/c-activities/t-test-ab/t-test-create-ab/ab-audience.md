@@ -48,7 +48,7 @@ Sie können sich außerdem dafür entscheiden, Target  [automatisch Traffic zuwe
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Verwenden von Zielgruppen in Adobe Target (6:21) ![Übersichtskennzeichnung](/help/assets/overview.png)
+### Verwenden von Zielgruppen in Adobe Target (6:21)  ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/Premium] einsetzen lassen.
 
@@ -60,7 +60,7 @@ In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/P
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Aktivität Workflow - Targeting (2:14) - ![Tutorialzeichen](/help/assets/tutorial.png)
+### Arbeitsablauf der Aktivität - Targeting (2:14) ![Tutorial-Abzeichen](/help/assets/tutorial.png)
 
 In diesem Video sind Informationen zur Einrichtung von Zielgruppen enthalten.
 
