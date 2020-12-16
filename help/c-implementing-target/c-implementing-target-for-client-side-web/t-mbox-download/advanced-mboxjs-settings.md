@@ -26,13 +26,13 @@ Die folgenden Einstellungen sind verfügbar:
 
 Der Kundencode für Ihr Konto
 
-When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
+Bei Ansicht [!UICONTROL Administration > Implementierung] ist der Client oben der Client-Code für Ihr Konto.
 
 ## Zeitüberschreitung
 
 Zeitüberschreitung der Target-Anfrage.
 
-Wenn Sie [!UICONTROL Administration > Implementierung]anzeigen, ist die Einstellung Timeout (Sekunden) der Timeout-Wert Ihrer Zielgruppe. Standardmäßig ist dieser Wert auf 15 Sekunden festgelegt. Wir empfehlen jedoch, den Wert auf 2–5 Sekunden festzulegen.
+Wenn Sie [!UICONTROL Administration > Implementierung] anzeigen, ist die Einstellung für das Timeout (Sekunden) der Timeout-Wert für Ihre Zielgruppe. Standardmäßig ist dieser Wert auf 15 Sekunden festgelegt. Wir empfehlen jedoch, den Wert auf 2–5 Sekunden festzulegen.
 
 ## XDomain
 
