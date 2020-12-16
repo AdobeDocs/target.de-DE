@@ -20,4 +20,4 @@ Adobe Experience Platform Location Service (Location Service) ist ein Geo-Locati
 
 Sie können den Location Service mit Zielgruppe verwenden, um die Regeln in [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) zu nutzen, um Ihre Ortsdaten an Ihre Adobe Target SDK-Ereignis anzuhängen.
 
-Weitere Informationen finden Sie unter [Verwenden des Location Service mit Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) im Handbuch zum [Adobe Experience Platform Location Service](https://experienceleague.adobe.com/docs/places/using/home.html).
+Weitere Informationen finden Sie unter [Standortdienst mit Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) im Handbuch [Adobe Experience Platform-Standortdienst](https://experienceleague.adobe.com/docs/places/using/home.html).
