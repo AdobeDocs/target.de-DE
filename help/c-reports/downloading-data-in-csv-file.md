@@ -41,7 +41,7 @@ Die Daten werden bis zum Ende der Aktivität gespeichert.
 
 >[!NOTE]
 >
->Der CSV-Bericht enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>Der CSV-Bericht enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden. Um diese berechneten Metriken zu berechnen, laden Sie die Excel-Zielgruppe [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) herunter, um den Wert der Aktivität einzugeben, oder überprüfen Sie die [statistischen Berechnungen, die von Zielgruppe](/help/assets/statistical-calculations.pdf) verwendet werden.
 
 ## Bestelldetails als CSV exportieren {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -80,7 +80,7 @@ Der Bericht &quot;Bestelldetails&quot;enthält Informationen zu Ihren Bestellung
 * Werte, die über den `ProductPurchasedId`-Mbox-Parameter weitergegeben wurden, werden im Bestelldetailbericht aufgelistet.
 * Best Practice ist, eine `orderID` sowie eine `orderTotal` aufzunehmen. Dadurch können doppelte Bestellungen automatisch ignoriert werden.
 
-## Einschränkungen  {#section_49B9590904A645B18E694B4EFFFC1DEF}
+## Einschränkungen   {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
 Die folgenden Informationen gelten für den Download:
 
