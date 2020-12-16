@@ -12,23 +12,23 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Entity Attribute Match
+# ![](/help/assets/premium.png) PREMIUMEnty Attribute Matching
 
-Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
+Dynamische Filterung in [!DNL Adobe Target] [!DNL Recommendations] durch Vergleich eines Pools potenzieller Empfehlungselemente mit einem bestimmten Element, mit dem der Benutzer interagiert hat.
 
 >[!NOTE]
 >
->The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+>Der [Prozess zum Erstellen und Verwenden von Inklusionsregeln](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich wie die Anwendungsfälle und Beispiele.
 
 Empfehlen Sie beispielsweise nur Artikel, die mit der Marke des aktuellen Artikels übereinstimmen, wie im folgenden Beispiel:
 
-Wenn die mbox auf einer Landingpage mit einer Marke zurückgegeben wird `entity.brand=brandA`, werden nur Produkte der Marke A zurückgegeben und auf dieser Seite angezeigt. Ebenso werden bei der Landingpage Markenbezeichnung B nur Produkte der Marke B zurückgegeben. Bei diesem Typ von Regeln für die dynamische Inklusion muss der Benutzer nur eine Empfehlungsregel angeben, die die relevanten Markenergebnisse über alle Markenseiten hinweg zurückgibt, anstatt eine Sammlung oder einen statischen Filter anzugeben, der mit jedem Markennamen übereinstimmt.
+Wenn die mbox auf einer Landingpage mit einer Marke `entity.brand=brandA` zurückgibt, werden nur Produkte der Marke A zurückgegeben und auf dieser Seite angezeigt. Ebenso werden bei der Landingpage Markenbezeichnung B nur Produkte der Marke B zurückgegeben. Bei diesem Typ von Regeln für die dynamische Inklusion muss der Benutzer nur eine Empfehlungsregel angeben, die die relevanten Markenergebnisse über alle Markenseiten hinweg zurückgibt, anstatt eine Sammlung oder einen statischen Filter anzugeben, der mit jedem Markennamen übereinstimmt.
 
 Beachten Sie, dass Sie die `entity.brand` in der mbox auf diesen Landingpages bereitstellen müssen, damit dies funktioniert.
 
 ## Beispiele für die Zuordnung von Entitätsattributen
 
-[!UICONTROL Mit der Zuordnung] von Entitätsattributen können Sie nur die Elemente empfehlen, die übereinstimmen, z. B.:
+[!UICONTROL Mit ] der Zuordnung von Entitätsattributen können Sie nur die Elemente empfehlen, die übereinstimmen, z. B.:
 
 * Ein Attribut des Elements, das der Benutzer derzeit anzeigt
 * Der Artikel, den der Benutzer zuletzt angesehen hat
@@ -42,7 +42,7 @@ Nach der Erstellung der Entitätsattributregeln werden alle Empfehlungen mit Att
 
 Das folgende Beispiel zeigt Empfehlungen, die mit der auf der Seite angezeigten Produktmarke übereinstimmen:
 
-Wenn Sie eine Seite besuchen, die ein Produkt der Marke A enthält, setzt die Seite den Wert des `entity.brand` Parameters auf &quot;Marke A&quot;.
+Wenn Sie eine Seite besuchen, die ein Produkt der Marke A enthält, setzt die Seite den Wert des Parameters `entity.brand` auf &quot;Marke A&quot;.
 
 ![Beispielaufruf für Zielgruppen](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
@@ -50,7 +50,7 @@ In den Empfehlungen auf der Seite sehen Sie nur Produkte der Marke A.
 
 ![Empfehlungen für Marke A](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-Wenn Sie dann eine Ansicht einer Produkt-Seite der Marke B vornehmen, wird der `entity.brand` Wert auf &quot;Marke B&quot;zurückgesetzt, und Sie sehen die auf den Produktseiten der Marke B empfohlenen Produkte.
+Wenn Sie dann eine Produkt-Seite der Marke B Ansicht haben, wird der Wert `entity.brand` auf &quot;Marke B&quot;zurückgesetzt und Sie sehen die auf den Produktseiten der Marke B empfohlenen Produkte.
 
 ![Empfehlungen für Marke B](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
