@@ -38,15 +38,15 @@ Nachstehend sind die Ursachen für diese Fehlermeldung und die Lösungen zum Kor
 
 * **Problem:** Ihre Website-Domäne (ISP) blockiert den Enhanced Experience Composer.
 
-   **Lösung:** Zulassungsliste der oben aufgeführten IP-Adressen.
+   **Abhilfe:** Zulassungsliste der oben aufgeführten IP-Adressen.
 
-* **Problem:** Die IP-Adressen werden auf die Zulassungsliste gesetzt, aber Ihre Website unterstützt keine TLS Version 1.2. Zielgruppe verwendet derzeit die Standardkonfiguration 1.2. Vor der Zielgruppe 18.4.1 (25. April 2018) wurde TLS 1.0 von der Standardkonfiguration unterstützt. Weitere Informationen finden Sie unter Änderungen bei der Verschlüsselung von [TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **Problem:** Die IP-Adressen werden auf die Zulassungsliste gesetzt, aber Ihre Website unterstützt keine TLS Version 1.2. Zielgruppe verwendet derzeit die Standardkonfiguration 1.2. Vor der Zielgruppe 18.4.1 (25. April 2018) wurde TLS 1.0 von der Standardkonfiguration unterstützt. Weitere Informationen finden Sie unter Änderungen bei der Verschlüsselung von  [TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
    **Lösung:** Siehe die folgende Frage (Der Enhanced Visual Experience Composer wird auf sicheren Seiten auf meiner Website, für die TLS 1.2 verwendet wird, nicht geladen).
 
 ## Der EEC wird auf sicheren Seiten meiner Website, für die TLS 1.0 verwendet wird, nicht geladen. (nur EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Möglicherweise wird die zuvor unter „Der Enhanced Visual Experience Composer wird auf sicheren Seiten auf meiner Website, für die TLS 1.2 verwendet wird, nicht geladen“ beschriebene Fehlermeldung angezeigt. if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Möglicherweise wird die zuvor unter „Der Enhanced Visual Experience Composer wird auf sicheren Seiten auf meiner Website, für die TLS 1.2 verwendet wird, nicht geladen“ beschriebene Fehlermeldung angezeigt. wenn die oben genannten IP-Adressen auf die Zulassungsliste gesetzt werden, Ihre Website jedoch keine TLS-Version 1.2 unterstützt. Zielgruppe verwendet derzeit die Standardkonfiguration 1.2. Vor der Zielgruppe 18.4.1 (25. April 2018) wurde TLS 1.0 von der Standardkonfiguration unterstützt. Weitere Informationen finden Sie unter [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 So überprüfen Sie die TLS-Version auf Ihrer Website mit Firefox (bei anderen Browsern sind die Schritte ähnlich):
 
