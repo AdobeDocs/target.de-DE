@@ -36,7 +36,7 @@ Sie können jeweils die besten oder die schlechtesten fünf bzw. alle Erlebnisse
 
 Unter dem Diagramm zeigt eine Tabelle an, wie viele Teilnehmer die einzelnen Erlebnisse angesehen haben. Außerdem werden weitere Informationen angezeigt, die für Ihre Erfolgsmetrik relevant sind.
 
-## Schulungsvideo: Erstellen eines Multivarianz-Tests ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen eines Multivarianz-Tests  ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Der Experience Performance-Bericht wird ab 8:20 beschrieben.
 
