@@ -32,7 +32,7 @@ Die zweite Tabelle liefert einen Bericht auf Angebotsebene. Sie zeigt die Konver
 
 ![](assets/locationcontributionbottom.png)
 
-## Schulungsvideo: Erstellen eines Multivarianz-Tests ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen eines Multivarianz-Tests  ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Der Location Contribution-Bericht wird ab 8:45 beschrieben.
 
