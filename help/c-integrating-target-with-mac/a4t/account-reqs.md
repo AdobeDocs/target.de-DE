@@ -29,25 +29,25 @@ Führen Sie in der [!DNL Adobe Experience Cloud] [Admin Console](https://adminco
 
 Ihre [!DNL Analytics]- und [!DNL Target]-Benutzerkonten müssen mit Ihrer Adobe ID verknüpft sein.
 
-For more information, see [Organizations and account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
+Weitere Informationen finden Sie unter [Organisationen und Kontoverknüpfung](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 ### Mitgliedschaft in einer Experience Cloud-Gruppe
 
 Sie müssen Mitglied in mindestens einer [!DNL Experience Cloud]-Gruppe sein, die Zugriff auf [!DNL Analytics] und [!DNL Target] hat.
 
-For more information, see [Manage Experience Cloud users and products](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Weitere Informationen finden Sie unter [Experience Cloud-Benutzer und -Produkte verwalten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Configure access to the [!DNL Analytics] report suite:
+Konfigurieren Sie den Zugriff auf die Report Suite [!DNL Analytics]:
 
 Um A4T für eine bestimmte Report Suite zu verwenden, müssen Sie Zugriff auf diese Report Suite haben.
 
-1. Klicken Sie in **[!UICONTROL Admin Console]** auf ein [!DNL Analytics] -Produkt-Profil und dann auf die Registerkarte **[!UICONTROL Berechtigungen]** .
+1. Klicken Sie in **[!UICONTROL Admin Console]** auf ein [!DNL Analytics]-Profil und dann auf die Registerkarte **[!UICONTROL Berechtigungen]**.
 
    Daraufhin können Sie sehen, auf welche Report Suites das Profil Zugriff hat.
 
-1. Stellen Sie sicher, dass die Report Suite, auf die Sie zugreifen möchten, zu einer der Report Suites gehört, die im Profil aufgeführt sind, zu dem Sie gehören. [!DNL Target]
+1. Stellen Sie sicher, dass die Report Suite, auf die Sie in [!DNL Target] zugreifen möchten, zu den Report Suites gehört, die im Profil aufgeführt sind, zu dem Sie gehören.
 
    Die folgende Abbildung zeigt ein Profil eines Produkts mit Zugriff auf alle Report Suites:
 
