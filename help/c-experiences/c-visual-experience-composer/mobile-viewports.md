@@ -12,15 +12,15 @@ ht-degree: 68%
 ---
 
 
-# Mobile Viewports for responsive experiences{#mobile-viewports-for-responsive-experiences}
+# Mobile Viewports für responsive Erlebnisse{#mobile-viewports-for-responsive-experiences}
 
-Mobile viewports help you preview how your [!DNL Target] activities appear on screens of various sizes.
+Mit mobilen Viewports können Sie Vorschauen dazu erstellen, wie Ihre [!DNL Target]-Aktivitäten auf Bildschirmen unterschiedlicher Größe angezeigt werden.
 
 Die Funktion zur mobilen Viewport-Vorschau wurde für responsive Sites entwickelt, die auf verschiedenen Geräten, Fenstern oder Bildschirmgrößen gut dargestellt werden. Responsive Sites passen sich automatisch an jede Bildschirmgröße an, einschließlich Desktop-PCs, Laptops, Tablets oder Mobiltelefone.
 
 >[!NOTE]
 >
-> * Verwenden Sie mobile Viewports, wenn Ihre Site responsiv ist und dieselben Elemente auf Ihrer Desktop-Seite in einer anderen Konfiguration auf Ihrer mobilen Seite verwendet werden. If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) instead.
+> * Verwenden Sie mobile Viewports, wenn Ihre Site responsiv ist und dieselben Elemente auf Ihrer Desktop-Seite in einer anderen Konfiguration auf Ihrer mobilen Seite verwendet werden. Wenn Sie eine separate Mobilgeräte-Site mit einer separaten Struktur haben, z. B. `m.mysite.com`, verwenden Sie stattdessen eine [mehrseitige Aktivität](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
    >
    >
 * Mobile Viewports sind nicht verfügbar, wenn sie von einem Umleitungsangebot überlagert werden.
@@ -28,7 +28,7 @@ Die Funktion zur mobilen Viewport-Vorschau wurde für responsive Sites entwickel
 
 Ein Viewport wird durch die Größe des Rechtecks definiert, das von einer Webseite auf Ihrem Bildschirm ausgefüllt wird. Es ist die Größe des Browser-Fensters abzüglich der Bildlaufleisten und Symbolleisten. Browser verwenden „CSS-Pixel“. Für viele Geräte, zum Beispiel solche mit Retina-Bildschirm, ist der Viewport kleiner als die beworbene Geräteauflösung.
 
-Nachstehend finden Sie die Viewports und Auflösungen für einige bekannte Geräte. Remember to use the viewport size in [!DNL Target]. Auf verschiedenen Websites sind die Viewport-Größen für gängige Geräte aufgeführt. Weitere Informationen finden Sie unter [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) oder auf der Website des Geräteherstellers.
+Nachstehend finden Sie die Viewports und Auflösungen für einige bekannte Geräte. Denken Sie daran, die Viewport-Größe in [!DNL Target] zu verwenden. Auf verschiedenen Websites sind die Viewport-Größen für gängige Geräte aufgeführt. Weitere Informationen finden Sie unter [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) oder auf der Website des Geräteherstellers.
 
 | Gerät | Viewport-Größe | Geräteauflösung |
 |---|---|---|
@@ -76,9 +76,9 @@ Nachstehend finden Sie die Viewports und Auflösungen für einige bekannte Gerä
 
 Wenn Sie eine Aktivität für Benutzer auf einem bestimmten Gerät bereitstellen möchten, wählen Sie im Aktivitätsdiagramm die entsprechende Zielgruppe für das Gerät aus. Verwenden Sie den Mobile Web Composer, um die Seite für das Gerät in der Aktivität zu bearbeiten. Wenn Sie eine Aktivität in all Ihren digitalen Erlebnissen ausführen und sicherstellen möchten, dass es auf allen Geräten ansprechend aussieht, wenden Sie nicht das Targeting an, sondern verwenden Sie mobile Viewports, um auf jeder Bildschirmgröße eine Vorschau für die Aktivität anzuzeigen.
 
-Wenn Sie über eine responsive Site verfügen, wird Ihre Site in der Regel so erstellt, dass beim Zugriff durch ein Gerät mit einer bestimmten Bildschirmgröße eine andere Ansicht geöffnet wird. Diese Bildschirmgrößen, die solche neuen Ansichten auslösen, werden auch als CSS-Haltepunkte bezeichnet. CSS-Haltepunkte sind Punkte, an denen Website-Inhalte je nach Gerätebreite antworten, um das optimale Layout für Besucher anzuzeigen. CSS-Haltepunkte werden auch als [Media-Abfragen](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)bezeichnet.
+Wenn Sie über eine responsive Site verfügen, wird Ihre Site in der Regel so erstellt, dass beim Zugriff durch ein Gerät mit einer bestimmten Bildschirmgröße eine andere Ansicht geöffnet wird. Diese Bildschirmgrößen, die solche neuen Ansichten auslösen, werden auch als CSS-Haltepunkte bezeichnet. CSS-Haltepunkte sind Punkte, an denen Website-Inhalte je nach Gerätebreite antworten, um das optimale Layout für Besucher anzuzeigen. CSS-Haltepunkte werden auch als [Media-Abfragen](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) bezeichnet.
 
-Save your CSS breakpoints in [!DNL Target] so you can preview your experiences for each view you define. Each of these experiences is displayed in a mobile viewport in the [!DNL Target] interface. Öffnen Sie die Ansicht für jeden Bildschirm, indem Sie entlang der Oberkante der Anzeige auf diesen Viewport klicken.
+Speichern Sie Ihre CSS-Haltepunkte in [!DNL Target], damit Sie Ihre Erlebnisse für jede von Ihnen definierte Ansicht Vorschau haben. Jedes dieser Erlebnisse wird in einem mobilen Viewport in der [!DNL Target]-Schnittstelle angezeigt. Öffnen Sie die Ansicht für jeden Bildschirm, indem Sie entlang der Oberkante der Anzeige auf diesen Viewport klicken.
 
 Wenn Ihre Site nicht responsiv ist, können Sie zum Anzeigen einer Site weiterhin den Mobile Web Composer verwenden, wenn Ihre Aktivität auf ein bestimmtes Gerät ausgerichtet ist.
 
@@ -86,16 +86,16 @@ Wenn Ihre Site nicht responsiv ist, können Sie zum Anzeigen einer Site weiterhi
 >
 >Obwohl Sie ein Erlebnis in mobilen Viewports bearbeiten können, gelten diese Änderungen für alle Viewports und Geräte, nicht nur für den Viewport, in dem Sie arbeiten. Gleichermaßen wird bei der Bearbeitung eines Erlebnisses in der normalen Desktop-Ansicht die Seite für alle Bildschirmgrößen und nicht nur für die Desktop-Ansicht geändert. Derzeit bieten wir keine Unterstützung für Viewport-spezifische Seitenänderungen.
 
-## Mobile viewport configuration {#task_B4B161499DC0470584ED922A4D20FCAB}
+## Mobile Viewport-Konfiguration {#task_B4B161499DC0470584ED922A4D20FCAB}
 
 Konfigurieren Sie alle mobilen Viewports, die Sie beim Erstellen Ihrer Erlebnisse verfügbar machen möchten.
 
 1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. Um einen neuen mobilen Viewport hinzuzufügen, klicken Sie im Abschnitt **[!UICONTROL Mobile Viewports-Konfiguration]** auf **[!UICONTROL Hinzufügen]**.
+1. Um einen neuen mobilen Viewport hinzuzufügen, klicken Sie im Abschnitt **[!UICONTROL Mobile Viewports configuration]** auf **[!UICONTROL Hinzufügen]**.
 
    ![hinzufügen Viewport](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
-   To change the configuration of an existing mobile viewport, select that viewport, then click the [!UICONTROL Edit] (pencil) icon.
+   Um die Konfiguration eines vorhandenen mobilen Viewports zu ändern, wählen Sie diesen Viewport aus und klicken Sie dann auf das Symbol [!UICONTROL Bearbeiten] (Stiftsymbol).
 
 1. Geben Sie einen Namen für den mobilen Viewport ein.
 
@@ -115,7 +115,7 @@ Konfigurieren Sie alle mobilen Viewports, die Sie beim Erstellen Ihrer Erlebniss
    * Symbian
    * BlackBerry
 
-   Wenn Sie [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) verwenden und ein Betriebssystem auswählen, emuliert dieses Gerät, wenn Sie die Seite aufrufen. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
+   Wenn Sie [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) verwenden und ein Betriebssystem auswählen, emuliert dieses Gerät, wenn Sie die Seite aufrufen. [!DNL Target] Wenn es z. B. ein anderes Erscheinungsbild für Android als für iOS auf Ihrer responsive Site gibt, [!DNL Target] imitiert dieses Verhalten.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -123,9 +123,9 @@ Konfigurieren Sie alle mobilen Viewports, die Sie beim Erstellen Ihrer Erlebniss
 >
 >Wenn Sie versuchen, einen verwendeten mobilen Viewport zu löschen, wird die folgende Meldung angezeigt: &quot;Dieser Viewport ist derzeit einer oder mehreren Aktivitäten zugeordnet. Sie müssen den Viewport aus diesen Aktivitäten entfernen, bevor Sie ihn löschen können.&quot;
 
-## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
+## Reaktionsfähiges Erlebnis {#task_D6332438B5EE48CCA8AF199270F1CAEF} erstellen
 
-Add mobile viewports to your [!DNL Target] activities to create responsive experiences for mobile screens.
+hinzufügen mobilen Viewports auf Ihre [!DNL Target]-Aktivitäten, um responsive Erlebnisse für Mobilgeräte zu erstellen.
 
 1. Erstellen Sie die [gewünschte Aktivität](/help/c-activities/activities.md).
 1. Klicken Sie im Visual Experience Composer auf das Symbol **[!UICONTROL Einstellungen]** und wählen Sie anschließend **[!UICONTROL Mobile Viewports hinzufügen]** aus.
@@ -150,12 +150,12 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
    ![Ausrichtungsoptionen](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
-## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
+## Verwendungsfall: Zielgruppe zwei iPhone-Versionen {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
 Dieser Verwendungsfall zeigt, wie Erlebnisse für zwei iPhone-Versionen konfiguriert werden: iPhone 6 und iPhone 6 Plus.
 
 1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
+1. Erstellen Sie im Abschnitt **[!UICONTROL Mobile Viewport-Konfiguration]** mobile Viewports für iPhone 6 und iPhone 6 plus.
 
    Verwenden Sie für die Viewports folgende Einstellungen:
 
@@ -180,7 +180,7 @@ Dieser Verwendungsfall zeigt, wie Erlebnisse für zwei iPhone-Versionen konfigur
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Visual Experience Composer (2 von 2) (7:29) ![Übersichtskennzeichnung](/help/assets/overview.png)
+### Visual Experience Composer (2 von 2) (7:29)  ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Experience Composer mit mobilen Viewports arbeiten:
 
@@ -193,7 +193,7 @@ Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Expe
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Kontovoreinstellungen in der Adobe Target- ![Übersichtskennzeichnung](/help/assets/overview.png)
+### Kontovoreinstellungen in Adobe Target ![Kennzeichen &quot;Überblick](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zum Einrichten von mobilen Viewports, beginnend um 4:40 Uhr im Video.
 
