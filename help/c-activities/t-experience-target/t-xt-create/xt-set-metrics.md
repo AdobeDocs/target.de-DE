@@ -55,7 +55,7 @@ Beachten Sie, dass bei der (Um-)Benennung von Metriken folgende Zeichen nicht zu
    | `-` | Minus |
    | `@` | At-Zeichen |
 
-## Schulungsvideo: Aktivitätsmetriken (7:43) ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Aktivitätsmetriken (7:43)  ![Tutorialzeichen](/help/assets/tutorial.png)
 
 
 Dieses Video enthält Informationen zur Arbeit mit Erfolgsmetriken.
