@@ -57,7 +57,7 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 >
 >Wenden Sie sich an Ihren Implementierungsberater, bevor Sie diese Tests starten.
 
-## Schulungsvideo: Das Content-Repository (4:56) ![Übersichtskennzeichnung](/help/assets/overview.png)
+## Schulungsvideo: Das Content-Repository (4:56)  ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 
