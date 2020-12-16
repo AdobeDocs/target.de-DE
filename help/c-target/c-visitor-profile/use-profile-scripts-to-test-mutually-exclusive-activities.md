@@ -12,7 +12,7 @@ ht-degree: 81%
 ---
 
 
-# Use profile scripts to test mutually exclusive activities {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+# Verwenden Sie Profil-Skripten zum Testen sich gegenseitig ausschließender Aktivitäten {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
 Mithilfe von Profilattributen können Sie Tests zum Vergleich mehrerer Aktivitäten einrichten, an denen jeweils unterschiedliche Besucher teilnehmen.
 
@@ -46,7 +46,7 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` beginnt mit einer Routine, die bestimmt, zu welcher Gruppe der Besucher gehört. Wird eine Zahl zwischen 0 und 49 ausgegeben, wird der Besucher Gruppe A zugewiesen. Wird eine Zahl zwischen 50 und 99 ausgegeben, wird der Besucher Gruppe B zugewiesen. Welche Aktivität der Besucher angezeigt bekommt, wird durch seine Gruppenzugehörigkeit bestimmt.
 
-After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
+Nachdem Sie das Profil-Attribut erstellt haben, richten Sie die erste Aktivität so ein, dass die gewünschte Population Zielgruppe wird. Der Benutzerparameter `user.twogroups` muss mit dem für Gruppe A angegebenen Profil übereinstimmen.
 
 >[!NOTE]
 >
