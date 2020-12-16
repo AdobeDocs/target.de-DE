@@ -24,14 +24,14 @@ Verwenden Sie die Vorschau für mobile Apps, um mühelos eine ganzheitliche Qual
 
 Mit der mobilen Vorschaufunktionalität können Sie Aktivitäten in Ihrer mobilen App vollständig testen, bevor Sie sie live schalten.
 
-## Voraussetzungen  {#section_A763C564C9E84B0EB448237B5B1E4068}
+## Voraussetzungen   {#section_A763C564C9E84B0EB448237B5B1E4068}
 
 1. **Verwenden Sie eine unterstützte Version des SDK:** Für die mobile Vorschaufunktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK in Ihren jeweiligen Apps herunterladen.
 
    Eine Anleitung zum Herunterladen des erforderlichen SDK finden Sie unter:
 
-   * **iOS:** [Vor dem Beginn](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) in der *Mobile Services iOS-Hilfe*.
-   * **Android:** [Vor dem Beginn](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) in der *Mobile Services-Hilfe*.
+   * **iOS:** [Bevor Sie die ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) iOS-Hilfe für  *Mobile Services starten*.
+   * **Android:** [Bevor Sie ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) die  *Mobile Services-Hilfe starten*.
 
 1. **URL-Schema einrichten:** Der Vorschau-Link öffnet Ihre App über ein URL-Schema. Sie müssen ein einzigartiges URL-Schema für die Vorschau festlegen.
 
