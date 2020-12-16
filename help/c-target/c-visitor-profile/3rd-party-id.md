@@ -24,7 +24,7 @@ Alle drei bis fünf Minuten werden die Aktualisierungen mit der Datenbank synchr
 
 | PCID (nicht angemeldet) | mbox3rdPartyId (angemeldet) | Zusammengeführt und in der mbox3rdPartyId gespeichert |
 |---|---|---|
-| category=hats | category=skis | category=skis |
+| category=hats | category=skis | kategorie=skis |
 |  | store=94103 | store=94103 |
 | Aktivität 1, Erlebnis A | Aktivität 1, Erlebnis B | Aktivität 1, Erlebnis B |
 | Aktivität 1 |  | Aktivität 1 |
@@ -37,7 +37,7 @@ Wenn der Besucher sich anmeldet, wird das zusammengeführte Profil beibehalten.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] Ziele werden nicht verfolgt, wenn sich die [!DNL Adobe Experience Cloud] ID (EDID) ändert (z. B. wenn der Besucher Geräte wechselt), auch wenn das [!DNL Target] Profil basierend auf der &quot;mbox3rdPartyId&quot;zusammengeführt werden kann und immer noch über Aktivitäten verfügt. For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] Ziele werden nicht verfolgt, wenn sich die  [!DNL Adobe Experience Cloud] ID (EDID) ändert (z. B. wenn der Besucher die Geräte wechselt), auch wenn das  [!DNL Target] Profil möglicherweise auf der Grundlage der mbox3rdPartyId zusammengeführt wird und immer noch über Informationen zur Aktivität verfügt. Bei Besuchern, die mit derselben EDID identifiziert wurden (diejenigen, die mit demselben Gerät auf die Seite zugreifen), sollte [!DNL Analytics for Target] (A4T) erwartungsgemäß funktionieren.
 
 ## Zu beachten {#considerations}
 
