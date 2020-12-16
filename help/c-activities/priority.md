@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Je nachdem, welche Target-Oberfläche und welche Funktion zum Erstellen von Aktivitäten Sie verwenden (Visual Experience Composer oder formularbasierter Composer), bestimmt Target, welche Aktivität (bzw. welche Aktivitäten) für eine Seite anders bereitgestellt werden soll(en).
 
-## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Nur Target Standard/Premium Visual Experience Composer oder Form-Based Composer mit globaler Zielgruppe Request only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Wenn Ihr Unternehmen ausschließlich Target Standard/Premium und den Visual Experience Composer verwendet, können Inhalte von mehreren Aktivitäten für denselben Aufruf zurückgegeben werden. Aktivitäten werden mithilfe des folgenden Entscheidungsflusses bereitgestellt:
 
@@ -40,7 +40,7 @@ Wenn Ihr Unternehmen ausschließlich Target Standard/Premium und den Visual Expe
    * Wenn eine Aktivität über eine Zielgruppenansprache verfügt, wird diese Aktivität angezeigt.
    * Wenn alle oder keine Aktivitäten ein Targeting aufweisen, wird die zuerst genehmigte Aktivität angezeigt.
 
-## Formularbasierter Composer und Visual Experience Composer in Target Standard/Premium  {#section_4620253E1CE942DD830724C7822B175F}
+## Formularbasierter Composer und Visual Experience Composer in Target Standard/Premium   {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -48,8 +48,8 @@ Wenn Ihr Unternehmen ausschließlich Target Standard/Premium und den Visual Expe
 
 Wenn Ihr Unternehmen den formularbasierten Composer und den Visual Experience Composer in Target Standard/Premium verwendet, können Inhalte von mehreren Visual Experience Composer-Aktivitäten, jedoch nur eine Aktivität von Target Classic oder den formularbasierten Arbeitsabläufen, bereitgestellt werden. Die Aktivitätsbereitstellung wird anhand des folgenden Entscheidungsablaufs bestimmt:
 
-1. Target server call comes to Target with information about the [!DNL Target] request and URL.
-1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
+1. Zielgruppe Server-Aufruf kommt zur Zielgruppe mit Informationen zur [!DNL Target]-Anforderung und URL.
+1. Zielgruppe Classic und Standard ziehen jede Aktivität, die in dieser [!DNL Target]-Anforderung ausgeführt wird.
 1. Target versucht, dem Besucher Aktivitäten zuzuordnen.
 
    Wenn sich der Besucher bereits in einem A/B-Test oder Multivarianztest befindet, wird er diesem Test zugeordnet, bis er konvertiert. Wenn er sich zuvor in einer Erlebnisziel-Aktivität befand, muss er erneut zugeordnet werden. Sind die Zielgruppenregeln erfüllt, fällt der Besucher in diese Aktivitäten und in spezifische Erlebnisse.
@@ -65,16 +65,16 @@ Wenn von zwei Aktivitäten eine auf den Marken-Suchbegriff „Nike“ und die zw
 
 Verfügen beide Zielaktivitäten über die gleiche Priorität, wird diejenige angezeigt, die zuletzt aufgerufen wurde. Wenn der Besucher neu auf der Seite ist, wird die zuletzt aktivierte Aktivität angezeigt.
 
-## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Formularbasierter Composer für Target Standard/Premium mit Anforderungen an nicht globale Zielgruppen {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Diese Informationen gelten auch für alle laufenden Kampagnen, die in Target Classic erstellt wurden.
 
-If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. Die Aktivitätsbereitstellung wird anhand des folgenden Entscheidungsablaufs bestimmt:
+Wenn Ihre Firma im formularbasierten Composer andere Anforderungen als die globale [!DNL Target]-Anforderung verwendet, können pro Aufruf nur Inhalte von einer Aktivität zurückgegeben werden. [!DNL Target] Die Aktivitätsbereitstellung wird anhand des folgenden Entscheidungsablaufs bestimmt:
 
-1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
-1. [!DNL Target] ruft jede Aktivität ab, die in dieser [!DNL Target] Anforderung ausgeführt wird.
+1. Der Server-Aufruf von [!DNL Target] wird an [!DNL Target] gesendet und enthält Informationen zur [!DNL Target]-Anforderung und -URL.
+1. [!DNL Target] ruft jede Aktivität ab, die in dieser  [!DNL Target] Anforderung ausgeführt wird.
 1. [!DNL Target] versucht, den Besucher der Aktivität mit der höchsten Priorität zuzuordnen.
 
    Wenn sich der Besucher bereits in einem A/B-Test oder Multivarianztest befindet, wird er diesem Test zugeordnet, bis er konvertiert. Wenn er sich zuvor in einer Erlebnisziel-Aktivität befand, muss er erneut zugeordnet werden. Sind die Zielgruppenregeln erfüllt, fällt der Besucher in diese Aktivitäten und in spezifische Erlebnisse.
