@@ -21,9 +21,9 @@ Dieser Prozess reduziert die Ladezeit, verhindert multiple Netzwerkaufrufe und e
 Beachten Sie bei der Verwendung der prefetch-Methode mit den iOS- und Android Mobile SDKs die folgenden Einschränkungen:
 
 * Vorabgerufene Inhalte werden nicht über Starts hinweg behalten. Der Inhalt des vorherigen Artikels wird zwischengespeichert, solange die Anwendung aktiv ist oder bis die `clearPrefetchCache()` Methode aufgerufen wird.
-* Die Funktion &quot;Prefetch&quot;wird nicht unterstützt für [!UICONTROL Traffic-Zuordnungsmethoden für die automatische Zuordnung] und [!UICONTROL automatische Zielgruppe] , für [!UICONTROL Automated Personalization] - oder [!UICONTROL Recommendations] -Aktivitäten oder für [Recommendations-Angebot in einer A/B- oder XT-Aktivität](/help/c-recommendations/recommendations-as-an-offer.md).
+* Die Funktion &quot;Prefetch&quot;wird nicht unterstützt für die Traffic-Zuordnungsmethoden [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatische Zielgruppe], für die Typen [!UICONTROL Automated Personalization] oder [!UICONTROL Recommendations] oder für [Recommendations-Angebot innerhalb einer A/B- oder XT-Aktivität](/help/c-recommendations/recommendations-as-an-offer.md).
 
 Weitere Informationen einschließlich Vorabruf-Methoden, öffentliche Klassen und Code-Beispiele finden Sie unter:
 
-* **iOS:**  [Vorab Angebot-Inhalte in iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) in der *Mobile Services iOS SDK-Hilfe* abrufen.
-* **Android:**  [Vorab Angebot-Inhalte in Android](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) in der *Mobile Services Android SDK-Hilfe* abrufen.
+* **iOS:**  [Vorab Angebot-Inhalte in ](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) iOS in der Hilfe zum  *Mobile Services iOS SDK abrufen*.
+* **Android:**  [Vorab Angebot-Inhalte in ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) Android der  *Mobile Services Android SDK-Hilfe* abrufen.
