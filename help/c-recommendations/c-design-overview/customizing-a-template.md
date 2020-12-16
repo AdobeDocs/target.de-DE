@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # ![PREMIUM](/help/assets/premium.png) Personalisieren Sie einen Entwurf mit Velocity{#customize-a-design-using-velocity}
 
-Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
+Verwenden Sie die Open-Source-Entwurfssprache Velocity, um Empfehlungsentwürfe in [!DNL Adobe Target Recommendations] anzupassen.
 
 ## Velocity-Übersicht {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -129,7 +129,7 @@ Velocity-Vorlagen behandeln alle Entitätsattribute standardmäßig als Zeichenf
 
 1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder Dublette.
 1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich, damit der Vorlagenparser von Zielgruppe Recommendations die Vorlage validieren und speichern kann).
-1. Übergeben Sie das Entitätsattribut an die `parseInt` oder- `parseDouble` Methode für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in eine Ganzzahl oder Dublette umzuwandeln.
+1. Übergeben Sie das Entitätsattribut an die `parseInt`- oder `parseDouble`-Methode für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in eine Ganzzahl oder Dublette umzuwandeln.
 1. Führen Sie den Mathematikvorgang oder -vergleich für den neuen numerischen Wert durch.
 
 ### Beispiel: Berechnen eines Rabattpreises
@@ -208,7 +208,7 @@ Das Ergebnis ist ein Entwurf wie der folgende, in dem das Schlüsselelement in e
 
 Wenn Sie Ihre [!DNL Recommendations]-Aktivität erstellen und das Schlüsselelement vom Benutzerprofil genommen wird, zum Beispiel „Zuletzt gekaufter Artikel“, zeigt [!DNL Target] ein zufällig ausgewähltes Produkt im [!UICONTROL Visual Experience Composer an]. Dies beruht darauf, dass ein Profil beim Erstellen der Aktivität nicht verfügbar ist. Wenn Besucher die Seite anzeigen, sehen sie das erwartete Schlüsselelement.
 
-## Ausführen von Ersetzungen in einem Zeichenfolgenwert {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Ersetzen in einem Zeichenfolgenwert {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 Sie können Ihren Entwurf ändern, um Werte in einer Zeichenfolge zu ersetzen. Ersetzen Sie beispielsweise das in den USA verwendete Dezimalzeichen durch das in Europa und anderen Ländern verwendete Komma-Trennzeichen.
 
