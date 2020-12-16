@@ -34,7 +34,7 @@ Für Target Standard ruft [!DNL mbox.js] eine andere JavaScript-Datei auf, [!DNL
 [!DNL Target.js] steuert die von Standard verwendete DOM-Manipulationsbibliothek. Zur Anzeige des Inhalts auf einer Website verweist [!DNL target.js] auf [!DNL sizzle.js] (Version1.10.8-pre). [!DNL Sizzle.js] aktiviert die HTML-Elementselektoren. Mit Ausnahme von [!DNL sizzle.js] wird nur natives JavaScript verwendet. Es ist keine jquery erforderlich.
 
 Zusätzlich wird folgendes Snippet zur Abstimmung von DOM verwendet:
-
+ 
 `https://github.com/dperini/ContentLoaded`
 
 ## Target.js und der Visual Experience Composer {#section_2B3FF6AC5B8D431C83D9EDCF53CB1472}
@@ -44,7 +44,7 @@ Wenn Sie den [!UICONTROL Visual Experience Composer] zum Einrichten eines Erlebn
 * Für die Erstellung von Miniaturansichten: [!DNL https://html2canvas.hertzen.com/]
 * Für eine domänenübergreifende Abfrage: [!DNL Admin.js], [!DNL CDQ.base.js], [!DNL CDQ.host.js], [!DNL admin.css], verwendet, um Nachrichten über die iFrames hinweg zu senden. Durch diese Skripts kann Adobe Daten zwischen den Seiten senden.
 
-## Zu berücksichtigende Punkte für Angular-Sites und Einzelseiten-Apps  {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
+## Zu berücksichtigende Punkte für Angular-Sites und Einzelseiten-Apps   {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
 Sollten Sie Target in eine Angular-Site oder eine Einzelseiten-App (SPA) integrieren, sollten Sie die at.js-Bibliothek anstatt der mbox.js-Bibliothek verwenden.
 
