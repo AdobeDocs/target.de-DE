@@ -18,7 +18,7 @@ Laden Sie eine interaktive PDF-Datei herunter, in der die verschiedenen Aktivit�
 
 >[!NOTE]
 >
->For the best experience and to share with others, download the interactive [Adobe Target Activities Guide PDF](/help/assets/activities_guide_82817.pdf).
+>Um das bestmögliche Erlebnis zu erzielen und andere Personen zu teilen, laden Sie das interaktive PDF [Adobe Target Aktivitäten Handbuch herunter.](/help/assets/activities_guide_82817.pdf)
 
 ## Welche Funktion hat sie? {#section_4ECAACC68723402EB3649033190E1BBC}
 
