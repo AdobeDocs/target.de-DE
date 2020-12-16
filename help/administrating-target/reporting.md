@@ -14,9 +14,9 @@ ht-degree: 33%
 
 # Berichte in Zielgruppe konfigurieren
 
-Konfigurieren Sie allgemeine Einstellungen, die in [!DNL Adobe Target] Berichte verwendet werden, die für Ihr gesamtes [!DNL Target] Konto gelten.
+Konfigurieren Sie allgemeine Einstellungen für [!DNL Adobe Target]-Berichte, die für Ihr gesamtes [!DNL Target]-Konto gelten.
 
-Um auf die Konfigurationsseite des [!UICONTROL Berichte] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Berichte].**
+Um auf die Konfigurationsseite [!UICONTROL Berichte] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Berichte].**
 
 Auf dieser Seite können Sie die folgenden Einstellungen festlegen:
 
@@ -29,7 +29,7 @@ Auf dieser Seite können Sie die folgenden Einstellungen festlegen:
 
 >[!NOTE]
 >
->Beachten Sie, dass die Zeitzone, Währung und IP-Adressen zum Ausschließen von Einstellungen für Aktivitäten gelten, die [!DNL Target] Berichte verwenden. Diese Einstellungen gelten nicht für Aktivitäten, die [Analytics für die Zielgruppe (A4T)] als Berichte-Quelle verwenden (/help/c-integrating-target-with-mac/a4t/a4t.md).
+>Beachten Sie, dass die Zeitzone, Währung und IP-Adressen zum Ausschließen von Einstellungen für Aktivitäten gelten, die [!DNL Target]-Berichte verwenden. Diese Einstellungen gelten nicht für Aktivitäten, die [Analytics for Zielgruppe (A4T)] als Berichte-Quelle (/help/c-integrating-target-with-mac/a4t/a4t.md) verwenden.
 
 ![Berichte](/help/administrating-target/assets/reporting.png)
 
@@ -41,10 +41,10 @@ Wählen Sie die Berichterstellungsquelle für Ihre Aktivitäten aus; zur Wahl st
 
 Beachten Sie bei der Auswahl der Berichtsquelle folgende Informationen:
 
-* Wenn die Berichtsquelle hier auf **[!DNL Target]** festgelegt ist, dürfen Sie Aktivitäten, die als Berichtsquelle verwenden, nicht aktivieren. [!DNL Analytics] You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
-* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to [!DNL Analytics] in your activity or change the reporting engine to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
-* If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
-* [!UICONTROL Die Erstellung, Aktivierung und Deaktivierung von Automated Personalization] -Aktivitäten (AP) sind unabhängig von der ausgewählten Berichte-Quelle zulässig. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* Wenn die Berichtsquelle hier auf **[!DNL Target]** festgelegt ist, dürfen Sie Aktivitäten, die als Berichtsquelle verwenden, nicht aktivieren. [!DNL Analytics] Sie müssen die Berichte-Quelle in Ihrer Aktivität in [!DNL Target] ändern oder die Berichte-Quelle in **[!UICONTROL Pro Aktivität]** in **[!UICONTROL Administration] > [!UICONTROL Berichte]** ändern.
+* Wenn die Berichte-Quelle hier auf **[!DNL Analytics]** eingestellt ist, ist es nicht zulässig, eine Aktivität zu aktivieren, die [!DNL Target] als Berichte-Quelle verwendet (die Berichte-Quelle wird als **[!UICONTROL Zielgruppe pro Aktivität] angegeben)**. Sie müssen die Berichte-Quelle in Ihrer Aktivität in [!DNL Analytics] ändern oder die Berichte-Engine in **[!UICONTROL Pro Aktivität]** in **[!UICONTROL Administration] > [!UICONTROL Berichte]** ändern.
+* Wenn die Berichte-Quelle hier auf **[!UICONTROL Pro Aktivität]** auswählen eingestellt ist, können Sie Aktivitäten erstellen, aktivieren und deaktivieren, die von der ausgewählten Berichte-Quelle unterstützt werden. Eine Matrix der unterstützten Aktivitäten finden Sie unter [Unterstützte Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichte-Quelle für Adobe Target (A4t)*.
+* [!UICONTROL Die Erstellung, Aktivierung und Deaktivierung von Automated Personalization] -Aktivitäten (AP) sind unabhängig von der ausgewählten Berichte-Quelle zulässig. Automated Personalization-Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Analytics als Berichte-Quelle für Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) auswählen. Auch wenn Sie [!DNL Analytics] als Quelle des Berichte angeben, wird [!DNL Target] als Berichte für Automated Personalization-Aktivitäten verwendet. Weitere Informationen finden Sie unter [Unterstützte Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichte-Quelle für Adobe Target (A4t)*.
 
 ## Zeitzone für Berichte
 
@@ -64,7 +64,7 @@ Geben Sie jede IP-Adresse in eine neue Zeile ein.
 
 Sie können die geschätzte Umsatzsteigerung anzeigen, wenn Sie einen Geldwert für Ihr Ziel eingeben. [!DNL Target] kann die Umsatzsteigerung schätzen, die Sie erzielen könnten, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden. Die Funktion zur Schätzung der Steigerung ist standardmäßig deaktiviert.
 
-Only [!DNL Experience Cloud] Admin users can enable or disable this feature. Wenn die Schätzung der Steigerung deaktiviert ist, werden die entsprechenden Felder nicht auf der Benutzeroberfläche angezeigt. Durch die Deaktivierung der Funktion gehen keine Daten verloren, auch nicht die Daten, die für Ihre Schätzungen verwendet werden. Die Schätzungen basieren auf den erfassten Daten, unabhängig davon, ob die Funktion aktiviert ist oder nicht.
+Nur [!DNL Experience Cloud] Admin-Benutzer können diese Funktion aktivieren oder deaktivieren. Wenn die Schätzung der Steigerung deaktiviert ist, werden die entsprechenden Felder nicht auf der Benutzeroberfläche angezeigt. Durch die Deaktivierung der Funktion gehen keine Daten verloren, auch nicht die Daten, die für Ihre Schätzungen verwendet werden. Die Schätzungen basieren auf den erfassten Daten, unabhängig davon, ob die Funktion aktiviert ist oder nicht.
 
 Ausführliche Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
