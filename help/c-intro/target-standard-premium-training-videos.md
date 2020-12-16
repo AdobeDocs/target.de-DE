@@ -26,18 +26,18 @@ Videos sind in folgenden Kategorien verfügbar:
 * Implementierung und Fehlerbehebung
 * Marketing-Fallbeispiele
 
-## Eingebettet in die Adobe Target-Hilfe  {#section_53C618334E974FB89B3F093DEF789CCB}
+## Eingebettet in die Adobe Target-Hilfe   {#section_53C618334E974FB89B3F093DEF789CCB}
 
 Schulungsvideos wurden in die relevanten Themen dieses Leitfadens eingebettet. Klicken Sie auf das Bild, um das Video innerhalb der Hilfe abzuspielen.
 
 ## Adobe Target - Tutorials und Videos
 
-A collection of how-to videos and tutorials highlighting the capabilities of Target available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page.
+Eine Sammlung von Anleitungsvideos und Tutorials, die die auf der Seite [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) verfügbaren Funktionen der Zielgruppe hervorheben.
 
 ![Videos zu Experience League](/help/c-intro/assets/experience-league.png)
 
-## Adobe Target-Tutorials  {#tutorials}
+## Adobe Target-Tutorials   {#tutorials}
 
-Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) page.
+Auf der Seite [Adobe Target-Tutorials ](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) finden Sie eine Einführung in die Konzepte und Tools.[!DNL Target]
 
 ![Adobe Target-Tutorials](/help/c-intro/assets/adobe-target-tutorials-new.png)
