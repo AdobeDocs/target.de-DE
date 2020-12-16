@@ -14,9 +14,9 @@ ht-degree: 17%
 
 # Verwaltung von Target – Überblick{#administer-target}
 
-Informationen, die Sie bei der Verwaltung unterstützen, [!DNL Adobe Target]einschließlich Konfigurationseinstellungen für Visual Experience Composer (VEC), Berichte, Scene7-Konfiguration, Implementierung, Hosts, Umgebung, Antwort-Token und Benutzer.
+Informationen zur Verwaltung von [!DNL Adobe Target], einschließlich Konfigurationseinstellungen für Visual Experience Composer (VEC), Berichte, Scene7-Konfiguration, Implementierung, Hosts, Umgebung, Antwort-Token und Benutzer.
 
-To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
+Um auf die Menüelemente [!UICONTROL Administration] zuzugreifen, klicken Sie in der oberen Menüleiste auf **[!UICONTROL Administration]** und dann auf die gewünschte Registerkarte auf der linken Seite:
 
 * [Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md)
 * [Berichterstellung](/help/administrating-target/reporting.md)
