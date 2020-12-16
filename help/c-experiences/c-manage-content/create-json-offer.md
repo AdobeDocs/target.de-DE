@@ -128,7 +128,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Filterung von Angeboten nach dem JSON-Angebotstyp  {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## Filterung von Angeboten nach dem JSON-Angebotstyp   {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
 Sie können die Angebotsbibliothek nach dem JSON-Angebotstyp filtern, indem Sie auf die Dropdownliste **[!UICONTROL Typ]** klicken und dann das Kontrollkästchen **[!UICONTROL JSON]** aktivieren.
 
