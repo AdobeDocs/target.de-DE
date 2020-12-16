@@ -54,7 +54,7 @@ Wenn Sie mboxCreate nutzen, etwa auf Seiten, die mithilfe von [!DNL Target Class
 | Globale Mbox automatisch erstellen | Globale Mbox automatisch erstellen - synchron | Globale Mbox automatisch erstellen - synchron | Globale Mbox automatisch erstellen - synchron | Globale Mbox automatisch erstellen - synchron |
 | mboxCreate | Standard | Standard | Standard | Standard |
 
-## Implementierung der Besucher-ID vorhanden, jedoch keine Besucher-ID festgelegt  {#section_29888A119C7A4753AD287FC845AA63F4}
+## Implementierung der Besucher-ID vorhanden, jedoch keine Besucher-ID festgelegt   {#section_29888A119C7A4753AD287FC845AA63F4}
 
 Wenn keine Besucher-ID festgelegt wurde, steht kein [!DNL Experience Cloud]-Besuchercookie für den Benutzer bereit. Die Seite sendet einen Aufruf an den Besucher-ID-Service, um die Besucher-ID zu erhalten. wartet auf die Antwort mit der ID, bevor ein Aufruf an [!DNL Target]Target erfolgt.
 
@@ -69,7 +69,7 @@ Wenn Sie in diesem Szenario Version 57 von [!DNL mbox.js] verwenden, funktionie
 | Globale Mbox automatisch erstellen | Globale Mbox automatisch erstellen - synchron | Globale Mbox automatisch erstellen - asynchron | Globale Mbox automatisch erstellen - asynchron | Globale Mbox automatisch erstellen - asynchron |
 | mboxCreate | Standard | ajax | ajax | ajax |
 
-## Sowohl Implementierung der Besucher-ID als auch Besucher-ID vorhanden  {#section_9CD4AE4C8186425D886398BC3CE6C46D}
+## Sowohl Implementierung der Besucher-ID als auch Besucher-ID vorhanden   {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
 Ist das Besucher-ID-Cookie vorhanden, muss [!DNL Target] keinen Aufruf an den Besucher-ID-Service richten. In diesem Fall muss nicht auf den Besucher-ID-Service gewartet werden, bevor Inhalte angezeigt werden können. In den Versionen 57 bis 59 wird der Typ **Globale Mbox automatisch erstellen - synchron** verwendet, weshalb die Seite nach dem Aufruf an [!DNL Target] auf die Antwort wartet, bevor sie weiter lädt. Dies gewährleistet, dass kein Flimmern bei den Standardinhalten entsteht. Bei Version 60 kommt der Typ **Globale Mbox - asynchron** zum Einsatz, um sicherzustellen, dass [!DNL Target] auf die Antwort des [!DNL Experience Cloud]-Abmeldeservice wartet. Der Abmeldeservice ist Teil der Datenkooperation, die im Herbst 2016 veröffentlicht wird. Da auf alle Aufrufe über AJAX geantwortet wird, sollte `document.write()` nicht mit Version 60 von [!DNL mbox.js] verwendet werden.
 
