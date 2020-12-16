@@ -33,7 +33,7 @@ Die Seitenleistung in einer der Versionen von Experience Composer in Target kann
 
 Falls Probleme in Enhanced Experience Composer auftreten, versuchen Sie zunächst, Enhanced Experience Composer zu deaktivieren und stattdessen Visual Experience Composer zu verwenden.
 
-To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
+Um Enhanced Experience Composer zu deaktivieren, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** und deaktivieren Sie die Option **[!UICONTROL Enhanced Experience Composer aktivieren]**.
 
 Bei einigen Benutzern wird in der Konsole die folgende Fehlermeldung angezeigt:
 
@@ -109,7 +109,7 @@ Bei der Firefox-Erweiterung „Modify Response Headers“ müssen Sie wie folgt 
 
 Öffnen Sie Target, nachdem Sie eine der Erweiterungen eingerichtet haben. Ihre Seiten sollten nun in Visual Experience Composer geladen werden, selbst wenn Enhanced Experience Composer deaktiviert ist.
 
-## Meine Seite wird im VEC nicht angezeigt (nur VEC)  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Meine Seite wird im VEC nicht angezeigt (nur VEC)   {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * Der Browser wird nicht unterstützt.
 * Der Browser blockiert eine nicht sichere Seite auf einer sicheren Site.
