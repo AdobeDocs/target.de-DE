@@ -21,7 +21,7 @@ Dieser Abschnitt enthält die folgenden Informationen:
 * [Suche nach Assets mit Schlüsselwörtern ](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
 * [Speichern intelligenter Sammlungen ](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
-## Suche nach Assets mit Schlüsselwörtern  {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Suche nach Assets mit Schlüsselwörtern   {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Bildangebote]**, um auf die [!UICONTROL Asset-Bibliothek] zuzugreifen.
 
@@ -37,7 +37,7 @@ Dieser Abschnitt enthält die folgenden Informationen:
 
 1. Geben Sie in das Suchfeld ein Schlüsselwort für das Asset/die Assets ein, das oder die Sie finden möchten, und drücken Sie die Eingabetaste.
 
-## Speichern intelligenter Sammlungen  {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## Speichern intelligenter Sammlungen   {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 Sie können gespeicherte Suchen erstellen, auch „intelligente Sammlungen“ genannt, um Zeit zu sparen, wenn Sie ähnliche Suchen durchführen. Mit einer gespeicherten Suche wird eine intelligente Sammlung erstellt, die automatisch mit Suchergebnissen aktualisiert wird.
 
