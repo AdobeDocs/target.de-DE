@@ -23,7 +23,7 @@ Sie können Elemente in der Bildangebotliste hinzufügen oder daraus entfernen.
 
    Das Element wird in die Bibliothek hochgeladen.
 
-## Schulungsvideo: Das Content-Repository ![Übersichtskennzeichnung](/help/assets/overview.png)
+## Schulungsvideo: Das Content-Repository  ![Übersichtskennzeichnung](/help/assets/overview.png)
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 
