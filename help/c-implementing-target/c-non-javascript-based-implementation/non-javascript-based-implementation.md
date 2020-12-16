@@ -27,9 +27,9 @@ AdBox-Anzeigen und Weiterleitungen können mit jeder beliebigen Aktivität verwe
 | AdBox | Gibt verschiedene Bilder für die Werbeanzeige aus | Um die Inhalte einer Werbeanzeige zu ändern | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | Umleitungsangebot | URL für ein Bild |
 | Weiterleitung | Leitet einen Besucher an eine andere Webseite weiter | Um die Landingpage einer Werbeanzeige zu ändern | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | Umleitungsangebot | URL für eine Seite |
 
-## Best Practices zur Sicherheit {#security}
+## Best Practices für die Sicherheit {#security}
 
-Beachten Sie, dass Sie mit der Weiterleitung dem Risiko einer Open-Redirect-Verwundbarkeit ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;, um die Standard-URL-Domänen für die Weiterleitung zu Zulassungslisten. Zielgruppe verwendet Hosts für Zulassungslisten-Domänen, zu denen Sie Umleitungen zulassen möchten. Weitere Informationen finden Sie unter Zulassungslisten [erstellen, die Hosts angeben, die zum Senden von Mbox-Aufrufen an die Zielgruppe](/help/administrating-target/hosts.md#allowlist) in *Hosts* berechtigt sind.
+Beachten Sie, dass Sie mit der Weiterleitung dem Risiko einer Open-Redirect-Verwundbarkeit ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;, um die Standard-URL-Domänen für die Weiterleitung zu Zulassungslisten. Zielgruppe verwendet Hosts für Zulassungslisten-Domänen, zu denen Sie Umleitungen zulassen möchten. Weitere Informationen finden Sie unter [Erstellen Sie Zulassungslisten, die Hosts angeben, die zum Senden von Mbox-Aufrufen an Zielgruppe](/help/administrating-target/hosts.md#allowlist) in *Hosts* berechtigt sind.
 
 ## Einschränkungen {#section_38F559DCF1324271926608BCD4AB1227}
 
