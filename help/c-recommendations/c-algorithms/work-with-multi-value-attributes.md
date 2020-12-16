@@ -20,9 +20,9 @@ Manchmal möchten Sie mit einem Feld mit mehreren Werten arbeiten. Sehen Sie sic
 * Sie verkaufen Tickets für Konzerte. Ein Benutzer hat mehrere Lieblingsbands.
 * Du verkaufst Kleidung. Ein Hemd ist in verschiedenen Größen erhältlich.
 
-Um Empfehlungen in diesen Szenarien zu bearbeiten, können Sie Daten mit mehreren Werten an spezielle Operatoren weiterleiten [!DNL Target Recommendations] und diese verwenden.
+Um Empfehlungen in diesen Szenarien zu verarbeiten, können Sie Daten mit mehreren Werten an [!DNL Target Recommendations] übergeben und spezielle Operatoren mit mehreren Werten verwenden.
 
-Um Daten mit mehreren Werten [!DNL Recommendations] zu identifizieren, sollten diese wie in den folgenden Codebeispielen als JSON-Array gesendet werden.
+Damit [!DNL Recommendations] Daten mit mehreren Werten identifizieren kann, sollten diese wie in den folgenden Codebeispielen als JSON-Array gesendet werden.
 
 ## Übergeben eines Parameters mit mehreren Werten in JavaScript
 
@@ -41,7 +41,7 @@ function targetPageParams() {
 }
 ```
 
-Weitere Informationen finden Sie unter [Implementieren von Attributen](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) mit mehreren Werten in *benutzerdefinierten Entitätsattributen*.
+Weitere Informationen finden Sie unter Implementieren von Attributen mit mehreren Werten[ in ](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)Benutzerdefinierte Entitätsattribute *.*
 
 ## Übergeben eines Entitätsattributs mit mehreren Werten in einer CSV-Datei
 
@@ -60,7 +60,7 @@ Weitere Informationen finden Sie unter [Implementieren von Attributen](/help/c-r
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Wenn ein Entitätsattribut, ein Profil- oder ein mbox-Parameter gemäß dem oben stehenden Format als Mehrwert bereitgestellt wird, deutet [!DNL Recommendations] dies automatisch darauf hin, dass es sich um ein Mehrwert handelt.
+Wenn ein Entitätsattribut, ein Profil- oder ein mbox-Parameter gemäß dem oben stehenden Format als Mehrwert bereitgestellt wird, gibt [!DNL Recommendations] automatisch an, dass es sich um ein Mehrfachfeld handelt.
 
 Die folgenden Operatoren stehen für Entitäts-, Profil- und Mbox-Attribute mit mehreren Werten zur Verfügung:
 
@@ -75,7 +75,7 @@ Die folgenden Operatoren stehen für Entitäts-, Profil- und Mbox-Attribute mit 
 
 ### Beispiel: Zuletzt überwachte Elemente ausschließen
 
-Angenommen, Sie möchten verhindern, dass Filme, die sich in den letzten zehn überwachten Filmen des Benutzers befinden, empfohlen werden. Schreiben Sie zunächst ein Profil-Skript, das aufgerufen wird, um die letzten zehn angezeigten Filme als JSON-Array `user.lastWatchedMovies` zu verfolgen. Anschließend können Sie die Elemente mithilfe der folgenden Einschlussregel ausschließen:
+Angenommen, Sie möchten verhindern, dass Filme, die sich in den letzten zehn überwachten Filmen des Benutzers befinden, empfohlen werden. Schreiben Sie zunächst ein Profil-Skript mit dem Namen `user.lastWatchedMovies`, um die letzten zehn angezeigten Filme als JSON-Array zu verfolgen. Anschließend können Sie die Elemente mithilfe der folgenden Einschlussregel ausschließen:
 
 ```
 `Profile Attribute Matching`
@@ -97,7 +97,7 @@ JSON API-Darstellung der Einschlussregel:
 
 ### Beispiel: Artikel aus den Favoriten des Benutzers empfehlen
 
-Angenommen, Sie möchten Tickets nur zu Konzerten empfehlen, wenn die Band, die spielt, eine der Lieblingsbands des Benutzers ist. Vergewissern Sie sich zunächst, dass Sie über eine Profil-Variable mit dem Namen `profile.favoriteBands` verfügen, die die Lieblingsbänder des Benutzers enthält. Stellen Sie dann sicher, dass Ihr Katalog ein Attribut enthält, `entity.artistPerforming` das den Künstler enthält, der im Konzert auftritt. Anschließend können Sie die folgende Einschlussregel verwenden:
+Angenommen, Sie möchten Tickets nur zu Konzerten empfehlen, wenn die Band, die spielt, eine der Lieblingsbands des Benutzers ist. Vergewissern Sie sich zunächst, dass Sie über eine Profil-Variable mit dem Namen `profile.favoriteBands` verfügen, die die Lieblingsbänder des Benutzers enthält. Stellen Sie dann sicher, dass Ihr Katalog ein Attribut `entity.artistPerforming` enthält, das den Künstler enthält, der im Konzert auftritt. Anschließend können Sie die folgende Einschlussregel verwenden:
 
 ```
 `Profile Attribute Matching`
@@ -119,7 +119,7 @@ JSON API-Darstellung der Einschlussregel:
 
 ### Beispiel: API-Erstellung von Kriterien, die Artikel aus den Favoriten eines Benutzers empfehlen
 
-Kriterien mit Filterregeln mit mehreren Werten können wie alle Kriterien über Adoben-I/O-APIs erstellt werden. Ein Beispiel-API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut in der Liste der mbox-Parameter enthalten `id` ist, finden Sie hier `favorites` :
+Kriterien mit Filterregeln mit mehreren Werten können wie alle Kriterien über Adobe I/O APIs erstellt werden. Ein Beispiel-API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut `id` in der Liste des mbox-Parameters `favorites` enthalten ist:
 
 ```
 curl -X POST \
