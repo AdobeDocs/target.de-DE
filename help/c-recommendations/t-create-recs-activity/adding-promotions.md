@@ -4,15 +4,15 @@ description: Fügen Sie Promotionsartikel hinzu und steuern Sie deren Platzierun
 title: Fügen Sie Promotions in Adobe Target-Recommendations-Designs hinzu.
 feature: recs creation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e07a457339509d1019cdd241ef3adfbb17ffafaa
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '679'
+ht-degree: 60%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Promotions hinzufügen{#add-promotions}
+# ![PREMIUM](/help/assets/premium.png) Promotions hinzufügen
 
 Fügen Sie Promotionsartikel hinzu und steuern Sie deren Platzierung in Ihren Recommendations-Designs. Sie können statische und dynamische Promotions hinzufügen.
 
@@ -51,13 +51,32 @@ Sie können einzelne Artikel bewerben, Artikel dynamisch bewerben, Artikel auf G
 
    * Wählen Sie **[!UICONTROL Liste der Artikel]** aus, und geben Sie die `entity.id`-Werte der einzelnen Artikel, die beworben werden sollen, durch Kommas getrennt ein.
 
-      Wenn Ihre Liste mehr Artikel enthält, als Slots für die Promotion festgelegt sind, können Sie das Kontrollkästchen **[!UICONTROL Elementreihenfolge randomisieren]** aktivieren, damit die Anzeige der beworbenen Artikel in Ihrem Design variiert wird. Durch die Auswahl dieser Option wählt Target die Anzahl der für Promotions aktivierten Elemente in der Vorlage aus dem gesamten Promotion-Satz für jeden Besuch zufällig aus.
-
    * Wählen Sie **[!UICONTROL Hervorheben nach Attribut]** aus und fügen Sie Regeln hinzu, um die Attribute der Artikel zu definieren, die beworben werden sollen.
 
       Wenn Sie „Hervorheben nach Attribut“ auswählen, können Sie dynamische Übereinstimmungen erstellen. Weitere Informationen finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-   * Wählen Sie **[!UICONTROL Sammlung hervorheben]** aus und wählen Sie eine Sammlung von Artikeln aus, die beworben werden soll. Sie können auch neue Sammlungen erstellen, die für Promotions verwendet werden sollen. Siehe [Erstellen einer Sammlung](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) für weitere Informationen.
+   * Wählen Sie **[!UICONTROL Sammlung hervorheben]** aus und wählen Sie eine Sammlung von Artikeln aus, die beworben werden soll.
+
+      Sie können auch neue Sammlungen erstellen, die für Promotions verwendet werden sollen. Siehe [Erstellen einer Sammlung](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) für weitere Informationen.
+   Wenn Sie die **[!UICONTROL Liste der Elemente]** als **[!UICONTROL Promotion-Typ]** ausgewählt haben, aktivieren Sie bei Bedarf das Kontrollkästchen Elementreihenfolge **** randomisieren.
+
+   Die standardmäßige Sortierreihenfolge für die [!UICONTROL Liste von Elementen] basiert auf der Reihenfolge, die Sie in der Benutzeroberfläche oder API der Zielgruppe eingegeben haben.
+
+   If your list includes more items than the number of slots you set for promotions, the [!UICONTROL Randomize Item Order] option randomizes the promoted items that are displayed in your design. Choosing this option results in [!DNL Target] randomly selecting the items enabled for promotions in the template from the entire promotion set on each hit.
+
+   Wenn Ihre Entitäten über kein `entity.value` Attribut verfügen (z. B. keine Produkte), können Sie einen numerischen Wert an das `entity.value` Attribut, z. B. das Veröffentlichungsdatum, übergeben. In diesem Fall können beworbene Artikel basierend auf dem neuesten Veröffentlichungsdatum in absteigender Reihenfolge beworben werden. Das `entity.value` Attribut ist vom Typ Dublette. es akzeptiert keine Zeichenfolgen.
+
+   Wenn Sie die Option &quot; [!UICONTROL Nach Attribut] bewerben&quot;oder &quot;Sammlung [!UICONTROL fördern] &quot;ausgewählt haben, ist die Option zur Randomisierung der Bestellung nicht verfügbar.
+
+   Wenn Sie bestimmte Elemente mithilfe der Optionen [!UICONTROL Nach Attribut] bewerben oder Sammlung [!UICONTROL bewerben] , basiert die Standardreihenfolge, in der Elemente angezeigt werden, auf dem `entity.value` Attribut in absteigender numerischer Reihenfolge.
+
+   Die folgende Tabelle zeigt die Unterschiede zwischen diesen Optionen:
+
+   | Promotion-Typ | Standardsortierung | Sicherungssortierung | Dynamische Filteroption |
+   | --- | --- | --- | --- |
+   | Liste der Elemente | In der Benutzeroberfläche/API der Zielgruppe eingegebene Reihenfolge | Zufällig (bei Auswahl über UI/API) | Nein |
+   | Promote nach Attribut | entity.value (absteigende Reihenfolge) | Bei jeder Anforderung randomisiert (wenn kein entity.value-Attribut vorhanden ist) | Nein |
+   | Sammlung bewerben | entity.value (absteigende Reihenfolge) | Bei jeder Anforderung randomisiert (wenn kein entity.value-Attribut vorhanden ist) | Nein |
 
 1. Klicken Sie auf **[!UICONTROL Speichern.]**.
 
