@@ -26,4 +26,4 @@ Weitere Informationen finden Sie unter [Lesezeichen-Manager](https://experiencel
 
 Wenn Sie spezielle Metriken und Segmente mit einem Test verwenden, sollten Sie die Erstellung einer Benutzergruppe für Ihr Optimierungsteam in Betracht ziehen. Geben Sie diese Metriken und Segmente für die Gruppe anstelle von einzelnen Mitgliedern frei, um sicherzustellen, dass sie alle Zugriff auf die Segmente und Metriken haben. Nur Administratoren verfügen über die Freigabe für Gruppen.
 
-See [Sharing segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) and [Sharing calculated metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
+Siehe [Freigeben von Segmenten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) und [Freigeben von berechneten Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
