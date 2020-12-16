@@ -95,7 +95,7 @@ Auf der Seite „Änderungen“ können Sie folgende Aktionen durchführen:
 
 1. Fügen Sie ggf. zusätzliche Änderungen hinzu.
 
-## Anwendungsfälle für benutzerspezifischen Code  {#section_26CB3360097D400FB02E20AE5FDBA352}
+## Anwendungsfälle für benutzerspezifischen Code   {#section_26CB3360097D400FB02E20AE5FDBA352}
 
 Der Bereich **[!UICONTROL Benutzerspezifischer Code]** enthält den Code, der zu Beginn des Ladevorgangs der Seite ausgeführt wird.
 
@@ -222,7 +222,7 @@ Jede Änderung erstellt ein neues Element im Bereich „Änderungen“. Da die z
 
 Wenn Sie die Funktion für benutzerspezifischen Code für zwei Aktivitäten verwenden, die dieselbe URL als Ziel auswählen, wird JavaScript von beiden Aktivitäten in die Seite eingefügt. Target legt automatisch die Reihenfolge der bereitgestellten Inhalte fest. Stellen Sie sicher, dass der Code nicht von der Platzierung abhängt. Sie sind selbst dafür verantwortlich, dass es keine Konflikte im Code gibt.
 
-## Fehlerbehebung  Benutzerspezifischer Code  {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+## Fehlerbehebung  Benutzerspezifischer Code   {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
 **Ich habe eine Warnung mit dem Hinweis erhalten, dass eine Aktion aufgrund von strukturellen Änderungen auf einer Seite nicht ausgeführt werden kann. Was bedeutet das?**
 
