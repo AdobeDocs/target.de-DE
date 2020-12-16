@@ -28,7 +28,7 @@ Gelangt ein Besucher auf eine Seite, auf der Sie eine Aktivität eingerichtet ha
 
 Wird der Besucher als Teil der Zielgruppe identifiziert, bestimmt [!DNL Target] basierend auf den Kriterien, die bei der Erstellung der Aktivität festgelegt wurden, welches Erlebnis angezeigt wird.
 
-## Schulungsvideo: Aktivitäts-Targeting  (2:13) ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Aktivitäts-Targeting  (2:13)  ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Einrichtung und zum Targeting von Zielgruppen.
 
