@@ -78,7 +78,7 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 Nachdem Sie in Target als Benutzer hinzugefügt wurden, müssen Sie die Rolle „Genehmiger“ haben, damit Sie Aktivitäten erstellen können.
 
 * Bitten Sie den Administrator Ihres Konto darum, Ihnen die Genehmigerrolle zu geben.
-* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
+* Wenn Sie der Administrator sind, geben Sie sich die Rolle &quot;Genehmigende Person&quot;von **[!UICONTROL Administration]** > **[!UICONTROL Benutzer]** in der Zielgruppe ein.
 
    Weitere Informationen finden Sie unter [Zuweisen der Rolle „Genehmiger“](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -137,10 +137,10 @@ Führen Sie einen der folgenden Schritte aus:
 * Erneut löschen. Die Erfolgsmeldung wird angezeigt.
 * Warten Sie ungefähr 10 Minuten, bis der Target Standard-/Premium-Importer ausgeführt werden kann. Der Importer aktualisiert die Profilskriptliste.
 
-## Some ajax [!DNL Target] calls are not working.
+## Einige AJAX [!DNL Target]-Aufrufe funktionieren nicht.
 
 **Hinweis:** Mehrere AJAX- [!DNL Target] Aufrufe mit demselben Namen, aber unterschiedlichen Parametern funktionieren nicht auf derselben Seite. Nur der erste Aufruf erfolgt.
 
-## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
+## Sie haben eine Aktivität mit der Zielgruppen-API aktiviert, aber die Aktivität zeigt in der Benutzeroberfläche der Zielgruppe den Status [!UICONTROL Inaktiv] an.
 
 Hinweis: Wenn Sie bestimmte Aktionen ausführen, wie zum Beispiel eine Aktivität außerhalb der Benutzeroberfläche über die Target-API zu aktivieren, kann es bis zu 10 Minuten dauern, bis die Aktualisierung bis zur Benutzeroberfläche propagiert wird.
