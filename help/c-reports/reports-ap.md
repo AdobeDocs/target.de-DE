@@ -14,7 +14,7 @@ ht-degree: 72%
 
 # ![PREMIUM](/help/assets/premium.png) Berichte zur automatisierten Personalisierung{#automated-personalization-summary-reports}
 
-Specialized reports are available to users of [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
+Spezialisierte Berichte stehen Benutzern der Aktivitäten [!UICONTROL Automated Personalization] in [!DNL Adobe Target] zur Verfügung.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Die Standardregeln für die Auswertung von A/B-Testergebnissen gelten weiterhin,
 
 Der Bericht [!UICONTROL Angebotsebene] für das „Random Forest“-Erlebnis vergleicht die Leistung der einzelnen durch Algorithmen bereitgestellten Angebote mit demselben, zufällig bereitgestellten Angebot (Kontrolle). Aus diesem Grund sollten Angebote in dieser Ansicht nicht miteinander verglichen werden.
 
-Click the experience algorithm (Random Forest or control) to view the [!UICONTROL Offer Level] report.
+Klicken Sie auf den Erlebnisalgorithmus (Random Forest oder Kontrolle), um den Bericht [!UICONTROL Angebot Level] Ansicht.
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -52,16 +52,16 @@ Angebote können innerhalb von Berichtsgruppen angezeigt werden. Diese Berichtsg
 
 ## Automatisierte Segmente
 
-Klicken Sie auf das Symbol [!UICONTROL Automatisierte Segmente] . Dieser Bericht zeigt, wie verschiedene Besucher unterschiedlich auf die Angebot/Erlebnisse in Ihrer AP/AT-Aktivität reagieren. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den Target-Personalisierungsmodellen definiert werden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben.
+Klicken Sie auf das Symbol [!UICONTROL Automatisierte Segmente]. Dieser Bericht zeigt, wie verschiedene Besucher unterschiedlich auf die Angebot/Erlebnisse in Ihrer AP/AT-Aktivität reagieren. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den Target-Personalisierungsmodellen definiert werden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben.
 
 ![Symbol für automatisierte Segmente](/help/c-reports/assets/icon-automated-sements-ap.png)
 
-Weitere Informationen finden Sie unter Bericht [&quot;Automatisierte Segmente&quot;](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+Weitere Informationen finden Sie unter [Bericht &quot;Automatisierte Segmente](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)&quot;.
 
 ## Wichtige Attribute
 
-Klicken Sie auf das Symbol [!UICONTROL Wichtige Attribute] . Dieser Bericht zeigt, wie verschiedene Attribute in verschiedenen Aktivitäten wichtiger (oder weniger) für die Art und Weise sind, wie das Modell sich für die Personalisierung entscheidet. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar.
+Klicken Sie auf das Symbol [!UICONTROL Wichtige Attribute]. Dieser Bericht zeigt, wie verschiedene Attribute in verschiedenen Aktivitäten wichtiger (oder weniger) für die Art und Weise sind, wie das Modell sich für die Personalisierung entscheidet. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar.
 
 ![Symbol &quot;Wichtige Attribute&quot;](/help/c-reports/assets/icon-important-attributes-ap.png)
 
-Weitere Informationen finden Sie unter Bericht &quot; [Wichtige Attribute&quot;](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+Weitere Informationen finden Sie unter [Bericht &quot;Wichtige Attribute](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)&quot;.
