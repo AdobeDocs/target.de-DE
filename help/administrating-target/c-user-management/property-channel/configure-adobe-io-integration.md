@@ -22,7 +22,7 @@ Mit [!UICONTROL Unternehmensberechtigungen] können [!DNL Target] Kunden eine Or
 
 Die Funktion [!UICONTROL Unternehmensberechtigungen] ermöglicht die Aufteilung von Optimierungsprogrammen auf Teams. Die Funktion war zwar in der [!DNL Target]-Benutzeroberfläche verfügbar, die Admin-APIs werden aber erst seit Anfang 2019 unterstützt. In der [!DNL Target]-Version vom Februar 2019 aktualisierte Adobe die Admin-APIs, sodass Sie über das Integrationskonto auf alle in Ihrem Unternehmen erstellten Arbeitsbereiche zugreifen können. Zuvor waren Admin-APIs auf den Standardarbeitsbereich beschränkt. Das Update vom Februar 2019 ermöglichte dann den Zugriff auf alle Arbeitsbereiche mit der Rolle [!UICONTROL Genehmiger].
 
-With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] provides customers with the following access controls:
+Mit der Version [!DNL Target] September 2019 erhalten Kunden [!DNL Target] [!UICONTROL Enterprise Permissions] die folgenden Zugriffskontrollen:
 
 * Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet wird.
 * Sie können der Adobe I/O-Integration eine Rolle zuweisen: [!UICONTROL Genehmiger], [!UICONTROL Bearbeiter] oder [!UICONTROL Beobachter].
@@ -42,7 +42,7 @@ Dieses Update unterstützt die folgenden Anwendungsfälle:
 
 **So gewähren Sie Adobe I/O-Integrationen Zugriff auf Arbeitsbereiche und weisen eine Rolle zu:**
 
-1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
+1. Öffnen Sie **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
 1. Klicken Sie auf den Tab **[!UICONTROL Produkte]** und wählen Sie das gewünschte Produkt aus.
 
