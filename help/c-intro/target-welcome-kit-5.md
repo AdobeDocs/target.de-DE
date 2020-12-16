@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # Kapitel 5: Anregung zum Testen und Personalisieren von Aktivitäten.
 
-Diese Test- und Personalisierungsideen, inspiriert durch echte Aktivitäten unserer Kunden, die Konversionsraten und Umsatz steigern, sind es wert, einen Versuch zu machen oder als Inspiration für Ihre eigenen [!DNL Target] Aktivitäten zu nutzen. Selbst wenn die Idee nicht genau für Ihr Unternehmen geeignet ist, mit wenig Kreativität und Brainstorming, sollten Sie sich überlegen, eine Aktivität zu entwickeln, die auf dem Geist der Test- oder Personalisierungsidee basiert.
+Diese Test- und Personalisierungsideen, inspiriert durch echte Aktivitäten unserer Kunden, die Konversionsraten und Umsatz steigern, sind es wert, einen Versuch zu machen oder als Inspiration für Ihre eigenen [!DNL Target]-Aktivitäten zu verwenden. Selbst wenn die Idee nicht genau für Ihr Unternehmen geeignet ist, mit wenig Kreativität und Brainstorming, sollten Sie sich überlegen, eine Aktivität zu entwickeln, die auf dem Geist der Test- oder Personalisierungsidee basiert.
 
 ## Idee 1: Testen Sie die Personalisierung der Customer Journey.
 
-Steigern Sie Konversionsrat und Umsatz, indem Sie eine maßgeschneiderte kreative Reise- und Branding-Erfahrung erstellen, die bei der Erreichung von Geschäftszielen mit den Besuchern der Website in Einklang steht. Testen Sie dann diese personalisierte Reise, indem Sie sie mit statischen Erlebnissen oder zufällig bereitgestellten Erlebnissen vergleichen. Machen Sie die Personalisierung noch tiefer, indem Sie die Audiencen entdecken und erstellen, die Sie personalisieren, um Daten von Zweitanbietern und Drittanbietern zu verwenden [!DNL Adobe Audience Manager].
+Steigern Sie Konversionsrat und Umsatz, indem Sie eine maßgeschneiderte kreative Reise- und Branding-Erfahrung erstellen, die bei der Erreichung von Geschäftszielen mit den Besuchern der Website in Einklang steht. Testen Sie dann diese personalisierte Reise, indem Sie sie mit statischen Erlebnissen oder zufällig bereitgestellten Erlebnissen vergleichen. Machen Sie die Personalisierung noch tiefer, indem Sie die Audiencen entdecken und erstellen, die Sie personalisieren, um Daten von Zweitanbietern und Drittanbietern in [!DNL Adobe Audience Manager] zu verwenden.
 
 Nachdem Sie diese Audiencen identifiziert haben, führen Sie Benutzererlebnis-Tests und Marktrecherchen durch, um zu erfahren, was sie überzeugt, darauf zu reagieren, und entwickeln Sie die Erlebnisse, die Sie auf Ihrer Reise entsprechend Zielgruppe entwickeln.
 
 Wenn beispielsweise ein Besucher, der in eine &quot;ernsthafte Gamer&quot;-Audience für eine Telekommunikations-Firma fällt, die Website der Firma besucht, eine Erfahrung bereitstellen, die Kopien und Bilder enthält, die bei Spielern Resonanz finden, und ein Angebot für Hochgeschwindigkeits-Internetzugang.
 
-## Idee 2: Zielgruppe erstmaliger Besucher und Wiederholungskunden unterschiedlich.
+## Idee 2: Zielgruppe von Erstkunden und Wiederholungskunden unterschiedlich.
 
-Digital-Marketingexperten erkennen intuitiv, dass Bestandskunden wertvoller sind als Neukunden, aber sie setzen allzu oft keine Priorität für Marketing-Programm ein, die darauf ausgelegt sind, dass Kunden wieder zurückkehren. Um diese häufige Fallstricke zu vermeiden, analysieren Sie Ihre Metriken zu rückkehrenden Kunden, um festzustellen, wie sich treue Kunden auf Ihrer Site verhalten. Verwenden Sie diese Einblicke, um zielgerichtete Kampagnen für Besucher mit einem oder zwei Käufen zu erstellen und Anreize zu bieten, zusätzliche Site-Besuche zu tätigen.
+Digital-Marketingexperten erkennen intuitiv, dass Bestandskunden wertvoller sind als Neukunden, aber sie setzen allzu oft keine Priorität für Marketing-Programm ein, die darauf ausgelegt sind, dass Kunden wieder zurückkehren. Um diese häufige Fallstricke zu vermeiden, analysieren Sie Ihre Metriken für rückkehrende Kunden, um festzustellen, wie sich treue Kunden auf Ihrer Site verhalten. Verwenden Sie diese Einblicke, um zielgerichtete Kampagnen für Besucher mit einem oder zwei Käufen zu erstellen und Anreize zu bieten, zusätzliche Site-Besuche zu tätigen.
 
 ## Idee 3: Website-Design testen
 
@@ -56,7 +56,7 @@ Fügen Sie beispielsweise Empfehlungen auf einer Produktdetailseite ein, um Besu
 
 Denken Sie an das Paradox der Wahl, wenn Sie A/B-Tests durchführen und ein paar Erlebnisse mit verschiedenen Optionen ausführen. Verringern Sie beispielsweise die Anzahl der Abonnement-Optionen und prüfen Sie, ob dadurch die Gesamtanzahl der Abonnements erhöht wird.
 
-Vielleicht ändern Sie einfach die Reihenfolge der Optionen, aus denen Sie auswählen können, wann Kunden handeln möchten. Wenn Sie z. B. verschiedene Preismodelle nebeneinander aufgeführt haben, können Sie Produktpreisoptionen von niedrigeren Listen bis hin zu höheren Werten und den Effekt jeder einzelnen Option messen.
+Vielleicht ändern Sie einfach die Reihenfolge der Optionen, aus denen Sie auswählen können, wann Kunden handeln möchten. Wenn Sie z. B. verschiedene Preismodelle nebeneinander aufgeführt haben, können Sie Produktpreisoptionen von niedrigeren Listen bis zu höheren Werten oder umgekehrt bewerten und die Auswirkungen jeder Option messen.
 
 ![Illustration zur Verhaltensmuster](/help/c-intro/assets/behavioral.png)
 
@@ -77,4 +77,4 @@ Berücksichtigen Sie die folgenden Ideen, bevor wir zum nächsten Kapitel überg
 * Mindestdauer der Aktivität: Führen Sie eine Test-Aktivität mindestens 14 Tage lang aus.
 * Vertrauensniveau der Mindestergebnisse: Führen Sie eine Test-Aktivität aus, bis die Ergebnisse eine Konfidenz von mindestens 90 % erreichen.
 * Mindestumrechnung pro Erlebnis: Führen Sie eine Test-Aktivität aus, bis mindestens 500 Konversionen pro Erlebnis vorhanden sind.
-* Konsistenz der Ergebnisse: Überprüfen Sie, ob die Ergebnisse konsistent und stabil sind, indem Sie sie in der Ansicht des Diagramms in anzeigen [!DNL Target].
+* Konsistenz der Ergebnisse: Überprüfen Sie, ob die Ergebnisse konsistent und stabil sind, indem Sie sie in der Ansicht des Diagramms in [!DNL Target] anzeigen.
