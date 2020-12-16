@@ -12,7 +12,7 @@ ht-degree: 49%
 ---
 
 
-# Berichte zur automatischen Zuordnung interpretieren {#determine-a-winner}
+# Berichte mit automatisierter Zuordnung interpretieren {#determine-a-winner}
 
 Interpretieren Sie die Ergebnisse einer A/B-Aktivität mit automatisierter Zuordnung, indem Sie wichtige Indikatoren wie Steigerung und Konfidenz in der Benutzeroberfläche der Zielgruppe untersuchen.
 
@@ -20,9 +20,9 @@ Viele Marketingexperten machen den Fehler, ein Erlebnis vorzeitig zum Gewinner z
 
 >[!NOTE]
 >
->Allgemeine Informationen zum Gewinner finden Sie unter [Zehn häufige A/B-Testfallen und wie diese](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)vermieden werden können.
+>Allgemeine Informationen zum Gewinner finden Sie unter [Zehn häufige A/B-Testfallen und wie diese vermieden werden können.](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 
-## Identifizieren Sie das erfolgreichste Erlebnis. {#section_24007470CF5B4D30A06610CE8DD23CE3}
+## Identifizieren Sie das erfolgreichste Erlebnis {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
 Bei der Verwendung der Funktion [!UICONTROL „Automatisierte Zuordnung“] zeigt [!DNL Target] oben auf der Seite der Aktivität ein Abzeichen mit „Noch kein Gewinner“ an, bis die Aktivität die Mindestanzahl an Konversionen mit ausreichender Konfidenz erreicht hat.
 
@@ -36,7 +36,7 @@ Wenn ein eindeutiger Gewinner feststeht, zeigt [!DNL Target] „Gewinner: Erlebn
 >
 >Aktivitäten mit Automatisierte Zuordnung dienen dazu, das beste Erlebnis aus allen Optionen zu ermitteln, anstatt nur paarweise Vergleiche mit Kontrollwerten durchzuführen.
 
-## Statistical guarantees of Auto-Allocate {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Statistische Garantien für die automatische Zuordnung {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 Nach Abschluss einer A/B-Aktivität garantiert die automatische Zuordnung, dass der ermittelte Gewinner eine effektive Falsch-positiv-Rate von 5 % aufweist. Das bedeutet, dass der festgestellte Gewinner nur 5 % der Zeit nicht das beste Erlebnis aller in der Aktivität vorhandenen Erlebnisse ist. Für einen A/A-Test (mit identischen Erlebnissen) schließen wir einen Test nach weniger als 5 % der Zeit ab. Zu erwarten ist, dass der A/A-Test (mit identischen Erlebnissen) unbegrenzt lange läuft, ohne dass ein Siegerabzeichen angezeigt wird.
 
@@ -48,9 +48,9 @@ Bei normalen A/B-Tests wird die Konfidenz basierend auf P-Werten berechnet. Für
 
 >[!IMPORTANT]
 >
->Zielgruppe zeigt einen Gewinner nach einer vordefinierten Mindestanzahl an Konversionen an; Die endgültige Entscheidung, den Gewinner auszuwählen, sollte jedoch stets auf den Ergebnissen des Adobe Target- [Stichprobengrößenrechners](https://docs.adobe.com/content/target-microsite/testcalculator.html)basieren. Zielgruppe berücksichtigt nicht die grundlegenden Konversionsraten einer Site und andere wichtige Aspekte, die in den Rechner eingespeist werden, um die Dauer der Aktivität zu bestimmen. Infolgedessen könnte die Zielgruppe aufgrund einer Mindestanzahl von Konversionen einen Gewinner früher als erforderlich anzeigen. Weitere Informationen finden Sie unter [Stichprobengrößenrechner](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Zielgruppe zeigt einen Gewinner nach einer vordefinierten Mindestanzahl an Konversionen an; Die endgültige Entscheidung, den Gewinner auszuwählen, sollte jedoch immer auf den Ergebnissen des Adobe Target [Stichprobengrößenrechners](https://docs.adobe.com/content/target-microsite/testcalculator.html) basieren. Zielgruppe berücksichtigt nicht die grundlegenden Konversionsraten einer Site und andere wichtige Aspekte, die in den Rechner eingespeist werden, um die Dauer der Aktivität zu bestimmen. Infolgedessen könnte die Zielgruppe aufgrund einer Mindestanzahl von Konversionen einen Gewinner früher als erforderlich anzeigen. Weitere Informationen finden Sie unter [Stichprobengrößenrechner](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-## Lift- und Confidence-Berichte in Aktivitäten mit automatisierter Zuordnung verstehen {#lift-confidence}
+## Lift- und Confidence-Berichte in Aktivitäten für die automatische Zuordnung {#lift-confidence}
 
 In Aktivitäten mit automatisierter Zuordnung wird das erste Erlebnis (standardmäßig Erlebnis A genannt) auf der Registerkarte &quot;Berichte&quot;immer als Kontrollerlebnis definiert. Dieses Erlebnis wird bei der Modellierung zur Bestimmung der Leistung von Erlebnissen nicht als echte statistische Kontrolle behandelt, sondern als Referenz oder Grundlage für einige Zahlen im Bericht.
 
@@ -74,6 +74,6 @@ Die folgenden Gründe erläutern, warum für sämtliche Aktivitäten in der Spal
 
    Bei der automatischen Zuordnung wird die Wahrscheinlichkeit gezeigt, mit der ein bestimmtes Erlebnis aus allen Erlebnissen als Gewinner hervorgeht. Das bedeutet, dass nur ein erfolgreichstes Erlebnis (dasjenige Erlebnis, das am wahrscheinlichsten als Gewinner hervorgeht) über einen Wert verfügt, der nicht 0 ist. Alle anderen Erlebnisse werden als wahrscheinliche Verlierer eingestuft und mit dem Wert 0 % angezeigt.
 
-* Die Konfidenz wird in der automatischen Zuordnung nur angezeigt, nachdem das erfolgreichste Erlebnis einen Wert von mehr als 60 % erzielen konnte. Diese Konfidenzniveaus treten in der Regel in etwa der Hälfte der Zeit auf, die ein normaler A/B-Test dauern würde (auch wenn dies nicht garantiert ist). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control&#39;s conversion-rate in &quot;Baseline conversion rate,&quot; &quot;5%&quot; for &quot;Lift,&quot; and 95% for &quot;Confidence.&quot; Typischerweise wird die Konfidenz angezeigt, nachdem jedes Erlebnis mindestens 50 % der erforderlichen Stichproben pro Erlebnis sammeln konnte. Somit erhalten Sie einen Überblick darüber, wann die Konfidenz höchstwahrscheinlich angezeigt wird.
+* Die Konfidenz wird in der automatischen Zuordnung nur angezeigt, nachdem das erfolgreichste Erlebnis einen Wert von mehr als 60 % erzielen konnte. Diese Konfidenzniveaus treten in der Regel in etwa der Hälfte der Zeit auf, die ein normaler A/B-Test dauern würde (auch wenn dies nicht garantiert ist). Verwenden Sie einen [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html), um zu bestimmen, wie lange ein normaler A/B-Test laufen würde: Plug-In-Steuerelements Konversionsrate in &quot;Ausgangswert Konversionsrat&quot;, &quot;5 %&quot;für &quot;Steigerung&quot;und &quot;95 % für &quot;Konfidenz&quot;. Typischerweise wird die Konfidenz angezeigt, nachdem jedes Erlebnis mindestens 50 % der erforderlichen Stichproben pro Erlebnis sammeln konnte. Somit erhalten Sie einen Überblick darüber, wann die Konfidenz höchstwahrscheinlich angezeigt wird.
 * Wird im Bericht überall der Wert 0 % angezeigt, ist die Aktivität höchstwahrscheinlich noch nicht lange genug online.
 
