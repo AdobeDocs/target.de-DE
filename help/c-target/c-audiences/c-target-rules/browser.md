@@ -60,7 +60,7 @@ Das folgende Beispiel zeigt eine Zielgruppe, die Internet Explorer-Benutzer in V
 
 Wählen Sie Aktivitätsteilnehmer basierend auf ihrem Browsertyp, ihrer Sprache oder Version als Zielgruppe aus oder schließen Sie sie aus.
 
-### Typ  {#section_6ADC758F23F145B3A310151546D83D56}
+### Typ   {#section_6ADC758F23F145B3A310151546D83D56}
 
 Schließen Sie einen bestimmten Browser als Ziel ein oder aus.
 
@@ -71,7 +71,7 @@ Wählen Sie **[!UICONTROL Typ]** und wählen Sie entweder gleich oder nicht glei
 
 Wählen Sie einen oder mehrere Browser aus. Mehrfachoptionen sind mit einem ODER verbunden.
 
-### Sprache  {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Sprache   {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Schließen Sie bestimmte Browserversionen, die spezifische Sprachen verwenden, als Ziel ein oder aus.
 
@@ -98,7 +98,7 @@ Folgende Browsersprachen können als Ziel ein- oder ausgeschlossen werden.
 * Spanisch
 * Traditionelles Chinesisch
 
-### Version  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Version   {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Schließen Sie bestimmte Browserversionen als Ziel ein oder aus.
 
@@ -119,7 +119,7 @@ Es können nur Hauptversionen in das Textfeld eingegeben werden. Die angegebene 
 
 Mehrfachoptionen sind mit einem ODER verbunden.
 
-## Schulungsvideo: Erstellen von Zielgruppen ![Tutorialzeichen](/help/assets/tutorial.png)
+## Schulungsvideo: Erstellen von Zielgruppen  ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
