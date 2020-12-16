@@ -19,7 +19,7 @@ ht-degree: 86%
 
 Die [!DNL Adobe Target]-Lösung enthält verschiedene Komponenten:
 
-## Target Standard  {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## Target Standard   {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
 [!DNL Target Standard] bietet ein vereinfachtes Frontend von [!DNL Adobe Target], mit dem Sie visuell A/B-Tests und regelbasierte Targeting-Aktivitäten erstellen und eine Verbindung zu Adobe Experience Cloud herstellen können. [!DNL Target Standard] unterstützt auch das Einfügen von benutzerdefiniertem Code sowohl im als auch außerhalb des [!UICONTROL Visual Experience Composer]-Arbeitsablaufs. [!DNL Target Standard] bietet außerdem eine vereinfachte Implementierungsstrategie für Ihre digitalen Eigenschaften: Nur eine einzelne Codezeile auf jeder Seite verwaltet die gesamte zwischen Ihrer Site und [!DNL Adobe Target] erforderliche Kommunikation.
 
@@ -78,7 +78,7 @@ Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 
 ### Berechtigungen für Unternehmensbenutzer
 
-[Mit der Funktion &quot;Berechtigungen](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) für Enterprise-Benutzer&quot;können Sie verschiedene Profile erstellen (im Abschnitt &quot;Produktberechtigungen&quot; [!DNL Adobe Admin Console for Enterprise]), damit Sie einem einzelnen Benutzer unterschiedliche Berechtigungen zuweisen können, die dessen Zugriffsrechte für jedes Projekt vorschreiben. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in [!DNL Adobe Analytics]. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Dadurch können Kunden den Ansicht-, Bearbeitungs-, Genehmigungs- und Veröffentlichungszugriff auf ihre Benutzer je nach Region, Umgebung (dev/stage/prod), Kanal oder anderen benutzerspezifischen Kriterien einschränken.
+[Mit der ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Funktion &quot;Berechtigungen für Enterprise-Benutzer&quot;können Sie verschiedene Profile erstellen (im Abschnitt &quot;Produktberechtigungen&quot; [!DNL Adobe Admin Console for Enterprise]), damit Sie einem einzelnen Benutzer unterschiedliche Berechtigungen zuweisen können, die dessen Zugriffsrechte für jedes Projekt vorschreiben. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in [!DNL Adobe Analytics]. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Dadurch können Kunden den Ansicht-, Bearbeitungs-, Genehmigungs- und Veröffentlichungszugriff auf ihre Benutzer je nach Region, Umgebung (dev/stage/prod), Kanal oder anderen benutzerspezifischen Kriterien einschränken.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -88,11 +88,11 @@ Weitere Informationen finden Sie in der [Dokumentation zu Recommendations Classi
 
 ## Experience League: Das Adobe Target Welcome Kit {#kit}
 
-Mit diesem Welcome Kit können Sie ein Optimierungs- und Personalisierungsprogramm in Adobe Target erstellen. It includes key information, tools, and resources to help you prepare for and launch your first [!DNL Adobe Target] activity, with short-term quick wins and long-term optimization strategies.
+Mit diesem Welcome Kit können Sie ein Optimierungs- und Personalisierungsprogramm in Adobe Target erstellen. Es enthält wichtige Informationen, Tools und Ressourcen, die Sie bei der Vorbereitung und beim Start Ihrer ersten [!DNL Adobe Target]-Aktivität unterstützen, mit kurzfristigen QuickWins und langfristigen Optimierungsstrategien.
 
 [Das Adobe Target-Begrüßungs-Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Schulungsvideo: Aktivität Types (9:03) - ![Überblick](/help/assets/overview.png)
+## Schulungsvideo: Aktivitäten (9:03) ![Übersichtskennzeichen](/help/assets/overview.png)
 
 Im folgenden Video wird erklärt, welche Aktivitätstypen in [!DNL Target Standard/Premium] verfügbar sind und wie der angeleitete dreistufige Arbeitsablauf von Target dazu beiträgt, dass Sie die Ziele für Ihre Site erreichen.
 
