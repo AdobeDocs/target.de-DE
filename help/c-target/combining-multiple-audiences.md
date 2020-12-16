@@ -112,7 +112,7 @@ Sie können eine kombinierte Ad-hoc-Zielgruppe erstellen, während Sie eine best
 
    Klicken Sie auf die gewünschte Aktivität, um sie zu öffnen, und klicken Sie anschließend auf **[!UICONTROL Aktivität bearbeiten]**.
 
-1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Klicken Sie auf **[!UICONTROL Konfigurieren]** > **[!UICONTROL Audiencen]** > **[!UICONTROL Mehrere Audiencen]**.
 
    ![Konfigurieren > Zielgruppen > Mehrere Zielgruppen](/help/c-target/assets/combine_multiple_audiences7.png)
 
