@@ -12,7 +12,7 @@ ht-degree: 10%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) -Parameterübereinstimmung
+# ![](/help/assets/premium.png) PREMIUMParameter-Übereinstimmung
 
 Dynamisches Filtern durch Vergleich von Elementen (Entitäten) mit einem Wert in der Anforderung (API oder mbox).
 
@@ -33,9 +33,9 @@ Empfehlen Sie beispielsweise nur Inhalte, die mit dem Seitenparameter &quot;Bran
 
 ## Beispiele für Parameterübereinstimmung
 
-[!UICONTROL Mit der Parameterübereinstimmung] können Sie Inhalte empfehlen, die mit den Seitenparametern oder den Parametern des Besuchers übereinstimmen, z. B. Geräteabmessungen oder Geolocation, wie im folgenden Beispiel:
+[!UICONTROL Mit Parameter ] Matchinging können Sie Inhalte empfehlen, die mit den Seitenparametern oder den Parametern des Besuchers übereinstimmen, z. B. Geräteabmessungen oder Geolocation, wie im folgenden Beispiel:
 
-[!DNL Recommendations] kann mit den Parameterwerten übereinstimmen, die im [!DNL Target] Aufruf gesendet werden. In diesem Fall [!DNL Target] [!DNL Target] erkennt ein Besucher, dass er ein Mobilgerät verwendet, basierend auf den im Aufruf gesendeten Parametern für Bildschirmhöhe und -breite, und empfiehlt nur Elemente, die Mobilgeräte sind.
+[!DNL Recommendations] kann mit den Parameterwerten übereinstimmen, die im  [!DNL Target] Aufruf gesendet werden. In diesem Fall erkennt [!DNL Target], dass ein Besucher ein Mobilgerät verwendet, basierend auf den Parametern für Bildschirmhöhe und -breite, die im [!DNL Target]-Aufruf gesendet werden, und empfiehlt nur Elemente, die Mobilgeräte sind.
 
 Betrachten Sie den folgenden Beispielaufruf zur Zielgruppe:
 
