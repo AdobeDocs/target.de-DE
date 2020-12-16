@@ -14,37 +14,37 @@ ht-degree: 0%
 
 # Kapitel 4: Tipps zur Verwendung der Zielgruppe
 
-Aufgrund unserer Arbeit mit vielen [!DNL Target] Benutzern haben wir festgestellt, wie Sie von Ihrer [!DNL Target] Lösung mehr Wert erhalten können. Wir haben diese in den vielen Tipps zusammengefasst, die wir in diesem Kapitel enthalten haben. Auch wenn Sie nicht bereit sind, alle diese Ideen sofort zu nutzen, halten Sie an dieser Liste fest. Je mehr Erfahrung Sie mit der Lösung haben und je älter Ihr Programm ist, desto mehr erfahren Sie, wie Sie mit diesen Tipps mehr erreichen können [!DNL Target].
+Basierend auf unserer Arbeit mit vielen [!DNL Target] Benutzern haben wir Wege gefunden, wie Sie von Ihrer [!DNL Target]-Lösung mehr Wert erhalten können. Wir haben diese in den vielen Tipps zusammengefasst, die wir in diesem Kapitel enthalten haben. Auch wenn Sie nicht bereit sind, alle diese Ideen sofort zu nutzen, halten Sie an dieser Liste fest. Je mehr Erfahrung Sie mit der Lösung haben und je älter Ihr Programm ist, desto mehr erfahren Sie, wie Sie mit [!DNL Target] mehr erreichen können.
 
 ## Tipp 1: Optimieren Sie die Personalisierung, indem Sie das Besucher-Profil um zusätzliche Daten erweitern.
 
-Sie können Erlebnisse mit [!DNL Target] Daten sofort personalisieren. Aber Sie können Ihre Daten noch besser personalisieren, indem Sie Ihre eigenen Daten in den Mix einfügen. Sie können Ihr Profil mit historischen Daten aus [!DNL Adobe Analytics] und Echtzeit-Daten aus Ihrem System erweitern [!DNL Adobe Audience Manager]. Sie können auch Kundenattribute verwenden, eine Funktion im People-Core-Service in [!DNL Adobe Experience Cloud], um CRM-Daten, Drittanbieter-Partnerdaten und von Drittanbietern erworbene Daten ganz einfach in [!DNL Target]Ihre Website zu integrieren.
+Sie können Erlebnisse mit [!DNL Target]-Daten direkt personalisieren. Aber Sie können Ihre Daten noch besser personalisieren, indem Sie Ihre eigenen Daten in den Mix einfügen. Sie können Ihr Profil mit Verlaufsdaten von [!DNL Adobe Analytics] und Echtzeitdaten von [!DNL Adobe Audience Manager] erweitern. Sie können auch Kundenattribute verwenden, eine Funktion im People-Core-Service in [!DNL Adobe Experience Cloud], um CRM-Daten, Drittanbieter-Partnerdaten und von Drittanbietern erworbene Daten einfach in [!DNL Target] zu importieren.
 
-Beispielsweise können Sie Kaufdaten aus Ihrem Verkaufsort mit einem Besucher-Profil verknüpfen. Erstellen Sie dazu einfach eine CSV-Datei mit bis zu 200 Offline-Variablen und laden Sie sie entweder direkt [!DNL Adobe Experience Cloud] über einen Datei-Upload hoch oder verwenden Sie FTP, um Ihre Datei zu hosten und regelmäßig zu aktualisieren. Sobald sich Ihre Kundenattribute befinden, können Sie sie [!DNL Adobe Experience Cloud]Lösungen zuordnen, z. B. [!DNL Experience Cloud] und [!DNL Adobe Analytics] [!DNL Target] wo sie für Analyse, Tests und Personalisierung verfügbar sein werden.
+Beispielsweise können Sie Kaufdaten aus Ihrem Verkaufsort mit einem Besucher-Profil verknüpfen. Erstellen Sie dazu einfach eine CSV-Datei mit bis zu 200 Offline-Variablen und laden Sie sie entweder direkt in [!DNL Adobe Experience Cloud] über einen Datei-Upload hoch oder verwenden Sie FTP, um Ihre Datei zu hosten und regelmäßig zu aktualisieren. Sobald sich Ihre Kundenattribute in [!DNL Adobe Experience Cloud] befinden, können Sie sie [!DNL Experience Cloud]-Lösungen wie [!DNL Adobe Analytics] und [!DNL Target] zuordnen, wo sie für Analyse, Tests und Personalisierung verfügbar sind.
 
-Eine schrittweise Anleitung finden Sie unter [Benutzerdefinierte Attribute](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) .
+Eine schrittweise Anleitung finden Sie unter [Benutzerspezifische Attribute](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html).
 
-**Gut zu wissen**: Da [!DNL Target] es sich um eine offene und agnostische Plattform handelt, die mit verschiedenen Technologien gut funktioniert, können Sie CRM- oder erworbene Daten auf viele verschiedene Arten hinzufügen. Das bedeutet, dass Sie eine Methode wählen können, die für Ihr Unternehmen am besten geeignet ist.
+**Gut zu wissen**: Da  [!DNL Target] es sich um eine offene und agnostische Plattform handelt, die mit verschiedenen Technologien gut funktioniert, können Sie CRM- oder erworbene Daten auf viele verschiedene Arten hinzufügen. Das bedeutet, dass Sie eine Methode wählen können, die für Ihr Unternehmen am besten geeignet ist.
 
-Weitere Informationen finden Sie unter [Methoden für die Zielgruppe](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) von Daten.
+Weitere Informationen finden Sie unter [Methoden zum Abrufen von Daten in Zielgruppe](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md).
 
 ## Tipp 2: Durch die Verknüpfung von Zielgruppe-Audiencen mit anderen Adobe Experience Cloud-Audiencen können Sie Ihre persönlichen Daten noch besser personalisieren.
 
-Das Zusammenführen von Audiencen, die in unterschiedlichen [!DNL Adobe Experience Cloud] Lösungen leben, kann Ihnen ein umfassenderes Verständnis Ihrer Kunden sowie die Möglichkeit geben, sich stärker zu personalisieren. Wenn Sie beispielsweise Daten zur Audience in Echtzeit [!DNL Target] bereitstellen, [!DNL Adobe Analytics] werden Verlaufsdaten zur Audience bereitgestellt. Die Kombination dieser beiden Faktoren kann Ihnen dabei helfen, festzustellen, wann das Verhalten eines Kunden konsistent ist und wann möglicherweise die Möglichkeit besteht, auf ein neues Verhalten zu reagieren. Klicken Sie beim Erstellen einer Aktivität einfach auf das Dropdown-Menü neben &quot;Alle Besucher&quot;. Markieren Sie anschließend die Kästchen mit bis zu zwanzig Audiencen, klicken Sie auf &quot;Mehrere Audiencen kombinieren&quot;und klicken Sie auf &quot;Speichern&quot;.
+Die Kombination von Audiencen, die in unterschiedlichen [!DNL Adobe Experience Cloud]-Lösungen leben, kann Ihnen ein umfassenderes Verständnis Ihrer Kunden vermitteln und Ihnen die Möglichkeit geben, sich tiefer zu personalisieren. [!DNL Target] stellt beispielsweise Daten zur Audience in Echtzeit bereit, [!DNL Adobe Analytics] stellt aber Verlaufsdaten zur Audience bereit. Die Kombination dieser beiden Faktoren kann Ihnen dabei helfen, festzustellen, wann das Verhalten eines Kunden konsistent ist und wann möglicherweise die Möglichkeit besteht, auf ein neues Verhalten zu reagieren. Klicken Sie beim Erstellen einer Aktivität einfach auf das Dropdown-Menü neben &quot;Alle Besucher&quot;. Markieren Sie anschließend die Kästchen mit bis zu zwanzig Audiencen, klicken Sie auf &quot;Mehrere Audiencen kombinieren&quot;und klicken Sie auf &quot;Speichern&quot;.
 
-Eine schrittweise Anleitung finden Sie unter [Kombinieren mehrerer Audiencen](/help/c-target/combining-multiple-audiences.md) .
+Eine schrittweise Anleitung finden Sie unter [Kombinieren mehrerer Audiencen](/help/c-target/combining-multiple-audiences.md).
 
-**Gut zu wissen**: [!DNL Adobe Audience Manager] audiencen sind [!DNL Target] automatisch verfügbar. Aber die Freigabe von [!DNL Adobe Analytics] Audiencen erfordert ein wenig manuelles Setup. Markieren Sie einfach das Kästchen &quot;Make this an Experience Cloud Audience&quot; während der Audience-Erstellung in [!DNL Analytics]. Klicken Sie anschließend [!DNL Target]auf &quot;Experience Cloud-Audiencen importieren&quot;.
+**Gut zu wissen**:  [!DNL Adobe Audience Manager] audiencen sind  [!DNL Target] automatisch verfügbar. Für die [!DNL Adobe Analytics]-Freigabe von Audiencen ist jedoch eine manuelle Einrichtung erforderlich. Markieren Sie einfach das Kästchen &quot;Make this an Experience Cloud Audience&quot; während der Audience-Erstellung in [!DNL Analytics]. Klicken Sie dann von [!DNL Target] auf &quot;Experience Cloud-Audiencen importieren&quot;.
 
 ## Tipp 3: Exportieren Sie Daten aus der Zielgruppe zur Verwendung mit Drittanbieterwerkzeugen.
 
-Mithilfe von Antworttoken können Administratoren Daten ganz einfach aus [!DNL Target] und in Tools von Drittanbietern abrufen. Dies kann hilfreich sein, wenn Sie Daten zu Daten hinzufügen möchten, die in einem Umfrage-Tool erfasst wurden. Wenn beispielsweise eine Umfrage eine Stichprobe einer Population mit einem Erlebnis mit einem Wert von &quot;9&quot;und einem Erlebnis mit einem Wert von &quot;4&quot;anzeigt, können Sie Ihre Daten verwenden, um zu sehen, wer Erlebnis A gesehen hat und wer Erlebnis B gesehen hat. Sie können auch Antwort-Token verwenden, um [!DNL Target] Daten in Ihr internes Data Warehouse zu exportieren. Klicken Sie einfach auf &quot;Administration&quot;, und schalten Sie dann den Schalter neben dem gewünschten Antworttoken auf die Position ein. Als Nächstes erstellen Sie eine Aktivität. Die Daten können dann an den Drittanbieter übertragen werden. Sie können mithilfe von Debuggingwerkzeugen überprüfen, ob die Daten exportiert [!DNL Target] werden.
+Mithilfe von Antwort-Token können Administratoren problemlos Daten aus [!DNL Target] und in Tools von Drittanbietern abrufen. Dies kann hilfreich sein, wenn Sie Daten zu Daten hinzufügen möchten, die in einem Umfrage-Tool erfasst wurden. Wenn beispielsweise eine Umfrage eine Stichprobe einer Population mit einem Erlebnis mit einem Wert von &quot;9&quot;und einem Erlebnis mit einem Wert von &quot;4&quot;anzeigt, können Sie Ihre Daten verwenden, um zu sehen, wer Erlebnis A gesehen hat und wer Erlebnis B gesehen hat. Sie können auch Antwort-Token verwenden, um [!DNL Target]-Daten in Ihr internes Data Warehouse zu exportieren. Klicken Sie einfach auf &quot;Administration&quot;, und schalten Sie dann den Schalter neben dem gewünschten Antworttoken auf die Position ein. Als Nächstes erstellen Sie eine Aktivität. Die Daten können dann an den Drittanbieter übertragen werden. Sie können überprüfen, ob [!DNL Target] die Daten mit Debuggingwerkzeugen exportiert.
 
-Eine schrittweise Anleitung finden Sie unter [Antworttoken](/help/administrating-target/response-tokens.md) .
+Eine schrittweise Anleitung finden Sie unter [Antwort-Token](/help/administrating-target/response-tokens.md).
 
 **Hilfreicher Hinweis**: Bevor ein Administrator ein mit einem Drittanbieter verknüpftes Antwort-Token aktivieren kann, muss ein Entwickler eine Partnerschaft mit dieser Drittanbieter-Firma einrichten.
 
-Eine schrittweise Anleitung finden Sie unter [Antworttoken](/help/administrating-target/response-tokens.md) .
+Eine schrittweise Anleitung finden Sie unter [Antwort-Token](/help/administrating-target/response-tokens.md).
 
 **Führen Sie zuerst** Folgendes aus: Vergewissern Sie sich, dass Sie at.js Version 1.1 oder höher verwenden. Wenn Sie eine frühere Version verwenden, werden die Antwort-Token angezeigt, at.js kann sie jedoch nicht verwenden.
 
@@ -62,17 +62,17 @@ Berücksichtigen Sie beim Erstellen von Audiencen zum Targeting oder Testen von 
 
 Erleichtern Sie sich die Arbeit mit den Daten Ihres Unternehmens und bewahren Sie die Sicherheit. [!DNL Target Premium] ermöglicht Administratoren die Steuerung des Zugriffs auf verschiedene interne und externe Teams.
 
-Weitere Informationen finden Sie unter [Enterprise-Benutzerberechtigungen](/help/administrating-target/c-user-management/property-channel/property-channel.md) .
+Weitere Informationen finden Sie unter [Enterprise-Benutzerberechtigungen](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 **Hilfreicher Hinweis**: Wenn beim Hinzufügen von Benutzern der Name eines Teammitglieds noch nicht hinzugefügt wurde (z. B. bei einem Mitarbeiter einer Agentur eines Drittanbieters), löst die Eingabe der E-Mail-Adresse und des Passworts eine E-Mail-Einladung aus, sich dem Arbeitsbereich des Teams anzuschließen.
 
-Verwenden von Target Standard? Sie können Ihren Benutzern weiterhin drei Zugriffsebenen [mit schreibgeschützten Rollen, Editor- und genehmigenden Rollen](/help/administrating-target/c-user-management/c-user-management/user-management.md) zuweisen!
+Verwenden von Target Standard? Sie können weiterhin [drei Zugriffsebenen ](/help/administrating-target/c-user-management/c-user-management/user-management.md) für Ihre Benutzer mit schreibgeschützten Rollen, Editor- und Genehmiger-Rollen zuweisen!
 
 ## Tipp 6: Entdecken Sie, wie ein Angebot während einer Customer Journey funktioniert, indem Sie es auf jeder einzelnen Seite der Reise testen.
 
 Erfahren Sie, wie ein Angebot, z. B. kostenloser Versand, während einer Kundenreise funktioniert, die über mehrere Seiten auf Ihrer Website stattfindet.
 
-Eine schrittweise Anleitung finden Sie unter [Mehrseitige Aktivität](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) .
+Eine schrittweise Anleitung finden Sie unter [Mehrseitige Aktivität](/help/c-experiences/c-visual-experience-composer/multipage-activity.md).
 
 **Hilfreicher Hinweis**: Wenn Sie die URL ändern, nachdem Sie einen Seitenbereich angegeben haben, wird das Erlebnis zurückgesetzt. Das bedeutet, dass die angegebenen Varianten nicht mehr angezeigt werden. Wenn Sie die URL ändern müssen, denken Sie daran, das Erlebnis neu zu definieren.
 
@@ -80,27 +80,27 @@ Eine schrittweise Anleitung finden Sie unter [Mehrseitige Aktivität](/help/c-ex
 
 Mit Experience Versions können Sie einen Test mit Varianten für beliebig viele Audiencen ausführen. Sie können beispielsweise eine Banneranzeige erstellen, die kostenlosen Versand anbietet - mit Bildern und Währungsvarianten für Kunden in den USA, Großbritannien und den USA -, ohne dass Sie Tests für drei verschiedene Audiencen durchführen müssen.
 
-Eine schrittweise Anleitung finden Sie unter [Mehrere Erlebnis-Audiencen in einem A/B-Test](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) - und [Erlebnisversionen in Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) .
+Eine schrittweise Anleitung finden Sie unter [Mehrere Erlebnis-Audiencen in einem A/B-Test](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) und [Erlebnisversionen in Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com).
 
 ## Tipp 8: Sparen Sie Zeit, indem Sie Erlebnisse in ähnlichen Aktivitäten replizieren.
 
 Erstellen Sie eine Variante auf einer Webseite, z. B. eine neue Schaltflächenfarbe, und wenden Sie sie automatisch auf alle Seiten an, die dieselbe Vorlage verwenden. Sie können Seiten angeben oder die Variationen auf alle ähnlichen Seiten Ihrer Website anwenden.
 
-Eine schrittweise Anleitung finden Sie unter [Einbeziehen des gleichen Erlebnisses auf ähnlichen Seiten](/help/c-experiences/c-visual-experience-composer/temtest.md) .
+Eine schrittweise Anleitung finden Sie unter [Einschließen des gleichen Erlebnisses auf ähnlichen Seiten](/help/c-experiences/c-visual-experience-composer/temtest.md).
 
 ## Tipp 9: Reduzieren Sie die Übersichtlichkeit in Ihrer Audience-Bibliothek, indem Sie einmalige Audiencen erstellen.
 
 Wenn Sie ein Segment als Ziel auswählen, von dem Sie wissen, dass es nicht erneut zu Zielgruppen kommt (z. B. Kunden, die von einem unerwarteten Wetterereignis betroffen sind), kann die Erstellung einer einmaligen Audience Ihnen dabei helfen, die Aufgabe zu erledigen, ohne dass Sie Ihre Audience-Bibliothek übersichtlicher gestalten müssen. Dadurch wird es einfacher, Audiencen zu finden, die Sie immer und immer wieder verwenden.
 
-Eine schrittweise Anleitung finden Sie unter [Erstellen einer Nur-Aktivität-Audience](/help/c-target/creating-activity-only-audience.md) .
+Eine schrittweise Anleitung finden Sie unter [Eine Nur-Aktivität-Audience](/help/c-target/creating-activity-only-audience.md) erstellen.
 
 **Hoch angeforderte Funktion**: Unsere Kunden haben uns gebeten, die Möglichkeit zu schaffen, dass Audiencen mit nur einem Verwendungszweck nicht automatisch in der Audience-Bibliothek gespeichert werden. Jetzt müssen sie keine Audiencen mehr manuell löschen, um ihre Bibliotheken zu organisieren.
 
-## Tipp 10: Einfache Tests werden schneller ausgeführt, ohne dass sie den Standard-QS-Prozess durchlaufen.
+## Tipp 10: Einfache Tests werden schneller ausgeführt, ohne dass sie den Standard-QA-Prozess durchlaufen.
 
 Es gibt nichts Schlimmeres als eine Aktivität zu haben, die bereit ist zu gehen und dann Wochen darauf zu warten, dass sie den Standard-QS-Prozess abschließt. Sie können die meisten Aktivitäten durch Weiterleiten einiger QS-Links an Kollegen überprüfen, um sie in verschiedenen Browsern zu testen. Wahrscheinlich möchten Sie für Bemühungen, die die Funktion der Site drastisch verändern, mehr QS-Tests durchführen, aber in Wirklichkeit sollten Sie weniger dieser Aktivitäten und weitaus mehr der grundlegenderen Aktivitäten haben. Durch das Hinzufügen besserer Rechte-Kontrollen, damit weniger Menschen Dinge voll leben können, werden auch sinnvolle Grenzen gesetzt und Sie können das erreichen, was Sie brauchen, ohne dabei Geschwindigkeit und Effizienz zu opfern. Eine andere Möglichkeit besteht darin, über eine IT-Ressource zu verfügen, die eine zeitnahe Überwachung des Qualitätssicherungsprozesses ermöglicht.
 
-Eine schrittweise Anleitung finden Sie unter [Aktivität QA](/help/c-activities/c-activity-qa/activity-qa.md) .
+Eine schrittweise Anleitung finden Sie unter [Aktivität QA](/help/c-activities/c-activity-qa/activity-qa.md).
 
 ## Tipp 11: Führen Sie Tests auf Seiten mit hohem Traffic durch, damit sie schneller statistische Bedeutung erreichen.
 
@@ -110,7 +110,7 @@ Viele Marketingexperten starten Optimierungs-Programm für die Segmentierung und
 * Was ist der Konversionsrate für die Seite?
 * Wie lange müssen Sie den Test voraussichtlich ausführen, bevor Sie ihn als abgeschlossen bezeichnen können?
 
-**Hilfreicher Tipp**: Verwenden Sie den [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html) der Zielgruppe, um die für einen erfolgreichen Test erforderliche Stichprobengröße zu ermitteln.
+**Hilfreicher Tipp**: Verwenden Sie den  [Stichprobengrößen-](https://docs.adobe.com/content/target-microsite/testcalculator.html) Rechner der Zielgruppe, um die für einen erfolgreichen Test erforderliche Stichprobengröße zu ermitteln.
 
 ## Tipp 12: Entwerfen Sie einfachere Tests, um sicherzustellen, dass Sie sie erstellen und implementieren können.
 
