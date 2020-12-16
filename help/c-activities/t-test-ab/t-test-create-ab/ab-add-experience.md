@@ -30,7 +30,7 @@ Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](/help/c-exper
 
    Wenn Sie den Mauszeiger über die Elemente auf Ihrer Seite bewegen, werden diese Elemente hervorgehoben. Alle hervorgehobenen Elemente können mit dem Experience Composer geändert werden.
 
-   If you created a [!DNL Target] request on the page using Target Classic (formerly Test&amp;Target), that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   Wenn Sie mit Zielgruppe Classic (früher Test&amp;Zielgruppe) eine [!DNL Target]-Anforderung auf der Seite erstellt haben, wird diese [!DNL Target]-Anforderung als Element mit dem Anforderungsnamen angezeigt und kann wie jedes andere Element geändert werden.
 
    Eine Liste der Aktionen, die für ein Element auf der angezeigten Seite durchgeführt werden können, um das Erlebnis zu ändern, finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -93,7 +93,7 @@ Klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (der erste Schritt im Drei
 
 ![Option „Erlebnis löschen“](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
+## Schulungsvideo: Verwenden des Visual Experience Composer ![Tutorial-Badge](/help/assets/tutorial.png)
 
 Im Video unten erhalten Sie Informationen zur Verwendung der Optionen in Visual Experience Composer. (7:17)
 
