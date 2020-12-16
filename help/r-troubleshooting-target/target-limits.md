@@ -62,7 +62,7 @@ Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgrup
 
 * **Maximale Dateigröße für jeden Upload mit der HTTP-Methode**: 100 MB.
 * **maximale Dateigröße für jeden Upload mit der FTP-Methode**: 4 GB
-* **Anzahl der Attribute, die abonniert** werden dürfen: 5 für [!DNL Target Standard] und 200 für [!DNL Target Premium].
+* **Anzahl der Attribute, die abonniert** werden dürfen: 5 für  [!DNL Target Standard] und 200 für  [!DNL Target Premium].
 
 ## Entitäten
 
@@ -204,7 +204,7 @@ Eine längere Zeichenfolge wird vom System begrenzt.
 
 **Empfohlene Obergrenze für Profil-Skripten pro Konto**: 2.000
 
-**Recommendations zur Beschränkung der Komplexität** von Profil-Skripten: Profil-Skripten können eine begrenzte Anzahl von Anweisungen ausführen. Weitere Informationen finden Sie unter [Bewährte Verfahren](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profil-Attributen*.
+**Recommendations zur Beschränkung der Komplexität** von Profil-Skripten: Profil-Skripten können eine begrenzte Anzahl von Anweisungen ausführen. Weitere Informationen finden Sie unter [Bewährte Verfahren](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profil-Attribute*.
 
 ## Properties
 
