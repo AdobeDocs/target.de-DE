@@ -21,10 +21,10 @@ Mit der Mbox für Auftragsbestätigungen werden Informationen zu Bestellungen au
 >* Tätigen Benutzer auf Ihrer Website Einkäufe, empfehlen wir die Implementierung einer Auftragsbestätigungs-Mbox, selbst wenn Sie für die Berichterstellung Analytics for Target (A4T) einsetzen.
    >
    >
-* Sie können auch eine Auftragsbestätigungs-mbox für &quot;at.js 1&quot;erstellen.*x* mit derselben Methode; jedoch wird die [!DNL at.js] Methode bevorzugt. Weitere Informationen finden Sie unter [Konversions-Tracking](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* Sie können auch eine Auftragsbestätigungs-mbox für &quot;at.js 1&quot;erstellen.*Verwendung* derselben Methode; jedoch wird die  [!DNL at.js] Methode bevorzugt. Weitere Informationen finden Sie unter [Konversions-Tracking](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
    >
    >
-* Wenn Sie at.js 2 verwenden.*x*, `mboxCreate` wird nicht mehr unterstützt. Zur Auftragsbestätigung mit at.js 2.*x* verwenden Sie die folgenden tracking-bezogenen APIs: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) und [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+* Wenn Sie at.js 2 verwenden.*x*,  `mboxCreate` wird nicht mehr unterstützt. Zur Auftragsbestätigung mit at.js 2.*x* verwenden Sie die folgenden tracking-bezogenen APIs:  [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)  und  [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 
 1. Fügen Sie auf Ihrer Bestellungsdetailseite das Mbox-Skript ein. Befolgen Sie dabei das folgende Modell:
