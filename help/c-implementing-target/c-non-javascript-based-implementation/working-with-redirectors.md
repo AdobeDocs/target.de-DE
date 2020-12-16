@@ -30,7 +30,7 @@ Verwenden Sie die Weiterleitung, um  folgende Aktionen auszuführen:
 
 Hilfe zur Entscheidung über die richtigen Einstellungen finden Sie unter  [Nicht-JavaScript-basierte Implementierungen](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## Create a redirector {#redirector}
+## Erstellen einer Weiterleitung {#redirector}
 
 Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen.
 
@@ -45,7 +45,7 @@ Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen
 
    * Bei `yourclientcode` handelt es sich um den Clientcode Ihres Unternehmens. Der Clientcode Ihres Unternehmens enthält ausschließlich Kleinbuchstaben und keine Sonderzeichen.
 
-      Your client code is available at the top of the [!UICONTROL Administration > Implementation] page of the [!DNL Target] interface.
+      Ihr Client-Code ist oben auf der Seite [!UICONTROL Administration > Implementierung] der [!DNL Target]-Schnittstelle verfügbar.
 
    * `redirectorlink_456` ist der Name der Weiterleitungs-mbox, die in Ihrem Konto zur Verwendung für Kampagnen und Tests angezeigt wird.
 
@@ -53,11 +53,11 @@ Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen
 
    * `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` ist das Standardziel.
 
-      Hierbei muss es sich um einen URL-kodierten, absoluten Verweis handeln. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.
+      Hierbei muss es sich um einen URL-kodierten, absoluten Verweis handeln. Sie können die [HTML-URL-Kodierungsreferenz](https://www.w3schools.com/tags/ref_urlencode.asp) verwenden, um Ihre URLs schnell zu kodieren.
 
       >[!IMPORTANT]
       >
-      >Beachten Sie, dass Sie mit der Weiterleitung dem Risiko einer Open-Redirect-Verwundbarkeit ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;, um die Standard-URL-Domänen für die Weiterleitung zu Zulassungslisten. Zielgruppe verwendet Hosts für Zulassungslisten-Domänen, zu denen Sie Umleitungen zulassen möchten. Weitere Informationen finden Sie unter Zulassungslisten [erstellen, die Hosts angeben, die zum Senden von Mbox-Aufrufen an die Zielgruppe](/help/administrating-target/hosts.md#allowlist) in *Hosts* berechtigt sind.
+      >Beachten Sie, dass Sie mit der Weiterleitung dem Risiko einer Open-Redirect-Verwundbarkeit ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;, um die Standard-URL-Domänen für die Weiterleitung zu Zulassungslisten. Zielgruppe verwendet Hosts für Zulassungslisten-Domänen, zu denen Sie Umleitungen zulassen möchten. Weitere Informationen finden Sie unter [Erstellen Sie Zulassungslisten, die Hosts angeben, die zum Senden von Mbox-Aufrufen an Zielgruppe](/help/administrating-target/hosts.md#allowlist) in *Hosts* berechtigt sind.
 
 1. Validieren Sie die Weiterleitung.
    1. *Best Practice* im Bereich Sicherheit: Stellen Sie sicher, dass die in der Weiterleitung verwendete Domäne auf die Zulassungsliste gesetzt ist, wie oben angegeben. Wenn Sie eine Domäne verwenden, die nicht auf die Zulassungsliste gesetzt wird, blockiert Adobe alle Aufrufe dieser Domäne, um zu verhindern, dass böswillige Akteure die Weiterleitung verwenden, um zu potenziell böswilligen Domänen umzuleiten.
@@ -87,7 +87,7 @@ Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen
 
 1. Senden Sie die vollständige Weiterleitungs-URL als Zielort der Display-Anzeige an Ihr Display-Anzeigenetzwerk.
 
-## Use a redirector to pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Verwenden Sie eine Weiterleitung, um Kosten pro Klick und Umsatz pro Klick weiterzugeben.{#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Informationen zum Verwenden einer Weiterleitung zum Übergeben der Kosten pro Klick und vom Umsatz pro Klick.
 
@@ -97,7 +97,7 @@ Verwenden Sie eine Weiterleitung, um die Kosten pro Klick weiterzugeben.
 
 >[!NOTE]
 >
->Best practice is to determine the cost value using the **Score per visit** engagement metric.
+>Best Practice ist, den Kostenwert mithilfe der Einsatzmetrik **Ergebnis pro Besuch** zu ermitteln.
 
 Fügen Sie `&mboxPageValue=-value` zur URL hinzu. Beachten Sie den Negativwert.
 
@@ -108,13 +108,13 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 &mboxPageValue=-0.1&mboxDefault=​https://www.yourcompany.com/usualdestination.htm
 ```
 
-### Übergeben vom Umsatz pro Klick  {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
+### Übergeben vom Umsatz pro Klick   {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
 
 Verwenden Sie eine Weiterleitung, um den Umsatz pro Klick weiterzugeben.
 
 >[!NOTE]
 >
->Best practice is to determine the revenue value using the **Score per visit** engagement metric.
+>Best Practice ist, den Umsatzwert mithilfe der Einsatzmetrik **Ergebnis pro Besuch** zu ermitteln.
 
 Fügen Sie `&mboxPageValue=value` zur URL hinzu.
 
