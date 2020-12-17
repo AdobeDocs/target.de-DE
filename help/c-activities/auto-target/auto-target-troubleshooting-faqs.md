@@ -4,10 +4,10 @@ description: Fehlerbehebung und häufig gestellte Fragen zur automatischen Zielg
 title: Fehlerbehebung bei automatischer Zielgruppe und häufig gestellte Fragen
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 18dbc90f52c9a23713577c4cda4ac87a5b69edd2
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 71%
+source-wordcount: '1902'
+ht-degree: 68%
 
 ---
 
@@ -143,3 +143,9 @@ Dieses Ergebnis ist zu erwarten.
 Bei einer Aktivität vom Typ [!UICONTROL Automatisches Targeting] wird der Benutzer von dem Erlebnis abgekoppelt und die Aktivität neu gestartet, sobald eine Konversionsmetrik (unabhängig davon, ob es sich um ein Optimierungsziel oder nachgelegenes Ziel handelt) konvertiert wurde.
 
 Nehmen wir zum Beispiel an, dass eine Aktivität mit einer Konversionsmetrik (C1) und einer zusätzlichen Metrik (A1) besteht. A1 ist abhängig von C1. Wenn ein Besucher die Aktivität das erste Mal antrifft und die Kriterien zum Konvertieren von A1 und C1 nicht konvertiert werden, wird die Metrik A1 aufgrund der Erfolgsmetrikabhängigkeit nicht konvertiert. Wenn der Besucher C1 konvertiert und erst danach A1, wird A1 auch dann nicht konvertiert, da der Besucher abgekoppelt wird, sobald C1 konvertiert ist.
+
+### Was passiert, wenn ich ein Erlebnis aus einer Aktivität der automatischen Zielgruppe entfernen möchte?
+
+[!DNL Target] ein Modell pro Erlebnis erstellt. Wenn Sie also ein Erlebnis entfernen,  [!DNL Target] wird nur ein Modell erstellt, das sich nicht auf die Modelle der anderen Erlebnisse auswirkt.
+
+Angenommen, Sie haben eine [!UICONTROL Auto-Zielgruppe]-Aktivität mit acht Erlebnissen und Sie mögen die Leistung eines Erlebnisses nicht. Sie können dieses Erlebnis entfernen. Es wirkt sich nicht auf die Modelle der sieben verbleibenden Erlebnisse aus.
