@@ -2,9 +2,9 @@
 keywords: automated traffic allocation;targeting;auto-allocate
 description: Die Aktivität "Automatisierte Zuordnung"in Adobe Target identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und weist automatisch mehr Traffic an den Gewinner zurück, um die Konversionen zu erhöhen, während der Test weiter ausgeführt und gelernt wird.
 title: Die automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und mehr Umsatz als ein manueller Test liefern
-feature: auto-allocate
+feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
