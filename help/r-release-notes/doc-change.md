@@ -4,9 +4,9 @@ description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Do
 title: Änderungen an der Adobe Target-Produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '3144'
+source-wordcount: '3165'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Dezember 16 | [Fehlerbehebung bei automatischer Zielgruppe und häufig gestellte Fragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Was passiert, wenn ich ein Erlebnis aus einer Aktivität der automatischen Zielgruppe entfernen möchte?&quot; |
 | Dezember 9 | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Neues Thema |
 |  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende Problem wurde aus dem Abschnitt &quot;Bekannte Probleme&quot;in den Abschnitt &quot;Behobene Probleme&quot;verschoben: &quot;Angebote mit der Beschriftung &quot;Verarbeitung&quot;.&quot; |
 | Dezember 1 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Die Aufzeichnung des Webinars für &quot;Personalisieren und Testen mit Nulllatenz bei Entscheidungen auf dem Gerät von Adobe Target&quot;wurde eingebettet. |
