@@ -2,9 +2,9 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Informationen zum Erstellen von Eigenschaften und zur Verwendung der Funktionen Eigenschaften und Berechtigungen, mit denen Adobe Target-Administratoren separate Arbeitsbereiche (Produkt-Profil) in der Zielgruppe erstellen und anschließend den Benutzern je nach Arbeitsbereich unterschiedliche Rollen und Berechtigungen für einzelne Seiten, Eigenschaften oder Websites zuweisen können.
 title: Berechtigungen für Unternehmensbenutzer
-feature: user management
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '3054'
 ht-degree: 80%
