@@ -2,9 +2,9 @@
 keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: Fehlerbehebung und häufig gestellte Fragen zur automatischen Zielgruppe in Adobe Target.
 title: Fehlerbehebung bei automatischer Zielgruppe und häufig gestellte Fragen
-feature: auto-target
+feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: f4e6de7c8eb2478010ba1d0cd37fab99c6e8d80b
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 68%
