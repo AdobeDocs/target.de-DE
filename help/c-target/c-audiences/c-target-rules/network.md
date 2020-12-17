@@ -4,7 +4,7 @@ description: Sie können Zielgruppen in Adobe Target basierend auf Netzwerkdetai
 title: Netzwerkoptionen in Adobe Target-Audiencen
 feature: audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 98%
@@ -45,7 +45,7 @@ Sie können Zielgruppen auf der Basis von Netzwerkdetails erstellen.
       >
       >Verwenden Sie beim ISP-basierten Targeting den ISP-Namen, nicht den bekannten Namen. Stellen Sie bei der Erstellung von Regeln sicher, dass sie nicht von der Groß-/Kleinschreibung abhängig sind, oder verwenden Sie nur Kleinbuchstaben.
 
-      Sie können die Werte des ISP und des Domänennamens testen. [](https://www.whoismyisp.org)https://www.whoismyisp.org ist eine gute Ressource für Targeting-Zwecke. Sie können die oben in der Tabelle angegebenen Beispiel-IP-Adressen verwenden oder eine eigene eingeben. Verwenden Sie dann den Parameter `themboxOverride.browserIp= URL`, um diese IP-Adresse zu imitieren.
+      Sie können die Werte des ISP und des Domänennamens testen. [](https://www.whoismyisp.org)https://www.whoismyisp.org ist eine gute Ressource für Targeting-Zwecke. Sie können die oben in der Tabelle angegebenen Beispiel-IP-Adressen verwenden oder eine eigene eingeben. Verwenden Sie dann den Parameter `mboxOverride.browserIp= URL`, um diese IP-Adresse zu imitieren.
 
    * **Domänenname:** Dies ist der Domänenname für die IP-Adresse des Besuchers. Es ist nicht der Domänenname der Website, die Sie für [!DNL Target] verwenden. Dieser Domänenname bezieht sich auf die IP-Adresse des Besuchers und wird manchmal auch als Hostname bezeichnet. Er ist normalerweise dem ISP-Namen sehr ähnlich. Manchmal verweist der Hostname auf ältere Namen des Unternehmens, die zwar ihren ISP-Namen geändert haben, doch nicht den Domänennamen.
    * **Verbindungsgeschwindigkeit:** Dies ist die Geschwindigkeit der Internetverbindung des Besuchers. Es sind unter anderem folgende Optionen verfügbar: Breitband, Kabel, Einwahl, Mobil, OC3, OC12, Satellit, T1, T2 und Drahtlos, xDSL.
