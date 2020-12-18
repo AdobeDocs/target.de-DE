@@ -4,9 +4,9 @@ description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Do
 title: Änderungen an der Adobe Target-Produktdokumentation.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
-source-wordcount: '3188'
+source-wordcount: '3194'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Dezember 18 | [A/A-Tests](/help/c-activities/t-test-ab/aa-testing.md) | Neues Thema |
 | Dezember 17 | [Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Die Tabelle wurde aktualisiert, um anzugeben, dass das Java-SDK A4T unterstützt. |
 | Dezember 16 | [Fehlerbehebung bei automatischer Zielgruppe und häufig gestellte Fragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Was passiert, wenn ich ein Erlebnis aus einer Aktivität der automatischen Zielgruppe entfernen möchte?&quot; |
 | Dezember 9 | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Neues Thema |
