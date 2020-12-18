@@ -3,10 +3,10 @@ user-guide-title: Adobe Target-Anleitung
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, mobilen Seiten, Apps, sozialen Medien und anderer digitaler Kanäle maximieren können.
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 86%
+source-wordcount: '1570'
+ht-degree: 85%
 
 ---
 
@@ -200,6 +200,7 @@ ht-degree: 86%
       + [A/B-Tests – Überblick](c-activities/t-test-ab/test-ab.md)
       + [Wie lange sollten A/B-Tests laufen?](c-activities/t-test-ab/sample-size-determination.md)
       + [Zehn häufige A/B-Testfallen und wie sie vermieden werden können](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [A/A-Tests](/help/c-activities/t-test-ab/aa-testing.md)
       + Erstellen eines A/B-Tests {#create}
          + [Erstellen eines A/B-Tests](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Aktivitäts-URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
