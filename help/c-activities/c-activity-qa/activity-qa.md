@@ -4,9 +4,9 @@ description: Verwenden Sie Adobe Target QA-URLs, um eine durchgängige Qualität
 title: Aktivitäts-QA
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1529'
 ht-degree: 80%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 80%
 
 # Aktivitäts-QA {#activity-qa}
 
-Verwenden Sie QS-URLs in Adobe Target, um eine durchgängige Qualitätssicherung mit Vorschauen-Links durchzuführen, die sich nie ändern, optionales Targeting von Audiencen und QS-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
+Verwenden Sie QS-URLs in [!DNL Adobe Target], um eine einfache End-to-End-Aktivität-Qualitätssicherung mit Vorschauen-Links durchzuführen, die sich nie ändern, optionales Targeting von Audiencen und QA-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
 
 ## Überblick {#section_11B761A522A14E61978275772210A4C2}
 
