@@ -4,7 +4,7 @@ description: Informationen, die Sie bei der Verwendung des Adobe Target QA-Bookm
 title: Aktivität QA Bookmarklet für Adobe Target
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 ---
 
 
-# Lesezeichenliste für Aktivitäts-QA{#activity-qa-bookmarklet}
+# Lesezeichenliste für Aktivitäts-QA
 
 Informationen, die Sie bei der Verwendung des [!DNL Target] QA-Bookmarklets unterstützen, damit [!DNL Target] erzwungen wird, Sie aus dem QA-Modus zu entfernen.
 
