@@ -4,9 +4,9 @@ description: Informationen zu Adobe Target-APIs, einschließlich Admin-, Versand
 title: Übersicht über die Adobe Target API
 feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Übersicht über die Adobe Target API
 
-[!DNL Adobe Target] APIs können nach Typ gruppiert werden.
+[!DNL Adobe Target] APIs können nach Typ gruppiert werden: Admin-, Versand-, Berichte- und Profil-APIs.
 
 | API-Typ | Was es Ihnen ermöglicht | Download-Link | Weitere hilfreiche Links |
 | --- | --- | --- |--- |
