@@ -1,21 +1,22 @@
 ---
-description: Da ein multivariater Test mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
-title: Erlebnisvorschau für Multivarianz-Tests in Adobe Target
-feature: mvt
+keywords: multivariate;mvt;preview;experiences
+description: Da ein Multivarianz-Test in Adobe Target mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis zu Vorschauen.
+title: Vorschau für einen Multivarianz-Test in Adobe Target
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 69%
 
 ---
 
 
 # Erlebnisvorschau für Multivarianz-Tests{#preview-experiences-for-a-multivariate-test}
 
-Da ein multivariater Test mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
+Da ein [!UICONTROL Multivarianz-Test] in [!DNL Adobe Target] mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis Vorschau.
 
-1. Klicken Sie im Experience Composer auf **[!UICONTROL Vorschau]**.
+1. Klicken Sie im Visual Experience Composer (VEC) auf **[!UICONTROL Vorschau]**.
 
    Es erscheint eine Liste aller Erlebnisse.
 
