@@ -2,19 +2,19 @@
 keywords: Overview and Reference
 description: Die Testzusammenfassung bietet einen visuellen Überblick über Ihren Adobe Target Multivarianz-Test.
 title: Testzusammenfassung
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '103'
-ht-degree: 87%
+ht-degree: 76%
 
 ---
 
 
-# Testzusammenfassung{#test-summary}
+# Testzusammenfassung
 
-Die Testzusammenfassung liefert eine visuelle Übersicht zu Ihrem Multivariater Test.
+Die Testzusammenfassung bietet einen visuellen Überblick über Ihren [!DNL Adobe Target] [!UICONTROL Multivarianz-Test].
 
 ![Dialogfeld „Testzusammenfassung“](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 
