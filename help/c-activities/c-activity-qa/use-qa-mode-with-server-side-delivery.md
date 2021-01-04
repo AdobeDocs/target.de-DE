@@ -4,17 +4,17 @@ description: Verwenden Sie Adobe Target QA-URLs mit serverseitigem Versand, um e
 title: Verwenden von Aktivitäts-QA mit serverseitiger Bereitstellung
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 73%
+source-wordcount: '384'
+ht-degree: 65%
 
 ---
 
 
-# Verwenden von Aktivitäts-QA mit serverseitiger Bereitstellung{#use-activity-qa-with-server-side-delivery}
+# Verwenden von Aktivitäts-QA mit serverseitiger Bereitstellung
 
-Mithilfe von QA-URLs mit serverseitiger Bereitstellung können Sie einfach End-to-End-Aktivitäts-QAs durchführen und unveränderbare Vorschaulinks, ein optionales Zielgruppen-Targeting und QA-Berichte einfügen, die basierend auf Live-Aktivitätsdaten segmentiert bleiben.
+Verwenden Sie QS-URLs mit serverseitigem Versand in [!DNL Adobe Target], um eine einfache End-to-End-Aktivität-QS mit Vorschau-Links durchzuführen, die sich nicht ändern, optionales Targeting von Audiencen und QA-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
 
 Die Standardimplementierung der Aktivität QA unterstützt die Übergabe von `qa_mode`-Parametern über `pageUrl`-Parameter. Dieser Ansatz eignet sich für Standard/AJAX [!DNL Target]-Aufrufe. Bei serverseitigen Aufrufen ist dies jedoch nicht der beste Ansatz für das Mobile SDK, wenn `pageUrl` nicht verfügbar ist.
 
