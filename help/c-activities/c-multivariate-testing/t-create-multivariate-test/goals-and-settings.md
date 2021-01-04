@@ -1,20 +1,20 @@
 ---
-keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
+keywords: activity settings;goals and settings;multivariate;mvt
 description: Auf der Seite "Ziele und Einstellungen"in Adobe Target geben Sie Informationen zu den Testzielen ein.
 title: Ziele und Einstellungen
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 94%
+source-wordcount: '1258'
+ht-degree: 92%
 
 ---
 
 
-# Ziele und Einstellungen{#goals-and-settings}
+# Ziele und Einstellungen (Multivarianz-Tests)
 
-Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zielen des Tests eingeben.
+Auf der Seite &quot;Ziele und Einstellungen&quot;in Adobe Target geben Sie Informationen zu den Zielen Ihrer [!UICONTROL Multivarianz] (MVT)-Tests ein.
 
 * Aktivitätseinstellungen
 * Berichterstellungseinstellungen
