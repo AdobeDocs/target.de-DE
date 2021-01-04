@@ -1,24 +1,24 @@
 ---
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-description: Adobe Target kann die Umsatzsteigerung schätzen, die Sie erzielen würden, wenn alle Benutzer das Gewinner-Erlebnis Ansicht hätten.
+description: Verwenden Sie Adobe Target, um die Umsatzsteigerung zu schätzen, die Sie erzielen würden, wenn alle Benutzer das Gewinner-Erlebnis Ansicht hätten.
 title: Geschätzte Umsatzsteigerung
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 96%
+source-wordcount: '506'
+ht-degree: 90%
 
 ---
 
 
 # Geschätzte Umsatzsteigerung{#estimate-lift-in-revenue}
 
-Target kann die Umsatzsteigerung schätzen, die Sie erzielen könnten, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden.
+Verwenden Sie [!DNL Adobe Target], um die Umsatzsteigerung zu schätzen, die Sie erzielen würden, wenn alle Benutzer das erfolgreichste Erlebnis Ansicht hätten.
 
 >[!NOTE]
 >
->Die geschätzte Steigerung ist derzeit nicht für Erlebnis-Targeting-Aktivitäten (XT) verfügbar.
+>Die geschätzte Steigerung steht derzeit nicht für [!UICONTROL Erlebnis-Targeting] (XT)-Aktivitäten zur Verfügung.
 
 Die Funktion zur Schätzung der Steigerung ist standardmäßig deaktiviert. Sie kann über die Kontovoreinstellungen aktiviert werden. Experience Cloud-Administratoren können diese Funktion aktivieren bzw. deaktivieren. Wenn die Schätzung der Steigerung deaktiviert ist, werden die entsprechenden Felder nicht auf der Benutzeroberfläche angezeigt. Durch die Deaktivierung der Funktion gehen keine Daten verloren, auch nicht die Daten, die für Ihre Schätzungen verwendet werden. Die Schätzungen basieren auf den erfassten Daten, unabhängig davon, ob die Funktion aktiviert ist oder nicht.
 
