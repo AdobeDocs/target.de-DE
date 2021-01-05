@@ -4,10 +4,10 @@ description: Sie können Profilwerte und Aktivitätsinformationen direkt in eine
 title: Übergeben dynamischer Daten in Angebote
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Da benutzerspezifische Voreinstellungen, Verhaltensweisen, Status usw. im Profil
 
 Bei folgenden Werten ist eine Tokenersetzung möglich:
 
-| Werte | Beispiele |
+| Wert | Beispiele |
 |--- |--- |
 | In-Mbox-Profilparameter | `${profile.age}` |
 | Skript-Profilparameter | `${user.lifetimeSpend}` |
@@ -57,7 +57,7 @@ Verwenden Sie für an eine Mbox übergebene Profilparameter folgende Syntax: `${
 
 `${user.parameter}`
 
-Wenn Sie dynamische Attribute in einem Empfehlungsentwurf verwenden, müssen Sie einen umgekehrten Schrägstrich („\“) vor dem Dollarzeichen („$“) einfügen, damit der dynamische Wert ordnungsgemäß dargestellt wird: `\${user.endpoint.lastViewedEntity}`
+Wenn Sie dynamische Attribute in einem Recommendations-Entwurf verwenden, müssen Sie einen umgekehrten Schrägstrich ( \ ) vor dem Dollarzeichen ( $ ) einfügen, damit der dynamische Wert korrekt dargestellt wird: `\${user.endpoint.lastViewedEntity}`
 
 Da diese Variablen serverseitig durch den entsprechenden Wert ersetzt werden, werden für eine ordnungsgemäße Anzeige weder Anführungszeichen noch weiteres JavaScript benötigt.
 
