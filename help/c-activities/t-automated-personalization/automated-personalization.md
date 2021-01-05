@@ -1,20 +1,20 @@
 ---
-keywords: automated personalization;Audiences;ensemble;random forest
-description: Die automatisierte Personalisierung (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besuchern basierend auf deren individuellen Kundenprofilen mithilfe des erweiterten maschinellen Lernens verschiedene Angebotsvarianten zu, um die Inhalte zu personalisieren und Konversionen zu fördern.
+keywords: automated personalization;ap;audiences;ensemble;random forest;multi-armed bandit;thompson sampling;ml;machine learning
+description: Automated Personalization (AP)Aktivitäten in Adobe Target kombinieren Angebot oder Nachrichten und verwenden fortschrittliches maschinelles Lernen, um den verschiedenen Besuchern je nach Profil des jeweiligen Kunden verschiedene Varianten des Angebots zuzuordnen, um Inhalte zu personalisieren und die Steigerung zu fördern.
 title: Automatisierte Personalisierung
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 97%
+source-wordcount: '1027'
+ht-degree: 89%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Automatisierte Personalisierung{#automated-personalization}
+# ![](/help/assets/premium.png) PREMIUMAutomated Personalization (AP)
 
-[!UICONTROL Die automatisierte Personalisierung] (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besuchern basierend auf deren individuellen Kundenprofilen mithilfe des erweiterten maschinellen Lernens verschiedene Angebotsvarianten zu, um die Inhalte zu personalisieren und Konversionen zu fördern.
+[!UICONTROL Automated Personalization] (AP)-Aktivitäten  [!DNL Adobe Target] kombinieren Angebot oder Nachrichten und verwenden fortschrittliches maschinelles Lernen, um den verschiedenen Angebot-Varianten je nach Profil des jeweiligen Kunden anzupassen, um Inhalte zu personalisieren und die Steigerung zu fördern.
 
 >[!NOTE]
 >
