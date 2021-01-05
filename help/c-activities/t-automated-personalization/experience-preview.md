@@ -2,9 +2,9 @@
 keywords: experience preview;experience urls;generate urls;view experience urls
 description: Erlebnis-Vorschauen-URLs können für die Zielgruppe von Automated Personalization-Aktivitäten generiert werden, um Erlebnisinhalte direkt auf Ihrer Site anzuzeigen, bevor die Aktivität zu Vorschauen- und Qualitätszwecken live geschaltet wird. Erlebnis-Vorschauen-URLs umgehen Targeting, um die Anzeige eines bestimmten Erlebnisses zu erzwingen.
 title: Vorschau von Automated Personalization-Aktivitäten mit Erlebnis-Vorschauen-URLs
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -12,7 +12,7 @@ ht-degree: 64%
 ---
 
 
-# ![](/help/assets/premium.png) PREMIUMPrezensieren von Automated Personalization-Aktivitäten mit Experience Vorschau-URLs{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![](/help/assets/premium.png) PREMIUMPrezensieren von Automated Personalization-Aktivitäten mit Experience Vorschau-URLs
 
 Erlebnis-Vorschauen-URLs können für die Zielgruppe von Automated Personalization-Aktivitäten generiert werden, um Erlebnisinhalte direkt auf Ihrer Site anzuzeigen, bevor die Aktivität zu Vorschauen- und Qualitätszwecken live geschaltet wird. Erlebnis-Vorschauen-URLs umgehen Targeting, um die Anzeige eines bestimmten Erlebnisses zu erzwingen.
 
