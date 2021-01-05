@@ -1,18 +1,18 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
 description: Liste häufig gestellter Fragen zur automatisierten Personalisierung (AP).
 title: Häufig gestellte Fragen zur automatisierten Personalisierung
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1963'
 ht-degree: 85%
 
 ---
 
 
-# ![Häufig gestellte Fragen zur ](/help/assets/premium.png) automatisierten Personalisierung{#automated-personalization-faq}
+# ![Häufig gestellte Fragen zur ](/help/assets/premium.png) automatisierten Personalisierung
 
 Liste häufig gestellter Fragen zur automatisierten Personalisierung (AP).
 
@@ -53,7 +53,7 @@ Es gibt keine Option, mit der sich der Vergleich von AP mit einem Standarderlebn
 
 ## Häufig gestellte Fragen  
 
-Beachten Sie bei der Arbeit mit Aktivitäten zur automatischen Zuordnung die folgenden häufig gestellten Fragen und Antworten:
+Lesen Sie die folgenden häufig gestellten Fragen und Antworten, während Sie mit [!UICONTROL Automated Personalization]-Aktivitäten arbeiten:
 
 ### Welche Einschränkungen gibt es bei der automatisierten Personalisierung?   {#section_08BA09ED51B547299963C94FE6417CFA}
 
