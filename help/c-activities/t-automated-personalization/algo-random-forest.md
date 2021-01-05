@@ -1,18 +1,18 @@
 ---
-keywords: Targeting
+keywords: random forest;decision tree;ap;Automated Personalization
 description: Der wichtigste Personalisierungsalgorithmus von Target, der sowohl in der automatisierten Personalisierung als auch im automatischen Targeting verwendet wird, ist Random Forest. Ensemble-Methoden wie Random Forest verwenden mehrere Lernalgorithmen, um eine bessere Prognoseleistung zu erzielen, als dies bei der isolierten Verwendung dieser Lernalgorithmen möglich wäre. Der Random Forest-Algorithmus der automatisierten Personalisierung ist eine Classification- oder Regressionsmethode, deren Funktionsweise die Konstruktion einer Vielzahl von Entscheidungsbäumen während der Anlernzeit zugrunde liegt.
 title: Random-Forest-Algorithmus
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1456'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Random-Forest-Algorithmus{#random-forest-algorithm}
+# ![PREMIUM](/help/assets/premium.png) Random-Forest-Algorithmus
 
 Der wichtigste Personalisierungsalgorithmus von Target, der sowohl in der automatisierten Personalisierung als auch im automatischen Targeting verwendet wird, ist Random Forest. Ensemble-Methoden wie Random Forest verwenden mehrere Lernalgorithmen, um eine bessere Prognoseleistung zu erzielen, als dies bei der isolierten Verwendung dieser Lernalgorithmen möglich wäre. Der Random Forest-Algorithmus der automatisierten Personalisierung ist eine Classification- oder Regressionsmethode, deren Funktionsweise die Konstruktion einer Vielzahl von Entscheidungsbäumen während der Anlernzeit zugrunde liegt.
 
@@ -43,11 +43,11 @@ Unser Beispiel würde zu dem unten stehenden Baum führen:
 
 ![](assets/decsion_tree_2.png)
 
-## Wie werden Entscheidungsbäume von Random Forest verwendet?   {#section_536C105EF9F540C096D60450CAC6F627}
+## Wie werden Entscheidungsbäume von Random Forest genutzt? {#section_536C105EF9F540C096D60450CAC6F627}
 
 Entscheidungsbäume können ein effektives statistisches Werkzeug sein. Sie haben jedoch einige Nachteile. Am kritischsten ist, dass sie die Daten „überanpassen“ können, sodass ein einzelner Baum zukünftige Daten schlecht vorhersagt, die nicht für den Aufbau des ursprünglichen Baums verwendet wurden. Dieses Problem ist in der Statistik als [Verzerrung-Varianz-Dilemma](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) bekannt. Random Forest kann bei der Überwindung dieses „Überanpassungsproblems“ helfen. Auf der obersten Ebene ist Random Forest eine Sammlung von Entscheidungsbäumen, die leicht unterschiedlich auf dem gleichen Datensatz aufgebaut sind und gemeinsam „abstimmen“, um ein besseres Modell zu erhalten, als ein einzelner Baum dies kann. Die Bäume werden durch die zufällige Auswahl einer Teilmenge von Besuchsdatensätzen mit Ersetzungen (bekannt als „Bagging“) sowie durch die zufällige Auswahl einer Teilmenge der Attribute aufgebaut, sodass der Wald aus leicht unterschiedlichen Entscheidungsbäumen besteht. Diese Methode ermöglicht kleine Variationen der Bäume, die im Random Forest entstehen. Das Hinzufügen dieser kontrollierten Varianz hilft, die Vorhersagegenauigkeit des Algorithmus zu verbessern.
 
-## Wie wird Random Forest von den Personalisierungsalgorithmen von Target genutzt?   {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## Wie verwenden die Personalisierungsalgorithmen der Zielgruppe Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **Der Aufbau von Modellen**
 
@@ -78,7 +78,7 @@ Die Merkmalumwandlungen hängen vom Attributtyp ab. Es gibt vor allem zwei Arten
 
 Für kategorische Merkmale wird ein Satz mit allen möglichen Merkmalsausprägungen gepflegt und die Umwandlungswahrscheinlichkeit wird verwendet, um die Datengröße zu reduzieren. Für numerische Merkmale wird durch Umskalierung gewährleistet, dass die Merkmale flächendeckend vergleichbar sind.
 
-**Erzielung eines Ausgleichs zwischen Lernen und Personalisierung mit dem Modul „Multi-Armed Bandit“**
+**Ausgewogenheit zwischen Lernen und Personalisierung mit dem Multi-Armed Bandit**
 
 Nachdem Target Personalisierungsmodelle entwickelt hat, um Ihren Traffic zu personalisieren, stecken Sie in einem gewissen Konflikt, was die zukünftigen Besucher Ihrer Aktivität angeht: Sollten Sie nun den gesamten Traffic auf Basis des aktuellen Modells personalisieren oder sollten Sie weiterhin von neuen Besuchern lernen, indem Sie ihnen zufällige Angebote vorlegen? Sie möchten sicherstellen, dass der Personalisierungsalgorithmus immer über neue Trends bei Ihren Besuchern informiert ist, während Sie gleichzeitig den größten Teil des Traffics personalisieren.
 
