@@ -1,20 +1,20 @@
 ---
-keywords: Targeting
-description: Die Aktivitäts-URL bestimmt die Seite, die in der Erlebnis-Targeting-Aktivität verwendet wird und im Visual Experience Composer (VEC) von Adobe Target oder im formularbasierten Experience Composer bei der Erstellung der Aktivität geöffnet wird.
+keywords: Experience Targeting;xt;activity url;url
+description: Die Aktivitäten-URL bestimmt die Seite, die in der Adobe Target Experience Targeting-Aktivität verwendet wird und die beim Entwerfen der Aktivität im Visual Experience Composer (VEC) oder im Form-Based Experience Composer geöffnet wird.
 title: Aktivitäts-URL
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 92%
+source-wordcount: '280'
+ht-degree: 66%
 
 ---
 
 
-# Aktivitäts-URL{#activity-url}
+# Aktivitäten-URL in Aktivitäten des Erlebnis-Targeting (XT)
 
-Die Aktivitäts-URL bestimmt die Seite, die in der Erlebnis-Targeting-Aktivität (XT) verwendet wird und im Visual Experience Composer (VEC) oder im formularbasierten Experience Composer bei der Erstellung der Aktivität geöffnet wird.
+Die [!UICONTROL Aktivitäten-URL] bestimmt die Seite, die in der [!DNL Adobe Target] [!UICONTROL Erlebnis-Targeting] (XT)-Aktivität verwendet wird und die in [!UICONTROL Visual Experience Composer] (VEC) oder [!UICONTROL Form-Based Experience Composer] geöffnet wird, wenn die Aktivität entworfen wird.
 
 1. Spezifizieren Sie die Aktivitäts-URL, wenn Sie [beim Erstellen einer XT-Aktivität](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) dazu aufgefordert werden. Geben Sie die vollständige URL ein (einschließlich `https://`) und klicken Sie anschließend auf **[!UICONTROL Aktivität erstellen]**.
 
