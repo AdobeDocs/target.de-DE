@@ -1,10 +1,10 @@
 ---
-keywords: traffic estimator;automated personalization;ap
+keywords: traffic estimator;automated personalization;ap;estimate traffic
 description: Die Traffic-Schätzung liefert Feedback, aus dem hervorgeht, ob Sie über ausreichend Traffic verfügen, damit Ihre Adobe Target-Aktivität erfolgreich sein kann.
 title: Schätzen des für einen erfolgreichen Test erforderlichen Traffics
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 27%
@@ -12,7 +12,7 @@ ht-degree: 27%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Schätzen des für einen erfolgreichen Test erforderlichen Traffics{#estimate-the-traffic-required-for-success}
+# ![PREMIUM](/help/assets/premium.png) Schätzen des für einen erfolgreichen Test erforderlichen Traffics
 
 Die [!UICONTROL Traffic-Schätzung] liefert Feedback, mit dem Sie wissen, ob Sie über ausreichend Traffic verfügen, damit Ihre [!DNL Adobe Target]-Aktivität erfolgreich ist.
 
