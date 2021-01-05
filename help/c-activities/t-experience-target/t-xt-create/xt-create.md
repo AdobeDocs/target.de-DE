@@ -1,9 +1,10 @@
 ---
+keywords: Experience Targeting;xt;create
 description: Verwendung des Visual Experience Composers, um eine Erlebnis-Targeting-Aktivität (XT) auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Adobe Target zu verändern.
 title: Erstellen einer Erlebnis-Targeting-Aktivität
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
