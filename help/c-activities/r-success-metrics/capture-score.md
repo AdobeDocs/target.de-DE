@@ -1,20 +1,20 @@
 ---
 keywords: capture score;score
-description: Die Einsatzmetrik "Ergebniserfassung"berechnet einen aggregierten Wert basierend auf dem Wert, der den auf der Site besuchten Zielgruppen zugewiesen wird, ab dem Zeitpunkt, zu dem der Besucher die Anfrage zur ersten Anzeige der Kampagne anzeigt.
+description: Die Einsatzmetrik "Ergebniserfassung"in Adobe Target berechnet einen aggregierten Wert basierend auf dem Wert, der den auf der Site besuchten Seiten zugewiesen wird, ab dem Zeitpunkt, zu dem der Besucher die erste Anfrage zur Zielgruppe der Anzeige der Kampagne sieht.
 title: Ergebniserfassung
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 51%
+source-wordcount: '768'
+ht-degree: 50%
 
 ---
 
 
-# Ergebniserfassung{#capture-score}
+# Ergebniserfassung
 
-Die Interaktionsmetrik &quot;Ergebniserfassung&quot;berechnet ein aggregiertes Ergebnis auf Grundlage des den auf der Site besuchten Seiten zugewiesenen Wertes ab dem Zeitpunkt, zu dem der Besucher die erste Anzeige der Kampagne [!DNL Target] anzeigt.
+Die Einsatzmetrik Ergebniserfassung in [!DNL Adobe Target] berechnet ein aggregiertes Ergebnis basierend auf dem Wert, der den auf der Site besuchten Seiten zugewiesen wurde, ab dem Zeitpunkt, zu dem der Besucher die erste Anzeige der Kampagne [!DNL Target]-Anforderung sieht.
 
 Im folgenden Beispiel wird gezeigt, wie die Bewertungsinteraktion in einer Kampagne berechnet wird, in der zwei Erlebnisse (mit dem Bild einer Katze und dem Bild eines Hundes) geprüft werden.
 
@@ -28,7 +28,7 @@ Sie können Erwerbskosten und Partnerlinkkosten über AdBoxes und Weiterleitunge
 
 ![](assets/example_score2.png)
 
-**Zuweisen eines Seitenergebnisses**
+## Zuweisen eines Seitenergebnisses
 
 Sie können jeder Seite auf Ihrer Site nach persönlichem Ermessen einen Wert zuweisen. Zum Beispiel lassen sich auf einer Koch-Site möglicherweise auf den Sonderseiten mehr Geld mit Werbung generieren als im Erlebnisbereich. Möglicherweise befinden sich im Sonderbereich wertvollere Artikel als im Erlebnisbereich. Mit der Seitenzahl können Sie eine Bewertung des Gesamtwerts des Besuchs ermitteln, sodass Personen, die mehr Sonderartikel lesen, mehr Punkte erhalten, als jemand, der nur durch die Seiten blättert.
 
