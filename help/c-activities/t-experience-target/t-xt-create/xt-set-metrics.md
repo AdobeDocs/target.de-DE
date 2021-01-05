@@ -2,20 +2,19 @@
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Verwenden Sie in Erlebnis-Targeting (XT) von Adobe Target Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
 title: Festlegen von Metriken
-feature: xt
-solution: Target
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 99%
+source-wordcount: '321'
+ht-degree: 92%
 
 ---
 
 
-# Festlegen von Metriken{#set-metrics}
+# Metriken in Erlebnis-Targeting (XT)-Aktivitäten festlegen
 
-Verwenden Sie in Erlebnis-Targeting (XT) Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
+Verwenden Sie Metriken in einer [!DNL Adobe Target] [!UICONTROL Erlebnis-Targeting] (XT)-Aktivität, um festzustellen, wann ein Besuch erfolgreich war.
 
 Ausführliche Informationen zu Erfolgsmetriken finden Sie unter  [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
