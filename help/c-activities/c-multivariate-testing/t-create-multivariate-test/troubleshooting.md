@@ -1,25 +1,25 @@
 ---
-keywords: Mobile Web Experience Editor
+keywords: Multivariate Tests;troubleshoot;troubleshooting;mvt
 description: Dieses Thema enthält Vorschläge zur Lösung einiger Probleme, die beim Entwerfen eines MVT-Tests in Adobe Target auftreten können.
 title: Fehlerbehebung bei Multivarianz-Tests
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 77%
+source-wordcount: '168'
+ht-degree: 45%
 
 ---
 
 
-# Fehlerbehebung bei Multivarianz-Tests{#troubleshoot-multivariate-tests}
+# Fehlerbehebung bei Multivarianz-Tests
 
-Dieses Thema enthält Vorschläge zur Lösung einiger Probleme, die beim Entwerfen eines MVT-Tests in Adobe Target auftreten können.
+Dieses Thema enthält Vorschläge zur Behebung einiger Probleme, die beim Entwerfen eines [!UICONTROL Multivarianz] (MVT)-Tests in [!DNL Adobe Target] auftreten können.
 
-* Wenn Sie Analytics-basierte Metriken verwenden und beim Bearbeiten einer Aktivität die Berichtssuite nicht geladen wird (Netz wird angezeigt), wechseln Sie zu Target-Metriken und anschließend wieder zurück zu Analytics-basierten Metriken. Die Berichtssuite sollte jetzt geladen werden.
-* Wenn Sie Änderungen an einem Bericht vornehmen, der bereits ausgeführt wird, kann das dazu führen, dass Sie den Test und dessen Daten zurücksetzen.
+* Wenn Sie beim Bearbeiten einer Aktivität [!DNL Analytics]-basierte Metriken verwendet haben und die Report Suite nicht geladen wird (Kreisel wird angezeigt), wechseln Sie zu [!DNL Target]-Metriken und wechseln Sie dann erneut zu [!DNL Analytics]-basierter Metrik. Die Berichtssuite sollte jetzt geladen werden.
+* Wenn Sie Änderungen an einem bereits ausgeführten Test vornehmen, können Sie den Test und seine Daten zurücksetzen.
 
-   Target ermöglicht Ihnen das Bearbeiten einer Live-Aktivität. Achten Sie darauf, dass das Bearbeiten einer ausgeführten Aktivität zu einem Zurücksetzen des Tests führen kann, sodass Berichte einige der Änderungen möglicherweise nicht erkennen.
+   [!DNL Target] können Sie eine Live-Aktivität bearbeiten. Achten Sie darauf, dass das Bearbeiten einer ausgeführten Aktivität zu einem Zurücksetzen des Tests führen kann, sodass Berichte einige der Änderungen möglicherweise nicht erkennen.
 
    Es ist sicher, kleinere Änderungen wie die Bearbeitung vorhandenen Texts bzw. vorhandener HTML-Angebote vorzunehmen.
 
