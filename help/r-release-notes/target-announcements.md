@@ -4,9 +4,9 @@ description: Informationen zu kommenden Ereignissen, einschließlich Zielgruppe 
 title: Mitteilungen zur Zielgruppe
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,21 @@ Lesen Sie dazu im [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-
 Adobe wurde im dritten Gartner Magic Quadrant for Personalization Engines 2020-Bericht erneut zum Leader ernannt. Der Gartner Magic Quadrant for Personalization Engines bewertete Anbieter anhand von 15 Kriterien, die in zwei Kategorien unterteilt sind: Vollständigkeit der Sicht und Ausführungsfähigkeit.
 
 [Lesen Sie mehr darüber im Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## Webinar: Erfolgreiche Personalisierung im Maßstab: Wichtigste Ergebnisse der Forrester Wave, Experience Optimization-Plattformen
+
+* **Dienstag, 19. Januar**
+* **08:00 Uhr PT | 10.00 Uhr CT | 11.00 Uhr MEZ**
+* **Dauer: 60 Minuten**
+* **[Hier registrieren](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)**
+
+Die Fähigkeit, Kundenerlebnisse in größerem Umfang zu optimieren, ist jetzt entscheidend, um den dynamischen Kundenbedürfnissen und der aktuellen Zunahme neuer digitaler Besucher gerecht zu werden. Eine Plattform zur Erlebnisoptimierung, wie z. B. [!DNL Adobe Target], kann über Ihre digitalen Eigenschaften bereitgestellt werden, um schnell das richtige Erlebnis für Ihre Kunden zur richtigen Zeit zu ermitteln und bereitzustellen. Dazu werden manuelle und AI-basierte Funktionen für verhaltensbasiertes Targeting, Tests und Empfehlungen genutzt. Nehmen Sie mit unserem Spezialgast James McCormick, Principal Analyst bei Forrester teil, während wir die wichtigsten Ergebnisse von The Forrester Wave, Experience Optimization Platforms, Q4 2020 präsentieren und diskutieren.
+
+In diesem Webinar lernen Sie Folgendes:
+
+* Branchentrends gestalten die Entwicklung von Personalisierungs- und Erfahrungsoptimierungswerkzeugen
+* Schlüsselfunktionen einer führenden Plattform zur Optimierung von Erlebnissen
+* Best Practices zur Optimierung von Kundenerlebnissen auf einer Skala für maximale geschäftliche Wirkung
 
 ## Webinar: Personalisieren und testen Sie mit Entscheidungen auf dem Gerät von Adobe Target
 
