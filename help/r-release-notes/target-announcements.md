@@ -1,12 +1,12 @@
 ---
-keywords: announcements;skill builder;developer chat;coffee break;events
+keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
 description: Informationen zu kommenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinare und Zielgruppe Coffee Break-Sitzungen.
 title: Mitteilungen zur Zielgruppe
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 5a296355f8ef111c79e06b5bf153203d538aa90b
+source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 
 Mitteilungen und Informationen zu kommenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinare und Zielgruppe-Kaffeepausen.
 
+## Anerkennung für Adobe Target
+
+Adobe Target wurde kürzlich von Forrester und Gartner als Marktführer anerkannt.
+
 | Forschungsservice | Details |
 | --- | --- |
-| Forrester | Adobe mit dem Namen &quot;Leader&quot;im Forrester-Wellenbericht für Erlebnisoptimierungsplattformen.<br>Adobe wurde in The Forrester Wave als führend bezeichnet: Experience Optimization-Plattformen, Q4 2020-Bericht für sein Angebot in diesem Bereich, Adobe Target Premium. Adobe erhielt die höchste Punktzahl aller beteiligten Anbieter in den aktuellen Kategorien für Angebot und Marktpräsenz sowie in den Empfehlungs- und Plattformerlebniskriterien. Zielgruppe Premium erhielt auch die höchste Bewertung, die in der Technik der Erlebnisoptimierung und den Kriterien für unterstützende Dienstleistungen möglich war. Der Bericht basiert auf einer gründlichen Bewertung von 10 Anbietern von Erlebnisoptimierungsplattformen anhand von 22 Kriterien.<br>Lesen Sie mehr darüber im  [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
-| Gartner | Adobe wurde erneut zum Leader im Gartner Magic Quadrant für Personalisierungsmaschinen ernannt.<br>Adobe wurde im dritten Gartner Magic Quadrant for Personalization Engines 2020-Bericht erneut zum Leader ernannt. Der Gartner Magic Quadrant for Personalization Engines bewertete Anbieter anhand von 15 Kriterien, die in zwei Kategorien unterteilt sind: Vollständigkeit der Sicht und Ausführungsfähigkeit.<br>[Lesen Sie mehr darüber im Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+| Forrester | **Adobe mit dem Namen &quot;Leader&quot;im Forrester-Wellenbericht für Erlebnisoptimierungsplattformen.**<br> Adobe wurde in The Forrester Wave als führend bezeichnet: Experience Optimization-Plattformen, Q4 2020-Bericht für sein Angebot in diesem Bereich, Adobe Target Premium. Adobe erhielt die höchste Punktzahl aller beteiligten Anbieter in den aktuellen Kategorien für Angebot und Marktpräsenz sowie in den Empfehlungs- und Plattformerlebniskriterien. Zielgruppe Premium erhielt auch die höchste Bewertung, die in der Technik der Erlebnisoptimierung und den Kriterien für unterstützende Dienstleistungen möglich war. Der Bericht basiert auf einer gründlichen Bewertung von 10 Anbietern von Erlebnisoptimierungsplattformen anhand von 22 Kriterien.<br>Lesen Sie mehr darüber im  [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
+| Gartner | **Adobe wurde erneut zum Leader im Gartner Magic Quadrant für Personalisierungsmaschinen ernannt.**<br> Adobe wurde im dritten Gartner Magic Quadrant for Personalization Engines 2020-Bericht erneut zum Leader ernannt. Der Gartner Magic Quadrant for Personalization Engines bewertete Anbieter anhand von 15 Kriterien, die in zwei Kategorien unterteilt sind: Vollständigkeit der Sicht und Ausführungsfähigkeit.<br>[Lesen Sie mehr darüber im Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
 ## Webinar: Erfolgreiche Personalisierung im Maßstab: Wichtigste Ergebnisse der Forrester Wave, Experience Optimization-Plattformen
 
