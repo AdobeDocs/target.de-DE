@@ -4,9 +4,9 @@ description: Informationen zu kommenden Ereignissen, einschließlich Zielgruppe 
 title: Mitteilungen zur Zielgruppe
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 5a296355f8ef111c79e06b5bf153203d538aa90b
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -16,24 +16,17 @@ ht-degree: 0%
 
 Mitteilungen und Informationen zu kommenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinare und Zielgruppe-Kaffeepausen.
 
-## Adobe mit der Bezeichnung &quot;Leader in Forrester-Wellenbericht&quot;für Plattformen zur Erlebnisoptimierung
-
-Adobe wurde in The Forrester Wave als führend bezeichnet: Experience Optimization-Plattformen, Q4 2020-Bericht für sein Angebot in diesem Bereich, Adobe Target Premium. Adobe erhielt die höchste Punktzahl aller beteiligten Anbieter in den aktuellen Kategorien für Angebot und Marktpräsenz sowie in den Empfehlungs- und Plattformerlebniskriterien. Zielgruppe Premium erhielt auch die höchste Bewertung, die in der Technik der Erlebnisoptimierung und den Kriterien für unterstützende Dienstleistungen möglich war. Der Bericht basiert auf einer gründlichen Bewertung von 10 Anbietern von Erlebnisoptimierungsplattformen anhand von 22 Kriterien.
-
-Lesen Sie dazu im [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html).
-
-## Adobe wurde erneut zum &quot;Leader in Gartner Magic Quadrant&quot;für Personalisierungsmaschinen ernannt
-
-Adobe wurde im dritten Gartner Magic Quadrant for Personalization Engines 2020-Bericht erneut zum Leader ernannt. Der Gartner Magic Quadrant for Personalization Engines bewertete Anbieter anhand von 15 Kriterien, die in zwei Kategorien unterteilt sind: Vollständigkeit der Sicht und Ausführungsfähigkeit.
-
-[Lesen Sie mehr darüber im Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+| Forschungsservice | Details |
+| --- | --- |
+| Forrester | Adobe mit dem Namen &quot;Leader&quot;im Forrester-Wellenbericht für Erlebnisoptimierungsplattformen.<br>Adobe wurde in The Forrester Wave als führend bezeichnet: Experience Optimization-Plattformen, Q4 2020-Bericht für sein Angebot in diesem Bereich, Adobe Target Premium. Adobe erhielt die höchste Punktzahl aller beteiligten Anbieter in den aktuellen Kategorien für Angebot und Marktpräsenz sowie in den Empfehlungs- und Plattformerlebniskriterien. Zielgruppe Premium erhielt auch die höchste Bewertung, die in der Technik der Erlebnisoptimierung und den Kriterien für unterstützende Dienstleistungen möglich war. Der Bericht basiert auf einer gründlichen Bewertung von 10 Anbietern von Erlebnisoptimierungsplattformen anhand von 22 Kriterien.<br>Lesen Sie mehr darüber im  [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
+| Gartner | Adobe wurde erneut zum Leader im Gartner Magic Quadrant für Personalisierungsmaschinen ernannt.<br>Adobe wurde im dritten Gartner Magic Quadrant for Personalization Engines 2020-Bericht erneut zum Leader ernannt. Der Gartner Magic Quadrant for Personalization Engines bewertete Anbieter anhand von 15 Kriterien, die in zwei Kategorien unterteilt sind: Vollständigkeit der Sicht und Ausführungsfähigkeit.<br>[Lesen Sie mehr darüber im Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
 ## Webinar: Erfolgreiche Personalisierung im Maßstab: Wichtigste Ergebnisse der Forrester Wave, Experience Optimization-Plattformen
 
 * **Dienstag, 19. Januar**
 * **08:00 Uhr PT | 10.00 Uhr CT | 11.00 Uhr MEZ**
 * **Dauer: 60 Minuten**
-* **[Hier registrieren](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)**
+* **[Registrieren Sie sich hier](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998).**
 
 Die Fähigkeit, Kundenerlebnisse in größerem Umfang zu optimieren, ist jetzt entscheidend, um den dynamischen Kundenbedürfnissen und der aktuellen Zunahme neuer digitaler Besucher gerecht zu werden. Eine Plattform zur Erlebnisoptimierung, wie z. B. [!DNL Adobe Target], kann über Ihre digitalen Eigenschaften bereitgestellt werden, um schnell das richtige Erlebnis für Ihre Kunden zur richtigen Zeit zu ermitteln und bereitzustellen. Dazu werden manuelle und AI-basierte Funktionen für verhaltensbasiertes Targeting, Tests und Empfehlungen genutzt. Nehmen Sie mit unserem Spezialgast James McCormick, Principal Analyst bei Forrester teil, während wir die wichtigsten Ergebnisse von The Forrester Wave, Experience Optimization Platforms, Q4 2020 präsentieren und diskutieren.
 
@@ -53,7 +46,7 @@ In diesem aufgezeichneten Webinar besprechen Adobe Target-Produktexperten, wie b
 
 ## Webinar: Wie HSBC Adobe Target und AI nutzt, um Personalisierung schnell zu optimieren und zu liefern
 
-* **Klicken Sie hier, um die  [Webinaraufzeichnung](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true) Ansicht.**
+* **[Ansicht der Webinaraufnahme hier](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital berichtet, dass &quot;wir fünf Jahre nach der digitalen Akzeptanz von Verbrauchern und Unternehmen in etwa acht Wochen zurückgelegt haben&quot;. *
 
@@ -71,4 +64,4 @@ Nehmen Sie an diesem Webinar mit Adobe und HSBC teil, um zu erfahren:
 
 Mit der bevorstehenden Vernichtung von &quot;mbox.js&quot;am 31. März 2021 hat David Son, Adobe Target Product Manager, kürzlich einen Entwicklerchat gehostet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern.
 
-[Ansicht der Webinaraufnahme hier](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+* **[Ansicht der Webinaraufnahme hier](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
