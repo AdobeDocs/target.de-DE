@@ -1,12 +1,12 @@
 ---
 keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: Informationen zu kommenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinare und Zielgruppe Coffee Break-Sitzungen.
+description: Informationen zu kommenden Ereignissen, einschließlich Adobe Target Skill Builder-Sitzungen, Entwicklerchats, Webinare und Zielgruppe Coffee Break-Sitzungen.
 title: Mitteilungen zur Zielgruppe
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
+source-git-commit: c129430e038d7179846761cf946c437d079e26ee
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Ankündigungen und Ereignisse zur Zielgruppe
 
-Mitteilungen und Informationen zu kommenden Ereignissen, einschließlich Zielgruppe Skill Builder-Sitzungen, Entwicklerchats, Webinare und Zielgruppe-Kaffeepausen.
+Mitteilungen und Informationen zu kommenden Ereignissen, einschließlich Adobe Target Skill Builder-Sitzungen, Entwicklerchats, Webinars und Zielgruppe Coffee Break-Sitzungen.
 
 ## Anerkennung für Adobe Target
 
