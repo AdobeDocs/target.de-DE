@@ -1,20 +1,20 @@
 ---
 keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: Informationen zur Seite „Änderungen“, auf der Sie Änderungen an Ihrer Seite anzeigen und zusätzliche Änderungen (CSS-Selektor, Mbox und benutzerspezifischen Code) hinzufügen können.
+description: Informationen zur Seite "Änderungen"in Adobe Target, auf der Sie Änderungen an Ihrer Ansicht vornehmen und weitere Änderungen hinzufügen können (CSS-Selektor, Mbox und benutzerdefinierter Code).
 title: Änderungen
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 100%
+source-wordcount: '2107'
+ht-degree: 97%
 
 ---
 
 
 # Änderungen{#modifications}
 
-Informationen zur Seite „Änderungen“, auf der Sie Änderungen an Ihrer Seite anzeigen und zusätzliche Änderungen (CSS-Selektor, Mbox und benutzerspezifischen Code) hinzufügen können.
+Informationen zur Seite &quot;Änderungen&quot;in [!DNL Adobe Target], auf der Sie Seitenänderungen und weitere Änderungen (CSS-Selektor, Mbox und benutzerdefinierter Code) Ansichten vornehmen können.
 
 Auf der Seite „Änderungen“ finden Sie alle Änderungen, die im Visual Experience Composer an Ihrer Seite vorgenommen wurden, und können zusätzliche Änderungen vornehmen, indem Sie auf das jeweilige Element auf der Seite klicken und  [eine Aktion auswählen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Jede vorgenommene Änderung erscheint in der Liste [!UICONTROL Änderungen] als separate Aktion oder separates Element. Sie können auch Änderungen hinzufügen, einschließlich folgender Änderungstypen: CSS-Selektor, Mbox und benutzerspezifischer Code.
 
