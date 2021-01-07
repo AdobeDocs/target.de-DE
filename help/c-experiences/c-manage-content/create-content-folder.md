@@ -1,20 +1,20 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Erstellen Sie einen Ordner, um Elemente in der Angebotsbibliothek zu hinterlegen.
+description: Erstellen Sie einen Ordner, um Elemente in der Angebote-Bibliothek in Adobe Target zu speichern.
 title: Erstellen von Angebotsordnern
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 93%
 
 ---
 
 
-# Erstellen von Angebotsordnern{#create-offer-folder}
+# Erstellen von Angebotsordnern
 
-Erstellen Sie einen Ordner, um Elemente in der Angebotsbibliothek zu hinterlegen.
+Erstellen Sie einen Ordner, um Elemente in der Angebote-Bibliothek in Adobe Target zu speichern.
 
 1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie je nach Bedarf die Registerkarte **[!UICONTROL Code-Angebote]** oder **[!UICONTROL Bildangebote]** aus.
 1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Ordner]**.
