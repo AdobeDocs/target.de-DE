@@ -1,20 +1,20 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: Sie können der Bildangebotsliste Elemente hinzufügen.
+description: Sie können Elemente zur Image Angebots-Liste in Adobe Target hinzufügen.
 title: Hochladen von Inhalten
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 91%
+source-wordcount: '111'
+ht-degree: 68%
 
 ---
 
 
-# Hochladen von Inhalten{#upload-content}
+# Hochladen von Inhalten
 
-Sie können Elemente in der Bildangebotliste hinzufügen oder daraus entfernen.
+Sie können Elemente der Liste &quot;Image-Angebot&quot;in [!DNL Adobe Target] hinzufügen oder daraus entfernen.
 
 1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie anschließend die Registerkarte **[!UICONTROL Bildangebote]** aus.
 1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Dateien]**.
