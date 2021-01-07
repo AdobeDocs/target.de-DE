@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen in einem Content-Management- oder einem anderen System befinden.
+description: Verwenden Sie Remote-Angebot, um Inhalte außerhalb von Adobe Target zu hosten, auf die die Zielgruppe verweist und die für die Websites von Benutzern bereitgestellt werden. Diese Inhalte können sich aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen in einem Content-Management- oder einem anderen System befinden.
 title: Remote-Angebote erstellen
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
 
-# Remote-Angebote erstellen{#create-remote-offers}
+# Remote-Angebote erstellen
 
-Verwenden Sie Remote-Angebote dazu, außerhalb von Target Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen in einem Content-Management- oder einem anderen System befinden.
+Verwenden Sie Remote-Angebote dazu, außerhalb von [!DNL Adobe Target] Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen in einem Content-Management- oder einem anderen System befinden.
 
 >[!NOTE]
 >
