@@ -1,20 +1,20 @@
 ---
 keywords: Recommendations
-description: Die Szenarien in diesem Thema veranschaulichen, wie sich an Ihrer Seite vorgenommene Änderungen auf die Fähigkeit von Target auswirken, ein Erlebnis anzuzeigen.
+description: Die Szenarien in diesem Thema zeigen, wie sich an Ihrer Seite vorgenommene Änderungen auf die Fähigkeit von Adobe Target auswirken, ein Erlebnis anzuzeigen.
 title: Szenarien für die Seitenmodifizierung
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 92%
 
 ---
 
 
-# Szenarien für die Seitenmodifizierung {#page-modification-scenarios}
+# Szenarien für die Seitenmodifizierung
 
-Die Szenarien in diesem Thema veranschaulichen, wie sich an Ihrer Seite vorgenommene Änderungen auf die Fähigkeit von Target auswirken, ein Erlebnis anzuzeigen.
+Die Szenarien in diesem Thema zeigen, wie sich an Ihrer Seite vorgenommene Änderungen auf die Fähigkeit von Adobe Target auswirken, ein Erlebnis anzuzeigen.
 
 Der Target-Selektor legt fest, wo ein Erlebnis angezeigt wird. Wenn eine Seite außerhalb von Target modifiziert wird, können sich die Änderungen auf die Fähigkeit von Target auswirken, das Erlebnis anzuzeigen.
 
