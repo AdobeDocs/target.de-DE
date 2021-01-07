@@ -1,19 +1,20 @@
 ---
+keywords: activity change log;change log
 description: Im Änderungsprotokoll befindet sich ein Datensatz zu den Personen, die Ihre Aktivitäten geändert haben; er gibt auch den Zeitpunkt dieser Änderungen an.
 title: Aktivität-Änderungsprotokoll in Adobe Target
 feature: activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 93%
+source-wordcount: '100'
+ht-degree: 77%
 
 ---
 
 
-# Aktivitätsänderungsprotokoll{#activity-change-log}
+# Aktivitätsänderungsprotokoll
 
-Im Änderungsprotokoll befindet sich ein Datensatz zu den Personen, die Ihre Aktivitäten geändert haben; er gibt auch den Zeitpunkt dieser Änderungen an.
+Das Änderungsprotokoll in [!DNL Adobe Target] enthält einen Datensatz darüber, wer Ihre Aktivitäten geändert hat und wann die Änderungen stattgefunden haben.
 
 1. Öffnen Sie die Aktivität und klicken Sie auf **[!UICONTROL Änderungsprotokoll]**.
 
