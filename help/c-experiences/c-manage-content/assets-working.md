@@ -1,20 +1,20 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: Es gibt eine Reihe von Aufgaben, die Sie für ein Asset in der Bibliothek durchführen können.
+description: Es gibt eine Reihe von Aufgaben, die Sie an einem Asset in der Bibliothek in Adobe Target durchführen können.
 title: Arbeiten mit Inhalten in der Bibliothek
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 
 
-# Arbeiten mit Inhalten in der Bibliothek{#work-with-content-in-the-library}
+# Arbeiten mit Inhalten in der Bibliothek
 
-Informationen über die Aufgaben, die Sie für ein Asset in der Inhalte-Bibliothek ausführen können.
+Informationen zu den Aufgaben, die Sie für ein Asset in der Inhaltsbibliothek in [!DNL Adobe Target] ausführen können.
 
 1. Klicken Sie auf **[!UICONTROL Angebot]**, wählen Sie die Registerkarte **[!UICONTROL Code-Angebot]** oder **[!UICONTROL Bildangebot]** aus und suchen Sie nach dem Asset, mit dem Sie arbeiten möchten.
 
