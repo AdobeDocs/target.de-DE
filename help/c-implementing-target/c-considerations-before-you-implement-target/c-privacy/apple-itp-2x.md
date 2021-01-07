@@ -1,18 +1,20 @@
 ---
-keywords: apple;ITP;intelligent tracking prevention
+keywords: apple;ITP;intelligent tracking prevention;experience cloud id;ecid
 description: Informationen zur Adobe Target-Unterstützung für ITP 2.x von Apple über die Experience Cloud-ID (ECID)-Bibliothek 4.3.
 title: Unterstützung von Adobe Target und Apple ITP
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 54%
+source-wordcount: '897'
+ht-degree: 53%
 
 ---
 
 
 # Apple Intelligent Tracking Prevention (ITP) 2.x
+
+Informationen zur [!DNL Adobe Target]-Unterstützung für ITP 2.x von Apple über die Experience Cloud-ID (ECID) library 4.3.
 
 Intelligent Tracking Prevention (ITP) ist eine Initiative von Apple zum Schutz der Privatsphäre von Safari-Benutzern. Die erste Version von ITP, die im Jahr 2017 veröffentlicht wurde, zielte auf die Verwendung von Drittanbieter-Cookies ab. Genau genommen blockierte Apple alle Drittanbieter-Cookies, was wiederum die Arbeit von Anzeigen- und Werbefirmen erschwerte, da Drittanbieter-Cookies allgemein zum Tracking von Besuchern und zur Erfassung von Besucherdaten eingesetzt werden. Jetzt ist Apple dabei, die Verwendung von Erstanbieter-Cookies in Safari zu beschränken.
 
