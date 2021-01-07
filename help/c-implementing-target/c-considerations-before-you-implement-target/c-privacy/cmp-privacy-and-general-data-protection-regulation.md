@@ -2,19 +2,19 @@
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: Informationen über die Datenschutz-Grundverordnung (DSGVO) der Europäischen Union, den California Consumer Privacy Act (CCPA) sowie andere internationale Datenschutzanforderungen und wie sich diese Vorschriften auf Ihr Unternehmen und Adobe Target auswirken.
 title: Vorschriften zur Privatsphäre und zum Datenschutz
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '2250'
-ht-degree: 93%
+source-wordcount: '2248'
+ht-degree: 91%
 
 ---
 
 
-# Vorschriften zur Privatsphäre und zum Datenschutz{#privacy-and-general-data-protection-regulation-gdpr}
+# Vorschriften zur Privatsphäre und zum Datenschutz
 
-Informationen über die Datenschutz-Grundverordnung (DSGVO) der Europäischen Union, den California Consumer Privacy Act (CCPA) sowie andere internationale Datenschutzanforderungen und wie sich diese Vorschriften auf Ihr Unternehmen und Adobe Target auswirken.
+Informationen über die Datenschutzverordnung der Europäischen Vereinigung (GDPR), das California Consumer Privacy Act (CCPA) und andere internationale Datenschutzvorschriften sowie über die Auswirkungen dieser Vorschriften auf Ihr Unternehmen und [!DNL Adobe Target].
 
 ## Überblick über den Datenschutz und die Datenschutz-Grundverordnung (DSGVO) {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
