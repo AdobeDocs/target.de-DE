@@ -4,7 +4,7 @@ description: Informationen zu Adobe Target-serverseitigen Versand-APIs, SDKs und
 title: Informationen zu Adobe Target-serverseitigen Versand-APIs, Node.js-SDK und Zielgruppe-Recommendations-APIs.
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 20%
@@ -12,7 +12,7 @@ ht-degree: 20%
 ---
 
 
-# Server-seitig: Target-Implementierung{#server-side-implement-target}
+# Server-seitig: Target-Implementierung
 
 Informationen zu den APIs für serverseitige Versand, SDKs und [!DNL Adobe Target]-APIs.[!DNL Target Recommendations]
 
