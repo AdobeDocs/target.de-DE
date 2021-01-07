@@ -2,9 +2,9 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: Einige Browser blockieren die Anzeige einer Seite, wenn sicherer Inhalt mit unsicherem Inhalt gemischt wird.
 title: Zulassen von gemischtem Inhalt in Ihrem Browser
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 35%
@@ -12,7 +12,7 @@ ht-degree: 35%
 ---
 
 
-# Aktivieren von gemischtem Inhalt in Ihrem Browser{#enabling-mixed-content-in-your-browser}
+# Zulassen von gemischtem Inhalt in Ihrem Browser
 
 Gemischte Inhalte treten auf, wenn sowohl HTTPS-Inhalte (sicher) *als auch HTTP-Inhalte (unsicher) geladen wurden, um dieselbe Webseite anzuzeigen, und die ursprüngliche Anforderung über HTTPS gesichert war.*
 
