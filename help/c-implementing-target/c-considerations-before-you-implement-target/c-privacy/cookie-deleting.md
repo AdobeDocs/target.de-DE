@@ -1,9 +1,10 @@
 ---
+keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
 description: Löschen Sie Ihre Target-Browsercookies, sodass Sie alle Ihre Erlebnisse validieren können.
 title: Löschen des Adobe Target-Cookies
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 5%
@@ -11,9 +12,9 @@ ht-degree: 5%
 ---
 
 
-# Löschen des Target-Cookies{#delete-the-target-cookie}
+# Löschen des Target-Cookies
 
-Sie können Ihr [!DNL Target] Browser-Cookie (mbox) löschen, damit Sie alle Erlebnisse während des Tests validieren können.
+Sie können Ihr [!DNL Adobe Target] Browser-Cookie (mbox) löschen, damit Sie alle Erlebnisse während des Tests validieren können.
 
 Wenn kein [!DNL Target]-Cookie (mbox) vorhanden ist, werden Sie als neuer Besucher betrachtet und ein neues Erlebnis angezeigt. Es gibt mehrere Möglichkeiten, Ihre Mbox zu löschen, ohne alle Cookies im Browser zu löschen.
 
