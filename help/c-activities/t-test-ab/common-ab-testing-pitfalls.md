@@ -1,20 +1,20 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: A/B-Tests bilden das Rückgrat der meisten Programme zur Optimierung des digitalen Marketings. Marketingexperten können Ihren Besuchern und Kunden dazu optimierte und zielgerichtete Erlebnisse bieten. In diesem Abschnitt werden neun der größten Fallstricke beschrieben, denen Firmen beim Durchführen von A/B-Tests in Adobe Target ausgesetzt sind. Er bietet außerdem Wege zur Vermeidung dieser Fehler. So steigert Ihr Unternehmen die Investitionsrendite seiner Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
+description: A/B-Tests in Adobe Target bilden das Rückgrat der meisten Programm zur Optimierung des digitalen Marketings und unterstützen Marketingexperten dabei, Angebot-optimierte und zielgerichtete Erlebnisse für ihre Besucher und Kunden zu entwickeln. In diesem Abschnitt werden neun der größten Fallstricke beschrieben, denen Firmen beim Durchführen von A/B-Tests in Adobe Target ausgesetzt sind. Er bietet außerdem Wege zur Vermeidung dieser Fehler. So steigert Ihr Unternehmen die Investitionsrendite seiner Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
 title: Neun häufige Fehler bei A/B-Tests und wie diese vermieden werden
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3918'
-ht-degree: 88%
+source-wordcount: '3922'
+ht-degree: 87%
 
 ---
 
 
-# Zehn häufige A/B-Testfallen und wie sie vermieden werden können{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
+# Zehn häufige A/B-Testfallen und wie sie vermieden werden können
 
-A/B-Tests bilden das Rückgrat der meisten Programme zur Optimierung des digitalen Marketings. Marketingexperten können Ihren Besuchern und Kunden dazu optimierte und zielgerichtete Erlebnisse bieten. In diesem Abschnitt werden zehn der größten Fallstricke beschrieben, denen Firmen beim Durchführen von A/B-Tests ausgesetzt sind. Er bietet außerdem Wege zur Vermeidung dieser Fehler. So steigert Ihr Unternehmen die Investitionsrendite seiner Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
+A/B-Tests in [!DNL Adobe Target] bilden das Rückgrat der meisten Programm zur Optimierung des digitalen Marketings und unterstützen Marketingexperten dabei, Angebot-optimierte und zielgerichtete Erlebnisse für ihre Besucher und Kunden bereitzustellen. In diesem Abschnitt werden zehn der größten Fallstricke beschrieben, denen Firmen beim Durchführen von A/B-Tests ausgesetzt sind. Er bietet außerdem Wege zur Vermeidung dieser Fehler. So steigert Ihr Unternehmen die Investitionsrendite seiner Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
 
 ## Pitfall 1: Ignorieren der Auswirkungen des Signifikanzniveaus {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
