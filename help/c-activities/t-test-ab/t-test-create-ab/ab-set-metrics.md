@@ -1,21 +1,20 @@
 ---
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Verwenden Sie in A/B-Aktivitäten Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
+description: Verwenden Sie Metriken in einer Adobe Target A/B-Aktivität, um zu bestimmen, wann ein Besuch erfolgreich war.
 title: Festlegen von Metriken
-feature: ab
-solution: Target
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 99%
+source-wordcount: '314'
+ht-degree: 89%
 
 ---
 
 
-# Festlegen von Metriken{#set-metrics}
+# Festlegen von Metriken
 
-Verwenden Sie in A/B-Aktivitäten Metriken, um zu erkennen, wann ein Besuch erfolgreich verlief.
+Verwenden Sie Metriken in einer [!DNL Adobe Target] A/B-Aktivität, um festzustellen, wann ein Besuch erfolgreich war.
 
 Ausführliche Informationen zu Erfolgsmetriken finden Sie unter  [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
