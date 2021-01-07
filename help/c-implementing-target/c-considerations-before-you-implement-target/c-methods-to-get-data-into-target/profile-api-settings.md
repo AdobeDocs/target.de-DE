@@ -2,11 +2,11 @@
 keywords: implementation;api;profile;profile api settings;authentication token
 description: Aktivieren oder deaktivieren Sie die Authentifizierung für Batch-Aktualisierungen über Adobe Target APIs und generieren Sie ein Profil-Authentifizierungstoken.
 title: Profil-API-Einstellungen in Adobe Target
-feature: api
+feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 40%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # Profil-API-Einstellungen
 
-Aktivieren oder deaktivieren Sie die Authentifizierung für Batch-Aktualisierungen über Adobe Target APIs und generieren Sie ein Profil-Authentifizierungstoken.
+Aktivieren oder deaktivieren Sie die Authentifizierung für Batch-Aktualisierungen über [!DNL Adobe Target]-APIs und generieren Sie ein Profil-Authentifizierungstoken.
 
 [!DNL Adobe Target] erstellt und pflegt ein Profil für jeden individuellen Benutzer. Dieses Profil wird im Edge-Cluster [!DNL Target] gespeichert und nach jedem Besuch in Echtzeit aktualisiert. Sie können ein Profil jedoch einzeln oder stapelweise über die API aktualisieren.
 
