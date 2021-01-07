@@ -1,33 +1,32 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Sie können Profilwerte und Aktivitätsinformationen direkt in einem HTML- oder JSON-Angebot anzeigen.
+description: Sie können Profil- und Aktivitäten-Werte direkt in einem HTML- oder JSON-Angebot in Adobe Target anzeigen.
 title: Übergeben dynamischer Daten in Angebote
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
+source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 94%
+source-wordcount: '494'
+ht-degree: 88%
 
 ---
 
 
-# Übergeben dynamischer Daten in Angebote{#pass-dynamic-data-into-offers}
+# Übergeben dynamischer Daten in Angebote
 
-Sie können die im Target-Profil gespeicherten Besucherinformationen dynamisch anzeigen. Ebenso können Aktivitätsinformationen (wie der Name der Aktivität oder der Name des Erlebnisses) auch verwendet werden, um ein einzelnes Angebot zu erstellen, das personalisierte Inhalte dynamisch basierend auf den Interessen des Besuchers, dem vergangenem Verhalten und Gesamtprofil zurückgibt.
+Sie können Besucher-Informationen, die im Profil [!DNL Adobe Target] gespeichert sind, dynamisch anzeigen. Ebenso können Aktivitätsinformationen (wie der Name der Aktivität oder der Name des Erlebnisses) auch verwendet werden, um ein einzelnes Angebot zu erstellen, das personalisierte Inhalte dynamisch basierend auf den Interessen des Besuchers, dem vergangenem Verhalten und Gesamtprofil zurückgibt.
 
-**Geschäftsszenarios**
+## Geschäftsszenarios
 
 * Fördern Sie ein Angebot mit Rabatt, um das zuletzt gekaufte Produkt „erneut aufzufüllen“ oder „nachzufüllen“. Anstatt ein separates Angebot für jedes Element in Ihrem Katalog zu erstellen, können Sie ein Angebot mit dynamischem Text erstellen, das das „zuletzt gekaufte Produkt“ aus dem Profil liest und einen Link im Angebot anzeigt.
 * Ein Besucher gelangt über `keyword=world` `cup` auf Ihre Landingpage. Der Begriff *World cup* wird im Angebot angezeigt.
 * Personalisieren Sie eine Empfehlungsbeschriftung mit Informationen wie (1) dem letzten Artikel, der dem Einkaufswagen eines Besuchers hinzugefügt wurde (Nike Air Max 1000s), (2) der Farbvoreinstellungen des Besuchers (schwarz) und (3) der bevorzugten Kategorie des Besuchers (Hoodies). Beispiel: „Ergänzen Sie Ihre ‚Nike Air Max 1000s‘ mit diesen coolen ‚schwarzen‘ Hoodies!“
 
-
-**Technische Vorteile**
+## Technische Vorteile
 
 Da benutzerspezifische Voreinstellungen, Verhaltensweisen, Status usw. im Profil des Benutzers gespeichert sind, können Sie diese Nachricht bei seinem nächsten Besuch wiederholen. Dynamische Angebote ermöglichen eine größere Reichweite, da Sie ein einzelnes Angebot innerhalb einer Aktivität einrichten können, das personalisierte Nachrichten für alle Besucher anzeigt. Wenn sich die Absicht des Benutzers ändert, werden die Änderungen automatisch in Ihre Website-Inhalte übernommen.
 
-**Beispiel**
+## Beispiel
 
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
@@ -51,7 +50,7 @@ Informationen in der Konsole zum Debugging, wie `${campaign.name}`, `${campaign.
 
 Weitere Informationen zu Empfehlungsdesigns finden Sie in den weiteren Beispielen in [der Designübersicht](/help/c-recommendations/c-design-overview/design-overview.md).
 
-**Implementierung**
+## Implementierung
 
 Verwenden Sie für an eine Mbox übergebene Profilparameter folgende Syntax: `${profile.parameter}` Verwenden Sie für Profilparameter, die in einem Profilskript erstellt wurden, folgende Syntax:
 
