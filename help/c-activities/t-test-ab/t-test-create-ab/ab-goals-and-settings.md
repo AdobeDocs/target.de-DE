@@ -1,21 +1,20 @@
 ---
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-description: Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zielen des Tests eingeben.
+description: Auf der Seite "Ziele und Einstellungen"in Adobe Target geben Sie Informationen zu den Testzielen ein.
 title: Ziele und Einstellungen
-feature: ab
-snippet: y
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 96%
+source-wordcount: '1264'
+ht-degree: 93%
 
 ---
 
 
-# Ziele und Einstellungen {#goals-and-settings}
+# Ziele und Einstellungen
 
-Auf der Seite „Ziele und Einstellungen“ können Sie Informationen zu den Zielen des Tests eingeben.
+Auf der Seite &quot;Ziele und Einstellungen&quot;in [!DNL Adobe Target] geben Sie Informationen zu den Zielen des Tests ein.
 
 Welche Einstellungen verfügbar sind, hängt davon ab, ob Sie als Datenquelle Target oder [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) verwenden.
 
