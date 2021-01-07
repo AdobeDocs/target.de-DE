@@ -2,11 +2,11 @@
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: Informationen zu Änderungen in Bezug auf die Verwendung von TLS (Transport Layer Security), die durch Adobe und Target vorgenommen werden, um den höchsten Sicherheitsstandards gerecht zu werden und die Sicherheit von Kundendaten zu fördern.
 title: Änderungen der TLS-Verschlüsselung (Transport Layer Security)
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1230'
 ht-degree: 60%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 60%
 
 # Änderungen der TLS-Verschlüsselung (Transport Layer Security){#tls-transport-layer-security-encryption-changes}
 
-Informationen über Änderungen bei der Verwendung von TLS (Transport Layer Security) durch Adobe und Adobe Target, um höchste Sicherheitsstandards zu gewährleisten und die Sicherheit von Kundendaten zu fördern.
+Informationen über Änderungen, wie [!DNL Adobe] und [!DNL Adobe Target] TLS (Transport Layer Security) verwenden, um höchste Sicherheitsstandards zu gewährleisten und die Sicherheit von Kundendaten zu fördern.
 
 Transport Layer Security (TLS) ist das am weitesten verbreitete Sicherheitsprotokoll, das aktuell in Webbrowsern und anderen Anwendungen Verwendung findet, bei denen über ein Netzwerk übertragene Daten geschützt werden müssen. Um die Sicherheitsstandards von Adobe einzuhalten, muss die Unterstützung für ältere Protokolle beendet und durch TLS 1.2 als obligatorisches Sicherheitsprotokoll ersetzt werden, damit die Daten durch die neueste und sicherste Version des Protokolls geschützt sind.
 
