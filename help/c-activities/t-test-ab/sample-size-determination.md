@@ -1,13 +1,13 @@
 ---
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate;calculator
-description: Für einen erfolgreichen A/B-Test ist eine ausreichende Anzahl von Besuchern erforderlich (Stichprobengröße), um die Konversionsrate zu steigern. Aber wie lässt sich bestimmen, wie lange ein A/B-Test ausgeführt werden muss? Dieser Artikel enthält Informationen zu Aktivitäten mit automatisierter Zuordnung und zum Adobe Target-Stichprobengrößenrechner, mit dem Sie sicherstellen können, dass Ihre Aktivität über eine ausreichende Anzahl von Besuchern verfügt, um Ihre Ziele zu erreichen.
+description: Ein erfolgreicher A/B-Test in Adobe Target erfordert eine angemessene Anzahl von Besuchern (Stichprobengröße), um Ihr Konversionsrate zu verbessern. Wie wissen Sie jedoch, wie lange ein A/B-Test durchgeführt werden soll? Dieser Artikel enthält Informationen zu Aktivitäten mit automatisierter Zuordnung und zum Adobe Target-Stichprobengrößenrechner, mit dem Sie sicherstellen können, dass Ihre Aktivität über eine ausreichende Anzahl von Besuchern verfügt, um Ihre Ziele zu erreichen.
 title: Wie lange sollten A/B-Tests laufen?
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3102'
-ht-degree: 75%
+source-wordcount: '3105'
+ht-degree: 74%
 
 ---
 
