@@ -1,20 +1,20 @@
 ---
 keywords: multiple audiences;experience versions;target experience versions
-description: Sie können in A/B-Aktivitäten verschiedene Versionen des gleichen Erlebnisses für unterschiedliche Zielgruppen zur Verfügung stellen. Im Visual Experience Composer oder dem Form-Based Experience Composer können mehrere Zielgruppen für ein Erlebnis eingerichtet werden.
+description: Sie können Versionen des gleichen Erlebnisses in verschiedenen Audiencen in Adobe Target A/B-Aktivitäten Zielgruppe haben. Im Visual Experience Composer oder dem Form-Based Experience Composer können mehrere Zielgruppen für ein Erlebnis eingerichtet werden.
 title: Verschiedene Erlebnisversionen in A/B-Tests
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 94%
 
 ---
 
 
-# Verschiedene Erlebniszielgruppen in A/B-Tests{#multiple-experience-versions-in-an-a-b-test}
+# Verschiedene Erlebniszielgruppen in A/B-Tests
 
-Sie können in A/B-Aktivitäten verschiedene Versionen des gleichen Erlebnisses für unterschiedliche Zielgruppen zur Verfügung stellen. Im Visual Experience Composer oder dem Form-Based Experience Composer können mehrere Zielgruppen für ein Erlebnis eingerichtet werden.
+Sie können Versionen des gleichen Erlebnisses für verschiedene Audiencen in [!DNL Adobe Target]-A/B-Aktivitäten Zielgruppen erstellen. Im Visual Experience Composer oder dem Form-Based Experience Composer können mehrere Zielgruppen für ein Erlebnis eingerichtet werden.
 
 Benutzer können zwischen Erlebniszielgruppen wechseln, wenn sich ihr Profil entwickelt. Sie werden nicht zwangsläufig für die gesamte Dauer der Aktivität dem gleichen Erlebnis zugeordnet.
 
@@ -24,7 +24,7 @@ Ohne die Möglichkeit zur Einrichtung von Erlebnisversionen müssten Sie (in die
 
 Erstellen Sie verschiedene Versionen eines Erlebnisses, erhalten Sie genauere Daten, ohne dazu auf manuelle Berechnungen und Annahmen zurückgreifen zu müssen.
 
-**Szenario**
+## Szenario
 
 Sie prüfen zwei Erlebnisse, ein Banner mit Geotargeting und ein allgemeines Banner. Das erste Banner muss an die geografischen Regionen angepasst werden, allgemein soll jedoch getestet werden, ob sich Geotargeting besser eignet als allgemeine Inhalte. Würden Sie für jede Region ein eigenes Erlebnis einrichten, würden Sie messen, wie leistungsstark die einzelnen Regionen im Vergleich zu den anderen sind, nicht jedoch, ob sich Geotargeting im Vergleich zu allgemeinen Bannern lohnt.
 
@@ -48,7 +48,7 @@ In diesem Fall müssen Sie regionsspezifische Versionen des Erlebnisses erstelle
 
 1. Fahren Sie mit der Einrichtung der Aktivität fort.
 
-**Best Practices**
+## Best Practices  
 
 * Wählen Sie Zielgruppen aus, die sich gegenseitig ausschließen. Wurde die Aktivität im VEC erstellt und erfüllt ein Besucher die Kriterien von mehr als einer Zielgruppe, wird Inhalt für jede der passenden Zielgruppen zurückgegeben, wobei der Inhalt der zuletzt aufgeführten Zielgruppe tatsächlich auf der Seite dargestellt wird.
 * Die in der Darstellung festgelegten Aktivitätseintrag-Zielgruppen werden mit den Erlebniszielgruppen mit dem Operator „AND“ kombiniert. Möchte ein Benutzer die Aktivität aufrufen, muss er die Kriterien einer Aktivitätszielgruppe und einer Erlebniszielgruppe erfüllen.
