@@ -1,18 +1,18 @@
 ---
 keywords: api;adobe i/o
-description: Informationen für einen leichteren Übergang von den Target-Vorgänger-APIs zu den neuen APIs in Adobe I/O.
+description: Informationen, die Sie bei der Verwendung der Transition von den Adobe Target-alten APIs zu den neuen APIs auf Adobe I/O unterstützen.
 title: Übergang von Target-Legacy-APIs zu Adobe I/O
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 93%
+source-wordcount: '600'
+ht-degree: 90%
 
 ---
 
 
-# Übergang von Target-Legacy-APIs zu Adobe I/O{#transition-from-target-legacy-apis-to-adobe-i-o}
+# Übergang von Target-Legacy-APIs zu Adobe I/O
 
 Informationen für einen leichteren Übergang von den Target-Vorgänger-APIs zu den neuen APIs in Adobe I/O.
 
