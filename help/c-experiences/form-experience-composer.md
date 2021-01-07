@@ -1,20 +1,20 @@
 ---
 keywords: form-based experience composer;form-based composer;refinements
-description: Mit dem formularbasierten Experience Composer können Erlebnisse nicht visuell erstellt werden.
+description: Der formularbasierte Experience Composer von Adobe Target ermöglicht die Erstellung nicht visueller Erlebnisse.
 title: Form-Based Experience Composer
-feature: form-based composer
+feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 79%
+source-wordcount: '746'
+ht-degree: 72%
 
 ---
 
 
 # Form-Based Experience Composer{#form-based-experience-composer}
 
-Der formularbasierte Experience Composer ist eine Benutzeroberfläche, die die Erstellung nicht visueller Erlebnisse und Angebote ermöglicht. Diese Erlebnisse können in A/B-Tests, im Erlebnis-Targeting, in der automatisierten Personalisierung und in Recommendations-Aktivitäten genutzt werden, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. So können Sie den formularbasierten Composer beispielsweise verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachassistenten zu erstellen.
+Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Erlebnis- und Angebot-Erstellungsoberfläche, die bei der Erstellung von Erlebnissen für die Verwendung in A/B-Tests, Erlebnis-Targeting-, Automated Personalization- und Recommendations-Aktivitäten nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder nicht einsatzbereit ist. So können Sie den formularbasierten Composer beispielsweise verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachassistenten zu erstellen.
 
 Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. Wählen Sie Ihre Kriterien und Ihren Entwurf aus. Wenn Sie mehrere Kriterien oder Entwürfe auswählen, generiert Target automatisch die Erlebnisse.
 
