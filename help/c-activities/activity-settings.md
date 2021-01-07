@@ -1,20 +1,20 @@
 ---
-keywords: Goal &Settings;objective;priority;duration
-description: Verwenden Sie zum Verwalten des Ziels, der Priorität und der Dauer Ihrer Aktivitäten die „Aktivitätseinstellungen“.
+keywords: Goal & Settings;objective;priority;duration
+description: Verwenden Sie die Einstellungen für die Aktivität in Adobe Target, um das Ziel, die Priorität und die Dauer Ihrer Aktivitäten zu verwalten.
 title: Aktivitätseinstellungen
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 90%
+source-wordcount: '404'
+ht-degree: 83%
 
 ---
 
 
-# Aktivitätseinstellungen{#activity-settings}
+# Aktivitätseinstellungen
 
-Verwenden Sie zum Verwalten des Ziels, der Priorität und der Dauer Ihrer Aktivitäten die „Aktivitätseinstellungen“.
+Verwenden Sie [!UICONTROL Aktivitäten-Einstellungen] in [!DNL Adobe Target], um das Ziel, die Priorität und die Dauer Ihrer Aktivitäten zu verwalten.
 
 1. Geben Sie Hinweise zum Ziel der Aktivität ein.
 
