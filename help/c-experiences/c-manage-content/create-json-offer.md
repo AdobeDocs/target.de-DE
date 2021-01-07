@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;create remote offer
-description: Erstellen Sie JSON-Angebote in der Angebotsbibliothek für die Verwendung im formularbasierten Experience Composer.
+description: Erstellen Sie JSON-Angebot in der Angebot-Bibliothek in Adobe Target zur Verwendung im Form-Based Experience Composer.
 title: Erstellen von JSON-Angeboten
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '386'
+ht-degree: 91%
 
 ---
 
 
 # Erstellen von JSON-Angeboten{#create-json-offers}
 
-Erstellen Sie JSON-Angebote in der Angebotsbibliothek für die Verwendung im formularbasierten Experience Composer.
+Erstellen Sie JSON-Angebot in der [!UICONTROL Angebot-Bibliothek] in [!DNL Adobe Target] zur Verwendung im [!UICONTROL Form-Based Experience Composer].
 
 JSON-Angebote können in formularbasierten Aktivitäten verwendet werden, wodurch Anwendungsfälle ermöglicht werden, bei denen die Entscheidung von Target erforderlich ist, ein Angebot im JSON-Format zur Nutzung in SPA-Frameworks oder Server-seitigen Integrationen zu senden.
 
