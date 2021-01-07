@@ -2,19 +2,19 @@
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
 description: Mit Aktivitäten in Adobe Target können Sie Inhalte an bestimmte Audiencen anpassen und Seitenentwürfe testen.
 title: Mit Aktivitäten in Adobe Target können Sie Inhalte an bestimmte Audiencen anpassen und Seitenentwürfe testen.
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2092'
+source-wordcount: '2090'
 ht-degree: 97%
 
 ---
 
 
-# Aktivitäten{#activities}
+# Aktivitäten
 
-Mit Aktivitäten in Adobe Target können Sie Inhalte an bestimmte Audiencen anpassen und Seitenentwürfe testen.
+Mit den Aktivitäten in [!DNL Adobe Target] können Sie Inhalte an bestimmte Audiencen anpassen und Seitenentwürfe testen.
 
 Sie können z. B. eine Aktivität entwerfen, die zwei verschiedene Landingpages testet: eine, die Informationen zu Sommerschuhen für Damen hervorhebt, und eine andere Landingpage, die allgemein Sommerbekleidung bewirbt. Durch die Aktivität werden die Bedingungen festgelegt, die steuern, wann diese beiden Landingpages angezeigt werden, sowie die Metriken, die bestimmen, welche Seite erfolgreicher ist. Die Aktivität wird so konfiguriert, dass sie bei Zutreffen bestimmter Bedingungen beginnt und endet (z. B. zwischen bestimmten Terminen) oder dass sie beginnt, wenn die Aktivität genehmigt wird, und endet, wenn sie deaktiviert wird.
 
