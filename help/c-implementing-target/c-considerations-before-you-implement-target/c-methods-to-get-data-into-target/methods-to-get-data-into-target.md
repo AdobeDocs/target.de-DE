@@ -1,20 +1,20 @@
 ---
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
-description: Informationen über die verschiedenen Verfahren, die Sie verwenden können, um Daten in Target zu übertragen, einschließlich der Seitenparameter, der Profilattribute innerhalb der Seite, der Skriptprofilattribute, der Datenanbieter, der Bulk-Profilupdate-API, der Single-Profilupdate-API und der Kundenattribute.
+description: Informationen zu den verschiedenen Methoden, mit denen Sie Daten in Adobe Target abrufen können, einschließlich Seitenparametern, In-Page-Profil-Attributen, Skript-Profil-Attributen, Datenanbietern, der Massen-Profil-Update-API, der API für die Aktualisierung einzelner Profil und Kundenattribute.
 title: Verfahren für die Datenübernahme in Target
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1936'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
 
-# Verfahren für die Datenübernahme in Target{#methods-to-get-data-into-target}
+# Verfahren für die Datenübernahme in Target
 
-Informationen über die verschiedenen Verfahren, die Sie verwenden können, um Daten in Target zu übertragen, einschließlich der Seitenparameter, der Profilattribute innerhalb der Seite, der Skriptprofilattribute, der Datenanbieter, der Bulk-Profilupdate-API, der Single-Profilupdate-API und der Kundenattribute.
+Informationen zu den verschiedenen Methoden, mit denen Sie Daten in [!DNL Adobe Target] abrufen können, einschließlich Seitenparameter, In-Page-Profil-Attribute, Skript-Profil-Attribute, Datenanbieter, Massen-Profil-Update-API, Profil-Update-API und Kundenattribute.
 
 ## Seitenparameter (auch „mbox-Parameter“ genannt){#section_5A297816173C4FE48DC4FE03860CB42B}
 
