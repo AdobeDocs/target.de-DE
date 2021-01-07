@@ -1,19 +1,20 @@
 ---
-description: Verwenden Sie diese Option, wenn Sie den Besucher auf eine andere Seite umleiten möchten, statt Inhalte auf derselben Seite anzuzeigen.
+kewords: redirect;redirect url;send to different page
+description: Verwenden Sie die Option "Zu URL umleiten"in Adobe Target, wenn Sie den Besucher auf eine andere Seite anstatt auf derselben Seite anzeigen möchten.
 title: Zu einer URL umleiten
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 87%
 
 ---
 
 
-# Zu einer URL umleiten{#redirect-to-a-url}
+# Zu einer URL umleiten
 
-Verwenden Sie diese Option, wenn Sie den Besucher auf eine andere Seite umleiten möchten, statt Inhalte auf derselben Seite anzuzeigen.
+Verwenden Sie die Option [!UICONTROL Zu URL] umleiten in [!DNL Adobe Target], wenn Sie den Besucher zu einer anderen Seite senden möchten, anstatt Inhalte auf derselben Seite anzuzeigen.
 
 Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, anstatt lediglich Inhaltselemente innerhalb einer Seite zu ändern. In diesem Fall vergleicht Ihr A/B-Test Seite A mit Seite B. Richten Sie eine A/B-Testkampagne mit zwei Erlebnissen ein: eines, das auf die Standardseite A verweist, und ein anderes, das auf die Seite B weiterleitet. Wählen Sie in der Registerkarte „Erlebnisaktion“, die Sie durch Klicken auf die Buchstabenbezeichnung für das Erlebnis finden, die Option **[!UICONTROL Zu URL umleiten]** aus und geben Sie die URL von Seite B an. Das Angebot wird so konfiguriert, dass der Besucher auf eine andere Seite umgeleitet wird.
 
