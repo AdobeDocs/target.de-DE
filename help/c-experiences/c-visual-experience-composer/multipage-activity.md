@@ -1,20 +1,20 @@
 ---
 keywords: multi-page;journey testing;multipage activity
-description: Mit einer mehrseitigen Aktivität können Sie eine Story über mehrere Seiten erstellen, mit einem für die einzelnen Seiten spezifischen Design.
+description: Mit einer mehrseitigen Aktivität in Adobe Target können Sie eine Story über mehrere Seiten erstellen, wobei ein für jede Seite spezifisches Design vorliegt.
 title: Mehrseitige Aktivität
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 87%
 
 ---
 
 
-# Mehrseitige Aktivität{#multipage-activity}
+# Mehrseitige Aktivität
 
-Mit einer mehrseitigen Aktivität können Sie eine Story über mehrere Seiten erstellen, mit einem für die einzelnen Seiten spezifischen Design.
+Mit einer mehrseitigen Aktivität in [!DNL Adobe Target] können Sie einen Story über mehrere Seiten erstellen, mit einem für jede Seite spezifischen Design.
 
 Sie möchten beispielsweise vielleicht ein Angebot für kostenlosen Versand bei Einkäufen über einem bestimmten Betrag testen. Dieses Angebot soll dann auf Ihrer Landingpage, einer Kategorieseite und bestimmten Produktseiten erscheinen, doch sie möchten es auf den verschiedenen Seitentypen in unterschiedlichen Größen und an unterschiedlichen Stellen haben. Sie könnten das Angebot auf Ihrer Startseite hervorheben und es mit kleineren Angeboten auf anderen relevanten Seiten verstärken.
 
