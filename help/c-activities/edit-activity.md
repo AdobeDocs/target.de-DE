@@ -1,20 +1,20 @@
 ---
 keywords: activities;activity;activity types;edit activity;edit;draft
-description: Informationen zu den verschiedenen Methoden zum Bearbeiten einer vorhandenen Aktivität, einschließlich des Speicherns einer Aktivität in Entwurfsform.
+description: Informationen zu den verschiedenen Möglichkeiten zum Bearbeiten einer bestehenden Aktivität in Adobe Target, einschließlich des Speicherns einer Aktivität im Entwurfsformular.
 title: Bearbeiten einer Aktivität oder Speichern als Entwurf
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 100%
+source-wordcount: '1115'
+ht-degree: 96%
 
 ---
 
 
-# Bearbeiten einer Aktivität oder Speichern als Entwurf{#edit-an-activity-or-save-as-draft}
+# Bearbeiten einer Aktivität oder Speichern als Entwurf
 
-Informationen zu den verschiedenen Methoden zum Bearbeiten einer vorhandenen Aktivität, einschließlich des Speicherns einer Aktivität in Entwurfsform.
+Informationen zu den verschiedenen Möglichkeiten zum Bearbeiten einer vorhandenen Aktivität in [!DNL Adobe Target], einschließlich des Speicherns einer Aktivität im Entwurfsformular.
 
 Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichkeit, vorhandene Aktivitäten zu bearbeiten. Der Vorgang variiert je nach gewählter Methode.
 
