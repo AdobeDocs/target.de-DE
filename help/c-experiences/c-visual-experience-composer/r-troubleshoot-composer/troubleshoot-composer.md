@@ -2,21 +2,21 @@
 keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: Im Visual Experience Composer (VEC) und Enhanced Experience Composer (EEC) treten unter bestimmten Umständen mitunter Anzeigeprobleme auf.
 title: Problembehandlung für Visual Experience Composer und Enhanced Experience Composer
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
 
-# Problembehandlung für Visual Experience Composer und Enhanced Experience Composer{#troubleshooting-the-visual-experience-composer-and-enhanced-experience-composer}
+# Problembehandlung für Visual Experience Composer und Enhanced Experience Composer
 
-Im Visual Experience Composer (VEC) und Enhanced Experience Composer (EEC) treten unter bestimmten Umständen mitunter Anzeigeprobleme auf.
+Anzeigeprobleme treten manchmal unter bestimmten Bedingungen im [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) und im [!UICONTROL Enhanced Experience Composer] (EEC) auf.
 
-Der VEC ist eine der Hauptkomponenten von Adobe Target. Beim VEC handelt es sich um einen Editor, der es Marketingexperten und Gestaltern ermöglicht, Inhalte über eine visuelle Benutzeroberfläche zu erstellen und zu ändern. Viele Entwurfsentscheidungen können getroffen werden, ohne den Code direkt bearbeiten zu müssen. Die Bearbeitung von HTML und JavaScript ist über die Bearbeitungsoptionen, die im Composer verfügbar sind, ebenfalls möglich.
+Der VEC ist eine der Hauptkomponenten von [!DNL Adobe Target]. Beim VEC handelt es sich um einen Editor, der es Marketingexperten und Gestaltern ermöglicht, Inhalte über eine visuelle Benutzeroberfläche zu erstellen und zu ändern. Viele Entwurfsentscheidungen können getroffen werden, ohne den Code direkt bearbeiten zu müssen. Die Bearbeitung von HTML und JavaScript ist über die Bearbeitungsoptionen, die im Composer verfügbar sind, ebenfalls möglich.
 
 Der EEC stellt eine Erweiterung des VEC dar, der Sie beim Bearbeiten eines Erlebnisses für eine iFrame-Busting-Website oder Seiten, die noch nicht über eine Target-Implementierung verfügen, unterstützt. Wenn Sie Probleme mit dem Öffnen Ihrer Seite im VEC haben, versuchen Sie es mit dem EEC.
 
