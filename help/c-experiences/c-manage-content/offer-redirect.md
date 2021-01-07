@@ -2,19 +2,19 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: Informationen über Umleitungsangebote in Adobe Target, die bewirken, dass ein Browser zu einer neuen Seite weiterleitet.
 title: Erstellen von Umleitungsangeboten
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 98%
+source-wordcount: '562'
+ht-degree: 95%
 
 ---
 
 
-# Erstellen von Umleitungsangeboten{#create-redirect-offers}
+# Erstellen von Umleitungsangeboten
 
-Bei Umleitungsangeboten wird der Browser zu einer neuen Seite umgeleitet.
+Angebot in Adobe Target umleiten führt dazu, dass ein Browser zu einer neuen Seite umgeleitet wird.
 
 Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, anstatt lediglich Inhaltselemente innerhalb einer Seite zu ändern. In diesem Fall vergleicht Ihr A/B-Test Seite A mit Seite B. Richten Sie eine A/B-Test-Kampagne mit zwei Erlebnissen ein: einem, das auf die Standardseite A verweist, und einem anderen, das auf die Seite B umleitet. Das Angebot wird so konfiguriert, dass der Besucher auf eine andere Seite umgeleitet wird.
 
