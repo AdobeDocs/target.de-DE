@@ -4,7 +4,7 @@ description: Diese Versionshinweise enthalten Informationen zu Funktionen, Verbe
 title: 'Adobe Target-Versionshinweise (aktuell) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 26%
@@ -34,8 +34,8 @@ Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
 Diese Version von at.js ist ein Maintenance Release und umfasst die folgenden Fehlerbehebungen:
 
-* Unterstützt Versand-API-KundenIDs mit einheitlicher Profil-/Plattform-ID
-* Fehlerhafte Tag-Injektion
+* Unterstützt Versand-API-KundenIDs mit Unified Profil/Platform ID.
+* Fehlerhafte Tag-Injektion im Stil wurde behoben.
 
 ## Target Standard/Premium 20.10.1 (27. Oktober 2020)
 
