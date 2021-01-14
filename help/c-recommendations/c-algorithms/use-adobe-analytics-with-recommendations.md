@@ -2,9 +2,9 @@
 keywords: behavioral data source;analytics;recommendations;criteria;product variables
 description: Durch die Verwendung von Adobe Analytics als verhaltensbasierte Datenquelle können Kunden die Ansichten- und/oder kaufbasierten Verhaltensdaten von Analytics in Adobe Recommendations verwenden.
 title: Verwenden von Adobe Analytics mit Zielgruppe Recommendations
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 2%
@@ -18,7 +18,7 @@ Durch Verwendung von [!DNL Adobe Analytics] als verhaltensbasierte Datenquelle k
 
 Die Verwendung von [!DNL Analytics] als verhaltensbasierte Datenquelle kann als umfassende Informationsquelle zum Benutzerverhalten dienen. Dies kann Daten aus einer Drittanbieter-Quelle oder einem Drittanbieter-Feed beinhalten, die/der nur für [!DNL Analytics] freigegeben wird.
 
-Beim Erstellen von Kriterien[ in Recommendations gibt es zwei Optionsfelder, mit denen Sie auswählen können, welche Datenquelle verwendet werden soll: ](/help/c-recommendations/c-algorithms/create-new-algorithm.md)mboxes[!UICONTROL  oder ]Analytics[!UICONTROL .]
+Beim Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md) in Recommendations gibt es zwei Optionsfelder, mit denen Sie auswählen können, welche Datenquelle verwendet werden soll: [!UICONTROL mboxes] oder [!UICONTROL Analytics].[
 
 ![Schaltflächen für die verhaltensbasierte Datenquelle](/help/c-recommendations/c-algorithms/assets/behavioral-data-source.png)
 
