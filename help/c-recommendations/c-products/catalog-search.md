@@ -2,9 +2,9 @@
 keywords: catalog;search
 description: Die Katalogsuche in Adobe Target hilft Ihnen dabei, Produkte oder Inhalte in Ihrem Katalog zu finden.
 title: Katalogsuche in Adobe Target
-feature: catalog
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 20%
@@ -61,7 +61,7 @@ Sie können eine einfache oder eine erweiterte Suche verwenden, um Elemente in I
    >
    >Wenn Sie eine Katalogsuche für ein benutzerdefiniertes Attribut mit einem numerischen Wert durchführen, wird das benutzerdefinierte Attribut als String-Typ und nicht als numerischer Wert betrachtet.
    >
-   >Derzeit gibt es keine Funktion, mit der Kunden den Attributtyp ändern können. Um eine Änderung vorzunehmen, öffnen Sie ein Kundenproblem[, das auf die Attribute verweist, bei denen der Typ von der Zeichenfolge in numerisch geändert werden muss.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+   >Derzeit gibt es keine Funktion, mit der Kunden den Attributtyp ändern können. Um eine Änderung vorzunehmen, öffnen Sie ein Kundenproblem](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C), das auf die Attribute verweist, bei denen der Typ von der Zeichenfolge in numerisch geändert werden muss.[
 
 1. Sie können auch Filter verwenden, um das gewünschte Produkt zu finden. Im folgenden Beispiel werden alle Fahrradwerkzeuge in Ihrem Katalog angezeigt, indem Sie die Facette [!UICONTROL Kollektionen] erweitern und &quot;Fahrradwerkzeuge&quot;auswählen.
 
@@ -153,7 +153,7 @@ Sie können der Seite [!UICONTROL Katalogsuche] weitere Filterfacetten hinzufüg
 
    ![Link &quot;Filter ändern&quot;](/help/c-recommendations/c-products/assets/modify-filters.png)
 
-1. Wählen Sie die gewünschten Suchfelder aus (ID, Name, Nachricht usw.).
+1. Wählen Sie die gewünschten Suchfacetten aus (ID, Name, Nachricht usw.).
 
    ![Filter hinzufügen](/help/c-recommendations/c-products/assets/add-filters.png)
 
