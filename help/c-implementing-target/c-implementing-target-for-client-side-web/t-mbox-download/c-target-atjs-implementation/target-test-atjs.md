@@ -1,17 +1,18 @@
 ---
+keywords: at.js;non-production;non production;deploy
 description: Informationen zur sicheren Bereitstellung von „at.js“ in einer Nicht-Produktionsumgebung.
-title: Bereitstellung von „at.js“ in einer Nicht-Produktionsumgebung
-feature: null
+title: '"at.js"in einer Nicht-Produktions-Umgebung bereitstellen'
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 92%
+source-wordcount: '369'
+ht-degree: 90%
 
 ---
 
 
-# &quot;at.js&quot;in einer Nicht-Produktions-Umgebung bereitstellen{#deploy-at-js-to-a-non-production-environment}
+# &quot;at.js&quot;in einer Nicht-Produktions-Umgebung bereitstellen
 
 Informationen zur sicheren Bereitstellung von „at.js“ in einer Nicht-Produktionsumgebung.
 
