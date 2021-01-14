@@ -2,9 +2,9 @@
 keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: Liste der häufig gestellten Fragen zur Berichterstellung in Adobe Target
 title: Häufig gestellte Fragen zur Berichterstellung in Adobe Target
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 31%
@@ -98,7 +98,7 @@ Weitere Informationen zu Umgebungen finden Sie unter [Hosts](/help/administratin
 
 So setzte ich die Traffic-Aufteilung auf 50/50 oder 25/25/25/25 ein, sehe aber eine sehr unterschiedliche Verteilung der Erlebnisse im Berichte. Es gibt einige erklärbare Gründe für die ungleichmäßige Anzahl von Besuchern im Berichte [!DNL Target]:
 
-* Wenn eine [!DNL Target]-Aktivität zum ersten Mal gestartet wird, kann die Traffic-Verteilung aufgrund der Edge-Knotenarchitektur, die [!DNL Target] zur Optimierung des Experience Versand verwendet, ungleich sein. Die beste Vorgehensweise ist, einer Aktivität Zeit zur Erhebung zusätzlicher Daten einzuräumen, und die Verteilung normalisiert sich. Weitere Informationen zur Architektur und zu Edge-Knoten finden Sie unter [!DNL Adobe Target]Funktionsweise von Adobe Target[.](/help/c-intro/how-target-works.md)
+* Wenn eine [!DNL Target]-Aktivität zum ersten Mal gestartet wird, kann die Traffic-Verteilung aufgrund der Edge-Knotenarchitektur, die [!DNL Target] zur Optimierung des Experience Versand verwendet, ungleich sein. Die beste Vorgehensweise ist, einer Aktivität Zeit zur Erhebung zusätzlicher Daten einzuräumen, und die Verteilung normalisiert sich. Weitere Informationen zur Architektur und zu Edge-Knoten finden Sie unter [Funktionsweise von Adobe Target](/help/c-intro/how-target-works.md).[!DNL Adobe Target]
 * Wenn Sie sich in [!DNL Target] oder [!DNL Analytics] befinden und die Metrik **[!UICONTROL Besuche]** verwenden, denken Sie daran, dass [!DNL Target] ein Besucher-basiertes System ist und die Traffic-Verteilung für einen A/B- oder MVT-Test auf der Ebene des Besuchers zugewiesen wird. Wenn Sie also die Ergebnisse der Aktivität mit der Metrik **[!UICONTROL Besuche]** untersuchen, kann die Traffic-Verteilung ungleich erscheinen, da bestimmte Besucher möglicherweise mehrere Besuche haben. Besucher ist die standardmäßige Normalisierungsmetrik bei der Bewertung der Aktivität.
 * Die beste Methode für A/B- und MVT-Tests besteht darin, Traffic-Aufteilungen gleichmäßig zu halten. Die Änderung der Traffic-Verteilung zwischen Erlebnissen (z. B. 90/10 bis 50/50) während eines Tests kann zu uneinheitlichen Besuchern über Erlebnisse hinweg führen. Das geringere Traffic-Erlebnis wird möglicherweise nie &quot;aufholen&quot;.
 * Wenn Sie die oben genannten Best Practices befolgen und sich die Traffic-Aufteilung im Laufe der Zeit nicht normalisiert, sollten Sie Folgendes überprüfen:
