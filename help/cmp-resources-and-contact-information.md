@@ -2,9 +2,9 @@
 keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
 description: Informationen zu zusätzlichen Ressourcen, mit denen Sie mehr über die Target-Funktionen lernen und erfahren, wie Sie sich an Adobe wenden können, wenn Sie Unterstützung für Target benötigen.
 title: Ressourcen und Kontaktinformationen
-feature: reference general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
