@@ -2,9 +2,9 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
 description: Liste häufig gestellter Fragen zu Adobe Target Recommendations-Aktivitäten.
 title: Häufig gestellte Fragen zu Adobe Target Recommendations
-feature: recommendations general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -20,7 +20,7 @@ Liste häufig gestellter Fragen zu Adobe Target Recommendations-Aktivitäten.
 
 Wenn Sie eine Katalogsuche für ein benutzerdefiniertes Attribut mit einem numerischen Wert durchführen, wird das benutzerdefinierte Attribut als String-Typ und nicht als numerischer Wert betrachtet.
 
-Derzeit gibt es keine Funktion, mit der Kunden den Attributtyp ändern können. Um eine Änderung vorzunehmen, öffnen Sie ein Kundenproblem[, das auf die Attribute verweist, bei denen der Typ von der Zeichenfolge in numerisch geändert werden muss.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+Derzeit gibt es keine Funktion, mit der Kunden den Attributtyp ändern können. Um eine Änderung vorzunehmen, öffnen Sie ein Kundenproblem](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C), das auf die Attribute verweist, bei denen der Typ von der Zeichenfolge in numerisch geändert werden muss.[
 
 ## Wie lange dauert es, bis Aktualisierungen an Elementen in meinem Katalog auf meiner Site erscheinen?
 
