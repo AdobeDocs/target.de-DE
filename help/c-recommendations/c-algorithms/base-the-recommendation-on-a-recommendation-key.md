@@ -2,10 +2,10 @@
 keywords: recommendation key;recommendation logic;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
 description: Recommendations verwendet auf der Grundlage von Schlüsseln den Verhaltenskontext des Besuchers, um relevante Ergebnisse in Adobe Target Recommendations-Aktivitäten anzuzeigen.
 title: Stützen der Empfehlung auf einen Empfehlungsschlüssel
-feature: criteria
+feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '2889'
 ht-degree: 69%
@@ -82,7 +82,7 @@ Wenn Sie Empfehlungen auf Grundlage von benutzerspezifischen Attributen erstelle
 
 Zusätzlich zur Ausgabe Ihrer eigenen benutzerspezifischen Kriterien können Sie in Echtzeit filtern. So können Sie beispielsweise Ihre empfohlenen Elemente so begrenzen, dass nur die Favoritenkategorie oder -marke eines Besuchers angezeigt wird. Dadurch können Sie Offline-Berechnungen mit der Echtzeitfilterung kombinieren.
 
-Diese Funktion bedeutet, dass Sie [!DNL Target] verwenden können, um Ihre offline berechneten Empfehlungen oder benutzerspezifisch kuratierten Listen durch Personalisierung zu ergänzen. Dadurch lässt sich die Leistung Ihrer Datenwissenschaftler und Ihrer Datenrecherche mit der bewährten Bereitstellung, der Laufzeitfilterung, den A/B-Tests, dem Targeting, der Berichterstellung, den Integrationen und mehr von Adobe kombinieren.
+Diese Funktion bedeutet, dass Sie mit [!DNL Target] Personalisierung zusätzlich zu Ihren offline berechneten Empfehlungen oder benutzerspezifischen Listen hinzufügen können. Dadurch lässt sich die Leistung Ihrer Datenwissenschaftler und Ihrer Datenrecherche mit der bewährten Bereitstellung, der Laufzeitfilterung, den A/B-Tests, dem Targeting, der Berichterstellung, den Integrationen und mehr von Adobe kombinieren.
 
 Wenn benutzerdefinierten Kriterien Einschlussregeln hinzugefügt werden, wandelt dies auf der Grundlage eines Besuchers andernfalls statische Empfehlungen in dynamische Empfehlungen um.
 
