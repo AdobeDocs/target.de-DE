@@ -4,10 +4,10 @@ description: Versionshinweise, die Informationen zu Funktionen, Verbesserungen u
 title: Versionshinweise zu Adobe Target
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
+source-git-commit: 83612ef2fa8d76f9318b0b9637203fefd82215ee
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 19%
+source-wordcount: '671'
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 19%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 12. Januar 2021**
+**Letzte Aktualisierung: 14. Januar 2021**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -49,7 +49,6 @@ Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 * Es wurde ein Fehler behoben, der verhinderte, dass Benutzer eine Audience aus einem Angebot in einer [!UICONTROL Automated Personalization]-Aktivität (AP) entfernen konnten. (TGT-39058)
 * Es wurde ein Fehler behoben, der dazu führte, dass der falsche Zeitraum (Beginns- und Enddaten) für einige Kunden in den Karten [!UICONTROL Audience Info] angezeigt wurde. (TGT-39150)
 * Es wurde ein Fehler behoben, der dazu führte, dass einige Kunden die Liste der Aktivitäten im [!UICONTROL Standardarbeitsbereich] nicht sehen konnten. (TGT-38526)
-* Die Größenbeschränkungen für Angebot in der Benutzeroberfläche und der API wurden auf 1 MB erhöht. [!DNL Target] (TGT-38304)
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
