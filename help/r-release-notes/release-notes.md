@@ -4,9 +4,9 @@ description: Diese Versionshinweise enthalten Informationen zu Funktionen, Verbe
 title: 'Adobe Target-Versionshinweise (aktuell) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '963'
 ht-degree: 26%
 
 ---
@@ -30,11 +30,12 @@ Obwohl &quot;mbox.js&quot;derzeit unterstützt wird (bis 31. März 2021), haben 
 
 Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## at.js 2.3.3 (13. November 2020)
+## at.js 2.4.0 (14. Januar 2021)
 
-Diese Version von at.js ist ein Maintenance Release und beinhaltet die folgende Fehlerbehebung:
+Diese Version von at.js ist ein Maintenance Release und umfasst die folgenden Fehlerbehebungen:
 
-* Es wurde ein Problem mit der mbox-Klick-Tracking und A4T behoben.
+* Unterstützt Versand-API-KundenIDs mit einheitlicher Profil-/Plattform-ID
+* Fehlerhafte Tag-Injektion
 
 ## Target Standard/Premium 20.10.1 (27. Oktober 2020)
 
