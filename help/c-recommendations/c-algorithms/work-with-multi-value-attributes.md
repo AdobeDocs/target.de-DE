@@ -2,9 +2,9 @@
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: Informationen zum Arbeiten mit einem Multi-Value-Feld in Adobe Target Recommendations unter Verwendung spezieller Multi-Value-Operatoren.
 title: Arbeiten mit Attributen mit mehreren Werten in Adobe Target Recommendations
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: af7e7d1fa0e1d56f86d63187a10b3b8f31ca62c8
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -41,7 +41,7 @@ function targetPageParams() {
 }
 ```
 
-Weitere Informationen finden Sie unter Implementieren von Attributen mit mehreren Werten[ in ](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)Benutzerdefinierte Entitätsattribute *.*
+Weitere Informationen finden Sie unter Implementieren von Attributen mit mehreren Werten](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Benutzerdefinierte Entitätsattribute*.[
 
 ## Übergeben eines Entitätsattributs mit mehreren Werten in einer CSV-Datei
 
