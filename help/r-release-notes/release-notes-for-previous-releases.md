@@ -2,9 +2,9 @@
 keywords: Release notes
 description: 'Versionshinweise zu früheren Adobe Target-Versionen, einschließlich Versionshinweise zu Target Standard/Premium, der Zielgruppe-Plattform und der JavaScript-Zielgruppe (at.js). Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr des Release.'
 title: Versionshinweise für vorherige Versionen
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '29817'
 ht-degree: 86%
