@@ -4,7 +4,7 @@ description: Details zu den Änderungen in den einzelnen Versionen von Adobe Tar
 title: „at.js“-Versionsdetails
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '4034'
 ht-degree: 84%
@@ -26,8 +26,8 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 
 Diese Version von at.js ist ein Maintenance Release und umfasst die folgenden Fehlerbehebungen:
 
-* Unterstützt Versand-API-KundenIDs mit einheitlicher Profil-/Plattform-ID
-* Fehlerhafte Tag-Injektion
+* Unterstützt Versand-API-KundenIDs mit Unified Profil/Platform ID.
+* Fehlerhafte Tag-Injektion im Stil wurde behoben.
 
 ## at.js 2.3.3 (13. November 2020)
 
