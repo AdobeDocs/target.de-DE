@@ -2,9 +2,9 @@
 keywords: global mbox;implement mbox.js;implement at.js
 description: Informationen zur globalen Mbox, einem Namen, der auf den Einzelserveraufruf verweist, der oben auf jeder Webseite in Ihrer Adobe Target-Implementierung erfolgt.
 title: Erläuterung der globalen Mbox
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 86%
@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# Erläuterung der globalen Mbox{#understand-the-global-mbox}
+# Erläuterung der globalen Mbox
 
 Informationen über die globale mbox, eine Bezeichnung für einen einzelnen Server-Aufruf, der oben auf jeder Webseite der [!DNL Adobe Target]-Implementierung durchgeführt wird.
 
