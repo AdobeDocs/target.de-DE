@@ -2,9 +2,9 @@
 keywords: reports;auto-target;auto target;AT;report
 description: Informationen zur Interpretation des Zusammenfassungsberichts für die automatische Zielgruppe in Adobe Target.
 title: AT (Automatisches Targeting)-Zusammenfassungsbericht
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 57%
@@ -62,7 +62,7 @@ Die folgende Abbildung zeigt, wie ein typischer Zusammenfassungsbericht in der [
 
 ![Bericht zur Ansicht von Diagrammen mit automatischer Zielgruppe](/help/c-reports/assets/at-graph-view.png)
 
-Wie unten gezeigt, können Sie die beiden Dropdown-Listen verwenden, um die gewünschten Metriken, Zählmethodiken und mehr auszuwählen. Weitere Informationen finden Sie unter [Übersicht über Berichtseinstellungen](/help/c-reports/c-report-settings/report-settings.md).
+Wie unten gezeigt, können Sie die beiden Dropdown-Listen verwenden, um die gewünschten Metriken, Zählmethodiken und mehr auszuwählen. Weitere Informationen finden Sie unter [Übersicht über die Berichtseinstellungen](/help/c-reports/c-report-settings/report-settings.md).
 
 ![Bericht zur Ansicht von Diagrammen mit automatischer Zielgruppe](/help/c-reports/assets/at-graph-view-2.png)
 
