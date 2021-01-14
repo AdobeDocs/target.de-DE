@@ -2,9 +2,9 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: Für Benutzer von Automatisierte Personalisierung (AP) und von Automatisches Targeting (AT) sind zwei spezialisierte Berichte verfügbar, die die Berichte für automatisierte Segmente und wichtige Attribute enthalten.
 title: Berichte zu Personalization Insights
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 68%
@@ -69,7 +69,7 @@ Es gibt zwei Arten von Attributen in [!UICONTROL Personalization Insights]-Beric
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-Weitere Informationen finden Sie unter Verwenden der Personalisierungseinblicke-Berichte in Adobe Target[.](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)
+Weitere Informationen finden Sie unter Verwenden der Personalisierungseinblicke-Berichte in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).[
 
 ## Adoben-Blogs
 
