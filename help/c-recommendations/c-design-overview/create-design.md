@@ -2,9 +2,9 @@
 keywords: recommendations design;create design;copy design
 description: Mit einem Entwurf wird festgelegt, wie Empfehlungen auf einer Seite dargestellt werden.
 title: Erstellen eines Designs
-feature: designs
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 35%
