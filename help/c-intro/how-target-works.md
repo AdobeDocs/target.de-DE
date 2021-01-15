@@ -4,10 +4,10 @@ description: Informationen zur Funktionsweise von Adobe Target, einschließlich 
 title: Funktionsweise von Adobe Target
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
+source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 70%
+source-wordcount: '2504'
+ht-degree: 71%
 
 ---
 
@@ -20,13 +20,13 @@ Informationen zur Funktionsweise von [!DNL Adobe Target], einschließlich Inform
 
 Adobe Target kann mithilfe der Bibliotheken [!DNL AEP Web SDK] oder JavaScript in Websites integriert werden:
 
-* **Adobe Experience Platform Web SDK:** Das  [AEP Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDKist eine neue clientseitige JavaScript-Bibliothek, mit der Kunden über das  [!DNL Adobe Experience Cloud] Edge-Netzwerk mit den verschiedenen Diensten im  [!DNL Experience Cloud] (einschließlich  [!DNL Target]  [!DNL Adobe Experience Platform] ) interagieren können. Weitere Informationen finden Sie unter [Übersicht über die Zielgruppe](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html).[!DNL Target]
+* **Adobe Experience Platform Web SDK:** Das  [AEP Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDKist eine neue clientseitige JavaScript-Bibliothek, mit der Kunden über das  [!DNL Adobe Experience Cloud] Edge-Netzwerk mit den verschiedenen Diensten im  [!DNL Experience Cloud] (einschließlich  [!DNL Target]  [!DNL Adobe Experience Platform] ) interagieren können.
 * **at.js:** Die [at.js-Bibliothek](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) ist die neue Implementierungsbibliothek für Target. Die „at.js“-Bibliothek sorgt für kürzere Seitenladezeiten bei Webimplementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. „at.js“ ist die empfohlene Implementierungsbibliothek und wird häufig mit neuen Funktionen aktualisiert. Wir empfehlen allen Kunden, die  [neueste Version von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu implementieren oder zu ihr zu migrieren.
 * **mbox.js:**[ Die „mbox.js“-Bibliothek ist die alte Implementierungsbibliothek für Target. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) Die Bibliothek &quot;mbox.js&quot;wird bis zum 31. März 2021 unterstützt, es werden jedoch keine Funktionsaktualisierungen durchgeführt.
 
 >[!IMPORTANT]
 >
->Alle Kunden sollten zur [!DNL AEP Web SDK] oder zur neuesten Version von at.js migrieren. Weitere Informationen finden Sie unter [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) oder [Migration von &quot;mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) zu &quot;at.js&quot;.
+>Alle Kunden sollten zur [!DNL AEP Web SDK] oder zur neuesten Version von at.js migrieren. Weitere Informationen finden Sie unter [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) oder [Migration von &quot;mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) zu &quot;at.js&quot;.
 
 Sie müssen auf jeder Seite Ihrer Site auf [!DNL AEP Web SDK] oder at.js verweisen. Sie können beispielsweise einen dieser Elemente zu Ihrem globalen Header hinzufügen. Alternativ können Sie [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) verwenden.
 
