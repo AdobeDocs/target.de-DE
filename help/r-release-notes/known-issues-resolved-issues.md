@@ -4,10 +4,10 @@ description: Informationen zu bekannten Problemen in dieser Version von Adobe Ta
 title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
 workflow-type: tm+mt
-source-wordcount: '4337'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +67,7 @@ Die folgenden Probleme bei Umleitungsangeboten sind bekannt:
 
 Bei den Aktivitäten [!UICONTROL Recommendations] sind folgende Probleme bekannt:
 
-* Beim Kopieren einer [!UICONTROL Recommendation]-Aktivität mit einer aktiven Promotion wirkt sich eine Änderung der Duplikat-Aktivität derzeit auch auf die ursprüngliche Aktivität aus und umgekehrt. (TGT-39155)
+* Beim Kopieren einer [!UICONTROL Recommendation]-Aktivität mit einer aktiven Promotion wirkt sich eine Änderung der Aktivität des Duplikats derzeit auch auf die ursprüngliche Aktivität aus und umgekehrt. (TGT-39155)
 
    Als vorübergehende Lösung:
 
