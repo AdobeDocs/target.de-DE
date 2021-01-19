@@ -4,10 +4,10 @@ description: Diese Versionshinweise enthalten Informationen zu Funktionen, Verbe
 title: 'Adobe Target-Versionshinweise (aktuell) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 27%
+source-wordcount: '852'
+ht-degree: 36%
 
 ---
 
@@ -28,7 +28,25 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 >
 Obwohl &quot;mbox.js&quot;derzeit unterstützt wird (bis 31. März 2021), haben wir seit Juli 2017 keine Funktionsupdates für diese Bibliothek bereitgestellt. Indem wir alle Kunden in das [!UICONTROL Adobe Experience Platform Web SDK] oder at.js verschieben, können unsere Ingenieure und Support-Mitarbeiter Ihnen neue Funktionen und Angebote anbieten, die Sie von der Adobe erwarten.
 
+(Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+
+## Target Standard/Premium 21.1.1 (19. Januar 2021) 
+
+Dieses Maintenance Release umfasst die folgenden Erweiterungen, Fehlerbehebungen und Änderungen.
+
 Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+
+* Es wurde eine Warnung hinzugefügt, wenn eine [!DNL Adobe Analytics]-Metrik ausgewählt wird, wenn [!UICONTROL Analytics als Berichte-Quelle] (A4T) in einer [!UICONTROL Auto-Zielgruppe]-Aktivität verwendet wird. [!UICONTROL Auto-] Targeting-Modelle sind für die Verwendung binärer (konversionsbasierter) Metriken optimiert. Die Auswahl einer kontinuierlichen Metrik, z. B. Umsatz, kann zu suboptimalen Ergebnissen führen, und die [!UICONTROL Personalisierungseinblicke]-Berichte sind möglicherweise nicht genau. (TGT-38926)
+* Dem Bericht [!UICONTROL Zusammenfassung der automatischen Zielgruppe] für [!UICONTROL Aktivitäten mit A4T wurde ein Statussymbol hinzugefügt. ] Das grüne Häkchensymbol neben den einzelnen Erlebnissen im Bericht gibt an, dass für dieses Erlebnis ein Modell für das personalisierte maschinelle Lernen generiert wurde. Das Uhrensymbol gibt an, dass nicht genügend Traffic verarbeitet wurde, um das Modell zu erstellen. (TGT-38925)
+* Die Berichte [!UICONTROL Automatisierte Segmente] und [!UICONTROL Wichtige Attribute] für [!UICONTROL Automatisierte Zielgruppe]-Aktivitäten, die A4T- und [!DNL Analytics]-Konversionsmetriken verwenden, werden generiert und sehen genauso aus wie bei der Verwendung von [!DNL Target] als Berichte-Quelle. (TGT-38931)
+* Der Liste [!UICONTROL Recommendations] [!UICONTROL Umgebung] wurde eine Filteroption für die  hinzugefügt. (TGT-38353)
+* Es wurde ein Fehler behoben, der dazu führte, dass die falsche Produktanzahl in Sammlungen von [!UICONTROL Recommendations] angezeigt wurde. (TGT-39162)
+* Es wurde ein Filter [!UICONTROL Zuletzt aktualisiert] zum Filter [!UICONTROL Recommendations] [!UICONTROL Katalogsuche] hinzugefügt. (TGT-38340)
+* Es wurde ein Fehler in [!UICONTROL Recommendations] behoben, der dazu führte, dass die Seite [!UICONTROL Sequenz erstellen] hängen blieb, nachdem die Branche vertikal geändert wurde. (TGT-38160)
+* Es wurde ein Fehler behoben, der verhinderte, dass die Aktivität gespeichert wurde, wenn die Gerätekooperation aktiviert war und der Berichte von [!DNL Target] als Quelle zu [!DNL Analytics] (A4T) geändert wurde. (TGT-38163)
+* Es wurde ein Fehler behoben, der verhinderte, dass Benutzer eine Audience aus einem Angebot in einer [!UICONTROL Automated Personalization]-Aktivität (AP) entfernen konnten. (TGT-39058)
+* Es wurde ein Fehler behoben, der dazu führte, dass der falsche Zeitraum (Beginns- und Enddaten) für einige Kunden in den Karten [!UICONTROL Audience Info] angezeigt wurde. (TGT-39150)
+* Es wurde ein Fehler behoben, der dazu führte, dass einige Kunden die Liste der Aktivitäten im [!UICONTROL Standardarbeitsbereich] nicht sehen konnten. (TGT-38526)
 
 ## at.js 2.4.0 (14. Januar 2021)
 
@@ -36,27 +54,6 @@ Diese Version von at.js ist ein Maintenance Release und umfasst die folgenden Fe
 
 * Unterstützt Versand-API-KundenIDs mit Unified Profil/Platform ID.
 * Fehlerhafte Tag-Injektion im Stil wurde behoben.
-
-## Target Standard/Premium 20.10.1 (27. Oktober 2020)
-
-Diese Version enthält die folgenden neuen Funktionen:
-
-| Funktion | Details |
-| --- | --- |
-| [Geräteinterne Entscheidungsfindung](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | Mit der gerätegestützten Entscheidungsfindung können sowohl Marketingexperten als auch Produktentwickler experimentelle und maschinelle Learning-gestützte Personalisierung von einem Benutzergerät über Kanal hinweg bei nahezu null Latenz bereitstellen.<br>Schnelligkeit und Leistung sind wichtig - in Kundeneinsichten und Benutzerzufriedenheit.<br>Mit der On-Device-Entscheidungsfindung können Sie wichtige Personalisierungs- und Experimentierungsanweisungen in den Aktivitäten A/B-Test- und Erlebnis-Targeting (XT) in &quot;Optimierungsartefakte:&quot;kompilieren, die über das CDN auf Kundengeräte geladen werden. Da die Entscheidungsfindung auf dem Gerät eine native Verbindung mit [!DNL Adobe Experience Cloud]-Produkten herstellt, erhalten [!DNL Target]-Benutzer eine schnelle Analyse und schnellere Erlebnis-Iterationen.<br>Weitere Informationen finden Sie unter *[On-device-Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md). |
-
-Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderungen:
-
-* Es wurde ein Fehler behoben, der verhinderte, dass [!UICONTROL Durchschnittliches Intervall für die Steigerung des Vertrauens] und [!UICONTROL Konfidenz] im [!DNL Auto-Target]-Berichte für die Zeile [!UICONTROL Gesamt] angezeigt wurden. Die Messungen werden für alle einzelnen Erlebnisse korrekt angezeigt. (TGT-37301)
-* Es wurde ein Problem behoben, das den Berichte [!DNL Adobe Target Premium] users’ [!UICONTROL Auto-Zielgruppe] ab 15. September 2009 um 14:30 Uhr beeinträchtigte. (PDT) bis 6. Oktober, 9.25 Uhr (PDT). Bei der Anzeige von Berichten für die betroffenen Konversionsmetriken (die entweder mit der Option &quot;[!UICONTROL Angezeigte Seite]&quot;oder &quot;[!UICONTROL Auf mbox] geklickt&quot;konfiguriert wurden) werden die Konversionsraten fälschlicherweise gemeldet. Es ist derzeit kein Problem mit dem Versand bekannt. Informationen zum Resynchronisieren und Korrigieren Ihres Berichte finden Sie unter [Berichte für die automatische Zielgruppe](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) unter *Behobene Probleme* in *Bekannte Probleme und gelöste Probleme*.
-* Es wurde eine auswählbare Spalte [!UICONTROL Zuletzt aktualisiert am] in der Tabelle [!UICONTROL Katalogsuche] und ein Filter [!UICONTROL Zuletzt aktualisiert am] hinzugefügt. Diese Verbesserung spart Zeit und Mühe, da Sie nicht jedes einzelne Element öffnen müssen, um zu sehen, wann es zuletzt aktualisiert wurde, und Sie nach dem Datum filtern können, an dem die Elemente zuletzt aktualisiert wurden.
-
-   ![Zuletzt aktualisiert bei Spalten- und Filterdarstellung](/help/r-release-notes/assets/column-and-filter.png)
-
-* Es wurden Aktualisierungen vorgenommen, um die Benutzeroberfläche der Zielgruppe mit [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level A und AA Success Criteria (WCAG 2.0 AA) kompatibel zu machen. (TGT-34384 und TGT-24679)
-* Verbesserungen der Content Security Policy (CSP). (TGT-37035)
-* Es wurde eine Methode zur Angabe des Clientcodes als Parameter für Kunden eingeführt, die CNAME verwenden. (TNT-38571)
-* [!DNL Adobe Experience Cloud] Dokumentation wird verschoben zu  [!DNL Experience League]. Im Oktober wechseln alle Versionshinweise, Artikel, Videos und Tutorials von ihrem aktuellen Speicherort unter `docs.adobe.com` zu [!DNL Experience League]. Dieser Schritt stellt sicher, dass alle Lern-, Selbsthilfe-, Aktivierungs- und Community-Inhalte an einem Ort bereitgestellt werden. Wenn diese Änderung eintritt, müssen Sie nichts tun, da alle Links zu [!DNL Experience League] umgeleitet werden. Wir werden die Versionshinweise aktualisieren, sobald der Cutover beginnt.
 
 ## Zusätzliche Versionshinweise und Versionshinweise
 
