@@ -4,10 +4,10 @@ description: 'Versionshinweise zu früheren Adobe Target-Versionen, einschließl
 title: Versionshinweise für vorherige Versionen
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '29817'
-ht-degree: 86%
+source-wordcount: '30246'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,37 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
+## Versionshinweise - 2021
+
+### at.js 2.4.0 (14. Januar 2021)
+
+Diese Version von at.js ist ein Maintenance Release und umfasst die folgenden Fehlerbehebungen:
+
+* Unterstützt Versand-API-KundenIDs mit Unified Profil/Platform ID.
+* Fehlerhafte Tag-Injektion im Stil wurde behoben.
+
 ## Versionshinweise - 2020
+
+### Target Standard/Premium 20.10.1 (27. Oktober 2020)
+
+Diese Version enthält die folgenden neuen Funktionen:
+
+| Funktion | Details |
+| --- | --- |
+| [Geräteinterne Entscheidungsfindung](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | Mit der gerätegestützten Entscheidungsfindung können sowohl Marketingexperten als auch Produktentwickler experimentelle und maschinelle Learning-gestützte Personalisierung von einem Benutzergerät über Kanal hinweg bei nahezu null Latenz bereitstellen.<br>Schnelligkeit und Leistung sind wichtig - in Kundeneinsichten und Benutzerzufriedenheit.<br>Mit der On-Device-Entscheidungsfindung können Sie wichtige Personalisierungs- und Experimentierungsanweisungen in den Aktivitäten A/B-Test- und Erlebnis-Targeting (XT) in &quot;Optimierungsartefakte:&quot;kompilieren, die über das CDN auf Kundengeräte geladen werden. Da die Entscheidungsfindung auf dem Gerät eine native Verbindung mit [!DNL Adobe Experience Cloud]-Produkten herstellt, erhalten [!DNL Target]-Benutzer eine schnelle Analyse und schnellere Erlebnis-Iterationen.<br>Weitere Informationen finden Sie unter *[On-device-Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md). |
+
+Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderungen:
+
+* Es wurde ein Fehler behoben, der verhinderte, dass [!UICONTROL Durchschnittliches Intervall für die Steigerung des Vertrauens] und [!UICONTROL Konfidenz] im [!DNL Auto-Target]-Berichte für die Zeile [!UICONTROL Gesamt] angezeigt wurden. Die Messungen werden für alle einzelnen Erlebnisse korrekt angezeigt. (TGT-37301)
+* Es wurde ein Problem behoben, das den Berichte [!DNL Adobe Target Premium] users’ [!UICONTROL Auto-Zielgruppe] ab 15. September 2009 um 14:30 Uhr beeinträchtigte. (PDT) bis 6. Oktober, 9.25 Uhr (PDT). Bei der Anzeige von Berichten für die betroffenen Konversionsmetriken (die entweder mit der Option &quot;[!UICONTROL Angezeigte Seite]&quot;oder &quot;[!UICONTROL Auf mbox] geklickt&quot;konfiguriert wurden) werden die Konversionsraten fälschlicherweise gemeldet. Es ist derzeit kein Problem mit dem Versand bekannt. Informationen zum Resynchronisieren und Korrigieren Ihres Berichte finden Sie unter [Berichte für die automatische Zielgruppe](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) unter *Behobene Probleme* in *Bekannte Probleme und gelöste Probleme*.
+* Es wurde eine auswählbare Spalte [!UICONTROL Zuletzt aktualisiert am] in der Tabelle [!UICONTROL Katalogsuche] und ein Filter [!UICONTROL Zuletzt aktualisiert am] hinzugefügt. Diese Verbesserung spart Zeit und Mühe, da Sie nicht jedes einzelne Element öffnen müssen, um zu sehen, wann es zuletzt aktualisiert wurde, und Sie nach dem Datum filtern können, an dem die Elemente zuletzt aktualisiert wurden.
+
+   ![Zuletzt aktualisiert bei Spalten- und Filterdarstellung](/help/r-release-notes/assets/column-and-filter.png)
+
+* Es wurden Aktualisierungen vorgenommen, um die Benutzeroberfläche der Zielgruppe mit [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level A und AA Success Criteria (WCAG 2.0 AA) kompatibel zu machen. (TGT-34384 und TGT-24679)
+* Verbesserungen der Content Security Policy (CSP). (TGT-37035)
+* Es wurde eine Methode zur Angabe des Clientcodes als Parameter für Kunden eingeführt, die CNAME verwenden. (TNT-38571)
+* [!DNL Adobe Experience Cloud] Dokumentation wird verschoben zu  [!DNL Experience League]. Im Oktober wechseln alle Versionshinweise, Artikel, Videos und Tutorials von ihrem aktuellen Speicherort unter `docs.adobe.com` zu [!DNL Experience League]. Dieser Schritt stellt sicher, dass alle Lern-, Selbsthilfe-, Aktivierungs- und Community-Inhalte an einem Ort bereitgestellt werden. Wenn diese Änderung eintritt, müssen Sie nichts tun, da alle Links zu [!DNL Experience League] umgeleitet werden. Wir werden die Versionshinweise aktualisieren, sobald der Cutover beginnt.
 
 ### Target Standard/Premium 20.9.1 (30. September 2020)
 
