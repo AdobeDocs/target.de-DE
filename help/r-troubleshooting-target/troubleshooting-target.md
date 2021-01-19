@@ -2,9 +2,9 @@
 keywords: troubleshoot target;troubleshooting target
 description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Target unterstützen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen (FAQ) und weitere hilfreiche Informationen.
 title: Fehlerbehebung bei Adobe Target
-feature: troubleshooting general
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 ---
 
 
-# Fehlerbehebung in Target{#troubleshoot-target}
+# Fehlerbehebung in Target
 
 Eine Liste der Themen, die Sie bei der Fehlerbehebung in [!DNL Adobe Target] unterstützen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen und weitere hilfreiche Informationen.
 
