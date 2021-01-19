@@ -4,10 +4,10 @@ description: Informationen zu bekannten Problemen in dieser Version von Adobe Ta
 title: Bekannte Probleme und gelöste Probleme   in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '4296'
-ht-degree: 70%
+source-wordcount: '4337'
+ht-degree: 69%
 
 ---
 
@@ -65,7 +65,15 @@ Die folgenden Probleme bei Umleitungsangeboten sind bekannt:
 
 ### Recommendations
 
-Die folgenden Probleme bei Recommendations-Aktivitäten sind bekannt:
+Bei den Aktivitäten [!UICONTROL Recommendations] sind folgende Probleme bekannt:
+
+* Beim Kopieren einer [!UICONTROL Recommendation]-Aktivität mit einer aktiven Promotion wirkt sich eine Änderung der Duplikat-Aktivität derzeit auch auf die ursprüngliche Aktivität aus und umgekehrt. (TGT-39155)
+
+   Als vorübergehende Lösung:
+
+   * Promotions für Aktivitäten deaktivieren
+   * Duplikat der Aktivität
+   * Promotions in jeder Aktivität erneut aktivieren
 
 * Entitäten verlieren ordnungsgemäß die Gültigkeit, wenn innerhalb von 60 Tagen keine Updates per Feed oder API empfangen werden. Die abgelaufenen Entitäten werden jedoch nach ihrem Ablauf nicht aus dem Katalogsuchindex entfernt. (IRI-857)
 * Die Overlays „Informationen zur Verwendung“ für Kriterien und Designs entsprechen nicht ihrer Verwendung in A/B- und Erlebnis-Targeting-Aktivitäten. (TGT-34331)
