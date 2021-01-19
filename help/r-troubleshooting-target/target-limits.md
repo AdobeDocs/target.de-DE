@@ -4,10 +4,10 @@ description: Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgrö
 title: Beschränkungen
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 76cdf65fcfe89a149c9dccd725328d22d4f74363
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 76%
+source-wordcount: '1038'
+ht-degree: 73%
 
 ---
 
@@ -194,9 +194,7 @@ Bei der Verwendung einer globalen Mbox gilt die Beschränkung für den komplette
 
 ## productPurchasedId-Parameter
 
-**Limit**: 47 Zeichen pro kommagetrenntem Wert.
-
-Eine längere Zeichenfolge wird vom System begrenzt.
+**Maximal**: 47 Zeichen pro kommagetrennten Wert und 250 Zeichen insgesamt. Einzelwerte, die länger als 47 Zeichen sind, können vom System abgeschnitten werden. Gesamtlängen über 250 Zeichen können zu einem Fehler von 400 führen.
 
 ## Profilskripte
 
