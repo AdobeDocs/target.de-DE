@@ -1,28 +1,28 @@
 ---
-keywords: catalog;search
-description: Die Katalogsuche in Adobe Target hilft Ihnen dabei, Produkte oder Inhalte in Ihrem Katalog zu finden.
-title: Katalogsuche in Adobe Target
+keywords: catalog search;catalog;search;exclusion;collection;filter
+description: Erfahren Sie, wie Sie mit der Recommendations-Katalogsuche nach Produkten oder Inhalten suchen, Sammlungen oder Ausschlüsse erstellen, Elemente aus Ihrem Katalog entfernen und vieles mehr.
+title: Verwendung der Recommendations-Katalogsuche
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 20%
+source-wordcount: '1031'
+ht-degree: 17%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Katalogsuche {#catalog-search}
+# ![](/help/assets/premium.png) PREMIUMCatalog Search
 
-Auf der Seite [!UICONTROL Katalogsuche] können Sie die Produkte oder Inhalte in Ihrem Katalog suchen.
+Die Seite [!UICONTROL Katalogsuche] in [!DNL Adobe Recommendations] hilft Ihnen, die Produkte oder Inhalte in Ihrem Katalog zu finden. Die grundlegendste Aufgabe, die Sie auf dieser Seite ausführen können, ist die Suche nach einem Element. Darüber hinaus können Sie die Umgebung ändern, Suchergebnisse in Sammlungen oder Ausschlüssen speichern, Filterfacetten hinzufügen und Tabellenspalten ändern, neue Suchfacetten hinzufügen und mehr.
 
-Kataloge beziehen sich auf den gesamten Produktsatz (Entitäten). Ihr Katalog kann viele Sammlungen enthalten - eine Möglichkeit, Ihre Produkte in logischen Behältern zu organisieren.
+Kataloge beziehen sich auf den gesamten Produktsatz (Entitäten). Ihr Katalog kann viele Sammlungen enthalten, um Ihre Produkte in logischen Behältern zu organisieren.
+
+## Zugriff auf Katalogsuche
 
 Um die Seite [!UICONTROL Katalogsuche] aufzurufen, klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Katalogsuche]**.
 
 ![Katalogsuchseite](/help/c-recommendations/c-products/assets/catalog-search.png)
-
-Die grundlegendste Aufgabe, die Sie auf dieser Seite ausführen können, ist die Suche nach einem Element. Darüber hinaus können Sie die Umgebung ändern. Suchergebnisse in Sammlungen oder Ausschlüssen speichern; Hinzufügen, Entfernen oder Neuanordnen von Tabellenspalten und Hinzufügen neuer Suchfacetten zum Bedienfeld [!UICONTROL Filter].
 
 ## Nach einem Element suchen
 
@@ -61,7 +61,7 @@ Sie können eine einfache oder eine erweiterte Suche verwenden, um Elemente in I
    >
    >Wenn Sie eine Katalogsuche für ein benutzerdefiniertes Attribut mit einem numerischen Wert durchführen, wird das benutzerdefinierte Attribut als String-Typ und nicht als numerischer Wert betrachtet.
    >
-   >Derzeit gibt es keine Funktion, mit der Kunden den Attributtyp ändern können. Um eine Änderung vorzunehmen, öffnen Sie ein Kundenproblem](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C), das auf die Attribute verweist, bei denen der Typ von der Zeichenfolge in numerisch geändert werden muss.[
+   >Derzeit gibt es keine Funktion, mit der Sie den Attributtyp ändern können. Um eine Änderung vorzunehmen, öffnen Sie ein Kundenproblem](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C), das auf die Attribute verweist, bei denen der Typ von der Zeichenfolge in numerisch geändert werden muss.[
 
 1. Sie können auch Filter verwenden, um das gewünschte Produkt zu finden. Im folgenden Beispiel werden alle Fahrradwerkzeuge in Ihrem Katalog angezeigt, indem Sie die Facette [!UICONTROL Kollektionen] erweitern und &quot;Fahrradwerkzeuge&quot;auswählen.
 
@@ -153,7 +153,7 @@ Sie können der Seite [!UICONTROL Katalogsuche] weitere Filterfacetten hinzufüg
 
    ![Link &quot;Filter ändern&quot;](/help/c-recommendations/c-products/assets/modify-filters.png)
 
-1. Wählen Sie die gewünschten Suchfacetten aus (ID, Name, Nachricht usw.).
+1. Wählen Sie die gewünschten Suchfacetten aus (ID, Name, Nachricht usw.) und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
    ![Filter hinzufügen](/help/c-recommendations/c-products/assets/add-filters.png)
 
