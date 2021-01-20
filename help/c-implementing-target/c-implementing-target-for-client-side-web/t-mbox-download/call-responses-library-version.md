@@ -3,10 +3,10 @@ description: Die Art, mit der Target Aufrufe an Ihre Seite sendet und auf Aufruf
 title: Target-Seitenmethoden nach „mbox.js“-Bibliotheksversion
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '940'
+ht-degree: 92%
 
 ---
 
@@ -14,6 +14,12 @@ ht-degree: 100%
 # Target-Seitenmethoden nach „mbox.js“-Bibliotheksversion{#target-page-methods-by-mbox-js-library-version}
 
 Die Art, mit der Target Aufrufe an Ihre Seite sendet und auf Aufrufe der Seite antwortet, hängt von der Version der verwendeten Target-Bibliothek ab und davon, ob die Implementierung der Experience Cloud-Besucher-ID und die Besucher-ID vorhanden sind.
+
+>[!IMPORTANT]
+>
+>**mbox.js Ende der Lebensdauer**: Am 31. März 2021  [!DNL Adobe Target] wird die Bibliothek &quot;mbox.js&quot;nicht mehr unterstützt. Nach dem 31. März 2021 schlagen alle Aufrufe von &quot;mbox.js&quot;korrekt fehl und wirken sich auf Ihre Seiten aus, deren [!DNL Target]-Aktivitäten ausgeführt werden, indem Standardinhalte bereitgestellt werden.
+>
+>Es wird empfohlen, dass alle Kunden vor diesem Datum zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek migrieren, um potenzielle Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: zielgruppe für clientseitige Web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md) implementieren.
 
 >[!NOTE]
 >
