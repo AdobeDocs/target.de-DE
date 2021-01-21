@@ -4,15 +4,15 @@ description: In diesem Thema werden einige allgemeine Probleme behandelt, die au
 title: Fehlerbehebung bei der Analytics- und Target-Integration (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 63%
 
 ---
 
 
-# Fehlerbehebung bei der Analytics- und Target-Integration (A4T){#troubleshoot-the-analytics-and-target-integration-a-t}
+# Fehlerbehebung bei der Analytics- und Target-Integration (A4T)
 
 In diesem Thema werden einige allgemeine Probleme behandelt, die auftreten, wenn Analytics als Berichtsquelle für Target (A4T) verwendet wird.
 
@@ -40,17 +40,15 @@ Wenn Sie die Zeile &quot;Nicht angegeben&quot;durch die Dimension &quot;Analytic
 >
 >Daten, die als „unspezifisch“ eingestuft werden, gehen nicht verloren. Die Daten werden nach erfolgreicher Classification den entsprechenden Aktivitäten oder Erlebnissen zugeordnet.
 
+## A4T-Aktivitäten-Berichte enthalten eine Reihe mit einer großen Anzahl von &quot;nicht angegebenen&quot;Ereignissen. {#added_unspecified_events}
 
-## Die Berichte zu A4T-Aktivitäten enthalten eine Zeile mit einer großen Anzahl von &quot;nicht angegebenen&quot;Ereignissen. {#added_unspecified_events}
+Es kann eine Zeile &quot;[!UICONTROL Nicht angegeben]&quot;Ereignis in Ihrem Bericht angezeigt werden, je nach der Metrik, mit der Sie Ihre Daten anzeigen.
 
-Je nach der Metrik, mit der Sie Ihre Daten anzeigen, wird in Ihrem Bericht möglicherweise eine Zeile mit &quot;nicht angegebenen&quot;Ereignissen angezeigt.
+Normalerweise wird diese Zeile angezeigt, wenn Sie eine häufig verwendete Metrik im Bericht wählen, die nicht [!DNL Target]-spezifisch ist (z. B. [!UICONTROL Seitenbesuche], [!UICONTROL Ansichten], [!UICONTROL Individuelle Besucher] usw.). In diesem Fall enthält die Zeile [!UICONTROL &quot;Nicht angegeben&quot;] alle [!UICONTROL Ansichten], [!UICONTROL Besuche] und [!UICONTROL Individuelle Besucher], die nicht mit [!DNL Target]-Aktivitäten verknüpft sind.
 
-In der Regel wird diese Zeile angezeigt, wenn Sie eine häufig verwendete Metrik im Bericht wählen, die nicht für die Zielgruppe spezifisch ist (z. B. Ansichten der Seite, Besuche, individuelle Besucher usw.).
-In diesem Fall enthält die Zeile &quot;Nicht angegeben&quot;alle Ansichten, Besuche und individuellen Besucher, die nicht mit den Aktivitäten der Zielgruppe verknüpft sind.
-Diese Zeile enthält keine mit der Zielgruppe verknüpften Informationen (z. B. keine Besucher, Besuche oder Impressionen). Weitere Informationen finden Sie unter [&quot;Nicht angegeben&quot;, &quot;Keine&quot;, &quot;Sonstige&quot;und &quot;Unbekannt&quot;in Berichte](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in den *Analytics-technischen Hinweisen*.
+Dieser Zeile sind keine [!DNL Target]-Informationen zugeordnet (z. B. keine Besucher, Besuche oder Impressionen). Weitere Informationen finden Sie unter [&quot;Nicht angegeben&quot;, &quot;Keine&quot;, &quot;Sonstige&quot;und &quot;Unbekannt&quot;in Berichte](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in den *Analytics-technischen Hinweisen*.
 
-Wenn Sie eine für die Zielgruppe spezifische Metrik im Bericht auswählen, wird diese Zeile &quot;Nicht angegeben&quot;nicht angezeigt.
-Die einzige Möglichkeit, dies im Bericht ganz zu vermeiden, besteht darin, für jede von dieser Seite gesendete Anforderung einen Zielgruppe-Aufruf zu starten, was nicht üblich oder notwendig ist.
+Wenn Sie eine [!DNL Target]-spezifische Metrik im Bericht auswählen, wird diese Zeile [!UICONTROL &quot;Nicht angegeben&quot;] nicht angezeigt. Die einzige Möglichkeit, dies im Bericht ganz zu vermeiden, besteht darin, einen [!DNL Target]-Aufruf für jede von dieser Seite gesendete Anforderung festzulegen, was nicht üblich oder notwendig ist.
 
 ## In meinen Analytics-Daten tauchen zu hohe Besucherzahlen auf, seit ich A4T verwende.   {#section_4BE374E573D44FB7918611699B74F58E}
 
