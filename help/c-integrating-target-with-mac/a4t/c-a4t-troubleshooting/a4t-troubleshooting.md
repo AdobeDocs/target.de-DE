@@ -4,10 +4,10 @@ description: In diesem Thema werden einige allgemeine Probleme behandelt, die au
 title: Fehlerbehebung bei der Analytics- und Target-Integration (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: d6ee46899813049c1fad7a358f800702730b3c2d
+source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 71%
+source-wordcount: '779'
+ht-degree: 80%
 
 ---
 
@@ -37,15 +37,6 @@ Hierfür gibt es verschiedene Gründe:
 >Manchmal werden Daten korrekt in Berichten angezeigt, dann jedoch erneut als „unspezifisch“ gekennzeichnet, da eine neue Aktivität hinzugefügt wurde, deren Classification noch nicht abgeschlossen wurde. Beachten Sie, dass die Klassifizierung von Berichten nach dem ersten Speichern normalerweise zwischen 24 und 72 Stunden dauert.
 >
 >Daten, die als „unspezifisch“ eingestuft werden, gehen nicht verloren. Die Daten werden nach erfolgreicher Classification den entsprechenden Aktivitäten oder Erlebnissen zugeordnet.
-
-## Die Berichte zu A4T-Aktivitäten enthalten eine Zeile mit einer großen Anzahl von &quot;nicht angegebenen&quot;Ereignissen. {#added_unspecified_events}
-
-Es wird immer eine Zeile mit nicht angegebenen Ereignissen angezeigt, je nach der Metrik, die Sie zur Anzeige der Daten verwenden.\
-Wenn Sie eine Metrik nur für Zielgruppen verwenden, wird diese Zeile &quot;nicht angegeben&quot;nicht angezeigt.
-Wenn Sie eine häufiger verwendete Metrik verwenden, wird diese Zeile erneut im Bericht angezeigt.
-
-Dieser &quot;nicht angegebene&quot;Zeileneintrag enthält keine mit der Zielgruppe verknüpften Informationen (z. B. keine Besucher/Besuche/Impressionen).\
-Die einzige Möglichkeit, dies im Bericht zu vermeiden, besteht darin, die Zielgruppe auf absolut jede Anfrage zu setzen, die von dieser Seite gesendet wird, was keinen Sinn ergibt.
 
 ## In meinen Analytics-Daten tauchen zu hohe Besucherzahlen auf, seit ich A4T verwende.   {#section_4BE374E573D44FB7918611699B74F58E}
 
