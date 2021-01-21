@@ -4,10 +4,10 @@ description: In diesem Thema werden einige allgemeine Probleme behandelt, die au
 title: Fehlerbehebung bei der Analytics- und Target-Integration (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
+source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 80%
+source-wordcount: '987'
+ht-degree: 63%
 
 ---
 
@@ -32,11 +32,25 @@ Hierfür gibt es verschiedene Gründe:
 
    [Wenden Sie sich für Unterstützung an den Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
+Wenn Sie die Zeile &quot;Nicht angegeben&quot;durch die Dimension &quot;Analytics für Zielgruppe&quot;unterteilen und sie keine Aktivitäten-IDs enthält, bedeutet dies, dass alles korrekt klassifiziert wird.  Wenn dort Aktivitäten-IDs aufgeführt sind, dient sie als Indikator für ein Klassifizierungsproblem.
+
 >[!NOTE]
 >
 >Manchmal werden Daten korrekt in Berichten angezeigt, dann jedoch erneut als „unspezifisch“ gekennzeichnet, da eine neue Aktivität hinzugefügt wurde, deren Classification noch nicht abgeschlossen wurde. Beachten Sie, dass die Klassifizierung von Berichten nach dem ersten Speichern normalerweise zwischen 24 und 72 Stunden dauert.
 >
 >Daten, die als „unspezifisch“ eingestuft werden, gehen nicht verloren. Die Daten werden nach erfolgreicher Classification den entsprechenden Aktivitäten oder Erlebnissen zugeordnet.
+
+
+## Die Berichte zu A4T-Aktivitäten enthalten eine Zeile mit einer großen Anzahl von &quot;nicht angegebenen&quot;Ereignissen. {#added_unspecified_events}
+
+Je nach der Metrik, mit der Sie Ihre Daten anzeigen, wird in Ihrem Bericht möglicherweise eine Zeile mit &quot;nicht angegebenen&quot;Ereignissen angezeigt.
+
+In der Regel wird diese Zeile angezeigt, wenn Sie eine häufig verwendete Metrik im Bericht wählen, die nicht für die Zielgruppe spezifisch ist (z. B. Ansichten der Seite, Besuche, individuelle Besucher usw.).
+In diesem Fall enthält die Zeile &quot;Nicht angegeben&quot;alle Ansichten, Besuche und individuellen Besucher, die nicht mit den Aktivitäten der Zielgruppe verknüpft sind.
+Diese Zeile enthält keine mit der Zielgruppe verknüpften Informationen (z. B. keine Besucher, Besuche oder Impressionen). Weitere Informationen finden Sie unter [&quot;Nicht angegeben&quot;, &quot;Keine&quot;, &quot;Sonstige&quot;und &quot;Unbekannt&quot;in Berichte](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in den *Analytics-technischen Hinweisen*.
+
+Wenn Sie eine für die Zielgruppe spezifische Metrik im Bericht auswählen, wird diese Zeile &quot;Nicht angegeben&quot;nicht angezeigt.
+Die einzige Möglichkeit, dies im Bericht ganz zu vermeiden, besteht darin, für jede von dieser Seite gesendete Anforderung einen Zielgruppe-Aufruf zu starten, was nicht üblich oder notwendig ist.
 
 ## In meinen Analytics-Daten tauchen zu hohe Besucherzahlen auf, seit ich A4T verwende.   {#section_4BE374E573D44FB7918611699B74F58E}
 
