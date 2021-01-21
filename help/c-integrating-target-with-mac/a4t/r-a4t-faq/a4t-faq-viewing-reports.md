@@ -4,10 +4,10 @@ description: Dieses Thema enthält Antworten auf häufig zur Anzeige von Bericht
 title: Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
+source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
 workflow-type: tm+mt
-source-wordcount: '2347'
-ht-degree: 53%
+source-wordcount: '2280'
+ht-degree: 55%
 
 ---
 
@@ -69,10 +69,6 @@ In anderen Berichten bedeutet „Nicht angegeben“, dass Daten eine bestimmte C
 
 Nach dem Klassifizierungszeitraum werden Daten ca. eine Stunde nach Erfassung auf der Site in diesen Berichten angezeigt. Sämtliche Metriken, Segmente und Werte in den Berichten stammen aus der Berichtssuite, die Sie bei der Einrichtung der Aktivität ausgewählt haben.
 
-Falls die Classification für diese Aktivität durchgeführt wurde und immer noch eine Zeile &quot;nicht angegeben&quot;im Bericht angezeigt wird, stellen Sie sicher, dass der Bericht keine Metrik ohne Zielgruppe verwendet, um die Daten anzuzeigen.
-Sofern der Bericht keine Zielgruppe-spezifische Metrik verwendet, enthält die Zeile &quot;Nicht angegeben&quot;Ereignis für Aufrufe, die nicht mit der Zielgruppe in Verbindung stehen.
-Diese Zeile enthält keine mit der Zielgruppe verknüpften Informationen (z. B. keine Besucher/Besuche/Impressionen).
-
 ## Warum werden Target-Metriken auch dann noch an Analytics gesendet, wenn die Aktivität deaktiviert wurde? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. Dieser Ablaufzeitraum kann bei Bedarf vom Kundendienst angepasst werden. Diese Einstellung gilt für alle Aktivitäten, daher sollte sie nicht nur für einen Fall angepasst werden.
@@ -91,7 +87,7 @@ Am 1. Januar besucht der Benutzer die Seite, sieht einmal die Aktivität XYZ u
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Unique Visitors |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 5 | 1 | 3 |
 
 Der Benutzer kehrt dann am 1. Februar zurück, sieht fünf weitere Seiten, findet keine weiteren Target-Aktivitäten vor und die ursprüngliche Aktivität ist nicht mehr aktiv. Auch wenn die Aktivität nicht mehr aktiv ist, wird der Benutzer wegen der eVar-Persistenz jedoch weiterhin verfolgt. Die Daten sehen anschließend wie folgt aus:
 
@@ -104,15 +100,15 @@ Der Benutzer kehrt am 1. März zurück und sieht die neue Aktivität ABC. Er sie
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher |
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 1 | 1 |
+| ABC | 1 | 5 | 1 | 3 |
 
 Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und tätigt einen Kauf. Die Ablauffrist von 90 Tagen für den ersten eVar-Wert wird am 1. April zurückgesetzt, was im Bericht zu sehen ist. Und allen Target-Aktivitäten, die der Benutzer sieht, wird die Konversion gutgeschrieben, die Gesamtzahl der Konversionen wird jedoch dedupliziert:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher | Bestellungen |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 3 |
-| ABC | 3 | 10 | 2 | 3 | 1 |
-| Gesamt | 2 | 20 | 1 | 1 | 1 |
+| XYZ | 3 | 20 | 4 | 3 | 1 |
+| ABC | 3 | 10 | 2 | 1 | 3 |
+| Gesamt | 2 | 20 | 1 | 1 | 3 |
 
 Da vor der Konversion beide Erlebnisse gesehen wurden, wird die Bestellung beiden „gutgeschrieben“. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für [!DNL Target]-Berichte, da Sie keine [!DNL Target]-Aktivität gegen eine andere Aktivität stellen, um zu sehen, welche erfolgreicher ist, ist es egal, dass alle Aktivitäten, die der Benutzer gesehen hat, gutgeschrieben wurden. In diesen Berichten werden die Ergebnisse zweier Elemente innerhalb einer einzigen Aktivität verglichen. Ein Benutzer kann innerhalb derselben Aktivität keine unterschiedlichen Erlebnisse sehen, weshalb Sie sich über eine mögliche Kreuzkontamination bei der Zuschreibung der Bestellung keine Gedanken machen müssen.
 
