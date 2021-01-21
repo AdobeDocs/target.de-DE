@@ -4,10 +4,10 @@ description: Dieses Thema enthält Antworten auf häufig zur Anzeige von Bericht
 title: Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 55%
+source-wordcount: '2347'
+ht-degree: 53%
 
 ---
 
@@ -50,7 +50,7 @@ Wenn ein Besucher eine Seite anzeigt, die eine Aktivität enthält, wird eine Va
 
 Beachten Sie Folgendes:
 
-* Alle oben genannten Metriken werden ausgelöst, wenn sich ein Benutzer für eine Aktivität qualifiziert und der Inhalt von [!DNL [!DNL Target]] zurückgegeben wird. Das bedeutet nicht zwingend, dass der Benutzer das Angebot gesehen hat. Wenn ein Aktivitätserlebnis sich unterhalb des angezeigten Bildschirmbereichs befindet und der Benutzer nicht nach unten scrollt, wurde das Angebot zwar von [!DNL Target] bereitgestellt, aber nicht vom Benutzer gesehen.
+* Alle oben genannten Metriken-Trigger, wenn ein Benutzer sich für eine Aktivität qualifiziert und der Inhalt von [!DNL [!DNL Target]] zurückgegeben wird. Das bedeutet nicht zwingend, dass der Benutzer das Angebot gesehen hat. Wenn ein Aktivitätserlebnis sich unterhalb des angezeigten Bildschirmbereichs befindet und der Benutzer nicht nach unten scrollt, wurde das Angebot zwar von [!DNL Target] bereitgestellt, aber nicht vom Benutzer gesehen.
 * [!UICONTROL Aktivitätsimpressionen] (gemessen durch [!DNL Target]) und [!UICONTROL Instanzen] (gemessen durch [!DNL Analytics]) sind gleich, sofern nicht mehrere Mbox-Aufrufe auf derselben Seite in derselben Aktivität vorhanden sind. Hierdurch werden mehrere [!UICONTROL Aktivitätsimpressionen] gezählt, aber nur eine [!UICONTROL Instanz].
 
 ## Warum sind &quot;Aktivitäten-Impressionen&quot;und &quot;Aktivitäten-Konversionen&quot;in Analysis Workspace höher als in Reports &amp; Analysen? {#sametouch}
@@ -68,6 +68,10 @@ Um genaue Metriken für [!UICONTROL Aktivität-Impressionen] und [!UICONTROL Akt
 In anderen Berichten bedeutet „Nicht angegeben“, dass Daten eine bestimmte Classification nicht erfüllt haben. Dies sollte jedoch in A4T nie passieren. Wenn Sie „Nicht angegeben“ angezeigt bekommen, wurde der Classifications-Service noch nicht ausgeführt. Es dauert normalerweise zwischen 24 und 72 Stunden, bis Aktivitätsdaten in den Berichten angezeigt werden. Obwohl die Aktivitäten erst zu diesem Zeitpunkt in diesem Bericht angezeigt werden, werden alle an diese Aktivitäten geknüpften Besucherdaten erfasst und nach dem Abschluss der Classification angezeigt.
 
 Nach dem Klassifizierungszeitraum werden Daten ca. eine Stunde nach Erfassung auf der Site in diesen Berichten angezeigt. Sämtliche Metriken, Segmente und Werte in den Berichten stammen aus der Berichtssuite, die Sie bei der Einrichtung der Aktivität ausgewählt haben.
+
+Falls die Classification für diese Aktivität durchgeführt wurde und immer noch eine Zeile &quot;nicht angegeben&quot;im Bericht angezeigt wird, stellen Sie sicher, dass der Bericht keine Metrik ohne Zielgruppe verwendet, um die Daten anzuzeigen.
+Sofern der Bericht keine Zielgruppe-spezifische Metrik verwendet, enthält die Zeile &quot;Nicht angegeben&quot;Ereignis für Aufrufe, die nicht mit der Zielgruppe in Verbindung stehen.
+Diese Zeile enthält keine mit der Zielgruppe verknüpften Informationen (z. B. keine Besucher/Besuche/Impressionen).
 
 ## Warum werden Target-Metriken auch dann noch an Analytics gesendet, wenn die Aktivität deaktiviert wurde? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
@@ -93,22 +97,22 @@ Der Benutzer kehrt dann am 1. Februar zurück, sieht fünf weitere Seiten, finde
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 3 |
 
 Der Benutzer kehrt am 1. März zurück und sieht die neue Aktivität ABC. Er sieht außerdem fünf Seiten. Da die Aktivität XYZ aufgrund der Persistenz weiterhin verfolgt und für diesen Benutzer dann auch ABC festgelegt wird, sind im Bericht jetzt zwei Linienelemente vorhanden:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 3 | 3 |
+| XYZ | 1 | 15 | 3 | 3 |
+| ABC | 3 | 5 | 1 | 1 |
 
 Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und tätigt einen Kauf. Die Ablauffrist von 90 Tagen für den ersten eVar-Wert wird am 1. April zurückgesetzt, was im Bericht zu sehen ist. Und allen Target-Aktivitäten, die der Benutzer sieht, wird die Konversion gutgeschrieben, die Gesamtzahl der Konversionen wird jedoch dedupliziert:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher | Bestellungen |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 1 | 3 |
-| ABC | 3 | 10 | 2 | 3 | 3 |
-| Gesamt | 2 | 20 | 1 | 3 | 1 |
+| XYZ | 1 | 20 | 4 | 1 | 3 |
+| ABC | 3 | 10 | 2 | 3 | 1 |
+| Gesamt | 2 | 20 | 1 | 1 | 1 |
 
 Da vor der Konversion beide Erlebnisse gesehen wurden, wird die Bestellung beiden „gutgeschrieben“. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für [!DNL Target]-Berichte, da Sie keine [!DNL Target]-Aktivität gegen eine andere Aktivität stellen, um zu sehen, welche erfolgreicher ist, ist es egal, dass alle Aktivitäten, die der Benutzer gesehen hat, gutgeschrieben wurden. In diesen Berichten werden die Ergebnisse zweier Elemente innerhalb einer einzigen Aktivität verglichen. Ein Benutzer kann innerhalb derselben Aktivität keine unterschiedlichen Erlebnisse sehen, weshalb Sie sich über eine mögliche Kreuzkontamination bei der Zuschreibung der Bestellung keine Gedanken machen müssen.
 
