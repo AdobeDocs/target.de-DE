@@ -4,9 +4,9 @@ description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Do
 title: Änderungen an der Adobe Target-Produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '3395'
+source-wordcount: '3442'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,8 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Januar 21 | [Fehlerbehebung bei der Analytics- und Target-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Neuer Abschnitt hinzugefügt: &quot;A4T-Aktivitäten-Berichte enthalten eine Zeile mit einer großen Anzahl von &quot;nicht angegebenen&quot;Ereignissen.&quot; |
+|  | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Der folgende Abschnitt wurde aktualisiert: &quot;Warum wird &quot;nicht angegeben&quot;in den Analytics-Berichten angezeigt? Was bedeutet das?&quot; |
 | Januar 20 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Neues Thema |
 | Januar 19 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Zielgruppe 21.1.1 (19. Januar 2021) hinzugefügt. |
 |  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Der Text für den Parameter `productPurchasedID` wurde aktualisiert. |
