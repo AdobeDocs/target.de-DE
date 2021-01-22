@@ -4,9 +4,9 @@ description: Für jedes Erlebnis werden Konversionsrate, Steigerung, Konfidenz (
 title: Konversionsrate
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2146'
 ht-degree: 72%
 
 ---
@@ -186,7 +186,7 @@ Berichte können nach folgenden Zählmethodiken angezeigt werden:
 >
 >In der Regel werden Zählungen durch Cookies und Sitzungsaktivitäten bestimmt. Wenn Sie jedoch den End-Konversionspunkt einer Aktivität erreichen und die Aktivität dann erneut aufrufen, werden Sie als neuer Teilnehmer und neuer Aktivitätsbesuch gezählt. Dies trifft auch dann zu, wenn sich die Werte Ihrer PCID und der `sessionID` nicht geändert haben.
 
-## Warum verwendet die Zielgruppe Student-T-Tests? {#t-test}
+## Warum empfiehlt Zielgruppe die Verwendung von Student-T-Tests? {#t-test}
 
 A/B-Tests sind Experimente zum Vergleich des Mittelwerts einer bestimmten Geschäftsmetrik in einer Kontrollvariante (auch als Erlebnis bezeichnet) mit dem Mittelwert derselben Metrik in einem oder mehreren alternativen Erlebnissen.
 
