@@ -4,15 +4,15 @@ description: Für jedes Erlebnis werden Konversionsrate, Steigerung, Konfidenz (
 title: Konversionsrate
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 96%
+source-wordcount: '2145'
+ht-degree: 72%
 
 ---
 
 
-# Konversionsrate{#conversion-rate}
+# Konversionsrate
 
 Für jedes Erlebnis werden Konversionsrate, Steigerung, Konfidenz (statistische Bedeutung) und Konfidenzintervall in einem Bericht festgehalten.
 
@@ -185,3 +185,27 @@ Berichte können nach folgenden Zählmethodiken angezeigt werden:
 >[!NOTE]
 >
 >In der Regel werden Zählungen durch Cookies und Sitzungsaktivitäten bestimmt. Wenn Sie jedoch den End-Konversionspunkt einer Aktivität erreichen und die Aktivität dann erneut aufrufen, werden Sie als neuer Teilnehmer und neuer Aktivitätsbesuch gezählt. Dies trifft auch dann zu, wenn sich die Werte Ihrer PCID und der `sessionID` nicht geändert haben.
+
+## Warum verwendet die Zielgruppe Student-T-Tests? {#t-test}
+
+A/B-Tests sind Experimente zum Vergleich des Mittelwerts einer bestimmten Geschäftsmetrik in einer Kontrollvariante (auch als Erlebnis bezeichnet) mit dem Mittelwert derselben Metrik in einem oder mehreren alternativen Erlebnissen.
+
+[!DNL Target] empfiehlt die Verwendung von zwei T-Tests [ der ](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)Studierenden, da diese weniger Annahmen als Alternativen wie z-Tests erfordern und der geeignete statistische Test für paarweisen Vergleich von (quantitativen) Geschäftsmetriken zwischen Kontrollerlebnissen und alternativen Erlebnissen sind.
+
+### Weitere Einzelheiten
+
+Beim Ausführen von Online-A/B-Tests wird jedem Benutzer/Besucher zufällig eine Variante zugewiesen. Anschließend messen wir die Geschäftsmetrik(en) von Interesse (z.B. Konversionen, Bestellungen, Umsatz usw.) für Besucher in jeder Variante. Der von uns verwendete statistische Test testet dann die Hypothese, dass die mittlere Geschäftsmetrik (z. B. Konversionsrat, Bestellungen pro Benutzer, Umsatz pro Benutzer usw.) ist gleich für die Kontrolle und eine bestimmte alternative Variante.
+
+Obwohl die Geschäftsmetrik selbst nach einer beliebigen Verteilung verteilt werden kann, sollte die Verteilung des Mittelwerts dieser Metrik (innerhalb jeder Variante) über das [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem) in eine normale Verteilung konvertiert werden. Beachten Sie, dass es zwar keine Gewähr dafür gibt, wie schnell sich diese Stichprobenverteilung des Mittelwerts auf den Normalwert annähert, diese Bedingung jedoch in Anbetracht der Größenordnung der Besucher bei Online-Tests in der Regel erfüllt wird.
+
+Angesichts dieser Normalität des Mittelwerts kann nachgewiesen werden, dass die zu verwendende Teststatistik einer t-Verteilung folgt, da sie das Verhältnis eines normal verteilten Werts (der Differenz der Mittelwerte der Geschäftsmetrik) zu einem Skalierungsbegriff auf der Grundlage einer Schätzung aus den Daten (der Standardfehler der Differenz der Mittelwerte) darstellt. Der t-Test **des Studenten** ist dann der geeignete Test für die Hypothese, da die Teststatistik einer t-Distribution folgt.
+
+### Warum keine anderen Tests verwendet werden
+
+Ein **z-Test** ist unangemessen, da im typischen A/B-Testszenario der Nenner der Teststatistik nicht aus einer bekannten Varianz abgeleitet ist und stattdessen anhand der Daten geschätzt werden muss.
+
+**Chi-squared-** Tests werden nicht verwendet, da sie geeignet sind, um zu bestimmen, ob eine qualitative Beziehung zwischen zwei Varianten besteht (d. h. eine Null-Hypothese, dass es keinen Unterschied zwischen Varianten gibt). T-Tests eignen sich besser für das Szenario des Vergleichs von Metriken _quantitativ_.
+
+Der **Mann-Whitney U-Test** ist ein nicht parametrischer Test, der geeignet ist, wenn die Stichprobenverteilung der mittleren Geschäftsmetrik (für jede Variante) normalerweise nicht verteilt wird. Wie bereits erwähnt, gilt das zentrale Limit-Theorem jedoch in Anbetracht der Größenordnung des Traffics, der mit Online-Tests verbunden ist, in der Regel, sodass der t-Test sicher angewendet werden kann.
+
+Komplexere Methoden wie **ANOVA** (die T-Tests auf mehr als zwei Varianten verallgemeinern) können angewendet werden, wenn ein Test mehr als zwei Erlebnisse aufweist (&quot;A/Bn-Tests&quot;). ANOVA beantwortet jedoch die Frage &quot;ob alle Varianten denselben Mittelwert haben&quot;, während wir im typischen A/Bn-Test mehr Interesse an _der spezifischen Variante_ haben. In [!DNL Target] wenden wir daher regelmäßige T-Tests an, bei denen jede Variante mit einer Kontrolle verglichen wird, mit einer Bonferroni-Korrektur, um mehrere Vergleiche zu berücksichtigen.
