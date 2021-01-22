@@ -4,9 +4,9 @@ description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Do
 title: Änderungen an der Adobe Target-Produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '3454'
+source-wordcount: '3455'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| Januar 22 | [Konversionsrate](/help/c-reports/conversion-rate.md#t-test) | Folgender Abschnitt wurde hinzugefügt: &quot;Warum verwendet die Zielgruppe Student-T-Tests?&quot; |
+| Januar 22 | [Konversionsrate](/help/c-reports/conversion-rate.md#t-test) | Folgender Abschnitt wurde hinzugefügt: &quot;Warum empfiehlt die Zielgruppe die Verwendung von Student-T-Tests?&quot; |
 | Januar 21 | [Fehlerbehebung bei der Analytics- und Target-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Neuer Abschnitt hinzugefügt: &quot;A4T-Aktivitäten-Berichte enthalten eine Zeile mit einer großen Anzahl von &quot;nicht angegebenen&quot;Ereignissen.&quot; |
 |  | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Der folgende Abschnitt wurde aktualisiert: &quot;Warum wird &quot;nicht angegeben&quot;in den Analytics-Berichten angezeigt? Was bedeutet das?&quot; |
 | Januar 20 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Neues Thema |
