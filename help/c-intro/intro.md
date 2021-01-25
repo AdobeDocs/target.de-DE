@@ -5,10 +5,10 @@ landing-page-description: Personalize your customers' experience to maximize rev
 title: Einführung in Adobe Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: 90cc6d010988984c8f05e04ed3610b573829b6b6
+source-git-commit: 552e5fb844e2b8a93973e6ce1ce138ea5fa0d12f
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 85%
+source-wordcount: '926'
+ht-degree: 84%
 
 ---
 
@@ -84,7 +84,7 @@ Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] ist ein älteres Produkt. Um das beste [!DNL Recommendations]-Erlebnis zu erhalten, aktualisieren Sie auf [!DNL Recommendations]-Aktivitäten, die unter [!DNL Adobe Target Premium] verfügbar sind (siehe oben).
+>[!DNL Recommendations Classic] ist ein älteres Produkt und nicht mehr für neue Kunden lizenziert. Um das beste [!DNL Recommendations]-Erlebnis zu erhalten, aktualisieren Sie auf [!DNL Recommendations]-Aktivitäten, die unter [!DNL Adobe Target Premium] verfügbar sind (siehe oben).
 
 [!DNL Recommendations Classic] zeigt automatisch Produkte oder Inhalte an, die ausgehend von der bisherigen Benutzeraktivität auf Ihrer Site für die betreffenden Kunden von Interesse sein könnten. Empfehlungen lenken Kunden zu Artikeln, von denen sie womöglich noch nichts wissen. Dies führt zu mehr Umsatz auf Ihrer Site.
 
