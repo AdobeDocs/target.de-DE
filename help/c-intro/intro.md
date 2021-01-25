@@ -5,10 +5,10 @@ landing-page-description: Personalize your customers' experience to maximize rev
 title: Einführung in Adobe Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: b935820585f6e0c4ae11449d1d9d7807d5d91a85
+source-git-commit: 90cc6d010988984c8f05e04ed3610b573829b6b6
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 86%
+source-wordcount: '918'
+ht-degree: 85%
 
 ---
 
@@ -81,6 +81,10 @@ Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 [Mit der ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Funktion &quot;Berechtigungen für Enterprise-Benutzer&quot;können Sie verschiedene Profile erstellen (im Abschnitt &quot;Produktberechtigungen&quot; [!DNL Adobe Admin Console for Enterprise]), damit Sie einem einzelnen Benutzer unterschiedliche Berechtigungen zuweisen können, die dessen Zugriffsrechte für jedes Projekt vorschreiben. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in [!DNL Adobe Analytics]. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Dadurch können Kunden den Ansicht-, Bearbeitungs-, Genehmigungs- und Veröffentlichungszugriff auf ihre Benutzer je nach Region, Umgebung (dev/stage/prod), Kanal oder anderen benutzerspezifischen Kriterien einschränken.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
+
+>[!IMPORTANT]
+>
+>[!DNL Recommendations Classic] ist ein älteres Produkt. Um das beste [!DNL Recommendations]-Erlebnis zu erhalten, aktualisieren Sie auf [!DNL Recommendations]-Aktivitäten, die unter [!DNL Adobe Target Premium] verfügbar sind (siehe oben).
 
 [!DNL Recommendations Classic] zeigt automatisch Produkte oder Inhalte an, die ausgehend von der bisherigen Benutzeraktivität auf Ihrer Site für die betreffenden Kunden von Interesse sein könnten. Empfehlungen lenken Kunden zu Artikeln, von denen sie womöglich noch nichts wissen. Dies führt zu mehr Umsatz auf Ihrer Site.
 
