@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: Dieses Thema enthält Antworten auf häufig zur Anzeige von Berichten bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 title: Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 54%
@@ -89,27 +89,27 @@ Am 1. Januar besucht der Benutzer die Seite, sieht einmal die Aktivität XYZ u
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Unique Visitors |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 3 | 1 |
+| XYZ | 1 | 5 | 1 | 1 |
 
 Der Benutzer kehrt dann am 1. Februar zurück, sieht fünf weitere Seiten, findet keine weiteren Target-Aktivitäten vor und die ursprüngliche Aktivität ist nicht mehr aktiv. Auch wenn die Aktivität nicht mehr aktiv ist, wird der Benutzer wegen der eVar-Persistenz jedoch weiterhin verfolgt. Die Daten sehen anschließend wie folgt aus:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 3 |
+| XYZ | 1 | 10 | 2 | 1 |
 
 Der Benutzer kehrt am 1. März zurück und sieht die neue Aktivität ABC. Er sieht außerdem fünf Seiten. Da die Aktivität XYZ aufgrund der Persistenz weiterhin verfolgt und für diesen Benutzer dann auch ABC festgelegt wird, sind im Bericht jetzt zwei Linienelemente vorhanden:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher |
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 1 | 3 |
+| ABC | 1 | 5 | 1 | 1 |
 
 Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und tätigt einen Kauf. Die Ablauffrist von 90 Tagen für den ersten eVar-Wert wird am 1. April zurückgesetzt, was im Bericht zu sehen ist. Und allen Target-Aktivitäten, die der Benutzer sieht, wird die Konversion gutgeschrieben, die Gesamtzahl der Konversionen wird jedoch dedupliziert:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher | Bestellungen |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 3 | 1 |
-| ABC | 3 | 10 | 2 | 1 | 1 |
+| XYZ | 1 | 20 | 4 | 1 | 1 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
 | Gesamt | 2 | 20 | 1 | 1 | 1 |
 
 Da vor der Konversion beide Erlebnisse gesehen wurden, wird die Bestellung beiden „gutgeschrieben“. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für [!DNL Target]-Berichte, da Sie keine [!DNL Target]-Aktivität gegen eine andere Aktivität stellen, um zu sehen, welche erfolgreicher ist, ist es egal, dass alle Aktivitäten, die der Benutzer gesehen hat, gutgeschrieben wurden. In diesen Berichten werden die Ergebnisse zweier Elemente innerhalb einer einzigen Aktivität verglichen. Ein Benutzer kann innerhalb derselben Aktivität keine unterschiedlichen Erlebnisse sehen, weshalb Sie sich über eine mögliche Kreuzkontamination bei der Zuschreibung der Bestellung keine Gedanken machen müssen.
