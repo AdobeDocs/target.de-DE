@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Adobe Target-Begrüßungs-Kit - Kapitel 5 - Inspiration für Test- und Personalisierungs-Aktivitäten
 title: Adobe Target-Begrüßungs-Kit - Kapitel 5 - Inspiration für Test- und Personalisierungs-Aktivitäten
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Diese Test- und Personalisierungsideen, inspiriert durch echte Aktivitäten unserer Kunden, die Konversionsraten und Umsatz steigern, sind es wert, einen Versuch zu machen oder als Inspiration für Ihre eigenen [!DNL Target]-Aktivitäten zu verwenden. Selbst wenn die Idee nicht genau für Ihr Unternehmen geeignet ist, mit wenig Kreativität und Brainstorming, sollten Sie sich überlegen, eine Aktivität zu entwickeln, die auf dem Geist der Test- oder Personalisierungsidee basiert.
 
-## Idee 1: Testen Sie die Personalisierung der Customer Journey.
+## Idee 1: Testen Sie die Personalisierung der Journey.
 
-Steigern Sie Konversionsrat und Umsatz, indem Sie eine maßgeschneiderte kreative Reise- und Branding-Erfahrung erstellen, die bei der Erreichung von Geschäftszielen mit den Besuchern der Website in Einklang steht. Testen Sie dann diese personalisierte Reise, indem Sie sie mit statischen Erlebnissen oder zufällig bereitgestellten Erlebnissen vergleichen. Machen Sie die Personalisierung noch tiefer, indem Sie die Audiencen entdecken und erstellen, die Sie personalisieren, um Daten von Zweitanbietern und Drittanbietern in [!DNL Adobe Audience Manager] zu verwenden.
+Steigern Sie Konversionsrat und Umsatz, indem Sie eine maßgeschneiderte kreative Journey- und Branding-Erfahrung erstellen, die bei der Erreichung von Geschäftszielen mit den Besuchern von Websites im Einklang steht. Testen Sie dann die personalisierte Journey, indem Sie sie mit statischen Erlebnissen oder zufällig bereitgestellten Erlebnissen vergleichen. Machen Sie die Personalisierung noch tiefer, indem Sie die Audiencen entdecken und erstellen, die Sie personalisieren, um Daten von Zweitanbietern und Drittanbietern in [!DNL Adobe Audience Manager] zu verwenden.
 
-Nachdem Sie diese Audiencen identifiziert haben, führen Sie Benutzererlebnis-Tests und Marktrecherchen durch, um zu erfahren, was sie überzeugt, darauf zu reagieren, und entwickeln Sie die Erlebnisse, die Sie auf Ihrer Reise entsprechend Zielgruppe entwickeln.
+Nachdem Sie diese Audiencen identifiziert haben, führen Sie Benutzererlebnis-Tests und Marktforschung durch, um zu erfahren, was sie überzeugt, darauf zu reagieren, und entwickeln Sie die Erlebnisse, die Sie sie in ihrer Journey Zielgruppe entsprechend entwickeln.
 
 Wenn beispielsweise ein Besucher, der in eine &quot;ernsthafte Gamer&quot;-Audience für eine Telekommunikations-Firma fällt, die Website der Firma besucht, eine Erfahrung bereitstellen, die Kopien und Bilder enthält, die bei Spielern Resonanz finden, und ein Angebot für Hochgeschwindigkeits-Internetzugang.
 
