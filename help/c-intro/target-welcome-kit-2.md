@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Adobe Target Begrüßungs-Kit - Kapitel 2 - Zielgruppe auf einen Blick
 title: Adobe Target Begrüßungs-Kit - Kapitel 2 - Zielgruppe auf einen Blick
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2504'
 ht-degree: 17%
