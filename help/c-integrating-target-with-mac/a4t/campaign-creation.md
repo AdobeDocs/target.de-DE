@@ -2,11 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Sie können eine Aktivität in Target Standard/Premium erstellen, um Adobe Analytics als Berichtsquelle (A4T) zu verwenden.
 title: Erstellen einer Aktivität, die A4T als Berichte-Quelle verwendet
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1394'
 ht-degree: 18%
 
 ---
@@ -132,7 +132,7 @@ Einige Einschränkungen und Hinweise gelten für die automatische Zuordnung und 
 
 * Die Quelltexte des Berichte können nicht von [!DNL Analytics] in [!DNL Target] oder umgekehrt geändert werden, nachdem eine Aktivität aktiviert wurde.
 * Obwohl errechnete Metriken nicht als primäre Zielmetriken unterstützt werden, ist es oft möglich, das angestrebte Ergebnis zu erzielen, indem Sie stattdessen ein benutzerdefiniertes Ereignis als primäre Zielmetrik auswählen. Wenn Sie z. B. eine Metrik wie &quot;Formularabschlüsse pro Besucher&quot;optimieren möchten, wählen Sie ein benutzerdefiniertes Ereignis, das &quot;Formularabschlüsse&quot;als primäre Zielmetrik entspricht. [!DNL Target] normalisiert Konversionsmetriken automatisch pro Besuch, um eine ungleiche Traffic-Verteilung zu berücksichtigen. Daher ist es nicht erforderlich, eine berechnete Metrik für die Normalisierung zu verwenden.
-* [!DNL Target] verwendet das Zuordnungsmodell &quot;Same Touch&quot;in der Implementierung von  [!UICONTROL Auto-] AllocationA4T.
+* [!DNL Target] verwendet das Zuordnungsmodell &quot;Gleich Touch&quot;in der Funktion  [!UICONTROL Automatische ] Zuordnung: Analytics for Zielgruppe (A4T).
 
 #### Automatische Zuordnung
 
