@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Adobe Target Begrüßungs-Kit - Kapitel 4 - Tipps zur Verwendung der Zielgruppe
 title: Adobe Target Begrüßungs-Kit - Kapitel 4 - Tipps zur Verwendung der Zielgruppe
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2880'
 ht-degree: 0%
@@ -64,13 +64,13 @@ Erleichtern Sie sich die Arbeit mit den Daten Ihres Unternehmens und bewahren Si
 
 Weitere Informationen finden Sie unter [Enterprise-Benutzerberechtigungen](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-**Hilfreicher Hinweis**: Wenn beim Hinzufügen von Benutzern der Name eines Teammitglieds noch nicht hinzugefügt wurde (z. B. bei einem Mitarbeiter einer Agentur eines Drittanbieters), löst die Eingabe der E-Mail-Adresse und des Passworts eine E-Mail-Einladung aus, sich dem Arbeitsbereich des Teams anzuschließen.
+**Hilfreicher Hinweis**: Wenn beim Hinzufügen von Benutzern der Name eines Teammitglieds noch nicht hinzugefügt wurde (z. B. bei einem Mitarbeiter einer Agentur eines Drittanbieters), wird durch Eingabe der E-Mail-Adresse und des Kennworts eine E-Mail-Einladung zum Beitritt zum Arbeitsbereich des Teams Trigger.
 
 Verwenden von Target Standard? Sie können weiterhin [drei Zugriffsebenen ](/help/administrating-target/c-user-management/c-user-management/user-management.md) für Ihre Benutzer mit schreibgeschützten Rollen, Editor- und Genehmiger-Rollen zuweisen!
 
-## Tipp 6: Entdecken Sie, wie ein Angebot während einer Customer Journey funktioniert, indem Sie es auf jeder einzelnen Seite der Reise testen.
+## Tipp 6: Erfahren Sie, wie ein Angebot auf der gesamten Journey eines Kunden abschneidet, indem Sie es auf jeder Seite der Journey testen.
 
-Erfahren Sie, wie ein Angebot, z. B. kostenloser Versand, während einer Kundenreise funktioniert, die über mehrere Seiten auf Ihrer Website stattfindet.
+Erfahren Sie, wie ein Angebot, z. B. kostenloser Versand, während einer Journey, die mehrere Seiten auf Ihrer Website umfasst, funktioniert.
 
 Eine schrittweise Anleitung finden Sie unter [Mehrseitige Aktivität](/help/c-experiences/c-visual-experience-composer/multipage-activity.md).
 
