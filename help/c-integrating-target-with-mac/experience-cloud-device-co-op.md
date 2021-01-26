@@ -2,9 +2,9 @@
 keywords: experience cloud;device co-op;device co op;analytics;audience manager;aam;media optimizer;device graph
 description: Informationen zur Adobe Experience Cloud-Gerätekooperation, einem Programm, das Teilnehmern die Zusammenarbeit ermöglicht, um Verbraucher besser über digitale Touchpoints zu identifizieren, und gleichzeitig ein Höchstmaß an Privatsphäre und Transparenz gewährleistet.
 title: Experience Cloud-Gerätekooperation
-feature: device co-op
+feature: Integrations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 84%
