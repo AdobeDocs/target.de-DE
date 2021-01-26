@@ -4,9 +4,9 @@ description: Kann ich Remote-Angebot verwenden, um externe Inhalte zu hosten?
 title: Remote-Angebote erstellen
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48c49f764c4f2c2804230481c431a837776278a6
+source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 58%
 
 ---
@@ -82,7 +82,7 @@ Einige Beispiele für Remote-Angebote sind:
 
 Die folgenden Informationen helfen Ihnen, die Unterschiede zwischen den beiden Optionen zu verstehen:
 
-### Typ der zwischengespeicherten URL
+### Zwischengespeicherte URL
 
 Der Inhalt eines zwischengespeicherten Remote-Angebots wird von [!DNL Target] bereitgestellt.
 
@@ -92,7 +92,7 @@ Zwischengespeicherte Remote-Angebot bieten eine höhere Sicherheit, da jemand, d
 
 Sie können für zwischengespeicherte Remote-Angebote eine absolute oder relative URL angeben.
 
-### Dynamischer URL-Typ
+### Dynamische URL
 
 Ein dynamisches Remote-Angebot wird vom Inhaltsverwaltungssystem oder einem anderen System bereitgestellt, nicht von [!DNL Target].
 
