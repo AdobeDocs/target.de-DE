@@ -4,10 +4,10 @@ description: Kann ich Remote-Angebot verwenden, um externe Inhalte zu hosten?
 title: Remote-Angebote erstellen
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 67d11820d32bb3518de59801b71df4c0a9485cae
+source-git-commit: d966727239d982116e3cd1c2925cb1627e2954ea
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 68%
+source-wordcount: '845'
+ht-degree: 58%
 
 ---
 
@@ -44,12 +44,11 @@ Einige Beispiele für Remote-Angebote sind:
 
    Ein beschreibender Name unterstützt Sie und andere dabei, das Angebot problemlos in der Bibliothek [!UICONTROL Assets] aufzufinden.
 
-1. Geben Sie die Remote-URL für das Remote-Angebot an:
+1. Geben Sie den Typ der Umleitungs-URL an.
 
-   | Option | Beschreibung |
-   |--- |--- |
-   | Zwischengespeichert | Der Inhalt eines zwischengespeicherten Remote-Angebots wird von [!DNL Target] bereitgestellt.<br>Alle zwei Stunden ruft [!DNL Target] den Inhalt der Remote-URL ab und speichert ihn in [!DNL Target]. Laden Besucher die Seite mit einem Erlebnis, in dem ein Remote-Angebot enthalten ist, wird das Angebot von [!DNL Target] bereitgestellt.<br>Zwischengespeicherte Remote-Angebote bieten eine gesteigerte Sicherheit, da jemand, der in angemeldet ist, den Inhalt nicht bearbeiten kann. [!DNL Target] Soll der Inhalt bearbeitet werden, müsste sich jemand im Inhaltsverwaltungssystem oder dem System anmelden, in dem der Inhalt gespeichert ist, und ihn dort bearbeiten.<br>Sie können für zwischengespeicherte Remote-Angebote eine absolute oder relative URL angeben. |
-   | Dynamisch | Ein dynamisches Remote-Angebot wird vom Inhaltsverwaltungssystem oder einem anderen System bereitgestellt, nicht von [!DNL Target].<br>[!DNL Target]Möglicherweise möchten Sie nicht, dass Inhalte regelmäßig in den Zwischenspeicher geladen und anschließend von bereitgestellt werden, wenn Besucher die Seite mit einem Erlebnis laden, in dem ein Remote-Angebot enthalten ist. Stattdessen möchten Sie das System aufrufen, das den Inhalt hostet, und möglicherweise spezifische Informationen übermitteln, damit das zurückgegebene Angebot für jeden Benutzer dynamisch (oder unterschiedlich) sein kann.<br>Meldet sich ein Benutzer beispielsweise auf einer Kreditkarten-Website an, auf der ein dynamisches Angebot enthalten ist, können Sie in die URL Parameter für die Kontoinformationen des Benutzers einfügen. In diesem Fall zeigt die Webseite benutzerspezifische Daten an, beispielsweise den Kontostand.<br>Klicken Sie auf  **[!UICONTROL Hinzufügen]** Parameter, um eine oder mehrere  [!DNL Target] Anforderungen oder Anforderungsparameter hinzuzufügen. |
+   Siehe [Umleitungs-URL-Typ: Zwischengespeichert oder Dynamisch](#url-type) unten für weitere Informationen.
+
+1. Geben Sie die Remote-URL für das Remote-Angebot an.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -71,14 +70,35 @@ Einige Beispiele für Remote-Angebote sind:
 
    Ein beschreibender Name unterstützt Sie und andere dabei, das Angebot problemlos in der Bibliothek [!UICONTROL Assets] aufzufinden.
 
-1. Geben Sie die Remote-URL für das Remote-Angebot an:
+1. Geben Sie den Typ der Umleitungs-URL an.
 
-   | Option | Beschreibung |
-   |--- |--- |
-   | Zwischengespeichert | Der Inhalt eines zwischengespeicherten Remote-Angebots wird von [!DNL Target] bereitgestellt.<br>Alle zwei Stunden ruft [!DNL Target] den Inhalt der Remote-URL ab und speichert ihn in [!DNL Target]. Laden Besucher die Seite mit einem Erlebnis, in dem ein Remote-Angebot enthalten ist, wird das Angebot von [!DNL Target] bereitgestellt.<br>Zwischengespeicherte Remote-Angebote bieten eine gesteigerte Sicherheit, da jemand, der in angemeldet ist, den Inhalt nicht bearbeiten kann. [!DNL Target] Soll der Inhalt bearbeitet werden, müsste sich jemand im Inhaltsverwaltungssystem oder dem System anmelden, in dem der Inhalt gespeichert ist, und ihn dort bearbeiten.<br>Sie können für zwischengespeicherte Remote-Angebote eine absolute oder relative URL angeben. |
-   | Dynamisch | Ein dynamisches Remote-Angebot wird vom Inhaltsverwaltungssystem oder einem anderen System bereitgestellt, nicht von [!DNL Target].<br>[!DNL Target]Möglicherweise möchten Sie nicht, dass Inhalte regelmäßig in den Zwischenspeicher geladen und anschließend von bereitgestellt werden, wenn Besucher die Seite mit einem Erlebnis laden, in dem ein Remote-Angebot enthalten ist. Stattdessen möchten Sie das System aufrufen, das den Inhalt hostet, und möglicherweise spezifische Informationen übermitteln, damit das zurückgegebene Angebot für jeden Benutzer dynamisch (oder unterschiedlich) sein kann.<br>Meldet sich ein Benutzer beispielsweise auf einer Kreditkarten-Website an, auf der ein dynamisches Angebot enthalten ist, können Sie in die URL Parameter für die Kontoinformationen des Benutzers einfügen. In diesem Fall zeigt die Webseite benutzerspezifische Daten an, beispielsweise den Kontostand.<br>Klicken Sie auf  **[!UICONTROL Hinzufügen]** Parameter, um eine oder mehrere  [!DNL Target] Anforderungen oder Anforderungsparameter hinzuzufügen. |
+   Siehe [Umleitungs-URL-Typ: Zwischengespeichert oder Dynamisch](#url-type) unten für weitere Informationen.
+
+1. Geben Sie die Remote-URL für das Remote-Angebot an.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+## Umleitungs-URL-Typ: Zwischengespeichert oder dynamisch {#url-type}
+
+Die folgenden Informationen helfen Ihnen, die Unterschiede zwischen den beiden Optionen zu verstehen:
+
+### Typ der zwischengespeicherten URL
+
+Der Inhalt eines zwischengespeicherten Remote-Angebots wird von [!DNL Target] bereitgestellt.
+
+Alle zwei Stunden ruft [!DNL Target] den Inhalt der Remote-URL ab und speichert ihn in [!DNL Target]. Laden Besucher die Seite mit einem Erlebnis, in dem ein Remote-Angebot enthalten ist, wird das Angebot von [!DNL Target] bereitgestellt.
+
+Zwischengespeicherte Remote-Angebot bieten eine höhere Sicherheit, da jemand, der bei [!DNL Target] angemeldet ist, den Inhalt nicht ändern kann. Soll der Inhalt bearbeitet werden, müsste sich jemand im Inhaltsverwaltungssystem oder dem System anmelden, in dem der Inhalt gespeichert ist, und ihn dort bearbeiten.
+
+Sie können für zwischengespeicherte Remote-Angebote eine absolute oder relative URL angeben.
+
+### Dynamischer URL-Typ
+
+Ein dynamisches Remote-Angebot wird vom Inhaltsverwaltungssystem oder einem anderen System bereitgestellt, nicht von [!DNL Target].
+
+Möglicherweise möchten Sie nicht, dass Inhalte regelmäßig in den Zwischenspeicher geladen und anschließend von [!DNL Target] bereitgestellt werden, wenn Besucher die Seite mit einem Erlebnis laden, in dem ein Remote-Angebot enthalten ist. Stattdessen möchten Sie das System aufrufen, das den Inhalt hostet, und möglicherweise spezifische Informationen übermitteln, damit das zurückgegebene Angebot für jeden Benutzer dynamisch (oder unterschiedlich) sein kann. Meldet sich ein Benutzer beispielsweise auf einer Kreditkarten-Website an, auf der ein dynamisches Angebot enthalten ist, können Sie in die URL Parameter für die Kontoinformationen des Benutzers einfügen. In diesem Fall zeigt die Webseite benutzerspezifische Daten an, beispielsweise den Kontostand.
+
+Sie können auf **[!UICONTROL Hinzufügen Parameter]** klicken, um eine oder mehrere [!DNL Target]-Anforderungen oder -Anforderungsparameter hinzuzufügen.
 
 ## Best Practices für die Verwendung von Remote-Angeboten {#section_7718512D08E14121B6F6B8C38134F4BC}
 
