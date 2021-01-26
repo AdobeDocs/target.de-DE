@@ -1,24 +1,24 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: Verwenden Sie Remote-Angebot, um Inhalte außerhalb von Adobe Target zu hosten, auf die die Zielgruppe verweist und die für die Websites von Benutzern bereitgestellt werden. Diese Inhalte können sich aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen in einem Content-Management- oder einem anderen System befinden.
+description: Kann ich Remote-Angebot verwenden, um externe Inhalte zu hosten?
 title: Remote-Angebote erstellen
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 67d11820d32bb3518de59801b71df4c0a9485cae
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 89%
+source-wordcount: '1018'
+ht-degree: 68%
 
 ---
 
 
 # Remote-Angebote erstellen
 
-Verwenden Sie Remote-Angebote dazu, außerhalb von [!DNL Adobe Target] Inhalt zu hosten, auf den Target zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich aus Gründen der einfachen Verwendbarkeit oder aus Sicherheitsgründen in einem Content-Management- oder einem anderen System befinden.
+Verwenden Sie Remote-Angebote dazu, außerhalb von [!DNL Adobe Target] [!DNL Target] Inhalt zu hosten, auf den zugreift und den das Tool für Benutzerwebseiten zur Verfügung stellt. Diese Inhalte können sich in einem Content-Management (CMS) oder einem anderen System befinden, entweder aus Gründen der Benutzerfreundlichkeit oder aus Sicherheitsgründen.
 
 >[!NOTE]
 >
->Remote-Angebote können nur im formularbasierten Composer erstellt werden. Inhalte werden in die Anforderungsspeicherorte [!DNL Target] eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anforderung geeignet sind.
+>Remote-Angebot können auf der Seite &quot;Angebote&quot;> &quot;Code-Angebot&quot;oder im [Forms-Based Experience Composer](/help/c-experiences/form-experience-composer.md) erstellt werden. Remote-Angebot können nicht im Visual Experience Composer (VEC) erstellt werden. Inhalte werden in die Anforderungsspeicherorte [!DNL Target] eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anforderung geeignet sind.
 >
 >[!DNL Target Classic] verfügte über ähnliche Funktionen: [!UICONTROL Angebot auf Ihrer Seite] und [!UICONTROL Angebot außerhalb von Test&amp;Target].
 
@@ -30,12 +30,15 @@ Einige Beispiele für Remote-Angebote sind:
 * Rechner
 * Zinsänderungen
 
-**So erstellen Sie ein Remote-Angebot:**
+## Ein Remote-Angebot auf der Seite &quot;Code-Angebot&quot;erstellen
 
 1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie anschließend die Registerkarte **[!UICONTROL Code-Angebote]** aus.
+
+   ![Angebote > Code-Angebote](/help/c-experiences/c-manage-content/assets/offers-code-offers.png)
+
 1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Remote-Angebot]**.
 
-   ![](assets/remote_offer_ui.png)
+   ![Remote-Angebot erstellen, Dialogfeld](/help/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. Geben Sie einen beschreibenden Namen für das Angebot an.
 
@@ -45,8 +48,35 @@ Einige Beispiele für Remote-Angebote sind:
 
    | Option | Beschreibung |
    |--- |--- |
-   | Zwischengespeichert | Der Inhalt eines zwischengespeicherten Remote-Angebots wird von Target bereitgestellt.<br>Alle zwei Stunden ruft [!DNL Target] den Inhalt der Remote-URL ab und speichert ihn in Target. Laden Besucher die Seite mit einem Erlebnis, in dem ein Remote-Angebot enthalten ist, wird das Angebot von Target bereitgestellt.<br>Zwischengespeicherte Remote-Angebote bieten gesteigerte Sicherheit, da jemand, der in Target angemeldet ist, den Inhalt nicht bearbeiten kann. Soll der Inhalt bearbeitet werden, müsste sich jemand im Inhaltsverwaltungssystem oder dem System anmelden, in dem der Inhalt gespeichert ist, und ihn dort bearbeiten.<br>Sie können für zwischengespeicherte Remote-Angebote eine absolute oder relative URL angeben. |
-   | Dynamisch | Ein dynamisches Remote-Angebot wird vom Inhaltsverwaltungssystem oder einem anderen System bereitgestellt, nicht von Target.<br>Möglicherweise möchten Sie nicht, dass Inhalte regelmäßig in den Zwischenspeicher geladen und anschließend von Target bereitgestellt werden, wenn Besucher die Seite mit einem Erlebnis laden, in dem ein Remote-Angebot enthalten ist. Stattdessen möchten Sie direkt das System aufrufen, in dem der Inhalt gehostet wird, und möglicherweise spezifische Daten weiterleiten, sodass das ausgegebene Angebot für jeden Besucher dynamisch oder angepasst ist.<br>Meldet sich ein Benutzer beispielsweise auf einer Kreditkarten-Website an, auf der ein dynamisches Angebot enthalten ist, können Sie in die URL Parameter für die Kontoinformationen des Benutzers einfügen. In diesem Fall zeigt die Webseite benutzerspezifische Daten an, beispielsweise den Kontostand.<br>Klicken Sie auf  [!UICONTROL Hinzufügen ] Parameter, um eine oder mehrere  [!DNL Target] Anforderungen oder Anforderungsparameter hinzuzufügen. |
+   | Zwischengespeichert | Der Inhalt eines zwischengespeicherten Remote-Angebots wird von [!DNL Target] bereitgestellt.<br>Alle zwei Stunden ruft [!DNL Target] den Inhalt der Remote-URL ab und speichert ihn in [!DNL Target]. Laden Besucher die Seite mit einem Erlebnis, in dem ein Remote-Angebot enthalten ist, wird das Angebot von [!DNL Target] bereitgestellt.<br>Zwischengespeicherte Remote-Angebote bieten eine gesteigerte Sicherheit, da jemand, der in angemeldet ist, den Inhalt nicht bearbeiten kann. [!DNL Target] Soll der Inhalt bearbeitet werden, müsste sich jemand im Inhaltsverwaltungssystem oder dem System anmelden, in dem der Inhalt gespeichert ist, und ihn dort bearbeiten.<br>Sie können für zwischengespeicherte Remote-Angebote eine absolute oder relative URL angeben. |
+   | Dynamisch | Ein dynamisches Remote-Angebot wird vom Inhaltsverwaltungssystem oder einem anderen System bereitgestellt, nicht von [!DNL Target].<br>[!DNL Target]Möglicherweise möchten Sie nicht, dass Inhalte regelmäßig in den Zwischenspeicher geladen und anschließend von bereitgestellt werden, wenn Besucher die Seite mit einem Erlebnis laden, in dem ein Remote-Angebot enthalten ist. Stattdessen möchten Sie das System aufrufen, das den Inhalt hostet, und möglicherweise spezifische Informationen übermitteln, damit das zurückgegebene Angebot für jeden Benutzer dynamisch (oder unterschiedlich) sein kann.<br>Meldet sich ein Benutzer beispielsweise auf einer Kreditkarten-Website an, auf der ein dynamisches Angebot enthalten ist, können Sie in die URL Parameter für die Kontoinformationen des Benutzers einfügen. In diesem Fall zeigt die Webseite benutzerspezifische Daten an, beispielsweise den Kontostand.<br>Klicken Sie auf  **[!UICONTROL Hinzufügen]** Parameter, um eine oder mehrere  [!DNL Target] Anforderungen oder Anforderungsparameter hinzuzufügen. |
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+## Remote-Angebote mit dem Form-Based Experience Composer erstellen
+
+1. Wählen Sie beim Erstellen einer Aktivität mit dem [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) den Speicherort aus, an dem der Abschnitt **[!UICONTROL Inhalt]** angezeigt werden soll.
+
+   ![Inhaltsabschnitt im Form-Based Experience Composer](/help/c-experiences/c-manage-content/assets/form-based-content.png)
+
+1. Klicken Sie auf die Dropdown-Liste **[!UICONTROL Standardinhalt]** und dann auf **[!UICONTROL Remote-Angebot ändern]**.
+
+   ![Option &quot;Remote-Angebot ändern&quot;](/help/c-experiences/c-manage-content/assets/change-remote-offer.png)
+
+1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Remote-Angebot]**.
+
+   ![Remote-Angebot erstellen, Dialogfeld](/help/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+
+1. Geben Sie einen beschreibenden Namen für das Angebot an.
+
+   Ein beschreibender Name unterstützt Sie und andere dabei, das Angebot problemlos in der Bibliothek [!UICONTROL Assets] aufzufinden.
+
+1. Geben Sie die Remote-URL für das Remote-Angebot an:
+
+   | Option | Beschreibung |
+   |--- |--- |
+   | Zwischengespeichert | Der Inhalt eines zwischengespeicherten Remote-Angebots wird von [!DNL Target] bereitgestellt.<br>Alle zwei Stunden ruft [!DNL Target] den Inhalt der Remote-URL ab und speichert ihn in [!DNL Target]. Laden Besucher die Seite mit einem Erlebnis, in dem ein Remote-Angebot enthalten ist, wird das Angebot von [!DNL Target] bereitgestellt.<br>Zwischengespeicherte Remote-Angebote bieten eine gesteigerte Sicherheit, da jemand, der in angemeldet ist, den Inhalt nicht bearbeiten kann. [!DNL Target] Soll der Inhalt bearbeitet werden, müsste sich jemand im Inhaltsverwaltungssystem oder dem System anmelden, in dem der Inhalt gespeichert ist, und ihn dort bearbeiten.<br>Sie können für zwischengespeicherte Remote-Angebote eine absolute oder relative URL angeben. |
+   | Dynamisch | Ein dynamisches Remote-Angebot wird vom Inhaltsverwaltungssystem oder einem anderen System bereitgestellt, nicht von [!DNL Target].<br>[!DNL Target]Möglicherweise möchten Sie nicht, dass Inhalte regelmäßig in den Zwischenspeicher geladen und anschließend von bereitgestellt werden, wenn Besucher die Seite mit einem Erlebnis laden, in dem ein Remote-Angebot enthalten ist. Stattdessen möchten Sie das System aufrufen, das den Inhalt hostet, und möglicherweise spezifische Informationen übermitteln, damit das zurückgegebene Angebot für jeden Benutzer dynamisch (oder unterschiedlich) sein kann.<br>Meldet sich ein Benutzer beispielsweise auf einer Kreditkarten-Website an, auf der ein dynamisches Angebot enthalten ist, können Sie in die URL Parameter für die Kontoinformationen des Benutzers einfügen. In diesem Fall zeigt die Webseite benutzerspezifische Daten an, beispielsweise den Kontostand.<br>Klicken Sie auf  **[!UICONTROL Hinzufügen]** Parameter, um eine oder mehrere  [!DNL Target] Anforderungen oder Anforderungsparameter hinzuzufügen. |
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -60,17 +90,17 @@ Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
 
 * Sollten in Ihrem Test dynamisch vom Server generierte Daten enthalten sein, ist die Option [!UICONTROL Dynamisch] möglicherweise die richtige Wahl.
 * Sollten Sie lediglich planen, die Darstellung des Inhalts Ihres bestehenden Remote-Angebots zu prüfen, verwenden Sie den [!UICONTROL Visual Experience Composer], um Aussehen und Eindruck des Inhalts anzupassen, der vom Inhaltsverwaltungssystem ausgegeben wird.
-* Verwenden Sie die Auswahlmatrix für dynamische Angebote, um das für den jeweiligen Fall am besten geeignete Angebot auszuwählen. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Fragen haben.
+* Verwenden Sie die Auswahlmatrix für Remote-Angebot (unten), um das Angebot auszuwählen, das für den jeweiligen Fall am besten geeignet ist. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Fragen haben.
 
-## Funktionsweise dynamischer Remote-Angebote {#concept_CC2A969420B34364A9FA78C1CE251818}
+## Funktionsweise dynamischer Remote-Angebot {#concept_CC2A969420B34364A9FA78C1CE251818}
 
 Auf dynamischen Seiten können Werte an dynamische Remote-Angebote übergeben werden.
 
-Diese Angebote werden nach dem Rendern der Seite ausgeführt, indem die übergebenen Werte in einem unsichtbaren iframe gesammelt werden, der dann aus dem Frame kopiert und in die Seite eingefügt wird, sodass die übergebenen Werte geladen werden.
+Das Angebot wird nach dem Rendern der Seite ausgeführt. Ein unsichtbarer iframe sammelt die Daten, kopiert sie aus dem Frame und fügt sie auf der Seite ein und lädt die übergebenen Werte.
 
 ![](assets/remote_offer_howitworks_2.jpeg)
 
-## Auswahlmatrix für Remote-Angebote {#reference_B23BEDD29DDD47709A7651AFD27E776B}
+## Auswahlmatrix für Remote-Angebot {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
 Mit der Auswahlmatrix für Remote-Angebote können Sie entscheiden, welcher Typ von Remote-Angebot festgelegt werden soll: [!UICONTROL Zwischengespeichert] oder [!UICONTROL Dynamisch].
 
