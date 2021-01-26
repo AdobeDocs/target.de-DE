@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Adobe Target Begrüßungs-Kit - Kapitel 7 - Erstellen und Ausführen der Aktivität für die erste Zielgruppe
 title: Adobe Target Begrüßungs-Kit - Kapitel 7 - Erstellen und Ausführen der Aktivität für die erste Zielgruppe
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Nachdem die Aktivität abgeschlossen ist, führen Sie ein Dokument der Ergebniss
 
 ### Was muss in der Aktivität präzisiert werden? Was sind die nächsten Schritte?
 
-Die Ergebnisse Ihrer Aktivität liefern oft Einblicke in die Aktionen, die Sie als Nächstes ausführen sollten. Wenn eine Erlebnisvariante sehr erfolgreich war, sollten Sie diese auf Ihrer Website hartcodieren. Möglicherweise sehen Sie Möglichkeiten, diesen Erfolg auf andere ähnliche Seiten anzuwenden. Die Ergebnisse könnten darauf hindeuten, dass noch mehr getan werden muss, um das Kundenerlebnis auf dieser Seite zu verbessern. Verwenden Sie diesen Bereich, um wichtige Erkenntnisse aus der Aktivität Dokument und um zu Dokument, was Sie anhand dieser Lernergebnisse tun werden.
+Die Ergebnisse Ihrer Aktivität liefern oft Einblicke in die Aktionen, die Sie als Nächstes ausführen sollten. Wenn eine Erlebnisvariante sehr erfolgreich war, sollten Sie diese auf Ihrer Website hartcodieren. Möglicherweise sehen Sie Möglichkeiten, diesen Erfolg auf andere ähnliche Seiten anzuwenden. Die Ergebnisse könnten darauf hindeuten, dass noch mehr getan werden muss, um das Kundenerlebnis auf dieser Seite zu verbessern. Verwenden Sie diesen Bereich, um wichtige Erkenntnisse aus der Aktivität zu Dokument zu nehmen und anhand dieser Lernprozesse Dokument zu geben, was Sie tun werden.
 
 ## Zielgruppe öffnen und Aktivität erstellen und starten
 
