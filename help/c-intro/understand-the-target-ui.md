@@ -2,9 +2,9 @@
 keywords: target user interface;user interface;ui
 description: Die Adobe Target-Benutzeroberfläche
 title: Die Benutzeroberfläche der Zielgruppe
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%
@@ -98,7 +98,7 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Recommendations]**, um auf [!DNL
 
 [!UICONTROL Recommendations]-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten. Mit diesen Empfehlungen stellen Sie Kunden relevante Artikel vor, von denen diese andernfalls möglicherweise nichts gewusst hätten.
 
-Detaillierte Informationen zu ](/help/c-recommendations/recommendations.md)Recommendations[!UICONTROL  in ] und weitere Informationen zur [!DNL Target]Recommendations[!UICONTROL -Benutzeroberfläche finden Sie unter [.]
+Detaillierte Informationen zu [!UICONTROL Recommendations] in [!DNL Target] und weitere Informationen zur [!UICONTROL Recommendations]-Benutzeroberfläche finden Sie unter ](/help/c-recommendations/recommendations.md).[
 
 ## Administrations-
 
