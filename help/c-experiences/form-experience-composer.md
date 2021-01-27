@@ -4,10 +4,10 @@ description: Der formularbasierte Experience Composer von Adobe Target ermöglic
 title: Form-Based Experience Composer
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 72%
+source-wordcount: '772'
+ht-degree: 68%
 
 ---
 
@@ -21,14 +21,18 @@ Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. W�
 1. Klicken Sie auf **[!UICONTROL Aktivität erstellen]** und wählen Sie dann den Typ der Aktivität aus, die Sie erstellen möchten.
 
    Der Form-Based Experience Composer ist für „A/B-Tests“, „Erlebnis-Targeting“, „Automatisierte Personalisierung“ und Recommendations-Aktivitäten verfügbar.
-1. Wählen Sie **[!UICONTROL Form-Based Experience Composer]** im Dialogfeld [!UICONTROL Neue Aktivität].
+1. Wählen Sie **[!UICONTROL Form-Based Experience Composer]** aus dem Dialogfeld [!UICONTROL Aktivität erstellen].
+
+1. (Bedingt) Wählen Sie einen Arbeitsbereich und eine Eigenschaft.
+
+1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
    Der formularbasierte Experience Composer wird geöffnet.
 
    ![](assets/location_refinements.png)
 
    Dieser Bildschirm sieht anders aus, wenn Sie eine Recommendations-Aktivität erstellen. Recommendations-Aktivitäten schließen keine Erlebnisse ein.
-1. Benennen Sie die Aktivität.
+1. Benennen Sie die Aktivität, indem Sie auf &quot;[!UICONTROL Unbenannte Aktivität]&quot;klicken.
 1. Wählen Sie einen Standort aus.
 
    Wenn Sie in das Feld [!UICONTROL Standort auswählen] klicken, wird eine Liste der verfügbaren Standorte angezeigt. Wählen Sie einen dieser Standorte aus. Zur Auswahl des globalen Standorts, der über target.js bereitgestellt wurde, wählen Sie „target-global-mbox“.
@@ -64,9 +68,9 @@ Wenn Sie eine Recommendations-Aktivität erstellen, gibt es keine Erlebnisse. W�
 
    **Erlebnisfragment ändern:** Wählen Sie ein Erlebnisfragment.
 
-   **Umleitungsangebot ändern:** Wählen Sie ein Umleitungsangebote.
+   **Umleitungsangebot ändern:** Wählen Sie ein Umleitungsangebote. Weitere Informationen finden Sie unter [Umleitungs-Angebot erstellen](/help/c-experiences/c-manage-content/offer-redirect.md).
 
-   **Remote-Angebot ändern:** Wählen Sie ein Remote-Angebot.
+   **Remote-Angebot ändern:** Wählen Sie ein Remote-Angebot. Weitere Informationen finden Sie unter [Remote-Angebot erstellen](/help/c-experiences/c-manage-content/about-remote-offers.md).
 
    **HTML-Angebot erstellen:**
 
