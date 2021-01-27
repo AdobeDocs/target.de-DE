@@ -4,9 +4,9 @@ description: Kann ich Remote-Angebot verwenden, um externe Inhalte zu hosten?
 title: Remote-Angebote erstellen
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1047'
 ht-degree: 50%
 
 ---
@@ -156,3 +156,13 @@ Mit der Auswahlmatrix für Remote-Angebote können Sie entscheiden, welcher Typ 
 | Angebote können JavaScript enthalten. | Ja | Ja |
 | Angebots-URL | Absolut      oder Relativ | Relativ |
 | Anfordernder Computer | Adobe-Server | Der Computer des Besuchers, auf dem die Cookies des Besuchers gespeichert sind |
+
+## Schulungsvideo: Form-Based Composer ![Tutorial badge](/help/assets/tutorial.png)
+
+In diesem Video wird eine Demo des formularbasierten Composers gezeigt, mit dem Sie Remote-Angebot erstellen können.
+
+* Aktivität mithilfe von Form-Based Experience Composer erstellen
+* Wann Form-Based Experience Composer und wann Visual Experience Composer verwendet werden sollte
+* Verfeinerungen zur Ausrichtung auf einen Standort nutzen
+
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
