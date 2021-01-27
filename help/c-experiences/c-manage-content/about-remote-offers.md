@@ -4,7 +4,7 @@ description: Kann ich Remote-Angebot verwenden, um externe Inhalte zu hosten?
 title: Remote-Angebote erstellen
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
+source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 50%
@@ -32,6 +32,18 @@ Einige Beispiele für Remote-Angebote sind:
 * E-Mails
 * Kioske
 * Sprachassistenten
+
+## Best Practices für die Verwendung von Remote-Angeboten {#section_7718512D08E14121B6F6B8C38134F4BC}
+
+Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
+
+* Wenn sich Ihr Angebot in derselben Domäne wie die [!DNL Target]-Anforderungen befindet, können Sie mit der Option [!UICONTROL Zwischengespeichert] relative URLs zur Beschreibung Ihres Angebots verwenden.
+
+   Beim Verschieben Ihrer Aktivität von den Vorbereitungsservern auf die Produktionsserver hat dieses Verfahren den Vorteil, dass ohne manuelles Ändern der URL automatisch auf den Inhalt zugegriffen werden kann.
+
+* Sollten in Ihrem Test dynamisch vom Server generierte Daten enthalten sein, ist die Option [!UICONTROL Dynamisch] möglicherweise die richtige Wahl.
+* Sollten Sie lediglich planen, die Darstellung des Inhalts Ihres bestehenden Remote-Angebots zu prüfen, verwenden Sie den [!UICONTROL Visual Experience Composer], um Aussehen und Eindruck des Inhalts anzupassen, der vom Inhaltsverwaltungssystem ausgegeben wird.
+* Verwenden Sie die [Auswahlmatrix für Remote-Angebot](#reference_B23BEDD29DDD47709A7651AFD27E776B) (unten), um das für Ihren spezifischen Fall am besten geeignete Angebot auszuwählen. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Fragen haben.
 
 ## Ein Remote-Angebot auf der Seite &quot;Code-Angebot&quot;erstellen
 
@@ -122,18 +134,6 @@ Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nic
 1. Wählen Sie das gewünschte Remote-Angebot im Dialogfeld [!UICONTROL Remote-Angebot] auswählen und klicken Sie dann auf **[!UICONTROL Fertig]**.
 
 1. Schließen Sie die Konfiguration der Aktivität ab.
-
-## Best Practices für die Verwendung von Remote-Angeboten {#section_7718512D08E14121B6F6B8C38134F4BC}
-
-Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
-
-* Wenn sich Ihr Angebot in derselben Domäne wie die [!DNL Target]-Anforderungen befindet, können Sie mit der Option [!UICONTROL Zwischengespeichert] relative URLs zur Beschreibung Ihres Angebots verwenden.
-
-   Beim Verschieben Ihrer Aktivität von den Vorbereitungsservern auf die Produktionsserver hat dieses Verfahren den Vorteil, dass ohne manuelles Ändern der URL automatisch auf den Inhalt zugegriffen werden kann.
-
-* Sollten in Ihrem Test dynamisch vom Server generierte Daten enthalten sein, ist die Option [!UICONTROL Dynamisch] möglicherweise die richtige Wahl.
-* Sollten Sie lediglich planen, die Darstellung des Inhalts Ihres bestehenden Remote-Angebots zu prüfen, verwenden Sie den [!UICONTROL Visual Experience Composer], um Aussehen und Eindruck des Inhalts anzupassen, der vom Inhaltsverwaltungssystem ausgegeben wird.
-* Verwenden Sie die Auswahlmatrix für Remote-Angebot (unten), um das Angebot auszuwählen, das für den jeweiligen Fall am besten geeignet ist. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Fragen haben.
 
 ## Funktionsweise dynamischer Remote-Angebot {#concept_CC2A969420B34364A9FA78C1CE251818}
 
