@@ -4,10 +4,10 @@ description: Kann ich Umleitungs-Angebot verwenden, damit ein Browser zu einer n
 title: Erstellen von Umleitungsangeboten
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 48%
+source-wordcount: '1154'
+ht-degree: 47%
 
 ---
 
@@ -134,12 +134,12 @@ Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nic
 
 1. Schließen Sie die Konfiguration der Aktivität ab.
 
-## Schulungsvideo: Inhaltsverzeichnis-Repository (4:56) ![Abzeichen &quot;Überblick&quot;](/help/assets/overview.png)
+## Schulungsvideo: Form-Based Composer ![Tutorial badge](/help/assets/tutorial.png)
 
-In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
+In diesem Video wird eine Demo des formularbasierten Composers gezeigt, mit dem Sie Umleitungs-Angebot erstellen können.
 
-* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) und der Target-Inhaltsbibliothek
-* Benutzerdefinierte HTML-Angebote
-* Benutzerdefinierte HTML-Angebote im Visual Experience Composer
+* Aktivität mithilfe von Form-Based Experience Composer erstellen
+* Wann Form-Based Experience Composer und wann Visual Experience Composer verwendet werden sollte
+* Verfeinerungen zur Ausrichtung auf einen Standort nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
