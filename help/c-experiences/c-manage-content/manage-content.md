@@ -1,44 +1,67 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Verwenden Sie die Angebote-Bibliothek in Adobe Target, um Ihr Code-Angebot und Ihren Image-Angebot-Inhalt zu verwalten.
+description: Wie verwalte ich Code- und Image-Angebot?
 title: Angebote
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 91%
+source-wordcount: '483'
+ht-degree: 40%
 
 ---
 
 
-# Angebote{#offers}
+# Angebote
 
-Verwenden Sie die Angebote-Bibliothek in [!DNL Adobe Target], um Ihren Code-Angebot- und Image-Angebot-Inhalt zu verwalten.
+Verwenden Sie die Bibliothek [!UICONTROL Angebote] in [!DNL Adobe Target], um Ihr Code-Angebot und Ihren Image-Angebot-Inhalt zu verwalten.
 
->[!NOTE]
->
->In der Version von Januar 2017 werden in [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) und APIs erstellte Angebote in der Benutzeroberfläche von [!DNL Target Standard/Premium] angezeigt. Angebote, die in den letzten zwei Jahren mit diesen Methoden aktualisiert wurden (d. h. ab Version Januar 2015), sind ebenfalls sichtbar. Die ursprüngliche Synchronisation wird ausgeführt, wenn ein Benutzer Ihrer Organisation zum ersten Mal die Seite [!UICONTROL Angebote] öffnet. Es hängt von der vorhandenen Datenmenge ab, wie lange diese Synchronisierung dauert. Nach der eingänglichen Synchronisierung werden Daten laufend aktualisiert. Befanden sich vor dieser Version Code und Bilder im selben Ordner, werden diese von [!DNL Target] auf zwei duplizierte Ordner aufgeteilt. Beachten Sie, dass das Aktualisierungsdatum mit zugehöriger Uhrzeit sich auf den Zeitpunkt bezieht, zu dem der Ordner migriert wurde, und sich nicht auf das ursprüngliche Erstellungsdatum des Ordners auswirkt.
+1. Klicken Sie auf **[!UICONTROL Angebote]**, um die Bibliothek zu öffnen.
 
-Klicken Sie auf **[!UICONTROL Angebote]**, um die Bibliothek zu öffnen. Die Bibliothek enthält die Angebote, die über [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) und APIs erstellt wurden. In [!DNL Target Classic] oder anderen Lösungen erstellte Angebote lassen sich in [!DNL Target Standard/Premium] bearbeiten.
+   Die Bibliothek enthält die Angebote, die über [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) und APIs erstellt wurden. In [!DNL Target Classic] oder anderen Lösungen erstellte Angebote lassen sich in [!DNL Target Standard/Premium] bearbeiten.
 
-Die [!UICONTROL Angebotsseite] besteht aus zwei Registerkarten auf der rechten Seite: Code-Angebote und Bildangebote. Mithilfe der Registerkarten können Sie Angebote nach Typ anzeigen.
+   Die Seite [!UICONTROL Angebot] enthält zwei Registerkarten rechts: [!UICONTROL Code-Angebot] und [!UICONTROL Image-Angebot], mit denen Sie Angebot nach Typ Ansicht haben.
 
-![](assets/offers_page.png)
+   ![Seite &quot;Angebote&quot;mit den Registerkarten &quot;Code-Angebote&quot;und &quot;Image-Angebot&quot;](/help/c-experiences/c-manage-content/assets/offers-page.png)
 
-Sie können die Angebote nach Typ (HTML-Angebot, Umleitungsangebot, Remote-Angebot oder Ordner) und nach Quelle (Adobe Target, Adobe Target Classic, Adobe Experience Manager, Adobe Mobile Services oder API) filtern.
+1. (Optional) Klicken Sie auf die Dropdown-Liste **[!UICONTROL Typ]**, um Angebot nach Typ zu filtern (HTML-Angebot, [Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md), [Umleitungs-Angebot](/help/c-experiences/c-manage-content/offer-redirect.md)Remote-Angebot](/help/c-experiences/c-manage-content/about-remote-offers.md), [JSON-Angebot](/help/c-experiences/c-manage-content/create-json-offer.md) und [ Ordner](/help/c-experiences/c-manage-content/create-content-folder.md)).[
 
-![](assets/offers_filter.png)
+   ![](assets/offers_filter.png)
 
-Sie können einen Ordner oder ein Angebot bearbeiten oder kopieren, indem Sie mit der Maustaste über das gewünschte Element fahren und auf das Symbol „Bearbeiten“ oder das Symbol „Kopieren“ klicken.
+1. (Optional) Klicken Sie auf die Dropdown-Liste **[!UICONTROL Quelle]**, um Angebot nach Quelle (Adobe Target, Adobe Target Classic und Adobe Experience Manager) zu filtern.
 
-![](assets/offer-picker-large.png)
+1. (Optional) Führen Sie weitere Aufgaben durch, indem Sie auf der Registerkarte [!UICONTROL Angebote] den Mauszeiger über das gewünschte Angebot bzw. den gewünschten Ordner halten und anschließend auf das gewünschte Symbol klicken.
 
-## Angebotsdefinitionen anzeigen   {#section_6B059DD121434E6292CAB393507D010E}
+   ![Optionen für Code-Angebote](assets/offer-picker-large.png)
 
-Sie können Details zur Angebotsdefinition in einer Pop-up-Karte in der Angebotsbibliothek anzeigen, ohne das Angebot zu öffnen.
+   Zu den Optionen zählen:
 
-So wird beispielsweise die folgende Angebotsdefinitionskarte für ein HTML-Angebot angezeigt, indem Sie den Mauszeiger über ein Angebot in der Liste „Inhalt“ bewegen und anschließend auf das Informationssymbol klicken:
+   * Ansicht (Weitere Informationen finden Sie unter [Anzeigen von Angebot-Definitionen](#section_6B059DD121434E6292CAB393507D010E) unten.)
+   * Bearbeiten 
+   * Kopieren 
+   * Verschieben (Um beispielsweise ein oder mehrere Elemente in einen Ordner zu verschieben, klicken Sie auf das Symbol **[!UICONTROL Verschieben]** für das gewünschte Element, klicken Sie auf den gewünschten Ordner und dann auf **[!UICONTROL Ablegen]**.)
+   * Löschen
+
+   Abhängig von Ihren Berechtigungen werden möglicherweise nicht alle Symbole für alle Optionen angezeigt. Beispielsweise hat ein Benutzer mit den Berechtigungen [!UICONTROL Beobachter] nicht die Rechte, die Option [!UICONTROL Kopieren] zu verwenden.
+
+1. (Optional) Führen Sie weitere Aufgaben durch, indem Sie auf der Registerkarte [!UICONTROL Angebote] den Mauszeiger über das gewünschte Angebot bzw. den Ordner halten und anschließend auf das gewünschte Symbol klicken.
+
+   ![Optionen für Bildangebote](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
+
+   Zu den Optionen zählen:
+
+   * Select
+   * Download 
+   * Eigenschaften anzeigen
+   * Bearbeiten 
+   * Anmerkungen hinzufügen
+   * Kopieren 
+
+## Anzeigen von Angebot-Definitionen {#section_6B059DD121434E6292CAB393507D010E}
+
+Sie können Angebot-Definitionsdetails auf einer Popupkarte in der [!UICONTROL Angebots]-Bibliothek Ansicht haben, ohne das Angebot zu öffnen.
+
+Beispielsweise wird auf die folgende Angebot-Definitionskarte für ein HTML-Angebot zugegriffen, indem Sie den Mauszeiger über ein Angebot in der Liste [!UICONTROL Content] bewegen und dann auf das Informationssymbol klicken:
 
 ![](assets/offer-card-html.png)
 
@@ -51,7 +74,7 @@ Die folgenden Informationen sind verfügbar:
 * Angebotspfad
 * Zuletzt geändert
 
-Klicken Sie auf die Registerkarte [!UICONTROL Angebotsnutzung], um die Aktivitäten anzuzeigen, die sich auf ein Codeangebot in der Pop-up-Karte der jeweiligen Angebotsdefinition beziehen. Diese Funktionalität gilt nicht für Bildangebote. Auf diese Weise können Sie bei der Bearbeitung von Angeboten Auswirkungen auf andere Aktivitäten vermeiden. Zu den Informationen gehören Live-Aktivitäten und inaktive Aktivitäten.
+Klicken Sie auf die Registerkarte [!UICONTROL Angebotsnutzung], um die Aktivitäten anzuzeigen, die sich auf ein Codeangebot in der Pop-up-Karte der jeweiligen Angebotsdefinition beziehen. Diese Funktionalität gilt nicht für Bildangebote. Auf diese Weise können Sie bei der Bearbeitung von Angeboten Auswirkungen auf andere Aktivitäten vermeiden. Zu den Informationen gehören [!UICONTROL Live-Aktivitäten] und [!UICONTROL Inaktive Aktivitäten].
 
 ![](assets/offer-card-usage.png)
 
@@ -68,8 +91,8 @@ Die folgenden Informationen sind verfügbar:
 * Angebotspfad
 * Zuletzt geändert
 * Umleitungs-URL
-* Alle URL-Parameter einschließen (an oder aus)
-* mbox-Sitzungs-ID weitergeben (an oder aus)
+* Alle URL-Parameter einschließen (Ein oder Aus)
+* Sitzungs-ID der Mbox weitergeben (Ein oder Aus)
 
 Die folgende Angebotsdefinitionskarte für ein Remoteangebot:
 
