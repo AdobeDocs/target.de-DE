@@ -4,10 +4,10 @@ description: Kann ich Remote-Angebot verwenden, um externe Inhalte zu hosten?
 title: Remote-Angebote erstellen
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
+source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 53%
+source-wordcount: '998'
+ht-degree: 50%
 
 ---
 
@@ -29,6 +29,9 @@ Einige Beispiele für Remote-Angebote sind:
 * Formulare
 * Rechner
 * Zinsänderungen
+* E-Mails
+* Kioske
+* Sprachassistenten
 
 ## Ein Remote-Angebot auf der Seite &quot;Code-Angebot&quot;erstellen
 
@@ -103,6 +106,8 @@ Sie können auf **[!UICONTROL Hinzufügen Parameter]** klicken, um eine oder meh
 ## Remote-Angebot in Aktivitäten verwenden
 
 Sie müssen Remote-Angebot mit dem [!UICONTROL Form-Based Experience Composer] anwenden. Sie können derzeit keine Remote-Angebot mit VEC anwenden.
+
+Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Erlebnis- und Angebot-Erstellungsoberfläche, die beim Erstellen von Erlebnissen für die Verwendung in [!UICONTROL A/B-Tests], [!UICONTROL Erlebnis-Targeting] (XT), [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Recommendations nützlich ist. a10/> Aktivitäten, bei denen der Visual Experience Composer nicht verfügbar oder nicht einsetzbar ist. ] Sie können beispielsweise den [!UICONTROL Form-Based Experience Composer] verwenden, um Erlebnisse zu erstellen, die Remote-Angebot verwenden.
 
 1. Erstellen oder bearbeiten Sie eine Aktivität im [!UICONTROL Form-Based Experience Composer].
 
