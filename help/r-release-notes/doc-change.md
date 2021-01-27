@@ -4,9 +4,9 @@ description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Do
 title: Änderungen an der Adobe Target-Produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: dfd6739ca16006295f247c962ad2758da92bee9e
+source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
 workflow-type: tm+mt
-source-wordcount: '3469'
+source-wordcount: '3480'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,8 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Januar 27 | [Erstellen von Umleitungsangeboten](/help/c-experiences/c-manage-content/offer-redirect.md) | Das Thema wurde aktualisiert. |
+|  | [Remote-Angebote erstellen](/help/c-experiences/c-manage-content/about-remote-offers.md) | Das Thema wurde aktualisiert. |
 | Januar 26 | [Konversionsrate](/help/c-reports/conversion-rate.md) | Es wurde klargestellt, wie die Zielgruppe die Summe der Quadrate in Student-T-Tests verwendet. |
 | Januar 22 | [Konversionsrate](/help/c-reports/conversion-rate.md#t-test) | Folgender Abschnitt wurde hinzugefügt: &quot;Warum empfiehlt die Zielgruppe die Verwendung von Student-T-Tests?&quot; |
 | Januar 21 | [Fehlerbehebung bei der Analytics- und Target-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Neuer Abschnitt hinzugefügt: &quot;A4T-Aktivitäten-Berichte enthalten eine Zeile mit einer großen Anzahl von &quot;nicht angegebenen&quot;Ereignissen.&quot; |
