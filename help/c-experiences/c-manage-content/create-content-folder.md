@@ -1,83 +1,107 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Erstellen Sie einen Ordner, um Elemente in der Angebote-Bibliothek in Adobe Target zu speichern.
+description: Wie erstelle ich Ordner in der Angebote-Bibliothek?
 title: Erstellen von Angebotsordnern
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 93%
+source-wordcount: '576'
+ht-degree: 21%
 
 ---
 
 
-# Erstellen von Angebotsordnern
+# Erstellen von Angebot-Ordnern
 
-Erstellen Sie einen Ordner, um Elemente in der Angebote-Bibliothek in Adobe Target zu speichern.
+Erstellen Sie Ordner in der Adobe Target-Angebot-Bibliothek, um Code-Angebote, Bild-Angebote und andere Ordner zu speichern und eine Unterordnerstruktur zu erstellen.
 
-1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie je nach Bedarf die Registerkarte **[!UICONTROL Code-Angebote]** oder **[!UICONTROL Bildangebote]** aus.
+Das Erstellen von Ordnern für Code-Angebote und Image-Angebot ist etwas anders. Weitere Informationen dazu finden Sie in den folgenden Abschnitten.
+
+## Code-Angebot-Ordner
+
+1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Code-Angebot]**.
+
+   ![Registerkarte &quot;Code-Angebot&quot;](/help/c-experiences/c-manage-content/assets/code-offers-tab.png)
+
 1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Ordner]**.
-1. Füllen Sie die Felder aus:
 
-   | Feld | Beschreibung |
-   |--- |--- |
-   | Titel (nur für Bildangebote) | Geben Sie einen beschreibenden Namen für den Ordner an. Sie können im Namen beispielsweise den Typ der enthaltenen Inhalte angeben.<br>Der Name darf folgende Zeichen nicht enthalten:<br>Prozentzeichen `%`<br>Vorwärtsschrägstrich `/`<br>Umgekehrter Schrägstrich `\`<br>Doppelpunkt `:`<br>Sternchen `*`<br>Fragezeichen `?`<br>Doppelte Anführungszeichen `"`<br>Eckige Klammer `[`<br>Eckige Klammer `]`<br>Plus-Zeichen: `+`<br>Senkrechter Strich: `|`<br>Punkt: `.`<br>Raute: `#`<br>Geschweifte Klammer: `{`<br>Geschweifte Klammer `}`<br>Einfügezeichen `^`<br>Semikolon `;`<br>Anstelle dieser Zeichen können Sie einen Bindestrich (`- `) verwenden. |
-   | Name (gilt sowohl für Code- als auch für Bildangebote) | Bearbeiten Sie den Namen, falls gewünscht. |
-   | Privat      (nur für Bildangebote) | Legt fest, dass es sich um einen privaten Ordner handelt, sodass nur Sie den Ordner und seine Inhalte sehen können. |
-   | In Listenansicht neu anzuordnen  (nur für Bildangebote) | Legt fest, dass Sie und andere die Position des Ordners in der Listenansicht ändern können.<br>Um zwischen Karten- und Listenansicht umzuschalten, klicken Sie oben rechts in der Inhaltsbibliothek auf das entsprechende Symbol. Sie können außerdem in den Anzeigeeinstellungen festlegen, welche Spalten in der Listenansicht ein- oder ausgeblendet werden sollen. |
+1. Geben Sie einen beschreibenden Namen für den Ordner ein.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-## Optionen für Code-Angebote
+### Optionen für Code-Angebote
 
 Bei Ansicht der Seite [!UICONTROL Code-Angebote] können Sie folgende Ordneraktionen durchführen, indem Sie den Mauszeiger über den Ordner halten und das entsprechende Symbol auswählen.
 
-### Informationen ![](assets/icon_info.png)
+![Mauszeiger-Symbole auf der Registerkarte &quot;Code-Angebot&quot;](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
-Ordnerinformationen anzeigen.
+* **Informationen**: Ansicht der Informationen des Angebots.
+* **Bearbeiten**: Bearbeiten Sie den Ordner oder das Angebot.
+* **Kopieren**: Kopieren Sie das Angebot. Durch Kopieren und Bearbeiten des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.
+* **Verschieben**: Klicken Sie auf das Symbol Verschieben, navigieren Sie zum Speicherort, an den Sie den Ordner verschieben möchten, und klicken Sie dann auf das  **** Dropicon. Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben, um Unterordner zu erstellen. Klicken Sie auf [!UICONTROL Auswahl löschen], um die Auswahl der ausgewählten Angebote oder Ordner aufzuheben.
+* **Löschen**: Löschen Sie das Angebot oder den Ordner.
 
-### Bearbeiten   ![](assets/icon_edit.png)
+## Image-Angebot-Ordner
 
-Den Ordner bearbeiten.
+1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Angebote]**.
 
-### Kopieren   ![](assets/icon_copy.png)
+   ![Registerkarte &quot;Angebote&quot;](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
-Den Ordner kopieren.
+1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Ordner]**.
+1. Geben Sie ein beschreibendes **[!UICONTROL Titel]** für den Ordner an.
 
-### Verschieben   ![](assets/icon_move_folder.png)
+   Sie können im Namen beispielsweise den Typ der enthaltenen Inhalte angeben. Der Name darf folgende Zeichen nicht enthalten: Prozentzeichen `%`, Schrägstrich `/`, umgekehrter Schrägstrich `\`, Doppelpunkt `:`, Sternchen `*`, Fragezeichen `?`, Dubletten-Anführungszeichen `"`, eckige Klammer `[`, eckige Klammer `]`, Plus-Zeichen: `+`, Pipe: `|`, Zeitraum: `.`, Nummernzeichen: `#`, geschweifte Klammer: `{`, geschweifte Klammer `}`, Karriere `^` oder Semikolon `;`. Sie können anstelle dieser Zeichen einen Bindestrich ( `- `) verwenden.
 
-Klicken Sie auf das Symbol, navigieren Sie zu dem Standort, an den Sie den Ordner verschieben möchten, und klicken Sie dann auf das Ablagesymbol.
+1. (Optional) Bearbeiten Sie **[!UICONTROL Name]**.
+1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL Privat]**.
 
-Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben und so Unterordner erstellen.
+   Legt fest, dass es sich um einen privaten Ordner handelt, sodass nur Sie den Ordner und seine Inhalte sehen können.
 
-Klicken Sie auf Auswahl aufheben, um die aktuelle Ordnerauswahl aufzuheben.
+1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL In Liste Ansicht neu anordnen]**.
 
-### Löschen ![](assets/icon_delete.png)
+   Legt fest, dass Sie und andere die Position des Ordners in der Listenansicht ändern können.
 
-Den Ordner löschen.
+1. (Optional) Wenn Sie zwischen der [!UICONTROL Ansicht] und der [!UICONTROL Liste-Ansicht] umschalten möchten, klicken Sie auf das Symbol [!UICONTROL Ansicht] oder [!UICONTROL Liste-Ansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichten-Einstellungen] verwenden, um die Spalten beim Anzeigen der [!UICONTROL Liste-Ansicht] weiter zu konfigurieren.
 
-## Optionen für Bildangebote
+   Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL Liste-Ansicht]:
 
-Bei Ansicht der Seite [!UICONTROL Bildangebote] können Sie folgende Ordneraktionen durchführen, indem Sie den Mauszeiger über den Ordner halten und das entsprechende Symbol auswählen:
+   ![Optionen für die Ansicht der Liste](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-### Select![](assets/icon_check.png)
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-Wählen Sie einen oder mehrere Ordner aus, an dem oder denen Folgendes vorgenommen werden soll:
+### Optionen für Bildangebote
 
-* Download
-* Kopieren
-* Verschieben
-* Löschen
+Bei Ansicht der Seite [!UICONTROL Bildangebote] können Sie folgende Ordneraktionen durchführen, indem Sie den Mauszeiger über den Ordner halten und das entsprechende Symbol auswählen.
 
-### Download   ![](assets/icon_download.png)
+Die folgende Abbildung zeigt die Mauszeiger-Symbole beim Anzeigen der [!UICONTROL Card-Ansicht].
 
-Laden Sie Ordner und Inhalt herunter.
+![Mauszeiger-Symbole auf der Registerkarte &quot;Angebote&quot;in der Ansicht &quot;Karte&quot;](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-### In Adobe Creative Cloud freigeben ![](assets/icon_creative_cloud.png)
+Die folgende Abbildung zeigt die Mauszeiger-Symbole bei der Anzeige der Ansicht [!UICONTROL Liste]. Um die Symbole anzuzeigen, klicken Sie auf ein Element in der Liste.
 
-Geben Sie Ordner und Inhalte mit der Adobe Creative Cloud frei.
+![Mauszeiger-Symbole auf der Registerkarte &quot;Angebote&quot;in der Ansicht &quot;Liste&quot;](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
 
-### Kopieren   ![](assets/icon_copy_content.png)
+* **Wählen Sie**: Wählen Sie einen oder mehrere Ordner aus, für die die folgenden Aktionen ausgeführt werden sollen:
 
-Kopieren Sie Ordner und Inhalt.
+   * Download
+   * Kopieren
+   * Verschieben
+   * Löschen
+
+   Wählen Sie ein oder mehrere Angebot aus, auf denen die folgenden Aktionen ausgeführt werden sollen:
+
+   * Freigabe
+   * Download 
+   * Eigenschaften anzeigen
+   * Bearbeiten 
+   * Anmerkungen hinzufügen
+   * Verschieben 
+
+
+* **Herunterladen**: Laden Sie das Image-Angebot oder den Ordner und dessen Inhalt herunter.
+* **Eigenschaften** der Ansicht: Ansicht der Eigenschaften des Elements. Klicken Sie auf die Registerkarte [!UICONTROL Einfach] und auf die Registerkarte [!UICONTROL Erweitert], um alle verfügbaren Informationen Ansicht.
+* **Weitere Aktionen**: Zeigen Sie zusätzliche Optionen in der  [!UICONTROL Card-Ansicht] an.
+* **Bearbeiten**: Bearbeiten Sie den Ordner oder das Angebot.
+* **Anmerkung**: hinzufügen Anmerkungen zum Image-Angebot.
+* **Kopieren**: Kopieren Sie das Angebot. Durch Kopieren und Bearbeiten des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.
