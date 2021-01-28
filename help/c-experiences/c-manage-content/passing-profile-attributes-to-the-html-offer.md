@@ -1,13 +1,13 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Sie können Profil- und Aktivitäten-Werte direkt in einem HTML- oder JSON-Angebot in Adobe Target anzeigen.
+description: Wie kann ich Profil- und Aktivität-Informationen direkt in ein HTML- oder JSON-Angebot übergeben?
 title: Übergeben dynamischer Daten in Angebote
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 88%
+source-wordcount: '491'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Sie können Besucher-Informationen, die im Profil [!DNL Adobe Target] gespeichert sind, dynamisch anzeigen. Ebenso können Aktivitätsinformationen (wie der Name der Aktivität oder der Name des Erlebnisses) auch verwendet werden, um ein einzelnes Angebot zu erstellen, das personalisierte Inhalte dynamisch basierend auf den Interessen des Besuchers, dem vergangenem Verhalten und Gesamtprofil zurückgibt.
 
-## Geschäftsszenarios
+## Geschäftsfälle
 
 * Fördern Sie ein Angebot mit Rabatt, um das zuletzt gekaufte Produkt „erneut aufzufüllen“ oder „nachzufüllen“. Anstatt ein separates Angebot für jedes Element in Ihrem Katalog zu erstellen, können Sie ein Angebot mit dynamischem Text erstellen, das das „zuletzt gekaufte Produkt“ aus dem Profil liest und einen Link im Angebot anzeigt.
 * Ein Besucher gelangt über `keyword=world` `cup` auf Ihre Landingpage. Der Begriff *World cup* wird im Angebot angezeigt.
@@ -52,15 +52,21 @@ Weitere Informationen zu Empfehlungsdesigns finden Sie in den weiteren Beispiele
 
 ## Implementierung
 
-Verwenden Sie für an eine Mbox übergebene Profilparameter folgende Syntax: `${profile.parameter}` Verwenden Sie für Profilparameter, die in einem Profilskript erstellt wurden, folgende Syntax:
+Verwenden Sie für an eine mbox weitergegebene Profil-Parameter die folgende Syntax:
+
+`${profile.parameter}`
+
+Verwenden Sie für in einem Profil-Skript erstellte Profil-Parameter die folgende Syntax:
 
 `${user.parameter}`
 
-Wenn Sie dynamische Attribute in einem Recommendations-Entwurf verwenden, müssen Sie einen umgekehrten Schrägstrich ( \ ) vor dem Dollarzeichen ( $ ) einfügen, damit der dynamische Wert korrekt dargestellt wird: `\${user.endpoint.lastViewedEntity}`
+Wenn Sie dynamische Attribute in einem [!DNL Recommendations]-Design verwenden, müssen Sie einen umgekehrten Schrägstrich ( \ ) vor dem Dollarzeichen ( $ ) einfügen, damit der dynamische Wert korrekt dargestellt wird:
+
+`\${user.endpoint.lastViewedEntity}`
 
 Da diese Variablen serverseitig durch den entsprechenden Wert ersetzt werden, werden für eine ordnungsgemäße Anzeige weder Anführungszeichen noch weiteres JavaScript benötigt.
 
-Sie können für Werte, die Sie in Angeboten bereitstellen möchten, auch Standardwerte angeben. Die Syntax lautet wie folgt:
+Für Werte, die Sie Angeboten bereitstellen möchten, können auch Standardwerte angegeben werden. Die Syntax lautet wie folgt:
 
 `${user.testAttribute default="All Items!"}`
 
