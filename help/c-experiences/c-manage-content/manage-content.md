@@ -4,10 +4,10 @@ description: Wie verwalte ich Code- und Image-Angebot?
 title: Angebote
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 40%
+source-wordcount: '525'
+ht-degree: 37%
 
 ---
 
@@ -44,6 +44,8 @@ Verwenden Sie die Bibliothek [!UICONTROL Angebote] in [!DNL Adobe Target], um Ih
 
    Abhängig von Ihren Berechtigungen werden möglicherweise nicht alle Symbole für alle Optionen angezeigt. Beispielsweise hat ein Benutzer mit den Berechtigungen [!UICONTROL Beobachter] nicht die Rechte, die Option [!UICONTROL Kopieren] zu verwenden.
 
+   Ausführliche Informationen zu den Aufgaben, die Sie an Angeboten und Ordnern durchführen können, finden Sie unter [Mit Inhalten arbeiten in der Asset-Bibliothek](/help/c-experiences/c-manage-content/assets-working.md).
+
 1. (Optional) Führen Sie weitere Aufgaben durch, indem Sie auf der Registerkarte [!UICONTROL Angebote] den Mauszeiger über das gewünschte Angebot bzw. den Ordner halten und anschließend auf das gewünschte Symbol klicken.
 
    ![Optionen für Bildangebote](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
@@ -56,6 +58,8 @@ Verwenden Sie die Bibliothek [!UICONTROL Angebote] in [!DNL Adobe Target], um Ih
    * Bearbeiten 
    * Anmerkungen hinzufügen
    * Kopieren 
+
+   Ausführliche Informationen zu den Aufgaben, die Sie an Angeboten und Ordnern durchführen können, finden Sie unter [Mit Inhalten arbeiten in der Asset-Bibliothek](/help/c-experiences/c-manage-content/assets-working.md).
 
 ## Anzeigen von Angebot-Definitionen {#section_6B059DD121434E6292CAB393507D010E}
 
