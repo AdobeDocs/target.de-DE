@@ -4,9 +4,9 @@ description: Wie erstelle ich Ordner in der Angebote-Bibliothek?
 title: Erstellen von Angebotsordnern
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
+source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 21%
 
 ---
@@ -62,13 +62,15 @@ Bei Ansicht der Seite [!UICONTROL Code-Angebote] können Sie folgende Ordnerakti
 
    Legt fest, dass Sie und andere die Position des Ordners in der Listenansicht ändern können.
 
-1. (Optional) Wenn Sie zwischen der [!UICONTROL Ansicht] und der [!UICONTROL Liste-Ansicht] umschalten möchten, klicken Sie auf das Symbol [!UICONTROL Ansicht] oder [!UICONTROL Liste-Ansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichten-Einstellungen] verwenden, um die Spalten beim Anzeigen der [!UICONTROL Liste-Ansicht] weiter zu konfigurieren.
-
-   Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL Liste-Ansicht]:
-
-   ![Optionen für die Ansicht der Liste](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+
+### Wechsel zwischen Ansicht und Ansicht der Liste
+
+Klicken Sie zum Umschalten zwischen der [!UICONTROL Ansicht] und der [!UICONTROL Liste-Ansicht] auf das Symbol [!UICONTROL Ansicht] oder auf das Symbol [!UICONTROL Liste-Ansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichten-Einstellungen] verwenden, um die Spalten beim Anzeigen der [!UICONTROL Liste-Ansicht] weiter zu konfigurieren.
+
+Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL Liste-Ansicht]:
+
+![Optionen für die Ansicht der Liste](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 ### Optionen für Bildangebote
 
