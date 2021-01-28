@@ -4,10 +4,10 @@ description: Wie erstelle ich Ordner in der Angebote-Bibliothek?
 title: Erstellen von Angebotsordnern
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 11%
+source-wordcount: '245'
+ht-degree: 21%
 
 ---
 
@@ -30,17 +30,7 @@ Das Erstellen von Ordnern für Code-Angebote und Image-Angebot ist etwas anders.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-### Optionen für Code-Angebote
-
-Wenn Sie die Seite [!UICONTROL Angebote] anzeigen, können Sie die folgenden Aktionen für ein Element ausführen, indem Sie den Mauszeiger über ein Angebot oder einen Ordner halten und dann das entsprechende Symbol auswählen.
-
-![Mauszeiger-Symbole auf der Registerkarte &quot;Code-Angebot&quot;](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
-
-* **Informationen**: Ansicht der Informationen des Angebots.
-* **Bearbeiten**: Bearbeiten Sie den Ordner oder das Angebot.
-* **Kopieren**: Kopieren Sie das Angebot. Durch Kopieren und Bearbeiten des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.
-* **Verschieben**: Klicken Sie auf das Symbol Verschieben, navigieren Sie zum Speicherort, an den Sie das Angebot oder den Ordner verschieben möchten, und klicken Sie dann auf das  **** Dropicon. Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben, um Unterordner zu erstellen. Klicken Sie auf [!UICONTROL Auswahl löschen], um die Auswahl der ausgewählten Angebote oder Ordner aufzuheben.
-* **Löschen**: Löschen Sie das Angebot oder den Ordner.
+Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen können, finden Sie unter [Mit Inhalten arbeiten in der Asset-Bibliothek](/help/c-experiences/c-manage-content/assets-working.md).
 
 ## Image-Angebot-Ordner
 
@@ -66,46 +56,4 @@ Wenn Sie die Seite [!UICONTROL Angebote] anzeigen, können Sie die folgenden Akt
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-### Wechsel zwischen Ansicht und Ansicht der Liste
-
-Klicken Sie zum Umschalten zwischen der [!UICONTROL Ansicht] und der [!UICONTROL Liste-Ansicht] auf das Symbol [!UICONTROL Ansicht] oder auf das Symbol [!UICONTROL Liste-Ansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichten-Einstellungen] verwenden, um die Spalten beim Anzeigen der [!UICONTROL Liste-Ansicht] weiter zu konfigurieren.
-
-Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL Liste-Ansicht]:
-
-![Optionen für die Ansicht der Liste](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
-### Optionen für Bildangebote
-
-Wenn Sie die Seite [!UICONTROL Image-Angebot] anzeigen, können Sie die folgenden Aktionen für ein Element ausführen, indem Sie den Mauszeiger über ein Angebot oder einen Ordner halten und dann das entsprechende Symbol auswählen.
-
-Die folgende Abbildung zeigt die Mauszeiger-Symbole beim Anzeigen der [!UICONTROL Card-Ansicht].
-
-![Mauszeiger-Symbole auf der Registerkarte &quot;Angebote&quot;in der Ansicht &quot;Karte&quot;](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
-
-Die folgende Abbildung zeigt die Mauszeiger-Symbole bei der Anzeige der Ansicht [!UICONTROL Liste]. Um die Symbole anzuzeigen, klicken Sie auf ein Element in der Liste.
-
-![Mauszeiger-Symbole auf der Registerkarte &quot;Angebote&quot;in der Ansicht &quot;Liste&quot;](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
-
-* **Wählen Sie**: Wählen Sie einen oder mehrere Ordner aus, für die die folgenden Aktionen ausgeführt werden sollen:
-
-   * Download
-   * Kopieren
-   * Verschieben
-   * Löschen
-
-   Wählen Sie ein oder mehrere Angebot aus, auf denen die folgenden Aktionen ausgeführt werden sollen:
-
-   * Freigabe
-   * Download 
-   * Eigenschaften anzeigen
-   * Bearbeiten 
-   * Anmerkungen hinzufügen
-   * Verschieben 
-
-
-* **Herunterladen**: Laden Sie das Image-Angebot oder den Ordner und dessen Inhalt herunter.
-* **Eigenschaften** der Ansicht: Ansicht der Eigenschaften des Elements. Klicken Sie auf die Registerkarte [!UICONTROL Einfach] und auf die Registerkarte [!UICONTROL Erweitert], um alle verfügbaren Informationen Ansicht.
-* **Weitere Aktionen**: Zeigen Sie zusätzliche Optionen in der  [!UICONTROL Card-Ansicht] an.
-* **Bearbeiten**: Bearbeiten Sie den Ordner oder das Angebot.
-* **Anmerkung**: hinzufügen Anmerkungen zum Image-Angebot.
-* **Kopieren**: Kopieren Sie das Angebot. Durch Kopieren und Bearbeiten des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.
+Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen können, finden Sie unter [Mit Inhalten arbeiten in der Asset-Bibliothek](/help/c-experiences/c-manage-content/assets-working.md).
