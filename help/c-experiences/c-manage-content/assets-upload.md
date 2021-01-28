@@ -1,29 +1,42 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: Sie können Elemente zur Image Angebots-Liste in Adobe Target hinzufügen.
+description: Wie lade ich Bilder hoch, um sie als Angebote zu verwenden?
 title: Hochladen von Inhalten
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 68%
+source-wordcount: '215'
+ht-degree: 17%
 
 ---
 
 
 # Hochladen von Inhalten
 
-Sie können Elemente der Liste &quot;Image-Angebot&quot;in [!DNL Adobe Target] hinzufügen oder daraus entfernen.
+Sie können Bilder in die Liste [!UICONTROL Image-Angebot] in [!DNL Adobe Target] hochladen, um sie als Bild-Angebote in Aktivitäten zu verwenden. Sie können auch Angebote löschen, die in Aktivitäten nicht mehr benötigt werden.
 
-1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie anschließend die Registerkarte **[!UICONTROL Bildangebote]** aus.
+## Angebote für Hinzufügen Liste
+
+1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Angebote]**.
+
+   ![Angebote > Bild-Angebote](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
+
 1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Dateien]**.
-1. Wählen Sie das Element aus, das Sie hinzufügen möchten, und klicken Sie anschließend auf **[!UICONTROL Öffnen]**.
-1. Bearbeiten Sie den Dateinamen (bei Bedarf) und klicken Sie dann auf **[!UICONTROL Hochladen]**.
+1. Navigieren Sie zum hinzuzufügenden Element, wählen Sie es aus und klicken Sie dann auf **[!UICONTROL Öffnen]**.
+1. Bearbeiten Sie bei Bedarf den Dateinamen des Elements und klicken Sie dann auf **[!UICONTROL Upload]**.
 
-   Das Element wird in die Bibliothek hochgeladen.
+## Löschen von Angeboten oder Ordnern
 
-## Schulungsvideo: Das Content-Repository  ![Übersichtskennzeichnung](/help/assets/overview.png)
+Klicken Sie zum Umschalten zwischen der [!UICONTROL Ansicht] und der [!UICONTROL Liste-Ansicht] auf das Symbol [!UICONTROL Ansicht] oder auf das Symbol [!UICONTROL Liste-Ansicht] in der oberen rechten Ecke der Inhaltsbibliothek.
+
+Bewegen Sie den Mauszeiger über das Angebot bzw. den Ordner der [!UICONTROL Ansicht], klicken Sie auf das Symbol **[!UICONTROL Auswählen]** (Häkchen) und dann auf **[!UICONTROL Löschen]**.
+
+Klicken Sie in der Ansicht [!UICONTROL Liste] auf der linken Seite der Liste auf das Miniaturbild, um das gewünschte Angebot bzw. den gewünschten Bildordner auszuwählen, und klicken Sie dann auf **[!UICONTROL Löschen]**, wie unten dargestellt:
+
+![Ausgewähltes Element löschen](/help/c-experiences/c-manage-content/assets/delete-image-offer.png)
+
+## Schulungsvideo: Inhaltsverzeichnis ![Kennzeichen ](/help/assets/overview.png)
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 
