@@ -4,10 +4,10 @@ description: Wie erstelle ich Ordner in der Angebote-Bibliothek?
 title: Erstellen von Angebotsordnern
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 21%
+source-wordcount: '588'
+ht-degree: 11%
 
 ---
 
@@ -32,14 +32,14 @@ Das Erstellen von Ordnern für Code-Angebote und Image-Angebot ist etwas anders.
 
 ### Optionen für Code-Angebote
 
-Bei Ansicht der Seite [!UICONTROL Code-Angebote] können Sie folgende Ordneraktionen durchführen, indem Sie den Mauszeiger über den Ordner halten und das entsprechende Symbol auswählen.
+Wenn Sie die Seite [!UICONTROL Angebote] anzeigen, können Sie die folgenden Aktionen für ein Element ausführen, indem Sie den Mauszeiger über ein Angebot oder einen Ordner halten und dann das entsprechende Symbol auswählen.
 
 ![Mauszeiger-Symbole auf der Registerkarte &quot;Code-Angebot&quot;](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
 * **Informationen**: Ansicht der Informationen des Angebots.
 * **Bearbeiten**: Bearbeiten Sie den Ordner oder das Angebot.
 * **Kopieren**: Kopieren Sie das Angebot. Durch Kopieren und Bearbeiten des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.
-* **Verschieben**: Klicken Sie auf das Symbol Verschieben, navigieren Sie zum Speicherort, an den Sie den Ordner verschieben möchten, und klicken Sie dann auf das  **** Dropicon. Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben, um Unterordner zu erstellen. Klicken Sie auf [!UICONTROL Auswahl löschen], um die Auswahl der ausgewählten Angebote oder Ordner aufzuheben.
+* **Verschieben**: Klicken Sie auf das Symbol Verschieben, navigieren Sie zum Speicherort, an den Sie das Angebot oder den Ordner verschieben möchten, und klicken Sie dann auf das  **** Dropicon. Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben, um Unterordner zu erstellen. Klicken Sie auf [!UICONTROL Auswahl löschen], um die Auswahl der ausgewählten Angebote oder Ordner aufzuheben.
 * **Löschen**: Löschen Sie das Angebot oder den Ordner.
 
 ## Image-Angebot-Ordner
@@ -51,7 +51,9 @@ Bei Ansicht der Seite [!UICONTROL Code-Angebote] können Sie folgende Ordnerakti
 1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Ordner]**.
 1. Geben Sie ein beschreibendes **[!UICONTROL Titel]** für den Ordner an.
 
-   Sie können im Namen beispielsweise den Typ der enthaltenen Inhalte angeben. Der Name darf folgende Zeichen nicht enthalten: Prozentzeichen `%`, Schrägstrich `/`, umgekehrter Schrägstrich `\`, Doppelpunkt `:`, Sternchen `*`, Fragezeichen `?`, Dubletten-Anführungszeichen `"`, eckige Klammer `[`, eckige Klammer `]`, Plus-Zeichen: `+`, Pipe: `|`, Zeitraum: `.`, Nummernzeichen: `#`, geschweifte Klammer: `{`, geschweifte Klammer `}`, Karriere `^` oder Semikolon `;`. Sie können anstelle dieser Zeichen einen Bindestrich ( `- `) verwenden.
+   Sie können im Namen beispielsweise den Typ der enthaltenen Inhalte angeben.
+
+   Der Name darf folgende Zeichen nicht enthalten: Prozentzeichen `%`, Schrägstrich `/`, umgekehrter Schrägstrich `\`, Doppelpunkt `:`, Sternchen `*`, Fragezeichen `?`, Dubletten-Anführungszeichen `"`, eckige Klammer `[`, eckige Klammer `]`, Plus-Zeichen: `+`, Pipe: `|`, Zeitraum: `.`, Nummernzeichen: `#`, geschweifte Klammer: `{`, geschweifte Klammer `}`, Karriere `^` oder Semikolon `;`. Sie können anstelle dieser Zeichen einen Bindestrich ( `- `) verwenden.
 
 1. (Optional) Bearbeiten Sie **[!UICONTROL Name]**.
 1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL Privat]**.
@@ -60,7 +62,7 @@ Bei Ansicht der Seite [!UICONTROL Code-Angebote] können Sie folgende Ordnerakti
 
 1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL In Liste Ansicht neu anordnen]**.
 
-   Legt fest, dass Sie und andere die Position des Ordners in der Listenansicht ändern können.
+   Legt fest, dass Sie und andere die Ordnerposition in der Ansicht [!UICONTROL Liste] neu anordnen können.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -74,7 +76,7 @@ Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICON
 
 ### Optionen für Bildangebote
 
-Bei Ansicht der Seite [!UICONTROL Bildangebote] können Sie folgende Ordneraktionen durchführen, indem Sie den Mauszeiger über den Ordner halten und das entsprechende Symbol auswählen.
+Wenn Sie die Seite [!UICONTROL Image-Angebot] anzeigen, können Sie die folgenden Aktionen für ein Element ausführen, indem Sie den Mauszeiger über ein Angebot oder einen Ordner halten und dann das entsprechende Symbol auswählen.
 
 Die folgende Abbildung zeigt die Mauszeiger-Symbole beim Anzeigen der [!UICONTROL Card-Ansicht].
 
