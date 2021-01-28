@@ -4,10 +4,10 @@ description: Details zu den Änderungen in den einzelnen Versionen von Adobe Tar
 title: „at.js“-Versionsdetails
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
+source-git-commit: cc8d32d0ec4164c5cbd86ececdbfd24c7286a236
 workflow-type: tm+mt
-source-wordcount: '4034'
-ht-degree: 84%
+source-wordcount: '4069'
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ Diese Version von at.js ist ein Maintenance Release und umfasst die folgenden Fe
 
 Diese Version von at.js ist ein Maintenance Release und beinhaltet die folgende Fehlerbehebung:
 
-* Es wurde ein Problem mit der mbox-Klick-Tracking und A4T behoben.
+* Es wurde ein Problem mit der mbox-Klick-Tracking und A4T behoben. Mit 0n-Klick löste Zielgruppe einen Versand-API-Aufruf mit den richtigen mbox- und mbox-Parametern aus. Die SDID stimmte jedoch nicht mit der im [!DNL Analytics]-Aufruf überein, daher gab es keine Trefferzuordnung und Konvertierung. (TNT-38372)
 
 ## at.js 2.3.2 (24. Juli 2020)
 
