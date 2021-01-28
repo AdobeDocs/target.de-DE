@@ -1,13 +1,13 @@
 ---
 keywords: content library;assets;search;smart collections;search folder;filter
-description: Suchen Sie anhand bestimmter Schlüsselwörter nach Assets und speichern Sie Suchordner, auch „intelligente Sammlungen“ genannt, die automatisch mit Ihren Suchergebnissen aktualisiert werden.
+description: Wie suche ich nach Assets nach Schlüsselwörtern und speichere Suchordner?
 title: Durchsuchen von Inhalten und Erstellen intelligenter Sammlungen
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '329'
+ht-degree: 94%
 
 ---
 
@@ -18,10 +18,7 @@ Suchen Sie anhand bestimmter Schlüsselwörter nach Assets und speichern Sie Suc
 
 Dieser Abschnitt enthält die folgenden Informationen:
 
-* [Suche nach Assets mit Schlüsselwörtern ](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [Speichern intelligenter Sammlungen ](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
-
-## Suche nach Assets mit Schlüsselwörtern   {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Nach Assets nach Keyword {#section_2465A71BC95942588F586B1EC8B9E5DB} suchen
 
 1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Bildangebote]**, um auf die [!UICONTROL Asset-Bibliothek] zuzugreifen.
 
