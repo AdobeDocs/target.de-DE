@@ -3,10 +3,10 @@ user-guide-title: Adobe Target-Anleitung
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, mobilen Seiten, Apps, sozialen Medien und anderer digitaler Kanäle maximieren können.
 translation-type: tm+mt
-source-git-commit: 3202b1d73e9657c843dc225c2161b4524d442b84
+source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 85%
+source-wordcount: '1579'
+ht-degree: 84%
 
 ---
 
@@ -344,7 +344,7 @@ ht-degree: 85%
       + [Remote-Angebote erstellen](c-experiences/c-manage-content/about-remote-offers.md)
       + [Erstellen von JSON-Angeboten](c-experiences/c-manage-content/create-json-offer.md)
       + [Arbeiten mit Inhalt in der Bibliothek](c-experiences/c-manage-content/assets-working.md)
-      + [Durchsuchen von Inhalten und Erstellen intelligenter Sammlungen](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [Inhalt durchsuchen](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Übergeben dynamischer Daten in Angebote](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM-Experience Fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Berichte{#reports}
