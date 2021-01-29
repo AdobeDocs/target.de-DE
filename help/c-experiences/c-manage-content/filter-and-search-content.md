@@ -1,65 +1,58 @@
 ---
-keywords: content library;assets;search;smart collections;search folder;filter
-description: Wie suche ich nach Assets nach Schlüsselwörtern und speichere Suchordner?
-title: Durchsuchen von Inhalten und Erstellen intelligenter Sammlungen
+keywords: content library;assets;search;filter
+description: Wie suche ich nach Assets nach Schlüsselwörtern?
+title: Inhalt durchsuchen
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 94%
+source-wordcount: '239'
+ht-degree: 13%
 
 ---
 
 
-# Durchsuchen von Inhalten und Erstellen intelligenter Sammlungen
+# Inhalt durchsuchen
 
-Suchen Sie anhand bestimmter Schlüsselwörter nach Assets und speichern Sie Suchordner, auch „intelligente Sammlungen“ genannt, die automatisch mit Ihren Suchergebnissen aktualisiert werden.
+Suchen Sie in der [!UICONTROL Angebots]-Bibliothek unter [!DNL Adobe Target] nach Assets nach Schlüsselwörtern.
 
-Dieser Abschnitt enthält die folgenden Informationen:
+## Suche nach Code-Angeboten nach Suchbegriff
 
-## Nach Assets nach Keyword {#section_2465A71BC95942588F586B1EC8B9E5DB} suchen
+1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Code-Angebot]**.
+1. Geben Sie die gewünschten Suchbegriffe in das Feld [!UICONTROL Suche] ein.
 
-1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Bildangebote]**, um auf die [!UICONTROL Asset-Bibliothek] zuzugreifen.
+   Beachten Sie, dass Sie Ihre Suche auch mithilfe der Dropdown-Listen [!UICONTROL Typ] und [!UICONTROL Quelle] weiter verfeinern können.
 
-   Sie können oben rechts auf das Symbol für die [!UICONTROL Kartenansicht] klicken, um Assets im Kartenformat anzuzeigen.
+## Suchen nach Bild-Angeboten nach Suchbegriff {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-   Oder
+1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Angebote]**.
 
-   Sie können oben rechts auf das Symbol für die [!UICONTROL Listenansicht] klicken, um Assets im Listenformat anzuzeigen.
+1. (Optional) Schalten Sie zwischen der Ansicht [!UICONTROL Ansicht] und [!UICONTROL Liste] um und klicken Sie auf das Symbol [!UICONTROL Ansicht] oder [!UICONTROL Liste-Ansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichten-Einstellungen] verwenden, um die Spalten beim Anzeigen der [!UICONTROL Liste-Ansicht] weiter zu konfigurieren.
+
+   Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL Liste-Ansicht]:
+
+   ![Optionen für die Ansicht der Liste](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. Klicken Sie oben links auf das Symbol **[!UICONTROL Nur Inhalt]**, um das Suchfeld einzublenden.
 
-   ![](assets/search_assets.png)
+   ![Nur Inhalt, Option](/help/c-experiences/c-manage-content/assets/content-only.png)
 
 1. Geben Sie in das Suchfeld ein Schlüsselwort für das Asset/die Assets ein, das oder die Sie finden möchten, und drücken Sie die Eingabetaste.
 
-## Speichern intelligenter Sammlungen   {#section_5C95159543B5405EB8C8E47B518DF4AB}
+1. (Optional) Verwenden Sie den Bereich **[!UICONTROL Filter und Optionen]**, um die Suche weiter zu verfeinern.
 
-Sie können gespeicherte Suchen erstellen, auch „intelligente Sammlungen“ genannt, um Zeit zu sparen, wenn Sie ähnliche Suchen durchführen. Mit einer gespeicherten Suche wird eine intelligente Sammlung erstellt, die automatisch mit Suchergebnissen aktualisiert wird.
+   ![Filter- und Optionsbereich](/help/c-experiences/c-manage-content/assets/filter-and-options.png)
 
-1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Bildangebote]**, um auf die [!UICONTROL Asset-Bibliothek] zuzugreifen.
+   Sie können filtern nach:
 
-   ![](assets/content.png)
-
-1. Klicken Sie oben links auf das Symbol **[!UICONTROL Nur Inhalt]**, um das Feld [!UICONTROL „Filter und Optionen“] in der linken Leiste einzublenden.
-1. Klicken Sie auf das Symbol **[!UICONTROL Durchsuchen]**, um das Dialogfeld [!UICONTROL „Pfad auswählen“] einzublenden.
-
-   ![](assets/browse_folders.png)
-
-1. Lokalisieren Sie den gewünschten Ordner, auf dem die intelligente Sammlung basieren soll, und wählen Sie ihn aus. Klicken Sie anschließend auf das **[!UICONTROL Bestätigungssymbol.]**
-
-   ![](assets/browse_folders2.png)
-
-1. (Optional) Wählen Sie aus den verschiedenen Optionen einige aus, um Ihren Filter beispielsweise auf bestimmte Dateitypen und -größen zu beschränken.
-1. Klicken Sie auf **[!UICONTROL Intelligente Sammlung speichern]** unten im Feld [!UICONTROL Filter und Optionen], um die Speicheroptionen anzuzeigen.
-
-   ![](assets/save_smart_collection_options.png)
-
-1. Geben Sie der intelligenten Sammlung einen Namen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Öffentlich]**, wenn alle Benutzer Ihres [!DNL Target]-Kontos Zugriff auf die intelligente Sammlung erhalten sollen, und klicken Sie auf **[!UICONTROL Speichern]**.
-
-   Die intelligente Sammlung wird für die künftige Verwendung der Liste Ihrer gespeicherten Suchen hinzugefügt:
-
-   ![](assets/saved_smart_collection.png)
-
-Sie können eine gespeicherte intelligente Sammlung bearbeiten, indem Sie sie aus der Dropdownliste [!UICONTROL Gespeicherte Suchen] auswählen und öffnen und anschließend auf [!UICONTROL Intelligente Sammlung bearbeiten] klicken.
+   * Dateityp: Bilder, Dokumente, Multimedia oder Archive.
+   * Dateigröße: Klein, mittel oder groß
+   * Zuletzt geändert: Stunde, Tag, Woche, Monat oder Jahr.
+   * Genehmigungsstatus: Genehmigt oder Abgelehnt.
+   * Ablaufstatus: Abgelaufen.
+   * Durchschnittsbewertung: 1 bis 5.
+   * Ausrichtung: Horizontal, Vertikal oder Quadrat.
+   * Stil: Farbe oder Schwarzweiß.
+   * Nutzungsprozentsatz: Minimum bis Maximum
+   * Impressionsbewertung: Minimum bis Maximum
+   * Klicken Sie auf Ergebnis: 1 bis 5.
