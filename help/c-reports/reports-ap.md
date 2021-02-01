@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Für Benutzer von Automated Personalization-Aktivitäten in Adobe Target stehen spezielle Berichte zur Verfügung.
+description: Wie verwende ich die Zusammenfassungsberichte von Automated Personalization?
 title: Automated Personalization-Zusammenfassungsberichte
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 72%
+source-wordcount: '626'
+ht-degree: 43%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Berichte zur automatisierten Personalisierung{#automated-personalization-summary-reports}
+# ![PREMIUM](/help/assets/premium.png) Berichte zur automatisierten Personalisierung
 
 Spezialisierte Berichte stehen Benutzern der Aktivitäten [!UICONTROL Automated Personalization] in [!DNL Adobe Target] zur Verfügung.
 
@@ -24,9 +24,14 @@ Spezialisierte Berichte stehen Benutzern der Aktivitäten [!UICONTROL Automated 
 
    Wenn Sie viele Aktivitäten haben, können Sie die Liste filtern, indem Sie [!UICONTROL Automatisierte Personalisierung] in der Dropdownliste [!UICONTROL Typ] auswählen.
 
-1. (Optional) Klicken Sie auf das Symbol zum [!UICONTROL Herunterladen], um die Zusammenfassungsansicht herunterzuladen (etwa zum Vergleichen von Kontroll- und Targeting-Traffic), aufgeschlüsselt nach allen verfügbaren Erfolgsmetriken.
+1. (Optional) Klicken Sie auf das Symbol zum **[!UICONTROL Herunterladen]**, um die Zusammenfassungsansicht herunterzuladen (etwa zum Vergleichen von Kontroll- und Targeting-Traffic), aufgeschlüsselt nach allen verfügbaren Erfolgsmetriken.
 
 [!UICONTROL Automatisierte Personalisierung] liefert die folgenden Berichte:
+
+* Aktivität
+* Angebot-Ebene
+* Automatisierte Segmente
+* Wichtige Attribute
 
 ## Aktivitätsstufenbericht {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
@@ -48,7 +53,17 @@ Angebote können innerhalb von Berichtsgruppen angezeigt werden. Diese Berichtsg
 
 >[!NOTE]
 >
->Das Uhrsymbol zeigt an, dass das Algorithmusmodell noch erstellt wird. Das Häkchen zeigt an, dass der Basisalgorithmus eingerichtet wurde.
+>Das Uhrsymbol zeigt an, dass das Algorithmusmodell noch erstellt wird. Das Häkchen-Symbol zeigt an, dass der Basisalgorithmus eingerichtet wurde.
+
+## Datenunterschiede zwischen den Berichten auf Aktivität- und auf Angebot-Ebene
+
+**[!UICONTROL Bericht ] zur** Aktivität: Besuche, die im Bericht  [!UICONTROL Aktivität ] Levelbericht aufgezeichnet werden, erfassen die Anzahl der Besuche bei Kontrollerlebnissen im Vergleich zu Kontrollerlebnissen. &quot;zielgerichteter&quot;Traffic. Zielgerichteter Traffic umfasst eine Kombination aus Erkundungstransfer und personalisiertem Traffic.
+
+**Bericht** auf Angebot-Ebene: Impressionen, die im  [!UICONTROL Angebot ] Levelreport erfasst werden, erfassen die Anzahl der Impressionen für jedes Angebot. Daher entspricht die Gesamtzahl der Besuche, die in einer Aktivität mit mehr als einem Ort im Bericht [!UICONTROL Angebot-Ebene] aller Berichte-Gruppen aufgezeichnet wurden, dem Mehrfachen der Anzahl der Besuche, die für Kontroll- oder Targeting-Traffic im Bericht [!UICONTROL Aktivität-Ebene] aufgezeichnet wurden, dem Mehrfachen der Gesamtzahl der Orte in der Aktivität. Impressionen von Standardinhalten, die an Orten auftreten, an denen Standardinhalt verfügbar war, werden in der Angebot-Gruppe &quot;Standardinhalt&quot;aufgezeichnet. Impressionen von Angeboten, die keiner Berichte-Gruppe zugewiesen wurden, werden in der Gruppe &quot;Nicht gruppierte&quot;Angebot aufgezeichnet.
+
+>[!NOTE]
+
+Die Anzahl der Impressionen, die im Bericht [!UICONTROL Angebot Level] aufgezeichnet werden, ist möglicherweise keine exakte Ganzzahl, bei der es sich um ein Vielfaches der im Bericht [!UICONTROL Aktivität Level] aufgezeichneten Besuche handelt. Dies ist auf geringfügige Diskrepanzen bei der Erfassung des Datenverkehrs über das Internet zurückzuführen (die typische Diskrepanz liegt unter 5 %). Die Anzahl der Impressionen ist daher kein exaktes Vielfaches, wenn sich die Anzahl der in der Aktivität verfügbaren Stellen nach der Aktivierung der Aktivität verändert hat.
 
 ## Automatisierte Segmente
 
