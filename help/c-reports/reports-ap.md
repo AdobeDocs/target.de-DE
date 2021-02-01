@@ -4,10 +4,10 @@ description: Wie verwende ich die Zusammenfassungsberichte von Automated Persona
 title: Automated Personalization-Zusammenfassungsberichte
 feature: Reports
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 43%
+source-wordcount: '631'
+ht-degree: 44%
 
 ---
 
@@ -55,16 +55,6 @@ Angebote können innerhalb von Berichtsgruppen angezeigt werden. Diese Berichtsg
 >
 >Das Uhrsymbol zeigt an, dass das Algorithmusmodell noch erstellt wird. Das Häkchen-Symbol zeigt an, dass der Basisalgorithmus eingerichtet wurde.
 
-## Datenunterschiede zwischen den Berichten auf Aktivität- und auf Angebot-Ebene
-
-**[!UICONTROL Bericht ] zur** Aktivität: Besuche, die im Bericht  [!UICONTROL Aktivität ] Levelbericht aufgezeichnet werden, erfassen die Anzahl der Besuche bei Kontrollerlebnissen im Vergleich zu Kontrollerlebnissen. &quot;zielgerichteter&quot;Traffic. Zielgerichteter Traffic umfasst eine Kombination aus Erkundungstransfer und personalisiertem Traffic.
-
-**Bericht** auf Angebot-Ebene: Impressionen, die im  [!UICONTROL Angebot ] Levelreport erfasst werden, erfassen die Anzahl der Impressionen für jedes Angebot. Daher entspricht die Gesamtzahl der Besuche, die in einer Aktivität mit mehr als einem Ort im Bericht [!UICONTROL Angebot-Ebene] aller Berichte-Gruppen aufgezeichnet wurden, dem Mehrfachen der Anzahl der Besuche, die für Kontroll- oder Targeting-Traffic im Bericht [!UICONTROL Aktivität-Ebene] aufgezeichnet wurden, dem Mehrfachen der Gesamtzahl der Orte in der Aktivität. Impressionen von Standardinhalten, die an Orten auftreten, an denen Standardinhalt verfügbar war, werden in der Angebot-Gruppe &quot;Standardinhalt&quot;aufgezeichnet. Impressionen von Angeboten, die keiner Berichte-Gruppe zugewiesen wurden, werden in der Gruppe &quot;Nicht gruppierte&quot;Angebot aufgezeichnet.
-
->[!NOTE]
-
-Die Anzahl der Impressionen, die im Bericht [!UICONTROL Angebot Level] aufgezeichnet werden, ist möglicherweise keine exakte Ganzzahl, bei der es sich um ein Vielfaches der im Bericht [!UICONTROL Aktivität Level] aufgezeichneten Besuche handelt. Dies ist auf geringfügige Diskrepanzen bei der Erfassung des Datenverkehrs über das Internet zurückzuführen (die typische Diskrepanz liegt unter 5 %). Die Anzahl der Impressionen ist daher kein exaktes Vielfaches, wenn sich die Anzahl der in der Aktivität verfügbaren Stellen nach der Aktivierung der Aktivität verändert hat.
-
 ## Automatisierte Segmente
 
 Klicken Sie auf das Symbol [!UICONTROL Automatisierte Segmente]. Dieser Bericht zeigt, wie verschiedene Besucher unterschiedlich auf die Angebot/Erlebnisse in Ihrer AP/AT-Aktivität reagieren. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den Target-Personalisierungsmodellen definiert werden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben.
@@ -80,3 +70,15 @@ Klicken Sie auf das Symbol [!UICONTROL Wichtige Attribute]. Dieser Bericht zeigt
 ![Symbol &quot;Wichtige Attribute&quot;](/help/c-reports/assets/icon-important-attributes-ap.png)
 
 Weitere Informationen finden Sie unter [Bericht &quot;Wichtige Attribute](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)&quot;.
+
+## Häufig gestellte Fragen  
+
+### Unterscheiden sich die Daten zwischen den Berichten zur Aktivität und zur Ebene der Angebote?
+
+**[!UICONTROL Bericht ] zur** Aktivität: Besuche, die im Bericht  [!UICONTROL Aktivität ] Levelbericht aufgezeichnet werden, erfassen die Anzahl der Besuche bei Kontrollerlebnissen im Vergleich zu Kontrollerlebnissen. &quot;zielgerichteter&quot;Traffic. Zielgerichteter Traffic umfasst eine Kombination aus Erkundungstransfer und personalisiertem Traffic.
+
+**Bericht** auf Angebot-Ebene: Impressionen, die im  [!UICONTROL Angebot ] Levelreport erfasst werden, erfassen die Anzahl der Impressionen für jedes Angebot. Daher entspricht die Gesamtzahl der Besuche, die in einer Aktivität mit mehr als einem Ort im Bericht [!UICONTROL Angebot-Ebene] aller Berichte-Gruppen aufgezeichnet wurden, dem Mehrfachen der Anzahl der Besuche, die für Kontroll- oder Targeting-Traffic im Bericht [!UICONTROL Aktivität-Ebene] aufgezeichnet wurden, dem Mehrfachen der Gesamtzahl der Orte in der Aktivität. Impressionen von Standardinhalten, die an Orten auftreten, an denen Standardinhalt verfügbar war, werden in der Angebot-Gruppe &quot;Standardinhalt&quot;aufgezeichnet. Impressionen von Angeboten, die keiner Berichte-Gruppe zugewiesen wurden, werden in der Gruppe &quot;Nicht gruppierte&quot;Angebot aufgezeichnet.
+
+>[!NOTE]
+
+Die Anzahl der Impressionen, die im Bericht [!UICONTROL Angebot Level] aufgezeichnet werden, ist möglicherweise keine exakte Ganzzahl, bei der es sich um ein Vielfaches der im Bericht [!UICONTROL Aktivität Level] aufgezeichneten Besuche handelt. Dies ist auf geringfügige Diskrepanzen bei der Erfassung des Datenverkehrs über das Internet zurückzuführen (die typische Diskrepanz liegt unter 5 %). Die Anzahl der Impressionen ist daher kein exaktes Vielfaches, wenn sich die Anzahl der in der Aktivität verfügbaren Stellen nach der Aktivierung der Aktivität verändert hat.
