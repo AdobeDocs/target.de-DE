@@ -4,9 +4,9 @@ description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Do
 title: Änderungen an der Adobe Target-Produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '3480'
+source-wordcount: '3499'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Februar 1 | [Automated Personalization-Zusammenfassungsberichte](/help/c-reports/reports-ap.md) | Neuer Abschnitt hinzugefügt: &quot;Datenunterschiede zwischen den Berichten auf Aktivität- und Angebot-Ebene&quot;. |
 | Januar 27 | [Erstellen von Umleitungsangeboten](/help/c-experiences/c-manage-content/offer-redirect.md) | Das Thema wurde aktualisiert. |
 |  | [Remote-Angebote erstellen](/help/c-experiences/c-manage-content/about-remote-offers.md) | Das Thema wurde aktualisiert. |
 | Januar 26 | [Konversionsrate](/help/c-reports/conversion-rate.md) | Es wurde klargestellt, wie die Zielgruppe die Summe der Quadrate in Student-T-Tests verwendet. |
