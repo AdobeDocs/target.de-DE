@@ -4,9 +4,9 @@ description: Die automatische Zielgruppe in Adobe Target verwendet fortschrittli
 title: Übersicht über die automatische Zielgruppe
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2016'
 ht-degree: 85%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >[!UICONTROL Automatisches Targeting] ist als Teil der [!DNL Target Premium]-Lösung verfügbar. Diese Funktion ist in [!DNL Target Standard] nicht ohne eine [!DNL Target Premium]-Lizenz verfügbar. Weitere Informationen zu den erweiterten Funktionen dieser Lizenz finden Sie unter [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL Analytics für Zielgruppe] (A4T) unterstützt  [!UICONTROL Auto-] Targeting-Aktivitäten. Weitere Informationen finden Sie unter [Erstellen einer Aktivität, die Analytics als Berichte-Quelle](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) verwendet.
+>[!UICONTROL Analytics für Zielgruppe] (A4T) unterstützt  [!UICONTROL Auto-] Targeting-Aktivitäten. Weitere Informationen finden Sie unter [A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischer Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ## Real-world success story using Auto-Zielgruppe {#success}
 
