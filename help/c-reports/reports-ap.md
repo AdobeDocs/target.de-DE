@@ -4,9 +4,9 @@ description: Wie verwende ich die Zusammenfassungsberichte von Automated Persona
 title: Automated Personalization-Zusammenfassungsberichte
 feature: Reports
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 52fd172abf1c92d3df6c123b36373c7db6467972
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 43%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 43%
 
 # ![PREMIUM](/help/assets/premium.png) Berichte zur automatisierten Personalisierung
 
-Spezialisierte Berichte stehen Benutzern der Aktivitäten [!UICONTROL Automated Personalization] in [!DNL Adobe Target] zur Verfügung.
+Spezialisierte Zusammenfassungsberichte stehen Benutzern der Aktivitäten [!UICONTROL Automated Personalization] in [!DNL Adobe Target] zur Verfügung.
 
 >[!NOTE]
 >
@@ -80,5 +80,5 @@ Weitere Informationen finden Sie unter [Bericht &quot;Wichtige Attribute](/help/
 **Bericht** auf Angebot-Ebene: Impressionen, die im  [!UICONTROL Angebot ] Levelreport erfasst werden, erfassen die Anzahl der Impressionen für jedes Angebot. Daher entspricht die Gesamtzahl der Besuche, die in einer Aktivität mit mehr als einem Ort im Bericht [!UICONTROL Angebot-Ebene] aller Berichte-Gruppen aufgezeichnet wurden, dem Mehrfachen der Anzahl der Besuche, die für Kontroll- oder Targeting-Traffic im Bericht [!UICONTROL Aktivität-Ebene] aufgezeichnet wurden, dem Mehrfachen der Gesamtzahl der Orte in der Aktivität. Impressionen von Standardinhalten, die an Orten auftreten, an denen Standardinhalt verfügbar war, werden in der Angebot-Gruppe &quot;Standardinhalt&quot;aufgezeichnet. Impressionen von Angeboten, die keiner Berichte-Gruppe zugewiesen wurden, werden in der Gruppe &quot;Nicht gruppierte&quot;Angebot aufgezeichnet.
 
 >[!NOTE]
-
-Die Anzahl der Impressionen, die im Bericht [!UICONTROL Angebot Level] aufgezeichnet werden, ist möglicherweise keine exakte Ganzzahl, bei der es sich um ein Vielfaches der im Bericht [!UICONTROL Aktivität Level] aufgezeichneten Besuche handelt. Dies ist auf geringfügige Diskrepanzen bei der Erfassung des Datenverkehrs über das Internet zurückzuführen (die typische Diskrepanz liegt unter 5 %). Die Anzahl der Impressionen ist daher kein exaktes Vielfaches, wenn sich die Anzahl der in der Aktivität verfügbaren Stellen nach der Aktivierung der Aktivität verändert hat.
+>
+>Die Anzahl der Impressionen, die im Bericht [!UICONTROL Angebot Level] aufgezeichnet werden, ist möglicherweise keine exakte Ganzzahl, bei der es sich um ein Vielfaches der im Bericht [!UICONTROL Aktivität Level] aufgezeichneten Besuche handelt. Dies ist auf geringfügige Diskrepanzen bei der Erfassung des Datenverkehrs über das Internet zurückzuführen (die typische Diskrepanz liegt unter 5 %). Die Anzahl der Impressionen ist daher kein exaktes Vielfaches, wenn sich die Anzahl der in der Aktivität verfügbaren Stellen nach der Aktivierung der Aktivität verändert hat.
