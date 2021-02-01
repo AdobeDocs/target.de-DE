@@ -4,9 +4,9 @@ description: Auf dieser Seite werden wichtige Änderungen an der Adobe Target-Do
 title: Änderungen an der Adobe Target-Produktdokumentation.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3488'
 ht-degree: 29%
 
 ---
@@ -99,7 +99,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 |  | [Nützliche Variablen, Profile, Parameter und Methoden](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Die Zeile &quot;user.header(&#39;x-forwarded-for&#39;)&quot;wurde aktualisiert, um anzugeben, dass &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot;nicht mehr unterstützt wurde. |
 |  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Target Standard/Premium-Version 20.9.1 (30. September 2020) hinzugefügt. |
 | 15. September | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version 20.8.3 von Target Standard/Premium hinzugefügt, die auch die Unterstützung von Analytics für die Zielgruppe (A4T) für Aktivitäten der automatischen Zielgruppe umfasst. In einer früheren Version wurde Unterstützung für Aktivitäten mit automatisierter Zuordnung hinzugefügt. |
-|  | [Unterstützung von Analytics für Zielgruppe (A4T) für Aktivitäten](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) mit automatisierter Zuordnung und automatischer Zielgruppe. | Es wurden Informationen zur A4T-Unterstützung in Aktivitäten zur automatischen Zielgruppe hinzugefügt. |
+|  | [A4T-Unterstützung für Aktivitäten zur automatischen Zuordnung und automatischen Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Es wurden Informationen zur A4T-Unterstützung in Aktivitäten zur automatischen Zielgruppe hinzugefügt. |
 |  | [Lesezeichenliste für Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Text wurde aktualisiert, um anzugeben, dass die Methode, sich manuell aus dem QS-Modus zu drängen, indem eine Seite mit dem Parameter `at_preview_token` mit einem leeren Wert geladen wird, für at.js 1 gilt.*x*, zur Verfügung. |
 |  | [Katalogsuche](/help/c-recommendations/c-products/catalog-search.md) | Das ganze Thema wurde aktualisiert. |
 | 10. September | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version Target Standard/Premium 20.9.2 hinzugefügt, die die folgende neue Funktion enthält: Steuern Sie die Slots von Empfehlungen innerhalb von Kriteriensequenzen. |
