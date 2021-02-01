@@ -4,10 +4,10 @@ description: Eine Aktivität zur automatischen Zuordnung in Adobe Target identif
 title: Automatische Zuordnung
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3377'
-ht-degree: 73%
+source-wordcount: '3373'
+ht-degree: 74%
 
 ---
 
@@ -136,7 +136,7 @@ Lesen Sie die folgenden häufig gestellten Fragen und Antworten, während Sie mi
 
 ### Unterstützt Analytics for Zielgruppe (A4T) Aktivitäten mit automatisierter Zuordnung?
 
-Ja. Weitere Informationen finden Sie unter [Unterstützung von Analytics für Zielgruppe (A4T) für Aktivitäten mit automatisierter Zuordnung](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Erstellung von Aktivitäten*.
+Ja. Weitere Informationen finden Sie unter [A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischer Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ### Werden wiederkehrende Besucher automatisch zu leistungsstarken Erlebnissen weitergeleitet?
 
