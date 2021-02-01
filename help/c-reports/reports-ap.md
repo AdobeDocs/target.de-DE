@@ -4,10 +4,10 @@ description: Wie verwende ich die Zusammenfassungsberichte von Automated Persona
 title: Automated Personalization-Zusammenfassungsberichte
 feature: Reports
 translation-type: tm+mt
-source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 44%
+source-wordcount: '632'
+ht-degree: 43%
 
 ---
 
@@ -73,7 +73,7 @@ Weitere Informationen finden Sie unter [Bericht &quot;Wichtige Attribute](/help/
 
 ## Häufig gestellte Fragen  
 
-### Unterscheiden sich die Daten zwischen den Berichten zur Aktivität und zur Ebene der Angebote?
+### Warum unterscheiden sich die Daten zwischen den Berichten auf Ebene der Aktivität und auf Ebene der Angebote?
 
 **[!UICONTROL Bericht ] zur** Aktivität: Besuche, die im Bericht  [!UICONTROL Aktivität ] Levelbericht aufgezeichnet werden, erfassen die Anzahl der Besuche bei Kontrollerlebnissen im Vergleich zu Kontrollerlebnissen. &quot;zielgerichteter&quot;Traffic. Zielgerichteter Traffic umfasst eine Kombination aus Erkundungstransfer und personalisiertem Traffic.
 
