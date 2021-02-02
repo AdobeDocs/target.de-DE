@@ -1,12 +1,12 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Informationen zu Adobe Target und dem SameSite-IETF-Standard, der mit Google Chrome Version 80 eingeführt wurde.
-title: Adobe Target und die Cookie-Richtlinien von Google
+title: Google-Cookie-Richtlinien für Samesite
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2033'
+source-wordcount: '2035'
 ht-degree: 8%
 
 ---
@@ -46,7 +46,7 @@ Obwohl Cookies die Benutzererfahrung verbessern und die Werbung verstärken, kö
 
 Lassen Sie uns mit all dem sehen, wie [!DNL Target] Cookies verwendet. Damit Sie [!DNL Target] zunächst verwenden können, müssen Sie die [!DNL Target] JavaScript-Bibliothek auf Ihrer Site installieren. Auf diese Weise können Sie ein Erstanbieter-Cookie im Browser des Benutzers platzieren, der Ihre Site besucht. Wenn Ihr Benutzer mit Ihrer Website interagiert, können Sie die Verhaltens- und Interessensdaten des Benutzers über die JavaScript-Bibliothek an [!DNL Target] weitergeben. Die JavaScript-Bibliothek [!DNL Target] verwendet Erstanbieter-Cookies, um Identifizierungsinformationen über den Benutzer zu extrahieren, die den Verhalten- und Interessensdaten des Benutzers zugeordnet werden sollen. Diese Daten werden dann von [!DNL Target] verwendet, um Ihre Personalisierungs-Aktivitäten zu optimieren.
 
-Zielgruppe verwendet auch (manchmal) Drittanbieter-Cookies. Wenn Sie über mehrere Websites verfügen, die auf verschiedenen Domänen leben, und Sie die Benutzerreise über diese Websites hinweg verfolgen möchten, können Sie Drittanbieter-Cookies nutzen, indem Sie domänenübergreifendes Tracking nutzen. Durch Aktivierung der domänenübergreifenden Verfolgung in der JavaScript-Bibliothek [!DNL Target] wird Ihr Konto mit Drittanbieter-Cookies Beginn. Wenn ein Benutzer von einer Domäne zu einer anderen wechselt, kommuniziert der Browser mit dem Backend-Server von [!DNL Target]. Dabei wird ein Drittanbieter-Cookie erstellt und in den Browser des Benutzers eingefügt. Durch das Drittanbieter-Cookie, das im Browser des Benutzers gespeichert ist, kann [!DNL Target] ein konsistentes Erlebnis über verschiedene Domänen hinweg für einen einzelnen Benutzer bereitstellen.
+Zielgruppe verwendet auch (manchmal) Drittanbieter-Cookies. Wenn Sie mehrere Websites besitzen, die auf verschiedenen Domänen leben, und die Journey über diese Websites verfolgen möchten, können Sie Drittanbieter-Cookies verwenden, indem Sie domänenübergreifendes Tracking nutzen. Durch Aktivierung der domänenübergreifenden Verfolgung in der JavaScript-Bibliothek [!DNL Target] wird Ihr Konto mit Drittanbieter-Cookies Beginn. Wenn ein Benutzer von einer Domäne zu einer anderen wechselt, kommuniziert der Browser mit dem Backend-Server von [!DNL Target]. Dabei wird ein Drittanbieter-Cookie erstellt und in den Browser des Benutzers eingefügt. Durch das Drittanbieter-Cookie, das im Browser des Benutzers gespeichert ist, kann [!DNL Target] ein konsistentes Erlebnis über verschiedene Domänen hinweg für einen einzelnen Benutzer bereitstellen.
 
 ## Das neue Cookie-Rezept von Google
 
