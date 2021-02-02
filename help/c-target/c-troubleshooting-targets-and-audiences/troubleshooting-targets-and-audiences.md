@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
+keywords: Fehlerbehebung; häufig gestellte Fragen; FAQ; FAQs; Targets; Zielgruppen
 description: Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
-title: Häufig gestellte Fragen zu Zielen und Zielgruppen
-feature: audiences
+title: Häufig gestellte Fragen zu Zielgruppen und Audiencen
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 69%
+source-wordcount: '942'
+ht-degree: 68%
 
 ---
 
