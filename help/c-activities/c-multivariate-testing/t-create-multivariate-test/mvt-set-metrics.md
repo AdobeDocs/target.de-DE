@@ -1,12 +1,12 @@
 ---
-keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
+keywords: Multivarianz;MVT;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
 description: Verwenden Sie Metriken in einem Adobe Target-Multivarianz-Test, um festzustellen, wann ein Besuch erfolgreich war.
 title: Festlegen von Metriken
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '331'
 ht-degree: 88%
 
 ---
