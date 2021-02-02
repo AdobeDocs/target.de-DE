@@ -1,13 +1,13 @@
 ---
-keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
+keywords: Targeting; a4t;geo; geotargeting; Genauigkeit von Geotargeting; Land; Bundesland; Stadt; Postleitzahl; dma; Mobilnetzbetreiber; Stadtvorwahl; Regionalcode; Landesvorwahl; Metrocode; Profilskripts; Geotargeting Profilskripts; Geotargeting mobiler Geräte
 description: Verwenden Sie Adobe Target-Audiences, um Benutzer anhand ihres geografischen Standortes auszuwählen (inklusive Land, Bundesland, Stadt, Postleitzahl, DMA oder Mobilnetzbetreiber).
-title: Geo-Optionen in Adobe Target-Audiencen
-feature: audiences
+title: Geo-Optionen in Audiencen
+feature: Audiences
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '970'
 ht-degree: 88%
 
 ---
