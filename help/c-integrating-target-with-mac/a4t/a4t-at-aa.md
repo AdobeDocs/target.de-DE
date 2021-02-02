@@ -4,9 +4,9 @@ description: Kann ich A4T mit Aktivitäten für die automatische Zielgruppe und 
 title: A4T-Unterstützung für Aktivitäten zur automatischen Zuordnung und automatischen Zielgruppe
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '853'
 ht-degree: 2%
 
 ---
@@ -36,10 +36,14 @@ Erster Schritt:
 
 1. Wählen Sie **[!UICONTROL Adobe Analytics]** für Ihre **[!UICONTROL Berichte-Quelle]** auf der Seite **[!UICONTROL Ziele und Einstellungen]** und wählen Sie die Report Suite aus, die Ihrem gewünschten Optimierungsziel entspricht.
 
+   ![Berichte-Quelle auf der Seite &quot;Ziele und Einstellungen&quot;](/help/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
 1. Wählen Sie eine Metrik für das Primär-Ziel.
 
    * Wählen Sie **[!UICONTROL Konversion]**, um [!DNL Adobe Target] zum Festlegen des Optimierungsziels zu verwenden.
    * Wählen Sie **[!UICONTROL Verwenden Sie eine Analytics-Metrik]** und wählen Sie dann eine Metrik aus [!DNL Analytics] zur Verwendung als Optimierungsziel. Sie können eine vordefinierte [!DNL Analytics]-Konversionsmetrik oder ein benutzerdefiniertes [!DNL Analytics]-Ereignis verwenden.
+
+   Weitere Informationen finden Sie unter [Unterstützte Zielmetriken](#supported) weiter unten.
 
 1. Speichern und aktivieren Sie Ihre Aktivität.
 
@@ -51,7 +55,7 @@ Erster Schritt:
 
 1. Verwenden Sie die Registerkarte **[!UICONTROL Berichte]**, um den Berichte Ihrer Aktivität nach Ihrer Auswahl von [!DNL Adobe Analytics]-Metriken Ansicht. Klicken Sie auf **[!UICONTROL Ansicht in Analytics]**, um tief zu tauchen und Ihre Berichte-Daten weiter zu segmentieren.
 
-## Unterstützte Zielmetriken
+## Unterstützte Zielmetriken {#supported}
 
 [!UICONTROL A4] Tfor  [!UICONTROL Auto-] Zuordnung und  [!UICONTROL Auto-] Targetlet Sie wählen einen der folgenden Metriktypen als primäre Zielmetrik für die Optimierung:
 
