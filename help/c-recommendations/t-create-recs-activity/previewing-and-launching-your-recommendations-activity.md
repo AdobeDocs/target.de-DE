@@ -1,12 +1,12 @@
 ---
-keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
-description: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Aktivität (XT) mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie diese Vorschau durchführen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Zielgruppe Recommendations Angebote bietet mehrere Möglichkeiten, Ihre Empfehlungen Vorschau. '
-title: 'Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting-Aktivität (XT) mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie diese Vorschau durchführen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Zielgruppe Recommendations Angebote bietet mehrere Möglichkeiten, Ihre Empfehlungen Vorschau. '
+keywords: Recommendations;Angebot;Vorschau;Start;Status;Kriterien;Algorithmus
+description: Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting (XT)-Aktivität mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie diese Vorschau durchführen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Zielgruppe Recommendations Angebote bietet mehrere Möglichkeiten, Ihre Empfehlungen Vorschau.
+title: Vorschau und Starten der Recommendations-Aktivität
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1371'
 ht-degree: 16%
 
 ---
@@ -110,7 +110,7 @@ Beachten Sie, dass der Status zu [!UICONTROL Aktivieren] wird:
 
 ![ wird aktiviert ...](/help/c-recommendations/t-create-recs-activity/assets/activating.png)
 
-Nach einigen Sekunden bis einigen Minuten wechselt der Status zu [!UICONTROL Live]:
+Nach einigen Sekunden bis ein paar Minuten wechselt der Status zu [!UICONTROL Live]:
 
 ![Live](/help/c-recommendations/t-create-recs-activity/assets/live.png)
 
