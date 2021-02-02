@@ -1,13 +1,13 @@
 ---
-keywords: Target;reports;report settings;extreme orders;extreme values
+keywords: Target; Berichte; Berichtseinstellungen; extreme Bestellungen; Extremwerte
 description: Sie können Extremwerte von Berichten in Adobe Target ausschließen, sodass einige ungewöhnliche Bestellungen Ihre Aktivitäten nicht beeinflussen. Ein Beispiel für eine ungewöhnliche Bestellung ist, wenn ein Trainer Ausrüstungen für eine ganze Mannschaft kauft, anstatt dass einzelne Sportler individuell bestellen.
-title: Extreme Werte in Adobe Target-Berichten ausschließen
+title: Extreme Werte in Berichten ausschließen
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 73%
+source-wordcount: '349'
+ht-degree: 74%
 
 ---
 
