@@ -1,13 +1,13 @@
 ---
-keywords: training;certification;target;online courses;courses;class;classes
+keywords: Ausbildung;Zertifizierung;Zielgruppe;Online-Kurse;Kurse;Klasse;Klassen
 description: Adobe Training Services bietet Schulungen und Zertifizierungen für Adobe-Produkte und -Lösungen, einschließlich Adobe Target.
-title: Ausbildung und Zertifizierung von Produkten und Lösungen der Adobe, einschließlich Adobe Target
+title: Schulung und Zertifizierung
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 48%
+ht-degree: 51%
 
 ---
 
