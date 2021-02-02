@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;auto-allocate;auto allocate
+keywords: Automatisierte Traffic-Zuordnung;Targeting;Automatische Zuordnung;Automatische Zuordnung
 description: Die Aktivität "Automatisierte Zuordnung"in Adobe Target identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und weist automatisch mehr Traffic an den Gewinner zurück, um die Konversionen zu erhöhen, während der Test weiter ausgeführt und gelernt wird.
-title: Die automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und mehr Umsatz als ein manueller Test liefern
+title: Die automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und einen höheren Umsatz als ein manueller Test verschaffen.
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Wenn Sie möchten, dass das erfolgreichste Erlebnis öfter und früher in der Ak
 
 [!UICONTROL Die automatische ] Zuordnung verwendet das Prinzip des Multi-Armed Bandit. Wenn der Begriff nicht bekannt ist, ist ein einarmiger Bandit ein umgangssprachlicher Begriff für einen Spielautomaten (siehe: Las Vegas). Visualisieren Sie die automatische Zuordnung von Traffic als mit mehreren Stecknadelautomaten, in diesem Fall mit Testvarianten, und ziehen Sie zunächst alle Griffe gleich. Im Laufe der Zeit könnten eine oder mehrere Maschinen oder Testvarianten mehr auszahlen als andere. Wenn das passiert, würde ein Spieler natürlich Beginn die Griffe der Griffe ziehen, die öfter gewinnen. In Traffic-Zuordnungsbegriffen liefert [!DNL Adobe Target] mehr Besuchern das Erlebnis oder die Erlebnisse, die mehr gewinnen.
 
-Betrachten Sie die folgende Abbildung einer zweiwöchigen A/B-Aktivität. Mit [!UICONTROL Automatisierte Zuordnung] leitet [!UICONTROL Zielgruppe], sobald ein erfolgreiches Erlebnis entsteht, &lt;a2/>den Traffic frühzeitig im Test zu diesem Gewinner weiter.
+Betrachten Sie die folgende Abbildung einer zweiwöchigen A/B-Aktivität. Mit [!UICONTROL Automatisierte Zuordnung] leitet [!UICONTROL Zielgruppe], sobald ein erfolgreiches Erlebnis entsteht, den Traffic frühzeitig im Test zu diesem Gewinner weiter.
 
 ![Abbildung zur automatischen Zuordnung](/help/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 
