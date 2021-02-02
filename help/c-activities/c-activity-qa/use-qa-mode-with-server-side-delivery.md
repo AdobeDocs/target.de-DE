@@ -1,12 +1,12 @@
 ---
-keywords: qa;server side;server-side;preview;preview links
+keywords: QS; serverseitig, Server-seitig, Vorschau, Vorschaulinks
 description: Verwenden Sie Adobe Target QA-URLs mit serverseitigem Versand, um eine durchgängige Qualitätssicherung mit Vorschauen-Links durchzuführen, die sich nicht ändern, optionales Audiencen-Targeting und QS-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
-title: Verwenden von Aktivitäts-QA mit serverseitiger Bereitstellung
+title: Verwenden von Aktivitäts-QA mit Server-seitiger Bereitstellung
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '391'
 ht-degree: 65%
 
 ---
