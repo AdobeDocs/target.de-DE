@@ -1,12 +1,12 @@
 ---
-keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
+keywords: Empfehlungen erstellen; Recommendations-Aktivität; neue Empfehlungen; Recommendations-Übersicht
 description: Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendations-Aktivität direkt auf einer für Target aktivierten Seite erstellen und Teile der Seite in Target verändern.
 title: Erstellen einer Recommendations-Aktivität
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1311'
 ht-degree: 78%
 
 ---
