@@ -1,13 +1,13 @@
 ---
-keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;Suchmaschinenoptimierung;Edge-Cluster, zentrale Cluster;at.js;mbox.js;
 description: Informationen zur Funktionsweise von Adobe Target, einschließlich Informationen zum Adobe Experience Platform Web SDK, den JavaScript-Bibliotheken der Zielgruppe (at.js und mbox.js) und den verschiedenen Aktivitäten, die Sie in Zielgruppe erstellen können.
-title: Funktionsweise von Adobe Target
+title: Funktionsweise der Zielgruppe
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 71%
+source-wordcount: '2523'
+ht-degree: 70%
 
 ---
 
