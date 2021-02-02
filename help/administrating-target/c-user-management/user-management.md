@@ -1,13 +1,13 @@
 ---
-keywords: add user;manage user;user permissions
+keywords: Benutzer hinzufügen;Benutzer verwalten;Benutzerberechtigungen
 description: Verwalten Sie Benutzer in Adobe Target Standard und verwalten Sie Enterprise Properties und Permissions in Adobe Target Premium.
 title: Benutzerverwaltung
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 18%
+source-wordcount: '232'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +18,7 @@ Informationen zum Verwalten von Benutzern in [!DNL Target] Standard und Verwalte
 
 >[!NOTE]
 >
->Die Funktionalitäten für Eigenschaften und Berechtigungen sind als Bestandteil der Lösung [!UICONTROL  verfügbar. ][!DNL Target Premium] In [!DNL Target Standard] sind sie nur mit einer [!DNL Target Premium]-Lizenz verfügbar. Weitere Informationen zu den erweiterten Premium-Funktionen finden Sie unter [!DNL Target]Zielgruppe Premium[ in ](/help/c-intro/intro.md#premium)Einführung in die Zielgruppe *.*
+>Die Funktionalitäten für Eigenschaften und Berechtigungen sind als Bestandteil der Lösung [!UICONTROL  verfügbar. ][!DNL Target Premium] In [!DNL Target Standard] sind sie nur mit einer [!DNL Target Premium]-Lizenz verfügbar. Weitere Informationen zu den erweiterten Premium-Funktionen finden Sie unter [Zielgruppe Premium](/help/c-intro/intro.md#premium) in *Einführung in die Zielgruppe*.[!DNL Target]
 
 Sie können feststellen, ob Ihr Unternehmen über eine Standard- oder Premium-Lizenz verfügt, indem Sie auf den Link [!UICONTROL Administration] oben in der [!DNL Target]-Benutzeroberfläche klicken.
 
