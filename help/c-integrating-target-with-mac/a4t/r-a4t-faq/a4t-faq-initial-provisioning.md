@@ -1,12 +1,12 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;provisioning;adobe Experience Cloud
+keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4t; Bereitstellung; Bereitstellen; Adobe Experience Cloud
 description: Dieses Thema enthält Antworten auf häufig zur Bereitstellung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
-title: Erste Bereitstellung – Häufig gestellte Fragen zu A4T
+title: Erste Bereitstellung - Häufig gestellte Fragen zu A4T
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '473'
 ht-degree: 100%
 
 ---
