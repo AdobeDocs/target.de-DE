@@ -1,13 +1,13 @@
 ---
-keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
+keywords: Profil-Skript;Skriptattribute;Best Practices für Profil-Skripten;Debugging;Skripten;Profil-Skripten;Attribute;Attribut;Parameter
 description: Profilattribute sind Parameter, die speziell für Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Adobe Target-Aktivitäten verwendet werden können.
-title: Profilattribute in Adobe Target
-feature: visitor profiles
+title: Profilattribute
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 78%
+source-wordcount: '2460'
+ht-degree: 77%
 
 ---
 
