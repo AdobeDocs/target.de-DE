@@ -1,12 +1,12 @@
 ---
-keywords: browser options;type;browser type;browser language;language;version;browser version
+keywords: Browseroptionen; Typ; Browsertyp; Browsersprache; Sprache; Version; Browserversion
 description: Sie können Zielgruppen in Adobe Target erstellen, um Benutzer auszuwählen, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden.
-title: Browseroptionen in Adobe Target-Zielgruppen
-feature: audiences
+title: Audiencen zu Browseroptionen
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '656'
 ht-degree: 99%
 
 ---
