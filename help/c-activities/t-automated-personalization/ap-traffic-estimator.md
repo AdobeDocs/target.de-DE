@@ -1,13 +1,13 @@
 ---
-keywords: traffic estimator;automated personalization;ap;estimate traffic
+keywords: Traffic-Schätzung;Automatisierte Personalisierung;App;Traffic-Schätzung
 description: Die Traffic-Schätzung liefert Feedback, aus dem hervorgeht, ob Sie über ausreichend Traffic verfügen, damit Ihre Adobe Target-Aktivität erfolgreich sein kann.
-title: Schätzen des für einen erfolgreichen Test erforderlichen Traffics
+title: Schätzen Sie den für einen erfolgreichen Test erforderlichen Traffic
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 27%
+source-wordcount: '738'
+ht-degree: 26%
 
 ---
 
