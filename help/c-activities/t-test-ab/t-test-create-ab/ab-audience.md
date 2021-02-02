@@ -1,12 +1,12 @@
 ---
-keywords: audience;select audience;choose audience;Selectors
+keywords: Zielgruppe;Zielgruppe auswählen;Zielgruppe wählen;Auswahl
 description: Die Audience bestimmt, welche Site-Besucher in Ihre Adobe Target-Aktivität eingegeben werden.
-title: Zielgruppenauswahl
+title: Zielgruppe auswählen
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '434'
 ht-degree: 92%
 
 ---
