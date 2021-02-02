@@ -1,18 +1,18 @@
 ---
-keywords: visual experience composer;vec;wysiwyg
+keywords: Visual Experience Composer;vec;wysiwyg
 description: Informationen zur Verwendung von Visual Experience Composer (VEC) in Adobe Target.
-title: Adobe Target Visual Experience Composer (VEC)
+title: 'Visual Experience Composer (VEC) '
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 95%
+source-wordcount: '1381'
+ht-degree: 94%
 
 ---
 
 
-# Visual Experience Composer (VEC)
+# Visual Experience Composer (VEC) 
 
 Informationen zur Verwendung des [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target].
 
