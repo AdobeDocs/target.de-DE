@@ -1,13 +1,13 @@
 ---
-keywords: visitor profile;target visitor profile
+keywords: Besucherprofil; Target-Besucherprofil
 description: Erstellen Sie in Adobe Target Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen.
-title: Optionen für Besucher-Profil in Adobe Target-Audiencen
-feature: audiences
+title: Besucher-Profil-Optionen in Audiencen
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 94%
+source-wordcount: '225'
+ht-degree: 95%
 
 ---
 
