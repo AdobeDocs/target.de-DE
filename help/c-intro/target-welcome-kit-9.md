@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
 description: Adobe Target Begrüßungs-Kit - Kapitel 9 - Nächste Schritte und Ressourcen
-title: Adobe Target Begrüßungs-Kit - Kapitel 9 - Nächste Schritte und Ressourcen
+title: Begrüßungs-Kit - Kapitel 9 - Nächste Schritte und Ressourcen
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Wir haben die Grundlagen der Ausführung Ihrer ersten Aktivität behandelt. Wir hoffen, dass die Aktivität Ihnen und Ihrer Firma das unglaubliche Potenzial gezeigt hat, das die Verwendung von [!DNL Adobe Target] zur Optimierung und Personalisierung hat, um das Geschäftsergebnis zu beeinflussen. Das ist nur ein Beginn. Es ist an der Zeit, darüber nachzudenken, worauf Sie sich in der zweiten Aktivität konzentrieren werden? Erwägen Sie, eine priorisierte Liste der Aktivitäten zu erstellen, die Sie ausführen möchten. Sie werden überrascht sein, wie schnell Sie sehen, wie Aktivität für Aktivität Sie das Kundenerlebnis verbessern und den Geschäftserfolg fördern.
 
-Übrigens haben Sie so viele Möglichkeiten, mehr über Tests, Personalisierung und die Verwendung von [!DNL Target] zu erfahren. Überprüfen Sie die Liste der nachfolgend aufgeführten Ressourcen, um Beginn beim Aufbau dieses Wissens zu erhalten. Sehen Sie sich unsere Webinare an, lesen Sie den Adobe Target-Blog, nehmen Sie am Adobe Summit teil und werden Sie aktiv in der Adobe Target-Online-Community. Vergessen Sie nicht, dass wir immer hier sind, um Ihnen beim Start Ihres Programms zu helfen und es auf einen Erfolgspfad zu bringen. Richten Sie jederzeit aus.
+Übrigens haben Sie so viele Möglichkeiten, mehr über Tests, Personalisierung und die Verwendung von [!DNL Target] zu erfahren. Überprüfen Sie die Liste der nachfolgend aufgeführten Ressourcen, um Beginn beim Aufbau dieses Wissens zu erhalten. Sehen Sie sich unsere Webinare an, lesen Sie den Adobe Target Blog, nehmen Sie am Adobe Summit teil und werden Sie aktiv in der Adobe Target Online-Community. Vergessen Sie nicht, dass wir immer hier sind, um Ihnen beim Start Ihres Programms zu helfen und es auf einen Erfolgspfad zu bringen. Richten Sie jederzeit aus.
 
 Wir haben eine organisierte Liste wertvoller Informationen zusammengestellt, um Ihnen mit [!DNL Target] noch mehr Wissen über Optimierung und Personalisierung zu vermitteln.
 
