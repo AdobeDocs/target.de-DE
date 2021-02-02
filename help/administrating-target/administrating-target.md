@@ -1,13 +1,13 @@
 ---
-keywords: setting up;setup;set-up;set up;administration
+keywords: Einrichten;Setup;Einrichten;Einrichten;Einrichten;Verwaltung
 description: Richten Sie Adobe Target ein, einschließlich Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene7-Konfiguration, Hostverwaltung und Antwort-Token.
-title: Adobe Target verwalten
+title: Admin
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 18%
+source-wordcount: '91'
+ht-degree: 14%
 
 ---
 
