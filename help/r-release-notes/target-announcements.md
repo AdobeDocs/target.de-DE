@@ -1,12 +1,12 @@
 ---
-keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: Informationen zu kommenden Ereignissen, einschließlich Adobe Target Skill Builder-Sitzungen, Entwicklerchats, Webinare und Zielgruppe Coffee Break-Sitzungen.
-title: Mitteilungen zur Zielgruppe
+keywords: Ankündigungen;Kompetenzaufbau;Entwickler-Chat;Kaffeepause;Ereignisse;Forrester;Gartner;Webinar
+description: Wo finde ich zukünftige Ereignisse und Webinare?
+title: Mitteilungen und Ereignisse
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
