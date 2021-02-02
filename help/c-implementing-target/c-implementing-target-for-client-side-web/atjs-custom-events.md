@@ -1,12 +1,12 @@
 ---
-keywords: custom events;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
+keywords: benutzerspezifische Ereignisse; at.js; Anforderung fehlgeschlagen; Anforderung erfolgreich; Inhalt-Rendering fehlgeschlagen; Erfolgreiches Rendering von Inhalten; Bibliothek geladen; Request starten; Start des Inhalts-Rendervorgangs; kein Content Rendering von Angeboten; Redirect von Inhalts-Rendering
 description: Informationen zu benutzerdefinierten Ereignissen für die JavaScript-Bibliothek von Adobe Target at.js
-title: Benutzerdefinierte at.js-Ereignisse
+title: Benutzerspezifische Ereignis von at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '604'
 ht-degree: 96%
 
 ---
