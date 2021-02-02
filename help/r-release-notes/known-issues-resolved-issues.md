@@ -1,12 +1,12 @@
 ---
-keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: Informationen zu bekannten Problemen in dieser Version von Adobe Target. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
-title: Bekannte Probleme und gelöste Probleme   in Adobe Target
-feature: known issues
+keywords: Bekannte Probleme;gelöste Probleme;Versionshinweise;Fehler;Probleme;Fehlerbehebungen
+description: Wo finde ich bekannte Probleme und gelöste Probleme?
+title: Bekannte Probleme und gelöste Probleme
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '4359'
+source-wordcount: '4355'
 ht-degree: 69%
 
 ---
