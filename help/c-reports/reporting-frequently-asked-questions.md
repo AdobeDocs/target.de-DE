@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
+keywords: Fehlerbehebung;Metrikdiskrepanzen;FAQ;Berichte;Neuer Besucher;Neue Besucher;Rückkehrender Besucher;Rückkehrende Besucher;Rückkehrender Besuch;Neuer Besuch
 description: Liste der häufig gestellten Fragen zur Berichterstellung in Adobe Target
-title: Häufig gestellte Fragen zur Berichterstellung in Adobe Target
+title: Häufig gestellte Fragen zum Reporting
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 31%
+source-wordcount: '1124'
+ht-degree: 30%
 
 ---
 
