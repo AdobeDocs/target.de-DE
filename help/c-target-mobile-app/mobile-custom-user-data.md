@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app send data;target mobile app;mobile custom user data;mobile app custom data
+keywords: mobile App; Daten mit mobilen Apps senden; Targeting mobiler Apps; benutzerdefinierte Daten für Mobilbenutzer; benutzerdefinierte Daten für mobile Apps
 description: Sie können weitere Informationen über Ort oder Benutzer als Namen-Wert-Paare an Target übermitteln.
-title: iOS – Senden benutzerdefinierter Benutzerdaten
-feature: mobile implementation
+title: IOS - Senden benutzerspezifischer Benutzerdaten
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '339'
+ht-degree: 98%
 
 ---
 
