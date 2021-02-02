@@ -1,13 +1,13 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t; A4T; Analytics als Berichtsquelle für Target
 description: Kann ich A4T mit Aktivitäten für die automatische Zielgruppe und die automatische Zuordnung verwenden?
 title: A4T-Unterstützung für Aktivitäten zur automatischen Zuordnung und automatischen Zielgruppe
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 1%
+source-wordcount: '838'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,8 @@ Erster Schritt:
 
    * [!UICONTROL Automatische Zuordnung zu bestem Erlebnis]
    * [!UICONTROL Automatische Zielgruppe für personalisierte Erlebnisse]
+
+   ![Optionen für Traffic-Zuordnungsmethoden: Manuelle, automatische Zuordnung und automatische Zielgruppe](/help/c-integrating-target-with-mac/a4t/assets/traffic-allocation-methods.png)
 
    Weitere Informationen und schrittweise Anleitungen finden Sie unter [Eine Aktivität für die automatische Zuordnung erstellen](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) und [Eine Aktivität für die automatische Zielgruppe erstellen](/help/c-activities/auto-target/create-auto-target.md).
 
