@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;frequently asked questions;faq;target mobile app
+keywords: Mobil-App;Häufig gestellte Fragen;FAQ;Zielgruppe der mobilen App
 description: Häufig gestellte Fragen zu Adobe Target für mobile Apps.
-title: Häufig gestellte Fragen zu Adobe Target für mobile Apps
-feature: mobile implementation
+title: Häufig gestellte Fragen zur Zielgruppe von mobilen Apps
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Liste häufig gestellter Fragen zu [!DNL Target] für mobile Apps.
 
 ## Soll ich das SDK mit [!DNL Adobe Experience Platform Launch] bereitstellen oder kann ich das SDK ohne [!DNL Launch] bereitstellen?
 
-Das SDK ist auf der Adobe Marketing Cloud-Git[ verfügbar. ](https://github.com/Adobe-Marketing-Cloud/acp-sdks/) Wenn Sie [Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) nicht verwenden, müssen Sie Ihre eigene Einstellungsdatei verwalten und in Ihrer App verwalten.
+Das SDK ist auf der Adobe Marketing Cloud-Git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/) verfügbar. [ Wenn Sie [Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) nicht verwenden, müssen Sie Ihre eigene Einstellungsdatei verwalten und in Ihrer App verwalten.
 
 ## Welche SDKs stehen heute zur Verfügung?
 
