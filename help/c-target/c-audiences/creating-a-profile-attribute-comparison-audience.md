@@ -1,12 +1,12 @@
 ---
-keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
+keywords: Zielgruppe; Tendenz; Profilattribut; Vergleichen; Vergleich; Zielgruppe erstellen; Erstellen einer Zielgruppe
 description: Definieren Sie eine Zielgruppe, um zwei Profilattribute für Ihre Zielgruppenbibliothek oder in einer reinen Aktivitätszielgruppe zu vergleichen. Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
-title: Erstellen einer Zielgruppe zum Profilattributvergleich  in Adobe Target
-feature: audiences
+title: Zielgruppe zum Profilattributvergleich erstellen
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '436'
 ht-degree: 99%
 
 ---
