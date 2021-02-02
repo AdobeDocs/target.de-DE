@@ -1,13 +1,13 @@
 ---
-keywords: multivariate;mvt;preview;experiences
+keywords: Multivarianz;MVT;Vorschau;Erlebnisse
 description: Da ein Multivarianz-Test in Adobe Target mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis zu Vorschauen.
-title: Vorschau für einen Multivarianz-Test in Adobe Target
+title: Vorschauen-Erlebnisse für einen Multivarianz-Test (MVT)
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 69%
+source-wordcount: '200'
+ht-degree: 68%
 
 ---
 
