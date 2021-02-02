@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
+keywords: Implementierung;Implementierung;Whitelist;Weiße Liste;Zulassungsliste;Zulassungsliste;Kante;Kanten
 description: Adobe Target-Edge-Knoten in Zulassungslisten
-title: Adobe Target-Edge-Knoten in Zulassungslisten
+title: Zulassungsliste Zielgruppe Edge Nodes
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
