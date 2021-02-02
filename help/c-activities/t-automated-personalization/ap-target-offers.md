@@ -1,14 +1,14 @@
 ---
-keywords: automated personalization;offers;target;audience;targeting rules;targeting
+keywords: Automatisierte Personalisierung;Angebot;Zielgruppe;Audience;Targeting-Regeln;Targeting
 description: In einer Aktivität „Automatisierte Personalisierung“ können Sie Angebote auf spezielle Zielgruppen ausrichten.
-title: Targeting von Automated Personalization-Angeboten in Adobe Target
+title: 'Automated Personalization-Angebote '
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 96%
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
