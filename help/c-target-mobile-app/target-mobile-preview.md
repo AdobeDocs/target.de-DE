@@ -1,13 +1,13 @@
 ---
-keywords: qa;preview;preview link;mobile;mobile preview
+keywords: qa; Vorschau; Vorschau-Link; mobil; mobile Vorschau
 description: Verwenden Sie die Vorschau für mobile Apps, um mühelos eine ganzheitliche Qualitätssicherung für Aktivitäten von mobilen Apps durchzuführen und sich ohne spezielle Prüfmittel direkt auf Ihrem Gerät für verschiedene Erlebnisse anzumelden.
-title: Verwenden des mobilen Vorschau-Links in Adobe Target Mobile
-feature: mobile implementation
+title: Verwenden des Links zur mobilen Vorschau in Zielgruppe Mobile
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 94%
+source-wordcount: '589'
+ht-degree: 92%
 
 ---
 
