@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
 description: Adobe Target-Begrüßungs-Kit - Kapitel 5 - Inspiration für Test- und Personalisierungs-Aktivitäten
-title: Adobe Target-Begrüßungs-Kit - Kapitel 5 - Inspiration für Test- und Personalisierungs-Aktivitäten
+title: Begrüßungs-Kit - Kapitel 5 - Inspiration für Test- und Personalisierungslösungen
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
