@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
+keywords: Targeting; Zielkategorien; Targeting-Bedingungen; Zielgruppenmanager; benutzerdefinierte Profilparameter; Besucherprofil; benutzerdefinierte Benutzerparameter; Zielregeln
 description: Sie können sich eine beliebige Kategorie aus mehreren Kategorien zum Ziel setzen. Für jede Kategorie ist eine Registerkarte verfügbar, auf der Sie Targeting-Regeln (oder -Gruppen) für jede Kategorie erstellen können.
 title: Kategorien für Zielgruppen
-feature: audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '386'
 ht-degree: 98%
 
 ---
