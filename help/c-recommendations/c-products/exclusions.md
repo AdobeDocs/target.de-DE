@@ -1,12 +1,12 @@
 ---
-keywords: exclusions
+keywords: Ausnahmen
 description: Erstellen Sie einen Ausschluss in [!DNL Adobe Target Recommendations] um zu verhindern, dass Produkte oder Inhalte für Besucher empfohlen werden.
-title: Ausschlüsse in Adobe Target
+title: Ausnahmen
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '595'
 ht-degree: 45%
 
 ---
