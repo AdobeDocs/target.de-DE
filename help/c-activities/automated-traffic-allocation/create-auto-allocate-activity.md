@@ -1,13 +1,13 @@
 ---
-keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+keywords: Erstellen Sie eine automatische Zuordnung;A/B-Test;Aktivität automatisch zuordnen;Neue a/b-Aktivität;Automatisches Zuordnen;Automatisches Zuordnen zu bestem Erlebnis;Zuweisen;Automatisches Zuordnen
 description: Verwenden Sie den Visual Experience Composer (VEC) in Adobe Target, um Ihre A/B-Test-Aktivität für die automatische Zuordnung direkt auf einer Zielgruppe-aktivierten Seite zu erstellen und Teile der Seite innerhalb der Zielgruppe zu ändern.
 title: Erstellen einer Aktivität mit automatisierter Zuordnung
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 61%
+source-wordcount: '916'
+ht-degree: 58%
 
 ---
 
@@ -119,6 +119,10 @@ So erstellen Sie eine [!UICONTROL Aktivität für die automatische Zuordnung]:
 1. Legen Sie [Ziele und Einstellungen](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) für die Aktivität fest.
 
    ![A/B-Aktivitätseinstellungen](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >Wenn Sie [Analytics für die Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) mit dieser Aktivität verwenden möchten, finden Sie wichtige Informationen unter [A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischer Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]** oder **[!UICONTROL Speichern]**.
 
