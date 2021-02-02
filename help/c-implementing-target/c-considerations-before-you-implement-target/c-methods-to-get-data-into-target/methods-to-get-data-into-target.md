@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
+keywords: implementieren;Implementierung;einrichten;Einrichtung;Seitenparameter;Tomcat;URL-encoded;In-page-Profilattribut;Mbox-Parameter;In-page-Profilattribute;Skript-Profilattribut;Bulk-Profilupdate-API;API für einzelne Dateiaktualisierungen;Kundenattribute;Datenanbieter;Daten-Anbieter;Datenanbieter
 description: Informationen zu den verschiedenen Methoden, mit denen Sie Daten in Adobe Target abrufen können, einschließlich Seitenparametern, In-Page-Profil-Attributen, Skript-Profil-Attributen, Datenanbietern, der Massen-Profil-Update-API, der API für die Aktualisierung einzelner Profil und Kundenattribute.
-title: Verfahren für die Datenübernahme in Target
+title: Methoden zum Abrufen von Daten in die Zielgruppe
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1972'
 ht-degree: 93%
 
 ---
