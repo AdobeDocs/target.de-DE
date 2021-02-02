@@ -1,12 +1,12 @@
 ---
-keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
+keywords: serverseitig;serverseitig;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
 description: Informationen zu Adobe Target-serverseitigen Versand-APIs, SDKs und Zielgruppe-Recommendations-APIs.
-title: Informationen zu Adobe Target-serverseitigen Versand-APIs, Node.js-SDK und Zielgruppe-Recommendations-APIs.
+title: Informationen zu serverseitigen Versand-APIs, Node.js-SDKs und Recommendations-APIs
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '396'
 ht-degree: 20%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # Server-seitig: Target-Implementierung
 
-Informationen zu den APIs für serverseitige Versand, SDKs und [!DNL Adobe Target]-APIs.[!DNL Target Recommendations]
+Informationen zu den APIs für serverseitige Versand, SDKs und [!DNL Target Recommendations]-APIs.[!DNL Adobe Target]
 
 Der folgende Prozess wird in einer Server-seitigen Implementierung von [!DNL Target] ausgeführt:
 
@@ -49,7 +49,7 @@ Mithilfe der Versand-API [!DNL Target] können Sie:
 
 Link: [Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/)
 
-Das Portal für die serverseitige SDK-Dokumentation unterstützt Sie bei der Implementierung von [!DNL Adobe Target] auf Ihren Servern in Ihrer gewünschten Sprache.[!DNL Target]
+Das Portal für die serverseitige SDK-Dokumentation unterstützt Sie bei der Implementierung von [!DNL Target] auf Ihren Servern in Ihrer gewünschten Sprache.[!DNL Adobe Target]
 
 ## Target Recommendations-APIs
 
