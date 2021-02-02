@@ -1,13 +1,13 @@
 ---
-keywords: promotions;front promotions;back promotions;promotions type;list of items;promote by attribute;promote a collection
+keywords: Promotions;Vorwärts-Promotions;Rückwärts-Promotions;Promotions-Typ;Liste von Artikeln;Anzeigen nach Attribut;Anzeigen einer Sammlung
 description: Fügen Sie Promotionsartikel hinzu und steuern Sie deren Platzierung in Ihren Adobe Target-Recommendations-Designs. Sie können statische und dynamische Promotions hinzufügen.
-title: Fügen Sie Promotions in Adobe Target-Recommendations-Designs hinzu.
+title: hinzufügen Promotions in Zielgruppe Recommendations Designs
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 60%
+source-wordcount: '694'
+ht-degree: 58%
 
 ---
 
