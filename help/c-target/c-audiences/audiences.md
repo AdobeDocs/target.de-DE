@@ -1,12 +1,12 @@
 ---
-keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
+keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen; Zielgruppentargeting; Zielgruppenberichterstellung; Zielgruppenbericht; Segment; benutzerdefinierte Profilparameter; Zielgruppendefinition; Zielgruppenliste
 description: Mithilfe von Zielgruppen in Adobe Target wird bestimmt, wer Inhalte und Erlebnisse in einer Target-Aktivität anzeigen kann.
-title: Erstellen von Zielgruppen in Adobe Target
-feature: audiences
+title: Audiencen erstellen
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '897'
 ht-degree: 95%
 
 ---
