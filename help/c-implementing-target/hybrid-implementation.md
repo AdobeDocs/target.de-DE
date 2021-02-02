@@ -1,12 +1,12 @@
 ---
-keywords: hybrid deployment;hybrid;sever-side;serverside;server side;client-side;clientside;client side;hybrid implementation
+keywords: Hybridbereitstellung;Hybrid;Serverseitig;serverseitig;serverseitig;clientseitig;clientseitig;Hybridimplementierung
 description: Adobe Target Angebots ist ein einzigartiges Hybrid-Bereitstellungsmodell für die Personalisierung, die Kombination clientseitiger und serverseitiger Implementierungen.
 title: Hybridimplementierung
-feature: hybrid implementation
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
