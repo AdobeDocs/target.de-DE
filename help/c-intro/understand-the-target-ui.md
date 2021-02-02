@@ -1,12 +1,12 @@
 ---
-keywords: target user interface;user interface;ui
-description: Die Adobe Target-Benutzeroberfläche
-title: Die Benutzeroberfläche der Zielgruppe
+keywords: Benutzeroberfläche der Zielgruppe;Benutzeroberfläche;ui
+description: Wie verwende ich die Benutzeroberfläche?
+title: Die Benutzeroberfläche
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '800'
 ht-degree: 28%
 
 ---
