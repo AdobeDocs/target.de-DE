@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;audiences;percentage target
+keywords: Targeting; Zielgruppen; Prozentziel
 description: Richten Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen in Adobe Target aus, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen.
-title: Zielgruppen in Adobe Target
-feature: audiences
+title: Zielgruppen
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 99%
 
 ---
