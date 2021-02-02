@@ -1,13 +1,13 @@
 ---
-keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
+keywords: AB;A/B;AB...n;Fehler;Fallstricke;Fehler;Fallstricke;Bedeutung;Gewinner;statistischer Unterschied;statistische Leistung;Verkehrszuweisung;Zuordnung;
 description: A/B-Tests in Adobe Target bilden das Rückgrat der meisten Programm zur Optimierung des digitalen Marketings und unterstützen Marketingexperten dabei, Angebot-optimierte und zielgerichtete Erlebnisse für ihre Besucher und Kunden zu entwickeln. In diesem Abschnitt werden neun der größten Fallstricke beschrieben, denen Firmen beim Durchführen von A/B-Tests in Adobe Target ausgesetzt sind. Er bietet außerdem Wege zur Vermeidung dieser Fehler. So steigert Ihr Unternehmen die Investitionsrendite seiner Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
 title: Neun häufige Fehler bei A/B-Tests und wie diese vermieden werden
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3922'
-ht-degree: 87%
+source-wordcount: '3940'
+ht-degree: 86%
 
 ---
 
