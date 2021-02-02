@@ -1,13 +1,13 @@
 ---
-keywords: Recommendations;offer
+keywords: Empfehlungen; Angebot
 description: Adobe Recommendations als Angebot in A/B-Tests (einschließlich Automatisierte Zuordnung und Automatisches Targeting) und Erlebnis-Targeting-Aktivitäten (XT)
-title: Adobe Recommendations als Angebot in A/B-Tests (einschließlich Automatisierte Zuordnung und Automatisches Targeting) und Erlebnis-Targeting-Aktivitäten (XT)
+title: Recommendations als Angebot in den Aktivitäten A/B-Tests (einschließlich automatisierter Zuordnung und automatischer Zielgruppe) und Erlebnis-Targeting (XT)
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 98%
+source-wordcount: '557'
+ht-degree: 95%
 
 ---
 
