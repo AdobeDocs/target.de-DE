@@ -1,14 +1,14 @@
 ---
-keywords: experience;control;automated personalization;auto-target
+keywords: Erlebnis;Kontrolle;automatisierte Personalisierung;automatisches Targeting
 description: Auswahl eines Kontrollerlebnisses bei der Erstellung einer automatisierten Personalisierung (AP) oder eines automatischen Targetings (AT) in Adobe Target.
-title: Verwenden eines bestimmten Erlebnisses als Kontrolle in Adobe Target
+title: Verwenden eines bestimmten Erlebnisses als Steuerelement
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 99%
 
 ---
 
