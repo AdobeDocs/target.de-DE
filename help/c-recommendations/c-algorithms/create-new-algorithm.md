@@ -1,13 +1,13 @@
 ---
-keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: Kriterien;Algorithmus;Branche;Vertikal;Seitentyp;Empfehlungsschlüssel;Empfehlungslogik;Logik;Datenbereich;Verhaltensdatenquelle;Verhaltensdatenquelle;Ersatzempfehlungen;Einschlussregeln;Attributgewichtung;aktuelle Kategorie;benutzerdefiniertes Attribut;Zulzuletzt gekaufter Artikel;Zulzuletzt angezeigter Artikel;Am häufigsten angezeigte Artikel;Favoritenste Kategorie;Popularität;Zuletzt angezeigte Artikel;Zulzuletzt gekauft;Letzte;Letzte;Letzte;Zulzuletzt angesehen;Zulzuletzt angesehen;Favor;Zulzuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angezeigt;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angezeigt;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angezeigt;Zuletzt angesehen;Zuletzt angezeigt;Zuletzt
 description: Kriterien steuern den Inhalt Ihrer Adobe Recommendations-Aktivitäten. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen.
 title: Erstellen von Kriterien
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 66%
+source-wordcount: '2477'
+ht-degree: 65%
 
 ---
 
