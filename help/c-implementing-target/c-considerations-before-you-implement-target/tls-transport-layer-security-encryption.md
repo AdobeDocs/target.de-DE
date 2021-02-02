@@ -1,12 +1,12 @@
 ---
-keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
+keywords: tls;tls 1.0;Transportschichtsicherheit;verschlüsselung;tls 1.1;tls 1.2
 description: Informationen zu Änderungen in Bezug auf die Verwendung von TLS (Transport Layer Security), die durch Adobe und Target vorgenommen werden, um den höchsten Sicherheitsstandards gerecht zu werden und die Sicherheit von Kundendaten zu fördern.
-title: Änderungen der TLS-Verschlüsselung (Transport Layer Security)
+title: Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1238'
 ht-degree: 60%
 
 ---
