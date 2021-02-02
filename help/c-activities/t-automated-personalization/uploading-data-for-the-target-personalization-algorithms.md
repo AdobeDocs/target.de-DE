@@ -1,13 +1,13 @@
 ---
-keywords: Automated Personalization;ap;upload data;offline data;personalization algorithm;auto target;auto-target;best practices
+keywords: Automated Personalization;App;Hochladen von Daten;Offlinedaten;Personalisierungsalgorithmus;automatische Zielgruppe;automatische Zielgruppe;Best Practices
 description: Offline-Daten wie CRM-Informationen oder Kundenstamm-Tendenzwerte können bei der Entwicklung von Personalisierungsmodellen in Adobe Target Automated Personalization (AP)-Aktivitäten unglaublich wertvoll sein.
-title: Hochladen von Daten für die Target-Personalisierungsalgorithmen
+title: Hochladen von Daten für Personalisierungsalgorithmen
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 82%
+source-wordcount: '297'
+ht-degree: 76%
 
 ---
 
