@@ -1,13 +1,13 @@
 ---
-keywords: implement target;implementation;implement at.js;tag manager
+keywords: zielgruppe implementieren;Implementierung;Implementierung von at.js;Tag-Manager
 description: Informationen zur Implementierung von Adobe Target ohne einen Tag-Manager (Adobe Launch oder Dynamic Tag Management).
-title: Implementieren von Target ohne einen Tag-Manager
+title: Implementierung ohne Tag-Manager
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 70%
+source-wordcount: '1545'
+ht-degree: 69%
 
 ---
 
