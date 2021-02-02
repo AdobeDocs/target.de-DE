@@ -1,13 +1,13 @@
 ---
-keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
+keywords: Automatische Zielgruppe erstellen;A/B-Test;Aktivität der automatischen Zielgruppe;neue A/B-Aktivität;automatische Zielgruppe;automatische Zielgruppe für personalisierte Erlebnisse;Personalisiert
 description: Verwenden Sie den Visual Experience Composer (VEC) in Adobe Target, um Ihre A/B-Test-Aktivität für die automatische Zielgruppe direkt auf einer Seite zu erstellen, auf der die Zielgruppe aktiviert ist, und Teile der Seite innerhalb der Zielgruppe zu ändern.
 title: Aktivität der automatischen Zielgruppe erstellen
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 60%
+source-wordcount: '940'
+ht-degree: 58%
 
 ---
 
@@ -121,6 +121,10 @@ So erstellen Sie eine [!UICONTROL Auto-Zielgruppe]-Aktivität:
 1. Legen Sie [Ziele und Einstellungen](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) für die Aktivität fest.
 
    ![A/B-Aktivitätseinstellungen](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >Wenn Sie [Analytics für die Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) mit dieser Aktivität verwenden möchten, finden Sie wichtige Informationen unter [A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischer Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]** oder **[!UICONTROL Speichern]**.
 
