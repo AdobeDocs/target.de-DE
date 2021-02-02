@@ -1,12 +1,12 @@
 ---
-keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate;calculator
+keywords: AB;A/B;AB...n;Stichprobengröße;Stichprobengrößenrechner;Automatisches Zuordnen;Automatisches Zuordnen;Rechner
 description: Ein erfolgreicher A/B-Test in Adobe Target erfordert eine angemessene Anzahl von Besuchern (Stichprobengröße), um Ihr Konversionsrate zu verbessern. Wie wissen Sie jedoch, wie lange ein A/B-Test durchgeführt werden soll? Dieser Artikel enthält Informationen zu Aktivitäten mit automatisierter Zuordnung und zum Adobe Target-Stichprobengrößenrechner, mit dem Sie sicherstellen können, dass Ihre Aktivität über eine ausreichende Anzahl von Besuchern verfügt, um Ihre Ziele zu erreichen.
-title: Wie lange sollten A/B-Tests laufen?
+title: Wie lange sollten Sie einen A/B-Test durchführen?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3118'
 ht-degree: 74%
 
 ---
@@ -40,7 +40,7 @@ Weitere Informationen finden Sie unter [Übersicht über die automatische Zuordn
 
 ## Adobe Target-Stichprobengrößenrechner   {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Wenn Sie anstelle der Aktivität [!UICONTROL A/B-Test] statt [!UICONTROL Automatische Zuordnung] einen manuellen &lt;a1/> verwenden, hilft Ihnen der [!DNL Target] Stichprobengrößenrechner bei der Ermittlung der Stichprobengröße, die für einen erfolgreichen Test erforderlich ist. Ein manueller A/B-Test ist ein fester Horizonttest, daher ist der Rechner äußerst hilfreich. Die Verwendung des Taschenrechners für eine [!UICONTROL Aktivität mit automatischer Zuordnung] ist optional, da [!UICONTROL Automatisierte Zuordnung] einen Gewinner erklärt. Der Rechner gibt Ihnen eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
+Wenn Sie anstelle der Aktivität [!UICONTROL A/B-Test] statt [!UICONTROL Automatische Zuordnung] einen manuellen  verwenden, hilft Ihnen der [!DNL Target] Stichprobengrößenrechner bei der Ermittlung der Stichprobengröße, die für einen erfolgreichen Test erforderlich ist. Ein manueller A/B-Test ist ein fester Horizonttest, daher ist der Rechner äußerst hilfreich. Die Verwendung des Taschenrechners für eine [!UICONTROL Aktivität mit automatischer Zuordnung] ist optional, da [!UICONTROL Automatisierte Zuordnung] einen Gewinner erklärt. Der Rechner gibt Ihnen eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
 Bevor Sie Ihren A/B-Test einrichten, rufen Sie den Adobe Target [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html) auf.
 
