@@ -1,13 +1,13 @@
 ---
-keywords: Profile script;profile script attributes;mutually exclusive activities
+keywords: Profil-Skript;Profil-Skriptattribute;Aktivitäten, die sich gegenseitig ausschließen
 description: Mithilfe von Profilattributen können Sie Tests zum Vergleich mehrerer Aktivitäten einrichten, an denen jeweils unterschiedliche Besucher teilnehmen.
-title: Profil-Skripten zum Testen sich gegenseitig ausschließender Aktivitäten
-feature: visitor profiles
+title: Verwenden Sie Profil Scripts, um gegenseitige Aktivitäten zu testen.
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 81%
+source-wordcount: '694'
+ht-degree: 80%
 
 ---
 
