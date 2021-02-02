@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;target library;library
+keywords: Targeting; Target-Bibliothek; Bibliothek
 description: Benutzer basierend auf vorab erstellten Targeting-Regeln gezielt ansprechen
-title: Optionen der Zielgruppe-Bibliothek in Adobe Target-Audiencen
-feature: audiences
+title: Ziel-Bibliothek Optionen in Audiencen
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 96%
+source-wordcount: '185'
+ht-degree: 98%
 
 ---
 
