@@ -1,12 +1,12 @@
 ---
-keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: 'Die geräteinterne Entscheidungsfindung bietet die Möglichkeit, Ihre Adobe Target A/B- und Erlebnis-Targeting (XT)-Aktivitäten im Cache auf Ihrem Server zu speichern und Speicherentscheidungen mit einer Latenz von nahezu null durchzuführen, ohne Netzwerkanforderungen an das Adobe Target Edge Network zu blockieren. '
+keywords: Serverseite;serverseitig;sdk;sdks;on-device;Decision sioning;on device;ondevice;zero latency;latency;near-zero;node.js
+description: Die geräteinterne Entscheidungsfindung bietet die Möglichkeit, Ihre Adobe Target A/B- und Erlebnis-Targeting (XT)-Aktivitäten im Cache auf Ihrem Server zu speichern und Speicherentscheidungen mit einer Latenz von nahezu null durchzuführen, ohne Netzwerkanforderungen an das Adobe Target Edge Network zu blockieren.
 title: Geräteinterne Entscheidungsfindung
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
