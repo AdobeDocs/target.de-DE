@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
+keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; auto-target; auto target; Auto-Target-Bericht; Auto Target-Bericht; Personalisierung; Insights; automatisierte Segmente; FAQ; häufig gestellte Fragen; wichtige Attribute
 description: Für Benutzer von Automatisierte Personalisierung (AP) und von Automatisches Targeting (AT) sind zwei spezialisierte Berichte verfügbar, die die Berichte für automatisierte Segmente und wichtige Attribute enthalten.
-title: Berichte zu Personalization Insights
+title: Personalization Insights-Berichte
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 68%
+source-wordcount: '740'
+ht-degree: 69%
 
 ---
 
