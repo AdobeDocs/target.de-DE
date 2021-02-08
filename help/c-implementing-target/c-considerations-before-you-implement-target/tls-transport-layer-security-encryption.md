@@ -1,13 +1,14 @@
 ---
 keywords: tls;tls 1.0;Transportschichtsicherheit;verschlüsselung;tls 1.1;tls 1.2
-description: Informationen zu Änderungen in Bezug auf die Verwendung von TLS (Transport Layer Security), die durch Adobe und Target vorgenommen werden, um den höchsten Sicherheitsstandards gerecht zu werden und die Sicherheit von Kundendaten zu fördern.
-title: Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)
+description: Erfahren Sie, wie Zielgruppe mithilfe des TLS-Protokolls (Transport Layer Security) höchste Sicherheitsstandards einhält und die Sicherheit Ihrer Kundendaten erhöht.
+title: Wie stellt Zielgruppe mithilfe von TLS Sicherheit bereit?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1238'
-ht-degree: 60%
+ht-degree: 57%
 
 ---
 
