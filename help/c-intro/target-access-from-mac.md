@@ -1,13 +1,13 @@
 ---
 keywords: Experience Cloud;Anmelden;Sprache;Standardsprache in der Benutzeroberfläche;Standardsprache
-description: Wie greife ich von der Adobe Experience Cloud auf die Zielgruppe zu?
-title: Zielgruppe des Zugriffs von der Adobe Experience Cloud
+description: Erfahren Sie, wie Sie von Adobe Experience Cloud aus auf die Zielgruppe zugreifen, die Standardsprache für die Ansicht festlegen und die Zielgruppe der Benutzeroberfläche und Dokumentation ändern können.
+title: Wie greife ich von der Adobe Experience Cloud auf die Zielgruppe zu?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 64%
+source-wordcount: '419'
+ht-degree: 62%
 
 ---
 
