@@ -1,13 +1,13 @@
 ---
 keywords: Kriteriensequenz;Mehrere Kriterien;Algorithmen;Kriterien;Empfehlungskriterien;Sequenz;Anzahl der zurückgegebenen Elemente;Steuerung auf der Ebene des Slots;Steckplatz
-description: Verwenden Sie Sequenzen von bis zu fünf Kriterien, um die Elemente, die in Ihren Adobe Target Recommendations-Aktivitäten angezeigt werden, besser zu kontrollieren.
-title: Kriteriensequenzen erstellen
+description: Erfahren Sie, wie Sie Sequenzen von bis zu fünf Kriterien festlegen, um die Elemente, die in Ihren Adobe Target Recommendations-Aktivitäten angezeigt werden, besser zu kontrollieren.
+title: Wie erstelle ich Kriteriensequenzen in Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 34%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
