@@ -1,13 +1,13 @@
 ---
 keywords: Targeting; Netzwerk; Zielnetzwerk; ISP; Domänenname; Verbindungsgeschwindigkeit; Target ISP; Zieldomänenname; Zielverbindungsgeschwindigkeit
-description: Sie können Zielgruppen in Adobe Target basierend auf Netzwerkdetails erstellen.
-title: Netzwerkoptionen in Audiencen
+description: Erfahren Sie, wie Sie Audiencen in Adobe Target basierend auf Netzwerkdetails wie ISP, Domänenname und Verbindungsgeschwindigkeit erstellen.
+title: Kann ich Besucher anhand von Netzwerkoptionen Zielgruppe geben?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
