@@ -1,13 +1,13 @@
 ---
 keywords: Kriterien;Algorithmus;Branche;Vertikal;Seitentyp;Empfehlungsschlüssel;Empfehlungslogik;Logik;Datenbereich;Verhaltensdatenquelle;Verhaltensdatenquelle;Ersatzempfehlungen;Einschlussregeln;Attributgewichtung;aktuelle Kategorie;benutzerdefiniertes Attribut;Zulzuletzt gekaufter Artikel;Zulzuletzt angezeigter Artikel;Am häufigsten angezeigte Artikel;Favoritenste Kategorie;Popularität;Zuletzt angezeigte Artikel;Zulzuletzt gekauft;Letzte;Letzte;Letzte;Zulzuletzt angesehen;Zulzuletzt angesehen;Favor;Zulzuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angezeigt;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angezeigt;Zuletzt angesehen;Zuletzt angesehen;Zuletzt angezeigt;Zuletzt angesehen;Zuletzt angezeigt;Zuletzt
-description: Kriterien steuern den Inhalt Ihrer Adobe Recommendations-Aktivitäten. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen.
-title: Erstellen von Kriterien
+description: Erfahren Sie, wie Sie Kriterien erstellen, die den Inhalt Ihrer Adobe Recommendations-Aktivitäten steuern, um die für Ihre Aktivität am besten geeigneten Empfehlungen anzuzeigen.
+title: Wie erstelle ich Kriterien in Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
