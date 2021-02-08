@@ -1,13 +1,13 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
-description: Informationen zu Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
-title: Beschränkungen
+keywords: Zeichenbeschränkung;mbox-Parameter;Batch-Versand-API;Profil-Parameter;Grenzwerte;Integrierte Profil;Maximal;Beschränkung;Zeichen;Best Practice;Orderid;orderTotal;mbox3rdPartyID;Kategorie;categoryID;Fehlerbehebung
+description: Ansicht einer Liste von Zeichenbeschränkungen und anderen Einschränkungen (Angebot-Größe, Audiencen, Profil, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
+title: Überprüfen Sie eine Liste von Zeichenbeschränkungen und anderen Einschränkungen (Angebot-Größe, Audiencen, Profil, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
