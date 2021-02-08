@@ -1,13 +1,13 @@
 ---
 keywords: Mbox; mbox3rdPartyId; Profilsynchronisierung; Profil synchronisieren
-description: Informationen über Echtzeitprofile
-title: Echtzeit-Profil-Synchronisierung für Mbox3Rdpartyid
+description: Erfahren Sie, wie Sie die "mbox3rdPartyId"verwenden, die die Besucher-ID Ihres Unternehmens darstellt, z. B. die Mitglieds-ID oder das Treueprogramm Ihres Unternehmens.
+title: Wie verwende ich die Echtzeit-Profil-Synchronisierung für mbox3rdPartyId?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
