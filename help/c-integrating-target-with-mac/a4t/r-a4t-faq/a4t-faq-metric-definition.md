@@ -1,13 +1,13 @@
 ---
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Metrik; Metrikdefinitionen
-description: Dieses Thema enthält Antworten auf häufig zu Metrikdefinitionen und zur Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
-title: Metrikdefinitionen - Häufig gestellte Fragen zu A4T
+description: Hier finden Sie Antworten auf Fragen zu Metrikdefinitionen und zur Verwendung von Analytics für die Zielgruppe (A4T). Mit A4T können Sie Analytics-Berichte mit Adobe Target-Aktivitäten verwenden.
+title: Wo finde ich Informationen zu Metrikdefinitionen mit A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 67%
+source-wordcount: '386'
+ht-degree: 58%
 
 ---
 
