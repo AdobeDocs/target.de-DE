@@ -4,9 +4,9 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der A
 title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '3500'
+source-wordcount: '3522'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Februar 8 | [Mobile Target-Vorschau](/help/c-target-mobile-app/target-mobile-preview.md) | Das Codefragment, das Sie der Datei AndroidManifest.xml für Version 4 der Adobe Mobile SDK hinzufügen sollten, wurde hinzugefügt. |
 | Februar 1 | [Automated Personalization-Zusammenfassungsberichte](/help/c-reports/reports-ap.md) | Neuer Abschnitt hinzugefügt: &quot;Häufig gestellte Fragen&quot;. |
 | Januar 27 | [Erstellen von Umleitungsangeboten](/help/c-experiences/c-manage-content/offer-redirect.md) | Das Thema wurde aktualisiert. |
 |  | [Remote-Angebote erstellen](/help/c-experiences/c-manage-content/about-remote-offers.md) | Das Thema wurde aktualisiert. |
