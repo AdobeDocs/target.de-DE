@@ -1,13 +1,13 @@
 ---
 keywords: Targeting
-description: Für jedes Erlebnis werden Konversionsrate, Steigerung, Konfidenz (statistische Bedeutung) und Konfidenzintervall in einem Bericht festgehalten.
-title: Konversionsrate
+description: Erfahren Sie, wie Adobe Target das Konversionsrat-, Steigerungs-, Konfidenzintervall (statistische Bedeutung) und das Konfidenzintervall für jedes Erlebnis anzeigt und berechnet.
+title: Wie kann ich die Konversionsrat-, Lift- und Konfidenzstufe Ansicht durchführen?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2173'
-ht-degree: 71%
+source-wordcount: '2187'
+ht-degree: 70%
 
 ---
 
