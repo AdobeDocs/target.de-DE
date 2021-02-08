@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.sendnotifications;Sendnotifications;sendnotifications;Senden von Benachrichtigungen;Benachrichtigungen;at.js;Funktionen;funktion
-description: Informationen über die Funktion adobe.target.sendNotifications(options) für die at.js JavaScript-Bibliothek von Adobe Target.
-title: Adobe.Target.Sendnotifications(Options)
+description: Verwenden Sie adobe.Zielgruppe.sendNotifications() für at.js, um Benachrichtigungen an den Rand der Zielgruppe zu senden, wenn ein Erlebnis ohne applyOffer wiedergegeben wird. (at.js.2.1 +)
+title: Wie verwende ich die Funktion adobe.Zielgruppe.sendNotifications()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 99%
+source-wordcount: '634'
+ht-degree: 95%
 
 ---
 
 
-# adobe.target.sendNotifications(options)
+# adobe.target.sendnotifications(options)
 
 Diese Funktion sendet eine Benachrichtigung an Target Edge, wenn ein Erlebnis ohne `adobe.target.applyOffer()` oder `adobe.target.applyOffers()` gerendert wird.
 
