@@ -1,13 +1,14 @@
 ---
 keywords: Implementieren;Implementierung
-description: Bevor Sie mit der Verwendung von Adobe Target beginnen, sollten Sie Target auf Ihrer Site implementieren, sich mit einigen Grundkonzepten und Begriffen sowie mit der Funktionsweise von Target und mit dessen Integration in Ihre Infrastruktur vertraut machen und verstehen, wie Besucher durch das Target-System verfolgt werden.
-title: Implementierung
+description: Erfahren Sie, wie Sie Adobe Target auf Ihrer Site implementieren. Legen Sie globale Einstellungen, Implementierungsmethode (AEP Web SDK oder at.js) und mehr fest.
+title: Wie implementieren Sie die Zielgruppe auf meiner Site?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 43%
+source-wordcount: '143'
+ht-degree: 18%
 
 ---
 
