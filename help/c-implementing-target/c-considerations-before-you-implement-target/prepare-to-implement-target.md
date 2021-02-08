@@ -1,13 +1,14 @@
 ---
 keywords: implementieren;Implementierung;RFI;Informationsanfrage
-description: Als Vorbereitung auf Adobe Target-Implementierungen sollten einige Aufgaben erledigt und Informationen zusammengetragen werden.
-title: Implementierung vorbereiten
+description: Machen Sie sich mit den Überlegungen vertraut, die Sie vor der Implementierung von Adobe Target berücksichtigen sollten. Schließen Sie die erforderlichen Aufgaben ab und sammeln Sie Informationen, wenn Sie sich auf die Implementierung der Zielgruppe vorbereiten.
+title: Wie sollte ich mich auf die Implementierung der Zielgruppe vorbereiten?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
