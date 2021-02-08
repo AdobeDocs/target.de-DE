@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
-description: Liste häufig gestellter Fragen zur automatisierten Personalisierung (AP).
-title: Häufig gestellte Fragen zur automatisierten Personalisierung
+keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQ;FAQ;Automatisierte Personalisierung;Steuerung;Standarderfahrung;Best Practices
+description: Hier finden Sie eine Liste häufig gestellter Fragen und Antworten zu Automated Personalization-Aktivitäten in Adobe Target.
+title: Wie kann ich FAQs zu Automated Personalization-Aktivitäten finden?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1963'
-ht-degree: 85%
+source-wordcount: '1990'
+ht-degree: 83%
 
 ---
 
