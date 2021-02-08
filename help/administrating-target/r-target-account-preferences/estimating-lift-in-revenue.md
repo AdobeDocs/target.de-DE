@@ -1,13 +1,14 @@
 ---
 keywords: Umsatzsteigerung;Umsatz;Schätzung der Umsatzsteigerung;Steigerung berechnen;geschätzter Wert
-description: Verwenden Sie Adobe Target, um die Umsatzsteigerung zu schätzen, die Sie erzielen würden, wenn alle Benutzer das Gewinner-Erlebnis Ansicht hätten.
-title: Geschätzte Umsatzsteigerung
+description: Schätzen Sie die Steigerung, die Sie erzielen können, wenn jedem Besucher das erfolgreichste Erlebnis angezeigt wird, wenn die Trends so weitergehen, wie sie es während des Tests waren.
+title: Was schätze ich eine Umsatzsteigerung?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 90%
+source-wordcount: '525'
+ht-degree: 88%
 
 ---
 
