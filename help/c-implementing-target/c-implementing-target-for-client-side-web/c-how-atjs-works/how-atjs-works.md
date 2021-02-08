@@ -1,13 +1,14 @@
 ---
 keywords: Systemdiagramm;Flackern;at.js;Implementierung;JavaScript-Bibliothek;js;ATJS
-description: Adobe Target-Systemdiagramm zur Darstellung des Anruf- und Informationsflusses bei Aufrufen oder Datensammlungen einer automatisch erstellten globalen Mbox bei der Verwendung von „at.js“.
-title: So funktioniert die JavaScript-Bibliothek "at.js"
+description: Erfahren Sie, wie die JavaScript-Bibliotheksfunktion von "at.js"funktioniert, einschließlich Systemdiagrammen, mit denen Sie den Arbeitsablauf beim Laden von Zielgruppen verstehen können.
+title: Wie funktioniert die JavaScript-Bibliothek "at.js"?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
