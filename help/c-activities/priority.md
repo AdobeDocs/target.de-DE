@@ -1,12 +1,12 @@
 ---
 keywords: Einstellungen;Priorität
-description: Adobe Target legt fest, welche Aktivität (oder welche Aktivitäten) für eine Seite unterschiedlich bereitgestellt werden soll, je nachdem, welche Zielgruppe-Oberfläche und welche Aktivität-Erstellungsfunktion (Visual Experience Composer oder Form Based Composer) Sie verwenden.
-title: Priorität
+description: Erfahren Sie, wie Adobe Target festlegt, welche Aktivität (oder welche Aktivitäten) je nach verwendeter Zielgruppe und verwendeter Aktivität unterschiedlich an eine Seite gesendet werden soll.
+title: Wie weist Zielgruppe verschiedenen Aktivitäten Priorität zu?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1168'
 ht-degree: 88%
 
 ---
