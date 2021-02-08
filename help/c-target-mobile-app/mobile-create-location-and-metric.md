@@ -1,13 +1,14 @@
 ---
 keywords: mobile App; Ort der mobilen App; Targeting mobiler Apps; mobile Zielstandorte; Erfolgsmetriken für mobile Apps
-description: Möchten Sie Target in Ihrer mobilen App verwenden, erstellen Sie einen Ort und eine Erfolgsmetrik.
-title: IOS - Erstellen eines Zielgruppen-Standorts und einer Erfolgsmetrik
+description: Beispielcode für die Ansicht, mit dem Sie lernen können, wie Orte und Erfolgsmetriken in iOS-Apps erstellt werden, damit Sie mit Adobe Target Ihre App personalisieren und optimieren können.
+title: Wie erstelle ich Orte und Erfolgsmetriken für Zielgruppen in einer iOS-App?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 91%
+source-wordcount: '420'
+ht-degree: 83%
 
 ---
 
