@@ -1,13 +1,13 @@
 ---
 keywords: Erlebnis-Targeting;xt;Aktivität-URL;url
-description: Die Aktivitäten-URL bestimmt die Seite, die in der Adobe Target Experience Targeting-Aktivität verwendet wird und die beim Entwerfen der Aktivität im Visual Experience Composer (VEC) oder im Form-Based Experience Composer geöffnet wird.
-title: Aktivitäts-URL
+description: Erfahren Sie, wie Sie die Aktivitäten-URL angeben, die die Seite bestimmt, die im Test verwendet wird und die geöffnet wird, wenn die Erlebnis-Targeting-Aktivität mit Adobe Target entworfen wird.
+title: Wie lautet die Aktivitäten-URL in einer Erlebnis-Targeting-Aktivität (XT)?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 65%
+source-wordcount: '291'
+ht-degree: 63%
 
 ---
 
