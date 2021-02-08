@@ -1,13 +1,13 @@
 ---
 keywords: Einstellungen für Aktivitäten;Ziele und Einstellungen;Multivarianz;MVT
-description: Auf der Seite "Ziele und Einstellungen"in Adobe Target geben Sie Informationen zu den Testzielen ein.
-title: Ziele und Einstellungen
+description: Erfahren Sie, wie Sie auf der Seite "Ziele und Einstellungen"in Adobe Target Informationen über die Ziele einer Multivarianz-Test-(MVT-)Aktivität angeben können.
+title: Wie gebe ich Ziele und Einstellungen in einer Multivarianz-Test-Aktivität (MVT) an?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
