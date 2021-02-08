@@ -1,13 +1,13 @@
 ---
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Bericht; Berichte; Berichte anzeigen; Berichterstellung; Zählmethodik; Impressionen; Besucher; Besuche; Standardmetrik; Aktivitätskonversionen; unspezifisch
-description: Dieses Thema enthält Antworten auf häufig zur Anzeige von Berichten bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
-title: Ansichten - FAQ zu A4T
+description: Antworten auf Fragen, die häufig nach der Anzeige von Berichten bei der Verwendung von Analytics für die Zielgruppe (A4T) gestellt werden. Mit A4T können Sie Analytics-Berichte für Aktivitäten der Zielgruppe verwenden.
+title: Antworten auf Fragen zur Ansicht von Berichten mit A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2368'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
