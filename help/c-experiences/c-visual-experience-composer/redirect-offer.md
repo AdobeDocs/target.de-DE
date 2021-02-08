@@ -1,13 +1,13 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Verwenden Sie die Option "Zu URL umleiten"in Adobe Target, wenn Sie den Besucher auf eine andere Seite anstatt auf derselben Seite anzeigen möchten.
-title: Zu einer URL umleiten
+description: Erfahren Sie, wie Sie die Option "Zu URL umleiten"in Adobe Target verwenden, wenn Sie den Besucher auf eine andere Seite anstatt auf derselben Seite anzeigen möchten.
+title: Kann ich eine Seite zu einer anderen URL umleiten?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 87%
+source-wordcount: '434'
+ht-degree: 84%
 
 ---
 
