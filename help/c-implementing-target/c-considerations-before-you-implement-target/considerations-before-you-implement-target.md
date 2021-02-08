@@ -1,13 +1,14 @@
 ---
-keywords: implementieren;Implementierung
-description: Überlegungen vor der Implementierung von Adobe Target.
-title: Vor der Implementierung
+keywords: Implementieren;Implementierung
+description: Machen Sie sich mit den Überlegungen vertraut, die Sie vor der Implementierung von Adobe Target berücksichtigen sollten.
+title: Was sollte ich vor der Implementierung wissen?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 90%
+source-wordcount: '117'
+ht-degree: 76%
 
 ---
 
