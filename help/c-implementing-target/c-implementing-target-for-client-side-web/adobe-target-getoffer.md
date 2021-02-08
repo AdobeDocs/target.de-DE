@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.getoffer;Getoffer;getoffer;get offer;at.js;Funktionen;funktion
-description: Informationen über die Funktion adobe.target.getOffer(options) für die JavaScript-Bibliothek von Adobe Target at.js.
-title: Adobe.Target.Getoffer(Options)
+description: Verwenden Sie die Funktion adobe.Zielgruppe.getOffer() und ihre Optionen, damit die Adobe Target-Bibliothek at.js Anforderungen auslöst, um ein Zielgruppe-Angebot abzurufen.
+title: Wie verwende ich die Funktion adobe.Zielgruppe.getOffer()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 96%
+source-wordcount: '476'
+ht-degree: 91%
 
 ---
 
