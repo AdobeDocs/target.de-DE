@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations
-description: Bei Ihrem Datenerfassungsprozess treten verschiedene Änderungen auf, wenn Sie Analytics als Berichtsquelle für Target (A4T) verwenden.
-title: Bevor Sie Analytics als Berichte-Quelle (A4T) implementieren
+description: Erfahren Sie mehr über die Implementierungsanforderungen für Analytics for Zielgruppe (A4T) und was Sie beachten sollten, bevor Sie diese Integration implementieren.
+title: Was sollte ich vor der Implementierung von A4T wissen?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 52%
+source-wordcount: '896'
+ht-degree: 50%
 
 ---
 
