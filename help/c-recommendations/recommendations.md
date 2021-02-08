@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;Recommendations-Kriterien;Empfehlungsalgorithmen;Aktivität von Empfehlungen;Kriterien;Empfehlungs-Targeting;recs
-description: Recommendations-Aktivitäten in Adobe Target zeigen automatisch Produkte oder Inhalte an, die ausgehend von früheren Aktivitäten oder anderen Algorithmen für Ihre Kunden von Interesse sein könnten. Mit diesen Empfehlungen stellen Sie Kunden relevante Artikel vor, von denen diese andernfalls möglicherweise nichts gewusst hätten.
-title: Zielgruppe Recommendations
+description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe Target, die automatisch Inhalte anzeigen, die ausgehend von der bisherigen Aktivität oder anderen Algorithmen für Ihre Kunden von Interesse sein könnten.
+title: Was ist Zielgruppe Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 59%
+source-wordcount: '930'
+ht-degree: 58%
 
 ---
 
