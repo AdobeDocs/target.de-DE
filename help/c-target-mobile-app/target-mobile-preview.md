@@ -5,10 +5,10 @@ title: Wie verwende ich den Link zur mobilen Vorschau in Zielgruppe Mobile?
 feature: Implement Mobile
 role: Developer
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 88%
+source-wordcount: '609'
+ht-degree: 82%
 
 ---
 
@@ -77,10 +77,16 @@ Mit der mobilen Vorschaufunktionalität können Sie Aktivitäten in Ihrer mobile
      }
    ```
 
-   Damit die Vorschau für die Mobilversion funktioniert, müssen Sie außerdem das folgende Code-Snippet in [!DNL AndroidManifest.xml] hinzufügen:
+   Damit Mobile Vorschau für Android funktioniert, müssen Sie bei Verwendung von Version 5 des Adobe Mobile SDK auch das folgende Codefragment in [!DNL AndroidManifest.xml] hinzufügen:
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
+   ```
+
+   Wenn Sie Version 4 des Adobe Mobile SDK verwenden, verwenden Sie das folgende Codefragment:
+
+   ```javascript
+   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
    ```
 
 ## Einen Vorschau-Link erstellen {#section_D9D58173FFF34E9BB75EBF357273F128}
