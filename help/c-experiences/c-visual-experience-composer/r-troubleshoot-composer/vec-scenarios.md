@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations
-description: Die Szenarien in diesem Thema zeigen, wie sich an Ihrer Seite vorgenommene Änderungen auf die Fähigkeit von Adobe Target auswirken, ein Erlebnis anzuzeigen.
-title: Szenarien für die Seitenmodifizierung
+description: Hier werden gängige Szenarien erläutert, die zeigen, wie sich Änderungen, die im Visual Experience Composer (VEC) an Ihrer Seite vorgenommen wurden, auf die Fähigkeit Adobe Targets zur Anzeige eines Erlebnisses auswirken.
+title: Was sind einige häufige Szenarien zur Seitenanpassung?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
