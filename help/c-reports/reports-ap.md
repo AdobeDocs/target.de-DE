@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;AP-Berichte;Automatisierte Personalisierungsberichte;Bericht auf Aktivität;Bericht auf Angebot-Ebene;Bericht auf Angebot-Ebene;FAQ
-description: Wie verwende ich die Zusammenfassungsberichte von Automated Personalization?
-title: Automated Personalization-Zusammenfassungsberichte
+description: Erfahren Sie, wie Sie den Automated Personalization-Zusammenfassungsbericht in Adobe Target interpretieren. Sie können in diesem Bericht zu den Berichten zu automatisierten Segmenten und wichtigen Attributen wechseln.
+title: Wie verwende ich die Automated Personalization-Zusammenfassungsberichte?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 42%
+source-wordcount: '671'
+ht-degree: 40%
 
 ---
 
