@@ -1,14 +1,14 @@
 ---
 keywords: Zielgruppe;Home;beliebte Themen;Adobe-Zielgruppe;Standard;Premium;Zielgruppe-Dokumentation;Dokumentation zur Adobe-Zielgruppe
-title: Adobe Target-Anleitung
-description: Wo finde ich die Dokumentation zur Zielgruppe?
+title: Wo finde ich die Dokumentation zur Zielgruppe?
+description: Erfahren Sie, wie Sie mit Adobe Target die Erlebnisse Ihrer Kunden personalisieren können, um den Umsatz Ihrer Websites, mobilen Sites, Apps und anderer digitaler Kanal zu maximieren.
 seo-description: Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 62%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
