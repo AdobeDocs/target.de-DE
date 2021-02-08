@@ -1,13 +1,13 @@
 ---
 keywords: Änderungsprotokoll der Aktivität;Änderungsprotokoll
-description: Im Änderungsprotokoll befindet sich ein Datensatz zu den Personen, die Ihre Aktivitäten geändert haben; er gibt auch den Zeitpunkt dieser Änderungen an.
-title: Aktivitätsänderungsprotokoll
+description: Greifen Sie auf die Änderungsprotokolle einer Aktivität in Adobe Target zu, um einen Datensatz darüber zu erstellen, wer Ihre Aktivitäten geändert hat und wann die Änderungen vorgenommen wurden.
+title: Wie kann ich ein Änderungsprotokoll für Aktivitäten anzeigen?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 78%
+source-wordcount: '113'
+ht-degree: 53%
 
 ---
 
