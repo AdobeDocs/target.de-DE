@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.trackevent; Trackevent; trackevent; Ereignis tracken; at.js; Funktionen; funktion; Preventdefault; preventdefault; Standard verhindern
-description: Informationen zur Funktion adobe.target.trackEvent(options) für die JavaScript-Bibliothek von Adobe Target at.js.
-title: Adobe.Target.Trackevent(Options)
+description: Verwenden Sie die Funktion adobe.Zielgruppe.trackEvent() für die Adobe Target at.js JavaScript-Bibliothek, um eine Anforderung zum Berichten von Benutzeraktionen wie Klicks und Konversionen auf Ihrer Site auszulösen.
+title: Wie verwende ich die Funktion adobe.Zielgruppe.trackEvent()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
