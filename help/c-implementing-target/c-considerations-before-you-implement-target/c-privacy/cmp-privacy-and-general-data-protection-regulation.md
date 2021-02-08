@@ -1,12 +1,13 @@
 ---
 keywords: DSGVO; eu; Europäische Union; Datenschutz; faq; häufig gestellte Fragen; california consumer privacy act; ccpa; Datenschutz; Schutz der Daten; opt-out; abmelden; Regierung; Vorschrift
-description: Informationen über die Allgemeine Datenschutzverordnung der Europäischen Vereinigung (GDPR), das California Consumer Privacy Act (CCPA) und andere internationale Datenschutzbestimmungen sowie über die Auswirkungen dieser Bestimmungen auf Ihr Unternehmen und Adobe Target.
-title: Datenschutzbestimmungen
+description: Erfahren Sie mehr über die Zielgruppe und die allgemeine Datenschutzverordnung der Europäischen Vereinigung (GDPR), das California Consumer Privacy Act (CCPA) und andere Datenschutzbestimmungen.
+title: Wie geht Zielgruppe mit Datenschutz- und Datenschutzvorschriften um?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2265'
 ht-degree: 90%
 
 ---
