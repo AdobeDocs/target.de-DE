@@ -1,13 +1,13 @@
 ---
 keywords: Affinität; Kategorieaffinität
-description: Die Kategorieaffinitätsfunktion in Adobe Target erfasst automatisch alle Kategorien, die ein Benutzer besucht, und berechnet die Affinität des Benutzers für diese Kategorien, sodass diese zielgerichtet und segmentiert eingesetzt werden können. Hierdurch wird gewährleistet, dass Inhalte zielgerichtet auf Besucher angewendet werden, die mit großer Wahrscheinlichkeit aufgrund dieser Informationen handeln.
-title: Kategorie Affinität verwenden
+description: Erfahren Sie mehr über die Affinität der Kategorie in Adobe Target, die automatisch die Kategorien erfasst, die ein Benutzer besucht, und dann die Affinität des Benutzers für die Kategorie berechnet, sodass diese zielgerichtet und segmentiert eingesetzt werden kann.
+title: Was ist Kategorie Affinität?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
