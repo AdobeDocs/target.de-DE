@@ -1,13 +1,13 @@
 ---
 keywords: Zusammenfassung
-description: Die Testzusammenfassung bietet einen visuellen Überblick über Ihren Adobe Target Multivarianz-Test.
-title: Testzusammenfassung
+description: Ansicht einer Übersicht der Multivarianz-Test-Aktivität (MVT), die einen visuellen Überblick über Ihre MVT-Aktivität in Adobe Target bietet.
+title: Wie kann ich eine Übersicht über die Aktivität eines Multivarianz-Tests (MVT) erstellen?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 72%
+source-wordcount: '120'
+ht-degree: 62%
 
 ---
 
