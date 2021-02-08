@@ -1,13 +1,13 @@
 ---
 keywords: Vorlagentests;Vorlage;gleiches Erlebnis auf ähnlichen Seiten;Vorlagentest
-description: Verwenden Sie eine Seitenvorlage in Adobe Target, um eine Struktur für Ihre Seiten bereitzustellen oder wenn Ihre Seiten ähnliche Elemente enthalten, um Variationen in ähnlich strukturierten Seitenelementen zu testen.
-title: Gleiches Erlebnis auf ähnlichen Seiten
+description: Erfahren Sie, wie Sie mit dem Adobe Target Visual Experience Composer (VEC) das gleiche Erlebnis auf mehreren Seiten verwenden können, die ähnlich strukturiert sind oder dieselben Vorlagenelemente enthalten.
+title: Kann ich dasselbe Erlebnis auf ähnlichen Seiten einbeziehen?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 47%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
