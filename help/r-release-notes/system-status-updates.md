@@ -1,13 +1,13 @@
 ---
 keywords: Systemaktualisierung; Fehlerbehebung; Wartung; Systemstatus; Aktualisierungsstatus
-description: Wo kann ich den Status von Adobe- und Experience Cloud-Lösungen Ansicht geben?
-title: Systemstatusaktualisierungen
+description: Ansicht des aktuellen Status von Adobe Target, um festzustellen, ob Probleme aufgrund von Systemaktualisierungen oder routinemäßigen Wartungsarbeiten auftreten können.
+title: Wo kann ich den Status von Zielgruppe und anderen Produkten der Adobe Ansicht?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '329'
+ht-degree: 87%
 
 ---
 
