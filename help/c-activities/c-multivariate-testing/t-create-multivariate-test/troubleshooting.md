@@ -1,13 +1,13 @@
 ---
-keywords: Multivariate Tests;troubleshoot;troubleshooting;mvt
-description: Dieses Thema enthält Vorschläge zur Lösung einiger Probleme, die beim Entwerfen eines MVT-Tests in Adobe Target auftreten können.
-title: Fehlerbehebung bei Multivarianz-Tests
+keywords: Multivarianz-Tests;Fehlerbehebung;Fehlerbehebung;MVT
+description: Entdecken Sie potenzielle Herausforderungen, mit denen Sie möglicherweise konfrontiert sind, wenn Sie Multivarianz-Test-(MVT-)Aktivitäten in Adobe Target verwenden, und schlagen Sie Lösungsvorschläge vor.
+title: Wie behebe ich Fehler bei Multivarianz-Tests?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 45%
+source-wordcount: '176'
+ht-degree: 42%
 
 ---
 
