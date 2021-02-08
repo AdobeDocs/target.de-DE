@@ -1,12 +1,12 @@
 ---
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
-description: Adobe Target Begrüßungs-Kit - Kapitel 2 - Zielgruppe auf einen Blick
-title: Begrüßungs-Kit - Kapitel 2 - auf einen Blick
+description: Sehen Sie sich Adobe Target auf hoher Ebene an. Erfahren Sie mehr über verfügbare Aktivitäten, Kanal, Implementierung, Integrationen und mehr.
+title: Wo finde ich eine Einführung in die Zielgruppe auf hoher Ebene?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2520'
 ht-degree: 17%
 
 ---
@@ -42,7 +42,7 @@ Mit [!DNL Target] können Sie digitale Erlebnisse praktisch überall testen und 
 
 | Kanal | Details |
 | --- | --- |
-| Webseite | [!DNL Target] kann für die Ausführung von A/B-Tests, Multivariate Testing-, Erlebnis-Targeting-, Auto-Allokation-, Auto-Zielgruppe-, Automated Personalization- und Recommendations-Aktivitäten auf Seiten Ihrer mehrseitigen, einseitigen Anwendung (SPA) und mobilen Websites verwendet werden, um die Besucher- und Kundenbindung zu verbessern, Konversionen zu steigern und den Umsatz zu steigern. |
+| Website | [!DNL Target] kann für die Ausführung von A/B-Tests, Multivariate Testing-, Erlebnis-Targeting-, Auto-Allokation-, Auto-Zielgruppe-, Automated Personalization- und Recommendations-Aktivitäten auf Seiten Ihrer mehrseitigen, einseitigen Anwendung (SPA) und mobilen Websites verwendet werden, um die Besucher- und Kundenbindung zu verbessern, Konversionen zu steigern und den Umsatz zu steigern. |
 | Mobile Web | [!DNL Target] kann verwendet werden, um alle gleichen Aktivitäten auszuführen, die Sie auf Ihren Webseiten für Mobilgeräte ausführen, um die Interaktion mit Besucher und Kunden zu verbessern, Konversionen zu steigern und den Umsatz zu steigern. |
 | Mobile App | [!DNL Target] kann zum Testen und Personalisieren von Erlebnissen mobiler Apps basierend auf dem Benutzerverhalten und dem mobilen Kontext verwendet werden. [!DNL Target] ermöglicht die Bereitstellung von Interaktionen, die durch iterative Tests sowie durch Erlebnis-Targeting und AI-basierte Personalisierung interagieren und konvertieren. Um [!DNL Target] in Ihrer mobilen App zu verwenden, müssen Sie das Adobe Mobile Services SDK verwenden. |
 | IoT/Überall | [!DNL Target] Eine serverseitige Implementierung wird so Angebot, dass Sie dieselben Test- und Personalisierungsfunktionen in Aktivitäten verwenden können, die Sie auf Ihrer herkömmlichen Website, mobilen Site und mobilen Apps in E-Mails und auf Touchpoints verwenden können, bei denen kein Browser oder kein JavaScript-Code verwendet wird. So können Sie z. B. Kioske, Set-Top-Boxen, Spielekonsolen, Sprachassistenten und andere nicht traditionelle Touchpoints testen und personalisieren. |
