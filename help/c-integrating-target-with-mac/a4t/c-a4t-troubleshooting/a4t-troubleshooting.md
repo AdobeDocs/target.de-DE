@@ -1,13 +1,13 @@
 ---
 keywords: Analytics-Trackingserver; A4T; Analytics-Segmente; Report Suites; falsche Daten; verwaist; sdid; VisitorAPI.js; mboxMCSDID; Phantom; unspezifisch
-description: In diesem Thema werden einige allgemeine Probleme behandelt, die auftreten, wenn Analytics als Berichtsquelle für Target (A4T) verwendet wird.
+description: Erfahren Sie mehr über häufige Probleme, mit denen Kunden bei der Verwendung von Analytics für die Zielgruppe (A4T) konfrontiert wurden.
 title: Fehlerbehebung bei der Integration von Analytics und Zielgruppe (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 63%
+source-wordcount: '995'
+ht-degree: 61%
 
 ---
 
