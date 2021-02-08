@@ -1,13 +1,13 @@
 ---
 keywords: Empfehlungsentwurf; Vorlage; Entwurf erstellen; Lieferung; Ausgabe
-description: Mit Designs in Adobe Target Recommendations wird definiert, wie Empfehlungen auf einer Seite angezeigt werden. Entwürfe definieren das Layout und das Format Ihrer Empfehlungen, um die Interaktion, Konversion und den Umsatz der Besucher zu verbessern.
-title: Überblick über Designs
+description: Erfahren Sie, wie Sie mit Designs in Adobe Target Recommendations definieren, wie Empfehlungen auf einer Seite angezeigt werden (1X4, 1X6, 2X2 usw.).
+title: Wie verwende ich Designs in Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 33%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
