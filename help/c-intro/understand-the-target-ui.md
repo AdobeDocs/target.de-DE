@@ -1,13 +1,13 @@
 ---
 keywords: Benutzeroberfläche der Zielgruppe;Benutzeroberfläche;ui
-description: Wie verwende ich die Benutzeroberfläche?
-title: Die Benutzeroberfläche
+description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie Links zu detaillierteren Informationen, um die Zielgruppe optimal zu nutzen.
+title: Wie verwende ich die Benutzeroberfläche der Zielgruppe?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 28%
+source-wordcount: '817'
+ht-degree: 27%
 
 ---
 
