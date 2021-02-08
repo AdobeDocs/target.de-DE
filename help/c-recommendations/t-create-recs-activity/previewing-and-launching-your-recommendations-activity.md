@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;Angebot;Vorschau;Start;Status;Kriterien;Algorithmus
-description: Nachdem Sie Ihre Recommendations-, A/B-Test- oder Erlebnis-Targeting (XT)-Aktivität mit Adobe Target Recommendations-Angeboten erstellt haben, sollten Sie diese Vorschau durchführen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. Zielgruppe Recommendations Angebote bietet mehrere Möglichkeiten, Ihre Empfehlungen Vorschau.
-title: Vorschau und Starten der Recommendations-Aktivität
+description: 'Erfahren Sie, wie Sie Ihre Adobe Target Recommendations-Aktivität so Vorschau haben, dass sichergestellt ist, dass Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. '
+title: Wie kann ich eine Recommendations-Aktivität starten und Vorschau durchführen?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 16%
+source-wordcount: '1350'
+ht-degree: 17%
 
 ---
 
