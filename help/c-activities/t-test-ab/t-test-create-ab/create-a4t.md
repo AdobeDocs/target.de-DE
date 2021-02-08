@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;Analyse;Tracking-Server;Analyse für Zielgruppe;a4t
-description: Sie können eine Aktivität in Adobe Target Standard so konfigurieren, dass Adobe Analytics als Berichte-Quelle (A4T) verwendet wird.
-title: Verwenden von Analytics-Daten
+description: Erfahren Sie, wie Sie eine Aktivität in Adobe Target so konfigurieren, dass Adobe Analytics als Berichte-Quelle verwendet wird. Diese Integration wird als Analytics for Zielgruppe (A4T) bezeichnet.
+title: Wie kann ich Analytics-Daten in Zielgruppe verwenden?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 88%
+source-wordcount: '554'
+ht-degree: 85%
 
 ---
 
