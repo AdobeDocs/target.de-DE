@@ -1,13 +1,14 @@
 ---
 keywords: at.js-FAQ;häufig gestellte Fragen zu at.js;FAQ;flackern;Loader;Seiten-Loader;Cross Domain;Dateigröße;Datei-Größe;X-Domain;at.js und mbox.js;nur x;cross domain;Safari;Einzelseiten-App;fehlende Selektoren;Selektoren;Einzelseitenanwendung;tt.omtrdc.net;SPA;Adobe Experience Manager;AEM;IP-Adresse;httponly;HTTPonly;sicher;IP;Cookie-Domäne
-description: Antworten auf häufig gestellte Fragen zur Adobe Target at.js-JavaScript-Bibliothek.
-title: Häufig gestellte Fragen zu „at.js“
+description: Lesen Sie Antworten auf häufig gestellte Fragen zur Adobe Target JavaScript-Bibliothek at.js.
+title: Was sind häufige Fragen und Antworten zu at.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2698'
-ht-degree: 94%
+source-wordcount: '2703'
+ht-degree: 93%
 
 ---
 
