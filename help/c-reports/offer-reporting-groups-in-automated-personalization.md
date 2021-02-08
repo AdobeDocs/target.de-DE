@@ -1,13 +1,13 @@
 ---
 keywords: Automatisierte Personalisierung;Angebot;Berichte;Gruppe;Berichte-Gruppe
-description: Informationen zur Verwendung von Berichte-Gruppen in Automated Personalization (AP)-Aktivitäten in Adobe Target.
-title: Angebot Berichte Groups in Automated Personalization (AP)-Aktivitäten
+description: Erfahren Sie, wie Sie Angebot-Berichte-Gruppen in Adobe Target Automated Personalization-Aktivitäten verwenden. Mithilfe von Berichte-Gruppen erstellt Zielgruppe nur ein Personalisierungsmodell für jede Berichte-Gruppe.
+title: Kann ich Angebot-Berichte-Gruppen in Automated Personalization-Aktivitäten verwenden?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 63%
+source-wordcount: '448'
+ht-degree: 61%
 
 ---
 
