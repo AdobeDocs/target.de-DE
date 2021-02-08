@@ -1,12 +1,13 @@
 ---
 keywords: Implementierung einer Einzelseitenanwendung;Implementierung einer Einzelseitenanwendung;spa;at.js 2.x;at.js;Einzelseitenanwendung;Einzelseitenanwendung;spa;SPA
-description: Informationen zur Verwendung von Adobe Target at.js 2.x zur Implementierung von Einzelseiten-Apps (SPAs).
-title: Implementierung von Einzelseitenanwendungen
+description: Erfahren Sie, wie Sie mit Adobe Target at.js 2.x Zielgruppe für Einzelseitenanwendungen (SPA) implementieren.
+title: Kann ich Zielgruppe für Einzelseitenanwendungen (SPA) implementieren?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2769'
+source-wordcount: '2777'
 ht-degree: 73%
 
 ---
