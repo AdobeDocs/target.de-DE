@@ -1,13 +1,14 @@
 ---
 keywords: Benutzer hinzufügen;Benutzer verwalten;Benutzerberechtigungen
-description: Verwalten Sie Benutzer in Adobe Target Standard und verwalten Sie Enterprise Properties und Permissions in Adobe Target Premium.
-title: Benutzerverwaltung
+description: Erfahren Sie, wie Sie Benutzer in Adobe Target Standard verwalten und Unternehmenseigenschaften und -berechtigungen in Adobe Target Premium verwalten.
+title: Wie konfiguriere ich User Management?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 20%
+source-wordcount: '239'
+ht-degree: 19%
 
 ---
 
