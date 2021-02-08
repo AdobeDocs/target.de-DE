@@ -1,12 +1,12 @@
 ---
 keywords: Auto-Zielgruppe;Targeting;Traffic-Zuordnung;Häufig gestellte Fragen;FAQ;Fehlerbehebung;Fehlerbehebung;Traffic-Zuordnung
-description: Fehlerbehebung und häufig gestellte Fragen zur automatischen Zielgruppe in Adobe Target.
-title: Fehlerbehebung bei automatischer Zielgruppe und häufig gestellte Fragen
+description: Erfahren Sie mehr zur Fehlerbehebung und häufig gestellte Fragen zu Aktivitäten der automatischen Zielgruppe in Adobe Target.
+title: Wie kann ich Aktivitäten der automatischen Zielgruppe beheben?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1919'
 ht-degree: 68%
 
 ---
