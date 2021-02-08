@@ -1,13 +1,13 @@
 ---
-keywords: product;collections
-description: Entitäten beziehen sich auf die Artikel, die Sie mit Adobe Target empfehlen möchten. Entitäten können sich auf Verschiedenes beziehen, etwa auf Produkte, Inhalte (zum Beispiel Artikel, Slideshows, Bilder, Filme und Fernsehsendungen), Stellenausschreibungen, Restaurant und so weiter.
-title: Entitäten in Adobe Target
+keywords: Produkt; Sammlungen
+description: Erfahren Sie mehr über Entitäten in Adobe Target Recommendations. Entitäten beziehen sich auf die Artikel, die Sie mit Zielgruppe empfehlen möchten, z. B. Artikel, Filme oder Produkte.
+title: Wie verwende ich Entitäten?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
