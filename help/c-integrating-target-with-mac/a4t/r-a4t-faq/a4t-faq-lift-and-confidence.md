@@ -1,13 +1,13 @@
 ---
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Steigerung; Ad-hoc; Report Builder; Konfidenz
-description: Dieses Thema enthält Antworten auf häufig zur Steigerung und Konfidenz bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
-title: Steigerung und Vertrauen - FAQ zu A4T
+description: Antworten auf Fragen zur Steigerung und zur Zuverlässigkeit bei der Verwendung von Analytics für die Zielgruppe (A4T). Mit A4T können Sie Analytics-Berichte für Aktivitäten der Zielgruppe verwenden.
+title: Wo finde ich Informationen zur Steigerung und zum Vertrauen in A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 50%
+source-wordcount: '517'
+ht-degree: 45%
 
 ---
 
