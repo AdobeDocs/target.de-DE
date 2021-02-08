@@ -1,12 +1,12 @@
 ---
 keywords: Aktivitäten;Aktivität;Aktivitätstypen;Aktivität bearbeiten;bearbeiten;Entwurf
-description: Informationen zu den verschiedenen Möglichkeiten zum Bearbeiten einer bestehenden Aktivität in Adobe Target, einschließlich des Speicherns einer Aktivität im Entwurfsformular.
-title: Bearbeiten einer Aktivität oder Speichern als Entwurf
+description: Erfahren Sie, wie Sie eine bestehende Aktivität in Adobe Target bearbeiten können, einschließlich des Speicherns einer Aktivität im Entwurfsformular.
+title: Wie kann ich eine Aktivität bearbeiten oder als Entwurf speichern?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1126'
 ht-degree: 95%
 
 ---
