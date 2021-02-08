@@ -1,13 +1,13 @@
 ---
 keywords: Inhalt;Inhalt aktualisieren;Assets;Inhalt hochladen;Asset hochladen
-description: Wie lade ich Bilder hoch, um sie als Angebote zu verwenden?
-title: Inhalt hochladen
+description: Erfahren Sie, wie Sie Bilder hochladen, um sie in Adobe Target als Image-Angebote zu verwenden.
+title: Wie lade ich Inhalte in die Angebote-Bibliothek hoch?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
