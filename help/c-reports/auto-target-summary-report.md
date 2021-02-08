@@ -1,13 +1,13 @@
 ---
 keywords: Berichte;automatische Zielgruppe;automatische Zielgruppe;AT;Bericht
-description: Informationen zur Interpretation des Zusammenfassungsberichts für die automatische Zielgruppe in Adobe Target.
-title: AT-Zusammenfassungsbericht (Automatisches Targeting)
+description: Erfahren Sie, wie Sie den Bericht "Zusammenfassung der automatischen Zielgruppe"in Adobe Target interpretieren. Sie können in diesem Bericht zu den Berichten zu automatisierten Segmenten und wichtigen Attributen wechseln.
+title: Wie verwende ich den Zusammenfassungsbericht für die automatische Zielgruppe?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 56%
+source-wordcount: '690'
+ht-degree: 54%
 
 ---
 
