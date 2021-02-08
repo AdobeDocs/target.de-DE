@@ -1,13 +1,13 @@
 ---
 keywords: Automated Personalization;ap;Vorschau;Erlebnis ausschließen;
-description: Da eine automatisierte Personalisierungsaktivität (AP) mehrere Angebote auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
-title: Vorschau Automated Personalization Erlebnisse im Visual Experience Composer (VEC)
+description: Erfahren Sie, wie Sie mithilfe des Visual Experience Composer (VEC) jedes Erlebnis in einer Automated Personalization (AP)-Aktivität in Adobe Target Vorschau haben.
+title: Wie kann ich Automated Personalization Erlebnisse im VEC Vorschau?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 55%
+source-wordcount: '259'
+ht-degree: 47%
 
 ---
 
