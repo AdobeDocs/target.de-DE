@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;Erfolg;Konversionsmetrik;Seitenergebnismetrik;Seitenumsatzmetrik;Ansichten-Metrik;Besuchszeit pro Site-Metrik;geschätzter Wert;Erweiterte Einstellungen;Erfolgsmetriken;Erweiterte Einstellungen;Abhängigkeit;Anzahl erhöhen und Benutzer in Aktivität halten;Anzahl erhöhen, Benutzer freigeben und Wiedereintritt zulassen;Anzahl erhöhen, Benutzer freigeben und Leiste aus Wiedereintritt
-description: In Adobe Target sind Erfolgsmetriken Parameter, mit denen der Erfolg einer Aktivität gemessen wird. Erfolgsmetriken umfassen die wichtigsten betrieblichen Messwerte, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können.
-title: Erfolgsmetriken
+description: Erfahren Sie mehr über Erfolgsmetriken in Adobe Target, die Ihnen bei der Ermittlung des Erfolgs einer Aktivität helfen. Zu den Erfolgsmetriken zählen Umrechnung, Umsatz, Ansichten der Seite, benutzerspezifische Bewertung und Besuchszeit pro Site.
+title: Was sind Erfolgsmetriken?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 46%
+source-wordcount: '1173'
+ht-degree: 44%
 
 ---
 
