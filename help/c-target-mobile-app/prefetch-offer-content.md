@@ -1,13 +1,14 @@
 ---
 keywords: angebot;prefetch;iOS;android;sdk;mobile;mobile SDK
-description: Die Vorabruffunktion von Adobe Target verwendet iOS- und Android Mobile-SDKs, um so wenig Angebotsinhalt wie möglich abzurufen, indem die Serverantworten im Cache abgelegt werden.
-title: Vorzeitiger Abruf des Angebotsinhalts
+description: Verwenden Sie die Adobe Target-Prefetch-Funktion in den iOS- und Android Mobile-SDKs, um so oft wie möglich Angebot-Inhalte abzurufen, indem Sie die Serverantworten zwischenspeichern.
+title: Kann ich Angebot-Inhalte für mobile Apps im Voraus abrufen?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 60%
+source-wordcount: '247'
+ht-degree: 47%
 
 ---
 
