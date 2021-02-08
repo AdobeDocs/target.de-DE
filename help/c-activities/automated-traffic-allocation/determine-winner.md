@@ -1,12 +1,12 @@
 ---
 keywords: Automatisierte Traffic-Zuordnung;Targeting;Gewinner;statistische Garantie;Konfidenz;Gewinner bestimmen;Steigerung;Konfidenz;Standard;Standarderlebnis;Automatische Zuordnung;Automatische Zuordnung
-description: Interpretieren Sie die Ergebnisse einer automatisierten A/B-Aktivität in Adobe Target, indem Sie wichtige Indikatoren wie Steigerung und Konfidenz untersuchen.
-title: Berichte mit automatisierter Zuordnung interpretieren
+description: Erfahren Sie, wie Sie die Ergebnisse einer A/B-Aktivität mit automatisierter Zuordnung in Adobe Target interpretieren können, indem Sie wichtige Indikatoren wie Steigerung und Konfidenz untersuchen.
+title: Wie interpretiere ich Berichte mit automatisierter Zuordnung?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1136'
 ht-degree: 47%
 
 ---
