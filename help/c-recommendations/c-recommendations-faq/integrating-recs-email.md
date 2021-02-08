@@ -1,13 +1,13 @@
 ---
 keywords: E-Mail; ESP; E-Mail-Serviceprovider; Rawbox; Lieferungs-API; Nur-Download-Vorlage; E-Mail-Vorlage; Batchverarbeitung; Build-Time-E-Mail
-description: Informationen zu den Methoden zum Integrieren der E-Mail-Funktion in Recommendations.
-title: Recommendations mit E-Mail integrieren
+description: Erfahren Sie, wie Sie E-Mails mit Adobe Target Recommendations integrieren, einschließlich der Zielgruppe Versand API, Rawbox-Vorlagen und Nur-Herunterladen-Vorlagen.
+title: Wie integriere ich Recommendations mit E-Mail?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
