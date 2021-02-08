@@ -1,13 +1,13 @@
 ---
 keywords: Inhaltsbibliothek;Assets;Suche;Filter
-description: Wie suche ich nach Assets nach Schlüsselwörtern?
-title: Inhalt durchsuchen
+description: Erfahren Sie, wie Sie in der Adobe Target Angebots-Bibliothek nach Code- und Image-Angeboten suchen.
+title: Wie suche ich in der Inhaltsbibliothek nach Angeboten?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
