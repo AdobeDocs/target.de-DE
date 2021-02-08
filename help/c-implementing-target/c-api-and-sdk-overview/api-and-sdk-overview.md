@@ -1,13 +1,14 @@
 ---
 keywords: serverseitig;serverseitig;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-description: Informationen zu Adobe Target-serverseitigen Versand-APIs, SDKs und Zielgruppe-Recommendations-APIs.
-title: Informationen zu serverseitigen Versand-APIs, Node.js-SDKs und Recommendations-APIs
+description: Erfahren Sie mehr über die Adobe Target Server-Side Versand APIs, SDKs und Zielgruppe Recommendations APIs.
+title: Wo kann ich Informationen zu Zielgruppe Server-Side Versand APIs und SDKs erhalten?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
