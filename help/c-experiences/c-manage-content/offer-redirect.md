@@ -1,13 +1,13 @@
 ---
 keywords: Umleitungsangebot;Umleitungsangebote erstellen;HTML-Angebot hinzufügen;alle URL-Parameter bei der Umleitung übermitteln;mboxSessionId bei der Umleitung übermitteln (nur erforderlich, wenn eine Umleitung auf eine andere Domäne erfolgt)
-description: Kann ich Umleitungs-Angebot verwenden, damit ein Browser zu einer neuen Seite umgeleitet wird?
-title: Erstellen von Umleitungsangeboten
+description: 'Erfahren Sie, wie Sie in Adobe Target Umleitungs-Angebot erstellen, damit ein Browser zu einer neuen Seite umgeleitet wird. '
+title: Wie erstelle ich Umleitungs-Angebote?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 49%
+source-wordcount: '1190'
+ht-degree: 48%
 
 ---
 
