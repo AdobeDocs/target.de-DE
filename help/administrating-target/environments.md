@@ -1,13 +1,14 @@
 ---
 keywords: umgebung;Fehlerbehebung;Best Practices;ubox;Umleitungen;Umleitung;Whitelist;Blacklist;Blockierungsliste;Zulassungsliste
-description: Organisieren Sie Ihre Standorte und Umgebung vor der Produktion für eine einfache Verwaltung und separaten Berichte in Adobe Target.
-title: Umgebung
+description: Erfahren Sie, wie Sie Umgebung in Adobe Target verwenden, um Ihre Sites und Umgebung vor der Produktion zu organisieren, damit sie einfach verwaltet und getrennt Berichte.
+title: Was sind Umgebung und wie verwende ich sie?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 64%
+source-wordcount: '682'
+ht-degree: 63%
 
 ---
 
