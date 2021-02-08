@@ -1,12 +1,12 @@
 ---
-keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Wie verwalte ich Code- und Image-Angebot?
-title: Angebote
+keywords: Inhalt;Assets;Inhalt verwalten;Angebote;Assets verwalten;Auswahlmodus aufrufen;Auswahlmodus
+description: Erfahren Sie, wie Sie Code- und Image-Angebote mithilfe der Angebote-Bibliothek in Adobe Target verwalten.
+title: Wie verwalte ich Code- und Image-Angebot?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '552'
 ht-degree: 37%
 
 ---
