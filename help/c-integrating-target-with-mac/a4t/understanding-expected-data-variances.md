@@ -1,13 +1,13 @@
 ---
-keywords: data variances;analytics;differences;variance;a4t;analytics for target;analytics as the reporting source;discrepancies;discrepancy
-description: Informationen zu erwarteten Datenabweichungen zwischen Target und Adobe Analytics, wenn Analytics nicht als Berichtsquelle (A4T) verwendet wird, wodurch alle Datenabweichungen beseitigt werden.
-title: Erwartete Datenabweichungen bei Nichtverwendung von A4T
+keywords: Datenabweichungen; Analytics; Unterschiede; Varianz; a4t; Analytics für Target; Analytics als Berichtsquelle; Diskrepanzen; Diskrepanz
+description: Erfahren Sie mehr über die erwarteten Datenabweichungen zwischen Adobe Target und Analytics, wenn Sie Analytics nicht für die Zielgruppe (A4T) verwenden, wodurch Datenschwankungen vollständig beseitigt werden.
+title: Was ist die erwartete Datenabweichung zwischen Analytics und A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
