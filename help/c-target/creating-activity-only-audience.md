@@ -1,13 +1,13 @@
 ---
 keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen; nur Aktivität; nur Activity; adhoc
-description: Erstellen Sie Zielgruppen „Nur Aktivität“ innerhalb des geleiteten Arbeitsablaufs mit drei Schritten in Adobe Target, während Sie eine Aktivität erstellen. Diese Ad-hoc-Zielgruppen können an anderen Orten innerhalb derselben Aktivität verwendet werden, werden aber nicht in der Zielgruppenbibliothek gespeichert und können nicht in anderen Aktivitäten verwendet werden.
-title: Eine Audience nur für Aktivitäten erstellen
+description: Erfahren Sie, wie Sie in Adobe Target Audiencen erstellen, die nur für die Aktivität bestimmt sind und in der aktuellen Aktivität nur einmal verwendet werden können und nicht in der Bibliothek "Audiencen"gespeichert sind.
+title: Kann ich eine Audience erstellen, die nur einmal verwendet werden kann?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 99%
+source-wordcount: '398'
+ht-degree: 91%
 
 ---
 
