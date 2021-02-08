@@ -1,13 +1,14 @@
 ---
-keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
-description: Informationen, die Sie bei der Festlegung verschiedener Einstellungen auf der „mbox.js“-Einstellungsseite unterstützen.
-title: mbox.js konfigurieren
+keywords: erweiterte mbox.js-Einstellungen;Client;Serverdomäne;xdomain;Komprimierungsstufe;Unterstützung von Client-Sitzungs-ID;secureOnly;Unterstützung von Client PC-ID;Pass Page;verweisende URL;Traffic-Stufe;Traffic-Dauer;Funktionsrumpf mboxParameters();Funktionsrumpf mboxSupported();Funktionsrumpf mboxCookieDomain();Extra-JavaScript;SiteCatalyst-Plug-in;mbox.js als selbstextrahierendes JavaScript erhalten;flackern;Körper ausblenden;Körper ausblenden
+description: Erfahren Sie mehr über die ältere Implementierung von "mbox.js"in Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
+title: Wie konfiguriere ich die Zielgruppe mbox.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
