@@ -1,13 +1,13 @@
 ---
 keywords: benutzerdefinierte Parameter; Targeting von benutzerdefinierten Parametern; Targeting von Seitenparametern; Targeting von Mbox-Parametern
-description: Benutzerdefinierte Parameter sind Mbox-Parameter. Wenn Sie Mbox-Parameter an Mboxes übergeben oder die Funktion „targetPageParams“ verwenden, werden diese Parameter hier angezeigt und können in Zielgruppen verwendet werden.
-title: Benutzerdefinierte Parameter
+description: Erfahren Sie, wie Sie benutzerdefinierte Parameter zur Verwendung in Audiencen an Adobe Target übergeben.
+title: Kann ich Besucher anhand von benutzerdefinierten Parametern Zielgruppen durchführen?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 90%
+source-wordcount: '411'
+ht-degree: 84%
 
 ---
 
