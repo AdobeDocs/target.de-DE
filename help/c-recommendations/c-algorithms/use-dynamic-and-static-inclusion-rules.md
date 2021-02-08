@@ -1,14 +1,14 @@
 ---
 keywords: Einschlussregeln; Aufnahmekriterien; Empfehlungen; neue Kriterien erstellen; Promotion; Promotions; dynamischer Filter; dynamisch; leere Werte; Filterregel ignorieren; statischer Filter; Filtern nach Wert; Entitätsattributübereinstimmung; Profilattributübereinstimmung; Parameterübereinstimmung; Filtern nach Wert; statischer Filter
-description: Informationen zum Erstellen von Inklusionsregeln in Adobe Target Recommendations für Kriterien und Promotions sowie zum Hinzufügen zusätzlicher Regeln zum dynamischen oder statischen Filtern, um bessere Ergebnisse zu erzielen.
-title: Dynamische und statische Einschlussregeln in Zielgruppe Recommendations verwenden
+description: Erfahren Sie, wie Sie in Adobe Target Recommendations Inklusionsregeln für Kriterien und Promotions erstellen. hinzufügen Sie zusätzliche dynamische oder statische Filterregeln, um bessere Ergebnisse zu erzielen.
+title: Wie verwende ich dynamische und statische Einschlussregeln in Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 41%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
