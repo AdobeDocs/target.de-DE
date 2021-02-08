@@ -1,12 +1,12 @@
 ---
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
-description: Adobe Target Begrüßungs-Kit - Kapitel 1 - Einführung
-title: Begrüßungs-Kit - Kapitel 1 - Einführung
+description: Kick Beginn your optimization and personalization Programm with Adobe Target. Das Adobe Target Begrüßungs-Kit ist ein guter Ausgangspunkt.
+title: Wie beginne ich mit der Zielgruppe?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
