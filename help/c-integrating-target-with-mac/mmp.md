@@ -1,13 +1,13 @@
 ---
-keywords: Experience Cloud Audiences;audiences
-description: Mit Experience Cloud Audiences können Adobe Experience Cloud-Lösungen kommunizieren und Informationen zu Websitebesuchern freigeben, sodass von jeder Lösung dieselben Daten verwendet werden können.
-title: Experience Cloud Audiences
+keywords: Experience Cloud-Zielgruppen; Zielgruppen
+description: Erfahren Sie, wie Adobe Experience Cloud-Audiencen Experience Cloud-Lösungen Informationen über Website-Besucher mit anderen Adoben kommunizieren und austauschen.
+title: Wie verwende ich Adobe Experience Cloud Audiencen in der Zielgruppe?
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 78%
+source-wordcount: '85'
+ht-degree: 42%
 
 ---
 
