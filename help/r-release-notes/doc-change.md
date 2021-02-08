@@ -4,10 +4,10 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der A
 title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 29%
+source-wordcount: '3600'
+ht-degree: 28%
 
 ---
 
@@ -21,6 +21,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | Februar 8 | [Mobile Target-Vorschau](/help/c-target-mobile-app/target-mobile-preview.md) | Das Codefragment, das Sie der Datei AndroidManifest.xml für Version 4 der Adobe Mobile SDK hinzufügen sollten, wurde hinzugefügt. |
+|  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde geklärt:<ul><li>Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche der Zielgruppe nicht sichtbar und können nur über die API bearbeitet werden. Wenn Sie eines dieser Elemente in der Benutzeroberfläche der Zielgruppe erstellen und sie später über die API bearbeiten, werden diese Änderungen nicht in der Benutzeroberfläche der Zielgruppe angezeigt. Über API bearbeitete Elemente sollten weiterhin über API bearbeitet werden, um den Verlust von Änderungen zu vermeiden.</li></ul> |
 | Februar 1 | [Automated Personalization-Zusammenfassungsberichte](/help/c-reports/reports-ap.md) | Neuer Abschnitt hinzugefügt: &quot;Häufig gestellte Fragen&quot;. |
 | Januar 27 | [Erstellen von Umleitungsangeboten](/help/c-experiences/c-manage-content/offer-redirect.md) | Das Thema wurde aktualisiert. |
 |  | [Remote-Angebote erstellen](/help/c-experiences/c-manage-content/about-remote-offers.md) | Das Thema wurde aktualisiert. |
