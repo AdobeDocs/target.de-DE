@@ -1,13 +1,14 @@
 ---
 keywords: at.js; Funktionen; Javascript-Bibliothek
-description: Liste der Funktionen, die mit der at.js-JavaScript-Bibliothek in Adobe Target verwendet werden können.
-title: „at.js“-Funktionen
+description: Ansicht einer Liste von Funktionen, die mit den Versionen 1.x und 2.x der JavaScript-Bibliothek at.js in Adobe Target verwendet werden können.
+title: Welche Funktionen kann ich mit at.js verwenden?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 94%
 
 ---
 
