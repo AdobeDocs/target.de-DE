@@ -1,13 +1,14 @@
 ---
 keywords: implementieren;at.js;JavaScript-Bibliothek
-description: Informationen zur Implementierung der Adobe Target-JavaScript-Bibliothek at.js mithilfe von Adobe Launch, ohne Tag-Manager oder mithilfe des Dynamic Tag Management (DTM) von Adobe.
-title: Bereitstellen von "at.js"
+description: Erfahren Sie, wie Sie die Adobe Target-JavaScript-Bibliothek "at.js"mit Adobe Experience Platform Launch oder ohne Tag-Manager bereitstellen.
+title: Wie stelle ich at.js bereit?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 56%
+source-wordcount: '308'
+ht-degree: 49%
 
 ---
 
