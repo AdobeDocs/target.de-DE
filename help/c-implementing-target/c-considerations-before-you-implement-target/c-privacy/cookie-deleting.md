@@ -1,13 +1,14 @@
 ---
 keywords: Cookie;Cookies;Löschen von Cookies;Löschen von Zielgruppen-Cookies;Google-Chrome;Chrome;Mozilla Firefox;Firefox;Microsoft edge;Safari
-description: Löschen Sie Ihre Target-Browsercookies, sodass Sie alle Ihre Erlebnisse validieren können.
-title: Target-Cookie löschen
+description: Erfahren Sie, wie Sie Ihre Zielgruppe-Browser-Cookies löschen, damit Sie Ihre Erlebnisse validieren können.
+title: Wie lösche ich den Zielgruppen-Cookie?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
