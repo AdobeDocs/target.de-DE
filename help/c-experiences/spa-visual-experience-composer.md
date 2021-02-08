@@ -1,13 +1,13 @@
 ---
-keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
-description: Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs) in Adobe Target ermöglicht es Marketing-Experten, für SPAs selbst Tests zu erstellen und Inhalt zu personalisieren, ohne von der kontinuierlichen Weiterentwicklung abhängig zu sein. Mit VEC können Aktivitäten auf Basis der beliebtesten Frameworks erstellt werden, beispielsweise mit React oder Angular.
-title: Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)
+keywords: SPA VEC;React;Angular;react.js;SPA Visual Experience Composer;Optionen in SPA Experience Composer;Einzelseiten-App;Single-Page-App;SPA;Optionen für mobile Erlebnisse;Target-Ansicht
+description: Erfahren Sie, wie Sie mit dem SPA VEC in Adobe Target Tests erstellen und Inhalte auf SPA individuell gestalten können, ohne dass Sie ständig Entwicklungsabhängigkeiten haben.
+title: Wie verwende ich den Visual Experience Composer (SPA VEC) für Einzelseitenanwendungen?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3692'
-ht-degree: 92%
+source-wordcount: '3699'
+ht-degree: 91%
 
 ---
 
@@ -409,7 +409,7 @@ Die folgende Abbildung zeigt den Target-Ablauf: Seitenladeanfrage in at.js 2.*x*
 
 **Ergebnis**: Der Benutzer sieht die grüne Hintergrundfarbe in der Startansicht. Wenn der Benutzer dann zu [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products navigiert, wird die blaue Hintergrundfarbe der Schaltfläche angezeigt, da die Aktion im Browser unter der Produktansicht zwischengespeichert wird.
 
-Hinweis: Der Benutzer, der zu [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) navigierte, hat kein Laden der Seite ausgelöst.
+Hinweis: Beim Navigieren zu [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) wurde kein Seitenladevorgang Trigger.
 
 **Customer Journey Nr. 2**
 
