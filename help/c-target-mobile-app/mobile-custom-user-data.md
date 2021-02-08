@@ -1,13 +1,14 @@
 ---
 keywords: mobile App; Daten mit mobilen Apps senden; Targeting mobiler Apps; benutzerdefinierte Daten für Mobilbenutzer; benutzerdefinierte Daten für mobile Apps
-description: Sie können weitere Informationen über Ort oder Benutzer als Namen-Wert-Paare an Target übermitteln.
-title: IOS - Senden benutzerspezifischer Benutzerdaten
+description: Erfahren Sie, wie Sie zusätzliche Informationen über den Standort oder den Benutzer als Name-Wert-Paare an Adobe Target senden können, um benutzerdefinierte Audiencen zu erstellen.
+title: Wie sende ich benutzerdefinierte Benutzerdaten in einer iOS-App?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 98%
+source-wordcount: '353'
+ht-degree: 90%
 
 ---
 
