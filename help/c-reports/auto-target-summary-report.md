@@ -62,7 +62,7 @@ Die folgende Abbildung zeigt, wie ein typischer Zusammenfassungsbericht in der [
 
 ![Bericht zur Ansicht von Diagrammen mit automatischer Zielgruppe](/help/c-reports/assets/at-graph-view.png)
 
-Wie unten gezeigt, können Sie die beiden Dropdown-Listen verwenden, um die gewünschten Metriken, Zählmethodiken und mehr auszuwählen. Weitere Informationen finden Sie unter [Übersicht über die Berichtseinstellungen](/help/c-reports/c-report-settings/report-settings.md).
+Wie unten gezeigt, können Sie die beiden Dropdown-Listen verwenden, um die gewünschten Metriken, Zählmethodiken und mehr auszuwählen. Weitere Informationen finden Sie unter [Übersicht über Berichtseinstellungen](/help/c-reports/c-report-settings/report-settings.md).
 
 ![Bericht zur Ansicht von Diagrammen mit automatischer Zielgruppe](/help/c-reports/assets/at-graph-view-2.png)
 
