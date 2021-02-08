@@ -1,13 +1,13 @@
 ---
-keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
-description: Informationen dazu, wie Besucher bei sich entwickelnden Profilen im Erlebnis-Targeting (XT) zwischen Erlebnissen wechseln können.
-title: Wechsel zwischen Aktivitäten im Erlebnis-Targeting
+keywords: Priorität;Erlebnis erstellen;Prioritäten;Erlebnis;Zielgruppe;Erlebnisse;Erlebnisse wechseln;Visual Experience Composer
+description: Erfahren Sie, wie Besucher in einer Adobe Target Experience Targeting (XT)-Aktivität während der Entwicklung ihrer Profil zwischen Erlebnissen wechseln können.
+title: Können Besucher Erlebnisse in einer Erlebnis-Targeting-Aktivität wechseln?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 96%
 
 ---
 
