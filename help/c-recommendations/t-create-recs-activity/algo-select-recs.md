@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;Recommendations-Aktivität;Kriterien;Algorithmus
-description: Wählen Sie die Kriterien aus, die für Ihre Adobe Target-Recommendations-Aktivität verwendet werden sollen.
-title: Kriterien auswählen
+description: Erfahren Sie, wie Sie die Kriterien (Regeln, die bestimmen, welche Produkte oder Inhalte Sie empfehlen möchten) für Ihre Adobe Target Recommendations-Aktivität auswählen.
+title: Wie wähle ich Kriterien für eine Recommendations-Aktivität aus?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 79%
+source-wordcount: '405'
+ht-degree: 72%
 
 ---
 
