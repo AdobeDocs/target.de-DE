@@ -1,13 +1,13 @@
 ---
 keywords: Remote-Angebot;Auswahlmatrix für Remote-Angebote;Cache-Inhalt;Dynamischer Inhalt;URL-Typ
-description: Kann ich Remote-Angebot verwenden, um externe Inhalte zu hosten?
-title: Remote-Angebote erstellen
+description: Erfahren Sie, wie Sie mit Remote-Angeboten in Adobe Target externe Inhalte (Inhalte in einem CMS oder einem anderen System) hosten können. Erfahren Sie, warum Sie möglicherweise Remote-Angebot verwenden möchten.
+title: Wie erstelle ich Remote-Angebot?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 49%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
