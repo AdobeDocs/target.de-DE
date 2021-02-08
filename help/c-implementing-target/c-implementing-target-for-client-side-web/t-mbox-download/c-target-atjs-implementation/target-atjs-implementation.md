@@ -1,13 +1,14 @@
 ---
-keywords: Target Standard;at.js;implementation
-description: „at.js“ ist die neue Implementierungsbibliothek für Adobe Target und ist sowohl auf typische Webimplementierungen als auch auf Einzelseiten-Apps ausgelegt.
-title: Migration von „mbox.js“ zu „at.js“
+keywords: Target Standard;at.js;Implementierung
+description: Erfahren Sie, wie Sie zu "at.js"migrieren, der neuen Implementierungsbibliothek für Adobe Target, die sowohl für typische Webimplementierungen als auch für Einzelseitenanwendungen (SPA) entwickelt wurde.
+title: Wie migriere ich von "mbox.js"zu "at.js"?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
