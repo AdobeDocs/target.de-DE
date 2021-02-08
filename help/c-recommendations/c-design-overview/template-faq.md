@@ -1,13 +1,13 @@
 ---
-keywords: recommendations;frequently asked questions;faq
-description: Liste häufig gestellter Fragen (FAQs) zu Adobe Target-Empfehlungsentwürfen.
-title: 'Häufig gestellte Fragen: Entwürfe'
+keywords: Empfehlungen; häufig gestellte Fragen; FAQ
+description: Lesen Sie eine Liste häufig gestellter Fragen und Antworten zu Adobe Target Recommendations-Designs.
+title: Wo kann ich auf Designfragen für die Zielgruppe Recommendations antworten?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 87%
+source-wordcount: '412'
+ht-degree: 84%
 
 ---
 
