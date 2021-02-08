@@ -1,13 +1,13 @@
 ---
 keywords: Multivariater Tests; MVT; Experience Performance-Bericht
-description: Der Experience Performance-Bericht veranschaulicht die Leistung der einzelnen Erlebnisse in der Aktivität. Dieser Bericht enthält Informationen über die Zahl der Teilnehmer, die Konversionsrate, die Steigerung und die Konfidenz.
-title: Experience Performance-Bericht (MVT)
+description: Erfahren Sie, wie Sie den Experience Performance-Bericht für Adobe Target Experience Targeting-Aktivitäten verwenden, der die Leistung der einzelnen Erlebnisse in der Aktivität zeigt.
+title: Wie verwende ich den Experience Performance Report für Multivarianz-Tests?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 99%
+source-wordcount: '333'
+ht-degree: 89%
 
 ---
 
