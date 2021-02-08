@@ -1,13 +1,13 @@
 ---
 keywords: Fehlerbehebung; häufig gestellte Fragen; FAQ; FAQs; Targets; Zielgruppen
-description: Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
-title: Häufig gestellte Fragen zu Zielgruppen und Audiencen
+description: Häufig gestellte Fragen zur Ansicht (FAQ) zu Erlebnis-Targeting und Audiencen in Adobe Target-Aktivitäten.
+title: Wo finde ich Fragen und Antworten zu Zielgruppen und Audiencen?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 68%
+source-wordcount: '953'
+ht-degree: 66%
 
 ---
 
