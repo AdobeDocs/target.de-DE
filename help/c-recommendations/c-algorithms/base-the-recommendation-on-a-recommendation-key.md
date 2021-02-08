@@ -1,14 +1,14 @@
 ---
 keywords: Empfehlungsschlüssel;Empfehlungslogik;aktuelle Kategorie;benutzerdefiniertes Attribut;Zuletzt gekaufter Artikel;Zuletzt angezeigter Artikel;Am häufigsten angezeigter Artikel;am häufigsten angezeigte Kategorie;Beliebtheit;Zuletzt angezeigter Artikel;Zuletzt gekauft;Zuletzt zuletzt angezeigt;Favorit;Zuletzt angezeigt
-description: Recommendations verwendet auf der Grundlage von Schlüsseln den Verhaltenskontext des Besuchers, um relevante Ergebnisse in Adobe Target Recommendations-Aktivitäten anzuzeigen.
-title: Stützen der Empfehlung auf einen Empfehlungsschlüssel
+description: Erfahren Sie, wie Sie Empfehlungen auf Grundlage von Schlüsseln verwenden, die den Verhaltenskontext von Besuchern verwenden, um relevante Ergebnisse in Adobe Target Recommendations-Aktivitäten anzuzeigen.
+title: Wie kann ich die Empfehlung auf einem Empfehlungsschlüssel basieren?
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2924'
-ht-degree: 68%
+source-wordcount: '2932'
+ht-degree: 67%
 
 ---
 
