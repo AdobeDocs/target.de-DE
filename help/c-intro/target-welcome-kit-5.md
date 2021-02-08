@@ -1,12 +1,12 @@
 ---
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
-description: Adobe Target-Begrüßungs-Kit - Kapitel 5 - Inspiration für Test- und Personalisierungs-Aktivitäten
-title: Begrüßungs-Kit - Kapitel 5 - Inspiration für Test- und Personalisierungslösungen
+description: Wo finde ich Ideen und Anregungen für meine Test- und Personalisierungs-Aktivitäten mit Adobe Target?
+title: Wo finde ich Inspiration für meine Test- und Personalisierungsbemühungen?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Vielleicht ändern Sie einfach die Reihenfolge der Optionen, aus denen Sie ausw�
 
 Wenn Ihre Firma Ressourcen für die Entwicklung einer mobilen App für iOS, Android oder andere Geräte ausgibt, setzen Sie sich nicht einfach zurück und hoffen Sie, dass die Benutzer in Ihrer App im App Store stolpern. Stattdessen haben wir eine solide Strategie, wie man sie fördert. Testen Sie verschiedene Ansätze, um App-Downloads und -Verwendungen zu fördern. Wenn Ihre Nicht-Mobilgeräte-Site über einen Link zum Herunterladen der App verfügt, testen Sie die Effektivität einer Zwischenraum-Landingpage, die Ihre App explizit fördert, wenn Besucher auf Ihre Startseite gelangen. Richten Sie einen Umleitungstest ein, bei dem Filter die Hälfte Ihres mobilen Traffics auf Ihre aktuelle Site-Seite und die andere Hälfte auf die interstitielle Landingpage aufrufen.
 
-## Idee 9: mobile App-Innovationen verwenden.
+## Idee 9: Verwenden Sie Innovationen für mobile Apps.
 
 Erkunden Sie Aspekte des Smartphones außerhalb des geografischen Standorts, wie z.B. das Beschleunigungsmesser oder das Gyroskop. Testen Sie beispielsweise ein Erlebnis, bei dem mit dem Beschleunigungsmesser ein angezeigtes Element durch Schütteln des Telefons in den Warenkorb gelegt wird. Testen Sie sie sogar für Benutzer verschiedener Gerätegruppen, z. B. iOS oder Android, um festzustellen, ob sich ihre Antworten unterscheiden. Mit solchen Tests können Sie das Verhalten neuer Besucher ermitteln, die in zukünftigen Tests verwendet werden sollten.
 
