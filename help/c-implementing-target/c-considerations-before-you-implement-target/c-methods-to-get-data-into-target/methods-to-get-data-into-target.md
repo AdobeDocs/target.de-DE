@@ -1,13 +1,14 @@
 ---
 keywords: implementieren;Implementierung;einrichten;Einrichtung;Seitenparameter;Tomcat;URL-encoded;In-page-Profilattribut;Mbox-Parameter;In-page-Profilattribute;Skript-Profilattribut;Bulk-Profilupdate-API;API für einzelne Dateiaktualisierungen;Kundenattribute;Datenanbieter;Daten-Anbieter;Datenanbieter
-description: Informationen zu den verschiedenen Methoden, mit denen Sie Daten in Adobe Target abrufen können, einschließlich Seitenparametern, In-Page-Profil-Attributen, Skript-Profil-Attributen, Datenanbietern, der Massen-Profil-Update-API, der API für die Aktualisierung einzelner Profil und Kundenattribute.
-title: Methoden zum Abrufen von Daten in die Zielgruppe
+description: Daten in Zielgruppe abrufen (Seitenparameter, Profil-Attribute, Skript-Profil-Attribute, Datenanbieter, Single- und Bulk-Profil-Update-APIs, Kundenattribute).
+title: Wie erhalte ich Daten in die Zielgruppe?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1972'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
