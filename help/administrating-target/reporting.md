@@ -1,13 +1,14 @@
 ---
 keywords: Bericht;Berichte;Berichte;Erlebnis-Cloud-Lösung;Zeitzone;Zeitzone;Währung;IPs ausschließen;geschätzte Umsatzsteigerung;Umsatz;Umsatzsteigerung;Feinabstimmung der Prioritäten;Feinkörnig
-description: Konfigurieren Sie allgemeine Einstellungen, die im Adobe Target Berichte verwendet werden und für Ihr gesamtes Zielgruppen-Konto gelten. Sie können die Adobe Experience Cloud-Lösung so konfigurieren, dass sie für Berichte (Zielgruppe oder Analytics), die Zeitzone und das Währungsformat für Berichte, IP-Adressen zum Ausschluss vom Berichte und ob die geschätzte Umsatzsteigerung und Feinabstimmung der Prioritäten in Berichte angezeigt werden.
-title: Berichte konfigurieren
+description: Verwenden Sie Zielgruppe oder Adobe Analytics als Berichte-Quelle, geben Sie das standardmäßige Zeitzone- und Währungsformat an, fügen Sie IP-Adressen hinzu, die vom Berichte ausgeschlossen werden sollen, und vieles mehr.
+title: Wie konfiguriere ich Berichte in Zielgruppe?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 30%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
