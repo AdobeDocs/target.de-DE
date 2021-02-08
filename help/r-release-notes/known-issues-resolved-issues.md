@@ -4,10 +4,10 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '4374'
-ht-degree: 68%
+source-wordcount: '4419'
+ht-degree: 67%
 
 ---
 
@@ -79,7 +79,7 @@ Bei den Aktivitäten [!UICONTROL Recommendations] sind folgende Probleme bekannt
 * Entitäten verlieren ordnungsgemäß die Gültigkeit, wenn innerhalb von 60 Tagen keine Updates per Feed oder API empfangen werden. Die abgelaufenen Entitäten werden jedoch nach ihrem Ablauf nicht aus dem Katalogsuchindex entfernt. (IRI-857)
 * Die Overlays „Informationen zur Verwendung“ für Kriterien und Designs entsprechen nicht ihrer Verwendung in A/B- und Erlebnis-Targeting-Aktivitäten. (TGT-34331)
 * Für Recommendations-Angebote in A/B- und Erlebnis-Targeting-Aktivitäten wird keine Vorschau der Recommendations-Taskleiste angezeigt. (TGT-33426)
-* Sammlungen, Ausschlüsse, Kriterien und Designs, die über die API erstellt wurden, sind in der Target-Benutzeroberfläche nicht sichtbar und können nur über die API bearbeitet werden. (TGT-35777)
+* Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche der Zielgruppe nicht sichtbar und können nur über die API bearbeitet werden. Wenn Sie eines dieser Elemente in der Benutzeroberfläche der Zielgruppe erstellen und sie später über die API bearbeiten, werden diese Änderungen nicht in der Benutzeroberfläche der Zielgruppe angezeigt. Über API bearbeitete Elemente sollten weiterhin über API bearbeitet werden, um den Verlust von Änderungen zu vermeiden.  (TGT-35777)
 * Recommendations-Aktivitäten, die über die API erstellt wurden, können zwar in der Benutzeroberfläche angezeigt, aber nur über die API bearbeitet werden.
 * Der Feed-Status „Benutzerspezifische Kriterien“ in der Kriterien-Listenansicht (Karte) wird alle zehn Minuten aktualisiert und kann in seltenen Fällen mehr als zehn Minuten veraltet sein. Der in der Ansicht zur Bearbeitung benutzerdefinierter Kriterien angezeigte Status wird in Echtzeit abgerufen und ist stets auf dem neuesten Stand. (TGT-35896, TGT-36173)
 * Kriterien und Designkarten zeigen nicht die richtige Anzahl von Aktivitäten an, in denen sie verwendet werden. Wenn die Kriterien oder der Entwurf in einer A/B-Aktivität verwendet werden, zeigt die Karte möglicherweise fälschlicherweise an, dass der Entwurf oder die Kriterien nicht verwendet werden, selbst wenn der Entwurf oder die Kriterien in der Aktivität verwendet werden. (TGT-36621, TGT-37217)
