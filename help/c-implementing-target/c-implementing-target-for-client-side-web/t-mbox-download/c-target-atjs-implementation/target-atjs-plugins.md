@@ -1,13 +1,14 @@
 ---
 keywords: at.js-Plug-ins; unterstützte Plugins; nicht unterstützte Plugins; ttMeta; ttmeta; mboxTrack
-description: Informationen zu unterstützten und nicht unterstützten Plug-ins für „at.js“ in Adobe Target
-title: '"at.js"-Plug-Ins'
+description: Erfahren Sie mehr über die ältere Implementierung von "mbox.js"in Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
+title: Welche älteren Plug-ins werden in der Zielgruppe "at.js"nicht unterstützt?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
