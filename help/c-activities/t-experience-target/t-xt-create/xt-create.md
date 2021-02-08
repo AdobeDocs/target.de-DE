@@ -1,13 +1,13 @@
 ---
 keywords: Erlebnis-Targeting;Text;Erstellen
-description: Verwendung des Visual Experience Composers, um eine Erlebnis-Targeting-Aktivität (XT) auf einer für Target aktivierten Seite zu erstellen und Teile der Seite in Adobe Target zu verändern.
-title: Erstellen einer Erlebnis-Targeting-Aktivität
+description: Erfahren Sie, wie Sie mit dem Visual Experience Composer (VEC) in Adobe Target eine Erlebnis-Targeting (XT)-Aktivität auf einer Zielgruppe erstellen.
+title: Wie erstelle ich eine Erlebnis-Targeting-Aktivität?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 99%
+ht-degree: 91%
 
 ---
 
