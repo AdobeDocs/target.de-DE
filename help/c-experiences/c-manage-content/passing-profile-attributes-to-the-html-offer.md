@@ -1,13 +1,13 @@
 ---
 keywords: dynamische Daten;Assets;Daten;Angebote;personalisierte Angebote;persönliche Angebote;Token ersetzen
-description: Wie kann ich Profil- und Aktivität-Informationen direkt in ein HTML- oder JSON-Angebot übergeben?
-title: Übergeben dynamischer Daten in Angebote
+description: Erfahren Sie, wie Sie dynamische Daten an Adobe Target-Angebot weitergeben. Untersuchen Sie Geschäftsfälle, die aufzeigen, warum Sie möglicherweise dynamische Angebot und Ansichten und Implementierungsinformationen verwenden möchten.
+title: Wie übergebe ich dynamische Daten an Angebot?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 81%
+source-wordcount: '518'
+ht-degree: 78%
 
 ---
 
