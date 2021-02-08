@@ -1,13 +1,13 @@
 ---
-keywords: targeting;collisions;conflicts
-description: Die Registerkarte Kollisionen auf der Seite Übersicht über Aktivitäten in der Adobe Target Listen Aktivität Kollisionen auf Ihrer Site.
-title: Aktivitätskollisionen
+keywords: Targeting;Kollisionen;Konflikte
+description: Kollisionen treten auf, wenn mehrere Aktivitäten eingerichtet sind, um Inhalte auf derselben Seite bereitzustellen. Erfahren Sie, wie Sie bei der Verwendung von Adobe Target Kollisionen vermeiden können.
+title: Wie kann ich Aktivitäten vermeiden?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 83%
+source-wordcount: '349'
+ht-degree: 79%
 
 ---
 
