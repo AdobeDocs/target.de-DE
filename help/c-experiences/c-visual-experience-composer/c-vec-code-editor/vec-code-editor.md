@@ -1,13 +1,13 @@
 ---
-keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: Informationen zur Seite "Änderungen"in Adobe Target, auf der Sie Änderungen an Ihrer Ansicht vornehmen und weitere Änderungen hinzufügen können (CSS-Selektor, Mbox und benutzerdefinierter Code).
-title: Änderungen
+keywords: CSS-Selektor;benutzerspezifischer Code;Code-Editor;Mobile Web Experience-Editor
+description: Erfahren Sie, wie Sie mit dem Bedienfeld "Änderungen"in Adobe Target Seitenänderungen durchführen und zusätzliche Änderungen hinzufügen können (CSS-Selektor, Mbox und benutzerdefinierter Code).
+title: Welche Änderungen kann ich an meiner Seite vornehmen?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2107'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
