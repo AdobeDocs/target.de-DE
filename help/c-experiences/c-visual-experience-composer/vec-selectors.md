@@ -1,13 +1,13 @@
 ---
 keywords: Erlebnis-Targeting;Landingpage-Test
-description: Ein Element-Selektor ist ein CSS-Ausdruck, der eines oder mehrere Elemente kennzeichnen kann.
-title: Element-Selektoren, die im Visual Experience Composer verwendet werden (VEC)
+description: 'Ein Elementselektor ist ein CSS-Ausdruck, der ein oder mehrere Elemente identifizieren kann. Erfahren Sie, wie Sie Elementauswahlen im Adobe Target Visual Experience Composer (VEC) verwenden. '
+title: Kann ich Elementselektoren im Visual Experience Composer (VEC) verwenden?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 91%
+source-wordcount: '428'
+ht-degree: 82%
 
 ---
 
