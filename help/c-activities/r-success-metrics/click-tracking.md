@@ -1,13 +1,13 @@
 ---
 keywords: Klick-Tracking;Klicks verfolgen;Klicks;AppMeasurement
-description: Mit Adobe Target können Sie Klicks auf beliebige Elemente als Erfolgsmetrik verfolgen.
-title: Klick-Tracking
+description: Erfahren Sie, wie Sie mit Adobe Target Klicks auf beliebige Elemente als Erfolgsmetrik verfolgen können.
+title: Was ist Klick-Tracking?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 92%
+source-wordcount: '885'
+ht-degree: 91%
 
 ---
 
