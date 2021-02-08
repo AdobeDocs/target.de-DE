@@ -1,12 +1,12 @@
 ---
 keywords: Kundenbeziehungsverwaltung;Kundendatensatz-Service;crs;crm;mbox3rdpartyid;Kundenattribute;Targeting;csv;crm;adobe Experience Cloud People
-description: Informationen über die Verwendung von Unternehmenskunden-Daten aus einer CRM-Datenbank (Customer Relationship Management) für Content-Targeting in Adobe Target mithilfe von Kundenattributen im Adobe Experience Cloud People-Dienst.
-title: Kundenattribute
+description: Erfahren Sie, wie Sie Unternehmenskundendaten aus einer CRM-Datenbank (Customer Relationship Management) für Content-Targeting in Adobe Target verwenden.
+title: Was sind Kundenattribute und wie verwende ich sie?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1502'
 ht-degree: 38%
 
 ---
