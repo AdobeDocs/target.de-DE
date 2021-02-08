@@ -1,12 +1,13 @@
 ---
 keywords: Integration; Rollen; Benutzerberechtigungen; Admin Console
-description: Gewähren Sie bestehenden Adobe I/O-Integrationen Zugriff auf alle Arbeitsbereiche mit der gewünschten Rolle in Adobe Target
-title: Adobe I/O Integrationen Zugriff auf Arbeitsbereiche gewähren und Rollen zuweisen
+description: Erfahren Sie, wie Sie bestehenden Adobe I/O-Integrationen Zugriff auf alle Arbeitsbereiche mit der gewünschten Rolle in Adobe Target gewähren.
+title: Wie erteile ich Adobe I/O Zugriff auf Arbeitsbereiche und wie weise ich Rollen zu?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '621'
 ht-degree: 83%
 
 ---
