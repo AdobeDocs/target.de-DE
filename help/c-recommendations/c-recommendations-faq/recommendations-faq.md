@@ -1,12 +1,12 @@
 ---
 keywords: Fehlerbehebung; häufig gestellte Fragen; FAQ; FAQs; Empfehlungen; Sonderzeichen; Attributgewichtung; Ähnlichkeit von Inhalten
-description: Liste häufig gestellter Fragen zu Adobe Target Recommendations-Aktivitäten.
-title: Häufig gestellte Fragen zur Zielgruppe Recommendations
+description: Ansicht einer Liste häufig gestellter Fragen und Antworten zu Adobe Target Recommendations-Aktivitäten.
+title: Wo finde ich Fragen und Antworten zur Zielgruppe Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2041'
 ht-degree: 80%
 
 ---
