@@ -1,13 +1,13 @@
 ---
 keywords: Profil-Skript;Profil-Skriptattribute;Aktivitäten, die sich gegenseitig ausschließen
-description: Mithilfe von Profilattributen können Sie Tests zum Vergleich mehrerer Aktivitäten einrichten, an denen jeweils unterschiedliche Besucher teilnehmen.
-title: Verwenden Sie Profil Scripts, um gegenseitige Aktivitäten zu testen.
+description: Erfahren Sie, wie Sie mithilfe von Profil-Attributen Tests in Adobe Target einrichten, die mehrere Aktivitäten vergleichen, aber nicht zulassen, dass dieselben Besucher an jeder Aktivität teilnehmen.
+title: Kann ich Profil Scripts zum Testen von gegenseitig ausschließenden Aktivitäten verwenden?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
