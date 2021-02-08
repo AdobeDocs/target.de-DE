@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;Recommendations;Zielgruppe Premium;Automated Personalization;Auto-Zielgruppe;Auto-Zielgruppe;Berechtigungen;Was ist Adobe-Zielgruppe?
-description: Was ist Zielgruppe?
+description: Lernen Sie die Grundlagen von Adobe Target Standard und Adobe Target Premium kennen. Zielgruppe Premium umfasst erweiterte Funktionen, die nicht im Standardprodukt verfügbar sind.
 landing-page-description: Personalisieren Sie die Erlebnisse Ihrer Kunden, um den Umsatz Ihrer Websites und Mobile Sites sowie Apps, Social Media und anderer digitaler Kanäle zu maximieren.
-title: Einführung
+title: Was ist Zielgruppe?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 82%
+source-wordcount: '945'
+ht-degree: 80%
 
 ---
 
