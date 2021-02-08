@@ -1,13 +1,13 @@
 ---
 keywords: A4T; Adobe Analytics; Analytics-basierte Aktivität; Analytics Report Suite; Report Suite; Analytics-Target-Integration; Report Suite konfigurieren
-description: Zur Implementierung von Adobe Analytics als Berichterstellungsquelle für Target (A4T) sind einige Schritte erforderlich.
-title: Analytics für die Target-Implementierung
+description: Führen Sie die erforderlichen Schritte aus, um Analytics for Zielgruppe (A4T) in Ihre Adobe Target- und Adobe Analytics-Lösungen zu implementieren.
+title: Wie implementiere ich Analytics für die Zielgruppe (A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 45%
+source-wordcount: '919'
+ht-degree: 42%
 
 ---
 
