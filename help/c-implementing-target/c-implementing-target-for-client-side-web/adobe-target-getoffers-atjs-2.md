@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.getoffers;Getoffers;getoffers;Angebote abrufen;at.js;Funktionen;funktion
-description: Informationen über die Funktion adobe.target.getOffers(options) für die JavaScript-Bibliothek von Adobe Target „at.js“.
-title: Adobe.Zielgruppe.Getoffer(Options) - at.js 2.x
+description: Verwenden Sie die Funktion adobe.Zielgruppe.getOffers() und ihre Optionen, damit die Adobe Target-Bibliothek at.js Anforderungen auslöst, um mehrere Zielgruppen-Angebot abzurufen. (at.js 2.x)
+title: Wie verwende ich die Funktion adobe.Zielgruppe.getOffers()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# adobe.Zielgruppe.getOffers(options) - at.js 2.x
+# adobe.target.getOffers(options) - at.js 2.x
 
 Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mboxes übergeben. Darüber hinaus können mehrere Angebote für alle Ansichten in aktiven Aktivitäten abgerufen werden.
 
