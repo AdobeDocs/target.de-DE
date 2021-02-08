@@ -1,13 +1,13 @@
 ---
 keywords: Übersicht und Referenz
-description: Verwenden Sie Target mit Adobe Campaign, um E-Mail-Inhalte zu optimieren.
-title: Integration von in Adobe Campaign
+description: Erfahren Sie, wie Sie mit Adobe Target und Adobe Campaign E-Mail-Inhalte optimieren können.
+title: Wie integriere ich Zielgruppe in Adobe Campaign?
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 46%
+source-wordcount: '385'
+ht-degree: 42%
 
 ---
 
