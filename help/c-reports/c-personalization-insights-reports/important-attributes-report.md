@@ -1,13 +1,13 @@
 ---
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; Auto-Target; Auto Target; Auto-Target-Bericht; Auto Target-Bericht; Personalisierung; Insights; FAQ; häufig gestellte Fragen; wichtige Attribute
-description: Informationen zum Bericht „Wichtige Attribute“, einem der beiden für Benutzer der AP (Automated Personalization)- und AT (Automatisches Targeting)-Aktivitäten verfügbaren speziellen Berichte.
-title: Bericht "Wichtige Attribute"
+description: Erfahren Sie, wie Sie den Bericht "Wichtige Attribute"in Adobe Target verwenden, der die wichtigsten Attribute anzeigt, die das Personalisierungsmodell und seine relative Bedeutung beeinflussten.
+title: Was ist der Bericht "Wichtige Attribute"?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 94%
+source-wordcount: '1656'
+ht-degree: 92%
 
 ---
 
