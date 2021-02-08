@@ -1,13 +1,13 @@
 ---
-keywords: experience template;custom code;banner;lightbox;carousel;countdown;ribbon;buttons
-description: Informationen zu Adobe Target-Erlebnisvorlagen für die Verwendung in benutzerdefiniertem Code. Target-Erlebnisvorlagen sind vorkonfigurierte Codebeispiele mit konfigurierbaren Eingaben, die für beliebte Marketing-Anwendungsfälle eingesetzt werden können.
-title: Erlebnisvorlagen
+keywords: Erlebnisvorlage;benutzerdefinierter Code;Banner;Lightbox;Karussell;Countdown;Band;Schaltflächen
+description: Erfahren Sie, wie Sie Experience Templates verwenden, bei denen es sich um vorkodierte Beispiele mit konfigurierbaren Eingaben handelt, um gängige Marketingspezialisten-Anwendungsfälle in Adobe Target auszuführen.
+title: Welche Erlebnisvorlagen stehen in Zielgruppe zur Verfügung?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 82%
+source-wordcount: '477'
+ht-degree: 76%
 
 ---
 
