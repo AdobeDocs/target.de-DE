@@ -1,13 +1,13 @@
 ---
-keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
-description: Verwenden Sie den Visual Experience Composer in Adobe Target, um Ihre A/B-Test-Aktivität direkt auf einer Zielgruppe-aktivierten Seite zu erstellen und Teile der Seite innerhalb der Zielgruppe zu ändern.
-title: Erstellen eines A/B-Tests
+keywords: A/B;A/B-Test;A/B-Aktivität;Neue A/B-Aktivität;Erstellen von a/b
+description: Erfahren Sie, wie Sie mit dem Visual Experience Composer (VEC) in Adobe Target Ihre A/B-Test-Aktivität direkt auf einer Zielgruppe-aktivierten Seite erstellen.
+title: Wie erstelle ich einen A/B-Test?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
