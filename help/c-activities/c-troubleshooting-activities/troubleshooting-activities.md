@@ -1,13 +1,13 @@
 ---
 keywords: Fehlerbehebung in Target;Problembehebung in Target;Standardinhalte;Test nicht verfügbar;Aktivität nicht verfügbar;Targeting funktioniert nicht;vorheriges Erlebnis erscheint;kann keine Aktivitäten erstellen;Aktivitäten erstellen;Seitenstruktur geändert;Seitenstruktur modifiziert;Fehlermeldung;Fehler beim Löschen von Profilskript;AJAX funktioniert nicht
-description: Wenn Ihre Adobe Target-Aktivität nicht auf Ihrer Site angezeigt wird, sollten Ihnen diese Vorschläge zur Fehlerbehebung bei der Suche nach Ihrer Lösung helfen.
-title: Fehlerbehebung bei Aktivitäten
+description: Suchen Sie nach Empfehlungen zur Fehlerbehebung, falls Ihre Adobe Target-Aktivität nicht auf Ihrer Site erscheint.
+title: Wie kann ich Aktivitäten beheben?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 75%
+source-wordcount: '838'
+ht-degree: 76%
 
 ---
 
