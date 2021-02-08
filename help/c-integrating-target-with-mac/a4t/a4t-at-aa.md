@@ -1,13 +1,13 @@
 ---
 keywords: a4t; A4T; Analytics als Berichtsquelle für Target
-description: Kann ich A4T mit Aktivitäten für die automatische Zielgruppe und die automatische Zuordnung verwenden?
-title: A4T-Unterstützung für Aktivitäten zur automatischen Zuordnung und automatischen Zielgruppe
+description: Erfahren Sie, wie Sie Aktivitäten für die automatische Zuordnung und automatische Zielgruppe in Adobe Target erstellen, die Analytics als Berichte-Quelle (A4T) verwenden.
+title: Unterstützt A4T Aktivitäten mit automatisierter Zuordnung und automatischer Zielgruppe?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
