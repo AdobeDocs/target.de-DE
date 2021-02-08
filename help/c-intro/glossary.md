@@ -1,12 +1,12 @@
 ---
-description: Begriffsdefinitionen.
-title: Glossar
+description: Was bedeuten unterschiedliche Begriffe in Adobe Target? Hier finden Sie Definitionen allgemeiner Begriffe, die Ihnen helfen, mehr über die Zielgruppe zu erfahren.
+title: Wo finde ich Begriffe und Definitionen, die in der Zielgruppe verwendet werden?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2289'
-ht-degree: 98%
+source-wordcount: '2316'
+ht-degree: 97%
 
 ---
 
