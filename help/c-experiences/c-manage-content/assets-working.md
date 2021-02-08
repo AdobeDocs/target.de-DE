@@ -1,13 +1,13 @@
 ---
 keywords: Inhaltsbibliothek;Assets;kommentieren;kopieren;Asset löschen;Asset herunterladen;Inhalt bearbeiten;Karte freigeben;Inhaltseigenschaften anzeigen
-description: Arbeiten mit Assets in der Inhaltsbibliothek
-title: Arbeiten mit Inhalten in der Bibliothek
+description: Erfahren Sie, wie Sie Code- und Image-Angebot in der Adobe Target Angebots-Bibliothek verwalten. Erfahren Sie, wie Sie die Details eines Angebots Ansicht und Angebote bearbeiten, kopieren, verschieben oder löschen.
+title: Wie arbeite ich mit Inhalten in der Inhaltsbibliothek?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 38%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
