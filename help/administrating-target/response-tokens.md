@@ -1,12 +1,13 @@
 ---
 keywords: Antwort-Token;Token;Plugins;Plug-Ins;at.js;Antwort
-description: Mithilfe von Antworttoken können Sie automatisch Adobe Target-spezifische Informationen (Aktivitäten, Benutzerinformationen, Geo-Informationen usw.) ausgeben, die Sie beim Debugging oder bei der Integration mit Drittanbietersystemen (z. B. Clicktale) verwenden können
-title: Antwort-Token
+description: Erfahren Sie, wie Sie mithilfe von Antwort-Token in Adobe Target ausgabespezifische Informationen zum Debugging und zur Integration in Drittanbietersysteme (wie Clicktale) verwenden können.
+title: Was sind Antworttoken und wie verwende ich sie?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1580'
 ht-degree: 76%
 
 ---
