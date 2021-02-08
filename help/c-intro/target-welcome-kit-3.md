@@ -1,12 +1,12 @@
 ---
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
-description: Adobe Target Begrüßungs-Kit - Kapitel 3 - Entwicklung Ihrer Ideen zu Tests und Personalisierung
-title: Begrüßungs-Kit - Kapitel 3 - Entwicklung von Ideen für Tests und Personalisierung
+description: Lernen Sie sechs Schritte kennen, die einen bewährten Prozess zur Verbesserung Ihrer Test- und Personalisierungsideen vorstellen, bevor Sie Aktivitäten in Adobe Target erstellen.
+title: Wie kann ich meine Test- und Personalisierungsideen entwickeln?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
