@@ -1,13 +1,14 @@
 ---
 keywords: Bestellbestätigung;orderConfirmPage
-description: Mit der Mbox für Auftragsbestätigungen werden Informationen zu Bestellungen auf Ihrer Seite gesammelt und die Berichterstellung basierend auf Umsatz und Aufträgen ermöglicht. Mit der Mbox für Auftragsbestätigungen können zudem Empfehlungsalgorithmen abgeleitet werden, beispielsweise „Personen, die x kauften, kauften auch y“.
-title: Erstellen einer Mbox für Auftragsbestätigungen – mbox.js
+description: Erfahren Sie mehr über die ältere Implementierung von "mbox.js"in Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
+title: Wie erstelle ich eine Bestellbestätigungs-mbox mit mbox.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 69%
+source-wordcount: '374'
+ht-degree: 58%
 
 ---
 
