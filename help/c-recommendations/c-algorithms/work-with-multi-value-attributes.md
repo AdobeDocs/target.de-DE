@@ -1,12 +1,12 @@
 ---
 keywords: Mehrwert;Attribute;Empfehlungen;Mehrwert;Mehrwert;Mehrwert;Mehrwert
-description: Informationen zum Arbeiten mit einem Multi-Value-Feld in Adobe Target Recommendations unter Verwendung spezieller Multi-Value-Operatoren.
-title: Arbeiten mit Attributen mit mehreren Werten in Zielgruppe Recommendations
+description: Erfahren Sie, wie Sie mit einem Multi-Value-Feld in Adobe Target Recommendations arbeiten können, indem Sie spezielle Multi-Value-Operatoren verwenden, z. B. wenn Sie Filme mit mehreren Darstellern empfehlen.
+title: Kann ich Attribute mit mehreren Werten in Recommendations verwenden?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
