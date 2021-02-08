@@ -1,13 +1,13 @@
 ---
 keywords: Variablen; Profile; Parameter; eingebaute Profile; Methoden; URL-Variablen; Geo-Profile; Drittanbieterprofile; Mbox-Variablen; Kampagnenvariablen; Kundenattribute
-description: Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten nützlich sind.
-title: Nützliche Variablen, Profile, Parameter und Methoden
+description: Ansicht einer Liste verschiedener Profil, Variablen und Parameter, die in Profil-Skripten in Adobe Target nützlich sind.
+title: Welche Profil, Variablen und Parameter werden in der Zielgruppe verwendet?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
