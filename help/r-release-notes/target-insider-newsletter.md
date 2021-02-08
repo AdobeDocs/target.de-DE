@@ -1,13 +1,13 @@
 ---
 keywords: Insider-Newsletter;Newsletter;Produktaktualisierungen;Tipps und Tricks;Ereignisse;Kundenerfolg;Blog;Blogs;Whitepaper;Whitepaper
-description: Wo finde ich den monatlichen Adobe Target Insider Newsletter?
-title: Insider-Newsletter
+description: Lesen Sie die neuesten Nachrichten über Adobe Target. Erfahren Sie mehr über bevorstehende Ereignis, über Kundenerfolge, Informationen und Tipps von Experten und vieles mehr.
+title: Was ist der Adobe Target Insider Newsletter?
 feature: Release Notes, Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2132'
-ht-degree: 41%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
