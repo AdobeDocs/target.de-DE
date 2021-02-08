@@ -1,14 +1,14 @@
 ---
 keywords: Erlebnis;Kontrolle;automatisierte Personalisierung;automatisches Targeting
-description: Auswahl eines Kontrollerlebnisses bei der Erstellung einer automatisierten Personalisierung (AP) oder eines automatischen Targetings (AT) in Adobe Target.
-title: Verwenden eines bestimmten Erlebnisses als Steuerelement
+description: Erfahren Sie, wie Sie ein Erlebnis auswählen, das beim Erstellen einer Automated Personalization- (AP) oder Auto-Zielgruppe-Aktivität in Adobe Target als Steuerelement verwendet werden soll.
+title: Wie kann ich ein spezifisches Erlebnis als Steuerelement in einer AP-Aktivität verwenden?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 99%
+source-wordcount: '765'
+ht-degree: 95%
 
 ---
 
