@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.triggerview;Triggerview;triggerview;trigger-Ansicht;at.js;Funktionen;funktion;Viewname;viewname;Anzeigename
-description: Informationen zur Funktion adobe.target.triggerView (viewName, options) für die JavaScript-Bibliothek von Adobe Target at.js.
-title: Adobe.Zielgruppe.Triggeransicht (Viewname, Optionen) - at.js 2.x
+description: Verwenden Sie die Funktion adobe.Zielgruppe.triggerView() für die Adobe Target at.js JavaScript-Bibliothek zur Verwendung in Einzelseitenanwendungen (SPA). (at.js 2.x)
+title: Wie verwende ich die Funktion adobe.Zielgruppe.triggerView()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 91%
+source-wordcount: '284'
+ht-degree: 84%
 
 ---
 
 
-# adobe.Zielgruppe.triggerView (viewName, options) - at.js 2.x
+# adobe.target.triggerView (viewName, options) - at.js 2.x
 
 Diese Funktion kann immer aufgerufen werden, wenn eine neue Seite geladen wird oder wenn eine Komponente auf einer Seite erneut wiedergegeben wird. `adobe.target.triggerView()` sollte für Einzelseiten-Apps (SPAs) implementiert werden, um den Visual Experience Composer (VEC) zum Erstellen von A/B-Tests und Erlebnis-Targeting(XT)-Aktivitäten verwenden zu können. Wenn `adobe.target.triggerView()` nicht auf der Site implementiert ist, kann VEC für SPAs nicht verwendet werden. Weitere Informationen finden Sie unter [Implementieren von Einzelseiten-Apps](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
