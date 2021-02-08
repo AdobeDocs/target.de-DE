@@ -1,13 +1,14 @@
 ---
 keywords: implementieren;Implementierung;at.js;adobe experience platform web sdk;aep web sdk
-description: Informationen zur Implementierung von Adobe Target für clientseitige Web mit at.js.
-title: Implementieren von Adobe Target für clientseitiges Web
+description: Erfahren Sie, wie Sie Adobe Target für clientseitige Webanwendungen mit dem Adobe Experience Platform Web SDK (AEP Web SDK) oder der JavaScript-Zielgruppe at.js implementieren.
+title: Wie implementiere ich die Zielgruppe für clientseitige Web-Anwendungen?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
