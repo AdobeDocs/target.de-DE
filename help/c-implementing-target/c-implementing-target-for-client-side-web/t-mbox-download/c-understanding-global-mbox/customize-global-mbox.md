@@ -1,13 +1,14 @@
 ---
 keywords: globale Mbox;Globale Mbox anpassen;at.js bearbeiten;at.js;at.js implementieren
-description: Informationen zum Anpassen einer globalen Mbox für "at.js".
-title: Anpassen einer globalen mbox
+description: Erfahren Sie, wie Sie eine globale Mbox für "at.js"auf der Seite "Administration-Implementierung"in Adobe Target anpassen.
+title: Wie kann ich eine globale Mbox anpassen?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 55%
+source-wordcount: '179'
+ht-degree: 50%
 
 ---
 
