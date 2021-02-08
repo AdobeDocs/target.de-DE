@@ -1,13 +1,13 @@
 ---
 keywords: mehrere Zielgruppen;Erlebnisversionen;Erlebnisversionen auswählen
-description: Sie können Versionen des gleichen Erlebnisses in verschiedenen Audiencen in Adobe Target A/B-Aktivitäten Zielgruppe haben. Im Visual Experience Composer oder dem Form-Based Experience Composer können mehrere Zielgruppen für ein Erlebnis eingerichtet werden.
-title: Verschiedene Erlebnisversionen in A/B-Tests
+description: Erfahren Sie, wie Sie Versionen des gleichen Erlebnisses für verschiedene Audiencen in Adobe Target A/B-Aktivitäten Zielgruppe haben.
+title: Kann ich mehrere Erlebnisversionen in einer A/B-Aktivität verwenden?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 94%
+source-wordcount: '598'
+ht-degree: 92%
 
 ---
 
