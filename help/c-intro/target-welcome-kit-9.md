@@ -1,12 +1,12 @@
 ---
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
-description: Adobe Target Begrüßungs-Kit - Kapitel 9 - Nächste Schritte und Ressourcen
-title: Begrüßungs-Kit - Kapitel 9 - Nächste Schritte und Ressourcen
+description: Sie haben Ihre erste Aktivität in Adobe Target erstellt. Wie geht es weiter? In diesem Artikel finden Sie Links zu zusätzlichen Ressourcen, Schulungsübungen und Anleitungen zu Videos.
+title: Wo finde ich zusätzliche Ressourcen, um die Zielgruppe effektiver zu nutzen?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
