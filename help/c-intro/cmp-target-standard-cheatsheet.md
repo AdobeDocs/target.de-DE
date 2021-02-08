@@ -1,13 +1,13 @@
 ---
 keywords: Target Standard; FAQ; häufig gestellte Fragen; Kurzdarstellung; kurze Darstellung
-description: Eine Liste mit häufig gestellten Fragen über die Verwendung von Funktionen in Adobe Target zusammen mit Informationen und Links zu weiteren Informationen.
-title: Häufig gestellte Fragen zu Optimierung und Personalisierung
+description: Hier finden Sie eine Liste häufig gestellter Fragen zur Verwendung der Funktionen in Adobe Target sowie Informationen und Links zu weiteren Informationen.
+title: Wo finde ich Antworten auf die Fragen zu Optimierung und Personalisierung?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2909'
-ht-degree: 97%
+source-wordcount: '2917'
+ht-degree: 96%
 
 ---
 
