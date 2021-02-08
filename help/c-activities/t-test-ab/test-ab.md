@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;Erlebnisse vergleichen;Targeting;Vergleichen von Inhalten;Automatische Zielgruppe;Automatisches Zuordnen
-description: Eine manuelle A/B-Test-Aktivität vergleicht zwei oder mehr Versionen Ihres Website-Inhalts, um festzustellen, welche Version Ihre Konversionen während eines vorab festgelegten Testzeitraums am besten verbessert.
-title: Übersicht über A/B-Tests
+description: Erfahren Sie mehr über die verschiedenen Typen von A/B-Aktivitäten in Adobe Target - Manuelle, automatische Zuordnung und automatische Zielgruppe. Wählen Sie das für Sie Richtige.
+title: Welche A/B-Aktivitäten sind in der Zielgruppe verfügbar?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '767'
 ht-degree: 38%
 
 ---
