@@ -1,13 +1,13 @@
 ---
 keywords: responsiv;mobile Viewports;Viewport;Geräte;Mobil;reaktionsfähiges Webdesign;rwd
-description: Mit mobilen Viewports können Sie Vorschauen dazu erstellen, wie Ihre Adobe Target-Aktivitäten auf Bildschirmen unterschiedlicher Größe angezeigt werden.
-title: Mobile Viewports für responsive Erlebnisse
+description: Mit mobilen Viewports können Sie sehen, wie Ihre Adobe Target-Aktivitäten auf Bildschirmen unterschiedlicher Größe aussehen. Finden Sie eine Liste der beliebten Viewport-Größen und -Auflösungen des Geräts.
+title: Wie verwende ich mobile Viewports für responsive Erlebnisse?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
