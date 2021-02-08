@@ -1,13 +1,13 @@
 ---
 keywords: Entität Entitätsattribute; Weiterleiten von Informationen an Recommendations; Verhaltensdaten; Datenzähler; relative URL definieren; Lagerbestandsebene anzeigen; Preis festlegen; Festlegen der Gewinnspanne; benutzerdefinierte Attribute
-description: Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an Adobe Target Recommendations weiterzugeben.
-title: Entitätsattribute
+description: Erfahren Sie, wie Sie mithilfe von Entitätsattributen Produkt- oder Inhaltsinformationen an Adobe Target Recommendations weiterleiten können.
+title: Wie verwende ich Entitätsattribute?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 90%
+source-wordcount: '1050'
+ht-degree: 89%
 
 ---
 
