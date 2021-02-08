@@ -1,12 +1,12 @@
 ---
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
-description: Adobe Target Begrüßungs-Kit - Kapitel 8 - Aktivitäten kommunizieren
-title: Begrüßungs-Kit - Kapitel 8 - Übermittlung der Ergebnisse Ihrer Aktivität
+description: Verwenden Sie die Vorlage "Zusammenfassungsergebnisse", um Ihre Erfolge mit Ihren Adobe Target-Aktivitäten zu kommunizieren.
+title: Wie kann ich die Ergebnisse meiner Aktivitäten in der Zielgruppe mit meiner Einrichtung teilen?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
