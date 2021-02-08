@@ -1,13 +1,13 @@
 ---
 keywords: zufälliger Wald;Entscheidungsbaum;ap;Automated Personalization
-description: Der wichtigste Personalisierungsalgorithmus von Target, der sowohl in der automatisierten Personalisierung als auch im automatischen Targeting verwendet wird, ist Random Forest. Ensemble-Methoden wie Random Forest verwenden mehrere Lernalgorithmen, um eine bessere Prognoseleistung zu erzielen, als dies bei der isolierten Verwendung dieser Lernalgorithmen möglich wäre. Der Random Forest-Algorithmus der automatisierten Personalisierung ist eine Classification- oder Regressionsmethode, deren Funktionsweise die Konstruktion einer Vielzahl von Entscheidungsbäumen während der Anlernzeit zugrunde liegt.
-title: Random-Forest-Algorithmus
+description: Erfahren Sie, wie Adobe Target den Random Forest-Algorithmus sowohl in Automated Personalization- (AP) als auch in Auto-Zielgruppe-Aktivitäten verwendet.
+title: Wie verwendet die Zielgruppe den Random Forest-Algorithmus?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
