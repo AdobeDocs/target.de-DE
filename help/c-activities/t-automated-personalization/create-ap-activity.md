@@ -1,13 +1,13 @@
 ---
 keywords: automatisierte Personalisierung;ap;Audiencen;ensemble;Random. Wald;Restschwankung;Fehlerschwankung;Lebenszeitwert
-description: Der Arbeitsablauf der Automated Personalization-Aktivität in Adobe Target unterscheidet sich vom Arbeitsablauf der anderen Aktivitäten.
-title: Erstellen einer Automated Personalization-Aktivität
+description: Erfahren Sie, wie Sie mit dem Visual Experience Composer (VEC) eine Automated Personalization (AP)-Aktivität in Adobe Target erstellen.
+title: Wie erstelle ich eine Automated Personalization-Aktivität?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 92%
+source-wordcount: '2057'
+ht-degree: 91%
 
 ---
 
