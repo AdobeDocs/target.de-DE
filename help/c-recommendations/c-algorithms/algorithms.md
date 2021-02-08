@@ -1,12 +1,12 @@
 ---
 keywords: Recommendations;Recommendations-Aktivität;Kriterien;Algorithmus;Empfehlungsschlüssel;benutzerspezifischer Schlüssel;Branche;Branche;Handel;Interessentenanwerbung;b2b;Finanzdienstleistungen;Medien;Veröffentlichung
-description: Kriterien in Adobe Target sind Regeln, die festlegen, welche Produkte oder Inhalte auf der Grundlage eines vordefinierten Verhaltens von Besuchern empfohlen werden.
-title: Kriterien in Zielgruppe Recommendations
+description: Erfahren Sie, wie Sie Kriterien in Adobe Target Recommendations verwenden. Kriterien sind Regeln, die festlegen, welche Inhalte basierend auf einem vordefinierten Satz von Besuchern empfohlen werden sollen.
+title: Wie verwende ich Kriterien in Zielgruppe Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1087'
 ht-degree: 52%
 
 ---
