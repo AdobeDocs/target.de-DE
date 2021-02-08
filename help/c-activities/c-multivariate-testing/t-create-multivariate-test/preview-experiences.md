@@ -1,13 +1,13 @@
 ---
 keywords: Multivarianz;MVT;Vorschau;Erlebnisse
-description: Da ein Multivarianz-Test in Adobe Target mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis zu Vorschauen.
-title: Vorschauen-Erlebnisse für einen Multivarianz-Test (MVT)
+description: Erfahren Sie, wie Sie mithilfe des Visual Experience Composer (VEC) die einzelnen Erlebnisse in einer Multivarianz-Test-(MVT-)Aktivität in Adobe Target Vorschau haben.
+title: Wie kann ich Erlebnisse für einen Multivarianz-Test (MVT) Vorschau durchführen?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
