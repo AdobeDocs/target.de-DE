@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Adobe Target funktioniert, einschließlich Inform
 title: Wie wirkt Zielgruppe?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 71%
+source-wordcount: '2559'
+ht-degree: 69%
 
 ---
 
@@ -200,7 +200,13 @@ Unserer Ansicht nach ist es jedoch eher schwierig, die Bedeutung originaler Inha
 
 ## Bots {#bots}
 
-Adobe Target verwendet [DeviceAtlas](https://deviceatlas.com/), um bekannte Bots zu erkennen. Wenn erkannt wird, dass Traffic von einem Bot generiert wurde, wird dem Bot derselbe Inhalt wie einem Benutzer bereitgestellt, um im Einklang mit SEO-Richtlinien zu bleiben. Die Verwendung von Bot-Traffic kann A/B-Tests oder Personalisierungsalgorithmen verfälschen, wenn Bots wie normale Benutzer behandelt werden. Wenn daher ein bekannter Bot in Ihrer Target-Aktivität erkannt wird, wird der Traffic etwas anders behandelt. Durch das Entfernen des Bot-Traffics erhalten Sie eine korrektere Messung der Benutzeraktivität.
+Adobe Target verwendet die Metrik [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/) &quot;isRobot&quot;, um bekannte Bots basierend auf der Benutzeragenten-Zeichenfolge zu erkennen, die im Anforderungsheader übergeben wird.
+
+>[!NOTE]
+>
+> Bei Anforderungen von [!DNL Server Side] erhält der Wert, der im Knoten [Anforderung &quot;Kontext&quot;](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) übergeben wird, Vorrang vor der Benutzeragenten-Zeichenfolge für die Bot-Erkennung.
+
+Wenn erkannt wird, dass Traffic von einem Bot generiert wurde, wird dem Bot derselbe Inhalt wie einem Benutzer bereitgestellt, um im Einklang mit SEO-Richtlinien zu bleiben. Die Verwendung von Bot-Traffic kann A/B-Tests oder Personalisierungsalgorithmen verfälschen, wenn Bots wie normale Benutzer behandelt werden. Wenn daher ein bekannter Bot in Ihrer Target-Aktivität erkannt wird, wird der Traffic etwas anders behandelt. Durch das Entfernen des Bot-Traffics erhalten Sie eine korrektere Messung der Benutzeraktivität.
 
 Insbesondere unterlässt Target bei bekanntem Bot-Traffic-Target Folgendes:
 
