@@ -4,9 +4,9 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der A
 title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 40196dbae080f248d21aa8f4b3722863e846be16
+source-git-commit: bbf50435926b1ec5e9d85e8cf7cd6e50a370f876
 workflow-type: tm+mt
-source-wordcount: '3619'
+source-wordcount: '3626'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 11. Februar | ![Funktionsweise von Target](/help/c-intro/how-target-works.md) | Abschnitt &quot;Bots&quot;wurde aktualisiert. |
 | 10. Februar | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur Adobe Target Community Q&amp;A Coffee Break am Mittwoch, 24. Februar 2021 hinzugefügt. |
 | Februar 8 | [Mobile Target-Vorschau](/help/c-target-mobile-app/target-mobile-preview.md) | Das Codefragment, das Sie der Datei AndroidManifest.xml für Version 4 der Adobe Mobile SDK hinzufügen sollten, wurde hinzugefügt. |
 |  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde geklärt:<ul><li>Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche der Zielgruppe nicht sichtbar und können nur über die API bearbeitet werden. Wenn Sie eines dieser Elemente in der Benutzeroberfläche der Zielgruppe erstellen und sie später über die API bearbeiten, werden diese Änderungen nicht in der Benutzeroberfläche der Zielgruppe angezeigt. Über API bearbeitete Elemente sollten weiterhin über API bearbeitet werden, um den Verlust von Änderungen zu vermeiden.</li></ul> |
