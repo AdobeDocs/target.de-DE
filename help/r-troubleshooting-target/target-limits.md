@@ -5,9 +5,9 @@ title: Welches sind die verschiedenen Zeichen-, Größen- und sonstigen Beschrä
 feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
+source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 65%
 
 ---
@@ -159,7 +159,7 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
    * Profil-Parameterwert darf nicht null sein
    * Profil-Parameterwert max. Länge 256
 
-   **Versand-API-Endpunkt**
+   **Versand-API-Endpunkt**:
 
    * mbox-Parameter 50
    * Mbox-Parametername max. Länge 128
@@ -194,11 +194,11 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 
 ### Angebotsgröße
 
-* **Limit**: Die folgenden Größenbeschränkungen gelten für Angebote:
+Die folgenden Größenbeschränkungen gelten für Angebote:
 
-   * 256 KB für HTML-Angebote.
-   * 64 KB für visuelle Angebote aus der Benutzeroberfläche.
-   * 512 KB aus der API.
+* 256 KB für HTML-Angebote.
+* 64 KB für visuelle Angebote aus der Benutzeroberfläche.
+* 512 KB aus der API.
 
    Bei der Verwendung einer globalen Mbox gilt die Beschränkung für den kompletten Satz an zurückgegebenen Inhalten für die Seite. Die Beschränkung der Angebotsseite optimiert die Seitenladezeit. Wenn der Grenzwert überschritten wird, wird folgende Meldung angezeigt:
 
