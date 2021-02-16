@@ -4,9 +4,9 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der A
 title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 305e457e81b16a427ff9ee368aea9bf077018902
+source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
 workflow-type: tm+mt
-source-wordcount: '3626'
+source-wordcount: '3641'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 16. Februar | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Der Text für die maximale Größe von Angeboten in den Vorabversionshinweisen wurde aktualisiert. |
 | 11. Februar | [Funktionsweise von Target](/help/c-intro/how-target-works.md) | Abschnitt &quot;Bots&quot;wurde aktualisiert. |
 | 10. Februar | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur Adobe Target Community Q&amp;A Coffee Break am Mittwoch, 24. Februar 2021 hinzugefügt. |
 | Februar 8 | [Mobile Target-Vorschau](/help/c-target-mobile-app/target-mobile-preview.md) | Das Codefragment, das Sie der Datei AndroidManifest.xml für Version 4 der Adobe Mobile SDK hinzufügen sollten, wurde hinzugefügt. |
@@ -52,7 +53,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 | Dezember 9 | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Neues Thema |
 |  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende Problem wurde aus dem Abschnitt &quot;Bekannte Probleme&quot;in den Abschnitt &quot;Behobene Probleme&quot;verschoben: &quot;Angebote mit der Beschriftung &quot;Verarbeitung&quot;.&quot; |
 | Dezember 1 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Die Aufzeichnung des Webinars für &quot;Personalisieren und Testen mit Nulllatenz bei Entscheidungen auf dem Gerät von Adobe Target&quot;wurde eingebettet. |
-| November 24 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>[Berichte - Inkonsistente Daten im herunterladbaren .csv-Bericht im Vergleich zum angezeigten Bericht in der Benutzeroberfläche der Zielgruppe.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Das folgende Problem wurde behoben:<ul><li>[Berichterstellung von Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
+| November 24 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>[Berichte - Inkonsistente Daten im herunterladbaren CSV-Bericht im Vergleich zum angezeigten Bericht in der Benutzeroberfläche der Zielgruppe.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Das folgende Problem wurde behoben:<ul><li>[Berichterstellung von Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [Metrikdefinitionen – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Warum kann ich bei der Konfiguration meiner Zielmetriken nicht auf die Optionen für erweiterte Einstellungen zugreifen?&quot; |
 |  | [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md) | Der Text im Hinweis zu Aktivitäten, die A4T verwenden, wurde angepasst. |
 | November 17 | [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Kann ein Besucher in einer Aktivität mit automatisierter Zielgruppe, die A4T verwendet, zwischen zielgerichteten und kontrollierten Erlebnissen bei verschiedenen Besuchen wechseln?&quot; |
@@ -148,7 +149,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 |  | [Häufig gestellte Fragen zu Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Folgende FAQs wurden hinzugefügt:<ul><li>Kann ich beim Ausführen einer Automated Personalization-Aktivität die Option Berichtsdaten zurücksetzen verwenden?</li><li>Wie erstellt Automated Personalization Modelle in Bezug auf Umgebung?</li></ul> |
 |  | [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Es wurden Informationen zu Internet Explorer und unbekannten Elementen hinzugefügt. |
 |  | [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Der folgende Absatz wurde aktualisiert:<br>[!DNL Adobe] garantiert nicht, dass 100 % der Kundenattributdaten (Besucher-Profil) aus CRM-Datenbanken an das [!DNL Experience Cloud]-Attribut angeschlossen werden und somit für das Targeting in [!DNL Target] verfügbar sind. In unserem aktuellen Design besteht die Möglichkeit, dass ein kleiner Anteil der Daten (bis zu 0,1 % der großen Produktionschargen) möglicherweise nicht an Bord mitgeführt wird. |
-| Juli 27 | [Verwaltung von Target](/help/administrating-target/administrating-target.md) | Der Text in allen verknüpften Themen auf dieser Seite wurde aktualisiert, um die neuen Änderungen an der Benutzeroberfläche für die Seiten [!UICONTROL Administration] widerzuspiegeln. |
+| Juli 27 | [Verwaltung von Target](/help/administrating-target/administrating-target.md) | Der Text in allen verknüpften Themen auf dieser Seite wurde aktualisiert, um die neuen Änderungen der Benutzeroberfläche für die Seiten [!UICONTROL Administration] widerzuspiegeln. |
 |  | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Folgende Änderungen wurden vorgenommen: <ul><li>Registrierungsinformationen für das folgende Webinar hinzugefügt: &quot;Wie HSBC Adobe Target und AI nutzt, um die Personalisierung schnell zu optimieren und zu liefern.&quot;</li><li>Es wurden Informationen darüber hinzugefügt, dass Adobe erneut als &quot;Leader&quot;im Gartner Magic Quadrant für Personalisierungsmaschinen bezeichnet wird.</li></ul> |
 |  | [Formularbasierter Experience Composer](/help/c-experiences/form-experience-composer.md) | Klarere Informationen unter Schritt 4: Wählen Sie einen Ort aus. |
 | Juli 24 | <br>[„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informationen zur at.js-Version 2.3.2 wurden hinzugefügt. |
@@ -200,9 +201,9 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 | Mai 14 | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu den Änderungen an der Profil Batch Status API Version 2 hinzugefügt. |
 | Mai 13 | [CNAME und Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Der Abschnitt &quot;Bekannte Einschränkungen&quot;wurde hinzugefügt. |
 | Mai 11 | [Hosts](/help/administrating-target/hosts.md) | Es wurden Informationen zur Verwendung der Ubox-Funktion mit Umleitungen und Zulassungslisten hinzugefügt. |
-|  | [Arbeiten mit Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Es wurden Informationen zur Verwendung von Hosts zur Vermeidung von Open-Redirect-Schwachstellen hinzugefügt. |
-|  | [Integration von Recommendations in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Es wurden Informationen zur Verwendung von Hosts zur Vermeidung von Open-Redirect-Schwachstellen hinzugefügt. |
-|  | [E-Mail: Target-Implementierung](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Es wurden Informationen zur Verwendung von Hosts zur Vermeidung von Open-Redirect-Schwachstellen hinzugefügt. |
+|  | [Arbeiten mit Weiterleitungen](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Es wurden Informationen zur Verwendung von Hosts hinzugefügt, um Open-Redirect-Schwachstellen zu vermeiden. |
+|  | [Integration von Recommendations in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Es wurden Informationen zur Verwendung von Hosts hinzugefügt, um Open-Redirect-Schwachstellen zu vermeiden. |
+|  | [E-Mail: Target-Implementierung](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Es wurden Informationen zur Verwendung von Hosts hinzugefügt, um Open-Redirect-Schwachstellen zu vermeiden. |
 |  | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Abschnitt &quot;Überlegungen&quot;wurde aktualisiert. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Die Zeile &quot;overrideMboxEdgeServer&quot;unter &quot;Einstellungen&quot;wurde aktualisiert. |
 | Mai 6 | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Es wurden Informationen zu ITP 2.3 hinzugefügt. |
