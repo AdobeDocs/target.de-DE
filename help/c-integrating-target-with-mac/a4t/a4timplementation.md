@@ -4,9 +4,9 @@ description: Führen Sie die erforderlichen Schritte aus, um Analytics for Zielg
 title: Wie implementiere ich Analytics für die Zielgruppe (A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '918'
 ht-degree: 42%
 
 ---
@@ -32,15 +32,15 @@ Die Benutzerkontoanforderungen müssen erfüllt sein, bevor Sie eine [!DNL Analy
 
 Mit dem Besucher-ID-Service können Sie Benutzer über [!DNL Adobe Experience Cloud]-Lösungen hinweg identifizieren. Die erforderliche Version der Experience Cloud-Besucher-ID muss implementiert oder migriert werden. Weitere Informationen finden Sie in den „Implementierungsanforderungen“ unter [Vor der Implementierung](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Siehe [Implementieren des Experience Cloud-ID-Diensts für Zielgruppe](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) in der *Experience Cloud-Besucher-ID-Dienst*-Dokumentation.
+Siehe [Implementieren des Experience Cloud-ID-Diensts für Zielgruppe](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) in der *Experience Cloud-Besucher-ID-Dienst*-Dokumentation.
 
 ## Schritt 4: Aktualisierung von AppMeasurement für JavaScript oder s_code
 
 Sie müssen die erforderliche Version von appMeasurement.js implementieren oder migrieren. Weitere Informationen finden Sie in den „Implementierungsanforderungen“ unter [Vor der Implementierung](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Neue Implementierungen finden Sie unter [Übersicht über die JavaScript-Implementierung](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) im *Analytics-Implementierungshandbuch*.
+Neue Implementierungen finden Sie unter [Übersicht über die JavaScript-Implementierung](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) im *Analytics-Implementierungshandbuch*.
 
-Eine Migration finden Sie unter [Migration zu AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) im *Analytics Implementierungshandbuch*.
+Eine Migration finden Sie unter [Migration zu AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) im *Analytics Implementierungshandbuch*.
 
 ## Schritt 5: &quot;at.js&quot;herunterladen und aktualisieren
 
@@ -67,7 +67,7 @@ src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 
 VisitorAPI.js muss unbedingt vor &quot;at.js&quot;geladen werden. Wenn Sie eine vorhandene Datei &quot;at.js&quot;oder &quot;mbox.js&quot;aktualisieren, überprüfen Sie die Ladereihenfolge.
 
-Die vordefinierte Konfiguration der Einstellungen für [!DNL Target] und [!DNL Analytics] aus Implementierungsperspektive besteht darin, die SDID zu verwenden, die von der Seite an die [!DNL Target]- und [!DNL Analytics]-Anforderung übergeben wird, um sie automatisch für Sie am Backend zusammenzufügen.
+Die vordefinierte Konfiguration der Einstellungen für [!DNL Target] und [!DNL Analytics] aus Implementierungsperspektive besteht darin, die SDID zu verwenden, die von der Seite weitergereicht wird, um die [!DNL Target]- und [!DNL Analytics]-Anforderung automatisch für Sie am Backend zu verknüpfen.
 
 Wenn Sie jedoch mehr Kontrolle darüber haben möchten, wie und wann Analytics-Daten zu [!DNL Target] zu [!DNL Analytics] zu Berichte gesendet werden sollen und Sie nicht auf die Standardeinstellungen [!DNL Target] und [!DNL Analytics] zugreifen möchten, können Sie **analyticsLogging = client_side** über &lt;a6 festlegen/>window.targetGlobalSettings **.** Hinweis: Keine Version unter 2.1 unterstützt diesen Ansatz.
 
