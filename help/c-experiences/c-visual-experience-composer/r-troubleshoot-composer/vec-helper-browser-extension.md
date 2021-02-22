@@ -2,12 +2,12 @@
 keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser
 description: Erfahren Sie, warum einige Websites möglicherweise nicht zuverlässig im Visual Experience Composer (VEC) geöffnet werden. Mit der VEC Helper Browser Extension können Sie Websites zuverlässig innerhalb des VEC laden.
 title: Wie verwende ich die Visual Experience Composer (VEC) Helper Extension?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 52%
+source-wordcount: '885'
+ht-degree: 51%
 
 ---
 
@@ -32,10 +32,10 @@ Die VEC Helper-Browsererweiterung für Chrome löst Site-Ladeprobleme, bei denen
 
 ## Vorteile der Verwendung der VEC Helper-Erweiterung
 
-* Alle iFrame-Busting-Kopfzeilen wie X-Frame-Options und Content-Sicherheitsrichtlinien werden implizit von der Website entfernt. Hierfür müssen keine komplizierten Regeln für Requestly mehr erstellt werden.
+* Alle iFrame-Busting-Kopfzeilen wie X-Frame-Options und Content-Sicherheitsrichtlinien werden implizit von der Website entfernt. Es besteht keine Notwendigkeit mehr, komplizierte Anforderungsregeln zu erstellen.
 * Wenn eine Webseite noch nicht die [!DNL Target]-JavaScript-Bibliothek at.js enthält, können Sie die Erweiterung verwenden, um die Bibliothek einzufügen, sodass Sie Erlebnisse für die Website erstellen können. Anschließend können Sie Aktivitäten erstellen und diese mithilfe von Vorschau-Links überprüfen.
 
-   Beachten Sie, dass bei der Verwendung des Enhanced Experience Composer (EEC) die Erweiterung &quot;at.js&quot;nicht injiziert, aber die Funktion &quot;SameSite-Cookie&quot;weiterhin vorhanden ist. Um at.js auf die Webseite zu injizieren, deaktivieren Sie die EWG.
+   Beachten Sie, dass die Erweiterung mit Enhanced Experience Composer (EEC) &quot;at.js&quot;nicht injiziert, aber die Funktion &quot;SameSite-Cookie&quot;weiterhin vorhanden ist. Um at.js auf die Webseite zu injizieren, deaktivieren Sie die EWG.
 
 * [Mobile ](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) Viewports werden auch ohne den  [!UICONTROL Enhanced Experience Composer]  (EEC) unterstützt.
 * Kunden, für die [!DNL Target] noch ungewohnt ist, können mit der Erweiterung mit [!DNL Target] experimentieren, selbst wenn ihre IT-Entwickler [!DNL Target] noch nicht auf der Webseite implementiert haben.
@@ -72,7 +72,7 @@ Die VEC Helper-Browsererweiterung für Chrome löst Site-Ladeprobleme, bei denen
 * Ihre Implementierung muss die [!DNL Target]-at.js-Bibliothek verwenden. Sie können keine mbox.js-Implementierung mit der Erweiterung verwenden.
 * Die Markierung [!UICONTROL Ziel-Bibliotheken einfügen] ist in der Erweiterung standardmäßig DEAKTIVIERT. Sie können diese Markierung aktivieren, wenn Sie VEC auf einer Site verwenden möchten, für die [!DNL Target] noch nicht implementiert wurde.
 
-   Beachten Sie, dass diese Markierung eine globale Einstellung ist. Sie wird für alle im VEC geöffneten Websites aktiviert bzw. deaktiviert. Wenn Sie dieses Flag beispielsweise auf &quot;on&quot;setzen und eine Website öffnen, die bereits mit &quot;at.js&quot;implementiert ist, erhalten Sie eine Meldung, dass &quot;at.js&quot;bereits geladen ist. Wir gehen davon aus, dass die meisten Kunden at.js bereits auf ihren Seiten implementiert haben und die Standardeinstellung &quot;off&quot;verwenden werden.
+   Dieses Flag ist eine globale Einstellung. Sie wird für alle im VEC geöffneten Websites aktiviert bzw. deaktiviert. Wenn Sie dieses Flag beispielsweise auf &quot;on&quot;setzen und eine Website öffnen, die bereits mit &quot;at.js&quot;implementiert ist, erhalten Sie eine Meldung, dass &quot;at.js&quot;bereits geladen ist. Adobe geht davon aus, dass die meisten Kunden bereits at.js auf ihren Seiten implementiert haben und die Standardeinstellung &quot;off&quot;verwenden.
 
 * Die Erweiterung lädt die neueste Version von at.js, die unter [!DNL Target UI] unter [!UICONTROL Administration > Implementierung] verfügbar ist.
 * Wenn Sie die Erweiterung verwenden, um at.js im [QA-Modus](/help/c-activities/c-activity-qa/activity-qa.md) einzufügen, muss eine andere Chrome-Registerkarte geöffnet sein. Diese Chrome-Registerkarte muss für dieselbe [!DNL Adobe Experience Cloud]-Organisation authentifiziert sein, in der Sie die Aktivität erstellt haben.
