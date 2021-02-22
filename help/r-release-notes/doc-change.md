@@ -2,11 +2,11 @@
 keywords: Änderungsprotokoll zur Dokumentation der Zielgruppe;Dokumentationsaktualisierungen;neue Themen;Bearbeitungen;Aktualisierungen;Aktualisieren
 description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der Adobe Target Produktdokumentation auf dem Laufenden.
 title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
-feature: Release Notes
+feature: ' Versionshinweise '
 translation-type: tm+mt
-source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
+source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3661'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 22. Februar | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Folgende häufig gestellte Fragen wurden aktualisiert:<ul><li>Wo können Segmente in Analysis Workspace angewendet werden?</li></ul> |
 | 16. Februar | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Der Text für die maximale Größe von Angeboten in den Vorabversionshinweisen wurde aktualisiert. |
 | 11. Februar | [Funktionsweise von Target](/help/c-intro/how-target-works.md) | Abschnitt &quot;Bots&quot;wurde aktualisiert. |
 | 10. Februar | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur Adobe Target Community Q&amp;A Coffee Break am Mittwoch, 24. Februar 2021 hinzugefügt. |
