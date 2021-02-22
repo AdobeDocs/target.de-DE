@@ -4,9 +4,9 @@ description: Hier finden Sie Antworten auf Fragen zu Metrikdefinitionen und zur 
 title: Wo finde ich Informationen zu Metrikdefinitionen mit A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 58%
 
 ---
@@ -20,7 +20,7 @@ Dieses Thema enthält Antworten auf häufig zu Metrikdefinitionen und zur Verwen
 
 Die Standardgültigkeit für die Aktivität beträgt 90 Tage nach der letzten Interaktion des Besuchers mit der Aktivität. Dies kann von der Kundenbetreuung bei Bedarf angepasst werden. Diese Einstellung gilt für alle Aktivitäten, daher sollte sie nicht nur für einen Fall angepasst werden.
 
-## Warum kann ich bei der Konfiguration meiner Zielmetriken nicht auf die Optionen für erweiterte Einstellungen zugreifen? {#adv-settings}
+## Warum kann ich bei der Konfiguration meiner Zielmetriken nicht auf die erweiterten Einstellungen zugreifen? {#adv-settings}
 
 Die Optionen [!UICONTROL Erweiterte Einstellungen] stehen nicht für Aktivitäten zur Verfügung, die [!DNL Analytics] als Berichte-Quelle (A4T) verwenden.
 
