@@ -2,23 +2,23 @@
 keywords: gemischte Inhalte;sicher;unsicher;Chrom;Fehlerbehebung;vec;Visual Experience Composer;unsecure;http;https;firefox;Internet Explorer
 description: Einige Browser blockieren die Anzeige einer Seite, wenn sicherer Inhalt mit unsicherem Inhalt gemischt wird. Erfahren Sie, wie Sie gemischte Inhalte in Chrome, Firefox und Edge aktivieren.
 title: Wie aktiviere ich gemischte Inhalte in meinem Browser?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 34%
+source-wordcount: '592'
+ht-degree: 26%
 
 ---
 
 
 # Zulassen von gemischtem Inhalt in Ihrem Browser
 
-Gemischte Inhalte treten auf, wenn sowohl HTTPS-Inhalte (sicher) *als auch HTTP-Inhalte (unsicher) geladen wurden, um dieselbe Webseite anzuzeigen, und die ursprüngliche Anforderung über HTTPS gesichert war.*
+Gemischte Inhalte treten auf, wenn die ursprüngliche Anforderung über HTTPS sicher ist, aber HTTPS *und* HTTP-Inhalt geladen wird, um die Webseite anzuzeigen. HTTPS-Inhalte sind sicher. HTTP-Inhalte sind unsicher.
 
 Moderne Browser können die Anzeige einer Seite oder Warnmeldungen blockieren, wenn sicherer Inhalt mit unsicherem Inhalt gemischt wird.
 
-Wenn der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] versucht, eine Seite mit gemischtem Inhalt zu öffnen, wird eine Meldung angezeigt, die zeigt, wie die Blockierung in Ihrem Browser deaktiviert werden kann, damit Sie eine HTTP-Site oder eine Site mit gemischten Aufrufen (HTTPS und HTTP) öffnen können.
+Eine Warnmeldung wird angezeigt, wenn der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] versucht, eine Seite mit gemischtem Inhalt zu öffnen. Diese Meldung informiert Sie darüber, wie Sie die Blockierung in Ihrem Browser deaktivieren können. Durch Deaktivieren der Blockierung können Sie eine HTTP-Site oder eine Site mit gemischten Aufrufen (HTTPS und HTTP) öffnen.
 
 ![Warnung zu gemischten Inhalten](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -26,7 +26,7 @@ Zuvor konnten Sie, falls gemischte Inhalte unzulässig waren, in Schritt 1 des 
 
 Die Sicherheitseinstellungen Ihres Browsers verhindern möglicherweise, dass gemischter Inhalt oder unsicherer (HTTP-)Inhalt auf einer sicheren (HTTPS-)Seite oder in einem sicheren Frame (z. B. VEC) geladen wird. Wenn Sie die Sicherheitseinstellungen Ihres Browsers nicht deaktivieren möchten, benötigen Sie eine HTTPS-Website.
 
-Wenn Ihre Website in einer unsicheren (HTTP-)Domäne betrieben wird, müssen Sie zulassen, dass VEC aktiven gemischten Inhalt lädt.
+Wenn Ihre Website auf einer unsicheren (HTTP) Domäne ausgeführt wird, müssen Sie zulassen, dass VEC aktive gemischte Inhalte lädt.
 
 >[!NOTE]
 >
@@ -38,11 +38,11 @@ Weitere Informationen finden Sie unter [Gemischte Inhalte](https://developer.moz
 
 Wenn Sie eine Site über eine sichere Verbindung besuchen, prüft Chrome, ob der Inhalt auf der Webseite sicher übertragen wurde.
 
-Siehe [Diese Seite enthält unsichere Inhalte](https://support.google.com/chrome/answer/1342714?hl=en) in der Google Chrome-Hilfe.
+Siehe &quot;[Diese Seite enthält unsicheren Inhalt](https://support.google.com/chrome/answer/1342714?hl=en)&quot;in der Google Chrome-Hilfe.
 
 Wenn Sie VEC mit der neuesten Version von Chrome (Version 79.0.3945.117 oder höher) verwenden, müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 
-1. Klicken Sie auf das Sperren- oder Warnsymbol und dann auf **[!UICONTROL Site-Einstellungen]**.
+1. Klicken Sie auf das Symbol Sperren (Vorsicht) und dann auf **[!UICONTROL Site-Einstellungen]**.
 
    ![Site-Einstellungen](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
@@ -63,7 +63,7 @@ Firefox blockiert standardmäßig Seiten, auf denen sicherer und unsicherer Inha
 
 1. Geben Sie in die Suchleiste `block_active` ein.
 
-   ![Aktive Einstellung für Firefox-Block](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+   ![Einstellung &quot;Firefox block_active&quot;](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
 1. Doppelklicken Sie auf ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
@@ -71,7 +71,7 @@ Firefox blockiert standardmäßig Seiten, auf denen sicherer und unsicherer Inha
 
    ![Firefox-Sicherheit](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
-Es wird empfohlen, den Computer nach Änderung dieser Einstellung neu zu starten.
+Starten Sie den Computer nach dem Ändern dieser Einstellung neu.
 
 ## Zulassen von gemischten Inhalten in Microsoft Edge
 
@@ -79,7 +79,7 @@ Wenn Sie eine Site über eine sichere Verbindung besuchen, prüft Edge, ob der I
 
 Wenn Sie den VEC mit der neuesten Version von Edge verwenden, müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 
-1. Klicken Sie auf das Sperren- oder Warnsymbol und dann auf **[!UICONTROL Site-Berechtigungen]**.
+1. Klicken Sie auf das Symbol Sperren (Vorsicht) und dann auf **[!UICONTROL Site-Berechtigungen]**.
 
    ![Site-Berechtigungen in Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
