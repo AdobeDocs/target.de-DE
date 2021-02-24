@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Adobe Target funktioniert, einschließlich Inform
 title: Wie wirkt Zielgruppe?
 feature: Überblick
 translation-type: tm+mt
-source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
-source-wordcount: '2567'
+source-wordcount: '2570'
 ht-degree: 32%
 
 ---
@@ -176,7 +176,7 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
 * **Verwenden Sie 302 (temporäre) Umleitungen**: In Fällen, in denen für die Variantenseiten in einem Test separate URLs verwendet werden, empfiehlt Google die Verwendung einer 302-Umleitung, um den Traffic in die Testvarianten zu leiten. Die 302-Umleitung teilt den Suchmaschinen mit, dass die Umleitung vorübergehend ist und nur aktiv ist, solange der Test ausgeführt wird.
 
-   Eine 302-Umleitung ist eine serverseitige Umleitung, und [!DNL Target] und die meisten Optimierungsanbieter nutzen clientseitige Funktionen. Umleitungen sind daher ein Bereich, in dem [!DNL Target] nicht vollständig mit den Empfehlungen von Google übereinstimmt. Diese Praxis betrifft jedoch nur einen kleinen Teil der Tests. Der Standardansatz zum Ausführen von Tests mit [!DNL Target] ruft zum Ändern von Inhalten innerhalb einer einzelnen URL auf, sodass keine Umleitungen erforderlich sind. Es gibt Fälle, in denen Kunden mehrere URLs verwenden müssen, um ihre Testvarianten darzustellen. In diesen Fällen verwendet [!DNL Target] den JavaScript-Befehl `window.location`. Mit diesem Befehl werden Benutzer zu Testvarianten weitergeleitet, was nicht explizit bedeutet, dass die Umleitung 301 oder 302 beträgt.
+   Eine 302-Umleitung ist eine serverseitige Umleitung, und [!DNL Target] und die meisten Optimierungsanbieter nutzen clientseitige Funktionen. Daher ist die Weiterleitung ein Bereich, in dem [!DNL Target] nicht vollständig mit den Empfehlungen von Google übereinstimmt. Diese Praxis betrifft jedoch nur einen kleinen Teil der Tests. Der Standardansatz zum Ausführen von Tests mit [!DNL Target] ruft zum Ändern von Inhalten innerhalb einer einzelnen URL auf, sodass keine Umleitungen erforderlich sind. Es gibt Fälle, in denen Kunden mehrere URLs verwenden müssen, um ihre Testvarianten darzustellen. In diesen Fällen verwendet [!DNL Target] den JavaScript-Befehl `window.location`. Mit diesem Befehl werden Benutzer zu Testvarianten weitergeleitet, was nicht explizit bedeutet, dass die Umleitung 301 oder 302 beträgt.
 
    Die Adobe sucht nach praktikablen Lösungen, die vollständig mit den Richtlinien der Suchmaschinen übereinstimmen. Für Kunden, die separate URLs zum Testen verwenden müssen, ist die Adobe zuversichtlich, dass eine ordnungsgemäße Implementierung der kanonischen Tags das mit diesem Ansatz verbundene Risiko verringert.
 
