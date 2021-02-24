@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Adobe Target funktioniert, einschließlich Inform
 title: Wie wirkt Zielgruppe?
 feature: Überblick
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
 workflow-type: tm+mt
 source-wordcount: '2567'
 ht-degree: 32%
@@ -28,7 +28,7 @@ Erfahren Sie, wie [!DNL Adobe Target] funktioniert, einschließlich Informatione
 >
 >Alle Kunden sollten zur [!DNL AEP Web SDK] oder zur neuesten Version von at.js migrieren. Weitere Informationen finden Sie unter [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) oder [Migration von &quot;mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) zu &quot;at.js&quot;.
 
-Verweisen Sie auf jeder Seite Ihrer Site auf [!DNL AEP Web SDK] oder at.js. Sie können beispielsweise eine dieser Bibliotheken zu Ihrem globalen Header hinzufügen. Alternativ können Sie [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) verwenden, um [!DNL Target] zu implementieren.
+Verweisen Sie auf jeder Seite Ihrer Site auf [!DNL AEP Web SDK] oder at.js. Sie können beispielsweise eine dieser Bibliotheken zu Ihrem globalen Header hinzufügen. Alternativ können Sie [Adobe Platform launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) verwenden, um [!DNL Target] zu implementieren.
 
 Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung des AEP Web SDK oder at.js:
 
@@ -56,7 +56,7 @@ Weitere Informationen finden Sie unter [Erstellen eines A/B-Tests](/help/c-activ
 
 ### Automatische Zuordnung
 
-Die automatisierte Zuordnung identifiziert einen Gewinner unter zwei oder mehr Erlebnissen. Durch die automatische Zuordnung wird automatisch mehr Traffic an das erfolgreichste Erlebnis weitergeleitet, um die Konversionen zu erhöhen, während der Test weiter ausgeführt und gelernt wird.
+Die automatisierte Zuordnung identifiziert einen Gewinner unter zwei oder mehr Erlebnissen. Bei der automatischen Zuordnung wird automatisch mehr Traffic an das erfolgreichste Erlebnis weitergeleitet, wodurch Konversionen erhöht werden, während der Test weiter ausgeführt und gelernt wird.
 
 Weitere Informationen finden Sie unter [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
@@ -134,7 +134,7 @@ Der [!DNL Target Recommendations]-Dienst wird in einem [!DNL Adobe]-Rechenzentru
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] Derzeit gibt es keinen Edge Cluster in China, und die Performance des Besuchers ist für chinesische  [!DNL Target] Kunden weiterhin begrenzt. Aufgrund der Firewall und des Fehlens von Edge Clusters innerhalb des Landes können die Erlebnisse von Sites mit [!DNL Target] bereitgestellt werden. Erlebnisse können langsam gerendert werden, und Seitenladevorgänge können betroffen sein. Außerdem können Marketingexperten bei der Verwendung der Authoring-Benutzeroberfläche [!DNL Target] Latenzzeiten erleben.
+>[!DNL Adobe Target] Derzeit gibt es keinen Edge Cluster in China, und die Performance des Besuchers ist für  [!DNL Target] Kunden in China weiterhin begrenzt. Aufgrund der Firewall und des Fehlens von Edge Clusters innerhalb des Landes können die Erlebnisse von Sites mit [!DNL Target] bereitgestellt werden. Erlebnisse können langsam gerendert werden, und Seitenladevorgänge können betroffen sein. Außerdem können Marketingexperten bei der Verwendung der Authoring-Benutzeroberfläche [!DNL Target] Latenzzeiten erleben.
 
 Sie können bei Bedarf [!DNL Target] Edge-Cluster in Zulassungslisten einfügen. Weitere Informationen finden Sie unter [Edge-Knoten der Zulassungsliste-Zielgruppe](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
@@ -176,7 +176,7 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
 * **Verwenden Sie 302 (temporäre) Umleitungen**: In Fällen, in denen für die Variantenseiten in einem Test separate URLs verwendet werden, empfiehlt Google die Verwendung einer 302-Umleitung, um den Traffic in die Testvarianten zu leiten. Die 302-Umleitung teilt den Suchmaschinen mit, dass die Umleitung vorübergehend ist und nur aktiv ist, solange der Test ausgeführt wird.
 
-   Eine 302-Umleitung ist eine serverseitige Umleitung, und [!DNL Target] und die meisten Optimierungsanbieter nutzen clientseitige Funktionen. Daher ist [!DNL Target] in diesem Bereich nicht vollständig mit den Empfehlungen von Google konform. Diese Praxis betrifft jedoch nur einen kleinen Teil der Tests. Der Standardansatz zum Ausführen von Tests mit [!DNL Target] ruft zum Ändern von Inhalten innerhalb einer einzelnen URL auf, sodass keine Umleitungen erforderlich sind. Es gibt Fälle, in denen Kunden mehrere URLs verwenden müssen, um ihre Testvarianten darzustellen. In diesen Fällen verwendet [!DNL Target] den JavaScript-Befehl `window.location`. Mit diesem Befehl werden Benutzer zu Testvarianten weitergeleitet, was nicht explizit bedeutet, dass die Umleitung 301 oder 302 beträgt.
+   Eine 302-Umleitung ist eine serverseitige Umleitung, und [!DNL Target] und die meisten Optimierungsanbieter nutzen clientseitige Funktionen. Umleitungen sind daher ein Bereich, in dem [!DNL Target] nicht vollständig mit den Empfehlungen von Google übereinstimmt. Diese Praxis betrifft jedoch nur einen kleinen Teil der Tests. Der Standardansatz zum Ausführen von Tests mit [!DNL Target] ruft zum Ändern von Inhalten innerhalb einer einzelnen URL auf, sodass keine Umleitungen erforderlich sind. Es gibt Fälle, in denen Kunden mehrere URLs verwenden müssen, um ihre Testvarianten darzustellen. In diesen Fällen verwendet [!DNL Target] den JavaScript-Befehl `window.location`. Mit diesem Befehl werden Benutzer zu Testvarianten weitergeleitet, was nicht explizit bedeutet, dass die Umleitung 301 oder 302 beträgt.
 
    Die Adobe sucht nach praktikablen Lösungen, die vollständig mit den Richtlinien der Suchmaschinen übereinstimmen. Für Kunden, die separate URLs zum Testen verwenden müssen, ist die Adobe zuversichtlich, dass eine ordnungsgemäße Implementierung der kanonischen Tags das mit diesem Ansatz verbundene Risiko verringert.
 
