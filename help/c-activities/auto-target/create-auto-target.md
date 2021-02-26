@@ -1,13 +1,13 @@
 ---
-keywords: Automatische Zielgruppe erstellen;A/B-Test;Aktivität der automatischen Zielgruppe;neue A/B-Aktivität;automatische Zielgruppe;automatische Zielgruppe für personalisierte Erlebnisse;Personalisiert
+keywords: Automatische Zielgruppe erstellen;A/B-Test;Aktivität der automatischen Zielgruppe;neue A/B-Aktivität;automatische Zielgruppe;automatische Zielgruppe für personalisierte Erlebnisse;Personalisiert;Optimierung
 description: Erfahren Sie, wie Sie mit dem Visual Experience Composer (VEC) in Adobe Target Ihre Auto-Zielgruppe-A/B-Test-Aktivität direkt auf einer Seite mit aktivierter Zielgruppe erstellen.
 title: Wie erstelle ich eine Aktivität für die automatische Zielgruppe?
-feature: Auto-Target
+feature: Automatisches Targeting
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 58%
+source-wordcount: '933'
+ht-degree: 56%
 
 ---
 
@@ -64,14 +64,10 @@ So erstellen Sie eine [!UICONTROL Auto-Zielgruppe]-Aktivität:
 
    ![Namensfeld](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   Folgende Zeichen sind im Aktivitätsnamen nicht zulässig:
+   Der Name der Aktivität darf nicht mit einem der folgenden Zeichen beginnen:
 
    | Zeichen | Beschreibung |
    |--- |--- |
-   | `/` | Vorwärtsschrägstrich |
-   | `?` | Fragezeichen |
-   | `#` | Raute |
-   | `:` | Doppelpunkt |
    | `=` | Gleich |
    | `+` | Plus |
    | `-` | Minus |
