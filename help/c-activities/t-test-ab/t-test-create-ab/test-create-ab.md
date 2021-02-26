@@ -2,19 +2,19 @@
 keywords: A/B;A/B-Test;A/B-Aktivität;Neue A/B-Aktivität;Erstellen von a/b
 description: Erfahren Sie, wie Sie mit dem Visual Experience Composer (VEC) in Adobe Target Ihre A/B-Test-Aktivität direkt auf einer Zielgruppe-aktivierten Seite erstellen.
 title: Wie erstelle ich einen A/B-Test?
-feature: A/B Tests
+feature: A/B-Tests
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 63%
+source-wordcount: '861'
+ht-degree: 61%
 
 ---
 
 
 # Erstellen eines A/B-Tests
 
-Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target], um Ihre [!UICONTROL A/B-Aktivität] direkt auf einer [!DNL Target]-aktivierten Seite zu erstellen und Teile der Seite innerhalb von [!DNL Target] zu ändern.
+Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target], um die [!UICONTROL A/B-Aktivität] direkt auf einer [!DNL Target]-aktivierten Seite zu erstellen und Teile der Seite innerhalb von [!DNL Target] zu ändern.
 
 >[!NOTE]
 >
@@ -62,14 +62,10 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Aktivität]:
 
    ![Namensfeld](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   Folgende Zeichen sind im Aktivitätsnamen nicht zulässig:
+   Der Name der Aktivität darf nicht mit einem der folgenden Zeichen beginnen:
 
    | Zeichen | Beschreibung |
    |--- |--- |
-   | `/` | Vorwärtsschrägstrich |
-   | `?` | Fragezeichen |
-   | `#` | Raute |
-   | `:` | Doppelpunkt |
    | `=` | Gleich |
    | `+` | Plus |
    | `-` | Minus |
