@@ -2,12 +2,12 @@
 keywords: Erstellen Sie eine automatische Zuordnung;A/B-Test;Aktivität automatisch zuordnen;Neue a/b-Aktivität;Automatisches Zuordnen;Automatisches Zuordnen zu bestem Erlebnis;Zuweisen;Automatisches Zuordnen
 description: Erfahren Sie, wie Sie mit dem Visual Experience Composer (VEC) in Adobe Target eine automatisch zugewiesene A/B-Test-Aktivität direkt auf einer Zielgruppe erstellen.
 title: Wie erstelle ich eine Aktivität mit automatisierter Zuordnung?
-feature: Auto-Allocate
+feature: Automatische Zuordnung
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 58%
+source-wordcount: '908'
+ht-degree: 57%
 
 ---
 
@@ -62,14 +62,10 @@ So erstellen Sie eine [!UICONTROL Aktivität für die automatische Zuordnung]:
 
    ![Namensfeld](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   Folgende Zeichen sind im Aktivitätsnamen nicht zulässig:
+   Der Name der Aktivität darf nicht mit einem der folgenden Zeichen beginnen:
 
    | Zeichen | Beschreibung |
    |--- |--- |
-   | `/` | Vorwärtsschrägstrich |
-   | `?` | Fragezeichen |
-   | `#` | Raute |
-   | `:` | Doppelpunkt |
    | `=` | Gleich |
    | `+` | Plus |
    | `-` | Minus |
