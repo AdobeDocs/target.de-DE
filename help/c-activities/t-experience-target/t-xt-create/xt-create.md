@@ -2,17 +2,17 @@
 keywords: Erlebnis-Targeting;Text;Erstellen
 description: Erfahren Sie, wie Sie mit dem Visual Experience Composer (VEC) in Adobe Target eine Erlebnis-Targeting (XT)-Aktivität auf einer Zielgruppe erstellen.
 title: Wie erstelle ich eine Erlebnis-Targeting-Aktivität?
-feature: Experience Targeting
+feature: Erlebnis-Targeting
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 91%
+source-wordcount: '427'
+ht-degree: 89%
 
 ---
 
 
-# Erstellen einer Erlebnis-Targeting-Aktivität{#create-an-experience-targeting-activity}
+# Erstellen einer Erlebnis-Targeting-Aktivität
 
 Verwenden des [!UICONTROL Visual Experience Composers] (VEC), um eine [!UICONTROL Erlebnis-Targeting]-Aktivität (XT) auf einer für [!DNL Adobe Target] aktivierten Seite zu erstellen und Teile der Seite in Target zu verändern.
 
@@ -62,14 +62,10 @@ Weitere Informationen zum Erlebnis-Targeting, einen Anwendungsfall und Schulungs
 
    ![Namensfeld](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
-   Folgende Zeichen sind im Aktivitätsnamen nicht zulässig:
+   Der Name der Aktivität darf nicht mit einem der folgenden Zeichen beginnen:
 
    | Zeichen | Beschreibung |
    |--- |--- |
-   | `/` | Vorwärtsschrägstrich |
-   | `?` | Fragezeichen |
-   | `#` | Raute |
-   | `:` | Doppelpunkt |
    | `=` | Gleich |
    | `+` | Plus |
    | `-` | Minus |
