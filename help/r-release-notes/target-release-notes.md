@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: ' Versionshinweise '
 translation-type: tm+mt
-source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
+source-git-commit: ddc357197f6a182865c5f06930de747c143c7c38
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 25%
+source-wordcount: '437'
+ht-degree: 21%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert: 17. Februar 2021**
+**Zuletzt aktualisiert: 1. März 2021**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -32,7 +32,7 @@ Dieses Maintenance Release umfasst die folgenden Erweiterungen, Fehlerbehebungen
 
 Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-* Zulässige Angebot-Größe erhöht:
+* Zulässige Größe des Angebots erhöht (TGT-38304):
 
    | Typ  | Vorherige Beschränkung | Neue Beschränkung |
    | --- | --- | --- |
@@ -40,9 +40,11 @@ Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
    | Visuelle Angebot aus der Benutzeroberfläche der Zielgruppe | 64 KB | 1024 KB für jedes Erlebnis |
    | Über API | 512 KB | 1024 KB |
 
+* [!UICONTROL Personalization ] Insightsreports for  [!UICONTROL Auto-Zielgruppe] (AT) and  [!UICONTROL Automated Personalization] (AP) Aktivitäten werden jetzt täglich erstellt. Sie können einen Bericht auswählen, der für die letzten 15, 30 und 60 Tage [!UICONTROL Automatisierte Segmente] oder [!UICONTROL Wichtige Attribute] bereitstellt. Die Optionen 45 und 90 Tage wurden entfernt, damit die anderen Einstellungen des Lookback-Fensters täglich ausgeführt werden können. (TGT-39472)
 * Es wurde ein Fehler behoben, der dazu führte, dass die aktuelle Abhängigkeit nicht angezeigt wurde, wenn Kunden auf der Seite [!UICONTROL Ziele und Einstellungen] der Aktivität auf [!UICONTROL Abhängigkeit bearbeiten klicken. ] (TGT-39340)
 * Es wurde ein Problem beim Aktualisieren der [!UICONTROL Audience-Bibliothek eines Arbeitsbereichs] behoben. Vor der Aktualisierung wurden die Audiencen für den aktuell ausgewählten Arbeitsbereich angezeigt. Nach der Aktualisierung wurden der [!UICONTROL Standardarbeitsbereich] und die zugehörigen Audiencen angezeigt. Die aktuelle Arbeitsfläche und ihre Audiencen bleiben nun nach der Aktualisierung erhalten. (TGT-38871)
 * Es wurde ein Fehler behoben, der beim Kopieren einer [!UICONTROL Recommendations]-Aktivität und späteren Bearbeiten der ursprünglichen Aktivität durch Ändern der Kriteriensequenz auftrat. Die Änderung der Kriteriensequenz in der ursprünglichen Aktivität wurde auch auf die kopierte Aktivität falsch angewendet. (TGT-39155)
+* Es wurde ein Fehler behoben, der dazu führte, dass die falsche Produktanzahl für [!UICONTROL Recommendations]-Ausschlüsse angezeigt wurde. (TGT-39599)
 
 ## Vorabinformationen zu Versionen{#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
