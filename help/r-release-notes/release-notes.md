@@ -2,12 +2,12 @@
 keywords: Versionshinweise;Neue Funktionen;Releases;Updates;Update;Release;Verbesserungen;Erweiterungen;Fehlerbehebungen;Fehlerbehebungen;Aktualisierungen
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von Adobe Target, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
-feature: Release Notes
+feature: ' Versionshinweise '
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 39%
+source-wordcount: '716'
+ht-degree: 42%
 
 ---
 
@@ -20,7 +20,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 >
 >**mbox.js Ende der Lebensdauer**: Am 31. März 2021  [!DNL Adobe Target] wird die Bibliothek &quot;mbox.js&quot;nicht mehr unterstützt. Nach dem 31. März 2021 schlagen alle Aufrufe von &quot;mbox.js&quot;korrekt fehl und wirken sich auf Ihre Seiten aus, deren [!DNL Target]-Aktivitäten ausgeführt werden, indem Standardinhalte bereitgestellt werden.
 >
->Es wird empfohlen, dass alle Kunden vor diesem Datum zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek migrieren, um potenzielle Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: zielgruppe für clientseitige Web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md) implementieren.
+>Es wird empfohlen, dass alle Kunden vor diesem Datum zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek migrieren, um potenzielle Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Zielgruppe für clientseitige Web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md) implementieren.
 
 (Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
