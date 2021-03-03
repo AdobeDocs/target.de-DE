@@ -5,10 +5,10 @@ title: Welche Benutzerberechtigungsanforderungen sind für A4T erforderlich?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 38%
+source-wordcount: '313'
+ht-degree: 36%
 
 ---
 
@@ -39,9 +39,7 @@ Weitere Informationen finden Sie unter [Experience Cloud-Benutzer und -Produkte 
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Konfigurieren Sie den Zugriff auf die Report Suite [!DNL Analytics]:
-
-Um A4T für eine bestimmte Report Suite zu verwenden, müssen Sie Zugriff auf diese Report Suite haben.
+Um A4T für eine bestimmte Report Suite zu verwenden, müssen Sie Zugriff auf diese Report Suite haben und Zugriff auf die [!DNL Web Services Access]-Gruppe gewähren.
 
 1. Klicken Sie in **[!UICONTROL Admin Console]** auf ein [!DNL Analytics]-Profil und dann auf die Registerkarte **[!UICONTROL Berechtigungen]**.
 
@@ -52,6 +50,11 @@ Um A4T für eine bestimmte Report Suite zu verwenden, müssen Sie Zugriff auf di
    Die folgende Abbildung zeigt ein Profil eines Produkts mit Zugriff auf alle Report Suites:
 
    ![Admin Console, Registerkarte Berechtigung](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+
+1. Konfigurieren Sie den Zugriff auf die Gruppe [!UICONTROL Web-Services-Zugriff].
+
+   Der Zugriff auf die Gruppe [!UICONTROL Web-Services-Zugriff] in [!DNL Analytics] ist erforderlich, damit [!DNL Analytics] als Berichte-Quelle für [!DNL Target] verwendet werden kann.
+
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
