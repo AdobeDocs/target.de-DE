@@ -4,17 +4,17 @@ description: Antworten auf Fragen zur Steigerung und zur Zuverlässigkeit bei de
 title: Wo finde ich Informationen zur Steigerung und zum Vertrauen in A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 45%
+source-wordcount: '510'
+ht-degree: 40%
 
 ---
 
 
 # Steigerung und Konfidenz – Häufig gestellte Fragen zu A4T{#lift-and-confidence-a-t-faq}
 
-Dieses Thema enthält Antworten auf häufig zur Steigerung und Konfidenz bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
+Dieses Thema enthält Antworten auf Fragen, die häufig nach Steigerung und Vertrauen gefragt werden, wenn [!DNL Adobe Analytics] als Berichte für [!DNL Adobe Target] (A4T) verwendet wird.
 
 ## Kann ich Offline-Berechnungen für A4T durchführen? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
@@ -30,9 +30,9 @@ Die Konfidenzniveau ist die Wahrscheinlichkeit, dass die gemessene Konversionsra
 
 ## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen?   {#lift-confidence}
 
-Berechnete Metriken werden derzeit nicht in den Funktionen Steigerung und Konfidenz unterstützt. Dies liegt daran, dass Analytics Metriken auf Aggregat- statt auf Besucher-Ebene berechnet. Konfidenz ist vor allem eine Berechnung auf Besucher-Ebene.
+Berechnete Metriken werden derzeit nicht in den Funktionen Steigerung und Konfidenz unterstützt. Analytics berechnet Metriken auf Aggregat- und nicht auf Besucher-Ebene. Konfidenz ist vor allem eine Berechnung auf Besucher-Ebene.
 
-Nicht berechnete (Standard-)Ereignis werden in Steigerung und Konfidenz unterstützt. Sie werden in der Steigerungsfunktion zum Zähler. der Zähler kann keine Berechnung selbst sein. Der Nenner sind die normalisierenden Metriken (Impressionen, Besuche oder Besucher). Beispiele für Standard-Ereignis sind Bestellungen, Umsatz, Aktivitäten-Konversionen, benutzerdefinierte Ereignis 1-1000 usw. Dies bedeutet, dass gängige Optimierungsmetriken wie die Konversationsrate (Bestellungen/Besucher) und RPV (Umsatz/Besucher) in Steigerung und Konfidenz unterstützt werden.
+Nicht berechnete (Standard-)Ereignis werden in Steigerung und Konfidenz unterstützt. Sie werden in der Steigerungsfunktion zum Zähler. der Zähler kann keine Berechnung selbst sein. Der Nenner sind die normalisierenden Metriken (Impressionen, Besuche oder Besucher). Beispiele für Standard-Ereignis sind Bestellungen, Umsatz, Aktivitäten-Konversionen, benutzerdefinierte Ereignis 1-1000 usw. Allgemeine Optimierungsmetriken wie die Konversationsrate (Bestellungen/Besucher) und RPV (Umsatz/Besucher) werden in Steigerung und Konfidenz unterstützt.
 
 Beispiele für nicht unterstützte Metriken oder Anwendungsfälle:
 
@@ -41,7 +41,7 @@ Beispiele für nicht unterstützte Metriken oder Anwendungsfälle:
 
 ## Wie verwaltet A4T Konfidenzberechnungen?   {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T verwendet nicht binäre Metrikberechnungen mit Daten der Quadratsumme. Die Varianz wird mit den Daten der Quadratsumme errechnet. Extreme Bestellungen werden nicht berücksichtigt. Darüber hinaus wendet die Konfidenzberechnung keine Bonferroni-Korrektur für mehrere Angebot an.
+A4T verwendet nicht binäre Metrikberechnungen mit Daten der Quadratsumme. Die Varianz wird mit den Daten der Quadratsumme errechnet. Extreme Bestellungen werden nicht berücksichtigt. Bei der Konfidenzberechnung wird außerdem keine Bonferroni-Korrektur für mehrere Angebot angewendet.
 
 ## Funktionieren die Steigerung und die Konfidenz mit Ad Hoc und Report Builder? Wenn es nicht nativ ist, kann ich es dann selbst hinzufügen? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
