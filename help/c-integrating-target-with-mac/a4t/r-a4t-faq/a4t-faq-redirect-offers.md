@@ -4,27 +4,27 @@ description: Antworten auf Fragen zur Verwendung von Umleitungs-Angeboten bei de
 title: Wo finde ich häufig gestellte Fragen zu Umleitungs-Angeboten mit A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 91%
+source-wordcount: '1229'
+ht-degree: 69%
 
 ---
 
 
-# Umleitungsangebote – Häufig gestellte Fragen zu A4T{#redirect-offers-a-t-faq}
+# Umleitungsangebote – Häufig gestellte Fragen zu A4T
 
-Dieses Thema enthält Antworten auf häufig zum Einsatz von Umleitungsangeboten bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
+Dieses Thema enthält Antworten auf häufig gestellte Fragen zur Verwendung von Umleitungs-Angeboten, wenn [!DNL Adobe Analytics] als Berichte für [!DNL Adobe Target] (A4T) verwendet wird.
 
 ## Unterstützt Analytics for Target (A4T) Umleitungsangebote? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
-Ja – vorausgesetzt, Ihre Implementierung verwendet [!DNL at.js]. Ihre Implementierung muss jedoch die unten aufgeführten Mindestanforderungen erfüllen, um [Weiterleitungsangebote](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in Aktivitäten zu verwenden, die Analytics als Berichtsquelle verwenden.
+Ja, wenn Ihre Implementierung [!DNL at.js] verwendet. Ihre Implementierung muss jedoch die unten aufgeführten Mindestanforderungen erfüllen, um [Weiterleitungsangebote](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in Aktivitäten zu verwenden, die Analytics als Berichtsquelle verwenden.
 
 >[!NOTE]
 >
 >Es gibt ein bekanntes Problem, bei dem einer begrenzten Anzahl von Kunden mit Redirects mit A4T ein höherer Prozentsatz an aufgetrennten Treffern angezeigt wird. Siehe [Bekannte Probleme und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
-## Was sind die erforderlichen Mindestanforderungen, um Umleitungsangebote in A4T nutzen zu können? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
+## Welche Mindestanforderungen gelten für die Verwendung von Umleitungs-Angeboten mit A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
 Ihre Implementierung muss folgende Mindestanforderungen erfüllen:
 
@@ -42,11 +42,11 @@ Es werden einige Datendiskrepanzen erwartet. Weitere Informationen finden Sie un
 
 ## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt?   {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-Wenn die at.js-Version 1.6.3 oder höher verwendet wird, ist dies kein Problem. Diese Race-Bedingung betrifft nur Kunden, die frühere Versionen verwenden. Das Target-Team behält zwei Versionen von at.js: die aktuelle Version und die davor. Führen Sie bei Bedarf ein Upgrade von at.js durch, um sicherzustellen, dass Sie eine [unterstützte Version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ausführen.
+Bei Verwendung von at.js Version 1.6.3 oder höher ist das Zählen von Ansichten auf beiden Seiten kein Problem. Diese Race-Bedingung betrifft nur Kunden, die frühere Versionen verwenden. Das Target-Team behält zwei Versionen von at.js: die aktuelle Version und die davor. Führen Sie bei Bedarf ein Upgrade von at.js durch, um sicherzustellen, dass Sie eine [unterstützte Version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ausführen.
 
-Wenn Sie eine frühere, nicht unterstützte Version von at.js verwenden, besteht die Möglichkeit, dass eine Race-Bedingung eintritt, die dazu führen kann, dass der Analytics-Aufruf ausgelöst wird, bevor die Umleitung auf der ersten Seite ausgeführt wird. Dies kann dazu führen, dass die Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt werden. Diese Situation führt zu einem zusätzlichen Seitenaufruf auf der ersten Seite, selbst wenn der Besucher diese erste Seite nie wirklich „gesehen“ hat.
+Wenn Sie eine frühere, nicht unterstützte Version von at.js verwenden, besteht die Möglichkeit, dass eine Race-Bedingung eintritt, die dazu führen kann, dass der Analytics-Aufruf ausgelöst wird, bevor die Umleitung auf der ersten Seite ausgeführt wird. Dies kann dazu führen, dass Ansichten auf der Originalseite und auf der Umleitungsseite gezählt werden. Diese Situation führt zu einem zusätzlichen Seitenaufruf auf der ersten Seite, selbst wenn der Besucher diese erste Seite nie wirklich „gesehen“ hat.
 
-Es wird empfohlen, den formularbasierten Composer zum Erstellen einer Redirect-Aktivität zu verwenden, um die Geschwindigkeit der Seitenumleitung zu erhöhen. Das beeinflusst, wo der Code auf der Seite ausgeführt wird. Es wird zudem die Erstellung eines Umleitungsangebots für jeden Besuch einschließlich des Standardbesuchs empfohlen, wobei die Umleitung zur ursprünglichen Seite zurückführen würde. Dadurch wird gewährleistet, dass im Falle von Fehlzählungen alle Besuche berücksichtigt werden, sodass Berichte und Analysen für den Test weiterhin gültig sind.
+Die Verwendung des formularbasierten Composers zum Erstellen einer Umleitungs-Aktivität wird empfohlen, um die Seitenumleitung zu beschleunigen, da der Code auf der Seite ausgeführt wird. Es wird zudem die Erstellung eines Umleitungsangebots für jeden Besuch einschließlich des Standardbesuchs empfohlen, wobei die Umleitung zur ursprünglichen Seite zurückführen würde. Durch das Erstellen eines Umleitungs-Angebots für jedes Erlebnis wird sichergestellt, dass eine Fehlzählung bei allen Erlebnissen stattfindet. Berichte und Analyse sind für den Test weiterhin gültig.
 
 Ein Grund für die Verwendung von Umleitungsangeboten für alle Erlebnisse in der Aktivität, einschließlich des Standarderlebnisses (Kontrollerlebnis), besteht darin, dieselben Bedingungen für alle Erlebnisse zu verwenden. Wenn das Standarderlebnis beispielsweise kein Umleitungsangebot enthält, aber die anderen Erlebnisse Umleitungsangebote haben, stellt die Geschwindigkeit des Erlebnisses ohne Umleitungsangebot einen Vorteil dar. Umleitungsangebote werden nur für temporäre Szenarien empfohlen, z. B. Tests. Umleitungsangebote werden nicht für permanente Szenarien wie die Personalisierung empfohlen. Nachdem Sie den „Gewinner“ ermittelt haben, sollten Sie die Umleitung entfernen, um die Seitenladeleistung zu verbessern.
 
@@ -68,18 +68,22 @@ Die folgenden Abfrage String-Parameter sind Umleitungsangeboten zugeordnet:
 
 | Parameter | Beschreibung |
 |--- |--- |
-| `adobe_mc_sdid` | Der Parameter `adobe_mc_sdid` gibt die Supplemental Data Id (SDID) und Experience Cloud-Organisations-ID von der Standardseite an die neue Seite weiter, damit A4T die Target-Anfrage auf der Standardseite mit der Analytics-Anfrage auf der neuen Seite „zusammenheften“ kann. |
-| `adobe_mc_ref` | Der Parameter `adobe_mc_ref` gibt die verweisende URL der Standardseite an die neue Seite weiter. Bei der Verwendung mit AppMeasurement.js Version 2.1 (oder neuer) verwendet Analytics diesen Parameterwert als verweisende URL auf der neuen Seite. |
+| `adobe_mc_sdid` | Der Parameter `adobe_mc_sdid` gibt die Supplemental Data Id (SDID) und die Experience Cloud Org Id von der Standardseite an die neue Seite weiter. Diese IDs ermöglichen es A4T, die Anforderung der Zielgruppe auf der Standardseite mit der Analytics-Anforderung auf der neuen Seite zu &quot;verbinden&quot;. |
+| `adobe_mc_ref` | Der Parameter `adobe_mc_ref` gibt die verweisende URL der Standardseite an die neue Seite weiter. Bei Verwendung mit AppMeasurement.js Version 2.1 (oder höher) verwendet Analytics diesen Parameterwert als verweisende URL auf der neuen Seite. |
 
 Diese Parameter werden automatisch zu den Umleitungs-URLs hinzugefügt, wenn die integrierten Umleitungsangebote in VEC und in Form-Based Experience Composer verwendet werden, wenn der Besucher-ID-Service auf der Seite implementiert ist. Wenn Sie Ihren eigenen benutzerdefinierten Code in VEC und in Form-Based Experience Composer verwenden, müssen Sie sicherstellen, dass Sie diese Parameter mit Ihrem benutzerdefinierten Code weitergeben.
 
 ## Meine Webserver entfernen diese Parameter aus meinen URLs, was soll ich tun?   {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-Sie müssen mit Ihrem IT-Team zusammenarbeiten, damit diese Parameter ( `adobe_mc_sdid` und `adobe_mc_ref`) auf die Zulassungsliste gesetzt werden.
+Arbeiten Sie mit Ihrem IT-Team zusammen, um diese Parameter ( `adobe_mc_sdid` und `adobe_mc_ref`) auf die Zulassungsliste setzen.
 
 ## Was ist, wenn ich A4T nicht für meine Umleitungsaktivitäten verwende und nicht möchte, dass diese zusätzlichen Parameter zu meinen URLs hinzugefügt werden? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
-Wenn Sie A4T nicht mit Ihrer Umleitungsaktivität verwenden, der Besucher-ID-Service bei Ihnen implementiert ist und Sie nicht möchten, dass diese Parameter automatisch zu Ihren URLs hinzugefügt werden, müssen Sie eine benutzerdefiniert codierte Umleitung verwenden.
+Verwenden Sie eine benutzerdefinierte Umleitung, wenn:
+
+* Sie verwenden A4T nicht mit Ihrer Umleitungs-Aktivität
+* Sie haben den Besucher-ID-Dienst implementiert
+* Sie möchten nicht, dass diese Parameter automatisch Ihren URLs hinzugefügt werden
 
 Als Best Practice empfiehlt es sich jedoch, den Parameter `adobe_mc_ref` in der URL zu behalten, um die verweisenden Informationen korrekt an [!DNL Analytics] weiterzugeben.
 
@@ -87,17 +91,17 @@ Als Best Practice empfiehlt es sich jedoch, den Parameter `adobe_mc_ref` in der 
 
 Wenn Sie A4T und Weiterleitungsangebote verwenden, hängt Target die Parameter `adobe_mc_ref` und `adobe_mc_sdid` an die URL an. Diese Werte sind bereits URL-kodiert. Meistens funktioniert alles wie erwartet. Möglicherweise haben einige Kunden jedoch Systeme zur Lastverteilung oder WEB-Server, die versuchen, die Abfrage-String-Parameter erneut zu kodieren.
 
-Aufgrund dieser doppelten Kodierung kann die Besucher-API den SDID-Wert nicht abrufen, wenn sie versucht, den Wert `adobe_mc_sdid` zu entschlüsseln, und sie erstellt dann eine neue SDID. Dies führt dazu, dass falsche SDID-Werte an Target und Analytics gesendet werden und Ihnen in Analytics-Berichten eine ungleiche Verteilung für Umleitungen angezeigt wird.
+Aufgrund dieser doppelten Kodierung kann die Besucher-API den SDID-Wert nicht abrufen, wenn sie versucht, den Wert `adobe_mc_sdid` zu entschlüsseln, und sie erstellt dann eine neue SDID. Dieser Vorgang führt dazu, dass fehlerhafte SDID-Werte an Zielgruppe und Analytics gesendet werden. Für Umleitungen in Analytics-Berichten wird eine ungleichmäßige Aufteilung angezeigt.
 
-Wir empfehlen Ihnen, mit ihrem IT-Team zu sprechen, um sicherzustellen, dass `adobe_mc_ref` und `adobe_mc_sdid` auf die Zulassungsliste gesetzt werden, damit diese Werte in keiner Weise transformiert werden.
+Adobe empfiehlt, mit Ihrem IT-Team zu sprechen, um sicherzustellen, dass `adobe_mc_ref` und `adobe_mc_sdid` auf die Zulassungsliste gesetzt werden, damit diese Werte in keiner Weise transformiert werden.
 
-## Warum muss die verweisende URL an die neue Seite weitergegeben werden? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
+## Warum muss die verweisende URL an die neue Seite übergeben werden? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
 Angenommen, ein Besucher klickt auf einen Link auf [!DNL `www.google.com`] zu Ihrer Homepage (`www.mysite.com/index.html`), auf der eine Umleitungsseite live ist, und wird dann zu einer neuen Aktivität (`www.mysite.com/index2.html`) umgeleitet.
 
 Bisher hat die [!DNL Analytics]-Anfrage auf der neuen Seite eine verweisende URL von [!DNL `www.mysite.com/index.html`] statt von [!DNL `www.google.com`] gemeldet. Dies führte zu ungenauen Berichten in [!DNL Analytics] im Zusammenhang mit den verweisenden URLs (beispielsweise Marketingkanalberichte). Somit berücksichtigten die Berichte nicht, dass Sie über [!DNL `www.google.com`] auf die Seite kamen.
 
-Bei [!DNL at.js], Version 0.9.6 (oder neuer) und [!DNL AppMeasurement.js], 2.1 (oder neuer) berichtet die [!DNL Analytics]-Anfrage auf der neuen Seite eine verweisende URL von [!DNL `www.google.com`].
+Bei [!DNL at.js] Version 0.9.6 (oder höher) und [!DNL AppMeasurement.js] 2.1 (oder höher) zeigt die [!DNL Analytics]-Anforderung auf der neuen Seite eine verweisende URL von [!DNL `www.google.com`] an.
 
 ## Kann ich benutzerdefinierte/HTML-Weiterleitungsangebote verwenden? {#section_E49F9A83A286488C8F1098A040203D7E}
 
