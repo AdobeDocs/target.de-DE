@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie bei der Verwendung von Analytics für die Zie
 title: Wie kann ich überhöhte Besuchs- und Besucher-Zählungen in A4T minimieren?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 94%
+source-wordcount: '1372'
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ Hilfreiche Informationen dazu, wie Sie bei der Verwendung von Analytics als Beri
 >
 >Diese Änderung ist nicht rückwirkend. Wenn in Ihren historischen Berichten überhöhte Zählerwerte stehen, die Sie gerne von Ihren Berichten ausschließen möchten, können Sie dazu eine virtuelle Report Suite erstellen (wie weiter unten erklärt).
 >
->Außerdem wurden verschiedene JavaScript-Bibliotheken aktualisiert, um überhöhten Zählerwerten vorzubeugen. Es wird empfohlen, dass Sie eine Aktualisierung auf die folgenden Bibliotheksversionen (oder neuer) vornehmen:
+>Außerdem wurden mehrere JavaScript-Bibliotheken aktualisiert, um überhöhte Zählerwerte zu minimieren. Adobe empfiehlt die Aktualisierung auf die folgenden Bibliotheksversionen (oder höher):
 >
 >* Experience Cloud-Besucher-ID-Service: visitorAPI.js, Version 2.3.0 oder neuer.
 >* Adobe Analytics: appMeasurement.js, Version 2.1.
@@ -33,21 +33,21 @@ Die mbox.js Bibliothek unterstützt keine Umleitungsangebote in A4T. Ihre Implem
 
 ## Was hat sich geändert? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
-Wenn [!DNL Adobe Analytics] zum Messen von [!DNL Target]-Aktivitäten verwendet wird (was als A4T bezeichnet wird), erfasst [!DNL Analytics] zusätzliche Daten, die nur dann verfügbar sind, wenn auf der Seite eine [!DNL Target]-Aktivität vorhanden ist. Der Grund dafür ist, dass [!DNL Target]-Aktivitäten ihre Aufrufe zu Beginn der Seite vornehmen, während [!DNL Analytics] seine Datenerfassungsaufrufe für gewöhnlich am Ende der Seite auslöst. In der bisherigen Implementierung von A4T haben wir diese zusätzlichen Daten immer mit eingefügt, wenn eine [!DNL Target]-Aktivität aktiv war. Ab nun werden wir diese zusätzlichen Daten nur noch dann einfügen, wenn sowohl die [!DNL Target]- als auch die [!DNL Analytics]-Tags ausgelöst wurden.
+Wenn [!DNL Adobe Analytics] zur Messung von [!DNL Target]-Aktivitäten (als A4T bezeichnet) verwendet wird, erfasst [!DNL Analytics] zusätzliche Daten, die nicht verfügbar sind, wenn keine [!DNL Target]-Aktivität auf der Seite vorhanden ist. Der Grund dafür ist, dass [!DNL Target]-Aktivitäten ihre Aufrufe zu Beginn der Seite vornehmen, während [!DNL Analytics] seine Datenerfassungsaufrufe für gewöhnlich am Ende der Seite auslöst. Bei der bisherigen Implementierung von A4T enthält die Adobe diese zusätzlichen Daten, sobald eine [!DNL Target]-Aktivität aktiv war. In Zukunft werden diese zusätzlichen Daten in der Adobe nur dann berücksichtigt, wenn die Tags [!DNL Target] und [!DNL Analytics] ausgelöst wurden.
 
 ## Warum hat Adobe diese Änderung vorgenommen? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-Adobe ist stolz auf die Genauigkeit und Qualität seiner bereitgestellten Daten. Wenn nur das [!DNL Target]-Tag, jedoch nicht das [!DNL Analytics]-Tag ausgelöst wird, verzeichnen wir „partielle Daten“ (manchmal auch als „nicht zuordenbare Treffer“ bezeichnet), die [!DNL Analytics] nicht erfassen würde, wenn keine [!DNL Target]-Aktivität vorhanden wäre. Auch wenn die Aufnahme solcher partiellen Daten in [!DNL Analytics]-Berichten keinen zusätzlichen Informationswert bietet, stellt es doch die Konsistenz mit historischen Daten aus früheren Zeiträumen sicher, in denen Daten ohne laufende [!DNL Target]-Aktivitäten erfasst wurden. Dies könnte für [!DNL Analytics]-Benutzer, die Trends über größere Zeiträume analysieren, zu einem Problem werden. Um die Datenkonsistenz in [!DNL Analytics] sicherzustellen, werden wir alle partiellen Daten ausschließen.
+Adobe ist stolz auf die Genauigkeit und Qualität seiner bereitgestellten Daten. Wenn das [!DNL Target]-Tag ausgelöst wird, das [!DNL Analytics]-Tag jedoch nicht, zeichnet Adobe &quot;partielle Daten&quot;(manchmal auch &quot;nicht zugewiesene Treffer&quot; genannt) auf, die nicht von [!DNL Analytics] erfasst werden, wenn keine [!DNL Target]-Aktivität vorhanden ist. Auch wenn die Aufnahme solcher partiellen Daten in [!DNL Analytics]-Berichten keinen zusätzlichen Informationswert bietet, stellt es doch die Konsistenz mit historischen Daten aus früheren Zeiträumen sicher, in denen Daten ohne laufende [!DNL Target]-Aktivitäten erfasst wurden. Dies könnte für [!DNL Analytics]-Benutzer, die Trends über größere Zeiträume analysieren, zu einem Problem werden. Zur Gewährleistung der Datenkonsistenz in [!DNL Analytics] schließt die Adobe alle Teildaten aus.
 
 ## Welche Ursachen gibt es für partielle Daten? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
-Wir haben bei einigen Kunden ein sehr hohes Aufkommen an partiellen Daten in [!DNL Analytics] bemerkt. Das kann aus einer fehlerhaften Implementierung resultieren, aber auch ganz normale Ursachen sind möglich.
+Adobe hat einige Kunden mit einer hohen Rate von partiellen Daten in [!DNL Analytics] gesehen. Das kann aus einer fehlerhaften Implementierung resultieren, aber auch ganz normale Ursachen sind möglich.
 
 Als Ursachen für partielle Daten haben wir die folgenden Punkte festgestellt:
 
 * **Abweichende Report Suite-IDs (Implementierung):** Die während der Aktivitätseinrichtung festgelegte Report Suite stimmt nicht mit der Report Suite für die Seite überein, auf der der Test erfolgt. Das sieht dann so aus, als ob Daten fehlen würden, da die Daten nicht auf [!DNL Analytics]-Servern abgeglichen werden können.
 * **Langsame Seite:** [!DNL Target]-Aufrufe erfolgen am Beginn der Seite, [!DNL Analytics]-Aufrufe dagegen meist am Ende der Seite. Bei einer Seite mit einer langsamen Ladegeschwindigkeit besteht daher eine höhere Wahrscheinlichkeit, dass Besucher die Seite verlassen, nachdem zwar der [!DNL Target]-Aufruf, nicht jedoch der [!DNL Analytics]-Aufruf ausgelöst wurde. Dies kann besonders bei mobilen Websites zu einem Problem werden, da dort die Verbindungsgeschwindigkeiten meist niedriger sind.
-* **Seitenfehler:** Wenn JavaScript-Fehler auftreten oder andere Szenarien vorliegen, in denen die einzelnen Endpunkte nicht ausgelöst werden (Experience Cloud ID-Service, Target und Analytics), führt dies zu partiellen Daten.
+* **Seitenfehler:** Wenn JavaScript-Fehler oder andere Szenarien vorliegen, in denen kein Touchpoint ausgelöst wird (Experience Cloud-ID-Dienst, Zielgruppe und Analytics), werden partielle Datenergebnisse angezeigt.
 * **Umleitungsangebot(e) in [!DNL Target]Aktivitäten:** Für Umleitungsangebote in Aktivitäten mit A4T muss Ihre Implementation bestimmten Mindestanforderungen entsprechen. Darüber hinaus gibt es wichtige Informationen, die Sie benötigen. Weitere Informationen finden Sie unter [Umleitungsangebote – A4T-FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
 * **Alte Versionen der Bibliotheken:** Im Verlauf des letzten Jahres hat Adobe verschiedene Verbesserungen in seinen JavaScript-Bibliotheken ([!DNL appMeasurement.js], `at.js/mbox.js` und `visitorAPI.js`) vorgenommen. Damit soll sichergestellt werden, dass Daten so effizient wie möglich gesendet werden. Weitere Informationen zu Implementierungsanforderungen finden Sie unter [Vor der Implementierung](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
