@@ -4,17 +4,17 @@ description: Antworten auf Fragen, die häufig nach der Anzeige von Berichten be
 title: Antworten auf Fragen zur Ansicht von Berichten mit A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '2426'
-ht-degree: 52%
+source-wordcount: '2405'
+ht-degree: 40%
 
 ---
 
 
 # Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 
-Dieses Thema enthält Antworten auf Fragen, die häufig nach der Anzeige von Berichten bei Verwendung von [!DNL Analytics] als Berichte für [!DNL Target] (A4T) gefragt werden.
+Dieses Thema enthält Antworten auf Fragen, die häufig nach der Anzeige von Berichten bei Verwendung von [!DNL Adobe Analytics] als Berichte für [!DNL Adobe Target] (A4T) gefragt werden.
 
 ## Kann ich meine Target-Aktivitätsdaten im Analysis Workspace anzeigen? {#workspace}
 
@@ -28,15 +28,15 @@ Segmente werden am häufigsten am oberen Rand eines Bedienfelds in der Segment-D
 
 Ein Segment kann auch direkt in der Freiformtabelle überlagert werden. Beachten Sie jedoch, dass Sie es über die gesamte Tabelle hinweg überlagern müssen, um die Steigerungs- und Konfidenzberechnungen im A4T-Bedienfeld beizubehalten. Segmente auf Spaltenebene werden derzeit im Bedienfeld nicht unterstützt.
 
-## Warum werden nicht verwandte Erlebnisse zurückgegeben, wenn ich ein Treffersegment für eine bestimmte Aktivität der Zielgruppe anwende? {#activity-segmentation}
+## Warum werden nicht verwandte Erlebnisse zurückgegeben, wenn ich ein Treffersegment für eine bestimmte Zielgruppe-Aktivität anwenden möchte? {#activity-segmentation}
 
 Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. (Hinweis: Diese Ablaufzeit kann bei Bedarf vom Kundendienst angepasst werden. Während Besucher durch die Site in diesem Ablauffenster navigieren, gehören sie zu vielen [!DNL Target]-Aktivitäten, die alle in der Dimension erfasst werden.
 
-Wenn Sie also eine Aktivität segmentieren, die in einem Treffer vorhanden sein soll, erhalten Sie alle Erlebnisse, die Teil dieser Aktivität sind *plus* alle anderen Erlebnisse, die bei diesem Treffer bestehen bleiben.
+Wenn Sie segmentieren, dass eine Aktivität in einem Treffer vorhanden sein soll, erhalten Sie alle Erlebnisse, die Teil dieser Aktivität sind *plus* alle anderen Erlebnisse, die bei diesem Treffer bestehen bleiben.
 
 ## Warum kann ich beim Konfigurieren meiner Zielmetriken nicht auf Erweiterte Einstellungen zugreifen?
 
-Bei Aktivitäten, die [!DNL Analytics] als Berichte-Quelle (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität halten]&quot;und &quot;[!UICONTROL Bei jeder Impression]&quot;. Dies ist *nicht* konfigurierbar.
+Bei Aktivitäten, die [!DNL Analytics] als Berichte-Quelle (A4T) verwenden, verwendet die Zielmetrik die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität halten]&quot;und &quot;[!UICONTROL Bei jeder Impression]&quot;. Diese Einstellungen können nicht konfiguriert werden.**
 
 Weitere Informationen finden Sie unter &quot;Warum kann ich bei der Konfiguration meiner Zielmetriken nicht auf die erweiterten Einstellungen zugreifen?&quot; in [Metrikdefinitionen - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -52,7 +52,7 @@ Wenn ein Besucher eine Seite anzeigt, die eine Aktivität enthält, wird eine Va
 
 Beachten Sie Folgendes:
 
-* Alle oben genannten Metriken-Trigger, wenn ein Benutzer sich für eine Aktivität qualifiziert und der Inhalt von [!DNL [!DNL Target]] zurückgegeben wird. Das bedeutet nicht zwingend, dass der Benutzer das Angebot gesehen hat. Wenn ein Aktivitätserlebnis sich unterhalb des angezeigten Bildschirmbereichs befindet und der Benutzer nicht nach unten scrollt, wurde das Angebot zwar von [!DNL Target] bereitgestellt, aber nicht vom Benutzer gesehen.
+* Der obige Metriken-Trigger, wenn sich ein Benutzer für eine Aktivität qualifiziert und der Inhalt von [!DNL Target] zurückgegeben wird. Das bedeutet nicht zwingend, dass der Benutzer das Angebot gesehen hat. Wenn ein Aktivitätserlebnis sich unterhalb des angezeigten Bildschirmbereichs befindet und der Benutzer nicht nach unten scrollt, wurde das Angebot zwar von [!DNL Target] bereitgestellt, aber nicht vom Benutzer gesehen.
 * [!UICONTROL Aktivitätsimpressionen] (gemessen durch [!DNL Target]) und [!UICONTROL Instanzen] (gemessen durch [!DNL Analytics]) sind gleich, sofern nicht mehrere Mbox-Aufrufe auf derselben Seite in derselben Aktivität vorhanden sind. Hierdurch werden mehrere [!UICONTROL Aktivitätsimpressionen] gezählt, aber nur eine [!UICONTROL Instanz].
 
 ## Warum sind &quot;Aktivitäten-Impressionen&quot;und &quot;Aktivitäten-Konversionen&quot;in Analysis Workspace höher als in Reports &amp; Analysen? {#sametouch}
@@ -63,29 +63,29 @@ Um genaue Metriken für [!UICONTROL Aktivität-Impressionen] und [!UICONTROL Akt
 
 ## Was bedeutet „Aktivitätskonversionen“, wenn der Marketingexperte beim Setup einer Aktivität eine Analytics-Metrik auswählt? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
-&quot;Aktivität-Konversionen&quot;ist leer, wenn eine [!DNL Analytics]-Metrik als Konversionsmetrik für die Aktivität ausgewählt wurde.
+&quot;Aktivität-Konversionen&quot;sind leer, wenn eine [!DNL Analytics]-Metrik als Konversionsmetrik für die Aktivität ausgewählt wurde.
 
 ## Warum steht in den Analytics-Berichten „Nicht angegeben“? Was bedeutet das? {#unspecified}
 
-In anderen Berichten bedeutet „Nicht angegeben“, dass Daten eine bestimmte Classification nicht erfüllt haben. Dies sollte jedoch in A4T nie passieren. Wenn Sie „Nicht angegeben“ angezeigt bekommen, wurde der Classifications-Service noch nicht ausgeführt. Es dauert normalerweise zwischen 24 und 72 Stunden, bis Aktivitätsdaten in den Berichten angezeigt werden. Obwohl die Aktivitäten erst zu diesem Zeitpunkt in diesem Bericht angezeigt werden, werden alle an diese Aktivitäten geknüpften Besucherdaten erfasst und nach dem Abschluss der Classification angezeigt.
+In anderen Berichten bedeutet „Nicht angegeben“, dass Daten eine bestimmte Classification nicht erfüllt haben. Dies sollte jedoch in A4T nie passieren. Wenn Sie „Nicht angegeben“ angezeigt bekommen, wurde der Classifications-Service noch nicht ausgeführt. Es dauert normalerweise zwischen 24 und 72 Stunden, bis Aktivitätsdaten in den Berichten angezeigt werden. Obwohl die Aktivitäten erst zu diesem Zeitpunkt in diesem Bericht angezeigt werden, werden alle mit diesen Aktivitäten verknüpften Besucher-Daten erfasst und nach Abschluss der Klassifizierung angezeigt.
 
 Nach dem Klassifizierungszeitraum werden Daten ca. eine Stunde nach Erfassung auf der Site in diesen Berichten angezeigt. Sämtliche Metriken, Segmente und Werte in den Berichten stammen aus der Berichtssuite, die Sie bei der Einrichtung der Aktivität ausgewählt haben.
 
-Falls die Classification für diese Aktivität durchgeführt wurde und Sie trotzdem eine Zeile &quot;Nicht angegeben&quot;im Bericht sehen, stellen Sie sicher, dass der Bericht keine Nicht-[!DNL Target]-Metrik verwendet, um die Daten anzuzeigen. Sofern der Bericht keine [!DNL Target]-spezifische Metrik verwendet, enthält diese Zeile &quot;Nicht angegeben&quot;Ereignis für Aufrufe, die nicht mit [!DNL Target] verknüpft sind. Diese Zeile enthält keine [!DNL Target]-verknüpften Informationen (z.B. Besucher/Besuche/Impressionen).
+Wenn die Klassifizierung für diese Aktivität durchgeführt wurde und Sie trotzdem eine Zeile &quot;Nicht angegeben&quot;im Bericht sehen, stellen Sie sicher, dass der Bericht keine Nicht-[!DNL Target]-Metrik verwendet, um die Daten anzuzeigen. Sofern der Bericht keine [!DNL Target]-spezifische Metrik verwendet, enthält diese Zeile &quot;Nicht angegeben&quot;Ereignis für Aufrufe, die nicht mit [!DNL Target] verknüpft sind. Diese Zeile enthält keine [!DNL Target]-verknüpften Informationen (z. B. Besucher/Besuche/Impressionen).
 
 ## Warum werden Target-Metriken auch dann noch an Analytics gesendet, wenn die Aktivität deaktiviert wurde? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. Dieser Ablaufzeitraum kann bei Bedarf vom Kundendienst angepasst werden. Diese Einstellung gilt für alle Aktivitäten, daher sollte sie nicht nur für einen Fall angepasst werden.
 
-Möglicherweise sehen Sie nach Ablauf [!DNL Target]-Variablen, die an [!DNL Analytics] gesendet werden, da der Ablauf 90 Tage beträgt, jedoch nur, wenn der Benutzer nie eine weitere A4T-fähige [!DNL Target]-Aktivität sieht. Wenn ein Benutzer am 45. Tag zur Site zurückkehrt und eine andere Aktivität ansieht, wird der gesamte Zähler für den A4T-eVar-Wert wieder auf 90 Tage zurückgesetzt. Das heißt, dass die erste Kampagne jetzt ab dem 1. Tag für 45 + 90 = 135 Tage fortbesteht. Wenn der Benutzer immer wieder zurückkehrt, können Sie an den Punkt gelangen, an dem Metriken von viel älteren Aktivitäten an [!DNL Analytics] in Ihrem Berichte gesendet werden. Wenn Benutzer Cookies löschen und nicht zur Site zurückkehren, gehen die Zahlen für die entsprechende Aktivität zurück, werden aber weiterhin angezeigt.
+Möglicherweise sehen Sie nach Ablauf [!DNL Target]-Variablen, die an [!DNL Analytics] gesendet werden, da der Ablauf 90 Tage beträgt, jedoch nur, wenn der Benutzer nie eine weitere A4T-fähige [!DNL Target]-Aktivität sieht. Wenn ein Benutzer am 45. Tag zur Site zurückkehrt und eine andere Aktivität ansieht, wird der gesamte Zähler für den A4T-eVar-Wert wieder auf 90 Tage zurückgesetzt. Das heißt, dass die erste Kampagne jetzt ab dem 1. Tag für 45 + 90 = 135 Tage fortbesteht. Wenn der Benutzer immer wieder zurückkehrt, können Sie an den Punkt gelangen, an dem Metriken von viel älteren Aktivitäten an [!DNL Analytics] in Ihrem Berichte gesendet werden. Wenn Benutzer Cookies löschen und nicht zur Site zurückkehren, werden die Nummern in dieser Aktivität abgelegt, sie können aber trotzdem angezeigt werden.
 
-Das bedeutet, dass Aktivitäten von Besuchern, die während ihrer aktiven Dauer Teil der Aktivität wurden, über einen Zeitraum von bis zu 90 Tagen nach Abschluss der Aktivität weiterhin angesehen, besucht usw. werden können. Sollten Sie jedoch einen Blick auf die Metrik [!UICONTROL Aktivitätsimpressionen] werfen, sollten nach Ablauf der Aktivität keine weiteren Impressionen erfasst werden.
+Das bedeutet, dass Aktivitäten bis zu 90 Tage nach Ende der Aktivität weiterhin Ansichten, Besuche usw. für Besucher erhalten, die während der Aktivität Teil der Aktivität wurden. Sollten Sie jedoch einen Blick auf die Metrik [!UICONTROL Aktivitätsimpressionen] werfen, sollten nach Ablauf der Aktivität keine weiteren Impressionen erfasst werden.
 
-Dies ist ein normales und erwartetes Verhalten. Die A4T-Variable funktioniert wie alle anderen eVars. Der Wert wird so lange dem Benutzer zugeordnet bis die Ablaufzeit erreicht ist (90 Tage). Daher wird der Wert, auch wenn eine Aktivität nur zwei Wochen lang aktiv ist, mindestens 90 Tage lang dem Benutzer zugeordnet.
+Dies ist ein normales und erwartetes Verhalten. Die A4T-Variable funktioniert wie alle anderen eVars. Der Wert wird so lange dem Benutzer zugeordnet bis die Ablaufzeit erreicht ist (90 Tage). Wenn also eine Aktivität nur zwei Wochen lang aktiv ist, wird der Wert mindestens für die nächsten 90 Tage mit dem Benutzer verknüpft.
 
 Die Best Practice ist, Berichte für eine solche Aktivität nur für den Zeitraum anzuzeigen, in dem die Aktivität aktiv war. Die Daten sollten bei der Ansicht der Aktivität in [!DNL Analytics] standardmäßig korrekt eingestellt werden. Sofern Sie das Datum nicht manuell verlängert haben, sollte dies kein Problem vom Standpunkt des Berichte sein.
 
-Angenommen, die A4T-Variable läuft nach 90 Tagen ab und unser Test ist vom 1. bis 15. Januar aktiv.
+Nehmen wir beispielsweise an, dass die Variable A4T nach 90 Tagen abläuft und der Test vom 1. Januar bis 15. Januar aktiv ist.
 
 Am 1. Januar besucht der Benutzer die Seite, sieht einmal die Aktivität XYZ und hat danach fünf weitere Seitenansichten. In den nächsten zwei Wochen kehrt der Benutzer nicht zur Seite zurück. Die Daten für diesen Benutzer sehen dann wie folgt aus:
 
@@ -97,24 +97,24 @@ Der Benutzer kehrt dann am 1. Februar zurück, sieht fünf weitere Seiten, finde
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 3 |
 
-Der Benutzer kehrt am 1. März zurück und sieht die neue Aktivität ABC. Er sieht außerdem fünf Seiten. Da die Aktivität XYZ aufgrund der Persistenz weiterhin verfolgt und für diesen Benutzer dann auch ABC festgelegt wird, sind im Bericht jetzt zwei Linienelemente vorhanden:
+Der Benutzer kehrt am 1. März zurück und sieht die neue Aktivität ABC. Er sieht außerdem fünf Seiten. Da Aktivität XYZ dem Benutzer weiterhin durch Persistenz folgt und dieser Benutzer dann ABC eingestellt hat, werden in Berichte zwei Zeilenelemente angezeigt:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 1 | 1 |
+| XYZ | 3 | 15 | 3 | 1 |
+| ABC | 1 | 5 | 3 | 1 |
 
-Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und tätigt einen Kauf. Die Ablauffrist von 90 Tagen für den ersten eVar-Wert wird am 1. April zurückgesetzt, was im Bericht zu sehen ist. Und allen Target-Aktivitäten, die der Benutzer sieht, wird die Konversion gutgeschrieben, die Gesamtzahl der Konversionen wird jedoch dedupliziert:
+Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und tätigt einen Kauf. Die 90-Tage-Ablaufzeit dieses ersten eVar wird am 1. April zurückgesetzt, sodass Sie dies in Berichte sehen können. Und allen Target-Aktivitäten, die der Benutzer sieht, wird die Konversion gutgeschrieben, die Gesamtzahl der Konversionen wird jedoch dedupliziert:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher | Bestellungen |
 |--- |--- |--- |--- |--- |--- |
 | XYZ | 1 | 20 | 4 | 1 | 1 |
-| ABC | 1 | 10 | 2 | 1 | 1 |
+| ABC | 3 | 10 | 2 | 1 | 1 |
 | Gesamt | 2 | 20 | 1 | 1 | 1 |
 
-Da vor der Konversion beide Erlebnisse gesehen wurden, wird die Bestellung beiden „gutgeschrieben“. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für [!DNL Target]-Berichte, da Sie keine [!DNL Target]-Aktivität gegen eine andere Aktivität stellen, um zu sehen, welche erfolgreicher ist, ist es egal, dass alle Aktivitäten, die der Benutzer gesehen hat, gutgeschrieben wurden. In diesen Berichten werden die Ergebnisse zweier Elemente innerhalb einer einzigen Aktivität verglichen. Ein Benutzer kann innerhalb derselben Aktivität keine unterschiedlichen Erlebnisse sehen, weshalb Sie sich über eine mögliche Kreuzkontamination bei der Zuschreibung der Bestellung keine Gedanken machen müssen.
+Da beide Erlebnisse vor der Konvertierung gesehen wurden, erhalten beide Erlebnisse eine &quot;Gutschrift&quot;für die Bestellung. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für [!DNL Target]-Berichte, da Sie keine [!DNL Target]-Aktivität gegen eine andere Aktivität stellen, um zu sehen, welche erfolgreicher ist, ist es egal, dass alle Aktivitäten, die der Benutzer gesehen hat, gutgeschrieben wurden. Sie vergleichen die Ergebnisse zweier Elemente innerhalb einer Aktivität. Es ist für einen Benutzer nicht möglich, verschiedene Erlebnisse auf die gleiche Aktivität zu sehen, sodass Sie sich keine Sorgen über eine Kreuzkontamination der Bestellungskredite machen müssen.
 
 Weitere Informationen finden Sie unter [Umrechnungsvariablen (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) im *Analytics Admin Guide*.
 
@@ -124,16 +124,16 @@ Wenn Sie einen A/B-Test ausführen, der den Student-t-Test (die Konfidenzmetrik)
 
 Die Metrik [!UICONTROL Individuelle Besucher] unterscheidet sich nur dann in [!DNL Analytics] und [!DNL Target], wenn Sie einen kürzeren Zeitraum als den eigentlichen Test betrachten. Wenn die Stichprobengröße nicht erreicht wird, ist der Test nicht sehr zuverlässig. Weitere Informationen finden Sie unter [How Not to Run an A/B-Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) auf der [Website von Evan Miller](https://www.evanmiller.org/index.html).
 
-Die Metrik [!UICONTROL Individuelle Besucher] zeigt die Anzahl der Personen an, die dem Test ausgesetzt wurden, die die Site während des angegebenen Zeitraums besucht haben. Diese Personen sind weiterhin Teil des Tests und müssen berücksichtigt werden. Wenn Sie nur die Anzahl der Personen sehen wollen, die innerhalb einer einzigen Woche betroffen waren, können Sie ein Segment der Besucher erstellen, die eine Aktivitätsimpression hatten, und dieses auf den Bericht anwenden.
+Die Metrik [!UICONTROL Individuelle Besucher] zeigt die Anzahl der Personen an, die dem Test ausgesetzt wurden, die die Site während des angegebenen Zeitraums besucht haben. Diese Leute sind Teil des Tests und sollten gezählt werden. Wenn Sie nur die Anzahl der Personen sehen wollen, die innerhalb einer einzigen Woche betroffen waren, können Sie ein Segment der Besucher erstellen, die eine Aktivitätsimpression hatten, und dieses auf den Bericht anwenden.
 
-Sie können den Zeitraum verkürzen, in dem die Variable [!DNL Target] auf eine Sitzung beibehalten wird; Dies ist jedoch in der Regel problematisch bei Tests, bei denen das Konvertierungsereignis nicht so wahrscheinlich innerhalb derselben Ereignis auftritt.
+Sie können den Zeitraum verkürzen, in dem die Variable [!DNL Target] auf eine Sitzung beibehalten wird; Dies ist jedoch problematisch bei Tests, bei denen das Konversions-Ereignis nicht mit der gleichen Wahrscheinlichkeit innerhalb derselben Sitzung erfolgt.
 
 ## Warum wird in Analytics derselbe Besucher manchmal bei mehreren Besuchen gezählt?   {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 In der folgenden Liste werden die Gründe erläutert, warum derselbe Besucher in mehreren Erlebnissen in [!DNL Analytics] gezählt werden könnte:
 
 * Das [!DNL Target]-Profil ist abgelaufen, aber das [!DNL Analytics]-Cookie ist noch vorhanden. In diesem Fall bewertet [!DNL Target] den Benutzer neu, [!DNL Analytics] betrachtet den Besucher jedoch als dieselbe Person.
-* Wenn der Besucher die `mbox3rdPartyId` verwendet, sobald der anonyme Besucher mit seinem Drittanbieter-ID-Profil verschmolzen wird, könnte den Besucher in einen anderen Besuch einordnen, der mit der ID eines Drittanbieters übereinstimmt. [!DNL Target] Weitere Informationen finden Sie unter [Echtzeit-Profilsynchronisierung für mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
+* Wenn der Besucher das `mbox3rdPartyId` verwendet und der anonyme Besucher mit dem Drittanbieter-ID-Profil zusammengeführt wird, könnte [!DNL Target] den Besucher in ein anderes Erlebnis setzen, das mit der Drittanbieter-ID übereinstimmt. Weitere Informationen finden Sie unter [Echtzeit-Profilsynchronisierung für mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * [!DNL Analytics] kann verschiedene Geräte auf andere Weise als denselben Besucher verfolgen, als  [!DNL Target] Geräte: die Einrichtung der Drittanbieter-ID in  [!DNL Target] unterscheidet sich von der in Analytics.
 
 ## Unterstützt A4T Virtual Report Suites?
@@ -144,11 +144,11 @@ Virtual Report Suites sind *nicht* in der Report Suite-Liste enthalten und Zielg
 
 Das Ändern des Prozentsatzes der Traffic-Zuordnung in einer Aktivität nach der Aktivierung kann zu inkonsistenten Berichten in [!DNL Analytics] führen, da sich die Änderung nur auf neue Besucher auswirkt. Wiederkehrende Besucher sind nicht betroffen.
 
-Am besten sollten Sie die vorhandene Aktivität stoppen und dann eine neue Aktivität erstellen, anstatt den Prozentsatz nach der Aktivierung zu ändern. Die Berichterstellung für die neue Aktivität beginnt mit neuen Besuchern und Daten aus zurückkehrenden Besuchern führen nicht zu inkonsistenten Berichten.
+Am besten sollten Sie die vorhandene Aktivität stoppen und dann eine neue Aktivität erstellen, anstatt den Prozentsatz nach der Aktivierung zu ändern. Berichte für die Beginn der neuen Aktivität mit neuen Besuchern und Daten von zurückkehrenden Besuchern führen nicht zu inkonsistenten Berichten.
 
 ## Wie werden Besuche in Analytics gezählt und Umrechnungsgutschriften in einer Aktivität mit automatischer Zielgruppe zugeordnet, die A4T verwendet?
 
-Wenn sich ein Besucher für einen Seiteninhalt qualifiziert oder in einer A4T-Aktivität konvertiert, sendet [!DNL Target] Ereignis-Daten an [!DNL Analytics], was es [!DNL Analytics] ermöglicht, Konversions-Ereignis und andere Clickstream-Ereignis, die auf der Seite stattfinden, den entsprechenden [!DNL Target]-Aktivitäten und -Erlebnissen zuzuordnen.
+Wenn sich ein Besucher für eine A4T-Aktivität qualifiziert, Ansichten enthält oder konvertiert, sendet [!DNL Target] die Daten des Ereignisses an [!DNL Analytics]. Mit diesen Ereignis-Daten kann [!DNL Analytics] Konversions-Ereignis und andere Clickstream-Ereignis, die auf der Seite stattfinden, den entsprechenden [!DNL Target]-Aktivitäten und -Erlebnissen zuordnen.
 
 Beachten Sie hier einige Punkte, die bei der Anzeige von [!DNL Analytics]-Berichten zu beachten sind:
 
