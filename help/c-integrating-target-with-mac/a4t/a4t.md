@@ -4,10 +4,10 @@ description: Verwenden Sie Analytics für die Zielgruppe (A4T), um Aktivitäten 
 title: Was ist Analytics for Zielgruppe (A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 115b2fde3d66f55f1397685e42cb9756007936d5
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 42%
+source-wordcount: '1269'
+ht-degree: 40%
 
 ---
 
@@ -24,11 +24,11 @@ Die drei Hauptvorteile der Verwendung von [!DNL Analytics]-Daten in [!DNL Target
 
 * Marketingexperten können jederzeit dynamisch [!DNL Analytics]-Erfolgsmetriken oder -Berichte auf [!DNL Target]-Aktivitäten-Berichte anwenden. Es ist nicht erforderlich, vor Ausführung der Aktivität alles zu spezifizieren.
 * Da alle Daten aus einer einzigen Quelle stammen, sind keine Schwankungen zu erwarten, die bei der Erfassung von Daten in zwei separaten Systemen auftreten würden.
-* Ihre vorhandene [!DNL Analytics]-Implementierung erfasst alle erforderlichen Daten. Es ist nicht notwendig, Mboxes ausschließlich für das Erfassen von Daten für Berichte auf Seiten zu implementieren. Es wird dennoch empfohlen, eine Bestellbestätigungs-mbox für [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)-Aktivitäten zu implementieren.
+* Ihre vorhandene [!DNL Analytics]-Implementierung erfasst alle erforderlichen Daten. Es ist nicht notwendig, Mboxes ausschließlich für das Erfassen von Daten für Berichte auf Seiten zu implementieren. Adobe empfiehlt weiterhin, eine Bestellbestätigungs-mbox für [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)-Aktivitäten zu implementieren.
 
 >[!IMPORTANT]
 >
->Bevor Sie A4T verwenden können, müssen Sie eine Bereitstellung Ihres Kontos für die Integration anfordern. Verwenden Sie [dieses Formular](https://www.adobe.com/go/audiences), um die Bereitstellung anzufordern.
+>Bevor Sie mit der Verwendung von A4T beginnen können, müssen Sie die Bereitstellung der Integration für Ihr Konto anfordern. Verwenden Sie [dieses Formular](https://www.adobe.com/go/audiences), um die Bereitstellung anzufordern.
 >
 >Die Integration, die [!DNL Analytics] als Datenquelle für [!DNL Target] (A4T) aktiviert, stellt die nächste Generation der Test&amp;Zielgruppe zum SiteCatalyst-Plug-In dar. Dieses Plugin ist veraltet, es wird aber nach wie vor für Kunden unterstützt, die es bereits verwenden.
 
@@ -44,14 +44,14 @@ Wenn Sie über einen Einsatz von A4T nachdenken, sollten Sie die folgenden Punkt
 
 * Um [!DNL Analytics] als Berichte-Quelle für [!DNL Target] zu verwenden, müssen Sie und Ihre Firma Zugriff auf [!DNL Analytics] und auf [!DNL Target] haben. [Wenden Sie sich an Ihren Kundenvertreter,](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) wenn Sie eine der beiden Lösungen benötigen.
 * Die Berichtsquelle wird für jede Aktivität festgelegt. [!DNL Target] erfasst weiterhin Daten, die in Berichte verwendet werden sollen, und  [!DNL Target] Daten stehen weiterhin zur Verfügung, wenn Sie eine Aktivität lieber auf von  [!DNL Target]Ihnen erfassten Daten stützen möchten.
-* Sie können nur eine der beiden Berichtsquellen verwenden. Sie können für eine einzelne Aktivität nicht Daten aus beiden Quellen erfassen.
+* Verwenden Sie die eine oder andere Berichte-Quelle. Sie können für eine einzelne Aktivität nicht Daten aus beiden Quellen erfassen.
 * Bei Verwendung von A4T sind alle für Ihre Aktivitäten verfügbaren Erfolgsmetriken [!DNL Analytics]-Metriken. Ihre Zielmetrik kann jedoch auf einem Mbox-Abruf basieren. Sie können beispielsweise die vordefinierten Klick-Tracking-Funktionen der Zielgruppe mit A4T verwenden, anstatt [!DNL Analytics]-Klick-Trackingcode implementieren zu müssen.
 * Beim Anzeigen des Berichte einer A4T-Aktivität in der [!DNL Target]-Benutzeroberfläche werden [!DNL Analytics]-Daten angezeigt. Wenn Sie beispielsweise die Metrik [!UICONTROL Besucher] in [!DNL Target] verwenden, verwenden Sie die Metrik [!DNL Analytics] [!UICONTROL Besucher] und nicht die Metrik [!DNL Target] [!UICONTROL Besucher], die jetzt [!UICONTROL Teilnehmer] heißt. Dieser Unterschied ist besonders wichtig für grundlegende Traffic-Metriken ([!UICONTROL Besucher], [!UICONTROL Besuche], [!UICONTROL Ansichten]) und Konversionsmetriken.
 * Alle vorhandenen [!DNL Target]-Aktivitäten verwenden weiterhin die Datenerfassung [!DNL Target] und sind von der Aktivierung von A4T nicht betroffen.
 * Bei Verwendung von [!DNL Analytics] als Berichte ist nur eine mbox-basierte Metrik zulässig.
-* Ein Server-zu-Server-Aufruf von [!DNL Target] bis [!DNL Analytics] sendet Aktivitäten- und Erlebnisinformationen an [!DNL Analytics]. Diese Integration führt nicht zu zusätzlichen Serveraufrufen für [!DNL Target] oder [!DNL Analytics].
+* Ein Server-zu-Server-Aufruf von [!DNL Target] bis [!DNL Analytics] sendet Aktivitäten- und Erlebnisinformationen an [!DNL Analytics]. Diese Integration führt nicht zu mehr Serveraufrufen für [!DNL Target] oder [!DNL Analytics].
 
-   In einigen Fällen schlagen die Klassifizierungen von [!DNL Target] bis [!DNL Analytics] möglicherweise fehl und die Aktivitäten zeigen keine Daten in [!DNL Analytics] an. In diesem Fall finden Sie weitere Informationen unter [Fehlerbehebung bei der Analytics- und Zielgruppe-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können auch [den Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) kontaktieren, um weitere Unterstützung zu erhalten.
+   In einigen Fällen schlagen die Klassifizierungen von [!DNL Target] bis [!DNL Analytics] fehl und die Aktivitäten zeigen keine Daten in [!DNL Analytics] an. Siehe [Fehlerbehebung bei der Analytics- und Zielgruppe-Integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können auch [den Kundendienst](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) kontaktieren, um weitere Unterstützung zu erhalten.
 
 ## Unterstützte Aktivität-Typen {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -63,12 +63,12 @@ Die folgende Tabelle zeigt, welche Aktivitäten [!DNL Analytics] als Berichte-Qu
 | A/B-Aktivität mit automatisierter Zuordnung | Ja | Siehe [A4T-Unterstützung für Aktivitäten mit automatisierter Zuordnung und automatischer Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
 | A/B-Aktivität mit automatischem Targeting | Ja | Siehe [A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischer Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | Erlebnis-Targeting (XT) | Ja |  |
-| Multivarianz-Tests (MVT) | Ja | Erfordert das mbox-basierte Ziel einer Zielmetrik, um den Bericht [!UICONTROL Element Contribution] abzurufen.  Der Bericht [!UICONTROL Element Contribution] unterstützt zurzeit keine [!DNL Analytics]-Metriken. |
+| Multivarianz-Tests (MVT) | Ja | Erfordert das mbox-basierte Ziel einer Zielmetrik, um den Bericht [!UICONTROL Element Contribution] abzurufen. Der Bericht [!UICONTROL Element Contribution] unterstützt zurzeit keine [!DNL Analytics]-Metriken. |
 | AP-Aktivität (Automatisierte Personalisierung) | Nein |  |
 | Recommendations-Aktivität | Ja |  |
 | Mobile App | Ja | Wird unterstützt mit dem Mobile Services SDK, Version 4.13.1 (oder neuer).  Weitere Informationen finden Sie in der [Dokumentation zu Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html). |
 | E-Mail | Nein |  |
-| API für serverseitige Bereitstellung | Ja | Weitere Informationen finden Sie unter [Serverseitig: Target implementieren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
+| Serverseitige Versand-API | Ja | Weitere Informationen finden Sie unter [Serverseitig: Target implementieren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | NodeJS-SDK | Ja | Weitere Informationen finden Sie unter [Serverseitig: Target implementieren](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | AEM 6.1 (oder früher) Cloud Service Integration | Nein |  |
 | AEM 6.2 (oder neuer) Cloud Service Integration | Ja | Weitere Informationen finden Sie unter [Integration mit Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) in der [!DNL Adobe Experience Manager] 6.2-Dokumentation. |
