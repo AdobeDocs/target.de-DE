@@ -4,21 +4,21 @@ description: Erfahren Sie, wie Sie Analytics für die Zielgruppe (A4T) verwenden
 title: Wie verwende ich Berichte in A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 32%
+source-wordcount: '689'
+ht-degree: 30%
 
 ---
 
 
 # A4T-Reporting{#a-t-reporting}
 
-Durch Verwendung von [!DNL Analytics] als Ihre Berichte-Quelle für [!DNL Target] (A4T) haben Sie Zugriff auf [!DNL Analytics]-Berichte für Ihre [!DNL Target]-Aktivitäten.
+Durch Verwendung von [!DNL Adobe Analytics] als Ihre Berichte-Quelle für [!DNL Adobe Target] (A4T) haben Sie Zugriff auf [!DNL Analytics]-Berichte für Ihre [!DNL Target]-Aktivitäten.
 
 Sie können Berichte für Ihre Aktivitäten sowohl in [!DNL Analytics] als auch in [!DNL Target] Ansicht erstellen.
 
-Die Best Practices für Berichte mit [!DNL Analytics] für [!DNL Target], [finden Sie auf dieser Adobe Spark-Seite](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Bewährte Vorgehensweisen für Berichte mit [!DNL Analytics] für [!DNL Target], [besuchen Sie dieses Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Überblick {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -66,7 +66,7 @@ Wenn [!DNL Analytics] als Berichte verwendet wird, zeigen Berichte in [!DNL Targ
 
    Jede Metrik ist verfügbar, einschließlich benutzerspezifischer oder berechneter Metriken, die in [!DNL Analytics] integriert sind.
 
-   Beachten Sie, dass jede Zahl, die erhöht wird, im Bericht als positiv dargestellt wird, auch wenn eine Erhöhung eigentlich unerwünscht ist. Beispiel: Obwohl Sie eine geringere Absprungrate wünschen, wird die höhere Absprungrate als Gewinner mit der höchsten Steigerung angezeigt. Wenn Sie Entscheidungen auf Basis Ihrer Berichte treffen, müssen Sie auf diese und ähnliche Metriken achten und darauf, ob Sie diese Zahlen senken oder erhöhen möchten.
+   Erhöhte Zahlen werden im Bericht als positiv dargestellt, auch wenn eine Erhöhung nicht gewünscht wird. Beispiel: Obwohl Sie eine geringere Absprungrate wünschen, wird die höhere Absprungrate als Gewinner mit der höchsten Steigerung angezeigt. Wenn Sie Entscheidungen auf Basis Ihrer Berichte treffen, müssen Sie auf diese und ähnliche Metriken achten und darauf, ob Sie diese Zahlen senken oder erhöhen möchten.
 
 Sie können die Metrik oder Audience auf den Bericht in [!DNL Target] anwenden, nachdem die Aktivität gestartet wurde oder sogar nachdem der Test abgeschlossen wurde. Es ist nicht erforderlich, dass Sie im Vorhinein genau wissen, was Sie messen möchten.
 
