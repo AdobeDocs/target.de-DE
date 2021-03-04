@@ -4,17 +4,17 @@ description: Erfahren Sie, wie Sie eine Aktivität in Adobe Target konfigurieren
 title: Wie erstelle ich eine Aktivität, die A4T verwendet?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 36%
+source-wordcount: '650'
+ht-degree: 33%
 
 ---
 
 
 # Erstellen einer Aktivität, die Analytics als Berichte-Quelle verwendet
 
-Sie können eine Aktivität in [!DNL Target] konfigurieren, um [!DNL Adobe Analytics] als Berichte-Quelle (A4T) zu verwenden.
+Sie können eine Aktivität in [!DNL Adobe Target] konfigurieren, um [!DNL Adobe Analytics] als Berichte-Quelle (A4T) zu verwenden.
 
 Bevor Sie eine Aktivität einrichten, die [!DNL Analytics] als Berichte-Quelle verwendet, müssen Sie das Ziel für die Aktivität festlegen, z. B. die Verbesserung des Umsatzes pro Besucher (RPV) oder die Erhöhung der Klicks auf den Warenkorb. Wählen Sie eine finale Erfolgsmetrik für die Aktivität aus. Obwohl Sie jederzeit weitere Metriken in [!DNL Analytics] auswählen können, müssen Sie dennoch eine bestimmte Metrik angeben, die Sie von diesem Test erwarten.
 
@@ -41,12 +41,12 @@ Das Erstellen einer [!DNL Target]-Aktivität, die [!DNL Analytics] als Berichte-
 
    * Sie erhalten die Fehlermeldung, dass keine Report Suites verfügbar sind, obwohl Ihr Konto korrekt eingerichtet ist.
 
-      Möglicherweise müssen Sie Ihre [!DNL Analytics]-Firma überprüfen. Wenn Ihr [!DNL Adobe Experience Cloud]-Konto mit mehr als einer [!DNL Analytics]-Firma verknüpft ist, melden Sie sich bei [!DNL Target] ab und melden Sie sich unter der richtigen Firma bei [!DNL Analytics] an. Kehren Sie dann zu [!DNL Target] zurück, und die Report Suites werden geladen.
+      Überprüfen Sie Ihre [!DNL Analytics]-Firma. Wenn Ihr [!DNL Adobe Experience Cloud]-Konto mit mehr als einer [!DNL Analytics]-Firma verknüpft ist, melden Sie sich bei [!DNL Target] ab und melden Sie sich unter der richtigen Firma bei [!DNL Analytics] an. Kehren Sie dann zu [!DNL Target] zurück und die Report Suites werden geladen.
 
    * Ihnen wird nicht die Report Suite angezeigt, die Sie erwartet haben.
 
       Es stehen nur Report Suites zur Auswahl, die für die Verbindung mit [!DNL Target] bereitgestellt werden. Wenn die erwarteten Report Suites nicht angezeigt werden, melden Sie sich zunächst ab und melden Sie sich wieder bei [!DNL Adobe Experience Cloud] an, um es erneut zu versuchen.
-   Wenn die Report Suite(s) weiterhin nicht in der Liste zu finden ist/sind, [wenden Sie sich an den Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+   Wenn eine oder mehrere Report Suites noch nicht in der Liste vorhanden sind, wenden Sie sich bitte an den Kundendienst [.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
 
 1. Legen Sie den Trackingserver fest.
 
@@ -59,7 +59,7 @@ Das Erstellen einer [!DNL Target]-Aktivität, die [!DNL Analytics] als Berichte-
 
    >[!NOTE]
    >
-   >Sie können eine benutzerspezifische, auf Zielgruppen basierende Metrik an [!DNL Analytics] senden, anstatt sich nur auf [!DNL Analytics]-Daten zu verlassen. Sie können beispielsweise den Klick auf eine Seite überwachen, die normalerweise nicht von [!DNL Analytics] verfolgt wird. Diese benutzerspezifische Metrik wird automatisch vom Server [!DNL Target] an [!DNL Analytics] gesendet und wird in der Metrikauswahl unter [!DNL Analytics] als Metrik &quot;[!DNL Target] Konversion&quot;angezeigt. Die [!DNL Target]-Konversionsmetrik ist leer, wenn Sie [!DNL Analytics]-Metriken verwenden.
+   >Sie können eine benutzerspezifische, auf Zielgruppen basierende Metrik an [!DNL Analytics] senden, anstatt sich nur auf [!DNL Analytics]-Daten zu verlassen. Sie können beispielsweise das Klicken auf eine Seite überwachen, die normalerweise nicht von [!DNL Analytics] verfolgt wird. Diese benutzerspezifische Metrik wird automatisch vom Server [!DNL Target] an [!DNL Analytics] gesendet und wird in der Metrikauswahl unter [!DNL Analytics] als Metrik &quot;[!DNL Target] Konversion&quot;angezeigt. Die [!DNL Target]-Konversionsmetrik ist leer, wenn Sie [!DNL Analytics]-Metriken verwenden.
 
    Das Einrichten eines Ziels hindert Sie nicht daran, eine andere Metrik beim Bewerten der Testergebnisse zu verwenden. Das Ziel ist jedoch eine Erinnerung an den einen Aspekt, den Sie durch die Aktivität verbessern möchten.
 
