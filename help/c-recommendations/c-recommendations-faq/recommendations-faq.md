@@ -4,17 +4,17 @@ description: Ansicht einer Liste häufig gestellter Fragen und Antworten zu Adob
 title: Wo finde ich Fragen und Antworten zur Zielgruppe Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e4d7f9d6bd42343c5c5e591853a4fc70d1f49ee7
 workflow-type: tm+mt
-source-wordcount: '2041'
-ht-degree: 80%
+source-wordcount: '2031'
+ht-degree: 57%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) FAQ zu Recommendations{#recommendations-faq}
+# ![PREMIUM](/help/assets/premium.png) FAQ zu Recommendations
 
-Liste häufig gestellter Fragen zu Adobe Target Recommendations-Aktivitäten.
+Liste der häufig gestellten Fragen (FAQs) zu [!DNL Adobe Target] [!DNL Recommendations]-Aktivitäten.
 
 ## Warum zeigt die Katalogsuche nicht die richtigen Ergebnisse an, wenn ich nach einem benutzerdefinierten Attribut mit einem numerischen Wert suche?
 
@@ -22,7 +22,7 @@ Wenn Sie eine Katalogsuche für ein benutzerdefiniertes Attribut mit einem numer
 
 Derzeit gibt es keine Funktion, mit der Kunden den Attributtyp ändern können. Um eine Änderung vorzunehmen, öffnen Sie ein Kundenproblem](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C), das auf die Attribute verweist, bei denen der Typ von der Zeichenfolge in numerisch geändert werden muss.[
 
-## Wie lange dauert es, bis Aktualisierungen an Elementen in meinem Katalog auf meiner Site erscheinen?
+## Wie lange dauert es, bis Aktualisierungen von Artikeln in meinem Katalog auf meiner Site angezeigt werden?
 
 Nachdem Sie eine Feed-Datei importiert oder Entitätsaktualisierungen per API oder Mbox erhalten haben, werden die folgenden Änderungen in maximal 60 Minuten angezeigt:
 
@@ -36,11 +36,11 @@ Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus aus
 * Elementattribute, die in einer Promotion basierend auf einem Attribut oder einer Sammlung verwendet werden, die mit der Aktivität verknüpft ist.
 * Elementkategorie, in der das Element für eine „aktuelle Kategorie“ oder „Favoritenkategorie“ im Algorithmus „Topverkäufe“ oder „Am äftesten angesehen“ angezeigt wird.
 * Rangordnung empfohlener Artikel, wenn das sich geänderte Attribut ein benutzerdefiniertes Attribut ist, das als benutzerdefinierter Schlüssel für einen Algorithmus verwendet wird.
-* Rangordnung empfohlener Artikel basierend auf den geänderten Attributen, wenn die Empfehlungslogik „Artikel mit ähnlichen Attributen“ lautet, wenn die Gewichtungsfaktoren „ähnlicher Inhalt“ verwendet werden oder wenn die Faktoren „Attributgewichtung“ verwendet werden.
+* Die Rangfolge empfohlener Artikel basiert auf einem oder mehreren geänderten Attributen, wenn die Empfehlungslogik &quot;Elemente mit ähnlichen Attributen&quot; ist, wenn Gewichtungsfaktoren für &quot;Ähnlichkeit des Inhalts&quot;verwendet werden oder wenn &quot;Attributgewichtung&quot;-Faktoren verwendet werden.
 
 >[!NOTE]
 >
->Eine Feed-Datei wird als importiert erachtet, wenn sich ihr Status von „Elemente werden importiert“ in „Aktualisierungen des Suchindex werden vorbereitet“ ändert. Es kann mehr als 60 Minuten dauern, bis Aktualisierungen in der Benutzeroberfläche der Katalogsuche angezeigt werden. Die Katalogsuche ist aktuell, wenn sich der Feed-Status in „Aktualisierungen abgeschlossen“ ändert. Selbst wenn die Katalogsuche noch nicht aktuell ist, zeigt Ihre Site Aktualisierungen in den oben aufgeführten Zeitrahmen an. Auf der Seite „Katalogsuche“ wird die aktuelle Indexaktualisierungszeit der Katalogsuche angezeigt.
+>Eine Feed-Datei wird als importiert erachtet, wenn sich ihr Status von „Elemente werden importiert“ in „Aktualisierungen des Suchindex werden vorbereitet“ ändert. Aktualisierungen können länger als 60 Minuten dauern, bis sie in der Benutzeroberfläche der Katalogsuche angezeigt werden. Die Katalogsuche ist auf dem neuesten Stand, wenn der Feed-Status in &quot;Abgeschlossene Aktualisierungen&quot;geändert wird. Auch wenn die Katalogsuche noch nicht auf dem neuesten Stand ist, spiegelt Ihre Site Aktualisierungen der oben aufgeführten Zeiträume wider. Auf der Seite „Katalogsuche“ wird die aktuelle Indexaktualisierungszeit der Katalogsuche angezeigt.
 
 ## Was sollte ich tun, wenn mein Array durch Sonderzeichen umbrochen wird? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -59,11 +59,11 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## Warum stehen beim Erstellen einer Recommendations-Aktivität nicht alle Kriterien, einschließlich benutzerdefinierter Kriterien, zur Verfügung?   {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
-Die verfügbaren Kriterien basieren auf der aktuellen Kategorie. Beim Erstellen von Recommendations-Angeboten zeigt der Algorithmus-Wähler Kriterien auf Grundlage der Kategorie-ID an.
+Die verfügbaren Kriterien basieren auf der aktuellen Kategorie. Wenn Sie Recommendations-Angebot erstellen, zeigt die Algorithmusauswahl Kriterien basierend auf der Kategorien-ID an.
 
 Wenn der Speicherort, auf den Sie diese Kriterien anwenden, die Kategorie-ID nicht enthält, sind im Algorithmus-Wähler bestimmte Kriterien nicht verfügbar.
 
-Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vorhanden ist, enthält der Kriterien-Wähler alle anwendbaren Kriterien.
+Wenn Sie einen Ort verwenden, an dem die Kategorien-ID in der mbox vorhanden ist, enthält die Kriterienauswahl alle relevanten Kriterien.
 
 Das Ziel verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84), um die intelligente Filterung der Algorithmusauswahl zu steuern.
 
@@ -94,27 +94,27 @@ Die folgende Liste enthält Sonderfälle, in denen das Kontrollkästchen [!UICON
 
 Beachten Sie die folgenden Informationen, wenn eine Sammlung, die zuvor nicht null war, den Wert null annimmt:
 
-* Sie können die Sammlung erneut speichern und prüfen, ob der Wert aktualisiert wird. Beachten Sie, dass durch das erneute Speichern die Sammlung alle Algorithmen erneut ausführt, die diese Sammlung verwenden.
+* Sie können die Sammlung erneut speichern und überprüfen, ob sie die Nummer aktualisiert. Beim Speichern werden alle Algorithmen, die diese Sammlung verwenden, von der Sammlung erneut ausgeführt.
 * Befinden Sie sich in der richtigen Umgebung? Zu [!DNL /target/products.html#recsSettings] gehen, um gegenzuprüfen (wie unten dargestellt).
 
    ![](assets/product_catalog.png)
 
-* Ist Ihr Index aktuell? Überprüfen Sie bei [!DNL /target/products.html#productSearch], wie viele Stunden der Index alt ist (z. B. „Vor 3 Stunden indiziert“). Sie können den Index bei Bedarf aktualisieren.
+* Ist Ihr Index aktuell? Gehen Sie zu [!DNL /target/products.html#productSearch] und überprüfen Sie, wie viele Stunden alt der Index ist (z. B. &quot;vor 3 Stunden indiziert&quot;). Sie können den Index bei Bedarf aktualisieren.
 * Haben Sie Änderungen am Feed oder an der Datenebene vorgenommen, die dazu geführt haben, dass Ihre Entitäten nicht mehr mit den Sammlungsregeln übereinstimmen? Stellen Sie sicher, dass die Groß-/Kleinschreibung übereinstimmt (Beachtung der Groß-/Kleinschreibung).
-* Wurde der Feed erfolgreich ausgeführt? Hat jemand Änderungen am FTP-Verzeichnis, Kennwort usw. vorgenommen?
-* Target setzt Aktualisierungen an der Bereitstellung (auf der Seite/App des Kunden) schnellstmöglich um. Dennoch müssen für den Vermarkter auf der Benutzeroberfläche einige Darstellungen bereitgestellt werden. Bereitstellungsaktualisierungen werden nicht zwingend verzögert, um auf die Synchronisierung der Benutzeroberflächenaktualisierungen zu warten. Mithilfe von [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) können Sie die Inhalte des Systems zu dem Zeitpunkt anzeigen, zu dem eine Anforderung eingeht.
+* Wurde der Feed erfolgreich ausgeführt? Hat jemand das FTP-Verzeichnis, das Kennwort usw. geändert?
+* Target setzt Aktualisierungen an der Bereitstellung (auf der Seite/App des Kunden) schnellstmöglich um. Dennoch muss die Zielgruppe auch eine gewisse Darstellung in der Benutzeroberfläche für den Marketingspezialisten bereitstellen. Zielgruppe verzögert keine Aktualisierung des Versands, um zu warten, bis die UI-Updates synchronisiert sind. Mithilfe von [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) können Sie die Inhalte des Systems zu dem Zeitpunkt anzeigen, zu dem eine Anforderung eingeht.
 
 ## Worin besteht der Unterschied zwischen der allgemeinen und der Inhaltsähnlichkeits-spezifischen Attributgewichtung? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
 Die Attributgewichtung liegt in zwei Formen vor: „Standardattributgewichtung“ und „Inhaltsähnlichkeits-Attributgewichtung“.
 
-Die „Standardattributgewichtung“ gilt für die meisten, wenn nicht gar für alle Kriterientypen (nicht nur „Inhaltsähnlichkeit“). Dieser Gewichtungstyp gewichtet bestimmte Attributwerte stärker. Im folgenden Beispiel werden Nike-Produkte in den Ausgabeempfehlungen angestoßen.
+Die „Standardattributgewichtung“ gilt für die meisten, wenn nicht gar für alle Kriterientypen (nicht nur „Inhaltsähnlichkeit“). Dieser Gewichtungstyp gewichtet bestimmte Attributwerte stärker. Im folgenden Beispiel erhalten Nike-Produkte einen Bump in den Ausgabeempfehlungen.
 
 ![](assets/attribute_weighting_example.png)
 
 Die „Inhaltsähnlichkeits-Attributgewichtung“ gilt nur für Kriterien der Inhaltsähnlichkeit.
 
-Dieser Gewichtungstyp ist dynamischer und basiert auf dem aktuellen „Empfehlungsschlüssel“ (dem derzeit angezeigten Element). Wenn im folgenden Beispiel (Marke x 16) ein Besucher Sneaker von Nike anzeigt, werden diesem Besucher mit höherer Wahrscheinlichkeit andere Nike-Produkte empfohlen (nicht nur Sneaker) als Sneaker von anderen Herstellern. Wenn ein Besucher Sneaker der Marke Adidas anzeigen würde, würden ihm wahrscheinlich Adidas-Produkte empfohlen.
+Dieser Gewichtungstyp ist dynamischer und basiert auf dem aktuellen „Empfehlungsschlüssel“ (dem derzeit angezeigten Element). Wenn im folgenden Beispiel (Marke x 16) ein Besucher Sneaker von Nike anzeigt, werden diesem Besucher mit höherer Wahrscheinlichkeit andere Nike-Produkte empfohlen (nicht nur Sneaker) als Sneaker von anderen Herstellern. Wenn ein Besucher Adidas-Turnschuhe anschaut, wird dieser Besucher eher als Adidas-Produkte empfohlen.
 
 ![](assets/content_similarity_example.png)
 
@@ -122,7 +122,7 @@ Dieser Gewichtungstyp ist dynamischer und basiert auf dem aktuellen „Empfehlun
 
 Target kann manchmal keine Empfehlungen anzeigen, wenn zu wenig Empfehlungen verfügbar sind.
 
-Die Anzahl der pro Kriterium generierten Werte ist die 3-fache Anzahl der im Design angegebenen Entitäten. Die Laufzeitfilterung (beispielsweise Inventar, Mbox-Attributabgleich) wird angewendet, nachdem die 3x-Werte generiert wurden. Daher ist es möglich, dass zur Bereitstellungszeit weniger als 3x-Werte vorhanden sind. Erhöhen Sie zum Abschwächen dieser Situation die Anzahl der Entitäten im Design, indem Sie zusätzliche Entitäten ausblenden.
+Die Anzahl der pro Kriterium generierten Werte ist dreimal so viele Entitäten wie im Entwurf angegeben. Die Laufzeitfilterung (beispielsweise Inventar, Mbox-Attributabgleich) wird angewendet, nachdem die 3x-Werte generiert wurden. Daher ist es möglich, dass zur Bereitstellungszeit weniger als 3x-Werte vorhanden sind. Um diese Situation zu mindern, erhöhen Sie die Anzahl der Entitäten im Entwurf durch Ausblenden anderer Entitäten.
 
 Das folgende JavaScript kann zu Beginn des Designs verwendet werden, um die Anzahl der angeforderten Entitäten zu erhöhen. In diesem Beispiel würde die angeforderte Anzahl von Entitäten 30 (3 x 10) betragen.
 
@@ -137,20 +137,20 @@ Das folgende JavaScript kann zu Beginn des Designs verwendet werden, um die Anza
 
 ## Welche Größenbeschränkung besteht für einen API-Aufruf beim Einfügen/Aktualisieren von Produkten? Kann ich 50.000 Produkte mit einem Aufruf aktualisieren, indem ich die API statt eines Feeds verwende?   {#section_434FE1F187B7436AA39B7C14C7895168}
 
-Target begrenzt Posts auf Anwendungsebene auf 50 MB. Dies erfolgt jedoch nur, wenn der Content-Type-Header `application/x-www-form-urlencoded` übergeben wird.
+Zielgruppe setzt eine Begrenzung auf 50 MB nach dem Posteingang auf Anwendungsebene voraus; Dies ist jedoch nur dann der Fall, wenn Sie die Kopfzeile des Inhaltstyps `application/x-www-form-urlencoded` übergeben.
 
-Sie können sicherlich versuchen, 50.000 Produkte in einem einzigen Aufruf zu senden. Wenn das nicht funktioniert, teilen Sie die Produkte in Batches auf. Normalerweise wird empfohlen, dass Kunden Aufrufe in Batches mit jeweils 5.000 oder 10.000 Produkten aufteilen, um die Wahrscheinlichkeit einer Zeitüberschreitung aufgrund von hoher Systemauslastung zu reduzieren.
+Sie können sicherlich versuchen, 50.000 Produkte in einem einzigen Aufruf zu senden. Schlägt er fehl, können Sie ihn in Stapel aufteilen. Adobe empfiehlt Kunden, ihre Anrufe in 5.000 oder 10.000 Produktstapel zu unterteilen, um die Wahrscheinlichkeit eines Timeouts aufgrund der Systemlast zu verringern.
 
-## Muss ich einen Mbox-Namen angeben, wenn ich Recommendations-Kriterien, -Promotions oder Vorlagentestregeln erstelle?   {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Muss ich den Mbox-Namen angeben, wenn ich Recommendations-Kriterien, Promotions oder Vorlagentestregeln erstelle? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Beim Erstellen von Recommendations-Kriterien, -Promotions oder Vorlagentestregeln, die auf einem basieren, erhalten Sie von `mboxParameter`mboxParameter keine Aufforderung mehr, `mboxName` einzugeben. Der Mbox-Name ist nun optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde.
 
 So wählen Sie den gewünschten Parameter aus:
 
-* Wählen Sie beim Erstellen neuer Kriterien, Promotions oder Vorlagentestregeln einen Parameter aus der Liste aus oder geben Sie die ersten Buchstaben des Parameternamens bzw. den gesamten Namen des gewünschten Parameters ein.
+* Wählen Sie beim Erstellen einer Kriterien-, Promotion- oder Testregel für Vorlagen einen Parameternamen aus der Liste aus. Beginn, der die ersten Zeichen des gewünschten Parameternamens eingibt, oder geben Sie den vollständigen Namen des gewünschten Parameternamens ein.
 * Wenn Sie den Mbox-, aber nicht den Parameternamen kennen, filtern Sie mithilfe des Kontrollkästchens nach der bekannten Mbox, die den gewünschten Parameter übergibt.
 
-Bei keiner der Methoden gibt es eine Verbindung zwischen Mbox und Parameter. Die Kriterien, Promotions oder Vorlagentestregeln funktionieren basierend auf dem Parameter über alle Mboxes hinweg, die diesen Parameter übergeben.
+Bei keiner der Methoden gibt es eine Verbindung zwischen Mbox und Parameter. Die Kriterien-, Promotion- oder Testregel für Vorlagen funktioniert auf Basis von Parametern für alle Mboxes, die diesen Parameter übergeben.
 
 Wenn Sie bestehende Kriterien, Promotions oder Vorlagentestregeln bearbeiten, werden die Filterkriterien mit dem Mbox-Namen angezeigt, der bei der Erstellung angegeben wurde.
 
@@ -160,11 +160,11 @@ Stellen Sie sicher, dass die Zielgruppe einen eindeutigen Namen aufweist. Wenn S
 
 ## Wie groß dürfen CSV-Dateien für den Feedupload maximal sein?   {#section_20F1AF4839A447B9889B246D6E873538}
 
-Es gibt keine feste Grenze hinsichtlich der Zeilen oder Dateigröße für den Feedupload von CSV-Dateien. Als Best Practice empfehlen wir jedoch, die CSV-Datei auf 1 GB zu beschränken, um Fehler während des Uploadprozesses zu vermeiden. Wenn die Größe der Datei 1 GB übersteigt, teilen Sie sie am besten in mehrere Feeddateien auf. Die maximale Anzahl benutzerdefinierter Attributspalten ist 100 und benutzerdefinierte Attribute sind auf 4.096 Zeichen beschränkt. Zusätzliche Beschränkungen zur Länge der erforderlichen Spalten finden Sie auf der  [Seite mit Target-Beschränkungen](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Es gibt keine feste Grenze hinsichtlich der Zeilen oder Dateigröße für den Feedupload von CSV-Dateien. Als Best Practice empfiehlt Adobe jedoch, die CSV-Dateigröße auf 1 GB zu begrenzen, um Fehler beim Hochladen von Dateien zu vermeiden. Wenn die Größe der Datei 1 GB überschreitet, kann sie idealerweise in mehrere Feed-Dateien aufgeteilt werden. Die maximale Anzahl benutzerdefinierter Attributspalten ist 100 und benutzerdefinierte Attribute sind auf 4.096 Zeichen beschränkt. Weitere Längenbeschränkungen für erforderliche Zielgruppen sind auf der Seite [Längenbegrenzungen](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1) verfügbar.
 
-## Kann ich eine Entität dynamisch ausschließen?
+## Kann ich eine Entität dynamisch ausschließen? {#exclude}
 
-In der Abfragezeichenfolge können Sie Entität-IDs für Entitäten übermitteln, die Sie von Ihren Empfehlungen ausschließen möchten. So kann es beispielsweise hilfreich sein, Artikel auszuschließen, die sich bereits im Warenkorb befinden.
+In der Abfragezeichenfolge können Sie Entität-IDs für Entitäten übermitteln, die Sie von Ihren Empfehlungen ausschließen möchten. Sie können beispielsweise Artikel ausschließen, die sich bereits im Warenkorb befinden.
 
 Verwenden Sie den Mbox-Parameter `excludedIds`, um die Ausschlussfunktion zu aktivieren. Dieser Parameter verweist auf eine Liste kommagetrennter Entitäts-IDs. Zum Beispiel `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Der Wert wird übermittelt, wenn Empfehlungen angefordert werden.
 
@@ -180,21 +180,21 @@ Diese Funktion ist für neu erstellte Empfehlungen standardmäßig aktiviert. Be
 
 ## Was bedeutet die Antwort NO_CONTENT manchmal, die im Recommendations Content Trace zurückgegeben wird?
 
-NO_CONTENT wird zurückgegeben, wenn für die angeforderte Algorithmus- und Schlüsselkombination keine Empfehlungen verfügbar sind. Im Allgemeinen tritt dies auf, wenn Backups für den Algorithmus deaktiviert sind und mindestens einer der folgenden Punkte ebenfalls zutrifft:
+NO_CONTENT wird zurückgegeben, wenn für die angeforderte Algorithmus- und Schlüsselkombination keine Empfehlungen verfügbar sind. Im Allgemeinen tritt diese Situation auf, wenn Backups für den Algorithmus deaktiviert sind und mindestens einer der folgenden Punkte ebenfalls zutrifft:
 
 * Die Ergebnisse sind noch nicht bereit.
 
-   Dies tritt in der Regel auf, wenn eine neu erstellte Aktivität zum ersten Mal gespeichert wird oder nachdem Konfigurationsänderungen an der Sammlung, den Kriterien oder den in der Aktivität verwendeten Promotions vorgenommen wurden.
+   Diese Situation tritt normalerweise ein, wenn eine neu erstellte Aktivität zum ersten Mal gespeichert wird oder nachdem Konfigurationsänderungen an der Sammlung, den Kriterien oder den in der Aktivität verwendeten Promotions vorgenommen wurden.
 
 * Die Ergebnisse sind für die angeforderte Algorithmus-/Schlüsselkombination bereit, jedoch noch nicht auf dem nächsten Edge-Server zwischengespeichert.
 
-   Die soeben angeforderte Anforderung initiiert einen Zwischenspeicherungsvorgang, der nach einigen Seitenneuladungen und/oder einigen Minuten nach Ablauf gelöst werden sollte.
+   Die Anforderung löst einen Zwischenspeicherungsvorgang aus, sodass dieses Problem nach einigen Seitenneuladungen und/oder nach einigen Minuten gelöst werden sollte.
 
 * Die Ergebnisse sind bereit, aber für den bereitgestellten Schlüsselwert nicht verfügbar.
 
-   Dies tritt in der Regel auf, wenn Empfehlungen für ein Element angefordert werden, das nach der Ausführung des letzten Algorithmus zum Katalog hinzugefügt wurde, und sich nach der Ausführung des nächsten Algorithmus selbst auflösen.
+   Diese Situation tritt in der Regel auf, wenn Empfehlungen für ein Element angefordert werden, das nach der Ausführung des letzten Algorithmus zum Katalog hinzugefügt wurde, und sich nach der Ausführung des nächsten Algorithmus selbst auflösen.
 
 * Die teilweise Vorlagenwiedergabe ist deaktiviert und es sind nicht genügend Ergebnisse zum Ausfüllen der Vorlage verfügbar.
 
-   Dies tritt in der Regel auf, wenn Sie über eine dynamische Einschlussregel verfügen, mit der viele Elemente aus den möglichen Ergebnissen aggressiv Filter werden. Um dies zu vermeiden, aktivieren Sie Backups und wenden Sie die Einschlussregel nicht auf Backups an oder verwenden Sie die Kriterien in einer Sequenz mit einem weniger aggressiv gefilterten Kriterium.
+   Diese Situation tritt in der Regel auf, wenn Sie über eine dynamische Einschlussregel verfügen, die viele Elemente aus den möglichen Ergebnissen aggressiv Filter. Um eine Situation zu vermeiden, aktivieren Sie Backups und wenden Sie die Einschlussregel nicht auf Backups an oder verwenden Sie die Kriterien in einer Sequenz mit weniger aggressiv gefilterten Kriterien.
 
