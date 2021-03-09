@@ -5,7 +5,7 @@ title: Welches sind die verschiedenen Zeichen-, Größen- und sonstigen Beschrä
 feature: 'Fehlerbehebung '
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 64%
@@ -53,7 +53,7 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 
 ## categoryId-Parameter
 
-* **Limit**: 128 Zeichen.
+* **Limit**: 250 Zeichen.
 
 ## Kundenattribute
 
