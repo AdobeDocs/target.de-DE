@@ -2,12 +2,12 @@
 keywords: Ankündigungen;Kompetenzaufbau;Entwickler-Chat;Kaffeepause;Ereignisse;Forrester;Gartner;Webinar
 description: Lesen Sie Ankündigungen und registrieren Sie sich für Adobe Target-Ereignisse, einschließlich Skill Builder-Sitzungen, Entwickler- und Produktmanagerchats, Webinars und mehr.
 title: Wo finde ich Ankündigungen und Ereignisse zur Zielgruppe?
-feature: Release Notes
+feature: ' Versionshinweise '
 translation-type: tm+mt
-source-git-commit: c139cca0562c2d8b9f29343b74ef7a091d91083b
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 1%
+source-wordcount: '541'
+ht-degree: 0%
 
 ---
 
@@ -24,21 +24,6 @@ Adobe Target wurde kürzlich von Forrester und Gartner als Marktführer anerkann
 | --- | --- |
 | Forrester | **Adobe mit dem Namen &quot;Leader&quot;im Forrester-Wellenbericht für Erlebnisoptimierungsplattformen.**<br> Adobe wurde in The Forrester Wave als führend bezeichnet: Experience Optimization-Plattformen, Q4 2020-Bericht für sein Angebot in diesem Bereich, Adobe Target Premium. Adobe erhielt die höchste Punktzahl aller beteiligten Anbieter in den aktuellen Kategorien für Angebot und Marktpräsenz sowie in den Empfehlungs- und Plattformerlebniskriterien. Zielgruppe Premium erhielt auch die höchste Bewertung, die in der Technik der Erlebnisoptimierung und den Kriterien für unterstützende Dienstleistungen möglich war. Der Bericht basiert auf einer gründlichen Bewertung von 10 Anbietern von Erlebnisoptimierungsplattformen anhand von 22 Kriterien.<br>Lesen Sie mehr darüber im  [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe wurde erneut zum Leader im Gartner Magic Quadrant für Personalisierungsmaschinen ernannt.**<br> Adobe wurde im dritten Gartner Magic Quadrant for Personalization Engines 2020-Bericht erneut zum Leader ernannt. Der Gartner Magic Quadrant for Personalization Engines bewertete Anbieter anhand von 15 Kriterien, die in zwei Kategorien unterteilt sind: Vollständigkeit der Sicht und Ausführungsfähigkeit.<br>[Lesen Sie mehr darüber im Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
-
-## Adobe Target Community Q&amp;A-Kaffeepause
-
-* **Mittwoch, 24. Februar**
-* **9.00 Uhr PST | 11.00 Uhr CST | 12.00 EST**
-* **Dauer 60 Minuten**
-* **[Weitere Informationen finden Sie hier](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-2-24-21-9am-pt-rob-hornick/td-p/396626)**
-
-Gemeinsam mit Adobe Target Senior Product Manager Rob Hornick. Rob beantwortet Ihre Fragen zur Zielgruppe und zu seinen Fachgebieten:
-
-* Recommendations
-* Automatische Zuordnung
-* Automatisches Targeting
-* Automatisierte Personalisierung
-* Maschinelles Lernen und künstliche Intelligenz
 
 ## Webinar: Personalisieren und testen Sie mit Entscheidungen auf dem Gerät von Adobe Target
 
