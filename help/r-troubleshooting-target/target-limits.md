@@ -2,13 +2,13 @@
 keywords: Zeichenbeschränkung;mbox-Parameter;Batch-Versand-API;Profil-Parameter;Grenzwerte;Integrierte Profil;Maximal;Beschränkung;Zeichen;Best Practice;Orderid;orderTotal;mbox3rdPartyID;Kategorie;categoryID;Fehlerbehebung
 description: Ansicht einer Liste von Zeichenbeschränkungen und anderen Einschränkungen (Angebot-Größe, Audiencen, Profil, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
 title: Welches sind die verschiedenen Zeichen-, Größen- und sonstigen Beschränkungen in Adobe Target?
-feature: Troubleshooting
+feature: 'Fehlerbehebung '
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 65%
+source-wordcount: '1090'
+ht-degree: 64%
 
 ---
 
@@ -192,13 +192,13 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 
 * **Empfohlenes Limit**: Insgesamt 50.000 Angebote.
 
-### Angebotsgröße
+### Angebotsgröße {#offer-size}
 
 Die folgenden Größenbeschränkungen gelten für Angebote:
 
-* 256 KB für HTML-Angebote.
-* 64 KB für visuelle Angebote aus der Benutzeroberfläche.
-* 512 KB aus der API.
+* 1024 KB für HTML-Angebote.
+* 1024 KB (für jedes Erlebnis) für visuelle Angebot der Benutzeroberfläche.
+* 1024 KB aus der API.
 
    Bei der Verwendung einer globalen Mbox gilt die Beschränkung für den kompletten Satz an zurückgegebenen Inhalten für die Seite. Die Beschränkung der Angebotsseite optimiert die Seitenladezeit. Wenn der Grenzwert überschritten wird, wird folgende Meldung angezeigt:
 
