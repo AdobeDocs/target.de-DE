@@ -4,25 +4,25 @@ description: Ansicht einer Liste von IP-Adressen, die in Zielgruppe Recommendati
 title: Welche IP-Adressen verwenden Recommendations-Feed-Verarbeitungsserver?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 61%
+source-wordcount: '175'
+ht-degree: 15%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) IP-Adressen, die von Empfehlungs-Feed-Verarbeitungsservern verwendet werden{#ip-addresses-used-by-recommendations-feed-processing-servers}
+# ![PREMIUM](/help/assets/premium.png) IP-Adressen, die von Empfehlungs-Feed-Verarbeitungsservern verwendet werden
 
-Mithilfe der Liste der von Servern, die den Recommendations-Feed verarbeiten, verwendeten IP-Adressen, die sich im Data Center in Oregon befinden, können Sie Ihre Firewall so konfigurieren, dass die entsprechenden IP-Adressen der Adobe-Server zugelassen werden.
+Liste der IP-Adressen, die in [!DNL Adobe Target] [!DNL Recommendations]-Feed-Verarbeitungsservern im Oregon-Rechenzentrum verwendet werden, um Ihre Firewall so zu konfigurieren, dass IP-Adressen von Adoben-Servern zugelassen werden.
 
-[!DNL Target] [!UICONTROL Recommendations]-Aktivitäten verwenden die folgenden IP-Adressen, die sich im Data Center in Oregon befinden, wenn sie auf die FTP-Server von Kunden zugreifen (über den folgenden Link finden Sie die neuesten Informationen):
+[!DNL Target]  Recommendations-Aktivitäten verwenden beim Zugriff auf die FTP-Server von Kunden die folgenden IP-Adressen im Oregon-Rechenzentrum (überprüfen Sie den unten stehenden Link auf die aktuellsten Informationen):
 
 | CIDR-Notation | Start-IP | End-IP |
 |---|---|---|
 | 192.243.242.0/24 | 192.243.242.0 | 192.243.242.255 |
 
-[!DNL Target] [!UICONTROL Recommendations]-APIs verwenden die folgenden IP-Adressen, die sich im Data Center in Oregon befinden (über den folgenden Link finden Sie die neuesten Informationen):
+[!DNL Target] [!UICONTROL Die ] Recommendations-APIs verwenden die folgenden IP-Adressen im Oregon-Rechenzentrum (überprüfen Sie den unten stehenden Link auf die aktuellsten Informationen):
 
 | CIDR-Notation | Start-IP | End-IP |
 |---|---|---|
