@@ -4,10 +4,10 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der A
 title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 translation-type: tm+mt
-source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '3659'
-ht-degree: 28%
+source-wordcount: '3715'
+ht-degree: 29%
 
 ---
 
@@ -15,6 +15,14 @@ ht-degree: 28%
 # Dokumentationsänderungen
 
 Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktdokumentation Liste.
+
+## Adobe Target Standard/Premium 21.2.1 (9. März 2021) 
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| März 9 | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md#offer-size) | Die zulässigen Größenbeschränkungen für Angebote wurden aktualisiert. |
+|  | [Zulassungsliste Zielgruppe Edge-Knoten](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Die Edge-IP-Adressen [!DNL Target] wurden aktualisiert. |
+|  | [Versionshinweise](/help/r-release-notes/release-notes.md): 21.2.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe Target Standard/Premium 21.1.1 (19. Januar 2021)
 
