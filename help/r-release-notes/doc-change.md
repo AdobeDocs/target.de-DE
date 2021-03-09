@@ -4,9 +4,9 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der A
 title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
 workflow-type: tm+mt
-source-wordcount: '3715'
+source-wordcount: '3740'
 ht-degree: 29%
 
 ---
@@ -20,8 +20,9 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| März 9 | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md#offer-size) | Die zulässigen Größenbeschränkungen für Angebote wurden aktualisiert. |
+| März 9 | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Die zulässigen Größenbeschränkungen für Angebote wurden aktualisiert.</li><li>Die Zeichenbeschränkung für den categoryId-Parameter wurde korrigiert.</li></ul> |
 |  | [Zulassungsliste Zielgruppe Edge-Knoten](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Die Edge-IP-Adressen [!DNL Target] wurden aktualisiert. |
+|  | [Entitätsattribute](/help/c-recommendations/c-products/entity-attributes.md) | Es wurde Text hinzugefügt, der angibt, dass entity.value im Dezimalformat sein muss (z. B. 15.99 anstelle von 15.99). |
 |  | [Versionshinweise](/help/r-release-notes/release-notes.md): 21.2.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe Target Standard/Premium 21.1.1 (19. Januar 2021)
@@ -62,7 +63,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 | Dezember 9 | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Neues Thema |
 |  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende Problem wurde aus dem Abschnitt &quot;Bekannte Probleme&quot;in den Abschnitt &quot;Behobene Probleme&quot;verschoben: &quot;Angebote mit der Beschriftung &quot;Verarbeitung&quot;.&quot; |
 | Dezember 1 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Die Aufzeichnung des Webinars für &quot;Personalisieren und Testen mit Nulllatenz bei Entscheidungen auf dem Gerät von Adobe Target&quot;wurde eingebettet. |
-| November 24 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>[Berichte - Inkonsistente Daten im herunterladbaren .csv-Bericht im Vergleich zum angezeigten Bericht in der Benutzeroberfläche der Zielgruppe.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Das folgende Problem wurde behoben:<ul><li>[Berichterstellung von Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
+| November 24 | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>[Berichte - Inkonsistente Daten im herunterladbaren CSV-Bericht im Vergleich zum angezeigten Bericht in der Benutzeroberfläche der Zielgruppe.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Das folgende Problem wurde behoben:<ul><li>[Berichterstellung von Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [Metrikdefinitionen – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Warum kann ich bei der Konfiguration meiner Zielmetriken nicht auf die erweiterten Einstellungen zugreifen?&quot; |
 |  | [Erfolgsmetriken](/help/c-activities/r-success-metrics/success-metrics.md) | Der Text im Hinweis zu Aktivitäten, die A4T verwenden, wurde angepasst. |
 | November 17 | [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Kann ein Besucher in einer Aktivität mit automatisierter Zielgruppe, die A4T verwendet, zwischen zielgerichteten und kontrollierten Erlebnissen bei verschiedenen Besuchen wechseln?&quot; |
