@@ -4,15 +4,15 @@ description: Erfahren Sie, wie Sie mithilfe von Entitätsattributen Produkt- ode
 title: Wie verwende ich Entitätsattribute?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 89%
+source-wordcount: '1064'
+ht-degree: 88%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Entitätsattribute{#entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) Entitätsattribute
 
 Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an [!DNL Adobe Target Recommendations] weiterzugeben.
 
@@ -86,7 +86,7 @@ Nur einzelner Wert.
 
 Dieser erforderliche Parameter identifiziert das Produkt. Diese alphanumerische ID muss für alle [!DNL Adobe Experience Cloud] -Produkte gleich sein, einschließlich [!DNL Analytics], damit die verschiedenen Produkte das Element erkennen und Daten darüber austauschen.
 
-`entity.id`-Werte dürfen keine Schrägstriche, Kaufmännisches-Und-Zeichen, Fragezeichen, Prozentsymbole, Kommas oder andere Satzzeichen enthalten, die eine URL-Kodierung erfordern, wenn sie in einem REST-API-Aufruf übergeben werden. Binde- und Unterstriche sind zulässig. Wenn in einem `entity.id`[!DNL Recommendations]-Wert ungültige Satzzeichen enthalten sind, schlagen manche fehl.
+`entity.id`*-Werte dürfen keine Schrägstriche, Kaufmännisches-Und-Zeichen, Fragezeichen, Prozentsymbole, Kommas oder andere Satzzeichen enthalten, die eine URL-Kodierung erfordern, wenn sie in einem REST-API-Aufruf übergeben werden.* Binde- und Unterstriche sind zulässig. Wenn in einem `entity.id`[!DNL Recommendations]-Wert ungültige Satzzeichen enthalten sind, schlagen manche fehl.
 
 Beispiel: `'entity.id=67833'`
 
@@ -179,6 +179,8 @@ Nur einzelner Wert
 Definiert den Preis oder Wert des Artikels.
 
 Beispiel: `'entity.value=15.99'`
+
+entity.value unterstützt nur das Dezimalformat (z. B. 15.99). Das Komma-Format (15,99) wird nicht unterstützt.
 
 ### entity.margin
 
