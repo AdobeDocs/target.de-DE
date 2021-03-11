@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mithilfe von Entitätsattributen Produkt- ode
 title: Wie verwende ich Entitätsattribute?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
+source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,22 +23,22 @@ Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an [!DNL
 >* `entity.id` muss mit der auf der Bestellbestätigungsseite  `productPurchasedId` gesendeten und der in Adobe Analytics-Produktberichten  `productId` verwendeten übereinstimmen.
    >
    >
-* Bereitgestellte Entitätsattributwerte laufen nach 61 Tagen ab. Dies bedeutet, dass Sie sicherstellen sollten, dass der neueste Wert jedes Entitätsattributs mindestens einmal pro Monat an Zielempfehlungen für jedes Element in Ihrem Katalog übergeben wird.
+* Bereitgestellte Entitätsattributwerte laufen nach 61 Tagen ab. Dieser Ablauf bedeutet, dass Sie sicherstellen müssen, dass der aktuelle Wert jedes Entitätsattributs mindestens einmal monatlich für jedes Element in Ihrem Katalog an Zielgruppe Recommendations übergeben wird.
 
 
 Von den meisten vorab definierten Parametern wird nur ein einzelner Wert akzeptiert, wobei neue Werte die alten überschreiben. Der `categoryId`-Parameter kann für jede Kategorie, in der das Produkt enthalten ist, eine kommagetrennte Liste mit Werten akzeptieren. Neue `categoryId`-Werte überschreiben die vorhandenen Werte nicht mehr, sondern werden bei einer Entitätsaktualisierung angehängt (Längenbeschränkung von 250 Zeichen).
 
-Im Allgemeinen kann die Mbox mit den Anzeigeinformationen wie im folgenden Beispiel aussehen, wenn Sie at.js 1 verwenden.*xwith*  `mboxCreate`.
+Im Allgemeinen sieht die Mbox mit den Anzeigeinformationen wie im folgenden Beispiel aus, wenn Sie at.js 1 verwenden.*xwith*  `mboxCreate`.
 
 >[!NOTE]
 >
->* Wenn Sie at.js 2 verwenden.*x*,  `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So geben Sie Produkt- oder Inhaltsinformationen mit at.js 2 an Recommendations weiter.*x*, verwenden Sie  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ein Beispiel hierfür finden Sie unter [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md).
+>* Wenn Sie at.js 2 verwenden.*x*,  `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So geben Sie Produkt- oder Inhaltsinformationen mit at.js 2 an Recommendations weiter.*x*, verwenden Sie  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ein Beispiel finden Sie unter [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md).
 
 >
 
 
 
-Bei allen Entitätsparameterattributen wird zwischen Groß- und Kleinschreibung unterschieden.
+Bei allen Entitätsparameterattributen wird die Groß-/Kleinschreibung beachtet.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -102,7 +102,7 @@ Beispiel: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Mehrere Werte werden unterstützt (kommagetrennte Liste).
 
-Kategorie der aktuellen Seite. Sie kann mehrere Kategorien umfassen, wie eine weitere Unterteilung in Strickjacken (d. h. Damen, Damen:Pullover, Damen:Pullover:Strickjacken). Mehrere Kategorien sollten durch Kommas abgetrennt werden.
+Kategorie der aktuellen Seite. Die entity.categoryID kann mehrere Kategorien enthalten, z. B. einen Unterabschnitt für Strickjacken (d. h. Damen, Damen:Pullover, Damen:Pullover:Strickjacken). Mehrere Kategorien müssen durch Kommas getrennt werden.
 
 `categoryId`ist auf 250 Zeichen begrenzt.
 
@@ -118,7 +118,7 @@ Beispiele:
 
 Bei kategoriebasierten Empfehlungen wird ein Komma verwendet, um Kategoriewerte zu trennen. Alle durch Kommas getrennten Werte sind dann Kategorien. Sie können auch Unterkategorien mit einem anderen Trennzeichen, beispielsweise einem Doppelpunkt (:), definieren, um Unterkategorien innerhalb des Kategoriewerts zu trennen.
 
-Im folgenden Code ist die Kategorie „Womens“ beispielsweise in mehrere Unterkategorien unterteilt:
+Im folgenden Code wird die Kategorie der Frau beispielsweise in mehrere Unterkategorien unterteilt:
 
 ```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
@@ -166,11 +166,11 @@ Zeigt den Lagerbestand des Artikels.
 
 Beispiel: `'entity.inventory=1'`
 
-**Handhabung von leeren Lagerattributen:** Wenn Sie für die Bereitstellung eine Einschlussregel, eine Sammlungsregel oder eine Kriterieneinstellung mit `entity.inventory`„> 0“ oder `entity.inventory`„= 0“ festlegen und das Produkt den Bestand nicht enthält, [!DNL Target] wird dies auf TRUE gesetzt und enthält Produkte, bei denen der Bestand nicht eingestellt ist. Dies geschieht standardmäßig, damit auch Produkte, deren Inventar nicht festgelegt ist, in Empfehlungsergebnissen angezeigt werden.
+**Handhabung von leeren Lagerbestandsattributen:** Wenn Sie zum Versand eine Einschlussregel, eine Erfassungsregel oder eine Kriterieneinstellung mit  `entity.inventory` > 0 oder  `entity.inventory` = 0 haben und das Produkt keinen Bestand eingestellt hat, wird dieser Wert mit TRUE  [!DNL Target] ausgewertet und umfasst Produkte, bei denen der Bestand nicht eingestellt ist. Aus diesem Grund werden Produkte mit nicht eingestelltem Bestand in den Empfehlungsergebnissen angezeigt.
 
 Wenn Sie eine globale Ausschlussregel mit `entity.inventory` = 0 und `entity.inventory` nicht festgelegt haben, wird diese Regel von [!DNL Target] auf TRUE gesetzt und das Produkt ausgeschlossen.
 
-**Bekanntes Problem:** Die Produktsuche ist nicht mit der Bereitstellung für nicht festgelegte Bestandswertattribute konsistent. Bei einer Regel mit `entity.inventory` = 0 zeigt die Produktsuche keine Produkte an, bei denen der Bestandswert nicht festgelegt ist.
+**Bekanntes Problem:** Die Produktsuche ist nicht mit der Bereitstellung für nicht festgelegte Bestandswertattribute konsistent. Beispielsweise zeigt die Produktsuche bei einer Regel mit `entity.inventory` = 0 keine Produkte an, bei denen der Bestandserhaltungswert nicht eingestellt ist.
 
 ### entity.value
 
@@ -194,12 +194,12 @@ Beispiel: `'entity.margin=1.00'`
 
 Mehrere Werte werden unterstützt (JSON-Array).
 
-Definieren Sie bis zu 100 benutzerspezifische Variablen, um weitere Informationen zum Artikel bereitzustellen. Sie können jeden nicht bereits in Gebrauch befindlichen Attributnamen für die benutzerspezifischen Attribute verwenden. Möglicherweise möchten Sie ein benutzerdefiniertes Attribut mit dem Namen `entity.genre` erstellen, um damit ein Buch oder einen Film zu kategorisieren. Oder ein Ticketverkäufer kann Attribute zur Halle einrichten, um über einen zusätzlichen Auftritt, z. B. ein weiteres Team, das bei einer Sportveranstaltung mitwirkt, oder die Vorgruppe bei einem Konzert, zu informieren.
+Definieren Sie bis zu 100 benutzerspezifische Variablen, um weitere Informationen zum Artikel bereitzustellen. Sie können jeden nicht bereits in Gebrauch befindlichen Attributnamen für die benutzerspezifischen Attribute verwenden. Sie können beispielsweise ein benutzerdefiniertes Attribut mit dem Namen `entity.genre` erstellen, um ein Buch oder einen Film zu definieren. Ein Ticketverkäufer kann Attribute für einen Veranstaltungsort eines Ereignisses für einen Sekundärdarsteller erstellen, z. B. ein Besuchsteam in einem Ereignis oder eine Eröffnungsveranstaltung in einem Konzert.
 
 Einschränkungen:
 
 * Sie können keine voreingestellten Entitätsattributnamen für benutzerdefinierte Entitätsattribute verwenden.
-* Das Attribut entity.environment ist vom System reserviert und kann nicht für benutzerdefinierte Entitätsattribute verwendet werden. Versuche, entity.environment mit targetPageParams, Feed oder API zu übermitteln, werden ignoriert.
+* Das Attribut entity.environment ist vom System reserviert und kann nicht für benutzerdefinierte Entitätsattribute verwendet werden. Versuche, entity.Umgebung mit targetPageParams, Feed oder API zu übergeben, werden ignoriert.
 
 Beispiele:
 
@@ -223,7 +223,7 @@ Wird dazu verwendet zu verhindern, dass durch einen Mbox-Aufruf der Zähler für
 
 Beispiel: `'entity.event.detailsOnly=true'`
 
-In den unten gezeigten Beispielen werden Katalog- und Verhaltensdaten mit dem Mbox-Aufruf aktualisiert. Mit dem zweiten Mbox-Aufruf wird lediglich der Katalog aktualisiert.
+In den unten stehenden Beispielen werden Katalog- und Verhaltensdaten mit dem ersten Mbox-Aufruf aktualisiert. Beim zweiten Mbox-Aufruf wird nur der Katalog aktualisiert.
 
 ```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
