@@ -1,13 +1,13 @@
 ---
 keywords: Entität Entitätsattribute; Weiterleiten von Informationen an Recommendations; Verhaltensdaten; Datenzähler; relative URL definieren; Lagerbestandsebene anzeigen; Preis festlegen; Festlegen der Gewinnspanne; benutzerdefinierte Attribute
-description: Erfahren Sie, wie Sie mithilfe von Entitätsattributen Produkt- oder Inhaltsinformationen an Adobe Target Recommendations weiterleiten können.
+description: Erfahren Sie, wie Sie Entitätsattribute verwenden, um Produkt- oder Inhaltsinformationen an Zielgruppe Recommendations zu übermitteln.
 title: Wie verwende ich Entitätsattribute?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
+source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1080'
+ht-degree: 57%
 
 ---
 
@@ -16,29 +16,22 @@ ht-degree: 0%
 
 Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an [!DNL Adobe Target Recommendations] weiterzugeben.
 
+Entitäten beziehen sich auf die Artikel, die Sie empfehlen möchten. Entitäten können Produkte, Inhalte (Artikel, Diashows, Bilder, Filme und Fernsehsendungen), Stellenangebote, Restaurants usw. umfassen.
+
 [!DNL Recommendations] sendet die `productId` oder `productPurchasedId` (`entity.id` im Code), die in den Algorithmen verwendet wird.
 
->[!NOTE]
->
->* `entity.id` muss mit der auf der Bestellbestätigungsseite  `productPurchasedId` gesendeten und der in Adobe Analytics-Produktberichten  `productId` verwendeten übereinstimmen.
-   >
-   >
-* Bereitgestellte Entitätsattributwerte laufen nach 61 Tagen ab. Dieser Ablauf bedeutet, dass Sie sicherstellen müssen, dass der aktuelle Wert jedes Entitätsattributs mindestens einmal monatlich für jedes Element in Ihrem Katalog an Zielgruppe Recommendations übergeben wird.
+Beachten Sie Folgendes:
 
+* `entity.id` muss mit der  `productPurchasedId` gesendeten Bestellbestätigungsseite und der  `productId` in  [!DNL Adobe Analytics] Produktberichten verwendeten übereinstimmen.
+* An [!DNL Recommendations] übergebene Entitätsattributwerte laufen nach 61 Tagen ab. Adobe empfiehlt, den neuesten Wert jedes Entitätsattributs mindestens einmal pro Monat an [!DNL Recommendations] für jedes Element in Ihrem Katalog zu übergeben.
 
-Von den meisten vorab definierten Parametern wird nur ein einzelner Wert akzeptiert, wobei neue Werte die alten überschreiben. Der `categoryId`-Parameter kann für jede Kategorie, in der das Produkt enthalten ist, eine kommagetrennte Liste mit Werten akzeptieren. Neue `categoryId`-Werte überschreiben die vorhandenen Werte nicht mehr, sondern werden bei einer Entitätsaktualisierung angehängt (Längenbeschränkung von 250 Zeichen).
+Die meisten vordefinierten Parameter akzeptieren nur einen einzelnen Wert, wobei neue Werte alte Werte überschreiben. Der `categoryId`-Parameter kann für jede Kategorie, in der das Produkt enthalten ist, eine kommagetrennte Liste mit Werten akzeptieren. Neue `categoryId`-Werte überschreiben die vorhandenen Werte nicht mehr, sondern werden bei einer Entitätsaktualisierung angehängt (Längenbeschränkung von 250 Zeichen).
 
-Im Allgemeinen sieht die Mbox mit den Anzeigeinformationen wie im folgenden Beispiel aus, wenn Sie at.js 1 verwenden.*xwith*  `mboxCreate`.
+Im Allgemeinen sieht die Mbox mit den Anzeigeinformationen wie im folgenden Beispiel aus, wenn Sie at.js 1 verwenden.*xwith*  `mboxCreate`. Bei allen Entitätsparameterattributen wird die Groß-/Kleinschreibung beachtet.
 
 >[!NOTE]
 >
->* Wenn Sie at.js 2 verwenden.*x*,  `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So geben Sie Produkt- oder Inhaltsinformationen mit at.js 2 an Recommendations weiter.*x*, verwenden Sie  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ein Beispiel finden Sie unter [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md).
-
->
-
-
-
-Bei allen Entitätsparameterattributen wird die Groß-/Kleinschreibung beachtet.
+>Wenn Sie at.js 2 verwenden.*x*,  `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So geben Sie Produkt- oder Inhaltsinformationen mit at.js 2 an [!DNL Recommendations] weiter.*x*, verwenden Sie  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ein Beispiel finden Sie unter [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md).
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -86,7 +79,7 @@ Nur einzelner Wert.
 
 Dieser erforderliche Parameter identifiziert das Produkt. Diese alphanumerische ID muss für alle [!DNL Adobe Experience Cloud] -Produkte gleich sein, einschließlich [!DNL Analytics], damit die verschiedenen Produkte das Element erkennen und Daten darüber austauschen.
 
-`entity.id`*-Werte dürfen keine Schrägstriche, Kaufmännisches-Und-Zeichen, Fragezeichen, Prozentsymbole, Kommas oder andere Satzzeichen enthalten, die eine URL-Kodierung erfordern, wenn sie in einem REST-API-Aufruf übergeben werden.* Binde- und Unterstriche sind zulässig. Wenn in einem `entity.id`[!DNL Recommendations]-Wert ungültige Satzzeichen enthalten sind, schlagen manche fehl.
+Die Werte für `entity.id` dürfen keine Zeichen für Schrägstriche, Umrandungen, Fragezeichen, Prozentzeichen, Kommas oder andere Interpunktionszeichen enthalten, die bei der Übergabe eines REST-API-Aufrufs eine URL-Kodierung erfordern. ** Bindestriche und Unterstriche sind zulässig. Wenn in einem `entity.id`[!DNL Recommendations]-Wert ungültige Satzzeichen enthalten sind, schlagen manche fehl.
 
 Beispiel: `'entity.id=67833'`
 
@@ -102,9 +95,9 @@ Beispiel: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Mehrere Werte werden unterstützt (kommagetrennte Liste).
 
-Kategorie der aktuellen Seite. Die entity.categoryID kann mehrere Kategorien enthalten, z. B. einen Unterabschnitt für Strickjacken (d. h. Damen, Damen:Pullover, Damen:Pullover:Strickjacken). Mehrere Kategorien müssen durch Kommas getrennt werden.
+Kategorie der aktuellen Seite. Die entity.categoryID kann mehrere Kategorien enthalten, z. B. einen Unterabschnitt &quot;Strickjacken&quot;(z. B. Damen, Damen:Pullover, Damen:Pullover:Strickjacken). Mehrere Kategorien müssen durch Kommas getrennt werden.
 
-`categoryId`ist auf 250 Zeichen begrenzt.
+Der Wert `categoryId` ist auf 250 Zeichen begrenzt.
 
 >[!NOTE]
 >
@@ -116,7 +109,7 @@ Beispiele:
 * Beispielseite für Kategorie „Sweater“: womens:sweaters
 * Beispielseite für Kategorie „Cardigans“: womens:sweaters
 
-Bei kategoriebasierten Empfehlungen wird ein Komma verwendet, um Kategoriewerte zu trennen. Alle durch Kommas getrennten Werte sind dann Kategorien. Sie können auch Unterkategorien mit einem anderen Trennzeichen, beispielsweise einem Doppelpunkt (:), definieren, um Unterkategorien innerhalb des Kategoriewerts zu trennen.
+Bei Kategorien-basierten Empfehlungen wird der Wert der Kategorie durch ein Komma getrennt. Alle durch Kommas getrennten Werte sind dann Kategorien. Sie können auch Unterkategorien mit einem anderen Trennzeichen, beispielsweise einem Doppelpunkt (:), definieren, um Unterkategorien innerhalb des Kategoriewerts zu trennen.
 
 Im folgenden Code wird die Kategorie der Frau beispielsweise in mehrere Unterkategorien unterteilt:
 
@@ -154,7 +147,7 @@ Beispiel: `'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
 
 Nur einzelner Wert
 
-Eine Botschaft zu dem in der Empfehlung angezeigten Produkt, wie zum Beispiel „Im Angebot“ oder „Ausverkauf“. Die Botschaft ist in der Regel ausführlicher als der Produktname. Kann zur Definition zusätzlicher Informationen zur Anzeige mit dem Produkt in der Vorlage verwendet werden.
+Eine Botschaft zu dem in der Empfehlung angezeigten Produkt, wie zum Beispiel „Im Angebot“ oder „Ausverkauf“. Die Botschaft ist in der Regel ausführlicher als der Produktname. Verwenden Sie entity.message, um zusätzliche Informationen zu definieren, die zusammen mit dem Produkt in der Vorlage angezeigt werden sollen.
 
 Beispiel: `'entity.message=Family&nbsp;special'`
 
@@ -170,7 +163,7 @@ Beispiel: `'entity.inventory=1'`
 
 Wenn Sie eine globale Ausschlussregel mit `entity.inventory` = 0 und `entity.inventory` nicht festgelegt haben, wird diese Regel von [!DNL Target] auf TRUE gesetzt und das Produkt ausgeschlossen.
 
-**Bekanntes Problem:** Die Produktsuche ist nicht mit der Bereitstellung für nicht festgelegte Bestandswertattribute konsistent. Beispielsweise zeigt die Produktsuche bei einer Regel mit `entity.inventory` = 0 keine Produkte an, bei denen der Bestandserhaltungswert nicht eingestellt ist.
+**Bekanntes Problem: Die** Produktsuche stimmt nicht mit dem Versand für nicht eingestellte Lagerwertattribute überein. Beispielsweise zeigt die Produktsuche bei einer Regel mit `entity.inventory` = 0 keine Produkte an, bei denen der Bestandserhaltungswert nicht eingestellt ist.
 
 ### entity.value
 
@@ -211,9 +204,7 @@ Benutzerdefinierte Entitätsattribute unterstützen mehrere Werte. Siehe [Benutz
 
 Beispiel: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
->[!NOTE]
->
->Benutzerdefinierte Entitätsattribute mit mehreren Werten erfordern gültige JSON-Arrays. Informationen zu korrekten Syntaxinformationen finden Sie unter „Benutzerdefinierte Entitätsattribute“.
+Benutzerdefinierte Entitätsattribute mit mehreren Werten erfordern gültige JSON-Arrays. Die richtigen Syntaxinformationen finden Sie unter [Benutzerspezifische Entitätsattribute](/help/c-recommendations/c-products/custom-entity-attributes.md).
 
 ### entity.event.detailsOnly
 
@@ -230,6 +221,7 @@ mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new yor
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
 
-## Verwandte Themen:
+>[!MORELIKETHIS]
+>
+>* [Benutzerdefinierte Entitätsattribute](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
 
-* [Benutzerdefinierte Entitätsattribute](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
