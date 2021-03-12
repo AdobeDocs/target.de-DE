@@ -1,13 +1,13 @@
 ---
-keywords: Analytics für Target; a4t; Analytics als Berichtsquelle
+keywords: Analytics für Zielgruppen;a4t;Analytics als Berichte-Quelle;Analytics
 description: Erfahren Sie, wie Sie Analytics für die Zielgruppe (A4T) verwenden. A4T bietet Zugriff auf Analytics-Berichte für Aktivitäten der Zielgruppe, die Analytics-Metriken und Audiencen-Segmente verwenden.
 title: Wie verwende ich Berichte in A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 30%
+source-wordcount: '690'
+ht-degree: 28%
 
 ---
 
