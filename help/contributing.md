@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b14736a6f49e4276c94490f2fa435a87f8d365ae
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '145'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Dieses Projekt unterliegt dem Adobe-[Verhaltenskodex](https://git.corp.adobe.com
 
 ## Lizenzvereinbarung für Beitragende
 
-Bei allen Drittanbieter-Beiträgen zu diesem Projekt muss eine entsprechende unterschriebene Mitarbeiter-Lizenz vorliegen. Somit ist es Adobe gestattet, Ihre Beiträge im Rahmen des Projekts neu zu verteilen. Signieren Sie unsere CLA unter [SOME LINK](noch kein Link). Sie müssen nur einmal eine Adobe CLA einreichen. Sollten Sie also bereits zuvor eine eingereicht haben, sind Sie wahrscheinlich startklar!
+Bei allen Drittanbieter-Beiträgen zu diesem Projekt muss eine entsprechende unterschriebene Mitarbeiter-Lizenz vorliegen. Somit ist es Adobe gestattet, Ihre Beiträge im Rahmen des Projekts neu zu verteilen. Sie müssen nur einmal eine Adobe CLA einreichen. Sollten Sie also bereits zuvor eine eingereicht haben, sind Sie wahrscheinlich startklar!
 
 ## Code-Überprüfungen
 
