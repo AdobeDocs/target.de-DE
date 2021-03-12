@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Aktivitäten für die automatische Zuordnung 
 title: Unterstützt A4T Aktivitäten mit automatisierter Zuordnung und automatischer Zielgruppe?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 3%
+source-wordcount: '964'
+ht-degree: 2%
 
 ---
 
@@ -96,3 +96,11 @@ Einige Einschränkungen und Hinweise gelten für die Aktivitäten [!UICONTROL Au
 * Bei Verwendung von [!DNL Analytics] als Datenquelle für eine [!UICONTROL Auto-Zielgruppe]-Aktivität enden die Sitzungen nach Ablauf von sechs Stunden. Konversionen, die nach sechs Stunden auftreten, werden nicht gezählt.
 
 Weitere Informationen finden Sie unter [Zuordnungsmodelle und Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) im *Analytics-Tools-Handbuch*.
+
+## Übung: Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischer Zielgruppe {#tutorial}
+
+Obwohl Rich-Analyse-Funktionen in [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace] verfügbar sind, sind einige Änderungen am Standardbedienfeld [!UICONTROL Analytics für Zielgruppe] erforderlich, um Aktivitäten der automatischen Zielgruppe korrekt zu interpretieren. Diese Änderungen sind aufgrund von Unterschieden zwischen experimentellen Aktivitäten (manuelle A/B- und [!UICONTROL Automatisierte Zuordnung]) und Personalisierungs-Aktivitäten ([!UICONTROL Automatische Zielgruppe]) erforderlich.
+
+Dieses Lernprogramm führt Sie durch die empfohlenen Änderungen zur Analyse der Aktivitäten [!UICONTROL Auto-Zielgruppe] in [!UICONTROL Workspace].
+
+Weitere Informationen finden Sie unter [Wie Sie A4T-Berichte in Analysis Workspace für Aktivitäten mit automatischer Zielgruppe](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target-Tutorials einrichten*.
