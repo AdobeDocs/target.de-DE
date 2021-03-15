@@ -4,10 +4,10 @@ description: Antworten auf Fragen, die häufig nach der Anzeige von Berichten be
 title: Antworten auf Fragen zur Ansicht von Berichten mit A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 40%
+source-wordcount: '2434'
+ht-degree: 39%
 
 ---
 
@@ -55,6 +55,8 @@ Beachten Sie Folgendes:
 * Der obige Metriken-Trigger, wenn sich ein Benutzer für eine Aktivität qualifiziert und der Inhalt von [!DNL Target] zurückgegeben wird. Das bedeutet nicht zwingend, dass der Benutzer das Angebot gesehen hat. Wenn ein Aktivitätserlebnis sich unterhalb des angezeigten Bildschirmbereichs befindet und der Benutzer nicht nach unten scrollt, wurde das Angebot zwar von [!DNL Target] bereitgestellt, aber nicht vom Benutzer gesehen.
 * [!UICONTROL Aktivitätsimpressionen] (gemessen durch [!DNL Target]) und [!UICONTROL Instanzen] (gemessen durch [!DNL Analytics]) sind gleich, sofern nicht mehrere Mbox-Aufrufe auf derselben Seite in derselben Aktivität vorhanden sind. Hierdurch werden mehrere [!UICONTROL Aktivitätsimpressionen] gezählt, aber nur eine [!UICONTROL Instanz].
 
+Weitere Informationen finden Sie unter [Wie Sie A4T-Berichte in Analysis Workspace für Aktivitäten mit automatischer Zielgruppe](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target-Tutorials einrichten*.
+
 ## Warum sind &quot;Aktivitäten-Impressionen&quot;und &quot;Aktivitäten-Konversionen&quot;in Analysis Workspace höher als in Reports &amp; Analysen? {#sametouch}
 
 [!DNL Reports & Analytics] wendet ein Gleichheitszuordnungsmodell auf &quot;Aktivität Impressionen&quot;und &quot;Aktivität-Konversionen&quot;an, während die Rohmetriken  [!DNL Analysis Workspace] angezeigt werden, die aufgrund der Persistenz der  [!DNL Target] Dimension überhöht erscheinen können.
@@ -91,28 +93,28 @@ Am 1. Januar besucht der Benutzer die Seite, sieht einmal die Aktivität XYZ u
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Unique Visitors |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 5 | 3 | 3 |
 
 Der Benutzer kehrt dann am 1. Februar zurück, sieht fünf weitere Seiten, findet keine weiteren Target-Aktivitäten vor und die ursprüngliche Aktivität ist nicht mehr aktiv. Auch wenn die Aktivität nicht mehr aktiv ist, wird der Benutzer wegen der eVar-Persistenz jedoch weiterhin verfolgt. Die Daten sehen anschließend wie folgt aus:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 3 |
+| XYZ | 3 | 10 | 2 | 1 |
 
 Der Benutzer kehrt am 1. März zurück und sieht die neue Aktivität ABC. Er sieht außerdem fünf Seiten. Da Aktivität XYZ dem Benutzer weiterhin durch Persistenz folgt und dieser Benutzer dann ABC eingestellt hat, werden in Berichte zwei Zeilenelemente angezeigt:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 3 | 1 |
+| XYZ | 1 | 15 | 3 | 1 |
+| ABC | 1 | 5 | 1 | 3 |
 
 Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und tätigt einen Kauf. Die 90-Tage-Ablaufzeit dieses ersten eVar wird am 1. April zurückgesetzt, sodass Sie dies in Berichte sehen können. Und allen Target-Aktivitäten, die der Benutzer sieht, wird die Konversion gutgeschrieben, die Gesamtzahl der Konversionen wird jedoch dedupliziert:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher | Bestellungen |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 1 |
+| XYZ | 3 | 20 | 4 | 3 | 1 |
 | ABC | 3 | 10 | 2 | 1 | 1 |
-| Gesamt | 2 | 20 | 1 | 1 | 1 |
+| Gesamt | 2 | 20 | 3 | 1 | 1 |
 
 Da beide Erlebnisse vor der Konvertierung gesehen wurden, erhalten beide Erlebnisse eine &quot;Gutschrift&quot;für die Bestellung. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für [!DNL Target]-Berichte, da Sie keine [!DNL Target]-Aktivität gegen eine andere Aktivität stellen, um zu sehen, welche erfolgreicher ist, ist es egal, dass alle Aktivitäten, die der Benutzer gesehen hat, gutgeschrieben wurden. Sie vergleichen die Ergebnisse zweier Elemente innerhalb einer Aktivität. Es ist für einen Benutzer nicht möglich, verschiedene Erlebnisse auf die gleiche Aktivität zu sehen, sodass Sie sich keine Sorgen über eine Kreuzkontamination der Bestellungskredite machen müssen.
 
