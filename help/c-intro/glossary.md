@@ -1,12 +1,12 @@
 ---
 description: Was bedeuten unterschiedliche Begriffe in Adobe Target? Hier finden Sie Definitionen allgemeiner Begriffe, die Ihnen helfen, mehr über die Zielgruppe zu erfahren.
 title: Wo finde ich Begriffe und Definitionen, die in der Zielgruppe verwendet werden?
-feature: Overview
+feature: Überblick
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 97%
+source-wordcount: '2472'
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ Nützlich zum Testen des Marketings von Sites, die keine Mbox haben, z. B. Part
 
 **Zielgruppe**
 
-Eine Gruppe ähnlicher Aktivitätsteilnehmer, für die eine ausgewählte Aktivität angezeigt wird.  Eine Gruppe von Personen mit denselben Merkmalen, wie beispielsweise „neuer Besucher“, „wiederkehrender Besucher“ oder „wiederkehrender Besucher aus einem bestimmten Bundesland“. Mit der Zielgruppenfunktion können Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen ausrichten, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen. Wird der Besucher als Teil einer Zielgruppe identifiziert, bestimmt Target basierend auf den Kriterien, die bei der Erstellung der Aktivität festgelegt wurden, welches Erlebnis angezeigt wird.
+Eine Gruppe ähnlicher Aktivitätsteilnehmer, für die eine ausgewählte Aktivität angezeigt wird.  Eine Personengruppe mit denselben Merkmalen, wie z. B. ein neuer Besucher, ein wiederkehrender Besucher oder help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds aus dem Mittleren Westen. Mit der Zielgruppenfunktion können Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen ausrichten, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen. Wird der Besucher als Teil einer Zielgruppe identifiziert, bestimmt Target basierend auf den Kriterien, die bei der Erstellung der Aktivität festgelegt wurden, welches Erlebnis angezeigt wird.
 
 **Automatische Zuordnung**
 
@@ -241,6 +241,18 @@ Wird über die Seite weitergegeben, nicht über die URL. Diese Parameter werden 
 
 Beim Multivariate Testing (MVT) werden Kombinationen von Angeboten in Elementen auf einer Seite verglichen, um festzustellen, welche Kombination bei einer bestimmten Zielgruppe am besten ankommt. Zusätzlich wird ermittelt, welches Element den größten Einfluss auf den Erfolg einer Aktivität hat
 
+## N
+
+**Neuer Besucher**
+
+Ein Besucher wird in das Segment Neue Besucher einbezogen, wenn eine der folgenden Bedingungen erfüllt ist:
+
+* Der Besucher besucht die Site zum ersten Mal.
+* Der Besucher besucht die Site zum ersten Mal seit dem Löschen von Cookies.
+* Der Besucher besucht die Site zum ersten Mal seit Ablauf der Lebensdauer des [Besucher-Profils](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md).
+
+Weitere Informationen finden Sie unter [Wie werden die Metriken &quot;Neue Besucher&quot;und &quot;Wiederkehrende Besucher&quot;gezählt?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in Berichte Fragen und Antworten. Kontrast zu &quot;wiederkehrender Besucher&quot; unten.
+
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
 **Ziel**
@@ -278,6 +290,12 @@ Leitet einen Besucher an eine andere Webseite weiter. Verwenden Sie die Weiterle
 **Verweisender URL-Parameter**
 
 Gibt Werte an die Mbox der Zielseite als verweisende URL-Parameter und -Werte weiter. Mit diesen Parametern kann z. B. auf die Quelle des Besuchers abgezielt werden.
+
+**Wiederkehrender Besucher**
+
+Der Besucher wird im Segment &quot;Rückkehrende Besucher&quot;enthalten, wenn der Benutzer die Site zuvor besucht hat, mindestens 30 Minuten lang verlassen hat und mit denselben Cookies erneut zur Site zurückkehrt. Solange ein Besucher innerhalb der Lebensdauer seines Profils zurückkehrt, ist dieser Besucher ein wiederkehrender Besucher.
+
+Weitere Informationen finden Sie unter [Wie werden die Metriken für neue Besucher und wiederkehrende Besucher](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in Berichte Fragen und Antworten gezählt? Kontrast zu &quot;Neuer Besucher&quot; oben.
 
 **Rolle**
 
