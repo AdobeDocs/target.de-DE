@@ -2,23 +2,27 @@
 keywords: Fehlerbehebung;Metrikdiskrepanzen;FAQ;Berichte;Neuer Besucher;Neue Besucher;Rückkehrender Besucher;Rückkehrende Besucher;Rückkehrender Besuch;Neuer Besuch
 description: Entdecken Sie eine Liste häufig gestellter Fragen und Antworten zum Adobe Target Berichte.
 title: Wo finde ich Antworten auf Fragen zum Berichte der Zielgruppe?
-feature: Reports
+feature: Berichte
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 29%
+source-wordcount: '1221'
+ht-degree: 23%
 
 ---
 
 
-# Häufig gestellte Fragen zum Reporting{#reporting-faq}
+# Häufig gestellte Fragen zum Reporting
 
-Liste der häufig gestellten Fragen zur Berichterstellung in [!DNL Target].
+Liste der häufig gestellten Fragen zur Berichterstellung in [!DNL Adobe Target].
 
-## Wie werden die Metriken &quot;Neue Besucher&quot;und &quot;Wiederkehrende Besucher&quot;gezählt?
+## Wie werden die Metriken &quot;Neue Besucher&quot;und &quot;Wiederkehrende Besucher&quot;gezählt? {#methodology}
 
-Die folgenden Informationen erklären, wie neue Besucher und wiederkehrende Besucher gezählt werden, und zeigen Beispiele dafür, warum die Summe dieser beiden Segmente nicht immer der Gesamtanzahl der Besucher entspricht.
+Der erste Besuch eines neuen Besuchers dauert, solange der Besucher auf der Site aktiv ist.
+Wenn der Benutzer 30 Minuten oder länger inaktiv ist, wird die Sitzung zurückgesetzt. Das Zurücksetzen der Sitzung bedeutet, dass dieser Besucher beim nächsten Besuch zum rückkehrenden Besucher wird oder nach 30 Minuten Inaktivität erneut aktiv wird.
+Wenn sich der Besucher an einem ganzen Tag alle 29 Minuten um die Site bewegt, wird dieser Besucher an diesem ganzen Tag als neuer Besucher gezählt. Die Sitzung wurde nie zurückgesetzt, da der Besucher nie über den 30-Minuten-Schwellenwert hinausging.
+
+Die folgenden Informationen erläutern ausführlicher, wie neue Besucher und wiederkehrende Besucher gezählt werden. Es werden auch Beispiele aufgeführt, die erklären, warum die Summe dieser beiden Besucher nicht immer der Gesamtanzahl der Besucher entspricht.
 
 ### Neue Besucher
 
@@ -30,14 +34,14 @@ Ein Besucher wird in das Segment Neue Besucher einbezogen, wenn eine der folgend
 
 ### Zurückkehrende Besucher
 
-Der Besucher wird im Segment &quot;Rückkehrende Besucher&quot;enthalten, wenn der Benutzer die Site zuvor besucht hat, mindestens 30 Minuten lang verlassen hat und mit denselben Cookies erneut zur Site zurückkehrt. Solange ein Besucher innerhalb der Lebensdauer seines Profils zurückkehrt, ist er ein wiederkehrender Besucher.
+Der Besucher wird im Segment &quot;Rückkehrende Besucher&quot;enthalten, wenn der Benutzer die Site zuvor besucht hat, mindestens 30 Minuten lang verlassen hat und mit denselben Cookies erneut zur Site zurückkehrt. Solange ein Besucher innerhalb der Lebensdauer seines Profils zurückkehrt, ist dieser Besucher ein wiederkehrender Besucher.
 
 Angenommen, die Lebensdauer Ihres Profils ist auf 14 Tage eingestellt (Standard). Ein Besucher wird in das Segment &quot;Rückkehrende Besucher&quot;aufgenommen, wenn die folgenden Bedingungen erfüllt sind:
 
 * Ein Besucher besucht die Site zum ersten Mal und wird als neuer Besucher aufgezeichnet.
 * Der Besucher verlässt die Site, gibt aber sechs Tage später zurück.
 
-Da die Lebensdauer des Profils auf 14 Tage festgelegt ist, ist dieser Besucher im Segment &quot;Rückkehrende Besucher&quot;enthalten. Beachten Sie, dass, wenn der Besucher innerhalb dieses Zeitraums von sechs Tagen Cookies gelöscht hat, dieser Besucher in das Segment &quot;Neue Besucher&quot;aufgenommen wird.
+Da die Lebensdauer des Profils auf 14 Tage festgelegt ist, ist dieser Besucher im Segment &quot;Rückkehrende Besucher&quot;enthalten. Wenn der Besucher innerhalb dieses Zeitraums von sechs Tagen Cookies gelöscht hat, wird dieser Besucher in das Segment &quot;Neue Besucher&quot;aufgenommen.
 
 ### Beispiele zur Erklärung von Diskrepanzen zwischen Metrikwerten
 
@@ -54,7 +58,7 @@ Dieser Besucher wird als ein Besucher in der Gesamtanzahl der Besucher der Aktiv
 
 Beispiel:
 
-Eine Reihe neuer Besucher besuchen Ihre Site und sind für eine Aktivität qualifiziert. Diese neuen Besucher werden für das Segment &quot;Neue Besucher&quot;gezählt. Alle diese Besucher verzeichneten auch einen Besuch in dieser Aktivität.
+Mehrere neue Besucher besuchen Ihre Site und sind für eine Aktivität qualifiziert. Diese neuen Besucher werden für das Segment &quot;Neue Besucher&quot;gezählt. Alle diese Besucher verzeichneten auch einen Besuch in dieser Aktivität.
 
 Einige Besucher trafen die Konversionsmetrik, die als &quot;Anzahl erhöhen und Benutzer in Aktivität halten&quot;konfiguriert wurde. Nehmen wir an, dass einige dieser Benutzer die Konversionsmetrik mehrmals treffen, wird die Konversionsmetrik nicht erhöht. Angesichts dieser Konfiguration könnten einige Benutzer jedoch die Konversionsmetrik treffen und dann zur Startseite zurückkehren, wodurch sie sich erneut zur Aktivität berechnen, um einen neuen Besuch aufzuzeichnen.
 
@@ -64,7 +68,7 @@ XT-Aktivitäten sollten immer ein Kontrollerlebnis haben. Wenn Sie eine XT-Aktiv
 
 ## Warum ist die Anzahl der Besuche in [!DNL Target] niedriger als in anderen [!DNL Adobe Experience Cloud]-Lösungen? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
-Metrikwerte, beispielsweise Besuche, die von [!DNL Target] angezeigt werden, liegen aus verschiedenen Gründen immer unter den Werten in [!DNL Experience Cloud]-Lösungen:
+Metrikzahlen, z. B. Besuche, die von [!DNL Target] gemeldet werden, sind aus verschiedenen Gründen immer niedriger als die gemeldeten Zahlen in anderen [!DNL Experience Cloud]-Lösungen:
 
 * [!DNL Target] zählt nur die Besuche von Besuchern, die für die Aktivität qualifiziert sind. In anderen Lösungen werden Besuche für Besucher angezeigt, die die Seite aufrufen, unabhängig davon, durch welche Aktivität sie auf die Seite gelangt sind.
 * Möglicherweise führen unterschiedliche Aktivitäten zum gleichen Ort (diese Aktivitäten schließen sich gegenseitig aus). Somit werden Besuchern auf einer Webseite verschiedene Inhalte angezeigt, was sich auf die in [!DNL Target] registrierten Metrikwerte auswirkt.
@@ -96,9 +100,9 @@ Weitere Informationen zu Umgebungen finden Sie unter [Hosts](/help/administratin
 
 ## Warum ist der Traffic zwischen meinen Erlebnissen ungleich in meiner A/B- oder MVT-Aktivität? {#uneven}
 
-So setzte ich die Traffic-Aufteilung auf 50/50 oder 25/25/25/25 ein, sehe aber eine sehr unterschiedliche Verteilung der Erlebnisse im Berichte. Es gibt einige erklärbare Gründe für die ungleichmäßige Anzahl von Besuchern im Berichte [!DNL Target]:
+So setzte ich die Traffic-Aufteilung auf 50/50 oder 25/25/25/25 ein, sehe aber eine sehr unterschiedliche Verteilung der Erlebnisse im Berichte. Es gibt mehrere erklärbare Gründe für die ungleiche Anzahl von Besuchern im Berichte [!DNL Target]:
 
-* Wenn eine [!DNL Target]-Aktivität zum ersten Mal gestartet wird, kann die Traffic-Verteilung aufgrund der Edge-Knotenarchitektur, die [!DNL Target] zur Optimierung des Experience Versand verwendet, ungleich sein. Die beste Vorgehensweise ist, einer Aktivität Zeit zur Erhebung zusätzlicher Daten einzuräumen, und die Verteilung normalisiert sich. Weitere Informationen zur Architektur und zu Edge-Knoten finden Sie unter [Funktionsweise von Adobe Target](/help/c-intro/how-target-works.md).[!DNL Adobe Target]
+* Wenn eine [!DNL Target]-Aktivität zum ersten Mal gestartet wird, kann die Traffic-Verteilung aufgrund der Edge-Knotenarchitektur, die [!DNL Target] zur Optimierung des Experience Versand verwendet, ungleich sein. Die beste Methode ist, einer Aktivität Zeit einzuräumen, mehr Daten zu sammeln, und die Verteilung normalisiert sich. Weitere Informationen zur Architektur und zu Edge-Knoten finden Sie unter [Funktionsweise von Adobe Target](/help/c-intro/how-target-works.md).[!DNL Adobe Target]
 * Wenn Sie sich in [!DNL Target] oder [!DNL Analytics] befinden und die Metrik **[!UICONTROL Besuche]** verwenden, denken Sie daran, dass [!DNL Target] ein Besucher-basiertes System ist und die Traffic-Verteilung für einen A/B- oder MVT-Test auf der Ebene des Besuchers zugewiesen wird. Wenn Sie also die Ergebnisse der Aktivität mit der Metrik **[!UICONTROL Besuche]** untersuchen, kann die Traffic-Verteilung ungleich erscheinen, da bestimmte Besucher möglicherweise mehrere Besuche haben. Besucher ist die standardmäßige Normalisierungsmetrik bei der Bewertung der Aktivität.
 * Die beste Methode für A/B- und MVT-Tests besteht darin, Traffic-Aufteilungen gleichmäßig zu halten. Die Änderung der Traffic-Verteilung zwischen Erlebnissen (z. B. 90/10 bis 50/50) während eines Tests kann zu uneinheitlichen Besuchern über Erlebnisse hinweg führen. Das geringere Traffic-Erlebnis wird möglicherweise nie &quot;aufholen&quot;.
 * Wenn Sie die oben genannten Best Practices befolgen und sich die Traffic-Aufteilung im Laufe der Zeit nicht normalisiert, sollten Sie Folgendes überprüfen:
