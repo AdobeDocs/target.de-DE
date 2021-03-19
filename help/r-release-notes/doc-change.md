@@ -4,9 +4,9 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der A
 title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 translation-type: tm+mt
-source-git-commit: 6a1f51cba34038abc3c73fa5cf88bfab183dfb28
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
-source-wordcount: '3767'
+source-wordcount: '3790'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,8 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 12. März 2021 | [A4T-Unterstützung für Aktivitäten zur automatischen Zuordnung und automatischen Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | Das folgende neue Lernprogramm wurde hinzugefügt:<ul><li>Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten der automatischen Zielgruppe</li></ul> |
+| 19. März | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | Folgende häufig gestellte Fragen wurden hinzugefügt:<ul><li>Warum sehe ich nach der Deaktivierung meiner Aktivität weiterhin mehr Impressionen?</li></ul> |
+| 12. März | [A4T-Unterstützung für Aktivitäten zur automatischen Zuordnung und automatischen Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | Das folgende neue Lernprogramm wurde hinzugefügt:<ul><li>Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten der automatischen Zielgruppe</li></ul> |
 | März 9 | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Die zulässigen Größenbeschränkungen für Angebote wurden aktualisiert.</li><li>Die Zeichenbeschränkung für den categoryId-Parameter wurde korrigiert.</li></ul> |
 |  | [Zulassungsliste Zielgruppe Edge-Knoten](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Die Edge-IP-Adressen [!DNL Target] wurden aktualisiert. |
 |  | [Entitätsattribute](/help/c-recommendations/c-products/entity-attributes.md) | Es wurde Text hinzugefügt, der angibt, dass entity.value im Dezimalformat sein muss (z. B. 15.99 anstelle von 15.99). |
