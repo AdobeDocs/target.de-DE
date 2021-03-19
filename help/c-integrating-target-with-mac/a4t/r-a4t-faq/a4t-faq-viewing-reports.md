@@ -4,10 +4,10 @@ description: Antworten auf Fragen, die häufig nach der Anzeige von Berichten be
 title: Antworten auf Fragen zur Ansicht von Berichten mit A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
+source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 39%
+source-wordcount: '2526'
+ht-degree: 38%
 
 ---
 
@@ -93,7 +93,7 @@ Am 1. Januar besucht der Benutzer die Seite, sieht einmal die Aktivität XYZ u
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Unique Visitors |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 3 | 3 |
+| XYZ | 1 | 5 | 1 | 1 |
 
 Der Benutzer kehrt dann am 1. Februar zurück, sieht fünf weitere Seiten, findet keine weiteren Target-Aktivitäten vor und die ursprüngliche Aktivität ist nicht mehr aktiv. Auch wenn die Aktivität nicht mehr aktiv ist, wird der Benutzer wegen der eVar-Persistenz jedoch weiterhin verfolgt. Die Daten sehen anschließend wie folgt aus:
 
@@ -105,20 +105,24 @@ Der Benutzer kehrt am 1. März zurück und sieht die neue Aktivität ABC. Er sie
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 1 |
+| XYZ | 3 | 15 | 3 | 1 |
 | ABC | 1 | 5 | 1 | 3 |
 
 Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und tätigt einen Kauf. Die 90-Tage-Ablaufzeit dieses ersten eVar wird am 1. April zurückgesetzt, sodass Sie dies in Berichte sehen können. Und allen Target-Aktivitäten, die der Benutzer sieht, wird die Konversion gutgeschrieben, die Gesamtzahl der Konversionen wird jedoch dedupliziert:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher | Bestellungen |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 1 |
-| ABC | 3 | 10 | 2 | 1 | 1 |
-| Gesamt | 2 | 20 | 3 | 1 | 1 |
+| XYZ | 3 | 20 | 4 | 3 | 3 |
+| ABC | 1 | 10 | 2 | 1 | 3 |
+| Gesamt | 2 | 20 | 1 | 1 | 3 |
 
 Da beide Erlebnisse vor der Konvertierung gesehen wurden, erhalten beide Erlebnisse eine &quot;Gutschrift&quot;für die Bestellung. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für [!DNL Target]-Berichte, da Sie keine [!DNL Target]-Aktivität gegen eine andere Aktivität stellen, um zu sehen, welche erfolgreicher ist, ist es egal, dass alle Aktivitäten, die der Benutzer gesehen hat, gutgeschrieben wurden. Sie vergleichen die Ergebnisse zweier Elemente innerhalb einer Aktivität. Es ist für einen Benutzer nicht möglich, verschiedene Erlebnisse auf die gleiche Aktivität zu sehen, sodass Sie sich keine Sorgen über eine Kreuzkontamination der Bestellungskredite machen müssen.
 
 Weitere Informationen finden Sie unter [Umrechnungsvariablen (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) im *Analytics Admin Guide*.
+
+## Warum sehe ich nach der Deaktivierung meiner Aktivität weiterhin mehr Impressionen? {#deactivated}
+
+Eine Quelle von Impressionen für einen Bericht einer A4T-Aktivität nach der Deaktivierung kann QS-Modus-Traffic sein. Zielgruppe protokolliert normalerweise keine Ereignis für eine deaktivierte Aktivität, Analytics kann jedoch nicht erkennen, dass Impressionen aus dem QS-Modus stammen. Wenn der Bericht zur Zielgruppe-Aktivität aus Analytics abgerufen wird, werden diese Impressionen angezeigt. Dies funktioniert wie vorgesehen, da Kunden eine Möglichkeit benötigen, A4T-Berichte zu prüfen, auch wenn die Aktivität nicht im QS-Modus aktiv ist.
 
 ## Warum berechnen Analytics und Analytics for Target (A4T) die Zahlen für die Metrik „Unique Visitors“ unterschiedlich? {#section_0C3B648AB54041F9A2AA839D51791883}
 
