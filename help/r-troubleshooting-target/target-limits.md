@@ -5,9 +5,9 @@ title: Welches sind die verschiedenen Zeichen-, Größen- und sonstigen Beschrä
 feature: 'Fehlerbehebung '
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1094'
 ht-degree: 64%
 
 ---
@@ -218,7 +218,7 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 ## Profilskripte
 
-* **Empfohlene Beschränkung aktiver Profil-Skripte**: 300
+* **Empfohlene Beschränkung aktiver Profil-Skripte (die aktiviert sind)**: 300
 
 * **Empfohlene Obergrenze für Profil-Skripten pro Konto**: 2.000
 
