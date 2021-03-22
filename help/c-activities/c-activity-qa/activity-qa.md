@@ -2,11 +2,11 @@
 keywords: qa;Vorschau;Vorschau-Links;adobe-Zielgruppe;Zielgruppe
 description: Erfahren Sie, wie Sie mit Adobe Target QA-URLs eine durchgängige Qualitätssicherung mit Vorschau-Links durchführen können, die sich nie ändern, optionales Targeting von Audiencen und QA-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
 title: Wie laute die Qualitätssicherung bei Aktivitäten?
-feature: Activities
+feature: Aktivitäten
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1539'
 ht-degree: 79%
 
 ---
@@ -28,7 +28,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
    >[!NOTE]
    >
-   >Dies gilt für at.js-Implementierungen mit Version 2.*xor* höher. Für at.js 1.*Implementierungen von &quot;* xand mbox.js&quot;ist dies nur der Fall, wenn der Browser des Besuchers keine Drittanbieter-Cookies blockiert.
+   >Dies gilt für at.js-Implementierungen mit Version 2.*xor* höher. Für at.js 1.*ximplementierungen* ist dies nur der Fall, wenn der Browser des Besuchers keine Drittanbieter-Cookies blockiert.
 
 ## Zugreifen auf und Freigeben einer QA-URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -58,7 +58,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
    Mithilfe der einzelnen Activity-Link-URLs (für Exp A, Exp B usw.) können Sie die User Journey vom entsprechenden Erlebnis starten. Sie können auf die für ein Erlebnis generierte URL klicken und dann mit dem normalen Website-Browsing fortfahren, um Erlebnisse auf mehreren Seiten anzuzeigen (wenn mehrere Seiten vorhanden sind). Pro Erlebnis wird nur eine URL generiert. Dies ist selbst dann der Fall, wenn das Erlebnis mehrere Seiten überspannt (Vorlagentest oder Test mit mehreren Seiten).
 
-   Sie können auf der Website navigieren, um die anderen Seiten anzuzeigen, weil Aktivitäts-QA hängt. Beachten Sie, dass dies für at.js-Implementierungen mit Version 2 gilt.*xor* höher. Für at.js 1.*Implementierungen von &quot;* xand mbox.js&quot;ist dies nur der Fall, wenn der Browser des Besuchers keine Drittanbieter-Cookies blockiert.
+   Sie können auf der Website navigieren, um die anderen Seiten anzuzeigen, weil Aktivitäts-QA hängt. Beachten Sie, dass dies für at.js-Implementierungen mit Version 2 gilt.*xor* höher. Für at.js 1.*ximplementierungen* ist dies nur der Fall, wenn der Browser des Besuchers keine Drittanbieter-Cookies blockiert.
 
 1. Wenn Sie die über Activity-Link-URLs generierten Berichte anzeigen möchten, klicken Sie auf die Seite **[!UICONTROL Berichte]** der Aktivität, klicken Sie auf das Symbol **[!UICONTROL Einstellungen]** (![](assets/icon_gear.png)) und wählen Sie dann **[!UICONTROL QS-Modus]** aus der Dropdown-Liste **[!UICONTROL Umgebung]** aus.
 
