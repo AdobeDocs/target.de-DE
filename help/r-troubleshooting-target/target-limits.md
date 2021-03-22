@@ -5,10 +5,10 @@ title: Welches sind die verschiedenen Zeichen-, Größen- und sonstigen Beschrä
 feature: 'Fehlerbehebung '
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: c076660ca816346bc83ec71747d491aa408b049f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 64%
+source-wordcount: '1152'
+ht-degree: 61%
 
 ---
 
@@ -76,6 +76,8 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 ### Anzahl der Entitäten
 
 * Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hardcodiert oder in Schleife, beträgt 99.
+* Das empfohlene Limit für die beste Performance besteht darin, den Katalog auf allen Umgebung weniger als 1.000.000 Artikel pro Umgebung und weniger als 10.000.000 Artikel zu beschränken.
+* Die Höchstgrenze beträgt 10.000.000 Artikel pro Umgebung und 100.000.000 Artikel für alle Umgebung. Wenn Sie zwischen 1.000.000 und 10.000.000 Elemente pro Umgebung haben, wird die Leistung der [!UICONTROL Katalogsuche]-Benutzeroberfläche beeinträchtigt. [!DNL Target Recommendations]gibt jedoch weiterhin Empfehlungen heraus und gibt diese weiter ab.
 
 ### Benutzerdefinierte Entitätsattribute
 
