@@ -4,9 +4,9 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der A
 title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '3848'
+source-wordcount: '3866'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,8 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 23. März | [Versionshinweise](/help/r-release-notes/release-notes.md) | Versionshinweise für at.js-Version 2.4.1 hinzugefügt. |
+|  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Versionshinweise für at.js-Version 2.4.1 hinzugefügt. |
 | 22. März | [Von Recommendations-Feed verarbeitenden Servern verwendete IP-Adressen](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Die Liste der IP-Adressen wurde aktualisiert. |
 |  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Der Abschnitt &quot;Anzahl der Entitäten&quot;unter &quot;Entitäten&quot;wurde aktualisiert. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Informationen zur at.js-Version 2 wurden hinzugefügt.** xunder &quot;Wie kann ich meine Aktivitäten testen, als ob ich ein Benutzer bin, der von einem anderen Ort kommt?&quot; |
