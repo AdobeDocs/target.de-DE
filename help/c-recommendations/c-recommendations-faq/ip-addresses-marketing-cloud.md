@@ -4,31 +4,35 @@ description: Ansicht einer Liste von IP-Adressen, die in Zielgruppe Recommendati
 title: Welche IP-Adressen verwenden Recommendations-Feed-Verarbeitungsserver?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 15%
+source-wordcount: '142'
+ht-degree: 13%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) IP-Adressen, die von Empfehlungs-Feed-Verarbeitungsservern verwendet werden
 
-Liste der IP-Adressen, die in [!DNL Adobe Target] [!DNL Recommendations]-Feed-Verarbeitungsservern im Oregon-Rechenzentrum verwendet werden, um Ihre Firewall so zu konfigurieren, dass IP-Adressen von Adoben-Servern zugelassen werden.
+Liste der in [!DNL Adobe Target] [!DNL Recommendations]-Feed-Verarbeitungsservern verwendeten IP-Adressen, um Sie bei der Konfiguration Ihrer Firewall zu unterstützen, damit IP-Adressen von Adoben-Servern zugelassen werden.
 
-[!DNL Target]  Recommendations-Aktivitäten verwenden beim Zugriff auf die FTP-Server von Kunden die folgenden IP-Adressen im Oregon-Rechenzentrum (überprüfen Sie den unten stehenden Link auf die aktuellsten Informationen):
+[!DNL Target] [!UICONTROL Bei ] Recommendations-Aktivitäten werden beim Zugriff auf die FTP-Server der Kunden die folgenden IP-Adressen verwendet:
 
-| CIDR-Notation | Start-IP | End-IP |
-|---|---|---|
-| 192.243.242.0/24 | 192.243.242.0 | 192.243.242.255 |
+| CIDR-Notation |
+|---|
+| 44.241.237.28/32 |
+| 44.232.167.82/32 |
+| 52.41.252.205/32 |
 
-[!DNL Target] [!UICONTROL Die ] Recommendations-APIs verwenden die folgenden IP-Adressen im Oregon-Rechenzentrum (überprüfen Sie den unten stehenden Link auf die aktuellsten Informationen):
+[!DNL Target] [!UICONTROL Die ] Recommendations-APIs verwenden die folgenden IP-Adressen:
 
-| CIDR-Notation | Start-IP | End-IP |
-|---|---|---|
-| 192.243.224.0/20 | 192.243.224.0 | 192.243.239.255 |
+| CIDR-Notation |
+|---|
+| 44.241.237.28/32 |
+| 44.232.167.82/32 |
+| 52.41.252.205/32 |
 
 >[!NOTE]
 >
->Die vollständige, aktuellste Liste finden Sie unter [IP-Adressen, die im Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) verwendet werden.
+>Diese IP-Adressen wurden zuletzt am 16. März 2021 aktualisiert. Zuvor befanden sich die Server, die auf die FTP-Server zugriffen, im CIDR-Block 192.243.242.0/24. Die Server, auf denen Recommendations-APIs gehostet werden, befanden sich im CIDR-Block 192.243.224.0/20.
 
