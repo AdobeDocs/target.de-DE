@@ -4,10 +4,10 @@ description: Ansicht einer Liste von IP-Adressen, die in Zielgruppe Recommendati
 title: Welche IP-Adressen verwenden Recommendations-Feed-Verarbeitungsserver?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
+source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 13%
+source-wordcount: '138'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +18,19 @@ Liste der in [!DNL Adobe Target] [!DNL Recommendations]-Feed-Verarbeitungsserver
 
 [!DNL Target] [!UICONTROL Bei ] Recommendations-Aktivitäten werden beim Zugriff auf die FTP-Server der Kunden die folgenden IP-Adressen verwendet:
 
-| CIDR-Notation |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44 241 237 28
+
+44 232 167 82
+
+52 41 252 205
 
 [!DNL Target] [!UICONTROL Die ] Recommendations-APIs verwenden die folgenden IP-Adressen:
 
-| CIDR-Notation |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44 241 237 28
+
+44 232 167 82
+
+52 41 252 205
 
 >[!NOTE]
 >
