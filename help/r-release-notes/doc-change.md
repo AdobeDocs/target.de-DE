@@ -4,9 +4,9 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der A
 title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
 workflow-type: tm+mt
-source-wordcount: '3866'
+source-wordcount: '3890'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 | --- | --- | --- |
 | 23. März | [Versionshinweise](/help/r-release-notes/release-notes.md) | Versionshinweise für at.js-Version 2.4.1 hinzugefügt. |
 |  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Versionshinweise für at.js-Version 2.4.1 hinzugefügt. |
+|  | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Folgende häufig gestellte Fragen wurden aktualisiert:<ul><li>Wie lange dauert es, bis Aktualisierungen von Artikeln in meinem Katalog auf meiner Site angezeigt werden?</li></ul> |
 | 22. März | [Von Recommendations-Feed verarbeitenden Servern verwendete IP-Adressen](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Die Liste der IP-Adressen wurde aktualisiert. |
 |  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Der Abschnitt &quot;Anzahl der Entitäten&quot;unter &quot;Entitäten&quot;wurde aktualisiert. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Informationen zur at.js-Version 2 wurden hinzugefügt.** xunder &quot;Wie kann ich meine Aktivitäten testen, als ob ich ein Benutzer bin, der von einem anderen Ort kommt?&quot; |
