@@ -4,9 +4,9 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der A
 title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '3790'
+source-wordcount: '3848'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,10 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 22. März | [Von Recommendations-Feed verarbeitenden Servern verwendete IP-Adressen](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Die Liste der IP-Adressen wurde aktualisiert. |
+|  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Der Abschnitt &quot;Anzahl der Entitäten&quot;unter &quot;Entitäten&quot;wurde aktualisiert. |
+|  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Informationen zur at.js-Version 2 wurden hinzugefügt.** xunder &quot;Wie kann ich meine Aktivitäten testen, als ob ich ein Benutzer bin, der von einem anderen Ort kommt?&quot; |
+|  | [Versionshinweise](/help/r-release-notes/release-notes.md): 21.2.1 | Folgender Abschnitt wurde hinzugefügt: <ul><li>Änderungen der IP-Adresse für Recommendations-Feed-Verarbeitungsserver (16. März 2021)</li></ul> |
 | 19. März | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | Folgende häufig gestellte Fragen wurden hinzugefügt:<ul><li>Warum sehe ich nach der Deaktivierung meiner Aktivität weiterhin mehr Impressionen?</li></ul> |
 | 12. März | [A4T-Unterstützung für Aktivitäten zur automatischen Zuordnung und automatischen Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | Das folgende neue Lernprogramm wurde hinzugefügt:<ul><li>Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten der automatischen Zielgruppe</li></ul> |
 | März 9 | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Die zulässigen Größenbeschränkungen für Angebote wurden aktualisiert.</li><li>Die Zeichenbeschränkung für den categoryId-Parameter wurde korrigiert.</li></ul> |
