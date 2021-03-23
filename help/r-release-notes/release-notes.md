@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: ' Versionshinweise '
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 38%
+source-wordcount: '618'
+ht-degree: 36%
 
 ---
 
@@ -23,6 +23,10 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 >Migrieren Sie vor diesem Datum zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek, um potenzielle Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Zielgruppe für clientseitige Web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md) implementieren.
 
 (Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+
+## Änderungen der IP-Adresse für Recommendations-Feed-Verarbeitungsserver (16. März 2021)
+
+Die IP-Adressen der Feed-Verarbeitungsserver wurden am 16. März 2021 aktualisiert. [!DNL Target Recommendations] Weitere Informationen finden Sie unter [IP-Adressen, die von Recommendations-Feed-Processing-Servern verwendet werden](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
 
 ## Target Standard/Premium 21.2.1 (9. März 2021) 
 
