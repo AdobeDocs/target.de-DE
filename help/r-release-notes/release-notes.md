@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: ' Versionshinweise '
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '673'
 ht-degree: 36%
 
 ---
@@ -23,6 +23,14 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 >Migrieren Sie vor diesem Datum zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek, um potenzielle Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Zielgruppe für clientseitige Web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md) implementieren.
 
 (Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+
+## at.js 2.4.1 (23. März 2021)
+
+Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
+
+* Es wurde ein Problem behoben, durch das targetPageParams in Mbox-Anforderungen einbezogen wurde. targetPageParams sollte nur in pageLoad-Anforderungen enthalten sein. (TNT-40247)
+* Optimierte Fenster- und Dokument-Globalen, die auf die Erweiterung [!DNL Adobe Experience Platform Launch] verweisen. (TNT-37124)
+* Build- und Testabhängigkeiten wurden aktualisiert, um Sicherheitslücken zu beheben.
 
 ## Änderungen der IP-Adresse für Recommendations-Feed-Verarbeitungsserver (16. März 2021)
 
