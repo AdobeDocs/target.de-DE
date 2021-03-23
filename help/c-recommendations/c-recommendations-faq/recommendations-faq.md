@@ -4,10 +4,10 @@ description: Ansicht einer Liste häufig gestellter Fragen und Antworten zu Adob
 title: Wo finde ich Fragen und Antworten zur Zielgruppe Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: cef2a1fc065501a1d4b7d138b9f67d73d2a2e06e
 workflow-type: tm+mt
-source-wordcount: '2320'
-ht-degree: 49%
+source-wordcount: '2377'
+ht-degree: 46%
 
 ---
 
@@ -26,45 +26,21 @@ Derzeit gibt es keine Funktion, mit der Kunden den Attributtyp ändern können. 
 
 Der Zeitraum und die Ergebnisse hängen davon ab, wie die Elemente aktualisiert werden.
 
-### Elementattribute aktualisiert über mbox oder API
-
-* Recommendations wird innerhalb von 15 Minuten aktualisiert.
-* Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.
-* Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.
-
-### Elementattribute aktualisiert über Feed
-
-* Recommendations wird nach der Feed-Erfassung aktualisiert (2-8 Stunden).
-* Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.
-* Die Katalogsuche wird nach der Feed-Erfassung (2-8 Stunden) und nach dem anschließenden Katalogindex (3-8 Stunden) aktualisiert. Die Katalogsuche wird in der Regel innerhalb von 5-16 Stunden aktualisiert.
-
-### Aus dem Katalog gelöschtes Element über die Benutzeroberfläche oder API der Zielgruppe
-
-* Recommendations wird innerhalb von 15 Minuten aktualisiert.
-* Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.
-* Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.
-
-### Element, das über die mbox oder API zum Katalog hinzugefügt wird
-
-* Recommendations wird nach der Ausführung des Algorithmus aktualisiert. Algorithmusausführungen werden alle 12 Stunden für 1-2-Tage-Algorithmen und alle 24 Stunden für 7+ Tage-Algorithmen geplant.
-* Bestehende Empfehlungen werden angezeigt, bis Updates verfügbar sind, wenn das hinzugefügte Element kein angeforderter Schlüssel ist.
-* Reserveempfehlungen werden angezeigt, bis Aktualisierungen verfügbar sind, wenn das hinzugefügte Element ein angeforderter Schlüssel ist.
-* Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.
-
-### Element, das über Feed zum Katalog hinzugefügt wird
-
-* Recommendations wird nach der Erfassung des Feeds aktualisiert (2-8 Stunden). Nachfolgende Algorithmusausläufe werden alle 12 Stunden für 1-2-Tage-Algorithmen und alle 24 Stunden für 7-Tage-Algorithmen geplant. Recommendations wird in der Regel innerhalb von 2-32 Stunden aktualisiert.
-* Bestehende Empfehlungen werden angezeigt, bis Updates verfügbar sind, wenn das hinzugefügte Element kein angeforderter Schlüssel ist.
-* Reserveempfehlungen werden angezeigt, bis Aktualisierungen verfügbar sind, wenn das hinzugefügte Element ein angeforderter Schlüssel ist.
-* Die Katalogsuche wird nach der Feed-Erfassung (2-8 Stunden) und nach dem Katalogindex (3-8 Stunden) aktualisiert. Die Katalogsuche wird in der Regel innerhalb von 5-16 Stunden aktualisiert.
-
-### Weitere Änderungen
+| Quelle | Details |
+| --- | --- |
+| Elementattribute aktualisiert über mbox oder API | <ul><li>Recommendations wird innerhalb von 15 Minuten aktualisiert.</li><li>Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.</li><li>Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.</li></ul> |
+| Elementattribute aktualisiert über Feed | <ul><li>Recommendations wird nach der Feed-Erfassung aktualisiert (2-8 Stunden).</li><li>Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.</li><li>Die Katalogsuche wird nach der Feed-Erfassung (2-8 Stunden) und nach dem anschließenden Katalogindex (3-8 Stunden) aktualisiert. Die Katalogsuche wird in der Regel innerhalb von 5-16 Stunden aktualisiert.</li></ul> |
+| Aus dem Katalog gelöschtes Element über die Benutzeroberfläche oder API der Zielgruppe | <ul><li>Recommendations wird innerhalb von 15 Minuten aktualisiert.</li><li>Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.</li><li>Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.</li></ul> |
+| Element, das über die mbox oder API zum Katalog hinzugefügt wird | <ul><li>Recommendations wird nach der Ausführung des Algorithmus aktualisiert. Algorithmusausführungen werden alle 12 Stunden für 1-2-Tage-Algorithmen und alle 24 Stunden für 7+ Tage-Algorithmen geplant.</li><li>Bestehende Empfehlungen werden angezeigt, bis Updates verfügbar sind, wenn das hinzugefügte Element kein angeforderter Schlüssel ist.</li><li>Reserveempfehlungen werden angezeigt, bis Aktualisierungen verfügbar sind, wenn das hinzugefügte Element ein angeforderter Schlüssel ist.</li><li>Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.</li></ul> |
+| Element, das über Feed zum Katalog hinzugefügt wird | <ul><li>Recommendations wird nach der Erfassung des Feeds aktualisiert (2-8 Stunden). Nachfolgende Algorithmusausläufe werden alle 12 Stunden für 1-2-Tage-Algorithmen und alle 24 Stunden für 7-Tage-Algorithmen geplant. Recommendations wird in der Regel innerhalb von 2-32 Stunden aktualisiert.</li><li>Bestehende Empfehlungen werden angezeigt, bis Updates verfügbar sind, wenn das hinzugefügte Element kein angeforderter Schlüssel ist.</li><li>Reserveempfehlungen werden angezeigt, bis Aktualisierungen verfügbar sind, wenn das hinzugefügte Element ein angeforderter Schlüssel ist.</li><li>Die Katalogsuche wird nach der Feed-Erfassung (2-8 Stunden) und nach dem Katalogindex (3-8 Stunden) aktualisiert. Die Katalogsuche wird in der Regel innerhalb von 5-16 Stunden aktualisiert.</li></ul> |
 
 Nach dem Import einer Feed-Datei oder nach dem Empfang von Entitäts-Updates über API oder Mbox werden die folgenden Änderungen in unter 60 Minuten übernommen:
 
-* Elementattribute, die in der Designvorlage zurückgegeben werden.
-* Elementattribute, die in globalen Ausschlussregeln verwendet werden, die verhindern, dass das Element in zurückgegebene Empfehlungen eingeschlossen wird.
-* Elementattribute, die in Einschlussregeln innerhalb der Kriterien verwendet werden, die Auswirkungen darauf haben, ob das Element in zurückgegebenen Empfehlungen einbezogen oder ausgeschlossen wird.
+* Wenn ein Element zuvor ausgeschlossen wurde, aber nun einbezogen werden sollte, wird das Element bei der nächsten Algorithmusausführung (12-24 Stunden) einbezogen.
+
+   Dies liegt daran, dass bei der Zielgruppe Ausschlüsse sowohl online als auch offline angewendet werden. Wenn ein Artikel neu ausgeschlossen wird, gilt der Online-Ausschluss schnell. Wenn ein Element neu eingeschlossen wird, verschwindet der Online-Ausschluss schnell, der Offline-Ausschluss wird jedoch erst ausgeblendet, wenn der nächste Algorithmus ausgeführt wird.
+
+* Wenn ein Element zuvor enthalten war, aber jetzt ausgeschlossen werden sollte, wird das Element gemäß der Meldung &quot;Elementattribute aktualisiert...&quot;ausgeschlossen. Die oben besprochene Zeitleiste hängt von der Feed-Quelle ab (15 Minuten über mbox/API oder 12-24 Stunden über Feed).
 
 Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus ausgeführt wird (innerhalb von 12 bis 24 Stunden):
 
