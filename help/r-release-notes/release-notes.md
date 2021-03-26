@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: ' Versionshinweise '
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 8dc0e5084834102e387492eb4668761382e699f3
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 37%
+source-wordcount: '678'
+ht-degree: 36%
 
 ---
 
@@ -29,7 +29,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
 * Es wurde ein Problem behoben, bei dem `targetPageParams` in Mbox-Anforderungen enthalten war. `targetPageParams` sollte nur in  `pageLoad` Anforderungen enthalten sein. (TNT-40247)
-* Optimierte Fenster- und Dokument-Globalen, die auf die Erweiterung [!DNL Adobe Experience Platform Launch] verweisen. (TNT-37124)
+* Es wurde ein Problem mit globalen Dokument- und Fensterobjekten in der Erweiterung A[!DNL dobe Experience Platform Launch] behoben, indem die globalen Objektabhängigkeiten der Platform launch durch direkte Verweise darauf ersetzt wurden. (TNT-37124)
 
 ## Änderungen der IP-Adresse für Recommendations-Feed-Verarbeitungsserver (16. März 2021)
 
