@@ -4,7 +4,7 @@ title: Wo finde ich die Dokumentation zur Zielgruppe?
 description: Erfahren Sie, wie Sie mit Adobe Target die Erlebnisse Ihrer Kunden personalisieren können, um den Umsatz Ihrer Websites, mobilen Sites, Apps und anderer digitaler Kanal zu maximieren.
 feature: Überblick
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 45%
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 
-**Zuletzt aktualisiert: 23. März 2021 ( [Siehe Änderungen](r-release-notes/doc-change.md) )**
+**Zuletzt aktualisiert: 29. März 2021 ( [Siehe Änderungen](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 
 ## Entwickler  {#developers}
 
-- [Target implementieren](c-implementing-target/implementing-target.md): Erklärt die Implementierung von [!DNL Target] in Websites, mobilen Apps, Einzelseitenapps (SPAs) und iOT/OTT-Plattformen.
+- [Implementieren von Target](c-implementing-target/implementing-target.md): Erklärt die Implementierung von [!DNL Target] in Websites, mobilen Apps, Einzelseitenapps (SPAs) und iOT/OTT-Plattformen.
 - [Serverseitige APIs](https://developers.adobetarget.com/api/delivery-api/) der Zielgruppe: Beschreibt die Ressourcen, aus denen die Adobe Target Versand-API besteht.
 - [Zielgruppe NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Erläutert, wie Zielgruppe serverseitig bereitgestellt wird. Dieses Node.js-SDK unterstützt Sie bei der einfachen Integration von Zielgruppe in andere Adobe Experience Cloud-Lösungen.
 - [Zielgruppe Java SDK](https://github.com/adobe/target-java-sdk): Erläutert, wie Zielgruppe serverseitig bereitgestellt wird. Mit diesem Java-SDK können Sie Zielgruppen problemlos in andere Adobe Experience Cloud-Lösungen integrieren.
