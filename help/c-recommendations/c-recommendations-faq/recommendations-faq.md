@@ -4,10 +4,10 @@ description: Ansicht einer Liste häufig gestellter Fragen und Antworten zu Adob
 title: Wo finde ich Fragen und Antworten zur Zielgruppe Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: cef2a1fc065501a1d4b7d138b9f67d73d2a2e06e
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 46%
+source-wordcount: '2694'
+ht-degree: 40%
 
 ---
 
@@ -209,4 +209,19 @@ NO_CONTENT wird zurückgegeben, wenn für die angeforderte Algorithmus- und Schl
 * Die teilweise Vorlagenwiedergabe ist deaktiviert und es sind nicht genügend Ergebnisse zum Ausfüllen der Vorlage verfügbar.
 
    Diese Situation tritt in der Regel auf, wenn Sie über eine dynamische Einschlussregel verfügen, die viele Elemente aus den möglichen Ergebnissen aggressiv Filter. Um eine Situation zu vermeiden, aktivieren Sie Backups und wenden Sie die Einschlussregel nicht auf Backups an oder verwenden Sie die Kriterien in einer Sequenz mit weniger aggressiv gefilterten Kriterien.
+
+## Bestehen Empfehlungen, die auf kürzlich angezeigten Artikeln basieren, für einen Besucher auf mehreren Geräten? {#persist-across-devices}
+
+Wenn ein Besucher eine Sitzung initiiert, wird die Sitzungs-ID an einen einzigen Edge-Computer gebunden und ein temporärer Profil-Cache wird auf diesem Edge-Computer gespeichert. Nachfolgende Anforderungen aus derselben Sitzung lesen diesen Profil-Cache, einschließlich der zuletzt angezeigten Elemente.
+
+Wenn die Sitzung beendet wird (im Allgemeinen, wenn sie nach 30 Minuten ohne Aktivität abläuft), wird der Sitzungsstatus einschließlich der zuletzt angezeigten Elemente auf eine beständige Profil-Datenspeicherung am selben geografischen Rand beibehalten.
+
+Nachfolgende Sitzungen von verschiedenen Geräten können dann auf diese zuletzt angezeigten Artikel zugreifen, solange die neue Sitzung mit dem Profil des Kunden über die gleiche Marketing Cloud-ID (MCID), Experience Cloud-ID (ECID) oder CustomerID/mbox3rdPartyId verknüpft ist.
+
+Wenn ein Besucher gleichzeitig zwei aktive Sitzungen hat, werden die zuletzt angezeigten Artikel auf einem Gerät nicht aktualisiert, es sei denn, die Geräte müssen dieselbe Sitzungs-ID verwenden. Es gibt eine mögliche Problemumgehung, aber [!DNL Target] unterstützt nicht direkt die Freigabe einer Sitzungs-ID für mehrere Geräte. Der Kunde muss diese ID-Freigabe selbst verwalten.
+
+Beachten Sie, dass dieses Verhalten weiterhin auftritt, wenn ein Besucher auf einem Gerät aktiv ist und dann einige Minuten später auf dem anderen Gerät aktiv wird. Die Sitzung des ersten Geräts läuft nicht 30 Minuten ab. Es kann bis zu fünf Minuten Verspätung eintreten, bevor der Status des Profils in den Status &quot;Dauerhaft&quot;geschrieben und verarbeitet wird. Die Sitzungsdauer beträgt etwa 35 Minuten, und das Profil wird beim Testen dieses Verhaltens gespeichert.
+
+Wenn der Besucher nicht gleichzeitig über zwei aktive Sitzungen verfügt, werden die zuletzt auf dem anderen Gerät angezeigten Artikel, die zuletzt auf einem Gerät angezeigt wurden, aktualisiert, solange die Sitzung beendet ist. Die Sitzung läuft beim Testen dieses Verhaltens nach 35 Minuten ab.
+
 
