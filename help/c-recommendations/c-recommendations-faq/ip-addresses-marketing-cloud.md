@@ -4,10 +4,10 @@ description: Ansicht einer Liste von IP-Adressen, die in Zielgruppe Recommendati
 title: Welche IP-Adressen verwenden Recommendations-Feed-Verarbeitungsserver?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
+source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -16,21 +16,15 @@ ht-degree: 10%
 
 Liste der in [!DNL Adobe Target] [!DNL Recommendations]-Feed-Verarbeitungsservern verwendeten IP-Adressen, um Sie bei der Konfiguration Ihrer Firewall zu unterstützen, damit IP-Adressen von Adoben-Servern zugelassen werden.
 
-[!DNL Target] [!UICONTROL Bei ] Recommendations-Aktivitäten werden beim Zugriff auf die FTP-Server der Kunden die folgenden IP-Adressen verwendet:
+[!DNL Target] [!UICONTROL Bei ] Recommendations-Aktivitäten werden die folgenden AWS-Hosts verwendet, wenn auf die FTP-Server von Kunden zugegriffen wird:
 
-44 241 237 28
+| Position | Host |
+| --- | --- |
+| Oregon | `44.241.237.28` |
+| Oregon | `44.232.167.82` |
+| Oregon | `52.41.252.205` |
 
-44 232 167 82
-
-52 41 252 205
-
-[!DNL Target] [!UICONTROL Die ] Recommendations-APIs verwenden die folgenden IP-Adressen:
-
-44 241 237 28
-
-44 232 167 82
-
-52 41 252 205
+[!DNL Target] [!UICONTROL Recommendations-] APIs verwenden auch dieselben AWS-Hosts.
 
 >[!NOTE]
 >
