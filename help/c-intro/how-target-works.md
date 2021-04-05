@@ -3,14 +3,14 @@ keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;Suchmaschinenopt
 description: Erfahren Sie, wie Adobe Target funktioniert, einschließlich Informationen zu den JavaScript-Bibliotheken der Zielgruppe (at.js und AEP Web SDK), den Adobe-Rechenzentren und den SEO-Tests.
 title: Wie wirkt Zielgruppe?
 feature: Überblick
+exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2574'
 ht-degree: 32%
 
 ---
-
 
 # Funktionsweise von Adobe Target
 
@@ -33,7 +33,7 @@ Verweisen Sie auf jeder Seite Ihrer Site auf [!DNL AEP Web SDK] oder at.js. Sie 
 Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung des AEP Web SDK oder at.js:
 
 * [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Implementieren von Target mit Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Zielgruppe mithilfe von Adobe Experience Platform Launch implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Jedes Mal, wenn ein Besucher eine Seite anfordert, die für [!DNL Target] optimiert wurde, wird eine Anforderung an das Targeting-System gesendet. Die Anforderung hilft bei der Bestimmung der Inhalte, die für diesen Besucher bereitgestellt werden sollen. Dieser Prozess erfolgt in Echtzeit. Jedes Mal, wenn eine Seite geladen wird, wird eine Anforderung für den Inhalt vom System gesendet und erfüllt. Der Inhalt wird durch die vom Marketingspezialisten kontrollierten Aktivitäten und Erlebnisse geregelt und auf den einzelnen Besucher der Site zugeschnitten. Es werden Inhalte bereitgestellt, auf die die einzelnen Site-Besucher mit hoher Wahrscheinlichkeit reagieren, mit ihnen interagieren oder letztendlich kaufen. Personalisierter Inhalt hilft, Antwortquoten, Akquise-Raten und Umsatz zu maximieren.
 
@@ -48,9 +48,9 @@ Der Inhalt, der in einem einfachen A/B-Test angezeigt wird, wird zufällig aus d
 Sie können für jedes Erlebnis prozentuale Ziele festlegen. In diesem Fall wird eine zufällige Nummer generiert und diese Nummer wird verwendet, um das anzuzeigende Erlebnis auszuwählen. Die sich ergebenden Prozentzahlen entsprechen möglicherweise nicht genau den festgelegten Zielen, allerdings bedeutet mehr Traffic, dass die Erlebnisse enger auf die beabsichtigen Ziele aufgeteilt werden sollten.
 
 1. Ein Kunde ruft eine Seite von Ihrem Server auf und zeigt sie im Browser an.
-2. Im Browser des Kunden wird ein Erstanbieter-Cookie gesetzt, um das Kundenverhalten zu speichern.
-3. Die Seite ruft das Targeting-System auf.
-4. Basierend auf den Regeln Ihrer Aktivität werden Inhalte angezeigt.
+1. Im Browser des Kunden wird ein Erstanbieter-Cookie gesetzt, um das Kundenverhalten zu speichern.
+1. Die Seite ruft das Targeting-System auf.
+1. Basierend auf den Regeln Ihrer Aktivität werden Inhalte angezeigt.
 
 Weitere Informationen finden Sie unter [Erstellen eines A/B-Tests](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
@@ -112,7 +112,7 @@ Die Daten zur Aktivität der Kunden-Site werden von den sieben Edge-Clustern erf
 
 Anstatt auf alle Targeting-Anfragen von einem einzigen Ort zu antworten, werden Anforderungen vom Edge-Cluster verarbeitet, der dem Besucher am nächsten kommt. Dieser Prozess hilft, die Auswirkungen der Netzwerk-/Internet-Reisezeit zu mildern.
 
-![Serverzuordnung für Zielgruppen](/help/c-intro/assets/target-servers.png)
+![Zuordnung der verschiedenen Typen von Zielgruppen-Servern](/help/c-intro/assets/target-servers.png)
 
 [!DNL Target] Central-Cluster, die auf Amazon Web Services (AWS) gehostet werden, umfassen:
 
