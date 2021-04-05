@@ -3,16 +3,16 @@ keywords: Versionshinweise;Versionen;Updates;Zukünftige Versionen;Verbesserunge
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der kommenden Version von Adobe Target, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: ' Versionshinweise '
+exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 22%
 
 ---
 
-
-# Target-Versionshinweise (Vorabversion)
+# Versionshinweise zu Target (Vorabversion)
 
 Dieser Artikel enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
@@ -22,7 +22,7 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 >[!IMPORTANT]
 >
->**mbox.js Ende der Lebensdauer**: Am 31. März 2021  [!DNL Adobe Target] wird die Bibliothek &quot;mbox.js&quot;nicht mehr unterstützt. Nach dem 31. März 2021 schlagen alle Aufrufe von &quot;mbox.js&quot;korrekt fehl und wirken sich auf Ihre Seiten aus, deren [!DNL Target]-Aktivitäten ausgeführt werden, indem Standardinhalte bereitgestellt werden.
+>**mbox.js Ende der Lebensdauer**: Ab dem 31. März 2021 wird die Bibliothek &quot;mbox.js&quot; [!DNL Adobe Target] nicht mehr unterstützt. Nach dem 31. März 2021 schlagen alle Aufrufe von &quot;mbox.js&quot;korrekt fehl und wirken sich auf Ihre Seiten aus, deren [!DNL Target]-Aktivitäten ausgeführt werden, indem Standardinhalte bereitgestellt werden.
 >
 >Adobe empfiehlt, dass alle Kunden vor diesem Datum zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek migrieren, um potenzielle Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Zielgruppe für clientseitige Web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md) implementieren.
 
