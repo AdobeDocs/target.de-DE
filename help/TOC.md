@@ -1,12 +1,12 @@
 ---
 user-guide-title: Adobe Target-Anleitung
 breadcrumb-title: Target-Anleitung
-user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, mobilen Seiten, Apps, sozialen Medien und anderer digitaler Kanäle maximieren können.
+user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, mobilen Seiten, Mobile Apps, sozialen Medien und anderer digitaler Kanäle maximieren können.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1578'
 ht-degree: 84%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 84%
 + Target-Versionshinweise {#release-notes}
    + [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md)
    + [Target-Versionshinweise (aktuell)](r-release-notes/release-notes.md)
-   + [Target-Versionshinweise (Vorabversion)](r-release-notes/target-release-notes.md)
+   + [Versionshinweise zu Target (Vorabversion)](r-release-notes/target-release-notes.md)
    + [Übersicht über die Zielgruppe](/help/r-release-notes/target-documentation.md)
    + [Zielgruppe Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md)
    + [Bekannte Probleme und gelöste Probleme](r-release-notes/known-issues-resolved-issues.md)
@@ -311,7 +311,6 @@ ht-degree: 84%
       + [Nützliche Variablen, Profile, Parameter und Methoden](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Häufig gestellte Fragen zu Zielen und Zielgruppen {#faq-audiences}
       + [Häufig gestellte Fragen zu Zielen und Zielgruppen](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-      + [Freigabe von Metriken, Zielgruppen und Berichten – Häufig gestellte Fragen zu A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Erlebnisse und Angebote {#experiences}
    + [Erlebnisse und Angebote – Überblick](c-experiences/experiences.md)
    + Visual Experience Composer (VEC)   {#vec}
