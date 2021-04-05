@@ -3,14 +3,14 @@ keywords: Ankündigungen;Kompetenzaufbau;Entwickler-Chat;Kaffeepause;Ereignisse;
 description: Lesen Sie Ankündigungen und registrieren Sie sich für Adobe Target-Ereignisse, einschließlich Skill Builder-Sitzungen, Entwickler- und Produktmanagerchats, Webinars und mehr.
 title: Wo finde ich Ankündigungen und Ereignisse zur Zielgruppe?
 feature: ' Versionshinweise '
+exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
-
 
 # Ankündigungen und Ereignisse zur Zielgruppe
 
@@ -51,6 +51,6 @@ Nehmen Sie an diesem Webinar mit Adobe und HSBC teil, um zu erfahren:
 
 ## Adobe Target Skill Builder: Entwickler-Chat, Migration von Adobe Targets mbox.js zu at.js {#skill-builder}
 
-Mit der bevorstehenden Vernichtung von &quot;mbox.js&quot;am 31. März 2021 hat David Son, Adobe Target Product Manager, kürzlich einen Entwicklerchat gehostet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern.
+Mit der Einstellung von &quot;mbox.js&quot;am 31. März 2021 hat Adobe Target Product Manager David Son kürzlich einen Entwickler-Chat veranstaltet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern.
 
 * **[Ansicht der Webinaraufnahme hier](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
