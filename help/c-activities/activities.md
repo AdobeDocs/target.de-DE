@@ -1,16 +1,16 @@
 ---
-keywords: liste der Aktivitäten;Aktivitäten;Aktivität;Aktivitäten;Aktivitäten bearbeiten;Aktivitäten-Aktionen;Aktivitäten-Attribut;Aktivitäten-Liste-Filter;Einschränkungen der Aktivität;Personalisierung;Personalisierung
+keywords: Liste der Aktivitäten;Aktivitäten;Aktivität;Aktivitäten;Aktivitäten bearbeiten;Aktivitäten-Aktionen;Aktivitäten-Attribut;Aktivitäten-Liste-Filter;Einschränkungen der Aktivität;Personalisierung;Personalisierung
 description: Erfahren Sie, wie Sie mit Aktivitäten in Adobe Target Inhalte auf bestimmte Audiencen anpassen und Seitenentwürfe testen können.
 title: Wie kann ich Inhalte personalisieren und Seitenentwürfe mit Zielgruppe testen?
-feature: Activities
+feature: Aktivitäten
+exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2101'
 ht-degree: 96%
 
 ---
-
 
 # Aktivitäten
 
@@ -69,7 +69,7 @@ Die folgenden Aktionen sind verfügbar (je nach Ihren Berechtigungen):
 | Aktivieren | Eine inaktive oder bereite Aktion starten. |
 | Archivieren | Die Aktivitätenliste an das Archiv senden. Archivierte Aktivitäten werden standardmäßig nicht mehr in der Aktivitätenliste aufgeführt. Ändern Sie den Filter für die Aktivitätenliste, damit auch archivierte Aktivitäten angezeigt werden. Sie können eine archivierte Aktivität wieder aktivieren, um sie erneut zu verwenden.<br>Wenn Sie eine Aktivität deaktivieren oder archivieren und später erneut aktivieren, gehören die Besucher, die vor der Deaktivierung oder Archivierung Teil der Aktivität waren, nach der erneuten Aktivierung weiterhin zur Aktivität. Alle zwischen den beiden Ereignissen aufgezeichneten Konversionsmetriken werden nicht auf die Aktivität angerechnet. |
 | Kopieren | Eine Aktivität kopieren. Jede Aktivität kann kopiert werden. Beim Kopieren einer Aktivität wird eine neue Aktivität mit dem gleichen Namen und dem Appendix „Copy“ erstellt. Beispielsweise wird ein Test mit der Bezeichnung „Browser Offers“ in „Browser Offers Copy“ umbenannt.<br>Visuelle Angebote werden mit der Aktivität kopiert. Sie können die Angebote in der Kopie sicher bearbeiten, ohne dass sich dies auf die ursprüngliche Aktivität auswirkt. Die einzige Ausnahme sind gespeicherte Angebote und Bilder im Inhalts-/Assets-Ordner. |
-| Löschen | Einen Entwurf oder eine Aktivität löschen.<BR>**HINWEIS**: Gelöschte Aktivitäten können nicht wiederhergestellt werden. Wenn Sie denken, dass Sie diese Aktivität vielleicht noch einmal benötigen könnten, verwenden Sie die Aktion [!UICONTROL Archivieren]. Sie können die Aktivität dann bei Bedarf erneut aktivieren. |
+| Löschen | Einen Entwurf oder eine Aktivität löschen.<BR>**HINWEIS**: Gelöschte Aktivitäten können nicht wiederhergestellt werden. Wenn Sie denken, dass Sie diese Aktivität vielleicht noch einmal benötigen könnten, verwenden Sie die Aktion [!UICONTROL Archivieren]. Sie können die Aktivität dann bei Bedarf reaktivieren. |
 
 Beachten Sie folgende Details zur Aktivitätenliste:
 
