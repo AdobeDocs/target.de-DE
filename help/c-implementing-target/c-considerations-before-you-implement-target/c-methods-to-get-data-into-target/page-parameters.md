@@ -5,10 +5,10 @@ title: Wie erhalte ich Daten mithilfe von Seitenparametern in die Zielgruppe?
 feature: Implementierung
 role: Developer
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -22,13 +22,13 @@ Seitenparameter sind nützlich, um Seitendaten an eine Zielgruppe zu senden, die
 
 Seitenparameter werden über einen Server-Aufruf als Name-Wert-Paar-Zeichenfolge an Target übergeben. Parameternamen und -werte sind anpassbar (obwohl es einige „reservierte Namen“ für spezifische Anwendungen gibt).
 
-### Beispiele:
+### Beispiele
 
 * `page=productPage`
 
 * `categoryId=homeLoans`
 
-## Beispielhafte Anwendungsfälle
+## Verwendungsbeispiele
 
 * **Produktseiten**: Senden Sie Informationen zum jeweiligen angezeigten Produkt (so funktioniert Recommendations).
 * **Bestelldetails**: Bestellungs-ID, orderTotal usw. für die Bestellerfassung senden
@@ -57,7 +57,7 @@ Daten werden in Echtzeit an die Zielgruppe gesendet und können für denselben S
 
    ![](assets/ietf2.png)
 
-## Beispiele für Codes
+## Codebeispiele
 
 targetPageParamsAll (hängt die Parameter an alle Mbox-Aufrufe auf der Seite an):
 
