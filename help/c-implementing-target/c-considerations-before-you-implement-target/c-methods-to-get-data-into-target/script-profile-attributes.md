@@ -1,11 +1,11 @@
 ---
-keywords: implementieren;Implementierung;Einrichten;Setup;Skript-Profil-Attribut
+keywords: implementieren;Implementierung;Einrichten;Setup;Skript-Profil-Attribute
 description: Daten mithilfe von Skript-Profil-Attributen in die Zielgruppe laden
 title: Wie erhalte ich Daten mithilfe von Skript-Profil-Attributen in die Zielgruppe?
 feature: Implementierung
 role: Developer
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 83%
