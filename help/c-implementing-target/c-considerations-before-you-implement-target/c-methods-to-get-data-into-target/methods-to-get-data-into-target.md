@@ -6,10 +6,10 @@ feature: Implementierung
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
-source-wordcount: '1864'
-ht-degree: 90%
+source-wordcount: '1082'
+ht-degree: 86%
 
 ---
 
@@ -22,154 +22,18 @@ Zu den verfügbaren Methoden gehören:
 | Methode | Details |
 | --- | --- |
 | [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>Seitenparameter (auch „mbox-Parameter“ genannt) | Seitenparameter sind Name-Wert-Paare, die direkt über den Seiten-Code übergeben und nicht zur späteren Verwendung im Profil des Besuchers gespeichert werden.<br>Die Seitenparameter sind nützlich, um zusätzliche Seitendaten an Target zu senden, die nicht mit dem Profil des Besuchers gespeichert werden müssen, um sie für zukünftige Targeting-Anwendungen zu verwenden. Diese Werte werden stattdessen verwendet, um die Seite oder die Aktion zu beschreiben, die der Benutzer auf der jeweiligen Seite ausgeführt hat. |
-| Profilattribute auf der Seite (auch „In-mbox-Profilattribute“ genannt) | Inpage-Profilattribute sind Name-Wert-Paare, die direkt über den Seiten-Code übergeben werden und im Profil des Besuchers für die zukünftige Verwendung gespeichert werden.<br>Die Profilattribute auf der Seite erlauben es, benutzerspezifische Daten im Profil von Target zu speichern, um sie später für ein Targeting gezielt zu segmentieren. |
-| Skript-Profilattribute | Skript-Profilattribute sind Name-Wert-Paare, die in der Target-Anwendung definiert sind. Der Wert wird durch die Ausführung eines JavaScript-Snippets auf dem Target-Server über den Server-Aufruf ermittelt.<br>Benutzer schreiben kleine Code-Snippets, die pro Mbox-Aufruf ausgeführt werden, bevor ein Besucher für eine Zielgruppenmitgliedschaft und -aktivität ausgewertet wird. |
-| Datenanbieter | Datenanbieter sind eine Funktion, mit der Sie Daten von Drittanbietern einfach an die Zielgruppe weitergeben können. |
+| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)<br>Profilattribute auf der Seite (auch „In-mbox-Profilattribute“ genannt) | Inpage-Profilattribute sind Name-Wert-Paare, die direkt über den Seiten-Code übergeben werden und im Profil des Besuchers für die zukünftige Verwendung gespeichert werden.<br>Die Profilattribute auf der Seite erlauben es, benutzerspezifische Daten im Profil von Target zu speichern, um sie später für ein Targeting gezielt zu segmentieren. |
+| [Skript-Profilattribute](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md) | Skript-Profilattribute sind Name-Wert-Paare, die in der Target-Anwendung definiert sind. Der Wert wird durch die Ausführung eines JavaScript-Snippets auf dem Target-Server über den Server-Aufruf ermittelt.<br>Benutzer schreiben kleine Code-Snippets, die pro Mbox-Aufruf ausgeführt werden, bevor ein Besucher für eine Zielgruppenmitgliedschaft und -aktivität ausgewertet wird. |
+| [Datenanbieter](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | Datenanbieter sind eine Funktion, mit der Sie Daten von Drittanbietern einfach an die Zielgruppe weitergeben können. |
 | Bulk-Profil-Update-API | Senden Sie über die API eine CSV-Datei an Target mit Aktualisierungen des Besucherprofils für viele Besucher. Jedes Besucherprofil kann mit mehreren In-Page-Profilattributen in einem Aufruf aktualisiert werden. |
 | Single-Profil-API | Fast identisch mit der Massen-Profil-Update-API, aber ein Besucher-Profil wird gleichzeitig aktualisiert, in einer Linie im API-Aufruf und nicht mit einer CSV-Datei. |
 | Kundenattribute | Mithilfe von Kundenattributen können Sie Besucherprofildaten per FTP in die Experience Cloud hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit Adobe Analytics und Adobe Target. |
 
-## Profilattribute auf der Seite (auch „In-mbox-Profilattribute“ genannt) {#section_57E1C161AA7B444689B40B6F459302B6}
 
-Inpage-Profilattribute sind Name-Wert-Paare, die direkt über den Seiten-Code übergeben werden und im Profil des Besuchers für die zukünftige Verwendung gespeichert werden.
 
-Die Profilattribute auf der Seite erlauben es, benutzerspezifische Daten im Profil von Target zu speichern, um sie später für ein Targeting gezielt zu segmentieren.
 
-### Format
 
-Inpage-Profilattribute werden über einen Server-Aufruf als Name-Wert-Paar-Zeichenfolge mit dem Präfix „profile.“ vor dem Attributnamen an Target übergeben.
 
-Attributnamen und -werte sind anpassbar (obwohl es einige „reservierte Namen“ für bestimmte Verwendungszwecke gibt).
-
-Beispiele:
-
-* `profile.membershipLevel=silver`
-* `profile.visitCount=3`
-
-### Beispielhafte Anwendungsfälle
-
-**Anmeldeinformationen:** nicht personenbezogene Daten, die auf dem Login des Benutzers basieren, an Target weitergeben. Dies kann z. B. der Status der Mitgliedschaft, der Bestellverlauf oder mehr sein.
-
-**Store-Info:** verfolgen, welcher Store der bevorzugte Standort dieses Benutzers ist.
-
-**Bisherige Interaktionen**: verfolgen, was der Benutzer zuvor auf der Site getan hat, um die künftige Personalisierung vorzubereiten.
-
-### Vorteile der Methode
-
-Die Daten werden in Echtzeit an Target gesendet und können bei demselben Server-Aufruf verwendet werden, bei dem sie eingehen.
-
-### Einschränkungen
-
-Erfordert Seiten-Code-Updates (direkt oder über ein Tag-Management-System).
-
-Attribute und Werte sind in Server-Aufrufen sichtbar, sodass ein Besucher die Werte sehen kann. Wenn Sie Informationen wie Kreditrahmen oder andere potenziell private Informationen weitergeben, ist dies möglicherweise nicht der beste Weg.
-
-### Beispiele für Codes
-
-targetPageParamsAll (hängt die Attribute an alle Mbox-Aufrufe auf der Seite an):
-
-`function targetPageParamsAll() { return "profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-targetPageParams (hängt die Attribute an die globale Mbox auf der Seite an):
-
-`function targetPageParams() { return profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-Attribute im mboxCreate-Code:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','profile.param1=value1','profile.param2=value2'); </script>`
-
-### Links zu relevanten Informationen
-
-[Profilattribute](/help/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201)
-
-[Besucherprofil](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)
-
-## Skript-Profilattribute {#section_3E27B58C841448C38BDDCFE943984F8D}
-
-Skript-Profilattribute sind Name-Wert-Paare, die in der Target-Anwendung definiert sind. Der Wert wird durch die Ausführung eines JavaScript-Snippets auf dem Target-Server über den Server-Aufruf ermittelt.
-
-Benutzer schreiben kleine Code-Snippets, die pro Mbox-Aufruf ausgeführt werden, bevor ein Besucher für eine Zielgruppenmitgliedschaft und -aktivität ausgewertet wird.
-
-### Format
-
-Skript-Profilattribute werden im Abschnitt „Zielgruppen“ von Target erstellt. Jeder Attributname ist gültig und der Wert ist das Ergebnis einer JavaScript-Funktion, die vom Target-Benutzer geschrieben wurde. Den Attributnamen wird in Target automatisch ein „user. “ vorangestellt, um sie von den Profilattributen innerhalb der Seite unterscheiden zu können.
-
-Das Code-Snippet ist in der Sprache Rhino JS geschrieben und kann Token und andere Werte referenzieren.
-
-### Beispielhafte Anwendungsfälle
-
-**Warenkorbabbruch:** das Profilskript auf 1 setzen, wenn der Besucher den Einkaufswagen erreicht. Wenn der Besucher einen Kauf durchführt, setzen Sie ihn auf 0 zurück. Ist der Wert =1, dann hat der Besucher einen Artikel im Warenkorb.
-
-**Besuchsanzahl:** bei jedem neuen Besuch die Anzahl um 1 erhöhen, um zu verfolgen, wie oft ein Besucher zur Site zurückkehrt.
-
-### Vorteile der Methode
-
-Keine Seiten-Code-Updates erforderlich.
-
-Wird vor Entscheidungen zu Zielgruppen- und Aktivitätsmitgliedschaften ausgeführt, sodass diese Skript-Profilattribute die Mitgliedschaft bei einem einzelnen Server-Aufruf beeinflussen können.
-
-Kann sehr robust sein. Pro Skript können bis zu 2.000 Befehle ausgeführt werden.
-
-### Einschränkungen
-
-JavaScript-Kenntnisse erforderlich.
-
-Die Ausführungsreihenfolge von Profilskripten kann nicht garantiert werden, sodass sie sich nicht aufeinander verlassen können.
-
-Kann schwierig zu debuggen sein.
-
-### Beispiele für Codes
-
-Profilskripte sind ziemlich flexibel:
-
-`user.purchase_recency: var dayInMillis = 3600 * 24 * 1000; if (mbox.name == 'orderThankyouPage') {  user.setLocal('lastPurchaseTime', new Date().getTime()); } var lastPurchaseTime = user.getLocal('lastPurchaseTime'); if (lastPurchaseTime) {  return ((new Date()).getTime()-lastPurchaseTime)/dayInMillis; }`
-
-### Links zu relevanten Informationen
-
-[Profilskriptattribute](/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)
-
-## Datenanbieter {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
-
-Datenanbieter sind eine Funktion, mit der Sie Daten von Drittanbietern einfach an die Zielgruppe weitergeben können.
-
-Hinweis: Datenanbieter erfordert at.js 1.3 oder höher.
-
-### Format
-
-Die Einstellung `window.targetGlobalSettings.dataProviders` entspricht einer Reihe von Datenanbietern.
-
-Weitere Informationen zur Struktur für die einzelnen Datenanbieter finden Sie unter [Datenanbieter](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
-
-### Beispielhafte Anwendungsfälle
-
-Erfassen Sie Daten von Drittanbietern, wie z. B. einem Wetterdienst, einem DMP oder sogar Ihrem eigenen Webservice. Anschließend können Sie diese Daten zur Erstellung von Zielgruppen und zielgerichtetem Inhalt und zur Aufwertung des Benutzerprofils verwenden.
-
-### Vorteile der Methode
-
-Mit dieser Einstellung können Kunden Daten von Drittdatenanbietern sammeln, beispielsweise Demandbase, BlueKai und benutzerspezifische Services, und die Daten an Target als Mbox-Parameter in der globalen Mbox-Anfrage weitergeben.
-
-Sie unterstützt die Sammlung von Daten von mehreren Anbietern über asynchrone und synchrone Anfragen.
-
-Mit diesem Ansatz ist es ein Leichtes, Flicker- oder Standardinhalte zu verwalten und gleichzeitig unabhängige Timeouts für die einzelnen Anbieter festzulegen, um die Auswirkungen auf die Seitenleistung zu begrenzen
-
-### Einschränkungen
-
-Wenn die `window.targetGlobalSettings.dataProviders` hinzugefügten Datenanbieter asynchron sind, werden sie parallel ausgeführt. Die Besucher-API-Anfrage wird parallel mit den `window.targetGlobalSettings.dataProviders` hinzugefügten Funktionen ausgeführt, um eine minimale Wartezeit zu ermöglichen.
-
-at.js versucht nicht, die Daten zwischenzuspeichern. Wenn der Datenanbieter die Daten nur einmal abruft, sollte er sicherstellen, dass die Daten zwischengespeichert werden, und die Cachedaten für den zweiten Aufruf verarbeiten, wenn die Anbieterfunktion aufgerufen wird.
-
-### Beispiele für Codes
-
-Unter [Datenanbieter](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers) finden Sie verschiedene Beispiele.
-
-### Links zu relevanten Informationen
-
-Dokumentation: [Datenanbieter](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
-
-### Schulungsvideos:
-
-* [Verwenden von Datenanbietern in Adobe Target](https://helpx.adobe.com/de/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implementieren von Datenanbietern in Adobe Target](https://helpx.adobe.com/de/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## Bulk-Profil-Update-API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
