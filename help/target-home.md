@@ -3,14 +3,14 @@ keywords: Zielgruppe;Home;beliebte Themen;Adobe-Zielgruppe;Standard;Premium;Ziel
 title: Wo finde ich die Dokumentation zur Zielgruppe?
 description: Erfahren Sie, wie Sie mit Adobe Target die Erlebnisse Ihrer Kunden personalisieren können, um den Umsatz Ihrer Websites, mobilen Sites, Apps und anderer digitaler Kanal zu maximieren.
 feature: Überblick
+exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 45%
 
 ---
-
 
 # [!DNL Adobe Target] Anleitung
 
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 
-**Zuletzt aktualisiert: 29. März 2021 ( [Siehe Änderungen](r-release-notes/doc-change.md) )**
+**Zuletzt aktualisiert: 8. April 2021 ( [Siehe Änderungen](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
