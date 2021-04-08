@@ -4,14 +4,14 @@ description: Erfahren Sie, wie Sie in Adobe Target Recommendations Inklusionsreg
 title: Wie verwende ich dynamische und statische Einschlussregeln in Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1100'
 ht-degree: 41%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Verwenden dynamischer und statischer Einschlussregeln{#use-dynamic-and-static-inclusion-rules}
 
@@ -55,7 +55,7 @@ Die folgenden Optionen stehen für die dynamische Filterung zur Verfügung:
 
 | Dynamische Filteroption | Details |
 | --- | --- |
-| [Entitätsattributübereinstimmung](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Sie können dynamisch filtern, indem Sie einen Pool potenzieller Empfehlungselemente mit einem bestimmten Element vergleichen, mit dem die Benutzer interagiert haben.<br>Verwenden Sie  [!UICONTROL Entitätsattribut-] Übereinstimmung, wenn Sie Empfehlungen anzeigen möchten, die am ehesten für den Besucher von Interesse sind, z. B. die Lieblingsmarke des Besuchers. |
+| [Entitätsattributübereinstimmung](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Sie können dynamisch filtern, indem Sie einen Pool potenzieller Empfehlungselemente mit einem bestimmten Element vergleichen, mit dem die Benutzer interagiert haben.<br>Verwenden Sie  [!UICONTROL Entitätsattribut-] Übereinstimmung, wenn Sie Empfehlungen anzeigen möchten, die am ehesten für den Besucher geeignet sind, z. B. die Lieblingsmarke des Besuchers. |
 | [Profilattributübereinstimmung](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Sie können Elemente (Entitäten) dynamisch mit einem Wert im Profil des Benutzers vergleichen.<br>Verwenden Sie  [!UICONTROL Profil Attribute ] Matchingings, wenn Sie Empfehlungen anzeigen möchten, die mit einem im Profil des Besuchers gespeicherten Wert übereinstimmen, z. B. Größe oder Lieblingsmarke. |
 | [Parameterübereinstimmung](/help/c-recommendations/c-algorithms/parameter-matching.md) | Dynamisches Filtern durch Vergleich von Elementen (Entitäten) mit einem Wert in der Anforderung (API oder mbox).<br>Verwenden Sie  [!UICONTROL Parameter ] Matchinging, um Inhalte zu empfehlen, die mit den Seitenparametern oder den Parametern des Besuchers übereinstimmen, z. B. Geräteabmessungen oder Geo-Position. |
 
@@ -91,7 +91,7 @@ Um die gewünschte Aktion auszuwählen, bewegen Sie den Mauszeiger über das Zah
 
 | Aktion | Verfügbar für | Details |
 |--- |--- |--- |
-| [!UICONTROL Diese Filterregel ignorieren] | [!UICONTROL Profil Attribute ] [!UICONTROL MatchingandParameter Matching] | Dies ist die Standardaktion für [!UICONTROL Profil-Attributzuordnung] und [!UICONTROL Parameterzuordnung].<br>Diese Option gibt an, dass die Regel ignoriert wird. Wenn beispielsweise drei Filterregeln vorhanden sind und die dritte Regel keine Werte übergibt, können Sie die dritte Regel mit den leeren Werten einfach ignorieren, statt gar keine Ergebnisse zurückzugeben. |
+| [!UICONTROL Diese Filterregel ignorieren] | [!UICONTROL Profil-] Attributübereinstimmung und  [!UICONTROL Parameterübereinstimmung] | Dies ist die Standardaktion für [!UICONTROL Profil-Attributzuordnung] und [!UICONTROL Parameterzuordnung].<br>Diese Option gibt an, dass die Regel ignoriert wird. Wenn beispielsweise drei Filterregeln vorhanden sind und die dritte Regel keine Werte übergibt, können Sie die dritte Regel mit den leeren Werten einfach ignorieren, statt gar keine Ergebnisse zurückzugeben. |
 | [!UICONTROL Keine Ergebnisse für dieses Kriterium]<br> anzeigen (nur Kriterien) | [!UICONTROL Entitätsattributübereinstimmung],  [!UICONTROL Profil-Attributübereinstimmung] und  [!UICONTROL Parameterübereinstimmung] | Dies ist die Standardaktion für [!UICONTROL Entitätsattribut-Übereinstimmung].<br>[!DNL Target]Durch diese Aktion wird bestimmt, wie leere Werte vor dem Hinzufügen dieser Option verarbeitet hat: Für diese Kriterien werden keine Ergebnisse angezeigt. |
 | [!UICONTROL Keine Artikel<br> bewerben (nur Promotions)] | [!UICONTROL Entitätsattributübereinstimmung],  [!UICONTROL Profil-Attributübereinstimmung] und  [!UICONTROL Parameterübereinstimmung] | Dies ist die Standardaktion für [!UICONTROL Entitätsattribut-Übereinstimmung].<br>[!DNL Target]Durch diese Aktion wird bestimmt, wie leere Werte vor dem Hinzufügen dieser Option verarbeitet hat: Für diese Kriterien werden keine Ergebnisse angezeigt. |
 | [!UICONTROL Statischen Wert verwenden] | [!UICONTROL Entitätsattributübereinstimmung],  [!UICONTROL Profil-Attributübereinstimmung] und  [!UICONTROL Parameterübereinstimmung] | Wenn ein Wert leer ist, können Sie die Verwendung eines statischen Werts festlegen. |
