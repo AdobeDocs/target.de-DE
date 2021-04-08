@@ -5,9 +5,9 @@ title: Wie viel Traffic wird für eine erfolgreiche Aktivität benötigt?
 feature: Automatisierte Personalisierung
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 14%
 
 ---
@@ -65,7 +65,7 @@ Beachten Sie, dass [!DNL Target] nach dem Zufallsprinzip Erlebnisse bereitstellt
 
 Berücksichtigen Sie die folgenden häufig gestellten Fragen beim Arbeiten mit der [!UICONTROL Traffic-Schätzung]:
 
-### Warum werden keine personalisierten Modelle von [!DNL Target] erstellt, wenn meine AP-Aktivität ausreichend Traffic aufweist?
+### Warum werden personalisierte Modelle nicht erstellt, obwohl meine AP-Aktivität über ausreichend Traffic verfügt?
 
 Unter bestimmten Umständen ist Ihr Traffic groß genug, um ein personalisiertes Modell zu erstellen, aber dieser Traffic könnte [!DNL Target] darüber informieren, dass es keinen bedeutenden Unterschied zwischen dem personalisierten Modell und dem Zufallsprinzip gibt. Obwohl das Modell in [!DNL Target] erstellt und getestet wurde, wird es nicht bereitgestellt, da das Modell nicht besser als zufällig ist.
 
