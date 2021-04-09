@@ -3,16 +3,16 @@ keywords: E-Mail; ESP; E-Mail-Serviceprovider; Rawbox; Lieferungs-API; Nur-Downl
 description: Erfahren Sie, wie Sie E-Mails mit Adobe Target Recommendations integrieren, einschließlich der Zielgruppe Versand API, Rawbox-Vorlagen und Nur-Herunterladen-Vorlagen.
 title: Wie integriere ich Recommendations mit E-Mail?
 feature: Recommendations
+exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 90%
+source-wordcount: '1548'
+ht-degree: 87%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Empfehlungen mit E-Mails integrieren{#integrate-recommendations-with-email}
+# ![PREMIUM](/help/assets/premium.png) Empfehlungen mit E-Mails integrieren
 
 Informationen zu den Methoden zum Integrieren der E-Mail-Funktion in Recommendations.
 
@@ -132,6 +132,15 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` wurde nicht angegeben, wenn für die Anfrage keine Übereinstimmung gefunden wurde oder der Parameter `mboxNoRedirect` nicht angegeben ist. |
 | `Invalid mbox name:= MBOX_NAME` | Zeigt an, dass im Parameter `mbox` unzulässige Zeichen enthalten sind. |
 | `Mbox name [MBOX_NAME] is too long` | Zeigt an, dass der Parameter `mbox` mehr als 250 Zeichen enthält. |
+
+## Kapazitätsrichtlinien für Optionen 1 und 2 {#capacity}
+
+Die folgenden Kapazitätsrichtlinien gelten für die Optionen für die Versand-API und die Rawbox-E-Mail-Vorlage:
+
+* Anforderungen sollten auf den niedrigeren Wert von 1.000 Anforderungen pro Sekunde oder das 25-fache des Traffics pro Tag beschränkt sein.
+* Ramp-Traffic in Schritten von 200 Anforderungen pro Sekunde pro Minute
+
+Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie höhere Ratenbeschränkungen verwenden möchten.
 
 ## Option 3: Verwenden der Nur-Herunterladen-Vorlage {#section_518C279AF0094BE780F4EA40A832A164}
 
