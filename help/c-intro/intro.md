@@ -4,14 +4,14 @@ description: Lernen Sie die Grundlagen von Adobe Target Standard und Adobe Targe
 landing-page-description: Personalisieren Sie die Erlebnisse Ihrer Kunden, um den Umsatz Ihrer Websites und Mobile Sites sowie Apps, Social Media und anderer digitaler Kanäle zu maximieren.
 title: Was ist Zielgruppe?
 feature: Überblick
+exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
-source-git-commit: 345b0f805ef65364b891f6754f4aaf78c163f334
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 43%
 
 ---
-
 
 # Einführung in Target
 
