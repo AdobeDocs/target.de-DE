@@ -5,9 +5,9 @@ title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '3926'
+source-wordcount: '3938'
 ht-degree: 29%
 
 ---
@@ -21,6 +21,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | April 9 | [Versionshinweise zu Target (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion für die Version 21.4.1 von Target Standard/Premium hinzugefügt (19. April 2021) |
+|  | [Integration von Recommendations in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | Folgender Abschnitt wurde hinzugefügt: &quot;Kapazitäts-Richtlinien für Optionen 1 und 2.&quot; |
 | 29. März | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Neue FAQs hinzugefügt:<ul><li>Bestehen Empfehlungen, die auf kürzlich angezeigten Artikeln basieren, für einen Besucher auf mehreren Geräten?</li></ul> |
 | 23. März | [Versionshinweise](/help/r-release-notes/release-notes.md) | Versionshinweise für at.js-Version 2.4.1 hinzugefügt. |
 |  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Versionshinweise für at.js-Version 2.4.1 hinzugefügt. |
