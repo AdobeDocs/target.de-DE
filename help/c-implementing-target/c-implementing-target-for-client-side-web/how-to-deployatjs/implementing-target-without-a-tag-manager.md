@@ -6,10 +6,10 @@ feature: Serverseitige Implementierung
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 45e4489348c490aaa43007656fb994e3d01b9c3f
+source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 54%
+source-wordcount: '1697'
+ht-degree: 52%
 
 ---
 
@@ -44,6 +44,7 @@ Die folgenden Kontodetails können Ansicht werden. Diese Einstellungen können n
 | [!UICONTROL Clientcode] | Der Clientcode ist eine clientspezifische Folge von Zeichen, die oft benötigt wird, wenn die Target-APIs zum Einsatz kommen. |
 | [!UICONTROL IMS-Organisations-ID] | Diese ID ordnet Ihre Implementierung Ihrem [!DNL Adobe Experience Cloud]-Konto zu. |
 | [!UICONTROL Geräteinterne Entscheidungsfindung] | Schieben Sie den Umschalter an die Position &quot;Ein&quot;, um die Entscheidung auf dem Gerät zu aktivieren.<br>Mit der On-Device-Entscheidungsfindung können Sie Ihre A/B- und Erlebnis-Targeting (XT)-Kampagnen auf Ihrem Server zwischenspeichern und Speicherentscheidungen mit einer Latenz von nahezu null durchführen. Weitere Informationen finden Sie unter [Einführung in die geräteinterne Entscheidungsfindung](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) im Handbuch *Adobe Target SDKs*. |
+| [!UICONTROL Schließen Sie alle vorhandenen qualifizierten Aktivitäten für die geräteinterne Entscheidungsfindung in das Artefakt ein.] | (Bedingt) Diese Option wird angezeigt, wenn Sie die Geräteentscheidung aktivieren.<br>Schieben Sie den Umschalter an die &quot;An&quot;-Position, wenn alle Aktivitäten der Live-Zielgruppe, die für eine Geräteentscheidung infrage kommen, automatisch in das Artefakt aufgenommen werden sollen.<br>Wenn Sie diesen Umschalter deaktivieren, müssen Sie alle auf dem Gerät befindlichen Entscheidungsfunktionen neu erstellen und aktivieren, damit sie in das Artefakt der generierten Aktivitäten aufgenommen werden. |
 
 ## Implementierungsmethoden
 
