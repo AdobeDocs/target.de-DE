@@ -1,25 +1,23 @@
 ---
 keywords: Einschlussregeln; Aufnahmekriterien; Empfehlungen; neue Kriterien erstellen; Promotion; Promotions; dynamischer Filter; dynamisch; leere Werte; Filterregel ignorieren; statischer Filter; Filtern nach Wert; Entitätsattributübereinstimmung; Profilattributübereinstimmung; Parameterübereinstimmung; Filtern nach Wert; statischer Filter
-description: Erfahren Sie, wie Sie in Adobe Target Recommendations Inklusionsregeln für Kriterien und Promotions erstellen. hinzufügen Sie zusätzliche dynamische oder statische Filterregeln, um bessere Ergebnisse zu erzielen.
+description: Erfahren Sie, wie Sie in Adobe Target Recommendations Inklusionsregeln für Kriterien und Promotions erstellen. Um bessere Ergebnisse zu erzielen, fügen Sie dynamischere oder statische Filterregeln hinzu.
 title: Wie verwende ich dynamische und statische Einschlussregeln in Recommendations?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 41%
+source-wordcount: '1841'
+ht-degree: 19%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Verwenden dynamischer und statischer Einschlussregeln{#use-dynamic-and-static-inclusion-rules}
+# ![PREMIUM](/help/assets/premium.png) Verwenden dynamischer und statischer Einschlussregeln
 
-Informationen zum Erstellen von Einschlussregeln für Kriterien und Promotions in [!DNL Adobe Target] und zum Hinzufügen zusätzlicher Regeln für das dynamische oder statische Filtern, um bessere Ergebnisse für Ihre Empfehlungen zu erzielen.
+Informationen zum Erstellen von Einschlussregeln für Kriterien und Promotions in [!DNL Adobe Target] und zum Hinzufügen dynamischer oder statischer Filterregeln, um bessere Ergebnisse für Ihre Empfehlungen zu erzielen.
 
->[!NOTE]
->
->Der Prozess zum Erstellen und Verwenden von Einschlussregeln für Kriterien und Promotions ist ähnlich, genauso wie die Anwendungsfälle und Beispiele. In diesem Abschnitt werden sowohl Kriterien als auch Promotions und die Verwendung von Inklusionsregeln behandelt.
+Der Prozess zum Erstellen und Verwenden von Einschlussregeln für Kriterien und Promotions ist ähnlich, genauso wie die Anwendungsfälle und Beispiele. In diesem Abschnitt werden sowohl Kriterien als auch Promotions und die Verwendung von Inklusionsregeln behandelt.
 
 ## Hinzufügen von Filterregeln zu Kriterien {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
@@ -45,7 +43,7 @@ Dynamische Inklusionsregeln sind leistungsfähiger als statische Inklusionsregel
 
 * Dynamische Inklusionsregeln liefern Empfehlungen, indem sie einem Attribut im Profil-Parameter eines Benutzers oder in einem Mbox-Aufruf entsprechen.
 
-   Sie können beispielsweise eine Empfehlung &quot;Bevorzugte Kriterien&quot;erstellen und dann die zurückgegebenen Empfehlungen herausfiltern und dann alle Empfehlungen (in Echtzeit) nach einem Attribut filtern, das weitergegeben wird, wenn der Benutzer auf eine Seite zugreift, auf der die Empfehlungen angezeigt werden.
+   Sie können beispielsweise eine Empfehlung &quot;Bevorzugte Kriterien&quot;erstellen. Aus dem Satz der zurückgegebenen Empfehlungen können Sie alle Empfehlungen (in Echtzeit) nach einem Attribut filtern, das beim Zugriff des Benutzers auf eine Seite, auf der die Empfehlungen angezeigt werden, übergeben wird.
 
 * Verwenden Sie statische Regeln, um zu begrenzen, welche Artikel in der Empfehlung enthalten sind (anstatt Sammlungen zu verwenden).
 
@@ -67,17 +65,29 @@ Die folgende Option ist zum Filtern nach Wert verfügbar:
 | --- | --- |
 | [Statischer Filter](/help/c-recommendations/c-algorithms/static-value.md) | Geben Sie manuell einen oder mehrere statische Werte zum Filtern ein. |
 
-## Dynamische Kriterien und Werbebeispiele
+## Verfügbare Operatoren {#operators}
 
 Dynamische Kriterien und Promotions sind viel leistungsfähiger als statische Kriterien und Promotions und liefern bessere Ergebnisse und Interaktionen.
 
-Die folgenden Beispiele bieten allgemeine Ideen dazu, wie Sie dynamische Promotions in Ihren Marketingbemühungen einsetzen können:
+Die folgenden Beispiele bieten allgemeine Ideen, wie Sie dynamische Promotions und Ausschlüsse in Ihren Marketingbemühungen verwenden können:
 
 | Operator | Beispiele |
 | --- | --- |
-| Gleich | Wenn ein Besucher einen Artikel auf Ihrer Website (z. B. ein Produkt, einen Artikel oder Film) anzeigt, können Sie mit dem Operator &quot;Gleich&quot;in dynamischen Promotions andere Artikel bewerben aus:<ul><li>dieselbe Marke</li><li>dieselbe Kategorie</li><li>dieselbe Kategorie UND von der Hausmarke</li><li>dasselbe Geschäft</li></ul> |
-| Ist nicht gleich | Wenn ein Besucher einen Artikel auf Ihrer Website (z. B. ein Produkt, einen Artikel oder einen Film) anzeigt, können Sie mit dem Operator &quot;ist nicht gleich&quot;in dynamischen Promotions andere Artikel bewerben aus:<ul><li>andere TV-Serie</li><li>anderes Genre</li><li>andere Produktserie</li><li>andere Stil-ID</li></ul> |
-| Ist zwischen | Wenn ein Besucher einen Artikel auf Ihrer Website (z. B. ein Produkt, einen Artikel oder einen Film) mit dem Operator &quot;ist zwischen&quot;in dynamischen Promotions anzeigt, können Sie andere Artikel bewerben, die Folgendes sind:<ul><li>teurer</li><li>billiger</li><li>kostet plus oder minus 30 %</li><li>spätere Episoden in derselben Staffel</li><li>vorherige Bücher einer Folge</li></ul> |
+| Entspricht<br>(Verfügbar mit Entitäts-Attributübereinstimmung, Profil-Attributübereinstimmung, Parameterübereinstimmung und statischem Filter.) | Wenn ein Besucher einen Artikel auf Ihrer Website (z. B. ein Produkt, einen Artikel oder Film) anzeigt, können Sie mit dem Operator &quot;Gleich&quot;in dynamischen Promotions andere Artikel bewerben aus:<ul><li>Dieselbe Marke</li><li>Die gleiche Kategorie</li><li>Die gleiche Kategorie UND von der Hausmarke</li><li>Derselbe Store</li></ul> |
+| Ist nicht gleich<br>(verfügbar mit Entitätsattributübereinstimmung, Profil-Attributübereinstimmung, Parameterübereinstimmung und statischem Filter.) | Wenn ein Besucher einen Artikel auf Ihrer Website (z. B. ein Produkt, einen Artikel oder einen Film) anzeigt, können Sie mit dem Operator &quot;ist nicht gleich&quot;in dynamischen Promotions andere Artikel bewerben aus:<ul><li>Eine andere Fernsehserie</li><li>Ein anderes Genre</li><li>Eine andere Produktreihe</li><li>Eine andere Stil-ID</li></ul> |
+| Enthält Unterzeichenfolge<br>(Verfügbar mit Entitäts-Attributübereinstimmung, Profil-Attributübereinstimmung, Parameterübereinstimmung und statischem Filter.) | Wenn ein Besucher einen Artikel auf Ihrer Website (z. B. ein Produkt) anzeigt, können Sie mit dem Operator &quot;contains substring&quot;andere Artikel bewerben, die:<ul><li></li></ul> |  |
+| Enthält keine Unterzeichenfolge<br>(Verfügbar mit Entitätsattribut-Übereinstimmung, Profil-Attributübereinstimmung, Parameterübereinstimmung und statischem Filter.) | Mit dem Operator &quot;enthält keine Unterzeichenfolge&quot;können Sie andere Artikel, die Folgendes bewirken, fördern, wenn ein Besucher ein Element auf Ihrer Website anzeigt (z. B. ein Produkt):<ul><li></li></ul> |
+| Beginn mit<br>(verfügbar mit Entitätsattributübereinstimmung, Profil-Attributübereinstimmung, Parameterübereinstimmung und statischem Filter.) | Wenn ein Besucher einen Artikel auf Ihrer Website (z. B. ein Produkt) anzeigt, können Sie mit dem Operator &quot;Beginn mit&quot;andere Artikel bewerben, die:<ul><li></li></ul> |
+| Endet mit<br>(verfügbar mit Entitätsattributübereinstimmung, Profil-Attributübereinstimmung, Parameterübereinstimmung und statischem Filter.) | Wenn ein Besucher einen Artikel auf Ihrer Website (z. B. ein Produkt) anzeigt, können Sie mit dem Operator &quot;endet mit&quot;andere Artikel bewerben, die:<ul><li></li></ul> |
+| ist größer oder gleich<br>(verfügbar mit Entitätsattributübereinstimmung, Profil-Attributübereinstimmung, Parameterübereinstimmung und statischem Filter.) | Wenn ein Besucher einen Artikel auf Ihrer Website (z. B. ein Produkt) anzeigt, können Sie mit dem Operator &quot;ist größer oder gleich&quot;andere Artikel bewerben, die:<ul><li>Kosten gleich oder teurer</li></ul> |
+| kleiner oder gleich<br>(verfügbar mit Entitätsattributübereinstimmung, Profil-Attributübereinstimmung, Parameterübereinstimmung und statischem Filter.) | Wenn ein Besucher einen Artikel auf Ihrer Website (z. B. ein Produkt) anzeigt, können Sie mit dem Operator &quot;ist kleiner oder gleich&quot;andere Artikel bewerben, die:<ul><li>Kosten gleich oder billiger</li><li>Kostenpflichtige Artikel ausschließen</li></ul> |
+| Liegt zwischen<br>(verfügbar mit Entitätsattributübereinstimmung, Profil-Attributübereinstimmung und Parameterübereinstimmung.) | Wenn ein Besucher einen Artikel auf Ihrer Website (z. B. ein Produkt, einen Artikel oder einen Film) mit dem Operator &quot;ist zwischen&quot;in dynamischen Promotions anzeigt, können Sie andere Artikel bewerben, die Folgendes sind:<ul><li>teurer</li><li>Weniger teuer</li><li>Kosten plus oder minus 30 %</li><li>Spätere Episoden in derselben Saison</li><li>Vorherige Bücher in einer Reihe</li></ul> |
+| Ist in Liste<br>(verfügbar mit Profil Attribute Match und Parameter Match.) | Wenn ein Besucher einen Artikel auf Ihrer Website (z. B. ein Profil, einen Artikel oder einen Film) anzeigt, können Sie mithilfe des Operators &quot;ist in der Liste enthalten&quot;bei der Attributzuordnung folgende Artikel bewerben:<ul><li>Verfügbar in der geografischen Lage des Besuchers</li></ul>Bei Verwendung dieses Operators wird eine Liste in [rechts](#caveats) der Regel erwartet. |
+| Ist nicht in Liste<br>(verfügbar mit Profil-Attributübereinstimmung und Parameterübereinstimmung.) | Wenn ein Besucher ein Element auf Ihrer Website (z. B. ein Profil, einen Artikel oder einen Film) anzeigt, können Sie mithilfe des Operators &quot;ist nicht in der Liste enthalten&quot;andere Elemente ausschließen, die:<ul><li>In Liste der letzten zehn Artikel, die der Besucher angezeigt hat</li></ul></ul>Bei Verwendung dieses Operators wird eine Liste in [rechts](#caveats) der Regel erwartet. |
+| Liste enthält ein Element in<br>(verfügbar mit Entitätsattributübereinstimmung, Profil-Attributübereinstimmung und Parameterübereinstimmung.) | Mit dem Operator &quot;Liste enthält Element in&quot;bei der Attributzuordnung für Profil können Sie weitere Artikel empfehlen, wenn ein Besucher ein Element auf Ihrer Website anzeigt (z. B. ein Produkt, einen Artikel oder einen Film):<ul><li>Verbunden mit einem der Lieblingsteams des Besuchers</li></ul></ul>Bei Verwendung dieses Operators wird eine Liste in [Beide Seiten](#caveats) der Regel erwartet. |
+| Die Liste enthält kein Element in<br>(verfügbar mit Entitätsattribut-Übereinstimmung, Profil-Attributübereinstimmung und Parameterübereinstimmung.) | Mit dem Operator &quot;Liste enthält kein Element in&quot;bei der Parameterattributzuordnung können Sie andere Elemente ausschließen, wenn ein Besucher ein Element auf Ihrer Website anzeigt (z. B. ein Produkt, einen Artikel oder einen Film):<ul><li>In einer Liste verbotener Typen enthalten</li></ul>Bei Verwendung dieses Operators wird eine Liste in [Beide Seiten](#caveats) der Regel erwartet. |
+| Liste enthält alle Elemente in<br>(verfügbar mit Entitätsattributübereinstimmung, Profil-Attributübereinstimmung und Parameterübereinstimmung.) | Mit dem Operator &quot;Liste enthält alle Elemente in&quot;bei der Parameterattributzuordnung können Sie andere Artikel bewerben, die Folgendes umfassen, wenn ein Besucher ein Element auf Ihrer Website anzeigt (z. B. ein Produkt, einen Artikel oder einen Film):<ul><li></li></ul>Bei Verwendung dieses Operators wird eine Liste in [Beide Seiten](#caveats) der Regel erwartet. |
+| Die Liste enthält nicht alle Elemente in<br>(verfügbar mit Entitätsattribut-Übereinstimmung, Profil-Attributübereinstimmung und Parameterübereinstimmung.) | Mit dem Operator &quot;Liste enthält nicht alle Elemente in&quot;bei der Parameterattributzuordnung können Sie andere Artikel bewerben, die folgende Artikel enthalten, wenn ein Besucher ein Element auf Ihrer Website anzeigt (z. B. ein Produkt, einen Artikel oder einen Film):<ul><li></li></ul>Bei Verwendung dieses Operators wird eine Liste in [Beide Seiten](#caveats) der Regel erwartet. |
 
 ## Handhabung leerer Werte beim Filtern nach Entitäts-Attributübereinstimmung, Profil-Attributübereinstimmung und Parameterübereinstimmung {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -91,12 +101,12 @@ Um die gewünschte Aktion auszuwählen, bewegen Sie den Mauszeiger über das Zah
 
 | Aktion | Verfügbar für | Details |
 |--- |--- |--- |
-| [!UICONTROL Diese Filterregel ignorieren] | [!UICONTROL Profil-] Attributübereinstimmung und  [!UICONTROL Parameterübereinstimmung] | Dies ist die Standardaktion für [!UICONTROL Profil-Attributzuordnung] und [!UICONTROL Parameterzuordnung].<br>Diese Option gibt an, dass die Regel ignoriert wird. Wenn beispielsweise drei Filterregeln vorhanden sind und die dritte Regel keine Werte übergibt, können Sie die dritte Regel mit den leeren Werten einfach ignorieren, statt gar keine Ergebnisse zurückzugeben. |
-| [!UICONTROL Keine Ergebnisse für dieses Kriterium]<br> anzeigen (nur Kriterien) | [!UICONTROL Entitätsattributübereinstimmung],  [!UICONTROL Profil-Attributübereinstimmung] und  [!UICONTROL Parameterübereinstimmung] | Dies ist die Standardaktion für [!UICONTROL Entitätsattribut-Übereinstimmung].<br>[!DNL Target]Durch diese Aktion wird bestimmt, wie leere Werte vor dem Hinzufügen dieser Option verarbeitet hat: Für diese Kriterien werden keine Ergebnisse angezeigt. |
-| [!UICONTROL Keine Artikel<br> bewerben (nur Promotions)] | [!UICONTROL Entitätsattributübereinstimmung],  [!UICONTROL Profil-Attributübereinstimmung] und  [!UICONTROL Parameterübereinstimmung] | Dies ist die Standardaktion für [!UICONTROL Entitätsattribut-Übereinstimmung].<br>[!DNL Target]Durch diese Aktion wird bestimmt, wie leere Werte vor dem Hinzufügen dieser Option verarbeitet hat: Für diese Kriterien werden keine Ergebnisse angezeigt. |
+| [!UICONTROL Diese Filterregel ignorieren] | [!UICONTROL Profil-] Attributübereinstimmung und  [!UICONTROL Parameterübereinstimmung] | Diese Aktion ist die Standardaktion für [!UICONTROL Profil-Attributzuordnung] und [!UICONTROL Parameterzuordnung].<br>Diese Option gibt an, dass die Regel ignoriert wird. Wenn beispielsweise drei Filterregeln vorhanden sind und die dritte Regel keine Werte übergibt, können Sie die dritte Regel mit den leeren Werten einfach ignorieren, statt gar keine Ergebnisse zurückzugeben. |
+| [!UICONTROL Keine Ergebnisse für dieses Kriterium]<br> anzeigen (nur Kriterien) | [!UICONTROL Entitätsattributübereinstimmung],  [!UICONTROL Profil-Attributübereinstimmung] und  [!UICONTROL Parameterübereinstimmung] | Diese Aktion ist die Standardaktion für [!UICONTROL Entitätsattribut-Übereinstimmung].<br>Diese Aktion  [!DNL Target] behandelt leere Werte vor dem Hinzufügen dieser Option: Für dieses Kriterium werden keine Ergebnisse angezeigt. |
+| [!UICONTROL Keine Artikel<br> bewerben (nur Promotions)] | [!UICONTROL Entitätsattributübereinstimmung],  [!UICONTROL Profil-Attributübereinstimmung] und  [!UICONTROL Parameterübereinstimmung] | Diese Aktion ist die Standardaktion für [!UICONTROL Entitätsattribut-Übereinstimmung].<br>Diese Aktion  [!DNL Target] behandelt leere Werte vor dem Hinzufügen dieser Option: Für dieses Kriterium werden keine Ergebnisse angezeigt. |
 | [!UICONTROL Statischen Wert verwenden] | [!UICONTROL Entitätsattributübereinstimmung],  [!UICONTROL Profil-Attributübereinstimmung] und  [!UICONTROL Parameterübereinstimmung] | Wenn ein Wert leer ist, können Sie die Verwendung eines statischen Werts festlegen. |
 
-## Einschränkungen {#section_A889FAF794B7458CA074DEE06DD0E345}
+## Einschränkungen {#caveats}
 
 >[!IMPORTANT]
 >
