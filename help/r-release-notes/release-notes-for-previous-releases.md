@@ -2,15 +2,15 @@
 keywords: Versionshinweise
 description: Ansicht einer Liste von Funktionen, Verbesserungen und Fehlerbehebungen, die in früheren Versionen von Adobe Target enthalten sind.
 title: Welche Funktionen sind in früheren Versionen enthalten?
-feature: Release Notes
+feature: ' Versionshinweise '
+exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '30524'
+source-wordcount: '30834'
 ht-degree: 84%
 
 ---
-
 
 # Versionshinweise für vorherige Versionen{#release-notes-for-previous-releases}
 
@@ -23,6 +23,37 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise - 2021
+
+### at.js 2.4.1 (23. März 2021)
+
+Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
+
+* Es wurde ein Problem behoben, bei dem `targetPageParams` in Mbox-Anforderungen enthalten war. `targetPageParams` sollte nur in  `pageLoad` Anforderungen enthalten sein. (TNT-40247)
+* Es wurde ein Problem mit globalen Dokument- und Fensterobjekten in der Erweiterung [!DNL Adobe Experience Platform Launch] behoben, indem die globalen Objektabhängigkeiten der Platform launch durch direkte Verweise darauf ersetzt wurden. (TNT-37124)
+
+### Änderungen der IP-Adresse für Recommendations-Feed-Verarbeitungsserver (16. März 2021)
+
+Die IP-Adressen der Feed-Verarbeitungsserver wurden am 16. März 2021 aktualisiert. [!DNL Target Recommendations] Weitere Informationen finden Sie unter [IP-Adressen, die von Recommendations-Feed-Processing-Servern verwendet werden](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
+
+### Target Standard/Premium 21.2.1 (9. März 2021) 
+
+Dieses Maintenance Release umfasst die folgenden Erweiterungen, Fehlerbehebungen und Änderungen.
+
+Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+
+* Zulässige Größe des Angebots erhöht (TGT-38304):
+
+   | Typ  | Vorherige Beschränkung | Neue Beschränkung |
+   | --- | --- | --- |
+   | HTML | 256 KB | 1024 KB |
+   | Visuelle Angebot aus der Benutzeroberfläche der Zielgruppe | 64 KB | 1024 KB für jedes Erlebnis |
+   | Über API | 512 KB | 1024 KB |
+
+* [!UICONTROL Personalization Insight ] Reports für  [!UICONTROL Auto-Zielgruppe] -(AT) und  [!UICONTROL Automated Personalization] (AP)-Aktivitäten werden jetzt täglich erstellt. Sie können einen Bericht auswählen, der für die letzten 15, 30 und 60 Tage [!UICONTROL Automatisierte Segmente] oder [!UICONTROL Wichtige Attribute] bereitstellt. Die 45-Tage- und 90-Tage-Optionen wurden entfernt, damit die anderen Einstellungen des Lookback-Fensters täglich ausgeführt werden können. (TGT-39472)
+* Es wurde ein Fehler behoben, der dazu führte, dass die aktuelle Abhängigkeit nicht angezeigt wurde, wenn Kunden auf der Seite [!UICONTROL Ziele und Einstellungen] der Aktivität auf [!UICONTROL Abhängigkeit bearbeiten klicken. ] (TGT-39340)
+* Es wurde ein Problem beim Aktualisieren der [!UICONTROL Audience-Bibliothek eines Arbeitsbereichs] behoben. Vor der Aktualisierung wurden die Audiencen für den aktuell ausgewählten Arbeitsbereich angezeigt. Nach der Aktualisierung wurden der [!UICONTROL Standardarbeitsbereich] und die zugehörigen Audiencen angezeigt. Die aktuelle Arbeitsfläche und ihre Audiencen bleiben nun nach der Aktualisierung erhalten. (TGT-38871)
+* Es wurde ein Fehler behoben, der beim Kopieren einer [!UICONTROL Recommendations]-Aktivität und späteren Bearbeiten der ursprünglichen Aktivität durch Ändern der Kriteriensequenz auftrat. Die Änderung der Kriteriensequenz in der ursprünglichen Aktivität wurde auch auf die kopierte Aktivität falsch angewendet. (TGT-39155)
+* Es wurde ein Fehler behoben, der dazu führte, dass die falsche Produktanzahl für [!UICONTROL Recommendations]-Ausschlüsse angezeigt wurde. (TGT-39599)
 
 ### Target Standard/Premium 21.1.1 (19. Januar 2021) 
 
