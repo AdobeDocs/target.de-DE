@@ -4,10 +4,10 @@ breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, mobilen Seiten, Mobile Apps, sozialen Medien und anderer digitaler Kanäle maximieren können.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 63f56f91cf9a38c4375e811cebb47b4db4af5552
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 75%
+source-wordcount: '1609'
+ht-degree: 76%
 
 ---
 
@@ -101,8 +101,8 @@ ht-degree: 75%
       + at.js-Implementierung {#at-js-implementation}
          + Geräteinterne Entscheidungsfindung {#on-device-decisioning}
             + [Übersicht über die Entscheidungsfindung auf dem Gerät](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-            + [Unterstützte Funktionen für die Entscheidungsfindung auf dem Gerät](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
-            + [Artefakt der Entscheidungsregel auf dem Gerät](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
+            + [Unterstützte Funktionen ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
+            + [Artefakt der Regel](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
          + Funktionsweise von „at.js“{#at-js}
             + [Funktionsweise von at.js – Überblick](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [Verwaltung von Flackern mit „at.js“](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
