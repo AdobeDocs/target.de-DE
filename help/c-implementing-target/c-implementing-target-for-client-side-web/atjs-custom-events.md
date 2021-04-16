@@ -2,16 +2,16 @@
 keywords: benutzerspezifische Ereignisse; at.js; Anforderung fehlgeschlagen; Anforderung erfolgreich; Inhalt-Rendering fehlgeschlagen; Erfolgreiches Rendering von Inhalten; Bibliothek geladen; Request starten; Start des Inhalts-Rendervorgangs; kein Content Rendering von Angeboten; Redirect von Inhalts-Rendering
 description: Verwenden Sie benutzerdefinierte Ereignis, damit die Adobe Target-JavaScript-Bibliothek at.js benachrichtigt wird, wenn eine mbox-Anfrage oder ein Angebot fehlschlägt oder erfolgreich ist.
 title: Wie verwende ich benutzerdefinierte at.js-Ereignis?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 92%
+source-wordcount: '656'
+ht-degree: 87%
 
 ---
-
 
 # Benutzerdefinierte at.js-Ereignisse
 
@@ -38,6 +38,7 @@ Sicherstellung, dass Ereignisse in verschiedenen Szenarien eingesetzt werden kö
 | mbox | Zeichenfolge | Name der Mbox |
 | message | Zeichenfolge | Enthält für Menschen lesbare Beschreibungen, beispielsweise zu Geschehnissen, zur Fehlermeldung usw. |
 | Verfolgung | Objekt | Enthält `sessionId` und `deviceId`. In einigen Fällen fehlt die `deviceId` möglicherweise, weil [!DNL Target] sie nicht vom Edge-Server abrufen konnte. |
+| Typ | Zeichenfolge | **Auf dem Gerät getroffene Entscheidungsartifact**<br> succeededConstant:<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>String-Wert:  `artifactDownloadSucceeded`<br>Beschreibung: Wird aufgerufen, wenn das auf dem Gerät bereitgestellte Entscheidungsartififf erfolgreich heruntergeladen wurde.<br>**Artefakt**<br> fehlgeschlagenKonstante für die Entscheidungsfindung auf dem Gerät:  `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>Zeichenfolgenwert:  `artifactDownloadFailed`<br>Beschreibung: Wird aufgerufen, wenn das auf dem Gerät angezeigte Entscheidungsartifact nicht heruntergeladen werden konnte. |
 
 ## Nutzung {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
