@@ -2,16 +2,16 @@
 keywords: serverstate;targetGlobalSettings;targetGlobalSettings;globalSettings;global settings;at.js;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle ContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;Opt-out;selectorsPollingTimeout;dataProviders;Hybrid-Personalisierung;deviceLifetime
 description: Verwenden Sie die Funktion targetGlobalSettings() für die Adobe Target at.js-JavaScript-Bibliothek, um Einstellungen zu überschreiben, anstatt die Zielgruppe-Benutzeroberfläche oder REST-APIs zu verwenden.
 title: Wie verwende ich die Funktion targetGlobalSettings()?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 36%
+source-wordcount: '2233'
+ht-degree: 28%
 
 ---
-
 
 # targetGlobalSettings()
 
@@ -72,6 +72,45 @@ Folgende Einstellungen können überschrieben werden:
 * **Typ**: Siehe  [Datenanbieter ](#data-providers) weiter unten.
 * **Standardwert**: Siehe  [Datenanbieter ](#data-providers) weiter unten.
 * **Beschreibung**: Siehe  [Datenanbieter ](#data-providers) weiter unten.
+
+### decisioningMethod {#on-device-decisioning}
+
+* **Typ**: String
+* **Standardwert**: serverseitig
+* **Andere Werte**: auf dem Gerät, Hybrid
+* **Beschreibung**: Siehe Entscheidungsmethoden weiter unten.
+
+**Entscheidungsmethoden**
+
+Bei der geräteinternen Entscheidungsfindung führt Zielgruppe eine neue Einstellung mit dem Namen [!UICONTROL Decision Method] ein, die vorgibt, wie at.js Ihre Erlebnisse bereitstellt. Das `decisioningMethod` hat drei Werte: nur serverseitig, nur auf dem Gerät und Hybrid. Wenn `decisioningMethod` in `targetGlobalSettings()` eingestellt ist, fungiert es als Standardentscheidungsmethode für alle [!DNL Target]-Entscheidungen.
+
+[!UICONTROL Nur] serverseitig:
+
+[!UICONTROL Nur serverseitig ] ist die standardmäßige Entscheidungsmethode, die standardmäßig eingestellt wird, wenn at.js 2.5+ in Ihren Webeigenschaften implementiert und bereitgestellt wird.
+
+Die Verwendung von [!UICONTROL Nur serverseitig] als Standardkonfiguration bedeutet, dass alle Entscheidungen im [!DNL Target]-Edge-Netzwerk getroffen werden, was einen blockierenden Server-Aufruf umfasst. Dieser Ansatz kann inkrementelle Latenzzeiten einführen, bietet aber auch erhebliche Vorteile, z. B. die Möglichkeit, die maschinellen Lernfunktionen der Zielgruppe anzuwenden, zu denen die Aktivitäten [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) und [Auto-Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md) gehören.
+
+Darüber hinaus kann die Verbesserung Ihrer personalisierten Erlebnisse durch Verwendung des Benutzerprofils der Zielgruppe, das sitzungs- und Kanal-übergreifend beibehalten wird, leistungsstarke Ergebnisse für Ihr Unternehmen liefern.
+
+Und schließlich können Sie mit [!UICONTROL Nur serverseitig] die Adobe Experience Cloud-Audiencen und Feinabstimmungen verwenden, die über Audience Manager- und Adobe Analytics-Segmente zielgerichtet bearbeitet werden können.
+
+[!UICONTROL Nur] auf dem Gerät:
+
+[!UICONTROL &quot;Nur auf dem Gerät&quot;ist ] die Entscheidungsmethode, die in at.js 2.5+ festgelegt werden muss, wenn die Entscheidung auf dem Gerät nur auf allen Webseiten verwendet werden soll.
+
+Die Geräteinterne Entscheidungsfindung kann Ihre Erlebnisse und Personalisierungs-Aktivitäten schnell bereitstellen, da die Entscheidungen anhand eines zwischengespeicherten Regelartikels getroffen werden, das alle Ihre Aktivitäten enthält, die für eine Geräteentscheidung infrage kommen.
+
+Weitere Informationen darüber, welche Aktivitäten für die Entscheidungsfindung auf dem Gerät infrage kommen, finden Sie im Abschnitt zu unterstützten Funktionen.
+
+Diese Entscheidungsmethode sollte nur verwendet werden, wenn die Leistung auf allen Seiten, für die Entscheidungen von [!DNL Target] erforderlich sind, äußerst kritisch ist. Beachten Sie außerdem, dass bei Auswahl dieser Entscheidungsmethode Ihre [!DNL Target]-Aktivitäten, die nicht für eine geräteinterne Entscheidungsfindung infrage kommen, nicht bereitgestellt oder ausgeführt werden. Die Bibliothek &quot;at.js&quot;2.5+ ist so konfiguriert, dass nur nach dem zwischengespeicherten Artefakt für Regeln gesucht wird, um Entscheidungen zu treffen.
+
+Hybrid:
+
+[!UICONTROL Bei ] Hybridis handelt es sich um die Entscheidungsmethode, die in at.js 2.5+ festgelegt werden muss, wenn sowohl Entscheidungen auf dem Gerät als auch Aktivitäten, die einen Netzwerkaufruf an das Adobe Target Edge-Netzwerk erfordern, ausgeführt werden müssen.
+
+Wenn Sie sowohl Aktivitäten für die Entscheidungsfindung auf dem Gerät als auch serverseitige Aktivitäten verwalten, kann es etwas kompliziert und mühsam sein, wenn Sie darüber nachdenken, wie [!DNL Target] auf Ihren Seiten bereitgestellt und bereitgestellt werden soll. Bei Verwendung von Hybrid als Entscheidungsmethode weiß [!DNL Target], wann ein Serveraufruf an das Adobe Target Edge-Netzwerk für Aktivitäten erfolgen muss, die eine serverseitige Ausführung erfordern, und wann nur Entscheidungen auf dem Gerät ausgeführt werden sollen.
+
+Das JSON-Regelartefakt enthält Metadaten, um at.js darüber zu informieren, ob eine mbox eine serverseitige Aktivität oder eine on-device-Aktivität zur Entscheidungsfindung besitzt. Mit dieser Entscheidungsmethode wird sichergestellt, dass Aktivitäten, die Sie schnell bereitstellen möchten, über die Entscheidungsfindung auf dem Gerät ausgeführt werden. Bei Aktivitäten, die eine leistungsfähigere, von ML ausgehende Personalisierung erfordern, erfolgt diese Aktivität über das Adobe Target Edge-Netzwerk.
 
 ### defaultContentHiddenStyle
 
