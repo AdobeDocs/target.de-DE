@@ -2,16 +2,16 @@
 keywords: adobe.target.getoffers;Getoffers;getoffers;Angebote abrufen;at.js;Funktionen;funktion
 description: Verwenden Sie die Funktion adobe.Zielgruppe.getOffers() und ihre Optionen, damit die Adobe Target-Bibliothek at.js Anforderungen auslöst, um mehrere Zielgruppen-Angebot abzurufen. (at.js 2.x)
 title: Wie verwende ich die Funktion adobe.Zielgruppe.getOffers()?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 90%
+source-wordcount: '1254'
+ht-degree: 89%
 
 ---
-
 
 # adobe.target.getOffers(options) - at.js 2.x
 
@@ -24,6 +24,7 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 | Schlüssel | Typ | Erforderlich? | Beschreibung |
 | --- | --- | --- | --- |
 | consumerId | Zeichenfolge | Nein | Der Standardwert ist die globale Mbox des Kunden, falls nicht angegeben. Dieser Schlüssel wird verwendet, um die zusätzliche Daten-ID für die A4T-Integration zu generieren. Dieser Schlüssel ist eine eindeutige Zeichenfolge für jeden Besucher. |
+| decisioningMethod | Zeichenfolge | Nein | &quot;serverseitig&quot;, &quot;on-device&quot;, &quot;hybrid&quot; |
 | Anfrage | Objekt | Ja | Siehe Anforderungstabelle unten. |
 | Zeitüberschreitung | Nummer | Nein | Zeitüberschreitung der Anfrage. Wenn nicht angegeben, wird die standardmäßige at.js-Zeitüberschreitung verwendet. |
 
@@ -84,6 +85,25 @@ adobe.target.getOffers({
     }
   }
 });
+```
+
+## Rufen Sie getOffers() auf, um eine Geräteentscheidung zu treffen
+
+```javascript
+adobe.target.getOffers({ 
+
+  decisioningMethod:"on-device", 
+  request: { 
+    execute: { 
+      mboxes: [ 
+        { 
+          index: 0, 
+          name: "homepage" 
+        } 
+      ] 
+    } 
+ } 
+}); 
 ```
 
 ## Rufen Sie getOffers() auf, um die neuesten Ansichten mit den übergebenen Parametern und Profil-Parametern abzurufen.
