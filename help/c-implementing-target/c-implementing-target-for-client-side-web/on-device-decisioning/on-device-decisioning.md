@@ -1,14 +1,14 @@
 ---
-keywords: Implementierung;JavaScript-Bibliothek;js;ATJS;on-device-Entscheidungsfindung;on-device-Entscheidungsfindung
+keywords: Implementierung;JavaScript-Bibliothek;js;ATJS;on-device-Entscheidungsfindung;on-device-Entscheidungsfindung;at.js
 description: Erfahren Sie, wie Sie mit der Bibliothek "at.js"Entscheidungen auf dem Gerät durchführen
 title: Wie funktioniert die On-device-Entscheidungsfindung mit der JavaScript-Bibliothek "at.js"?
 feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3497'
 ht-degree: 7%
 
 ---
@@ -136,7 +136,7 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 | --- | --- |
 | 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
 | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
-| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 3 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
 | 4 | Die Bibliothek at.js interpretiert das JSON-Regelartefakt und führt die Entscheidung im Speicher aus, das Erlebnis abzurufen. |
 | 5 | Die getesteten Elemente werden ausgeblendet. |
 | 6 | In der &quot;at.js&quot;-Bibliothek wird der Hauptteil angezeigt, damit der Rest der Seite für die Ansicht des Besuchers geladen werden kann. |
