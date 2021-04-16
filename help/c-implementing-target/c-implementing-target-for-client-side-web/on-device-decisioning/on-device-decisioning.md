@@ -4,11 +4,12 @@ description: Erfahren Sie, wie Sie mit der Bibliothek "at.js"Entscheidungen auf 
 title: Wie funktioniert die On-device-Entscheidungsfindung mit der JavaScript-Bibliothek "at.js"?
 feature: 'at.js '
 role: Developer
+exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
 workflow-type: tm+mt
-source-wordcount: '3419'
-ht-degree: 5%
+source-wordcount: '3496'
+ht-degree: 7%
 
 ---
 
@@ -69,28 +70,22 @@ Das folgende Diagramm zeigt die Interaktion zwischen Ihrem Besucher, dem Browser
 
 Die folgende Liste entspricht den Nummern im Diagramm:
 
-1. Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) abgerufen.
-1. Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.
-
-   Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist.
-
-1. Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden.
-1. Es wird eine Seitenladeanforderung durchgeführt, die alle konfigurierten Parameter enthält, z. B. (ECID, Kunden-ID, benutzerdefinierte Profil, Benutzerparameter usw.)
-1. Profilskripte werden ausgeführt und anschließend in den Profilspeicher eingespeist.
-
-   Der Profil Store fordert qualifizierte Audiencen aus der Audience-Bibliothek an (z. B. freigegebene Audiencen von [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] usw.).
-
-   Kundenattribute werden in einem Batch-Prozess an den Profilspeicher übermittelt.
-
-1. Der Profil Store dient zum Filtern von Aktivitäten für die Qualifizierung und das Bucketing von Audiencen.
-1. Der resultierende Inhalt wird ausgewählt, nachdem das Erlebnis anhand der Live-Aktivitäten [!DNL Target] ermittelt wurde.
-1. Die Bibliothek at.js blendet die entsprechenden Elemente auf der Seite aus, die mit dem Erlebnis verknüpft sind, das gerendert werden muss.
-1. In der &quot;at.js&quot;-Bibliothek wird der Hauptteil angezeigt, damit der Rest der Seite für die Ansicht des Besuchers geladen werden kann.
-1. Die at.js-Bibliothek manipuliert das DOM, um das Erlebnis über das Edge-Netzwerk der Zielgruppe wiederzugeben.
-1. Das Erlebnis wird für den Besucher gerendert.
-1. Die gesamte Webseite wird geladen.
-1. [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt.
-1. Zieldaten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und in die [!DNL Analytics]-Berichte-Datenspeicherung verarbeitet. [!DNL Analytics]-Daten können dann sowohl in [!DNL Analytics] als auch in [!DNL Target] eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs [!UICONTROL Analytics for Target] (A4T).
+| Schritt | Beschreibung |
+| --- | --- |
+| 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) abgerufen. |
+| 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>   Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
+| 3 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 4 | Es wird eine Seitenladeanforderung durchgeführt, die alle konfigurierten Parameter enthält, z. B. (ECID, Kunden-ID, benutzerdefinierte Profil, Benutzerparameter usw.) |
+| 5 | Profilskripte werden ausgeführt und anschließend in den Profilspeicher eingespeist.<br>Der Profil Store fordert qualifizierte Audiencen aus der Audience-Bibliothek an (z. B. freigegebene Audiencen  [!DNL Adobe Analytics],  [!DNL Adobe Audience Manager]usw.).<br>Kundenattribute werden in einem Batch-Prozess an den Profilspeicher übermittelt. |
+| 6 | Der Profil Store dient zum Filtern von Aktivitäten für die Qualifizierung und das Bucketing von Audiencen. |
+| 7 | Der resultierende Inhalt wird ausgewählt, nachdem das Erlebnis anhand der Live-Aktivitäten [!DNL Target] ermittelt wurde. |
+| 8 | Die Bibliothek at.js blendet die entsprechenden Elemente auf der Seite aus, die mit dem Erlebnis verknüpft sind, das gerendert werden muss. |
+| 9 | In der &quot;at.js&quot;-Bibliothek wird der Hauptteil angezeigt, damit der Rest der Seite für die Ansicht des Besuchers geladen werden kann. |
+| 10 | Die at.js-Bibliothek manipuliert das DOM, um das Erlebnis über das Edge-Netzwerk der Zielgruppe wiederzugeben. |
+| 11 | Das Erlebnis wird für den Besucher gerendert. |
+| 12 | Die gesamte Webseite wird geladen. |
+| 13 | [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. |
+| 14 | Zieldaten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und in die [!DNL Analytics]-Berichte-Datenspeicherung verarbeitet. [!DNL Analytics]-Daten können dann sowohl in [!DNL Analytics] als auch in [!DNL Target] eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs [!UICONTROL Analytics for Target] (A4T). |
 
 ### Nur auf dem Gerät
 
@@ -98,7 +93,7 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 
 Die Geräteinterne Entscheidungsfindung kann Ihre Erlebnisse und Personalisierungs-Aktivitäten schnell bereitstellen, da die Entscheidungen anhand eines zwischengespeicherten Regelartikels getroffen werden, das alle Ihre Aktivitäten enthält, die für eine Geräteentscheidung infrage kommen.
 
-Weitere Informationen darüber, welche Aktivitäten für die Entscheidungsfindung auf dem Gerät infrage kommen, finden Sie im Abschnitt zu unterstützten Funktionen.
+Weitere Informationen darüber, welche Aktivitäten für die Entscheidungsfindung auf dem Gerät infrage kommen, finden Sie unter [Unterstützte Funktionen bei der Geräteentscheidung](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
 
 Diese Entscheidungsmethode sollte nur verwendet werden, wenn die Leistung auf allen Seiten, für die Entscheidungen von [!DNL Target] erforderlich sind, äußerst kritisch ist. Beachten Sie außerdem, dass bei Auswahl dieser Entscheidungsmethode Ihre [!DNL Target]-Aktivitäten, die nicht für eine geräteinterne Entscheidungsfindung infrage kommen, nicht bereitgestellt oder ausgeführt werden. Die Bibliothek &quot;at.js&quot;2.5+ ist so konfiguriert, dass nur nach dem zwischengespeicherten Artefakt für Regeln gesucht wird, um Entscheidungen zu treffen.
 
@@ -112,21 +107,20 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 >
 >[!DNL Adobe Target] Admin-Server qualifizieren alle Aktivitäten, die für eine geräteinterne Entscheidungsfindung infrage kommen, generieren das JSON-Regelartefakt und übertragen es an das Akamai-CDN. Ihre Aktivitäten werden fortlaufend auf Updates überwacht, um ein neues JSON-Regelartefakt auszugeben, das an das Akamai-CDN weitergegeben wird.
 
-1. Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen.
-1. Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.
-
-   Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist.
-
-1. Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden.
-1. Die at.js-Bibliothek stellt eine Anforderung zum Abrufen des JSON-Regelartefakts vom nächsten Akamai-CDN zum Besucher.
-1. Das Akamai-CDN reagiert mit dem JSON-Regelartefakt.
-1. Das JSON-Regelartefakt wird lokal im Browser des Besuchers zwischengespeichert.
-1. Die Bibliothek at.js interpretiert das JSON-Regelartefakt und führt die Entscheidung zum Abrufen des Erlebnisses aus und blendet die getesteten Elemente aus.
-1. In der &quot;at.js&quot;-Bibliothek wird der Hauptteil angezeigt, damit der Rest der Seite für die Ansicht des Besuchers geladen werden kann.
-1. Die at.js-Bibliothek manipuliert das DOM, um das Erlebnis aus dem zwischengespeicherten JSON-Regelartefakt wiederzugeben.
-1. Das Erlebnis wird für den Besucher gerendert.
-1. Die gesamte Webseite wird geladen.
-1. [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. Zieldaten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und in die [!DNL Analytics]-Berichte-Datenspeicherung verarbeitet. [!DNL Analytics][!DNL Analytics]Analytics-Daten können dann sowohl in als auch in eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs for Target (A4T).[!DNL Target]
+| Schritt | Beschreibung |
+| --- | --- |
+| 3 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
+| 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
+| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 4 | Die at.js-Bibliothek stellt eine Anforderung zum Abrufen des JSON-Regelartefakts vom nächsten Akamai-CDN zum Besucher. |
+| 5 | Das Akamai-CDN reagiert mit dem JSON-Regelartefakt. |
+| 6 | Das JSON-Regelartefakt wird lokal im Browser des Besuchers zwischengespeichert. |
+| 7 | Die Bibliothek at.js interpretiert das JSON-Regelartefakt und führt die Entscheidung zum Abrufen des Erlebnisses aus und blendet die getesteten Elemente aus. |
+| 8 | In der &quot;at.js&quot;-Bibliothek wird der Hauptteil angezeigt, damit der Rest der Seite für die Ansicht des Besuchers geladen werden kann. |
+| 9 | Die at.js-Bibliothek manipuliert das DOM, um das Erlebnis aus dem zwischengespeicherten JSON-Regelartefakt wiederzugeben. |
+| 10 | Das Erlebnis wird für den Besucher gerendert. |
+| 11 | Die gesamte Webseite wird geladen. |
+| 12 | [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. Zieldaten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und in die [!DNL Analytics]-Berichte-Datenspeicherung verarbeitet. [!DNL Analytics][!DNL Analytics]Analytics-Daten können dann sowohl in als auch in eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs for Target (A4T).[!DNL Target] |
 
 Das folgende Diagramm zeigt die Interaktion zwischen Ihrem Besucher, dem Browser, at.js 2.5+ und dem zwischengespeicherten JSON-Regelartefakt für den nachfolgenden Seitenaufruf oder den wiederkehrenden Besuch des Besuchers. Da das Artefakt der JSON-Regeln bereits im Cache gespeichert und im Browser verfügbar ist, wird die Entscheidung sofort ohne einen blockierenden Netzwerkaufruf getroffen. Dieses Flussdiagramm erfasst nachfolgende Seitennavigation oder rückkehrende Besucher.
 
@@ -138,19 +132,18 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 >
 >[!DNL Adobe Target] Admin-Server qualifizieren alle Aktivitäten, die für eine geräteinterne Entscheidungsfindung infrage kommen, generieren das JSON-Regelartefakt und übertragen es an das Akamai-CDN. Ihre Aktivitäten werden fortlaufend auf Updates überwacht, um ein neues JSON-Regelartefakt auszugeben, das an das Akamai-CDN weitergegeben wird.
 
-1. Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen.
-1. Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.
-
-   Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist.
-
-1. Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden.
-1. Die Bibliothek at.js interpretiert das JSON-Regelartefakt und führt die Entscheidung im Speicher aus, das Erlebnis abzurufen.
-1. Die getesteten Elemente werden ausgeblendet.
-1. In der &quot;at.js&quot;-Bibliothek wird der Hauptteil angezeigt, damit der Rest der Seite für die Ansicht des Besuchers geladen werden kann.
-1. Die at.js-Bibliothek manipuliert das DOM, um das Erlebnis aus dem zwischengespeicherten JSON-Regelartefakt wiederzugeben.
-1. Das Erlebnis wird für den Besucher gerendert.
-1. Die gesamte Webseite wird geladen.
-1. [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. Zieldaten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und in die [!DNL Analytics]-Berichte-Datenspeicherung verarbeitet. [!DNL Analytics]-Daten können dann sowohl in [!DNL Analytics] als auch in [!DNL Target] eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs [!UICONTROL Analytics for Target] (A4T).
+| Schritt | Beschreibung |
+| --- | --- |
+| 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
+| 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
+| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 4 | Die Bibliothek at.js interpretiert das JSON-Regelartefakt und führt die Entscheidung im Speicher aus, das Erlebnis abzurufen. |
+| 5 | Die getesteten Elemente werden ausgeblendet. |
+| 6 | In der &quot;at.js&quot;-Bibliothek wird der Hauptteil angezeigt, damit der Rest der Seite für die Ansicht des Besuchers geladen werden kann. |
+| 7 | Die at.js-Bibliothek manipuliert das DOM, um das Erlebnis aus dem zwischengespeicherten JSON-Regelartefakt wiederzugeben. |
+| 8 | Das Erlebnis wird für den Besucher gerendert. |
+| 9 | Die gesamte Webseite wird geladen. |
+| 10 | [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. Zieldaten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und in die [!DNL Analytics]-Berichte-Datenspeicherung verarbeitet. [!DNL Analytics]-Daten können dann sowohl in [!DNL Analytics] als auch in [!DNL Target] eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs [!UICONTROL Analytics for Target] (A4T). |
 
 ### Hybrid
 
@@ -172,24 +165,23 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 >
 >[!DNL Adobe Target] Admin-Server qualifizieren alle Aktivitäten, die für eine geräteinterne Entscheidungsfindung infrage kommen, generieren das JSON-Regelartefakt und übertragen es an das Akamai-CDN. Ihre Aktivitäten werden fortlaufend auf Updates überwacht, um ein neues JSON-Regelartefakt auszugeben, das an das Akamai-CDN weitergegeben wird.
 
-1. Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen.
-1. Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.
-
-   Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist.
-
-1. Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden.
-1. Eine Seitenladeanforderung wird an das Adobe Target Edge Network gesendet, einschließlich aller konfigurierten Parameter wie (ECID, Kunden-ID, benutzerdefinierte Parameter, User Profil usw.).
-1. Parallel dazu stellt at.js eine Anforderung zum Abrufen des JSON-Regelartefakts vom nächsten Akamai-CDN zum Besucher.
-1. (Adobe Target Edge Network) Profil-Skripten werden ausgeführt und dann in den Profil Store eingespeist. Der Profil Store fordert qualifizierte Audiencen aus der Audience-Bibliothek an (z. B. freigegebene Audiencen von [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] usw.).
-1. Das Akamai-CDN reagiert mit dem JSON-Regelartefakt.
-1. Der Profil Store dient zum Filtern von Aktivitäten für die Qualifizierung und das Bucketing von Audiencen.
-1. Der resultierende Inhalt wird ausgewählt, nachdem das Erlebnis anhand der Live-Aktivitäten [!DNL Target] ermittelt wurde.
-1. Die Bibliothek at.js blendet die entsprechenden Elemente auf der Seite aus, die mit dem Erlebnis verknüpft sind, das gerendert werden muss.
-1. In der &quot;at.js&quot;-Bibliothek wird der Hauptteil angezeigt, damit der Rest der Seite für die Ansicht des Besuchers geladen werden kann.
-1. Die at.js-Bibliothek manipuliert das DOM, um das Erlebnis über das Edge-Netzwerk der Zielgruppe wiederzugeben.
-1. Das Erlebnis wird für den Besucher gerendert.
-1. Die gesamte Webseite wird geladen.
-1. [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. Zieldaten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und in die [!DNL Analytics]-Berichte-Datenspeicherung verarbeitet. [!DNL Analytics]-Daten können dann sowohl in [!DNL Analytics] als auch in [!DNL Target] eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs [!UICONTROL Analytics for Target] (A4T).
+| Schritt | Beschreibung |
+| --- | --- |
+| 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
+| 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
+| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 4 | Eine Seitenladeanforderung wird an das Adobe Target Edge Network gesendet, einschließlich aller konfigurierten Parameter wie (ECID, Kunden-ID, benutzerdefinierte Parameter, User Profil usw.). |
+| 5 | Parallel dazu stellt at.js eine Anforderung zum Abrufen des JSON-Regelartefakts vom nächsten Akamai-CDN zum Besucher. |
+| 6 | (Adobe Target Edge Network) Profil-Skripten werden ausgeführt und dann in den Profil Store eingespeist. Der Profil Store fordert qualifizierte Audiencen aus der Audience-Bibliothek an (z. B. freigegebene Audiencen von [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] usw.). |
+| 7 | Das Akamai-CDN reagiert mit dem JSON-Regelartefakt. |
+| 8 | Der Profil Store dient zum Filtern von Aktivitäten für die Qualifizierung und das Bucketing von Audiencen. |
+| 9 | Der resultierende Inhalt wird ausgewählt, nachdem das Erlebnis anhand der Live-Aktivitäten [!DNL Target] ermittelt wurde. |
+| 10 | Die Bibliothek at.js blendet die entsprechenden Elemente auf der Seite aus, die mit dem Erlebnis verknüpft sind, das gerendert werden muss. |
+| 11 | In der &quot;at.js&quot;-Bibliothek wird der Hauptteil angezeigt, damit der Rest der Seite für die Ansicht des Besuchers geladen werden kann. |
+| 12 | Die at.js-Bibliothek manipuliert das DOM, um das Erlebnis über das Edge-Netzwerk der Zielgruppe wiederzugeben. |
+| 13 | Das Erlebnis wird für den Besucher gerendert. |
+| 14 | Die gesamte Webseite wird geladen. |
+| 15 | [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. Zieldaten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und in die [!DNL Analytics]-Berichte-Datenspeicherung verarbeitet. [!DNL Analytics]-Daten können dann sowohl in [!DNL Analytics] als auch in [!DNL Target] eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs [!UICONTROL Analytics for Target] (A4T). |
 
 Das folgende Diagramm zeigt die Interaktion zwischen Ihrem Besucher, dem Browser, at.js 2.5+ und dem zwischengespeicherten JSON-Regelartefakt für eine nachfolgende Seitennavigation oder einen wiederkehrenden Besuch. In diesem Diagramm sollten Sie sich nur auf den Anwendungsfall konzentrieren, bei dem eine Geräteentscheidung für die anschließende Seitennavigation oder den anschließenden Besuch getroffen wird. Beachten Sie, dass je nachdem, welche Aktivitäten für bestimmte Seiten live sind, ein serverseitiger Aufruf zum Ausführen serverseitiger Entscheidungen durchgeführt werden kann.
 
@@ -201,20 +193,19 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 >
 >[!DNL Adobe Target] Admin-Server qualifizieren alle Aktivitäten, die für eine geräteinterne Entscheidungsfindung infrage kommen, generieren das JSON-Regelartefakt und übertragen es an das Akamai-CDN. Ihre Aktivitäten werden fortlaufend auf Updates überwacht, um ein neues JSON-Regelartefakt auszugeben, das an das Akamai-CDN weitergegeben wird.
 
-1. Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen.
-1. Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.
-
-   Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist.
-
-1. Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden.
-1. Es wird eine Anforderung zum Abrufen eines Erlebnisses gesendet.
-1. Die Bibliothek at.js bestätigt, dass das JSON-Regelartefakt bereits zwischengespeichert wurde, und führt die Entscheidung im Speicher aus, das Erlebnis abzurufen.
-1. Die getesteten Elemente werden ausgeblendet.
-1. In der &quot;at.js&quot;-Bibliothek wird der Hauptteil angezeigt, damit der Rest der Seite für die Ansicht des Besuchers geladen werden kann.
-1. Die at.js-Bibliothek manipuliert das DOM, um das Erlebnis aus dem zwischengespeicherten JSON-Regelartefakt wiederzugeben.
-1. Das Erlebnis wird für den Besucher gerendert.
-1. Die gesamte Webseite wird geladen.
-1. [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. Zieldaten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und in die [!DNL Analytics]-Berichte-Datenspeicherung verarbeitet. [!DNL Analytics]-Daten können dann sowohl in [!DNL Analytics] als auch in [!DNL Target] eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs [!UICONTROL Analytics for Target] (A4T).
+| Schritt | Beschreibung |
+| --- | --- |
+| 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
+| 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
+| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 4 | Es wird eine Anforderung zum Abrufen eines Erlebnisses gesendet. |
+| 5 | Die Bibliothek at.js bestätigt, dass das JSON-Regelartefakt bereits zwischengespeichert wurde, und führt die Entscheidung im Speicher aus, das Erlebnis abzurufen. |
+| 6 | Die getesteten Elemente werden ausgeblendet. |
+| 7 | In der &quot;at.js&quot;-Bibliothek wird der Hauptteil angezeigt, damit der Rest der Seite für die Ansicht des Besuchers geladen werden kann. |
+| 8 | Die at.js-Bibliothek manipuliert das DOM, um das Erlebnis aus dem zwischengespeicherten JSON-Regelartefakt wiederzugeben. |
+| 9 | Das Erlebnis wird für den Besucher gerendert. |
+| 10 | Die gesamte Webseite wird geladen. |
+| 11 | [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. Zieldaten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und in die [!DNL Analytics]-Berichte-Datenspeicherung verarbeitet. [!DNL Analytics]-Daten können dann sowohl in [!DNL Analytics] als auch in [!DNL Target] eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs [!UICONTROL Analytics for Target] (A4T). |
 
 ## Wie aktiviere ich die Entscheidungsfindung auf dem Gerät?
 
@@ -258,6 +249,8 @@ Nachdem Sie den Umschalter [!UICONTROL Geräteinterne Entscheidungsfindung] akti
    * [!UICONTROL Nur serverseitig]
    * [!UICONTROL Nur auf dem Gerät]
    * [!UICONTROL Hybrid]
+
+   ![&quot;at.js&quot;-Einstellungsbedienfeld bearbeiten](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/global-settings.png)
 
 ### Globale Einstellungen
 
