@@ -5,9 +5,9 @@ title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3952'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| April 9 | [Versionshinweise zu Target (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion von at.js Version 2.5.0 hinzugefügt (19. April 2021) |
 | April 9 | [Versionshinweise zu Target (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion für die Version 21.4.1 von Target Standard/Premium hinzugefügt (19. April 2021) |
 |  | [Integration von Recommendations in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | Folgender Abschnitt wurde hinzugefügt: &quot;Kapazitäts-Richtlinien für Optionen 1 und 2.&quot; |
 | 29. März | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Neue FAQs hinzugefügt:<ul><li>Bestehen Empfehlungen, die auf kürzlich angezeigten Artikeln basieren, für einen Besucher auf mehreren Geräten?</li></ul> |
