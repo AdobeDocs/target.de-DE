@@ -5,9 +5,9 @@ title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 70d6279f33f6fdf6875307279a5bda6759f7a897
 workflow-type: tm+mt
-source-wordcount: '3952'
+source-wordcount: '4138'
 ht-degree: 29%
 
 ---
@@ -15,6 +15,20 @@ ht-degree: 29%
 # Dokumentationsänderungen
 
 Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktdokumentation Liste.
+
+## Adobe Target Standard/Premium 21.4.1 (19. April 2021)
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| 19. April 2021 | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Die folgenden neuen Artikel wurden hinzugefügt:<ul><li>[Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Unterstützte Funktionen für die Entscheidungsfindung auf dem Gerät](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefakt der Entscheidungsregel auf dem Gerät](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Es wurden Informationen hinzugefügt über `decisioningMethod`. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Es wurde Folgendes hinzugefügt:<ul><li>Informationen zum Schlüssel `decisioningMethod`.</li><li>Ein Beispiel für &quot;getCallOffers()&quot;, um eine geräteinterne Entscheidungsfindung vorzunehmen.</li></ul> |
+|  | [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Folgende Informationen wurden hinzugefügt:<ul><li>Artefakt bei der Entscheidungsfindung auf dem Gerät erfolgreich</li><li>Artefakt bei der Entscheidungsfindung auf dem Gerät fehlgeschlagen</li></ul> |
+|  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informationen zur at.js-Version 2.5.0 wurden hinzugefügt. |
+|  | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Mit [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) wurde Unterstützung für Vorschauen-Links für [!UICONTROL Automated Personalization]-Aktivitäten hinzugefügt. |
+|  | [Verwenden dynamischer und statischer Einschlussregeln](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Es wurden Informationen zu den folgenden neuen Operatoren hinzugefügt:<ul><li>in Liste</li><li> ist nicht in der Liste enthalten</li><li>Liste enthält ein Element in</li><li>Liste enthält kein Element in</li><li>Liste enthält alle Elemente in</li><li>Liste enthält nicht alle Elemente in</li></ul> |
+|  | [Adobe Target-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br> (*Experience Cloud Services und* Administrationshandbuch) | Es wurden zusätzliche Informationen zur &quot;Sitzungs-ID&quot;hinzugefügt. |
+|  | [Versionshinweise](/help/r-release-notes/release-notes.md): 21.4.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe Target Standard/Premium 21.2.1 (9. März 2021) 
 
