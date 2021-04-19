@@ -6,14 +6,18 @@ feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3506'
 ht-degree: 7%
 
 ---
 
 # Geräteinterne Entscheidungsfindung für &quot;at.js&quot;
+
+>[!NOTE]
+>
+>Die Entscheidung für das On-Device-System steht mit dem kommenden [at.js 2.5.0 Release](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) zur Verfügung. Datum wird bald bekannt gegeben.
 
 Ab Version 2.5.0 gilt für at.js-Angebot die Geräteentscheidung. Mit der On-Device-Entscheidungsfindung können Sie Ihre [A/B-Aktivitäten](/help/c-activities/t-test-ab/test-ab.md) und [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) im Browser zwischenspeichern, um eine speicherinterne Entscheidungsfindung ohne blockierende Netzwerkanforderung für das [!DNL Adobe Target] Edge-Netzwerk durchzuführen.
 
@@ -105,9 +109,9 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 
 | Schritt | Beschreibung |
 | --- | --- |
-| 3 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
+| 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
 | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
-| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 3 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
 | 4 | Die at.js-Bibliothek stellt eine Anforderung zum Abrufen des JSON-Regelartefakts vom nächsten Akamai-CDN zum Besucher. |
 | 5 | Das Akamai-CDN reagiert mit dem JSON-Regelartefakt. |
 | 6 | Das JSON-Regelartefakt wird lokal im Browser des Besuchers zwischengespeichert. |
@@ -130,7 +134,7 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 
 | Schritt | Beschreibung |
 | --- | --- |
-| 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
+| 3 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
 | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
 | 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
 | 4 | Die Bibliothek at.js interpretiert das JSON-Regelartefakt und führt die Entscheidung im Speicher aus, das Erlebnis abzurufen. |
@@ -163,9 +167,9 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 
 | Schritt | Beschreibung |
 | --- | --- |
-| 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
+| 3 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
 | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
-| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 3 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
 | 4 | Eine Seitenladeanforderung wird an das Adobe Target Edge Network gesendet, einschließlich aller konfigurierten Parameter wie (ECID, Kunden-ID, benutzerdefinierte Parameter, User Profil usw.). |
 | 5 | Parallel dazu stellt at.js eine Anforderung zum Abrufen des JSON-Regelartefakts vom nächsten Akamai-CDN zum Besucher. |
 | 6 | (Adobe Target Edge Network) Profil-Skripten werden ausgeführt und dann in den Profil Store eingespeist. Der Profil Store fordert qualifizierte Audiencen aus der Audience-Bibliothek an (z. B. freigegebene Audiencen von [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] usw.). |
@@ -193,7 +197,7 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 | --- | --- |
 | 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
 | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
-| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 3 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
 | 4 | Es wird eine Anforderung zum Abrufen eines Erlebnisses gesendet. |
 | 5 | Die Bibliothek at.js bestätigt, dass das JSON-Regelartefakt bereits zwischengespeichert wurde, und führt die Entscheidung im Speicher aus, das Erlebnis abzurufen. |
 | 6 | Die getesteten Elemente werden ausgeblendet. |
