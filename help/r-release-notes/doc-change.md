@@ -5,9 +5,9 @@ title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 70d6279f33f6fdf6875307279a5bda6759f7a897
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4144'
 ht-degree: 29%
 
 ---
@@ -24,6 +24,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Es wurden Informationen hinzugefügt über `decisioningMethod`. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Es wurde Folgendes hinzugefügt:<ul><li>Informationen zum Schlüssel `decisioningMethod`.</li><li>Ein Beispiel für &quot;getCallOffers()&quot;, um eine geräteinterne Entscheidungsfindung vorzunehmen.</li></ul> |
 |  | [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Folgende Informationen wurden hinzugefügt:<ul><li>Artefakt bei der Entscheidungsfindung auf dem Gerät erfolgreich</li><li>Artefakt bei der Entscheidungsfindung auf dem Gerät fehlgeschlagen</li></ul> |
+|  | [Aktivitäten](/help/c-activities/activities.md) | Es wurden Informationen zur geräteinternen Entscheidungsfindung hinzugefügt. |
 |  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informationen zur at.js-Version 2.5.0 wurden hinzugefügt. |
 |  | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Mit [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) wurde Unterstützung für Vorschauen-Links für [!UICONTROL Automated Personalization]-Aktivitäten hinzugefügt. |
 |  | [Verwenden dynamischer und statischer Einschlussregeln](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Es wurden Informationen zu den folgenden neuen Operatoren hinzugefügt:<ul><li>in Liste</li><li> ist nicht in der Liste enthalten</li><li>Liste enthält ein Element in</li><li>Liste enthält kein Element in</li><li>Liste enthält alle Elemente in</li><li>Liste enthält nicht alle Elemente in</li></ul> |
