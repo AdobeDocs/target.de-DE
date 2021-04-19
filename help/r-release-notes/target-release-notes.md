@@ -5,10 +5,10 @@ title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: ' Versionshinweise '
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 22%
+source-wordcount: '458'
+ht-degree: 20%
 
 ---
 
@@ -28,37 +28,27 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 ## Target Standard/Premium 21.4.1 (19. April 2021)
 
-Diese Version enthält die folgenden neuen Funktionen. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+Diese Version enthält die folgenden neuen Funktionen und Erweiterungen. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
 | Funktion | Details |
 | --- | --- |
-| Unterstützung von Entscheidungen auf dem Gerät für &quot;at.js&quot; | Die geräteinterne Entscheidungsfindung ermöglicht es Marketingexperten und Entwicklern, Experimente und Personalisierungen im Browser eines Benutzers mit einer Latenz von nahezu null zu ermöglichen. |
+| Unterstützung von Entscheidungen auf dem Gerät für &quot;at.js&quot; | Die geräteinterne Entscheidungsfindung ermöglicht es Marketingexperten und Entwicklern, Experimente und Personalisierungen im Browser eines Benutzers mit einer Latenz von nahezu null zu ermöglichen.<br>Weitere Informationen finden Sie unter  [Gerätebezogene Entscheidungsfindung für &quot;at.js&quot;.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![](/help/assets/premium.png) PremiumList-basierte Operatoren für Entitäts-Filterregeln | [!DNL Target Recommendations] unterstützt neue Liste-basierte Operatoren für Entitätsfilterregeln. (TGT-39234)<br>Neu hinzugefügte Operatoren umfassen:<br><ul><li>in Liste</li><li>ist nicht in der Liste enthalten</li><li>Liste enthält ein Element in</li><li>Liste enthält kein Element in</li><li>Liste enthält alle Elemente in</li><li>Liste enthält nicht alle Elemente in</li></ul>Weitere Informationen finden Sie unter &quot;Verfügbare Operatoren&quot;in [Dynamische und statische Inklusionsregeln verwenden](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
-Diese Version enthält die folgenden Erweiterungen, Fehlerbehebungen und Änderungen.
+Diese Version enthält die folgenden Fehlerbehebungen.
 
 * Es wurde ein Fehler behoben, der dazu führte, dass eine Aktivität nach dem Ändern der Audience in [!UICONTROL Alle Besucher] nicht synchronisiert werden konnte. (TGT-40259)
 * Es wurde ein Fehler behoben, der verhinderte, dass Angebot dupliziert wurden, wenn sie an verschiedenen Stellen in den [!UICONTROL Automated Personalization]-Aktivitäten verwendet wurden, obwohl die Option [!UICONTROL Duplikat nicht zulassen] aktiviert war. (TGT-39567)
 * Es wurde ein Fehler behoben, der verhinderte, dass die Seite [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] ordnungsgemäß geladen wurde. (TGT-39918)
 * Es wurde ein Fehler behoben, der dazu führte, dass Eigenschaften dem falschen Arbeitsbereich zugeordnet wurden. (TGT-39869)
-* [!DNL Target Recommendations] unterstützt neue Liste-basierte Operatoren für Entitätsfilterregeln. (TGT-39234)
-
-   Neu hinzugefügte Operatoren umfassen:
-
-   * in Liste
-   * ist nicht in der Liste enthalten
-   * Liste enthält ein Element in
-   * Liste enthält kein Element in
-   * Liste enthält alle Elemente in
-   * Liste enthält nicht alle Elemente in
-
 * Es wurde ein Problem behoben, das zu unbegrenztem Laden führte, wenn die Anforderung nach dem Ändern der Umgebung beim Erstellen eines Empfehlungsausschlusses fehlschlug. (TGT-39948)
 
 ## at.js Version 2.5.0 (19. April 2021)
 
-Diese Version von at.js umfasst die folgenden Erweiterungen:
+Diese Version von at.js umfasst die folgenden Erweiterungen und Änderungen:
 
-* Unterstützung von Entscheidungen auf dem Gerät für &quot;at.js&quot;
-* Vorschau-Links-Unterstützung für Automated Personalization-Aktivitäten
+* [Unterstützung von ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Entscheidungen auf dem Gerät für &quot;at.js&quot;.
+* [Unterstützung ](/help/c-activities/c-activity-qa/activity-qa.md) von Vorschauen für Automated Personalization-Aktivitäten
 
 Mit dieser Version wird auch die Unterstützung für Microsoft Internet Explorer 10 und höher entfernt.
 
