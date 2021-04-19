@@ -3,12 +3,12 @@ keywords: '"at.js"-Versionen;at.js-Versionen;Versionshinweise'
 description: Ansicht der Details zu den Änderungen in den einzelnen Versionen der Adobe Target at.js JavaScript-Bibliothek.
 title: Was ist in jeder Version von at.js enthalten?
 feature: 'at.js '
-role: Entwickler
+role: Developer
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '4147'
-ht-degree: 82%
+source-wordcount: '4182'
+ht-degree: 81%
 
 ---
 
@@ -22,6 +22,15 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >Das Zielgruppe-Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis ist die bevorzugte Methode zur Aktualisierung von at.js. Extension-Entwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Updates werden in neue Versionen einer Erweiterung verpackt und als Upgrades im Katalog [!DNL Launch] zur Verfügung gestellt. Weitere Informationen finden Sie unter [Erweiterungs-Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) im *Experience Platform Launch-Benutzerhandbuch*.
+
+## at.js 2.5.0 (19. April 2021)
+
+Diese Version von at.js umfasst die folgenden Erweiterungen und Änderungen:
+
+* [Unterstützung von ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Entscheidungen auf dem Gerät für &quot;at.js&quot;.
+* [Unterstützung ](/help/c-activities/c-activity-qa/activity-qa.md) von Vorschauen für Automated Personalization-Aktivitäten
+
+Mit dieser Version wird auch die Unterstützung für Microsoft Internet Explorer 10 und höher entfernt.
 
 ## at.js 2.4.1 (23. März 2021)
 
