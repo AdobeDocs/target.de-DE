@@ -5,10 +5,10 @@ title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: ' Versionshinweise '
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 36%
+source-wordcount: '625'
+ht-degree: 35%
 
 ---
 
@@ -24,36 +24,31 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
-## at.js 2.4.1 (23. März 2021)
+## Target Standard/Premium 21.4.1 (19. April 2021)
 
-Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
+Diese Version enthält die folgenden neuen Funktionen und Erweiterungen. Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-* Es wurde ein Problem behoben, bei dem `targetPageParams` in Mbox-Anforderungen enthalten war. `targetPageParams` sollte nur in  `pageLoad` Anforderungen enthalten sein. (TNT-40247)
-* Es wurde ein Problem mit globalen Dokument- und Fensterobjekten in der Erweiterung [!DNL Adobe Experience Platform Launch] behoben, indem die globalen Objektabhängigkeiten der Platform launch durch direkte Verweise darauf ersetzt wurden. (TNT-37124)
+| Funktion | Details |
+| --- | --- |
+| Unterstützung von Entscheidungen auf dem Gerät für &quot;at.js&quot; | Die geräteinterne Entscheidungsfindung ermöglicht es Marketingexperten und Entwicklern, Experimente und Personalisierungen im Browser eines Benutzers mit einer Latenz von nahezu null zu ermöglichen.<br>Weitere Informationen finden Sie unter  [Gerätebezogene Entscheidungsfindung für &quot;at.js&quot;.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![](/help/assets/premium.png) PremiumList-basierte Operatoren für Entitäts-Filterregeln | [!DNL Target Recommendations] unterstützt neue Liste-basierte Operatoren für Entitätsfilterregeln. (TGT-39234)<br>Neu hinzugefügte Operatoren umfassen:<br><ul><li>in Liste</li><li>ist nicht in der Liste enthalten</li><li>Liste enthält ein Element in</li><li>Liste enthält kein Element in</li><li>Liste enthält alle Elemente in</li><li>Liste enthält nicht alle Elemente in</li></ul>Weitere Informationen finden Sie unter &quot;Verfügbare Operatoren&quot;in [Dynamische und statische Inklusionsregeln verwenden](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
-## Änderungen der IP-Adresse für Recommendations-Feed-Verarbeitungsserver (16. März 2021)
+Diese Version enthält die folgenden Fehlerbehebungen.
 
-Die IP-Adressen der Feed-Verarbeitungsserver wurden am 16. März 2021 aktualisiert. [!DNL Target Recommendations] Weitere Informationen finden Sie unter [IP-Adressen, die von Recommendations-Feed-Processing-Servern verwendet werden](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
+* Es wurde ein Fehler behoben, der dazu führte, dass eine Aktivität nach dem Ändern der Audience in [!UICONTROL Alle Besucher] nicht synchronisiert werden konnte. (TGT-40259)
+* Es wurde ein Fehler behoben, der verhinderte, dass Angebot dupliziert wurden, wenn sie an verschiedenen Stellen in den [!UICONTROL Automated Personalization]-Aktivitäten verwendet wurden, obwohl die Option [!UICONTROL Duplikat nicht zulassen] aktiviert war. (TGT-39567)
+* Es wurde ein Fehler behoben, der verhinderte, dass die Seite [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] ordnungsgemäß geladen wurde. (TGT-39918)
+* Es wurde ein Fehler behoben, der dazu führte, dass Eigenschaften dem falschen Arbeitsbereich zugeordnet wurden. (TGT-39869)
+* Es wurde ein Problem behoben, das zu unbegrenztem Laden führte, wenn die Anforderung nach dem Ändern der Umgebung beim Erstellen eines Empfehlungsausschlusses fehlschlug. (TGT-39948)
 
-## Target Standard/Premium 21.2.1 (9. März 2021) 
+## at.js Version 2.5.0 (19. April 2021)
 
-Dieses Maintenance Release umfasst die folgenden Erweiterungen, Fehlerbehebungen und Änderungen.
+Diese Version von at.js umfasst die folgenden Erweiterungen und Änderungen:
 
-Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+* [Unterstützung von ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Entscheidungen auf dem Gerät für &quot;at.js&quot;.
+* [Vorschau ](/help/c-activities/c-activity-qa/activity-qa.md) unterstützt Automated Personalization-Aktivitäten.
 
-* Zulässige Größe des Angebots erhöht (TGT-38304):
-
-   | Typ  | Vorherige Beschränkung | Neue Beschränkung |
-   | --- | --- | --- |
-   | HTML | 256 KB | 1024 KB |
-   | Visuelle Angebot aus der Benutzeroberfläche der Zielgruppe | 64 KB | 1024 KB für jedes Erlebnis |
-   | Über API | 512 KB | 1024 KB |
-
-* [!UICONTROL Personalization Insight ] Reports für  [!UICONTROL Auto-Zielgruppe] -(AT) und  [!UICONTROL Automated Personalization] (AP)-Aktivitäten werden jetzt täglich erstellt. Sie können einen Bericht auswählen, der für die letzten 15, 30 und 60 Tage [!UICONTROL Automatisierte Segmente] oder [!UICONTROL Wichtige Attribute] bereitstellt. Die 45-Tage- und 90-Tage-Optionen wurden entfernt, damit die anderen Einstellungen des Lookback-Fensters täglich ausgeführt werden können. (TGT-39472)
-* Es wurde ein Fehler behoben, der dazu führte, dass die aktuelle Abhängigkeit nicht angezeigt wurde, wenn Kunden auf der Seite [!UICONTROL Ziele und Einstellungen] der Aktivität auf [!UICONTROL Abhängigkeit bearbeiten klicken. ] (TGT-39340)
-* Es wurde ein Problem beim Aktualisieren der [!UICONTROL Audience-Bibliothek eines Arbeitsbereichs] behoben. Vor der Aktualisierung wurden die Audiencen für den aktuell ausgewählten Arbeitsbereich angezeigt. Nach der Aktualisierung wurden der [!UICONTROL Standardarbeitsbereich] und die zugehörigen Audiencen angezeigt. Die aktuelle Arbeitsfläche und ihre Audiencen bleiben nun nach der Aktualisierung erhalten. (TGT-38871)
-* Es wurde ein Fehler behoben, der beim Kopieren einer [!UICONTROL Recommendations]-Aktivität und späteren Bearbeiten der ursprünglichen Aktivität durch Ändern der Kriteriensequenz auftrat. Die Änderung der Kriteriensequenz in der ursprünglichen Aktivität wurde auch auf die kopierte Aktivität falsch angewendet. (TGT-39155)
-* Es wurde ein Fehler behoben, der dazu führte, dass die falsche Produktanzahl für [!UICONTROL Recommendations]-Ausschlüsse angezeigt wurde. (TGT-39599)
+Mit dieser Version wird auch die Unterstützung für Microsoft Internet Explorer 10 und höher entfernt.
 
 ## Zusätzliche Versionshinweise und Versionshinweise
 
