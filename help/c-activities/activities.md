@@ -5,10 +5,10 @@ title: Wie kann ich Inhalte personalisieren und Seitenentwürfe mit Zielgruppe t
 feature: Aktivitäten
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 96%
+source-wordcount: '2100'
+ht-degree: 92%
 
 ---
 
@@ -52,6 +52,7 @@ Die Aktivitätenliste bietet eine Übersicht über alle Aktivitäten:
 | URL | Die URL erscheint in hellerem Text unter dem Namen.<br>Die URL für die Aktivität identifiziert, wo die Aktivität angezeigt wird. Auf diese Weise können Sie innerhalb kürzester Zeit eine Aktivität definieren und bestimmen, ob auf einer bestimmten Seite bereits ein Test ausgeführt wird.<br>Wird ein Test für mehrere URLs ausgeführt, zeigt ein Link, wie viele weitere URLs verwendet werden. Klicken Sie auf den Link, um die vollständige Liste an URLs für diese Aktivität anzuzeigen.<br>Sie können anhand der URL suchen. Verwenden Sie die Dropdownliste neben dem Suchfeld und wählen Sie [!UICONTROL URL suchen]. |
 | Status | Der Status der Aktivität kann wie folgt lauten:<ul><li>**Live**: Die Aktivität wird derzeit ausgeführt.</li><li>**Entwurf:** Die Einrichtung der Aktivität hat begonnen, sie kann jedoch noch nicht ausgeführt werden.</li><li>**Geplant:** Die Aktivität wird zum festgelegten Startdatum und zur festgelegten Startzeit aktiviert.</li><li>**Inaktiv:** Die Aktivität wurde angehalten oder deaktiviert.</li><li>**Synchronisierung:** Die Aktivität wurde gespeichert und wird mit dem Target-Bereitstellungsnetzwerk synchronisiert.</li><li>**Beendet:** Das angegebene Enddatum und die angegebene Uhrzeit der Aktivität wurden erreicht und die Aktivität wird nicht mehr bedient.</li><li>**Archiviert:** Die Aktivität wurde archiviert. Sie können eine archivierte Aktivität wieder aktivieren, um sie erneut zu verwenden.</li></ul>**Hinweis:** Wenn Sie bestimmte Aktionen ausführen (z. B. eine Aktivität außerhalb der Benutzeroberfläche über API-Methoden aktivieren), kann es bis zu 10 Minuten dauern, bis die Aktualisierung bis zur Benutzeroberfläche propagiert wird. |
 | Quelle | Zeigt, wo die Aktivität erstellt wurde:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager  (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| Zulässige Gerätefestlegung | Nachdem Sie eine Aktivität erstellt haben, für die eine Entscheidung auf dem Gerät zulässig ist, wird auf der Seite &quot;Übersicht&quot;der Aktivität eine Beschriftung mit der Bezeichnung &quot;Für eine Entscheidung auf dem Gerät infrage kommend&quot;angezeigt.<br>Diese Bezeichnung bedeutet nicht, dass die Aktivität immer über die Geräteentscheidung bereitgestellt wird. Diese Aktivität wird nur dann auf dem Gerät ausgeführt, wenn at.js 2.5.0+ für die Verwendung von Entscheidungen auf dem Gerät konfiguriert ist. Wenn at.js 2.5.0+ nicht für die Verwendung auf dem Gerät konfiguriert ist, wird diese Aktivität weiterhin über einen Server-Aufruf von at.js bereitgestellt.<br>Siehe  [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md). |
 | Eigenschaft | Zeigt die [Eigenschaft](/help/administrating-target/c-user-management/property-channel/property-channel.md) für die Aktivität an. |
 | Geschätzte Umsatzsteigerung | Zeigt die voraussichtliche Umsatzsteigerung an, wenn 100 % der Zielgruppe das erfolgreichste Erlebnis sehen.<br>Wird anhand der folgenden Formel berechnet:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>Das Ergebnis wird auf maximal eine Dezimalstelle gerundet, wenn die gekürzte Form vor der Dezimalstelle nur eine Ziffer enthält. Beispiele: 1,6 Mio. $, 60 K $, 900 $, 8,5 K $, 205 K $<br>Diese Spalte zeigt „---“ für Aktivitäten, die nicht genügend Daten haben, um einen Gewinner festzustellen, oder keine Kostenschätzung haben.<br>Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
 | Zuletzt aktualisiert | Das Datum der letzten Aktualisierung und der Name der Person, die sie durchgeführt hat. |
@@ -108,6 +109,7 @@ Sie können nach den folgenden Optionen filtern. Wenn in einzelnen Kategorien ni
 |--- |--- |
 | Typ | A/B-Test: [Handbuch](/help/c-activities/t-test-ab/test-ab.md), [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) und [Automatisches Targeting](/help/c-activities/auto-target/auto-target-to-optimize.md).<br>[Automatische Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md)<br>[Multivarianz-Tests](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Empfehlungen](/help/c-recommendations/recommendations.md) |
 | Status | Live<br>Entwurf<br>Geplant<br>Inaktiv<br>Synchronisierung<br>Beendet<br>Archiviert |
+| Zulässige Gerätefestlegung | Ja<br>Nein |
 | Berichtsquelle | Target<br>Analytics |
 | Experience Composer | Visuell<br>Formularbasiert |
 | Metriktyp | Konversion<br>Umsatz<br>Interaktion |
@@ -117,16 +119,10 @@ Sie können nach den folgenden Optionen filtern. Wenn in einzelnen Kategorien ni
 
 Klicken Sie auf eine der folgenden Überschriften, um auszuwählen, ob die Aktivitäten für die ausgewählte Überschrift in auf- oder absteigender Reihenfolge angezeigt werden sollen.
 
-* Aktivitätsname
-* Aktivitätstyp
+* Typ 
+* Name
 
 ![Aktivitätenliste aufsteigend](/help/c-activities/assets/activities_list_ascending.png)
-
-## Tipps und Tricks {#section_F77F30A246A14B538D9363B7F3639F97}
-
-Nutzen Sie Adobe Target optimal, indem Sie mehr über verschiedene Funktionen und darüber, warum Sie sie ausprobieren sollten, erfahren. In den Tipps und Tricks finden Sie Links zu Videos, Anwendungsbeispielen, Blogs, Dokumentation und vieles mehr.
-
-Die Funktion „Tipps und Tricks“ wird regelmäßig auf der Seite der Aktivitätenliste angezeigt. Nachdem Sie einen Tipp gelesen oder geschlossen haben, wird die Funktion nicht mehr angezeigt, bis der nächste Tipp verfügbar ist. Sie können optional die Anzeige aller Tipps deaktivieren, indem Sie auf das Hilfesymbol und anschließend auf [!UICONTROL „Tipp des Tages deaktivieren“] klicken.
 
 ![Tipp des Tages deaktivieren](/help/c-activities/assets/tip-disable-new.png)
 
