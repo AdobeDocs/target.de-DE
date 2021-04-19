@@ -5,9 +5,9 @@ title: Was ist in jeder Version von at.js enthalten?
 feature: 'at.js '
 role: Developer
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '4182'
+source-wordcount: '4185'
 ht-degree: 81%
 
 ---
@@ -23,7 +23,7 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis ist die bevorzugte Methode zur Aktualisierung von at.js. Extension-Entwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Updates werden in neue Versionen einer Erweiterung verpackt und als Upgrades im Katalog [!DNL Launch] zur Verfügung gestellt. Weitere Informationen finden Sie unter [Erweiterungs-Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) im *Experience Platform Launch-Benutzerhandbuch*.
 
-## at.js 2.5.0 (19. April 2021)
+## at.js 2.5.0 (Ankündigungsdatum)
 
 Diese Version von at.js umfasst die folgenden Erweiterungen und Änderungen:
 
