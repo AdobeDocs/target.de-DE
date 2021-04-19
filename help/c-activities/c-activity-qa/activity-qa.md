@@ -3,14 +3,14 @@ keywords: qa;Vorschau;Vorschau-Links;adobe-Zielgruppe;Zielgruppe
 description: Erfahren Sie, wie Sie mit Adobe Target QA-URLs eine durchgängige Qualitätssicherung mit Vorschau-Links durchführen können, die sich nie ändern, optionales Targeting von Audiencen und QA-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
 title: Wie laute die Qualitätssicherung bei Aktivitäten?
 feature: Aktivitäten
+exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 79%
+source-wordcount: '1546'
+ht-degree: 78%
 
 ---
-
 
 # Aktivitäts-QA {#activity-qa}
 
@@ -21,6 +21,9 @@ Verwenden Sie QS-URLs in [!DNL Adobe Target], um eine einfache End-to-End-Aktivi
 Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-Start in vollem Umfang testen. Die QA-Funktionalität für Aktivitäten beinhaltet Folgendes:
 
 * Links für die Freigabe für Team-Mitglieder, die sich nie ändern oder nie neu generiert werden müssen. Dies ist unabhängig von an den Erlebnissen oder Aktivitäten vorgenommenen Aktualisierungen. Dadurch können Sie Ihre Aktivitäten vollständig über die gesamte User Journey hinweg testen.
+
+   Mit [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) wurde Unterstützung für Vorschauen-Links für [!UICONTROL Automated Personalization]-Aktivitäten hinzugefügt.
+
 * Zielgruppenbedingungen werden optional respektiert, sodass Vermarkter Targeting-Kriterien testen oder Targeting-Kriterien für QA ignorieren können, ohne die Zielgruppenbedingungen erfüllen zu müssen.
 * QA-Berichte werden erfasst, sodass Vermarkter bestätigen können, dass Metriken erwartungsgemäß inkrementiert werden und die QA-Berichtsdaten von den Produktionsberichten separiert bleiben (für Nicht-A4T-Berichte).
 * Die Fähigkeit, ein Erlebnis isoliert oder in Verbindung mit anderen Live-Aktivitäten, die die Kriterien des Versands erfüllen (Seitenanfrage/Zielgruppe/Audience), Vorschau.
@@ -32,7 +35,7 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
 ## Zugreifen auf und Freigeben einer QA-URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. Klicken Sie auf der Seite [!UICONTROL Übersicht] einer Aktivität (alle Typen außer „Automatisierte Personalisierung“) auf den Link **[!UICONTROL Aktivitäts-QA]**.
+1. Klicken Sie auf der Seite [!UICONTROL Übersicht] einer Aktivität auf den Link **[!UICONTROL Aktivität QA]**.
 
    ![Link „Aktivitäts-QA“](assets/qa_link.png)
 
