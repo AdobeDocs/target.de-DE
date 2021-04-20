@@ -2,7 +2,7 @@
 keywords: Bekannte Probleme;gelöste Probleme;Versionshinweise;Fehler;Probleme;Fehlerbehebungen
 description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Target, einschließlich Informationen zur Problemumgehung. Wenn Probleme gelöst werden, werden sie in den Abschnitt "Gelöst"verschoben.
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
-feature: ' Versionshinweise '
+feature: Release Notes
 translation-type: tm+mt
 source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt

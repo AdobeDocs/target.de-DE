@@ -2,7 +2,7 @@
 keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser
 description: Erfahren Sie, warum einige Websites möglicherweise nicht zuverlässig im Visual Experience Composer (VEC) geöffnet werden. Mit der VEC Helper Browser Extension können Sie Websites zuverlässig innerhalb des VEC laden.
 title: Wie verwende ich die Visual Experience Composer (VEC) Helper Extension?
-feature: 'Visual Experience Composer (VEC) '
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt

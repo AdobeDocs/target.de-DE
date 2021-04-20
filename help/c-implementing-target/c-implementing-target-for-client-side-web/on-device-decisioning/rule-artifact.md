@@ -2,7 +2,7 @@
 keywords: Implementierung;JavaScript-Bibliothek;js;ATJS;on-device-Entscheidungsfindung;on-device-Entscheidungsfindung;Regel-Artefakt
 description: Erfahren Sie mehr zum Artefakt der JSON-Regel, das bei der Entscheidungsfindung auf dem Gerät verwendet wird.
 title: Was ist das JSON-RegelArtefakt bei der Entscheidung über das Gerät?
-feature: 'at.js '
+feature: at.js
 role: Developer
 translation-type: tm+mt
 source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577

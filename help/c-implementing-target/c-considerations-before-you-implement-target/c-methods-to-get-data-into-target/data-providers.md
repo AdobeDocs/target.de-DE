@@ -2,7 +2,7 @@
 keywords: implementieren;Implementierung;Einrichten;Einrichten;Datenanbieter
 description: Daten mithilfe von Datenanbietern in die Zielgruppe laden
 title: Wie erhalte ich Daten mithilfe von Datenanbietern in die Zielgruppe?
-feature: Implementierung
+feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt

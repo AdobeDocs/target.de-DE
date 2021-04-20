@@ -2,7 +2,7 @@
 keywords: Liste der Aktivitäten;Aktivitäten;Aktivität;Aktivitäten;Aktivitäten bearbeiten;Aktivitäten-Aktionen;Aktivitäten-Attribut;Aktivitäten-Liste-Filter;Einschränkungen der Aktivität;Personalisierung;Personalisierung
 description: Erfahren Sie, wie Sie mit Aktivitäten in Adobe Target Inhalte auf bestimmte Audiencen anpassen und Seitenentwürfe testen können.
 title: Wie kann ich Inhalte personalisieren und Seitenentwürfe mit Zielgruppe testen?
-feature: Aktivitäten
+feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
 source-git-commit: e0a05d024170f819a417e50938c9765327f28b49

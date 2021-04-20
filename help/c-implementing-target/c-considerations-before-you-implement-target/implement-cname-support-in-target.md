@@ -2,8 +2,8 @@
 keywords: Client-Pflege;cname;Zertifikat-Programm;Kanonischer Name;Cookies;Zertifikat;amc;adobe-verwaltetes Zertifikat;Digicert;Domänenkontrollvalidierung;dcv
 description: Arbeiten Sie mit Adobe Client Care zusammen, um CNAME (Canonical Name)-Unterstützung in Adobe Target zu implementieren, um Probleme mit der Anzeigensperre oder ITP-bezogene Cookie-Richtlinien zu behandeln.
 title: Wie verwende ich CNAME in der Zielgruppe?
-feature: Datenschutz und Sicherheit
-role: Entwickler
+feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
 source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt

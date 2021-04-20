@@ -2,7 +2,7 @@
 keywords: Arbeitsbereiche;Eigenschaft verwalten;Berechtigungen;Produktkonfiguration;Produktprofil;Rollen;Projekt
 description: Erfahren Sie, wie Sie separate Arbeitsbereiche (Produkt-Profil) erstellen und Benutzern dann unterschiedliche Rollen und Berechtigungen für einzelne Seiten, Eigenschaften oder Websites zuweisen.
 title: Was sind Unternehmensbenutzerberechtigungen und wie verwende ich sie?
-feature: Administration und Konfiguration
+feature: Administration & Configuration
 role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf

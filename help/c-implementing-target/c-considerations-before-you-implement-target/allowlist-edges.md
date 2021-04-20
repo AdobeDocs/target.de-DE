@@ -2,8 +2,8 @@
 keywords: Implementierung;Implementierung;Whitelist;Weiße Liste;Zulassungsliste;Zulassungsliste;Kante;Kanten
 description: Ansicht einer Hosts zur Liste der Adobe Target-Kanten (geografisch verteilte Serving-Knoten, die optimale Reaktionszeiten für Endbenutzer gewährleisten).
 title: Wie kann ich Zielgruppe-Edge-Knoten in Zulassungslisten einordnen?
-feature: Datenschutz und Sicherheit
-role: Entwickler
+feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
 source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
 workflow-type: tm+mt

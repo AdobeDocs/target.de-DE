@@ -2,7 +2,7 @@
 keywords: '"at.js"-Versionen;at.js-Versionen;Versionshinweise'
 description: Ansicht der Details zu den Änderungen in den einzelnen Versionen der Adobe Target at.js JavaScript-Bibliothek.
 title: Was ist in jeder Version von at.js enthalten?
-feature: 'at.js '
+feature: at.js
 role: Developer
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

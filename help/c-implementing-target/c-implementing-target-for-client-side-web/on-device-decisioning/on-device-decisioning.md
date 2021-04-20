@@ -2,7 +2,7 @@
 keywords: Implementierung;JavaScript-Bibliothek;js;ATJS;on-device-Entscheidungsfindung;on-device-Entscheidungsfindung;at.js;on-device;on-device
 description: Erfahren Sie, wie Sie mit der Bibliothek "at.js"Entscheidungen auf dem Gerät durchführen
 title: Wie funktioniert die On-device-Entscheidungsfindung mit der JavaScript-Bibliothek "at.js"?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt

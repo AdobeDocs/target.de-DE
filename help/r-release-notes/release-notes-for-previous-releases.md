@@ -2,7 +2,7 @@
 keywords: Versionshinweise
 description: Ansicht einer Liste von Funktionen, Verbesserungen und Fehlerbehebungen, die in früheren Versionen von Adobe Target enthalten sind.
 title: Welche Funktionen sind in früheren Versionen enthalten?
-feature: ' Versionshinweise '
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
 source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12

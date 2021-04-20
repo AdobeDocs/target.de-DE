@@ -2,7 +2,7 @@
 keywords: implementieren;Implementierung;Einrichten;Setup;Kundenattribute
 description: Daten mithilfe von Kundenattributen in die Zielgruppe laden
 title: Wie erhalte ich Daten mithilfe von Kundenattributen in die Zielgruppe?
-feature: Implementierung
+feature: Implementation
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: adobe.target.getoffers;Getoffers;getoffers;Angebote abrufen;at.js;Funktionen;funktion
 description: Verwenden Sie die Funktion adobe.Zielgruppe.getOffers() und ihre Optionen, damit die Adobe Target-Bibliothek at.js Anforderungen auslöst, um mehrere Zielgruppen-Angebot abzurufen. (at.js 2.x)
 title: Wie verwende ich die Funktion adobe.Zielgruppe.getOffers()?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt

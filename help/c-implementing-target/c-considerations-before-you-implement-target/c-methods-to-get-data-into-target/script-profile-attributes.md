@@ -2,7 +2,7 @@
 keywords: implementieren;Implementierung;Einrichten;Setup;Skript-Profil-Attribute
 description: Daten mithilfe von Skript-Profil-Attributen in die Zielgruppe laden
 title: Wie erhalte ich Daten mithilfe von Skript-Profil-Attributen in die Zielgruppe?
-feature: Implementierung
+feature: Implementation
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt

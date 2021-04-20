@@ -2,7 +2,7 @@
 keywords: gemischte Inhalte;sicher;unsicher;Chrom;Fehlerbehebung;vec;Visual Experience Composer;unsecure;http;https;firefox;Internet Explorer
 description: Einige Browser blockieren die Anzeige einer Seite, wenn sicherer Inhalt mit unsicherem Inhalt gemischt wird. Erfahren Sie, wie Sie gemischte Inhalte in Chrome, Firefox und Edge aktivieren.
 title: Wie aktiviere ich gemischte Inhalte in meinem Browser?
-feature: 'Visual Experience Composer (VEC) '
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 keywords: Übersicht und Referenz;Webkit
 description: Erfahren Sie mehr über die ältere Implementierung von "mbox.js"in Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
 title: Wo finde ich Informationen zu mbox.js-Cookies?
-feature: 'at.js '
-role: Entwickler
+feature: at.js
+role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

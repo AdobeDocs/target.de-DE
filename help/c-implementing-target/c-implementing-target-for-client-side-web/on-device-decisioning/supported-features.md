@@ -2,7 +2,7 @@
 keywords: Implementierung;JavaScript-Bibliothek;js;ATJS;on-device-Entscheidungsfindung;on-device-Entscheidungsfindung;Unterstützte Funktionen
 description: Erfahren Sie, welche Funktionen für die Entscheidungsfindung auf dem Gerät unterstützt werden.
 title: Welche Funktionen werden bei der Entscheidung über das Gerät unterstützt?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
 translation-type: tm+mt

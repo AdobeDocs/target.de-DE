@@ -2,7 +2,7 @@
 keywords: Übersicht und Referenz;Aktivitäten;Einführung
 description: Lernen Sie die Grundlagen von Adobe Target kennen. In diesem Artikel werden Zielgruppen, Typen von Aktivitäten und andere Funktionen vorgestellt.
 title: Wie verwende ich Zielgruppe?
-feature: Überblick
+feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9

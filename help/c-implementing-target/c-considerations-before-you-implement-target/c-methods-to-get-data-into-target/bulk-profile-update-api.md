@@ -2,7 +2,7 @@
 keywords: implementieren;Implementierung;Einrichten;Einrichten;Bulk-Profil-Aktualisierung
 description: Daten in die Zielgruppe mit der Massen-Profil-Update-API abrufen.
 title: Wie erhalte ich Daten mithilfe der Massen-Profil-Update-API in die Zielgruppe?
-feature: Implementierung
+feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: AB;A/B;AB...n;Stichprobengröße;Stichprobengrößenrechner;Automatisches Zuordnen;Automatisches Zuordnen;Rechner
 description: Erfahren Sie, wie lange ein A/B-Test ausgeführt wird. Ein erfolgreicher A/B-Test in Adobe Target erfordert genügend Besucher (Stichprobengröße), um Ihr Konversionsrate zu verbessern.
 title: Wie lange sollte ich einen A/B-Test durchführen?
-feature: A/B-Tests
+feature: A/B Tests
 translation-type: tm+mt
 source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
 workflow-type: tm+mt

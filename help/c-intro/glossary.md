@@ -1,7 +1,7 @@
 ---
 description: Was bedeuten unterschiedliche Begriffe in Adobe Target? Hier finden Sie Definitionen allgemeiner Begriffe, die Ihnen helfen, mehr über die Zielgruppe zu erfahren.
 title: Wo finde ich Begriffe und Definitionen, die in der Zielgruppe verwendet werden?
-feature: Überblick
+feature: Overview
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

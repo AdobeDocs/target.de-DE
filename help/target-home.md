@@ -2,7 +2,7 @@
 keywords: Zielgruppe;Home;beliebte Themen;Adobe-Zielgruppe;Standard;Premium;Zielgruppe-Dokumentation;Dokumentation zur Adobe-Zielgruppe
 title: Wo finde ich die Dokumentation zur Zielgruppe?
 description: Erfahren Sie, wie Sie mit Adobe Target die Erlebnisse Ihrer Kunden personalisieren können, um den Umsatz Ihrer Websites, mobilen Sites, Apps und anderer digitaler Kanal zu maximieren.
-feature: Überblick
+feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
 source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3

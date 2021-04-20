@@ -2,7 +2,7 @@
 keywords: Targeting; a4t;geo; geotargeting; Genauigkeit von Geotargeting; Land; Bundesland; Stadt; Postleitzahl; dma; Mobilnetzbetreiber; Stadtvorwahl; Regionalcode; Landesvorwahl; Metrocode; Profilskripts; Geotargeting Profilskripts; Geotargeting mobiler Geräte
 description: Erfahren Sie, wie Sie Adobe Target-Audiencen für Benutzer von Zielgruppen basierend auf ihrem geografischen Standort erstellen, einschließlich Land, Stadt, Postleitzahl und mehr.
 title: Kann ich Besucher anhand des Standorts Zielgruppen durchführen?
-feature: Zielgruppen
+feature: Audiences
 solution: Target,Analytics
 translation-type: tm+mt
 source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68

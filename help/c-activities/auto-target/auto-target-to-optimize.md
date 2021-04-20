@@ -2,7 +2,7 @@
 keywords: Automatisches Targeting; Targeting; Traffic-Zuordnung; häufig gestellte Fragen; FAQ; Fehlerbehebung; Problembehebung
 description: Erfahren Sie, wie eine Aktivität der automatischen Zielgruppe in der Zielgruppe jedem Besucher auf der Grundlage seiner Profil und des Verhaltens ähnlicher Besucher die am besten angepasste Lösung bietet.
 title: Was ist eine Aktivität der automatischen Zielgruppe?
-feature: Automatisches Targeting
+feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
 source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d

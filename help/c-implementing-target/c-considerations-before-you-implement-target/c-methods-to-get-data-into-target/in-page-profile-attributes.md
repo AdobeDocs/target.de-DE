@@ -2,7 +2,7 @@
 keywords: implementieren;Implementierung;Einrichtung;Einrichtung;Seitenparameter
 description: Daten in die Zielgruppe mithilfe von In-Page-Profil-Attributen abrufen.
 title: Wie erhalte ich Daten mithilfe von Seitenattributen in die Zielgruppe?
-feature: Implementierung
+feature: Implementation
 role: Developer
 exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt

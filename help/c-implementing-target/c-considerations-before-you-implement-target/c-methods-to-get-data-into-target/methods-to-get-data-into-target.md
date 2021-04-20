@@ -2,7 +2,7 @@
 keywords: implementieren;Implementierung;einrichten;Einrichtung;Seitenparameter;Tomcat;URL-encoded;In-page-Profilattribut;Mbox-Parameter;In-page-Profilattribute;Skript-Profilattribut;Bulk-Profilupdate-API;API für einzelne Dateiaktualisierungen;Kundenattribute;Datenanbieter;Daten-Anbieter;Datenanbieter
 description: Daten in Zielgruppe abrufen (Seitenparameter, Profil-Attribute, Skript-Profil-Attribute, Datenanbieter, Single- und Bulk-Profil-Update-APIs, Kundenattribute).
 title: Wie erhalte ich Daten in die Zielgruppe?
-feature: Implementierung
+feature: Implementation
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt

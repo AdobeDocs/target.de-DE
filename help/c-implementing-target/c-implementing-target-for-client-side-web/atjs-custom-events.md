@@ -2,7 +2,7 @@
 keywords: benutzerspezifische Ereignisse; at.js; Anforderung fehlgeschlagen; Anforderung erfolgreich; Inhalt-Rendering fehlgeschlagen; Erfolgreiches Rendering von Inhalten; Bibliothek geladen; Request starten; Start des Inhalts-Rendervorgangs; kein Content Rendering von Angeboten; Redirect von Inhalts-Rendering
 description: Verwenden Sie benutzerdefinierte Ereignis, damit die Adobe Target-JavaScript-Bibliothek at.js benachrichtigt wird, wenn eine mbox-Anfrage oder ein Angebot fehlschlägt oder erfolgreich ist.
 title: Wie verwende ich benutzerdefinierte at.js-Ereignis?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt

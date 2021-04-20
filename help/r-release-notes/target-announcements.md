@@ -2,7 +2,7 @@
 keywords: Ankündigungen;Kompetenzaufbau;Entwickler-Chat;Kaffeepause;Ereignisse;Forrester;Gartner;Webinar
 description: Lesen Sie Ankündigungen und registrieren Sie sich für Adobe Target-Ereignisse, einschließlich Skill Builder-Sitzungen, Entwickler- und Produktmanagerchats, Webinars und mehr.
 title: Wo finde ich Ankündigungen und Ereignisse zur Zielgruppe?
-feature: ' Versionshinweise '
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

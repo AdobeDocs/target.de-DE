@@ -2,7 +2,7 @@
 keywords: Dokument.write;Zielgruppe;implementieren;Zielgruppe implementieren;dtm;dynamisches Tag-Management;at.js;mbox.js;Zielgruppe.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
 description: Implementieren Sie Adobe Target, indem Sie auf die Zielgruppen-Bibliotheken (at.js oder mbox.js) auf Ihren Webseiten verweisen.
 title: Erläuterung der JavaScript-Bibliotheken in Target
-feature: Implementierung
+feature: Implementation
 translation-type: tm+mt
 source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
 workflow-type: tm+mt

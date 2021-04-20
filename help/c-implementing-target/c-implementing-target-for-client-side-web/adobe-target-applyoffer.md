@@ -2,8 +2,8 @@
 keywords: adobe. target. applyoffer; Applyoffer; applyoffer; Angebot anwenden; at.js; Funktionen; funktion
 description: Verwenden Sie die Funktion adobe.Zielgruppe.applyOffer() für die Adobe Target at.js JavaScript-Bibliothek, um den Antwortinhalt anzuwenden.
 title: Wie verwende ich die Funktion adobe.Zielgruppe.applyOffer()?
-feature: 'at.js '
-role: Entwickler
+feature: at.js
+role: Developer
 translation-type: tm+mt
 source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
 workflow-type: tm+mt

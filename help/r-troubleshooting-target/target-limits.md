@@ -2,7 +2,7 @@
 keywords: Zeichenbeschränkung;mbox-Parameter;Batch-Versand-API;Profil-Parameter;Grenzwerte;Integrierte Profil;Maximal;Beschränkung;Zeichen;Best Practice;Orderid;orderTotal;mbox3rdPartyID;Kategorie;categoryID;Fehlerbehebung
 description: Ansicht einer Liste von Zeichenbeschränkungen und anderen Einschränkungen (Angebot-Größe, Audiencen, Profil, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
 title: Welches sind die verschiedenen Zeichen-, Größen- und sonstigen Beschränkungen in Adobe Target?
-feature: 'Fehlerbehebung '
+feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
 source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9

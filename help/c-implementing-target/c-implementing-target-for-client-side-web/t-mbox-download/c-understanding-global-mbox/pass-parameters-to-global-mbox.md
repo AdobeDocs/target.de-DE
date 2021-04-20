@@ -2,8 +2,8 @@
 keywords: globale Mbox-Parameter;targetPageParams;Abfragezeichenfolge;Array;JSON;DTM;Dynamic Tag Management
 description: Erfahren Sie, wie Sie mit der Funktion targetPageParams zusätzliche Targeting- oder Kontextinformationen an die globale Adobe Target-Mbox weiterleiten können.
 title: Wie übergebe ich Parameter an eine globale Mbox?
-feature: 'at.js '
-role: Entwickler
+feature: at.js
+role: Developer
 translation-type: tm+mt
 source-git-commit: a638da983bf39361be36a9cd68f3ef9f7eb39013
 workflow-type: tm+mt

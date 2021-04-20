@@ -2,7 +2,7 @@
 keywords: implementieren;Implementierung;Einrichten;Einrichten;Seitenparameter
 description: Daten mithilfe von Seitenparametern in die Zielgruppe laden
 title: Wie erhalte ich Daten mithilfe von Seitenparametern in die Zielgruppe?
-feature: Implementierung
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt

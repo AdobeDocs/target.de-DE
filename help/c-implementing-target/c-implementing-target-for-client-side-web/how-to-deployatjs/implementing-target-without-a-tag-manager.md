@@ -2,7 +2,7 @@
 keywords: Implementierung der Zielgruppe;Implementierung;Implementierung von at.js;Tag-Manager;Entscheidung auf dem Gerät;Geräteentscheidung
 description: Erfahren Sie, wie Sie die Einstellungen festlegen (Kontodetails, Implementierungsmethoden usw.) , um die Adobe Target at.js-Bibliothek ohne Verwendung eines Tag-Managers zu implementieren.
 title: Kann ich Zielgruppen ohne Tag-Manager implementieren?
-feature: Serverseitige Implementierung
+feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
