@@ -1,18 +1,18 @@
 ---
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
-description: Neu bei Adobe Target? Holen Sie sich einen Sprung in den Beginn mit dem Adobe Target Welcome Kit.
+description: Neu bei Adobe Target? Holen Sie sich einen Sprung zum Beginn mit der Adobe [!DNL Target] Begrüßungs-Kit.
 title: Wie komme ich mit der Zielgruppe an?
-feature: Overview
+feature: Überblick
+exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 0%
+source-wordcount: '92'
+ht-degree: 1%
 
 ---
 
-
-# Adobe Target-Begrüßungs-Kit
+# Adobe [!DNL Target] Begrüßungs-Kit
 
 Willkommen in Adobe Target.
 
