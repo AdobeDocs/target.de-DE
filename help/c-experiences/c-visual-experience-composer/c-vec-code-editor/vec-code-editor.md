@@ -1,18 +1,18 @@
 ---
 keywords: CSS-Selektor;benutzerspezifischer Code;Code-Editor;Mobile Web Experience-Editor
-description: Erfahren Sie, wie Sie mit dem Bedienfeld "Änderungen"in Adobe Target Seitenänderungen durchführen und zusätzliche Änderungen hinzufügen können (CSS-Selektor, Mbox und benutzerdefinierter Code).
+description: Erfahren Sie, wie Sie mit dem Bedienfeld "Änderungen"in Adobe [!DNL Target] Seitenänderungen und zusätzliche Ansichten (CSS-Selektor, Mbox und benutzerdefinierter Code) hinzufügen können.
 title: Welche Änderungen kann ich an meiner Seite vornehmen?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
+exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2126'
 ht-degree: 97%
 
 ---
 
-
-# Änderungen{#modifications}
+# Änderungen
 
 Informationen zur Seite &quot;Änderungen&quot;in [!DNL Adobe Target], auf der Sie Seitenänderungen und weitere Änderungen (CSS-Selektor, Mbox und benutzerdefinierter Code) Ansichten vornehmen können.
 
