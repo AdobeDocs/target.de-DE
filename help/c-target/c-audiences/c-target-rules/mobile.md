@@ -1,18 +1,18 @@
 ---
 keywords: Targeting; mobil; target mobile; deviceatlas; iPhone; iPhone-Modelle; deviceatlas; Displaybreite; Display Breite; Displayhöhe; Gerätetyp; Displayhöhe; Mobiltelefon; Tablet; Gerätemodell
-description: Hier erfahren Sie, wie Sie in Adobe Target Audiencen zur Zielgruppe von Mobilgeräten erstellen, die auf Parametern wie Mobilgerät, Gerätetyp, Gerätehersteller, Bildschirmabmessungen (nach Pixel) usw. basieren.
-title: Kann ich Besucher anhand der Mobiloptionen Zielgruppe leisten?
-feature: Audiences
+description: Erfahren Sie, wie Sie Audiencen in Adobe [!DNL Target] für die Zielgruppe von Mobilgeräten erstellen, die auf Parametern wie Mobilgerät, Gerätetyp, Gerätehersteller, Bildschirmabmessungen (nach Pixel) usw. basieren.
+title: 'Kann ich auf der Grundlage der Mobiloptionen Besucher auswählen? [!DNL Target] '
+feature: Zielgruppen
+exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 93%
 
 ---
 
-
-# Mobil{#mobile}
+# Mobil
 
 Sie können Zielgruppen erstellen, um Mobilgeräte auf Basis von Parametern wie Mobilgerät, Gerätetyp, Geräteanbieter, Bildschirmmaßen (in Pixeln) usw. auszuwählen.
 
