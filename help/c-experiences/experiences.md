@@ -1,16 +1,16 @@
 ---
 keywords: Erlebnis;Visual Experience Composer;Enhanced Experience Composer;Form-Based Experience Composer;Form Composer;Visual Composer;Experience Composer;gemischte Inhalte;iframe;iframe-Busting;Bust-iframe;X-Frame-Optionen;X-Frame-Optionen;Herkunft;Probleme mit der Herkunft;Authentifizierungsarbeitsablauf
 description: Erfahren Sie mehr über Adobe Experience Composer - Visual Experience Composer (VEC), Form-Based Experience Composer und den einseitigen Visual Experience Composer.
-title: Welche Experience Composer Angebot Zielgruppe?
-feature: Experiences and Offers
+title: 'Welche Experience Composer führt ein Angebot? [!DNL Target] '
+feature: Erlebnisse und Angebot
+exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 79%
+source-wordcount: '383'
+ht-degree: 78%
 
 ---
-
 
 # Erlebnisse und Angebote
 
