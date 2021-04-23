@@ -1,18 +1,18 @@
 ---
 keywords: qa;Vorschau;Vorschau-Links;adobe-Zielgruppe;Zielgruppe
-description: Erfahren Sie, wie Sie mit Adobe Target QA-URLs eine durchgängige Qualitätssicherung mit Vorschau-Links durchführen können, die sich nie ändern, optionales Targeting von Audiencen und QA-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
+description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] QS-URLs eine durchgängige Qualitätssicherung mit Vorschauen-Links durchführen, die sich nicht ändern, optionales Targeting von Audiencen und QA-Berichte, der aus Live-Aktivitäten segmentiert bleibt, durchführen können.
 title: Wie laute die Qualitätssicherung bei Aktivitäten?
-feature: Activities
+feature: Aktivitäten
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1545'
 ht-degree: 78%
 
 ---
 
-# Aktivitäts-QA {#activity-qa}
+# Aktivitäts-QA
 
 Verwenden Sie QS-URLs in [!DNL Adobe Target], um eine einfache End-to-End-Aktivität-Qualitätssicherung mit Vorschauen-Links durchzuführen, die sich nie ändern, optionales Targeting von Audiencen und QA-Berichte, der aus Live-Aktivitäten segmentiert bleibt.
 
