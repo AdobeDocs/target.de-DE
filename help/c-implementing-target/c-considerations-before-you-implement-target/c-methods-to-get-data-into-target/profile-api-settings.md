@@ -1,17 +1,17 @@
 ---
 keywords: Implementierung;API;Profil;Profil-API-Einstellungen;Authentifizierungstoken
-description: Erfahren Sie, wie Sie die Authentifizierung für Batch-Aktualisierungen über Adobe Target APIs konfigurieren und ein Profil-Authentifizierungstoken generieren.
+description: Erfahren Sie, wie Sie die Authentifizierung für Batch-Aktualisierungen über Adobe [!DNL Target] APIs konfigurieren und ein Profil-Authentifizierungstoken generieren.
 title: Wie verwende ich Profil-API-Einstellungen, um Batch-Aktualisierungen zu aktivieren oder zu deaktivieren?
 feature: APIs/SDKs
 role: Developer
+exl-id: 6346e11b-0853-47f1-9706-69e8635a6f25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '328'
 ht-degree: 38%
 
 ---
-
 
 # Profil-API-Einstellungen
 
