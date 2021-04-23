@@ -2,17 +2,17 @@
 keywords: Experience Cloud; Gerätekooperation; Analytics; Zielgruppen-Manager; AAM; Media Optimizer; Gerätediagramm
 description: Erfahren Sie mehr über die Adobe Experience Cloud Device Co-op. Arbeiten Sie zusammen, um Verbraucher über digitale Berührungspunkte hinweg besser zu identifizieren und gleichzeitig die Privatsphäre und Transparenz zu gewährleisten.
 title: Was ist das Adobe Experience Cloud Device Co-Op?
-feature: Integrations
+feature: Integrationen
+exl-id: 22769591-cab4-4460-b427-76eb1bfff4b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '184'
 ht-degree: 68%
 
 ---
 
-
-# [!DNL Experience Cloud Device Co-op]{#experience-cloud-device-co-op}
+# [!DNL Experience Cloud Device Co-op]
 
 Informationen zu [!DNL Adobe Experience Cloud Device Co-op], ein Programm, das es Teilnehmern erlaubt, zusammenzuarbeiten, um Verbraucher über digitale Touchpoints hinweg besser zu identifizieren, und gleichzeitig ein Höchstmaß an Privatsphäre und Transparenz gewährleistet.
 
