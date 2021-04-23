@@ -1,18 +1,18 @@
 ---
 keywords: Besucherprofil; Target-Besucherprofil
-description: Erfahren Sie, wie Sie in Adobe Target Audiencen für Besucher der Zielgruppe erstellen, die bestimmte Profil-Parameter erfüllen, z. B. neue oder wiederkehrende Besucher, Affinität der Kategorie und mehr.
-title: Kann ich Besucher, die bestimmte Profil-Parameter erfüllen, in Zielgruppe setzen?
-feature: Audiences
+description: Erfahren Sie, wie Sie Audiencen in Adobe [!DNL Target] zu Zielgruppe-Besuchern erstellen, die bestimmte Profil-Parameter erfüllen, wie neue oder wiederkehrende Besucher, Kategorie-Affinität und mehr.
+title: Kann ich [!DNL Target] Besucher, die bestimmte Profil-Parameter erfüllen?
+feature: Zielgruppen
+exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 83%
 
 ---
 
-
-# Besucherprofil{#visitor-profile}
+# Besucherprofil
 
 Erstellen Sie Zielgruppen aus Besuchern, die bestimmte Profilparameter erfüllen.
 
