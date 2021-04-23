@@ -1,17 +1,17 @@
 ---
 keywords: DSGVO; eu; Europäische Union; Datenschutz; faq; häufig gestellte Fragen; california consumer privacy act; ccpa; Datenschutz; Schutz der Daten; opt-out; abmelden; Regierung; Vorschrift
-description: Erfahren Sie mehr über die Zielgruppe und die allgemeine Datenschutzverordnung der Europäischen Vereinigung (GDPR), das California Consumer Privacy Act (CCPA) und andere Datenschutzbestimmungen.
-title: Wie geht Zielgruppe mit Datenschutz- und Datenschutzvorschriften um?
-feature: Privacy & Security
+description: Informieren Sie sich über [!DNL Target] und die allgemeine Datenschutzverordnung der Europäischen Vereinigung (GDPR), den California Consumer Privacy Act (CCPA) und andere Datenschutzbestimmungen.
+title: Wie geht [!DNL Target] mit Datenschutzbestimmungen um?
+feature: Datenschutz und Sicherheit
 role: Developer
+exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2265'
-ht-degree: 90%
+source-wordcount: '2260'
+ht-degree: 88%
 
 ---
-
 
 # Vorschriften zur Privatsphäre und zum Datenschutz
 
@@ -52,7 +52,7 @@ Wenn Sie sich im vergangenen Jahr auf das europäische Datenschutzrecht (DSGVO) 
 >
 >Der Zugriff auf und das Löschen von Daten, wie sie für das CCPA gelten, erfolgt nach demselben Verfahren wie für das GDPR.
 
-## Opt-in-Funktion in Adobe Target und [!DNL Experience Platform Launch] {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe [!DNL Target] und [!DNL Experience Platform Launch] Teilnahme {#section_6F7B53F5E40C4425934627B653E831B0}
 
 [!DNL Target] unterstützt die Opt-in-Funktionalität über [!DNL Launch] und hilft Ihnen bei der Einwilligungsverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Launch] zur Vorab-Genehmigung des [!DNL Target]-Tags. Um die Opt-in-Funktion in der [!DNL Target]-at.js-Bibliothek zu aktivieren, sollten Sie `targetGlobalSettings` benutzen und die Einstellung `optinEnabled=true` hinzufügen. In [!DNL Launch] müssen Sie in der Dropdownliste [!UICONTROL DSGVO-Opt-in] im Installationsfenster der [!DNL Launch]-Erweiterung „Aktivieren“ auswählen. Weitere Details finden Sie in der [Dokumentation zu Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
@@ -160,7 +160,7 @@ Weitere Informationen zu GDPR, CCPA und [!DNL Launch] finden Sie unter [Adobe Pr
 
 [!DNL Target] löscht beispielsweise die Cookies zum Speichern der IDs, aber [!DNL Adobe Audience Manager] (AAM) löscht nicht die in einem Drittanbieter-Cookie gespeicherte demdex-ID.
 
-### Welche Informationen müssen in einer Target-DSGVO- oder -CCPA-Anfrage enthalten sein? {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### Welche Informationen müssen in einer [!DNL Target] GDPR- oder CCPA-Anforderung enthalten sein? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
 Neben den Anforderungen des Central Privacy Service enthält eine gültige DSGVO- oder CCPA-Anfrage für [!DNL Target] folgende Elemente:
 
@@ -201,7 +201,7 @@ Neben den Anforderungen des Central Privacy Service enthält eine gültige DSGVO
 }
 ```
 
-### Welche Arten von Antworten von Target über die DSGVO-API kann ich erwarten?   {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### Welche Arten von Antworten kann ich von [!DNL Target] über die GDPR-API erwarten? {#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | Anfragestatus | Target-Antwortnachricht | Szenario |
 |--- |--- |--- |
@@ -210,7 +210,7 @@ Neben den Anforderungen des Central Privacy Service enthält eine gültige DSGVO
 | Abgeschlossen | Nicht zutreffend: Benutzerkontext nicht gefunden. | Die in der DSGVO- oder CCPA-Anfrage angegebene ID für den spezifischen Besucher oder die betroffene Person ist nicht im Target-Profilspeicher vorhanden.<br>Diese Antwort erhalten Sie auch, wenn Sie versuchen, einen Namespace-ID-Typ zu übermitteln, der nicht von Target unterstützt wird (unterstützte IDs finden Sie oben). |
 | Fehler | Fehlermeldung (abhängig vom Fehlertyp) | Fehler beim Abrufen oder Löschen des angeforderten Profils der betroffenen Person.<br>Fehler beim Hochladen in Azure für die Zugriffsanfrage. |
 
-### Welche Antwort sendet Target bei einer Zugriffsanfrage an die DSGVO-API? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
+### Welche Antwort sendet [!DNL Target] an die GDPR-API für eine Zugriffsanforderung? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
 Antworten auf Anfragen zum Datenzugriff enthalten eine Zusammenfassung des [!DNL Target]-Profils für den betroffenen Besucher. Beachten Sie, dass eine solche Antwort an die [!DNL Experience Cloud]-DSGVO-API gesendet wird, die wiederum die Antwort an die Datenverantwortlichen weiterleitet.
 
@@ -293,7 +293,7 @@ Die im Beispiel verwendeten JSON-Felder des Profils werden in der folgenden Tabe
 >
 >Dies ist zur Veranschaulichung eine gekürzte Version des JSON-Codes für ein [!DNL Target]-Profil. Bei zahlreichen Feldern im [!DNL Target]-Profil handelt es sich nicht um Standardfelder. Die zurückgegebenen Daten hängen von den Informationen im jeweiligen Besucherprofil ab.
 
-### Unterstützt Target IP-Verschleierung?   {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Unterstützt [!DNL Target] IP-Verschleierung? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] unterstützt IP-Verschleierung, wenn Sie sie im Rahmen Ihrer DSGVO- oder CCPA-Implementierungsstrategie einsetzen. Weitere Informationen finden Sie unter  [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
 
