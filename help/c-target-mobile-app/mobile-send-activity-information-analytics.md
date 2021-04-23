@@ -1,19 +1,19 @@
 ---
 keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
-description: Erfahren Sie, wie Sie Informationen zur Aktivität mobiler Apps an Adobe Analytics senden, um die Ad-hoc-Segmentierung zu posten.
+description: Erfahren Sie, wie Sie Informationen zur Adobe [!DNL Target] Aktivität mobiler Apps an Adobe Analytics senden, um die Ad-hoc-Segmentierung zu posten.
 title: Kann ich Informationen zur mobilen App-Aktivität an Analytics senden?
-feature: Implement Mobile
+feature: Mobile implementieren
 role: Developer
+exl-id: 33812f14-320f-40c3-8234-d6006fb4d6bc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '377'
 ht-degree: 33%
 
 ---
 
-
-# Senden von Aktivitätsinformationen an Adobe Analytics{#send-activity-information-to-adobe-analytics}
+# Senden von Aktivitätsinformationen an Adobe Analytics
 
 In diesem Abschnitt wird beschrieben, wie Sie [!DNL Target] Informationen zur mobilen App-Aktivität zur Post-hoc-Segmentierung an Adobe [!DNL Analytics] senden.
 
@@ -74,4 +74,3 @@ In diesem Abschnitt wird beschrieben, wie Sie [!DNL Target] Informationen zur mo
    >[!NOTE]
    >
    >`&&tnt` ist ein reservierter Ereignisschlüssel im mobilen SDK. Die Post-Klassifizierung der `tntVal`-Variable funktioniert im mobilen SDK genauso wie im Internet (JavaScript). [!DNL Analytics] Nachdem die Informationen in [!DNL Analytics] verarbeitet wurden, sollten Sie die Aktivitäten- und Erlebnisnamen in der [!DNL Analytics]-Schnittstelle sehen.
-
