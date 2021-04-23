@@ -1,18 +1,18 @@
 ---
 keywords: MVT; Multivariater Tests; Location Contribution-Bericht
-description: Erfahren Sie, wie Sie den Location Contribution Report für Adobe Target Experience Targeting-Aktivitäten verwenden, der die Performance der einzelnen Elemente und Angebot anzeigt.
+description: Erfahren Sie, wie Sie den Location Contribution Report für Adobe [!DNL Target] Erlebnis-Targeting-Aktivitäten verwenden, der die Performance der einzelnen Elemente und Angebot anzeigt.
 title: Wie verwende ich den Location Contribution Report für Multivarianz-Tests?
-feature: Reports
+feature: Berichte
+exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 83%
 
 ---
 
-
-# Location Contribution-Bericht (MVT){#location-contribution-report-mvt}
+# Location Contribution-Bericht (MVT)
 
 Der Location Contribution-Bericht zeigt die Leistung jedes einzelnen Elements und jedes einzelnen Angebots an.
 
