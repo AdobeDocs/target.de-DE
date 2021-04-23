@@ -1,18 +1,18 @@
 ---
 keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen; Zielgruppentargeting; Zielgruppenberichterstellung; Zielgruppenbericht; Segment; benutzerdefinierte Profilparameter; Zielgruppendefinition; Zielgruppenliste
-description: Erfahren Sie, wie Sie die Seite "Audiencen"in Adobe Target verwenden und wie Sie Audiencen-Definitionskarten mit Audiencen- und Nutzungsinformationen Ansicht.
+description: Erfahren Sie, wie Sie die Seite "Audiencen"in Adobe [!DNL Target] verwenden und wie Sie Audiencen-Definitionskarten mit Audiencen- und Nutzungsinformationen Ansicht.
 title: Wie verwende ich die Liste Audience?
-feature: Audiences
+feature: Zielgruppen
+exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 92%
 
 ---
 
-
-# Erstellen von Zielgruppen{#create-audiences}
+# Erstellen von Zielgruppen
 
 Mithilfe von Zielgruppen in Adobe Target wird bestimmt, wer Inhalte und Erlebnisse in einer Target-Aktivität anzeigen kann.
 
