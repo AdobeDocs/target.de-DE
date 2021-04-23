@@ -2,17 +2,17 @@
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Entdecken Sie potenzielle Herausforderungen, vor denen Sie stehen könnten, wenn Sie Automated Personalization (AP)-Aktivitäten in Adobe Target verwenden, und schlagen Sie Lösungen vor.
 title: Wie behebe ich eine Fehlerbehebung bei Automated Personalization?
-feature: Automated Personalization
+feature: Automatisierte Personalisierung
+exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 91%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Fehlerbehebung bei der automatisierten Personalisierung{#troubleshoot-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Fehlerbehebung bei der automatisierten Personalisierung
 
 Manchmal verlaufen Aktivitäten nicht erwartungsgemäß. Im Folgenden finden Sie einige potenzielle Herausforderungen, die sich möglicherweise aus der Verwendung der automatisierten Personalisierung ergeben, sowie die jeweils vorgeschlagenen Lösungen.
 
@@ -58,4 +58,3 @@ Nehmen wir zum Beispiel an, dass eine Aktivität mit einer Konversionsmetrik (C1
 
 * Wenn Sie die Vorschau nicht auf der neuen Registerkarte anzeigen können (aufgrund des Browser-Caches), aktualisieren Sie die Seite zwei- oder dreimal oder kopieren Sie den Link und öffnen Sie ihn in einem neuen Browser oder in einer neuen Sitzung.
 * Generieren Sie die Erlebnis-URL-Links erneut, wenn Sie Inhalte geändert haben, und geben Sie die neuen Links für Ihre Teamkollegen frei.
-
