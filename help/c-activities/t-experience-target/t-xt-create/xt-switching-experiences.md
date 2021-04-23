@@ -1,16 +1,16 @@
 ---
 keywords: Priorität;Erlebnis erstellen;Prioritäten;Erlebnis;Zielgruppe;Erlebnisse;Erlebnisse wechseln;Visual Experience Composer
-description: Erfahren Sie, wie Besucher in einer Adobe Target Experience Targeting (XT)-Aktivität während der Entwicklung ihrer Profil zwischen Erlebnissen wechseln können.
+description: Erfahren Sie, wie Besucher in einer Adobe  [!DNL Target] Erlebnis-Targeting (XT)-Aktivität während der Entwicklung ihrer Profil zwischen Erlebnissen wechseln können.
 title: Können Besucher Erlebnisse in einer Erlebnis-Targeting-Aktivität wechseln?
-feature: Experience Targeting
+feature: Erlebnis-Targeting
+exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 96%
+source-wordcount: '916'
+ht-degree: 97%
 
 ---
-
 
 # Wechsel zwischen Erlebnissen im Erlebnis-Targeting
 
@@ -72,4 +72,3 @@ Damit diese Funktionen in [!DNL Target] sinnvoll eingesetzt werden können, müs
    Es ist dabei wichtig, Szenarien zu berücksichtigen, bei denen sich ein Besucher für mehr als eine der Zielgruppen qualifiziert. Wenn Sie beispielsweise über die beiden Erlebnisse „USA“ und „New York“ verfügen, qualifiziert sich ein Besucher aus New York für beide Zielgruppen. Sie müssen somit darauf achten, dass das Erlebnis „New York“ in der Target-Benutzeroberfläche vor dem Erlebnis „USA“ definiert wird. Somit ist gewährleistet, dass das zielgerichtetere Erlebnis „New York“ die höhere Priorität genießt, siehe Beispiel unten:
 
    ![Priorität NY > USA](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
-
