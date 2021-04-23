@@ -1,13 +1,13 @@
 ---
 keywords: Zielgruppe;Home;beliebte Themen;Adobe-Zielgruppe;Standard;Premium;Zielgruppe-Dokumentation;Dokumentation zur Adobe-Zielgruppe
-title: Wo finde ich die Dokumentation zur Zielgruppe?
-description: Erfahren Sie, wie Sie mit Adobe Target die Erlebnisse Ihrer Kunden personalisieren können, um den Umsatz Ihrer Websites, mobilen Sites, Apps und anderer digitaler Kanal zu maximieren.
-feature: Overview
+title: 'Wo kann ich die Dokumentation finden? [!DNL Target] '
+description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] das Kundenerlebnis personalisieren, um den Umsatz Ihrer Websites, mobilen Sites, Apps und anderer digitaler Kanal zu maximieren.
+feature: Überblick
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 45%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 45%
 
 ![Banner](assets/target-home-banner-simple.png)
 
-[!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
+[!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, Social Media und anderen digitalen Kanälen maximieren können.
 
 **Zuletzt aktualisiert: 19. April 2021 ( [Siehe Änderungen](r-release-notes/doc-change.md) )**
 
@@ -41,7 +41,7 @@ In den folgenden Abschnitten finden Sie nützliche Links in diesem Handbuch, die
 
 Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherungstechniker.
 
-- [Target-Versionshinweise](r-release-notes/release-notes.md): Enthält Informationen über die aktuelle Version, Informationen zu bekannten Problemen, die sich auf [!DNL Target] auswirken, eine Liste mit wichtigen Änderungen an dieser Dokumentation und ein Archiv älterer Versionshinweise.
+- [Versionshinweise zu Target](r-release-notes/release-notes.md): Enthält Informationen über die aktuelle Version, Informationen zu bekannten Problemen, die sich auf [!DNL Target] auswirken, eine Liste mit wichtigen Änderungen an dieser Dokumentation und ein Archiv älterer Versionshinweise.
 - [Einführung in Target](c-intro/intro.md): Erklärt die Kernkonzepte der [!DNL Target]-Lösung.
 - Target in Adobe Experience Cloud integrieren: Hier erfahren Sie, wie Sie [!DNL Target] mit anderen [!DNL Experience Cloud]-Lösungen integrieren, einschließlich [Analytics für Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) und [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
 - [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html): Enthält Schulungen und Videos, mit denen Sie die Zielgruppe optimal nutzen können.
