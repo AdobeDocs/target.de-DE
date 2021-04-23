@@ -1,14 +1,14 @@
 ---
 keywords: E-Mail; ESP; E-Mail-Serviceprovider; Rawbox; Lieferungs-API; Nur-Download-Vorlage; E-Mail-Vorlage; Batchverarbeitung; Build-Time-E-Mail
-description: Erfahren Sie, wie Sie E-Mails mit Adobe Target Recommendations integrieren, einschließlich der Zielgruppe Versand API, Rawbox-Vorlagen und Nur-Herunterladen-Vorlagen.
+description: Erfahren Sie, wie Sie E-Mails mit Adobe [!DNL Target] Recommendations, including using the [!DNL Target] Versand-API, Rawbox-Vorlagen und Nur-Herunterladen-Vorlagen integrieren.
 title: Wie integriere ich Recommendations mit E-Mail?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 87%
+source-wordcount: '1540'
+ht-degree: 86%
 
 ---
 
@@ -78,7 +78,7 @@ Das von Ihnen verwendete E-Mail-System sollte dazu in der Lage sein, mit Folgend
 * In diesem Fall ist die Antwort der Parameterwert von mboxDefault. Eine Erläuterung dieses Parameters finden Sie unten.
 * Der E-Mail-Anbieter sollte in diesem Fall über einen Standard-HTML-Block für Empfehlungen verfügen.
 
-### Zeitüberschreitung des Target-Servers und Rückgabe ohne Daten
+### Der [!DNL Target]-Server meldet das Timeout und gibt ohne Daten zurück
 
 * In diesem Fall gibt der Target-Server folgenden Inhalt zurück:
 
@@ -122,7 +122,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(Optional) | 1 | Standardmäßig wird der Anrufer umgeleitet, wenn keine bereitzustellenden Inhalte gefunden werden können. Für die Deaktivierung des Standardverhaltens verwenden. |  |
 | `mbox3rdPartyId` | *xxx* | Verwenden Sie diesen Wert, wenn Sie für Profil-Targeting eigene, benutzerdefinierte IDs einsetzen. |  |
 
-### Mögliche Target-Serverantworten
+### Potenzielle [!DNL Target] Serverantworten
 
 | Antwort | Beschreibung |
 |--- |--- |
