@@ -1,16 +1,16 @@
 ---
 keywords: SPA VEC;React;Angular;react.js;SPA Visual Experience Composer;Optionen in SPA Experience Composer;Einzelseiten-App;Single-Page-App;SPA;Optionen für mobile Erlebnisse;Target-Ansicht
-description: Erfahren Sie, wie Sie mit dem SPA VEC in Adobe Target Tests erstellen und Inhalte auf SPA individuell gestalten können, ohne dass Sie ständig Entwicklungsabhängigkeiten haben.
+description: Erfahren Sie, wie Sie den SPA VEC in Adobe [!DNL Target] verwenden, um Tests zu erstellen und Inhalte auf SPA zu personalisieren, ohne ständig Entwicklungsabhängigkeiten zu haben.
 title: Wie verwende ich den Visual Experience Composer (SPA VEC) für Einzelseitenanwendungen?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
+exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3699'
+source-wordcount: '3700'
 ht-degree: 91%
 
 ---
-
 
 # Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)
 
@@ -20,7 +20,7 @@ In [!DNL Adobe Target] bietet [!UICONTROL Visual Experience Composer] (VEC) Mark
 
 Mit der neuesten Version bieten wir nun VEC für SPAs an. VEC für SPAs ermöglicht es Marketing-Experten, für SPAs selbst Tests zu erstellen und Inhalt zu personalisieren, ohne von der kontinuierlichen Weiterentwicklung abhängig zu sein. Mit VEC können Sie [A/B-Test](/help/c-activities/t-test-ab/test-ab.md)- und [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md)-Aktivitäten (XT-Aktivitäten) in beliebten Frameworks wie React und Angular erstellen.
 
-## Adobe Target-Ansichten und Einzelseiten-Apps
+## Ansichten und Einzelseitenanwendungen mit Adobe [!DNL Target]
 
 Adobe Target VEC für SPAs basiert auf einem neuen Konzept für Ansichten: Eine Ansicht entspricht einer logischen Gruppe visueller Elemente, aus denen sich ein SPA-Erlebnis zusammensetzt. Eine SPA kann also als eine Reihe von Ansichten anstelle von URLs betrachtet werden, die je nach Benutzerinteraktion aufgerufen werden. Eine Ansicht umfasst in der Regel eine ganze Site oder eine Gruppe visueller Elemente innerhalb einer Site.
 
@@ -56,7 +56,7 @@ Das Konzept Ansichten aber kann noch viel mehr ausgeweitet werden. Für Marketin
 
 Ihre Marketing-Experten können auch einen A/B-Test durchführen, um zu sehen, ob die Änderung der Farbe von Blau auf Rot nach Auswahl der Expresszustellung die Konversion im Vergleich zu gleichbleibend blauer Button-Farbe für beide Versandoptionen steigert.
 
-## Implementieren von Adobe Target-Ansichten
+## Implementieren von Ansichten zur Adobe [!DNL Target]
 
 Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir dieses Konzept in Target nutzen, um Marketern die Möglichkeit zu geben, mithilfe des VEC A/B- und XT-Tests in SPAs durchzuführen. Dies erfordert eine einmalige Einrichtung durch den Entwickler. Nachfolgend sind die Schritte beschrieben, die sie dazu befolgen müssen.
 
