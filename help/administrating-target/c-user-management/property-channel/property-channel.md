@@ -2,18 +2,18 @@
 keywords: Arbeitsbereiche;Eigenschaft verwalten;Berechtigungen;Produktkonfiguration;Produktprofil;Rollen;Projekt
 description: Erfahren Sie, wie Sie separate Arbeitsbereiche (Produkt-Profil) erstellen und Benutzern dann unterschiedliche Rollen und Berechtigungen für einzelne Seiten, Eigenschaften oder Websites zuweisen.
 title: Was sind Unternehmensbenutzerberechtigungen und wie verwende ich sie?
-feature: Administration & Configuration
+feature: Administration und Konfiguration
 role: Administrator
+exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3018'
 ht-degree: 59%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Berechtigungen für Unternehmensbenutzer{#enterprise-user-permissions}
+# ![PREMIUM](/help/assets/premium.png) Berechtigungen für Unternehmensbenutzer
 
 Berechtigungen für Enterprise-Benutzer sind ein Mittel zur formalen Verwaltung des unternehmensweiten Benutzerzugriffs auf [!DNL Adobe Target]. hinzufügen Benutzer auf [!DNL Target] Berechtigungen auf Grundlage ihrer Rollen zuweisen und Arbeitsbereiche für Teams erstellen, die auf verschiedenen Abteilungen, globalen Positionen, Kanälen und anderen logischen Gruppierungen basieren. Sie können Benutzern die Rollen [!UICONTROL Beobachter], [!UICONTROL Editor] oder [!UICONTROL Genehmigende Person] zuweisen.
 
@@ -296,7 +296,7 @@ Lernziele:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Bürozeiten: Zielgruppe Premium-Arbeitsflächen
+### Bürozeiten: [!DNL Target] Premium-Arbeitsflächen
 
 Dieses Video ist eine Aufzeichnung von Office Hours, eine Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
 
