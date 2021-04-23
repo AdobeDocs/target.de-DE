@@ -2,17 +2,17 @@
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; auto-target; auto target; Auto-Target-Bericht; Auto Target-Bericht; Personalisierung; Insights; automatisierte Segmente; FAQ; häufig gestellte Fragen; wichtige Attribute
 description: Erfahren Sie, wie Sie die Sonderberichte für Automated Personalization- (AP) und AT-Aktivitäten (Auto-Zielgruppe) - Automatisierte Segmente und wichtige Attribute verwenden.
 title: Wie verwende ich die Berichte zu Personalisierungseinsichten?
-feature: Reports
+feature: Berichte
+exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 65%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Personalization Insights-Berichte{#personalization-insights-reports}
+# ![PREMIUM](/help/assets/premium.png) Personalization Insights-Berichte
 
 Für Benutzer von AP ([!UICONTROL Automated Personalization])- und AT (Automatisches Targeting)-Aktivitäten sind zwei spezielle Berichte verfügbar: [!UICONTROL Automatisierte Segmente] und „Wichtige Attribute“.
 
