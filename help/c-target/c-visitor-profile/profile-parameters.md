@@ -1,18 +1,18 @@
 ---
 keywords: Profil-Skript;Skriptattribute;Best Practices für Profil-Skripten;Debugging;Skripten;Profil-Skripten;Attribute;Attribut;Parameter
-description: Erfahren Sie mehr über Besucher-spezifische Attribute, die im Profil des Besuchers gespeichert werden, um Informationen darüber bereitzustellen, wie sie in Ihren Adobe Target-Aktivitäten verwendet werden können.
+description: Erfahren Sie mehr über Besucher-spezifische Attribute, die im Profil des Besuchers gespeichert werden, um Informationen darüber bereitzustellen, was in Ihrer Adobe [!DNL Target] Aktivitäten verwendet werden kann.
 title: Was sind Profil-Attribute?
-feature: Audiences
+feature: Zielgruppen
+exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2453'
 ht-degree: 76%
 
 ---
 
-
-# Profilattribute{#profile-attributes}
+# Profilattribute
 
 Profilattribute sind Parameter, die speziell für einen Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Aktivitäten verwendet werden können.
 
@@ -59,7 +59,7 @@ Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgrupp
 
 ![Dialogfeld „Profilskript erstellen“](assets/profile-script.png)
 
-Profilskripte führen Profilattribut-„Fänger“ bei jeder Ortsanforderung aus. Beim Empfang einer Ortsanforderung bestimmt Target, welche Aktivität ausgeführt werden soll, und zeigt den für diese Aktivität und das Erlebnis geeigneten Inhalt an. Das Programm verfolgt den Erfolg der Aktivität und führt relevante Profilskripte aus. Auf diese Weise können Sie Informationen über den Besuch nachverfolgen, z. B. Ort, Tageszeit, Anzahl der Besuche auf der Site durch den Besucher, ggf. frühere Einkäufe usw. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können.
+Profilskripte führen Profilattribut-„Fänger“ bei jeder Ortsanforderung aus. Beim Empfang einer Ortsanforderung bestimmt Target, welche Aktivität ausgeführt werden soll, und zeigt den für diese Aktivität und das Erlebnis geeigneten Inhalt an. Das Programm verfolgt den Erfolg der Aktivität und führt relevante Profilskripte aus. Auf diese Weise können Sie Informationen zum Besuch nachverfolgen, z. B. Ort, Tageszeit, Anzahl der Besuche auf der Site durch den Besucher, ggf. frühere Einkäufe usw. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können.
 
 Profilskriptattribute haben das `user.`-Tag vor dem Attributnamen eingefügt. Beispiel:
 
