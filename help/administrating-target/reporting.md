@@ -1,17 +1,17 @@
 ---
 keywords: Bericht;Berichte;Berichte;Erlebnis-Cloud-Lösung;Zeitzone;Zeitzone;Währung;IPs ausschließen;geschätzte Umsatzsteigerung;Umsatz;Umsatzsteigerung;Feinabstimmung der Prioritäten;Feinkörnig
-description: Verwenden Sie Zielgruppe oder Adobe Analytics als Berichte-Quelle, geben Sie das standardmäßige Zeitzone- und Währungsformat an, fügen Sie IP-Adressen hinzu, die vom Berichte ausgeschlossen werden sollen, und vieles mehr.
+description: Verwenden Sie [!DNL Target] oder Adobe Analytics als Berichte-Quelle, geben Sie die standardmäßige Zeitzone und das Währungsformat an, fügen Sie IP-Adressen hinzu, die vom Berichte ausgeschlossen werden sollen, und vieles mehr.
 title: Wie konfiguriere ich Berichte in Zielgruppe?
-feature: Administration & Configuration
+feature: Administration und Konfiguration
 role: Administrator
+exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 31%
 
 ---
-
 
 # Berichte in Zielgruppe konfigurieren
 
@@ -55,7 +55,7 @@ Geben Sie die Zeitzone für den Berichte an.
 
 Geben Sie die Währung für den Berichte an.
 
-## IPs, die von den Daten des Berichte der Zielgruppe ausgeschlossen werden sollen
+## IPs, die von den Daten des Berichte [!DNL Target] ausgeschlossen werden sollen
 
 Geben Sie alle IP-Adressen an, die von den Daten des Berichte ausgeschlossen werden sollen. So können Sie z. B. durch das Ausschließen von Adressen interner Firmen sicherstellen, dass Ihre Berichte-Daten die Interaktionen Ihrer Kunden auf Ihrer Website widerspiegeln.
 
