@@ -1,18 +1,18 @@
 ---
 keywords: Empfehlungen erstellen; Recommendations-Aktivität; neue Empfehlungen; Recommendations-Übersicht
-description: Erfahren Sie, wie Sie mit dem Adobe Target Visual Experience Composer (VEC) eine Recommendations-Aktivität direkt auf einer Seite mit aktivierter Zielgruppe erstellen.
+description: Erfahren Sie, wie Sie mit der Adobe [!DNL Target] Visual Experience Composer (VEC) eine Recommendations-Aktivität direkt auf einer  [!DNL Target]-aktivierten Seite erstellen.
 title: Wie erstelle ich eine Recommendations-Aktivität?
 feature: Recommendations
+exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 76%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Eine Recommendations-Aktivität erstellen{#create-a-recommendations-activity}
+# ![PREMIUM](/help/assets/premium.png) Eine Recommendations-Aktivität erstellen
 
 Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendations-Aktivität direkt auf einer für Target aktivierten Seite erstellen und Teile der Seite in Target verändern.
 
