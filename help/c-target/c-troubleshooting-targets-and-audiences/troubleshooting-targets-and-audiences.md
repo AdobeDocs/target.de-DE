@@ -1,22 +1,22 @@
 ---
 keywords: Fehlerbehebung; häufig gestellte Fragen; FAQ; FAQs; Targets; Zielgruppen
-description: Häufig gestellte Fragen zur Ansicht (FAQ) zu Erlebnis-Targeting und Audiencen in Adobe Target-Aktivitäten.
+description: Häufig gestellte Fragen zur Ansicht (FAQ) zu Erlebnis-Targeting und zu Audiencen in Adoben [!DNL Target] Aktivitäten.
 title: Wo finde ich Fragen und Antworten zu Zielgruppen und Audiencen?
-feature: Audiences
+feature: Zielgruppen
+exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 66%
+source-wordcount: '948'
+ht-degree: 62%
 
 ---
 
-
-# Häufig gestellte Fragen zu Zielen und Zielgruppen{#targets-and-audiences-faq}
+# Häufig gestellte Fragen zu Zielen und Zielgruppen
 
 Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
 
-## Wie bewertet Zielgruppe URLs beim Targeting? {#url}
+## Wie bewertet [!DNL Target] URLs beim Targeting? {#url}
 
 Zielgruppe bewertet URLs unterschiedlich, je nachdem, ob Sie beim Erstellen einer Aktivität Audiencen-URL-Targeting verwenden oder ob Sie beim Erstellen einer Audience URL-Targeting verwenden.
 
@@ -65,7 +65,7 @@ Es empfiehlt sich, mehrere Werte einer Kategorie zuzuordnen, wie unten dargestel
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
-## Warum sind voreingestellte Zielgruppen in der Target-Bibliothek beim Erstellen von Zielgruppen unter anderen Kategorien aufgeführt? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
+## Warum befinden sich beim Erstellen von Audiencen vordefinierte Audiencen unter [!DNL Target] Bibliothek unter anderen Kategorien? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 Vorab eingestellte Zielgruppen in der Target-Bibliothekskategorie sind veraltete Zielgruppen und bestehen auch in anderen Kategorien. Beispiel: Die veraltete Target-Bibliothek > Zielgruppe „Neue Besucher“ verfügt über ein aktuelleres Gegenstück: Besucherprofil > Neuer Besucher.
 
@@ -83,7 +83,7 @@ In der folgenden Darstellung qualifiziert sich ein Benutzer aus Kalifornien mit 
 
 ![](assets/audiences_order.png)
 
-## Warum unterscheiden sich die Namen der gleichen Zielgruppe in Target, Adobe Audience Manager (AAM) und der Zielgruppenbibliothek in den Core Services voneinander? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## Warum unterscheiden sich die Namen der gleichen Zielgruppe in [!DNL Target], Adobe Audience Manager (AAM) und der Zielgruppenbibliothek in den Core Services voneinander? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 Zielgruppennamen in [!DNL Target] sind eindeutig; in [!DNL AAM] und [!DNL Audience Library] können Sie jedoch für mehrere Zielgruppen denselben Namen haben (wenn sie sich in verschiedenen Ordnern befinden). Wenn [!DNL Target] auf einen Zielgruppennamen trifft, der einer [!DNL AAM]- oder [!DNL Audience Library]-Zielgruppe entspricht, hängt [!DNL Target] ein &quot;#&lt;Nummer>&quot; an den Namen an.
 
@@ -93,7 +93,7 @@ So könnten Ihnen beispielsweise folgende Zielgruppen angezeigt werden: „PC-Nu
 
 Einige Zielgruppen wurden vorab eingerichtet, darunter „Neue Besucher“ und „Wiederkehrende Besucher“. Diese voreingestellten Zielgruppen können von Benutzern nicht umbenannt werden.
 
-## Warum werden meine gesamten Profilparameter auf der Benutzeroberfläche von Target nicht angezeigt?   {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Warum werden nicht alle Profil-Parameter in der [!DNL Target]-Benutzeroberfläche angezeigt? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, können Sie hierzu die API-Methode [!UICONTROL Profilupdate] nutzen. Weitere Informationen finden Sie unter [Profilupdate](https://developers.adobetarget.com/api/#authentication-tokens) in der Dokumentation zur Adobe Target-API.
 
@@ -101,7 +101,7 @@ Einige Zielgruppen wurden vorab eingerichtet, darunter „Neue Besucher“ und �
 
 Aktivitäten vom Typ „Automatisierte Personalisierung“ werden einmal pro Sitzung ausgewertet. Wenn für ein bestimmtes Erlebnis qualifizierte aktive Sitzungen vorhanden waren und diesen nun neue Angebote hinzugefügt werden, wird Benutzern der neue Inhalt zusammen mit den zuvor angezeigten Angeboten angezeigt. Da sie zuvor für diese Erlebnisse qualifiziert wurden, werden sie ihnen weiterhin für die Dauer der Sitzung angezeigt. Wenn dies bei jedem einzelnen Seitenbesuch ausgewertet werden soll, sollten Sie den Erlebnis-Targeting-Aktivitätstyp (XT) ändern.
 
-## Warum werden Änderungen an Zielgruppen, die per API erstellt wurden, nicht in der Target-UI angezeigt?   {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## Warum werden Änderungen an Audiencen, die über API erstellt wurden, nicht in der [!DNL Target]-Benutzeroberfläche angezeigt? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 Im Gegensatz zu Angeboten und Profilskripten werden Änderungen, die per API an mit Target Standard erstellten Zielgruppen vorgenommen werden, derzeit nicht mit der Target-UI synchronisiert.
 
