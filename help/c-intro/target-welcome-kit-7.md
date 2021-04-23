@@ -1,18 +1,18 @@
 ---
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
-description: Beginnen wir mit Ihrer ersten Aktivität in Adobe Target, damit Sie eine Kapitalrendite erzielen können.
+description: Beginnen wir mit Ihrer ersten Aktivität in Adobe [!DNL Target] damit Sie einen ROI für Ihre Investition erhalten können.
 title: Ich muss meine erste Aktivität in der Zielgruppe erstellen. Wo Beginn?
-feature: Overview
+feature: Überblick
+exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
 
-
-# Kapitel 7: Erstellen und Ausführen der ersten Zielgruppe-Aktivität
+# Kapitel 7: Erstellen und Ausführen der ersten [!DNL Target]-Aktivität
 
 Sie sind also bereit, mit Ihrer ersten Aktivität in [!DNL Target] zu beginnen? Ausgezeichnet. Lassen Sie uns eine Aktivität für Ihre Website, mobile Site oder mobile App herausfinden, die nicht übermäßig komplex ist. Sie kann aber einen schnellen ROI bieten und Sie über das Potenzial begeistern, [!DNL Target] zum Testen und Personalisieren zu verwenden. Je nach Unternehmen und Schwerpunkt könnten Sie in Erwägung ziehen, mit der ersten Aktivität eine von drei verschiedenen Routen zu wählen.
 
@@ -20,7 +20,7 @@ Entscheidend für Ihre erste Aktivität ist jedoch die Festlegung einer Grundlag
 
 ## Route 1: A/B-Tests für den gesamten Besucher-Traffic
 
-Sie können eine grundlegende [A/B-Test-Aktivität](/help/c-activities/t-test-ab/test-ab.md) einrichten, in der Sie eine Variation eines Angebots oder Erlebnisses mit einer oder mehreren anderen Varianten testen, um zu sehen, welche Ihrer Besucher bevorzugt. Wenn Sie nur nach der Gewinner-Variante suchen, können Sie die AI nutzen, um schnellere Ergebnisse zu erzielen, indem Sie im zweiten Schritt des Setup-Arbeitsablaufs für A/B-Tests [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) auswählen.
+Sie können eine einfache [A/B-Test-Aktivität](/help/c-activities/t-test-ab/test-ab.md) einrichten, bei der Sie eine Variation eines Angebots oder Erlebnisses mit einer oder mehreren anderen Varianten testen, um zu sehen, welche Ihrer Besucher bevorzugt. Wenn Sie nur nach der Gewinner-Variante suchen, können Sie die AI nutzen, um schnellere Ergebnisse zu erzielen, indem Sie im zweiten Schritt des Setup-Arbeitsablaufs für A/B-Tests [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) auswählen.
 
 Beispiel: Eine Media-Firma testet ihre aktuelle Version auf ihrer Website oder mobilen Site auf ein Geschenkgutschein-Abonnement-Angebot, um zu sehen, welche Variante mehr Besucher dazu bringt, ein Geschenkpapier zu erwerben. Wenn sie die Option &quot;Automatisierte Zuordnung&quot;auswählen, verschiebt die Aktivität während der Testausführung mehr Traffic auf die erfolgreichste Variante. Ist dies nicht der Fall, wird gewartet, bis Sie das erfolgreichste Erlebnis nach Abschluss des Tests manuell live übertragen.
 
@@ -106,6 +106,6 @@ Nachdem die Aktivität abgeschlossen ist, führen Sie ein Dokument der Ergebniss
 
 Die Ergebnisse Ihrer Aktivität liefern oft Einblicke in die Aktionen, die Sie als Nächstes ausführen sollten. Wenn eine Erlebnisvariante sehr erfolgreich war, sollten Sie diese auf Ihrer Website hartcodieren. Möglicherweise sehen Sie Möglichkeiten, diesen Erfolg auf andere ähnliche Seiten anzuwenden. Die Ergebnisse könnten darauf hindeuten, dass noch mehr getan werden muss, um das Kundenerlebnis auf dieser Seite zu verbessern. Verwenden Sie diesen Bereich, um wichtige Erkenntnisse aus der Aktivität zu Dokument zu nehmen und anhand dieser Lernprozesse Dokument zu geben, was Sie tun werden.
 
-## Zielgruppe öffnen und Aktivität erstellen und starten
+## Öffnen Sie [!DNL Target] und erstellen und starten Sie Ihre Aktivität
 
 Sie haben Ihren Aktivitäten-Planer ausgefüllt. Jetzt ist es an der Zeit, in die Lösung einzusteigen und Ihre Aktivität zu bauen. [!DNL Target] macht es sehr einfach, Ihre Webseite im  [!UICONTROL Visual Experience Composer] zu ändern.
