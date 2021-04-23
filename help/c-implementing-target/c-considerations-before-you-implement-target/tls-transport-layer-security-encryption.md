@@ -1,19 +1,19 @@
 ---
 keywords: tls;tls 1.0;Transportschichtsicherheit;verschlüsselung;tls 1.1;tls 1.2
-description: Erfahren Sie, wie Zielgruppe mithilfe des TLS-Protokolls (Transport Layer Security) höchste Sicherheitsstandards einhält und die Sicherheit Ihrer Kundendaten erhöht.
-title: Wie stellt Zielgruppe mithilfe von TLS Sicherheit bereit?
-feature: Privacy & Security
+description: 'Erfahren Sie, wie Sie mit dem TLS-Protokoll (Transport Layer Security) höchste Sicherheitsstandards einhalten und die Sicherheit Ihrer Kundendaten fördern können. [!DNL Target] '
+title: Wie stellt  [!DNL Target] mithilfe von TLS Sicherheit dar?
+feature: Datenschutz und Sicherheit
 role: Developer
+exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1237'
 ht-degree: 57%
 
 ---
 
-
-# Änderungen der TLS-Verschlüsselung (Transport Layer Security){#tls-transport-layer-security-encryption-changes}
+# Änderungen der TLS-Verschlüsselung (Transport Layer Security)
 
 Informationen über Änderungen, wie [!DNL Adobe] und [!DNL Adobe Target] TLS (Transport Layer Security) verwenden, um höchste Sicherheitsstandards zu gewährleisten und die Sicherheit von Kundendaten zu fördern.
 
@@ -59,7 +59,7 @@ Beachten Sie bei der Planung dieser Änderung Folgendes (beachten Sie, dass die 
 
 Weitere Informationen zu unterstützten Browsern und Versionen finden Sie unter  [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
-## Adobe Target-APIs {#section_88797FA5434049EC89F908853CC76903}
+## Adobe [!DNL Target] APIs {#section_88797FA5434049EC89F908853CC76903}
 
 Ab dem 1. März 2020 unterstützen Zielgruppe-APIs keine TLS 1.1-Verschlüsselung mehr. Kunden, die auf die API zugreifen, sollten sicherstellen, dass sie nicht von den Auswirkungen betroffen sind.
 
