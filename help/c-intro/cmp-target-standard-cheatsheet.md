@@ -2,17 +2,17 @@
 keywords: Target Standard; FAQ; häufig gestellte Fragen; Kurzdarstellung; kurze Darstellung
 description: Hier finden Sie eine Liste häufig gestellter Fragen zur Verwendung der Funktionen in Adobe Target sowie Informationen und Links zu weiteren Informationen.
 title: Wo finde ich Antworten auf die Fragen zu Optimierung und Personalisierung?
-feature: Overview
+feature: Überblick
+exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2918'
 ht-degree: 96%
 
 ---
 
-
-# Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung{#target-optimization-and-personalization-faq}
+# Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung
 
 Eine Liste mit häufig gestellten Fragen über die Verwendung von Funktionen in Adobe Target zusammen mit Informationen und Links zu weiteren Informationen.
 
