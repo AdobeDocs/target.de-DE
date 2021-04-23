@@ -1,19 +1,19 @@
 ---
 keywords: Implementierung; mbox.js nicht-JavaScript; Weiterleitung; Kosten pro Klick; Umsatz pro Klick
-description: Erfahren Sie, wie Sie Weiterleitungen in E-Mail-Implementierungen verwenden, ähnlich wie bei der Verwendung einer Mbox in Ihren Adobe Target-Aktivitäten.
+description: Erfahren Sie, wie Sie Weiterleitungen in E-Mail-Implementierungen verwenden, ähnlich wie Sie eine Mbox in Ihrer Adobe [!DNL Target] Aktivitäten verwenden.
 title: Wie arbeite ich mit Weiterleitungen?
-feature: Implement Email
+feature: E-Mail implementieren
 role: Developer
+exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '681'
 ht-degree: 66%
 
 ---
 
-
-# Arbeiten mit Weiterleitungen{#work-with-redirectors}
+# Arbeiten mit Weiterleitungen
 
 Verwenden Sie eine Weiterleitung auf ähnliche Weise, wie Sie eine Mbox für Ihre Tests verwenden.
 
