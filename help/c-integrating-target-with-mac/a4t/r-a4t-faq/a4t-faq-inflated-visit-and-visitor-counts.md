@@ -1,18 +1,18 @@
 ---
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; überhöht; Besuch; Besucher; partieller Treffer; verwaist; Waise; partielle Treffer
-description: Hier finden Sie Antworten auf Fragen zu erhöhten Besuchs- und Besucher-Zahlen bei der Verwendung von Analytics für die Zielgruppe (A4T). Erfahren Sie, wie Sie "partielle Daten"minimieren.
+description: Finden Sie Antworten auf Fragen zu erhöhten Besuchs- und Besucher-Zählungen bei der Verwendung von Analytics for [!DNL Target] (A4T). Erfahren Sie, wie Sie "partielle Daten"minimieren.
 title: Wo finde ich FAQs zu überhöhten Besuchs- und Besucher-Zählungen mit A4T?
 feature: Analytics for Target (A4T)
+exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 63%
+source-wordcount: '658'
+ht-degree: 61%
 
 ---
 
-
-# Überhöhte Besuchs- und Besucherzahlen – Häufig gestellte Fragen zu A4T{#inflated-visit-and-visitor-counts-a-t-faq}
+# Überhöhte Besuchs- und Besucherzahlen – Häufig gestellte Fragen zu A4T
 
 Dieses Thema enthält Antworten auf häufig zu überhöhten Besuchs- und Besucherzahlen bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.
 
@@ -50,12 +50,12 @@ Nach dem 14. November 2016 umfasst die Adobe nur Daten, wenn sowohl die Tags [!D
 
 Es gibt auch Maßnahmen, die Sie ergreifen können, um Treffer mit partiellen Daten zu minimieren. Weitere Informationen dazu finden Sie unter „Welche empfohlenen Vorgehensweisen gibt es, um partielle Daten zu reduzieren?“ in [Minimieren überhöhter Besuchs- und Besucherzahlen in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Wenn Treffer mit partiellen Daten aus Berichte entfernt werden, verlieren Sie dann nicht wertvolle Zielgruppe oder Analytics-Daten? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
+## Wenn Treffer mit partiellen Daten aus Berichte entfernt werden, verlieren Sie dann nicht wertvolle [!DNL Target]- oder Analytics-Daten? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
 Die Aufnahme von partiellen Daten in den Berichte [!DNL Analytics] bietet zwar zusätzliche Informationen, stellt aber auch eine Inkonsistenz mit historischen Daten aus Zeiträumen dar, in denen keine [!DNL Target]-Aktivitäten ausgeführt wurden. Das Einschließen von partiellen Trefferdaten kann für [!DNL Analytics]-Benutzer, die Trends im Laufe der Zeit analysieren, Probleme verursachen.
 
 Es gibt auch Maßnahmen, die Sie ergreifen können, um Treffer mit partiellen Daten zu minimieren. Weitere Informationen dazu finden Sie unter „Welche empfohlenen Vorgehensweisen gibt es, um partielle Daten zu reduzieren?“ in [Minimieren überhöhter Besuchs- und Besucherzahlen in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Gibt es bestimmte Typen von Target-Aktivitäten, die häufiger zu Treffern mit partiellen Daten führen? {#section_69837442A9B84366BEFDA4588B31E574}
+## Gibt es bestimmte Typen von [!DNL Target]-Aktivitäten, die häufiger Treffer mit partiellen Daten verursachen? {#section_69837442A9B84366BEFDA4588B31E574}
 
 Umleitungsangebote senden einen Benutzer unverzüglich auf eine andere Seite - was bedeutet, dass der [!DNL Analytics]-Aufruf auf der ersten Seite nicht ausgelöst wird.
