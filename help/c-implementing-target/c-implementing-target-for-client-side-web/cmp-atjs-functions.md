@@ -2,18 +2,18 @@
 keywords: at.js; Funktionen; Javascript-Bibliothek
 description: Ansicht einer Liste von Funktionen, die mit den Versionen 1.x und 2.x der JavaScript-Bibliothek at.js in Adobe Target verwendet werden können.
 title: Welche Funktionen kann ich mit at.js verwenden?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: a386e478-16f4-4bf6-9771-6b1e75f2e362
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 94%
 
 ---
 
-
-# „at.js“-Funktionen{#at-js-functions}
+# „at.js“-Funktionen
 
 Liste der Funktionen, die mit der at.js-JavaScript-Bibliothek von Adobe Target verwendet werden können. Klicken Sie in der Spalte „Funktion“ auf die Links, um weitere Informationen und Beispiele zu erhalten.
 
@@ -33,4 +33,3 @@ Liste der Funktionen, die mit der at.js-JavaScript-Bibliothek von Adobe Target v
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | Stellt eine Standardart zur Registrierung bestimmter Erweiterungen dar.<br>**Hinweis:** Diese Funktion steht nur für at.js Version 1.*x*, zur Verfügung. Diese Funktion ist mit der Veröffentlichung von at.js 2.x überholt. Diese Funktion gibt Standardinhalte zurück, wenn sie mit at.js 2.x verwendet wird. |
 | [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Benutzerdefinierte at.js-Ereignisse teilen Ihnen mit, wenn eine Mbox-Anforderung oder ein Angebot erfolgreich oder fehlgeschlagen ist. |
 | [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at.js 2.1.0) | Diese Funktion sendet eine Benachrichtigung an Target-Edge, wenn ein Erlebnis ohne Verwendung von `adobe.target.applyOffer()` oder `adobe.target.applyOffers()` gerendert wird.<br>**Hinweis**: Diese Funktion wurde mit at.js 2.1.0 eingeführt und steht für alle Versionen höher als 2.1.0 zur Verfügung. |
-
