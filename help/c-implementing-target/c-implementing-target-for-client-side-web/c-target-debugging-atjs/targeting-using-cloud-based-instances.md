@@ -1,19 +1,19 @@
 ---
 keywords: Cloud-Instanzen;öffentliche Suffix-Liste;öffentliches Suffix;Cookie;Erstanbieter-Cookie;Erstanbieter-Cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: Informieren Sie sich über Probleme (mit Lösungen), mit denen Kunden konfrontiert sind, wenn sie Adobe Target mithilfe von Cloud-basierten Instanzen testen oder zu Testversand-of-Concept-Zwecken arbeiten.
-title: Kann ich Zielgruppe mit Cloud-basierten Instanzen verwenden?
-feature: at.js
+description: Informieren Sie sich über Probleme (mit Lösungen), mit denen Kunden konfrontiert sind, wenn sie Cloud-basierte Instanzen zum Testen der Adobe [!DNL Target] oder zu Testversand-of-Concept-Zwecken verwenden.
+title: Kann ich  [!DNL Target] mit Cloud-basierten Instanzen verwenden?
+feature: 'at.js '
 role: Developer
+exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 81%
+source-wordcount: '169'
+ht-degree: 82%
 
 ---
 
-
-# Verwenden Cloud-basierter Instanzen mit Target{#use-cloud-based-instances-with-target}
+# Verwenden Cloud-basierter Instanzen mit Target
 
 Informationen zu Problemen, die Kunden beim Verwenden Cloud-basierter Instanzen zum Testen von [!DNL Adobe Target] haben.
 
