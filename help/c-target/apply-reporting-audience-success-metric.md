@@ -1,18 +1,18 @@
 ---
 keywords: Targeting; Zielgruppe; Berichterstellung; Erfolgsmetrik
-description: Erfahren Sie, wie Sie eine Erfolgsmetrik in Adobe Target auswählen, die den Berichte für die Audience qualifiziert.
+description: Erfahren Sie, wie Sie eine Erfolgsmetrik in Adobe [!DNL Target] auswählen, die den Berichte für die Audience qualifiziert.
 title: Kann ich eine Berichte-Audience auf eine Erfolgsmetrik anwenden?
-feature: Success Metrics
+feature: Erfolgsmetriken
+exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 90%
 
 ---
 
-
-# Anwenden einer Reporting-Zielgruppe auf eine Erfolgsmetrik{#apply-a-reporting-audience-to-a-success-metric}
+# Anwenden einer Reporting-Zielgruppe auf eine Erfolgsmetrik
 
 Wählen Sie eine Erfolgsmetrik aus, die den Benutzer für die Berichterstellungszielgruppe qualifiziert.
 
@@ -34,4 +34,3 @@ Bedenken Sie folgende Informationen, wenn Sie einer Erfolgsmetrik eine Berichter
 Um die Segmentierung in der Berichterstellung zu sehen, wählen Sie die gewünschte Zielgruppe aus der Dropdownliste „Zielgruppe“ im Bericht der Aktivität aus.
 
 ![](assets/reporting_audience_dropdown.png)
-
