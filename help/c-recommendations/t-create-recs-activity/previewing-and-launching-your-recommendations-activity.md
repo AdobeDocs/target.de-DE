@@ -1,20 +1,20 @@
 ---
 keywords: Recommendations;Angebot;Vorschau;Start;Status;Kriterien;Algorithmus
-description: 'Erfahren Sie, wie Sie Ihre Adobe Target Recommendations-Aktivität so Vorschau haben, dass sichergestellt ist, dass Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. '
+description: 'Erfahren Sie, wie Sie Ihre Adobe [!DNL Target] Recommendations-Aktivität Vorschau haben, um sicherzustellen, dass Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. '
 title: Wie kann ich eine Recommendations-Aktivität starten und Vorschau durchführen?
 feature: Recommendations
+exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 17%
 
 ---
 
-
 # Vorschau und Starten der Recommendations-Aktivität
 
-Nachdem Sie die Aktivität [!UICONTROL Recommendations], [!UICONTROL A/B-Test] oder [!UICONTROL Erlebnis-Targeting] (XT) mit [Recommendations-Angeboten](/help/c-recommendations/recommendations-as-an-offer.md) erstellt haben, sollten Sie Ihre Empfehlungen Vorschau haben, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. [!DNL Target Recommendations] angebote zur Vorschau Ihrer Empfehlungen auf verschiedene Weisen.
+Nachdem Sie die Aktivität [!UICONTROL Recommendations], [!UICONTROL A/B-Test] oder [!UICONTROL Erlebnis-Targeting] (XT) mit [Recommendations-Angeboten](/help/c-recommendations/recommendations-as-an-offer.md) erstellt haben, sollten Sie Ihre Empfehlungen Vorschau haben, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. [!DNL Target Recommendations] Angebote zur Vorschau Ihrer Empfehlungen auf verschiedene Weisen.
 
 ## Überprüfen des Recommendations-Algorithmusstatus
 
@@ -77,12 +77,12 @@ Mithilfe eines QS-Links können Sie die Empfehlungen auf Ihrer Seite Vorschau ha
 >* Der QS-Modus für Zielgruppen ist &quot;sticky&quot; und wird in einem Cookie gespeichert. Wenn Sie den Qualitätssicherungs-Modus nicht beenden, werden die Qualitätssicherungsergebnisse auf der gesamten Site angezeigt. Um den QA-Modus zu beenden, verwenden Sie das Lesezeichen [a1/>.](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)
    >
    >
-* Im QA-Modus hat das Durchsuchen der Site keine Auswirkungen auf die kürzlich angezeigten Elemente [!UICONTROL oder [!UICONTROL Zuletzt gekaufte Artikel] Ihres Profils.&quot; ] Dieses Verhalten wird planmäßig ausgeführt, um eine unbeabsichtigte Verschmutzung von Produktionsverhaltensdaten zu vermeiden. Zur Vorschau der Ergebnisse eines Kriteriums [!UICONTROL Zuletzt angezeigte Elemente] oder [!UICONTROL Benutzerbasierte Recommendations] durchsuchen Sie zunächst die Site außerhalb des Qualitätssicherungs-Modus und öffnen dann in derselben Sitzung einen Link zum Qualitätssicherungs-Modus.
+* Im QA-Modus hat das Durchsuchen der Site keine Auswirkungen auf die kürzlich angezeigten Elemente [!UICONTROL oder [!UICONTROL Zuletzt gekaufte Artikel] Ihres Profils.&quot; ] Dieses Verhalten wird planmäßig ausgeführt, um eine unbeabsichtigte Verschmutzung von Produktionsverhaltensdaten zu vermeiden. Zur Vorschau der Ergebnisse eines Kriteriums [!UICONTROL Zuletzt angezeigte Elemente] oder [!UICONTROL Benutzerbasierte Recommendations] durchsuchen Sie zunächst die Site außerhalb des Qualitätssicherungs-Modus und öffnen Sie dann in derselben Sitzung einen Link zum Qualitätssicherungs-Modus.
 
 
 ## Verwenden des CSV-Downloads zur Vorschau von Empfehlungen
 
-In einigen Fällen sollten Sie die empfohlenen Elemente prüfen. Dies ist besonders hilfreich, wenn Sie Algorithmen wie [!UICONTROL Personen verwenden, die diese Ansicht angezeigt haben, und dies] anzeigen, wobei je nach dem Artikel, den der Benutzer gerade anzeigt, unterschiedliche Elemente empfohlen werden und Sie möglicherweise Tausende oder Millionen von verschiedenen Elementen in Ihrem Katalog haben.
+In einigen Fällen sollten Sie die empfohlenen Elemente prüfen. Dies ist besonders hilfreich, wenn Sie Algorithmen wie [!UICONTROL Personen verwenden, die dies angezeigt haben, und dies] anzeigen, wobei je nach dem Artikel, den der Benutzer gerade anzeigt, unterschiedliche Elemente empfohlen werden und Sie möglicherweise Tausende oder Millionen von verschiedenen Elementen in Ihrem Katalog haben.
 
 Die Ergebnisse können erst heruntergeladen werden, wenn für mindestens einen Algorithmus in der Aktivität der Status [!UICONTROL Ergebnisse bereit] angezeigt wird.
 
