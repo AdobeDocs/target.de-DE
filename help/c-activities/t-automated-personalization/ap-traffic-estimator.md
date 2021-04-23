@@ -1,13 +1,13 @@
 ---
 keywords: Traffic-Schätzung;Automatisierte Personalisierung;App;Traffic-Schätzung;Auto-Zielgruppe
-description: Verwenden Sie die Adobe Target Traffic-Schätzung, um zu ermitteln, ob Sie über ausreichend Traffic verfügen, damit Ihre Automated Personalization-Aktivität erfolgreich ist.
+description: Verwenden Sie die Adobe [!DNL Target] Traffic-Schätzung, um festzustellen, ob Sie über ausreichend Traffic verfügen, damit Ihre Automated Personalization-Aktivität erfolgreich ist.
 title: Wie viel Traffic wird für eine erfolgreiche Aktivität benötigt?
-feature: Automated Personalization
+feature: Automatisierte Personalisierung
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '752'
 ht-degree: 14%
 
 ---
