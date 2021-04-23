@@ -1,16 +1,16 @@
 ---
 keywords: Automatisierte Traffic-Zuordnung;Targeting;Automatische Zuordnung;Automatische Zuordnung
-description: Erfahren Sie, wie eine Aktivität zur automatischen Zuordnung in Adobe Target einen Gewinner unter zwei oder mehr Erlebnissen identifiziert und automatisch mehr Traffic an den Gewinner weiterleitet.
+description: Erfahren Sie, wie eine Aktivität zur automatischen Zuordnung in der Adobe [!DNL Target] einen Gewinner unter zwei oder mehr Erlebnissen identifiziert und automatisch mehr Traffic an den Gewinner weiterleitet.
 title: Können automatisch zugewiesene Aktivitäten schneller Ergebnisse erzielen und einen höheren Umsatz erzielen?
-feature: Auto-Allocate
+feature: Automatische Zuordnung
+exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
 
 ---
-
 
 # Die automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und mehr Umsatz als ein manueller Test liefern
 
@@ -47,4 +47,3 @@ Wenn Sie die Rangfolge der einzelnen Erlebnisse im Vergleich zu den anderen fest
 ## Erste Schritte
 
 Sind Sie bereit, Ihre erste [!UICONTROL Aktivität für die automatische Zuordnung] zu starten? [Erfahren Sie hier](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
-
