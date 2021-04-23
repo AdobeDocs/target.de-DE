@@ -1,16 +1,16 @@
 ---
 keywords: Fehlerbehebung in Target;Problembehebung in Target;Standardinhalte;Test nicht verfügbar;Aktivität nicht verfügbar;Targeting funktioniert nicht;vorheriges Erlebnis erscheint;kann keine Aktivitäten erstellen;Aktivitäten erstellen;Seitenstruktur geändert;Seitenstruktur modifiziert;Fehlermeldung;Fehler beim Löschen von Profilskript;AJAX funktioniert nicht
-description: Suchen Sie nach Empfehlungen zur Fehlerbehebung, falls Ihre Adobe Target-Aktivität nicht auf Ihrer Site erscheint.
+description: Suchen Sie nach Empfehlungen zur Fehlerbehebung, falls Ihre Adobe [!DNL Target] Aktivität nicht auf Ihrer Site erscheint.
 title: Wie kann ich Aktivitäten beheben?
-feature: Activities
+feature: Aktivitäten
+exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 76%
+source-wordcount: '834'
+ht-degree: 75%
 
 ---
-
 
 # Fehlerbehebung bei Aktivitäten
 
@@ -22,7 +22,7 @@ Wenn Ihre [!DNL Adobe Target]-Aktivität nicht auf Ihrer Site angezeigt wird, so
 
 Die folgenden Abschnitte enthalten möglicherweise auftretende Probleme sowie Lösungsvorschläge.
 
-## Ich habe eine Aktivität mit der Benutzeroberfläche der Zielgruppe erstellt und kann sie nicht über die API aktualisieren.
+## Ich habe eine Aktivität mit der [!DNL Target]-Benutzeroberfläche erstellt und kann sie nicht über die API aktualisieren.
 
 Aktivitäten, die mit der Benutzeroberfläche der Zielgruppe erstellt wurden, sollten über die Benutzeroberfläche der Zielgruppe aktualisiert werden. Über API erstellte Aktivitäten sollten über API aktualisiert werden. Wenn Sie beispielsweise eine Aktivität ursprünglich mit der API erstellen, die Aktivität dann später jedoch über die Benutzeroberfläche der Zielgruppe bearbeiten, werden nicht alle Änderungen aktualisiert. Alle Änderungen werden im Backend gespeichert und können durch einen weiteren API-Aufruf aktualisiert werden.
 
@@ -69,7 +69,7 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 * Versuchen Sie es mit einem anderen Browser.
 * Verwenden Sie den Privat-/Inkognito-Modus.
 
-## Sie wurden kürzlich zu Target hinzugefügt, können jedoch keine Aktivitäten erstellen.
+## Sie wurden kürzlich zu [!DNL Target] hinzugefügt, können aber keine Aktivitäten erstellen.
 
 **Validierung:** Klicken Sie auf Aktivität erstellen. Wenn die Option nicht verfügbar ist, sind Sie wahrscheinlich nicht dazu berechtigt, eine Aktivität zu erstellen.
 
@@ -141,6 +141,6 @@ Führen Sie einen der folgenden Schritte aus:
 
 **Hinweis:** Mehrere AJAX- [!DNL Target] Aufrufe mit demselben Namen, aber unterschiedlichen Parametern funktionieren nicht auf derselben Seite. Nur der erste Aufruf erfolgt.
 
-## Sie haben eine Aktivität mit der Zielgruppen-API aktiviert, aber die Aktivität zeigt in der Benutzeroberfläche der Zielgruppe den Status [!UICONTROL Inaktiv] an.
+## Sie haben eine Aktivität mithilfe der API aktiviert, die Aktivität zeigt jedoch in der Benutzeroberfläche [!DNL Target] den Status [!UICONTROL Inaktiv] an.[!DNL Target]
 
 Hinweis: Wenn Sie bestimmte Aktionen ausführen, wie zum Beispiel eine Aktivität außerhalb der Benutzeroberfläche über die Target-API zu aktivieren, kann es bis zu 10 Minuten dauern, bis die Aktualisierung bis zur Benutzeroberfläche propagiert wird.
