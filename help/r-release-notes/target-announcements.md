@@ -1,13 +1,13 @@
 ---
 keywords: Ankündigungen;Kompetenzaufbau;Entwickler-Chat;Kaffeepause;Ereignisse;Forrester;Gartner;Webinar
-description: Lesen Sie Ankündigungen und registrieren Sie sich für Adobe Target-Ereignisse, einschließlich Skill Builder-Sitzungen, Entwickler- und Produktmanagerchats, Webinars und mehr.
-title: Wo finde ich Ankündigungen und Ereignisse zur Zielgruppe?
-feature: Release Notes
+description: Lesen Sie Ankündigungen und registrieren Sie sich für Adoben [!DNL Target] Ereignis, einschließlich Skill Builder-Sitzungen, Entwickler- und Produktmanagerchats, Webinare und mehr.
+title: 'Wo finde ich Mitteilungen und Ereignis? [!DNL Target] '
+feature: ' Versionshinweise '
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ In diesem aufgezeichneten Webinar besprechen Adobe Target-Produktexperten, wie b
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Webinar: Wie HSBC Adobe Target und AI nutzt, um Personalisierung schnell zu optimieren und zu liefern
+## Webinar: Nutzung der Adobe [!DNL Target] und der API von HSBC zur schnellen Optimierung und Bereitstellung der Personalisierung im Maßstab
 
 * **[Ansicht der Webinaraufnahme hier](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
@@ -49,7 +49,7 @@ Nehmen Sie an diesem Webinar mit Adobe und HSBC teil, um zu erfahren:
 
 *McKinsey-Artikel: &quot;[Die COVID-19-Wiederherstellung wird digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#) sein&quot;, Mai 2020
 
-## Adobe Target Skill Builder: Entwickler-Chat, Migration von Adobe Targets mbox.js zu at.js {#skill-builder}
+## Adobe [!DNL Target] Kompetenzaufbau: Entwickler-Chat, migrieren Sie die mbox.js der Adobe zu at.js {#skill-builder}[!DNL Target]
 
 Mit der Einstellung von &quot;mbox.js&quot;am 31. März 2021 hat Adobe Target Product Manager David Son kürzlich einen Entwickler-Chat veranstaltet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern.
 
