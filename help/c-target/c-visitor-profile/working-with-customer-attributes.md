@@ -2,15 +2,15 @@
 keywords: Kundenbeziehungsverwaltung;Kundendatensatz-Service;crs;crm;mbox3rdpartyid;Kundenattribute;Targeting;csv;crm;adobe Experience Cloud People
 description: Erfahren Sie, wie Sie Unternehmenskundendaten aus einer CRM-Datenbank (Customer Relationship Management) für Content-Targeting in Adobe Target verwenden.
 title: Was sind Kundenattribute und wie verwende ich sie?
-feature: Audiences
+feature: Zielgruppen
+exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 38%
+source-wordcount: '1501'
+ht-degree: 37%
 
 ---
-
 
 # Kundenattribute
 
@@ -52,7 +52,7 @@ Berücksichtigen Sie die folgenden Informationen bei Ihrer Arbeit mit Kundenattr
 
    ![Registerkarte &quot;Kundenattribute&quot;](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
-## Arbeitsablauf für Kundenattribute für die Zielgruppe {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
+## Arbeitsablauf für Kundenattribute für [!DNL Target] {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 Führen Sie die folgenden Schritte aus, um CRM-Daten in [!DNL Target] zu verwenden, wie unten dargestellt:
 
@@ -111,7 +111,7 @@ Detaillierte Anweisungen zum Ausführen der folgenden Aufgaben finden Sie unter 
    * Die maximale Dateigröße pro Upload mithilfe der FTP-Methode beträgt 4 GB.
    * Die Anzahl der zum Abonnieren zulässigen Attribute: 5 für [!DNL Target Standard] und 200 für [!DNL Target Premium].
 
-## Verwenden von Kundenattributen in Target {#section_107E3A0F0EC7478E82E6DBD17B30B756}
+## Verwenden Sie Kundenattribute in [!DNL Target] {#section_107E3A0F0EC7478E82E6DBD17B30B756}
 
 Sie können Kundenattribute in [!DNL Target] wie folgt verwenden:
 
