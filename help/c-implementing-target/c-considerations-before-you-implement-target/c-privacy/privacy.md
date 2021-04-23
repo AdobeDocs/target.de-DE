@@ -1,17 +1,17 @@
 ---
 keywords: Privatsphäre;IP-Adresse;Geosegmentation;Opt-out;Optout;Ausschluss;Datenschutz;Regierungsvorschriften;gdpr;ccpa
-description: Erfahren Sie, wie Adobe Target die geltenden Datenschutzvorschriften einhält, einschließlich der Erfassung und Bearbeitung von IP-Adressen und Abmeldeanweisungen.
-title: Wie behandelt Zielgruppe Datenschutzprobleme?
-feature: Privacy & Security
+description: Erfahren Sie, wie Adobe [!DNL Target] die geltenden Datenschutzgesetze einhält, einschließlich der Erfassung und Bearbeitung von IP-Adressen und Abmeldeanweisungen.
+title: 'Wie geht man mit Datenschutzproblemen um? [!DNL Target] '
+feature: Datenschutz und Sicherheit
 role: Developer
+exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 73%
 
 ---
-
 
 # Datenschutz
 
