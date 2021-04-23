@@ -1,17 +1,17 @@
 ---
 keywords: Serverseite;serverseitig;sdk;sdks;on-device;Decision sioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: Erfahren Sie, wie Sie mit der gerätespezifischen Entscheidungsfindung Ihre A/B- und MVT-Aktivitäten der Zielgruppe auf Ihrem Server zwischenspeichern können, um eine speicherinterne Entscheidungsfindung bei einer Latenz von nahezu null durchzuführen.
+description: Erfahren Sie, wie Sie mit der Geräteentscheidung Ihre [!DNL Target] A/B- und MVT-Aktivitäten auf Ihrem Server zwischenspeichern können, um eine Speicherentscheidung bei einer Latenz von nahe Null durchzuführen.
 title: Was ist die Entscheidung für das Gerät?
-feature: Implement Server-side
+feature: Serverseitige Implementierung
 role: Developer
+exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # Geräteinterne Entscheidungsfindung
 
