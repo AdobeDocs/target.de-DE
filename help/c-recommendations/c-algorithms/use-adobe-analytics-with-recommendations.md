@@ -1,16 +1,16 @@
 ---
 keywords: Verhaltensdatenquelle;Analysen;Empfehlungen;Kriterien;Produktvariablen
-description: Erfahren Sie, wie Sie Adobe Analytics als verhaltensbasierte Datenquelle verwenden, um die Ansicht- und/oder kaufbasierten Verhaltensdaten von Analytics in Zielgruppe Recommendations zu verwenden.
-title: Wie verwende ich Adobe Analytics mit Zielgruppe Recommendations?
+description: Erfahren Sie, wie Sie mit Adobe Analytics als verhaltensbasierte Datenquelle die Ansicht- und/oder kaufbasierten Verhaltensdaten aus Analytics in [!DNL Target] Recommendations verwenden können.
+title: Wie verwende ich Adobe Analytics mit [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 translation-type: tm+mt
-source-git-commit: 87877502d25fe8da830f70126820d1ca825ebc9d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 1%
 
 ---
-
 
 # Adobe Analytics mit Recommendations verwenden
 
@@ -43,7 +43,7 @@ Die folgenden Abschnitte unterstützen Sie bei der Implementierung dieser Funkti
 
 Sie müssen Produktvariablen in [!DNL Analytics] mit den erforderlichen Attributen implementieren, die für [!DNL Target Recommendations] erforderlich sind.
 
-Ein Muster-Feed-Format von [!DNL Target Recommendations] dient als Leitfaden, bei dem alle Attribute in den Produktvariablen definiert werden müssen. Später müssen diese Werte in der [!DNL Target]-Benutzeroberfläche für die entsprechenden [!DNL Target]-Entitätswerte &quot;zugeordnet&quot;werden.
+Ein Muster-Feed-Format von [!DNL Target Recommendations] dient als Leitfaden, auf dem alle Attribute in den Produktvariablen definiert werden müssen. Später müssen diese Werte in der [!DNL Target]-Benutzeroberfläche für die entsprechenden [!DNL Target]-Entitätswerte &quot;zugeordnet&quot;werden.
 
 >[!NOTE]
 >
@@ -88,4 +88,3 @@ Ja, diese beiden Werte sind weiterhin erforderlich. Die übrigen Attribute könn
 ### Kann ich dynamische Inklusionsregeln verwenden, z. B. Entitätsparameter stimmen mit Profil-Attributen mit dem Feed-Ansatz [!DNL Analytics] überein?
 
 Ja, das kannst du. Die Methode ist bei Verwendung von [!DNL Target] eigenständig ähnlich. In diesem Fall müssen Sie sich jedoch um den Zeitfaktor kümmern. Die Entitätsvariablen, die mit den Profil-Variablen übereinstimmen sollen, sind von der Datenschicht abhängig, die später auf der Seite angezeigt wird.
-
