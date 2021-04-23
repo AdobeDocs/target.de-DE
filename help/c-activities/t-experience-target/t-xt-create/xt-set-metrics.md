@@ -1,16 +1,16 @@
 ---
 keywords: Erlebnis-Targeting;XT;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
-description: Erfahren Sie, wie Sie Metriken in einer Adobe Target Experience Targeting-Aktivität angeben, um festzustellen, wann ein Besuch erfolgreich war, z. B. Konversion, Umsatz und Interaktion.
+description: Erfahren Sie, wie Sie Metriken in einer Adobe [!DNL Target] Erlebnis-Targeting-Aktivität angeben, um festzustellen, wann ein Besuch erfolgreich war, z. B. Konversion, Umsatz und Interaktion.
 title: Wie setze ich Zielmetriken in einer Erlebnis-Targeting-Aktivität?
-feature: Experience Targeting
+feature: Erlebnis-Targeting
+exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 83%
 
 ---
-
 
 # Metriken in Erlebnis-Targeting (XT)-Aktivitäten festlegen
 
