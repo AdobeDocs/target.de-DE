@@ -1,18 +1,18 @@
 ---
 keywords: Zeitraum; Startdatum; Enddatum; Start-/Enddatum; Zeitrahmen; Zielzeitplan; Wochenaufteilung; Tagesaufteilung; Aufteilung
 description: Erfahren Sie, wie Sie Beginns-/Enddaten und -zeiten für Zielgruppen verwenden, die Ihre Site während eines bestimmten Zeitraums besuchen. Sie können auch Optionen für die Wochen- und Tagesaufteilung festlegen.
-title: Kann ich Besucher, die meine Site zu bestimmten Zeiten besuchen, zur Zielgruppe bringen?
-feature: Audiences
+title: Kann ich [!DNL Target] Besucher, die meine Site zu bestimmten Zeiten besuchen, kontaktieren?
+feature: Zielgruppen
+exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
-
-# Zeitrahmen{#time-frame}
+# Zeitrahmen
 
 Sie können Start-/Enddaten und -zeiten jederzeit hinzufügen, um Benutzer als Ziel festzulegen, die Ihre Seite während eines bestimmten Zeitraums besuchen. Sie können außerdem Optionen für die Wochen- und Tagesaufteilung festlegen, um wiederkehrende Muster für das Zielgruppen-Targeting zu erstellen.
 
