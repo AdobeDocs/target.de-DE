@@ -1,16 +1,16 @@
 ---
 keywords: Insider-Newsletter;Newsletter;Produktaktualisierungen;Tipps und Tricks;Ereignisse;Kundenerfolg;Blog;Blogs;Whitepaper;Whitepaper
 description: Lesen Sie die neuesten Nachrichten über Adobe Target. Erfahren Sie mehr über bevorstehende Ereignis, über Kundenerfolge, Informationen und Tipps von Experten und vieles mehr.
-title: Was ist der Adobe Target Insider Newsletter?
-feature: Release Notes, Overview
+title: Was ist die Adobe [!DNL Target] Insider-Newsletter?
+feature: Versionshinweise, Übersicht
+exl-id: 39623bf0-093f-418a-b8c8-c621e0a56b00
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2150'
+source-wordcount: '2152'
 ht-degree: 41%
 
 ---
-
 
 # Zielgruppe Insider-Newsletter
 
@@ -28,7 +28,7 @@ Wenn Sie frühere Newsletter verpasst haben, finden Sie sie unter den folgenden 
 | Fehler | Details |
 |--- |--- |
 | [Dezember 2019 (Band 2, Ausgabe 12)](https://expleague.azureedge.net/assets/target/2019_12_Target_Newsletter_Dec_2019.html) | Während wir im Adobe Target-Team das Jahr zum Ende bringen, ist es erfreulich, über alles, was 2019 passiert ist, nachzudenken. In dieser speziellen Jahresendausgabe machen wir genau das, indem wir einige unserer großartigen Kunden und Praktiker erkennen und monatlich Highlights für das Jahr geben. |
-| [November 2019 (Band 2, Ausgabe 11](https://expleague.azureedge.net/assets/target/2019_11_Target_Newsletter_Nov_2019.html) | Wir haben spannende Neuigkeiten für Sie! Zunächst benannte Forrester Adobe in The Forrester Wave: Digital Intelligence-Plattformen, 4. Quartal 2019. Wir haben soeben unser neues Open Source Node.js SDK und unseren leistungsstarken neuen User-Based Recommendations Algorithmus veröffentlicht. Wir haben auch fantastische Tipps zur Personalisierung und Optimierung, die von einem Adobe Target-Praktiker geteilt werden. Dann interviewte der Einflussnehmer der sozialen Medien Goldie Chan Adobe Targets Jason Hickey und mich in zwei kürzlich durchgeführten LinkedIn Live-Sitzungen. Jamie Brighton von der Adobe hat sich Gedanken über Tools zur Datenverwaltung und zur Nutzung des Datenschutzes als Wettbewerbsfaktor gemacht. Und schließlich können Entwickler mobiler Apps an der finalen App Skill Builder teilnehmen. |
+| [November 2019 (Band 2, Ausgabe 11](https://expleague.azureedge.net/assets/target/2019_11_Target_Newsletter_Nov_2019.html) | Wir haben spannende Neuigkeiten für Sie! Zunächst benannte Forrester Adobe in The Forrester Wave: Digital Intelligence-Plattformen, 4. Quartal 2019. Wir haben soeben unser neues Open Source Node.js SDK und unseren leistungsstarken neuen User-Based Recommendations Algorithmus veröffentlicht. Wir haben auch fantastische Tipps zur Personalisierung und Optimierung, die von einem Adobe Target-Praktiker geteilt werden. Dann interviewte der Einflussnehmer der sozialen Medien Goldie Chan Adobe Targets Jason Hickey und mich in zwei letzten LinkedIn Live-Sitzungen. Jamie Brighton von der Adobe hat sich Gedanken über Tools zur Datenverwaltung und zur Nutzung des Datenschutzes als Wettbewerbsfaktor gemacht. Und schließlich können Entwickler mobiler Apps an der finalen App Skill Builder teilnehmen. |
 | [Oktober 2019 (Band 2, Ausgabe 10)](https://expleague.azureedge.net/assets/target/2019_10_Target_Newsletter_Oct_2019.html) | In der diesmonatigen Ausgabe haben wir viele tolle Inhalte, die Sie durchgehen können. Hier finden Sie Tipps zur Personalisierung und Optimierung von Wendy Meldisplayed vom Online-News-Herausgeber McClatchy. Registrieren Sie sich für ein kostenloses virtuelles Labor für Entwickler mobiler Apps und besuchen Sie es. Entdecken Sie die großen Vorteile der Integration von Adobe Target mit Adobe Campaign. Laden Sie sich das Gewinnspielbuch für Erlebnispersonalisierung herunter, eine Anleitung zum Erstellen eines leistungsstarken Programms. Nicht zuletzt wenden Sie sich an Adobe Target auf Experience League, um sich über Ressourcen zu informieren, die Ihnen helfen, sich mit Ihrer branchenführenden Personalisierungslösung schnell vertraut zu machen. |
 | September 2019 | Diesen Monat wurde kein Newsletter veröffentlicht. |
 | [August 2019 (Band 2, Ausgabe 8)](https://expleague.azureedge.net/assets/target/2019_08_Target_Newsletter_Aug_2019.html) | Wenn Schulen wieder in die Sitzung gehen, scheint es in dieser Frage richtig, die Lernmöglichkeiten herauszustellen, die wir im Rahmen unseres Engagements für Ihren Erfolg im Adobe Target-Team bieten. Melden Sie sich bei den Adobe Target Mobile Skill Builder-Laboren an und erfahren Sie, wie Sie Ihre mobile App personalisieren. Treffen Sie uns persönlich in einer unserer vier nordamerikanischen Städte auf der Adobe Insider Tour. Besuchen Sie unsere neu gestaltete Experience League Auswahl an Online-Kursen mit Selbstdurchschnitt. Lesen Sie dann die zwingenden Gründe für die Verwendung der Integration von Analytics für Zielgruppen (A4T). Finden Sie heraus, wie wir Ihrer Marke helfen, die neuesten Cookie-Richtlinien von Google und Apple einzuhalten. |
