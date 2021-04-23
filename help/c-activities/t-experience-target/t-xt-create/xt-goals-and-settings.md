@@ -1,16 +1,16 @@
 ---
 keywords: Aktivitätseinstellungen;Ziele und Einstellungen für Erlebnis-Targeting;XT-Ziele und -Einstellungen;Erlebnis-Targeting;Einstellungen der Berichterstellung;Zielmetriken;Erfolgsmetriken;abhängige Erfolgsmetriken;erweiterte Einstellungen;primäres Ziel;zusätzliche Metriken;Ziel;Priorität;Dauer;Berichtslösung;Ziele;Zielgruppen für die Berichterstellung;Welche Erfolgsmetriken müssen erreicht werden, bevor diese Metrik inkrementiert wird;Was passiert, nachdem ein Benutzer auf diese Zielmetrik stößt;Hinweise
-description: Erfahren Sie, wie Sie auf der Seite "Ziele und Einstellungen"in Adobe Target Informationen über die Ziele einer Erlebnis-Targeting-Aktivität (XT) angeben können.
+description: Erfahren Sie, wie Sie auf der Seite "Ziele und Einstellungen"in Adobe [!DNL Target] Informationen über die Ziele einer Erlebnis-Targeting-Aktivität (XT) angeben können.
 title: Wie gebe ich Ziele und Einstellungen in einer Erlebnis-Targeting-Aktivität an?
-feature: Experience Targeting
+feature: Erlebnis-Targeting
+exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 93%
+source-wordcount: '1309'
+ht-degree: 94%
 
 ---
-
 
 # Ziele und Einstellungen in Aktivitäten des Erlebnis-Targeting (XT)
 
