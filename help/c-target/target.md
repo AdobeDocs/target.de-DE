@@ -1,18 +1,18 @@
 ---
 keywords: Targeting; Zielgruppen; Prozentziel
-description: Erfahren Sie, wie Sie Audiencen in Adobe Target verwenden, um verschiedene Inhalte und Erlebnisse für bestimmte Audiencen zur Optimierung Ihrer Webmarketingbemühungen Zielgruppe.
-title: Wie kann ich Audiencen verwenden, um verschiedene Inhalte für bestimmte Segmente Zielgruppe?
-feature: Audiences
+description: Erfahren Sie, wie Sie Audiencen in Adobe [!DNL Target] verwenden, um verschiedene Inhalte und Erlebnisse für bestimmte Audiencen zur Optimierung Ihrer Webmarketingbemühungen Zielgruppe.
+title: Wie kann ich Audiencen zu [!DNL Target] anderen Inhalten zu bestimmten Segmenten verwenden?
+feature: Zielgruppen
+exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 89%
+source-wordcount: '357'
+ht-degree: 90%
 
 ---
 
-
-# Zielgruppen{#audiences}
+# Zielgruppen
 
 Richten Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen aus, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen.
 
