@@ -1,18 +1,18 @@
 ---
 keywords: Empfehlung; Backup; Sicherung
-description: Erfahren Sie, wie Sie Reserveempfehlungen in Adobe Target Recommendations verwenden. Empfehlungen, die nicht genügend empfohlene Artikel enthalten, zeigen die Ergebnisse des Sicherungsalgorithmus an.
+description: Erfahren Sie, wie Sie Reserveempfehlungen in Adobe [!DNL Target] Recommendations verwenden. Empfehlungen, die nicht genügend empfohlene Artikel enthalten, zeigen die Ergebnisse des Sicherungsalgorithmus an.
 title: Wie verwende ich eine Reserveempfehlung in Recommendations?
 feature: Recommendations
+exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Verwenden einer Reserveempfehlung{#use-a-backup-recommendation}
+# ![PREMIUM](/help/assets/premium.png) Verwenden einer Reserveempfehlung
 
 Wenn Sie die Funktion &quot;Reserveempfehlung&quot;in Adobe Target verwenden, zeigt eine Empfehlung, die nicht genügend empfohlene Artikel enthält, keinen Standardinhalt an. Stattdessen zeigen Empfehlungen die Ergebnisse des Reservealgorithmus an.
 
