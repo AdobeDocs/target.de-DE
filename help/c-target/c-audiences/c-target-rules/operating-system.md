@@ -1,18 +1,18 @@
 ---
 keywords: Targeting; Targetbetriebssystem; Betriebssystem; Target OS; OS; Target Linux; Linux; Target Windows; Windows; Target Macintosh; Macintosh; Mac; Target Mac; Win; Target Win
 description: Erfahren Sie, wie Besucher, die ein bestimmtes Betriebssystem verwenden (Linux, Macintosh oder Windows), Zielgruppe werden.
-title: Kann ich Besucher auf Basis des Betriebssystems Zielgruppen durchführen?
-feature: Audiences
+title: 'Kann ich auf Basis des Betriebssystems Besucher installieren? [!DNL Target] '
+feature: Zielgruppen
+exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 82%
 
 ---
 
-
-# Betriebssystem{#operating-system}
+# Betriebssystem
 
 Sie können Benutzer, die ein bestimmtes Betriebssystem verwenden, als Ziel auswählen.
 
