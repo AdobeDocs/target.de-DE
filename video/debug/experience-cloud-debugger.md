@@ -1,18 +1,18 @@
 ---
-keywords: experience cloud debugger;mbox trace
-description: Debuggen Sie Adobe Target mit dem Adobe Experience Cloud Debugger.
-title: Target mit dem Experience Cloud-Debugger debuggen
-feature: Troubleshooting
+keywords: Experience Cloud-Debugger;mbox-Ablaufverfolgung
+description: Debuggen Sie die Adobe [!DNL Target] mit dem Adobe Experience Cloud Debugger.
+title: Debuggen [!DNL Target] mit dem Experience Cloud Debugger
+feature: 'Fehlerbehebung '
 translation-type: tm+mt
-source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 34%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
 
 
-# Target mit dem Experience Cloud-Debugger debuggen
+# [!DNL Target] mit dem Experience Cloud Debugger debuggen
 
 Debuggen Sie [!DNL Adobe Target] mit [!DNL Adobe Experience Cloud Debugger].
 
@@ -20,7 +20,7 @@ Debuggen Sie [!DNL Adobe Target] mit [!DNL Adobe Experience Cloud Debugger].
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
-## Grundlegendes Target-Debugging
+## Einfaches [!DNL Target] Debugging
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
