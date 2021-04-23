@@ -1,16 +1,16 @@
 ---
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
-description: Kick Beginn your optimization and personalization Programm with Adobe Target. Das Adobe Target Begrüßungs-Kit ist ein guter Ausgangspunkt.
+description: Kick Beginn your optimization and personalization Programm with Adobe Target. Die Adobe [!DNL Target] Begrüßungs-Kit ist ein guter Ausgangspunkt.
 title: Wie beginne ich mit der Zielgruppe?
-feature: Overview
+feature: Überblick
+exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
 
 ---
-
 
 # Kapitel 1: Einführung
 
@@ -29,4 +29,3 @@ Wenn Sie sich dieses Begrüßungs-Kit ansehen, haben Sie bereits beschlossen, Ih
 Jetzt wollen wir sicherstellen, dass Ihr Beginn ihn auf die richtige Art und Weise nutzt.
 
 Um dies zu unterstützen, haben wir dieses Begrüßungs-Kit mit wichtigen Informationen, Tools und Ressourcen erstellt, die Ihnen bei der Vorbereitung und beim Start Ihrer ersten [!DNL Target]-Aktivität helfen. Langfristig bilden diese Inhalte auch die Grundlage für ein erfolgreiches Optimierungs- und Personalisierungs-Programm.
-
