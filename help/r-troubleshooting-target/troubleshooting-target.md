@@ -2,15 +2,15 @@
 keywords: Fehlerbehebung für Target; Fehlerbehebung in Target
 description: Lesen Sie eine Liste von Themen, die Ihnen bei der Lösung von Problemen in Adobe Target helfen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen (FAQs) und andere hilfreiche Themen.
 title: Wie behebe ich eine Fehlerbehebung bei Zielgruppen?
-feature: Troubleshooting
+feature: 'Fehlerbehebung '
+exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
-
 
 # Fehlerbehebung in Target
 
@@ -56,7 +56,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 * [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Häufig gestellte Fragen: Entwürfe](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Integration von Analytics und Target (A4T)
+## Integration von Analytics und [!DNL Target] (A4T)
 
 * [Fehlerbehebung für die Integration von Analytics und Target](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * Video zu „Office Hours“, einer Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird. Siehe [Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
