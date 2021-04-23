@@ -1,19 +1,19 @@
 ---
 keywords: at.js-Versionen;at.js-Releases;Einzelseiten-App;spa;domänenübergreifend;Domänen übergreifend
-description: Erfahren Sie, wie Sie von Adobe Target at.js 1.x auf at.js 2.x aktualisieren. Untersuchen Sie Systemflussdiagramme, lernen Sie neue und veraltete Funktionen kennen und vieles mehr.
+description: Erfahren Sie, wie Sie von Adobe [!DNL Target] at.js 1.x auf at.js 2.x aktualisieren. Untersuchen Sie Systemflussdiagramme, lernen Sie neue und veraltete Funktionen kennen und vieles mehr.
 title: Wie kann ich von "at.js"-Version 1.x auf Version 2.x aktualisieren?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 91%
 
 ---
 
-
-# Aktualisieren von at.js 1.*x* auf at.js 2.*x* {#upgrading-from-atjs-1x-to-atjs-200}
+# Aktualisieren von at.js 1.*x* auf at.js 2.*x*
 
 Die neueste Version von at.js [!DNL Adobe Target] bietet umfassende Funktionen, mit denen Ihr Unternehmen mithilfe von Client-seitigen Technologien der neuesten Generation Personalisierungen ausführen kann. Diese neue Version konzentriert sich auf die Aktualisierung von at.js, um harmonische Interaktionen mit Einzelseitenanwendungen (SPAs) zu ermöglichen.
 
@@ -46,7 +46,7 @@ Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten un
 
 | Aufruf | Details |
 | --- | --- |
-| 1 | `triggerView()` wird in der Einzelseiten-App aufgerufen, um eine Ansicht wiederzugeben und Aktionen anzuwenden, die visuelle Elemente ändern. |
+| 3 | `triggerView()` wird in der Einzelseiten-App aufgerufen, um eine Ansicht wiederzugeben und Aktionen anzuwenden, die visuelle Elemente ändern. |
 | 2 | Gezielte Inhalte für die Ansicht werden aus dem Cache gelesen. |
 | 1 | Die zielgerichteten Inhalte werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern. |
 | 4 | Die Benachrichtigungsanfrage wird an den [!DNL Target]-Profilspeicher gesendet, damit der Besucher in der Aktivität erfasst und die Metrik erhöht wird. |
@@ -322,7 +322,7 @@ Nein, Sie müssen vor dem Aufrufen von `triggerView()` keinen Pre-hiding-Code hi
 
 ### Welches at.js 1.*Die* xparameters zum Erstellen von Audiencen werden in at.js 2 nicht unterstützt.*x*? {#audience-parameters}
 
-Die folgenden at.js 1.x-Parameter werden derzeit bei Verwendung von at.js 2 für die Erstellung von Audiencen unterstützt: *NOT*.*x*:
+Die folgenden at.js 1.x-Parameter werden derzeit für die Erstellung von Audiencen unter Verwendung von at.js 2 unterstützt: *NOT*.*x*:
 
 * browserHeight
 * browserWidth
