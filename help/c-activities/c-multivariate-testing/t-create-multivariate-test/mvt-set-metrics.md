@@ -1,16 +1,16 @@
 ---
 keywords: Multivarianz;MVT;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
-description: Erfahren Sie, wie Sie Metriken in einer Adobe Target-Multivarianz-Test-Aktivität angeben, um festzustellen, wann ein Besuch erfolgreich war, z. B. Konversion, Umsatz und Interaktion.
+description: Erfahren Sie, wie Sie Metriken in einer Adobe [!DNL Target] Multivarianz-Test-Aktivität angeben, um festzustellen, wann ein Besuch erfolgreich war, z. B. Konversion, Umsatz und Interaktion.
 title: Wie setze ich Zielmetriken in einer Multivarianz-Test-Aktivität (MVT)?
-feature: Multivariate Tests
+feature: Multivarianz-Tests
+exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 83%
 
 ---
-
 
 # Metriken für Multivarianz-Tests festlegen
 
