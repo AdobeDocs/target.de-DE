@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.trackevent; Trackevent; trackevent; Ereignis tracken; at.js; Funktionen; funktion; Preventdefault; preventdefault; Standard verhindern
-description: Verwenden Sie die Funktion adobe.Zielgruppe.trackEvent() für die Adobe Target at.js JavaScript-Bibliothek, um eine Anforderung zum Berichten von Benutzeraktionen wie Klicks und Konversionen auf Ihrer Site auszulösen.
+description: Verwenden Sie die JavaScript-Bibliothek "adobe.Zielgruppe.trackEvent()"für die Adobe [!DNL Target] at.js, um eine Anforderung zum Berichten von Benutzeraktionen auszulösen, z. B. Klicks und Konversionen auf Ihrer Site.
 title: Wie verwende ich die Funktion adobe.Zielgruppe.trackEvent()?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 36005236-ce18-4845-b4fb-e52056018bc7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 70%
 
 ---
-
 
 # adobe.target.trackEvent(options)
 
