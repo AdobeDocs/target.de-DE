@@ -1,19 +1,19 @@
 ---
 keywords: at.js-Integration;unterstützte Integrationen;nicht unterstützte Integrationen;Drittanbieter-Integrationen
-description: Weitere Informationen finden Sie in den Integrationen, die von Adobe Target at.js unterstützt (und nicht unterstützt) werden, einschließlich Analytics for Zielgruppe (A4T), Experience Cloud-ID-Dienst und mehr.
+description: Weitere Informationen finden Sie in den Integrationen, die von Adobe [!DNL Target] at.js, including Analytics for [!DNL Target] (A4T), dem Experience Cloud-ID-Dienst und mehr unterstützt werden.
 title: Welche Integrationen unterstützt at.js?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 86%
+source-wordcount: '570'
+ht-degree: 87%
 
 ---
 
-
-# „at.js“-Integrationen{#at-js-integrations}
+# „at.js“-Integrationen
 
 In diesem Artikel werden gängige Integrationen mit [!DNL Target] und der jeweilige Status der Unterstützung mit at.js beschrieben.
 
