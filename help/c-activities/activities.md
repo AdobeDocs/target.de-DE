@@ -1,14 +1,14 @@
 ---
 keywords: Liste der Aktivitäten;Aktivitäten;Aktivität;Aktivitäten;Aktivitäten bearbeiten;Aktivitäten-Aktionen;Aktivitäten-Attribut;Aktivitäten-Liste-Filter;Einschränkungen der Aktivität;Personalisierung;Personalisierung
-description: Erfahren Sie, wie Sie mit Aktivitäten in Adobe Target Inhalte auf bestimmte Audiencen anpassen und Seitenentwürfe testen können.
+description: Erfahren Sie, wie Sie mit Aktivitäten in der Adobe  [!DNL Target] Inhalte auf bestimmte Audiencen anpassen und Seitenentwürfe testen können.
 title: Wie kann ich Inhalte personalisieren und Seitenentwürfe mit Zielgruppe testen?
-feature: Activities
+feature: Aktivitäten
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 92%
+source-wordcount: '2097'
+ht-degree: 91%
 
 ---
 
@@ -144,7 +144,7 @@ Die Erhöhung der Anzahl dieser Elemente in Ihrer Aktivität verlängert auch di
 
 Weitere Beschränkungen des Visual Experience Composer finden Sie unter [Beschränkungen des Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
-## In Target importierte Attribute für außerhalb von Target aktualisierte Aktivitäten {#section_802B0D174E6A44E1A96F404CA81AAE44}
+## Nach [!DNL Target] importierte Attribute für Aktivitäten, die außerhalb von [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44} aktualisiert werden
 
 Wenn in [!DNL Target] erstellte Aktivitäten außerhalb von [!DNL Target] aktualisiert werden (z. B. via Adobe I/O), werden die folgenden Aktivitätsattribute nach [!DNL Target] zurückimportiert:
 
