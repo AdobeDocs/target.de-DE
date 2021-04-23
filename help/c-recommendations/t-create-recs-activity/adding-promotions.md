@@ -1,16 +1,16 @@
 ---
 keywords: Promotions;Vorwärts-Promotions;Rückwärts-Promotions;Promotions-Typ;Liste von Artikeln;Anzeigen nach Attribut;Anzeigen einer Sammlung
-description: Erfahren Sie, wie Sie beworbene Artikel hinzufügen und deren Platzierung in Ihren Adobe Target Recommendations Designs steuern können. Sie können statische und dynamische Promotions hinzufügen.
+description: Erfahren Sie, wie Sie beworbene Artikel hinzufügen und deren Platzierung in Ihren Adoben [!DNL Target] Recommendations-Designs steuern. Sie können statische und dynamische Promotions hinzufügen.
 title: Wie Hinzufügen ich Promotions in Recommendations Designs?
 feature: Recommendations
+exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 56%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Promotions hinzufügen
 
