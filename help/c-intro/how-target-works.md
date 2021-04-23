@@ -5,9 +5,9 @@ title: Wie funktioniert [!DNL Target] das?
 feature: Überblick
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2564'
 ht-degree: 32%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 32%
 
 Erfahren Sie, wie [!DNL Adobe Target] funktioniert, einschließlich Informationen zu den [!DNL Adobe Experience Platform Web SDK]- und JavaScript-Bibliotheken (at.js und mbox.js). In diesem Artikel werden auch die verschiedenen Aktivitäten vorgestellt, die Sie mit [!DNL Target] erstellen können. Sie können auch mehr über das [!DNL Target] Edge-Netzwerk, Suchmaschinenoptimierung (SEO) und wie [!DNL Target] Bots erkennt.
 
-## Zielgruppe Platform Web SDKs und JavaScript Libraries {#libraries}
+## [!DNL Target] Plattform-Web-SDKs und JavaScript-Bibliotheken  {#libraries}
 
 [!DNL Target] Integration mit Websites mithilfe der Bibliotheken  [!DNL AEP Web SDK] oder JavaScript:
 
@@ -41,7 +41,7 @@ In [!DNL Target] ist jedes Element auf der Seite Teil eines einzigen Erlebnisses
 
 Der Inhalt, der Besuchern angezeigt wird, hängt vom erstellten Aktivitätstyp ab:
 
-### A/B-Test
+### [!UICONTROL A/B-Test]
 
 Der Inhalt, der in einem einfachen A/B-Test angezeigt wird, wird zufällig aus den Erlebnissen ausgewählt, die Sie der Aktivität zuweisen. Sie können die Prozentsätze für die Traffic-Zuordnung für jedes Erlebnis zuweisen. Infolge dieser zufälligen Aufteilung des Traffics kann es einen erheblichen anfänglichen Traffic dauern, bis die Prozentsätze ausgeglichen sind. Wenn Sie beispielsweise zwei Erlebnisse erstellen, wird das Anfangserlebnis per Zufall ausgewählt. Bei wenig Traffic besteht die Möglichkeit, dass der Prozentsatz von Besuchern auf ein Erlebnis ausgerichtet wird. Mit zunehmendem Traffic gleichen sich die Prozentsätze aus.
 
@@ -54,19 +54,19 @@ Sie können für jedes Erlebnis prozentuale Ziele festlegen. In diesem Fall wird
 
 Weitere Informationen finden Sie unter [Erstellen eines A/B-Tests](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-### Automatische Zuordnung
+### [!UICONTROL Automatische Zuordnung]
 
-Die automatisierte Zuordnung identifiziert einen Gewinner unter zwei oder mehr Erlebnissen. Bei der automatischen Zuordnung wird automatisch mehr Traffic an das erfolgreichste Erlebnis weitergeleitet, wodurch Konversionen erhöht werden, während der Test weiter ausgeführt und gelernt wird.
+[!UICONTROL Bei der automatischen ] Zuordnung wird ein Gewinner aus zwei oder mehr Erlebnissen identifiziert. [!UICONTROL Bei der automatischen ] Zuordnung wird automatisch mehr Traffic zum erfolgreichsten Erlebnis zugeordnet, wodurch die Konversionen erhöht werden, während der Test weiter ausgeführt und gelernt wird.
 
-Weitere Informationen finden Sie unter [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Weitere Informationen finden Sie unter [[!UICONTROL Automatische Zuordnung]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-### Automatisches Targeting (AT)
+### [!UICONTROL Automatisches Targeting] (AT)
 
 Die automatische Zielgruppe nutzt fortschrittliches maschinelles Lernen, um aus mehreren leistungsstarken, von Marketingexperten definierten Erlebnissen auszuwählen. Die automatische Zielgruppe bietet jedem Besucher das passendste Erlebnis. Experience Versand basiert auf individuellen Profilen und dem Verhalten früherer Besucher mit ähnlichen Profilen. Verwenden Sie die automatische Zielgruppe, um Inhalte zu personalisieren und Konvertierungen zu fördern.
 
 Weitere Informationen finden Sie unter [Automatisches Targeting](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
-### Automatisierte Personalisierung (AP)
+### [!UICONTROL Automatisierte Personalisierung] (AP)
 
 Automated Personalization (AP) kombiniert Angebot oder Meldungen und verwendet fortschrittliches maschinelles Lernen, um verschiedenen Angebot-Variationen zu jedem Besucher zuzuordnen. Experience Versand basiert auf individuellen Profilen von Kunden, um Inhalte zu personalisieren und die Steigerung zu fördern.
 
@@ -80,13 +80,13 @@ Erlebnis-Targeting, einschließlich Geotargeting, ermöglicht die Definition von
 
 Weitere Informationen finden Sie unter [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4).
 
-### Multivarianz-Tests (MVT)
+### [!UICONTROL Multivarianz-Tests] (MVT)
 
 Multivariate Testing (MVT) vergleicht Kombinationen von Angeboten in Elementen auf einer Seite, um festzustellen, welche Kombination für eine bestimmte Audience die beste Leistung erzielt. MVT hilft dabei herauszufinden, welches Element den Erfolg der Aktivität am meisten beeinflusst.
 
 Weitere Informationen finden Sie unter [Multivarianz-Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499).
 
-### Recommendations
+### [!UICONTROL Recommendations]
 
 Recommendations-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten. Mit diesen Empfehlungen stellen Sie Kunden relevante Artikel vor, von denen diese andernfalls möglicherweise nichts gewusst hätten.
 
@@ -213,6 +213,6 @@ Insbesondere für den bekannten Bot-Traffic [!DNL Target] nicht:
 * Ein Besucherprofil erstellen oder abrufen
 * Profilattribute erfassen oder Profilskripte ausführen
 * Nach Adobe Audience Manager (AAM)-Segmenten suchen (falls zutreffend).
-* Verwenden Sie Bot-Traffic bei der Modellierung und Bereitstellung personalisierter Inhalte für Recommendations-, Auto-Zielgruppe-, Automated Personalization- oder Auto-Allokation-Aktivitäten
+* Verwenden Sie Bot-Traffic bei der Modellierung und Bereitstellung personalisierter Inhalte für die Aktivitäten Recommendations, Auto-Zielgruppe, Automated Personalization oder [!UICONTROL Automatisierte Zuordnung]
 * Einen Aktivitätsbesuch für Berichte erfassen
 * An die [!DNL Adobe Experience Cloud]-Plattform zu sendende Protokolldaten
