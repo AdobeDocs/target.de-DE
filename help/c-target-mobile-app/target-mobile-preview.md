@@ -1,19 +1,19 @@
 ---
 keywords: qa; Vorschau; Vorschau-Link; mobil; mobile Vorschau
 description: Verwenden Sie Links zur mobilen Vorschau, um eine durchgängige Qualitätssicherung für mobile App-Aktivitäten durchzuführen. Sie können sich ohne spezielle Testgeräte für unterschiedliche Erlebnisse registrieren.
-title: Wie verwende ich den Link zur mobilen Vorschau in Zielgruppe Mobile?
-feature: Implement Mobile
+title: Wie verwende ich den Link zur mobilen Vorschau in [!DNL Target] Mobil?
+feature: Mobile implementieren
 role: Developer
+exl-id: c66325b3-3995-401e-a1e3-839fdb1cf762
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '610'
 ht-degree: 82%
 
 ---
 
-
-# Mobile Target-Vorschau{#target-mobile-preview}
+# Mobile Target-Vorschau
 
 Verwenden Sie die Vorschau für mobile Apps, um mühelos eine ganzheitliche Qualitätssicherung für Aktivitäten von mobilen Apps durchzuführen und sich ohne spezielle Prüfmittel direkt auf Ihrem Gerät für verschiedene Erlebnisse anzumelden.
 
