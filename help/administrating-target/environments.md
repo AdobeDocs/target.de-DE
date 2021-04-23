@@ -1,17 +1,17 @@
 ---
-keywords: umgebung;Fehlerbehebung;Best Practices;ubox;Umleitungen;Umleitung;Whitelist;Blacklist;Blockierungsliste;Zulassungsliste
-description: Erfahren Sie, wie Sie Umgebung in Adobe Target verwenden, um Ihre Sites und Umgebung vor der Produktion zu organisieren, damit sie einfach verwaltet und getrennt Berichte.
+keywords: Umgebung;Fehlerbehebung;Best Practices;ubox;Umleitungen;Umleitung;Whitelist;Blacklist;Blockierungsliste;Zulassungsliste
+description: Erfahren Sie, wie Sie Umgebung in Adobe [!DNL Target] verwenden, um Ihre Sites und Umgebung vor der Produktion zu organisieren, um eine einfache Verwaltung und getrennten Berichte zu ermöglichen.
 title: Was sind Umgebung und wie verwende ich sie?
-feature: Administration & Configuration
+feature: Administration und Konfiguration
 role: Administrator
+exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '683'
 ht-degree: 63%
 
 ---
-
 
 # Umgebung
 
