@@ -1,16 +1,16 @@
 ---
 keywords: Einschlussregeln;Einschlusskriterien;Empfehlungen;Promotion;Promotions;Dynamische Filterung;Dynamische;Entitätsattributzuordnung
-description: Erfahren Sie, wie Sie in Adobe Target Recommendations dynamisch filtern können, indem Sie einen Pool potenzieller Elemente mit einem bestimmten Element vergleichen, mit dem der Benutzer interagiert hat.
+description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations dynamisch filtern können, indem Sie einen Pool potenzieller Elemente mit einem bestimmten Element vergleichen, mit dem der Benutzer interagiert hat.
 title: Wie filtere ich nach Entitätsattribut-Übereinstimmung in Recommendations-Aktivitäten?
 feature: Recommendations
+exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMEnty Attribute Matching
 
