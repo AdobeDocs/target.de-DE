@@ -1,16 +1,16 @@
 ---
 keywords: Zielgruppe;Zielgruppe auswählen;Zielgruppe wählen;Auswahl
-description: Die Audience bestimmt, welche Site-Besucher in Ihre Adobe Target-Aktivität eingegeben werden.
-title: Wie wähle ich eine Audience in einer A/B-Zielgruppe aus?
-feature: A/B Tests
+description: Die Audience bestimmt, welche Site-Besucher in Ihre Adobe [!DNL Target] Aktivität eingegeben werden.
+title: 'Wie wähle ich eine Audience in einer A/B-Aktivität aus? [!DNL Target] '
+feature: A/B-Tests
+exl-id: 281ae227-c593-4b71-ad12-865430b332be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '445'
 ht-degree: 90%
 
 ---
-
 
 # Zielgruppenauswahl
 
