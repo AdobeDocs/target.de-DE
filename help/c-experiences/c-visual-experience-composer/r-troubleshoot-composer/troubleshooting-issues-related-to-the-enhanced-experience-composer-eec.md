@@ -1,16 +1,16 @@
 ---
 keywords: Targeting;EEC;Visual Experience Composer;Fehlerbehebung für Enhanced Experience Composer;Fehlerbehebung
-description: Erfahren Sie, wie Sie unter bestimmten Bedingungen Probleme beheben können, die manchmal im Adobe Target Enhanced Experience Composer (EEC) auftreten.
+description: Erfahren Sie, wie Sie Probleme beheben können, die manchmal in der Adobe [!DNL Target] Enhanced Experience Composer (EEC) auftreten, unter bestimmten Bedingungen.
 title: Wie behebe ich Fehler im Zusammenhang mit Enhanced Experience Composer?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
+exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 61%
+source-wordcount: '452'
+ht-degree: 62%
 
 ---
-
 
 # Fehlerbehebung in Zusammenhang mit Enhanced Experience Composer
 
