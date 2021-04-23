@@ -1,16 +1,16 @@
 ---
 keywords: Ziel und Einstellungen;Ziel;Priorität;Dauer
-description: Erfahren Sie, wie Sie mit den Einstellungen für die Aktivität in Adobe Target das Ziel, die Priorität und die Dauer Ihrer Aktivitäten verwalten.
+description: Erfahren Sie, wie Sie mit den Einstellungen für die Aktivität in Adobe [!DNL Target] Zielsetzung, Priorität und Dauer Ihrer Aktivitäten verwalten.
 title: Wie gebe ich Einstellungen für die Aktivität an?
-feature: Activities
+feature: Aktivitäten
+exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 80%
 
 ---
-
 
 # Aktivitätseinstellungen
 
