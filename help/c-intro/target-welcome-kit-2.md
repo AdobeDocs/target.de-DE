@@ -2,17 +2,17 @@
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
 description: Sehen Sie sich Adobe Target auf hoher Ebene an. Erfahren Sie mehr über verfügbare Aktivitäten, Kanal, Implementierung, Integrationen und mehr.
 title: Wo finde ich eine Einführung in die Zielgruppe auf hoher Ebene?
-feature: Overview
+feature: Überblick
+exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2520'
 ht-degree: 17%
 
 ---
 
-
-# Kapitel 2: Adobe Target auf einen Blick
+# Kapitel 2: Adobe [!DNL Target] auf einen Blick
 
 Bevor Sie mit der Verwendung von [!DNL Adobe Target] beginnen, könnte es hilfreich sein, einen Überblick über die Lösung auf hoher Ebene zu erhalten. In diesem Kapitel erfahren Sie mehr über die wichtigsten Funktionen der Lösung, die Markenkontaktpunkte, auf denen Sie sie verwenden können, Implementierungsoptionen, wichtige Benutzeroberflächenfunktionen und Workflows, Governance-Funktionen und ihre Rolle im Gesamtverzeichnis [!DNL Adobe Experience Cloud]. Sofern nicht als [!DNL Adobe Target Premium]-Funktionen vermerkt, sind die in diesem Kapitel beschriebenen Elemente sowohl mit [!DNL Adobe Target Premium] als auch mit [!DNL Adobe Target Standard] verfügbar. Weitere Informationen finden Sie unter [Einführung in die Zielgruppe](/help/c-intro/intro.md).
 
@@ -20,9 +20,9 @@ Bevor Sie mit der Verwendung von [!DNL Adobe Target] beginnen, könnte es hilfre
 
 Tests und Personalisierung sind die beiden umfangreichen Funktionen, die [!DNL Target]-Angebot verwenden können und die Sie beim Erstellen einer &quot;Aktivität&quot;in [!DNL Target] verwenden können. Möglicherweise wird der Begriff &quot;Test&quot;synonym mit &quot;Optimierung&quot;und &quot;Personalisierung&quot;synonym mit &quot;Targeting&quot;verwendet.
 
-In einer Test-Aktivität vergleichen Sie eine Variante eines digitalen Erlebnisses mit einer oder mehreren anderen Varianten, um festzustellen, dass eine Variation die meisten Besucher dazu veranlasst, eine gewünschte Aktion durchzuführen. [!DNL Target] angebot der folgenden Testfunktionen: A/B-Tests, Multivarianz-Tests (MVT) und automatische Zuordnung.
+In einer Test-Aktivität vergleichen Sie eine Variante eines digitalen Erlebnisses mit einer oder mehreren anderen Varianten, um festzustellen, dass eine Variation die meisten Besucher dazu veranlasst, eine gewünschte Aktion durchzuführen. [!DNL Target] Angebot der folgenden Testfunktionen: A/B-Tests, Multivarianz-Tests (MVT) und automatische Zuordnung.
 
-Mit einer Aktivität zur Personalisierung bieten Sie ein digitales Erlebnis, das auf eine bestimmte Gruppe von Besuchern oder auf jeden einzelnen Besucher zugeschnitten ist. [!DNL Target] angebot dieser Personalisierungsfunktionen: Erlebnis-Targeting, Auto-Zielgruppe, Automated Personalization und Recommendations.
+Mit einer Aktivität zur Personalisierung bieten Sie ein digitales Erlebnis, das auf eine bestimmte Gruppe von Besuchern oder auf jeden einzelnen Besucher zugeschnitten ist. [!DNL Target] Angebot dieser Personalisierungsfunktionen: Erlebnis-Targeting, Auto-Zielgruppe, Automated Personalization und Recommendations.
 
 Weitere Informationen zum Einsatz der einzelnen Funktionen finden Sie unter [Aktivitäten der Zielgruppe](/help/c-activities/target-activities-guide.md).
 
