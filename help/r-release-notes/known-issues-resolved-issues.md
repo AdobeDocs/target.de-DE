@@ -2,15 +2,15 @@
 keywords: Bekannte Probleme;gelöste Probleme;Versionshinweise;Fehler;Probleme;Fehlerbehebungen
 description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Target, einschließlich Informationen zur Problemumgehung. Wenn Probleme gelöst werden, werden sie in den Abschnitt "Gelöst"verschoben.
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
-feature: Release Notes
+feature: ' Versionshinweise '
+exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 translation-type: tm+mt
-source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4373'
 ht-degree: 58%
 
 ---
-
 
 # Bekannte Probleme und gelöste Probleme  
 
@@ -24,7 +24,7 @@ Informationen zu bekannten Problemen für [!DNL Adobe Target]. Dazu gehören auc
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
-### Analytics for Zielgruppe (A4T)-Metriken für Aktivitäten mit automatisierter Zuordnung und automatischer Zielgruppe
+### Analytics für Adobe Target (A4T)-Metriken für Aktivitäten mit automatisierter Zuordnung und automatisierter Zielgruppe
 
 Die [!DNL Target]-Benutzeroberfläche ermöglicht es Benutzern, nicht unterstützte Interaktions- und Umsatzmetriken als Hauptzielmetrik für die Optimierung in den Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatische Zielgruppe] auszuwählen. Konversionsmetriken werden unterstützt. Interaktions- und Umsatzmetriken werden nicht unterstützt. ** Wenn Sie Interaktions- oder Umsatzzielmetriken auswählen, wird kein Optimierungsmodell erstellt.
 
@@ -120,7 +120,7 @@ Erfolgsmetriken mit der erweiterten Option &quot;Wie wird die Zahl inkrementiert
 
 Wenn eine Erfolgsmetrik so eingestellt ist, dass sie bei jeder Impression inkrementiert wird, zählt die Zielgruppe den Besucher jedes Mal, wenn der Besucher diese Erfolgsmetrik besucht. Target setzt dann die Erfolgsmetrik „Mitgliedschaft“ auf 0 zurück, sodass ab der nächsten Impression wieder neu gezählt wird. Wenn also für eine andere Metrik zunächst diese Metrik angezeigt werden muss, erkennt die Zielgruppe nie, dass der Benutzer die erste Metrik gesehen hat.
 
-### Analytics for Target (A4T)
+### Analytics für [!DNL Target] (A4T)
 
 Wenden Sie bei Verwendung von Impressionen und Konversionen der Zielgruppe in Analysis Workspace das Attribution IQ-Modell &quot;Gleich Touch&quot;auf die Metriken an, um eine genaue Zählung sicherzustellen. Um ein [Nicht-Standard-Zuordnungsmodell](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html) anzuwenden, klicken Sie mit der rechten Maustaste auf die Metrik, um **Spalteneinstellungen ändern > Nicht standardmäßiges Zuordnungsmodell verwenden zu aktivieren > Gleiches Touch-Modell** auszuwählen. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
 
@@ -134,7 +134,7 @@ Kunden können keine CRUD-Vorgänge für Aktivitäten mit Automatisierte Zuordnu
 
 Am 10. Mai 2020 hat die Adobe die GEO-Provider-Dateien aktualisiert, wodurch einige Inkonsistenzen entstanden sind. Beispielsweise wurden einige Werte mit Kommas hinzugefügt. obwohl die Werte in bestehenden Audiencen kein Komma hatten. Nicht alle Adobe Versand-Server waren von dieser Änderung betroffen. Daher haben Audiencen, die solche Werte verwenden, möglicherweise nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
 
-### Berichte - Inkonsistente Daten im herunterladbaren CSV-Bericht im Vergleich zum angezeigten Bericht in der Benutzeroberfläche der Zielgruppe. {#csv}
+### Berichte - Inkonsistente Daten im herunterladbaren .csv-Bericht im Vergleich zum angezeigten Bericht in der [!DNL Target]-Benutzeroberfläche. {#csv}
 
 Berichte, die als .csv-Dateien zum Herunterladen generiert wurden, sind inkonsistent, wenn die Aktivität mehr als eine Metrik verwendet. Der herunterladbare Bericht wird nur auf der Grundlage der Berichtseinstellungen erstellt und berücksichtigt denselben Wert für alle anderen verwendeten Metriken.
 
@@ -150,7 +150,7 @@ Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quo
 
 Dieses Problem wurde in der Version Target Standard/Premium 20.10.1 behoben.
 
-### Berichterstellung von Analytics for Target (A4T)
+### Analytics for Adobe Target (A4T) Berichte
 
 Die folgenden Probleme im Zusammenhang mit A4T wurden behoben:
 
@@ -237,7 +237,7 @@ Beim ersten Herunterladen von mbox.js nach der Bereitstellung ist das Feld [!UIC
 
 at.js lädt `global_mbox_autocreate = false` mit einem neu bereitgestellten Mandanten herunter. Wenn zuerst mbox.js heruntergeladen wird, wird globale\_mbox\_autocreate auf „true“ gesetzt und at.js wird ebenfalls mit `global_mbox_autocreate = true` heruntergeladen. (TGT-15929)
 
-### Unterstützung von Enterprise-Berechtigungen in Target-APIs {#api}
+### Unterstützung von Unternehmensberechtigungen in [!DNL Target]-APIs {#api}
 
 Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Angebote werden möglicherweise in der Standardarbeitsfläche angezeigt, wenn die Liste der Angebote mit GET-APIs abgerufen wird. Dieses Problem wird in der ersten Märzwoche 2019 behoben. Nach dieser Fehlerbehebung werden Codeangebote in der entsprechenden Arbeitsfläche angezeigt, wenn sie aus APIs gezogen werden. Dieses Problem betrifft *keine* von APIs erstellten Angebote. Beispielsweise werden Codeangebote, die aus APIs erstellt wurden, in der Arbeitsfläche angezeigt, in der sie erstellt wurden, unabhängig davon, ob sie über GET-APIs oder über die Target-Benutzeroberfläche abgerufen wurde.
 
@@ -348,7 +348,7 @@ Der Algorithmus zum Extrahieren der Domäne der obersten Ebene, die beim Speiche
 
 Dieses Problem wurde in at.js-Version 1.2 behoben.
 
-### Berechtigungen für Unternehmensbenutzer für Target Premium
+### Enterprise-Benutzerberechtigungen für [!DNL Target] Premium
 
 Im Rahmen der Migration von Unternehmensberechtigungen wurde die gesamte Target Premium-Benutzerverwaltung von der Adobe Target-Benutzeroberfläche in die Adobe Admin Console verschoben.
 
@@ -439,7 +439,7 @@ Es dauert 10 bis 20 Minuten, bis globale Ausschlussregeln an Recommendations Pre
 
 In Recommendations 17.2.2.0 (6. März 2017) behoben.
 
-### Berichterstellung von Analytics for Target (A4T)
+### Analytics for Adobe Target (A4T) Berichte
 
 Berichte werden nicht aktualisiert, wenn die Berichtsmetrik geändert wird. Dieses Problem betrifft nur die Benutzeroberfläche. Dies hat keine Auswirkung auf die Erfassung oder Bereitstellung von Berichtsdaten. (TGT-22970)
 
