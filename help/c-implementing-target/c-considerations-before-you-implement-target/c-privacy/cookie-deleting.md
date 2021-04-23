@@ -1,19 +1,19 @@
 ---
 keywords: Cookie;Cookies;Löschen von Cookies;Löschen von Zielgruppen-Cookies;Google-Chrome;Chrome;Mozilla Firefox;Firefox;Microsoft edge;Safari
-description: Erfahren Sie, wie Sie Ihre Zielgruppe-Browser-Cookies löschen, damit Sie Ihre Erlebnisse validieren können.
-title: Wie lösche ich den Zielgruppen-Cookie?
-feature: Privacy & Security
+description: Erfahren Sie, wie Sie Ihre  [!DNL Target] Browser-Cookies löschen, damit Sie Ihre Erlebnisse validieren können.
+title: Wie lösche ich das [!DNL Target] Cookie?
+feature: Datenschutz und Sicherheit
 role: Developer
+exl-id: f2bc079e-593a-4689-a7cd-dfc6f86f6bb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 0%
 
 ---
 
-
-# Löschen des Target-Cookies
+# Löschen Sie das [!DNL Target]-Cookie
 
 Sie können Ihr [!DNL Adobe Target] Browser-Cookie (mbox) löschen, damit Sie alle Erlebnisse während des Tests validieren können.
 
@@ -23,7 +23,7 @@ Wenn kein [!DNL Target]-Cookie (mbox) vorhanden ist, werden Sie als neuer Besuch
 >
 >Die folgenden Anweisungen gelten für die aufgelisteten Browser und Versionen. Suchen Sie im Internet nach Anweisungen für Ihren Browser oder Ihre Version.
 
-## Löschen Sie das Cookie &quot;Zielgruppe&quot;aus Google Chrome
+## Löschen Sie das [!DNL Target]-Cookie aus Google Chrome
 
 Version 84.0.4147.105
 
@@ -33,7 +33,7 @@ Version 84.0.4147.105
 1. Klicken Sie auf **Alle Cookies und Site-Daten** anzeigen.
 1. Erweitern Sie den Abschnitt `adobe.com`, wählen Sie das **mbox**-Cookie und klicken Sie dann auf das Löschen-Symbol (X).
 
-## Löschen Sie das Cookie &quot;Zielgruppe&quot;aus Mozilla Firefox
+## Löschen Sie das [!DNL Target]-Cookie aus Mozilla Firefox
 
 Version 79.0
 
@@ -56,7 +56,7 @@ Version 79.0
 1. Erweitern Sie den Abschnitt **Cookies** und klicken Sie dann auf `https://experience.adobe.com`.
 1. Klicken Sie mit der rechten Maustaste auf das Cookie **mbox** und klicken Sie dann auf **Löschen**.
 
-## Löschen des Zielgruppen-Cookies aus Microsoft Edge
+## [!DNL Target]-Cookie aus Microsoft Edge löschen
 
 Version 84.0.522.52
 
@@ -66,7 +66,7 @@ Version 84.0.522.52
 1. Klicken Sie auf **Alle Cookies und Site-Daten** anzeigen.
 1. Erweitern Sie den Abschnitt `adobe.com`, wählen Sie das **mbox**-Cookie und klicken Sie dann auf das Löschen-Symbol (X).
 
-## Löschen Sie das Zielgruppen-Cookie aus Apple Safari
+## Löschen Sie das [!DNL Target]-Cookie aus Apple Safari
 
 Version 13.1.2
 
