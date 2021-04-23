@@ -2,15 +2,15 @@
 keywords: Auto-Zielgruppe;Targeting;Traffic-Zuordnung;Häufig gestellte Fragen;FAQ;Fehlerbehebung;Fehlerbehebung;Traffic-Zuordnung
 description: Erfahren Sie mehr zur Fehlerbehebung und häufig gestellte Fragen zu Aktivitäten der automatischen Zielgruppe in Adobe Target.
 title: Wie kann ich Aktivitäten der automatischen Zielgruppe beheben?
-feature: Auto-Target
+feature: Automatisches Targeting
+exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 68%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMAuto-Zielgruppe Fehlerbehebung und häufig gestellte Fragen
 
@@ -33,7 +33,7 @@ Beachten Sie beim Arbeiten mit Aktivitäten [!UICONTROL Auto-Zielgruppe] die fol
 
 * Versuchen Sie, während des Aktivitätsverlaufs wesentliche Änderungen an den Erlebnissen vorzunehmen.
 
-### Empfehlen Sie, die automatische Zielgruppe mit einer 90(Control)/10(Targeting)-Aufteilung zu verwenden, bis die Modelle erstellt wurden?
+### Empfehlen Sie, Auto [!DNL Target] mit einer 90(Control)/10(Targeting)-Aufteilung zu verwenden, bis die Modelle erstellt wurden?
 
 Die optimale Aufteilung der Traffic-Zuordnung hängt davon ab, was Sie erreichen möchten.
 
@@ -149,4 +149,3 @@ Dieses Ergebnis ist zu erwarten.
 Bei einer Aktivität vom Typ [!UICONTROL Automatisches Targeting] wird der Benutzer von dem Erlebnis abgekoppelt und die Aktivität neu gestartet, sobald eine Konversionsmetrik (unabhängig davon, ob es sich um ein Optimierungsziel oder nachgelegenes Ziel handelt) konvertiert wurde.
 
 Nehmen wir zum Beispiel an, dass eine Aktivität mit einer Konversionsmetrik (C1) und einer zusätzlichen Metrik (A1) besteht. A1 ist abhängig von C1. Wenn ein Besucher die Aktivität das erste Mal antrifft und die Kriterien zum Konvertieren von A1 und C1 nicht konvertiert werden, wird die Metrik A1 aufgrund der Erfolgsmetrikabhängigkeit nicht konvertiert. Wenn der Besucher C1 konvertiert und erst danach A1, wird A1 auch dann nicht konvertiert, da der Besucher abgekoppelt wird, sobald C1 konvertiert ist.
-
