@@ -1,18 +1,18 @@
 ---
 keywords: Automatisierte Traffic-Zuordnung;Targeting;Gewinner;statistische Garantie;Konfidenz;Gewinner bestimmen;Steigerung;Konfidenz;Standard;Standarderlebnis;Automatische Zuordnung;Automatische Zuordnung
-description: Erfahren Sie, wie Sie die Ergebnisse einer A/B-Aktivität mit automatisierter Zuordnung in Adobe Target interpretieren können, indem Sie wichtige Indikatoren wie Steigerung und Konfidenz untersuchen.
+description: Erfahren Sie, wie Sie die Ergebnisse einer A/B-Aktivität mit automatisierter Zuordnung in Adobe [!DNL Target] interpretieren, indem Sie wichtige Indikatoren wie Steigerung und Konfidenz untersuchen.
 title: Wie interpretiere ich Berichte mit automatisierter Zuordnung?
-feature: Auto-Allocate
+feature: Automatische Zuordnung
+exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 47%
 
 ---
 
-
-# Berichte mit automatisierter Zuordnung interpretieren {#determine-a-winner}
+# Berichte zur automatischen Zuordnung interpretieren
 
 Interpretieren Sie die Ergebnisse einer [!UICONTROL Auto-Zuordnung] A/B-Aktivität in [!UICONTROL Adobe Target], indem Sie wichtige Indikatoren wie Steigerung und Konfidenz untersuchen.
 
@@ -76,4 +76,3 @@ Die folgenden Gründe erläutern, warum für sämtliche Aktivitäten in der Spal
 
 * Die Konfidenz wird in der automatischen Zuordnung nur angezeigt, nachdem das erfolgreichste Erlebnis einen Wert von mehr als 60 % erzielen konnte. Diese Konfidenzniveaus treten in der Regel in etwa der Hälfte der Zeit auf, die ein normaler A/B-Test dauern würde (auch wenn dies nicht garantiert ist). Verwenden Sie einen [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html), um zu bestimmen, wie lange ein normaler A/B-Test laufen würde: Plug-In-Steuerelements Konversionsrate in &quot;Ausgangswert Konversionsrat&quot;, &quot;5 %&quot;für &quot;Steigerung&quot;und &quot;95 % für &quot;Konfidenz&quot;. Typischerweise wird die Konfidenz angezeigt, nachdem jedes Erlebnis mindestens 50 % der erforderlichen Stichproben pro Erlebnis sammeln konnte. Somit erhalten Sie einen Überblick darüber, wann die Konfidenz höchstwahrscheinlich angezeigt wird.
 * Wird im Bericht überall der Wert 0 % angezeigt, ist die Aktivität höchstwahrscheinlich noch nicht lange genug online.
-
