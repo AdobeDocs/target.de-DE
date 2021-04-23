@@ -1,18 +1,18 @@
 ---
 keywords: Remote-Angebot;Remote-Angebot erstellen
-description: Erfahren Sie, wie Sie JSON-Angebot in Adobe Target zur Verwendung im Form-Based Experience Composer erstellen. JSON-Angebot sind für SPA Frameworks oder serverseitige Integrationen nützlich.
+description: Erfahren Sie, wie Sie JSON-Angebot in Adobe [!DNL Target] für die Verwendung im Form-Based Experience Composer erstellen. JSON-Angebot sind für SPA Frameworks oder serverseitige Integrationen nützlich.
 title: Wie erstelle ich JSON-Angebote?
-feature: Experiences and Offers
+feature: Erlebnisse und Angebot
+exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 54%
 
 ---
 
-
-# Erstellen von JSON-Angeboten{#create-json-offers}
+# Erstellen von JSON-Angeboten
 
 Erstellen Sie JSON-Angebot in der [!UICONTROL Angebot-Bibliothek] in [!DNL Adobe Target] zur Verwendung im [!UICONTROL Form-Based Experience Composer].
 
@@ -138,4 +138,3 @@ adobe.target.getOffer({
 Sie können die Bibliothek [!UICONTROL Angebot] nach dem JSON-Angebot-Typ filtern, indem Sie auf die Dropdown-Liste **[!UICONTROL Typ]** klicken und anschließend das Kontrollkästchen **[!UICONTROL JSON]** aktivieren.
 
 ![](assets/offer-json-filter.png)
-
