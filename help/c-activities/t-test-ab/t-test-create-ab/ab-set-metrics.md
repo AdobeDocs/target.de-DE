@@ -1,16 +1,16 @@
 ---
 keywords: A/B;Aktivitätsmetriken;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
-description: Erfahren Sie, wie Sie Metriken in einer Adobe Target A/B-Aktivität angeben, um festzustellen, wann ein Besuch erfolgreich war, z. B. Konversion, Umsatz und Interaktion.
+description: Erfahren Sie, wie Sie Metriken in einer Adobe [!DNL Target] A/B-Aktivität angeben, um festzustellen, wann ein Besuch erfolgreich war, z. B. Konversion, Umsatz und Interaktion.
 title: Wie setze ich Zielmetriken in einer A/B-Aktivität?
-feature: A/B Tests
+feature: A/B-Tests
+exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 85%
 
 ---
-
 
 # Festlegen von Metriken
 
