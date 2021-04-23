@@ -2,17 +2,17 @@
 keywords: Übersicht und Referenz
 description: Erfahren Sie mehr darüber, wann ein Besucher-Profil in Adobe Target abläuft (standardmäßig 14 Tage). Die Lebensdauer des Profils kann verlängert werden, indem Sie sich an den Kundendienst von Adobe wenden.
 title: Was ist das Besucher Profil Lifetime und kann ich es erweitern?
-feature: Audiences
+feature: Zielgruppen
+exl-id: 70cb5e3b-ed6d-450d-8c6e-f1bfe8d26e54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 73%
 
 ---
 
-
-# Lebensdauer des Besucherprofils{#visitor-profile-lifetime}
+# Lebensdauer des Besucherprofils
 
 Standardmäßig läuft ein Besucherprofil nach 14 Tagen Inaktivität für diesen Besucher ab. Diese Profillebensdauer kann verlängert werden.
 
