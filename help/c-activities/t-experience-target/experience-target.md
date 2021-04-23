@@ -1,16 +1,16 @@
 ---
 keywords: Targeting;Erlebnis-Targeting;XT;Landingpage;Landingpage-Kampagne
-description: Erfahren Sie, wie Sie Erlebnis-Targeting (XT)-Aktivitäten in Adobe Target verwenden, um Inhalte auf der Grundlage einer Reihe von vom Marketingexperten definierten Regeln und Kriterien für eine bestimmte Audience bereitzustellen.
+description: Erfahren Sie, wie Sie Erlebnis-Targeting (XT)-Aktivitäten in Adobe [!DNL Target] verwenden, um Inhalte basierend auf einer Reihe von vom Marketingexperten definierten Regeln und Kriterien für eine bestimmte Audience bereitzustellen.
 title: Was ist eine Erlebnis-Targeting (XT)-Aktivität?
-feature: Experience Targeting
+feature: Erlebnis-Targeting
+exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 93%
 
 ---
-
 
 # Erlebnis-Targeting
 
