@@ -1,18 +1,18 @@
 ---
 keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen; nur Aktivität; nur Activity; adhoc
-description: Erfahren Sie, wie Sie in Adobe Target Audiencen erstellen, die nur für die Aktivität bestimmt sind und in der aktuellen Aktivität nur einmal verwendet werden können und nicht in der Bibliothek "Audiencen"gespeichert sind.
+description: Erfahren Sie, wie Sie in Adobe [!DNL Target] nur Aktivitäten erstellen, die in der aktuellen Aktivität nur einmal verwendet werden und nicht in der Bibliotheksbibliothek für Audiencen gespeichert sind.
 title: Kann ich eine Audience erstellen, die nur einmal verwendet werden kann?
-feature: Audiences
+feature: Zielgruppen
+exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 91%
 
 ---
 
-
-# Erstellen einer Zielgruppe „Nur Aktivität“{#create-an-activity-only-audience}
+# Erstellen einer Zielgruppe „Nur Aktivität“ 
 
 Erstellen Sie Zielgruppen „Nur Aktivität“ innerhalb des geleiteten Arbeitsablaufs mit drei Schritten, während Sie eine Aktivität erstellen. Diese Ad-hoc-Zielgruppen können an anderen Orten innerhalb derselben Aktivität verwendet werden, werden aber nicht in der [!UICONTROL Zielgruppenbibliothek] gespeichert und können nicht in anderen Aktivitäten verwendet werden.
 
@@ -52,4 +52,3 @@ Berücksichtigen Sie beim Arbeiten mit Zielgruppen „Nur Aktivität“ folgende
 * Der Status von Zielgruppen vom Typ „Nur Aktivität“ kann [!UICONTROL Verwendet] oder [!UICONTROL Nicht verwendet] sein. Nicht verwendete Zielgruppen „Nur Aktivität“ werden angezeigt, bis die Aktivität gespeichert wird. Wenn Sie sie nicht verwenden und versuchen, die Aktivität zu speichern, wird Ihnen ein Warnhinweis angezeigt, der Sie darauf hinweist, dass die nicht verwendete Zielgruppe „Nur Aktivität“ gelöscht wird.
 * Sie können die Details zur Zielgruppendefinition über Pop-up-Karten in der Zielgruppenauswahl anzeigen, ohne die Zielgruppe zu öffnen.
 * Sie können [mehrere Zielgruppen kombinieren](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), um „Nur Aktivität“-Zielgruppen zu erstellen.
-
