@@ -1,14 +1,14 @@
 ---
 keywords: Implementierung einer Einzelseitenanwendung;Implementierung einer Einzelseitenanwendung;spa;at.js 2.x;at.js;Einzelseitenanwendung;Einzelseitenanwendung;spa;SPA
-description: Erfahren Sie, wie Sie mit Adobe Target at.js 2.x Zielgruppe für Einzelseitenanwendungen (SPA) implementieren.
-title: Kann ich Zielgruppe für Einzelseitenanwendungen (SPA) implementieren?
-feature: Implement Server-side
+description: Erfahren Sie, wie Sie Adobe [!DNL Target] at.js 2.x to implement [!DNL Target] für Einzelseitenanwendungen (SPA) verwenden.
+title: Kann ich  [!DNL Target] für Einzelseitenanwendungen (SPA) implementieren?
+feature: Serverseitige Implementierung
 role: Developer
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '2777'
-ht-degree: 73%
+source-wordcount: '2770'
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ Hier einige Vorteile der Verwendung von at.js 2.x, die in früheren Versionen ni
 * Drastische Verbesserung der Erlebnisse Ihrer Endbenutzer auf Ihrer Site, da Angebote sofort über den Cache angezeigt werden, ohne dass durch herkömmliche Server-Aufrufe Latenz entsteht
 * Einfache Einrichtung mit einmaliger, einzeiliger Codeeingabe und Entwicklerunterstützung, sodass Ihre Marketing-Experten A/B- und Erlebnis-Targeting(XT)-Aktivitäten über VEC in Ihrer SPA erstellen und ausführen können
 
-## Adobe Target-Ansichten und Einzelseiten-Apps
+## Ansichten und Einzelseitenanwendungen mit Adobe [!DNL Target]
 
 Adobe Target VEC für SPAs basiert auf einem neuen Konzept für Ansichten: Eine Ansicht entspricht einer logischen Gruppe visueller Elemente, aus denen sich ein SPA-Erlebnis zusammensetzt. Eine SPA kann also als eine Reihe von Ansichten anstelle von URLs betrachtet werden, die je nach Benutzerinteraktion aufgerufen werden. Eine Ansicht umfasst in der Regel eine ganze Site oder eine Gruppe visueller Elemente innerhalb einer Site.
 
@@ -63,7 +63,7 @@ Das Konzept Ansichten aber kann noch viel mehr ausgeweitet werden. Für Marketin
 
 Ihre Marketing-Experten können auch einen A/B-Test durchführen, um zu sehen, ob die Änderung der Farbe von Blau auf Rot nach Auswahl der Expresszustellung die Konversion im Vergleich zu gleichbleibend blauer Button-Farbe für beide Versandoptionen steigert.
 
-## Implementieren von Adobe Target-Ansichten
+## Implementieren von Ansichten zur Adobe [!DNL Target]
 
 Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir dieses Konzept in Target nutzen, um Marketern die Möglichkeit zu geben, mithilfe des VEC A/B- und XT-Tests in SPAs durchzuführen. Dies erfordert eine einmalige Einrichtung durch den Entwickler. Nachfolgend sind die Schritte beschrieben, die sie dazu befolgen müssen.
 
@@ -283,9 +283,9 @@ Die folgenden Informationen beschreiben die Reihenfolge der Vorgänge, die beim 
 
 | Schritt | Aktion | Details |
 | --- | --- | --- |
-| 1 | Laden von VisitorAPI-JS | Diese Bibliothek ist für die Zuweisung einer ECID zum Besucher zuständig. Diese ID wird später von anderen [!DNL Adobe]-Lösungen auf der Webseite verwendet. |
+| 3 | Laden von VisitorAPI-JS | Diese Bibliothek ist für die Zuweisung einer ECID zum Besucher zuständig. Diese ID wird später von anderen [!DNL Adobe]-Lösungen auf der Webseite verwendet. |
 | 2 | at.js 2.x laden | at.js 2.x lädt alle erforderlichen APIs, die Sie zur Implementierung von [!DNL Target]-Anforderungen und -Ansichten verwenden. |
-| 1 | [!DNL Target]-Anforderung ausführen | Wenn Sie über eine Datenschicht verfügen, sollten Sie kritische Daten laden, die an [!DNL Target] gesendet werden müssen, bevor Sie eine [!DNL Target]-Anforderung ausführen. Auf diese Weise können Sie `targetPageParams` verwenden, um alle Daten zu senden, die Sie für das Targeting verwenden möchten. Sie müssen sicherstellen, dass Sie in diesem API-Aufruf die Anforderung &quot;execute&quot;> &quot;pageLoad&quot;sowie &quot;prefetch&quot;> &quot;Ansichten&quot;anfordern. Wenn Sie `pageLoadEnabled` und `viewsEnabled` festgelegt haben, erfolgt die Ausführung > pageLoad und prefetch > Ansichten automatisch mit Schritt 2. Andernfalls müssen Sie die `getOffers()`-API verwenden, um diese Anforderung zu erstellen. |
+| 1 | [!DNL Target]-Anforderung ausführen | Wenn Sie über eine Datenschicht verfügen, sollten Sie kritische Daten laden, die an [!DNL Target] gesendet werden müssen, bevor Sie eine [!DNL Target]-Anforderung ausführen. Auf diese Weise können Sie `targetPageParams` verwenden, um alle Daten zu senden, die Sie für das Targeting verwenden möchten. Sie müssen sicherstellen, dass Sie in diesem API-Aufruf die Anforderung &quot;execute&quot;> &quot;pageLoad&quot;sowie &quot;prefetch&quot;> &quot;Ansichten&quot;anfordern. Wenn Sie `pageLoadEnabled` und `viewsEnabled` festgelegt haben, erfolgt die Ausführung > pageLoad und prefetch > Ansichten automatisch mit Schritt 2. Andernfalls müssen Sie die `getOffers()`-API verwenden, um diese Anforderung zu stellen. |
 | 4 | Aufruf `triggerView()` | Da die [!DNL Target]-Anforderung, die Sie in Schritt 3 initiiert haben, Erlebnisse sowohl für die Seitenladeausführung als auch für Ansichten zurückgeben kann, stellen Sie sicher, dass `triggerView()` aufgerufen wird, nachdem die [!DNL Target]-Anforderung zurückgegeben wurde, und dass die Anwendung der Angebot auf den Cache abgeschlossen ist. Sie müssen diesen Schritt nur einmal pro Ansicht ausführen. |
 | 5 | Rufen Sie den Beacon für die Seitenaufrufe ([!DNL Analytics]) auf. | Dieser Beacon sendet die mit Schritt 3 und 4 verknüpfte SDID zur Datenzuordnung an [!DNL Analytics]. |
 | 6 | Zusätzliche `triggerView({"page": false})` aufrufen | Dies ist ein optionaler Schritt für SPA Frameworks, die bestimmte Komponenten auf der Seite potenziell wiedergeben können, ohne dass eine Ansicht geändert wird. In solchen Fällen ist es wichtig, dass Sie diese API aufrufen, um sicherzustellen, dass [!DNL Target]-Erlebnisse erneut angewendet werden, nachdem das SPA Framework die Komponenten erneut gerendert hat. Sie können diesen Schritt so oft ausführen, wie Sie sicherstellen möchten, dass [!DNL Target]-Erlebnisse in Ihren SPA-Ansichten bestehen bleiben. |
@@ -294,7 +294,7 @@ Die folgenden Informationen beschreiben die Reihenfolge der Vorgänge, die beim 
 
 | Schritt | Aktion | Details |
 | --- | --- | --- |
-| 1 | Aufruf `visitor.resetState()` | Diese API stellt sicher, dass die SDID beim Laden für die neue Ansicht neu generiert wird. |
+| 3 | Aufruf `visitor.resetState()` | Diese API stellt sicher, dass die SDID beim Laden für die neue Ansicht neu generiert wird. |
 | 2 | Cache aktualisieren durch Aufruf der API`getOffers()` | Dies ist ein optionaler Schritt, der ausgeführt werden kann, wenn diese Änderung der Ansicht das Potenzial hat, den aktuellen Besucher für weitere [!DNL Target]-Aktivitäten zu qualifizieren oder sie von Aktivitäten zu deaktivieren. An dieser Stelle können Sie auch zusätzliche Daten an [!DNL Target] senden, um weitere Targeting-Funktionen zu aktivieren. |
 | 1 | Aufruf `triggerView()` | Wenn Sie Schritt 2 ausgeführt haben, müssen Sie auf die [!DNL Target]-Anforderung warten und die Angebot auf den Cache anwenden, bevor Sie diesen Schritt ausführen. Sie müssen diesen Schritt nur einmal pro Ansicht ausführen. |
 | 4 | Aufruf `triggerView()` | Wenn Sie Schritt 2 nicht ausgeführt haben, können Sie diesen Schritt ausführen, sobald Sie Schritt 1 abgeschlossen haben. Wenn Sie Schritt 2 und Schritt 3 ausgeführt haben, sollten Sie diesen Schritt überspringen. Sie müssen diesen Schritt nur einmal pro Ansicht ausführen. |
