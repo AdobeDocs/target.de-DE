@@ -1,18 +1,18 @@
 ---
 keywords: Form-Based Experience Composer;Form-Based Composer;Verfeinerungen
-description: Erfahren Sie, wie Sie den Adobe Target Form-Based Experience Composer für die Erstellung nicht visueller Erlebnisse verwenden. Verwenden Sie diesen Composer, wenn der VEC nicht verfügbar oder nicht praktisch zu verwenden ist.
+description: Erfahren Sie, wie Sie mit der Adobe [!DNL Target] Form-Based Experience Composer nicht visuelle Erlebnisse erstellen können. Verwenden Sie diesen Composer, wenn der VEC nicht verfügbar oder nicht praktisch zu verwenden ist.
 title: Wie verwende ich den Form-Based Experience Composer?
-feature: Form-based Experience Composer
+feature: Form-Based Experience Composer
+exl-id: d06a271b-f058-4c83-af75-da2a29774967
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 66%
 
 ---
 
-
-# Form-Based Experience Composer{#form-based-experience-composer}
+# Form-Based Experience Composer
 
 Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Erlebnis- und Angebot-Erstellungsoberfläche, die bei der Erstellung von Erlebnissen für die Verwendung in A/B-Tests, Erlebnis-Targeting-, Automated Personalization- und Recommendations-Aktivitäten nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder nicht einsatzbereit ist. So können Sie den formularbasierten Composer beispielsweise verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachassistenten zu erstellen.
 
