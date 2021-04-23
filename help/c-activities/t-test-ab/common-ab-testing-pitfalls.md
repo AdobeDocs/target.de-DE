@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n;Fehler;Fallstricke;Fehler;Fallstricke;Bedeutung;Gewinner;statistischer Unterschied;statistische Leistung;Verkehrszuweisung;Zuordnung;
-description: Erfahren Sie, wie Sie die häufigsten Fallstricke und Fehler vermeiden, die Firmen beim Durchführen von A/B-Tests in Adobe Target und anderen Testlösungen machen.
+description: Erfahren Sie, wie Sie die häufigsten Fallstricke und Fehler vermeiden, die Firmen beim Durchführen von A/B-Tests in Adobe [!DNL Target] und anderen Testlösungen machen.
 title: Wie vermeide ich häufige Fehler beim A/B-Test?
-feature: A/B Tests
+feature: A/B-Tests
+exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3885'
+source-wordcount: '3887'
 ht-degree: 86%
 
 ---
-
 
 # Zehn häufige A/B-Testfallen und wie sie vermieden werden können
 
@@ -173,4 +173,3 @@ Anhand der folgenden Schritte können Sie diese Fallen vermeiden und bessere Erg
 * Berechnen Sie die Stichprobengröße (Anzahl der Besucher), bevor der Test gestartet wird.
 * Warten Sie bis die berechnete Stichprobengröße erreicht wurde, bevor Sie den Test stoppen.
 * Passen Sie das Konfidenzniveau an, wenn Sie nach dem Test segmentieren oder mehr als eine Alternative bewerten, indem Sie z. B. die Bonferroni-Korrektur verwenden.
-
