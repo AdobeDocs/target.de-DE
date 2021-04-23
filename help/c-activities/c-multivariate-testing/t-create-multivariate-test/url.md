@@ -2,17 +2,17 @@
 keywords: Multivarianz-Tests;Aktivität-URL
 description: Erfahren Sie, wie Sie die Aktivitäten-URL angeben, die die Seite bestimmt, die im Test verwendet wird und die geöffnet wird, wenn die Aktivität Multivarianz-Test mit Adobe Target entwickelt wird.
 title: Wie lautet die Aktivitäten-URL in einer Multivarianz-Aktivität?
-feature: Multivariate Tests
+feature: Multivarianz-Tests
+exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '305'
 ht-degree: 79%
 
 ---
 
-
-# Aktivitäts-URL{#activity-url}
+# Aktivitäts-URL
 
 Die Aktivitäts-URL legt die Seite fest, die bei dem [!UICONTROL Multivarianz-Test] (MVT) verwendet wird und bei dessen Entwurf in [!DNL Adobe Target] geöffnet wird.
 
