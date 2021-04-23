@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.triggerview;Triggerview;triggerview;trigger-Ansicht;at.js;Funktionen;funktion;Viewname;viewname;Anzeigename
-description: Verwenden Sie die Funktion adobe.Zielgruppe.triggerView() für die Adobe Target at.js JavaScript-Bibliothek zur Verwendung in Einzelseitenanwendungen (SPA). (at.js 2.x)
+description: Verwenden Sie die JavaScript-Bibliothek "adobe.Zielgruppe.triggerView()"für die Adobe [!DNL Target] at.js zur Verwendung in Einzelseitenanwendungen (SPA). (at.js 2.x)
 title: Wie verwende ich die Funktion adobe.Zielgruppe.triggerView()?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 619d5166-d1d9-49a6-9807-338544782e66
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 84%
 
 ---
-
 
 # adobe.target.triggerView (viewName, options) - at.js 2.x
 
