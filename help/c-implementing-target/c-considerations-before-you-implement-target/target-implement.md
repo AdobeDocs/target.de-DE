@@ -1,18 +1,18 @@
 ---
 keywords: Dokument.write;Zielgruppe;implementieren;Zielgruppe implementieren;dtm;dynamisches Tag-Management;at.js;mbox.js;Zielgruppe.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
-description: Implementieren Sie Adobe Target, indem Sie auf die Zielgruppen-Bibliotheken (at.js oder mbox.js) auf Ihren Webseiten verweisen.
-title: Erläuterung der JavaScript-Bibliotheken in Target
-feature: Implementation
+description: Implementieren Sie Adoben [!DNL Target] by referencing the [!DNL Target] Bibliotheken (at.js oder mbox.js) auf Ihren Webseiten.
+title: Erläuterung der  [!DNL Target] -JavaScript-Bibliotheken
+feature: Implementierung
 translation-type: tm+mt
-source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '476'
 ht-degree: 23%
 
 ---
 
 
-# Erläuterung der JavaScript-Bibliotheken in Target
+# Erläuterung der [!DNL Target]-JavaScript-Bibliotheken
 
 Implementieren Sie [!DNL Adobe Target], indem Sie auf die Bibliotheken [!DNL Adobe Target] (Adobe Experience Platform Web SDK oder at.js) auf Ihren Webseiten verweisen.
 
@@ -20,7 +20,7 @@ Implementieren Sie [!DNL Adobe Target], indem Sie auf die Bibliotheken [!DNL Ado
 >
 >Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden müssen vor dem 31. März 2021 von &quot;mbox.js&quot;zu &quot;at.js&quot;oder zum [!UICONTROL Adobe Experience Platform Web SDK] migrieren. Weitere Informationen finden Sie unter [Migration von &quot;mbox.js&quot;zu &quot;at.js&quot;oder [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-## Unterschiede zwischen der Zielgruppe JavaScript Libraries {#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## Unterschiede zwischen den [!DNL Target] JavaScript-Bibliotheken {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
 In der folgenden Tabelle werden die Unterschiede zwischen den JavaScript-Bibliotheken [!DNL Target] erläutert:
 
