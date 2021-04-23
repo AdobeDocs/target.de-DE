@@ -2,17 +2,17 @@
 keywords: Übersicht und Referenz
 description: Erfahren Sie mehr über Besucher-Profil, die Informationen darüber enthalten, wie Ihre Besucher Ihre Seiten und andere optimierte Inhaltsverzeichnisse verwenden.
 title: Was sind Besucher-Profile?
-feature: Audiences
+feature: Zielgruppen
+exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 78%
 
 ---
 
-
-# Besucherprofile{#visitor-profiles}
+# Besucherprofile
 
 Besucherprofile enthalten Informationen darüber, wie Besucher Ihre Seiten und andere optimierte Inhaltsverzeichnisse verwenden.
 
