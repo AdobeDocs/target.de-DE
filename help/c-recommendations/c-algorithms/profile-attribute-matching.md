@@ -1,16 +1,16 @@
 ---
-keywords: Einschlussregeln;Einschlusskriterien;Empfehlungen;Promotion;Promotions;Dynamisches Filtern;Dynamisches;Profil-Attributzuordnung
-description: Erfahren Sie, wie Sie in Adobe Target Recommendations dynamisch filtern können, indem Sie Elemente (Entitäten) mit einem Wert im Profil des Benutzers vergleichen.
+keywords: Einschlussregeln;Einschlusskriterien;Empfehlungen;Promotion;Promotions;Dynamische Filterung;Dynamische Suche;Zuordnung von Profil-Attributen
+description: Erfahren Sie, wie Sie dynamisch in Adobe [!DNL Target] Recommendations filtern können, indem Sie Elemente (Entitäten) mit einem Wert im Profil des Benutzers vergleichen.
 title: Wie filtere ich nach Profil-Attributübereinstimmung in Recommendations-Aktivitäten?
 feature: Recommendations
+exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMProfile Attribute Matching
 
