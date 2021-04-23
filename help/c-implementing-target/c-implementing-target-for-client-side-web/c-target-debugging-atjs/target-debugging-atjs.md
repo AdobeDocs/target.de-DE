@@ -1,19 +1,19 @@
 ---
 keywords: at.js;at.js debuggen;Adobe Experience Cloud Debugger;Experience Cloud Debugger;Mbox-Verfolgung;Mbox-Hervorhebung;debug;Debugging
-description: Verwenden Sie den Adobe Experience Cloud Debugger, um Ihre Bibliothekskonfiguration Ansicht, Anforderungen zu prüfen, die Konsolenprotokollierung zu aktivieren, Anfragen nach Zielgruppen-Aufrufen zu deaktivieren und vieles mehr.
+description: 'Verwenden Sie den Adobe Experience Cloud Debugger, um Ihre Bibliothekskonfiguration Ansicht, Anforderungen zu prüfen, die Konsolenprotokollierung zu aktivieren, die Aufrufanforderungen zu deaktivieren und vieles mehr. [!DNL Target] '
 title: Wie kann ich "at.js"mit dem Adobe Experience Cloud Debugger debuggen?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 764155e2-e55d-4637-8da3-44f70f3aa2a7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 69%
 
 ---
 
-
-# „at.js“-Debugging mit dem Adobe Experience Cloud-Debugger{#debug-at-js-using-the-adobe-experience-cloud-debugger}
+# „at.js“-Debugging mit dem Adobe Experience Cloud-Debugger
 
 Informationen zur Verwendung des Adobe Experience Cloud-Debuggers, einer Erweiterung, die eine schnelle und einfache Problembehebung in Ihrer Target-Implementierung ermöglicht.
 
@@ -29,7 +29,7 @@ Die folgenden Videos führen Sie Schritt für Schritt durch den Debugging-Prozes
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Grundlegender Debugging von Zielgruppen mit dem Adobe Experience Cloud Debugger ![Kennzeichen ](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### Einfaches Adobe Target Debugging mit dem Adobe Experience Cloud Debugger ![Kennzeichen &quot;Überblick](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
