@@ -1,16 +1,16 @@
 ---
 keywords: Target; Berichte; Berichtseinstellungen; extreme Bestellungen; Extremwerte
-description: Erfahren Sie, wie Sie Extremwerte von Berichten in Adobe Target ausschließen können, damit einige ungewöhnliche Bestellungen Ihre Aktivitäten nicht beeinflussen.
+description: Erfahren Sie, wie Sie Extremwerte von Berichten in Adobe [!DNL Target] ausschließen, damit einige ungewöhnliche Bestellungen Ihre Aktivitäten nicht beeinflussen.
 title: Wie schließe ich extreme Werte in Berichten aus?
-feature: Reports
+feature: Berichte
+exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
-
 
 # Ausschließen von Extremwerten
 
