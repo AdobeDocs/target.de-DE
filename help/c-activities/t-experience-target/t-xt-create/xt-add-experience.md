@@ -1,16 +1,16 @@
 ---
 keywords: Erlebnis erstellen;Erlebniserstellung;Priorität;Zielgruppe;Erlebnis;Visual Experience Composer
-description: Erfahren Sie, wie Sie mit dem Adobe Target Visual Experience Composer (VEC) Erlebnisse auf Ihrer Seite in einer Erlebnis-Targeting-Aktivität (XT) erstellen und bearbeiten.
+description: Erfahren Sie, wie Sie mit der Adobe [!DNL Target] Visual Experience Composer (VEC) Erlebnisse auf Ihrer Seite in einer Erlebnis-Targeting-Aktivität (XT) erstellen und bearbeiten.
 title: Wie erstelle ich Erlebnisse in einer Erlebnis-Targeting-Aktivität?
-feature: Experience Targeting
+feature: Erlebnis-Targeting
+exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 87%
 
 ---
-
 
 # Erlebnis in Erlebnis-Targeting-Aktivitäten (XT) erstellen
 
