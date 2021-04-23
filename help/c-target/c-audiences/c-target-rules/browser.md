@@ -1,18 +1,18 @@
 ---
 keywords: Browseroptionen; Typ; Browsertyp; Browsersprache; Sprache; Version; Browserversion
-description: Erfahren Sie, wie Sie in Adobe Target Audiencen zur Zielgruppe von Benutzern erstellen, die beim Besuch Ihrer Seite einen bestimmten Browser oder bestimmte Browseroptionen verwenden.
-title: Kann ich Besucher je nach Browsertyp Zielgruppe haben?
-feature: Audiences
+description: Erfahren Sie, wie Sie Audiencen in Adobe [!DNL Target] erstellen, um Zielgruppen zu ermöglichen, die einen bestimmten Browser oder bestimmte Browseroptionen verwenden, wenn sie Ihre Seite besuchen.
+title: 'Kann ich Besucher je nach Browsertyp auswählen? [!DNL Target] '
+feature: Zielgruppen
+exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 94%
+source-wordcount: '661'
+ht-degree: 95%
 
 ---
 
-
-# Browser{#browser}
+# Browser
 
 Sie können Benutzer, die einen speziellen Browser oder spezielle Browseroptionen beim Besuch Ihrer Seite verwenden, als Ziel auswählen.
 
