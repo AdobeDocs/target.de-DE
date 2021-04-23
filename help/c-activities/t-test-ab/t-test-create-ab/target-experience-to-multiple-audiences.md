@@ -1,16 +1,16 @@
 ---
 keywords: mehrere Zielgruppen;Erlebnisversionen;Erlebnisversionen auswählen
-description: Erfahren Sie, wie Sie Versionen des gleichen Erlebnisses für verschiedene Audiencen in Adobe Target A/B-Aktivitäten Zielgruppe haben.
+description: Erfahren Sie, wie Sie Versionen des gleichen Erlebnisses für verschiedene Audiencen in Adobe [!DNL Target] A/B-Aktivitäten Zielgruppe haben.
 title: Kann ich mehrere Erlebnisversionen in einer A/B-Aktivität verwenden?
-feature: A/B Tests
+feature: A/B-Tests
+exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 92%
 
 ---
-
 
 # Verschiedene Erlebniszielgruppen in A/B-Tests
 
@@ -53,4 +53,3 @@ In diesem Fall müssen Sie regionsspezifische Versionen des Erlebnisses erstelle
 * Wählen Sie Zielgruppen aus, die sich gegenseitig ausschließen. Wurde die Aktivität im VEC erstellt und erfüllt ein Besucher die Kriterien von mehr als einer Zielgruppe, wird Inhalt für jede der passenden Zielgruppen zurückgegeben, wobei der Inhalt der zuletzt aufgeführten Zielgruppe tatsächlich auf der Seite dargestellt wird.
 * Die in der Darstellung festgelegten Aktivitätseintrag-Zielgruppen werden mit den Erlebniszielgruppen mit dem Operator „AND“ kombiniert. Möchte ein Benutzer die Aktivität aufrufen, muss er die Kriterien einer Aktivitätszielgruppe und einer Erlebniszielgruppe erfüllen.
 * Fügen Sie die gleichen Zielgruppen als Berichtsegmente hinzu. Somit können Sie die Ergebnisse grob aufgeschlüsselt im Vergleich von Erlebnis A zu Erlebnis B, aber auch fein aufgeschlüsselt für „browser lang ja_JP“ für die Erlebnisse A und B anzeigen. Dies ist jedoch nur in auf Target basierenden Berichten möglich, nicht in Analytics-Berichten.
-
