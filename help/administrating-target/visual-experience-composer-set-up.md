@@ -1,17 +1,17 @@
 ---
 keywords: Visual Experience Composer;VEC;Standard-URL;Enhanced Experience Composer;EOC;Mixed Content;Experience Snapshots;Mobile Viewport;CSS;CSS-Selektoren
-description: Erfahren Sie, wie Sie den Adobe Target Visual Experience Composer (VEC) konfigurieren, indem Sie seine allgemeinen Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
+description: Erfahren Sie, wie Sie die Adobe [!DNL Target] Visual Experience Composer (VEC) konfigurieren, indem Sie ihre allgemeinen Einstellungen, die Konfiguration des mobilen Viewports und CSS-Selektoren angeben.
 title: Wie konfiguriere ich den Visual Experience Composer (VEC)?
-feature: Administration & Configuration
+feature: Administration und Konfiguration
 role: Administrator
+exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '719'
 ht-degree: 49%
 
 ---
-
 
 # Konfigurieren des Visual Experience Composer
 
