@@ -1,17 +1,17 @@
 ---
 keywords: Sicherheitsrichtlinie für Inhalte;csp;at.js;Whitelist;Zulassungsliste;Flicker;Pre-hide;Pre-hide;Prehiding;Prehiding
 description: Erfahren Sie mehr über die CSP-Richtlinien (Content Security Policy), die Sie bei Verwendung von Adobe Target hinzufügen sollten.
-title: Wie behandelt Zielgruppe Content Security-Richtlinien (CSP)?
-feature: Privacy & Security
+title: Wie behandelt [!DNL Target] Content Security-Richtlinien (CSP)?
+feature: Datenschutz und Sicherheit
 role: Developer
+exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
-
 
 # Richtlinien zur Content Security Policy (CSP)
 
