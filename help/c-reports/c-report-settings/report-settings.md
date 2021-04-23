@@ -2,19 +2,19 @@
 keywords: Target; Berichte; Berichtseinstellungen; Voreinstellung; Target-Vorgabe; Metrik; Zielgruppe; Datumsbereich; Einstellungen; Download; Tabellenansicht; Graphansicht; durchschnittliche Steigerung; Steigerung; Steigerungsgrenzen; Konfidenzintervall; Konfidenz; Ortseinfluss; laufender Durchschnitt; Zählmethodik
 description: Erfahren Sie, wie Sie Berichtseinstellungen in Adobe Target konfigurieren, einschließlich Metriken, Audiencen, Datumsbereichen und mehr.
 title: Wie konfiguriere ich Berichtseinstellungen?
-feature: Reports
+feature: Berichte
+exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1919'
 ht-degree: 69%
 
 ---
 
+# Berichtseinstellungen
 
-# Berichtseinstellungen{#report-settings}
-
-Informationen zum Festlegen der Elemente, die im Bericht unter [!DNL Adobe Target] angezeigt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
+Informationen, die Sie bei der Festlegung der Elemente unterstützen, die in Ihrem Bericht in [!DNL Adobe Target] angezeigt werden sollen. Berichtseinstellungen können für eine spätere Verwendung gespeichert werden.
 
 So zeigen Sie einen Bericht an:
 
@@ -290,4 +290,3 @@ Wenn Sie die Maus über eines der ausgegrauten Erlebnisse bewegen, wird im Diagr
 Angenommen, Sie möchten die Darstellungslinie für Erlebnis R anzeigen, während die Line für Erlebnis P nicht angezeigt werden soll. Sie können auf den Namen von Erlebnis P klicken, um dessen Auswahl aufzuheben, und Sie können dann auf den Namen von Erlebnis R klicken, um es auszuwählen, wie unten dargestellt:
 
 ![](assets/graph_3.png)
-
