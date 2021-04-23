@@ -1,16 +1,16 @@
 ---
 keywords: Recommendations;Recommendations-Aktivität;Kriterien;Algorithmus;Empfehlungsschlüssel;benutzerspezifischer Schlüssel;Branche;Branche;Handel;Interessentenanwerbung;b2b;Finanzdienstleistungen;Medien;Veröffentlichung
-description: Erfahren Sie, wie Sie Kriterien in Adobe Target Recommendations verwenden. Kriterien sind Regeln, die festlegen, welche Inhalte basierend auf einem vordefinierten Satz von Besuchern empfohlen werden sollen.
-title: Wie verwende ich Kriterien in Zielgruppe Recommendations?
+description: Erfahren Sie, wie Sie Kriterien in Adobe [!DNL Target] Recommendations verwenden. Kriterien sind Regeln, die festlegen, welche Inhalte basierend auf einem vordefinierten Satz von Besuchern empfohlen werden sollen.
+title: Wie verwende ich Kriterien in [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 52%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Kriterien
 
