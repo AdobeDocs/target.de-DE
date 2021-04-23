@@ -3,16 +3,16 @@ keywords: Empfehlungen; Einstellungen; Name; Ziel; Priorität; Dauer; Berichters
 description: Erfahren Sie, wie Sie die Einstellungen konfigurieren, mit denen eine Recommendations-Aktivität in Adobe Target beschrieben und gesteuert wird.
 title: Wie konfiguriere ich die Einstellungen für die Recommendations Aktivität?
 feature: Recommendations
+exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 84%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Recommendations Activities-Einstellungen{#recommendations-activity-settings}
+# ![PREMIUM](/help/assets/premium.png) Recommendations Activities-Einstellungen
 
 Informationen zu den Einstellungen, mit denen Sie eine [!UICONTROL Recommendations]-Aktivität in [!DNL Adobe Target] beschreiben und steuern können.
 
