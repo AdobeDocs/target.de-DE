@@ -1,19 +1,19 @@
 ---
 keywords: Flackern;at.js;Implementierung;asynchron;asynchron;synchron;synchron
-description: Erfahren Sie, wie at.js und Adobe Target Flackern verhindern (Standardinhalte werden derzeit angezeigt, bevor sie durch Aktivitäten ersetzt werden), während Sie die Seite oder App laden.
+description: Erfahren Sie, wie at.js und Adobe [!DNL Target] Flackern verhindern (Standardinhalt wird derzeit angezeigt, bevor er durch Aktivitäten ersetzt wird) während des Ladens der Seite oder der App.
 title: Wie verwaltet at.js Flackern?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 76%
 
 ---
 
-
-# Verwaltung von Flackern mit „at.js“{#how-at-js-manages-flicker}
+# Verwaltung von Flackern mit „at.js“
 
 Informationen dazu, wie mit der JavaScript-Bibliothek at.js beim Laden von Seiten oder Anwendungen von Target ein Flackern vermieden wird.
 
