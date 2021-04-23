@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard;Recommendations;Zielgruppe Premium;Automated Personalization;Auto-Zielgruppe;Auto-Zielgruppe;Berechtigungen;Was ist Adobe-Zielgruppe?
-description: Lernen Sie die Grundlagen von Adobe Target Standard und Adobe Target Premium kennen. Target Premium umfasst erweiterte Funktionen, die nicht im Standardprodukt verfügbar sind.
+description: Lernen Sie die Grundlagen der Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium enthält erweiterte Funktionen, die nicht im Standardprodukt verfügbar sind.
 landing-page-description: Personalisieren Sie die Erlebnisse Ihrer Kunden, um den Umsatz Ihrer Websites und Mobile Sites sowie Apps, Social Media und anderer digitaler Kanäle zu maximieren.
 title: Was ist Zielgruppe?
-feature: Overview
+feature: Überblick
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
-source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 43%
+source-wordcount: '939'
+ht-degree: 41%
 
 ---
 
@@ -90,7 +90,7 @@ Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 
 Weitere Informationen finden Sie in der [Dokumentation zu Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf).
 
-## Experience League: Das Adobe Target Welcome Kit {#kit}
+## Experience League: Die Adobe [!DNL Target] Begrüßungs-Kit {#kit}
 
 Erstellen Sie mit diesem Begrüßungs-Kit Ihr Optimierungs- und Personalisierungs-Programm auf [!DNL Adobe Target]. Das Begrüßungs-Kit enthält wichtige Informationen, Tools und Ressourcen, die Ihnen bei der Vorbereitung und beim Start Ihrer ersten [!DNL Target]-Aktivität helfen. Das Kit enthält Ideen für kurzfristige QuickWins und langfristige Optimierungsstrategien.
 
