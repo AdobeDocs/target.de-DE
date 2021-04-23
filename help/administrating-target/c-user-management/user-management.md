@@ -1,21 +1,21 @@
 ---
 keywords: Benutzer hinzufügen;Benutzer verwalten;Benutzerberechtigungen
-description: Erfahren Sie, wie Sie Benutzer in Adobe Target Standard verwalten und Unternehmenseigenschaften und -berechtigungen in Adobe Target Premium verwalten.
+description: Erfahren Sie, wie Sie Benutzer in Adobe [!DNL Target] Standard and manage enterprise properties and permissions in Adobe [!DNL Target] Premium verwalten.
 title: Wie konfiguriere ich User Management?
-feature: Administration & Configuration
+feature: Administration und Konfiguration
 role: Administrator
+exl-id: 3bf0c23c-7382-43d2-af54-734221063872
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 19%
+source-wordcount: '230'
+ht-degree: 20%
 
 ---
 
+# Benutzerverwaltung
 
-# Benutzerverwaltung{#user-management}
-
-Informationen zum Verwalten von Benutzern in [!DNL Target] Standard und Verwalten von Enterprise [!UICONTROL Properties] und [!UICONTROL Permissions] in [!DNL Target] Premium.
+Informationen zum Verwalten von Benutzern in [!DNL Target] Standard und Verwalten von Enterprise [!UICONTROL Properties] und [!UICONTROL Berechtigungen] in [!DNL Target] Premium.
 
 >[!NOTE]
 >
@@ -40,4 +40,3 @@ Sie können feststellen, ob Ihr Unternehmen über eine Standard- oder Premium-Li
 Die folgende Abbildung zeigt die Seite [!UICONTROL Administration] für ein [!DNL Target] Premium-Konto. Beachten Sie, dass die Registerkarten [!UICONTROL Eigenschaften] und [!UICONTROL Benutzer] verfügbar sind:
 
 ![Registerkarte &quot;Administration&quot;](/help/administrating-target/assets/premium.png)
-
