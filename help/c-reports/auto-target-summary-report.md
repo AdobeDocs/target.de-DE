@@ -2,17 +2,17 @@
 keywords: Berichte;automatische Zielgruppe;automatische Zielgruppe;AT;Bericht
 description: Erfahren Sie, wie Sie den Bericht "Zusammenfassung der automatischen Zielgruppe"in Adobe Target interpretieren. Sie können in diesem Bericht zu den Berichten zu automatisierten Segmenten und wichtigen Attributen wechseln.
 title: Wie verwende ich den Zusammenfassungsbericht für die automatische Zielgruppe?
-feature: Reports
+feature: Berichte
+exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 54%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMAuto-Zielgruppe - Zusammenfassungsbericht{#auto-target-summary-report}
+# ![](/help/assets/premium.png) PREMIUMAuto-Zielgruppe - Zusammenfassungsbericht
 
 Informationen zur Interpretation der Berichte [!UICONTROL Zusammenfassung der automatischen Zielgruppe] in [!DNL Adobe Target].
 
@@ -62,7 +62,7 @@ Die folgende Abbildung zeigt, wie ein typischer Zusammenfassungsbericht in der [
 
 ![Bericht zur Ansicht von Diagrammen mit automatischer Zielgruppe](/help/c-reports/assets/at-graph-view.png)
 
-Wie unten gezeigt, können Sie die beiden Dropdown-Listen verwenden, um die gewünschten Metriken, Zählmethodiken und mehr auszuwählen. Weitere Informationen finden Sie unter [Übersicht über Berichtseinstellungen](/help/c-reports/c-report-settings/report-settings.md).
+Wie unten gezeigt, können Sie die beiden Dropdown-Listen verwenden, um die gewünschten Metriken, Zählmethodiken und mehr auszuwählen. Weitere Informationen finden Sie unter [Übersicht über die Berichtseinstellungen](/help/c-reports/c-report-settings/report-settings.md).
 
 ![Bericht zur Ansicht von Diagrammen mit automatischer Zielgruppe](/help/c-reports/assets/at-graph-view-2.png)
 
