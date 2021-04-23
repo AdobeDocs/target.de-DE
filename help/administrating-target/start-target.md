@@ -1,23 +1,23 @@
 ---
 keywords: Administration;Genehmiger-Rolle;Genehmiger
-description: Führen Sie die ersten Aufgaben durch, die Adobe Target-Administratoren nach Erhalt der Einladung an das Adobe Experience Cloud ausführen sollten.
+description: Führen Sie die erste Aufgabe Adobe [!DNL Target] durch, die Administratoren nach Erhalt der Einladung an das Adobe Experience Cloud durchführen sollten.
 title: Wo kann ich mit der Verwaltung der Zielgruppe beginnen?
-feature: Administration & Configuration
+feature: Administration und Konfiguration
 role: Administrator
+exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
-
 
 # Erste Schritte für Administratoren
 
 Dieser Artikel enthält die ersten Schritte, die [!DNL Adobe Target]-Administratoren nach Erhalt der Einladung zum [!DNL Adobe Experience Cloud] durchführen sollten.
 
-## Erhalt einer Einladung zu Target {#task_3E0817630774431983FAA3D2CB2E75BD}
+## Sind Sie eingeladen zu [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 Ein Systemadministrator muss Sie in der [!DNL Adobe Admin Console] als Benutzer hinzufügen, indem er Ihnen eine Einladung zu [!DNL Target] schickt. Der Systemadministrator sollte Sie dann zu einer oder mehreren rollenspezifischen Gruppen hinzufügen. Beide Aufgaben werden in der [Adobe Admin Console](https://adminconsole.adobe.com) durchgeführt.
 
