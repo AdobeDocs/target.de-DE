@@ -1,22 +1,22 @@
 ---
 keywords: Experience Cloud;Anmelden;Sprache;Standardsprache in der Benutzeroberfläche;Standardsprache
-description: Erfahren Sie, wie Sie von Adobe Experience Cloud aus auf die Zielgruppe zugreifen, die Standardsprache für die Ansicht festlegen und die Zielgruppe der Benutzeroberfläche und Dokumentation ändern können.
-title: Wie greife ich von der Adobe Experience Cloud auf die Zielgruppe zu?
-feature: Overview
+description: 'Erfahren Sie, wie Sie auf die Benutzeroberfläche und Dokumentation zugreifen können. [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] '
+title: Wie greife ich von Adobe Experience Cloud auf [!DNL Target] zu?
+feature: Überblick
+exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 62%
+source-wordcount: '398'
+ht-degree: 57%
 
 ---
 
-
-# Zugriff auf Target über Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
+# Zugriff auf [!DNL Target] vom Adobe Experience Cloud
 
 Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experience Cloud], das Festlegen der standardmäßigen Landingpage und das Ändern der Sprache der Benutzeroberfläche von [!DNL Target].
 
-## Melden Sie sich bei Adobe Target an und legen Sie Ihre Standardansicht fest.
+## Melden Sie sich bei Adobe [!DNL Target] an und legen Sie die Standardeinstellung für die Ansicht fest
 
 1. Melden Sie sich bei [Adobe Experience Cloud](https://experience.adobe.com/) an.
 
@@ -30,7 +30,7 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
    ![Landingpage](/help/c-intro/assets/pagepref-new.png)
 
-## Standardsprache für die Target-Benutzeroberfläche ändern {#language}
+## Standardsprache für die [!DNL Target]-Benutzeroberfläche {#language} ändern
 
 1. Klicken Sie nach der Anmeldung bei [!DNL Adobe Experience Cloud ] oder [!DNL Target] auf Ihren Profil Avatar und dann auf **[!UICONTROL Voreinstellungen bearbeiten]**.
 
@@ -65,7 +65,7 @@ Informationen über den Zugriff auf [!DNL Adobe Target]von [!DNL Adobe Experienc
 
 1. Melden Sie sich von [!DNL Adobe Experience Cloud] oder [!DNL Target] ab und melden Sie sich wieder neu an, damit die Änderungen wirksam werden.
 
-## Ändern der Sprache für die Target-Produktdokumentation{#doc-lang}
+## Sprache für die [!DNL Target]-Produktdokumentation {#doc-lang} ändern
 
 Ihr Betriebssystem oder Ihre Browsereinstellungen sollten Ihre bevorzugte Sprache erkennen und die Dokumentation in dieser Sprache anzeigen (falls verfügbar). [!DNL Target] Dokumentation wird automatisch übersetzt und wird mit der englischen Version innerhalb von Stunden nach Änderungen an der englischen Dokumentation synchronisiert.
 
