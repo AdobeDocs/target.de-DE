@@ -1,16 +1,16 @@
 ---
 keywords: Aktivitätseinstellungen;A/B-Ziele und -Einstellungen;Einstellungen der Berichterstellung;Zielmetriken;Erfolgsmetriken;abhängige Erfolgsmetriken;erweiterte Einstellungen;primäres Ziel;zusätzliche Metriken;Ziel;Priorität;Dauer;Berichtslösung;Ziele;Zielgruppen für die Berichterstellung;Welche Erfolgsmetriken müssen erreicht werden, bevor diese Metrik inkrementiert wird;Was passiert, nachdem ein Benutzer auf diese Zielmetrik stößt;Hinweise
-description: Erfahren Sie, wie Sie auf der Seite "Ziele und Einstellungen"in Adobe Target Informationen über die Ziele einer A/B-Aktivität angeben können.
-title: Wie gebe ich Ziele und Einstellungen in einer A/B-Aktivität der Zielgruppe an?
-feature: A/B Tests
+description: Erfahren Sie, wie Sie auf der Seite "Ziele und Einstellungen"in Adobe [!DNL Target] Informationen über die Ziele einer A/B-Aktivität angeben können.
+title: Wie gebe ich Ziele und Einstellungen in einer [!DNL Target] A/B-Aktivität an?
+feature: A/B-Tests
+exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1331'
 ht-degree: 92%
 
 ---
-
 
 # Ziele und Einstellungen
 
