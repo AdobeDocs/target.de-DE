@@ -1,19 +1,19 @@
 ---
 keywords: targetPageParams;targetpageparams;pageParams;pageparams;Seite Parameter;Seitenparameter;at.js;Funktionen;Funktion
-description: Verwenden Sie die Funktion targetPageParams() für die Adobe Target at.js JavaScript-Bibliothek, um Parameter von außerhalb des Anforderungscodes an die globale Mbox anzuhängen.
+description: Verwenden Sie die Funktion targetPageParams() für die JavaScript-Bibliothek "Adobe [!DNL Target] at.js", um Parameter von außerhalb des Anforderungscodes an die globale Mbox anzuhängen.
 title: Wie verwende ich die Funktion targetPageParams()?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 0772b400-626c-45d8-a4b5-a12691978cf3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 72%
 
 ---
 
-
-# targetPageParams() {#reference_B235C9F6DA79449ABE3E23F914FEABAE}
+# targetPageParams()
 
 Mit dieser Methode können Sie Parameter von außerhalb des Anforderungscodes an die globale Mbox anfügen.
 
