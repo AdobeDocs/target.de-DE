@@ -1,18 +1,18 @@
 ---
 description: Erfahren Sie, wie Sie mit dem Adobe Mobile SDK die optimalen Erlebnisse für Ihre mobilen App-Besucher anzeigen.
-title: Wie funktioniert Zielgruppe in mobilen Apps?
-feature: Implement Mobile
+title: Wie funktioniert [!DNL Target] in mobilen Apps?
+feature: Mobile implementieren
 role: Developer
+exl-id: 1a5f34dc-932d-47c7-b730-6d1658343fb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
-
-# Funktionsweise von Target in Apps{#how-target-works-in-mobile-apps}
+# Funktionsweise von [!DNL Target] in mobilen Apps
 
 Das Adobe SDK ruft den Target-Server auf, um den Inhalt sowie weitere Datenpunkte abzurufen und dem Benutzer das richtige Erlebnis anzuzeigen.
 
@@ -33,4 +33,3 @@ A *[Erfolgsmetrik](/help/c-activities/r-success-metrics/success-metrics.md#refer
 **Erklärung der Funktionsweise von Target im SDK**
 
 ![](assets/how-target-mobile-works.png)
-
