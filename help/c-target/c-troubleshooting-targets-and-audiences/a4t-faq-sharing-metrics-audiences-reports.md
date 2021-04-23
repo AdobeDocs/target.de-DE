@@ -1,18 +1,18 @@
 ---
 keywords: FAQ,Häufig gestellte Fragen,Analytics für Zielgruppe,Segmente,A4T,Berichte freigeben
-description: Häufig gestellte Fragen zur Freigabe von Metriken, Audiencen und Berichten bei der Verwendung von Analytics für die Zielgruppe (A4T). Mit A4T können Sie Analytics Berichte für Adobe Target-Aktivitäten verwenden.
+description: Häufig gestellte Fragen zur Freigabe von Metriken, Audiencen und Berichten bei der Verwendung von Analytics für [!DNL Target] (A4T). A4T lets you use Analytics reporting for Adobe [!DNL Target] Aktivitäten.
 title: Wo können FAQs, die Metriken, Audiencen und Berichte freigeben, in A4T gefunden werden?
 feature: Analytics for Target (A4T)
 exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
 translation-type: tm+mt
-source-git-commit: 7546db1b78825b969f5639b26c0d6a3e5319dd3a
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 66%
+source-wordcount: '241'
+ht-degree: 69%
 
 ---
 
-# Freigabe von Metriken, Zielgruppen und Berichten – Häufig gestellte Fragen zu A4T{#share-metrics-audiences-and-reports-a-t-faq}
+# Freigabe von Metriken, Zielgruppen und Berichten – Häufig gestellte Fragen zu A4T
 
 Dieses Thema enthält Antworten auf häufig gestellte Fragen zur Freigabe von Metriken, Segmenten und Berichten bei der Verwendung von Analytics als Berichtsquelle für Target (A4T).
 
