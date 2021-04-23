@@ -2,18 +2,18 @@
 keywords: Übersicht und Referenz;Webkit
 description: Erfahren Sie mehr über die ältere Implementierung von "mbox.js"in Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
 title: Wo finde ich Informationen zu mbox.js-Cookies?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1652'
 ht-degree: 92%
 
 ---
 
-# „mbox.js“-Cookies{#mbox-js-cookies}
+# „mbox.js“-Cookies
 
 Das Verhalten von Cookies ist davon abhängig, ob es sich um ein Erstanbieter-Cookie, ein Drittanbieter-Cookie mit Erstanbieter-Cookie oder nur um ein Drittanbieter-Cookie handelt.
 
@@ -117,7 +117,7 @@ Das Cookie enthält verschiedene Werte, mit denen verwaltet werden kann, wie die
 | check | Ein einfacher Testwert, mit dem bestimmt wird, ob ein Besucher Cookies unterstützt. Wird immer dann eingestellt, wenn ein Besucher eine Seite anfordert. |
 | disable | Wird eingestellt, wenn die Ladezeit des Besuchers den in der Datei mbox.js konfigurierten Timeout überschreitet. Standardmäßig ist dieser Wert eine Stunde gültig. |
 
-## Auswirkung auf Target bei Safari-Besuchern wegen der Änderungen des Trackings durch Apple WebKit {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
+## Auswirkungen auf &lt; a0/> für Safari-Besucher aufgrund von Apple WebKit-Verfolgungsänderungen {#section_2A2E5730ED7D4A0985C904AFEA310AAE}[!DNL Target]
 
 **Wie funktioniert das Tracking mit Adobe Target?**
 
