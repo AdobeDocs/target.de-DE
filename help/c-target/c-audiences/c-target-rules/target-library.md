@@ -1,18 +1,18 @@
 ---
 keywords: Targeting; Target-Bibliothek; Bibliothek
 description: Erfahren Sie mehr über das Targeting von Besuchern mit vordefinierten alten Audiencen. Es empfiehlt sich, die neueren Kategorien der Audience zur Leistungsverbesserung zu verwenden.
-title: Kann ich Besucher auf der Grundlage vordefinierter Targeting-Regeln Zielgruppen durchführen?
-feature: Audiences
+title: Kann ich auf der Grundlage vordefinierter Targeting-Regeln Besucher [!DNL Target] erstellen?
+feature: Zielgruppen
+exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
-
-# Ziel-Bibliothek{#target-library}
+# Ziel-Bibliothek
 
 Benutzer basierend auf vorab erstellten Targeting-Regeln gezielt ansprechen
 
