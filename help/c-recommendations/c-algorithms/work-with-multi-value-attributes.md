@@ -1,16 +1,16 @@
 ---
 keywords: Mehrwert;Attribute;Empfehlungen;Mehrwert;Mehrwert;Mehrwert;Mehrwert
-description: Erfahren Sie, wie Sie mit einem Multi-Value-Feld in Adobe Target Recommendations arbeiten können, indem Sie spezielle Multi-Value-Operatoren verwenden, z. B. wenn Sie Filme mit mehreren Darstellern empfehlen.
+description: Erfahren Sie, wie Sie mit einem Multi-Wert-Feld in Adobe [!DNL Target] Recommendations arbeiten können, indem Sie spezielle Multi-Wert-Operatoren verwenden, z. B. wenn Sie Filme mit mehreren Darstellern empfehlen.
 title: Kann ich Attribute mit mehreren Werten in Recommendations verwenden?
 feature: Recommendations
+exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # Arbeiten mit Attributen mit mehreren Werten
 
@@ -119,7 +119,7 @@ JSON API-Darstellung der Einschlussregel:
 
 ### Beispiel: API-Erstellung von Kriterien, die Artikel aus den Favoriten eines Benutzers empfehlen
 
-Kriterien mit Filterregeln mit mehreren Werten können wie alle Kriterien über Adobe I/O APIs erstellt werden. Ein Beispiel-API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut `id` in der Liste des mbox-Parameters `favorites` enthalten ist:
+Kriterien mit Filterregeln mit mehreren Werten können wie alle Kriterien über Adoben I/O-APIs erstellt werden. Ein Beispiel-API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut `id` in der Liste des mbox-Parameters `favorites` enthalten ist:
 
 ```
 curl -X POST \
