@@ -1,16 +1,16 @@
 ---
 keywords: responsiv;mobile Viewports;Viewport;Geräte;Mobil;reaktionsfähiges Webdesign;rwd
-description: Mit mobilen Viewports können Sie sehen, wie Ihre Adobe Target-Aktivitäten auf Bildschirmen unterschiedlicher Größe aussehen. Finden Sie eine Liste der beliebten Viewport-Größen und -Auflösungen des Geräts.
+description: Mit mobilen Viewports können Sie sehen, wie Ihre Adobe [!DNL Target] Aktivitäten auf Bildschirmen unterschiedlicher Größe aussehen. Finden Sie eine Liste der beliebten Viewport-Größen und -Auflösungen des Geräts.
 title: Wie verwende ich mobile Viewports für responsive Erlebnisse?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
+exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1165'
 ht-degree: 36%
 
 ---
-
 
 # Mobile Viewports für responsive Erlebnisse
 
@@ -38,14 +38,14 @@ Nachstehend finden Sie die Viewports und Auflösungen für gängige Geräte. Den
 |---|---|---|
 | iPhone 12 | 390 x 844 | 1170 x 2532 |
 | iPhone 12 Mini | 360 x 780 | 1080 x 2340 |
-| iPhone 11 Pro | 390 x 844 | 1170 x 2532 |
+| iPhone 12 Pro | 390 x 844 | 1170 x 2532 |
 | iPhone 12 Pro Max | 428 x 926 | 1248 x 2778 |
 | iPhone SE | 214 x 379 | 640 x 1136 |
 | iPhone 11 Pro Max | 414 x 896 | 1242 x 2688 |
 | iPhone 11 Xs Max. | 414 x 896 | 1242 x 2688 |
 | iPhone 11 | 414 x 896 | 828 x 1792 |
 | iPhone 11 Xr | 414 x 896 | 828 x 1792 |
-| iPhone 12 Pro | 375 x 812 | 1125 x 2436 |
+| iPhone 11 Pro | 375 x 812 | 1125 x 2436 |
 | iPhone 11 X | 375 x 812 | 1125 x 2436 |
 | iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
 | iPhone X | 375 x 812 | 1125 x 2436 |
