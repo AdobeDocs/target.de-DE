@@ -1,17 +1,17 @@
 ---
 keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;Seite Parameter;Seitenparameter;at.js;Funktionen;Funktion
-description: Verwenden Sie die Funktion targetPageParamsAll() für die JavaScript-Bibliothek "Adobe Target at.js", um Parameter von außerhalb des Anforderungscodes an alle mboxes anzuhängen.
+description: Verwenden Sie die Funktion targetPageParamsAll() für die JavaScript-Bibliothek "Adobe [!DNL Target] at.js", um Parameter an alle mboxes von außerhalb des Anforderungscodes anzuhängen.
 title: Wie verwende ich die Funktion targetPageParamsAll()?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 58fbb62e-30da-486f-b771-6452ad5e27e6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
-
 
 # targetPageParamsAll()
 
