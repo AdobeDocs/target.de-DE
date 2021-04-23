@@ -1,16 +1,16 @@
 ---
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
-description: Lernen Sie die Fehler anderer kennen, damit Sie nicht die gleichen Fehler machen, wenn Sie Adobe Target als Teil Ihrer Test- und Personalisierungsstrategie verwenden.
-title: Was sind häufige Fehler bei der Verwendung von Zielgruppe und wie kann ich sie vermeiden?
-feature: Overview
+description: Machen Sie sich mit den Fehlern anderer vertraut, damit Sie bei der Verwendung von Adobe [!DNL Target] im Rahmen Ihrer Test- und Personalisierungsstrategie nicht dieselben Fehler machen.
+title: Was sind häufige Fehler bei der Verwendung von [!DNL Target] und wie kann ich sie vermeiden?
+feature: Überblick
+exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 2%
+source-wordcount: '412'
+ht-degree: 3%
 
 ---
-
 
 # Kapitel 6: Einfach vermeidbare Fallstricke
 
