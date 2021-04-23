@@ -1,16 +1,16 @@
 ---
 keywords: Inhaltsbibliothek;Assets;Suche;Filter
-description: Erfahren Sie, wie Sie in der Adobe Target Angebots-Bibliothek nach Code- und Image-Angeboten suchen.
+description: Erfahren Sie, wie Sie in der Adobe [!DNL Target] Angebots-Bibliothek nach Code- und Image-Angeboten suchen.
 title: Wie suche ich in der Inhaltsbibliothek nach Angeboten?
-feature: Experiences and Offers
+feature: Erlebnisse und Angebot
+exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 12%
 
 ---
-
 
 # Inhalt durchsuchen
 
