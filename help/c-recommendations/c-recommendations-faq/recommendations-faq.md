@@ -1,16 +1,16 @@
 ---
 keywords: Fehlerbehebung; häufig gestellte Fragen; FAQ; FAQs; Empfehlungen; Sonderzeichen; Attributgewichtung; Ähnlichkeit von Inhalten
-description: Ansicht einer Liste häufig gestellter Fragen und Antworten zu Adobe Target Recommendations-Aktivitäten.
-title: Wo finde ich Fragen und Antworten zur Zielgruppe Recommendations?
+description: Ansicht einer Liste häufig gestellter Fragen und Antworten zur Adobe [!DNL Target] Recommendations-Aktivitäten.
+title: Wo finde ich Fragen und Antworten zu [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2691'
 ht-degree: 40%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) FAQ zu Recommendations
 
@@ -130,7 +130,7 @@ Dieser Gewichtungstyp ist dynamischer und basiert auf dem aktuellen „Empfehlun
 
 ![](assets/content_similarity_example.png)
 
-## Warum ist Target manchmal nicht in der Lage, Empfehlungen anzuzeigen?   {#section_DB3F40673AED42228E407C05437D99E9}
+## Warum können Empfehlungen manchmal nicht angezeigt werden? {#section_DB3F40673AED42228E407C05437D99E9}[!DNL Target]
 
 Target kann manchmal keine Empfehlungen anzeigen, wenn zu wenig Empfehlungen verfügbar sind.
 
@@ -223,5 +223,3 @@ Wenn ein Besucher gleichzeitig zwei aktive Sitzungen hat, werden die zuletzt ang
 Beachten Sie, dass dieses Verhalten weiterhin auftritt, wenn ein Besucher auf einem Gerät aktiv ist und dann einige Minuten später auf dem anderen Gerät aktiv wird. Die Sitzung des ersten Geräts läuft nicht 30 Minuten ab. Es kann bis zu fünf Minuten Verspätung eintreten, bevor der Status des Profils in den Status &quot;Dauerhaft&quot;geschrieben und verarbeitet wird. Die Sitzungsdauer beträgt etwa 35 Minuten, und das Profil wird beim Testen dieses Verhaltens gespeichert.
 
 Wenn der Besucher nicht gleichzeitig über zwei aktive Sitzungen verfügt, werden die zuletzt auf dem anderen Gerät angezeigten Artikel, die zuletzt auf einem Gerät angezeigt wurden, aktualisiert, solange die Sitzung beendet ist. Die Sitzung läuft beim Testen dieses Verhaltens nach 35 Minuten ab.
-
-
