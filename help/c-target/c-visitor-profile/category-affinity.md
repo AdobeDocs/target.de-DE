@@ -1,22 +1,22 @@
 ---
 keywords: Affinität; Kategorieaffinität
-description: Erfahren Sie mehr über die Affinität der Kategorie in Adobe Target, die automatisch die Kategorien erfasst, die ein Benutzer besucht, und dann die Affinität des Benutzers für die Kategorie berechnet, sodass diese zielgerichtet und segmentiert eingesetzt werden kann.
+description: Erfahren Sie mehr über die Affinität der Kategorie in Adobe [!DNL Target] die automatisch die Kategorien erfasst, die ein Benutzer besucht, und anschließend die Affinität des Benutzers für die Kategorie berechnet, damit diese zielgerichtet und segmentiert eingesetzt werden kann.
 title: Was ist Kategorie Affinität?
-feature: Audiences
+feature: Zielgruppen
+exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '811'
 ht-degree: 94%
 
 ---
 
-
-# Kategorieaffinität{#category-affinity}
+# Kategorieaffinität
 
 Die Kategorieaffinitätsfunktion erfasst automatisch alle Kategorien, die ein Benutzer besucht, und berechnet die Affinität des Benutzers für diese Kategorien, sodass diese zielgerichtet und segmentiert eingesetzt werden können. Hierdurch wird gewährleistet, dass Inhalte zielgerichtet auf Besucher angewendet werden, die mit großer Wahrscheinlichkeit aufgrund dieser Informationen handeln.
 
-## Übergeben von Kategorieaffinitätsinformationen an Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## Übergeben von Kategorieaffinitätsinformationen an [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 Wenn ein Benutzer Ihre Site besucht, werden besucherspezifische Profilparameter in der [!DNL Target]-Datenbank aufgezeichnet. Diese Daten sind an das Cookie des Benutzers gebunden. Ein besonders nützlicher Parameter ist `user.categoryId`, ein Mbox-Parameter, der auf einer Produktseite zugewiesen wird. Wenn der Besucher weiter auf der Site surft oder für eine andere Sitzung zurückkehrt, können die Produktkategorien aufgezeichnet werden, die sich ein bestimmter Benutzer ansieht. Kategoriedaten können auch aufgezeichnet werden, indem sie als Mbox-Parameter `user.categoryId` in einer beliebigen Mbox (einschließlich verschachtelter Mboxes), als URL-Parameter `user.categoryId` oder mit globaler Mbox als Target-Seitenparameter übermittelt werden. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
 
