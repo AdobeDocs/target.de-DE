@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;Audience-Filter;Audiencen;Filter
-description: Erfahren Sie, wie Sie Audience-Filter in Adobe Target verwenden, um Daten aus Besuchern mit einer bestimmten Eigenschaft oder einer Reihe von Merkmalen Ansicht.
+description: Erfahren Sie, wie Sie Audience-Filter in Adobe [!DNL Target] verwenden, um Daten aus Besuchern mit einer bestimmten Eigenschaft oder einer Reihe von Merkmalen zu Ansichten.
 title: Kann ich Audience Filter für den Berichte verwenden?
-feature: Audiences
+feature: Zielgruppen
+exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 79%
 
 ---
 
-
-# Zielgruppenfilter für Reporting{#audience-filters-for-reporting}
+# Zielgruppenfilter für Reporting
 
 Zielgruppenfilter (oder Zielgruppen) sind Gruppen von Besuchern, die eine bestimmte Eigenschaft oder mehrere Eigenschaften teilen.
 
@@ -38,4 +38,3 @@ In den folgenden Abschnitten finden Sie weitere Informationen zum Einrichten von
 | Mehrere Zielgruppen kombinieren, sofern erforderlich. | [Mehrere Zielgruppen kombinieren](/help/c-target/combining-multiple-audiences.md) |
 | Zielgruppen auf der Seite Ziele und Einstellungen der Aktivität anwenden. | A/B-Test: [Ziele und Einstellungen](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization:  [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>Erlebnis-Targeting: [Ziele und Einstellungen](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Multivarianz-Test:  [Ziele und Einstellungen](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Einstellungen für die Recommendations-Aktivität](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Einstellungen für die Aktivität: [Aktivitäten-Einstellungen](/help/c-activities/activity-settings.md) |
 | Berichte mit Informationen zu den Zielgruppenfiltern anzeigen. | [Berichtseinstellungen](/help/c-reports/c-report-settings/report-settings.md) |
-
