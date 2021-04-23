@@ -1,13 +1,13 @@
 ---
 keywords: Automatische Zielgruppe erstellen;A/B-Test;Aktivität der automatischen Zielgruppe;neue A/B-Aktivität;automatische Zielgruppe;automatische Zielgruppe für personalisierte Erlebnisse;Personalisiert;Optimierung
-description: Erfahren Sie, wie Sie mit dem Visual Experience Composer (VEC) in Adobe Target Ihre Auto-Zielgruppe-A/B-Test-Aktivität direkt auf einer Seite mit aktivierter Zielgruppe erstellen.
+description: Erfahren Sie, wie Sie den Visual Experience Composer (VEC) in Adobe [!DNL Target] verwenden, um Ihre A/B-Test-Aktivität für die automatische Zielgruppe direkt auf einer  [!DNL Target]-aktivierten Seite zu erstellen.
 title: Wie erstelle ich eine Aktivität für die automatische Zielgruppe?
-feature: Auto-Target
+feature: Automatisches Targeting
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
-source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '929'
 ht-degree: 49%
 
 ---
