@@ -2,17 +2,17 @@
 keywords: Mbox; mbox3rdPartyId; Profilsynchronisierung; Profil synchronisieren
 description: Erfahren Sie, wie Sie die "mbox3rdPartyId"verwenden, die die Besucher-ID Ihres Unternehmens darstellt, z. B. die Mitglieds-ID oder das Treueprogramm Ihres Unternehmens.
 title: Wie verwende ich die Echtzeit-Profil-Synchronisierung für mbox3rdPartyId?
-feature: Audiences
+feature: Zielgruppen
+exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 76%
 
 ---
 
-
-# Echtzeit-Profilsynchronisierung für mbox3rdPartyId{#real-time-profile-syncing-for-mbox-rdpartyid}
+# Echtzeit-Profilsynchronisierung für mbox3rdPartyId
 
 Die „mbox3rdPartyId“ ist die Besucher-ID Ihres Unternehmens, wie z. B. die Mitgliedschafts-ID des Treueprogramms Ihres Unternehmens.
 
@@ -24,7 +24,7 @@ Alle drei bis fünf Minuten werden die Aktualisierungen mit der Datenbank synchr
 
 | PCID (nicht angemeldet) | mbox3rdPartyId (angemeldet) | Zusammengeführt und in der mbox3rdPartyId gespeichert |
 |---|---|---|
-| category=hats | category=skis | kategorie=skis |
+| category=hats | category=skis | Kategorie=skis |
 |  | store=94103 | store=94103 |
 | Aktivität 1, Erlebnis A | Aktivität 1, Erlebnis B | Aktivität 1, Erlebnis B |
 | Aktivität 1 |  | Aktivität 1 |
