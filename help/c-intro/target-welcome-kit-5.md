@@ -2,15 +2,15 @@
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
 description: Wo finde ich Ideen und Anregungen für meine Test- und Personalisierungs-Aktivitäten mit Adobe Target?
 title: Wo finde ich Inspiration für meine Test- und Personalisierungsbemühungen?
-feature: Overview
+feature: Überblick
+exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 0%
 
 ---
-
 
 # Kapitel 5: Anregung zum Testen und Personalisieren von Aktivitäten.
 
@@ -24,7 +24,7 @@ Nachdem Sie diese Audiencen identifiziert haben, führen Sie Benutzererlebnis-Te
 
 Wenn beispielsweise ein Besucher, der in eine &quot;ernsthafte Gamer&quot;-Audience für eine Telekommunikations-Firma fällt, die Website der Firma besucht, eine Erfahrung bereitstellen, die Kopien und Bilder enthält, die bei Spielern Resonanz finden, und ein Angebot für Hochgeschwindigkeits-Internetzugang.
 
-## Idee 2: Zielgruppe von Erstkunden und Wiederholungskunden unterschiedlich.
+## Idee 2: [!DNL Target] Erstmalige Besucher und Wiederholungskunden unterschiedlich.
 
 Digital-Marketingexperten erkennen intuitiv, dass Bestandskunden wertvoller sind als Neukunden, aber sie setzen allzu oft keine Priorität für Marketing-Programm ein, die darauf ausgelegt sind, dass Kunden wieder zurückkehren. Um diese häufige Fallstricke zu vermeiden, analysieren Sie Ihre Metriken für rückkehrende Kunden, um festzustellen, wie sich treue Kunden auf Ihrer Site verhalten. Verwenden Sie diese Einblicke, um zielgerichtete Kampagnen für Besucher mit einem oder zwei Käufen zu erstellen und Anreize zu bieten, zusätzliche Site-Besuche zu tätigen.
 
