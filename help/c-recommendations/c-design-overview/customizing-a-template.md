@@ -1,18 +1,18 @@
 ---
 keywords: Benutzerdefinierter Entwurf; Geschwindigkeit; Dezimal; Komma; Entwurf anpassen
-description: Erfahren Sie, wie Sie mit der Open-Source-Entwurfssprache Velocity Empfehlungsentwürfe in Adobe Target Recommendations anpassen können.
+description: Erfahren Sie, wie Sie mit der Open-Source-Entwurfssprache Velocity Empfehlungsentwürfe in Adobe [!DNL Target] Recommendations anpassen können.
 title: Wie kann ich ein Design mit Geschwindigkeit anpassen?
 feature: Recommendations
+exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Personalisieren Sie einen Entwurf mit Velocity{#customize-a-design-using-velocity}
+# ![PREMIUM](/help/assets/premium.png) Personalisieren Sie einen Entwurf mit Velocity
 
 Verwenden Sie die Open-Source-Entwurfssprache Velocity, um Empfehlungsentwürfe in [!DNL Adobe Target Recommendations] anzupassen.
 
@@ -210,7 +210,7 @@ Wenn Sie Ihre [!DNL Recommendations]-Aktivität erstellen und das Schlüsselelem
 
 ## Ersetzen in einem Zeichenfolgenwert {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-Sie können Ihren Entwurf ändern, um Werte in einer Zeichenfolge zu ersetzen. Ersetzen Sie beispielsweise das in den USA verwendete Dezimalzeichen durch das in Europa und anderen Ländern verwendete Komma-Trennzeichen.
+Sie können Ihren Entwurf ändern, um Werte in einer Zeichenfolge zu ersetzen. Ersetzen Sie beispielsweise das Dezimalzeichen, das in den USA verwendet wird, durch das Komma-Trennzeichen, das in Europa und anderen Ländern verwendet wird.
 
 Folgender Code zeigt eine einzelne Zeile in einem bedingten Verkaufspreis-Beispiel:
 
