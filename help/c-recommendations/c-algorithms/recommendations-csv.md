@@ -1,18 +1,18 @@
 ---
 keywords: Erstellen benutzerdefinierter Kriterien; Algorithmen; Kriterien; Empfehlungskriterien; csv; ftp; CSV hochladen
-description: Erfahren Sie, wie Sie eine CSV-Datei hochladen, um Ihre Empfehlungen in Adobe Target Recommendations anzupassen.
+description: Erfahren Sie, wie Sie eine CSV-Datei hochladen, um Ihre Empfehlungen in Adobe [!DNL Target] Recommendations anzupassen.
 title: Wie lade ich benutzerdefinierte Kriterien in Recommendations hoch?
 feature: Recommendations
+exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 61%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Upload benutzerdefinierter Kriterien{#upload-custom-criteria}
+# ![PREMIUM](/help/assets/premium.png) Upload benutzerdefinierter Kriterien
 
 Laden Sie eine CSV-Datei hoch, um Empfehlungen anzupassen.
 
