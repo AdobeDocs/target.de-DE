@@ -1,16 +1,16 @@
 ---
 keywords: Recommendations;Intro;Einführung;Webinar;Demo
-description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe Target, die automatisch Inhalte anzeigen, die ausgehend von der bisherigen Aktivität oder anderen Algorithmen für Ihre Kunden von Interesse sein könnten.
+description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe [!DNL Target] die automatisch Inhalte anzeigen, die ausgehend von der bisherigen Aktivität oder anderen Algorithmen für Ihre Kunden von Interesse sein könnten.
 title: Was sind Recommendations-Aktivitäten?
 feature: Recommendations
+exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 95%
+source-wordcount: '2115'
+ht-degree: 94%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Einführung in Recommendations
 
@@ -57,7 +57,7 @@ Gute Empfehlungen sollten relevant und personalisiert sein. Zur Steigerung der R
 * **Hochentwickelte Modelle**, um die Millionen von Artikeln in Ihrem Katalog und den Interaktionsereignissen sinnvoll zu ordnen. [!DNL Target] besitzt eine fortschrittliche maschinelle Lernfunktionen, die sich auf jahrelange Erfahrung stützt. Zusätzlich handhaben wir Jahr für Jahr Milliarden von Empfehlungen.
 * **Benutzerkontext**, um sicherzustellen, dass Empfehlungen zeitgerecht und für Ihre Benutzer relevant sind. Sie möchten nicht das Video empfehlen, das sich jemand gerade angesehen hat, oder das Hemd, das jemand gerade in den Einkaufswagen gelegt hat. Das umfassende Benutzerprofil von Target kann in Empfehlungen zur Personalisierung verwendet werden.
 
-## Implementieren von Target Recommendations
+## [!DNL Target] Recommendations implementieren
 
 Beginnen Sie mit einer Strategie.
 
@@ -195,6 +195,6 @@ Im Inhaltskontext möchten Sie beispielsweise vielleicht Filme ausschließen, di
 
 Nachdem Sie die oben im Empfehlungstrichter beschriebenen Aufgaben ausgeführt haben, erhalten Sie Ihre endgültige Empfehlung. Sie können sich eine Produktdemonstration in [!DNL Target] ansehen. Das Demo beginnt um 21:00 Uhr im *Adobe Target Basics-Webinar*, das Sie über den unten stehenden Link erreichen.
 
-## Adobe Target Basics-Webinar: Einführung in Recommendations {#intro-to-recs}
+## Adobe [!DNL Target] Grundlagen Webinar: Einführung in Recommendations {#intro-to-recs}
 
 [Einführung in Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
