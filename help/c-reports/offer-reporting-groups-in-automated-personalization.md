@@ -1,18 +1,18 @@
 ---
 keywords: Automatisierte Personalisierung;Angebot;Berichte;Gruppe;Berichte-Gruppe
-description: Erfahren Sie, wie Sie Angebot-Berichte-Gruppen in Adobe Target Automated Personalization-Aktivitäten verwenden. Mithilfe von Berichte-Gruppen erstellt Zielgruppe nur ein Personalisierungsmodell für jede Berichte-Gruppe.
+description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Automated Personalization activities. Using reporting groups, [!DNL Target] nur ein Personalisierungsmodell für jede Berichte-Gruppe verwenden.
 title: Kann ich Angebot-Berichte-Gruppen in Automated Personalization-Aktivitäten verwenden?
-feature: Reports
+feature: Berichte
+exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 61%
+source-wordcount: '441'
+ht-degree: 63%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Angebotsberichtsgruppen in der automatisierten Personalisierung{#offer-reporting-groups-in-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Angebotsberichtsgruppen in der automatisierten Personalisierung
 
 Informationen zur Verwendung von Berichten in [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP)-Aktivitäten.
 
@@ -46,11 +46,10 @@ Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe 
 
    ![](assets/ap_manage_content_3.png)
 
-1. (Bedingt) Um das ausgewählte Angebot einer vorhandenen Berichte-Gruppe zuzuweisen, wählen Sie **[!UICONTROL Vorhandene]**, wählen Sie die gewünschte Berichte-Gruppe aus der Dropdown-Liste und klicken Sie dann auf **[!UICONTROL Anwenden]**.
+1. (Bedingt) Um das ausgewählte Angebot einer bestehenden Berichte-Gruppe zuzuweisen, wählen Sie **[!UICONTROL Vorhandene]**, wählen Sie die gewünschte Berichte-Gruppe aus der Dropdown-Liste und klicken Sie dann auf **[!UICONTROL Anwenden]**.
 
    Oder
 
    Um eine neue Berichtsgruppe zu erstellen, der Sie das ausgewählte Angebot zuweisen können, wählen Sie **[!UICONTROL Neu]** aus, geben Sie den Namen der neuen Berichtsgruppe ein und klicken Sie auf **[!UICONTROL Übernehmen]**.
 
    ![](assets/ap_reporting_groups.png)
-
