@@ -1,16 +1,16 @@
 ---
 keywords: mvt;Multivarianz-Test;Angebote;Kombinationen
-description: Erfahren Sie, wie Sie mit dem Visual Experience Composer (VEC) in Adobe Target die Angebot erstellen, die Sie in Ihren Multivarianz-Test (MVT) aufnehmen möchten.
+description: Erfahren Sie, wie Sie mit dem Visual Experience Composer (VEC) in Adobe [!DNL Target] die Angebot erstellen, die Sie in Ihren Multivarianz-Test (MVT) einbeziehen möchten.
 title: Wie erstelle ich Kombinationen in Multivarianz-Tests (MVT)?
-feature: Multivariate Tests
+feature: Multivarianz-Tests
+exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
-
 
 # Erstellen von Kombinationen
 
@@ -65,4 +65,3 @@ Jedes Text-/HTML-Angebot wird zu einem eigenen Erlebnis an diesem Ort.
 * Sie müssen mindestens drei Testelemente haben. Wenn Sie weniger haben, starten Sie eine Reihe von  A/B-Tests.
 * Es wird empfohlen, dass sich die Alternativen der einzelnen Elemente deutlich voneinander unterscheiden.
 * Eine bewährte, wenn auch nicht erforderliche Vorgehensweise besteht darin, für jedes Element die gleiche Anzahl von Alternativen zu verwenden.
-
