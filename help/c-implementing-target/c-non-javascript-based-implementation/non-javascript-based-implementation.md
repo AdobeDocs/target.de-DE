@@ -1,19 +1,19 @@
 ---
 keywords: Implementierung; mbox.js nicht-JavaScript; AdBox; Weiterleitung; Mbox
-description: Erfahren Sie, wie Sie Adobe Target in Szenarien ohne JavaScript implementieren, z. B. mit einer AdBox oder einer Weiterleitung.
-title: Wie implementiere ich die Zielgruppe für E-Mail?
-feature: Implement Email
+description: Erfahren Sie, wie Sie Adobe [!DNL Target] in Nicht-JavaScript-Szenarien implementieren, z. B. bei Verwendung einer AdBox oder einer Weiterleitung.
+title: Wie implementiere ich [!DNL Target] für E-Mail?
+feature: E-Mail implementieren
 role: Developer
+exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 77%
 
 ---
 
-
-# E-Mail: Target-Implementierung{#email-implement-target}
+# E-Mail: Target-Implementierung
 
 Informationen zum Implementieren von Target in Nicht-JavaScript-Szenarien, beispielsweise AdBox- oder Weiterleitungsverwendung.
 
