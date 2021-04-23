@@ -1,18 +1,18 @@
 ---
 keywords: Kontakt; legal; technischer Support; technischer Support; Support; Service; Fähigkeiten; Rechnungsstellung; Feedback
-description: Erfahren Sie mehr über zusätzliche Ressourcen, die Ihnen helfen, mehr über Adobe Target-Funktionen zu erfahren und Adoben zu kontaktieren, falls Sie Hilfe bei der Zielgruppe benötigen.
+description: Erfahren Sie mehr über zusätzliche Ressourcen, die Ihnen helfen, mehr über Adobe [!DNL Target] Funktionen zu erfahren und wie Sie mit der Adobe in Verbindung treten können, falls Sie Hilfe benötigen. [!DNL Target]
 title: Wo finde ich Ressourcen und Kontaktinformationen für die Zielgruppe?
-feature: Release Notes,Overview
+feature: Versionshinweise, Übersicht
+exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1231'
 ht-degree: 76%
 
 ---
 
-
-# Ressourcen und Kontaktinformationen{#resources-and-contact-information}
+# Ressourcen und Kontaktinformationen
 
 Informationen zu zusätzlichen Ressourcen, mit denen Sie mehr über die Target-Funktionen lernen und erfahren, wie Sie sich an Adobe wenden können, wenn Sie Unterstützung für Target benötigen.
 
@@ -65,7 +65,7 @@ Unser Kundendienst hilft Ihnen im Falle eines Problems gern weiter. Auf dieser S
 
 Wenn Sie auf Probleme stoßen oder Fragen bei der Verwendung von Target haben, haben Sie eine Reihe von Möglichkeiten:
 
-Bei Fragen können Sie sich an die Adobe Target-Experten in der [Experience Cloud-Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) wenden oder uns auf Twitter unter [@AdobeExpCare](https://twitter.com/adobeexpcare) fragen.
+Bei Fragen können Sie sich an die Adobe Target-Experten in der [Experience Cloud-Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) wenden oder uns unter [@AdobeExpCare](https://twitter.com/adobeexpcare) fragen.
 
 Bei technischen Problemen oder um einen Fehler einzugeben, können Sie den Kundendienst kontaktieren. Sie erreichen den Kundendienst telefonisch unter 1-800-497-0335. Gebührenfreie Nummern außerhalb der Vereinigten Staaten finden Sie auf der Seite [Adobe Digital Marketing-Kundendienst Regionale Telefonnummern](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Wenn Sie aufgefordert werden, eine Option für Ihr Produkt auszuwählen, drücken Sie die 3, um das Target-Team zu kontaktieren.
 
