@@ -1,22 +1,22 @@
 ---
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Weiterleitung; Weiterleitungsangebot; adobe-mc-sdid; adobe_mc_ref
-description: Antworten auf Fragen zur Verwendung von Umleitungs-Angeboten bei der Verwendung von Analytics für die Zielgruppe (A4T). Mit A4T können Sie Analytics-Berichte für Aktivitäten der Zielgruppe verwenden.
+description: Antworten auf Fragen zur Verwendung von Umleitungs-Angeboten bei der Verwendung von Analytics für [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] Aktivitäten
 title: Wo finde ich häufig gestellte Fragen zu Umleitungs-Angeboten mit A4T?
 feature: Analytics for Target (A4T)
+exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1218'
 ht-degree: 69%
 
 ---
-
 
 # Umleitungsangebote – Häufig gestellte Fragen zu A4T
 
 Dieses Thema enthält Antworten auf häufig gestellte Fragen zur Verwendung von Umleitungs-Angeboten, wenn [!DNL Adobe Analytics] als Berichte für [!DNL Adobe Target] (A4T) verwendet wird.
 
-## Unterstützt Analytics for Target (A4T) Umleitungsangebote? {#section_46B8B03ED4D542C6AD875F5F61176298}
+## Unterstützt Analytics für Adobe Target (A4T) Umleitungs-Angebot? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Ja, wenn Ihre Implementierung [!DNL at.js] verwendet. Ihre Implementierung muss jedoch die unten aufgeführten Mindestanforderungen erfüllen, um [Weiterleitungsangebote](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in Aktivitäten zu verwenden, die Analytics als Berichtsquelle verwenden.
 
