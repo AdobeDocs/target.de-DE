@@ -1,22 +1,22 @@
 ---
 keywords: Targeting;Visual Experience Composer;VEC;Fehlerbehebung Visual Experience Composer;Fehlerbehebung;TLS;TLS 1.2
-description: Erfahren Sie, wie Sie unter bestimmten Bedingungen Probleme beheben können, die manchmal im Adobe Target Visual Experience Composer (VEC) auftreten.
+description: Erfahren Sie, wie Sie unter bestimmten Umständen Probleme beheben, die manchmal in der Adobe [!DNL Target] Visual Experience Composer (VEC) auftreten.
 title: Wie behebe ich Fehler im Zusammenhang mit Visual Experience Composer?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
+exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 90%
+source-wordcount: '800'
+ht-degree: 89%
 
 ---
-
 
 # Fehlerbehebung in Zusammenhang mit Visual Experience Composer
 
 Anzeigeprobleme treten manchmal unter bestimmten Bedingungen im [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) auf.
 
-## Wenn ich meine Website im Visual Experience Composer öffne, werden die Target-Bibliotheken nicht geladen. (nur VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Wenn ich meine Website im Visual Experience Composer öffne, werden die Bibliotheken [!DNL Target] nicht geladen. (nur VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Target fügt zwei Parameter (`mboxEdit=1` und `mboxDisable=1`) beim Öffnen der Website im Visual Experience Composer hinzu.
 
