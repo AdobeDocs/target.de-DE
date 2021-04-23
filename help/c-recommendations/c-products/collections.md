@@ -1,18 +1,18 @@
 ---
 keywords: Sammlung; Targeting
-description: Erfahren Sie, wie Sie Sammlungen in Adobe Target Recommendations verwenden. Eine Sammlung ist ein Satz von Produkten oder Artikeln, die für die Empfehlung infrage kommen.
+description: Erfahren Sie, wie Sie Sammlungen in Adobe [!DNL Target] Recommendations verwenden. Eine Sammlung ist ein Satz von Produkten oder Artikeln, die für die Empfehlung infrage kommen.
 title: Wie verwende ich Sammlungen in Recommendations-Aktivitäten?
 feature: Recommendations
+exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 60%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Sammlungen {#collections}
+# ![PREMIUM](/help/assets/premium.png) Sammlungen
 
 Eine Sammlung ist ein Satz von Produkten oder Artikeln, die für die Empfehlung infrage kommen. Eine Sammlung wird definiert, indem die Bedingungen angegeben werden, die von Elementen erfüllt werden müssen, die Teil der Sammlung sein müssen.
 
