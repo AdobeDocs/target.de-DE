@@ -1,18 +1,18 @@
 ---
 keywords: Berichte; Herunterladen von Berichten; csv; Erfolgsmetriken; Bestelldetails
-description: Erfahren Sie, wie Sie Daten von Adobe Target-Aktivitäten im CVS-Format herunterladen können, um sie schnell in Excel, Access oder andere Programm zur Analyse von Daten zu importieren.
+description: Erfahren Sie, wie Sie Daten von Adobe [!DNL Target] Aktivitäten im CVS-Format herunterladen können, um sie schnell in Excel, Access oder andere Programm zur Analyse von Daten zu importieren.
 title: Wie lade ich Berichtsdaten in eine CSV-Datei herunter?
-feature: Reports
+feature: Berichte
+exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
-
-# Herunterladen von Daten in Form einer CSV-Datei{#downloading-data-in-a-csv-file}
+# Herunterladen von Daten in Form einer CSV-Datei
 
 Sie können Daten im .csv-Format herunterladen, um sie schnell in Excel, Access oder andere Datenanalyseprogramme zu importieren.
 
