@@ -1,18 +1,18 @@
 ---
 keywords: Multivarianz;MVT;Vorschau;Erlebnisse
-description: Erfahren Sie, wie Sie mithilfe des Visual Experience Composer (VEC) die einzelnen Erlebnisse in einer Multivarianz-Test-(MVT-)Aktivität in Adobe Target Vorschau haben.
+description: Erfahren Sie, wie Sie die einzelnen Erlebnisse in einer Multivarianz-Test-Aktivität (MVT) in Adobe [!DNL Target] mit dem Visual Experience Composer (VEC) Vorschau haben.
 title: Wie kann ich Erlebnisse für einen Multivarianz-Test (MVT) Vorschau durchführen?
-feature: Multivariate Tests
+feature: Multivarianz-Tests
+exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 68%
 
 ---
 
-
-# Erlebnisvorschau für Multivarianz-Tests{#preview-experiences-for-a-multivariate-test}
+# Erlebnisvorschau für Multivarianz-Tests
 
 Da ein [!UICONTROL Multivarianz-Test] in [!DNL Adobe Target] mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, die Seite mit jedem Erlebnis Vorschau.
 
@@ -37,4 +37,3 @@ Da ein [!UICONTROL Multivarianz-Test] in [!DNL Adobe Target] mehrere Erlebnisse 
    Standardmäßig werden alle Erlebnisse in einen Multivariater Test einbezogen. Um ein Erlebnis einzubeziehen, das zuvor ausgeschlossen wurde, wählen Sie das ausgeschlossene Erlebnis und klicken Sie auf **[!UICONTROL Einbeziehen]**.
 
 Klicken Sie auf **[!UICONTROL Vorschaumodus verlassen]**, um zum Experience Composer zurückzukehren, sodass Sie Änderungen vornehmen können, oder klicken Sie auf **[!UICONTROL Weiter]**, um zur Testzusammenfassung zu wechseln.
-
