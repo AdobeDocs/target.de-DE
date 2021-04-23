@@ -1,16 +1,16 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Erfahren Sie, wie Sie die Traffic-Schätzung verwenden, mit der Sie erfahren, ob Sie über ausreichend Traffic verfügen, damit Ihre Adobe Target Multivarianz-Test-Aktivität erfolgreich ist.
+description: Erfahren Sie, wie Sie die Traffic-Schätzung verwenden, mit der Sie erfahren, ob Sie über ausreichend Traffic verfügen, damit Ihre Adobe [!DNL Target] Multivarianz-Test-Aktivität erfolgreich ist.
 title: Wie viel Traffic wird für eine Multivarianz-Test-Aktivität benötigt?
-feature: Multivariate Tests
+feature: Multivarianz-Tests
+exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 92%
+source-wordcount: '502'
+ht-degree: 93%
 
 ---
-
 
 # Schätzen des für einen erfolgreichen Test erforderlichen Traffics
 
@@ -61,4 +61,3 @@ Die Traffic-Schätzung liefert auch Feedback, aus dem Sie erfahren, ob Sie über
    Passen Sie die Zahlen so lange an, bis die Traffic-Schätzung Ihnen mitteilt, dass Sie über ausreichend Traffic verfügen. Dann können Sie Ihren Entwurf entsprechend entwerfen.
 
    ![](assets/estimatorok.png)
-
