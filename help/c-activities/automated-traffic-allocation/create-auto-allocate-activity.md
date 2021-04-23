@@ -1,16 +1,16 @@
 ---
 keywords: Erstellen Sie eine automatische Zuordnung;A/B-Test;Aktivität automatisch zuordnen;Neue a/b-Aktivität;Automatisches Zuordnen;Automatisches Zuordnen zu bestem Erlebnis;Zuweisen;Automatisches Zuordnen
-description: Erfahren Sie, wie Sie mit dem Visual Experience Composer (VEC) in Adobe Target eine automatisch zugewiesene A/B-Test-Aktivität direkt auf einer Zielgruppe erstellen.
+description: Erfahren Sie, wie Sie den Visual Experience Composer (VEC) in Adobe [!DNL Target] verwenden, um eine automatisch zugewiesene A/B-Test-Aktivität direkt auf einer  [!DNL Target]-aktivierten Seite zu erstellen.
 title: Wie erstelle ich eine Aktivität mit automatisierter Zuordnung?
-feature: Auto-Allocate
+feature: Automatische Zuordnung
+exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '907'
 ht-degree: 57%
 
 ---
-
 
 # Erstellen einer Aktivität mit automatisierter Zuordnung
 
