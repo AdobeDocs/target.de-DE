@@ -1,16 +1,16 @@
 ---
 keywords: Target; Berichte; Berichtseinstellungen; Umgebung; Steigerung; Steigerungsgrenze; Varianz; Konfidenz; Steuern
-description: Erfahren Sie, wie Sie Adobe Target-Berichte interpretieren, die Datenpunkte und Visualisierungsdarstellungen enthalten, damit Sie die Steigerungs- und Konfidenzniveaus Ihrer Aktivitäten besser verstehen können.
+description: Erfahren Sie, wie Sie Adobe [!DNL Target] Berichte interpretieren, die Datenpunkte und Visualisierungsdarstellungen enthalten, um die Steigerungs- und Konfidenzstufe Ihrer Aktivitäten zu verstehen.
 title: Wie kann ich die durchschnittliche Steigerung, die Lift-Grenze und das Konfidenzintervall für die Ansicht ermitteln?
-feature: Reports
+feature: Berichte
+exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
-
 
 # Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall
 
