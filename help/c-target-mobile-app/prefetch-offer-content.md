@@ -1,19 +1,19 @@
 ---
-keywords: angebot;prefetch;iOS;android;sdk;mobile;mobile SDK
-description: Verwenden Sie die Adobe Target-Prefetch-Funktion in den iOS- und Android Mobile-SDKs, um so oft wie möglich Angebot-Inhalte abzurufen, indem Sie die Serverantworten zwischenspeichern.
+keywords: Angebot;prefetch;iOS;android;sdk;mobile;mobile SDK
+description: Verwenden Sie die Funktion "Adobe [!DNL Target] prefetch"in den iOS- und Android Mobile-SDKs, um Angebot-Inhalte so oft wie möglich abzurufen, indem Sie die Serverantworten zwischenspeichern.
 title: Kann ich Angebot-Inhalte für mobile Apps im Voraus abrufen?
-feature: Implement Mobile
+feature: Mobile implementieren
 role: Developer
+exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '248'
 ht-degree: 47%
 
 ---
 
-
-# Vorabruf des Angebotsinhalts{#prefetch-offer-content}
+# Vorabruf des Angebotsinhalts
 
 Die [!DNL Target] Vorabruffunktion verwendet die iOS- und Android Mobile-SDKs, um so wenige Angebotsinhalte wie möglich abzurufen, indem sie die Serverantworten zwischenspeichert.
 
