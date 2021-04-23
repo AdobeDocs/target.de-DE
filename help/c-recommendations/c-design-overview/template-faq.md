@@ -1,18 +1,18 @@
 ---
 keywords: Empfehlungen; häufig gestellte Fragen; FAQ
-description: Lesen Sie eine Liste häufig gestellter Fragen und Antworten zu Adobe Target Recommendations-Designs.
-title: Wo kann ich auf Designfragen für die Zielgruppe Recommendations antworten?
+description: Lesen Sie eine Liste häufig gestellter Fragen (FAQs) und deren Antworten zu Adoben [!DNL Target] Recommendations-Designs.
+title: Wo kann ich auf Designfragen für  [!DNL Target] Recommendations antworten?
 feature: Recommendations
+exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 84%
+source-wordcount: '411'
+ht-degree: 85%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Design-FAQ {#design-faq}
+# ![PREMIUM](/help/assets/premium.png) Design-FAQ
 
 Liste der häufig gestellten Fragen zu [!DNL Adobe Target] Empfehlungsentwürfen.
 
