@@ -1,22 +1,22 @@
 ---
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Bericht; Berichte; Berichte anzeigen; Berichterstellung; Zählmethodik; Impressionen; Besucher; Besuche; Standardmetrik; Aktivitätskonversionen; unspezifisch
-description: Antworten auf Fragen, die häufig nach der Anzeige von Berichten bei der Verwendung von Analytics für die Zielgruppe (A4T) gestellt werden. Mit A4T können Sie Analytics-Berichte für Aktivitäten der Zielgruppe verwenden.
+description: Ermitteln Sie Antworten auf Fragen, die bei der Verwendung von Analytics für [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] Aktivitäten häufig nach der Anzeige von Berichten gefragt werden.
 title: Antworten auf Fragen zur Ansicht von Berichten mit A4T?
 feature: Analytics for Target (A4T)
+exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 translation-type: tm+mt
-source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 38%
+source-wordcount: '2512'
+ht-degree: 37%
 
 ---
-
 
 # Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 
 Dieses Thema enthält Antworten auf Fragen, die häufig nach der Anzeige von Berichten bei Verwendung von [!DNL Adobe Analytics] als Berichte für [!DNL Adobe Target] (A4T) gefragt werden.
 
-## Kann ich meine Target-Aktivitätsdaten im Analysis Workspace anzeigen? {#workspace}
+## Kann ich meine [!DNL Target]-Aktivität-Daten in Analysis Workspace Ansicht haben? {#workspace}
 
 Sie können [!DNL Analysis Workspace] verwenden, um Ihre [!DNL Target]-Aktivitäten und -Erlebnisse zu analysieren. Im Bedienfeld [Analytics für Zielgruppen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) können Sie Steigerung und Konfidenz für bis zu drei Erfolgsmetriken sehen. Mithilfe von Tabellen und Visualisierungen können Sie auch tiefer graben.
 
@@ -28,7 +28,7 @@ Segmente werden am häufigsten am oberen Rand eines Bedienfelds in der Segment-D
 
 Ein Segment kann auch direkt in der Freiformtabelle überlagert werden. Beachten Sie jedoch, dass Sie es über die gesamte Tabelle hinweg überlagern müssen, um die Steigerungs- und Konfidenzberechnungen im A4T-Bedienfeld beizubehalten. Segmente auf Spaltenebene werden derzeit im Bedienfeld nicht unterstützt.
 
-## Warum werden nicht verwandte Erlebnisse zurückgegeben, wenn ich ein Treffersegment für eine bestimmte Zielgruppe-Aktivität anwenden möchte? {#activity-segmentation}
+## Warum werden nicht verwandte Erlebnisse zurückgegeben, wenn ich ein Treffersegment für eine bestimmte [!DNL Target]-Aktivität anwende? {#activity-segmentation}
 
 Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. (Hinweis: Diese Ablaufzeit kann bei Bedarf vom Kundendienst angepasst werden. Während Besucher durch die Site in diesem Ablauffenster navigieren, gehören sie zu vielen [!DNL Target]-Aktivitäten, die alle in der Dimension erfasst werden.
 
@@ -75,7 +75,7 @@ Nach dem Klassifizierungszeitraum werden Daten ca. eine Stunde nach Erfassung au
 
 Wenn die Klassifizierung für diese Aktivität durchgeführt wurde und Sie trotzdem eine Zeile &quot;Nicht angegeben&quot;im Bericht sehen, stellen Sie sicher, dass der Bericht keine Nicht-[!DNL Target]-Metrik verwendet, um die Daten anzuzeigen. Sofern der Bericht keine [!DNL Target]-spezifische Metrik verwendet, enthält diese Zeile &quot;Nicht angegeben&quot;Ereignis für Aufrufe, die nicht mit [!DNL Target] verknüpft sind. Diese Zeile enthält keine [!DNL Target]-verknüpften Informationen (z. B. Besucher/Besuche/Impressionen).
 
-## Warum werden Target-Metriken auch dann noch an Analytics gesendet, wenn die Aktivität deaktiviert wurde? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## Warum werden [!DNL Target]-Metriken nach der Deaktivierung der Aktivität an Analytics gesendet? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. Dieser Ablaufzeitraum kann bei Bedarf vom Kundendienst angepasst werden. Diese Einstellung gilt für alle Aktivitäten, daher sollte sie nicht nur für einen Fall angepasst werden.
 
@@ -105,16 +105,16 @@ Der Benutzer kehrt am 1. März zurück und sieht die neue Aktivität ABC. Er sie
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 1 | 3 |
+| XYZ | 1 | 15 | 3 | 1 |
+| ABC | 1 | 5 | 1 | 1 |
 
 Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und tätigt einen Kauf. Die 90-Tage-Ablaufzeit dieses ersten eVar wird am 1. April zurückgesetzt, sodass Sie dies in Berichte sehen können. Und allen Target-Aktivitäten, die der Benutzer sieht, wird die Konversion gutgeschrieben, die Gesamtzahl der Konversionen wird jedoch dedupliziert:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Individuelle Besucher | Bestellungen |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 3 |
-| ABC | 1 | 10 | 2 | 1 | 3 |
-| Gesamt | 2 | 20 | 1 | 1 | 3 |
+| XYZ | 3 | 20 | 4 | 1 | 3 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
+| Gesamt | 2 | 20 | 3 | 3 | 1 |
 
 Da beide Erlebnisse vor der Konvertierung gesehen wurden, erhalten beide Erlebnisse eine &quot;Gutschrift&quot;für die Bestellung. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für [!DNL Target]-Berichte, da Sie keine [!DNL Target]-Aktivität gegen eine andere Aktivität stellen, um zu sehen, welche erfolgreicher ist, ist es egal, dass alle Aktivitäten, die der Benutzer gesehen hat, gutgeschrieben wurden. Sie vergleichen die Ergebnisse zweier Elemente innerhalb einer Aktivität. Es ist für einen Benutzer nicht möglich, verschiedene Erlebnisse auf die gleiche Aktivität zu sehen, sodass Sie sich keine Sorgen über eine Kreuzkontamination der Bestellungskredite machen müssen.
 
@@ -124,7 +124,7 @@ Weitere Informationen finden Sie unter [Umrechnungsvariablen (eVar](https://expe
 
 Eine Quelle von Impressionen für einen Bericht einer A4T-Aktivität nach der Deaktivierung kann QS-Modus-Traffic sein. Zielgruppe protokolliert normalerweise keine Ereignis für eine deaktivierte Aktivität, Analytics kann jedoch nicht erkennen, dass Impressionen aus dem QS-Modus stammen. Wenn der Bericht zur Zielgruppe-Aktivität aus Analytics abgerufen wird, werden diese Impressionen angezeigt. Dies funktioniert wie vorgesehen, da Kunden eine Möglichkeit benötigen, A4T-Berichte zu prüfen, auch wenn die Aktivität nicht im QS-Modus aktiv ist.
 
-## Warum berechnen Analytics und Analytics for Target (A4T) die Zahlen für die Metrik „Unique Visitors“ unterschiedlich? {#section_0C3B648AB54041F9A2AA839D51791883}
+## Warum werden Zahlen für die Metrik &quot;Individuelle Besucher&quot;in Analytics und Analytics for Adobe Target (A4T) unterschiedlich berechnet? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 Wenn Sie einen A/B-Test ausführen, der den Student-t-Test (die Konfidenzmetrik) verwendet, um einen Gewinner auszuwählen, gilt unter anderem die Annahme, dass es einen festen Zeithorizont gibt. Der Test ist nur dann statistisch gültig, wenn Sie diese feste Stichprobengröße untersuchen.
 
