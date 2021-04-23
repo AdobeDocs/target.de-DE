@@ -1,20 +1,20 @@
 ---
 keywords: Recommendations;Recommendations-Kriterien;Empfehlungsalgorithmen;Aktivität von Empfehlungen;Kriterien;Empfehlungs-Targeting;recs
-description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe Target, die automatisch Inhalte anzeigen, die ausgehend von der bisherigen Aktivität oder anderen Algorithmen für Ihre Kunden von Interesse sein könnten.
-title: Was ist Zielgruppe Recommendations?
+description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe [!DNL Target] die automatisch Inhalte anzeigen, die ausgehend von der bisherigen Aktivität oder anderen Algorithmen für Ihre Kunden von Interesse sein könnten.
+title: Was ist [!DNL Target] Recommendations?
 feature: Recommendations
+exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '929'
 ht-degree: 58%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) Recommendations
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
-
-[!DNL Adobe Target Recommendations] aktivitäten zeigen automatisch Produkte, Dienste oder Inhalte an, die ausgehend von früheren Aktivitäten, Voreinstellungen oder anderen Kriterien für Ihre Besucher von Interesse sein könnten. [!DNL Target Recommendations] hilft, Besucher zu relevanten Artikeln zu leiten, von denen sie sonst möglicherweise nichts wissen. [!DNL Recommendations] Sie können Ihren Besuchern relevante Inhalte zum richtigen Zeitpunkt und an der richtigen Stelle bereitstellen.
+[!DNL Adobe Target Recommendations] Aktivitäten zeigen automatisch Produkte, Dienste oder Inhalte an, die ausgehend von früheren Aktivitäten, Voreinstellungen oder anderen Kriterien für Ihre Besucher von Interesse sein könnten. [!DNL Target Recommendations] hilft, Besucher zu relevanten Artikeln zu leiten, von denen sie sonst möglicherweise nichts wissen. [!DNL Recommendations] Sie können Ihren Besuchern relevante Inhalte zum richtigen Zeitpunkt und an der richtigen Stelle bereitstellen.
 
 >[!NOTE]
 >
