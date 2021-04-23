@@ -1,17 +1,17 @@
 ---
 keywords: globale Mbox;Target Classic;globale Mbox mit Target Classic verwenden
-description: Erfahren Sie, wie Sie eine veraltete globale Mbox für Ihre Adobe Target-Aktivitäten verwenden können, wenn Sie bereits eine globale Mbox auf Ihren Seiten für Ihre älteren Implementierungen erstellt haben.
+description: Erfahren Sie, wie Sie eine veraltete globale Mbox für Ihre Adobe [!DNL Target] Aktivitäten verwenden, wenn Sie bereits eine globale Mbox für Ihre älteren Implementierungen auf Ihren Seiten erstellt haben.
 title: Kann ich eine globale Mbox aus einer älteren Implementierung verwenden?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 41%
 
 ---
-
 
 # Globale Mbox aus einer älteren Implementierung verwenden
 
