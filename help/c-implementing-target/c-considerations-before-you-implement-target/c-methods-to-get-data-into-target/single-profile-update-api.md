@@ -1,14 +1,14 @@
 ---
 keywords: implementieren;Implementierung;Einrichten;Setup;Update eines einzelnen Profils
-description: Daten mit der Single Profil Update API in die Zielgruppe laden
-title: Wie erhalte ich Daten mithilfe der API für die Aktualisierung von Profilen in die Zielgruppe?
-feature: Implementation
+description: 'Daten können Sie mit der Single Profil Update API abrufen. [!DNL Target] '
+title: 'Wie erhalte ich Daten mit der API für die Aktualisierung von einzelnen Profilen? [!DNL Target] '
+feature: Implementierung
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 45%
 
 ---
