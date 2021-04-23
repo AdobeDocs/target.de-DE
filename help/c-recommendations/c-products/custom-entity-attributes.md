@@ -1,19 +1,19 @@
 ---
 keywords: Entitätsattribute mit mehreren Werten; benutzerdefinierte Entitätsattribute; Gültiges JSON; Entitätsattributwert; JSON-Array; mehrere Werte; mehrwertig
-description: Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten verwenden, um weitere Informationen zu Artikeln in Ihrem Adobe Target Recommendations-Katalog zu definieren.
+description: Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten verwenden, um weitere Informationen zu Elementen in Ihrer Adobe [!DNL Target] Recommendations-Katalog zu definieren.
 title: Wie verwende ich benutzerdefinierte Entitätsattribute?
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 89%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Personalisierte Entitätsattribute{#custom-entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) Personalisierte Entitätsattribute
 
 Verwenden Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten in [!DNL Adobe Target Recommendations], um weitere Informationen zu Elementen in Ihrem Katalog zu definieren.
 
