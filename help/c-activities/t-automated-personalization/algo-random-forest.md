@@ -1,16 +1,16 @@
 ---
 keywords: zufälliger Wald;Entscheidungsbaum;ap;Automated Personalization
-description: Erfahren Sie, wie Adobe Target den Random Forest-Algorithmus sowohl in Automated Personalization- (AP) als auch in Auto-Zielgruppe-Aktivitäten verwendet.
-title: Wie verwendet die Zielgruppe den Random Forest-Algorithmus?
-feature: Automated Personalization
+description: Erfahren Sie, wie Adobe [!DNL Target] den Random Forest-Algorithmus sowohl in Automated Personalization- (AP) als auch in der Auto-Zielgruppe-Aktivität verwendet.
+title: Wie verwendet [!DNL Target] den Random Forest-Algorithmus?
+feature: Automatisierte Personalisierung
+exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 95%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Random-Forest-Algorithmus
 
