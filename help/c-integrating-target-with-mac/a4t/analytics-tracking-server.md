@@ -1,16 +1,16 @@
 ---
 keywords: Analytics-Tracking-Server;A4T;Adobe Experience Cloud-Debugger;Adobe Experience Platform-Debugger;Berichte-Quelle;Entwicklerwerkzeuge
-description: 'Hier erfahren Sie, wie Sie einen Analytics-Tracking-Server für Aktivitäten angeben, die Analytics für die Zielgruppe (A4T) verwenden, wenn Sie eine ältere Version von at.js oder mbox.js verwenden. '
+description: 'Erfahren Sie, wie Sie einen Analytics-Tracking-Server für Aktivitäten angeben, die Analytics für  [!DNL Target] (A4T) verwenden, wenn Sie eine ältere Version von at.js oder mbox.js verwenden. '
 title: Wie verwende ich einen Analytics-Tracking-Server?
 feature: Analytics for Target (A4T)
+exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 20%
 
 ---
-
 
 # Verwenden eines Analytics-Trackingservers
 
@@ -77,4 +77,3 @@ Die Entwicklerwerkzeuge sollten auf einer Seite angezeigt werden, auf der die Ak
    >[!NOTE]
    >
    >Wählen Sie [!UICONTROL Analytics als Berichte Source] für Ihre Aktivität aus, damit das Feld [!UICONTROL Tracking-Server] verfügbar ist.
-
