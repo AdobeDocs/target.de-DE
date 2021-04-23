@@ -1,18 +1,18 @@
 ---
 keywords: Benutzeroberfläche der Zielgruppe;Benutzeroberfläche;ui
 description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie Links zu detaillierteren Informationen, um die Zielgruppe optimal zu nutzen.
-title: Wie verwende ich die Benutzeroberfläche der Zielgruppe?
-feature: Overview
+title: Wie verwende ich die  [!DNL Target] Benutzeroberfläche?
+feature: Überblick
+exl-id: ce4c72b2-b635-406b-9830-650816445a64
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '816'
 ht-degree: 27%
 
 ---
 
-
-# Die Benutzeroberfläche der Zielgruppe
+# Die [!DNL Target]-Benutzeroberfläche
 
 Die Benutzeroberfläche ist in einem logischen und benutzerfreundlichen Format angeordnet, damit Sie [!DNL Adobe Target] optimal nutzen können. Die folgende Kurzübersicht hilft Ihnen, sich mit [!DNL Target] vertraut zu machen und enthält Links für detailliertere Informationen und Schritt-für-Schritt-Anleitungen.
 
@@ -38,7 +38,7 @@ Mit dem App-Umschalter können Sie schnell auf die [!DNL Adobe Experience Cloud]
 
 ## Hilfe 
 
-Über das Hilfesymbol können Sie auf Informationen, Videos, Blogs und mehr zugreifen, um [!DNL Target] effektiver zu verwenden. Sie können ein Support-Ticket erstellen, Support-Telefonnummern finden, Fragen über Twitter stellen oder Feedback zu [!DNL Target] geben, um uns zu sagen, wie wir vorgehen.
+Über das Hilfesymbol können Sie auf Informationen, Videos, Blogs und mehr zugreifen, um [!DNL Target] effektiver zu verwenden. Sie können ein Support-Ticket erstellen, Support-Telefonnummern finden, Fragen über Twitter stellen oder uns Feedback zu [!DNL Target] geben, um uns zu informieren, wie wir vorgehen.
 
 ![Hilfe ](/help/c-intro/assets/help.png)
 
