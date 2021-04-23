@@ -1,16 +1,16 @@
 ---
 keywords: Ergebniserfassung;Ergebnis
-description: Erfahren Sie mehr über die Einsatzmetrik Ergebniserfassung in Adobe Target, mit der ein aggregierter Wert basierend auf dem Wert berechnet wird, der den auf der Site besuchten Seiten zugewiesen wurde.
+description: Erfahren Sie mehr über die Einsatzmetrik Ergebniserfassung in Adobe [!DNL Target] die ein aggregiertes Ergebnis basierend auf dem den auf der Site besuchten Seiten zugewiesenen Wert errechnet.
 title: Was ist die Metrik "Ergebniserfassung"?
-feature: Success Metrics
+feature: Erfolgsmetriken
+exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '766'
 ht-degree: 51%
 
 ---
-
 
 # Ergebniserfassung
 
