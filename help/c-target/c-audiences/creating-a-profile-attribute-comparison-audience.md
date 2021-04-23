@@ -1,18 +1,18 @@
 ---
 keywords: Zielgruppe; Tendenz; Profilattribut; Vergleichen; Vergleich; Zielgruppe erstellen; Erstellen einer Zielgruppe
-description: Erfahren Sie, wie Sie eine Audience zum Vergleichen von zwei Profil-Attributen für Ihre Zielgruppe-Audience-Bibliothek oder in einer Nur-Aktivität-Audience definieren.
+description: Erfahren Sie, wie Sie eine Audience zum Vergleichen von zwei Profil-Attributen für die Audience [!DNL Target] oder in einer Nur-Aktivität-Audience definieren.
 title: Kann ich zwei Profil-Attribute für die Verwendung in Audiencen vergleichen?
-feature: Audiences
+feature: Zielgruppen
+exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 91%
 
 ---
 
-
-# Erstellen einer Zielgruppe zum Profilattributvergleich{#create-a-profile-attribute-comparison-audience}
+# Erstellen einer Zielgruppe zum Profilattributvergleich 
 
 Definieren Sie eine Zielgruppe, um zwei Profilattribute für Ihre [Zielgruppenbibliothek](/help/c-target/c-audiences/audiences.md) oder in einer [reinen Aktivitätszielgruppe](/help/c-target/creating-activity-only-audience.md) zu vergleichen. Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
 
