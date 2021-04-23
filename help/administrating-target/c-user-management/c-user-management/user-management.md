@@ -2,18 +2,18 @@
 keywords: Benutzer hinzufügen;Benutzer verwalten;Benutzerberechtigungen
 description: Erfahren Sie, wie Sie mit dem Adobe Admin Console Benutzer und deren Berechtigungen in Adobe Target verwalten können.
 title: Wie kann ich Benutzer Hinzufügen und Berechtigungen verwalten?
-feature: Administration & Configuration
+feature: Administration und Konfiguration
 role: Administrator
+exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 47%
+source-wordcount: '913'
+ht-degree: 46%
 
 ---
 
-
-# Benutzer{#users}
+# Benutzer
 
 hinzufügen und verwalten Sie ihre Berechtigungen im [!DNL Adobe Admin Console].
 
@@ -107,7 +107,7 @@ Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden n
 
 Weitere Informationen finden Sie unter [Verwalten von Produktberechtigungen und Rollen in der Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) im *Enterprise-Benutzerhandbuch*.
 
-## Schulungsvideo: Konfigurieren von Zielgruppe Workspaces ![Tutorial badge](/help/assets/tutorial.png)
+## Schulungsvideo: Konfigurieren von Adobe Target-Arbeitsbereichen ![Tutorialzeichen](/help/assets/tutorial.png)
 
 Lernziele:
 
