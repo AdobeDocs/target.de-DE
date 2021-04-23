@@ -2,18 +2,18 @@
 keywords: Benutzer hinzufügen;Projekt;Benutzergruppe;Eigenschaften;Arbeitsbereich;Eigenschaft verwalten;Eigenschaft;at_property;Rollen;Berechtigungen
 description: Erfahren Sie, wie Sie Benutzer zu Adobe Target hinzufügen können. Arbeitsbereiche, Benutzergruppen und Eigenschaften erstellen; Aktualisieren Sie Ihre Implementierung. und geben Sie Rollen und Berechtigungen an.
 title: Wie konfiguriere ich Enterprise-Berechtigungen?
-feature: Administration & Configuration
+feature: Administration und Konfiguration
 role: Administrator
+exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1482'
 ht-degree: 66%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Konfigurieren von Unternehmensberechtigungen{#configure-enterprise-permissions}
+# ![PREMIUM](/help/assets/premium.png) Konfigurieren von Unternehmensberechtigungen
 
 Informationen zu den Aufgaben, die erforderlich sind, um Ihrer [!DNL Target]-Implementierung Benutzer hinzuzufügen; Arbeitsbereiche, Benutzergruppen und Eigenschaften erstellen; Aktualisieren Sie Ihre [!DNL Target]-Implementierung, um den Parameter `at_property` einzuschließen. und geben Sie Rollen und Berechtigungen an.
 
@@ -206,7 +206,7 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 >
 >Die Menüoberfläche [!DNL Target] [!UICONTROL Administration] (ehemals [!UICONTROL Setup]) wurde überarbeitet, um eine verbesserte Leistung zu bieten, die Wartungszeit zu verkürzen, die bei der Veröffentlichung neuer Funktionen erforderlich ist, und die Benutzererfahrung im gesamten Produkt zu verbessern. Die Informationen in den folgenden Videos sind im Allgemeinen korrekt. Die Optionen befinden sich jedoch möglicherweise an etwas anderen Orten. Aktualisierte Videos werden demnächst veröffentlicht.
 
-### Konfigurieren von Zielgruppe Workspaces (6:55) ![Tutorial badge](/help/assets/tutorial.png)
+### Konfigurieren von Adobe Target-Arbeitsbereichen (6:55) ![Tutorialzeichen](/help/assets/tutorial.png)
 
 In diesem Video wird das Erstellen von Arbeitsbereichen erläutert.
 
