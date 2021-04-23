@@ -1,17 +1,17 @@
 ---
 keywords: Browser;Bedingungen;Voraussetzungen;Internet Explorer;Chrome;Firefox;Safari;Android;Surface
-description: Erfahren Sie, welche Internetbrowser Adobe Target für seine Schnittstelle und für Content Versand unterstützt.
-title: Welche Browser werden von Zielgruppe unterstützt?
-feature: Implementation
+description: Erfahren Sie, welche Internetbrowser-Adobe [!DNL Target] für die Benutzeroberfläche und den Content Versand unterstützt.
+title: 'Welche Browser werden unterstützt? [!DNL Target] '
+feature: Implementierung
 role: Developer
+exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 58%
 
 ---
-
 
 # Unterstützte Browser
 
