@@ -1,18 +1,18 @@
 ---
 keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen
-description: Erfahren Sie, wie Sie benutzerspezifische Audiencen erstellen und sie zur Verwendung in Ihren Aktivitäten in der Adobe Target Audiencen-Bibliothek speichern.
+description: Erfahren Sie, wie Sie benutzerspezifische Audiencen erstellen und sie zur Verwendung in Ihren Aktivitäten in der Adobe [!DNL Target] Audiencen-Bibliothek speichern.
 title: Wie baue ich Audiencen auf?
-feature: Audiences
+feature: Zielgruppen
+exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 94%
 
 ---
 
-
-# Erstellen von Zielgruppen in Target{#build-audiences-in-target}
+# Erstellen von Zielgruppen in Target
 
 Sie können benutzerdefinierte Zielgruppen erstellen, diese in der Target-Bibliothek speichern und für Ihre Aktivitäten verwenden. Sie können eine bereits bestehende Zielgruppe kopieren und anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen und mehrere Zielgruppen miteinander zu kombinieren.
 
