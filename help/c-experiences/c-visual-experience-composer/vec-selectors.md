@@ -1,16 +1,16 @@
 ---
 keywords: Erlebnis-Targeting;Landingpage-Test
-description: 'Ein Elementselektor ist ein CSS-Ausdruck, der ein oder mehrere Elemente identifizieren kann. Erfahren Sie, wie Sie Elementauswahlen im Adobe Target Visual Experience Composer (VEC) verwenden. '
+description: 'Ein Elementselektor ist ein CSS-Ausdruck, der ein oder mehrere Elemente identifizieren kann. Erfahren Sie, wie Sie Elementauswahlen in der Adobe [!DNL Target] Visual Experience Composer (VEC) verwenden. '
 title: Kann ich Elementselektoren im Visual Experience Composer (VEC) verwenden?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
+exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 82%
+source-wordcount: '430'
+ht-degree: 80%
 
 ---
-
 
 # Element-Selektoren, die im Visual Experience Composer verwendet werden
 
@@ -28,7 +28,7 @@ Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovore
 
 Informationen dazu, wann CSS-Selektoren und wann eindeutige IDs verwendet werden sollen, finden Sie unter [Best Practices und Einschränkungen von Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Wie Adobe Target einen Selektor für ein Element erstellt {#section_D89D954BCBFB486CA081BE183776A475}
+## So erstellt Adobe [!DNL Target] einen Selektor für ein Element {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target verwendet zur Erstellung eines Selektors einen einfachen Algorithmus. Hier sehen Sie eine sehr kurze Erklärung der Erstellungslogik:
 
@@ -100,4 +100,3 @@ Im oben dargestellten Prozess
 * können Sie jeden beliebigen CSS-Selektor verwenden, solange er ein Element eindeutig im DOM identifiziert.
 * Die oben genannte Vorgehensweise ist die von Target. Target schreibt diese Vorgehensweise jedoch nicht vor. Sie können jeden beliebigen Selektor hinzufügen, vorausgesetzt Punkt 1 ist zutreffend.
 * Sie können jedes beliebige Attribut im Selektor verwenden. Dieses Dokument verwendet den Klassennamen nur als Beispiel.
-
