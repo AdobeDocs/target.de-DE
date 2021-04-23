@@ -2,17 +2,17 @@
 keywords: Zielgruppe;Berichte;Berichtseinstellungen;Mehrere Metriken;Metriken;Angezeigte Metriken;Verborgene Metriken
 description: Erfahren Sie, wie Sie mithilfe von Adobe Target mehrere Metriken zur Ansicht in einem Bericht auswählen.
 title: Wie führe ich eine Ansicht mehrerer Metriken in einem Bericht durch?
-feature: Reports
+feature: Berichte
+exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 59%
 
 ---
 
-
-# Anzeigen mehrerer Metriken in einem Bericht{#view-multiple-metrics-in-a-report}
+# Anzeigen mehrerer Metriken in einem Bericht
 
 Sie können mehrere zu Ansicht Metriken in einem [!DNL Adobe Target]-Bericht auswählen.
 
@@ -54,4 +54,3 @@ Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Info
 1. (Bedingt) Beim Anzeigen des Berichts in der Ansicht &quot;Diagramm&quot;können Sie die einzelnen Metriken auswählen, die in der Dropdown-Liste angezeigt werden sollen:
 
    ![](assets/multiple_metrics_graph.png)
-
