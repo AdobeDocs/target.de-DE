@@ -1,18 +1,18 @@
 ---
 keywords: partielle Daten; Teildaten; A4T; Diskrepanzen; Analytics für Target; verwaist; virtuelle Report Suite; Phantom; Fehlerbehebung; gelöst; überhöht; unspezifisch
-description: Erfahren Sie, wie Sie bei der Verwendung von Analytics für die Zielgruppe (A4T) die Auswirkungen überhöhter Besuchs- und Besucher-Zählungen minimieren können. Erfahren Sie, was "partielle Daten"sind und wie Sie diese reduzieren können.
+description: Erfahren Sie, wie Sie bei der Verwendung von Analytics for [!DNL Target] (A4t) die Auswirkungen überhöhter Besuchs- und Besucher-Zählungen minimieren können. Erfahren Sie, was "partielle Daten"sind und wie Sie diese reduzieren können.
 title: Wie kann ich überhöhte Besuchs- und Besucher-Zählungen in A4T minimieren?
 feature: Analytics for Target (A4T)
+exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 48%
 
 ---
 
-
-# Minimieren überhöhter Besuchs- und Besucherzahlen in A4T{#minimizing-inflated-visit-and-visitor-counts-in-a-t}
+# Minimieren überhöhter Besuchs- und Besucherzahlen in A4T
 
 Informationen, die Sie bei der Minimierung der Auswirkungen überhöhter Besuchs- und Besucher-Zahlen unterstützen, wenn Sie [!DNL Adobe Analytics] als Berichte-Quelle für [!DNL Adobe Target] (A4T) verwenden.
 
