@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n;Stichprobengröße;Stichprobengrößenrechner;Automatisches Zuordnen;Automatisches Zuordnen;Rechner
-description: Erfahren Sie, wie lange ein A/B-Test ausgeführt wird. Ein erfolgreicher A/B-Test in Adobe Target erfordert genügend Besucher (Stichprobengröße), um Ihr Konversionsrate zu verbessern.
+description: Erfahren Sie, wie lange ein A/B-Test ausgeführt wird. Ein erfolgreicher A/B-Test in Adobe [!DNL Target] erfordert genügend Besucher (Stichprobengröße), um Ihr Konversionsrate zu verbessern.
 title: Wie lange sollte ich einen A/B-Test durchführen?
-feature: A/B Tests
+feature: A/B-Tests
+exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 translation-type: tm+mt
-source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3063'
 ht-degree: 63%
 
 ---
-
 
 # Wie lange sollten A/B-Tests laufen?
 
@@ -38,7 +38,7 @@ Bei der Verwendung der Funktion [!UICONTROL „Automatisierte Zuordnung“] zeig
 
 Weitere Informationen finden Sie unter [Übersicht über die automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Adobe Target-Stichprobengrößenrechner   {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe [!DNL Target] Stichprobengrößenrechner {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Wenn Sie anstelle der Aktivität [!UICONTROL A/B-Test] statt [!UICONTROL Automatische Zuordnung] eine manuelle Methode verwenden, hilft Ihnen der [!DNL Target] Stichprobengrößenrechner bei der Ermittlung der Stichprobengröße, die für einen erfolgreichen Test erforderlich ist. Ein manueller A/B-Test ist ein fixer Horizontaltest, daher ist der Rechner hilfreich. Die Verwendung des Taschenrechners für eine [!UICONTROL Aktivität mit automatischer Zuordnung] ist optional, da [!UICONTROL Automatisierte Zuordnung] einen Gewinner erklärt. Der Rechner gibt Ihnen eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
