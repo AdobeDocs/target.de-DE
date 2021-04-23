@@ -1,17 +1,17 @@
 ---
 keywords: Analytics als Berichte-Quelle;a4t;A4T;Anforderungen
-description: Erfahren Sie, wie Sie die Benutzerkontoanforderungen konfigurieren, die zum Erstellen einer Adobe Analytics-basierten Aktivität in Adobe Target mit Analytics for Zielgruppe (A4T) erforderlich sind.
+description: Erfahren Sie, wie Sie die Benutzerkontoanforderungen konfigurieren, die zum Erstellen einer Adobe Analytics-basierten Aktivität in Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T) erforderlich sind.
 title: Welche Benutzerberechtigungsanforderungen sind für A4T erforderlich?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
+exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 translation-type: tm+mt
-source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '307'
 ht-degree: 36%
 
 ---
-
 
 # Anforderungen hinsichtlich Benutzerberechtigungen
 
@@ -56,6 +56,6 @@ Um A4T für eine bestimmte Report Suite zu verwenden, müssen Sie Zugriff auf di
    Der Zugriff auf die Gruppe [!UICONTROL Web-Services-Zugriff] in [!DNL Analytics] ist erforderlich, damit [!DNL Analytics] als Berichte-Quelle für [!DNL Target] verwendet werden kann.
 
 
-## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
+## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}
 
 Es sind keine zusätzlichen Berechtigungen erforderlich.
