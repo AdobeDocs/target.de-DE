@@ -1,15 +1,15 @@
 ---
 keywords: implementieren;Implementierung;Einrichten;Einrichten;Datenanbieter
-description: Daten mithilfe von Datenanbietern in die Zielgruppe laden
-title: Wie erhalte ich Daten mithilfe von Datenanbietern in die Zielgruppe?
-feature: Implementation
+description: Daten unter  [!DNL Target] mithilfe von Datenanbietern abrufen.
+title: Wie erhalte ich Daten unter  [!DNL Target] mithilfe von Datenanbietern?
+feature: Implementierung
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 66%
+source-wordcount: '299'
+ht-degree: 67%
 
 ---
 
