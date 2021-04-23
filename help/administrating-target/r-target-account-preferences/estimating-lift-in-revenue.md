@@ -2,18 +2,18 @@
 keywords: Umsatzsteigerung;Umsatz;Schätzung der Umsatzsteigerung;Steigerung berechnen;geschätzter Wert
 description: Schätzen Sie die Steigerung, die Sie erzielen können, wenn jedem Besucher das erfolgreichste Erlebnis angezeigt wird, wenn die Trends so weitergehen, wie sie es während des Tests waren.
 title: Was schätze ich eine Umsatzsteigerung?
-feature: Administration & Configuration
+feature: Administration und Konfiguration
 role: Administrator
+exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 88%
 
 ---
 
-
-# Geschätzte Umsatzsteigerung{#estimate-lift-in-revenue}
+# Geschätzte Umsatzsteigerung
 
 Verwenden Sie [!DNL Adobe Target], um die Umsatzsteigerung zu schätzen, die Sie erzielen würden, wenn alle Benutzer das erfolgreichste Erlebnis Ansicht hätten.
 
