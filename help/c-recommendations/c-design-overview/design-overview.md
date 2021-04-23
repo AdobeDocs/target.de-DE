@@ -1,18 +1,18 @@
 ---
 keywords: Empfehlungsentwurf; Vorlage; Entwurf erstellen; Lieferung; Ausgabe
-description: Erfahren Sie, wie Sie mit Designs in Adobe Target Recommendations definieren, wie Empfehlungen auf einer Seite angezeigt werden (1X4, 1X6, 2X2 usw.).
+description: Erfahren Sie, wie Sie mit Designs in Adobe [!DNL Target] Recommendations definieren, wie Empfehlungen auf einer Seite angezeigt werden (1X4, 1X6, 2X2 usw.).
 title: Wie verwende ich Designs in Recommendations?
 feature: Recommendations
+exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 32%
 
 ---
 
-
-# Designübersicht{#design-overview}
+# Designübersicht
 
 Entwürfe in [!DNL Adobe Target Recommendations] definieren, wie Empfehlungen auf einer Seite angezeigt werden. Entwürfe definieren das Layout und das Format Ihrer Empfehlungen, um die Interaktion, Konversion und den Umsatz der Besucher zu verbessern.
 
@@ -29,4 +29,3 @@ Entwürfe helfen Ihnen bei der Ermittlung:
 * Wie viele Artikel Sie in einer Empfehlung anzeigen möchten
 * So zeigen Sie Ihre Elemente an (in einer Zeile, Spalte, Raster oder Tabelle)
 * Ob Sie Besucher darauf beschränken möchten, nur die angegebene Anzahl von Elementen anzuzeigen, oder möchten Sie, dass Besucher durch mehrere Elemente blättern können?
-
