@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n;Erlebnisse vergleichen;Targeting;Vergleichen von Inhalten;Automatische Zielgruppe;Automatisches Zuordnen
-description: Erfahren Sie mehr über die verschiedenen Typen von A/B-Aktivitäten in Adobe Target - Manuelle, automatische Zuordnung und automatische Zielgruppe. Wählen Sie das für Sie Richtige.
+description: Erfahren Sie mehr über die verschiedenen Typen von A/B-Aktivitäten in Adobe [!DNL Target] - Manuell, Automatisches Zuordnen und Auto-Zielgruppe. Wählen Sie das für Sie Richtige.
 title: Welche A/B-Aktivitäten sind in der Zielgruppe verfügbar?
-feature: A/B Tests
+feature: A/B-Tests
+exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 38%
 
 ---
-
 
 # Überblick über A/B-Tests
 
