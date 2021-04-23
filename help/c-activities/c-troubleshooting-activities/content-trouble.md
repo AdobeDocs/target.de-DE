@@ -2,15 +2,15 @@
 keywords: Mbox debuggen;Fehlerbehebung für Mbox;Mbox-Probleme;Flackern;mboxDebug;mboxTrace;Token;Debugger;Priorität;Aktivitätspriorität;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst Mbox kaufen;bester Verkauf;bestverkauftes Produkt
 description: Hier finden Sie Vorschläge, die Ihnen helfen, Probleme zu beheben, wenn Ihre Seite nicht den erwarteten Inhalt anzeigt. Erfahren Sie, wie Sie Content Versand in Adobe Target debuggen.
 title: Wie kann ich eine Fehlerbehebung für Content Versand durchführen?
-feature: Activities
+feature: Aktivitäten
+exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1415'
 ht-degree: 59%
 
 ---
-
 
 # Fehlerbehebung bei der Inhaltsbereitstellung
 
@@ -173,7 +173,7 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Grundlegende Zielgruppe-Debugging ![Tutorial-Abzeichen](/help/assets/tutorial.png)
+### Einfaches Adobe Target Debugging ![Tutorial-Zeichen](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
