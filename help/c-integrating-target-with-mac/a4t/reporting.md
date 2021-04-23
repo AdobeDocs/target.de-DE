@@ -1,18 +1,18 @@
 ---
 keywords: Analytics für Zielgruppen;a4t;Analytics als Berichte-Quelle;Analytics
-description: Erfahren Sie, wie Sie Analytics für die Zielgruppe (A4T) verwenden. A4T bietet Zugriff auf Analytics-Berichte für Aktivitäten der Zielgruppe, die Analytics-Metriken und Audiencen-Segmente verwenden.
+description: Erfahren Sie, wie Sie Analytics für  [!DNL Target] (A4T). A4T provides access to Analytics reports for [!DNL Target] Aktivitäten verwenden, die Analytics-Metriken und Audiencen-Segmente verwenden.
 title: Wie verwende ich Berichte in A4T?
 feature: Analytics for Target (A4T)
+exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 translation-type: tm+mt
-source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '678'
 ht-degree: 28%
 
 ---
 
-
-# A4T-Reporting{#a-t-reporting}
+# A4T-Reporting
 
 Durch Verwendung von [!DNL Adobe Analytics] als Ihre Berichte-Quelle für [!DNL Adobe Target] (A4T) haben Sie Zugriff auf [!DNL Analytics]-Berichte für Ihre [!DNL Target]-Aktivitäten.
 
@@ -57,7 +57,7 @@ Verwenden Sie in [!DNL Analysis Workspace] das Bedienfeld [!UICONTROL Analytics 
 
 Ausführliche Informationen und Beispiele finden Sie unter [Analytics &amp; Zielgruppe: Best Practices für die Analyse](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), bereitgestellt von Adobe Experience League.
 
-## Berichte in Target   {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## Berichte in [!DNL Target] {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
 Wenn [!DNL Analytics] als Berichte verwendet wird, zeigen Berichte in [!DNL Target] die von [!DNL Analytics] erfassten Daten an. Der Bericht unterscheidet sich etwas von anderen [!DNL Target]-Berichten:
 
@@ -76,7 +76,7 @@ Klicken Sie auf , um den vollständigen [!DNL Analytics]-Bericht direkt auf der 
 
 Während der Erstellung einer Aktivität müssen Sie auf der Seite [!UICONTROL Einstellungen] ein spezifisches Ziel für diese Aktivität angeben. Dieses Ziel wird zur Standardmetrik für den Bericht und wird immer als erste Option in der Metrikauswahl aufgeführt. Sie können keine Segmente für die Berichterstellung auswählen, wie Sie es für eine reguläre Target-Aktivität tun würden. Bei einem Test mit [!DNL Analytics] werden anstelle von [!DNL Target]-Audiencen [!DNL Adobe Analytics]-Segmente verwendet.
 
-## Offline-Berechnungen für Analytics for Zielgruppe (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
+## Offline-Berechnungen für Analytics for Adobe Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
 
 Sie können Offlineberechnungen für A4T durchführen. Dazu ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics] erforderlich.
 
