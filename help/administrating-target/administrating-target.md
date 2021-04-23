@@ -1,19 +1,19 @@
 ---
-keywords: Einrichten;Setup;Einrichten;Einrichten;Einrichten;Verwaltung
+keywords: Einrichten;Setup;Einrichten;Einrichten;Einrichten;Administration
 description: Richten Sie Adobe Target ein, einschließlich Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene7-Konfiguration, Hostverwaltung und Antwort-Token.
 title: Wie wende ich Zielgruppe an?
-feature: Administration & Configuration
+feature: Administration und Konfiguration
 role: Administrator
+exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 13%
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
-
-# Verwaltung von Target – Überblick{#administer-target}
+# [!DNL Target] Übersicht verwalten
 
 Informationen zur Verwaltung von [!DNL Adobe Target], einschließlich Konfigurationseinstellungen für Visual Experience Composer (VEC), Berichte, Scene7-Konfiguration, Implementierung, Hosts, Umgebung, Antwort-Token und Benutzer.
 
