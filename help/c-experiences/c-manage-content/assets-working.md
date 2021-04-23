@@ -1,20 +1,20 @@
 ---
 keywords: Inhaltsbibliothek;Assets;kommentieren;kopieren;Asset löschen;Asset herunterladen;Inhalt bearbeiten;Karte freigeben;Inhaltseigenschaften anzeigen
-description: Erfahren Sie, wie Sie Code- und Image-Angebot in der Adobe Target Angebots-Bibliothek verwalten. Erfahren Sie, wie Sie die Details eines Angebots Ansicht und Angebote bearbeiten, kopieren, verschieben oder löschen.
+description: Erfahren Sie, wie Sie Code- und Image-Angebot in der Adobe [!DNL Target] Angebots-Bibliothek verwalten. Erfahren Sie, wie Sie die Details eines Angebots Ansicht und Angebote bearbeiten, kopieren, verschieben oder löschen.
 title: Wie arbeite ich mit Inhalten in der Inhaltsbibliothek?
-feature: Experiences and Offers
+feature: Erlebnisse und Angebot
+exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 37%
 
 ---
 
-
 # Arbeiten mit Inhalten in der Asset-Bibliothek
 
-Informationen zu den Aufgaben, die Sie für ein Asset in der Inhaltsbibliothek in [!DNL Adobe Target] durchführen können, einschließlich Anmerkungen, Kopieren, Löschen, Herunterladen, Bearbeiten, Freigeben und Anzeigen von Eigenschaften.
+Informationen zu den Aufgaben, die Sie für ein Asset in der Inhaltsbibliothek in [!DNL Adobe Target] durchführen können, einschließlich Kommentieren, Kopieren, Löschen, Herunterladen, Bearbeiten, Freigeben und Anzeigen von Eigenschaften.
 
 1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Code-Angebot]** oder **[!UICONTROL Image-Angebot]**.
 
