@@ -1,18 +1,18 @@
 ---
 keywords: Targeting; Traffic-Quellen; Target-Traffic-Quellen; Target-Suchmaschine; Suchmaschine; Landingpage; Target-Zielseite; verweisende Zielseite
-description: Erfahren Sie, wie Sie Audiencen in Adobe Target für Besucher der Zielgruppe erstellen, die auf der Suchmaschine oder der Landingpage basieren, die sie auf Ihre Site verweist.
-title: Kann ich Besucher auf Basis der Suchmaschine oder der verweisenden Site Zielgruppen durchführen?
-feature: Audiences
+description: Erfahren Sie, wie Sie Audiencen in Adobe [!DNL Target] zu Besuchern der Zielgruppe erstellen, die auf der Suchmaschine oder Landingpage basieren, die sie auf Ihre Site verweist.
+title: Kann ich [!DNL Target] Besucher auf Basis der Suchmaschine oder verweisenden Site erstellen?
+feature: Zielgruppen
+exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 86%
 
 ---
 
-
-# Traffic-Quellen{#traffic-sources}
+# Bericht zu
 
 Erstellen von Zielgruppen aus Besuchern auf Grundlage der Suchmaschine oder Landingpage, von der sie auf Ihre Site geleitet werden.
 
