@@ -1,16 +1,16 @@
 ---
 keywords: IP-Adresse;IP-Adressen;Whitelist;Zulassungsliste;Firewall;recs;Feed;Server;Adobe Marketing Cloud;Empfehlungen
-description: Ansicht einer Liste von IP-Adressen, die in Zielgruppe Recommendations-Feed-Verarbeitungsservern verwendet werden, um Ihre Firewall so zu konfigurieren, dass IP-Adressen von Adoben-Servern zugelassen werden.
+description: 'Ansicht einer Liste von IP-Adressen, die auf Recommendations-Feed-Verarbeitungsservern verwendet werden, um Ihre Firewall so zu konfigurieren, dass IP-Adressen von Adoben-Servern zugelassen werden. [!DNL Target] '
 title: Welche IP-Adressen verwenden Recommendations-Feed-Verarbeitungsserver?
 feature: Recommendations
+exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 translation-type: tm+mt
-source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 7%
+source-wordcount: '137'
+ht-degree: 8%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) IP-Adressen, die von Empfehlungs-Feed-Verarbeitungsservern verwendet werden
 
@@ -29,4 +29,3 @@ Liste der in [!DNL Adobe Target] [!DNL Recommendations]-Feed-Verarbeitungsserver
 >[!NOTE]
 >
 >Diese IP-Adressen wurden zuletzt am 16. März 2021 aktualisiert. Zuvor befanden sich die Server, die auf die FTP-Server zugriffen, im CIDR-Block 192.243.242.0/24. Die Server, auf denen Recommendations-APIs gehostet werden, befanden sich im CIDR-Block 192.243.224.0/20.
-
