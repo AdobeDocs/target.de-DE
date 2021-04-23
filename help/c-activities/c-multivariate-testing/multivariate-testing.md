@@ -1,16 +1,16 @@
 ---
 keywords: Multivarianz-Test;mvt;full factorial;mvt or a/b;multivariate A/b;Traffic-Schätzung;wann mvt;mvt-Überlegungen;Multivarianz;Teil-Faktorial;Teil-Faktorial;Vollfaktoriell
-description: Erfahren Sie, wie Sie mit Multivariate Testing (MVT) in Adobe Target Kombinationen von Angeboten in Elementen auf einer Seite vergleichen können, um festzustellen, welche Kombination die beste Leistung erzielt.
+description: Erfahren Sie, wie Sie mit Multivariate Testing (MVT) in Adobe [!DNL Target] Kombinationen von Angeboten in Elementen auf einer Seite vergleichen können, um zu ermitteln, welche Kombination die beste Leistung erzielt.
 title: Was ist ein Multivarianz-Test?
-feature: Multivariate Tests
+feature: Multivarianz-Tests
+exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1462'
 ht-degree: 87%
 
 ---
-
 
 # Multivarianz-Tests – Überblick 
 
