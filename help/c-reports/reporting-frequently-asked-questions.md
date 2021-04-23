@@ -1,16 +1,16 @@
 ---
 keywords: Fehlerbehebung;Metrikdiskrepanzen;FAQ;Berichte;Neuer Besucher;Neue Besucher;Rückkehrender Besucher;Rückkehrende Besucher;Rückkehrender Besuch;Neuer Besuch
-description: Entdecken Sie eine Liste häufig gestellter Fragen und Antworten zum Adobe Target Berichte.
-title: Wo finde ich Antworten auf Fragen zum Berichte der Zielgruppe?
-feature: Reports
+description: Erkunden Sie eine Liste häufig gestellter Fragen und Antworten zur Adobe [!DNL Target] Berichte.
+title: Wo finde ich Antworten auf Fragen zu [!DNL Target] Berichte?
+feature: Berichte
+exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 23%
+source-wordcount: '1219'
+ht-degree: 24%
 
 ---
-
 
 # Häufig gestellte Fragen zum Reporting
 
