@@ -1,22 +1,22 @@
 ---
 keywords: Einstellungen;Priorität
-description: Erfahren Sie, wie Adobe Target festlegt, welche Aktivität (oder welche Aktivitäten) je nach verwendeter Zielgruppe und verwendeter Aktivität unterschiedlich an eine Seite gesendet werden soll.
-title: Wie weist Zielgruppe verschiedenen Aktivitäten Priorität zu?
-feature: Activities
+description: Erfahren Sie, wie Adobe [!DNL Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] und welche Aktivität-Erstellungsfunktion Sie verwenden.
+title: Wie weist [!DNL Target] den verschiedenen Aktivitäten Priorität zu?
+feature: Aktivitäten
+exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 88%
+source-wordcount: '1149'
+ht-degree: 89%
 
 ---
-
 
 # Priorität
 
 Je nachdem, welche Target-Oberfläche und welche Funktion zum Erstellen von Aktivitäten Sie verwenden (Visual Experience Composer oder formularbasierter Composer), bestimmt Target, welche Aktivität (bzw. welche Aktivitäten) für eine Seite anders bereitgestellt werden soll(en).
 
-## Nur Target Standard/Premium Visual Experience Composer oder Form-Based Composer mit globaler Zielgruppe Request only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Nur Target Standard/Premium Visual Experience Composer oder Form-Based Composer mit globaler [!DNL Target]-Anforderung {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Wenn Ihr Unternehmen ausschließlich Target Standard/Premium und den Visual Experience Composer verwendet, können Inhalte von mehreren Aktivitäten für denselben Aufruf zurückgegeben werden. Aktivitäten werden mithilfe des folgenden Entscheidungsflusses bereitgestellt:
 
@@ -40,7 +40,7 @@ Wenn Ihr Unternehmen ausschließlich Target Standard/Premium und den Visual Expe
    * Wenn eine Aktivität über eine Zielgruppenansprache verfügt, wird diese Aktivität angezeigt.
    * Wenn alle oder keine Aktivitäten ein Targeting aufweisen, wird die zuerst genehmigte Aktivität angezeigt.
 
-## Formularbasierter Composer und Visual Experience Composer in Target Standard/Premium   {#section_4620253E1CE942DD830724C7822B175F}
+## Form-Based Composer und [!DNL Target] Standard/Premium Visual Experience Composer {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Wenn von zwei Aktivitäten eine auf den Marken-Suchbegriff „Nike“ und die zw
 
 Verfügen beide Zielaktivitäten über die gleiche Priorität, wird diejenige angezeigt, die zuletzt aufgerufen wurde. Wenn der Besucher neu auf der Seite ist, wird die zuletzt aktivierte Aktivität angezeigt.
 
-## Formularbasierter Composer für Target Standard/Premium mit Anforderungen an nicht globale Zielgruppen {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Formularbasierter Composer für Target Standard/Premium mit nicht globalen [!DNL Target] Anforderungen {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
