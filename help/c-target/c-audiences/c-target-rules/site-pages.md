@@ -1,18 +1,18 @@
 ---
-keywords: Site-Seiten;Zielgruppen-Siteseiten;Targeting;Aktuelle Seite;Aktuelle Zielgruppe;Vorherige Seite;Vorherige Zielgruppe;Landingpage;Zielgruppe-Landingpage;http-Kopfzeile
-description: Erfahren Sie, wie Besucher mit Adobe Target, die sich auf einer bestimmten Seite Ihrer Site befinden, Zielgruppe werden.
-title: Kann ich Besucher auf der Grundlage von Site-Seiten Zielgruppen durchführen?
-feature: Audiences
+keywords: Site-Seiten;Zielgruppen-Siteseiten;Targeting;Aktuelle Seite;Aktuelle Zielgruppe;Vorherige Seite;Vorherige Zielgruppe;Landingpage;Landingpage der Zielgruppe;http-Kopfzeile
+description: Erfahren Sie, wie Besucher mit Adobe [!DNL Target] Zielgruppe werden, die sich auf einer bestimmten Seite Ihrer Site befinden.
+title: 'Kann ich Besucher auf der Grundlage von Site-Seiten erstellen? [!DNL Target] '
+feature: Zielgruppen
+exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '889'
 ht-degree: 42%
 
 ---
 
-
-# Seiten der Site{#site-pages}
+# Seiten der Site
 
 Sie können Besucher auf einer bestimmten Seite Ihrer Site Zielgruppe werden.
 
@@ -138,8 +138,8 @@ Siehe Abbildung unten:
 
 * Beachten Sie bei der Verwendung von &quot;Beginns/ends with&quot;-Evaluatoren für Zeichenfolgen mit Kommas, dass diese
 werden als Array von Werten ausgewertet, in denen jeder durch Kommas getrennte Wert ausgewertet wird. Beispiel: Wenn wir den Wert für eine Kopfzeile haben: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` wird für Bedingungen wie:
-   * beginn mit Zh,
-   * beginn mit en,
+   * Beginn mit Zh,
+   * Beginn mit en,
    * endet mit 0,7,
    * endet mit 0,8.
 
