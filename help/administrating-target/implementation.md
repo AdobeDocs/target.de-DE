@@ -1,17 +1,17 @@
 ---
 keywords: Implementieren;Implementierung
-description: Erfahren Sie, wie Sie Adobe Target auf Ihrer Site implementieren. Legen Sie globale Einstellungen, Implementierungsmethode (AEP Web SDK oder at.js) und mehr fest.
-title: Wie implementieren Sie die Zielgruppe auf meiner Site?
-feature: Administration & Configuration
+description: Erfahren Sie, wie Sie Adobe [!DNL Target] auf Ihrer Site implementieren. Legen Sie globale Einstellungen, Implementierungsmethode (AEP Web SDK oder at.js) und mehr fest.
+title: Wie implementiert man [!DNL Target] auf meiner Site?
+feature: Administration und Konfiguration
 role: Administrator
+exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 18%
 
 ---
-
 
 # Implementierung
 
