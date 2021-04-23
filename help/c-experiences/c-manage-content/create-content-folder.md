@@ -1,16 +1,16 @@
 ---
 keywords: Inhalt;Ordner erstellen;Assets;Ordner verschieben;Ordner kopieren;Ordner löschen;Ordner herunterladen;Ordner
 description: Wie erstelle ich Ordner in der Angebote-Bibliothek?
-title: Erfahren Sie, wie Sie Ordner in der Adobe Target Angebots-Bibliothek erstellen, um Code- und Bildordner sowie andere Angebot zu speichern.
-feature: Experiences and Offers
+title: Erfahren Sie, wie Sie Ordner in der Adobe [!DNL Target] Angebote-Bibliothek erstellen, um Code- und Bildordner sowie andere Angebot zu speichern.
+feature: Erlebnisse und Angebot
+exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '279'
 ht-degree: 22%
 
 ---
-
 
 # Erstellen von Angebot-Ordnern
 
