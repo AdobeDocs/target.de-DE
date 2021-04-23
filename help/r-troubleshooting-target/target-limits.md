@@ -2,16 +2,16 @@
 keywords: Zeichenbeschränkung;mbox-Parameter;Batch-Versand-API;Profil-Parameter;Grenzwerte;Integrierte Profil;Maximal;Beschränkung;Zeichen;Best Practice;Orderid;orderTotal;mbox3rdPartyID;Kategorie;categoryID;Fehlerbehebung
 description: Ansicht einer Liste von Zeichenbeschränkungen und anderen Einschränkungen (Angebot-Größe, Audiencen, Profil, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
 title: Welches sind die verschiedenen Zeichen-, Größen- und sonstigen Beschränkungen in Adobe Target?
-feature: Troubleshooting
+feature: 'Fehlerbehebung '
 mini-toc-levels: 3
+exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 translation-type: tm+mt
-source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 60%
+source-wordcount: '1162'
+ht-degree: 59%
 
 ---
-
 
 # Beschränkungen
 
@@ -234,7 +234,7 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 * **Limit**: 50 Berichtszielgruppen/-segmente pro Aktivität.
 
-## Skriptprofil-Eingabefeld in der Target-Benutzeroberfläche
+## Skript-Profil-Eingabefeld in der [!DNL Target]-Benutzeroberfläche
 
 * **Empfohlenes Limit**: 2.000 Zeichen.
 
@@ -273,4 +273,3 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 * **Empfohlene Beschränkung**: 2.500 Zeichen pro Targeting-Regelwert.
 * **Empfohlenes Limit**: 30.000 einmalige Werte pro Zielgruppe in Targeting-Regeln.
 * **Empfohlenes Limit**: 100.000 einmalige Werte für Targeting-Regeln pro Aktivität.
-
