@@ -1,23 +1,23 @@
 ---
-keywords: implementieren;Implementierung;Implementierung;adobe-Start;Start;Rennen;Umleiten;Erlebnis-Plattformstart
-description: Erfahren Sie, wie Sie die Adobe Target at.js-Bibliothek mit Adobe Experience Platform Launch implementieren, der bevorzugten Methode zur Implementierung von Adobe Target.
-title: Wie implementiere ich die Zielgruppe mit Adobe Launch?
-feature: Implement Server-side
+keywords: Implementierung;Implementierung;Implementierung;adobe-Start;Start;Rennen;Umleiten;Erlebnis-platform launch
+description: Erfahren Sie, wie Sie die Adobe [!DNL Target] at.js-Bibliothek mit Adobe Experience Platform Launch implementieren, der bevorzugten Methode zur Implementierung von Adobe [!DNL Target].
+title: Wie implementiere ich [!DNL Target] mit Adobe Launch?
+feature: Serverseitige Implementierung
 role: Developer
+exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 76%
+source-wordcount: '450'
+ht-degree: 75%
 
 ---
 
-
-# Implementieren von Target mit Adobe Launch
+# [!DNL Target] mithilfe von Adobe Launch implementieren
 
 Adobe Experience Platform Launch ist die Tag-Management-Plattform der nächsten Generation aus der Adobe und die bevorzugte Methode zur Implementierung von Adobe Target. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind.
 
-## Implementieren von Target mit Adobe Launch {#topic_5234DDAEB0834333BD6BA1B05892FC25}
+## [!DNL Target] mithilfe der Adobe Launch {#topic_5234DDAEB0834333BD6BA1B05892FC25} implementieren
 
 Launch ist die Tag-Management-Plattform der nächsten Generation von Adobe und die bevorzugte Methode zur Implementierung von Adobe Target. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind.
 
@@ -29,7 +29,7 @@ In der folgenden Tabelle finden Sie verschiedene Quellen, über die Sie weitere 
 | [Adobe Launch-Dokumentation](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | Informationen zur Implementierung und Verwaltung der Analyse-, Marketing- und Werbe-Tags, die zur Unterstützung relevanter Kundenerlebnisse erforderlich sind. |
 | [Dokumentation zur Adobe Target Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informationen zur Implementierung von Target mit Launch. |
 
-## Vorteile der Implementierung von at.js mit der Zielgruppe Launch Extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Vorteile der Implementierung von &quot;at.js&quot;mit der [!DNL Target]-Erweiterung &quot;Launch&quot;{#section_48B3F938B6F8491DAF798E0DB54EF304}
 
 Folgende Vorteile erhalten Sie nur, wenn Sie Adobe Launch für die Implementierung von at.js verwenden. Deshalb empfehlen wir dringend, dass Sie statt DTM oder der manuellen Implementierung von at.js Adobe Launch einsetzen.
 
