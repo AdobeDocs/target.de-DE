@@ -1,16 +1,16 @@
 ---
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Aktivitätseinrichtung
-description: Antworten auf Fragen zur Einrichtung der Aktivität bei der Verwendung von Analytics für die Zielgruppe (A4T). Mit A4T können Sie Analytics-Berichte für Aktivitäten der Zielgruppe verwenden.
+description: Antworten auf Fragen zur Einrichtung der Aktivität bei der Verwendung von Analytics für [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] Aktivitäten
 title: Wo finde ich FAQs zu den Einstellungen für die Aktivität mit A4T?
 feature: Analytics for Target (A4T)
+exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 22%
+source-wordcount: '502'
+ht-degree: 23%
 
 ---
-
 
 # Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T
 
