@@ -1,14 +1,14 @@
 ---
 keywords: Implementierung;mbox;Download mbox.js;Download-API;mbox.js-API
 description: Erfahren Sie mehr über die ältere Implementierung von "mbox.js"in Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
-title: Wie implementiere ich die Zielgruppe mit "mbox.js"?
-feature: at.js
+title: Wie implementiere ich [!DNL Target] mit mbox.js?
+feature: 'at.js '
 role: Developer
 exl-id: 105095d7-8e29-413b-a7f4-e46e2e30e91f
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '280'
 ht-degree: 47%
 
 ---
