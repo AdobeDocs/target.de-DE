@@ -1,16 +1,16 @@
 ---
 keywords: Systemaktualisierung; Fehlerbehebung; Wartung; Systemstatus; Aktualisierungsstatus
-description: Ansicht des aktuellen Status von Adobe Target, um festzustellen, ob Probleme aufgrund von Systemaktualisierungen oder routinemäßigen Wartungsarbeiten auftreten können.
-title: Wo kann ich den Status von Zielgruppe und anderen Produkten der Adobe Ansicht?
-feature: Release Notes
+description: Ansicht des aktuellen Status der Adobe [!DNL Target] um festzustellen, ob Probleme auf Systemaktualisierungen oder Routinewartung zurückzuführen sind.
+title: Wo kann ich den Status von  [!DNL Target] und anderen Adoben-Produkten Ansicht geben?
+feature: ' Versionshinweise '
+exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
-
 
 # Systemstatusaktualisierungen und proaktive Benachrichtigungen
 
