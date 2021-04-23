@@ -2,17 +2,17 @@
 keywords: Targeting; Zielkategorien; Targeting-Bedingungen; Zielgruppenmanager; benutzerdefinierte Profilparameter; Besucherprofil; benutzerdefinierte Benutzerparameter; Zielregeln
 description: Erfahren Sie, wie Sie Kategorien (wie Browser, Geo, Netzwerk, Betriebssystem, Besucher-Profil) zur Zielgruppe von Inhalten verwenden.
 title: Was sind die Kategorien für Audiencen?
-feature: Audiences
+feature: Zielgruppen
+exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 92%
 
 ---
 
-
-# Kategorien für Zielgruppen{#categories-for-audiences}
+# Kategorien für Zielgruppen
 
 Sie können sich eine beliebige Kategorie aus mehreren Kategorien zum Ziel setzen. Für jede Kategorie ist eine Registerkarte verfügbar, auf der Sie Targeting-Regeln (oder -Gruppen) für jede Kategorie erstellen können.
 
