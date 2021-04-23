@@ -1,19 +1,19 @@
 ---
 keywords: api;apis;admin api;Versand-API;Berichte-API;Profil-API
-description: Suchen Sie nach Adobe Target-APIs, einschließlich Admin-, Versand-, Berichte- und Profil-APIs.
-title: Wo finde ich Zielgruppe API und SDK-Dokumentation?
+description: Suchen Sie nach Adobe [!DNL Target] APIs, einschließlich Admin-, Versand-, Berichte- und Profil-APIs.
+title: Wo finde ich die  [!DNL Target] API- und SDK-Dokumentation?
 feature: APIs/SDKs
 role: Developer
+exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
 
-
-# Übersicht über die Adobe Target API
+# API-Übersicht über die Adobe [!DNL Target]
 
 [!DNL Adobe Target] APIs können nach Typ gruppiert werden: Admin-, Versand-, Berichte- und Profil-APIs.
 
