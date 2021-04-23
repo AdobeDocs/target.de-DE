@@ -1,16 +1,16 @@
 ---
 keywords: QS;Vorschau;Bookmarklet;Vorschaulinks
-description: Erfahren Sie, wie Sie mit dem Adobe Target QA-Bookmarklet die Zielgruppe erzwingen, Sie aus dem QA-Modus freizugeben.
+description: Erfahren Sie, wie Sie mit der Adobe [!DNL Target] QA bookmarklet to force [!DNL Target] aus dem Qualitätssicherungs-Modus heraus arbeiten können.
 title: Wie verwende ich das Aktivität QA Bookmarklet?
-feature: Activities
+feature: Aktivitäten
+exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 13%
+source-wordcount: '262'
+ht-degree: 14%
 
 ---
-
 
 # Lesezeichenliste für Aktivitäts-QA
 
@@ -22,7 +22,7 @@ Informationen, die Sie bei der Verwendung des [!DNL Target] QA-Bookmarklets unte
 
 ## Aktivität QA Bookmarklet for at.js 1.*x* 
 
-Da [QS-Modus](/help/c-activities/c-activity-qa/activity-qa.md) fixierbar ist, muss nach dem Durchsuchen einer Website im QA-Modus Ihre [!DNL Target] Sitzung ablaufen oder Sie müssen [!DNL Target] aus dem QS-Modus freigeben, bevor Sie Ihre Site wie ein typischer Besucher Ansicht haben können. Verwenden Sie das QA [!DNL Target]-Lesezeichen, um sich aus dem QA-Modus zu drängen.
+Da [QS-Modus](/help/c-activities/c-activity-qa/activity-qa.md) fixierbar ist, muss nach dem Durchsuchen einer Website im QA-Modus Ihre [!DNL Target] Sitzung ablaufen oder Sie müssen [!DNL Target] aus dem QS-Modus freigeben, bevor Sie Ihre Site wie ein typischer Besucher Ansicht haben können. Verwenden Sie das QA [!DNL Target]-Lesezeichen, um sich aus dem QA-Modus zu befreien.
 
 Um das [!DNL Target] QA-Lesezeichen zu verwenden, erstellen Sie ein Lesezeichen mit dem folgenden JavaScript-Code und fügen Sie es der Lesezeichenleiste Ihres Browsers hinzu:
 
@@ -73,4 +73,3 @@ javascript:(
 ## Verwenden des Aktivität QA-Bookmarklets
 
 Klicken Sie in der Symbolleiste Ihres Browsers auf das Lesezeichen.
-
