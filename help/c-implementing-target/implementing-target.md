@@ -1,16 +1,16 @@
 ---
 keywords: Implementieren;Implementierung
-description: Informieren Sie sich über die grundlegenden Konzepte, machen Sie sich mit der Funktionsweise und der Integration von Target in Ihre Infrastruktur vertraut und erfahren Sie, wie Besucher nachverfolgt werden.
-landing-page-description: Bevor Sie mit der Verwendung von Adobe Target beginnen, sollten Sie es auf Ihrer Site implementieren, sich mit einigen grundlegenden Konzepten und Begriffen vertraut machen und verstehen, wie Target funktioniert.
+description: Verstehen Sie grundlegende Konzepte, kennen Sie die Funktionsweise von  [!DNL Target] und integrieren Sie sie in Ihre Infrastruktur, und verstehen Sie, wie Besucher verfolgt werden.
+landing-page-description: Bevor Sie mit der Verwendung von Adobe Target Beginn ausführen, sollten Sie es auf Ihrer Site implementieren, einige grundlegende Konzepte und Begriffe verstehen und mit der Funktionsweise von  [!DNL Target] vertraut sein.
 title: Wie implementiere ich Zielgruppe?
-feature: Implementation
+feature: Implementierung
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt
-source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 27%
+source-wordcount: '234'
+ht-degree: 7%
 
 ---
 
