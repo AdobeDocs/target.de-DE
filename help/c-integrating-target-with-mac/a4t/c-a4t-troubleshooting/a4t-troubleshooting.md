@@ -1,18 +1,18 @@
 ---
 keywords: Analytics-Trackingserver; A4T; Analytics-Segmente; Report Suites; falsche Daten; verwaist; sdid; VisitorAPI.js; mboxMCSDID; Phantom; unspezifisch
-description: Erfahren Sie mehr über häufige Probleme, mit denen Kunden bei der Verwendung von Analytics für die Zielgruppe (A4T) konfrontiert wurden.
-title: Fehlerbehebung bei der Integration von Analytics und Zielgruppe (A4T)
+description: Erfahren Sie mehr über häufige Probleme, mit denen Kunden bei der Verwendung von Analytics for [!DNL Target] (A4T) konfrontiert wurden.
+title: Fehlerbehebung bei Analytics und  [!DNL Target] Integration (A4T)
 feature: Analytics for Target (A4T)
+exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 translation-type: tm+mt
-source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1000'
 ht-degree: 42%
 
 ---
 
-
-# Fehlerbehebung bei der Analytics- und Target-Integration (A4T)
+# Fehlerbehebung bei der Analytics- und [!DNL Target]-Integration (A4T)
 
 In diesem Thema werden einige häufig auftretende Probleme behandelt, die bei der Verwendung von [!DNL Adobe Analytics] als Berichte für [!DNL Adobe Target] (A4T) aufgetreten sind.
 
