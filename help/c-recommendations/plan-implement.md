@@ -3,16 +3,16 @@ keywords: Recommendations; Einstellungen; Voreinstellungen; vertikaler Markt; Fi
 description: 'Erfahren Sie, wie Sie Recommendations-Aktivitäten in Adobe Target implementieren. Stellen Sie sicher, dass Ihre Implementierung die erforderlichen Voraussetzungen erfüllt. '
 title: Wie implementiere ich Recommendations-Aktivitäten?
 feature: Recommendations
+exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1620'
 ht-degree: 96%
 
 ---
 
-
-# ![recommendations ](/help/assets/premium.png) PREMIUMPlan und Implementierung  {#plan-and-implement-recommendations}
+# ![Recommendations ](/help/assets/premium.png) PREMIUMPlan und Implementierung
 
 Was Sie vor der Erstellung einer Recommendations-Aktivität wissen müssen.
 
