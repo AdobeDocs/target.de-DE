@@ -1,17 +1,17 @@
 ---
 keywords: Empfehlungsschlüssel;Empfehlungslogik;aktuelle Kategorie;benutzerdefiniertes Attribut;Zuletzt gekaufter Artikel;Zuletzt angezeigter Artikel;Am häufigsten angezeigter Artikel;am häufigsten angezeigte Kategorie;Beliebtheit;Zuletzt angezeigter Artikel;Zuletzt gekauft;Zuletzt zuletzt angezeigt;Favorit;Zuletzt angezeigt
-description: Erfahren Sie, wie Sie Empfehlungen auf Grundlage von Schlüsseln verwenden, die den Verhaltenskontext von Besuchern verwenden, um relevante Ergebnisse in Adobe Target Recommendations-Aktivitäten anzuzeigen.
+description: Erfahren Sie, wie Sie Empfehlungen auf Grundlage von Schlüsseln verwenden, die den Verhaltenskontext des Besuchers verwenden, um relevante Ergebnisse in Adobe [!DNL Target] Recommendations-Aktivitäten anzuzeigen.
 title: Wie kann ich die Empfehlung auf einem Empfehlungsschlüssel basieren?
 feature: Recommendations
 mini-toc-levels: 2
+exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2932'
 ht-degree: 67%
 
 ---
-
 
 # Stützen der Empfehlung auf einen Empfehlungsschlüssel
 
@@ -359,7 +359,7 @@ Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
 Zeigt die Artikel an, die in den am häufigsten abgeschlossenen Bestellungen enthalten sind. Wenn derselbe Artikel in einer Bestellung mehrmals bestellt wurde, zählt dies als eine Bestellung.
 
-Mit dieser Logik können Sie Empfehlungen für Artikel mit Topverkäufe auf Ihrer Site erstellen, um die Umrechnung und den Umsatz zu steigern. Diese Logik eignet sich besonders für erstmalige Besucher Ihrer Site.
+Mit dieser Logik können Sie Empfehlungen für Artikel mit Top-Verkaufs auf Ihrer Site erstellen, um die Umrechnung und den Umsatz zu steigern. Diese Logik eignet sich besonders für erstmalige Besucher Ihrer Site.
 
 Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
