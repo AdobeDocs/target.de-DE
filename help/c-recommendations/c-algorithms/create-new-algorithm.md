@@ -3,16 +3,16 @@ keywords: Kriterien;Algorithmus;Branche;Vertikal;Seitentyp;Empfehlungsschlüssel
 description: Erfahren Sie, wie Sie Kriterien erstellen, die den Inhalt Ihrer Adobe Recommendations-Aktivitäten steuern, um die für Ihre Aktivität am besten geeigneten Empfehlungen anzuzeigen.
 title: Wie erstelle ich Kriterien in Recommendations?
 feature: Recommendations
+exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2485'
+source-wordcount: '2486'
 ht-degree: 64%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Kriterien erstellen{#create-criteria}
+# ![PREMIUM](/help/assets/premium.png) Kriterien erstellen
 
 Kriterien in [!UICONTROL Adobe Target] [!UICONTROL Recommendations] steuern den Inhalt Ihrer [!UICONTROL Recommendations]-Aktivitäten. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen. Diese Kriterien verwenden die Aktionen des Besuchers, um festzulegen, welche Inhalte oder Produkte angezeigt werden sollen.
 
