@@ -1,18 +1,18 @@
 ---
 keywords: Ausnahmen
-description: Erfahren Sie, wie Sie Ausschlüsse in Adobe Target Recommendations erstellen, um zu verhindern, dass Produkte oder Inhalte für Besucher empfohlen werden.
+description: Erfahren Sie, wie Sie Ausschlüsse in Adobe [!DNL Target] Recommendations erstellen, um zu verhindern, dass Produkte oder Inhalte für Besucher empfohlen werden.
 title: Wie verwende ich Ausnahmen in Recommendations-Aktivitäten?
 feature: Recommendations
+exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 44%
 
 ---
 
-
-# Ausnahmen{#exclusions}
+# Ausnahmen
 
 Erstellen Sie einen Ausschluss in [!DNL Adobe Target Recommendations], um zu verhindern, dass Produkte oder Inhalte für Besucher empfohlen werden. Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die den Besuchern nicht empfohlen werden sollten.
 
