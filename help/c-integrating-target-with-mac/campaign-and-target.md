@@ -1,18 +1,18 @@
 ---
 keywords: Übersicht und Referenz
-description: Erfahren Sie, wie Sie mit Adobe Target und Adobe Campaign E-Mail-Inhalte optimieren können.
-title: Wie integriere ich Zielgruppe in Adobe Campaign?
-feature: Integrations
+description: Erfahren Sie, wie Sie Adobe [!DNL Target] mit Adobe Campaign verwenden, um E-Mail-Inhalte zu optimieren.
+title: Wie integriere ich [!DNL Target] mit Adobe Campaign?
+feature: Integrationen
+exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 42%
+source-wordcount: '382'
+ht-degree: 39%
 
 ---
 
-
-# Integration von Target in Adobe Campaign{#integrate-target-with-adobe-campaign}
+# [!DNL Target] mit Adobe Campaign integrieren
 
 Verwenden Sie [!DNL Target] mit [!DNL Adobe Campaign], um den E-Mail-Inhalt zu optimieren.
 
@@ -58,7 +58,7 @@ Bevor Sie [!DNL Adobe Campaign] verwenden, um Ihre zielgerichteten E-Mail-Angebo
 
 Beginn Sie die Aktivität in [!DNL Target], bevor Sie den [!DNL Campaign]-Integrationsteil einrichten.
 
-## Ein Target-Angebot in eine Adobe Campaign-E-Mail übernehmen   {#section_B201BBE27A704E18AF0D553F35695837}
+## Ein [!DNL Target]-Angebot in eine Adobe Campaign-E-Mail {#section_B201BBE27A704E18AF0D553F35695837} einschließen
 
 1. Erstellen Sie eine E-Mail in [!DNL Adobe Campaign].
 1. Klicken Sie in den E-Mail-Eigenschaften auf **[!UICONTROL Einschließen]** > **[!UICONTROL Dynamisches Bild bereitgestellt von Adobe Target]**.
