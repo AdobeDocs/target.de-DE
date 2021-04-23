@@ -2,16 +2,16 @@
 keywords: Host;Hosts;Hostgruppe;Fehlerbehebung;Best Practices;Ubox;Umleitungen;Umleitung;Whitelist;Zulassungsliste;Blacklist;Blockierungsliste
 description: Erfahren Sie, wie Sie Ihre Websites und Umgebung vor der Produktion für eine einfache Verwaltung und getrennten Berichte in Adobe Target organisieren.
 title: Was sind Hosts und wie verwende ich sie?
-feature: Administration & Configuration
+feature: Administration und Konfiguration
 role: Administrator
+exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1080'
 ht-degree: 22%
 
 ---
-
 
 # Hosts
 
@@ -65,7 +65,7 @@ Um die Liste [!UICONTROL Hosts] zu sortieren, klicken Sie auf eine Spaltenübers
 
 Um die Liste [!UICONTROL Hosts] zu durchsuchen, geben Sie einen Suchbegriff in das Feld [!UICONTROL Search Hosts] ein.
 
-## Erstellen Sie Zulassungslisten, die Hosts angeben, die berechtigt sind, Zielgruppen an die Zielgruppe zu senden. {#allowlist}
+## Erstellen Sie Zulassungslisten, die Hosts angeben, die berechtigt sind, [!DNL Target]-Anforderungen an [!DNL Target] zu senden. {#allowlist}
 
 Sie können eine Zulassungsliste erstellen, die Hosts (Domänen) angibt, die berechtigt sind, [!DNL Target]-Anforderungen an [!DNL Target] zu senden. Alle anderen Hosts, die Anforderungen generieren, erhalten eine kommentierte Fehlermeldung zur Autorisierung. Standardmäßig werden alle Hosts, die eine [!DNL Target]-Anforderung enthalten, mit [!DNL Target] in der [!UICONTROL Production]-Umgebung registriert und haben Zugriff auf alle aktiven und genehmigten Aktivitäten. Wenn dieser Ansatz nicht gewünscht wird, können Sie stattdessen mithilfe der Zulassungsliste bestimmte Hosts aufzeichnen, die berechtigt sind, [!DNL Target]-Anforderungen zu stellen und [!DNL Target]-Inhalte zu empfangen. Alle Hosts werden weiterhin in der Liste [!UICONTROL Hosts] angezeigt, und Umgebung können weiterhin verwendet werden, um diese Hosts zu gruppieren und ihnen verschiedene Ebenen zuzuweisen, z. B. ob der Host aktive und/oder inaktive Aktivitäten sehen kann.
 
