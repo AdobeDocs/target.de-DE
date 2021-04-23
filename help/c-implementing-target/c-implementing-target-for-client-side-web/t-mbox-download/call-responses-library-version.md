@@ -1,18 +1,18 @@
 ---
 description: Erfahren Sie mehr über die ältere Implementierung von "mbox.js"in Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
 title: Welche Seitenmethoden verwendet mbox.js?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: a0f7b956-7855-4165-b34c-33d81a8fac55
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 88%
 
 ---
 
-# Target-Seitenmethoden nach „mbox.js“-Bibliotheksversion{#target-page-methods-by-mbox-js-library-version}
+# Target-Seitenmethoden nach „mbox.js“-Bibliotheksversion
 
 Die Art, mit der Target Aufrufe an Ihre Seite sendet und auf Aufrufe der Seite antwortet, hängt von der Version der verwendeten Target-Bibliothek ab und davon, ob die Implementierung der Experience Cloud-Besucher-ID und die Besucher-ID vorhanden sind.
 
