@@ -1,18 +1,18 @@
 ---
 keywords: Berichte;IP-Adresse blockieren;Besucher von IP-Adresse blockieren;Download-Berichte;CSV;Berichte
-description: Erfahren Sie, wie Sie die Berichte-Funktionen in Adobe Target nutzen, um die Leistung Ihrer Aktivitäten zu überprüfen. Treffen Sie bessere Entscheidungen auf Basis Ihrer Daten, um den ROI zu erhöhen.
+description: Erfahren Sie, wie Sie die Berichte-Funktionen in Adobe [!DNL Target] verwenden, um die Leistung Ihrer Aktivitäten zu untersuchen. Treffen Sie bessere Entscheidungen auf Basis Ihrer Daten, um den ROI zu erhöhen.
 title: Wie kann ich Berichte zu Ansichten erstellen?
-feature: Reports
+feature: Berichte
+exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 63%
 
 ---
 
-
-# Berichte{#reports}
+# Berichte
 
 Berichte enthalten Informationen über den Fortschritt und die Ergebnisse Ihrer [!DNL Adobe Target]-Aktivitäten, die Ihnen helfen, anhand Ihrer Daten Entscheidungen zu treffen. Berichtsdaten können Ihnen dabei helfen, zu entscheiden, wann eine Aktivität beendet werden soll, Ihnen zeigen, welches Erlebnis mit Angebot am erfolgreichsten ist, und Einblicke oder Lernprozesse liefern, die Sie zur Festlegung der nächsten Aktionen benötigen.
 
