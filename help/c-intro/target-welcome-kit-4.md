@@ -1,16 +1,16 @@
 ---
 keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
-description: Lesen Sie die Tipps unserer Expertengruppe zur Verwendung von Adobe Target im Rahmen Ihrer Tests und Personalisierungsanstrengungen.
+description: Lesen Sie in unserem Expertengremium Tipps zur Verwendung von Adobe [!DNL Target] im Rahmen Ihrer Test- und Personalisierungsbemühungen.
 title: Wo finde ich Tipps und Tricks zur Verwendung von Zielgruppe?
-feature: Overview
+feature: Überblick
+exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2900'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
-
 
 # Kapitel 4: Tipps zur Verwendung der Zielgruppe
 
@@ -28,15 +28,15 @@ Eine schrittweise Anleitung finden Sie unter [Benutzerspezifische Attribute](htt
 
 Weitere Informationen finden Sie unter [Methoden zum Abrufen von Daten in Zielgruppe](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md).
 
-## Tipp 2: Durch die Verknüpfung von Zielgruppe-Audiencen mit anderen Adobe Experience Cloud-Audiencen können Sie Ihre persönlichen Daten noch besser personalisieren.
+## Tipp 2: Optimieren Sie Ihre Personalisierung durch die Mischung von [!DNL Target]-Audiencen mit anderen Adobe Experience Cloud-Audiencen.
 
 Die Kombination von Audiencen, die in unterschiedlichen [!DNL Adobe Experience Cloud]-Lösungen leben, kann Ihnen ein umfassenderes Verständnis Ihrer Kunden vermitteln und Ihnen die Möglichkeit geben, sich tiefer zu personalisieren. [!DNL Target] stellt beispielsweise Daten zur Audience in Echtzeit bereit, [!DNL Adobe Analytics] stellt aber Verlaufsdaten zur Audience bereit. Die Kombination dieser beiden Faktoren kann Ihnen dabei helfen, festzustellen, wann das Verhalten eines Kunden konsistent ist und wann möglicherweise die Möglichkeit besteht, auf ein neues Verhalten zu reagieren. Klicken Sie beim Erstellen einer Aktivität einfach auf das Dropdown-Menü neben &quot;Alle Besucher&quot;. Markieren Sie anschließend die Kästchen mit bis zu zwanzig Audiencen, klicken Sie auf &quot;Mehrere Audiencen kombinieren&quot;und klicken Sie auf &quot;Speichern&quot;.
 
 Eine schrittweise Anleitung finden Sie unter [Kombinieren mehrerer Audiencen](/help/c-target/combining-multiple-audiences.md).
 
-**Gut zu wissen**:  [!DNL Adobe Audience Manager] audiencen sind  [!DNL Target] automatisch verfügbar. Für die [!DNL Adobe Analytics]-Freigabe von Audiencen ist jedoch eine manuelle Einrichtung erforderlich. Markieren Sie einfach das Kästchen &quot;Make this an Experience Cloud Audience&quot; während der Audience-Erstellung in [!DNL Analytics]. Klicken Sie dann von [!DNL Target] auf &quot;Experience Cloud-Audiencen importieren&quot;.
+**Gut zu wissen**:  [!DNL Adobe Audience Manager] Audiencen sind  [!DNL Target] automatisch verfügbar. Für die [!DNL Adobe Analytics]-Freigabe von Audiencen ist jedoch eine manuelle Einrichtung erforderlich. Markieren Sie einfach das Kästchen &quot;Make this an Experience Cloud Audience&quot; während der Audience-Erstellung in [!DNL Analytics]. Klicken Sie dann von [!DNL Target] auf &quot;Experience Cloud-Audiencen importieren&quot;.
 
-## Tipp 3: Exportieren Sie Daten aus der Zielgruppe zur Verwendung mit Drittanbieterwerkzeugen.
+## Tipp 3: Exportieren Sie Daten von [!DNL Target] zur Verwendung mit Drittanbieter-Tools.
 
 Mithilfe von Antwort-Token können Administratoren problemlos Daten aus [!DNL Target] und in Tools von Drittanbietern abrufen. Dies kann hilfreich sein, wenn Sie Daten zu Daten hinzufügen möchten, die in einem Umfrage-Tool erfasst wurden. Wenn beispielsweise eine Umfrage eine Stichprobe einer Population mit einem Erlebnis mit einem Wert von &quot;9&quot;und einem Erlebnis mit einem Wert von &quot;4&quot;anzeigt, können Sie Ihre Daten verwenden, um zu sehen, wer Erlebnis A gesehen hat und wer Erlebnis B gesehen hat. Sie können auch Antwort-Token verwenden, um [!DNL Target]-Daten in Ihr internes Data Warehouse zu exportieren. Klicken Sie einfach auf &quot;Administration&quot;, und schalten Sie dann den Schalter neben dem gewünschten Antworttoken auf die Position ein. Als Nächstes erstellen Sie eine Aktivität. Die Daten können dann an den Drittanbieter übertragen werden. Sie können überprüfen, ob [!DNL Target] die Daten mit Debuggingwerkzeugen exportiert.
 
@@ -96,7 +96,7 @@ Eine schrittweise Anleitung finden Sie unter [Eine Nur-Aktivität-Audience](/hel
 
 **Hoch angeforderte Funktion**: Unsere Kunden haben uns gebeten, die Möglichkeit zu schaffen, dass Audiencen mit nur einem Verwendungszweck nicht automatisch in der Audience-Bibliothek gespeichert werden. Jetzt müssen sie keine Audiencen mehr manuell löschen, um ihre Bibliotheken zu organisieren.
 
-## Tipp 10: Einfache Tests werden schneller ausgeführt, ohne dass sie den Standard-QA-Prozess durchlaufen.
+## Tipp 10: Einfache Tests werden schneller ausgeführt, ohne dass sie den Standard-QS-Prozess durchlaufen.
 
 Es gibt nichts Schlimmeres als eine Aktivität zu haben, die bereit ist zu gehen und dann Wochen darauf zu warten, dass sie den Standard-QS-Prozess abschließt. Sie können die meisten Aktivitäten durch Weiterleiten einiger QS-Links an Kollegen überprüfen, um sie in verschiedenen Browsern zu testen. Wahrscheinlich möchten Sie für Bemühungen, die die Funktion der Site drastisch verändern, mehr QS-Tests durchführen, aber in Wirklichkeit sollten Sie weniger dieser Aktivitäten und weitaus mehr der grundlegenderen Aktivitäten haben. Durch das Hinzufügen besserer Rechte-Kontrollen, damit weniger Menschen Dinge voll leben können, werden auch sinnvolle Grenzen gesetzt und Sie können das erreichen, was Sie brauchen, ohne dabei Geschwindigkeit und Effizienz zu opfern. Eine andere Möglichkeit besteht darin, über eine IT-Ressource zu verfügen, die eine zeitnahe Überwachung des Qualitätssicherungsprozesses ermöglicht.
 
