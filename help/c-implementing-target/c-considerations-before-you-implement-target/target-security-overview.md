@@ -1,17 +1,17 @@
 ---
 keywords: Sicherheit;Sicherheitsverfahren
-description: Erfahren Sie mehr über die Verfahren, die die Adobe zur Erhöhung der Datensicherheit und zur Adobe Target-Nutzung einsetzt. Laden Sie das Whitepaper Adobe Target Security Overview herunter.
-title: Wie behandelt Zielgruppe die Sicherheit meiner Daten?
-feature: Privacy & Security
+description: 'Erfahren Sie mehr über die Vorgehensweisen, die die Adobe zur Erhöhung der Sicherheit Ihrer Daten und Adoben verwendet. [!DNL Target] experience. Download the Adobe [!DNL Target] '
+title: Wie behandelt [!DNL Target] die Sicherheit meiner Daten?
+feature: Datenschutz und Sicherheit
 role: Developer
+exl-id: be93072f-2c21-40fa-8648-513348afacc8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 74%
+source-wordcount: '160'
+ht-degree: 76%
 
 ---
-
 
 # Target-Sicherheitsübersicht
 
