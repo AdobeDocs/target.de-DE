@@ -1,12 +1,12 @@
 ---
-user-guide-title: Adobe Target-Anleitung
+user-guide-title: Adobe [!DNL Target] Handbuch
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kunden anpassen und personalisieren können, um den Umsatz Ihrer Websites, mobilen Sites, Apps, sozialen Medien und anderer digitaler Kanal zu maximieren.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1606'
 ht-degree: 74%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 74%
 # Adobe Target-Anleitung {#using}
 
 + [Adobe Target Guide - Startseite](target-home.md)
-+ Target-Versionshinweise {#release-notes}
++ Versionshinweise zu Target {#release-notes}
    + [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md)
-   + [Target-Versionshinweise (aktuell)](r-release-notes/release-notes.md)
+   + [Versionshinweise zu Target (aktuell)](r-release-notes/release-notes.md)
    + [Versionshinweise zu Target (Vorabversion)](r-release-notes/target-release-notes.md)
    + [Übersicht über die Zielgruppe](/help/r-release-notes/target-documentation.md)
    + [Zielgruppe Insider-Newsletter](/help/r-release-notes/target-insider-newsletter.md)
