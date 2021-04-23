@@ -2,18 +2,18 @@
 keywords: mbox-Funktionen
 description: Erfahren Sie mehr über die ältere Implementierung von "mbox.js"in Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
 title: Welche Funktionen unterstützt mbox.js?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: b157a6b3-a39e-4749-95dc-72662dd6eff6
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 48%
+source-wordcount: '201'
+ht-degree: 47%
 
 ---
 
-# „mbox.js“-Funktionen{#mbox-js-functions}
+# „mbox.js“-Funktionen
 
 Liste der mbox.js-Funktionen, die bei der Implementierung von mbox.js verwendet werden können.
 
