@@ -1,16 +1,16 @@
 ---
 keywords: Targeting;Visual Experience Composer;Whitelist;White-List;Zulassungsliste;Zulassungsliste;Enhanced Visual Experience Composer;VEC;Fehlerbehebung für Visual Experience Composer;Fehlerbehebung;eec;Enhanced Experience Composer;tls;tls1.2
-description: Hier erfahren Sie, wie Sie Probleme beheben, die manchmal im Adobe Target Visual Experience Composer (VEC) und im Enhanced Experience Composer (EEC) auftreten, unter bestimmten Bedingungen.
+description: Erfahren Sie, wie Sie Probleme beheben, die manchmal in der Adobe [!DNL Target] Visual Experience Composer (VEC) und im Enhanced Experience Composer (EEC) auftreten, unter bestimmten Bedingungen.
 title: Wie behebe ich Probleme im Zusammenhang mit Visual Experience Composer und Enhanced Experience Composer?
-feature: Visual Experience Composer (VEC)
+feature: 'Visual Experience Composer (VEC) '
+exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 65%
+source-wordcount: '1404'
+ht-degree: 64%
 
 ---
-
 
 # Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer
 
@@ -24,7 +24,7 @@ Mit den neuesten Änderungen (August 2020) haben alle Benutzer mit Chrome 80+-Br
 * Ist *nicht* in der Lage, [!DNL Target]-Bibliotheken beim Bearbeiten einer Aktivität herunterzuladen (wenn diese noch nicht auf der Site vorhanden sind)? Dies liegt daran, dass der Download-Aufruf von der Kundendomäne zu einer gesicherten Adobe-Domäne erfolgt und als nicht authentifiziert abgelehnt wird.
 * Die EEC wird für alle Benutzer die Funktion *nicht* verwenden, da sie nicht in der Lage ist, das Attribut SameSite für Cookies auf `adobemc.com domain` festzulegen. Ohne dieses Attribut lehnt der Browser diese Cookies ab, wodurch die EWG fehlschlägt.
 
-Adobe hat eine aktualisierte VEC Helper-Erweiterung an den Google Chrome Store übermittelt. Diese Erweiterung überschreibt die Cookie-Attribute, um bei Bedarf das `SameSite="none"`-Attribut festzulegen. Die [aktualisierte Erweiterung finden Sie hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Weitere Informationen zum Installieren und Verwenden der VEC Helper Extension finden Sie unter [Visual Experience Composer Helper Extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+Adobe hat eine aktualisierte VEC Helper-Erweiterung an den Google Chrome Store übermittelt. Diese Erweiterung überschreibt bei Bedarf die Cookie-Attribute, um das `SameSite="none"`-Attribut festzulegen. Die [aktualisierte Erweiterung finden Sie hier](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Weitere Informationen zum Installieren und Verwenden der VEC Helper Extension finden Sie unter [Visual Experience Composer Helper Extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 Für Ihre eigenen Site-Cookies müssen Sie die Cookies anhand des Namens angeben. Schalten Sie den Regler [!UICONTROL Cookie] zur Position &quot;on&quot;um und geben Sie dann das Cookie nach Name und Cookie-Domäne an. Der Cookie-Name ist &quot;mbox&quot;und die Cookie-Domäne ist die zweite und oberste Ebene der Domänen, von denen Sie die mbox beliefern. Da die Belieferung von der Domäne Ihres Unternehmens stattfindet, handelt es sich um ein Erstanbieter-Cookie. Beispiel: `mycompany.com`. Weitere Informationen finden Sie unter [Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) im *Experience Cloud-Benutzeroberfläche Benutzerhandbuch*.
 
@@ -42,7 +42,7 @@ Verwenden Sie eine der folgenden Optionen, um sicherzustellen, dass VEC und EEC 
    >
    >Dies wird *nicht* ausreichen, wenn Cookies bereits das Attribut SameSite auf &quot;Lax&quot;oder &quot;Strict&quot;vom Server eingestellt haben.
 
-## Unterstützt Target iFrames mit mehreren Ebenen?
+## Unterstützt [!DNL Target] iFrames mit mehreren Ebenen?
 
 Nein, Target unterstützt keine iFrames mit mehreren Ebenen. Wenn Ihre Website einen iFrame mit einem untergeordneten iFrame lädt, interagieren Target-Bibliotheken (at.js und mbox.js) nur mit dem übergeordneten iFrame. Target-Bibliotheken interagieren nicht mit dem untergeordneten iFrame.
 
@@ -52,7 +52,7 @@ Als Behelfslösung können Sie im Erlebnis eine Seite mit der URL des untergeord
 
 Das kann vorkommen, wenn die URL ein #-Zeichen enthält. Um das Problem zu beheben, wechseln Sie im Visual Experience Composer in den Durchsuchen-Modus und anschließend wieder in den Erstellen-Modus. Das Netz sollte verschwinden und die Seite sollte angezeigt werden.
 
-## Content Security Policy (CSP)-Header blockieren die Target-Bibliotheken auf meiner Website. (VEC und EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
+## Die Header der Content Security Policy (CSP) blockieren die [!DNL Target]-Bibliotheken auf meiner Website. (VEC und EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 Wenn die CSP-Header Ihrer Website Target-Bibliotheken blockieren und die Website anschließend geladen wird, die Bearbeitung aber nicht möglich ist, stellen Sie sicher, dass die Target-Bibliotheken nicht blockiert werden.
 
