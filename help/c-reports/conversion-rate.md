@@ -1,16 +1,16 @@
 ---
 keywords: Targeting
-description: Erfahren Sie, wie Adobe Target das Konversionsrat-, Steigerungs-, Konfidenzintervall (statistische Bedeutung) und das Konfidenzintervall für jedes Erlebnis anzeigt und berechnet.
-title: Wie kann ich die Konversionsrat-, Lift- und Konfidenzstufe Ansicht durchführen?
-feature: Reports
+description: Erfahren Sie, wie Adobe [!DNL Target] das Konversionsrat-, Steigerungs-, Konfidenzintervall (statistische Bedeutung) und das Konfidenzintervall für jedes Erlebnis anzeigt und berechnet.
+title: Wie kann ich das Konversionsrat-, Lift- und Konfidenzniveau Ansicht?
+feature: Berichte
+exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 70%
+ht-degree: 69%
 
 ---
-
 
 # Konversionsrate
 
@@ -112,7 +112,7 @@ Um diese berechneten Metriken zu berechnen, laden Sie die Excel-Zielgruppe [Comp
 >
 >Dieser Rechner dient für Target-basierte Berichte und nicht für A4T-Berichte.
 
-## Durchführen von Offlineberechnungen für Analytics for Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Offline-Berechnungen für Analytics für Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 Sie können Offlineberechnungen für A4T durchführen. Dazu ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics] erforderlich.
 
@@ -186,7 +186,7 @@ Berichte können nach folgenden Zählmethodiken angezeigt werden:
 >
 >In der Regel werden Zählungen durch Cookies und Sitzungsaktivitäten bestimmt. Wenn Sie jedoch den End-Konversionspunkt einer Aktivität erreichen und die Aktivität dann erneut aufrufen, werden Sie als neuer Teilnehmer und neuer Aktivitätsbesuch gezählt. Dies trifft auch dann zu, wenn sich die Werte Ihrer PCID und der `sessionID` nicht geändert haben.
 
-## Warum empfiehlt Zielgruppe die Verwendung von Student-T-Tests? {#t-test}
+## Warum wird die Verwendung von Student-T-Tests empfohlen? {#t-test}[!DNL Target]
 
 A/B-Tests sind Experimente zum Vergleich des Mittelwerts einer bestimmten Geschäftsmetrik in einer Kontrollvariante (auch als Erlebnis bezeichnet) mit dem Mittelwert derselben Metrik in einem oder mehreren alternativen Erlebnissen.
 
