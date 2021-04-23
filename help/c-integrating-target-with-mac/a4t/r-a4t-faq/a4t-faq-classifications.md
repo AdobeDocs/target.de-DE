@@ -1,18 +1,18 @@
 ---
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Classifications; Classification; Classifications Importer; Post-TNT-Aktion
-description: Hier finden Sie Antworten auf Fragen zu Klassifizierungen und zur Verwendung von Analytics für die Zielgruppe (A4T). Mit A4T können Sie Analytics-Berichte für Aktivitäten der Zielgruppe verwenden.
+description: Hier finden Sie Antworten auf Fragen zu Klassifizierungen und zur Verwendung von Analytics für [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] Aktivitäten.
 title: Wo finde ich Informationen zu Klassifizierungen mit A4T?
 feature: Analytics for Target (A4T)
+exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 55%
+source-wordcount: '257'
+ht-degree: 59%
 
 ---
 
-
-# Classifications – Häufig gestellte Fragen zu A4T{#classifications-a-t-faq}
+# Classifications - Häufig gestellte Fragen zu A4T
 
 Dieses Thema enthält Antworten auf häufig gestellte Fragen zu Klassifizierungen und die Verwendung von [!DNL Analytics] als Berichte für [!DNL Target] (A4T).
 
