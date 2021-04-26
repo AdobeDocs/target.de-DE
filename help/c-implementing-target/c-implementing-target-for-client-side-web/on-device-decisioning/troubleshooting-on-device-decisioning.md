@@ -5,22 +5,16 @@ title: Wie kann ich bei der Geräteentscheidung mit der JavaScript-Bibliothek "a
 feature: 'at.js '
 role: Developer
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
-# Fehlerbehebung bei der Entscheidung für &quot;at.js&quot;auf dem Gerät
+# Fehlerbehebung bei der Entscheidung für at.js auf dem Gerät
 
-Führen Sie die folgenden Schritte aus, um die Fehlerbehebung bei der Entscheidungsfindung auf dem Gerät in Adobe Target mit der JavaScript-Bibliothek &quot;at.js&quot;durchzuführen:
-
-1. Konsolenprotokoll für &quot;at.js&quot;aktivieren
-1. Überprüfen Sie den Artefaktdownload auf der Registerkarte Netzwerk Ihres Browsers
-1. Überprüfen des Artikeldownloads für Regeln mithilfe von benutzerdefinierten Ereignissen von at.js
-
-Die folgenden Abschnitte beschreiben jeden Schritt detaillierter:
+Führen Sie die folgenden Schritte aus, um die Fehlerbehebung bei der Geräteentscheidung in [!DNL Adobe Target] mit der JavaScript-Bibliothek at.js durchzuführen:
 
 ## Schritt 1: Konsolenprotokoll für &quot;at.js&quot;aktivieren
 
