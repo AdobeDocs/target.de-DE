@@ -5,9 +5,9 @@ title: Wie funktioniert [!DNL Target] das?
 feature: Überblick
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
+source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
 workflow-type: tm+mt
-source-wordcount: '2564'
+source-wordcount: '2563'
 ht-degree: 32%
 
 ---
@@ -33,7 +33,7 @@ Verweisen Sie auf jeder Seite Ihrer Site auf [!DNL AEP Web SDK] oder at.js. Sie 
 Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung des AEP Web SDK oder at.js:
 
 * [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Zielgruppe mithilfe von Adobe Experience Platform Launch implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implementierung  [!DNL Target] mit Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Jedes Mal, wenn ein Besucher eine Seite anfordert, die für [!DNL Target] optimiert wurde, wird eine Anforderung an das Targeting-System gesendet. Die Anforderung hilft bei der Bestimmung der Inhalte, die für diesen Besucher bereitgestellt werden sollen. Dieser Prozess erfolgt in Echtzeit. Jedes Mal, wenn eine Seite geladen wird, wird eine Anforderung für den Inhalt vom System gesendet und erfüllt. Der Inhalt wird durch die vom Marketingspezialisten kontrollierten Aktivitäten und Erlebnisse geregelt und auf den einzelnen Besucher der Site zugeschnitten. Es werden Inhalte bereitgestellt, auf die die einzelnen Site-Besucher mit hoher Wahrscheinlichkeit reagieren, mit ihnen interagieren oder letztendlich kaufen. Personalisierter Inhalt hilft, Antwortquoten, Akquise-Raten und Umsatz zu maximieren.
 
