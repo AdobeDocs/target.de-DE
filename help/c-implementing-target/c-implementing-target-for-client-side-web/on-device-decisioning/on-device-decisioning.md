@@ -6,10 +6,10 @@ feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: ee314b04ece148b453f64a8e5d0374b94fdaed33
+source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
-source-wordcount: '3748'
-ht-degree: 6%
+source-wordcount: '3506'
+ht-degree: 7%
 
 ---
 
@@ -109,7 +109,7 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 
 | Schritt | Beschreibung |
 | --- | --- |
-| 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
+| 3 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
 | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
 | 3 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
 | 4 | Die at.js-Bibliothek stellt eine Anforderung zum Abrufen des JSON-Regelartefakts vom nächsten Akamai-CDN zum Besucher. |
@@ -134,9 +134,9 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 
 | Schritt | Beschreibung |
 | --- | --- |
-| 3 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
+| 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
 | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
-| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 3 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
 | 4 | Die Bibliothek at.js interpretiert das JSON-Regelartefakt und führt die Entscheidung im Speicher aus, das Erlebnis abzurufen. |
 | 5 | Die getesteten Elemente werden ausgeblendet. |
 | 6 | In der &quot;at.js&quot;-Bibliothek wird der Hauptteil angezeigt, damit der Rest der Seite für die Ansicht des Besuchers geladen werden kann. |
@@ -329,63 +329,3 @@ Sie können nach allen Aktivitäten filtern, die für die Entscheidungsfindung a
 1. Erstellen und aktivieren Sie einen [Aktivität-Typ, der von der geräteinternen Entscheidungsfindung unterstützt wird](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md), und überprüfen Sie, ob die Entscheidung für das Gerät zulässig ist.
 1. Stellen Sie die Entscheidungsmethode **[!UICONTROL entweder auf**[!UICONTROL &quot;Hybrid&quot;]**oder auf**[!UICONTROL &quot;Nur auf dem Gerät&quot;]**über die Benutzeroberfläche der at.js-Einstellungen ein.]**
 1. Laden Sie at.js 2.5.0+ herunter und stellen Sie es auf Ihren Seiten bereit.
-
-## Fehlerbehebung 
-
-Führen Sie die folgenden Schritte aus, um die Fehlerbehebung bei der Entscheidungsfindung auf dem Gerät zu beheben:
-
-1. Konsolenprotokoll für &quot;at.js&quot;aktivieren
-1. Überprüfen Sie den Artefaktdownload auf der Registerkarte Netzwerk Ihres Browsers
-1. Überprüfen des Artikeldownloads für Regeln mithilfe von benutzerdefinierten Ereignissen von at.js
-
-Die folgenden Abschnitte beschreiben jeden Schritt detaillierter:
-
-### Schritt 1: Konsolenprotokoll für &quot;at.js&quot;aktivieren
-
-Wenn Sie den URL-Parameter `mboxDebug=1` anhängen, kann at.js Nachrichten in der Konsole Ihres Browsers drucken.
-
-Alle Nachrichten enthalten das Präfix &quot;AT:&quot;, um eine bequeme Übersicht zu erhalten. Um sicherzustellen, dass ein Artefakt erfolgreich geladen wurde, sollte Ihr Konsolenprotokoll Meldungen wie die folgenden enthalten:
-
-```
-AT: LD.ArtifactProvider fetching artifact - https://assets.adobetarget.com/your-client-cide/production/v1/rules.json
-AT: LD.ArtifactProvider artifact received - status=200
-```
-
-Die folgende Abbildung zeigt diese Meldungen im Konsolenprotokoll:
-
-![Konsolenprotokoll mit Artefaktmeldungen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/browser-console.png)
-
-### Schritt 2: Überprüfen Sie den Artefaktdownload auf der Registerkarte Netzwerk Ihres Browsers
-
-Öffnen Sie die Registerkarte Netzwerk Ihres Browsers.
-
-So öffnen Sie beispielsweise DevTools in Google Chrome:
-
-1. Drücken Sie Strg+Umschalt+J (Windows) bzw. Befehl+Wahl+J (Mac).
-1. Navigieren Sie zur Registerkarte Netzwerk.
-1. Filtern Sie Ihre Aufrufe nach Keyword &quot;rules.json&quot;, um sicherzustellen, dass nur die Artefaktregeldatei angezeigt wird.
-
-   Darüber hinaus können Sie nach &quot;/Versand|rules.json/&quot;filtern, um alle [!DNL Target]-Aufrufe und Artefaktregeln.json anzuzeigen.
-
-   ![Registerkarte &quot;Netzwerk&quot;in Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
-
-### Schritt 3: Überprüfen des Artikeldownloads für Regeln mithilfe von benutzerdefinierten Ereignissen von at.js
-
-Die at.js-Bibliothek löst zwei neue benutzerdefinierte Ereignis aus, um die Entscheidungsfindung auf dem Gerät zu unterstützen.
-
-* `adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`
-* `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`
-
-Sie können sich abonnieren, um diese benutzerdefinierten Ereignis in Ihrer Anwendung auf Aktionen zu prüfen, wenn die Datei mit den Artefaktregeln erfolgreich heruntergeladen wurde oder fehlgeschlagen ist.
-
-Das folgende Beispiel zeigt ein Codebeispiel, das Artefaktdownload-Erfolgs- und Fehler-Ereignis überwacht:
-
-```javascript
-document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED, function(e) { 
-  console.log("Artifact successfully downloaded", e.detail);
-}, false);
-
-document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(e) { 
-  console.log("Artifact failed to download", e.detail);
-}, false);
-```
