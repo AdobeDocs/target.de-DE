@@ -5,9 +5,9 @@ title: Wie behebe ich eine Fehlerbehebung bei Zielgruppen?
 feature: 'Fehlerbehebung '
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '452'
 ht-degree: 88%
 
 ---
@@ -139,7 +139,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 ## Geräteinterne Entscheidungsfindung
 
-* [Geräteinterne Entscheidungsfindung für &quot;at.js&quot;](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* [Fehlerbehebung bei der Entscheidung für at.js auf dem Gerät](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
 
 ## Berichterstellung
 
