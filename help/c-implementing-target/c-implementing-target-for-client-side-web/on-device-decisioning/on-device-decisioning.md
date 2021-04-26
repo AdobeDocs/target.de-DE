@@ -2,14 +2,14 @@
 keywords: Implementierung;JavaScript-Bibliothek;js;ATJS;on-device-Entscheidungsfindung;on-device-Entscheidungsfindung;at.js;on-device;on-device
 description: Erfahren Sie, wie Sie mit der Bibliothek "at.js"Entscheidungen auf dem Gerät durchführen
 title: Wie funktioniert die On-device-Entscheidungsfindung mit der JavaScript-Bibliothek "at.js"?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 7%
+source-wordcount: '3747'
+ht-degree: 6%
 
 ---
 
@@ -111,7 +111,7 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 | --- | --- |
 | 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
 | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
-| 3 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
 | 4 | Die at.js-Bibliothek stellt eine Anforderung zum Abrufen des JSON-Regelartefakts vom nächsten Akamai-CDN zum Besucher. |
 | 5 | Das Akamai-CDN reagiert mit dem JSON-Regelartefakt. |
 | 6 | Das JSON-Regelartefakt wird lokal im Browser des Besuchers zwischengespeichert. |
@@ -169,7 +169,7 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 | --- | --- |
 | 3 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
 | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
-| 3 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
 | 4 | Eine Seitenladeanforderung wird an das Adobe Target Edge Network gesendet, einschließlich aller konfigurierten Parameter wie (ECID, Kunden-ID, benutzerdefinierte Parameter, User Profil usw.). |
 | 5 | Parallel dazu stellt at.js eine Anforderung zum Abrufen des JSON-Regelartefakts vom nächsten Akamai-CDN zum Besucher. |
 | 6 | (Adobe Target Edge Network) Profil-Skripten werden ausgeführt und dann in den Profil Store eingespeist. Der Profil Store fordert qualifizierte Audiencen aus der Audience-Bibliothek an (z. B. freigegebene Audiencen von [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] usw.). |
@@ -197,7 +197,7 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 | --- | --- |
 | 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
 | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
-| 3 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
 | 4 | Es wird eine Anforderung zum Abrufen eines Erlebnisses gesendet. |
 | 5 | Die Bibliothek at.js bestätigt, dass das JSON-Regelartefakt bereits zwischengespeichert wurde, und führt die Entscheidung im Speicher aus, das Erlebnis abzurufen. |
 | 6 | Die getesteten Elemente werden ausgeblendet. |
@@ -329,3 +329,63 @@ Sie können nach allen Aktivitäten filtern, die für die Entscheidungsfindung a
 1. Erstellen und aktivieren Sie einen [Aktivität-Typ, der von der geräteinternen Entscheidungsfindung unterstützt wird](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md), und überprüfen Sie, ob die Entscheidung für das Gerät zulässig ist.
 1. Stellen Sie die Entscheidungsmethode **[!UICONTROL entweder auf**[!UICONTROL &quot;Hybrid&quot;]**oder auf**[!UICONTROL &quot;Nur auf dem Gerät&quot;]**über die Benutzeroberfläche der at.js-Einstellungen ein.]**
 1. Laden Sie at.js 2.5.0+ herunter und stellen Sie es auf Ihren Seiten bereit.
+
+## Fehlerbehebung 
+
+Führen Sie die folgenden Schritte aus, um die Fehlerbehebung bei der Entscheidungsfindung auf dem Gerät zu beheben:
+
+1. Konsolenprotokoll für &quot;at.js&quot;aktivieren
+1. Überprüfen Sie den Artefaktdownload auf der Registerkarte Netzwerk Ihres Browsers
+1. Überprüfen des Artikeldownloads für Regeln mithilfe von benutzerdefinierten Ereignissen von at.js
+
+Die folgenden Abschnitte beschreiben jeden Schritt detaillierter:
+
+### Schritt 1: Konsolenprotokoll für &quot;at.js&quot;aktivieren
+
+Wenn Sie den URL-Parameter `mboxDebug=1` anhängen, kann at.js Nachrichten in der Konsole Ihres Browsers drucken.
+
+Alle Nachrichten enthalten das Präfix &quot;AT:&quot;, um eine bequeme Übersicht zu erhalten. Um sicherzustellen, dass ein Artefakt erfolgreich geladen wurde, sollte Ihr Konsolenprotokoll Meldungen wie die folgenden enthalten:
+
+```
+AT: LD.ArtifactProvider fetching artifact - https://assets.adobetarget.com/your-client-cide/production/v1/rules.json
+AT: LD.ArtifactProvider artifact received - status=200
+```
+
+Die folgende Abbildung zeigt diese Meldungen im Konsolenprotokoll:
+
+![Konsolenprotokoll mit Artefaktmeldungen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/browser-console.png)
+
+### Schritt 2: Überprüfen Sie den Artefaktdownload auf der Registerkarte Netzwerk Ihres Browsers
+
+Öffnen Sie die Registerkarte Netzwerk Ihres Browsers.
+
+So öffnen Sie beispielsweise DevTools in Google Chrome:
+
+1. Drücken Sie Strg+Umschalt+J (Windows) bzw. Befehl+Wahl+J (Mac).
+1. Navigieren Sie zur Registerkarte Netzwerk.
+1. Filtern Sie Ihre Aufrufe nach Keyword &quot;rules.json&quot;, um sicherzustellen, dass nur die Artefaktregeldatei angezeigt wird.
+
+   Darüber hinaus können Sie nach &quot;/Versand|rules.json/&quot;filtern, um alle [!DNL Target]-Aufrufe und Artefaktregeln.json anzuzeigen.
+
+   ![Registerkarte &quot;Netzwerk&quot;in Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
+
+### Überprüfen des Artikeldownloads für Regeln mithilfe von benutzerdefinierten Ereignissen von at.js
+
+Die at.js-Bibliothek löst zwei neue benutzerdefinierte Ereignis aus, um die Entscheidungsfindung auf dem Gerät zu unterstützen.
+
+* `adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`
+* `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`
+
+Sie können sich abonnieren, um diese benutzerdefinierten Ereignis in Ihrer Anwendung auf Aktionen zu prüfen, wenn die Datei mit den Artefaktregeln erfolgreich heruntergeladen wurde oder fehlgeschlagen ist.
+
+Das folgende Beispiel zeigt ein Codebeispiel, das Artefaktdownload-Erfolgs- und Fehler-Ereignis überwacht:
+
+```javascript
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED, function(e) { 
+  console.log("Artifact successfully downloaded", e.detail);
+}, false);
+
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(e) { 
+  console.log("Artifact failed to download", e.detail);
+}, false);
+```
