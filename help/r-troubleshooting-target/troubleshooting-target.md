@@ -5,10 +5,10 @@ title: Wie behebe ich eine Fehlerbehebung bei Zielgruppen?
 feature: 'Fehlerbehebung '
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 89%
+source-wordcount: '451'
+ht-degree: 88%
 
 ---
 
@@ -136,6 +136,10 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 ## Mobile Anwendungen
 
 * [Häufig gestellte Fragen zur Zielgruppe von mobilen Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+
+## Geräteinterne Entscheidungsfindung
+
+* [Geräteinterne Entscheidungsfindung für &quot;at.js&quot;](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
 
 ## Berichterstellung
 
