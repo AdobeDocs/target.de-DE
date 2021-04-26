@@ -6,9 +6,9 @@ feature: Datenschutz und Sicherheit
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Anweisungen zum Arbeiten mit [!DNL Adobe] Client Care zur Implementierung der CN
    >
    >Die Zertifizierungsstelle der Adobe, DigiCert, kann erst nach Abschluss dieses Schritts ein Zertifikat ausstellen. [!DNL Adobe] kann Ihre Anforderung einer CNAME-Implementierung daher erst nach Abschluss dieses Schritts erfüllen.
 
-1. [Füllen Sie dieses ](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) Formular aus und fügen Sie es ein, wenn Sie ein Adobe Client Care Ticket  [öffnen, das CNAME-Support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) anfordert:
+1. [Füllen Sie dieses ](/help/assets/FPC_Request_Form.xlsx) Formular aus und fügen Sie es ein, wenn Sie ein Adobe Client Care Ticket  [öffnen, das CNAME-Support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) anfordert:
 
    * Adobe [!DNL Target] Client-Code:
    * SSL-Zertifikat-Hostnamen (Beispiel: `target.example.com target.example.org`):
