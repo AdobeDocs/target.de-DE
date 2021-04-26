@@ -5,9 +5,9 @@ title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '897'
 ht-degree: 31%
 
 ---
@@ -38,7 +38,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 | --- | --- | --- |
 | April 9 | [Versionshinweise zu Target (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion von at.js Version 2.5.0 hinzugefügt (19. April 2021) |
 | April 9 | [Versionshinweise zu Target (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion für die Version 21.4.1 von Target Standard/Premium hinzugefügt (19. April 2021) |
-|  | [Integration von Recommendations in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | Folgender Abschnitt wurde hinzugefügt: &quot;Kapazitäts-Richtlinien für Optionen 1 und 2.&quot; |
+|  | [Integration von Recommendations in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Es wurde ein Hinweis mit Kapazitätsrichtlinien für die Optionen 1 und 2 hinzugefügt. |
 | 29. März | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Neue FAQs hinzugefügt:<ul><li>Bestehen Empfehlungen, die auf kürzlich angezeigten Artikeln basieren, für einen Besucher auf mehreren Geräten?</li></ul> |
 | 23. März | [Versionshinweise](/help/r-release-notes/release-notes.md) | Versionshinweise für at.js-Version 2.4.1 hinzugefügt. |
 |  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Versionshinweise für at.js-Version 2.4.1 hinzugefügt. |
