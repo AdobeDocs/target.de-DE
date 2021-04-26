@@ -5,9 +5,9 @@ title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '905'
 ht-degree: 31%
 
 ---
@@ -20,7 +20,8 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 19. April 2021 | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Die folgenden neuen Artikel wurden hinzugefügt:<ul><li>[Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Unterstützte Funktionen für die Entscheidungsfindung auf dem Gerät](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefakt der Entscheidungsregel auf dem Gerät](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+| April 26 | [Geräteinterne Entscheidungsfindung für &quot;at.js&quot;](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Abschnitt Fehlerbehebung hinzugefügt. |
+| April 19 | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Die folgenden neuen Artikel wurden hinzugefügt:<ul><li>[Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Unterstützte Funktionen für die Entscheidungsfindung auf dem Gerät](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefakt der Entscheidungsregel auf dem Gerät](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Es wurden Informationen hinzugefügt über `decisioningMethod`. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Es wurde Folgendes hinzugefügt:<ul><li>Informationen zum Schlüssel `decisioningMethod`.</li><li>Ein Beispiel für &quot;getCallOffers()&quot;, um eine geräteinterne Entscheidungsfindung vorzunehmen.</li></ul> |
 |  | [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Folgende Informationen wurden hinzugefügt:<ul><li>Artefakt bei der Entscheidungsfindung auf dem Gerät erfolgreich</li><li>Artefakt bei der Entscheidungsfindung auf dem Gerät fehlgeschlagen</li></ul> |
