@@ -6,9 +6,9 @@ feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: ee314b04ece148b453f64a8e5d0374b94fdaed33
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3748'
 ht-degree: 6%
 
 ---
@@ -111,7 +111,7 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 | --- | --- |
 | 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
 | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
-| 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
+| 3 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
 | 4 | Die at.js-Bibliothek stellt eine Anforderung zum Abrufen des JSON-Regelartefakts vom nächsten Akamai-CDN zum Besucher. |
 | 5 | Das Akamai-CDN reagiert mit dem JSON-Regelartefakt. |
 | 6 | Das JSON-Regelartefakt wird lokal im Browser des Besuchers zwischengespeichert. |
@@ -167,7 +167,7 @@ Die folgende Liste entspricht den Nummern im Diagramm:
 
 | Schritt | Beschreibung |
 | --- | --- |
-| 3 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
+| 1 | Das [!DNL Experience Cloud Visitor ID] wird vom [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) abgerufen. |
 | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen.<br>Die at.js-Bibliothek kann auch asynchron geladen werden, wobei ein optionales, auf der Seite implementiertes Snippet zum Vorausblenden von Elementen implementiert ist. |
 | 1 | Die Bibliothek at.js blendet den Körper aus, um Flackern zu vermeiden. |
 | 4 | Eine Seitenladeanforderung wird an das Adobe Target Edge Network gesendet, einschließlich aller konfigurierten Parameter wie (ECID, Kunden-ID, benutzerdefinierte Parameter, User Profil usw.). |
@@ -369,7 +369,7 @@ So öffnen Sie beispielsweise DevTools in Google Chrome:
 
    ![Registerkarte &quot;Netzwerk&quot;in Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
 
-### Überprüfen des Artikeldownloads für Regeln mithilfe von benutzerdefinierten Ereignissen von at.js
+### Schritt 3: Überprüfen des Artikeldownloads für Regeln mithilfe von benutzerdefinierten Ereignissen von at.js
 
 Die at.js-Bibliothek löst zwei neue benutzerdefinierte Ereignis aus, um die Entscheidungsfindung auf dem Gerät zu unterstützen.
 
