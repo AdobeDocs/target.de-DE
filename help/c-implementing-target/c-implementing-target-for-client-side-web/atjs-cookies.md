@@ -6,10 +6,10 @@ feature: 'at.js '
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 97%
+source-wordcount: '1827'
+ht-degree: 96%
 
 ---
 
@@ -112,7 +112,7 @@ Das Cookie verfügt über mehrere Standardeinstellungen. Sie können diese Einst
 | Cookie-Name | mbox. |
 | Cookie-Domäne | Die obersten und die darunter liegenden Ebenen der Domänen, von denen der Inhalt geliefert wird. Da die Belieferung von der Domäne Ihres Unternehmens stattfindet, handelt es sich um ein Erstanbieter-Cookie. Beispiel: `mycompany.com`. |
 | Serverdomäne | `clientcode.tt.omtrdc.net`, unter Verwendung des Kundencodes für Ihr Konto. |
-| Cookie-Dauer | Das Cookie bleibt zwei Jahre nach seiner letzten Anmeldung im Browser des Besuchers. Sie können die Cookie-Dauer nicht ändern. |
+| Cookie-Dauer | Das Cookie bleibt zwei Jahre nach seiner letzten Anmeldung im Browser des Besuchers.<br>Die  `deviceIdLifetime` Einstellung kann in  [at.js Version 2.3.1 oder höher](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) überschrieben werden. Weitere Informationen finden Sie unter [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
 | P3P-Richtlinie | Das Cookie wird mit einer P3P-Richtlinie veröffentlicht, wie sie von den Standardeinstellungen in den meisten Browsern gefordert wird. Durch eine P3P-Richtlinie wird einem Browser angezeigt, wer das Cookie bereitstellt und wie die Informationen verwendet werden. |
 
 Das Cookie enthält verschiedene Werte, mit denen verwaltet werden kann, wie die Besucher die Kampagnen erleben:
