@@ -5,10 +5,10 @@ title: Wie behebe ich Fehler im Zusammenhang mit Enhanced Experience Composer?
 feature: 'Visual Experience Composer (VEC) '
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 28e21ea0b0e2306a54c9353ae57de7de5d94f564
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 62%
+source-wordcount: '441'
+ht-degree: 61%
 
 ---
 
@@ -22,11 +22,12 @@ Dies kann durch Zulassungsauflistung der folgenden IP-Adressen behoben werden. D
 
 Bitten Sie Ihr IT-Team, die folgenden IP-Adressen in Zulassungslisten anzugeben:
 
-| Region | IP-Adressen | Hostnamen |
-|--- |--- |--- |
-| Vereinigte Staaten | 52.55.99.45 | `us1-proxy.adobemc.com` |
-| Europa, Naher Osten und Afrika (EMEA) | 52.51.238.221 | `emea1-proxy.adobemc.com` |
-| Asien-Pazfik (APAC) | 52.193.67.35 | `apac1-proxy.adobemc.com` |
+* 52 16 72 74
+* 52,5 174,79
+* 54 246 238 65
+* 54 249 183 154
+* 54 65 105 214
+* 54 82 142 68
 
 Möglicherweise wird in Target die folgende Fehlermeldung angezeigt:
 
