@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 95%
+source-wordcount: '635'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +58,7 @@ Diese Funktion sendet eine Benachrichtigung an Target Edge, wenn ein Erlebnis oh
 | Request > notifications > view > key | Zeichenfolge | Nein | `<=` 512 Zeichen. | Ansichtsschlüssel. Der Schlüssel, der mit der Ansicht über die API festgelegt wurde. |
 | Request > notifications > view > state | Zeichenfolge | Nein |  | Token für den Ansichtsstatus. |
 
-**Hinweis**: Folgende Zeichen sind für `Request > notifications > mbox > name` zulässig:
+**Hinweis**: Die folgenden Zeichen sind  ** nicht zulässig  `Request > notifications > mbox > name`:
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
