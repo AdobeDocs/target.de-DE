@@ -5,10 +5,10 @@ title: 'Wo finde ich Mitteilungen und Ereignis? [!DNL Target] '
 feature: ' Versionshinweise '
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 0%
+source-wordcount: '601'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +24,20 @@ Adobe Target wurde kürzlich von Forrester und Gartner als Marktführer anerkann
 | --- | --- |
 | Forrester | **Adobe mit dem Namen &quot;Leader&quot;im Forrester-Wellenbericht für Erlebnisoptimierungsplattformen.**<br> Adobe wurde in The Forrester Wave als führend bezeichnet: Experience Optimization-Plattformen, Q4 2020-Bericht für sein Angebot in diesem Bereich, Adobe Target Premium. Adobe erhielt die höchste Punktzahl aller beteiligten Anbieter in den aktuellen Kategorien für Angebot und Marktpräsenz sowie in den Empfehlungs- und Plattformerlebniskriterien. Zielgruppe Premium erhielt auch die höchste Bewertung, die in der Technik der Erlebnisoptimierung und den Kriterien für unterstützende Dienstleistungen möglich war. Der Bericht basiert auf einer gründlichen Bewertung von 10 Anbietern von Erlebnisoptimierungsplattformen anhand von 22 Kriterien.<br>Lesen Sie mehr darüber im  [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe wurde erneut zum Leader im Gartner Magic Quadrant für Personalisierungsmaschinen ernannt.**<br> Adobe wurde im dritten Gartner Magic Quadrant for Personalization Engines 2020-Bericht erneut zum Leader ernannt. Der Gartner Magic Quadrant for Personalization Engines bewertete Anbieter anhand von 15 Kriterien, die in zwei Kategorien unterteilt sind: Vollständigkeit der Sicht und Ausführungsfähigkeit.<br>[Lesen Sie mehr darüber im Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+
+## Adobe Target Community Q&amp;A-Kaffeepause
+
+* Mittwoch, 12. Mai 2021
+* 08:00 Uhr (PDT, GMT-7)
+* [Klicken Sie hier, um weitere Informationen zu erhalten](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-5-12-21-8am-pt-shannon/td-p/405341)
+
+Shannon Hamilton, Group Product Manager für [!DNL Adobe Target], wird bei der [!DNL Target] Community angemeldet sein, um Ihre Fragen zu ihren Fachgebieten zu beantworten:
+
+* Integrationen
+* Einheitliches Profil
+* Zielgruppe Adobe Experience Platform (AEP)-Integrationen
+* Point-Integrationen mit anderen Adoben
+* Workflows
 
 ## Webinar: Personalisieren und testen Sie mit Entscheidungen auf dem Gerät von Adobe Target
 
