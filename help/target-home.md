@@ -5,10 +5,10 @@ description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] das Kundenerlebnis pe
 feature: Überblick
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 8ae55b82d4c733ce27277ec64e0188637ca96baa
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 43%
+source-wordcount: '697'
+ht-degree: 46%
 
 ---
 
@@ -18,15 +18,7 @@ ht-degree: 43%
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, Social Media und anderen digitalen Kanälen maximieren können.
 
-## Gipfeltreffen der Adobe: Die Konferenz über digitale Erfahrungen
-
-[Klicken Sie hier für weitere Informationen über Adobe Summit!](https://business.adobe.com/summit/adobe-summit.html)
-
-Jederzeit Pacific Daylight Time (PDT) -7 GMT.
-
-![Gipfeltreffen](/help/assets/summit-2021.png)
-
-**Zuletzt aktualisiert: 27. April 2021 ( [Siehe Änderungen](r-release-notes/doc-change.md) )**
+**Zuletzt aktualisiert: 5. Mai 2021 ([siehe Änderungen](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
