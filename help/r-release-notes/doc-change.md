@@ -5,10 +5,10 @@ title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 30%
+source-wordcount: '957'
+ht-degree: 29%
 
 ---
 
@@ -20,6 +20,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| Mai 5 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur Adobe Target Community Q&amp;A Coffee Break hinzugefügt, die am Mittwoch, den 12. Mai 2021 um 8 Uhr stattfinden wird. (PDT, GMT-7). |
 | April 27 | [Cookie-Einstellungen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Thema aktualisiert, um anzugeben, dass die Cookie-Dauer (`deviceIdLifetime`-Einstellung) in at.js Version 2.3.1 oder höher überschrieben werden kann. |
 |  | [Adobe Target-Handbuch](/help/target-home.md) | Es wurden Informationen zum Gipfeltreffen zur Adobe hinzugefügt. |
 | April 26 | [Fehlerbehebung bei der Entscheidung für &quot;at.js&quot;auf dem Gerät](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Neues Thema |
