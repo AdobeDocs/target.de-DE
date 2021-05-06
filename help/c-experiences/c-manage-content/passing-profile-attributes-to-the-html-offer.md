@@ -1,14 +1,14 @@
 ---
 keywords: dynamische Daten;Assets;Daten;Angebote;personalisierte Angebote;persönliche Angebote;Token ersetzen
-description: Erfahren Sie, wie Sie dynamische Daten an Adoben [!DNL Target] Angebot weitergeben. Untersuchen Sie Geschäftsfälle, die aufzeigen, warum Sie möglicherweise dynamische Angebot und Ansichten und Implementierungsinformationen verwenden möchten.
+description: Erfahren Sie, wie dynamische Daten an Angebot übergeben werden.  [!DNL Adobe Target]  Untersuchen Sie Geschäftsfälle, die aufzeigen, warum Sie möglicherweise dynamische Angebot und Ansichten und Implementierungsinformationen verwenden möchten.
 title: Wie übergebe ich dynamische Daten an Angebot?
 feature: Erlebnisse und Angebot
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 77%
+source-wordcount: '519'
+ht-degree: 78%
 
 ---
 
