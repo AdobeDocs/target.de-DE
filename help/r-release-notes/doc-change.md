@@ -5,10 +5,10 @@ title: Wo kann ich Aktualisierungen der Ansicht zur Zielgruppe durchführen?
 feature: ' Versionshinweise '
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
+source-git-commit: 0fd1f43f7cd48123eab7d6f412babb7a670398c7
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 28%
+source-wordcount: '1074'
+ht-degree: 27%
 
 ---
 
@@ -21,6 +21,7 @@ Auf dieser Seite werden wichtige Änderungen an der [!DNL Adobe Target]-Produktd
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | Mai 6 | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Folgende FAQs wurden hinzugefügt:<ul><li>Wie lange dauert es, bis die Konfiguration meiner [!UICONTROL Recommendations]-Aktivität, Angebot-, Promo- oder Kriterieneinstellungen auf meiner Site geändert wird?</li><li>Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. beim Klicken auf Produkt A und beim Kauf von Produkt B) in den Empfehlungen für *angezeigt wird, die der Benutzer* erhält?</li><li>Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klicken auf Produkt A und Kauf von Produkt B) in den Empfehlungen für *andere* Benutzer angezeigt wird?</li></ul> |
+|  | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Es wurde ein Link zum folgenden Blog-Beitrag im Adobe Tech Blog hinzugefügt:<ul><li>Teil 1: Adobe Target NodeJS SDK für Experimentieren und Personalisierung auf Edge-Plattformen (Akamai Edge Workers) ausführen</li></ul> |
 | Mai 5 | [Ankündigungen und Ereignisse zur Zielgruppe](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur Adobe Target Community Q&amp;A Coffee Break hinzugefügt, die am Mittwoch, den 12. Mai 2021 um 8 Uhr stattfinden wird. (PDT, GMT-7). |
 | April 27 | [Cookie-Einstellungen](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Thema aktualisiert, um anzugeben, dass die Cookie-Dauer (`deviceIdLifetime`-Einstellung) in at.js Version 2.3.1 oder höher überschrieben werden kann. |
 |  | [Adobe Target-Handbuch](/help/target-home.md) | Es wurden Informationen zum Gipfeltreffen zur Adobe hinzugefügt. |
