@@ -5,10 +5,10 @@ title: Wo finde ich Fragen und Antworten zu [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
+source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
 workflow-type: tm+mt
-source-wordcount: '2957'
-ht-degree: 36%
+source-wordcount: '2940'
+ht-degree: 33%
 
 ---
 
@@ -30,7 +30,7 @@ Der Zeitraum und die Ergebnisse hängen davon ab, wie die Elemente aktualisiert 
 | --- | --- |
 | Elementattribute aktualisiert über mbox oder API | <ul><li>Recommendations wird innerhalb von 15 Minuten aktualisiert.</li><li>Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.</li><li>Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.</li></ul> |
 | Elementattribute aktualisiert über Feed | <ul><li>Recommendations wird nach der Feed-Erfassung aktualisiert (2-8 Stunden).</li><li>Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.</li><li>Die Katalogsuche wird nach der Feed-Erfassung (2-8 Stunden) und nach dem anschließenden Katalogindex (3-8 Stunden) aktualisiert. Die Katalogsuche wird innerhalb von insgesamt 5-16 Stunden aktualisiert.</li></ul> |
-| Aus dem Katalog gelöschtes Element über die Benutzeroberfläche oder API der Zielgruppe | <ul><li>Recommendations wird innerhalb von 15 Minuten aktualisiert.</li><li>Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.</li><li>Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.</li></ul> |
+| Aus dem Katalog gelöschtes Element über die [!DNL Target]-Benutzeroberfläche oder -API | <ul><li>Recommendations wird innerhalb von 15 Minuten aktualisiert.</li><li>Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.</li><li>Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.</li></ul> |
 | Element, das über die mbox oder API zum Katalog hinzugefügt wird | <ul><li>Recommendations wird nach der Ausführung des Algorithmus aktualisiert. Algorithmusausführungen werden alle 12 Stunden für 1-2-Tage-Algorithmen und alle 24 Stunden für 7+ Tage-Algorithmen geplant.</li><li>Bestehende Empfehlungen werden angezeigt, bis Updates verfügbar sind, wenn das hinzugefügte Element kein angeforderter Schlüssel ist.</li><li>Reserveempfehlungen werden angezeigt, bis Aktualisierungen verfügbar sind, wenn das hinzugefügte Element ein angeforderter Schlüssel ist.</li><li>Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.</li></ul> |
 | Element, das über Feed zum Katalog hinzugefügt wird | <ul><li>Recommendations wird nach der Erfassung des Feeds aktualisiert (2-8 Stunden). Nachfolgende Algorithmusausläufe werden alle 12 Stunden für 1-2-Tage-Algorithmen und alle 24 Stunden für 7-Tage-Algorithmen geplant. Recommendations wird innerhalb von 2-32 Stunden aktualisiert.</li><li>Bestehende Empfehlungen werden angezeigt, bis Updates verfügbar sind, wenn das hinzugefügte Element kein angeforderter Schlüssel ist.</li><li>Reserveempfehlungen werden angezeigt, bis Aktualisierungen verfügbar sind, wenn das hinzugefügte Element ein angeforderter Schlüssel ist.</li><li>Die Katalogsuche wird nach der Feed-Erfassung (2-8 Stunden) und nach dem Katalogindex (3-8 Stunden) aktualisiert. Die Katalogsuche wird innerhalb von insgesamt 5-16 Stunden aktualisiert.</li></ul> |
 
@@ -65,8 +65,8 @@ Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus aus
 
 ## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. beim Klicken auf Produkt A und beim Kauf von Produkt B) in den Empfehlungen für *angezeigt wird, die der Benutzer* erhält?
 
-* Derzeit angezeigte/gekaufte Produkte/Inhalte beeinflussen die Empfehlungen, die der Benutzer bei derselben Inhaltsanforderung für die Seitenansicht/Zielgruppe erhält.
-* Historisches Benutzerverhalten wie &quot;Zuletzt angezeigtes Produkt&quot;, &quot;Am meisten angezeigtes Produkt&quot;und der Gesamtüberblick über die Anzeige/den Kauf werden mit dieser Anforderung aktualisiert und beeinflussen die Empfehlungen, die der Benutzer bei der nächsten Inhaltsanforderung für die Seitenansicht/Zielgruppe erhält. Beispielsweise werden die Algorithmen &quot;Zuletzt angezeigte Artikel&quot;und &quot;Empfohlen für Sie&quot;mit jeder Ansicht/jedem Kauf aktualisiert und in der nachfolgenden Inhaltsanforderung angezeigt.
+* Derzeit angezeigte/gekaufte Produkte/Inhalte beeinflussen die Empfehlungen, die der Benutzer in derselben Seitenansicht/[!DNL Target]-Inhaltsanforderung erhält.
+* Historisches Benutzerverhalten, wie &quot;Zuletzt angezeigtes Produkt&quot;, &quot;Am meisten angezeigtes Produkt&quot;und der Gesamtüberblick zum Anzeigen/Kauf werden mit dieser Anforderung aktualisiert und beeinflussen die Empfehlungen, die der Benutzer bei der nächsten Seitenansicht/[!DNL Target]-Inhaltsanforderung erhält. Beispielsweise werden die Algorithmen &quot;Zuletzt angezeigte Artikel&quot;und &quot;Empfohlen für Sie&quot;mit jeder Ansicht/jedem Kauf aktualisiert und in der nachfolgenden Inhaltsanforderung angezeigt.
 
 ## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klicken auf Produkt A und Kauf von Produkt B) in den Empfehlungen für *andere* Benutzer angezeigt wird?
 
@@ -95,30 +95,30 @@ Wenn der Speicherort, auf den Sie diese Kriterien anwenden, die Kategorie-ID nic
 
 Wenn Sie einen Ort verwenden, an dem die Kategorien-ID in der mbox vorhanden ist, enthält die Kriterienauswahl alle relevanten Kriterien.
 
-Das Ziel verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84), um die intelligente Filterung der Algorithmusauswahl zu steuern.
+[!DNL Target] hat einen  [Filter Inkompatible ](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) Kriterien, um die intelligente Filterung der Algorithmusauswahl zu steuern.
 
 >[!NOTE]
 >
->Diese Einstellung gilt nur für Aktivitäten, die im Visual Experience Composer (VEC) erstellt wurden. Sie gilt nicht für Aktivitäten, die im Formular-basierten Experience Composer erstellt wurden (Target verfügt über keinen Speicherortkontext).
+>Diese Einstellung gilt nur für Aktivitäten, die im Visual Experience Composer (VEC) erstellt wurden. Diese Einstellung gilt nicht für Aktivitäten, die im Form-Based Experience Composer erstellt wurden ([!DNL Target] hat keinen Ortskontext).
 
 Wenn Sie auf die Einstellung [!UICONTROL Inkompatible Kriterien filtern] zugreifen möchten, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Einstellungen]:
 
 ![](assets/recs_settings_filter.png)
 
-Wenn die Einstellung [!UICONTROL Inkompatible Kriterien filtern] NICHT aktiviert ist, filtert Target Algorithmen im Algorithmus-Wähler nicht, und es werden alle Algorithmen angezeigt.
+Wenn die Einstellung [!UICONTROL Inkompatible Kriterien filtern] NICHT aktiviert ist, filtert Algorithmen im Algorithmus-Wähler nicht, und es werden alle Algorithmen angezeigt.[!DNL Target]
 
-Wenn die Einstellung [!UICONTROL Inkompatible Kriterien filtern] aktiviert ist, liest Target in VEC-Aktivitäten die entityId- und Kategorie-ID-Einträge aus dem gewählten Speicherort und zeigt dann Algorithmen basierend auf `currentItem|currentCategory` an (wenn für den jeweiligen Speicherort entsprechende Werte vorhanden sind). Daraufhin werden im Algorithmus-Wähler standardmäßig nur kompatible Algorithmen für den gewählten Speicherort angezeigt.
+Ist die Einstellung [!UICONTROL Inkompatible Kriterien filtern] aktiviert, liest [!DNL Target] in VEC-Aktivitäten entityId und Kategorien-ID vom ausgewählten Speicherort und zeigt dann Algorithmen basierend auf `currentItem|currentCategory` an (sofern die entsprechenden Werte an diesem Speicherort vorhanden sind). Daraufhin werden im Algorithmus-Wähler standardmäßig nur kompatible Algorithmen für den gewählten Speicherort angezeigt.
 
 Bei aktivierter Einstellung [!UICONTROL Inkompatible Kriterien filtern] können Sie nichtkompatible Algorithmen trotzdem anzeigen, indem Sie beim Auswählen von Kriterien das Kontrollkästchen [!UICONTROL Kompatibel] deaktivieren.
 
 ![](assets/compatible_checkbox.png)
 
-Die folgende Liste enthält Sonderfälle, in denen das Kontrollkästchen [!UICONTROL Kompatibel] in Target nicht angezeigt wird:
+Die folgende Liste enthält Sonderfälle, in denen [!DNL Target] das Kontrollkästchen [!UICONTROL Kompatibel] nicht anzeigt:
 
 * Der Speicherort enthält sowohl entityId- als auch Kategorie-ID-Einträge. In diesem Fall erfolgt keine Filterung.
 * Sie verwenden [!DNL mbox.js] der Version 55 oder früher.
 * Auf der Seite werden keine Mbox-Aufrufe ausgelöst (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalmbox)
-* Es sind keine Target-Parameter definiert.
+* [!DNL Target] -Parameter nicht definiert.
 
 ## Was sollte ich tun, wenn eine Sammlung in Recommendations den Wert null (0) annimmt?   {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
@@ -132,7 +132,7 @@ Beachten Sie die folgenden Informationen, wenn eine Sammlung, die zuvor nicht nu
 * Ist Ihr Index aktuell? Gehen Sie zu [!DNL /target/products.html#productSearch] und überprüfen Sie, wie viele Stunden alt der Index ist (z. B. &quot;vor 3 Stunden indiziert&quot;). Sie können den Index bei Bedarf aktualisieren.
 * Haben Sie Änderungen am Feed oder an der Datenebene vorgenommen, die dazu geführt haben, dass Ihre Entitäten nicht mehr mit den Sammlungsregeln übereinstimmen? Stellen Sie sicher, dass die Groß-/Kleinschreibung übereinstimmt (Beachtung der Groß-/Kleinschreibung).
 * Wurde der Feed erfolgreich ausgeführt? Hat jemand das FTP-Verzeichnis, das Kennwort usw. geändert?
-* Target setzt Aktualisierungen an der Bereitstellung (auf der Seite/App des Kunden) schnellstmöglich um. Dennoch muss die Zielgruppe auch eine gewisse Darstellung in der Benutzeroberfläche für den Marketingspezialisten bereitstellen. Zielgruppe verzögert keine Aktualisierung des Versands, um zu warten, bis die UI-Updates synchronisiert sind. Mithilfe von [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) können Sie die Inhalte des Systems zu dem Zeitpunkt anzeigen, zu dem eine Anforderung eingeht.
+* [!DNL Target] setzt Aktualisierungen an der Bereitstellung (auf der Seite/App des Kunden) schnellstmöglich um. [!DNL Target] muss jedoch auch eine gewisse Darstellung in der Benutzeroberfläche für den Marketingspezialisten bereitstellen. [!DNL Target] verzögert Versand-Updates nicht, um zu warten, bis die UI-Updates synchronisiert sind. Mithilfe von [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) können Sie die Inhalte des Systems zu dem Zeitpunkt anzeigen, zu dem eine Anforderung eingeht.
 
 ## Worin besteht der Unterschied zwischen der allgemeinen und der Inhaltsähnlichkeits-spezifischen Attributgewichtung? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -150,7 +150,7 @@ Dieser Gewichtungstyp ist dynamischer und basiert auf dem aktuellen „Empfehlun
 
 ## Warum können Empfehlungen manchmal nicht angezeigt werden? {#section_DB3F40673AED42228E407C05437D99E9}[!DNL Target]
 
-Target kann manchmal keine Empfehlungen anzeigen, wenn zu wenig Empfehlungen verfügbar sind.
+[!DNL Target] kann manchmal keine Empfehlungen anzeigen, wenn zu wenig Empfehlungen verfügbar sind.
 
 Die Anzahl der pro Kriterium generierten Werte ist dreimal so viele Entitäten wie im Entwurf angegeben. Die Laufzeitfilterung (beispielsweise Inventar, Mbox-Attributabgleich) wird angewendet, nachdem die 3x-Werte generiert wurden. Daher ist es möglich, dass zur Bereitstellungszeit weniger als 3x-Werte vorhanden sind. Um diese Situation zu mindern, erhöhen Sie die Anzahl der Entitäten im Entwurf durch Ausblenden anderer Entitäten.
 
@@ -167,7 +167,7 @@ Das folgende JavaScript kann zu Beginn des Designs verwendet werden, um die Anza
 
 ## Welche Größenbeschränkung besteht für einen API-Aufruf beim Einfügen/Aktualisieren von Produkten? Kann ich 50.000 Produkte mit einem Aufruf aktualisieren, indem ich die API statt eines Feeds verwende?   {#section_434FE1F187B7436AA39B7C14C7895168}
 
-Zielgruppe setzt eine Begrenzung auf 50 MB nach dem Posteingang auf Anwendungsebene voraus; Dies ist jedoch nur dann der Fall, wenn Sie die Kopfzeile des Inhaltstyps `application/x-www-form-urlencoded` übergeben.
+[!DNL Target] setzt eine Postleitzahl von 50 MB auf Anwendungsebene fest; Dies ist jedoch nur der Fall, wenn Sie die Kopfzeile des  `application/x-www-form-urlencoded` Inhaltstyps übergeben.
 
 Sie können sicherlich versuchen, 50.000 Produkte in einem einzigen Aufruf zu senden. Schlägt er fehl, können Sie ihn in Stapel aufteilen. Adobe empfiehlt Kunden, ihre Anrufe in 5.000 oder 10.000 Produktstapel zu unterteilen, um die Wahrscheinlichkeit eines Timeouts aufgrund der Systemlast zu verringern.
 
@@ -190,7 +190,7 @@ Stellen Sie sicher, dass die Zielgruppe einen eindeutigen Namen aufweist. Wenn S
 
 ## Wie groß dürfen CSV-Dateien für den Feedupload maximal sein?   {#section_20F1AF4839A447B9889B246D6E873538}
 
-Es gibt keine feste Grenze hinsichtlich der Zeilen oder Dateigröße für den Feedupload von CSV-Dateien. Als Best Practice empfiehlt Adobe jedoch, die CSV-Dateigröße auf 1 GB zu begrenzen, um Fehler beim Hochladen von Dateien zu vermeiden. Wenn die Größe der Datei 1 GB überschreitet, kann sie idealerweise in mehrere Feed-Dateien aufgeteilt werden. Die maximale Anzahl benutzerdefinierter Attributspalten ist 100 und benutzerdefinierte Attribute sind auf 4.096 Zeichen beschränkt. Weitere Längenbeschränkungen für erforderliche Zielgruppen sind auf der Seite [Längenbegrenzungen](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1) verfügbar.
+Es gibt keine feste Grenze hinsichtlich der Zeilen oder Dateigröße für den Feedupload von CSV-Dateien. Als Best Practice empfiehlt Adobe jedoch, die CSV-Dateigröße auf 1 GB zu begrenzen, um Fehler beim Hochladen von Dateien zu vermeiden. Wenn die Größe der Datei 1 GB überschreitet, kann sie idealerweise in mehrere Feed-Dateien aufgeteilt werden. Die maximale Anzahl benutzerdefinierter Attributspalten ist 100 und benutzerdefinierte Attribute sind auf 4.096 Zeichen beschränkt. Weitere Beschränkungen für die Länge der erforderlichen Spalten finden Sie auf der Seite [[!DNL Target] Beschränkungen](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Kann ich eine Entität dynamisch ausschließen? {#exclude}
 
@@ -198,7 +198,7 @@ In der Abfragezeichenfolge können Sie Entität-IDs für Entitäten übermitteln
 
 Verwenden Sie den Mbox-Parameter `excludedIds`, um die Ausschlussfunktion zu aktivieren. Dieser Parameter verweist auf eine Liste kommagetrennter Entitäts-IDs. Zum Beispiel `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Der Wert wird übermittelt, wenn Empfehlungen angefordert werden.
 
-Der Ausschluss wird nur für den Aufruf der aktuellen Zielgruppe durchgeführt. Elemente werden bei nachfolgenden Aufrufen der Zielgruppe nur dann ausgeschlossen, wenn der Wert `excludedIds` erneut übergeben wird. Um Artikel im Warenkorb von Empfehlungen auf jeder Seite auszuschließen, setzen Sie den `excludedIds`-Wert auf jeder Seite fort.
+Der Ausschluss wird nur für den aktuellen [!DNL Target]-Aufruf ausgeführt. Elemente werden bei nachfolgenden Aufrufen von [!DNL Target] nur dann ausgeschlossen, wenn der Wert `excludedIds` erneut übergeben wird. Um Artikel im Warenkorb von Empfehlungen auf jeder Seite auszuschließen, setzen Sie den `excludedIds`-Wert auf jeder Seite fort.
 
 >[!NOTE]
 >
