@@ -5,10 +5,10 @@ title: Wo finde ich Fragen und Antworten zu [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
-source-wordcount: '2691'
-ht-degree: 40%
+source-wordcount: '2957'
+ht-degree: 36%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 40%
 
 Liste der häufig gestellten Fragen (FAQs) zu [!DNL Adobe Target] [!DNL Recommendations]-Aktivitäten.
 
-## Warum zeigt die Katalogsuche nicht die richtigen Ergebnisse an, wenn ich nach einem benutzerdefinierten Attribut mit einem numerischen Wert suche?
+## Warum zeigt [!UICONTROL Katalogsuche] nicht die richtigen Ergebnisse, wenn ich nach einem benutzerdefinierten Attribut mit einem numerischen Wert suche?
 
 Wenn Sie eine Katalogsuche für ein benutzerdefiniertes Attribut mit einem numerischen Wert durchführen, wird das benutzerdefinierte Attribut als String-Typ und nicht als numerischer Wert betrachtet.
 
@@ -29,16 +29,16 @@ Der Zeitraum und die Ergebnisse hängen davon ab, wie die Elemente aktualisiert 
 | Quelle | Details |
 | --- | --- |
 | Elementattribute aktualisiert über mbox oder API | <ul><li>Recommendations wird innerhalb von 15 Minuten aktualisiert.</li><li>Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.</li><li>Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.</li></ul> |
-| Elementattribute aktualisiert über Feed | <ul><li>Recommendations wird nach der Feed-Erfassung aktualisiert (2-8 Stunden).</li><li>Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.</li><li>Die Katalogsuche wird nach der Feed-Erfassung (2-8 Stunden) und nach dem anschließenden Katalogindex (3-8 Stunden) aktualisiert. Die Katalogsuche wird in der Regel innerhalb von 5-16 Stunden aktualisiert.</li></ul> |
+| Elementattribute aktualisiert über Feed | <ul><li>Recommendations wird nach der Feed-Erfassung aktualisiert (2-8 Stunden).</li><li>Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.</li><li>Die Katalogsuche wird nach der Feed-Erfassung (2-8 Stunden) und nach dem anschließenden Katalogindex (3-8 Stunden) aktualisiert. Die Katalogsuche wird innerhalb von insgesamt 5-16 Stunden aktualisiert.</li></ul> |
 | Aus dem Katalog gelöschtes Element über die Benutzeroberfläche oder API der Zielgruppe | <ul><li>Recommendations wird innerhalb von 15 Minuten aktualisiert.</li><li>Vorhandene Empfehlungen und Elementattribute werden angezeigt, bis Updates verfügbar sind.</li><li>Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.</li></ul> |
 | Element, das über die mbox oder API zum Katalog hinzugefügt wird | <ul><li>Recommendations wird nach der Ausführung des Algorithmus aktualisiert. Algorithmusausführungen werden alle 12 Stunden für 1-2-Tage-Algorithmen und alle 24 Stunden für 7+ Tage-Algorithmen geplant.</li><li>Bestehende Empfehlungen werden angezeigt, bis Updates verfügbar sind, wenn das hinzugefügte Element kein angeforderter Schlüssel ist.</li><li>Reserveempfehlungen werden angezeigt, bis Aktualisierungen verfügbar sind, wenn das hinzugefügte Element ein angeforderter Schlüssel ist.</li><li>Die Katalogsuche wird nach dem Katalogindex (3-8 Stunden) aktualisiert.</li></ul> |
-| Element, das über Feed zum Katalog hinzugefügt wird | <ul><li>Recommendations wird nach der Erfassung des Feeds aktualisiert (2-8 Stunden). Nachfolgende Algorithmusausläufe werden alle 12 Stunden für 1-2-Tage-Algorithmen und alle 24 Stunden für 7-Tage-Algorithmen geplant. Recommendations wird in der Regel innerhalb von 2-32 Stunden aktualisiert.</li><li>Bestehende Empfehlungen werden angezeigt, bis Updates verfügbar sind, wenn das hinzugefügte Element kein angeforderter Schlüssel ist.</li><li>Reserveempfehlungen werden angezeigt, bis Aktualisierungen verfügbar sind, wenn das hinzugefügte Element ein angeforderter Schlüssel ist.</li><li>Die Katalogsuche wird nach der Feed-Erfassung (2-8 Stunden) und nach dem Katalogindex (3-8 Stunden) aktualisiert. Die Katalogsuche wird in der Regel innerhalb von 5-16 Stunden aktualisiert.</li></ul> |
+| Element, das über Feed zum Katalog hinzugefügt wird | <ul><li>Recommendations wird nach der Erfassung des Feeds aktualisiert (2-8 Stunden). Nachfolgende Algorithmusausläufe werden alle 12 Stunden für 1-2-Tage-Algorithmen und alle 24 Stunden für 7-Tage-Algorithmen geplant. Recommendations wird innerhalb von 2-32 Stunden aktualisiert.</li><li>Bestehende Empfehlungen werden angezeigt, bis Updates verfügbar sind, wenn das hinzugefügte Element kein angeforderter Schlüssel ist.</li><li>Reserveempfehlungen werden angezeigt, bis Aktualisierungen verfügbar sind, wenn das hinzugefügte Element ein angeforderter Schlüssel ist.</li><li>Die Katalogsuche wird nach der Feed-Erfassung (2-8 Stunden) und nach dem Katalogindex (3-8 Stunden) aktualisiert. Die Katalogsuche wird innerhalb von insgesamt 5-16 Stunden aktualisiert.</li></ul> |
 
 Nach dem Import einer Feed-Datei oder nach dem Empfang von Entitäts-Updates über API oder Mbox werden die folgenden Änderungen in unter 60 Minuten übernommen:
 
 * Wenn ein Element zuvor ausgeschlossen wurde, aber nun einbezogen werden sollte, wird das Element bei der nächsten Algorithmusausführung (12-24 Stunden) einbezogen.
 
-   Dies liegt daran, dass bei der Zielgruppe Ausschlüsse sowohl online als auch offline angewendet werden. Wenn ein Artikel neu ausgeschlossen wird, gilt der Online-Ausschluss schnell. Wenn ein Element neu eingeschlossen wird, verschwindet der Online-Ausschluss schnell, der Offline-Ausschluss wird jedoch erst ausgeblendet, wenn der nächste Algorithmus ausgeführt wird.
+   Dies geschieht, weil [!DNL Target] Ausschlüsse online und offline anwendet. Wenn ein Artikel neu ausgeschlossen wird, gilt der Online-Ausschluss schnell. Wenn ein Element neu eingeschlossen wird, verschwindet der Online-Ausschluss schnell, der Offline-Ausschluss wird jedoch erst ausgeblendet, wenn der nächste Algorithmus ausgeführt wird.
 
 * Wenn ein Element zuvor enthalten war, aber jetzt ausgeschlossen werden sollte, wird das Element gemäß der Meldung &quot;Elementattribute aktualisiert...&quot;ausgeschlossen. Die oben besprochene Zeitleiste hängt von der Feed-Quelle ab (15 Minuten über mbox/API oder 12-24 Stunden über Feed).
 
@@ -53,6 +53,24 @@ Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus aus
 >[!NOTE]
 >
 >Eine Feed-Datei wird als importiert erachtet, wenn sich ihr Status von „Elemente werden importiert“ in „Aktualisierungen des Suchindex werden vorbereitet“ ändert. Aktualisierungen können länger als 60 Minuten dauern, bis sie in der Benutzeroberfläche der Katalogsuche angezeigt werden. Die Katalogsuche ist auf dem neuesten Stand, wenn der Feed-Status in &quot;Abgeschlossene Aktualisierungen&quot;geändert wird. Auch wenn die Katalogsuche noch nicht auf dem neuesten Stand ist, spiegelt Ihre Site Aktualisierungen der oben aufgeführten Zeiträume wider. Auf der Seite „Katalogsuche“ wird die aktuelle Indexaktualisierungszeit der Katalogsuche angezeigt.
+
+## Wie lange dauert es, bis die Konfiguration meiner [!UICONTROL Recommendations]-Aktivität, Angebot-, Promo- oder Kriterieneinstellungen auf meiner Site geändert wird?
+
+* Eine Änderung der Promotion-Einstellungen kann bis zu fünf Stunden dauern, bis sie vor Ort angezeigt wird.
+* Eine Änderung an anderen Kriterieneinstellungen wird möglicherweise erst angezeigt, wenn der nächste Algorithmus ausgeführt wird:
+
+   * Einige Kriterieneinstellungen (z. B. &quot;Hinzufügen einer dynamischen Einschlussregel&quot;) werden sofort angezeigt.
+   * Andere Kriterieneinstellungen (z. B. &quot;Entfernen einer dynamischen Einschlussregel&quot;, Änderung des Lookback-Fensters usw.) können erst nach Ausführung des nächsten Algorithmus einbezogen werden.
+   * Algorithmusabläufe werden durch diese Änderungen ausgelöst, es kann jedoch bis zu 24 Stunden dauern. Algorithmen werden auch planmäßig alle 12-24 Stunden ausgeführt.
+
+## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. beim Klicken auf Produkt A und beim Kauf von Produkt B) in den Empfehlungen für *angezeigt wird, die der Benutzer* erhält?
+
+* Derzeit angezeigte/gekaufte Produkte/Inhalte beeinflussen die Empfehlungen, die der Benutzer bei derselben Inhaltsanforderung für die Seitenansicht/Zielgruppe erhält.
+* Historisches Benutzerverhalten wie &quot;Zuletzt angezeigtes Produkt&quot;, &quot;Am meisten angezeigtes Produkt&quot;und der Gesamtüberblick über die Anzeige/den Kauf werden mit dieser Anforderung aktualisiert und beeinflussen die Empfehlungen, die der Benutzer bei der nächsten Inhaltsanforderung für die Seitenansicht/Zielgruppe erhält. Beispielsweise werden die Algorithmen &quot;Zuletzt angezeigte Artikel&quot;und &quot;Empfohlen für Sie&quot;mit jeder Ansicht/jedem Kauf aktualisiert und in der nachfolgenden Inhaltsanforderung angezeigt.
+
+## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klicken auf Produkt A und Kauf von Produkt B) in den Empfehlungen für *andere* Benutzer angezeigt wird?
+
+Das Benutzerverhalten in Aggregat wird in die Offline-Algorithmusverarbeitung einbezogen, wobei jeder Algorithmus alle 12-24 Stunden ausgeführt wird.
 
 ## Was sollte ich tun, wenn mein Array durch Sonderzeichen umbrochen wird? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -218,8 +236,8 @@ Wenn die Sitzung beendet wird (im Allgemeinen, wenn sie nach 30 Minuten ohne Akt
 
 Nachfolgende Sitzungen von verschiedenen Geräten können dann auf diese zuletzt angezeigten Artikel zugreifen, solange die neue Sitzung mit dem Profil des Kunden über die gleiche Marketing Cloud-ID (MCID), Experience Cloud-ID (ECID) oder CustomerID/mbox3rdPartyId verknüpft ist.
 
-Wenn ein Besucher gleichzeitig zwei aktive Sitzungen hat, werden die zuletzt angezeigten Artikel auf einem Gerät nicht aktualisiert, es sei denn, die Geräte müssen dieselbe Sitzungs-ID verwenden. Es gibt eine mögliche Problemumgehung, aber [!DNL Target] unterstützt nicht direkt die Freigabe einer Sitzungs-ID für mehrere Geräte. Der Kunde muss diese ID-Freigabe selbst verwalten.
+Wenn ein Besucher gleichzeitig zwei aktive Sitzungen hat, werden die zuletzt angezeigten Artikel auf einem Gerät nicht aktualisiert, es sei denn, die Geräte müssen die Sitzungs-ID freigeben. Es gibt eine mögliche Problemumgehung, aber [!DNL Target] unterstützt nicht direkt die Freigabe einer Sitzungs-ID für mehrere Geräte. Der Kunde muss diese ID-Freigabe selbst verwalten.
 
-Beachten Sie, dass dieses Verhalten weiterhin auftritt, wenn ein Besucher auf einem Gerät aktiv ist und dann einige Minuten später auf dem anderen Gerät aktiv wird. Die Sitzung des ersten Geräts läuft nicht 30 Minuten ab. Es kann bis zu fünf Minuten Verspätung eintreten, bevor der Status des Profils in den Status &quot;Dauerhaft&quot;geschrieben und verarbeitet wird. Die Sitzungsdauer beträgt etwa 35 Minuten, und das Profil wird beim Testen dieses Verhaltens gespeichert.
+Dieses Verhalten tritt weiterhin auf, wenn ein Besucher auf einem Gerät aktiv ist und dann einige Minuten später auf dem anderen Gerät aktiv wird. Die Sitzung des ersten Geräts läuft nicht 30 Minuten ab. Es kann bis zu fünf Minuten Verspätung eintreten, bevor der Status des Profils in den Status &quot;Dauerhaft&quot;geschrieben und verarbeitet wird. Die Sitzungsdauer beträgt etwa 35 Minuten, und das Profil wird beim Testen dieses Verhaltens gespeichert.
 
 Wenn der Besucher nicht gleichzeitig über zwei aktive Sitzungen verfügt, werden die zuletzt auf dem anderen Gerät angezeigten Artikel, die zuletzt auf einem Gerät angezeigt wurden, aktualisiert, solange die Sitzung beendet ist. Die Sitzung läuft beim Testen dieses Verhaltens nach 35 Minuten ab.
