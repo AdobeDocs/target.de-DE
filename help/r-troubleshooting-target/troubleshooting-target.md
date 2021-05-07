@@ -1,14 +1,14 @@
 ---
-keywords: Fehlerbehebung für Target; Fehlerbehebung in Target
-description: Lesen Sie eine Liste von Themen, die Ihnen bei der Lösung von Problemen in Adobe Target helfen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen (FAQs) und andere hilfreiche Themen.
-title: Wie behebe ich eine Fehlerbehebung bei Zielgruppen?
-feature: 'Fehlerbehebung '
+keywords: Fehlerbehebung in Target; Problembehebung in Target
+description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Target unterstützen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen (FAQs) und weitere hilfreiche Informationen.
+title: Wie behebe ich Fehler in Target?
+feature: Fehlerbehebung
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -33,16 +33,16 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 
 ### Automatische Zuordnung
 
-* [Übersicht über die automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [Automatische Zuordnung – Überblick](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
 
 ### Automatisches Targeting
 
-* [Fehlerbehebung bei automatischer Zielgruppe und häufig gestellte Fragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Automatisches Targeting – Fehlerbehebung und häufig gestellte Fragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
-### Automatisierte Personalisierung (AP)
+### Automated Personalization (AP)
 
-* [Häufig gestellte Fragen zur automatisierten Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
-* [Fehlerbehebung für die automatisierte Personalisierung](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Häufig gestellte Fragen zur Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Fehlerbehebung für Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [Automated Personalization-Zusammenfassungsberichte](/help/c-reports/reports-ap.md)
 
 ### Multivarianz-Tests (MVT)
@@ -78,7 +78,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 * [Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [Profilskriptattribute](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [Site-Seiten](/help/c-target/c-audiences/c-target-rules/site-pages.md)
+* [Seiten der Site](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## Inhalt
 
@@ -87,7 +87,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 
 ## Unternehmensberechtigungen
 
-* [Berechtigungen für Unternehmensbenutzer](/help/administrating-target/c-user-management/property-channel/property-channel.md)
+* [Enterprise-Benutzerberechtigungen](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 
 ## Erlebnisse
 
@@ -135,7 +135,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 ## Mobile Anwendungen
 
-* [Häufig gestellte Fragen zur Zielgruppe von mobilen Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [Target für mobile Apps – FAQs ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Geräteinterne Entscheidungsfindung
 
