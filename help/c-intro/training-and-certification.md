@@ -1,20 +1,20 @@
 ---
-keywords: Ausbildung;Zertifizierung;Zielgruppe;Online-Kurse;Kurse;Klasse;Klassen
+keywords: Schulung; Zertifizierung; Target; Online-Kurse; Kurse
 description: Finden Sie Adobe [!DNL Target] Klassen und Zertifizierungen, die von Adobe Training Services angeboten werden.
-title: Wo finde ich Training- und Zertifizierungskurse?
+title: Wo finde ich Schulungs- und Zertifizierungskurse?
 feature: Überblick
 exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 48%
+ht-degree: 89%
 
 ---
 
 # Schulung und Zertifizierung
 
-Adobe Training Services bietet Schulungen und Zertifizierungen für Adobe-Produkte und -Lösungen, einschließlich Adobe Target.
+Adobe Training Services bietet Schulungen und Zertifizierungen für Adobe-Produkte und -Lösungen einschließlich Adobe Target an.
 
 Besuchen Sie die [Adobe-Website für Kundenschulungen](https://training.adobe.com/training/courses.html#solution=adobeTarget), um eine Liste der verfügbaren persönlich angeleiteten und Online-Kurse zu erhalten.
 
