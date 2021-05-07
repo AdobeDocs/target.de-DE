@@ -1,24 +1,24 @@
 ---
-keywords: Bekannte Probleme;gelöste Probleme;Versionshinweise;Fehler;Probleme;Fehlerbehebungen
-description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Target, einschließlich Informationen zur Problemumgehung. Wenn Probleme gelöst werden, werden sie in den Abschnitt "Gelöst"verschoben.
+keywords: Bekannte Probleme; gelöste Probleme; Versionshinweise; Fehler; Probleme; Fehlerbehebungen
+description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Target, einschließlich Informationen zur Problemumgehung. Gelöste Probleme werden in den Abschnitt „Gelöst“ verschoben.
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
-feature: ' Versionshinweise '
+feature: Versionshinweise
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 translation-type: tm+mt
 source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
 source-wordcount: '4373'
-ht-degree: 58%
+ht-degree: 98%
 
 ---
 
-# Bekannte Probleme und gelöste Probleme  
+# Bekannte Probleme und gelöste Probleme
 
-Informationen zu bekannten Problemen für [!DNL Adobe Target]. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
+Informationen zu bekannten Problemen in [!DNL Adobe Target]. Dazu gehören auch Informationen zu Problemen, die gelöst wurden.
 
 >[!NOTE]
 >
->Die Ausgabennummern in Klammern dienen internen Adobe-Benutzern.
+>Die Problemnummern in Klammern dienen internen Adobe-Benutzern.
 
 ## Bekannte Probleme {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
@@ -26,82 +26,82 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
 ### Analytics für Adobe Target (A4T)-Metriken für Aktivitäten mit automatisierter Zuordnung und automatisierter Zielgruppe
 
-Die [!DNL Target]-Benutzeroberfläche ermöglicht es Benutzern, nicht unterstützte Interaktions- und Umsatzmetriken als Hauptzielmetrik für die Optimierung in den Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatische Zielgruppe] auszuwählen. Konversionsmetriken werden unterstützt. Interaktions- und Umsatzmetriken werden nicht unterstützt. ** Wenn Sie Interaktions- oder Umsatzzielmetriken auswählen, wird kein Optimierungsmodell erstellt.
+In der Benutzeroberfläche von [!DNL Target] können Benutzer nicht unterstützte Interaktions- und Umsatzmetriken als primäre Zielmetrik für die Optimierung in [!UICONTROL automatischen Zuordnungs]- und [!UICONTROL automatischen Targeting]-Aktivitäten auswählen. Konversionsmetriken werden unterstützt, Interaktions- und Umsatzmetriken dagegen *nicht*. Wenn Sie als Zielmetriken Interaktions- oder Umsatzmetriken auswählen, wird kein Optimierungsmodell erstellt.
 
-Eine Liste der unterstützten und nicht unterstützten Zielmetriken finden Sie unter [A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischer Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
+Eine Liste der unterstützten und nicht unterstützten Zielmetriken finden Sie unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Seitenversand {#page-delivery}
 
-Wenn Sie eine Vorlagenregel hinzufügen, z. B. URL enthält (/Checkout, /Warenkorb), werden Ihren Regeln im [Seitenversand](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zusätzliche Leerzeichen vorangestellt. Diese zusätzlichen Bereiche sind kosmetisch und wirken sich nicht auf die Erstellung von Audiencen und den Versand von Angeboten aus. (TGT-35920)
+Wenn Sie eine Vorlagenregel hinzufügen, z. B. URL enthält (/Checkout, /Warenkorb), werden Ihren Regeln im [Seitenversand](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zusätzliche Leerzeichen vorangestellt. Diese zusätzlichen Leerzeichen haben einen rein kosmetischen Zweck und wirken sich nicht auf die Erstellung von Zielgruppen und die Bereitstellung von Angeboten aus. (TGT-35920)
 
-### Links zur Qualitätssicherung Vorschau
+### Vorschaulinks für QA
 
-Vorschaulinks für Aktivitäts-QAs werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Wiederholen Sie die Links Vorschau. Archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden, um zu verhindern, dass dieses Problem weiterhin auftritt. (TNT-37294)
+Vorschaulinks für die Aktivitäts-QA gespeicherter Aktivitäten werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Versuchen Sie die Vorschaulinks erneut zu laden. Das Problem lässt sich in der Regel durch regelmäßige Archivierung nicht mehr aktiv verwendeter gespeicherter Aktivitäten verhindern. (TNT-37294)
 
-### Qualitätssicherungsmodus für Recommendations-Aktivitäten
+### QA-Modus für Recommendations-Aktivitäten
 
-Ein bekanntes Problem verhindert die Vorschau, wenn in der Aktivität verwendete Kriterien elementbasiert oder auf Kategorien basieren. (TNT-37455)
+Ein bekanntes Problem verhindert die Vorschau, wenn die in einer Aktivität verwendeten Kriterien auf Elementen oder Kategorien basieren. (TNT-37455)
 
 ### Umleitungsangebote {#redirect}
 
 Die folgenden Probleme bei Umleitungsangeboten sind bekannt:
 
-* Eine begrenzte Anzahl von Kunden meldete eine höhere Varianz in der Traffic-Verteilung, wenn sie Umleitungs-Angebot in Aktivitäten verwenden, die mit Analytics für die Zielgruppe (A4T) konfiguriert wurden.
+* Von einigen wenigen Kunden wurde zurückgemeldet, dass in der Traffic-Verteilung ein höherer Grad an Varianzen auftritt, wenn Umleitungsangebote in Aktivitäten verwendet werden, die mit Analytics for Target (A4T) konfiguriert wurden.
 * Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](/help/c-activities/c-activity-qa/activity-qa.md) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
 
-### Abbrechen des Ladens einer Seite im Visual Experience Composer (VEC) {#cancel}
+### Problem beim Abbrechen des Seitenladevorgangs in Visual Experience Composer (VEC) {#cancel}
 
 * Das folgende bekannte Problem tritt derzeit auf, wenn das Laden einer Aktivität des Typs [!UICONTROL A/B-Test] oder [!UICONTROL Erlebnis-Targeting] (XT) innerhalb des VEC abgebrochen wird, die eine Umleitungs-URL enthält.
 
-   In Schritt 1 des geleiteten Arbeitsablaufs für VEC wird beim Abbrechen des Seitenladevorgangs das Bedienfeld [!UICONTROL Änderungen] im VEC angezeigt und die Vorlage &quot;Umleitung zur URL&quot;wird auf das Erlebnis angewendet (z. B. &quot;Erlebnis B&quot;). Wenn Sie die Schritte zwei oder drei durchführen und dann zu Schritt 1 zurückkehren, tritt die folgende Situation auf.
+   Im ersten Schritt des durch VEC angeleiteten Workflows wird beim Abbrechen des Seitenladevorgangs das Bedienfeld [!UICONTROL Änderungen] im VEC angezeigt und die Umleitung zur URL-Vorlage wird auf das Erlebnis angewendet (z. B. Erlebnis B). Wenn Sie die Schritte zwei oder drei durchführen und dann zu Schritt 1 zurückkehren, tritt die folgende Situation auf.
 
    Bei „Erlebnis B“ wird standardmäßig die Vorlage für das Laden von Website-Dateien gerendert und das Bedienfeld [!UICONTROL Änderungen] kann aufgerufen werden. Dies sollte nicht der Fall sein, da eine Umleitung zu einer URL-Vorlage angewendet wird. Die Umleitung zur URL-Vorlage sollte angezeigt werden.
 
    So zeigen Sie den korrekten Status des Erlebnisses im VEC an:
 
-   Wenn Sie zu einem anderen Erlebnis wechseln und dann zurück zu &quot;Erlebnis B&quot;wechseln, zeigt [!DNL Target] die Umleitung zu einer URL-Vorlage an, die auf dieses Erlebnis angewendet wird, und auf das Bedienfeld [!UICONTROL Änderungen] kann nicht zugegriffen werden. (TGT-32138)
+   Wenn Sie zu einem anderen Erlebnis und dann zurück zu „Erlebnis B“ wechseln, zeigt [!DNL Target] die auf dieses Erlebnis angewendete Umleitung zur URL-Vorlage an, und das Bedienfeld [!UICONTROL Änderungen] ist nicht abrufbar. (TGT-32138)
 
 * Bei Websites mit einseitigen Anwendungen (SPA) können Sie beim Abbrechen der Ladevorgänge keine Aktionen im Bedienfeld [!UICONTROL Änderungen] bearbeiten.
 
 ### Recommendations
 
-Bei den Aktivitäten [!UICONTROL Recommendations] sind folgende Probleme bekannt:
+Die folgenden Probleme bei [!UICONTROL Recommendations]-Aktivitäten sind bekannt:
 
-* Beim Kopieren einer [!UICONTROL Recommendation]-Aktivität mit einer aktiven Promotion wirkt sich eine Änderung der Aktivität des Duplikats derzeit auch auf die ursprüngliche Aktivität aus und umgekehrt. (TGT-39155)
+* Wenn eine [!UICONTROL Recommendations]-Aktivität mit einer aktiven Promotion kopiert wird, wirkt sich jede Änderung an der kopierten bzw. der ursprünglichen Aktivität derzeit auch auf das Original bzw. die Kopie aus. (TGT-39155)
 
-   Als vorübergehende Lösung:
+   Temporäre Umgehung:
 
-   * Promotions für Aktivitäten deaktivieren
-   * Duplikat der Aktivität
-   * Promotions in jeder Aktivität erneut aktivieren
+   * Deaktivieren Sie die Promotion von Aktivitäten.
+   * Kopieren Sie die Aktivität.
+   * Aktivieren Sie die Promotions in jeder Aktivität wieder.
 
-* Wenn [!DNL Target] ein JSON-Angebot mit getOffer() zurückgibt, wird der JSON-Typ zurückgegeben. Wenn Sie jedoch einen JSON Recommendations-Entwurf zurückgeben, wird dieser mit einem HTML-Typ zurückgegeben.
+* Wenn [!DNL Target] ein JSON-Angebot mit getOffer() zurückgibt, wird der JSON-Typ zurückgegeben. Ein JSON Recommendations-Design hingegen wird mit einem HTML-Typ zurückgegeben.
 * Entitäten verlieren ordnungsgemäß die Gültigkeit, wenn innerhalb von 60 Tagen keine Updates per Feed oder API empfangen werden. Die abgelaufenen Entitäten werden jedoch nach ihrem Ablauf nicht aus dem Katalogsuchindex entfernt. (IRI-857)
 * Die Overlays „Informationen zur Verwendung“ für Kriterien und Designs entsprechen nicht ihrer Verwendung in A/B- und Erlebnis-Targeting-Aktivitäten. (TGT-34331)
 * Für Recommendations-Angebote in A/B- und Erlebnis-Targeting-Aktivitäten wird keine Vorschau der Recommendations-Taskleiste angezeigt. (TGT-33426)
-* Sammlungen, Ausschlüsse, Kriterien und Designs, die über API erstellt wurden, sind in der Benutzeroberfläche der Zielgruppe nicht sichtbar und können nur über die API bearbeitet werden. Wenn Sie eines dieser Elemente in der Benutzeroberfläche der Zielgruppe erstellen und sie später über die API bearbeiten, werden diese Änderungen nicht in der Benutzeroberfläche der Zielgruppe angezeigt. Über API bearbeitete Elemente sollten weiterhin über API bearbeitet werden, um den Verlust von Änderungen zu vermeiden. (TGT-35777)
+* Sammlungen, Ausschlüsse, Kriterien und Designs, die über die API erstellt wurden, sind in der Benutzeroberfläche von Target nicht sichtbar und können nur über die API bearbeitet werden. Erstellen Sie umgekehrt eines dieser Elemente in der Benutzeroberfläche von Target und bearbeiten Sie diese später über die API, werden die Änderungen nicht in der Benutzeroberfläche von Target angezeigt. Über die API bearbeitete Elemente sollten weiterhin über die API bearbeitet werden, um sicherzustellen, dass keine Änderungen verloren gehen. (TGT-35777)
 * Recommendations-Aktivitäten, die über die API erstellt wurden, können zwar in der Benutzeroberfläche angezeigt, aber nur über die API bearbeitet werden.
-* Der Feed-Status „Benutzerspezifische Kriterien“ in der Kriterien-Listenansicht (Karte) wird alle zehn Minuten aktualisiert und kann in seltenen Fällen mehr als zehn Minuten veraltet sein. Der in der Ansicht zur Bearbeitung benutzerdefinierter Kriterien angezeigte Status wird in Echtzeit abgerufen und ist stets auf dem neuesten Stand. (TGT-35896, TGT-36173)
-* Kriterien und Designkarten zeigen nicht die richtige Anzahl von Aktivitäten an, in denen sie verwendet werden. Wenn die Kriterien oder der Entwurf in einer A/B-Aktivität verwendet werden, zeigt die Karte möglicherweise fälschlicherweise an, dass der Entwurf oder die Kriterien nicht verwendet werden, selbst wenn der Entwurf oder die Kriterien in der Aktivität verwendet werden. (TGT-36621, TGT-37217)
+* Der Feed-Status „Benutzerspezifische Kriterien“ in der Kriterien-Listenansicht (Karte) wird alle zehn Minuten aktualisiert und kann in seltenen Fällen mehr als zehn Minuten veraltet sein. Der in der Bearbeitungsansicht für benutzerdefinierte Kriterien angezeigte Status wird in Echtzeit abgerufen und ist stets auf dem neuesten Stand. (TGT-35896, TGT-36173)
+* In Kriterien- und Designkarten ist die Anzahl der Aktivitäten, in denen sie verwendet werden, nicht korrekt angegeben. Wenn ein Kriterium oder ein Design in einer A/B-Aktivität verwendet wird, gibt die Karte möglicherweise fälschlich an, dass das Kriterium oder Design nicht verwendet wird. (TGT-36621, TGT-37217)
 
 ### Multivarianz-Test (MVT)-Aktivitäten
 
-In einer MVT-Aktivität ist der in Tabelle und Diagramm angezeigte Gewinner beim Überprüfen von Metriken nicht konsistent. Dies tritt auf, wenn ein Benutzer von der Ansicht &quot;Zusammenfassung&quot;zur &quot;Grafik&quot;wechselt, dann zur Ansicht &quot;Zusammenfassung&quot;zurückwechselt, eine Metrik ändert und dann zur Ansicht &quot;Diagramm&quot;wechselt. Wenn dieses Problem auftritt, wird in der Zusammenfassungsansicht immer der korrekte Gewinner angezeigt. Wenn der Benutzer die Diagrammansicht nie zwischen Zusammenfassungsansichten wechselt, wird in der Diagrammansicht der korrekte Gewinner angezeigt.
+In einer MVT-Aktivität ist der in der Tabelle und im Diagramm angezeigte Gewinner bei der Überprüfung der Metriken möglicherweise nicht identisch. Diese Situation tritt ein, wenn ein Benutzer von der Zusammenfassungs- zur Diagrammansicht und wieder zurück zur Zusammenfassungsansicht wechselt, eine Metrik ändert und dann zur Diagrammansicht wechselt. Wenn dieses Problem auftritt, wird in der Zusammenfassungsansicht immer der korrekte Gewinner angezeigt. Wenn der Benutzer die Diagrammansicht nie zwischen Zusammenfassungsansichten wechselt, wird in der Diagrammansicht der korrekte Gewinner angezeigt.
 
 ### at.js   {#atjs}
 
 Bekannte Probleme mit at.js:
 
-* Wenn Sie at.js-Versionen vor 2.2.0 verwenden, werden bei der Klick-Verfolgung keine Konversionen in Analytics for Zielgruppe (A4T) gemeldet, wenn Adobe Analytics-Code nicht in Seitenelementen vorhanden ist (z. B. Schaltflächen). Für dieses Problem wurde in at.js 2.2.0 eine Korrektur implementiert. Wenn dieses Problem auftritt, [führen Sie ein Upgrade auf die neueste at.js-Version durch](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-* Wenn Sie ein Erlebnis ohne Änderungen mit at.js 2.1.1 oder einer früheren Version erstellen (z. B. ein Standarderlebnis), wird das Erlebnis möglicherweise nicht in Berichten, Analytics für Target (A4T), Adobe Analytics oder Google Analytics gezählt. Darüber hinaus funktioniert das [ttMeta-Plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) möglicherweise nicht ordnungsgemäß.
+* Bei Verwendung einer at.js-Version vor 2.2.0 werden beim Klick-Tracking keine Konversionen in Analytics for Target (A4T) gemeldet, wenn der Adobe Analytics-Code nicht in Seitenelementen (z. B. Schaltflächen) vorhanden ist. Für dieses Problem wurde in at.js 2.2.0 eine Korrektur implementiert. Wenn dieses Problem auftritt, [führen Sie ein Upgrade auf die neueste at.js-Version durch](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* Wenn Sie ein Erlebnis ohne Änderungen mit at.js 2.1.1 oder einer früheren Version erstellen (z. B. ein Standarderlebnis), wird das Erlebnis möglicherweise nicht in Berichten, Analytics for Target (A4T), Adobe Analytics oder Google Analytics gezählt. Darüber hinaus funktioniert das [ttMeta-Plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) möglicherweise nicht ordnungsgemäß.
 
    Verwenden Sie als Problemumgehung im Erlebnisinhalt einen Leerraum. (TNT-33366)
 
    >[!NOTE]
    >
-   >Eine Behebung dieses Problems wurde in at.js 2.2.0 vorgenommen. Aktualisieren Sie auf die [aktuelle Version oder at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) oder verwenden Sie die oben erwähnte Problemumgehung nur für at.js-Versionen vor 2.2.0.
+   >Eine Korrektur dieses Problems wurde in at.js 2.2.0 implementiert. Führen Sie das Upgrade auf die [neueste Version von at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) durch oder verwenden Sie die oben genannte Problemumgehung, jedoch nur für at.js-Versionen vor 2.2.0.
 
-* Wenn eine Seite in den Visual Experience Composer (VEC) geladen wird, muss die Zielgruppe ermitteln, ob die globale Mbox-Einstellung aktiviert oder deaktiviert ist und ob entityID oder categoryID an dem Ort vorhanden ist, an dem der Benutzer versucht, die Empfehlung im VEC anzuwenden. Basierend auf diesen Informationen wird die Kriterienliste gefiltert. Die Standardliste enthält zwar gefilterte Algorithmen, doch mit dem [Kompatibilitäts-Kontrollkästchen](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) können Sie die vollständige Algorithmenliste anzeigen.
+* Beim Laden einer Seite in Visual Experience Composer (VEC) muss Target ermitteln, ob die globale Mbox-Einstellung aktiviert oder deaktiviert ist und ob an der Stelle, an der der Benutzer die Recommendation in VEC anwenden möchte, ein entityID- oder categoryID-Eintrag vorhanden ist. Basierend auf diesen Informationen wird die Kriterienliste gefiltert. Die Standardliste enthält zwar gefilterte Algorithmen, doch mit dem [Kompatibilitäts-Kontrollkästchen](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) können Sie die vollständige Algorithmenliste anzeigen.
 
    Bei der Verwendung von at.js ist das Kontrollkästchen „Kompatibilität“ ausgeblendet, sodass Sie keine inkompatiblen Algorithmen anzeigen können.
 
@@ -116,106 +116,106 @@ Bekannte Probleme mit at.js:
 
 ### Erfolgsmetriken
 
-Erfolgsmetriken mit der erweiterten Option &quot;Wie wird die Zahl inkrementiert&quot;auf &quot;jede Impression&quot;oder &quot;jede Impression (außer Aktualisierungen)&quot;gesetzt, können nicht als Erfolgsmetrik verwendet werden, von der eine andere Metrik abhängt.
+Erfolgsmetriken, für die die Einstellung der erweiterten Option „Wie wird die Zählung erhöht“ auf „Jede Impression“ oder „Jede Impression (ohne Aktualisierungen)“ gesetzt ist, können nicht als Erfolgsmetrik mit einer abhängigen Metrik verwendet werden.
 
-Wenn eine Erfolgsmetrik so eingestellt ist, dass sie bei jeder Impression inkrementiert wird, zählt die Zielgruppe den Besucher jedes Mal, wenn der Besucher diese Erfolgsmetrik besucht. Target setzt dann die Erfolgsmetrik „Mitgliedschaft“ auf 0 zurück, sodass ab der nächsten Impression wieder neu gezählt wird. Wenn also für eine andere Metrik zunächst diese Metrik angezeigt werden muss, erkennt die Zielgruppe nie, dass der Benutzer die erste Metrik gesehen hat.
+Wenn eine Erfolgsmetrik so eingestellt ist, dass sie bei jeder Impression erhöht wird, zählt Target den Besucher jedes Mal neu, wenn er diese Erfolgsmetrik besucht. Target setzt dann die Erfolgsmetrik „Mitgliedschaft“ auf 0 zurück, sodass ab der nächsten Impression wieder neu gezählt wird. Wenn also eine andere Metrik verlangt, dass diese Metrik zuerst gesehen werden muss, kann Target nicht erkennen, dass der Benutzer diese erste Metrik bereits gesehen hat.
 
 ### Analytics für [!DNL Target] (A4T)
 
-Wenden Sie bei Verwendung von Impressionen und Konversionen der Zielgruppe in Analysis Workspace das Attribution IQ-Modell &quot;Gleich Touch&quot;auf die Metriken an, um eine genaue Zählung sicherzustellen. Um ein [Nicht-Standard-Zuordnungsmodell](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html) anzuwenden, klicken Sie mit der rechten Maustaste auf die Metrik, um **Spalteneinstellungen ändern > Nicht standardmäßiges Zuordnungsmodell verwenden zu aktivieren > Gleiches Touch-Modell** auszuwählen. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
+Wenn Sie in Analysis Workspace Target-Aktivitätsimpressionen und -konversionen verwenden, sollten Sie auf die Metriken das Attribution IQ-Modell „Selber Kontakt“ anwenden, um eine genaue Zählung sicherzustellen. Zum Anwenden eines [nicht standardmäßigen Attributionsmodells](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings.html?lang=de#cja-workspace) klicken Sie mit der rechten Maustaste auf die Metrik, um **die Spalteneinstellungen zu ändern. Aktivieren Sie dann „Nicht standardmäßiges Attributionsmodell verwenden“ und wählen Sie das Modell „Selber Kontakt“ aus**. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
 
-Alle aktuellen Analytics-Pakete können dieses Modell mit Attribution IQ hinzufügen. Wenn Sie keinen Zugriff auf Attribution IQ haben, verlassen Sie sich bitte auf A4T-Daten in Reports &amp; Analysen.
+Alle aktuellen Analytics-Pakete können dieses Modell mit Attribution IQ hinzufügen. Falls Sie keinen Zugriff auf Attribution IQ haben, greifen Sie auf die A4T-Daten in Reports &amp; Analytics zurück.
 
 ### Target-APIs
 
 Kunden können keine CRUD-Vorgänge für Aktivitäten mit Automatisierte Zuordnung über die v3-Version der A/B-Aktivitäten-API auf Adobe I/O durchführen.
 
-### GEO-Targeting
+### Geotargeting
 
-Am 10. Mai 2020 hat die Adobe die GEO-Provider-Dateien aktualisiert, wodurch einige Inkonsistenzen entstanden sind. Beispielsweise wurden einige Werte mit Kommas hinzugefügt. obwohl die Werte in bestehenden Audiencen kein Komma hatten. Nicht alle Adobe Versand-Server waren von dieser Änderung betroffen. Daher haben Audiencen, die solche Werte verwenden, möglicherweise nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
+Am 10. Mai 2020 wurden von Adobe die GEO-Provider-Dateien aktualisiert, wodurch einige Inkonsistenzen entstanden sind. Beispielsweise wurden einige Werte mit Kommas hinzugefügt, obwohl die Werte in bestehenden Zielgruppen keine Kommas enthielten. Nicht alle Adobe-Bereitstellungsserver waren von dieser Änderung betroffen. Für Zielgruppen, die solche Werte verwenden, sind daher möglicherweise noch nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
 
 ### Berichte - Inkonsistente Daten im herunterladbaren .csv-Bericht im Vergleich zum angezeigten Bericht in der [!DNL Target]-Benutzeroberfläche. {#csv}
 
-Berichte, die als .csv-Dateien zum Herunterladen generiert wurden, sind inkonsistent, wenn die Aktivität mehr als eine Metrik verwendet. Der herunterladbare Bericht wird nur auf der Grundlage der Berichtseinstellungen erstellt und berücksichtigt denselben Wert für alle anderen verwendeten Metriken.
+Berichte, die als CSV-Dateien zum Herunterladen generiert wurden, sind nicht konsistent, wenn die Aktivität mehr als eine Metrik verwendet. Der herunterladbare Bericht wird nur auf der Grundlage der Berichtseinstellungen generiert und geht bei allen anderen verwendeten Metriken von demselben Wert aus.
 
-Die Quelle der Wahrheit ist immer der angezeigte Bericht in der [!DNL Target]-Benutzeroberfläche.
+Der korrekte Bericht ist immer der in der Benutzeroberfläche von [!DNL Target] angezeigte Bericht.
 
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-Da die oben genannten bekannten Probleme behoben wurden, werden sie in die folgenden Abschnitte verschoben. Falls erforderlich, werden weitere Hinweise hinzugefügt.
+Bekannte Probleme, die behoben wurden, werden in die folgenden Abschnitte verschoben. Gegebenenfalls finden Sie dort zusätzliche Hinweise.
 
-### Angebote mit der Beschriftung &quot;Verarbeitung&quot;
+### Bildangebote mit der Bezeichnung „Verarbeitung“
 
-Bei Image-Angeboten auf der Seite &quot;Angebote&quot;wird die Beschriftung &quot;Verarbeitung&quot;manchmal mehrere Stunden nach dem Hochladen der Bilder beibehalten. In den meisten Fällen handelt es sich hierbei nur um ein Problem mit der Bezeichnung: die Image-Angebot können weiterhin in Aktivitäten verwendet und bereitgestellt werden. (MCUI-10264, TGT-37458)
+Bildangebote auf der Seite „Angebote“ tragen gelegentlich noch mehrere Stunden nach dem Upload der Bilder die Bezeichnung „Verarbeitung“. In den meisten Fällen handelt es sich jedoch nur um ein Problem mit der Bezeichnung. Die Bildangebote können dennoch in Aktivitäten verwendet und bereitgestellt werden. (MCUI-10264, TGT-37458)
 
-Dieses Problem wurde in der Version Target Standard/Premium 20.10.1 behoben.
+Dieses Problem wurde in der Standard- und Premium-Version von Target 20.10.1 behoben.
 
 ### Analytics for Adobe Target (A4T) Berichte
 
-Die folgenden Probleme im Zusammenhang mit A4T wurden behoben:
+Die folgenden Probleme in Verbindung mit A4T wurden behoben:
 
-* Ein Problem, das A4T-Aktivitäten mithilfe einer [!DNL Analytics]-Zielmetrik beeinträchtigte, die dazu führte, dass A4T-Berichte eine unerwartete Traffic-Aufspaltung oder künstlich überhöhte Konversionen anzeigten.
+* Ein Problem, das sich auf A4T-Aktivitäten mit einer [!DNL Analytics]-Zielmetrik auswirkte und dazu führte, dass A4T-Berichte eine unerwartete Traffic-Aufteilung oder extrem überhöhte Konversionen anzeigten.
 
-   Dieses Problem hatte Auswirkungen auf den A4T-Berichte unter folgenden Bedingungen:
+   Dieses Problem wirkte sich unter folgenden Bedingungen auf A4T-Berichte aus:
 
-   * Die Aktivität wurde zwischen dem 15. September und dem 5. November 2020 (4.00 Uhr PST) erstellt oder gespeichert und
-   * Für die Aktivität wurde eine [!DNL Analytics]-Metrik als Zielmetrik ausgewählt.
+   * Die Aktivität wurde zwischen dem 15. September und dem 5. November 2020, 4.00 Uhr (UTC−8), erstellt oder gespeichert.
+   * Für die Aktivität war eine [!DNL Analytics]-Metrik als Zielmetrik ausgewählt.
 
-   [!DNL Target] Traffic während dieser Zeit korrekt aufgeteilt. Eine Aufteilung der Aktivität auf 50/50 könnte jedoch beispielsweise als Aufschlüsselung auf 90/10 in A4T-Berichte erscheinen.
+   [!DNL Target] teilte den Traffic während dieser Zeit korrekt auf. Jedoch kam es beispielsweise vor, dass eine 50/50-Aufteilung in der Aktivitätskonfiguration im A4T-Bericht als 90/10-Aufteilung ausgegeben wurde.
 
-   Bei betroffenen Aktivitäten ist die richtige Traffic-Aufteilung für erstmalige Besucher nach dem 5. November (4.00 Uhr PST) sichtbar. Neue Aktivitäten, die nach dieser Zeit erstellt oder gespeichert wurden, melden die Traffic-Aufschlüsselung korrekt.
+   Für Besucher, die eine betroffene Aktivität nach dem 5. November, 4.00 Uhr (UTC−8), zum ersten Mal anzeigten, wurde und wird die Traffic-Aufteilung korrekt angezeigt. Auch bei neuen Aktivitäten, die nach diesem Datum erstellt oder gespeichert wurden, wird der Traffic korrekt angegeben.
 
-* Ein Problem, das A4T-Aktivitäten mit einer [!DNL Target]-Zielmetrik beeinträchtigte, die dazu führte, dass A4T-Berichte niedrige oder keine Konversionen meldeten.
+* Ein Problem, das sich auf A4T-Aktivitäten mit einer [!DNL Target]-Zielmetrik auswirkte und dazu führte, dass A4T-Berichte zu niedrige oder gar keine Konversionen zurückgaben.
 
    >[!NOTE]
    >
-   >Dieses Problem betraf nur den A4T-Berichte. Der Versand der Aktivität wurde dadurch nicht beeinflusst.
+   >Dieses Problem betraf nur A4T-Berichte. Die Bereitstellung der Aktivitäten war davon nicht betroffen.
 
-   Dieses Problem hatte Auswirkungen auf den A4T-Berichte unter folgenden Bedingungen:
+   Dieses Problem wirkte sich unter folgenden Bedingungen auf A4T-Berichte aus:
 
-   * Die A4T-Aktivität war vom 22. September bis 11. November 2020 (14.30 Uhr PST) live und
-   * Für die Aktivität wurde eine [!DNL Target]-Metrik als Zielmetrik ausgewählt und
-   * Wenn ein Besucher das Ziel-Ereignis für die Aktivität (z. [!UICONTROL Klicken Sie auf ein Element]). Es gab auch eine Aktivität mit niedrigerer Priorität, die nicht zu A4T gehört und mit dem Konversions-Ereignis übereinstimmte. Dies kann vorkommen, wenn die Nicht-A4T-Aktivität entweder mit derselben Metrik wie die A4T-Aktivität konfiguriert wurde oder mit der Metrik &quot;beliebige mbox&quot;konfiguriert wurde.
+   * Die A4T-Aktivität war zwischen dem 22. September und dem 11. November 2020, 14.30 Uhr (UTC−8), aktiv.
+   * Für die Aktivität war eine [!DNL Target]-Metrik als Zielmetrik ausgewählt.
+   * Wenn ein Besucher das Zielereignis der Aktivität auswählte (z. B. [!UICONTROL auf ein Element klickte]), wurde gleichzeitig eine Nicht-A4T-Aktivität mit niedrigerer Priorität ausgeführt, die mit dem Konversionsereignis übereinstimmte. Dies geschah, wenn die Nicht-A4T-Aktivität mit derselben Metrik wie die A4T-Aktivität oder mit der Metrik „any mbox“ konfiguriert war.
 
-   Dieses Problem wirkte sich auf den Berichte von A4T-Aktivitäten aus, die zwischen dem 22. September und dem 11. November 2020 (14.30 Uhr PST) live waren. Berichte für betroffene A4T-Aktivitäten zeigen Konversionen außerhalb dieses Datumsbereichs korrekt an. Berichte für Nicht-A4T-Aktivitäten wurde nicht beeinträchtigt.
+   Dieses Problem wirkte sich auf die Zurückmeldung von A4T-Aktivitäten aus, die zwischen dem 22. September und dem 11. November 2020, 14.30 Uhr (UTC−8), aktiv waren. Außerhalb dieses Zeitfensters wurden die Konversionen der betroffenen A4T-Aktivitäten korrekt zurückgemeldet. Berichte für Nicht-A4T-Aktivitäten waren davon nicht betroffen.
 
-Wenn Sie weitere Fragen haben, wenden Sie sich an Ihren Kundenbetreuer (Customer Success Manager, CSM) oder [Adobe Kundendienst](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
+Bei Fragen wenden Sie sich an Ihren Kundenbetreuer (CSM) oder an die [Adobe-Kundenunterstützung](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
 
-### Berichte für die automatische Zielgruppe {#at-metrics}
+### Berichte für automatisches Targeting {#at-metrics}
 
-Es wurde ein Problem behoben, das den Berichte [!DNL Adobe Target Premium] users[!UICONTROL Auto-Zielgruppe] ab 15. September 2009 um 14:30 Uhr beeinträchtigte. (PDT) bis 6. Oktober, 9.25 Uhr (PDT). Bei der Anzeige von Berichten für die betroffenen Konversionsmetriken (die entweder mit der Option &quot;[!UICONTROL Angezeigte Seite]&quot;oder &quot;[!UICONTROL Auf mbox] geklickt&quot;konfiguriert wurden) werden die Konversionsraten fälschlicherweise gemeldet. Es ist derzeit kein Problem mit dem Versand bekannt.
+Ein Problem, das sich bei [!DNL Adobe Target Premium]-Benutzern zwischen dem 15. September, 14.30 Uhr (UTC−7), und dem 6. Oktober, 9.25 Uhr (UTC−7), auf Berichte zum [!UICONTROL automatischen Targeting] auswirkte, wurde behoben. In den Berichten werden die Konversionsraten der betroffenen Konversionsmetriken (konfiguriert mit [!UICONTROL Angezeigte Seite] oder [!UICONTROL Auf mbox geklickt]) nicht korrekt angezeigt. Ein Problem mit der Bereitstellung ist derzeit nicht bekannt.
 
-So synchronisieren und korrigieren Sie Ihren Berichte:
+So synchronisieren und korrigieren Sie die Berichte:
 
-1. Kopieren Sie die betroffenen Aktivitäten [!UICONTROL Auto-Zielgruppe] und speichern Sie sie.
-1. Aktivieren Sie die neu gespeicherten Aktivitäten (sofern die betroffenen Aktivitäten live geschaltet wurden).
-1. Löschen Sie die ursprünglichen (betroffenen) Aktivitäten.
+1. Kopieren Sie die betroffenen Aktivitäten für [!UICONTROL automatisches Targeting] und speichern Sie die Kopien.
+1. Aktivieren Sie die neu gespeicherten Aktivitäten (sofern die betroffenen Aktivitäten aktiv waren).
+1. Löschen Sie die ursprünglichen, d. h. die betroffenen Aktivitäten.
 
 (TGT-38522, CSO 20201006007)
 
 ### Berichterstellung {#conversions-audiences}
 
-Konversionen erhöhen sich derzeit je nach verwendeter Audience unterschiedlich.
+Je nach Zielgruppe erhöhen sich Konversionen derzeit unterschiedlich.
 
-Wenn beispielsweise für denselben Besucher die Konversionszählung auf inkrementieren &quot;Einmal pro Teilnehmer:&quot;eingestellt ist:
+Ist beispielsweise für den gleichen Besucher die Erhöhung der Konversionszählung auf „Einmal pro Teilnehmer“ eingestellt,
 
-* Audience: &quot;Alle qualifizierten Besucher&quot;für Konversionen auf Besuchsebene werden nur einmal inkrementiert. Dies ist das erwartete Verhalten.
-* Audience: &quot;Neue Besucher&quot;für Konvertierungen auf Besuchsebene werden jedes Mal falsch inkrementiert, anstatt nur einmal zu inkrementieren. Dies ist nicht das erwartete Verhalten.
+* erhöhen sich die Konversionen auf Besuchsebene bei der Zielgruppe „Alle qualifizierten Besucher“ nur einmal. Dies ist das erwartete Verhalten.
+* Bei der Zielgruppe „Neue Besucher“ erhöhen sich die Konversionen auf Besuchsebene dagegen fälschlicherweise jedes Mal, anstatt nur einmal. Dies ist ein nicht erwartetes Verhalten.
 
-Wenn die Konversionszählung auf inkrementieren &quot;Bei jedem Impression:&quot;eingestellt ist
+Ist die Erhöhung der Konversionszählung auf „Bei jeder Impression“ eingestellt,
 
-* Audience: &quot;Alle qualifizierten Besucher&quot;für Konvertierungen auf Besucher-Ebene werden nicht jedes Mal korrekt inkrementiert, sondern nur einmal. Dies ist nicht das erwartete Verhalten.
-* Audience: &quot;Neue Besucher&quot;für Konversionen auf Besucher-Ebene werden jedes Mal erhöht. Dies ist das erwartete Verhalten.
+* erhöhen sich die Konversionen auf Besuchsebene bei der Zielgruppe „Alle qualifizierten Besucher“ fälschlicherweise nur einmal, anstatt jedes Mal. Dies ist ein nicht erwartetes Verhalten.
+* Bei der Zielgruppe „Neue Besucher“ erhöhen sich die Konversionen auf Besuchsebene dagegen jedes Mal. Dies ist das erwartete Verhalten.
 
-Beachten Sie, dass dieses Problem nur mit dem Berichte [!DNL Target] in Zusammenhang steht. Dies ist kein Problem bei der Verwendung des Berichte [!UICONTROL Analytics für Zielgruppe] (A4T).
+Dieses Problem betrifft nur die Berichterstellung in [!DNL Target]. Die Berichterstellung von [!UICONTROL Analytics for Target] (A4T) ist davon nicht betroffen.
 
 Dieses Problem wurde behoben.
 
-### Seiten, die nicht im Visual Experience Composer (VEC) oder Enhanced Experience Composer (EEC) geladen werden, wenn Google Chrome Version 80+ verwendet wird
+### Bei Verwendung von Google Chrome ab Version 80 werden Seiten in Visual Experience Composer (VEC) oder Enhanced Experience Composer (EEC) nicht geladen.
 
-Dieses bekannte Problem bezieht sich auf die Entscheidung von Google, das Standardverhalten von Cookies ohne SameSite-Attribut zu ändern, beginnend mit Chrome Version 80. Vor der Änderung in Chrome wurden alle Cookies ohne das Attribut SameSite auf &quot;SameSite=None&quot;und jetzt standardmäßig auf &quot;SameSite=Lax&quot;gesetzt. Dadurch wird die Art und Weise geändert, wie Cookies bei GET- und POST-Anforderungen gesendet werden. Siehe [Gleiche Site-Updates](https://www.chromium.org/updates/same-site).
+Dieses bekannte Problem hat seine Ursache in der Entscheidung von Google, das Standardverhalten von Cookies ohne SameSite-Attribut ab Chrome Version 80 zu ändern. Vor dieser Änderung lautete der Standardwert in Chrome für alle Cookies ohne SameSite-Attribut „SameSite=None“. Ab Version 80 lautet der Standardwert „SameSite=Lax“. Dadurch ändert sich die Übertragungsmethode für Cookies bei GET- und POST-Anforderungen. Weitere Informationen finden Sie unter [SameSite-Updates](https://www.chromium.org/updates/same-site).
 
-Weitere Informationen und eine Fehlerbehebung finden Sie unter &quot;Wie wirken sich die kürzlich angekündigten Google Chrome SameSite-Cookie-Durchsetzungsrichtlinien auf VEC und EEC aus?&quot; in [Fehlerbehebung bei Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+Weitere Informationen sowie eine Lösung zur Fehlerbehebung finden Sie unter [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite) unter der Frage „Wie wirken sich die kürzlich von Google Chrome angekündigten Cookie-Durchsetzungsrichtlinien für SameSite auf VEC und EEC aus?“.
 
 ### Ein Diagrammbericht für eine automatische Targeting-Aktivität kann nicht gerendert werden, wenn ein benutzerdefiniertes Erlebnis als Kontrolle verwendet wird.
 
@@ -231,7 +231,7 @@ Die mbox.js-Bibliothek unterstützt keine clientseitigen Vorlagensprachen wie Ha
 
 ### Implementierung: Globale Mbox automatisch erstellen
 
-Auf der Registerkarte Implementierung ([!UICONTROL Administration > Implementierung]) lautet das Feld [!UICONTROL Globale Mbox Automatische Erstellung] für einen neu bereitgestellten Mieter standardmäßig &quot;false&quot;.
+Bei einem neu bereitgestellten Mandanten ist das Feld [!UICONTROL Globale Mbox automatisch erstellen] auf der Registerkarte „Implementierung“ ([!UICONTROL Administration > Implementierung]) standardmäßig auf „false“ gesetzt.
 
 Beim ersten Herunterladen von mbox.js nach der Bereitstellung ist das Feld [!UICONTROL Globale Mbox automatisch erstellen] in der heruntergeladenen Datei mbox.js und im [!DNL Target]-Backend auf „false“ festgelegt. Es wird jedoch weiterhin als „false“ auf der Seite [!UICONTROL Implementierung] der Benutzeroberfläche angezeigt, bis die Seite aktualisiert wird (nach dem Aktualisieren der Seite lautet der Status „true“).
 
@@ -243,17 +243,17 @@ Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Ange
 
 ### Berichte und extreme Bestellungen
 
-Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Zielgruppe-Server ein Problem auf, bei dem extreme Bestellwerte in umsatzbasierten Berichtsmetriken (AOV, RPV) gezählt wurden. Vom 19. Dezember 2019 bis zum 23. April 2020 trat bei einem anderen Server dasselbe Problem auf. Dieses Problem betraf nicht alle Zielgruppen- oder Zielgruppen-Server.
+Vom 25. November 2019 bis zum 26. April 2020 trat bei einem Target-Server ein Problem auf, das dazu führte, dass in den umsatzbasierten Berichtsmetriken AOV und RPV extreme Bestellwerte gezählt wurden. Vom 19. Dezember 2019 bis zum 23. April 2020 trat dasselbe Problem auch bei einem anderen Server auf. Von diesem Problem waren nicht alle Target-Server und nicht alle Target-Kunden betroffen.
 
-Sie waren nicht betroffen, wenn:**
+Sie waren unter den folgenden Bedingungen *nicht* betroffen:
 
-* Ihre Implementierung der Zielgruppe verwendet verschiedene Server.
-* Extreme Bestellungen wurden in Ihren Berichten nicht ausgeschlossen.
-* Sie haben zur Messung Ihrer Aktivitäten eine Konversionsmetrik verwendet.
-* Ihre Zielgruppe-Aktivitäten verwenden Analytics für die Zielgruppe (A4T).
+* Ihre Target-Implementierung verwendet verschiedene Server.
+* Extreme Bestellungen waren in Ihren Berichten nicht ausgeschlossen.
+* Zum Messen Ihrer Aktivitäten verwendeten Sie eine Konversionsmetrik.
+* Sie nutzen für Ihre Target-Aktivitäten Analytics for Target (A4T).
 * Sie befinden sich in der Region Asien-Pazifik (APAC).
 
-Um festzustellen, ob dieses Problem den Berichte Ihrer Zielgruppe beeinflusst hat, wenden Sie sich an [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+Wenn Sie überprüfen möchten, ob Ihre Target-Berichte von diesem Problem betroffen waren, wenden Sie sich an die [Adobe-Kundenunterstützung](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Recommendations
 
@@ -294,7 +294,7 @@ Mboxes werden in Microsoft Explorer 11-Browsern nicht ausgelöst, nachdem ein U
 
 Mit der Veröffentlichung von API 2.3.0 oder höher behoben.
 
-### Geo   Targeting
+### Geo  Targeting
 
 Die Suche nach Zeichenfolgen, die Sonderzeichen enthalten (wie z. B. Leerzeichen oder Komma), wird bei der Erstellung von Geotargeting-Zielgruppen derzeit nicht unterstützt. Das Problem tritt beispielsweise auf, wenn Sie Zielgruppen basierend auf Städten, Bundesländern, Ländern usw. erstellen. Wenn Sie z. B. „New York“ eingeben, werden keine gültigen Suchergebnisse zurückgegeben.
 
@@ -336,9 +336,9 @@ In den Sicherungsempfehlungen wird fälschlicherweise „Aktiviert“ auf den Ka
 
 Dieses Problem wurde in Version 18.4.1 behoben. Nun wird „Deaktiviert“ angezeigt.
 
-### AT-(Automatisches Targeting)-Aktivitäten und Reporting-Zielgruppen
+### Automatisches Targeting(AT)-Aktivitäten und Reporting-Zielgruppen
 
-Wenn der Name einer in einer AT-(Automatisches Targeting)-Aktivität verwendeten Reporting-Zielgruppe geändert wird, schlagen weitere Updates von Target für diese Aktivität möglicherweise mit einer Fehlermeldung fehl.
+Wenn der Name einer in einer Automatisches Targeting (AT)-Aktivität verwendeten Reporting-Zielgruppe geändert wird, schlagen weitere Updates von Target für diese Aktivität möglicherweise mit einer Fehlermeldung fehl.
 
 Dieses Problem wurde in Target-Version 18.5.1 (22. Mai 2018) behoben.
 
@@ -350,7 +350,7 @@ Dieses Problem wurde in at.js-Version 1.2 behoben.
 
 ### Enterprise-Benutzerberechtigungen für [!DNL Target] Premium
 
-Im Rahmen der Migration von Unternehmensberechtigungen wurde die gesamte Target Premium-Benutzerverwaltung von der Adobe Target-Benutzeroberfläche in die Adobe Admin Console verschoben.
+Im Rahmen der Migration von Enterprise-Berechtigungen wurde die gesamte Target Premium-Benutzerverwaltung von der Adobe Target-Benutzeroberfläche in die Adobe Admin Console verschoben.
 
 Infolge der Migration liegen zwei potenzielle Probleme vor, die Sie beachten sollten:
 
@@ -377,7 +377,7 @@ Dieses Problem wurde am 29. Juni 2017 behoben.
 Die folgenden bekannten Probleme wurden bei der Verwendung von Form-Based Experience Composer gemeldet:
 
 * Wenn Sie den Form-Based Experience Composer mit einer anderen Mbox als der automatisch erstellten globalen Mbox (target-global-mbox) verwenden und dann eine Interaktionsmetrik als Erfolgsmetrik auswählen, dann wird die Metrik nur auf Seiten erhöht, auf denen die Mbox in der Aktivität verwendet wird. Wenn Ihre mbox beispielsweise homepage\_mbox lautet, ist die Metrik „Seiten pro Besuch“ die Anzahl der Treffer für homepage\_mbox während des Besuchs. (TGT-22789)
-* Es wird eine JavaScript-Ausnahme ausgegeben, wenn Sie den Form-Based Experience Composer in Schritt 1 des Prozesses verwenden und ein Erlebnis in einer Experience Targeting (XT)-Aktivität löschen. (TGT-24366)
+* Es wird eine JavaScript-Ausnahme ausgegeben, wenn Sie den Form-Based Experience Composer in Schritt 1 des Prozesses verwenden und ein Erlebnis in einer Experience Targeting(XT)-Aktivität löschen. (TGT-24366)
 
 Das erste Problem wurde in Target-Version 17.3.1 behoben (März 2017).
 
