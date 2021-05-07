@@ -1,5 +1,5 @@
 ---
-keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
+keywords: Welcome Kit; Target Welcome Kit; Intro; Einführung; Erste Schritte
 description: Verwenden Sie die Vorlage "Zusammenfassungsergebnisse", um Ihre Erfolge mit Ihrer Adobe [!DNL Target] Aktivitäten zu kommunizieren.
 title: Wie kann ich die Ergebnisse meiner [!DNL Target] Aktivitäten für meine Organisation freigeben?
 feature: Überblick
@@ -8,16 +8,16 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 0%
+ht-degree: 87%
 
 ---
 
-# Kapitel 8: Aktivitäten kommunizieren
+# Kapitel 8: Kommunikation Ihrer Aktivitätsergebnisse
 
-Wenn Sie eine Aktivität ausführen und erstaunliche Ergebnisse erzielen, müssen Sie diese Ergebnisse mit der Organisation teilen. Vielleicht haben Sie gerade mehr Kunden gekauft, den Umsatz gesteigert, durch die Reduzierung von Call-Center-Anrufen Geld gespart oder den durchschnittlichen Bestellwert erhöht. Zeigen Sie den Interessenträgern, was Sie für das Unternehmen erreichen können, indem Sie [!DNL Target] optimieren und personalisieren.
+Wenn Sie mit einer Aktivität erstaunliche Ergebnisse erzielen, müssen Sie diese Ergebnisse in Ihrer Organisation kommunizieren. Vielleicht ist es Ihnen gelungen, mehr Kunden zu gewinnen oder die Umsätze zu steigern. Vielleicht haben Sie dem Unternehmen auch durch Reduzierung der Callcenter-Anrufe Geld gespart oder den durchschnittlichen Bestellwert erhöht. Zeigen Sie den Verantwortlichen, was Sie durch Optimierung und Personalisierung mit [!DNL Target] für das Unternehmen erreichen können.
 
-Wenn Sie diese Ergebnisse mitteilen, ist es hilfreich, sie so anzugehen, als würden Sie eine Geschichte erzählen. Machen Sie es interessant und erklären Sie klar, was es getestet oder personalisiert wurde und warum und was die Ergebnisse waren. Verwenden Sie die Sprache und Terminologie, die von denjenigen verstanden werden, die die Ergebnisse überprüfen.
+Ihre Ergebnisse verpacken Sie am besten in einer kleinen Geschichte. Ihr Bericht sollte interessant klingen, und es sollte klar herausgestellt werden, was aus welchem Grund getestet oder personalisiert wurde und welche Ergebnisse erreicht wurden. Passen Sie sich in Sprache und Fachbegriffen denjenigen an, die den Bericht lesen, um sicherzustellen, dass er verstanden wird.
 
-Wir haben eine [Executive Summary Results-Vorlage](/help/assets/executive-summary.zip) in Microsoft PowerPoint aufgenommen. Richten Sie sie mit dem Farbschema und Logo Ihres Unternehmens neu ein und präsentieren Sie die Ergebnisse Ihrer ersten Test- oder Personalisierungsstudie. Wie der Aktivität-Planer ist er im Begrüßungs-Kit als Standalone-Datei enthalten, aber wir haben hier auch ein Bild davon hinzugefügt, zusammen mit einem Beispiel für die Art der Informationen, die in jedem Bereich der Vorlage enthalten sein sollen.
+Zu diesem Zweck haben wir Ihnen die Microsoft PowerPoint-Vorlage [Executive Summary Results](/help/assets/executive-summary.zip) vorbereitet. Versehen Sie die Vorlage mit den Farben und dem Logo Ihrer Organisation und präsentieren Sie mit ihr die Ergebnisse Ihrer ersten Test- oder Personalisierungsaktivität. Wie schon der Aktivitätsplaner ist auch die Vorlage als eigenständige Datei im Welcome Kit enthalten. Wir möchten sie Ihnen an dieser Stelle aber auch abbilden – zusammen mit einem Beispiel der Informationen, die in den einzelnen Vorlagenbereichen enthalten sein sollten.
 
-![Zusammenfassender Bericht](/help/c-intro/assets/executive-summary-report.png)
+![Executive Summary-Bericht](/help/c-intro/assets/executive-summary-report.png)
