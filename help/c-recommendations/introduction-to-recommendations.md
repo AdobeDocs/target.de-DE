@@ -1,5 +1,5 @@
 ---
-keywords: Recommendations;Intro;Einführung;Webinar;Demo
+keywords: Recommendations; Intro; Einführung; Webinar; Demo
 description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe [!DNL Target] die automatisch Inhalte anzeigen, die ausgehend von der bisherigen Aktivität oder anderen Algorithmen für Ihre Kunden von Interesse sein könnten.
 title: Was sind Recommendations-Aktivitäten?
 feature: Recommendations
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2115'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -41,9 +41,9 @@ Marketingexperten verwenden [!DNL Adobe Target], um personalisierte Erlebnisse f
 * **Gaming**: Gaming-Unternehmen verwenden [!DNL Target], um Benutzern auf ihren Konsolen Spiele und Inhalte zu empfehlen.
 * **B2B-Verkäufe**: [B2B-Unternehmen verwenden Target, um B2B-Pospects Videos, White Papers und Blog-Posts zu empfehlen, Downloads bereitzustellen und Bestandskunden Hilfe anzubieten](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
-* **Fahrt**:  [Ein deutscher Reiseveranstalter verwendet Zielgruppe, um Hotels und mehr Reisenden](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608) zu empfehlen.
+* **Reisen**: [Ein deutscher Reiseunternehmer verwendet Target, um Reisenden Hotels und Ähnliches zu empfehlen](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
-* **Einzelhandel**: [Ein führender BB-Händler verwendet Target, um wiederkehrenden Besuchern im Browser und in seiner mobilen App die besten Kategorien und Produkte zu empfehlen](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2.
+* **Einzelhandel**: [Ein führender B2B-Händler verwendet Target, um wiederkehrenden Besuchern im Browser und in seiner mobilen App die besten Kategorien und Produkte zu empfehlen](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
 
 Dies sind nur einige der Arten, wie Kunden Target verwenden, um personalisierte Empfehlungen bereitzustellen.
 
@@ -129,7 +129,7 @@ Eine [!DNL Recommendations]-Aktivität besteht aus folgenden Komponenten:
 
 ![Abbildung einer Recommendations-Aktivität: Zielgruppen, Kriterien und Designs](/help/c-recommendations/assets/intro-12.png)
 
-Standardmäßig enthält [!DNL Target] 14 integrierte Zielgruppen, 42 integrierte Kriterien und 10 integrierte Designvorlagen. Sie können jedes dieser Elemente anpassen oder eigene hinzufügen. Es gab bereits ältere [Webinare zum Erstellen von Audiencen](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. In diesem Abschnitt wird beschrieben, wie die Kriterien definiert werden, aufgrund derer Artikel empfohlen werden.
+Standardmäßig enthält [!DNL Target] 14 integrierte Zielgruppen, 42 integrierte Kriterien und 10 integrierte Designvorlagen. Sie können jedes dieser Elemente anpassen oder eigene hinzufügen. Es gibt auch frühere [Webinare zum Erstellen von Zielgruppen](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. In diesem Abschnitt wird beschrieben, wie die Kriterien definiert werden, aufgrund derer Artikel empfohlen werden.
 
 Target verwendet das Konzept einer Kriterienkarte. Eine Kriterienkarte ist wie ein Rezept für die Personalisierung.
 
