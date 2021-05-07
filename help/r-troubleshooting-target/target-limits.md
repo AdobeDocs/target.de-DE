@@ -1,21 +1,21 @@
 ---
-keywords: Zeichenbeschränkung;mbox-Parameter;Batch-Versand-API;Profil-Parameter;Grenzwerte;Integrierte Profil;Maximal;Beschränkung;Zeichen;Best Practice;Orderid;orderTotal;mbox3rdPartyID;Kategorie;categoryID;Fehlerbehebung
-description: Ansicht einer Liste von Zeichenbeschränkungen und anderen Einschränkungen (Angebot-Größe, Audiencen, Profil, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
-title: Welches sind die verschiedenen Zeichen-, Größen- und sonstigen Beschränkungen in Adobe Target?
-feature: 'Fehlerbehebung '
+keywords: Zeichenbeschränkung; Mbox-Parameter; Batch-Bereitstellungs-API; Profilparameter; Beschränkungen; integrierte Profile; Maximum; Beschränkung; Bedingung; Zeichen; Best Practice; orderid; orderTotal; mbox3rdPartyID; Kategorie; categoryID; Fehlerbehebung
+description: In diesem Abschnitt finden Sie eine Liste der Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
+title: Zeichen-, Größen- und andere Beschränkungen in Adobe Target
+feature: Fehlerbehebung
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 59%
+ht-degree: 92%
 
 ---
 
 # Beschränkungen
 
-Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, Werte, Parameter usw.) die Aktivitäten und andere Elemente in [!DNL Adobe Target] betreffen.
+Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.) die Aktivitäten und andere Elemente in [!DNL Adobe Target] betreffen.
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 >
 >Wenn die als „empfohlen“ gekennzeichneten Limits erreicht oder überschritten werden, kann sich die Leistung verlangsamen. Langsame Ladezeiten der Oberfläche können ebenfalls durch eine sehr komplexe Aktivität bedingt sein, die viele Zielgruppen, Ziele und Erlebnisse enthält.
 >
->Hochkomplexe Aktivitäten sollten mit [!DNL Adobe] Consulting überprüft und in einer begrenzten Umgebung getestet werden, bevor sie zur Produktion freigegeben werden.
+>Hochkomplexe Aktivitäten sollten mit [!DNL Adobe] Consulting geprüft und in einer eingeschränkten Umgebung getestet werden, bevor sie zur Produktion freigegeben werden.
 
 ## Aktivitäten
 
@@ -35,7 +35,7 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 
 * **Empfohlenes Limit**: 10.000 aktive Live-Aktivitäten.
 
-* **Empfohlene Beschränkung**: 10.000 aktive gespeicherte (und nicht beendete) Aktivitäten.
+* **Empfohlenes Limit**: 10.000 aktive gespeicherte (und noch nicht beendete) Aktivitäten.
 
 ## Zielgruppen
 
@@ -43,11 +43,11 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 
 * **Limit**: 255 Zeichen.
 
-### Audiencen, pro Konto wiederverwendbar
+### Zielgruppen pro Konto, wiederverwendbar
 
-* **Empfohlenes Limit**: 20,000 Zielgruppen.
+* **Empfohlenes Limit**: 20.000 Zielgruppen.
 
-### Anzahl der Audiencen pro Mbox, Metrik oder Erlebnis
+### Anzahl der Zielgruppen pro Mbox, Metrik oder Erlebnis
 
 * **Limit**: 50 Zielgruppen
 
@@ -59,23 +59,23 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 
 ### Kundenattributnamen
 
-* **Maximal**: 250 Zeichen über Feed oder API.
+* **Limit**: 250 Zeichen über Feed oder API.
 
 ### Kundenattribut-Alias-ID
 
 * **Limit**: 50 Zeichen.
 
-### Kundenattribute, hochladen
+### Kundenattribute, Upload
 
-* **Maximale Dateigröße für jeden Upload mit der HTTP-Methode**: 100 MB.
-* **maximale Dateigröße für jeden Upload mit der FTP-Methode**: 4 GB
-* **Anzahl der Attribute, die abonniert** werden dürfen: 5 für  [!DNL Target Standard] und 200 für  [!DNL Target Premium].
+* **Maximale Dateigröße pro Upload über HTTP**: 100 MB.
+* **Maximale Dateigröße pro Upload über FTP**: 4 GB.
+* **Anzahl der zum Abonnieren zulässigen Attribute**: 5 für [!DNL Target Standard] und 200 für [!DNL Target Premium].
 
 ## Entitäten
 
 ### Anzahl der Entitäten
 
-* Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hardcodiert oder in Schleife, beträgt 99.
+* Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hart codiert oder in Schleife, beträgt 99.
 * Das empfohlene Limit für die beste Performance besteht darin, den Katalog weniger als eine Million Artikel pro Umgebung und weniger als zehn Millionen Artikel in allen Umgebung zu speichern.
 * Die Höchstgrenze beträgt zehn Millionen Artikel pro Umgebung und 100 Millionen Artikel für alle Umgebung. Wenn Sie zwischen einer Million und zehn Millionen Elemente pro Umgebung haben, wird die Leistung der [!UICONTROL Katalogsuche]-Benutzeroberfläche beeinträchtigt. [!DNL Target Recommendations]gibt jedoch weiterhin Empfehlungen heraus und gibt diese weiter ab.
 
@@ -88,7 +88,7 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
    * 15.000 Zeichen (Einzelwert, Ein- und Zwei-Byte-Sprachen)
    * 500 Werte, 100 Zeichen pro Wert (mehrere Werte)
 
-   Die maximale Länge von benutzerdefinierten Attributen für Einzelwert-Entitäten beträgt 15.000 Zeichen (für 1- und 2-Byte-UTF-8-kodierte Sprachen wie Englisch und andere Sprachen mit lateinischen Skriptbuchstaben) oder 10.000 Zeichen (für 3-Byte-UTF-8-kodierte Sprachen wie Chinesisch, Japanisch und Koreanisch).
+   Die maximale Länge von benutzerdefinierten Attributen für Einzelwert-Entitäten beträgt 15.000 Zeichen (für 1- und 2-Byte-UTF-8-codierte Sprachen wie Englisch und andere Sprachen mit lateinischen Skriptbuchstaben) oder 10.000 Zeichen (für 3-Byte-UTF-8-codierte Sprachen wie Chinesisch, Japanisch und Koreanisch).
 
    Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte enthalten. Jeder einzelne Wert ist auf 100 Zeichen begrenzt. Die Gesamtanzahl der Zeichen für alle Werte muss den Beschränkungen für die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten entsprechen (siehe oben).
 
@@ -100,7 +100,7 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 
 * **Limit**: 5 KB für POST-Anforderungen. 2.083 Zeichen minus der Länge der URL für GET-Anforderungen.
 
-   Bei GET-Anforderungen beträgt der Grenzwert für das Back-End zwar 5 KB, aufgrund der Tatsache, dass Microsoft Internet Explorer die URL auf 2.083 Zeichen begrenzt, beträgt der tatsächliche Grenzwert 2.083 Zeichen minus der aktuellen Länge der URL.
+   Bei GET-Anforderungen beträgt der Grenzwert für das Backend zwar 5 KB, aufgrund der Tatsache, dass Microsoft Internet Explorer die URL auf 2.083 Zeichen begrenzt, beträgt der tatsächliche Grenzwert 2.083 Zeichen minus der aktuellen Länge der URL.
 
 ## Erlebnisse
 
@@ -112,7 +112,7 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 
 * **Limit**: 2.000 Erlebnisse pro Erlebnis-Targeting (XT), A/B-Test, Multivarianz-Test (MVT) und automatischem Targeting.
 
-   30.000 Erlebnisse pro automatisierter Personalisierung (AP).
+   30.000 Erlebnisse pro Automated Personalization (AP).
 
 ## Mboxes
 
@@ -126,7 +126,7 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 
 * **Limit**: 128 Zeichen.
 
-### mbox-Namen
+### Mbox-Namen
 
 * **Limit**: 250 Zeichen.
 
@@ -137,40 +137,40 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
    Für Standard-Mbox-Aufrufe:
 
    * Mbox-Parameter: 500 Parameter pro Mbox.
-   * Profil-Parameter: 500 Parameter Profil-Parameter pro mbox.
+   * Profilparameter: 500 Profilparameter pro Mbox.
    * Andere Parameter (URL, verweisende URL usw.): 50 Parameter pro Mbox für jeden Parametertyp.
 
    Diese Beschränkungen gelten, sofern die Anfrage nicht durch Webbrowser-Beschränkungen gekürzt wird.
 
-   Wenn Sie die Batch Versand API verwenden, beträgt die Beschränkung 50 Mboxes pro Batch-Anforderung.
+   Bei Verwendung der Batch-Bereitstellungs-API beträgt die Beschränkung 50 Mboxes pro Batch-Anforderung.
 
-   Wenn Sie die [Batch-Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-batch-delivery) im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Wenn eine Anforderung mehr als diese Beschränkungen enthält, gibt die API die folgende Fehlermeldung zurück:
+   Wenn Sie die [Batch-Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-batch-delivery) im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Bei einer Überschreitung dieser Beschränkungen gibt die API die folgende Fehlermeldung zurück:
 
-   &quot;Die Anzahl der mboxParameters darf 50 nicht überschreiten.&quot;
+   „Die Anzahl der Mbox-Parameter darf 50 nicht überschreiten.“
 
-   Für Endpunkte festgelegte Grenzwerte:
+   Für Endpunkte festgelegte Beschränkungen:
 
-   **Stapel-Mbox v2**:
+   **Batch mbox v2**:
 
-   * mbox-Parameter 100
-   * Mbox-Parametername max. Länge 128
-   * mbox-Parameterwert darf nicht null sein
-   * mbox-Parameterwert 5000
-   * Profil-Parameter 50
-   * Profil-Parametername max. Länge 128
-   * Profil-Parameterwert darf nicht null sein
-   * Profil-Parameterwert max. Länge 256
+   * Mbox-Parameter: 100
+   * Maximale Länge des Mbox-Parameternamens: 128
+   * Der Mbox-Parameterwert darf nicht null sein.
+   * Mbox-Parameterwert: 5000
+   * Profilparameter: 50
+   * Maximale Länge des Profilparameternamens: 128
+   * Der Profilparameterwert darf nicht null sein.
+   * Maximale Länge des Profilparameterwerts: 256
 
-   **Versand-API-Endpunkt**:
+   **Bereitstellungs-API – Endpunkt**:
 
-   * mbox-Parameter 50
-   * Mbox-Parametername max. Länge 128
-   * mbox-Parameterwert darf nicht null sein
-   * mbox-Parameterwert 5000
-   * Profil-Parameter 50
-   * Profil-Parametername max. Länge 128
-   * Profil-Parameterwert darf nicht null sein
-   * Profil-Parameterwert max. Länge 256
+   * Mbox-Parameter: 50
+   * Maximale Länge des Mbox-Parameternamens: 128
+   * Der Mbox-Parameterwert darf nicht null sein.
+   * Mbox-Parameterwert: 5000
+   * Profilparameter: 50
+   * Maximale Länge des Profilparameternamens: 128
+   * Der Profilparameterwert darf nicht null sein.
+   * Maximale Länge des Profilparameterwerts: 256
 
 
 
@@ -190,7 +190,7 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 
 * **Limit**: 250 Zeichen.
 
-### Anzahl Angebot
+### Anzahl der Angebote
 
 * **Empfohlenes Limit**: Insgesamt 50.000 Angebote.
 
@@ -199,7 +199,7 @@ Zeichenbeschränkungen und andere Einschränkungen (Angebot, Audiencen, Profil, 
 Die folgenden Größenbeschränkungen gelten für Angebote:
 
 * 1024 KB für HTML-Angebote.
-* 1024 KB (für jedes Erlebnis) für visuelle Angebot der Benutzeroberfläche.
+* 1024 KB (pro Erlebnis) für visuelle Angebote der Benutzeroberfläche.
 * 1024 KB aus der API.
 
    Bei der Verwendung einer globalen Mbox gilt die Beschränkung für den kompletten Satz an zurückgegebenen Inhalten für die Seite. Die Beschränkung der Angebotsseite optimiert die Seitenladezeit. Wenn der Grenzwert überschritten wird, wird folgende Meldung angezeigt:
@@ -216,15 +216,15 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 ## productPurchasedId-Parameter
 
-* **Maximal**: 47 Zeichen pro kommagetrennten Wert und 250 Zeichen insgesamt. Einzelwerte, die länger als 47 Zeichen sind, können vom System abgeschnitten werden. Gesamtlängen über 250 Zeichen können zu einem Fehler von 400 führen.
+* **Limit**: 47 Zeichen pro kommagetrenntem Wert, 250 Zeichen insgesamt. Einzelwerte mit einer Länge von mehr als 47 Zeichen können vom System abgeschnitten werden. Gesamtlängen über 250 Zeichen können zu Fehler 400 führen.
 
 ## Profilskripte
 
 * **Empfohlene Beschränkung aktiver Profil-Skripte (die aktiviert sind)**: 300
 
-* **Empfohlene Obergrenze für Profil-Skripten pro Konto**: 2.000
+* **Empfohlenes Limit für alle Profilskripte eines Kontos**: 2.000
 
-* **Recommendations zur Beschränkung der Komplexität** von Profil-Skripten: Profil-Skripten können eine begrenzte Anzahl von Anweisungen ausführen. Weitere Informationen finden Sie unter [Bewährte Verfahren](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profil-Attribute*.
+* **Empfehlungen zur Reduzierung der Komplexität von Profilskripten**: Die Anzahl der durch Profilskripte ausführbaren Anweisungen ist begrenzt. Weitere Informationen finden Sie unter [Best Practices](/help/c-target/c-visitor-profile/profile-parameters.md#best) im Abschnitt *Profilattribute*.
 
 ## Properties
 
@@ -240,13 +240,13 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
    Abhängig von der Größe der verschlüsselten Zeichenfolge, die viel länger als die Rohzeichenfolge sein kann. Wenn die Zeichenfolge zu groß ist, tritt ein Fehler auf, bevor die Zeichenfolge an Adobe Target weitergeleitet wird.
 
-## Skript-Profile
+## Skriptprofile
 
-### Skript-Profilnamen
+### Skriptprofilnamen
 
 * **Limit**: 50 Zeichen.
 
-### Skript-Profilwerte
+### Skriptprofilwerte
 
 * **Limit**: 2.048 Zeichen.
 
@@ -270,6 +270,6 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 ### Targeting-Regeln
 
-* **Empfohlene Beschränkung**: 2.500 Zeichen pro Targeting-Regelwert.
+* **Empfohlenes Limit**: 2.500 Zeichen pro Targeting-Regelwert.
 * **Empfohlenes Limit**: 30.000 einmalige Werte pro Zielgruppe in Targeting-Regeln.
 * **Empfohlenes Limit**: 100.000 einmalige Werte für Targeting-Regeln pro Aktivität.
