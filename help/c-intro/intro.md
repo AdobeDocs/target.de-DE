@@ -1,55 +1,55 @@
 ---
-keywords: Target Standard;Recommendations;Zielgruppe Premium;Automated Personalization;Auto-Zielgruppe;Auto-Zielgruppe;Berechtigungen;Was ist Adobe-Zielgruppe?
+keywords: Target Standard; Recommendations; Target Premium; Automated Personalization; automatisches Targeting; Berechtigungen; Was ist Adobe Target?
 description: Lernen Sie die Grundlagen der Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium enthält erweiterte Funktionen, die nicht im Standardprodukt verfügbar sind.
 landing-page-description: Personalisieren Sie die Erlebnisse Ihrer Kunden, um den Umsatz Ihrer Websites und Mobile Sites sowie Apps, Social Media und anderer digitaler Kanäle zu maximieren.
-title: Was ist Zielgruppe?
+title: Was ist Target?
 feature: Überblick
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 41%
+ht-degree: 97%
 
 ---
 
 # Einführung in Target
 
-[!DNL Adobe Target] ist die  [!DNL Adobe Experience Cloud] Lösung, die alles bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren. [!DNL Target] hilft Ihnen, den Umsatz Ihrer Websites, mobilen Sites, Apps, sozialen Medien und anderer digitaler Kanal zu maximieren.
+[!DNL Adobe Target] ist die Lösung von [!DNL Adobe Experience Cloud], die Ihnen alle Tools bereitstellt, die Sie zur Anpassung und Personalisierung Ihrer Kundenerlebnisse benötigen. [!DNL Target] hilft Ihnen durch Personalisierung, den durch Ihre Websites, mobilen Sites, Apps, sozialen Medien und andere digitale Kanäle generierten Umsatz zu maximieren.
 
-Die [!DNL Adobe Target]-Lösung kann als [!DNL Target Standard] oder [!DNL Target Premium] lizenziert werden.
+[!DNL Adobe Target] kann als [!DNL Target Standard]- oder [!DNL Target Premium]-Version lizenziert werden.
 
 ## Target Standard   {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] ist das Frontend, mit  [!DNL Adobe Target] dem Sie visuell A/B-Tests und regelbasierte Targeting-Aktivitäten erstellen und verwalten können. [!DNL Target Standard] unterstützt das Einfügen von benutzerdefiniertem Code sowohl im als auch außerhalb des  [!UICONTROL Visual Experience Composer] -Arbeitsablaufs. [!DNL Target Standard] Angebot einer vereinfachten Implementierungsstrategie für Ihre digitalen Eigenschaften. Eine einzelne Codezeile auf jeder Seite verwaltet die gesamte zwischen Ihrer Site und  [!DNL Target]Ihrer Site erforderliche Kommunikation.
+[!DNL Target Standard] ist das Frontend zu [!DNL Adobe Target], in dem Sie A/B-Tests und regelbasierte Targeting-Aktivitäten visuell erstellen und verwalten können. [!DNL Target Standard] unterstützt das Einfügen von benutzerdefiniertem Code sowohl im als auch außerhalb des Workflows von [!UICONTROL Visual Experience Composer] (VEC). [!DNL Target Standard] bietet eine vereinfachte Implementierungsstrategie für Ihre digitalen Eigenschaften. Eine einzige Codezeile auf jeder Seite verwaltet die gesamte Kommunikation zwischen Ihrer Site und [!DNL Target].
 
-Die Best Practices der Branche sind in [!DNL Target Standard] integriert. [!DNL Target Standard] ist sowohl für neue als auch erfahrene Benutzer konzipiert. Sie können Daten und Ergebnisse freigeben und sie gemeinsam mit anderen Team-Mitgliedern bearbeiten, die [!DNL Adobe Experience Cloud] verwenden.
+In [!DNL Target Standard] sind die Best Practices der Branche integriert. [!DNL Target Standard] ist sowohl für neue als auch erfahrene Benutzer geeignet. Sie können Daten und Ergebnisse freigeben und sie gemeinsam mit anderen Team-Mitgliedern bearbeiten, die [!DNL Adobe Experience Cloud] verwenden.
 
 ## Target Premium {#premium}
 
-[!DNL Target Premium] ist ein erweitertes  [!DNL Target] Angebot, das eine Lizenz erfordert, um Premium-Funktionen hinzuzufügen  [!DNL Target Standard].
+[!DNL Target Premium] ist ein erweitertes [!DNL Target]-Angebot, das [!DNL Target Standard] gegen eine Lizenz zusätzliche Premium-Funktionen hinzufügt.
 
-Alle [!DNL Target Premium]-Artikel in diesem Handbuch enthalten das Premium-Zeichen oben auf jeder Seite:
+Alle Themen bzw. Seiten in diesem Handbuch, die [!DNL Target Premium] betreffen, sind mit dem Premium-Badge versehen:
 
 ![Premium-Zeichen](/help/assets/premium.png)
 
-Target verfügt über folgende Premium-Funktionen:
+Target Premium verfügt über folgende Funktionen:
 
-### Automatisierte Personalisierung
+### Automated Personalization
 
-[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)  (AP) bietet erweiterte Algorithmen für maschinelles Lernen, um personalisierte Erlebnisse und verbesserte Konversionsraten für digitale Erlebnisse zu fördern.
+[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) bietet erweiterte Machine-Learning-Algorithmen zur Optimierung personalisierter Erlebnisse und Maximierung deren Konversionsraten.
 
-[!UICONTROL Die automatisierte ] Personalisierung erfasst die Aktivität von Besuchern auf der Site, indem ein Profil von Besuchern erstellt wird, damit der Inhalt auf ähnliche Besucher ausgerichtet werden kann. AP verfolgt Antworten auf Inhalte, sowohl für Einzelpersonen als auch für die gesamte Bevölkerung. AP verwendet dann ausgefeilte Modellansätze zur automatischen Zielgruppe jedes Individuums. AP berücksichtigt alles, was über jeden Besucher bekannt ist.
+[!UICONTROL Automated Personalization] zeichnet Besucheraktivitäten auf der Site auf und erstellt dabei Besucherprofile, mit deren Hilfe Inhalte zielgerichtet ähnlichen Besuchern bereitgestellt werden können. AP verfolgt die Reaktionen auf Inhalte – und zwar sowohl diejenigen von Einzelpersonen als auch diejenigen der Besucher insgesamt. Mit ausgefeilten Modellansätzen richtet AP die Personalisierung dann für jeden einzelnen Besucher zielgerichtet aus. AP berücksichtigt alles, was über den einzelnen Besucher bekannt ist.
 
-[!UICONTROL Die automatisierte ] Personalisierung lernt von selbst und erfordert eine minimale Analyse von Menschen. Voll automatisiert lernt AP kontinuierlich. Das System erstellt Modelle und lernt automatisch, welche Produkte ein einzelner Besucher am ehesten interessiert. Jedes Mal, wenn ein Besucher mit der Site interagiert, werden Informationen im Profil dieses Besuchers gesammelt und gespeichert. Es stehen mehrere Algorithmen zur Verfügung, um das für Ihr System am besten geeignete Modell bereitzustellen.
+[!UICONTROL Automated Personalization] ist selbstlernend und erfordert nahezu keine manuellen Analyseschritte. Vollständig automatisiert erweitert das Programm seine Kenntnisse laufend. Das System erstellt Modelle und lernt automatisch, welche Produkte den jeweiligen Besucher interessieren könnten. Bei jeder Interaktion eines Besuchers mit der Site werden Informationen erfasst und im Profil des Besuchers gespeichert. Es stehen mehrere Algorithmen zur Verfügung, um das für Ihr System am besten geeignete Modell bereitzustellen.
 
 ### Automatisches Targeting
 
-[Auto-](/help/c-activities/auto-target/auto-target-to-optimize.md) Targeting verwendet fortschrittliches maschinelles Lernen, um mehrere leistungsstarke, von Marketingexperten definierte Erlebnisse zu identifizieren. [!UICONTROL Auto-] Targeting bietet dann jedem Besucher das maßgeschneiderte Erlebnis. Versand basiert auf individuellen Profilen und dem Verhalten früherer Besucher mit ähnlichen Profilen. [!UICONTROL Auto-] Targeting erleichtert die Personalisierung von Inhalten und fördert die Konvertierung.
+[Automatisches Targeting](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) nutzt fortschrittliche Machine-Learning-Algorithmen zur Identifizierung eines maßgeschneiderten Erlebnisses aus mehreren leistungsstarken, von Marketingexperten definierten Erlebnissen. Daraus stellt [!UICONTROL automatisches Targeting] jedem Besucher das passendste Erlebnis bereit. Die Bereitstellung eines Erlebnisses basiert auf den Profilen der jeweiligen Kunden sowie dem Verhalten früherer Besucher mit ähnlichen Profilen. [!UICONTROL Automatisches Targeting] hilft Ihnen bei der Personalisierung Ihrer Inhalte und steigert dadurch Ihre Konversionen.
 
 ### Recommendations
 
-[Recommendations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten für Ihre Kunden interessant sein könnten. [!UICONTROL Recommendations helfen, Kunden zu relevanten Elementen zu führen, von denen sie andernfalls möglicherweise nichts gewusst hätten.]
+[Recommendations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten für Ihre Kunden interessant sein könnten. [!UICONTROL Recommendations] helfen, Kunden zu relevanten Elementen zu führen, von denen sie andernfalls möglicherweise nichts gewusst hätten.
 
 Eine Empfehlung bestimmt, wie ein Produkt einem Kunden je nach dessen Aktivitäten auf der Site vorgeschlagen werden soll. Beispiel:
 
@@ -65,26 +65,26 @@ Eine Empfehlung bestimmt, wie ein Produkt einem Kunden je nach dessen Aktivität
 
    Zeigen Sie mithilfe des „Personen, die diesen Artikel angesehen haben, kauften auch“-Kriteriums andere Produkte, die von Personen gekauft wurden, nachdem sie ein Produkt angesehen haben, ohne dabei das erste Produkt in den Empfehlungen anzuzeigen.
 
-### Empfehlungen als Angebot
+### Recommendations als Angebot
 
-[Als ](/help/c-recommendations/recommendations-as-an-offer.md) Angebot von Recommendations können Sie Empfehlungen in den Aktivitäten  [!UICONTROL A/B-Test],  [!UICONTROL Automatisierte Zuordnung],  [!UICONTROL automatische Zielgruppe] und  [!UICONTROL Erlebnis-Targeting] (XT) einschließen.
+[Recommendations als Angebot](/help/c-recommendations/recommendations-as-an-offer.md) ermöglicht Ihnen die Integration von Recommendations in die Aktivitäten von [!UICONTROL A/B-Tests], [!UICONTROL automatischer Zuordnung], [!UICONTROL automatischem Targeting] und [!UICONTROL Erlebnis-Targeting] (XT).
 
 Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 
 * Testen und Targeting von Empfehlungen und Inhalt ohne Recommendations innerhalb derselben Aktivität.
 * Experimentieren Sie einfach mit Empfehlungen auf der Seite, einschließlich der Reihenfolge mehrerer Empfehlungen.
 * Traffic automatisch an die leistungsfähigsten Empfehlungserlebnisse mit [!UICONTROL Automatisierte Zuordnung] leiten.
-* Dynamische Zuweisung von Besuchern zu maßgeschneiderten Recommendations-Erlebnissen auf Basis einzelner Profil mithilfe von [!UICONTROL Auto-Zielgruppe].
+* Dynamische Zuweisung von Besuchern zu benutzerspezifischen Recommendations-Erlebnissen basierend auf deren individuellen Profilen mithilfe von [!UICONTROL automatischem Targeting].
 
-### Berechtigungen für Unternehmensbenutzer
+### Enterprise-Benutzerberechtigungen
 
-[Mit der ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Funktion &quot;Berechtigungen für Enterprise-Benutzer&quot;können Sie verschiedene Profile erstellen (in der als &quot;Produkt&quot;bezeichnet  [!DNL Adobe Admin Console for Enterprise]). [!UICONTROL Mit ] Berechtigungen für Enterprise-Benutzer können Sie einem einzelnen Benutzer unterschiedliche Berechtigungen zuweisen, die dessen Zugriffsrechte für jedes Projekt vorschreiben. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in [!DNL Adobe Analytics]. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Dadurch können Kunden die Ansicht einschränken, die Bearbeitung, Genehmigung und den Veröffentlichungszugriff auf ihre Benutzer beschränken. Sie können Benutzer nach Region, Umgebung (dev/stage/prod), Kanal oder anderen benutzerspezifischen Kriterien einschränken.
+Mit [Enterprise-Benutzerberechtigungen](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) können Sie verschiedene Profile erstellen (in der [!DNL Adobe Admin Console for Enterprise] als „Produktprofile“ bezeichnet). Mit [!UICONTROL Enterprise-Benutzerberechtigungen] können Sie demselben Benutzer auch verschiedene Berechtigungen für einzelne Projekte zuweisen, die dessen Zugriffsrechte im jeweiligen Projekt festlegen. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in [!DNL Adobe Analytics]. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Damit können Kunden die Anzeige-, Bearbeitungs-, Genehmigungs- und Veröffentlichungsrechte ihrer Benutzer einschränken. Sie können Benutzer auch nach Region, Umgebung (dev/stage/prod), Kanal oder anderen benutzerspezifischen Kriterien einschränken.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] ist ein älteres Produkt und nicht mehr für neue Kunden lizenziert. Um das beste [!DNL Recommendations]-Erlebnis zu erhalten, aktualisieren Sie auf [!DNL Recommendations]-Aktivitäten, die unter [!DNL Adobe Target Premium] verfügbar sind (siehe oben).
+>[!DNL Recommendations Classic] ist ein älteres Produkt, das nicht mehr für neue Kunden lizenziert wird. Zur Optimierung Ihrer [!DNL Recommendations]-Ergebnisse empfehlen wir Ihnen ein Upgrade auf die oben beschriebenen, in [!DNL Adobe Target Premium] enthaltenen [!DNL Recommendations]-Aktivitäten.
 
 [!DNL Recommendations Classic] zeigt automatisch Produkte oder Inhalte an, die ausgehend von der bisherigen Benutzeraktivität auf Ihrer Site für die betreffenden Kunden von Interesse sein könnten. Empfehlungen lenken Kunden zu Artikeln, von denen sie womöglich noch nichts wissen. Dies führt zu mehr Umsatz auf Ihrer Site.
 
@@ -92,13 +92,13 @@ Weitere Informationen finden Sie in der [Dokumentation zu Recommendations Classi
 
 ## Experience League: Die Adobe [!DNL Target] Begrüßungs-Kit {#kit}
 
-Erstellen Sie mit diesem Begrüßungs-Kit Ihr Optimierungs- und Personalisierungs-Programm auf [!DNL Adobe Target]. Das Begrüßungs-Kit enthält wichtige Informationen, Tools und Ressourcen, die Ihnen bei der Vorbereitung und beim Start Ihrer ersten [!DNL Target]-Aktivität helfen. Das Kit enthält Ideen für kurzfristige QuickWins und langfristige Optimierungsstrategien.
+Dieses Welcome Kit erleichtert Ihnen die Erstellung Ihres Optimierungs- und Personalisierungsprogramms in [!DNL Adobe Target]. In diesem Welcome Kit sind die wichtigsten Informationen, Tools und Ressourcen zusammengestellt. Damit haben Sie Ihre erste [!DNL Target]-Aktivität im Handumdrehen vorbereitet und gestartet. Das Kit enthält Ideen für kurzfristige schnelle Erfolge, aber auch für langfristige Optimierungsstrategien.
 
-[Das Adobe Target-Begrüßungs-Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Das Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Schulungsvideo: Aktivitäten (9:03) ![Übersichtskennzeichen](/help/assets/overview.png)
+## Schulungsvideo: Aktivitätstypen (9:03) ![Übersichts-Badge](/help/assets/overview.png)
 
-In dem folgenden Video werden die unter [!DNL Target Standard/Premium] verfügbaren Aktivitäten und der geleitete Arbeitsablauf [!DNL Target] erläutert, der Ihnen bei der Erreichung Ihrer Site-Ziele helfen kann.
+Im folgenden Video wird erklärt, welche Aktivitätstypen in [!DNL Target Standard/Premium] verfügbar sind und wie der angeleitete dreistufige Workflow von [!DNL Target] dazu beiträgt, dass Sie Ihre Ziele für Ihre Site erreichen.
 
 * Beschreiben der Aktivitätstypen in [!DNL Adobe Target]
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
