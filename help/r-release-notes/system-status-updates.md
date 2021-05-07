@@ -2,13 +2,13 @@
 keywords: Systemaktualisierung; Fehlerbehebung; Wartung; Systemstatus; Aktualisierungsstatus
 description: Ansicht des aktuellen Status der Adobe [!DNL Target] um festzustellen, ob Probleme auf Systemaktualisierungen oder Routinewartung zurückzuführen sind.
 title: Wo kann ich den Status von  [!DNL Target] und anderen Adoben-Produkten Ansicht geben?
-feature: ' Versionshinweise '
+feature: Versionshinweise
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -40,7 +40,7 @@ Unten auf der Seite finden Sie einen Kalender der letzten sieben Tage, der alle 
 
 ## Proaktive Benachrichtigungen
 
-Proaktive Benachrichtigungen sind E-Mail-Warnungen, die an registrierte Kunden gesendet werden, um die folgenden Ereignisse im Kundenprofil des Kunden zu öffnen, einschließlich [!DNL Target]:
+Proaktive Benachrichtigungen sind E-Mail-Warnhinweise, die an registrierte Kunden gesendet werden, um die folgenden Ereignisse im Kundenprofil des Kunden zu öffnen, einschließlich [!DNL Target]:
 
 * Warnhinweise auf Lösungsebene (keine Isolierung bestimmter Dienste in der Lösung)
 * CSOs (Ausfälle) vom Schweregrad 1 und Schweregrad 2
