@@ -1,5 +1,5 @@
 ---
-keywords: Empfehlungen; Empfehlungs-Algorithmen; Empfehlungs-Aktivitäten; Recommendations Classic
+keywords: Recommendations; Recommendations-Algorithmen; Recommendations-Aktivitäten; Recommendations Classic
 description: Überprüfen Sie die Informationen, um die Unterschiede zwischen den alten Recommendations Classic- und Recommendations-Aktivitäten in [!DNL Target] Premium zu verstehen.
 title: Was ist der Unterschied zwischen Recommendations Classic und Recommendations in [!DNL Target] Premium?
 feature: Recommendations
@@ -28,9 +28,9 @@ Im klassischen [!DNL Recommendations]-Produkt wurden Empfehlungen durch Erstelle
 
 Die [!DNL Recommendations]-Aktivität in [!DNL Target] wird in [!DNL Recommendations Classic] in den folgenden Hauptbereichen verbessert:
 
-## Empfehlungen als Angebot
+## Recommendations als Angebot
 
-Sie können Empfehlungen in [!UICONTROL A/B-Tests] (einschließlich [!UICONTROL Automatisierter Zuordnung] und [!UICONTROL Automatischem Targeting]) und [!UICONTROL Erlebnis-Targeting] (XT) einbeziehen.
+Sie können Empfehlungen in [!UICONTROL A/B-Tests] (einschließlich [!UICONTROL Automatisierter Zuordnung] und [!UICONTROL Automatischen Targetings]) und [!UICONTROL Erlebnis-Targeting] (XT) einbeziehen.
 
 Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 
@@ -53,7 +53,7 @@ Kriterien werden nach vertikalen Märkten, Seitentypen und Implementierung vorko
 
 Weitere Informationen zur Verwendung und Erstellung von Kriterien finden Sie unter [Kriterien](/help/c-recommendations/c-algorithms/algorithms.md).
 
-## Arbeitsablauf{#section_76B4A26297BF422382DE2C79A2713D3C}
+## Arbeitsablauf {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 Der [!DNL Recommendations]-Arbeitsablauf wurde vereinfacht. Anstatt komplizierte Formulare auszufüllen, folgen Sie einem visuellen Arbeitsablauf, um:
 
