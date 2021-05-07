@@ -1,20 +1,20 @@
 ---
-keywords: Empfehlungen; Angebot
-description: Erfahren Sie, wie Sie Adobe Recommendations als Angebot in den Aktivitäten A/B-Tests (einschließlich automatisierter Zuordnung und automatischer Zielgruppe) und Erlebnis-Targeting (XT) verwenden.
-title: Wie verwende ich Recommendations als Angebot in anderen Aktivitäten?
+keywords: Recommendations; Angebot
+description: Erfahren Sie, wie Sie Adobe Recommendations als Angebot in A/B-Test-Aktivitäten (einschließlich automatischer Zuordnung und automatischen Targetings) und Erlebnis-Targeting(XT)-Aktivitäten nutzen.
+title: Wie verwende ich Recommendations als Angebot in anderen Aktivitätstypen?
 feature: Recommendations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Empfehlungen als Angebot
 
-Sie können jetzt Empfehlungen in [!UICONTROL A/B-Tests] (einschließlich [!UICONTROL Automatisierte Zuordnung] und [!UICONTROL Automatisches Targeting]) und [!UICONTROL Erlebnis-Targeting] (XT) einbeziehen.
+Sie können jetzt Empfehlungen in [!UICONTROL A/B-Tests] (einschließlich [!UICONTROL Automatisierter Zuordnung] und [!UICONTROL Automatischen Targetings]) und [!UICONTROL Erlebnis-Targeting] (XT) einbeziehen.
 
 Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 
@@ -121,6 +121,6 @@ Der Status der Recommendations-Angebote (Algorithmus) wird unten auf der [!UICON
 
 ![Status des Recommendations-Angebots](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Schulungsvideo: Recommendations als Angebot ![Kennzeichen ](/help/assets/overview.png)
+## Schulungsvideo: Recommendations als Angebot ![Übersichts-Badge](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
