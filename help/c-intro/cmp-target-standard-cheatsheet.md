@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard; FAQ; häufig gestellte Fragen; Kurzdarstellung; kurze Darstellung
-description: Hier finden Sie eine Liste häufig gestellter Fragen zur Verwendung der Funktionen in Adobe Target sowie Informationen und Links zu weiteren Informationen.
-title: Wo finde ich Antworten auf die Fragen zu Optimierung und Personalisierung?
+description: In diesem Abschnitt finden Sie eine Liste der häufig gestellten Fragen zur Verwendung der Funktionen in Adobe Target sowie Informationen und Links zu weiteren Informationen.
+title: Wo finde ich Antworten auf Fragen zur Optimierung und Personalisierung?
 feature: Überblick
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2918'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Eine Liste mit häufig gestellten Fragen über die Verwendung von Funktionen in 
 
 **Wie kann ich erkennen, wie andere Kunden Adobe Target für bessere Ergebnisse genutzt haben?**
 
-Hier finden Sie nur einige unserer [Kundenerfolgsgeschichten](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Erfahren Sie, wie Kunden wie Sie Target zum Verbessern der Optimierung und Personalisierung verwendet haben, um ihre Geschäftsziele zu erreichen.
+Hier finden Sie nur einige unserer [Kundenerfolgsgeschichten](https://www.adobe.com/de/marketing-cloud/target/resources.html#x). Erfahren Sie, wie Kunden wie Sie Target zum Verbessern der Optimierung und Personalisierung verwendet haben, um ihre Geschäftsziele zu erreichen.
 
 Beachten Sie, dass in einigen dieser Fallstudien Funktionen aus Adobe Target Premium verwendet wurden.
 
@@ -62,7 +62,7 @@ Verwenden Sie unsere [Berichte zur Ermittlung des erfolgreichsten Erlebnisses](/
 
 **Kann ich eine Aktivität mit einer Personalisierungsebene als einen integralen Bestandteil der Aktivität durchführen?**
 
-Sehen Sie sich die Option [Automatische Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md) an.
+Probieren Sie die Option [Automatisches Targeting](/help/c-activities/auto-target/auto-target-to-optimize.md) aus.
 
 **Woran erkenne ich, welcher Aktivitätstyp sich am besten für meine Anforderungen eignet?**
 
@@ -133,9 +133,9 @@ Verwenden Sie die in Schritt 3 des aus drei Teilen bestehenden geführten Target
 Hierzu gibt es zwei Optionen:
 
 * Standard, mit drei Ebenen (Niedrig/Medium/Hoch)
-* Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für &quot;Benutzerdefiniert&quot;die Funktion &quot;Präzise Prioritäten&quot;(&quot;Administration&quot;> &quot;Visual Experience Composer&quot;).
+* Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für die Einstellung „Benutzerdefiniert“ die Funktion „Präzise Prioritäten“ (Administration > Visual Experience Composer).
 
-## Zielgruppen{#section_FA6314777ABC46D8B198D6F388051460}
+## Zielgruppen {#section_FA6314777ABC46D8B198D6F388051460}
 
 **Kann ich ein Zielgruppensegment in einer Aktivität erstellen, die für die Aktivität spezifisch ist? Ich bin nicht der Ansicht, dass solch eine Zielgruppe in der Zielgruppenbibliothek erstellt werden sollte, da kein Wiederverwendungsfaktor vorhanden ist.**
 
@@ -189,7 +189,7 @@ Konsultieren Sie die [Informationen zur Fehlerbehebung](/help/c-experiences/c-vi
 
 Wir haben auch [einen formularbasierten Ansatz](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), mit dem Sie freigeschaltet werden können.
 
-Lesen Sie zudem, wann und warum [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Sie müssen sich möglicherweise an Ihre IT-Abteilung wenden, um auch die   [Auch die Proxy-](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) Server der Adobe von Zulassungslisten.
+Lesen Sie zudem, wann und warum [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Sie müssen sich möglicherweise an Ihre IT-Abteilung wenden, um auch die  [Adobe-Proxyserver auf die Zulassungsliste zu setzen](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 **Ich verfüge über eine responsive Site. Wie kann ich beim Erstellen einer Aktivität sichergehen, dass ich wichtige Geräte berücksichtige?**
 
@@ -197,7 +197,7 @@ Beschäftigen Sie sich mit der Funktion [Mobile Viewports](/help/c-experiences/c
 
 **Ich verfüge über mehrere Domänen. Für eine der Domänen muss „Enhanced Experience Composer“ aktiviert sein, während andere deaktiviert werden müssen. Wie kann ich dies vornehmen?**
 
-Sie können immer die Option [Enhanced Experience Composer auf der Ebene der Aktivität](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) verwenden, um die Standardeinstellung (&quot;Administration&quot;> &quot;Visual Experience Composer&quot;) zu überschreiben.
+Sie können dazu immer die [Option „Enhanced Experience Composer“ auf der Aktivitätsebene](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) verwenden, um die Standardeinstellung (Administration > Visual Experience Composer) außer Kraft zu setzen.
 
 **Warum wird mir keine Option zum Tauschen von Bildern angezeigt?**
 
@@ -235,7 +235,7 @@ Verwenden Sie den [formularbasierten Ansatz](/help/c-experiences/form-experience
 
 **Kann ich sichergehen, dass einem Benutzer über allen seinen Geräten dasselbe Erlebnis auf konsistente Weise bereitgestellt wird?**
 
-Lesen Sie die Informationen zur [Gerätekooperation](https://experienceleague.adobe.com/docs/device-co-op/using/home.html), wodurch Sie mehrere Geräte eines Benutzers durch die Leistung einer Kooperation deterministisch und probabilistisch miteinander verknüpfen können.
+Lesen Sie die Informationen zur [Gerätekooperation](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=de), wodurch Sie mehrere Geräte eines Benutzers durch die Leistung einer Kooperation deterministisch und probabilistisch miteinander verknüpfen können.
 
 Wenn Sie sich in der Kooperation befinden, kann die Funktion mithilfe einer einfachen Markierung auf der Seite „Ziele und Einstellungen“ aktiviert werden. Die Berichterstellung wird nun so geändert, dass anstelle von Besuchern Personen berücksichtigt werden. Wenden Sie sich an Ihren Adobe-Kontakt, um weitere Informationen über diese nicht in allen Regionen verfügbare Funktion zu erhalten.
 
@@ -265,7 +265,7 @@ Verwenden Sie den [Debugger](/help/c-activities/c-troubleshooting-activities/con
 
 Nutzen Sie die Leistungsfähigkeit [formularbasierter Aktivitäten](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) mit [JSON-Angeboten](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D), um Ihr Ziel zu erreichen.
 
-## Berichte (einschließlich Analytics for Target (A4T)){#section_8AECC69BEEB7422E894E7EC44A50BA0A}
+## Berichte (einschließlich Analytics for Target (A4T)) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
 **Ich verfüge auch über Adobe Analytics und möchte es mit Target nutzen. Welche wichtigen Funktionalitäten erhalte ich durch das Integrieren der zwei Lösungen?**
 
@@ -302,7 +302,7 @@ Verwenden Sie das  [Zahnrad „Einstellungen“ auf der Berichtsseite](/help/c-r
 
 **Wie sollte ich Berichte interpretieren?**
 
-Wir haben versucht, mit Funktionen wie  [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Mitteln und mehr](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) Berichte so intuitiv wie möglich zu gestalten, um eine aussagekräftige und einfache Berichtsanalyse zu ermöglichen. Natürlich können Sie sich mit Analytics beschäftigen, wenn Sie [Analytics für Target](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)-Aktivitäten (A4T) für weitere Analysen von Zielgruppen verwenden.
+Wir haben versucht, mit Funktionen wie  [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Mitteln und mehr](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) Berichte so intuitiv wie möglich zu gestalten, um eine aussagekräftige und einfache Berichtsanalyse zu ermöglichen. Natürlich können Sie sich mit Analytics beschäftigen, wenn Sie [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)-Aktivitäten (A4T) für weitere Analysen von Zielgruppen verwenden.
 
 ## Antwort-Token {#section_C2A7118B4B62482A9D630C2212112A3D}
 
