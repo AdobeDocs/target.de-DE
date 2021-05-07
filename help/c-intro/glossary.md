@@ -1,13 +1,13 @@
 ---
 description: Was bedeuten unterschiedliche Begriffe, die in Adobe [!DNL Target] verwendet werden? Suchen Sie Definitionen allgemeiner Begriffe, um mehr herauszufinden. [!DNL Target]
-title: Wo finde ich Begriffe und Definitionen, die in der Zielgruppe verwendet werden?
+title: Wo finde ich die in Target verwendeten Begriffe und deren Definitionen?
 feature: Überblick
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2470'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ Nützlich zum Testen des Marketings von Sites, die keine Mbox haben, z. B. Part
 
 **Zielgruppe**
 
-Eine Gruppe ähnlicher Aktivitätsteilnehmer, für die eine ausgewählte Aktivität angezeigt wird.  Eine Personengruppe mit denselben Merkmalen, wie z. B. ein neuer Besucher, ein wiederkehrender Besucher oder help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds aus dem Mittleren Westen. Mit der Zielgruppenfunktion können Sie verschiedene Inhalte und Erlebnisse auf spezifische Zielgruppen ausrichten, um Ihr Webmarketing zu optimieren, indem Sie geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen. Wird der Besucher als Teil einer Zielgruppe identifiziert, bestimmt Target basierend auf den Kriterien, die bei der Erstellung der Aktivität festgelegt wurden, welches Erlebnis angezeigt wird.
+Eine Gruppe ähnlicher Aktivitätsteilnehmer, für die eine ausgewählte Aktivität angezeigt wird.  Eine Gruppe von Personen mit denselben Merkmalen, wie beispielsweise „neuer Besucher“, „wiederkehrender Besucher“ oder „wiederkehrender Besucher aus einem bestimmten Bundesland“. Mit der Zielgruppenfunktion können Sie Ihre Inhalte und Erlebnisse speziell an bestimmte Zielgruppen anpassen. Durch geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen können Sie so Ihr digitales Marketing optimieren. Wird der Besucher als Teil einer Zielgruppe identifiziert, bestimmt Target basierend auf den Kriterien, die bei der Erstellung der Aktivität festgelegt wurden, welches Erlebnis ihm angezeigt wird.
 
 **Automatische Zuordnung**
 
@@ -61,9 +61,9 @@ Die Funktion „Automatisch zuweisen“ identifiziert einen Gewinner unter zwei 
 
 Beim automatischen Targeting werden mehrere vermarkterdefinierte Erlebnisse mit hoher Leistung über das erweiterte maschinelle Lernen identifiziert. Zudem erhalten alle Besucher basierend auf ihrem individuellen Kundenprofil und dem Verhalten vorheriger Besucher mit ähnlichen Profilen ein optimal auf sie zugeschnittenes Erlebnis, um die Inhalte zu personalisieren und Konversionen zu fördern.
 
-**Automatisierte Personalisierung**
+**Automated Personalization**
 
-Die automatisierte Personalisierung (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besuchern basierend auf deren individuellem Kundenprofil mithilfe des erweiterten maschinellen Lernens verschiedene Variationen zu, um die Inhalte zu personalisieren und Konversionen zu fördern.
+Automated Personalization (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besuchern basierend auf deren individuellem Kundenprofil durch erweitertes Machine Learning verschiedene Varianzen zu, um die Inhalte zu personalisieren und Konversionen zu fördern.
 
 ## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
@@ -95,11 +95,11 @@ Eine Untergruppe von Produkten oder Inhalten, die für Empfehlungen geeignet sin
 
 **Kombination**
 
-Die Inhaltsvarianten, die erstellt werden, wenn Sie im Rahmen eines Multivariater Tests verschiedene Inhaltsoptionen an verschiedenen Orten testen. Wenn Sie zum Beispiel drei Orte mit jeweils drei Inhaltsoptionen testen, ergeben sich 27 mögliche Kombinationen (3 x 3 x 3). Einem Besucher auf Ihrer Seite wird eine Kombination angezeigt, die auch als Erlebnis bezeichnet wird.
+Die Inhaltsvarianten, die erstellt werden, wenn Sie im Rahmen eines Multivarianz-Tests verschiedene Inhaltsoptionen an verschiedenen Orten testen. Wenn Sie zum Beispiel drei Orte mit jeweils drei Inhaltsoptionen testen, ergeben sich 27 mögliche Kombinationen (3 x 3 x 3). Einem Besucher auf Ihrer Seite wird eine Kombination angezeigt, die auch als Erlebnis bezeichnet wird.
 
 **Inhalt**
 
-Text oder Bild, der/das eine Testvariation an einem Ort darstellt. Bei einem Multivariater Test werden verschiedene Inhaltsoptionen an verschiedenen Orten verglichen. Bei der MVT-Methode wird der Inhalt zuweilen als *Stufe* bezeichnet.
+Text oder Bild, der/das eine Testvarianz an einem Ort darstellt. Bei einem Multivarianz-Test werden verschiedene Inhaltsoptionen an verschiedenen Orten verglichen. Bei der MVT-Methode wird der Inhalt zuweilen als *Stufe* bezeichnet.
 
 **Konversions-Mbox**
 
@@ -149,7 +149,7 @@ Messung des Besucherinteresses an einer Site, gemessen anhand von Besuchszeit pr
 
 Der [!UICONTROL Enhanced Experience Composer] stellt eine Erweiterung des [!UICONTROL Visual Experience Composer] dar, der Sie beim Bearbeiten eines Erlebnisses für eine iFrame-Busting-Website oder Seiten unterstützt, die noch nicht über eine [!DNL Target]-Implementierung verfügen. Sollten Sie Probleme dabei haben, Ihre Seite in [!UICONTROL Visual Experience Composer] zu öffnen, versuchen Sie es mit [!UICONTROL Enhanced Experience Composer].
 
-**Berechtigungen für Unternehmensbenutzer**
+**Enterprise-Benutzerberechtigungen**
 
 Eine Möglichkeit zur Vergabe von unternehmensweiten Benutzerzugriffen auf Target. Sie können Benutzer zu Target hinzufügen, Berechtigungen auf Grundlage ihrer Rollen zuweisen und Workspaces für Teams basierend auf unterschiedlichen Abteilungen, globalen Standorten, Kanälen und anderen logischen Gruppierungen erstellen. Sie können Benutzern die Rollen „Beobachter“, „Bearbeiter“ oder „Genehmiger“ zuweisen.
 
@@ -185,7 +185,7 @@ Die visuelle Darstellung einer Aktivität in Target Standard.
 
 **Formularbasierter Experience Composer**
 
-Eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen und Angeboten. Diese Erlebnisse können in A/B-Tests, im Erlebnis-Targeting, in der automatisierten Personalisierung und in Recommendations-Aktivitäten genutzt werden, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. So können Sie den formularbasierten Composer beispielsweise verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachassistenten zu erstellen.
+Eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen und Angeboten. Diese Erlebnisse können in A/B-Tests, im Erlebnis-Targeting, in der Automated Personalization und in Recommendations-Aktivitäten genutzt werden, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. So können Sie den formularbasierten Composer beispielsweise verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachassistenten zu erstellen.
 
 ## G   {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
@@ -221,7 +221,7 @@ Eine Landingpage-Aktivität ermöglicht Ihnen, für unterschiedliche Besuche unt
 
 **Ort**
 
-Ein spezifischer Inhaltsbereich auf einer Seite, der oftmals in einem einzelnen DOM-Element enthalten ist. Bei der MVT-Methode wird der Ort zuweilen als *Faktor* bezeichnet. Ein vollständiger Multivariater Test vergleicht alle möglichen Angebotskombinationen in Ihren Orten.
+Ein spezifischer Inhaltsbereich auf einer Seite, der oftmals in einem einzelnen DOM-Element enthalten ist. Bei der MVT-Methode wird der Ort zuweilen als *Faktor* bezeichnet. Ein vollständiger Multivarianz-Test vergleicht alle möglichen Angebotskombinationen in Ihren Orten.
 
 ## M   {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
@@ -237,7 +237,7 @@ Vor Version 16.3.1 benötigte [!DNL Target] einen Aufruf an [!DNL mbox.js], um 
 
 Wird über die Seite weitergegeben, nicht über die URL. Diese Parameter werden verwendet, um Daten von der Datenbank weiterzugeben, Vertriebsdaten zu tracken und um Adobe Recommendations auszuführen. Auch als Seitenparameter bezeichnet.
 
-**Multivariater Test**
+**Multivarianz-Test**
 
 Beim Multivariate Testing (MVT) werden Kombinationen von Angeboten in Elementen auf einer Seite verglichen, um festzustellen, welche Kombination bei einer bestimmten Zielgruppe am besten ankommt. Zusätzlich wird ermittelt, welches Element den größten Einfluss auf den Erfolg einer Aktivität hat
 
@@ -245,13 +245,13 @@ Beim Multivariate Testing (MVT) werden Kombinationen von Angeboten in Elementen 
 
 **Neuer Besucher**
 
-Ein Besucher wird in das Segment Neue Besucher einbezogen, wenn eine der folgenden Bedingungen erfüllt ist:
+Ein Besucher wird dem Segment „Neue Besucher“ hinzugefügt, wenn eine der folgenden Bedingungen zutrifft:
 
 * Der Besucher besucht die Site zum ersten Mal.
-* Der Besucher besucht die Site zum ersten Mal seit dem Löschen von Cookies.
-* Der Besucher besucht die Site zum ersten Mal seit Ablauf der Lebensdauer des [Besucher-Profils](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md).
+* Der Besucher besucht die Site zum ersten Mal seit dem Löschen seiner Cookies.
+* Der Besucher besucht die Site zum ersten Mal seit dem Ablauf der [Lebensdauer seines Besucherprofils](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md).
 
-Weitere Informationen finden Sie unter [Wie werden die Metriken &quot;Neue Besucher&quot;und &quot;Wiederkehrende Besucher&quot;gezählt?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in Berichte Fragen und Antworten. Kontrast zu &quot;wiederkehrender Besucher&quot; unten.
+Weitere Informationen finden Sie unter [Wie werden die Metriken „Neue Besucher“ und „Wiederkehrende Besucher“ gezählt?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in den Fragen und Antworten zur Berichterstellung. Lesen Sie weiter unten auch, inwiefern sich ein neuer Besucher von einem „wiederkehrenden Besucher“ unterscheidet.
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
@@ -293,9 +293,9 @@ Gibt Werte an die Mbox der Zielseite als verweisende URL-Parameter und -Werte we
 
 **Wiederkehrender Besucher**
 
-Der Besucher wird im Segment &quot;Rückkehrende Besucher&quot;enthalten, wenn der Benutzer die Site zuvor besucht hat, mindestens 30 Minuten lang verlassen hat und mit denselben Cookies erneut zur Site zurückkehrt. Solange ein Besucher innerhalb der Lebensdauer seines Profils zurückkehrt, ist dieser Besucher ein wiederkehrender Besucher.
+Ein Besucher wird dem Segment „ Wiederkehrende Besucher“ hinzugefügt, wenn der Besucher die Site bereits besucht hatte, sie jedoch für mindestens 30 Minuten verlassen hat und später mit denselben Cookies zur Site zurückgekehrt ist. Solange ein Besucher innerhalb der Lebensdauer seines Profils zurückkehrt, ist er ein wiederkehrender Besucher.
 
-Weitere Informationen finden Sie unter [Wie werden die Metriken für neue Besucher und wiederkehrende Besucher](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in Berichte Fragen und Antworten gezählt? Kontrast zu &quot;Neuer Besucher&quot; oben.
+Weitere Informationen finden Sie unter [Wie werden die Metriken „Neue Besucher“ und „Wiederkehrende Besucher“ gezählt?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in den Fragen und Antworten zur Berichterstellung. Lesen Sie oben auch, inwiefern sich ein wiederkehrender Besucher von einem „neuen Besucher“ unterscheidet.
 
 **Rolle**
 
@@ -349,9 +349,9 @@ Immer, wenn die Seite mit der Mbox von einem Besucher angezeigt wird, werden all
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
-**visit**
+**Besuch**
 
-Ein Besuch wird manchmal als Sitzung bezeichnet. Ein Besuch endet nach 30 Minuten Inaktivität, d. h., zwischen den Serveranforderungen an die Zielgruppe sind mindestens 30 Minuten vergangen.
+Ein Besuch wird auch als Sitzung bezeichnet. Ein Besuch endet nach 30 Minuten der Inaktivität automatisch, d. h., seit der letzten Serveranforderung an Target sind mindestens 30 Minuten vergangen.
 
 **Besucher**
 
