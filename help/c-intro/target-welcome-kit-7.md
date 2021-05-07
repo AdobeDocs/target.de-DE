@@ -1,111 +1,111 @@
 ---
-keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
+keywords: Welcome Kit; Target Welcome Kit; Intro; Einführung; Erste Schritte
 description: Beginnen wir mit Ihrer ersten Aktivität in Adobe [!DNL Target] damit Sie einen ROI für Ihre Investition erhalten können.
-title: Ich muss meine erste Aktivität in der Zielgruppe erstellen. Wo Beginn?
+title: Ich möchte meine erste Aktivität in Target erstellen. Wo beginne ich?
 feature: Überblick
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
 # Kapitel 7: Erstellen und Ausführen der ersten [!DNL Target]-Aktivität
 
-Sie sind also bereit, mit Ihrer ersten Aktivität in [!DNL Target] zu beginnen? Ausgezeichnet. Lassen Sie uns eine Aktivität für Ihre Website, mobile Site oder mobile App herausfinden, die nicht übermäßig komplex ist. Sie kann aber einen schnellen ROI bieten und Sie über das Potenzial begeistern, [!DNL Target] zum Testen und Personalisieren zu verwenden. Je nach Unternehmen und Schwerpunkt könnten Sie in Erwägung ziehen, mit der ersten Aktivität eine von drei verschiedenen Routen zu wählen.
+Sie möchten nun mit Ihrer erste Aktivität in [!DNL Target] beginnen? Exzellent. Am besten nehmen wir uns eine Aktivität für Ihre Website, Ihre mobile Site oder Ihre mobile App vor, die nicht übermäßig komplex ist, Ihnen aber einen schnellen ROI bietet und Sie das Potenzial des Testens und Personalisierens mit [!DNL Target] ahnen lässt. Je nach Organisation und geschäftlichem Schwerpunkt könnten Sie mit Ihrer ersten Aktivität drei verschiedene Routen einschlagen.
 
-Entscheidend für Ihre erste Aktivität ist jedoch die Festlegung einer Grundlage der Geschäftsmetrik, die Sie verbessern möchten: Umsatz, Durchklicks, Formularübermittlungen, abgeschlossene Registrierungen usw. Bei einem A/B-Test können Sie das aktuelle Erlebnis oder Angebot oft als &quot;Kontrolle&quot;verwenden und die Auswirkungen einer Variante dieses Erlebnisses oder Angebots dagegen messen. Bei den meisten Aktivitäten zur Personalisierung würden Sie jedoch im Idealfall die Performance des aktuellen Erlebnisses bestimmen, bevor Sie eine personalisierte Version des Erlebnisses starten. Auf diese Weise können Sie den Einfluss der Personalisierung messen.
+Entscheidend für Ihre erste Aktivität ist jedoch die Festlegung einer Baseline für die Geschäftsmetrik, die Sie verbessern möchten: Umsatz, Clickthroughs, Formulareinreichungen, abgeschlossene Registrierungen usw. Bei einem A/B-Test können Sie das aktuelle Erlebnis oder Angebot meist als „Kontrollinstanz“ verwenden, an der Sie die Wirkung einer Varianz dieses Erlebnisses oder Angebots messen. Bei den meisten Personalisierungsaktivitäten werden Sie jedoch im Idealfall zunächst die Leistung des aktuellen Erlebnisses bestimmen, bevor Sie eine personalisierte Version des Erlebnisses starten. Nur so können Sie die Wirksamkeit der Personalisierung messen.
 
-## Route 1: A/B-Tests für den gesamten Besucher-Traffic
+## Route 1: A/B-Test zur Messung des gesamten Besucher-Traffics
 
-Sie können eine einfache [A/B-Test-Aktivität](/help/c-activities/t-test-ab/test-ab.md) einrichten, bei der Sie eine Variation eines Angebots oder Erlebnisses mit einer oder mehreren anderen Varianten testen, um zu sehen, welche Ihrer Besucher bevorzugt. Wenn Sie nur nach der Gewinner-Variante suchen, können Sie die AI nutzen, um schnellere Ergebnisse zu erzielen, indem Sie im zweiten Schritt des Setup-Arbeitsablaufs für A/B-Tests [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) auswählen.
+Sie können eine grundlegende [A/B-Testaktivität](/help/c-activities/t-test-ab/test-ab.md) einrichten, mit der Sie eine Varianz eines Angebots oder Erlebnisses mit einer oder mehreren anderen Varianzen vergleichen, um festzustellen, welche dieser Varianzen Ihre Besucher bevorzugen. Wenn Sie nur nach dem Gewinner – der erfolgreichsten Varianz – suchen, kommen Sie mit KI schneller zum Ergebnis. Dazu würden Sie im zweiten Schritt des A/B-Testsetups die Option [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) auswählen.
 
-Beispiel: Eine Media-Firma testet ihre aktuelle Version auf ihrer Website oder mobilen Site auf ein Geschenkgutschein-Abonnement-Angebot, um zu sehen, welche Variante mehr Besucher dazu bringt, ein Geschenkpapier zu erwerben. Wenn sie die Option &quot;Automatisierte Zuordnung&quot;auswählen, verschiebt die Aktivität während der Testausführung mehr Traffic auf die erfolgreichste Variante. Ist dies nicht der Fall, wird gewartet, bis Sie das erfolgreichste Erlebnis nach Abschluss des Tests manuell live übertragen.
+Beispiel: Ein Medienunternehmen testet Varianzen seiner aktuellen Version eines Geschenk-Abo-Angebots auf der Homepage seiner Website bzw. mobilen Site, um festzustellen, welche Varianz mehr Besucher veranlasst, das Geschenk-Abo zu erwerben. Bei Auswahl der Option „Automatische Zuordnung“ verlagert die Aktivität während der Testausführung mehr Traffic auf die erfolgreichste Varianz. Andernfalls müssen Sie die erfolgreichste Varianz nach Abschluss des Tests manuell live schalten.
 
-## Route 2: Personalisieren auf eine bestimmte Audience
+## Route 2: Personalisierung für eine bestimmte Zielgruppe
 
-Sie können eine [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT)-Aktivität einrichten, mit der eine bestimmte Audience, die Sie wissen, für ein Angebot oder Erlebnis, das Sie wissen, dass mit ihnen reagiert werden kann, Zielgruppe wird.
+Sie können eine [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT)-Aktivität einrichten, die auf eine bestimmte Zielgruppe ausgerichtet ist, von der Sie wissen, dass sie für Sie wertvoll ist. Diese Aktivität beinhaltet ein Angebot oder Erlebnis, von dem Sie meinen, dass es Anklang bei dieser Zielgruppe findet.
 
-Beispiel: Eine Fluggesellschaft Zielgruppe ihren Platin-Mitgliedern ein spezielles Angebot, das ihre Punkte beim nächsten Kauf des Fluges Dublette, um sie zu belohnen und die Kundentreue weiter zu stärken.
+Beispiel: Eine Fluggesellschaft möchte ihre Platin-Mitglieder mit einem speziellen Angebot belohnen und sie stärker an sich binden und bietet ihnen beim nächsten Kauf eines Flugtickets die doppelte Punktzahl.
 
-## Route 3: Anwendung von KI und Automatisierung zur personalisierten Anpassung an individuelle Besucher
+## Route 3: Maßstabsgerechte Personalisierung für einzelne Besucher durch KI und Automatisierung
 
-Sie können eine AI-gesteuerte Aktivität einrichten, um das beste Erlebnis aus mehreren für jeden Besucher bereitzustellen, indem Sie einfach [Auto-Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md) im zweiten Schritt des Setup-Arbeitsablaufs für A/B-Tests auswählen. Die Verwendung der Auto-Zielgruppe mit Ihrer ersten Aktivität kann äußerst nützlich sein, wenn Sie nicht wissen, welches Erlebnis für verschiedene Besucher Resonanz findet. Mit der automatischen Zielgruppe können Sie mithilfe des maschinellen Lernens die prädiktiven Attribute in Echtzeit bewerten und bewerten und feststellen, welche Attribute Ihrer Besucher am wichtigsten sind, um zu bestimmen, welches Erlebnis bereitgestellt werden soll.
+Mit einer KI-gesteuerten Aktivität können Sie jedem Besucher das beste Erlebnis aus mehreren Varianzen bereitstellen. Dazu wählen Sie im zweiten Schritt des A/B-Testsetups die Option [Automatisches Targeting](/help/c-activities/auto-target/auto-target-to-optimize.md) aus. Automatisches Targeting empfiehlt sich sehr, wenn Sie nicht wissen, welches Erlebnis bei einzelnen Besuchern Anklang findet. Bei Ihrer ersten Aktivität kann diese Einstellung ideal sein. Bei automatischem Targeting überlassen Sie Machine-Learning-Algorithmen die Bewertung prädiktiver Attribute in Echtzeit. Machine Learning stellt also fest, welche Attribute Ihrer Besucher für die Ermittlung des bereitzustellenden Erlebnisses am wichtigsten sind.
 
-Beispiel: Ein Telco, das mehrere Telefonmarken und -modelle vertreibt, aktiviert die automatische Zielgruppe, um mithilfe von Automatisierung und maschinellem Lernen festzustellen, welche von vier verschiedenen Erlebnissen oder Angeboten auf seiner Homepage oder dem Bildschirm zum Eröffnen von mobilen Apps am besten mit den verschiedensten Besuchern übereinstimmen.
+Beispiel: Ein Telekommunikationsunternehmen, das verschiedene Telefonmarken und -modelle vertreibt, aktiviert automatisches Targeting, um mithilfe von Automatisierung und Machine Learning zu ermitteln, welches von vier Erlebnissen oder Angeboten auf seiner Homepage bzw. auf dem Startbildschirm seiner mobilen App am meisten Anklang bei seinen vielfältigen Besuchern findet.
 
-## Erstellen einer Aktivität
+## Entwickeln einer Aktivitätsidee
 
-Sie könnten diese grundlegende Schaltflächenfarbe oder den Kopieränderungstest durchführen, aber wie wäre es mit dem Testen oder Personalisieren von etwas, das das Potenzial hat, zu zeigen, wie leistungsstark [!DNL Target] die Nadel der wichtigen Geschäftsmetriken bewegt werden kann? Etwas, das die Augenbrauen mit Führungskräften in der C-Suite und Führungskräften in den Geschäftsbereichen erhöht.
+Nun gut: Sie könnten nun einfach testen, welche Wirkung die Änderung Ihrer Schaltflächenfarbe hat. Was halten Sie aber davon, etwas zu testen und zu personalisieren, das wirkliches Potenzial hat zu zeigen, welche Macht [!DNL Target] hat, die Nadeln der Geschäftsmetriken, die für Ihr Unternehmen wirklich bedeutend sind, nach oben zu treiben? Etwas, das die Augenbrauen Ihrer Führungskräfte und Geschäftsleiter in der Vorstandsetage tatsächlich nach oben zieht.
 
-Hier sind nur einige Möglichkeiten, Aktivitäten zu entwickeln, die einfach zu implementieren sind, aber einen großen Einfluss auf das Unternehmen haben können:
+In dieser Liste geben wir Ihnen einige Tipps für die Entwicklung einer Aktivitätsidee, die einfach umzusetzen ist, aber eine große Wirkung auf die Geschäftsmetriken haben kann:
 
-* **Benutze, was du weißt.** Vielleicht kennen Sie Ihre Kunden bereits gut und haben eine gute Vorstellung davon, was bei ihnen Widerhall finden wird. Verwenden Sie dies, um personalisierte Erlebnisse zu entwickeln.
-* **Verwenden Sie Ihre Analyselösung.** Suchen Sie nach Stellen auf Ihrer Site, an denen Kunden einen Kaufvorgang abgebrochen oder eine Seite verlassen haben. Überprüfen Sie die Seiten und stellen Sie die Hypothese auf, was sie möglicherweise verlassen, bevor Sie die gewünschte Aktion durchführen.
-* **Nutzen Sie Ihre Beobachtungsbefugnisse.** Sehen Sie sich einige wichtige Seiten auf Ihrer Website an und nutzen Sie Ihr Bauchgefühl, um Dinge zu identifizieren, die verbessert werden müssen. Vielleicht eine Seite mit Produktdetails, die zu überfüllt und wortgetreu ist, so vereinfachen Sie es. Vielleicht ist eine Kaufschaltfläche schwer zu finden, also verschieben Sie sie an einen auffälligeren Ort.
-* **Sieh dir deine Konkurrenten an.** Eine schnelle Übersicht der Websites Ihrer Konkurrenten könnte Entwürfe, Angebote, Kopien und andere Elemente enthalten, von denen Sie glauben, dass sie die Geschäftsergebnisse sehr effektiv beeinflussen. Erwägen Sie Möglichkeiten, diese Ansätze auf Ihrer Site auszuprobieren.
-* **Tippen Sie auf Kundenfeedback.** Möglicherweise haben Ihre Kunden Ihnen Ideen gegeben, wie Sie ihre Erlebnisse durch eine Online-Umfrage oder Kundenservice-Anrufe verbessern können. Identifizieren Sie einen Schmerzpunkt, den mehrere erwähnt haben, und entwickeln Sie ein Erlebnis, das ihn beseitigen könnte.
+* **Nutzen Sie, was Sie kennen.** Vielleicht kennen Sie Ihre Kunden sehr gut und haben bereits eine Vorstellung davon, was bei ihnen auf Anklang stößt. Nutzen Sie Ihr Wissen für die Entwicklung personalisierter Erlebnisse.
+* **Nutzen Sie Ihre Analyselösung.** Suchen Sie nach den Stellen auf Ihrer Site, an denen Kunden einen Kaufvorgang abgebrochen oder eine Seite verlassen haben. Überprüfen Sie diese Seiten und stellen Sie eine Hypothese dazu auf, weshalb Ihre Kunden diese Seiten vor der Durchführung der gewünschten Aktion verlassen haben.
+* **Nutzen Sie Ihre eigene Urteilskraft.** Sehen Sie sich die wichtigsten Seiten Ihrer Website an und hören Sie in puncto notwendiger Verbesserungen auf Ihr Bauchgefühl. Vielleicht ist eine Seite mit Produktdetails unübersichtlich und mit Text überfüllt. Vereinfachen Sie die Seite. Vielleicht ist die Bestellschaltfläche nur schwer zu finden. Verschieben Sie sie an eine augenfälligere Stelle.
+* **Sehen Sie sich den Wettbewerb an.** Ein schneller Blick auf die Websites Ihrer Konkurrenten zeigt Ihnen womöglich bereits Designs, Angebote, Kopien und andere Elemente, die Sie als hoch wirksam in puncto Geschäftsergebnisse überzeugen. Überlegen Sie, wie Sie diese Ansätze auf Ihrer Website umsetzen könnten.
+* **Greifen Sie das Feedback Ihrer Kunden auf.** Vielleicht wissen Sie aus Kundenumfragen oder Auswertungen von Kundendienstanrufen bereits, wo Ihre Kunden Spielraum für eine Verbesserung ihres Erlebnisses sehen. Identifizieren Sie einen wirklichen, vielfach erwähnten Schmerzpunkt und entwickeln Sie ein Erlebnis, das diesen beseitigt.
 
-Denken Sie bei der Entwicklung Ihrer Testidee daran, dass Sie im Idealfall mit Daten erklären können, warum Ihre vorgeschlagene Testidee Ihrer Meinung nach das Kundenerlebnis und die Metriken verbessern kann, die für das Unternehmen von Bedeutung sind.
+Vergessen Sie nicht, dass Sie bei der Vorstellung Ihrer Testidee in der Lage sein sollten zu erklären – idealerweise unterstützt durch Daten –, weshalb die von Ihnen vorgeschlagene Testidee Ihrer Meinung nach das Kundenerlebnis und die für Ihr Unternehmen wichtigen Metriken verbessern kann.
 
-## Planen Ihrer Aktivität mit dem Aktivitäten-Planer
+## Planen Ihrer Aktivität mit dem Aktivitätsplaner
 
-Wir haben den [Adobe Target-Aktivität-Planer](/help/assets/activity-planner.pdf) als eigenständige PDF-Datei aufgenommen, die Sie immer wieder speichern und verwenden können. Klicken Sie auf den Link, um die PDF-Datei Ansicht. Klicken Sie mit der rechten Maustaste, um die PDF-Datei herunterzuladen.
+Wir haben Ihnen hier den [Adobe Target-Aktivitätsplaner](/help/assets/activity-planner.pdf) als eigenständige PDF-Datei hinzugefügt, die Sie speichern und immer wieder verwenden können. Klicken Sie auf den Link, um die PDF-Datei anzuzeigen. Klicken Sie mit der rechten Maustaste, um die Datei herunterzuladen.
 
-Um eine effektive Aktivität auszuführen, müssen Sie jeden Bereich des Planers ausfüllen. Verwenden Sie dieses Tool wie Sie und andere Brainstorming-Ideen für Test- und Personalisierungs-Aktivitäten.
+Für die Planung einer effektiven Aktivität sollten Sie alle Bereiche des Planers ausfüllen. Nutzen Sie dieses Tool, während Sie gemeinsam mit Ihren Kollegen über Ihre Test- und Personalisierungsaktivitäten diskutieren.
 
-![Adobe Target Aktivität-Planer](/help/c-intro/assets/activity-planner.png)
+![Adobe Target-Aktivitätsplaner](/help/c-intro/assets/activity-planner.png)
 
-Hier ist der Gedanke, der in jeden Bereich des Planers geht:
+Die folgenden Gedanken sollten in jeden Bereich des Planers einfließen:
 
 ### Was kann verbessert werden?
 
-Wählen Sie den Kanal oder Touchpoint aus, den Sie verbessern möchten. hinzufügen die URL für das Element oder beschreiben Sie es. In diesem Fall fügen Sie die URL der Webseite hinzu, für die Sie eine Testvariation oder ein personalisiertes Erlebnis erstellen möchten.
+Legen Sie fest, welchen Kanal oder Touchpoint Sie verbessern möchten. Tragen Sie die URL des Elements im Planer ein oder beschreiben Sie das Element. In unserem Fall tragen Sie die URL der Webseite ein, für die Sie eine Testvarianz oder ein personalisiertes Erlebnis erstellen möchten.
 
-### Was ist deine Hypothese?
+### Wie lautet Ihre Hypothese?
 
-Bitte erläutern Sie, was das Problem mit der aktuellen Website-Erfahrung ist, einschließlich aller Daten oder Quellen, die Sie zur Identifizierung des Problems verwendet haben. Erläutern Sie, was Sie ändern möchten und warum Sie glauben, dass dies das Kundenerlebnis verbessern würde. Erläutern Sie abschließend das erwartete Ergebnis und beschreiben Sie den Geschäftswert in den Erfolgsmetriken des Unternehmens, von denen Sie glauben, dass dieses neue Erlebnis Ergebnisse bringen wird.
+Beschreiben Sie das Problem des aktuellen Website-Erlebnisses genau – mit Angabe der Daten oder Quellen, durch die Sie auf dieses Problem aufmerksam wurden. Beschreiben Sie, was Sie ändern möchten und weshalb Sie meinen, dass sich das Kundenerlebnis dadurch verbessert. Beschreiben Sie abschließend das erwartete Ergebnis. Formulieren Sie dabei auch den Geschäftswert (in Erfolgsmetriken), den Sie meinen, mit diesem neuen Erlebnis erzielen zu können.
 
-### Welche Aktivität ist erforderlich?
+### Welche Art von Aktivität benötigen wir?
 
-Markieren Sie das Kästchen des auszuführenden Aktivität-Typs. Sie können die verschiedenen Typen von verfügbaren Aktivitäten anhand der Themen [Zielgruppe und ](/help/c-activities/target-activities-guide.md) oder [Adobe Target auf einen Blick](/help/c-intro/target-welcome-kit-2.md) überprüfen.
+Wählen Sie den beabsichtigten Aktivitätstyp aus. Informationen zu den verfügbaren Aktivitätstypen finden Sie im Thema [Target-Aktivitätstypen](/help/c-activities/target-activities-guide.md) sowie im Kapitel [Adobe Target auf einen Blick](/help/c-intro/target-welcome-kit-2.md).
 
-### Wer ist die Audience der Zielgruppe?
+### An welche Zielgruppe richtet sich die Aktivität?
 
-In einem A/B-Test mit Kontrollerfahrung und einer Variante können Sie z. B. die gesamte Besucher-Population einbeziehen. Standardmäßig liefert [!DNL Target] 50 Prozent für das Steuerelement und 50 Prozent für die Variante. Wenn Sie jedoch personalisieren, können Sie die Audience oder die Audiencen beschreiben, auf die Sie sich persönlich einstellen. Bei der Verwendung von AI können Sie einfach bemerken, dass Sie AI verwenden, um Ihre persönlichen Daten zu personalisieren. Beachten Sie, dass in Ihrer Hypothese angegeben werden sollte, warum Sie eine bestimmte Audience für eine Aktivität auswählen, wenn Sie eine Option auswählen.
+In einen A/B-Test mit einem Kontrollerlebnis und einer Varianz könnten Sie beispielsweise die gesamte Besucher-Population einbeziehen. Standardmäßig leitet [!DNL Target] 50 Prozent des Traffics dem Kontrollerlebnis und 50 Prozent der Varianz zu. Bei einer Personalisierung können Sie jedoch die Zielgruppe(n) beschreiben, an die sich die Personalisierung richtet. Wenn Sie KI nutzen möchten, können Sie einfach anmerken, dass Sie KI für die Personalisierung für einzelne Besucher verwenden werden. In Ihrer Hypothese sollten Sie unbedingt auch angeben, weshalb Sie für eine Aktivität eine bestimmte Zielgruppe auswählen (sofern Sie eine auswählen).
 
-### Welches sind die primären Metriken zur Messung der Auswirkungen der Aktivität?
+### Anhand welcher primären Metrik soll die Wirkung der Aktivität gemessen werden?
 
-Beschreiben Sie die Geschäftsmetriken, die Sie als Indikator für den Erfolg Ihrer Aktivität verwenden werden. So können Sie beispielsweise den Umsatz pro Besucher (RPV), Konversionsrat oder den durchschnittlichen Bestellwert (AOV) steigern. Je mehr Sie die Auswirkungen mit dem Geschäftsergebnis verknüpfen können, desto besser ist es, wenn Sie die Auswirkungen mit dem Umsatz verbinden können.
+Beschreiben Sie die Geschäftsmetrik(en), die Sie als Indikator für den Erfolg Ihrer Aktivität verwenden möchten. Beispielsweise die Steigerung des Umsatzes pro Besucher (RPV), die Steigerung der Konversionsrate oder die Steigerung des durchschnittlichen Bestellwerts (AOV). Je besser sich die Wirkung auf das Umsatzwachstum Ihres Unternehmens nachweisen ließe, desto vorteilhafter wäre das. Wenn möglich, sollten Sie die Wirkung daher mit dem Umsatz verbinden.
 
-### Welche sekundären Metriken werden zur Messung der Auswirkungen der Aktivität verwendet?
+### Und wie lautet die sekundäre Metrik?
 
-Dies ist dieselbe wie die primäre Metrik. Wählen Sie eine Metrik aus, mit der Sie die Auswirkungen der Aktivität auf das Unternehmen messen können.
+Hier gilt das Gleiche wie für die primäre Metrik. Wählen Sie eine Metrik aus, mit der Sie die Auswirkung der Aktivität auf das Unternehmen messen möchten.
 
-### Welche Ressourcen/Teams müssen einbezogen werden?
+### Welche Ressourcen oder Teams müssen einbezogen werden?
 
-Wenn Ihre Aktivität den Assistenten eines Designers, eines Webentwicklers oder eines Datenanalytikers benötigt, dann ist dies Dokument, das erklärt, was sie im Rahmen der Aktivität tun müssen.
+Wenn Sie für Ihre Aktivität die Unterstützung eines Designers, eines Webentwicklers oder eines Datenanalytikers benötigen, dokumentieren Sie dies hier. Beschreiben Sie auch deren Aufgaben im Rahmen dieser Aktivität.
 
-### Wie lange muss dieser Test bei Ausführung eines Tests durchgeführt werden, um die Bedeutung zu erreichen?
+### Wenn ein Test ausgeführt wird: Wie lange sollte dieser ausgeführt werden, um zu einem signifikanten Ergebnis zu führen?
 
-Sie benötigen eine bestimmte Anzahl von Besuchern, um eine statistisch signifikante Schlussfolgerung aus dem Test ziehen zu können. Denken Sie darüber nach, wenn nur zwei Leute an Ihrem Test teilnehmen, werden Sie dann mit den Ergebnissen vertraut sein?
+Um aus dem Test einen statistisch signifikanten Schluss ziehen zu können, muss in die Testpopulation eine gewisse Anzahl an Besuchern einfließen. Überlegen Sie: Können Sie dem Ergebnis trauen, wenn nur zwei Personen an dem Test teilnehmen?
 
-[!DNL Target] stützt sich auf statistische Prinzipien, um die Ergebnisse eines Tests statistisch gültig zu bestimmen. Die Adobe [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html) hilft Ihnen dabei, die Zeitdauer für die Ausführung eines Tests basierend auf der erforderlichen Ergebnissicherheit zu bestimmen. Klicken Sie in diesem Feld auf den Link [!UICONTROL Weitere Informationen], um den Rechner zu öffnen und zu verwenden.
+[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html) von Adobe hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in das Ergebnis zu bestimmen. Klicken Sie auf den Link [!UICONTROL Weitere Informationen] in diesem Feld, um den Rechner zu öffnen.
 
 ### Wie wichtig ist diese Aktivität?
 
-Keine Organisation verfügt über unbegrenzte Ressourcen, um alle von ihr gewünschten Test- und Personalisierungs-Aktivitäten auszuführen. Verwenden Sie diesen Bereich, um eine Nummer zuzuweisen, z. B. zwischen 1 und 5 oder eine Beschriftung mit einem niedrigen, mittleren oder hohen Wert, um die relative Bedeutung dieser Aktivität für das Unternehmen widerzuspiegeln. In vielen Fällen erfolgt die Priorisierung einer Aktivität, indem man den Aufwand, die Zeit und die Kosten für die Einrichtung einer Aktivität im Vergleich zur Höhe der möglichen Auszahlung berücksichtigt.
+Keine Organisation verfügt über unbegrenzte Ressourcen, um alle nur denkbaren Test- und Personalisierungsaktivitäten tatsächlich zu verwirklichen. Vergeben Sie in diesem Bereich eine Zahl, z. B. zwischen 1 und 5, oder eine andere Art von Bewertung für die relative Bedeutung dieser Aktivität für das Unternehmen, z. B. „niedrig“, „mittel“ oder „hoch“. Bei der Priorisierung einer Aktivität empfiehlt es sich, den Aufwand, die Zeit und die Kosten für die Einrichtung der Aktivität dem Nutzen der Aktivität für das Unternehmen gegenüberzustellen.
 
 ### Was sind die Ergebnisse?
 
-Nachdem die Aktivität abgeschlossen ist, führen Sie ein Dokument der Ergebnisse durch, wobei Sie sicherstellen, dass diese Ergebnisse mit der ursprünglichen Hypothese, allen wichtigen Audiencen, die Sie in der Aktivität verwendet haben, und den oben genannten primären und sekundären Erfolgsmetriken, mit denen Sie die Aktivitäten bewerten möchten, verknüpft werden. Im nächsten Kapitel geht es darum, die Ergebnisse dieser Aktivität zu kommunizieren.
+Nach Abschluss der Aktivität müssen Sie die Ergebnisse dokumentieren. Stellen Sie sicher, dass Sie eine Verbindung zwischen den Ergebnissen und der ursprünglichen Hypothese, allen wichtigen Zielgruppen der Aktivität und der oben genannten primären und sekundären Erfolgsmetrik herstellen, die Sie für die Bewertung des Aktivitätsergebnisses verwenden wollten. Im nächsten Kapitel sprechen wir über die Kommunikation dieser Ergebnisse im Unternehmen.
 
-### Was muss in der Aktivität präzisiert werden? Was sind die nächsten Schritte?
+### Wie kann die Aktivität verbessert werden? Was sind die nächsten Schritte?
 
-Die Ergebnisse Ihrer Aktivität liefern oft Einblicke in die Aktionen, die Sie als Nächstes ausführen sollten. Wenn eine Erlebnisvariante sehr erfolgreich war, sollten Sie diese auf Ihrer Website hartcodieren. Möglicherweise sehen Sie Möglichkeiten, diesen Erfolg auf andere ähnliche Seiten anzuwenden. Die Ergebnisse könnten darauf hindeuten, dass noch mehr getan werden muss, um das Kundenerlebnis auf dieser Seite zu verbessern. Verwenden Sie diesen Bereich, um wichtige Erkenntnisse aus der Aktivität zu Dokument zu nehmen und anhand dieser Lernprozesse Dokument zu geben, was Sie tun werden.
+Die Ergebnisse einer Aktivität liefern oft Einblicke in Aktionen, die als Nächstes notwendig sind. Wenn eine Erlebnisvarianz sehr erfolgreich war, sollten Sie diese auf Ihrer Website hart codieren. Möglicherweise sehen Sie auch Möglichkeiten, diesen Erfolg auf ähnliche Seiten zu übertragen. Vielleicht deuten die Ergebnisse aber auch darauf hin, dass am Kundenerlebnis dieser Seite noch sehr viel mehr optimiert werden muss. Halten Sie in diesem Bereich die wichtigsten Erkenntnisse aus der Aktivität fest und dokumentieren Sie, was auf Grundlage dieser Erkenntnisse als Nächstes zu tun ist.
 
 ## Öffnen Sie [!DNL Target] und erstellen und starten Sie Ihre Aktivität
 
-Sie haben Ihren Aktivitäten-Planer ausgefüllt. Jetzt ist es an der Zeit, in die Lösung einzusteigen und Ihre Aktivität zu bauen. [!DNL Target] macht es sehr einfach, Ihre Webseite im  [!UICONTROL Visual Experience Composer] zu ändern.
+Sie haben den Aktivitätsplaner ausgefüllt. Damit sind Sie bereit, die Lösung zu entwickeln und Ihre Aktivität zu erstellen. [!DNL Target] macht es Ihnen mit dem [!UICONTROL Visual Experience Composer] sehr leicht, Ihre Webseite zu ändern.
