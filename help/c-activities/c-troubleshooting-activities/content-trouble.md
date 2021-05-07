@@ -1,14 +1,14 @@
 ---
-keywords: Mbox debuggen;Fehlerbehebung für Mbox;Mbox-Probleme;Flackern;mboxDebug;mboxTrace;Token;Debugger;Priorität;Aktivitätspriorität;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst Mbox kaufen;bester Verkauf;bestverkauftes Produkt
-description: Hier finden Sie Vorschläge, die Ihnen helfen, Probleme zu beheben, wenn Ihre Seite nicht den erwarteten Inhalt anzeigt. Erfahren Sie, wie Sie Content Versand in Adobe Target debuggen.
-title: Wie kann ich eine Fehlerbehebung für Content Versand durchführen?
+keywords: Mbox debuggen; Fehlerbehebung für Mbox; Mbox-Probleme; Flackern; mboxDebug; mboxTrace; Token; Debugger; Priorität; Aktivitätspriorität; Adobe Experience Cloud Debugger; orderConfirmPage mbox; SiteCatalyst Mbox kaufen; bester Verkauf; bestverkauftes Produkt
+description: Hier finden Sie Tipps zur Fehlerbehebung, wenn der Inhalt auf Ihrer Seite nicht wie erwartet angezeigt wird. Erfahren Sie, wie Sie Fehler bei der Inhaltsbereitstellung beheben.
+title: Wie kann ich Fehler bei der Inhaltsbereitstellung beheben?
 feature: Aktivitäten
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 translation-type: tm+mt
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
 source-wordcount: '1415'
-ht-degree: 59%
+ht-degree: 99%
 
 ---
 
@@ -17,31 +17,31 @@ ht-degree: 59%
 Wenn Ihre Seite nicht den erwarteten Inhalt anzeigt, gibt es ein paar Schritte, die Sie unternehmen können, um eine Fehlerdiagnose für die Inhaltsbereitstellung vorzunehmen.
 
 * Prüfen Sie den Code für Ihre Aktivität bzw. Kampagne sorgfältig. Ein Tippfehler oder ein anderweitiger Fehler könnte die Ursache dafür sein, dass der erwartete Inhalt nicht angezeigt wird.
-* Verwenden Sie mboxTrace oder mboxDebug, um die [!DNL Target]-Anforderung zu beheben.
-* Verwenden Sie den Adobe Experience Cloud Debugger, ein benutzerfreundliches Tool, das viele der gleichen Informationen wie mboxDebug bereitstellt, um die [!DNL Target]-Anforderung zu beheben.
+* Verwenden Sie zur Fehlerbehebung bei [!DNL Target]-Anforderungen mboxTrace oder mboxDebug.
+* Mit Adobe Experience Cloud Debugger erhalten Sie ein intuitives Tool, das für die Fehlerbehebung von [!DNL Target]-Anforderungen fast die gleichen Informationen wie mboxDebug bereitstellt.
 
-mboxDebug ist besonders hilfreich, wenn Sie [!DNL Target] auf Ihrer Seite einrichten, um sicherzustellen, dass die [!DNL Target]-Anforderung ausgelöst und das Cookie gesetzt wird. Jedoch ist mboxDebug nicht so detailliert, wie es für die Fehlerdiagnose bei der Inhaltsbereitstellung nützlich wäre. Wenn Ihre Aktivität nicht auf Ihrer Seite erscheint oder unerwünschter Inhalt eingeblendet wird, verwenden Sie mboxTrace, um die Seite ausführlich zu untersuchen und Fehler zu diagnostizieren.
+mboxDebug ist insbesondere bei der Einrichtung von [!DNL Target] auf Ihrer Seite hilfreich. Es stellt sicher, dass die [!DNL Target]-Anforderung ausgelöst und das Cookie eingerichtet wird. Jedoch ist mboxDebug nicht so detailliert, wie es für die Fehlerdiagnose bei der Inhaltsbereitstellung nützlich wäre. Wenn Ihre Aktivität nicht auf Ihrer Seite erscheint oder unerwünschter Inhalt eingeblendet wird, verwenden Sie mboxTrace, um die Seite ausführlich zu untersuchen und Fehler zu diagnostizieren.
 
 ## Abrufen des Autorisierungstokens zur Verwendung mit Debuggingwerkzeugen {#section_BED130298E794D1FA229DB7C3358BA54}
 
 Da mboxTrace und mboxDebug Kampagnen- und Profildaten für Dritte enthüllen können, ist ein Autorisierungstoken erforderlich. Das Autorisierungstoken kann in der [!DNL Target]-Benutzeroberfläche abgerufen werden. Das Token ist sechs Stunden lang gültig.
 
-Sie benötigen eine der folgenden Benutzerberechtigungen, um ein Authentifizierungstoken zu generieren:
+Für die Generierung eines Authentifizierungstokens benötigen Sie eine der folgenden Benutzerberechtigungen:
 
-* Mindestens [!UICONTROL Berechtigung &quot;Editor]&quot;(oder [!UICONTROL Genehmiger])
+* Mindestens die Berechtigung [!UICONTROL Bearbeiter] (oder [!UICONTROL Genehmiger])
 
-   Weitere Informationen für [!DNL Target Standard]-Kunden finden Sie unter [Rollen und Berechtigungen angeben](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Benutzer*. Weitere Informationen für [!DNL Target Premium]-Kunden finden Sie unter [Unternehmensberechtigungen konfigurieren](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+   Weitere Informationen für [!DNL Target Standard]-Kunden finden Sie unter [Festlegen von Rollen und Berechtigungen](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) für *Benutzer*. Weitere Informationen für [!DNL Target Premium]-Kunden finden Sie unter [Konfigurieren von Enterprise-Berechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
-* Administratorrolle auf der Profil-/Arbeitsbereich-Ebene
+* Administratorrolle auf der Ebene Arbeitsbereich/Produktprofil
 
-   Arbeitsflächen stehen nur für [!DNL Target Premium]-Kunden zur Verfügung. Weitere Informationen finden Sie unter [Unternehmensberechtigungen konfigurieren](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+   Arbeitsbereiche stehen nur [!DNL Target Premium]-Kunden zur Verfügung. Weitere Informationen finden Sie unter [Konfigurieren von Enterprise-Berechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
-* Administratorrechte (Berechtigung &quot;Sysadmin&quot;) auf der [!DNL Adobe Target]-Produktebene
+* Administratorrechte (Berechtigung „Sysadmin“) auf der [!DNL Adobe Target]-Produktebene
 
 So wird das Autorisierungstoken abgerufen:
 
 1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
-1. Klicken Sie im Abschnitt Debugger-Tools auf **[!UICONTROL Neues Authentifizierungstoken erstellen]**.
+1. Klicken Sie im Abschnitt mit den Debuggingwerkzeugen auf **[!UICONTROL Neues Authentifizierungstoken erstellen]**.
 
    ![Neues Authentifizierungstoken erstellen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -51,7 +51,7 @@ So wird das Autorisierungstoken abgerufen:
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-Mit mboxTrace können Sie Ablaufverfolgungsinformationen empfangen, die an [!DNL Target]-Antworten angehängt werden. Trace-Informationen spiegeln das Ergebnis eines [!DNL Target]-Aufrufs (z. B. eine Konversion oder eine Impression) und alle weiteren Daten wider, die dazu beitragen können, festzustellen, warum dieses spezielle Ergebnis eintritt, z. B. eine Reihe verfügbarer Zweige, unter denen die Auswahl in einer Kampagne erfolgte. Verwenden Sie diese Informationen für eine Fehlerdiagnose der Inhaltsbereitstellung.
+Mit mboxTrace können Sie an [!DNL Target]-Antworten angehängte Trace-Informationen abrufen. Trace-Informationen spiegeln das Ergebnis eines [!DNL Target]-Aufrufs(z. B. eine Konversion oder eine Impression) sowie alle weiteren Daten wider, die dazu beitragen festzustellen, weshalb es zu diesem Ergebnis gekommen ist, beispielsweise eine Reihe verfügbarer Niederlassungen, zwischen denen während einer Kampagne eine Auswahl getroffen wurde. Verwenden Sie diese Informationen für eine Fehlerdiagnose der Inhaltsbereitstellung.
 
 Die folgenden Parameter stehen zur Verfügung:
 
@@ -62,7 +62,7 @@ Die folgenden Parameter stehen zur Verfügung:
 | `?mboxTrace=window` | Wird im Pop-up-Fenster als JSON-Zeichenfolge ausgegeben |
 | `?mboxTrace=disable` | Schaltet den Trace-Sitzungsmodus ab |
 
-**Beispiel für einen mboxTrace-Aufruf**
+**Beispiel für mboxTrace-Aufruf**
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
@@ -75,7 +75,7 @@ Ein Teil der Informationen umfasst übereinstimmende und nicht übereinstimmende
 * **Unmatched**: Die Anforderung in diesem Aufruf wurde für diese Segmente oder Ziele nicht zugelassen.
 * **Matched**: Die Anforderung wurde für die angegebenen Segmente oder Ziele zugelassen.
 
-**Verwenden von mboxTrace auf Empfehlungsseiten**: Durch das Hinzufügen von mboxTrace als Abfrage-Parameter auf Seiten mit Empfehlungen wird das Recommendations-Design auf der Seite durch ein mboxTrace-Detailfenster ersetzt, das detaillierte Informationen zu Ihren Empfehlungen enthält, darunter:
+**Verwenden von mboxTrace auf Recommendations-Seiten**: Wenn Sie mboxTrace als Abfrageparameter auf Seiten mit Recommendations hinzufügen, wird das Recommendations-Design der Seite durch ein mboxTrace-Detailfenster ersetzt. In diesem Fenster werden ausführliche Informationen zu Ihren Recommendations angezeigt, darunter:
 
 * Zurückgegebene Empfehlungen im Vergleich zu abgefragten Empfehlungen
 * Der verwendete Schlüssel und ob er Empfehlungen generiert
@@ -90,7 +90,7 @@ Die normale Funktionsweise und Erscheinung Ihrer Website wird durch mboxTrace ni
 
 ## mboxDebug {#mboxdebug}
 
-Ergänzen Sie zur Verwendung von mboxDebug Ihre URL um einen mboxDebug-Parameter. Die folgende Tabelle enthält Informationen zu [!DNL Target] reaktionsbezogenen URL-Parametern.
+Ergänzen Sie zur Verwendung von mboxDebug Ihre URL um einen mboxDebug-Parameter. Die folgende Tabelle enthält Informationen zu URL-Parametern von [!DNL Target] für Antworten.
 
 >[!NOTE]
 >
@@ -98,24 +98,24 @@ Ergänzen Sie zur Verwendung von mboxDebug Ihre URL um einen mboxDebug-Parameter
 
 | URL-Parameter | Zielsetzung |
 |--- |--- |
-| `mboxDebug=1` | Debugger<br>Durch Hinzufügen dieses Parameters zu einer URL mit definierten Zielgruppen-Anforderungen wird ein Popup-Fenster mit wertvollen Debugging-Details geöffnet. Cookie-Informationen, PCid- und Sitzungs-ID-Werte werden ausgeschrieben und alle URLs sind sichtbar. Klicken Sie auf die URL einer Zielgruppe-Anforderung, um die Antwort für diese [!DNL Target]-Anforderung anzuzeigen. Weitere Details finden Sie unter [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
+| `mboxDebug=1` | Debugger<br>Wenn Sie diesen Parameter zu einer URL mit definierten Target-Anforderungen hinzufügen, wird ein Pop-up-Fenster mit hilfreichen Details zur Fehlerbehebung geöffnet. Cookie-Informationen, die PCid und Sitzungs-ID-Werte sind ausgeschrieben und alle URLs sind sichtbar. Klicken Sie auf eine Target-Anforderungs-URL, um die Antwort für diese [!DNL Target]-Anforderung einzublenden. Weitere Details finden Sie unter [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
 | `mboxDebug=x-cookie` | Ändern der Cookies |
 | `mboxDisable=1` | Deaktivieren von Mboxes auf der Seite |
 | `mboxDebug=x-profile` | Anzeigen des Profilsets. |
-| `mboxDebug=x-time` | Ansprechzeit für jede [!DNL Target]-Anforderung anzeigen |
+| `mboxDebug=x-time` | Anzeigen der Reaktionszeiten von [!DNL Target]-Anforderungen |
 | `mboxOverride.browserIp=<Insert IP address>` | Geotargeting-Test<br>Mit diesem URL-Parameter wird das Geotargeting getestet. Geben Sie eine IP-Adresse als Wert für dieses Attribut ein. Daraufhin wertet das Test&amp;Target Geotargeting diese IP-Adresse anhand eines Geotargeting- oder Segmentierungssatzes in einer Kampagne aus. |
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass das URL-Fragment nach den Zeichenfolgenparametern der Abfrage steht. Alles nach dem ersten `#` ist ein Fragmentbezeichner und führt dazu, dass Debugging-Parameter nicht korrekt funktionieren.
+>Geben Sie das URL-Fragment nach den Zeichenfolgeparametern der Abfrage ein. Alles nach dem ersten `#` wird als Fragmentkennung interpretiert und würde dazu führen, dass die Debugging-Parameter nicht korrekt funktionieren.
 
 ## Adobe Experience Cloud-Debugger   {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Problembehebung in Ihrer Target-Implementierung. Hier können Sie schnell Ihre Bibliothekskonfiguration anzeigen, Anfragen untersuchen, um sicherzustellen, dass Ihre benutzerspezifischen Parameter ordnungsgemäß übergeben werden, die Konsolenprotokollierung aktivieren sowie alle Target-Anfragen deaktivieren. Authentifizieren Sie sich im Experience Cloud und verwenden Sie das leistungsstarke MboxTrace-Tool, um Ihre Aktivität- und Audience-Qualifikationen sowie Ihr Besucher-Profil zu überprüfen.
+Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Problembehebung in Ihrer Target-Implementierung. Hier können Sie schnell Ihre Bibliothekskonfiguration anzeigen, Anfragen untersuchen, um sicherzustellen, dass Ihre benutzerspezifischen Parameter ordnungsgemäß übergeben werden, die Konsolenprotokollierung aktivieren sowie alle Target-Anfragen deaktivieren. Nach Ihrer Authentifizierung bei der Experience Cloud können Sie das leistungsstarke Tool „MboxTrace“ verwenden, um Ihre Aktivität und Ihre Zielgruppenqualifikationen sowie Ihr Besucherprofil zu untersuchen.
 
 Weitere Informationen finden Sie in den Schulungsvideos unten:
 
-Weitere Informationen finden Sie unter [Debuggen von at.js mit dem Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+Weitere Informationen finden Sie unter [Debugging von at.js mit dem Adobe Experience Cloud-Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Wenn target.js bei der Bereitstellung nicht geladen wird {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -123,29 +123,29 @@ Mbox.js sendet Besuchern ein Cookie namens „em-disabled“, falls target.js be
 
 ## Topverkäufe werden nicht in Recommendations angezeigt.   {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-Der *`SiteCatalyst: purchase`*-Aufruf kann nicht für Traffic-Daten des Kaufalgorithmus verwendet werden. Verwenden Sie stattdessen den Aufruf *`orderConfirmPage`*.
+Der *`SiteCatalyst: purchase`*-Aufruf kann nicht für Traffic-Daten des Einkaufsalgorithmus verwendet werden. Verwenden Sie stattdessen den Aufruf *`orderConfirmPage`*.
 
-## Priorität der Aktivität {#section_3D0DD07240F0465BAF655D0804100AED} prüfen
+## Aktivitätspriorität prüfen {#section_3D0DD07240F0465BAF655D0804100AED}
 
-Mit [!DNL Target Standard/Premium] erstellte formularbasierte Aktivitäten könnten mit Aktivitäten kollidieren, die in der [!DNL Target Classic]-Benutzeroberfläche erstellt wurden und die dieselbe Priorität haben und dieselbe [!DNL Target]-Anforderung verwenden.
+Formularbasierte Aktivitäten, die mit [!DNL Target Standard/Premium] erstellt wurden, kollidieren möglicherweise mit Aktivitäten, die in der Benutzeroberfläche von [!DNL Target Classic] erstellt wurden und die gleiche [!DNL Target]-Anforderung verwenden.
 
 ## Benutzerdefinierter Code generiert keine erwartungsgemäßen Ergebnisse in Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target unterstützt IE 8 nicht mehr.
 
-## JavaScript-Inhalte, die von der globalen [!DNL Target]-Anforderung bereitgestellt werden, werden bei Verwendung von &quot;mbox.js&quot;nicht geladen. {#section_03EC9B9C410B4F52A7FCD81840311709}
+## Von der globalen [!DNL Target]-Anforderung bereitgestellte JavaScript-Inhalte werden nicht geladen, wenn mbox.js verwendet wird. {#section_03EC9B9C410B4F52A7FCD81840311709}
 
 Führen Sie ein Upgrade auf die [!DNL mbox.js]-Version 58 oder neuer durch.
 
-mbox.js Version 58 und höher führt Nicht-JavaScript-Inhalte für die globale [!DNL Target]-Anforderung unmittelbar nach dem HTML `BODY`-Tag aus. JavaScript-Inhalte innerhalb der Tags für die globale [!DNL Target]-Anforderung werden ausgeführt, nachdem das `DOMContentLoaded`-Ereignis ausgelöst wurde. `<script>` Diese Reihenfolge von Content Versand stellt sicher, dass JavaScript-Inhalte für die globale [!DNL Target]-Anforderung ordnungsgemäß bereitgestellt und gerendert werden.
+mbox.js ab Version 58 führt Nicht-JavaScript-Inhalte der globalen [!DNL Target]-Anforderung unmittelbar nach dem HTML-Tag `BODY` aus. JavaScript-Inhalte innerhalb des Tags `<script>` der globalen [!DNL Target]-Anforderung werden nach der Auslösung des Ereignisses `DOMContentLoaded` ausgeführt. Diese Reihenfolge der Inhaltsbereitstellung gewährleistet, dass JavaScript-Inhalte für die globale [!DNL Target]-Anforderung ordnungsgemäß bereit- und dargestellt werden.
 
-## Zielgruppe-Cookie wird nicht gesetzt {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Target-Cookie wird nicht gesetzt {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 Wenn Ihre Site eine Unterdomäne besitzt, z. B. [!DNL us.domain.com], das Target-Cookie aber auf [!DNL domain.com] gesetzt werden muss (anstatt auf [!DNL us.domain.com]), dann müssen Sie die Einstellung `cookieDomain` überschreiben. Weitere Informationen finden Sie unter [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
 ## Target-Inhalt flackert oder wird nicht angezeigt, wenn ein Element auch Teil einer AEM-Personalisierung ist. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
-Wenn ein DOM-Element zum Adobe Experience Manager (AEM)-Personalisierungstargeting und zu einer Target-Aktivität gehört, flackert der Target-Inhalt möglicherweise, oder er wird nicht angezeigt.
+Wenn ein DOM-Element zum Adobe Experience Manager(AEM)-Personalisierungstargeting und zu einer Target-Aktivität gehört, flackert der Target-Inhalt möglicherweise, oder er wird nicht angezeigt.
 
 Um dies zu beheben, können Sie die AEM-Personalisierung für Seiten deaktivieren, auf denen Target ausgeführt wird.
 
@@ -153,23 +153,23 @@ Um dies zu beheben, können Sie die AEM-Personalisierung für Seiten deaktiviere
 
 Wenn das Umleitungs- oder Remote-Angebot eine ungültige URL verwendet, kann es möglicherweise nicht bereitgestellt werden.
 
-Bei Umleitungs-Angeboten kann die [!DNL Target]-Antwort `/* invalid redirect offer URL */` enthalten.
+Bei Umleitungsangeboten kann die [!DNL Target]-Antwort `/* invalid redirect offer URL */` enthalten.
 
 Oder
 
 Bei Remote-Angeboten kann die [!DNL Target]-Antwort `/* invalid remote offer URL */` enthalten.
 
-Sie können die Antwort [!DNL Target] im Browser oder mit mboxTrace überprüfen. Weitere Informationen zu gültigen URLs finden Sie unter [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
+Sie können die [!DNL Target]-Antwort im Browser oder mit mboxTrace überprüfen. Weitere Informationen zu gültigen URLs finden Sie unter [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
 
-## Anfragen zur Zielgruppe werden nicht auf meiner Site ausgelöst.
+## Target-Anforderungen werden auf meiner Site nicht ausgelöst.
 
-at.js löst keine Anfragen zur Zielgruppe aus, wenn Sie einen ungültigen doctype verwenden. at.js erfordert den Doctype HTML 5.
+at. js löst keine Target-Anforderungen aus, wenn Sie einen ungültigen Doctype verwenden. at.js erfordert den Doctype HTML 5.
 
 ## Schulungsvideos
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Erweiterung hinzufügen  ![Tutorialzeichen](/help/assets/tutorial.png)
+### Erweiterung hinzufügen  ![Tutorial-Badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
@@ -177,6 +177,6 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Mbox Trace ![Tutorial-Abzeichen](/help/assets/tutorial.png)
+### Mbox Trace ![Tutorial-Badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
