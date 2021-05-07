@@ -1,5 +1,5 @@
 ---
-keywords: Begrüßungs-Kit;Zielgruppe-Begrüßungs-Kit;Einführung;Erste Schritte
+keywords: Welcome Kit; Target Welcome Kit; Intro; Einführung; Erste Schritte
 description: Machen Sie sich mit den Fehlern anderer vertraut, damit Sie bei der Verwendung von Adobe [!DNL Target] im Rahmen Ihrer Test- und Personalisierungsstrategie nicht dieselben Fehler machen.
 title: Was sind häufige Fehler bei der Verwendung von [!DNL Target] und wie kann ich sie vermeiden?
 feature: Überblick
@@ -8,29 +8,29 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 3%
+ht-degree: 91%
 
 ---
 
-# Kapitel 6: Einfach vermeidbare Fallstricke
+# Kapitel 6: Vermeidbare Fehler
 
-Das Gute am Start Ihres Optimierungs- und Personalisierungs-Programms ist, dass Menschen, die es schon seit einiger Zeit tun, bereits viele der leicht zu machenden Fehler aufgedeckt haben. Indem Sie diese Fallstricke kennen, können Sie sie leicht vermeiden oder beheben.
+Wenn Sie heute mit Ihrem Optimierungs- und Personalisierungsprogramm beginnen, haben Sie den großen Vorteil, dass vor Ihnen schon viele Menschen über so manchen Fallstrick gestolpert sind, der ohne Erfahrung nicht so leicht zu erkennen ist. Wenn Sie diese Fehler aber kennen, können Sie sie problemlos vermeiden oder beheben.
 
 >[!NOTE]
 >
->Weitere Informationen finden Sie unter [Zehn häufige A/B-Testfallen und wie diese vermieden werden können](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md). Zusätzlich zu den in diesem Artikel präsentierten Ideen sollten Sie diese kurze Liste verwenden, um diese häufig auftretenden Test- und Personalisierungsfehler zu vermeiden oder zu beheben.
+>Weitere Informationen finden Sie im Artikel [Neun häufige Fehler bei A/B-Tests und wie diese vermieden werden](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md). Zusätzlich zu den in diesem Artikel präsentierten Ideen, sollten Sie die folgende kurze Liste stets zur Hand haben, um häufige Test- und Personalisierungsfehler zu vermeiden oder zu beheben.
 
-| Fehler  | Lösung |
+| Fehler | Lösung |
 | --- | --- |
-| Es fehlt genügend Traffic, um statistisch signifikante Ergebnisse zu erzielen. | Verwenden Sie den Adobe Target [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html) im Voraus, um zu verstehen, wie lange der Test ausgeführt werden muss, und führen Sie dann den Test bis zum Abschluss aus. |
-| Eine Veränderung, die zu klein oder unauffällig ist. | Machen Sie die Änderung so substanziell, dass sie sichtbar ist, wenn Sie nur wenige Meter vom Bildschirm entfernt sind. |
-| Nichtübereinstimmung der Aktivitäten mit den Geschäftszielen. | Stärkere Konzentration auf die Priorisierungsmethodik und Weitergabe dieser Methode an interne Interessengruppen. |
-| Wenig oder gar kein Testing-Rückstand. | Interaktive Zusammenarbeit mit internen Interessenvertretern und die Möglichkeit, Tests einzureichen, die mit wichtigen Geschäftszielen im Einklang stehen. |
-| Verlängerung der Aktivität startet vergangene Fristen | Verbessern Sie die Dokumentation für Aktivitäten und fügen Sie spezifische Details zum Testaufbau hinzu. |
-| Auswahl von Erfolgsmetrikdaten für Aktivitäten, die bei der Entscheidungsfindung nicht hilfreich sind. | Dokument aller primären Testmetriken und fügen Sie zusätzliche Metriken hinzu, um weitere Einblicke zu erhalten. |
-| Durchführen von Änderungen während des Tests, die Auswirkungen auf die Ergebnisse haben könnten. | Pflegen Sie einen Kalender der bevorstehenden Promotions und Site-Änderungen. Klar kommunizieren Sie [!DNL Target] Aktivität startet, um Konflikte zu vermeiden. |
-| Ändern von Testerlebnissen oder -kriterien in der Nähe eines Startvorgangs einer Aktivität. | Fordern Sie die Abmeldung wichtiger Interessengruppen zu einem frühen Zeitpunkt der Aktivität des Tests an. |
-| Die Schlussfolgerung einer Aktivität vor den Ergebnissen ist statistisch signifikant. | Überprüfen Sie die Testdauer mit der Adobe [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html). |
-| Das Empfangen negativer oder flacher Ergebnisse erfolgt durch eine [!DNL Target]-Aktivität. | Vergewissern Sie sich, dass die Aktivität getestet werden sollte. |
-| Das erfolgreichste Erlebnis ist nicht schwer zu programmieren. | Verwenden Sie Aktivität-Daten, um den Wert anzuzeigen, der zum Buy-in für die Hartkodierung benötigt wird. |
-| Keine Freigabe der Ergebnisse über das Testteam hinaus. | Erweitern Sie die Kommunikationsmöglichkeiten, um Mittag- und Lerninhalte einzubeziehen, entwickeln Sie ein Programm-Dashboard und planen Sie Treffen mit den Interessenträgern. |
+| Zu wenig Traffic für statistisch signifikante Ergebnisse | Verwenden Sie den Adobe Target [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html) im Voraus, um zu bestimmen, wie lange der Test ausgeführt werden muss, und führen Sie den Test dann auch bis zum Abschluss durch. |
+| Eine Änderung, die zu klein oder unauffällig ist | Nehmen Sie Änderungen vor, die so viel Wirkung zeigen, dass Sie sie auch erkennen können, wenn Sie einige Meter vom Bildschirm entfernt stehen. |
+| Nichtübereinstimmung der Aktivitäten mit den Geschäftszielen | Konzentrieren Sie sich stärker auf die Priorisierungsmethodik und vermitteln Sie diese den internen Stakeholdern. |
+| Wenig oder gar kein Testrückstand | Arbeiten Sie eng mit internen Stakeholdern zusammen und geben Sie ihnen die Möglichkeit, eigene Tests einzureichen, die mit wichtigen Geschäftszielen im Einklang stehen. |
+| Zulassen neuer Aktivitäten noch nach den festgelegten Fristen | Verbessern Sie die Dokumentation zu geplanten Aktivitäten und spezifizieren Sie das Testsetup präzise. |
+| Auswahl von Erfolgsmetrikdaten, die bei der Entscheidungsfindung nicht hilfreich sind | Dokumentieren Sie alle primären Testmetriken und fügen Sie weitere Metriken hinzu, um mehr Einblick zu erhalten. |
+| Änderungen während des Tests, die sich auf die Ergebnisse auswirken | Legen Sie bevorstehende Promotions und Site-Änderungen verbindlich in einem Kalender fest. Kommunizieren Sie den Start von [!DNL Target]-Aktivitäten klar und deutlich, um Konflikte zu vermeiden. |
+| Änderung der Testerlebnisse oder -kriterien kurz vor Beginn einer Aktivität | Fordern Sie die Unterzeichnung durch die wichtigsten Stakeholder schon frühzeitig im Testaktivitätsprozess. |
+| Abschluss einer Aktivität noch vor einer statistischen Signifikanz der Ergebnisse | Berechnen Sie die Testdauer mit dem [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html) von Adobe. |
+| Erhalt negativer oder aussageloser Ergebnisse aus einer [!DNL Target]-Aktivität | Fragen Sie sich, ob eine Aktivität einen Test wert ist. |
+| Versäumnis, das erfolgreichste Erlebnis hart zu codieren | Weisen Sie den Wert eines Setups mit Aktivitätsdaten nach, um Zustimmung für die Hartkodierung zu gewinnen. |
+| Kommunikation der Ergebnisse nicht über das Testteam hinaus | Erweitern Sie die Kommunikation auf „Lunch and Learns“, entwickeln Sie ein Programmdashboard und planen Sie Stakeholder-Meetings. |
