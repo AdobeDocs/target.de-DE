@@ -1,5 +1,5 @@
 ---
-keywords: Schulungsvideos;YouTube;Videos;Videoschulung;Tutorial;Tutorials;Video
+keywords: Schulungsvideos; YouTube; Videos; Videoschulung; Tutorial; Tutorials; Video
 description: Sehen Sie sich Schulungsvideos an, die Ihnen helfen, das Beste aus [!DNL Target] Standard and [!DNL Target] Premium zu machen.
 title: Wo finde ich [!DNL Target] Schulungsvideos?
 feature: Überblick
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 44%
+ht-degree: 78%
 
 ---
 
@@ -32,12 +32,12 @@ Schulungsvideos wurden in die relevanten Themen dieses Leitfadens eingebettet. K
 
 ## Adobe [!DNL Target] - Tutorials und Videos
 
-Eine Sammlung von Anleitungsvideos und Tutorials, die die auf der Seite [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) verfügbaren Funktionen der Zielgruppe hervorheben.
+Eine Sammlung von Videos und Tutorials insbesondere zu den Funktionen von Target finden Sie auf der Seite [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target).
 
 ![Videos zu Experience League](/help/c-intro/assets/experience-league.png)
 
 ## Adobe [!DNL Target] Tutorials {#tutorials}
 
-Auf der Seite [Adobe Target-Tutorials ](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) finden Sie eine Einführung in die Konzepte und Tools.[!DNL Target]
+Einführungsvideos zu Konzepten und Tools von [!DNL Target] finden Sie auf der Seite [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=de).
 
 ![Adobe Target-Tutorials](/help/c-intro/assets/adobe-target-tutorials-new.png)
