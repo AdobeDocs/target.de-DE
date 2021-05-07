@@ -1,20 +1,20 @@
 ---
-keywords: Fehlerbehebung in Target;Problembehebung in Target;Standardinhalte;Test nicht verfügbar;Aktivität nicht verfügbar;Targeting funktioniert nicht;vorheriges Erlebnis erscheint;kann keine Aktivitäten erstellen;Aktivitäten erstellen;Seitenstruktur geändert;Seitenstruktur modifiziert;Fehlermeldung;Fehler beim Löschen von Profilskript;AJAX funktioniert nicht
+keywords: Fehlerbehebung in Target; Problembehebung in Target; Standardinhalte; Test nicht verfügbar; Aktivität nicht verfügbar; Targeting funktioniert nicht; vorheriges Erlebnis erscheint; kann keine Aktivitäten erstellen; Aktivitäten erstellen; Seitenstruktur geändert; Seitenstruktur modifiziert; Fehlermeldung; Fehler beim Löschen von Profilskript; AJAX funktioniert nicht
 description: Suchen Sie nach Empfehlungen zur Fehlerbehebung, falls Ihre Adobe [!DNL Target] Aktivität nicht auf Ihrer Site erscheint.
-title: Wie kann ich Aktivitäten beheben?
+title: Wie kann ich Probleme in Verbindung mit Aktivitäten beheben?
 feature: Aktivitäten
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 75%
+ht-degree: 93%
 
 ---
 
 # Fehlerbehebung bei Aktivitäten
 
-Wenn Ihre [!DNL Adobe Target]-Aktivität nicht auf Ihrer Site angezeigt wird, sollten diese Vorschläge zur Fehlerbehebung Sie bei der Suche nach Ihrer Lösung unterstützen.
+Wenn Ihre [!DNL Adobe Target]-Aktivität nicht auf Ihrer Site erscheint, helfen Ihnen die folgenden Empfehlungen vermutlich bei der Lösung.
 
 >[!NOTE]
 >
@@ -24,9 +24,9 @@ Die folgenden Abschnitte enthalten möglicherweise auftretende Probleme sowie L�
 
 ## Ich habe eine Aktivität mit der [!DNL Target]-Benutzeroberfläche erstellt und kann sie nicht über die API aktualisieren.
 
-Aktivitäten, die mit der Benutzeroberfläche der Zielgruppe erstellt wurden, sollten über die Benutzeroberfläche der Zielgruppe aktualisiert werden. Über API erstellte Aktivitäten sollten über API aktualisiert werden. Wenn Sie beispielsweise eine Aktivität ursprünglich mit der API erstellen, die Aktivität dann später jedoch über die Benutzeroberfläche der Zielgruppe bearbeiten, werden nicht alle Änderungen aktualisiert. Alle Änderungen werden im Backend gespeichert und können durch einen weiteren API-Aufruf aktualisiert werden.
+Aktivitäten, die in der Benutzeroberfläche von Target erstellt wurden, sollten auch über die Benutzeroberfläche aktualisiert werden. Dagegen sollten über die API erstellte Aktivitäten über die API aktualisiert werden. Wenn Sie beispielsweise eine ursprünglich über die API erstellte Aktivität in der Benutzeroberfläche von Target bearbeiten, werden nicht alle Änderungen aktualisiert. Diese Änderungen werden jedoch alle auf dem Backend gespeichert und können durch einen weiteren API-Aufruf aktualisiert werden.
 
-Am besten sollten Sie die Aktivität mit derselben Methode (UI oder API) aktualisieren, mit der die Aktivität ursprünglich erstellt wurde.
+Machen Sie es sich zur Gewohnheit, eine Aktivität immer mit derselben Methode (UI oder API) zu aktualisieren, mit der sie ursprünglich erstellt wurde.
 
 ## Sie sehen Ihren Standardinhalt.
 
@@ -78,7 +78,7 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 Nachdem Sie in Target als Benutzer hinzugefügt wurden, müssen Sie die Rolle „Genehmiger“ haben, damit Sie Aktivitäten erstellen können.
 
 * Bitten Sie den Administrator Ihres Konto darum, Ihnen die Genehmigerrolle zu geben.
-* Wenn Sie der Administrator sind, geben Sie sich die Rolle &quot;Genehmigende Person&quot;von **[!UICONTROL Administration]** > **[!UICONTROL Benutzer]** in der Zielgruppe ein.
+* Falls Sie selbst der Administrator sind, erteilen Sie sich in Target unter **[!UICONTROL Administration]** > **[!UICONTROL Benutzer]** die Rolle „Genehmiger“.
 
    Weitere Informationen finden Sie unter [Zuweisen der Rolle „Genehmiger“](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -107,7 +107,7 @@ Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige v
 
 ## mbox.js verschiebt sämtlichen folgenden Code aus dem Kopf in den Textkörper.
 
-**Validierung:** Betrachten Sie die Quelle, um zu ermitteln, ob der mbox.js-Datei vor dem schließenden `</body>` Tag Deklarationen folgen.
+**Validierung:** Betrachten Sie die Quelle, um zu ermitteln, ob der mbox.js-Datei vor dem schließenden  `</body>` Tag Deklarationen folgen.
 
 **Optionen:**
 
@@ -137,9 +137,9 @@ Führen Sie einen der folgenden Schritte aus:
 * Erneut löschen. Die Erfolgsmeldung wird angezeigt.
 * Warten Sie ungefähr 10 Minuten, bis der Target Standard-/Premium-Importer ausgeführt werden kann. Der Importer aktualisiert die Profilskriptliste.
 
-## Einige AJAX [!DNL Target]-Aufrufe funktionieren nicht.
+## Einige ajax-Aufrufe von [!DNL Target] funktionieren nicht.
 
-**Hinweis:** Mehrere AJAX- [!DNL Target] Aufrufe mit demselben Namen, aber unterschiedlichen Parametern funktionieren nicht auf derselben Seite. Nur der erste Aufruf erfolgt.
+**Hinweis:** Mehrere ajax-Aufrufe von [!DNL Target] mit demselben Namen, aber unterschiedlichen Parametern funktionieren auf derselben Seite nicht. Nur der erste Aufruf erfolgt.
 
 ## Sie haben eine Aktivität mithilfe der API aktiviert, die Aktivität zeigt jedoch in der Benutzeroberfläche [!DNL Target] den Status [!UICONTROL Inaktiv] an.[!DNL Target]
 
