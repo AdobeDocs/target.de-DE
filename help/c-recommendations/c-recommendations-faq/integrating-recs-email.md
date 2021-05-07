@@ -1,18 +1,18 @@
 ---
-keywords: E-Mail; ESP; E-Mail-Serviceprovider; Rawbox; Lieferungs-API; Nur-Download-Vorlage; E-Mail-Vorlage; Batchverarbeitung; Build-Time-E-Mail
+keywords: E-Mail; ESP; E-Mail-Serviceprovider; Rawbox; Bereitstellungs-API; ausschließliche Download-Vorlage; E-Mail-Vorlage; Batchverarbeitung; Build-Time-E-Mail
 description: Erfahren Sie, wie Sie E-Mails mit Adobe [!DNL Target Recommendations], including using the [!DNL Target] Versand-API, Rawbox-Vorlagen und Nur-Herunterladen-Vorlagen integrieren.
-title: Wie integriere ich Recommendations mit E-Mail?
+title: Wie integriere ich E-Mail mit Recommendations?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
 source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
 workflow-type: tm+mt
 source-wordcount: '1524'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Empfehlungen mit E-Mails integrieren
+# ![PREMIUM](/help/assets/premium.png) Empfehlungen mit E-Mails integrieren 
 
 Informationen zu den Methoden zum Integrieren der E-Mail-Funktion in [!UICONTROL Recommendations].
 
@@ -76,15 +76,15 @@ Eine Rawbox ähnelt einer Mbox-Anfrage, die für Nicht-Web-Umgebungen wie E-Mail
 
 >[!NOTE]
 >
->Wenn Sie eine Rawbox und [!DNL Target] verwenden, lesen Sie den wichtigen Sicherheitshinweis unter [Zulassungslisten erstellen, die Hosts angeben, die zum Senden von Mbox-Aufrufen an [!DNL Target]](/help/administrating-target/hosts.md#allowlist) berechtigt sind.
+>Wenn Sie eine Rawbox mit [!DNL Target] verwenden, lesen Sie den wichtigen Sicherheitshinweis unter [Erstellen von Zulassungslisten mit Hosts, die autorisiert sind, Mbox-Aufrufe an zu senden [!DNL Target]](/help/administrating-target/hosts.md#allowlist).
 
-Dieser Ansatz ermöglicht es Ihnen, die Leistung von Empfehlungen in E-Mails zu verfolgen, die E-Mails unter normalen Bedingungen mit einer Empfehlung zu testen und die Verfolgung auf der Site fortzusetzen.
+Dieser Ansatz ermöglicht es Ihnen, die Leistung von Recommendations in E-Mails zu verfolgen, die E-Mails unter normalen Bedingungen mit einer Empfehlung zu testen und die Verfolgung auf der Site fortzusetzen.
 
 Richten Sie eine [!DNL Recommendations]-Aktivität in [!DNL Target] mit der Option [Formularbasierter Erlebniseditor](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ein. Wählen Sie als Speicherort den Namen der Mbox aus, die Sie für die Rawbox-Anfrage des ESP gewählt haben. Wählen Sie das passende Design für Ihre E-Mail aus. Zum Zeitpunkt des E-Mail-Aufbaus generiert der ESP einen Aufruf an die [!DNL Target]-Server für jede Rawbox in jeder E-Mail-Nachricht, die erstellt wird. Ihr ESP muss über eine Möglichkeit verfügen, den zurückgegebenen HTML-Code beim Senden in die E-Mail einzuschließen.
 
 Das von Ihnen verwendete E-Mail-System muss in der Lage sein, folgende Szenarios zu handhaben:
 
-### Eingang einer gültigen Antwort ohne vorhandene Empfehlungen
+### Eingang einer gültigen Antwort ohne vorhandene Recommendations
 
 * In diesem Fall ist die Antwort der Parameterwert `mboxDefault`. Eine Erläuterung dieses Parameters finden Sie unten.
 * Der E-Mail-Anbieter sollte in diesem Fall über einen Standard-HTML-Block für Empfehlungen verfügen.
@@ -121,7 +121,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Erforderlich für bestimmte Kriterientypen: Ansicht/Ansicht, Ansicht/Gekauft, Gekauft/Gekauft) | *entity_id* | Die „productId“, auf der die Empfehlung beruht, beispielsweise ein in den Einkaufskorb gelegtes, aber nicht erworbenes Produkt oder ein in der Vergangenheit getätigter Einkauf.<br>Falls von den Kriterien gefordert, muss der Rawbox-Aufruf `entity.id` enthalten. |  |
 | `entity.event.detailsOnly` | wahr | Wenn Sie weitergereicht werden, `entity.id` wird dringend empfohlen, diesen Parameter zu übergeben, um zu verhindern, dass die Anforderung die Anzahl der Seitenansichten für ein Element erhöht, sodass produktansichtsbasierte Algorithmen nicht verfälscht werden. |  |
 | `entity.categoryId`<br>(Für bestimmte Kriterientypen erforderlich: am häufigsten angezeigt nach Kategorie und Topverkäufe nach Kategorie) | *category_id* | Die Kategorie, auf der die Empfehlung basiert, beispielsweise die Topverkäufe einer Kategorie.<br>Falls von den Kriterien gefordert, muss der Rawbox-Aufruf `entity.categoryId` enthalten. |  |
-| `mboxDefault` | *`https://www.default.com`* | Ist der Parameter `mboxNoRedirect` nicht vorhanden, sollte `mboxDefault` eine absolute URL sein, die Standardinhalte zurückgibt, wenn keine Empfehlung verfügbar ist. Diese URL kann ein Bild oder ein anderer statischer Inhalt sein.<br>Wenn der `mboxNoRedirect`-Parameter vorhanden ist, kann es sich bei `mboxDefault` um einen beliebigen Text handeln, der angibt, dass es keine Empfehlungen gibt wie z. B. `no_content`.<br>Der E-Mail-Anbieter muss den Fall bearbeiten, in dem dieser Wert zurückgegeben wird, und Standard-HTML in die E-Mail einfügen.  <br> **Best Practice** im Bereich Sicherheit: Wenn die in der  `mboxDefault` URL verwendete Domäne nicht auf die Zulassungsliste gesetzt wird, können Sie der Gefahr einer Open-Redirect-Verwundbarkeit ausgesetzt sein. Um die unbefugte Verwendung von Weiterleitungs-Links oder `mboxDefault` durch Dritte zu vermeiden, empfiehlt Adobe die Verwendung von &quot;autorisierten Hosts&quot;zur Zulassungsliste der Standard-Umleitungs-URL-Domänen. Zielgruppe verwendet Hosts für Zulassungslisten-Domänen, zu denen Sie Umleitungen zulassen möchten. Weitere Informationen finden Sie unter [Erstellen Sie Zulassungslisten, die Hosts angeben, die zum Senden von Mbox-Aufrufen an [!DNL Target]](/help/administrating-target/hosts.md#allowlist) in *Hosts* berechtigt sind. |  |
+| `mboxDefault` | *`https://www.default.com`* | Ist der Parameter `mboxNoRedirect` nicht vorhanden, sollte `mboxDefault` eine absolute URL sein, die Standardinhalte zurückgibt, wenn keine Empfehlung verfügbar ist. Diese URL kann ein Bild oder ein anderer statischer Inhalt sein.<br>Wenn der `mboxNoRedirect`-Parameter vorhanden ist, kann es sich bei `mboxDefault` um einen beliebigen Text handeln, der angibt, dass es keine Empfehlungen gibt wie z. B. `no_content`.<br>Der E-Mail-Anbieter muss den Fall bearbeiten, in dem dieser Wert zurückgegeben wird, und Standard-HTML in die E-Mail einfügen.  <br> **Best Practice** im Bereich Sicherheit: Wenn die in der  `mboxDefault` URL verwendete Domäne nicht auf die Zulassungsliste gesetzt wird, kann das Risiko einer Open-Redirect-Verwundbarkeit bestehen. Um die unbefugte Verwendung von Weiterleitungs-Links oder `mboxDefault` durch Dritte zu vermeiden, empfiehlt Adobe die Verwendung von &quot;autorisierten Hosts&quot;zur Zulassungsliste der Standard-Umleitungs-URL-Domänen. Target verwendet Hosts, um Domänen auf die Zulassungsliste zu setzen, für die Umleitungen erlaubt sind. Weitere Informationen finden Sie im Abschnitt *Hosts* unter [Erstellen von Zulassungslisten mit Hosts, die autorisiert sind, Mbox-Aufrufe an zu senden [!DNL Target]](/help/administrating-target/hosts.md#allowlist). |  |
 | `mboxHost` | *mbox_host* | Die Domäne, die der Standardumgebung (Hostgruppe) hinzugefügt wird, wenn der Aufruf erfolgt. |  |
 | `mboxPC` | Empty | (Für Empfehlungen erforderlich, die das Profil eines Besuchers verwenden.)<br>Wenn keine „thirdPartyId“ angegeben wurde, wird eine neue „tntId“ generiert und als Teil der Antwort zurückgegeben. Ansonsten wird kein Wert angegeben.<br>**Hinweis**: Stellen Sie sicher, dass Sie einen eindeutigen Wert für `mboxSession` und `mboxPC` für jeden einzelnen E-Mail-Empfänger angeben (d. h. für jeden API-Aufruf). Wenn Sie keine eindeutigen Werte für diese Felder angeben, kann die API-Antwort aufgrund der großen Anzahl von Ereignissen, die in einem Profil generiert wurden, verlangsamen oder fehlschlagen. | 1 &lt; Länge &lt; 128<br>Darf nicht mehr als einen einzelnen „.“ (Punkt) enthalten.<br>Der einzig zulässige Punkt ist derjenige vor dem Suffix für den Profilspeicherort. |
 
