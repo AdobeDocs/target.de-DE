@@ -6,9 +6,9 @@ feature: 'at.js '
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 76%
 
 ---
@@ -47,7 +47,7 @@ Das asynchrone Laden von at.js eignet sich hervorragend, um zu verhindern, dass 
 
 Sie können das Flackern verhindern, indem Sie einen vorab ausgeblendeten Ausschnitt verwenden, der sichtbar ist, nachdem die relevanten HTML-Elemente von [!DNL Target] personalisiert wurden. 
 
-at.js kann asynchron geladen werden, entweder direkt auf der Seite eingebettet oder über einen Tag-Manager (Adobe Launch, Dynamischer Tag-Manager (DTM) usw.).
+at.js kann asynchron geladen werden, entweder direkt auf der Seite eingebettet oder über einen Tag-Manager (z. B. [!DNL Adobe Experience Platform Launch]).
 
 Wenn at.js auf der Seite eingebettet ist, muss das Codefragment vor dem Laden von at.js hinzugefügt werden. Wenn Sie at.js über einen Tag-Manager laden, der auch asynchron geladen wird, müssen Sie das Snippet vor dem Laden des Tag-Managers hinzufügen. Wenn der Tag-Manager synkronisch geladen wird, kann das Skript vor &quot;at.js&quot;im Tag-Manager enthalten sein.
 
