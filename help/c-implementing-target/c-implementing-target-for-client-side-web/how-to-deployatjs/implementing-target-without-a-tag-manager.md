@@ -6,16 +6,16 @@ feature: Serverseitige Implementierung
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 52%
+source-wordcount: '1687'
+ht-degree: 53%
 
 ---
 
 # [!DNL Target] ohne Tag-Manager implementieren
 
-Informationen zur Implementierung von [!DNL Adobe Target] ohne Verwendung eines Tag-Managers ([!DNL Adobe Experience Platform Launch] oder [!DNL Dynamic Tag Manager]).
+Informationen zur Implementierung von [!DNL Adobe Target] ohne Verwendung eines Tag-Managers ([!DNL Adobe Experience Platform Launch]).
 
 >[!NOTE]
 >
@@ -181,7 +181,7 @@ So laden Sie [!DNL at.js] mithilfe der API herunter.
 
 at.js sollte im `<head>`-Element jeder Seite Ihrer Website implementiert werden.
 
-Eine typische Implementierung von Zielgruppe, die keinen Tag-Manager wie [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) oder [Dynamisches Tag-Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) verwendet, sieht wie folgt aus:
+Eine typische Implementierung von Zielgruppe, die keinen Tag-Manager wie [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) verwendet, sieht wie folgt aus:
 
 ```
 <!doctype html> 
