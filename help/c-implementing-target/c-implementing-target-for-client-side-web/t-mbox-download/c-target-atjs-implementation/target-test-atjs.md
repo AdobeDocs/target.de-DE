@@ -2,28 +2,20 @@
 keywords: at.js;Nicht-Produktion;Nicht-Produktion;Bereitstellung
 description: Erfahren Sie mehr über die ältere Implementierung von "mbox.js"in Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
 title: Wie stelle ich at.js in einer Nicht-Produktions-Umgebung bereit?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 607b2b5b-bb2a-4443-abc0-452b421fc009
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 82%
+source-wordcount: '306'
+ht-degree: 80%
 
 ---
-
 
 # &quot;at.js&quot;in einer Nicht-Produktions-Umgebung bereitstellen
 
 Informationen zur sicheren Bereitstellung von „at.js“ in einer Nicht-Produktionsumgebung.
-
-## DTM-Staging bereitstellen
-
-Wenn Sie DTM verwenden, können Sie at.js ganz einfach in Ihrer Adobe Target-Toolkonfiguration speichern.
-
-Speichern Sie die Bibliothek und verwenden Sie das DTM-Wechseltool, um sie mit Ihrem Produktionscode zu testen. Dadurch können Sie Ihre Adobe-Berater auch besser unterstützen.
-
-Weitere Informationen finden Sie unter [Option 3: Manuelle Implementierung von Target mit in DTM gehosteter JavaScript-Target-Bibliothek](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) im Abschnitt *Best Practices zur Implementierung von Adobe Target mit Dynamic Tag Management*.
 
 ## Chrome-Erweiterung „Requestly“ zum Zuordnen einer anderen Datei verwenden
 
