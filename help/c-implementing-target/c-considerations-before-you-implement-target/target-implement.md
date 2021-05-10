@@ -1,13 +1,13 @@
 ---
-keywords: Dokument.write;Zielgruppe;implementieren;Zielgruppe implementieren;dtm;dynamisches Tag-Management;at.js;mbox.js;Zielgruppe.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
+keywords: Dokument.write;Zielgruppe;implementieren;Zielgruppe implementieren;dtm;at.js;mbox.js;Zielgruppe.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
 description: Implementieren Sie Adoben [!DNL Target] by referencing the [!DNL Target] Bibliotheken (at.js oder mbox.js) auf Ihren Webseiten.
 title: Erläuterung der  [!DNL Target] -JavaScript-Bibliotheken
 feature: Implementierung
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 23%
+source-wordcount: '473'
+ht-degree: 24%
 
 ---
 
