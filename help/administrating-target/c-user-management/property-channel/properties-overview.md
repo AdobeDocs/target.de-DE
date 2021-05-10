@@ -6,9 +6,9 @@ feature: Administration und Konfiguration
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1454'
 ht-degree: 66%
 
 ---
@@ -29,7 +29,7 @@ In der folgenden Tabelle sind alle Aufgaben aufgeführt, die Sie zur Erstellung 
 | 2. Arbeitsbereich (Produktprofil) erstellen | [!DNL Adobe Admin Console for Enterprise] |
 | 3. Benutzergruppen erstellen (optional) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. Eigenschaften erstellen | [!DNL Target] Benutzeroberfläche |
-| 5: Implementierung aktualisieren, sodass der Parameter `at_property` enthalten ist | [!DNL Target]-Benutzeroberfläche, Funktionen „at.js“, [!DNL Adobe Launch] oder [!DNL Dynamic Tag Management] |
+| 5: Implementierung aktualisieren, sodass der Parameter `at_property` enthalten ist | [!DNL Target] UI, at.js-Funktionen oder  [!DNL Adobe Experience Platform Launch] |
 | 6: Rollen und Berechtigungen festlegen | [!DNL Adobe Admin Console for Enterprise] |
 
 Gehen Sie für die in [!DNL Adobe Admin Console for Enterprise] ausgeführten Aufgaben wie folgt vor, um auf die Konsole zuzugreifen:
@@ -151,12 +151,6 @@ Um die Benutzerberechtigungsfunktion von [!DNL Target] zu verwenden, müssen Sie
 
       Weitere Informationen finden Sie unter [Hinzufügen Global Zielgruppe Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in der *Adobe Experience Platform Launch*-Dokumentation.
 
-   * **Über einen „globalen Parameter“ im [!DNL Dynamic Tag Management]:**
-
-      ![](assets/property_token_2.png)
-
-      Weitere Informationen finden Sie unter [Globale Parameter - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target) in der *Produktdokumentation des Dynamic Tag Management*.
-
    * **Mithilfe der Funktion targetPageParams():** Platzieren Sie den folgenden Code in den  `<head>` Tags oberhalb der Referenz &quot;at.js&quot;oder &quot;mbox.js&quot;.
 
       ![](assets/property_token_1.png)
@@ -194,7 +188,7 @@ Um die Benutzerberechtigungsfunktion von [!DNL Target] zu verwenden, müssen Sie
    | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
    | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
    | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-   | Publisher | Ähnlich wie bei der Rolle &quot;Beobachter&quot;(Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Die Rolle &quot;Herausgeber&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
+   | Publisher | Ähnlich wie bei der Rolle &quot;Beobachter&quot;(Aktivitäten können zwar Ansicht, aber nicht erstellt oder bearbeitet werden). Jedoch verfügt die Rolle Publisher zusätzlich über die Berechtigung zum Aktivieren von Aktivitäten. |
 
    Weitere Informationen finden Sie unter [Verwalten von Produktberechtigungen und Rollen in der Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) im *Enterprise-Benutzerhandbuch*.
 
