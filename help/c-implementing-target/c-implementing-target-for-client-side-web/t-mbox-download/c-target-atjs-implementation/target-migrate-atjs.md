@@ -6,10 +6,10 @@ feature: 'at.js '
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 96%
+source-wordcount: '856'
+ht-degree: 92%
 
 ---
 
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um eine Migration von [!DNL mbox.js] zu [!DNL at.js] du
 
    **Verwenden Sie einen Tag-Manager?**
 
-   * Dynamic Tag Management
+   * Adobe Experience Platform Launch
    * Ensighten
    * Tealium
    * Signal/BrightTag
@@ -86,7 +86,11 @@ Gehen Sie wie folgt vor, um eine Migration von [!DNL mbox.js] zu [!DNL at.js] du
 
    >[!NOTE]
    >
-   >Wenn Sie derzeit keinen Tag-Manager zur Bereitstellung von [!DNL Target] nutzen, ist jetzt ein guter Moment, darüber nachzudenken. Das [Dynamic Tag Management](https://dtm.adobe.com) von Adobe ist für [!DNL Target]-Kunden kostenlos und wird als Bereitstellungsoption für [!DNL Target] wärmstens empfohlen. Weitere Informationen finden Sie in den [Best Practices für die Implementierung von Adobe Target mit Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
+   >Wenn Sie derzeit keinen Tag-Manager zur Bereitstellung von [!DNL Target] nutzen, ist jetzt ein guter Moment, darüber nachzudenken.
+   >
+   >[!DNL Platform Launch] ist die Tag-Management-Plattform der nächsten Generation  [!DNL Adobe] und die bevorzugte Methode zur Implementierung  [!DNL Adobe Target]. [!DNL Platform Launch] bietet Kunden eine einfache Möglichkeit, die Analyse-, Marketing- und Werbetags bereitzustellen und zu verwalten, die zur Nutzung relevanter Kundenerlebnisse erforderlich sind.
+   >
+   >Weitere Informationen finden Sie unter [Implementieren [!DNL Target] mit [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 1. Stellen Sie sicher, dass alle Aktivitäten und Integrationen ordnungsgemäß funktionieren.
 
