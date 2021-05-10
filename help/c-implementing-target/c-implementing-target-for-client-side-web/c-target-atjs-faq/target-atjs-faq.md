@@ -6,10 +6,10 @@ feature: 'at.js '
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 92%
+source-wordcount: '2687'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +90,7 @@ In at.js 1.0.0 kann die Target-Bibliothek asynchron geladen werden.
 
 So laden Sie at.js asynchron:
 
-* Die empfohlene Vorgehensweise erfolgt über einen Tag-Manager wie Adobe Launch oder Adobe Dynamic Tag manager (DTM). Weitere Informationen finden Sie in der Lektion [Hinzufügen Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) des Lehrgangs [Implementieren des Experience Cloud in Websites mit Start](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
+* Der empfohlene Ansatz ist [!DNL Adobe Experience Platform Launch]. Weitere Informationen finden Sie in der Lektion [Hinzufügen Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) des Lehrgangs [Implementieren des Experience Cloud in Websites mit Start](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 * Sie können at.js auch asynchron laden, indem Sie dem Skript-Tag zum Laden von at.js das asynchrone Attribut hinzufügen. Sie sollten Folgendes verwenden:
 
    ```
