@@ -1,24 +1,23 @@
 ---
 keywords: implementieren;implementieren;Implementierung;Tag-Manager;DTM;at.js;Dynamic Tag Management
 description: Erfahren Sie, wie Sie die Adobe [!DNL Target] at.js-Bibliothek mithilfe des Legacy-Dynamischen Tag-Managements (DTM) implementieren. Adobe Launch ist die bevorzugte Methode zur Implementierung von [!DNL Target].
-title: 'Kann ich das dynamische Tag-Management (DTM) verwenden? [!DNL Target] '
+title: Kann ich [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM) implementieren?
 feature: Serverseitige Implementierung
 role: Developer
 exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 59%
+source-wordcount: '99'
+ht-degree: 10%
 
 ---
 
-# [!DNL Target] mithilfe des dynamischen Tag-Managements (DTM) implementieren
+# [!DNL Target] mithilfe von [!DNL Dynamic Tag Manager] (DTM) implementieren
 
-Das Dynamic Tag Management (DTM) ist der alte Tag-Manager von Adobe.
+[!DNL Adobe Dynamic Tag Manager] ist ein älteres Produkt und wird nicht mehr unterstützt. Für eine optimale Implementierung wird die Verwendung von [!DNL Adobe] empfohlen.[!DNL Adobe Experience Platform Launch]
 
->[!IMPORTANT]
->
->[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ist die bevorzugte und aktuelle Methode zur Implementierung von Target und der „at.js“-Bibliothek. Verwenden Sie für alle neuen Target-Implementierungen Launch. Die folgende Anleitung ist für bestehende Kunden bestimmt, die eine DTM-Implementierung nutzen.
+[!DNL Platform Launch] ist die Tag-Management-Plattform der nächsten Generation  [!DNL Adobe] und die bevorzugte Methode zur Implementierung  [!DNL Adobe Target]. [!DNL Platform Launch] bietet Kunden eine einfache Möglichkeit, die Analyse-, Marketing- und Werbetags bereitzustellen und zu verwalten, die zur Nutzung relevanter Kundenerlebnisse erforderlich sind.
 
-Weitere Informationen finden Sie in den [Best Practices für die Implementierung von Adobe Target mit Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
+Weitere Informationen finden Sie unter [Implementieren [!DNL Target] mit [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+
