@@ -6,25 +6,24 @@ feature: Serverseitige Implementierung
 role: Developer
 exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 49%
+source-wordcount: '255'
+ht-degree: 32%
 
 ---
 
 # Implementieren von „at.js“
 
-Informationen zur Implementierung der Adobe Target-JavaScript-Bibliothek at.js mithilfe von Adobe Launch, ohne Tag-Manager oder mithilfe des Dynamic Tag Management (DTM) von Adobe..
+Informationen zum Bereitstellen der Adobe Target JavaScript-Bibliothek &quot;at.js&quot;mit Adobe Experience Platform Launch oder ohne Tag-Manager.
 
 Sie können at.js mithilfe der folgenden Methoden bereitstellen:
 
-* **[Implementieren von Target mithilfe von Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**: Launch ist die Tag-Management-Plattform der nächsten Generation von Adobe und die bevorzugte Methode zur Implementierung von Adobe Target. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind.
-* **[Implementieren von Target ohne einen Tag-Manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)**: Sie können Target ohne Verwendung eines Tag-Managers (Adobe Launch oder Dynamic Tag Management) implementieren.
-* **[Zielgruppe mithilfe des dynamischen Tag-Managements](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)** implementieren: Sie können Zielgruppen mithilfe der Adobe Dynamisches Tag-Management (DTM), des alten Tag-Managers der Adobe, implementieren. Adobe Launch ist die bevorzugte und aktuelle Methode zur Implementierung von Target und der „at.js“-Bibliothek. Verwenden Sie für alle neuen Target-Implementierungen Launch.
+* **[ [!DNL Target] Implementieren von mithilfe von [!DNL Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**: Launch ist die Tag-Management-Plattform der nächsten Generation von Adobe und die bevorzugte Methode zur Implementierung von Adobe Target. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind.
+* **[Zielgruppe ohne Tag-Manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)** implementieren: Sie können Zielgruppen ohne Verwendung eines Tag-Managers implementieren ([!DNL Platform Launch]).
 * **Implementieren Sie die Zielgruppe mit einem Drittanbieter-Tag-Manager**:  [Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis ist die bevorzugte Methode zur Implementierung der Zielgruppe. Sie können die Zielgruppe jedoch auch mit einem Drittanbieter-Tag-Manager implementieren, z. B. Tealium, Ensighten, Google Tag usw. Eine Liste der Vorteile der Verwendung von Launch finden Sie unter [Vorteile der Implementierung von at.js mit der Zielgruppe Launch Extension](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304).
 
-   Wenn Sie jedoch wissen, wie Zielgruppen ohne Tag-Manager implementiert werden können, können Sie diese problemlos mit einem Drittanbieter-Tag-Manager implementieren, anstatt at.js im Site-Code fest zu kodieren.
+   Wenn Sie jedoch wissen, wie [!DNL Target] ohne Tag-Manager implementiert werden kann, können Sie diese problemlos mit einem Drittanbieter-Tag-Manager implementieren, anstatt at.js im Site-Code fest zu kodieren.
 
    Im Folgenden finden Sie zwei wichtige Themen, die Ihnen bei der Implementierung der Zielgruppe mit einem Drittanbieter-Tag-Manager helfen:
 
