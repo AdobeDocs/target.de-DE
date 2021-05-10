@@ -6,10 +6,10 @@ feature: Administration und Konfiguration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 75%
+source-wordcount: '1498'
+ht-degree: 72%
 
 ---
 
@@ -95,31 +95,7 @@ Mit dem folgenden Code-Beispiel wird direkt ein benutzerdefinierter [!DNL at.js]
 </html>
 ```
 
-Die folgenden Anweisungen zeigen, wie Sie mit dem dynamischer Tag-Manager (DTM) einen benutzerdefinierten [!DNL at.js]-Eventhandler hinzufügen:
-
-1. Anmelden in DTM.
-1. Gehen Sie zur gewünschten Eigenschaft.
-1. Öffnen Sie das Target-Tool.
-
-   Da DTM keine native Unterstützung für at.js bietet, müssen Sie den Code-Editor verwenden.
-
-1. Hängen Sie im Code-Editor den folgenden Code an [!DNL at.js] an:
-
-   ```json
-   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-     console.log("Request succeeded", e.detail); 
-   });
-   ```
-
-Sie können das folgende Snippet zur [at.js-Setupseite](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) der Bibliotheksfußzeile hinzufügen, wenn Sie alles in einer Datei haben möchten.
-
-```json
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-  console.log("Request succeeded", e.detail); 
-});
-```
-
-## Häufig gestellte Fragen zu Antwort-Token {#section_3DD5F32C668246289CDF9B4CDE1F536D}
+## Antworten-Token - FAQs {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **Welche Rolle wird zum Aktivieren oder Deaktivieren von Antwort-Token benötigt?**
 
@@ -133,7 +109,7 @@ Die Antwort-Token werden zwar angezeigt, at.js kann sie jedoch nicht verwenden.
 
 Die Antwort-Token werden an die Antworten auf die [!DNL at.js]-Zielgruppe gesendet, nicht jedoch an die Antworten auf [!DNL mbox.js].
 
-**Können Target Classic-Plug-ins und Antwort-Token gleichzeitig aktiv sein?**
+**Kann ich  [!DNL Target Classic] Plugins und Antworttokens gleichzeitig aktivieren?**
 
 Plug-ins und Antwort-Token sind parallel verfügbar, Plug-ins werden jedoch in der Zukunft eingestellt.
 
@@ -165,7 +141,7 @@ Wie zuvor erwähnt, agieren Antwort-Token mit den für Benutzer gespeicherten Pr
 
 Target führt in regelmäßigen Abständen eine Aktualisierung der Attribute durch. Nicht aktivierte Attribute werden bei der nächsten Aktualisierung entfernt. Wenn jedoch ein Attribut vorhanden ist, das aktiviert und entfernt wurde (wenn Sie beispielsweise ein als Token verwendetes Profilskript entfernt haben), wird dieses Skript erst nach dessen Deaktivierung aus der Attributliste entfernt. Target entfernt die deaktivierten Attribute erst aus der Liste, wenn sie gelöscht oder umbenannt werden.
 
-## Senden von Daten an Google Analytics via at.js   {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Senden von Daten an Google Analytics über at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Daten können via at.js an Google Analytics gesendet werden, indem Sie auf der HTML-Seite den folgenden Code hinzufügen:
 
@@ -283,7 +259,7 @@ Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen
 </script>
 ```
 
-## Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse ![Tutorialzeichen](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse ![Tutorial-Badge](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Antwort-Token und benutzerspezifische at.js-Ereignisse verwenden können, um Profilinformationen aus Target an Drittanbietersysteme zu übergeben.
 
