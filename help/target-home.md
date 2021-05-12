@@ -4,8 +4,7 @@ title: 'Wo kann ich die Dokumentation finden? [!DNL Target] '
 description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] das Kundenerlebnis personalisieren, um den Umsatz Ihrer Websites, mobilen Sites, Apps und anderer digitaler Kanal zu maximieren.
 feature: Überblick
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-translation-type: tm+mt
-source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 95%
@@ -18,7 +17,7 @@ ht-degree: 95%
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 
-**Zuletzt aktualisiert: 10. Mai 2021 ([siehe Änderungen](r-release-notes/doc-change.md))**
+**Zuletzt aktualisiert: 12. Mai 2021 ([siehe Änderungen](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -32,10 +31,10 @@ In den folgenden Abschnitten finden Sie nützliche Links in diesem Handbuch, die
 
 - [Alle Target-Benutzer](#all)
 - [Marketingexperten](#marketers)
-- [Entwickler](#developers)
+- [Entwickler ](#developers)
 - [Target und Adobe Experience Cloud-Administratoren](#admins)
-- [Analysten](#analysts)
-- [QA-Techniker](#qa)
+- [Analysten ](#analysts)
+- [QA-Techniker ](#qa)
 
 ## Alle [!DNL Target]-Benutzer {#all}
 
@@ -56,7 +55,7 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 - [Erlebnisse und Angebote](c-experiences/experiences.md): Erklärt, wie Sie angeben, welche Inhalte angezeigt werden, wenn ein Besucher die Zielgruppenkriterien für eine Aktivität erfüllt.
 - [Recommendations](c-recommendations/recommendations.md): Erläutert, wie [!DNL Recommendations]-Aktivitäten automatisch Produkte oder Inhalte anzeigen, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
 
-## Entwickler   {#developers}
+## Entwickler {#developers}
 
 - [Target implementieren](c-implementing-target/implementing-target.md): Erklärt die Implementierung von [!DNL Target] in Websites, mobilen Apps, Einzelseitenapps (SPAs) und iOT-/OTT-Plattformen.
 - [Serverseitige Target-APIs](https://developers.adobetarget.com/api/delivery-api/): Beschreibt die Ressourcen der Adobe Target-Bereitstellungs-API.
@@ -69,12 +68,12 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 
 - [Target verwalten](administrating-target/administrating-target.md): Erklärt, wie Benutzer hinzugefügt und Ihr [!DNL Target]-Konto konfiguriert werden kann.
 
-## Analysten   {#analysts}
+## Analysten  {#analysts}
 
 - [Zielgruppen](c-target/target.md): Erklärt, wie Sie festlegen, wer die Inhalte und Erlebnisse Ihrer zielgerichteten Aktivitäten sehen kann.
 - [Berichte](c-reports/reports.md): Erklärt, wie Sie die Leistung Ihrer Aktivitäten interpretieren.
 
-## QA-Techniker   {#qa}
+## QA-Techniker {#qa}
 
 - [Aktivitäten](c-activities/activities.md): Erklärt, wie man [!DNL Target]-Aktivitäten einrichtet und verwaltet und die Qualität sichert.
 
