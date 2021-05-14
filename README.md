@@ -60,3 +60,5 @@ Im öffentlichen Repository werden den Pull-Anforderungen (Pull-Requests) automa
 * **An Autor gesendete Änderung**: Der Autor wurde über die ausstehende Pull-Anforderung informiert.
 * **Ready-To-Merge**: Bereit zur Überprüfung durch unser Pull-Anforderungsteam.
 
+
+
