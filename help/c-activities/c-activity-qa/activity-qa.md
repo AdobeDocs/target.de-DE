@@ -4,11 +4,10 @@ description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] QS-URLs eine durchgä
 title: Wie laute die Qualitätssicherung bei Aktivitäten?
 feature: Aktivitäten
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 78%
+source-wordcount: '1525'
+ht-degree: 79%
 
 ---
 
@@ -21,9 +20,6 @@ Verwenden Sie QS-URLs in [!DNL Adobe Target], um eine einfache End-to-End-Aktivi
 Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-Start in vollem Umfang testen. Die QA-Funktionalität für Aktivitäten beinhaltet Folgendes:
 
 * Links für die Freigabe für Team-Mitglieder, die sich nie ändern oder nie neu generiert werden müssen. Dies ist unabhängig von an den Erlebnissen oder Aktivitäten vorgenommenen Aktualisierungen. Dadurch können Sie Ihre Aktivitäten vollständig über die gesamte User Journey hinweg testen.
-
-   Mit [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) wurde Unterstützung für Vorschauen-Links für [!UICONTROL Automated Personalization]-Aktivitäten hinzugefügt.
-
 * Zielgruppenbedingungen werden optional respektiert, sodass Vermarkter Targeting-Kriterien testen oder Targeting-Kriterien für QA ignorieren können, ohne die Zielgruppenbedingungen erfüllen zu müssen.
 * QA-Berichte werden erfasst, sodass Vermarkter bestätigen können, dass Metriken erwartungsgemäß inkrementiert werden und die QA-Berichtsdaten von den Produktionsberichten separiert bleiben (für Nicht-A4T-Berichte).
 * Die Fähigkeit, ein Erlebnis isoliert oder in Verbindung mit anderen Live-Aktivitäten, die die Kriterien des Versands erfüllen (Seitenanfrage/Zielgruppe/Audience), Vorschau.
@@ -67,8 +63,8 @@ Mithilfe von Aktivitäts-QAs können Sie Ihre Target-Aktivitäten vor dem Live-S
 
 ## Zu beachten {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* Der Link [!UICONTROL Aktivitäts-QA] wird auf der Seite [!UICONTROL Übersicht] aller Aktivitätstypen angezeigt, außer für die automatisierte Personalisierung (AP). Sie können  [Links](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) für AP-Aktivitäten in der Vorschau anzeigen.
-* Vorschaulinks für Aktivitäts-QAs werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Ein erneuter Versuch mit den Vorschau-Links sollte das Problem lösen. Um dieses Problem zu verhindern, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden.
+* Der Link [!UICONTROL Aktivitäts-QA] wird auf der Seite [!UICONTROL Übersicht] aller Aktivitätstypen angezeigt, außer für die automatisierte Personalisierung (AP).
+* Vorschaulinks für die Aktivitäts-QA gespeicherter Aktivitäten werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Ein erneuter Versuch mit den Vorschau-Links sollte das Problem lösen. Um dieses Problem zu verhindern, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden.
 * Aktivitäts-QA-URLs sind für Aktivitäten mit Analytics als Berichtsquelle (A4T) verfügbar. Treffer, die generiert werden, während QA mit Aktivitäts-QA ausgeführt wird, werden in dieselbe Report Suite geleitet, wie die Daten der Aktivität, auch nachdem die Aktivität live geschaltet wurde.
 * Aktivitäts-QA zeigt keinen Inhalt für archivierte Aktivitäten oder Aktivitäten an, deren Enddatum vorüber ist. Wenn Sie eine beendete Aktivität deaktivieren, müssen Sie die Aktivität erneut speichern, damit Aktivitäts-QA funktioniert.
 * In Target Standard/Premium importierte Aktivitäten (beispielsweise aus Target Classic) unterstützen keine QA-URLs.
