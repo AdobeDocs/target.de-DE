@@ -2,21 +2,24 @@
 keywords: Recommendations
 description: Erfahren Sie mehr über die Implementierungsanforderungen für Analytics für [!DNL Target] (A4T) und was Sie beachten sollten, bevor Sie diese Integration implementieren.
 title: Was sollte ich vor der Implementierung von A4T wissen?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 34%
+source-wordcount: '897'
+ht-degree: 33%
 
 ---
 
-# Vor der Implementierung 
+# Bevor Sie Analytics für die Zielgruppe (A4T) mit at.js implementieren
 
 Bei der Datenerfassung treten mehrere Änderungen auf, wenn [!DNL Adobe Analytics] als Berichte-Quelle für [!DNL Adobe Target] (A4T) aktiviert wird.
 
-Bevor Sie sich für die Verwendung dieser Integration entscheiden, überprüfen Sie folgende Abschnitte und berücksichtigen Sie die Auswirkungen auf Ihre Berichtsprozesse:
+Bevor Sie sich für die Verwendung dieser Integration entscheiden, überprüfen Sie folgende Abschnitte und berücksichtigen Sie die Auswirkungen auf Ihre Berichtsprozesse.
+
+>[!NOTE]
+>
+>Dieser Artikel gilt nur für at.js-Implementierungen.
 
 ## Implementierungsanforderungen {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -65,7 +68,7 @@ Diese Steigerung spiegelt sich in allen [!DNL Analytics]-Diensten und -Tools ein
 
 Die Latenz erhöht die Beginn, nachdem Sie den [!DNL Experience Cloud]-Besucher-ID-Dienst implementiert haben, auch wenn Sie diese Integration noch nicht vollständig implementiert haben.
 
-## Zusätzliche ID   {#section_2C1F745A2B7D41FE9E30915539226E3A}
+## Zusätzliche ID  {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
 Alle [!DNL Target]-Aufrufe, die von einer A4T-Aktivität zur Bereitstellung von Inhalten oder zur Aufzeichnung der Zielmetrik verwendet werden, müssen einen entsprechenden [!DNL Analytics]-Treffer haben, der die zusätzliche ID teilt, damit A4T ordnungsgemäß funktioniert.
 
