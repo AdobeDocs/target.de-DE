@@ -5,11 +5,10 @@ title: 'Welche Browser werden unterstützt? [!DNL Target] '
 feature: Implementierung
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 58%
+source-wordcount: '341'
+ht-degree: 48%
 
 ---
 
@@ -34,7 +33,7 @@ Die Inhaltsbereitstellung wurde für folgende Browser und Geräte getestet:
 
 | Gerätetyp | Browser-Version |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 und 10. Im Emulationsmodus getestet.<br>**Hinweis:** at.js 1.3.0 (und neuer) unterstützt nun nicht mehr die Inhaltsbereitstellung für Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (neueste Version, neueste Version minus 1)</li><li>Firefox (neueste Version, neueste Version minus 1)</li></ul> |
+| Windows | <ul><li>Microsoft Internet Explorer 9 und 10. Im Emulationsmodus getestet.<br>**Hinweis**: Content Versand in IE 9 wird nicht mehr mit at.js 1.3.0 (und höher) unterstützt. Content Versand in IE 10, 11 und allen älteren Versionen wird nicht mehr mit at.js 2.5.0 (und höher) unterstützt.</li><li>Internet Explorer 11 <br>**Hinweis**: Content Versand in IE 10, 11 und allen älteren Versionen wird nicht mehr mit at.js 2.5.0 (und höher) unterstützt.</li><li>Microsoft Edge</li><li>Chrome (neueste Version, neueste Version minus 1)</li><li>Firefox (neueste Version, neueste Version minus 1)</li></ul> |
 | Mac | <ul><li>Apple Safari (neueste Version)<br>**Hinweis**: Weitere Informationen zum Umgang von Erstanbieter- und Drittanbieter-Cookies finden Sie unter [Zielgruppe-Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (neueste Version, neueste Version minus 1)</li><li>Chrome (neueste Version, neueste Version minus 1)</li></ul> |
 | Mobiltelefon/Tablet | <ul><li>Apple iOS (neueste Version)</li><li>Android-Geräte und -Tablets (Android 4 und neuer)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
