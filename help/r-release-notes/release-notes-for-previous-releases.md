@@ -4,11 +4,10 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Versionshinweise
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '30801'
-ht-degree: 99%
+source-wordcount: '31074'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +22,32 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise 2021
+
+### at.js Version 2.5.0 (13. Mai 2021)
+
+Diese Version von at.js umfasst die folgenden Erweiterungen und Änderungen:
+
+* [Unterstützung von ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Entscheidungen auf dem Gerät für &quot;at.js&quot;.
+* [Unterstützung ](/help/c-activities/c-activity-qa/activity-qa.md) von Vorschauen für Automated Personalization-Aktivitäten
+
+Mit dieser Version wird auch die Unterstützung für Microsoft Internet Explorer 10, Internet Explorer 11 und alle älteren Versionen entfernt. Microsoft Edge wird in at.js 2.5.0 und höher weiterhin unterstützt.
+
+### Target Standard/Premium 21.4.1 (19. April 2021)
+
+Diese Version enthält die folgenden neuen Funktionen und Erweiterungen. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+
+| Funktion | Details |
+| --- | --- |
+| Unterstützung von Entscheidungen auf dem Gerät für at.js<br>(Datum der Ankündigung) | Die geräteinterne Entscheidungsfindung ermöglicht es Marketingexperten und Entwicklern, Experimente und Personalisierungen im Browser eines Benutzers mit einer Latenz von nahezu null zu ermöglichen.<br>Weitere Informationen finden Sie unter  [Gerätebezogene Entscheidungsfindung für &quot;at.js&quot;.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![](/help/assets/premium.png) PremiumList-basierte Operatoren für Entitäts-Filterregeln | [!DNL Target Recommendations] unterstützt neue Liste-basierte Operatoren für Entitätsfilterregeln. (TGT-39234)<br>Neu hinzugefügte Operatoren umfassen:<br><ul><li>in Liste</li><li>ist nicht in der Liste enthalten</li><li>Liste enthält ein Element in</li><li>Liste enthält kein Element in</li><li>Liste enthält alle Elemente in</li><li>Liste enthält nicht alle Elemente in</li></ul>Weitere Informationen finden Sie unter &quot;Verfügbare Operatoren&quot;in [Dynamische und statische Inklusionsregeln verwenden](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
+
+Diese Version enthält die folgenden Fehlerbehebungen.
+
+* Es wurde ein Fehler behoben, der dazu führte, dass eine Aktivität nach dem Ändern der Audience in [!UICONTROL Alle Besucher] nicht synchronisiert werden konnte. (TGT-40259)
+* Es wurde ein Fehler behoben, der verhinderte, dass Angebot dupliziert wurden, wenn sie an verschiedenen Stellen in den [!UICONTROL Automated Personalization]-Aktivitäten verwendet wurden, obwohl die Option [!UICONTROL Duplikat nicht zulassen] aktiviert war. (TGT-39567)
+* Es wurde ein Fehler behoben, der verhinderte, dass die Seite [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] ordnungsgemäß geladen wurde. (TGT-39918)
+* Es wurde ein Fehler behoben, der dazu führte, dass Eigenschaften dem falschen Arbeitsbereich zugeordnet wurden. (TGT-39869)
+* Es wurde ein Problem behoben, das zu unbegrenztem Laden führte, wenn die Anforderung nach dem Ändern der Umgebung beim Erstellen eines Empfehlungsausschlusses fehlschlug. (TGT-39948)
 
 ### at.js 2.4.1 (23. März 2021)
 
@@ -659,7 +684,7 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.11.1 (12. November 2018) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
+### Target Standard/Premium 18.11.1 (12. November 2018)  {#section_6BBA8B1EE9D241C28E12856A375E97F6}
 
 Die [!DNL Target] Standard-/Premium-Version vom 12. November enthält Backend-Verbesserungen, Fehlerbehebungen und Änderungen. Die [!UICONTROL Personalization Insights]-Berichte sind ab 14. November verfügbar.
 
@@ -788,7 +813,7 @@ Diese Version von [!DNL Target] enthält folgende Verbesserungen, Fehlerbehebung
 * Die Kriterienkarten wurden intuitiver und benutzerfreundlicher gestaltet. (TGT-30469)
 * Die UI-Performance wurde verbessert, damit Seiten schneller geladen werden.
 
-### Target Standard/Premium 18.8.1 (21. August 2018) {#section_66A0030993D54565BE30E56AC9CAC1DA}
+### Target Standard/Premium 18.8.1 (21. August 2018)  {#section_66A0030993D54565BE30E56AC9CAC1DA}
 
 Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
@@ -838,7 +863,7 @@ Diese Version von [!DNL Target] enthält folgende Verbesserungen, Fehlerbehebung
 
 * Wir haben mehrere Verbesserungen eingeführt, die Target noch sicherer als zuvor machen. (TGT-31090, TGT-31089 und TGT-31143)
 
-### Target Standard/Premium 18.7.1 (25. Juli 2018)   {#section_A4A9C20EB677455F84FF0BA389F645E5}
+### Target Standard/Premium 18.7.1 (25. Juli 2018)  {#section_A4A9C20EB677455F84FF0BA389F645E5}
 
 Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
@@ -925,7 +950,7 @@ Diese Version von [!DNL Target] enthält folgende Verbesserungen, Fehlerbehebung
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.6.1 (20. Juni 2018) {#section_B63C660815B245DA9922BE33E03734A1}
+### Target Standard/Premium 18.6.1 (20. Juni 2018)  {#section_B63C660815B245DA9922BE33E03734A1}
 
 Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
@@ -963,7 +988,7 @@ Diese Version von [!DNL Target] enthält folgende Verbesserungen, Fehlerbehebung
 * Die Zeile „Backup“ des Recommendations-CSV-Downloads weist jetzt vorne doppelte gerade Anführungszeichen und ein Sternchen („*“) anstelle eines einfachen Sternchens (*) auf.
 * Das Komma vorne in der Zeile „Top-Verkäufe“ und „Am häufigsten angezeigt“ im Recommendations-CSV-Download wurde entfernt.
 
-### Änderungen an der Target-Plattform (19. Juni 2018)   {#section_0638BD69F3C640479A2A258AD78C0884}
+### Änderungen an der Target-Plattform (19. Juni 2018)  {#section_0638BD69F3C640479A2A258AD78C0884}
 
 Diese Version umfasst die folgende Verbesserung:
 
@@ -977,11 +1002,11 @@ Diese Version umfasst die folgende Verbesserung:
 
    Weitere Informationen finden Sie unter [Mobilgeräte](/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-26714 &amp; TNT-28288)
 
-### Target-Download-API (5. Juni 2018)   {#section_B8729DA10F18433C8D8E01B04F308ED2}
+### Target-Download-API (5. Juni 2018)  {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
 Sie können die Recommendations-Download-API zum Herunterladen Ihrer Empfehlungen in eine CSV-Datei verwenden, die Sie in einem Tabellenkalkulationsprogramm oder einem Texteditor anzeigen können. Um die Sicherheit zu erhöhen, blockiert Target ab **5. Juni 2018** alle HTTP-Anfragen und lässt nur noch HTTPS-Anfragen zu.
 
-### Target Standard/Premium 18.5.1 (22. Mai 2018)   {#section_7C1427793C2A48DBAC39F8290717DC5B}
+### Target Standard/Premium 18.5.1 (22. Mai 2018)  {#section_7C1427793C2A48DBAC39F8290717DC5B}
 
 Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
@@ -1130,7 +1155,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.3.1 (20. März 2018)   {#section_880706BE15544A03A2C951F267F4AEC5}
+### Target Standard/Premium 18.3.1 (20. März 2018)  {#section_880706BE15544A03A2C951F267F4AEC5}
 
 Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
@@ -1242,7 +1267,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.1.1 (23. Januar 2018)   {#section_3A2216543B064D6F82EC03E1F8AEC74D}
+### Target Standard/Premium 18.1.1 (23. Januar 2018)  {#section_3A2216543B064D6F82EC03E1F8AEC74D}
 
 Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
@@ -1336,7 +1361,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.11.1 (8. November 2017)   {#section_324A9B1DA0B14F5999FEE41F15B13A44}
+### Target Standard/Premium 17.11.1 (8. November 2017)  {#section_324A9B1DA0B14F5999FEE41F15B13A44}
 
 Diese Version beinhaltet die folgenden Funktionen und Erweiterungen (die Problemnummern in Klammern dienen der internen Verwendung bei Adobe):
 
@@ -1423,7 +1448,7 @@ Diese Version von [!DNL Target] enthält folgende kundenrelevante Verbesserungen
 * Sie können in der Zielgruppenbibliothek nach Arbeitsbereichen filtern (gilt für Target Premium-Benutzer mit Enterprise-Benutzerberechtigung). (TGT-26813)
 * Es wurden Verbesserungen an der Benutzeroberfläche für Berichte vorgenommen, um eine bessere Scrollfunktionalität in Tabellen sowie eine optimierte Platzierung von Filter-Dropdownlisten zu gewährleisten. (TGT-23713 und TGT-26819)
 
-### Änderungen an der Target-Plattform (13. Oktober 2017)   {#section_6C298C5C3D01415CB4B658EB2166096C}
+### Änderungen an der Target-Plattform (13. Oktober 2017)  {#section_6C298C5C3D01415CB4B658EB2166096C}
 
 <table id="table_8457FAE3508F454F9DFDEF093FBD7E40"> 
  <thead> 
@@ -1552,7 +1577,7 @@ Weitere Informationen finden Sie unter [Zulassen von gemischtem Inhalt in Ihrem 
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.8.1 (22. August 2017) {#section_71A554D072F04B18B359C1626529E5D8}
+### Target Standard/Premium 17.8.1 (22. August 2017)  {#section_71A554D072F04B18B359C1626529E5D8}
 
 <table id="table_AAC16F89060D4CC09762A370B86C0885"> 
  <thead> 
@@ -1603,7 +1628,7 @@ Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen, Korrekturen
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.7.3 (3. August 2017)   {#section_D90CB766679442C7A0642E5D79657674}
+### Target Standard/Premium 17.7.3 (3. August 2017)  {#section_D90CB766679442C7A0642E5D79657674}
 
 <table id="table_C81EA97B251547169BC9681E5DDB4B8F"> 
  <thead> 
@@ -1620,7 +1645,7 @@ Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen, Korrekturen
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.7.2 (27. Juli 2017) {#section_6980EC04D3CF4A00919953B9B10BC472}
+### Target Standard/Premium 17.7.2 (27. Juli 2017)  {#section_6980EC04D3CF4A00919953B9B10BC472}
 
 <table id="table_DB51BD66756F4EBD875ED008B2C7C5D0"> 
  <thead> 
@@ -1637,7 +1662,7 @@ Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen, Korrekturen
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.7.1 (20. Juli 2017) {#section_BB75DE30174F4ADD963451909FB81D74}
+### Target Standard/Premium 17.7.1 (20. Juli 2017)  {#section_BB75DE30174F4ADD963451909FB81D74}
 
 <table id="table_BCE36E0D56804E7B8861858DCF2F380E"> 
  <thead> 
@@ -1718,7 +1743,7 @@ Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen und Korrektu
 
    Dieser Import wird ausgeführt, wenn die Aktivitätenseite geöffnet wird. Die maximale Verzögerung beträgt dabei zehn Minuten. (KB-1526)
 
-### Target Standard/Premium 17.6.2 (22. Juni 2017)   {#section_F0372B07B56E454CB048CE79FF56E9CD}
+### Target Standard/Premium 17.6.2 (22. Juni 2017)  {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
 <table id="table_8C4DB1B83B874E4C85CE9FF352E7B857"> 
  <thead> 
@@ -1754,7 +1779,7 @@ Diese Version von [!DNL Target] umfasst die folgenden Verbesserungen und Fehlerb
 * Es wurde ein Problem behoben, durch das die Anzahl im Aktivitätsdiagramm auf der Benutzeroberfläche mitunter falsch war, wenn die automatische Deduplizierung nach dem Erstellen von Ausschlussgruppen angewendet wurde.
 * Es wurde ein Problem behoben, bei dem die manuellen Einschlüsse auf der Benutzeroberfläche möglicherweise nicht korrekt widergespiegelt wurden, wenn eine vorhandene Aktivität der Ausschlussgruppe bearbeitet wurde.
 
-### Target Standard/Premium 17.6.1 (8. Juni 2017)   {#section_1D05FE23CE3744DDB5D28E933341F575}
+### Target Standard/Premium 17.6.1 (8. Juni 2017)  {#section_1D05FE23CE3744DDB5D28E933341F575}
 
 <table id="table_47117524922A472AA977C652B581B356"> 
  <thead> 
@@ -1815,7 +1840,7 @@ Diese Version von [!DNL Target] konzentriert sich auf Backend-Korrekturen und en
 * Es wurde ein Problem behoben, durch das die Einstellung „Anzahl inkrementieren, Benutzer freigeben &amp; erneute Eingabe zulassen“ in den erweiterten Einstellungen für Aktivitäten nicht korrekt funktionierte. (TNT-26556)
 * Es wurde ein Problem behoben, durch das das Entfernen von Kundenattributdaten aus Target verhindert wurde, nachdem diese auf der Experience Cloud-Benutzeroberfläche mit NULL aktualisiert worden waren. (TNT-26462)
 
-### Änderungen an der Target-Plattform (13. April 2017)   {#section_B59C26405EB7482AA80820D6D39B9C44}
+### Änderungen an der Target-Plattform (13. April 2017)  {#section_B59C26405EB7482AA80820D6D39B9C44}
 
 <table id="table_6167ECB7B44F40DCADF299F46F1F795C"> 
  <thead> 
@@ -1897,7 +1922,7 @@ Diese Version von [!DNL Target] umfasst die folgenden Verbesserungen und Fehlerb
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] 6.2 mit FP-11577 (oder höher) unterstützt jetzt [!DNL at.js]-Implementierungen mit [!UICONTROL Adobe Target Cloud Services]-Integration. Weitere Informationen finden Sie unter [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) und [Integrieren mit Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) in der Dokumentation zu *Adobe Experience Manager 6.2*.
+>[!DNL Adobe Experience Manager] 6.2 mit FP-11577 (oder neuer) unterstützt jetzt [!DNL at.js]-Implementierungen mit der [!UICONTROL Adobe Target Cloud Services]-Integration. Weitere Informationen finden Sie unter [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) und [Integrieren mit Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) in der Dokumentation zu *Adobe Experience Manager 6.2*.
 
 In dieser [!DNL Target]-Version liegt der Schwerpunkt auf Verbesserungen der Benutzerfreundlichkeit und der Leistung. Sie enthält außerdem folgende Verbesserungen und Fehlerbehebungen (die Problemnummern in Klammern dienen Adobe zu internen Zwecken):
 
@@ -1924,7 +1949,7 @@ In dieser [!DNL Target]-Version liegt der Schwerpunkt auf Verbesserungen der Ben
 
    Wenn das nicht gewünscht ist, können Sie einen weiteren Ort zur Aktivität hinzufügen und die globale Mbox diesem Ort zuweisen und ihr Standardinhalt zuteilen. Diese Problemumgehung verbindet die globale Mbox mit der Aktivität und ermöglicht Target die Nutzung der Metrik für die Berichterstellung.
 
-### Änderungen an der Target-Plattform (18. Januar 2017)   {#section_EA41802B2B24426FBA88D25E17DBE360}
+### Änderungen an der Target-Plattform (18. Januar 2017)  {#section_EA41802B2B24426FBA88D25E17DBE360}
 
 <table id="table_3A2CD47252894F119B0E60BF6A9285B0"> 
  <thead> 
@@ -1946,7 +1971,7 @@ In dieser [!DNL Target]-Version liegt der Schwerpunkt auf Verbesserungen der Ben
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.1.1 (19. Januar 2017) {#section_88AFA2F54CF24DF7822CFEBB07DFABE2}
+### Target Standard/Premium 17.1.1 (19. Januar 2017)  {#section_88AFA2F54CF24DF7822CFEBB07DFABE2}
 
 Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
@@ -2022,7 +2047,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 ## Versionen 2016 {#reference_607661929B504CCFAB3791B13C0DCDBE}
 
-### Target Standard/Premium 16.10.2 (8. November 2016) {#section_2FDEFB3D56CC4BD7BC04DBEECFF6E942}
+### Target Standard/Premium 16.10.2 (8. November 2016)  {#section_2FDEFB3D56CC4BD7BC04DBEECFF6E942}
 
 **Fehlerkorrekturen**
 
@@ -2071,7 +2096,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  </tbody> 
 </table>
 
-### Änderungen an der Target-Plattform (10. Oktober 2016) {#section_0761AED70C3E44EA9D8546107B162CC1}
+### Änderungen an der Target-Plattform (10. Oktober 2016)  {#section_0761AED70C3E44EA9D8546107B162CC1}
 
 <table id="table_E3E52A4362724D05A8472DB5F51A2429"> 
  <thead> 
@@ -2136,7 +2161,7 @@ Diese Version umfasst die folgenden Verbesserungen:
 
 * Die Option [!UICONTROL Mit JavaScript rendern] wird derzeit nicht unterstützt, wenn sie im Visual Experience Composer gemeinsam mit benutzerdefiniertem Code verwendet wird.
 
-### Änderungen an der Target-Plattform (September 2016)   {#section_1955146045A247D393DB824669A2A916}
+### Änderungen an der Target-Plattform (September 2016)  {#section_1955146045A247D393DB824669A2A916}
 
 <table id="table_8FDAEED5D84C4C718AB863BD6C383F20"> 
  <thead> 
@@ -2441,7 +2466,7 @@ Die folgenden Probleme sind bekannt:
 * Wenn „JavaScript deaktivieren“ in einer mehrseitigen Aktivität für Seite A ausgewählt wird, wird JavaScript global deaktiviert, obwohl „JavaScript deaktivieren“ nicht für andere Seiten festgelegt wurde.
 * Problem mit der Erlebnisvorschau-URL für Erlebnisse mit Umleitung. Klicken Sie als Workaround in Experience Composer auf **[!UICONTROL Konfigurieren]**, wählen Sie **[!UICONTROL Mehrere Zielgruppen]** und fügen Sie **[!UICONTROL Alle Besucher]** als einzige Zielgruppe hinzu. Speichern Sie dann Ihre Aktivität. Dieser Vorgang wirkt sich nicht auf die Bereitstellung Ihrer Aktivität aus, ermöglicht jedoch die Darstellung der Vorschau. Es ist geplant, das Problem in der Juliversion von Adobe Target zu beheben.
 
-### Neue Implementierungsbibliothek [!DNL Target] at.js 0.8.0 (5. Mai 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
+### Neue [!DNL Target] Implementierungsbibliothek &quot;at.js 0.8.0&quot;(5. Mai 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
 „at.js“ ist die neue Implementierungsbibliothek für Target und ist sowohl auf typische Webimplementierungen als auch auf Einzelseitenanwendungen ausgelegt.
 
@@ -2456,7 +2481,7 @@ Achten Sie bei der Implementierung von „at.js“ auf Folgendes:
 * Aufgrund der asynchronen Implementierung funktionieren ältere Integrationen, wie das Plug-in von Test&amp;Target zu SiteCatalyst, möglicherweise nicht mehr.
 * Alle Aufrufe an Target erfolgen über „XMLHTTPRequest“ und Inhalte werden über JSON zurückgegeben.
 
-### Adobe [!DNL Target] Standard/Premium 16.4.1 Fehlerbehebung (5. Mai 2016) {#section_70552F61E83140C7B4D2A245198B630E}
+### Fehlerbehebung bei Adobe [!DNL Target] Standard/Premium 16.4.1 (5. Mai 2016) {#section_70552F61E83140C7B4D2A245198B630E}
 
 * Die „at.js“-Version 0.8.0 kann nun über die Target-Oberfläche heruntergeladen werden.
 * Änderungen an den Target-APIs. `applyOffer` erfordert jetzt `mbox param [0]`.
