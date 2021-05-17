@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Versionshinweise
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f5047484b7cb113698b9b09f699d4e6a293b0b59
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '413'
 ht-degree: 36%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 36%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 12. Mai 2021**
+**Letzte Aktualisierung: 17. Mai 2021**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -25,11 +25,20 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 >
 >Um potenzielle Probleme mit Ihren Sites zu vermeiden, migrieren Sie zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder der JavaScript-Bibliothek at.js. Weitere Informationen finden Sie unter [Übersicht: Target für clientseitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Adobe Experience Platform Web SDK] (17. Mai 2021)
+## at.js Version 2.5.0 (13. Mai 2021)
+
+Diese Version von at.js umfasst die folgenden Erweiterungen und Änderungen:
+
+* [Unterstützung von ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Entscheidungen auf dem Gerät für &quot;at.js&quot;.
+* [Vorschau ](/help/c-activities/c-activity-qa/activity-qa.md) Linksupport für  [!UICONTROL Automated Personalization] (AP)-Aktivitäten
+
+Mit dieser Version wird auch die Unterstützung für Microsoft Internet Explorer 10, Internet Explorer 11 und alle älteren Versionen entfernt. Microsoft Edge wird in at.js 2.5.0 und höher weiterhin unterstützt. Weitere Informationen finden Sie unter [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
+
+## [!DNL Adobe Experience Platform Web SDK] Version 2.5.0 (24. Mai 2021)
 
 Diese Version von [!DNL Platform Web SDK] unterstützt [!UICONTROL Analytics for Zielgruppe] (A4T) für [!DNL Target]-Umleitungen.
 
-## [!DNL Target Standard/Premium] 21.5.1 (25. Mai 2021)
+## [!DNL Target Standard/Premium] 21.5.1 (8. Juni 2021)
 
 Der Inhalt wird hinzugefügt, sobald das Veröffentlichungsdatum näher rückt.
 
@@ -43,16 +52,7 @@ Diese Version enthält die folgenden neuen Funktionen und Erweiterungen. Die Pro
 
 Diese Version enthält die folgenden Fehlerbehebungen.
 
-* Wird hinzugefügt, wenn sich das Veröffentlichungsdatum nähert.
-
-## at.js Version 2.5.0 (Datum festzulegen)
-
-Diese Version von at.js umfasst die folgenden Erweiterungen und Änderungen:
-
-* [Unterstützung von ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Entscheidungen auf dem Gerät für &quot;at.js&quot;.
-* [Unterstützung ](/help/c-activities/c-activity-qa/activity-qa.md) von Vorschauen für Automated Personalization-Aktivitäten
-
-Mit dieser Version wird auch die Unterstützung für Microsoft Internet Explorer 10 und höher entfernt.
+* Der Inhalt wird hinzugefügt, sobald das Veröffentlichungsdatum näher rückt.
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
