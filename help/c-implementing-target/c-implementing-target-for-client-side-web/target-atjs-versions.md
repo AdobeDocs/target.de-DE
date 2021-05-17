@@ -4,11 +4,10 @@ description: Ansicht der Details zu den Änderungen in den einzelnen Versionen d
 title: Was ist in jeder Version von at.js enthalten?
 feature: 'at.js '
 role: Developer
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '4184'
-ht-degree: 81%
+source-wordcount: '4181'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +22,7 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis ist die bevorzugte Methode zur Aktualisierung von at.js. Extension-Entwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Updates werden in neue Versionen einer Erweiterung verpackt und als Upgrades im Katalog [!DNL Launch] zur Verfügung gestellt. Weitere Informationen finden Sie unter [Erweiterungs-Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) im *Experience Platform Launch-Benutzerhandbuch*.
 
-## at.js 2.5.0 (Ankündigungsdatum)
+## at.js 2.5.0 (13. Mai 2021)
 
 Diese Version von at.js umfasst die folgenden Erweiterungen und Änderungen:
 
@@ -39,38 +38,38 @@ Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterunge
 * Es wurde ein Problem behoben, bei dem `targetPageParams` in Mbox-Anforderungen enthalten war. `targetPageParams` sollte nur in  `pageLoad` Anforderungen enthalten sein. (TNT-40247)
 * Optimierte Fenster- und Dokument-Globalen, die auf die Erweiterung [!DNL Adobe Experience Platform Launch] verweisen. (TNT-37124)
 
-## at.js 2.4.0 (14. Januar 2021)
+## at.js 2.4.0 (14. Januar 2021)
 
-Diese Version von at.js ist ein Maintenance Release und umfasst die folgenden Fehlerbehebungen:
+Diese Version von at.js ist eine Wartungsversion, die die folgenden Fehlerbehebungen enthält:
 
-* Unterstützt Versand-API-KundenIDs mit Unified Profil/Platform ID.
-* Fehlerhafte Tag-Injektion im Stil wurde behoben.
+* Den Kunden-IDs (customerIds) der Bereitstellungs-API wurde Unterstützung für eine einheitliche Profil-/Platform-ID hinzugefügt.
+* Die fehlerhafte Style-Tag-Injektion wurde behoben.
 
 ## at.js 2.3.3 (13. November 2020)
 
-Diese Version von at.js ist ein Maintenance Release und beinhaltet die folgende Fehlerbehebung:
+Diese Version von at.js ist eine Wartungsversion, die die folgende Fehlerbehebung enthält:
 
 * Es wurde ein Problem mit der mbox-Klick-Tracking und A4T behoben. Mit 0n-Klick löste Zielgruppe einen Versand-API-Aufruf mit den richtigen mbox- und mbox-Parametern aus. Die SDID stimmte jedoch nicht mit der im [!DNL Analytics]-Aufruf überein, daher gab es keine Trefferzuordnung und Konvertierung. (TNT-38372)
 
 ## at.js 2.3.2 (24. Juli 2020)
 
-Diese Version von at.js ist ein Maintenance Release und beinhaltet die folgende Fehlerbehebung:
+Diese Version von at.js ist eine Wartungsversion, die die folgende Fehlerbehebung enthält:
 
-* Es wurde ein Fehler behoben, der auftrat, wenn ein Skript oder Code dem Fenster oder Dokument die Standardeigenschaft hinzufügt.
+* Ein Fehler wurde behoben, der auftrat, wenn dem Fenster oder Dokument durch ein Skript oder Code eine Standardeigenschaft hinzugefügt wurde.
 
 ## at.js 1.8.2 (15. Juni 2020)
 
-Diese Version von at.js ist ein Maintenance Release und beinhaltet die folgende Fehlerbehebung:
+Diese Version von at.js ist eine Wartungsversion, die die folgende Fehlerbehebung enthält:
 
-* Es wurde ein Problem bei der Verwendung von CNAME und Edge Override von at.js 1 behoben.*Die Serverdomäne* kann falsch erstellt werden, was dazu führte, dass die  [!DNL Target] Anforderung fehlschlug. (TNT-35064)
+* Ein Problem wurde behoben, dass dazu führte, dass at.js 1.*x* bei Verwendung von CNAME und eines Edge-Override die Serverdomäne nicht korrekt erstellte, wodurch die [!DNL Target]-Anforderung fehl schlug. (TNT-35064)
 
 ## &quot;at.js&quot;Version 2.3.1 (15. Juni 2020)
 
 Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
-* Die Einstellung `deviceIdLifetime` wurde über [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) überschrieben. (TNT-36349)
-* Es wurde ein Problem bei der Verwendung von CNAME und Edge Override von at.js 2 behoben.*Die Serverdomäne* kann falsch erstellt werden, was dazu führte, dass die  [!DNL Target] Anforderung fehlschlug. (TNT-35065)
-* Es wurde ein Fehler behoben, der bei Verwendung der Erweiterung [!DNL Target] [!DNL Launch] und der Erweiterung [!DNL Adobe Analytics] [!DNL Launch] den Aufruf [!DNL Target] verzögerte. [!DNL Analytics]`sendBeacon` (TNT-36407, TNT-35990, TNT-36000)
+* Die Einstellung `deviceIdLifetime` kann nun mit [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) überschrieben werden. (TNT-36349)
+* Ein Problem wurde behoben, dass dazu führte, dass at.js 2.*x* bei Verwendung von CNAME und eines Edge-Override die Serverdomäne nicht korrekt erstellte, wodurch die [!DNL Target]-Anforderung fehl schlug. (TNT-35065)
+* Ein Problem wurde behoben, dass dazu führte, dass [!DNL Target] bei Verwendung von [!DNL Target] [!DNL Launch] Extension v2 und der [!DNL Adobe Analytics] [!DNL Launch]-Erweiterung den [!DNL Analytics]-Aufruf `sendBeacon` verzögerte. (TNT-36407, TNT-35990, TNT-36000)
 
 ## at.js-Version 2.3.0 (25. März 2020)
 
@@ -92,21 +91,21 @@ Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen
 
 * Es wurde ein Problem behoben, bei dem Klick-Tracking keine Konversionen in Analytics für Zielgruppe (A4T) meldete, wenn Adobe Analytics-Code nicht in Seitenelementen vorhanden war.
 * Verbesserte Leistung bei der Verwendung von Experience Cloud ID Service (ECID) v4.4 und at.js 2.2 auf Ihren Webseiten.
-* Zuvor führte die ECID zwei Sperraufrufe durch, bevor at.js Erlebnisse abrufen konnte. Dies wurde auf einen einzigen Aufruf reduziert, wodurch die Leistung deutlich verbessert wird.
+* Bislang führte ECID zwei Sperraufrufe durch, bevor at.js Erlebnisse abrufen konnte. Dies wurde auf einen Aufruf reduziert, wodurch die Leistung deutlich verbessert wurde.
 * Korrektur der fehlerhaften Verarbeitung vorab abgerufener Ansichten, bei der Ereignis-Token von Standard-Angeboten nicht in gesendeten Benachrichtigungen enthalten waren.
 
    >[!NOTE]
    >
    >Aktualisieren Sie Ihre ECID Launch Extension auf Version 4.4, um diese Leistungsverbesserung nutzen zu können.
 
-* at.js Version 2.2 bietet außerdem eine neue Einstellung namens `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration der Zielgruppe implementiert ist. Hybrid-Integration bedeutet, dass Sie sowohl at.js v2.2+ auf Client- als auch Versand-API oder ein Zielgruppe-SDK auf Serverseite verwenden, um Erlebnisse bereitzustellen. `serverState` gibt at.js v2.2+ die Möglichkeit, Erlebnisse direkt aus Inhalten anzuwenden, die auf dem Server abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben werden. Weitere Informationen finden Sie unter &quot;serverState&quot;in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js Version 2.2 bietet außerdem eine neue Einstellung namens `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration der Zielgruppe implementiert ist. Hybrid-Integration bedeutet, dass Sie zur Bereitstellung Ihrer Erlebnisse sowohl at.js v2.2+ auf der Clientseite als auch die Bereitstellungs-API oder ein Target-SDK auf der Serverseite verwenden. `serverState` ermöglicht at.js v2.2+, Erlebnisse direkt aus Inhalten anzuwenden, die auf Serverseite abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben wurden. Weitere Informationen finden Sie unter „serverState“ in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js Version 1.8.0 (10. Oktober 2019)
 
 Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen:
 
 * Verbesserte Leistung bei der Verwendung von Experience Cloud ID Service (ECID) v4.4 und at.js 1.8 auf Ihren Webseiten.
-* Zuvor führte die ECID zwei Sperraufrufe durch, bevor at.js Erlebnisse abrufen konnte. Dies wurde auf einen einzigen Aufruf reduziert, wodurch die Leistung deutlich verbessert wird.
+* Bislang führte ECID zwei Sperraufrufe durch, bevor at.js Erlebnisse abrufen konnte. Dies wurde auf einen Aufruf reduziert, wodurch die Leistung deutlich verbessert wurde.
 
 >[!NOTE]
 >
@@ -116,11 +115,11 @@ Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen
 
 Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
-(Die Problemnummern in Klammern sind für den internen Gebrauch von Adobe.)
+(Die Problemnummern in Klammern dienen internen Adobe-Benutzern.)
 
 * Es wurde ein Problem behoben, durch das mehrere Beacons ausgelöst wurden, wenn die Klick-Tracking-Metrik auf der Seite „Ziele und Einstellungen“ im Visual Experience Composer (VEC) verwendet wurde. (TNT-32812)
 * Es wurde ein Problem behoben, durch das `triggerView()` Angebote nicht öfter als einmal gerendert hat. (TNT-32780)
-* Es wurde ein Problem mit `triggerView()` behoben, sodass Anfragen jetzt Experience Cloud ID (ECID)-Informationen enthalten. (TNT-32776)
+* Es wurde ein Problem mit `triggerView()` behoben, sodass Anfragen jetzt Experience Cloud ID(ECID)-Informationen enthalten. (TNT-32776)
 * Es wurde ein Problem behoben, durch das die `triggerView()`-Benachrichtigung auch dann nicht ausgelöst wurde, wenn keine gespeicherten Ansichten vorhanden waren. (TNT-32614)
 * Es wurde ein Fehler behoben, der aufgrund der Verwendung von decodeURIcomponent auftrat, wenn die URL einen falsch formatierten Abfragezeichenparameter enthielt. (TNT-32710)
 * Das Beacon-Flag ist nun im Kontext von Versandanfragen, die über die `Navigator.sendBeacon()`-API gesendet werden, auf „true“ gesetzt. (TNT-32683)
@@ -152,7 +151,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 Dies ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
-(Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+(Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
 * Es wurde eine Race-Bedingung im DOM-Polling-Code behoben, durch die JavaScript-Ausnahmen für bestimmte Kunden verursacht wurden. (TNT-31869)
 * Benachrichtigungen, die angezeigt wurden, wurden von Click-Tracking-Ereignishandlern entkoppelt. Target hat zunächst keine Benachrichtigungen gesendet, wenn Click-Ereignis-Handler, die zu einer gerenderten Ansicht gehören, nicht angehängt werden konnten. Target sendet jetzt eine Ansichtsbenachrichtigung, auch wenn Klickelemente nicht gefunden werden. (TNT-31969)
@@ -164,7 +163,7 @@ Dies ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebun
 
 Diese Version ist eine Wartungsversion und beinhaltet die folgenden Fehlerbehebungen:
 
-(Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+(Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
 * Es wurde eine Race-Bedingung im DOM-Polling-Code behoben, durch die JavaScript-Ausnahmen für bestimmte Kunden verursacht wurden. (TNT-31869)
 
@@ -214,7 +213,7 @@ at.js 1.6.4 ist eine Wartungsversion, die folgendes Problem behebt:
 
 * Es wurde eine Race-Bedingung in Microsoft Internet Explorer 11 behoben, die dazu führte, dass doppelte Angebote angewendet wurden.
 
-## „at.js“-Version 1.6.3{#section_484A56774E004282B98FFFF851E4E670}
+## „at.js“-Version 1.6.3 {#section_484A56774E004282B98FFFF851E4E670}
 
 at.js, Version 1.6.3, enthält die folgenden Fehlerbehebungen und Verbesserungen:
 
@@ -223,7 +222,7 @@ at.js, Version 1.6.3, enthält die folgenden Fehlerbehebungen und Verbesserungen
 * Es wurde ein Problem behoben, bei dem Zeitüberschreitungen für Zusagen in Umgebungen auftraten, in denen Zusagen nativ nicht unterstützt werden. (TNT-30974)
 * Probleme werden jetzt korrekt erfasst und über das Ereignis „Inhaltswiedergabe fehlgeschlagen“ gemeldet. Zuvor wurde unter Umständen gemeldet, dass JavaScript erfolgreich ausgeführt wurde, selbst wenn dies nicht der Fall war. (TNT-30599)
 
-## „at.js“-Version 1.6.2{#section_88BE2F69943D4280B8170F377886B58E}
+## „at.js“-Version 1.6.2 {#section_88BE2F69943D4280B8170F377886B58E}
 
 Dies ist eine Wartungsversion, die folgendes Problem behebt:
 
@@ -250,7 +249,7 @@ Im Folgenden finden Sie einige Verbesserungen und Fehlerbehebungen in „at.js�
 * Das clientseitige Edge-Routing ist jetzt standardmäßig aktiviert. (TNT-30261)
 * Es wurde ein Problem mit dem Rendering von VEC-Aktionen (Visual Experience Composer) behoben, das bei Abhängigkeiten zwischen den Aktionen auftrat. (TNT-30248)
 
-## „at.js“-Version 1.5.0{#section_128C6761884C4DA8AE50D6A605FF6F55}
+## „at.js“-Version 1.5.0 {#section_128C6761884C4DA8AE50D6A605FF6F55}
 
 at.js Version 1.5.0 ist verfügbar.
 
@@ -270,7 +269,7 @@ at.js Version 1.5.0 ist verfügbar.
      scheduler = setTimeout
    ```
 
-## „at.js“-Version 1.3.0{#section_24EAAE1CFA814EF8B19E61842F4D8321}
+## „at.js“-Version 1.3.0 {#section_24EAAE1CFA814EF8B19E61842F4D8321}
 
 at.js Version 1.3.0 ist verfügbar.
 
@@ -301,11 +300,11 @@ at.js Version 1.3.0 ist verfügbar.
 
 * Fügt Unterstützung für JSON-Angebote hinzu. JSON-Angebote werden nur bei Aktivitäten unterstützt, die mit dem formularbasierten Experience Composer erstellt wurden. Die einzige Möglichkeit, JSON-Angebote zu nutzen, läuft derzeit über direkte API-Aufrufe. Weitere Informationen finden Sie unter [Erstellen von JSON-Angeboten](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D).
 
-## „at.js“-Version 1.2.2{#section_4E96D13F2DFE4F1F81A1089877D53649}
+## „at.js“-Version 1.2.2 {#section_4E96D13F2DFE4F1F81A1089877D53649}
 
 [!DNL at.js], Version 1.2.2 ist verfügbar.
 
-* Dort wurde ein Problem behoben, das einen JavaScript-Fehler zurückgab, wenn die Zielbibliothek im QUIRKS-Modus auf eine Seite geladen wurde. (TNT-28312)
+* Dort wurde ein Problem behoben, das einen JavaScript-Fehler zurückgab, wenn die Target-Bibliothek im QUIRKS-Modus auf eine Seite geladen wurde. (TNT-28312)
 * Es wurde ein Problem behoben, das dazu führte, dass die Target-Klickverfolgung die Anrufe zur Datensammlung von Analytics unterbrach. (TNT-28261)
 * Es wurde ein Problem behoben, das dazu führte, dass `getOffer() params` fehlschlug, wenn `targetPageParams()` eine leere Zeichenfolge zurückgab. (TNT-28359)
 * Es wurde ein Problem mit der Generierung von Sitzungs-IDs bei der Verwendung von x-only behoben. (TNT-28361)
@@ -316,7 +315,7 @@ at.js Version 1.3.0 ist verfügbar.
 
 * Es wurde ein Problem bei der Verfolgung per Klick auf einen Link mit target=&quot;_blank&quot; behoben, das das Öffnen des Links auf einer neuen Registerkarte in Target verhindert hat.
 
-## „at.js“-Version 1.2.0{#section_1C3A18C595C34B25A14A440D213F3B9C}
+## „at.js“-Version 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
 
 [!DNL at.js], Version 1.2 ist nun als Wartungsversion verfügbar, die größtenteils Fehlerkorrekturen enthält.
 
@@ -341,7 +340,7 @@ Folgende Verbesserungen und Fehlerbehebungen sind in Version 1.1 von [!DNL at.j
 * Es wurde ein Problem behoben, damit `document.currentScript polyfill` nicht mit Angular 1.X in Konflikt gerät.
 * Es wurden Änderungen vorgenommen, die sicherstellen, dass die Klick-Verfolgung nicht mit der Sichtbarkeitseigenschaft in Konflikt gerät. Klick-Verfolgungselemente sind mit der CSS-Klasse `at-element-click-tracking` statt mit `at-element-marker` markiert.
 
-## „at.js“-Version 1.0.0{#section_37A3D23FC4AD42A68AA831B89E03E725}
+## „at.js“-Version 1.0.0 {#section_37A3D23FC4AD42A68AA831B89E03E725}
 
 **Datum:** 7. Juli 2017
 
@@ -357,7 +356,7 @@ Folgende Verbesserungen und Fehlerbehebungen sind Version 1.0 von at.js enthalt
 * Korrektur eines Fehlers der `getOffer()`-Funktion auf einigen Websites.
 * Asynchrones Laden der Target-Bibliothek. Weitere Informationen finden Sie in den [häufig gestellten Fragen zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
-## „at.js“-Version 0.9.7{#section_6C7B698BE21E40E495FD2850EFBF3E80}
+## „at.js“-Version 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
 **Datum:** 22. Mai 2017
 
@@ -395,7 +394,7 @@ Folgende Verbesserungen und Fehlerbehebungen sind in Version 0.9.6 von [!DNL at
 * Die Funktion `secureOnly` wurde hinzugefügt, die anzeigt, ob at.js nur HTTPS verwenden soll oder ob es möglich ist, dass basierend auf dem Seitenprotokoll zwischen HTTP und HTTPS umgeschaltet wird. Es handelt sich hierbei um eine erweiterte Einstellung, deren Standardwert „false“ (falsch) lautet und die von `targetGlobalSettings` überschrieben werden kann.
 * Die Option [!UICONTROL Unterstützung älterer Browser] ist in at.js, Version 0.9.3 und älter verfügbar. Diese Option wurde in at.js, Version 0.9.4 entfernt.
 
-## „at.js“-Version 0.9.3{#section_DF13BC1D7C994AE7A36B81937A699DF4}
+## „at.js“-Version 0.9.3 {#section_DF13BC1D7C994AE7A36B81937A699DF4}
 
 **Datum:** 10. Oktober 2016
 
@@ -411,7 +410,7 @@ Folgende Verbesserungen und Fehlerbehebungen sind in Version 0.9.6 von [!DNL at
 * Erweiterte Unterstützung für `CustomEvent` im Benachrichtigungsmechanismus. In der Vergangenheit konnte der Ereignis-Benachrichtigungsmechanismus von at.js nicht mit Standard-DOM-APIs wie `document.addEventListener()` () verwendet werden. Jetzt können Sie `document.addEventListener()` verwenden, um at.js-Ereignisse, z. B. Abfrage- und Inhaltswiedergabe-Ereignisse, zu abonnieren.
 * Es wurde ein Problem im Zusammenhang mit Angeboten behoben, die im Visual Experience Composer (VEC) erstellt wurden. In älteren Versionen wurden Auswahlwerkzeuge von Target ausgeblendet und nur eingeblendet, wenn alle Auswahlen übereinstimmten. In at.js 0.9.2 werden einzelne Auswahlen von Target eingeblendet, sobald sie übereinstimmen.
 
-## „at.js“-Version 0.9.1{#section_DAFB99114D604CFB8416C1BC7DEEAEEE}
+## „at.js“-Version 0.9.1 {#section_DAFB99114D604CFB8416C1BC7DEEAEEE}
 
 **Datum:** 14. Juli 2016
 
@@ -443,7 +442,7 @@ Folgende Verbesserungen und Fehlerbehebungen sind in Version 0.9.6 von [!DNL at
 
    Sie können Einstellungen in der at.js-Bibliothek überschreiben, anstatt die Einstellungen in der [!DNL Target Standard/Premium UI] oder durch Verwendung von REST-APIs zu bearbeiten.
 
-## „at.js“-Version 0.8.0{#section_E1C7B08EC0494388A022C28A8B8FE807}
+## „at.js“-Version 0.8.0 {#section_E1C7B08EC0494388A022C28A8B8FE807}
 
 **Datum:** 5. Mai 2016.
 
