@@ -4,10 +4,10 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der P
 title: Wo finde ich Informationen zu Änderungen an der Target-Dokumentation?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 60%
+source-wordcount: '1195'
+ht-degree: 57%
 
 ---
 
@@ -19,6 +19,10 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 17. Mai | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur „at.js“-Version 2.5.0 hinzugefügt. |
+|  | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Thema aktualisiert, um anzugeben, dass Links zur Vorschau für [!UICONTROL Automated Personalization] (AP)-Aktivitäten mit at.js 2.5.0 (und höher) verfügbar sind. |
+|  | [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Es wurde angegeben, dass die Version at.js 2.5.0 die Unterstützung für Microsoft Internet Explorer 10, Internet Explorer 11 und alle älteren Versionen entfernt. Microsoft Edge wird in at.js 2.5.0 und höher weiterhin unterstützt. |
+|  | [Fehlerbehebung bei Problemen mit dem  [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Die Liste von IP-Adressen in Zulassungslisten wurde aktualisiert. |
 | 12. Mai | [[!DNL Target] Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Versionshinweise für folgende Elemente hinzugefügt:<ul><li>Adobe Experience Platform Web SDK (17. Mai 2021)</li><li>Target Standard Premium 21.5.2</li></ul> |
 | 10. Mai | [[!DNL Recommendations] FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Folgende häufig gestellte Fragen wurden hinzugefügt: &quot;Kann ich einen Algorithmus verwenden, der in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium] erstellt wurde?&quot; |
 |  | [Implementierung [!DNL Target] using [!DNL Dynamic Tag Manager]  (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | Es wurde angegeben, dass [!DNL Adobe Dynamic Tag Manager] nicht mehr unterstützt wird. Stattdessen empfiehlt [!DNL Adobe] die Implementierung mit [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). |
