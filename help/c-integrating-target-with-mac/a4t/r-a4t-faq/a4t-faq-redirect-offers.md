@@ -2,13 +2,12 @@
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Weiterleitung; Weiterleitungsangebot; adobe-mc-sdid; adobe_mc_ref
 description: Antworten auf Fragen zur Verwendung von Umleitungs-Angeboten bei der Verwendung von Analytics für [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] Aktivitäten
 title: Wo finde ich häufig gestellte Fragen zu Umleitungs-Angeboten mit A4T?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 69%
+source-wordcount: '1355'
+ht-degree: 62%
 
 ---
 
@@ -40,7 +39,7 @@ Die drei Bibliotheken müssen sowohl auf der Seite mit dem Weiterleitungsangebot
 
 Es werden einige Datendiskrepanzen erwartet. Weitere Informationen finden Sie unter [Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
-## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt?   {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 Bei Verwendung von at.js Version 1.6.3 oder höher ist das Zählen von Ansichten auf beiden Seiten kein Problem. Diese Race-Bedingung betrifft nur Kunden, die frühere Versionen verwenden. Das Target-Team behält zwei Versionen von at.js: die aktuelle Version und die davor. Führen Sie bei Bedarf ein Upgrade von at.js durch, um sicherzustellen, dass Sie eine [unterstützte Version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ausführen.
 
@@ -73,7 +72,7 @@ Die folgenden Abfrage String-Parameter sind Umleitungsangeboten zugeordnet:
 
 Diese Parameter werden automatisch zu den Umleitungs-URLs hinzugefügt, wenn die integrierten Umleitungsangebote in VEC und in Form-Based Experience Composer verwendet werden, wenn der Besucher-ID-Service auf der Seite implementiert ist. Wenn Sie Ihren eigenen benutzerdefinierten Code in VEC und in Form-Based Experience Composer verwenden, müssen Sie sicherstellen, dass Sie diese Parameter mit Ihrem benutzerdefinierten Code weitergeben.
 
-## Meine Webserver entfernen diese Parameter aus meinen URLs, was soll ich tun?   {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Meine Webserver entfernen diese Parameter aus meinen URLs, was soll ich tun?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 Arbeiten Sie mit Ihrem IT-Team zusammen, um diese Parameter ( `adobe_mc_sdid` und `adobe_mc_ref`) auf die Zulassungsliste setzen.
 
@@ -106,3 +105,23 @@ Bei [!DNL at.js] Version 0.9.6 (oder höher) und [!DNL AppMeasurement.js] 2.1 (o
 ## Kann ich benutzerdefinierte/HTML-Weiterleitungsangebote verwenden? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 Nein, Sie müssen für Aktivitäten mit [!DNL Analytics] als Berichterstellungsquelle (A4T) ein integriertes Weiterleitungsangebot verwenden. Aus der Sicht von [!DNL Target] sind HTML-Angebote undurchsichtig: [!DNL Target] kann nicht erkennen, dass ein bestimmter HTML-Abschnitt JavaScript zum Instantiieren einer Weiterleitung enthält.
+
+## Unterstützt das [!DNL Adobe Experience Platform Web SDK] Umleitungs-Angebot für A4T? {#platform}
+
+Die folgenden häufig gestellten Fragen bieten weitere Informationen zur Verwendung von A4T und leiten Angebot mit dem [!DNL Platform Web SDK] um.
+
+>[!NOTE]
+>
+>Die Unterstützung für A4T in einer [!DNL Adobe Experience Platform Web SDK]-Implementierung, die in diesem Artikel besprochen wird, ist für die [!DNL Platform Web SDK] Version 2.5.0 (24. Mai 2021) geplant.
+
+### Unterstützt Analytics for Target (A4T) Umleitungsangebote?
+
+Ja, A4T über das Platform Web SDK unterstützt [Umleitungs-Angebot](/help/c-experiences/c-manage-content/offer-redirect.md).
+
+### Werden [!UICONTROL Visual Experience Composer] (VEC) und [!UICONTROL Form-Based Experience Composer] unterstützt?
+
+Ja, der [[!UICONTROL Visual Experience Composer]](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) und der [[!UICONTROL Form-Based Experience Composer]](/help/c-experiences/form-experience-composer.md) werden unterstützt, wenn Sie integrierte Umleitungs-Angebot verwenden.
+
+### Kann ich mit dem [!DNL Platform Web SDK] benutzerdefinierte/HTML-Umleitungs-Angebot verwenden?
+
+Nein, Sie müssen ein integriertes Umleitungs-Angebot für Aktivitäten verwenden, die A4T verwenden. Aus der Perspektive [!DNL Target] sind HTML-Angebot undurchsichtig. [!DNL Target] kann nicht erkennen, dass ein bestimmtes HTML-Stück JavaScript enthält, das eine Umleitung instanziiert.
