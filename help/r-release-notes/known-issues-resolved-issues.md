@@ -4,11 +4,10 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Versionshinweise
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
-source-wordcount: '4373'
-ht-degree: 98%
+source-wordcount: '4409'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +23,11 @@ Informationen zu bekannten Problemen in [!DNL Adobe Target]. Dazu gehören auch 
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
-### Analytics für Adobe Target (A4T)-Metriken für Aktivitäten mit automatisierter Zuordnung und automatisierter Zielgruppe
+### Die Archivierung von [!UICONTROL Aktivitäten mit automatischem Targeting] kann zu Synchronisierungsproblemen führen
+
+Der Versuch, inaktive [!UICONTROL Automatisches Targeting] -Aktivitäten zu archivieren, kann zu Synchronisierungsproblemen führen. Solange dieses Problem nicht behoben ist, archivieren Sie nicht die Aktivitäten [!UICONTROL Automatisches Targeting]. Behalten Sie sie im Status [!UICONTROL Inaktiv] bei. (TGT-40885)
+
+### Analytics for Adobe Target (A4T)-Metriken für Aktivitäten mit automatischer Zuordnung und automatischem Targeting
 
 In der Benutzeroberfläche von [!DNL Target] können Benutzer nicht unterstützte Interaktions- und Umsatzmetriken als primäre Zielmetrik für die Optimierung in [!UICONTROL automatischen Zuordnungs]- und [!UICONTROL automatischen Targeting]-Aktivitäten auswählen. Konversionsmetriken werden unterstützt, Interaktions- und Umsatzmetriken dagegen *nicht*. Wenn Sie als Zielmetriken Interaktions- oder Umsatzmetriken auswählen, wird kein Optimierungsmodell erstellt.
 
@@ -88,7 +91,7 @@ Die folgenden Probleme bei [!UICONTROL Recommendations]-Aktivitäten sind bekann
 
 In einer MVT-Aktivität ist der in der Tabelle und im Diagramm angezeigte Gewinner bei der Überprüfung der Metriken möglicherweise nicht identisch. Diese Situation tritt ein, wenn ein Benutzer von der Zusammenfassungs- zur Diagrammansicht und wieder zurück zur Zusammenfassungsansicht wechselt, eine Metrik ändert und dann zur Diagrammansicht wechselt. Wenn dieses Problem auftritt, wird in der Zusammenfassungsansicht immer der korrekte Gewinner angezeigt. Wenn der Benutzer die Diagrammansicht nie zwischen Zusammenfassungsansichten wechselt, wird in der Diagrammansicht der korrekte Gewinner angezeigt.
 
-### at.js   {#atjs}
+### at.js {#atjs}
 
 Bekannte Probleme mit at.js:
 
@@ -134,7 +137,7 @@ Kunden können keine CRUD-Vorgänge für Aktivitäten mit Automatisierte Zuordnu
 
 Am 10. Mai 2020 wurden von Adobe die GEO-Provider-Dateien aktualisiert, wodurch einige Inkonsistenzen entstanden sind. Beispielsweise wurden einige Werte mit Kommas hinzugefügt, obwohl die Werte in bestehenden Zielgruppen keine Kommas enthielten. Nicht alle Adobe-Bereitstellungsserver waren von dieser Änderung betroffen. Für Zielgruppen, die solche Werte verwenden, sind daher möglicherweise noch nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
 
-### Berichte - Inkonsistente Daten im herunterladbaren .csv-Bericht im Vergleich zum angezeigten Bericht in der [!DNL Target]-Benutzeroberfläche. {#csv}
+### Reporting - Inkonsistente Daten im herunterladbaren CSV-Bericht im Vergleich zum angezeigten Bericht in der [!DNL Target] -Benutzeroberfläche. {#csv}
 
 Berichte, die als CSV-Dateien zum Herunterladen generiert wurden, sind nicht konsistent, wenn die Aktivität mehr als eine Metrik verwendet. Der herunterladbare Bericht wird nur auf der Grundlage der Berichtseinstellungen generiert und geht bei allen anderen verwendeten Metriken von demselben Wert aus.
 
@@ -150,7 +153,7 @@ Bildangebote auf der Seite „Angebote“ tragen gelegentlich noch mehrere Stund
 
 Dieses Problem wurde in der Standard- und Premium-Version von Target 20.10.1 behoben.
 
-### Analytics for Adobe Target (A4T) Berichte
+### Berichterstellung von Analytics for Adobe Target (A4T)
 
 Die folgenden Probleme in Verbindung mit A4T wurden behoben:
 
@@ -348,7 +351,7 @@ Der Algorithmus zum Extrahieren der Domäne der obersten Ebene, die beim Speiche
 
 Dieses Problem wurde in at.js-Version 1.2 behoben.
 
-### Enterprise-Benutzerberechtigungen für [!DNL Target] Premium
+### Berechtigungen für Unternehmensbenutzer für [!DNL Target] Premium
 
 Im Rahmen der Migration von Enterprise-Berechtigungen wurde die gesamte Target Premium-Benutzerverwaltung von der Adobe Target-Benutzeroberfläche in die Adobe Admin Console verschoben.
 
@@ -439,7 +442,7 @@ Es dauert 10 bis 20 Minuten, bis globale Ausschlussregeln an Recommendations Pre
 
 In Recommendations 17.2.2.0 (6. März 2017) behoben.
 
-### Analytics for Adobe Target (A4T) Berichte
+### Berichterstellung von Analytics for Adobe Target (A4T)
 
 Berichte werden nicht aktualisiert, wenn die Berichtsmetrik geändert wird. Dieses Problem betrifft nur die Benutzeroberfläche. Dies hat keine Auswirkung auf die Erfassung oder Bereitstellung von Berichtsdaten. (TGT-22970)
 
