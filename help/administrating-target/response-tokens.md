@@ -5,10 +5,10 @@ title: Was sind Antwort-Token und wie verwende ich sie?
 feature: Administration und Konfiguration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ddffc7d687d25cc87bb220af80bfec2c51b85542
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 28%
+source-wordcount: '1556'
+ht-degree: 27%
 
 ---
 
@@ -22,7 +22,7 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 
 >[!NOTE]
 >
->Antwort-Token sind für die [!DNL Adobe Experience Platform Web SDK]-Version 2.5.0 oder höher (Version geplant für 24. Mai 2021) und für die at.js-Version 1.1 oder höher verfügbar.
+>Antwort-Token sind mit der [!DNL Adobe Experience Platform Web SDK]-Version 2.5.0 oder neuer (für den 1. Juni 2021 geplante Version) und mit at.js-Version 1.1 oder höher verfügbar.
 
 | Target SDK | Vorgeschlagene Aktionen |
 |--- |--- |
@@ -212,13 +212,13 @@ Wie zuvor erwähnt, agieren Antwort-Token mit den für Benutzer gespeicherten Pr
 
 [!DNL Target] führt in regelmäßigen Abständen eine Aktualisierung der Attribute durch. Jedes Attribut, das nicht aktiviert wird, wird bei der nächsten Aktualisierung entfernt. Wenn Sie jedoch über ein Attribut verfügen, das aktiviert wurde und entfernt wurde, wird dieses Skript erst dann aus der Attributliste entfernt, wenn Sie es deaktivieren. Beispielsweise haben Sie ein Profilskript entfernt, das als Token verwendet wurde. [!DNL Target] entfernt die deaktivierten Attribute erst aus der Liste, wenn sie gelöscht oder umbenannt werden.
 
-## Senden von Daten an Google Analytics über das Platform Web SDK
+## ![AEP-](/help/assets/platform.png) BadgeSenden von Daten an Google Analytics über Platform Web SDK
 
 Google Analytics können Daten über die Platform Web SDK-Version 2.5.0 (oder höher) senden, indem sie den folgenden Code auf der HTML-Seite hinzufügen:
 
 (Code to come)
 
-## Senden von Daten an Google Analytics über at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+## ![at.js ](/help/assets/atjs.png) badgeSenden von Daten an Google Analytics über at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Daten können via at.js an Google Analytics gesendet werden, indem Sie auf der HTML-Seite den folgenden Code hinzufügen:
 
@@ -288,7 +288,7 @@ Daten können via at.js an Google Analytics gesendet werden, indem Sie auf der H
 
 Die folgenden Abschnitte enthalten Informationen zum Debugging von Antwort-Token:
 
-### Google Analytics und Debugging
+### ![at.js-](/help/assets/atjs.png) BadgeGoogle Analytics und Debugging
 
 Mit dem folgenden Code können Sie das Debugging mit Google Analytics durchführen:
 
@@ -405,7 +405,7 @@ Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen
 </script>
 ```
 
-## Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse ![Tutorial-Badge](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.](/help/assets/atjs.png) jsTraining-Video: Antwort-Token und benutzerdefinierte at.js-Ereignisse {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Im folgenden Video wird erläutert, wie Sie mithilfe von Antwort-Token und benutzerdefinierten at.js-Ereignissen Profilinformationen von [!DNL Target] an Drittanbietersysteme weitergeben können.
 
