@@ -4,7 +4,7 @@ description: Hier finden Sie Antworten auf Fragen zur Verwendung von Umleitungsa
 title: Wo finde ich häufig gestellte Fragen zu Umleitungsangeboten mit A4T?
 feature: 'Analytics for Target (A4T) '
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '1361'
 ht-degree: 62%
@@ -112,7 +112,7 @@ Die folgenden häufig gestellten Fragen enthalten weitere Informationen zur Verw
 
 >[!NOTE]
 >
->Die A4T-Unterstützung in einer [!DNL Adobe Experience Platform Web SDK]-Implementierung, die in diesem Artikel besprochen wird, soll mit der [!DNL Platform Web SDK]-Version 2.5.0 (24. Mai 2021) verfügbar sein.
+>Die A4T-Unterstützung in einer [!DNL Adobe Experience Platform Web SDK]-Implementierung, die in diesem Artikel besprochen wird, soll mit der [!DNL Platform Web SDK]-Version 2.5.0 (1. Juni 2021) verfügbar sein.
 
 ### Unterstützt Analytics for Target (A4T) Umleitungsangebote?
 
