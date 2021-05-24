@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Versionshinweise
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 33%
@@ -15,7 +15,7 @@ ht-degree: 33%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 20. Mai 2021**
+**Letzte Aktualisierung: 24. Mai 2021**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungszeitpunkt identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -25,7 +25,7 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 >
 >Um potenzielle Probleme mit Ihren Sites zu vermeiden, migrieren Sie zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek. Weitere Informationen finden Sie unter [Übersicht: Target für clientseitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (24. Mai 2021)
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (1. Juni 2021)
 
 Diese Version von [!DNL Platform Web SDK] unterstützt Folgendes:
 
