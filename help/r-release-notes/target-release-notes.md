@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Versionshinweise
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 031512e205fc26dd51ad5d586d8a68bbe0a26484
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 36%
+source-wordcount: '448'
+ht-degree: 33%
 
 ---
 
@@ -15,40 +15,36 @@ ht-degree: 36%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 17. Mai 2021**
+**Letzte Aktualisierung: 20. Mai 2021**
 
-Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Zeitpunkt der Veröffentlichung identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungszeitpunkt identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
 >[!IMPORTANT]
 >
->**mbox.js Ende der Lebensdauer**: Ab dem 31. März 2021 wird die Bibliothek &quot;mbox.js&quot; [!DNL Adobe Target] nicht mehr unterstützt. Nach dem 31. März 2021 schlagen alle Aufrufe von &quot;mbox.js&quot;in Würde fehl und wirken sich auf Ihre Seiten aus, deren Aktivitäten [!DNL Target] ausgeführt werden, indem Standardinhalte bereitgestellt werden.
+>**&quot;mbox.js&quot;-Einstellung**: Ab dem 31. März 2021 wird die mbox.js -Bibliothek  [!DNL Adobe Target] nicht mehr unterstützt. Nach dem 31. März 2021 schlagen alle Aufrufe von mbox.js korrekt fehl und wirken sich auf Seiten aus, deren Aktivitäten [!DNL Target] durch die Bereitstellung von Standardinhalten ausgeführt werden.
 >
->Um potenzielle Probleme mit Ihren Sites zu vermeiden, migrieren Sie zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder der JavaScript-Bibliothek at.js. Weitere Informationen finden Sie unter [Übersicht: Target für clientseitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Um potenzielle Probleme mit Ihren Sites zu vermeiden, migrieren Sie zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek. Weitere Informationen finden Sie unter [Übersicht: Target für clientseitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## at.js Version 2.5.0 (13. Mai 2021)
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (24. Mai 2021)
 
-Diese Version von at.js umfasst die folgenden Erweiterungen und Änderungen:
+Diese Version von [!DNL Platform Web SDK] unterstützt Folgendes:
 
-* [Unterstützung von ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Entscheidungen auf dem Gerät für &quot;at.js&quot;.
-* [Vorschau ](/help/c-activities/c-activity-qa/activity-qa.md) Linksupport für  [!UICONTROL Automated Personalization] (AP)-Aktivitäten
-
-Mit dieser Version wird auch die Unterstützung für Microsoft Internet Explorer 10, Internet Explorer 11 und alle älteren Versionen entfernt. Microsoft Edge wird in at.js 2.5.0 und höher weiterhin unterstützt. Weitere Informationen finden Sie unter [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
-
-## [!DNL Adobe Experience Platform Web SDK] Version 2.5.0 (24. Mai 2021)
-
-Diese Version von [!DNL Platform Web SDK] unterstützt [!UICONTROL Analytics for Zielgruppe] (A4T) für [!DNL Target]-Umleitungen.
+| Funktion | Details |
+| --- | --- |
+| Umleitungs-Unterstützung mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt [!DNL Target]-Umleitungen bei der Verwendung von A4T. Umleitungsangebote in [!DNL Adobe Target] führen dazu, dass ein Browser zu einer neuen Seite umleitet. |
+| Antwort-Token | Das Platform Web SDK unterstützt jetzt [!DNL Target] Antwort-Token. Mithilfe von Antwort-Token können Sie [!DNL Adobe Target]-spezifische Informationen automatisch an die Webseite Ihrer Marke ausgeben. Diese Informationen können Details zur Aktivität, zum Angebot, zum Erlebnis, zum Benutzerprofil, zu geografischen Informationen und mehr enthalten. Diese Details bieten zusätzliche Antwortdaten, um sie für interne Systeme oder Drittanbietersysteme freizugeben oder für das Debugging zu verwenden. |
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8. Juni 2021)
 
 Der Inhalt wird hinzugefügt, sobald das Veröffentlichungsdatum näher rückt.
 
-## [!DNL Target Standard/Premium] 21.5.2 (noch festzulegendes Datum)
+## [!DNL Target Standard/Premium] 21.5.2 (noch festzulegender Zeitpunkt)
 
 Diese Version enthält die folgenden neuen Funktionen und Erweiterungen. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
 | Funktion | Details |
 | --- | --- |
-| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | Die folgenden Erweiterungen gelten für [!DNL Recommendations] Popularitätsalgorithmen:<ul><li>Eine neue sechsstündige Option für das &quot;Lookback-Fenster&quot;(Datenbereich) steht für Algorithmen mit allen Beliebtheitswerten (Am meisten angezeigt/Topverkäufe) zur Verfügung, wenn [!DNL Target] die verhaltensbasierte Datenquelle ist. (Dieses Lookback-Fenster ist *nicht* verfügbar, wenn [!DNL Adobe Analytics] die verhaltensbasierte Datenquelle ist.)</li><li>Wenn diese Option aktiviert ist, werden die folgenden Algorithmen etwa alle drei Stunden (statt alle 12 Stunden) ausgeführt.<ul><li>Am meisten angezeigt</li><li>Am häufigsten gekauft</li><li>Am häufigsten angezeigt nach Kategorie</li><li>Am häufigsten gekauft nach Kategorie</li><li>Am meisten nach benutzerdefiniertem Attribut angezeigt (mit der Funktion groupBy)</li><li>Am häufigsten nach benutzerdefiniertem Attribut gekauft (mit der Funktion groupBy)</li></ul></ul>(TOP-1086) |
+| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | Die folgenden Verbesserungen gelten für [!DNL Recommendations]-Popularitätsalgorithmen:<ul><li>Eine neue sechsstündige &quot;Lookback-Fenster&quot;(Datenbereich)-Option steht für alle Popularitätsalgorithmen (am häufigsten angezeigte/Topverkäufe) zur Verfügung, wenn [!DNL Target] die Verhaltensdatenquelle ist. (Dieses Lookback-Fenster ist *nicht* verfügbar, wenn [!DNL Adobe Analytics] die Verhaltensdatenquelle ist.)</li><li>Wenn diese Option aktiviert ist, werden die folgenden Algorithmen ungefähr alle drei Stunden (statt alle 12 Stunden) ausgeführt.<ul><li>Am häufigsten angezeigt</li><li>Am häufigsten gekauft</li><li>Am häufigsten angezeigt nach Kategorie</li><li>Am häufigsten gekauft nach Kategorie</li><li>Am häufigsten angezeigt durch benutzerdefiniertes Attribut (mithilfe der groupBy-Funktion)</li><li>Am häufigsten gekauft durch benutzerdefiniertes Attribut (mithilfe der groupBy-Funktion)</li></ul></ul>(TOP-1086) |
 
 Diese Version enthält die folgenden Fehlerbehebungen.
 
