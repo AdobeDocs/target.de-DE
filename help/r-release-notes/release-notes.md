@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Versionshinweise
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: d102e3b93e258199bad40de089443eda3a07d7fe
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 58%
+source-wordcount: '639'
+ht-degree: 55%
 
 ---
 
@@ -17,18 +17,18 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 >[!IMPORTANT]
 >
->**mbox.js Ende der Lebensdauer**: Ab dem 31. März 2021 wird die Bibliothek &quot;mbox.js&quot; [!DNL Adobe Target] nicht mehr unterstützt. Seit dem 31. März 2021 schlagen alle Aufrufe aus mbox.js kontrolliert fehl. Dies wirkt sich auf Seiten mit [!DNL Target]-Aktivitäten aus, die Standardinhalte bereitstellen.
+>**&quot;mbox.js&quot;-Einstellung**: Ab dem 31. März 2021 wird die mbox.js -Bibliothek  [!DNL Adobe Target] nicht mehr unterstützt. Seit dem 31. März 2021 schlagen alle Aufrufe aus mbox.js kontrolliert fehl. Dies wirkt sich auf Seiten mit [!DNL Target]-Aktivitäten aus, die Standardinhalte bereitstellen.
 >
->Migrieren Sie vor diesem Datum zur aktuellen Version des neuen [!DNL Adobe Experience Platform Web SDK] oder zur JavaScript-Bibliothek at.js, um mögliche Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Target für clientseitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Migrieren Sie zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek, um potenzielle Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Target für clientseitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
-## at.js Version 2.5.0 (13. Mai 2021)
+## at.js-Version 2.5.0 (13. Mai 2021)
 
-Diese Version von at.js umfasst die folgenden Erweiterungen und Änderungen:
+Diese Version von at.js umfasst die folgenden Verbesserungen und Änderungen:
 
-* [Unterstützung von ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Entscheidungen auf dem Gerät für &quot;at.js&quot;.
-* [Unterstützung ](/help/c-activities/c-activity-qa/activity-qa.md) von Vorschauen für Automated Personalization-Aktivitäten
+* [Unterstützung von ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) Entscheidungen auf dem Gerät für at.js.
+* [Vorschau der ](/help/c-activities/c-activity-qa/activity-qa.md) Linkunterstützung für Automated Personalization-Aktivitäten
 
 Mit dieser Version wird auch die Unterstützung für Microsoft Internet Explorer 10, Internet Explorer 11 und alle älteren Versionen entfernt. Microsoft Edge wird in at.js 2.5.0 und höher weiterhin unterstützt.
 
@@ -38,16 +38,16 @@ Diese Version enthält die folgenden neuen Funktionen und Erweiterungen. Die Pro
 
 | Funktion | Details |
 | --- | --- |
-| Unterstützung von Entscheidungen auf dem Gerät für at.js<br>(Datum der Ankündigung) | Die geräteinterne Entscheidungsfindung ermöglicht es Marketingexperten und Entwicklern, Experimente und Personalisierungen im Browser eines Benutzers mit einer Latenz von nahezu null zu ermöglichen.<br>Weitere Informationen finden Sie unter  [Gerätebezogene Entscheidungsfindung für &quot;at.js&quot;.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
-| ![](/help/assets/premium.png) PremiumList-basierte Operatoren für Entitäts-Filterregeln | [!DNL Target Recommendations] unterstützt neue Liste-basierte Operatoren für Entitätsfilterregeln. (TGT-39234)<br>Neu hinzugefügte Operatoren umfassen:<br><ul><li>in Liste</li><li>ist nicht in der Liste enthalten</li><li>Liste enthält ein Element in</li><li>Liste enthält kein Element in</li><li>Liste enthält alle Elemente in</li><li>Liste enthält nicht alle Elemente in</li></ul>Weitere Informationen finden Sie unter &quot;Verfügbare Operatoren&quot;in [Dynamische und statische Inklusionsregeln verwenden](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
+| Unterstützung von Entscheidungen auf dem Gerät für at.js<br>(Datum der Bekanntgabe) | Mit der geräteübergreifenden Entscheidungsfindung können Marketingexperten und Entwickler Experimentierungen und Personalisierungen im Browser eines Benutzers bei nahezu null Latenz bereitstellen.<br>Weitere Informationen finden Sie unter  [On-Device Decisioning für at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![](/help/assets/premium.png) PremiumList-basierte Operatoren für Entitätsfilterregeln | [!DNL Target Recommendations] unterstützt neue listenbasierte Operatoren für Entitätsfilterregeln. (TGT-39234)<br>Zu den neu hinzugefügten Operatoren gehören:<br><ul><li>Ist in der Liste enthalten</li><li>ist nicht in der Liste enthalten</li><li>Liste enthält ein Element in</li><li>Liste enthält kein Element in</li><li>Liste enthält alle Elemente in</li><li>Liste enthält nicht alle Elemente in</li></ul>Weitere Informationen finden Sie unter &quot;Verfügbare Operatoren&quot;in [Verwenden dynamischer und statischer Einschlussregeln](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
 Diese Version enthält die folgenden Fehlerbehebungen.
 
-* Es wurde ein Fehler behoben, der dazu führte, dass eine Aktivität nach dem Ändern der Audience in [!UICONTROL Alle Besucher] nicht synchronisiert werden konnte. (TGT-40259)
-* Es wurde ein Fehler behoben, der verhinderte, dass Angebot dupliziert wurden, wenn sie an verschiedenen Stellen in den [!UICONTROL Automated Personalization]-Aktivitäten verwendet wurden, obwohl die Option [!UICONTROL Duplikat nicht zulassen] aktiviert war. (TGT-39567)
-* Es wurde ein Fehler behoben, der verhinderte, dass die Seite [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] ordnungsgemäß geladen wurde. (TGT-39918)
+* Fehlerkorrektur - Aktivitäten können jetzt synchronisiert werden, nachdem die Zielgruppe in [!UICONTROL Alle Besucher] geändert wurde. (TGT-40259)
+* Fehlerkorrektur - Angebote können jetzt dupliziert werden, wenn sie an verschiedenen Stellen in [!UICONTROL Automated Personalization] -Aktivitäten verwendet werden, auch wenn die Option [!UICONTROL Duplikate nicht zulassen] aktiviert ist. (TGT-39567)
+* Fehlerkorrektur - Die Seite [!UICONTROL Administration] > [!UICONTROL Scene7-Konfiguration] wird jetzt ordnungsgemäß geladen. (TGT-39918)
 * Es wurde ein Fehler behoben, der dazu führte, dass Eigenschaften dem falschen Arbeitsbereich zugeordnet wurden. (TGT-39869)
-* Es wurde ein Problem behoben, das zu unbegrenztem Laden führte, wenn die Anforderung nach dem Ändern der Umgebung beim Erstellen eines Empfehlungsausschlusses fehlschlug. (TGT-39948)
+* Es wurde ein Problem behoben, das zu unbegrenztem Laden führte, wenn die Anfrage nach dem Ändern der Umgebung beim Erstellen eines Empfehlungsausschlusses fehlschlug. (TGT-39948)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
