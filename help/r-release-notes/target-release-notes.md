@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Versionshinweise
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: 14e1a71bbebbf8baec09df41e3e08f89bb64a4e0
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 33%
+source-wordcount: '532'
+ht-degree: 28%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 24. Mai 2021**
+**Letzte Aktualisierung: 25. Mai 2021**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungszeitpunkt identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -36,7 +36,9 @@ Diese Version von [!DNL Platform Web SDK] unterstützt Folgendes:
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8. Juni 2021)
 
-Der Inhalt wird hinzugefügt, sobald das Veröffentlichungsdatum näher rückt.
+| Funktion | Details |
+| --- | --- |
+| ![Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL badgeCatalog ] SearchAPI | Durchsuchen Sie Ihren [!DNL Recommendations] Produkt- und Inhaltskatalog programmgesteuert per API, um Elemente zu identifizieren, die einem Suchkriterium entsprechen, und vereinfachen Sie die Verwaltung Ihres Katalogs.<br>**Einschränkungen und Hinweise**:<ul><li>Die Katalogsuche per API wird nicht für Umgebungen mit mehr als 2.000.000 Elementen unterstützt.</li><li>Katalogsuchergebnisse über API werden schneller aktualisiert als Katalogsuchergebnisse über die [!DNL Target] -Benutzeroberfläche. Die Katalogsuche in der Benutzeroberfläche [!DNL Target] kann länger dauern, bis die neuesten Ergebnisse angezeigt werden.</li></ul>Weitere Informationen finden Sie unter [Suchen nach Entitäten](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) im Handbuch *[!DNL Adobe Target][!DNL Recommendations] API* . |
 
 ## [!DNL Target Standard/Premium] 21.5.2 (noch festzulegender Zeitpunkt)
 
