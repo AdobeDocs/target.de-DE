@@ -5,16 +5,16 @@ title: Was sind Antwort-Token und wie verwende ich sie?
 feature: Administration und Konfiguration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1598'
 ht-degree: 26%
 
 ---
 
 # Antwort-Token
 
-Mithilfe von Antwort-Token können Sie [!DNL Adobe Target]-spezifische Informationen automatisch an die Webseite Ihrer Marke ausgeben. Diese Informationen können Details zur Aktivität, zum Angebot, zum Erlebnis, zum Benutzerprofil, zu geografischen Informationen und mehr enthalten. Diese Details bieten zusätzliche Antwortdaten, um sie für interne Systeme oder Drittanbietersysteme (wie Clicktale) freizugeben oder für das Debugging zu verwenden.
+Mithilfe von Antwort-Token können Sie [!DNL Adobe Target]-spezifische Informationen automatisch an die Webseite Ihrer Marke ausgeben. Diese Informationen können Details zur Aktivität, zum Angebot, zum Erlebnis, zum Benutzerprofil, zu geografischen Informationen und mehr enthalten. Diese Details bieten zusätzliche Antwortdaten, um sie für interne oder Drittanbieter-Tools freizugeben oder für das Debugging zu verwenden.
 
 Mithilfe von Antwort-Token können Sie festlegen, welche Variablen (in Schlüssel/Wert-Paaren) verwendet werden sollen, und dann aktivieren, dass sie als Teil einer [!DNL Target]-Antwort gesendet werden. Sie aktivieren eine Variable mithilfe des Schalters und die Variable wird mit [!DNL Target]-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Antwort-Token funktionieren auch im Modus [!UICONTROL Vorschau] .
 
