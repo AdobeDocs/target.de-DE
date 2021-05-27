@@ -4,11 +4,10 @@ description: Wo finde ich Ideen und Anregungen für meine Test- und Personalisie
 title: Wo finde ich Ideen für meine Test- und Personalisierungsinitiativen?
 feature: Überblick
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 99%
+source-wordcount: '1054'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +23,7 @@ Führen Sie nach der Festlegung Ihrer Zielgruppen weitere Benutzererlebnistests 
 
 Ein Telekommunikationsunternehmen beispielsweise könnte für einen Besucher, der in die Zielgruppe „ernsthafter Gamer“ fällt, ein Erlebnis auf seiner Unternehmenswebsite mit Kopien und Bildern bereitstellen, die bei Spielern Resonanz finden und sein Angebot für einen Hochgeschwindigkeits-Internetzugang unterstützen.
 
-## Idee 2: [!DNL Target] Erstmalige Besucher und Wiederholungskunden unterschiedlich.
+## Idee 2: Gehen Sie für Erst- und Bestandskunden nach unterschiedlichen Targeting-Strategien vor.
 
 Digitale Marketer erkennen intuitiv, dass Bestandskunden wertvoller sind als Neukunden, aber meist entwerfen sie keine Strategie, die Marketing-Programme für die Bindung bestehender Kunden priorisiert. Diesen häufigen Unterlassungsfehler vermeiden Sie, indem Sie Ihre Metriken zu Bestandskunden analysieren, um festzustellen, wie sich die Ihrem Unternehmen treuen Kunden auf Ihrer Site verhalten. Erstellen Sie anhand der daraus gewonnenen Erkenntnisse zielgerichtete Kampagnen für Besucher mit einem oder zwei Käufen – mit Kaufanreizen, die sie zu weiteren Site-Besuchen anregen.
 
