@@ -4,10 +4,9 @@ description: Erfahren Sie mehr zur Fehlerbehebung und erhalten Sie Antworten auf
 title: Wie kann ich Probleme in Verbindung mit automatischen Targeting-Aktivitäten beheben?
 feature: Automatisches Targeting
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1920'
 ht-degree: 99%
 
 ---
@@ -33,7 +32,7 @@ Konsultieren Sie bei Problemen mit [!UICONTROL automatischen Targeting]-Aktivit�
 
 * Versuchen Sie, während des Aktivitätsverlaufs wesentliche Änderungen an den Erlebnissen vorzunehmen.
 
-### Empfehlen Sie, Auto [!DNL Target] mit einer 90(Control)/10(Targeting)-Aufteilung zu verwenden, bis die Modelle erstellt wurden?
+### Empfehlen Sie die Verwendung von [!UICONTROL Automatisches Targeting] mit einer 90(Control)/10(Targeted)-Aufteilung, bis die Modelle erstellt wurden?
 
 Wie Ihre optimale Aufteilung der Traffic-Zuordnung aussieht, hängt davon ab, was Sie erreichen möchten.
 
