@@ -5,11 +5,10 @@ title: Zeichen-, Größen- und andere Beschränkungen in Adobe Target
 feature: Fehlerbehebung
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 92%
+source-wordcount: '1184'
+ht-degree: 90%
 
 ---
 
@@ -36,6 +35,12 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 * **Empfohlenes Limit**: 10.000 aktive Live-Aktivitäten.
 
 * **Empfohlenes Limit**: 10.000 aktive gespeicherte (und noch nicht beendete) Aktivitäten.
+
+## Target-API-Aufrufe
+
+* **Limit**: 50 Anrufe pro Minute.
+
+   Wenn Sie mehr als 50 API-Aufrufe pro Minute ausführen, gibt [!DNL Target] die Fehlermeldung &quot;503 HTTP-Status&quot;zurück.
 
 ## Zielgruppen
 
@@ -76,8 +81,8 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 ### Anzahl der Entitäten
 
 * Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hart codiert oder in Schleife, beträgt 99.
-* Das empfohlene Limit für die beste Performance besteht darin, den Katalog weniger als eine Million Artikel pro Umgebung und weniger als zehn Millionen Artikel in allen Umgebung zu speichern.
-* Die Höchstgrenze beträgt zehn Millionen Artikel pro Umgebung und 100 Millionen Artikel für alle Umgebung. Wenn Sie zwischen einer Million und zehn Millionen Elemente pro Umgebung haben, wird die Leistung der [!UICONTROL Katalogsuche]-Benutzeroberfläche beeinträchtigt. [!DNL Target Recommendations]gibt jedoch weiterhin Empfehlungen heraus und gibt diese weiter ab.
+* Die empfohlene Beschränkung für die beste Leistung besteht darin, den Katalog weniger als eine Million Artikel pro Umgebung und weniger als zehn Millionen Artikel in allen Umgebungen zu speichern.
+* Die maximale Begrenzung beträgt zehn Millionen Artikel pro Umgebung und 100 Millionen Artikel in allen Umgebungen. Wenn Sie zwischen einer Million und zehn Millionen Elemente pro Umgebung haben, wirkt sich dies auf die Leistung der [!UICONTROL Katalogsuche] -Benutzeroberfläche aus. [!DNL Target Recommendations]erstellt jedoch weiterhin Empfehlungen und gibt diese weiter.
 
 ### Benutzerdefinierte Entitätsattribute
 
@@ -220,7 +225,7 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 ## Profilskripte
 
-* **Empfohlene Beschränkung aktiver Profil-Skripte (die aktiviert sind)**: 300
+* **Empfohlene Beschränkung aktiver Profilskripte (aktivierte Skripte)**: 300
 
 * **Empfohlenes Limit für alle Profilskripte eines Kontos**: 2.000
 
@@ -234,7 +239,7 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 * **Limit**: 50 Berichtszielgruppen/-segmente pro Aktivität.
 
-## Skript-Profil-Eingabefeld in der [!DNL Target]-Benutzeroberfläche
+## Skript-Profileingabefeld in der [!DNL Target]-Benutzeroberfläche
 
 * **Empfohlenes Limit**: 2.000 Zeichen.
 
