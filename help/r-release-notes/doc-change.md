@@ -4,10 +4,10 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der A
 title: Wo finde ich Informationen zu Änderungen an der Target-Dokumentation?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 56%
+source-wordcount: '1257'
+ht-degree: 55%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 27. Mai | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Es wurde ein Abschnitt für [!DNL Target]-API-Aufrufe hinzugefügt. Die Begrenzung beträgt 50 Anrufe pro Minute. |
 | 20. Mai | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Es wurde ein Link zum folgenden Blogpost im Adobe Tech Blog hinzugefügt:<ul><li>Adobe Tech Blog - Part 2: Führen Sie [!DNL Adobe Target] NodeJS-SDK für Experimentierungen und Personalisierung auf Edge-Plattformen aus (AWS Lambda@Edge).</li></ul> |
 |  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt: &quot;Die Archivierung von [!UICONTROL Aktivitäten mit automatischem Targeting] kann zu Synchronisierungsproblemen führen.&quot; |
 | 17. Mai | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur „at.js“-Version 2.5.0 hinzugefügt. |
