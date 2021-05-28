@@ -5,9 +5,9 @@ title: Was sind Antwort-Token und wie verwende ich sie?
 feature: Administration und Konfiguration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
+source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1622'
 ht-degree: 26%
 
 ---
@@ -84,7 +84,14 @@ Der Prozess, mit dem Sie auf [!DNL Target]-Antworten und Antwort-Token warten, h
 
 Verwenden Sie die Handle-Objektklasse, die über ein Metadaten-Objekt und ein Datenobjekt verfügt, um auf [!DNL Target]-Antworten zu warten und die Antwort-Token zu lesen.
 
-Im folgenden Codebeispiel wird direkt ein [!DNL Platform Web SDK] benutzerdefinierter Ereignis-Handler zur HTML-Seite hinzugefügt:
+Im folgenden Antwortbeispiel wird direkt ein [!DNL Platform Web SDK] benutzerdefinierter Ereignishandler zur HTML-Seite hinzugefügt (in der Tabelle werden die im Code verwendeten Objekte erläutert):
+
+| Objekt | Informationen |
+| --- | --- |
+| Typ - Personalization.decision | Ob die Entscheidung vom [!DNL Target]- oder Offer decisioning-Provider getroffen wurde. |
+| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] stellt die Metadaten und Werte des Antwort-Tokens für die Seite bereit. |
+| Meta | An die Seite übergebene Metadaten. |
+| Daten | Werte der Metadaten, die an die Seite übergeben werden. |
 
 ```html
 <html>
@@ -139,13 +146,6 @@ Im folgenden Codebeispiel wird direkt ein [!DNL Platform Web SDK] benutzerdefini
 
 </html>
 ```
-
-| Objekt | Informationen |
-| --- | --- |
-| Typ - Personalization.decision | [!DNL Target] und Offer decisioning-Daten werden hier übergeben. |
-| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] stellt die Metadaten und Werte des Antwort-Tokens für die Seite bereit. |
-| Meta | Metadaten, die an die Seite übergeben werden. |
-| Daten | Werte der Metadaten, die an die Seite übergeben werden. |
 
 ### ![at.js ](/help/assets/atjs.png) badgeat.js mithilfe benutzerdefinierter Ereignisse
 
@@ -218,7 +218,7 @@ Wie zuvor erwähnt, agieren Antwort-Token mit den für Benutzer gespeicherten Pr
 
 ## Daten an Google Analytics senden
 
-In den folgenden Abschnitten wird beschrieben, wie Sie [!DNL Target]-Daten an Google Analytics senden:
+In den folgenden Abschnitten wird beschrieben, wie Sie [!DNL Target]-Daten an Google Analytics senden. Daten, die von Antwort-Token gesendet werden, können auch an andere Drittanbieter-Integrationen gesendet werden.
 
 ### ![AEP-](/help/assets/platform.png) BadgeSenden von Daten an Google Analytics über Platform Web SDK
 
