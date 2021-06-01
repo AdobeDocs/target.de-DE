@@ -4,10 +4,10 @@ description: Hier finden Sie Antworten auf Fragen zur Verwendung von Umleitungsa
 title: Wo finde ich häufig gestellte Fragen zu Umleitungsangeboten mit A4T?
 feature: 'Analytics for Target (A4T) '
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 62%
+source-wordcount: '1341'
+ht-degree: 63%
 
 ---
 
@@ -109,10 +109,6 @@ Nein, Sie müssen für Aktivitäten mit [!DNL Analytics] als Berichterstellungsq
 ## ![Adobe Experience Platform Web SDK-](/help/assets/platform.png) BadgeWerden Umleitungsangebote für A4T  [!DNL Adobe Experience Platform Web SDK] unterstützt? {#platform}
 
 Die folgenden häufig gestellten Fragen enthalten weitere Informationen zur Verwendung von A4T und zur Umleitung von Angeboten mit dem [!DNL Platform Web SDK].
-
->[!NOTE]
->
->Die A4T-Unterstützung in einer [!DNL Adobe Experience Platform Web SDK]-Implementierung, die in diesem Artikel besprochen wird, soll mit der [!DNL Platform Web SDK]-Version 2.5.0 (1. Juni 2021) verfügbar sein.
 
 ### Unterstützt Analytics for Target (A4T) Umleitungsangebote?
 
