@@ -4,7 +4,7 @@ title: Wo finde ich [!DNL Target] Dokumentation?
 description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] das Kundenerlebnis personalisieren können, um den Umsatz Ihrer Websites, mobilen Sites, Apps und anderer digitaler Kanäle zu maximieren.
 feature: Überblick
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 94%
