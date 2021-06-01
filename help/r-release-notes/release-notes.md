@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Versionshinweise
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d102e3b93e258199bad40de089443eda3a07d7fe
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 55%
+source-wordcount: '701'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,15 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 >Migrieren Sie zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek, um potenzielle Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Target für clientseitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.6.0 (1. Juni 2021)
+
+Diese Version von [!DNL Platform Web SDK] unterstützt Folgendes:
+
+| Funktion | Details |
+| --- | --- |
+| Umleitungs-Unterstützung mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt [!DNL Target]-Umleitungen bei der Verwendung von [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Weitere Informationen finden Sie unter  [Analytics  [!DNL Target] für die Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Antwort-Token | Das Platform Web SDK unterstützt jetzt [!DNL Target] Antwort-Token.<br>Weitere Informationen finden Sie unter  [Antwort-Token](/help/administrating-target/response-tokens.md). |
 
 ## at.js-Version 2.5.0 (13. Mai 2021)
 
