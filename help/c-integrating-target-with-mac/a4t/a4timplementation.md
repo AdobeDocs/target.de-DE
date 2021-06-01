@@ -4,10 +4,10 @@ description: Führen Sie die erforderlichen Schritte aus, um Analytics für [!DN
 title: Wie implementiere ich Analytics für [!DNL Target] (A4T)?
 feature: 'Analytics for Target (A4T) '
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 22%
+source-wordcount: '1144'
+ht-degree: 23%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 22%
 Bei der Implementierung von [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Adobe Target] (A4T) sind mehrere Schritte erforderlich. Der Prozess variiert je nachdem, ob Sie A4T mit [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) oder mit at.js implementieren.
 
 ## ![Adobe Experience Platform Web SDK-](/help/assets/platform.png) BadgeImplementierungsschritte für eine Adobe Experience Platform Web SDK-Implementierung {#platform}
-
->[!NOTE]
->
->Die A4T-Unterstützung in einer [!DNL Adobe Experience Platform Web SDK]-Implementierung, die in diesem Artikel besprochen wird, soll mit der [!DNL Platform Web SDK]-Version 2.5.0 (1. Juni 2021) verfügbar sein.
 
 In den folgenden Abschnitten werden die Schritte beschrieben, die zum Bereitstellen dieser Integration auf Ihrer Site erforderlich sind, wenn Sie das Platform Web SDK verwenden möchten:
 
