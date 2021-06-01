@@ -4,9 +4,9 @@ description: Halten Sie sich mit wichtigen Ergänzungen und Änderungen an der A
 title: Wo finde ich Informationen zu Änderungen an der Target-Dokumentation?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1349'
 ht-degree: 53%
 
 ---
@@ -25,6 +25,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 |  | [Analytics  [!DNL Target] für die Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | Es wurde ein neuer Abschnitt hinzugefügt:<ul><li>Implementierungsschritte für eine [!DNL Adobe Experience Platform Web SDK] -Implementierung</li></ul> |
 |  | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Es wurden Informationen zur Verwendung von Umleitungsangeboten mit A4T und dem Platform Web SDK hinzugefügt. |
 |  | [Antwort-Token](/help/administrating-target/response-tokens.md) | Es wurden Informationen zur Verwendung von Antwort-Token mit [!DNL Adobe Experience Platform Web SDK] hinzugefügt. |
+|  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Adobe Experience Platform Web SDK-Version 2.6.0 (1. Juni 2021) hinzugefügt. |
 | 27. Mai | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Es wurde ein Abschnitt für [!DNL Target]-API-Aufrufe hinzugefügt. Die Begrenzung beträgt 50 Anrufe pro Minute. |
 | 20. Mai | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Es wurde ein Link zum folgenden Blogpost im Adobe Tech Blog hinzugefügt:<ul><li>Adobe Tech Blog - Part 2: Führen Sie [!DNL Adobe Target] NodeJS-SDK für Experimentierungen und Personalisierung auf Edge-Plattformen aus (AWS Lambda@Edge).</li></ul> |
 |  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt: &quot;Die Archivierung von [!UICONTROL Aktivitäten mit automatischem Targeting] kann zu Synchronisierungsproblemen führen.&quot; |
