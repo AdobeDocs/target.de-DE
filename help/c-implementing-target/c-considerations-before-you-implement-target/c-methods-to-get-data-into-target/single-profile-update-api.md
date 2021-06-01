@@ -1,21 +1,20 @@
 ---
-keywords: implementieren;Implementierung;Einrichten;Setup;Update eines einzelnen Profils
-description: 'Daten können Sie mit der Single Profil Update API abrufen. [!DNL Target] '
-title: 'Wie erhalte ich Daten mit der API für die Aktualisierung von einzelnen Profilen? [!DNL Target] '
+keywords: implementieren;implementieren;einrichten;Setup;Single Profile Update
+description: Rufen Sie Daten mithilfe der API für die Aktualisierung einzelner Profile in [!DNL Target] ab.
+title: Wie erhalte ich Daten unter [!DNL Target] mithilfe der Single Profile Update API?
 feature: Implementierung
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 45%
+source-wordcount: '189'
+ht-degree: 46%
 
 ---
 
 # Single-Profil-API
 
-Fast identisch mit der Massen-Profil-Update-API, aber ein Besucher-Profil wird gleichzeitig aktualisiert, in einer Linie im API-Aufruf und nicht mit einer CSV-Datei.
+Fast identisch mit der Bulk Profile Update API, aber ein Besucherprofil wird gleichzeitig aktualisiert, und zwar in Übereinstimmung mit dem API-Aufruf und nicht mit einer CSV-Datei.
 
 ## Format
 
@@ -23,7 +22,7 @@ Der Besucher muss über die Target-Werte mboxPC oder mboxThirdPartyId identifizi
 
 ## Beispielhafte Anwendungsfälle
 
-Sie möchten die Zielgruppe in Echtzeit aktualisieren, wenn ein Besucher eine Offline-Aktion ausführt. Zu den Aktionen gehören das Erreichen eines Call-Centers, die Finanzierung eines Kredits, die Verwendung einer Treuekarte im Geschäft, der Zugriff auf einen Kiosk usw.
+Sie möchten Target in Echtzeit aktualisieren, wenn ein Besucher eine Offline-Aktion ausführt. Zu den Aktionen gehören das Erreichen eines Callcenters, die Finanzierung eines Darlehens, die Verwendung einer Treuekarte im Geschäft, der Zugriff auf einen Kiosk usw.
 
 ## Vorteile der Methode
 
@@ -41,6 +40,7 @@ Aktualisiert nur Profile. Kann kein Profil für einen potenziellen Benutzer erst
 
 GET und POST werden unterstützt.   `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
-## Links zu relevanten Informationen
+>[!MORELIKETHIS]
+>
+>* [Update von Profilen](https://developers.adobetarget.com/api/#updating-profiles)
 
-[Update von Profilen](https://developers.adobetarget.com/api/#updating-profiles)
