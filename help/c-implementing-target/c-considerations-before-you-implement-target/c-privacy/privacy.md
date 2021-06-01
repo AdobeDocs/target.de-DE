@@ -1,15 +1,14 @@
 ---
-keywords: Privatsphäre;IP-Adresse;Geosegmentation;Opt-out;Optout;Ausschluss;Datenschutz;Regierungsvorschriften;gdpr;ccpa
-description: Erfahren Sie, wie Adobe [!DNL Target] die geltenden Datenschutzgesetze einhält, einschließlich der Erfassung und Bearbeitung von IP-Adressen und Abmeldeanweisungen.
-title: 'Wie geht man mit Datenschutzproblemen um? [!DNL Target] '
+keywords: Datenschutz; IP-Adresse; Geosegmentation; Opt-out; Opt-out; Opt-out; Datenschutz; Datenschutz; Regierungsbestimmungen; DSGVO; ccpa
+description: Erfahren Sie, wie Adobe [!DNL Target] die geltenden Datenschutzgesetze einhält, einschließlich der Erfassung und Verarbeitung von IP-Adressen und Opt-out-Anweisungen.
+title: Wie behandelt [!DNL Target] Datenschutzprobleme?
 feature: Datenschutz und Sicherheit
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b379beeea179930af2c1311cd011fdb6c837b374
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 73%
+source-wordcount: '676'
+ht-degree: 68%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 73%
 
 [!DNL Adobe Target] bietet Prozesse und Einstellungen, die Ihnen die Verwendung von unter Einhaltung der geltenden Datenschutzgesetze ermöglichen.[!DNL Target]
 
-## Sammlung von IP-Adressen {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## IP-Adresssammlung {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 Die IP-Adresse eines Besuchers Ihrer Website wird an das Adobe-Datenverarbeitungscenter übergeben. Abhängig von der Netzwerkkonfiguration des Besuchers entspricht die IP-Adresse nicht unbedingt der IP-Adresse des Computers des Besuchers. Bei der IP-Adresse kann es sich z. B. um die externe IP-Adresse einer Network Address Translation-(NAT-)Firewall, eines HTTP-Proxys oder eines Internet-Gateways handeln. Target speichert keine IP-Adressen oder personenbezogenen Informationen des Benutzers. IP-Adressen werden von Target nur während der Dauer der Sitzung verwendet (im Arbeitsspeicher, nie persistent).
 
-## Ersetzen des letzten Oktetts der IP-Adressen {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## Ersetzen des letzten Oktetts von IP-Adressen {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
 Adobe hat eine neue, in das Design integrierte Datenschutzeinstellung entwickelt, die durch Adobe Client Care für Adobe Target aktiviert werden kann. Wenn diese Einstellung aktiviert ist, wird das letzte 8-Bit-Zeichen (das Ende) der IP-Adresse ausgeblendet, sobald die IP-Adresse durch Adobe erfasst wird. Diese Anonymisierung wird vor jeder weiteren Verarbeitung der IP-Adresse durchgeführt, auch vor einer optionalen Geo-Suche für die IP-Adresse.
 
@@ -29,15 +28,15 @@ Wenn diese Funktion aktiviert ist, wird die IP-Adresse so stark anonymisiert, da
 
 Die folgenden Einstellungen sind verfügbar:
 
-* Keine Verschleierung: Zielgruppe verdeckt keinen Teil der IP-Adresse.
-* Letztes Oktett: Zielgruppe verbirgt das letzte Oktett der IP-Adresse.
-* Vollständige IP: Zielgruppe blendet die gesamte IP-Adresse aus.
+* Keine Verschleierung: Target blendet keinen Teil der IP-Adresse aus.
+* Letztes Oktett: Target blendet das letzte Oktett der IP-Adresse aus.
+* Vollständige IP-Adresse: Target blendet die gesamte IP-Adresse aus.
 
-Zielgruppe empfängt die vollständige IP-Adresse und verschleiert sie (sofern auf Letztes Oktett oder Vollständige IP festgelegt) wie angegeben. Zielgruppe speichert dann die verschleierte IP-Adresse während der Sitzungsdauer im Speicher.
+Target erhält die vollständige IP-Adresse und verschleiert sie (sofern auf Letztes Oktett oder Vollständige IP gesetzt) wie angegeben. Target speichert dann die verschleierte IP-Adresse für die Dauer der Sitzung im Speicher.
 
 >[!NOTE]
 >
->[Wenden Sie sich an Adobe Client ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Caret, um zu ermitteln, welche Einstellung Sie aktuell verwenden, oder um die IP-Verschleierungsfunktion zu aktivieren.
+>[Wenden Sie sich an Adobe Client ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Career , um zu bestimmen, welche Einstellung Sie derzeit verwenden, oder um die IP-Verschleierungsfunktion zu aktivieren.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -52,7 +51,11 @@ Sie können einen Ausschluss-Link zu Ihren Sites hinzufügen, um Besuchern zu er
 1. Fügen Sie den folgenden Link zu Ihrer Site hinzu:
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
-1. Ersetzen Sie den Text `clientcode` durch Ihren Empfehlungen-Client-Code, und fügen Sie den Text oder das Bild hinzu, das mit der Ausschluss-URL verknüpft werden soll.
+
+1. (Bedingt) Wenn Sie CNAME verwenden, sollte der Link den Parameter &quot;client=`clientcode`&quot;enthalten, z. B.:
+https://my.cname.domain/optout?client=clientcode
+
+1. Ersetzen Sie `clientcode` durch Ihren Clientcode und fügen Sie den Text oder das Bild hinzu, das mit der Ausschluss-URL verknüpft werden soll.
 
 Ein Besucher, der auf diesen Link klickt, wird während der Browser-Sitzung nicht in Mbox-Anforderungen einbezogen, bis er den Cookie löscht oder nach Ablauf von zwei Jahren (je nachdem, was zuerst eintritt). Dies funktioniert durch Einsetzen eines Cookies namens `disableClient` in der Domäne `clientcode.tt.omtrdc.net` für den Besucher.
 
@@ -60,4 +63,4 @@ Auch wenn Sie eine Erstanbieter-Cookie-Implementierung verwenden, erfolgt der Au
 
 ## Vorschriften zur Privatsphäre und zum Datenschutz
 
-Informationen zur Datenschutzverordnung (GDPR) der Europäischen Vereinigung, zum kalifornischen Verbraucherschutzgesetz (CCPA) und anderen internationalen Datenschutzvorschriften sowie zu deren Auswirkungen auf Ihr Unternehmen und Adobe Target finden Sie unter [Datenschutzbestimmungen und Datenschutzbestimmungen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+Unter [Datenschutz- und Datenschutzbestimmungen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) finden Sie Informationen zur Datenschutz-Grundverordnung (DSGVO) der Europäischen Union, zum California Consumer Privacy Act (CCPA) und anderen internationalen Datenschutzanforderungen sowie dazu, wie sich diese Vorschriften auf Ihr Unternehmen und Adobe Target auswirken.
