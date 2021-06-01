@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Versionshinweise
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 27%
+source-wordcount: '486'
+ht-degree: 30%
 
 ---
 
@@ -31,8 +31,8 @@ Diese Version von [!DNL Platform Web SDK] unterstützt Folgendes:
 
 | Funktion | Details |
 | --- | --- |
-| Umleitungs-Unterstützung mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt [!DNL Target]-Umleitungen bei der Verwendung von A4T. Umleitungsangebote in [!DNL Adobe Target] führen dazu, dass ein Browser zu einer neuen Seite umleitet.<br>Weitere Informationen finden Sie unter Umleitungsangebote . |
-| Antwort-Token | Das Platform Web SDK unterstützt jetzt [!DNL Target] Antwort-Token.<br> Mithilfe von Antwort-Token können Sie automatisch spezifische Informationen  [!DNL Adobe Target] zur Webseite Ihrer Marke ausgeben. Diese Informationen können Details zur Aktivität, zum Angebot, zum Erlebnis, zum Benutzerprofil, zu geografischen Informationen und mehr enthalten. Diese Details bieten zusätzliche Antwortdaten, um sie für interne Systeme oder Drittanbietersysteme freizugeben oder für das Debugging zu verwenden.<br>Weitere Informationen finden Sie unter  [Antwort-Token](/help/administrating-target/response-tokens.md). |
+| Umleitungs-Unterstützung mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt [!DNL Target]-Umleitungen bei der Verwendung von [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Weitere Informationen finden Sie unter  [Analytics  [!DNL Target] für die Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Antwort-Token | Das Platform Web SDK unterstützt jetzt [!DNL Target] Antwort-Token.<br>Weitere Informationen finden Sie unter  [Antwort-Token](/help/administrating-target/response-tokens.md). |
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8. Juni 2021)
 
