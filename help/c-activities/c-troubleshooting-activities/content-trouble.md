@@ -4,11 +4,11 @@ description: Hier finden Sie Tipps zur Fehlerbehebung, wenn der Inhalt auf Ihrer
 title: Wie kann ich Fehler bei der Inhaltsbereitstellung beheben?
 feature: Aktivitäten
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1415'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ So wird das Autorisierungstoken abgerufen:
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-Mit mboxTrace können Sie an [!DNL Target]-Antworten angehängte Trace-Informationen abrufen. Trace-Informationen spiegeln das Ergebnis eines [!DNL Target]-Aufrufs(z. B. eine Konversion oder eine Impression) sowie alle weiteren Daten wider, die dazu beitragen festzustellen, weshalb es zu diesem Ergebnis gekommen ist, beispielsweise eine Reihe verfügbarer Niederlassungen, zwischen denen während einer Kampagne eine Auswahl getroffen wurde. Verwenden Sie diese Informationen für eine Fehlerdiagnose der Inhaltsbereitstellung.
+Mit mboxTrace können Sie an [!DNL Target]-Antworten angehängte Trace-Informationen abrufen. Trace-Informationen spiegeln das Ergebnis eines [!DNL Target]-Aufrufs (z. B. eine Konversion oder eine Impression) sowie alle weiteren Daten wider, die dazu beitragen festzustellen, weshalb es zu diesem Ergebnis gekommen ist, beispielsweise eine Reihe verfügbarer Niederlassungen, zwischen denen während einer Kampagne eine Auswahl getroffen wurde. Verwenden Sie diese Informationen für eine Fehlerdiagnose der Inhaltsbereitstellung.
 
 Die folgenden Parameter stehen zur Verfügung:
 
@@ -75,7 +75,7 @@ Ein Teil der Informationen umfasst übereinstimmende und nicht übereinstimmende
 * **Unmatched**: Die Anforderung in diesem Aufruf wurde für diese Segmente oder Ziele nicht zugelassen.
 * **Matched**: Die Anforderung wurde für die angegebenen Segmente oder Ziele zugelassen.
 
-**Verwenden von mboxTrace auf Recommendations-Seiten**: Wenn Sie mboxTrace als Abfrageparameter auf Seiten mit Recommendations hinzufügen, wird das Recommendations-Design der Seite durch ein mboxTrace-Detailfenster ersetzt. In diesem Fenster werden ausführliche Informationen zu Ihren Recommendations angezeigt, darunter:
+**Verwenden von mboxTrace auf Seiten mit Empfehlungen**: Wenn Sie mboxTrace als Abfrageparameter auf Seiten mit Empfehlungen hinzufügen, wird das Recommendations-Design der Seite durch ein mboxTrace-Detailfenster ersetzt. In diesem Fenster werden ausführliche Informationen zu Ihren Empfehlungen angezeigt, darunter:
 
 * Zurückgegebene Empfehlungen im Vergleich zu abgefragten Empfehlungen
 * Der verwendete Schlüssel und ob er Empfehlungen generiert
@@ -84,9 +84,9 @@ Ein Teil der Informationen umfasst übereinstimmende und nicht übereinstimmende
 * Angewendete Aus- und Einschlüsse
 * Auflistungsregeln
 
-Das Einschließen von  `=console`, `=json` oder `=window` im Abfrageparameter ist nicht erforderlich. Wenn Sie mit den mboxTrace-Details fertig sind, fügen Sie `=disable` hinzu und drücken Sie die **[!UICONTROL Eingabetaste]**, um zum normalen Anzeigemodus zurückzukehren.
+Das Einschließen von   `=console`, `=json` oder `=window` im Abfrageparameter ist nicht erforderlich. Wenn Sie mit den mboxTrace-Details fertig sind, fügen Sie `=disable` hinzu und drücken Sie die **[!UICONTROL Eingabetaste]**, um zum normalen Anzeigemodus zurückzukehren.
 
-Die normale Funktionsweise und Erscheinung Ihrer Website wird durch mboxTrace nicht beeinträchtigt. Besucher sehen Ihr normales Empfehlungsdesign.
+Die normale Funktionsweise und Erscheinung Ihrer Website wird durch mboxTrace nicht beeinträchtigt. Besucher sehen Ihr normales Recommendations-Design.
 
 ## mboxDebug {#mboxdebug}
 
@@ -145,7 +145,7 @@ Wenn Ihre Site eine Unterdomäne besitzt, z. B. [!DNL us.domain.com], das Target
 
 ## Target-Inhalt flackert oder wird nicht angezeigt, wenn ein Element auch Teil einer AEM-Personalisierung ist. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
-Wenn ein DOM-Element zum Adobe Experience Manager(AEM)-Personalisierungstargeting und zu einer Target-Aktivität gehört, flackert der Target-Inhalt möglicherweise, oder er wird nicht angezeigt.
+Wenn ein DOM-Element zum Adobe Experience Manager-(AEM)-Personalisierungstargeting und zu einer Target-Aktivität gehört, flackert der Target-Inhalt möglicherweise, oder er wird nicht angezeigt.
 
 Um dies zu beheben, können Sie die AEM-Personalisierung für Seiten deaktivieren, auf denen Target ausgeführt wird.
 
@@ -169,11 +169,11 @@ at. js löst keine Target-Anforderungen aus, wenn Sie einen ungültigen Doctype 
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Erweiterung hinzufügen  ![Tutorial-Badge](/help/assets/tutorial.png)
+### Erweiterung hinzufügen   ![Tutorial-Badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Einfaches Adobe Target Debugging ![Tutorial-Zeichen](/help/assets/tutorial.png)
+### Grundlegende Fehlerbehebung in Adobe Target ![Tutorial-Badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
