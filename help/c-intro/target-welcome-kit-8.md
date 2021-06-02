@@ -1,14 +1,14 @@
 ---
 keywords: Welcome Kit; Target Welcome Kit; Intro; Einführung; Erste Schritte
-description: Verwenden Sie die Vorlage "Zusammenfassungsergebnisse", um Ihre Erfolge mit Ihrer Adobe [!DNL Target] Aktivitäten zu kommunizieren.
-title: Wie kann ich die Ergebnisse meiner [!DNL Target] Aktivitäten für meine Organisation freigeben?
+description: Verwenden Sie zur Kommunikation Ihrer mit Adobe  [!DNL Target] -Aktivitäten erzielten Erfolge die Vorlage „Executive Summary Results“.
+title: Wie kann ich die Ergebnisse meiner  [!DNL Target] -Aktivitäten in meiner Organisation kommunizieren?
 feature: Überblick
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
