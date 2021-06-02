@@ -69,7 +69,7 @@ Wenn in den Ergebnissen eines A/B-Tests eine signifikante Steigerung von mindest
 
 Wenn Sie wesentliche Änderungen an den Inhalten in Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] vornehmen möchten, empfiehlt es sich, eine neue Aktivität zu beginnen, damit andere Benutzer, die Berichte überprüfen, vergangene Ergebnisse nicht mit anderen Inhalten verwechseln oder in Beziehung setzen.
 
-### Wie lange sollte ich warten, bis Modelle erstellt werden?   {#how-long}
+### Wie lange sollte ich warten, bis Modelle erstellt werden?    {#how-long}
 
 Wie lange es dauert, bis in Ihrer [!UICONTROL automatischen Targeting]-Aktivität Modelle erstellt werden, hängt in der Regel vom Traffic auf den jeweiligen Sites und der Konversionsrate der in der Aktivität festgelegten Erfolgsmetrik ab.
 
