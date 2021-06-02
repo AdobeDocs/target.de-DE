@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard; Recommendations; Target Premium; Automated Personalization; automatisches Targeting; Berechtigungen; Was ist Adobe Target?
-description: Lernen Sie die Grundlagen der Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium enthält erweiterte Funktionen, die nicht im Standardprodukt verfügbar sind.
-landing-page-description: Personalisieren Sie die Erlebnisse Ihrer Kunden, um den Umsatz Ihrer Websites und Mobile Sites sowie Apps, Social Media und anderer digitaler Kanäle zu maximieren.
+description: Die Grundlagen von Adobe.  [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target]  Premium enthält erweiterte Funktionen, die nicht im Standardprodukt verfügbar sind.
+landing-page-description: Personalisieren Sie die Erlebnisse Ihrer Kunden, um den Umsatz Ihrer Websites und Mobile Sites sowie Mobile Apps, Social Media und anderer digitaler Kanäle zu maximieren.
 title: Was ist Target?
 feature: Überblick
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Mit [Enterprise-Benutzerberechtigungen](/help/administrating-target/c-user-manag
 
 Weitere Informationen finden Sie in der [Dokumentation zu Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf).
 
-## Experience League: Die Adobe [!DNL Target] Begrüßungs-Kit {#kit}
+## Experience League: das Adobe [!DNL Target] Welcome Kit {#kit}
 
 Dieses Welcome Kit erleichtert Ihnen die Erstellung Ihres Optimierungs- und Personalisierungsprogramms in [!DNL Adobe Target]. In diesem Welcome Kit sind die wichtigsten Informationen, Tools und Ressourcen zusammengestellt. Damit haben Sie Ihre erste [!DNL Target]-Aktivität im Handumdrehen vorbereitet und gestartet. Das Kit enthält Ideen für kurzfristige schnelle Erfolge, aber auch für langfristige Optimierungsstrategien.
 
