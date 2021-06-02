@@ -1,14 +1,14 @@
 ---
 keywords: Welcome Kit; Target Welcome Kit; Intro; Einführung; Erste Schritte
-description: Lesen Sie in unserem Expertengremium Tipps zur Verwendung von Adobe [!DNL Target] im Rahmen Ihrer Test- und Personalisierungsbemühungen.
+description: Lesen Sie Tipps unserer Experten zur Verwendung von Adobe  [!DNL Target]  im Rahmen Ihrer Test- und Personalisierungsstrategie.
 title: Wo finde ich Tipps und Tricks zur Verwendung von Target?
 feature: Überblick
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2898'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Eine schrittweise Anleitung finden Sie unter [Benutzerspezifische Attribute](htt
 
 Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md).
 
-## Tipp 2: Optimieren Sie Ihre Personalisierung durch die Mischung von [!DNL Target]-Audiencen mit anderen Adobe Experience Cloud-Audiencen.
+## Tipp 2: Optimieren Sie die Personalisierung durch Kombination Ihrer [!DNL Target]-Zielgruppen mit anderen Zielgruppen aus Adobe Experience Cloud.
 
 Durch Kombination Ihrer Zielgruppen aus unterschiedlichen [!DNL Adobe Experience Cloud]-Lösungen erhalten Sie einen tieferen Einblick in Ihre Kunden und wesentlich bessere Optimierungsmöglichkeiten. So stellt Ihnen [!DNL Target] beispielsweise Echtzeitdaten zu Ihren Zielgruppen bereit, aus [!DNL Adobe Analytics] erhalten Sie zusätzlich jedoch auch historische Daten. Aus der Kombination beider Daten können Sie ermitteln, ob sich das Verhalten eines Kunden ändert und ob es eine Gelegenheit gibt, auf neues Verhalten zu reagieren. Klicken Sie beim Erstellen einer Aktivität einfach auf das Dropdown-Menü neben „Alle Besucher“. Aktivieren Sie danach die Kontrollkästchen von bis zu zwanzig Zielgruppen, klicken Sie auf „Mehrere Zielgruppen kombinieren“ und dann auf „Speichern“.
 
@@ -36,7 +36,7 @@ Eine schrittweise Anleitung finden Sie unter [Kombinieren mehrerer Zielgruppen](
 
 **Gut zu wissen**: [!DNL Adobe Audience Manager]-Zielgruppen sind in [!DNL Target] automatisch verfügbar. Die Freigabe von [!DNL Adobe Analytics]-Zielgruppen muss jedoch manuell eingerichtet werden. Aktivieren Sie bei der Erstellung der Zielgruppe in [!DNL Analytics] einfach das Kontrollkästchen „Als Experience Cloud-Zielgruppe festlegen“. Klicken Sie dann in [!DNL Target] auf „Experience Cloud-Zielgruppen importieren“.
 
-## Tipp 3: Exportieren Sie Daten von [!DNL Target] zur Verwendung mit Drittanbieter-Tools.
+## Tipp 3: Exportieren Sie Daten aus [!DNL Target] in Programme von Drittanbietern.
 
 Mit Antwort-Token können Administratoren Daten problemlos aus [!DNL Target] in Programme von Drittanbietern exportieren. Dies ist zum Beispiel sehr praktisch, wenn Sie Ihre Daten zu anderen Daten hinzufügen möchten, die in einem Umfragetool erfasst wurden. Wenn beispielsweise eine Stichprobe einer Bevölkerung in einer Umfrage ein Erlebnis mit „9“ Punkten und eine andere Stichprobe dasselbe Erlebnis mit „4“ Punkten bewertete, können Sie anhand Ihrer Daten ermitteln, wer Erlebnis A und wer Erlebnis B gesehen hat. Mit Antwort-Token können Sie Ihre [!DNL Target]-Daten auch in Ihr internes Data Warehouse exportieren. Klicken Sie einfach auf „Administration“ und schalten Sie den Schalter neben dem gewünschten Antwort-Token auf „Ein“. Erstellen Sie danach eine Aktivität. Die Daten können nun an den Drittanbieter übertragen werden. Mit Debuggingwerkzeugen können Sie überprüfen, ob [!DNL Target] die Daten exportiert.
 
