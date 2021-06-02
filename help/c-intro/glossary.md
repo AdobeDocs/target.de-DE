@@ -1,13 +1,13 @@
 ---
-description: Was bedeuten unterschiedliche Begriffe, die in Adobe [!DNL Target] verwendet werden? Suchen Sie Definitionen allgemeiner Begriffe, um mehr herauszufinden. [!DNL Target]
+description: Was bedeuten die in Adobe  [!DNL Target]  verwendeten Begriffe? Hier finden Sie Definitionen allgemeiner Begriffe, die Sie kennen sollten, um  [!DNL Target] optimal nutzen zu können.
 title: Wo finde ich die in Target verwendeten Begriffe und deren Definitionen?
 feature: Überblick
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2470'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
