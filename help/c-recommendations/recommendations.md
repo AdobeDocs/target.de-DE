@@ -1,14 +1,14 @@
 ---
 keywords: Recommendations; Recommendations-Kriterien; Recommendations-Algorithmen; Recommendations-Aktivität; Kriterien; Targeting mit Recommendations; Recs
-description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe [!DNL Target] die automatisch Inhalte anzeigen, die ausgehend von der bisherigen Aktivität oder anderen Algorithmen für Ihre Kunden von Interesse sein könnten.
-title: Was ist [!DNL Target] Recommendations?
+description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe  [!DNL Target] . Diese zeigen automatisch Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
+title: Was ist  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target Basics-Webinar: Einführung in Recommendations ![Tutorial-Badge](/help/assets/tutorial.png) {#intro-to-recs}
+## Adobe Target Basics-Webinar: Einführung in Recommendations ![Tutorial-Badge ](/help/assets/tutorial.png) {#intro-to-recs}
 
 Das Webinar *„Einführung in Recommendations“* beinhaltet eine ausführliche Untersuchung, wie der Wert von [!DNL Adobe Target Recommendations] wirksam eingesetzt werden kann. Erfahren Sie, wie diese [!DNL Target]-Aktivität automatisch Produkte oder Inhalte anzeigt, die für Ihre Kunden von Interesse sein könnten, indem sie Echtzeitvorschläge auf der Grundlage früherer Besuche optimiert. Außerdem können Sie in die [!DNL Target]-Benutzeroberfläche eintauchen, um eine schrittweise Übersicht über das Erstellen einer [!DNL Recommendations]-Aktivität zu erhalten.
 
