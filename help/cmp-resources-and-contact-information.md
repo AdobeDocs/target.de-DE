@@ -1,14 +1,14 @@
 ---
 keywords: Kontakt; legal; technischer Support; technischer Support; Support; Service; Fähigkeiten; Rechnungsstellung; Feedback
-description: Erfahren Sie mehr über zusätzliche Ressourcen, die Ihnen helfen, mehr über Adobe [!DNL Target] Funktionen zu erfahren und wie Sie mit der Adobe in Verbindung treten können, falls Sie Hilfe benötigen. [!DNL Target]
+description: Informationen zu zusätzlichen Ressourcen, in denen Sie die Funktionen von Adobe  [!DNL Target]  näher kennenlernen und erfahren, wie Sie bei Adobe Unterstützung für  [!DNL Target] anfordern können.
 title: Wo finde ich Ressourcen und Kontaktinformationen zu Target?
 feature: Versionshinweise – Überblick
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1231'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Aktuelle aufgezeichnete Target-Sitzungen:
 |--- |--- |
 | [at.js – Tipps und Überblick](https://helpx.adobe.com/de/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26. Juni 2019 | Lerninhalte:<ul><li>Vorteile der Verwendung von at.js</li><li>at.js-Einstellungen</li><li>Einstellungen bei Flackern</li><li>Debuggen von „at.js“</li><li>Bekannte Probleme</li><li>FAQs</li></ul>Weitere Informationen finden Sie unter [Funktionsweise von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
 | [Target Premium-Arbeitsbereiche](https://helpx.adobe.com/de/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4. September 2018 | Lerninhalte:<ul><li>Erstellen von Arbeitsbereichen (Produktprofilen)</li><li>Erstellen von Eigenschaften</li><li>Hinzufügen von Benutzern</li><li>Aktualisieren der Implementierung</li></ul>Weitere Informationen finden Sie unter [Enterprise-Benutzerberechtigungen](/help/administrating-target/c-user-management/property-channel/property-channel.md). |
-| [Visual Experience Composer (VEC)](https://helpx.adobe.com/de/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>Dezember 2017 | Lerninhalte:<ul><li>So funktioniert der VEC</li><li>So vermeiden Sie häufige Probleme mit dem VEC</li><li>Workarounds für den VEC</li></ul>Weitere Informationen hierzu finden Sie unter  [Erlebnisse](/help/c-experiences/experiences.md). |
-| [Adobe Target: Analytics/Target-Integration (A4T)](https://helpx.adobe.com/de/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Januar 2018 | Lerninhalte:<ul><li>So richten Sie die Integration ein und überprüfen, ob sie funktioniert </li><li>So funktioniert die Integration</li><li>Erfahren Sie, welche Berichte Sie in Analytics am besten verwenden</li><li>Antworten auf häufige Fragen zu A4T</li></ul>Weitere Informationen hierzu finden Sie unter [Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at.js: Vorteile und Best Practices für die Implementierung](https://helpx.adobe.com/de/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>April 2018 | Lerninhalte: <ul><li>So funktioniert die at.js-Bibliothek</li><li>Vorteile von at.js gegenüber mbox.js</li><li>Verwaltung von Flackern mit „at.js“</li><li>Fehlerbehandlung in at.js</li><li>Debugging-Methoden</li><li>Bekannte Probleme und Roadmap</li></ul>Weitere Informationen hierzu finden Sie unter  [„at.js“-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [Visual Experience Composer (VEC)](https://helpx.adobe.com/de/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>Dezember 2017 | Lerninhalte:<ul><li>So funktioniert der VEC</li><li>So vermeiden Sie häufige Probleme mit dem VEC</li><li>Workarounds für den VEC</li></ul>Weitere Informationen hierzu finden Sie unter   [Erlebnisse](/help/c-experiences/experiences.md). |
+| [Adobe Target: Analytics/Target-Integration (A4T)](https://helpx.adobe.com/de/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Januar 2018 | Lerninhalte:<ul><li>So richten Sie die Integration ein und überprüfen, ob sie funktioniert </li><li>So funktioniert die Integration</li><li>Erfahren Sie, welche Berichte Sie in Analytics am besten verwenden</li><li>Antworten auf häufige Fragen zu A4T</li></ul>Weitere Informationen hierzu finden Sie unter  [Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
+| [at.js: Vorteile und Best Practices für die Implementierung](https://helpx.adobe.com/de/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>April 2018 | Lerninhalte: <ul><li>So funktioniert die at.js-Bibliothek</li><li>Vorteile von at.js gegenüber mbox.js</li><li>Verwaltung von Flackern mit „at.js“</li><li>Fehlerbehandlung in at.js</li><li>Debugging-Methoden</li><li>Bekannte Probleme und Roadmap</li></ul>Weitere Informationen hierzu finden Sie unter   [„at.js“-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
