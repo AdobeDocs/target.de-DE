@@ -4,15 +4,15 @@ description: Hier erhalten Sie einen Überblick über Adobe Target. Sie erfahren
 title: Wo finde ich eine übersichtliche Einführung in Target?
 feature: Überblick
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2520'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Kapitel 2: Adobe [!DNL Target] auf einen Blick
+# Kapitel 2: Adobe [!DNL Target] auf einen Blick
 
 Bevor Sie mit [!DNL Adobe Target] beginnen, sollten Sie sich in dieser Übersicht mit der Lösung vertraut machen. In diesem Kapitel erfahren Sie mehr über die wichtigsten Funktionen der Lösung, die Marken-Touchpoints, auf denen Sie diese Lösung verwenden können, Implementierungsoptionen, wichtige Funktionen und Workflows der Benutzeroberfläche, Governance-Features und deren Rolle in der [!DNL Adobe Experience Cloud]. Sofern nicht mit einem [!DNL Adobe Target Premium]-Badge versehen, sind die in diesem Kapitel beschriebenen Funktionen sowohl in [!DNL Adobe Target Premium] als auch in [!DNL Adobe Target Standard] verfügbar. Weitere Informationen finden Sie unter [Einführung in Target](/help/c-intro/intro.md).
 
