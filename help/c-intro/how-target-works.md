@@ -1,18 +1,18 @@
 ---
 keywords: Adobe Experience Platform Web SDK; aep web sdk; aep sdk; Suchmaschinenoptimierung; seo; Edge-Cluster; zentrale Cluster; at.js; mbox.js;
-description: Erfahren Sie, wie Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript-Bibliotheken (at.js und AEP Web SDK), Adobe Data Center und SEO-Tests.
-title: Wie funktioniert [!DNL Target] das?
+description: Erfahren Sie, wie Adobe  [!DNL Target] works, including information about the [!DNL Target]  JavaScript-Bibliotheken (at.js und AEP Web SDK), Adobe Data Center und SEO-Tests.
+title: Wie funktioniert  [!DNL Target] ?
 feature: Überblick
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2563'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# So funktioniert Adobe [!DNL Target]
+# Funktionsweise von Adobe [!DNL Target]
 
 Erfahren Sie, wie [!DNL Adobe Target] funktioniert. Sie erhalten hier auch Informationen zum [!DNL Adobe Experience Platform Web SDK] und zu den JavaScript-Bibliotheken von Target (at.js und mbox.js). In diesem Artikel werden auch die Aktivitäten vorgestellt, die Sie mit [!DNL Target] erstellen können. Auch erhalten Sie hier Informationen zum [!DNL Target]-Edge-Netzwerk, zur Suchmaschinenoptimierung (SEO) und zur Erkennung von Bots durch [!DNL Target].
 
@@ -33,7 +33,7 @@ Das [!DNL AEP Web SDK] oder at.js muss auf jeder Seite Ihrer Site referenziert w
 Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung des AEP Web SDK oder der JavaScript-Bibliothek at.js:
 
 * [Adobe Experience Platform Web SDK – Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=de#configure-the-aep-web-sdk-extension)
-* [Implementierung  [!DNL Target] mit Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implementieren von  [!DNL Target]  mit Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Bei jeder Besucheranforderung einer Seite, die für [!DNL Target] optimiert wurde, wird eine Anforderung an das Targeting-System gesendet. Die Anforderung hilft bei der Bestimmung der Inhalte, die für diesen Besucher bereitgestellt werden sollen. Dieser Prozess erfolgt in Echtzeit. Jedes Mal, wenn eine Seite geladen wird, wird eine Inhaltsanforderung gesendet, die vom System verarbeitet wird. Der Inhalt wird durch die vom Marketingspezialisten kontrollierten Aktivitäten und Erlebnisse geregelt und auf den einzelnen Besucher der Site zugeschnitten. Es werden Inhalte bereitgestellt, auf die der Site-Besucher mit hoher Wahrscheinlichkeit reagieren und mit ihnen interagieren wird und auf deren Grundlage er sich letztlich auch für einen Kauf entscheiden wird. Personalisierte Inhalte tragen dazu bei, die Antwort- und Kaufraten zu steigern und die Umsätze zu maximieren.
 
@@ -56,7 +56,7 @@ Weitere Informationen finden Sie unter [Erstellen eines A/B-Tests](/help/c-activ
 
 ### [!UICONTROL Automatische Zuordnung]
 
-[!UICONTROL Durch die automatische Zuordnung kann aus zwei oder mehr Erlebnissen das erfolgversprechendste ermittelt werden. ] [!UICONTROL Dem erfolgreichsten Erlebnis wird automatisch mehr Traffic zugeordnet, wodurch sich die Konversionen während der Fortführung des Tests und des Lernens erhöhen.]
+[!UICONTROL Durch die automatische Zuordnung kann aus zwei oder mehr Erlebnissen das erfolgversprechendste ermittelt werden. ] [!UICONTROL Die automatische Zuordnung] ordnet automatisch dem erfolgreichsten Erlebnis mehr Traffic zu, wodurch sich die Konversionen während der Fortführung des Tests und des Lernens erhöhen.
 
 Weitere Informationen finden Sie unter [[!UICONTROL Automatische Zuordnung]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
@@ -72,7 +72,7 @@ Automated Personalization (AP) kombiniert Angebote und Mitteilungen und ordnet d
 
 Weitere Informationen finden Sie unter [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
-### Erlebnis-Targeting (XT)
+### [!UICONTROL Erlebnis-Targeting] (XT)
 
 Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basierend auf einem Satz aus vermarkterdefinierten Regeln und Kriterien bereitgestellt.
 
@@ -80,7 +80,7 @@ Erlebnis-Targeting, einschließlich Geotargeting, ermöglicht die Definition von
 
 Weitere Informationen finden Sie unter [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4).
 
-### [!UICONTROL Multivarianz-Tests] (MVT)
+### [!UICONTROL Multivariate Tests] (MVT)
 
 Multivariate Testing (MVT) vergleicht verschiedene Kombinationen aus den Angeboten für die Elemente einer Seite, um zu bestimmen, welche Kombination für eine spezielle Zielgruppe die besten Ergebnisse erzielt. MVT ermittelt also, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 
@@ -112,7 +112,7 @@ Die Site-Aktivitätsdaten der Kunden werden vom nächstgelegenen der sieben Edge
 
 Die Targeting-Anforderungen werden nicht immer vom gleichen Standort beantwortet, sondern von dem Edge-Cluster, der dem Besucher am nächsten liegt. Dadurch minimieren sich die Verzögerungen durch lange Übertragungswege innerhalb des Netzwerks bzw. Internets.
 
-![Zuordnung der verschiedenen Typen von Zielgruppen-Servern](/help/c-intro/assets/target-servers.png)
+![Karte mit den verschiedenen Typen von Target-Servern](/help/c-intro/assets/target-servers.png)
 
 Zentrale [!DNL Target]-Cluster, gehostet auf Amazon Web Services (AWS):
 
@@ -170,7 +170,7 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
    [!DNL Target] wurde als Plattform so entwickelt, dass Suchmaschinenbots wie normale Benutzer behandelt werden. Daher können Bots in Aktivitäten eingeschlossen werden, wenn die Bots zufällig ausgewählt werden und die Testvarianzen „sehen“ können.
 
-* **Verwendung von rel=&quot;canonical&quot;**: Gelegentlich müssen für einen A/B-Test unterschiedliche URLs für die Varianzen erstellt werden. In diesen Fällen sollten alle Varianzen das Tag `rel="canonical"` enthalten, das auf die ursprüngliche (Kontroll-)URL verweist. Angenommen, Adobe testet für seine Startseite unterschiedliche URLs für jede Varianz. Dazu müsste das folgende kanonische Tag für die Startseite im `<head>`-Tag jeder der Varianzen eingefügt werden:
+* **Verwendung von rel=&quot;canonical&quot;**: Gelegentlich müssen für einen A/B-Test unterschiedliche URLs für die Varianzen erstellt werden. In diesen Fällen sollten alle Varianzen das Tag `rel="canonical"` enthalten, das auf die ursprüngliche (Kontroll)-URL verweist. Angenommen, Adobe testet für seine Startseite unterschiedliche URLs für jede Varianz. Dazu müsste das folgende kanonische Tag für die Startseite im `<head>`-Tag jeder der Varianzen eingefügt werden:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
@@ -212,7 +212,7 @@ Insbesondere unterlässt [!DNL Target] bei Traffic, der durch bekannte Bots gene
 
 * Ein Besucherprofil erstellen oder abrufen
 * Profilattribute erfassen oder Profilskripte ausführen
-* Nach Adobe Audience Manager(AAM)-Segmenten suchen (falls zutreffend)
-* Verwenden Sie Bot-Traffic bei der Modellierung und Bereitstellung personalisierter Inhalte für die Aktivitäten Recommendations, Auto-Zielgruppe, Automated Personalization oder [!UICONTROL Automatisierte Zuordnung]
+* Nach Adobe Audience Manager-(AAM)-Segmenten suchen (falls zutreffend)
+* Bot-Traffic für die Modellierung und Bereitstellung personalisierter Inhalte für Recommendations, automatisches Targeting, Automated Personalization oder [!UICONTROL automatische Zuordnung] verwenden
 * Einen Aktivitätsbesuch für Berichte erfassen
 * Daten für die Weitergabe an die [!DNL Adobe Experience Cloud]-Plattform aufzeichnen
