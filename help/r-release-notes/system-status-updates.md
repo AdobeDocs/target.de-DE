@@ -1,14 +1,14 @@
 ---
 keywords: Systemaktualisierung; Fehlerbehebung; Wartung; Systemstatus; Aktualisierungsstatus
-description: Ansicht des aktuellen Status der Adobe [!DNL Target] um festzustellen, ob Probleme auf Systemaktualisierungen oder Routinewartung zurückzuführen sind.
-title: Wo kann ich den Status von  [!DNL Target] und anderen Adoben-Produkten Ansicht geben?
+description: Zeigen Sie den aktuellen Status von Adobe  [!DNL Target]  an, um festzustellen, ob ein vorliegendes Problem möglicherweise durch eine Systemaktualisierung oder Routinewartung verursacht wird.
+title: Wo kann ich den Status von  [!DNL Target]  und anderen Adobe-Produkten anzeigen?
 feature: Versionshinweise
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
