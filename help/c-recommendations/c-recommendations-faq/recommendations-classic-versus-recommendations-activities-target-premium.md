@@ -1,24 +1,24 @@
 ---
 keywords: Recommendations; Recommendations-Algorithmen; Recommendations-Aktivitäten; Recommendations Classic
-description: Überprüfen Sie die Informationen, um die Unterschiede zwischen den alten Recommendations Classic- und Recommendations-Aktivitäten in [!DNL Target] Premium zu verstehen.
-title: Was ist der Unterschied zwischen Recommendations Classic und Recommendations in [!DNL Target] Premium?
+description: Informationen zu den Unterschieden zwischen den herkömmlichen Recommendations Classic-Aktivitäten und den Recommendations-Aktivitäten in  [!DNL Target]  Premium.
+title: Was ist der Unterschied zwischen Recommendations Classic und Recommendations in  [!DNL Target]  Premium?
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# ![](/help/assets/premium.png) PREMIUMRecommendations Classic versus Recommendations Aktivitäten in  [!DNL Target] Premium
+# ![PREMIUM](/help/assets/premium.png)Recommendations Classic und Recommendations-Aktivitäten in [!DNL Target] Premium
 
 Informationen, die bei der Entscheidung zwischen Recommendations Classic und Recommendations-Aktivitäten in Target Premium helfen.
 
 >[!NOTE]
 >
->Empfehlungs-Aktivitäten sind als Teil der [!DNL Target Premium]-Lösung verfügbar. Sie sind in [!DNL Target Standard] nicht ohne [!DNL Target Premium]-Lizenz verfügbar.
+>Recommendations-Aktivitäten sind als Teil der [!DNL Target Premium]-Lösung verfügbar. Sie sind in [!DNL Target Standard] nicht ohne [!DNL Target Premium]-Lizenz verfügbar.
 
 Im klassischen [!DNL Recommendations]-Produkt wurden Empfehlungen durch Erstellen einer Datenerfassungs-Mbox auf einer Seite und anschließendes Hinzufügen einer Anzeige-Mbox an einem bestimmten Ort auf der Seite angezeigt. Die [!DNL Recommendations]-Aktivität in [!DNL Target Premium] ermöglicht es Ihnen, Besucherinformationen zu sammeln und Ihre Empfehlungen überall auf der Seite zu erstellen, ohne dass hierfür die Erstellung einer Mbox an jedem Ort, an dem Sie Produkte oder Inhalte empfehlen wollen, erforderlich ist. Ein einfacher JavaScript-Verweis im Header der Seite aktiviert Empfehlungen überall auf der Seite. Verwenden Sie diesen JavaScript-Verweis, um Schlüssel an die globale [!DNL Target]-Mbox zu übergeben, wie zum Beispiel die Schlüssel `entity.id` und `entity.categoryId`.
 
@@ -58,7 +58,7 @@ Weitere Informationen zur Verwendung und Erstellung von Kriterien finden Sie unt
 Der [!DNL Recommendations]-Arbeitsablauf wurde vereinfacht. Anstatt komplizierte Formulare auszufüllen, folgen Sie einem visuellen Arbeitsablauf, um:
 
 1. die Kriterien auszuwählen,
-1. einen vorkonfigurierten  [Entwurf](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) auszuwählen,
+1. einen vorkonfigurierten   [Entwurf](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) auszuwählen,
 1. die resultierenden Empfehlungen in der Vorschau zu betrachten.
 
 ## Visuelle Vorschau   {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
