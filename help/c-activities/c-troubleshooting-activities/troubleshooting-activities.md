@@ -1,14 +1,14 @@
 ---
 keywords: Fehlerbehebung in Target; Problembehebung in Target; Standardinhalte; Test nicht verfügbar; Aktivität nicht verfügbar; Targeting funktioniert nicht; vorheriges Erlebnis erscheint; kann keine Aktivitäten erstellen; Aktivitäten erstellen; Seitenstruktur geändert; Seitenstruktur modifiziert; Fehlermeldung; Fehler beim Löschen von Profilskript; AJAX funktioniert nicht
-description: Suchen Sie nach Empfehlungen zur Fehlerbehebung, falls Ihre Adobe [!DNL Target] Aktivität nicht auf Ihrer Site erscheint.
+description: Sollte Ihre Adobe  [!DNL Target] -Aktivität nicht auf Ihrer Site erscheinen, finden Sie hier Vorschläge zur Fehlerbehebung.
 title: Wie kann ich Probleme in Verbindung mit Aktivitäten beheben?
 feature: Aktivitäten
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Wenn Ihre [!DNL Adobe Target]-Aktivität nicht auf Ihrer Site erscheint, helfen 
 
 Die folgenden Abschnitte enthalten möglicherweise auftretende Probleme sowie Lösungsvorschläge.
 
-## Ich habe eine Aktivität mit der [!DNL Target]-Benutzeroberfläche erstellt und kann sie nicht über die API aktualisieren.
+## Es gelingt mir nicht, eine in der Benutzeroberfläche von [!DNL Target] erstellte Aktivität über die API zu aktualisieren.
 
 Aktivitäten, die in der Benutzeroberfläche von Target erstellt wurden, sollten auch über die Benutzeroberfläche aktualisiert werden. Dagegen sollten über die API erstellte Aktivitäten über die API aktualisiert werden. Wenn Sie beispielsweise eine ursprünglich über die API erstellte Aktivität in der Benutzeroberfläche von Target bearbeiten, werden nicht alle Änderungen aktualisiert. Diese Änderungen werden jedoch alle auf dem Backend gespeichert und können durch einen weiteren API-Aufruf aktualisiert werden.
 
@@ -69,7 +69,7 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 * Versuchen Sie es mit einem anderen Browser.
 * Verwenden Sie den Privat-/Inkognito-Modus.
 
-## Sie wurden kürzlich zu [!DNL Target] hinzugefügt, können aber keine Aktivitäten erstellen.
+## Sie wurden kürzlich zu [!DNL Target] hinzugefügt, können jedoch keine Aktivitäten erstellen.
 
 **Validierung:** Klicken Sie auf Aktivität erstellen. Wenn die Option nicht verfügbar ist, sind Sie wahrscheinlich nicht dazu berechtigt, eine Aktivität zu erstellen.
 
@@ -90,7 +90,7 @@ Nachdem Sie in Target als Benutzer hinzugefügt wurden, müssen Sie die Rolle �
 
 * Erstellen Sie die Aktivität erneut.
 
-Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter  [Szenarien für die Seitenmodifizierung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter   [Szenarien für die Seitenmodifizierung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Die Struktur der Seite wird während des Seitenladevorgangs (während der Laufzeit) verändert.
 
@@ -103,11 +103,11 @@ Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige v
 * Aktualisieren Sie den Seiten-Code, um jedes zu testende Element eindeutig zu identifizieren (mithilfe einer id).
 * Unterbrechen Sie die dynamische Modifizierung der Klasse oder Geschwister wie oben beschrieben.
 
-Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter  [Szenarien für die Seitenmodifizierung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter   [Szenarien für die Seitenmodifizierung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## mbox.js verschiebt sämtlichen folgenden Code aus dem Kopf in den Textkörper.
 
-**Validierung:** Betrachten Sie die Quelle, um zu ermitteln, ob der mbox.js-Datei vor dem schließenden  `</body>` Tag Deklarationen folgen.
+**Validierung:** Betrachten Sie die Quelle, um zu ermitteln, ob der mbox.js-Datei vor dem schließenden   `</body>` Tag Deklarationen folgen.
 
 **Optionen:**
 
@@ -141,6 +141,6 @@ Führen Sie einen der folgenden Schritte aus:
 
 **Hinweis:** Mehrere ajax-Aufrufe von [!DNL Target] mit demselben Namen, aber unterschiedlichen Parametern funktionieren auf derselben Seite nicht. Nur der erste Aufruf erfolgt.
 
-## Sie haben eine Aktivität mithilfe der API aktiviert, die Aktivität zeigt jedoch in der Benutzeroberfläche [!DNL Target] den Status [!UICONTROL Inaktiv] an.[!DNL Target]
+## Sie haben über die API von [!DNL Target] eine Aktivität aktiviert, aber die Aktivität hat in der Benutzeroberfläche von [!DNL Target] den Status [!UICONTROL Inaktiv].
 
-Hinweis: Wenn Sie bestimmte Aktionen ausführen, wie zum Beispiel eine Aktivität außerhalb der Benutzeroberfläche über die Target-API zu aktivieren, kann es bis zu 10 Minuten dauern, bis die Aktualisierung bis zur Benutzeroberfläche propagiert wird.
+Wenn Sie bestimmte Aktionen ausführen, wie zum Beispiel das Aktivieren einer Aktivität außerhalb der Benutzeroberfläche über die Target-API, kann es bis zu 10 Minuten dauern, bis die Aktualisierung bis zur Benutzeroberfläche propagiert wird.
