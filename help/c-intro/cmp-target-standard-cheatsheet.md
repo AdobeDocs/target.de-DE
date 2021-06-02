@@ -4,9 +4,9 @@ description: In diesem Abschnitt finden Sie eine Liste der häufig gestellten Fr
 title: Wo finde ich Antworten auf Fragen zur Optimierung und Personalisierung?
 feature: Überblick
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2918'
 ht-degree: 100%
 
@@ -40,9 +40,9 @@ Weitere Details finden Sie in der [Unterstützte Browser](/help/c-implementing-t
 
 **Welche JavaScript-Implementierungsdatei sollte ich verwenden: at.js oder mbox.js?**
 
-at.js ist unsere neueste und tollste JavaScript-Bibliothek. mbox.js ist unsere ältere Version. Unter [Die Vorteile von at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) finden Sie die Unterschiede zwischen den beiden Bibliotheken. Alle neuen Kunden sollten at.js verwenden.
+at.js ist unsere neueste und tollste JavaScript-Bibliothek. mbox.js ist unsere ältere Version. Unter  [Die Vorteile von at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) finden Sie die Unterschiede zwischen den beiden Bibliotheken. Alle neuen Kunden sollten at.js verwenden.
 
-Alle bestehenden mbox.js-Kunden sollten zu at.js migrieren. Erfahren Sie mehr über die in  [Migration von mbox.js zu at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) Enthaltenen Schritte, bevor Sie den Übergang vornehmen.
+Alle bestehenden mbox.js-Kunden sollten zu at.js migrieren. Erfahren Sie mehr über die in   [Migration von mbox.js zu at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) Enthaltenen Schritte, bevor Sie den Übergang vornehmen.
 
 ## Aktivitäten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -68,7 +68,7 @@ Probieren Sie die Option [Automatisches Targeting](/help/c-activities/auto-targe
 
 Lesen Sie das [Target Activities-Handbuch](/help/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1), um die Szenarien zu verstehen, in der die einzelnen von Adobe Target bereitgestellten Optionen jeweils sinnvoll sind.
 
-Denken Sie auch an die [Empfehlungs-Aktivitäten](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Denken Sie auch an die [Recommendations-Aktivitäten](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
 **Wie kann ich erkennen, welche Elementkombinationen auf meiner Seite zu ihrem Erfolg beitragen und zu welchem Grad die einzelnen Elemente hilfreich sind?**
 
@@ -114,7 +114,7 @@ Geben Sie den gewünschten Schritt dazu einfach [direkt auf der Seite „Aktivit
 
 **Kann ich in einem bestimmten Schritt verbleiben, die Aktivität weiterhin ändern (beispielsweise Angebotstext oder benutzerspezifischer Code) und dann eine Qualitätssicherung auf einer anderen Registerkarte durchführen?**
 
-Das ist auch möglich. Verwenden Sie [einfach die Option „Speichern“, um die inkrementellen Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Das ist auch möglich. Verwenden Sie  [einfach die Option „Speichern“, um die inkrementellen Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 **Wie kann ich eine Vorschau einer von mir eben erstellten Aktivität anzeigen und eine Qualitätssicherung diesbezüglich vornehmen?**
 
@@ -177,7 +177,7 @@ Sehen Sie sich die [Vorlagenregeln](/help/c-experiences/c-visual-experience-comp
 
 Dies liegt am gemischten Inhalt Ihrer Site. Hierbei handelt es sich um eine Site, die HTTP- und HTTPS-Ressourcen abruft. Bitten Sie Ihr IT-Team, vollständig zu HTTPS zu wechseln.
 
-Bis dies der Fall ist, sollten Sie die unter  [Zulassen von gemischtem Inhalt in Ihrem Browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C), damit der Browser gemischte Inhalte laden kann. Dies ist eine Sicherheitsfunktion der meisten modernen Browser.
+Bis dies der Fall ist, sollten Sie die unter   [Zulassen von gemischtem Inhalt in Ihrem Browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C), damit der Browser gemischte Inhalte laden kann. Dies ist eine Sicherheitsfunktion der meisten modernen Browser.
 
 **Kann ich Visual Experience Composer (VEC) auch dann auf meiner Site testen, wenn die at.js-Bibliothek von Target noch nicht bereitgestellt wurde?**
 
@@ -189,7 +189,7 @@ Konsultieren Sie die [Informationen zur Fehlerbehebung](/help/c-experiences/c-vi
 
 Wir haben auch [einen formularbasierten Ansatz](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), mit dem Sie freigeschaltet werden können.
 
-Lesen Sie zudem, wann und warum [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Sie müssen sich möglicherweise an Ihre IT-Abteilung wenden, um auch die  [Adobe-Proxyserver auf die Zulassungsliste zu setzen](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Lesen Sie zudem, wann und warum [Enhanced Experience Composer](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Sie müssen sich möglicherweise an Ihre IT-Abteilung wenden, um auch die   [Adobe-Proxyserver auf die Zulassungsliste zu setzen](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 **Ich verfüge über eine responsive Site. Wie kann ich beim Erstellen einer Aktivität sichergehen, dass ich wichtige Geräte berücksichtige?**
 
@@ -271,7 +271,7 @@ Nutzen Sie die Leistungsfähigkeit [formularbasierter Aktivitäten](/help/c-expe
 
 Lesen Sie die folgenden Aspekte des Produkts:
 
-* [Analytics for Zielgruppe (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
@@ -298,11 +298,11 @@ Verwenden Sie [„Berichte in CSV exportieren“ und „Auftragsdetails als CSV 
 
 **Kann ich das Kontrollerlebnis für das Auswerten von Berichten oder die Zählmethodologie von „Besucher“ in „Besuche“ ändern?**
 
-Verwenden Sie das  [Zahnrad „Einstellungen“ auf der Berichtsseite](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA), um diese Änderungen vorzunehmen. Lesen Sie mehr über diese Einstellungen, um nachzuvollziehen, wie die Berechnungen variieren.
+Verwenden Sie das   [Zahnrad „Einstellungen“ auf der Berichtsseite](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA), um diese Änderungen vorzunehmen. Lesen Sie mehr über diese Einstellungen, um nachzuvollziehen, wie die Berechnungen variieren.
 
 **Wie sollte ich Berichte interpretieren?**
 
-Wir haben versucht, mit Funktionen wie  [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Mitteln und mehr](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) Berichte so intuitiv wie möglich zu gestalten, um eine aussagekräftige und einfache Berichtsanalyse zu ermöglichen. Natürlich können Sie sich mit Analytics beschäftigen, wenn Sie [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)-Aktivitäten (A4T) für weitere Analysen von Zielgruppen verwenden.
+Wir haben versucht, mit Funktionen wie   [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Mitteln und mehr](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) Berichte so intuitiv wie möglich zu gestalten, um eine aussagekräftige und einfache Berichtsanalyse zu ermöglichen. Natürlich können Sie sich mit Analytics beschäftigen, wenn Sie [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)-Aktivitäten (A4T) für weitere Analysen von Zielgruppen verwenden.
 
 ## Antwort-Token {#section_C2A7118B4B62482A9D630C2212112A3D}
 
@@ -330,4 +330,4 @@ Zur Optimierung und Personalisierung auf Mobilgeräten müssen Sie [formularbasi
 
 **Wo erhalte ich weitere Informationen über Target-APIs?**
 
-Wir verfügen über eine umfassende Dokumentation zu APIs. Siehe [Dokumentation zu Bereitstellungs-APIs, NodeJS-SDK und Empfehlungs-APIs](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
+Wir verfügen über eine umfassende Dokumentation zu APIs. Siehe [Dokumentation zu Bereitstellungs-APIs, NodeJS-SDK und Recommendations-APIs](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
