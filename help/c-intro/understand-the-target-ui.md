@@ -1,18 +1,18 @@
 ---
 keywords: Benutzeroberfläche von Target; Benutzeroberfläche; ui
 description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie Links zu detaillierteren Informationen, die Ihnen helfen, Target optimal zu nutzen.
-title: Wie verwende ich die  [!DNL Target] Benutzeroberfläche?
+title: 'Wie verwende ich die Benutzeroberfläche von  [!DNL Target] '
 feature: Überblick
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Die [!DNL Target]-Benutzeroberfläche
+# Die Benutzeroberfläche von [!DNL Target]
 
 Die Benutzeroberfläche ist logisch und übersichtlich angeordnet. Sie finden dort schnell, was Sie zur optimalen Nutzung von [!DNL Adobe Target] benötigen. Diese Kurzübersicht hilft Ihnen, sich mit [!DNL Target] vertraut zu machen. Über Links gelangen Sie zu detaillierteren Informationen und Schritt-für-Schritt-Anleitungen.
 
