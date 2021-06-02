@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -81,8 +81,8 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 ### Anzahl der Entitäten
 
 * Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hart codiert oder in Schleife, beträgt 99.
-* Die empfohlene Beschränkung für die beste Leistung besteht darin, den Katalog weniger als eine Million Artikel pro Umgebung und weniger als zehn Millionen Artikel in allen Umgebungen zu speichern.
-* Die maximale Begrenzung beträgt zehn Millionen Artikel pro Umgebung und 100 Millionen Artikel in allen Umgebungen. Wenn Sie zwischen einer Million und zehn Millionen Elemente pro Umgebung haben, wirkt sich dies auf die Leistung der [!UICONTROL Katalogsuche] -Benutzeroberfläche aus. [!DNL Target Recommendations]erstellt jedoch weiterhin Empfehlungen und gibt diese weiter.
+* Als empfohlenes Limit für die beste Performance gilt: Im Katalog sollten weniger als eine Million Elemente pro Umgebung und weniger als zehn Millionen Elemente in allen Umgebung gespeichert sein.
+* Das obere Limit beträgt zehn Millionen Elemente pro Umgebung und 100 Millionen Elemente für alle Umgebungen. Wenn Sie zwischen einer Million und zehn Millionen Elemente pro Umgebung haben, wird die Leistung der Benutzeroberfläche [!UICONTROL Katalogsuche] beeinträchtigt. [!DNL Target Recommendations] produziert und sendet jedoch weiterhin Empfehlungen.
 
 ### Benutzerdefinierte Entitätsattribute
 
@@ -225,7 +225,7 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 ## Profilskripte
 
-* **Empfohlene Beschränkung aktiver Profilskripte (aktivierte Skripte)**: 300
+* **Empfohlenes Limit für aktive Profilskripte (die aktiviert sind)**: 300
 
 * **Empfohlenes Limit für alle Profilskripte eines Kontos**: 2.000
 
@@ -239,7 +239,7 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 * **Limit**: 50 Berichtszielgruppen/-segmente pro Aktivität.
 
-## Skript-Profileingabefeld in der [!DNL Target]-Benutzeroberfläche
+## Skriptprofil-Eingabefeld in der [!DNL Target]-Benutzeroberfläche
 
 * **Empfohlenes Limit**: 2.000 Zeichen.
 
