@@ -1,18 +1,18 @@
 ---
 keywords: Welcome Kit; Target Welcome Kit; Intro; Einführung; Erste Schritte
-description: Beginnen wir mit Ihrer ersten Aktivität in Adobe [!DNL Target] damit Sie einen ROI für Ihre Investition erhalten können.
+description: Beginnen wir nun mit Ihrer ersten Aktivität in Adobe  [!DNL Target] , damit Sie schon bald einen ROI aus Ihrer Investition erzielen können.
 title: Ich möchte meine erste Aktivität in Target erstellen. Wo beginne ich?
 feature: Überblick
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Kapitel 7: Erstellen und Ausführen der ersten [!DNL Target]-Aktivität
+# Kapitel 7: Erstellen und Ausführen Ihrer ersten [!DNL Target]-Aktivität
 
 Sie möchten nun mit Ihrer erste Aktivität in [!DNL Target] beginnen? Exzellent. Am besten nehmen wir uns eine Aktivität für Ihre Website, Ihre mobile Site oder Ihre mobile App vor, die nicht übermäßig komplex ist, Ihnen aber einen schnellen ROI bietet und Sie das Potenzial des Testens und Personalisierens mit [!DNL Target] ahnen lässt. Je nach Organisation und geschäftlichem Schwerpunkt könnten Sie mit Ihrer ersten Aktivität drei verschiedene Routen einschlagen.
 
@@ -106,6 +106,6 @@ Nach Abschluss der Aktivität müssen Sie die Ergebnisse dokumentieren. Stellen 
 
 Die Ergebnisse einer Aktivität liefern oft Einblicke in Aktionen, die als Nächstes notwendig sind. Wenn eine Erlebnisvarianz sehr erfolgreich war, sollten Sie diese auf Ihrer Website hart codieren. Möglicherweise sehen Sie auch Möglichkeiten, diesen Erfolg auf ähnliche Seiten zu übertragen. Vielleicht deuten die Ergebnisse aber auch darauf hin, dass am Kundenerlebnis dieser Seite noch sehr viel mehr optimiert werden muss. Halten Sie in diesem Bereich die wichtigsten Erkenntnisse aus der Aktivität fest und dokumentieren Sie, was auf Grundlage dieser Erkenntnisse als Nächstes zu tun ist.
 
-## Öffnen Sie [!DNL Target] und erstellen und starten Sie Ihre Aktivität
+## Öffnen von [!DNL Target] und Erstellen und Starten Ihrer Aktivität
 
 Sie haben den Aktivitätsplaner ausgefüllt. Damit sind Sie bereit, die Lösung zu entwickeln und Ihre Aktivität zu erstellen. [!DNL Target] macht es Ihnen mit dem [!UICONTROL Visual Experience Composer] sehr leicht, Ihre Webseite zu ändern.
