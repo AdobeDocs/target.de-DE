@@ -1,14 +1,14 @@
 ---
 keywords: Insider-Newsletter; Newsletter; Produktaktualisierungen; Tipps und Tricks; Ereignisse; Kundenerfolg; Blog; Blogs; Whitepaper; Whitepaper
 description: Erfahren Sie das Neueste über Adobe Target. Lesen Sie über bevorstehende Veranstaltungen, Kundenerfolge, Informationen und Tipps von Experten und vieles mehr.
-title: Was ist die Adobe [!DNL Target] Insider-Newsletter?
+title: Was ist der Newsletter „Adobe  [!DNL Target]  Insider“?
 feature: Versionshinweise, Übersicht
 exl-id: 39623bf0-093f-418a-b8c8-c621e0a56b00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2152'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
