@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
 source-wordcount: '4409'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
 Der Versuch, inaktive [!UICONTROL Automatisches Targeting] -Aktivitäten zu archivieren, kann zu Synchronisierungsproblemen führen. Solange dieses Problem nicht behoben ist, archivieren Sie nicht die Aktivitäten [!UICONTROL Automatisches Targeting]. Behalten Sie sie im Status [!UICONTROL Inaktiv] bei. (TGT-40885)
 
-### Analytics for Adobe Target (A4T)-Metriken für Aktivitäten mit automatischer Zuordnung und automatischem Targeting
+### Analytics for Adobe Target (A4T)-Metriken für automatische Zuordnungs- und Targeting-Aktivitäten
 
 In der Benutzeroberfläche von [!DNL Target] können Benutzer nicht unterstützte Interaktions- und Umsatzmetriken als primäre Zielmetrik für die Optimierung in [!UICONTROL automatischen Zuordnungs]- und [!UICONTROL automatischen Targeting]-Aktivitäten auswählen. Konversionsmetriken werden unterstützt, Interaktions- und Umsatzmetriken dagegen *nicht*. Wenn Sie als Zielmetriken Interaktions- oder Umsatzmetriken auswählen, wird kein Optimierungsmodell erstellt.
 
@@ -123,7 +123,7 @@ Erfolgsmetriken, für die die Einstellung der erweiterten Option „Wie wird die
 
 Wenn eine Erfolgsmetrik so eingestellt ist, dass sie bei jeder Impression erhöht wird, zählt Target den Besucher jedes Mal neu, wenn er diese Erfolgsmetrik besucht. Target setzt dann die Erfolgsmetrik „Mitgliedschaft“ auf 0 zurück, sodass ab der nächsten Impression wieder neu gezählt wird. Wenn also eine andere Metrik verlangt, dass diese Metrik zuerst gesehen werden muss, kann Target nicht erkennen, dass der Benutzer diese erste Metrik bereits gesehen hat.
 
-### Analytics für [!DNL Target] (A4T)
+### Analytics for [!DNL Target] (A4T)
 
 Wenn Sie in Analysis Workspace Target-Aktivitätsimpressionen und -konversionen verwenden, sollten Sie auf die Metriken das Attribution IQ-Modell „Selber Kontakt“ anwenden, um eine genaue Zählung sicherzustellen. Zum Anwenden eines [nicht standardmäßigen Attributionsmodells](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings.html?lang=de#cja-workspace) klicken Sie mit der rechten Maustaste auf die Metrik, um **die Spalteneinstellungen zu ändern. Aktivieren Sie dann „Nicht standardmäßiges Attributionsmodell verwenden“ und wählen Sie das Modell „Selber Kontakt“ aus**. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
 
@@ -137,7 +137,7 @@ Kunden können keine CRUD-Vorgänge für Aktivitäten mit Automatisierte Zuordnu
 
 Am 10. Mai 2020 wurden von Adobe die GEO-Provider-Dateien aktualisiert, wodurch einige Inkonsistenzen entstanden sind. Beispielsweise wurden einige Werte mit Kommas hinzugefügt, obwohl die Werte in bestehenden Zielgruppen keine Kommas enthielten. Nicht alle Adobe-Bereitstellungsserver waren von dieser Änderung betroffen. Für Zielgruppen, die solche Werte verwenden, sind daher möglicherweise noch nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
 
-### Reporting - Inkonsistente Daten im herunterladbaren CSV-Bericht im Vergleich zum angezeigten Bericht in der [!DNL Target] -Benutzeroberfläche. {#csv}
+### Berichte – Die Daten des herunterladbaren CSV-Berichts sind mit den in der [!DNL Target]-Benutzeroberfläche angezeigten Berichtsdaten nicht identisch. {#csv}
 
 Berichte, die als CSV-Dateien zum Herunterladen generiert wurden, sind nicht konsistent, wenn die Aktivität mehr als eine Metrik verwendet. Der herunterladbare Bericht wird nur auf der Grundlage der Berichtseinstellungen generiert und geht bei allen anderen verwendeten Metriken von demselben Wert aus.
 
@@ -153,7 +153,7 @@ Bildangebote auf der Seite „Angebote“ tragen gelegentlich noch mehrere Stund
 
 Dieses Problem wurde in der Standard- und Premium-Version von Target 20.10.1 behoben.
 
-### Berichterstellung von Analytics for Adobe Target (A4T)
+### Reporting von Analytics for Adobe Target (A4T)
 
 Die folgenden Probleme in Verbindung mit A4T wurden behoben:
 
@@ -161,12 +161,12 @@ Die folgenden Probleme in Verbindung mit A4T wurden behoben:
 
    Dieses Problem wirkte sich unter folgenden Bedingungen auf A4T-Berichte aus:
 
-   * Die Aktivität wurde zwischen dem 15. September und dem 5. November 2020, 4.00 Uhr (UTC−8), erstellt oder gespeichert.
+   * Die Aktivität wurde zwischen dem 15. September und dem 5. November 2020, 4.00 Uhr (PST), erstellt oder gespeichert.
    * Für die Aktivität war eine [!DNL Analytics]-Metrik als Zielmetrik ausgewählt.
 
    [!DNL Target] teilte den Traffic während dieser Zeit korrekt auf. Jedoch kam es beispielsweise vor, dass eine 50/50-Aufteilung in der Aktivitätskonfiguration im A4T-Bericht als 90/10-Aufteilung ausgegeben wurde.
 
-   Für Besucher, die eine betroffene Aktivität nach dem 5. November, 4.00 Uhr (UTC−8), zum ersten Mal anzeigten, wurde und wird die Traffic-Aufteilung korrekt angezeigt. Auch bei neuen Aktivitäten, die nach diesem Datum erstellt oder gespeichert wurden, wird der Traffic korrekt angegeben.
+   Für Besucher, die eine betroffene Aktivität nach dem 5. November, 4.00 Uhr (PST), zum ersten Mal anzeigten, wurde und wird die Traffic-Aufteilung korrekt angezeigt. Auch bei neuen Aktivitäten, die nach diesem Datum erstellt oder gespeichert wurden, wird der Traffic korrekt angegeben.
 
 * Ein Problem, das sich auf A4T-Aktivitäten mit einer [!DNL Target]-Zielmetrik auswirkte und dazu führte, dass A4T-Berichte zu niedrige oder gar keine Konversionen zurückgaben.
 
@@ -176,11 +176,11 @@ Die folgenden Probleme in Verbindung mit A4T wurden behoben:
 
    Dieses Problem wirkte sich unter folgenden Bedingungen auf A4T-Berichte aus:
 
-   * Die A4T-Aktivität war zwischen dem 22. September und dem 11. November 2020, 14.30 Uhr (UTC−8), aktiv.
+   * Die A4T-Aktivität war zwischen dem 22. September und dem 11. November 2020, 14.30 Uhr (PST), aktiv.
    * Für die Aktivität war eine [!DNL Target]-Metrik als Zielmetrik ausgewählt.
    * Wenn ein Besucher das Zielereignis der Aktivität auswählte (z. B. [!UICONTROL auf ein Element klickte]), wurde gleichzeitig eine Nicht-A4T-Aktivität mit niedrigerer Priorität ausgeführt, die mit dem Konversionsereignis übereinstimmte. Dies geschah, wenn die Nicht-A4T-Aktivität mit derselben Metrik wie die A4T-Aktivität oder mit der Metrik „any mbox“ konfiguriert war.
 
-   Dieses Problem wirkte sich auf die Zurückmeldung von A4T-Aktivitäten aus, die zwischen dem 22. September und dem 11. November 2020, 14.30 Uhr (UTC−8), aktiv waren. Außerhalb dieses Zeitfensters wurden die Konversionen der betroffenen A4T-Aktivitäten korrekt zurückgemeldet. Berichte für Nicht-A4T-Aktivitäten waren davon nicht betroffen.
+   Dieses Problem wirkte sich auf die Zurückmeldung von A4T-Aktivitäten aus, die zwischen dem 22. September und dem 11. November 2020, 14.30 Uhr (PST), aktiv waren. Außerhalb dieses Zeitfensters wurden die Konversionen der betroffenen A4T-Aktivitäten korrekt zurückgemeldet. Berichte für Nicht-A4T-Aktivitäten waren davon nicht betroffen.
 
 Bei Fragen wenden Sie sich an Ihren Kundenbetreuer (CSM) oder an die [Adobe-Kundenunterstützung](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
 
@@ -240,7 +240,7 @@ Beim ersten Herunterladen von mbox.js nach der Bereitstellung ist das Feld [!UIC
 
 at.js lädt `global_mbox_autocreate = false` mit einem neu bereitgestellten Mandanten herunter. Wenn zuerst mbox.js heruntergeladen wird, wird globale\_mbox\_autocreate auf „true“ gesetzt und at.js wird ebenfalls mit `global_mbox_autocreate = true` heruntergeladen. (TGT-15929)
 
-### Unterstützung von Unternehmensberechtigungen in [!DNL Target]-APIs {#api}
+### Unterstützung für Enterprise-Berechtigungen in [!DNL Target]-APIs {#api}
 
 Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Angebote werden möglicherweise in der Standardarbeitsfläche angezeigt, wenn die Liste der Angebote mit GET-APIs abgerufen wird. Dieses Problem wird in der ersten Märzwoche 2019 behoben. Nach dieser Fehlerbehebung werden Codeangebote in der entsprechenden Arbeitsfläche angezeigt, wenn sie aus APIs gezogen werden. Dieses Problem betrifft *keine* von APIs erstellten Angebote. Beispielsweise werden Codeangebote, die aus APIs erstellt wurden, in der Arbeitsfläche angezeigt, in der sie erstellt wurden, unabhängig davon, ob sie über GET-APIs oder über die Target-Benutzeroberfläche abgerufen wurde.
 
@@ -297,7 +297,7 @@ Mboxes werden in Microsoft Explorer 11-Browsern nicht ausgelöst, nachdem ein U
 
 Mit der Veröffentlichung von API 2.3.0 oder höher behoben.
 
-### Geo  Targeting
+### Geo   Targeting
 
 Die Suche nach Zeichenfolgen, die Sonderzeichen enthalten (wie z. B. Leerzeichen oder Komma), wird bei der Erstellung von Geotargeting-Zielgruppen derzeit nicht unterstützt. Das Problem tritt beispielsweise auf, wenn Sie Zielgruppen basierend auf Städten, Bundesländern, Ländern usw. erstellen. Wenn Sie z. B. „New York“ eingeben, werden keine gültigen Suchergebnisse zurückgegeben.
 
@@ -333,13 +333,13 @@ Wenn Sie eine Recommendations-Aktivität bearbeiten oder kopieren, für die eine
 
 Dieses Problem wurde in Version 17.8.1 behoben.
 
-### Ersatzempfehlungen
+### Recommendations
 
 In den Sicherungsempfehlungen wird fälschlicherweise „Aktiviert“ auf den Karten vom Typ „Kürzlich angezeigte Elemente“ auf der Target-Benutzeroberfläche angezeigt. (TGT-29308)
 
 Dieses Problem wurde in Version 18.4.1 behoben. Nun wird „Deaktiviert“ angezeigt.
 
-### Automatisches Targeting(AT)-Aktivitäten und Reporting-Zielgruppen
+### Automatisches Targeting-(AT)-Aktivitäten und Reporting-Zielgruppen
 
 Wenn der Name einer in einer Automatisches Targeting (AT)-Aktivität verwendeten Reporting-Zielgruppe geändert wird, schlagen weitere Updates von Target für diese Aktivität möglicherweise mit einer Fehlermeldung fehl.
 
@@ -351,7 +351,7 @@ Der Algorithmus zum Extrahieren der Domäne der obersten Ebene, die beim Speiche
 
 Dieses Problem wurde in at.js-Version 1.2 behoben.
 
-### Berechtigungen für Unternehmensbenutzer für [!DNL Target] Premium
+### Enterprise-Benutzerberechtigungen für [!DNL Target] Premium
 
 Im Rahmen der Migration von Enterprise-Berechtigungen wurde die gesamte Target Premium-Benutzerverwaltung von der Adobe Target-Benutzeroberfläche in die Adobe Admin Console verschoben.
 
@@ -380,7 +380,7 @@ Dieses Problem wurde am 29. Juni 2017 behoben.
 Die folgenden bekannten Probleme wurden bei der Verwendung von Form-Based Experience Composer gemeldet:
 
 * Wenn Sie den Form-Based Experience Composer mit einer anderen Mbox als der automatisch erstellten globalen Mbox (target-global-mbox) verwenden und dann eine Interaktionsmetrik als Erfolgsmetrik auswählen, dann wird die Metrik nur auf Seiten erhöht, auf denen die Mbox in der Aktivität verwendet wird. Wenn Ihre mbox beispielsweise homepage\_mbox lautet, ist die Metrik „Seiten pro Besuch“ die Anzahl der Treffer für homepage\_mbox während des Besuchs. (TGT-22789)
-* Es wird eine JavaScript-Ausnahme ausgegeben, wenn Sie den Form-Based Experience Composer in Schritt 1 des Prozesses verwenden und ein Erlebnis in einer Experience Targeting(XT)-Aktivität löschen. (TGT-24366)
+* Es wird eine JavaScript-Ausnahme ausgegeben, wenn Sie den Form-Based Experience Composer in Schritt 1 des Prozesses verwenden und ein Erlebnis in einer Experience Targeting-(XT)-Aktivität löschen. (TGT-24366)
 
 Das erste Problem wurde in Target-Version 17.3.1 behoben (März 2017).
 
@@ -442,7 +442,7 @@ Es dauert 10 bis 20 Minuten, bis globale Ausschlussregeln an Recommendations Pre
 
 In Recommendations 17.2.2.0 (6. März 2017) behoben.
 
-### Berichterstellung von Analytics for Adobe Target (A4T)
+### Reporting von Analytics for Adobe Target (A4T)
 
 Berichte werden nicht aktualisiert, wenn die Berichtsmetrik geändert wird. Dieses Problem betrifft nur die Benutzeroberfläche. Dies hat keine Auswirkung auf die Erfassung oder Bereitstellung von Berichtsdaten. (TGT-22970)
 
