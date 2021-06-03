@@ -1,38 +1,52 @@
 ---
 keywords: Ankündigungen; Skill Builder; Developer Chat; Coffee Break; Veranstaltungen; Forrester; Gartner; Webinar
-description: Lesen Sie Ankündigungen und registrieren Sie sich für Adoben [!DNL Target] Ereignis, einschließlich Skill Builder-Sitzungen, Entwickler- und Produktmanagerchats, Webinare und mehr.
-title: 'Wo finde ich Mitteilungen und Ereignis? [!DNL Target] '
+description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target] -Veranstaltungen wie Skill Builder-Sitzungen, Chats für Entwickler und Produkt-Manager, Webinare und mehr an.
+title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Versionshinweise
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: c9fcd9c2806c9af5b6a64170d89585fe4036059e
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 85%
+source-wordcount: '589'
+ht-degree: 83%
 
 ---
 
 # Ankündigungen und Veranstaltungen zu Target
 
-Ankündigungen und Informationen zu kommenden Veranstaltungen einschließlich Adobe Target Skill Builder-Sitzungen, Developer Chats, Webinaren und Target Coffee Break-Sitzungen.
+Mitteilungen und Informationen zu bevorstehenden Ereignissen, einschließlich [!DNL Adobe Target] Skill Builder-Sitzungen, Entwicklerchats, Webinaren und [!DNL Target] Kaffeepausen-Sitzungen.
 
-## Auszeichnung für Adobe Target
+## Erkennung für [!DNL Adobe Target]
 
-Adobe Target wurde erst kürzlich von Forrester und Gartner als Marktführer ausgezeichnet.
+[!DNL Adobe Target] wurde erst kürzlich von Forrester und Gartner als Marktführer ausgezeichnet.
 
 | Researchdienst | Details |
 | --- | --- |
 | Forrester | **Adobe wurde im Forrester Wave-Bericht zu Erlebnisoptimierungs-Plattformen als „Leader“ ausgezeichnet.**<br> Adobe wurde im Forrester Wave-Bericht zu Erlebnisoptimierungs-Plattformen im 4. Quartal 2020 für sein Angebot von Adobe Target Premium als „Leader“ ausgezeichnet. Adobe erhielt die höchste Punktzahl aller beteiligten Anbieter in den Kategorien „Aktuelles Angebot“ und „Marktpräsenz“ wie auch in der Kategorie „Recommendations- und Plattformerlebnis“. Darüber hinaus erhielt Target Premium unter dem Kriterium „Innovative Erlebnisoptimierungstechnik und unterstützende Dienste“ die bestmögliche Bewertung. Der Bericht basiert auf einem sorgfältigen Testverfahren, in dem zehn Anbieter von Erlebnisoptimierungs-Plattformen in 22 Kategorien bewertet wurden.<br>Lesen Sie mehr darüber im [Adobe-Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe wurde im Gartner Magic Quadrant für Personalisierungs-Engines erneut als „Leader“ ausgezeichnet.**<br> Adobe wurde auch im dritten Quartal 2020 im Gartner Magic Quadrant für Personalisierungs-Engines als „Leader“ ausgezeichnet. Im Gartner Magic Quadrant für Personalisierungs-Engines wurden Anbieter in zwei Kategorien mit insgesamt 15 Kriterien bewertet: „Vollständigkeit der Unternehmensvision“ und „Fähigkeit zur Umsetzung“.<br>[Lesen Sie mehr darüber im Adobe-Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
+## [!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (9. Juni 2012)
+
+* **Mittwoch, 9. Juni 2021**
+* **8:00 Uhr PDT (GMT-7)**
+
+Moses Maxen, Senior Solutions Consultant für [!DNL Adobe Target], wird uns begleiten, um direkt mit Ihnen über Ihre [!DNL Target] Fragen zu seinen Fachgebieten zu sprechen:
+
+* Optimierungs- und Personalisierungsstrategien
+* [!DNL Target] Implementierung
+* [!DNL Adobe]  Sensorische Funktionen
+* Durchführung von Workflows über die Benutzeroberfläche
+
+[Klicken Sie hier, um weitere Informationen zu erhalten.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-6-9-21-8am-pt-moses-maxen/td-p/410328)
+
 ## Webinar: Personalisieren und Testen mit Nulllatenz bei geräteinterner Entscheidungsfindung mit Adobe Target
 
-Marketer, Produkteigentümer und Entwickler sind mehr denn je gefordert, die Erlebnisse ihrer Kunden auf Websites, in Apps und überall dort, wo sie mit ihren Kunden in Kontakt treten, zu optimieren. Wenig hilfreich ist hier ein Sammelsurium an Tools in Datensilos, die kompliziert zu implementieren sind.
+Mehr denn je werden Marketing-Experten, Produkteigentümer und Entwickler damit beauftragt, das Kundenerlebnis auf Sites, in Apps und überall dort, wo sie mit ihren Kunden in Verbindung stehen, zu optimieren. Wenig hilfreich ist hier ein Sammelsurium an Tools in Datensilos, die kompliziert zu implementieren sind.
 
 In diesem aufgezeichneten Webinar besprechen Adobe Target-Produktexperten, wie die Verschiebung kritischer Entscheidungen der Erlebnisoptimierung auf das Benutzergerät durch lokale Ausführung und Nulllatenz Türen für aufregende neue Anwendungsfälle öffnet, während sich die Website-Performance Ihrer Kunden gleichzeitig verbessert.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Webinar: Nutzung der Adobe [!DNL Target] und der API von HSBC zur schnellen Optimierung und Bereitstellung der Personalisierung im Maßstab
+## Webinar: Wie HSBC Adobe [!DNL Target] und KI nutzt, um skalierbare Personalisierung schnell zu optimieren und bereitzustellen
 
 * **[Webinar-Aufzeichnung anzeigen](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
@@ -48,8 +62,8 @@ Nehmen Sie an diesem Webinar mit Adobe und HSBC teil, um Folgendes zu erfahren:
 
 *McKinsey-Artikel: [The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#), Mai 2020
 
-## Adobe [!DNL Target] Kompetenzaufbau: Entwickler-Chat, migrieren Sie die mbox.js der Adobe zu at.js {#skill-builder}[!DNL Target]
+## Adobe [!DNL Target] Skill Builder: Developer Chat, Migration von Adobe [!DNL Target] mbox.js auf at.js {#skill-builder}
 
-Mit der Einstellung von &quot;mbox.js&quot;am 31. März 2021 hat Adobe Target Product Manager David Son kürzlich einen Entwickler-Chat veranstaltet, um die Vorteile der Migration von &quot;mbox.js&quot;auf &quot;at.js&quot;zu erörtern.
+Aufgrund der Einstellung der Unterstützung für mbox.js am 31. März 2021 lud David Son, Adobe Target Product Manager, kürzlich zu einem Developer Chat ein, um über die Vorteile der Migration von mbox.js auf at.js zu diskutieren.
 
 * **[Webinar-Aufzeichnung anzeigen](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
