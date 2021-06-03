@@ -1,13 +1,13 @@
 ---
 keywords: Target; Home; beliebte Themen; Adobe Target; Standard; Premium; Target-Dokumentation; Dokumentation zu Adobe Target
-title: Wo finde ich [!DNL Target] Dokumentation?
-description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] das Kundenerlebnis personalisieren können, um den Umsatz Ihrer Websites, mobilen Sites, Apps und anderer digitaler Kanäle zu maximieren.
+title: Wo finde ich die Dokumentation zu  [!DNL Target] ?
+description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kunden mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, Mobile Site, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Überblick
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 
-**Zuletzt aktualisiert: 1. Juni 2021 (  [Siehe Änderungen](r-release-notes/doc-change.md) )**
+**Zuletzt aktualisiert: 3. Juni 2021 (  [Siehe Änderungen](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -31,10 +31,10 @@ In den folgenden Abschnitten finden Sie nützliche Links in diesem Handbuch, die
 
 - [Alle Target-Benutzer](#all)
 - [Marketingexperten](#marketers)
-- [Entwickler ](#developers)
+- [Entwickler  ](#developers)
 - [Target und Adobe Experience Cloud-Administratoren](#admins)
-- [Analysten ](#analysts)
-- [QA-Techniker ](#qa)
+- [Analysten  ](#analysts)
+- [QA-Techniker  ](#qa)
 
 ## Alle [!DNL Target]-Benutzer {#all}
 
@@ -68,7 +68,7 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 
 - [Target verwalten](administrating-target/administrating-target.md): Erklärt, wie Benutzer hinzugefügt und Ihr [!DNL Target]-Konto konfiguriert werden kann.
 
-## Analysten  {#analysts}
+## Analysten   {#analysts}
 
 - [Zielgruppen](c-target/target.md): Erklärt, wie Sie festlegen, wer die Inhalte und Erlebnisse Ihrer zielgerichteten Aktivitäten sehen kann.
 - [Berichte](c-reports/reports.md): Erklärt, wie Sie die Leistung Ihrer Aktivitäten interpretieren.
