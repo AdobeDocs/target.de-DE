@@ -24,10 +24,8 @@ Die Möglichkeiten Ihres E-Mail-Service-Anbieters bestimmen die Methode. Ihr Kun
 >
 >* Anfragen sollten auf den niedrigeren Wert von entweder 1.000 Anfragen pro Sekunde oder das 25-Fache des höchsten Traffics pro Tag beschränkt sein.
 >* Erhöhen Sie den Traffic jede Minute in Schritten von 200 Anfragen pro Sekunde.
-
 > 
->
-Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie höhere Limits verwenden möchten.
+>Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie höhere Limits verwenden möchten.
 
 ## Option 1: Verwenden der Bereitstellungs-API {#section_9F00D271BABA4B7390B461F4C44EC319}
 
