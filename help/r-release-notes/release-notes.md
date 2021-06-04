@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Versionshinweise
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a63b123ed180a818de5338656781957931abd755
+source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 83%
@@ -23,7 +23,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
-## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.6.0 (1. Juni 2021)
+## ![Adobe Experience Platform Web SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] badgeversion 2.5.0 (1. Juni 2021)
 
 Diese Version von [!DNL Platform Web SDK] unterstützt Folgendes:
 
