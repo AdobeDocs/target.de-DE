@@ -4,7 +4,7 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo finde ich Informationen zu Änderungen an der Target-Dokumentation?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a63b123ed180a818de5338656781957931abd755
+source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 82%
@@ -26,7 +26,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 |  | [Analytics  [!DNL Target] für die Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | Es wurde ein neuer Abschnitt hinzugefügt:<ul><li>Implementierungsschritte für eine [!DNL Adobe Experience Platform Web SDK] -Implementierung</li></ul> |
 |  | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Es wurden Informationen zur Verwendung von Umleitungsangeboten mit A4T und dem Platform Web SDK hinzugefügt. |
 |  | [Antwort-Token](/help/administrating-target/response-tokens.md) | Es wurden Informationen zur Verwendung von Antwort-Token mit [!DNL Adobe Experience Platform Web SDK] hinzugefügt.<br>**Hinweis**: Diese Funktion wird in einer zukünftigen Version des Platform Web SDK veröffentlicht (Datum noch festzulegen). |
-|  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Adobe Experience Platform Web SDK-Version 2.6.0 (1. Juni 2021) hinzugefügt. |
+|  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Adobe Experience Platform Web SDK-Version 2.5.0 (1. Juni 2021) hinzugefügt. |
 | 27. Mai | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Es wurde ein Abschnitt für [!DNL Target]-API-Aufrufe hinzugefügt. Die Begrenzung beträgt 50 Anrufe pro Minute. |
 | 20. Mai | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Es wurde ein Link zum folgenden Blogpost im Adobe Tech Blog hinzugefügt:<ul><li>Adobe Tech Blog - Part 2: Führen Sie [!DNL Adobe Target] NodeJS-SDK für Experimentierungen und Personalisierung auf Edge-Plattformen aus (AWS Lambda@Edge).</li></ul> |
 |  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt: &quot;Die Archivierung von [!UICONTROL Aktivitäten mit automatischem Targeting] kann zu Synchronisierungsproblemen führen.&quot; |
