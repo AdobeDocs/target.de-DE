@@ -1,13 +1,13 @@
 ---
 keywords: Versionshinweise; neue Funktionen; Versionen; Updates; Update; Version; Verbesserungen; Erweiterungen; Fehlerbehebungen; Fehlerkorrekturen; Aktualisierungen
-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von Adobe Target, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
+description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von [!DNL Adobe Target], einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Versionshinweise
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c0c38ef739de71df314a1bdeae17c521280fb910
+source-git-commit: a63b123ed180a818de5338656781957931abd755
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 86%
+source-wordcount: '683'
+ht-degree: 83%
 
 ---
 
