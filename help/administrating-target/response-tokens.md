@@ -5,10 +5,10 @@ title: Was sind Antwort-Token und wie verwende ich sie?
 feature: Administration und Konfiguration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: e5d1aaa3a182bf15466aa29d6632d9009dbcd698
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 26%
+source-wordcount: '1651'
+ht-degree: 25%
 
 ---
 
@@ -22,7 +22,11 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 
 >[!NOTE]
 >
->Antwort-Token sind mit der [!DNL Adobe Experience Platform Web SDK]-Version 2.6.0 oder neuer und mit at.js-Version 1.1 oder neuer verfügbar.
+>Antwort-Token sind in at.js , Version 1.1 oder neuer verfügbar.
+
+>[!IMPORTANT]
+>
+>Die Funktion des Antwort-Tokens mit [!DNL Adobe Experience Platform Web SDK] wird in einer zukünftigen Version verfügbar sein (Datum noch festzulegen). Die nachstehende Dokumentation zu Antwort-Token und dem Platform Web SDK ist als Spitzenwert enthalten.
 
 | Target SDK | Vorgeschlagene Aktionen |
 |--- |--- |
