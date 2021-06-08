@@ -4,11 +4,10 @@ description: Beginnen wir nun mit Ihrer ersten Aktivität in Adobe  [!DNL Target
 title: Ich möchte meine erste Aktivität in Target erstellen. Wo beginne ich?
 feature: Überblick
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -92,7 +91,7 @@ Wenn Sie für Ihre Aktivität die Unterstützung eines Designers, eines Webentwi
 
 Um aus dem Test einen statistisch signifikanten Schluss ziehen zu können, muss in die Testpopulation eine gewisse Anzahl an Besuchern einfließen. Überlegen Sie: Können Sie dem Ergebnis trauen, wenn nur zwei Personen an dem Test teilnehmen?
 
-[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html) von Adobe hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in das Ergebnis zu bestimmen. Klicken Sie auf den Link [!UICONTROL Weitere Informationen] in diesem Feld, um den Rechner zu öffnen.
+[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) von Adobe hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in das Ergebnis zu bestimmen. Klicken Sie auf den Link [!UICONTROL Weitere Informationen] in diesem Feld, um den Rechner zu öffnen.
 
 ### Wie wichtig ist diese Aktivität?
 
