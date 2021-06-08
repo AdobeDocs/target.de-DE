@@ -1,28 +1,27 @@
 ---
-keywords: Automatisierte Traffic-Zuordnung;Targeting;Anzahl erhöhen und Benutzer in Aktivität halten;Traffic-Zuordnung;Automatische Zuordnung
-description: Erfahren Sie, wie Sie eine Aktivität zur automatischen Zuordnung in Adobe [!DNL Target] verwenden, mit der ein Gewinner aus zwei oder mehr Erlebnissen identifiziert und automatisch mehr Traffic an den Gewinner weitergeleitet wird.
-title: Was ist eine Aktivität mit automatisierter Zuordnung?
+keywords: automatisierte Traffic-Zuordnung; Targeting; Anzahl erhöhen und Benutzer in Aktivität belassen; Traffic-Zuordnung; automatische Zuordnung; automatische Zuordnung
+description: Erfahren Sie, wie Sie eine Aktivität vom Typ "Automatische Zuordnung"in Adobe [!DNL Target] verwenden, die einen Gewinner unter zwei oder mehr Erlebnissen identifiziert und dem Gewinner automatisch mehr Traffic zuordnet.
+title: Was ist eine Aktivität vom Typ "Automatische Zuordnung"?
 feature: Automatische Zuordnung
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '3387'
-ht-degree: 73%
+ht-degree: 76%
 
 ---
 
-# Übersicht über die automatische Zuordnung
+# Automatische Zuordnung – Überblick
 
-Eine Aktivität zur automatischen Zuordnung in [!DNL Adobe Target] identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und weist automatisch mehr Traffic zum Gewinner zurück, um die Konversionen zu erhöhen, während der Test weiter ausgeführt und gelernt wird.
+Die Aktivität &quot;Automatische Zuordnung&quot;in [!DNL Adobe Target] identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und ordnet dem Gewinner automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.
 
-Beim Erstellen einer A/B-Aktivität mit einem geleiteten Arbeitsablauf mit drei Schritten können Sie die Option [!UICONTROL Automatisierte Zuordnung zu bestem Erlebnis] wählen.
+Beim Erstellen einer A/B-Aktivität mit dem geleiteten Arbeitsablauf mit drei Schritten können Sie die Option [!UICONTROL Automatisch dem besten Erlebnis zuordnen] auswählen.
 
 ## Die Herausforderung {#section_85D5A03637204BACA75E19646162ACFF}
 
 Mit A/B-Standardtests sind Kosten verbunden. Sie müssen Traffic generieren, um die Leistung jedes einzelnen Erlebnisses zu messen und durch Analysen die erfolgreichsten Erlebnisse herauszufinden. Die Verteilung von Traffic bleibt auch dann festgelegt, wenn Sie erkennen, dass einige Erlebnisse andere übertreffen. Außerdem ist es schwierig, die Stichprobengröße korrekt zu bestimmen, und die Aktivität muss komplett durchlaufen, bevor Sie einen Sieger finden. Nachdem Sie all das durchgeführt haben, besteht immer noch die Möglichkeit, dass der ermittelte Sieger kein wirklicher Sieger ist.
 
-## Die Lösung: Automatisch zuweisen {#section_98388996F0584E15BF3A99C57EEB7629}
+## Die Lösung: Automatische Zuordnung {#section_98388996F0584E15BF3A99C57EEB7629}
 
 Die Funktion „Automatisierte Zuordnung“ senkt diese Kosten sowie die Kosten für die Bestimmung eines erfolgreichsten Erlebnisses. Die Funktion „Automatisierte Zuordnung“ überwacht die Zielmetrikleistung aller Erlebnisse und sendet proportional mehr neue Teilnehmer an Erlebnisse mit einer hohen Leistung. Es wird ausreichend Traffic für die Erkundung der anderen Erlebnisse reserviert. Sie können die Vorteile des Tests an Ihren Ergebnissen erkennen, selbst wenn die Aktivität gerade ausgeführt wird: Die Optimierung erfolgt parallel zum Lernen.
 
@@ -42,13 +41,13 @@ Mit der automatisierten Zuordnung werden neue Besucher auf vernünftige Weise de
 * Verwenden Sie einen standardmäßigen **[A/B-Test](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**, wenn Sie die Leistung aller Erlebnisse vor der Optimierung Ihrer Site charakterisieren möchten. Ein A/B-Test hilft Ihnen dabei, alle Ihre Erlebnisse in einer Reihenfolge zu ordnen, während die automatisierte Traffic-Zuordnung Spitzenreiter findet, jedoch keine Differenzierung unter den weniger leistungsstarken Erlebnissen garantiert.
 * Verwenden Sie [Automatisierte Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9), wenn Sie Optimierungsalgorithmen mit höchster Komplexität wünschen, zum Beispiel Modelle für maschinelles Lernen, die Vorhersagen auf der Basis von individuellen Profilattributen aufbauen. Die automatisierte Traffic-Zuordnung betrachtet das zusammentreffende Verhalten von Erlebnissen (wie A/B-Standardtests) und unterscheidet nicht zwischen den Besuchern.
 
-## Wesentliche Vorteile   {#section_0913BF06F73C4794862561388BBDDFF0}
+## Wesentliche Vorteile  {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Behält die Genauigkeit eines A/B-Tests bei
 * Ermittelt einen statistisch bedeutenden Sieger schneller als mit manuellen A/B-Tests
 * Bietet höhere durchschnittliche Kampagnensteigerungen im Vergleich zu manuellen A/B-Tests
 
-## Terminologie {#section_670F8785BA894745B43B6D4BFF953188}
+## Terminologie   {#section_670F8785BA894745B43B6D4BFF953188}
 
 Bei Erörterungen zur automatisierten Zuordnung sind die folgenden Begriffe hilfreich:
 
@@ -82,19 +81,19 @@ Die Abbildung zeigt, wie sich der den einzelnen Erlebnissen zugeordnete Traffic 
 
 >[!NOTE]
 >
->Wenn eine Aktivität nur über zwei Erlebnisse verfügt, erhalten beide Erlebnisse gleichen Traffic, bis [!DNL Target] ein erfolgreiches Erlebnis mit 75 % Konfidenz findet. An diesem Punkt werden dem Gewinner 2/3 des Traffics und dem Verlierer 1/3 zugewiesen. Danach werden, wenn ein Erlebnis eine Konfidenz von 95 % erreicht, 90 % des Traffics dem Gewinner zugewiesen und 10 % dem Verlierer zugewiesen. Wir behalten uns vor, Traffic an das &quot;verlorene&quot; Erlebnis zu senden, um langfristig falsche Positivwerte zu vermeiden (d.h. einige Erkundungen beizubehalten).
+>Wenn eine Aktivität nur über zwei Erlebnisse verfügt, erhalten beide Erlebnisse gleichen Traffic, bis [!DNL Target] ein erfolgreichstes Erlebnis mit 75 % Konfidenz findet. An diesem Punkt werden 2/3 des Traffics dem Gewinner und 1/3 dem Verlierer zugeordnet. Danach werden, wenn ein Erlebnis 95 % der Konfidenz erreicht, 90 % des Traffics dem Gewinner zugeordnet und 10 % werden dem Verlierer zugeordnet. Wir behalten stets bei, dass Traffic an das &quot;verlierende&quot;Erlebnis gesendet wird, um langfristig falsche Positivwerte zu vermeiden (d. h. eine gewisse Erforschung beizubehalten).
 
-Nach Aktivierung einer [!UICONTROL Aktivität für die automatische Zuordnung] sind folgende Vorgänge in der Benutzeroberfläche nicht zulässig:
+Nach Aktivierung einer [!UICONTROL Aktivität vom Typ &quot;Automatische Zuordnung]&quot;sind folgende Vorgänge über die Benutzeroberfläche nicht zulässig:
 
 * Umschalten des Modus „Traffic-Zuordnung“ auf „Manuell“
 * Ändern des Zielmetriktyps
 * Ändern der Optionen im Bedienfeld „Erweiterte Einstellungen“
 
-## Funktionsweise der automatischen Zuordnung
+## Erfahren Sie, wie die automatisierte Zuordnung funktioniert
 
-Weitere Informationen finden Sie unter [Automatische Zuordnung kann Ihnen schnellere Testergebnisse und höheren Umsatz als ein manueller Test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) geben.
+Weitere Informationen finden Sie unter [Die automatisierte Zuordnung kann Ihnen schnellere Testergebnisse und einen höheren Umsatz liefern als ein manueller Test](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
 
-## Einschränkungen {#section_5C83F89F85C14FD181930AA420435E1D}
+## Einschränkungen  {#section_5C83F89F85C14FD181930AA420435E1D}
 
 **Die Funktion „Automatisierte Zuordnung“ arbeitet mit nur einer einzigen erweiterten Metrikeinstellung: „Anzahl erhöhen und Benutzer in Aktivität belassen“.**
 
@@ -130,13 +129,13 @@ Diese Faktoren können die Ergebnisse eines Tests mit automatisierter Zuordnung 
 
    Zum Beispiel signalisiert „30 Prozent Rabatt nur noch heute“ dem Besucher, noch heute zu konvertieren, während „50 Prozent Rabatt auf Ihren ersten Einkauf“ nicht denselben Handlungsdruck auslöst.
 
-## Häufig gestellte Fragen {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+## Häufig gestellte Fragen   {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-Lesen Sie die folgenden häufig gestellten Fragen und Antworten, während Sie mit [!UICONTROL Aktivitäten für die automatische Zuordnung] arbeiten:
+Sehen Sie sich die folgenden häufig gestellten Fragen und Antworten an, während Sie mit [!UICONTROL Aktivitäten mit automatischer Zuordnung] arbeiten:
 
-### Unterstützt Analytics für Adobe Target (A4T) Aktivitäten mit automatisierter Zuordnung?
+### Unterstützt Analytics for Adobe Target (A4T) Aktivitäten mit automatisierter Zuordnung?
 
-Ja. Weitere Informationen finden Sie unter [A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischer Zielgruppe](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Ja. Weitere Informationen finden Sie unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ### Werden wiederkehrende Besucher automatisch zu leistungsstarken Erlebnissen weitergeleitet?
 
@@ -174,39 +173,39 @@ Derzeit bevorzugt die Logik Besucher, die schnell konvertieren oder die Site hä
 
 ### Kann ich den Rechner für die Stichprobengröße verwenden, wenn ich die automatisierte Zuordnung nutze, um zu schätzen, wie lange die Aktivität brauchen wird, um den Gewinner zu identifizieren?
 
-Sie können den vorhandenen [Stichprobengrößenrechner](https://docs.adobe.com/content/target-microsite/testcalculator.html) verwenden, um eine Schätzung der Dauer des Tests zu erhalten. (Wie bei herkömmlichen A/B-Tests sollten Sie Bonferroni-Korrekturen anwenden, wenn Sie mehr als zwei Angebot oder mehr als eine Konversionsmetrik/Hypothese testen.) Beachten Sie, dass dieser Rechner für herkömmliche A/B-Tests mit festem Horizont konzipiert ist und nur eine Schätzung liefert. Die Verwendung des Taschenrechners für eine Aktivität mit automatisierter Zuordnung ist optional, da die automatisierte Zuordnung einen Gewinner für Sie festlegt - Sie müssen keinen festen Zeitpunkt auswählen, um die Testergebnisse anzuzeigen - die bereitgestellten Werte sind immer statistisch gültig. In unseren Experimenten haben wir Folgendes herausgefunden:
-* Beim Testen von genau zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Testen mit einem festen Horizont (d. h. dem vom Stichprobengrößenrechner vorgeschlagenen Zeitrahmen), wenn der Leistungsunterschied zwischen den Erlebnissen groß ist. Es kann jedoch mehr Zeit erforderlich sein, um einen Gewinner zu ermitteln, wenn der Leistungsunterschied zwischen den Erlebnissen gering ist. In diesen Fällen wären Tests mit festem Horizont in der Regel ohne ein statistisch signifikantes Ergebnis beendet worden.
-* Beim Testen von mehr als zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Testen mit einem festen Horizont (d. h. der vom Stichprobengrößenrechner vorgeschlagene Zeitrahmen), wenn ein einzelnes Erlebnis alle anderen Erlebnisse deutlich übertrifft. Wenn zwei oder mehr Erlebnisse im Vergleich zu anderen Erlebnissen &quot;gewonnen&quot;werden, aber eng miteinander übereinstimmen, kann die automatische Zuordnung mehr Zeit erfordern, um festzustellen, welches Erlebnis besser ist. In diesen Fällen wären Tests mit festem Horizont normalerweise zu dem Schluss gekommen, dass die &quot;erfolgreichsten&quot;Erlebnisse besser waren als die Erlebnisse mit geringerer Leistung, aber nicht ermittelt hätten, welches Erlebnis besser war.
+Sie können den vorhandenen [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) verwenden, um eine Schätzung der Laufzeit des Tests zu erhalten. (Wie bei herkömmlichen A/B-Tests wenden Sie die Bonferroni-Korrektur an, wenn Sie mehr als zwei Angebote oder mehr als eine Konversionsmetrik/Hypothese testen.) Beachten Sie, dass dieser Rechner für herkömmliche A/B-Tests mit festgelegtem Horizont konzipiert ist und nur eine Schätzung liefert. Die Verwendung des Taschenrechners für eine Aktivität vom Typ &quot;Automatische Zuordnung&quot;ist optional, da die automatisierte Zuordnung einen Gewinner erklärt - Sie müssen keinen festen Zeitpunkt auswählen, um die Testergebnisse anzuzeigen - die bereitgestellten Werte sind immer statistisch gültig. In unseren Experimenten haben wir Folgendes gefunden:
+* Beim Testen von genau zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Test mit festem Horizont (d. h. den vom Stichprobengrößenrechner empfohlenen Zeitrahmen), wenn der Leistungsunterschied zwischen den Erlebnissen groß ist. Es kann jedoch zusätzliche Zeit erforderlich sein, um einen Gewinner zu identifizieren, wenn der Leistungsunterschied zwischen den Erlebnissen gering ist. In diesen Fällen wären Tests mit festem Horizont in der Regel ohne ein statistisch signifikantes Ergebnis beendet worden.
+* Beim Testen von mehr als zwei Erlebnissen findet die automatisierte Zuordnung schneller einen Gewinner als beim Festen Horizont-Test (d. h. den vom Stichprobengrößenrechner empfohlenen Zeitrahmen), wenn ein einzelnes Erlebnis alle anderen Erlebnisse deutlich übertrifft. Wenn zwei oder mehr Erlebnisse beide im Vergleich zu anderen Erlebnissen &quot;gewinnen&quot;, aber eng miteinander übereinstimmen, kann die automatisierte Zuordnung zusätzliche Zeit erfordern, um zu ermitteln, welcher Erlebnis überlegen ist. In diesen Fällen wären Tests mit festgelegtem Horizont normalerweise zu dem Schluss gekommen, dass die &quot;erfolgreichsten&quot;Erlebnisse besser waren als die Erlebnisse mit geringerer Leistung, aber nicht ermittelt hätten, welches Erlebnis überlegen war.
 
-### Sollte ich ein leistungsschwaches Erlebnis aus einer Aktivität mit automatisierter Zuordnung entfernen, um den Gewinner schneller zu ermitteln?
+### Sollte ich ein leistungsschwaches Erlebnis aus einer Aktivität vom Typ &quot;Automatische Zuordnung&quot;entfernen, um den Prozess zur Ermittlung eines Gewinners zu beschleunigen?
 
-Es gibt wirklich keinen Grund, ein Erlebnis mit schlechter Leistung zu entfernen. Die automatisierte Zuordnung liefert automatisch leistungsstarke Erlebnisse häufiger und liefert weniger leistungsstarke Erlebnisse. Das Verlassen eines leistungsschwachen Erlebnisses in der Aktivität hat keine signifikanten Auswirkungen auf die Geschwindigkeit, mit der ein Gewinner ermittelt wird.
+Es gibt wirklich keinen Grund, ein leistungsschwaches Erlebnis zu entfernen. Die automatisierte Zuordnung liefert automatisch öfter leistungsstarke Erlebnisse und liefert weniger häufig leistungsschwache Erlebnisse. Das Verlassen eines leistungsschwachen Erlebnisses in der Aktivität wirkt sich nicht wesentlich auf die Geschwindigkeit zur Ermittlung eines Gewinners aus.
 
-20 % der Besucher werden zufällig über alle Erlebnisse verteilt. Der Traffic, der zu einem Erlebnis mit schlechter Performance geleitet wurde, ist minimal (20 % geteilt durch die Anzahl der Erlebnisse).
+20 % der Besucher werden zufällig über alle Erlebnisse verteilt. Der Traffic, der für ein leistungsschwaches Erlebnis bereitgestellt wird, ist minimal (20 % geteilt durch die Anzahl der Erlebnisse).
 
-### Kann ich die Zielmetrik in der Mitte durch eine Aktivität mit automatisierter Zuordnung ändern? {#change-metric}
+### Kann ich die Zielmetrik in der Mitte durch eine Aktivität vom Typ &quot;Automatische Zuordnung&quot;ändern? {#change-metric}
 
-Es wird nicht empfohlen, die Zielmetrik mitten in einer Aktivität zu ändern. Obwohl es möglich ist, die Zielmetrik während einer Aktivität mithilfe der [!DNL Target]-Benutzeroberfläche zu ändern, sollten Sie immer eine neue Aktivität Beginn haben. Wir garantieren nicht, was passiert, wenn Sie die Sollmetrik in einer Aktivität nach der Ausführung ändern.
+Von der Änderung der Zielmetrik inmitten einer Aktivität raten wir ab. Auch wenn es möglich ist, die Zielmetrik während einer Aktivität in der Benutzeroberfläche von [!DNL Target] zu ändern, sollten Sie dies nicht tun, sondern stattdessen eine neue Aktivität starten. Es ist unmöglich, vorherzusagen, was passiert, wenn die Zielmetrik einer Aktivität während deren Ausführung geändert wird.
 
-Diese Empfehlung gilt für die Aktivitäten [!UICONTROL Automatische Zuordnung], [!UICONTROL Automatische Zielgruppe] und [!UICONTROL Automated Personalization], die [!DNL Target] oder [!DNL Analytics] (A4T) als Berichte-Quelle verwenden.
+Diese Empfehlung gilt gleichermaßen für [!UICONTROL automatische Zuordnungs]-, [!UICONTROL automatische Targeting]- und [!UICONTROL Automated Personalization]-Aktivitäten, die [!DNL Target] oder [!DNL Analytics] (A4T) als Berichtsquelle verwenden.
 
-### Kann ich die Option &quot;Berichtsdaten zurücksetzen&quot;beim Ausführen einer Aktivität für die automatische Zuordnung verwenden?
+### Kann ich die Option „Berichtsdaten zurücksetzen“ während der Ausführung einer automatischen Zuordnungsaktivität verwenden?
 
-Die Verwendung der Option [!UICONTROL Berichtsdaten zurücksetzen] für [!UICONTROL Aktivitäten mit automatischer Zuordnung] wird nicht empfohlen. Obwohl die Daten des sichtbaren Berichte entfernt werden, entfernt diese Option nicht alle Schulungsdatensätze aus dem Modell [!UICONTROL Automatische Zuordnung]. Erstellen Sie anstelle der Option [!UICONTROL Berichtsdaten zurücksetzen] für [!UICONTROL Aktivitäten mit automatischer Zuordnung] eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität. (Hinweis: Diese Anleitung gilt auch für die Aktivitäten [!UICONTROL Auto-Zielgruppe] und [!UICONTROL Automated Personalization].)
+Die Verwendung der Option [!UICONTROL Berichtsdaten zurücksetzen] für [!UICONTROL Aktivitäten mit automatischer Zuordnung] wird nicht empfohlen. Obwohl die sichtbaren Berichtsdaten entfernt werden, entfernt diese Option nicht alle Trainings-Datensätze aus dem Modell [!UICONTROL Automatische Zuordnung]. Statt die Option [!UICONTROL Berichtsdaten zurücksetzen] für [!UICONTROL Aktivitäten mit automatischer Zuordnung] zu verwenden, erstellen Sie eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität. (Hinweis: Diese Anleitung gilt auch für die Aktivitäten [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization] .)
 
-### Wie werden Buildmodelle mit automatisierter Zuordnung in Bezug auf Umgebung erstellt?
+### Wie berücksichtigt die automatische Zuordnung bei der Modellerstellung die Umgebung?
 
-[!UICONTROL Automatisch ] zuweisende ebuilds-Modelle basieren auf dem Traffic- und Konversionsverhalten, das nur in der Standardversion aufgezeichnet wird. Standardmäßig ist [!UICONTROL Produktion] die Standardeinstellung. Dies kann jedoch in Zielgruppe [Administration > Umgebung](/help/administrating-target/environments.md) geändert werden.
+[!UICONTROL Automatische ] Zuordnung von ebuilds-Modellen basierend auf dem Traffic- und Konversionsverhalten, das nur in der Standardumgebung aufgezeichnet wurde. Standardmäßig ist [!UICONTROL Produktion] die Standardumgebung. Dies kann jedoch in Target [Administration > Umgebungen](/help/administrating-target/environments.md) geändert werden.
 
-Tritt ein Treffer in einer anderen (nicht standardmäßigen) Umgebung auf, wird der Traffic entsprechend dem beobachteten Konversionverhalten in der Standard-Umgebung verteilt. Das Ergebnis dieses Treffers (Konvertierung oder Nicht-Konvertierung) wird zu Berichte aufgezeichnet, jedoch nicht im Modell [!UICONTROL Automatische Zuordnung] berücksichtigt.
+Tritt ein Treffer in einer anderen (nicht standardmäßigen) Umgebung auf, wird der Traffic entsprechend dem beobachteten Konversionsverhalten in der Standardumgebung verteilt. Das Ergebnis dieses Treffers (Konversion oder Nicht-Konversion) wird zu Berichtszwecken aufgezeichnet, aber nicht im Modell [!UICONTROL Automatische Zuordnung] berücksichtigt.
 
-Bei Auswahl einer anderen Umgebung zeigt der Bericht Traffic und Konversionen für diese Umgebung an. Die für einen Bericht standardmäßig ausgewählte Umgebung ist stets die für das gesamte Konto ausgewählte Standardeinstellung. Die Standardeinstellung für die Umgebung kann nicht pro Aktivität festgelegt werden.
+Bei Auswahl einer anderen Umgebung zeigt der Bericht Traffic und Konversionen für diese Umgebung an. Die für einen Bericht ausgewählte Standardumgebung ist immer die für das gesamte Konto ausgewählte Standardeinstellung. Die Standardumgebung kann nicht pro Aktivität festgelegt werden.
 
 ## Schulungsvideos {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Arbeitsablauf für Aktivitäten – Targeting (2:14)  ![Tutorialzeichen](/help/assets/tutorial.png)
+### Arbeitsablauf für Aktivitäten – Targeting (2:14) ![Tutorial-Badge](/help/assets/tutorial.png)
 
 In diesem Video sind Informationen zur Einrichtung der Traffic-Zuordnung enthalten.
 
@@ -217,7 +216,7 @@ In diesem Video sind Informationen zur Einrichtung der Traffic-Zuordnung enthalt
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Erstellen von A/B-Tests (8:36) ![Tutorialzeichen](/help/assets/tutorial.png)
+### Erstellen von A/B-Tests (8:36) ![Tutorial-Zeichen](/help/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein A/B-Test erstellt wird. Automatisierte Traffic-Zuordnung wird ab 4:45 besprochen.
 
