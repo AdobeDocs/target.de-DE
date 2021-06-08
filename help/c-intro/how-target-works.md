@@ -4,11 +4,10 @@ description: Erfahren Sie, wie Adobe  [!DNL Target] works, including information
 title: Wie funktioniert  [!DNL Target] ?
 feature: Überblick
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: ht
-source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
-workflow-type: ht
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+workflow-type: tm+mt
 source-wordcount: '2563'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -153,7 +152,7 @@ Adobe schützt das Benutzererlebnis durch die Optimierung und Sicherung der Perf
 * Adobe setzt einen mehrstufigen Ansatz zur Sicherung seiner Anwendungen ein, um Kunden auf diese Weise ein Höchstmaß an Verfügbarkeit und Zuverlässigkeit zu gewähren.
 * [!DNL Target] Consulting bietet Unterstützung bei der Implementierung und laufenden Produktsupport.
 
-## Benutzerfreundliches Testen der Suchmaschinenoptimierung (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## Benutzerfreundliches Testen der Suchmaschinenoptimierung (SEO)  {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 [!DNL Adobe Target] ist an den Suchoptimierungsrichtlinien für Prüfungen ausgerichtet.
 
@@ -180,7 +179,7 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
    Adobe sucht weiterhin nach praktikablen Lösungen, die vollständig konform mit den Suchmaschinenrichtlinien sind. Adobe ist zuversichtlich, dass sich das mit diesem Ansatz verbundene Risiko für alle Kunden, die mehrere URLs zum Testen verwenden müssen, durch eine ordnungsgemäße Implementierung der kanonischen Tags verringert.
 
-* **Durchführen der Experimente nur so lange wie nötig**: Für Adobe bedeutet „so lange wie nötig“ genau so lange, bis ein statistisch signifikantes Ergebnis erzielt ist. Für [!DNL Target] gibt es [Best Practices](https://docs.adobe.com/content/target-microsite/testcalculator.html), mit deren Hilfe festgestellt werden kann, wann ein Test diesen Punkt erreicht. Adobe empfiehlt, die hart codierte Implementierung erfolgreicher Tests in Ihren Test-Workflow einzugliedern und die hierfür erforderlichen Ressourcen bereitzustellen.
+* **Durchführen der Experimente nur so lange wie nötig**: Für Adobe bedeutet „so lange wie nötig“ genau so lange, bis ein statistisch signifikantes Ergebnis erzielt ist. Für [!DNL Target] gibt es [Best Practices](https://experienceleague.adobe.com/tools/calculator/testcalculator.html), mit deren Hilfe festgestellt werden kann, wann ein Test diesen Punkt erreicht. Adobe empfiehlt, die hart codierte Implementierung erfolgreicher Tests in Ihren Test-Workflow einzugliedern und die hierfür erforderlichen Ressourcen bereitzustellen.
 
    Die „Veröffentlichung“ erfolgreicher Tests über die [!DNL Target]-Plattform wird nicht als dauerhafte Lösung empfohlen. Wenn der erfolgreichste Test für 100 % der Benutzer zu 100 % veröffentlicht wird, kann dieser Ansatz verwendet werden, während der Prozess der Hartkodierung des erfolgreichsten Tests noch durchgeführt wird.
 
