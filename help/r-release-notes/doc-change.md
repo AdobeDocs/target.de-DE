@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo finde ich Informationen zu Änderungen an der Target-Dokumentation?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 82%
+source-wordcount: '1484'
+ht-degree: 79%
 
 ---
 
@@ -19,6 +19,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 8. Juni | [Vor der Implementierung von Analytics for Target (A4T) mit at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Es wurde ein Hinweis hinzugefügt, der angibt, dass at.js 1.8.0 oder höher nicht mehr mit Visitor API-Versionen älter als 2.5.0 funktioniert, um [!DNL Adobe Audience Manager] (AAM) Parameter zu übergeben. |
+|  | [Umgebungen](/help/administrating-target/environments.md) | Es wurde ein Hinweis hinzugefügt, der angibt, dass Hosts aus dieser Umgebung auch inaktive Aktivitäten anzeigen, wenn Sie [!UICONTROL Aktive und inaktive Aktivitäten] angeben. |
 | 7. Juni | [Versionshinweise](/help/r-release-notes/release-notes.md): 21.6.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (Montag, 19. April 2021) 
