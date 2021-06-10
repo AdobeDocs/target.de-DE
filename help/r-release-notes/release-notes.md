@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Versionshinweise
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
+source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 58%
@@ -23,7 +23,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
-## Target Standard/Premium 21.6.1 (7. Juni 2021)  
+## Target Standard/Premium 21.5.1 (7. Juni 2021)  
 
 Diese Version umfasst die folgenden Verbesserungen:
 
