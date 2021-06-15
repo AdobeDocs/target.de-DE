@@ -1,24 +1,25 @@
 ---
 keywords: Übersicht und Referenz
-description: Erfahren Sie mehr über Besucher-Profil, die Informationen darüber enthalten, wie Ihre Besucher Ihre Seiten und andere optimierte Inhaltsverzeichnisse verwenden.
-title: Was sind Besucher-Profile?
+description: Erfahren Sie mehr über Besucherprofile, die Informationen darüber enthalten, wie Besucher Ihre Seiten und andere optimierte Inhaltsspeicherorte verwenden.
+title: Was sind Besucherprofile?
 feature: Zielgruppen
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c3c76b01ab158a8cab31de487f1cd7c8199339b
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 78%
+source-wordcount: '107'
+ht-degree: 40%
 
 ---
 
 # Besucherprofile
 
-Besucherprofile enthalten Informationen darüber, wie Besucher Ihre Seiten und andere optimierte Inhaltsverzeichnisse verwenden.
+Besucherprofile enthalten Informationen darüber, wie Besucher Ihre Seiten und andere optimierte Inhaltsstandorte verwenden.
 
-Wenn Ihre Target-Instanz gemeinsam mit anderen Lösungen der Adobe Marketing Suite wie Adobe Analytics verwendet wird, gibt Experience Cloud Audiences Benutzerinformationen für diese Lösungen frei.
+Wenn [!DNL Adobe Target] mit anderen [!DNL Adobe Experience Cloud] -Lösungen wie [!DNL Adobe Analytics] verwendet wird, gibt [!DNL Experience Cloud Audiences] die Besucher-Informationen lösungsübergreifend frei.
 
-Standardmäßig werden Target-Profilinformationen in einem einzigen Erstanbieter-Cookie gespeichert. Die Konfiguration kann einfach angepasst werden, um auch Drittanbieter-Cookies zu beliefern.
+Standardmäßig werden [!DNL Target]-Profilinformationen in einem einzigen Erstanbieter-Cookie gespeichert. Die Konfiguration kann einfach angepasst werden, um auch Drittanbieter-Cookies zu beliefern.
+
+Weitere Informationen dazu finden Sie in den folgenden Abschnitten:
 
 - [Lebensdauer des Besucherprofils](visitor-profile-lifetime.md)
 - [Profilattribute](profile-parameters.md)
