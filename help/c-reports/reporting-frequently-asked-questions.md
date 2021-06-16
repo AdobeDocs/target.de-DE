@@ -4,22 +4,16 @@ description: Erkunden Sie eine Liste häufig gestellter Fragen und Antworten zur
 title: Wo finde ich Antworten auf Fragen zu [!DNL Target] Berichten?
 feature: Berichte
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 30%
+source-wordcount: '1219'
+ht-degree: 33%
 
 ---
 
 # Häufig gestellte Fragen zum Reporting
 
 Liste der häufig gestellten Fragen zur Berichterstellung in [!DNL Adobe Target].
-
-## Wie lange dauern Daten für die Modelle [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] an?
-
-[!UICONTROL Automated Personalization] - (AP-) und  [!UICONTROL Auto-] Targeting-Modelle werden für die Aktivität an den letzten 45 Tagen des Benutzerverhaltens (Benutzerprofile, Impressionsereignisse und Konversionsereignisse) trainiert.
-
-[!UICONTROL Automated Personalization] - (AP-) und  [!UICONTROL Auto-] Targeting-Modelle behalten das Benutzerverhalten, Trainings-Datensätze und Modellentscheidungen 90 Tage lang bei, um   Insights-Berichte zu erstellen. Nach 90 Tagen werden Trainings-Datensätze und Modellentscheidungen verworfen. [!UICONTROL Automated Personalization] - (AP-) und  [!UICONTROL Auto-] Targeting-Modelle behalten außerdem aggregierte Impressions- und Konversionsdaten auf Erlebnis-/Angebotsebene für Berichtszwecke zwei Jahre bei. Diese Daten sind nur aggregierte Daten und enthalten keine Profildaten auf individueller Ebene.
 
 ## Wie werden die Metriken „Neue Besucher“ und „Wiederkehrende Besucher“ gezählt? {#methodology}
 
