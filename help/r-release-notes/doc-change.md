@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo finde ich Informationen zu Änderungen an der Target-Dokumentation?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 79%
+source-wordcount: '1534'
+ht-degree: 78%
 
 ---
 
@@ -19,6 +19,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 16. Juni | [[!DNL Target] Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Python SDK-Version 1.0.0 von [!DNL Adobe Target] hinzugefügt. |
+|  | [Häufig gestellte Fragen zum Reporting](/help/c-reports/reporting-frequently-asked-questions.md) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Wie lange dauern Daten für die Modelle [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] an?</li></ul> |
 | 8. Juni | [Vor der Implementierung von Analytics for Target (A4T) mit at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Es wurde ein Hinweis hinzugefügt, der angibt, dass at.js 1.8.0 oder höher nicht mehr mit Visitor API-Versionen älter als 2.5.0 funktioniert, um [!DNL Adobe Audience Manager] (AAM) Parameter zu übergeben. |
 |  | [Umgebungen](/help/administrating-target/environments.md) | Es wurde ein Hinweis hinzugefügt, der angibt, dass Hosts aus dieser Umgebung auch inaktive Aktivitäten anzeigen, wenn Sie [!UICONTROL Aktive und inaktive Aktivitäten] angeben. |
 |  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>[!DNL Adobe Experience Platform] Segmentnamen werden nicht im Bericht &quot; [!UICONTROL Wichtige ] Attribute&quot;angezeigt.</li></ul> |
