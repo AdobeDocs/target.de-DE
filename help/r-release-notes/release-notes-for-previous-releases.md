@@ -4,7 +4,7 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Versionshinweise
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '31074'
 ht-degree: 99%
@@ -233,8 +233,8 @@ Ab dem Release vom 20. Mai gibt Profile Batch Status nur noch Fehlerdaten auf Z
 
 Die bisherigen und neuen API-Antworten lauten wie folgt:
 
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+`ProfileBatchStatus Api`
+`http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 
 **Bislang wird die Antwort wie folgt angezeigt:**
 
