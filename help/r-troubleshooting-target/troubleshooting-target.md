@@ -4,11 +4,10 @@ description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Targ
 title: Wie behebe ich Fehler in Target?
 feature: Fehlerbehebung
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: ht
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
-workflow-type: ht
-source-wordcount: '452'
-ht-degree: 100%
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +27,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 ### A/B-Test
 
 * [Neun häufige Fehler bei A/B-Tests und wie diese vermieden werden](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
-* [Automatisch zuweisen](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+* [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
 * [Automatisches Targeting für personalisierte Erlebnisse](/help/c-activities/auto-target/auto-target-to-optimize.md)
 
 ### Automatische Zuordnung
@@ -38,12 +37,14 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 ### Automatisches Targeting
 
 * [Automatisches Targeting – Fehlerbehebung und häufig gestellte Fragen](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Berichte zu Personalization Insights](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Automated Personalization (AP)
 
-* [Häufig gestellte Fragen zur Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Häufig gestellte Fragen zur automatisierten Personalisierung](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Fehlerbehebung für Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [Automated Personalization-Zusammenfassungsberichte](/help/c-reports/reports-ap.md)
+* [Berichte zu Personalization Insights](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Multivarianz-Tests (MVT)
 
@@ -70,8 +71,8 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
    * [Metrikdefinitionen – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [Freigeben von Metriken, Segmenten und Berichten - Häufig gestellte Fragen zu A4T](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
    * [Überhöhte Besuchs- und Besucherzählungen - Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
-   * [Classifications – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
-   * [Alte Integration von SiteCatalyst in Test&amp;Target – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
+   * [Classifications - Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
+   * [Legacy-Integration von SiteCatalyst in Test&amp;Target – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
 ## Zielgruppen und Ziele
 
@@ -87,7 +88,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 
 ## Unternehmensberechtigungen
 
-* [Enterprise-Benutzerberechtigungen](/help/administrating-target/c-user-management/property-channel/property-channel.md)
+* [Berechtigungen für Unternehmensbenutzer](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 
 ## Erlebnisse
 
@@ -97,7 +98,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 
 ## Globale Mbox
 
-* [Globale mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [Globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
 
 ## Hosts/Umgebungen
 
@@ -116,7 +117,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 * [Häufig gestellte Fragen zur globalen Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
 
-### at.js
+### at.js  
 
 * [Häufig gestellte Fragen zu at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [Debugging von at.js mithilfe des Adobe Experience Cloud-Debuggers](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
@@ -148,7 +149,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 ## Suchmaschinenoptimierung (SEO)
 
-* [Benutzerfreundliches Testen der Suchmaschinenoptimierung (SEO)](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Benutzerfreundliches Testen der Suchmaschinenoptimierung (SEO) ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
 ## Systemstatus
 
@@ -156,16 +157,16 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 ## Targeting
 
-* [Geo](/help/c-target/c-audiences/c-target-rules/geo.md)
+* [Geo  ](/help/c-target/c-audiences/c-target-rules/geo.md)
 
 ## Benutzer
 
 * [Fehlerbehebung für Benutzerverwaltung](/help/administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
 
-## Visual Experience Composer (VEC)
+## Visual Experience Composer (VEC)  
 
 * [Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung](/help/c-intro/cmp-target-standard-cheatsheet.md)
-* [Fehlerbehebung für Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+* [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Best Practices und Einschränkungen von Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Änderungen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
 * Video zu „Office Hours“, einer Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird. Siehe [Visual Experience Composer (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
