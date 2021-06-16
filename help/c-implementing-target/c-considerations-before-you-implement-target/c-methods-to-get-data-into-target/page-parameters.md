@@ -1,12 +1,11 @@
 ---
-keywords: implementieren;Implementierung;Einrichten;Einrichten;Seitenparameter
-description: Daten unter  [!DNL Target] mithilfe von Seitenparametern abrufen.
-title: Wie erhalte ich Daten unter [!DNL Target] Verwenden von Seitenparametern?
+keywords: implementieren;implementieren;einrichten;Einrichtung;Seitenparameter
+description: Rufen Sie Daten mithilfe von Seitenparametern in [!DNL Target] ab.
+title: Wie erhalte ich Daten unter [!DNL Target] Verwendung von Seitenparametern?
 feature: Implementierung
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 46%
@@ -15,9 +14,9 @@ ht-degree: 46%
 
 # Seitenparameter
 
-Seitenparameter (auch als &quot;mbox-Parameter&quot;bezeichnet) sind Name/Wert-Paare, die direkt über den Seitencode weitergeleitet werden und nicht im Profil des Besuchers für die zukünftige Verwendung gespeichert werden.
+Seitenparameter (auch &quot;Mbox-Parameter&quot;genannt) sind Name/Wert-Paare, die direkt über den Seiten-Code übergeben werden und nicht im Besucherprofil zur zukünftigen Verwendung gespeichert werden.
 
-Seitenparameter sind nützlich, um Seitendaten an eine Zielgruppe zu senden, die nicht zum zukünftigen Targeting mit dem Profil des Besuchers gespeichert werden muss. Diese Werte werden stattdessen verwendet, um die Seite oder die Aktion zu beschreiben, die der Benutzer auf der jeweiligen Seite ausgeführt hat.
+Seitenparameter sind nützlich, um Seitendaten an Target zu senden, die nicht mit dem Profil des Besuchers gespeichert werden müssen, um sie für zukünftige Targeting-Anwendungen nutzen zu können. Diese Werte werden stattdessen verwendet, um die Seite oder die Aktion zu beschreiben, die der Benutzer auf der jeweiligen Seite ausgeführt hat.
 
 ## Format
 
@@ -29,28 +28,28 @@ Seitenparameter werden über einen Server-Aufruf als Name-Wert-Paar-Zeichenfolge
 
 * `categoryId=homeLoans`
 
-## Verwendungsbeispiele
+## Anwendungsbeispiele
 
-* **Produktseiten**: Senden Sie Informationen zum jeweiligen angezeigten Produkt (so funktioniert Recommendations).
-* **Bestelldetails**: Bestellungs-ID, orderTotal usw. für die Bestellerfassung senden
+* **Produktseiten**: Senden Sie Informationen über das angezeigte Produkt (so funktioniert Recommendations).
+* **Bestelldetails**: Bestell-ID, orderTotal usw. zur Auftragserfassung senden
 * **Kategorieaffinität:** kategorisierte Informationen an Target senden, um Kenntnisse über die Affinität des Benutzers zu bestimmten Site-Kategorien zu erhalten.
 * **Daten von Drittanbietern:** Informationen aus Drittanbieter-Datenquellen, wie Wetter-Targeting-Anbieter, Kontodaten (z. B. DemandBase), demographische Daten (z. B. Experian) und mehr senden.
 
 ## Vorteile der Methode
 
-Daten werden in Echtzeit an die Zielgruppe gesendet und können für denselben Server-Aufruf der Daten verwendet werden, für die sie gesendet werden.
+Daten werden in Echtzeit an Target gesendet und können für denselben Server-Aufruf verwendet werden, für den die Daten eingehen.
 
 ## Einschränkungen
 
 * Erfordert ein Seiten-Code-Update (direkt oder über ein Tag-Management-System).
-* Wenn die Daten für das Targeting bei einem nachfolgenden Seiten-/Server-Aufruf verwendet werden müssen, müssen sie in ein Profil-Skript übersetzt werden.
+* Wenn die Daten für die Zielgruppenbestimmung bei einem nachfolgenden Seiten-/Server-Aufruf verwendet werden müssen, müssen sie in ein Profilskript übersetzt werden.
 * Abfragezeichenfolgen dürfen nur Zeichen des [IETF-Standards](https://www.ietf.org/rfc/rfc3986.txt) (Internet Engineering Task Force) enthalten .
 
-   Zusätzlich zu den auf der IETF-Site erwähnten Zeichen erlaubt die Zielgruppe die folgenden Zeichen in Abfragen-Zeichenfolgen:
+   Zusätzlich zu den auf der IETF-Site erwähnten Zeichen erlaubt Target die folgenden Zeichen in Abfragezeichenfolgen:
 
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
+   ```< > # % " { } | \ ^ [ ] ` ```
 
-   Alle anderen Zeichen müssen URL-codiert sein. Der Standard gibt das folgende Format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ) an, wie unten dargestellt:
+   Alle anderen Zeichen müssen URL-codiert sein. Der Standard gibt das folgende Format an ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ):
 
    ![](assets/ietf1.png)
 
