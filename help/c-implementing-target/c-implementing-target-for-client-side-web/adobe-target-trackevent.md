@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.trackevent; Trackevent; trackevent; Ereignis tracken; at.js; Funktionen; funktion; Preventdefault; preventdefault; Standard verhindern
-description: Verwenden Sie die JavaScript-Bibliothek "adobe.Zielgruppe.trackEvent()"für die Adobe [!DNL Target] at.js, um eine Anforderung zum Berichten von Benutzeraktionen auszulösen, z. B. Klicks und Konversionen auf Ihrer Site.
-title: Wie verwende ich die Funktion adobe.Zielgruppe.trackEvent()?
-feature: 'at.js '
+description: Verwenden Sie die Funktion adobe.target.trackEvent() für die JavaScript-Bibliothek "Adobe [!DNL Target] at.js", um eine Anforderung zum Reporting von Benutzeraktionen auszulösen, z. B. Klicks und Konversionen auf Ihrer Site.
+title: Wie verwende ich die Funktion adobe.target.trackEvent()?
+feature: 'at.js  '
 role: Developer
 exl-id: 36005236-ce18-4845-b4fb-e52056018bc7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 70%
+source-wordcount: '328'
+ht-degree: 69%
 
 ---
 
@@ -23,10 +22,10 @@ Hier finden Sie die Einzelheiten zur API:
 
 | Schlüssel | Typ | Erforderlich | Beschreibung |
 |--- |--- |--- |--- |
-| mbox | Zeichenfolge | Ja | Mbox name <br>**Hinweis**: Wenn ein trackEvent()-Aufruf mit einem Mbox-Namen ausgelöst wird, der bereits auf der Seite ausgelöst wurde, wird die SDID von trackEvent() zurückgesetzt und unterscheidet sich von den Seitenaufrufen für die Zielgruppe. Durch das Auslösen eines trackEvent()-Aufrufs mit einem anderen Mbox-Namen wird die SDID des trackEvent()-Aufrufs jedoch konsistent mit dem Seitenlade-Request/triggerView()-Aufruf auf der Seite gehalten. |
+| mbox | Zeichenfolge | Ja | Mbox name <br>**Hinweis**: Wenn ein trackEvent() -Aufruf mit einem Mbox-Namen ausgelöst wird, der bereits auf der Seite ausgelöst wurde, wird die SDID von trackEvent() zurückgesetzt und unterscheidet sich von den Target -Aufrufen auf der Seite. Durch das Auslösen eines trackEvent() -Aufrufs mit einem anderen Mbox-Namen wird die SDID des trackEvent() -Aufrufs jedoch mit den Aufrufen &quot;Seitenladeanforderung/triggerView()&quot;auf der Seite konsistent. |
 | selector | Zeichenfolge | Nein | CSS-Selektoren für die Ermittlung der HTML-Elemente Die Ereignislistener werden an die gefundenen Elemente angefügt.. |
 | Typ | Zeichenfolge | Nein | Stellt einen registrierten Ereignistyp dar. Dabei kann es sich um HTML-bekannte Ereignisse wie „click“, „mousedown“ und so weiter sowie benutzerdefinierte HTML-Ereignisse handeln. |
-| preventDefault | Boolesch | Nein | Gibt an, ob `event.preventDefault()` im Rückruf des Ereignislisteners verwendet werden soll. Standard ist „false“.<br>**Hinweis:** Nur `form[submit] and `a[click] werden unterstützt. Andere Szenarien werden aufgrund der Komplexität und der sehr großen Anzahl an zu unterstützenden Szenarien nicht unterstützt. |
+| preventDefault | Boolesch | Nein | Gibt an, ob `event.preventDefault()` im Rückruf des Ereignislisteners verwendet werden soll. Standard ist „false“.<br>**Hinweis**: Nur  `form[submit]` und  `a[click]` werden unterstützt. Andere Szenarien werden aufgrund der Komplexität und der sehr großen Anzahl an zu unterstützenden Szenarien nicht unterstützt. |
 | params | Objekt | Nein | Mbox-Parameter Ein Objekt aus Schlüssel-Wert-Paaren mit der folgenden Struktur:<br>`{ "param1": "value1", "param2": "value2"}` |
 | Zeitüberschreitung | Nummer | Nein | Zeitüberschreitung in Millisekunden<br>Wenn nichts angegeben, wird der Standardwert verwendet:<br>`...timeoutInSeconds: 0.15...}` |
 | success | Funktion | Nein | Eine Rückruffunktion, mit der signalisiert wird, dass das Ereignis gemeldet wurde |
