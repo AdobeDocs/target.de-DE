@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK; aep web sdk; aep sdk; Suchmaschinenoptimierung; seo; Edge-Cluster; zentrale Cluster; at.js; mbox.js;
-description: Erfahren Sie, wie Adobe  [!DNL Target] works, including information about the [!DNL Target]  JavaScript-Bibliotheken (at.js und AEP Web SDK), Adobe Data Center und SEO-Tests.
+description: Erfahren Sie mehr über Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript-Bibliotheken (at.js und Experience Platform Web SDK), Adobe-Rechenzentren und SEO-Tests.
 title: Wie funktioniert  [!DNL Target] ?
 feature: Überblick
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
 workflow-type: tm+mt
-source-wordcount: '2563'
-ht-degree: 99%
+source-wordcount: '2560'
+ht-degree: 95%
 
 ---
 
@@ -17,19 +17,19 @@ Erfahren Sie, wie [!DNL Adobe Target] funktioniert. Sie erhalten hier auch Infor
 
 ## [!DNL Target] Platform Web SDKs und JavaScript-Bibliotheken {#libraries}
 
-[!DNL Target] integriert sich mithilfe des [!DNL AEP Web SDK] oder der JavaScript-Bibliotheken von Target mit Websites:
+[!DNL Target] integriert sich mithilfe des [!DNL Experience Platform Web SDK] oder der JavaScript-Bibliotheken von Target mit Websites:
 
-* **Adobe Experience Platform Web SDK:** Das [AEP Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) ist eine neue clientseitige JavaScript-Bibliothek. Mit dem AEP Web SDK können [!DNL Adobe Experience Cloud]-Kunden über das [!DNL AEP]-Edge-Netzwerk mit den verschiedenen Diensten der [!DNL Experience Cloud] (einschließlich [!DNL Target]) interagieren. Adobe empfiehlt allen neuen [!DNL Target]-Kunden, das [!DNL AEP Web SDK] zu implementieren.
+* **Adobe Experience Platform Web SDK:** Das  [Experience Platform Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK ist eine neue clientseitige JavaScript-Bibliothek. Das Experience Platform Web SDK ermöglicht Kunden von [!DNL Adobe Experience Cloud] die Interaktion mit den verschiedenen Diensten im [!DNL Experience Cloud] (einschließlich [!DNL Target]) über das [!DNL Experience Platform] Edge-Netzwerk. Adobe empfiehlt allen neuen [!DNL Target]-Kunden, das [!DNL Experience Platform Web SDK] zu implementieren.
 * **at.js:** Die [at.js-Bibliothek](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) ist eine Implementierungsbibliothek für [!DNL Target]. Die at.js-Bibliothek sorgt für kürzere Seitenladezeiten bei Webimplementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. At.js wird häufig durch neue Funktionen erweitert. Adobe empfiehlt allen Kunden, die at.js verwenden, ihre Implementierungen stets auf die [aktuellste Version von at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu aktualisieren.
-* **mbox.js:** Die [mbox.js-Bibliothek](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) ist eine veraltete Implementierungsbibliothek für [!DNL Target]. Mbox.js wird bis zum 31. März 2021 unterstützt. Deren Funktionen werden jedoch nicht mehr aktualisiert.
+* **mbox.js:** Die [mbox.js-Bibliothek](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) ist eine veraltete Implementierungsbibliothek für [!DNL Target]. Die mbox.js-Bibliothek wird nach dem 31. März 2021 nicht mehr unterstützt.
 
 >[!IMPORTANT]
 >
->Adobe empfiehlt allen Kunden, zum [!DNL AEP Web SDK] oder zur neuesten Version von at.js zu migrieren. Weitere Informationen finden Sie unter [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) bzw. unter [Migration von „mbox.js“ zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>Adobe empfiehlt allen Kunden, zum [!DNL Experience Platform Web SDK] oder zur neuesten Version von at.js zu migrieren. Weitere Informationen finden Sie unter [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) bzw. unter [Migration von „mbox.js“ zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-Das [!DNL AEP Web SDK] oder at.js muss auf jeder Seite Ihrer Site referenziert werden. Beispielsweise können Sie eine dieser Bibliotheken Ihrer globalen Kopfzeile hinzufügen. Alternativ können Sie auch [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=de) zur Implementierung von [!DNL Target] verwenden.
+Das [!DNL Experience Platform Web SDK] oder at.js muss auf jeder Seite Ihrer Site referenziert werden. Beispielsweise können Sie eine dieser Bibliotheken Ihrer globalen Kopfzeile hinzufügen. Alternativ können Sie auch [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=de) zur Implementierung von [!DNL Target] verwenden.
 
-Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung des AEP Web SDK oder der JavaScript-Bibliothek at.js:
+Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung des Experience Platform Web SDK oder at.js:
 
 * [Adobe Experience Platform Web SDK – Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=de#configure-the-aep-web-sdk-extension)
 * [Implementieren von  [!DNL Target]  mit Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
@@ -107,7 +107,7 @@ Die [!DNL Target]-Lösung wird weltweit auf Adobe-eigenen und von Adobe geleaste
 
 An den Standorten zentraler Cluster befinden sich sowohl ein Datenerfassungscenter als auch ein Datenverarbeitungscenter. An Edge-Cluster-Standorten befindet sich dagegen nur ein Datenerfassungscenter. Jede Report Suite ist einem speziellen Datenverarbeitungscenter zugewiesen.
 
-Die Site-Aktivitätsdaten der Kunden werden vom nächstgelegenen der sieben Edge-Cluster erfasst. Diese Daten werden an einen vom Kunden bestimmten zentralen Cluster (derzeit einen der drei Standorte Oregon, Dublin und Singapur) zur Verarbeitung weitergeleitet. Die Profildaten der Besucher werden in dem Edge-Cluster gespeichert, der dem Site-Besucher am nächsten liegt. Die Standorte der Edge-Cluster umfassen die Standorte der zentralen Cluster sowie Virginia, Amsterdam, Sydney, Tokio und Hongkong.
+Die Site-Aktivitätsdaten der Kunden werden vom nächstgelegenen der sieben Edge-Cluster erfasst. Diese Daten werden an einen vom Kunden bestimmten zentralen Cluster (derzeit einen der drei Standorte Oregon, Dublin und Singapur) zur Verarbeitung weitergeleitet. Die Profildaten der Besucher werden in dem Edge-Cluster gespeichert, der dem Site-Besucher am nächsten liegt. Edge-Cluster-Standorte umfassen die zentralen Cluster-Standorte Virginia, Mumbai, Sydney und Tokio.
 
 Die Targeting-Anforderungen werden nicht immer vom gleichen Standort beantwortet, sondern von dem Edge-Cluster, der dem Besucher am nächsten liegt. Dadurch minimieren sich die Verzögerungen durch lange Übertragungswege innerhalb des Netzwerks bzw. Internets.
 
@@ -181,7 +181,7 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
 * **Durchführen der Experimente nur so lange wie nötig**: Für Adobe bedeutet „so lange wie nötig“ genau so lange, bis ein statistisch signifikantes Ergebnis erzielt ist. Für [!DNL Target] gibt es [Best Practices](https://experienceleague.adobe.com/tools/calculator/testcalculator.html), mit deren Hilfe festgestellt werden kann, wann ein Test diesen Punkt erreicht. Adobe empfiehlt, die hart codierte Implementierung erfolgreicher Tests in Ihren Test-Workflow einzugliedern und die hierfür erforderlichen Ressourcen bereitzustellen.
 
-   Die „Veröffentlichung“ erfolgreicher Tests über die [!DNL Target]-Plattform wird nicht als dauerhafte Lösung empfohlen. Wenn der erfolgreichste Test für 100 % der Benutzer zu 100 % veröffentlicht wird, kann dieser Ansatz verwendet werden, während der Prozess der Hartkodierung des erfolgreichsten Tests noch durchgeführt wird.
+   Die „Veröffentlichung“ erfolgreicher Tests über die [!DNL Target]-Plattform wird nicht als dauerhafte Lösung empfohlen. Wenn der erfolgreichste Test zu 100 % der Benutzer zu 100 % veröffentlicht wird, kann dieser Ansatz verwendet werden, während der Prozess der Hartkodierung des Gewinnertests abgeschlossen ist.
 
    Beachten Sie dabei auch, was durch Ihren Test geändert wurde. Eine Änderung der Schaltflächenfarbe oder anderer Elemente, die keinen Text enthalten, wirkt sich nicht auf das organische Suchmaschinenranking Ihrer Seite aus. Änderungen an Texten sollten jedoch auf jeden Fall hart codiert werden.
 
