@@ -1,13 +1,12 @@
 ---
 keywords: Empfehlungs-Feed; Feed; SAINT; ftp; csv;klassifizierungen;analytics classifications
-description: Erfahren Sie, wie Feeds Entitäten mithilfe von CSV-Dateien, dem Feed-Format für die Google Produktsuche und den Analytics-Produktklassifizierungen in die Adobe [!DNL Target] Recommendations importieren.
+description: Erfahren Sie, wie Feeds Entitäten mithilfe von CSV-Dateien, dem Google Produktsuche-Feed-Format und Analytics-Produktklassifizierungen in Adobe [!DNL Target] Recommendations importieren.
 title: Wie verwende ich Feeds in [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 062a47e2dd76fe6dc87a71ad7b17355d57d769dd
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2513'
 ht-degree: 87%
 
 ---
@@ -20,16 +19,16 @@ Verwenden Sie Feeds, damit Entitäten in [!DNL Adobe Target Recommendations] imp
 
 Feeds ermöglichen es Ihnen, [Entitäten](/help/c-recommendations/c-products/products.md) weiterzugeben oder Ihre Mbox-Daten mit Informationen zu ergänzen, die auf der Seite nicht verfügbar sind oder nicht sicher von der Seite gesendet werden können, wie z. B. Marge, COGS usw.
 
-Mit Feeds können Sie detaillierte Artikelinformationen an [!DNL Recommendations] weiterleiten, z. B. Produkt-ID, Kategorie, Name, Nachricht und andere Attribute.
+Mit Feeds können Sie detaillierte Elementinformationen an [!DNL Recommendations] übergeben, z. B. Produkt-ID, Kategorie, Name, Nachricht und andere Attribute.
 
 Sie können auswählen, welche Spalten aus Ihrer [!DNL Target]-Produkt-Classifications-Datei oder Google-Produktsuche-Datei Sie an den [!DNL Recommendations]-Server senden möchten.
 
-Anhand dieser Daten zu jedem Element können Sie dann Folgendes tun:
+Diese Datenelemente zu den einzelnen Elementen können dann zu folgenden Zwecken verwendet werden:
 
 * Werte in Entwürfen anzeigen
-* Definieren von Regeln zur Einbeziehung von Kriterien
+* Definieren von Kriterieneinschlussregeln
 * Sortieren von Elementen in verschiedene Sammlungen
-* Ausnahmen auf Empfehlungen anwenden
+* Ausschlüsse auf Empfehlungen anwenden
 
 Elementbeschreibungen können mithilfe von Feeds oder Mboxes an [!DNL Target] übergeben werden. Wenn Daten von einem Entitäts-Feed und einer Mbox erfasst werden, haben die aktuellen Daten Priorität. In der Regel stammen die aktuellen Daten von einer mbox, da sie häufiger angezeigt wird. Für den seltenen Fall, dass die Entitäts-Feed-Daten und die Mbox-Daten gleich aktuell sind, werden die Mbox-Daten verwendet.
 
@@ -50,8 +49,8 @@ Die Feeds-Seite enthält die folgenden Spalten:
 >
 >Hochgeladene Entitäten und Entitätsattribute laufen nach 61 Tagen ab. Das bedeutet:
 >
->* Ihr Feed sollte mindestens monatlich ausgeführt werden, um sicherzustellen, dass Ihr Kataloginhalt nicht abläuft.
->* Wenn Sie ein Element aus Ihrer Feed-Datei entfernen, wird dieses Element nicht aus Ihrem Katalog entfernt. Um das Element aus dem Katalog zu entfernen, löschen Sie das Element manuell über die Benutzeroberfläche oder API der Zielgruppe. Sie können auch die Elementattribute (z. B. den Bestand) ändern, um sicherzustellen, dass der Artikel von der Berücksichtigung ausgeschlossen wird.
+>* Ihr Feed sollte mindestens einmal monatlich ausgeführt werden, um sicherzustellen, dass Ihre Kataloginhalte nicht ablaufen.
+>* Wenn Sie ein Element aus Ihrer Feed-Datei entfernen, wird dieses Element nicht aus Ihrem Katalog entfernt. Um das Element aus dem Katalog zu entfernen, löschen Sie es manuell über die Target-Benutzeroberfläche oder -API. Oder ändern Sie die Elementattribute (z. B. das Inventar), um sicherzustellen, dass das Element von der Berücksichtigung ausgeschlossen wird.
 
 
 ## Quelltypen
@@ -90,7 +89,7 @@ Die folgenden Syntax ist richtig:
 
 >[!NOTE]
 >
->Sie können einen vorhandenen Wert nicht mit einem leeren Wert überschreiben. Sie müssen stattdessen einen anderen Wert übergeben, um ihn zu überschreiben. Bei Verkaufspreisen ist es eine gängige Lösung, tatsächlich „NULL“ oder eine andere Meldung zu übermitteln. Sie können dann eine Vorlagenregel verfassen, um Artikel mit diesem Wert auszuschließen.
+>Sie können einen vorhandenen Wert nicht mit einem leeren Wert überschreiben. Sie müssen einen anderen Wert an seiner Stelle übergeben, um ihn zu überschreiben. Bei Verkaufspreisen ist es eine gängige Lösung, tatsächlich „NULL“ oder eine andere Meldung zu übermitteln. Sie können dann eine Vorlagenregel verfassen, um Artikel mit diesem Wert auszuschließen.
 
 Das Produkt ist auf der Admin-Oberfläche ungefähr zwei Stunden nach dem erfolgreichen Upload seiner Entität verfügbar.
 
@@ -209,11 +208,11 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Analytics-Classifications {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Classification. Weitere Informationen zu dieser Classification-Datei finden Sie unter [Über Classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) im Handbuch *Analytics-Komponenten*. Es ist möglich, dass nicht alle für Empfehlungen benötigten Informationen in Ihrer aktuellen Implementierung verfügbar sind. Befolgen Sie dieses Benutzerhandbuch, wenn Sie Informationen zu Ihrer Classification-Datei benötigen.
+Die Analytics-Classification ist die einzige für Empfehlungen verfügbare Classification. Weitere Informationen zu dieser Classification-Datei finden Sie unter [Informationen zu Classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) im Handbuch *Analytics-Komponenten* . Es ist möglich, dass nicht alle für Empfehlungen benötigten Informationen in Ihrer aktuellen Implementierung verfügbar sind. Befolgen Sie dieses Benutzerhandbuch, wenn Sie Informationen zu Ihrer Classification-Datei benötigen.
 
 >[!IMPORTANT]
 >
->Bevor Sie Entitätsdaten mit Analytics-Produktklassifizierungen in [!DNL Recommendations] importieren, beachten Sie, dass dies nicht die bevorzugte Methode ist.
+>Beachten Sie vor dem Import von Entitätsdaten in [!DNL Recommendations] mithilfe von Analytics-Produktklassifizierungen, dass dies nicht die bevorzugte Methode ist.
 >
 > Beachten Sie die folgenden Einschränkungen:
 >
@@ -236,7 +235,7 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
    * Google-Produkt-Feed
    * Analytics-Classifications
 
-   Informationen zu den Feed-Typen CSV und Google-Produkt-Feed finden Sie unter [Feeds-Übersicht](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Sie können auch [eine CSV-Modellanleitung](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) herunterladen, um den Feed korrekt zu formatieren.
+   Informationen zu den Feed-Typen CSV und Google-Produkt-Feed finden Sie unter [Feeds-Übersicht](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Sie können auch [ein CSV-Modell-Handbuch](/help/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) herunterladen, um den Feed korrekt zu formatieren.
 
 1. (Situationsbedingt) Wenn Sie **[!UICONTROL CSV]** oder **[!UICONTROL Google-Produkt-Feed]** ausgewählt haben, geben Sie an, wo auf den Feed zugegriffen werden kann.
 
@@ -301,7 +300,7 @@ Folgende Statusoptionen stehen für Feeds zur Verfügung:
 | Warten auf Download | Target bereitet das Herunterladen der Feed-Datei vor. |
 | Herunterladen von Feed-Datei | Target lädt die Feed-Datei herunter. |
 | Importieren von Elementen | Target importiert Elemente aus der Feed-Datei. |
-| Feed erfolgreich importiert um *Zeit* | Target hat die Feed-Datei in das Inhaltsbereitstellungssystem importiert. Änderungen an Artikelattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in die bereitgestellten Empfehlungen übernommen. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es in Kürze erneut und aktualisieren Sie die Seite, die die Empfehlungen enthält.<br>Hinweise:<ul><li>Wenn Änderungen an den Attributen eines Artikels dazu führen, dass ein Artikel aus Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort übernommen. Wenn ein Artikel neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Artikel *nicht mehr* aus Empfehlungen ausgeschlossen wird, wird dies erst ab der nächsten Algorithmus-Aktualisierung angezeigt, die innerhalb von 24 Stunden durchgeführt wird.</li><li>Wenn dieser Status angezeigt wird, werden Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche der Katalogsuche angezeigt. In der Katalogsuche wird ein separater Status aufgeführt, der angibt, wann der Katalog zuletzt aktualisiert wurde.</li></ul> |
+| Feed erfolgreich importiert um *Zeit* | Target hat die Feed-Datei in das Inhaltsbereitstellungssystem importiert. Änderungen an Artikelattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in die bereitgestellten Empfehlungen übernommen. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es in Kürze erneut und aktualisieren Sie die Seite, die die Empfehlungen enthält.<br>Hinweise:<ul><li>Wenn Änderungen an den Attributen eines Artikels dazu führen, dass ein Artikel aus Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort übernommen. Wenn ein Artikel neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Artikel *nicht mehr* aus Empfehlungen ausgeschlossen wird, wird dies erst ab der nächsten Algorithmus-Aktualisierung angezeigt, die innerhalb von 24 Stunden durchgeführt wird.</li><li>Wenn dieser Status angezeigt wird, werden die Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche der Katalogsuche angezeigt. In der Katalogsuche wird ein separater Status aufgeführt, der angibt, wann der Katalog zuletzt aktualisiert wurde.</li></ul> |
 | Index konnte nicht verwendet werden | Die Index-Operation ist fehlgeschlagen. Bitte versuchen Sie es erneut. |
 | Server nicht gefunden | FTP- oder URL-Speicherorte sind ungültig oder nicht erreichbar. |
 
@@ -309,7 +308,7 @@ Möchten Sie einen Feed aktualisieren (beispielsweise, um Änderungen an der Fee
 
 >[!IMPORTANT]
 >
->Hochgeladene Entitäten laufen nach 61 Tagen ab. Das bedeutet, dass Ihre Feed-Datei mindestens alle 60 Tage hochgeladen werden sollte, um eine Unterbrechung Ihrer Empfehlungsaktivitäten zu vermeiden. Wenn ein Element mindestens einmal alle 60 Tage nicht in einer Feed-Datei (oder einer anderen Entitäts-Aktualisierungsmethode) enthalten ist, wird [!DNL Adobe Target] angezeigt, dass das Element nicht mehr relevant ist und es aus dem Katalog entfernt.
+>Hochgeladene Entitäten laufen nach 61 Tagen ab. Das bedeutet, dass Ihre Feed-Datei mindestens alle 60 Tage hochgeladen werden sollte, um eine Unterbrechung Ihrer Empfehlungsaktivitäten zu vermeiden. Wenn ein Element nicht mindestens alle 60 Tage in einer Feed-Datei (oder einer anderen Methode zur Aktualisierung der Entität) enthalten ist, zeigt [!DNL Adobe Target] an, dass das Element nicht mehr relevant ist, und entfernt es aus dem Katalog.
 
 ### Feedstatus-Indikatoren {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -342,7 +341,7 @@ Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte aus
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Informationen zu Feeds in Recommendations (3:01)  ![Übersichtskennzeichnung](/help/assets/overview.png)
+### Informationen zu Feeds in Recommendations (3:01)  ![Übersichtszeichen](/help/assets/overview.png)
 
 Dieses Video enthält die folgenden Informationen:
 
@@ -351,7 +350,7 @@ Dieses Video enthält die folgenden Informationen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Einen Feed erstellen (6:44)  ![Tutorialzeichen](/help/assets/tutorial.png)
+### Einen Feed erstellen (6:44) ![Tutorial-Badge](/help/assets/tutorial.png)
 
 Dieses Video enthält die folgenden Informationen:
 
