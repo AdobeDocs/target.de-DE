@@ -1,12 +1,11 @@
 ---
 keywords: at.js-Versionen;at.js-Releases;Einzelseiten-App;spa;domänenübergreifend;Domänen übergreifend
 description: Erfahren Sie, wie Sie von Adobe [!DNL Target] at.js 1.x auf at.js 2.x aktualisieren. Untersuchen Sie Systemflussdiagramme, lernen Sie neue und veraltete Funktionen kennen und vieles mehr.
-title: Wie kann ich von "at.js"-Version 1.x auf Version 2.x aktualisieren?
-feature: 'at.js '
+title: Wie aktualisiere ich von at.js Version 1.x auf Version 2.x?
+feature: 'at.js  '
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
 workflow-type: tm+mt
 source-wordcount: '2765'
 ht-degree: 92%
@@ -46,9 +45,9 @@ Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten un
 
 | Aufruf | Details |
 | --- | --- |
-| 3 | `triggerView()` wird in der Einzelseiten-App aufgerufen, um eine Ansicht wiederzugeben und Aktionen anzuwenden, die visuelle Elemente ändern. |
+| 1 | `triggerView()` wird in der Einzelseiten-App aufgerufen, um eine Ansicht wiederzugeben und Aktionen anzuwenden, die visuelle Elemente ändern. |
 | 2 | Gezielte Inhalte für die Ansicht werden aus dem Cache gelesen. |
-| 3 | Die zielgerichteten Inhalte werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern. |
+| 1 | Die zielgerichteten Inhalte werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern. |
 | 4 | Die Benachrichtigungsanfrage wird an den [!DNL Target]-Profilspeicher gesendet, damit der Besucher in der Aktivität erfasst und die Metrik erhöht wird. |
 | 5 | Analysedaten werden an den Datenerfassungsserver gesendet. |
 | 6 | Target-Daten werden über die SDID mit Analytics-Daten abgeglichen und im Analytics-Berichtspeicher abgelegt. Analysedaten können dann über A4T-Berichte sowohl in Analytics als auch in Target angezeigt werden. |
@@ -249,7 +248,7 @@ Im Grunde wurde das Konzept der globalen Mbox eingeführt, um [!DNL Target] mitz
 
 ### Ist der Name der globalen Mbox in at.js nicht mehr wichtig?
 
-Kunden können einen globalen Mbox-Namen über [!UICONTROL Zielgruppe > Administration > Implementierung > at.js-Einstellungen bearbeiten] angeben. Diese Einstellung wird von den [!DNL Target]-Edge-Servern verwendet, um „Ausführen > Seite laden“ in den globalen Mbox-Namen zu übersetzen, der in der [!DNL Target]-Benutzeroberfläche angezeigt wird. Dadurch können Kunden mit dem globalen Mbox-Namen weiterhin Server-seitige APIs, den Form-Based Composer und Profilskripts verwenden und Zielgruppen erstellen. Es wird dringend empfohlen, dass Sie auch auf der Seite [!UICONTROL Administration > Visual Experience Composer] denselben globalen Mbox-Namen konfigurieren, auch wenn Sie noch Seiten haben, die at.js 1 verwenden.*x* oder mbox.js, benutzen, wie in den folgenden Abbildungen dargestellt.
+Kunden können einen globalen Mbox-Namen über [!UICONTROL Target > Administration > Implementierung > at.js-Einstellungen bearbeiten] angeben. Diese Einstellung wird von den [!DNL Target]-Edge-Servern verwendet, um „Ausführen > Seite laden“ in den globalen Mbox-Namen zu übersetzen, der in der [!DNL Target]-Benutzeroberfläche angezeigt wird. Dadurch können Kunden mit dem globalen Mbox-Namen weiterhin Server-seitige APIs, den Form-Based Composer und Profilskripts verwenden und Zielgruppen erstellen. Wir empfehlen dringend, dass Sie auch sicherstellen, dass derselbe globale Mbox-Name auch auf der Seite [!UICONTROL Administration > Visual Experience Composer] konfiguriert ist, falls Sie noch Seiten mit at.js 1 haben.*x* oder mbox.js, benutzen, wie in den folgenden Abbildungen dargestellt.
 
 ![Dialogfeld „at.js ändern“](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -301,7 +300,7 @@ Diese Einstellung veranlasst at.js 2.*x* beim Laden der Seite eine Anfrage an di
 
 ### Globaler Mbox-Name wird unterstützt
 
-Kunden können einen globalen Mbox-Namen über [!UICONTROL Zielgruppe > Administration > Implementierung > Bearbeiten] angeben. Diese Einstellung wird von den [!DNL Target]-Edge-Servern verwendet, um „Ausführen > Seite laden“ in den eingegebenen globalen Mbox-Namen zu übersetzen. Dadurch können Kunden weiterhin Server-seitige APIs, den formularbasierten Composer und Profilskripts verwenden und Zielgruppen erstellen, die auf die globale Mbox zielen.
+Kunden können einen globalen Mbox-Namen über [!UICONTROL Target > Administration > Implementierung > Bearbeiten] angeben. Diese Einstellung wird von den [!DNL Target]-Edge-Servern verwendet, um „Ausführen > Seite laden“ in den eingegebenen globalen Mbox-Namen zu übersetzen. Dadurch können Kunden weiterhin Server-seitige APIs, den formularbasierten Composer und Profilskripts verwenden und Zielgruppen erstellen, die auf die globale Mbox zielen.
 
 ### Gelten die folgenden benutzerdefinierten at.js-Ereignisse für `triggerView()` oder gilt dies nur für `applyOffer()` oder `applyOffers()`?
 
@@ -312,7 +311,7 @@ Kunden können einen globalen Mbox-Namen über [!UICONTROL Zielgruppe > Administ
 
 Ja, die benutzerdefinierten at.js-Ereignisse gelten auch für `triggerView()`.
 
-### Es bedeutet, dass beim Aufruf von `triggerView()` mit &amp;lbrace;`“page” : “true”`&amp;rbrace eine Benachrichtigung an das [!DNL Target]-Backend gesendet wird und die Impression erhöht wird. Führt dies auch dazu, dass die Profilskripts ausgeführt werden?
+### Wenn ich `triggerView()` mit &amp;lbrace;`“page” : “true”`&amp;rbrace aufrufe, wird eine Benachrichtigung an das [!DNL Target]-Backend gesendet und die Impression erhöht. Führt dies auch dazu, dass die Profilskripts ausgeführt werden?
 
 Wenn ein Prefetch-Aufruf an das [!DNL Target]-Backend erfolgt, werden die Profilskripts ausgeführt. Anschließend werden die betroffenen Profildaten verschlüsselt und an die Client-Seite zurückgegeben. Nachdem `triggerView()` mit `{"page": "true"}` aufgerufen wurde, wird eine Benachrichtigung zusammen mit den verschlüsselten Profildaten gesendet. Dann entschlüsselt das [!DNL Target]-Backend die Profildaten und speichert sie in den Datenbanken.
 
@@ -320,9 +319,9 @@ Wenn ein Prefetch-Aufruf an das [!DNL Target]-Backend erfolgt, werden die Profil
 
 Nein, Sie müssen vor dem Aufrufen von `triggerView()` keinen Pre-hiding-Code hinzufügen. at.js 2.*x*  verwaltet die Pre-Hiding- und Flacker-Logik, bevor die Ansicht angezeigt und angewendet wird.
 
-### Welches at.js 1.*Die* xparameters zum Erstellen von Audiencen werden in at.js 2 nicht unterstützt.*x*? {#audience-parameters}
+### Welches at.js 1.** xparameter zum Erstellen von Zielgruppen werden in at.js 2 nicht unterstützt.*x*? {#audience-parameters}
 
-Die folgenden at.js 1.x-Parameter werden derzeit für die Erstellung von Audiencen unter Verwendung von at.js 2 unterstützt: *NOT*.*x*:
+Die folgenden at.js 1.x-Parameter sind *NOT*, die derzeit für die Erstellung von Zielgruppen bei der Verwendung von at.js 2 unterstützt werden.*x*:
 
 * browserHeight
 * browserWidth
@@ -335,9 +334,9 @@ Die folgenden at.js 1.x-Parameter werden derzeit für die Erstellung von Audienc
 
 ## Kompatibilität von at.js
 
-Die folgenden Tabellen erläutern die at.js. 2. Kompatibilität mit verschiedenen Aktivitäten, Integrationen, Funktionen und at.js-Funktionen.**
+Die folgenden Tabellen erläutern die at.js. 2.*x* Kompatibilität mit verschiedenen Aktivitätstypen, Integrationen, Funktionen und at.js-Funktionen.
 
-### Aktivitätstypen   {#types}
+### Aktivitätstypen {#types}
 
 | Typ | Unterstützt? |
 | --- | --- |
@@ -391,7 +390,7 @@ Die folgenden Tabellen erläutern die at.js. 2. Kompatibilität mit verschiedene
 | `?mboxDisable` | Ja |
 | `?mboxTrace` | Ja |
 | `?mboxSession` | Nein |
-| `?mboxOverride.browserIp` | Nein |
+| `?mboxOverride.browserIp` | Ja |
 
 ## Antwort-Token {#response-tokens}
 
@@ -412,7 +411,7 @@ Ein weiterer wichtiger Unterschied besteht darin, dass:
 * at.js 2.*x*  - Client-Code wird als Abfragezeichenfolgenparameter gesendet, z. B.:
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-Die folgenden Abschnitte listen jeden at.js 1.** xparameter, seine Beschreibung und die entsprechende 2.** xJSON-Nutzlast (falls zutreffend):
+Die folgenden Abschnitte listen jeden at.js 1.** xparameter, seine Beschreibung und die entsprechenden 2.** xJSON-Nutzlast (falls zutreffend):
 
 ### at_property
 
@@ -756,10 +755,10 @@ at.js 2.*x*  JSON-Payload:
 
 Version wird als Abfragezeichenfolgenparameter über den Versionsparameter gesendet.
 
-## Schulungsvideo: at.js 2.*Zeichen* für  ![Übersicht](/help/assets/overview.png)
+## Schulungsvideo: at.js 2.** Zeichen für  ![Überblick in xarchitectural diagramm](/help/assets/overview.png)
 
 at.js 2.*x*  verbessert die Unterstützung von Adobe Target für SPAs und kann mit anderen Experience Cloud-Lösungen integriert werden. In diesem Video wird erklärt, wie alles zusammenkommt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Siehe [Erläuterungen zu at.js 2.** ](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) xworks für weitere Informationen.
+Siehe [So funktioniert at.js 2.** ](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) xworks für weitere Informationen.
