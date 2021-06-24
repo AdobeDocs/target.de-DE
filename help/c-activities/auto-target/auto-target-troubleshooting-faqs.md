@@ -7,7 +7,7 @@ exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Konsultieren Sie bei Problemen mit [!UICONTROL automatischen Targeting]-Aktivit�
 
 * Versuchen Sie, während des Aktivitätsverlaufs wesentliche Änderungen an den Erlebnissen vorzunehmen.
 
-### Empfehlen Sie die Verwendung von [!UICONTROL Automatisches Targeting] mit einer 90(Control)/10(Targeted)-Aufteilung, bis die Modelle erstellt wurden?
+### Wird die Verwendung von [!UICONTROL automatischem Targeting] mit einer Aufteilung von 90 (Kontrolle) zu 10 (Targeting) bis zur Erstellung der Modelle empfohlen?
 
 Wie Ihre optimale Aufteilung der Traffic-Zuordnung aussieht, hängt davon ab, was Sie erreichen möchten.
 
@@ -69,7 +69,7 @@ Wenn in den Ergebnissen eines A/B-Tests eine signifikante Steigerung von mindest
 
 Wenn Sie wesentliche Änderungen an den Inhalten in Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] vornehmen möchten, empfiehlt es sich, eine neue Aktivität zu beginnen, damit andere Benutzer, die Berichte überprüfen, vergangene Ergebnisse nicht mit anderen Inhalten verwechseln oder in Beziehung setzen.
 
-### Wie lange sollte ich warten, bis Modelle erstellt werden?    {#how-long}
+### Wie lange sollte ich warten, bis Modelle erstellt werden? {#how-long}
 
 Wie lange es dauert, bis in Ihrer [!UICONTROL automatischen Targeting]-Aktivität Modelle erstellt werden, hängt in der Regel vom Traffic auf den jeweiligen Sites und der Konversionsrate der in der Aktivität festgelegten Erfolgsmetrik ab.
 
