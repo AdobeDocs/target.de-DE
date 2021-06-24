@@ -4,9 +4,9 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Versionshinweise
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '4438'
+source-wordcount: '4390'
 ht-degree: 99%
 
 ---
@@ -100,7 +100,7 @@ In einer MVT-Aktivität ist der in der Tabelle und im Diagramm angezeigte Gewinn
 Bekannte Probleme mit at.js:
 
 * Bei Verwendung einer at.js-Version vor 2.2.0 werden beim Klick-Tracking keine Konversionen in Analytics for Target (A4T) gemeldet, wenn der Adobe Analytics-Code nicht in Seitenelementen (z. B. Schaltflächen) vorhanden ist. Für dieses Problem wurde in at.js 2.2.0 eine Korrektur implementiert. Wenn dieses Problem auftritt, [führen Sie ein Upgrade auf die neueste at.js-Version durch](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-* Wenn Sie ein Erlebnis ohne Änderungen mit at.js 2.1.1 oder einer früheren Version erstellen (z. B. ein Standarderlebnis), wird das Erlebnis möglicherweise nicht in Berichten, Analytics for Target (A4T), Adobe Analytics oder Google Analytics gezählt. Darüber hinaus funktioniert das [ttMeta-Plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) möglicherweise nicht ordnungsgemäß.
+* Wenn Sie ein Erlebnis ohne Änderungen mit at.js 2.1.1 oder einer früheren Version erstellen (z. B. ein Standarderlebnis), wird das Erlebnis möglicherweise nicht in Berichten, Analytics for Target (A4T), Adobe Analytics oder Google Analytics gezählt. Darüber hinaus funktioniert das ttMeta-Plug-in möglicherweise nicht ordnungsgemäß.
 
    Verwenden Sie als Problemumgehung im Erlebnisinhalt einen Leerraum. (TNT-33366)
 
@@ -229,12 +229,6 @@ Weitere Informationen sowie eine Lösung zur Fehlerbehebung finden Sie unter [Be
 Ein Diagrammbericht für eine automatische Targeting-Aktivität kann für „Differenz“-Modi (durchschnittliche Steigerung und tägliche Steigerung) nicht gerendert werden, wenn in keinem Ereignis Daten vorhanden sind (0 Besuche). Diese Situation kann während der frühen Phase einer Aktivität auftreten, wenn das Kontrollerlebnis als benutzerdefiniert festgelegt ist. Für die anderen Modi (gleitendes Mittel für Kontrolle und Zielgruppe, tägliche Kontrolle und Zielgruppe sowie Besuche) funktioniert dies problemlos. Sobald einige Daten vorhanden sind (Besuche sind nicht gleich null), wird der Bericht erwartungsgemäß gerendert.
 
 Dieses Problem wurde in Target-Version 19.7.1 behoben.
-
-### mbox.js
-
-Die mbox.js-Bibliothek unterstützt keine Client-seitigen Vorlagensprachen wie Handlebars und Mustache. Diese Sprachen *werden* von der Bibliothek at.js unterstützt.
-
-**Hinweis**: Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Implementierung: Globale Mbox automatisch erstellen
 
