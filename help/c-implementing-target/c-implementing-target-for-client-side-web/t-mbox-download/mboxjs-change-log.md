@@ -1,15 +1,14 @@
 ---
 keywords: mbox.js-Änderungen;mbox.js-Versionen
-description: Erfahren Sie mehr über die ältere Implementierung von "mbox.js"in Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
+description: Erfahren Sie mehr über die alte mbox.js-Implementierung von Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
 title: Was ist in jeder Version von mbox.js enthalten?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2410'
-ht-degree: 81%
+source-wordcount: '2377'
+ht-degree: 84%
 
 ---
 
@@ -19,36 +18,36 @@ Auf dieser Seite sind die Änderungen bei jeder Version von mbox.js aufgeführt.
 
 >[!IMPORTANT]
 >
->**mbox.js Ende der Lebensdauer**: Ab dem 31. März 2021 wird die Bibliothek &quot;mbox.js&quot; [!DNL Adobe Target] nicht mehr unterstützt. Nach dem 31. März 2021 schlagen alle Aufrufe von &quot;mbox.js&quot;korrekt fehl und wirken sich auf Ihre Seiten aus, deren [!DNL Target]-Aktivitäten ausgeführt werden, indem Standardinhalte bereitgestellt werden.
+>**Beendigung von mbox.js**: Ab dem 31. März 2021 unterstützt [!DNL Adobe Target] die Bibliothek „mbox.js“ nicht mehr. Seit dem 31. März 2021 schlagen alle Aufrufe aus mbox.js kontrolliert fehl. Dies wirkt sich auf Seiten mit [!DNL Target]-Aktivitäten aus, die Standardinhalte bereitstellen.
 >
->Migrieren Sie vor diesem Datum zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek, um potenzielle Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Zielgruppe für clientseitige Web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md) implementieren.
+>Migrieren Sie vor diesem Datum zur aktuellen Version des neuen [!DNL Adobe Experience Platform Web SDK] oder zur JavaScript-Bibliothek at.js, um mögliche Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Target für clientseitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 >[!NOTE]
 >
->Adobe empfiehlt, dass alle Benutzer von mbox.js auf Version 57 oder höher aktualisieren. Einige Benutzer berichteten von Zeitüberschreitungen, wenn `target.js` nicht geladen werden konnte. In Version 57 wurde dieses Problem behoben. Verwenden Sie jedoch den [!DNL Experience Cloud Visitor ID]-Dienst, benötigen Sie mindestens Version 58.
+>Adobe empfiehlt allen Benutzern von mbox.js ein Upgrade auf Version 57 oder höher. Einige Benutzer berichteten von Zeitüberschreitungen, wenn `target.js` nicht geladen werden konnte. In Version 57 wurde dieses Problem behoben. Verwenden Sie jedoch den [!DNL Experience Cloud Visitor ID]-Dienst, benötigen Sie mindestens Version 58.
 
 Die Art, mit der Target auf Aufrufe Ihrer Seite antwortet, hängt von der Version der verwendeten Target-Bibliothek ab und davon, ob die Implementierung der Besucher-ID vorhanden ist und ob die Besucher-ID existiert. Weitere Informationen finden Sie unter  [Antworten auf Target-Aufrufe nach Bibliotheksversion](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
->Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen. Weitere Informationen finden Sie unter [Migration von „mbox.js“ zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen.
 
-## „mbox.js“, Version 63{#section_ED8EFCF653A845ED8927F759578C4A33}
+## „mbox.js“, Version 63  {#section_ED8EFCF653A845ED8927F759578C4A33}
 
 **Target-Version:** 17.7.1
 
-[!DNL mbox.js], Version 63 ist verfügbar. Weitere Informationen finden Sie unter [mbox.js herunterladen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md).
+[!DNL mbox.js], Version 63 ist verfügbar. 
 
 Folgende Verbesserungen und Fehlerbehebungen sind in Version 63 von [!DNL mbox.js] enthalten:
 
-* Behebung eines Problems bezüglich der SDID-Generierung bei der Verwendung von `mboxDefine()` und `mboxUpdate()`. Dieses Problem betrifft nur Clients mit Besucher-API auf der Seite.
+* Behebung eines Problems bezüglich der SDID-Generierung bei der Verwendung von `mboxDefine()` und `mboxUpdate()`. Dieses Problem betrifft nur Kunden, die auf der Seite über eine Besucher-API verfügen.
 
-## „mbox.js“, Version 62 {#section_723A9119FE204183847D3B0929A99B41}
+## „mbox.js“, Version 62  {#section_723A9119FE204183847D3B0929A99B41}
 
 * Behobene Probleme mit Flackern in umgeleiteten Aktivitäten, wenn diese in Google Chrome aufgerufen wurden.
-* Funktion `secureOnly` hinzugefügt, die anzeigt, ob mbox.js nur HTTPS verwenden soll oder ob es möglich ist, dass basierend auf dem Seitenprotokoll zwischen HTTP und HTTPS umgeschaltet wird. Bei dieser Einstellung handelt es sich um eine erweiterte Einstellung mit der Standardeinstellung &quot;False&quot;.
+* Funktion `secureOnly` hinzugefügt, die anzeigt, ob mbox.js nur HTTPS verwenden soll oder ob es möglich ist, dass basierend auf dem Seitenprotokoll zwischen HTTP und HTTPS umgeschaltet wird. Diese Einstellung ist eine erweiterte Einstellung, die standardmäßig auf &quot;False&quot;festgelegt ist.
 
-## „mbox.js“, Version 61 {#section_F3B59C5578B64883AE013B9342151193}
+## „mbox.js“, Version 61  {#section_F3B59C5578B64883AE013B9342151193}
 
 **Target-Version:** 16.7.2
 
@@ -65,13 +64,13 @@ Folgende Verbesserungen und Fehlerbehebungen sind in Version 63 von [!DNL mbox.
    * Sind keine Besucher-ID-Cookies von Experience Cloud vorhanden, werden beim erstmaligen Laden der Seite Abfragen asynchron gegen [!DNL /ajax] ausgeführt. Beim zweiten Laden der Seite setzt Target den normalen Fluss ein, da die Besucher-ID-Werte bereits vorhanden sind.
    * Sollten Sie Adobe Analytics als Berichtsquelle für Ihre Aktivität verwenden, müssen Sie bei der Erstellung einer Aktivität und bei der Verwendung von mbox.js Version 61 (oder neuer) oder at.js Version 0.9.1 (oder neuer) keinen Trackingserver angeben. Die Bibliothek von mbox.js oder at.js sendet automatisch Trackingserverwerte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
 
-## „mbox.js“, Version 60   {#section_3BDAB885FA13444A8D35940A4BFF5825}
+## „mbox.js“, Version 60  {#section_3BDAB885FA13444A8D35940A4BFF5825}
 
 **Target-Version:** 16.4.1
 
 **Veröffentlichungsdatum:** 21. April 2016
 
-Standardmäßig werden Seiteninhalte nicht ausgeblendet. Bei Version 60 werden Seiteninhalte nur ausgeblendet, wenn die Option „Globale Mbox automatisch erstellen“ aktiviert ist. Für das Ausblenden von Seiten wird die CSS-Eigenschaft `opacity:0` verwendet statt `display:none`. Diese Eigenschaft stellt einen ordnungsgemäßen Versand für responsive Sites sicher und richtet sich an [!DNL at.js].
+Standardmäßig werden Seiteninhalte nicht ausgeblendet. Bei Version 60 werden Seiteninhalte nur ausgeblendet, wenn die Option „Globale Mbox automatisch erstellen“ aktiviert ist. Für das Ausblenden von Seiten wird die CSS-Eigenschaft `opacity:0` verwendet statt `display:none`. Diese Eigenschaft stellt eine ordnungsgemäße Bereitstellung responsiver Sites sicher und passt sich an [!DNL at.js] an.
 
 Der Textkörper kann mithilfe zweier Einstellungen ausgeblendet werden:
 
@@ -93,20 +92,20 @@ window.targetGlobalSettings = {
 </script>
 ```
 
-In der Ausblendetechnik werden Stil-Tags verwendet, mit deren Hilfe Stile hinzugefügt und entfernt werden. Diese Methode stellt sicher, dass die Stile der Site unverändert bleiben, nachdem der Code zum Ausblenden der Seite ausgeführt wurde.
+In der Ausblendetechnik werden Stil-Tags verwendet, mit deren Hilfe Stile hinzugefügt und entfernt werden. Diese Technik stellt sicher, dass die Stile der Site nach Ausführung des Ausblendecodes der Seite unverändert bleiben.
 
-**DTM-Benutzer:** Diese Methode verhindert, dass Sie die Option &quot;Automatischer Import&quot;verwenden, da die oben genannte Konfiguration in der Benutzeroberfläche der Zielgruppe nicht gespeichert werden kann. Sie müssen die oben stehenden Anweisungen verwenden und dann den Inhalt in das Codefeld der Option &quot;Benutzerdefiniertes Hosting&quot;einfügen.
+**DTM-Benutzer:** Diese Technik verhindert die Verwendung der Option Automatischer Import , da die oben beschriebene Konfiguration nicht in der Target-Benutzeroberfläche gespeichert werden kann. Sie müssen die oben stehenden Anweisungen verwenden und dann den Inhalt in das Codefenster der benutzerdefinierten Hosting-Option einfügen.
 
-Außerdem werden in Version 60 alle Mboxes über einen AJAX-Endpunkt aufgerufen, wenn die Datei [!DNL visitorAPI.js] für den Experience Cloud-Besucher-ID-Service vorhanden ist. Dieser Vorgang ist erforderlich, da die Besucher-API-Methoden asynchron sind. Ein Vorteil dieses Ansatzes liegt in der drastisch verkürzten Start-Render-Zeit, da Mbox-Anforderungen das Rendering nicht blockieren. Dieser Ansatz bedeutet jedoch auch, dass alle [!DNL Target]-Angebot-Inhalte asynchron ausgeführt werden, sodass der gesamte Angebot-Code entsprechend geschrieben werden muss. Angebot, die `document.write` und anderen Code enthalten, der davon ausgeht, dass er beim Laden der ersten Seite ausgeführt wird, werden nicht wie erwartet ausgeführt.
+Außerdem werden in Version 60 alle Mboxes über einen AJAX-Endpunkt aufgerufen, wenn die Datei [!DNL visitorAPI.js] für den Experience Cloud-Besucher-ID-Service vorhanden ist. Dieser Prozess ist erforderlich, da Besucher-API-Methoden asynchron sind. Ein Vorteil dieses Ansatzes liegt in der drastisch verkürzten Start-Render-Zeit, da Mbox-Anforderungen das Rendering nicht blockieren. Dieser Ansatz bedeutet jedoch auch, dass alle Angebotsinhalte von [!DNL Target] asynchron ausgeführt werden, sodass jeglicher Angebotscode entsprechend geschrieben werden muss. Angebote, die `document.write` enthalten, und anderer Code, der davon ausgeht, dass er beim ersten Laden der Seite ausgeführt wird, werden nicht erwartungsgemäß ausgeführt.
 
 * Ansynchrone Aufrufe in V60
 
-   Bei der Verwendung von V60 mit dem Besucher-ID-Service werden alle Mbox-Aufrufe asynchron durchgeführt. Diese Arbeitsweise bei der Verwendung von Mboxes ist neu, gehen Sie bei der Aktualisierung auf diese Version also vorsichtig vor. Lesen Sie sich die [Hinweise zu asynchronen Aufrufen](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) in der Dokumentation von [!DNL at.js] durch ([!DNL at.js] arbeitet ebenfalls mit asynchronen Aufrufen), um einige der Risiken kennenzulernen.
+   Bei der Verwendung von V60 mit dem Besucher-ID-Service werden alle Mbox-Aufrufe asynchron durchgeführt. Diese Arbeitsweise bei der Verwendung von Mboxes ist neu, gehen Sie bei der Aktualisierung auf diese Version also vorsichtig vor.
 * Mögliches Flackern neuer Besucherszenarien
 
-   Wenn Sie mit dem Besucher-ID-Dienst v58 bis v60 verwenden, warten mbox-Aufrufe, bis die Besucher-ID festgelegt wurde (oder bis ein Timeout aufgetreten ist). Dies geschieht beim erstmaligen Laden einer Seite durch einen neuen Besucher.
+   Bei der Verwendung der Versionen 58 bis 60 mit dem Besucher-ID-Dienst warten Mbox-Aufrufe darauf, dass die Besucher-ID festgelegt wird, bevor sie ausgelöst wird (oder bis ein Timeout aufgetreten ist). Dies geschieht beim erstmaligen Laden einer Seite durch einen neuen Besucher.
 
-## „mbox.js“, Version 59   {#section_FF0E70C4C17E402D8374DE428C5D996E}
+## „mbox.js“, Version 59  {#section_FF0E70C4C17E402D8374DE428C5D996E}
 
 **Target-Version:** 16.2.1
 
@@ -119,7 +118,7 @@ Außerdem werden in Version 60 alle Mboxes über einen AJAX-Endpunkt aufgerufen
 
    Statt `display:none`, wie in Version 58, wird zum Ausblenden der Seite `opacity:0` verwendet. Diese Änderung verhindert Fehler, die bei der vorherigen Methode zum Ausblenden von Seiten bei Websites im Responsive-Design auftraten.
 
-## „mbox.js“, Version 58   {#section_5070B0D1C87F4937BB97727923DD36C7}
+## „mbox.js“, Version 58  {#section_5070B0D1C87F4937BB97727923DD36C7}
 
 **Target-Version:** 15.7.1
 
@@ -131,7 +130,7 @@ Version 58 von mbox.js stellt sicher, dass der Experience Cloud-Besucher-ID-Serv
 
 Diese Aktualisierung behebt auch einen Fehler, der beim Verwenden von Analytics als Berichtsquelle für Target auftrat und dazu führte, dass eine zu hohe Anzahl an Besuchern in Analytics-Berichten für Besuche erfasst wurden, die nur eine Seite umfassten.
 
-mbox.js legt Werte für die Zeitüberschreitung fest, falls der Besucher-ID-Service nichts zurückgibt. Die Standardzeitüberschreitung für den Besucher-ID-Service beträgt 500 ms (0,5 Sekunden). Bei einem zusätzlichen Timeout wird die Obergrenze für die ausgeblendete Dauer des `<BODY>`-Tags festgelegt. Der Standardwert beträgt 500 ms (0,5 Sekunden). Diese Zeitüberschreitungen können durch Einfügen des folgenden Codes vor der mbox.js-Referenz auf jeder Seite geändert werden:
+mbox.js legt Werte für die Zeitüberschreitung fest, falls der Besucher-ID-Service nichts zurückgibt. Die Standardzeitüberschreitung für den Besucher-ID-Service beträgt 500 ms (0,5 Sekunden). Ein zusätzlicher Timeout legt die Obergrenze dafür fest, wie lange das Tag `<BODY>` ausgeblendet wird. Der Standardwert beträgt 500 ms (0,5 Sekunden). Diese Zeitüberschreitungen können durch Einfügen des folgenden Codes vor der mbox.js-Referenz auf jeder Seite geändert werden:
 
 ```
 <script> 
@@ -144,7 +143,7 @@ window.targetGlobalSettings = {
 
 „mbox.js“, Version 58 oder neuer führt Nicht-JavaScript-Inhalte der globalen Mbox unmittelbar nach dem HTML-Tag `BODY` aus. JavaScript-Inhalte innerhalb des Tags `<script>` der globalen Mbox werden nach Auslösen von `DOMContentLoaded` ausgeführt. Diese Reihenfolge der Inhaltsbereitstellung gewährleistet, dass JavaScript-Inhalte der globalen Mbox ordnungsgemäß bereit- und dargestellt werden.
 
-## „mbox.js“, Version 57 {#section_6BA1CDBF75B14A94B59E8624ACF583D4}
+## „mbox.js“, Version 57  {#section_6BA1CDBF75B14A94B59E8624ACF583D4}
 
 **Target-Version:** 15.4.1
 
@@ -154,9 +153,9 @@ Folgende Änderungen wurden in dieser Version vorgenommen:
 
 * Die automatisch erstellte Antwort der globalen Mbox für Target Standard verwendet document.write() nicht mehr oder erstellt ein `<div>` Element.
 
-   Durch diese Änderung wird die Anforderung entfernt, dass die Datei &quot;mbox.js&quot;das letzte Element in `<head>` der Seite sein muss. Eine starke QS wird für die Aufrüstung auf diese neue Version empfohlen.
+   Durch diese Änderung wird die Anforderung entfernt, dass die mbox.js-Datei das letzte Element im `<head>` der Seite sein muss. Eine starke QS wird für die Aufrüstung auf diese neue Version empfohlen.
 
-   Diese Änderung kann Änderungen am Verhalten bei der Bereitstellung einiger Angebotstypen verursachen. Hier sind die besonderen Bedingungen, die zu berücksichtigen sind:
+   Diese Änderung kann Änderungen am Verhalten bei der Bereitstellung einiger Angebotstypen verursachen. Im Folgenden finden Sie die spezifischen Bedingungen, die berücksichtigt werden müssen:
 
    * HTML-Inhalte, die als Teil eines „Plug-in-Angebots“ zurückgegeben wurden, werden nicht korrekt gerendert, doch JavaScript in den Angeboten wird erwartungsgemäß ausgeführt.
    * Für JavaScript-Angebote, die an die globale Mbox zurückgegeben werden, kann der JavaScript-Code in das Tag `<script>` eingebettet oder durch ein `src`-Attribut referenziert werden.
@@ -165,7 +164,7 @@ Folgende Änderungen wurden in dieser Version vorgenommen:
 
       `<script src='external-url' async='true'></script>`
 
-      Das `async`-Attribut hat in Internet Explorer nur begrenzte Unterstützung (Details: [https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)), sodass Sie Besucher, die ältere IE-Versionen verwenden, von Tests ausschließen sollten, die diese Drittanbieterskripte enthalten.
+      Das Attribut `async` wird in Internet Explorer nur eingeschränkt unterstützt (Details finden Sie hier: [https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)), sodass Sie Besucher, die ältere IE-Versionen verwenden, von Tests ausschließen sollten, die diese Drittanbieterskripte enthalten.
 
 * Es wurden Probleme behoben, die in Version 56 gemeldet wurden, und zwar aufgrund der Änderungen im Extra JavaScript-Abschnitt von mbox.js. Der gesamte Code im Extra JavaScript-Abschnitt ist im globalen Gültigkeitsbereich erneut verfügbar.
 
@@ -184,7 +183,7 @@ mbox.js, Version 57 umfasst auch wichtige Fehlerbehebungen:
 * Es wurde ein Problem behoben, das aufgrund von Änderungen des Gültigkeitsbereichs zu Extra JavaScript-Fehlern führte.
 * Machen Sie die Änderungen am Konstruktor von mboxFactory rückgängig.
 
-## „mbox.js“, Version 56 {#section_C4F4A53584B741FF9FD907D81CB7E164}
+## „mbox.js“, Version 56  {#section_C4F4A53584B741FF9FD907D81CB7E164}
 
 **Target-Version:** 15.1.2
 
@@ -197,7 +196,7 @@ mbox.js, Version 57 umfasst auch wichtige Fehlerbehebungen:
 Folgende Änderungen wurden in dieser Version vorgenommen:
 
 * Änderungen bei Recommendations Premium zur Unterstützung der Übermittlung von Parametern an globale mbox
-* Fügt einen 5-Sekunden-Timeout zum Ladeaufruf von Zielgruppe.js hinzu. Wenn die Datei nicht geladen wird, wird die Seite gerendert und es werden keine Target Standard-Aktivitäten angezeigt.
+* Fügt dem target.js-Ladeaufruf eine 5-Sekunden-Zeitüberschreitung hinzu. In dem seltenen Fall, dass die Datei nicht geladen wird, wird die Seite gerendert und es werden keine Target Standard-Aktivitäten angezeigt.
 * „Extra JavaScript“ wurde zur Ausführung vor der globalen Mbox verschoben.
 
    Alle Einstellungen in v56+ werden mit einem Namensraum versehen. Wenn Funktionen durch „extra JavaScript“ deklariert werden, müssen diese mit dem Präfix `window` versehen werden.
@@ -232,7 +231,7 @@ Version 53 wird durch IE-Korrekturen ergänzt.
 
 **Releasedatum:** 30. September 2014
 
-Ändert die globale Mbox-Implementierung von „document.write“ auf „AJAX“. Durch diese Änderung wird die Anforderung entfernt, dass die Datei &quot;mbox.js&quot;das letzte Element im Abschnitt `<head>` der Seite sein muss. Diese Version steht nur via API zur Verfügung. Klienten können die Version herunterladen und diese mbox.js-Datei verwenden. Bei einigen Sites treten im Zusammenhang mit dieser Implementierung flackernde Inhalte auf. Daher sollten Sie die Integration in Ihre Site überprüfen.
+Ändert die globale Mbox-Implementierung von „document.write“ auf „AJAX“. Durch diese Änderung wird die Anforderung entfernt, dass die mbox.js-Datei das letzte Element im Abschnitt `<head>` der Seite sein muss. Diese Version steht nur via API zur Verfügung. Klienten können die Version herunterladen und diese mbox.js-Datei verwenden. Bei einigen Sites treten im Zusammenhang mit dieser Implementierung flackernde Inhalte auf. Daher sollten Sie die Integration in Ihre Site überprüfen.
 
 ## Mbox, Version 53
 
@@ -316,7 +315,7 @@ Ersten Support für den Experience Cloud-Besucher-ID-Service hinzugefügt.
 
 * Problem mit der Traffic-Begrenzung behoben, die nur noch auftritt, wenn mbox.js aktiviert ist
 
-   Dieses Problem ist bei Traffic-Beschränkungen für die mbox.js von Kunden aufgetreten, die dazu geführt haben, dass die Timeout-Einstellung nicht funktioniert. Dadurch wurde die Seite aktualisiert, während auf eine gute Antwort von den Zielgruppen-Servern gewartet wurde.
+   Dieses Problem ist bei Traffic-Beschränkungen für die mbox.js von Kunden aufgetreten, die dazu geführt haben, dass die Timeout-Einstellung nicht funktioniert. Dies führte dazu, dass die Seite aktualisiert wurde, während auf eine gute Antwort von den Target-Servern gewartet wurde.
 
 * Problem mit SiteCatalyst-Plug-in behoben, damit es immer den Ajax Fetcher benutzt
 
