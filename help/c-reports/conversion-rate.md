@@ -1,14 +1,13 @@
 ---
 keywords: Targeting
-description: Erfahren Sie, wie Adobe [!DNL Target] das Konversionsrat-, Steigerungs-, Konfidenzintervall (statistische Bedeutung) und das Konfidenzintervall für jedes Erlebnis anzeigt und berechnet.
-title: Wie kann ich das Konversionsrat-, Lift- und Konfidenzniveau Ansicht?
+description: Erfahren Sie, wie Adobe [!DNL Target] Konversionsrate, Steigerung, Konfidenz (statistische Bedeutung) und Konfidenzintervall für jedes Erlebnis anzeigt und berechnet.
+title: Wie kann ich die Konversionsrate, Steigerung und Konfidenzniveau anzeigen?
 feature: Berichte
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -46,7 +45,7 @@ Steigerung = (Erlebnis-CR - Kontroll-CR) / Kontroll-CR
 
 Wenn die Kontrollinstanz 0 ist, gibt es keine prozentuale Steigerung.
 
-## Konfidenz (statistische Bedeutung)   {#section_35DB6724813D40C7B0808DE18FE595C1}
+## Konfidenz (statistische Bedeutung)  {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 Diese Zahl zeigt die Wahrscheinlichkeit, dass sich die Ergebnisse bei einem erneut durchgeführten Test verdoppeln würden. Das Vertrauen wird auf 100 % aufgerundet, wenn es größer oder gleich 99,995 % ist.
 
@@ -54,7 +53,7 @@ Siehe [Konfidenzniveau und Konfidenzintervall](/help/c-reports/conversion-rate.m
 
 ## Verkaufsdaten {#section_30A674731BA6440E9BB93C421BE990EE}
 
-AOV-, RPV- und Absatzdaten werden für jedes Erlebnis dargestellt, wenn Sie eine Mbox des Typs [Bestellung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) (`orderConfirmPage`) eingefügt und sie als Konversions-Mbox festgelegt haben.
+AOV-, RPV- und Verkaufsdaten werden für jedes Erlebnis angezeigt, wenn Sie eine Place Order-Mbox (`orderConfirmPage`) eingefügt und sie als Konversions-Mbox ausgewählt haben.
 
 ## Konfidenzniveau und Konfidenzintervall {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -102,21 +101,21 @@ Das *Konfidenzintervall* ist ein Bereich, in dem der wahre Wert auf einer bestim
 * **Probengröße:** Wenn die Probengröße steigt, wird das Intervall kleiner. Das wird bevorzugt, da es bedeutet, dass Ihre Berichte näher an den wahren Wert der Erfolgsmetrik herankommen.
 * **Standardabweichung geringer:** Weitere ähnliche Ergebnisse, z. B. ähnliche AOVs oder ähnliche Besucher-Konversionszahlen pro Tag, führen zu einer Reduzierung der Standardabweichung.
 
-## Berechnung der Konfidenz und Anleitung zur Offline-Berechnung   {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## Berechnung der Konfidenz und Anleitung zur Offline-Berechnung  {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 Der [heruntergeladene CSV-Bericht](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
 
-Um diese berechneten Metriken zu berechnen, laden Sie die Excel-Zielgruppe [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) herunter, um den Wert der Aktivität einzugeben, oder überprüfen Sie die [statistischen Berechnungen, die von Zielgruppe](/help/assets/statistical-calculations.pdf) verwendet werden.
+Laden Sie zur Berechnung dieser berechneten Metriken die Excel-Datei [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) von Target herunter, um den Aktivitätswert einzugeben, oder überprüfen Sie die von Target](/help/assets/statistical-calculations.pdf) verwendeten statistischen Berechnungen.[
 
 >[!NOTE]
 >
 >Dieser Rechner dient für Target-basierte Berichte und nicht für A4T-Berichte.
 
-## Offline-Berechnungen für Analytics für Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Durchführen von Offlineberechnungen für Analytics für Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 Sie können Offlineberechnungen für A4T durchführen. Dazu ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics] erforderlich.
 
-Für A4T wird eine Student-T-Testberechnung für kontinuierliche Variablen verwendet (anstelle einer Binärmetrik). In Analytics werden Besucher immer verfolgt und jede durchgeführte Aktion wird gezählt. Wenn ein Besucher mehrfach einkauft oder eine Erfolgsmetrik mehrfach besucht, werden diese zusätzlichen Treffer also gezählt. Daher ist die Metrik eine kontinuierliche Variable. Zur Durchführung der Student t-Test Berechnung ist die &quot;Summe der Quadrate&quot; erforderlich, um die Varianz zu berechnen, die im Nenner der t-Statistik verwendet wird. [In diesem Dokument werden die ](/help/assets/statistical-calculations.pdf) Einzelheiten der verwendeten mathematischen Formeln erläutert. Die Summe der Quadrate kann von [!DNL Analytics] abgerufen werden. Zum Abrufen der Summe aus Quadratdaten müssen Sie für einen Testzeitraum einen Export auf Besucherebene für die zu optimierende Metrik durchführen.
+Für A4T wird eine Student-T-Testberechnung für kontinuierliche Variablen verwendet (anstelle einer Binärmetrik). In Analytics werden Besucher immer verfolgt und jede durchgeführte Aktion wird gezählt. Wenn ein Besucher mehrfach einkauft oder eine Erfolgsmetrik mehrfach besucht, werden diese zusätzlichen Treffer also gezählt. Daher ist die Metrik eine kontinuierliche Variable. Zur Durchführung der Student-t-Test-Berechnung ist die &quot;Quadratsumme&quot;erforderlich, um die Varianz zu berechnen, die im Nenner der t-Statistik verwendet wird. [In diesem Dokument werden die ](/help/assets/statistical-calculations.pdf) Details der verwendeten mathematischen Formeln erläutert. Die Quadratsumme kann von [!DNL Analytics] abgerufen werden. Zum Abrufen der Summe aus Quadratdaten müssen Sie für einen Testzeitraum einen Export auf Besucherebene für die zu optimierende Metrik durchführen.
 
 Wenn Sie beispielsweise eine Optimierung für Seitenansichten pro Besucher durchführen, würden Sie ein Beispiel für die Gesamtzahl Seitenansichten auf Benutzerbasis für einen angegebenen Zeitraum exportieren, möglicherweise für ein paar Tage (dazu benötigen Sie lediglich ein paar tausend Datenpunkte). Anschließend quadrieren Sie die einzelnen Werte und bilden die Summe der Gesamtwerte (die Reihenfolge der Vorgänge muss hier unbedingt beachtet werden). Dieser „Quadratsummen“-Wert wird anschließend im Complete Confidence Calculator verwendet. Verwenden Sie für diese Werte den Bereich „Umsatz“ dieses Arbeitsblatts.
 
@@ -186,26 +185,26 @@ Berichte können nach folgenden Zählmethodiken angezeigt werden:
 >
 >In der Regel werden Zählungen durch Cookies und Sitzungsaktivitäten bestimmt. Wenn Sie jedoch den End-Konversionspunkt einer Aktivität erreichen und die Aktivität dann erneut aufrufen, werden Sie als neuer Teilnehmer und neuer Aktivitätsbesuch gezählt. Dies trifft auch dann zu, wenn sich die Werte Ihrer PCID und der `sessionID` nicht geändert haben.
 
-## Warum wird die Verwendung von Student-T-Tests empfohlen? {#t-test}[!DNL Target]
+## Warum empfiehlt [!DNL Target] die Verwendung von Student-T-Tests? {#t-test}
 
-A/B-Tests sind Experimente zum Vergleich des Mittelwerts einer bestimmten Geschäftsmetrik in einer Kontrollvariante (auch als Erlebnis bezeichnet) mit dem Mittelwert derselben Metrik in einem oder mehreren alternativen Erlebnissen.
+A/B-Tests sind Experimente, um den Mittelwert einiger Geschäftsmetriken in einer Kontrollvariante (auch als Erlebnis bezeichnet) mit dem Mittelwert derselben Metrik in einem oder mehreren alternativen Erlebnissen zu vergleichen.
 
-[!DNL Target] empfiehlt die Verwendung von zwei T-Tests [ der ](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)Studierenden, da diese weniger Annahmen als Alternativen wie z-Tests erfordern und der geeignete statistische Test für paarweisen Vergleich von (quantitativen) Geschäftsmetriken zwischen Kontrollerlebnissen und alternativen Erlebnissen sind.
+[!DNL Target] empfiehlt die Verwendung von zwei T-Tests für  [Studierende](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.), da diese weniger Annahmen als Alternativen wie z-Tests erfordern und der geeignete statistische Test für paarweisen Vergleich von (quantitativen) Geschäftsmetriken zwischen Kontrollerlebnissen und alternativen Erlebnissen sind.
 
-### Weitere Einzelheiten
+### Im Detail
 
-Beim Ausführen von Online-A/B-Tests wird jedem Benutzer/Besucher zufällig eine Variante zugewiesen. Anschließend messen wir die Geschäftsmetrik(en) von Interesse (z.B. Konversionen, Bestellungen, Umsatz usw.) für Besucher in jeder Variante. Der von uns verwendete statistische Test testet dann die Hypothese, dass die mittlere Geschäftsmetrik (z. B. Konversionsrat, Bestellungen pro Benutzer, Umsatz pro Benutzer usw.) ist gleich für die Kontrolle und eine bestimmte alternative Variante.
+Bei der Durchführung von Online-A/B-Tests wird jeder Benutzer/Besucher zufällig einer einzelnen Variante zugewiesen. Anschließend nehmen wir Messungen der Geschäftsmetriken vor, die von Interesse sind (z. B. Konversionen, Bestellungen, Umsatz usw.) für Besucher in den einzelnen Varianten. Der verwendete statistische Test testet dann die Hypothese, dass die mittlere Geschäftsmetrik (z. B. Konversionsrate, Bestellungen pro Benutzer, Umsatz pro Benutzer usw.) entspricht der Kontrollgruppe und einer bestimmten alternativen Variante.
 
-Obwohl die Geschäftsmetrik selbst nach einer beliebigen Verteilung verteilt werden kann, sollte die Verteilung des Mittelwerts dieser Metrik (innerhalb jeder Variante) über das [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem) in eine normale Verteilung konvertiert werden. Beachten Sie, dass es zwar keine Gewähr dafür gibt, wie schnell sich diese Stichprobenverteilung des Mittelwerts auf den Normalwert annähert, diese Bedingung jedoch in Anbetracht der Größenordnung der Besucher bei Online-Tests in der Regel erfüllt wird.
+Obwohl die Geschäftsmetrik selbst möglicherweise entsprechend einer beliebigen Verteilung verteilt wird, sollte die Verteilung des Mittelwerts dieser Metrik (innerhalb jeder Variante) über das [Zentrales Grenzwertsystem](https://en.wikipedia.org/wiki/Central_limit_theorem) in eine normale Verteilung konvertiert werden. Beachten Sie, dass zwar keine Garantie dafür besteht, wie schnell sich diese Stichprobenverteilung des Mittelwerts auf den Normalwert annähert, diese Bedingung jedoch in der Regel aufgrund des Umfangs der Besucher bei Online-Tests erreicht wird.
 
-Angesichts dieser Normalität des Mittelwerts kann nachgewiesen werden, dass die zu verwendende Teststatistik einer t-Verteilung folgt, da sie das Verhältnis eines normal verteilten Werts (der Differenz der Mittelwerte der Geschäftsmetrik) zu einem Skalierungsbegriff auf der Grundlage einer Schätzung aus den Daten (der Standardfehler der Differenz der Mittelwerte) darstellt. Der t-Test **des Studenten** ist dann der geeignete Test für die Hypothese, da die Teststatistik einer t-Distribution folgt.
+Bei dieser Normalität des Mittelwerts kann nachgewiesen werden, dass die zu verwendende Teststatistik einer t-Verteilung folgt, da dies das Verhältnis eines normal verteilten Werts (die Differenz der Mittel der Geschäftsmetrik) zu einem Skalierungsbegriff ist, der auf einer Schätzung aus den Daten basiert (der Standardfehler der Mitteldifferenz). Der Student-t-Test **ist dann der geeignete Hypothesentest, da die Teststatistik einer t-Verteilung folgt.**
 
 ### Warum keine anderen Tests verwendet werden
 
-Ein **z-Test** ist unangemessen, da im typischen A/B-Testszenario der Nenner der Teststatistik nicht aus einer bekannten Varianz abgeleitet ist und stattdessen anhand der Daten geschätzt werden muss.
+Ein **z-test** ist unangemessen, da im typischen A/B-Testszenario der Nenner der Teststatistik nicht aus einer bekannten Varianz abgeleitet ist und stattdessen aus den Daten geschätzt werden muss.
 
-**Chi-squared-** Tests werden nicht verwendet, da sie geeignet sind, um zu bestimmen, ob eine qualitative Beziehung zwischen zwei Varianten besteht (d. h. eine Null-Hypothese, dass es keinen Unterschied zwischen Varianten gibt). T-Tests eignen sich besser für das Szenario des Vergleichs von Metriken _quantitativ_.
+**Chi-squared** Tests werden nicht verwendet, da diese geeignet sind, um zu bestimmen, ob eine qualitative Beziehung zwischen zwei Varianten besteht (d. h. eine Null-Hypothese, dass es keinen Unterschied zwischen Varianten gibt). T-Tests eignen sich besser für das Szenario des Vergleichs von Metriken mit _quantitativ_.
 
-Der **Mann-Whitney U-Test** ist ein nicht parametrischer Test, der geeignet ist, wenn die Stichprobenverteilung der mittleren Geschäftsmetrik (für jede Variante) normalerweise nicht verteilt wird. Wie bereits erwähnt, gilt das zentrale Limit-Theorem jedoch in Anbetracht der Größenordnung des Traffics, der mit Online-Tests verbunden ist, in der Regel, sodass der t-Test sicher angewendet werden kann.
+Der **Mann-Whitney U-Test** ist ein nicht parametrischer Test, der geeignet ist, wenn die Stichprobenverteilung der durchschnittlichen Geschäftsmetrik (für jede Variante) normalerweise nicht verteilt wird. Wie bereits erwähnt, gilt in Anbetracht des Umfangs des mit Online-Tests verbundenen Traffics in der Regel das zentrale Limit-Theorem, sodass der t-Test sicher angewendet werden kann.
 
-Komplexere Methoden wie **ANOVA** (die T-Tests auf mehr als zwei Varianten verallgemeinern) können angewendet werden, wenn ein Test mehr als zwei Erlebnisse aufweist (&quot;A/Bn-Tests&quot;). ANOVA beantwortet jedoch die Frage &quot;ob alle Varianten denselben Mittelwert haben&quot;, während wir im typischen A/Bn-Test mehr daran interessiert sind, welche Variante _am besten ist._ In [!DNL Target] wenden wir daher regelmäßige T-Tests an, bei denen jede Variante mit einer Kontrolle verglichen wird, mit einer Bonferroni-Korrektur, um mehrere Vergleiche zu berücksichtigen.
+Komplexere Methoden wie **ANOVA** (die T-Tests auf mehr als zwei Varianten verallgemeinern) können angewendet werden, wenn ein Test mehr als zwei Erlebnisse aufweist (&quot;A/Bn-Tests&quot;). ANOVA beantwortet jedoch die Frage &quot;ob alle Varianten denselben Mittelwert haben&quot;, während wir im typischen A/Bn-Test mehr daran interessiert sind, welche spezifische Variante _am besten ist._ In [!DNL Target] wenden wir daher regelmäßige T-Tests an, bei denen jede Variante mit einer Kontrolle verglichen wird, mit einer Bonferroni-Korrektur, um mehrere Vergleiche zu berücksichtigen.
