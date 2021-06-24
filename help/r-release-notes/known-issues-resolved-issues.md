@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
 source-wordcount: '4438'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -25,11 +25,11 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
 ### [!DNL Adobe Experience Platform] Segmentnamen werden nicht im Bericht &quot; [!UICONTROL Wichtige ] Attribute&quot;angezeigt.
 
-[!DNL Adobe Experience Platform] Segmentnamen werden nicht im Bericht &quot; [!UICONTROL Wichtige ] Attribute&quot;für die Aktivitäten  [!UICONTROL Automated Personalization]  (AP) und  [!UICONTROL Automatisches Targeting]  (AT) angezeigt. (TOP-3813)
+[!DNL Adobe Experience Platform] Segmentnamen werden nicht im Bericht &quot; [!UICONTROL Wichtige ] Attribute&quot;für die Aktivitäten  [!UICONTROL Automated Personalization]  (AP) und  [!UICONTROL Automatisches Targeting]  (AT) angezeigt. (Die 3813 populärsten)
 
-### Die Archivierung von [!UICONTROL Aktivitäten mit automatischem Targeting] kann zu Synchronisierungsproblemen führen
+### Die Archivierung von Aktivitäten mit [!UICONTROL automatischem Targeting] kann zu Synchronisationsproblemen führen.
 
-Der Versuch, inaktive [!UICONTROL Automatisches Targeting] -Aktivitäten zu archivieren, kann zu Synchronisierungsproblemen führen. Solange dieses Problem nicht behoben ist, archivieren Sie nicht die Aktivitäten [!UICONTROL Automatisches Targeting]. Behalten Sie sie im Status [!UICONTROL Inaktiv] bei. (TGT-40885)
+Der Versuch, inaktive Aktivitäten für [!UICONTROL Automatisches Targeting] zu archivieren, kann zu Synchronisationsproblemen führen. Solange dieses Problem nicht behoben ist, archivieren Sie die Aktivitäten für [!UICONTROL Automatisches Targeting] nicht. Belassen Sie sie im Status [!UICONTROL Inaktiv]. (TGT-40885)
 
 ### Analytics for Adobe Target (A4T)-Metriken für automatische Zuordnungs- und Targeting-Aktivitäten
 
@@ -232,7 +232,7 @@ Dieses Problem wurde in Target-Version 19.7.1 behoben.
 
 ### mbox.js
 
-Die mbox.js-Bibliothek unterstützt keine clientseitigen Vorlagensprachen wie Handlebars und Mustache. Diese Sprachen *werden* von der Bibliothek at.js unterstützt.
+Die mbox.js-Bibliothek unterstützt keine Client-seitigen Vorlagensprachen wie Handlebars und Mustache. Diese Sprachen *werden* von der Bibliothek at.js unterstützt.
 
 **Hinweis**: Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden sollten eine Migration von mbox.js zu at.js durchführen. Weitere Informationen finden Sie unter [Migration zu at.js von mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
@@ -246,7 +246,7 @@ at.js lädt `global_mbox_autocreate = false` mit einem neu bereitgestellten Mand
 
 ### Unterstützung für Enterprise-Berechtigungen in [!DNL Target]-APIs {#api}
 
-Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Angebote werden möglicherweise in der Standardarbeitsfläche angezeigt, wenn die Liste der Angebote mit GET-APIs abgerufen wird. Dieses Problem wird in der ersten Märzwoche 2019 behoben. Nach dieser Fehlerbehebung werden Codeangebote in der entsprechenden Arbeitsfläche angezeigt, wenn sie aus APIs gezogen werden. Dieses Problem betrifft *keine* von APIs erstellten Angebote. Beispielsweise werden Codeangebote, die aus APIs erstellt wurden, in der Arbeitsfläche angezeigt, in der sie erstellt wurden, unabhängig davon, ob sie über GET-APIs oder über die Target-Benutzeroberfläche abgerufen wurde.
+Von der Target-Benutzeroberfläche in der Angebotsbibliothek erstellte Code-Angebote werden möglicherweise im Standardarbeitsbereich angezeigt, wenn die Liste der Angebote mit GET-APIs abgerufen wird. Dieses Problem wird in der ersten Märzwoche 2019 behoben. Nach dieser Fehlerbehebung werden Code-Angebote im entsprechenden Arbeitsbereich angezeigt, wenn sie aus APIs gezogen werden. Dieses Problem betrifft *keine* von APIs erstellten Angebote. Beispielsweise werden Code-Angebote, die aus APIs erstellt wurden, im Arbeitsbereich angezeigt, in der sie erstellt wurden, unabhängig davon, ob sie über GET-APIs oder über die Target-Benutzeroberfläche abgerufen wurden.
 
 ### Berichte und extreme Bestellungen
 
@@ -291,23 +291,23 @@ Diese Probleme wurden behoben.
 
 ### Target-APIs
 
-Die v1-Version der Angebots-APIs auf Adobe I/O behandelt alle Angebote, die über Target erstellt wurden, in der Standardarbeitsfläche. (TTTEAM-41957)
+Die v1-Version der Angebots-APIs auf Adobe I/O behandelt alle Angebote, die über Target erstellt wurden, im Standardarbeitsbereich. (TTTEAM-41957)
 
 Dieses Problem wurde behoben.
 
-### at.js  {#at-js-2}
+### at.js {#at-js-2}
 
 Mboxes werden in Microsoft Explorer 11-Browsern nicht ausgelöst, nachdem ein Upgrade auf die at.js-Version 1.0 ausgeführt wurde. Die Ursache dafür ist die Interaktion zwischen at.js und Visitor API 2.2.0. Dieses Problem betrifft die at.js-Version 0.9.6 und höher. (TNT-27600)
 
 Mit der Veröffentlichung von API 2.3.0 oder höher behoben.
 
-### Geo   Targeting
+### Geo Targeting
 
 Die Suche nach Zeichenfolgen, die Sonderzeichen enthalten (wie z. B. Leerzeichen oder Komma), wird bei der Erstellung von Geotargeting-Zielgruppen derzeit nicht unterstützt. Das Problem tritt beispielsweise auf, wenn Sie Zielgruppen basierend auf Städten, Bundesländern, Ländern usw. erstellen. Wenn Sie z. B. „New York“ eingeben, werden keine gültigen Suchergebnisse zurückgegeben.
 
 Im November 2018 behoben.
 
-### at.js  {#at-js-3}
+### at.js {#at-js-3}
 
 Bei der Verwendung von at.js-Version 1.6.0 treten A4T-Umleitungen (Analytics for Target) auf, jedoch ohne Aktivitätsqualifikation.
 
@@ -349,7 +349,7 @@ Wenn der Name einer in einer Automatisches Targeting (AT)-Aktivität verwendeten
 
 Dieses Problem wurde in Target-Version 18.5.1 (22. Mai 2018) behoben.
 
-### at.js  {#at-js-4}
+### at.js {#at-js-4}
 
 Der Algorithmus zum Extrahieren der Domäne der obersten Ebene, die beim Speichern von Cookies verwendet werden sollte, hat sich in at.js-Version 0.9.6 geändert. Aufgrund dieser Änderung können keine Cookies für Adressen gespeichert werden, die IP verwenden. Meist werden IP-Adressen zu Testzwecken verwendet, aber als Umgehungslösungen können Sie DNS-Einträge verwenden, die Host-Datei in einem lokalen Feld anpassen oder die at.js-Funktion targetGlobalSettings() verwenden, um ein Codefragment zur Unterstützung von IP-Adressen einzufügen.
 
@@ -390,7 +390,7 @@ Das erste Problem wurde in Target-Version 17.3.1 behoben (März 2017).
 
 Das zweite Problem wurde in Target-Version 17.6.1 behoben (Juni 2017).
 
-### at.js  {#at-js-5}
+### at.js {#at-js-5}
 
 Seit der Einführung von Target 17.4.1 (27. April 2017) führt die Verwendung der Aktion „Bild einfügen“ im Visual Experience Composer (VEC) dazu, dass der Angebotsinhalt beim Verwenden der at.js-Bibliothek nicht bereitgestellt wird.
 
@@ -410,7 +410,7 @@ Die Bereitstellung und Vorschau war bei Angeboten in A/B- und XT-Aktivitäten ei
 
 Im Target-Hotfix 17.4.3 behoben.
 
-### at.js  {#at-js-6}
+### at.js {#at-js-6}
 
 Die folgenden Aktionen haben dazu geführt, dass das Angebot bei der Verwendung des Visual Experience Composers (VEC) und der at.js-Funktion zum Verschieben und Neuanordnen nicht bereitgestellt wurde.
 
@@ -434,7 +434,7 @@ Für die Kriterien vom Typ „Kürzlich angesehen“ ziehen auf Entitäten basie
 
 Dieses Problem wurde nach der Recommendations-Version (22. März 2018) behoben. Nach der Recommendations-Version überspringt Target die auf der Entität basierenden dynamischen Regeln, wenn entity.id in der Mbox-Anfrage nicht gesendet wird.
 
-### at.js  {#at-js-7}
+### at.js {#at-js-7}
 
 Wenn Benutzer versuchen, at.js von der Seite mit Implementierungsdetails herunterzuladen, nachdem sie die at.js-Einstellungen geändert haben, wird mbox.js statt at.js heruntergeladen. (TGT-23069)
 
