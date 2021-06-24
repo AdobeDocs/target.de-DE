@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 ## Target-API-Aufrufe
 
-* **Limit**: 50 Anrufe pro Minute.
+* **Grenze**: 50 Aufrufe pro Minute.
 
-   Wenn Sie mehr als 50 API-Aufrufe pro Minute ausführen, gibt [!DNL Target] die Fehlermeldung &quot;503 HTTP-Status&quot;zurück.
+   Wenn Sie mehr als 50 API-Aufrufe pro Minute ausführen, gibt [!DNL Target] die Fehlermeldung „503 HTTP-Status“ zurück.
 
 ## Zielgruppen
 
@@ -231,9 +231,9 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 * **Empfehlungen zur Reduzierung der Komplexität von Profilskripten**: Die Anzahl der durch Profilskripte ausführbaren Anweisungen ist begrenzt. Weitere Informationen finden Sie unter [Best Practices](/help/c-target/c-visitor-profile/profile-parameters.md#best) im Abschnitt *Profilattribute*.
 
-## Properties
+## Eigenschaften
 
-* **Empfohlenes Limit**: 5.000 Properties.
+* **Empfohlenes Limit**: 5.000 Eigenschaften.
 
 ## Berichtszielgruppen/-segmente
 
