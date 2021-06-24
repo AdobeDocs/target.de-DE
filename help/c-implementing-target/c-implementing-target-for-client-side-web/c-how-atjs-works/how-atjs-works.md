@@ -1,15 +1,14 @@
 ---
-keywords: Systemdiagramm;Flackern;at.js;Implementierung;JavaScript-Bibliothek;js;ATJS
-description: Erfahren Sie, wie die JavaScript-Bibliothek  [!DNL Target] at.js funktioniert, einschließlich Systemdiagrammen, die Ihnen helfen, den Arbeitsablauf beim Laden von Seiten zu verstehen.
-title: Wie funktioniert die JavaScript-Bibliothek "at.js"?
-feature: 'at.js '
+keywords: Systemdiagramm;Flackern;at.js;Implementierung;JavaScript-Bibliothek;js;at.js
+description: Erfahren Sie, wie die JavaScript-Bibliothek  [!DNL Target] at.js funktioniert, einschließlich Systemdiagrammen, die Ihnen helfen, den Workflow beim Laden von Seiten besser zu verstehen.
+title: Wie funktioniert die JavaScript-Bibliothek at.js?
+feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -21,20 +20,20 @@ Bei Client-seitigen Implementierungen von [!DNL Adobe Target] stellt [!DNL Targe
 
 ## Was ist at.js?
 
-Die [at.js-Bibliothek](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) ist die neue Implementierungsbibliothek für Target. Die „at.js“-Bibliothek sorgt für kürzere Seitenladezeiten bei Webimplementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. „at.js“ ist die empfohlene Implementierungsbibliothek und wird häufig mit neuen Funktionen aktualisiert. Wir empfehlen allen Kunden, die  [neueste Version von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu implementieren oder zu ihr zu migrieren.
+Die at.js-Bibliothek ist die neue Implementierungsbibliothek für Target. Die at.js-Bibliothek sorgt für kürzere Seitenladezeiten bei Webimplementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. „at.js“ ist die empfohlene Implementierungsbibliothek und wird häufig mit neuen Funktionen aktualisiert. Wir empfehlen allen Kunden, die  [neueste Version von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu implementieren oder zu ihr zu migrieren.
 
 Weitere Informationen finden Sie unter [JavaScript-Bibliotheken in Target](/help/c-intro/how-target-works.md#libraries).
 
-In der unten dargestellten [!DNL Target]-Implementierung werden die folgenden [!DNL Adobe Experience Cloud]-Lösungen implementiert: Analytics, Zielgruppe und Audience Manager. Zudem wurden zentrale Experience Cloud-Services implementiert: Adobe Launch, Zielgruppen und Besucher-ID-Service.
+In der unten dargestellten [!DNL Target] -Implementierung sind die folgenden [!DNL Adobe Experience Cloud] -Lösungen implementiert: Analytics, Target und Audience Manager. Zudem wurden zentrale Experience Cloud-Services implementiert: Adobe Launch, Zielgruppen und Besucher-ID-Service.
 
-## Was ist der Unterschied zwischen &quot;at.js 1&quot;?*x*- und at.js 2.x-Workflow-Diagrammen?
+## Was ist der Unterschied zwischen at.js 1.*x*- und at.js 2.x-Workflow-Diagrammen?
 
 Weitere Informationen zu den Unterschieden, die in 2.x im Vergleich zu 1.x eingeführt wurden, finden Sie unter [Aktualisieren von at.js 1.x auf at.js 2](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md).*x*.
 
 Grob betrachtet gibt es einige Unterschiede zwischen den beiden Versionen:
 
 * at.js 2.x hat kein globales Mbox-Anfragekonzept, sondern stellt Anfragen beim Laden der Seite. Eine Anfrage beim Laden der Seite kann als Anfrage zum Abrufen von Inhalten verstanden werden, die beim ersten Laden Ihrer Website angewendet werden soll.
-* at.js 2.x verwaltet Konzepte, die als Ansichten bezeichnet werden und für Einzelseitenanwendungen (SPA) verwendet werden. at.js 1.*x* kennt dieses Konzept nicht.
+* at.js 2.x verwaltet Konzepte namens Ansichten, die für Einzelseiten-Apps (SPA) verwendet werden. at.js 1.*x* kennt dieses Konzept nicht.
 
 ## Diagramme in at.js 2.x
 
@@ -49,7 +48,7 @@ Die folgenden Diagramme helfen Ihnen dabei, den Arbeitsablauf von at.js 2.x mit 
 | 3 | Es wird eine Seitenlade-Anfrage durchgeführt, in der alle konfigurierten Parameter (MCID, SDID und Kunden-ID) enthalten sind. |
 | 4 | Profilskripte werden ausgeführt und anschließend in den Profilspeicher eingespeist. Der Speicher ruft geeignete Zielgruppen aus der Zielgruppenbibliothek ab (beispielsweise über Adobe Analytics, Zielgruppen-Management etc. bereitgestellte Zielgruppen).<br>Kundenattribute werden in einem Batch-Prozess an den Profilspeicher übermittelt. |
 | 5 | Basierend auf den URL-Anfrageparametern und den Profildaten entscheidet [!DNL Target], welche Aktivitäten und Erlebnisse für die aktuelle Seite und zukünftige Ansichten an den Besucher zurückgegeben werden sollen. |
-| 6 | Zielgerichteter Inhalt wird zurück an die Seite übermittelt. Dieser enthält optional Profilwerte für eine weitere Personalisierung.<br>Die zielgerichteten Inhalte auf der aktuellen Seite werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern.<br>Gezielte Inhalte für Ansichten, die aufgrund von Benutzeraktionen in einem SPA angezeigt werden, werden im Browser zwischengespeichert, sodass sie sofort ohne zusätzlichen Serveraufruf angewendet werden können, wenn die Ansichten durch ausgelöst werden  `triggerView()`. |
+| 6 | Zielgerichteter Inhalt wird zurück an die Seite übermittelt. Dieser enthält optional Profilwerte für eine weitere Personalisierung.<br>Die zielgerichteten Inhalte auf der aktuellen Seite werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern.<br>Zielgerichteter Inhalt für Ansichten, die als Ergebnis von Benutzeraktionen in einem SPA angezeigt werden, wird im Browser zwischengespeichert, sodass er sofort ohne zusätzlichen Server-Aufruf angewendet werden kann, wenn die Ansichten durch ausgelöst werden  `triggerView()`. |
 | 7 | Analytics-Daten werden an Datenerfassungsserver übermittelt. |
 | 8 | Zielgerichtete Daten werden über die SDID mit Analytics-Daten abgeglichen und im Analytics-Berichtspeicher abgelegt.<br>Analytics-Daten können dann sowohl in Analytics als auch in Target eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs Analytics for Target (A4T). |
 
@@ -59,14 +58,14 @@ Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten un
 
 | Schritt | Details |
 | --- | --- |
-| 3 | `triggerView()` wird in der Einzelseiten-App aufgerufen, um eine Ansicht wiederzugeben und Aktionen anzuwenden, die visuelle Elemente ändern. |
+| 1 | `triggerView()` wird in der Einzelseiten-App aufgerufen, um eine Ansicht wiederzugeben und Aktionen anzuwenden, die visuelle Elemente ändern. |
 | 2 | Gezielte Inhalte für die Ansicht werden aus dem Cache gelesen. |
 | 1 | Die zielgerichteten Inhalte werden so schnell wie möglich bereitgestellt, ohne dass Standardinhalte aufflackern. |
 | 4 | Die Benachrichtigungsanfrage wird an den [!DNL Target]-Profilspeicher gesendet, damit der Besucher in der Aktivität erfasst und die Metrik erhöht wird. |
 | 5 | Analysedaten werden an den Datenerfassungsserver gesendet. |
 | 6 | Target-Daten werden über die SDID mit Analytics-Daten abgeglichen und im Analytics-Berichtspeicher abgelegt. Analysedaten können dann über A4T-Berichte sowohl in Analytics als auch in Target angezeigt werden. |
 
-### Video - Architekturdiagramm von at.js 2.x
+### Video - at.js 2.x-Architekturdiagramm
 
 at.js 2.x verbessert die Unterstützung von Adobe Target für SPAs und kann mit anderen Experience Cloud-Lösungen integriert werden. In diesem Video wird erklärt, wie alles zusammenkommt.
 
@@ -81,17 +80,17 @@ Weitere Informationen finden Sie unter [Funktionsweise von at.js 2.x](https://he
 | Schritt | Beschreibung | Aufruf | Beschreibung |
 |--- |--- |--- |--- |
 | 1 | Ein Aufruf gibt die [!DNL Experience Cloud ID] (MCID) zurück, falls sich der Benutzer authentifiziert hat. Bei einem weiteren Aufruf wird die Kunden-ID synchronisiert. | 2 | Die Bibliothek at.js wird synchron geladen und im Dokumentenkörper verborgen. |
-| 3 | Es wird ein globaler Mbox-Aufruf durchgeführt, in dem alle konfigurierten Parameter, MCID, SDID und Kunden-IDs enthalten sind (optional). | 4 | Profilskripte werden ausgeführt und anschließend in den Profilspeicher eingespeist. Der Speicher ruft geeignete Zielgruppen aus der [!UICONTROL Zielgruppenbibliothek] ab (z. B. über [!DNL Adobe Analytics], [!DNL Audience Manager] usw. bereitgestellte Zielgruppen).<br>Kundenattribute werden in einem Batch-Prozess an [!DNL Profile Store] übermittelt. |
+| 1 | Es wird ein globaler Mbox-Aufruf durchgeführt, in dem alle konfigurierten Parameter, MCID, SDID und Kunden-IDs enthalten sind (optional). | 4 | Profilskripte werden ausgeführt und anschließend in den Profilspeicher eingespeist. Der Speicher ruft geeignete Zielgruppen aus der [!UICONTROL Zielgruppenbibliothek] ab (z. B. über [!DNL Adobe Analytics], [!DNL Audience Manager] usw. bereitgestellte Zielgruppen).<br>Kundenattribute werden in einem Batch-Prozess an [!DNL Profile Store] übermittelt. |
 | 5 | Basierend auf URL, Mbox-Parametern und Profildaten wird von [!DNL Target] entschieden, welche Aktivitäten und Erlebnisse dem Besucher angezeigt werden sollen. | 6 | Zielgerichteter Inhalt wird zurück an die Seite übermittelt. Dieser enthält optional Profilwerte für eine weitere Personalisierung.<br>Das Erlebnis wird so schnell wie möglich ohne ein Flackern der Standardinhalte bereitgestellt. |
 | 7 | [!DNL Analytics]-Daten werden an Datenerfassungsserver übermittelt. | 8 | [!DNL Target]-Daten werden über die SDID mit [!DNL Analytics]-Daten abgeglichen und im [!DNL Analytics]-Berichtspeicher abgelegt.<br>[!DNL Analytics]-Daten können dann sowohl in [!DNL Analytics] als auch in [!DNL Target] eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs [!DNL Analytics for Target] (A4T). |
 
-### Video - Bürozeiten: &quot;at.js&quot;-Tipps und -Übersichten (26. Juni 2019)
+### Video - Bürozeiten: Tipps und Übersicht zu at.js (26. Juni 2019)
 
 Dieses Video ist eine Aufzeichnung von Office Hours, eine Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
 
-* Vorteile der Verwendung von &quot;at.js&quot;
-* &quot;at.js&quot;-Einstellungen
-* Handhabung von Flackern
+* Vorteile der Verwendung von at.js
+* at.js-Einstellungen
+* Einstellungen bei Flackern
 * Debuggen von „at.js“
 * Bekannte Probleme
 * FAQs
