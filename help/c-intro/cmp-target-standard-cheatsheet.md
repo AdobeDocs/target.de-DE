@@ -4,10 +4,9 @@ description: In diesem Abschnitt finden Sie eine Liste der häufig gestellten Fr
 title: Wo finde ich Antworten auf Fragen zur Optimierung und Personalisierung?
 feature: Überblick
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '2918'
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+workflow-type: tm+mt
+source-wordcount: '2847'
 ht-degree: 100%
 
 ---
@@ -35,14 +34,6 @@ Testen Sie das [Target-Community-Forum](/help/cmp-resources-and-contact-informat
 **Welche Browser werden von Target unterstützt?**
 
 Weitere Details finden Sie in der [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)-Matrix. Beachten Sie, dass es zwei Aspekte gibt: die Target Standard-/Premium Experience Cloud-Oberflächenunterstützung und die Endbenutzer-Browserunterstützung auf Desktop/Geräten.
-
-## JavaScript-Bibliotheken in Target (at.js und mbox.js)   {#section_C2AC78DFDAD84981A8C84DF20893E340}
-
-**Welche JavaScript-Implementierungsdatei sollte ich verwenden: at.js oder mbox.js?**
-
-at.js ist unsere neueste und tollste JavaScript-Bibliothek. mbox.js ist unsere ältere Version. Unter  [Die Vorteile von at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) finden Sie die Unterschiede zwischen den beiden Bibliotheken. Alle neuen Kunden sollten at.js verwenden.
-
-Alle bestehenden mbox.js-Kunden sollten zu at.js migrieren. Erfahren Sie mehr über die in   [Migration von mbox.js zu at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) Enthaltenen Schritte, bevor Sie den Übergang vornehmen.
 
 ## Aktivitäten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -114,7 +105,7 @@ Geben Sie den gewünschten Schritt dazu einfach [direkt auf der Seite „Aktivit
 
 **Kann ich in einem bestimmten Schritt verbleiben, die Aktivität weiterhin ändern (beispielsweise Angebotstext oder benutzerspezifischer Code) und dann eine Qualitätssicherung auf einer anderen Registerkarte durchführen?**
 
-Das ist auch möglich. Verwenden Sie  [einfach die Option „Speichern“, um die inkrementellen Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Das ist auch möglich. Verwenden Sie [einfach die Option „Speichern“, um die inkrementellen Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 **Wie kann ich eine Vorschau einer von mir eben erstellten Aktivität anzeigen und eine Qualitätssicherung diesbezüglich vornehmen?**
 
@@ -163,7 +154,7 @@ Verwenden Sie die in [Schritt 2 des dreiteiligen Target-Arbeitsablaufs (Targetin
 
 Lesen Sie die folgenden Aspekte des Produkts:
 
-* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T) ](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 * [Zielgruppen](/help/c-integrating-target-with-mac/mmp.md)
 
@@ -265,13 +256,13 @@ Verwenden Sie den [Debugger](/help/c-activities/c-troubleshooting-activities/con
 
 Nutzen Sie die Leistungsfähigkeit [formularbasierter Aktivitäten](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) mit [JSON-Angeboten](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D), um Ihr Ziel zu erreichen.
 
-## Berichte (einschließlich Analytics for Target (A4T)) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
+## Berichte (einschließlich Analytics for Target (A4T))  {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
 **Ich verfüge auch über Adobe Analytics und möchte es mit Target nutzen. Welche wichtigen Funktionalitäten erhalte ich durch das Integrieren der zwei Lösungen?**
 
 Lesen Sie die folgenden Aspekte des Produkts:
 
-* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T) ](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
