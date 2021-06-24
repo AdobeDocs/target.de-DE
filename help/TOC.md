@@ -5,7 +5,7 @@ user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und
 feature-set: Target
 source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1604'
 ht-degree: 99%
 
 ---
@@ -151,6 +151,7 @@ ht-degree: 99%
          + [Target Seitenmethoden nach „mbox.js“-Bibliotheksversion](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
          + [Erstellen einer Mbox für Auftragsbestätigungen – mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
          + [Häufig gestellte Fragen zu „mbox.js“](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
+         + [„mbox.js“-Funktionen](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
       + Erläuterung der globalen Mbox {#global-mbox}
          + [Globale Mbox – Überblick](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [Anpassen einer globalen Mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
