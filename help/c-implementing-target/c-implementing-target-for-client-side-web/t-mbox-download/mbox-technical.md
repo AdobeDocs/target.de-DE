@@ -1,15 +1,14 @@
 ---
 keywords: Implementierung;mbox.js;DOM-Manipulations-Bibliothek;target.js;Visual Experience Composer;iFrame;Angular-Sites;Einzelseiten-Apps;Einzelseitenanwendung;SPA
-description: Erfahren Sie mehr über die ältere Implementierung von "mbox.js"in Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
-title: Was macht die Bibliothek  [!DNL Target] mbox.js?
-feature: 'at.js '
+description: Erfahren Sie mehr über die alte mbox.js-Implementierung von Adobe Target. Migrieren Sie zum Adobe Experience Platform Web SDK (AEP Web SDK) oder zur neuesten Version von at.js.
+title: Was bewirkt die Bibliothek [!DNL Target] mbox.js?
+feature: at.js
 role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 74%
+source-wordcount: '299'
+ht-degree: 78%
 
 ---
 
@@ -19,22 +18,9 @@ Diese Informationen helfen Ihren technischen Mitarbeitern dabei, die „mbox.js�
 
 >[!IMPORTANT]
 >
->**mbox.js Ende der Lebensdauer**: Ab dem 31. März 2021 wird die Bibliothek &quot;mbox.js&quot; [!DNL Adobe Target] nicht mehr unterstützt. Nach dem 31. März 2021 schlagen alle Aufrufe von &quot;mbox.js&quot;korrekt fehl und wirken sich auf Ihre Seiten aus, deren [!DNL Target]-Aktivitäten ausgeführt werden, indem Standardinhalte bereitgestellt werden.
+>**Beendigung von mbox.js**: Ab dem 31. März 2021 unterstützt [!DNL Adobe Target] die Bibliothek „mbox.js“ nicht mehr. Seit dem 31. März 2021 schlagen alle Aufrufe aus mbox.js kontrolliert fehl. Dies wirkt sich auf Seiten mit [!DNL Target]-Aktivitäten aus, die Standardinhalte bereitstellen.
 >
->Es wird empfohlen, dass alle Kunden vor diesem Datum zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek migrieren, um potenzielle Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Zielgruppe für clientseitige Web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md) implementieren.
-
-Target Standard erfordert die [!DNL mbox.js]-Version 58 oder neuer. Anweisungen zum Herunterladen und Aktualisieren von [!DNL mbox.js] finden Sie unter [Mbox-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
-
-Für Target Standard ruft [!DNL mbox.js] eine andere JavaScript-Datei auf, [!DNL target.js]. [!DNL Target.js] wird von Adobe gehostet und automatisch aktualisiert. Sie müssen nichts unternehmen, um [!DNL target.js] zu aktualisieren, und es gibt keine kundenspezifischen Anpassungen.
-
-[!DNL Target.js] erstellt eine Mbox mit der Bezeichnung `target-global-mbox` im `<head>`-Abschnitt Ihrer Seite.
-
-[!DNL Target.js] wird von [!DNL mbox.js] von einer Zeile von JavaScript-Code aufgerufen, die zum Feld [!UICONTROL Extra JavaScript] in [!DNL mbox.js] hinzugefügt wird. Die einzige Möglichkeit, [!DNL target.js] zu deaktivieren, ist, die Codezeile nicht aufzunehmen und so auch [!DNL Target] zu deaktivieren.
-
-[!DNL Target.js] hat in [!DNL Target] zwei Funktionen:
-
-* DOM-Manipulation
-* Aktiviert visuelle Elemente von [!UICONTROL Visual Experience Composer]
+>Wir empfehlen allen Kunden, vor diesem Datum zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder at.js-JavaScript-Bibliothek zu migrieren, um potenzielle Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Target für Client-seitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 ## DOM-Manipulation {#section_169F8D4C077948DCB4F891ABBB03FF63}
 
@@ -51,8 +37,6 @@ Wenn Sie den [!UICONTROL Visual Experience Composer] zum Einrichten eines Erlebn
 * Für die Erstellung von Miniaturansichten: [!DNL https://html2canvas.hertzen.com/]
 * Für eine domänenübergreifende Abfrage: [!DNL Admin.js], [!DNL CDQ.base.js], [!DNL CDQ.host.js], [!DNL admin.css], verwendet, um Nachrichten über die iFrames hinweg zu senden. Durch diese Skripts kann Adobe Daten zwischen den Seiten senden.
 
-## Zu berücksichtigende Punkte für Angular-Sites und Einzelseiten-Apps   {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
+## Zu berücksichtigende Punkte für Angular-Sites und Einzelseiten-Apps  {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
 Sollten Sie Target in eine Angular-Site oder eine Einzelseiten-App (SPA) integrieren, sollten Sie die at.js-Bibliothek anstatt der mbox.js-Bibliothek verwenden.
-
-Weitere Informationen finden Sie unter [„at.js“-Implementierung](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
