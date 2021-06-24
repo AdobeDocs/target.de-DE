@@ -29,7 +29,7 @@ Digitale Marketer erkennen intuitiv, dass Bestandskunden wertvoller sind als Neu
 
 ## Idee 3: Testen Sie Ihr Website-Design.
 
-Testen Sie Ihr Website-Design mehrmals, um die Benutzerkonversion zu steigern und die Kundenbindung zu vertiefen. Untersuchen Sie zunächst die wichtigsten Aktionen Ihrer Besucher und testen Sie beispielsweise unterschiedliche Platzierungen von Aktionsaufrufen (CTAs) und verschiedene Farben für CTA-Schaltflächen, die Ihren Besuchern die Durchführung dieser Aktionen erleichtern.
+Testen Sie Ihr Website-Design mehrmals, um Benutzerkonversion und Kundeninteraktion zu steigern. Untersuchen Sie zunächst die wichtigsten Aktionen Ihrer Besucher und testen Sie beispielsweise unterschiedliche Platzierungen von Aktionsaufrufen (CTAs) und verschiedene Farben für CTA-Schaltflächen, die Ihren Besuchern die Durchführung dieser Aktionen erleichtern.
 
 Eventuell ist auch eine Verschlankung Ihres Designs sinnvoll, indem Sie bestimmte Elemente Ihrer Website einfach weglassen. Testen Sie beispielsweise, ob Sie mehr Resonanz erzielen, wenn Sie die herkömmliche Liste der Produktkategorien am linken oder rechten Rand Ihrer Homepage (und auch auf anderen Seiten) entfernen und es Ihren Kunden überlassen, das gewünschte Produkt über die Suchleiste zu finden. Selbst wenn diese Änderung keine messbare Auswirkung auf die Konversion haben sollte, entfernen Sie die Navigation am Seitenrand und machen Sie so Platz frei für Designelemente, die zu einer höheren Interaktion und Konversion führen.
 
