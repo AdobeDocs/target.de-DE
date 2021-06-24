@@ -7,7 +7,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 
-**Zuletzt aktualisiert: 16. Juni 2021 (  [Siehe Änderungen](r-release-notes/doc-change.md) )**
+**Zuletzt aktualisiert: 16. Juni 2021 ([siehe Änderungen](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -31,10 +31,10 @@ In den folgenden Abschnitten finden Sie nützliche Links in diesem Handbuch, die
 
 - [Alle Target-Benutzer](#all)
 - [Marketingexperten](#marketers)
-- [Entwickler  ](#developers)
+- [Entwickler](#developers)
 - [Target und Adobe Experience Cloud-Administratoren](#admins)
-- [Analysten  ](#analysts)
-- [QA-Techniker  ](#qa)
+- [Analysten](#analysts)
+- [QA-Techniker](#qa)
 
 ## Alle [!DNL Target]-Benutzer {#all}
 
@@ -68,7 +68,7 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 
 - [Target verwalten](administrating-target/administrating-target.md): Erklärt, wie Benutzer hinzugefügt und Ihr [!DNL Target]-Konto konfiguriert werden kann.
 
-## Analysten   {#analysts}
+## Analysten {#analysts}
 
 - [Zielgruppen](c-target/target.md): Erklärt, wie Sie festlegen, wer die Inhalte und Erlebnisse Ihrer zielgerichteten Aktivitäten sehen kann.
 - [Berichte](c-reports/reports.md): Erklärt, wie Sie die Leistung Ihrer Aktivitäten interpretieren.
