@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Versionshinweise
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
+source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '349'
+ht-degree: 79%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert: 7. Juni 2021**
+**Zuletzt aktualisiert: 24. Juni 2021**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -25,17 +25,14 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 >
 >Um potenzielle Probleme mit Ihren Sites zu vermeiden, migrieren Sie zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder der JavaScript-Bibliothek „at.js“. Weitere Informationen finden Sie unter [Übersicht: Target für Client-seitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.5.2 (noch festzulegender Zeitpunkt)
+## [!DNL Target Standard/Premium] 21.6.1 (30. Juni 2021)
 
 Diese Version beinhaltet die folgenden neuen Funktionen und Verbesserungen. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
 | Funktion | Details |
 | --- | --- |
-| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | Die folgenden Verbesserungen gelten für [!DNL Recommendations]-Popularitätsalgorithmen:<ul><li>Eine neue sechsstündige Option „Lookback-Fenster“ (Datenbereich) steht für alle Popularitätsalgorithmen (am häufigsten angezeigt/Topverkäufe) zur Verfügung, wenn [!DNL Target] die Verhaltensdatenquelle ist. (Dieses Lookback-Fenster ist *nicht* verfügbar, wenn [!DNL Adobe Analytics] die Verhaltensdatenquelle ist.)</li><li>Wenn diese Option aktiviert ist, werden die folgenden Algorithmen ungefähr alle drei Stunden (statt alle 12 Stunden) ausgeführt.<ul><li>Am häufigsten angezeigt</li><li>Am häufigsten gekauft</li><li>Am häufigsten nach Kategorie angezeigt</li><li>Am häufigsten nach Kategorie gekauft</li><li>Am häufigsten angezeigt durch benutzerdefiniertes Attribut (mithilfe der groupBy-Funktion)</li><li>Am häufigsten gekauft durch benutzerdefiniertes Attribut (mithilfe der groupBy-Funktion)</li></ul></ul>(Die 1086 populärsten) |
-
-Diese Version enthält die folgenden Fehlerbehebungen.
-
-* Inhalte werden hinzugefügt, wenn das Veröffentlichungsdatum näher rückt.
+| Analytics for Target (A4T) | Wenn Sie auf der Seite [!UICONTROL Berichte] auf den Link &quot;]In Analytics anzeigen[!UICONTROL &quot;in einer Aktivität klicken, die [!DNL Analytics] als Berichtsquelle (A4T) verwendet, wird [!DNL Analysis Workspace] jetzt geöffnet. Zuvor wurde der Link in der Berichterstellung [!DNL Analytics] geöffnet. (TGT-36959) |
+| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | Die folgenden Verbesserungen gelten für [!DNL Recommendations]-Popularitätsalgorithmen:<ul><li>Eine neue sechsstündige &quot;Lookback-Fenster&quot;(Datenbereich)-Option ist für alle Popularitätsalgorithmen (am häufigsten angezeigte/Topverkäufe) verfügbar, wenn [!DNL Target] die Verhaltensdatenquelle ist. (Dieses Lookback-Fenster ist *nicht* verfügbar, wenn [!DNL Adobe Analytics] die Verhaltensdatenquelle ist.)</li><li>Wenn diese Option aktiviert ist, werden die folgenden Algorithmen ungefähr alle drei Stunden (statt alle 12 Stunden) ausgeführt.<ul><li>Am häufigsten angezeigt</li><li>Am häufigsten gekauft</li><li>Am häufigsten nach Kategorie angezeigt</li><li>Am häufigsten nach Kategorie gekauft</li><li>Am häufigsten angezeigt durch benutzerdefiniertes Attribut (mithilfe der groupBy-Funktion)</li><li>Am häufigsten gekauft durch benutzerdefiniertes Attribut (mithilfe der groupBy-Funktion)</li></ul></ul>Veröffentlichungsdatum anzukündigen. (Die 1086 populärsten) |
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
