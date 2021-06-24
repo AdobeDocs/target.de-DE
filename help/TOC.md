@@ -6,12 +6,12 @@ feature-set: Target
 source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Target-Anleitung   {#using}
+# Adobe Target-Anleitung {#using}
 
 + [Adobe Target-Anleitung – Startseite](target-home.md)
 + Target-Versionshinweise {#release-notes}
@@ -43,7 +43,7 @@ ht-degree: 98%
    + [Glossar](c-intro/glossary.md)
    + [Funktionsweise von Target](c-intro/how-target-works.md)
    + [Schulung und Zertifizierung](c-intro/training-and-certification.md)
-   + [Schulungsvideos für Target Standard und Premium ](c-intro/target-standard-premium-training-videos.md)
+   + [Schulungsvideos für Target Standard und Premium](c-intro/target-standard-premium-training-videos.md)
    + [Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung](c-intro/cmp-target-standard-cheatsheet.md)
 + Verwaltung von Target {#administer}
    + [Verwaltung von Target – Überblick](administrating-target/administrating-target.md)
@@ -69,7 +69,7 @@ ht-degree: 98%
 + Target implementieren {#implement-target}
    + [Implementierung von Target – Überblick](c-implementing-target/implementing-target.md)
    + Vor der Implementierung {#before-implement}
-      + [Vor der Implementierung ](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
+      + [Vor der Implementierung](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Vorbereiten der Target-Implementierung](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Datenschutz und Sicherheit {#privacy}
          + [Datenschutz – Überblick](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
@@ -93,14 +93,14 @@ ht-degree: 98%
       + [Unterstützte Browser](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
       + [Änderungen der TLS-Verschlüsselung (Transport Layer Security)](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME und Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
-   + Clientseitige Website: Target-Implementierung {#client-side}
+   + Client-seitige Website: Target-Implementierung {#client-side}
       + [Übersicht: Target für Client-seitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
       + Adobe Experience Platform Web SDK – Implementierung {#aep-implementation}
          + [AEP Web SDK – Überblick](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + at.js-Implementierung {#at-js-implementation}
          + Geräteinterne Entscheidungsfindung {#on-device-decisioning}
             + [Übersicht über On-device Decisioning](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-            + [Unterstützte Funktionen ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
+            + [Unterstützte Funktionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
             + [Regelartefakt](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
             + [Fehlerbehebung](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
          + Funktionsweise von „at.js“ {#at-js}
@@ -109,9 +109,9 @@ ht-degree: 98%
             + [„at.js“-Integrationen](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
          + Implementieren von „at.js“ {#deploy-at-js}
             + [Implementieren von „at.js“](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [Implementieren von Target mithilfe von Platform launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [Implementieren von Target mit Platform Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [Implementieren von Target ohne einen Tag-Manager](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [Implementieren von Target mit dem Dynamic Tag Manager (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [Implementieren von Target mit dem dynamischen Tag-Manager (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
             + [Implementieren von Target für Einzelseitenanwendungen (SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + „at.js“-Funktionen {#functions-overview}
             + [„at.js“-Funktionen – Überblick](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
@@ -139,7 +139,7 @@ ht-degree: 98%
       + mbox.js-Implementierung (veraltet) {#mbox-implement}
          + [„mbox.js“-Implementierung – Überblick](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
          + Migration von „mbox.js“ zu „at.js“ {#migrate-mbox}
-            + [Migration von „mbox.js“ zu „at.js“ – Überblick ](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
+            + [Migration von „mbox.js“ zu „at.js“ – Überblick](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
             + [Migration von „mbox.js“ zu „at.js“](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
             + [Einschränkungen von at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
             + [„at.js“-Plug-ins](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
@@ -147,7 +147,7 @@ ht-degree: 98%
          + [Funktionsweise von „mbox.js“](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
          + [mbox.js konfigurieren](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
          + [mbox.js herunterladen](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
-         + [Target Seitenmethoden nach &quot;mbox.js&quot;-Bibliotheksversion](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
+         + [Target Seitenmethoden nach „mbox.js“-Bibliotheksversion](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
          + [Erstellen einer Mbox für Auftragsbestätigungen – mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
          + [Häufig gestellte Fragen zu „mbox.js“](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [„mbox.js“-Funktionen](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
@@ -168,7 +168,7 @@ ht-degree: 98%
       + [Senden von Aktivitätsinformationen an Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Mobile Target-Vorschau](c-target-mobile-app/target-mobile-preview.md)
       + [Vorabruf des Angebotsinhalts](c-target-mobile-app/prefetch-offer-content.md)
-      + [Target Häufig gestellte Fragen zu mobilen Apps](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Target für mobile Apps – FAQs](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Verwenden des Standortdienstes](/help/c-target-mobile-app/use-location-service.md)
    + Serverseitig: Target-Implementierung {#server-side}
       + [Serverseitig: Target-Implementierung – Überblick](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
@@ -176,14 +176,14 @@ ht-degree: 98%
       + [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [Hybridimplementierung](/help/c-implementing-target/hybrid-implementation.md)
    + E-Mail: Target-Implementierung {#implement-email}
-      + [E-Mail: Target-Implementierung – Überblick ](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
+      + [E-Mail: Target-Implementierung – Überblick](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [Erstellen einer AdBox für ein Bild](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
       + [Testen einer E-Mail-Bild-AdBox](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Arbeiten mit Weiterleitungen](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + Integration von Target in Experience Cloud {#integrate}
-   +  Adobe Analytics als Berichtsquelle für Adobe Target (A4T) {#a4t}
+   + Adobe Analytics als Berichtsquelle für Adobe Target (A4T) {#a4t}
       + [A4T – Überblick](c-integrating-target-with-mac/a4t/a4t.md)
-      + [Vor der Implementierung ](c-integrating-target-with-mac/a4t/before-implement.md)
+      + [Vor der Implementierung](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Implementieren von Analytics for Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [Anforderungen hinsichtlich Benutzerberechtigungen](c-integrating-target-with-mac/a4t/account-reqs.md)
       + [Erstellen einer Aktivität mit Analytics als Berichtsquelle](c-integrating-target-with-mac/a4t/campaign-creation.md)
@@ -259,7 +259,7 @@ ht-degree: 98%
          + [Ziele und Einstellungen](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Festlegen von Metriken](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Multivarianz-Test {#multivariate-test}
-      + [Multivarianz-Tests – Überblick ](c-activities/c-multivariate-testing/multivariate-testing.md)
+      + [Multivarianz-Tests – Überblick](c-activities/c-multivariate-testing/multivariate-testing.md)
       + [Best Practices für Multivarianz-Tests](c-activities/c-multivariate-testing/best-practices.md)
       + [Planen eines Multivarianz-Tests.](c-activities/c-multivariate-testing/plan-mvt.md)
       + Erstellen eines Multivarianz-Tests {#create-mvt}
@@ -297,7 +297,7 @@ ht-degree: 98%
          + [Kategorien für Zielgruppen – Überblick](c-target/c-audiences/c-target-rules/target-rules.md)
          + [Browser](c-target/c-audiences/c-target-rules/browser.md)
          + [Benutzerdefinierte Parameter](c-target/c-audiences/c-target-rules/custom-parameters.md)
-         + [Geo  ](c-target/c-audiences/c-target-rules/geo.md)
+         + [Geo](c-target/c-audiences/c-target-rules/geo.md)
          + [Netzwerk](c-target/c-audiences/c-target-rules/network.md)
          + [Mobil](c-target/c-audiences/c-target-rules/mobile.md)
          + [Betriebssystem](c-target/c-audiences/c-target-rules/operating-system.md)
@@ -306,9 +306,9 @@ ht-degree: 98%
          + [Zeitrahmen](c-target/c-audiences/c-target-rules/time-frame.md)
          + [Bericht zu](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Besucherprofil](c-target/c-audiences/c-target-rules/visitor-profile.md)
-      + [Erstellen einer Zielgruppe zum Profilattributvergleich ](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
+      + [Erstellen einer Zielgruppe zum Profilattributvergleich](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
    + [Kombinieren mehrerer Zielgruppen](c-target/combining-multiple-audiences.md)
-   + [Erstellen einer Zielgruppe „Nur Aktivität“ ](c-target/creating-activity-only-audience.md)
+   + [Erstellen einer Zielgruppe „Nur Aktivität“](c-target/creating-activity-only-audience.md)
    + [Zielgruppenfilter für Reporting](c-target/managing-audience-filters.md)
    + [Anwenden einer Reporting-Zielgruppe auf eine Erfolgsmetrik](c-target/apply-reporting-audience-success-metric.md)
    + Besucherprofile {#visitor-profiles}
@@ -380,7 +380,7 @@ ht-degree: 98%
    + [Herunterladen von Daten in Form einer CSV-Datei](c-reports/downloading-data-in-csv-file.md)
    + [Häufig gestellte Fragen zum Reporting](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
-   + [Recommendations – Überblick ](c-recommendations/recommendations.md)
+   + [Recommendations – Überblick](c-recommendations/recommendations.md)
    + [Einführung in Recommendations](c-recommendations/introduction-to-recommendations.md)
    + [Planen und Implementieren von Recommendations](c-recommendations/plan-implement.md)
    + Entitäten {#entities}
