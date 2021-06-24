@@ -1,15 +1,14 @@
 ---
 keywords: Target;at.js;Migration zu at.js;Vorbereitung;at.js prüfen;at.js integrieren
-description: Erfahren Sie, wie Sie zu "at.js"migrieren, der neuen Implementierungsbibliothek für Adobe [!DNL Target] die sowohl für typische Webimplementierungen als auch für Einzelseitenanwendungen (SPA) entwickelt wurde.
+description: Erfahren Sie, wie Sie zu at.js migrieren, der neuen Implementierungsbibliothek für Adobe [!DNL Target] die sowohl für typische Webimplementierungen als auch für Einzelseiten-Apps (SPA) entwickelt wurde.
 title: Migration von „mbox.js“ zu „at.js“
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 92%
+source-wordcount: '847'
+ht-degree: 91%
 
 ---
 
@@ -88,7 +87,7 @@ Gehen Sie wie folgt vor, um eine Migration von [!DNL mbox.js] zu [!DNL at.js] du
    >
    >Wenn Sie derzeit keinen Tag-Manager zur Bereitstellung von [!DNL Target] nutzen, ist jetzt ein guter Moment, darüber nachzudenken.
    >
-   >[!DNL Platform Launch] ist die Tag-Management-Plattform der nächsten Generation  [!DNL Adobe] und die bevorzugte Methode zur Implementierung  [!DNL Adobe Target]. [!DNL Platform Launch] bietet Kunden eine einfache Möglichkeit, die Analyse-, Marketing- und Werbetags bereitzustellen und zu verwalten, die zur Nutzung relevanter Kundenerlebnisse erforderlich sind.
+   >[!DNL Platform Launch] ist die Tag-Management-Plattform der nächsten Generation von  [!DNL Adobe] und ist die bevorzugte Methode zur Implementierung  [!DNL Adobe Target]. [!DNL Platform Launch] bietet Kunden eine einfache Möglichkeit, die Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerlebnisse erforderlich sind.
    >
    >Weitere Informationen finden Sie unter [Implementieren [!DNL Target] mit [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
@@ -97,7 +96,7 @@ Gehen Sie wie folgt vor, um eine Migration von [!DNL mbox.js] zu [!DNL at.js] du
    Im Folgenden finden Sie ein paar Punkte, anhand derer Sie während des Tests überprüfen können, ob [!DNL at.js] erwartungsgemäß funktioniert:
 
    * Achten Sie darauf, dass alle Ihrer aktuellen Aktivitäten mit der neuen JavaScript-Bibliothek funktionieren.
-   * Achten Sie darauf, dass alle erforderlichen  [Integrationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) und [Plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) funktionieren erwartungsgemäß.
+   * Achten Sie darauf, dass alle erforderlichen  [Integrationen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) und Plug-ins funktionieren erwartungsgemäß.
    * Stellen Sie sicher, dass Sie die [Fehlerbehebung](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) mit den in [!DNL at.js] verfügbaren Ansätzen problemlos ausführen können.
 
 **Mögliche Probleme bei der Migration zu at.js** Einige Kunden haben nach der Migration zu at.js die folgenden Probleme gemeldet:
@@ -124,4 +123,4 @@ Gehen Sie wie folgt vor, um eine Migration von [!DNL mbox.js] zu [!DNL at.js] du
 
    Weitere Informationen dazu, wie Sie den Code-Editor zu diesem Zweck einsetzen können, finden Sie unter  [Code-Editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* Da nun alle Mboxes asynchron arbeiten, blockieren sie nicht das Rendern von Seiten und werden nicht in der Reihenfolge zurückgegeben, in der sie ausgelöst wurden. Weitere Informationen dazu finden Sie unter „Erwägungen für asynchrones Laden“ in  [Einschränkungen von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Da nun alle Mboxes asynchron arbeiten, blockieren sie nicht das Rendern von Seiten und werden nicht in der Reihenfolge zurückgegeben, in der sie ausgelöst wurden.
