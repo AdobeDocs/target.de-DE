@@ -1,15 +1,14 @@
 ---
 keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQs;global;globale Mbox
-description: Lesen Sie häufig gestellte Fragen (FAQs) und Antworten zur Adobe [!DNL Target] globale Mboxes.
-title: Was sind häufig gestellte Fragen zur globalen Mbox?
-feature: 'at.js '
+description: Lesen Sie häufig gestellte Fragen (FAQs) und Antworten zur Adobe [!DNL Target] globalen Mboxes.
+title: Welche häufig gestellten Fragen beantworten die globale Mbox?
+feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 85%
 
 Liste der häufig gestellten Fragen (FAQs) zu globalen Mboxes.
 
-## Kann ich über mehr als eine globale Mbox verfügen, wenn mein [!DNL Target]-Konto über mehrere Domänen hinweg eingerichtet ist? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## Kann ich mehr als eine globale Mbox haben, wenn mein [!DNL Target]-Konto domänenübergreifend festgelegt ist? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 Für Ihr Konto wird nur eine globale Mbox unterstützt.
 
@@ -29,9 +28,9 @@ Sie können auch mit [targetPageParams](/help/c-implementing-target/c-implementi
 
 Zum Sammeln von Umsatz- und Auftragsinformationen in der target-global-mbox müssen „mbox-Parameter“ an Target gesendet werden. Bei diesen Parametern handelt es sich um Name/Wert-Paare, die zum Senden weiterer Informationen an Target verwendet werden. Target sucht diese Parameter (reservierte Namen) automatisch, um Umsatzdaten aufzufüllen.
 
-Für die `orderConfirmPage` sollten Sie `orderTotal`, `orderId` und `productPurchasedId` weitergeben. Weitere Informationen finden Sie unter [Erstellen einer Mbox für Auftragsbestätigungen – mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
+Für die `orderConfirmPage` sollten Sie `orderTotal`, `orderId` und `productPurchasedId` weitergeben. 
 
-Dieselben Parameter müssen an die target-global-mbox via `targetPageParams()` gesendet werden. Weitere Informationen finden Sie unter [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
+Diese Parameter müssen über `targetPageParams()` an die target-global-mbox gesendet werden. Weitere Informationen finden Sie unter [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
 
 Sie sollten dem Konversionsteil auch ein Targeting hinzufügen, sodass Target nur dann Konversionen für die target-global-mbox zählt, wenn die Auftragsbestätigungsseite angezeigt wurde, wie unten dargestellt:
 
