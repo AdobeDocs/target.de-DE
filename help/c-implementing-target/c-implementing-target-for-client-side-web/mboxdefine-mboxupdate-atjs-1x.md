@@ -1,12 +1,11 @@
 ---
 keywords: Mboxdefine; mboxdefine; mbox definie; Mboxupdate; mboxupdate; mbox-Update; at.js; Funktionen; funktion
-description: Verwenden Sie die Funktionen mboxDefine() und mboxUpdate() für die JavaScript-Adobe  [!DNL Target] at.js, um eine Mbox zu definieren oder zu aktualisieren. (at.js 1.x)
+description: Verwenden Sie die Funktionen mboxDefine() und mboxUpdate() für die JavaScript-Bibliothek Adobe [!DNL Target] at.js , um eine Mbox zu definieren oder zu aktualisieren. (at.js 1.x)
 title: Wie verwende ich die Funktionen mboxDefine() und mboxUpdate()?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 86%
@@ -23,7 +22,7 @@ Definieren und aktualisieren Sie eine Mbox in Adobe Target.
 
 `mboxDefine()` und `mboxCreate()` sind an „DIV“-HTML-Elemente gebunden, in denen das Angebot angezeigt werden soll. Diese Elemente sollten die Klasse `mboxDefault` aufweisen. Wenn diese Klasse nicht an die HTML-Elemente angefügt wird, tritt möglicherweise ein deutliches Flackern auf.
 
-## mboxDefine   {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
+## mboxDefine  {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
 Erstellt eine interne Zuordnung zwischen einer „nodeid“ und einem Mbox-Namen, führt die Anforderung jedoch nicht aus Die Funktion kommt in der Regel zusammen mit `mboxUpdate()` zum Einsatz. Sie wurde vor allem deswegen in [!DNL at.js] integriert, um die Umstellung von [!DNL mbox.js] auf [!DNL at.js] zu erleichtern.
 
