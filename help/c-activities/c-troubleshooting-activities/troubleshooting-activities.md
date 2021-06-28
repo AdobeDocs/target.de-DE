@@ -4,10 +4,9 @@ description: Sollte Ihre Adobe  [!DNL Target] -Aktivität nicht auf Ihrer Site e
 title: Wie kann ich Probleme in Verbindung mit Aktivitäten beheben?
 feature: Aktivitäten
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '834'
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+workflow-type: tm+mt
+source-wordcount: '780'
 ht-degree: 100%
 
 ---
@@ -104,15 +103,6 @@ Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige v
 * Unterbrechen Sie die dynamische Modifizierung der Klasse oder Geschwister wie oben beschrieben.
 
 Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter   [Szenarien für die Seitenmodifizierung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
-
-## mbox.js verschiebt sämtlichen folgenden Code aus dem Kopf in den Textkörper.
-
-**Validierung:** Betrachten Sie die Quelle, um zu ermitteln, ob der mbox.js-Datei vor dem schließenden   `</body>` Tag Deklarationen folgen.
-
-**Optionen:**
-
-* Positionieren Sie mbox.js als letztes Element im `<head>`-Abschnitt Ihrer Seite.
-* Verwenden Sie eindeutige div-IDs für die auf höchster Ebene innerhalb des Textteils gelegenen Elemente.
 
 ## Andere Aktivitäten werden auf derselben Seite ausgeführt.
 
