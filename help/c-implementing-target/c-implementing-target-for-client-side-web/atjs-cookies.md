@@ -1,14 +1,13 @@
 ---
 keywords: at.js;2.0;1.x;Cookies
-description: Details zum Umgang mit Cookies in Adobe [!DNL Target] at.js 2.x und at.js 1.x
-title: at.js-Cookies
-feature: 'at.js '
+description: Informationen dazu, wie Adobe [!DNL Target] at.js 2.x und at.js 1.x Cookies verarbeiten
+title: Cookies in at.js
+feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1828'
 ht-degree: 96%
 
 ---
@@ -112,7 +111,7 @@ Das Cookie verfügt über mehrere Standardeinstellungen. Sie können diese Einst
 | Cookie-Name | mbox. |
 | Cookie-Domäne | Die obersten und die darunter liegenden Ebenen der Domänen, von denen der Inhalt geliefert wird. Da die Belieferung von der Domäne Ihres Unternehmens stattfindet, handelt es sich um ein Erstanbieter-Cookie. Beispiel: `mycompany.com`. |
 | Serverdomäne | `clientcode.tt.omtrdc.net`, unter Verwendung des Kundencodes für Ihr Konto. |
-| Cookie-Dauer | Das Cookie bleibt zwei Jahre nach seiner letzten Anmeldung im Browser des Besuchers.<br>Die  `deviceIdLifetime` Einstellung kann in  [at.js Version 2.3.1 oder höher](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) überschrieben werden. Weitere Informationen finden Sie unter [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
+| Cookie-Dauer | Das Cookie verbleibt zwei Jahre nach seiner letzten Anmeldung im Browser des Besuchers.<br>Die  `deviceIdLifetime` Einstellung kann in  [at.js Version 2.3.1 oder neuer](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) überschrieben werden. Weitere Informationen finden Sie unter [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
 | P3P-Richtlinie | Das Cookie wird mit einer P3P-Richtlinie veröffentlicht, wie sie von den Standardeinstellungen in den meisten Browsern gefordert wird. Durch eine P3P-Richtlinie wird einem Browser angezeigt, wer das Cookie bereitstellt und wie die Informationen verwendet werden. |
 
 Das Cookie enthält verschiedene Werte, mit denen verwaltet werden kann, wie die Besucher die Kampagnen erleben:
@@ -122,13 +121,13 @@ Das Cookie enthält verschiedene Werte, mit denen verwaltet werden kann, wie die
 | session ID | Eine eindeutige Kennung für eine Benutzersitzung. Standardmäßig ist diese 30 Minuten gültig. |
 | pc ID | Eine eingeschränkt dauerhafte Kennung für den Browser eines Besuchers. Wird 14 Tage beibehalten. |
 | check | Ein einfacher Testwert, mit dem bestimmt wird, ob ein Besucher Cookies unterstützt. Wird immer dann eingestellt, wenn ein Besucher eine Seite anfordert. |
-| disable | Wird eingestellt, wenn die Ladezeit des Besuchers den in der Datei mbox.js konfigurierten Timeout überschreitet. Standardmäßig ist dieser Wert eine Stunde gültig. |
+| disable | Wird eingestellt, wenn die Ladezeit des Besuchers die in der Datei [!DNL Adobe Experience Platform Web SDK] oder at.js konfigurierte Zeitüberschreitung überschreitet. Standardmäßig ist dieser Wert eine Stunde gültig. |
 
-## Auswirkungen auf &lt; a0/> für Safari-Besucher aufgrund von Apple WebKit-Verfolgungsänderungen[!DNL Target]
+## Auswirkungen auf [!DNL Target] für Safari-Besucher aufgrund von Änderungen des Trackings durch Apple WebKit
 
 Berücksichtigen Sie Folgendes:
 
-### Wie funktioniert die Adobe [!DNL Target] Verfolgung?
+### Wie funktioniert das Tracking der Adobe [!DNL Target]?
 
 | Cookies | Details |
 |--- |--- |
