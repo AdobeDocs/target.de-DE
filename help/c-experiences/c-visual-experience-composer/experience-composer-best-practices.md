@@ -1,16 +1,15 @@
 ---
 keywords: Visual Experience Composer;Best Practices für Visual Experience Composer;Einschränkungen von Visual Experience Composer;Nachteile von Visual Experience Composer;Best Practices für VEC;VEC
-description: Hier lernen Sie bewährte Verfahren kennen, damit Ihre Erlebnisse bei der Verwendung des Visual Experience Composer (VEC) in Adobe Target erwartungsgemäß funktionieren.
+description: Lernen Sie Best Practices kennen, damit Ihre Erlebnisse bei der Verwendung von Visual Experience Composer (VEC) in Adobe Target wie erwartet funktionieren.
 title: Was sind Best Practices und Einschränkungen von Visual Experience Composer?
-feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+feature: 'Visual Experience Composer (VEC)  '
+exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 93%
 
 ---
-
 
 # Best Practices und Einschränkungen von Visual Experience Composer
 
@@ -18,25 +17,21 @@ Durch Befolgung dieser Best Practices können Sie dafür sorgen, dass Ihre Erleb
 
 Befolgen Sie diese Best Practices und Sie werden bei den von Ihnen entworfenen Erlebnissen nicht so schnell auf unerwartete Probleme stoßen.
 
-## Best Practices {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
+## Best Practices   {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Bei der Verwendung von „mbox.js“ Version 57 und höher sowie von „at.js“ muss die Referenz „mbox.js“ oder „at.js“ oben im Abschnitt `<head>` Ihrer Seite platziert werden.**
+**Platzieren Sie die at.js-Referenz oben im  `<head>` Abschnitt Ihrer Seite.**
 
-Möchten Sie zudem den API-Besucherdienst verwenden, platzieren Sie das Skript der Besucher-API oberhalb von „mbox.js“ oder „at.js“.
-
-**Für „mbox.js“-Versionen, die älter sind als Version 57, muss der „mbox.js“-Code so weit unten wie möglich im Abschnitt `<head>` Ihrer Seite positioniert werden.**
-
-Positionieren Sie „mbox.js“ am Ende des `<head>`-Abschnitts ohne weitere Deklarationen im Anschluss. Andernfalls werden alle Skript- oder Link-Tags in den Abschnitt `<body>` verschoben.
+Wenn Sie auch den Besucher-API-Dienst verwenden, platzieren Sie das Besucher-API-Skript über at.js.
 
 **Der Enhanced Experience Composer kann auf Kontoebene (aktiviert für alle Aktivitäten, die mit diesem Konto erstellt werden) oder individuell für einzelne Aktivitäten aktiviert werden.**
 
-Um den Enhanced Experience Composer auf Kontoebene zu aktivieren, klicken Sie auf [!UICONTROL Administration > Visual Experience Composer] und stellen Sie dann den Schalter auf die Position &quot;Ein&quot;.
+Möchten Sie den Enhanced Experience Composer auf Kontoebene aktivieren, klicken Sie auf [!UICONTROL Administration > Visual Experience Composer] und stellen Sie den Regler auf die Position &quot;Ein&quot;.
 
 Möchten Sie den Enhanced Experience Composer für einzelne Aktivitäten aktivieren, wenn Sie eine Aktivität im Visual Experience Composer erstellen, klicken Sie auf [!UICONTROL Konfigurieren > URL] und stellen Sie den Regler auf die Position „Ein“.
 
-**Sie können bestimmte IP-Adressen in Zulassungslisten einfügen, wenn der Enhanced Visual Experience Composer nicht auf sicheren Seiten Ihrer Site geladen wird.**
+**Sie können bestimmte IP-Adressen in Zulassungslisten einordnen, wenn der Enhanced Visual Experience Composer auf sicheren Seiten Ihrer Site nicht geladen wird.**
 
-Probleme beim Laden des Enhanced Visual Experience Composer können durch Zulassungsauflistung der folgenden IP-Adressen behoben werden. Diese IP-Adressen stehen für den Server von Adobe zur Verfügung, der für den Proxy des Enhanced Experience Composer verwendet wird. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Besucher Ihrer Site benötigen diese IP-Adressen nicht auf die Zulassungsliste gesetzt.
+Probleme beim Laden des Enhanced Visual Experience Composer können gelöst werden, indem die folgenden IP-Adressen auf die Zulassungsliste gesetzt werden. Diese IP-Adressen stehen für den Server von Adobe zur Verfügung, der für den Proxy des Enhanced Experience Composer verwendet wird. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Besucher Ihrer Site müssen diese IP-Adressen nicht auf die Zulassungsliste gesetzt haben.
 
 Vereinigte Staaten: 52.55.99.45, 54.80.158.92 und 54.204.197.253
 
@@ -182,7 +177,7 @@ Deaktivieren Sie iframe-Busting auf Ihrer Webseite und prüfen Sie, ob sie sich 
 </html>
 ```
 
-## Einschränkungen {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
+## Einschränkungen  {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
 Beachten Sie folgende Einschränkungen bei der Verwendung von Visual Experience Composer zum Entwerfen Ihrer Aktivität.
 
@@ -226,7 +221,7 @@ Wenn Sie den Enhanced Experience Composer auf einer nicht veröffentlichten Seit
 
 Dies kann umgangen werden, indem Erlebnisleiste und Seitenleiste durch Klicken auf die nach links zeigenden Pfeile oben minimiert werden.
 
-## Einschränkungen {#section_F33C2EA27F2E417AA036BC199DD6C721}
+## Einschränkungen   {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
 **Funktion „Verschieben“**
 
@@ -234,7 +229,7 @@ Ein Element kann nicht außerhalb eines Behälters verschoben werden, auf den ei
 
 **Auf Mboxes stehen lediglich Tauschangebote zur Verfügung.**
 
-Aktionen wie „Klasse bearbeiten“ und „Neu anordnen“ sind innerhalb einer Mbox nicht zulässig. mbox-Inhalt wird durch mbox.js. gesendet.
+Aktionen wie „Klasse bearbeiten“ und „Neu anordnen“ sind innerhalb einer Mbox nicht zulässig.
 
 **Sie sollten dasselbe Element nicht neu ordnen und verschieben.**
 
