@@ -1,13 +1,12 @@
 ---
 keywords: SPA VEC;React;Angular;react.js;SPA Visual Experience Composer;Optionen in SPA Experience Composer;Einzelseiten-App;Single-Page-App;SPA;Optionen für mobile Erlebnisse;Target-Ansicht
-description: Erfahren Sie, wie Sie den SPA VEC in Adobe [!DNL Target] verwenden, um Tests zu erstellen und Inhalte auf SPA zu personalisieren, ohne ständig Entwicklungsabhängigkeiten zu haben.
-title: Wie verwende ich den Visual Experience Composer (SPA VEC) für Einzelseitenanwendungen?
-feature: 'Visual Experience Composer (VEC) '
+description: Erfahren Sie, wie Sie den SPA VEC in Adobe [!DNL Target] verwenden, um Tests zu erstellen und Inhalte auf SPA selbstständig zu personalisieren, ohne von der kontinuierlichen Weiterentwicklung abhängig zu sein.
+title: Wie verwende ich den Visual Experience Composer (SPA VEC) für Einzelseiten-Apps?
+feature: 'Visual Experience Composer (VEC)  '
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '3700'
+source-wordcount: '3699'
 ht-degree: 91%
 
 ---
@@ -20,7 +19,7 @@ In [!DNL Adobe Target] bietet [!UICONTROL Visual Experience Composer] (VEC) Mark
 
 Mit der neuesten Version bieten wir nun VEC für SPAs an. VEC für SPAs ermöglicht es Marketing-Experten, für SPAs selbst Tests zu erstellen und Inhalt zu personalisieren, ohne von der kontinuierlichen Weiterentwicklung abhängig zu sein. Mit VEC können Sie [A/B-Test](/help/c-activities/t-test-ab/test-ab.md)- und [Erlebnis-Targeting](/help/c-activities/t-experience-target/experience-target.md)-Aktivitäten (XT-Aktivitäten) in beliebten Frameworks wie React und Angular erstellen.
 
-## Ansichten und Einzelseitenanwendungen mit Adobe [!DNL Target]
+## Adobe [!DNL Target] Ansichten und Einzelseiten-Apps
 
 Adobe Target VEC für SPAs basiert auf einem neuen Konzept für Ansichten: Eine Ansicht entspricht einer logischen Gruppe visueller Elemente, aus denen sich ein SPA-Erlebnis zusammensetzt. Eine SPA kann also als eine Reihe von Ansichten anstelle von URLs betrachtet werden, die je nach Benutzerinteraktion aufgerufen werden. Eine Ansicht umfasst in der Regel eine ganze Site oder eine Gruppe visueller Elemente innerhalb einer Site.
 
@@ -46,7 +45,7 @@ Am Anfang dieses Abschnitts haben wir Ansichten als ganze Site oder sogar als ei
 
 Klicken Sie auf die Schaltfläche „Mehr laden“, um weitere Produkte auf der Site zu erkunden. In diesem Fall ändert sich die Website-URL nicht. Hier kann auch nur die zweite Zeile der oben gezeigten Produkte als Ansicht angesehen werden. Der Name der Ansicht könnte also „PRODUKTSEITE-2“ lauten.
 
-**Link:  [Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link:  [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![Checkout-Seite](/help/c-experiences/assets/checkout.png)
 
@@ -56,13 +55,13 @@ Das Konzept Ansichten aber kann noch viel mehr ausgeweitet werden. Für Marketin
 
 Ihre Marketing-Experten können auch einen A/B-Test durchführen, um zu sehen, ob die Änderung der Farbe von Blau auf Rot nach Auswahl der Expresszustellung die Konversion im Vergleich zu gleichbleibend blauer Button-Farbe für beide Versandoptionen steigert.
 
-## Implementieren von Ansichten zur Adobe [!DNL Target]
+## Implementieren der Adobe [!DNL Target] Ansichten
 
 Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir dieses Konzept in Target nutzen, um Marketern die Möglichkeit zu geben, mithilfe des VEC A/B- und XT-Tests in SPAs durchzuführen. Dies erfordert eine einmalige Einrichtung durch den Entwickler. Nachfolgend sind die Schritte beschrieben, die sie dazu befolgen müssen.
 
 1. Installieren Sie at.js 2.x.
 
-   Zunächst müssen Sie at.js 2.x installieren. Diese Version von at.js wurde speziell für SPAs entwickelt. Frühere Versionen von at.js und mbox.js unterstützen Adobe Target-Ansichten und VEC für SPA nicht.
+   Zunächst müssen Sie at.js 2.x installieren. Diese Version von at.js wurde speziell für SPAs entwickelt. Frühere Versionen von at.js und unterstützen Adobe Target-Ansichten und VEC für SPA nicht.
 
    ![Dialogfeld „Implementierungsdetails“](/help/c-experiences/assets/imp-200.png)
 
@@ -142,7 +141,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
    }
    ```
 
-   **Link:  [Kasse](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Link:  [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![React-Checkout](/help/c-experiences/assets/react6.png)
 
@@ -358,7 +357,7 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 | [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Ja |
 | [AEM-Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
-## Unterstützte Funktionen   {#supported-features}
+## Unterstützte Funktionen {#supported-features}
 
 | Funktion | Unterstützt? |
 | --- | --- |
@@ -391,9 +390,9 @@ Im Folgenden wird ein Anwendungsfall beschrieben:
 Folgende Änderungen wurden vorgenommen:
 
 * Die Hintergrundfarbe in der Startansicht unter dieser URL wurde geändert: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
-* Die Schaltflächenfarbe in der Ansicht &quot;Produkte&quot;unter der URL wurde geändert: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Die Schaltflächenfarbe in der Produktansicht unter der URL wurde geändert: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-Was passiert mit dem obigen Beispiel, wenn die Einstellungen für [!UICONTROL Page Versand] nur Folgendes umfassen: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in einem SPA mit at.js 2.*x*?
+Was würde passieren, wenn wir unter Berücksichtigung des obigen Beispiels die Einstellungen [!UICONTROL Seitenbereitstellung] so konfigurieren, dass nur Folgendes enthalten ist: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in einer SPA mit at.js 2.*x*?
 
 ![Dialogfeld „Seitenbereitstellung“](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -404,18 +403,18 @@ Die folgende Abbildung zeigt den Target-Ablauf: Seitenladeanfrage in at.js 2.*x*
 **Customer Journey Nr. 1**
 
 * Ein Benutzer navigiert direkt zu [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x*  eine Abfrage an die Kante vornimmt, um zu sehen, ob eine Aktivität für die URL ausgeführt werden muss: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* at.js 2.*x*  richtet eine Abfrage an Edge, um zu sehen, ob Aktivitäten für die URL ausgeführt werden müssen: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * In Schritt 6 gibt Target Edge die Aktionen für die Startseiten- und Produktansicht zurück, sodass sie im Browser zwischengespeichert werden.
 
 **Ergebnis**: Der Benutzer sieht die grüne Hintergrundfarbe in der Startansicht. Wenn der Benutzer dann zu [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products navigiert, wird die blaue Hintergrundfarbe der Schaltfläche angezeigt, da die Aktion im Browser unter der Produktansicht zwischengespeichert wird.
 
-Hinweis: Beim Navigieren zu [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) wurde kein Seitenladevorgang Trigger.
+Hinweis: Der Benutzer, der zu [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) navigiert ist, hat kein Laden der Seite Trigger.
 
 **Customer Journey Nr. 2**
 
 * Ein Benutzer navigiert direkt zu [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x*  eine Abfrage an die Kante vornimmt, um zu sehen, ob eine Aktivität für die URL ausgeführt werden muss: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* Für [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) sind keine Aktivitäten qualifiziert.
+* at.js 2.*x*  richtet eine Abfrage an Edge, um zu sehen, ob Aktivitäten für die URL ausgeführt werden müssen: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Es gibt keine Aktivitäten, die für [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) qualifiziert sind.
 * Da es keine Aktivitäten gibt, müssen auch keine Aktionen und Ansichten zwischengespeichert werden, damit at.js 2 *x* ausgelöst werden kann.
 
 **Ergebnis**: Selbst wenn Sie `triggerView()` für die Produktansicht definiert haben und über den SPA VEC in der Produktansicht eine Aktion ausgeführt haben, wird die erwartete Aktion nicht ausgeführt, da Sie keine Regel erstellt haben, die [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products in den Seitenbereitstellungs-Einstellungen enthält.
@@ -440,4 +439,4 @@ Diese Meldung wird angezeigt, wenn Sie die erste Aktion einer Ansicht für jede 
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-Weitere Informationen finden Sie unter Verwenden des Visual Experience Composer für Einzelseitenanwendung (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html).[
+Weitere Informationen finden Sie unter [Verwenden des Visual Experience Composer für Einzelseiten-Apps (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) .
