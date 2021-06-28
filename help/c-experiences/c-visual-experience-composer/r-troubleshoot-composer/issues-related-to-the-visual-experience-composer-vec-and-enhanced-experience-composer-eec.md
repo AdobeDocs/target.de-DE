@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie unter bestimmten Bedingungen Probleme beheben
 title: Wie kann ich Probleme im Zusammenhang mit Visual Experience Composer und Enhanced Experience Composer beheben?
 feature: 'Visual Experience Composer (VEC)  '
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 63%
+source-wordcount: '1341'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,7 @@ Verwenden Sie eine der folgenden Optionen, um sicherzustellen, dass VEC und EEC 
 
 ## Unterstützt [!DNL Target] iFrames mit mehreren Ebenen?
 
-Nein, Target unterstützt keine iFrames mit mehreren Ebenen. Wenn Ihre Website einen iFrame mit einem untergeordneten iFrame lädt, interagieren Target-Bibliotheken (at.js und mbox.js) nur mit dem übergeordneten iFrame. Target-Bibliotheken interagieren nicht mit dem untergeordneten iFrame.
+[!DNL Target]Nein,  unterstützt keine iFrames mit mehreren Ebenen. Wenn Ihre Website einen iframe lädt, der über einen untergeordneten iframe verfügt, interagiert at.js nur mit dem übergeordneten iframe. [!DNL Target] -Bibliotheken interagieren nicht mit dem untergeordneten iframe.
 
 Als Behelfslösung können Sie im Erlebnis eine Seite mit der URL des untergeordneten iFrame hinzufügen.
 
