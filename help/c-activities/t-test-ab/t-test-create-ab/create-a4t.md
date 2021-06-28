@@ -1,22 +1,21 @@
 ---
-keywords: Targeting;Analyse;Tracking-Server;Analyse für Zielgruppe;a4t
+keywords: Targeting; Analytics; Tracking-Server; Analytics für Target; a4t
 description: Erfahren Sie, wie Sie eine Aktivität in Adobe [!DNL Target] to use Adobe Analytics as the reporting source. This integration is called Analytics for [!DNL Target] (A4T) konfigurieren.
-title: Wie kann ich Analytics-Daten in Zielgruppe verwenden?
-feature: Analytics for Target (A4T)
+title: Wie kann ich Analytics-Daten in Target verwenden?
+feature: 'Analytics for Target (A4T) '
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 88%
+source-wordcount: '536'
+ht-degree: 80%
 
 ---
 
 # Verwenden von Analytics-Daten
 
-Sie können eine Aktivität in [!DNL Adobe Target] konfigurieren, um [!DNL Adobe Analytics] als Berichte-Quelle (A4T) zu verwenden.
+Sie können eine Aktivität in [!DNL Adobe Target] konfigurieren, um [!DNL Adobe Analytics] als Berichtsquelle (A4T) zu verwenden.
 
-Ausführliche Informationen zum Einrichten von Analytics als Datenquelle für die Zielgruppe finden Sie unter [Adobe Analytics als Berichte-Quelle für Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+Detaillierte Informationen zum Einrichten von Analytics als Datenquelle für Target finden Sie unter [Adobe Analytics als Berichtsquelle für Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 Bevor Sie eine Aktivität einrichten, die Analytics als Berichtsquelle verwendet, müssen Sie das Ziel für die Aktivität festlegen, beispielsweise die Verbesserung des Umsatzes pro Besucher (RPV) oder die Erhöhung der Klicks auf Ihren Warenkorb. Wählen Sie eine finale Erfolgsmetrik für die Kampagne aus. Auch wenn Sie jederzeit zusätzliche Metriken in Analytics auswählen können, müssen Sie trotzdem eine bestimmte Metrik angeben, auf die dieser Test erwartungsgemäß Auswirkungen hat.
 
@@ -30,7 +29,7 @@ Analytics for Target erfordert einen Trackingserver, damit die Ergebnisse richti
 
 >[!NOTE]
 >
->Sollten Sie Adobe Analytics als Berichtsquelle für Ihre Aktivität verwenden, müssen Sie bei der Erstellung einer Aktivität und bei der Verwendung von mbox.js Version 61 (oder neuer) oder at.js Version 0.9.1 (oder neuer) keinen Trackingserver angeben. Die Bibliothek von mbox.js oder at.js sendet automatisch Trackingserverwerte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
+>Wenn Sie Adobe Analytics als Berichtsquelle für Ihre Aktivität verwenden, müssen Sie bei der Aktivitätserstellung keinen Trackingserver angeben, wenn Sie at.js , Version 0.9.1 (oder neuer) verwenden. Die at.js-Bibliothek sendet automatisch Trackingserverwerte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
 
 Wenn Sie eine Aktivität einrichten, nachdem Sie Analytics als Berichtsquelle festgelegt haben, gibt es keine Möglichkeit, Zielgruppen für die Berichterstellung festzulegen. Analytics-Segmente sind in den Target Activities-Berichten verfügbar.
 
