@@ -1,12 +1,12 @@
 ---
-keywords: document.write;Target;implementieren;Target implementieren;DTM;at.js;mbox.js;target.js;mbox;Adobe Experience Platform Web SKD;aep Web SDK;Web SDK
-description: Implementieren Sie Adobe [!DNL Target] by referencing the [!DNL Target] -Bibliotheken (at.js oder mbox.js) auf Ihren Webseiten.
+keywords: document.write;target;implementieren;Target implementieren;DTM;at.js;Adobe Experience Platform Web Skd;aep Web SDK;Web SDK
+description: Implementieren Sie Adobe [!DNL Target] by referencing the [!DNL Target] JavaScript-Bibliotheken auf Ihren Webseiten.
 title: Erläuterung der  [!DNL Target] -JavaScript-Bibliotheken
 feature: Implementierung
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 24%
+source-wordcount: '436'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ Implementieren Sie [!DNL Adobe Target] , indem Sie auf Ihren Webseiten auf die [
 
 >[!NOTE]
 >
->Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden müssen vor dem 31. März 2021 von mbox.js zu at.js oder zum [!UICONTROL Adobe Experience Platform Web SDK] migrieren.
+>Die mbox.js-Bibliothek wird nicht mehr weiterentwickelt. Alle Kunden müssen vor dem 31. März 2021 zu at.js oder zum [!UICONTROL Adobe Experience Platform Web SDK] migrieren.
 
 ## Unterschiede zwischen den JavaScript-Bibliotheken [!DNL Target] {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
@@ -26,7 +26,7 @@ In der folgenden Tabelle werden die Unterschiede zwischen den JavaScript-Bibliot
 | Bibliotheksreferenz | Beschreibung |
 |--- |--- |
 | Adobe Experience Platform Web SDK | Mit dem [!UICONTROL Adobe Experience Platform Web SDK] können Sie über das Adobe Experience Edge Network mit den verschiedenen Diensten in [!DNL Experience Cloud] (einschließlich [!DNL Target]) interagieren. Wenn Sie eine Migration zu [!DNL Adobe Experience Platform Web SDK] vornehmen, finden Sie weitere Informationen unter [Was ist das Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) im *Web SDK Guide*. |
-| at.js | at.js ersetzt mbox.js für [!DNL [!DNL Target]]-Implementierungen.<br>Neben anderen Vorteilen sorgt at.js für kürzere Ladezeiten von Seiten bei Webimplementierungen, bessere Sicherheit, Vermeidung von document.write-Warnungen in Google Chrome und bessere Implementierungsoptionen für Einzelseiten-Apps. |
+| at.js | at.js verbessert die Seitenladezeiten für Webimplementierungen, verbessert die Sicherheit, verhindert document.write-Warnungen in Google Chrome und bietet bessere Implementierungsoptionen für Einzelseitenanwendungen. |
 
 ## Auswirkung von at.js auf die Seitenladezeit {#section_16630CD0FF0A498EB596A51381366A5A}
 
