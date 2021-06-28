@@ -4,23 +4,22 @@ description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] Klicks auf beliebige 
 title: Was ist Klick-Tracking?
 feature: Erfolgsmetriken
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '885'
 ht-degree: 91%
 
 ---
 
 # Klick-Tracking
 
-[!DNL Adobe Target] können Sie Klicks auf beliebige Elemente als Erfolgsmetrik verfolgen.
+[!DNL Adobe Target] ermöglicht Ihnen, Klicks auf beliebige Elemente als Erfolgsmetrik zu verfolgen.
 
 >[!NOTE]
 >
->Die Verfolgung von Klicks wird nicht von der Anforderung der globalen Zielgruppe unterstützt, wenn sie als Ort in einer formularbasierten Aktivität verwendet wird.
+>Das Tracking von Klicks wird in der globalen Target-Anfrage nicht unterstützt, wenn sie als Ort in einer formularbasierten Aktivität verwendet wird.
 
-## Einrichten von Klick-Tracking{#section_5540C5A533114E57BAE022A600B02E72}
+## Einrichten von Klick-Tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. Wenn Sie die Ziele für Ihre Aktivität auf der Seite [!UICONTROL Ziele und Einstellungen] festlegen, wählen Sie die Erfolgsmetrik **[!UICONTROL Konversion]** aus.
 1. Wählen Sie als Aktion **[!UICONTROL Klicks auf ein Element]** aus und klicken Sie anschließend auf **[!UICONTROL Elemente auswählen]**.
@@ -35,7 +34,7 @@ ht-degree: 91%
 
 Wenn ein Aktivitätsteilnehmer auf ein ausgewähltes Element klickt, wird dieser Klick als Konversion gezählt.
 
-## Bedienfeld „Ausgewählte Elemente“{#selected-elements}
+## Bedienfeld „Ausgewählte Elemente“ {#selected-elements}
 
 Für A/B-Tests, Erlebnis-Targeting (XT), Automatisierte Personalisierung (AP) und Multivarianz-Tests (MVT) werden im Bereich [!UICONTROL Ausgewählte Elemente] alle für Klick-Tracking ausgewählten Elemente auf der rechten Seite aufgeführt.
 
@@ -73,8 +72,8 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 
    Weitere Informationen finden Sie unter [Navigate elements using the DOM path (In Elementen über den DOM-Pfad navigieren)](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer–Optionen*.
 
-* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der  [Mehrseiten-Funktion](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) in die Aktivität aufgenommen werden, und [!DNL at.js] oder [!DNL mbox.js] muss darin implementiert werden.
-* Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzeln Erfolgsmetriken für sie festlegen. Um ein Element zu zählen, indem Sie auf mehrere Elemente auf einer Seite klicken, bearbeiten Sie den CSS-Element-Selektor, um mehrere Elemente zuzuordnen.
+* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der   [mehrseitige Funktionen ](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) verwenden und darin implementiert werden  [!DNL at.js] müssen.
+* Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzelne Erfolgsmetriken für sie festlegen. Um ein Element zu zählen, indem Sie auf mehrere Elemente auf einer Seite klicken, bearbeiten Sie den CSS-Element-Selektor, um mehrere Elemente abzugleichen.
 * Achten Sie darauf, die Ebene des Elements auszuwählen, die Sie verfolgen möchten. Wenn Sie zum Beispiel eine Schaltfläche angeben möchten, achten Sie darauf, den Link und nicht den Schaltflächentext auszuwählen.
 * Klickereignisse werden auf derselben Seite des Klicks an [!DNL Target] gesendet.
 * Wenn es sich bei der Klick-Verfolgungsmetrik um die Zielmetrik einer A4T-Aktivität handelt, muss der Besucher innerhalb von 60 Sekunden nach dem Laden der Seite auf dieses Element klicken, damit die Metrikverfolgung erfolgt.
