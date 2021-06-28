@@ -1,29 +1,28 @@
 ---
 keywords: Targeting;Visual Experience Composer;VEC;Fehlerbehebung Visual Experience Composer;Fehlerbehebung;TLS;TLS 1.2
-description: Erfahren Sie, wie Sie unter bestimmten Umständen Probleme beheben, die manchmal in der Adobe [!DNL Target] Visual Experience Composer (VEC) auftreten.
-title: Wie behebe ich Fehler im Zusammenhang mit Visual Experience Composer?
-feature: 'Visual Experience Composer (VEC) '
+description: Erfahren Sie, wie Sie unter bestimmten Bedingungen Probleme beheben können, die manchmal in der Adobe [!DNL Target] Visual Experience Composer (VEC) auftreten.
+title: Wie kann ich Probleme im Zusammenhang mit Visual Experience Composer beheben?
+feature: 'Visual Experience Composer (VEC)  '
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
-# Fehlerbehebung in Zusammenhang mit Visual Experience Composer
+# Beheben von Problemen mit Visual Experience Composer
 
-Anzeigeprobleme treten manchmal unter bestimmten Bedingungen im [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) auf.
+Unter bestimmten Umständen treten im [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) manchmal Anzeigeprobleme auf.
 
-## Wenn ich meine Website im Visual Experience Composer öffne, werden die Bibliotheken [!DNL Target] nicht geladen. (nur VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Wenn ich meine Website im Visual Experience Composer öffne, werden die [!DNL Target]-Bibliotheken nicht geladen. (Nur VEC)   {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Target fügt zwei Parameter (`mboxEdit=1` und `mboxDisable=1`) beim Öffnen der Website im Visual Experience Composer hinzu.
 
 Wenn Ihre Website (insbesondere Apps mit einzelnen Seiten) unsere Parameter beschneidet oder beim Navigieren zwischen Seiten entfernt (ohne eine Seite neu zu laden), ist die Target-Funktionalität nicht mehr gegeben, und die Target-Bibliotheken werden nicht geladen. 
 Stellen Sie zur Vermeidung dieses Problems sicher, dass Sie diese beiden Parameter nicht beschneiden oder entfernen.
 
-## Meine Seite wird im EEC nicht geöffnet oder nur langsam geladen. Aktivitäten oder Erlebnisse werden im VEC langsam geladen. (nur VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Meine Seite wird im EEC nicht geöffnet oder nur langsam geladen. Aktivitäten oder Erlebnisse werden im VEC langsam geladen. (Nur VEC)   {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 Die Seitenleistung in einer der Versionen von Experience Composer in Target kann durch viele verschiedene Faktoren beeinflusst werden. Im Folgenden finden Sie einige gängige Gründe:
 
@@ -33,7 +32,7 @@ Die Seitenleistung in einer der Versionen von Experience Composer in Target kann
 
 Falls Probleme in Enhanced Experience Composer auftreten, versuchen Sie zunächst, Enhanced Experience Composer zu deaktivieren und stattdessen Visual Experience Composer zu verwenden.
 
-Um Enhanced Experience Composer zu deaktivieren, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** und deaktivieren Sie die Option **[!UICONTROL Enhanced Experience Composer aktivieren]**.
+Um den Enhanced Experience Composer zu deaktivieren, navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** und deaktivieren Sie die Option **[!UICONTROL Enhanced Experience Composer aktivieren]** .
 
 Bei einigen Benutzern wird in der Konsole die folgende Fehlermeldung angezeigt:
 
@@ -109,7 +108,7 @@ Bei der Firefox-Erweiterung „Modify Response Headers“ müssen Sie wie folgt 
 
 Öffnen Sie Target, nachdem Sie eine der Erweiterungen eingerichtet haben. Ihre Seiten sollten nun in Visual Experience Composer geladen werden, selbst wenn Enhanced Experience Composer deaktiviert ist.
 
-## Meine Seite wird im VEC nicht angezeigt (nur VEC)   {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Meine Seite wird im VEC nicht angezeigt (nur VEC)  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * Der Browser wird nicht unterstützt.
 * Der Browser blockiert eine nicht sichere Seite auf einer sicheren Site.
@@ -118,8 +117,8 @@ Bei der Firefox-Erweiterung „Modify Response Headers“ müssen Sie wie folgt 
 * Sie haben eine ungültige URL eingegeben.
 * Sie haben auf Ihrer Konto-Einrichtungsseite keine Standard-URL eingegeben.
 
-Stellen Sie sicher, dass diese Einstellung aktiviert ist, laden Sie dann mbox.js erneut herunter und aktualisieren Sie damit Ihre Website.
+Stellen Sie sicher, dass diese Einstellung aktiviert ist, laden Sie dann at.js herunter und aktualisieren Sie es auf Ihrer Website.
 
-## Bei der Verwendung des Modus zum Durchsuchen scheint der VEC nicht zu funktionieren. (nur VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## Bei der Verwendung des Modus zum Durchsuchen scheint der VEC nicht zu funktionieren. (Nur VEC)   {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 Wenn Sie beim Verwenden des Durchsuchen-Modus auf eine URL zugreifen, die nicht über target.js verfügt oder einen Header mit einem zerstörten Frame enthält, scheint der Visual Experience Composer beschädigt. Aufgrund von Sicherheitsbedenken beim Browser kann Target nicht auf die URL zugreifen, zu der Sie navigiert haben.
