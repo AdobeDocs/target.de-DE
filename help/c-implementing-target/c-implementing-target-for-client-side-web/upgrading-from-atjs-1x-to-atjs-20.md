@@ -2,13 +2,13 @@
 keywords: at.js-Versionen;at.js-Releases;Einzelseiten-App;spa;domänenübergreifend;Domänen übergreifend
 description: Erfahren Sie, wie Sie von Adobe [!DNL Target] at.js 1.x auf at.js 2.x aktualisieren. Untersuchen Sie Systemflussdiagramme, lernen Sie neue und veraltete Funktionen kennen und vieles mehr.
 title: Wie aktualisiere ich von at.js Version 1.x auf Version 2.x?
-feature: 'at.js  '
+feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
+source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 92%
+source-wordcount: '2761'
+ht-degree: 91%
 
 ---
 
@@ -52,7 +52,7 @@ Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten un
 | 5 | Analysedaten werden an den Datenerfassungsserver gesendet. |
 | 6 | Target-Daten werden über die SDID mit Analytics-Daten abgeglichen und im Analytics-Berichtspeicher abgelegt. Analysedaten können dann über A4T-Berichte sowohl in Analytics als auch in Target angezeigt werden. |
 
-## Bereitstellen von at.js 2 *x* {#deploy-atjs-200}
+## Bereitstellen von at.js 2 *x*  {#deploy-atjs-200}
 
 1. Bereitstellen von at.js 2 *x* über die [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)-Erweiterung.
 
@@ -217,7 +217,7 @@ Kunden, die `mboxCreate()` für ihr Konversions-Tracking verwenden, müssen `tra
 
 Kunden, die `mboxCreate()` nicht durch `getOffer()` oder `applyOffer()` ersetzen, riskieren möglicherweise, dass Angebote nicht bereitgestellt werden.
 
-### Kann at.js 2.*x* auf manchen Seiten verwendet werden, während at.js 1.*x* oder mbox.js auf anderen Seiten verwendet wird?
+### Kann at.js 2.*x* auf manchen Seiten verwendet werden, während at.js 1.** Achse auf anderen Seiten?
 
 Ja, das Besucherprofil wird über verschiedene Seiten mit verschiedenen Versionen und Bibliotheken hinweg erhalten. Das Cookie-Format ist identisch.
 
@@ -248,7 +248,7 @@ Im Grunde wurde das Konzept der globalen Mbox eingeführt, um [!DNL Target] mitz
 
 ### Ist der Name der globalen Mbox in at.js nicht mehr wichtig?
 
-Kunden können einen globalen Mbox-Namen über [!UICONTROL Target > Administration > Implementierung > at.js-Einstellungen bearbeiten] angeben. Diese Einstellung wird von den [!DNL Target]-Edge-Servern verwendet, um „Ausführen > Seite laden“ in den globalen Mbox-Namen zu übersetzen, der in der [!DNL Target]-Benutzeroberfläche angezeigt wird. Dadurch können Kunden mit dem globalen Mbox-Namen weiterhin Server-seitige APIs, den Form-Based Composer und Profilskripts verwenden und Zielgruppen erstellen. Wir empfehlen dringend, dass Sie auch sicherstellen, dass derselbe globale Mbox-Name auch auf der Seite [!UICONTROL Administration > Visual Experience Composer] konfiguriert ist, falls Sie noch Seiten mit at.js 1 haben.*x* oder mbox.js, benutzen, wie in den folgenden Abbildungen dargestellt.
+Kunden können einen globalen Mbox-Namen über [!UICONTROL Target > Administration > Implementierung > at.js-Einstellungen bearbeiten] angeben. Diese Einstellung wird von den [!DNL Target]-Edge-Servern verwendet, um „Ausführen > Seite laden“ in den globalen Mbox-Namen zu übersetzen, der in der [!DNL Target]-Benutzeroberfläche angezeigt wird. Dadurch können Kunden mit dem globalen Mbox-Namen weiterhin Server-seitige APIs, den Form-Based Composer und Profilskripts verwenden und Zielgruppen erstellen. Wir empfehlen dringend, dass Sie auch sicherstellen, dass derselbe globale Mbox-Name auch auf der Seite [!UICONTROL Administration > Visual Experience Composer] konfiguriert ist, falls Sie noch Seiten mit at.js 1 haben.*x*, wie in den folgenden Abbildungen dargestellt.
 
 ![Dialogfeld „at.js ändern“](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
