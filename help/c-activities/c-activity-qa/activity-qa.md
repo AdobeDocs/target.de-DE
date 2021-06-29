@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] QA-URLs eine durchgä
 title: Wie kann ich QA-Aktivitäten durchführen?
 feature: Aktivitäten
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
+source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 39%
+source-wordcount: '1760'
+ht-degree: 38%
 
 ---
 
@@ -94,7 +94,7 @@ Verwenden Sie QA-URLs in [!DNL Adobe Target], um einfache End-to-End-Aktivitäts
 
 * Die Benutzeroberfläche von [!UICONTROL Target QA Mode] zeigt nur die erste URL eines Erlebnisses in einer mehrseitigen Aktivität an. Es wird angenommen, dass Sie einen Journey-Test erstellen und von URL1 zu URL2 wechseln. Wenn Sie jedoch unabhängig zu URL 2 wechseln möchten, kopieren Sie alle URL-Parameter, die neben URL1 angegeben sind, und wenden Sie sie nach dem Platzieren eines „?“ auf URL2 an, genau wie Sie sie in URL1 sehen.
 
-## Kompatibilität der JavaScript-Bibliothek von Target [!UICONTROL QA-Modus]
+## Kompatibilität der JavaScript-Target-Bibliothek [!UICONTROL QA-Modus] {#compatibility}
 
 [!DNL Target] unterstützt die folgenden JavaScript-Bibliotheken:
 
@@ -128,18 +128,13 @@ Um auf eine Vorschau-URL zuzugreifen und diese freizugeben, klicken Sie auf der 
 
 In der folgenden Tabelle sind die verschiedenen Aktivitätstypen aufgeführt und es wird angegeben, ob die Vorschau-URLs-Funktion für jede Bibliothek oder API unterstützt wird:
 
-| Aktivitätstyp | at.js 1.x | at.js 2.x | Platform Web SDK | Bereitstellungs-API | Admin-API |
-| --- | --- | --- | --- | --- | --- |
-| [!UICONTROL A/B-Test] | Ja | Ja | Ja | Nicht anwendbar | Ja |
-| [!UICONTROL Automatische Zuordnung] | Ja | Ja | Ja | Nicht anwendbar | Ja |
-| [!UICONTROL Automatisches Targeting] | Ja | Ja | Ja | Nicht anwendbar | Ja |
-| [!UICONTROL Automatisierte Personalisierung] (AP) | Ja | Ja | Nein | Nicht anwendbar | Ja |
-| [!UICONTROL Erlebnis-Targeting] (XT) | Ja | Ja | Ja | Nicht anwendbar | Ja |
-| [!UICONTROL Multivariate Tests] (MVT) | Ja | Ja | Ja | Nicht anwendbar | Ja |
-| [!UICONTROL Recommendations] | Ja | Ja | Ja | Nicht anwendbar | Ja |
-
-
-
-
-
+| Aktivitätstyp | at.js 1.x | at.js 2.x | Platform Web SDK |
+| --- | --- | --- | --- |
+| [!UICONTROL A/B-Test] | Ja | Ja | Ja |
+| [!UICONTROL Automatische Zuordnung] | Ja | Ja | Ja |
+| [!UICONTROL Automatisches Targeting] | Ja | Ja | Ja |
+| [!UICONTROL Automatisierte Personalisierung] (AP) | Ja | Ja | Ja |
+| [!UICONTROL Erlebnis-Targeting] (XT) | Ja | Ja | Ja |
+| [!UICONTROL Multivariate Tests] (MVT) | Ja | Ja | Ja |
+| [!UICONTROL Recommendations] | Ja | Ja | Ja |
 
