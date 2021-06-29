@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo finde ich Informationen zu Änderungen an der Target-Dokumentation?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 90%
+source-wordcount: '1563'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 29. Juni | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Es wurde eine Kompatibilitätsmatrix hinzugefügt, die zeigt, welche Aktivitätstypen den Aktivitätsmodus unterstützen, wenn verschiedene Target-JavaScript-Bibliotheken verwendet werden. |
+| 29. Juni | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Die folgenden Abschnitte wurden hinzugefügt:<ul><li>Kompatibilität der JavaScript-Target-Bibliothek [!UICONTROL QA-Modus]</li><li>Vorschau-URLs</li></ul> |
 | 24. Juni | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Hinweise zur Vorabversion für die Version [!DNL Target Standard/Premium] 21.6.1 (30. Juni 2021) wurden aktualisiert. |
 | 16. Juni | [[!DNL Target] Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Python SDK-Version 1.0.0 von [!DNL Adobe Target] hinzugefügt. |
 |  | [Berichte zu Personalization Insights](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Wie lange dauern Daten für die Modelle [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] an?</li></ul> |
