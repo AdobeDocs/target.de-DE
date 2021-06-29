@@ -1,12 +1,12 @@
 ---
-keywords: qa; qa-Modus; activity qa;qa url;qa urls
+keywords: qa; qa-Modus; activity qa; qa url; qa urls; Vorschau-URL; Vorschau-URL
 description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] QA-URLs eine durchgängige Aktivitäts-QA durchführen können, indem Sie unveränderbare Vorschaulinks, optionales Zielgruppen-Targeting und QA-Berichte einfügen, die basierend auf Live-Aktivitätsdaten segmentiert bleiben.
 title: Wie kann ich QA-Aktivitäten durchführen?
 feature: Aktivitäten
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1785'
 ht-degree: 39%
 
 ---
@@ -94,7 +94,7 @@ Verwenden Sie QA-URLs in [!DNL Adobe Target], um einfache End-to-End-Aktivitäts
 
 * Die Benutzeroberfläche von [!UICONTROL Target QA Mode] zeigt nur die erste URL eines Erlebnisses in einer mehrseitigen Aktivität an. Es wird angenommen, dass Sie einen Journey-Test erstellen und von URL1 zu URL2 wechseln. Wenn Sie jedoch unabhängig zu URL 2 wechseln möchten, kopieren Sie alle URL-Parameter, die neben URL1 angegeben sind, und wenden Sie sie nach dem Platzieren eines „?“ auf URL2 an, genau wie Sie sie in URL1 sehen.
 
-## Kompatibilität der JavaScript-Bibliothek in Target
+## Kompatibilität der JavaScript-Bibliothek von Target [!UICONTROL QA-Modus]
 
 [!DNL Target] unterstützt die folgenden JavaScript-Bibliotheken:
 
@@ -113,6 +113,32 @@ In der folgenden Tabelle sind die verschiedenen Aktivitätstypen aufgeführt und
 | [!UICONTROL Erlebnis-Targeting] (XT) | Ja | Ja | Ja |
 | [!UICONTROL Multivariate Tests] (MVT) | Ja | Ja | Ja |
 | [!UICONTROL Recommendations] | Ja | Ja | Ja |
+
+## Vorschau-URLs {#preview}
+
+URLs für die Erlebnisvorschau können für alle Aktivitätstypen [!DNL Target] generiert werden. Mithilfe von Vorschau-URLs können Sie Erlebnisinhalte direkt auf Ihrer Site anzeigen, bevor die Aktivität für Vorschau- und QA-Zwecke live ist. URLs für die Erlebnisvorschau umgehen das Targeting, um die Anzeige eines bestimmten Erlebnisses zu erzwingen.
+
+Informationen dazu, wie Vorschau-URLs mit [!UICONTROL Automated Personalization] (AP)-Aktivitäten funktionieren, finden Sie unter [Vorschau von Automated Personalization-Aktivitäten mit Erlebnisvorschau-URLs](/help/c-activities/t-automated-personalization/experience-preview.md).
+
+Um auf eine Vorschau-URL zuzugreifen und diese freizugeben, klicken Sie auf der Seite **[!UICONTROL Übersicht]** einer Aktivität auf den Link **[!UICONTROL Aktivitäts-QA]**.
+
+>[!NOTE]
+>
+>Der Link [!UICONTROL Aktivitäts-QA] und die Vorschau-URL sind für alle anderen Aktivitäten als [!DNL Target] AP-Aktivitäten identisch.
+
+In der folgenden Tabelle sind die verschiedenen Aktivitätstypen aufgeführt und es wird angegeben, ob die Vorschau-URLs-Funktion für jede Bibliothek oder API unterstützt wird:
+
+| Aktivitätstyp | at.js 1.x | at.js 2.x | Platform Web SDK | Bereitstellungs-API | Admin-API |
+| --- | --- | --- | --- | --- | --- |
+| [!UICONTROL A/B-Test] | Ja | Ja | Ja | Nicht anwendbar | Ja |
+| [!UICONTROL Automatische Zuordnung] | Ja | Ja | Ja | Nicht anwendbar | Ja |
+| [!UICONTROL Automatisches Targeting] | Ja | Ja | Ja | Nicht anwendbar | Ja |
+| [!UICONTROL Automatisierte Personalisierung] (AP) | Ja | Ja | Nein | Nicht anwendbar | Ja |
+| [!UICONTROL Erlebnis-Targeting] (XT) | Ja | Ja | Ja | Nicht anwendbar | Ja |
+| [!UICONTROL Multivariate Tests] (MVT) | Ja | Ja | Ja | Nicht anwendbar | Ja |
+| [!UICONTROL Recommendations] | Ja | Ja | Ja | Nicht anwendbar | Ja |
+
+
 
 
 
