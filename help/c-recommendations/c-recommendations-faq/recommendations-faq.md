@@ -4,10 +4,10 @@ description: Eine Liste der häufig gestellten Fragen und Antworten zu Adobe  [!
 title: Wo finde ich Fragen und Antworten zu  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
+source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 99%
+source-wordcount: '3150'
+ht-degree: 94%
 
 ---
 
@@ -244,5 +244,39 @@ Wenn der Besucher nicht gleichzeitig zwei aktive Sitzungen hat, werden die zulet
 ## Kann ich einen Algorithmus verwenden, der in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium] erstellt wurde?
 
 Ein in [!DNL Recommendations Classic] erstellter Algorithmus wird in [!DNL Recommendations Premium] nicht unterstützt. Möglicherweise können Sie den alten Algorithmus in [!DNL Target Premium] verwenden. Der Algorithmus kann jedoch zu Synchronisationsproblemen führen, wenn die Aktivität in der [!DNL Target Premium]-Benutzeroberfläche deaktiviert oder gelöscht wird. Weitere Informationen zu den Unterschieden zwischen den beiden Lösungen finden Sie unter [[!DNL Recommendations Classic] versus [!DNL Recommendations] -Aktivitäten in [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+
+## Wie kann ich Artikel empfehlen, die nicht älter als 60 Tage sind? {#less-than-60}
+
+Ein [!DNL Target]-Kunde hat beispielsweise den folgenden Ansatz verwendet, um Artikel zu empfehlen, die weniger als 60 Tage alt sind.
+
+Dieser Kunde verwendet keinen Daten-Feed. Alle zu Artikeln erfassten Daten stammen aus der Datenschicht und werden bei Seitenansichten an [!DNL Target] übergeben.
+
+Dieser Kunde verwendet den folgenden Ansatz:
+
+* Veröffentlichungsdatum als Entitätsparameter im JJJJMMTT-Format übergeben.
+* Es wurde ein Profilskript erstellt, das das heutige Datum abzüglich 60 Tage ist, auch im Format JJJMMTT .
+* Verwendet einen dynamischen Einschlussfilter in den Kriterien, sodass `publish date > today’s date minus 60 days` angezeigt wird.
+
+Dieser Kunde hat die folgenden Datenfelder erfasst:
+
+| Datenfeld | Beispiel |
+| --- | --- |
+| issueDate | 2021218 |
+| lastViewDate | 2021701 |
+| parentCategory | Kommentar |
+| publishDate | 20210113 |
+| publishDateDisplay | 13. Januar 2021 |
+
+Dieser Kunde verwendete die folgende Einschlussregel mithilfe der Profilattributübereinstimmung:
+
+![Beispieleinschlussregel](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
+Dieser Kunde verwendete das folgende Profilskript:
+
+![Beispielprofilskript](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+
+>[!NOTE]
+>
+>Dieses Beispiel kann auch mit der Parameterübereinstimmung und der Übergabe des `priorDate60` -Werts als Mbox-Parameter erreicht werden.
 
 
