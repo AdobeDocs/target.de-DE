@@ -1,40 +1,39 @@
 ---
-keywords: Bericht;Berichte;Berichte;Erlebnis-Cloud-Lösung;Zeitzone;Zeitzone;Währung;IPs ausschließen;geschätzte Umsatzsteigerung;Umsatz;Umsatzsteigerung;Feinabstimmung der Prioritäten;Feinkörnig
-description: Verwenden Sie [!DNL Target] oder Adobe Analytics als Berichte-Quelle, geben Sie die standardmäßige Zeitzone und das Währungsformat an, fügen Sie IP-Adressen hinzu, die vom Berichte ausgeschlossen werden sollen, und vieles mehr.
-title: Wie konfiguriere ich Berichte in Zielgruppe?
+keywords: Bericht; Berichte; Berichterstellung; Experience Cloud-Lösung; Zeitzone; Zeitzone; Währung; Ausschluss von IPs; geschätzte Umsatzsteigerung; Umsatz; Umsatzsteigerung; differenzierte Prioritäten; genauer abgestufte Prioritäten
+description: Verwenden Sie [!DNL Target] oder Adobe Analytics als Berichtsquelle, geben Sie das standardmäßige Zeitzonen- und Währungsformat an, fügen Sie IP-Adressen hinzu, die aus der Berichterstellung ausgeschlossen werden sollen, und vieles mehr.
+title: Wie konfiguriere ich die Berichterstellung in Target?
 feature: Administration und Konfiguration
-role: Administrator
+role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 31%
 
 ---
 
-# Berichte in Zielgruppe konfigurieren
+# Konfigurieren von Berichten in Target
 
-Konfigurieren Sie allgemeine Einstellungen für [!DNL Adobe Target]-Berichte, die für Ihr gesamtes [!DNL Target]-Konto gelten.
+Konfigurieren Sie allgemeine Einstellungen für die Verwendung in [!DNL Adobe Target]-Berichten, die für Ihr gesamtes [!DNL Target]-Konto gelten.
 
-Um auf die Konfigurationsseite [!UICONTROL Berichte] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Berichte].**
+Um auf die Konfigurationsseite [!UICONTROL Reporting] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
-Auf dieser Seite können Sie die folgenden Einstellungen festlegen:
+Sie können die folgenden Einstellungen auf dieser Seite angeben:
 
-* Adobe Experience Cloud-Lösung für den Berichte
-* Die für den Berichte zu verwendende Zeitzone
-* Die für den Berichte zu verwendende Währung
-* IP-Adressen, die vom Berichte ausgeschlossen werden
-* Zeigt eine geschätzte Umsatzsteigerung im Berichte an
-* Eignung für genau festgelegte Prioritäten
+* Die für die Berichterstellung zu verwendende Adobe Experience Cloud-Lösung
+* Die für die Berichterstellung zu verwendende Zeitzone
+* Die Währung für die Berichterstellung
+* Von der Berichterstellung auszuschließende IP-Adressen
+* Ob die geschätzte Umsatzsteigerung in Berichten angezeigt wird
+* Ob differenzierte Prioritäten möglich sind
 
 >[!NOTE]
 >
->Beachten Sie, dass die Zeitzone, Währung und IP-Adressen zum Ausschließen von Einstellungen für Aktivitäten gelten, die [!DNL Target]-Berichte verwenden. Diese Einstellungen gelten nicht für Aktivitäten, die [Analytics for Zielgruppe (A4T)] als Berichte-Quelle (/help/c-integrating-target-with-mac/a4t/a4t.md) verwenden.
+>Beachten Sie, dass die Zeitzone, Währung und IP-Adressen zum Ausschließen von Einstellungen für Aktivitäten gelten, die [!DNL Target]-Berichte verwenden. Diese Einstellungen gelten nicht für Aktivitäten, die [Analytics for Target (A4T)] als Berichtsquelle verwenden (/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-![Berichte](/help/administrating-target/assets/reporting.png)
+![Berichtseite](/help/administrating-target/assets/reporting.png)
 
-## Berichte Cloud-Lösung
+## Reporting Cloud-Lösung
 
 Festlegen von Optionen, mit denen bestimmt wird, welche Daten für Ergebnisse und Berichte verwendet werden
 
@@ -42,28 +41,28 @@ Wählen Sie die Berichterstellungsquelle für Ihre Aktivitäten aus; zur Wahl st
 
 Beachten Sie bei der Auswahl der Berichtsquelle folgende Informationen:
 
-* Wenn die Berichtsquelle hier auf **[!DNL Target]** festgelegt ist, dürfen Sie Aktivitäten, die als Berichtsquelle verwenden, nicht aktivieren. [!DNL Analytics] Sie müssen die Berichte-Quelle in Ihrer Aktivität in [!DNL Target] ändern oder die Berichte-Quelle in **[!UICONTROL Pro Aktivität]** in **[!UICONTROL Administration] > [!UICONTROL Berichte]** ändern.
-* Wenn die Berichte-Quelle hier auf **[!DNL Analytics]** eingestellt ist, ist es nicht zulässig, eine Aktivität zu aktivieren, die [!DNL Target] als Berichte-Quelle verwendet (die Berichte-Quelle wird als **[!UICONTROL Zielgruppe pro Aktivität] angegeben)**. Sie müssen die Berichte-Quelle in Ihrer Aktivität in [!DNL Analytics] ändern oder die Berichte-Engine in **[!UICONTROL Pro Aktivität]** in **[!UICONTROL Administration] > [!UICONTROL Berichte]** ändern.
-* Wenn die Berichte-Quelle hier auf **[!UICONTROL Pro Aktivität]** auswählen eingestellt ist, können Sie Aktivitäten erstellen, aktivieren und deaktivieren, die von der ausgewählten Berichte-Quelle unterstützt werden. Eine Matrix der unterstützten Aktivitäten finden Sie unter [Unterstützte Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichte-Quelle für Adobe Target (A4t)*.
-* [!UICONTROL Die Erstellung, Aktivierung und Deaktivierung von Automated Personalization] -Aktivitäten (AP) sind unabhängig von der ausgewählten Berichte-Quelle zulässig. Automated Personalization-Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Analytics als Berichte-Quelle für Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) auswählen. Auch wenn Sie [!DNL Analytics] als Quelle des Berichte angeben, wird [!DNL Target] als Berichte für Automated Personalization-Aktivitäten verwendet. Weitere Informationen finden Sie unter [Unterstützte Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichte-Quelle für Adobe Target (A4t)*.
+* Wenn die Berichtsquelle hier auf **[!DNL Target]** festgelegt ist, dürfen Sie Aktivitäten, die als Berichtsquelle verwenden, nicht aktivieren. [!DNL Analytics] Sie müssen die Berichtsquelle in Ihrer Aktivität zu [!DNL Target] ändern oder die Berichtsquelle zu **[!UICONTROL Pro Aktivität auswählen]** in **[!UICONTROL Administration] > [!UICONTROL Berichterstellung]** ändern.
+* Wenn die Berichtsquelle hier auf **[!DNL Analytics]** festgelegt ist, dürfen Sie Aktivitäten, die [!DNL Target] als Berichtsquelle verwenden, nicht aktivieren (die Berichtsquelle ist angegeben als **[!UICONTROL Ziel pro Aktivität])**. Sie müssen die Berichtsquelle in Ihrer Aktivität zu [!DNL Analytics] oder die Reporting-Engine zu **[!UICONTROL Pro Aktivität auswählen]** in **[!UICONTROL Administration] > [!UICONTROL Berichterstellung]** ändern.
+* Wenn die Berichtsquelle hier auf **[!UICONTROL Pro Aktivität auswählen]** festgelegt ist, können Sie Aktivitäten erstellen, aktivieren und deaktivieren, die von der ausgewählten Berichtsquelle unterstützt werden. Eine Tabelle unterstützter Aktivitäten finden Sie unter [Unterstützte Aktivitätstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichtsquelle für Adobe Target (A4t)*.
+* [!UICONTROL Die Erstellung, Aktivierung und Deaktivierung von Automated Personalization] -Aktivitäten (AP) sind unabhängig von der ausgewählten Berichtsquelle zulässig. Automated Personalization-Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) auswählen. Selbst wenn Sie [!DNL Analytics] als Berichtsquelle angeben, wird [!DNL Target] als Berichtsquelle für Automated Personalization-Aktivitäten verwendet. Weitere Informationen finden Sie unter [Unterstützte Aktivitätstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichtsquelle für Adobe Target (A4t)*.
 
-## Zeitzone für Berichte
+## Zeitzone für die Berichterstellung
 
-Geben Sie die Zeitzone für den Berichte an.
+Geben Sie die Zeitzone für die Berichterstellung an.
 
-## Währung für Berichte
+## Währung für die Berichterstellung
 
-Geben Sie die Währung für den Berichte an.
+Geben Sie die Währung für die Berichterstellung an.
 
-## IPs, die von den Daten des Berichte [!DNL Target] ausgeschlossen werden sollen
+## Von den Berichtsdaten auszuschließende IPs[!DNL Target]
 
-Geben Sie alle IP-Adressen an, die von den Daten des Berichte ausgeschlossen werden sollen. So können Sie z. B. durch das Ausschließen von Adressen interner Firmen sicherstellen, dass Ihre Berichte-Daten die Interaktionen Ihrer Kunden auf Ihrer Website widerspiegeln.
+Geben Sie alle IP-Adressen an, die Sie aus den Berichtsdaten ausschließen möchten. Beispielsweise ist das Ausschließen interner Unternehmensadressen eine gute Möglichkeit, sicherzustellen, dass Ihre Berichtsdaten Kundeninteraktionen auf Ihrer Website widerspiegeln.
 
 Geben Sie jede IP-Adresse in eine neue Zeile ein.
 
 ## Geschätzte Umsatzsteigerung anzeigen
 
-Sie können die geschätzte Umsatzsteigerung anzeigen, wenn Sie einen Geldwert für Ihr Ziel eingeben. [!DNL Target] kann die Umsatzsteigerung schätzen, die Sie erzielen könnten, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden. Die Funktion zur Schätzung der Steigerung ist standardmäßig deaktiviert.
+Sie können die geschätzte Umsatzsteigerung anzeigen lassen, wenn Sie einen Geldwert für Ihr Ziel eingeben. [!DNL Target] kann die Umsatzsteigerung schätzen, die Sie erzielen könnten, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden. Die Funktion zur Schätzung der Steigerung ist standardmäßig deaktiviert.
 
 Nur [!DNL Experience Cloud] Admin-Benutzer können diese Funktion aktivieren oder deaktivieren. Wenn die Schätzung der Steigerung deaktiviert ist, werden die entsprechenden Felder nicht auf der Benutzeroberfläche angezeigt. Durch die Deaktivierung der Funktion gehen keine Daten verloren, auch nicht die Daten, die für Ihre Schätzungen verwendet werden. Die Schätzungen basieren auf den erfassten Daten, unabhängig davon, ob die Funktion aktiviert ist oder nicht.
 
