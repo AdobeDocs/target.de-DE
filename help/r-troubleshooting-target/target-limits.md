@@ -5,10 +5,10 @@ title: Zeichen-, Größen- und andere Beschränkungen in Adobe Target
 feature: Fehlerbehebung
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 ## Target-API-Aufrufe
 
-* **Grenze**: 50 Aufrufe pro Minute.
+* **Limit**: 50 Aufrufe pro Minute für die APIs zur Aktualisierung von Admin-, Reporting- und Massenprofilen. Diese Beschränkung gilt nicht für die APIs Versand und Profilaktualisierung .
 
    Wenn Sie mehr als 50 API-Aufrufe pro Minute ausführen, gibt [!DNL Target] die Fehlermeldung „503 HTTP-Status“ zurück.
 
