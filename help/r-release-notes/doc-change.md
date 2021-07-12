@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo finde ich Informationen zu Änderungen an der Target-Dokumentation?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
+source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 91%
+source-wordcount: '1575'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 11. Juli | Experience Cloud-Gerätekooperation | Thema wurde entfernt. Diese Funktion wird nicht mehr unterstützt. |
 | 29. Juni | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Die folgenden Abschnitte wurden hinzugefügt:<ul><li>Kompatibilität der JavaScript-Target-Bibliothek [!UICONTROL QA-Modus]</li><li>Vorschau-URLs</li></ul> |
 | 24. Juni | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Hinweise zur Vorabversion für die Version [!DNL Target Standard/Premium] 21.6.1 (30. Juni 2021) wurden aktualisiert. |
 | 16. Juni | [[!DNL Target] Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Python SDK-Version 1.0.0 von [!DNL Adobe Target] hinzugefügt. |
