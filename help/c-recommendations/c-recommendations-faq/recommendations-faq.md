@@ -4,7 +4,7 @@ description: Eine Liste der häufig gestellten Fragen und Antworten zu Adobe  [!
 title: Wo finde ich Fragen und Antworten zu  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
 source-wordcount: '3129'
 ht-degree: 95%
@@ -247,7 +247,7 @@ Ein in [!DNL Recommendations Classic] erstellter Algorithmus wird in [!DNL Recom
 
 ## Wie kann ich nur neue Artikel oder Videos empfehlen? {#recommend-new-articles}
 
-Einige Kunden in Medien und Veröffentlichung möchten möglicherweise sicherstellen, dass empfohlene Artikel nur die neuesten Artikel oder Videos enthalten. Ein [!DNL Target]-Kunde hat beispielsweise den folgenden Ansatz verwendet, um Artikel zu empfehlen, die weniger als 60 Tage alt sind:
+Einige Kunden in Medien und Veröffentlichungen möchten sicherstellen, dass empfohlene Artikel nur die neuesten Artikel oder Videos enthalten. Ein [!DNL Target]-Kunde hat beispielsweise den folgenden Ansatz verwendet, um Artikel zu empfehlen, die weniger als 60 Tage alt sind:
 
 1. Übergeben Sie das Veröffentlichungsdatum des Artikels im JJMMTT-Format als benutzerdefiniertes Entitätsattribut.
 1. Erstellen Sie ein Profilskript, das dem aktuellen Datum abzüglich 60 Tage entspricht, auch im Format JJJMMTT .
