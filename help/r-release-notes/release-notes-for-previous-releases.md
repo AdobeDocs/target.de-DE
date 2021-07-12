@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Versionshinweise
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '31050'
+source-wordcount: '31022'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,6 @@ Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 * Ein Problem wurde behoben, das dazu führte, dass in [!UICONTROL Recommendations]-Sammlungen eine falsche Produktzahl angezeigt wurde. (TGT-39162)
 * Unter [!UICONTROL Recommendations] [!UICONTROL Katalogsuche] wurde ein Filter für [!UICONTROL Letzte Änderung] hinzugefügt. (TGT-38340)
 * Ein Fehler in [!UICONTROL Recommendations] wurde behoben, der dazu führte, dass die Seite [!UICONTROL Sequenz erstellen] nach einer Änderung der vertikalen Märkte hängen blieb. (TGT-38160)
-* Ein Problem wurde behoben, das dazu führte, dass eine Aktivität nicht gespeichert wurde, wenn die Gerätekooperation aktiviert war und der Benutzer von [!DNL Target] als Berichtsquelle zu [!DNL Analytics] (A4T) wechselte. (TGT-38163)
 * Ein Problem wurde behoben, das verhinderte, dass Benutzer eine Zielgruppe aus einem Angebot in einer [!UICONTROL Automated Personalization]-Aktivität entfernen konnten. (TGT-39058)
 * Ein Problem wurde behoben, das bei einigen Kunden dazu führte, dass auf [!UICONTROL Zielgruppeninformations]-Karten ein falscher Zeitraum (Start- und Enddatum) angezeigt wurde. (TGT-39150)
 * Ein Problem wurde behoben, das dazu führte, dass einige Kunden die Liste der Aktivitäten im [!UICONTROL Standardarbeitsbereich] nicht sehen konnten. (TGT-38526)
