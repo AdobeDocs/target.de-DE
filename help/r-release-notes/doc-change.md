@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo finde ich Informationen zu Änderungen an der Target-Dokumentation?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f6b475e4fa7cdad2e190dfbfecdc8e5335a524f5
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 88%
+source-wordcount: '1643'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,9 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 12. Juli | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu den folgenden Ereignissen hinzugefügt:<ul><li>Webinar: Quantifizieren des signifikanten ROI, Einblicks und Zeiteinsparungen bei der Integration von Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break wird am Mittwoch, den 21. Juli 2021 um 8 Uhr stattfinden. (PDT, GMT-7).</li></ul> |
-|  | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Folgende FAQ wurden hinzugefügt: &quot;Wie kann ich Artikel empfehlen, die nicht älter als 60 Tage sind?&quot; |
+|  | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Folgende FAQ wurden hinzugefügt: &quot;Wie kann ich nur neue Artikel oder Videos empfehlen?&quot; |
+|  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Der Text im Abschnitt &quot;Target-API-Aufrufe&quot;wurde aktualisiert. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Die Beschreibung für den Schlüssel `consumerId` wurde aktualisiert. |
 |  | Experience Cloud-Gerätekooperation | Thema wurde entfernt. Diese Funktion wird nicht mehr unterstützt. |
 | 29. Juni | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Die folgenden Abschnitte wurden hinzugefügt:<ul><li>Kompatibilität der JavaScript-Target-Bibliothek [!UICONTROL QA-Modus]</li><li>Vorschau-URLs</li></ul> |
 | 24. Juni | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Hinweise zur Vorabversion für die Version [!DNL Target Standard/Premium] 21.6.1 (30. Juni 2021) wurden aktualisiert. |
