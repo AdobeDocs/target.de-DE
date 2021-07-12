@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.getoffers;Getoffers;getoffers;Angebote abrufen;at.js;Funktionen;funktion
-description: Verwenden Sie die Funktion adobe.Zielgruppe.getOffers() und ihre Optionen für die Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] Angebot. (at.js 2.x)
-title: Wie verwende ich die Funktion adobe.Zielgruppe.getOffers()?
-feature: 'at.js '
+description: Verwenden Sie die Funktion adobe.target.getOffers() und ihre Optionen für die Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] Angebote. (at.js 2.x)
+title: Wie verwende ich die Funktion adobe.target.getOffers()?
+feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 90%
+source-wordcount: '1293'
+ht-degree: 85%
 
 ---
 
@@ -23,16 +22,16 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 
 | Schlüssel | Typ | Erforderlich? | Beschreibung |
 | --- | --- | --- | --- |
-| consumerId | Zeichenfolge | Nein | Der Standardwert ist die globale Mbox des Kunden, falls nicht angegeben. Dieser Schlüssel wird verwendet, um die zusätzliche Daten-ID für die A4T-Integration zu generieren. Dieser Schlüssel ist eine eindeutige Zeichenfolge für jeden Besucher. |
-| decisioningMethod | Zeichenfolge | Nein | &quot;serverseitig&quot;, &quot;on-device&quot;, &quot;hybrid&quot; |
-| Anfrage | Objekt | Ja | Siehe Anforderungstabelle unten. |
-| Zeitüberschreitung | Nummer | Nein | Zeitüberschreitung der Anfrage. Wenn nicht angegeben, wird die standardmäßige at.js-Zeitüberschreitung verwendet. |
+| `consumerId` | Zeichenfolge | Nein | Der Standardwert ist die globale Mbox des Kunden, falls nicht angegeben. Dieser Schlüssel wird verwendet, um die zusätzliche Daten-ID (SDID) zu generieren, die für die A4T-Integration verwendet wird. Dieser Schlüssel ist eine eindeutige Zeichenfolge für jeden Besucher.<br>Bei Verwendung von  `getOffers()` generiert jeder Aufruf eine neue SDID. Wenn Sie mehrere Mbox-Anfragen auf derselben Seite haben und die SDID beibehalten möchten (sodass sie mit der SDID aus der target-global-mbox und der Adobe Analytics-SDID übereinstimmt), verwenden Sie den Parameter `consumerId` .<br>Wenn  `getOffers()` drei Mboxes (namens &quot;mbox1&quot;, &quot;mbox2&quot;und &quot;mbox3&quot;) enthalten sind, schließen Sie Folgendes ein:  `consumerId: "mbox1, mbox2, mbox3"` im  `getOffers()` Aufruf. |
+| `decisioningMethod` | Zeichenfolge | Nein | &quot;serverseitig&quot;, &quot;auf dem Gerät&quot;, &quot;hybrid&quot; |
+| `request` | Objekt | Ja | Siehe Anforderungstabelle unten. |
+| `timeout` | Nummer | Nein | Zeitüberschreitung der Abfrage. Wenn nicht angegeben, wird die standardmäßige at.js-Zeitüberschreitung verwendet. |
 
 ## Anfrage
 
 >[!NOTE]
 >
->Informationen zu den zulässigen Typen für alle unten aufgeführten Felder finden Sie in der [Versand-API-Dokumentation](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API).
+>Informationen zu den akzeptablen Typen für alle unten aufgeführten Felder finden Sie in der [Dokumentation zur Bereitstellungs-API](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) .
 
 | Feldname | Erforderlich? | Einschränkungen | Beschreibung |
 | --- | --- | --- | --- |
@@ -75,7 +74,7 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 | Anfrage > Ausführen > Mboxes > Mbox > Bestellung > Gesamtsumme | Nein | `>=` 0 | Angebote für eine bestimmte Mbox mit den angegebenen Gesamtbestellsummen abrufen. |
 | Anfrage > Ausführen > Mboxes > Mbox > Bestellung > purchasedProductIds | Nein | Keine leeren Werte<br>Max. Länge jedes Wertes = 50<br>Per Komma verkettet und getrennt<br>Gesamtlänge der Produkt-IDs `<=` 250 | Angebote für eine bestimmte Mbox mit den angegebenen IDs der gekauften Produkte der Bestellung abrufen. |
 
-## Aufruf von getOffers() für alle Ansichten
+## Rufen Sie getOffers() für alle Ansichten auf.
 
 ```javascript
 adobe.target.getOffers({
@@ -87,7 +86,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getCallOffers(), um eine geräteinterne Entscheidung zu treffen
+## getCallOffers() zur Entscheidungsfindung auf dem Gerät
 
 ```javascript
 adobe.target.getOffers({ 
@@ -106,7 +105,7 @@ adobe.target.getOffers({
 }); 
 ```
 
-## Rufen Sie getOffers() auf, um die neuesten Ansichten mit den übergebenen Parametern und Profil-Parametern abzurufen.
+## Rufen Sie getOffers() auf, um die neuesten Ansichten mit den übergebenen Parametern und Profilparametern abzurufen
 
 ```javascript
 adobe.target.getOffers({
@@ -127,7 +126,7 @@ adobe.target.getOffers({
 });
 ```
 
-## Rufen Sie getOffers() auf, um mboxes mit übergebenen Parametern und Profil-Parametern abzurufen.
+## Rufen Sie getOffers() auf, um Mboxes mit übergebenen Parametern und Profilparametern abzurufen.
 
 ```javascript
 adobe.target.getOffers({
@@ -206,9 +205,9 @@ adobe.target.getOffers({
 }
 ```
 
-Die Nutzlast kann dann über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) an Adobe Analytics weitergeleitet werden.
+Die Payload kann dann über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) an Adobe Analytics weitergeleitet werden.
 
-## Daten aus mehreren Mboxes über getOffers() und applyOffers() abrufen und rendern {#multiple}
+## Daten aus mehreren Mboxes über getOffers() und applyOffers() abrufen und rendern  {#multiple}
 
 Mit at.js 2.x können Sie mehrere Mboxes über die `getOffers()`-API abrufen. Sie können auch Daten für mehrere Mboxes abrufen und dann `applyOffers()` zum Rendern der Daten an verschiedenen Positionen verwenden, die durch einen CSS-Selektor identifiziert werden.
 
@@ -287,9 +286,9 @@ In diesem Beispiel werden die CSS-Selektoren mit einer Zähl-Variablen erstellt.
 
 Beachten Sie, dass dieses Beispiel `prefetch > mboxes` verwendet, Sie könnten aber auch `execute > mboxes` verwenden. Stellen Sie sicher, dass Sie bei Verwendung von Vorausholen (prefetch) in `getOffers()` auch beim Aufruf von `applyOffers()` Vorausholen verwenden sollten.
 
-## Rufen Sie getOffers() auf, um pageLoad auszuführen
+## Rufen Sie getOffers() auf, um einen pageLoad auszuführen.
 
-Das folgende Beispiel zeigt, wie Sie pageLoad mit getOffers() mit at.js 2 ausführen.*x* 
+Das folgende Beispiel zeigt, wie Sie mit getOffers() einen pageLoad mit at.js 2 ausführen.*x* 
 
 ```javascript
 adobe.target.getOffers({
