@@ -4,10 +4,10 @@ description: Eine Liste der häufig gestellten Fragen und Antworten zu Adobe  [!
 title: Wo finde ich Fragen und Antworten zu  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
-workflow-type: ht
+source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
+workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -98,7 +98,7 @@ Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vo
 
 >[!NOTE]
 >
->Diese Einstellung gilt nur für Aktivitäten, die in Visual Experience Composer (VEC) erstellt wurden. Sie gilt nicht für Aktivitäten, die im Formular-basierten Experience Composer erstellt wurden ([!DNL Target] verfügt über keinen Speicherortkontext).
+>Diese Einstellung gilt nur für Aktivitäten, die im [!UICONTROL Visual Experience Composer] (VEC) erstellt wurden. Sie gilt nicht für Aktivitäten, die im Formular-basierten Experience Composer erstellt wurden ([!DNL Target] verfügt über keinen Speicherortkontext).
 
 Wenn Sie auf die Einstellung [!UICONTROL Inkompatible Kriterien filtern] zugreifen möchten, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Einstellungen]:
 
