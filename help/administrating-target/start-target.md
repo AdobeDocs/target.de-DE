@@ -1,12 +1,11 @@
 ---
 keywords: Administration;Genehmiger-Rolle;Genehmiger
-description: Führen Sie die erste Aufgabe Adobe [!DNL Target] durch, die Administratoren nach Erhalt der Einladung an das Adobe Experience Cloud durchführen sollten.
-title: Wo kann ich mit der Verwaltung der Zielgruppe beginnen?
+description: Führen Sie die ersten Aufgaben aus, die die Adobe [!DNL Target] Administratoren ausführen sollte, nachdem sie die Einladung in Adobe Experience Cloud per E-Mail erhalten haben.
+title: Wo finde ich die ersten Schritte bei der Verwaltung von Target?
 feature: Administration und Konfiguration
-role: Administrator
+role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 82%
@@ -15,13 +14,13 @@ ht-degree: 82%
 
 # Erste Schritte für Administratoren
 
-Dieser Artikel enthält die ersten Schritte, die [!DNL Adobe Target]-Administratoren nach Erhalt der Einladung zum [!DNL Adobe Experience Cloud] durchführen sollten.
+Dieser Artikel enthält die ersten Schritte für [!DNL Adobe Target] -Administratoren, die nach dem Erhalt der Einladung zu [!DNL Adobe Experience Cloud] durchgeführt werden sollten.
 
-## Sind Sie eingeladen zu [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
+## Sie werden eingeladen zu [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 Ein Systemadministrator muss Sie in der [!DNL Adobe Admin Console] als Benutzer hinzufügen, indem er Ihnen eine Einladung zu [!DNL Target] schickt. Der Systemadministrator sollte Sie dann zu einer oder mehreren rollenspezifischen Gruppen hinzufügen. Beide Aufgaben werden in der [Adobe Admin Console](https://adminconsole.adobe.com) durchgeführt.
 
-Weitere Informationen finden Sie unter [Experience Cloud-Benutzer und -Produkte verwalten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in der *Hilfe zu Experience Cloud und Hauptdiensten*.
+Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in der *Hilfe zu Experience Cloud und Core Services*.
 
 Nachdem der Systemadministrator diese Schritte durchgeführt hat, erhalten Sie eine Einladungs-E-Mail.
 
