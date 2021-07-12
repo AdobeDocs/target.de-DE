@@ -1,12 +1,11 @@
 ---
 keywords: Umsatzsteigerung;Umsatz;Schätzung der Umsatzsteigerung;Steigerung berechnen;geschätzter Wert
-description: Schätzen Sie die Steigerung, die Sie erzielen können, wenn jedem Besucher das erfolgreichste Erlebnis angezeigt wird, wenn die Trends so weitergehen, wie sie es während des Tests waren.
+description: Schätzen Sie die Steigerung, die Sie erzielen können, wenn jeder Besucher das erfolgreichste Erlebnis sieht, sofern die Trends so weitergehen wie während des Tests.
 title: Was schätze ich eine Umsatzsteigerung?
 feature: Administration und Konfiguration
-role: Administrator
+role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 88%
@@ -15,11 +14,11 @@ ht-degree: 88%
 
 # Geschätzte Umsatzsteigerung
 
-Verwenden Sie [!DNL Adobe Target], um die Umsatzsteigerung zu schätzen, die Sie erzielen würden, wenn alle Benutzer das erfolgreichste Erlebnis Ansicht hätten.
+Verwenden Sie [!DNL Adobe Target], um die Umsatzsteigerung zu schätzen, die Sie erzielen würden, wenn alle Benutzer das erfolgreichste Erlebnis sehen würden.
 
 >[!NOTE]
 >
->Die geschätzte Steigerung steht derzeit nicht für [!UICONTROL Erlebnis-Targeting] (XT)-Aktivitäten zur Verfügung.
+>Die geschätzte Steigerung ist derzeit nicht für [!UICONTROL Erlebnis-Targeting] (XT)-Aktivitäten verfügbar.
 
 Die Funktion zur Schätzung der Steigerung ist standardmäßig deaktiviert. Sie kann über die Kontovoreinstellungen aktiviert werden. Experience Cloud-Administratoren können diese Funktion aktivieren bzw. deaktivieren. Wenn die Schätzung der Steigerung deaktiviert ist, werden die entsprechenden Felder nicht auf der Benutzeroberfläche angezeigt. Durch die Deaktivierung der Funktion gehen keine Daten verloren, auch nicht die Daten, die für Ihre Schätzungen verwendet werden. Die Schätzungen basieren auf den erfassten Daten, unabhängig davon, ob die Funktion aktiviert ist oder nicht.
 
