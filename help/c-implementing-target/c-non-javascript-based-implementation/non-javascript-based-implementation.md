@@ -1,15 +1,14 @@
 ---
 keywords: Implementierung; mbox.js nicht-JavaScript; AdBox; Weiterleitung; Mbox
-description: Erfahren Sie, wie Sie Adobe [!DNL Target] in Nicht-JavaScript-Szenarien implementieren, z. B. bei Verwendung einer AdBox oder einer Weiterleitung.
+description: Erfahren Sie, wie Sie Adobe [!DNL Target] in Nicht-JavaScript-Szenarien implementieren, z. B. bei der Verwendung einer AdBox oder einer Weiterleitung.
 title: Wie implementiere ich [!DNL Target] für E-Mail?
 feature: E-Mail implementieren
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 77%
+source-wordcount: '435'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +18,7 @@ Informationen zum Implementieren von Target in Nicht-JavaScript-Szenarien, beisp
 
 Sie können Besuche von Werbeanzeigen und anderen Offsite-Inhalten nachverfolgen. Darüber hinaus können Sie denselben Benutzer beim Besuchen und Verlassen Ihrer Site verfolgen und das gesamte Web-Erlebnis für ihn konsistent gestalten. Mithilfe einer einzelnen URL gestattet die AdBox das Testen ohne JavaScript oder [!DNL at.js] oder [!DNL mbox.js].
 
-Eine AdBox ist hilfreich für Sites ohne [!DNL at.js] oder [!DNL mbox.js], beispielsweise Affiliates. Wenn für Ihre Aktivität dynamische Werbeinhalte benötigt werden (Sie also beispielsweise ein Produkt in der Werbeanzeige zeigen möchten, das im Warenkorb gelassen wurde), kann eine AdBox nicht verwendet werden.
+Eine AdBox ist nützlich für Sites ohne [!DNL at.js], z. B. Partnersites. Wenn für Ihre Aktivität dynamische Werbeinhalte benötigt werden (Sie also beispielsweise ein Produkt in der Werbeanzeige zeigen möchten, das im Warenkorb gelassen wurde), kann eine AdBox nicht verwendet werden.
 
 AdBox-Anzeigen und Weiterleitungen können mit jeder beliebigen Aktivität verwendet werden. In der folgenden Tabelle werden AdBox und Weiterleitungen verglichen, und es wird angegeben, wann sie verwendet werden sollten:
 
@@ -30,7 +29,7 @@ AdBox-Anzeigen und Weiterleitungen können mit jeder beliebigen Aktivität verwe
 
 ## Best Practices für die Sicherheit {#security}
 
-Beachten Sie, dass Sie mit der Weiterleitung dem Risiko einer Open-Redirect-Verwundbarkeit ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;, um die Standard-URL-Domänen für die Weiterleitung zu Zulassungslisten. Zielgruppe verwendet Hosts für Zulassungslisten-Domänen, zu denen Sie Umleitungen zulassen möchten. Weitere Informationen finden Sie unter [Erstellen Sie Zulassungslisten, die Hosts angeben, die zum Senden von Mbox-Aufrufen an Zielgruppe](/help/administrating-target/hosts.md#allowlist) in *Hosts* berechtigt sind.
+Beachten Sie, dass Sie bei der Weiterleitung einem Risiko einer Open Redirect-Sicherheitslücke ausgesetzt sein können. Um die unbefugte Verwendung von Weiterleitungs-Links durch Dritte zu vermeiden, empfehlen wir die Verwendung von &quot;autorisierten Hosts&quot;, um die standardmäßigen Umleitungs-URL-Domänen in Zulassungsliste. Target verwendet Hosts, um Domänen auf die Zulassungsliste zu setzen, für die Umleitungen erlaubt sind. Weitere Informationen finden Sie im Abschnitt *Hosts* unter [Erstellen von Zulassungslisten mit Hosts, die autorisiert sind, Mbox-Aufrufe an Target zu senden](/help/administrating-target/hosts.md#allowlist).
 
 ## Einschränkungen {#section_38F559DCF1324271926608BCD4AB1227}
 
