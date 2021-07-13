@@ -2,13 +2,13 @@
 keywords: at.js-FAQ;häufig gestellte Fragen zu at.js;FAQ;flackern;Loader;Seiten-Loader;Cross Domain;Dateigröße;Datei-Größe;X-Domain;at.js und mbox.js;nur x;cross domain;Safari;Einzelseiten-App;fehlende Selektoren;Selektoren;Einzelseitenanwendung;tt.omtrdc.net;SPA;Adobe Experience Manager;AEM;IP-Adresse;httponly;HTTPonly;sicher;IP;Cookie-Domäne
 description: Lesen Sie Antworten auf häufig gestellte Fragen zur JavaScript-Bibliothek "at.js"von Adobe [!DNL Target] at.js.
 title: Was sind häufige Fragen und Antworten zu at.js?
-feature: 'at.js  '
+feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2641'
-ht-degree: 75%
+source-wordcount: '2609'
+ht-degree: 74%
 
 ---
 
@@ -26,7 +26,7 @@ Im folgenden Diagramm wird die Seitenladeleistung von mbox.js und at.js verglich
 
 ![](assets/atjs_vesus_mboxjs.png)
 
-Wie oben gezeigt werden Seiteninhalte bei der Verwendung von mbox.js erst geladen, wenn der Aufruf von [!DNL Target] abgeschlossen wurde. Bei der Verwendung von at.js werden Seiteninhalte schon geladen, wenn der Aufruf von [!DNL Target] eingeleitet wird, nicht erst nach Abschluss des Vorgangs.
+Wie oben gezeigt wurde bei der Verwendung von mbox.js der Seiteninhalt erst geladen, nachdem der Aufruf [!DNL Target] abgeschlossen wurde. Bei der Verwendung von at.js werden Seiteninhalte schon geladen, wenn der Aufruf von [!DNL Target] eingeleitet wird, nicht erst nach Abschluss des Vorgangs.
 
 ## Wie wirkt sich at.js und mbox.js auf Seitenladezeiten aus? {#page-load}
 
@@ -131,7 +131,7 @@ Die at.js-Datei hat beim Download eine Größe von etwa 109 KB. Da die meisten 
 
 at.js-Implementierungen verwenden nur eine Bibliothek ([!DNL at.js]), während bei mbox.js-Implementierungen zwei Bibliotheken ([!DNL mbox.js] und [!DNL target.js]) zum Einsatz kommen. Es wäre also gerechter, at.js mit mbox.js *und* `target.js` zu vergleichen. Beim Vergleich der komprimierten Größen der beiden Versionen ist ersichtlich, dass die at.js-Version 1.2 34 KB groß ist und die mbox.js-Version 63 eine Größe von 26,2 KB hat. ``
 
-at.js ist deshalb größer, weil im Vergleich zu mbox.js deutlich mehr DOM-Parsing durchgeführt wird. Dies ist erforderlich, da at.js „Rohdaten“ in der JSON-Antwort erhält und diese zunächst verarbeiten muss. mbox.js verwendet `document.write()`, das Parsing wird vom Browser übernommen.
+at.js ist deshalb größer, weil im Vergleich zu mbox.js deutlich mehr DOM-Parsing durchgeführt wird. Dies ist erforderlich, da at.js „Rohdaten“ in der JSON-Antwort erhält und diese zunächst verarbeiten muss. mbox.js verwendet `document.write()` und das Parsen wurde vom Browser durchgeführt.
 
 Trotz der größeren Datei zeigen unsere Tests, dass Seiten mit at.js schneller geladen werden als Seiten mit mbox.js. Zudem bietet at.js eine höhere Sicherheit, da keine zusätzlichen dynamischen Dateien geladen werden und `document.write` nicht verwendet wird.
 
@@ -144,10 +144,6 @@ at.js verwendet derzeit Teile von jQuery, sodass oben in at.js die MIT-Lizenzben
 Nein, wenn domänenübergreifend auf &quot;nur x&quot;festgelegt ist und in Safari Drittanbieter-Cookies deaktiviert sind, setzen sowohl [!DNL mbox.js] als auch at.js ein deaktiviertes Cookie und es werden keine Mbox-Anfragen für die Domäne dieses Kunden ausgeführt.
 
 Sollen Safari-Besucher unterstützt werden, wäre eine bessere X-Domäne „deaktiviert“ (setzt nur ein Erstanbieter-Cookie) oder „aktiviert“ (setzt in Safari nur ein Erstanbieter-Cookie, während in anderen Browsern Erst- und Drittanbieter-Cookies gesetzt werden).
-
-## Kann ich at.js und mbox.js nebeneinander laden? {#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
-
-Nicht auf derselben Seite. Während der Implementierung und dem Testen von [!DNL at.js] können Sie [!DNL at.js] jedoch auf einigen Seiten und [!DNL mbox.js] auf anderen Seiten ausführen, bis Sie [!DNL at.js] validiert haben.
 
 ## Kann ich den [!DNL Target] Visual Experience Composer (VEC) in meinen Einzelseitenanwendungen verwenden? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
