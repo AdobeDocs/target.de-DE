@@ -4,10 +4,10 @@ description: Hier finden Sie Antworten auf Fragen zur Verwendung von Umleitungsa
 title: Wo finde ich häufig gestellte Fragen zu Umleitungsangeboten mit A4T?
 feature: 'Analytics for Target (A4T) '
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 63%
+source-wordcount: '1298'
+ht-degree: 62%
 
 ---
 
@@ -31,8 +31,6 @@ Ihre Implementierung muss folgende Mindestanforderungen erfüllen:
 * Adobe Analytics: [!DNL appMeasurement.js] Version 2.1.
 * Adobe Target: [!DNL at.js], Version 1.6.2 oder neuer.
 
-   Die [!DNL mbox.js] Bibliothek unterstützt keine Umleitungsangebote in A4T. Ihre Implementierung muss [!DNL at.js] verwenden.
-
 Die drei Bibliotheken müssen sowohl auf der Seite mit dem Weiterleitungsangebot als auch auf der Seite, auf die der Besucher umgeleitet wird, enthalten sein.
 
 ## Warum gibt es manchmal Datendiskrepanzen zwischen A4T und Analytics?
@@ -50,10 +48,6 @@ Es wird empfohlen, den formularbasierten Composer zum Erstellen einer Umleitungs
 Ein Grund für die Verwendung von Umleitungsangeboten für alle Erlebnisse in der Aktivität, einschließlich des Standarderlebnisses (Kontrollerlebnis), besteht darin, dieselben Bedingungen für alle Erlebnisse zu verwenden. Wenn das Standarderlebnis beispielsweise kein Umleitungsangebot enthält, aber die anderen Erlebnisse Umleitungsangebote haben, stellt die Geschwindigkeit des Erlebnisses ohne Umleitungsangebot einen Vorteil dar. Umleitungsangebote werden nur für temporäre Szenarien empfohlen, z. B. Tests. Umleitungsangebote werden nicht für permanente Szenarien wie die Personalisierung empfohlen. Nachdem Sie den „Gewinner“ ermittelt haben, sollten Sie die Umleitung entfernen, um die Seitenladeleistung zu verbessern.
 
 Weitere Informationen zu diesem Problem finden Sie in dem Informationen zu „Weiterleitungsangeboten“ unter [Bekannte Probleme](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
-
-## Kann ich Umleitungsangebote in A4T nutzen, wenn ich die JavaScript-Bibliothek mbox.js verwende? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
-
-Die [!DNL mbox.js] Bibliothek unterstützt keine Umleitungsangebote in A4T. Ihre Implementierung muss [!DNL at.js] verwenden.
 
 ## Werden Visual Experience Composer (VEC) und Form-Based Experience Composer unterstützt? {#section_FDA26FE7909B48539DA770559E687677}
 
