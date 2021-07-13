@@ -1,15 +1,14 @@
 ---
-keywords: Implementierung; mbox.js nicht-JavaScript; Mbox; AdBox
-description: Verwenden Sie eine AdBox, um Bilder in einer Offsite-Implementierung mit Adobe Target bereitzustellen. Eine AdBox ist wie eine mbox, wird jedoch von einer URL anstelle von JavaScript gesteuert.
+keywords: Implementierung;Nicht-JavaScript;Mbox;AdBox
+description: Verwenden Sie eine AdBox, um Bilder in einer Offsite-Implementierung mit Adobe Target bereitzustellen. Eine AdBox ist wie eine Mbox, wird jedoch von einer URL anstelle von JavaScript gesteuert.
 title: Wie erstelle ich eine AdBox für ein Bild?
 feature: E-Mail implementieren
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 73%
+source-wordcount: '329'
+ht-degree: 72%
 
 ---
 
@@ -31,7 +30,7 @@ Hilfe zur Auswahl der richtigen Einstellungen finden Sie unter  [Nicht-JavaScrip
 
    * Bei `myClientCode` handelt es sich um den Clientcode Ihres Unternehmens. Der Clientcode Ihres Unternehmens enthält ausschließlich Kleinbuchstaben und keine Sonderzeichen.
 
-      Ihr Client-Code ist oben auf der Seite [!UICONTROL Administration > Implementierung] der [!DNL Target]-Schnittstelle verfügbar.
+      Ihren Clientcode finden Sie oben auf der Seite [!UICONTROL Administration > Implementierung] der [!DNL Target]-Benutzeroberfläche.
 
    * Bei `image` handelt es sich um den Aufruftyp. In diesem Fall handelt es sich um ein Bild.
 
@@ -39,7 +38,7 @@ Hilfe zur Auswahl der richtigen Einstellungen finden Sie unter  [Nicht-JavaScrip
 
    * Bei `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` handelt es sich um den Standardinhalt der Mbox. Dabei muss es sich um ein Bild handeln.
 
-      Hierbei muss es sich um einen URL-kodierten, absoluten Verweis handeln. Sie können die [HTML-URL-Kodierungsreferenz](https://www.w3schools.com/tags/ref_urlencode.asp) verwenden, um Ihre URLs schnell zu kodieren.
+      Hierbei muss es sich um einen URL-kodierten, absoluten Verweis handeln. Sie können die [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) verwenden, um Ihre URLs schnell zu kodieren.
 
 1. Erstellen Sie [Weiterleitungsangebote](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) für alle alternativen Bilder.
 
