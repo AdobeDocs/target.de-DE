@@ -1,15 +1,14 @@
 ---
-keywords: email;adbox;email image adbox
-description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] dynamisch Bilder in E-Mails testen und diese Bilder sogar spontan ändern können, wenn jemand die E-Mail öffnet.
-title: Wie teste ich eine E-Mail-Image-AdBox?
+keywords: E-Mail; AdBox; E-Mail-Bild-AdBox
+description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] Bilder dynamisch in E-Mails testen und diese Bilder gegebenenfalls im Handumdrehen ändern können, wenn jemand die E-Mail öffnet.
+title: Wie teste ich eine E-Mail-Bild-AdBox?
 feature: E-Mail implementieren
 role: Developer
 exl-id: 87a918d7-83dc-4277-821b-d90302c59736
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 90%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
@@ -40,7 +39,7 @@ Hierbei sind die unten stehenden Werte spezifisch für Sie:
 
 | Wert | Beschreibung |
 |--- |--- |
-| clientcode | Clientcode Ihres Unternehmens. In at.js oder mbox.js ist dies als `clientCode='yourclientcode'` gelistet. Er besteht ausschließlich aus Kleinbuchstaben ohne Sonderzeichen. |
+| clientcode | Clientcode Ihres Unternehmens. In at.js ist dies als `clientCode='yourclientcode'` gelistet. Er besteht ausschließlich aus Kleinbuchstaben ohne Sonderzeichen. |
 | image | Der Angebotstyp. Er ist immer „image“ für Grafikanzeigen und „page“ für Weiterleitungen. |
 | email_header | Der Name der AdBox. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Erforderlich. Ersetzen Sie die URL durch den entsprechenden Standardinhalt für Ihre AdBox. Hierbei muss es sich um einen URL-codierten, absoluten Verweis handeln. |
