@@ -1,13 +1,13 @@
 ---
-keywords: Welcome Kit; Target Welcome Kit; Intro; Einführung; Erste Schritte
+keywords: Welcome Kit;Target Welcome Kit;Intro; Einführung;Erste Schritte
 description: Lesen Sie Tipps unserer Experten zur Verwendung von Adobe  [!DNL Target]  im Rahmen Ihrer Test- und Personalisierungsstrategie.
 title: Wo finde ich Tipps und Tricks zur Verwendung von Target?
 feature: Überblick
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Viele Marketer starten Optimierungsprogramme für die Segmentierung und das Targ
 * Wie hoch ist die Konversionsrate der Seite?
 * Wie lange müssten Sie den Test voraussichtlich durchführen, um ihn mit einem signifikanten Ergebnis abschließen zu können?
 
-**Tipp**: Verwenden Sie den [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) von Target, um die für einen erfolgreichen Test erforderliche Stichprobengröße zu bestimmen.
+**Tipp**: Verwenden Sie den [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) von Target, um die für einen erfolgreichen Test erforderliche Stichprobengröße zu bestimmen.
 
 ## Tipp 12: Entwerfen Sie einfachere Tests, um sicherzustellen, dass Sie sie erstellen und implementieren können.
 
