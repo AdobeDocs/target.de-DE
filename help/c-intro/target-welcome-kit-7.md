@@ -1,13 +1,13 @@
 ---
 keywords: Welcome Kit;Target Welcome Kit;Intro; Einführung;Erste Schritte
 description: Beginnen wir nun mit Ihrer ersten Aktivität in Adobe [!DNL Target] , damit Sie schon bald einen ROI aus Ihrer Investition erzielen können.
-title: Ich möchte meine erste Aktivität in Target erstellen. Wo beginne ich?
+title: Ich muss meine erste Aktivität in Target erstellen. Wo beginne ich?
 feature: Überblick
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: ht
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
+workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
