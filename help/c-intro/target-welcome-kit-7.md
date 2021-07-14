@@ -1,13 +1,13 @@
 ---
-keywords: Welcome Kit; Target Welcome Kit; Intro; Einführung; Erste Schritte
-description: Beginnen wir nun mit Ihrer ersten Aktivität in Adobe  [!DNL Target] , damit Sie schon bald einen ROI aus Ihrer Investition erzielen können.
+keywords: Welcome Kit;Target Welcome Kit;Intro; Einführung;Erste Schritte
+description: Beginnen wir nun mit Ihrer ersten Aktivität in Adobe [!DNL Target] , damit Sie schon bald einen ROI aus Ihrer Investition erzielen können.
 title: Ich möchte meine erste Aktivität in Target erstellen. Wo beginne ich?
 feature: Überblick
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Wenn Sie für Ihre Aktivität die Unterstützung eines Designers, eines Webentwi
 
 Um aus dem Test einen statistisch signifikanten Schluss ziehen zu können, muss in die Testpopulation eine gewisse Anzahl an Besuchern einfließen. Überlegen Sie: Können Sie dem Ergebnis trauen, wenn nur zwei Personen an dem Test teilnehmen?
 
-[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) von Adobe hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in das Ergebnis zu bestimmen. Klicken Sie auf den Link [!UICONTROL Weitere Informationen] in diesem Feld, um den Rechner zu öffnen.
+[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) von Adobe hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in das Ergebnis zu bestimmen. Klicken Sie auf den Link [!UICONTROL Weitere Informationen] in diesem Feld, um den Rechner zu öffnen.
 
 ### Wie wichtig ist diese Aktivität?
 
