@@ -5,10 +5,10 @@ title: Wie verwende ich die Funktion adobe.target.getOffers()?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 85%
+source-wordcount: '1291'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,7 @@ Mit dieser Funktion können Sie mehrere Angebote abrufen, indem Sie mehrere Mbox
 
 | Schlüssel | Typ | Erforderlich? | Beschreibung |
 | --- | --- | --- | --- |
-| `consumerId` | Zeichenfolge | Nein | Der Standardwert ist die globale Mbox des Kunden, falls nicht angegeben. Dieser Schlüssel wird verwendet, um die zusätzliche Daten-ID (SDID) zu generieren, die für die A4T-Integration verwendet wird. Dieser Schlüssel ist eine eindeutige Zeichenfolge für jeden Besucher.<br>Bei Verwendung von  `getOffers()` generiert jeder Aufruf eine neue SDID. Wenn Sie mehrere Mbox-Anfragen auf derselben Seite haben und die SDID beibehalten möchten (sodass sie mit der SDID aus der target-global-mbox und der Adobe Analytics-SDID übereinstimmt), verwenden Sie den Parameter `consumerId` .<br>Wenn  `getOffers()` drei Mboxes (namens &quot;mbox1&quot;, &quot;mbox2&quot;und &quot;mbox3&quot;) enthalten sind, schließen Sie Folgendes ein:  `consumerId: "mbox1, mbox2, mbox3"` im  `getOffers()` Aufruf. |
+| `consumerId` | Zeichenfolge | Nein | Der Standardwert ist die globale Mbox des Kunden, falls nicht angegeben. Dieser Schlüssel wird verwendet, um die zusätzliche Daten-ID (SDID) zu generieren, die für die A4T-Integration verwendet wird. Dieser Schlüssel (consumerId) ist nicht eindeutig.<br>Bei Verwendung von  `getOffers()` generiert jeder Aufruf eine neue SDID. Wenn Sie mehrere Mbox-Anfragen auf derselben Seite haben und die SDID beibehalten möchten (sodass sie mit der SDID aus der target-global-mbox und der Adobe Analytics-SDID übereinstimmt), verwenden Sie den Parameter `consumerId` .<br>Wenn  `getOffers()` drei Mboxes (namens &quot;mbox1&quot;, &quot;mbox2&quot;und &quot;mbox3&quot;) enthalten sind, schließen Sie Folgendes ein:  `consumerId: "mbox1, mbox2, mbox3"` im  `getOffers()` Aufruf. |
 | `decisioningMethod` | Zeichenfolge | Nein | &quot;serverseitig&quot;, &quot;auf dem Gerät&quot;, &quot;hybrid&quot; |
 | `request` | Objekt | Ja | Siehe Anforderungstabelle unten. |
 | `timeout` | Nummer | Nein | Zeitüberschreitung der Abfrage. Wenn nicht angegeben, wird die standardmäßige at.js-Zeitüberschreitung verwendet. |
