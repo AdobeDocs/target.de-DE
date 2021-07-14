@@ -7,13 +7,13 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 80%
+ht-degree: 88%
 
 ---
 
 # Ankündigungen und Veranstaltungen zu Target
 
-Mitteilungen und Informationen zu bevorstehenden Ereignissen, einschließlich [!DNL Adobe Target] Skill Builder-Sitzungen, Entwicklerchats, Webinaren und [!DNL Target] Kaffeepausen-Sitzungen.
+Ankündigungen und Informationen zu kommenden Veranstaltungen einschließlich [!DNL Adobe Target] Skill Builder-Sitzungen, Entwickler-Chats, Webinaren und [!DNL Target] Sitzungen mit Fragen und Antworten.
 
 ## Erkennung für [!DNL Adobe Target]
 
@@ -46,7 +46,7 @@ David Son, [!DNL Target] Senior Product Manager beantwortet Ihre Fragen zu seine
 
 ## Webinar: Personalisieren und Testen mit Nulllatenz bei geräteinterner Entscheidungsfindung mit Adobe Target
 
-Mehr denn je werden Marketing-Experten, Produkteigentümer und Entwickler damit beauftragt, das Kundenerlebnis auf Sites, in Apps und überall dort, wo sie mit ihren Kunden in Verbindung stehen, zu optimieren. Wenig hilfreich ist hier ein Sammelsurium an Tools in Datensilos, die kompliziert zu implementieren sind.
+Marketer, Produkteigentümer und Entwickler sind mehr denn je gefordert, die Erlebnisse ihrer Kunden auf Websites, in Mobile Apps und überall dort, wo sie mit ihren Kunden in Kontakt treten, zu optimieren. Wenig hilfreich ist hier ein Sammelsurium an Tools in Datensilos, die kompliziert zu implementieren sind.
 
 In diesem aufgezeichneten Webinar besprechen Adobe Target-Produktexperten, wie die Verschiebung kritischer Entscheidungen der Erlebnisoptimierung auf das Benutzergerät durch lokale Ausführung und Nulllatenz Türen für aufregende neue Anwendungsfälle öffnet, während sich die Website-Performance Ihrer Kunden gleichzeitig verbessert.
 
