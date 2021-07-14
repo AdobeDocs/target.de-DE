@@ -1,7 +1,7 @@
 ---
-keywords: Target; Home; beliebte Themen; Adobe Target; Standard; Premium; Target-Dokumentation; Dokumentation zu Adobe Target
+keywords: Target;Home;beliebte Themen;Adobe Target;Standard;Premium;Target-Dokumentation;Dokumentation zu Adobe Target
 title: Wo finde ich die Dokumentation zu  [!DNL Target] ?
-description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kunden mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, Mobile Site, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
+description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kunden mit Adobe [!DNL Target] personalisieren können, um die durch Ihre Website, Mobile Site, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Überblick
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
@@ -60,7 +60,7 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 - [Target implementieren](c-implementing-target/implementing-target.md): Erklärt die Implementierung von [!DNL Target] in Websites, mobilen Apps, Einzelseitenapps (SPAs) und iOT-/OTT-Plattformen.
 - [Serverseitige Target-APIs](https://developers.adobetarget.com/api/delivery-api/): Beschreibt die Ressourcen der Adobe Target-Bereitstellungs-API.
 - [Target NodeJS-SDK](https://github.com/adobe/target-nodejs-sdk): Beschreibt die serverseitige Bereitstellung von Target. Dieses Node.js-SDK vereinfacht die Integration von Target in andere Adobe Experience Cloud-Lösungen.
-- [Target Java-SDK](https://github.com/adobe/target-java-sdk): Beschreibt die serverseitige Bereitstellung von Target. Dieses Java-SDK vereinfacht die Integration von Target in andere Experience Cloud-Lösungen.
+- [Target Java-SDK](https://github.com/adobe/target-java-sdk): Beschreibt die serverseitige Bereitstellung von Target. Dieses Java-SDK vereinfacht die Integration von Target in andere Adobe Experience Cloud-Lösungen.
 - [Target Recommendations-API](https://developers.adobetarget.com/api/recommendations/): Beschreibt die Ressourcen der offiziellen Adobe Target Recommendations-API.
 - [Dokumentation zu Target Adobe.IO](http://developers.adobetarget.com/api/#introduction): Beschreibt die Verwendung der REST-APIs für die Administration und Profilerstellung in Adobe Target, die die Adobe.IO-Integration zur Verwaltung von Aktivitäten, Zielgruppen, Angeboten, Eigenschaften, Berichten, Mboxes, Umgebungen und Profilen nutzen.
 
