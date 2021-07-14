@@ -7,7 +7,7 @@ exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 ## Mobile Anwendungen
 
-* [Target für mobile Apps – FAQs ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [Target für mobile Apps – FAQs](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Geräteinterne Entscheidungsfindung
 
@@ -143,7 +143,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 ## Suchmaschinenoptimierung (SEO)
 
-* [Benutzerfreundliches Testen der Suchmaschinenoptimierung (SEO) ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Benutzerfreundliches Testen der Suchmaschinenoptimierung (SEO)](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
 ## Systemstatus
 
@@ -157,7 +157,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 * [Fehlerbehebung für Benutzerverwaltung](/help/administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
 
-## Visual Experience Composer (VEC)  
+## Visual Experience Composer (VEC)
 
 * [Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
