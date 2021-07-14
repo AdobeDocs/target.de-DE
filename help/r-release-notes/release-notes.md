@@ -7,7 +7,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 70%
+ht-degree: 89%
 
 ---
 
@@ -34,9 +34,9 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Verbesserungen. Die 
 
 ## Python SDK 1.0.0 (16. Juni 2021)
 
-Das neue [!DNL Adobe Target] Python-SDK mit Funktionen zur geräteübergreifenden Entscheidungsfindung ist jetzt verfügbar. Diese neueste Erweiterung verstärkt die [!DNL Target]-Suite der Server-seitigen SDKs. Diese SDKS helfen Ihnen bei der Integration mit [!DNL Target] und beschleunigen Ihre Wertungszeit in der Sprache Ihrer Wahl. Serverseitige Integrationen werden immer beliebter, da sich der Markt in eine Cookie-lose Welt verlagert, in der Erstanbieterdaten wertvoll sind. Target-SDKs sind in den beliebtesten Programmiersprachen auf dem Markt verfügbar (Python, Java, JavaScript, C# / .Net).
+Das neue [!DNL Adobe Target] Python-SDK mit Funktionen zur geräteinternen Entscheidungsfindung ist jetzt verfügbar. Diese neueste Erweiterung ergänzt die [!DNL Target]-Suite der Server-seitigen SDKs. Diese SDKs helfen Ihnen bei der Integration mit [!DNL Target] und beschleunigen Ihre Time-to-Value – und all das in der Sprache Ihrer Wahl. Server-seitige Integrationen werden immer beliebter, da sich der Markt in eine Cookie-freie Welt verlagert, in der First-Party-Daten wertvoll sind. Target-SDKs sind in den gängigsten Programmiersprachen auf dem Markt verfügbar (Python, Java, JavaScript, C# / .Net).
 
-Weitere Informationen finden Sie in der [Python SDK-Dokumentation](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) im Handbuch [Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/).
+Weitere Informationen finden Sie in der [Dokumentation zum Python SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) im Handbuch [Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/).
 
 ## ![Adobe Experience Platform Web SDK-Badge](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]Version 2.5.0 (1. Juni 2021)
 
