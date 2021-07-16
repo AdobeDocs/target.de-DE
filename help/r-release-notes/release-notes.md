@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Versionshinweise
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 89%
+source-wordcount: '745'
+ht-degree: 79%
 
 ---
 
@@ -22,6 +22,16 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 >Migrieren Sie zur aktuellen Version des neuen [!DNL Adobe Experience Platform Web SDK] oder zur JavaScript-Bibliothek „at.js“, um mögliche Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Target für Client-seitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+
+## at.js 2.6.0 (16. Juli 2021)
+
+* Das Attribut secure wurde zu Cookies hinzugefügt, sobald die at.js-Einstellungen `secureOnly` auf `true` gesetzt sind.
+* Bei Verwendung von `triggerView()` sind jetzt Antwort-Token verfügbar.
+* Es wurde ein Problem im Zusammenhang mit dem `CONTENT_RENDERING_NO_OFFERS` -Ereignis behoben. Jetzt wird dieses Ereignis korrekt ausgelöst, wenn kein Inhalt von [!DNL Target] zurückgegeben wird.
+* [!DNL Anlytics for Target] (A4T) Klickmetrikdetails werden bei der Verwendung von  `prefetch` Anfragen korrekt zurückgegeben.
+* Die UUID-Generierung verwendet nicht mehr `Math.random()`, sondern verlässt sich auf `window.crypto`.
+* Der Ablauf des `sessionId`-Cookies wird bei jedem Netzwerkaufruf korrekt verlängert.
+* Die Cache-Initialisierung für die [!UICONTROL Einzelseiten-App] (SPA)-Ansicht wird jetzt korrekt verarbeitet und berücksichtigt die `viewsEnable`-Einstellungen.
 
 ## [!DNL Target Standard/Premium] 21.6.1 (30. Juni 2021)
 
