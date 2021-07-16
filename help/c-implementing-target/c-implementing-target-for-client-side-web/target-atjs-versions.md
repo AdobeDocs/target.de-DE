@@ -4,10 +4,10 @@ description: Zeigen Sie die Details zu den Änderungen in den einzelnen Versione
 title: Was ist in jeder Version von at.js enthalten?
 feature: at.js
 role: Developer
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '4132'
-ht-degree: 89%
+source-wordcount: '4216'
+ht-degree: 87%
 
 ---
 
@@ -21,6 +21,16 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >Das Target-Team unterstützt beide at.js 1.*x* und at.js 2.*x*. Führen Sie ein Upgrade auf die neueste Aktualisierung einer der beiden Hauptversionen von at.js durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch ist die bevorzugte Methode zum Aktualisieren von at.js. Erweiterungsentwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Aktualisierungen werden in neuen Versionen einer Erweiterung zusammengefasst und im Katalog [!DNL Launch] als Aktualisierungen verfügbar gemacht. Weitere Informationen finden Sie unter [Erweiterungs-Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) im *Experience Platform Launch-Benutzerhandbuch*.
+
+## at.js 2.6.0 (16. Juli 2021)
+
+* Das Attribut secure wurde zu Cookies hinzugefügt, sobald die at.js-Einstellungen `secureOnly` auf `true` gesetzt sind.
+* Bei Verwendung von `triggerView()` sind jetzt Antwort-Token verfügbar.
+* Es wurde ein Problem im Zusammenhang mit dem `CONTENT_RENDERING_NO_OFFERS` -Ereignis behoben. Jetzt wird dieses Ereignis korrekt ausgelöst, wenn kein Inhalt von [!DNL Target] zurückgegeben wird.
+* [!DNL Anlytics for Target] (A4T) Klickmetrikdetails werden bei der Verwendung von  `prefetch` Anfragen korrekt zurückgegeben.
+* Die UUID-Generierung verwendet nicht mehr `Math.random()`, sondern verlässt sich auf `window.crypto`.
+* Der Ablauf des `sessionId`-Cookies wird bei jedem Netzwerkaufruf korrekt verlängert.
+* Die Cache-Initialisierung für die [!UICONTROL Einzelseiten-App] (SPA)-Ansicht wird jetzt korrekt verarbeitet und berücksichtigt die `viewsEnable`-Einstellungen.
 
 ## at.js 2.5.0 (13. Mai 2021)
 
