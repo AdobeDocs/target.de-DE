@@ -1,20 +1,19 @@
 ---
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Classifications; Classification; Classifications Importer; Post-TNT-Aktion
-description: Hier finden Sie Antworten auf Fragen zu Klassifizierungen und zur Verwendung von Analytics für [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] Aktivitäten.
-title: Wo finde ich Informationen zu Klassifizierungen mit A4T?
-feature: Analytics for Target (A4T)
+description: Hier finden Sie Antworten auf Fragen zu Classifications und zur Verwendung von Analytics für [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] Aktivitäten.
+title: Wo finde ich Informationen über Classifications mit A4T?
+feature: 'Analytics for Target (A4T) '
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 59%
+source-wordcount: '297'
+ht-degree: 51%
 
 ---
 
 # Classifications - Häufig gestellte Fragen zu A4T
 
-Dieses Thema enthält Antworten auf häufig gestellte Fragen zu Klassifizierungen und die Verwendung von [!DNL Analytics] als Berichte für [!DNL Target] (A4T).
+Dieses Thema enthält Antworten auf häufig zu Klassifizierungen und zur Verwendung von [!DNL Analytics] als Berichtsquelle für [!DNL Target] (A4T) gestellte Fragen.
 
 ## Wie passe ich den Wert post-tnt-action an einen Aktivitätsnamen an, nachdem ich Classifications mithilfe des Classifications Importer heruntergeladen habe? {#section_6045DAC488B248418F430E663C38D001}
 
@@ -24,11 +23,12 @@ Diese Nachschlagedatei ist besonders für Kunden nützlich, die den Clickstream-
 
 Das Zeichenfolgenformat der TNT-Variable lautet `activityID:experienceID:targettype|event`.
 
-* targetType = 0 (control/random) oder 1 (target) für [!UICONTROL Auto-Allokation] und [!UICONTROL Auto-Zielgruppe]-Aktivitäten.
+* targettype = 0 (Kontrolle/zufällig) oder 1 (Targeting) für [!UICONTROL Automatisierte Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten.
 * Erlebnis = 0 steht für den Eintritt in ein Erlebnis.
 * Erlebnis = 1 steht für einen Erlebnisbesuch.
 * Erlebnis = 2 steht für eine Aktivitätsimpression.
-* Ereignis = 3-32766 stellt die Analytics-Erfolgsmetrik-ID dar.
+* Ereignis = 3-32766 steht für die Analytics-Erfolgsmetrik-ID.
 * Erlebnis = 32767 steht für eine Aktivitätskonversion.
+* Ereignis -1 oder 65535 bedeutet, dass der Benutzer aus der Aktivität oder dem Erlebnis entfernt wird. Diese Situation tritt oft auf, wenn der Besucher konvertiert. Der Besucher wird aus dem Erlebnis freigelassen und kann sich jetzt für jedes andere Erlebnis qualifizieren.
 
-Sie können die Classification-Datei häufig über die Benutzeroberfläche importieren, indem Sie einen [Browser-Import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) oder einen [FTP-Import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html) verwenden. Außerdem können Sie sich an den technischen Support werden, um die Datei als Nachschlagetabelle gemeinsam mit Clickstream-Daten-Feed zu beziehen.
+Sie können die Classification-Datei häufig über die Benutzeroberfläche mit einem [Browser-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) oder [FTP-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en) importieren. Außerdem können Sie sich an den technischen Support werden, um die Datei als Nachschlagetabelle gemeinsam mit Clickstream-Daten-Feed zu beziehen.
