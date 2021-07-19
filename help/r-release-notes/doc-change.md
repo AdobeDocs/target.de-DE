@@ -1,13 +1,13 @@
 ---
 keywords: Änderungsprotokoll zur Target-Dokumentation; Aktualisierungen in der Dokumentation; neue Themen; Bearbeitungen; Aktualisierungen; Aktualisierung
 description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Produktdokumentation von Adobe  [!DNL Target] '
-title: Wo finde ich Informationen zu Änderungen an der Target-Dokumentation?
+title: Wo kann ich Aktualisierungen der Dokumentation für Target sehen?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
+source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
 workflow-type: tm+mt
 source-wordcount: '1845'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
