@@ -4,9 +4,9 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo finde ich Informationen zu Änderungen an der Target-Dokumentation?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1845'
 ht-degree: 89%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 19. Juli | [Classifications – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Es wurden Informationen zum Ereigniscode -1 oder 65535 hinzugefügt. |
 | 16. Juli | [Target-Versionshinweise (aktuell) ](/help/r-release-notes/release-notes.md)<br><br>[und at.js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zur „at.js“-Version 2.6.0 hinzugefügt. |
 |  | [Beheben von Problemen mit [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Die Liste der IP-Adresse wurde auf die Zulassungsliste aktualisiert. |
 | 12. Juli | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu den folgenden Ereignissen hinzugefügt:<ul><li>Webinar: Quantifizieren des signifikanten ROI, Einblicks und Zeiteinsparungen bei der Integration von Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break wird am Mittwoch, den 21. Juli 2021 um 8 Uhr stattfinden. (PDT, GMT-7).</li></ul> |
