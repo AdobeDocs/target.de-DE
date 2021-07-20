@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Versionshinweise
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
+source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 88%
+source-wordcount: '575'
+ht-degree: 93%
 
 ---
 
@@ -23,12 +23,6 @@ Ankündigungen und Informationen zu kommenden Veranstaltungen einschließlich [!
 | --- | --- |
 | Forrester | **Adobe wurde im Forrester Wave-Bericht zu Erlebnisoptimierungs-Plattformen als „Leader“ ausgezeichnet.**<br> Adobe wurde im Forrester Wave-Bericht zu Erlebnisoptimierungs-Plattformen im 4. Quartal 2020 für sein Angebot von Adobe Target Premium als „Leader“ ausgezeichnet. Adobe erhielt die höchste Punktzahl aller beteiligten Anbieter in den Kategorien „Aktuelles Angebot“ und „Marktpräsenz“ wie auch in der Kategorie „Recommendations- und Plattformerlebnis“. Darüber hinaus erhielt Target Premium unter dem Kriterium „Innovative Erlebnisoptimierungstechnik und unterstützende Dienste“ die bestmögliche Bewertung. Der Bericht basiert auf einem sorgfältigen Testverfahren, in dem zehn Anbieter von Erlebnisoptimierungs-Plattformen in 22 Kategorien bewertet wurden.<br>Lesen Sie mehr darüber im [Adobe-Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe wurde im Gartner Magic Quadrant für Personalisierungs-Engines erneut als „Leader“ ausgezeichnet.**<br> Adobe wurde auch im dritten Quartal 2020 im Gartner Magic Quadrant für Personalisierungs-Engines als „Leader“ ausgezeichnet. Im Gartner Magic Quadrant für Personalisierungs-Engines wurden Anbieter in zwei Kategorien mit insgesamt 15 Kriterien bewertet: „Vollständigkeit der Unternehmensvision“ und „Fähigkeit zur Umsetzung“.<br>[Lesen Sie mehr darüber im Adobe-Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
-
-## Webinar: Quantifizieren des signifikanten ROI, der Einblicke und der Zeiteinsparungen bei der Integration von [!DNL Adobe Analytics] + [!DNL Adobe Target]
-
-* **Dienstag, 20. Juli 2021**
-* **08:00 Uhr (PDT, UTC -7)**
-* **[Klicken Sie hier für weitere Informationen und um sich zu registrieren](https://www.adobeeventsonline.com/Webinar/2021/Quantifying/).**
 
 ## [!DNL Adobe Target] Community-Fragen und -Kaffeepause
 
