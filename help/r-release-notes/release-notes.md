@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Versionshinweise
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 79%
+source-wordcount: '653'
+ht-degree: 82%
 
 ---
 
@@ -40,7 +40,6 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Verbesserungen. Die 
 | Funktion | Details |
 | --- | --- |
 | Analytics for Target (A4T) | Wenn Sie auf der Seite [!UICONTROL Berichte] auf den Link &quot;]In Analytics anzeigen[!UICONTROL &quot;in einer Aktivität klicken, die [!DNL Analytics] als Berichtsquelle (A4T) verwendet, wird [!DNL Analysis Workspace] jetzt geöffnet. Zuvor wurde der Link in der Berichterstellung [!DNL Analytics] geöffnet. (TGT-36959) |
-| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | Die folgenden Verbesserungen gelten für [!DNL Recommendations]-Popularitätsalgorithmen:<ul><li>Eine neue sechsstündige &quot;Lookback-Fenster&quot;(Datenbereich)-Option ist für alle Popularitätsalgorithmen (am häufigsten angezeigte/Topverkäufe) verfügbar, wenn [!DNL Target] die Verhaltensdatenquelle ist. (Dieses Lookback-Fenster ist *nicht* verfügbar, wenn [!DNL Adobe Analytics] die Verhaltensdatenquelle ist.)</li><li>Wenn diese Option aktiviert ist, werden die folgenden Algorithmen ungefähr alle drei Stunden (statt alle 12 Stunden) ausgeführt.<ul><li>Am häufigsten angezeigt</li><li>Am häufigsten gekauft</li><li>Am häufigsten nach Kategorie angezeigt</li><li>Am häufigsten nach Kategorie gekauft</li><li>Am häufigsten angezeigt durch benutzerdefiniertes Attribut (mithilfe der groupBy-Funktion)</li><li>Am häufigsten gekauft durch benutzerdefiniertes Attribut (mithilfe der groupBy-Funktion)</li></ul></ul>Veröffentlichungsdatum anzukündigen. (Die 1086 populärsten) |
 
 ## Python SDK 1.0.0 (16. Juni 2021)
 
