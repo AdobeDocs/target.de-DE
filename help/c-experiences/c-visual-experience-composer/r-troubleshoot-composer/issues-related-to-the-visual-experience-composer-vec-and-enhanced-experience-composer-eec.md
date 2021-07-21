@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie unter bestimmten Bedingungen Probleme beheben
 title: Wie kann ich Probleme im Zusammenhang mit Visual Experience Composer und Enhanced Experience Composer beheben?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
+source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1554'
 ht-degree: 48%
 
 ---
@@ -19,6 +19,13 @@ Anzeigeprobleme und andere Probleme treten manchmal unter bestimmten Bedingungen
 
 Beachten Sie die Änderungen, die sich auf VEC und EEC auswirken, wenn Sie die folgenden Chrome-Versionen verwenden:
 
+>[!NOTE]
+>
+>Die folgende Änderung betrifft alle drei unten beschriebenen Aktualisierungen:
+>
+> * Kann *not* VEC (mit oder ohne installierte und aktivierte VEC Helper-Erweiterung) auf kennwortgeschützten Seiten ihrer Sites verwenden. Ihre Site-Anmelde-Cookies werden als Drittanbieter-Cookie betrachtet und mit der Anmeldeanfrage gesendet. Die einzige Ausnahme besteht darin, dass für Ihr Site-Anmelde-Cookie bereits der SameSite-Parameter auf &quot;none&quot;gesetzt ist.
+
+
 **Chrome 94 (21. September 2021)**: Da die bevorstehenden Änderungen für die Chrome-Version 94 (21. September 2021) geplant sind, wirkt sich die folgende Änderung auf alle Benutzer mit Chrome 94+-Browserversionen aus:
 
 * Die Befehlszeilenkennzeichnung `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` wird entfernt.
@@ -29,7 +36,6 @@ Beachten Sie die Änderungen, die sich auf VEC und EEC auswirken, wenn Sie die f
 
 **Chrome 80 (August 2020)**: Nachdem die Änderungen im August 2020 implementiert wurden, sind alle Benutzer mit Chrome 80+-Browserversionen:
 
-* Kann *not* VEC (mit oder ohne installierte und aktivierte VEC Helper-Erweiterung) auf kennwortgeschützten Seiten ihrer Sites verwenden. Ihre Site-Anmelde-Cookies werden als Drittanbieter-Cookie betrachtet und mit der Anmeldeanfrage gesendet. Die einzige Ausnahme besteht darin, dass für Ihr Site-Anmelde-Cookie bereits der SameSite-Parameter auf &quot;none&quot;gesetzt ist.
 * Kann *not* [!DNL Target]-Bibliotheken beim Bearbeiten einer Aktivität herunterladen (wenn diese noch nicht auf der Site vorhanden sind). Der Grund dafür ist, dass der Download-Aufruf von der Kundendomäne zu einer gesicherten Adobe-Domäne erfolgt und als nicht authentifiziert zurückgewiesen wird.
 * Der EEC funktioniert *nicht* für alle Benutzer, da er das SameSite-Attribut für Cookies nicht auf `adobemc.com domain` setzen kann. Ohne dieses Attribut lehnt der Browser diese Cookies ab, wodurch der EEC fehlschlägt.
 
