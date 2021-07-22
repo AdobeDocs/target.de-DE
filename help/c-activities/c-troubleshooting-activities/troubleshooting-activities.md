@@ -1,11 +1,11 @@
 ---
-keywords: Fehlerbehebung in Target; Problembehebung in Target; Standardinhalte; Test nicht verfügbar; Aktivität nicht verfügbar; Targeting funktioniert nicht; vorheriges Erlebnis erscheint; kann keine Aktivitäten erstellen; Aktivitäten erstellen; Seitenstruktur geändert; Seitenstruktur modifiziert; Fehlermeldung; Fehler beim Löschen von Profilskript; AJAX funktioniert nicht
+keywords: Fehlerbehebung in Target;Problembehebung in Target;Standardinhalte;Test nicht verfügbar;Aktivität nicht verfügbar;Targeting funktioniert nicht;vorheriges Erlebnis erscheint;kann keine Aktivitäten erstellen;Aktivitäten erstellen;Seitenstruktur geändert;Seitenstruktur modifiziert;Fehlermeldung;Fehler beim Löschen von Profilskript;AJAX funktioniert nicht
 description: Sollte Ihre Adobe  [!DNL Target] -Aktivität nicht auf Ihrer Site erscheinen, finden Sie hier Vorschläge zur Fehlerbehebung.
 title: Wie kann ich Probleme in Verbindung mit Aktivitäten beheben?
 feature: Aktivitäten
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
 ht-degree: 100%
 
