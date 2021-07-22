@@ -1,13 +1,13 @@
 ---
-keywords: Fehlerbehebung; häufig gestellte Fragen; FAQ; FAQs; Recommendations; Sonderzeichen; Attributgewichtung; Ähnlichkeit von Inhalten
+keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQs;Recommendations;Sonderzeichen;Attributgewichtung;Ähnlichkeit von Inhalten
 description: Eine Liste der häufig gestellten Fragen und Antworten zu Adobe  [!DNL Target] -Recommendations-Aktivitäten.
 title: Wo finde ich Fragen und Antworten zu  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3129'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vo
 
 >[!NOTE]
 >
->Diese Einstellung gilt nur für Aktivitäten, die im [!UICONTROL Visual Experience Composer] (VEC) erstellt wurden. Sie gilt nicht für Aktivitäten, die im Formular-basierten Experience Composer erstellt wurden ([!DNL Target] verfügt über keinen Speicherortkontext).
+>Diese Einstellung gilt nur für Aktivitäten, die in [!UICONTROL Visual Experience Composer] (VEC) erstellt wurden. Sie gilt nicht für Aktivitäten, die im Formular-basierten Experience Composer erstellt wurden ([!DNL Target] verfügt über keinen Speicherortkontext).
 
 Wenn Sie auf die Einstellung [!UICONTROL Inkompatible Kriterien filtern] zugreifen möchten, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Einstellungen]:
 
@@ -247,10 +247,10 @@ Ein in [!DNL Recommendations Classic] erstellter Algorithmus wird in [!DNL Recom
 
 ## Wie kann ich nur neue Artikel oder Videos empfehlen? {#recommend-new-articles}
 
-Einige Kunden in Medien und Veröffentlichungen möchten sicherstellen, dass empfohlene Artikel nur die neuesten Artikel oder Videos enthalten. Ein [!DNL Target]-Kunde hat beispielsweise den folgenden Ansatz verwendet, um Artikel zu empfehlen, die weniger als 60 Tage alt sind:
+Einige Kunden möchten sicherstellen, dass in Medien und Veröffentlichungen empfohlene Artikel nur die neuesten Artikel bzw. Videos enthalten. Ein [!DNL Target]-Kunde hat beispielsweise den folgenden Ansatz verwendet, um Artikel zu empfehlen, die weniger als 60 Tage alt sind:
 
-1. Übergeben Sie das Veröffentlichungsdatum des Artikels im JJMMTT-Format als benutzerdefiniertes Entitätsattribut.
-1. Erstellen Sie ein Profilskript, das dem aktuellen Datum abzüglich 60 Tage entspricht, auch im Format JJJMMTT .
+1. Übergeben Sie das Veröffentlichungsdatum des Artikels im JJJJMMTT-Format als benutzerdefiniertes Entitätsattribut.
+1. Erstellen Sie ein Profilskript, das dem aktuellen Datum abzüglich 60 Tage entspricht, auch im Format JJJJMMTT.
 1. Verwenden Sie einen dynamischen Einschlussfilter in den Kriterien, sodass `publish date > today’s date minus 60 days` angezeigt wird.
 
 ### Übergeben Sie das Veröffentlichungsdatum als benutzerdefiniertes Entitätsattribut:
@@ -259,7 +259,7 @@ Einige Kunden in Medien und Veröffentlichungen möchten sicherstellen, dass emp
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
-| parentCategory | Kommentar |
+| parentCategory | commentary |
 | publishDate | 20210113 |
 | publishDateDisplay | 13. Januar 2021 |
 
@@ -273,4 +273,4 @@ Einige Kunden in Medien und Veröffentlichungen möchten sicherstellen, dass emp
 
 >[!NOTE]
 >
->Dieses Beispiel kann auch mit der Parameterübereinstimmung und der Übergabe des `priorDate60` -Werts als Mbox-Parameter durchgeführt werden.
+>Dieses Beispiel kann auch mit der Parameterübereinstimmung und der Übergabe des `priorDate60`-Werts als Mbox-Parameter durchgeführt werden.
