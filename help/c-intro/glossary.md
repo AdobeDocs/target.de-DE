@@ -4,7 +4,7 @@ title: Wo finde ich die in Target verwendeten Begriffe und deren Definitionen?
 feature: Überblick
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2417'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Automated Personalization (AP) kombiniert Angebote oder Nachrichten und ordnet d
 
 Testen und verfolgen Besuche von Anzeigen und anderen Offsite-Inhalten. Darüber hinaus können Sie verhaltensbasierte Werbeanzeigen nutzen, um denselben Benutzer beim Besuchen und Verlassen Ihrer Site zu identifizieren und das gesamte Web-Erlebnis für ihn konsistent zu gestalten.
 
-## C    {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
+## C   {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
 **Kampagne**
 
@@ -138,7 +138,7 @@ Ermöglicht RIAs (Rich Internet Applications) das Manipulieren von HTML nach Lad
 
 Auf dynamischen Seiten können Werte an dynamische Angebote übergeben werden.
 
-## E    {#section_55C3D8AF3D31494784C70090D8343244}
+## E   {#section_55C3D8AF3D31494784C70090D8343244}
 
 **Interaktion**
 
@@ -172,7 +172,7 @@ Ein Angebot, ein Bild, ein Text, eine Schaltfläche, ein Video, eine Kombination
 
 Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basierend auf einem Satz aus vermarkterdefinierten Regeln und Kriterien bereitgestellt.
 
-## F    {#section_45450032955C4DD2B607B85A23C4E21A}
+## F   {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **Feed**
 
@@ -186,7 +186,7 @@ Die visuelle Darstellung einer Aktivität in Target Standard.
 
 Eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen und Angeboten. Diese Erlebnisse können in A/B-Tests, im Erlebnis-Targeting, in der Automated Personalization und in Recommendations-Aktivitäten genutzt werden, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. So können Sie den formularbasierten Composer beispielsweise verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachassistenten zu erstellen.
 
-## G    {#section_D7B3B62BD3A449EFAA11DF9704773B28}
+## G   {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **Geo-Positionsparameter**
 
@@ -196,7 +196,7 @@ Ermöglicht das Targeting der Aktivitäten und Erlebnisse anhand der geografisch
 
 Die Konversion bzw. das Ergebnis, das eine erfolgreiche Aktivität signalisiert. Die Best Practice ist, niemals einen Test ohne ein Ziel durchzuführen, das auf eine bestimmte Art und Weise verbessert werden soll.
 
-## H    {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H   {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **Host**
 
@@ -212,7 +212,7 @@ Siehe *Umgebung*. Hostgruppen werden in [!DNL Target Standard/Premium] als „Um
 
 Besucherspezifischer Parameter, der von der Mbox an das Besucher-Cookie übergeben wird. mbox-interne Profilparameter werden z. B. bei wiederkehrenden Besuchern eingesetzt.
 
-## L    {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L   {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **Landingpage-Aktivität**
 
@@ -222,7 +222,7 @@ Eine Landingpage-Aktivität ermöglicht Ihnen, für unterschiedliche Besuche unt
 
 Ein spezifischer Inhaltsbereich auf einer Seite, der oftmals in einem einzelnen DOM-Element enthalten ist. Bei der MVT-Methode wird der Ort zuweilen als *Faktor* bezeichnet. Ein vollständiger Multivarianz-Test vergleicht alle möglichen Angebotskombinationen in Ihren Orten.
 
-## M    {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M   {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **Mbox**
 
@@ -262,7 +262,7 @@ Bei einem Angebot handelt es sich um die Inhalte, die in Aktivitäten und Tests 
 
 Ermöglicht Besuchern, sich vom Tracking und der Inhaltsbereitstellung abzumelden.
 
-## P    {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
+## P   {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **Seitenzahl**
 
@@ -272,7 +272,7 @@ Mit dieser Interaktionsmetrik wird die Anzahl der bei einem Besuch angezeigten S
 
 Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
-## R    {#section_86725D549B6F46A6ADEE424F33595705}
+## R   {#section_86725D549B6F46A6ADEE424F33595705}
 
 **Rezept**
 
@@ -326,7 +326,7 @@ Eine einseitige Anwendung (SPA) ist eine Webanwendung oder Website, die auf eine
 
 Die Parameter, die zur Messung des Erfolgs einer Aktivität verwendet werden. Erfolgsmetriken umfassen die wichtigsten betrieblichen Messwerte, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer Target-Aktivität ermitteln können. Sie können beispielsweise feststellen, ob ein neues Angebot oder ein zusätzlicher Artikel in einem Einkaufswagen Ihren Umsatz pro Besucher steigert. Erfolgsmetriken können hilfreich sein, um Probleme mit der Registrierung, der Sortierung oder dem Kauftrichter oder einfach mit der Besucher- und Kundeninteraktion zu ermitteln.
 
-## T    {#section_1841144841AF41169AF1E83B90C18292}
+## T   {#section_1841144841AF41169AF1E83B90C18292}
 
 **Test**
 
@@ -336,7 +336,7 @@ Eine Aktivität, die Erlebnisse mit den von Ihnen definierten Erfolgsmetriken ve
 
 Dieser Interaktionstyp entspricht der während des Besuchs verbrachten Zeit (in Sekunden) ab der Anzeige der ersten Anzeige-Mbox bis zum Laden der letzten Seite während der Sitzung mit einer Mbox.
 
-## U    {#section_6407B81326FF43049D92265746E6C402}
+## U   {#section_6407B81326FF43049D92265746E6C402}
 
 **URL-Parameter**
 
@@ -356,7 +356,7 @@ Ein Besucher ist eine Person, die auf Ihre Site zugreift. Ein Besucher wird mit 
 
 Eine WYSIWYG-Benutzeroberfläche in Target Standard, mit der Sie einfach personalisierte Erlebnisse und Angebote für Websites erstellen und testen können. Erlebnisse und Angebote können für Target-Aktivitäten erstellt werden, indem Sie das Layout und den Inhalt einer Webseite (oder eines Angebots) per Drag &amp; Drop austauschen und verändern.
 
-## W    {#section_62E7B598DBB34ECABAF4EF913B0895EC}
+## W   {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
 **Erfolgreichstes Erlebnis**
 
