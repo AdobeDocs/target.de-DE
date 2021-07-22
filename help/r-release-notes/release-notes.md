@@ -1,5 +1,5 @@
 ---
-keywords: Versionshinweise; neue Funktionen; Versionen; Updates; Update; Version; Verbesserungen; Erweiterungen; Fehlerbehebungen; Fehlerkorrekturen; Aktualisierungen
+keywords: Versionshinweise;neue Funktionen;Versionen;Updates;Update;Version;Verbesserungen;Erweiterungen;Fehlerbehebungen;Fehlerkorrekturen;Aktualisierungen
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von [!DNL Adobe Target], einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Versionshinweise
@@ -7,7 +7,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 82%
+ht-degree: 87%
 
 ---
 
@@ -39,7 +39,7 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Verbesserungen. Die 
 
 | Funktion | Details |
 | --- | --- |
-| Analytics for Target (A4T) | Wenn Sie auf der Seite [!UICONTROL Berichte] auf den Link &quot;]In Analytics anzeigen[!UICONTROL &quot;in einer Aktivität klicken, die [!DNL Analytics] als Berichtsquelle (A4T) verwendet, wird [!DNL Analysis Workspace] jetzt geöffnet. Zuvor wurde der Link in der Berichterstellung [!DNL Analytics] geöffnet. (TGT-36959) |
+| [!UICONTROL Analytics for Target] (A4T) | Wenn Sie auf der Seite [!UICONTROL Berichte] auf den Link ]In Analytics anzeigen[!UICONTROL  in einer Aktivität klicken, die [!DNL Analytics] als Berichtsquelle (A4T) verwendet, wird jetzt [!DNL Analysis Workspace] geöffnet. Zuvor wurden durch den Link die Berichte von [!DNL Analytics] geöffnet. (TGT-36959) |
 
 ## Python SDK 1.0.0 (16. Juni 2021)
 
@@ -53,7 +53,7 @@ Diese Version von [!DNL Platform Web SDK] unterstützt Folgendes:
 
 | Funktion | Details |
 | --- | --- |
-| Umleitungs-Unterstützung mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt Umleitungen von [!DNL Target] bei der Verwendung von [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Weitere Informationen finden Sie unter [Analytics für die [!DNL Target] -Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Umleitungs-Unterstützung mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt Umleitungen von [!DNL Target] bei der Verwendung von [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Weitere Informationen finden Sie unter [Analytics für die  [!DNL Target] -Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
