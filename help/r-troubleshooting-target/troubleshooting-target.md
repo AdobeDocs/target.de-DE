@@ -1,11 +1,11 @@
 ---
-keywords: Fehlerbehebung in Target; Problembehebung in Target
+keywords: Fehlerbehebung in Target;Problembehebung in Target
 description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Target unterstützen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen (FAQs) und weitere hilfreiche Informationen.
 title: Wie behebe ich Fehler in Target?
 feature: Fehlerbehebung
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
 ht-degree: 100%
 
