@@ -1,13 +1,13 @@
 ---
-keywords: Mbox debuggen; Fehlerbehebung für Mbox; Mbox-Probleme; Flackern; mboxDebug; mboxTrace; Token; Debugger; Priorität; Aktivitätspriorität; Adobe Experience Cloud Debugger; orderConfirmPage mbox; SiteCatalyst Mbox kaufen; bester Verkauf; bestverkauftes Produkt
+keywords: Mbox debuggen;Fehlerbehebung für Mbox;Mbox-Probleme;Flackern;mboxDebug;mboxTrace;Token;Debugger;Priorität;Aktivitätspriorität;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst Mbox kaufen;bester Verkauf;bestverkauftes Produkt
 description: Hier finden Sie Tipps zur Fehlerbehebung, wenn der Inhalt auf Ihrer Seite nicht wie erwartet angezeigt wird. Erfahren Sie, wie Sie Fehler bei der Inhaltsbereitstellung beheben.
 title: Wie kann ich Fehler bei der Inhaltsbereitstellung beheben?
 feature: Aktivitäten
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1268'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Die folgenden Parameter stehen zur Verfügung:
 
 | mboxTrace-Optionen | Resultat |
 |--- |--- |
-| `?mboxTrace=console` | Wird im Konsolenprotokoll als Objekt ausgegeben.<br>Bei at.js müssen Sie, anstatt wie in mbox.js ein neues Browser-Fenster zu öffnen oder in der Konsole auszugeben, die Netzwerkanforderung untersuchen und unter &quot;Vorschau&quot;(Chrome) oder &quot;Antwort&quot;(Firefox) nachsehen. |
+| `?mboxTrace=console` | Wird im Konsolenprotokoll als Objekt ausgegeben.<br>Bei „at.js“ können Sie kein neues Browser-Fenster öffnen oder wie bei „mbox.js“ eine Ausgabe in der Konsole veranlassen. Sie müssen die „Network“-Anfrage prüfen und unter „Preview“ (Chrome) oder „Response“ (Firefox) nachsehen. |
 | `?mboxTrace=json` | Wird im Konsolenprotokoll als buchstäbliche JSON-Zeichenfolge ausgegeben |
 | `?mboxTrace=window` | Wird im Pop-up-Fenster als JSON-Zeichenfolge ausgegeben |
 | `?mboxTrace=disable` | Schaltet den Trace-Sitzungsmodus ab |
