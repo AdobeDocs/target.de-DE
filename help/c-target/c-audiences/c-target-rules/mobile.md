@@ -1,48 +1,47 @@
 ---
 keywords: Targeting; mobil; target mobile; deviceatlas; iPhone; iPhone-Modelle; deviceatlas; Displaybreite; Display Breite; Displayhöhe; Gerätetyp; Displayhöhe; Mobiltelefon; Tablet; Gerätemodell
-description: Erfahren Sie, wie Sie Audiencen in Adobe [!DNL Target] für die Zielgruppe von Mobilgeräten erstellen, die auf Parametern wie Mobilgerät, Gerätetyp, Gerätehersteller, Bildschirmabmessungen (nach Pixel) usw. basieren.
-title: 'Kann ich auf der Grundlage der Mobiloptionen Besucher auswählen? [!DNL Target] '
+description: Erfahren Sie, wie Sie in [!DNL Adobe Target] Zielgruppen erstellen, um Mobilgeräte auf Basis von Parametern wie Mobilgerät, Gerätetyp, Geräteanbieter, Bildschirmabmessungen (in Pixel) und mehr als Ziel auszuwählen.
+title: Kann ich Besucher basierend auf mobilen Optionen ansprechen?
 feature: Zielgruppen
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 93%
+source-wordcount: '624'
+ht-degree: 43%
 
 ---
 
 # Mobil
 
-Sie können Zielgruppen erstellen, um Mobilgeräte auf Basis von Parametern wie Mobilgerät, Gerätetyp, Geräteanbieter, Bildschirmmaßen (in Pixeln) usw. auszuwählen.
+Erstellen Sie Zielgruppen in [!DNL Adobe Target], um Mobilgeräte auf Basis von Parametern wie Mobilgerät, Gerätetyp, Geräteanbieter, Bildschirmmaßen und mehr als Ziel auszuwählen.
 
-Zum Beispiel möchten Sie möglicherweise abhängig davon, ob ein Benutzer über ein Telefon oder einen Computer auf Ihre Seite zugreift, unterschiedliche Inhalte anzeigen. In diesem Fall können Sie die Zielgruppe „Mobil“ und anschließend die Option **[!UICONTROL Ist Mobiltelefon]** auswählen und dann für Sie bedeutende spezifische Details wie den Telefontyp, die Bildschirmgröße (in Pixeln) usw. hinzufügen.
+So können Sie beispielsweise Benutzern, die Ihre Seite über ein Telefon besuchen, andere Inhalte anzeigen, als bei Besuchen auf einem Computer. In diesem Fall können Sie die Zielgruppe [!UICONTROL Mobile] und dann die Option **[!UICONTROL Ist Mobiltelefon]** auswählen. Sie können dann alle spezifischen Details hinzufügen, die für Sie wichtig sind, z. B. den Telefontyp, die Bildschirmgröße (in Pixel) usw.
 
 Das mobile Targeting wird von [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), einem Service von DotMobi bereitgestellt. DeviceAtlas ist eine umfassende Datenbank mobiler Geräte, die auf Daten beruht, die aus zahlreichen Quellen zusammengefasst wurden, einschließlich von Herstellern und Netzwerkbetreibern. Diese Daten wurden dann geprüft, referenziert und validiert, um eine große, genaue Datenbank der verfügbaren mobilen Geräte zu erstellen.
 
 Für die Geräteerkennung werden die User-Agent-Zeichenfolgen analysiert. Einige Gerätehersteller, z. B. Apple, deaktivieren diese Funktion, indem sie in den User-Agent-Zeichenfolgen keine ausreichenden Informationen bereitstellen.
 
-Apple-Geräte übermitteln beispielsweise in den UA-Daten keine gerätespezifischen Token. Daher können iPhone-Modelle (wie iPhone 5S, iPhone SE, iPhone 6 usw.) nicht mittels eines einfachen Keyword-basierten Verfahrens erkannt werden.
+Apple-Geräte übermitteln beispielsweise in den UA-Daten keine gerätespezifischen Token. Das Ergebnis ist, dass es nicht möglich ist, iPhone-Modelle (wie iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max usw.) mithilfe einer einfachen schlüsselwortbasierten Methode zu erkennen.
 
-Um dieses Problem zu lösen, erfasst Target zusätzliche Daten, um iPhones und andere Apple-Geräte anhand folgender Parameter präzise zu erkennen:
+Um dieses Problem zu beheben, erfasst [!DNL Target] zusätzliche Daten, um iPhones und andere Apple-Geräte mithilfe der folgenden Parameter genau zu erkennen:
 
 | Parameter | Typ | Beschreibung |
 |--- |--- |--- |
-| devicePixelRatio | Zeichenfolge | Ein Verhältnis zwischen physischen Pixeln und geräteunabhängigen Pixeln (Dips) im Browser,  z. B. 1,5 oder 2. |
+| devicePixelRatio | Zeichenfolge | Ein Verhältnis zwischen physischen Pixeln und geräteunabhängigen Pixeln (Dips) im Browser,  Beispiel: &quot;1.5&quot;oder &quot;2&quot; |
 | screenOrientation | Zeichenfolge | Das Gerät und die JavaScript-Engine des Browsers unterstützen die Bildschirmdrehung. Mögliche Werte: Querformat oder Hochformat. |
 | webGLRenderer | Zeichenfolge | Browser-Renderer des Grafiktreibers. |
 
 >[!NOTE]
 >
->Bei Kunden, die das Mobile SDK verwenden, ist keine Aktion erforderlich, um diese Funktion zu nutzen. Kunden, die at.js verwenden, müssen auf at.js Version 1.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (oder höher) [ aufrüsten.
+>Kunden, die das Mobile SDK verwenden, müssen nichts unternehmen, um diese Funktion anzuwenden. Kunden, die at.js verwenden, müssen auf at.js Version 1.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (oder höher) [ aufrüsten.
 
-Sie können mehr als eine Geräteeigenschaft auswählen. Mehrfachauswahlen werden mit ODER verbunden.
+Sie können mehr als eine Geräteeigenschaft auswählen. Mehrere Auswahlen werden mit einem ODER-Operator verbunden.
 
 Kunden, die eine benutzerspezifische Integration (also weder at.js noch das Mobile SDK) verwenden, können diese Parameter selbst erfassen und als Mbox-Parameter übergeben.
 
 1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
-1. Nennen Sie die Zielgruppe.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** > **[!UICONTROL Mobil]**.
+1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
+1. Ziehen Sie **[!UICONTROL Mobile]** in den Bereich Audience Builder .
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
    * Gerätemarketingbezeichnung
@@ -57,18 +56,18 @@ Kunden, die eine benutzerspezifische Integration (also weder at.js noch das Mobi
 
    >[!NOTE]
    >
-   >Aufgrund neuer Änderungen in iOS 12.2 ist die Erstellung einer Zielgruppe mit Regeln beeinträchtigt, die von der Gerätemarketingbezeichnung und vom Gerätemodell definiert werden, die iPhone-Modelle spezifizieren. Benutzer mit iPhones mit iOS 12.2 können nicht mehr als Zielgruppe ausgewählt werden. Wenn diese Benutzer jedoch nicht iOS 12.2 installiert haben, funktioniert das iPhone-Modell-Targeting weiterhin ordnungsgemäß.
+   >Aufgrund der neuen Änderungen, die in iOS 12.2 eingeführt wurden, wirkt sich das Erstellen einer Zielgruppe mit Regeln aus, die von [!UICONTROL Device Marketing Name] und [!UICONTROL Device Model] definiert werden, die iPhone-Modelle angeben. [!DNL Target] Benutzer, die iPhones mit iOS 12.2 (oder höher) installiert haben, können nicht mehr als Ziel ausgewählt werden. Wenn diese Benutzer jedoch nicht über iOS 12.2 (oder höher) verfügen, funktioniert das iPhone-Modell-Targeting weiterhin ordnungsgemäß.
    >
-   >Das iOS 12.2-Update hat keine Auswirkungen auf die Identifizierung der folgenden Modelle, da diese Modelle das Upgrade auf iOS 12.2 nicht unterstützen: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina Display, iPad Retina (4th Gen), iPod Touch 4 und iPod Touch 5.
+   >Die Aktualisierung von iOS 12.2 (oder höher) hat keine Auswirkungen auf die Identifizierung der folgenden Modelle, da diese Modelle die Aktualisierung auf iOS 12.2 nicht unterstützen: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad/Retina Display, iPad Retina (4. Generation), iPod Touch 4 und iPod Touch 5.
 
    >[!NOTE]
    >
    >Sie können das Targeting nach Mobilnetzbetreiber mithilfe der [Geo-Einstellungen](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670) vornehmen.
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-Die folgende Abbildung zeigt eine Zielgruppe bestehend aus Besuchern, die Geräte verwenden, die von Google produziert wurden und Mobilgeräte sind.
+Die folgende Abbildung zeigt eine Zielgruppe, die Besucher auswählt, die von Google hergestellte Geräte verwenden, die Mobilgeräte sind.
 
 ![Zielgruppe mit Mobilgeräten](assets/target_mobile.png)
 
