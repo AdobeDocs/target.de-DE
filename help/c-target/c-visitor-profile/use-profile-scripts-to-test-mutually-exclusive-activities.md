@@ -1,29 +1,28 @@
 ---
-keywords: Profil-Skript;Profil-Skriptattribute;Aktivitäten, die sich gegenseitig ausschließen
-description: Erfahren Sie, wie Sie mithilfe von Profil-Attributen Tests in Adobe [!DNL Target] einrichten, die mehrere Aktivitäten vergleichen, aber nicht zulassen, dass dieselben Besucher an jeder Aktivität teilnehmen.
-title: Kann ich Profil Scripts zum Testen von gegenseitig ausschließenden Aktivitäten verwenden?
+keywords: Profilskript; Profilskriptattribute; sich gegenseitig ausschließende Aktivitäten
+description: Erfahren Sie, wie Sie mithilfe von Profilattributen Tests in Adobe [!DNL Target] einrichten können, die mehrere Aktivitäten vergleichen, aber nicht zulassen, dass dieselben Besucher an jeder Aktivität teilnehmen.
+title: Kann ich Profilskripte verwenden, um sich gegenseitig ausschließende Aktivitäten zu testen?
 feature: Zielgruppen
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 76%
+source-wordcount: '699'
+ht-degree: 74%
 
 ---
 
-# Profil-Skripten zum Testen sich gegenseitig ausschließender Aktivitäten
+# Verwenden von Profilskripten zum Testen sich gegenseitig ausschließender Aktivitäten
 
-Mithilfe von Profilattributen können Sie Tests zum Vergleich mehrerer Aktivitäten einrichten, an denen jeweils unterschiedliche Besucher teilnehmen.
+Sie können Profilattribute in [!DNL Adobe Target] verwenden, um Tests einzurichten, die zwei oder mehr Aktivitäten vergleichen, aber nicht zulassen, dass dieselben Besucher an jeder Aktivität teilnehmen.
 
 Hierdurch wird verhindert, dass ein Besucher einer Aktivität die Testergebnisse der anderen Aktivitäten beeinflusst. Wenn ein Besucher an mehreren Aktivitäten teilnimmt, ist es oft schwierig festzustellen, ob die positiven oder negativen Änderungen auf das Erlebnis des Besuchers in einer Aktivität zurückzuführen sind oder ob die Ergebnisse einer oder mehrerer Aktivitäten durch die Interaktionen zwischen den Aktivitäten beeinflusst wurden.
 
-So können Sie zum Beispiel zwei Bereiche Ihres E-Commerce-Systems testen. Sie können testen, ob Sie den Knopf &quot;Hinzufügen zum Warenkorb&quot;rot statt blau gestalten möchten. Vielleicht möchten Sie einen neuen Checkout-Prozess testen, der anstelle von fünf nur noch aus zwei Schritten besteht. Wenn beide Aktivitäten dasselbe Ereignis haben (ein abgeschlossener Einkauf), kann es schwierig sein, festzustellen, ob die rote Schaltfläche die Konversionen verbessert oder ob dieselben Konvertierungen aufgrund des verbesserten Checkout-Verfahrens ebenfalls erhöht wurden. Durch Trennung der Tests in zwei sich gegenseitig ausschließende Aktivitäten können Sie jede Veränderung einzeln prüfen.
+So können Sie zum Beispiel zwei Bereiche Ihres E-Commerce-Systems testen. Möglicherweise möchten Sie testen, wie Sie die Schaltfläche &quot;Zum Warenkorb hinzufügen&quot;rot anstelle von blau gestalten. Vielleicht möchten Sie einen neuen Checkout-Prozess testen, der anstelle von fünf nur noch aus zwei Schritten besteht. Wenn beide Aktivitäten dasselbe Erfolgsereignis aufweisen (ein abgeschlossener Kauf), kann es schwierig sein festzustellen, ob die rote Schaltfläche die Konversionen verbessert oder ob dieselben Konversionen aufgrund des verbesserten Checkout-Prozesses ebenfalls erhöht wurden. Durch Trennung der Tests in zwei sich gegenseitig ausschließende Aktivitäten können Sie jede Veränderung einzeln prüfen.
 
 Beachten Sie die folgenden Informationen, wenn Sie eines der folgenden Profilskripte verwenden:
 
 * Das Profilskript muss ausgeführt werden, bevor die Aktivität gestartet wird, und das Skript muss unverändert bleiben, während die Aktivität ausgeführt wird.
-* Auf diese Weise wird der Traffic in der Aktivität reduziert, was eine längere Ausführung der Aktivität erfordern könnte. Sie müssen diesen Umstand berücksichtigen, wenn Sie die Dauer der Aktivität schätzen.
+* Diese Technik reduziert den Traffic in der Aktivität, was möglicherweise eine längere Ausführung der Aktivität erfordert. Sie müssen diesen Umstand berücksichtigen, wenn Sie die Dauer der Aktivität schätzen.
 
 ## Einrichten von zwei Aktivitäten
 
@@ -46,11 +45,11 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` beginnt mit einer Routine, die bestimmt, zu welcher Gruppe der Besucher gehört. Wird eine Zahl zwischen 0 und 49 ausgegeben, wird der Besucher Gruppe A zugewiesen. Wird eine Zahl zwischen 50 und 99 ausgegeben, wird der Besucher Gruppe B zugewiesen. Welche Aktivität der Besucher angezeigt bekommt, wird durch seine Gruppenzugehörigkeit bestimmt.
 
-Nachdem Sie das Profil-Attribut erstellt haben, richten Sie die erste Aktivität so ein, dass die gewünschte Population Zielgruppe wird. Der Benutzerparameter `user.twogroups` muss mit dem für Gruppe A angegebenen Profil übereinstimmen.
+Nachdem Sie das Profilattribut erstellt haben, richten Sie die erste Aktivität so ein, dass die gewünschte Population ausgewählt wird. Dazu muss der Benutzerprofilparameter `user.twogroups` dem für Gruppe A angegebenen Wert entsprechen.
 
 >[!NOTE]
 >
->Wählen Sie am Seitenanfang eine Mbox aus. Dieser Code bestimmt, ob ein Besucher die Aktivität erfährt. Solange zuerst beim Browser eine Mbox auftritt, kann sie zum Festlegen dieses Werts verwendet werden.
+>Wählen Sie am Seitenanfang eine Mbox aus. Dieser Code bestimmt, ob die Aktivität einem Besucher angezeigt wird. Solange zuerst beim Browser eine Mbox auftritt, kann sie zum Festlegen dieses Werts verwendet werden.
 
 Richten Sie die zweite Kampagne so ein, dass der Benutzerprofilparameter `user.twogroups` dem für Gruppe B festgelegten Wert entspricht.
 
