@@ -4,9 +4,9 @@ breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
 source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1540'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
