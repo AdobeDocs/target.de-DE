@@ -1,11 +1,11 @@
 ---
-keywords: Adobe Experience Platform Web SDK; aep web sdk; aep sdk; Suchmaschinenoptimierung; seo; Edge-Cluster; zentrale Cluster; at.js; mbox.js;
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;Suchmaschinenoptimierung;seo;Edge-Cluster;zentrale Cluster;at.js;mbox.js;
 description: Erfahren Sie, wie Adobe  [!DNL Target] works, including information about the [!DNL Target]  JavaScript-Bibliotheken (at.js und Experience Platform Web SDK), Adobe Data Centers und SEO-Tests.
 title: Wie funktioniert  [!DNL Target] ?
 feature: Überblick
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2532'
 ht-degree: 100%
 
