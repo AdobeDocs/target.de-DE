@@ -40,7 +40,7 @@ Diese Version umfasst die folgenden Verbesserungen:
 Diese Wartungsversion enthält die folgenden Fehlerbehebungen.
 
 * Es wurde ein Fehler behoben, der dazu führte, dass der Standardarbeitsbereich beim Aktualisieren der Seite [!UICONTROL Zielgruppen] in einen anderen Arbeitsbereich geändert wurde. (TGT-38871)
-* Es wurde ein Problem unter [!UICONTROL Administration] > [!UICONTROL Implementierung] behoben, das manchmal folgende Fehlermeldung verursachte: „Die globale mBox ist möglicherweise nicht synchronisiert. Bitte versuchen Sie, sie erneut zu speichern.“
+* Es wurde ein Problem unter [!UICONTROL Administration] > [!UICONTROL Implementierung] behoben, das manchmal folgende Fehlermeldung verursachte: „Die globale mbox ist möglicherweise nicht synchronisiert. Bitte versuchen Sie, sie erneut zu speichern.“
 
 ### ![Adobe Experience Platform Web SDK-Badge](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]Version 2.5.0 (1. Juni 2021)
 
@@ -48,7 +48,7 @@ Diese Version von [!DNL Platform Web SDK] unterstützt Folgendes:
 
 | Funktion | Details |
 | --- | --- |
-| Umleitungs-Unterstützung mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt Umleitungen von [!DNL Target] bei der Verwendung von [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Weitere Informationen finden Sie unter [Analytics für die [!DNL Target] -Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Umleitungs-Unterstützung mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt Umleitungen von [!DNL Target] bei der Verwendung von [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Weitere Informationen finden Sie unter [Analytics für die  [!DNL Target] -Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ### at.js-Version 2.5.0 (13. Mai 2021)
 
@@ -1401,7 +1401,7 @@ Diese Version beinhaltet die folgenden Funktionen und Erweiterungen (die Problem
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Angebote </p> </td> 
-   <td colname="col2"> <p> Wenn ein Anwender über die Zugriffsberechtigung „Bearbeiter“ verfügt, kann er ein Angebot, das sich auf eine laufende oder geplante Aktivität bezieht, nicht bearbeiten. </p> <p> <p>Hinweis: Bei Target Premium-Kunden, die <a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=de" format="html" scope="external">Enterprise-Benutzerberechtigungen</a> einsetzen, verwendet Target die höchste Berechtigung des Anwenders für alle Arbeitsbereiche, wenn ein Anwender die Option „Alle Arbeitsbereiche“ auswählt. Wenn die höchste Zugriffsberechtigung „Bearbeiter“ ist, schränkt Target die Bearbeitung wie oben beschrieben ein. </p>. </p> <p>Diese Einschränkungen gelten für alle Angebote und damit nicht nur für Angebote, die in Target erstellt wurden. (TGT-27276) </p> </td> 
+   <td colname="col2"> <p> Wenn ein Anwender über die Zugriffsberechtigung „Bearbeiter“ verfügt, kann er ein Angebot, das sich auf eine laufende oder geplante Aktivität bezieht, nicht bearbeiten. </p> <p> <p>Hinweis: Bei Target Premium-Kunden, die <a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=de" format="html" scope="external">Enterprise-Benutzerberechtigungen</a> einsetzen, verwendet Target die höchste Berechtigung des Anwenders für alle Arbeitsbereiche, wenn ein Anwender die Option „Alle Arbeitsbereiche“ auswählt. Wenn die höchste Zugriffsberechtigung „Bearbeiter“ ist, schränkt Target die Bearbeitung wie oben beschrieben ein. </p>  </p> <p>Diese Einschränkungen gelten für alle Angebote und damit nicht nur für Angebote, die in Target erstellt wurden. (TGT-27276) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Antwort-Token </p> </td> 
@@ -2266,11 +2266,11 @@ In der Version Adobe Target Standard/Premium 16.8.1 (23. August 2016) sind fo
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Verwaltung von Hosts und Umgebungen (Hostgruppen) </p> </td> 
-   <td colname="col2"> <p>Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung. </p> <p>Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Zu den aktuellen Umgebungen gehören Produktion, Staging und Entwicklung. Es können außerdem neue Umgebungen hinzugefügt werden. </p> <p>Diese Funktion entspricht den Funktionen von <span class="keyword">Target Classic </span>. </p> <p>Weitere Informationen finden Sie unter <a href="/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local">Hosts</a>. </p> </td> 
+   <td colname="col2"> <p>Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung. </p> <p>Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Zu den aktuellen Umgebungen gehören Produktion, Staging und Entwicklung. Es können außerdem neue Umgebungen hinzugefügt werden. </p> <p>Diese Funktion entspricht den Funktionen von <span class="keyword">Target Classic</span>. </p> <p>Weitere Informationen finden Sie unter <a href="/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local">Hosts</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kategorieaffinität </p> </td> 
-   <td colname="col2"> <p>Die Kategorieaffinitätsfunktion erfasst automatisch alle Kategorien, die ein Benutzer besucht, und berechnet die Affinität des Benutzers für diese Kategorien, sodass diese zielgerichtet und segmentiert eingesetzt werden können. Hierdurch wird gewährleistet, dass Inhalte zielgerichtet auf Besucher angewendet werden, die mit großer Wahrscheinlichkeit aufgrund dieser Informationen handeln. </p> <p>Diese Funktion entspricht den Funktionen von <span class="keyword">Target Classic </span>. </p> <p>Weitere Informationen finden Sie unter <a href="/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local">Kategorieaffinität</a>. </p> </td> 
+   <td colname="col2"> <p>Die Kategorieaffinitätsfunktion erfasst automatisch alle Kategorien, die ein Benutzer besucht, und berechnet die Affinität des Benutzers für diese Kategorien, sodass diese zielgerichtet und segmentiert eingesetzt werden können. Hierdurch wird gewährleistet, dass Inhalte zielgerichtet auf Besucher angewendet werden, die mit großer Wahrscheinlichkeit aufgrund dieser Informationen handeln. </p> <p>Diese Funktion entspricht den Funktionen von <span class="keyword">Target Classic</span>. </p> <p>Weitere Informationen finden Sie unter <a href="/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local">Kategorieaffinität</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktivieren/Deaktivieren des Enhanced Experience Composer auf Aktivitätsebene </p> </td> 
