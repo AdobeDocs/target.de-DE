@@ -1,24 +1,23 @@
 ---
 keywords: Affinität; Kategorieaffinität
-description: Erfahren Sie mehr über die Affinität der Kategorie in Adobe [!DNL Target] die automatisch die Kategorien erfasst, die ein Benutzer besucht, und anschließend die Affinität des Benutzers für die Kategorie berechnet, damit diese zielgerichtet und segmentiert eingesetzt werden kann.
-title: Was ist Kategorie Affinität?
+description: Erfahren Sie mehr über die Kategorieaffinität in Adobe [!DNL Target] die automatisch Kategorien erfasst, die ein Benutzer besucht, und dann die Affinität des Benutzers für diese  berechnet, sodass diese zielgerichtet und segmentiert eingesetzt werden kann.
+title: Was ist Kategorieaffinität?
 feature: Zielgruppen
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 94%
+source-wordcount: '793'
+ht-degree: 74%
 
 ---
 
 # Kategorieaffinität
 
-Die Kategorieaffinitätsfunktion erfasst automatisch alle Kategorien, die ein Benutzer besucht, und berechnet die Affinität des Benutzers für diese Kategorien, sodass diese zielgerichtet und segmentiert eingesetzt werden können. Hierdurch wird gewährleistet, dass Inhalte zielgerichtet auf Besucher angewendet werden, die mit großer Wahrscheinlichkeit aufgrund dieser Informationen handeln.
+Die Kategorieaffinitätsfunktion in [!DNL Adobe Target] erfasst automatisch die Kategorien, die ein Benutzer besucht, und berechnet dann die Affinität des Benutzers für diese Kategorie, sodass diese zielgerichtet und segmentiert eingesetzt werden kann. Die Kategorieaffinität hilft dabei sicherzustellen, dass Inhalte auf Besucher ausgerichtet sind, die mit hoher Wahrscheinlichkeit aufgrund dieser Informationen handeln.
 
 ## Übergeben von Kategorieaffinitätsinformationen an [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-Wenn ein Benutzer Ihre Site besucht, werden besucherspezifische Profilparameter in der [!DNL Target]-Datenbank aufgezeichnet. Diese Daten sind an das Cookie des Benutzers gebunden. Ein besonders nützlicher Parameter ist `user.categoryId`, ein Mbox-Parameter, der auf einer Produktseite zugewiesen wird. Wenn der Besucher weiter auf der Site surft oder für eine andere Sitzung zurückkehrt, können die Produktkategorien aufgezeichnet werden, die sich ein bestimmter Benutzer ansieht. Kategoriedaten können auch aufgezeichnet werden, indem sie als Mbox-Parameter `user.categoryId` in einer beliebigen Mbox (einschließlich verschachtelter Mboxes), als URL-Parameter `user.categoryId` oder mit globaler Mbox als Target-Seitenparameter übermittelt werden. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+Wenn ein Benutzer Ihre Site besucht, werden besucherspezifische Profilparameter in der [!DNL Target]-Datenbank aufgezeichnet. Diese Daten sind an das Cookie des Benutzers gebunden. Ein nützlicher Parameter ist `user.categoryId`, ein auf einer Produktseite zugewiesener Mbox-Parameter. Wenn der Besucher weiter auf der Site surft oder für eine andere Sitzung zurückkehrt, können die Produktkategorien aufgezeichnet werden, die sich ein bestimmter Benutzer ansieht. Kategoriedaten können auch aufgezeichnet werden, indem sie als Mbox-Parameter `user.categoryId` in einer beliebigen Mbox (einschließlich verschachtelter Mboxes), als URL-Parameter `user.categoryId` oder mit globaler Mbox als Target-Seitenparameter übermittelt werden. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
 
 Trennen Sie Kategorien durch ein Komma, um ein Element in mehrere Kategorien einzubeziehen. Beispiel:
 
@@ -30,7 +29,7 @@ Sie können `user.categoryAffinities[]` in einem Profilskript benutzen, um ein A
 
 >[!IMPORTANT]
 >
->Das `user.categoryId`-Attribut, das für den Kategorieaffinitätsalgorithmus von Adobe Target verwendet wird, unterscheidet sich von dem `entity.categoryId`-Attribut, das für die Produkt- und Inhaltsempfehlungen von Adobe Target Recommendations verwendet wird. `user.categoryId` ist erforderlich, um die bevorzugte Kategorie eines Benutzers zu verfolgen. `entity.categoryId` ist erforderlich, um Empfehlungen auf der Basis der Kategorie der aktuellen Seite oder des aktuellen Elements zu erhalten. Senden Sie beide Werte an Adobe Target, wenn Sie beide Funktionen verwenden möchten.
+>Das für den Kategorieaffinitätsalgorithmus verwendete Attribut `user.categoryId` unterscheidet sich vom Attribut `entity.categoryId`, das für die Produkt- und Inhaltsempfehlungen von [!DNL Adobe Target Recommendations] verwendet wird. `user.categoryId` ist erforderlich, um die bevorzugte Kategorie eines Benutzers zu verfolgen. `entity.categoryId` ist erforderlich, um Empfehlungen auf der Basis der Kategorie der aktuellen Seite oder des aktuellen Elements zu erhalten. Senden Sie beide Werte an Adobe Target, wenn Sie beide Funktionen verwenden möchten.
 
 ## Geschäftsfall für Kategorieaffinität {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -44,10 +43,10 @@ Stellen Sie sich vor, dass Sie online Musikinstrumente verkaufen und zielgericht
 
 Der Algorithmus für die Kategorieaffinität funktioniert wie folgt:
 
-* 10 Punkte für die erste angezeigte Kategorie
-* 5 Punkte für jede Kategorie, auf die nach der ersten geklickt wurde
+* Zehn Punkte für die erste angezeigte Kategorie
+* Fünf Punkte für jede Kategorie, auf die nach der ersten geklickt wurde
 * Wenn auf eine neue Kategorie geklickt wird, wird 1 von allen zuvor angeklickten Kategorien subtrahiert
-* Wenn bereits auf eine Kategorie geklickt wurde (gesehen), wird durch erneutes Klicken nicht 1 von allen anderen Kategorien subtrahiert
+* Wenn bereits auf eine Kategorie geklickt wurde (angezeigt), wird durch erneutes Klicken nicht 1 von allen anderen Kategorien subtrahiert
 * Wenn auf eine sechste neue Kategorie geklickt wird, wird die als am niedrigsten eingestufte Kategorie der ersten fünf Kategorien aus der Berechnung entfernt
 * Teilen Sie am Ende der Sitzung alle Werte durch 2
 
@@ -97,16 +96,11 @@ Wenn die Sitzung beendet wird und der Benutzer später zur Site zurückkehrt, we
 
 ## Kategorieaffinität für Targeting verwenden {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
-Information darüber, wie Sie eine [!UICONTROL Kategorieaffinität]-Zielgruppe für das Targeting in einer Aktivität einsetzen können
+Die folgenden Abschnitte enthalten Informationen zur Verwendung einer Kategorieaffinitäts-Zielgruppe für das Targeting in einer Aktivität.
 
-Dieser Abschnitt enthält die folgenden Informationen:
+### Erstellen einer Zielgruppe zur Verwendung der Kategorieaffinität {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-* [Erstellen einer Zielgruppe zur Verwendung der Kategorieaffinität](/help/c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40)
-* [Verwenden der Kategorieaffinität in einer Aktivität](/help/c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
-
-## Erstellen einer Zielgruppe zur Verwendung der Kategorieaffinität {#section_A27C600BBA664FE7A74F8FE076B78F40}
-
-1. Klicken Sie in der Liste **[!UICONTROL Zielgruppen]** auf **[!UICONTROL + Zielgruppe erstellen]**.
+1. Klicken Sie in der Liste **[!UICONTROL Zielgruppen]** auf **[!UICONTROL Zielgruppe erstellen]**.
 
    Oder
 
@@ -131,9 +125,9 @@ Dieser Abschnitt enthält die folgenden Informationen:
    * Vierte Kategorie
    * Fünfte Kategorie
 
-   Die Optionen &quot;Favorite Kategorie&quot;und &quot;Erste Kategorie&quot;sind gleichwertig.
+   Die Optionen &quot;Favoritenkategorie&quot;und &quot;Erste Kategorie&quot;sind identisch.
 
-1. Wählen Sie einen Auswerter aus:
+1. Wählen Sie den Auswerter aus:
 
    * enthält (nicht von Schreibweise abhängig)
    * enthält nicht (nicht von Schreibweise abhängig)
@@ -142,6 +136,6 @@ Dieser Abschnitt enthält die folgenden Informationen:
 1. Geben Sie jeden neuen Wert in einer eigenen Zeile an (beispielsweise „Schuhe“).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Verwenden der Kategorieaffinität in einer Aktivität {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
+### Verwenden der Kategorieaffinität in einer Aktivität {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-Sie können Zielgruppen mit Kategorieaffinität für beliebige Aktivitäten verwenden. Während des aus drei Schritten bestehenden Arbeitsablaufs können Sie im Schritt „Target“ die gewünschte Zielgruppe auswählen.
+Sie können Zielgruppen mit Kategorieaffinität in jeder Aktivität verwenden. Wählen Sie im geleiteten Arbeitsablauf mit drei Schritten im Schritt [!UICONTROL Target] die gewünschte Zielgruppe aus.
