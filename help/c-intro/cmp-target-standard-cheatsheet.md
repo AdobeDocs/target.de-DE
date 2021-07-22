@@ -1,11 +1,11 @@
 ---
-keywords: Target Standard; FAQ; häufig gestellte Fragen; Kurzdarstellung; kurze Darstellung
+keywords: Target Standard;FAQ;häufig gestellte Fragen;Kurzdarstellung;kurze Darstellung
 description: In diesem Abschnitt finden Sie eine Liste der häufig gestellten Fragen zur Verwendung der Funktionen in Adobe Target sowie Informationen und Links zu weiteren Informationen.
 title: Wo finde ich Antworten auf Fragen zur Optimierung und Personalisierung?
 feature: Überblick
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2755'
 ht-degree: 100%
 
