@@ -1,58 +1,58 @@
 ---
 keywords: Zeitraum; Startdatum; Enddatum; Start-/Enddatum; Zeitrahmen; Zielzeitplan; Wochenaufteilung; Tagesaufteilung; Aufteilung
-description: Erfahren Sie, wie Sie Beginns-/Enddaten und -zeiten für Zielgruppen verwenden, die Ihre Site während eines bestimmten Zeitraums besuchen. Sie können auch Optionen für die Wochen- und Tagesaufteilung festlegen.
-title: Kann ich [!DNL Target] Besucher, die meine Site zu bestimmten Zeiten besuchen, kontaktieren?
+description: Erfahren Sie, wie Sie mit Start- und Enddaten und -zeiten Benutzer auswählen können, die Ihre Site während eines bestimmten Zeitraums besuchen.
+title: Kann ich Besucher ansprechen, die meine Site zu bestimmten Zeiten besuchen?
 feature: Zielgruppen
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 89%
+ht-degree: 45%
 
 ---
 
 # Zeitrahmen
 
-Sie können Start-/Enddaten und -zeiten jederzeit hinzufügen, um Benutzer als Ziel festzulegen, die Ihre Seite während eines bestimmten Zeitraums besuchen. Sie können außerdem Optionen für die Wochen- und Tagesaufteilung festlegen, um wiederkehrende Muster für das Zielgruppen-Targeting zu erstellen.
+Sie können Start- und Enddaten und -zeiten in [!DNL Adobe Target] hinzufügen, um Benutzer anzusprechen, die Ihre Site während eines bestimmten Zeitraums besuchen. Sie können außerdem Optionen für die Wochen- und Tagesaufteilung festlegen, um wiederkehrende Muster für das Zielgruppen-Targeting zu erstellen.
 
-Verwenden Sie beispielsweise die Funktion](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) [für kombinierte Ad-hoc-Zielgruppen, können Sie in den drei Tagen vor Black Friday spezielle Inhalte gezielt für wenig Geld ausgebende Personen schalten und nach Black Friday andere Inhalte anzeigen.
+Mit der Funktion [für kombinierte Ad-hoc-Zielgruppen](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) können Sie beispielsweise sparsame Benutzer in den drei Tagen vor Black Friday mit bestimmten Inhalten ansprechen und nach Black Friday andere Inhalte bereitstellen.
 
 1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
-1. Nennen Sie die Zielgruppe.
-1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]** > **[!UICONTROL Zeitrahmen]**.
+1. 
+   1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
+1. Ziehen Sie **[!UICONTROL Zeitrahmen]** in den Bereich Audience Builder .
 
    ![](assets/target_timeframe_dialog.png)
 
-1. Geben Sie Start-, Enddatum und -zeit für die Zielgruppe ein.
+1. Geben Sie die Datums- und Uhrzeitwerte für [!UICONTROL Start] und [!UICONTROL Ende] für die Zielgruppe an.
 
    Lassen Sie das Startdatum frei, um das Targeting in Einklang mit dem Zeitplan der Aktivität zu beginnen. Lassen Sie das Enddatum frei, um so lange weiter Targeting zu betreiben, bis Enddatum und -zeit der Aktivität erreicht sind.
 
-   Sie können das Start- oder Enddatum auch leer lassen. Auf diese Weise können Sie dieselbe Zielgruppe in mehreren Aktivitäten verwenden, ohne eine Kopie der Zielgruppe zu erstellen, und gleichzeitig das Start- und Enddatum auf Aktivitätsebene steuern.
+   Sie können das Start- oder Enddatum auch leer lassen. Mit dieser Funktion können Sie dieselbe Zielgruppe in mehreren Aktivitäten verwenden (ohne eine Kopie der Zielgruppe zu erstellen) und gleichzeitig das Start- und Enddatum auf Aktivitätsebene steuern.
 
    >[!NOTE]
    >
    >Die Zeitzone für Start-/Enddatum wird als GMT +/- NN:NN angezeigt, wobei NN: NN den Offset von GMT darstellt und die Zeitzone auf Benutzerkontoebene und nicht die Zeitzone des Besuchers widerspiegelt. Die Zeitzone von Kalifornien wird z. B. als GMT -08:00 angezeigt.
 
-1. (Bedingt) Klicken Sie auf **[!UICONTROL Wochen- und Tagesaufteilung]**, um wiederkehrende Muster festzulegen, wie Wochentage und Uhrzeiten.
+1. (Bedingt) Klicken Sie auf **[!UICONTROL Legen Sie die Häufigkeit]** fest, um wiederkehrende Muster festzulegen, einschließlich Wochentagen und Uhrzeiten.
 
    ![Wochen- und Tagesaufteilung](assets/week_and_day_parting.png)
 
-   Über die Optionen für die Wochen- und Tagesaufteilung können Sie z. B. eine Option „Chat“ nur an den Tagen und während der Stunden anzeigen, in denen Ihr Call-Center besetzt ist.
+   Sie können beispielsweise die Optionen [!UICONTROL Häufigkeit] verwenden, um Besuchern nur während der Tage und Stunden, an denen Ihr Callcenter besetzt ist, eine Option &quot;Chat Now&quot;anzuzeigen.
 
-   Wählen Sie einen oder mehrere Wochentage aus und legen Sie dann die Start- und Endzeiten fest. Klicken Sie gegebenenfalls auf **[!UICONTROL Weitere hinzufügen]**, um weitere Muster festzulegen.
+   Wählen Sie einen oder mehrere Wochentage aus und legen Sie dann die Start- und Endzeiten fest. Klicken Sie auf **[!UICONTROL Fügen Sie die Häufigkeit]** hinzu, um zusätzliche Muster anzugeben.
 
    >[!NOTE]
    >
-   >Die Zeitzone für [!UICONTROL Wochen- und Tagesaufteilung] wird als GMT +/- NN:NN angezeigt, wobei NN:NN den Offset von GMT darstellt und die Zeitzone auf Benutzerkontoebene und nicht die Zeitzone des Besuchers widerspiegelt. Die Zeitzone von Kalifornien wird z. B. als GMT -08:00 angezeigt.
+   >Die Zeitzone für [!UICONTROL Wochen- und Tagesaufteilung] wird als GMT +/- NN:NN angezeigt, wobei NN:NN den Offset von GMT darstellt und die Zeitzone auf Benutzerkontoebene und nicht die Zeitzone des Besuchers widerspiegelt. Die Zeitzone von Kalifornien für die Pacific Daylight Time würde beispielsweise als GMT -07:00 angezeigt.
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Regel hinzufügen]** und legen Sie zusätzliche Regeln für die Zielgruppe fest.
+1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
 
-   Beachten Sie, dass Sie Schritt 5 für jede Regel wiederholen können.
+   Sie können Schritt 5 für jede Regel wiederholen, falls gewünscht.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-## Schulungsvideo: Erstellen von Audiencen ![Kennzeichen ](/help/assets/overview.png)
+## Schulungsvideo: Erstellen von Zielgruppen ![Badge &quot;Überblick&quot;](/help/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
