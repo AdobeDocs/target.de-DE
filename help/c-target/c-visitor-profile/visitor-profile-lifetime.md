@@ -1,30 +1,24 @@
 ---
 keywords: Übersicht und Referenz
-description: Erfahren Sie mehr darüber, wann ein Besucher-Profil in Adobe Target abläuft (standardmäßig 14 Tage). Die Lebensdauer des Profils kann verlängert werden, indem Sie sich an den Kundendienst von Adobe wenden.
-title: Was ist das Besucher Profil Lifetime und kann ich es erweitern?
+description: Erfahren Sie mehr darüber, wann ein Besucherprofil in [!DNL Adobe Target] abläuft.
+title: Was ist die Lebensdauer des Besucherprofils und kann ich sie erweitern?
 feature: Zielgruppen
 exl-id: 70cb5e3b-ed6d-450d-8c6e-f1bfe8d26e54
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 73%
+source-wordcount: '233'
+ht-degree: 45%
 
 ---
 
 # Lebensdauer des Besucherprofils
 
-Standardmäßig läuft ein Besucherprofil nach 14 Tagen Inaktivität für diesen Besucher ab. Diese Profillebensdauer kann verlängert werden.
+Standardmäßig läuft ein Besucherprofil in [!DNL Adobe Target] nach 14 Tagen Inaktivität für diesen Besucher ab. Diese Profillebensdauer kann verlängert werden.
 
 [Wenden Sie sich an ClientCare oder Ihren Adobe-Berater](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C), um die Profillebensdauer ohne Zusatzkosten zu verlängern. Die Lebensdauer kann auf bis zu 90 Tage festgelegt werden.
 
-Anhand der verwendeten [!DNL Target] JavaScript-Bibliothek ([!DNL at.js] oder [!DNL mbox.js]) wird bestimmt, ob Sie eine neue Datei herunterladen müssen oder nicht:
-
-| Ziel-Bibliothek | Details |
-|--- |--- |
-| at.js | Wenn Ihr Profil über den Standardwert hinaus verlängert wird, müssen Sie keine neue at.js-Datei herunterladen. |
-| mbox.js | Wenn Ihr Profil über den Standardwert von 14 Tagen hinaus verlängert wird, müssen Sie eine neue mbox.js-Datei herunterladen, nachdem Ihr Berater oder ClientCare Ihre Einstellungen geändert hat. Die Cookie-Verlängerung zur Unterstützung der geänderten Profillebensdauer ist in der aktualisierten mbox.js-Datei enthalten. Nachdem Sie mit der Verwendung der neuen Bibliothek begonnen haben, werden die Profillebensdauerdaten der Besucher aktualisiert. |
+Wenn Ihr Profil über den Standardwert hinaus erweitert wird, müssen Sie keine neue [!DNL Platform Web SDK]-Datei oder at.js-Datei herunterladen.
 
 Das Ablaufdatum wird für vorhandene Profile nicht zurückgesetzt. Wenn ein früherer Besucher nicht innerhalb von 15 Tagen zurückkehrt, läuft das Profil ab. Wenn ein früherer Besucher vor Ablauf des ursprünglichen zweiwöchigen Profils zurückkehrt, wird das Profil auf die verlängerte Lebensdauer zurückgesetzt. Für alle neuen Besucherprofile wird die verlängerte Profillebensdauer festgelegt.
 
-Gehen Sie im folgenden Szenario davon aus, dass eine oder beide Sites mit &quot;mbox.js&quot;implementiert sind. Dies erfordert eine Codeaktualisierung, nachdem das Profil aktualisiert wurde. Wenn sich beide Sites unter einem Clientcode befinden und ein Besucher beide Sites besucht, wird das Profil auf die Lebensdauer der Profil auf der jeweiligen Site eingestellt, die zuletzt besucht wurde. Wenn z. B. Site 1 eine Profillebensdauer von 84 Tagen und Site 2 eine Profillebensdauer von 14 Tagen hat und der Besucher zuerst Site 1 und dann Site 2 besucht, läuft das Profil des Besuchers nach 14 Tagen Inaktivität ab. Wenn der Besucher Site 1 nach dem Besuch von Site 2 besucht, läuft das Profil nach 84 Tagen Inaktivität ab.
+Im folgenden Szenario nehmen Sie an, dass eine oder beide Sites mit dem [!DNL Platform Web SDK] implementiert sind. Wenn sich beide Sites unter einem Clientcode befinden und ein Besucher beide Sites besucht, wird für das Profil die Lebensdauer der Profile festgelegt, die zuletzt besucht wurden. Angenommen, Site 1 verfügt über eine Profillebensdauer von 84 Tagen. Site 2 hat eine Lebensdauer von 14 Tagen. Wenn der Besucher Site 1 und dann Site 2 besucht, läuft das Profil des Besuchers nach 14 Tagen Inaktivität ab. Wenn der Besucher Site 1 nach dem Besuch von Site 2 besucht, läuft das Profil nach 84 Tagen Inaktivität ab.
