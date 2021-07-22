@@ -1,5 +1,5 @@
 ---
-keywords: Ankündigungen; Skill Builder; Developer Chat; Coffee Break; Veranstaltungen; Forrester; Gartner; Webinar
+keywords: Ankündigungen;Skill Builder;Developer Chat;Coffee Break;Veranstaltungen;Forrester;Gartner;Webinar
 description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target] -Veranstaltungen wie Skill Builder-Sitzungen, Chats für Entwickler und Produkt-Manager, Webinare und mehr an.
 title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Versionshinweise
@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Ankündigungen und Informationen zu kommenden Veranstaltungen einschließlich [!
 | Forrester | **Adobe wurde im Forrester Wave-Bericht zu Erlebnisoptimierungs-Plattformen als „Leader“ ausgezeichnet.**<br> Adobe wurde im Forrester Wave-Bericht zu Erlebnisoptimierungs-Plattformen im 4. Quartal 2020 für sein Angebot von Adobe Target Premium als „Leader“ ausgezeichnet. Adobe erhielt die höchste Punktzahl aller beteiligten Anbieter in den Kategorien „Aktuelles Angebot“ und „Marktpräsenz“ wie auch in der Kategorie „Recommendations- und Plattformerlebnis“. Darüber hinaus erhielt Target Premium unter dem Kriterium „Innovative Erlebnisoptimierungstechnik und unterstützende Dienste“ die bestmögliche Bewertung. Der Bericht basiert auf einem sorgfältigen Testverfahren, in dem zehn Anbieter von Erlebnisoptimierungs-Plattformen in 22 Kategorien bewertet wurden.<br>Lesen Sie mehr darüber im [Adobe-Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe wurde im Gartner Magic Quadrant für Personalisierungs-Engines erneut als „Leader“ ausgezeichnet.**<br> Adobe wurde auch im dritten Quartal 2020 im Gartner Magic Quadrant für Personalisierungs-Engines als „Leader“ ausgezeichnet. Im Gartner Magic Quadrant für Personalisierungs-Engines wurden Anbieter in zwei Kategorien mit insgesamt 15 Kriterien bewertet: „Vollständigkeit der Unternehmensvision“ und „Fähigkeit zur Umsetzung“.<br>[Lesen Sie mehr darüber im Adobe-Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
-## [!DNL Adobe Target] Community-Fragen und -Kaffeepause
+## [!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community
 
 * **Mittwoch, 21. Juli 2021**
-* **08:00 Uhr (PDT, UTC -7)**
-* **[Klicken Sie hier für weitere Informationen und um sich zu registrieren](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
+* **17:00 Uhr MESZ**
+* **[Klicken Sie hier für weitere Informationen und zur Anmeldung](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
 
-David Son, [!DNL Target] Senior Product Manager beantwortet Ihre Fragen zu seinen Fachgebieten:
+David Son, [!DNL Target] Senior Product Manager, beantwortet Ihre Fragen zu seinen Fachgebieten:
 
 * [!DNL Adobe Experience Platform Web SDK]
 * Geräteinterne Entscheidungsfindung
