@@ -1,14 +1,14 @@
 ---
-keywords: Zeichenbeschränkung; Mbox-Parameter; Batch-Bereitstellungs-API; Profilparameter; Beschränkungen; integrierte Profile; Maximum; Beschränkung; Bedingung; Zeichen; Best Practice; orderid; orderTotal; mbox3rdPartyID; Kategorie; categoryID; Fehlerbehebung
+keywords: Zeichenbeschränkung;Mbox-Parameter;Batch-Bereitstellungs-API;Profilparameter;Beschränkungen;integrierte Profile;Maximum;Beschränkung;Bedingung;Zeichen;Best Practice;orderid;orderTotal;mbox3rdPartyID;Kategorie;categoryID;Fehlerbehebung
 description: In diesem Abschnitt finden Sie eine Liste der Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
 title: Zeichen-, Größen- und andere Beschränkungen in Adobe Target
 feature: Fehlerbehebung
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 ## Target-API-Aufrufe
 
-* **Limit**: 50 Aufrufe pro Minute für die APIs zur Aktualisierung von Admin-, Reporting- und Massenprofilen. Diese Beschränkung gilt nicht für die APIs Versand und Profilaktualisierung .
+* **Beschränkung**: 50 Aufrufe pro Minute für die APIs zur Aktualisierung von Admin-, Berichts- und Massenprofilen. Diese Beschränkung gilt nicht für die APIs zu Versand und einfacher Profilaktualisierung.
 
    Wenn Sie mehr als 50 API-Aufrufe pro Minute ausführen, gibt [!DNL Target] die Fehlermeldung „503 HTTP-Status“ zurück.
 
