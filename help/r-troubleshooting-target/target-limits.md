@@ -5,10 +5,10 @@ title: Zeichen-, Größen- und andere Beschränkungen in Adobe Target
 feature: Fehlerbehebung
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: ht
-source-wordcount: '1206'
-ht-degree: 100%
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+workflow-type: tm+mt
+source-wordcount: '1215'
+ht-degree: 99%
 
 ---
 
@@ -118,6 +118,10 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 * **Limit**: 2.000 Erlebnisse pro Erlebnis-Targeting (XT), A/B-Test, Multivarianz-Test (MVT) und automatischem Targeting.
 
    30.000 Erlebnisse pro Automated Personalization (AP).
+
+### Änderungen pro Erlebnis
+
+* **Limit**: 50 pro Erlebnis für jede Aktivität
 
 ## Mboxes
 
