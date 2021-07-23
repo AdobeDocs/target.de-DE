@@ -1,13 +1,13 @@
 ---
 keywords: Antwort-Token;Token;Plug-ins;Plug-ins;at.js;Antwort
-description: Erfahren Sie, wie Sie Antwort-Token in Adobe [!DNL Target] Output-spezifische Informationen verwenden, die beim Debugging und bei der Integration mit Drittanbieter-Tools verwendet werden.
+description: Erfahren Sie, wie Sie Antwort-Token in [!DNL Adobe Target] verwenden können, um ausgabespezifische Informationen für das Debugging und die Integration mit Drittanbieter-Tools zu erhalten.
 title: Was sind Antwort-Token und wie verwende ich sie?
 feature: Administration und Konfiguration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1642'
 ht-degree: 25%
 
 ---
@@ -180,7 +180,7 @@ Mit dem folgenden Code-Beispiel wird direkt ein benutzerdefinierter [!DNL at.js]
 
 Antwort-Token können nur von Benutzern mit der Rolle [!DNL Target] [!UICONTROL Administrator] aktiviert oder deaktiviert werden.
 
-**Was passiert, wenn ich [!DNL Platform Web SDK] 2.6.0 (oder früher) verwende?
+**Was passiert, wenn ich  [!DNL Platform Web SDK] 2.6.0 (oder früher) verwende?**
 
 Sie haben keinen Zugriff auf Antwort-Token.
 
