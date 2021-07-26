@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Aktualisierungen der Dokumentation für Target sehen?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: 92c8637ac8c2ce925e0c16b726b76451a4691904
 workflow-type: tm+mt
-source-wordcount: '1920'
-ht-degree: 95%
+source-wordcount: '1956'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 26. Juli | [Verwenden von Adobe Target mit dem Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK im  *Adobe Experience Platform Web SDK-* Übersichtsleitfaden | Es wurde ein neuer Abschnitt hinzugefügt:<ul><li>Systemdiagramm für das Platform Web SDK</li></ul> |
 | 23. Juli | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Der folgende Abschnitt wurde aktualisiert, um weitere Details zu liefern:<ul><li>Wie wirken sich die Durchsetzungsrichtlinien für SameSite-Cookies in Google Chrome auf VEC und EEC aus?</li></ul> |
 |  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Neuer Abschnitt &quot;Änderungen pro Erlebnis&quot;unter &quot;Erlebnisse&quot;hinzugefügt. |
 | 21. Juli | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Der folgende Abschnitt wurde aktualisiert:<ul><li>Wie wirken sich die Durchsetzungsrichtlinien für SameSite-Cookies in Google Chrome auf VEC und EEC aus?</li></ul> |
