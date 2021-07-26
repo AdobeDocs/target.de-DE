@@ -1,13 +1,13 @@
 ---
-keywords: Antwort-Token;Token;Plug-ins;Plug-ins;at.js;Antwort
+keywords: Antwort-Token;Token;Plug-ins;Plug-ins;at.js;Antwort;Plattform-Web-SDK
 description: Erfahren Sie, wie Sie Antwort-Token in [!DNL Adobe Target] verwenden können, um ausgabespezifische Informationen für das Debugging und die Integration mit Drittanbieter-Tools zu erhalten.
 title: Was sind Antwort-Token und wie verwende ich sie?
 feature: Administration und Konfiguration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 46df34e8b486cbd5a21279fe960ab72b8b51ee71
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1645'
 ht-degree: 25%
 
 ---
