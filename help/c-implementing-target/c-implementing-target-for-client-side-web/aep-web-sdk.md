@@ -5,9 +5,9 @@ title: Wie implementiere ich das Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 5b5a94c6dc586e12789de7465f42c483bf268de0
+source-git-commit: 054ec2658e311e6eeae475ee02dbfce48242331f
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '274'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,5 @@ Neben der oben erwähnten [!DNL Platform Web SKD]-Dokumentation enthalten Themen
 
 | Thema | Beschreibung |
 | --- | --- |
-| [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | QA-URLs in [!DNL Adobe Target] ermöglichen eine einfache End-to-End-Aktivitäts-QA mit unveränderbaren Vorschaulinks, optionalem Zielgruppen-Targeting und QA-Berichten, die aus Live-Aktivitätsdaten segmentiert bleiben. Sie können Ihre [!DNL Target]-Aktivitäten vollständig testen, bevor Sie sie live schalten.<br>Siehe  [JavaScript-Bibliotheks- [!UICONTROL QA-] Modekompatibilität für Target](/help/c-activities/c-activity-qa/activity-qa.md#compatibility). |
-| [Antwort-Token](/help/administrating-target/response-tokens.md) | Mit Antwort-Token können Sie Target-Daten an Google Analytics und andere Drittanbieter-Integrationen senden.<br>Siehe  [Senden von Daten an Google Analytics über das Platform Web SDK](/help/administrating-target/response-tokens.md#platform-web-sdk). |
-
+| [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Verwenden Sie QA-URLs in [!DNL Adobe Target], um einfache End-to-End-Aktivitäts-QAs mit unveränderbaren Vorschaulinks, optionalem Zielgruppen-Targeting und QA-Berichten durchzuführen, die basierend auf Live-Aktivitätsdaten segmentiert bleiben. [!UICONTROL Mit Aktivitäts-] QA können Sie Ihre  [!DNL Target] Aktivitäten vollständig testen, bevor Sie sie live schalten. |
+| [Antwort-Token](/help/administrating-target/response-tokens.md) | Mit Antwort-Token können Sie Target-Daten an Google Analytics und andere Drittanbieter-Integrationen senden.<br>Unter  [Senden von Daten an Google Analytics über Platform Web ](/help/administrating-target/response-tokens.md#platform-web-sdk) SDK finden Sie ein Codebeispiel zur Durchführung dieser Aufgabe. |
