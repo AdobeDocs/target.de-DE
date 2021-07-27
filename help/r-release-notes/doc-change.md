@@ -4,9 +4,9 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 36d9f041315c215c8a2e56b4c208f2f8c9e6dd7d
+source-git-commit: 60352fdc5279f546a2585506a7233ebaad25c41a
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1977'
 ht-degree: 97%
 
 ---
@@ -20,6 +20,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 27. Juli | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Folgender Abschnitt wurde hinzugefügt:<ul><li>Empfohlene Dokumentation in diesem Handbuch</li></ul> |
+|  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Es wurde ein neuer Abschnitt hinzugefügt:<ul><li>Inhaltsbereitstellung</li></ul>  |
 | 26. Juli | [Verwenden von Adobe Target mit dem Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK im  *Adobe Experience Platform Web SDK-* Übersichtsleitfaden | Es wurde ein neuer Abschnitt hinzugefügt:<ul><li>Systemdiagramm für das Platform Web SDK</li></ul> |
 | 23. Juli | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Der folgende Abschnitt wurde aktualisiert, um weitere Details zu liefern:<ul><li>Wie wirken sich die SameSite-Cookie-Richtlinien von Google Chrome auf VEC und EEC aus?</li></ul> |
 |  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Neuer Abschnitt &quot;Änderungen pro Erlebnis&quot;unter &quot;Erlebnisse&quot;hinzugefügt. |
