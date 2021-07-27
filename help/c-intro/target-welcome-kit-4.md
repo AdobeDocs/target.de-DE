@@ -5,9 +5,9 @@ title: Wo finde ich Tipps und Tricks zur Verwendung von Target?
 feature: Überblick
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -137,7 +137,7 @@ Der Vergleich der Konversionsleistung verschiedener Zielgruppen in verschiedenen
 
 Ein Kunde aus dem Finanzsektor beispielsweise führte eine Kampagne zur Bewerbung einer Kreditkarte durch, die durch Tickets für professionelle Sportveranstaltungen Konversionsanreize setzte. Durch partielles Multivariate Testing seiner Landingpages gelang es dem Kunden, seine Werbebotschaft zu den Vorteilen der Kreditkarte optimal mit dem Anreiz einer kostenlosen Sportveranstaltung zu erweitern und dadurch bestimmte Zielgruppen seines Kundenstamms gezielt anzusprechen. Mit diesem Ansatz gelang es dem Unternehmen innerhalb eines durch die Sportveranstaltung festgelegten Zeitfensters, seine Konversionsrate zu steigern und die Umsätze zu maximieren.
 
-## Tipp 17: Machen Sie Tests nützlich, indem Sie sie nur starten, wenn Sie wissen, dass Sie mit den Daten handeln können.
+## Tipp 17: Tests sollten nützlich sein – starten Sie einen Test nur, wenn Sie wissen, wie Sie mit den Daten umgehen.
 
 Ein Test ist sinnlos, wenn Sie nicht genau wissen, wie Sie die daraus gewonnenen Daten verwerten. Dies schließt die Kenntnis Ihrer wichtigsten Erfolgsmetrik ein, was passieren muss, um einen Gewinner voranzutreiben, wie Sie die Testergebnisse umsetzen und was Sie mit den Zielgruppeninformationen machen werden. Für einen schnellen und erfolgreichen Test muss jedes am Test beteiligte Team (Entwickler, Designer, Testspezialisten usw.) seine Rolle schon vor dem Start des Tests ganz klar kennen.
 
