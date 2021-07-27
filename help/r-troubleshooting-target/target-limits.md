@@ -5,10 +5,10 @@ title: Zeichen-, Größen- und andere Beschränkungen in Adobe Target
 feature: Fehlerbehebung
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 91%
 
 ---
 
@@ -59,6 +59,24 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 ## categoryId-Parameter
 
 * **Limit**: 250 Zeichen.
+
+## Inhaltsbereitstellung {#content-delivery}
+
+* **Limit**: 100 gleichzeitige  [!DNL Target] Inhaltsbereitstellungsanfragen.
+
+   Wenn ein Kunde 100 gleichzeitige [!DNL Target] Inhaltsbereitstellungsanfragen für eine bestimmte Benutzersitzung überschreitet, werden alle nachfolgenden Anforderungen für diese Benutzersitzung blockiert. Zwei oder mehr Anfragen gelten als gleichzeitig, wenn sie alle an den Server [!DNL Target] gesendet werden, bevor die Antwort für eine dieser Anforderungen empfangen wird. [!DNL Target] verarbeitet gleichzeitige Anforderungen für dieselbe Sitzung sequenziell.
+
+* **Fehlerverhalten**:
+
+   * Bereitstellungs-API und Batch-Mbox v2:
+      * Fehler-Code: HTTP 420 - Zu viele Anforderungen
+      * Fehlermeldung: &quot;Zu viele Anfragen mit derselben Sitzungs-ID&quot;
+   * Legacy-Mbox-API:
+      * Standardinhalt mit Kommentar &quot;Zu viele Anfragen mit derselben Sitzungs-ID&quot;
+   * at.js:
+      * Standardinhalt angezeigt
+
+
 
 ## Kundenattribute
 
