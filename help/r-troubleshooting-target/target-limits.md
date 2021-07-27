@@ -5,9 +5,9 @@ title: Zeichen-, Größen- und andere Beschränkungen in Adobe Target
 feature: Fehlerbehebung
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1322'
 ht-degree: 91%
 
 ---
@@ -62,7 +62,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 ## Inhaltsbereitstellung {#content-delivery}
 
-* **Limit**: 100 gleichzeitige  [!DNL Target] Inhaltsbereitstellungsanfragen.
+* **Limit**: 100 Anfragen zur gleichzeitigen  [!DNL Target] Inhaltsbereitstellung pro Benutzersitzung.
 
    Wenn ein Kunde 100 gleichzeitige [!DNL Target] Inhaltsbereitstellungsanfragen für eine bestimmte Benutzersitzung überschreitet, werden alle nachfolgenden Anforderungen für diese Benutzersitzung blockiert. Zwei oder mehr Anfragen gelten als gleichzeitig, wenn sie alle an den Server [!DNL Target] gesendet werden, bevor die Antwort für eine dieser Anforderungen empfangen wird. [!DNL Target] verarbeitet gleichzeitige Anforderungen für dieselbe Sitzung sequenziell.
 
