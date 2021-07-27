@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Liste [!UICONTROL Zielgruppen] in [!DNL A
 title: Wie verwende ich die Zielgruppenliste?
 feature: Zielgruppen
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f7d73de376c2345b628e3ebadb1d4ab4dc598693
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 34%
@@ -30,7 +30,7 @@ Es gibt zwei Arten von Zielgruppen in [!DNL Target]:
 
    In [!DNL Target] können Sie Berichtszielgruppen nur dann konfigurieren, wenn Sie [!DNL Target] als Berichtsquelle verwenden. Wenn Sie [ Adobe Analytics als Berichtsquelle](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, müssen Sie Ihre Berichterstellungszielgruppen in [!DNL Analytics] konfigurieren.
 
-## Verwenden Sie die Liste [!UICONTROL Zielgruppen] .
+## Verwenden Sie die Liste [!UICONTROL Zielgruppen] . {#use-list}
 
 Wenn Sie auf die Liste [!UICONTROL Zielgruppen] zugreifen möchten, klicken Sie in der oberen Menüzeile auf **[!UICONTROL Zielgruppen]**:
 
