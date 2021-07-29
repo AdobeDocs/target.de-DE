@@ -5,16 +5,16 @@ title: Wie kann ich eine globale Mbox anpassen?
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 22%
+source-wordcount: '222'
+ht-degree: 18%
 
 ---
 
 # Anpassen einer globalen Mbox
 
-Informationen, die Sie beim Anpassen einer globalen Mbox für at.js unterstützen.
+Informationen, die Sie beim Anpassen einer [!DNL Adobe Target] globalen Mbox für at.js unterstützen.
 
 1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
 
@@ -40,4 +40,5 @@ Informationen, die Sie beim Anpassen einer globalen Mbox für at.js unterstütze
 
    >[!IMPORTANT]
    >
-   >Alle Aktivitäten in Ihrem Konto werden mit dieser Mbox synchronisiert. Wenn sich diese Mbox nicht auf Ihrer Site befindet, funktionieren alle Aktivitäten nicht mehr.
+   >Alle Aktivitäten in Ihrem Konto werden mit dieser Mbox synchronisiert. Stellen Sie sicher, dass die globale Mbox auf Ihrer Site vorhanden ist, damit die Aktivitäten weiterhin funktionieren. Achten Sie darauf, die betroffenen Aktivitäten zu bearbeiten und erneut zu speichern, die mit dem Visual Experience Composer (VEC) erstellt wurden, der mit dieser Mbox synchronisiert wird. Es ist nicht erforderlich, Aktivitäten, die im formularbasierten Experience Composer oder über API erstellt wurden, erneut zu speichern.
+
