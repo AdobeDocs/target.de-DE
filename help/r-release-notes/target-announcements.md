@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Versionshinweise
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 100%
+source-wordcount: '581'
+ht-degree: 94%
 
 ---
 
@@ -26,17 +26,15 @@ Ankündigungen und Informationen zu kommenden Veranstaltungen einschließlich [!
 
 ## [!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community
 
-* **Mittwoch, 21. Juli 2021**
-* **17:00 Uhr MESZ**
-* **[Klicken Sie hier für weitere Informationen und zur Anmeldung](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
+* **Mittwoch, 11. August 2021**
+* **08:00 Uhr (PDT, UTC -7)**
+* **[Klicken Sie hier für weitere Informationen und zur Registrierung](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
 
-David Son, [!DNL Target] Senior Product Manager, beantwortet Ihre Fragen zu seinen Fachgebieten:
+Principal Solutions Consultant für [!DNL Adobe Target], James McTiernan beantwortet Kundenfragen zu seinen Fachgebieten in [!DNL Target]:
 
-* [!DNL Adobe Experience Platform Web SDK]
-* Geräteinterne Entscheidungsfindung
-* at.js
-* Mobil
-* Target-APIs
+* Recommendations
+* A/B- und Multivarianztests (MVT)
+* Personalisierung
 
 ## Webinar: Personalisieren und Testen mit Nulllatenz bei geräteinterner Entscheidungsfindung mit Adobe Target
 
