@@ -5,10 +5,10 @@ title: Wie behandelt [!DNL Target] Datenschutzprobleme?
 feature: Datenschutz und Sicherheit
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 58%
+source-wordcount: '669'
+ht-degree: 63%
 
 ---
 
@@ -60,12 +60,6 @@ https://my.cname.domain/optout?client=clientcode
 Ein Besucher, der auf diesen Link klickt, wird während der Browser-Sitzung nicht in Mbox-Anforderungen einbezogen, bis er den Cookie löscht oder nach Ablauf von zwei Jahren (je nachdem, was zuerst eintritt). Dies funktioniert durch Einsetzen eines Cookies namens `disableClient` in der Domäne `clientcode.tt.omtrdc.net` für den Besucher.
 
 Auch wenn Sie eine Erstanbieter-Cookie-Implementierung verwenden, erfolgt der Ausschluss über ein Drittanbieter-Cookie. Falls der Client nur ein Erstanbieter-Cookie verwendet, prüft Target, ob ein Ausschluss-Cookie festgelegt ist.
-
-## Sammlung von Funktionsnutzungsdaten {#feature-usage}
-
-Einzelne Funktionsverwendungsdaten werden für interne [!DNL Adobe]-Zwecke erfasst, um festzustellen, ob die [!DNL Target]-Funktionen die gewünschte Leistung aufweisen, oder um Funktionen zu identifizieren, die nicht ausreichend genutzt werden. Es werden verschiedene Messungen der Latenz erfasst, um Leistungsbedenken auszuräumen. Personenbezogene Daten werden nicht erfasst.
-
-Sie können die Nutzung von Berichtsdaten deaktivieren, indem Sie `telemetryEnabled` in Ihrer Konfigurationsdatei auf `false` setzen.
 
 ## Vorschriften zur Privatsphäre und zum Datenschutz
 
