@@ -5,10 +5,10 @@ title: Zeichen-, Größen- und andere Beschränkungen in Adobe Target
 feature: Fehlerbehebung
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 90%
+source-wordcount: '1364'
+ht-degree: 86%
 
 ---
 
@@ -115,9 +115,15 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
    Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte enthalten. Jeder einzelne Wert ist auf 100 Zeichen begrenzt. Die Gesamtanzahl der Zeichen für alle Werte muss den Beschränkungen für die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten entsprechen (siehe oben).
 
-### EntityID-Parameter
+### entity.id
 
-* **Limit**: 1.000 Zeichen.
+* **Limit für Implementierungen, die die Erfassung von Kaufinformationen** erfordern: 50 Zeichen.
+
+   Diese Beschränkung wird erzwungen, da der Mbox-Parameter `productPurchasedId` die entity.id erfasst, wodurch die Zeichenanzahl auf 50 begrenzt wird.
+
+* **Beschränkung für Implementierungen, für die nur ansichtsbasierte Algorithmen erforderlich sind:**: 1.000 Zeichen.
+
+   Zu den ansichtsbasierten Algorithmen gehören Ansicht/Ansicht, am häufigsten angesehen, zuletzt angezeigt usw.
 
 ## excludedIds {#excludedid}
 
