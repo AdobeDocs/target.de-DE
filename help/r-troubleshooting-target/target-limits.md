@@ -5,10 +5,10 @@ title: Zeichen-, Größen- und andere Beschränkungen in Adobe Target
 feature: Fehlerbehebung
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 91%
+source-wordcount: '1320'
+ht-degree: 90%
 
 ---
 
@@ -243,7 +243,7 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 ## productPurchasedId-Parameter
 
-* **Limit**: 47 Zeichen pro kommagetrenntem Wert, 250 Zeichen insgesamt. Einzelwerte mit einer Länge von mehr als 47 Zeichen können vom System abgeschnitten werden. Gesamtlängen über 250 Zeichen können zu Fehler 400 führen.
+* **Limit**: 50 Zeichen pro kommagetrenntem Wert, 250 Zeichen insgesamt. Einzelwerte, die länger als 50 Zeichen sind, werden vom System abgeschnitten. Gesamtlängen über 250 Zeichen führen zu einem 400-Fehler.
 
 ## Profilskripte
 
