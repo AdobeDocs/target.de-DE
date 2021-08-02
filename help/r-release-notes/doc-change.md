@@ -1,13 +1,13 @@
 ---
-keywords: Änderungsprotokoll zur Target-Dokumentation;Aktualisierungen in der Dokumentation;neue Themen;Bearbeitungen;Aktualisierungen;Aktualisierung
+keywords: änderungsprotokoll zur target-dokumentation;aktualisierungen in der dokumentation;neue themen;bearbeitungen;aktualisierungen;aktualisierung
 description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Produktdokumentation von Adobe  [!DNL Target] '
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
-source-wordcount: '2045'
-ht-degree: 95%
+source-wordcount: '2064'
+ht-degree: 97%
 
 ---
 
@@ -19,15 +19,16 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 2. August | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>Traffic-Verteilung von Aktivitäten mit automatisierter Zuordnung mithilfe von A4T</li></ul> |
 | 30. Juli | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Die folgenden Abschnitte wurden aktualisiert:<ul><li>entity.id</li><li>productPurchasedId-Parameter</li></ul> |
 | 29. Juli | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur [!DNL Adobe Target] Community-Fragen und -Kaffeepause hinzugefügt: Mittwoch, 11. August 2021. |
 |  | [Anpassen einer globalen Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Der wichtige Hinweis wurde aktualisiert, um anzugeben, dass Sie die betroffenen Aktivitäten bearbeiten und erneut speichern müssen, die im VEC nach dem Anpassen einer globalen Mbox erstellt wurden. |
 |  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>Der Enhanced Experience Composer (EEC) unterstützt keine PUT-Anfragen.</li></ul> |
 | 27. Juli | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Es wurde ein neuer Abschnitt hinzugefügt:<ul><li>Empfohlene Dokumentation</li></ul> |
 |  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Es wurde ein neuer Abschnitt hinzugefügt:<ul><li>Inhaltsbereitstellung</li></ul> |
-| 26. Juli | [Verwenden von Adobe Target mit dem Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK im  *Adobe Experience Platform Web SDK-* Übersichtsleitfaden | Es wurde ein neuer Abschnitt hinzugefügt:<ul><li>Systemdiagramm für das Platform Web SDK</li></ul> |
-| 23. Juli | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Der folgende Abschnitt wurde aktualisiert, um weitere Details zu liefern:<ul><li>Wie wirken sich die SameSite-Cookie-Richtlinien von Google Chrome auf VEC und EEC aus?</li></ul> |
-|  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Neuer Abschnitt &quot;Änderungen pro Erlebnis&quot;unter &quot;Erlebnisse&quot;hinzugefügt. |
+| 26. Juli | [Verwenden von Adobe Target mit dem Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=de) im Handbuch *Adobe Experience Platform Web SDK – Übersicht* | Es wurde ein neuer Abschnitt hinzugefügt:<ul><li>Systemdiagramm für das Platform Web SDK</li></ul> |
+| 23. Juli | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Der folgende Abschnitt wurde mit weiteren Details aktualisiert:<ul><li>Wie wirken sich die SameSite-Cookie-Richtlinien von Google Chrome auf VEC und EEC aus?</li></ul> |
+|  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Neuer Abschnitt „Änderungen pro Erlebnis“ unter „Erlebnisse“ hinzugefügt. |
 | 21. Juli | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Der folgende Abschnitt wurde hinzugefügt:<ul><li>Wie wirken sich die SameSite-Cookie-Richtlinien von Google Chrome auf VEC und EEC aus?</li></ul> |
 | 19. Juli | [Classifications – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Es wurden Informationen zum Ereignis-Code -1 oder 65535 hinzugefügt. |
 | 16. Juli | [Versionshinweise zu Target (aktuell)](/help/r-release-notes/release-notes.md)<br>und<br>[at.js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zur „at.js“-Version 2.6.0 hinzugefügt. |
