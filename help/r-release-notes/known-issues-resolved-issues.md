@@ -4,10 +4,10 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Versionshinweise
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
-source-wordcount: '4419'
-ht-degree: 99%
+source-wordcount: '4480'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,16 @@ Informationen zu bekannten Problemen in [!DNL Adobe Target]. Dazu gehören auch 
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
+### Traffic-Verteilung von Aktivitäten mit automatisierter Zuordnung mithilfe von A4T {#aa-a4t}
+
+In einigen Fällen kann die Traffic-Verteilung von [!UICONTROL Aktivitäten mit automatischer Zuordnung], die [!UICONTROL Analytics for Target] (A4T) verwenden, von der gemeldeten Konversionsrate der einzelnen Erlebnisse abweichen. Dies tritt häufiger bei Aktivitäten mit einem hohen Anteil an rückkehrendem Besucher-Traffic auf. Betroffene Kunden werden über betroffene Aktivitäten benachrichtigt. (Die 131 populärsten)
+
+### Analytics for Adobe Target (A4T)-Metriken für automatische Zuordnungs- und Targeting-Aktivitäten
+
+In der Benutzeroberfläche von [!DNL Target] können Benutzer nicht unterstützte Interaktions- und Umsatzmetriken als primäre Zielmetrik für die Optimierung in [!UICONTROL automatischen Zuordnungs]- und [!UICONTROL automatischen Targeting]-Aktivitäten auswählen. Konversionsmetriken werden unterstützt, Interaktions- und Umsatzmetriken dagegen *nicht*. Wenn Sie als Zielmetriken Interaktions- oder Umsatzmetriken auswählen, wird kein Optimierungsmodell erstellt.
+
+Eine Liste der unterstützten und nicht unterstützten Zielmetriken finden Sie unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
+
 ### Der Enhanced Experience Composer (EEC) unterstützt keine PUT-Anfragen.
 
 Ein Problem mit dem EEC verhindert derzeit, dass PUT-Anfragen unterstützt werden, und führt zu einem 504-Timeout-Fehler. (TGT-41493)
@@ -34,12 +44,6 @@ Ein Problem mit dem EEC verhindert derzeit, dass PUT-Anfragen unterstützt werde
 ### Die Archivierung von Aktivitäten mit [!UICONTROL automatischem Targeting] kann zu Synchronisationsproblemen führen.
 
 Der Versuch, inaktive Aktivitäten für [!UICONTROL Automatisches Targeting] zu archivieren, kann zu Synchronisationsproblemen führen. Solange dieses Problem nicht behoben ist, archivieren Sie die Aktivitäten für [!UICONTROL Automatisches Targeting] nicht. Belassen Sie sie im Status [!UICONTROL Inaktiv]. (TGT-40885)
-
-### Analytics for Adobe Target (A4T)-Metriken für automatische Zuordnungs- und Targeting-Aktivitäten
-
-In der Benutzeroberfläche von [!DNL Target] können Benutzer nicht unterstützte Interaktions- und Umsatzmetriken als primäre Zielmetrik für die Optimierung in [!UICONTROL automatischen Zuordnungs]- und [!UICONTROL automatischen Targeting]-Aktivitäten auswählen. Konversionsmetriken werden unterstützt, Interaktions- und Umsatzmetriken dagegen *nicht*. Wenn Sie als Zielmetriken Interaktions- oder Umsatzmetriken auswählen, wird kein Optimierungsmodell erstellt.
-
-Eine Liste der unterstützten und nicht unterstützten Zielmetriken finden Sie unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Seitenversand {#page-delivery}
 
