@@ -4,10 +4,10 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Versionshinweise
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '4480'
-ht-degree: 98%
+source-wordcount: '4505'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,9 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
 ### Traffic-Verteilung von Aktivitäten mit automatisierter Zuordnung mithilfe von A4T {#aa-a4t}
 
-In einigen Fällen kann die Traffic-Verteilung von [!UICONTROL Aktivitäten mit automatischer Zuordnung], die [!UICONTROL Analytics for Target] (A4T) verwenden, von der gemeldeten Konversionsrate der einzelnen Erlebnisse abweichen. Dies tritt häufiger bei Aktivitäten mit einem hohen Anteil an rückkehrendem Besucher-Traffic auf. Betroffene Kunden werden über betroffene Aktivitäten benachrichtigt. (Die 131 populärsten)
+In einigen Fällen kann die Traffic-Verteilung von [!UICONTROL Aktivitäten mit automatischer Zuordnung], die [!UICONTROL Analytics for Target] (A4T) verwenden, von der gemeldeten Konversionsrate der einzelnen Erlebnisse abweichen. Dies tritt häufiger bei Aktivitäten mit einem hohen Anteil an rückkehrendem Besucher-Traffic auf. Betroffene Kunden werden über betroffene Aktivitäten benachrichtigt.
+
+Bis dieses Problem behoben ist, verwenden Sie [!UICONTROL Automatische Zuordnung] mit standardmäßigen [!DNL Target]-Berichten oder verwenden Sie standardmäßige A/B-Tests mit [!DNL Analytics]-Berichten als Alternative zu [!UICONTROL Automatische Zuordnung] mit [!DNL Analytics]-Berichten. (Die 131 populärsten)
 
 ### Analytics for Adobe Target (A4T)-Metriken für automatische Zuordnungs- und Targeting-Aktivitäten
 
