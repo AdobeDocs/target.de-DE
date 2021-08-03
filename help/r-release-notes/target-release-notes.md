@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Versionshinweise
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '333'
 ht-degree: 61%
 
 ---
@@ -31,7 +31,7 @@ Diese Wartungsversion enthält viele Backend-Verbesserungen, einschließlich der
 
 * Es wurde ein Fehler behoben, der dazu führte, dass Berichte für [!UICONTROL Automatisierte Personalisierung]-Aktivitäten, die im [!UICONTROL Form-Based Experience Composer] erstellt wurden, auf gelöschte Angebote in Berichten verweisen. Diese Ausgabe führte zur Anzeige der folgenden Fehlermeldung: &quot;Wir haben Probleme beim Abrufen der Daten für diesen Bericht. Wenden Sie sich an den Kundendienst von Adobe , wenn das Problem weiterhin besteht.&quot; (TGT-41028)
 
-## Target-Bereitstellungs-API (festzulegendes Datum)
+## Target-Bereitstellungs-API (3. August 2021)
 
 Diese Version enthält die folgenden Verbesserungen:
 
