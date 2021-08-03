@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Versionshinweise
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '273'
 ht-degree: 74%
 
 ---
@@ -29,7 +29,7 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 Diese Version enthält die folgenden Verbesserungen:
 
-* Die Beschränkung für Mbox-Parameter wurde auf 100 Parameter erhöht. Die vorherige Begrenzung betrug 50 Parameter.
+* Die Beschränkung für Mbox-Parameter wurde auf 100 Parameter erhöht. Die vorherige Begrenzung betrug 50 Parameter. (TNT-41717)
 * Die Beschränkung für `categoryId` wurde auf 256 Zeichen erhöht. Die vorherige Beschränkung betrug 128 Zeichen.
 * Die folgenden [!DNL Adobe Audience Manager] (AAM) Details wurden zur Bereitstellungs-API hinzugefügt:
 
