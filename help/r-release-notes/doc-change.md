@@ -4,9 +4,9 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
+source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2089'
 ht-degree: 96%
 
 ---
@@ -19,8 +19,9 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 3. August | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur kommenden [!DNL Target Standard/Premium] 21.8.1-Version (4. August 2021) hinzugefügt. |
 | 2. August | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>Traffic-Verteilung von Aktivitäten mit automatisierter Zuordnung mithilfe von A4T</li></ul> |
-|  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen für die nächste Target-Bereitstellungs-API-Version hinzugefügt. |
+|  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur kommenden [!UICONTROL Target-Bereitstellungs-API]-Version hinzugefügt. |
 | 30. Juli | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Die folgenden Abschnitte wurden aktualisiert:<ul><li>entity.id</li><li>productPurchasedId-Parameter</li></ul> |
 | 29. Juli | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zur [!DNL Adobe Target] Community-Fragen und -Kaffeepause hinzugefügt: Mittwoch, 11. August 2021. |
 |  | [Anpassen einer globalen Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Der wichtige Hinweis wurde aktualisiert, um anzugeben, dass Sie die betroffenen Aktivitäten bearbeiten und erneut speichern müssen, die im VEC nach dem Anpassen einer globalen Mbox erstellt wurden. |
