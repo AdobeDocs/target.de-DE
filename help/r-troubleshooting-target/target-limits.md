@@ -5,7 +5,7 @@ title: Zeichen-, Größen- und andere Beschränkungen in Adobe Target
 feature: Fehlerbehebung
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 87%
@@ -58,7 +58,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 ## categoryId-Parameter
 
-* **Limit**: 250 Zeichen.
+* **Limit**: 256 Zeichen.
 
 ## Inhaltsbereitstellung {#content-delivery}
 
@@ -196,7 +196,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
    **Bereitstellungs-API – Endpunkt**:
 
-   * Mbox-Parameter: 50
+   * Mbox-Parameter: 100
    * Maximale Länge des Mbox-Parameternamens: 128
    * Der Mbox-Parameterwert darf nicht null sein.
    * Mbox-Parameterwert: 5000
