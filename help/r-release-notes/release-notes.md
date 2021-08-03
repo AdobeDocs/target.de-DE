@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Versionshinweise
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 90%
+source-wordcount: '739'
+ht-degree: 88%
 
 ---
 
@@ -31,9 +31,9 @@ Diese Version enthält die folgenden Verbesserungen:
 * Die Beschränkung für `categoryId` wurde auf 256 Zeichen erhöht. Die vorherige Beschränkung betrug 128 Zeichen.
 * Die folgenden [!DNL Adobe Audience Manager] (AAM) Details wurden zur Bereitstellungs-API hinzugefügt:
 
-   * AAM UUID (Adobe Audience Manager Unique User ID)
-   * dataPartnerId
-   * dataPartnerUserId
+   * AAM UUID: Die interne AAM-ID, die zur eindeutigen Identifizierung eines Benutzers verwendet wird.
+   * dataPartnerId: Die ID für einen Datenpartner.
+   * dataPartnerUserId: Die von einem Datenpartner bereitgestellte Benutzer-ID.
 
    Zuvor umfasste die Bereitstellungs-API nur `dcsLocationHint` und `blob`. (TNT-41644)
 
