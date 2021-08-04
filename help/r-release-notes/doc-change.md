@@ -4,7 +4,7 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
+source-git-commit: d577ef0268e5f1bca4bf78a8c5ad4d0547adb68f
 workflow-type: tm+mt
 source-wordcount: '2149'
 ht-degree: 96%
@@ -20,7 +20,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 4. August | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Informationen zur Einstellung `optinEnabled` wurden hinzugefügt. |
-|  | [Target-Versionshinweise (aktuell](/help/r-release-notes/release-notes.md)): 21,6,1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
+|  | [Target-Versionshinweise (aktuell](/help/r-release-notes/release-notes.md)): 21,8,1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30. Juni 2021)
 
