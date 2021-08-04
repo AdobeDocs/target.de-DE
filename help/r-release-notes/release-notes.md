@@ -4,16 +4,16 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Versionshinweise
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
+source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 88%
+source-wordcount: '619'
+ht-degree: 69%
 
 ---
 
 # Target-Versionshinweise (aktuell)
 
-Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den APIs, SDKs und der JavaScript-Bibliothek (at.js) von Target sowie zu anderen Plattformänderungen.
+Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Darüber hinaus sind gegebenenfalls auch Versionshinweise für Target-APIs, SDKs, [!DNL Adobe Experience Platform Web SDK], at.js und andere Plattformänderungen enthalten.
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,13 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
-## Target-Bereitstellungs-API (3. August 2021)
+## [!DNL Target Standard/Premium] 21.8.1 (4. August 2021)
+
+Diese Wartungsversion enthält viele Backend-Verbesserungen, einschließlich der folgenden kundenrelevanten Änderung:
+
+* Es wurde ein Fehler behoben, der dazu führte, dass Berichte für [!UICONTROL Automatisierte Personalisierung]-Aktivitäten, die im [!UICONTROL Form-Based Experience Composer] erstellt wurden, auf gelöschte Angebote in Berichten verweisen. Diese Ausgabe führte zur Anzeige der folgenden Fehlermeldung: &quot;Wir haben Probleme beim Abrufen der Daten für diesen Bericht. Wenden Sie sich an den Kundendienst von Adobe , wenn das Problem weiterhin besteht.&quot; (TGT-41028)
+
+## [!DNL Target Delivery API] (3. August 2021)
 
 Diese Version enthält die folgenden Verbesserungen:
 
@@ -37,7 +43,7 @@ Diese Version enthält die folgenden Verbesserungen:
 
    Zuvor umfasste die Bereitstellungs-API nur `dcsLocationHint` und `blob`. (TNT-41644)
 
-## at.js 2.6.0 (16. Juli 2021)
+## at.js 2.6.0 (27. Juli 2021)
 
 * Das Attribut „secure“ wurde zu Cookies hinzugefügt für alle Fälle, in denen die at.js-Einstellungen `secureOnly` auf `true` gesetzt sind.
 * Bei Verwendung von `triggerView()` sind jetzt Antwort-Token verfügbar.
@@ -47,32 +53,11 @@ Diese Version enthält die folgenden Verbesserungen:
 * Der Ablauf des `sessionId`-Cookies wird bei jedem Netzwerkaufruf korrekt verlängert.
 * Die Ansichts-Cache-Initialisierung für die [!UICONTROL Einzelseiten-Anwendung] (SPA, Single Page Application) wird jetzt korrekt verarbeitet und berücksichtigt die Einstellungen `viewsEnable`.
 
-## [!DNL Target Standard/Premium] 21.6.1 (30. Juni 2021)
-
-Diese Version beinhaltet die folgenden neuen Funktionen und Verbesserungen. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
-
-| Funktion | Details |
-| --- | --- |
-| [!UICONTROL Analytics for Target] (A4T) | Wenn Sie auf der Seite [!UICONTROL Berichte] auf den Link ]In Analytics anzeigen[!UICONTROL  in einer Aktivität klicken, die [!DNL Analytics] als Berichtsquelle (A4T) verwendet, wird jetzt [!DNL Analysis Workspace] geöffnet. Zuvor wurden durch den Link die Berichte von [!DNL Analytics] geöffnet. (TGT-36959) |
-
-## Python SDK 1.0.0 (16. Juni 2021)
-
-Das neue [!DNL Adobe Target] Python-SDK mit Funktionen zur geräteinternen Entscheidungsfindung ist jetzt verfügbar. Diese neueste Erweiterung ergänzt die [!DNL Target]-Suite der Server-seitigen SDKs. Diese SDKs helfen Ihnen bei der Integration mit [!DNL Target] und beschleunigen Ihre Time-to-Value – und all das in der Sprache Ihrer Wahl. Server-seitige Integrationen werden immer beliebter, da sich der Markt in eine Cookie-freie Welt verlagert, in der First-Party-Daten wertvoll sind. Target-SDKs sind in den gängigsten Programmiersprachen auf dem Markt verfügbar (Python, Java, JavaScript, C# / .Net).
-
-Weitere Informationen finden Sie in der [Dokumentation zum Python SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) im Handbuch [Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/).
-
-## ![Adobe Experience Platform Web SDK-Badge](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]Version 2.5.0 (1. Juni 2021)
-
-Diese Version von [!DNL Platform Web SDK] unterstützt Folgendes:
-
-| Funktion | Details |
-| --- | --- |
-| Umleitungs-Unterstützung mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt Umleitungen von [!DNL Target] bei der Verwendung von [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Weitere Informationen finden Sie unter [Analytics für die  [!DNL Target] -Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
-
 ## Zusätzliche Versionshinweise und Versionsdetails
 
 | Ressource | Details |
 |--- |--- |
+| [Versionshinweise: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details zu Änderungen in den einzelnen Versionen des Platform Web SDK. |
 | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibliothek von [!DNL Adobe Target] |
 
 ## Dokumentationsänderungen, historische Versionshinweise und Experience Cloud-Versionshinweise
