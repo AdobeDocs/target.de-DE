@@ -4,9 +4,9 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d577ef0268e5f1bca4bf78a8c5ad4d0547adb68f
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2108'
 ht-degree: 96%
 
 ---
@@ -15,17 +15,11 @@ ht-degree: 96%
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
 
-## Adobe [!DNL Target] Standard/Premium 21.8.1 (4. August 2021)
-
-| Datum | Thema | Änderungen |
-| --- | --- | --- |
-| 4. August | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Informationen zur Einstellung `optinEnabled` wurden hinzugefügt. |
-|  | [Target-Versionshinweise (aktuell](/help/r-release-notes/release-notes.md)): 21,8,1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
-
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30. Juni 2021)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 4. August | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Informationen zur Einstellung `optinEnabled` wurden hinzugefügt. |
 | 3. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version [!UICONTROL Target Delivery API] hinzugefügt. |
 |  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur kommenden [!DNL Target Standard/Premium] 21.8.1-Version (4. August 2021) hinzugefügt. |
 | 2. August | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>Traffic-Verteilung von Aktivitäten mit automatisierter Zuordnung mithilfe von A4T</li></ul> |
