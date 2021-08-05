@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
+source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 96%
+source-wordcount: '2138'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 5. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurde ein Hinweis hinzugefügt, der angibt, dass die [!DNL Target Standard/Premium] 18.8.1-Version verzögert ist. |
+|  | [Automatische Zuordnung – Überblick](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Kann ich die Berichtsquelle in der Mitte durch eine [!UICONTROL Automatische Zuordnung] -Aktivität ändern?</li></ul> |
 | 4. August | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Informationen zur Einstellung `optinEnabled` wurden hinzugefügt. |
 | 3. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version [!UICONTROL Target Delivery API] hinzugefügt. |
 |  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur kommenden [!DNL Target Standard/Premium] 21.8.1-Version (4. August 2021) hinzugefügt. |
