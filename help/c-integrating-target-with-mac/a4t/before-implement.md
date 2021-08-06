@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die Implementierungsanforderungen für Anal
 title: Was sollte ich vor der Implementierung von A4T wissen?
 feature: 'Analytics for Target (A4T) '
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: 51e36576439ff365bbdac14da67cb971c36431d6
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 28%
+source-wordcount: '882'
+ht-degree: 29%
 
 ---
 
@@ -43,7 +43,9 @@ Für die Verwendung von Weiterleitungsangeboten mit A4T müssen Sie die folgende
 
 * [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js, Version 2.3.0
 
-   **Hinweis:**  at.js 1.8.0 oder höher funktioniert nicht mehr mit Visitor API-Versionen älter als 2.5.0 für die Übergabe von  [!DNL Adobe Audience Manager] (AAM) Parametern.
+   >[!NOTE]
+   >
+   >at.js 1.8.0+ und at.js 2.x+ funktionieren nicht mehr mit Visitor API-Versionen älter als 2.5.0 für die Übergabe von Adobe Audience Manager (AAM)-Parametern.
 
 * [!DNL Adobe Target]: at.js, Version 1.6.2
 
