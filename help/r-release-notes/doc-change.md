@@ -4,9 +4,9 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Versionshinweise
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
+source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2194'
 ht-degree: 94%
 
 ---
@@ -19,7 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 11. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Versionshinweise für das SDK [!DNL Target] node.js hinzugefügt. |
+| 11. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Versionshinweise für das [!DNL Target] node.js-SDK, Version 2.2.0 wurden hinzugefügt. |
 | 9. August | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Das Thema wurde aktualisiert. |
 | 6. August | [Vor der Implementierung von Analytics for Target (A4T) mit at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Der folgende Hinweis wurde aktualisiert:<ul><li>at.js 1.8.0+ und at.js 2.x+ funktionieren nicht mehr mit Visitor API-Versionen älter als 2.5.0 für die Übergabe von Adobe Audience Manager (AAM)-Parametern.</li></ul> |
 | 5. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurde ein Hinweis hinzugefügt, der angibt, dass die [!DNL Target Standard/Premium] 18.8.1-Version verzögert ist. |
