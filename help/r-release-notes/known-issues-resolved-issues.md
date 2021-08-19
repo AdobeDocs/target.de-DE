@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
 source-wordcount: '4505'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -35,9 +35,9 @@ In der Benutzeroberfläche von [!DNL Target] können Benutzer nicht unterstützt
 
 Eine Liste der unterstützten und nicht unterstützten Zielmetriken finden Sie unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
-### Der Enhanced Experience Composer (EEC) unterstützt keine PUT-Anfragen.
+### Enhanced Experience Composer (EEC) unterstützt keine PUT-Anfragen.
 
-Ein Problem mit dem EEC verhindert derzeit, dass PUT-Anfragen unterstützt werden, und führt zu einem 504-Timeout-Fehler. (TGT-41493)
+Ein Problem mit EEC verhindert derzeit, dass PUT-Anfragen unterstützt werden, und führt zu einem 504-Timeout-Fehler. (TGT-41493)
 
 ### [!DNL Adobe Experience Platform] Segmentnamen werden nicht im Bericht [!UICONTROL Wichtige Attribute] angezeigt.
 
