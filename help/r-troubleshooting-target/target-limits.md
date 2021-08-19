@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -62,19 +62,19 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 ## Inhaltsbereitstellung {#content-delivery}
 
-* **Limit**: 100 Anfragen zur gleichzeitigen  [!DNL Target] Inhaltsbereitstellung pro Benutzersitzung.
+* **Limit**: 100 gleichzeitige [!DNL Target]-Anfragen zur Inhaltsbereitstellung pro Benutzersitzung.
 
-   Wenn ein Kunde 100 gleichzeitige [!DNL Target] Inhaltsbereitstellungsanfragen für eine bestimmte Benutzersitzung überschreitet, werden alle nachfolgenden Anforderungen für diese Benutzersitzung blockiert. Zwei oder mehr Anfragen gelten als gleichzeitig, wenn sie alle an den Server [!DNL Target] gesendet werden, bevor die Antwort für eine dieser Anforderungen empfangen wird. [!DNL Target] verarbeitet gleichzeitige Anforderungen für dieselbe Sitzung sequenziell.
+   Wenn ein Kunde 100 gleichzeitige [!DNL Target]-Anfragen zur Inhaltsbereitstellung für eine bestimmte Benutzersitzung überschreitet, werden alle nachfolgenden Anfragen für diese Benutzersitzung blockiert. Zwei oder mehr Anfragen gelten als gleichzeitig, wenn sie alle an den [!DNL Target]-Server gesendet werden, bevor die Antwort für eine dieser Anfragen empfangen wird. [!DNL Target] verarbeitet gleichzeitige Anfragen für dieselbe Sitzung sequenziell.
 
 * **Fehlerverhalten**:
 
    * Bereitstellungs-API und Batch-Mbox v2:
-      * Fehler-Code: HTTP 420 - Zu viele Anforderungen
-      * Fehlermeldung: &quot;Zu viele Anfragen mit derselben Sitzungs-ID&quot;
-   * Legacy-Mbox-API:
-      * Standardinhalt mit Kommentar &quot;Zu viele Anfragen mit derselben Sitzungs-ID&quot;
+      * Fehler-Code: HTTP 420 – zu viele Anfragen
+      * Fehlermeldung: „Zu viele Anfragen mit derselben Sitzungs-ID“
+   * Legacy-mBox-API:
+      * Standardinhalt mit Kommentar „Zu viele Anfragen mit derselben Sitzungs-ID“
    * at.js:
-      * Standardinhalt angezeigt
+      * Standardinhalt wird angezeigt
 
 
 
@@ -117,13 +117,13 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 ### entity.id
 
-* **Limit für Implementierungen, die die Erfassung von Kaufinformationen** erfordern: 50 Zeichen.
+* **Beschränkung für Implementierungen, die die Erfassung von Kaufinformationen erfordern**: 50 Zeichen.
 
-   Diese Beschränkung wird erzwungen, da der Mbox-Parameter `productPurchasedId` die entity.id erfasst, wodurch die Zeichenanzahl auf 50 begrenzt wird.
+   Diese Beschränkung wird erzwungen, da der mBox-Parameter `productPurchasedId` die entity.ids erfasst, wodurch die Zeichenanzahl auf 50 begrenzt wird.
 
-* **Beschränkung für Implementierungen, für die nur ansichtsbasierte Algorithmen erforderlich sind:**: 1.000 Zeichen.
+* **Beschränkung für Implementierungen, für die nur ansichtsbasierte Algorithmen erforderlich sind**: 1.000 Zeichen.
 
-   Zu den ansichtsbasierten Algorithmen gehören Ansicht/Ansicht, am häufigsten angesehen, zuletzt angezeigt usw.
+   Zu den ansichtsbasierten Algorithmen gehören „Ansicht/Ansicht“, „Am häufigsten angesehen“, „Zuletzt angezeigt“ usw.
 
 ## excludedIds {#excludedid}
 
@@ -249,7 +249,7 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 ## productPurchasedId-Parameter
 
-* **Limit**: 50 Zeichen pro kommagetrenntem Wert, 250 Zeichen insgesamt. Einzelwerte, die länger als 50 Zeichen sind, werden vom System abgeschnitten. Gesamtlängen über 250 Zeichen führen zu einem 400-Fehler.
+* **Limit**: 50 Zeichen pro kommagetrenntem Wert, 250 Zeichen insgesamt. Einzelwerte mit einer Länge von mehr als 50 Zeichen werden vom System abgeschnitten. Gesamtlängen über 250 Zeichen führen zu einem Fehler 400.
 
 ## Profilskripte
 
