@@ -5,9 +5,9 @@ title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Versionshinweise
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ Ankündigungen und Informationen zu kommenden Veranstaltungen einschließlich [!
 
 * **Mittwoch, 11. August 2021**
 * **08:00 Uhr (PDT, UTC -7)**
-* **[Klicken Sie hier für weitere Informationen und zur Registrierung](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
+* **[Klicken Sie hier für weitere Informationen und zur Registrierung](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742?lang=de&amp;profile.language=de).**
 
-Principal Solutions Consultant für [!DNL Adobe Target], James McTiernan beantwortet Kundenfragen zu seinen Fachgebieten in [!DNL Target]:
+James McTiernan, Principal Solutions Consultant für [!DNL Adobe Target], beantwortet Kundenfragen zu seinen Fachgebieten innerhalb von [!DNL Target]:
 
 * Recommendations
-* A/B- und Multivarianztests (MVT)
+* A/B- und Multivarianztests
 * Personalisierung
 
 ## Webinar: Personalisieren und Testen mit Nulllatenz bei geräteinterner Entscheidungsfindung mit Adobe Target
