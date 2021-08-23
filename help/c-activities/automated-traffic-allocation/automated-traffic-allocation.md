@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine Aktivität vom Typ "Automatische Zuordnu
 title: Was ist eine Aktivität vom Typ "Automatische Zuordnung"?
 feature: Automatische Zuordnung
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '3454'
 ht-degree: 50%
@@ -33,7 +33,7 @@ In solchen Tests verwenden die meisten Produkte, einschließlich [!DNL Target], 
 
 [!UICONTROL Die automatisierte Zuordnung führt alle impliziten Vergleiche über alle Erlebnisse hinweg durch und ergibt dann einen „wahren“ Gewinner. ] Es gibt in diesem Test keinen Bedarf für ein „Kontrollerlebnis“.
 
-[!UICONTROL Automatische ] Zuordnung ordnet neuen Besuchern automatisch Erlebnisse zu, bis sich das Konfidenzintervall des besten Erlebnisses nicht mit dem Konfidenzintervall anderer Erlebnisse überschneidet. Normalerweise könnte dieser Prozess zu falsch-positiven Ergebnissen führen, aber [!UICONTROL Automatische Zuordnung] verwendet Konfidenzintervalle basierend auf der [Bernstein-Ungleichung](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)), die wiederholte Auswertungen kompensiert. An diesem Punkt gibt es einen echten Gewinner. Wenn [!UICONTROL Automatische Zuordnung] gestoppt wird, sofern keine wesentliche Zeitabhängigkeit gegenüber den Besuchern besteht, die auf die Seite gelangen, besteht eine Wahrscheinlichkeit von mindestens 95 %, dass [!UICONTROL Automatische Zuordnung] ein Erlebnis zurückgibt, dessen wahre Antwort nicht schlechter als 1 % (relativ) weniger als die wahre Antwort des erfolgreichsten Erlebnisses ist.
+[!UICONTROL Automatische ] Zuordnung ordnet neuen Besuchern automatisch Erlebnisse zu, bis sich das Konfidenzintervall des besten Erlebnisses nicht mit dem Konfidenzintervall anderer Erlebnisse überschneidet. Normalerweise könnte dieser Prozess zu falsch-positiven Ergebnissen führen, aber [!UICONTROL Automatische Zuordnung] verwendet Konfidenzintervalle basierend auf der [Bernstein-Ungleichung](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29), die wiederholte Auswertungen kompensiert. An diesem Punkt gibt es einen echten Gewinner. Wenn [!UICONTROL Automatische Zuordnung] gestoppt wird, sofern keine wesentliche Zeitabhängigkeit gegenüber den Besuchern besteht, die auf die Seite gelangen, besteht eine Wahrscheinlichkeit von mindestens 95 %, dass [!UICONTROL Automatische Zuordnung] ein Erlebnis zurückgibt, dessen wahre Antwort nicht schlechter als 1 % (relativ) weniger als die wahre Antwort des erfolgreichsten Erlebnisses ist.
 
 ## Verwendung von [!UICONTROL Automatische Zuordnung] im Vergleich zu A/B oder [!UICONTROL Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
