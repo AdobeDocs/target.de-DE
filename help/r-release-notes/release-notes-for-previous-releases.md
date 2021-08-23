@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Versionshinweise
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '31372'
+source-wordcount: '31350'
 ht-degree: 99%
 
 ---
@@ -1269,7 +1269,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Die Adobe Marketing Cloud wurde mit einem neuen Branding versehen und heißt nun Adobe Experience Cloud. </p> </td> 
-   <td colname="col2"> <p>Bei der Experience Cloud handelt es sich um die integrierte Adobe-Lösungs- und -Dienstfamilie für digitales Marketing. Außerdem handelt es sich hierbei um eine intuitive Schnittstelle, mit deren Hilfe Sie schnell auf Ihre Cloud-Lösungen und Hauptdienste zugreifen können. </p> <p>Neues Branding und Änderungen an der Benutzeroberfläche: Die Adobe Marketing Cloud wurde mit einem neuen Branding versehen und heißt nun Adobe Experience Cloud. Zusätzlich werden Sie Benutzeroberflächenänderungen auf der Target-Oberfläche und im Solution Switcher feststellen. </p> <p>Weitere Informationen über diese Änderung finden Sie unter <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/solutions-core-services.html?lang=de" format="html" scope="external">Über die neuen Cloud-Namen der Experience Cloud.</a> </p> </td> 
+   <td colname="col2"> <p>Bei der Experience Cloud handelt es sich um die integrierte Adobe-Lösungs- und -Dienstfamilie für digitales Marketing. Außerdem handelt es sich hierbei um eine intuitive Schnittstelle, mit deren Hilfe Sie schnell auf Ihre Cloud-Lösungen und Hauptdienste zugreifen können. </p> <p>Neues Branding und Änderungen an der Benutzeroberfläche: Die Adobe Marketing Cloud wurde mit einem neuen Branding versehen und heißt nun Adobe Experience Cloud. Zusätzlich werden Sie Benutzeroberflächenänderungen auf der Target-Oberfläche und im Solution Switcher feststellen. </p></td> 
   </tr> 
  </tbody> 
 </table>
