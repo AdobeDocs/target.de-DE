@@ -1,12 +1,11 @@
 ---
 keywords: Entitätsattribute mit mehreren Werten; benutzerdefinierte Entitätsattribute; Gültiges JSON; Entitätsattributwert; JSON-Array; mehrere Werte; mehrwertig
-description: Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten verwenden, um weitere Informationen zu Elementen in Ihrer Adobe [!DNL Target] Recommendations-Katalog zu definieren.
+description: Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einzelnen und mehreren Werten verwenden können, um zusätzliche Informationen über Elemente in Ihrer Adobe [!DNL Target] Recommendations-Katalog zu definieren.
 title: Wie verwende ich benutzerdefinierte Entitätsattribute?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 89%
@@ -15,7 +14,7 @@ ht-degree: 89%
 
 # ![PREMIUM](/help/assets/premium.png) Personalisierte Entitätsattribute
 
-Verwenden Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten in [!DNL Adobe Target Recommendations], um weitere Informationen zu Elementen in Ihrem Katalog zu definieren.
+Verwenden Sie in [!DNL Adobe Target Recommendations] benutzerdefinierte Entitätsattribute mit einzelnen und mehreren Werten, um zusätzliche Informationen zu Artikeln in Ihrem Katalog zu definieren.
 
 ## Beschränkungen {#limits}
 
@@ -109,7 +108,7 @@ Gehen Sie bei der direkten Bearbeitung einer CSV-Katalogdatei im Rohformat vorsi
 
 ### Verwenden von APIs
 
-Sie können Attribute mit mehreren Werten mithilfe der Versand-API in einem mbox-Parameter als Zeichenfolgenwert mit einem Escape-Array übergeben.
+Sie können Attribute mit mehreren Werten mithilfe der Bereitstellungs-API in einem Mbox-Parameter als Zeichenfolgenwert übergeben, der ein escaptes JSON-Array enthält.
 
 ```javascript
 "execute": {
@@ -127,7 +126,7 @@ Sie können Attribute mit mehreren Werten mithilfe der Versand-API in einem mbox
   }
 ```
 
-Informationen zur Verwendung der Versand- und Save-Entitäts-APIs finden Sie in der Dokumentation zur Adobe Recommendations API](http://developers.adobetarget.com/api/recommendations).[
+Informationen zur Verwendung der APIs für die Bereitstellung und Speicherung von Entitäten finden Sie in der [Adobe Recommendations API-Dokumentation](https://developers.adobetarget.com/api/recommendations) .
 
 ## Verwenden von Operatoren mit Attributen mit mehreren Werten {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -140,7 +139,7 @@ Im folgenden Beispiel lautet die Regel:  `message contains abc`.
 
 Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Lautet der Operator beispielsweise  `notEquals`, lautet das Ergebnis *false* (falsch), wenn nur ein beliebiger Wert die Operation erfüllt.
 
-In den folgenden Abschnitten finden Sie Informationen zum Operatorverhalten in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln.
+In den folgenden Abschnitten finden Sie Informationen zum Benutzerverhalten in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln.
 
 ### Gleich
 
@@ -150,7 +149,7 @@ Beispiel: `genre equals abc`
 
 * 1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.
 * 2. Fall: `entity.genre = ["abc", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.
-* Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da `abc` keinem Element in der Liste entspricht.
+* 3. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da `abc` keinem Element in der Liste entspricht.
 
 ### Ist nicht gleich
 
@@ -160,7 +159,7 @@ Beispiel: `genre not equals abc`
 
 * 1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „true“ (wahr), da keiner der Werte `abc`.
 * 2. Fall: `entity.genre = ["abc", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da einer der Werte `abc`.
-* Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da `abc` keinem Element in der Liste entspricht.
+* 3. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da `abc` keinem Element in der Liste entspricht.
 
 ### Enthält
 
@@ -188,7 +187,7 @@ Beispiel: `genre starts with abc`
 
 * 1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte mit `abc`.
 * 2. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte mit `abc`.
-* Fall 3: `entity.genre = ["ab", "de", "abc"]`. Das Ergebnis lautet „true“ (wahr), da ein Wert mit `abc` beginnt (nicht notwendigerweise das erste Element in der Liste).
+* 3. Fall: `entity.genre = ["ab", "de", "abc"]`. Das Ergebnis lautet „true“ (wahr), da ein Wert mit `abc` beginnt (nicht notwendigerweise das erste Element in der Liste).
 
 ### Endet mit
 
@@ -241,7 +240,7 @@ Beispiel: `genre does not match abc`
 
 ### Dynamische Bereiche (nur für artikelbasierte Algorithmen verfügbar, ausschließlich numerische Werte)
 
-Liegt ein beliebiger numerischer Attributwert innerhalb des angegebenen Bereichs, lautet das Ergebnis true (wahr).
+Liegt ein numerischer Attributwert innerhalb des angegebenen Bereichs, lautet das Ergebnis true (wahr).
 
 Beispiel: `price dynamically ranges in 80% to 120% of 100`
 
@@ -252,7 +251,7 @@ Beispiel: `price dynamically ranges in 80% to 120% of 100`
 >
 >*Double* ist ein Java-Datentyp. Bei Operatoren, für die numerische Werte erforderlich sind, werden bei der Verdoppelung alle Werte aus der Ergebnisberechnung ausgeschlossen, die nicht numerisch sind.
 
-## Attribute mit mehreren Werten in Designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Attribute mit mehreren Werten in Entwürfen {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Attribute mit mehreren Werten werden als kommagetrennte Liste angezeigt, wenn in einem Entwurf auf sie verwiesen wird.
 
