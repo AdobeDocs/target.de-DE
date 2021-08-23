@@ -5,10 +5,10 @@ title: Wie konfiguriere ich Unternehmensberechtigungen?
 feature: Administration und Konfiguration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 67%
+source-wordcount: '1458'
+ht-degree: 66%
 
 ---
 
@@ -148,7 +148,7 @@ Um die Benutzerberechtigungsfunktion von [!DNL Target] zu verwenden, müssen Sie
 
    * **Über einen „globalen Parameter“ im [!DNL Adobe Launch]:**
 
-      Weitere Informationen finden Sie unter [Globale Target-Parameter hinzufügen](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in der *Adobe Experience Platform Launch* -Dokumentation.
+      Weitere Informationen finden Sie unter [Globale Target-Parameter hinzufügen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in der *Adobe Experience Platform Launch* -Dokumentation.
 
    * **Mithilfe der Funktion targetPageParams():**  Platzieren Sie den folgenden Code in den  `<head>` Tags oberhalb der Referenz &quot;at.js&quot;.
 
