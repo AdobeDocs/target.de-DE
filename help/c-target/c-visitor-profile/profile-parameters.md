@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besuc
 title: Was sind Profilattribute?
 feature: Zielgruppen
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2403'
 ht-degree: 49%
 
 ---
@@ -142,7 +142,7 @@ Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verf
    * Profilskripte sollten vor dem Hinzufügen zu [!DNL Target] auf ihre Leistung getestet werden. Alle Profilskripte werden bei jeder Mbox-Anfrage ausgeführt. Wenn Profilskripte nicht ordnungsgemäß ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger, was sich auf Traffic und Konversion auswirken kann.
    * Wenn Profilskripte zu komplex werden, sollten Sie stattdessen [Antwort-Token](/help/administrating-target/response-tokens.md) verwenden.
 
-* Weitere Informationen finden Sie in der Dokumentation zur JS Rhino-Engine . [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* Weitere Informationen finden Sie in der Dokumentation zur JS Rhino Engine .
 
 ## Profilskripte debuggen {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
