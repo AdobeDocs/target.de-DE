@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Enterprise-Kundendaten aus einer CRM-Datenban
 title: Was sind Kundenattribute und wie verwende ich sie?
 feature: Zielgruppen
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 36%
+source-wordcount: '1476'
+ht-degree: 35%
 
 ---
 
@@ -145,7 +145,6 @@ Wenn Sie den Experience Cloud-ID-Dienst verwenden, müssen Sie eine Kunden-ID un
 Weitere Informationen zum Verwenden von Kundenattributen in [!DNL Target] finden Sie unter den folgenden Ressourcen:
 
 * [Erstellen Sie eine Kundenattributquelle und laden Sie die ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) Datendatei in die Dokumentation zu  *Experience Cloud Services und Administration hoch.*
-* [Kundenattribute: Je mehr Details, desto besser die Verbindung](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) im *Digital Marketing-Blog*
 
 ## Häufig von Kunden aufgetretene Probleme {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
