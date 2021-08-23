@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besuc
 title: Was sind Profilattribute?
 feature: Zielgruppen
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '2403'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -33,7 +33,7 @@ So richten Sie Profilattribute ein:
 
    | Parametertyp | Beschreibung |
    |--- |--- |
-   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Hinweis:  erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. [!DNL Target] Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, übergeben Sie diese mit der API-Methode Profilaktualisierung . Weitere Informationen finden Sie unter [Profil-Update in der  [!DNL Adobe Target] API-Dokumentation](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Hinweis:  erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. [!DNL Target] Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, übergeben Sie diese mit der API-Methode Profilaktualisierung . Weitere Informationen finden Sie unter [Profil-Update in der  [!DNL Adobe Target] API-Dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
    | Profil | Direkt mit einem JavaScript-Codebeispiel definiert. Diese Snippets können laufende Gesamtsummen speichern, z. B. das Gesamtgeld, das der Verbraucher ausgegeben hat, und werden bei jeder Mbox-Anfrage ausgeführt. Siehe Profilskriptattribute unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
