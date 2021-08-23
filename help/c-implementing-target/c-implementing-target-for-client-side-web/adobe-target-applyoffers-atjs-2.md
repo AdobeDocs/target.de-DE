@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.applyoffer;Applyoffer;applyangebote;Angebote anwenden;at.js;Funktionen; funktion
-description: Verwenden Sie die JavaScript-Bibliothek "adobe.Zielgruppe.applyOffers()"für die Adobe [!DNL Target] at.js, um mehrere Angebot in der Antwort anzuwenden. (at.js 2.x)
-title: Wie verwende ich die Funktion adobe.Zielgruppe.applyOffers()?
-feature: 'at.js '
+description: Verwenden Sie die Funktion adobe.target.applyOffers() für die JavaScript-Bibliothek Adobe [!DNL Target] at.js , um mehrere Angebote in der Antwort anzuwenden. (at.js 2.x)
+title: Wie verwende ich die Funktion adobe.target.applyOffers()?
+feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -23,14 +22,14 @@ Mit dieser Funktion können Sie mehr als ein Angebot, das von `adobe.target.getO
 
 | Schlüssel | Typ | Erforderlich? | Beschreibung |
 | --- | --- | --- | --- |
-| selector | Zeichenfolge | Nein | HTML-Element oder „selector“ in CSS wird dazu verwendet, das HTML-Element zu identifizieren, in dem [!DNL Target] die Angebotsinhalte platzieren soll. Ist kein Selektor angegeben, geht [!DNL Target] davon aus, dass das zu verwendende HTML-Element HTML-HEAD ist. |
+| selector | Zeichenfolge | Nein | HTML-Element oder „selector“ in CSS wird dazu verwendet, das HTML-Element zu identifizieren, in dem [!DNL Target] die Angebotsinhalte platzieren soll. Wenn kein Selektor bereitgestellt wird, geht [!DNL Target] davon aus, dass das zu verwendende HTML-Element HTML-HEAD ist. |
 | Antwort | Objekt | Ja | Antwortobjekt von `getOffers()`.<br>Siehe Anfragetabelle unten. |
 
 ## Antwort
 
 >[!NOTE]
 >
->Informationen zu den zulässigen Typen für alle unten aufgeführten Felder finden Sie in der [Versand-API-Dokumentation](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API).
+>Informationen zu den akzeptablen Typen für alle unten aufgeführten Felder finden Sie in der [Dokumentation zur Bereitstellungs-API](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) .
 
 | Feldname | Beschreibung |
 | --- | --- |
