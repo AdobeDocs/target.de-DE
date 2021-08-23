@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Ergebnisse einer A/B-Aktivität mit autom
 title: Wie interpretiere ich Berichte mit automatisierter Zuordnung?
 feature: Automatische Zuordnung
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 47%
@@ -41,15 +41,15 @@ Nach Abschluss einer A/B-Aktivität garantiert die automatische Zuordnung, dass 
 
 Wir verwenden keine p-Wert-basierte Konfidenz für automatisierte Zuordnung.
 
-Die Spalte „Konfidenz“ in einer Aktivität mit automatisierter Zuordnung (siehe folgende Abbildung) zeigt mit einer Fehlerspanne von 1 %, wie wahrscheinlich ein Erlebnis der Gewinner ist (d. h., der Algorithmus verwendet einen minimalen nachweisbaren Effekt von 1 % zwischen der besten und der zweitbesten Konversionsrate). Beachten Sie, dass der Algorithmus diese Wahrscheinlichkeit anhand der [Bernstein-Ungleichheit](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) berechnet.
+Die Spalte „Konfidenz“ in einer Aktivität mit automatisierter Zuordnung (siehe folgende Abbildung) zeigt mit einer Fehlerspanne von 1 %, wie wahrscheinlich ein Erlebnis der Gewinner ist (d. h., der Algorithmus verwendet einen minimalen nachweisbaren Effekt von 1 % zwischen der besten und der zweitbesten Konversionsrate). Beachten Sie, dass der Algorithmus diese Wahrscheinlichkeit anhand der [Bernstein-Ungleichheit](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) berechnet.
 
 Bei normalen A/B-Tests wird die Konfidenz basierend auf P-Werten berechnet. Für die automatische Zuordnung werden keine P-Werte verwendet. Mit P-Werten wird „grob“ die Wahrscheinlichkeit berechnet, mit der ein bestimmtes Erlebnis vom Kontrollelement abweicht. Diese P-Werte können dazu genutzt werden, um zu bestimmen, ob sich ein Erlebnis vom Kontrollelement unterscheidet. Die Werte können nicht genutzt werden, um festzustellen, ob ein Erlebnis sich von einem anderen Erlebnis unterscheidet, das nicht das Kontrollerlebnis ist.
 
 >[!IMPORTANT]
 >
->Target zeigt einen Gewinner nach einer vordefinierten Mindestanzahl von Konversionen an. Die endgültige Entscheidung zur Auswahl des Gewinners sollte jedoch immer auf den Ergebnissen des Adobe Target [Stichprobengrößenrechners](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) basieren. Target berücksichtigt nicht die grundlegenden Konversionsraten einer Site und andere wichtige Aspekte, die in den Rechner eingespeist werden, um die Dauer der Aktivität zu bestimmen. Daher kann Target auf der Grundlage einer Mindestanzahl von Konversionen einen Gewinner anzeigen, der früher als angezeigt wurde. Weitere Informationen finden Sie unter [Stichprobengrößenrechner](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target zeigt einen Gewinner nach einer vordefinierten Mindestanzahl von Konversionen an. Die endgültige Entscheidung zur Auswahl des Gewinners sollte jedoch immer auf den Ergebnissen des Adobe Target [Stichprobengrößenrechners](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) basieren. Target berücksichtigt nicht die grundlegenden Konversionsraten einer Site und andere wichtige Aspekte, die in den Rechner eingespeist werden, um die Dauer der Aktivität zu bestimmen. Daher kann Target auf der Grundlage einer Mindestanzahl von Konversionen einen Gewinner anzeigen, der früher als angezeigt wurde. Weitere Informationen finden Sie unter [Stichprobengrößenrechner](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-## Verstehen Sie die Berichte zu Steigerung und Konfidenz in Aktivitäten mit automatisierter Zuordnung {#lift-confidence}
+## Berichte zu Steigerung und Konfidenz in Aktivitäten mit automatisierter Zuordnung {#lift-confidence}
 
 In Aktivitäten mit automatisierter Zuordnung wird das erste Erlebnis (standardmäßig Erlebnis A genannt) immer als Kontrollerlebnis auf der Registerkarte Berichte definiert. Dieses Erlebnis wird bei der Modellierung, die zur Ermittlung der Erlebnisleistung verwendet wird, nicht als echte statistische Kontrolle behandelt, sondern als Referenz oder Grundlage für einige Zahlen im Bericht behandelt.
 
