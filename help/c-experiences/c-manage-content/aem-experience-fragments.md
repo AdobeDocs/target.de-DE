@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie AEM Experience Fragments in Adobe [!DNL Targe
 title: Wie verwende ich Adobe Experience Manager (AEM)-Experience Fragments?
 feature: Erlebnisse und Angebote
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 603d98a972d1b421dae2047b70d65d0037b7a068
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
 source-wordcount: '1155'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -47,9 +47,9 @@ Um [!DNL AEM]-Experience Fragments in [!DNL Target] verwenden zu können, müsse
 Weitere Informationen finden Sie unter:
 
 * **Adobe I/O**:  [Integration mit Adobe Target mithilfe von Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html) in der Dokumentation zum  _Verwalten von_ Benutzerhandbüchern.
-* **[!DNL AEM]6.3**: [Abonnieren von Adobe Analytics und Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) in der Dokumentation zu _Adobe Experience Manager 6.3_.
-* **[!DNL AEM]6.4**: [Abonnieren von Adobe Analytics und Adobe Target](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/opt-in.html) in der Dokumentation zu _Adobe Experience Manager 6.4_.
-* **[!DNL AEM]6.5**: [Abonnieren von Adobe Analytics und Adobe Target](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/opt-in.html) in der Dokumentation zu *Adobe Experience Manager 6.5*.
+* **[!DNL AEM]6.3**: [Abonnieren von Adobe Analytics und Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) in der Dokumentation zu _Adobe Experience Manager 6.3_.
+* **[!DNL AEM]6.4**: [Abonnieren von Adobe Analytics und Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) in der Dokumentation zu _Adobe Experience Manager 6.4_.
+* **[!DNL AEM]6.5**: [Abonnieren von Adobe Analytics und Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en) in der Dokumentation zu *Adobe Experience Manager 6.5*.
 
 ### Schritt 2: Erstellen vom Experience Fragment
 
