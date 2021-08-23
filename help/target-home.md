@@ -4,10 +4,10 @@ title: Wo finde ich die Dokumentation zu  [!DNL Target] ?
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kunden mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, Mobile Site, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Überblick
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 - [Target NodeJS-SDK](https://github.com/adobe/target-nodejs-sdk): Beschreibt die serverseitige Bereitstellung von Target. Dieses Node.js-SDK vereinfacht die Integration von Target in andere Adobe Experience Cloud-Lösungen.
 - [Target Java-SDK](https://github.com/adobe/target-java-sdk): Beschreibt die serverseitige Bereitstellung von Target. Dieses Java-SDK vereinfacht die Integration von Target in andere Adobe Experience Cloud-Lösungen.
 - [Target Recommendations-API](https://developers.adobetarget.com/api/recommendations/): Beschreibt die Ressourcen der offiziellen Adobe Target Recommendations-API.
-- [Dokumentation zu Target Adobe.IO](http://developers.adobetarget.com/api/#introduction): Beschreibt die Verwendung der REST-APIs für die Administration und Profilerstellung in Adobe Target, die die Adobe.IO-Integration zur Verwaltung von Aktivitäten, Zielgruppen, Angeboten, Eigenschaften, Berichten, Mboxes, Umgebungen und Profilen nutzen.
+- [Dokumentation zu Target Adobe.IO](https://developers.adobetarget.com/api/#introduction): Beschreibt die Verwendung der REST-APIs für die Administration und Profilerstellung in Adobe Target, die die Adobe.IO-Integration zur Verwaltung von Aktivitäten, Zielgruppen, Angeboten, Eigenschaften, Berichten, Mboxes, Umgebungen und Profilen nutzen.
 
 ## Target und Adobe Experience Cloud-Administratoren {#admins}
 
