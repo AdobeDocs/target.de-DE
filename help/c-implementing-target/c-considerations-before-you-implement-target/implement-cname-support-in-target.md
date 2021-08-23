@@ -5,10 +5,10 @@ title: Wie verwende ich CNAME in Target?
 feature: Datenschutz und Sicherheit
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 1%
+source-wordcount: '1176'
+ht-degree: 2%
 
 ---
 
@@ -66,7 +66,7 @@ Sie können Ihr eigenes Zertifikat bereitstellen. [!DNL Adobe] empfiehlt diese V
 
 ### Wie lange dauert es, bis mein neues SSL-Zertifikat abläuft?
 
-Vor dem 1. September 2020 ausgestellte Bescheinigungen sind zweijährige Bescheinigungen. Zertifikate, die am oder nach dem 1. September 2020 ausgestellt wurden, sind einjährige Zertifikate. Weitere Informationen zum Umstieg auf einjährige Zertifikate [finden Sie hier](https://www.digicert.com/position-on-1-year-certificates).
+Vor dem 1. September 2020 ausgestellte Bescheinigungen sind zweijährige Bescheinigungen. Zertifikate, die am oder nach dem 1. September 2020 ausgestellt wurden, sind einjährige Zertifikate.
 
 ### Welche Hostnamen sollte ich wählen? Wie viele Hostnamen pro Domäne sollte ich wählen?
 
