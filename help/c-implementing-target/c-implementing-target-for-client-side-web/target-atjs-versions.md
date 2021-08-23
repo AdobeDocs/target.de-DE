@@ -4,9 +4,9 @@ description: Zeigen Sie die Details zu den Änderungen in den einzelnen Versione
 title: Was ist in jeder Version von at.js enthalten?
 feature: at.js
 role: Developer
-source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
+source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
 workflow-type: tm+mt
-source-wordcount: '4232'
+source-wordcount: '4229'
 ht-degree: 89%
 
 ---
@@ -20,7 +20,7 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >
 >Das Target-Team unterstützt beide at.js 1.*x* und at.js 2.*x*. Führen Sie ein Upgrade auf die neueste Aktualisierung einer der beiden Hauptversionen von at.js durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch ist die bevorzugte Methode zum Aktualisieren von at.js. Erweiterungsentwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Aktualisierungen werden in neuen Versionen einer Erweiterung zusammengefasst und im Katalog [!DNL Launch] als Aktualisierungen verfügbar gemacht. Weitere Informationen finden Sie unter [Erweiterungs-Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) im *Experience Platform Launch-Benutzerhandbuch*.
+>[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch ist die bevorzugte Methode zum Aktualisieren von at.js. Erweiterungsentwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Aktualisierungen werden in neuen Versionen einer Erweiterung zusammengefasst und im Katalog [!DNL Launch] als Aktualisierungen verfügbar gemacht. Weitere Informationen finden Sie unter [Erweiterungs-Upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) im Handbuch *Tags - Übersicht* .
 
 ## at.js 2.6.1 (16. August 2021)
 
