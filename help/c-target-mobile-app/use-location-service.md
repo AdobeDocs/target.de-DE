@@ -1,24 +1,23 @@
 ---
-keywords: mobile App;Position mobiler Apps;Mobil-App;Zielgruppe-App;Orte mobiler Zielgruppen;Standortdienst;adobe-Experience Cloud-Standortdienst;Pois;Zielpunkte;SDK;Position;Position
-description: Erfahren Sie, wie Sie mit dem Adobe Experience Platform Location Service Ihre mobilen Apps mit Standortbewusstsein aktivieren.
+keywords: mobile App; Ort der mobilen App; Targeting mobiler Apps; mobile Zielstandorte; Standortdienst; Adobe Experience Cloud-Standortdienst; POI; Zielpunkte; SDK; Standort
+description: Erfahren Sie, wie Sie mit dem Adobe Experience Platform Location Service Ihre Apps mit Standorterkennung aktivieren können.
 title: Wie verwende ich den Adobe Location Service?
-feature: Implement Mobile
+feature: Mobile implementieren
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 130d78e6-f361-4e8a-aa0e-f31bfd6b4dfa
+source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 0%
+source-wordcount: '178'
+ht-degree: 1%
 
 ---
 
+# Verwenden des Standortdienstes
 
-# Standortdienst verwenden
+Der Standort ist ein wichtiger Kontext für das Verständnis und die Interaktion mit mobilen Benutzern. In diesem Kontext können Entwickler mobiler Apps das App-Design verbessern und es zu einem personalisierteren und ansprechenderen Erlebnis machen.
 
-Der Standort ist ein wichtiger Kontext für das Verständnis und die Interaktion mit mobilen Benutzern. In diesem Kontext können Entwickler mobiler Apps den App-Entwurf verbessern und ihn zu einem personalisierteren und ansprechenderen Erlebnis machen.
+[!DNL Adobe Experience Platform Location Service] ([!DNL Location Service]) ist ein Standortdienst, mit dem mobile Apps mit Standorterkennung den Standortkontext verstehen können. Dazu werden umfangreiche und benutzerfreundliche SDK-Schnittstellen sowie eine flexible Datenbank mit Zielpunkten (POIs) verwendet.
 
-Adobe Experience Platform Location Service (Location Service) ist ein Geo-Location-Service, mit dem mobile Apps mit Standortbewusstsein den Standortkontext verstehen können. Dazu werden umfangreiche und benutzerfreundliche SDK-Schnittstellen sowie eine flexible Datenbank mit POIs (Points of Interest) verwendet.
+Sie können [!DNL Location Service] mit [!DNL Target] verwenden, um Regeln mit [Tags in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) zu nutzen, um Ihre Places-Daten an Ihre [!DNL Adobe Target]-SDK-Ereignisse anzuhängen.
 
-Sie können den Location Service mit Zielgruppe verwenden, um die Regeln in [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) zu nutzen, um Ihre Ortsdaten an Ihre Adobe Target SDK-Ereignis anzuhängen.
-
-Weitere Informationen finden Sie unter [Standortdienst mit Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) im Handbuch [Adobe Experience Platform-Standortdienst](https://experienceleague.adobe.com/docs/places/using/home.html).
+Weitere Informationen finden Sie unter [Verwenden des Standortdienstes mit Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) im Handbuch [Adobe Experience Platform Location Service](https://experienceleague.adobe.com/docs/places/using/home.html).
