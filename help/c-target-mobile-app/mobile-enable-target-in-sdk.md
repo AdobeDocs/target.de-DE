@@ -1,23 +1,22 @@
 ---
 keywords: mobile App; mobile app sdk; Targeting mobiler Apps; mobile target sdk; mobile app sdk; target in sdk aktivieren
-description: Erfahren Sie, wie Sie das Adobe Mobile Services SDK zu Ihrer mobilen App hinzufügen.
+description: Erfahren Sie, wie Sie die Adobe Mobile Services SDK zu Ihrer App hinzufügen.
 title: Wie aktiviere ich [!DNL Target] im Adobe Mobile SDK?
 feature: Mobile implementieren
 role: Developer
 exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 79%
 
 ---
 
-# [!DNL Target] im SDK aktivieren
+# Aktivieren Sie [!DNL Target] im SDK
 
 Fügen Sie Ihrer Anwendung das Adobe Mobile Services SDK hinzu.
 
-1. Wenn Sie das Adobe Mobile Services SDK nicht in Ihrer App installiert haben, verwenden Sie Ihre Analytics- oder Experience Cloud-Anmeldeinformationen und laden Sie das SDK von der [Adobe Mobile Services](https://mobilemarketing.adobe.com)-Website herunter.
+1. Wenn Sie das Adobe Mobile Services SDK nicht in Ihrer App installiert haben, verwenden Sie Ihre Analytics- oder Experience Cloud-Anmeldeinformationen und laden Sie das SDK von der [Adobe Mobile Services](https://mobilemarketing.adobe.com/)-Website herunter.
 
 1. Fügen Sie Ihrer Anwendung das Adobe Mobile Services SDK hinzu.
 
@@ -27,7 +26,7 @@ Fügen Sie Ihrer Anwendung das Adobe Mobile Services SDK hinzu.
 
    Öffnen Sie „Mobile Services“ in der Experience Cloud und navigieren Sie zu **[!UICONTROL App-Einstellungen verwalten]** > **[!UICONTROL SDK-Target-Optionen]**.
 
-   Fügen Sie Kunden-Code und Zeitüberschreitung für Target hinzu. Der Kunden-Code ist ein eindeutiger Code für Ihr Konto oder Unternehmen. Die Zeitüberschreitung ist die Dauer in Anzahl der Sekunden, die Target auf eine Antwort wartet, bevor der Standardinhalt angezeigt wird. Stellen Sie sicher, dass Sie die Option **[!UICONTROL HTTPS verwenden]** auf der Seite „App-Einstellungen verwalten“ in Adobe Mobile Services aktiviert haben. Wenn HTTPS nicht aktiviert ist, werden alle Aufrufe in iOS9+ blockiert, es sei denn, Sie führen eine Zulassungsliste des Zielgruppe-Servers durch.
+   Fügen Sie Kunden-Code und Zeitüberschreitung für Target hinzu. Der Kunden-Code ist ein eindeutiger Code für Ihr Konto oder Unternehmen. Die Zeitüberschreitung ist die Dauer in Anzahl der Sekunden, die Target auf eine Antwort wartet, bevor der Standardinhalt angezeigt wird. Stellen Sie sicher, dass Sie die Option **[!UICONTROL HTTPS verwenden]** auf der Seite „App-Einstellungen verwalten“ in Adobe Mobile Services aktiviert haben. Wenn HTTPS nicht aktiviert ist, werden alle Aufrufe ab iOS9 blockiert, es sei denn, Sie haben eine Zulassungsliste des Target-Servers vorgenommen.
 
    ![](assets/mobile-clientcode.png)
 
