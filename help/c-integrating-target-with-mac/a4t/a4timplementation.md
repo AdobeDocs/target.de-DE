@@ -4,7 +4,7 @@ description: Führen Sie die erforderlichen Schritte aus, um Analytics für [!DN
 title: Wie implementiere ich Analytics für [!DNL Target] (A4T)?
 feature: 'Analytics for Target (A4T) '
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 23%
@@ -29,7 +29,7 @@ Die Benutzerkontoanforderungen müssen erfüllt sein, bevor Sie eine Aktivität 
 
 ### Schritt 3: Erstellen einer Edge-Konfiguration
 
-Erstellen Sie eine Edge-Konfiguration mit [!DNL Adobe Experience Platform Launch] mithilfe des Edge-Konfigurationstools. Konfigurieren Sie die [[!DNL Analytics] and [!DNL Target] Edge-Konfigurationseinstellungen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
+Erstellen Sie eine Edge-Konfiguration mit [!DNL Adobe Experience Platform] mithilfe des Edge-Konfigurationstools. Konfigurieren Sie die [[!DNL Analytics] and [!DNL Target] Edge-Konfigurationseinstellungen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
 
 ### Schritt 4: Installieren und Konfigurieren des Platform Web SDK
 
