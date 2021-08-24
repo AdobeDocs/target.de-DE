@@ -5,10 +5,10 @@ title: Was sind häufige Fragen und Antworten zu at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 74%
+source-wordcount: '2543'
+ht-degree: 76%
 
 ---
 
@@ -89,7 +89,7 @@ In at.js 1.0.0 kann die Target-Bibliothek asynchron geladen werden.
 
 So laden Sie at.js asynchron:
 
-* Der empfohlene Ansatz erfolgt über [!DNL Adobe Experience Platform Launch]. Weitere Informationen finden Sie in der Lektion [Hinzufügen von Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html) im Tutorial [Implementieren des Experience Cloud in Websites mit Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html) .
+* Der empfohlene Ansatz erfolgt über -Tags in [!DNL Adobe Experience Platform].
 * Sie können at.js auch asynchron laden, indem Sie dem Skript-Tag zum Laden von at.js das asynchrone Attribut hinzufügen. Verwenden Sie etwa Folgendes:
 
    ```
@@ -109,7 +109,7 @@ Das asynchrone Laden von at.js eignet sich hervorragend, um zu verhindern, dass 
 
 Sie können ein Flackern verhindern, indem Sie einen vorab ausgeblendeten Ausschnitt verwenden, der die Seite (oder bestimmte Teile) ausblendet und ihn dann nach at.js einblendet und die globale Anforderung geladen hat. Der Ausschnitt muss vor dem Laden von at.js hinzugefügt werden.
 
-Wenn Sie at.js über eine asynchrone Launch-Implementierung bereitstellen, stellen Sie sicher, dass Sie das vor-ausgeblendete Snippet direkt auf Ihren Seiten vor dem Launch-Einbettungscode einfügen, wie im Abschnitt [Hinzufügen des vor-ausgeblendeten Snippets für Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) im Tutorial [Implementieren des Experience Cloud in Websites mit Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html) beschrieben.
+Wenn Sie at.js über eine asynchrone [!DNL Adobe Experience Platform] -Implementierung bereitstellen, stellen Sie sicher, dass Sie das vor-ausgeblendete Snippet direkt auf Ihren Seiten einfügen, bevor Sie [!DNL Target] mit [!DNL Adobe Experience Platform] -Einbettungscode implementieren.
 
 Wenn Sie at.js über eine synchrone DTM-Implementierung bereitstellen, kann das vor-ausgeblendete Snippet über eine Seitenladeregel hinzugefügt werden, die oben auf der Seite ausgelöst wird.
 
