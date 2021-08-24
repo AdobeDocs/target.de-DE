@@ -1,35 +1,39 @@
 ---
 keywords: implementieren;at.js;JavaScript-Bibliothek
-description: Erfahren Sie, wie Sie die JavaScript-Bibliothek "Adobe [!DNL Target] at.js"mit Adobe Experience Platform Launch oder ohne Tag-Manager bereitstellen.
+description: Erfahren Sie, wie Sie die JavaScript-Bibliothek Adobe [!DNL Target] at.js mithilfe von Adobe Experience Platform Launch oder ohne Tag-Manager bereitstellen.
 title: Wie stelle ich at.js bereit?
-feature: Serverseitige Implementierung
+feature: Serverseitig implementieren
 role: Developer
 exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 32%
+source-wordcount: '288'
+ht-degree: 6%
 
 ---
 
 # Implementieren von „at.js“
 
-Informationen zum Bereitstellen der Adobe Target JavaScript-Bibliothek &quot;at.js&quot;mit Adobe Experience Platform Launch oder ohne Tag-Manager.
+Informationen zum Bereitstellen der JavaScript-Bibliothek [!DNL Adobe Target] &quot;at.js&quot;mithilfe von Tags in [!DNL Adobe Experience Platform] oder ohne Tag-Manager.
 
 Sie können at.js mithilfe der folgenden Methoden bereitstellen:
 
-* **[ [!DNL Target] Implementieren von mithilfe von [!DNL Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**: Launch ist die Tag-Management-Plattform der nächsten Generation von Adobe und die bevorzugte Methode zur Implementierung von Adobe Target. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind.
-* **[Zielgruppe ohne Tag-Manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)** implementieren: Sie können Zielgruppen ohne Verwendung eines Tag-Managers implementieren ([!DNL Platform Launch]).
-* **Implementieren Sie die Zielgruppe mit einem Drittanbieter-Tag-Manager**:  [Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis ist die bevorzugte Methode zur Implementierung der Zielgruppe. Sie können die Zielgruppe jedoch auch mit einem Drittanbieter-Tag-Manager implementieren, z. B. Tealium, Ensighten, Google Tag usw. Eine Liste der Vorteile der Verwendung von Launch finden Sie unter [Vorteile der Implementierung von at.js mit der Zielgruppe Launch Extension](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304).
+* **[ [!DNL Target] Implementieren mit Tags in [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**: Tags in  [!DNL Adobe Experience Platform] sind die nächste Generation von Tag-Management-Funktionen von  [!DNL Adobe]. Mit Tags können Kunden die Analyse-, Marketing- und Werbe-Tags bereitstellen und verwalten, die für relevante Kundenerlebnisse erforderlich sind.
 
-   Wenn Sie jedoch wissen, wie [!DNL Target] ohne Tag-Manager implementiert werden kann, können Sie diese problemlos mit einem Drittanbieter-Tag-Manager implementieren, anstatt at.js im Site-Code fest zu kodieren.
+   >[!NOTE]
+   >
+   >[!DNL Adobe Experience Platform Launch] wurde als Suite von Datenerfassungstechnologien in  [!DNL Adobe Experience Platform]umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen eingeführt. Eine konsolidierte Übersicht der terminologischen Änderungen finden Sie im folgenden [Dokument](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) .
 
-   Im Folgenden finden Sie zwei wichtige Themen, die Ihnen bei der Implementierung der Zielgruppe mit einem Drittanbieter-Tag-Manager helfen:
+* **[Implementieren von Target ohne einen Tag-Manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)**: Sie können Target ohne Verwendung eines Tag-Managers implementieren (z. B. Tags in  [!DNL Adobe Experience Platform]).
+* **Implementieren Sie Target mit einem Drittanbieter-Tag-Manager**:  [Tags  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) sind die bevorzugte Methode zur Implementierung von Target. Sie können Target jedoch auch mit einem Drittanbieter-Tag-Manager implementieren, einschließlich Tealium, Ensighten und Google Tag. Eine Liste der Vorteile der Verwendung von Launch finden Sie unter [Vorteile der Implementierung von at.js mit der  [!DNL Adobe Target] Erweiterung](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304).
+
+   Wenn Sie jedoch wissen, wie Sie [!DNL Target] ohne Tag-Manager implementieren können, können Sie einfach mit einem Drittanbieter-Tag-Manager implementieren, anstatt at.js im Site-Code fest zu codieren.
+
+   Im Folgenden finden Sie zwei wichtige Themen, die Ihnen bei der Implementierung von [!DNL Target] mit einem Drittanbieter-Tag-Manager helfen:
 
    * [Vor der Implementierung](/help/c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
-   * [Implementieren von Target ohne einen Tag-Manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
+   * [Implementieren [!DNL Target] ohne Tag-Manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
 
-   Überprüfen Sie unbedingt die Dokumentation für Ihren Tag-Manager von Drittanbietern, um weitere Informationen zu erhalten.
+   Weitere Informationen finden Sie in der Dokumentation für Ihren Drittanbieter-Tag-Manager.
 
-Informationen zur Implementierung von Target bei Verwendung von Einzelseiten-Apps (SPAs) finden Sie unter [Implementierung von Einzelseiten-Apps](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Informationen zur Implementierung von [!DNL Target] bei Verwendung von Einzelseiten-Apps (SPA) finden Sie unter [Implementierung von Einzelseiten-Apps](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
