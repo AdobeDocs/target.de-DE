@@ -5,10 +5,10 @@ title: Was sind Unternehmensbenutzerberechtigungen und wie verwende ich sie?
 feature: Administration und Konfiguration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 60%
+source-wordcount: '3020'
+ht-degree: 59%
 
 ---
 
@@ -42,7 +42,7 @@ Die folgenden Begriffe werden in diesem Abschnitt verwendet und sind möglicherw
 
 ### Eigenschaft
 
-Eigenschaften ähneln den Eigenschaften in [!DNL Adobe Platform Launch] insofern, als sie einen eindeutigen Codeausschnitt verwenden, um sie zu unterscheiden.
+Eigenschaften ähneln den Eigenschaften in [!DNL Adobe Experience Platform] insofern, als sie einen eindeutigen Codeausschnitt verwenden, um sie zu unterscheiden.
 
 Eine Webeigenschaft besteht aus einer Bibliothek von Regeln und einem Einbettungscode. Es kann sich bei einer Webeigenschaft um eine beliebige Gruppierung einer oder mehrerer Domänen bzw. Subdomänen handeln.
 
@@ -265,7 +265,7 @@ Aktivitäten, die vor der Migration angelegt wurden, laufen im Standardarbeitsbe
 
 ### Warum wird eine Fehlermeldung angezeigt, die besagt, dass keine Eigenschaft mit dieser Aktivität verknüpft ist, auch wenn eine Eigenschaft zugewiesen ist?
 
-Wenn Sie [!DNL Target] mit [!DNL Adobe Experience Platform Launch] implementiert haben und die Fehlermeldung erhalten, dass der Aktivität keine Eigenschaft zugeordnet ist, geben Sie den Parameter `at_property` mit der Funktion `targetPageParams` an.
+Wenn Sie [!DNL Target] mit Tags in [!DNL Adobe Experience Platform] implementiert haben und eine Fehlermeldung mit dem Hinweis erhalten, dass keine Eigenschaft mit der Aktivität verknüpft ist, übergeben Sie den Parameter `at_property` mit der Funktion `targetPageParams` .
 
 ### Werden Klick-Track-Konversionen aufgezeichnet, wenn eine Umleitungsseite und die Aktivitäts-URL zu unterschiedlichen Präsenzen gehören?
 
