@@ -4,9 +4,9 @@ description: Zeigen Sie die Details zu den Änderungen in den einzelnen Versione
 title: Was ist in jeder Version von at.js enthalten?
 feature: at.js
 role: Developer
-source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '4229'
+source-wordcount: '4228'
 ht-degree: 89%
 
 ---
@@ -20,7 +20,7 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >
 >Das Target-Team unterstützt beide at.js 1.*x* und at.js 2.*x*. Führen Sie ein Upgrade auf die neueste Aktualisierung einer der beiden Hauptversionen von at.js durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch ist die bevorzugte Methode zum Aktualisieren von at.js. Erweiterungsentwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Aktualisierungen werden in neuen Versionen einer Erweiterung zusammengefasst und im Katalog [!DNL Launch] als Aktualisierungen verfügbar gemacht. Weitere Informationen finden Sie unter [Erweiterungs-Upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) im Handbuch *Tags - Übersicht* .
+>Tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) sind die bevorzugte Methode zum Aktualisieren von at.js. Erweiterungsentwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Aktualisierungen werden in neuen Versionen einer Erweiterung zusammengefasst und im Katalog [!DNL Adobe Experience Platform] als Aktualisierungen verfügbar gemacht. Weitere Informationen finden Sie unter [Erweiterungs-Upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) im Handbuch *Tags - Übersicht* .
 
 ## at.js 2.6.1 (16. August 2021)
 
@@ -50,7 +50,7 @@ Mit dieser Version endet auch die Unterstützung für Microsoft Internet Explore
 Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
 * Es wurde ein Problem behoben, bei dem `targetPageParams` in Mbox-Anfragen enthalten waren. `targetPageParams` sollten nur in `pageLoad`-Anfragen enthalten sein. (TNT-40247)
-* Optimierte Fenster- und Dokumentglobal-Verweise in der Erweiterung [!DNL Adobe Experience Platform Launch]. (TNT-37124)
+* Optimierte Fenster- und Dokumentglobal-Verweise in der Erweiterung [!DNL Adobe Experience Platform]. (TNT-37124)
 
 ## at.js 2.4.0 (14. Januar 2021)
 
@@ -83,7 +83,7 @@ Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterunge
 
 * Die Einstellung `deviceIdLifetime` kann nun mit [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) überschrieben werden. (TNT-36349)
 * Ein Problem wurde behoben, dass dazu führte, dass at.js 2.*x* bei Verwendung von CNAME und eines Edge-Override die Serverdomäne nicht korrekt erstellte, wodurch die [!DNL Target]-Anforderung fehl schlug. (TNT-35065)
-* Ein Problem wurde behoben, dass dazu führte, dass [!DNL Target] bei Verwendung von [!DNL Target] [!DNL Launch] Extension v2 und der [!DNL Adobe Analytics] [!DNL Launch]-Erweiterung den [!DNL Analytics]-Aufruf `sendBeacon` verzögerte. (TNT-36407, TNT-35990, TNT-36000)
+* Ein Problem wurde behoben, dass dazu führte, dass [!DNL Target] bei Verwendung von [!DNL Adobe Analytics]  Extension v2 und der [!DNL Launch] [!DNL Target]-Erweiterung den [!DNL Analytics]-Aufruf `sendBeacon` verzögerte. (TNT-36407, TNT-35990, TNT-36000)
 
 ## at.js-Version 2.3.0 (25. März 2020)
 
@@ -110,7 +110,7 @@ Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen
 
    >[!NOTE]
    >
-   >Aktualisieren Sie Ihre ECID Launch-Erweiterung auf Version 4.4, um diese Leistungsverbesserung nutzen zu können.
+   >Aktualisieren Sie Ihre ECID-Erweiterung auf Version 4.4, um diese Leistungsverbesserung nutzen zu können.
 
 * at.js , Version 2.2 bietet außerdem eine neue Einstellung namens `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration von Target implementiert wird. Hybrid-Integration bedeutet, dass Sie zur Bereitstellung Ihrer Erlebnisse sowohl at.js v2.2+ auf der Client-Seite als auch die Bereitstellungs-API oder ein Target-SDK auf der Server-Seite verwenden. `serverState` ermöglicht at.js v2.2+, Erlebnisse direkt aus Inhalten anzuwenden, die auf Serverseite abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben wurden. Weitere Informationen finden Sie unter „serverState“ in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
@@ -123,7 +123,7 @@ Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen
 
 >[!NOTE]
 >
->Aktualisieren Sie Ihre ECID Launch-Erweiterung auf Version 4.4, um diese Leistungsverbesserung nutzen zu können.
+>Aktualisieren Sie Ihre ECID-Erweiterung auf Version 4.4, um diese Leistungsverbesserung nutzen zu können.
 
 ## at.js Version 2.1.1 (24. Juli 2019)
 
