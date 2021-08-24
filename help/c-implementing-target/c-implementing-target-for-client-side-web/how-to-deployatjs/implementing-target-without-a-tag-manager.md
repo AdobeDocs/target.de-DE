@@ -5,10 +5,10 @@ title: Kann ich [!DNL Target] ohne einen Tag-Manager implementieren?
 feature: Serverseitig implementieren
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 52%
+source-wordcount: '1674'
+ht-degree: 53%
 
 ---
 
@@ -117,10 +117,10 @@ Anleitung zum Herunterladen der Bibliothek über die [!DNL Target]-Schnittstelle
 
 >[!NOTE]
 >
->* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launch ist die bevorzugte Methode zur Implementierung von Target und der at.js-Bibliothek. Die folgenden Informationen gelten nicht für die Verwendung von Adobe Platform launch zur Implementierung von Target.
+>* [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ist die bevorzugte Methode zur Implementierung  [!DNL Target] und der at.js-Bibliothek. Die folgenden Informationen sind nicht verfügbar, wenn Tags in [!DNL Adobe Experience Platform] zur Implementierung von [!DNL Target] verwendet werden.
    >
    >
-* Das Target-Team unterstützt beide at.js 1.*x* und at.js 2.*x*. Führen Sie ein Upgrade auf die neueste Aktualisierung einer der beiden Hauptversionen von at.js durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen zu den Funktionen in den einzelnen Versionen finden Sie unter [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+* Das [!DNL Target]-Team unterstützt beide at.js 1.*x* und at.js 2.*x*. Führen Sie ein Upgrade auf die neueste Aktualisierung einer der beiden Hauptversionen von at.js durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen zu den Funktionen in den einzelnen Versionen finden Sie unter [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
 ### Laden Sie at.js über die [!DNL Target]-Benutzeroberfläche herunter {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ So laden Sie [!DNL at.js] mithilfe der API herunter.
 
 at.js sollte im `<head>`-Element jeder Seite Ihrer Website implementiert werden.
 
-Eine typische Implementierung von Target ohne Verwendung eines Tag-Managers wie [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) sieht wie folgt aus:
+Eine typische Implementierung von Target ohne Verwendung eines Tag-Managers, z. B. Tags in [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25), sieht wie folgt aus:
 
 ```
 <!doctype html> 
