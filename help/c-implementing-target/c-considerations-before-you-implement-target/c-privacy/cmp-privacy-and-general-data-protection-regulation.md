@@ -5,10 +5,10 @@ title: Wie geht [!DNL Target] mit Datenschutzbestimmungen um?
 feature: Datenschutz und Sicherheit
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2ee87e2c6e8bbdb62eedf709e6454a0467197749
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2204'
-ht-degree: 56%
+source-wordcount: '2195'
+ht-degree: 55%
 
 ---
 
@@ -51,9 +51,9 @@ Wenn Sie im vergangenen Jahr damit beschäftigt waren, sich auf das europäische
 >
 >Der Zugriff auf und das Löschen von Daten, da sie für den CCPA gelten, folgt demselben Prozess wie für die DSGVO.
 
-## Adobe [!DNL Target] und [!DNL Adobe Experience Platform Launch] Opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe [!DNL Target] und [!DNL Adobe Experience Platform] Opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] unterstützt die Opt-in-Funktionalität über [!DNL Platform Launch] und hilft Ihnen bei der Einwilligungsverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Platform Launch] zur Vorab-Genehmigung des [!DNL Target]-Tags. Um die Opt-in-Funktion in der [!DNL Target]-at.js-Bibliothek zu aktivieren, sollten Sie `targetGlobalSettings` benutzen und die Einstellung `optinEnabled=true` hinzufügen. Wählen Sie in [!DNL Platform Launch] in der Dropdownliste [!UICONTROL DSGVO-Opt-in] in der Installationsansicht der Erweiterung [!DNL Platform Launch] die Option &quot;Aktivieren&quot;. Weitere Informationen finden Sie in der [Platform launch-Dokumentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
+[!DNL Target] bietet Opt-in-Funktionalität über Tags in,  [!DNL Adobe Experience Platform] um Ihre Einwilligungsverwaltung zu unterstützen. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Adobe Experience Platform] zur Vorab-Genehmigung des [!DNL Target]-Tags. Um die Opt-in-Funktion in der [!DNL Target]-at.js-Bibliothek zu aktivieren, sollten Sie `targetGlobalSettings` benutzen und die Einstellung `optinEnabled=true` hinzufügen. Wählen Sie in [!DNL Adobe ExperiencePlatform] in der Dropdown-Liste [!UICONTROL DSGVO-Opt-in] in der Installationsansicht der Erweiterung die Option &quot;Aktivieren&quot;. Weitere Informationen finden Sie unter [Implementieren [!DNL Target] Verwenden von [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
 
 Im folgenden Code-Snippet wird gezeigt, wie Sie die `optinEnabled=true`-Einstellung aktivieren:
 
@@ -67,13 +67,13 @@ window.targetGlobalSettings = {
 >
 >Die Opt-in-Funktionalität wird in at.js-Version 1.7.0 und at.js 2.1.0 oder höher unterstützt. Die Opt-in-Funktion wird nicht in at.js-Version 2.0.0 und 2.0.1 unterstützt.
 >
->Es wird empfohlen, zur Verwaltung von Opt-ins [!DNL Platform Launch] zu verwenden. In [!DNL Platform Launch] gibt es eine weitere detaillierte Steuerung, um ausgewählte Elemente Ihrer Seite vor der [!DNL Target]-Auslösung auszublenden. Dies ist hilfreich bei der Verwendung im Rahmen Ihrer Einwilligungsstrategie.
+>Es wird empfohlen, zur Verwaltung von Opt-ins [!DNL Adobe Experience Platform] zu verwenden. In [!DNL Adobe Experience Platform] gibt es eine weitere detaillierte Steuerung, um ausgewählte Elemente Ihrer Seite vor der [!DNL Target]-Auslösung auszublenden. Dies ist hilfreich bei der Verwendung im Rahmen Ihrer Einwilligungsstrategie.
 
 In Verbindung mit dem Opt-in gibt es drei Szenarien:
 
-1. **[!DNL Target]-Tag wird vorab über [!DNL Platform Launch] genehmigt (oder die betroffene Person hat zuvor [!DNL Target]genehmigt):** Das [!DNL Target]-Tag wird nicht für die Einwilligung gespeichert und funktioniert wie erwartet.
+1. **[!DNL Target]-Tag wird vorab über [!DNL Adobe Experience Platform] genehmigt (oder die betroffene Person hat zuvor [!DNL Target]genehmigt):** Das [!DNL Target]-Tag wird nicht für die Einwilligung gespeichert und funktioniert wie erwartet.
 1. **Das [!DNL Target]-Tag wird NICHT vorab genehmigt und `bodyHidingEnabled` ist FALSE:** Das [!DNL Target]-Tag wird erst ausgelöst, wenn die Einwilligung vom Kunden eingeholt wurde. Bevor die Einwilligung eingeholt wird, ist nur der Standardinhalt verfügbar. Nachdem die Einwilligung eingeholt wurde, wird [!DNL Target] aufgerufen und der personalisierte Inhalt wird der betroffenen Person (Besucher) zur Verfügung gestellt. Da vor der Zustimmung nur Standardinhalte verfügbar sind, ist es wichtig, eine geeignete Strategie zu verwenden, z. B. eine Begrüßungsseite, die einen beliebigen Teil der Seite oder Inhalte abdeckt, die möglicherweise personalisiert sind. Dadurch wird sichergestellt, dass das Erlebnis für die betroffene Person (den Besucher) konsistent bleibt.
-1. **Das [!DNL Target]-Tag wird NICHT vorab genehmigt und `bodyHidingEnabled` ist TRUE:** Das [!DNL Target]-Tag wird erst ausgelöst, wenn die Einwilligung vom Kunden eingeholt wurde. Bevor die Einwilligung eingeholt wird, ist nur der Standardinhalt verfügbar. Da jedoch `bodyHidingEnabled` auf TRUE festgelegt ist, bestimmt `bodyHiddenStyle`, welcher Inhalt auf der Seite ausgeblendet wird, bis das [!DNL Target]-Tag ausgelöst wird (oder die betroffene Person den Opt-in ablehnt, woraufhin der Standardinhalt angezeigt wird). Standardmäßig ist `bodyHiddenStyle` auf `body { opacity:0;}` gesetzt, wodurch das HTML-Body-Tag ausgeblendet wird. Die von der Adobe empfohlene Seitenkonfiguration ist unten so festgelegt, dass der gesamte Hauptteil der Seite, mit Ausnahme des Dialogfelds des Zustimmungsverwalters, ausgeblendet wird, indem der Seiteninhalt in einen Container und das Dialogfeld des Zustimmungsverwalters in einen separaten Container eingefügt werden. Mit diesem Setup wird [!DNL Target] so konfiguriert, dass nur der Container mit dem Seiteninhalt ausgeblendet wird. Weitere Informationen zur Konfiguration dieser Einstellungen finden Sie in der [Platform launch-Dokumentation .](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)
+1. **Das [!DNL Target]-Tag wird NICHT vorab genehmigt und `bodyHidingEnabled` ist TRUE:** Das [!DNL Target]-Tag wird erst ausgelöst, wenn die Einwilligung vom Kunden eingeholt wurde. Bevor die Einwilligung eingeholt wird, ist nur der Standardinhalt verfügbar. Da jedoch `bodyHidingEnabled` auf TRUE festgelegt ist, bestimmt `bodyHiddenStyle`, welcher Inhalt auf der Seite ausgeblendet wird, bis das [!DNL Target]-Tag ausgelöst wird (oder die betroffene Person den Opt-in ablehnt, woraufhin der Standardinhalt angezeigt wird). Standardmäßig ist `bodyHiddenStyle` auf `body { opacity:0;}` gesetzt, wodurch das HTML-Body-Tag ausgeblendet wird. Die von der Adobe empfohlene Seitenkonfiguration ist unten so festgelegt, dass der gesamte Hauptteil der Seite, mit Ausnahme des Dialogfelds des Zustimmungsverwalters, ausgeblendet wird, indem der Seiteninhalt in einen Container und das Dialogfeld des Zustimmungsverwalters in einen separaten Container eingefügt werden. Mit diesem Setup wird [!DNL Target] so konfiguriert, dass nur der Container mit dem Seiteninhalt ausgeblendet wird. Siehe [Übersicht über Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).
 
    Die empfohlene Seitenkonfiguration für Szenario 3 lautet wie folgt:
 
@@ -145,9 +145,9 @@ Die DSGVO und der CCPA ändern sich nicht, wann Sie die Einwilligung einholen m�
 
 [!DNL Adobe] bietet zurzeit keine Lösung zur Verwaltung von Einwilligungen. Auf dem Markt werden jedoch verschiedene Tools entwickelt, durch die einige der neuen Anforderungen abgedeckt werden. Weitere Informationen zu Datenschutztools im Allgemeinen, einschließlich Tools für die Einwilligungsverwaltung, finden Sie im [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) auf der Website *International Association of Privacy Professionals (iaap)* .
 
-[!DNL Target] bietet Opt-in-Funktionalität über  [!DNL Platform Launch] zur Unterstützung Ihrer Einwilligungsverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Platform Launch] zur Vorab-Genehmigung des [!DNL Target]-Tags. Es wird empfohlen, zur Verwaltung von Opt-ins [!DNL Platform Launch] zu verwenden. In [!DNL Platform Launch] gibt es eine weitere detaillierte Steuerung, um ausgewählte Elemente Ihrer Seite vor der [!DNL Target]-Auslösung auszublenden. Dies kann hilfreich sein, wenn Sie diese im Rahmen Ihrer Einwilligungsstrategie verwenden.
+[!DNL Target] bietet Opt-in-Funktionalität über  [!DNL Adobe Experience Platform] zur Unterstützung Ihrer Einwilligungsverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Adobe Experience Platform] zur Vorab-Genehmigung des [!DNL Target]-Tags. Es wird empfohlen, zur Verwaltung von Opt-ins [!DNL Adobe Experience Platform] zu verwenden. In [!DNL Adobe Experience Platform] gibt es eine weitere detaillierte Steuerung, um ausgewählte Elemente Ihrer Seite vor der [!DNL Target]-Auslösung auszublenden. Dies kann hilfreich sein, wenn Sie diese im Rahmen Ihrer Einwilligungsstrategie verwenden.
 
-Weitere Informationen zu DSGVO, CCPA und [!DNL Launch] finden Sie unter [Die Adobe Privacy JavaScript Library und die DSGVO](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en). Lesen Sie auch den Abschnitt *Adobe Target- und Adobe Launch-Opt-in*.
+Weitere Informationen zu DSGVO, CCPA und [!DNL Adobe Experience Platform] finden Sie unter [Die Adobe Privacy JavaScript Library und die DSGVO](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en). Weitere Informationen finden Sie oben im Abschnitt *Adobe Target und Adobe Experience Platform Opt-in* .
 
 ### Übermittelt `AdobePrivacy.js` Informationen an die DSGVO-API? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
