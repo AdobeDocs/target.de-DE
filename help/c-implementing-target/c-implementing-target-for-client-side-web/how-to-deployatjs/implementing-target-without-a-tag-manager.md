@@ -1,29 +1,28 @@
 ---
-keywords: Implementierung der Zielgruppe;Implementierung;Implementierung von at.js;Tag-Manager;Entscheidung auf dem Gerät;Geräteentscheidung
-description: Erfahren Sie, wie Sie die Einstellungen festlegen (Kontodetails, Implementierungsmethoden usw.) , um die Adobe [!DNL Target] at.js-Bibliothek ohne Verwendung eines Tag-Managers zu implementieren.
-title: Kann ich  [!DNL Target] ohne Tag-Manager implementieren?
-feature: Serverseitige Implementierung
+keywords: Target implementieren;Implementierung;at.js implementieren;Tag-Manager;On-Device Decisioning;bei Geräteentscheidungen
+description: Erfahren Sie, wie Sie die Einstellungen festlegen (Kontodetails, Implementierungsmethoden usw.). um die Adobe [!DNL Target] at.js-Bibliothek zu implementieren, ohne einen Tag-Manager zu verwenden.
+title: Kann ich [!DNL Target] ohne einen Tag-Manager implementieren?
+feature: Serverseitig implementieren
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
 workflow-type: tm+mt
-source-wordcount: '1687'
-ht-degree: 53%
+source-wordcount: '1682'
+ht-degree: 52%
 
 ---
 
 # [!DNL Target] ohne Tag-Manager implementieren
 
-Informationen zur Implementierung von [!DNL Adobe Target] ohne Verwendung eines Tag-Managers ([!DNL Adobe Experience Platform Launch]).
+Informationen zur Implementierung von [!DNL Adobe Target] ohne Verwendung eines Tag-Managers oder von Tags in [!DNL Adobe Experience Platform].
 
 >[!NOTE]
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis ist die bevorzugte Methode zum Implementieren von Zielgruppe und der at.js-Bibliothek. Die folgenden Informationen gelten nicht, wenn Adobe Platform launch zur Implementierung der Zielgruppe verwendet wird.
+>Tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ist die bevorzugte Methode zur Implementierung von [!DNL Target] und der at.js-Bibliothek. Die folgenden Informationen sind nicht verfügbar, wenn Tags in [!DNL Adobe Experience Platform] zur Implementierung von [!DNL Target] verwendet werden.
 
-Um die Seite [!UICONTROL Implementierung] aufzurufen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
+Um auf die Seite [!UICONTROL Implementierung] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
 
-Auf dieser Seite können Sie die folgenden Einstellungen festlegen:
+Sie können die folgenden Einstellungen auf dieser Seite angeben:
 
 * Kontodetails
 * Implementierungsmethoden
@@ -33,22 +32,22 @@ Auf dieser Seite können Sie die folgenden Einstellungen festlegen:
 
 >[!NOTE]
 >
->Sie können Einstellungen der „at.js“-Bibliothek überschreiben, anstatt die Einstellungen in der Oberfläche von Target Standard/Premium oder durch Verwendung von REST-APIs zu bearbeiten. Weitere Informationen finden Sie unter [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+>Sie können Einstellungen der at.js-Bibliothek überschreiben, anstatt die Einstellungen in der Oberfläche von [!DNL Target Standard/Premium] oder durch Verwendung von REST-APIs zu bearbeiten. Weitere Informationen finden Sie unter [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
 ## Kontodetails
 
-Die folgenden Kontodetails können Ansicht werden. Diese Einstellungen können nicht geändert werden.
+Sie können die folgenden Kontodetails anzeigen. Diese Einstellungen können nicht geändert werden.
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| [!UICONTROL Clientcode] | Der Clientcode ist eine clientspezifische Folge von Zeichen, die oft benötigt wird, wenn die Target-APIs zum Einsatz kommen. |
+| [!UICONTROL Clientcode] | Der Clientcode ist eine clientspezifische Folge von Zeichen, die oft benötigt wird, wenn die [!DNL Target]-APIs zum Einsatz kommen. |
 | [!UICONTROL IMS-Organisations-ID] | Diese ID ordnet Ihre Implementierung Ihrem [!DNL Adobe Experience Cloud]-Konto zu. |
-| [!UICONTROL Geräteinterne Entscheidungsfindung] | Schieben Sie den Umschalter an die Position &quot;Ein&quot;, um die Entscheidung auf dem Gerät zu aktivieren.<br>Mit der On-Device-Entscheidungsfindung können Sie Ihre A/B- und Erlebnis-Targeting (XT)-Kampagnen auf Ihrem Server zwischenspeichern und Speicherentscheidungen mit einer Latenz von nahezu null durchführen. Weitere Informationen finden Sie unter [Einführung in die geräteinterne Entscheidungsfindung](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) im Handbuch *Adobe Target SDKs*. |
-| [!UICONTROL Schließen Sie alle vorhandenen qualifizierten Aktivitäten für die geräteinterne Entscheidungsfindung in das Artefakt ein.] | (Bedingt) Diese Option wird angezeigt, wenn Sie die Geräteentscheidung aktivieren.<br>Schieben Sie den Umschalter an die &quot;An&quot;-Position, wenn alle Aktivitäten der Live-Zielgruppe, die für eine Geräteentscheidung infrage kommen, automatisch in das Artefakt aufgenommen werden sollen.<br>Wenn Sie diesen Umschalter deaktivieren, müssen Sie alle auf dem Gerät befindlichen Entscheidungsfunktionen neu erstellen und aktivieren, damit sie in das Artefakt der generierten Aktivitäten aufgenommen werden. |
+| [!UICONTROL On-Device Decisioning] | Um die Entscheidungsfindung auf dem Gerät zu aktivieren, schieben Sie den Umschalter in die Position &quot;Ein&quot;.<br>Mit der Entscheidungsfindung auf dem Gerät können Sie Ihre A/B- und  [!UICONTROL Erlebnis-Targeting] -Kampagnen (XT) auf Ihrem Server zwischenspeichern und speicherinterne Entscheidungen bei nahezu null Latenz treffen. Weitere Informationen finden Sie unter [Einführung in die On-Device-Entscheidungsfindung](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) im Handbuch *[!DNL Adobe Target]SDKs* . |
+| [!UICONTROL Schließen Sie alle vorhandenen Entscheidungsaktivitäten auf dem Gerät in das Artefakt ein.] | (Bedingt) Diese Option wird angezeigt, wenn Sie die Entscheidungsfindung auf dem Gerät aktivieren.<br>Schalten Sie den Umschalter in die &quot;Ein&quot;-Position, wenn Sie möchten, dass alle Ihre Live-Target-Aktivitäten, die für die Entscheidungsfindung auf dem Gerät geeignet sind, automatisch in das Artefakt einbezogen werden.<br>Wenn Sie diesen Umschalter deaktivieren, müssen Sie alle Entscheidungsaktivitäten auf dem Gerät neu erstellen und aktivieren, damit sie in das generierte Regelartefakt aufgenommen werden. |
 
 ## Implementierungsmethoden
 
-Die folgenden Einstellungen können im Bereich &quot;Implementierungsmethoden&quot;konfiguriert werden:
+Die folgenden Einstellungen können im Bereich Implementierungsmethoden konfiguriert werden:
 
 ### Globale Einstellungen
 
@@ -58,26 +57,26 @@ Die folgenden Einstellungen können im Bereich &quot;Implementierungsmethoden&qu
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| Seitenladung aktiviert (globale Mbox automatisch erstellen) | Wählen Sie aus, ob der globale Mbox-Aufruf in die Datei at.js integriert werden soll, damit er automatisch bei jedem Laden der Seite aktiviert wird. |
+| Seitenladeaktivierung (globale Mbox automatisch erstellen | Wählen Sie aus, ob der globale Mbox-Aufruf in die Datei at.js integriert werden soll, damit er automatisch bei jedem Laden der Seite aktiviert wird. |
 | Globale Mbox | Wählen Sie einen Namen für die globale Mbox aus. Der Standardname lautet target-global-mbox.<br>Sonderzeichen wie das kaufmännische Und (&amp;) können mit at.js für Mbox-Namen verwendet werden. |
-| Timeout (Sekunden) | Falls [!DNL Target] nicht innerhalb des festgelegten Zeitraums mit Inhalten antwortet, erfolgt ein Timeout für den Server-Aufruf und es werden Standardinhalte angezeigt. Während der Sitzung des Besuchers werden weiter Aufrufe durchgeführt. Der Standardwert liegt bei 5 Sekunden.<br>Die Bibliothek at.js verwendet die Timeout-Einstellung in `XMLHttpRequest`. Der Timeout beginnt, wenn die Anforderung ausgelöst wird, und endet, wenn [!DNL Target] eine Antwort von dem Server erhält. Weitere Informationen dazu finden Sie unter [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) im Mozilla Developer Network.<br>Tritt der festgelegte Timeout vor Erhalt der Antwort ein, wird dem Besucher ein Standardinhalt angezeigt, und der Besucher wird möglicherweise als Teilnehmer in einer Aktivität gezählt, da die gesamte Datenerfassung am [!DNL Target]-Edge erfolgt. Erreicht die Anforderung den [!DNL Target]-Edge, wird der Besucher gezählt.<br>Beim Konfigurieren der Timeout-Einstellung müssen Sie Folgendes beachten:<ul><li>Wenn der Wert zu niedrig ist, erhalten Besucher wahrscheinlich meist nur den Standardinhalt angezeigt, auch wenn sie möglicherweise als Teilnehmer in einer Aktivität gezählt werden.</li><li>Ist der Wert zu hoch, werden Besuchern unter Umständen leere Stellen auf Ihrer Webseite oder komplett leere Seiten angezeigt, falls Sie für längere Zeiträume Textausblendung einsetzen.</li></ul>Genaueres über Mbox-Antwortzeiten erfahren Sie auf der Registerkarte „Netzwerk“ in den Entwicklertools Ihres Browsers. Sie können auch Tools zur Überwachung der Webleistung einsetzen, die von Drittanbietern stammen, wie zum Beispiel Catchpoint.<br>**Hinweis:** Die Einstellung [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) stellt sicher, dass [!DNL Target] nicht zu lange auf die Antwort der Besucher-API wartet. Diese Einstellung und die hier beschriebene Timeout-Einstellung für at.js beeinflussen sich nicht gegenseitig. |
-| Profillebensdauer | Mit dieser Einstellung legen Sie fest, wie lange Besucherprofile gespeichert werden. Profile werden standardmäßig zwei Wochen lang gespeichert. Diese Einstellung kann auf bis zu 90 Tage erhöht werden.<br>Wenden Sie sich an den [Kundendienst](https://helpx.adobe.com/de/contact/enterprise-support.ec.html), wenn Sie die Profillebensdauer ändern möchten. |
+| Zeitüberschreitung (Sekunden) | Falls [!DNL Target] nicht innerhalb des festgelegten Zeitraums mit Inhalten antwortet, erfolgt ein Timeout für den Server-Aufruf und es werden Standardinhalte angezeigt. Während der Sitzung des Besuchers werden weiter Aufrufe durchgeführt. Der Standardwert liegt bei 5 Sekunden.<br>Die Bibliothek at.js verwendet die Timeout-Einstellung in `XMLHttpRequest`. Der Timeout beginnt, wenn die Anforderung ausgelöst wird, und endet, wenn [!DNL Target] eine Antwort von dem Server erhält. Weitere Informationen dazu finden Sie unter [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) im Mozilla Developer Network.<br>Tritt der festgelegte Timeout vor Erhalt der Antwort ein, wird dem Besucher ein Standardinhalt angezeigt, und der Besucher wird möglicherweise als Teilnehmer in einer Aktivität gezählt, da die gesamte Datenerfassung am [!DNL Target]-Edge erfolgt. Erreicht die Anforderung den [!DNL Target]-Edge, wird der Besucher gezählt.<br>Beim Konfigurieren der Timeout-Einstellung müssen Sie Folgendes beachten:<ul><li>Wenn der Wert zu niedrig ist, erhalten Besucher wahrscheinlich meist nur den Standardinhalt angezeigt, auch wenn sie möglicherweise als Teilnehmer in einer Aktivität gezählt werden.</li><li>Ist der Wert zu hoch, werden Besuchern unter Umständen leere Stellen auf Ihrer Webseite oder komplett leere Seiten angezeigt, falls Sie für längere Zeiträume Textausblendung einsetzen.</li></ul>Genaueres über Mbox-Antwortzeiten erfahren Sie auf der Registerkarte „Netzwerk“ in den Entwicklertools Ihres Browsers. Sie können auch Tools zur Überwachung der Webleistung einsetzen, die von Drittanbietern stammen, wie zum Beispiel Catchpoint.<br>**Hinweis:** Die Einstellung [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) stellt sicher, dass [!DNL Target] nicht zu lange auf die Antwort der Besucher-API wartet. Diese Einstellung und die hier beschriebene Timeout-Einstellung für at.js beeinflussen sich nicht gegenseitig. |
+| Profillebensdauer | Mit dieser Einstellung legen Sie fest, wie lange Besucherprofile gespeichert werden. Profile werden standardmäßig zwei Wochen lang gespeichert. Diese Einstellung kann auf 90 Tage erhöht werden.<br>Wenden Sie sich an den [Kundendienst](https://helpx.adobe.com/de/contact/enterprise-support.ec.html), wenn Sie die Profillebensdauer ändern möchten. |
 
 ### Wichtigste Implementierungsmethode
 
 >[!IMPORTANT]
 >
->Das Zielgruppe-Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
+>Das Target-Team unterstützt beide at.js 1.*x* und at.js 2.*x*. Führen Sie ein Upgrade auf die neueste Aktualisierung der beiden Hauptversionen von at.js durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 
-Um die gewünschte at.js-Version herunterzuladen, klicken Sie auf die entsprechende Schaltfläche **[!UICONTROL Herunterladen]**.
+Um die gewünschte at.js-Version herunterzuladen, klicken Sie auf die entsprechende Schaltfläche **[!UICONTROL Download]**.
 
-Um at.js-Einstellungen zu bearbeiten, klicken Sie auf **[!UICONTROL Bearbeiten]** neben der gewünschten at.js-Version.
+Um at.js-Einstellungen zu bearbeiten, klicken Sie neben der gewünschten at.js-Version auf **[!UICONTROL Bearbeiten]** .
 
 >[!IMPORTANT]
 >
->Bevor Sie diese Standardeinstellungen ändern, wenden Sie sich bitte an den [Kundendienst](/help/cmp-resources-and-contact-information.md), damit Sie keine Auswirkungen auf Ihre aktuelle Implementierung haben.
+>Wenden Sie sich vor Änderung dieser Standardeinstellungen an [Client Care](/help/cmp-resources-and-contact-information.md), damit Sie sich nicht auf Ihre aktuelle Implementierung auswirken.
 
-Zusätzlich zu den oben erläuterten Einstellungen stehen die folgenden spezifischen at.js-Einstellungen zur Verfügung:
+Zusätzlich zu den oben erläuterten Einstellungen sind auch die folgenden spezifischen at.js-Einstellungen verfügbar:
 
 | Einstellung | Beschreibung |
 |--- |--- |
@@ -92,52 +91,52 @@ Weitere Informationen finden Sie unter [Profil-API-Einstellungen](/help/c-implem
 
 ### Debugger-Tools
 
-Erstellen Sie ein Autorisierungstoken, um erweiterte Debuggingwerkzeuge zu verwenden. [!DNL Target] Klicken Sie auf **[!UICONTROL Neues Authentifizierungstoken erstellen]**.
+Generieren Sie ein Autorisierungstoken zur Verwendung erweiterter Debuggingwerkzeuge [!DNL Target]. Klicken Sie auf **[!UICONTROL Neues Authentifizierungstoken erstellen]**.
 
 ![Neues Authentifizierungstoken erstellen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 ### Datenschutz
 
-Mit diesen Einstellungen können Sie [!DNL Target] in Übereinstimmung mit den geltenden Datenschutzgesetzen verwenden.
+Mit diesen Einstellungen können Sie [!DNL Target] unter Einhaltung der geltenden Datenschutzgesetze verwenden.
 
-Wählen Sie die gewünschte Einstellung aus der Dropdown-Liste IP-Adresse des Besuchers verschleiern:
+Wählen Sie die gewünschte Einstellung aus der Dropdownliste Besucher-IP-Adresse verschleiern aus:
 
-* Verwirrung des letzten Oktetts
+* Verschleierung des letzten Oktetts
 * Gesamte IP-Verschleierung
 * Keine
 
-Weitere Informationen finden Sie unter  [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
+Weitere Informationen finden Sie unter [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
 
 >[!NOTE]
 >
->Die Option &quot;Unterstützung älterer Browser&quot;war in at.js Version 0.9.3 und früher verfügbar. Diese Option wurde in at.js, Version 0.9.4, entfernt. Eine Liste der von at.js unterstützten Browser finden Sie unter [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>Bei älteren Browsern handelt es sich in der Regel um alte Versionen, die CORS (Cross Origin Resource Sharing) nicht vollständig unterstützen. Solche Browser sind zum Beispiel alle Versionen von Internet Explorer vor Version 11 oder Safari Version 6 und ältere Versionen. Wenn die Unterstützung älterer Browser deaktiviert war, stellte Zielgruppe keine Inhalte bereit oder zählte keine Besucher in Berichten in diesen Browsern. Wenn diese Option aktiviert wurde, wird empfohlen, eine Qualitätssicherung in allen älteren Browsern durchzuführen, um eine gute Kundenerfahrung sicherzustellen.
+>Die Option Unterstützung älterer Browser war in at.js , Version 0.9.3 und älter verfügbar. Diese Option wurde in at.js, Version 0.9.4, entfernt. Eine Liste der von at.js unterstützten Browser finden Sie unter [Unterstützte Browser](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>Bei älteren Browsern handelt es sich in der Regel um alte Versionen, die CORS (Cross Origin Resource Sharing) nicht vollständig unterstützen. Solche Browser sind zum Beispiel alle Versionen von Internet Explorer vor Version 11 oder Safari Version 6 und ältere Versionen. Wenn die Unterstützung älterer Browser deaktiviert war, stellte Target keine Inhalte bereit und zählte keine Besucher in Berichten zu diesen Browsern. Wenn diese Option aktiviert wurde, wird empfohlen, eine Qualitätssicherung für ältere Browser durchzuführen, um ein gutes Kundenerlebnis zu gewährleisten.
 
-## „at.js“ herunterladen {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
+## „at.js“ herunterladen  {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
-Anweisungen zum Herunterladen der Bibliothek mit der [!DNL Target]-Schnittstelle oder der Download-API.
+Anleitung zum Herunterladen der Bibliothek über die [!DNL Target]-Schnittstelle oder die Download-API.
 
 >[!NOTE]
 >
->* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchis ist die bevorzugte Methode zum Implementieren von Zielgruppe und der at.js-Bibliothek. Die folgenden Informationen gelten nicht, wenn Adobe Platform launch zur Implementierung der Zielgruppe verwendet wird.
+>* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launch ist die bevorzugte Methode zur Implementierung von Target und der at.js-Bibliothek. Die folgenden Informationen gelten nicht für die Verwendung von Adobe Platform launch zur Implementierung von Target.
    >
    >
-* Das Zielgruppe-Team unterstützt &quot;at.js 1&quot;.*x* und at.js 2.*x*. Bitte aktualisieren Sie auf das neueste Update einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen zu den Funktionen in den einzelnen Versionen finden Sie unter [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+* Das Target-Team unterstützt beide at.js 1.*x* und at.js 2.*x*. Führen Sie ein Upgrade auf die neueste Aktualisierung einer der beiden Hauptversionen von at.js durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen zu den Funktionen in den einzelnen Versionen finden Sie unter [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
-### at.js mit der [!DNL Target]-Schnittstelle {#section_1F5EE401C2314338910FC57F9592894E} herunterladen
+### Laden Sie at.js über die [!DNL Target]-Benutzeroberfläche herunter {#section_1F5EE401C2314338910FC57F9592894E}
 
 So können Sie [!DNL at.js] über die [!DNL Target]-Oberfläche herunterladen:
 
 1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
 1. Klicken Sie im Abschnitt [!UICONTROL Implementierungsmethoden] auf die Schaltfläche **[!UICONTROL Herunterladen]** neben der gewünschten at.js-Version.
 
-### at.js mit der [!DNL Target] Download-API {#section_C0D9D2A9068144708D08526BA5CA10D0} herunterladen
+### Laden Sie at.js mithilfe der [!DNL Target] Download-API herunter {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 So laden Sie [!DNL at.js] mithilfe der API herunter.
 
 1. So finden Sie Ihren Clientcode.
 
-   Ihr Client-Code ist oben auf der Seite **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** der [!DNL Target]-Schnittstelle verfügbar.
+   Ihren Clientcode finden Sie oben auf der Seite **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** der [!DNL Target]-Benutzeroberfläche.
 
 1. So finden Sie Ihre Administratornummer.
 
@@ -181,7 +180,7 @@ So laden Sie [!DNL at.js] mithilfe der API herunter.
 
 at.js sollte im `<head>`-Element jeder Seite Ihrer Website implementiert werden.
 
-Eine typische Implementierung von Zielgruppe, die keinen Tag-Manager wie [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) verwendet, sieht wie folgt aus:
+Eine typische Implementierung von Target ohne Verwendung eines Tag-Managers wie [Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) sieht wie folgt aus:
 
 ```
 <!doctype html> 
@@ -237,20 +236,20 @@ Eine typische Implementierung von Zielgruppe, die keinen Tag-Manager wie [Adobe 
 
 Beachten Sie folgende wichtige Hinweise:
 
-* Der HTML5-Dokumenttyp (z. B. `<!doctype html>`) sollte verwendet werden. Nicht unterstützte oder ältere Doctypes können dazu führen, dass Target keine Anfragen senden kann.
-* Mit den Optionen zum Vorabladen und Vorabruf können Sie die Seitenladezeiten reduzieren. Wenn Sie diese Konfigurationen verwenden, stellen Sie sicher, dass Sie `<client code>` durch Ihren eigenen Clientcode ersetzen, den Sie auf der Seite **[!UICONTROL Administration]** > **[!UICONTROL Implementierung] abrufen können.
-* Wenn Sie über einen Daten-Layer verfügen, empfiehlt es sich, einen möglichst großen Teil im `<head>` Ihrer Seiten zu definieren, bevor „at.js“ geladen wird. Diese Platzierung bietet die maximale Möglichkeit, diese Informationen in Zielgruppe für die Personalisierung zu verwenden.
+* Der HTML5-Doctype (z. B. `<!doctype html>`) sollte verwendet werden. Nicht unterstützte oder ältere Doctypes können dazu führen, dass Target keine Anfragen senden kann.
+* Mit den Optionen zum Vorabladen und Vorabruf können Sie die Seitenladezeiten reduzieren. Wenn Sie diese Konfigurationen verwenden, stellen Sie sicher, dass Sie `<client code>` durch Ihren eigenen Clientcode ersetzen, den Sie von der Seite **[!UICONTROL Administration]** > **[!UICONTROL Implementierung] abrufen können.
+* Wenn Sie über einen Daten-Layer verfügen, empfiehlt es sich, einen möglichst großen Teil im `<head>` Ihrer Seiten zu definieren, bevor „at.js“ geladen wird. Diese Platzierung bietet die maximale Möglichkeit, diese Informationen in Target zur Personalisierung zu verwenden.
 * Spezielle Funktionen wie z. B. `targetPageParams()`, `targetPageParamsAll()`, Datenanbieter und `targetGlobalSettings()` sollten definiert werden, nachdem Sie Ihren Daten-Layer definiert haben und bevor „at.js“ geladen wird. Alternativ können diese Funktionen im Abschnitt [!UICONTROL Bibliothekskopfzeile] der Seite [!UICONTROL at.js-Einstellungen bearbeiten] gespeichert und als Teil der at.js-Bibliothek selbst gespeichert werden. Weitere Informationen zu diesen Funktionen finden Sie unter  [„at.js“-Funktionen](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
-* Wenn Sie JavaScript-Hilfsbibliotheken wie jQuery verwenden, schließen Sie diese vor der Zielgruppe ein, damit Sie ihre Syntax und Methoden beim Erstellen von Zielgruppen verwenden können.
+* Wenn Sie JavaScript-Hilfsbibliotheken wie jQuery verwenden, schließen Sie sie vor Target ein, damit Sie beim Erstellen von Target-Erlebnissen deren Syntax und Methoden verwenden können.
 * Fügen Sie „at.js“ im `<head>` Ihrer Seiten hinzu.
 
-## Verfolgen von Konvertierungen {#task_E85D2F64FEB84201A594F2288FABF053}
+## Konversionen verfolgen {#task_E85D2F64FEB84201A594F2288FABF053}
 
 Mit der Mbox für Auftragsbestätigungen werden Informationen zu Bestellungen auf Ihrer Seite gesammelt und die Berichterstellung basierend auf Umsatz und Aufträgen ermöglicht. Mit der Mbox für Auftragsbestätigungen können zudem Empfehlungsalgorithmen abgeleitet werden, beispielsweise „Personen, die x kauften, kauften auch y“.
 
 >[!NOTE]
 >
->Wenn Benutzer auf Ihrer Website Einkäufe tätigen, empfiehlt Adobe die Implementierung einer Auftragsbestätigungs-mbox, auch wenn Sie Analytics für die Zielgruppe (A4T) für Ihren Berichte verwenden.
+>Wenn Benutzer auf Ihrer Website Einkäufe tätigen, empfiehlt Adobe die Implementierung einer Auftragsbestätigungs-Mbox, selbst wenn Sie für Ihre Berichterstellung Analytics for Target (A4T) verwenden.
 
 1. Fügen Sie auf Ihrer Bestellungsdetailseite das Mbox-Skript ein. Befolgen Sie dabei das folgende Modell:
 1. Ersetzen Sie die WORTE IN GROSSBUCHSTABEN entweder durch dynamische oder statische Werte aus Ihrem Katalog.
