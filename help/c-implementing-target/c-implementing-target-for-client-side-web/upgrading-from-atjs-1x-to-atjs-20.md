@@ -5,9 +5,9 @@ title: Wie aktualisiere ich von at.js Version 1.x auf Version 2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2758'
 ht-degree: 91%
 
 ---
@@ -54,11 +54,11 @@ Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten un
 
 ## Bereitstellen von at.js 2 *x*  {#deploy-atjs-200}
 
-1. Bereitstellen von at.js 2 *x* über die [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)-Erweiterung.
+1. Bereitstellen von at.js 2 ** xvia-Tags in der  [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Erweiterung.
 
    >[!NOTE]
    >
-   > Die Bereitstellung von at. js mit Adobe Launch ist die bevorzugte Methode.
+   > Die Bereitstellung von at.js mithilfe von Tags in [!DNL Adobe Experience Platform] ist die bevorzugte Methode.
 
    Oder
 
@@ -360,7 +360,7 @@ Die folgenden Tabellen erläutern die at.js. 2.*x* Kompatibilität mit verschied
 | Zielgruppen | Ja |
 | Kundenattribute | Ja |
 | AEM-Experience Fragments | Ja |
-| Adobe Launch-Erweiterung | [Ja](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] Erweiterung | [Ja](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Debugger | Ja |
 | Auditor | Regeln wurden für at.js 2.*x* noch nicht aktualisiert. |
 | Opt-in | Nein. Die Unterstützung für die Teilnahme an [DSGVO](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) wird in [at. js Version 2.1.0 unterstützt](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
@@ -755,7 +755,7 @@ at.js 2.*x*  JSON-Payload:
 
 Version wird als Abfragezeichenfolgenparameter über den Versionsparameter gesendet.
 
-## Schulungsvideo: at.js 2.** Zeichen für  ![Überblick in xarchitectural diagramm](/help/assets/overview.png)
+## Schulungsvideo: at.js 2.** Symbol &quot;xarchitectural  ![diagramm Overview&quot;](/help/assets/overview.png)
 
 at.js 2.*x*  verbessert die Unterstützung von Adobe Target für SPAs und kann mit anderen Experience Cloud-Lösungen integriert werden. In diesem Video wird erklärt, wie alles zusammenkommt.
 
