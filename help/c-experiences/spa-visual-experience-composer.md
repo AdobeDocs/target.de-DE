@@ -2,12 +2,12 @@
 keywords: SPA VEC;React;Angular;react.js;SPA Visual Experience Composer;Optionen in SPA Experience Composer;Einzelseiten-App;Single-Page-App;SPA;Optionen für mobile Erlebnisse;Target-Ansicht
 description: Erfahren Sie, wie Sie den SPA VEC in Adobe [!DNL Target] verwenden, um Tests zu erstellen und Inhalte auf SPA selbstständig zu personalisieren, ohne von der kontinuierlichen Weiterentwicklung abhängig zu sein.
 title: Wie verwende ich den Visual Experience Composer (SPA VEC) für Einzelseiten-Apps?
-feature: 'Visual Experience Composer (VEC)  '
+feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3699'
-ht-degree: 91%
+source-wordcount: '3702'
+ht-degree: 90%
 
 ---
 
@@ -65,7 +65,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
 
    ![Dialogfeld „Implementierungsdetails“](/help/c-experiences/assets/imp-200.png)
 
-   Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter [!UICONTROL Administration > Implementierung] herunter. at.js 2.x kann auch über [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) bereitgestellt werden. Die Adobe Target-Erweiterungen sind derzeit jedoch nicht aktuell und werden nicht unterstützt.
+   Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter [!UICONTROL Administration > Implementierung] herunter. at.js 2.x kann auch über Tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) bereitgestellt werden. Die Adobe Target-Erweiterungen sind jedoch derzeit nicht aktuell und werden nicht unterstützt.
 
 1. Implementieren Sie die neueste at.js 2.x-Funktion: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) auf Ihren Sites.
 
