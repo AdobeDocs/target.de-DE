@@ -4,9 +4,9 @@ description: 'Erfahren Sie, wie Sie Recommendations-Aktivitäten in Adobe Target
 title: Wie implementiere ich Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 94%
 
 ---
@@ -121,7 +121,7 @@ Informationen zu den Attributen in den Beispielen finden Sie unter [Entitätsatt
 
 Es ist eine gültige JSON-Formatierung erforderlich.
 
-Die in den Beispielen unten angezeigte Funktion `targetPageParams` ist besonders dann hilfreich, wenn Sie eine Tag-Management-Lösung verwenden, um Ihre Seiten zu implementieren. [!DNL Adobe Experience Platform Launch] platziert die Referenz at.js/mbox.js und die  `targetPageParams` Funktion auf Ihrer Seite und ermöglicht Ihnen die Konfiguration der Werte. Sie müssen diese Funktion entweder vor Ihrem at.js-/mbox.js-Aufruf platzieren oder in den Abschnitt „Extra JavaScript“ Ihrer at.js/mbox.js stellen.
+Die in den Beispielen unten angezeigte Funktion `targetPageParams` ist besonders dann hilfreich, wenn Sie eine Tag-Management-Lösung verwenden, um Ihre Seiten zu implementieren. Tags in [!DNL Adobe Experience Platform] platzieren die at.js/mbox.js -Referenz und die `targetPageParams` -Funktion auf Ihrer Seite und ermöglichen Ihnen die Konfiguration der Werte. Sie müssen diese Funktion entweder vor Ihrem at.js-/mbox.js-Aufruf platzieren oder in den Abschnitt „Extra JavaScript“ Ihrer at.js/mbox.js stellen.
 
 ## Alle Seiten {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
