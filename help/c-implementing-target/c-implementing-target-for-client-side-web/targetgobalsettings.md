@@ -5,7 +5,7 @@ title: Wie verwende ich die Funktion targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 4fa34643969c1f60ca79e195c1bca4043adadcd9
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '2317'
 ht-degree: 30%
@@ -155,7 +155,7 @@ Folgende Einstellungen können überschrieben werden:
 
 * **Typ**: Boolesch
 * **Standardwert**: false
-* **Beschreibung**:  [!DNL Target] bietet Opt-in-Funktionalität über  [!DNL Adobe Platform Launch] zur Unterstützung Ihrer Einwilligungsverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Platform Launch] zur Vorab-Genehmigung des [!DNL Target]-Tags. Um die Opt-in-Funktion in der at.js-Bibliothek [!DNL Target] zu aktivieren, fügen Sie die Einstellung `optinEnabled=true` hinzu. In [!DNL Platform Launch] müssen Sie in der Dropdownliste [!UICONTROL DSGVO-Opt-in] in der Installationsansicht der Launch-Erweiterung &quot;Aktivieren&quot;auswählen. Weitere Informationen finden Sie in der [Platform launch-Dokumentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) . Weitere Informationen zu dieser Einstellung in Bezug auf Datenschutz- und Datenschutzbestimmungen, einschließlich der Datenschutz-Grundverordnung (DSGVO) der Europäischen Union und des California Consumer Privacy Act (CCPA), finden Sie unter [Datenschutz- und Datenschutzbestimmungen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Beschreibung**:  [!DNL Target] bietet Opt-in-Funktionalität über  [!DNL Adobe Experience Platform] zur Unterstützung Ihrer Einwilligungsverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Adobe Experience Platform] zur Vorab-Genehmigung des [!DNL Target]-Tags. Um die Opt-in-Funktion in der at.js-Bibliothek [!DNL Target] zu aktivieren, fügen Sie die Einstellung `optinEnabled=true` hinzu. In [!DNL Adobe Experience Platform] müssen Sie in der Dropdown-Liste [!UICONTROL DSGVO-Opt-in] in der Installationsansicht der Erweiterung die Option &quot;Aktivieren&quot;auswählen. Weitere Informationen finden Sie in der [Adobe Experience Platform-Dokumentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) . Weitere Informationen zu dieser Einstellung in Bezug auf Datenschutz- und Datenschutzbestimmungen, einschließlich der Datenschutz-Grundverordnung (DSGVO) der Europäischen Union und des California Consumer Privacy Act (CCPA), finden Sie unter [Datenschutz- und Datenschutzbestimmungen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
 ### optoutEnabled
 
