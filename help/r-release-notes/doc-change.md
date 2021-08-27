@@ -2,12 +2,12 @@
 keywords: änderungsprotokoll zur target-dokumentation;aktualisierungen in der dokumentation;neue themen;bearbeitungen;aktualisierungen;aktualisierung
 description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Produktdokumentation von Adobe  [!DNL Target] '
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
-feature: Versionshinweise
+feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 94%
+source-wordcount: '2277'
+ht-degree: 98%
 
 ---
 
@@ -22,16 +22,16 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | 24. August | [ [!DNL Target] Implementieren mit [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] wurde als Suite von Datenerfassungstechnologien in  [!DNL Adobe Experience Platform]umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen eingeführt. |
 | 23. August | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zum folgenden Ereignis hinzugefügt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community<ul><li>Mittwoch, 8. September 2021</li><li>17:00 Uhr MESZ</li></ul></li></ul> |
 | 19. August | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Die folgende häufig gestellte Frage wurde aktualisiert:<ul><li>Unterstützt A4T Virtual Report Suites?</li></ul> |
-| 16. August | [Versionshinweise zu Target (aktuell)](/help/r-release-notes/release-notes.md)<br>und<br>[at.js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Versionshinweise für at.js 2.6.1 hinzugefügt. |
-|  | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Der Abschnitt &quot;Best Practices&quot;wurde hinzugefügt. |
+| 16. August | [Versionshinweise zu Target (aktuell)](/help/r-release-notes/release-notes.md)<br>und<br>[at.js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Versionshinweise für at.js-Version 2.6.1 wurden hinzugefügt. |
+|  | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Der Abschnitt „Best Practices“ wurde hinzugefügt. |
 | 11. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Versionshinweise für das [!DNL Target] node.js-SDK, Version 2.2.0 wurden hinzugefügt. |
 | 9. August | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Das Thema wurde aktualisiert. |
-| 6. August | [Vor der Implementierung von Analytics for Target (A4T) mit at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Der folgende Hinweis wurde aktualisiert:<ul><li>at.js 1.8.0+ und at.js 2.x+ funktionieren nicht mehr mit Visitor API-Versionen älter als 2.5.0 für die Übergabe von Adobe Audience Manager (AAM)-Parametern.</li></ul> |
-| 5. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurde ein Hinweis hinzugefügt, der angibt, dass die [!DNL Target Standard/Premium] 18.8.1-Version verzögert ist. |
-|  | [Automatische Zuordnung – Überblick](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Kann ich die Berichtsquelle in der Mitte durch eine [!UICONTROL Automatische Zuordnung] -Aktivität ändern?</li></ul> |
+| 6. August | [Vor der Implementierung von [!UICONTROL Analytics for Target] (A4T) mit at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Der folgende Hinweis wurde aktualisiert:<ul><li>at.js 1.8.0 und höher und at.js 2.x und höher funktionieren nicht mehr mit Visitor API-Versionen älter als 2.5.0 im Hinblick auf die Übergabe von Adobe Audience Manager (AAM)-Parametern.</li></ul> |
+| 5. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurde ein Hinweis hinzugefügt, der angibt, dass sich die Veröffentlichung von [!DNL Target Standard/Premium] Version 18.8.1 verzögert. |
+|  | [[!UICONTROL Automatische Zuordnung] – Überblick](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Kann ich die Berichtsquelle mittendrin durch eine Aktivität mit [!UICONTROL automatisierter Zuordnung] ändern?</li></ul> |
 | 4. August | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Informationen zur Einstellung `optinEnabled` wurden hinzugefügt. |
-| 3. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version [!UICONTROL Target Delivery API] hinzugefügt. |
-|  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur kommenden [!DNL Target Standard/Premium] 21.8.1-Version (4. August 2021) hinzugefügt. |
+| 3. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version der [!UICONTROL Target-Bereitstellungs-API] hinzugefügt. |
+|  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur kommenden [!DNL Target Standard/Premium] Version 21.8.1 (4. August 2021) hinzugefügt. |
 | 2. August | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>Traffic-Verteilung von Aktivitäten mit automatisierter Zuordnung mithilfe von A4T</li></ul> |
 |  | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur kommenden [!UICONTROL Target-Bereitstellungs-API]-Version hinzugefügt. |
 | 30. Juli | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Die folgenden Abschnitte wurden aktualisiert:<ul><li>entity.id</li><li>productPurchasedId-Parameter</li></ul> |
