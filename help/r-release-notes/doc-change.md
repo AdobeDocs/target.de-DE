@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
-source-wordcount: '2277'
-ht-degree: 98%
+source-wordcount: '2317'
+ht-degree: 97%
 
 ---
 
@@ -15,16 +15,23 @@ ht-degree: 98%
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
 
-## Adobe [!DNL Target] Standard/Premium 21.6.1 (30. Juni 2021)
+## Adobe [!DNL Target] Standard/Premium 21.8.1 (10. August 2021)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 7 September | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Der Abschnitt &quot;Überlegungen&quot;wurde mit Informationen zum Targeting von Geräten aktualisiert, auf denen Safari 14.0.2 (oder höher) ausgeführt wird. |
+|  | [Classifications – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Die Informationen zu `targettype` und `algorithmId` wurden aktualisiert, bei denen es sich um interne Kennungen handelt, die von [!UICONTROL Aktivitäten mit automatischer Zuordnung] und [!UICONTROL Automatisches Targeting] verwendet werden. |
 | 24. August | [ [!DNL Target] Implementieren mit [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] wurde als Suite von Datenerfassungstechnologien in  [!DNL Adobe Experience Platform]umbenannt. Infolgedessen wurden in der gesamten Produktdokumentation mehrere terminologische Änderungen eingeführt. |
 | 23. August | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zum folgenden Ereignis hinzugefügt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community<ul><li>Mittwoch, 8. September 2021</li><li>17:00 Uhr MESZ</li></ul></li></ul> |
 | 19. August | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Die folgende häufig gestellte Frage wurde aktualisiert:<ul><li>Unterstützt A4T Virtual Report Suites?</li></ul> |
 | 16. August | [Versionshinweise zu Target (aktuell)](/help/r-release-notes/release-notes.md)<br>und<br>[at.js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Versionshinweise für at.js-Version 2.6.1 wurden hinzugefügt. |
 |  | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Der Abschnitt „Best Practices“ wurde hinzugefügt. |
 | 11. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Versionshinweise für das [!DNL Target] node.js-SDK, Version 2.2.0 wurden hinzugefügt. |
+
+## Adobe [!DNL Target] Standard/Premium 21.6.1 (30. Juni 2021)
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
 | 9. August | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Das Thema wurde aktualisiert. |
 | 6. August | [Vor der Implementierung von [!UICONTROL Analytics for Target] (A4T) mit at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Der folgende Hinweis wurde aktualisiert:<ul><li>at.js 1.8.0 und höher und at.js 2.x und höher funktionieren nicht mehr mit Visitor API-Versionen älter als 2.5.0 im Hinblick auf die Übergabe von Adobe Audience Manager (AAM)-Parametern.</li></ul> |
 | 5. August | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurde ein Hinweis hinzugefügt, der angibt, dass sich die Veröffentlichung von [!DNL Target Standard/Premium] Version 18.8.1 verzögert. |
