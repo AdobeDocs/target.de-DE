@@ -5,10 +5,10 @@ title: Wie verwende ich benutzerdefinierte Entitätsattribute?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 73e213bfbf2b84f982549ff265aa9c98d9f3a461
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 89%
+source-wordcount: '1397'
+ht-degree: 88%
 
 ---
 
@@ -62,7 +62,7 @@ Wurde ein benutzerdefiniertes Attribut als gültiges JSON-Array übermittelt, wi
 
 ## Implementieren von Attributen mit mehreren Werten {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Benutzerdefinierte Entitätsattribute mit mehreren Werten werden unterstützt, wenn Feeds (CSV), `targetPageParams` oder die APIs für Bereitstellung und Speicherung von Entitäten für das Hochladen von Produkten verwendet werden. Alte Werte werden durch neue Werte ersetzt, nicht ergänzt. Leere Arrays ([]) werden wie Arrays ohne Werte behandelt.
+Benutzerdefinierte Entitätsattribute mit mehreren Werten werden unterstützt, wenn Feeds (CSV), `targetPageParams` und die Bereitstellungs-API zum Hochladen von Produkten verwendet werden. Alte Werte werden durch neue Werte ersetzt, nicht ergänzt. Leere Arrays ([]) werden wie Arrays ohne Werte behandelt.
 
 Doppelte Anführungszeichen müssen mit Escapezeichen angegeben werden. Zum Beispiel ist `"[""test"", ""value""]"` ein gültiges JSON-Array, das in CSV verwendet werden kann.
 
