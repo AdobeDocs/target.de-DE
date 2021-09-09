@@ -2,12 +2,12 @@
 keywords: Ankündigungen;Skill Builder;Developer Chat;Coffee Break;Veranstaltungen;Forrester;Gartner;Webinar
 description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target] -Veranstaltungen wie Skill Builder-Sitzungen, Chats für Entwickler und Produkt-Manager, Webinare und mehr an.
 title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
-feature: Versionshinweise
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
-workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '576'
+ht-degree: 100%
 
 ---
 
@@ -30,12 +30,12 @@ Ankündigungen und Informationen zu kommenden Veranstaltungen einschließlich [!
 * **08:00 Uhr (PDT, UTC -7)**
 * **[Klicken Sie hier für weitere Informationen und zur Registrierung](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
 
-Vishal Chordia, Senior Product Manager für [!DNL Adobe Target], beantwortet Fragen von Kunden zu seinen Fachgebieten:
+Vishal Chordia, Senior Product Manager für [!DNL Adobe Target], steht Kunden mit seinem Know-how Frage und Antwort:
 
 * [!DNL Adobe Experience Platform]
 * Zielgruppenbasierte Personalisierung
-* [!DNL Real-time Customer Data Platform] Integration von (RTCDP) in  [!DNL Target]
-* Allgemeine Themen [!DNL Target]
+* [!DNL Real-time Customer Data Platform] (RTCDP) integrieren mit [!DNL Target]
+* Allgemeine Themen zu [!DNL Target]
 
 ## Webinar: Personalisieren und Testen mit Nulllatenz bei geräteinterner Entscheidungsfindung mit Adobe Target
 
