@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
+source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 36%
+source-wordcount: '526'
+ht-degree: 41%
 
 ---
 
@@ -31,6 +31,7 @@ Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Ä
 
 * Es wurden Probleme behoben, die Kunden daran hinderten, sich beim [!UICONTROL Visual Experience Composer] (VEC) anzumelden, da in einigen Webbrowsern neue Sicherheitsrichtlinien für Drittanbieter-Cookies gelten. Dieses Problem wurde unter &quot;Seiten, die nicht im Visual Experience Composer (VEC) oder Enhanced Experience Composer (EEC) geladen werden, wenn Google Chrome Version 80+ verwendet wird&quot;in [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) erläutert.
 * Es wurde ein Fehler behoben, der dazu führte, dass Angebotsnamen im VEC den Pfad des Angebots anstelle des Anzeigenamens des Angebots anzeigten. (TGT-41300)
+* Erlebnisnamen werden jetzt in [!DNL Analysis Workspace] für A4T-Aktivitäten angezeigt (TGT-38674).
 * Es wurde ein Problem in [!DNL Recommendations] behoben, bei dem fälschlicherweise Änderungen der Entitäts-ID in einer Promotion in einer duplizierten Aktivität auf die ursprüngliche Aktivität angewendet wurden. (TGT-41482)
 * Es wurde ein Fehler behoben, der verhinderte, dass die Schaltfläche &quot;Kriterien bearbeiten&quot;ordnungsgemäß auf der Seite [!UICONTROL Erlebnisse] für [!DNL Recommendations] -Aktivitäten im VEC angezeigt wurde. (TGT-39512)
 * Fehlerkorrektur - Aktivitäten können jetzt synchronisiert werden, wenn sie dupliziert und in einen Test-Arbeitsbereich kopiert werden. (TGT-40686)
@@ -39,12 +40,6 @@ Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Ä
 * Es wurde ein Fehler behoben, der dazu führte, dass ältere [!DNL Analytics]-Berichte anstelle von [!DNL Analysis Workspace] geöffnet wurden, wenn Kunden beim Anzeigen eines Berichts auf &quot;[!UICONTROL In Analytics anzeigen]&quot;geklickt haben. (TGT-41867)
 * Es wurde eine zusätzliche Klarstellung zur angezeigten Benutzeroberflächenmeldung hinzugefügt, wenn ein Kunde versucht, [!DNL Analytics] als Berichtsquelle (A4T) für eine [!UICONTROL Automated Personalization] -Aktivität auszuwählen. In der Meldung wird angegeben, dass &quot;[!DNL Target] die einzige unterstützte Quelle für [!UICONTROL Automated Personalization] -Aktivitäten ist.&quot; (TGT-41954)
 * Es wurde eine zusätzliche Klarstellung zur Fehlermeldung hinzugefügt, wenn Kunden versuchen, Hosts durch &quot;Zeilenumbruch&quot;anstelle von Kommas zu trennen. (TGT-40671)
-* Das Feld [!UICONTROL Typ] für Segmente wurde aktualisiert und enthält nun genau [!DNL Platform] und [!DNL AAM] ([!DNL Adobe Audience Manager]). (TGT-41328)
-* Es wurde ein Fehler behoben, der dazu führte, dass sich die Operanden der Traffic-Quellen nach dem Klicken auf [!UICONTROL Speichern] änderten. (TGT-41408)
-* Nach dem Speichern einer Zielgruppe &quot;Nur Aktivität&quot;(entweder regelbasiert oder kombiniert) lädt die Benutzeroberfläche jetzt die Auswahl [!UICONTROL Zielgruppe] mit angewendetem Filter &quot;Nur Aktivität&quot;. (TGT-41747).
-* Es wurde ein Fehler behoben, der dazu führte, dass Zielgruppen, die aus der Quelle gelöscht wurden ([!DNL Adobe Experience Platform], [!UICONTROL AAM] usw.), weiterhin in der [!DNL Target] -Benutzeroberfläche angezeigt wurden.
-* Der Seite [!UICONTROL Zielgruppen] wurde eine Filteroption hinzugefügt, mit der nur aus [!DNL Adobe Experience Platform] importierte Zielgruppen angezeigt werden. (TGT-41298)
-* Es wurden verbesserte Optionen für die Barrierefreiheit der Tastatur in der Benutzeroberfläche [!UICONTROL Zielgruppen] hinzugefügt. (TGT-39927)
 * Es wurde ein Fehler behoben, der dazu führte, dass sich die Daten einiger Aktivitäten &quot;[!UICONTROL Zuletzt aktualisiert]&quot;für spanische und japanische Kunden von der englischen Benutzeroberfläche unterschieden (wenn die Benutzeroberfläche auf Spanisch und Japanisch angezeigt wurde). (TGT-38980)
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
