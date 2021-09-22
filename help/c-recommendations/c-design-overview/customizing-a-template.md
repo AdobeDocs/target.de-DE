@@ -1,13 +1,12 @@
 ---
 keywords: Benutzerdefinierter Entwurf; Geschwindigkeit; Dezimal; Komma; Entwurf anpassen
 description: Erfahren Sie, wie Sie mit der Open-Source-Entwurfssprache Velocity Empfehlungsentwürfe in Adobe [!DNL Target] Recommendations anpassen können.
-title: Wie kann ich ein Design mit Geschwindigkeit anpassen?
+title: Wie kann ich einen Entwurf mithilfe von Velocity anpassen?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1026'
 ht-degree: 61%
 
 ---
@@ -64,7 +63,7 @@ Wenn Sie in Ihrem Design ein Profilskript verwenden, muss auf das $ vor dem Skri
 
 >[!NOTE]
 >
->Die maximale Anzahl von Entitäten, auf die in einem Entwurf verwiesen werden kann (fest codiert oder in Schleifen), beträgt 99. Die Länge des Vorlagenskripts kann bis zu 65.000 Zeichen betragen.
+>Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können (fest codiert oder in Schleifen), beträgt 99. Die Länge des Vorlagenskripts kann bis zu 65.000 Zeichen betragen.
 
 Wenn Sie z. B. ein Design wünschen, das in etwa Folgendes anzeigen soll:
 
@@ -119,43 +118,43 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Wenn Sie Text nach dem Wert einer Variablen vor einem Tag hinzufügen möchten, das angibt, dass der Variablenname abgeschlossen ist, können Sie dies mit einer formalen Notation tun, um den Namen der Variablen einzuschließen. Beispiel: `${entity1.thumbnailUrl}.gif`.
+>Wenn Sie Text nach dem Wert einer Variablen vor einem Tag hinzufügen möchten, das anzeigt, dass der Variablenname abgeschlossen ist, können Sie dies mit einer formalen Notation tun, um den Namen der Variablen einzuschließen. Beispiel: `${entity1.thumbnailUrl}.gif`.
 
 Sie können `algorithm.name` und `algorithm.dayCount` als Variablen in Entwürfen verwenden, sodass ein Design zum Testen mehrerer Kriterien verwendet und der Kriterienname dynamisch in dem Design angezeigt werden kann. Dies zeigt dem Besucher, dass er „Topverkäufe“ oder „Kunden, die diesen Artikel angesehen haben, haben folgende Artikel gekauft“ sieht. Sie können diese Variablen sogar dazu verwenden, den `dayCount` anzuzeigen (Anzahl der Tage, deren Daten vom Kriterium verwendet werden, z. B. „Topverkäufe während der beiden letzten Tage“ usw.).
 
 ## Arbeiten mit Zahlen in Velocity-Vorlagen
 
-Velocity-Vorlagen behandeln alle Entitätsattribute standardmäßig als Zeichenfolgenwerte. Möglicherweise möchten Sie ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang auszuführen oder es mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
+Standardmäßig behandeln Velocity-Vorlagen alle Entitätsattribute als Zeichenfolgenwerte. Möglicherweise möchten Sie ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang durchzuführen oder ihn mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
 
-1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder Dublette.
-1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich, damit der Vorlagenparser von Zielgruppe Recommendations die Vorlage validieren und speichern kann).
-1. Übergeben Sie das Entitätsattribut an die `parseInt`- oder `parseDouble`-Methode für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in eine Ganzzahl oder Dublette umzuwandeln.
+1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder in einen doppelten Wert.
+1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich für den Vorlagenparser von Target Recommendations, um die Vorlage zu validieren und zu speichern).
+1. Übergeben Sie das Entitätsattribut an die Methode `parseInt` oder `parseDouble` für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in eine Ganzzahl oder in einen doppelten Wert umzuwandeln.
 1. Führen Sie den Mathematikvorgang oder -vergleich für den neuen numerischen Wert durch.
 
-### Beispiel: Berechnen eines Rabattpreises
+### Beispiel: Rabattpreis berechnen
 
-Angenommen, Sie möchten den angezeigten Preis eines Artikels um 0,99 USD reduzieren, um einen Rabatt zu erhalten. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
+Angenommen, Sie möchten den angezeigten Preis eines Artikels um 0,99 USD reduzieren, um einen Rabatt anzuwenden. Sie können den folgenden Ansatz verwenden, um dieses Ergebnis zu erzielen:
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('priceBeforeDiscount') != '' )
-    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    #set( $discountedPrice = $double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
     Item price: $$discountedPrice
 #else
     Item price unavailable
 #end
 ```
 
-### Beispiel: Auswahl der Anzahl der anzuzeigenden Sterne anhand der Bewertung eines Elements
+### Beispiel: Auswahl der anzuzeigenden Sterne basierend auf der Bewertung eines Artikels
 
-Angenommen, Sie möchten eine angemessene Anzahl von Sternen basierend auf der numerischen durchschnittlichen Kundenbewertung eines Artikels anzeigen. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
+Angenommen, Sie möchten eine angemessene Anzahl von Sternen basierend auf der numerischen durchschnittlichen Kundenbewertung eines Artikels anzeigen. Sie können den folgenden Ansatz verwenden, um dieses Ergebnis zu erzielen:
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('rating') != '' )
-    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #set( $rating = $double.parseDouble($entity1.get('rating')) )
     #if( $rating >= 4.5 )
         <img src="5_stars.jpg">
     #elseif( $rating >= 3.5 )
@@ -172,9 +171,9 @@ Angenommen, Sie möchten eine angemessene Anzahl von Sternen basierend auf der n
 #end
 ```
 
-### Beispiel: Zeit in Stunden und Minuten auf Grundlage der Länge eines Artikels in Minuten berechnen
+### Beispiel: Zeit in Stunden und Minuten basierend auf der Länge eines Elements in Minuten berechnen
 
-Angenommen, Sie speichern die Länge eines Films in Minuten, möchten die Länge jedoch in Stunden und Minuten anzeigen. Sie können dieses Ergebnis mit dem folgenden Ansatz erzielen:
+Angenommen, Sie speichern die Länge eines Films in Minuten, möchten aber die Länge in Stunden und Minuten anzeigen. Sie können den folgenden Ansatz verwenden, um dieses Ergebnis zu erzielen:
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -208,9 +207,9 @@ Das Ergebnis ist ein Entwurf wie der folgende, in dem das Schlüsselelement in e
 
 Wenn Sie Ihre [!DNL Recommendations]-Aktivität erstellen und das Schlüsselelement vom Benutzerprofil genommen wird, zum Beispiel „Zuletzt gekaufter Artikel“, zeigt [!DNL Target] ein zufällig ausgewähltes Produkt im [!UICONTROL Visual Experience Composer an]. Dies beruht darauf, dass ein Profil beim Erstellen der Aktivität nicht verfügbar ist. Wenn Besucher die Seite anzeigen, sehen sie das erwartete Schlüsselelement.
 
-## Ersetzen in einem Zeichenfolgenwert {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Ersetzungen in einem Zeichenfolgenwert durchführen {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-Sie können Ihren Entwurf ändern, um Werte in einer Zeichenfolge zu ersetzen. Ersetzen Sie beispielsweise das Dezimalzeichen, das in den USA verwendet wird, durch das Komma-Trennzeichen, das in Europa und anderen Ländern verwendet wird.
+Sie können Ihr Design ändern, um Werte in einer Zeichenfolge zu ersetzen. Ersetzen Sie beispielsweise das Dezimalzeichen, das in den USA verwendet wird, durch das Kommatrennzeichen, das in Europa und anderen Ländern verwendet wird.
 
 Folgender Code zeigt eine einzelne Zeile in einem bedingten Verkaufspreis-Beispiel:
 
@@ -234,7 +233,7 @@ Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreise
                                     </span>
 ```
 
-## Anpassen der Vorlagengröße und Prüfen auf leere Werte {#default}
+## Anpassen der Vorlagengröße und Überprüfen auf leere Werte {#default}
 
 Mithilfe eines Velocity-Skripts zur Steuerung der dynamischen Größe der Entitätsanzeige wird die folgende Vorlage für ein 1-zu-viele-Ergebnis verwendet, um zu verhindern, dass leere HTML-Elemente erstellt werden, wenn von [!DNL Recommendations]nicht genügend übereinstimmende Entitäten zurückgegeben werden. Dieses Skript eignet sich optimal für Szenarios, bei denen Reserveempfehlungen nicht sinnvoll sind und [!UICONTROL Teilweises Vorlagen-Rendering] aktiviert ist.
 
