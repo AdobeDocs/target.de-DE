@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f5bbdf2e37867765ef387821cc78660dfa8c57f6
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 98%
+source-wordcount: '2520'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,11 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 22 September | [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md) | Folgende Überlegungen wurden hinzugefügt:<ul><li>Klick-Tracking-Metriken sind mit keinem bestimmten Erlebnis in einer Aktivität verknüpft.</li><li>Verwenden Sie Zielgruppen, wenn Sie den Umfang der Klick-Tracking-Metriken einschränken müssen.</li><li>Mehrere Aktivitäten können eine Click-Track-Metrik für denselben Selektor definieren. Wenn dies der Fall ist und ein Besucher sich für eine dieser Aktivitäten qualifiziert und auf diesen Selektor klickt, erhöht sich die Klickverfolgungsmetrik für alle zugehörigen Aktivitäten, für die sich der Besucher qualifiziert hat.</li></ul> |
+|  | [Implementieren von [!DNL Target] mithilfe von [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Es wurde ein Hinweis im Abschnitt &quot;Vorteile der Implementierung von at.js mithilfe der [!DNL Target]-Erweiterung&quot;hinzugefügt. |
+|  | [Echtzeit-Profilsynchronisation für mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Der Abschnitt &quot;Überlegungen&quot;wurde um neue Informationen erweitert. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Der Abschnitt &quot;secureOnly&quot;wurde aktualisiert. |
+|  | [Häufig gestellte Fragen zu „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | Die folgenden häufig gestellten Fragen wurden aktualisiert: &quot;Warum verwendet at.js nicht immer die Cookie-Flags &quot;HttpOnly&quot;und &quot;Secure&quot;? |
 | 14 September | [Versionshinweise](/help/r-release-notes/release-notes.md): 21.9.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.8.1 (10. August 2021)
