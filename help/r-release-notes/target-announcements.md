@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 95%
 
 ---
 
@@ -15,27 +15,18 @@ ht-degree: 100%
 
 Ankündigungen und Informationen zu kommenden Veranstaltungen einschließlich [!DNL Adobe Target] Skill Builder-Sitzungen, Entwickler-Chats, Webinaren und [!DNL Target] Sitzungen mit Fragen und Antworten.
 
-## Erkennung für [!DNL Adobe Target]
-
-[!DNL Adobe Target] wurde erst kürzlich von Forrester und Gartner als Marktführer ausgezeichnet.
-
-| Researchdienst | Details |
-| --- | --- |
-| Forrester | **Adobe wurde im Forrester Wave-Bericht zu Erlebnisoptimierungs-Plattformen als „Leader“ ausgezeichnet.**<br> Adobe wurde im Forrester Wave-Bericht zu Erlebnisoptimierungs-Plattformen im 4. Quartal 2020 für sein Angebot von Adobe Target Premium als „Leader“ ausgezeichnet. Adobe erhielt die höchste Punktzahl aller beteiligten Anbieter in den Kategorien „Aktuelles Angebot“ und „Marktpräsenz“ wie auch in der Kategorie „Recommendations- und Plattformerlebnis“. Darüber hinaus erhielt Target Premium unter dem Kriterium „Innovative Erlebnisoptimierungstechnik und unterstützende Dienste“ die bestmögliche Bewertung. Der Bericht basiert auf einem sorgfältigen Testverfahren, in dem zehn Anbieter von Erlebnisoptimierungs-Plattformen in 22 Kategorien bewertet wurden.<br>Lesen Sie mehr darüber im [Adobe-Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
-| Gartner | **Adobe wurde im Gartner Magic Quadrant für Personalisierungs-Engines erneut als „Leader“ ausgezeichnet.**<br> Adobe wurde auch im dritten Quartal 2020 im Gartner Magic Quadrant für Personalisierungs-Engines als „Leader“ ausgezeichnet. Im Gartner Magic Quadrant für Personalisierungs-Engines wurden Anbieter in zwei Kategorien mit insgesamt 15 Kriterien bewertet: „Vollständigkeit der Unternehmensvision“ und „Fähigkeit zur Umsetzung“.<br>[Lesen Sie mehr darüber im Adobe-Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
-
 ## [!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community
 
-* **Mittwoch, 8. September 2021**
+* **Mittwoch, 13. Oktober 2021**
 * **08:00 Uhr (PDT, UTC -7)**
-* **[Klicken Sie hier für weitere Informationen und zur Registrierung](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
+* **[Klicken Sie hier für weitere Informationen und zur Registrierung](https://adobe.ly/3CoUIVz).**
 
-Vishal Chordia, Senior Product Manager für [!DNL Adobe Target], steht Kunden mit seinem Know-how Frage und Antwort:
+Gentry Lin, Senior Solutions Consultant für [!DNL Adobe Target], beantwortet Fragen von Kunden zu ihren Fachgebieten:
 
-* [!DNL Adobe Experience Platform]
-* Zielgruppenbasierte Personalisierung
-* [!DNL Real-time Customer Data Platform] (RTCDP) integrieren mit [!DNL Target]
-* Allgemeine Themen zu [!DNL Target]
+* Implementierung
+* Personalisierung
+* Workflows für die Web-Bearbeitung
+* [!DNL Adobe Experience Cloud] Integrationen
 
 ## Webinar: Personalisieren und Testen mit Nulllatenz bei geräteinterner Entscheidungsfindung mit Adobe Target
 
@@ -66,3 +57,13 @@ Nehmen Sie an diesem Webinar mit Adobe und HSBC teil, um Folgendes zu erfahren:
 Aufgrund der Einstellung der Unterstützung für mbox.js am 31. März 2021 lud David Son, Adobe Target Product Manager, kürzlich zu einem Developer Chat ein, um über die Vorteile der Migration von mbox.js auf at.js zu diskutieren.
 
 * **[Webinar-Aufzeichnung anzeigen](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
+
+## Erkennung für [!DNL Adobe Target]
+
+[!DNL Adobe Target] wurde erst kürzlich von Forrester und Gartner als Marktführer ausgezeichnet.
+
+| Researchdienst | Details |
+| --- | --- |
+| Forrester | **Adobe wurde im Forrester Wave-Bericht zu Erlebnisoptimierungs-Plattformen als „Leader“ ausgezeichnet.**<br> Adobe wurde im Forrester Wave-Bericht zu Erlebnisoptimierungs-Plattformen im 4. Quartal 2020 für sein Angebot von Adobe Target Premium als „Leader“ ausgezeichnet. Adobe erhielt die höchste Punktzahl aller beteiligten Anbieter in den Kategorien „Aktuelles Angebot“ und „Marktpräsenz“ wie auch in der Kategorie „Recommendations- und Plattformerlebnis“. Darüber hinaus erhielt Target Premium unter dem Kriterium „Innovative Erlebnisoptimierungstechnik und unterstützende Dienste“ die bestmögliche Bewertung. Der Bericht basiert auf einem sorgfältigen Testverfahren, in dem zehn Anbieter von Erlebnisoptimierungs-Plattformen in 22 Kategorien bewertet wurden.<br>Lesen Sie mehr darüber im [Adobe-Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
+| Gartner | **Adobe wurde im Gartner Magic Quadrant für Personalisierungs-Engines erneut als „Leader“ ausgezeichnet.**<br> Adobe wurde auch im dritten Quartal 2020 im Gartner Magic Quadrant für Personalisierungs-Engines als „Leader“ ausgezeichnet. Im Gartner Magic Quadrant für Personalisierungs-Engines wurden Anbieter in zwei Kategorien mit insgesamt 15 Kriterien bewertet: „Vollständigkeit der Unternehmensvision“ und „Fähigkeit zur Umsetzung“.<br>[Lesen Sie mehr darüber im Adobe-Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+

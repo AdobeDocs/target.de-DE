@@ -4,9 +4,9 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a1a4cb6294692836530c445d5f9546b5323479bb
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2570'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 27 September | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community<ul><li>Mittwoch, 13. Oktober 2021</li><li>17:00 Uhr MESZ</li></ul></li></ul> |
 | 22 September | [Anpassen eines Designs mithilfe von Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | In Codebeispielen wurde `$Double` zu `$double` geändert, um mögliche Unklarheiten zu vermeiden. |
 |  | [Häufig gestellte Fragen: Entwürfe](/help/c-recommendations/c-design-overview/template-faq.md) | Die folgende häufig gestellte Frage wurde aktualisiert:<ul><li>Kann ich ein Profilskript in einem [!DNL Recommendations]-Design verwenden?</li></ul> |
 |  | [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md) | Folgende Überlegungen wurden hinzugefügt:<ul><li>Klick-Tracking-Metriken sind mit keinem bestimmten Erlebnis in einer Aktivität verknüpft.</li><li>Verwenden Sie Zielgruppen, wenn Sie den Umfang der Klick-Tracking-Metriken einschränken müssen.</li><li>Mehrere Aktivitäten können eine Click-Track-Metrik für denselben Selektor definieren. Wenn dies der Fall ist und ein Besucher sich für eine dieser Aktivitäten qualifiziert und auf diesen Selektor klickt, erhöht sich die Klickverfolgungsmetrik für alle zugehörigen Aktivitäten, für die sich der Besucher qualifiziert hat.</li></ul> |
