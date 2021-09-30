@@ -1,20 +1,19 @@
 ---
 keywords: Target; Berichte; Berichtseinstellungen; Umgebung; Steigerung; Steigerungsgrenze; Varianz; Konfidenz; Steuern
-description: Erfahren Sie, wie Sie Adobe [!DNL Target] Berichte interpretieren, die Datenpunkte und Visualisierungsdarstellungen enthalten, um die Steigerungs- und Konfidenzstufe Ihrer Aktivitäten zu verstehen.
-title: Wie kann ich die durchschnittliche Steigerung, die Lift-Grenze und das Konfidenzintervall für die Ansicht ermitteln?
-feature: Berichte
+description: Erfahren Sie, wie Sie Adobe [!DNL Target] Berichte interpretieren, die Datenpunkte und Visualisierungsdarstellungen enthalten, damit Sie die Steigerungsgrenzen und das Konfidenzniveau Ihrer Aktivitäten besser verstehen können.
+title: Wie kann ich die durchschnittliche Steigerung, die Steigerungsgrenzen und das Konfidenzintervall anzeigen?
+feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 73%
+source-wordcount: '835'
+ht-degree: 71%
 
 ---
 
 # Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall
 
-Zu den Berichten gehören verschiedene Datenpunkte und Darstellungen zur Visualisierung, die Ihnen helfen, die Steigerungs- und Vertrauensgrenzen Ihrer [!DNL Adobe Target]-Aktivität zu verstehen, um einen Gewinner genauer zu ermitteln.
+Berichte enthalten verschiedene Datenpunkte und Visualisierungsdarstellungen, die Ihnen helfen, die Steigerungsgrenzen und das Konfidenzniveau zu verstehen, die mit Ihrer [!DNL Adobe Target] -Aktivität verknüpft sind, um einen Gewinner genauer zu bestimmen.
 
 >[!NOTE]
 >
@@ -22,25 +21,25 @@ Zu den Berichten gehören verschiedene Datenpunkte und Darstellungen zur Visuali
 
 ## Interpretieren der Daten {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-Die folgende Abbildung zeigt [!UICONTROL Lift Bounds und Confidence Level] Informationen:
+Die folgende Abbildung zeigt [!UICONTROL Steigerungsgrenzen und Konfidenzniveau] Informationen:
 
 ![Bericht zum durchschnittlichen Steigerungs- und Konfidenzniveau](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-Die Informationen zu Steigerung und Konfidenz in der Benutzeroberfläche des Berichte [!DNL Target] umfassen:
+Die Steigerungs- und Konfidenzinformationen in der Reporting-Benutzeroberfläche von [!DNL Target] umfassen:
 
 ### Steigerung
 
 Die große Anzahl und der Pfeil geben den erwarteten Steigerungswert an. Diese Anzahl entspricht dem Mittelpunkt des Bereichs der Steigerungsgrenzen. Der Pfeil für die erwartete Steigerung wird so lange in Grau angezeigt, bis die Konfidenz 95 % passiert. Nach diesem Schwellenwert wird der Pfeil jeweils in Abhängigkeit einer negativen oder positiven Steigerung in Rot oder Grün angezeigt.
 
-### Liftgrenzen
+### Steigerungsgrenzen
 
-Hierbei handelt es sich um das 95-%-Konfidenzintervall der Steigerung. Es wird als ein Bereich unterhalb der durchschnittlichen Steigerung angezeigt. Siehe [Beispielberechnung](#example) weiter unten für ein Beispiel, wie diese Steigerungsgrenzen berechnet werden.
+Hierbei handelt es sich um das 95-%-Konfidenzintervall der Steigerung. Es wird als ein Bereich unterhalb der durchschnittlichen Steigerung angezeigt. Ein Beispiel für die Berechnung dieser Steigerungsgrenzen finden Sie unten unter [Beispielberechnung](#example) .
 
-### Diagramm
+### Boxplotdiagramm
 
-Das Boxplot-Diagramm in der [!DNL Target]-Schnittstelle stellt den erwarteten Wert und das 95 %-Konfidenzintervall der betreffenden Erfolgsmetrik dar. Sie können sich dies als eine grafische Methode zum Anzeigen der Informationen zur Steigerung und zu den Steigerungsgrenzen vorstellen.
+Das Boxplotdiagramm in der [!DNL Target]-Oberfläche stellt den erwarteten Wert und das 95-%-Konfidenzintervall der betreffenden Erfolgsmetrik dar. Sie können sich dies als eine grafische Methode zum Anzeigen der Informationen zur Steigerung und zu den Steigerungsgrenzen vorstellen.
 
-Es gibt einige wichtige Möglichkeiten, [!DNL Target] Ihnen bei der Interpretation der Konfidenzinformationen zu helfen. Eine davon ist Farbe. Das Diagramm zeigt das Konfidenzintervall eines spezifischen Erlebnisses, das sich mit dem Kontrollkonfidenzintervall überschneidet, in Grau an. Zudem zeigt es das Konfidenzintervall eines spezifischen Erlebnisses, das ober- oder unterhalb des Kontrollkonfidenzintervalls liegt, entsprechend in Grün oder Rot an.
+Es gibt einige wichtige Möglichkeiten, wie Sie [!DNL Target] bei der Interpretation der Konfidenzinformationen unterstützen können. Eine davon ist Farbe. Das Diagramm zeigt das Konfidenzintervall eines spezifischen Erlebnisses, das sich mit dem Kontrollkonfidenzintervall überschneidet, in Grau an. Zudem zeigt es das Konfidenzintervall eines spezifischen Erlebnisses, das ober- oder unterhalb des Kontrollkonfidenzintervalls liegt, entsprechend in Grün oder Rot an.
 
 Die Länge des Boxplotdiagramms gibt leicht nachvollziehbar an, wie groß das Konfidenzintervall ist. Wenn Sie mehr Daten in Ihrer Aktivität sammeln, verlagert und ändert sich der Balken. Das Konfidenzintervall ergibt sich aus der Varianz und dem Stichprobenumfang (Anzahl der Besucher). Je kleiner die Varianz und je größer der Stichprobenumfang, desto enger ist Ihr Konfidenzintervall.
 
@@ -48,7 +47,11 @@ Die Länge des Boxplotdiagramms gibt leicht nachvollziehbar an, wie groß das Ko
 
 Die Konfidenz eines Erlebnisses oder Angebots steht dafür, wie wahrscheinlich es ist, dass die Steigerung über das Kontrollerlebnis/-angebot des verbundenen Erlebnisses/Angebots „echt“ ist (und nicht durch eine zufällige Chance verursacht wird). In der Regel entsprechen 95 % dem empfohlenen Konfidenzniveau für eine signifikante Steigerung.
 
-## Wie werden die Liftgrenzen berechnet? {#section_1D360781D972483693680BE0F07AEAD1}
+## Erfahren Sie, wie das Konfidenzintervall für die Steigerung ermittelt wird. {#pdf}
+
+Laden Sie das [Konfidenzintervall für die Steigerung pdf](/help/assets/confidence_interval_lift.pdf) herunter, um weitere Informationen zu erhalten.
+
+## Wie werden Steigerungsgrenzen berechnet? {#section_1D360781D972483693680BE0F07AEAD1}
 
 Die Steigerungsgrenzen stellen 95-%-Konfidenzintervalle der Steigerung dar, die das spezifische Erlebnis oder Angebot gegenüber dem Kontrollerlebnis oder -angebot aufweist. Grob gesagt weist die tatsächliche Steigerung eine etwa 95%ige Chance auf, sich zwischen diesen Steigerungen zu befinden.
 
@@ -106,11 +109,11 @@ Daher würden die Steigerungsgrenzen für Erlebnis B wie folgt lauten:
 
 >[!NOTE]
 >
->Erwarten Sie geringfügige Abweichungen zwischen manuellen Berechnungen mit den oben genannten Formeln und den im Bericht angezeigten Zahlen. Diese Unterschiede stammen daher, dass die Seitenaufrufe für manuelle Berechnungen abgerundet werden. Die Steigerung, die im Bericht [!DNL Target] angezeigt wird, basiert auf den genauen Zahlen, die aus dem Gesamteinsatz und der Anzahl der Interaktionen gewonnen wurden. Die Interaktionszahlen können über die API des Performanceberichts abgerufen werden.
+>Erwarten Sie geringfügige Abweichungen zwischen manuellen Berechnungen mit den oben genannten Formeln und den im Bericht angezeigten Zahlen. Diese Unterschiede stammen daher, dass die Seitenaufrufe für manuelle Berechnungen abgerundet werden. Die im Bericht [!DNL Target] angezeigte Steigerung basiert auf den genauen Zahlen, die aus der Interaktion insgesamt und der Interaktionsanzahl ermittelt wurden. Die Interaktionszahlen können über die API des Performanceberichts abgerufen werden.
 
-## Wann werden die Liftgrenzen nicht angezeigt? {#section_C5622E1E94684DAD937249B51A9E42CC}
+## Wann werden Steigerungsgrenzen nicht angezeigt? {#section_C5622E1E94684DAD937249B51A9E42CC}
 
-In bestimmten Fällen zeigt [!DNL Target] keine Liftgrenzen an:
+In bestimmten Fällen zeigt [!DNL Target] keine Steigerungsgrenzen an:
 
 * Für Aktivitäten, wenn die Gesamtanzahl der Besuche oder Besucher niedriger als 30 ist.
-* Für die Aktivitäten [!UICONTROL Automatisierte Zuordnung] werden keine Steigerungsgrenzen angezeigt, bis ein Erlebnis eine Konfidenz von 60 % erreicht hat.
+* Bei [!UICONTROL Aktivitäten mit automatischer Zuordnung] werden keine Steigerungsgrenzen angezeigt, bis ein Erlebnis eine Konfidenz von 60 % erreicht hat.

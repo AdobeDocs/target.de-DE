@@ -5,9 +5,9 @@ title: Wie konfiguriere ich Unternehmensberechtigungen?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 63%
 
 ---
@@ -142,9 +142,9 @@ Um die Benutzerberechtigungsfunktion von [!DNL Target] zu verwenden, müssen Sie
 
    Die [!DNL Target]-Implementierung kann auf unterschiedliche Art aktualisiert werden. Für Webseiten können beispielsweise die folgenden Verfahren angewendet werden:
 
-   * **Über einen globalen Parameter in -Tags in   [!DNL Adobe Experience Platform]:**
+   * **Über einen &quot;benutzerdefinierten Parameter&quot;in -Tags in  [!DNL Adobe Experience Platform]:**
 
-      Weitere Informationen finden Sie unter [Globale Target-Parameter hinzufügen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in der *Tags-Übersicht* -Dokumentation.
+      Weitere Informationen finden Sie unter [Mbox-Parameter hinzufügen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) in der *Tags-Übersicht* -Dokumentation.
 
    * **Über die Funktion targetPageParamsAll():**  Platzieren Sie den folgenden Code in den  `<head>` Tags oberhalb der Referenz &quot;at.js&quot;.
 
