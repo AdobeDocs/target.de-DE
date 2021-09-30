@@ -5,9 +5,9 @@ title: Wie konfiguriere ich Unternehmensberechtigungen?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
+source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1432'
 ht-degree: 63%
 
 ---
@@ -108,8 +108,6 @@ Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail und API/Sonstige) zug
 1. Klicken Sie in [!DNL Target] auf **[!UICONTROL Administration]** > **[!UICONTROL Eigenschaften]** , um die Liste [!UICONTROL Eigenschaften] anzuzeigen.
 1. Klicken Sie auf **Eigenschaft erstellen**.
 
-   ![Neue Eigenschaft, Dialogfeld](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
-
    Füllen Sie die Felder aus:
 
    * **Eigenschaftsname (erforderlich):** Geben Sie einen beschreibenden Namen für die Eigenschaft an.
@@ -144,7 +142,7 @@ Um die Benutzerberechtigungsfunktion von [!DNL Target] zu verwenden, müssen Sie
 
    Die [!DNL Target]-Implementierung kann auf unterschiedliche Art aktualisiert werden. Für Webseiten können beispielsweise die folgenden Verfahren angewendet werden:
 
-   * **Über einen &quot;globalen Parameter in -Tags in   [!DNL Adobe Experience Platform]:**
+   * **Über einen globalen Parameter in -Tags in   [!DNL Adobe Experience Platform]:**
 
       Weitere Informationen finden Sie unter [Globale Target-Parameter hinzufügen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) in der *Tags-Übersicht* -Dokumentation.
 
@@ -161,12 +159,6 @@ Um die Benutzerberechtigungsfunktion von [!DNL Target] zu verwenden, müssen Sie
       ```
 
       Weitere Informationen dazu, wie Sie dies mit at.js tun, finden Sie unter [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
-
-   * **Mithilfe der Funktion „mboxCreate()“:**
-
-      ![](assets/property_token_3.png)
-
-      Weitere Informationen zu diesem Verfahren mit at.js finden Sie unter   [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) targetPageParamsAll und   [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Schritt 6: Rollen und Berechtigungen festlegen {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
