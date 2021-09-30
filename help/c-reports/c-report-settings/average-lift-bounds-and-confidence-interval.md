@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Adobe [!DNL Target] Berichte interpretieren, 
 title: Wie kann ich die durchschnittliche Steigerung, die Steigerungsgrenzen und das Konfidenzintervall anzeigen?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 71%
 
 ---
@@ -49,7 +49,7 @@ Die Konfidenz eines Erlebnisses oder Angebots steht dafür, wie wahrscheinlich e
 
 ## Erfahren Sie, wie das Konfidenzintervall für die Steigerung ermittelt wird. {#pdf}
 
-Laden Sie das [Konfidenzintervall für die Steigerung pdf](/help/assets/confidence_interval_lift.pdf) herunter, um weitere Informationen zu erhalten.
+Laden Sie die Datei [Konfidenzintervall für die PDF-Steigerung](/help/assets/confidence_interval_lift.pdf) herunter, um weitere Informationen zu erhalten.
 
 ## Wie werden Steigerungsgrenzen berechnet? {#section_1D360781D972483693680BE0F07AEAD1}
 
