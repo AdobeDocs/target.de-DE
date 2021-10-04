@@ -2,11 +2,11 @@
 keywords: benutzerdefinierte Parameter; Targeting von benutzerdefinierten Parametern; Targeting von Seitenparametern; Targeting von Mbox-Parametern
 description: Erfahren Sie, wie Sie benutzerdefinierte Parameter zur Verwendung in Zielgruppen an [!DNL Adobe Target] übergeben.
 title: Kann ich ein Targeting von Besuchern anhand von benutzerdefinierten Parametern durchführen?
-feature: Zielgruppen
+feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 42%
 
 ---
@@ -21,7 +21,7 @@ Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhal
 
 1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-1. Ziehen Sie **[!UICONTROL Benutzerdefiniert]** in den Bereich Audience Builder .
+1. Ziehen Sie **[!UICONTROL Benutzerdefiniert]** in den Zielgruppen-Builder.
 
    So wählen Sie den gewünschten Parameter aus:
 
@@ -56,7 +56,7 @@ Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhal
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-Die [Popupkarte mit Definitionsdetails](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) der Zielgruppe enthält den Parameternamen im Abschnitt „Regeln“. Auf die Mbox, die zum Filtern verwendet wird, wird nicht verwiesen.
+Die [Popupkarte mit Definitionsdetails](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) der Zielgruppe enthält den Parameternamen im Abschnitt „Regeln“. **** Auf die Mbox, die zum Filtern verwendet wird, wird nicht verwiesen.
 
 >[!NOTE]
 >

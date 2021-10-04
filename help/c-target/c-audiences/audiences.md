@@ -2,11 +2,11 @@
 keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen; Zielgruppentargeting; Zielgruppenberichterstellung; Zielgruppenbericht; Segment; benutzerdefinierte Profilparameter; Zielgruppendefinition; Zielgruppenliste
 description: Erfahren Sie, wie Sie die Liste [!UICONTROL Zielgruppen] in [!DNL Adobe Target] verwenden.
 title: Wie verwende ich die Zielgruppenliste?
-feature: Zielgruppen
+feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '759'
 ht-degree: 34%
 
 ---
@@ -45,7 +45,7 @@ Die Liste [!UICONTROL Zielgruppen] enthält die Zielgruppen, die Sie in Ihren Ak
 
    >[!NOTE]
    >
-   >Die Quelle [!DNL Adobe Experience Platform] befindet sich in einem Beta-Testprogramm, steht jedoch allen [!DNL Target]-Kunden zur Verfügung, die das [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) verwenden. In [!DNL Adobe Experience Platform] verfügbare Zielgruppen können unverändert oder [in Kombination mit vorhandenen Zielgruppen](/help/c-target/combining-multiple-audiences.md) verwendet werden.
+   >Die Quelle [!DNL Adobe Experience Platform] steht allen [!DNL Target]-Kunden zur Verfügung, die das [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) verwenden. In [!DNL Adobe Experience Platform] verfügbare Zielgruppen können unverändert oder [in Kombination mit vorhandenen Zielgruppen](/help/c-target/combining-multiple-audiences.md) verwendet werden.
 
 Vordefinierte Zielgruppen wie &quot;[!UICONTROL Neue Besucher]&quot;und &quot;[!UICONTROL Wiederkehrende Besucher]&quot;können nicht umbenannt werden.
 

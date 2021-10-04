@@ -4,9 +4,9 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2649'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 4. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Hinweise zur Vorabversion für die Target Standard/Premium-Version 21.10.1 (6. Oktober 2021) wurden aktualisiert. |
 | 30 September | Senden von Aktivitätsinformationen an [!DNL Adobe Analytics] | Das gesamte Thema wurde entfernt, da die beschriebenen Schritte nicht mehr erforderlich sind, um [!DNL Target] Informationen zur Mobile-App-Aktivität an [!DNL Analytics] zu senden, damit sie zur Post-hoc-Segmentierung verwendet werden können. |
 |  | [Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Es wurde eine PDF-Datei hinzugefügt, die erklärt, wie das Konfidenzintervall für die Steigerung berechnet wird. |
 |  | [Konfigurieren von Enterprise-Berechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Änderung von `targetPageParams` in `targetPageParamsAll` in &quot;Schritt 5 Implementierung aktualisieren, um den Parameter `at_property` einzuschließen&quot;. |

@@ -1,12 +1,12 @@
 ---
 keywords: Targeting; Zielgruppen
 description: Erfahren Sie, wie Sie mithilfe von Zielgruppen in [!DNL Adobe Target] verschiedene Inhalte und Erlebnisse auf bestimmte Zielgruppen ausrichten können, um Ihre Web-Marketing-Maßnahmen zu optimieren.
-title: Wie kann ich Zielgruppen verwenden, um verschiedene Inhalte auf bestimmte Segmente auszurichten?
-feature: Zielgruppen
+title: Wie kann ich [!UICONTROL Zielgruppen] verwenden, um verschiedene Inhalte auf bestimmte Segmente auszurichten?
+feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 43%
 
 ---

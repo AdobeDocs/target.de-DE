@@ -1,12 +1,12 @@
 ---
 keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen
-description: Erfahren Sie, wie Sie benutzerdefinierte Zielgruppen erstellen und in der Bibliothek  [!DNL Adobe Target] [!UICONTROL Audiences] speichern, um sie in Ihren Aktivitäten zu verwenden.
+description: Erfahren Sie, wie Sie benutzerdefinierte Zielgruppen erstellen und in der Bibliothek  [!DNL Adobe Target] [!UICONTROL Audiences] speichern, um sie in Aktivitäten zu verwenden.
 title: Wie erstelle ich Zielgruppen?
-feature: Zielgruppen
+feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 61%
 
 ---
@@ -60,7 +60,7 @@ Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome 
 
 1. (Bedingt) Fahren Sie mit dem Hinzufügen und Definieren der gewünschten Attribute fort.
 
-   Um einen weiteren Container zu erstellen, klicken Sie auf **[!UICONTROL Container]** hinzufügen oder ziehen Sie einfach ein anderes Attribut in den mittleren Rahmen. Der Operator (AND oder OR) kann dann über die Dropdown-Liste angepasst werden.
+   Um einen weiteren Container zu erstellen, klicken Sie auf **[!UICONTROL Container]** hinzufügen oder ziehen Sie einfach ein anderes Attribut in den Bereich Audience Builder . Der Operator (AND oder OR) kann dann über die Dropdown-Liste angepasst werden.
 
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 

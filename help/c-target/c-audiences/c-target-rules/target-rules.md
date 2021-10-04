@@ -2,9 +2,9 @@
 keywords: Targeting; Zielkategorien; Targeting-Bedingungen; Zielgruppenmanager; benutzerdefinierte Profilparameter; Besucherprofil; benutzerdefinierte Benutzerparameter; Zielregeln
 description: Erfahren Sie, wie Sie mit Kategorien (wie Browser, Geo, Netzwerk, Betriebssystem, Besucherprofil) Inhalte gezielt ansprechen können.
 title: Welche Kategorien gibt es für Zielgruppen?
-feature: Zielgruppen
+feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 50%
@@ -13,7 +13,7 @@ ht-degree: 50%
 
 # Kategorien für Zielgruppen
 
-Mit [!DNL Adobe Target] können Sie ein Targeting für eine oder mehrere Kategorieattribute durchführen. Um Targeting-Regeln (oder Gruppen) für jedes Attribut zu erstellen, ziehen Sie die gewünschten Attribute in den Audience Builder .
+Mit [!DNL Adobe Target] können Sie ein Targeting für eine oder mehrere Kategorieattribute durchführen. Um Targeting-Regeln (oder Gruppen) für jedes Attribut zu erstellen, ziehen Sie die gewünschten Attribute in den Bereich Audience Builder .
 
 ![Attribute für Zielgruppen](/help/c-target/c-audiences/assets/attributes.png)
 
@@ -21,7 +21,7 @@ Wenn eine bestimmte Kategorie ausgewählt ist, können Sie eine oder mehrere Tar
 
 Nachdem Sie eine Regel erstellt haben, klicken Sie auf **[!UICONTROL Fertig]**. Neben dem Targeting-Link für die Ebene, auf die sich das Targeting bezieht, wird eine Zusammenfassung der Regel angezeigt.
 
-Sie können eine Regel verfeinern, indem Sie ihr zusätzliche Bedingungen hinzufügen oder zusätzliche Regeln in anderen Kategorien erstellen. Sie können beispielsweise nur Firefox-Benutzer aus San Francisco ansprechen, die über Google auf Ihre Site zugegriffen haben. Legen Sie die Kategorie [!UICONTROL Geo] fest, um Benutzer aus San Francisco als Ziel festzulegen, die Kategorie [!UICONTROL Browser] für Benutzer, die Firefox verwenden, und die Kategorie [!UICONTROL Traffic-Quellen] , um Benutzer anzusprechen, die von [!UICONTROL Google] kommen. Die kategorienübergreifenden Regeln werden mit dem UND -Operator kombiniert.
+Sie können eine Regel verfeinern, indem Sie ihr zusätzliche Bedingungen hinzufügen oder zusätzliche Regeln in anderen Kategorien erstellen. Sie können beispielsweise nur Firefox-Benutzer aus San Francisco ansprechen, die über Google auf Ihre Website zugreifen. Legen Sie die Kategorie [!UICONTROL Geo] fest, um Benutzer aus San Francisco als Ziel festzulegen, die Kategorie [!UICONTROL Browser] für Benutzer, die Firefox verwenden, und die Kategorie [!UICONTROL Traffic-Quellen] , um Benutzer anzusprechen, die von [!UICONTROL Google] kommen. Die kategorienübergreifenden Regeln werden mit dem UND -Operator kombiniert.
 
 Erstellen Sie ein Ausdrucksziel, um komplexe Targeting-Regeln zu erstellen, die OR-Vorgänge über Kategorien hinweg enthalten.
 

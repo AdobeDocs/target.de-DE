@@ -2,11 +2,11 @@
 keywords: Browseroptionen; Typ; Browsertyp; Browsersprache; Sprache; Version; Browserversion
 description: Erfahren Sie, wie Sie in [!DNL Adobe Target] Zielgruppen erstellen, um Benutzer auszuwählen, die einen bestimmten Browser oder bestimmte Browseroptionen beim Besuch Ihrer Seite verwenden.
 title: Kann ich Besucher auf Grundlage des Browsertyps ansprechen?
-feature: Zielgruppen
+feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 76%
 
 ---
@@ -40,7 +40,7 @@ Es gibt zwei Möglichkeiten, Browser auszurichten:
 
    1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
    1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-   1. Ziehen Sie **[!UICONTROL Browser]** in den Bereich Audience Builder .
+   1. Ziehen Sie **[!UICONTROL Browser]** in den Audience Builder.
 
       ![Regeln > Browser](assets/target_browser.png)
 
