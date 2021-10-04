@@ -1,14 +1,13 @@
 ---
 keywords: adobe.target.sendnotifications;Sendnotifications;sendnotifications;Senden von Benachrichtigungen;Benachrichtigungen;at.js;Funktionen;funktion
-description: Verwenden Sie adobe.Zielgruppe.sendNotifications() für at.js, um Benachrichtigungen an die Kante [!DNL Target] zu senden, wenn ein Erlebnis ohne applyOffer wiedergegeben wird. (at.js.2.1 +)
-title: Wie verwende ich die Funktion adobe.Zielgruppe.sendNotifications()?
+description: Verwenden Sie adobe.target.sendNotifications() für at.js, um Benachrichtigungen an den Edge [!DNL Target] zu senden, wenn ein Erlebnis ohne applyOffer(s) gerendert wird. (at.js.2.1 +)
+title: Wie verwende ich die Funktion adobe.target.sendNotifications()?
 feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
-translation-type: tm+mt
-source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
+source-git-commit: 07ef58419f1785633bee930e2f9bd5451394ad93
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '634'
 ht-degree: 94%
 
 ---
@@ -35,8 +34,8 @@ Diese Funktion sendet eine Benachrichtigung an Target Edge, wenn ein Erlebnis oh
 | Request > notifications > address | Objekt | Nein |  |  |
 | Request > notifications > address > url | Zeichenfolge | Nein |  | URL, über die die Benachrichtigung ausgelöst wurde. |
 | Request > notifications > address > referringUrl | Zeichenfolge | Nein |  | Die Referenz-URL, über die die Benachrichtigung ausgelöst wurde. |
-| Request > notifications > parameters | Objekt | Nein | Die folgenden Namen sind für Parameter nicht zulässig:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Beachten Sie Folgendes:<ul><li>Maximale Begrenzung für Parameter: 50.</li><li>Der Parametername darf nicht leer sein.</li><li>Maximale Länge des Parameternamens: 128</li><li>Parameternamen dürfen nicht mit „profile“ beginnen.</li><li>Maximale Wertelänge des Parameters: 5.000.</li></ul> |  |
-| Request > notifications > profileParameters | Objekt | Nein | Die folgenden Namen sind für Parameter nicht zulässig:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Beachten Sie Folgendes:<ul><li>Maximale Begrenzung für Parameter: 50.</li><li>Der Parametername darf nicht leer sein.</li><li>Maximale Länge des Parameternamens: 128</li><li>Parameternamen dürfen nicht mit „profile“ beginnen.</li><li>Maximale Wertelänge: 5.000.</li></ul> |  |
+| Request > notifications > parameters | Zeichenfolge | Nein | Die folgenden Namen sind für Parameter nicht zulässig:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Beachten Sie Folgendes:<ul><li>Maximale Begrenzung für Parameter: 50.</li><li>Der Parametername darf nicht leer sein.</li><li>Maximale Länge des Parameternamens: 128</li><li>Parameternamen dürfen nicht mit „profile“ beginnen.</li><li>Maximale Wertelänge des Parameters: 5.000.</li></ul> |  |
+| Request > notifications > profileParameters | Zeichenfolge | Nein | Die folgenden Namen sind für Parameter nicht zulässig:<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Beachten Sie Folgendes:<ul><li>Maximale Begrenzung für Parameter: 50.</li><li>Der Parametername darf nicht leer sein.</li><li>Maximale Länge des Parameternamens: 128</li><li>Parameternamen dürfen nicht mit „profile“ beginnen.</li><li>Maximale Wertelänge: 5.000.</li></ul> |  |
 | Request > notifications > order | Objekt | Nein |  | Objekt, das die Bestelldetails beschreibt. |
 | Request > notifications > order > id | Zeichenfolge | Nein | `<=` 250 Zeichen. | Bestell-ID. |
 | Request > notifications > order > total | Zeichenfolge | Nein | `>=` 0 | Bestellsumme. |
@@ -58,7 +57,7 @@ Diese Funktion sendet eine Benachrichtigung an Target Edge, wenn ein Erlebnis oh
 | Request > notifications > view > key | Zeichenfolge | Nein | `<=` 512 Zeichen. | Ansichtsschlüssel. Der Schlüssel, der mit der Ansicht über die API festgelegt wurde. |
 | Request > notifications > view > state | Zeichenfolge | Nein |  | Token für den Ansichtsstatus. |
 
-**Hinweis**: Die folgenden Zeichen sind  ** nicht zulässig  `Request > notifications > mbox > name`:
+**Hinweis**: Die folgenden Zeichen sind  ** nicht zulässig für  `Request > notifications > mbox > name`:
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
