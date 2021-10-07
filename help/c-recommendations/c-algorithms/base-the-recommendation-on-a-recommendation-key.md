@@ -1,78 +1,235 @@
 ---
-keywords: Empfehlungsschlüssel;Empfehlungslogik;aktuelle Kategorie;benutzerdefiniertes Attribut;Zuletzt gekaufter Artikel;Zuletzt angezeigter Artikel;Am häufigsten angezeigter Artikel;am häufigsten angezeigte Kategorie;Beliebtheit;Zuletzt angezeigter Artikel;Zuletzt gekauft;Zuletzt zuletzt angezeigt;Favorit;Zuletzt angezeigt
-description: Erfahren Sie, wie Sie Empfehlungen auf Grundlage von Schlüsseln verwenden, die den Verhaltenskontext des Besuchers verwenden, um relevante Ergebnisse in Adobe [!DNL Target] Recommendations-Aktivitäten anzuzeigen.
-title: Wie kann ich die Empfehlung auf einem Empfehlungsschlüssel basieren?
+keywords: Empfehlungsschlüssel; Empfehlungslogik; aktuelle Kategorie; benutzerdefiniertes Attribut; zuletzt gekaufter Artikel; zuletzt angezeigter Artikel; am häufigsten angezeigter Artikel; am häufigsten angezeigter Artikel; Favoritenkategorie; Beliebtheit; kürzlich angezeigter Artikel; zuletzt gekaufter Artikel; zuletzt gekauft; zuletzt angesehen; am häufigsten angesehen; am häufigsten angesehen
+description: Erfahren Sie, wie Sie Empfehlungen basierend auf Schlüsseln verwenden, die Besucherverhaltenskontext verwenden, um relevante Ergebnisse in Adobe [!DNL Target] Recommendations-Aktivitäten anzuzeigen.
+title: Wie Basiere ich die Empfehlung auf einem Empfehlungsschlüssel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 17004e002e6ff7eb0a50f637561c5ec25823a2eb
 workflow-type: tm+mt
-source-wordcount: '2932'
-ht-degree: 67%
+source-wordcount: '3142'
+ht-degree: 47%
 
 ---
 
-# Stützen der Empfehlung auf einen Empfehlungsschlüssel
+# Stützen einer Empfehlung auf einen Empfehlungsschlüssel
 
-Auf Schlüsseln basierende Recommendations verwenden den Verhaltenskontext des Besuchers, um relevante Ergebnisse in [!DNL Adobe Target] [!DNL Recommendations]-Aktivitäten anzuzeigen.
+Recommendations basierend auf Algorithmen verwendet den Besucherverhaltenskontext, um relevante Ergebnisse in [!DNL Adobe Target] [!DNL Recommendations] -Aktivitäten anzuzeigen.
 
-Es gibt zwei Arten von Recommendations:
+Es gibt vier Algorithmustypen in [!DNL Target Recommendations]:
 
-* **Beliebtheit:** Führt Elemente gemäß „Am häufigsten angezeigt“, „Topverkäufe“ und „Top-Metriken“ auf. Der Schlüssel ist leer für die Beliebtheitskriterien.
-* **Schlüsselbasiert:** Bildet den Rest der Kriterien. Recommendations bietet eine vielfältige Reihe an Auswahlmöglichkeiten in Bezug auf den Schlüsseltyp. Die Möglichkeiten reichen von „Aktueller Artikel“ bis hin zu „Profilparameter“, wodurch Sie den Schlüssel der zu empfehlenden Werte programmgesteuert festlegen können. Sie können mehrere Kriterien miteinander vergleichen, indem Sie festlegen, dass die einzelnen Kriterien auf einem unterschiedlichen Schlüssel basieren.
+* [!UICONTROL Popularitätsbasiert]
+* [!UICONTROL Artikelbasiert]
+* [!UICONTROL Benutzerbasiert]
+* [!UICONTROL Benutzerdefinierte Kriterien]
 
-Jedes Kriterium ist in seinem eigenen Register definiert. Der Traffic wird gleichmäßig auf die verschiedenen Kriterientests verteilt. Anders ausgedrückt wird der Traffic bei zwei vorliegenden Kriterien gleichmäßig zwischen diesen aufgeteilt. Wenn Sie über zwei Kriterien und zwei Entwürfe verfügen, wird der Traffic gleichmäßig zwischen diesen vier Kombinationen aufgeteilt. Sie können auch den Prozentsatz der Websitebesucher festlegen, denen zum Vergleich der standardmäßige Inhalt gezeigt wird. In diesem Fall sieht ein angegebener Prozentsatz von Besuchern den Standardinhalt und der Rest wird auf die Kriterien- und Entwurfskombinationen verteilt.
+Jeder Algorithmustyp bietet verschiedene für seinen Typ geeignete Algorithmen, wie in der folgenden Tabelle dargestellt:
 
-1. Erstellen Sie ein neues Kriterium oder wählen Sie ein vorhandenes Kriterium aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
-1. Um den Empfehlungsschlüssel zu ändern, wählen Sie den neuen Schlüssel aus der Dropdown-Liste [!UICONTROL Empfehlungsschlüssel] und klicken Sie dann auf **[!UICONTROL Speichern]** oder **[!UICONTROL Aktualisieren]**.
+>[!NOTE]
+>
+>Der Typ [!UICONTROL Warenkorb-basiert] wird in der folgenden Tabelle beschrieben und wird in Kürze verfügbar sein.
 
-   Da sich unterschiedliche Logiken auf unterschiedliche Empfehlungsschlüssel beziehen, werden unterschiedliche Empfehlungen auf unterschiedlichen Seitentypen platziert. Weitere Informationen zu den einzelnen Empfehlungsschlüsseln finden Sie in den folgenden Abschnitten.
+| Algorithmustyp | Verwendungsbereiche | Verfügbare Algorithmen |
+| --- | --- | --- |
+| [!UICONTROL Popularitätsbasiert] | Machen Sie Empfehlungen basierend auf der allgemeinen Beliebtheit eines Artikels auf Ihrer Site oder auf der Beliebtheit von Artikeln in der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. eines Benutzers. | <ul><li>Am häufigsten angezeigt auf der gesamten Site</li><li>Am häufigsten angezeigt nach Kategorie</li><li>Am häufigsten nach Elementattribut angezeigt</li><li>Topverkäufe auf der gesamten Site</li><li>Topverkäufe nach Kategorie</li><li>Topverkäufe nach Elementattribut</li><li>Top nach Analytics-Metrik</li></ul> |
+| [!UICONTROL Artikelbasiert] | Empfehlungen aussprechen, die darauf basieren, ähnliche Artikel wie ein Artikel zu finden, den der Benutzer gerade ansieht oder kürzlich angesehen hat. | <ul><li>Personen, die das ansahen, sahen auch dies an</li><li>Personen, die das ansahen, kauften dies</li><li>Personen, die das kauften, kauften dies</li><li>Elemente mit ähnlichen Attributen</li></ul> |
+| [!UICONTROL Benutzerbasiert] | Empfehlungen basierend auf dem Benutzerverhalten erstellen. | <ul><li>Vor Kurzem aufgerufene Artikel </li><li>Empfohlen für Sie</li></ul> |
+| Warenkorbbasiert | (In Kürze) Treffen Sie Empfehlungen basierend auf dem Warenkorbinhalt des Benutzers. | <ul><li>Personen, die diese ansahen, sahen auch</li><li>Personen, die diese ansahen, kauften diese</li><li>Personen, die diese kauften, kauften diese</li></ul> |
+| [!UICONTROL Benutzerdefinierte Kriterien] | Machen Sie Empfehlungen basierend auf einer von Ihnen hochgeladenen benutzerdefinierten Datei. | <ul><li>Benutzerspezifischer Algorithmus</li></ul> |
 
-## Empfehlungsschlüssel
+Jedes Kriterium ist in seinem eigenen Register definiert. Der Traffic wird gleichmäßig auf die verschiedenen Kriterientests verteilt. Anders ausgedrückt wird der Traffic bei zwei vorliegenden Kriterien gleichmäßig zwischen diesen aufgeteilt. Wenn Sie über zwei Kriterien und zwei Entwürfe verfügen, wird der Traffic gleichmäßig zwischen diesen vier Kombinationen aufgeteilt. Sie können auch den Prozentsatz der Websitebesucher festlegen, denen zum Vergleich der standardmäßige Inhalt gezeigt wird. In diesem Fall wird dem angegebenen Prozentsatz der Besucher der Standardinhalt angezeigt und der Rest wird zwischen Ihren Kriterien und Designkombinationen aufgeteilt.
 
-Die folgenden Empfehlungsschlüssel stehen in der Dropdown-Liste [!UICONTROL Empfehlungsschlüssel] zur Verfügung:
+Weitere Informationen zum Erstellen von Kriterien und zum Definieren der Algorithmustypen und Algorithmen finden Sie unter [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
 
-### Aktueller Artikel {#current-item}
+Verschiedene Empfehlungsalgorithmen eignen sich für die Platzierung auf verschiedenen Seitentypen. Weitere Informationen zu den einzelnen Algorithmustypen und den verfügbaren Algorithmen finden Sie in den folgenden Abschnitten.
 
-Die Empfehlung wird vom Artikel bestimmt, den der Besucher momentan ansieht.
+## [!UICONTROL Popularitätsbasiert]
 
-Recommendations zeigt andere Artikel an, die den Besucher aufgrund seiner derzeitigen Artikelwahl ebenfalls interessieren könnten.
+Mit dem Algorithmustyp [!UICONTROL Beliebtheitsbasiert] können Sie Empfehlungen anhand der allgemeinen Beliebtheit eines Elements auf Ihrer Site oder basierend auf der Beliebtheit von Elementen in der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. eines Benutzers abgeben.
 
-Wenn diese Option ausgewählt ist, muss der `entity.id`-Wert als Parameter in der Anzeige-Mbox weitergeleitet werden.
+Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Beliebtheitsbasiert] verfügbar:
 
-#### Logik (Kriterien)
+### Am häufigsten angezeigt auf der gesamten Site {#most-viewed}
 
-* [!UICONTROL Artikel mit ähnlichen Attributen]
-* [!UICONTROL Personen, die das ansahen, sahen auch dies an]
-* [!UICONTROL Personen, die das ansahen, kauften dies]
-* [!UICONTROL Personen, die das kauften, kauften dies]
-* [!UICONTROL Site-Affinität]
+Die Empfehlung wird durch den Artikel bestimmt, der am häufigsten angezeigt wurde. Dies wird vom Neuigkeits-/Häufigkeitskriterium bestimmt, das wie folgt funktioniert:
 
-#### Verwendung auf Ihrer Site
+* 10 Punkte für erstmalige Ansicht
+* 5 Punkte für alle folgenden Ansichten
+* Am Ende der Sitzung alle Werte durch 2 teilen
 
-* Seiten mit einzelnen Artikeln, beispielsweise Produktseiten.
-* NICHT auf Seiten ohne Suchergebnisse verwenden.
+Beispiel: Die Anzeige von Surfbrett A und Surfbrett B in einer Sitzung führt zu folgendem Ergebnis: A: 10 und B: 5. Wenn die Sitzung beendet wird, haben Sie A: 5, B: 2.5. Wenn Sie dieselben Elemente in der nächsten Sitzung anzeigen, ändern sich die Werte in A: 15 B: 7.5.
 
-### Aktuelle Kategorie  {#current-category}
+Verwenden Sie diesen Algorithmus auf allgemeinen Seiten, wie z. B. Startseiten, Landingpages und Offsite-Anzeigen.
 
-Die Empfehlung wird von der Produktkategorie bestimmt, die der Besucher momentan ansieht.
+### Am häufigsten angezeigt nach Kategorie {#most-viewed-category}
 
-In Empfehlungen werden Produkte aus der angegebenen Produktkategorie angezeigt.
+Die Empfehlung wird von der Kategorie bestimmt, die am meisten Aktivität verzeichnete, wobei dieselbe Methode wie für den am häufigsten angezeigten Artikel verwendet wird, statt Produkten jedoch Kategorien bewertet werden.
 
-Wenn diese Option ausgewählt ist, muss der `entity.categoryId`-Wert als Parameter an die Anzeige-Mbox weitergeleitet werden.
+Dies wird vom Neuigkeits-/Häufigkeitskriterium bestimmt, das wie folgt funktioniert:
 
-#### Logik (Kriterien)
+* 10 Punkte für erstmalige Kategorieansicht
+* 5 Punkte für alle folgenden Ansichten
 
-* Topverkäufe
-* Am häufigsten angezeigt
+Kategorien, die zum ersten Mal besucht werden, erhalten 10 Punkte. Für nachfolgende Besuche derselben Kategorie werden 5 Punkte vergeben. Bei jedem Besuch werden nicht aktuelle Kategorien, die zuvor besucht wurden, um 1 reduziert.
 
-#### Verwendung auf Ihrer Site
+Beispiel: Die Anzeige von Kategorie A und Kategorie B in einer Sitzung führt zu folgendem Ergebnis: A: 9 und B: 10. Wenn Sie in der nächsten Sitzung dieselben Elemente ansehen, ändern sich die Werte in A: 20 B: 9.
 
-* Seiten mit einer Kategorie.
-* NICHT auf Seiten ohne Suchergebnisse verwenden.
+Verwenden Sie diesen Algorithmus auf allgemeinen Seiten, wie z. B. Startseiten, Landingpages und Offsite-Anzeigen.
 
-### Benutzerspezifisches Attribut   {#custom}
+Wenn Sie den Algorithmus Am häufigsten angezeigt nach Kategorie auswählen, können Sie die folgenden Recommendations-Schlüssel auswählen:
+
+* Aktuelle Kategorie
+* Favoritenkategorie
+
+### Am häufigsten nach Elementattribut angezeigt
+
+(Informationen in Kürze verfügbar)
+
+### Topverkäufe auf der gesamten Site {#top-sellers}
+
+Zeigt die Artikel an, die in den am häufigsten abgeschlossenen Bestellungen auf der gesamten Site enthalten sind. Wenn derselbe Artikel in einer Bestellung mehrmals bestellt wurde, zählt dies als eine Bestellung.
+
+Mit diesem Algorithmus können Sie Empfehlungen für die am häufigsten verkauften Artikel auf Ihrer Site erstellen, um die Konversion und den Umsatz zu steigern. Diese Logik ist besonders für erstmalige Besucher Ihrer Site geeignet.
+
+### Topverkäufe nach Kategorie
+
+Zeigt die Artikel an, die zu den am häufigsten abgeschlossenen Bestellungen gehören, nach Kategorie. Wenn derselbe Artikel in einer Bestellung mehrmals bestellt wurde, zählt dies als eine Bestellung.
+
+Mit diesem Algorithmus können Sie Empfehlungen für die am häufigsten verkauften Artikel auf Ihrer Site basierend auf der Kategorie erstellen, um die Konversion und den Umsatz zu steigern. Diese Logik ist besonders für erstmalige Besucher Ihrer Site geeignet.
+
+Wenn Sie den Algorithmus Am häufigsten angezeigt nach Kategorie auswählen, können Sie die folgenden Recommendations-Schlüssel auswählen:
+
+* Aktuelle Kategorie
+* Favoritenkategorie
+
+### Topverkäufe nach Elementattribut
+
+(Informationen in Kürze verfügbar)
+
+### Top nach Analytics-Metrik
+
+(Informationen in Kürze verfügbar)
+
+## [!UICONTROL Artikelbasiert]
+
+Mit dem Empfehlungstyp [!UICONTROL Item-Based] können Sie Empfehlungen dazu abgeben, wie Sie ähnliche Artikel finden, die einem Artikel ähneln, den der Benutzer gerade anzeigt oder kürzlich angesehen hat.
+
+Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Item-Based] verfügbar:
+
+### Personen, die das ansahen, sahen auch dies an {#viewed-viewed}
+
+Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird.
+
+Diese Logik gibt andere Produkte zurück, die von Benutzern nach Ansicht dieses Objekts angesehen wurden. das angegebene Produkt nicht in der Ergebnismenge enthalten ist.
+
+Mit dieser Logik können Sie zusätzliche Konversionsmöglichkeiten erstellen, indem Sie Artikel empfehlen, die auch andere Besucher angezeigt haben, die einen Artikel angesehen haben. Besucher, die beispielsweise Fahrräder auf Ihrer Site sehen, können sich auch Fahrradhelme, Fahrradkits, Schlösser usw. ansehen. Sie können eine Empfehlung mit dieser Logik erstellen, die vorschlägt, dass andere Produkte Ihnen bei der Umsatzsteigerung helfen.
+
+Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendations-Schlüssel auswählen:
+
+* Aktueller Artikel
+* Zuletzt gekaufter Artikel
+* Zuletzt angezeigter Artikel
+* Am häufigsten angezeigter Artikel
+
+### Personen, die das ansahen, kauften dies {#viewed-bought}
+
+Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird. Dieses Kriterium gibt andere Produkte zurück, die Personen nach dem Ansehen dieses Artikels gekauft haben. Das angegebene Produkt ist nicht in der Ergebnismenge enthalten.
+
+Diese Logik gibt andere Produkte zurück, die Kunden nach Ansicht dieses Produkts gekauft haben. das angegebene Produkt nicht in der Ergebnismenge enthalten ist.
+
+Mit dieser Logik können Sie Querverkaufsmöglichkeiten erhöhen, indem Sie eine Empfehlung auf einer Produktseite anzeigen, die beispielsweise Artikel anzeigt, die andere Besucher gekauft haben. Wenn der Besucher beispielsweise einen Angelpol anzeigt, kann die Empfehlung zusätzliche Artikel anzeigen, die andere Besucher gekauft haben, wie z. B. Kästen, Gewässer und Fischköpfe. Wenn Besucher Ihre Site besuchen, erhalten sie zusätzliche Kaufempfehlungen.
+
+Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendations-Schlüssel auswählen:
+
+* Aktueller Artikel
+* Zuletzt gekaufter Artikel
+* Zuletzt angezeigter Artikel
+* Am häufigsten angezeigter Artikel
+
+### Personen, die das kauften, kauften dies {#bought-bought}
+
+Empfiehlt Artikel, die am häufigsten von Kunden zur selben Zeit gekauft werden, wie der angegebene Artikel.
+
+Diese Logik gibt andere Produkte zurück, die Kunden nach dem Kauf dieses Produkts gekauft haben. das angegebene Produkt nicht in der Ergebnismenge enthalten ist.
+
+Mit dieser Logik können Sie die Verkaufsmöglichkeiten erhöhen, indem Sie eine Empfehlung auf einer Warenkorbübersichtsseite anzeigen, auf der beispielsweise Artikel angezeigt werden, die auch von anderen Käufern gekauft wurden. Wenn der Besucher z. B. einen Anzug kauft, kann die Empfehlung zusätzliche Artikel anzeigen, die andere Besucher zusammen mit dem Anzug gekauft haben, wie z. B. Krawatten, Kleiderschuhe und Links. Wenn Besucher ihre Käufe überprüfen, geben Sie ihnen zusätzliche Empfehlungen.
+
+Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendations-Schlüssel auswählen:
+
+* Aktueller Artikel
+* Zuletzt gekaufter Artikel
+* Zuletzt angezeigter Artikel
+* Am häufigsten angezeigter Artikel
+
+### Elemente mit ähnlichen Attributen {#similar-attributes}
+
+Empfiehlt auf Grundlage von aktueller Seitenaktivität oder früherem Besucherverhalten Artikel oder Medien, die eine Ähnlichkeit zu anderen Artikeln oder Medien aufweisen.
+
+Wenn Sie Elemente/Medien mit ähnlichen Attributen auswählen, können Sie Regeln zur Ähnlichkeit von Inhalten festlegen.
+
+Die Verwendung der Ähnlichkeit von Inhalten zum Generieren von Empfehlungen ist besonders effektiv für neue Artikel, die in Empfehlungen mit Personen, die dies ansahen, sahen auch dies an, und anderen Logiken basierend auf dem bisherigen Verhalten nicht angezeigt werden. Anhand der Ähnlichkeit von Inhalten können sinnvolle Empfehlungen für neue Benutzer erstellt werden, für die noch keine historischen Daten oder Einkäufe verzeichnet wurden.
+
+Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendations-Schlüssel auswählen:
+
+* Aktueller Artikel
+* Zuletzt gekaufter Artikel
+* Zuletzt angezeigter Artikel
+* Am häufigsten angezeigter Artikel
+
+Weitere Informationen finden Sie unter [Inhaltsähnlichkeit](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+
+## [!UICONTROL Benutzerbasiert]
+
+Mit dem benutzerbasierten Algorithmustyp können Sie Empfehlungen basierend auf dem Benutzerverhalten abgeben.
+
+Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Benutzerbasiert] verfügbar:
+
+### Vor Kurzem aufgerufene Artikel {#recently-viewed}
+
+Nutzt den Verlauf des Benutzers (sitzungsübergreifend) für die Anzeige der letzten *x* vom Besucher angesehenen Artikel, basierend auf der Anzahl x der im Entwurf vorhandenen Plätze.
+
+Der Algorithmus &quot;Kürzlich angezeigte Elemente&quot;gibt Ergebnisse zurück, die spezifisch für eine gegebene [Umgebung](/help/administrating-target/hosts.md) sind. Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die jeweiligen Elemente der entsprechenden Umgebung an. Wenn sich zwei Sites in derselben Umgebung befinden und ein Besucher zwischen den beiden Sites wechselt, werden dem Besucher dieselben kürzlich angezeigten Elemente für beide Sites angezeigt.
+
+>[!NOTE]
+>
+>Sie können die Kriterien [!UICONTROL Kürzlich angezeigte Elemente] nicht für Reserveempfehlungen verwenden.
+
+„Kürzlich angezeigte Elemente/Medien“ kann so gefiltert werden, dass nur Elemente mit einem bestimmten Attribut angezeigt werden.
+
+* Kürzlich angesehene Kriterien können analog zu anderen Kriterien in Empfehlungen konfiguriert werden.
+* Sie können [Sammlungen](/help/c-recommendations/c-products/collections.md), [Ausschlüsse](/help/c-recommendations/c-products/exclusions.md) und [Einschlüsse](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (einschließlich der speziellen Regeln für „Preis“ und „Bestand“) können auf die gleiche Weise wie alle anderen Kriterien genutzt werden.
+
+Mögliche Anwendungsfälle sind beispielsweise, dass ein multinationales Unternehmen mit mehreren Unternehmen über mehrere digitale Eigenschaften hinweg über Elemente für die Besucheransicht verfügt. In diesem Fall können Sie die kürzlich angezeigten Elemente so begrenzen, dass nur die entsprechende Eigenschaft angezeigt wird, wo sie angezeigt wurden. Dadurch wird verhindert, dass kürzlich angezeigte Elemente auf der Site einer anderen digitalen Eigenschaft angezeigt werden.
+
+Verwenden Sie diesen Algorithmus auf allgemeinen Seiten, wie z. B. Startseiten, Landingpages und Offsite-Anzeigen.
+
+>[!NOTE]
+>
+>[!UICONTROL Bei den kürzlich angezeigten ] Elementen werden sowohl die globalen Ausschlüsse als auch die ausgewählte Sammlungseinstellung für die Aktivität berücksichtigt. Wenn ein Element durch einen globalen Ausschluss ausgeschlossen oder nicht in der ausgewählten Sammlung enthalten ist, wird es nicht angezeigt. Daher sollte bei Verwendung des Kriteriums [!UICONTROL Zuletzt angezeigte Elemente] die Einstellung &quot;Alle Sammlungen&quot;im Allgemeinen verwendet werden.
+
+### Empfohlen für Sie {#recommended-for-you}
+
+Empfiehlt Artikel basierend auf dem Browsen, Anzeigen und Kaufverlauf jedes Besuchers.
+
+Mit diesem Algorithmus können Sie personalisierte Inhalte und Erlebnisse für neue und wiederkehrende Besucher bereitstellen. Die Liste der Empfehlungen wird der neuesten Aktivität des Besuchers zugeordnet. Sie wird in der Sitzung aktualisiert und personalisiert, sobald der Benutzer Ihre Site durchsucht.
+
+Sowohl Ansichten als auch Käufe werden zur Bestimmung der empfohlenen Artikel verwendet. Der angegebene Empfehlungsschlüssel (z. B. &quot;Aktuelles Element&quot;) wird verwendet, um von Ihnen ausgewählte Einschlussregelfilter anzuwenden.
+
+Sie können zum Beispiel:
+
+* Ausschließen von Artikeln, die bestimmte Kriterien nicht erfüllen (nicht vorrätige Produkte, vor mehr als 30 Tagen veröffentlichte Artikel, Filme mit R usw.).
+* Begrenzen Sie die eingeschlossenen Elemente auf eine Kategorie oder die aktuelle Kategorie.
+
+Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Filterschlüssel auswählen:
+
+* Aktueller Artikel
+* Zuletzt gekaufter Artikel
+* Zuletzt angezeigter Artikel
+* Am häufigsten angezeigter Artikel
+
+## Benutzerdefinierte Kriterien {#custom}
+
+Mit dem Algorithmustyp Benutzerspezifische Kriterien können Sie Empfehlungen basierend auf einer von Ihnen hochgeladenen benutzerdefinierten Datei erstellen.
 
 Die Empfehlung wird anhand eines Artikels ermittelt, der im Besucherprofil gespeichert ist, entweder mithilfe des Attributs user.*x* oder Profile.*x* Attribute.
 
@@ -82,7 +239,7 @@ Wenn Sie Empfehlungen auf Grundlage von benutzerspezifischen Attributen erstelle
 
 Zusätzlich zur Ausgabe Ihrer eigenen benutzerspezifischen Kriterien können Sie in Echtzeit filtern. So können Sie beispielsweise Ihre empfohlenen Elemente so begrenzen, dass nur die Favoritenkategorie oder -marke eines Besuchers angezeigt wird. Dadurch können Sie Offline-Berechnungen mit der Echtzeitfilterung kombinieren.
 
-Diese Funktion bedeutet, dass Sie mit [!DNL Target] Personalisierung zusätzlich zu Ihren offline berechneten Empfehlungen oder benutzerspezifischen Listen hinzufügen können. Dadurch lässt sich die Leistung Ihrer Datenwissenschaftler und Ihrer Datenrecherche mit der bewährten Bereitstellung, der Laufzeitfilterung, den A/B-Tests, dem Targeting, der Berichterstellung, den Integrationen und mehr von Adobe kombinieren.
+Mit dieser Funktion können Sie [!DNL Target] verwenden, um zusätzlich zu Ihren offline berechneten Empfehlungen oder benutzerdefiniert-kuratierten Listen Personalisierungen hinzuzufügen. Dadurch lässt sich die Leistung Ihrer Datenwissenschaftler und Ihrer Datenrecherche mit der bewährten Bereitstellung, der Laufzeitfilterung, den A/B-Tests, dem Targeting, der Berichterstellung, den Integrationen und mehr von Adobe kombinieren.
 
 Wenn benutzerdefinierten Kriterien Einschlussregeln hinzugefügt werden, wandelt dies auf der Grundlage eines Besuchers andernfalls statische Empfehlungen in dynamische Empfehlungen um.
 
@@ -92,25 +249,50 @@ Wenn benutzerdefinierten Kriterien Einschlussregeln hinzugefügt werden, wandelt
 Mögliche Nutzungsszenarien:
 
 * Sie möchten Filme aus einer benutzerdefiniert-kuratierten Liste nur dann empfehlen, wenn sie der Besucher noch nicht gesehen hat.
-* Sie möchten einen Offline-Algorithmus ausführen und die Ergebnisse verwenden, um Ihre Empfehlung zu verbessern. Dabei müssen Sie jedoch sicherstellen, dass vergriffene Artikel niemals empfohlen werden.
+* Sie möchten einen Offline-Algorithmus ausführen und die Ergebnisse verwenden, um Ihre Empfehlungen zu optimieren. Sie müssen jedoch sicherstellen, dass nicht vorrätige Artikel niemals empfohlen werden.
 * Sie möchten nur die Artikel einbeziehen, die aus der Favoritenkategorie dieses Besuchers stammen.
 
-#### Logik (Kriterien)
+## Empfehlungsschlüssel
 
+Die folgenden Empfehlungsschlüssel sind in der Dropdownliste [!UICONTROL Empfehlungsschlüssel] verfügbar:
+
+### Aktueller Artikel {#current-item}
+
+Die Empfehlung wird vom Artikel bestimmt, den der Besucher momentan ansieht.
+
+Recommendations zeigt andere Artikel an, die den Besucher aufgrund seiner derzeitigen Artikelwahl ebenfalls interessieren könnten.
+
+Wenn diese Option ausgewählt ist, muss der `entity.id`-Wert als Parameter in der Anzeige-Mbox weitergeleitet werden.
+
+Kann mit den folgenden Algorithmen verwendet werden:
+
+* [!UICONTROL Artikel mit ähnlichen Attributen]
 * [!UICONTROL Personen, die das ansahen, sahen auch dies an]
 * [!UICONTROL Personen, die das ansahen, kauften dies]
 * [!UICONTROL Personen, die das kauften, kauften dies]
-* [!UICONTROL Gesamtverhalten]
-* [!UICONTROL Am häufigsten angezeigt]
-* [!UICONTROL Topverkäufe]
 
-Wenn der Schlüssel ein benutzerspezifisches Profilattribut ist und der Algorithmustyp „Am häufigsten angezeigt“ oder „Topverkäufe“ lautet, wird eine neue Dropdownliste namens „Nach eindeutigem Wert gruppieren von“ angezeigt, in der eine Liste bekannter Entitätsattribute (mit Ausnahme von ID, category, margin, value, inventory und environment) vorhanden ist. Dieses Feld ist ein Pflichtfeld.
+Verwenden Sie den Empfehlungsschlüssel [!UICONTROL Aktueller Artikel] auf Ihrer Site auf:
 
-#### Verwendung auf Ihrer Site
+* Seiten mit einzelnen Artikeln, beispielsweise Produktseiten.
+* NICHT auf Seiten ohne Suchergebnisse verwenden.
 
-* Kann auf beliebigen Seiten verwendet werden.
+### Zuletzt gekaufter Artikel {#last-purchased}
 
-#### Benutzerspezifischer Empfehlungsschlüssel
+Die Empfehlung wird durch den letzten Artikel bestimmt, der von dem jeweiligen Unique Visitor gekauft wurde. Dies wird automatisch erfasst, sodass keine Werte auf der Seite übergeben werden müssen.
+
+Kann mit den folgenden Algorithmen verwendet werden:
+
+* [!UICONTROL Artikel mit ähnlichen Attributen]
+* [!UICONTROL Personen, die das ansahen, sahen auch dies an]
+* [!UICONTROL Personen, die das ansahen, kauften dies]
+* [!UICONTROL Personen, die das kauften, kauften dies]
+
+Verwenden Sie den Empfehlungsschlüssel [!UICONTROL Zuletzt gekaufter Artikel] auf Ihrer Site auf:
+
+* Startseite, Seite „Mein Konto“, Offsite-Werbeanzeigen.
+* NICHT auf Produktseiten oder Seiten verwenden, die für Einkäufe relevant sind.
+
+#### Benutzerdefinierter Empfehlungsschlüssel
 
 Sie können Empfehlungen auf dem Wert eines benutzerdefinierten Profilattributs basieren. Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Besucher zuletzt der Warteschlange hinzugefügt hat.
 
@@ -133,210 +315,70 @@ Wenn Ihr benutzerdefiniertes Profilattribut nicht direkt mit einer Entitäts-ID 
 
    ![Neues Kriteriendialogfeld erstellen 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
-### Favoritenkategorie {#favorite-category}
+### Zuletzt angezeigter Artikel {#last-viewed}
 
-Die Empfehlung wird von der Kategorie bestimmt, die am meisten Aktivität verzeichnete, wobei dieselbe Methode wie für den am häufigsten angezeigten Artikel verwendet wird, statt Produkten jedoch Kategorien bewertet werden.
+Die Empfehlung wird durch den letzten Artikel bestimmt, der von dem jeweiligen Unique Visitor angezeigt wurde. Dies wird automatisch erfasst, sodass keine Werte auf der Seite übergeben werden müssen.
 
-Dies wird vom Neuigkeits-/Häufigkeitskriterium bestimmt, das wie folgt funktioniert:
-
-* 10 Punkte für erstmalige Kategorieansicht
-* 5 Punkte für alle folgenden Ansichten
-
-Kategorien, die zum ersten Mal besucht werden, erhalten 10 Punkte. Für nachfolgende Besuche derselben Kategorie werden 5 Punkte vergeben. Bei jedem Besuch werden nicht aktuelle Kategorien, die zuvor besucht wurden, um 1 reduziert.
-
-Beispiel: Die Anzeige von Kategorie A und Kategorie B in einer Sitzung führt zu folgendem Ergebnis: A: 9 und B: 10. Wenn Sie in der nächsten Sitzung dieselben Elemente ansehen, ändern sich die Werte in A: 20 B: 9.
-
-#### Logik (Kriterien)
-
-* [!UICONTROL Topverkäufe]
-* [!UICONTROL Am häufigsten angezeigt]
-
-#### Verwendung auf Ihrer Site
-
-* Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
-
-### Zuletzt gekaufter Artikel {#last-purchased}
-
-Die Empfehlung wird durch den letzten Artikel bestimmt, der von dem jeweiligen Unique Visitor gekauft wurde. Dies wird automatisch erfasst, und es müssen keine Werte auf der Seite weitergereicht werden.
-
-#### Logik (Kriterien)
+Kann mit den folgenden Algorithmen verwendet werden:
 
 * [!UICONTROL Artikel mit ähnlichen Attributen]
 * [!UICONTROL Personen, die das ansahen, sahen auch dies an]
 * [!UICONTROL Personen, die das ansahen, kauften dies]
 * [!UICONTROL Personen, die das kauften, kauften dies]
-* [!UICONTROL Site-Affinität]
 
-#### Verwendung auf Ihrer Site
+Verwenden Sie den Empfehlungsschlüssel [!UICONTROL Zuletzt angezeigter Artikel] auf Ihrer Site auf:
 
 * Startseite, Seite „Mein Konto“, Offsite-Werbeanzeigen.
 * NICHT auf Produktseiten oder Seiten verwenden, die für Einkäufe relevant sind.
 
-### Zuletzt angezeigter Artikel  {#last-viewed}
-
-Die Empfehlung wird durch den letzten Artikel bestimmt, der von dem jeweiligen Unique Visitor angezeigt wurde. Dies wird automatisch erfasst, und es müssen keine Werte auf der Seite weitergereicht werden.
-
-#### Logik (Kriterien)
-
-* [!UICONTROL Artikel mit ähnlichen Attributen]
-* [!UICONTROL Personen, die das ansahen, sahen auch dies an]
-* [!UICONTROL Personen, die das ansahen, kauften dies]
-* [!UICONTROL Personen, die das kauften, kauften dies]
-* [!UICONTROL Site-Affinität]
-
-#### Verwendung auf Ihrer Site
-
-* Startseite, Seite „Mein Konto“, Offsite-Werbeanzeigen.
-* NICHT auf Produktseiten oder Seiten verwenden, die für Einkäufe relevant sind.
-
-### Am häufigsten angezeigter Artikel  {#most-viewed}
-
-Die Empfehlung wird von dem Artikel bestimmt, der am häufigsten angezeigt wurde, wobei dieselbe Methode wie für die bevorzugte Kategorie verwendet wird.
-
-Dies wird vom Neuigkeits-/Häufigkeitskriterium bestimmt, das wie folgt funktioniert:
-
-* 10 Punkte für erstmalige Ansicht
-* 5 Punkte für alle folgenden Ansichten
-* Am Ende der Sitzung alle Werte durch 2 teilen
-
-Beispiel: Die Anzeige von Surfbrett A und Surfbrett B in einer Sitzung führt zu folgendem Ergebnis: A: 10 und B: 5. Am Ende der Sitzung ist das Ergebnis A: 5 und B: 2,5. Wenn Sie dieselben Artikel in der nächsten Sitzung anzeigen, ändern sich die Werte in A: 15 und B: 7,5.
-
-#### Logik (Kriterien)
-
-* [!UICONTROL Artikel mit ähnlichen Attributen]
-* [!UICONTROL Personen, die das ansahen, sahen auch dies an]
-* [!UICONTROL Personen, die das ansahen, kauften dies]
-* [!UICONTROL Personen, die das kauften, kauften dies]
-* [!UICONTROL Site-Affinität]
-
-#### Verwendung auf Ihrer Site
-
-* Allgemeine Seiten wie Startseiten oder Einstiegsseiten und Offsite-Werbeanzeigen.
-
-### Beliebtheit  {#popularity}
-
-Die Empfehlung wird von den am meisten bevorzugten Artikeln auf Ihrer Site bestimmt. Unter „Popularität“ fallen Topverkäufe und die am häufigsten nach Mbox-Daten angezeigten Artikel sowie bei der Verwendung von Adobe Analytics alle verfügbaren Metriken im Produktbericht. Die Artikel werden je nach ausgewählter Recommendations-Logik in eine Rangfolge gebracht.
-
-#### Logik (Kriterien)
-
-* [!UICONTROL Topverkäufe]
-* [!UICONTROL Am häufigsten angezeigt]
-* Produktberichtsmetriken (bei der Verwendung von Adobe Analytics)
-
-#### Verwendung auf Ihrer Site
-
-* Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
-
-### Vor Kurzem aufgerufene Artikel   {#recently-viewed}
-
-Nutzt den Verlauf des Benutzers (sitzungsübergreifend) für die Anzeige der letzten *x* vom Besucher angesehenen Artikel, basierend auf der Anzahl x der im Entwurf vorhandenen Plätze.
-
-Das Kriterium &quot;Zuletzt angezeigte Elemente&quot;gibt Ergebnisse zurück, die für eine bestimmte [Umgebung](/help/administrating-target/hosts.md) spezifisch sind. Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die jeweiligen Elemente der entsprechenden Umgebung an. Wenn zwei Sites in derselben Umgebung enthalten sind und ein Besucher zwischen ihnen wechselt, erhält er die kürzlich angezeigten Elemente für beide Sites.
-
->[!NOTE]
->
->Sie können die Kriterien [!UICONTROL Zuletzt angezeigte Elemente] nicht für Reserveempfehlungen verwenden.
-
-„Kürzlich angezeigte Elemente/Medien“ kann so gefiltert werden, dass nur Elemente mit einem bestimmten Attribut angezeigt werden.
-
-* Kürzlich angesehene Kriterien können analog zu anderen Kriterien in Empfehlungen konfiguriert werden.
-* Sie können [Sammlungen](/help/c-recommendations/c-products/collections.md), [Ausschlüsse](/help/c-recommendations/c-products/exclusions.md) und [Einschlüsse](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (einschließlich der speziellen Regeln für „Preis“ und „Bestand“) können auf die gleiche Weise wie alle anderen Kriterien genutzt werden.
-
-Mögliche Nutzungsszenarien:
-
-In einer multinationalen Firma mit mehreren Unternehmen zeigt möglicherweise ein Besucher Elemente über mehrere digitale Eigenschaften hinweg an. In diesem Fall können Sie die kürzlich angezeigten Elemente so begrenzen, dass nur die entsprechende Eigenschaft angezeigt wird, wo sie angezeigt wurden. Dadurch wird verhindert, dass kürzlich angezeigte Elemente auf der Site einer anderen digitalen Eigenschaft angezeigt werden.
-
-#### Verwendung auf Ihrer Site
-
-* Allgemeine Seiten wie Startseiten oder Landingpages und Offsite-Werbeanzeigen.
-
->[!NOTE]
->
->[!UICONTROL Bei kürzlich angezeigten ] Elementen werden sowohl globale Einstellungen als auch die ausgewählte Sammlungseinstellung für die Aktivität ausgeschlossen. Wenn ein Element durch einen globalen Ausschluss ausgeschlossen wird oder nicht in der ausgewählten Sammlung enthalten ist, wird es nicht angezeigt. Bei Verwendung des Kriteriums [!UICONTROL Zuletzt angezeigte Elemente] sollte daher generell die Einstellung &quot;Alle Sammlungen&quot;verwendet werden.
-
-## Empfehlungslogik
-
-[!DNL Target Recommendations] verwendet komplexe Algorithmen, um zu ermitteln, wann die Aktionen eines Benutzers den für Ihre Aktivität festgelegten Kriterien entsprechen. Der Empfehlungsschlüssel bestimmt die verfügbaren Optionen der Empfehlungslogik.
-
-Die folgende Empfehlungslogik (Kriterien) steht in der Dropdown-Liste [!UICONTROL Empfehlungslogik] zur Verfügung:
-
-### Artikel/Medien mit ähnlichen Attributen {#similar-attributes}
-
-Empfiehlt auf Grundlage von aktueller Seitenaktivität oder früherem Besucherverhalten Artikel oder Medien, die eine Ähnlichkeit zu anderen Artikeln oder Medien aufweisen.
-
-Wenn Sie Elemente/Medien mit ähnlichen Attributen auswählen, haben Sie die Möglichkeit, Regeln zur Ähnlichkeit von Inhalten festzulegen.
-
-Die Verwendung der Ähnlichkeit von Inhalten zum Generieren von Empfehlungen ist besonders wirksam für neue Artikel, die in Empfehlungen mit Personen, die dies angesehen haben, sahen dies an, und anderer Logik, die auf dem bisherigen Verhalten basiert, nicht angezeigt werden. Anhand der Ähnlichkeit von Inhalten können sinnvolle Empfehlungen für neue Benutzer erstellt werden, für die noch keine historischen Daten oder Einkäufe verzeichnet wurden.
-
-Weitere Informationen finden Sie unter [Ähnlichkeit von Inhalten](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
-
-Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
-
-* Aktueller Artikel
-* Zuletzt gekaufter Artikel
-* Zuletzt angezeigter Artikel
-* Am häufigsten angezeigter Artikel
-
-### Am häufigsten angezeigt {#most-viewed-logic}
+### Am häufigsten angezeigter Artikel {#most-viewed-logic}
 
 Zeigt die Artikel oder Medien an, die am häufigsten auf Ihrer Site angezeigt werden.
 
-Mit dieser Logik können Sie Empfehlungen basierend auf den am häufigsten angezeigten Artikeln auf Ihrer Site anzeigen, um die Konversionen für andere Elemente zu erhöhen. Beispielsweise könnte eine Mediensite Empfehlungen für die am häufigsten angezeigten Videos auf ihrer Startseite anzeigen, um Besucher dazu anzuregen, sich weitere Videos anzusehen.
+Mit dieser Logik können Sie Empfehlungen basierend auf den am häufigsten angezeigten Artikeln auf Ihrer Site anzeigen, um Konversionen für andere Elemente zu erhöhen. Beispielsweise könnte eine Medien-Site Empfehlungen für die am häufigsten angezeigten Videos auf ihrer Startseite anzeigen, um Besucher dazu zu ermutigen, sich zusätzliche Videos anzusehen.
 
-Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
+Dieser Empfehlungsschlüssel kann mit den folgenden Algorithmen verwendet werden:
 
-* Aktuelle Kategorie
-* Benutzerspezifisches Attribut 
-* Favoritenkategorie
-* Beliebtheit
+* [!UICONTROL Artikel mit ähnlichen Attributen]
+* [!UICONTROL Personen, die das ansahen, sahen auch dies an]
+* [!UICONTROL Personen, die das ansahen, kauften dies]
+* [!UICONTROL Personen, die das kauften, kauften dies]
 
-### Personen, die das kauften, kauften dies {#bought-bought}
+### Aktuelle Kategorie {#current-category}
 
-Empfiehlt Artikel, die am häufigsten von Kunden zur selben Zeit gekauft werden, wie der angegebene Artikel.
+Die Empfehlung wird von der Produktkategorie bestimmt, die der Besucher momentan ansieht.
 
-Diese Logik gibt andere Produkte zurück, die Kunden nach dem Kauf dieses Produkts gekauft haben. das angegebene Produkt nicht in der Ergebnismenge enthalten ist.
+In Empfehlungen werden Produkte aus der angegebenen Produktkategorie angezeigt.
 
-Mit dieser Logik können Sie Querverkaufsmöglichkeiten erhöhen, indem Sie beispielsweise eine Empfehlung auf einer Zusammenfassungsseite des Einkaufswagens anzeigen, die Artikel anzeigt, die andere Käufer ebenfalls gekauft haben. Wenn der Besucher z. B. einen Anzug kauft, könnte die Empfehlung weitere Artikel anzeigen, die andere Besucher zusammen mit dem Anzug gekauft haben, z. B. Krawatten, Kleiderschuhe und Gurtbänder. Wenn Besucher ihre Käufe überprüfen, geben Sie ihnen zusätzliche Empfehlungen.
+Wenn diese Option ausgewählt ist, muss der `entity.categoryId`-Wert als Parameter an die Anzeige-Mbox weitergeleitet werden.
 
-Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
+Dieser Empfehlungsschlüssel kann mit den folgenden Algorithmen verwendet werden:
 
-* Aktueller Artikel
-* Benutzerspezifisches Attribut 
-* Zuletzt gekaufter Artikel
-* Zuletzt angezeigter Artikel
-* Am häufigsten angezeigter Artikel
+* Topverkäufe
+* Am häufigsten angezeigt
 
-### Personen, die das ansahen, kauften dies {#viewed-bought}
+Verwenden Sie den Empfehlungsschlüssel [!UICONTROL Aktuelle Kategorie] auf Ihrer Site auf:
 
-Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird. Dieses Kriterium gibt andere Produkte zurück, die Personen nach dem Ansehen dieses Artikels gekauft haben. Das angegebene Produkt ist nicht in der Ergebnismenge enthalten.
+* Seiten mit einer Kategorie.
+* NICHT auf Seiten ohne Suchergebnisse verwenden.
 
-Diese Logik gibt andere Produkte zurück, die Kunden nach Ansicht dieses Produkts gekauft haben. das angegebene Produkt nicht in der Ergebnismenge enthalten ist.
+### Favoritenkategorie {#favorite-category}
 
-Mit dieser Logik können Sie Querverkaufsmöglichkeiten erhöhen, indem Sie z. B. eine Empfehlung auf einer Produktseite anzeigen, die Artikel anzeigt, die andere Besucher gekauft haben. Wenn der Besucher z. B. einen Angelpol anzeigt, könnte die Empfehlung weitere Artikel anzeigen, die andere Besucher gekauft haben, wie z. B. Angelschachteln, Geflügel und Fischköpfe. Wenn Besucher Ihre Site durchsuchen, geben Sie ihnen zusätzliche Kaufempfehlungen.
+Die Empfehlung wird von der bevorzugten Produktkategorie des Besuchers bestimmt.
 
-Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
+In Empfehlungen werden Produkte aus der angegebenen Produktkategorie angezeigt.
 
-* Aktueller Artikel
-* Benutzerspezifisches Attribut 
-* Zuletzt gekaufter Artikel
-* Zuletzt angezeigter Artikel
-* Am häufigsten angezeigter Artikel
+Wenn diese Option ausgewählt ist, muss der `entity.categoryId`-Wert als Parameter an die Anzeige-Mbox weitergeleitet werden.
 
-### Personen, die das ansahen, sahen auch dies an {#viewed-viewed}
+Dieser Empfehlungsschlüssel kann mit den folgenden Algorithmen verwendet werden:
 
-Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird.
+* Topverkäufe
+* Am häufigsten angezeigt
 
-Diese Logik gibt andere Produkte zurück, die nach Ansicht dieses Produkts angezeigt wurden. das angegebene Produkt nicht in der Ergebnismenge enthalten ist.
+Verwenden Sie den Empfehlungsschlüssel [!UICONTROL Aktuelle Kategorie] auf Ihrer Site auf:
 
-Mit dieser Logik können Sie zusätzliche Konvertierungsmöglichkeiten erstellen, indem Sie Artikel empfehlen, die andere Besucher, die einen Artikel angesehen haben, ebenfalls angesehen haben. Besucher, die beispielsweise Fahrräder auf Ihrer Site Ansicht haben, können sich auch Fahrradhelme, Fahrradsätze, Schlösser usw. ansehen. Sie können eine Empfehlung mit dieser Logik erstellen, die andere Produkte vorschlägt, um den Umsatz zu steigern.
-
-Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
-
-* Aktueller Artikel
-* Benutzerspezifisches Attribut 
-* Zuletzt gekaufter Artikel
-* Zuletzt angezeigter Artikel
-* Am häufigsten angezeigter Artikel
+* Seiten mit einer Kategorie.
+* NICHT auf Seiten ohne Suchergebnisse verwenden.
 
 ### Site-Affinität {#site-affinity}
 
@@ -344,40 +386,9 @@ Empfiehlt Artikel auf Grundlage der Wahrscheinlichkeit eines Zusammenhangs zwisc
 
 Beispiel: Sie legen eine sehr starke Affinität fest und Ihr Entwurf umfasst fünf Artikel, von denen drei den Schwellenwert für einen wahrscheinlichen Zusammenhang übersteigen. Die zwei Artikel, die die Voraussetzung nicht erfüllen, werden nicht in Ihren Empfehlungen angezeigt und durch von Ihnen definierte Ersatzartikel ausgetauscht. Die Artikel mit der stärksten Affinität werden zuerst angezeigt.
 
-Beispielsweise kann ein Online-Händler Artikel bei nachfolgenden Besuchen empfehlen, an denen ein Besucher während vergangener Sitzungen Interesse gezeigt hat. Die Aktivität für die Sitzung jedes Besuchers wird erfasst, um eine Affinität basierend auf einem Neuigkeits- und Häufigkeitsmodell zu berechnen. Wenn dieser Besucher zu Ihrer Site zurückkehrt, wird die Site-Affinität verwendet, um Empfehlungen anzuzeigen, die auf früheren Aktionen auf Ihrer Site basieren.
+Ein Online-Händler kann beispielsweise Artikel in nachfolgenden Besuchen empfehlen, an denen ein Besucher während früherer Sitzungen Interesse gezeigt hat. Die Aktivität für jede Besuchersitzung wird erfasst, um eine Affinität basierend auf einem Neuigkeits- und Häufigkeitsmodell zu berechnen. Wenn dieser Besucher zu Ihrer Site zurückkehrt, wird die Site-Affinität verwendet, um Empfehlungen basierend auf früheren Aktionen auf Ihrer Site anzuzeigen.
 
 Bei manchen Kunden mit diversen Produktsammlungen und vielfältigem Site-Verhalten kann es sein, dass die besten Ergebnisse mit einer schwachen Site-Affinität erzielt werden.
-
-Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
-
-* Aktueller Artikel
-* Zuletzt gekaufter Artikel
-* Zuletzt angezeigter Artikel
-* Am häufigsten angezeigter Artikel
-
-### Topverkäufe {#top-sellers}
-
-Zeigt die Artikel an, die in den am häufigsten abgeschlossenen Bestellungen enthalten sind. Wenn derselbe Artikel in einer Bestellung mehrmals bestellt wurde, zählt dies als eine Bestellung.
-
-Mit dieser Logik können Sie Empfehlungen für Artikel mit Top-Verkaufs auf Ihrer Site erstellen, um die Umrechnung und den Umsatz zu steigern. Diese Logik eignet sich besonders für erstmalige Besucher Ihrer Site.
-
-Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
-
-* Favoritenkategorie
-* Beliebtheit
-
-### Benutzerbasiertes Recommendations {#user-based}
-
-Empfiehlt Artikel basierend auf dem Browsen, Anzeigen und Kaufverlauf jedes Besuchers. Diese Elemente werden allgemein als &quot;Empfohlen für Sie&quot;bezeichnet.
-
-Mithilfe dieser Kriterien können Sie personalisierte Inhalte und Erlebnisse sowohl für neue als auch für wiederkehrende Besucher bereitstellen. Die Liste der Empfehlungen wird mit der neuesten Aktivität des Besuchers gewichtet und während der Sitzung aktualisiert und personalisiert, während der Benutzer Ihre Site besucht.
-
-Sowohl Ansichten als auch Einkäufe werden zur Bestimmung der empfohlenen Artikel verwendet. Der angegebene Empfehlungsschlüssel (z. B. &quot;Aktuelles Element&quot;) wird verwendet, um die von Ihnen gewählten Einschlussregel-Filter anzuwenden.
-
-Sie können zum Beispiel:
-
-* Ausschließen von Artikeln, die bestimmte Kriterien nicht erfüllen (Produkte nicht vorrätig, Artikel, die vor mehr als 30 Tagen veröffentlicht wurden, Filme mit R usw.).
-* Begrenzen Sie die eingeschlossenen Elemente auf eine einzige Kategorie oder auf die aktuelle Kategorie.
 
 Diese Logik kann mit den folgenden Empfehlungsschlüsseln verwendet werden:
 
