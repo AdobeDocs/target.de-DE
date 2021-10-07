@@ -1,26 +1,25 @@
 ---
-keywords: Recommendations;Recommendations-Aktivität;Kriterien;Algorithmus;Empfehlungsschlüssel;benutzerspezifischer Schlüssel;Branche;Branche;Handel;Interessentenanwerbung;b2b;Finanzdienstleistungen;Medien;Veröffentlichung
-description: Erfahren Sie, wie Sie Kriterien in Adobe [!DNL Target] Recommendations verwenden. Kriterien sind Regeln, die festlegen, welche Inhalte basierend auf einem vordefinierten Satz von Besuchern empfohlen werden sollen.
+keywords: Empfehlungen; Empfehlungsaktivität; Kriterien; Algorithmus; Empfehlungsschlüssel; benutzerdefinierter Schlüssel; vertikaler Markt; Einzelhandel; E-Commerce; Lead-Generierung; b2b; Finanzdienste; Medien; Veröffentlichung
+description: Erfahren Sie, wie Sie Kriterien in Adobe [!DNL Target] [!DNL Recommendations] verwenden.
 title: Wie verwende ich Kriterien in [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 52%
+source-wordcount: '700'
+ht-degree: 24%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Kriterien
 
-Kriterien in [!DNL Adobe Target] sind Regeln, die festlegen, welche Besucher oder Inhalte basierend auf einem vordefinierten Satz von Verhaltensweisen empfohlen werden. Die Kriterien können auf angesagten Trends, dem aktuellen und früheren Verhalten eines Besuchers oder auf ähnlichen Produkten und Inhalten basieren. Sie können mehrere Empfehlungstypen untereinander testen, indem Sie mehrere Kriterien verwenden.
+Kriterien in [!DNL Adobe Target] [!DNL Recommendations] sind Regeln, die festlegen, welche Produkte oder Inhalte basierend auf einem vorab festgelegten Satz von Besucherverhalten empfohlen werden. Die Kriterien können auf angesagten Trends, dem aktuellen und früheren Verhalten eines Besuchers oder auf ähnlichen Produkten und Inhalten basieren. Sie können mehrere Empfehlungstypen untereinander testen, indem Sie mehrere Kriterien verwenden.
 
-Die folgenden Abschnitte erläutern mehr über Kriterienkombinationen und die Empfehlungslogik, die Sie für jeden Schlüssel verwenden können. Klicken Sie auf die Links, um weitere Informationen anzuzeigen.
+In den folgenden Abschnitten werden mehr über Kriterienschlüssel und die Empfehlungslogik erläutert, die Sie für jeden Schlüssel verwenden können. Klicken Sie auf die Links, um weitere Informationen anzuzeigen.
 
 ## Vertikaler Markt {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-Beim Erstellen eines Kriteriums wählen Sie eine Branche auf der Grundlage der Ziele Ihrer Recommendations-Aktivität aus.
+Beim Erstellen eines Kriteriums wählen Sie basierend auf den Zielen Ihrer Recommendations-Aktivität einen vertikalen Markt aus.
 
 | Vertikaler Markt | Ziel |
 |--- |--- |
@@ -28,78 +27,49 @@ Beim Erstellen eines Kriteriums wählen Sie eine Branche auf der Grundlage der Z
 | Lead-Generierung/B2B/Finanzdienstleistungen | Konversion ohne Kauf |
 | Medien/Verlagswesen | Interaktion |
 
-Andere Kriterienoptionen ändern sich je nach ausgewählter Branchenzahl. Sie können die Standardbranchenvertikale Einstellung auf der Seite **[!UICONTROL Recommendations > Settings]** oder die Branche für jedes Kriterium festlegen.
+Andere Optionen für Kriterien ändern sich je nach vertikalem Markt, den Sie auswählen. Sie können Ihre standardmäßige Branche auf der Seite **[!UICONTROL Recommendations > Einstellungen]** festlegen oder die Branche für jedes Kriterium festlegen.
 
-## Empfehlungsschlüssel {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Algorithmentyp {#section_885B3BB1B43048A88A8926F6B76FC482}
 
-Der ausgewählte Empfehlungsschlüssel bestimmt den Kriterientyp. Es gibt viele Kriterientypen. Sie werden beim Einrichten einer [!DNL Recommendations]-Aktivität als Kriterienkarten dargestellt.
+Der ausgewählte Algorithmustyp bestimmt die verfügbaren Algorithmen. Es gibt mehrere Algorithmustypen, die beim Einrichten einer [!DNL Recommendations] -Aktivität als Kriterienkarten dargestellt werden.
 
-![Kriterienseite](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+![Kriterienseite](assets/criteria-page.png)
 
-In der folgenden Tabelle werden die verschiedenen Kriterientypen und die zugehörigen Schlüssel erläutert. Klicken Sie auf die Links, um detaillierte Informationen zu den einzelnen Schlüsseln anzuzeigen.
+In der folgenden Tabelle werden die verschiedenen Algorithmustypen und die zugehörigen Algorithmen erläutert.
 
-| Kriterientyp | Schlüssel |
-|--- |--- |
-| Aktuelle Seitenaktivität | Empfehlen Sie Artikel auf Basis des Verhaltens der Benutzer auf der aktuellen Seite. Zum Beispiel möchten Besucher, die einen bestimmten Artikel ansehen, möglicherweise andere Artikel derselben Kategorie ansehen.<ul><li>[Aktueller Artikel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-item)</li><li>[Aktuelle Kategorie](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-category)</li></ul> |
-| Benutzerspezifisch | Empfohlene Artikel auf Grundlage benutzerspezifischer Attribute<ul><li>[Benutzerspezifisches Attribut ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>Wenn Sie Empfehlungen auf Grundlage von benutzerspezifischen Attributen erstellen, müssen Sie das benutzerspezifische Attribut auswählen und anschließend den Empfehlungstyp festlegen. |
-| Vergangenes Verhalten | Empfehlen Sie Artikel auf Basis früherer Reaktionen von Besuchern auf Artikel. Zum Beispiel ist die Wahrscheinlichkeit höher, dass Personen, die sich für eine bestimmte Marke entschieden haben, weitere Artikel dieser Marke kaufen.<ul><li>[Zuletzt gekaufter Artikel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[Zuletzt angezeigter Artikel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[Am häufigsten angezeigter Artikel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[Favoritenkategorie](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
-| Beliebtheit | Empfehlen Sie die beliebtesten Artikel, wie zum Beispiel die beliebtesten Videos in einer verwandten Kategorie oder Produkte, die auf Ihrer Site am häufigsten angezeigt wurden.<ul><li>[Beliebtheit](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| [Vor Kurzem aufgerufene Artikel ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Empfehlen Sie Artikel, die ein Besucher zuletzt aufgerufen hat, z. B. Artikel, die ein Besucher beim letzten Besuch Ihrer Site angesehen hat, oder Artikel, die momentan am meisten im Trend liegen. |
+| Algorithmustyp | Verwendungsbereiche | Verfügbare Algorithmen |
+| --- | --- | --- |
+| [!UICONTROL Popularitätsbasiert] | Machen Sie Empfehlungen basierend auf der allgemeinen Beliebtheit eines Artikels auf Ihrer Site oder auf der Beliebtheit von Artikeln in der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. eines Benutzers. | <ul><li>Am häufigsten angezeigt auf der gesamten Site</li><li>Am häufigsten angezeigt nach Kategorie</li><li>Am häufigsten nach Elementattribut angezeigt</li><li>Topverkäufe auf der gesamten Site</li><li>Topverkäufe nach Kategorie</li><li>Topverkäufe nach Elementattribut</li><li>Top nach Analytics-Metrik</li></ul> |
+| [!UICONTROL Artikelbasiert] | Empfehlungen aussprechen, die darauf basieren, ähnliche Artikel wie ein Artikel zu finden, den der Benutzer gerade ansieht oder kürzlich angesehen hat. | <ul><li>Personen, die das ansahen, sahen auch dies an</li><li>Personen, die das ansahen, kauften dies</li><li>Personen, die das kauften, kauften dies</li><li>Elemente mit ähnlichen Attributen</li></ul> |
+| [!UICONTROL Benutzerbasiert] | Empfehlungen basierend auf dem Benutzerverhalten erstellen. | <ul><li>Vor Kurzem aufgerufene Artikel </li><li>Empfohlen für Sie</li></ul> |
+| Warenkorbbasiert | (In Kürze) Treffen Sie Empfehlungen basierend auf dem Warenkorbinhalt des Benutzers. | <ul><li>Personen, die diese ansahen, sahen auch</li><li>Personen, die diese ansahen, kauften diese</li><li>Personen, die diese kauften, kauften diese</li></ul> |
+| [!UICONTROL Benutzerdefinierte Kriterien] | Machen Sie Empfehlungen basierend auf einer von Ihnen hochgeladenen benutzerdefinierten Datei. | <ul><li>Benutzerspezifischer Algorithmus</li></ul> |
+
+Weitere Informationen zu den einzelnen Algorithmen finden Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## Verwenden eines benutzerdefinierten Empfehlungsschlüssels {#custom-key}
 
-Sie können Empfehlungen auch auf dem Wert eines benutzerspezifischen Profil-Attributs basieren.
+Sie können Empfehlungen auch auf dem Wert eines benutzerdefinierten Profilattributs basieren.
 
 >[!NOTE]
 >
->Benutzerdefinierte Profil-Parameter können über JavaScript, API oder Integrationen an die Zielgruppe übergeben werden. Weitere Informationen zu benutzerdefinierten Profil-Attributen finden Sie unter [Besucher-Profil](/help/c-target/c-visitor-profile/visitor-profile.md).
+>Benutzerdefinierte Profilparameter können über JavaScript, API oder Integrationen an [!DNL Target] übergeben werden. Weitere Informationen zu benutzerdefinierten Profilattributen finden Sie unter [Besucherprofile](/help/c-target/c-visitor-profile/visitor-profile.md).
 
-Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Benutzer der Warteschlange zuletzt hinzugefügt hat.
+Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Benutzer zuletzt zur Warteschlange hinzugefügt hat.
 
-1. Wählen Sie Ihr benutzerdefiniertes Profil-Attribut aus der Dropdown-Liste [!UICONTROL Empfehlungsschlüssel] aus (z. B. [!UICONTROL Letzte Anzeige hinzugefügt zur Watchlist]).
+1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
-1. Wählen Sie die [!UICONTROL Empfehlungslogik] aus (z. B. [!UICONTROL Personen, die dies angezeigt haben, sahen dies] an).
+1. Klicken Sie auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]**.
 
-   ![Neues Kriterium erstellen, Dialogfeld](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+1. Füllen Sie die Informationen im Abschnitt [Grundlegende Informationen](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) aus.
 
-Wenn Ihr benutzerdefiniertes Profil-Attribut nicht direkt mit einer Entitäts-ID übereinstimmt, müssen Sie [!DNL Recommendations] erklären, wie die Übereinstimmung mit einer Entität erfolgen soll.
+1. Wählen Sie im Abschnitt [Empfohlener Algorithmus](/help/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo) die Option **[!UICONTROL Elementbasiert]** aus der Liste **[!UICONTROL Algorithmustyp]** .
 
-Nehmen wir beispielsweise an, Sie möchten die Artikel mit den besten Verkäufen von der Lieblingsmarke eines Benutzers anzeigen.
+1. Wählen Sie **[!UICONTROL Personen, die das ansahen, sahen auch dies]** aus der Liste **[!UICONTROL Algorithm]** aus.
 
-1. Wählen Sie Ihr benutzerdefiniertes Profil-Attribut aus der Dropdown-Liste [!UICONTROL Empfehlungsschlüssel] (z. B. [!UICONTROL Favoritenmarke]).
+1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Liste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. [!UICONTROL Zuletzt zur Watchlist] hinzugefügte Anzeige).
 
-1. Wählen Sie die [!UICONTROL Empfehlungslogik] aus, die Sie mit diesem Schlüssel verwenden möchten (z. B. [!UICONTROL Topverkäufe]).
-
-   Die Option [!UICONTROL Gruppieren nach individuellem Wert] wird angezeigt.
-
-1. Wählen Sie das Entitätsattribut aus, das dem ausgewählten Schlüssel entspricht. In diesem Fall stimmt [!UICONTROL Favoritenmarke] mit `entity.brand` überein.
-
-   [!DNL Recommendations] erstellt nun eine &quot;Topverkäufe&quot;-Liste für jede Marke und zeigt dem Benutzer die passende &quot;Topverkäufe&quot;-Liste basierend auf dem im Attribut  [!UICONTROL Favorite ] Brandprofile gespeicherten Wert.
-
-   ![Attribut &quot;Topverkäufe&quot;](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
-
-## Kriterien/Algorithmen {#criteria-algorithms}
-
-[!DNL Target Recommendations] verwendet komplexe Algorithmen, um zu ermitteln, wann die Aktionen eines Benutzers den für Ihre Aktivität festgelegten Kriterien entsprechen. Der Empfehlungsschlüssel bestimmt die verfügbaren Optionen der Empfehlungslogik.
-
-| Kriterien | Beschreibung |
-|--- |--- |
-| [Artikel/Medien mit ähnlichen Attributen](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#similar-attributes) | Empfiehlt auf Grundlage von aktueller Seitenaktivität oder früherem Besucherverhalten Artikel oder Medien, die eine Ähnlichkeit zu anderen Artikeln oder Medien aufweisen. |
-| [Personen, die das ansahen, sahen auch dies an](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-viewed) | Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird. |
-| [Personen, die das ansahen, kauften dies](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-bought) | Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird. |
-| [Personen, die das kauften, kauften dies](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#bought-bought) | Empfiehlt Artikel, die am häufigsten von Kunden zur selben Zeit gekauft werden, wie der angegebene Artikel. |
-| [Site-Affinität](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#site-affinity) | Empfiehlt Artikel auf Grundlage der Wahrscheinlichkeit eines Zusammenhangs zwischen Artikeln. |
-| [Topverkäufe](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#top-sellers) | Die Artikel, die in den meisten abgeschlossenen Bestellungen enthalten sind Wenn derselbe Artikel in einer Bestellung mehrmals bestellt wurde, zählt dies als eine Bestellung. |
-| [Am häufigsten angezeigt](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed) | Die am häufigsten angezeigten Artikel oder Medien |
-| [Benutzerbasiertes Recommendations](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#user-based) | Empfiehlt Artikel basierend auf dem Browsen, Anzeigen und Kaufverlauf jedes Besuchers. Diese Elemente werden allgemein als &quot;Empfohlen für Sie&quot;bezeichnet. |
-
->[!NOTE]
->
->Wenn Sie eine Empfehlung ausführen und deren Kriterien ändern, verlieren Sie Ihre Berichtsdaten.
-
-Sie können auch zusätzliche bekannte Informationen über einen Besucher verwenden, um Ihre Empfehlungen zu verbessern.
-
-Alle eintägigen Kriterien werden zweimal täglich ausgeführt. Alle einwöchigen und längeren Kriterien werden einmal täglich ausgeführt. Site-Affinitätskriterien werden einmal täglich ausgeführt. Reservekriterien werden zweimal täglich ausgeführt.
+   ![Neues Kriterium erstellen, Dialogfeld](assets/custom-key1.png)
 
 ## Anzeigen von Kriterieninformationen {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
@@ -111,10 +81,10 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusinformationen]**, um 
 
 ![Registerkarte „Algorithmusinformationen“](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusnutzung]**, um eine Liste der Aktivitäten anzuzeigen, die das ausgewählte Kriterium verwenden. Die Karte wird aktiv, inaktiv und als Entwurf von Aktivitäten Liste. Klicken Sie auf die Dropdown-Listen Live-Aktivitäten/Inaktive Aktivitäten/Aktivitäten-Entwürfe, um die gesamte Liste von Aktivitäten, die auf dieses Kriterium verweisen, Ansicht. Sie können auf einen Aktivitätslink klicken, um die Aktivität zur Bearbeitung zu öffnen.
+Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusnutzung]**, um eine Liste der Aktivitäten anzuzeigen, die das ausgewählte Kriterium verwenden. Auf der Karte werden aktive, inaktive und Entwurfsaktivitäten aufgelistet. Klicken Sie auf die Dropdownlisten Live-Aktivitäten/Inaktive Aktivitäten/Entwurfsaktivitäten , um die gesamte Liste der Aktivitäten anzuzeigen, die auf dieses Kriterium verweisen. Sie können auf einen Aktivitätslink klicken, um die Aktivität zur Bearbeitung zu öffnen.
 
-![Registerkarte &quot;Algorithmusverwendung&quot;](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![Registerkarte &quot;Algorithmusnutzung&quot;](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->Die Funktion [!UICONTROL Algorithmusverwendung] wird derzeit nur für Recommendations-Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für Aktivitäten von A/B-Tests, automatisierter Zuordnung, automatischer Zielgruppe und Erlebnis-Targeting (XT) unterstützt, die [Recommendations als Angebot](/help/c-recommendations/recommendations-as-an-offer.md) enthalten.
+>Die Funktion [!UICONTROL Algorithmusnutzung] wird derzeit nur für Recommendations-Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für A/B-Test-, Automatisierte Zuordnung-, Automatisches Targeting- und Erlebnis-Targeting-Aktivitäten (XT) unterstützt, die [Empfehlungen als Angebot](/help/c-recommendations/recommendations-as-an-offer.md) enthalten.
