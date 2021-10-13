@@ -4,9 +4,9 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 088912db2bd404978ec1403144779b0b87ba95f1
+source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
 workflow-type: tm+mt
-source-wordcount: '2741'
+source-wordcount: '2750'
 ht-degree: 91%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 13. Oktober | [Versionshinweise](/help/r-release-notes/release-notes.md): 21.10.2 | Es wurden Informationen zur Version [!DNL Target Standard/Premium] 21.10.2 hinzugefügt (13. Oktober 2021). |
 | 11. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Target Standard/Premium-Version 21.10.2 (13. Oktober 2021) hinzugefügt. |
 | 6. Oktober | [Erstellen von Zielgruppen in [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Text und Bilder wurden aktualisiert, um die aktualisierte Benutzeroberfläche [!DNL Target] [!UICONTROL Zielgruppen] widerzuspiegeln. Ähnliche Änderungen wurden in den Themen [!UICONTROL Zielgruppen] vorgenommen. |
 |  | [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Die folgenden Abschnitte wurden aktualisiert:<ul><li>Basisinformationen  </li><li>Datenquelle</li></ul> |
