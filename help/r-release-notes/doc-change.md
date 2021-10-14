@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 91%
+source-wordcount: '2778'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 14. Oktober | [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Folgende FAQ wurden hinzugefügt: &quot;Kann ich eine binomielle [!DNL Analytics]-Metrik verwenden, bei der ein Segment als Optimierungsziel in einer [!UICONTROL Aktivität vom Typ &quot;Automatische Zuordnung]&quot;angewendet wird?&quot; |
 | 13. Oktober | [Versionshinweise](/help/r-release-notes/release-notes.md): 21.10.2 | Es wurden Informationen zur Version [!DNL Target Standard/Premium] 21.10.2 hinzugefügt (13. Oktober 2021). |
 | 11. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Target Standard/Premium-Version 21.10.2 (13. Oktober 2021) hinzugefügt. |
 | 6. Oktober | [Erstellen von Zielgruppen in [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Text und Bilder wurden aktualisiert, um die aktualisierte Benutzeroberfläche [!DNL Target] [!UICONTROL Zielgruppen] widerzuspiegeln. Ähnliche Änderungen wurden in den Themen [!UICONTROL Zielgruppen] vorgenommen. |
