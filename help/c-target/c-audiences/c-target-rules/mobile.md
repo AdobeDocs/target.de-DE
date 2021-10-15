@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in [!DNL Adobe Target] Zielgruppen für Mobil
 title: Kann ich Besucher basierend auf mobilen Optionen ansprechen?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: 05619301a4cd145d07abb4bf5fbe9fd44bb3d65f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 40%
 
 ---
@@ -61,7 +61,7 @@ Kunden, die eine benutzerspezifische Integration (also weder at.js noch das Mobi
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-Die folgende Abbildung zeigt eine Zielgruppe, die Besucher auswählt, die von Google hergestellte Geräte verwenden, die Mobilgeräte sind.
+Die folgende Abbildung zeigt eine Zielgruppe, die Besucher auswählt, die von Google hergestellte Geräte und Mobilgeräte verwenden.
 
 ![Zielgruppe mit Mobilgeräten](assets/target_mobile.png)
 
@@ -73,11 +73,11 @@ Beachten Sie beim Targeting von Mobilgeräten die folgenden Informationen:
 
 Aufgrund der neuen Änderungen, die in iOS 12.2 eingeführt wurden, wirkt sich das Erstellen einer Zielgruppe mit Regeln aus, die von [!UICONTROL Device Marketing Name] und [!UICONTROL Device Model] definiert werden, die iPhone-Modelle angeben. [!DNL Target] Benutzer, die iPhones mit iOS 12.2 (oder höher) installiert haben, können nicht mehr als Ziel ausgewählt werden. Wenn diese Benutzer jedoch nicht über iOS 12.2 (oder höher) verfügen, funktioniert das iPhone-Modell-Targeting weiterhin ordnungsgemäß.
 
-Die Aktualisierung von iOS 12.2 (oder höher) hat keine Auswirkungen auf die Identifizierung der folgenden Modelle, da diese Modelle die Aktualisierung auf iOS 12.2 nicht unterstützen: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad/Retina Display, iPad Retina (4. Generation), iPod Touch 4 und iPod Touch 5.
+Die Aktualisierung von iOS 12.2 (oder höher) wirkt sich nicht auf die Identifizierung der folgenden Modelle aus, da diese Modelle die Aktualisierung auf iOS 12.2 nicht unterstützen: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad/Retina Display, iPad Retina (4. Generation), iPod Touch 4 und iPod Touch 5.
 
 ### Targeting-Geräte mit Safari 14.0.2 (oder höher)
 
-Wenn Sie mobile Regeln für Geräte verwenden, auf denen Safari Version 14.0.2 (oder höher) unter macOS ausgeführt wird, identifiziert [!DNL Target] fälschlicherweise Safari auf Mac-Geräten als iPad-Version, da ein bekanntes Problem mit den Benutzeragenten von Apple und DeviceAtlas vorliegt. Dieses Problem wird in Zukunft angesprochen werden.
+Wenn Sie mobile Regeln für Geräte verwenden, auf denen Safari Version 14.0.2 (oder höher) in macOS ausgeführt wird, wird aufgrund eines bekannten Problems mit den Benutzeragenten und DeviceAtlas von Apple [!DNL Target] Safari auf Mac- und iPad-Geräten falsch identifiziert. Dieses Problem wird in Zukunft angesprochen werden.
 
 ## Schulungsvideo: Erstellen von Zielgruppen
 
