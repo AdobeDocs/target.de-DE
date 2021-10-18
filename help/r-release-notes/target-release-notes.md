@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f6efc1e921535abdd11501979d6f44e84e443a1f
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 55%
+source-wordcount: '317'
+ht-degree: 67%
 
 ---
 
@@ -25,37 +25,15 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 >
 >Um potenzielle Probleme mit Ihren Sites zu vermeiden, migrieren Sie zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder der JavaScript-Bibliothek „at.js“. Weitere Informationen finden Sie unter [Übersicht: Target für Client-seitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.10.2 (13. Oktober 2021)
+## [!DNL Target Standard/Premium] 21.10.3 (19. Oktober 2021)
 
-Die folgenden Verbesserungen wurden bei der Verwendung von [!DNL Target] [!UICONTROL Zielgruppen] mit dem [!DNL Adobe Experience Platform Web SDK] hinzugefügt:
+Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Änderungen:
 
-* Es wurden Warnsymbole, Popup-Fenster und Meldungen an verschiedenen Stellen in der [!DNL Target]-Benutzeroberfläche hinzugefügt, die darauf hinweisen, dass die Zielgruppe an der Quelle gelöscht wurde und nicht mehr für [!DNL Target]-Aktivitäten verfügbar ist.
-
-   Die folgenden Abbildungen zeigen einige Stellen, an denen Symbole, Popovers und Nachrichten angezeigt werden:
-
-   *  Seite &quot;Aktivitätenliste&quot;
-
-      ![Zielgruppe gelöscht in Quellnachricht auf Aktivitätenlistenseite](assets/deleted-at-source-audiences-list.png)
-
-   * Activity [!UICONTROL Übersicht] Seiten:
-
-      ![Zielgruppe gelöscht in Quellnachricht auf Übersichtsseite](assets/deleted-at-source-overview.png)
-
-   *  Erlebnisschritt des Workflows zur Aktivitätserstellung:
-
-      ![Zielgruppe gelöscht in Quellnachricht auf   Erlebnisseite](assets/deleted-at-source-experiences.png)
-
-   *  Targeting-Schritt des Workflows für die Aktivitätserstellung:
-
-      ![Zielgruppe gelöscht in Quellnachricht auf   Targeting-Seite](assets/deleted-at-source-targeting.png)
-
-   * [!UICONTROL Schritt Ziele und ] Einstellungen des Workflows zur Aktivitätserstellung:
-
-      ![Zielgruppe gelöscht in Quellnachricht auf der Seite  [!UICONTROL &quot;Ziele und ] Einstellungen&quot;](assets/deleted-at-source-goals-settings.png)
-
-   * Zielgruppenverfeinerungen ([!UICONTROL Ersetzen Sie Zielgruppe] im Schritt [!UICONTROL Zielgruppenbestimmung] des Workflows zur Aktivitätserstellung):
-
-* Wenn Sie versuchen, die Funktion Zielgruppen kombinieren zu verwenden und eine der Zielgruppen an der Quelle gelöscht wurde, ist [!UICONTROL Speichern] deaktiviert.
+* Es wurden Probleme behoben, durch die Kunden die [!UICONTROL A4T] Bedienfeld in [!DNL Analysis Workspace] durch Klicken auf [!UICONTROL In Analytics anzeigen] Schaltfläche in [!DNL Target] Aktivitätsberichte. (TGT-42099, TGT-42100)
+* Es wurde ein Fehler behoben, der dazu führte, dass die [!UICONTROL Design bearbeiten] Schaltfläche wird beim Bearbeiten nicht angezeigt [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten, die die [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
+* Es wurde ein Problem behoben, durch das die [!UICONTROL Kompatibel] bei der Erstellung eines neuen [!UICONTROL Recommendations] Aktivität. (TGT-42053)
+* Fehlerkorrektur - die Fehlermeldung wird nun auch dann korrekt angezeigt, wenn die Option [!DNL Analytics] als Berichtsquelle (A4T), da [!DNL Analytics] Berechtigungen. (TGT-41954)
+* Mehrere Fehlerbehebungen zur Barrierefreiheit wurden implementiert, um die Tastaturnavigation über das [!DNL Target] Benutzeroberfläche.
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
