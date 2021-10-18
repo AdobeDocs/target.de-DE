@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
+source-git-commit: 4df8c526636e2ab99eea39eb5298475c9670a840
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 67%
@@ -15,7 +15,7 @@ ht-degree: 67%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert am: 11. Oktober 2021**
+**Zuletzt aktualisiert am: 18. Oktober 2021**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
