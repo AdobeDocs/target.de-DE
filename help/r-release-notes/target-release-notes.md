@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4df8c526636e2ab99eea39eb5298475c9670a840
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '319'
 ht-degree: 67%
 
 ---
@@ -29,11 +29,11 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Änderungen:
 
-* Es wurden Probleme behoben, durch die Kunden die [!UICONTROL A4T] Bedienfeld in [!DNL Analysis Workspace] durch Klicken auf [!UICONTROL In Analytics anzeigen] Schaltfläche in [!DNL Target] Aktivitätsberichte. (TGT-42099, TGT-42100)
-* Es wurde ein Fehler behoben, der dazu führte, dass die [!UICONTROL Design bearbeiten] Schaltfläche wird beim Bearbeiten nicht angezeigt [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten, die die [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
-* Es wurde ein Problem behoben, durch das die [!UICONTROL Kompatibel] bei der Erstellung eines neuen [!UICONTROL Recommendations] Aktivität. (TGT-42053)
-* Fehlerkorrektur - die Fehlermeldung wird nun auch dann korrekt angezeigt, wenn die Option [!DNL Analytics] als Berichtsquelle (A4T), da [!DNL Analytics] Berechtigungen. (TGT-41954)
-* Mehrere Fehlerbehebungen zur Barrierefreiheit wurden implementiert, um die Tastaturnavigation über das [!DNL Target] Benutzeroberfläche.
+* Behobene Probleme, die das Öffnen von Kunden verhinderten [!UICONTROL A4T] Bereich in [!DNL Analysis Workspace] durch Klicken auf [!UICONTROL Ansicht in Analytics] Schaltfläche in [!DNL Target] Aktivität Berichte. (TGT-42099, TGT-42100)
+* Es wurde ein Problem behoben, das [!UICONTROL Entwurf bearbeiten] Schaltfläche, die während der Bearbeitung nicht angezeigt wird [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten mit [!UICONTROL Formularbasierter Experience Composer]. (TGT-41980)
+* Es wurde ein Problem behoben, durch das [!UICONTROL Kompatibel] Kontrollkästchen bei der Anzeige in der Kriterienauswahl beim Erstellen eines neuen [!UICONTROL Recommendations] Aktivität. (TGT-42053)
+* Es wurde eine fehlerhafte Fehlermeldung behoben, die angezeigt wurde, wenn die Auswahl nicht möglich war [!DNL Analytics] als Berichte-Quelle (A4T) aufgrund des Fehlens von [!DNL Analytics] Berechtigungen. (TGT-41954)
+* Mehrere Barrierefreiheitskorrekturen implementiert, um die Navigation über die Tastatur zu verbessern [!DNL Target] UI.
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
