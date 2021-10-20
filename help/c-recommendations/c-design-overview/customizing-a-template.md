@@ -1,23 +1,23 @@
 ---
-keywords: Benutzerdefinierter Entwurf; Geschwindigkeit; Dezimal; Komma; Entwurf anpassen
-description: Erfahren Sie, wie Sie mit der Open-Source-Entwurfssprache Velocity Empfehlungsentwürfe in Adobe [!DNL Target] Recommendations anpassen können.
+keywords: Benutzerdefinierter Entwurf;Geschwindigkeit;Dezimal;Komma;Entwurf anpassen
+description: Erfahren Sie, wie Sie mit der Open-Source-Entwurfssprache Velocity Empfehlungsentwürfe in Adobe  [!DNL Target]  Recommendations anpassen können.
 title: Wie kann ich einen Entwurf mithilfe von Velocity anpassen?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Personalisieren Sie einen Entwurf mit Velocity
 
-Verwenden Sie die Open-Source-Entwurfssprache Velocity, um Empfehlungsentwürfe in [!DNL Adobe Target Recommendations] anzupassen.
+Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlungsvorlagen in [!DNL Adobe Target Recommendations] anzupassen.
 
 ## Velocity-Übersicht {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-Informationen über Velocity finden Sie unter [](https://velocity.apache.org)https://velocity.apache.org.
+Informationen über Velocity finden Sie unter [https://velocity.apache.org](https://velocity.apache.org).
 
 Sie können die gesamte Velocity-Logik, -Syntax usw. für einen Empfehlungsentwurf verwenden. Dies bedeutet, dass Sie *for*-Schleifen, *if*-Aussagen und anderen Code statt mit JavaScript mit Velocity erstellen können.
 
@@ -63,7 +63,7 @@ Wenn Sie in Ihrem Design ein Profilskript verwenden, muss auf das $ vor dem Skri
 
 >[!NOTE]
 >
->Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können (fest codiert oder in Schleifen), beträgt 99. Die Länge des Vorlagenskripts kann bis zu 65.000 Zeichen betragen.
+>Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hartcodiert oder in Schleife, beträgt 99. Die Länge des Vorlagenskripts kann bis zu 65.000 Zeichen betragen.
 
 Wenn Sie z. B. ein Design wünschen, das in etwa Folgendes anzeigen soll:
 
@@ -127,9 +127,9 @@ Sie können `algorithm.name` und `algorithm.dayCount` als Variablen in Entwürfe
 Standardmäßig behandeln Velocity-Vorlagen alle Entitätsattribute als Zeichenfolgenwerte. Möglicherweise möchten Sie ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang durchzuführen oder ihn mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
 
 1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder in einen doppelten Wert.
-1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich für den Vorlagenparser von Target Recommendations, um die Vorlage zu validieren und zu speichern).
+1. Stellen Sie sicher, dass das Entitätsattribut, welches Sie verwenden möchten, nicht leer ist (erforderlich für den Vorlagen-Parser von Target Recommendations, um die Vorlage zu validieren und zu speichern).
 1. Übergeben Sie das Entitätsattribut an die Methode `parseInt` oder `parseDouble` für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in eine Ganzzahl oder in einen doppelten Wert umzuwandeln.
-1. Führen Sie den Mathematikvorgang oder -vergleich für den neuen numerischen Wert durch.
+1. Führen Sie den mathematischen Vorgang oder Vergleich für den neuen numerischen Wert durch.
 
 ### Beispiel: Rabattpreis berechnen
 
@@ -207,7 +207,7 @@ Das Ergebnis ist ein Entwurf wie der folgende, in dem das Schlüsselelement in e
 
 Wenn Sie Ihre [!DNL Recommendations]-Aktivität erstellen und das Schlüsselelement vom Benutzerprofil genommen wird, zum Beispiel „Zuletzt gekaufter Artikel“, zeigt [!DNL Target] ein zufällig ausgewähltes Produkt im [!UICONTROL Visual Experience Composer an]. Dies beruht darauf, dass ein Profil beim Erstellen der Aktivität nicht verfügbar ist. Wenn Besucher die Seite anzeigen, sehen sie das erwartete Schlüsselelement.
 
-## Ersetzungen in einem Zeichenfolgenwert durchführen {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Ersetzungen in einem String-Wert durchführen {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 Sie können Ihr Design ändern, um Werte in einer Zeichenfolge zu ersetzen. Ersetzen Sie beispielsweise das Dezimalzeichen, das in den USA verwendet wird, durch das Kommatrennzeichen, das in Europa und anderen Ländern verwendet wird.
 
