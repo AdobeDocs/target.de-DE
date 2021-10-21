@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42fa0bbe0c7ab23cd41352ea011d351aa5a277d2
+source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
 workflow-type: tm+mt
-source-wordcount: '2807'
-ht-degree: 95%
+source-wordcount: '2830'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 21. Oktober | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgenden Ereignissen hinzugefügt:<ul><li>[!DNL Adobe Target] Community Fragen und Antworten-Kaffeepause (10. November 2021)</li><li>[!DNL Adobe Target] Community Fragen und Antworten-Kaffeepause (8. Dezember 2021)</li></ul> |
 | 20. Oktober | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Hinzugefügte Informationen über die [!DNL Target Standard/Premium] Release 21.10.4 (21. Oktober 2021). |
 |  | [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md) | Das gesamte Thema wurde aktualisiert. |
 | 19. Oktober | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Hinzugefügte Informationen über die [!DNL Target Standard/Premium] Release 21.10.3 (19. Oktober 2021). |
