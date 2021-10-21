@@ -5,9 +5,9 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1033'
 ht-degree: 42%
 
 ---
@@ -30,7 +30,7 @@ Dieses Maintenance Release enthält die folgende Erweiterung:
 
 | Funktion | Details |
 | --- | --- |
-| Warenkorb-basiertes Recommendations | Eine neue Reihe von Algorithmen, mit denen Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers bereitgestellt werden.<br>Weitere Informationen finden Sie unter &quot;Warenkorb-basiert&quot; in [Kriterien erstellen](/help/c-recommendations/c-algorithms/create-new-algorithm.md) und &quot;Warenkorb-/Warenkorb-Ansichten/Checkout-Seiten&quot; und &quot;Bereits im Warenkorb des Besuchers befindliche Elemente ausschließen&quot; in [Recommendations planen und umsetzen](/help/c-recommendations/plan-implement.md). |
+| Warenkorb-basiertes Recommendations | Es wurde eine neue Reihe von Algorithmen hinzugefügt, um Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers zu senden.<br>Weitere Informationen finden Sie unter &quot;Warenkorb-basiert&quot; in [Kriterien erstellen](/help/c-recommendations/c-algorithms/create-new-algorithm.md) und &quot;Warenkorb-/Warenkorb-Ansichten/Checkout-Seiten&quot; und &quot;Bereits im Warenkorb des Besuchers befindliche Elemente ausschließen&quot; in [Recommendations planen und umsetzen](/help/c-recommendations/plan-implement.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19. Oktober 2021)
 

@@ -4,28 +4,26 @@ description: 'Erfahren Sie, wie Sie Recommendations-Aktivitäten in Adobe Target
 title: Wie implementiere ich die Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1279'
 ht-degree: 37%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations planen und umsetzen
+# ![PREMIUM](/help/assets/premium.png) Planung und Umsetzung [!DNL Recommendations]
 
 Vor dem Einrichten der ersten [!DNL Recommendations] Aktivität in [!DNL Adobe Target]führen Sie die folgenden Schritte aus:
 
-| Schritt | Details |
-|--- |--- |
-| ![Schritt 1](/help/c-recommendations/assets/step1_red.png) | [Implementierung [!DNL Adobe Target]](#implement-target) auf den Oberflächen von Websites und mobilen Apps, die Sie zur Erfassung des Benutzerverhaltens und zur Bereitstellung von Empfehlungen verwenden möchten. |
-| ![Schritt 2](/help/c-recommendations/assets/step2_red.png) | [Richten Sie Ihre [!DNL Recommendations] Katalog](#rec-catalog) von Produkten oder Inhalten, die Sie Ihren Benutzern empfehlen möchten. |
-| ![Schritt 3](/help/c-recommendations/assets/step3_red.png) | [Verhaltensinformationen und Kontext weitergeben](#pass-behavioral) nach [!DNL Adobe Target Recommendations] , damit sie personalisierte Empfehlungen abgeben kann. |
-| ![Schritt 4](/help/c-recommendations/assets/step4_red.png) | [Globale Ausschlüsse konfigurieren](#exclusions). |
-| ![Schritt 5](/help/c-recommendations/assets/step5_red.png) | [Konfigurieren [!DNL Recommendations] Einstellungen](#concept_C1E1E2351413468692D6C21145EF0B84). |
+1. [Implementierung [!DNL Target]](#implement-target) auf den Oberflächen von Websites und mobilen Apps, die Sie zur Erfassung des Benutzerverhaltens und zur Bereitstellung von Empfehlungen verwenden möchten.
+1. [Richten Sie Ihre [!DNL Recommendations] Katalog](#rec-catalog) von Produkten oder Inhalten, die Sie Ihren Benutzern empfehlen möchten.
+1. [Verhaltensinformationen und Kontext weitergeben](#pass-behavioral) nach [!DNL Target Recommendations] , damit sie personalisierte Empfehlungen abgeben kann.
+1. [Globale Ausschlüsse konfigurieren](#exclusions).
+1. [Konfigurieren [!DNL Recommendations] Einstellungen](#concept_C1E1E2351413468692D6C21145EF0B84).
 
-## Adobe Target implementieren {#implement-target}
+## Implementierung [!DNL Target] {#implement-target}
 
-[!DNL Target Recommendations] erfordert die Implementierung von [!DNL Adobe Experience Platform Web SDK] oder at.js 0.9.2 (oder neuer). Siehe [Zielgruppe implementieren](/help/c-implementing-target/implementing-target.md) für weitere Informationen.
+[!DNL Target Recommendations] erfordert die Implementierung von [!DNL Adobe Experience Platform Web SDK] oder at.js 0.9.2 (oder neuer). Siehe [Implementierung [!DNL Target]](/help/c-implementing-target/implementing-target.md) für weitere Informationen.
 
 ## Recommendations-Katalog einrichten {#rec-catalog}
 
@@ -41,7 +39,7 @@ um Empfehlungen hoher Qualität abzugeben, [!DNL Target] müssen über die Produ
 | --- | --- | --- | --- |
 | Katalog-Feed | einen Feed planen (CSV, Google Product XML) oder [!DNL Analytics Product Classifications]), die täglich hochgeladen und aufgenommen werden. | Zum Senden von Informationen über mehrere Elemente gleichzeitig. Zum Senden von Informationen, die sich selten ändern. | Siehe [Feeds](/help/c-recommendations/c-products/feeds.md). |
 | Entitäts-API | Rufen Sie eine API auf, um Aktualisierungen für ein einzelnes Element an die Minute zu senden. | Für das Versenden von Updates, da sie sich um jeweils ein Element handeln. Für den Versand von Informationen, die sich häufig ändern (z.B. Preis, Bestand/Lagerbestand). | Siehe [Entitäts-API-Entwicklerdokumentation](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
-| Aktualisierungen auf der Seite weitergeben | Mit JavaScript auf der Seite oder über die Versand-API an aktuelle Updates für ein einzelnes Element senden. | Für das Versenden von Updates, da sie sich um jeweils ein Element handeln. Für den Versand von Informationen, die sich häufig ändern (z.B. Preis, Bestand/Lagerbestand). | Siehe Ansichten zu Elementen/Produktseiten unten. |
+| Aktualisierungen auf der Seite weitergeben | Mit JavaScript auf der Seite oder über die Versand-API an aktuelle Updates für ein einzelnes Element senden. | Für das Versenden von Updates, da sie sich um jeweils ein Element handeln. Für den Versand von Informationen, die sich häufig ändern (z.B. Preis, Bestand/Lagerbestand). | Siehe [Element-Ansichten/Produktseiten](#items-product-pages) unten. |
 
 Die meisten Kunden sollten mindestens einen Feed implementieren. Sie können Ihren Feed dann mit Aktualisierungen für häufig geänderte Attribute oder Elemente ergänzen, indem Sie entweder die Entitäts-API oder die auf der Seite angezeigte Methode verwenden.
 
@@ -49,7 +47,7 @@ Die meisten Kunden sollten mindestens einen Feed implementieren. Sie können Ihr
 
 Die Verhaltensinformationen und der Kontext, an die Sie weitergeben sollten [!DNL Target] hängt von der Aktion ab, die Ihr Besucher einnimmt und die häufig mit dem Seitentyp verknüpft ist, mit dem Ihr Besucher interagiert.
 
-### Element-Ansichten/Produktseiten
+### Element-Ansichten/Produktseiten {#items-product-pages}
 
 Auf Seiten, auf denen ein Besucher ein einzelnes Element anzeigt, wie z. B. eine Produktdetailseite, sollten Sie die Identität des Elements übergeben, das der Besucher anzeigt. Sie sollten auch die detaillierteste Kategorie des Elements, das der Besucher anzeigt, übergeben, damit die Filterempfehlungen der aktuellen Kategorie zugeordnet werden können.
 
