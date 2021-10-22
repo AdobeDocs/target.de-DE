@@ -2,12 +2,12 @@
 keywords: Mbox debuggen;Fehlerbehebung für Mbox;Mbox-Probleme;Flackern;mboxDebug;mboxTrace;Token;Debugger;Priorität;Aktivitätspriorität;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst Mbox kaufen;bester Verkauf;bestverkauftes Produkt
 description: Hier finden Sie Tipps zur Fehlerbehebung, wenn der Inhalt auf Ihrer Seite nicht wie erwartet angezeigt wird. Erfahren Sie, wie Sie Fehler bei der Inhaltsbereitstellung beheben.
 title: Wie kann ich Fehler bei der Inhaltsbereitstellung beheben?
-feature: Aktivitäten
+feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: ht
-source-wordcount: '1268'
-ht-degree: 100%
+source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ Wenn Ihre Seite nicht den erwarteten Inhalt anzeigt, gibt es ein paar Schritte, 
 * Verwenden Sie zur Fehlerbehebung bei [!DNL Target]-Anforderungen mboxTrace oder mboxDebug.
 * Mit Adobe Experience Cloud Debugger erhalten Sie ein intuitives Tool, das für die Fehlerbehebung von [!DNL Target]-Anforderungen fast die gleichen Informationen wie mboxDebug bereitstellt.
 
-mboxDebug ist insbesondere bei der Einrichtung von [!DNL Target] auf Ihrer Seite hilfreich. Es stellt sicher, dass die [!DNL Target]-Anforderung ausgelöst und das Cookie eingerichtet wird. Jedoch ist mboxDebug nicht so detailliert, wie es für die Fehlerdiagnose bei der Inhaltsbereitstellung nützlich wäre. Wenn Ihre Aktivität nicht auf Ihrer Seite erscheint oder unerwünschter Inhalt eingeblendet wird, verwenden Sie mboxTrace, um die Seite ausführlich zu untersuchen und Fehler zu diagnostizieren.
+mboxDebug ist besonders beim Einrichten nützlich [!DNL Target] auf Ihrer Seite, um sicherzustellen, dass die Zielgruppe-Anfrage ausgelöst wird und das Cookie gesetzt wird. Jedoch ist mboxDebug nicht so detailliert, wie es für die Fehlerdiagnose bei der Inhaltsbereitstellung nützlich wäre. Wenn Ihre Aktivität nicht auf Ihrer Seite erscheint oder unerwünschter Inhalt eingeblendet wird, verwenden Sie mboxTrace, um die Seite ausführlich zu untersuchen und Fehler zu diagnostizieren.
 
 ## Abrufen des Autorisierungstokens zur Verwendung mit Debuggingwerkzeugen {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -56,7 +56,7 @@ Die folgenden Parameter stehen zur Verfügung:
 
 | mboxTrace-Optionen | Resultat |
 |--- |--- |
-| `?mboxTrace=console` | Wird im Konsolenprotokoll als Objekt ausgegeben.<br>Bei „at.js“ können Sie kein neues Browser-Fenster öffnen oder wie bei „mbox.js“ eine Ausgabe in der Konsole veranlassen. Sie müssen die „Network“-Anfrage prüfen und unter „Preview“ (Chrome) oder „Response“ (Firefox) nachsehen. |
+| `?mboxTrace=console` | Wird im Konsolenprotokoll als Objekt ausgegeben.<br>Anstatt ein neues Browserfenster zu öffnen oder wie in mbox.js in die Konsole auszugeben, müssen Sie die Netzwerkanforderung überprüfen und unter Vorschau (Chrome) oder Antwort (Firefox) suchen. |
 | `?mboxTrace=json` | Wird im Konsolenprotokoll als buchstäbliche JSON-Zeichenfolge ausgegeben |
 | `?mboxTrace=window` | Wird im Pop-up-Fenster als JSON-Zeichenfolge ausgegeben |
 | `?mboxTrace=disable` | Schaltet den Trace-Sitzungsmodus ab |
@@ -65,7 +65,7 @@ Die folgenden Parameter stehen zur Verfügung:
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-Die Ausgabe zeigt sehr detaillierte Informationen über Ihren Inhalt an. mboxTrace zeigt Details über Ihre Kampagne bzw. Aktivität und Ihr Profil an. Außerdem enthält es eine Momentaufnahme des Profils vor der Ausführung sowie eine Momentaufnahme mit den Änderungen nach der Ausführung. Es zeigt außerdem, welche Kampagnen oder Aktivitäten für jeden Ort ausgewertet wurden.
+In der Ausgabe werden detaillierte Informationen zu Ihrem Inhalt angezeigt. mboxTrace zeigt Details zu Ihrer Kampagne oder Aktivität und Ihrem Profil an. Sie enthält außerdem eine Momentaufnahme des Profils vor der Ausführung und eine Momentaufnahme der Änderungen nach der Ausführung. Es zeigt außerdem, welche Kampagnen oder Aktivitäten für jeden Ort ausgewertet wurden.
 
 Ein Teil der Informationen umfasst übereinstimmende und nicht übereinstimmende Segment- und Ziel-IDs:
 
@@ -114,7 +114,7 @@ Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Proble
 
 Weitere Informationen finden Sie in den Schulungsvideos unten:
 
-Weitere Informationen finden Sie unter [Debugging von at.js mit dem Adobe Experience Cloud-Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+Weitere Informationen finden Sie unter [at.js mit dem Adobe Experience Cloud Debugger debuggen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Topverkäufe werden nicht in Recommendations angezeigt.   {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -132,11 +132,11 @@ Target unterstützt IE 8 nicht mehr.
 
 Wenn Ihre Site eine Unterdomäne besitzt, z. B. [!DNL us.domain.com], das Target-Cookie aber auf [!DNL domain.com] gesetzt werden muss (anstatt auf [!DNL us.domain.com]), dann müssen Sie die Einstellung `cookieDomain` überschreiben. Weitere Informationen finden Sie unter [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
-## Target-Inhalt flackert oder wird nicht angezeigt, wenn ein Element auch Teil einer AEM-Personalisierung ist. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## Zielgruppe flackert oder wird nicht angezeigt, wenn ein Element auch Teil der Adobe Experience Manager-Personalisierung ist. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 Wenn ein DOM-Element zum Adobe Experience Manager-(AEM)-Personalisierungstargeting und zu einer Target-Aktivität gehört, flackert der Target-Inhalt möglicherweise, oder er wird nicht angezeigt.
 
-Um dies zu beheben, können Sie die AEM-Personalisierung für Seiten deaktivieren, auf denen Target ausgeführt wird.
+Um dieses Problem zu beheben, können Sie AEM Personalisierung auf Seiten deaktivieren, auf denen die Zielgruppe ausgeführt wird.
 
 ## Umleitungs- und Remote-Angebote können aufgrund einer ungültigen URL nicht bereitgestellt werden.   {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -150,9 +150,45 @@ Bei Remote-Angeboten kann die [!DNL Target]-Antwort `/* invalid remote offer URL
 
 Sie können die [!DNL Target]-Antwort im Browser oder mit mboxTrace überprüfen. Weitere Informationen zu gültigen URLs finden Sie unter [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
 
-## Target-Anforderungen werden auf meiner Site nicht ausgelöst.
+## [!DNL Target] -Anfragen werden auf meiner Site nicht ausgelöst.
 
 at. js löst keine Target-Anforderungen aus, wenn Sie einen ungültigen Doctype verwenden. at.js erfordert den Doctype HTML 5.
+
+## Sicherstellen, dass [!DNL Target] Aktivitäten behandeln URLs mit Abfrage-Zeichenfolgenparametern korrekt {#query-strings}
+
+Die [!UICONTROL Aktivität-URL] bestimmt die Seite, die Besucher für die Aktivität qualifiziert und die Benutzererfahrung in der Aktivität wiedergibt. Wenn Sie bei der Erstellung der Aktivität dazu aufgefordert werden, stellt die Eingabe der vollständigen URL nicht immer sicher, dass der Inhalt auf dieser Site-Seite bereitgestellt wird, insbesondere nicht bei URLs, die Abfrage-Zeichenfolgenparameter enthalten.
+
+Standardmäßig wird die [!UICONTROL Visual Experience Composer] (VEC) öffnet die Seite, die in Ihrer [Einstellungen für Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md). Sie können bei der Erstellung der Aktivität auch eine andere Seite angeben.
+
+Um eine andere Seite nach dem Öffnen des VEC anzuzeigen, klicken Sie auf **[!UICONTROL Zahnradsymbol konfigurieren]** > Auswählen **[!UICONTROL Seiten-Versand]** > geben Sie die gewünschte URL in der [!UICONTROL Aktivität-URL] Feld.
+
+![Benutzeroberfläche für Seiteneinstellungen Versand konfigurieren](assets/configure-page-delivery.png)
+
+Aber was ist, wenn die URL Abfrage-String-Parameter enthält? Wird es funktionieren und den personalisierten Inhalt anzeigen? In diesem Szenario können Sie unabhängig von Ihrer gezielten Audience zusätzlich zur Basis-URL Vorlagenregeln hinzufügen, um Ihre Abfrage-Parameter zu definieren.
+
+Mit den folgenden Optionen können zusätzliche Vorlagenregeln hinzugefügt werden:
+
+### Option 1: Replizieren Sie die URL und halten Sie sie in der Vorlagenregel mit der Option &quot;enthält&quot;.
+
+Diese Option stellt sicher, dass diese URL für die Aktivität geeignet ist, aber beachten Sie, dass es Ecken-Fälle an sie angehängt sind, die Ihre Berichte-Daten beeinflussen können, indem zusätzliche Datensätze zu URLs hinzugefügt werden, die die Basis-URL enthalten.
+
+In diesem Fall lautet die URL `https://shopping.mycart.com?type=Summers%20Offers` und zusätzliche Vorlagenregeln &quot;enthalten&quot; dieselbe URL, getrennt durch einen ODER-Operator:
+
+![URL in Vorlagenregeln replizieren](assets/option1.png)
+
+### Option 2: Beschränken Sie die URL-Bedingung &quot;enthält&quot; nur mit der Abfrage-Zeichenfolge.
+
+In dieser Option wird der in der vorherigen Option beschriebene Eckenfall angewendet, aber hier ist die bedingte Einrichtung nur auf die Abfrage-Zeichenfolge beschränkt.
+
+In diesem Fall lautet die URL `https://shopping.mycart.com?type=Summers%20Offers` und zusätzliche Vorlagenregeln &quot;enthält&quot; nur die durch einen ODER-Operator getrennte Abfrage:
+
+![Vorlagenregel enthält nur die Abfrage](assets/option2.png)
+
+### Option 3: Verwenden Sie anstelle der vollständigen URL einen bestimmten Teil der URL.
+
+In diesem Fall lautet die URL `https://shopping.mycart.com?type=Summers%20Offers` und zusätzliche Vorlagenregeln eine [!UICONTROL Abfrage] mit [!UICONTROL Typ] > [!UICONTROL ist (Groß- und Kleinschreibung beachten)] > type=Summers%20Angebot, durch einen ODER-Operator getrennt:
+
+![Vorlagenregel, die einen bestimmten Teil der URL nutzt](assets/option3.png)
 
 ## Schulungsvideos
 
