@@ -4,7 +4,7 @@ description: Hier finden Sie Tipps zur Fehlerbehebung, wenn der Inhalt auf Ihrer
 title: Wie kann ich Fehler bei der Inhaltsbereitstellung beheben?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 68%
@@ -154,7 +154,7 @@ Sie können die [!DNL Target]-Antwort im Browser oder mit mboxTrace überprüfen
 
 at. js löst keine Target-Anforderungen aus, wenn Sie einen ungültigen Doctype verwenden. at.js erfordert den Doctype HTML 5.
 
-## Sicherstellen, dass [!DNL Target] Aktivitäten behandeln URLs mit Abfrage-Zeichenfolgenparametern korrekt {#query-strings}
+## Sicherstellen, dass [!DNL Target] Aktivitäten behandeln URLs mit Abfrage-String-Parametern korrekt. {#query-strings}
 
 Die [!UICONTROL Aktivität-URL] bestimmt die Seite, die Besucher für die Aktivität qualifiziert und die Benutzererfahrung in der Aktivität wiedergibt. Wenn Sie bei der Erstellung der Aktivität dazu aufgefordert werden, stellt die Eingabe der vollständigen URL nicht immer sicher, dass der Inhalt auf dieser Site-Seite bereitgestellt wird, insbesondere nicht bei URLs, die Abfrage-Zeichenfolgenparameter enthalten.
 
