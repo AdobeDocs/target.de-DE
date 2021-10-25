@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
+source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 57%
+source-wordcount: '413'
+ht-degree: 53%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 57%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert am: 20. Oktober 2021**
+**Zuletzt aktualisiert am: 25. Oktober 2021**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -24,6 +24,14 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 >**Beendigung von mbox.js**: Ab dem 31. März 2021 unterstützt [!DNL Adobe Target] die Bibliothek „mbox.js“ nicht mehr. Seit dem 31. März 2021 schlagen alle Aufrufe aus mbox.js kontrolliert fehl. Dies wirkt sich auf Seiten mit [!DNL Target]-Aktivitäten aus, die Standardinhalte bereitstellen.
 >
 >Um potenzielle Probleme mit Ihren Sites zu vermeiden, migrieren Sie zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder der JavaScript-Bibliothek „at.js“. Weitere Informationen finden Sie unter [Übersicht: Target für Client-seitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 21.10.5 (26. Oktober 2021)
+
+Dieses Maintenance Release enthält die folgende Erweiterung:
+
+| Funktion | Details |
+| --- | --- |
+| [!UICONTROL Visual Experience Composer] (VEC) | Unterstützung für Webkomponenten hinzugefügt. Personalisierte Erlebnisse und Angebot können in benutzerspezifischen Elementen und in Elementen in benutzerspezifischen Elementen erstellt und getestet werden. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21. Oktober 2021)
 
