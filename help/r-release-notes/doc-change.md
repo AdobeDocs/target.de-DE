@@ -4,7 +4,7 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
+source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
 workflow-type: tm+mt
 source-wordcount: '2859'
 ht-degree: 94%
@@ -19,7 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 25. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Hinzugefügte Informationen über die [!DNL Target Standard/Premium] Release 21.10.5 (26. Oktober 2021). |
+| 25. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Hinzugefügte Informationen über die [!DNL Target Standard/Premium] Release 21.10.5 (28. Oktober 2021). |
 | 22. Oktober | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Folgender Abschnitt wurde hinzugefügt:<ul><li>Sicherstellen, dass [!DNL Target] Aktivitäten behandeln URLs mit Abfrage-Zeichenfolgenparametern korrekt</li></ul> |
 | 21. Oktober | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgenden Ereignissen hinzugefügt:<ul><li>[!DNL Adobe Target] Community Fragen und Antworten-Kaffeepause (10. November 2021)</li><li>[!DNL Adobe Target] Community Fragen und Antworten-Kaffeepause (8. Dezember 2021)</li></ul> |
 | 20. Oktober | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Hinzugefügte Informationen über die [!DNL Target Standard/Premium] Release 21.10.4 (21. Oktober 2021). |
