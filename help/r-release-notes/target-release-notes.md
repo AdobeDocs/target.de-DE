@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
+source-git-commit: 8a011f9076cd4d5041fa17485441c83de43581e5
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '420'
 ht-degree: 53%
 
 ---
@@ -31,7 +31,7 @@ Dieses Maintenance Release enthält die folgende Erweiterung:
 
 | Funktion | Details |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | Unterstützung für Webkomponenten hinzugefügt. Personalisierte Erlebnisse und Angebot können in benutzerspezifischen Elementen und in Elementen in benutzerspezifischen Elementen erstellt und getestet werden. |
+| [!UICONTROL Visual Experience Composer] (VEC) | Zusätzliche Unterstützung für [Webkomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Personalisierte Erlebnisse und Angebot können erstellt und auf benutzerspezifischen Elementen und auf Elementen in benutzerdefinierten Elementen getestet werden. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21. Oktober 2021)
 
