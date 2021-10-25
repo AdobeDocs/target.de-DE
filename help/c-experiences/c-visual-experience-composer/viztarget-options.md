@@ -4,14 +4,14 @@ description: Entdecken Sie die Optionen in Adobe Targets Visual Experience Compo
 title: Wie verwende ich die VEC-Optionen (Visual Experience Composer)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 3779c64b5e09accda3063548d29d9d3a0c339ed6
+source-git-commit: 823694603c0248316e471f0b15070c0a34356620
 workflow-type: tm+mt
-source-wordcount: '2608'
-ht-degree: 76%
+source-wordcount: '2626'
+ht-degree: 71%
 
 ---
 
-# Visual Experience Composer–Optionen
+# Visual Experience Composer-Optionen
 
 Wenn Sie auf ein Seitenelement im [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), zeigt ein Menü die Optionen an, die für diesen Elementtyp verfügbar sind. Darüber hinaus wird am unteren Rand der Seite ein DOM-Pfad angezeigt, mit dem Sie einfach durch die Seitenstruktur navigieren können.
 
@@ -25,11 +25,11 @@ Die verschiedenen Visual Experience Composer (VEC)-Aktionen sind in Menüs grupp
 >
 >Die verfügbaren Optionen hängen von dem Aktivitätstyp ab, den Sie bearbeiten.
 
-### Bearbeiten
+### [!UICONTROL Bearbeiten ]
 
 Die folgenden Optionen sind verfügbar:
 
-#### Text/HTML {#edit-text-html}
+#### [!UICONTROL Text/HTML] {#edit-text-html}
 
 Ändern Sie den HTML-Code für das Element, etwa den Text für einen Textbereich, eine Schaltfläche oder einen Link.
 
@@ -46,13 +46,13 @@ Die folgenden HTML 5-Tags können verschachtelt sein:
 | `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
-#### Hintergrundfarbe
+#### [!UICONTROL Hintergrundfarbe]
 
 Verwenden Sie den Farbwähler, um eine Hintergrundfarbe auszuwählen oder zu konfigurieren. Sie können ein Farbmuster auswählen und es mithilfe von RGB-Werten oder Farb-Hex-Codes anpassen. Das rote X im Farbwähler macht den Hintergrund transparent.
 
 **Hinweis:** Diese Option ist nicht für Elemente verfügbar, wenn ein Hintergrundbild festgelegt ist.
 
-#### Stile {#styles}
+#### [!UICONTROL Stile ] {#styles}
 
 Verwenden Sie das Bedienfeld [!UICONTROL Stile], um den Wert vorhandener Stile für das ausgewählte Element anzuzeigen oder zu bearbeiten. Sie können auch zusätzliche Formatierungen hinzufügen.
 
@@ -72,7 +72,7 @@ Blaue Punkte im Hauptbereich und neben jeder Option in den verschiedenen Bereich
 >
 >Schnellaktionen für Layoutänderungen, Hintergrundfarbe, Größenanpassungen und Verschieben sind ebenfalls als separate Aktionen im VEC-Menü verfügbar. Diese Optionen können als separate Aktionen verwendet werden oder Sie können das Menü Stile verwenden, wie hier erklärt.
 
-* **Hintergrund**
+* **[!UICONTROL Hintergrund]**
 
    Sie können die Hintergrundfarbe und das Bild ändern.
 
@@ -86,7 +86,7 @@ Blaue Punkte im Hauptbereich und neben jeder Option in den verschiedenen Bereich
       * Klicken Sie auf die obere Dropdownliste, um „Rahmen“, „Umrandung“, „Inhaltsfenster“ oder „Text“ auszuwählen.
       * Klicken Sie auf die untere Dropdownliste, um die automatische Audiowiedergabe oder Audiowiedergabe auszuwählen.
 
-* **Typografie**
+* **[!UICONTROL Typografie]**
 
    Ändern Sie die Typografie eines Elements. Die Bearbeitung der Typografie ist schnell und einfach.
 
@@ -94,28 +94,28 @@ Blaue Punkte im Hauptbereich und neben jeder Option in den verschiedenen Bereich
 
    Sie können die folgenden Typografie-Stile bearbeiten:
 
-   * Schriftgröße
-   * Schriftstärke
-   * Textformat
-   * Farbe (geben Sie den Farbcode an oder verwenden Sie den Farbwähler)
-   * Wortabstand
-   * Zeilenhöhe
-   * Textausrichtung
+   * [!UICONTROL Schriftgröße]
+   * [!UICONTROL Schriftstärke]
+   * [!UICONTROL Textformat]
+   * [!UICONTROL Farbe] (geben Sie den Farbcode an oder verwenden Sie den Farbwähler)
+   * [!UICONTROL Wortabstand]
+   * [!UICONTROL Zeilenhöhe]
+   * [!UICONTROL Textausrichtung]
 
-* **Rand**
+* **[!UICONTROL Rand]**
 
    Ändern Sie den Rand für das ausgewählte Element. Sie können die linken, rechten, unteren und oberen Ränder ändern.
 
    Klicken Sie auf das Dropdownsymbol für jeden Rand, um unter den folgenden Optionen zu wählen:
 
-   * Auto
-   * Wert (ziehen Sie den Regler, um den Rand festzulegen, oder legen Sie die Anzahl der Pixel für jeden Rand fest)
+   * [!UICONTROL Auto]
+   * [!UICONTROL Wert] (Ziehen Sie den Schieberegler, um den Rand festzulegen oder die Anzahl der Pixel für jeden Rand festzulegen)
 
    Für den Rand werden positive und negative Werte unterstützt.
 
    Zielgruppe unterstützt auch andere Größen wie z.B. rem, pc, em. Weitere Informationen zu diesen Einheiten finden Sie unter [CSS-Tipps und Tricks für Web-Stylesheets](https://www.w3.org/Style/Examples/007/units.en.html).
 
-* **Umrandung**
+* **[!UICONTROL Umrandung]**
 
    Ändern Sie die Umrandung für das ausgewählte Element. Sie können die linke, rechte, untere und obere Umrandung ändern.
 
@@ -125,65 +125,66 @@ Blaue Punkte im Hauptbereich und neben jeder Option in den verschiedenen Bereich
 
    Zielgruppe unterstützt auch [andere Größeneinheiten](https://www.w3.org/Style/Examples/007/units.en.html), wie z. B. rem, pc, em.
 
-* **Rahmen**
+* **[!UICONTROL Rahmen]**
 
    Klicken Sie auf die Rahmensymbole oben im Bedienfeld, um den Rahmen des ausgewählten Elements zu ändern.
 
    Sie können die folgenden Stile für jeden Rahmen bearbeiten (oben, rechts, unten und links):
 
-   * Rahmenstil (keiner, ausgeblendet, gepunktet, gestrichelt, solide oder doppelt)
-   * Rahmenfarbe (geben Sie den Farbcode an oder verwenden Sie den Farbwähler)
-   * Rahmendicke (ziehen Sie den Regler, um eine Rahmendicke auszuwählen, oder legen Sie die Dicke in Pixeln fest)
+   * [!UICONTROL Rahmenstil] (keine, ausgeblendet, gepunktet, gestrichelt, ausgefüllt oder Dublette)
+   * [!UICONTROL Rahmenfarbe] (geben Sie den Farbcode an oder verwenden Sie den Farbwähler)
+   * [!UICONTROL Rahmenbreite] (Ziehen Sie den Schieberegler, um eine Randbreite auszuwählen oder die Breite in Pixel anzugeben)
 
    Rahmendicken von 0 aufwärts werden unterstützt.
 
    Zielgruppe unterstützt auch [andere Größeneinheiten](https://www.w3.org/Style/Examples/007/units.en.html), wie z. B. rem, pc, em.
 
-* **Position**
+* **[!UICONTROL Position]**
 
    Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. Sie können die Elemente oben, unten, links, rechts und [Z-Index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) Position.
 
    Klicken Sie auf die Dropdownliste [!UICONTROL Statisch], um aus den folgenden Positionsoptionen auszuwählen:
 
-   * Statisch
-   * Relativ
-   * Absolut
-   * Stickiness
-   * Fest
+   * [!UICONTROL Statisch]
+   * [!UICONTROL Relativ]
+   * [!UICONTROL Absolut      ]
+   * [!UICONTROL Stickiness]
+   * [!UICONTROL Fest]
 
    Klicken Sie auf das Dropdownsymbol für jede Position, um unter den folgenden Optionen auszuwählen:
 
-   * Automatisch
-   * Wert (ziehen Sie den Schieberegler, um das Element zu positionieren, oder geben Sie die Anzahl der Pixel an, um die Sie das Element verschieben möchten)
+   * [!UICONTROL Automatisch]
+   * [!UICONTROL Wert] (Ziehen Sie den Schieberegler, um das Element zu positionieren, oder geben Sie die Anzahl der Pixel an, um das Element zu verschieben)
 
    Für die Position werden positive und negative Werte unterstützt.
 
    Zielgruppe unterstützt auch [andere Größeneinheiten](https://www.w3.org/Style/Examples/007/units.en.html), wie z. B. rem, pc, em.
 
-* **Größe**
+* **[!UICONTROL Größe]**
 
    Ändern Sie die Breite und Höhe des ausgewählten Elements.
 
    Klicken Sie auf das Dropdownsymbol neben [!UICONTROL Breite] und [!UICONTROL Höhe], um unter den folgenden Optionen auszuwählen:
 
-   * Automatisch
-   * Wert (ziehen Sie den Regler, um das Element zu vergrößern oder zu verkleinern, oder geben Sie die Anzahl der Pixel für jede Dimension an)
+   * [!UICONTROL Automatisch]
+   * [!UICONTROL Wert] (Ziehen Sie den Schieberegler, um das Element zu vergrößern, oder geben Sie die Anzahl der Pixel für jede Dimension an)
 
-* **Filter**
+* **[!UICONTROL Filter]**
 
    Ziehen Sie den Schieberegler für jede Filteroption oder geben Sie den gewünschten Prozentsatz an:
 
-   * Sepia
-   * Kontrast
-   * Helligkeit
-   * Graustufen
-   * Weichzeichnen
-   * Deckkraft
-   * Invertieren
-   * Farbton rotieren
-   * Sättigung
+   * [!UICONTROL Sepia]
+   * [!UICONTROL Kontrast]
+   * [!UICONTROL Helligkeit]
+   * [!UICONTROL Graustufen]
+   * [!UICONTROL Weichzeichnen]
+   * [!UICONTROL Deckkraft]
+   * [!UICONTROL Invertieren]
+*
+[!UICONTROL  Farbton rotieren]
+   * [!UICONTROL Sättigung]
 
-* **CSS-Editor**
+* **[!UICONTROL CSS-Editor]**
 
    Mit dem Echtzeit-CSS-Editor können Sie Änderungen anzeigen und Stile hinzufügen, wenn Sie mit Cascading Style Sheets (CSS) gut vertraut sind oder Code von Ihrem Entwickler erhalten.
 
@@ -201,23 +202,23 @@ Blaue Punkte im Hauptbereich und neben jeder Option in den verschiedenen Bereich
    >
    >Sie können ein Hintergrundbild mithilfe des CSS-Editors anwenden, es kann jedoch zu Flackern führen. Testen Sie Ihre Änderungen vor der Implementierung.
 
-#### CSS-Klasse
+#### [!UICONTROL CSS-Klasse]
 
 Geben Sie die vordefinierte CSS-Klasse, die für das Element verwendet wurde, an. Wenn mehr als ein Element ausgewählt ist, trennen Sie mehrere CSS-Klassen durch ein Leerzeichen.
 
 Verfügbar für Aktivitäten mit [!UICONTROL A/B], [!UICONTROL Automated Personalization] und [!UICONTROL Multivarianz-Tests].
 
-#### Link
+#### [!UICONTROL Link]
 
 Ändern Sie die URL im Link.
 
 Verwenden Sie „Link bearbeiten“, um die Auswahl zu aktualisieren, damit auf dasselbe Bildelement gezeigt wird. Die Verlinkung zu einem anderen Bildelement wird jedoch nicht unterstützt. Um eine Verlinkung zu einem anderen Bildelement herzustellen, löschen Sie die ursprüngliche Aktion aus dem Code-Editor und verwenden Sie den [!UICONTROL Visual Experience Composer], um die Aktion auf das andere Bildelement anzuwenden.
 
-### Einfügen vor
+### [!UICONTROL Einfügen vor]
 
 Die folgenden Optionen sind verfügbar:
 
-#### Bild, HTML und Text
+#### [!UICONTROL Bild], [!UICONTROL HTML]und [!UICONTROL Text]
 
 Fügen Sie zusätzlich zur Bearbeitung von bestehendem Inhalt nun auch jede Art von Elementen zu Ihrer Seite hinzu. Fügen Sie Text, Code, Listen und mehr hinzu, um komplett unterschiedliche Erlebnisse zum Testen zu erstellen.
 
@@ -233,15 +234,15 @@ Das Verhalten des eingefügten Elements hängt von der Struktur der Seite, Ihrem
 
 Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### Erlebnisfragment
+#### [!UICONTROL Erlebnisfragment]
 
 Fügen Sie Erlebnisfragmente, die in [!DNL Adobe Experience Manager] (AEM) erstellt wurden, in [!DNL Target]-Aktivitäten ein, um eine Optimierung oder Personalisierung zu ermöglichen. Weitere Informationen finden Sie unter [AEM-Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### Einfügen nach
+### [!UICONTROL Einfügen nach]
 
 Die folgenden Optionen sind verfügbar:
 
-#### Bild, HTML und Text
+#### [!UICONTROL Bild], [!UICONTROL HTML]und [!UICONTROL Text]
 
 Fügen Sie zusätzlich zur Bearbeitung von bestehendem Inhalt nun auch jede Art von Elementen zu Ihrer Seite hinzu. Fügen Sie Text, Code, Listen und mehr hinzu, um komplett unterschiedliche Erlebnisse zum Testen zu erstellen.
 
@@ -257,15 +258,15 @@ Das Verhalten des eingefügten Elements hängt von der Struktur der Seite, Ihrem
 
 Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### Erlebnisfragment
+#### [!UICONTROL Erlebnisfragment]
 
 Fügen Sie Erlebnisfragmente, die in [!DNL Adobe Experience Manager] (AEM) erstellt wurden, in [!DNL Target]-Aktivitäten ein, um eine Optimierung oder Personalisierung zu ermöglichen. Weitere Informationen finden Sie unter [AEM-Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### Ersetzen durch
+### [!UICONTROL Ersetzen durch]
 
 Die folgenden Optionen sind verfügbar:
 
-#### Bild
+#### [!UICONTROL Bild]
 
 Wählen Sie ein anderes Bild aus der Inhaltsbibliothek. Die für den Tausch verfügbaren Bilder beinhalten auch Bilder, die in den Asset-Ordner von Experience Cloud oder in die Inhaltsbibliothek in Target hochgeladen wurden.
 
@@ -283,7 +284,7 @@ Recommendations unterstützt „Ersetzen durch“ in DIV-, SECTION- und ARTICLE-
 
 **Hinweis:** Für den Tausch von Bildern ist ein Adobe Scene7 Publishing System-Konto erforderlich.
 
-#### HTML-Angebot
+#### [!UICONTROL HTML-Angebot]
 
 Wählen Sie in der [!UICONTROL Inhaltsbibliothek] ein anderes Angebot aus.
 
@@ -295,51 +296,51 @@ Ein HTML-Angebot kann bis zu 256 KB groß sein.
 
 Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### Erlebnisfragment
+#### [!UICONTROL Erlebnisfragment]
 
 Fügen Sie Erlebnisfragmente, die in [!DNL Adobe Experience Manager] (AEM) erstellt wurden, in [!DNL Target]-Aktivitäten ein, um eine Optimierung oder Personalisierung zu ermöglichen. Weitere Informationen finden Sie unter [AEM-Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### Layout
+### [!UICONTROL Layout]
 
 Die folgenden Optionen sind verfügbar:
 
-#### Neu anordnen
+#### [!UICONTROL Neu anordnen]
 
 Ziehen Sie das Element an einen anderen Ort innerhalb des gleichen übergeordneten Elements oder DIV. Andere Elemente wechseln den Standort, um für das neu angeordnete Element Platz zu schaffen.
 
 **Hinweis:** Klick-Tracking kann für neu angeordnete Elemente nicht durchgeführt werden.
 
-#### Größe ändern
+#### [!UICONTROL Größe ändern]
 
 Ändern Sie die Größe eines Elements auf Ihrer Seite. Bei Auswahl von [!UICONTROL Größe ändern], wird in der rechten unteren Ecke des Elements ein Griff angezeigt, mit dem Sie die Ecke ziehen können, um die Größe zu ändern. Halten Sie die Umschalttaste gedrückt, um das Größenverhältnis beizubehalten.
 
 **Hinweis:** Die Größe von Inline-Elementen kann nicht geändert werden.
 
-#### Verschieben {#move}
+#### [!UICONTROL Verschieben ] {#move}
 
 Verschieben Sie Elemente auf Ihrer Seite. Im Gegensatz zu [!UICONTROL Elemente neu anordnen] werden bei der Option [!UICONTROL Verschieben] keine anderen Elemente verschoben, um Platz für das verschobene Element zu machen. Verwenden Sie die Pfeiltasten, um geringfügige Korrekturen vorzunehmen. (Geplante Erweiterung: Unterstützung, um sicherzustellen, dass verschobene Elemente nicht hinter anderen Elementen ausgeblendet werden.)
 
 In bestimmten Situationen, z. B. wenn eine CSS-Beschränkung die Bindung eines Elements innerhalb des übergeordneten Elements erfordert, können Sie das Element nicht außerhalb des übergeordneten Elements verschieben. Elemente können nicht aus einem Container verschoben werden, der folgende CSS-Eigenschaft hat:`overflow: hidden`
 
-#### Ausblenden
+#### [!UICONTROL Ausblenden]
 
 Blenden Sie das Element aus. Der weiße Bereich bleibt bestehen, der Inhalt wird jedoch entfernt.
 
-#### Entfernen
+#### [!UICONTROL Entfernen]
 
 Entfernen Sie das Element. Der weiße Bereich hinter dem Bild wird entfernt, und der Bereich, in dem sich das Element befand, wird ausgeblendet.
 
 **Hinweis:** Elemente innerhalb einer „klassischen“ Mbox (eine mit einer Target Classic-Kampagne erstellte Mbox) können nicht mit dieser Option entfernt werden.
 
-### Abschnitt erweitern
+### [!UICONTROL Abschnitt erweitern]
 
 Wählen Sie das übergeordnete Element zusätzlich zum ursprünglich ausgewählten Element aus. Wenn Sie ein übergeordnetes Element auswählen, werden alle untergeordneten Elemente dieses Elements automatisch ausgewählt. Sie können diese Auswahl mehrere Male erweitern.
 
-### Gehen Sie zu dem Link
+### [!UICONTROL Gehen Sie zu dem Link]
 
 Öffnen Sie das Ziel dieses Links.
 
-### Rückgängig/Wiederholen
+### [!UICONTROL Rückgängig]/[!UICONTROL Wiederholen]
 
 Rückgängigmachen von Änderungen, die Sie während einer Bearbeitungssitzung an Ihren Aktivitäten vornehmen Sie können außerdem Änderungen wiederherstellen, die zuvor rückgängig gemacht wurden.
 
@@ -357,14 +358,21 @@ VEC unterstützt [Webkomponenten](https://developer.mozilla.org/en-US/docs/Web/W
 >
 >Die VEC-Unterstützung für benutzerdefinierte Elemente wird derzeit nicht von der unterstützt. [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
-Die meisten VEC-Aktionen werden auf benutzerdefinierten Ereignissen und in benutzerdefinierten Ereignissen unterstützt. Die folgenden Aktionen sind nicht verfügbar:
+Die meisten VEC-Aktionen werden auf benutzerdefinierten Ereignissen und in benutzerdefinierten Ereignissen unterstützt, mit folgenden Ausnahmen:
 
-* Bearbeiten
-   * Text/HTML
-   * Link
-   * Quelle bearbeiten
+Folgende Aktionen sind für benutzerdefinierte Elemente nicht verfügbar:
 
-* Inhalt ersetzen
+* [!UICONTROL Bearbeiten ]
+   * [!UICONTROL Text/HTML]
+   * [!UICONTROL Link]
+   * [!UICONTROL Quelle bearbeiten]
+
+* [!UICONTROL Inhalt ersetzen]
+
+Die folgende Aktion ist in benutzerdefinierten Elementen nicht verfügbar:
+
+* [!UICONTROL Layout]
+   * [!UICONTROL Neu anordnen]
 
 ## In Elementen mithilfe des DOM-Pfades navigieren {#dom-path}
 
