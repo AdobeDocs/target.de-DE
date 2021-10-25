@@ -1,20 +1,19 @@
 ---
-keywords: Optionen in Visual Experience Composer;Optionen in Experience Composer;Erlebnisoptionen;Text bearbeiten;HTML bearbeiten;Text/HTML bearbeiten;Hintergrundfarbe bearbeiten;Hintergrundfarbe;Element einfügen;Link bearbeiten;Link;Link für Visual Experience Composer;CSS-Klasse bearbeiten;CSS-Klasse;Angebot austauschen;Austausch von Angeboten;Austausch;Bild tauschen;Bildaustausch;Element entfernen;Entfernung von Elementen;Element ausblenden;Ausblendung von Elementen;neu anordnen;Element verschieben;Verschiebung von Elementen;Größe ändern;Größe anpassen;Element;Auswahl erweitern;zu diesem Link navigieren;zu Link navigieren;Linknavigation;navigieren;Link;rückgängig machen;wiederholen;rückgängig/wiederholen
-description: Lernen Sie die Optionen in Adobe Target Visual Experience Composer (VEC) kennen. Klicken Sie einfach auf ein Element, um zu sehen, welche Optionen für dieses Element verfügbar sind.
+keywords: Optionen für den Visual Experience Composer;Optionen für den Erlebnissetzer;Erlebnisoptionen;Bearbeiten-HTML;Bearbeiten-Text/HTML;Bearbeiten-Hintergrundfarbe;Hintergrundfarbe;Einfügeelement;Verknüpfung;Verknüpfung;Visual Experience Composer-Verknüpfung;Bearbeiten-CSS-Klasse;CSS-Klasse;CSS-Klasse;Austausch-Angebot;Angebot-Swap;Bild-Swap;Element entfernen;Element ausblenden;Element ausblenden;Element ausblenden;Element ausblenden;Verschieben;Element zu diesem Link navigieren;Link navigieren;navigieren;navigieren;navigieren;navigieren;navigieren;navigieren;Verknüpfen;Verknüpfen;Rückgängig;Wiederholen;Rückgängig/Wiederholen;Benutzerdefinierte Ereignis;Webkomponenten
+description: Entdecken Sie die Optionen in Adobe Targets Visual Experience Composer (VEC). Klicken Sie einfach auf ein Element, um zu sehen, welche Optionen für dieses Element verfügbar sind.
 title: Wie verwende ich die VEC-Optionen (Visual Experience Composer)?
 feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
+source-git-commit: 3779c64b5e09accda3063548d29d9d3a0c339ed6
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 93%
+source-wordcount: '2608'
+ht-degree: 76%
 
 ---
 
-
 # Visual Experience Composer–Optionen
 
-Wenn Sie auf ein Seitenelement im [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) klicken, zeigt ein Menü die Optionen an, die für diesen Elementtyp verfügbar sind. Darüber hinaus wird am unteren Rand der Seite ein DOM-Pfad angezeigt, mit dem Sie einfach durch die Seitenstruktur navigieren können.
+Wenn Sie auf ein Seitenelement im [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), zeigt ein Menü die Optionen an, die für diesen Elementtyp verfügbar sind. Darüber hinaus wird am unteren Rand der Seite ein DOM-Pfad angezeigt, mit dem Sie einfach durch die Seitenstruktur navigieren können.
 
 ## VEC-Optionen
 
@@ -44,7 +43,7 @@ Die folgenden HTML 5-Tags können verschachtelt sein:
 | --- | --- |
 | `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
 | `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
-| `<del>` | `<ul>`,  `<ol>`,  `<menu>`,  `<h1-h6>`,  `<p>` |
+| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
 #### Hintergrundfarbe
@@ -53,25 +52,25 @@ Verwenden Sie den Farbwähler, um eine Hintergrundfarbe auszuwählen oder zu kon
 
 **Hinweis:** Diese Option ist nicht für Elemente verfügbar, wenn ein Hintergrundbild festgelegt ist.
 
-#### Stile   {#styles}
+#### Stile {#styles}
 
 Verwenden Sie das Bedienfeld [!UICONTROL Stile], um den Wert vorhandener Stile für das ausgewählte Element anzuzeigen oder zu bearbeiten. Sie können auch zusätzliche Formatierungen hinzufügen.
 
-Um auf das Bedienfeld [!UICONTROL Stile] zuzugreifen, klicken Sie auf ein Seitenelement im VEC und dann auf **[!UICONTROL Bearbeiten]** > **[!UICONTROL Stile]**.
+So greifen Sie auf [!UICONTROL Stile] auf ein Seitenelement innerhalb des VEC klicken und dann auf **[!UICONTROL Bearbeiten]** > **[!UICONTROL Stile]**.
 
 Das Bedienfeld [!UICONTROL Stile] wird rechts im VEC angezeigt. Das Bedienfeld enthält eine Liste der Stile, mit denen Sie das ausgewählte Element bearbeiten oder die Sie zum ausgewählten Element hinzufügen können. Mit einem Echtzeit-CSS-Editor können Sie Änderungen anzeigen und Stile hinzufügen, wenn Sie mit Cascading Style Sheets (CSS) gut vertraut sind oder Code von Ihrem Entwickler erhalten.
 
 ![Stile-Bedienfeld](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-Wenn Sie verschiedene Stile anwenden, können Sie Ihre Änderungen jederzeit wieder rückgängig machen, indem Sie auf das Symbol [!UICONTROL Wiederherstellen] klicken, das in der rechten oberen Ecke des Bedienfelds [!UICONTROL Stile] angezeigt wird, nachdem Sie an einem beliebigen Abschnitt Änderungen vorgenommen haben. Beachten Sie, dass durch Klicken auf das Symbol [!UICONTROL Wiederherstellen] alle Änderungen im Bedienfeld des aktuellen Abschnitts rückgängig gemacht werden.
+Wenn Sie verschiedene Stile anwenden, können Sie Ihre Änderungen jederzeit rückgängig machen, indem Sie auf [!UICONTROL Zurücksetzen] Symbol, das in der oberen rechten Ecke der [!UICONTROL Stile] -Feld, nachdem Sie einen Bereich geändert haben. Klicken Sie auf [!UICONTROL Zurücksetzen] setzt alle Änderungen im Bedienfeld des aktuellen Bereichs zurück.
 
 Erweitern Sie jeden Abschnitt, um Stile zu bearbeiten oder hinzuzufügen, wie unten beschrieben. Um Ihre Änderungen zu speichern, klicken Sie oben im Bedienfeld auf das Symbol „Zurück“, um zur Hauptanzeige des Bedienfelds zurückzukehren, und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den verschiedenen Bereichen anzeigen, dass Sie Änderungen an den entsprechenden Stilen vorgenommen haben. Auf diese Weise können Sie Ihre Änderungen einfach überprüfen, bevor Sie auf [!UICONTROL Speichern] klicken.
+Blaue Punkte im Hauptbereich und neben jeder Option in den verschiedenen Bereichsfenstern zeigen an, dass Sie die entsprechenden Stile geändert haben. Dieser visuelle Indikator erleichtert Ihnen die Überprüfung Ihrer Änderungen, bevor Sie auf [!UICONTROL Speichern].
 
 >[!NOTE]
 >
->Schnellaktionen für Layoutänderungen, Hintergrundfarbe, Größenanpassungen und Verschieben sind ebenfalls als separate Aktionen im VEC-Menü verfügbar. Diese Optionen können als separate Aktionen genutzt werden oder Sie können das Menü „Stile“ verwenden, wie hier beschrieben.
+>Schnellaktionen für Layoutänderungen, Hintergrundfarbe, Größenanpassungen und Verschieben sind ebenfalls als separate Aktionen im VEC-Menü verfügbar. Diese Optionen können als separate Aktionen verwendet werden oder Sie können das Menü Stile verwenden, wie hier erklärt.
 
 * **Hintergrund**
 
@@ -91,7 +90,7 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    Ändern Sie die Typografie eines Elements. Die Bearbeitung der Typografie ist schnell und einfach.
 
-   Auch wenn der Rich-Text-Editor (Text/HTML bearbeiten) zur Feinabstimmung verfügbar ist, sind über diese Option Schnellaktionen verfügbar, um Änderungen am gesamten Element vorzunehmen. Wenn Sie die Typografie-Bearbeitungen nur auf einen Teil des Textes anwenden möchten (nicht auf den ganzen Text), verwenden Sie den [Rich-Text-Editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+   Obwohl der Rich-Text-Editor (Text bearbeiten/HTML) zur Feinabstimmung verfügbar ist, stehen über diese Option Schnellaktionen zum Ändern des gesamten Elements zur Verfügung. Wenn Sie die Typografie-Bearbeitungen nur auf einen Teil des Textes anwenden möchten (nicht auf den ganzen Text), verwenden Sie den [Rich-Text-Editor](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 
    Sie können die folgenden Typografie-Stile bearbeiten:
 
@@ -114,7 +113,7 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    Für den Rand werden positive und negative Werte unterstützt.
 
-   Target unterstützt auch andere Größeneinheiten wie rem, pc, em usw. Weitere Informationen zu diesen Einheiten finden Sie unter [CSS-Tipps und Tricks für Webstile](https://www.w3.org/Style/Examples/007/units.en.html).
+   Zielgruppe unterstützt auch andere Größen wie z.B. rem, pc, em. Weitere Informationen zu diesen Einheiten finden Sie unter [CSS-Tipps und Tricks für Web-Stylesheets](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Umrandung**
 
@@ -124,7 +123,7 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    Umrandungsdicken von 0 aufwärts werden unterstützt.
 
-   Zielgruppe unterstützt auch [andere Größen wie z.B. rem, pc, em usw.](https://www.w3.org/Style/Examples/007/units.en.html)
+   Zielgruppe unterstützt auch [andere Größeneinheiten](https://www.w3.org/Style/Examples/007/units.en.html), wie z. B. rem, pc, em.
 
 * **Rahmen**
 
@@ -138,11 +137,11 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    Rahmendicken von 0 aufwärts werden unterstützt.
 
-   Zielgruppe unterstützt auch [andere Größen wie z.B. rem, pc, em usw.](https://www.w3.org/Style/Examples/007/units.en.html)
+   Zielgruppe unterstützt auch [andere Größeneinheiten](https://www.w3.org/Style/Examples/007/units.en.html), wie z. B. rem, pc, em.
 
 * **Position**
 
-   Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. Sie können die Position des Elements oben, unten, links, rechts und [Z-Index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) ändern.
+   Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. Sie können die Elemente oben, unten, links, rechts und [Z-Index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) Position.
 
    Klicken Sie auf die Dropdownliste [!UICONTROL Statisch], um aus den folgenden Positionsoptionen auszuwählen:
 
@@ -154,12 +153,12 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    Klicken Sie auf das Dropdownsymbol für jede Position, um unter den folgenden Optionen auszuwählen:
 
-   * Auto
+   * Automatisch
    * Wert (ziehen Sie den Schieberegler, um das Element zu positionieren, oder geben Sie die Anzahl der Pixel an, um die Sie das Element verschieben möchten)
 
    Für die Position werden positive und negative Werte unterstützt.
 
-   Zielgruppe unterstützt auch [andere Größen wie z.B. rem, pc, em usw.](https://www.w3.org/Style/Examples/007/units.en.html)
+   Zielgruppe unterstützt auch [andere Größeneinheiten](https://www.w3.org/Style/Examples/007/units.en.html), wie z. B. rem, pc, em.
 
 * **Größe**
 
@@ -167,7 +166,7 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    Klicken Sie auf das Dropdownsymbol neben [!UICONTROL Breite] und [!UICONTROL Höhe], um unter den folgenden Optionen auszuwählen:
 
-   * Auto
+   * Automatisch
    * Wert (ziehen Sie den Regler, um das Element zu vergrößern oder zu verkleinern, oder geben Sie die Anzahl der Pixel für jede Dimension an)
 
 * **Filter**
@@ -192,11 +191,11 @@ Beachten Sie, dass blaue Punkte im Hauptbereich und neben jeder Option in den ve
 
    ![CSS-Editor mit Änderungen](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-   Beachten Sie die blauen Punkte neben den Optionen [!UICONTROL Typografie], [!UICONTROL Rand] und [!UICONTROL Größe] in der obigen Abbildung. Diese Punkte zeigen an, dass Sie Änderungen an diesen Abschnitten vorgenommen haben. Wenn Sie diese Abschnittsbedienfelder öffnen, werden neben den spezifischen Optionen, die Sie geändert haben, blaue Punkte angezeigt.
+   Beachten Sie die blauen Punkte neben den Optionen [!UICONTROL Typografie], [!UICONTROL Rand] und [!UICONTROL Größe] in der obigen Abbildung. Diese Punkte zeigen an, dass Sie diese Abschnitte geändert haben. Wenn Sie diese Abschnittsbedienfelder öffnen, werden neben den spezifischen Optionen, die Sie geändert haben, blaue Punkte angezeigt.
 
    Sie können Ihren eigenen Code eingeben, wenn der gewünschte Stil standardmäßig nicht in den [!UICONTROL Stilen] verfügbar ist.
 
-   Beachten Sie, dass im CSS-Editor nur Details für die aktuelle Sitzung angezeigt werden. Wenn Sie Änderungen speichern und den Editor dann erneut öffnen, werden Details zu Ihrer vorherigen Änderung nicht im Editor angezeigt, auch wenn Sie dasselbe Element erneut auswählen.
+   Im CSS-Editor werden nur Details zur aktuellen Sitzung angezeigt. Wenn Sie Änderungen speichern und den Editor dann erneut öffnen, werden Details zu Ihrer vorherigen Änderung nicht im Editor angezeigt, auch wenn Sie dasselbe Element erneut auswählen.
 
    >[!IMPORTANT]
    >
@@ -290,7 +289,7 @@ Wählen Sie in der [!UICONTROL Inhaltsbibliothek] ein anderes Angebot aus.
 
 **Hinweis:** HTML-Angebote werden auf [!DNL Target]-Servern gespeichert.
 
-Die zulässige Maximalgröße eines HTML-Angebots beträgt 256 KB.
+Ein HTML-Angebot kann bis zu 256 KB groß sein.
 
 #### Empfehlung
 
@@ -312,15 +311,15 @@ Ziehen Sie das Element an einen anderen Ort innerhalb des gleichen übergeordnet
 
 #### Größe ändern
 
-Ändern Sie die Größe eines Elements auf Ihrer Seite. Wenn Sie [!UICONTROL Größe ändern] auswählen, erscheint ein Handle an einer Ecke des Elements, an dem Sie es größer oder kleiner ziehen können. Halten Sie die Umschalttaste gedrückt, um das Größenverhältnis beizubehalten.
+Ändern Sie die Größe eines Elements auf Ihrer Seite. Bei Auswahl von [!UICONTROL Größe ändern], wird in der rechten unteren Ecke des Elements ein Griff angezeigt, mit dem Sie die Ecke ziehen können, um die Größe zu ändern. Halten Sie die Umschalttaste gedrückt, um das Größenverhältnis beizubehalten.
 
 **Hinweis:** Die Größe von Inline-Elementen kann nicht geändert werden.
 
-#### Verschieben   {#move}
+#### Verschieben {#move}
 
-Verschieben Sie Elemente auf Ihrer Seite. Im Gegensatz zu [!UICONTROL Elemente neu anordnen] werden bei der Option [!UICONTROL Verschieben] keine anderen Elemente verschoben, um Platz für das verschobene Element zu machen. Verwenden Sie die Pfeiltasten, um geringfügige Korrekturen vorzunehmen. (Geplante Erweiterung: Es soll sichergestellt werden können, dass verschobene Elemente nicht hinter anderen Elementen verborgen werden.)
+Verschieben Sie Elemente auf Ihrer Seite. Im Gegensatz zu [!UICONTROL Elemente neu anordnen] werden bei der Option [!UICONTROL Verschieben] keine anderen Elemente verschoben, um Platz für das verschobene Element zu machen. Verwenden Sie die Pfeiltasten, um geringfügige Korrekturen vorzunehmen. (Geplante Erweiterung: Unterstützung, um sicherzustellen, dass verschobene Elemente nicht hinter anderen Elementen ausgeblendet werden.)
 
-In manchen Fällen, zum Beispiel wenn eine CSS-Beschränkung es erfordert, dass ein Element innerhalb des übergeordneten Elements verbleibt, können Sie das Element nicht außerhalb des übergeordneten Elements verschieben. Elemente können nicht aus einem Container verschoben werden, der folgende CSS-Eigenschaft hat:`overflow: hidden`
+In bestimmten Situationen, z. B. wenn eine CSS-Beschränkung die Bindung eines Elements innerhalb des übergeordneten Elements erfordert, können Sie das Element nicht außerhalb des übergeordneten Elements verschieben. Elemente können nicht aus einem Container verschoben werden, der folgende CSS-Eigenschaft hat:`overflow: hidden`
 
 #### Ausblenden
 
@@ -347,6 +346,25 @@ Rückgängigmachen von Änderungen, die Sie während einer Bearbeitungssitzung a
 ## Zu beachten {#considerations}
 
 * Weitere Informationen zu Angeboten mit HTML-Inhalten finden Sie unter „Darstellung von Angeboten mit HTML-Inhalten durch at.js“ in [Funktionsweise von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render).
+
+## Unterstützung benutzerdefinierter Elemente (26. Oktober 2021) {#custom}
+
+VEC unterstützt [Webkomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components) um personalisierte Erlebnisse und Angebot zu benutzerdefinierten Elementen und Elementen in benutzerdefinierten Elementen zu erstellen und zu testen. Diese Funktionalität ist im VEC für alle verfügbar. [!DNL Target] Aktivitäten.
+
+>[!NOTE]
+>
+>VEC-Unterstützung für benutzerdefinierte Elemente wird unterstützt in [at.js-Version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 2.7.0 (oder neuer). Stellen Sie sicher, dass auf Ihrer Website die erforderliche Version bereitgestellt wurde. Wenn Sie die [Helferweiterung für Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)muss die erforderliche Version von at.js bereitgestellt werden. Die oben beschriebenen VEC-Optionen sind nicht sichtbar und stehen für die Verwendung mit nicht unterstützten Versionen von at.js zur Verfügung.
+>
+>Die VEC-Unterstützung für benutzerdefinierte Elemente wird derzeit nicht von der unterstützt. [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
+Die meisten VEC-Aktionen werden auf benutzerdefinierten Ereignissen und in benutzerdefinierten Ereignissen unterstützt. Die folgenden Aktionen sind nicht verfügbar:
+
+* Bearbeiten
+   * Text/HTML
+   * Link
+   * Quelle bearbeiten
+
+* Inhalt ersetzen
 
 ## In Elementen mithilfe des DOM-Pfades navigieren {#dom-path}
 
