@@ -4,7 +4,7 @@ description: 'Erfahren Sie, wie Sie Recommendations-Aktivitäten in Adobe Target
 title: Wie implementiere ich Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
+source-git-commit: 152d9f0b942956363aece1ba279aeaa7b93f43e6
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 31%
@@ -102,13 +102,13 @@ Die auf dem Warenkorb basierende Empfehlungslogik ähnelt der[!UICONTROL Empfohl
 
 * **Innerhalb einer einzelnen Sitzung**: Auf Grundlage dessen, was andere Besucher innerhalb einer einzelnen Sitzung unternommen haben.
 
-* **Über mehrere Sitzungen hinweg**: Auf Grundlage dessen, was andere Besucher über mehrere Sitzungen hinweg unternommen haben. 
+   Wenn Sie sich das Verhalten innerhalb einer einzelnen Sitzung ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte sich stark auf der Grundlage einer Nutzung, eines Ereignisses oder eines Ereignisses &quot;verbinden&quot;. Beispielsweise kauft ein Besucher einen Drucker und benötigt möglicherweise auch Tinte und Papier. Oder ein Besucher kauft Erdnussbutter und benötigt möglicherweise auch Brot und Gelee.
+
+* **Über mehrere Sitzungen hinweg**: Auf Grundlage dessen, was andere Besucher über mehrere Sitzungen hinweg unternommen haben.
+
+   Wenn Sie sich das Verhalten über mehrere Sitzungen hinweg ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte stark aufeinander abgestimmt sind, basierend auf der Präferenz oder dem Geschmack des Besuchers. Zum Beispiel mag ein Besucher Star Wars und vielleicht auch Indiana Jones, auch wenn der Besucher nicht unbedingt beide Filme in derselben Sitzung sehen möchte. Oder ein Besucher mag das Brettspiel &quot;Codenames&quot; und könnte auch das Brettspiel &quot;Avalon&quot;, auch wenn der Besucher nicht beide Spiele gleichzeitig spielen kann. 
 
 Unabhängig davon, ob Sie sich das Besucherverhalten innerhalb einer einzelnen Sitzung oder über mehrere Sitzungen hinweg ansehen, [!DNL Target] gibt Empfehlungen für diesen Besucher basierend auf den Artikeln in seinem aktuellen Warenkorb ab.
-
-Wenn Sie sich das Verhalten innerhalb einer einzelnen Sitzung ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte sich stark auf der Grundlage einer Nutzung, eines Ereignisses oder eines Ereignisses &quot;verbinden&quot;. Beispielsweise kauft ein Besucher einen Drucker und benötigt möglicherweise auch Tinte und Papier. Oder ein Besucher kauft Erdnussbutter und benötigt möglicherweise auch Brot und Gelee.
-
-Wenn Sie sich das Verhalten über mehrere Sitzungen hinweg ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte stark aufeinander abgestimmt sind, basierend auf der Präferenz oder dem Geschmack des Besuchers. Zum Beispiel mag ein Besucher Star Wars und vielleicht auch Indiana Jones, auch wenn der Besucher nicht unbedingt beide Filme in derselben Sitzung sehen möchte. Oder ein Besucher mag das Brettspiel &quot;Codenames&quot; und könnte auch das Brettspiel &quot;Avalon&quot;, auch wenn der Besucher nicht beide Spiele gleichzeitig spielen kann.
 
 ### Ausschließen von bereits im Warenkorb befindlichen Artikeln
 
