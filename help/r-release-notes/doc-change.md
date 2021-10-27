@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
+source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
 workflow-type: tm+mt
-source-wordcount: '2865'
-ht-degree: 94%
+source-wordcount: '2875'
+ht-degree: 93%
 
 ---
 
@@ -19,29 +19,30 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 27. Oktober | [Planung und Umsetzung [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | Es wurden zusätzliche Informationen zu auf dem Warenkorb basierenden Empfehlungen hinzugefügt. |
 | 26. Oktober | [CNAME und [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das gesamte Thema wurde aktualisiert. |
-| 25. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Hinzugefügte Informationen über die [!DNL Target Standard/Premium] Release 21.10.5 (28. Oktober 2021). |
-| 22. Oktober | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Folgender Abschnitt wurde hinzugefügt:<ul><li>Sicherstellen, dass [!DNL Target] Aktivitäten behandeln URLs mit Abfrage-Zeichenfolgenparametern korrekt</li></ul> |
-| 21. Oktober | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgenden Ereignissen hinzugefügt:<ul><li>[!DNL Adobe Target] Community Fragen und Antworten-Kaffeepause (10. November 2021)</li><li>[!DNL Adobe Target] Community Fragen und Antworten-Kaffeepause (8. Dezember 2021)</li></ul> |
-| 20. Oktober | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Hinzugefügte Informationen über die [!DNL Target Standard/Premium] Release 21.10.4 (21. Oktober 2021). |
+| 25. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 21.10.5 (28. Oktober 2021). |
+| 22. Oktober | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Folgender Abschnitt wurde hinzugefügt:<ul><li>Stellen Sie sicher, dass [!DNL Target] Aktivitäten verarbeiten URLs mit Abfragezeichenfolgenparametern korrekt</li></ul> |
+| 21. Oktober | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgenden Ereignissen hinzugefügt:<ul><li>[!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (10. November 2021)</li><li>[!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (8. Dezember 2021)</li></ul> |
+| 20. Oktober | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 21.10.4 (21. Oktober 2021). |
 |  | [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md) | Das gesamte Thema wurde aktualisiert. |
-| 19. Oktober | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Hinzugefügte Informationen über die [!DNL Target Standard/Premium] Release 21.10.3 (19. Oktober 2021). |
-| 14. Oktober | [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Folgende FAQ hinzugefügt: &quot;Kann ich ein Binomial verwenden? [!DNL Analytics] Metrik mit einem Segment, das als Optimierungsziel in einem [!UICONTROL Automatisch zuweisen] Aktivität?&quot; |
-| 13. Oktober | [Versionshinweise](/help/r-release-notes/release-notes.md): 21.10.2 | Hinzugefügte Informationen über die [!DNL Target Standard/Premium] Release 21.10.2 (13. Oktober 2021). |
-| 11. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Target Standard/Premium-Version 21.10.2 hinzugefügt (13. Oktober 2021). |
-| 6. Oktober | [Audiencen erstellen in [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Text und Bilder aktualisiert, um die aktualisierte Fassung widerzuspiegeln [!DNL Target] [!UICONTROL Audiencen] UI. Ähnliche Änderungen wurden im gesamten [!UICONTROL Audiencen] Themen. |
+| 19. Oktober | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 21.10.3 (19. Oktober 2021). |
+| 14. Oktober | [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Folgende FAQ wurden hinzugefügt: &quot;Kann ich eine Binomialie verwenden? [!DNL Analytics] Metrik mit einem Segment, das als Optimierungsziel in einer [!UICONTROL Automatische Zuordnung] Aktivität?&quot; |
+| 13. Oktober | [Versionshinweise](/help/r-release-notes/release-notes.md): 21.10.2 | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 21.10.2 (13. Oktober 2021). |
+| 11. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Target Standard/Premium-Version 21.10.2 (13. Oktober 2021) hinzugefügt. |
+| 6. Oktober | [Erstellen von Zielgruppen in [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Der Text und die Bilder wurden entsprechend der aktualisierten Version aktualisiert. [!DNL Target] [!UICONTROL Zielgruppen] Benutzeroberfläche. Ähnliche Änderungen wurden im gesamten [!UICONTROL Zielgruppen] Themen. |
 |  | [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Die folgenden Abschnitte wurden aktualisiert:<ul><li>Basisinformationen  </li><li>Datenquelle</li></ul> |
-|  | [Hochladen benutzerdefinierter Kriterien](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Aktualisierte Anweisungen, um neuen Workflow wiederzugeben. |
+|  | [Hochladen benutzerdefinierter Kriterien](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Die Anweisungen wurden aktualisiert, um neuen Workflow widerzuspiegeln. |
 |  | [Versionshinweise](/help/r-release-notes/release-notes.md): 21.10.1 | Diese Version enthält Verbesserungen und Fehlerbehebungen. In den Versionshinweisen können Sie die Informationen dazu lesen und den Links zur Dokumentation folgen. Diese Version umfasst auch einige Aktualisierungen zur Dokumentation in der Hilfe. |
 
 ## [!DNL Adobe Target Standard/Premium] 21.9.1 (14. September 2021)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 4. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Aktualisierte Vorabversionshinweise für die Target Standard/Premium-Version 21.10.1 (6. Oktober 2021). |
-| 30 September | Informationen zur Aktivität senden an [!DNL Adobe Analytics] | Das gesamte Thema wurde entfernt, da die beschriebenen Schritte zum Senden nicht mehr erforderlich sind [!DNL Target] Informationen zur mobilen App-Aktivität in [!DNL Analytics] für Post-hoc-Segmentierung. |
-|  | [Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Eine PDF-Datei wurde hinzugefügt, um zu erklären, wie das Konfidenzintervall für die Steigerung berechnet wird. |
-|  | [Konfigurieren von Enterprise-Berechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Geändert `targetPageParams` nach `targetPageParamsAll` in &quot;Schritt 5 Aktualisieren Sie Ihre Implementierung, um `at_property` Parameter.&quot; |
+| 4. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Die Hinweise zur Vorabversion für die Target Standard/Premium-Version 21.10.1 (6. Oktober 2021) wurden aktualisiert. |
+| 30 September | Senden von Aktivitätsinformationen an [!DNL Adobe Analytics] | Das gesamte Thema wurde entfernt, da die beschriebenen Schritte zum Senden nicht mehr erforderlich sind [!DNL Target] Informationen zur App-Aktivität in [!DNL Analytics] für die Post-hoc-Segmentierung. |
+|  | [Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Es wurde eine PDF-Datei hinzugefügt, die erklärt, wie das Konfidenzintervall für die Steigerung berechnet wird. |
+|  | [Konfigurieren von Enterprise-Berechtigungen](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Geändert `targetPageParams` nach `targetPageParamsAll` in Schritt 5 Aktualisieren Sie Ihre Implementierung, um `at_property` Parameter.&quot; |
 | 27. September | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community<ul><li>Mittwoch, 13. Oktober 2021</li><li>17:00 Uhr MESZ</li></ul></li></ul> |
 | 22. September | [Anpassen eines Designs mithilfe von Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | In Code-Beispielen wurde `$Double` zu `$double` geändert, um mögliche Unklarheiten zu vermeiden. |
 |  | [Häufig gestellte Fragen: Entwürfe](/help/c-recommendations/c-design-overview/template-faq.md) | Die folgende häufig gestellte Frage wurde aktualisiert:<ul><li>Kann ich in einem [!DNL Recommendations]-Entwurf ein Profilskript verwenden?</li></ul> |
@@ -108,7 +109,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | 12. Juli | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgenden Ereignissen hinzugefügt:<ul><li>Webinar: Quantifizieren des signifikanten ROI, Einblicke und Zeiteinsparungen bei der Integration von Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community wird am Mittwoch, 21. Juli 2021 um 17 Uhr MESZ stattfinden.</li></ul> |
 |  | [Recommendations-FAQs](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Folgende FAQ wurde hinzugefügt: „Wie kann ich nur neue Artikel oder Videos empfehlen?“ |
 |  | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Der Text im Abschnitt „Target-API-Aufrufe“ wurde aktualisiert. |
-|  | [adobe.Zielgruppe.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Die Beschreibung für den Schlüssel `consumerId` wurde aktualisiert. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Die Beschreibung für den Schlüssel `consumerId` wurde aktualisiert. |
 |  | [Anpassen einer globalen Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Schritt 1 wurde aktualisiert, um anzugeben, dass die Änderung automatisch gespeichert wird, nachdem Sie eine neue Mbox ausgewählt haben. |
 |  | Experience Cloud-Gerätekooperation | Thema wurde entfernt. Diese Funktion wird nicht mehr unterstützt. |
 | 29. Juni | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Die folgenden Abschnitte wurden hinzugefügt:<ul><li>Kompatibilität der JavaScript-Target-Bibliothek [!UICONTROL QA-Modus]</li><li>Vorschau von URLs</li></ul> |
@@ -150,7 +151,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | 26. April | [Fehlerbehebung bei der geräteinternen Entscheidungsfindung für at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Neues Thema |
 | 19. April | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Folgende neue Artikel wurden hinzugefügt:<ul><li>[Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Unterstützte Funktionen für die geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefakt der geräteinternen Entscheidungsregel](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Es wurden Informationen hinzugefügt über `decisioningMethod`. |
-|  | [adobe.Zielgruppe.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Folgendes wurden hinzugefügt:<ul><li>Informationen über den `decisioningMethod`-Schlüssel.</li><li>Ein Beispiel für „getCallOffers(), um eine geräteinterne Entscheidungsfindung vorzunehmen“.</li></ul> |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Folgendes wurden hinzugefügt:<ul><li>Informationen über den `decisioningMethod`-Schlüssel.</li><li>Ein Beispiel für „getCallOffers(), um eine geräteinterne Entscheidungsfindung vorzunehmen“.</li></ul> |
 |  | [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Folgende Informationen wurden hinzugefügt:<ul><li>Artefakt bei der geräteinternen Entscheidungsfindung erfolgreich</li><li>Artefakt bei der geräteinternen Entscheidungsfindung fehlgeschlagen</li></ul> |
 |  | [Aktivitäten](/help/c-activities/activities.md) | Es wurden Informationen zur geräteinternen Entscheidungsfindung hinzugefügt. |
 |  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informationen zur at.js-Version 2.5.0 wurden hinzugefügt. |
