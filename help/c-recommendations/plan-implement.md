@@ -4,7 +4,7 @@ description: 'Erfahren Sie, wie Sie Recommendations-Aktivitäten in Adobe Target
 title: Wie implementiere ich Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 802ed4cc03973ee61ff3e40930b137422868835b
+source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 31%
@@ -108,7 +108,7 @@ Die auf dem Warenkorb basierende Empfehlungslogik ähnelt der[!UICONTROL Empfohl
 
    Wenn Sie sich das Verhalten über mehrere Sitzungen hinweg ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte stark aufeinander abgestimmt sind, basierend auf der Präferenz oder dem Geschmack des Besuchers. Zum Beispiel mag ein Besucher Star Wars und vielleicht auch Indiana Jones, auch wenn der Besucher nicht unbedingt beide Filme in derselben Sitzung sehen möchte. Oder ein Besucher mag das Brettspiel &quot;Codenames&quot; und könnte auch das Brettspiel &quot;Avalon&quot;, auch wenn der Besucher nicht beide Spiele gleichzeitig spielen kann. 
 
-Unabhängig davon, ob Sie sich das Besucherverhalten innerhalb einer einzelnen Sitzung oder sitzungsübergreifend ansehen, [!DNL Target] gibt Empfehlungen für jeden Besucher basierend auf den Artikeln im aktuellen Warenkorb ab.
+[!DNL Target] gibt Empfehlungen für jeden Besucher basierend auf den Artikeln im aktuellen Warenkorb heraus, unabhängig davon, ob Sie sich das Besucherverhalten innerhalb einer einzelnen Sitzung oder sitzungsübergreifend ansehen.
 
 ### Ausschließen von bereits im Warenkorb befindlichen Artikeln
 
