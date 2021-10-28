@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f17d98f30b1fb25b5ffcafcd6cb8368adad99f97
+source-git-commit: 9f2947355c3857add5ea47d41c1adc2e3e8bba08
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 42%
+source-wordcount: '1041'
+ht-degree: 41%
 
 ---
 
@@ -26,53 +26,53 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21. Oktober 2021)
 
-Dieses Maintenance Release enthält die folgende Erweiterung:
+Dieses Maintenance Release umfasst die folgende Verbesserung:
 
 | Funktion | Details |
 | --- | --- |
-| Warenkorb-basiertes Recommendations | Es wurde eine neue Reihe von Algorithmen hinzugefügt, um Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers zu senden.<br>Weitere Informationen finden Sie unter &quot;Warenkorb-basiert&quot; in [Kriterien erstellen](/help/c-recommendations/c-algorithms/create-new-algorithm.md) und &quot;Warenkorb-/Warenkorb-Ansichten/Checkout-Seiten&quot; und &quot;Bereits im Warenkorb des Besuchers befindliche Elemente ausschließen&quot; in [Recommendations planen und umsetzen](/help/c-recommendations/plan-implement.md). |
+| Warenkorbbasierte Recommendations | Eine neue Reihe von Algorithmen wurde hinzugefügt, um Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers bereitzustellen.<br>Weitere Informationen finden Sie unter &quot;Warenkorb-basiert&quot;in [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md) und &quot;Warenkorb fügt/Warenkorbansichten/Checkout-Seiten hinzu&quot;und &quot;Artikel, die sich bereits im Warenkorb des Besuchers befinden, ausschließen&quot;in [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19. Oktober 2021)
 
 Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Änderungen:
 
-* Behobene Probleme, die das Öffnen von Kunden verhinderten [!UICONTROL A4T] Bereich in [!DNL Analysis Workspace] durch Klicken auf [!UICONTROL Ansicht in Analytics] Schaltfläche in [!DNL Target] Aktivität Berichte. (TGT-42099, TGT-42100)
-* Es wurde ein Problem behoben, das [!UICONTROL Entwurf bearbeiten] Schaltfläche, die während der Bearbeitung nicht angezeigt wird [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten mit [!UICONTROL Formularbasierter Experience Composer]. (TGT-41980)
-* Es wurde ein Problem behoben, durch das [!UICONTROL Kompatibel] Kontrollkästchen bei der Anzeige in der Kriterienauswahl beim Erstellen eines neuen [!UICONTROL Recommendations] Aktivität. (TGT-42053)
-* Es wurde eine fehlerhafte Fehlermeldung behoben, die angezeigt wurde, wenn die Auswahl nicht möglich war [!DNL Analytics] als Berichte-Quelle (A4T) aufgrund des Fehlens von [!DNL Analytics] Berechtigungen. (TGT-41954)
-* Mehrere Barrierefreiheitskorrekturen implementiert, um die Navigation über die Tastatur zu verbessern [!DNL Target] UI.
+* Es wurden Probleme behoben, durch die Kunden die [!UICONTROL A4T] Bedienfeld in [!DNL Analysis Workspace] durch Klicken auf [!UICONTROL In Analytics anzeigen] Schaltfläche in [!DNL Target] Aktivitätsberichte. (TGT-42099, TGT-42100)
+* Es wurde ein Fehler behoben, der dazu führte, dass die [!UICONTROL Design bearbeiten] Schaltfläche wird beim Bearbeiten nicht angezeigt [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten, die die [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
+* Es wurde ein Problem behoben, durch das die [!UICONTROL Kompatibel] bei der Erstellung eines neuen [!UICONTROL Recommendations] Aktivität. (TGT-42053)
+* Fehlerkorrektur - die Fehlermeldung wird nun auch dann korrekt angezeigt, wenn die Option [!DNL Analytics] als Berichtsquelle (A4T), da [!DNL Analytics] Berechtigungen. (TGT-41954)
+* Mehrere Fehlerbehebungen zur Barrierefreiheit wurden implementiert, um die Tastaturnavigation über das [!DNL Target] Benutzeroberfläche.
 
 ## [!DNL Target Standard/Premium] 21.10.2 (13. Oktober 2021)
 
-Die folgenden Verbesserungen wurden hinzugefügt, wenn Sie [!DNL Target] [!UICONTROL Audiencen] mit [!DNL Adobe Experience Platform Web SDK]:
+Die folgenden Verbesserungen wurden bei der Verwendung von [!DNL Target] [!UICONTROL Zielgruppen] mit dem [!DNL Adobe Experience Platform Web SDK]:
 
-* Hinzugefügte Warnsymbole, Popup-Fenster und Nachrichten an verschiedenen Stellen in der [!DNL Target] UI, um anzugeben, dass die Audience an der Quelle gelöscht wurde und nicht mehr zur Verwendung in verfügbar ist [!DNL Target] Aktivitäten.
+* Warnsymbole, Popup-Fenster und Meldungen wurden an verschiedenen Stellen im [!DNL Target] Benutzeroberfläche, die angibt, dass die Zielgruppe in der Quelle gelöscht wurde und nicht mehr zur Verwendung in verfügbar ist [!DNL Target] Aktivitäten.
 
-   Die folgenden Abbildungen zeigen einige der Orte, an denen Symbole, Popup-Fenster und Nachrichten angezeigt werden:
+   Die folgenden Abbildungen zeigen einige Stellen, an denen Symbole, Popovers und Nachrichten angezeigt werden:
 
-   * [!UICONTROL Aktivität] Liste
+   * [!UICONTROL Aktivität] Listenseite
 
-      ![Audience gelöscht bei Quellnachricht auf Liste der Aktivitäten](assets/deleted-at-source-audiences-list.png)
+      ![Zielgruppe gelöscht in Quellnachricht auf Aktivitätenlistenseite](assets/deleted-at-source-audiences-list.png)
 
-   * Aktivität [!UICONTROL Überblick] Seiten:
+   * Aktivität [!UICONTROL Übersicht] Seiten:
 
-      ![Audience gelöscht bei Quellnachricht auf Übersichtsseite](assets/deleted-at-source-overview.png)
+      ![Zielgruppe gelöscht in Quellnachricht auf Übersichtsseite](assets/deleted-at-source-overview.png)
 
-   * [!UICONTROL Erlebnisse] Schritt des Arbeitsablaufs für die Erstellung von Aktivitäten:
+   * [!UICONTROL Experiences] step of the activity-creation workflow:
 
-      ![Audience gelöscht bei Quellnachricht am [!UICONTROL Erlebnisse] Seite](assets/deleted-at-source-experiences.png)
+      ![Zielgruppe gelöscht in Quellnachricht auf [!UICONTROL Erlebnisse] page](assets/deleted-at-source-experiences.png)
 
-   * [!UICONTROL Targeting] Schritt des Arbeitsablaufs für die Erstellung von Aktivitäten:
+   * [!UICONTROL Targeting] Schritt des Workflows zur Aktivitätserstellung:
 
-      ![Audience gelöscht bei Quellnachricht am [!UICONTROL Targeting] Seite](assets/deleted-at-source-targeting.png)
+      ![Zielgruppe gelöscht in Quellnachricht auf [!UICONTROL Targeting] page](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL Ziele und Einstellungen] Schritt des Arbeitsablaufs für die Erstellung von Aktivitäten:
+   * [!UICONTROL Ziele und Einstellungen] Schritt des Workflows zur Aktivitätserstellung:
 
-      ![Audience gelöscht bei Quellnachricht auf [!UICONTROL Ziele und Einstellungen] Seite](assets/deleted-at-source-goals-settings.png)
+      ![Zielgruppe gelöscht in Quellnachricht auf der [!UICONTROL Ziele und Einstellungen] page](assets/deleted-at-source-goals-settings.png)
 
-   * Audience ([!UICONTROL Audience ersetzen] zu [!UICONTROL Targeting] Schritt des Arbeitsablaufs für die Erstellung von Aktivitäten):
+   * Zielgruppenverfeinerungen ([!UICONTROL Zielgruppe ersetzen] auf [!UICONTROL Targeting] Schritt des Workflows zur Aktivitätserstellung):
 
-* Wenn Sie die Funktion &quot;Audiencen zusammenführen&quot;verwenden und eine der Audiencen aus der Quelle gelöscht wurde, [!UICONTROL Speichern] ist deaktiviert.
+* Wenn Sie versuchen, die Funktion Zielgruppen kombinieren zu verwenden und eine der Zielgruppen aus der Quelle gelöscht wurde, [!UICONTROL Speichern] deaktiviert ist.
 
 ## [!DNL Target Standard/Premium] 21.10.1 (6. Oktober 2021)
 
@@ -80,10 +80,10 @@ Diese Version enthält die folgenden neuen Funktionen:
 
 | Funktion | Details |
 | --- | --- |
-| [!UICONTROL Aktualisierung der Audiences-Benutzeroberfläche] | Im Rahmen der [!DNL Adobe Target] die kontinuierlichen Bemühungen des Teams, das Benutzererlebnis zu verbessern für [!DNL Target] Benutzer aktualisiert diese Version die [!UICONTROL Audiencen] und [!UICONTROL Profil-Skripte] Seiten in [!DNL Target] UI. Dieses Update vereinheitlicht und standardisiert Designmuster, die zuvor inkonsistent waren, und fügt neue Verbesserungen hinzu, wie:<ul><li>Möglichkeit, mehrere Audiencen gleichzeitig auszuwählen und zu löschen</li><li>Eine aktualisierte [Audience Builder-Design](/help/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im [!UICONTROL Audience] Bibliotheksregelaufbau</li><li>Ein neuer Filter &quot;Audience-Quelle&quot;, der eine schnellere Erkennung der Audience ermöglicht</li><li>Dauerhafte Suche und Filteroptionen für Sitzungen</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/c-target/target.md).<br>**HINWEIS**: Die neue [!UICONTROL Audiencen] Die Benutzeroberfläche wurde vorübergehend für alle Kunden deaktiviert, mit Ausnahme der Kunden, die sich derzeit in einem [!DNL Target] Beta-Programm. Diese Aktualisierung der Benutzeroberfläche wird für eine Teilgruppe von Kunden am Dienstag, 19. Oktober und für alle verbleibenden Kunden zu einem späteren Zeitpunkt erneut aktiviert. |
-| [!UICONTROL Profil-Skripte] UI-Aktualisierung | Die [!UICONTROL Profil-Skripte] Bibliothek wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Möglichkeit, mehrere Profil-Skripts gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Code-Editor für Profil-Skripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Automatische Vervollständigung von Token (mbox oder Profil) über Tastaturbefehle</li></ul>Weitere Informationen finden Sie unter [Besucher-Profil](/help/c-target/c-visitor-profile/visitor-profile.md). |
-| ![Premium-Abzeichen](/help/assets/premium.png) Recommendations-Kriterien erstellen und bearbeiten | Die [!UICONTROL Recommendations-Kriterien] Der Arbeitsablauf für Erstellung und Bearbeitung wurde optimiert, um die Auswahl der richtigen Empfehlungsalgorithmen und -einstellungen zum Erreichen Ihrer Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Kriterien erstellen](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Premium-Abzeichen](/help/assets/premium.png) Verbesserungen der Recommendations-Lookback-Fenster und der Algorithmusaktualisierungsfrequenz | Sie können nun Algorithmen für &quot;Am meisten angesehen&quot; und &quot;Topverkäufe&quot; mit einem sechsstündigen Lookback-Fenster ausführen, um den Inhalt zu erfassen, der zuletzt im Trend ist. Wenn das sechsstündige Lookback-Fenster ausgewählt wird, werden die Empfehlungsergebnisse alle 3-6 Stunden des Tages aktualisiert.<br>Weitere Informationen finden Sie unter [Datenquelle](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Kriterien erstellen*. |
+| [!UICONTROL Aktualisierung der Audiences-Benutzeroberfläche] | Als Teil der [!DNL Adobe Target] Bemühungen des Teams zur Verbesserung des Benutzererlebnisses für [!DNL Target] Benutzern verwendet, aktualisiert diese Version die [!UICONTROL Zielgruppen] und [!UICONTROL Profilskripte] Seiten in [!DNL Target] Benutzeroberfläche. Diese Aktualisierung vereinheitlicht und standardisiert Designmuster, die zuvor inkonsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein aktualisiertes [Audience Builder-Design](/help/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im [!UICONTROL Zielgruppe] Regel-Builder für Bibliotheken</li><li>Ein neuer Filter &quot;Zielgruppenquelle&quot;, der eine schnellere Erkennung der Zielgruppen ermöglicht</li><li>Sitzungsbeständige Suchoptionen und Filteroptionen</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/c-target/target.md).<br>**NOTE**: Die neue [!UICONTROL Zielgruppen] Die Benutzeroberfläche ist nur zur Auswahl von Kunden verfügbar. Die Aktualisierung wird ab Januar 2022 schrittweise für alle Kunden eingeführt. |
+| [!UICONTROL Profilskripte] Aktualisierung der Benutzeroberfläche | Die [!UICONTROL Profilskripte] -Bibliothek wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Code-Editor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Parameter für automatische Vervollständigung von Token (Mbox oder Profil) über Tastaturbefehle</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**NOTE**: Die neue [!UICONTROL Profilskripte] Die Benutzeroberfläche ist nur zur Auswahl von Kunden verfügbar. Die Aktualisierung wird ab Januar 2022 schrittweise für alle Kunden eingeführt. |
+| ![Premium-Zeichen](/help/assets/premium.png) Erstellen und Bearbeiten von Recommendations-Kriterien | Die [!UICONTROL Recommendations-Kriterien] Der Arbeitsablauf für die Erstellung und Bearbeitung wurde optimiert, um die Auswahl des richtigen Empfehlungsalgorithmus und der richtigen Einstellungen zum Erreichen Ihrer Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Premium-Zeichen](/help/assets/premium.png) Verbesserungen der Recommendations-Lookback-Zeit und der Algorithmusaktualisierung | Sie können jetzt die Algorithmen &quot;Am häufigsten angezeigt&quot;und &quot;Topverkäufe&quot;mit einem sechsstündigen Lookback-Fenster ausführen, um den Inhalt zu erfassen, der zuletzt als Trend bezeichnet wurde. Wenn das sechsstündige Lookback-Fenster ausgewählt wird, werden Ihre Empfehlungsergebnisse täglich alle 3-6 Stunden aktualisiert.<br>Weitere Informationen finden Sie unter [Datenquelle](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Erstellen von Kriterien*. |
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
