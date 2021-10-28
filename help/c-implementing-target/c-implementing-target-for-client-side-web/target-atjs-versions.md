@@ -1,13 +1,13 @@
 ---
 keywords: at.js-Versionen;at.js-Versionen;Versionshinweise
-description: Zeigen Sie die Details zu den Änderungen in den einzelnen Versionen der JavaScript-Bibliothek "at.js"der Adobe [!DNL Target] an.
+description: Details zu Änderungen in den einzelnen Versionen der Adobe anzeigen [!DNL Target] at.js-JavaScript-Bibliothek.
 title: Was ist in jeder Version von at.js enthalten?
 feature: at.js
 role: Developer
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '4228'
-ht-degree: 89%
+source-wordcount: '4278'
+ht-degree: 88%
 
 ---
 
@@ -20,11 +20,17 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >
 >Das Target-Team unterstützt beide at.js 1.*x* und at.js 2.*x*. Führen Sie ein Upgrade auf die neueste Aktualisierung einer der beiden Hauptversionen von at.js durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 >
->Tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) sind die bevorzugte Methode zum Aktualisieren von at.js. Erweiterungsentwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Aktualisierungen werden in neuen Versionen einer Erweiterung zusammengefasst und im Katalog [!DNL Adobe Experience Platform] als Aktualisierungen verfügbar gemacht. Weitere Informationen finden Sie unter [Erweiterungs-Upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) im Handbuch *Tags - Übersicht* .
+>Tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) ist die bevorzugte Methode zum Aktualisieren von at.js. Erweiterungsentwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Aktualisierungen werden in neuen Versionen einer Erweiterung zusammengefasst und im Abschnitt [!DNL Adobe Experience Platform] Katalog als Upgrades. Weitere Informationen finden Sie unter [Erweiterungs-Upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) im *Übersicht über Tags* Handbuch.
+
+## at.js-Version 2.7.0 (28. Oktober 2021)
+
+Diese Version enthält die folgende Verbesserung:
+
+* Hinzugefügte Unterstützung für [Webkomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Diese Version von at.js ist erforderlich, um personalisierte Erlebnisse und Angebote für benutzerdefinierte Elemente und Elemente in benutzerdefinierten Elementen zu erstellen und zu testen. Diese Funktion ist im [!DNL Target Standard/Premium] Version 21.10.5.
 
 ## at.js 2.6.1 (16. August 2021)
 
-* Fehlerbehebung für &quot;Kein zwischengespeichertes Artefakt verfügbar für den Hybridmodus&quot;bei Verwendung der geräteübergreifenden Entscheidungsfindung.
+* Fehlerbehebung für „Für den Hybrid-Modus ist kein zwischengespeichertes Artefakt verfügbar“ bei Verwendung der geräteinternen Entscheidungsfindung.
 
 ## at.js 2.6.0 (16. Juli 2021)
 
@@ -50,7 +56,7 @@ Mit dieser Version endet auch die Unterstützung für Microsoft Internet Explore
 Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
 * Es wurde ein Problem behoben, bei dem `targetPageParams` in Mbox-Anfragen enthalten waren. `targetPageParams` sollten nur in `pageLoad`-Anfragen enthalten sein. (TNT-40247)
-* Optimierte Fenster- und Dokumentglobal-Verweise in der Erweiterung [!DNL Adobe Experience Platform]. (TNT-37124)
+* Optimierte Fenster- und Dokumentglobal-Verweise im [!DNL Adobe Experience Platform] -Erweiterung. (TNT-37124)
 
 ## at.js 2.4.0 (14. Januar 2021)
 
@@ -63,7 +69,7 @@ Diese Version von at.js ist eine Wartungsversion, die die folgenden Fehlerbehebu
 
 Diese Version von at.js ist eine Wartungsversion, die die folgende Fehlerbehebung enthält:
 
-* Es wurde ein Problem im Zusammenhang mit mbox click tracking und A4T behoben. Mit 0n-Klick hat Target einen Bereitstellungs-API-Aufruf mit den richtigen Mbox- und Mbox-Parametern ausgelöst. Die SDID stimmte jedoch nicht mit der im [!DNL Analytics]-Aufruf überein, daher gab es keine Trefferzuordnung und -konvertierung. (TNT-38372)
+* Es wurde ein Problem im Zusammenhang mit mbox click tracking und A4T behoben. Mit 0n-Klick hat Target einen Bereitstellungs-API-Aufruf mit den richtigen Mbox- und Mbox-Parametern ausgelöst. Die SDID stimmte jedoch nicht mit der im [!DNL Analytics] -Aufruf, sodass keine Trefferzuordnung und -konvertierung erfolgte. (TNT-38372)
 
 ## at.js 2.3.2 (24. Juli 2020)
 
@@ -89,15 +95,15 @@ Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterunge
 
 Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
-* Unterstützung für das Festlegen von Content Security Policy-Nonces für SCRIPT- und STYLE-Tags, die beim Anwenden von bereitgestellten Target-Angeboten an das Seiten-DOM angehängt werden. Kunden können `targetGlobalSettings.cspScriptNonce` und `targetGlobalSettings.cspStyleNonce` so festlegen, dass at.js die entsprechenden Skript- und Stil-Tag-Nonces für angewendete Angebote festlegen kann. Weitere Informationen finden Sie unter [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) .
+* Unterstützung für das Festlegen von Content Security Policy-Nonces für SCRIPT- und STYLE-Tags, die beim Anwenden von bereitgestellten Target-Angeboten an das Seiten-DOM angehängt werden. Kunden können `targetGlobalSettings.cspScriptNonce` und `targetGlobalSettings.cspStyleNonce` damit at.js die entsprechenden Skript- und Stil-Tag-Nonces für angewendete Angebote festlegen kann. Siehe  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) für weitere Details.
 * Es wurde ein Problem beim Kompilieren von at.js mit dem Google Closure-Compiler für die Implementierung von Google Tag Manager behoben.
-* Das at.js-Check-Cookie wurde von `check` in `at_check` umbenannt, um Konflikte mit Kundenimplementierungen zu vermeiden.
+* &quot;at.js&quot;-Cookie für die Prüfung von `check` nach `at_check` um Kollisionen mit den Implementierungen der Kunden zu vermeiden.
 
 ## at.js-Version 1.8.1 (25. März 2020)
 
 Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:
 
-* Das at.js-Check-Cookie wurde von `check` in `at_check` umbenannt, um Konflikte mit Kundenimplementierungen zu vermeiden.
+* &quot;at.js&quot;-Cookie für die Prüfung von `check` nach `at_check` um Kollisionen mit den Implementierungen der Kunden zu vermeiden.
 
 ## at.js-Version 2.2.0 (10. Oktober 2019)
 
@@ -112,7 +118,7 @@ Diese Version von at.js umfasst die folgenden Erweiterungen und Fehlerbehebungen
    >
    >Aktualisieren Sie Ihre ECID-Erweiterung auf Version 4.4, um diese Leistungsverbesserung nutzen zu können.
 
-* at.js , Version 2.2 bietet außerdem eine neue Einstellung namens `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration von Target implementiert wird. Hybrid-Integration bedeutet, dass Sie zur Bereitstellung Ihrer Erlebnisse sowohl at.js v2.2+ auf der Client-Seite als auch die Bereitstellungs-API oder ein Target-SDK auf der Server-Seite verwenden. `serverState` ermöglicht at.js v2.2+, Erlebnisse direkt aus Inhalten anzuwenden, die auf Serverseite abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben wurden. Weitere Informationen finden Sie unter „serverState“ in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js , Version 2.2 bietet außerdem eine neue Einstellung mit dem Namen `serverState`. Diese Einstellung kann zur Optimierung der Seitenleistung verwendet werden, wenn eine Hybridintegration von Target implementiert wird. Hybrid-Integration bedeutet, dass Sie zur Bereitstellung Ihrer Erlebnisse sowohl at.js v2.2+ auf der Client-Seite als auch die Bereitstellungs-API oder ein Target-SDK auf der Server-Seite verwenden. `serverState` ermöglicht at.js v2.2+, Erlebnisse direkt aus Inhalten anzuwenden, die auf Serverseite abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben wurden. Weitere Informationen finden Sie unter „serverState“ in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js-Version 1.8.0 (10. Oktober 2019)
 
@@ -394,7 +400,7 @@ Folgende Verbesserungen und Fehlerbehebungen sind in Version 0.9.6 von [!DNL at
 * Die Konsolenprotokollierung für nicht unterstützte `<!DOCTYPE>`-Deklarationen wurde hinzugefügt.
 * Es wurde ein Problem behoben, bei dem [!DNL Target Classic]-Plug-ins nicht ordnungsgemäß angewendet wurden, wenn mehrere Standardangebote an eine Mbox gesendet wurden. (TGT-22664)
 * Die Cookie-Einstellung für Domänen auf oberster Ebene mit zwei Buchstaben wurde verbessert, um zu gewährleisten, dass das Mbox-Cookie für entsprechende Domänen korrekt festgelegt wird (z. B. [!DNL test.no], [!DNL autodrives.ca] usw.).
-* Der Algorithmus zum Extrahieren der Domäne der obersten Ebene, die beim Speichern von Cookies verwendet werden sollte, hat sich in at.js-Version 0.9.6 geändert. Aufgrund dieser Änderung können keine Cookies für Adressen gespeichert werden, die IP verwenden. IP-Adressen werden größtenteils zu Testzwecken verwendet. Als Problemumgehung können Sie jedoch DNS-Einträge verwenden oder die Hosts-Datei auf einer lokalen Box anpassen.
+* Der Algorithmus zum Extrahieren der Domain der obersten Ebene, die beim Speichern von Cookies verwendet werden sollte, hat sich in at.js-Version 0.9.6 geändert. Aufgrund dieser Änderung können keine Cookies für Adressen gespeichert werden, die IP verwenden. IP-Adressen werden größtenteils zu Testzwecken verwendet. Als Problemumgehung können Sie jedoch DNS-Einträge verwenden oder die Hosts-Datei auf einer lokalen Box anpassen.
 * Die Verarbeitung von Aktionen zum Verschieben und Neuanordnen bei Zeichenfolgenwerten anstelle von Ganzzahlen als Eigenschaften wurde korrigiert.
 
 ## „at.js“-Version 0.9.4 {#section_A15B12F12CD94F07B3F56613A79A815F}

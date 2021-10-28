@@ -4,9 +4,9 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '2875'
+source-wordcount: '2909'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,9 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 28. Oktober | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu den folgenden Versionen hinzugefügt:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
+|  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zur „at.js“-Version 2.7.0 hinzugefügt. |
+|  | [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | Der folgende Abschnitt wurde hinzugefügt: &quot;Benutzerdefinierte Elementunterstützung&quot;. |
 | 27. Oktober | [Planung und Umsetzung [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | Es wurden zusätzliche Informationen zu auf dem Warenkorb basierenden Empfehlungen hinzugefügt. |
 | 26. Oktober | [CNAME und [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Das gesamte Thema wurde aktualisiert. |
 | 25. Oktober | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 21.10.5 (28. Oktober 2021). |

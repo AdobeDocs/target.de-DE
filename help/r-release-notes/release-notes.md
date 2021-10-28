@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 9f2947355c3857add5ea47d41c1adc2e3e8bba08
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 41%
+source-wordcount: '1144'
+ht-degree: 38%
 
 ---
 
@@ -23,6 +23,20 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 >Migrieren Sie zur aktuellen Version des neuen [!DNL Adobe Experience Platform Web SDK] oder zur JavaScript-Bibliothek „at.js“, um mögliche Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Target für Client-seitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+
+## at.js-Version 2.7.0 (28. Oktober 2021)
+
+Diese Version enthält die folgende Verbesserung:
+
+* Hinzugefügte Unterstützung für [Webkomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Diese Version von at.js ist erforderlich, um personalisierte Erlebnisse und Angebote für benutzerdefinierte Elemente und Elemente in benutzerdefinierten Elementen zu erstellen und zu testen. Diese Funktion ist im [!DNL Target Standard/Premium] Version 21.10.5.
+
+## [!DNL Target Standard/Premium] 21.10.5 (28. Oktober 2021)
+
+Dieses Maintenance Release umfasst die folgende Verbesserung:
+
+| Funktion | Details |
+| --- | --- |
+| [!UICONTROL Visual Experience Composer] (VEC) | Hinzugefügte Unterstützung für [Webkomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Personalisierte Erlebnisse und Angebote können mit benutzerdefinierten Elementen und Elementen in benutzerdefinierten Elementen erstellt und getestet werden.<br>Weitere Informationen finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21. Oktober 2021)
 
@@ -58,7 +72,7 @@ Die folgenden Verbesserungen wurden bei der Verwendung von [!DNL Target] [!UICON
 
       ![Zielgruppe gelöscht in Quellnachricht auf Übersichtsseite](assets/deleted-at-source-overview.png)
 
-   * [!UICONTROL Experiences] step of the activity-creation workflow:
+   * [!UICONTROL Erlebnisse] Schritt des Workflows zur Aktivitätserstellung:
 
       ![Zielgruppe gelöscht in Quellnachricht auf [!UICONTROL Erlebnisse] page](assets/deleted-at-source-experiences.png)
 

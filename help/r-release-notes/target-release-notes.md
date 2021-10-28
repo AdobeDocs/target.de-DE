@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3fb58864e265653b48e851c8dff404589bb867a6
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 51%
+source-wordcount: '479'
+ht-degree: 46%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 51%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert am: 25. Oktober 2021**
+**Zuletzt aktualisiert am: 28. Oktober 2021**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -25,13 +25,19 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 >
 >Um potenzielle Probleme mit Ihren Sites zu vermeiden, migrieren Sie zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder der JavaScript-Bibliothek „at.js“. Weitere Informationen finden Sie unter [Übersicht: Target für Client-seitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
+## at.js-Version 2.7.0 (28. Oktober 2021)
+
+Diese Version enthält die folgende Verbesserung:
+
+* Hinzugefügte Unterstützung für [Webkomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Diese Version von at.js ist erforderlich, um personalisierte Erlebnisse und Angebote für benutzerdefinierte Elemente und Elemente in benutzerdefinierten Elementen zu erstellen und zu testen. Diese Funktion ist im [!DNL Target Standard/Premium] Version 21.10.5.
+
 ## [!DNL Target Standard/Premium] 21.10.5 (28. Oktober 2021)
 
 Dieses Maintenance Release umfasst die folgende Verbesserung:
 
 | Funktion | Details |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | Hinzugefügte Unterstützung für [Webkomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Personalisierte Erlebnisse und Angebote können mit benutzerdefinierten Elementen und Elementen in benutzerdefinierten Elementen erstellt und getestet werden.<br>Diese Version fällt mit der Veröffentlichung von at.js Version 2.7.0 zusammen. |
+| [!UICONTROL Visual Experience Composer] (VEC) | Hinzugefügte Unterstützung für [Webkomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Personalisierte Erlebnisse und Angebote können mit benutzerdefinierten Elementen und Elementen in benutzerdefinierten Elementen erstellt und getestet werden.<br>Weitere Informationen finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21. Oktober 2021)
 
