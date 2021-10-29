@@ -4,7 +4,7 @@ breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
 source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1535'
 ht-degree: 100%
 
@@ -228,9 +228,9 @@ ht-degree: 100%
       + [Targeting von Automated Personalization-Angeboten](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Verwalten von Ausschlüssen](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Wählen Sie das Steuerelement für Automated Personalization oder die automatische Targeting-Aktivität aus](c-activities/t-automated-personalization/experience-as-control.md)
-      + [Häufig gestellte Fragen zur automatisierten Personalisierung](c-activities/t-automated-personalization/automated-personalization-faq.md)
+      + [Häufig gestellte Fragen zur Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Vorschau von Automated Personalization-Aktivitäten mit Erlebnisvorschau-URLs](c-activities/t-automated-personalization/experience-preview.md)
-      + [Fehlerbehebung bei der automatisierten Personalisierung](c-activities/t-automated-personalization/ap-trouble.md)
+      + [Fehlerbehebung bei Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Erlebnis-Targeting {#experience-targeting}
       + [Erlebnis-Targeting – Überblick](c-activities/t-experience-target/experience-target.md)
       + Erstellen einer Erlebnis-Targeting-Aktivität {#create-targeting}
@@ -243,7 +243,7 @@ ht-degree: 100%
    + Multivarianz-Test {#multivariate-test}
       + [Multivarianz-Tests – Überblick](c-activities/c-multivariate-testing/multivariate-testing.md)
       + [Best Practices für Multivarianz-Tests](c-activities/c-multivariate-testing/best-practices.md)
-      + [Planen eines Multivarianz-Tests.](c-activities/c-multivariate-testing/plan-mvt.md)
+      + [Planen eines Multivarianz-Tests](c-activities/c-multivariate-testing/plan-mvt.md)
       + Erstellen eines Multivarianz-Tests {#create-mvt}
          + [Erstellen eines Tests](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
          + [Aktivitäts-URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
@@ -286,7 +286,7 @@ ht-degree: 100%
          + [Seiten der Site](c-target/c-audiences/c-target-rules/site-pages.md)
          + [Target Bibliothek](c-target/c-audiences/c-target-rules/target-library.md)
          + [Zeitrahmen](c-target/c-audiences/c-target-rules/time-frame.md)
-         + [Bericht zu](c-target/c-audiences/c-target-rules/traffic-sources.md)
+         + [Traffic-Quelle](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Besucherprofil](c-target/c-audiences/c-target-rules/visitor-profile.md)
       + [Erstellen einer Zielgruppe zum Profilattributvergleich](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
    + [Kombinieren mehrerer Zielgruppen](c-target/combining-multiple-audiences.md)
