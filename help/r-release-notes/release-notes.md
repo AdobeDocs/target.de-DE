@@ -1,14 +1,14 @@
 ---
 keywords: Versionshinweise;neue Funktionen;Versionen;Updates;Update;Version;Verbesserungen;Erweiterungen;Fehlerbehebungen;Fehlerkorrekturen;Aktualisierungen
-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target], einschließlich SDKs, APIs und JavaScript-Bibliotheken.
-landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target].
+description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von [!DNL Adobe Target], einschließlich SDKs, APIs und JavaScript-Bibliotheken.
+landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von [!DNL Adobe Target].
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
 source-wordcount: '1144'
-ht-degree: 38%
+ht-degree: 82%
 
 ---
 
@@ -50,43 +50,43 @@ Dieses Maintenance Release umfasst die folgende Verbesserung:
 
 Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Änderungen:
 
-* Es wurden Probleme behoben, durch die Kunden die [!UICONTROL A4T] Bedienfeld in [!DNL Analysis Workspace] durch Klicken auf [!UICONTROL In Analytics anzeigen] Schaltfläche in [!DNL Target] Aktivitätsberichte. (TGT-42099, TGT-42100)
-* Es wurde ein Fehler behoben, der dazu führte, dass die [!UICONTROL Design bearbeiten] Schaltfläche wird beim Bearbeiten nicht angezeigt [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten, die die [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
-* Es wurde ein Problem behoben, durch das die [!UICONTROL Kompatibel] bei der Erstellung eines neuen [!UICONTROL Recommendations] Aktivität. (TGT-42053)
-* Fehlerkorrektur - die Fehlermeldung wird nun auch dann korrekt angezeigt, wenn die Option [!DNL Analytics] als Berichtsquelle (A4T), da [!DNL Analytics] Berechtigungen. (TGT-41954)
-* Mehrere Fehlerbehebungen zur Barrierefreiheit wurden implementiert, um die Tastaturnavigation über das [!DNL Target] Benutzeroberfläche.
+* Es wurden Probleme behoben, die Kunden daran hinderten, das [!UICONTROL A4T]-Bedienfeld in [!DNL Analysis Workspace] zu öffnen, indem sie auf die Schaltfläche [!UICONTROL In Analytics anzeigen] in der [!DNL Target]-Aktivitätsberichterstattung klickten. (TGT-42099, TGT-42100)
+* Es wurde ein Problem behoben, das dazu führte, dass die Schaltfläche [!UICONTROL Entwurf bearbeiten] beim Bearbeiten von [!UICONTROL A/B-Test]- und [!UICONTROL Experience Targeting](XT)-Aktivitäten mit dem [!UICONTROL formularbasierten Experience Composer] nicht angezeigt wurde. (TGT-41980)
+* Es wurde ein Problem behoben, das verhinderte, dass das Kontrollkästchen [!UICONTROL Kompatibel] in der Kriterienauswahl beim Erstellen einer neuen [!UICONTROL Recommendations]-Aktivität angezeigt wurde. (TGT-42053)
+* Es wurde eine falsche Fehlermeldung behoben, die angezeigt wurde, wenn [!DNL Analytics] als Berichtsquelle (A4T) aufgrund fehlender [!DNL Analytics]-Berechtigungen nicht ausgewählt werden konnte. (TGT-41954)
+* Es wurden mehrere Korrekturen zur Verbesserung der Tastaturnavigation auf der gesamten [!DNL Target]-Benutzeroberfläche vorgenommen.
 
 ## [!DNL Target Standard/Premium] 21.10.2 (13. Oktober 2021)
 
-Die folgenden Verbesserungen wurden bei der Verwendung von [!DNL Target] [!UICONTROL Zielgruppen] mit dem [!DNL Adobe Experience Platform Web SDK]:
+Die folgenden Verbesserungen wurden bei der Verwendung von [!DNL Target] [!UICONTROL Audiences] mit dem [!DNL Adobe Experience Platform Web SDK] hinzugefügt:
 
-* Warnsymbole, Popup-Fenster und Meldungen wurden an verschiedenen Stellen im [!DNL Target] Benutzeroberfläche, die angibt, dass die Zielgruppe in der Quelle gelöscht wurde und nicht mehr zur Verwendung in verfügbar ist [!DNL Target] Aktivitäten.
+* An verschiedenen Stellen in der [!DNL Target]-Benutzeroberfläche wurden Warnsymbole, Pop-overs und Meldungen hinzugefügt, die darauf hinweisen, dass die Zielgruppe an der Quelle gelöscht wurde und nicht mehr für die Verwendung bei [!DNL Target]-Aktivitäten verfügbar ist.
 
-   Die folgenden Abbildungen zeigen einige Stellen, an denen Symbole, Popovers und Nachrichten angezeigt werden:
+   Die folgenden Abbildungen zeigen einige der Orte, an denen Symbole, Pop-overs und Nachrichten angezeigt werden:
 
-   * [!UICONTROL Aktivität] Listenseite
+   * Listenseite [!UICONTROL Aktivität]
 
-      ![Zielgruppe gelöscht in Quellnachricht auf Aktivitätenlistenseite](assets/deleted-at-source-audiences-list.png)
+      ![Zielgruppe an der Quelle gelöscht, Meldung auf der Listenseite „Aktivität“](assets/deleted-at-source-audiences-list.png)
 
-   * Aktivität [!UICONTROL Übersicht] Seiten:
+   * Aktivitäts-[!UICONTROL Überblick]seiten:
 
-      ![Zielgruppe gelöscht in Quellnachricht auf Übersichtsseite](assets/deleted-at-source-overview.png)
+      ![Zielgruppe an der Quelle gelöscht, Meldung auf Übersichtsseite](assets/deleted-at-source-overview.png)
 
-   * [!UICONTROL Erlebnisse] Schritt des Workflows zur Aktivitätserstellung:
+   * Schritt [!UICONTROL Erlebnisse] des Arbeitsablaufs für die Erstellung von Aktivitäten:
 
-      ![Zielgruppe gelöscht in Quellnachricht auf [!UICONTROL Erlebnisse] page](assets/deleted-at-source-experiences.png)
+      ![Zielgruppe an der Quelle gelöscht, Meldung auf Seite [!UICONTROL Erlebnisse]](assets/deleted-at-source-experiences.png)
 
-   * [!UICONTROL Targeting] Schritt des Workflows zur Aktivitätserstellung:
+   * Schritt [!UICONTROL Targeting] des Arbeitsablaufs für die Erstellung von Aktivitäten:
 
-      ![Zielgruppe gelöscht in Quellnachricht auf [!UICONTROL Targeting] page](assets/deleted-at-source-targeting.png)
+      ![Audience gelöscht bei Quelle, Meldung auf [!UICONTROL Targeting]-Seite](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL Ziele und Einstellungen] Schritt des Workflows zur Aktivitätserstellung:
+   * Schritt [!UICONTROL Ziele und Einstellungen] des Arbeitsablaufs für die Erstellung von Aktivitäten:
 
-      ![Zielgruppe gelöscht in Quellnachricht auf der [!UICONTROL Ziele und Einstellungen] page](assets/deleted-at-source-goals-settings.png)
+      ![Zielgruppe an der Quelle gelöscht, Meldung auf Seite [!UICONTROL Ziele und Einstellungen]](assets/deleted-at-source-goals-settings.png)
 
-   * Zielgruppenverfeinerungen ([!UICONTROL Zielgruppe ersetzen] auf [!UICONTROL Targeting] Schritt des Workflows zur Aktivitätserstellung):
+   * Zielgruppenoptimierungen ([!UICONTROL Zielgruppe ersetzen] beim Schritt [!UICONTROL Targeting] des Arbeitsablaufs für die Erstellung von Aktivitäten:):
 
-* Wenn Sie versuchen, die Funktion Zielgruppen kombinieren zu verwenden und eine der Zielgruppen aus der Quelle gelöscht wurde, [!UICONTROL Speichern] deaktiviert ist.
+* Wenn Sie versuchen, die Funktion „Kombinieren von Zielgruppen“ zu verwenden und eine der Zielgruppen an der Quelle gelöscht wurde, ist [!UICONTROL Speichern] deaktiviert.
 
 ## [!DNL Target Standard/Premium] 21.10.1 (6. Oktober 2021)
 
@@ -94,10 +94,10 @@ Diese Version enthält die folgenden neuen Funktionen:
 
 | Funktion | Details |
 | --- | --- |
-| [!UICONTROL Aktualisierung der Audiences-Benutzeroberfläche] | Als Teil der [!DNL Adobe Target] Bemühungen des Teams zur Verbesserung des Benutzererlebnisses für [!DNL Target] Benutzern verwendet, aktualisiert diese Version die [!UICONTROL Zielgruppen] und [!UICONTROL Profilskripte] Seiten in [!DNL Target] Benutzeroberfläche. Diese Aktualisierung vereinheitlicht und standardisiert Designmuster, die zuvor inkonsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein aktualisiertes [Audience Builder-Design](/help/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im [!UICONTROL Zielgruppe] Regel-Builder für Bibliotheken</li><li>Ein neuer Filter &quot;Zielgruppenquelle&quot;, der eine schnellere Erkennung der Zielgruppen ermöglicht</li><li>Sitzungsbeständige Suchoptionen und Filteroptionen</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/c-target/target.md).<br>**NOTE**: Die neue [!UICONTROL Zielgruppen] Die Benutzeroberfläche ist nur zur Auswahl von Kunden verfügbar. Die Aktualisierung wird ab Januar 2022 schrittweise für alle Kunden eingeführt. |
-| [!UICONTROL Profilskripte] Aktualisierung der Benutzeroberfläche | Die [!UICONTROL Profilskripte] -Bibliothek wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Code-Editor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Parameter für automatische Vervollständigung von Token (Mbox oder Profil) über Tastaturbefehle</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**NOTE**: Die neue [!UICONTROL Profilskripte] Die Benutzeroberfläche ist nur zur Auswahl von Kunden verfügbar. Die Aktualisierung wird ab Januar 2022 schrittweise für alle Kunden eingeführt. |
-| ![Premium-Zeichen](/help/assets/premium.png) Erstellen und Bearbeiten von Recommendations-Kriterien | Die [!UICONTROL Recommendations-Kriterien] Der Arbeitsablauf für die Erstellung und Bearbeitung wurde optimiert, um die Auswahl des richtigen Empfehlungsalgorithmus und der richtigen Einstellungen zum Erreichen Ihrer Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Premium-Zeichen](/help/assets/premium.png) Verbesserungen der Recommendations-Lookback-Zeit und der Algorithmusaktualisierung | Sie können jetzt die Algorithmen &quot;Am häufigsten angezeigt&quot;und &quot;Topverkäufe&quot;mit einem sechsstündigen Lookback-Fenster ausführen, um den Inhalt zu erfassen, der zuletzt als Trend bezeichnet wurde. Wenn das sechsstündige Lookback-Fenster ausgewählt wird, werden Ihre Empfehlungsergebnisse täglich alle 3-6 Stunden aktualisiert.<br>Weitere Informationen finden Sie unter [Datenquelle](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Erstellen von Kriterien*. |
+| Aktualisierung der [!UICONTROL Audiences]-Benutzeroberfläche | Im Rahmen der ständigen Bemühungen des [!DNL Adobe Target]-Teams, die Benutzerfreundlichkeit für [!DNL Target]-Anwender zu verbessern, wurden in dieser Version die Seiten [!UICONTROL Audiences] und [!UICONTROL Profilskripte] in der [!DNL Target]-Benutzeroberfläche aktualisiert. Dieses Update vereinheitlicht und standardisiert Designmuster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein überarbeitetes [Design für den Audience Builder](/help/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im Rule Builder für [!UICONTROL Zielgruppe]nbibliotheken</li><li>Ein neuer „Zielgruppe-Quelle“-Filter, der eine schnellere Zielgruppenfindung ermöglicht</li><li>Optionen für dauerhafte Suche und Filter in Sitzungen</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/c-target/target.md).<br>**NOTE**: Die neue [!UICONTROL Zielgruppen] Die Benutzeroberfläche ist nur zur Auswahl von Kunden verfügbar. Die Aktualisierung wird ab Januar 2022 schrittweise für alle Kunden eingeführt. |
+| Aktualisierung der [!UICONTROL Profilskript]-Benutzeroberfläche | Die [!UICONTROL Profilskripte]-Bibliothek wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Codeeditor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Token-Parameter („mbox“ oder „profile“) über Tastaturbefehle automatisch ausfüllen</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**NOTE**: Die neue [!UICONTROL Profilskripte] Die Benutzeroberfläche ist nur zur Auswahl von Kunden verfügbar. Die Aktualisierung wird ab Januar 2022 schrittweise für alle Kunden eingeführt. |
+| Kriterien für ![Premium-Zeichen](/help/assets/premium.png) Recommendations erstellen und bearbeiten | Der Arbeitsablauf zur Erstellung und Bearbeitung von [!UICONTROL Recommendations-Kriterien] wurde optimiert, um die Auswahl des richtigen Recommendations-Algorithmus und der richtigen Einstellungen für Ihre Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Kriterien erstellen](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Premium-Zeichen](/help/assets/premium.png) Recommendations für das Lookback-Fenster und Verbesserungen der Aktualisierungsrate des Algorithmus | Sie können jetzt Algorithmen für „Am häufigsten angezeigt“ und „Topverkäufe“ mit einem sechsstündigen Lookback-Fenster ausführen, um die Inhalte zu erfassen, die in letzter Zeit im Trend liegen. Wenn das sechsstündige Lookback-Fenster ausgewählt ist, werden Ihre Empfehlungen den ganzen Tag über alle 3–6 Stunden aktualisiert.<br>Weitere Informationen finden Sie unter [Datenquelle](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) unter *Kriterien erstellen*. |
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
@@ -122,5 +122,5 @@ Mit den folgenden Ressourcen können Sie sehen, was in der nächsten Target-Vers
 
 | Ressource | Details |
 |--- |--- |
-| Adobe Priority-Produktaktualisierung | Um vorab Benachrichtigungen über bevorstehende Produktverbesserungen an Target und andere Adobe Experience Cloud-Lösungen zu erhalten, melden Sie sich für das Adobe Priority Product Update an:<br>[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html) |
+| Adobe Priority Product Update | Um vorab Benachrichtigungen über bevorstehende Produktverbesserungen an Target und andere Adobe Experience Cloud-Lösungen zu erhalten, melden Sie sich für das Adobe Priority Product Update an:<br>[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html) |
 | Bevorstehende Versionshinweise | Informationen zu den Target-Versionen des aktuellen Monats, einschließlich Informationen zu Vorversionen, finden Sie auf der Seite [Target-Versionshinweise – Vorabversion](/help/r-release-notes/target-release-notes.md). |

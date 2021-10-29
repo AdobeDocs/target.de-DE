@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
 source-wordcount: '32578'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -49,43 +49,43 @@ Dieses Maintenance Release umfasst die folgende Verbesserung:
 
 Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Änderungen:
 
-* Es wurden Probleme behoben, durch die Kunden die [!UICONTROL A4T] Bedienfeld in [!DNL Analysis Workspace] durch Klicken auf [!UICONTROL In Analytics anzeigen] Schaltfläche in [!DNL Target] Aktivitätsberichte. (TGT-42099, TGT-42100)
-* Es wurde ein Fehler behoben, der dazu führte, dass die [!UICONTROL Design bearbeiten] Schaltfläche wird beim Bearbeiten nicht angezeigt [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten, die die [!UICONTROL Form-Based Experience Composer]. (TGT-41980)
-* Es wurde ein Problem behoben, durch das die [!UICONTROL Kompatibel] bei der Erstellung eines neuen [!UICONTROL Recommendations] Aktivität. (TGT-42053)
-* Fehlerkorrektur - die Fehlermeldung wird nun auch dann korrekt angezeigt, wenn die Option [!DNL Analytics] als Berichtsquelle (A4T), da [!DNL Analytics] Berechtigungen. (TGT-41954)
-* Mehrere Fehlerbehebungen zur Barrierefreiheit wurden implementiert, um die Tastaturnavigation über das [!DNL Target] Benutzeroberfläche.
+* Es wurden Probleme behoben, die Kunden daran hinderten, das [!UICONTROL A4T]-Bedienfeld in [!DNL Analysis Workspace] zu öffnen, indem sie auf die Schaltfläche [!UICONTROL In Analytics anzeigen] in der [!DNL Target]-Aktivitätsberichterstattung klickten. (TGT-42099, TGT-42100)
+* Es wurde ein Problem behoben, das dazu führte, dass die Schaltfläche [!UICONTROL Entwurf bearbeiten] beim Bearbeiten von [!UICONTROL A/B-Test]- und [!UICONTROL Experience Targeting](XT)-Aktivitäten mit dem [!UICONTROL formularbasierten Experience Composer] nicht angezeigt wurde. (TGT-41980)
+* Es wurde ein Problem behoben, das verhinderte, dass das Kontrollkästchen [!UICONTROL Kompatibel] in der Kriterienauswahl beim Erstellen einer neuen [!UICONTROL Recommendations]-Aktivität angezeigt wurde. (TGT-42053)
+* Es wurde eine falsche Fehlermeldung behoben, die angezeigt wurde, wenn [!DNL Analytics] als Berichtsquelle (A4T) aufgrund fehlender [!DNL Analytics]-Berechtigungen nicht ausgewählt werden konnte. (TGT-41954)
+* Es wurden mehrere Korrekturen zur Verbesserung der Tastaturnavigation auf der gesamten [!DNL Target]-Benutzeroberfläche vorgenommen.
 
 ### [!DNL Target Standard/Premium] 21.10.2 (13. Oktober 2021)
 
-Die folgenden Verbesserungen wurden bei der Verwendung von [!DNL Target] [!UICONTROL Zielgruppen] mit dem [!DNL Adobe Experience Platform Web SDK]:
+Die folgenden Verbesserungen wurden bei der Verwendung von [!DNL Target] [!UICONTROL Audiences] mit dem [!DNL Adobe Experience Platform Web SDK] hinzugefügt:
 
-* Warnsymbole, Popup-Fenster und Meldungen wurden an verschiedenen Stellen im [!DNL Target] Benutzeroberfläche, die angibt, dass die Zielgruppe in der Quelle gelöscht wurde und nicht mehr zur Verwendung in verfügbar ist [!DNL Target] Aktivitäten.
+* An verschiedenen Stellen in der [!DNL Target]-Benutzeroberfläche wurden Warnsymbole, Pop-overs und Meldungen hinzugefügt, die darauf hinweisen, dass die Zielgruppe an der Quelle gelöscht wurde und nicht mehr für die Verwendung bei [!DNL Target]-Aktivitäten verfügbar ist.
 
-   Die folgenden Abbildungen zeigen einige Stellen, an denen Symbole, Popovers und Nachrichten angezeigt werden:
+   Die folgenden Abbildungen zeigen einige der Orte, an denen Symbole, Pop-overs und Nachrichten angezeigt werden:
 
-   * [!UICONTROL Aktivität] Listenseite
+   * Listenseite [!UICONTROL Aktivität]
 
-      ![Zielgruppe gelöscht in Quellnachricht auf Aktivitätenlistenseite](assets/deleted-at-source-audiences-list.png)
+      ![Zielgruppe an der Quelle gelöscht, Meldung auf der Listenseite „Aktivität“](assets/deleted-at-source-audiences-list.png)
 
-   * Aktivität [!UICONTROL Übersicht] Seiten:
+   * Aktivitäts-[!UICONTROL Überblick]seiten:
 
-      ![Zielgruppe gelöscht in Quellnachricht auf Übersichtsseite](assets/deleted-at-source-overview.png)
+      ![Zielgruppe an der Quelle gelöscht, Meldung auf Übersichtsseite](assets/deleted-at-source-overview.png)
 
-   * [!UICONTROL Erlebnisse] Schritt des Workflows zur Aktivitätserstellung:
+   * Schritt [!UICONTROL Erlebnisse] des Arbeitsablaufs für die Erstellung von Aktivitäten:
 
-      ![Zielgruppe gelöscht in Quellnachricht auf [!UICONTROL Erlebnisse] page](assets/deleted-at-source-experiences.png)
+      ![Zielgruppe an der Quelle gelöscht, Meldung auf Seite [!UICONTROL Erlebnisse]](assets/deleted-at-source-experiences.png)
 
-   * [!UICONTROL Targeting] Schritt des Workflows zur Aktivitätserstellung:
+   * Schritt [!UICONTROL Targeting] des Arbeitsablaufs für die Erstellung von Aktivitäten:
 
-      ![Zielgruppe gelöscht in Quellnachricht auf [!UICONTROL Targeting] page](assets/deleted-at-source-targeting.png)
+      ![Audience gelöscht bei Quelle, Meldung auf [!UICONTROL Targeting]-Seite](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL Ziele und Einstellungen] Schritt des Workflows zur Aktivitätserstellung:
+   * Schritt [!UICONTROL Ziele und Einstellungen] des Arbeitsablaufs für die Erstellung von Aktivitäten:
 
-      ![Zielgruppe gelöscht in Quellnachricht auf der [!UICONTROL Ziele und Einstellungen] page](assets/deleted-at-source-goals-settings.png)
+      ![Zielgruppe an der Quelle gelöscht, Meldung auf Seite [!UICONTROL Ziele und Einstellungen]](assets/deleted-at-source-goals-settings.png)
 
-   * Zielgruppenverfeinerungen ([!UICONTROL Zielgruppe ersetzen] auf [!UICONTROL Targeting] Schritt des Workflows zur Aktivitätserstellung):
+   * Zielgruppenoptimierungen ([!UICONTROL Zielgruppe ersetzen] beim Schritt [!UICONTROL Targeting] des Arbeitsablaufs für die Erstellung von Aktivitäten:):
 
-* Wenn Sie versuchen, die Funktion Zielgruppen kombinieren zu verwenden und eine der Zielgruppen aus der Quelle gelöscht wurde, [!UICONTROL Speichern] deaktiviert ist.
+* Wenn Sie versuchen, die Funktion „Kombinieren von Zielgruppen“ zu verwenden und eine der Zielgruppen an der Quelle gelöscht wurde, ist [!UICONTROL Speichern] deaktiviert.
 
 ### [!DNL Target Standard/Premium] 21.10.1 (6. Oktober 2021)
 
@@ -93,10 +93,10 @@ Diese Version enthält die folgenden neuen Funktionen:
 
 | Funktion | Details |
 | --- | --- |
-| [!UICONTROL Aktualisierung der Audiences-Benutzeroberfläche] | Als Teil der [!DNL Adobe Target] Bemühungen des Teams zur Verbesserung des Benutzererlebnisses für [!DNL Target] Benutzern verwendet, aktualisiert diese Version die [!UICONTROL Zielgruppen] und [!UICONTROL Profilskripte] Seiten in [!DNL Target] Benutzeroberfläche. Diese Aktualisierung vereinheitlicht und standardisiert Designmuster, die zuvor inkonsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein aktualisiertes [Audience Builder-Design](/help/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im [!UICONTROL Zielgruppe] Regel-Builder für Bibliotheken</li><li>Ein neuer Filter &quot;Zielgruppenquelle&quot;, der eine schnellere Erkennung der Zielgruppen ermöglicht</li><li>Sitzungsbeständige Suchoptionen und Filteroptionen</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/c-target/target.md). |
-| [!UICONTROL Profilskripte] Aktualisierung der Benutzeroberfläche | Die [!UICONTROL Profilskripte] -Bibliothek wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Code-Editor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Parameter für automatische Vervollständigung von Token (Mbox oder Profil) über Tastaturbefehle</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/c-target/c-visitor-profile/visitor-profile.md). |
-| ![Premium-Zeichen](/help/assets/premium.png) Erstellen und Bearbeiten von Recommendations-Kriterien | Die [!UICONTROL Recommendations-Kriterien] Der Arbeitsablauf für die Erstellung und Bearbeitung wurde optimiert, um die Auswahl des richtigen Empfehlungsalgorithmus und der richtigen Einstellungen zum Erreichen Ihrer Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Premium-Zeichen](/help/assets/premium.png) Verbesserungen der Recommendations-Lookback-Zeit und der Algorithmusaktualisierung | Sie können jetzt die Algorithmen &quot;Am häufigsten angezeigt&quot;und &quot;Topverkäufe&quot;mit einem sechsstündigen Lookback-Fenster ausführen, um den Inhalt zu erfassen, der zuletzt als Trend bezeichnet wurde. Wenn das sechsstündige Lookback-Fenster ausgewählt wird, werden Ihre Empfehlungsergebnisse täglich alle 3-6 Stunden aktualisiert.<br>Weitere Informationen finden Sie unter [Datenquelle](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Erstellen von Kriterien*. |
+| Aktualisierung der [!UICONTROL Audiences]-Benutzeroberfläche | Im Rahmen der ständigen Bemühungen des [!DNL Adobe Target]-Teams, die Benutzerfreundlichkeit für [!DNL Target]-Anwender zu verbessern, wurden in dieser Version die Seiten [!UICONTROL Audiences] und [!UICONTROL Profilskripte] in der [!DNL Target]-Benutzeroberfläche aktualisiert. Dieses Update vereinheitlicht und standardisiert Designmuster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein überarbeitetes [Design für den Audience Builder](/help/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im Rule Builder für [!UICONTROL Zielgruppe]nbibliotheken</li><li>Ein neuer „Zielgruppe-Quelle“-Filter, der eine schnellere Zielgruppenfindung ermöglicht</li><li>Optionen für dauerhafte Suche und Filter in Sitzungen</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/c-target/target.md). |
+| Aktualisierung der [!UICONTROL Profilskript]-Benutzeroberfläche | Die [!UICONTROL Profilskripte]-Bibliothek wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Codeeditor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Token-Parameter („mbox“ oder „profile“) über Tastaturbefehle automatisch ausfüllen</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/c-target/c-visitor-profile/visitor-profile.md). |
+| Kriterien für ![Premium-Zeichen](/help/assets/premium.png) Recommendations erstellen und bearbeiten | Der Arbeitsablauf zur Erstellung und Bearbeitung von [!UICONTROL Recommendations-Kriterien] wurde optimiert, um die Auswahl des richtigen Recommendations-Algorithmus und der richtigen Einstellungen für Ihre Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Kriterien erstellen](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Premium-Zeichen](/help/assets/premium.png) Recommendations für das Lookback-Fenster und Verbesserungen der Aktualisierungsrate des Algorithmus | Sie können jetzt Algorithmen für „Am häufigsten angezeigt“ und „Topverkäufe“ mit einem sechsstündigen Lookback-Fenster ausführen, um die Inhalte zu erfassen, die in letzter Zeit im Trend liegen. Wenn das sechsstündige Lookback-Fenster ausgewählt ist, werden Ihre Empfehlungen den ganzen Tag über alle 3–6 Stunden aktualisiert.<br>Weitere Informationen finden Sie unter [Datenquelle](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) unter *Kriterien erstellen*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (14. September 2021)
 
@@ -179,7 +179,7 @@ Diese Version von [!DNL Platform Web SDK] unterstützt Folgendes:
 
 | Funktion | Details |
 | --- | --- |
-| Umleitungs-Unterstützung mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt Umleitungen von [!DNL Target] bei der Verwendung von [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Weitere Informationen finden Sie unter [Analytics für die  [!DNL Target] -Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Umleitungs-Unterstützung mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt Umleitungen von [!DNL Target] bei der Verwendung von [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Weitere Informationen finden Sie unter [Analytics für die [!DNL Target] -Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ### at.js-Version 2.5.0 (13. Mai 2021)
 
@@ -659,7 +659,7 @@ Weitere Informationen zu dieser Version und vorherigen Versionen von at.js finde
 
 ### Target Standard/Premium 19.6.1 (26. Juni 2019) {#tgt-19-6-1-historical}
 
-Diese Version umfasst die folgenden neuen Funktionen und Erweiterungen:
+Diese Version beinhaltet die folgenden neuen Funktionen und Erweiterungen:
 
 (Die Problemnummern in Klammern dienen internen Adobe-Benutzern.)
 
@@ -675,7 +675,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Erweiterungen:
 
 Wir freuen uns, folgende Funktionen in at.js 2.1.0 bekannt geben zu können:
 
-| Funktion/Verbesserung | Beschreibung |
+| Funktion / Verbesserung | Beschreibung |
 | --- | --- |
 | Opt-in-Unterstützung von Adobe | Adobe Opt-In bietet die Möglichkeit, Adobe-Lösungsintegrationen mit Genehmigungsverwaltungsplattformen zu vereinfachen.<br>Weitere Informationen zu Adobe Opt-In finden Sie unter [Privatsphäre und Datenschutz-Grundverordnung (DSGVO)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
 | Kompatibel mit dem Branchenstandard CSP | at.js verwendet nicht mehr eval() mehr, um JavaScript auszuführen. |
@@ -690,7 +690,7 @@ Wir freuen uns, folgende Funktionen in at.js 2.1.0 bekannt geben zu können:
 
 #### Funktionsaktualisierungen
 
-| Funktion/Verbesserung | Beschreibung |
+| Funktion / Verbesserung | Beschreibung |
 | --- | --- |
 | Visual Experience Composer für Einzelseiten-Apps (SPAs) (SPA VEC) | Der SPA VEC enthält die folgenden Verbesserungen, mit denen Sie Ihre Arbeit schneller und effizienter erledigen können:<ul><li>Durch Klicken auf eine Aktion in der SPA wird das Element auf der Site hervorgehoben, in dem diese Aktion angewendet wird. Jede VEC-Aktion, die unter einer Ansicht erstellt wurde, hat vier entsprechende Symbole: Informationen, Bearbeiten, Verschieben und Löschen. Mit der neuen Funktion „Verschieben“ in dieser Version können Sie die Aktion in ein Seitenladereignis oder eine beliebige andere Ansicht verschieben, die bereits im Änderungs-Bedienfeld vorhanden ist. (TGT-33746)</li><li>Sie können viele Aktionen ausführen, bevor die Seite im VEC geladen wird, oder selbst dann, wenn die Seite nicht vollständig geladen werden kann (wenn beispielsweise benutzerdefinierter Code nicht mehr funktioniert). Aktionen, die nicht bearbeitet werden können, bevor die Website geladen ist, sind in der Benutzeroberfläche von Target deaktiviert. (TGT-33851 und TGT-34149)</li></ul>Weitere Informationen finden Sie unter [Visual Experience Composer für Einzelseiten-Apps (SPAs)](/help/c-experiences/spa-visual-experience-composer.md). |
 
@@ -706,7 +706,7 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
 #### Funktionsaktualisierungen
 
-| Funktion/Verbesserung | Beschreibung |
+| Funktion / Verbesserung | Beschreibung |
 | --- | --- |
 | [!UICONTROL Visual Experience Composer] | Der [!UICONTROL Visual Experience Composer] (VEC) umfasst die folgenden Erweiterungen, um Ihre Arbeit schneller und effizienter zu gestalten:<ul><li>Die DOM-Pfad-Funktion steht jetzt beim Einrichten des Klick-Tracking zur Verfügung.<br>Weitere Informationen finden Sie unter [Klick-Tracking](/help/c-activities/r-success-metrics/click-tracking.md#considerations).</li><li>Verwenden Sie das Bedienfeld „Stile“, um den Wert vorhandener Stile für das ausgewählte Element anzuzeigen oder zu bearbeiten. Sie können auch zusätzliche Formatierungen hinzufügen.<br>Um auf das Bedienfeld „Stile“ zuzugreifen, klicken Sie innerhalb des VEC auf ein Seitenelement und dann auf [!UICONTROL Bearbeiten] > [!UICONTROL Stile].<br>Das Bedienfeld „Stile“ wird rechts im VEC angezeigt. Das Bedienfeld enthält eine Liste der Stile, mit denen Sie das ausgewählte Element bearbeiten oder die Sie zum ausgewählten Element hinzufügen können. Mit einem Echtzeit-CSS-Editor können Sie Änderungen anzeigen und Stile hinzufügen, wenn Sie mit Cascading Style Sheets (CSS) gut vertraut sind oder Code von Ihrem Entwickler erhalten.<br>Weitere Informationen finden Sie unter [Stile](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) in den *Visual Experience Composer-Optionen*.</li><li>Der Rich Text Editor unterstützt jetzt verschachtelte HTML5-Elemente.<br>HTML5-Spezifikationen ermöglichen neue Kombinationen von Tags zum Verschachteln. Die vorherige Version des Rich-Text-Editors unterstützt keine neue Verschachtelung von Tags, wie von der HTML5-Spezifikation zugelassen. Daher wurden verschachtelte Elemente, die im VEC ausgewählt wurden, nicht ordnungsgemäß verarbeitet, was zu unerwünschten HTML-Änderungen führte. (TGT -33618)<br>Weitere Informationen finden Sie unter [Edit Text/HTML](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) in den *Visual Experience Composer-Optionen*.</li> |
 
@@ -739,9 +739,9 @@ Diese Version ist eine Wartungsversion und beinhaltet die folgenden Änderungen:
 
 Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
-(Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+(Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
-| Funktion/Verbesserung | Beschreibung |
+| Funktion / Verbesserung | Beschreibung |
 | --- | --- |
 | Visual Experience Composer | Visual Experience Composer (VEC) umfasst die folgenden Erweiterungen, um Ihre Arbeit schneller und effizienter zu gestalten:<ul><li>Sie können jetzt das Laden einer Website in VEC abbrechen, um die Bearbeitung einer Aktivität zu entsperren. Diese Verbesserung ist nützlich, wenn Sie z. B. eine kleine Änderung an einer Aktivität vornehmen, die Einstellungen in der Vorschau ansehen oder benutzerdefinierten Code hinzufügen möchten, Sie aber nicht warten möchten, bis die Website geladen ist. (TGT -31288)<br>Siehe [Laden einer Seite im VEC abbrechen](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading).</li><li>Sie können viele Aktionen ausführen, bevor die Seite im VEC geladen wird, oder selbst dann, wenn die Seite nicht vollständig geladen werden kann (wenn beispielsweise benutzerdefinierter Code nicht mehr funktioniert). Aktionen, die nicht bearbeitet werden können, bevor die Website geladen ist, sind in der Benutzeroberfläche von Target deaktiviert. (TGT-31288, TGT-31611 und TGT-32602)<br>Siehe [Bearbeiten einer Seite während der Ladezeit der Seite oder nach dem gescheiterten Laden der Seite](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li><li>Im VEC wird der DOM-Pfad angezeigt, sodass Sie einfach bei der Erstellung oder Bearbeitung von Erlebnissen das gewünschte Element auswählen können. (TGT -13422)<br>Siehe [Navigieren in Elementen mit dem DOM-Pfad](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).</li></ul> |
 
@@ -780,9 +780,9 @@ Diese Version ist eine Wartungsversion und beinhaltet die folgenden Fehlerbehebu
 
 Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
-(Die Ausgabennummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+(Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
-| Funktion/Verbesserung | Beschreibung |
+| Funktion / Verbesserung | Beschreibung |
 | --- | --- |
 | Visual Experience Composer für Einzelseiten-Apps (SPAs) | Mit Visual Experience Composer (VEC) für Einzelseitenanwendungen (SPAs) können Marketingexperten Tests selbstständig erstellen und Inhalte auf SPAs ohne kontinuierliche Entwicklungsabhängigkeiten personalisieren. Mit VEC können Aktivitäten auf Basis der beliebtesten Frameworks erstellt werden, beispielsweise mit React oder Angular. (TGT-27916)<br>Weitere Informationen finden Sie unter [Einzelseitenanwendung (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md) und [Integration von Einzelseitenanwendungen](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).<br>Zusätzlich zum obigen Artikel gibt es viele Themen im Zusammenhang mit SPAs und at.js, die diese Funktion behandeln und aufzeigen, wie sie implementiert wird. Weitere Informationen finden Sie unter [Änderungen an der Dokumentation](/help/r-release-notes/doc-change.md). |
 | Visual Experience Composer | Visual Experience Composer (VEC) umfasst die folgenden Erweiterungen, um Ihre Arbeit schneller und effizienter zu gestalten:<ul><li>Sie können jetzt die Optionen „Einfügen vor“ und „Einfügen nach“ in VEC verwenden, während Sie [AEM-Erlebnisfragmente](/help/c-experiences/c-manage-content/aem-experience-fragments.md) einfügen. Siehe [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md). (TGT-32385)</li><li>Mit der [!DNL Adobe Target] VEC Helper-Browsererweiterung für Google Chrome können Sie Websites zuverlässig in VEC laden, um schnell die Web-Erfahrung zu erstellen und die Qualität zu sichern. Siehe [Visual Experience Composer Helper Extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). (TGT-32746)</li></ul> |
@@ -795,7 +795,7 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
 ### Plattformänderungen (Januar 2019) {#platform-19-1-previous}
 
-| Funktion/Verbesserung | Beschreibung |
+| Funktion / Verbesserung | Beschreibung |
 | --- | --- |
 | Targeting<br>25. Januar 2019 | Es wurden Änderungen daran vorgenommen, wie Targeting-Übereinstimmungen für „equals“-Vergleiche mit Nicht-Dezimalwerten und Dezimalwerten mit Profilskripten oder einer anderen Quelle der Eingabe, wie mbox-Parameter, Profilparameter usw. funktionieren.<br>Weitere Informationen finden Sie in den FAQ unter [Ziele und Zielgruppen](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md). |
 | Profilskripte<br>17. Januar 2019 | Aus Leistungsgründen empfehlen wir einen Rückgabewert, der nicht länger als 256 Zeichen ist.<br>Wenn für einen String-Rückgabewert die Größe des Rückgabewerts 2048 Zeichen überschreitet, wird das Skript vom System deaktiviert.<br>Wenn für einen Array-Rückgabewert die Größe der verketteten Werte des Arrays größer als 2048 Zeichen ist, wird das Skript vom System deaktiviert.<br>Weitere Informationen zu den Zeichenbeschränkungen und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.), die Aktivitäten und andere Elemente in Target betreffen: siehe [Beschränkungen](/help/r-troubleshooting-target/target-limits.md). |
@@ -805,9 +805,9 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
 Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
-(Die Ausgabennummern in Klammern dienen internen Adobe-Benutzern.)
+(Die Problemnummern in Klammern dienen internen Adobe-Benutzern.)
 
-| Funktion/Verbesserung | Beschreibung |
+| Funktion / Verbesserung | Beschreibung |
 | --- | --- |
 | ![Target Premium Badge](/help/assets/premium.png)<br/>[!UICONTROL Enterprise-Berechtigungen] Unterstützung in [!DNL Target]-APIs | [Adobe Target Admin-APIs](https://developers.adobetarget.com/api/#admin-apis) nutzt nun dieselben Enterprise-Berechtigungsfunktionen wie in der Target-Benutzeroberfläche. Ab **dem 21. Februar 2019** können Systemadministratoren programmgesteuert auf Berichtsdaten zugreifen sowie Aktivitäten, Angebote und Zielgruppen in beliebigen Arbeitsbereichen erstellen und verwalten. Diese Aktionen waren zuvor auf den Standardarbeitsbereich beschränkt. Die Unterstützung für Automated Personalization-Aktivitäten (AP) erfolgt in einer zukünftigen Version. |
 | ![Target Premium Badge](/help/assets/premium.png)<br/>[!UICONTROL Recommendations]: Filtern von Sammlungen und Ausschlüssen nach Umgebung (Hostgruppe) | Sie können jetzt eine Vorschau der Inhalte von [!UICONTROL Recommendations]-Sammlungen und Ausschlüssen für eine ausgewählte Umgebung (Hostgruppe) anzeigen.<br/>Wenn Sie zuvor eine Sammlung oder einen Ausschluss angezeigt haben, waren die angezeigten Elemente Ergebnisse für die Standard-Hostgruppe (angegeben in [!UICONTROL Recommendations > Einstellungen > Standard-Hostgruppe]).<br/>Wenn Sie nun eine Sammlung oder einen Ausschluss erstellen oder aktualisieren, können Sie die [!UICONTROL Umgebungs] auswahl verwenden, um die Umgebung für die Vorschau der Ergebnisse auszuwählen. Der neue Filter [!UICONTROL Umgebung] spart Ihnen Zeit und Mühe, da Sie nicht mehr zur Seite[!UICONTROL  Einstellungen] navigieren müssen, um die entsprechende Standardhostgruppe auszuwählen, bevor Sie Sammlungen und Ausnahmen erstellen oder bearbeiten.<br/>**Hinweis:** Nachdem Sie die ausgewählte Umgebung geändert haben, müssen Sie auf „[!UICONTROL Suchen]“ klicken, um die zurückgegebenen Ergebnisse zu aktualisieren.<br/>Der neue [!UICONTROL Umgebungs] filter steht an den folgenden Stellen in der [!DNL Target]Benutzeroberfläche zur Verfügung:<ul><li>[!UICONTROL Katalogsuche] ([!UICONTROL Recommendations > Katalogsuche])</li><li>[!UICONTROL Sammlung erstellen]-Dialogfeld ([!UICONTROL Recommendations > Sammlungen > Neu erstellen])</li><li>[!UICONTROL Sammlung aktualisieren]-Dialogfeld ([!UICONTROL Recommendations > Sammlungen > Bearbeiten])</li><li>[!UICONTROL Ausschluss erstellen]-Dialogfeld ([!UICONTROL Recommendations > Ausnahmen > Neu erstellen])</li><li>[!UICONTROL Ausschluss aktualisieren]-Dialogfeld ([!UICONTROL Recommendations > Ausnahmen > Bearbeiten])</li></ul><br>Weitere Informationen finden Sie in den folgenden Themen:<uL><li>[Sammlungen](/help/c-recommendations/c-products/collections.md)</li><li>[Ausnahmen](/help/c-recommendations/c-products/exclusions.md)</li><li>[Katalogsuche](/help/c-recommendations/c-products/catalog-search.md)</li><li>[Einstellungen](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[Recommendations: Filtern von Sammlungen und Ausschlüssen nach Umgebung (Hostgruppe)](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
@@ -848,7 +848,7 @@ Die [!DNL Target] Standard-/Premium-Version vom 12. November enthält Backend-V
 <table id="table_EF529199D1C741F7BDBC9C41A37B7D26"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion/Verbesserung </th> 
+   <th colname="col1" class="entry"> Funktion / Verbesserung </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr>
  </thead>
@@ -868,12 +868,12 @@ Die [!DNL Target] Standard-/Premium-Version vom 12. November enthält Backend-V
 
 Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
-(Die Ausgabennummern in Klammern dienen internen Adobe-Benutzern.)
+(Die Problemnummern in Klammern dienen internen Adobe-Benutzern.)
 
 <table id="table_B1911F55CCE1428881D258380A8254A9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion/Verbesserung </th> 
+   <th colname="col1" class="entry"> Funktion / Verbesserung </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr> 
  </thead>
@@ -911,7 +911,7 @@ Diese Version von [!DNL Target] enthält folgende Verbesserungen, Fehlerbehebung
 <table id="table_7320E43397D2471FA313A9D6FC21E55F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion/Verbesserung </th> 
+   <th colname="col1" class="entry"> Funktion / Verbesserung </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr> 
  </thead>
@@ -938,12 +938,12 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 >[!NOTE]
 >
->Die Ausgabennummern in Klammern dienen internen Adobe-Benutzern.
+>Die Problemnummern in Klammern dienen internen Adobe-Benutzern.
 
 <table id="table_7ABC8E7477194D4C8C9E82ECE60E3498"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion/Verbesserung </th> 
+   <th colname="col1" class="entry"> Funktion / Verbesserung </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr> 
  </thead>
@@ -976,12 +976,12 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 >[!NOTE]
 >
->Die Ausgabennummern in Klammern dienen internen Adobe-Benutzern.
+>Die Problemnummern in Klammern dienen internen Adobe-Benutzern.
 
 <table id="table_4785030753B24AA1A973E1DF790B83DD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion/Verbesserung </th> 
+   <th colname="col1" class="entry"> Funktion / Verbesserung </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr> 
  </thead>
@@ -1026,12 +1026,12 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 >[!NOTE]
 >
->Die Ausgabennummern in Klammern dienen internen Adobe-Benutzern.
+>Die Problemnummern in Klammern dienen internen Adobe-Benutzern.
 
 <table id="table_7E3513EABA4948DC92EADCCE0234A9FF"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion/Verbesserung </th> 
+   <th colname="col1" class="entry"> Funktion / Verbesserung </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr> 
  </thead>
@@ -1113,12 +1113,12 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 >[!NOTE]
 >
->Die Ausgabennummern in Klammern dienen internen Adobe-Benutzern.
+>Die Problemnummern in Klammern dienen internen Adobe-Benutzern.
 
 <table id="table_5A60FFE5E86148F4BDC6A7031D03D6BA"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion/Verbesserung </th> 
+   <th colname="col1" class="entry"> Funktion / Verbesserung </th> 
    <th colname="col2" class="entry"> Beschreibung </th> 
   </tr> 
  </thead>
@@ -1639,7 +1639,7 @@ Diese Version beinhaltet die folgenden Funktionen und Erweiterungen (die Problem
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Mobile Erlebnisvorschau </p> </td> 
-   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Von nun an können Sie auf der Benutzeroberfläche mehrere mobile App-Aktivitäten auswählen und auf Ihrem Gerät eine Vorschau dafür anzeigen. Mithilfe dieser Funktion können Sie sich für die Vorschau und Qualitätssicherung mehrerer Erlebnisse registrieren, ohne sich auf spezielle Testversionen und Simulationen verlassen zu müssen. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie unter     <a href="/help/c-target-mobile-app/target-mobile-preview.md#concept_5FBF12C2FDFC42429FE4F5CFBD78E19D" format="dita" scope="local">Target Mobile-Vorschau</a>. </p> </td> 
+   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Von nun an können Sie auf der Benutzeroberfläche mehrere mobile App-Aktivitäten auswählen und auf Ihrem Gerät eine Vorschau dafür anzeigen. Mithilfe dieser Funktion können Sie sich für die Vorschau und Qualitätssicherung mehrerer Erlebnisse registrieren, ohne sich auf spezielle Testversionen und Simulationen verlassen zu müssen. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie unter <a href="/help/c-target-mobile-app/target-mobile-preview.md#concept_5FBF12C2FDFC42429FE4F5CFBD78E19D" format="dita" scope="local">Target Mobile-Vorschau</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile Batch- und Vorabrufbereitstellung </p> </td> 
@@ -2926,7 +2926,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> Attributgewichtung </p> </td> 
-   <td colname="col2"> <p> Die Kriterien der Recommendations-Rangregeln wurden geändert. Diese Änderung wirkt sich auf vorhandene Empfehlungen aus. </p> <p> Passen Sie den Algorithmus mit der Attributgewichtung an. Marketingexperten können den Algorithmus mithilfe von wichtigen Beschreibungen oder Metadaten zum Inhaltskatalog beeinflussen. Richten Sie Sonderangebote mit höherer Gewichtung ein, damit diese häufiger in der Empfehlung auftreten. Artikel, die nicht Teil des Sonderangebots sind, werden nicht vollständig ausgeschlossen, jedoch weniger häufig angezeigt. Es können mehrere Gewichtungen auf denselben Algorithmus angewendet werden, und die Gewichtungen können auf in der Empfehlung aufgeteiltem Traffic getestet werden. </p> <p>Diese neue Gewichtung wird automatisch auf alle Aktivitäten angewendet. </p></td> 
+   <td colname="col2"> <p> Die Kriterien der Recommendations-Rangregeln wurden geändert. Diese Änderung wirkt sich auf vorhandene Recommendations aus. </p> <p> Passen Sie den Algorithmus mit der Attributgewichtung an. Marketingexperten können den Algorithmus mithilfe von wichtigen Beschreibungen oder Metadaten zum Inhaltskatalog beeinflussen. Richten Sie Sonderangebote mit höherer Gewichtung ein, damit diese häufiger in der Empfehlung auftreten. Artikel, die nicht Teil des Sonderangebots sind, werden nicht vollständig ausgeschlossen, jedoch weniger häufig angezeigt. Es können mehrere Gewichtungen auf denselben Algorithmus angewendet werden, und die Gewichtungen können auf in der Empfehlung aufgeteiltem Traffic getestet werden. </p> <p>Diese neue Gewichtung wird automatisch auf alle Aktivitäten angewendet. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Zeit für Feed-Verarbeitung festlegen </p> </td> 
@@ -3003,7 +3003,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> Standort-Targeting für formularbasierte Aktivitätserstellung </td> 
-   <td colname="col2"> <p> Wenden Sie Targeting auf Ihre Mbox-Standorte an, um einzugrenzen, wo Ihre Aktivitäten angezeigt werden. </p> <p>Weitere Informationen finden Sie unter <a href="/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Form-Based Experience Compose</a>. </p> </td> 
+   <td colname="col2"> <p> Wenden Sie Targeting auf Ihre Mbox-Standorte an, um einzugrenzen, wo Ihre Aktivitäten angezeigt werden. </p> <p>Weitere Informationen finden Sie unter <a href="/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Form-Based Experience Composer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Hintergrundfarbauswahl in Visual Experience Composer für MVT- und Automated Personalization-Aktivitäten </td> 
@@ -3148,7 +3148,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> Formularbasierte Aktivitätserstellung </td> 
-   <td colname="col2"> <p>Erstellen Sie eine Aktivität ohne Verwendung des Visual Experience Composer. Wählen Sie stattdessen die Standorte und Angebote anhand eines Formulars. Damit können Target Standard-Aktivitäten in E-Mails, mobilen Apps, Kiosks und an anderen Orten bereitgestellt werden, die nicht mit einem Visual Experience Composer arbeiten. </p> <p>Weitere Informationen finden Sie unter <a href="/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Form-Based Experience Compose</a>. </p> </td> 
+   <td colname="col2"> <p>Erstellen Sie eine Aktivität ohne Verwendung des Visual Experience Composer. Wählen Sie stattdessen die Standorte und Angebote anhand eines Formulars. Damit können Target Standard-Aktivitäten in E-Mails, mobilen Apps, Kiosks und an anderen Orten bereitgestellt werden, die nicht mit einem Visual Experience Composer arbeiten. </p> <p>Weitere Informationen finden Sie unter <a href="/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Form-Based Experience Composer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Konfigurierbare Erfolgsmetriken </td> 
@@ -3407,7 +3407,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p class="premium">Neuer Aktivitätstyp: Recommendations </p> </td> 
-   <td colname="col2"> <p>Recommendations-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten für Ihre Kunden interessant sein könnten. Mit diesen Empfehlungen stellen Sie Kunden relevante Artikel vor, von denen diese andernfalls möglicherweise nichts gewusst hätten. </p> <p>Recommendations ist als Bestandteil der Target Premium-Lösung verfügbar. Sie ist nicht in Target Standard ohne Target Premium-Lizenz enthalten. </p> </td> 
+   <td colname="col2"> <p>Recommendations-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten für Ihre Kunden interessant sein könnten. Mit diesen Recommendations stellen Sie Kunden relevante Artikel vor, von denen diese andernfalls möglicherweise nichts gewusst hätten. </p> <p>Recommendations ist als Bestandteil der Target Premium-Lösung verfügbar. Sie ist nicht in Target Standard ohne Target Premium-Lizenz enthalten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3491,7 +3491,7 @@ Diese Version umfasst die folgenden Verbesserungen:
 
 Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
-| Funktion/Verbesserung | Beschreibung |
+| Funktion/ Verbesserung | Beschreibung |
 |---|---|
 | Einfügen und Bearbeiten von JavaScript zulässig | Es besteht von nun an die Möglichkeit, benutzerdefiniertes JavaScript im Erlebnis-Editor zu bearbeiten und einzufügen, indem Sie im Aktionsmenü **[!UICONTROL HTML bearbeiten]** auswählen. |
 | Automatischer Zielgruppenimport | Zielgruppen werden automatisch im Hintergrund importiert, wenn ein Benutzer die Zielgruppenliste öffnet und die importierten Zielgruppen älter als 10 Minuten sind. |
@@ -3508,7 +3508,7 @@ Dieses Release enthält die folgenden Fehlerbehebungen:
 
 Diese Version beinhaltet die folgenden neuen Funktionen und Erweiterungen:
 
-| Funktion/Verbesserung | Beschreibung |
+| Funktion/ Verbesserung | Beschreibung |
 |---|---|
 | Die Synchronisierung von HTML-Angeboten mit [!DNL Target Classic] wurde durch eine Erhöhung der Zeichenbeschränkung optimiert | Die Zeichenbeschränkung wurde erhöht, um HTML-Angebote, die mit Inhalt erstellt wurden, an die 256-KB-Beschränkung der mit [!DNL Target Classic]-synchronisierten HTML-Angebote anzupassen. |
 | Die Benutzererfahrung beim Auftreten eines Fehlers im Erfahrungseditor wurde optimiert. | Der Erfahrungseditor zeigt eine Mitteilung an, wenn die Selektoren von DOM-Strukturänderungen auf der Seite beeinflusst werden. |
