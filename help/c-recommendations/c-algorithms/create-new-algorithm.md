@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Kriterien erstellen, die den Inhalt Ihrer Ado
 title: Wie erstelle ich Kriterien in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
+source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
 workflow-type: tm+mt
-source-wordcount: '2810'
-ht-degree: 53%
+source-wordcount: '2797'
+ht-degree: 54%
 
 ---
 
@@ -75,12 +75,11 @@ Die folgenden Schritte setzen voraus, dass Sie auf die [!UICONTROL Neue Kriterie
 
    | Algorithmustyp | Verwendungsbereiche | Verfügbare Algorithmen |
    | --- | --- | --- |
-   | [!UICONTROL Warenkorbbasiert] | Machen Sie Empfehlungen basierend auf den Inhalten des Warenkorbs des Benutzers. | <ul><li>Personen, die diese ansahen, sahen auch</li><li>Personen, die diese ansahen, kauften diese</li><li>Personen, die diese kauften, kauften diese</li></ul>Weitere Informationen finden Sie unter [Warenkorbbasiert](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Stützen der Empfehlung auf einen Empfehlungsschlüssel*. |
+   | [!UICONTROL Warenkorbbasiert] | Machen Sie Empfehlungen basierend auf den Inhalten des Warenkorbs des Benutzers. | <ul><li>Personen, die diese ansahen, sahen auch</li><li>Personen, die diese ansahen, kauften diese</li><li>Personen, die diese kauften, kauften diese</li></ul> |
    | [!UICONTROL Popularitätsbasiert] | Machen Sie Empfehlungen basierend auf der allgemeinen Beliebtheit eines Artikels auf Ihrer Site oder auf der Beliebtheit von Artikeln in der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. eines Benutzers. | <ul><li>Am häufigsten angezeigt auf der gesamten Site</li><li>Am häufigsten angezeigt nach Kategorie</li><li>Am häufigsten nach Elementattribut angezeigt</li><li>Topverkäufe auf der gesamten Site</li><li>Topverkäufe nach Kategorie</li><li>Topverkäufe nach Elementattribut</li><li>Top nach Analytics-Metrik</li></ul> |
    | [!UICONTROL Artikelbasiert] | Empfehlungen aussprechen, die darauf basieren, ähnliche Artikel wie ein Artikel zu finden, den der Benutzer gerade ansieht oder kürzlich angesehen hat. | <ul><li>Personen, die das ansahen, sahen auch dies an</li><li>Personen, die das ansahen, kauften dies</li><li>Personen, die das kauften, kauften dies</li><li>Elemente mit ähnlichen Attributen</li></ul> |
    | [!UICONTROL Benutzerbasiert] | Empfehlungen basierend auf dem Benutzerverhalten erstellen. | <ul><li>Vor Kurzem aufgerufene Artikel </li><li>Empfohlen für Sie</li></ul> |
-
-   |[!UICONTROL Benutzerdefinierte Kriterien]|Machen Sie Empfehlungen basierend auf einer benutzerdefinierten Datei, die Sie hochladen.|<ul><li>Benutzerspezifischer Algorithmus</li></ul>|
+   | [!UICONTROL Benutzerdefinierte Kriterien] | Machen Sie Empfehlungen basierend auf einer von Ihnen hochgeladenen benutzerdefinierten Datei. | <ul><li>Benutzerspezifischer Algorithmus</li></ul> |
 
    >[!NOTE]
    >
