@@ -4,10 +4,10 @@ description: 'Erfahren Sie, wie Sie Recommendations-Aktivitäten in Adobe Target
 title: Wie implementiere ich Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 31%
+source-wordcount: '1295'
+ht-degree: 37%
 
 ---
 
@@ -94,21 +94,7 @@ function targetPageParams() {
 }
 ```
 
-Die auf dem Warenkorb basierende Empfehlungslogik ähnelt der[!UICONTROL Empfohlen für Sie]&quot;benutzerbasierter Algorithmus und zum &quot;[!UICONTROL Personen, die diese ansahen, kauften diese]&quot; und &quot;[!UICONTROL Personen, die diese kauften, kauften diese]&quot;artikelbasierte Algorithmen.
-
-[!DNL Target] verwendet kollaborative Filtermethoden, um Ähnlichkeiten für jedes Element im Warenkorb des Besuchers zu ermitteln, und kombiniert dann diese Ähnlichkeiten im Verhalten für jedes Element, um eine zusammengeführte Liste zu erhalten.
-
-[!DNL Target] Außerdem können Marketing-Experten das Besucherverhalten innerhalb einer einzelnen Sitzung oder sitzungsübergreifend betrachten:
-
-* **Innerhalb einer einzelnen Sitzung**: Auf Grundlage dessen, was andere Besucher innerhalb einer einzelnen Sitzung unternommen haben.
-
-   Wenn Sie sich das Verhalten innerhalb einer einzelnen Sitzung ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte sich stark auf der Grundlage einer Nutzung, eines Ereignisses oder eines Ereignisses &quot;verbinden&quot;. Beispielsweise kauft ein Besucher einen Drucker und benötigt möglicherweise auch Tinte und Papier. Oder ein Besucher kauft Erdnussbutter und benötigt möglicherweise auch Brot und Gelee.
-
-* **Über mehrere Sitzungen hinweg**: Auf Grundlage dessen, was andere Besucher über mehrere Sitzungen hinweg unternommen haben.
-
-   Wenn Sie sich das Verhalten über mehrere Sitzungen hinweg ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte stark aufeinander abgestimmt sind, basierend auf der Präferenz oder dem Geschmack des Besuchers. Zum Beispiel mag ein Besucher Star Wars und vielleicht auch Indiana Jones, auch wenn der Besucher nicht unbedingt beide Filme in derselben Sitzung sehen möchte. Oder ein Besucher mag das Brettspiel &quot;Codenames&quot; und könnte auch das Brettspiel &quot;Avalon&quot;, auch wenn der Besucher nicht beide Spiele gleichzeitig spielen kann. 
-
-[!DNL Target] gibt Empfehlungen für jeden Besucher basierend auf den Artikeln im aktuellen Warenkorb heraus, unabhängig davon, ob Sie sich das Besucherverhalten innerhalb einer einzelnen Sitzung oder sitzungsübergreifend ansehen.
+Weitere Informationen finden Sie unter [!UICONTROL Warenkorbbasiert] Empfehlungen, siehe [Warenkorbbasiert](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Stützen der Empfehlung auf einen Empfehlungsschlüssel*.
 
 ### Ausschließen von bereits im Warenkorb befindlichen Artikeln
 

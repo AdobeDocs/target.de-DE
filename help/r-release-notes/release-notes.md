@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 82%
+source-wordcount: '1153'
+ht-degree: 81%
 
 ---
 
@@ -44,7 +44,7 @@ Dieses Maintenance Release umfasst die folgende Verbesserung:
 
 | Funktion | Details |
 | --- | --- |
-| Warenkorbbasierte Recommendations | Eine neue Reihe von Algorithmen wurde hinzugefügt, um Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers bereitzustellen.<br>Weitere Informationen finden Sie unter &quot;Warenkorb-basiert&quot;in [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md) und &quot;Warenkorb fügt/Warenkorbansichten/Checkout-Seiten hinzu&quot;und &quot;Artikel, die sich bereits im Warenkorb des Besuchers befinden, ausschließen&quot;in [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md). |
+| Warenkorbbasierte Recommendations | Eine neue Reihe von Algorithmen wurde hinzugefügt, um Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers bereitzustellen.<br>Weitere Informationen finden Sie unter &quot;Warenkorb-basiert&quot;in [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Warenkorb fügt/Warenkorbansichten/Checkout-Seiten&quot;und &quot;Artikel, die sich bereits im Warenkorb des Besuchers befinden&quot;in [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md)und &quot;Warenkorb-basiert&quot;in [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19. Oktober 2021)
 

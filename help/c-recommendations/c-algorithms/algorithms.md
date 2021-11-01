@@ -1,12 +1,12 @@
 ---
 keywords: Empfehlungen; Empfehlungsaktivität; Kriterien; Algorithmus; Empfehlungsschlüssel; benutzerdefinierter Schlüssel; vertikaler Markt; Einzelhandel; E-Commerce; Lead-Generierung; b2b; Finanzdienste; Medien; Veröffentlichung
-description: Erfahren Sie, wie Sie Kriterien in Adobe [!DNL Target] [!DNL Recommendations] verwenden.
+description: Erfahren Sie, wie Sie Kriterien in Adobe verwenden [!DNL Target] [!DNL Recommendations].
 title: Wie verwende ich Kriterien in [!DNL Target] Recommendations?
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
-source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '711'
 ht-degree: 24%
 
 ---
@@ -27,11 +27,11 @@ Beim Erstellen eines Kriteriums wählen Sie basierend auf den Zielen Ihrer Recom
 | Lead-Generierung/B2B/Finanzdienstleistungen | Konversion ohne Kauf |
 | Medien/Verlagswesen | Interaktion |
 
-Andere Optionen für Kriterien ändern sich je nach vertikalem Markt, den Sie auswählen. Sie können Ihre standardmäßige Branche auf der Seite **[!UICONTROL Recommendations > Einstellungen]** festlegen oder die Branche für jedes Kriterium festlegen.
+Andere Optionen für Kriterien ändern sich je nach vertikalem Markt, den Sie auswählen. Sie können Ihren standardmäßigen vertikalen Markt auf die Variable **[!UICONTROL Recommendations > Einstellungen]** oder Sie können für jedes Kriterium den vertikalen Markt angeben.
 
 ## Algorithmentyp {#section_885B3BB1B43048A88A8926F6B76FC482}
 
-Der ausgewählte Algorithmustyp bestimmt die verfügbaren Algorithmen. Es gibt mehrere Algorithmustypen, die beim Einrichten einer [!DNL Recommendations] -Aktivität als Kriterienkarten dargestellt werden.
+Der ausgewählte Algorithmustyp bestimmt die verfügbaren Algorithmen. Es gibt mehrere Algorithmustypen, die beim Einrichten einer [!DNL Recommendations] Aktivität.
 
 ![Kriterienseite](assets/criteria-page.png)
 
@@ -39,10 +39,10 @@ In der folgenden Tabelle werden die verschiedenen Algorithmustypen und die zugeh
 
 | Algorithmustyp | Verwendungsbereiche | Verfügbare Algorithmen |
 | --- | --- | --- |
+| [!UICONTROL Warenkorbbasiert] | Machen Sie Empfehlungen basierend auf den Inhalten des Warenkorbs des Benutzers. | <ul><li>Personen, die diese ansahen, sahen auch</li><li>Personen, die diese ansahen, kauften diese</li><li>Personen, die diese kauften, kauften diese</li></ul>Weitere Informationen finden Sie unter [Warenkorbbasiert](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Stützen der Empfehlung auf einen Empfehlungsschlüssel*. |
 | [!UICONTROL Popularitätsbasiert] | Machen Sie Empfehlungen basierend auf der allgemeinen Beliebtheit eines Artikels auf Ihrer Site oder auf der Beliebtheit von Artikeln in der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. eines Benutzers. | <ul><li>Am häufigsten angezeigt auf der gesamten Site</li><li>Am häufigsten angezeigt nach Kategorie</li><li>Am häufigsten nach Elementattribut angezeigt</li><li>Topverkäufe auf der gesamten Site</li><li>Topverkäufe nach Kategorie</li><li>Topverkäufe nach Elementattribut</li><li>Top nach Analytics-Metrik</li></ul> |
 | [!UICONTROL Artikelbasiert] | Empfehlungen aussprechen, die darauf basieren, ähnliche Artikel wie ein Artikel zu finden, den der Benutzer gerade ansieht oder kürzlich angesehen hat. | <ul><li>Personen, die das ansahen, sahen auch dies an</li><li>Personen, die das ansahen, kauften dies</li><li>Personen, die das kauften, kauften dies</li><li>Elemente mit ähnlichen Attributen</li></ul> |
 | [!UICONTROL Benutzerbasiert] | Empfehlungen basierend auf dem Benutzerverhalten erstellen. | <ul><li>Vor Kurzem aufgerufene Artikel </li><li>Empfohlen für Sie</li></ul> |
-| Warenkorbbasiert | (In Kürze) Treffen Sie Empfehlungen basierend auf dem Warenkorbinhalt des Benutzers. | <ul><li>Personen, die diese ansahen, sahen auch</li><li>Personen, die diese ansahen, kauften diese</li><li>Personen, die diese kauften, kauften diese</li></ul> |
 | [!UICONTROL Benutzerdefinierte Kriterien] | Machen Sie Empfehlungen basierend auf einer von Ihnen hochgeladenen benutzerdefinierten Datei. | <ul><li>Benutzerspezifischer Algorithmus</li></ul> |
 
 Weitere Informationen zu den einzelnen Algorithmen finden Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
@@ -53,21 +53,21 @@ Sie können Empfehlungen auch auf dem Wert eines benutzerdefinierten Profilattri
 
 >[!NOTE]
 >
->Benutzerdefinierte Profilparameter können über JavaScript, API oder Integrationen an [!DNL Target] übergeben werden. Weitere Informationen zu benutzerdefinierten Profilattributen finden Sie unter [Besucherprofile](/help/c-target/c-visitor-profile/visitor-profile.md).
+>Benutzerdefinierte Profilparameter können an [!DNL Target] über JavaScript, API oder Integrationen. Weitere Informationen zu benutzerdefinierten Profilattributen finden Sie unter [Besucherprofile](/help/c-target/c-visitor-profile/visitor-profile.md).
 
 Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Benutzer zuletzt zur Warteschlange hinzugefügt hat.
 
-1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
+1. Klicken **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
-1. Klicken Sie auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]**.
+1. Klicken **[!UICONTROL Erstellen von Kriterien]** > **[!UICONTROL Erstellen von Kriterien]**.
 
-1. Füllen Sie die Informationen im Abschnitt [Grundlegende Informationen](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) aus.
+1. Füllen Sie die Informationen im [Abschnitt &quot;Grundlegende Informationen&quot;](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-1. Wählen Sie im Abschnitt [Empfohlener Algorithmus](/help/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo) die Option **[!UICONTROL Elementbasiert]** aus der Liste **[!UICONTROL Algorithmustyp]** .
+1. Im [Empfohlener Algorithmus](/help/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo) Bereich, wählen Sie **[!UICONTROL Artikelbasiert]** von **[!UICONTROL Algorithmustyp]** Liste.
 
-1. Wählen Sie **[!UICONTROL Personen, die das ansahen, sahen auch dies]** aus der Liste **[!UICONTROL Algorithm]** aus.
+1. Auswählen **[!UICONTROL Personen, die das ansahen, sahen auch dies an]** von **[!UICONTROL Algorithmus]** Liste.
 
-1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Liste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. [!UICONTROL Zuletzt zur Watchlist] hinzugefügte Anzeige).
+1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus dem **[!UICONTROL Empfehlungsschlüssel]** list (z. B. [!UICONTROL Zuletzt zur Watchlist hinzugefügt]).
 
    ![Neues Kriterium erstellen, Dialogfeld](assets/custom-key1.png)
 
@@ -87,4 +87,4 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Algorithmusnutzung]**, um eine L
 
 >[!NOTE]
 >
->Die Funktion [!UICONTROL Algorithmusnutzung] wird derzeit nur für Recommendations-Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für A/B-Test-, Automatisierte Zuordnung-, Automatisches Targeting- und Erlebnis-Targeting-Aktivitäten (XT) unterstützt, die [Empfehlungen als Angebot](/help/c-recommendations/recommendations-as-an-offer.md) enthalten.
+>Die [!UICONTROL Algorithmusverwendung] -Funktion wird derzeit nur für Recommendations-Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für A/B-Test-, Automatisch zuweisende, automatische Targeting- und Erlebnis-Targeting-Aktivitäten (XT) unterstützt, die Folgendes enthalten: [Empfehlungen als Angebot](/help/c-recommendations/recommendations-as-an-offer.md).

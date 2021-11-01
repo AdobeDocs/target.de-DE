@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '32578'
+source-wordcount: '32587'
 ht-degree: 99%
 
 ---
@@ -37,13 +37,13 @@ Dieses Maintenance Release umfasst die folgende Verbesserung:
 | --- | --- |
 | [!UICONTROL Visual Experience Composer] (VEC) | Hinzugefügte Unterstützung für [Webkomponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Personalisierte Erlebnisse und Angebote können mit benutzerdefinierten Elementen und Elementen in benutzerdefinierten Elementen erstellt und getestet werden.<br>Weitere Informationen finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
-### [!DNL Target Standard/Premium] 21.10.4 (21. Oktober 2021)
+## [!DNL Target Standard/Premium] 21.10.4 (21. Oktober 2021)
 
 Dieses Maintenance Release umfasst die folgende Verbesserung:
 
 | Funktion | Details |
 | --- | --- |
-| Warenkorbbasierte Recommendations | Eine neue Reihe von Algorithmen wurde hinzugefügt, um Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers bereitzustellen.<br>Weitere Informationen finden Sie unter &quot;Warenkorb-basiert&quot;in [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md) und &quot;Warenkorb fügt/Warenkorbansichten/Checkout-Seiten hinzu&quot;und &quot;Artikel, die sich bereits im Warenkorb des Besuchers befinden, ausschließen&quot;in [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md). |
+| Warenkorbbasierte Recommendations | Eine neue Reihe von Algorithmen wurde hinzugefügt, um Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers bereitzustellen.<br>Weitere Informationen finden Sie unter &quot;Warenkorb-basiert&quot;in [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Warenkorb fügt/Warenkorbansichten/Checkout-Seiten&quot;und &quot;Artikel, die sich bereits im Warenkorb des Besuchers befinden&quot;in [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md)und &quot;Warenkorb-basiert&quot;in [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19. Oktober 2021)
 
