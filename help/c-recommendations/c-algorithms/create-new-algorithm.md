@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Kriterien erstellen, die den Inhalt Ihrer Ado
 title: Wie erstelle ich Kriterien in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
 workflow-type: tm+mt
 source-wordcount: '2810'
 ht-degree: 53%
@@ -81,7 +81,6 @@ Die folgenden Schritte setzen voraus, dass Sie auf die [!UICONTROL Neue Kriterie
    | [!UICONTROL Benutzerbasiert] | Empfehlungen basierend auf dem Benutzerverhalten erstellen. | <ul><li>Vor Kurzem aufgerufene Artikel </li><li>Empfohlen für Sie</li></ul> |
 
    |[!UICONTROL Benutzerdefinierte Kriterien]|Machen Sie Empfehlungen basierend auf einer benutzerdefinierten Datei, die Sie hochladen.|<ul><li>Benutzerspezifischer Algorithmus</li></ul>|
-
 
    >[!NOTE]
    >
