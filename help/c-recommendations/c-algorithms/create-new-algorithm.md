@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Kriterien erstellen, die den Inhalt Ihrer Ado
 title: Wie erstelle ich Kriterien in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
+source-git-commit: 3cccd4879133a8d222b970c92ebcef3df7a028a3
 workflow-type: tm+mt
-source-wordcount: '2797'
-ht-degree: 54%
+source-wordcount: '2832'
+ht-degree: 53%
 
 ---
 
@@ -87,7 +87,9 @@ Die folgenden Schritte setzen voraus, dass Sie auf die [!UICONTROL Neue Kriterie
 
 1. Wählen Sie nach Bedarf eine **Elementattribut** und **Profilattribut zur Übereinstimmung**, **Empfehlungsschlüssel**, **Filterschlüssel** und/oder **Analytics-Metrik** um den Algorithmus zu konfigurieren.
 
-Weitere Informationen zur Auswahl eines Empfehlungsschlüssels finden Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+Die restlichen Konfigurationsoptionen für Algorithmen variieren je nach ausgewähltem Algorithmus. Um die Konfiguration des Algorithmus abzuschließen, wählen Sie eine [!UICONTROL Empfehlungsschlüssel], [!UICONTROL Filterschlüssel], [!UICONTROL Grundlage der Zusammenarbeit], [!UICONTROL Analytics-Metrik]und/oder [!UICONTROL Elementattribut] und [!UICONTROL Profilattribut zur Übereinstimmung].
+
+Weitere Informationen zur Auswahl eines [!UICONTROL Empfehlungsschlüssel], siehe [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL Datenquelle] {#data-source}
 
