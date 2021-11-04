@@ -5,9 +5,9 @@ title: Wie Basiere ich die Empfehlung auf einem Empfehlungsschlüssel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
 workflow-type: tm+mt
-source-wordcount: '3850'
+source-wordcount: '3834'
 ht-degree: 41%
 
 ---
@@ -25,10 +25,6 @@ Es gibt fünf Algorithmustypen in [!DNL Target Recommendations]:
 * [!UICONTROL Benutzerdefinierte Kriterien]
 
 Jeder Algorithmustyp bietet verschiedene für seinen Typ geeignete Algorithmen, wie in der folgenden Tabelle dargestellt:
-
->[!NOTE]
->
->Die [!UICONTROL Warenkorbbasiert] type wird in der folgenden Tabelle beschrieben und wird in Kürze verfügbar sein.
 
 | Algorithmustyp | Verwendungsbereiche | Verfügbare Algorithmen |
 | --- | --- | --- |
@@ -54,11 +50,11 @@ Die auf dem Warenkorb basierende Empfehlungslogik ähnelt der[!UICONTROL Empfohl
 
 [!DNL Target] Außerdem können Marketing-Experten das Besucherverhalten innerhalb einer einzelnen Sitzung oder sitzungsübergreifend betrachten:
 
-* **Innerhalb einer einzelnen Sitzung**: Auf Grundlage dessen, was andere Besucher innerhalb einer einzelnen Sitzung unternommen haben.
+* **[!UICONTROL Einzelsitzung]**: Auf Grundlage dessen, was andere Besucher innerhalb einer einzelnen Sitzung unternommen haben.
 
    Wenn Sie sich das Verhalten innerhalb einer einzelnen Sitzung ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte sich stark auf der Grundlage einer Nutzung, eines Ereignisses oder eines Ereignisses &quot;verbinden&quot;. Beispielsweise kauft ein Besucher einen Drucker und benötigt möglicherweise auch Tinte und Papier. Oder ein Besucher kauft Erdnussbutter und benötigt möglicherweise auch Brot und Gelee.
 
-* **Über mehrere Sitzungen hinweg**: Auf Grundlage dessen, was andere Besucher über mehrere Sitzungen hinweg unternommen haben.
+* **[!UICONTROL Sitzungsübergreifend]**: Auf Grundlage dessen, was andere Besucher über mehrere Sitzungen hinweg unternommen haben.
 
    Wenn Sie sich das Verhalten über mehrere Sitzungen hinweg ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte stark aufeinander abgestimmt sind, basierend auf der Präferenz oder dem Geschmack des Besuchers. Zum Beispiel mag ein Besucher Star Wars und vielleicht auch Indiana Jones, auch wenn der Besucher nicht unbedingt beide Filme in derselben Sitzung sehen möchte. Oder ein Besucher mag das Brettspiel &quot;Codenames&quot; und könnte auch das Brettspiel &quot;Avalon&quot;, auch wenn der Besucher nicht beide Spiele gleichzeitig spielen kann. 
 
