@@ -1,13 +1,13 @@
 ---
 keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen; Zielgruppentargeting; Zielgruppenberichterstellung; Zielgruppenbericht; Segment; benutzerdefinierte Profilparameter; Zielgruppendefinition; Zielgruppenliste
-description: Erfahren Sie, wie Sie die Liste [!UICONTROL Zielgruppen] in [!DNL Adobe Target] verwenden.
+description: Erfahren Sie, wie Sie die [!UICONTROL Zielgruppen] Liste in [!DNL Adobe Target].
 title: Wie verwende ich die Zielgruppenliste?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
+source-git-commit: d8b18c77d6df2fb9db01b64268e555f9a4b10adf
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 34%
+source-wordcount: '774'
+ht-degree: 33%
 
 ---
 
@@ -17,26 +17,26 @@ Zielgruppen in [!DNL Adobe Target] bestimmen, wer Inhalte und Erlebnisse in eine
 
 Zielgruppen werden überall dort eingesetzt, wo Targeting zur Verfügung steht. Für die Zielgruppenbestimmung einer Aktivität stehen folgende Optionen zur Verfügung:
 
-* Wählen Sie eine wiederverwendbare Zielgruppe aus der Liste [!UICONTROL Zielgruppen] aus.
-* [Aktivitätsspezifische ](/help/c-target/creating-activity-only-audience.md) Zielgruppen erstellen und ansprechen
-* [Kombinieren mehrerer ](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) Zielgruppen zur Erstellung einer Ad-hoc-Zielgruppe
+* Wählen Sie eine wiederverwendbare Zielgruppe aus dem [!UICONTROL Zielgruppen] Liste
+* [Aktivitätsspezifische Zielgruppe erstellen](/help/c-target/creating-activity-only-audience.md) und Zielgruppe
+* [Kombinieren mehrerer Zielgruppen](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) Erstellen einer Ad-hoc-Zielgruppe
 
-Sie können auch Zielgruppendaten verwenden, die von [!DNL Adobe Analytics] für Echtzeit-Targeting und Personalisierung in [!DNL Target] und anderen [!DNL Adobe Experience Cloud]-Anwendungen erfasst wurden. Siehe [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) im Handbuch *Experience Cloud Central Interface Components* .
+Sie können auch Zielgruppendaten verwenden, die von [!DNL Adobe Analytics] für Echtzeit-Targeting und Personalisierung in [!DNL Target] und andere [!DNL Adobe Experience Cloud] Anwendungen. Siehe [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) im *Zentrale Experience Cloud-Schnittstellenkomponenten* Handbuch.
 
 Es gibt zwei Arten von Zielgruppen in [!DNL Target]:
 
-* **Targeting-Zielgruppen:** Dient zur Bereitstellung unterschiedlicher Inhalte für verschiedene Besuchertypen.
+* **Zielgruppen auswählen:** Dient zur Bereitstellung unterschiedlicher Inhalte für verschiedene Besuchertypen.
 * **Berichtszielgruppen:** Wird verwendet, um zu bestimmen, wie verschiedene Besuchertypen auf denselben Inhalt reagieren, damit Sie Ihre Testergebnisse analysieren können.
 
    In [!DNL Target] können Sie Berichtszielgruppen nur dann konfigurieren, wenn Sie [!DNL Target] als Berichtsquelle verwenden. Wenn Sie [ Adobe Analytics als Berichtsquelle](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, müssen Sie Ihre Berichterstellungszielgruppen in [!DNL Analytics] konfigurieren.
 
-## Verwenden Sie die Liste [!UICONTROL Zielgruppen] . {#use-list}
+## Verwenden Sie die [!UICONTROL Zielgruppen] Liste {#use-list}
 
 Wenn Sie auf die Liste [!UICONTROL Zielgruppen] zugreifen möchten, klicken Sie in der oberen Menüzeile auf **[!UICONTROL Zielgruppen]**:
 
 ![Zielgruppenliste](assets/audiences_list.png)
 
-Die Liste [!UICONTROL Zielgruppen] enthält die Zielgruppen, die Sie in Ihren Aktivitäten verwenden können. Verwenden Sie die Liste [!UICONTROL Zielgruppen] , um Zielgruppen zu erstellen, zu bearbeiten, zu duplizieren, zu kopieren oder zu kombinieren. In der Liste wird zudem aufgeführt, in welcher Quelle die Zielgruppe erstellt wurde:
+Die [!UICONTROL Zielgruppen] enthält die Zielgruppen, die Sie in Ihren Aktivitäten verwenden können. Verwenden Sie die [!UICONTROL Zielgruppen] Liste zum Erstellen, Bearbeiten, Duplizieren, Kopieren oder Kombinieren von Zielgruppen. In der Liste wird zudem aufgeführt, in welcher Quelle die Zielgruppe erstellt wurde:
 
 * [!DNL Adobe Target]
 * [!DNL Adobe Target Classic]
@@ -45,42 +45,44 @@ Die Liste [!UICONTROL Zielgruppen] enthält die Zielgruppen, die Sie in Ihren Ak
 
    >[!NOTE]
    >
-   >Die Quelle [!DNL Adobe Experience Platform] steht allen [!DNL Target]-Kunden zur Verfügung, die das [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) verwenden. In [!DNL Adobe Experience Platform] verfügbare Zielgruppen können unverändert oder [in Kombination mit vorhandenen Zielgruppen](/help/c-target/combining-multiple-audiences.md) verwendet werden.
+   >Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). In der [!DNL Adobe Experience Platform] kann wie besehen oder verwendet werden [in Kombination mit vorhandenen Zielgruppen](/help/c-target/combining-multiple-audiences.md).
+   >
+   >Benutzer müssen [!UICONTROL Genehmiger] oder über dem Status in [!DNL Target] zum Konfigurieren [!DNL Target] [!UICONTROL Ziele] Karten in AEP/RTCDP ([!DNL Real-Time Customer Data Platform]).
 
-Vordefinierte Zielgruppen wie &quot;[!UICONTROL Neue Besucher]&quot;und &quot;[!UICONTROL Wiederkehrende Besucher]&quot;können nicht umbenannt werden.
+Vordefinierte Zielgruppen, z. B.[!UICONTROL Neue Besucher]&quot; und &quot;[!UICONTROL Wiederkehrende Besucher],&quot; kann nicht umbenannt werden.
 
-Beim Arbeiten mit Zielgruppen, die ursprünglich in [!DNL Experience Cloud] oder [!DNL Adobe Experience Platform] erstellt wurden, werden Sie von [!DNL Target] benachrichtigt, wenn Sie auf eine Zielgruppe in [!DNL Target] -Aktivitäten verweisen, die später in [!DNL Experience Cloud] oder [!DNL Adobe Experience Platform] gelöscht wurden.
+Beim Arbeiten mit Zielgruppen, die ursprünglich in erstellt wurden [!DNL Experience Cloud] oder [!DNL Adobe Experience Platform], [!DNL Target] Warnungen, wenn Sie auf eine Zielgruppe in [!DNL Target] Aktivitäten, die später in [!DNL Experience Cloud] oder [!DNL Adobe Experience Platform].
 
-* Wenn eine Zielgruppe in [!DNL Experience Cloud] oder [!DNL Adobe Experience Platform] gelöscht wurde, wird sowohl in der Liste [!UICONTROL Zielgruppe] ein Warnsymbol angezeigt als auch die Zielgruppenauswahl. Eine QuickInfo in der Benutzeroberfläche [!DNL Target] zeigt auch an, dass die Zielgruppe in [!DNL Experience Cloud] oder [!DNL Adobe Experience Platform] gelöscht wurde.
+* Wenn eine Zielgruppe in [!DNL Experience Cloud] oder [!DNL Adobe Experience Platform], ein Warnsymbol in beiden [!UICONTROL Zielgruppe] und die Zielgruppenauswahl angezeigt. Eine QuickInfo im [!DNL Target] Die Benutzeroberfläche zeigt auch an, dass die Zielgruppe in [!DNL Experience Cloud] oder [!DNL Adobe Experience Platform].
 * Wenn Sie versuchen, mehrere Zielgruppen mit einer gelöschten Zielgruppe zu kombinieren oder eine Aktivität zu speichern, die auf eine gelöschte Zielgruppe verweist, wird eine Warnmeldung angezeigt.
 
 Sie können auch benutzerdefinierte Profilparameter und `user.`-Parameter als Ziel auswählen. Ziehen Sie beim Erstellen einer Zielgruppe die Attribute, die Sie für das Targeting Ihrer Aktivität verwenden möchten, in das Audience Builder-Fenster. Wenn das gewünschte Attribut nicht angezeigt wird, wurde das Attribut nicht von einer Mbox ausgelöst. In der Dropdownliste [!UICONTROL Benutzerdefinierte Parameter] sind weitere benutzerdefinierte Mbox-Parameter verfügbar.
 
-Verwenden Sie die Schaltfläche [!UICONTROL Filter] , um die Liste [!UICONTROL Zielgruppen] nach Quelle zu filtern: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud] und [!DNL Adobe Experience Platform].
+Verwenden Sie die [!UICONTROL Filter] Schaltfläche zum Filtern der [!UICONTROL Zielgruppen] Liste nach Quelle: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud]und [!DNL Adobe Experience Platform].
 
-![Filteroption in der   Zielgruppenliste](assets/filters.png)
+![Filteroption im [!UICONTROL Zielgruppen] Liste](assets/filters.png)
 
-Verwenden Sie das Feld [!UICONTROL Zielgruppen suchen] , um die Liste [!UICONTROL Zielgruppen] zu durchsuchen. Sie können nach einem beliebigen Teil des Zielgruppennamens suchen oder eine bestimmte Zeichenfolge in Anführungszeichen setzen.
+Verwenden Sie die [!UICONTROL Zielgruppen durchsuchen] zum Durchsuchen Ihres [!UICONTROL Zielgruppen] Liste. Sie können nach einem beliebigen Teil des Zielgruppennamens suchen oder eine bestimmte Zeichenfolge in Anführungszeichen setzen.
 
 Sie können die [!UICONTROL Zielgruppenliste] nach Zielgruppennamen oder dem Datum der letzten Änderung sortieren. Wenn Sie eine Sortierung nach Name oder Datum vornehmen möchten, klicken Sie auf die Spaltenüberschrift und wählen Sie dann die Anzeige der Zielgruppen in aufsteigender oder absteigender Reihenfolge aus.
 
 ## Anzeigen von Zielgruppendefinitionen {#section_11B9C4A777E14D36BA1E925021945780}
 
-Sie können Details zur Zielgruppendefinition auf einer Pop-up-Karte an verschiedenen Stellen in der [!DNL Target] -Benutzeroberfläche anzeigen, ohne die Zielgruppe zu öffnen. Diese Funktion gilt für Zielgruppen, die in [!DNL Target Standard/Premium] erstellt wurden, sowie für Zielgruppen, die aus [!DNL Target Classic] importiert oder über API erstellt wurden.
+Sie können Details zur Zielgruppendefinition auf einer Pop-up-Karte an verschiedenen Stellen in der [!DNL Target] Benutzeroberfläche, ohne die Zielgruppe zu öffnen. Diese Funktion gilt für Zielgruppen, die in [!DNL Target Standard/Premium] und aus importierten Zielgruppen [!DNL Target Classic] oder über API erstellt wurde.
 
-Beispielsweise wird auf die folgende Zielgruppendefinitionskarte zugegriffen, indem Sie für die gewünschte Zielgruppe auf das Symbol [!UICONTROL Details anzeigen] klicken:
+Beispielsweise kann auf die folgende Zielgruppendefinitionskarte zugegriffen werden, indem Sie auf die [!UICONTROL Details anzeigen] für die gewünschte Zielgruppe:
 
 ![Aktivitäten > Zielgruppendefinition](assets/audience_definition_list.png)
 
-Auf die folgende Zielgruppendefinitionskarte kann durch Klicken auf das Symbol [!UICONTROL Details anzeigen] auf der Seite [!UICONTROL Übersicht] einer Aktivität zugegriffen werden:
+Auf die folgende Zielgruppendefinitionskarte können Sie durch Klicken auf die [!UICONTROL Details anzeigen] Symbol auf der Seite [!UICONTROL Übersicht] Seite:
 
 ![Aktivitäten > Zielgruppendefinition](assets/view-details-activity-overview.png)
 
-Auf der Karte zur Zielgruppendefinition werden Typ, Quelle und Attribute der Zielgruppe angezeigt. Klicken Sie auf **[!UICONTROL Vollständige Details anzeigen]** , um weitere Aktivitäten anzuzeigen, die auf diese Zielgruppe verweisen (falls zutreffend). Wenn Sie eine Zielgruppendefinitionskarte auf der Seite [!UICONTROL Übersicht] einer Aktivität anzeigen, klicken Sie auf **[!UICONTROL Zielgruppennutzung]**.
+Auf der Karte zur Zielgruppendefinition werden Typ, Quelle und Attribute der Zielgruppe angezeigt. Klicken **[!UICONTROL Vollständige Details anzeigen]** , um gegebenenfalls andere Aktivitäten anzuzeigen, die auf diese Zielgruppe verweisen. Wenn Sie eine Zielgruppendefinitionskarte aus einer Aktivität anzeigen [!UICONTROL Übersicht] Seite, klicken Sie auf **[!UICONTROL Zielgruppennutzung]**.
 
-Mithilfe der Informationen zur Zielgruppennutzung können Sie beim Bearbeiten von Zielgruppen unbeabsichtigte Auswirkungen auf andere Aktivitäten vermeiden. Zu den Informationen gehören [!UICONTROL Live-Aktivitäten], [!UICONTROL Inaktive Aktivitäten], [!UICONTROL Archivierte Aktivitäten] und [!UICONTROL Synchronisierungsaktivitäten]. Diese Funktion ist für alle Zielgruppen (Bibliothekszielgruppen und  [Zielgruppen vom Typ „Nur Aktivität“](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)) verfügbar.
+Mithilfe der Informationen zur Zielgruppennutzung können Sie beim Bearbeiten von Zielgruppen unbeabsichtigte Auswirkungen auf andere Aktivitäten vermeiden. Informationen enthalten [!UICONTROL Live-Aktivitäten], [!UICONTROL Inaktive Aktivitäten], [!UICONTROL Archivierte Aktivitäten]und [!UICONTROL Synchronisieren von Aktivitäten]. Diese Funktion ist für alle Zielgruppen (Bibliothekszielgruppen und  [Zielgruppen vom Typ „Nur Aktivität“](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)) verfügbar.
 
-Wenn eine Zielgruppe [mit einer anderen Zielgruppe](/help/c-target/combining-multiple-audiences.md) kombiniert ist und die kombinierte Zielgruppe zum Erstellen einer Aktivität verwendet wird, werden in den Nutzungsinformationen für beide Zielgruppen die neu erstellte Aktivität aufgelistet.
+Wenn eine Zielgruppe [kombiniert mit einer anderen Zielgruppe](/help/c-target/combining-multiple-audiences.md) und die kombinierte Zielgruppe zum Erstellen einer Aktivität verwendet wird, werden in den Nutzungsinformationen für beide Zielgruppen die neu erstellte Aktivität aufgelistet.
 
 ![](assets/audience_definition_list_usage.png)
 
