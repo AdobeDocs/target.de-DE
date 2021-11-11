@@ -5,10 +5,10 @@ title: Wie Basiere ich die Empfehlung auf einem Empfehlungsschlüssel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
+source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
 workflow-type: tm+mt
-source-wordcount: '3820'
-ht-degree: 41%
+source-wordcount: '3877'
+ht-degree: 40%
 
 ---
 
@@ -139,7 +139,11 @@ Wenn Sie den Algorithmus Am häufigsten angezeigt nach Kategorie auswählen, kö
 
 ### Am häufigsten nach Elementattribut angezeigt
 
-(Informationen in Kürze verfügbar)
+Empfiehlt Artikel oder Medien, die den am häufigsten angezeigten Artikeln oder Medien auf Ihrer Site ähneln.
+
+Mit diesem Algorithmus können Sie auswählen, auf welchem Elementattribut die Empfehlung basieren soll, z. B. &quot;Name&quot;oder &quot;Marke&quot;.
+
+Anschließend wählen Sie aus, welche Profilattribute im Besucherprofil übereinstimmen sollen, z. B. &quot;Lieblingsmarke&quot;, &quot;Zuletzt zum Warenkorb hinzugefügter Artikel&quot;oder &quot;Am häufigsten angezeigte Anzeige&quot;.
 
 ### Topverkäufe auf der gesamten Site {#top-sellers}
 
