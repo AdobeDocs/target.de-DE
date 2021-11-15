@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Adobe [!DNL Target] zeigt die Konversionsrate, St
 title: Wie kann ich die Konversionsrate, Steigerung und Konfidenzniveau anzeigen?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 58%
+source-wordcount: '2138'
+ht-degree: 59%
 
 ---
 
@@ -50,7 +50,7 @@ Wenn die Kontrollinstanz 0 ist, gibt es keine prozentuale Steigerung.
 
 AOV-, RPV- und Verkaufsdaten werden für jedes Erlebnis angezeigt, wenn Sie eine Bestellung einfügen (`orderConfirmPage`) und als Konversions-Mbox ausgewählt.
 
-## Konfidenz und Konfidenzintervall {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## Konfidenzniveau und Konfidenzintervall {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
 Für jedes Erlebnis werden das Konfidenzintervall und das Konfidenzintervall angezeigt.
 
@@ -58,7 +58,9 @@ Sie können Offlineberechnungen für for Target (A4T) durchführen. Dazu ist jed
 
 ### Konfidenz {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-Die Konfidenz eines angezeigten Erlebnisses oder Angebots ist eine Wahrscheinlichkeit (ausgedrückt als Prozentsatz), ein weniger extremes Ergebnis zu erzielen als das tatsächlich beobachtete Ergebnis, wenn die Null-Hypothese wahr ist, d. h. wenn es keinen Unterschied in den Konversionsraten zwischen diesem Erlebnis oder Angebot und dem Kontrollerlebnis/Angebot gibt. In Bezug auf p-Werte ist diese angezeigte Konfidenz 1 - p-Wert. Einfach ausgedrückt zeigt eine höhere Konfidenz, dass die Daten weniger konsistent mit der Annahme sind, dass das Kontroll- und Nicht-Kontrollangebot/-Erlebnis über gleiche Konversionsraten verfügen. Das Vertrauen wird auf 100 % aufgerundet, wenn es größer oder gleich 99,995 % ist.
+Die Konfidenz eines angezeigten Erlebnisses oder Angebots ist eine Wahrscheinlichkeit (ausgedrückt als Prozentsatz), ein Ergebnis zu erzielen, das weniger extrem ist als das tatsächlich beobachtete Ergebnis, wenn die Null-Hypothese wahr ist (im Wesentlichen, wenn es keinen Unterschied in den Konversionsraten zwischen diesem Erlebnis oder Angebot und dem Kontrollerlebnis/Angebot gibt). In Bezug auf p-Werte ist diese angezeigte Konfidenz 1 - p-Wert. Einfach ausgedrückt zeigt eine höhere Konfidenz, dass die Daten weniger konsistent mit der Annahme sind, dass das Kontroll- und Nicht-Kontrollangebot/-Erlebnis über gleiche Konversionsraten verfügen.
+
+Das Vertrauen wird auf 100 % aufgerundet, wenn es größer oder gleich 99,995 % ist.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 

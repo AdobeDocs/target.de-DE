@@ -4,9 +4,9 @@ description: Antworten auf Fragen zur Steigerung und Konfidenz bei der Verwendun
 title: Wo finde ich Informationen über Steigerung und Konfidenz mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -40,7 +40,7 @@ Beispiele für nicht unterstützte Metriken oder Anwendungsfälle sind:
 
 ## Wie verwaltet A4T Konfidenzberechnungen?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T berechnet Konfidenz-/p-Werte auf eine Weise, die sich von normalen t-Tests mit binären Metriken unterscheidet. Insbesondere ermöglichen die von A4T verwendeten Berechnungen jedem Benutzer ein kontinuierliches Metrikergebnis (nicht nur 1 oder 0 für jeden Benutzer), sodass die Varianz (oder die Standardabweichung) für jedes Erlebnis genau berechnet werden muss. Extreme Bestellungen werden nicht berücksichtigt. Außerdem wird bei der Konfidenzberechnung keine Bonferroni-Korrektur für mehrere Angebote angewendet.
+[!DNL Adobe Analytics] behandelt alle Metriken als nicht binär und berechnet daher Konfidenz-/p-Werte auf eine Weise, die sich von der Verwendung binärer Metriken in einem regulären t-Test unterscheidet. Insbesondere ermöglichen die von A4T verwendeten Berechnungen jedem Benutzer ein kontinuierliches Metrikergebnis (nicht nur 1 oder 0 für jeden Benutzer), sodass die Varianz (oder die Standardabweichung) für jedes Erlebnis entsprechend berechnet werden muss. Extreme Bestellungen werden nicht berücksichtigt. Außerdem wird bei der Konfidenzberechnung keine Bonferroni-Korrektur für mehrere Angebote angewendet.
 
 ## Funktionieren die Steigerung und die Konfidenz mit Ad Hoc und Report Builder? Wenn es nicht nativ ist, kann ich es dann selbst hinzufügen? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
