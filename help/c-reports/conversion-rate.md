@@ -1,19 +1,19 @@
 ---
 keywords: Targeting
-description: Erfahren Sie, wie Adobe [!DNL Target] Konversionsrate, Steigerung, Konfidenz (statistische Bedeutung) und Konfidenzintervall für jedes Erlebnis anzeigt und berechnet.
+description: Erfahren Sie, wie Adobe [!DNL Target] zeigt die Konversionsrate, Steigerung, Konfidenz und Konfidenzintervall für jedes Erlebnis an und berechnet sie.
 title: Wie kann ich die Konversionsrate, Steigerung und Konfidenzniveau anzeigen?
-feature: Berichte
+feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 68%
+source-wordcount: '2136'
+ht-degree: 58%
 
 ---
 
 # Konversionsrate
 
-Für jedes Erlebnis werden Konversionsrate, Steigerung, Konfidenz (statistische Bedeutung) und Konfidenzintervall in einem Bericht festgehalten.
+Konversionsrate, Steigerung, Konfidenzintervall und Konfidenzintervall werden für jedes Erlebnis gemeldet.
 
 In der folgenden Illustration wird die Diagrammüberschrift für eine Beispielaktivität in dargestellt, wobei die Überschriften [!UICONTROL Konversionsrate], [!UICONTROL Lift] und [!UICONTROL Konfidenz] hervorgehoben wurden.
 
@@ -45,44 +45,25 @@ Steigerung = (Erlebnis-CR - Kontroll-CR) / Kontroll-CR
 
 Wenn die Kontrollinstanz 0 ist, gibt es keine prozentuale Steigerung.
 
-## Konfidenz (statistische Bedeutung)  {#section_35DB6724813D40C7B0808DE18FE595C1}
-
-Diese Zahl zeigt die Wahrscheinlichkeit, dass sich die Ergebnisse bei einem erneut durchgeführten Test verdoppeln würden. Das Vertrauen wird auf 100 % aufgerundet, wenn es größer oder gleich 99,995 % ist.
-
-Siehe [Konfidenzniveau und Konfidenzintervall](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Verkaufsdaten {#section_30A674731BA6440E9BB93C421BE990EE}
 
-AOV-, RPV- und Verkaufsdaten werden für jedes Erlebnis angezeigt, wenn Sie eine Place Order-Mbox (`orderConfirmPage`) eingefügt und sie als Konversions-Mbox ausgewählt haben.
+AOV-, RPV- und Verkaufsdaten werden für jedes Erlebnis angezeigt, wenn Sie eine Bestellung einfügen (`orderConfirmPage`) und als Konversions-Mbox ausgewählt.
 
-## Konfidenzniveau und Konfidenzintervall {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## Konfidenz und Konfidenzintervall {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
-Für jedes Erlebnis werden das Konfidenzniveau und das Konfidenzintervall angezeigt.
-
-Konversionen und kontinuierliche Variablen für Target-basierte Metriken wie Umsatz- und Interaktionsmetriken werden wie folgt berechnet:
-
-* **Konversion:** entweder ja oder nein
-* **Alle anderen:** Werte innerhalb eines bestimmten Bereichs
+Für jedes Erlebnis werden das Konfidenzintervall und das Konfidenzintervall angezeigt.
 
 Sie können Offlineberechnungen für for Target (A4T) durchführen. Dazu ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics]Analytics erforderlich. Weitere Informationen dazu finden Sie weiter unten unter „Durchführen von Offline-Berechnungen für Analytics for Target (A4T)“.
 
-### Konfidenzniveau {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
+### Konfidenz {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-Das *Konfidenzniveau* wird durch den dunkleren Prozentsatz in der Spalte „Konversionsrate“ zu jedem Erlebnis dargestellt.
+Die Konfidenz eines angezeigten Erlebnisses oder Angebots ist eine Wahrscheinlichkeit (ausgedrückt als Prozentsatz), ein weniger extremes Ergebnis zu erzielen als das tatsächlich beobachtete Ergebnis, wenn die Null-Hypothese wahr ist, d. h. wenn es keinen Unterschied in den Konversionsraten zwischen diesem Erlebnis oder Angebot und dem Kontrollerlebnis/Angebot gibt. In Bezug auf p-Werte ist diese angezeigte Konfidenz 1 - p-Wert. Einfach ausgedrückt zeigt eine höhere Konfidenz, dass die Daten weniger konsistent mit der Annahme sind, dass das Kontroll- und Nicht-Kontrollangebot/-Erlebnis über gleiche Konversionsraten verfügen. Das Vertrauen wird auf 100 % aufgerundet, wenn es größer oder gleich 99,995 % ist.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
-Das Konfidenzniveau bzw. die statistische Bedeutung zeigt an, wie wahrscheinlich es ist, dass der Erfolg eines Erlebnisses nicht purer Zufall war. Ein höheres Konfidenzniveau zeigt Folgendes:
+Bevor Sie jedoch eine geschäftliche Entscheidung treffen, sollten Sie warten, bis der Umfang der Proben groß genug ist und für ein oder mehrere Erlebnisse über einen längeren Zeitraum vier Vertrauensbalken angezeigt werden. So können Sie sicher sein, dass die Ergebnisse stabil sind.
 
-* Das Erlebnis verhält sich deutlich anders als das Kontrollerlebnis.
-* Die Erlebnis-Performance kommt nicht nur durch Verzerrungen zustande.
-* Wenn Sie diesen Test erneut ausführen würden, wäre es wahrscheinlich, dass am Ende dieselben Ergebnisse stehen.
-
-Liegt das Konfidenzniveau über 90 oder 95 %, kann das Ergebnis als statistisch bedeutend angesehen werden. Bevor Sie jedoch eine geschäftliche Entscheidung treffen, sollten Sie warten, bis der Umfang der Proben groß genug ist und für ein oder mehrere Erlebnisse über einen längeren Zeitraum vier Vertrauensbalken angezeigt werden. So können Sie sicher sein, dass die Ergebnisse stabil sind.
-
->[!NOTE]
->
->Das Vertrauen wird auf 100 % aufgerundet, wenn es größer oder gleich 99,995 % ist.
 
 ### Konfidenzintervall {#section_F582738DFE1648C78B93D81EBC6CACF7}
 
@@ -90,11 +71,11 @@ Liegt das Konfidenzniveau über 90 oder 95 %, kann das Ergebnis als statistisch 
 >
 >Derzeit wird das Konfidenzintervall nur für binäre Metriken berechnet.
 
-Das *Konfidenzintervall* ist ein Bereich, in dem der wahre Wert auf einer bestimmten Konfidenzniveau gefunden werden kann. Das Konfidenzintervall wird als hellgrauer +/–-Prozentsatz in der Spalte „Konversionsrate“ angezeigt. Im folgenden Beispiel beträgt das Konfidenzintervall für die Steigerung von Erlebnis B plus bzw. minus 15,65 Prozent.
+Die *Konfidenzintervall* ist ein Bereich von Schätzungen, innerhalb dessen der wahre Wert der Metrik auf einem bestimmten Konfidenzniveau gefunden werden kann. Target zeigt immer Konfidenzintervalle von 95 % an. Das Konfidenzintervall wird als hellgrauer +/–-Prozentsatz in der Spalte „Konversionsrate“ angezeigt. Im folgenden Beispiel beträgt das Konfidenzintervall für die Steigerung von Erlebnis B plus bzw. minus 15,65 Prozent.
 
 ![](assets/conversion_rate.png)
 
-**Beispiel:** Der RPV eines Erlebnisses liegt bei 10 USD, das Konfidenzniveau bei 95 % und das **Konfidenzintervall** zwischen 5 und 15 USD. Wenn dieser Test mehrfach durchgeführt würde, läge der RPV in 95 % der Fälle zwischen 5 und 15 USD.
+**Beispiel:** Der beobachtete RPV eines Erlebnisses beträgt 10 USD und 95 % **Konfidenzintervall** zwischen 5 und 15 Dollar beträgt. Unbekannt ist der tatsächliche RPV 12 Dollar. Wenn wir diesen Test dann mehrmals ausgeführt haben, enthalten 95 % der Zeit, in der das zu berechnende Konfidenzintervall die _true_ Wert des RPV von 12 USD.
 
 **Was beeinflusst das Konfidenzintervall?** Die Formel folgt statistischen Standardmethoden zur Berechnung der Konfidenzintervalle.
 
@@ -105,7 +86,7 @@ Das *Konfidenzintervall* ist ein Bereich, in dem der wahre Wert auf einer bestim
 
 Der [heruntergeladene CSV-Bericht](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
 
-Laden Sie zur Berechnung dieser berechneten Metriken die Excel-Datei [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) von Target herunter, um den Aktivitätswert einzugeben, oder überprüfen Sie die von Target](/help/assets/statistical-calculations.pdf) verwendeten statistischen Berechnungen.[
+Um diese berechneten Metriken zu berechnen, laden Sie die [Vollständige Vertrauensberechnung](/help/assets/complete_confidence_calculator.xlsx) Excel-Datei zur Eingabe des Aktivitätswerts oder zur Überprüfung der [Von Target verwendete statistische Berechnungen](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -115,7 +96,7 @@ Laden Sie zur Berechnung dieser berechneten Metriken die Excel-Datei [Complete C
 
 Sie können Offlineberechnungen für A4T durchführen. Dazu ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics] erforderlich.
 
-Für A4T wird eine Student-T-Testberechnung für kontinuierliche Variablen verwendet (anstelle einer Binärmetrik). In Analytics werden Besucher immer verfolgt und jede durchgeführte Aktion wird gezählt. Wenn ein Besucher mehrfach einkauft oder eine Erfolgsmetrik mehrfach besucht, werden diese zusätzlichen Treffer also gezählt. Daher ist die Metrik eine kontinuierliche Variable. Zur Durchführung der Student-t-Test-Berechnung ist die &quot;Quadratsumme&quot;erforderlich, um die Varianz zu berechnen, die im Nenner der t-Statistik verwendet wird. [In diesem Dokument werden die ](/help/assets/statistical-calculations.pdf) Details der verwendeten mathematischen Formeln erläutert. Die Quadratsumme kann von [!DNL Analytics] abgerufen werden. Zum Abrufen der Summe aus Quadratdaten müssen Sie für einen Testzeitraum einen Export auf Besucherebene für die zu optimierende Metrik durchführen.
+Für A4T wird eine Student-T-Testberechnung für kontinuierliche Variablen verwendet (anstelle einer Binärmetrik). In Analytics werden Besucher immer verfolgt und jede durchgeführte Aktion wird gezählt. Wenn ein Besucher mehrfach einkauft oder eine Erfolgsmetrik mehrfach besucht, werden diese zusätzlichen Treffer also gezählt. Daher ist die Metrik eine kontinuierliche Variable. Zur Durchführung der Student-t-Test-Berechnung ist die &quot;Quadratsumme&quot;erforderlich, um die Varianz zu berechnen, die im Nenner der t-Statistik verwendet wird. [In diesem Dokument werden die Details erläutert](/help/assets/statistical-calculations.pdf) der verwendeten mathematischen Formeln. Die Quadratsumme kann abgerufen werden von [!DNL Analytics]. Zum Abrufen der Summe aus Quadratdaten müssen Sie für einen Testzeitraum einen Export auf Besucherebene für die zu optimierende Metrik durchführen.
 
 Wenn Sie beispielsweise eine Optimierung für Seitenansichten pro Besucher durchführen, würden Sie ein Beispiel für die Gesamtzahl Seitenansichten auf Benutzerbasis für einen angegebenen Zeitraum exportieren, möglicherweise für ein paar Tage (dazu benötigen Sie lediglich ein paar tausend Datenpunkte). Anschließend quadrieren Sie die einzelnen Werte und bilden die Summe der Gesamtwerte (die Reihenfolge der Vorgänge muss hier unbedingt beachtet werden). Dieser „Quadratsummen“-Wert wird anschließend im Complete Confidence Calculator verwendet. Verwenden Sie für diese Werte den Bereich „Umsatz“ dieses Arbeitsblatts.
 
@@ -185,26 +166,26 @@ Berichte können nach folgenden Zählmethodiken angezeigt werden:
 >
 >In der Regel werden Zählungen durch Cookies und Sitzungsaktivitäten bestimmt. Wenn Sie jedoch den End-Konversionspunkt einer Aktivität erreichen und die Aktivität dann erneut aufrufen, werden Sie als neuer Teilnehmer und neuer Aktivitätsbesuch gezählt. Dies trifft auch dann zu, wenn sich die Werte Ihrer PCID und der `sessionID` nicht geändert haben.
 
-## Warum empfiehlt [!DNL Target] die Verwendung von Student-T-Tests? {#t-test}
+## Warum [!DNL Target] empfehlen die Verwendung von Student-T-Tests? {#t-test}
 
 A/B-Tests sind Experimente, um den Mittelwert einiger Geschäftsmetriken in einer Kontrollvariante (auch als Erlebnis bezeichnet) mit dem Mittelwert derselben Metrik in einem oder mehreren alternativen Erlebnissen zu vergleichen.
 
-[!DNL Target] empfiehlt die Verwendung von zwei T-Tests für  [Studierende](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.), da diese weniger Annahmen als Alternativen wie z-Tests erfordern und der geeignete statistische Test für paarweisen Vergleich von (quantitativen) Geschäftsmetriken zwischen Kontrollerlebnissen und alternativen Erlebnissen sind.
+[!DNL Target] empfiehlt, [Welch&#39;s t-Test](https://en.wikipedia.org/wiki/Welch%27s_t-test), da diese weniger Annahmen erfordern als Alternativen wie z-Tests und der geeignete statistische Test für paarweise Vergleiche von (quantitativen) Geschäftsmetriken zwischen Kontrollerlebnissen und alternativen Erlebnissen sind.
 
 ### Im Detail
 
 Bei der Durchführung von Online-A/B-Tests wird jeder Benutzer/Besucher zufällig einer einzelnen Variante zugewiesen. Anschließend nehmen wir Messungen der Geschäftsmetriken vor, die von Interesse sind (z. B. Konversionen, Bestellungen, Umsatz usw.) für Besucher in den einzelnen Varianten. Der verwendete statistische Test testet dann die Hypothese, dass die mittlere Geschäftsmetrik (z. B. Konversionsrate, Bestellungen pro Benutzer, Umsatz pro Benutzer usw.) entspricht der Kontrollgruppe und einer bestimmten alternativen Variante.
 
-Obwohl die Geschäftsmetrik selbst möglicherweise entsprechend einer beliebigen Verteilung verteilt wird, sollte die Verteilung des Mittelwerts dieser Metrik (innerhalb jeder Variante) über das [Zentrales Grenzwertsystem](https://en.wikipedia.org/wiki/Central_limit_theorem) in eine normale Verteilung konvertiert werden. Beachten Sie, dass zwar keine Garantie dafür besteht, wie schnell sich diese Stichprobenverteilung des Mittelwerts auf den Normalwert annähert, diese Bedingung jedoch in der Regel aufgrund des Umfangs der Besucher bei Online-Tests erreicht wird.
+Obwohl die Geschäftsmetrik selbst möglicherweise entsprechend einer beliebigen Verteilung verteilt wird, sollte die Verteilung des Mittelwerts dieser Metrik (innerhalb jeder Variante) über die [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem). Beachten Sie, dass zwar keine Garantie dafür besteht, wie schnell sich diese Stichprobenverteilung des Mittelwerts auf den Normalwert annähert, diese Bedingung jedoch in der Regel aufgrund des Umfangs der Besucher bei Online-Tests erreicht wird.
 
-Bei dieser Normalität des Mittelwerts kann nachgewiesen werden, dass die zu verwendende Teststatistik einer t-Verteilung folgt, da dies das Verhältnis eines normal verteilten Werts (die Differenz der Mittel der Geschäftsmetrik) zu einem Skalierungsbegriff ist, der auf einer Schätzung aus den Daten basiert (der Standardfehler der Mitteldifferenz). Der Student-t-Test **ist dann der geeignete Hypothesentest, da die Teststatistik einer t-Verteilung folgt.**
+Bei dieser Normalität des Mittelwerts kann nachgewiesen werden, dass die zu verwendende Teststatistik einer t-Verteilung folgt, da dies das Verhältnis eines normal verteilten Werts (die Differenz der Mittel der Geschäftsmetrik) zu einem Skalierungsbegriff ist, der auf einer Schätzung aus den Daten basiert (der Standardfehler der Mitteldifferenz). Die **t-Test** ist dann der geeignete Hypothesentest, da die Teststatistik einer t-Verteilung folgt.
 
 ### Warum keine anderen Tests verwendet werden
 
-Ein **z-test** ist unangemessen, da im typischen A/B-Testszenario der Nenner der Teststatistik nicht aus einer bekannten Varianz abgeleitet ist und stattdessen aus den Daten geschätzt werden muss.
+A **z-Test** ist technisch unangemessen, da im typischen A/B-Testszenario der Nenner der Teststatistik nicht aus einer bekannten Varianz abgeleitet wurde und stattdessen anhand der Daten geschätzt werden muss. Bei ausreichend großen Stichprobengrößen sind die z-Test- und t-Test jedoch identisch.
 
-**Chi-squared** Tests werden nicht verwendet, da diese geeignet sind, um zu bestimmen, ob eine qualitative Beziehung zwischen zwei Varianten besteht (d. h. eine Null-Hypothese, dass es keinen Unterschied zwischen Varianten gibt). T-Tests eignen sich besser für das Szenario des Vergleichs von Metriken mit _quantitativ_.
+**Chi-squared-Tests** werden nicht verwendet, da diese zur Bestimmung der qualitativen Beziehung zwischen zwei Varianten geeignet sind (d. h. einer Nullhypothese, dass es keinen Unterschied zwischen Varianten gibt). T-Tests eignen sich besser für das Szenario von _quantitativ_ Metriken vergleichen.
 
-Der **Mann-Whitney U-Test** ist ein nicht parametrischer Test, der geeignet ist, wenn die Stichprobenverteilung der durchschnittlichen Geschäftsmetrik (für jede Variante) normalerweise nicht verteilt wird. Wie bereits erwähnt, gilt in Anbetracht des Umfangs des mit Online-Tests verbundenen Traffics in der Regel das zentrale Limit-Theorem, sodass der t-Test sicher angewendet werden kann.
+Die **Mann-Whitney-U-Test** ist ein nichtparametrischer Test, der geeignet ist, wenn die Stichprobenverteilung der durchschnittlichen Geschäftsmetrik (für jede Variante) normalerweise nicht verteilt wird. Wie bereits erwähnt, gilt in Anbetracht des Umfangs des mit Online-Tests verbundenen Traffics in der Regel das zentrale Limit-Theorem, sodass der t-Test sicher angewendet werden kann.
 
-Komplexere Methoden wie **ANOVA** (die T-Tests auf mehr als zwei Varianten verallgemeinern) können angewendet werden, wenn ein Test mehr als zwei Erlebnisse aufweist (&quot;A/Bn-Tests&quot;). ANOVA beantwortet jedoch die Frage &quot;ob alle Varianten denselben Mittelwert haben&quot;, während wir im typischen A/Bn-Test mehr daran interessiert sind, welche spezifische Variante _am besten ist._ In [!DNL Target] wenden wir daher regelmäßige T-Tests an, bei denen jede Variante mit einer Kontrolle verglichen wird, mit einer Bonferroni-Korrektur, um mehrere Vergleiche zu berücksichtigen.
+Komplexere Methoden wie **ANOVA** (die T-Tests auf mehr als zwei Varianten verallgemeinern) können angewendet werden, wenn ein Test mehr als zwei Erlebnisse aufweist (&quot;A/Bn-Tests&quot;). ANOVA beantwortet jedoch die Frage &quot;ob alle Varianten denselben Mittelwert haben&quot;, während wir uns im typischen A/Bn-Test mehr für _welche spezifische Variante_ ist am besten. In [!DNL Target]Daher wenden wir regelmäßige T-Tests an, bei denen jede Variante mit einer Kontrolle verglichen wird, wobei eine Bonferroni-Korrektur vorgenommen wird, um mehrere Vergleiche zu berücksichtigen.
