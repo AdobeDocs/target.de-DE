@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b063432da8690a25c3178c286075b7c930fe4891
+source-git-commit: 885510848b141b646971658e2fd20440d2344efc
 workflow-type: tm+mt
-source-wordcount: '2976'
-ht-degree: 97%
+source-wordcount: '3017'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 16. November | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Aktualisierung der &quot;Wie wirken sich die Durchsetzungsrichtlinien für SameSite-Cookies in Google auf VEC und EEC aus?&quot; enthält Informationen zur neuesten Version der Helper-Erweiterung. |
+| 16. November | [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Es wurden Informationen zu den Beschränkungen für Datei-Uploads mit einem Link zu [Informationen zur Datendatei und den Datenquellen für Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) im *Komponentenleitfaden für die zentrale Benutzeroberfläche von Experience Cloud*. |
+|  | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Aktualisierung der &quot;Wie wirken sich die Durchsetzungsrichtlinien für SameSite-Cookies in Google auf VEC und EEC aus?&quot; enthält Informationen zur neuesten Version der Helper-Erweiterung. |
 |  | [Visual Experience Composer Helper-Erweiterung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Der Abschnitt &quot;Abrufen und Installieren der VEC Helper-Browsererweiterung&quot;wurde aktualisiert. |
 | 12. November | [Integrieren [!DNL Recommendations] mit E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Es wurden neue einleitende Informationen hinzugefügt. |
 | 28. Oktober | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu den folgenden Versionen hinzugefügt:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
