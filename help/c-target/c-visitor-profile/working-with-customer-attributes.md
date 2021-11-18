@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mithilfe von Unternehmenskundendaten aus eine
 title: Was sind Kundenattribute und wie verwende ich sie?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 970d0fd90d517b14fff7a36fd4406a37932d8d2e
+source-git-commit: a600559cd4aa6bf4335af4ef1143472183a998ff
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1575'
 ht-degree: 33%
 
 ---
@@ -31,7 +31,7 @@ Beachten Sie die folgenden Informationen bei der Arbeit mit Kundenattributen und
 * Beachten Sie die Einschränkungen bei Datei-Uploads, die in [Informationen zur Datendatei und den Datenquellen für Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) im *Komponentenleitfaden für die zentrale Benutzeroberfläche von Experience Cloud*. Best Practice:
 
    * Hochladen einzelner großer Dateien (innerhalb der [festgelegte Grenzwerte](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)). Einzelne große Dateien werden gegenüber mehreren kleineren Dateien bevorzugt.
-   * Wenn Sie den Upload in mehrere Dateien aufteilen müssen, stellen Sie sicher, dass die Dateien vollständig verarbeitet sind, bevor Sie neue Dateien senden. Stellen Sie sicher, dass jede Datei in einem Batch vor dem Senden des nächsten Batches vollständig verarbeitet wurde.
+   * Wenn Sie den Upload in mehrere Dateien aufteilen müssen, stellen Sie sicher, dass die Dateien vollständig verarbeitet sind, bevor Sie neue Dateien senden. Stellen Sie sicher, dass jede Datei in einem Batch vollständig verarbeitet wurde, bevor Sie die nächste Datei im Batch senden.
 
 * [!DNL Adobe] garantiert nicht, dass 100 % der Kundenattributdaten (Besucherprofildaten) aus CRM-Datenbanken in die [!DNL Experience Cloud] und somit für das Targeting in [!DNL Target]. Beim aktuellen Design besteht die Möglichkeit, dass ein kleiner Anteil der Daten (bis zu 0,1 % der großen Produktions-Batches) nicht integriert wird.
 * Die Lebensdauer der aus dem [!DNL Experience Cloud] nach [!DNL Target] hängt von der Lebensdauer des Besucherprofils ab, die standardmäßig 14 Tage beträgt. Weitere Informationen finden Sie unter  [Lebensdauer des Besucherprofils](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
