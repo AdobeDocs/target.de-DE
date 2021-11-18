@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 68%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Wenn Ihre Seite nicht den erwarteten Inhalt anzeigt, gibt es ein paar Schritte, 
 * Verwenden Sie zur Fehlerbehebung bei [!DNL Target]-Anforderungen mboxTrace oder mboxDebug.
 * Mit Adobe Experience Cloud Debugger erhalten Sie ein intuitives Tool, das für die Fehlerbehebung von [!DNL Target]-Anforderungen fast die gleichen Informationen wie mboxDebug bereitstellt.
 
-mboxDebug ist insbesondere bei der Einrichtung von [!DNL Target] auf Ihrer Seite, um sicherzustellen, dass die Target-Anforderung ausgelöst und das Cookie gesetzt wird. Jedoch ist mboxDebug nicht so detailliert, wie es für die Fehlerdiagnose bei der Inhaltsbereitstellung nützlich wäre. Wenn Ihre Aktivität nicht auf Ihrer Seite erscheint oder unerwünschter Inhalt eingeblendet wird, verwenden Sie mboxTrace, um die Seite ausführlich zu untersuchen und Fehler zu diagnostizieren.
+mboxDebug ist insbesondere bei der Einrichtung von [!DNL Target] auf Ihrer Seite hilfreich. Es stellt sicher, dass die Zielgruppen-Anforderung ausgelöst und das Cookie eingerichtet wird. Jedoch ist mboxDebug nicht so detailliert, wie es für die Fehlerdiagnose bei der Inhaltsbereitstellung nützlich wäre. Wenn Ihre Aktivität nicht auf Ihrer Seite erscheint oder unerwünschter Inhalt eingeblendet wird, verwenden Sie mboxTrace, um die Seite ausführlich zu untersuchen und Fehler zu diagnostizieren.
 
 ## Abrufen des Autorisierungstokens zur Verwendung mit Debuggingwerkzeugen {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -65,7 +65,7 @@ Die folgenden Parameter stehen zur Verfügung:
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-Die Ausgabe zeigt detaillierte Informationen zu Ihrem Inhalt an. mboxTrace zeigt Details zu Ihrer Kampagne, Ihrer Aktivität und Ihrem Profil an. Außerdem werden eine Momentaufnahme des Profils vor der Ausführung sowie eine Momentaufnahme der Änderungen nach der Ausführung angezeigt. Es zeigt außerdem, welche Kampagnen oder Aktivitäten für jeden Ort ausgewertet wurden.
+Die Ausgabe zeigt detaillierte Informationen über Ihren Inhalt an. mboxTrace zeigt Details über Ihre Kampagne bzw. Aktivität und Ihr Profil an. Außerdem bietet es eine Momentaufnahme des Profils vor der Ausführung sowie eine Momentaufnahme der Änderungen nach der Ausführung. Es zeigt außerdem, welche Kampagnen oder Aktivitäten für jeden Ort ausgewertet wurden.
 
 Ein Teil der Informationen umfasst übereinstimmende und nicht übereinstimmende Segment- und Ziel-IDs:
 
@@ -114,7 +114,7 @@ Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Proble
 
 Weitere Informationen finden Sie in den Schulungsvideos unten:
 
-Weitere Informationen finden Sie unter [&quot;at.js&quot;mit dem Adobe Experience Cloud Debugger debuggen](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+Weitere Informationen finden Sie unter [Debugging von at.js mit Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Topverkäufe werden nicht in Recommendations angezeigt.   {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -132,11 +132,11 @@ Target unterstützt IE 8 nicht mehr.
 
 Wenn Ihre Site eine Unterdomäne besitzt, z. B. [!DNL us.domain.com], das Target-Cookie aber auf [!DNL domain.com] gesetzt werden muss (anstatt auf [!DNL us.domain.com]), dann müssen Sie die Einstellung `cookieDomain` überschreiben. Weitere Informationen finden Sie unter [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
-## Target-Inhalt flackert oder wird nicht angezeigt, wenn ein Element auch Teil der Adobe Experience Manager-Personalisierung ist. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## Der Target-Inhalt flackert oder wird nicht angezeigt, wenn ein Element ebenfalls Teil einer Personalisierung von Adobe Experience Manager ist. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 Wenn ein DOM-Element zum Adobe Experience Manager-(AEM)-Personalisierungstargeting und zu einer Target-Aktivität gehört, flackert der Target-Inhalt möglicherweise, oder er wird nicht angezeigt.
 
-Um dieses Problem zu beheben, können Sie AEM Personalisierung auf Seiten deaktivieren, auf denen Target ausgeführt wird.
+Um dies zu beheben, können Sie die AEM-Personalisierung für Seiten deaktivieren, auf denen Target ausgeführt wird.
 
 ## Umleitungs- und Remote-Angebote können aufgrund einer ungültigen URL nicht bereitgestellt werden.   {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -150,43 +150,43 @@ Bei Remote-Angeboten kann die [!DNL Target]-Antwort `/* invalid remote offer URL
 
 Sie können die [!DNL Target]-Antwort im Browser oder mit mboxTrace überprüfen. Weitere Informationen zu gültigen URLs finden Sie unter [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
 
-## [!DNL Target] -Anfragen werden nicht auf meiner Site ausgelöst.
+## [!DNL Target]-Anforderungen werden auf meiner Site nicht ausgelöst.
 
 at. js löst keine Target-Anforderungen aus, wenn Sie einen ungültigen Doctype verwenden. at.js erfordert den Doctype HTML 5.
 
-## Stellen Sie sicher, dass [!DNL Target] -Aktivitäten verarbeiten URLs mit Abfragezeichenfolgenparametern korrekt. {#query-strings}
+## Stellen Sie sicher, dass [!DNL Target]-Aktivitäten URLs mit Abfragezeichenfolgen-Parametern korrekt verarbeiten. {#query-strings}
 
-Die [!UICONTROL Aktivitäts-URL] bestimmt die Seite, die Besucher für die Aktivität qualifiziert, und rendert die Aktivitätserlebnisse für Benutzer. Wenn Sie bei der Aktivitätserstellung dazu aufgefordert werden, stellt das Eingeben der vollständigen URL nicht immer sicher, dass der Inhalt auf dieser Website bereitgestellt wird, insbesondere bei URLs, die Abfragezeichenfolgenparameter enthalten.
+Die [!UICONTROL Aktivitäts-URL] bestimmt die Seite, die Besucher für die Aktivität qualifiziert, und rendert die Aktivitätserlebnisse für Benutzer. Wenn Sie bei der Aktivitätserstellung dazu aufgefordert werden, stellt das Eingeben der vollständigen URL nicht immer sicher, dass der Inhalt auf dieser Website auch bereitgestellt wird, insbesondere bei URLs, die Abfragezeichenfolgen-Parameter enthalten.
 
-Standardmäßig wird die [!UICONTROL Visual Experience Composer] (VEC) öffnet die Seite, die in Ihrer [Visual Experience Composer-Einstellungen](/help/administrating-target/visual-experience-composer-set-up.md). Sie können bei der Erstellung einer Aktivität auch eine andere Seite angeben.
+Standardmäßig öffnet [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Voreinstellungen von Visual Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md) angegeben ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
-Um nach dem Öffnen des VEC eine andere Seite anzuzeigen, klicken Sie auf die **[!UICONTROL Zahnradsymbol konfigurieren]** > Auswählen **[!UICONTROL Seitenbereitstellung]** > und geben Sie dann die gewünschte URL im [!UICONTROL Aktivitäts-URL] -Feld.
+Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf das **[!UICONTROL Zahnradsymbol zum Konfigurieren]**, wählen Sie **[!UICONTROL Seitenbereitstellung]** aus und geben Sie im Feld [!UICONTROL URL der Aktivität] die URL an.
 
-![Benutzeroberfläche für Seitenbereitstellungseinstellungen konfigurieren](assets/configure-page-delivery.png)
+![Konfigurieren der Benutzeroberfläche für Seitenbereitstellungseinstellungen](assets/configure-page-delivery.png)
 
-Was aber, wenn die URL Abfragezeichenfolgenparameter enthält? Funktioniert es und zeigt den personalisierten Inhalt an? In diesem Szenario können Sie unabhängig von Ihrer Zielgruppe zusätzlich zur Basis-URL Vorlagenregeln hinzufügen, um Ihre Abfrageparameter zu definieren.
+Was aber, wenn die URL Abfragezeichenfolgen-Parameter enthält? Funktioniert es und zeigt den personalisierten Inhalt an? In diesem Szenario können Sie unabhängig von Ihrer Zielgruppe zusätzlich zur Basis-URL Vorlagenregeln hinzufügen, um Ihre Abfrageparameter zu definieren.
 
 Die folgenden Optionen können verwendet werden, um zusätzliche Vorlagenregeln einzuschließen:
 
-### Option 1: Replizieren Sie die URL und behalten Sie sie in der Vorlagenregel bei mit der Option &quot;enthält&quot;.
+### Option 1: Replizieren Sie die URL und behalten Sie sie in der Vorlagenregel bei – mit der Option „contains“.
 
-Diese Option stellt sicher, dass diese URL für die Aktivität geeignet ist. Beachten Sie jedoch, dass an sie Ecken-Fälle angehängt sind, die Ihre Berichtsdaten mit zusätzlichen Datensätzen zu URLs beeinflussen können, die die Basis-URL enthalten.
+Diese Option stellt sicher, dass diese URL für die Aktivität geeignet ist. Beachten Sie jedoch, dass damit Sonderfälle verbunden sind, die Ihre Berichtsdaten mit zusätzlichen Datensätzen zu URLs beeinflussen können, die die Basis-URL enthalten.
 
-In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers` und zusätzliche Vorlagenregeln &quot;enthalten&quot;dieselbe URL, getrennt durch einen ODER-Operator:
+In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers`, und zusätzliche Vorlagenregeln „enthalten“ dieselbe URL, getrennt durch einen OR-Operator:
 
-![URL in Vorlagenregeln replizieren](assets/option1.png)
+![Replizieren einer URL in Vorlagenregeln](assets/option1.png)
 
-### Option 2: Beschränken Sie die URL-Bedingung &quot;enthält&quot;nur mit der Abfragezeichenfolge.
+### Option 2: Beschränken Sie die URL-Bedingung „contains“ auf die Abfragezeichenfolge.
 
-Der in der vorherigen Option beschriebene Eckenfall wird in dieser Option angewendet, aber hier ist die bedingte Einrichtung auf die Abfragezeichenfolge beschränkt.
+Der in der vorherigen Option beschriebene Sonderfall wird in dieser Option angewendet, aber hier ist die bedingte Einrichtung auf die Abfragezeichenfolge beschränkt.
 
-In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers` und zusätzliche Vorlagenregeln &quot;enthält&quot;nur die Abfragezeichenfolge, getrennt durch einen ODER-Operator:
+In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers` und zusätzliche Vorlagenregeln „enthalten“ nur die Abfragezeichenfolge, getrennt durch einen OR-Operator:
 
 ![Vorlagenregel enthält nur die Abfragezeichenfolge](assets/option2.png)
 
-### Option 3: Verwenden Sie anstelle der Zielgruppenbestimmung der vollständigen URL einen bestimmten Teil der URL.
+### Option 3: Verwenden Sie anstelle der vollständigen URL einen bestimmten Teil der URL.
 
-In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers` und zusätzliche Vorlagenregeln festlegen, [!UICONTROL Abfrage] mit [!UICONTROL type] > [!UICONTROL is (Groß-/Kleinschreibung beachten)] > type=Summers%20Offers, durch einen ODER-Operator getrennt:
+In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers`, wobei zusätzliche Vorlagenregeln eine [!UICONTROL Abfrage] festlegen mit [!UICONTROL Typ] > [!UICONTROL ist (von Schreibweise abhängig)] > type=Summers%20Offers, durch einen OR-Operator getrennt:
 
 ![Vorlagenregel, die einen bestimmten Teil der URL nutzt](assets/option3.png)
 
