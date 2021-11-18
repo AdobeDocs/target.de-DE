@@ -4,9 +4,9 @@ description: Details zu Änderungen in den einzelnen Versionen der Adobe anzeige
 title: Was ist in jeder Version von at.js enthalten?
 feature: at.js
 role: Developer
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4278'
+source-wordcount: '4280'
 ht-degree: 88%
 
 ---
@@ -435,7 +435,7 @@ Folgende Verbesserungen und Fehlerbehebungen sind in Version 0.9.6 von [!DNL at
 **Datum:** 14. Juli 2016
 
 * Stellt für at.js eine Zeitüberschreitung des Besucher-ID-Diensts bereit, die von der Zeitüberschreitung des Diensts selbst unabhängig ist.
-* Behebt einen Fehler in Version 0.9.0, der sich auf Implementierungen mit at.js auf einigen Seiten und mbox.js auf anderen Seiten auswirkte.
+* Behebung eines Problems in Version 0.9.0, das sich auf Implementierungen mit at.js auf einigen Seiten und mbox.js (jetzt nicht mehr unterstützt) auf anderen Seiten auswirkte.
 * Sollten Sie Adobe Analytics als Berichtsquelle für Ihre Aktivität verwenden, müssen Sie bei der Erstellung einer Aktivität und bei der Verwendung von mbox.js Version 61 (oder neuer) oder at.js Version 0.9.1 (oder neuer) keinen Trackingserver angeben. Die at.js-Bibliothek sendet automatisch Trackingserverwerte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
 
 ## „at.js“-Version 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}

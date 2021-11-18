@@ -1,14 +1,13 @@
 ---
 keywords: Variablen; Profile; Parameter; eingebaute Profile; Methoden; URL-Variablen; Geo-Profile; Drittanbieterprofile; Mbox-Variablen; Kampagnenvariablen; Kundenattribute
-description: Ansicht einer Liste verschiedener Profil, Variablen und Parameter, die in Profil-Skripten in Adobe Target nützlich sind.
-title: Welche Profil, Variablen und Parameter werden in der Zielgruppe verwendet?
-feature: Zielgruppen
+description: Zeigen Sie eine Liste verschiedener Profile, Variablen und Parameter an, die in Profilskripten in Adobe Target nützlich sind.
+title: Welche Profile, Variablen und Parameter werden in Target verwendet?
+feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 88%
+source-wordcount: '592'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +29,7 @@ Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten n
 | user.daysSinceLastVisit |  |
 | user.browser | Der Benutzeragent |
 | user.header | Alle `user.header`-Profile werden von den Kopfzeilendaten einer Mbox-Anfrage integriert |
-| user.header(&#39;x-forwarded-for&#39;) | Die öffentliche IP-Adresse der Netzwerkverbindung des Besuchers.<br>Sie können dies auf verschiedenen Wegen erreichen, z. B. [whatismyip. com](https://www.whatismyip.com/). Die IP-Adresse ist nicht die NAT-Adresse (interne Adresse), die mit 10., 192.168. oder 172 beginnt.<br>Hinweis: user.header(&#39;x-cluster-client-ip&#39;) wurde nicht mehr unterstützt. |
+| user.header(&#39;x-forwarded-for&#39;) | Die öffentliche IP-Adresse der Netzwerkverbindung des Besuchers.<br>Sie können dies auf verschiedenen Wegen erreichen, z. B. [whatismyip. com](https://www.whatismyip.com/). Die IP-Adresse ist nicht die NAT-Adresse (interne Adresse), die mit 10., 192.168. oder 172 beginnt.<br>Hinweis: user.header(&#39;x-cluster-client-ip&#39;) wird nicht mehr unterstützt. |
 | user.header(&#39;host&#39;) | Website-Hostname |
 | user.header(&#39;cookie&#39;) | Cookie-Daten des Besuchers |
 | user.header(&#39;user-agent&#39;) | Benutzeragent des Benutzer-Browsers |
@@ -43,7 +42,7 @@ Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten n
 | user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | Aus Profilskripten erstellte beständige Profilattribute. Verweist auch auf „Systemprofile“ wie geografischer Standort, Besucherzahlen usw. |
-| profile.get(&#39;param_name&#39;) | Die richtige Methode zum Abrufen eines Profil-Parameters, der in einem Profil-Skript verwendet werden soll, ist die Profil.get(&#39;param_name&#39;)-Methode. |
+| profile.get(&#39;param_name&#39;) | Die richtige Methode zum Abrufen eines Profilparameters, der in einem Profilskript verwendet werden soll, ist die Methode profile.get(&#39;param_name&#39;) . |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | mbox-Parameter, die aufgrund ihres Profil.  -Präfix als beständig festgelegt wurden. |
 | „profile.browserTime“ | Die lokale Browserzeit des Besuchers. Erstellen Sie für die Systemzeit ein neues Datenobjekt im Profilskript. |
@@ -85,11 +84,11 @@ Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten n
 | Parameter, die mit Bestellaufgabe-Mboxes weitergegeben werden:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
 | mbox3rdPartyId | Ein Parameter „mbox“ zum Synchronisieren einer Kunden-ID mit der mboxPC-ID in Target. Eine Kunden-ID ist eine ID, die Ihr Unternehmen zum Verfolgen von Besuchern verwendet, zum Beispiel eine CRM-ID, eine Mitglieds-ID oder etwas Ähnliches. Diese ID kann anschließend verwendet werden für das Hinzufügen von Informationen über die Profil-APIs und  [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | Bei jeder Mbox-Anfrage wird der Seite ein Wert zugewiesen. |
-| mboxDebug | Wird nur für Debug-Informationen verwendet. Wird der Seiten-URL hinzugefügt, auf der mbox.js danach sucht. |
+| mboxDebug | Wird nur für Debug-Informationen verwendet. Zur Seiten-URL hinzugefügt, nach der at.js sucht. |
 | mboxOverride.browserIp | Legt einen anderen Geo-Standort als den tatsächlichen Standort fest, damit Sie sehen können, wie etwas an einem anderen Standort aussehen würde.<br>**Hinweis:** mboxOverride-Parameter sollte nur beim Testen der Aktivität verwendet werden, aber nicht bei der Produktion. Die Verwendung von MboxOverride-Parametern kann bei der Verwendung von [Analytics für Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) zu Berichtsdiskrepanzen führen. Sie sollten während des Testens den [Aktivitäts-QA-Modus](/help/c-activities/c-activity-qa/activity-qa.md) verwenden, um sicherzustellen, dass Ihre Aktivität wie erwartet funktioniert, bevor Sie die Aktivität in Ihre Live-Umgebung versetzen. |
 
 ## Kundenattribute {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
 Kundenattribute können in Profilskripts referenziert werden, formatiert als `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Diese Attribute stehen auch als Tokens in Profilskripts und direkt in Angeboten zur Verfügung, ohne dass zunächst ein Profilskript erforderlich ist. Das Token sollte folgende Form aufweisen: `${crs.datasourceName.attributeName}`. Beachten Sie, dass Leerzeichen in `datasourceName` aus jedem API-Aufruf entfernt werden sollten.
+Diese Attribute stehen auch als Tokens in Profilskripts und direkt in Angeboten zur Verfügung, ohne dass zunächst ein Profilskript erforderlich ist. Das Token sollte folgende Form aufweisen: `${crs.datasourceName.attributeName}`. Beachten Sie, dass Leerzeichen in `datasourceName` sollte bei jedem API-Aufruf entfernt werden.

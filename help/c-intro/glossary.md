@@ -1,12 +1,12 @@
 ---
 description: Was bedeuten die in Adobe  [!DNL Target]  verwendeten Begriffe? Hier finden Sie Definitionen allgemeiner Begriffe, die Sie kennen sollten, um  [!DNL Target] optimal nutzen zu können.
 title: Wo finde ich die in Target verwendeten Begriffe und deren Definitionen?
-feature: Überblick
+feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
-workflow-type: ht
-source-wordcount: '2417'
-ht-degree: 100%
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+workflow-type: tm+mt
+source-wordcount: '2425'
+ht-degree: 99%
 
 ---
 
@@ -128,7 +128,7 @@ Die Zeitdauer, während der eine Aktivität ausgeführt wird, von Startdatum und
 
 **Dynamischer Inhalt**
 
-Kann Teil jeder Art von Test oder Aktivität sein. Es ist keine zusätzliche Programmierung erforderlich. Die Benutzersitzung in Ihrer Domäne wird beibehalten.
+Kann Teil jeder Art von Test oder Aktivität sein. Es ist keine zusätzliche Programmierung erforderlich. Die Benutzersitzung in Ihrer Domain wird beibehalten.
 
 **Dynamische mbox**
 
@@ -228,7 +228,11 @@ Ein spezifischer Inhaltsbereich auf einer Seite, der oftmals in einem einzelnen 
 
 „Marketing-Box“, der Bereich auf Ihrer Webseite, in dem Inhalt angezeigt wird und das Besucherverhalten aufgezeichnet wird. Es gibt auch Mboxes, die gar nichts anzeigen. Sie könnten beispielsweise den Fortschritt eines Besuchers auf der Site verfolgen. Oder sie könnten nachverfolgen, ob der Besucher eine bestimmte Erfolgsmetrik erfüllt, z. B. einen Artikel zum Warenkorb hinzufügt oder einen Kauf abschließt. Diese Art von Mbox ist eine *Konversions-Mbox*.
 
-**Parameter „Mbox“**
+**mbox.js**
+
+A [!DNL Target] JavaScript-Implementierungsbibliothek, die nicht mehr unterstützt wird.
+
+**Parameter „mbox“**
 
 Wird über die Seite weitergegeben, nicht über die URL. Diese Parameter werden verwendet, um Daten von der Datenbank weiterzugeben, Vertriebsdaten zu tracken und um Adobe Recommendations auszuführen. Auch als Seitenparameter bezeichnet.
 

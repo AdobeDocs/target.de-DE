@@ -2,11 +2,11 @@
 keywords: Bekannte Probleme;gelöste Probleme;Versionshinweise;Fehler;Probleme;Fehlerbehebungen
 description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Target, einschließlich Informationen zur Problemumgehung. Gelöste Probleme werden in den Abschnitt „Gelöst“ verschoben.
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
-feature: Versionshinweise
+feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4505'
+source-wordcount: '4504'
 ht-degree: 98%
 
 ---
@@ -25,9 +25,9 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
 ### Traffic-Verteilung von Aktivitäten mit automatisierter Zuordnung mithilfe von A4T {#aa-a4t}
 
-In einigen Fällen kann die Traffic-Verteilung von [!UICONTROL Aktivitäten mit automatischer Zuordnung], die [!UICONTROL Analytics for Target] (A4T) verwenden, von der gemeldeten Konversionsrate der einzelnen Erlebnisse abweichen. Dies tritt häufiger bei Aktivitäten mit einem hohen Anteil an rückkehrendem Besucher-Traffic auf. Betroffene Kunden werden über betroffene Aktivitäten benachrichtigt.
+In einigen Fällen kann die Traffic-Verteilung von [!UICONTROL Aktivitäten mit automatischer Zuordnung], die [!UICONTROL Analytics for Target] (A4T) verwenden, von der gemeldeten Konversionsrate der einzelnen Erlebnisse abweichen. Dies tritt häufiger bei Aktivitäten mit einem hohen Anteil an Traffic durch wiederkehrende Besucher auf. Betroffene Kunden werden über betroffene Aktivitäten benachrichtigt.
 
-Bis dieses Problem behoben ist, verwenden Sie [!UICONTROL Automatische Zuordnung] mit standardmäßigen [!DNL Target]-Berichten oder verwenden Sie standardmäßige A/B-Tests mit [!DNL Analytics]-Berichten als Alternative zu [!UICONTROL Automatische Zuordnung] mit [!DNL Analytics]-Berichten. (Die 131 populärsten)
+Bis dieses Problem behoben ist, verwenden Sie die [!UICONTROL automatisierte Zuordnung] mit standardmäßigen [!DNL Target]-Berichten oder verwenden Sie standardmäßige A/B-Tests mit [!DNL Analytics]-Berichten als Alternative zur [!UICONTROL automatisierten Zuordnung] mit [!DNL Analytics]-Berichten. (Die 131 populärsten)
 
 ### Analytics for Adobe Target (A4T)-Metriken für automatische Zuordnungs- und Targeting-Aktivitäten
 
@@ -244,9 +244,9 @@ Dieses Problem wurde in Target-Version 19.7.1 behoben.
 
 Bei einem neu bereitgestellten Mandanten ist das Feld [!UICONTROL Globale Mbox automatisch erstellen] auf der Registerkarte „Implementierung“ ([!UICONTROL Administration > Implementierung]) standardmäßig auf „false“ gesetzt.
 
-Beim ersten Herunterladen von mbox.js nach der Bereitstellung ist das Feld [!UICONTROL Globale Mbox automatisch erstellen] in der heruntergeladenen Datei mbox.js und im [!DNL Target]-Backend auf „false“ festgelegt. Es wird jedoch weiterhin als „false“ auf der Seite [!UICONTROL Implementierung] der Benutzeroberfläche angezeigt, bis die Seite aktualisiert wird (nach dem Aktualisieren der Seite lautet der Status „true“).
+Wenn at.js nach der Bereitstellung zum ersten Mal heruntergeladen wird, wird die [!UICONTROL Globale Mbox automatisch erstellen] in der heruntergeladenen at.js-Datei und im [!DNL Target] Backend, wird jedoch weiterhin als &quot;false&quot;auf der [!UICONTROL Implementierung] -Seite in der Benutzeroberfläche angezeigt, bis die Seite aktualisiert wird (nach dem Aktualisieren der Seite lautet der Status &quot;true&quot;).
 
-at.js lädt `global_mbox_autocreate = false` mit einem neu bereitgestellten Mandanten herunter. Wenn zuerst mbox.js heruntergeladen wird, wird globale\_mbox\_autocreate auf „true“ gesetzt und at.js wird ebenfalls mit `global_mbox_autocreate = true` heruntergeladen. (TGT-15929)
+at.js lädt `global_mbox_autocreate = false` mit einem neu bereitgestellten Mandanten herunter. Wenn mbox.js (jetzt nicht mehr unterstützt) zuerst heruntergeladen wurde, wird global\_mbox\_autocreate auf &quot;true&quot;gesetzt und at.js wird ebenfalls mit `global_mbox_autocreate = true`. (TGT-15929)
 
 ### Unterstützung für Enterprise-Berechtigungen in [!DNL Target]-APIs {#api}
 
@@ -355,7 +355,7 @@ Dieses Problem wurde in Target-Version 18.5.1 (22. Mai 2018) behoben.
 
 ### at.js {#at-js-4}
 
-Der Algorithmus zum Extrahieren der Domäne der obersten Ebene, die beim Speichern von Cookies verwendet werden sollte, hat sich in at.js-Version 0.9.6 geändert. Aufgrund dieser Änderung können keine Cookies für Adressen gespeichert werden, die IP verwenden. Meist werden IP-Adressen zu Testzwecken verwendet, aber als Umgehungslösungen können Sie DNS-Einträge verwenden, die Host-Datei in einem lokalen Feld anpassen oder die at.js-Funktion targetGlobalSettings() verwenden, um ein Codefragment zur Unterstützung von IP-Adressen einzufügen.
+Der Algorithmus zum Extrahieren der Domain der obersten Ebene, die beim Speichern von Cookies verwendet werden sollte, hat sich in at.js-Version 0.9.6 geändert. Aufgrund dieser Änderung können keine Cookies für Adressen gespeichert werden, die IP verwenden. Meist werden IP-Adressen zu Testzwecken verwendet, aber als Umgehungslösungen können Sie DNS-Einträge verwenden, die Host-Datei in einem lokalen Feld anpassen oder die at.js-Funktion targetGlobalSettings() verwenden, um ein Codefragment zur Unterstützung von IP-Adressen einzufügen.
 
 Dieses Problem wurde in at.js-Version 1.2 behoben.
 
@@ -440,7 +440,7 @@ Dieses Problem wurde nach der Recommendations-Version (22. März 2018) behoben. 
 
 ### at.js {#at-js-7}
 
-Wenn Benutzer versuchen, at.js von der Seite mit Implementierungsdetails herunterzuladen, nachdem sie die at.js-Einstellungen geändert haben, wird mbox.js statt at.js heruntergeladen. (TGT-23069)
+Wenn Benutzer versuchen, at.js von der Seite mit Implementierungsdetails herunterzuladen, nachdem sie die at.js-Einstellungen geändert haben, wird statt at.js heruntergeladen. (TGT-23069)
 
 In Target-Version 17.3.1 (30. März 2017) behoben.
 

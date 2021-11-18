@@ -1,15 +1,14 @@
 ---
 keywords: Mboxcreate; mboxcreate; mbox create; at.js; Funktionen; funktion
-description: Verwenden Sie die Funktion mboxCreate() für die JavaScript-Bibliothek "Adobe [!DNL Target] at.js", um Angebot auf das nächste DIV mit dem Klassennamen "mboxDefault"anzuwenden. (at.js 1.x)
+description: Verwenden der Funktion mboxCreate() für die Adobe [!DNL Target] JavaScript-Bibliothek at.js , um Angebote auf das nächstgelegene DIV mit dem Klassennamen mboxDefault anzuwenden. (at.js 1.x)
 title: Wie verwende ich die Funktion mboxCreate()?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 85%
+source-wordcount: '205'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +20,7 @@ Führt eine Anforderung aus und wendet das Angebot auf den nächsten DIV-Bereich
 >
 >Diese Funktion steht nur für at.js, Version 1.*x*, zur Verfügung. Diese Funktion ist mit der Veröffentlichung von at.js 2.x überholt. Diese Funktion gibt Standardinhalte zurück, wenn sie mit at.js 2.x verwendet wird.
 
-Diese Funktion wurde vor allem deswegen in [!DNL at.js] integriert, um die Umstellung von [!DNL mbox.js] auf [!DNL at.js] zu erleichtern. Eine aktuellere Alternative zu `mboxCreate()` ist `adobe.target.applyOffer()`/ `adobe.target.getOffer()` oder die Angular-Richtlinie.
+Diese Funktion ist in [!DNL at.js] hauptsächlich um die Umstellung von [!DNL mbox.js] (jetzt nicht mehr unterstützt) auf [!DNL at.js]. Eine aktuellere Alternative zu `mboxCreate()` ist `adobe.target.applyOffer()`/ `adobe.target.getOffer()` oder die Angular-Richtlinie.
 
 ## Beispiel
 

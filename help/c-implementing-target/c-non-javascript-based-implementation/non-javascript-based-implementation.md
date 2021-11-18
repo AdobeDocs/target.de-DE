@@ -1,14 +1,14 @@
 ---
-keywords: Implementierung; mbox.js nicht-JavaScript; AdBox; Weiterleitung; Mbox
-description: Erfahren Sie, wie Sie Adobe [!DNL Target] in Nicht-JavaScript-Szenarien implementieren, z. B. bei der Verwendung einer AdBox oder einer Weiterleitung.
-title: Wie implementiere ich [!DNL Target] für E-Mail?
-feature: E-Mail implementieren
+keywords: Implementierung;at.js-Nicht-JavaScript;AdBox;Weiterleitung;Mbox
+description: Erfahren Sie, wie Sie Adobe implementieren [!DNL Target] in Nicht-JavaScript-Szenarien, z. B. bei Verwendung einer AdBox oder einer Weiterleitung.
+title: Implementieren [!DNL Target] für E-Mail?
+feature: Implement Email
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 81%
+source-wordcount: '432'
+ht-degree: 78%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 81%
 
 Informationen zum Implementieren von Target in Nicht-JavaScript-Szenarien, beispielsweise AdBox- oder Weiterleitungsverwendung.
 
-Sie können Besuche von Werbeanzeigen und anderen Offsite-Inhalten nachverfolgen. Darüber hinaus können Sie denselben Benutzer beim Besuchen und Verlassen Ihrer Site verfolgen und das gesamte Web-Erlebnis für ihn konsistent gestalten. Mithilfe einer einzelnen URL gestattet die AdBox das Testen ohne JavaScript oder [!DNL at.js] oder [!DNL mbox.js].
+Sie können Besuche von Werbeanzeigen und anderen Offsite-Inhalten nachverfolgen. Darüber hinaus können Sie denselben Benutzer beim Besuchen und Verlassen Ihrer Site verfolgen und das gesamte Web-Erlebnis für ihn konsistent gestalten. Mithilfe einer einzelnen URL gestattet die AdBox das Testen ohne JavaScript oder [!DNL at.js].
 
-Eine AdBox ist nützlich für Sites ohne [!DNL at.js], z. B. Partnersites. Wenn für Ihre Aktivität dynamische Werbeinhalte benötigt werden (Sie also beispielsweise ein Produkt in der Werbeanzeige zeigen möchten, das im Warenkorb gelassen wurde), kann eine AdBox nicht verwendet werden.
+Eine AdBox ist nützlich für Sites, die nicht über [!DNL at.js], wie z. B. Affiliates. Wenn für Ihre Aktivität dynamische Werbeinhalte benötigt werden (Sie also beispielsweise ein Produkt in der Werbeanzeige zeigen möchten, das im Warenkorb gelassen wurde), kann eine AdBox nicht verwendet werden.
 
 AdBox-Anzeigen und Weiterleitungen können mit jeder beliebigen Aktivität verwendet werden. In der folgenden Tabelle werden AdBox und Weiterleitungen verglichen, und es wird angegeben, wann sie verwendet werden sollten:
 

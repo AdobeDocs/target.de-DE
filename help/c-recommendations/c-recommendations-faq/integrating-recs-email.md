@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie E-Mails mit der Adobe [!DNL Target Recommenda
 title: Wie integriere ich E-Mail mit Recommendations?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: cd7b60ce00d9890cf7e84047621641fb9e8d2c8f
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 80%
+source-wordcount: '1712'
+ht-degree: 79%
 
 ---
 
@@ -82,7 +82,7 @@ Weitere Informationen finden Sie in der [Dokumentation zur Bereitstellungs-API](
 
 ## Methode 2: Verwenden einer Rawbox-E-Mail-Vorlage {#rawbox}
 
-Eine Rawbox ähnelt einer Mbox-Anfrage, die für Nicht-Web-Umgebungen wie E-Mail-Dienstanbieter (ESP) erstellt wurde. Da Sie bei Rawbox-Anfragen nicht mit [!DNL mbox.js] oder [!DNL at.js] arbeiten, müssen die Anfragen manuell erstellt werden. In den unten stehenden Beispielen ist beschrieben, wie Rawbox-Anfragen in E-Mails verwendet werden.
+Eine Rawbox ähnelt einer Mbox-Anfrage, die für Nicht-Web-Umgebungen wie E-Mail-Dienstanbieter (ESP) erstellt wurde. Weil Sie die [!DNL Adobe Experience Platform Web SDK] oder [!DNL at.js] , um in Rawbox-Anfragen zu verwenden, müssen Sie Ihre Anforderungen manuell erstellen. In den unten stehenden Beispielen ist beschrieben, wie Rawbox-Anfragen in E-Mails verwendet werden.
 
 >[!NOTE]
 >

@@ -1,11 +1,11 @@
 ---
 keywords: Antwort-Token;Token;Plug-ins;Plug-ins;at.js;Antwort;Plattform-Web-SDK
-description: Erfahren Sie, wie Sie Antwort-Token in [!DNL Adobe Target] verwenden können, um ausgabespezifische Informationen für das Debugging und die Integration mit Drittanbieter-Tools zu erhalten.
+description: Erfahren Sie, wie Sie Antwort-Token in [!DNL Adobe Target] zur Ausgabe-spezifischen Informationen für das Debugging und die Integration mit Drittanbieter-Tools.
 title: Was sind Antwort-Token und wie verwende ich sie?
-feature: Administration und Konfiguration
+feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: b7e9fdb3bb6cd3edafc30e6d7efc749c14dc828d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 26%
@@ -14,9 +14,9 @@ ht-degree: 26%
 
 # Antwort-Token
 
-Mithilfe von Antwort-Token können Sie [!DNL Adobe Target]-spezifische Informationen automatisch an die Webseite Ihrer Marke ausgeben. Diese Informationen können Details zur Aktivität, zum Angebot, zum Erlebnis, zum Benutzerprofil, zu geografischen Informationen und mehr enthalten. Diese Details bieten zusätzliche Antwortdaten, um sie für interne oder Drittanbieter-Tools freizugeben oder für das Debugging zu verwenden.
+Mithilfe von Antwort-Token können automatisch für [!DNL Adobe Target] auf die Webseite Ihrer Marke. Diese Informationen können Details zur Aktivität, zum Angebot, zum Erlebnis, zum Benutzerprofil, zu geografischen Informationen und mehr enthalten. Diese Details bieten zusätzliche Antwortdaten, um sie für interne oder Drittanbieter-Tools freizugeben oder für das Debugging zu verwenden.
 
-Mithilfe von Antwort-Token können Sie festlegen, welche Variablen (in Schlüssel/Wert-Paaren) verwendet werden sollen, und dann aktivieren, dass sie als Teil einer [!DNL Target]-Antwort gesendet werden. Sie aktivieren eine Variable mithilfe des Schalters und die Variable wird mit [!DNL Target]-Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Antwort-Token funktionieren auch im Modus [!UICONTROL Vorschau] .
+Mithilfe von Antwort-Token können Sie festlegen, welche Variablen (in Schlüssel/Wert-Paaren) verwendet werden sollen, und dann aktivieren, dass sie als Teil eines [!DNL Target] Antwort. Sie aktivieren eine Variable mithilfe des Schalters und die Variable wird mit [!DNL Target] Antworten, die in Netzwerkaufrufen validiert werden können. Antwort-Token funktionieren auch in [!UICONTROL Vorschau] -Modus.
 
 Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, dass Plug-ins JavaScript für die Seite bereitstellen, die bei der Bereitstellung ausgeführt wird. Antwort-Token stellen jedoch ein Objekt bereit, das dann gelesen und mithilfe von Ereignis-Listenern bearbeitet werden kann. Der Antwort-Token-Ansatz ist sicherer und ermöglicht eine einfachere Entwicklung und Wartung von Drittanbieter-Integrationen.
 
@@ -26,8 +26,8 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 
 | Target SDK | Vorgeschlagene Aktionen |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Stellen Sie sicher, dass Sie die Platform Web SDK-Version 2.6.0 oder höher verwenden. Informationen zum Herunterladen der neuesten Version des Platform Web SDK finden Sie unter [Installieren des SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) im Handbuch *Übersicht über das Platform Web SDK* . Informationen zu neuen Funktionen in den einzelnen Versionen des Platform Web SDK finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) im Handbuch *Übersicht über das Platform Web SDK* . |
-| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Stellen Sie sicher, dass Sie at.js der Version 1.1 oder neuer verwenden. Weitere Informationen zum Herunterladen der neuesten Version von at.js finden Sie unter [Herunterladen von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Weitere Informationen zu neuen Funktionen in den einzelnen Versionen von at.js finden Sie unter [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Kunden, die at.js verwenden, sollten Antwort-Token nutzen und auf Plug-ins verzichten. Einige Plug-ins, die auf internen Methoden basieren, die in mbox.js, aber nicht in at.js vorhanden waren, werden zwar bereitgestellt, schlagen jedoch fehl. |
+| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Stellen Sie sicher, dass Sie die Platform Web SDK-Version 2.6.0 oder höher verwenden. Informationen zum Herunterladen der neuesten Version des Platform Web SDK finden Sie unter [SDK installieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) im *Übersicht über das Platform Web SDK* Handbuch. Informationen zu neuen Funktionen in den einzelnen Versionen des Platform Web SDK finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) im *Übersicht über das Platform Web SDK* Handbuch. |
+| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Stellen Sie sicher, dass Sie at.js der Version 1.1 oder neuer verwenden. Weitere Informationen zum Herunterladen der neuesten Version von at.js finden Sie unter [Herunterladen von „at.js“](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Weitere Informationen zu neuen Funktionen in den einzelnen Versionen von at.js finden Sie unter [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Kunden, die at.js verwenden, sollten Antwort-Token nutzen und auf Plug-ins verzichten. Einige Plug-ins, die auf internen Methoden basieren, die in mbox.js (jetzt nicht mehr unterstützt), aber nicht in at.js vorhanden waren, werden zwar bereitgestellt, aber fehlgeschlagen. |
 
 ## Verwenden von Antwort-Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -35,10 +35,10 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 
    Für weitere Informationen:
 
-   * **Platform Web SDK**: Siehe  [Installieren des ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) SDKs im  *Übersichtshandbuch zum* Platform Web SDK.
-   * **at.js**: Siehe  [at.js herunterladen](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   * **Platform Web SDK**: Siehe [SDK installieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) im *Übersicht über das Platform Web SDK* Handbuch.
+   * **at.js**: Siehe [at.js herunterladen](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. Klicken Sie in [!DNL Target] auf **[!UICONTROL Administration]** > **[!UICONTROL Antwort-Token]**.
+1. In [!DNL Target]klicken **[!UICONTROL Administration]** > **[!UICONTROL Antwort-Token]**.
 
    ![](assets/response_tokens-new.png)
 
@@ -48,7 +48,7 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 
    | Typ | Parameter | Hinweise |
    |--- |--- |--- |
-   | Integrierte Profile | `profile.activeActivities` | Gibt eine Reihe an `activityIds` aus, für die der Besucher qualifiziert ist. Die Inkrementierung erfolgt im Zuge der Benutzerqualifizierung. Auf einer Seite mit zwei [!DNL Target] -Anforderungen, die zwei verschiedene Aktivitäten bereitstellen, enthält die zweite Anforderung beispielsweise beide Aktivitäten. |
+   | Integrierte Profile | `profile.activeActivities` | Gibt eine Reihe an `activityIds` aus, für die der Besucher qualifiziert ist. Die Inkrementierung erfolgt im Zuge der Benutzerqualifizierung. Beispiel: auf einer Seite mit zwei [!DNL Target] -Anfragen, die zwei verschiedene Aktivitäten bereitstellen, enthält die zweite -Anfrage beide -Aktivitäten. |
    |  | `profile.isFirstSession` | Gibt „true“ oder „false“ zurück. |
    |  | `profile.isNewSession` | Gibt „true“ oder „false“ zurück. |
    |  | `profile.daysSinceLastVisit` | Gibt die Anzahl der Tage seit dem letzten Zugriff des Besuchers zurück. |
@@ -59,7 +59,7 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
    |  | `profile.categoryAffinities` | Gibt eine Reihe der Top-5-Kategorien des Besuchers als Zeichenfolgen zurück. |
    | Aktivität | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Details der aktuellen Aktivität. Beachten Sie, dass „option“ und „offer“ gleich sind. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Weitere Informationen zur Verwendung von Geo-Targeting in Aktivitäten finden Sie unter [Geo](/help/c-target/c-audiences/c-target-rules/geo.md). |
-   | Traffic-Zuordnungsmethode<br>(gilt nur für [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization] -Aktivitäten.) | `experience.trafficAllocationId` | Gibt 0 zurück, wenn ein Besucher ein Erlebnis aus dem &quot;Kontroll&quot;-Traffic erhalten hat, und 1, wenn er ein Erlebnis aus der &quot;gezielten&quot;Traffic-Verteilung erhalten hat. |
+   | Traffic-Zuordnungsmethode<br>(gilt für [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization] nur Aktivitäten.) | `experience.trafficAllocationId` | Gibt 0 zurück, wenn ein Besucher ein Erlebnis aus dem &quot;Kontroll&quot;-Traffic erhalten hat, und 1, wenn er ein Erlebnis aus der &quot;gezielten&quot;Traffic-Verteilung erhalten hat. |
    |  | `experience.trafficAllocationType` | Gibt &quot;Kontrolle&quot;oder &quot;Targeting&quot;zurück. |
 
    Benutzerprofil- und Kundenattribute werden ebenfalls in der Liste angezeigt.
@@ -68,9 +68,9 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
    >
    >Parameter mit Sonderzeichen werden in der Liste nicht angezeigt. Es werden nur alphanumerische Zeichen und Unterstriche unterstützt.
 
-1. (Bedingt) Wenn Sie einen Profilparameter als Antwort-Token verwenden möchten, der Parameter jedoch nicht über eine [!DNL Target]-Anforderung übergeben wurde und daher nicht in die [!DNL Target]-Benutzeroberfläche geladen wurde, können Sie die Schaltfläche [!UICONTROL Antwort-Token hinzufügen] verwenden, um das Profil zur Benutzeroberfläche hinzuzufügen.
+1. (Bedingt) So verwenden Sie einen Profilparameter als Antwort-Token, der Parameter wurde jedoch nicht über einen [!DNL Target] -Anfrage und wurde daher nicht in die [!DNL Target] Benutzeroberfläche können Sie die [!UICONTROL Antwort-Token hinzufügen] -Schaltfläche, um das Profil zur Benutzeroberfläche hinzuzufügen.
 
-   Klicken Sie auf **[!UICONTROL Antwort-Token hinzufügen]**, geben Sie den Namen des Tokens ein und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
+   Klicken **[!UICONTROL Antwort-Token hinzufügen]**, geben Sie den Namen des Tokens ein und klicken Sie auf **[!UICONTROL Aktivieren]**.
 
    ![](assets/response_token_create.png)
 
@@ -78,17 +78,17 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 
 ## Antworten und Antwort-Token lesen
 
-Der Prozess, mit dem Sie auf [!DNL Target]-Antworten und Antwort-Token warten, hängt davon ab, ob Sie über eine [!DNL Platform Web SDK]- oder at.js-Implementierung verfügen.
+Der Prozess, mit dem Sie auf [!DNL Target] Antworten und Antwort-Token unterscheiden sich je nachdem, ob Sie über eine [!DNL Platform Web SDK] oder &quot;at.js&quot;-Implementierung.
 
-### ![Adobe Experience Platform Web SDK-](/help/assets/platform.png) [!DNL Platform Web SDK] Badgeusing the Handle object class {#platform-web-sdk}
+### ![Adobe Experience Platform Web SDK-Badge](/help/assets/platform.png) [!DNL Platform Web SDK] Verwenden der Handle-Objektklasse {#platform-web-sdk}
 
-Verwenden Sie die Handle-Objektklasse, die über ein Metadaten-Objekt und ein Datenobjekt verfügt, um auf [!DNL Target]-Antworten zu warten und die Antwort-Token zu lesen.
+Verwenden Sie die Handle-Objektklasse, die über ein Metadatenobjekt und ein Datenobjekt verfügt, auf das überwacht werden soll. [!DNL Target] Antworten und lesen Sie die Antwort-Token.
 
-Im folgenden Antwortbeispiel wird direkt ein [!DNL Platform Web SDK] benutzerdefinierter Ereignishandler zur HTML-Seite hinzugefügt (in der Tabelle werden die im Code verwendeten Objekte erläutert):
+Im folgenden Antwortbeispiel wird ein [!DNL Platform Web SDK] Benutzerdefinierter Ereignishandler direkt zur HTML-Seite (in der Tabelle werden die im Code verwendeten Objekte erläutert):
 
 | Objekt | Informationen |
 | --- | --- |
-| Typ - Personalization.decision | Ob die Entscheidung vom [!DNL Target]- oder Offer decisioning-Provider getroffen wurde. |
+| Typ - Personalization.decision | Ob die Entscheidung vom [!DNL Target] oder Offer decisioning-Provider. |
 | DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] stellt die Metadaten und Werte des Antwort-Tokens für die Seite bereit. |
 | Meta | An die Seite übergebene Metadaten. |
 | Daten | Werte der Metadaten, die an die Seite übergeben werden. |
@@ -147,9 +147,9 @@ Im folgenden Antwortbeispiel wird direkt ein [!DNL Platform Web SDK] benutzerdef
 </html>
 ```
 
-### ![at.js ](/help/assets/atjs.png) badgeat.js mithilfe benutzerdefinierter Ereignisse
+### ![at.js-Badge](/help/assets/atjs.png) at.js mithilfe benutzerspezifischer Ereignisse
 
-Verwenden Sie [benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md), um die [!DNL Target]-Antwort zu überwachen und die Antwort-Token zu lesen.
+Verwendung [Benutzerdefinierte at.js-Ereignisse](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) auf die [!DNL Target] Antwort und lesen Sie die Antwort-Token.
 
 Mit dem folgenden Code-Beispiel wird direkt ein benutzerdefinierter [!DNL at.js]-Eventhandler auf der HTML-Seite hinzugefügt:
 
@@ -174,9 +174,9 @@ Mit dem folgenden Code-Beispiel wird direkt ein benutzerdefinierter [!DNL at.js]
 
 **Welche Rolle wird zum Aktivieren oder Deaktivieren von Antwort-Token benötigt?**
 
-Antwort-Token können nur von Benutzern mit der Rolle [!DNL Target] [!UICONTROL Administrator] aktiviert oder deaktiviert werden.
+Antwort-Token können nur von Benutzern mit der Variablen [!DNL Target] [!UICONTROL Administrator] Rolle.
 
-**Was passiert, wenn ich  [!DNL Platform Web SDK] 2.6.0 (oder früher) verwende?**
+**Was passiert, wenn ich laufe? [!DNL Platform Web SDK] 2.6.0 (oder früher)?**
 
 Sie haben keinen Zugriff auf Antwort-Token.
 
@@ -184,23 +184,23 @@ Sie haben keinen Zugriff auf Antwort-Token.
 
 Sie sehen die Antwort-Token, at.js kann sie jedoch nicht verwenden.
 
-**Können beide  [!DNL Target Classic] Plug-ins und Antwort-Token gleichzeitig aktiv sein?**
+**Kann ich beide [!DNL Target Classic] Plug-ins und Antwort-Token, die gleichzeitig aktiv sind?**
 
 Plug-ins und Antwort-Token sind parallel verfügbar. Plug-ins werden jedoch in Zukunft nicht mehr unterstützt.
 
-**Werden Antwort-Token über alle  [!DNL Target] Antworten oder nur über  [!DNL Target] Antworten bereitgestellt, die eine Aktivität bereitstellen?**
+**Sind Antwort-Token, die von allen bereitgestellt werden [!DNL Target] Antworten oder nur durch [!DNL Target] Antworten, die eine Aktivität bereitstellen?**
 
-Antwort-Token werden nur über [!DNL Target]-Antworten bereitgestellt, die eine Aktivität bereitstellen.
+Antwort-Token werden nur über bereitgestellt. [!DNL Target] Antworten, die eine Aktivität bereitstellen.
 
-**Mein  [!DNL Target Classic] Plugin enthielt JavaScript. Wie reproduziere ich diese Funktionalität mithilfe von Antwort-Token?**
+**My [!DNL Target Classic] -Plug-in enthält JavaScript. Wie reproduziere ich diese Funktionalität mithilfe von Antwort-Token?**
 
-Bei der Migration zu Antwort-Token muss dieser JavaScript-Typ in Ihrer Codebase oder Tag-Management-Lösung beibehalten werden. Sie können diesen Code mithilfe von benutzerdefinierten Ereignissen vom Typ [!DNL Platform Web SDK] oder [!DNL at.js] Trigger und die Antwort-Token-Werte an Ihre JavaScript-Funktionen übergeben.
+Bei der Migration zu Antwort-Token muss dieser JavaScript-Typ in Ihrer Codebase oder Tag-Management-Lösung beibehalten werden. Sie können diesen Code mithilfe von [!DNL Platform Web SDK] oder [!DNL at.js] benutzerspezifische Ereignisse erstellen und die Antwort-Token-Werte an Ihre JavaScript-Funktionen übergeben.
 
 **Warum wird mein Profil-/Kundenattribut-Parameter nicht in der Liste der Antwort-Token angezeigt?**
 
-[!DNL Target] aktualisiert Parameter normalerweise alle 15 Minuten. Diese Aktualisierung hängt von der Benutzeraktion ab und die Daten werden nur aktualisiert, wenn Sie die Antwort-Token-Seite anzeigen. Wenn Ihre Parameter nicht in der Liste der Antwort-Token angezeigt werden, hat [!DNL Target] die Daten noch nicht aktualisiert.
+[!DNL Target] aktualisiert Parameter normalerweise alle 15 Minuten. Diese Aktualisierung hängt von der Benutzeraktion ab und die Daten werden nur aktualisiert, wenn Sie die Antwort-Token-Seite anzeigen. Wenn Ihre Parameter nicht in der Antwort-Token-Liste angezeigt werden, [!DNL Target] hat die Daten noch nicht aktualisiert.
 
-Wenn Ihr Parameter außer nicht alphanumerischen Zeichen oder anderen Symbolen als Unterstrichen etwas enthält, wird der Parameter nicht in der Liste angezeigt. Momentan werden nur alphanumerische Zeichen und Unterstriche unterstützt.
+Wenn Ihr Parameter außer nicht-alphanumerischen Zeichen oder anderen Symbolen als Unterstrichen enthält, wird der Parameter nicht in der Liste angezeigt. Momentan werden nur alphanumerische Zeichen und Unterstriche unterstützt.
 
 **Stellt das Antwort-Token weiterhin Inhalte bereit, wenn es ein gelöschtes Profilskript oder einen Profilparameter verwendet?**
 
@@ -218,15 +218,15 @@ Wie zuvor erwähnt, agieren Antwort-Token mit den für Benutzer gespeicherten Pr
 
 ## Daten an Google Analytics senden
 
-In den folgenden Abschnitten wird beschrieben, wie Sie [!DNL Target]-Daten an Google Analytics senden. Daten, die von Antwort-Token gesendet werden, können auch an andere Drittanbieter-Integrationen gesendet werden.
+In den folgenden Abschnitten wird beschrieben, wie Sie [!DNL Target] Daten an Google Analytics. Daten, die von Antwort-Token gesendet werden, können auch an andere Drittanbieter-Integrationen gesendet werden.
 
-### ![AEP-](/help/assets/platform.png) BadgeSenden von Daten an Google Analytics über Platform Web SDK
+### ![AEP-Badge](/help/assets/platform.png) Senden von Daten an Google Analytics über das Platform Web SDK
 
-Google Analytics können Daten über die Platform Web SDK-Version 2.6.0 (oder höher) senden, indem Sie den folgenden Code auf der HTML-Seite hinzufügen.
+Google Analytics können Daten über die Platform Web SDK-Version 2.6.0 (oder höher) senden, indem Sie auf der HTML-Seite den folgenden Code hinzufügen.
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass sich das Schlüsselwertpaar des Antwort-Tokens unter dem `alloy(“sendEvent”` -Objekt befindet.
+>Stellen Sie sicher, dass sich das Schlüsselwertpaar des Antwort-Tokens unter dem `alloy(“sendEvent”` -Objekt.
 
 ```
 <script type="text/javascript"> 
@@ -277,7 +277,7 @@ Google Analytics können Daten über die Platform Web SDK-Version 2.6.0 (oder h�
 </script>
 ```
 
-### ![at.js ](/help/assets/atjs.png) badgeSenden von Daten an Google Analytics über at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js-Badge](/help/assets/atjs.png) Senden von Daten an Google Analytics über at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Daten können via at.js an Google Analytics gesendet werden, indem Sie auf der HTML-Seite den folgenden Code hinzufügen:
 
@@ -347,7 +347,7 @@ Daten können via at.js an Google Analytics gesendet werden, indem Sie auf der H
 
 Die folgenden Abschnitte enthalten Informationen zum Debugging von Antwort-Token:
 
-### ![at.js-](/help/assets/atjs.png) BadgeGoogle Analytics und Debugging
+### ![at.js-Badge](/help/assets/atjs.png) Google Analytics und Debugging
 
 Mit dem folgenden Code können Sie das Debugging mit Google Analytics durchführen:
 
@@ -464,12 +464,12 @@ Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen
 </script>
 ```
 
-## ![at.](/help/assets/atjs.png) jsTraining-Video: Antwort-Token und benutzerdefinierte at.js-Ereignisse {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.js](/help/assets/atjs.png) Schulungsvideo: Antwort-Token und benutzerdefinierte at.js-Ereignisse {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-Im folgenden Video wird erläutert, wie Sie mithilfe von Antwort-Token und benutzerdefinierten at.js-Ereignissen Profilinformationen von [!DNL Target] an Drittanbietersysteme weitergeben können.
+Im folgenden Video wird erläutert, wie mithilfe von Antwort-Token und benutzerdefinierten at.js-Ereignissen Profilinformationen aus freigegeben werden können. [!DNL Target] auf Systeme von Drittanbietern.
 
 >[!NOTE]
 >
->Die Menübenutzeroberfläche [!DNL Target] [!UICONTROL Administration] (ehemals [!UICONTROL Setup]) wurde überarbeitet, um eine verbesserte Leistung, eine Verkürzung der Wartungszeit bei der Veröffentlichung neuer Funktionen und eine produktübergreifende Verbesserung des Benutzererlebnisses zu erzielen. Die Informationen im folgenden Video sind korrekt. Die Optionen befinden sich jedoch an etwas anderen Orten.
+>Die [!DNL Target] [!UICONTROL Administration] Menübenutzeroberfläche (früher [!UICONTROL Einrichtung]) wurde überarbeitet, um eine verbesserte Leistung zu erzielen, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu reduzieren und das Benutzererlebnis im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind korrekt. Die Optionen befinden sich jedoch an etwas anderen Orten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
