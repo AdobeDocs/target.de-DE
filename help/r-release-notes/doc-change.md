@@ -4,9 +4,9 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 885510848b141b646971658e2fd20440d2344efc
+source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
-source-wordcount: '3017'
+source-wordcount: '3045'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 18. November | [Änderungen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Es wurde ein Hinweis in der Mbox-Zeile hinzugefügt, der angibt, dass Mboxes im [!UICONTROL Visual Experience Composer] (VEC) auf Seiten, die at.js 2.*x*. |
 | 16. November | [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Es wurden Informationen zu den Beschränkungen für Datei-Uploads mit einem Link zu [Informationen zur Datendatei und den Datenquellen für Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) im *Komponentenleitfaden für die zentrale Benutzeroberfläche von Experience Cloud*. |
 |  | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Aktualisierung der &quot;Wie wirken sich die Durchsetzungsrichtlinien für SameSite-Cookies in Google auf VEC und EEC aus?&quot; enthält Informationen zur neuesten Version der Helper-Erweiterung. |
 |  | [Visual Experience Composer Helper-Erweiterung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Der Abschnitt &quot;Abrufen und Installieren der VEC Helper-Browsererweiterung&quot;wurde aktualisiert. |
