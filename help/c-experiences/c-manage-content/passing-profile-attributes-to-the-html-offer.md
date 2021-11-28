@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie dynamische Daten an übergeben. [!DNL Adobe T
 title: Wie übergebe ich dynamische Daten an Angebote?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: ae4b2e85db508e4ef00f8ed4c59e0e35782708b6
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 63%
 
 ---
@@ -81,4 +81,4 @@ Sie können auch einen Escape und Unescape für anzuzeigende Werte durchführen.
 
 Für Angebotsparameter (offer.name, offer.id), die im Inhalt eines Angebots verwendet werden:
 
-Wenn dieses Angebot einer von mehreren Sets für ein Erlebnis ist, wird der Wert des letzten hinzugefügten Angebots mit dem Wert des Parameters ausgefüllt. Das bedeutet, dass diese Parameter auf der Erlebnisebene ausgewertet werden.
+Wenn dieses Angebot eines von mehreren Angeboten ist, die für ein Erlebnis festgelegt wurden, wird der Wert des Parameters mit dem Wert des letzten hinzugefügten Angebots ausgefüllt. Das bedeutet, dass diese Parameter auf der Erlebnisebene ausgewertet werden.
