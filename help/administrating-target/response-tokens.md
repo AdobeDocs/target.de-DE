@@ -5,9 +5,9 @@ title: Was sind Antwort-Token und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: 20b0f7e0eddcf40d5ea891e03e7c7c891d952b8c
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1631'
 ht-degree: 25%
 
 ---
@@ -42,7 +42,7 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 
    ![](assets/response_tokens-new.png)
 
-1. Aktivieren Sie die gewünschten Antwort-Token, z. B. `activity.id` und `option.id`.
+1. Aktivieren Sie die gewünschten Antwort-Token, z. B. `activity.id` und `offer.id`.
 
    Die folgenden Parameter sind standardmäßig verfügbar:
 
@@ -435,8 +435,8 @@ Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen
         'CampaignId' : token["activity.id"], 
         'RecipeName': token["experience.name"], 
         'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
+        'OfferId': token["offer.id"], 
+        'OfferName': token["offer.name"], 
         'MboxName': e.detail.mbox}); 
       console.log(ttMETA); 
     }); 
@@ -471,5 +471,7 @@ Im folgenden Video wird erläutert, wie mithilfe von Antwort-Token und benutzerd
 >[!NOTE]
 >
 >Die [!DNL Target] [!UICONTROL Administration] Menübenutzeroberfläche (früher [!UICONTROL Einrichtung]) wurde überarbeitet, um eine verbesserte Leistung zu erzielen, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu reduzieren und das Benutzererlebnis im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind korrekt. Die Optionen befinden sich jedoch an etwas anderen Orten.
+>
+>Die VideoErwähnungen `option.name` und `option.id`, die durch `offer.name` und `offer.id`zurück.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
