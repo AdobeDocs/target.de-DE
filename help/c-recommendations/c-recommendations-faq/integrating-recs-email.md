@@ -1,45 +1,45 @@
 ---
 keywords: E-Mail; ESP; E-Mail-Serviceprovider; Rawbox; Bereitstellungs-API; ausschließliche Download-Vorlage; E-Mail-Vorlage; Batchverarbeitung; Build-Time-E-Mail
 description: Erfahren Sie, wie Sie E-Mails mit der Adobe [!DNL Target Recommendations], including using the [!DNL Target] -Bereitstellungs-API, Rawbox-Vorlagen und Nur-Download-Vorlagen integrieren.
-title: Wie integriere ich E-Mail mit Recommendations?
+title: Wie integriere ich Recommendations mit E-Mail?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1712'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png)[!DNL Recommendations] mit E-Mails integrieren 
 
-[!DNL Adobe Target] unterstützt die Sendezeit-Personalisierung von Empfehlungen in E-Mails.
+[!DNL Adobe Target] unterstützt die Sendezeit-Personalisierung von Recommendations in E-Mails.
 
-Drei Integrationsmethoden [!DNL Target Recommendations] mit Ihrem E-Mail-Dienstanbieter (ESP) verfügbar sind. Die Fähigkeiten Ihres ESP bestimmen, welche Methode verwendet werden soll. Ihr Kundenbetreuer oder Berater kann Ihnen bei der Wahl der am besten geeigneten Option behilflich sein.
+Es sind drei Methoden zur Integration von [!DNL Target Recommendations] mit Ihrem E-Mail-Provider (ESP) verfügbar. Die Fähigkeiten Ihres ESP bestimmen, welche Methode zu verwenden ist. Ihr Account Manager oder Berater kann Ihnen bei der Wahl der am besten geeigneten Option behilflich sein.
 
 | Methode | Details |
 | --- | --- |
-| [Methode 1: [!DNL Adobe Target Delivery API]](#delivery-api) (Bevorzugt) | Verwenden Sie die [!DNL Adobe Target Delivery API] , um pro Kunde/pro E-Mail Anforderungen für Empfehlungen zu stellen. |
-| [Methode 2: [!DNL Adobe Rawbox API]](#rawbox) | Verwenden Sie die [!DNL Adobe Target Rawbox API] , um pro Kunde/pro E-Mail Anforderungen für Empfehlungen zu stellen. |
-| [Methode 3: [!DNL Recommendations Download API]](#download-api) | Verwenden Sie die Recommendations-Download-API, um Massenempfehlungen für eine Liste von Produkten oder Kategorien im CSV-Format anzufordern. |
+| [Methode 1: [!DNL Adobe Target Delivery API]](#delivery-api) (Bevorzugt) | Verwenden Sie die [!DNL Adobe Target Delivery API], um pro Kunde/pro E-Mail Anfragen für Recommendations zu stellen. |
+| [Methode 2: [!DNL Adobe Rawbox API]](#rawbox) | Verwenden Sie die [!DNL Adobe Target Rawbox API], um pro Kunde/pro E-Mail Anfragen für Recommendations zu stellen. |
+| [Methode 3: [!DNL Recommendations Download API]](#download-api) | Verwenden Sie die Recommendations Download-API, um Massen-Recommendations für eine Liste von Produkten oder Kategorien im CSV-Format anzufordern. |
 
-Bei Verwendung von Methode 1 oder Methode 2 muss Ihr ESP eine externe API pro Kunde/pro E-Mail aufrufen und auf die Rückgabe von Inhalten warten. Diese Methoden werden nicht von allen ESPs unterstützt. Wenden Sie sich an Ihren ESP, um festzustellen, ob er mit diesem Integrationsmuster kompatibel ist.
+Bei Verwendung von Methode 1 oder Methode 2 muss Ihr ESP eine externe API pro Kunde/pro E-Mail aufrufen und auf die Rückgabe von Inhalten warten. Diese Methoden werden nicht von allen ESPs unterstützt. Wenden Sie sich an Ihren ESP, um festzustellen, ob diese Art der Integration bei ihm möglich ist.
 
-Bei der Verwendung von Methode 3 muss Ihr ESP einer Liste von Empfehlungen nach Produkt-ID oder Kategorie-ID Ihrer E-Mail-Liste beitreten. Diese Methode kann auf einem Attribut basieren, z. B. dem zuletzt angezeigten Produkt, dem zuletzt gekauften Produkt oder der am häufigsten angezeigten Kategorie des Kunden. Ihr ESP muss jedoch Zugriff auf diese Daten in seinem Kundenprofil haben, um den Join durchführen zu können. Wenden Sie sich an Ihren ESP, um festzustellen, ob er Zugriff auf diese Daten hat und mit diesem Integrationsmuster kompatibel ist.
+Bei der Verwendung von Methode 3 muss Ihr ESP einer Liste von Recommendations nach Produkt-ID oder Kategorie-ID mit Ihrer E-Mail-Liste verknüpfen. Diese Methode kann auf einem Attribut basieren, z. B. dem zuletzt angezeigten Produkt des Kunden, seinem zuletzt gekauften Produkt oder seiner am häufigsten angezeigten Kategorie. Ihr ESP muss jedoch Zugriff auf diese Daten in ihrem Kundenprofil haben, um die Verknüpfung durchführen zu können. Wenden Sie sich an Ihren ESP, um festzustellen, ob er Zugriff auf diese Daten hat und diese Art der Integration unterstützt.
 
-Die Open-Time-Personalisierung von Empfehlungen wird nicht unterstützt von [!DNL Adobe Target].
+Die Open-Time-Personalisierung von Empfehlungen wird von [!DNL Adobe Target] nicht unterstützt.
 
 >[!IMPORTANT]
 >
->Die folgenden Kapazitätsrichtlinien gelten für die unten beschriebenen Methoden der Versand-API und der Rawbox-E-Mail-Vorlage (Methoden 1 und 2):
+>Die folgenden Kapazitätsrichtlinien gelten für die unten beschriebenen Methoden für die Bereitstellungs-API und die Rawbox-E-Mail-Vorlage (Methoden 1 und 2):
 >
->* Anforderungen sollten auf den niedrigeren von 1.000 Anforderungen pro Sekunde oder den 25-fachen Traffic Ihrer täglichen Spitzenlast beschränkt sein.
->* Traffic wird in Schritten von 200 Anforderungen pro Sekunde pro Minute bereitgestellt.
+>* Anfragen sollten auf den niedrigeren Wert von entweder 1.000 Anfragen pro Sekunde oder das 25-fache des höchsten Traffics pro Tag beschränkt sein.
+>* Erhöhen Sie den Traffic jede Minute in Schritten von 200 Anfragen pro Sekunde.
 
 > 
->Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie höhere Limits verwenden möchten.
+>Wenden Sie sich an Ihren Account Manager, wenn Sie höhere Limits verwenden möchten.
 
-## Methode 1: Versand-API verwenden (empfohlen) {#delivery-api}
+## Methode 1: Verwenden der Bereitstellungs-API (Bevorzugt) {#delivery-api}
 
 Die Bereitstellungs-API ist eine POST-Anforderung, die zusammen mit der Erstellungszeit-E-Mail verwendet wird. Diese Option ist die bevorzugte Methode für die Erstellungszeit-E-Mail.
 
@@ -80,19 +80,19 @@ Dabei ist `clientcode` Ihr [!DNL Target]-Client-Code.
 
 Weitere Informationen finden Sie in der [Dokumentation zur Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-delivery).
 
-## Methode 2: Verwenden einer Rawbox-E-Mail-Vorlage {#rawbox}
+## Option 2: Verwenden einer Rawbox-E-Mail-Vorlage {#rawbox}
 
-Eine Rawbox ähnelt einer Mbox-Anfrage, die für Nicht-Web-Umgebungen wie E-Mail-Dienstanbieter (ESP) erstellt wurde. Weil Sie die [!DNL Adobe Experience Platform Web SDK] oder [!DNL at.js] , um in Rawbox-Anfragen zu verwenden, müssen Sie Ihre Anforderungen manuell erstellen. In den unten stehenden Beispielen ist beschrieben, wie Rawbox-Anfragen in E-Mails verwendet werden.
+Eine Rawbox ähnelt einer Mbox-Anfrage, die jedoch für Nicht-Web-Umgebungen wie E-Mail-Provider (ESP) erstellt wird. Da Sie bei Rawbox-Anfragen nicht mit dem [!DNL Adobe Experience Platform Web SDK] oder [!DNL at.js] arbeiten können, müssen die Anfragen manuell erstellt werden. In den unten stehenden Beispielen ist beschrieben, wie Sie mit Rawbox-Anfragen in E-Mails arbeiten.
 
 >[!NOTE]
 >
->Wenn Sie eine Rawbox mit [!DNL Target] verwenden, lesen Sie den wichtigen Sicherheitshinweis unter [Erstellen von Zulassungslisten mit Hosts, die autorisiert sind, Mbox-Aufrufe an  [!DNL Target]](/help/administrating-target/hosts.md#allowlist) zu senden.
+>Wenn Sie eine Rawbox mit [!DNL Target] verwenden, lesen Sie den wichtigen Sicherheitshinweis unter [Erstellen von Zulassungslisten mit Hosts, die autorisiert sind, Mbox-Aufrufe an [!DNL Target]](/help/administrating-target/hosts.md#allowlist) zu senden.
 
 Dieser Ansatz ermöglicht es Ihnen, die Leistung von Recommendations in E-Mails zu verfolgen, die E-Mails unter normalen Bedingungen mit einer Empfehlung zu testen und die Verfolgung auf der Site fortzusetzen.
 
 Richten Sie eine [!DNL Recommendations]-Aktivität in [!DNL Target] mit der Option [Formularbasierter Erlebniseditor](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ein. Wählen Sie als Speicherort den Namen der Mbox aus, die Sie für die Rawbox-Anfrage des ESP gewählt haben. Wählen Sie das passende Design für Ihre E-Mail aus. Zum Zeitpunkt des E-Mail-Aufbaus generiert der ESP einen Aufruf an die [!DNL Target]-Server für jede Rawbox in jeder E-Mail-Nachricht, die erstellt wird. Ihr ESP muss über eine Möglichkeit verfügen, den zurückgegebenen HTML-Code beim Senden in die E-Mail einzuschließen.
 
-Das von Ihnen verwendete E-Mail-System muss die folgenden Szenarien handhaben können:
+Das von Ihnen verwendete E-Mail-System muss mit den folgenden Szenarien klarkommen:
 
 ### Eingang einer gültigen Antwort ohne vorhandene Empfehlungen
 
@@ -105,13 +105,13 @@ Das von Ihnen verwendete E-Mail-System muss die folgenden Szenarien handhaben k�
 
    `//ERROR: application server timeout`
 
-* Die E-Mail-Anwendung sollte nach diesem Text suchen und muss in der Lage sein, den Fehler zu beheben. Der E-Mail-Anbieter verfügt für den Umgang mit diesem Szenario über mehrere Möglichkeiten:
+* Das E-Mail-Programm sollte nach diesem Text suchen und muss mit diesem Fehler umgehen können. Der E-Mail-Anbieter verfügt für den Umgang mit diesem Szenario über mehrere Möglichkeiten:
 
    * Sofortiger Versuch eines erneuten Server-Aufrufs (empfohlen, möglicherweise mit Versuchszähler).
    * Ignorieren der betroffenen E-Mail und Fortfahren mit der nächsten Nachricht.
    * Einreihen der betroffenen E-Mail in eine Warteschlange und erneute Batch-Verarbeitung der fehlgeschlagenen Nachrichten am Ende des ersten Durchlaufs.
 
-### Beispiel für Anfrage-URL
+### Beispiel für eine Anfrage-URL
 
 ```
 https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
@@ -131,8 +131,8 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Erforderlich für bestimmte Kriterientypen: Ansicht/Ansicht, Ansicht/Gekauft, Gekauft/Gekauft) | *entity_id* | Die „productId“, auf der die Empfehlung beruht, beispielsweise ein in den Einkaufskorb gelegtes, aber nicht erworbenes Produkt oder ein in der Vergangenheit getätigter Einkauf.<br>Falls von den Kriterien gefordert, muss der Rawbox-Aufruf `entity.id` enthalten. |  |
 | `entity.event.detailsOnly` | wahr | Wenn Sie weitergereicht werden, `entity.id` wird dringend empfohlen, diesen Parameter zu übergeben, um zu verhindern, dass die Anforderung die Anzahl der Seitenansichten für ein Element erhöht, sodass produktansichtsbasierte Algorithmen nicht verfälscht werden. |  |
 | `entity.categoryId`<br>(Für bestimmte Kriterientypen erforderlich: am häufigsten angezeigt nach Kategorie und Topverkäufe nach Kategorie) | *category_id* | Die Kategorie, auf der die Empfehlung basiert, beispielsweise die Topverkäufe einer Kategorie.<br>Falls von den Kriterien gefordert, muss der Rawbox-Aufruf `entity.categoryId` enthalten. |  |
-| `mboxDefault` | *`https://www.default.com`* | Ist kein `mboxNoRedirect`-Parameter vorhanden, sollte `mboxDefault` eine absolute URL sein, die Standardinhalte zurückgibt, wenn keine Empfehlung zur Verfügung steht. Bei dieser URL kann es sich um Bilder oder statische Inhalte handeln.<br>Wenn der `mboxNoRedirect`-Parameter vorhanden ist, kann es sich bei `mboxDefault` um einen beliebigen Text handeln, der angibt, dass es keine Empfehlungen gibt wie z. B. `no_content`.<br>Der E-Mail-Anbieter muss den Fall handhaben, dass dieser Wert zurückgegeben wird, und Standard-HTML in die E-Mail einfügen. <br> **Best Practice für die Sicherheit**: Wenn die in der `mboxDefault`-URL verwendete Domain nicht in der Zulassungsliste enthalten ist, bieten Sie eine Angriffsfläche für Open Redirects. Zur Vermeidung einer unbefugten Nutzung von Weiterleitungs-Links oder `mboxDefault` durch Dritte empfiehlt Adobe die Verwendung von „autorisierten Hosts“, wodurch die Domains der Standard-Weiterleitungs-URL auf die Zulassungsliste gesetzt werden. Target verwendet Hosts, um Domains auf die Zulassungsliste zu setzen, für die Umleitungen erlaubt sind. Weitere Informationen finden Sie im Abschnitt *Hosts* unter [Erstellen von Zulassungslisten mit Hosts, die autorisiert sind, Mbox-Aufrufe an  [!DNL Target]](/help/administrating-target/hosts.md#allowlist) zu senden. |  |
-| `mboxHost` | *mbox_host* | Die Domäne, die der Standardumgebung (Hostgruppe) hinzugefügt wird, wenn der Aufruf ausgelöst wird. |  |
+| `mboxDefault` | *`https://www.default.com`* | Ist kein `mboxNoRedirect`-Parameter vorhanden, sollte `mboxDefault` eine absolute URL sein, die Standardinhalte zurückgibt, wenn keine Empfehlung zur Verfügung steht. Bei dieser URL kann es sich um Bilder oder statische Inhalte handeln.<br>Wenn der `mboxNoRedirect`-Parameter vorhanden ist, kann es sich bei `mboxDefault` um einen beliebigen Text handeln, der angibt, dass es keine Empfehlungen gibt wie z. B. `no_content`.<br>Der E-Mail-Anbieter muss mit Situationen umgehen können, bei denen dieser Wert zurückgegeben wird, und bei deren Eintreten Standard-HTML-Inhalte in die E-Mail einfügen. <br> **Best Practice für die Sicherheit**: Wenn die in der `mboxDefault`-URL verwendete Domain nicht in der Zulassungsliste enthalten ist, bieten Sie eine Angriffsfläche für Open Redirects. Zur Vermeidung einer unbefugten Nutzung von Weiterleitungs-Links oder `mboxDefault` durch Dritte empfiehlt Adobe die Verwendung von „autorisierten Hosts“, wodurch die Domains der Standard-Weiterleitungs-URL auf die Zulassungsliste gesetzt werden. Target verwendet Hosts, um Domains auf die Zulassungsliste zu setzen, für die Umleitungen erlaubt sind. Weitere Informationen finden Sie im Abschnitt *Hosts* unter [Erstellen von Zulassungslisten mit Hosts, die autorisiert sind, Mbox-Aufrufe an [!DNL Target]](/help/administrating-target/hosts.md#allowlist) zu senden. |  |
+| `mboxHost` | *mbox_host* | Die Domain, die der Standardumgebung (Host-Gruppe) hinzugefügt wird, wenn der Aufruf erfolgt. |  |
 | `mboxPC` | Empty | (Für Empfehlungen erforderlich, die das Profil eines Besuchers verwenden.)<br>Wenn keine „thirdPartyId“ angegeben wurde, wird eine neue „tntId“ generiert und als Teil der Antwort zurückgegeben. Ansonsten wird kein Wert angegeben.<br>**Hinweis**: Stellen Sie sicher, dass Sie einen eindeutigen Wert für `mboxSession` und `mboxPC` für jeden einzelnen E-Mail-Empfänger angeben (d. h. für jeden API-Aufruf). Wenn Sie keine eindeutigen Werte für diese Felder angeben, kann die API-Antwort aufgrund der zahlreichen in einem einzigen Profil generierten Ereignisse lange dauern oder sogar fehlschlagen. | 1 &lt; Länge &lt; 128<br>Darf nicht mehr als einen einzelnen „.“ (Punkt) enthalten.<br>Der einzig zulässige Punkt ist derjenige vor dem Suffix für den Profilspeicherort. |
 
 ### Optionale Parameter
@@ -149,12 +149,12 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 |--- |--- |
 | //ERROR: | Von einem Lastverteiler generiert, wenn kein Inhalt zurückgegeben werden kann. |
 | Erfolg | Der Parameter `mboxNoRedirect` ist als „true“ (wahr) festgelegt und der Server gibt keine Empfehlungen zurück (d. h., es ist keine Übereinstimmung für die Mbox vorhanden oder der Zwischenspeicher des Servers wurde nicht initialisiert). |
-| bad request | Der `mbox`-Parameter fehlt.<ul><li>Der `mboxDefault`- oder `mboxNoRedirect`-Parameter wird nicht angegeben.</li><li>Anforderungsparameter `mboxTrace` ist angegeben, aber `mboxNoRedirect` nicht.</li><li>`mboxTarget`Parameter wird nicht angegeben, wenn Mbox-Namen mit `-clicked` Suffix.</li></ul> |
+| bad request | Der `mbox`-Parameter fehlt.<ul><li>Der `mboxDefault`- oder `mboxNoRedirect`-Parameter wird nicht angegeben.</li><li>Anforderungsparameter `mboxTrace` ist angegeben, aber `mboxNoRedirect` nicht.</li><li>Parameter `mboxTarget` wird nicht angegeben, wenn mbox-Namen mit dem Suffix `-clicked` enden.</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` wurde nicht angegeben, wenn für die Anfrage keine Übereinstimmung gefunden wurde oder der Parameter `mboxNoRedirect` nicht angegeben ist. |
 | `Invalid mbox name:= MBOX_NAME` | Zeigt an, dass im Parameter `mbox` unzulässige Zeichen enthalten sind. |
 | `Mbox name [MBOX_NAME] is too long` | Zeigt an, dass der Parameter `mbox` mehr als 250 Zeichen enthält. |
 
-## Methode 3: Verwenden der Recommendations-Download-API {#download-api}
+## Methode 3: Verwenden der Recommendations Download-API {#download-api}
 
 Richten Sie die Empfehlung wie gehabt ein, wählen Sie jedoch statt einer Vorlagen-/Mbox-Kombination die Option **nur Download** im Präsentationsbereich. Teilen Sie dem ESP dann mit, welche Empfehlungs-ID Sie erstellt haben. Der ESP greift über API auf die Empfehlungsdaten zu. Diese Daten zeigen, welche Artikel für eine bestimmte Kategorie oder ein Schlüsselelement, wie z. B. im Einkaufswagen liegen gebliebene Artikel, empfohlen werden sollen. Der ESP speichert diese Daten, verbindet sie mit der eigenen Designvorgabe, zeigt Informationen zu den einzelnen Artikeln an und liefert die E-Mails aus.
 
