@@ -5,9 +5,9 @@ title: Wie Basiere ich die Empfehlung auf einem Empfehlungsschlüssel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
 workflow-type: tm+mt
-source-wordcount: '3894'
+source-wordcount: '3937'
 ht-degree: 40%
 
 ---
@@ -168,7 +168,7 @@ Wenn Sie den Algorithmus Am häufigsten angezeigt nach Kategorie auswählen, kö
 
 ### Top nach Analytics-Metrik
 
-(Informationen in Kürze verfügbar)
+Zeigt &quot;Top x&quot;an, wobei x eine beliebige [!DNL Analytics] Metrik. Bei der Verwendung von Verhaltensdaten aus Mboxes können Sie nur &quot;Topverkäufe&quot;oder &quot;Am häufigsten angezeigt&quot;verwenden (x = &quot;Verkauf&quot;oder x = &quot;Angezeigt&quot;). Wenn Sie Verhaltensdaten aus [!DNL Adobe Analytics], können Sie x = &quot;Hinzufügen zum Warenkorb&quot;oder andere verwenden [!DNL Analytics] Metrik.
 
 ## [!UICONTROL Artikelbasiert]
 
@@ -324,7 +324,7 @@ Recommendations zeigt andere Artikel an, die den Besucher aufgrund seiner derzei
 
 Wenn diese Option ausgewählt ist, muss der `entity.id`-Wert als Parameter in der Anzeige-Mbox weitergeleitet werden.
 
-Can be used with the following algorithms:
+Kann mit den folgenden Algorithmen verwendet werden:
 
 * [!UICONTROL Artikel mit ähnlichen Attributen]
 * [!UICONTROL Personen, die das ansahen, sahen auch dies an]
