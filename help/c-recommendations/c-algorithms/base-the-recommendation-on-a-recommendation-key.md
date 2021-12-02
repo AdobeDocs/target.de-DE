@@ -5,9 +5,9 @@ title: Wie Basiere ich die Empfehlung auf einem Empfehlungsschlüssel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
+source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
 workflow-type: tm+mt
-source-wordcount: '3937'
+source-wordcount: '3936'
 ht-degree: 40%
 
 ---
@@ -168,7 +168,7 @@ Wenn Sie den Algorithmus Am häufigsten angezeigt nach Kategorie auswählen, kö
 
 ### Top nach Analytics-Metrik
 
-Zeigt &quot;Top x&quot;an, wobei x eine beliebige [!DNL Analytics] Metrik. Bei der Verwendung von Verhaltensdaten aus Mboxes können Sie nur &quot;Topverkäufe&quot;oder &quot;Am häufigsten angezeigt&quot;verwenden (x = &quot;Verkauf&quot;oder x = &quot;Angezeigt&quot;). Wenn Sie Verhaltensdaten aus [!DNL Adobe Analytics], können Sie x = &quot;Hinzufügen zum Warenkorb&quot;oder andere verwenden [!DNL Analytics] Metrik.
+Zeigt das &quot;Top x&quot;an, wobei *x* ist willkürlich [!DNL Analytics] Metrik. Bei der Verwendung von Verhaltensdaten aus Mboxes können Sie &quot;Topverkäufe&quot;oder &quot;Am häufigsten angezeigt&quot;verwenden (x = &quot;Verkauf&quot;oder x = &quot;Angezeigt&quot;). Wenn Sie Verhaltensdaten aus [!DNL Adobe Analytics], können Sie x = &quot;Hinzufügen zum Warenkorb&quot;oder andere verwenden [!DNL Analytics] Metrik.
 
 ## [!UICONTROL Artikelbasiert]
 
