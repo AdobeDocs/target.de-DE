@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
 source-wordcount: '32587'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,14 +43,14 @@ Diese Wartungsversion enthält die folgende Verbesserung:
 
 | Funktion | Details |
 | --- | --- |
-| Warenkorbbasierte Empfehlungen | Eine neue Reihe von Algorithmen wurde hinzugefügt, um Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers bereitzustellen.<br>Weitere Informationen finden Sie unter &quot;Warenkorb-basiert&quot;in [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Warenkorb fügt/Warenkorbansichten/Checkout-Seiten&quot;und &quot;Artikel, die sich bereits im Warenkorb des Besuchers befinden&quot;in [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md)und &quot;Warenkorb-basiert&quot;in [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| Warenkorbbasierte Empfehlungen | Eine neue Reihe von Algorithmen wurde hinzugefügt, um Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers bereitzustellen.<br>Weitere Informationen finden Sie unter „Warenkorb-basiert“ in [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md), unter „Hinzufügungen zum Warenkorb/Warenkorbansichten/Checkout-Seiten“ und „Ausschließen von Artikeln, die sich bereits im Warenkorb des Besuchers befinden“ in [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md) sowie unter „Warenkorb-basiert“ in [Stützen der Recommendation auf einen Recommendation-Schlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19. Oktober 2021)
 
 Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Änderungen:
 
 * Es wurden Probleme behoben, die Kunden daran hinderten, das [!UICONTROL A4T]-Bedienfeld in [!DNL Analysis Workspace] zu öffnen, indem sie auf die Schaltfläche [!UICONTROL In Analytics anzeigen] in der [!DNL Target]-Aktivitätsberichterstattung klickten. (TGT-42099, TGT-42100)
-* Es wurde ein Problem behoben, das dazu führte, dass die Schaltfläche [!UICONTROL Entwurf bearbeiten] beim Bearbeiten von [!UICONTROL A/B-Test]- und [!UICONTROL Experience Targeting](XT)-Aktivitäten mit dem [!UICONTROL formularbasierten Experience Composer] nicht angezeigt wurde. (TGT-41980)
+* Es wurde ein Problem behoben, das dazu führte, dass die Schaltfläche [!UICONTROL Entwurf bearbeiten] beim Bearbeiten von [!UICONTROL A/B-Test]- und [!UICONTROL Experience Targeting] (XT)-Aktivitäten mit dem [!UICONTROL formularbasierten Experience Composer] nicht angezeigt wurde. (TGT-41980)
 * Es wurde ein Problem behoben, das verhinderte, dass das Kontrollkästchen [!UICONTROL Kompatibel] in der Kriterienauswahl beim Erstellen einer neuen [!UICONTROL Recommendations]-Aktivität angezeigt wurde. (TGT-42053)
 * Es wurde eine falsche Fehlermeldung behoben, die angezeigt wurde, wenn [!DNL Analytics] als Berichtsquelle (A4T) aufgrund fehlender [!DNL Analytics]-Berechtigungen nicht ausgewählt werden konnte. (TGT-41954)
 * Es wurden mehrere Korrekturen zur Verbesserung der Tastaturnavigation auf der gesamten [!DNL Target]-Benutzeroberfläche vorgenommen.
@@ -603,7 +603,7 @@ Das folgende Problem wurde in Version 1.0.1 behoben:
 | Funktion / Verbesserung | Beschreibung |
 | --- | --- |
 | Node.js-SDK Version 1.0 | Mit dem Target Node.js-SDK können Sie Target Server-seitig bereitstellen.<br>Dieses Node.js-SDK vereinfacht die Integration von Target in andere Adobe Experience Cloud-Lösungen wie Adobe Experience Cloud Identity Service, Adobe Analytics und Adobe Audience Manager.<br>Das Node.js-SDK führt Best Practices ein und vereinfacht die Integration mit Adobe Target über die Bereitstellungs-API. Ihren Entwicklungsteams bleibt so mehr Zeit für die Geschäftslogik. Die folgenden in der aktuellen Version eingeführten Funktionen möchten wir besonders hervorheben:<ul><li>Unterstützung für Vorabruf und Benachrichtigungen, die Ihnen Leistungsoptimierungen durch Caching ermöglichen.</li><li>Unterstützung für Leistungsoptimierungen bei einer Hybrid-Integration von Target sowohl auf Ihren Webseiten als auch auf Seiten des Servers. Die Einstellung `serverState` wurde eingeführt, die durch auf Server-Seite abgerufene Erlebnisse gefüllt wird. Der zusätzliche Server-Aufruf von at.js 2.2 zum Abrufen der Erlebnisse entfällt dadurch und die Seitenladeleistung verbessert sich.</li><li> Unterstützung für das Abrufen von in VEC erstellten Aktivitäten über das Node.js-SDK, die durch die neue Bereitstellungs-API ermöglicht wird.</li><li>Das Node.js-SDK wurde als Open Source der Öffentlichkeit bereitgestellt. Jeder Entwickler kann somit zu diesem SDK beitragen.</li></ul> |
-| Bereitstellungs-API | Für die Produktion ist ein vollständig neuer Bereitstellungs-API-Endpunkt (/v1/delivery) verfügbar. Die wichtigsten Funktionen sind:<ul><li>Ein Endpunkt zum Abrufen von Erlebnissen für eine oder mehrere Mboxes</li><li>Abrufen von in VEC erstellten Aktivitäten über die API</li><li>Unterstützung für das neue Objekt „Ansichten“, das für Single-Page-Anwendungen (SPA) und mobile Apps verwendet werden kann.</li></ul> |
+| Bereitstellungs-API | Für die Produktion ist ein vollständig neuer Bereitstellungs-API-Endpunkt (/v1/delivery) verfügbar. Die wichtigsten Funktionen sind:<ul><li>Ein Endpunkt zum Abrufen von Erlebnissen für eine oder mehrere Mboxes.</li><li>Abrufen von in VEC erstellten Aktivitäten über die API.</li><li>Unterstützung für das neue Objekt „Ansichten“, das für Single-Page-Anwendungen (SPA) und mobile Apps verwendet werden kann.</li></ul> |
 
 ### Target Standard/Premium 19.9.2 (30. September 2019)
 
@@ -1200,7 +1200,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
    <td colname="col2"> <p> 
      <ul id="ul_DFEB778393024E3EBBC482F31A5B39BC"> 
       <li id="li_4049E334A38F4F94842FF1E35F177FE9"> <p>Die Erstellung benutzerspezifischer Zielgruppen ermöglicht jetzt die direkte Verwendung des Mbox-Parameters, ohne zwingend den Mbox-Namen festlegen zu müssen. Der Mbox-Name ist jetzt optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde. Alternativ können Sie mit dem Mbox-Namensfilter auch nach Mbox-Parameter filtern. </p> <p>Diese Verbesserung wurde auch in Recommendations-Kriterien und -Promotions sowie in Vorlagentestregeln umgesetzt. </p> </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="/help/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local">Benutzerdefinierte Parameter.</a> </p> </td> 
+     </ul> </p> <p>Weitere Informationen finden Sie unter     <a href="/help/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local">Benutzerdefinierte Parameter.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
@@ -1209,7 +1209,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>Bei der Auswahl der Recommendations-Kriterien im formularbasierten Experience Composer gibt es jetzt einen direkten Link zur ausgewählten Kriterienkarte, damit Sie die Kriterien schnell und einfach bearbeiten können. (TGT-28483) </p> <p>Weitere Informationen finden Sie unter <a href="/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Form-Based Experience Composer</a>. </p> </li> 
       <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>Die Erstellung von Recommendations-Kriterien, -Promotions und Vorlagentestregeln ermöglicht jetzt die direkte Verwendung des Mbox-Parameters, ohne zwingend den Mbox-Namen festlegen zu müssen. Der Mbox-Name ist jetzt optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde. Alternativ können Sie mit dem Mbox-Namensfilter auch nach Mbox-Parameter filtern. </p> <p>Diese Verbesserung wurde auch in der Erstellung benutzerspezifischer Zielgruppen umgesetzt. </p> <p>Weitere Informationen finden Sie unter     <a href="/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local">Recommendations-FAQs.</a> </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>Die UI wurde für die Recommendations-Design-Karten geändert. </p> </li> 
-      <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>Die Dokumentation zur Target Recommendations-API finden Sie auf der <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external">Adobe I/O-Website zu Adobe Target</a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html). </p> </li> 
+      <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>Die Dokumentation zur Target Recommendations-API finden Sie auf der <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external">Adobe I/0-Website zu Adobe Target</a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html). </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -1643,7 +1643,7 @@ Diese Version beinhaltet die folgenden Funktionen und Erweiterungen (die Problem
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile Batch- und Vorabrufbereitstellung </p> </td> 
-   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Der Inhalt für mehrere Mboxes kann in einem einzelnen Aufruf vorab abgerufen und lokal auf dem Gerät zwischengespeichert werden, ohne sich darüber Gedanken machen zu müssen, wie, wann und ob der Endbenutzer den Inhalt anzeigt. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie unter <a href="/help/c-target-mobile-app/prefetch-offer-content.md#concept_A355D9D55E1C429AA31FA4055A1DDFAF" format="dita" scope="local">Vorzeitiger Abruf des Angebotsinhalts</a>. </p> </td> 
+   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Der Inhalt für mehrere Mboxes kann in einem einzelnen Aufruf vorab abgerufen und lokal auf dem Gerät zwischengespeichert werden, ohne sich darüber Gedanken machen zu müssen, wie, wann und ob der Endbenutzer den Inhalt anzeigt. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie unter     <a href="/help/c-target-mobile-app/prefetch-offer-content.md#concept_A355D9D55E1C429AA31FA4055A1DDFAF" format="dita" scope="local">Vorzeitiger Abruf des Angebotsinhalts</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktivitäten </p> </td> 
@@ -1968,7 +1968,7 @@ Diese Version von [!DNL Target] umfasst die folgenden Verbesserungen und Fehlerb
   </tr> 
   <tr> 
    <td colname="col1"> <p>Neuer Ort für das Target-Forum </p> </td> 
-   <td colname="col2"> <p> Das Target-Forum befindet sich nun auf der neuen <a href="https://forums.adobe.com/community/experience-cloud/marketing-cloud/target" format="https" scope="external">Adobe Community-Plattform</a>. </p> </td> 
+   <td colname="col2"> <p> Das Target-Forum befindet sich nun auf der neuen <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de" format="https" scope="external">Adobe Community-Plattform</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3299,7 +3299,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
       <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> Teilweises Vorlagen-Rendering <p>Weitere Informationen finden Sie im Abschnitt <a href="/help/c-recommendations/c-algorithms/create-new-algorithm.md#content" format="dita" scope="local">Inhaltseinstellungen.</a> </p> </li> 
       <li id="li_B1DFC829D19B4570AB5A7F937C7EF2CC"> Angabe der Sicherungsregeln pro Kriterium </li> 
       <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> Unterstützung von FTPS für Protokoll-Feeds</li> 
-      <li id="li_3C0FA493C87345E4BE994936DF0D0162"> Benutzerdefinierte Algorithmen werden nun automatisch als Kriterium angezeigt.</li> 
+      <li id="li_3C0FA493C87345E4BE994936DF0D0162"> Benutzerdefinierte Algorithmen werden nun automatisch als Kriterium angezeigt</li> 
       <li id="li_5B074C9FB3CB46EBA6EB4D8B1098480E"> Stündliche automatische Neuindizierung von Produktkatalogen für Kunden ohne Feeds </li> 
      </ul> </p> </td> 
   </tr> 

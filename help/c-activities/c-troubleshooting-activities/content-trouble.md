@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Die folgenden Parameter stehen zur Verfügung:
 
 | mboxTrace-Optionen | Resultat |
 |--- |--- |
-| `?mboxTrace=console` | Wird im Konsolenprotokoll als Objekt ausgegeben.<br>Bei at.js müssen Sie, anstatt ein neues Browser-Fenster zu öffnen oder wie bei mbox.js in der Konsole auszugeben (jetzt nicht mehr unterstützt), die Netzwerkanforderung überprüfen und unter &quot;Vorschau&quot;(Chrome) oder &quot;Antwort&quot;(Firefox) nachsehen. |
+| `?mboxTrace=console` | Wird im Konsolenprotokoll als Objekt ausgegeben.<br>Bei „at.js“ können Sie kein neues Browser-Fenster öffnen oder wie bei „mbox.js“ (inzwischen nicht mehr unterstützt) eine Ausgabe in der Konsole veranlassen. Sie müssen stattdessen die Netzwerkanforderung prüfen und unter „Vorschau“ (Chrome) oder „Antwort“ (Firefox) nachsehen. |
 | `?mboxTrace=json` | Wird im Konsolenprotokoll als buchstäbliche JSON-Zeichenfolge ausgegeben |
 | `?mboxTrace=window` | Wird im Pop-up-Fenster als JSON-Zeichenfolge ausgegeben |
 | `?mboxTrace=disable` | Schaltet den Trace-Sitzungsmodus ab |
