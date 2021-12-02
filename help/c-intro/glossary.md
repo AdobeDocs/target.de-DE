@@ -1,12 +1,12 @@
 ---
-description: Was bedeuten die in Adobe  [!DNL Target]  verwendeten Begriffe? Hier finden Sie Definitionen allgemeiner Begriffe, die Sie kennen sollten, um  [!DNL Target] optimal nutzen zu können.
+description: Was bedeuten die in Adobe [!DNL Target] verwendeten Begriffe? Hier finden Sie Definitionen allgemeiner Begriffe, die Sie kennen sollten, um  [!DNL Target] optimal nutzen zu können.
 title: Wo finde ich die in Target verwendeten Begriffe und deren Definitionen?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2425'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ Regeln, die bestimmen, welche Produkte oder Inhalte empfohlen werden. Die Kriter
 
 **DAM**
 
-Digital Asset Manager Die Bibliothek enthält Elemente, die in Target als Inhalt verwendet werden sollen.
+Digital Asset Manager. Die Bibliothek enthält Elemente, die in Target als Inhalt verwendet werden sollen.
 
 **Standardinhalt**
 
@@ -230,7 +230,7 @@ Ein spezifischer Inhaltsbereich auf einer Seite, der oftmals in einem einzelnen 
 
 **mbox.js**
 
-A [!DNL Target] JavaScript-Implementierungsbibliothek, die nicht mehr unterstützt wird.
+Eine [!DNL Target] JavaScript-Implementierungsbibliothek, die nicht mehr unterstützt wird.
 
 **Parameter „mbox“**
 
