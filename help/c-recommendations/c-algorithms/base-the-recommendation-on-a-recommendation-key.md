@@ -5,9 +5,9 @@ title: Wie Basiere ich die Empfehlung auf einem Empfehlungsschlüssel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
+source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
 workflow-type: tm+mt
-source-wordcount: '3877'
+source-wordcount: '3894'
 ht-degree: 40%
 
 ---
@@ -34,7 +34,7 @@ Verschiedene Empfehlungsalgorithmen eignen sich für die Platzierung auf verschi
 
 ## Warenkorbbasiert {#cart-based}
 
-Die [!UICONTROL Warenkorbbasiert] Algorithmustyp ermöglicht die Empfehlung von Artikeln, die auf dem Inhalt des aktuellen Warenkorbs des Besuchers basieren.
+Die [!UICONTROL Warenkorbbasiert] Algorithmustyp ermöglicht die Empfehlung von Artikeln, die auf dem Inhalt des aktuellen Warenkorbs des Besuchers basieren. Die Empfehlungsschlüssel werden über den Mbox-Parameter bereitgestellt `cartIds` in kommagetrennten Werten. Nur die ersten 10 Werte werden berücksichtigt.
 
 Die auf dem Warenkorb basierende Empfehlungslogik ähnelt der[!UICONTROL Empfohlen für Sie]&quot;benutzerbasierter Algorithmus und zum &quot;[!UICONTROL Personen, die diese ansahen, kauften diese]&quot; und &quot;[!UICONTROL Personen, die diese kauften, kauften diese]&quot;artikelbasierte Algorithmen.
 
@@ -324,7 +324,7 @@ Recommendations zeigt andere Artikel an, die den Besucher aufgrund seiner derzei
 
 Wenn diese Option ausgewählt ist, muss der `entity.id`-Wert als Parameter in der Anzeige-Mbox weitergeleitet werden.
 
-Kann mit den folgenden Algorithmen verwendet werden:
+Can be used with the following algorithms:
 
 * [!UICONTROL Artikel mit ähnlichen Attributen]
 * [!UICONTROL Personen, die das ansahen, sahen auch dies an]
