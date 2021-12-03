@@ -35,7 +35,6 @@ Die Open-Time-Personalisierung von Empfehlungen wird von [!DNL Adobe Target] nic
 >
 >* Anfragen sollten auf den niedrigeren Wert von entweder 1.000 Anfragen pro Sekunde oder das 25-fache des höchsten Traffics pro Tag beschränkt sein.
 >* Erhöhen Sie den Traffic jede Minute in Schritten von 200 Anfragen pro Sekunde.
-
 > 
 >Wenden Sie sich an Ihren Account Manager, wenn Sie höhere Limits verwenden möchten.
 
