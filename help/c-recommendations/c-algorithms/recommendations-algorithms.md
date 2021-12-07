@@ -4,14 +4,14 @@ description: Erfahren Sie mehr über die in [!DNL Target Recommendations], einsc
 title: Wo kann ich über die Wissenschaft hinter Recommendations-Algorithmen erfahren?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Die &quot;Science Behind Recommendations&quot;-Algorithmen
+# ![PREMIUM](/help/assets/premium.png) Die Wissenschaft hinter Recommendations-Algorithmen
 
 Eine ausführliche Beschreibung der in [!DNL Adobe Target Recommendations], einschließlich der Logik und mathematischen Details der Modellschulung und des Prozesses der Modellbereitstellung.
 
