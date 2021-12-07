@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '3078'
-ht-degree: 99%
+source-wordcount: '3087'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 7. Dezember | [Die Wissenschaft hinter den Empfehlungsalgorithmen von Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Neues Thema |
 | 2. Dezember | [Stützen der Recommendation auf einen Recommendation-Schlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Der auf dem Warenkorb basierende Algorithmus wurde dahingehend aktualisiert, dass die Empfehlungsschlüssel über die mbox-Parameter cartIds in kommagetrennten Werten bereitgestellt werden. Nur die ersten 10 Werte werden berücksichtigt. |
 | 18. November | [Änderungen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Es wurde ein Hinweis in der Mbox-Zeile hinzugefügt, der angibt, dass mboxes in [!UICONTROL Visual Experience Composer] (VEC) auf Seiten, die at.js 2 verwenden, nicht mehr unterstützt werden.*x*. |
 | 16. November | [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Es wurden Informationen zu den Beschränkungen für Datei-Uploads mit einem Link zu [Informationen zur Datendatei und den Datenquellen für Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=de) im *Komponentenhandbuch für die zentrale Benutzeroberfläche von Experience Cloud* hinzugefügt. |

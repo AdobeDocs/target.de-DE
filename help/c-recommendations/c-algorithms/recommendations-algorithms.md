@@ -1,17 +1,17 @@
 ---
 keywords: Empfehlungsalgorithmen; Modellschulung; Modellbereitstellung; Inhaltsbereitstellung; artikelbasiert; benutzerbasiert; Beliebtheitsbasiert; Warenkorb-basiert; benutzerdefinierte Kriterien
 description: Erfahren Sie mehr über die in [!DNL Target Recommendations], einschließlich Modellschulung und -bereitstellung.
-title: Wo kann ich über die Wissenschaft hinter Recommendations-Algorithmen erfahren?
+title: Wo erhalte ich Informationen über die Wissenschaft hinter den Recommendations-Algorithmen von Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2797'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Die Wissenschaft hinter Recommendations-Algorithmen
+# ![PREMIUM](/help/assets/premium.png) Die Wissenschaft hinter den Empfehlungsalgorithmen von Target
 
 Eine ausführliche Beschreibung der in [!DNL Adobe Target Recommendations], einschließlich der Logik und mathematischen Details der Modellschulung und des Prozesses der Modellbereitstellung.
 
@@ -106,7 +106,7 @@ Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
       Um eine erhebliche Komplexität bei der Berechnung der Ähnlichkeiten zwischen allen N x N-Elementen zu vermeiden, muss die *tf-idf* Der Vektor ist so abgeschnitten, dass er nur die größten 500 Einträge enthält, und berechnet dann die Kosinähnlichkeiten zwischen Elementen mithilfe dieser abgeschnittenen Vektordarstellung. Dieser Ansatz erweist sich als robuster für die Berechnung der geringen Vektorähnlichkeit im Vergleich zu anderen nahe gelegenen Angrenzenmethoden (ANN), z. B. beim Hashing durch lokale Gegebenheiten.
 
-* **Modellbereitstellung**: Dieser Prozess ist mit den kollaborativen Filtertechniken für Elemente identisch, die im vorherigen Abschnitt beschrieben wurden.
+   * **Modellbereitstellung**: Dieser Prozess ist mit den kollaborativen Filtertechniken für Elemente identisch, die im vorherigen Abschnitt beschrieben wurden.
 
 ## Empfehlungen mit mehreren Schlüsseln
 
@@ -137,7 +137,7 @@ Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
    ![FormulaFormula](assets/formula4.png)
 
-   * **Bewertung des Elementähnlungsmodells**: Die Modellbewertung erfolgt anhand der im vorherigen Schritt generierten Empfehlungen und Prognosen zum Testdatensatz. Die Online-Scoring-Phase wird nachgeahmt, indem die Elementverwendungen der einzelnen Benutzer im Testdatensatz chronologisch geordnet werden und dann 100 Empfehlungen für geordnete Untergruppen von Artikeln abgegeben werden, um zu versuchen, nachfolgende Ansichten und Käufe vorherzusagen. Eine Informationsabruffetrik, die [Mittlere durchschnittliche Genauigkeit](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)), wird verwendet, um die Qualität dieser Empfehlungen zu bewerten. Diese Metrik berücksichtigt die Reihenfolge der Empfehlungen und bevorzugt relevante Artikel, die höher oben in der Empfehlungsliste stehen. Dies ist eine wichtige Eigenschaft für Ranking-Systeme.
+   * **Bewertung des Elementähnlungsmodells**: Die Modellbewertung erfolgt anhand der im vorherigen Schritt generierten Empfehlungen und Prognosen zum Testdatensatz. Die Online-Scoring-Phase wird nachgeahmt, indem die Elementverwendungen der einzelnen Benutzer im Testdatensatz chronologisch geordnet werden und dann 100 Empfehlungen für geordnete Untergruppen von Artikeln abgegeben werden, um zu versuchen, nachfolgende Ansichten und Käufe vorherzusagen. Eine Informationsabruffetrik, die [Mittlere durchschnittliche Genauigkeit](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)verwendet wird, um die Qualität dieser Empfehlungen zu bewerten. Diese Metrik berücksichtigt die Reihenfolge der Empfehlungen und bevorzugt relevante Artikel, die höher oben in der Empfehlungsliste stehen. Dies ist eine wichtige Eigenschaft für Ranking-Systeme.
    * **Modellauswahl**: Nach der Offline-Auswertung wird das Modell mit der höchsten durchschnittlichen Genauigkeit ausgewählt und alle einzelnen Element-Element-Empfehlungen dafür berechnet.
    * **Offline-Filter**: Die letzte Stufe der Modellschulung ist die Anwendung aller anwendbaren dynamischen Filter. Nach diesem Schritt werden vorberechnete Empfehlungen global zwischengespeichert und stehen somit zur Verfügung.
 
