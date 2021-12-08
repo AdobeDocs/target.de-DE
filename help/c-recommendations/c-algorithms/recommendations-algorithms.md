@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die in [!DNL Target Recommendations], einsc
 title: Wo erhalte ich Informationen über die Wissenschaft hinter den Recommendations-Algorithmen von Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ Ein Beispiel für eine solche Ähnlichkeit ist das gemeinsame Auftreten zwischen
 
 Wenn z. B.
 
-![Formel](assets/formula.png)
+![Formel für den angezeigten/gekauften Algorithmus](assets/formula.png)
 
 dann sollte Element B nicht zusammen mit Element A empfohlen werden. Vollständige Details dieser Berechnung der Ähnlichkeitsrate der Protokollwahrscheinlichkeit werden bereitgestellt. [in dieser PDF](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 Der logische Ablauf der eigentlichen Algorithmusimplementierung wird im folgenden Schemadiagramm dargestellt:
 
-![Schemadiagramm](assets/diagram1.png)
+![Schemadiagramm eines angezeigten/gekauften Algorithmus](assets/diagram1.png)
 
 Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
@@ -83,7 +83,7 @@ Bei diesem Algorithmustyp werden zwei Elemente als verwandt betrachtet, wenn ihr
 
 Auch wenn die Bereitstellung von Modellen und die Bereitstellung von Inhalten Aspekte von [!DNL Target]Die Algorithmen der Ähnlichkeit von Inhalten sind mit anderen elementbasierten Algorithmen identisch. Die Trainings-Schritte für Modelle unterscheiden sich drastisch und umfassen eine Reihe von Schritten zur Verarbeitung natürlicher Sprachen und zur Vorverarbeitung, wie im folgenden Diagramm dargestellt. Kernstück der Ähnlichkeitsberechnung ist die Verwendung der Kosinähnlichkeit modifizierter tf-idf-Vektoren, die jedes Element im Katalog darstellen.
 
-![Abbildung 2](assets/diagram2.png)
+![Diagramm, das den Fluss des Prozesses der Ähnlichkeit von Inhalten anzeigt](assets/diagram2.png)
 
 Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
@@ -96,13 +96,13 @@ Diese Schritte werden im Einzelnen wie folgt beschrieben:
    * **n-Gramm-Erstellung**: Nach den vorherigen Schritten wird jedes Wort als Token behandelt. Der Prozess, zusammenhängende Sequenzen von Token zu einem einzigen Token zu kombinieren, wird als n-Gramm-Erstellung bezeichnet. [!DNL Target]Die Algorithmen von berücksichtigen bis zu 2 Gramm.
    * **tf-idf-Berechnung**: Der nächste Schritt umfasst die Erstellung von tf-idf-Vektoren, die die relative Bedeutung von Token in der Elementbeschreibung widerspiegeln. Für jeden Token/Begriff t in einem Element i in einem Katalog D mit |D| Elemente, der Begriff Häufigkeit TF(t, i) wird zuerst berechnet (die Häufigkeit, mit der der Begriff im Element i erscheint), sowie die Dokumentfrequenz DF(t, D). Im Wesentlichen die Anzahl der Elemente, in denen das Token vorhanden ist. Die tf-idf-Maßnahme ist dann
 
-      ![Formel](assets/formula2.png)
+      ![Formel mit tf-idf-Kennzahl](assets/formula2.png)
 
       [!DNL Target] verwendet das *tf-idf* Implementierung der -Funktion, die jedes Token unter der Haube auf einen Bereich von 218 Token hasst. In diesem Schritt wird das kundenspezifische Attribut Boosting und Burying auch angewendet, indem die Begriffsfrequenzen in jedem Vektor basierend auf den Einstellungen im [Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **Berechnung der Elementähnlichkeit**: Die Berechnung der endgültigen Elementähnlichkeit erfolgt mithilfe einer Näherungskosinähnlichkeit. Für zwei Elemente: *A* und *B* Bei den Vektoren tA und tB wird die Kosinähnlichkeit wie folgt definiert:
 
-      ![FormulaFormula](assets/formula3.png)
+      ![Formel zur Darstellung der Artikelähnlichkeits-Berechnung](assets/formula3.png)
 
       Um eine erhebliche Komplexität bei der Berechnung der Ähnlichkeiten zwischen allen N x N-Elementen zu vermeiden, muss die *tf-idf* Der Vektor ist so abgeschnitten, dass er nur die größten 500 Einträge enthält, und berechnet dann die Kosinähnlichkeiten zwischen Elementen mithilfe dieser abgeschnittenen Vektordarstellung. Dieser Ansatz erweist sich als robuster für die Berechnung der geringen Vektorähnlichkeit im Vergleich zu anderen nahe gelegenen Angrenzenmethoden (ANN), z. B. beim Hashing durch lokale Gegebenheiten.
 
@@ -121,7 +121,7 @@ Diese Algorithmen basieren auf den im Abschnitt elementbasierte Empfehlungen bes
 
 Die Logik der Trainings- und Scoring-Schritte für Modelle wird im folgenden Diagramm dargestellt:
 
-![Diagramm](assets/diagram3.png)
+![Diagramm, das die Logik der Modellschulungs- und -auswertungsschritte anzeigt](assets/diagram3.png)
 
 Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
@@ -135,7 +135,7 @@ Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
    Der Schulungsschritt berechnet verschiedene Arten von Vektorähnlichkeiten: LLR-Ähnlichkeit ([hier diskutiert](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), Kosinähnlichkeit (zuvor definiert) und eine normalisierte L2-Ähnlichkeit, definiert als:
 
-   ![FormulaFormula](assets/formula4.png)
+   ![Formel zur Berechnung der Ausbildung](assets/formula4.png)
 
    * **Bewertung des Elementähnlungsmodells**: Die Modellbewertung erfolgt anhand der im vorherigen Schritt generierten Empfehlungen und Prognosen zum Testdatensatz. Die Online-Scoring-Phase wird nachgeahmt, indem die Elementverwendungen der einzelnen Benutzer im Testdatensatz chronologisch geordnet werden und dann 100 Empfehlungen für geordnete Untergruppen von Artikeln abgegeben werden, um zu versuchen, nachfolgende Ansichten und Käufe vorherzusagen. Eine Informationsabruffetrik, die [Mittlere durchschnittliche Genauigkeit](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)verwendet wird, um die Qualität dieser Empfehlungen zu bewerten. Diese Metrik berücksichtigt die Reihenfolge der Empfehlungen und bevorzugt relevante Artikel, die höher oben in der Empfehlungsliste stehen. Dies ist eine wichtige Eigenschaft für Ranking-Systeme.
    * **Modellauswahl**: Nach der Offline-Auswertung wird das Modell mit der höchsten durchschnittlichen Genauigkeit ausgewählt und alle einzelnen Element-Element-Empfehlungen dafür berechnet.
@@ -149,7 +149,7 @@ Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
 Diese Prozesse werden in der folgenden Abbildung veranschaulicht, in der ein Besucher Artikel A und Artikel B gekauft hat. Einzelne Empfehlungen werden mit den unter jeder Artikelbezeichnung angezeigten Offline-Ähnlichkeitswerten abgerufen. Nach dem Abrufen werden die Empfehlungen mit den bewerteten Ähnlichkeitswerten zusammengeführt. Schließlich werden in einem Szenario, in dem der Kunde angegeben hat, dass zuvor angezeigte und gekaufte Artikel herausgefiltert werden müssen, im Filterschritt die Elemente A und B aus der Liste der Empfehlungen entfernt.
 
-![DiagrammDiagramm](assets/diagram4.png)
+![Abbildung der Verarbeitung von Algorithmen mit mehreren Schlüsseln](assets/diagram4.png)
 
 ## Popularitätsbasiert
 
