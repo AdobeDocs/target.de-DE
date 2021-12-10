@@ -1,24 +1,23 @@
 ---
-keywords: Promotions;Vorwärts-Promotions;Rückwärts-Promotions;Promotions-Typ;Liste von Artikeln;Anzeigen nach Attribut;Anzeigen einer Sammlung
-description: Erfahren Sie, wie Sie beworbene Artikel hinzufügen und deren Platzierung in Ihren Adoben [!DNL Target] Recommendations-Designs steuern. Sie können statische und dynamische Promotions hinzufügen.
-title: Wie Hinzufügen ich Promotions in Recommendations Designs?
+keywords: Promotions; Vorwärts-Promotions; Rückwärts-Promotions; Promotions-Typ; Liste der Artikel; Anzeigen nach Attribut; Anzeigen einer Sammlung
+description: Erfahren Sie, wie Sie beworbene Artikel hinzufügen und ihre Platzierung in Ihrer Adobe steuern können. [!DNL Target] Recommendations-Designs. Sie können statische und dynamische Promotions hinzufügen.
+title: Wie füge ich Promotions in Recommendations-Designs hinzu?
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 0d8d04091968923c7d343692140279c026d579f4
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 56%
+source-wordcount: '688'
+ht-degree: 50%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Promotions hinzufügen
 
-Fügen Sie Promotionsartikel hinzu und steuern Sie deren Platzierung in Ihren Adobe Target-Recommendations-Designs. Sie können statische und dynamische Promotions hinzufügen.
+Fügen Sie Promotionsartikel hinzu und steuern Sie deren Platzierung in Ihren [!DNL Adobe Target Recommendations]-Designs. Sie können statische und dynamische Promotions hinzufügen.
 
 >[!IMPORTANT]
 >
->Statische und dynamische Ausschlussregeln sind leistungsstarke Funktionen, die Ihnen beim Marketing helfen können. Ausführliche Informationen, Beispiele und Anwendungsszenarios finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+>Statische und dynamische Ausschlussregeln sind leistungsstarke Funktionen, die Ihnen beim Marketing helfen können. Ausführliche Informationen, Beispiele und Anwendungsszenarien finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
 Beim Erstellen einer [!DNL Recommendations]-Aktivität haben Sie die Möglichkeit, beworbene Artikel in Ihr [!DNL Recommendations]-Design einzufügen. Promotions nutzen verfügbare Slots in einem Design und haben Vorrang vor Kriterienergebnissen und Sicherungsempfehlungen. Wenn Ihr Design zum Beispiel über sechs Slots verfügt und Sie zwei davon für Promotions einsetzen, stehen vier Slots für Artikel zur Verfügung, die anhand von Kriterien empfohlen werden.
 
@@ -26,7 +25,7 @@ Promotions werden in Bezug auf Artikeln dedupliziert, die von den Kriterien für
 
 Sie können einzelne Artikel bewerben, Artikel dynamisch bewerben, Artikel auf Grundlage von Attributen bewerben oder Sammlungen bewerben.
 
-![](assets/add_promotion_toggles.png)
+![[!UICONTROL Vorwärts-Promotion] und [!UICONTROL Rückwärts-Promotion] Optionen in [!DNL Target] Benutzeroberfläche](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
@@ -39,6 +38,7 @@ Sie können einzelne Artikel bewerben, Artikel dynamisch bewerben, Artikel auf G
    ![Hinzufügen von Optionen für die Vorwärts-Promotion ](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
    Sie können Promotions sowohl vor *als auch* nach Ihren Kriterienergebnissen einfügen.
+
 1. Legen Sie die Anzahl der Design-Slots fest, die für beworbene Artikel verwendet werden sollen.
 
    Je nach [!DNL Recommendations]-Design können Sie bis zu 20 Slots verwenden. Jeder von Ihnen genutzte Slot steht nicht mehr für Empfehlungen, die auf Grundlage Ihrer Kriterien zurückgegeben werden, zur Verfügung.
@@ -53,28 +53,28 @@ Sie können einzelne Artikel bewerben, Artikel dynamisch bewerben, Artikel auf G
 
    * Wählen Sie **[!UICONTROL Hervorheben nach Attribut]** aus und fügen Sie Regeln hinzu, um die Attribute der Artikel zu definieren, die beworben werden sollen.
 
-      Wenn Sie „Hervorheben nach Attribut“ auswählen, können Sie dynamische Übereinstimmungen erstellen. Weitere Informationen finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+      Wenn Sie [!UICONTROL Hervorheben nach Attribut], können Sie dynamische Übereinstimmungen erstellen. Weitere Informationen finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
    * Wählen Sie **[!UICONTROL Sammlung hervorheben]** aus und wählen Sie eine Sammlung von Artikeln aus, die beworben werden soll.
 
-      Sie können auch neue Sammlungen erstellen, die für Promotions verwendet werden sollen. Siehe [Erstellen einer Sammlung](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) für weitere Informationen.
-   Wenn Sie **[!UICONTROL Liste der Elemente]** als **[!UICONTROL Promotion-Typ]** auswählen, können Sie bei Bedarf das Kontrollkästchen **[!UICONTROL Elementreihenfolge zufällig]** aktivieren.
+      Sie können auch neue Sammlungen erstellen, die für Promotions verwendet werden sollen. Siehe [Kollektion erstellen](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) für weitere Informationen.
+   Wenn Sie **[!UICONTROL Liste der Elemente]** als **[!UICONTROL Promotion-Typ]** können Sie die **[!UICONTROL Elementreihenfolge randomisieren]** aktivieren, falls gewünscht.
 
-   Die standardmäßige Sortierreihenfolge für [!UICONTROL Liste der Elemente] basiert auf der Reihenfolge, die Sie in der Benutzeroberfläche oder API der Zielgruppe eingegeben haben. Wenn Ihre Liste mehr Artikel enthält als die Anzahl der Plätze, die Sie für Promotions festgelegt haben, werden mit der Option [!UICONTROL Elementreihenfolge zufällig] die beworbenen Artikel zufällig, die in Ihrem Entwurf angezeigt werden, zugeordnet. Wenn Sie diese Option wählen, wählen Sie [!DNL Target] zufällig die Elemente aus, die für Promotions in der Vorlage aktiviert wurden, und zwar aus dem gesamten Promotion-Satz für jeden Treffer.
+   Die standardmäßige Sortierreihenfolge für [!UICONTROL Liste der Elemente] basiert auf der Reihenfolge, die Sie in der [!DNL Target] Benutzeroberfläche oder API. Wenn Ihre Liste mehr Artikel enthält, als Slots für Promotions festgelegt sind, wird die [!UICONTROL Elementreihenfolge randomisieren] -Option randomisiert die beworbenen Elemente, die in Ihrem Design angezeigt werden. Die Auswahl dieser Option führt zu [!DNL Target] zufällige Auswahl der für Promotions aktivierten Elemente in der Vorlage aus dem gesamten Promotion-Satz bei jedem Treffer.
 
-   Wenn Ihre Entitäten kein `entity.value`-Attribut haben (Sie verkaufen beispielsweise keine Produkte), können Sie einen numerischen Wert an das `entity.value`-Attribut übergeben, z. B. das Veröffentlichungsdatum. In diesem Fall können beworbene Artikel basierend auf dem neuesten Veröffentlichungsdatum in absteigender Reihenfolge beworben werden. Das `entity.value`-Attribut ist vom Typ Dublette. es akzeptiert keine Zeichenfolgen.
+   Wenn Ihre Entitäten nicht über eine `entity.value` -Attribut verwenden (Sie verkaufen beispielsweise keine Produkte), können Sie einen numerischen Wert in die `entity.value` -Attribut, z. B. das Veröffentlichungsdatum. In diesem Fall können beworbene Artikel basierend auf dem letzten Veröffentlichungsdatum in absteigender Reihenfolge beworben werden. Die `entity.value` -Attribut vom Typ &quot;double&quot; ist; es akzeptiert keine Zeichenfolgen.
 
-   Wenn Sie die Option **[!UICONTROL Nach Attribut fördern]** oder **[!UICONTROL Sammlung fördern]** ausgewählt haben, ist die Option zur Randomisierung der Bestellung nicht verfügbar.
+   Wenn Sie die Option **[!UICONTROL Hervorheben nach Attribut]** oder **[!UICONTROL Weiterleiten einer Sammlung]** -Option, ist die Option zur Randomisierung der Bestellung nicht verfügbar.
 
-   Beim Anzeigen bestimmter Elemente mit den Optionen [!UICONTROL Nach Attribut] oder [!UICONTROL Sammlung fördern] basiert die Standardreihenfolge, in der Elemente angezeigt werden, auf dem Attribut `entity.value` in absteigender numerischer Reihenfolge.
+   Wenn Sie bestimmte Artikel mit dem [!UICONTROL Hervorheben nach Attribut] oder [!UICONTROL Weiterleiten einer Sammlung] -Optionen, basiert die Standardreihenfolge, in der die Elemente angezeigt werden, auf der `entity.value` -Attribut in absteigender numerischer Reihenfolge angezeigt.
 
    Die folgende Tabelle zeigt die Unterschiede zwischen diesen Optionen:
 
-   | Promotion-Typ | Standardsortierung | Sicherungssortierung | Dynamische Filteroption |
+   | Art der Promotion | Standardsortierung | Sicherungssortierung | Dynamische Filteroption |
    | --- | --- | --- | --- |
-   | Liste der Elemente | In der Benutzeroberfläche/API der Zielgruppe eingegebene Reihenfolge | Zufällig (bei Auswahl über UI/API) | Nein |
-   | Promote nach Attribut | `entity.value` (absteigende Reihenfolge) | Bei jeder Anforderung randomisiert (wenn kein `entity.value`-Attribut vorhanden ist) | Ja |
-   | Sammlung bewerben | `entity.value` (absteigende Reihenfolge) | Bei jeder Anforderung randomisiert (wenn kein `entity.value`-Attribut vorhanden ist) | Nein |
+   | [!UICONTROL Liste der Elemente] | Reihenfolge der Eingabe in der Target-Benutzeroberfläche/-API | Zufällig (bei Auswahl über Benutzeroberfläche/API) | Nein |
+   | [!UICONTROL Hervorheben nach Attribut] | `entity.value` (absteigende Reihenfolge) | Keine Randomisierung | Ja |
+   | [!UICONTROL Weiterleiten einer Sammlung] | `entity.value` (absteigende Reihenfolge) | Keine Randomisierung | Nein |
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
