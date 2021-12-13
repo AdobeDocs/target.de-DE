@@ -1,13 +1,13 @@
 ---
 keywords: änderungsprotokoll zur target-dokumentation;aktualisierungen in der dokumentation;neue themen;bearbeitungen;aktualisierungen;aktualisierung
-description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Produktdokumentation von Adobe [!DNL Target] '
+description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Produktdokumentation von Adobe  [!DNL Target] '
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
 source-wordcount: '3087'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -20,12 +20,12 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 7. Dezember | [Die Wissenschaft hinter den Empfehlungsalgorithmen von Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Neues Thema |
-| 2. Dezember | [Stützen der Recommendation auf einen Recommendation-Schlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Der auf dem Warenkorb basierende Algorithmus wurde dahingehend aktualisiert, dass die Empfehlungsschlüssel über die mbox-Parameter cartIds in kommagetrennten Werten bereitgestellt werden. Nur die ersten 10 Werte werden berücksichtigt. |
+| 2. Dezember | [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Der auf dem Warenkorb basierende Algorithmus wurde dahingehend aktualisiert, dass die Empfehlungsschlüssel über die mbox-Parameter „cartIds“ in kommagetrennten Werten bereitgestellt werden. Nur die ersten 10 Werte werden berücksichtigt. |
 | 18. November | [Änderungen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Es wurde ein Hinweis in der Mbox-Zeile hinzugefügt, der angibt, dass mboxes in [!UICONTROL Visual Experience Composer] (VEC) auf Seiten, die at.js 2 verwenden, nicht mehr unterstützt werden.*x*. |
 | 16. November | [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Es wurden Informationen zu den Beschränkungen für Datei-Uploads mit einem Link zu [Informationen zur Datendatei und den Datenquellen für Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=de) im *Komponentenhandbuch für die zentrale Benutzeroberfläche von Experience Cloud* hinzugefügt. |
 |  | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Der Abschnitt „Wie wirken sich die SameSite-Cookie-Richtlinien von Google Chrome auf VEC und EEC aus?“ wurde mit Informationen zur neuesten Version der Helper-Erweiterung aktualisiert. |
 |  | [Visual Experience Composer Helper-Erweiterung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Der Abschnitt „Abrufen und Installieren der VEC Helper-Erweiterung für den Browser“ wurde aktualisiert. |
-| 12. November | [Integration von [!DNL Recommendations] in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Es wurden neue einleitende Informationen hinzugefügt. |
+| 12. November | [Integration von  [!DNL Recommendations]  in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Es wurden neue einleitende Informationen hinzugefügt. |
 | 28. Oktober | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu den folgenden Versionen hinzugefügt:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zur „at.js“-Version 2.7.0 hinzugefügt. |
 |  | [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | Der folgende Abschnitt wurde hinzugefügt: „Unterstützung für benutzerdefinierte Elemente“. |
@@ -139,7 +139,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | 1. Juni | [CNAME und [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Folgende häufig gestellte Fragen wurden hinzugefügt:<ul><li>Wie verwende ich einen Ausschluss-Link mit CNAME?</li></ul> |
 |  | [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Der Abschnitt „Ausschluss-Link“ wurde aktualisiert, darin wird nun die Verwendung vom Ausschluss-Link mit CNAME erläutert. |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Es wurden Informationen über das [!DNL Adobe Experience Platform Web SDK] hinzugefügt. |
-|  | [Analytics zur [!DNL Target] Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | Es wurde ein neuer Abschnitt hinzugefügt:<ul><li>Implementierungsschritte für eine [!DNL Adobe Experience Platform Web SDK]-Implementierung</li></ul> |
+|  | [Analytics zur  [!DNL Target]  Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | Es wurde ein neuer Abschnitt hinzugefügt:<ul><li>Implementierungsschritte für eine [!DNL Adobe Experience Platform Web SDK]-Implementierung</li></ul> |
 |  | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Es wurden Informationen zur Verwendung von Umleitungsangeboten mit A4T und dem Platform Web SDK hinzugefügt. |
 |  | [Antwort-Token](/help/administrating-target/response-tokens.md) | Es wurden Informationen zur Verwendung von Antwort-Token mit [!DNL Adobe Experience Platform Web SDK] hinzugefügt.<br>**Hinweis**: Diese Funktionen werden in einer zukünftigen Version des Platform Web SDK veröffentlicht (Datum noch festzulegen). |
 |  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Adobe Experience Platform Web SDK-Version 2.5.0 (1. Juni 2021) hinzugefügt. |
