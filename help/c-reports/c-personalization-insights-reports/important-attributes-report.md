@@ -1,59 +1,58 @@
 ---
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; Auto-Target; Auto Target; Auto-Target-Bericht; Auto Target-Bericht; Personalisierung; Insights; FAQ; häufig gestellte Fragen; wichtige Attribute
-description: Erfahren Sie, wie Sie den Bericht "Wichtige Attribute"in Adobe [!DNL Target] verwenden, der die wichtigsten Attribute anzeigt, die das Personalisierungsmodell und seine relative Bedeutung beeinflussten.
+description: Erfahren Sie, wie Sie die [!UICONTROL Wichtige Attribute] -Bericht, der die wichtigsten Attribute anzeigt, die das Personalisierungsmodell beeinflusst haben, und deren relative Bedeutung.
 title: Was ist der Bericht "Wichtige Attribute"?
-feature: Berichte
+feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 92%
+source-wordcount: '1661'
+ht-degree: 86%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Bericht für wichtige Attribute
 
-Informationen zum Bericht „Wichtige Attribute“, einem der beiden für Benutzer der AP (Automated Personalization)- und AT (Automatisches Targeting)-Aktivitäten verfügbaren speziellen Berichte.
+Informationen über [!UICONTROL Wichtige Attribute] einen der beiden für Benutzer von [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) Tätigkeiten.
 
 >[!NOTE]
 >
->Beachten Sie Folgendes, wenn Sie Personalization Insight-Berichte verwenden:
+>Beachten Sie Folgendes bei der Verwendung von [!UICONTROL Personalization Insights] Berichte:
 >
 >* AP- und AT-Aktivitäten sind im Rahmen von [!DNL Target Premium] verfügbar. Sie sind nicht mit [!DNL Target Standard]ohne[!DNL Target Premium] Lizenz enthalten.
-   >
-   >
-* [!UICONTROL Personalization Insights-Berichte sind nur für AP- und AT-Aktivitäten verfügbar, die ein Konversionsoptimierungsziel verwenden. ] Auch Aktivitäten, deren Optimierungsziel von Konversion zu Umsatz geändert wurde, nachdem die Aktivität bereits live war, werden nicht unterstützt.
-   >
-   >
-* [!UICONTROL Personalization Insight-] Berichte stehen nur zur Verfügung, wenn die  [!UICONTROL Primär-] Zielvorgabe aus der Dropdown-Liste  [!UICONTROL Report ] Metriken ausgewählt wurde.
-   >
-   >
-* Personalization Insights-Berichte werden nur in der [Standardumgebung](/help/administrating-target/hosts.md) unterstützt.
-   >
-   >
-* [!UICONTROL Personalization Insight-] Berichte werden nur für Aktivitäten generiert, die sich im   Livestatus befinden und die mindestens 15 Tage lang aktiviert wurden und Traffic erhalten haben.
+>
+>* [!UICONTROL Personalization Insights-Berichte sind nur für AP- und AT-Aktivitäten verfügbar, die ein Konversionsoptimierungsziel verwenden. ] Auch Aktivitäten, deren Optimierungsziel von Konversion zu Umsatz geändert wurde, nachdem die Aktivität bereits live war, werden nicht unterstützt.
+>
+>* [!UICONTROL Personalization Insights] Berichte sind nur verfügbar, wenn die Variable [!UICONTROL Primäres Ziel] wird aus dem [!UICONTROL Berichtsmetrik] Dropdown-Liste.
+>
+>* Personalization Insights-Berichte werden nur in der [Standardumgebung](/help/administrating-target/hosts.md) unterstützt.
+>
+>* [!UICONTROL Personalization Insights] -Berichte werden nur für Aktivitäten generiert, die sich im [!UICONTROL Live] und wurden mindestens 15 Tage lang aktiviert und erhalten Traffic.
 
 
 In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig für die Personalisierungsentscheidung des Modells. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar.
 
-## Zugriff auf den Bericht „Wichtige Attribute“{#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## Zugriff auf [!UICONTROL Wichtige Attribute] Bericht {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und dann auf die gewünschte [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)- oder [Auto-Zielgruppe](/help/c-activities/auto-target/auto-target-to-optimize.md)-Aktivität aus der Liste.
+1. Klicken **[!UICONTROL Tätigkeiten]** und klicken Sie dann auf die gewünschte [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) oder [Automatisches Targeting](/help/c-activities/auto-target/auto-target-to-optimize.md) -Aktivität aus der Liste aus.
 
    Sollten Ihnen viele Aktivitäten zur Auswahl stehen, können Sie die Liste filtern, indem Sie Optionen aus den Dropdownlisten [!UICONTROL Typ], [!UICONTROL Status], [!UICONTROL Berichtsquelle], [!UICONTROL Experience Composer], [!UICONTROL Metriktyp] und [!UICONTROL Aktivitätsquelle] auswählen.
 
 1. Klicken Sie auf **[!UICONTROL Berichte]**.
 
-   Der Bericht [Automated Personalization Summary](/help/c-reports/reports-ap.md) oder [Zusammenfassung der automatischen Zielgruppe](/help/c-reports/auto-target-summary-report.md) enthält Informationen zur Leistung Ihrer Aktivitäten, dargestellt durch das Symbol des ersten Bildschirms. Die beiden zusätzlichen Symbole stehen für die beiden Personalization Insights-Berichte: „Automatisierte Segmente“ und „Wichtige Attribute“. Beachten Sie, dass das automatische Targeting ein zusätzliches Diagrammsymbol für die grafische Ansicht des Berichts [!UICONTROL „Zusammenfassung“] umfasst.
+   Die [Automated Personalization-Zusammenfassung](/help/c-reports/reports-ap.md) oder [Zusammenfassung für automatisches Targeting](/help/c-reports/auto-target-summary-report.md) angezeigt, der Informationen über die Leistung Ihrer Aktivitäten bereitstellt und durch das Symbol des ersten Bildschirms dargestellt wird. Die beiden zusätzlichen Symbole stellen die beiden [!UICONTROL Personalization Insights] Berichte: [!UICONTROL Automatisierte Segmente] und [!UICONTROL Wichtige Attribute].
 
-   ![](assets/personalization_insights.png)
+   ![Zusammenfassungsbericht für Automated Personalization-Aktivität](assets/summary-report-ap.png)
+
+   Beachten Sie Folgendes: [!UICONTROL Automatisches Targeting] verfügt über ein zusätzliches Diagrammsymbol für die grafische Ansicht des [!UICONTROL Zusammenfassung] Bericht.
+
+   ![Zusammenfassungsbericht für die Aktivität &quot;Automatisches Targeting&quot;](assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
-   >Der Bericht [!UICONTROL Wichtige Attribute] steht erst nach mindestens 15 Tagen nach der Aktivierung Ihrer Aktivität zur Verfügung. Bis dahin können Sie nicht auf diesen Bericht zugreifen und das Symbol für [!UICONTROL „Wichtige Attribute“] ist ausgegraut. Nach 15 Tagen und sofern ausreichend personalisierter Traffic in Ihrer Aktivität verfügbar ist, ist der Bericht [!UICONTROL Wichtige Attribute] verfügbar.
+   >Der Bericht [!UICONTROL Wichtige Attribute] steht erst nach mindestens 15 Tagen nach der Aktivierung Ihrer Aktivität zur Verfügung. Bis dahin können Sie nicht auf diesen Bericht zugreifen und das Symbol für [!UICONTROL „Wichtige Attribute“] ist ausgegraut. Nach 15 Tagen und sofern ausreichend personalisierter Traffic in Ihrer Aktivität verfügbar ist, wird die [!UICONTROL Wichtige Attribute] -Bericht verfügbar ist.
 
-1. 15 Tage nach der Aktivierung der Aktivität können Sie auf das Symbol **[!UICONTROL Wichtige Attribute]** klicken.
+1. 15 Tage nach der Aktivierung der Aktivität klicken Sie auf das **[!UICONTROL Wichtige Attribute]** Symbol.
 
    ![](assets/model_attribute_ranking.png)
 
