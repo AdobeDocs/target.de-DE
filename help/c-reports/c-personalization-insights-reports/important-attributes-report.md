@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die [!UICONTROL Wichtige Attribute] -Bericht,
 title: Was ist der Bericht "Wichtige Attribute"?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 86%
+source-wordcount: '1709'
+ht-degree: 82%
 
 ---
 
@@ -58,7 +58,13 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
 
 1. Wählen Sie den gewünschten Datumsbereich aus.
 
-   Im Gegensatz zum Bericht [!UICONTROL „Zusammenfassung“] (Performance-Reporting) sind [!UICONTROL Personalization Insights], einschließlich [!UICONTROL „Wichtige Attribute“], nur für feste Zeiträume verfügbar: 15, 30, 45, 60 oder 90 Tage. Diese festen Datumsbereiche ermöglichen es [!UICONTROL Personalization Insights], ausreichend Daten anzusammeln, um zu verhindern, dass Insights aus kurzfristigen Mustern in Ihrer Aktivität abgeleitet werden. Die beiden Entscheidungen, die Sie beim Datumsbereich treffen können, sind „Enddatum“ und „Dauer“. „Start“ ist ausgegraut. Das Startdatum ändert sich automatisch basierend auf Ihrer Auswahl für Enddatum und Dauer.
+   Im Gegensatz zu [!UICONTROL Zusammenfassung] Bericht (Leistungsberichte), [!UICONTROL Personalization Insights], einschließlich [!UICONTROL Wichtige Attribute], ist nur für feste Datumsbereiche verfügbar: 15 Tage, 30 Tage und 60 Tage.
+
+   >[!NOTE]
+   >
+   >Die [!DNL Target] In der Benutzeroberfläche können Sie derzeit Datumsbereiche für 45 Tage und 90 Tage auswählen. Die Variable [!DNL Target] -Backend verarbeitet diese beiden Bereiche nicht. Aufgrund von Nutzungsmustern und zur Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wird aktualisiert, um die derzeit zulässigen Bereiche widerzuspiegeln: 15, 30 und 60 Tage.
+
+   Diese festen Datumsbereiche ermöglichen es [!UICONTROL Personalization Insights], ausreichend Daten anzusammeln, um zu verhindern, dass Insights aus kurzfristigen Mustern in Ihrer Aktivität abgeleitet werden. Die beiden Entscheidungen, die Sie beim Datumsbereich treffen können, sind „Enddatum“ und „Dauer“. „Start“ ist ausgegraut. Das Startdatum ändert sich automatisch basierend auf Ihrer Auswahl für Enddatum und Dauer.
 
    ![](assets/personalization_insights_calendar_1.png)
 
