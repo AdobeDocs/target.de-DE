@@ -1,50 +1,46 @@
 ---
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; auto-target; auto target; Auto-Target-Bericht; auto-target-Bericht; Personalisierung; Insights; automatisierte Segmente; FAQ; häufig gestellte Fragen
-description: Erfahren Sie, wie verschiedene von Adobe [!DNL Target] Personalisierungsmodellen definierte Segmente auf Angebote/Erlebnisse in der Aktivität reagieren, indem Sie den Bericht "Automatisierte Segmente"anzeigen.
+description: Erfahren Sie, wie verschiedene von Adobe definierte Segmente funktionieren. [!DNL Target] Personalisierungsmodelle reagieren auf Angebote/Erlebnisse in der Aktivität, indem sie den Bericht "Automatisierte Segmente"anzeigen.
 title: Was ist der Bericht "Automatisierte Segmente"?
-feature: Berichte
+feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 6f5e999859847e93e66372a9e7dc9814f7e2c84d
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2107'
 ht-degree: 82%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Bericht für automatisierte Segmente
 
-Informationen zum Bericht [!UICONTROL Automatisierte Segmente], einem der beiden speziellen Berichte, die Benutzern von [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) zur Verfügung stehen.
+Informationen über [!UICONTROL Automatisierte Segmente] einen der beiden für Benutzer von [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) Tätigkeiten.
 
 >[!NOTE]
 >
 >Beachten Sie bei Verwendung von Personalization Insights-Berichten Folgendes:
 >
 >* AP- und AT-Aktivitäten sind im Rahmen von [!DNL Target Premium] verfügbar. Sie sind nicht mit [!DNL Target Standard]ohne[!DNL Target Premium] Lizenz enthalten.
-   >
-   >
-* [!UICONTROL Personalization Insights-Berichte sind nur für AP- und AT-Aktivitäten verfügbar, die ein Konversionsoptimierungsziel verwenden. ] Auch Aktivitäten, deren Optimierungsziel von Konversion zu Umsatz geändert wurde, nachdem die Aktivität bereits live war, werden nicht unterstützt.
-   >
-   >
-* [!UICONTROL Personalization ] Insights-Berichte sind nur verfügbar, wenn die  [!UICONTROL Primären ] Ziele aus der Dropdown-Liste  [!UICONTROL Berichtsmetrik ] ausgewählt wurden.
-   >
-   >
-* Personalization Insights-Berichte werden nur in der [Standardumgebung](/help/administrating-target/hosts.md) unterstützt.
-   >
-   >
-* [!UICONTROL Personalization ] Insights-Berichte werden nur für Aktivitäten generiert, die sich im   Liveststatus befinden und die mindestens 15 Tage lang aktiviert wurden und Traffic erhalten.
+>
+>* [!UICONTROL Personalization Insights-Berichte sind nur für AP- und AT-Aktivitäten verfügbar, die ein Konversionsoptimierungsziel verwenden. ] Auch Aktivitäten, deren Optimierungsziel von Konversion zu Umsatz geändert wurde, nachdem die Aktivität bereits live war, werden nicht unterstützt.
+>
+>* [!UICONTROL Personalization Insights] Berichte sind nur verfügbar, wenn die Variable [!UICONTROL Primäres Ziel] wird aus dem [!UICONTROL Berichtsmetrik] Dropdown-Liste.
+>
+>* Personalization Insights-Berichte werden nur in der [Standardumgebung](/help/administrating-target/hosts.md) unterstützt.
+>
+>* [!UICONTROL Personalization Insights] -Berichte werden nur für Aktivitäten generiert, die sich im [!UICONTROL Live] und wurden mindestens 15 Tage lang aktiviert und erhalten Traffic.
 
 
 Verschiedene Besucher reagieren unterschiedlich auf die Angebote/Erlebnisse in Ihrer AP-/AT-Aktivität. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den Target-Personalisierungsmodellen definiert werden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben.
 
 ## Zugriff auf den Bericht für automatisierte Segmente {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und klicken Sie dann in der Liste auf die gewünschte Aktivität [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) oder [Automatisches Targeting](/help/c-activities/auto-target/auto-target-to-optimize.md) .
+1. Klicken **[!UICONTROL Tätigkeiten]** und klicken Sie dann auf die gewünschte [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) oder [Automatisches Targeting](/help/c-activities/auto-target/auto-target-to-optimize.md) -Aktivität aus der Liste aus.
 
-   Wenn Sie viele Aktivitäten haben, können Sie die Liste filtern, indem Sie Optionen aus [!UICONTROL Typ], [!UICONTROL Status], [!UICONTROL Eigenschaft], [!UICONTROL Berichtsquelle], [!UICONTROL Experience Composer], [!UICONTROL Metriktyp] auswählen. und Dropdownlisten [!UICONTROL Aktivitätsquelle] .
+   Wenn Sie viele Aktivitäten haben, können Sie die Liste filtern, indem Sie Optionen aus dem [!UICONTROL Typ], [!UICONTROL Status], [!UICONTROL Eigenschaft], [!UICONTROL Berichtsquelle], [!UICONTROL Experience Composer], [!UICONTROL Metriktyp]und [!UICONTROL Aktivitätsquelle] Dropdown-Listen.
 
 1. Klicken Sie auf **[!UICONTROL Berichte]**.
 
-   Der Bericht [Automated Personalization-Zusammenfassung](/help/c-reports/reports-ap.md) oder [Zusammenfassung für automatisches Targeting](/help/c-reports/auto-target-summary-report.md) wird angezeigt und enthält Informationen zur Performance Ihrer Aktivitäten, dargestellt durch das erste Bildschirmsymbol. Die beiden zusätzlichen Symbole stehen für die beiden Personalization Insights-Berichte: „Automatisierte Segmente“ und „Wichtige Attribute“. Das automatische Targeting verfügt über ein zusätzliches Diagrammsymbol für die grafische Ansicht des Berichts [!UICONTROL Zusammenfassung] .
+   Die [Automated Personalization-Zusammenfassung](/help/c-reports/reports-ap.md) oder [Zusammenfassung für automatisches Targeting](/help/c-reports/auto-target-summary-report.md) angezeigt, der Informationen über die Leistung Ihrer Aktivitäten bereitstellt und durch das Symbol des ersten Bildschirms dargestellt wird. Die beiden zusätzlichen Symbole stehen für die beiden Personalization Insights-Berichte: „Automatisierte Segmente“ und „Wichtige Attribute“. Das automatische Targeting verfügt über ein zusätzliches Diagrammsymbol für die grafische Ansicht des [!UICONTROL Zusammenfassung] Bericht.
 
    ![](assets/personalization_insights.png)
 
@@ -58,7 +54,7 @@ Verschiedene Besucher reagieren unterschiedlich auf die Angebote/Erlebnisse in I
 
 1. Wählen Sie den gewünschten Datumsbereich aus.
 
-   Im Gegensatz zum Bericht [!UICONTROL Zusammenfassung] (Performance Reporting) ist [!UICONTROL Personalization Insights], einschließlich [!UICONTROL Automatisierte Segmente], nur für feste Datumsbereiche verfügbar: 15 Tage, 30 Tage und 60 Tage. Diese festen Datumsbereiche ermöglichen es [!UICONTROL Personalization Insights], ausreichend Daten anzusammeln, um zu verhindern, dass Insights aus kurzfristigen Mustern in Ihrer Aktivität abgeleitet werden. Die beiden Entscheidungen, die Sie beim Datumsbereich treffen können, sind „Enddatum“ und „Dauer“. Sie werden feststellen, dass der &quot;Start&quot; ausgegraut ist. Das Startdatum ändert sich automatisch basierend auf Ihrer Auswahl für Enddatum und Dauer.
+   Im Gegensatz zu [!UICONTROL Zusammenfassung] Bericht (Leistungsberichte), [!UICONTROL Personalization Insights], einschließlich [!UICONTROL Automatisierte Segmente], ist nur für feste Datumsbereiche verfügbar: 15 Tage, 30 Tage und 60 Tage. Diese festen Datumsbereiche ermöglichen es [!UICONTROL Personalization Insights], ausreichend Daten anzusammeln, um zu verhindern, dass Insights aus kurzfristigen Mustern in Ihrer Aktivität abgeleitet werden. Die beiden Entscheidungen, die Sie beim Datumsbereich treffen können, sind „Enddatum“ und „Dauer“. Sie werden feststellen, dass der &quot;Start&quot; ausgegraut ist. Das Startdatum ändert sich automatisch basierend auf Ihrer Auswahl für Enddatum und Dauer.
 
    ![](assets/personalization_insights_calendar_1.png)
 
@@ -111,7 +107,7 @@ Es kann verschiedene Gründe dafür geben, dass die [!UICONTROL Personalization 
 
 * 15 Tage sind seit der Aktivierung der Aktivität noch nicht vergangen. Die Berichte „Automatisierte Segmente“ und „Wichtige Attribute“ sind erst 15 Tage nach der Aktivierung der Aktivität verfügbar. Bis dahin können Sie nicht auf diese Berichte zugreifen und die Symbole für „Automatisierte Segmente“ und „Wichtige Attribute“ sind ausgegraut.
 * Ihre Aktivität bietet nicht ausreichend Traffic im angegebenen Zeitraum. Nach 15 Tagen und sofern ausreichend Personalisierungstraffic in Ihrer Aktivität verfügbar ist, um die Personalisierungsmodelle zu erstellen, sind die Berichte „Automatisierte Segmente“ und „Wichtige Attribute“ verfügbar.
-* Ihre Aktivität verfügt über ein Ziel zur Umsatzoptimierung. Zurzeit ist [!UICONTROL Personalization Insights] nur für Aktivitäten mit Zielen zur Konversionsoptimierung verfügbar. Adobe wird in einer zukünftigen Version Unterstützung für Zielaktivitäten zur Umsatzoptimierung hinzufügen.
+* Ihre Aktivität verfügt über ein Ziel zur Umsatzoptimierung. Zurzeit [!UICONTROL Personalization Insights] ist nur für Aktivitäten mit Zielen zur Konversionsoptimierung verfügbar. Adobe wird in einer zukünftigen Version Unterstützung für Zielaktivitäten zur Umsatzoptimierung hinzufügen.
 
 **Was ist ein Attribut?**
 
@@ -149,7 +145,7 @@ Nein. Der UI-Bericht enthält ausgewählte Informationen. Der CSV-Download enth�
 
 **Kann ich [!UICONTROL Personalization Insights] für einen benutzerspezifischen Datumsbereich anzeigen?**
 
-Die Berichte zu Personalization Insights (sowohl [!UICONTROL Automatisierte Segmente] als auch [!UICONTROL Wichtige Attribute]) sind nur für feste Datumsbereiche verfügbar: 15 Tage, 30 Tage und 60 Tage. Diese festen Datumsbereiche ermöglichen es [!UICONTROL Personalization Insights], ausreichend Daten anzusammeln, um zu verhindern, dass Insights aus kurzfristigen Mustern in Ihrer Aktivität abgeleitet werden. Sie können diese Zeiträume mit einem beliebigen Enddatum festlegen (sofern hierfür ausreichend Daten in der Aktivität vorhanden sind).
+Berichte zu Personalization Insights (beides [!UICONTROL Automatisierte Segmente] und [!UICONTROL Wichtige Attribute]) ist nur für feste Datumsbereiche verfügbar: 15 Tage, 30 Tage und 60 Tage. Diese festen Datumsbereiche ermöglichen es [!UICONTROL Personalization Insights], ausreichend Daten anzusammeln, um zu verhindern, dass Insights aus kurzfristigen Mustern in Ihrer Aktivität abgeleitet werden. Sie können diese Zeiträume mit einem beliebigen Enddatum festlegen (sofern hierfür ausreichend Daten in der Aktivität vorhanden sind).
 
 **Wie wird [!UICONTROL Personalization Insights] erstellt?**
 

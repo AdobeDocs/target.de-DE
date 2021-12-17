@@ -1,14 +1,14 @@
 ---
 keywords: implementieren;implementieren;einrichten;Einrichtung;Seitenparameter
-description: Rufen Sie Daten mithilfe von Seitenparametern in [!DNL Target] ab.
-title: Wie erhalte ich Daten unter [!DNL Target] Verwendung von Seitenparametern?
-feature: Implementierung
+description: Daten abrufen [!DNL Target] mithilfe von Seitenparametern.
+title: Wie erhalte ich Daten? [!DNL Target] Verwenden von Seitenparametern?
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 46%
+source-wordcount: '372'
+ht-degree: 45%
 
 ---
 
@@ -49,7 +49,7 @@ Daten werden in Echtzeit an Target gesendet und können für denselben Server-Au
 
    ```< > # % " { } | \ ^ [ ] ` ```
 
-   Alle anderen Zeichen müssen URL-codiert sein. Der Standard gibt das folgende Format an ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ):
+   Alle anderen Zeichen müssen URL-codiert sein. Der Standard gibt das folgende Format an ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), wie unten dargestellt:
 
    ![](assets/ietf1.png)
 
@@ -66,10 +66,6 @@ targetPageParamsAll (hängt die Parameter an alle Mbox-Aufrufe auf der Seite an)
 targetPageParams (hängt die Parameter an die globale Mbox auf der Seite an):
 
 `function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-Parameter im mboxCreate-Code:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
 ## Links zu relevanten Informationen
 
