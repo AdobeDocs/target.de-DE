@@ -4,9 +4,9 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3163'
 ht-degree: 97%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 6. Januar | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 2.1.1. |
 | 17. Dezember | [Bericht „Wichtige Attribute“](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Folgender Hinweis zu Datumsbereichen wurde hinzugefügt, wenn wichtige Attributberichte angezeigt werden:<ul><li>Die [!DNL Target] In der Benutzeroberfläche können Sie derzeit Datumsbereiche für 45 Tage und 90 Tage auswählen. Die Variable [!DNL Target] -Backend verarbeitet diese beiden Bereiche nicht. Aufgrund von Nutzungsmustern und zur Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wird aktualisiert, um die derzeit zulässigen Bereiche widerzuspiegeln: 15, 30 und 60 Tage.</li></ul> |
 | 7. Dezember | [Die Wissenschaft hinter den Empfehlungsalgorithmen von Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Neues Thema. |
 | 2. Dezember | [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Der auf dem Warenkorb basierende Algorithmus wurde dahingehend aktualisiert, dass die Empfehlungsschlüssel über die mbox-Parameter „cartIds“ in kommagetrennten Werten bereitgestellt werden. Nur die ersten 10 Werte werden berücksichtigt. |
