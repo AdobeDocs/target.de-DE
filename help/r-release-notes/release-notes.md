@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 100%
+source-wordcount: '1140'
+ht-degree: 96%
 
 ---
 
@@ -24,11 +24,9 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
 
-## at.js-Version 2.7.0 (28. Oktober 2021)
+## at.js-Version 2.8.0 (7. Januar 2022)
 
-Diese Version enthält die folgende Verbesserung:
-
-* Hinzugefügte Unterstützung für [Web-Komponenten](https://developer.mozilla.org/de/docs/Web/Web_Components). Diese Version von at.js ist erforderlich, um personalisierte Erlebnisse und Angebote für benutzerdefinierte Elemente und Elemente innerhalb von benutzerdefinierten Elementen zu erstellen und zu testen. Diese Funktion ist in der Version 21.10.5 von [!DNL Target Standard/Premium] enthalten.
+Die [!DNL Target] Die JavaScript-Bibliothek at.js erfasst jetzt Daten zur Nutzung von Funktionen und Leistungsdaten. Personenbezogene Daten werden nicht erfasst. Die Opt-out-Funktion für diese Funktion ist verfügbar, indem Sie `telemetryEnabled` auf false in `targetGlobalSettings`. Weitere Informationen finden Sie unter [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## [!DNL Target Standard/Premium] 21.10.5 (28. Oktober 2021)
 
@@ -36,7 +34,7 @@ Diese Wartungsversion enthält die folgende Verbesserung:
 
 | Funktion | Details |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | Hinzugefügte Unterstützung für [Web-Komponenten](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Personalisierte Erlebnisse und Angebote können mit benutzerdefinierten Elementen und Elementen innerhalb von benutzerdefinierten Elementen erstellt und getestet werden.<br>Weitere Informationen finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
+| [!UICONTROL Visual Experience Composer] (VEC) | Hinzugefügte Unterstützung für [Web-Komponenten](https://developer.mozilla.org/de/docs/Web/Web_Components). Personalisierte Erlebnisse und Angebote können mit benutzerdefinierten Elementen und Elementen innerhalb von benutzerdefinierten Elementen erstellt und getestet werden.<br>Weitere Informationen finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21. Oktober 2021)
 

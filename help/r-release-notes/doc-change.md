@@ -4,10 +4,10 @@ description: 'Informationen zu wichtigen Ergänzungen und Änderungen in der Pro
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 97%
+source-wordcount: '3223'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,11 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 7. Januar | [Versionshinweise](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur at.js-Version 2.8.0 hinzugefügt. |
+|  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zur at.js-Version 2.8.0 hinzugefügt. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Informationen zur Einstellung `telemetry` wurden hinzugefügt. |
+|  | [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Der folgende Abschnitt wurde hinzugefügt: &quot;Sammlung von Funktionsnutzungsdaten.&quot; |
+|  | [Von [!DNL Target] Algorithmen für maschinelles Lernen](/help/c-activities/t-automated-personalization/ap-data.md) | Das gesamte Thema wurde aktualisiert, einschließlich:<ul><li>Neuer Abschnitt: &quot;Sperren von Funktionen aus [!DNL Target] Algorithmen für maschinelles Lernen&quot;</li><li>Spalten &quot;Systemname&quot;und Informationen wurden zu mehreren Tabellen hinzugefügt.</li></ul> |
 | 6. Januar | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 2.1.1. |
 | 17. Dezember | [Bericht „Wichtige Attribute“](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Folgender Hinweis zu Datumsbereichen wurde hinzugefügt, wenn wichtige Attributberichte angezeigt werden:<ul><li>Die [!DNL Target] In der Benutzeroberfläche können Sie derzeit Datumsbereiche für 45 Tage und 90 Tage auswählen. Die Variable [!DNL Target] -Backend verarbeitet diese beiden Bereiche nicht. Aufgrund von Nutzungsmustern und zur Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wird aktualisiert, um die derzeit zulässigen Bereiche widerzuspiegeln: 15, 30 und 60 Tage.</li></ul> |
 | 7. Dezember | [Die Wissenschaft hinter den Empfehlungsalgorithmen von Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Neues Thema. |

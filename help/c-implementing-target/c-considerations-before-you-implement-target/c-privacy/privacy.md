@@ -1,20 +1,26 @@
 ---
 keywords: Datenschutz; IP-Adresse; Geosegmentation; Opt-out; Opt-out; Opt-out; Datenschutz; Datenschutz; Regierungsbestimmungen; DSGVO; ccpa
-description: Erfahren Sie, wie Adobe [!DNL Target] die geltenden Datenschutzgesetze einhält, einschließlich der Erfassung und Verarbeitung von IP-Adressen und Opt-out-Anweisungen.
-title: Wie behandelt [!DNL Target] Datenschutzprobleme?
-feature: Datenschutz und Sicherheit
+description: Erfahren Sie, wie Adobe [!DNL Target] erfüllt die geltenden Datenschutzgesetze, einschließlich der Erfassung und Verarbeitung von IP-Adressen und Opt-out-Anweisungen.
+title: Funktionsweise [!DNL Target] Umgang mit Datenschutzproblemen?
+feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 63%
+source-wordcount: '738'
+ht-degree: 57%
 
 ---
 
 # Datenschutz
 
 [!DNL Adobe Target] bietet Prozesse und Einstellungen, die Ihnen die Verwendung von unter Einhaltung der geltenden Datenschutzgesetze ermöglichen.[!DNL Target]
+
+## Sammlung von Funktionsnutzungsdaten
+
+Einzelne Nutzungsdaten für Funktionen werden für interne [!DNL Adobe] zu ermitteln, ob [!DNL Target] Funktionen funktionieren wie gewünscht oder um Funktionen zu identifizieren, die nicht ausreichend genutzt werden. Es werden verschiedene Messungen der Latenz erfasst, um Leistungsbedenken auszuräumen. Personenbezogene Daten werden nicht erfasst.
+
+Sie können die Nutzung von Berichtsdaten in unseren SDKs deaktivieren, indem Sie `telemetryEnabled` in den Client-Initialisierungsoptionen auf false gesetzt. Weitere Informationen finden Sie unter [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## IP-Adresssammlung {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -36,7 +42,7 @@ Target erhält die vollständige IP-Adresse und verschleiert sie (sofern auf Let
 
 >[!NOTE]
 >
->[Wenden Sie sich an Adobe Client ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Career , um zu bestimmen, welche Einstellung Sie derzeit verwenden, oder um die IP-Verschleierungsfunktion zu aktivieren.
+>[Kundenunterstützung von Adobe kontaktieren](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) , um zu bestimmen, welche Einstellung Sie aktuell verwenden, oder um die IP-Verschleierungsfunktion zu aktivieren.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -52,15 +58,14 @@ Sie können einen Ausschluss-Link zu Ihren Sites hinzufügen, um Besuchern zu er
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
 
-1. (Bedingt) Wenn Sie CNAME verwenden, sollte der Link den Parameter &quot;client=`clientcode`&quot;enthalten, z. B.:
-https://my.cname.domain/optout?client=clientcode
+1. (Bedingt) Wenn Sie CNAME verwenden, sollte der Link die Zeichenfolge &quot;client=&quot;enthalten.`clientcode` -Parameter, z. B.: https://my.cname.domain/optout?client=clientcode
 
-1. Ersetzen Sie `clientcode` durch Ihren Clientcode und fügen Sie den Text oder das Bild hinzu, das mit der Ausschluss-URL verknüpft werden soll.
+1. Ersetzen `clientcode` und fügen Sie den Text oder das Bild hinzu, das mit der Ausschluss-URL verknüpft werden soll.
 
-Ein Besucher, der auf diesen Link klickt, wird während der Browser-Sitzung nicht in Mbox-Anforderungen einbezogen, bis er den Cookie löscht oder nach Ablauf von zwei Jahren (je nachdem, was zuerst eintritt). Dies funktioniert durch Einsetzen eines Cookies namens `disableClient` in der Domäne `clientcode.tt.omtrdc.net` für den Besucher.
+Ein Besucher, der auf diesen Link klickt, wird während der Browser-Sitzung nicht in Mbox-Anforderungen einbezogen, bis er den Cookie löscht oder nach Ablauf von zwei Jahren (je nachdem, was zuerst eintritt). Dies funktioniert durch Einsetzen eines Cookies namens `disableClient` in der Domain `clientcode.tt.omtrdc.net` für den Besucher.
 
 Auch wenn Sie eine Erstanbieter-Cookie-Implementierung verwenden, erfolgt der Ausschluss über ein Drittanbieter-Cookie. Falls der Client nur ein Erstanbieter-Cookie verwendet, prüft Target, ob ein Ausschluss-Cookie festgelegt ist.
 
 ## Vorschriften zur Privatsphäre und zum Datenschutz
 
-Unter [Datenschutz- und Datenschutzbestimmungen](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) finden Sie Informationen zur Datenschutz-Grundverordnung (DSGVO) der Europäischen Union, zum California Consumer Privacy Act (CCPA) und anderen internationalen Datenschutzanforderungen sowie dazu, wie sich diese Vorschriften auf Ihr Unternehmen und Adobe Target auswirken.
+Siehe [Vorschriften zur Privatsphäre und zum Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) Informationen über die Datenschutz-Grundverordnung (DSGVO) der Europäischen Union, den California Consumer Privacy Act (CCPA) und andere internationale Datenschutzanforderungen sowie über die Auswirkungen dieser Vorschriften auf Ihr Unternehmen und Adobe Target.
