@@ -1,11 +1,12 @@
 ---
 keywords: Visual Experience Composer-Optionen;Experience Composer-Optionen;Erlebnisoptionen;Angebotsentscheidung;offer decisioning;Ajo;Journey Optimizer
 description: Erfahren Sie, wie Sie eine Angebotsentscheidung hinzufügen, die in [!DNL Adobe Journey Optimizer] einer Aktivität.
-title: 'Wie verwende ich Angebotsentscheidungen? '
+title: Wie verwende ich Angebotsentscheidungen?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 39d278747cec838ef7855116c820e3c80160d364
+exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Hinzufügen von Angebotsentscheidungen, die in erstellt wurden [!DNL Adobe Journ
 >
 >Die in diesem Thema beschriebene Funktion für Angebotsentscheidungen soll am 13. Januar 2022 mit der Variablen [!DNL Target Standard/Premium] Version 2.1.1.
 
-Weitere Informationen finden Sie unter [!DNL Adobe Journey Optimizer], siehe [Erste Schritte mit Journey Optimizer](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) im *Journey Optimizer* Dokumentation.
+Weitere Informationen finden Sie unter [!DNL Adobe Journey Optimizer], siehe [Erste Schritte mit Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) im *Journey Optimizer* Dokumentation.
 
 Weitere Informationen zu Angebotsentscheidungen finden Sie unter [Über die Entscheidungsverwaltung](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) im *[!DNL Journey Optimizer]Dokumentation*.
 
@@ -40,13 +41,18 @@ Die folgenden Beispiele zeigen Anwendungsfälle für die Verwendung der [!DNL Ta
 
 ### Sportvermarktung
 
-Als Marketer für eine Sportliga möchten Sie Inhalte auf Ihrer Homepage personalisieren (sowohl auf der Desktop- als auch auf der mobilen Website). Sie möchten Inhalte basierend auf dem Lieblings-Team des Besuchers personalisieren und kürzlich durchgeführte Player-Schritte, um ihm ein Angebot für Shop-bezogene Franchise-Waren zu unterbreiten. So können Sie beispielsweise für jede der folgenden Regionen ein personalisiertes Erlebnis bereitstellen: Dortmund, Frankfurt und Bochum sowie für Benutzer, die implizite und explizite Fans dieser Teams sind. Als Metriken möchten Sie sich Besuche und Klicks zur Merchandising-Site ansehen.
+Als Marketer für eine Sportliga möchten Sie Inhalte auf Ihrer Homepage personalisieren (sowohl auf der Desktop- als auch auf der mobilen Website). Sie möchten Inhalte basierend auf mehreren Dimensionen personalisieren und ein Angebot für Franchise-Artikel zum Kauf unterbreiten. Sie interessieren sich für:
 
-Sie möchten eine A/B-Test -Aktivität (50/50-Aufteilung) zwischen dem Standarderlebnis und dem personalisierten Erlebnis (einschließlich einer Angebotsentscheidung mit Angeboten für jede Region und jedes Team) erstellen. Sie möchten diese Aktivität verwenden, um die Konversion und Steigerung für das personalisierte Erlebnis bzw. die Kontrolle zu ermitteln.
+* Das Lieblingsteam des Besuchers
+* Jüngste Athlet-/Player-Aktivität (z. B. Teambewegungen, Vertragsaktualisierungen oder Verletzungen)
+
+Sie möchten beispielsweise für jede der folgenden Regionen ein personalisiertes Erlebnis bereitstellen: Dortmund, Frankfurt und Bochum sowie für Benutzer, die implizite und explizite Fans dieser Teams sind. Als Metriken möchten Sie sich Besuche und Klicks zur Merchandising-Site ansehen.
+
+Sie möchten eine [!UICONTROL A/B-Test] Aktivität (Aufteilung 50/50) zwischen dem Standarderlebnis und dem personalisierten Erlebnis (einschließlich einer Angebotsentscheidung mit Angeboten für jede Region und jedes Team). Sie möchten diese Aktivität verwenden, um die Konversion und Steigerung für das personalisierte Erlebnis bzw. die Kontrolle zu ermitteln.
 
 ### Spiel-Streaming-Plattformen
 
-Als Marketing-Experte für eine Sportorganisation möchten Sie ein personalisiertes Angebot für eine Spiel-Streaming-Plattform für Desktop- und Mobilbenutzer aus verschiedenen Ländern bereitstellen: Deutschland, Frankreich, Mexiko und Brasilien. Wenn ein Besucher von einer dieser Regionen aus auf die Desktop- oder mobile Website zugreift, möchten Sie ein Angebot für Spiel-Streaming in der Landessprache und mit einem entsprechenden Preis für die Landeswährung bereitstellen.
+Als Marketing-Experte für eine Gaming-Organisation möchten Sie ein personalisiertes Angebot für eine Spiel-Streaming-Plattform für Desktop- und Mobilbenutzer aus verschiedenen Ländern bereitstellen: Deutschland, Frankreich, Mexiko und Brasilien. Wenn ein Besucher von einer dieser Regionen aus auf die Desktop- oder mobile Website zugreift, möchten Sie ein Angebot für Spiel-Streaming in der Landessprache und mit einem entsprechenden Preis für die Landeswährung bereitstellen.
 
 In [!DNL Adobe Journey Optimizer]können Sie für jede Zielregion ein personalisiertes Startseitenhero-Angebot sowie ein Fallback-Angebot mit einem standardmäßigen Startseiten-Hero erstellen. Anschließend können Sie eine Angebotsentscheidung erstellen, in der diese Angebote und ihre Eignungsregeln enthalten sind. Anschließend in [!DNL Target], können Sie eine [!DNL Experience Targeting] (XT) und fügen Sie diese Angebotsentscheidung in Ihre Desktop- oder mobile Website ein, um Besuchern das personalisierte Erlebnis zu bieten.
 
@@ -105,11 +111,3 @@ Beachten Sie bei der Arbeit mit Angebotsentscheidungen die folgenden Hinweise un
 * [!DNL Target] -Berichte bieten keine Berichte auf Ebene der Angebotsentscheidungen.
 
 * Visualisierung [QA-Links](/help/c-activities/c-activity-qa/activity-qa.md) für [!DNL Target] Erlebnisse, die Angebotsentscheidungen enthalten, wirken sich auf die in [!DNL Adobe Journey Optimizer] für diese Angebotsentscheidungen.
-
-
-
-
-
-
-
-
