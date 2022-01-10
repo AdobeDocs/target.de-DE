@@ -3,10 +3,10 @@ description: Was bedeuten die in Adobe [!DNL Target] verwendeten Begriffe? Hier 
 title: Wo finde ich die in Target verwendeten Begriffe und deren Definitionen?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '2425'
-ht-degree: 100%
+source-git-commit: 2ec0808000fab6698802d25397aaac96865d592a
+workflow-type: tm+mt
+source-wordcount: '2493'
+ht-degree: 97%
 
 ---
 
@@ -271,6 +271,10 @@ Ermöglicht Besuchern, sich vom Tracking und der Inhaltsbereitstellung abzumelde
 **Seitenzahl**
 
 Mit dieser Interaktionsmetrik wird die Anzahl der bei einem Besuch angezeigten Seiten gemessen, nachdem der Besucher die erste Anzeige-Mbox der Aktivität gesehen hat.
+
+**Seitenansicht**
+
+Seitenansicht ist eine einzelne Ansicht einer Mobile- oder Browser-Anwendung, E-Mail-Adresse oder Webseite einer Website, einschließlich der Ansichten des Anwendungsbildschirms, des Anwendungsbildschirms, der Status mobiler Webseiten und der Seiten in sozialen Netzwerken. Seitenansichten erfolgen jedes Mal, wenn eine Webseite geladen oder aktualisiert, eine Anwendung geladen, zielgerichtete Inhalte gerendert oder generiert oder über eine geöffnete oder angezeigte E-Mail angezeigt werden.
 
 **Priorität**
 
