@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 710c40154e12a60b3bb14c398f149c41205d355e
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 72%
+source-wordcount: '200'
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,6 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 >**Beendigung von mbox.js**: Ab dem 31. März 2021 unterstützt [!DNL Adobe Target] die Bibliothek „mbox.js“ nicht mehr. Seit dem 31. März 2021 schlagen alle Aufrufe aus mbox.js kontrolliert fehl. Dies wirkt sich auf Seiten mit [!DNL Target]-Aktivitäten aus, die Standardinhalte bereitstellen.
 >
 >Um potenzielle Probleme mit Ihren Sites zu vermeiden, migrieren Sie zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder der JavaScript-Bibliothek „at.js“. Weitere Informationen finden Sie unter [Übersicht: Target für Client-seitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
-## [!DNL Target Standard/Premium] 22.1.1 (13. Januar 2022)
-
-Diese Version enthält die folgende neue Funktion:
-
-| Funktion | Details |
-| --- | --- |
-| Angebotsentscheidungen in [!DNL Target] activities | Sie können jetzt [!DNL Adobe Journey Optimizer] Angebotsentscheidungen in [!DNL Target] [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten, um das nächste beste Angebot für Ihre Besucher im Web und auf Mobilgeräten zu ermitteln und bereitzustellen.<br>Weitere Informationen finden Sie unter [Angebotsentscheidungen verwenden](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**Hinweis**: Diese Funktion steht für [!DNL Target] Kunden, die auch Zugriff auf Offer decisioning haben und über eine [!DNL Target] Implementierung basierend auf dem Adobe Experience Platform Web SDK. |
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

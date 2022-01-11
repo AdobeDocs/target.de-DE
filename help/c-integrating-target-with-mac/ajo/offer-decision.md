@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine Angebotsentscheidung hinzufügen, die in
 title: Wie verwende ich Angebotsentscheidungen?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Hinzufügen von Angebotsentscheidungen, die in erstellt wurden [!DNL Adobe Journ
 
 >[!NOTE]
 >
->Die in diesem Thema beschriebene Funktion für Angebotsentscheidungen soll am 13. Januar 2022 mit der Variablen [!DNL Target Standard/Premium] Version 2.1.1.
+>Die in diesem Thema beschriebene Funktion zur Angebotsentscheidung, die derzeit als Beta-Version verfügbar ist und nur ausgewählten Kunden zur Verfügung steht.
 
 Weitere Informationen finden Sie unter [!DNL Adobe Journey Optimizer], siehe [Erste Schritte mit Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) im *Journey Optimizer* Dokumentation.
 

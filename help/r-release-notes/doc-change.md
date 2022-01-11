@@ -4,9 +4,9 @@ description: Mit wichtigen Ergänzungen und Änderungen am [!DNL Adobe Target] D
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3228'
 ht-degree: 96%
 
 ---
@@ -25,7 +25,6 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Informationen zur Einstellung `telemetry` wurden hinzugefügt. |
 |  | [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Der folgende Abschnitt wurde hinzugefügt: &quot;Sammlung von Funktionsnutzungsdaten.&quot; |
 |  | [Von [!DNL Target] Algorithmen für maschinelles Lernen](/help/c-activities/t-automated-personalization/ap-data.md) | Das gesamte Thema wurde aktualisiert, einschließlich:<ul><li>Neuer Abschnitt: &quot;Sperren von Funktionen aus [!DNL Target] Algorithmen für maschinelles Lernen&quot;</li><li>Spalten &quot;Systemname&quot;und Informationen wurden zu mehreren Tabellen hinzugefügt.</li></ul> |
-| 6. Januar | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 2.1.1. |
 | 17. Dezember | [Bericht „Wichtige Attribute“](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Folgender Hinweis zu Datumsbereichen wurde hinzugefügt, wenn wichtige Attributberichte angezeigt werden:<ul><li>Die [!DNL Target] In der Benutzeroberfläche können Sie derzeit Datumsbereiche für 45 Tage und 90 Tage auswählen. Die Variable [!DNL Target] -Backend verarbeitet diese beiden Bereiche nicht. Aufgrund von Nutzungsmustern und zur Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wird aktualisiert, um die derzeit zulässigen Bereiche widerzuspiegeln: 15, 30 und 60 Tage.</li></ul> |
 | 7. Dezember | [Die Wissenschaft hinter den Empfehlungsalgorithmen von Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Neues Thema. |
 | 2. Dezember | [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Der auf dem Warenkorb basierende Algorithmus wurde dahingehend aktualisiert, dass die Empfehlungsschlüssel über die mbox-Parameter „cartIds“ in kommagetrennten Werten bereitgestellt werden. Nur die ersten 10 Werte werden berücksichtigt. |
