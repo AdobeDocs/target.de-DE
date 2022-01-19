@@ -1,19 +1,19 @@
 ---
 keywords: Affinität; Kategorieaffinität
-description: Informationen zur Kategorieaffinität in Adobe [!DNL Target] die automatisch Kategorien erfasst, die ein Benutzer besucht, und dann die Affinität des Benutzers für die Kategorie berechnet, sodass diese zielgerichtet und segmentiert eingesetzt werden können.
+description: Informationen zur Kategorieaffinität in [!DNL Adobe Target] die automatisch Kategorien erfasst, die ein Benutzer besucht, und dann die Affinität des Benutzers für die Kategorie berechnet, sodass diese zielgerichtet und segmentiert eingesetzt werden können.
 title: Was ist Kategorieaffinität?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '801'
 ht-degree: 64%
 
 ---
 
 # Kategorieaffinität
 
-Die Kategorieaffinitätsfunktion in [!DNL Adobe Target] erfasst automatisch die Kategorien, die ein Benutzer besucht, und berechnet dann die Affinität des Benutzers für die Kategorie, damit diese zielgerichtet und segmentiert eingesetzt werden kann. Die Kategorieaffinität hilft dabei sicherzustellen, dass Inhalte auf Besucher ausgerichtet sind, die mit hoher Wahrscheinlichkeit aufgrund dieser Informationen handeln.
+Die Kategorieaffinitätsfunktion in [!DNL Adobe Target] erfasst automatisch die Kategorien auf Ihrer Site, die ein Benutzer besucht, und berechnet dann die Affinität des Benutzers für jede Kategorie, damit diese zielgerichtet und segmentiert eingesetzt werden kann. Die Kategorieaffinität hilft dabei sicherzustellen, dass Inhalte auf Besucher ausgerichtet sind, die mit hoher Wahrscheinlichkeit aufgrund dieser Informationen handeln.
 
 ## Übergeben von Kategorieaffinitätsinformationen an [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
