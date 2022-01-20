@@ -5,9 +5,9 @@ title: Wie implementiere ich das Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 4c18eb0febccf1a93ef0e423c46eeb08f8817b43
+source-git-commit: 636016be6e8a6adc8c4b7fb09af93bb89e28373a
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '534'
 ht-degree: 6%
 
 ---
@@ -34,6 +34,7 @@ Zusätzlich zu den [!DNL Platform Web SDK] Die oben genannten Dokumentationen en
 | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivitäts-QA mit unveränderbaren Vorschaulinks, optionalem Zielgruppen-Targeting und QA-Berichten, die basierend auf Live-Aktivitätsdaten segmentiert bleiben. [!UICONTROL Aktivitäts-QA] Sie können Ihre [!DNL Target] -Aktivitäten, bevor sie live geschaltet werden.<br>Siehe [Kompatibilität des JavaScript-Bibliotheks-QA-Modus in Target](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) und [Vorschau-URLs](/help/c-activities/c-activity-qa/activity-qa.md#preview). |
 | [Analytics for Target (A4T) ](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Analytics for Target] (A4T) ist eine lösungsübergreifende Integration, mit der Sie Aktivitäten erstellen können, die auf [!DNL Analytics] Konversionsmetriken und Zielgruppensegmente. Mit der A4T-Integration können Sie [!DNL Analytics] Berichte, um Ihre Ergebnisse zu überprüfen.<br>Siehe [Unterstützte Aktivitätstypen](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) und [Implementierungsschritte für eine Adobe Experience Platform Web SDK-Implementierung](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform). |
 | [Zielgruppen](/help/c-target/target.md) | Zielgruppen in [!DNL Adobe Target] bestimmen, wer Inhalte und Erlebnisse in einer zielgerichteten Aktivität sieht.<br>Siehe [Verwenden der Zielgruppenliste](/help/c-target/c-audiences/audiences.md#use-list) und [Kombinieren mehrerer Zielgruppen](/help/c-target/combining-multiple-audiences.md). |
+| [Angebotsentscheidungen](/help/c-integrating-target-with-mac/ajo/offer-decision.md) | Fügen Sie in Adobe Journey Optimizer erstellte Angebotsentscheidungen zu Target-Aktivitäten hinzu (manueller A/B-Test oder Erlebnis-Targeting), um das nächste beste Angebot für Ihre Besucher im Web und auf Mobilgeräten zu ermitteln und bereitzustellen. |
 | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Umleitungsangebote führen dazu, dass die Browser der Besucher zu einer neuen Seite umleiten.<br>Siehe [Stellt die [!DNL Adobe Experience Platform Web SDK] Unterstützung von Umleitungsangeboten für A4T?](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Antwort-Token](/help/administrating-target/response-tokens.md) | Mit Antwort-Token können Sie Target-Daten an Google Analytics und andere Drittanbieter-Integrationen senden.<br>Siehe [Senden von Daten an Google Analytics über das Platform Web SDK](/help/administrating-target/response-tokens.md#platform-web-sdk) um ein Codebeispiel für die Ausführung dieser Aufgabe anzuzeigen. |
 | [Implementierung von Einzelseiten-Apps](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) im *Übersicht über das Platform Web SDK* Handbuch. | [!UICONTROL Adobe Experience Platform Web SDK] bietet umfassende Funktionen, mit denen Ihr Unternehmen mithilfe von Client-seitigen Technologien der nächsten Generation Personalisierungen ausführen kann, wie z. B. Einzelseitenanwendungen (SPA). |
