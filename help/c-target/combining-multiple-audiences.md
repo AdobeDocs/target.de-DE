@@ -1,27 +1,27 @@
 ---
 keywords: Zielgruppe; Zielgruppenregeln; Kombinieren von Zielgruppen; Ausschluss; Ausschluss hinzufügen; Ausschließen; Kombinieren von Zielgruppen; Ad-hoc-Zielgruppe; Adhoc-Zielgruppe
-description: Erfahren Sie, wie Sie mehrere Zielgruppen (einschließlich Adobe Experience Cloud-Zielgruppen und [!DNL Target] Zielgruppen) ohne Zwischenschritte kombinieren, um Ad-hoc-Zielgruppen zu erstellen.
+description: Erfahren Sie, wie Sie mehrere Zielgruppen (einschließlich Adobe Experience Cloud-Zielgruppen und [!DNL Target] Zielgruppen) ohne Zwischenschritte zur Erstellung von Ad-hoc-Zielgruppen.
 title: Kann ich mehrere Zielgruppen kombinieren, um eine neue Zielgruppe zu erstellen?
-feature: Zielgruppen
+feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 71%
+source-wordcount: '927'
+ht-degree: 72%
 
 ---
 
 # Kombinieren mehrerer Zielgruppen
 
-Kombinieren mehrerer Zielgruppen (einschließlich [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform] und [!DNL Target] Zielgruppen) ohne Zwischenschritte zur Erstellung von Ad-hoc-Zielgruppen. Sie können auch Ausschlussregeln erstellen und darüber Zielgruppen ausschließen.
+Kombinieren mehrerer Zielgruppen (einschließlich [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform]und [!DNL Target] Zielgruppen) ohne Zwischenschritte zur Erstellung von Ad-hoc-Zielgruppen. Sie können auch Ausschlussregeln erstellen und darüber Zielgruppen ausschließen.
 
 >[!NOTE]
 >
->Die Quelle [!DNL Adobe Experience Platform] befindet sich in einem Beta-Testprogramm, steht jedoch allen [!DNL Target]-Kunden zur Verfügung, die das [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) verwenden. In [!DNL Adobe Experience Platform] verfügbare Zielgruppen können unverändert oder [in Kombination mit vorhandenen Zielgruppen](/help/c-target/combining-multiple-audiences.md) verwendet werden.
+>Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). In der [!DNL Adobe Experience Platform] kann unverändert oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema beschrieben).
 
 Nehmen wir einmal an, Sie hätten die Zielgruppen „Neue Besucher“ und „Chrome-Anwender“ erstellt. Im Falle einer bestimmten Aktivität möchten Sie diese beiden Zielgruppen möglicherweise miteinander kombinieren, um neue Besucher mit dem Browser Chrome anzusprechen. Anstatt eine neue Zielgruppe zu erstellen und sie in der [!UICONTROL Zielgruppenbibliothek] zu speichern, können Sie die beiden Zielgruppen im Zuge der Aktivitätserstellung oder bei der Bearbeitung einer bereits bestehenden Aktivität miteinander kombinieren.
 
-Als weiteres Beispiel können Sie alle Treuekunden ansprechen. Sie können beispielsweise eine bestimmte [!DNL Audience Manager]-Zielgruppe für den Treuestatus hinzufügen und sie mit einer [!DNL Target]-Zielgruppe kombinieren, die aus Personen besteht, die sich während der aktuellen Sitzung für Ihr Treueprogramm angemeldet haben. Die Kombination dieser beiden Zielgruppen ist einfacher als die Erstellung einer dritten, permanenten Zielgruppe.
+Als weiteres Beispiel können Sie alle Treuekunden ansprechen. Sie können beispielsweise eine [!DNL Audience Manager] Zielgruppe für den Treuestatus und Kombinieren Sie sie mit einer [!DNL Target] Zielgruppe aus Personen, die sich während der aktuellen Sitzung für Ihr Treueprogramm angemeldet haben. Die Kombination dieser beiden Zielgruppen ist einfacher als die Erstellung einer dritten, permanenten Zielgruppe.
 
 Sie können mit den Operatoren AND und OR bis zu zehn Zielgruppen miteinander kombinieren.
 
@@ -31,17 +31,17 @@ Sie können kombinierte Zielgruppen an verschiedenen Stellen der [!DNL Target]-O
 
 Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad-hoc-Zielgruppe erstellen, während Sie durch den dreistufigen Prozess geleitet werden.
 
-1. Klicken Sie beim Erstellen einer [Aktivität](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der Seite **[!UICONTROL Targeting]** auf die drei vertikalen Ellipsen und dann auf **[!UICONTROL Zielgruppe ersetzen]**.
+1. Beim Erstellen einer [activity](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)auf **[!UICONTROL Targeting]** Seite, klicken Sie auf die drei vertikalen Ellipsen und dann auf **[!UICONTROL Zielgruppe ersetzen]**.
 
    ![Schrittergebnis](assets/edit_audience.png)
 
 1. Aktivieren Sie auf der Seite [!UICONTROL Zielgruppe auswählen] diejenigen Kontrollkästchen neben den gewünschten Zielgruppen, die als Teil der kombinierten Zielgruppe dienen sollen.
 
-   Klicken Sie auf die Schaltfläche [!UICONTROL Filter] , um die Suche nach der gewünschten Zielgruppe einzuschränken. Sie können Zielgruppen nach ihrer Quelle filtern: ([!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform] (Beta)).
+   Klicken Sie auf [!UICONTROL Filter] -Schaltfläche, um die Suche für die gewünschte Zielgruppe einzuschränken. Sie können Zielgruppen nach ihrer Quelle filtern: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform].
 
    ![Schrittergebnis](assets/combine_multiple_audiences1.png)
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Zielgruppen kombinieren]** .
+1. Klicken **[!UICONTROL Kombinieren von Zielgruppen]** in der oberen rechten Ecke.
 
    ![Schrittergebnis](assets/combine_multiple_audiences2.png)
 
@@ -75,7 +75,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
       Sie können z. B. eine kombinierte Zielgruppe erstellen, die alle neuen Besucher Ihrer Site enthält, ausgenommen diejenigen, die Firefox verwenden. Das Ausschließen der Besucher, die Firefox verwenden, ist leichter, als das Erstellen einer kombinierten Zielgruppe, die explizit mehrere Browser, außer Firefox, einschließt (Safari, Chrome und Internet Explorer).
 
-1. Geben Sie einen beschreibenden Namen für die kombinierte Zielgruppe ein und klicken Sie dann auf **[!UICONTROL Fertig]**.
+1. Geben Sie einen beschreibenden Namen für die kombinierte Zielgruppe ein und klicken Sie auf **[!UICONTROL Fertig]**.
 
 ## Erstellen einer kombinierten Zielgruppe zur Verwendung im Metrik-Targeting {#section_A42E795AFCBD4575809C5942039910F0}
 
