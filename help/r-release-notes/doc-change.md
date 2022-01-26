@@ -1,13 +1,13 @@
 ---
 keywords: änderungsprotokoll zur target-dokumentation;aktualisierungen in der dokumentation;neue themen;bearbeitungen;aktualisierungen;aktualisierung
-description: Mit wichtigen Ergänzungen und Änderungen am [!DNL Adobe Target] Dokumentation.
+description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der Dokumentation von [!DNL Adobe Target] auf dem Laufenden.
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
 source-wordcount: '3276'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -19,23 +19,23 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 21. Januar | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | Es wurden Informationen zur „at.js“-Version 1.8.3 hinzugefügt. |
+| 21. Januar | [at.js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | Es wurden Informationen zur „at.js“-Version 1.8.3 hinzugefügt. |
 | 19. Januar | [Aktualisieren von at.js 1.*x* auf at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | Folgender Abschnitt wurde hinzugefügt: &quot;at.js 2.*x* unterstützt nicht das Erstellen von Zielgruppen mit vst.* Parameter&quot; |
-| 12. Januar | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Link zum Tutorial mit Implementierungsanweisungen hinzugefügt [!DNL Adobe Experience Cloud] mit Web SDK. |
+| 12. Januar | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Link zum Tutorial mit Implementierungsanweisungen für [!DNL Adobe Experience Cloud] mit Web SDK hinzugefügt. |
 | 11. Januar | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (19. Januar 2022)</li></ul> |
-| 7. Januar | [Versionshinweise](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur at.js-Version 2.8.0 hinzugefügt. |
-|  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zur at.js-Version 2.8.0 hinzugefügt. |
+| 7. Januar | [Versionshinweise](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Version 2.8.0 von at.js hinzugefügt. |
+|  | [at.js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zur Version 2.8.0 von at.js hinzugefügt. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Informationen zur Einstellung `telemetry` wurden hinzugefügt. |
-|  | [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Der folgende Abschnitt wurde hinzugefügt: &quot;Sammlung von Funktionsnutzungsdaten.&quot; |
-|  | [Von [!DNL Target] Algorithmen für maschinelles Lernen](/help/c-activities/t-automated-personalization/ap-data.md) | Das gesamte Thema wurde aktualisiert, einschließlich:<ul><li>Neuer Abschnitt: &quot;Sperren von Funktionen aus [!DNL Target] Algorithmen für maschinelles Lernen&quot;</li><li>Spalten &quot;Systemname&quot;und Informationen wurden zu mehreren Tabellen hinzugefügt.</li></ul> |
+|  | [Datenschutz](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Der Abschnitt „Sammlung von Funktionsnutzungsdaten“ wurde hinzugefügt. |
+|  | [Von  [!DNL Target] Algorithmen für maschinelles Lernen](/help/c-activities/t-automated-personalization/ap-data.md) verwendete Daten | Das gesamte Thema wurde aktualisiert, einschließlich:<ul><li>Neuer Abschnitt: „Sperren von Funktionen aus [!DNL Target]-Algorithmen für maschinelles Lernen“</li><li>Es wurden Spalten „Systemname“ und Informationen zu mehreren Tabellen hinzugefügt.</li></ul> |
 | 17. Dezember | [Bericht „Wichtige Attribute“](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Folgender Hinweis zu Datumsbereichen wurde hinzugefügt, wenn der Bericht „Wichtige Attribute“ angezeigt wird:<ul><li>Die Benutzeroberfläche von [!DNL Target] erlaubt es Ihnen derzeit, Datumsbereiche für 45 Tage und 90 Tage auszuwählen. Das Backend von [!DNL Target] verarbeitet diese beiden Bereiche jedoch nicht. Aufgrund von Nutzungsmustern und im Hinblick auf eine Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wird demnächst mit den derzeit zulässigen Bereichen aktualisiert: 15, 30 und 60 Tage.</li></ul> |
-| 7. Dezember | [Die Wissenschaft hinter den Empfehlungsalgorithmen von Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Neues Thema. |
+| 7. Dezember | [Die Wissenschaft hinter den Empfehlungsalgorithmen von Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Neues Thema |
 | 2. Dezember | [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Der auf dem Warenkorb basierende Algorithmus wurde dahingehend aktualisiert, dass die Empfehlungsschlüssel über die mbox-Parameter „cartIds“ in kommagetrennten Werten bereitgestellt werden. Nur die ersten 10 Werte werden berücksichtigt. |
 | 18. November | [Änderungen](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Es wurde ein Hinweis in der Mbox-Zeile hinzugefügt, der angibt, dass mboxes in [!UICONTROL Visual Experience Composer] (VEC) auf Seiten, die at.js 2 verwenden, nicht mehr unterstützt werden.*x*. |
 | 16. November | [Kundenattribute](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Es wurden Informationen zu den Beschränkungen für Datei-Uploads mit einem Link zu [Informationen zur Datendatei und den Datenquellen für Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=de) im *Komponentenhandbuch für die zentrale Benutzeroberfläche von Experience Cloud* hinzugefügt. |
 |  | [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Der Abschnitt „Wie wirken sich die SameSite-Cookie-Richtlinien von Google Chrome auf VEC und EEC aus?“ wurde mit Informationen zur neuesten Version der Helper-Erweiterung aktualisiert. |
 |  | [Visual Experience Composer Helper-Erweiterung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Der Abschnitt „Abrufen und Installieren der VEC Helper-Erweiterung für den Browser“ wurde aktualisiert. |
-| 12. November | [Integration von  [!DNL Recommendations]  in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Es wurden neue einleitende Informationen hinzugefügt. |
+| 12. November | [Integration [!DNL Recommendations] von in E-Mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Es wurden neue einleitende Informationen hinzugefügt. |
 | 28. Oktober | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zu den folgenden Versionen hinzugefügt:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [„at.js“-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zur „at.js“-Version 2.7.0 hinzugefügt. |
 |  | [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | Der folgende Abschnitt wurde hinzugefügt: „Unterstützung für benutzerdefinierte Elemente“. |
@@ -154,7 +154,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 |  | [Antwort-Token](/help/administrating-target/response-tokens.md) | Es wurden Informationen zur Verwendung von Antwort-Token mit [!DNL Adobe Experience Platform Web SDK] hinzugefügt.<br>**Hinweis**: Diese Funktionen werden in einer zukünftigen Version des Platform Web SDK veröffentlicht (Datum noch festzulegen). |
 |  | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur Adobe Experience Platform Web SDK-Version 2.5.0 (1. Juni 2021) hinzugefügt. |
 | 27. Mai | [Beschränkungen](/help/r-troubleshooting-target/target-limits.md) | Es wurde ein Abschnitt über [!DNL Target]-API-Aufrufe hinzugefügt. Die Begrenzung beträgt 50 Aufrufe pro Minute. |
-| 20. Mai | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Es wurde ein Link zum folgenden Blogpost im Adobe Tech Blog hinzugefügt:<ul><li>Adobe Tech Blog – Part 2: Führen Sie das [!DNL Adobe Target] NodeJS SDK zum Experimentieren und Personalisieren auf Edge-Plattformen aus (AWS Lambda@Edge).</li></ul> |
+| 20. Mai | [Geräteinterne Entscheidungsfindung](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Es wurde ein Link zum folgenden Blogpost im Adobe Tech Blog hinzugefügt:<ul><li>Adobe Tech Blog – Part 2: Führen Sie das [!DNL Adobe Target] NodeJS SDK zum Experimentieren und Personalisieren auf Edge-Plattformen aus (AWS Lambda@Edge)</li></ul> |
 |  | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt: „Die Archivierung von Aktivitäten mit [!UICONTROL automatischem Targeting] kann zu Synchronisationsproblemen führen.“ |
 | 17. Mai | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur „at.js“-Version 2.5.0 hinzugefügt. |
 |  | [Aktivitäts-QA](/help/c-activities/c-activity-qa/activity-qa.md) | Das Thema wurde aktualisiert, um darauf hinzuweisen, dass Vorschaulinks für Aktivitäten von [!UICONTROL Automated Personalization] (AP) mit at.js 2.5.0 (und höher) verfügbar sind. |
