@@ -4,9 +4,9 @@ title: Wo finde ich die in Target verwendeten Begriffe und deren Definitionen?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: 2ec0808000fab6698802d25397aaac96865d592a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2493'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -274,7 +274,7 @@ Mit dieser Interaktionsmetrik wird die Anzahl der bei einem Besuch angezeigten S
 
 **Seitenansicht**
 
-Seitenansicht ist eine einzelne Ansicht einer Mobile- oder Browser-Anwendung, E-Mail-Adresse oder Webseite einer Website, einschließlich der Ansichten des Anwendungsbildschirms, des Anwendungsbildschirms, der Status mobiler Webseiten und der Seiten in sozialen Netzwerken. Seitenansichten erfolgen jedes Mal, wenn eine Webseite geladen oder aktualisiert, eine Anwendung geladen, zielgerichtete Inhalte gerendert oder generiert oder über eine geöffnete oder angezeigte E-Mail angezeigt werden.
+Eine Seitenansicht ist eine einzelne Ansicht eines Mobile- oder Browser-Programms, einer E-Mail oder Seite einer Website, einschließlich der Ansichten des Programmbildschirms, des Status des Programmbildschirms, mobiler Web-Seiten und Seiten in sozialen Netzwerken. Seitenansichten erfolgen jedes Mal, wenn eine Web-Seite geladen oder aktualisiert wird, ein Programm geladen wird, zielgerichtete Inhalte gerendert oder generiert bzw. über eine geöffnete oder angezeigte E-Mail angezeigt werden.
 
 **Priorität**
 
