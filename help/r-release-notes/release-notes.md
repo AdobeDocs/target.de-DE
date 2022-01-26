@@ -6,9 +6,9 @@ title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1140'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 ## at.js-Version 2.8.0 (7. Januar 2022)
 
-Die [!DNL Target] Die JavaScript-Bibliothek at.js erfasst jetzt Daten zur Nutzung von Funktionen und Leistungsdaten. Personenbezogene Daten werden nicht erfasst. Die Opt-out-Funktion für diese Funktion ist verfügbar, indem Sie `telemetryEnabled` auf false in `targetGlobalSettings`. Weitere Informationen finden Sie unter [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+Die at.js-JavaScript-Bibliothek von [!DNL Target] erfasst jetzt Daten zur Nutzung von Funktionen und Daten der Leistungsmessung. Personenbezogene Daten werden nicht erfasst. Eine Abwahl dieser Funktion ist verfügbar, indem `telemetryEnabled` in `targetGlobalSettings` auf „false“ gesetzt wird. Weitere Informationen finden Sie unter [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## [!DNL Target Standard/Premium] 21.10.5 (28. Oktober 2021)
 
