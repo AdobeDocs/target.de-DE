@@ -4,22 +4,18 @@ description: Erfahren Sie, wie Sie eine Angebotsentscheidung hinzufügen, die in
 title: Wie verwende ich Angebotsentscheidungen?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
+source-git-commit: 9843b146b35de3a42408b689f4326fce12bbee5d
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
 
-# Angebotsentscheidungen verwenden
+# Verwenden von Angebotsentscheidungen 
 
 Verwendung [!DNL Adobe Target] mit [!DNL Adobe Journey Optimizer] Angebotsentscheidungen zur Bestimmung und Bereitstellung des nächsten besten Angebots für Ihre Besucher im Web und auf Mobilgeräten.
 
 Hinzufügen von Angebotsentscheidungen, die in erstellt wurden [!DNL Adobe Journey Optimizer] nach [!DNL Target] Tätigkeiten (manuelle [!UICONTROL A/B-Test] oder [!UICONTROL Erlebnis-Targeting]) entweder mithilfe der [!UICONTROL Visual Experience Composer] (VEC) oder [!UICONTROL Form-Based Composer] Testen und Bereitstellen personalisierter Angebote für Ihre Besucher auf eingehenden Kanälen mithilfe von [!DNL Target].
-
->[!NOTE]
->
->Die in diesem Thema beschriebene Funktion zur Angebotsentscheidung, die derzeit als Beta-Version verfügbar ist und nur ausgewählten Kunden zur Verfügung steht.
 
 Weitere Informationen finden Sie unter [!DNL Adobe Journey Optimizer], siehe [Erste Schritte mit Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) im *Journey Optimizer* Dokumentation.
 

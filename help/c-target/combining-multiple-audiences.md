@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mehrere Zielgruppen (einschließlich Adobe Ex
 title: Kann ich mehrere Zielgruppen kombinieren, um eine neue Zielgruppe zu erstellen?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 0ac66c49b319b1ab1791fd91428fd2764f48c3ec
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 72%
+source-wordcount: '937'
+ht-degree: 71%
 
 ---
 
@@ -18,6 +18,8 @@ Kombinieren mehrerer Zielgruppen (einschließlich [!DNL Adobe Experience Cloud],
 >[!NOTE]
 >
 >Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). In der [!DNL Adobe Experience Platform] kann unverändert oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema beschrieben).
+>
+>Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep).
 
 Nehmen wir einmal an, Sie hätten die Zielgruppen „Neue Besucher“ und „Chrome-Anwender“ erstellt. Im Falle einer bestimmten Aktivität möchten Sie diese beiden Zielgruppen möglicherweise miteinander kombinieren, um neue Besucher mit dem Browser Chrome anzusprechen. Anstatt eine neue Zielgruppe zu erstellen und sie in der [!UICONTROL Zielgruppenbibliothek] zu speichern, können Sie die beiden Zielgruppen im Zuge der Aktivitätserstellung oder bei der Bearbeitung einer bereits bestehenden Aktivität miteinander kombinieren.
 

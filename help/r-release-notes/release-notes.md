@@ -2,13 +2,13 @@
 keywords: Versionshinweise;neue Funktionen;Versionen;Updates;Update;Version;Verbesserungen;Erweiterungen;Fehlerbehebungen;Fehlerkorrekturen;Aktualisierungen
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von [!DNL Adobe Target], einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von [!DNL Adobe Target].
-title: Welche neuen Funktionen sind in der aktuellen Version enthalten?
+title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
-workflow-type: ht
-source-wordcount: '1140'
-ht-degree: 100%
+source-git-commit: 8d252255499dd8ece5e1de1220a97723659a4bf8
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 75%
 
 ---
 
@@ -16,86 +16,23 @@ ht-degree: 100%
 
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den APIs, SDKs, der [!DNL Adobe Experience Platform Web SDK] und der JavaScript-Bibliothek (at.js) von Target sowie zu anderen Plattformänderungen.
 
->[!IMPORTANT]
->
->**Beendigung von mbox.js**: Ab dem 31. März 2021 unterstützt [!DNL Adobe Target] die Bibliothek „mbox.js“ nicht mehr. Seit dem 31. März 2021 schlagen alle Aufrufe aus mbox.js kontrolliert fehl. Dies wirkt sich auf Seiten mit [!DNL Target]-Aktivitäten aus, die Standardinhalte bereitstellen.
->
->Migrieren Sie zur aktuellen Version des neuen [!DNL Adobe Experience Platform Web SDK] oder zur JavaScript-Bibliothek „at.js“, um mögliche Probleme mit Ihren Sites zu vermeiden. Weitere Informationen finden Sie unter [Übersicht: Target für Client-seitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
 (Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+
+## [!DNL Target Standard/Premium] 22.1.2 (26. Januar 2022)
+
+| Funktion | Details |
+| --- | --- |
+| [!DNL Adobe Experience Platform] Zielgruppen in [!DNL Target] | Sie können jetzt verwenden und [!DNL Adobe Experience Platform] Zielgruppen in [!DNL Target]. Die [!DNL Target] Team, [!DNL Experience Platform] [!DNL Destinations] und [!DNL Unified Profile Service] -Team freut sich, die allgemeine Verfügbarkeit der Anwendungsfälle &quot;Gleiche Seite/Nächste Seitenpersonalisierung&quot;bekannt geben zu können.<br>Verwenden von in erstellten Zielgruppen [!DNL Adobe Experience Platform] bietet umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen. Die [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), basierend [!DNL Adobe Experience Platform] hilft Unternehmen dabei, bekannte und anonyme Daten aus verschiedenen Unternehmensquellen zusammenzuführen, um Kundenprofile zu erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse auf allen Kanälen und Geräten bereitgestellt werden können.<br>Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep) in *Erstellen von Zielgruppen*. |
+| Aktualisierung der [!UICONTROL Audiences]-Benutzeroberfläche | Im Rahmen der ständigen Bemühungen des [!DNL Adobe Target]-Teams, die Benutzerfreundlichkeit für [!DNL Target]-Anwender zu verbessern, wurden in dieser Version die Seiten [!UICONTROL Audiences] und [!UICONTROL Profilskripte] in der [!DNL Target]-Benutzeroberfläche aktualisiert. Dieses Update vereinheitlicht und standardisiert Designmuster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein überarbeitetes [Design für den Audience Builder](/help/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im Rule Builder für [!UICONTROL Zielgruppe] nbibliotheken</li><li>Ein neuer „Zielgruppe-Quelle“-Filter, der eine schnellere Zielgruppenfindung ermöglicht</li><li>Optionen für dauerhafte Suche und Filter in Sitzungen</li><li>Die Möglichkeit, Zielgruppen zwischen Arbeitsbereichen zu verschieben für [!DNL Target Premium] -Kunden.</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/c-target/target.md).<br>**NOTE**: Diese Funktion wird in den nächsten sechs Wochen für Kunden in verschiedenen Regionen eingeführt. |
+| Aktualisierung der [!UICONTROL Profilskript]-Benutzeroberfläche | Die [!UICONTROL Profilskripte]-Bibliothek wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Codeeditor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Token-Parameter („mbox“ oder „profile“) über Tastaturbefehle automatisch ausfüllen</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**NOTE**: Diese Funktion wird in den nächsten sechs Wochen für Kunden in verschiedenen Regionen eingeführt. |
+
+## [!DNL Target Standard/Premium] 22.1.1 (12. Januar 2022)
+
+Diese Version umfasst Fehlerbehebungen und erforderliche Funktionen für zukünftige Integrationen.
 
 ## at.js-Version 2.8.0 (7. Januar 2022)
 
 Die at.js-JavaScript-Bibliothek von [!DNL Target] erfasst jetzt Daten zur Nutzung von Funktionen und Daten der Leistungsmessung. Personenbezogene Daten werden nicht erfasst. Eine Abwahl dieser Funktion ist verfügbar, indem `telemetryEnabled` in `targetGlobalSettings` auf „false“ gesetzt wird. Weitere Informationen finden Sie unter [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
-
-## [!DNL Target Standard/Premium] 21.10.5 (28. Oktober 2021)
-
-Diese Wartungsversion enthält die folgende Verbesserung:
-
-| Funktion | Details |
-| --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | Hinzugefügte Unterstützung für [Web-Komponenten](https://developer.mozilla.org/de/docs/Web/Web_Components). Personalisierte Erlebnisse und Angebote können mit benutzerdefinierten Elementen und Elementen innerhalb von benutzerdefinierten Elementen erstellt und getestet werden.<br>Weitere Informationen finden Sie unter [Visual Experience Composer-Optionen](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
-
-## [!DNL Target Standard/Premium] 21.10.4 (21. Oktober 2021)
-
-Diese Wartungsversion enthält die folgende Verbesserung:
-
-| Funktion | Details |
-| --- | --- |
-| Warenkorbbasierte Empfehlungen | Eine neue Reihe von Algorithmen wurde hinzugefügt, um Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers bereitzustellen.<br>Weitere Informationen finden Sie unter „Warenkorb-basiert“ in [Erstellen von Kriterien](/help/c-recommendations/c-algorithms/create-new-algorithm.md), unter „Hinzufügungen zum Warenkorb/Warenkorbansichten/Checkout-Seiten“ und „Ausschließen von Artikeln, die sich bereits im Warenkorb des Besuchers befinden“ in [Planen und Implementieren von Recommendations](/help/c-recommendations/plan-implement.md) sowie unter „Warenkorb-basiert“ in [Stützen der Recommendation auf einen Recommendation-Schlüssel](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
-
-## [!DNL Target Standard/Premium] 21.10.3 (19. Oktober 2021)
-
-Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Änderungen:
-
-* Es wurden Probleme behoben, die Kunden daran hinderten, das [!UICONTROL A4T]-Bedienfeld in [!DNL Analysis Workspace] zu öffnen, indem sie auf die Schaltfläche [!UICONTROL In Analytics anzeigen] in der [!DNL Target]-Aktivitätsberichterstattung klickten. (TGT-42099, TGT-42100)
-* Es wurde ein Problem behoben, das dazu führte, dass die Schaltfläche [!UICONTROL Entwurf bearbeiten] beim Bearbeiten von [!UICONTROL A/B-Test]- und [!UICONTROL Experience Targeting] (XT)-Aktivitäten mit dem [!UICONTROL formularbasierten Experience Composer] nicht angezeigt wurde. (TGT-41980)
-* Es wurde ein Problem behoben, das verhinderte, dass das Kontrollkästchen [!UICONTROL Kompatibel] in der Kriterienauswahl beim Erstellen einer neuen [!UICONTROL Recommendations]-Aktivität angezeigt wurde. (TGT-42053)
-* Es wurde eine falsche Fehlermeldung behoben, die angezeigt wurde, wenn [!DNL Analytics] als Berichtsquelle (A4T) aufgrund fehlender [!DNL Analytics]-Berechtigungen nicht ausgewählt werden konnte. (TGT-41954)
-* Es wurden mehrere Korrekturen zur Verbesserung der Tastaturnavigation auf der gesamten [!DNL Target]-Benutzeroberfläche vorgenommen.
-
-## [!DNL Target Standard/Premium] 21.10.2 (13. Oktober 2021)
-
-Die folgenden Verbesserungen wurden bei der Verwendung von [!DNL Target] [!UICONTROL Audiences] mit dem [!DNL Adobe Experience Platform Web SDK] hinzugefügt:
-
-* An verschiedenen Stellen in der [!DNL Target]-Benutzeroberfläche wurden Warnsymbole, Pop-overs und Meldungen hinzugefügt, die darauf hinweisen, dass die Zielgruppe an der Quelle gelöscht wurde und nicht mehr für die Verwendung bei [!DNL Target]-Aktivitäten verfügbar ist.
-
-   Die folgenden Abbildungen zeigen einige der Orte, an denen Symbole, Pop-overs und Nachrichten angezeigt werden:
-
-   * Listenseite [!UICONTROL Aktivität]
-
-      ![Zielgruppe an der Quelle gelöscht, Meldung auf der Listenseite „Aktivität“](assets/deleted-at-source-audiences-list.png)
-
-   * Aktivitäts-[!UICONTROL Überblick] seiten:
-
-      ![Zielgruppe an der Quelle gelöscht, Meldung auf Übersichtsseite](assets/deleted-at-source-overview.png)
-
-   * Schritt [!UICONTROL Erlebnisse] des Arbeitsablaufs für die Erstellung von Aktivitäten:
-
-      ![Zielgruppe an der Quelle gelöscht, Meldung auf Seite [!UICONTROL Erlebnisse]](assets/deleted-at-source-experiences.png)
-
-   * Schritt [!UICONTROL Targeting] des Arbeitsablaufs für die Erstellung von Aktivitäten:
-
-      ![Audience gelöscht bei Quelle, Meldung auf [!UICONTROL Targeting]-Seite](assets/deleted-at-source-targeting.png)
-
-   * Schritt [!UICONTROL Ziele und Einstellungen] des Arbeitsablaufs für die Erstellung von Aktivitäten:
-
-      ![Zielgruppe an der Quelle gelöscht, Meldung auf Seite [!UICONTROL Ziele und Einstellungen]](assets/deleted-at-source-goals-settings.png)
-
-   * Zielgruppenoptimierungen ([!UICONTROL Zielgruppe ersetzen] beim Schritt [!UICONTROL Targeting] des Arbeitsablaufs für die Erstellung von Aktivitäten:):
-
-* Wenn Sie versuchen, die Funktion „Kombinieren von Zielgruppen“ zu verwenden und eine der Zielgruppen an der Quelle gelöscht wurde, ist [!UICONTROL Speichern] deaktiviert.
-
-## [!DNL Target Standard/Premium] 21.10.1 (6. Oktober 2021)
-
-Diese Version enthält die folgenden neuen Funktionen:
-
-| Funktion | Details |
-| --- | --- |
-| Aktualisierung der [!UICONTROL Audiences]-Benutzeroberfläche | Im Rahmen der ständigen Bemühungen des [!DNL Adobe Target]-Teams, die Benutzerfreundlichkeit für [!DNL Target]-Anwender zu verbessern, wurden in dieser Version die Seiten [!UICONTROL Audiences] und [!UICONTROL Profilskripte] in der [!DNL Target]-Benutzeroberfläche aktualisiert. Dieses Update vereinheitlicht und standardisiert Designmuster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein überarbeitetes [Design für den Audience Builder](/help/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im Rule Builder für [!UICONTROL Zielgruppe] nbibliotheken</li><li>Ein neuer „Zielgruppe-Quelle“-Filter, der eine schnellere Zielgruppenfindung ermöglicht</li><li>Optionen für dauerhafte Suche und Filter in Sitzungen</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/c-target/target.md).<br>**HINWEIS**: Die neue Benutzeroberfläche [!UICONTROL Zielgruppen] ist nur für ausgewählte Kunden verfügbar. Die Aktualisierung wird ab Januar 2022 schrittweise für alle Kunden eingeführt. |
-| Aktualisierung der [!UICONTROL Profilskript]-Benutzeroberfläche | Die [!UICONTROL Profilskripte]-Bibliothek wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Codeeditor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Token-Parameter („mbox“ oder „profile“) über Tastaturbefehle automatisch ausfüllen</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**HINWEIS**: Die neue Benutzeroberfläche [!UICONTROL Profilskripte] ist nur für ausgewählte Kunden verfügbar. Die Aktualisierung wird ab Januar 2022 schrittweise für alle Kunden eingeführt. |
-| Kriterien für ![Premium-Zeichen](/help/assets/premium.png) Recommendations erstellen und bearbeiten | Der Arbeitsablauf zur Erstellung und Bearbeitung von [!UICONTROL Recommendations-Kriterien] wurde optimiert, um die Auswahl des richtigen Recommendations-Algorithmus und der richtigen Einstellungen für Ihre Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Kriterien erstellen](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Premium-Zeichen](/help/assets/premium.png) Recommendations für das Lookback-Fenster und Verbesserungen der Aktualisierungsrate des Algorithmus | Sie können jetzt Algorithmen für „Am häufigsten angezeigt“ und „Topverkäufe“ mit einem sechsstündigen Lookback-Fenster ausführen, um die Inhalte zu erfassen, die in letzter Zeit im Trend liegen. Wenn das sechsstündige Lookback-Fenster ausgewählt ist, werden Ihre Empfehlungen den ganzen Tag über alle 3–6 Stunden aktualisiert.<br>Weitere Informationen finden Sie unter [Datenquelle](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) unter *Kriterien erstellen*. |
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
