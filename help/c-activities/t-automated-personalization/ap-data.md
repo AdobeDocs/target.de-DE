@@ -1,12 +1,12 @@
 ---
 keywords: Umgebungsdaten; Sitzungsdaten; Geodaten; geografische Daten; Gerätedaten; mobile Daten; Attribute; Profilattribute; Personalisierungsalgorithmen; Algorithmen für maschinelles Lernen; Algorithmen für maschinelles Lernen
-description: Erfahren Sie, welche Daten Adobe haben [!DNL Target] erfasst und verwendet , um seine maschinellen Lernalgorithmen in [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) Tätigkeiten.
+description: Erfahren Sie, welche Daten Adobe haben [!DNL Target] erfasst und verwendet , um seine Algorithmen für maschinelles Lernen zu erstellen.
 title: Welche Daten werden erfasst, um Algorithmen für maschinelles Lernen zu erstellen?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
+source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2077'
 ht-degree: 50%
 
 ---
