@@ -4,7 +4,7 @@ description: Erfahren Sie, welche Daten Adobe haben [!DNL Target] erfasst und ve
 title: Welche Daten werden erfasst, um Algorithmen für maschinelles Lernen zu erstellen?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: d191274f18098edeba1f6f87c75d9ca20ba0c412
+source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
 workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 50%
@@ -77,7 +77,7 @@ So blockieren Sie eine oder mehrere spezifische Funktionen in [!DNL Target] Algo
 | Attributname | Attributbeschreibung | Beispielwerte | Systemname |
 | --- | --- | --- | --- |
 | Geo - City | Die Stadt, von der aus der Besucher auf die Aktivität zugegriffen hat. | San Francisco | geo_city |
-| Geo - Country | Das Land, von dem aus der Besucher auf die Aktivität zugegriffen hat. | Deutschland | Geo_County |
+| Geo - Country | Das Land, von dem aus der Besucher auf die Aktivität zugegriffen hat. | Deutschland | geo_country |
 | Geo - DMA | Der angegebene Marketingbereich (DMA), von dem aus der Besucher auf die Aktivität zugegriffen hat. | Charlottesville | Geo_DMA |
 | Geo - Latitude | Der Breitengrad, von dem aus der Besucher auf die Aktivität zugegriffen hat. | 47.269<br>Auf 3 Dezimalstellen gerundet (ca. 100 Meter Genauigkeit) | GEO_Latitude |
 | Geo - Longitude | Der Längengrad, von dem aus der Besucher auf die Aktivität zugegriffen hat. | -122.269<br>Auf 3 Dezimalstellen gerundet (ca. 100 Meter Genauigkeit) | GEO_Longitude |
