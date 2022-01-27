@@ -1,40 +1,39 @@
 ---
-keywords: automatisierte Personalisierung;ap;Audiencen;ensemble;Random. Wald;Restschwankung;Fehlerschwankung;Lebenszeitwert
-description: Erfahren Sie, wie Sie mit dem Visual Experience Composer (VEC) eine Automated Personalization (AP)-Aktivität in Adobe [!DNL Target] erstellen.
-title: Wie erstelle ich eine Automated Personalization-Aktivität?
-feature: Automatisierte Personalisierung
+keywords: automatisierte Personalisierung;App;Zielgruppen;Ensemble;Random Forest;Restschwankung;Fehlervarianz;Lebenszeitwert
+description: Erfahren Sie, wie Sie eine [!UICONTROL Automated Personalization] Aktivität (AP) in [!DNL Adobe Target] Verwenden von Visual Experience Composer.
+title: Wie erstelle ich eine [!UICONTROL Automated Personalization] Aktivität?
+feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2048'
 ht-degree: 91%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Erstellen einer Aktivität mit automatisierter Personalisierung
 
-Der Arbeitsablauf für die Aktivität [!UICONTROL Automated Personalization] (AP) in [!DNL Adobe Target] unterscheidet sich vom Arbeitsablauf der anderen Aktivitäten.
+Die [!UICONTROL Automated Personalization] Aktivitäts-Workflow in [!DNL Adobe Target] unterscheidet sich vom Workflow der anderen Aktivitätstypen.
 
-1. Klicken Sie in der Liste [!DNL Target] [!UICONTROL Aktivitäten] auf **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL Automated Personalization]**.
+1. Aus dem [!DNL Target] [!UICONTROL Tätigkeiten] Liste, klicken Sie auf **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL Automated Personalization]**.
 
    ![Aktivität erstellen: Automatisierte Personalisierung](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. Um den [!UICONTROL Visual Experience Composer] (VEC) zu verwenden, klicken Sie auf **[!UICONTROL Visuell (Standard)]**.
+1. So verwenden Sie die [!UICONTROL Visual Experience Composer] (VEC), klicken Sie auf **[!UICONTROL Visuell (Standard)]**.
 
    ![Dialogfeld zum Erstellen einer automatisierten Personalisierung](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   Wenn Sie den [!UICONTROL Form-Based Experience Composer] verwenden möchten, wählen Sie [!UICONTROL Formular]. Weitere Informationen finden Sie unter [Formularbasierter Experience Composer](/help/c-experiences/form-experience-composer.md).
+   Wenn Sie die [!UICONTROL Form-Based Experience Composer]auswählen [!UICONTROL Formular]. Weitere Informationen finden Sie unter [Formularbasierter Experience Composer](/help/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
-   >Zusätzlich zu VEC und [!UICONTROL Form-Based Experience Composer] werden [!DNL Target] die Angebot [!UICONTROL Einzelseitenanwendung VEC] und VEC für Mobilanwendungen erstellt. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
+   >Zusätzlich zum VEC und [!UICONTROL Form-Based Experience Composer], [!DNL Target] bietet die [!UICONTROL VEC für Einzelseiten-Apps] und VEC für mobile Apps. Weitere Informationen zu den verschiedenen Composern finden Sie unter [Erlebnisse und Angebote](/help/c-experiences/experiences.md).
    >
    >Informationen zur Problembehebung für den VEC finden Sie unter [Fehlerbehebung für den Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
    >Die Option [!UICONTROL „Arbeitsplatz auswählen“] in der obigen Abbildung ist eine Funktion von [Target Premium](/help/c-intro/intro.md). Wenn diese Option nicht angezeigt wird, verfügt Ihr Unternehmen über eine Target Standard-Lizenz.
 
-1. (Bedingt) Wenn Sie ein Premium-Kunde sind, [wählen Sie einen Arbeitsbereich](/help/administrating-target/c-user-management/property-channel/property-channel.md).[!DNL Target]
+1. (Bedingt) Wenn Sie [!DNL Target] Premium-Kunde, [Arbeitsbereich auswählen](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Überprüfen Sie die Aktivitäts-URL bzw. geben Sie sie ein und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
@@ -44,11 +43,11 @@ Der Arbeitsablauf für die Aktivität [!UICONTROL Automated Personalization] (AP
 
    Die Seite mit der angegebenen URL wird im Visual Experience Composer geöffnet.
 
-1. Um der Aktivität einen Namen zu geben, klicken Sie auf das Feld **[!UICONTROL Name]** und geben Sie Ihren Aktivitäten-Namen ein.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Name]** und geben Sie Ihren Aktivitätsnamen ein.
 
    ![Namensfeld](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
-   Der Name der Aktivität darf nicht mit einem der folgenden Zeichen beginnen:
+   Der Aktivitätsname darf mit keinem der folgenden Zeichen beginnen:
 
    | Zeichen | Beschreibung |
    |--- |--- |
@@ -142,9 +141,9 @@ Der Arbeitsablauf für die Aktivität [!UICONTROL Automated Personalization] (AP
    |--- |--- |
    | Name | Benennen Sie die Aktivität. Geben Sie der Aktivität einen beschreibenden Namen, sodass Teammitglieder diese in der Aktivitätenliste erkennen können.  In der oben stehenden Tabelle sehen Sie, welche Zeichen in einem Aktivitätsnamen nicht zulässig sind. |
    | Ziel | (Optional) Geben Sie das Ziel des Tests ein. Das Ziel hilft Ihnen, den Zweck der Aktivität zu verinnerlichen. |
-   | Priorität | Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für Prioritäten. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren.<br>Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.<br>Wenn diese Option in  [!UICONTROL Administration] >  [!UICONTROL Berichte]  (Standard) nicht aktiviert ist, geben Sie eine Priorität an: Niedrig, mittel oder hoch.<br>Klicken Sie zum Aktivieren der Feinabstufungen auf  [!UICONTROL Administration]  >  [!UICONTROL Berichte] und aktivieren Sie dann die Option Feinkörnige  [!UICONTROL Prioritäten ] aktivieren auf die Position &quot;Ein&quot;.<br>Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest:<ul><li>0 = Niedrig</li><li>999 = Hoch</li></ul>Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt wurden, wird eine niedrige Priorität in den Wert 0, eine mittlere in den Wert 5 und eine hohe in den Wert 10 umgewandelt. Diese Werte können nach Wunsch angepasst werden.<br>**Hinweis:** Haben Sie genauere Prioritäten verwendet und möchten Sie die Option deaktivieren, müssen zunächst alle Prioritätswerte auf 0, 5 und 10 zurückgesetzt werden. |
+   | Priorität | Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für Prioritäten. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren.<br>Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.<br>Wenn diese Option nicht aktiviert ist in [!UICONTROL Administration] > [!UICONTROL Berichterstellung] (Standardeinstellung), geben Sie eine Priorität an: Niedrig, Mittel oder Hoch.<br>Um genauer unterteilte Prioritäten festzulegen, klicken Sie auf [!UICONTROL Administration] > [!UICONTROL Berichterstellung], und schalten Sie dann die [!UICONTROL Aktivieren genauer Prioritätensetzung] auf die Position &quot;Ein&quot;.<br>Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest:<ul><li>0 = Niedrig</li><li>999 = Hoch</li></ul>Bei Aktivitäten, die in älteren Versionen von Target Standard/Premium erstellt wurden, wird eine niedrige Priorität in den Wert 0, eine mittlere in den Wert 5 und eine hohe in den Wert 10 umgewandelt. Diese Werte können nach Wunsch angepasst werden.<br>**Hinweis:** Haben Sie genauere Prioritäten verwendet und möchten Sie die Option deaktivieren, müssen zunächst alle Prioritätswerte auf 0, 5 und 10 zurückgesetzt werden. |
    | Dauer | Legen Sie Start- und Enddatum für die Aktivität fest. |
-   | Optimierungsziel | Geben Sie das Optimierungsziel an, das aus zwei Parametern besteht:<ul><li>dem, was Sie mit der Aktivität messen möchten,</li><li>der von einem Aktivitätsteilnehmer durchgeführten Aktion, die zeigt, dass das Ziel erreicht wurde</li></ul>Sie können das Optimierungsziel benennen. Wählen Sie dazu die drei Punkte rechts neben „Mein Primärziel“ aus. Automatisierte Personalisierungsaktivitäten können die Konversion, RPV und AOV messen. Konversion kann durch Betrachten einer Seite oder einer Mbox erreicht werden. Es können auch Klicks verfolgt werden.<br>Das primäre Ziel wird außerdem zur Modellierungsmetrik, die vom Modellierungssystem verwendet wird, um den Erfolg des Erlebnisses zu berechnen.<br>Besucher können zu Tracking-Zwecken in der Aktivität beibehalten werden, nachdem Sie das Modellierungsziel erreicht haben. Beispiel: Eine Aktivität „Automatisierte Personalisierung“ wird oft verwendet, um die Klickraten zu verbessern; dies wird als Modellierungsziel festgelegt. Es ist jedoch wichtig zu sehen, wie erhöhte Klickraten zur finalen Konversion führen; daher ist ein Tracking durch die finale Konversion entscheidend.<br>Sie können für mehrere Metriken Abhängigkeiten erstellen und die flexible Auswahl ermöglichen, ob die Metrik erreicht werden soll oder nicht, damit sich die Anzahl erhöht.<br>Sie müssen beide (oder mehrere) Erfolgsmetriken definieren, bevor Sie eine Abhängigkeit voneinander festlegen können.<br>Mithilfe der Option Abhängigkeit hinzufügen kann die Erfolgsmetrik inkrementiert werden, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde.<br>So fügen Sie eine Abhängigkeit hinzu:<ol><li>Klicken Sie nach dem Hinzufügen von zusätzlichen Metriken unter dem Menü mit den drei Punkten rechts neben „Zusätzliches Ziel“ auf [!UICONTROL Erweiterte Einstellungen].</li><li>Klicken Sie unten im Abschnitt zu [!UICONTROL Berichtseinstellungen] auf die Option [!UICONTROL Abhängigkeit hinzufügen].</li><li>Verschieben Sie die gewünschte Metrik per Drag-and-drop vom linken Bereich in den rechten Bereich. Klicken Sie dann auf [!UICONTROL Erreicht], um die Einstellung zwischen [!UICONTROL Erreicht] und [!UICONTROL Nicht erreicht] zu wechseln</li></ol>Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben. |
+   | Optimierungsziel | Geben Sie das Optimierungsziel an, das aus zwei Parametern besteht:<ul><li>dem, was Sie mit der Aktivität messen möchten,</li><li>der von einem Aktivitätsteilnehmer durchgeführten Aktion, die zeigt, dass das Ziel erreicht wurde</li></ul>Sie können das Optimierungsziel benennen. Wählen Sie dazu die drei Punkte rechts neben „Mein Primärziel“ aus. Automatisierte Personalisierungsaktivitäten können die Konversion, RPV und AOV messen. Konversion kann durch Betrachten einer Seite oder einer Mbox erreicht werden. Es können auch Klicks verfolgt werden.<br>Das primäre Ziel wird außerdem zur Modellierungsmetrik, die vom Modellierungssystem verwendet wird, um den Erfolg des Erlebnisses zu berechnen.<br>Besucher können zu Tracking-Zwecken in der Aktivität beibehalten werden, nachdem Sie das Modellierungsziel erreicht haben. Beispiel: Eine Aktivität „Automated Personalization“ wird oft verwendet, um die Klickraten zu verbessern; dies wird als Modellierungsziel festgelegt. Es ist jedoch wichtig zu sehen, wie erhöhte Klickraten zur finalen Konversion führen; daher ist ein Tracking durch die finale Konversion entscheidend.<br>Sie können für mehrere Metriken Abhängigkeiten erstellen und die flexible Auswahl ermöglichen, ob die Metrik erreicht werden soll oder nicht, damit sich die Anzahl erhöht.<br>Sie müssen beide (oder mehrere) Erfolgsmetriken definieren, bevor Sie eine Abhängigkeit voneinander festlegen können.<br>Mithilfe der Option Abhängigkeit hinzufügen kann die Erfolgsmetrik inkrementiert werden, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde.<br>So fügen Sie eine Abhängigkeit hinzu:<ol><li>Klicken Sie nach dem Hinzufügen von zusätzlichen Metriken unter dem Menü mit den drei Punkten rechts neben „Zusätzliches Ziel“ auf [!UICONTROL Erweiterte Einstellungen].</li><li>Klicken Sie unten im Abschnitt zu [!UICONTROL Berichtseinstellungen] auf die Option [!UICONTROL Abhängigkeit hinzufügen].</li><li>Verschieben Sie die gewünschte Metrik per Drag-and-drop vom linken Bereich in den rechten Bereich. Klicken Sie dann auf [!UICONTROL Erreicht], um die Einstellung zwischen [!UICONTROL Erreicht] und [!UICONTROL Nicht erreicht] zu wechseln</li></ol>Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben. |
    | Konversionsmetrik | Standardmäßig entspricht die Konversionsmetrik der Optimierungszielmetrik. Sie können jedoch eine separate Konversionsmetrik definieren, indem Sie die Option [!UICONTROL Wie Optimierungsziel] deaktivieren. |
    | Zusätzliche Metriken | Geben Sie beliebige weitere Berichterstellungsmetriken an, die Sie verwenden möchten. Sie können Konversions- oder Umsatzmetriken hinzufügen.<br>**Hinweis:** Die Interaktionskennzahl wird nicht als zusätzliche Metrik unterstützt. Sie können die Interaktionsmetrik in der Benutzeroberfläche zwar auswählen, aber in Berichten werden keine korrekten Daten angezeigt. |
    | Zielgruppen für die Berichterstellung | Fügen Sie Zielgruppen hinzu, um die Filterung nach Zielgruppen in Berichten zu ermöglichen. Standardmäßig zeigen die Berichte Ergebnisse für alle berechtigten Besucher. Fügen Sie Zielgruppen hinzu, um Ergebnisse nach spezifischeren Besucheruntergruppen zu filtern.<br>**Hinweis:** Im Gegensatz zu anderen Aktivitätstypen kann Automated Personalization Adobe Analytics nicht als Berichtsquelle verwenden. |

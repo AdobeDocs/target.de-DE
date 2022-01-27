@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7c8620df9cefe422f499d4edb681d024e74529ce
+source-git-commit: 9887358f905b8fda8cf42f0cbd721c1ad13632d4
 workflow-type: tm+mt
-source-wordcount: '3318'
+source-wordcount: '3329'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 27. Januar | [AEM-Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Aktualisiertes Thema und hinzugefügte Informationen zu [!DNL AEM as a Cloud Service] und [!DNL Adobe I/0]. |
 | 26. Januar | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Informationen zu Target Standard/Premium 22.1.2 wurden hinzugefügt. |
 |  | [Erstellen von Zielgruppen](/help/c-target/c-audiences/audiences.md) | Es wurden Informationen zu [!DNL Adobe Experience Platform] Zielgruppen. |
 |  | [Kombinieren mehrerer Zielgruppen](/help/c-target/combining-multiple-audiences.md) | Es wurden Informationen zu [!DNL Adobe Experience Platform] Zielgruppen. |
