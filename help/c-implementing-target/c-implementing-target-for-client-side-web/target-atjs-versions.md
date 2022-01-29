@@ -5,10 +5,10 @@ title: Was ist in jeder Version von at.js enthalten?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '4357'
-ht-degree: 87%
+source-wordcount: '4390'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,15 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >
 >Tags in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) ist die bevorzugte Methode zum Aktualisieren von at.js. Erweiterungsentwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Aktualisierungen werden in neuen Versionen einer Erweiterung zusammengefasst und im Abschnitt [!DNL Adobe Experience Platform] Katalog als Upgrades. Weitere Informationen finden Sie unter [Erweiterungs-Upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) im *Übersicht über Tags* Handbuch.
 
+## at.js-Version 2.8.1 (28. Januar 2022)
+
+* Fest `pageLoad` wird nicht mit target-global-mbox in [!UICONTROL Über Geräteentscheidungen] Hybrid-Ausführungsmodus (ODD).
+* Es wurde ein Problem mit Analysedetails für Mbox-Anfragen behoben.
+* Dev-Abhängigkeiten wurden aktualisiert, um Sicherheitslücken zu beheben.
+
 ## at.js-Version 2.8.0 (7. Januar 2022)
 
-Die [!DNL Target] Die JavaScript-Bibliothek at.js erfasst jetzt Daten zur Nutzung von Funktionen und Leistungsdaten. Personenbezogene Daten werden nicht erfasst. Die Opt-out-Funktion für diese Funktion ist verfügbar, indem Sie `telemetryEnabled` auf false in `targetGlobalSettings`. Weitere Informationen finden Sie unter [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+Die at.js-JavaScript-Bibliothek von [!DNL Target] erfasst jetzt Daten zur Nutzung von Funktionen und Daten der Leistungsmessung. Personenbezogene Daten werden nicht erfasst. Eine Abwahl dieser Funktion ist verfügbar, indem `telemetryEnabled` in `targetGlobalSettings` auf „false“ gesetzt wird. Weitere Informationen finden Sie unter [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## at.js-Version 2.7.0 (28. Oktober 2021)
 
