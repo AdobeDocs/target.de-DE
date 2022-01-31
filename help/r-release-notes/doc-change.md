@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
+source-git-commit: 80e9e516ad6a6e0d3683d0001812ce58eb7dfb19
 workflow-type: tm+mt
-source-wordcount: '3349'
-ht-degree: 99%
+source-wordcount: '3360'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 31. Januar | [Target-Versionshinweise (Vorabversion)](/help/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion hinzugefügt [!DNL Target Standard/Premium] Version 2.2.1. |
 | 28. Januar | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zur „at.js“-Version 2.8.1 hinzugefügt. |
 |  | [at.js-Versionsdetails](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen zur „at.js“-Version 2.8.1 hinzugefügt. |
 | 27. Januar | [AEM-Experience Fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Aktualisiertes Thema und hinzugefügte Informationen zu [!DNL AEM as a Cloud Service] und [!DNL Adobe I/0]. |

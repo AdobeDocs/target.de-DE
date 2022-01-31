@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
-workflow-type: ht
-source-wordcount: '200'
-ht-degree: 100%
+source-git-commit: 80e9e516ad6a6e0d3683d0001812ce58eb7dfb19
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 65%
 
 ---
 
@@ -15,15 +15,16 @@ ht-degree: 100%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 10. Januar 2022**
+**Letzte Aktualisierung: 31. Januar 2022**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
->[!IMPORTANT]
->
->**Beendigung von mbox.js**: Ab dem 31. März 2021 unterstützt [!DNL Adobe Target] die Bibliothek „mbox.js“ nicht mehr. Seit dem 31. März 2021 schlagen alle Aufrufe aus mbox.js kontrolliert fehl. Dies wirkt sich auf Seiten mit [!DNL Target]-Aktivitäten aus, die Standardinhalte bereitstellen.
->
->Um potenzielle Probleme mit Ihren Sites zu vermeiden, migrieren Sie zur neuesten Version der neuen [!DNL Adobe Experience Platform Web SDK]- oder der JavaScript-Bibliothek „at.js“. Weitere Informationen finden Sie unter [Übersicht: Target für Client-seitiges Web implementieren](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+## Target Standard/Premium 22.2.1 (1. Februar 2022)
+
+Dieses Maintenance Release enthält die folgenden Fehlerbehebungen und Erweiterungen für die neue [!UICONTROL Zielgruppen] In der Benutzeroberfläche angekündigt [Target Standard/Premium, Version 22.1.2](/help/r-release-notes/release-notes.md) wird in den nächsten sechs Wochen für Kunden aus allen Regionen bereitgestellt. Diese Fehlerbehebungen richten die Funktionalität der in [!DNL Adobe Target Standard/Premium].
+
+* Fehlerkorrektur - Importierte Zielgruppen können jetzt [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]und [!DNL Adobe Target Classic] nicht als Berichterstellungszielgruppen zugewiesen werden. (TGT-43140)
+* Eine [!UICONTROL Löschen] in der [!UICONTROL Zielgruppen] Liste für importierte Zielgruppen aus [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]und [!DNL Adobe Target Classic]. Es wurde auch eine Funktion zum Massenlöschen hinzugefügt. (TGT-42914)
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
