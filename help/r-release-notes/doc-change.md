@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 201877ba0c8bc167c404744b4d33658a9e373f69
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '3378'
-ht-degree: 99%
+source-wordcount: '3397'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 2. Februar | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Folgender Abschnitt wurde hinzugefügt: &quot;Escaping double quotes in [!DNL Target] Der Profilattributwert funktioniert nicht erwartungsgemäß.&quot; |
 | 1. Februar | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 2.2.1. |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (12. Januar 2022)

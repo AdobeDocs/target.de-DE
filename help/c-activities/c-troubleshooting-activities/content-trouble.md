@@ -4,10 +4,10 @@ description: Hier finden Sie Tipps zur Fehlerbehebung, wenn der Inhalt auf Ihrer
 title: Wie kann ich Fehler bei der Inhaltsbereitstellung beheben?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 100%
+source-wordcount: '1649'
+ht-degree: 98%
 
 ---
 
@@ -98,10 +98,7 @@ Ergänzen Sie zur Verwendung von mboxDebug Ihre URL um einen mboxDebug-Parameter
 | URL-Parameter | Zielsetzung |
 |--- |--- |
 | `mboxDebug=1` | Debugger<br>Wenn Sie diesen Parameter zu einer URL mit definierten Target-Anforderungen hinzufügen, wird ein Pop-up-Fenster mit hilfreichen Details zur Fehlerbehebung geöffnet. Cookie-Informationen, die PCid und Sitzungs-ID-Werte sind ausgeschrieben und alle URLs sind sichtbar. Klicken Sie auf eine Target-Anforderungs-URL, um die Antwort für diese [!DNL Target]-Anforderung einzublenden. Weitere Details finden Sie unter [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
-| `mboxDebug=x-cookie` | Ändern der Cookies |
 | `mboxDisable=1` | Deaktivieren von Mboxes auf der Seite |
-| `mboxDebug=x-profile` | Anzeigen des Profilsets. |
-| `mboxDebug=x-time` | Anzeigen der Reaktionszeiten von [!DNL Target]-Anforderungen |
 | `mboxOverride.browserIp=<Insert IP address>` | Geotargeting-Test<br>Mit diesem URL-Parameter wird das Geotargeting getestet. Geben Sie eine IP-Adresse als Wert für dieses Attribut ein. Daraufhin wertet das Test&amp;Target Geotargeting diese IP-Adresse anhand eines Geotargeting- oder Segmentierungssatzes in einer Kampagne aus. |
 
 >[!NOTE]
@@ -189,6 +186,19 @@ In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Of
 In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers`, wobei zusätzliche Vorlagenregeln eine [!UICONTROL Abfrage] festlegen mit [!UICONTROL Typ] > [!UICONTROL ist (von Schreibweise abhängig)] > type=Summers%20Offers, durch einen OR-Operator getrennt:
 
 ![Vorlagenregel, die einen bestimmten Teil der URL nutzt](assets/option3.png)
+
+## Escaping von doppelten Anführungszeichen in [!DNL Target] Der Profilattributwert funktioniert nicht erwartungsgemäß. {#escape}
+
+Wenn Sie Werte senden, die doppelte Anführungszeichen in einer [!DNL Target] Profilattribut: Sie müssen es wie unten gezeigt doppelt maskieren.
+
+```
+adobe.target.trackEvent({
+    "mbox": "data-collection",
+    "params":    {
+        "profile.tagLine": "Escape \\\"Double Quotes\\\" like this."
+    }
+});
+```
 
 ## Schulungsvideos
 
