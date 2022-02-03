@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
+source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3412'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 3. Februar | [Erstellen von Zielgruppen](/help/c-target/c-audiences/audiences.md#RTCDP) | Neuer Abschnitt und Video hinzugefügt: &quot;Video: Nächste Hit-Personalisierung mit Echtzeit-Kundendatenplattform und [!DNL Adobe Target].&quot; |
 | 2. Februar | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Folgender Abschnitt wurde hinzugefügt: &quot;Escaping double quotes in [!DNL Target] Der Profilattributwert funktioniert nicht erwartungsgemäß.&quot; |
 | 1. Februar | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 2.2.1. |
 
