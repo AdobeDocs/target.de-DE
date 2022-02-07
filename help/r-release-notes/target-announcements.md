@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 94%
 
 ---
 
@@ -15,17 +15,20 @@ ht-degree: 100%
 
 Ankündigungen und Informationen zu kommenden Veranstaltungen einschließlich [!DNL Adobe Target] Skill Builder-Sitzungen, Entwickler-Chats, Webinaren und [!DNL Target] Sitzungen mit Fragen und Antworten.
 
-## [!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (19. Januar 2022)
+## [!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (23. Februar 2022)
 
-* **Mittwoch, 19. Januar 2022**
+* **Mittwoch, 23. Februar 2022**
 * **8:00 Uhr PST (17:00 Uhr MEZ)**
-* **[Weitere Informationen und Informationen zur Registrierung](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
+* **[Weitere Informationen und Informationen zur Registrierung](https://adobe.ly/3skO6DV)**
 
-Jon Tehero, Group Product Manager für [!DNL Adobe Target], wird Ihre Fragen zu seinen Fachgebieten beantworten:
+Senior Product Manager Vishal Chordia beantwortet Fragen von Kunden zu seinen folgenden Fachgebieten:
 
-* Integration von [!DNL Adobe Target] mit [!DNL Adobe Journey Optimizer] (AJO)
-* [!DNL Adobe Target]-Benutzeroberfläche
-* Allgemeine Themen zu [!DNL Adobe Target]
+* [!DNL Adobe Experience Platform]
+* Zielgruppenbasierte Personalisierung
+* [!DNL Real-time Customer Data Platform] (RTCDP) integrieren mit [!DNL Target]
+* Allgemeine Themen zu [!DNL Target]
+
+Der technische Support-Techniker Mihnea Docea wird Vishal unterstützen.
 
 ## Webinar: Personalisieren und Testen mit Nulllatenz bei geräteinterner Entscheidungsfindung mit [!DNL Adobe Target]
 
