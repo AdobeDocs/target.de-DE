@@ -5,9 +5,9 @@ title: Welche neuen Funktionen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 80e9e516ad6a6e0d3683d0001812ce58eb7dfb19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -21,10 +21,10 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 ## Target Standard/Premium 22.2.1 (1. Februar 2022)
 
-Dieses Maintenance Release enthält die folgenden Fehlerbehebungen und Erweiterungen für die neue [!UICONTROL Zielgruppen] In der Benutzeroberfläche angekündigt [Target Standard/Premium, Version 22.1.2](/help/r-release-notes/release-notes.md) wird in den nächsten sechs Wochen für Kunden aus allen Regionen bereitgestellt. Diese Fehlerbehebungen richten die Funktionalität der in [!DNL Adobe Target Standard/Premium].
+Diese Wartungsversion enthält die folgenden Korrekturen und Verbesserungen für die neue Benutzeroberfläche [!UICONTROL Zielgruppen], die in der Version [Target Standard/Premium 22.1.2](/help/r-release-notes/release-notes.md) angekündigt wurde, welche in den nächsten sechs Wochen an Kunden in allen Regionen ausgeliefert wird. Diese Korrekturen passen die Funktionalität der in [!DNL Adobe Target Standard/Premium] erstellten Zielgruppen an.
 
-* Fehlerkorrektur - Importierte Zielgruppen können jetzt [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]und [!DNL Adobe Target Classic] nicht als Berichterstellungszielgruppen zugewiesen werden. (TGT-43140)
-* Eine [!UICONTROL Löschen] in der [!UICONTROL Zielgruppen] Liste für importierte Zielgruppen aus [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]und [!DNL Adobe Target Classic]. Es wurde auch eine Funktion zum Massenlöschen hinzugefügt. (TGT-42914)
+* Fehlerkorrektur – Importierte Zielgruppen können jetzt von [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] und [!DNL Adobe Target Classic] als Berichterstellungs-Zielgruppen zugewiesen werden. (TGT-43140)
+* Es wurde eine Option [!UICONTROL Löschen] in der Liste [!UICONTROL Zielgruppen] für importierte Zielgruppen aus [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] und [!DNL Adobe Target Classic] hinzugefügt. Es wurde auch eine Funktion zum Massenlöschen hinzugefügt. (TGT-42914)
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
