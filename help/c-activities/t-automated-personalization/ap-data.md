@@ -4,10 +4,10 @@ description: Erfahren Sie, welche Daten Adobe haben [!DNL Target] erfasst und ve
 title: Welche Daten werden erfasst, um Algorithmen für maschinelles Lernen zu erstellen?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
+source-git-commit: 32f2c32c697f5afa169d9e453fdc454dda533f8b
 workflow-type: tm+mt
-source-wordcount: '2077'
-ht-degree: 50%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Die folgende Tabelle zeigt die vom Kunden bereitgestellten Daten, die von [!UICO
 | URL-Parameter | URL | URL und alle URL-Parameter für die aktuell angezeigte Seite. | Benutzerspezifisch - URL-Parameter - [URL-Parameter] |
 | Verweisende URL | REF | Verweisende URL und alle URL-Parameter für die verweisende URL. | Benutzerspezifisch - [Verweisender URL-Parameter] - [Parameterwert] |
 | Freigegebene Zielgruppen in Adobe Experience Cloud | AAM | Alle Zielgruppen, die für [!DNL Target] von anderen [!DNL Adobe Experience Cloud] Lösungen (z. B. [!DNL Adobe Audience Manager] und [!DNL Adobe Analytics]über die [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Benutzerspezifisch - Experience Cloud-Zielgruppe - [Zielgruppenname] |
-| Adobe Experience Platform RTCDP-Audiences | UPS | AEP-RTCDP-Zielgruppen, die für [!DNL Target] über Ziele.<br>Beachten Sie, dass diese Funktion noch nicht in [!DNL Target] aber in Zukunft umgesetzt werden. |  |
+| Adobe Experience Platform RTCDP-Audiences | UPS | AEP-RTCDP-Zielgruppen, die für [!DNL Target] über Ziele. |  |
 
 ## Blocking-Funktionen aus [!DNL Target] Algorithmen für maschinelles Lernen
 
