@@ -5,9 +5,9 @@ title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4738'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,15 +25,15 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
 ### Laden von Websites mit Service Workers in Visual Experience Composer (VEC)
 
-Es gibt einige aktuelle Einschränkungen beim Versuch, VEC zum Öffnen einer Website zu verwenden, die [Servicepersonal](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+Es gibt einige aktuelle Einschränkungen beim Versuch, VEC zum Öffnen einer Website zu verwenden, die [Service Workers](https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API){target=_blank} (SW) verwendet.
 
-Eine Webtechnologie ist eine Webtechnologie, mit der Anforderungen für die Domäne abgefangen werden können, auf der sie von einer Webseite installiert sind. Die SW überlebt den Seitenbesuch und aktiviert sich selbst bei nachfolgenden Besuchen. Die SW entscheidet, welche Anforderungen durchlaufen werden und welche stattdessen aus einem Cache abgefangen und bereitgestellt werden.
+Ein SW ist eine Web-Technologie, mit der Anforderungen durch eine Web-Seite für die Domain abgefangen werden können, auf der sie installiert sind. Der SW überlebt den Seitenbesuch und aktiviert sich selbst bei nachfolgenden Besuchen. Der SW entscheidet, welche Anforderungen durchlaufen werden und welche stattdessen abgefangen und aus einem Cache bereitgestellt werden.
 
-Die SW kann die Zwischenspeicherung steuern. kann die Webseite selbst zwischenspeichern, statische Ressourcen wie JS, CSS, IMG, AJAX-Anfragen, deren Inhalte und deren Antwortheader, einschließlich der Header, die unsere [Target VEC Helper-Erweiterung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) versucht zu entfernen, z. B. X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) oder Set-Cookie.
+Der SW kann die Zwischenspeicherung steuern und die Web-Seite selbst zwischenspeichern sowie auch statische Ressourcen wie JS, CSS, IMG, AJAX-Anfragen, deren Inhalte und deren Antwort-Header, einschließlich der Header, die unsere [Target VEC Helper-Erweiterung](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) zu entfernen versucht, z. B. X-Frame-Optionen: SAMEORIGIN, CSP (Content-Security-Policy) oder Set-Cookie.
 
-Leider erhalten die Chrome-Erweiterungs-APIs, die Webanfragen abfangen, nicht die Anfragen, die von einer SW abgefangen und verarbeitet wurden. Daher kann die Erweiterung die Kopfzeilen und Cookies nicht beheben, wenn die Webseitenanforderung von einer SW aus aus dem Cache bereitgestellt wurde, da die Web-Seite aufgrund der X-Frame-Options- oder CSP-Kopfzeilen, die ebenfalls zwischengespeichert wurden, nicht im VEC geladen wird.
+Leider erhalten die Chrome-Erweiterungs-APIs, die Web-Anfragen abfangen, nicht die Anfragen, die von einem SW abgefangen und verarbeitet wurden. Daher kann die Erweiterung die Kopfzeilen und Cookies nicht beheben, wenn die Web-Seiten-Anforderung von einem SW aus dem Cache bereitgestellt wurde, da die Web-Seite aufgrund der X-Frame-Options- oder CSP-Kopfzeilen, die ebenfalls zwischengespeichert wurden, nicht im VEC geladen wird.
 
-Als potenzielle Problemumgehung können Sie Service Workers auf der Registerkarte Chrome Developer Tools > Anwendung deaktivieren und dann das Kontrollkästchen &quot;Für Netzwerk umgehen&quot;im Abschnitt Service Workers aktivieren. (KB-2006)
+Als potenzielle Problemumgehung können Sie Service Workers auf der Registerkarte „Chrome Developer Tools“ > „Anwendung“ deaktivieren und dann das Kontrollkästchen „Für Netzwerk umgehen“ im Abschnitt „Service Workers“ aktivieren. (KB-2006)
 
 ### Traffic-Verteilung von Aktivitäten mit automatisierter Zuordnung mithilfe von A4T {#aa-a4t}
 
