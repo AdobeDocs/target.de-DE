@@ -5,9 +5,9 @@ title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,14 +21,14 @@ Ankündigungen und Informationen zu kommenden Veranstaltungen einschließlich [!
 * **8:00 Uhr PST (17:00 Uhr MEZ)**
 * **[Weitere Informationen und Informationen zur Registrierung](https://adobe.ly/3skO6DV)**
 
-Senior Product Manager Vishal Chordia beantwortet Fragen von Kunden zu seinen folgenden Fachgebieten:
+Senior Product Manager Vishal Chordia steht Kunden mit seinem Know-how zu seinen folgenden Fachgebieten Frage und Antwort:
 
 * [!DNL Adobe Experience Platform]
 * Zielgruppenbasierte Personalisierung
 * [!DNL Real-time Customer Data Platform] (RTCDP) integrieren mit [!DNL Target]
 * Allgemeine Themen zu [!DNL Target]
 
-Der technische Support-Techniker Mihnea Docea wird Vishal unterstützen.
+Der Support-Techniker Mihnea Docea wird Vishal unterstützen.
 
 ## Webinar: Personalisieren und Testen mit Nulllatenz bei geräteinterner Entscheidungsfindung mit [!DNL Adobe Target]
 
