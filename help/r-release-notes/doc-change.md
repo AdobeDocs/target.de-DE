@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
 workflow-type: tm+mt
 source-wordcount: '3449'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | --- | --- | --- |
 | 10. Februar | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>Laden von Websites mit Service Workers in Visual Experience Composer (VEC)</li></ul> |
 | 7. Februar | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (23. Februar 2022)</li></ul> |
-| 3. Februar | [Erstellen von Zielgruppen](/help/c-target/c-audiences/audiences.md#RTCDP) | Neuer Abschnitt und Video hinzugefügt: &quot;Video: Nächste Hit-Personalisierung mit Echtzeit-Kundendatenplattform und [!DNL Adobe Target].&quot; |
-| 2. Februar | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Folgender Abschnitt wurde hinzugefügt: &quot;Escaping double quotes in [!DNL Target] Der Profilattributwert funktioniert nicht erwartungsgemäß.&quot; |
+| 3. Februar | [Erstellen von Zielgruppen](/help/c-target/c-audiences/audiences.md#RTCDP) | Neuen Abschnitt und Video hinzugefügt: „Video: Personalisierung für den nächsten Treffer mit Echtzeit-Kundendatenplattform und [!DNL Adobe Target]“. |
+| 2. Februar | [Fehlerbehebung bei der Inhaltsbereitstellung](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Folgender Abschnitt wurde hinzugefügt: „Das Umgehen von Anführungszeichen in [!DNL Target]-Profilattributwerten funktioniert nicht wie erwartet“. |
 | 1. Februar | [Target-Versionshinweise (aktuell)](/help/r-release-notes/release-notes.md) | Es wurden Informationen über die Version 22.2.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (12. Januar 2022)
