@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie [!DNL Adobe Experience Manager] Experience Fr
 title: Verwendung [!DNL Adobe Experience Manager] (AEM) Experience Fragments?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
+source-git-commit: e991af90d58a8084ece9a8ff05acf85a68f077d3
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 60%
+source-wordcount: '1180'
+ht-degree: 59%
 
 ---
 
@@ -78,7 +78,7 @@ Experience Fragments werden in [!DNL AEM] erstellt. Weitere Informationen finden
 
 Abhängig von Ihrer [!DNL AEM]-Version finden Sie unter den folgenden Links schrittweise Anweisungen:
 
-* **AEM as a Cloud Service**: [Exportieren von Experience Fragments in Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank}
+* **AEM as a Cloud Service**: [Exportieren von Experience Fragments in Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank} im *Experience Manager as a Cloud Service* Handbuch.
 * **[!DNL AEM]6,5**: [Exportieren eines Experience Fragments in Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} im *Adobe Experience Manager 6.5* Dokumentation.
 * **[!DNL AEM]6,4**: [Exportieren eines Experience Fragments in Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=de){target=_blank} im *Adobe Experience Manager 6.4* Dokumentation.
 
@@ -99,7 +99,7 @@ Mit dem [Visual Experience Composer](/help/c-experiences/c-visual-experience-c
 
 >[!NOTE]
 >
->So verwenden Sie die [!DNL Target] KI- und ML-Funktionen können Sie [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) oder [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) beim Erstellen eines A/B-Tests.
+>So verwenden Sie die [!DNL Target] KI- und ML-Funktionen können Sie [Automatische Zuordnung](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) oder [Automatisches Targeting](/help/c-activities/auto-target/auto-target-to-optimize.md) beim Erstellen eines A/B-Tests.
 
 **So verwenden Sie Experience Fragments mit dem VEC:**
 
