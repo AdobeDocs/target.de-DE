@@ -1,14 +1,13 @@
 ---
-keywords: FAQ,Häufig gestellte Fragen,Analytics für Zielgruppe,Segmente,A4T,Berichte freigeben
-description: Häufig gestellte Fragen zur Freigabe von Metriken, Audiencen und Berichten bei der Verwendung von Analytics für [!DNL Target] (A4T). A4T lets you use Analytics reporting for Adobe [!DNL Target] Aktivitäten.
-title: Wo können FAQs, die Metriken, Audiencen und Berichte freigeben, in A4T gefunden werden?
+keywords: Häufig gestellte Fragen, häufig gestellte Fragen, Analytics für Target, Segmente, A4T, Berichte freigeben
+description: Häufig gestellte Fragen zur Freigabe von Metriken, Zielgruppen und Berichten bei der Verwendung von Analytics für [!DNL Target] (A4T). Mit A4T können Sie Analytics-Reporting für die Adobe verwenden [!DNL Target] Aktivitäten.
+title: Wo finden Sie häufig gestellte Fragen zum Freigeben von Metriken, Zielgruppen und Berichten in A4T?
 feature: Analytics for Target (A4T)
-exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a
+source-git-commit: 5a3e46b94bfece0583a5f2603e3edca35a7c97e0
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 69%
+source-wordcount: '247'
+ht-degree: 65%
 
 ---
 
@@ -26,4 +25,4 @@ Weitere Informationen finden Sie unter [Lesezeichen-Manager](https://experiencel
 
 Wenn Sie spezielle Metriken und Segmente mit einem Test verwenden, sollten Sie die Erstellung einer Benutzergruppe für Ihr Optimierungsteam in Betracht ziehen. Geben Sie diese Metriken und Segmente für die Gruppe anstelle von einzelnen Mitgliedern frei, um sicherzustellen, dass sie alle Zugriff auf die Segmente und Metriken haben. Nur Administratoren verfügen über die Freigabe für Gruppen.
 
-Siehe [Freigeben von Segmenten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) und [Freigeben von berechneten Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
+Siehe [Segmente freigeben](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) und [Berechnete Metriken freigeben](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
