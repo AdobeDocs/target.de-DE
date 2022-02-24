@@ -5,9 +5,9 @@ title: Was sind Umgebungen und wie wende ich sie an?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: c335fde454e31c6d82ebc8b0b5570f3c65d18541
+source-git-commit: f3ca5805ae94f79a66f4aa52a46b4fd06909bf86
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '680'
 ht-degree: 60%
 
 ---
@@ -73,9 +73,7 @@ Sie können eine Umgebung, die nicht mehr benötigt wird, löschen.
 
 Sie können eine Vorschau der Inhalte von Recommendations-Sammlungen und -Ausschlüssen für eine ausgewählte Umgebung (Hostgruppe) anzeigen.
 
->[!NOTE]
->
->Recommendations-Aktivitäten sind im Rahmen der [!DNL Target] Premium-Lösung. Für [!DNL Target] Standard sind sie nicht ohne [!DNL Target] Premium-Lizenz verfügbar.
+{{premium-note}}
 
 Eine Umgebung kann verwendet werden, um die verfügbaren Elemente in Ihrem Katalog für verschiedene Verwendungen zu trennen. Sie können beispielsweise Hostgruppen für [!UICONTROL Entwicklung] und [!UICONTROL Produktion] Umgebungen, verschiedene Marken oder unterschiedliche geografische Regionen. Standardmäßig basieren die Vorschauergebnisse in „Katalogsuche“, „Sammlungen“ und „Ausnahmen“ auf der Standardhostgruppe. (Mit dem Umgebungsfilter können Sie auch eine andere Hostgruppe auswählen, um die Ergebnisse in der Vorschau anzuzeigen.) Neu hinzugefügte Elemente sind standardmäßig in allen Hostgruppen verfügbar, es sei denn, beim Erstellen oder Aktualisieren des Elements wurde eine Umgebungs-ID angegeben.
 
