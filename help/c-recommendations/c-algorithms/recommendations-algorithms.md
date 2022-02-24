@@ -4,9 +4,10 @@ description: Erfahren Sie mehr über die in [!DNL Target Recommendations], einsc
 title: Wo erhalte ich Informationen über die Wissenschaft hinter den Recommendations-Algorithmen von Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
+exl-id: c156952b-8eda-491d-a68e-d3d09846f640
+source-git-commit: 7b9dad2f17496103b8fc2f91468ddcb665c339fa
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2840'
 ht-degree: 0%
 
 ---
@@ -49,7 +50,7 @@ Empfehlungsalgorithmen für das partizipative Filtern von Elementen basieren auf
 
 Für den Algorithmus &quot;Personen, die diesen Artikel angesehen/gekauft haben, haben auch diese Artikel angesehen/gekauft&quot;besteht das Ziel darin, eine Ähnlichkeit (A,B) zwischen allen Artikelpaaren zu berechnen. Für einen bestimmten Artikel A werden die wichtigsten Empfehlungen dann nach ihrer Ähnlichkeit s (A, B) geordnet.
 
-Ein Beispiel für eine solche Ähnlichkeit ist das gemeinsame Auftreten zwischen Elementen: eine einfache Zählung der Anzahl der Benutzer, die beide Artikel gekauft haben. Obwohl intuitiv, ist eine solche Metrik naiv, da sie dazu neigt, beliebte Artikel zu empfehlen. Wenn beispielsweise in einem Lebensmittelhändler die meisten Menschen Brot kaufen, wird Brot mit allen Artikeln häufig vorkommen, aber es ist nicht unbedingt eine gute Empfehlung. [!DNL Target] verwendet stattdessen eine ausgefeiltere Ähnlichkeitsmetrik, die als Protokoll-Wahrscheinlichkeitsverhältnis (LLR) bezeichnet wird. Diese Menge ist groß, wenn die Wahrscheinlichkeit, dass zwei Elemente, A und B, gleichzeitig auftreten, sich von der Wahrscheinlichkeit unterscheidet, dass sie nicht gleichzeitig auftreten. Im Interesse der Konkretheit sollten Sie einen Fall der [!UICONTROL Personen, die das ansahen, kauften dies] -Algorithmus. Die Ähnlichkeit des LLR ist groß, wenn die Wahrscheinlichkeit, dass B gekauft wurde, unabhängig davon ist, ob jemand A angesehen hat oder nicht.
+Ein Beispiel für eine solche Ähnlichkeit ist das gemeinsame Auftreten zwischen Elementen: eine einfache Zählung der Anzahl der Benutzer, die beide Artikel gekauft haben. Obwohl intuitiv, ist eine solche Metrik naiv, da sie dazu neigt, beliebte Artikel zu empfehlen. Wenn beispielsweise in einem Lebensmittelhändler die meisten Menschen Brot kaufen, wird Brot mit allen Artikeln häufig vorkommen, aber es ist nicht unbedingt eine gute Empfehlung. [!DNL Target] verwendet stattdessen eine ausgefeiltere Ähnlichkeitsmetrik, die als Protokoll-Wahrscheinlichkeitsverhältnis (LLR) bezeichnet wird. Diese Menge ist groß, wenn die Wahrscheinlichkeit, dass zwei Elemente, A und B, gleichzeitig auftreten, sich von der Wahrscheinlichkeit unterscheidet, dass sie nicht gleichzeitig auftreten. Im Interesse der Konkretheit sollten Sie einen Fall der [!UICONTROL Personen, die das ansahen, kauften dies] -Algorithmus. Die Ähnlichkeit des LLR ist groß, wenn die Wahrscheinlichkeit, mit der B gekauft wurde, unabhängig davon ist, ob jemand A angesehen hat oder nicht.
 
 Wenn z. B.
 
