@@ -1,25 +1,25 @@
 ---
 keywords: automatisierte Traffic-Zuordnung; Targeting; Gewinner; statistische Garantie; Konfidenz; Gewinner bestimmen; Steigerung; Konfidenz; Standard; Standarderlebnis; automatische Zuordnung; automatische Zuordnung
-description: Erfahren Sie, wie Sie die Ergebnisse einer A/B-Aktivität mit automatisierter Zuordnung in Adobe [!DNL Target] interpretieren können, indem Sie wichtige Indikatoren untersuchen, darunter Steigerung und Konfidenz.
+description: Erfahren Sie, wie Sie die Ergebnisse einer A/B-Aktivität mit automatisierter Zuordnung in Adobe interpretieren. [!DNL Target] durch Untersuchung wichtiger Indikatoren, einschließlich Steigerung und Vertrauen.
 title: Wie interpretiere ich Berichte mit automatisierter Zuordnung?
-feature: Automatische Zuordnung
+feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 47%
+source-wordcount: '1233'
+ht-degree: 44%
 
 ---
 
 # Interpretieren der automatischen Zuordnungsberichte
 
-Interpretieren Sie die Ergebnisse einer [!UICONTROL Automatisierte Zuordnung] A/B-Aktivität in [!UICONTROL Adobe Target], indem Sie wichtige Indikatoren untersuchen, einschließlich Steigerung und Konfidenz.
+Interpretieren der Ergebnisse eines [!UICONTROL Automatische Zuordnung] A/B-Aktivität in [!UICONTROL Adobe Target] durch Untersuchung wichtiger Indikatoren, einschließlich Steigerung und Vertrauen.
 
 Viele Marketingexperten machen den Fehler, ein Erlebnis vorzeitig zum erfolgreichsten zu erklären, bevor endgültige Ergebnisse vorliegen. Wir haben es nun leichter für Sie gemacht, den Gewinner zu ermitteln.
 
 >[!NOTE]
 >
->Allgemeine Informationen zur Gewinnerdeklaration finden Sie unter [Zehn häufige Fehler bei A/B-Tests und wie diese vermieden werden](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
+>Allgemeine Informationen zum Festlegen eines Gewinners finden Sie unter [Zehn häufige Fehler bei A/B-Tests und wie diese vermieden werden](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Erlebnis mit dem Gewinner identifizieren {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -47,7 +47,7 @@ Bei normalen A/B-Tests wird die Konfidenz basierend auf P-Werten berechnet. Für
 
 >[!IMPORTANT]
 >
->Target zeigt einen Gewinner nach einer vordefinierten Mindestanzahl von Konversionen an. Die endgültige Entscheidung zur Auswahl des Gewinners sollte jedoch immer auf den Ergebnissen des Adobe Target [Stichprobengrößenrechners](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) basieren. Target berücksichtigt nicht die grundlegenden Konversionsraten einer Site und andere wichtige Aspekte, die in den Rechner eingespeist werden, um die Dauer der Aktivität zu bestimmen. Daher kann Target auf der Grundlage einer Mindestanzahl von Konversionen einen Gewinner anzeigen, der früher als angezeigt wurde. Weitere Informationen finden Sie unter [Stichprobengrößenrechner](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target zeigt einen Gewinner nach einer vordefinierten Mindestanzahl von Konversionen an. Die endgültige Entscheidung über die Auswahl des Gewinners sollte jedoch stets auf den Ergebnissen der Adobe Target liegen [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de). Target berücksichtigt nicht die grundlegenden Konversionsraten einer Site und andere wichtige Aspekte, die in den Rechner eingespeist werden, um die Dauer der Aktivität zu bestimmen. Daher kann Target auf der Grundlage einer Mindestanzahl von Konversionen einen Gewinner anzeigen, der früher als angezeigt wurde. Weitere Informationen finden Sie unter [Stichprobengrößenrechner](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Berichte zu Steigerung und Konfidenz in Aktivitäten mit automatisierter Zuordnung {#lift-confidence}
 
@@ -55,7 +55,7 @@ In Aktivitäten mit automatisierter Zuordnung wird das erste Erlebnis (standardm
 
 Der numerische Wert &quot;Steigerung&quot;und die 95-%-Grenzen für jedes Erlebnis werden immer mit Bezug auf das definierte Kontrollerlebnis berechnet. Das definierte Kontrollerlebnis kann keine Steigerung im Verhältnis zu sich selbst aufweisen. Daher wird für dieses Erlebnis ein leerer &quot;—&quot;-Wert gemeldet. Im Gegensatz zu A/B-Tests wird bei Tests mit automatisierter Zuordnung kein negativer Steigerungswert gemeldet, wenn ein Erlebnis schlechter abschneidet als die definierte Kontrolle. stattdessen &quot;—&quot;angezeigt.
 
-Die angezeigten Konfidenzintervallbalken stellen das Konfidenzintervall von 95 % um die mittlere Schätzung der Konversionsrate eines Erlebnisses dar. Diese sind auch in Bezug auf das definierte Kontrollerlebnis farbcodiert. Die Leiste des Kontrollerlebnisses ist immer grau gefärbt. Die Abschnitte der Konfidenzintervalle unterhalb des Konfidenzintervalls des Kontrollerlebnisses sind rot und die Teile der Konfidenzintervalle über dem Kontrollerlebnis sind grün.
+Die angezeigten Konfidenzintervallbalken stellen das Konfidenzintervall von 95 % um die mittlere Schätzung der Konversionsrate eines Erlebnisses dar. Diese sind auch in Bezug auf das definierte Kontrollerlebnis farbcodiert. Die Leiste des Kontrollerlebnisses ist immer grau gefärbt. Die Abschnitte der Konfidenzintervalle unterhalb des Konfidenzintervalls des Kontrollerlebnisses sind rot und die Abschnitte der Konfidenzintervalle über dem Kontrollerlebnis sind grün.
 
 Ein Gewinner wird gefunden, wenn sich das 95-%-Konfidenzintervall des führenden Erlebnisses nicht mit anderen Erlebnissen überschneidet. Das erfolgreichste Erlebnis wird mit einem grünen Sternzeichen links neben dem Erlebnisnamen und im Banner &quot;Gewinner&quot;gekennzeichnet. Wenn kein Stern sichtbar ist, lautet das Banner &quot;Noch kein Gewinner&quot;und ein Gewinner wurde noch nicht gefunden.
 
@@ -63,7 +63,9 @@ Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine &quot;
 
 ## Häufig gestellte Fragen   {#section_C8E068512A93458D8C006760B1C0B6A2}
 
-**Die Aktivität ist seit mehreren Tagen online. Warum werden sämtliche Konfidenzwerte noch immer mit 0 % angegeben?**
+Beachten Sie die folgenden Antworten auf häufig gestellte Fragen:
+
+### Die Aktivität ist seit mehreren Tagen online. Warum werden sämtliche Konfidenzwerte noch immer mit 0 % angegeben?
 
 Die folgenden Gründe erläutern, warum für sämtliche Aktivitäten in der Spalte [!UICONTROL Konfidenz] des Berichts der Wert 0 % angezeigt wird:
 
@@ -73,5 +75,13 @@ Die folgenden Gründe erläutern, warum für sämtliche Aktivitäten in der Spal
 
    Bei der automatischen Zuordnung wird die Wahrscheinlichkeit gezeigt, mit der ein bestimmtes Erlebnis aus allen Erlebnissen als Gewinner hervorgeht. Das bedeutet, dass nur ein erfolgreichstes Erlebnis (dasjenige Erlebnis, das am wahrscheinlichsten als Gewinner hervorgeht) über einen Wert verfügt, der nicht 0 ist. Alle anderen Erlebnisse werden als wahrscheinliche Verlierer eingestuft und mit dem Wert 0 % angezeigt.
 
-* Die Konfidenz wird in der automatischen Zuordnung nur angezeigt, nachdem das erfolgreichste Erlebnis einen Wert von mehr als 60 % erzielen konnte. Diese Konfidenzwerte treten in der Regel in etwa der Hälfte der Zeit auf, die ein normaler A/B-Test dauern würde (obwohl dies nicht garantiert ist). Um festzustellen, wie lange ein normaler A/B-Test ausgeführt werden würde, verwenden Sie einen [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): Konversionsrate der Kontrolle in &quot;Baseline-Konversionsrate&quot;, &quot;5 %&quot;für &quot;Steigerung&quot;und &quot;Konfidenz&quot;in 95 %. Typischerweise wird die Konfidenz angezeigt, nachdem jedes Erlebnis mindestens 50 % der erforderlichen Stichproben pro Erlebnis sammeln konnte. Somit erhalten Sie einen Überblick darüber, wann die Konfidenz höchstwahrscheinlich angezeigt wird.
+* Die Konfidenz wird in der automatischen Zuordnung nur angezeigt, nachdem das erfolgreichste Erlebnis einen Wert von mehr als 60 % erzielen konnte. Diese Konfidenzwerte treten in der Regel in etwa der Hälfte der Zeit auf, die ein normaler A/B-Test dauern würde (obwohl dies nicht garantiert ist). Um zu bestimmen, wie lange ein normaler A/B-Test laufen würde, verwenden Sie bitte eine [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): Konversionsrate der Kontrolle in &quot;Baseline-Konversionsrate&quot;, &quot;5 %&quot;für &quot;Steigerung&quot;und &quot;Konfidenz&quot;in 95 %. Typischerweise wird die Konfidenz angezeigt, nachdem jedes Erlebnis mindestens 50 % der erforderlichen Stichproben pro Erlebnis sammeln konnte. Somit erhalten Sie einen Überblick darüber, wann die Konfidenz höchstwahrscheinlich angezeigt wird.
 * Wird im Bericht überall der Wert 0 % angezeigt, ist die Aktivität höchstwahrscheinlich noch nicht lange genug online.
+
+## Sind die Abzeichen &quot;Kein Gewinner&quot;, &quot;Gewinner&quot;und &quot;Stern&quot;verfügbar für [!UICONTROL Automatische Zuordnung] Aktivitäten, die [!UICONTROL Analytics als Berichtsquelle] (A4T)?
+
+Die Abzeichen &quot;Noch kein Gewinner&quot;und &quot;Gewinner&quot;sind derzeit nicht im [!UICONTROL A4T] Bedienfeld in [!DNL Analysis Workspace]. Diese Abzeichen sind auch dann nicht verfügbar, wenn derselbe Bericht in [!DNL Target]. Das Zeichen &quot;Stern&quot;des Gewinners wird in einer [!DNL Target] für einen [!UICONTROL Automatische Zuordnung] -Aktivität, die A4T verwendet, sollte ignoriert werden.
+
+Weitere Informationen zu diesen und anderen Einschränkungen und Anmerkungen finden Sie unter [Automatische Zuordnung](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *A4T-Unterstützung für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] activities*.
+
+
