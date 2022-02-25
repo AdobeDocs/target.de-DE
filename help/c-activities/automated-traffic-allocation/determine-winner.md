@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Ergebnisse einer A/B-Aktivität mit autom
 title: Wie interpretiere ich Berichte mit automatisierter Zuordnung?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
+source-git-commit: 9e559f0695a6a72c6a98c278d8099b41d5ee8744
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 44%
@@ -78,7 +78,7 @@ Die folgenden Gründe erläutern, warum für sämtliche Aktivitäten in der Spal
 * Die Konfidenz wird in der automatischen Zuordnung nur angezeigt, nachdem das erfolgreichste Erlebnis einen Wert von mehr als 60 % erzielen konnte. Diese Konfidenzwerte treten in der Regel in etwa der Hälfte der Zeit auf, die ein normaler A/B-Test dauern würde (obwohl dies nicht garantiert ist). Um zu bestimmen, wie lange ein normaler A/B-Test laufen würde, verwenden Sie bitte eine [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): Konversionsrate der Kontrolle in &quot;Baseline-Konversionsrate&quot;, &quot;5 %&quot;für &quot;Steigerung&quot;und &quot;Konfidenz&quot;in 95 %. Typischerweise wird die Konfidenz angezeigt, nachdem jedes Erlebnis mindestens 50 % der erforderlichen Stichproben pro Erlebnis sammeln konnte. Somit erhalten Sie einen Überblick darüber, wann die Konfidenz höchstwahrscheinlich angezeigt wird.
 * Wird im Bericht überall der Wert 0 % angezeigt, ist die Aktivität höchstwahrscheinlich noch nicht lange genug online.
 
-## Sind die Abzeichen &quot;Kein Gewinner&quot;, &quot;Gewinner&quot;und &quot;Stern&quot;verfügbar für [!UICONTROL Automatische Zuordnung] Aktivitäten, die [!UICONTROL Analytics als Berichtsquelle] (A4T)?
+### Sind die Abzeichen &quot;Kein Gewinner&quot;, &quot;Gewinner&quot;und &quot;Stern&quot;verfügbar für [!UICONTROL Automatische Zuordnung] Aktivitäten, die [!UICONTROL Analytics als Berichtsquelle] (A4T)?
 
 Die Abzeichen &quot;Noch kein Gewinner&quot;und &quot;Gewinner&quot;sind derzeit nicht im [!UICONTROL A4T] Bedienfeld in [!DNL Analysis Workspace]. Diese Abzeichen sind auch dann nicht verfügbar, wenn derselbe Bericht in [!DNL Target]. Das Zeichen &quot;Stern&quot;des Gewinners wird in einer [!DNL Target] für einen [!UICONTROL Automatische Zuordnung] -Aktivität, die A4T verwendet, sollte ignoriert werden.
 
