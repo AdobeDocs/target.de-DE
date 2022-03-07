@@ -4,9 +4,9 @@ title: Wo finde ich die Dokumentation zu [!DNL Target] ?
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kunden mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, Mobile Site, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: f203a7298ca0ee2c5f58fe5b0fdb43a13bb9680b
+source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -17,15 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 
-**Zuletzt aktualisiert: 25. Februar 2022 ([Änderungen ansehen](r-release-notes/doc-change.md))**
-
->[!NOTE]
->
->[!DNL Adobe Target] wurde in den folgenden Berichten als „Leader“ ausgezeichnet:
->
->**[Forrester Wave-Bericht zu Erlebnisoptimierungs-Plattformen.](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target wurde im Forrester Wave-Bericht zu Erlebnisoptimierungs-Plattformen im 4. Quartal 2020 als „Leader“ ausgezeichnet.
->
->**[Gartner Magic Quadrant für Personalisierungs-Engines.](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target wurde im Gartner Magic Quadrant 2020 für Personalisierungs-Engines erneut als „Leader“ ausgezeichnet.
+**Letzte Änderung: 7. März 2022 ([Hier finden Sie die Änderungen.](r-release-notes/doc-change.md))**
 
 In den folgenden Abschnitten finden Sie nützliche Links in diesem Handbuch, die von der vorgesehenen Zielgruppe basierend auf typischen Auftragsfunktionen ausgerichtet wurden:
 

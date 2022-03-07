@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Zielgruppen in [!DNL Adobe Target].
 title: Wie verwende ich die Zielgruppenliste?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
+source-git-commit: 099c1a4ba45ef06f3987f6f4dcffcebb724e8f69
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1333'
 ht-degree: 24%
 
 ---
@@ -107,7 +107,7 @@ Keep the following points in mind as you work with imported audiences:
 
 ## Verwenden von Zielgruppen aus [!DNL Adobe Experience Platform] {#aep}
 
-Verwenden von in erstellten Zielgruppen [!DNL Adobe Experience Platform] bietet umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen. Die [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), basierend auf [!DNL Adobe Experience Platform]unterstützt Unternehmen dabei, bekannte und anonyme Daten aus mehreren Unternehmensquellen zusammenzuführen. Auf diese Weise können Sie Kundenprofile erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse über alle Kanäle und Geräte hinweg bereitgestellt werden können.
+Die Verwendung der in [!DNL Adobe Experience Platform] erstellten Zielgruppen liefert umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen. Die [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de){target=_blank} (RTCDP), basierend auf [!DNL Adobe Experience Platform]unterstützt Unternehmen dabei, bekannte und anonyme Daten aus mehreren Unternehmensquellen zusammenzuführen. Auf diese Weise können Sie Kundenprofile erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse über alle Kanäle und Geräte hinweg bereitgestellt werden können.
 
 Durch Verbinden [!DNL Target] der [!DNL Real-time Customer Data Platform]können Kunden ihre Web-Personalisierung anreichern, indem sie neue Segmente entsperren, auf die zuvor nicht zugegriffen werden konnte. [!DNL Target] , um die Echtzeit-Millisekunde-Personalisierung auf der ersten Seite des Webbesuchs eines Kunden zu aktivieren. Verwenden von in erstellten Zielgruppen [!DNL Adobe Experience Platform] ermöglicht Ihnen, die verfügbaren Datenpunkte für eine umfassendere Personalisierung zu erweitern.
 
@@ -132,13 +132,27 @@ Weitere Informationen finden Sie in den folgenden Themen:
 
 ### Zusätzliche Informationen
 
+Beachten Sie die folgenden Informationen bei der Verwendung von Zielgruppen aus [!DNL Adobe Experience Platform]:
+
+#### Anwendungsfälle für die Personalisierung
+
+Die folgende Tabelle zeigt, welcher Personalisierungs-Anwendungsfall (nächste Sitzung oder dieselbe Seite) bei Verwendung der [!DNL Adobe Experience Platform Web SDK] oder die Verwendung von at.js:
+
+| Implementierung | Lösungen/Anwendungsfall aktiviert |
+| --- | --- |
+| at.js | **Lösungen**:<ul><li>[!DNL Adobe Audience Manager] AAM und [!DNL Target]</li><li>[!DNL RTCDP] (Premium oder Ultimate) und [!DNL Target]</li><li>[!DNL RTCDP] (beliebige SKU), [!DNL AAM]und [!DNL Target]</li></ul>**Nutzungsszenario**:<ul><li>Personalisierung der nächsten Sitzung</li></ul> |
+| [!DNL Platform Web SDK] oder [!DNL AEP Server-Side API] | **Lösungen**:<ul><li>[!DNL RTCDP] (beliebige SKU) und [!DNL Target]</li></ul>**Anwendungsfall**:<ul><li>Personalisierung der nächsten Sitzung</li><li>Personalisierung auf derselben Seite über Edge</li><li>Governance bei Freigabe von Segmenten erzwungen</li></ul>**Lösungen**:<ul><li>[!DNL RTCDP] (beliebige SKU), [!DNL AAM]und [!DNL Target]</li></ul>**Anwendungsfall**:<ul><li>Personalisierung der nächsten Sitzung</li><ul><li>[!DNL AAM] Segmente</li><li>Drittanbietersegmente über [!DNL AAM]</li></ul><li>Personalisierung auf derselben Seite über Edge</li><ul><li>[!DNL RTCDP] Segmente</li><li>Governance bei Freigabe von Segmenten erzwungen</li></ul> |
+| Mischung aus [!UICONTROL at.js] und [!DNL Platform Web SDK] | **Lösungen**:<ul><li>[!DNL RTCDP] (beliebige SKU) und [!DNL Target]</li></ul>**Anwendungsfall**:<ul><li>Personalisierung der nächsten Sitzung</li><ul><li>Für alle Seiten mit [!UICONTROL at.js]</li></ul><li>Personalisierung auf derselben Seite</li><ul><li>Für alle Seiten mit [!DNL Platform Web SDK]</li></ul></ul>**Lösungen**:<ul><li>[!DNL RTCDP] (beliebige SKU), [!DNL AAM]und [!DNL Target]</li></ul>**Anwendungsfall**:<ul><li>Personalisierung der nächsten Sitzung</li><ul><li>Für alle Seiten mit [!UICONTROL at.js]</li><li>[!DNL AAM] Segmente</li><li>Drittanbietersegmente über [!DNL AAM]</li></ul> |
+
+#### Segmentauswertungszeit
+
 Die folgende Tabelle zeigt die Segmentbewertungszeit für Ereignisse aus verschiedenen Implementierungsszenarien:
 
 | Szenario | Edge-Segment (Millisekundenbewertung) | Streaming-Segment (Minutenauswertung) | Batch-Segmentbewertung |
 | --- | --- | --- | --- |
-| Ereignisse/Daten aus Adobe Experience Platform SDKs | Ja | Ja | nicht angegeben |
-| Ereignisse von at.js | Nein | Ja | nicht angegeben |
-| Ereignisse von Target Mobile SDKs | Nein | Ja | nicht angegeben |
+| Ereignisse/Daten aus [!DNL Adobe Experience Platform] SDKs | Ja | Ja | nicht angegeben |
+| Ereignisse aus [!UICONTROL at.js] | Nein | Ja | nicht angegeben |
+| Ereignisse aus [!DNL Target Mobile] SDKs | Nein | Ja | nicht angegeben |
 | Ereignisse aus dem Batch-Upload | Nein | Nein | Ja |
 | Ereignisse aus Offline-Daten (Stream) | Nein | Ja | Ja |
 

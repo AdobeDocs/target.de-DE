@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 974b2093bc9ebc81acb64aa5df0c4c345e52383c
+source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 99%
+source-wordcount: '3519'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 7. März | [Erstellen von Zielgruppen](/help/c-target/c-audiences/audiences.md#aep) | Neuer Abschnitt unter &quot;Verwenden von Zielgruppen aus [!DNL Adobe Experience Platform]:&quot;<ul><li>Anwendungsfälle für die Personalisierung</li></ul> |
 | 25. Februar | [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Die folgenden Abschnitte wurden aktualisiert:<ul><li>[Automatische Zuordnung und automatisches Targeting](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Automatische Zuordnung](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretieren der automatischen Zuordnungsberichte](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Neue FAQs wurden hinzugefügt:<ul><li>Sind die Abzeichen &quot;Kein Gewinner&quot;, &quot;Gewinner&quot;und &quot;Stern&quot;verfügbar für [!UICONTROL Automatische Zuordnung] Aktivitäten, die [!UICONTROL Analytics als Berichtsquelle] (A4T)?</li></ul> |
 |  | [Erstellen einer Zielgruppe „Nur Aktivität“](/help/c-target/creating-activity-only-audience.md) | Es wurden Informationen zum Abschnitt &quot;Überlegungen&quot;hinzugefügt, die Ausschlussregeln besprechen. |
