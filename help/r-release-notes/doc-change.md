@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
 workflow-type: tm+mt
 source-wordcount: '3536'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -22,8 +22,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | 8. März | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (30. März 2022)</li></ul> |
 | 7. März | [Erstellen von Zielgruppen](/help/c-target/c-audiences/audiences.md#aep) | Neuer Abschnitt unter &quot;Verwenden von Zielgruppen aus [!DNL Adobe Experience Platform]:&quot;<ul><li>Anwendungsfälle für die Personalisierung</li></ul> |
 | 25. Februar | [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Die folgenden Abschnitte wurden aktualisiert:<ul><li>[Automatische Zuordnung und automatisches Targeting](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Automatische Zuordnung](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
-|  | [Interpretieren der automatischen Zuordnungsberichte](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Neue FAQs wurden hinzugefügt:<ul><li>Sind die Abzeichen &quot;Kein Gewinner&quot;, &quot;Gewinner&quot;und &quot;Stern&quot;verfügbar für [!UICONTROL Automatische Zuordnung] Aktivitäten, die [!UICONTROL Analytics als Berichtsquelle] (A4T)?</li></ul> |
-|  | [Erstellen einer Zielgruppe „Nur Aktivität“](/help/c-target/creating-activity-only-audience.md) | Es wurden Informationen zum Abschnitt &quot;Überlegungen&quot;hinzugefügt, die Ausschlussregeln besprechen. |
+|  | [Interpretieren der automatischen Zuordnungsberichte](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Neue FAQs wurden hinzugefügt:<ul><li>Sind die Abzeichen „Kein Gewinner“, „Gewinner“ und „Stern“ verfügbar für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung], die [!UICONTROL Analytics als Berichtsquelle] (A4T) verwenden?</li></ul> |
+|  | [Erstellen einer Zielgruppe „Nur Aktivität“](/help/c-target/creating-activity-only-audience.md) | Es wurden Informationen zum Abschnitt „Überlegungen“ hinzugefügt, die Ausschlussregeln erläutern. |
 | 10. Februar | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>Laden von Websites mit Service Workers in Visual Experience Composer (VEC)</li></ul> |
 | 7. Februar | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (23. Februar 2022)</li></ul> |
 | 3. Februar | [Erstellen von Zielgruppen](/help/c-target/c-audiences/audiences.md#RTCDP) | Neuen Abschnitt und Video hinzugefügt: „Video: Personalisierung für den nächsten Treffer mit Echtzeit-Kundendatenplattform und [!DNL Adobe Target]“. |
