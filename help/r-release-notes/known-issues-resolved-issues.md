@@ -4,10 +4,10 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: ht
-source-wordcount: '4738'
-ht-degree: 100%
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
+workflow-type: tm+mt
+source-wordcount: '4819'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,10 @@ Der SW kann die Zwischenspeicherung steuern und die Web-Seite selbst zwischenspe
 Leider erhalten die Chrome-Erweiterungs-APIs, die Web-Anfragen abfangen, nicht die Anfragen, die von einem SW abgefangen und verarbeitet wurden. Daher kann die Erweiterung die Kopfzeilen und Cookies nicht beheben, wenn die Web-Seiten-Anforderung von einem SW aus dem Cache bereitgestellt wurde, da die Web-Seite aufgrund der X-Frame-Options- oder CSP-Kopfzeilen, die ebenfalls zwischengespeichert wurden, nicht im VEC geladen wird.
 
 Als potenzielle Problemumgehung können Sie Service Workers auf der Registerkarte „Chrome Developer Tools“ > „Anwendung“ deaktivieren und dann das Kontrollkästchen „Für Netzwerk umgehen“ im Abschnitt „Service Workers“ aktivieren. (KB-2006)
+
+### Löschen von Orten mit Ad-hoc-Angeboten in Aktivitäten, die im formularbasierten Experience Composer erstellt wurden {#ad-hoc}
+
+Löschen Sie keine Orte in einer Aktivität, die im formularbasierten Experience Composer erstellt wurde, wenn diese Orte Ad-hoc-Angebote verwenden (Angebote, die innerhalb der Aktivität erstellt wurden). Das Löschen von Orten kann dazu führen, dass die Aktivität beschädigt wird. Die [!DNL Target] Team arbeitet an einer Lösung. Als Problemumgehung können Sie globale Angebote aus dem [!UICONTROL Angebotsbibliothek] und verwenden sie mit Standorten oder Sie können bei Bedarf neue Erlebnisse erstellen. (KB-2014)
 
 ### Traffic-Verteilung von Aktivitäten mit automatisierter Zuordnung mithilfe von A4T {#aa-a4t}
 

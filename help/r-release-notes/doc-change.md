@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3561'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 9. März | [Bekannte und gelöste Probleme](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>Löschen von Orten mit Ad-hoc-Angeboten in Aktivitäten, die im formularbasierten Experience Composer erstellt wurden</li></ul> |
 | 8. März | [Target-Ankündigungen und -Ereignisse](/help/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (30. März 2022)</li></ul> |
 | 7. März | [Erstellen von Zielgruppen](/help/c-target/c-audiences/audiences.md#aep) | Neuer Abschnitt unter &quot;Verwenden von Zielgruppen aus [!DNL Adobe Experience Platform]:&quot;<ul><li>Anwendungsfälle für die Personalisierung</li></ul> |
 | 25. Februar | [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Die folgenden Abschnitte wurden aktualisiert:<ul><li>[Automatische Zuordnung und automatisches Targeting](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Automatische Zuordnung](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
