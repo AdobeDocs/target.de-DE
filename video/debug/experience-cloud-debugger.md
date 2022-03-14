@@ -1,26 +1,25 @@
 ---
-keywords: Experience Cloud-Debugger;mbox-Ablaufverfolgung
-description: Debuggen Sie die Adobe [!DNL Target] mit dem Adobe Experience Cloud Debugger.
+keywords: Experience Cloud-Debugger;Mbox-Verfolgung
+description: Debug-Adobe [!DNL Target] mit dem Adobe Experience Cloud Debugger verwenden.
 title: Debuggen [!DNL Target] mit dem Experience Cloud Debugger
-feature: 'Fehlerbehebung '
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+feature: Troubleshooting
+source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 11%
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
 
 
-# [!DNL Target] mit dem Experience Cloud Debugger debuggen
+# Debuggen [!DNL Target] mit dem Experience Cloud Debugger
 
-Debuggen Sie [!DNL Adobe Target] mit [!DNL Adobe Experience Cloud Debugger].
+Debuggen [!DNL Adobe Target] mithilfe der [!DNL Adobe Experience Cloud Debugger].
 
-## Erweiterung hinzufügen
+## Erweiterung hinzufügen  
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
-## Einfaches [!DNL Target] Debugging
+## Allgemein [!DNL Target] Debugging
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
@@ -31,5 +30,5 @@ Debuggen Sie [!DNL Adobe Target] mit [!DNL Adobe Experience Cloud Debugger].
 ## Zusätzliche Ressourcen
 
 + [Adobe Experience Cloud Debugger im Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Fehlerbehebung - Hilfe zur Zielgruppe - Dokumentation](/help/r-troubleshooting-target/troubleshooting-target.md)
-+ [Verwenden des Experience Cloud Debugger-Videos](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Fehlerbehebung in der Target-Hilfedokumentation](/help/main/r-troubleshooting-target/troubleshooting-target.md)
++ [Video zur Verwendung des Experience Cloud Debuggers](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
