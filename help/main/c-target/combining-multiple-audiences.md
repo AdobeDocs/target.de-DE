@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mehrere Zielgruppen (einschließlich Adobe Ex
 title: Kann ich mehrere Zielgruppen kombinieren, um eine neue Zielgruppe zu erstellen?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 866455ac115b6797b5f103cdf1ae10c8a68f7234
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 71%
+source-wordcount: '931'
+ht-degree: 67%
 
 ---
 
@@ -17,7 +17,7 @@ Kombinieren mehrerer Zielgruppen (einschließlich [!DNL Adobe Experience Cloud],
 
 >[!NOTE]
 >
->Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). In der [!DNL Adobe Experience Platform] kann unverändert oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema beschrieben).
+>Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). In der [!DNL Adobe Experience Platform] kann unverändert oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema beschrieben.
 >
 >Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -25,7 +25,7 @@ Nehmen wir einmal an, Sie hätten die Zielgruppen „Neue Besucher“ und „Chr
 
 Als weiteres Beispiel können Sie alle Treuekunden ansprechen. Sie können beispielsweise eine [!DNL Audience Manager] Zielgruppe für den Treuestatus und Kombinieren Sie sie mit einer [!DNL Target] Zielgruppe aus Personen, die sich während der aktuellen Sitzung für Ihr Treueprogramm angemeldet haben. Die Kombination dieser beiden Zielgruppen ist einfacher als die Erstellung einer dritten, permanenten Zielgruppe.
 
-Sie können mit den Operatoren AND und OR bis zu zehn Zielgruppen miteinander kombinieren.
+Mithilfe der Operatoren AND und OR können Sie bis zu 20 Zielgruppen kombinieren.
 
 Sie können kombinierte Zielgruppen an verschiedenen Stellen der [!DNL Target]-Oberfläche verwenden.
 
@@ -37,13 +37,13 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
    ![Schrittergebnis](assets/edit_audience.png)
 
-1. Aktivieren Sie auf der Seite [!UICONTROL Zielgruppe auswählen] diejenigen Kontrollkästchen neben den gewünschten Zielgruppen, die als Teil der kombinierten Zielgruppe dienen sollen.
+1. Aktivieren Sie auf der Seite **[!UICONTROL Zielgruppe auswählen]** diejenigen Kontrollkästchen neben den gewünschten Zielgruppen, die als Teil der kombinierten Zielgruppe dienen sollen.
 
-   Klicken Sie auf [!UICONTROL Filter] -Schaltfläche, um die Suche für die gewünschte Zielgruppe einzuschränken. Sie können Zielgruppen nach ihrer Quelle filtern: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform].
+   Verwenden Sie die [!UICONTROL Zielgruppen durchsuchen] zum Eingrenzen der Suche nach der gewünschten Zielgruppe.
 
    ![Schrittergebnis](assets/combine_multiple_audiences1.png)
 
-1. Klicken **[!UICONTROL Kombinieren von Zielgruppen]** in der oberen rechten Ecke.
+1. Klicken **[!UICONTROL Kombinieren mehrerer Zielgruppen]** in der oberen rechten Ecke.
 
    ![Schrittergebnis](assets/combine_multiple_audiences2.png)
 
@@ -57,7 +57,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
       ![](assets/combine_multiple_audiences3.png)
 
-      In diesem Fall lautet der Operator für die beiden Browsertypen „AND“. Wählen Sie die Dropdownliste „AND“ aus und ändern Sie den Operator zu „OR“, um eine neue kombinierte Zielgruppe für neue Besucher mit den Browsern Safari oder Firefox zu erstellen. Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. So ist es beispielsweise nicht möglich, dass ein Besucher eine Seite mit Safari und gleichzeitig mit Firefox besucht.
+      In diesem Fall lautet der Operator für die beiden Browsertypen „AND“. Wählen Sie die [!UICONTROL und] Dropdown-Liste und ändern Sie sie in &quot;OR&quot;, um eine neue kombinierte Zielgruppe für neue Besucher zu erstellen, die entweder Firefox oder Safari verwenden. Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. So ist es beispielsweise nicht möglich, dass ein Besucher eine Seite mit Safari und gleichzeitig mit Firefox besucht.
 
       >[!NOTE]
       >

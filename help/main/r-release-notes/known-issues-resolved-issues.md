@@ -4,9 +4,9 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
 workflow-type: tm+mt
-source-wordcount: '4819'
+source-wordcount: '4818'
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ Ein Problem mit EEC verhindert derzeit, dass PUT-Anfragen unterstützt werden, u
 
 [!DNL Adobe Experience Platform] Segmentnamen werden für die Aktivitäten [!UICONTROL Automatisierte Personalisierung] (AP) und [!UICONTROL Automatisches Targeting] (AT) nicht im Bericht [!UICONTROL Wichtige Attribute] angezeigt. (Die 3813 populärsten)
 
-### Die Archivierung von Aktivitäten mit [!UICONTROL automatischem Targeting] kann zu Synchronisationsproblemen führen.
+### Archivierung [!UICONTROL Automatisches Targeting] -Aktivitäten können Synchronisierungsprobleme verursachen
 
 Der Versuch, inaktive Aktivitäten für [!UICONTROL Automatisches Targeting] zu archivieren, kann zu Synchronisationsproblemen führen. Solange dieses Problem nicht behoben ist, archivieren Sie die Aktivitäten für [!UICONTROL Automatisches Targeting] nicht. Belassen Sie sie im Status [!UICONTROL Inaktiv]. (TGT-40885)
 

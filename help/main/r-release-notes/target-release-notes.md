@@ -1,13 +1,13 @@
 ---
 keywords: Versionshinweise;Versionen;Updates;zukünftige Versionen;Verbesserungen;neue Funktionen;Fehlerbehebungen;Updates;Vorabversion
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der kommenden Version von Adobe Target sowie in den zugehörigen SDKs, APIs und JavaScript-Bibliotheken.
-title: Welche neuen Funktionen sind in der kommenden Version enthalten?
+title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '362'
+ht-degree: 37%
 
 ---
 
@@ -15,16 +15,22 @@ ht-degree: 100%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 31. Januar 2022**
+**Zuletzt aktualisiert: 11. April 2022**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## Target Standard/Premium 22.2.1 (1. Februar 2022)
+## [!DNL Target Standard/Premium] 2.3.1 (gestaffelte Version, festes Datum)
 
-Diese Wartungsversion enthält die folgenden Korrekturen und Verbesserungen für die neue Benutzeroberfläche [!UICONTROL Zielgruppen], die in der Version [Target Standard/Premium 22.1.2](/help/main/r-release-notes/release-notes.md) angekündigt wurde, welche in den nächsten sechs Wochen an Kunden in allen Regionen ausgeliefert wird. Diese Korrekturen passen die Funktionalität der in [!DNL Adobe Target Standard/Premium] erstellten Zielgruppen an.
+Diese Version enthält die folgenden Änderungen und Verbesserungen:
 
-* Fehlerkorrektur – Importierte Zielgruppen können jetzt von [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] und [!DNL Adobe Target Classic] als Berichterstellungs-Zielgruppen zugewiesen werden. (TGT-43140)
-* Es wurde eine Option [!UICONTROL Löschen] in der Liste [!UICONTROL Zielgruppen] für importierte Zielgruppen aus [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] und [!DNL Adobe Target Classic] hinzugefügt. Es wurde auch eine Funktion zum Massenlöschen hinzugefügt. (TGT-42914)
+* Es wurde ein Problem behoben, bei dem Änderungen an Profilskripten zum ursprünglichen, nicht bearbeiteten Skript zurückkehrten, nachdem das Skript bearbeitet, aktiviert und dann deaktiviert wurde. Das Profilskript verbleibt jetzt im bearbeiteten Status. (TGT-43249)
+* Es wurde ein Problem behoben, das die folgende Fehlermeldung im [!DNL Target] Benutzeroberfläche beim Verschieben einer in einer Aktivität mit dem Status &quot;Entwurf&quot; verwendeten Zielgruppe: &quot;Wir können Ihre Anfrage nicht abschließen. Wenden Sie sich an die Kundenunterstützung von Adobe, wenn das Problem weiterhin besteht.&quot; (TGT-43212)
+* Es wurde ein Fehler behoben, der dazu führte, dass die [!UICONTROL Einschließen] und [!UICONTROL Ausschließen] Optionen, die bei der Bearbeitung einer Aktivität für kombinierte Zielgruppen deaktiviert werden sollen. (TGT-43422)
+* Es wurde ein Problem behoben, das manche Kunden daran hinderte, beim Bearbeiten einer Aktivität die Liste der verfügbaren Zielgruppen anzuzeigen. (TGT-43404)
+* Es wurde ein Problem behoben, das manche Kunden daran hinderte, eine IP-Adresse aus dem[!UICONTROL Auszuschließende IPs [!DNL Target] Berichtsdaten]&quot; in [!UICONTROL Administration] > [!UICONTROL Berichterstellung]. (TGT-43384)
+* Es wurde ein Problem behoben, das die Verwendung negativer Zahlen im Zielgruppenkriterium verhinderte, die sicherstellen, dass eine Variable &quot;größer als&quot;, &quot;größer oder gleich&quot;, &quot;kleiner als&quot;oder &quot;kleiner oder gleich&quot;ist. (TGT-43367)
+* Es wurde ein Problem behoben, durch das Kunden die [!UICONTROL Zielgruppendetails] Karte beim Erstellen kombinierter Zielgruppen. (TGT-43303)
+* Es wurde ein Fehler behoben, der dazu führte, dass die [!DNL Target] Benutzeroberfläche oder neue [!UICONTROL Zielgruppen] -Benutzeroberfläche verwenden, um einigen Kunden ein frühzeitiges Timeout zu ermöglichen. (TGT-42590 und TGT-43273)
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

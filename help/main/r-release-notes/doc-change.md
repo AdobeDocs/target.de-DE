@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
 workflow-type: tm+mt
-source-wordcount: '3582'
-ht-degree: 98%
+source-wordcount: '3664'
+ht-degree: 97%
 
 ---
 
@@ -15,10 +15,21 @@ ht-degree: 98%
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
 
+## Adobe Target Standard/Premium 22.3.1 (4.-6. April 2022) gestaffelte Version)
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| 4. April | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen über die Version 22.3.1 von [!DNL Target Standard/Premium] hinzugefügt. |
+
 ## Adobe Target Standard/Premium 22.2.1 (1. Februar 2022)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 30. März | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zu den [!DNL Target] Platform-Version. |
+| 28. März | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion hinzugefügt [!DNL Target] Platform-Version. |
+| 22. März | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zu den [!DNL Target Standard/Premium] Version der Fehlerbehebungen für die Kundenentwicklung. |
+|  | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Vorabversion 22.3.1 von [!DNL Target Standard/Premium] hinzugefügt. |
+| 17. März | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion hinzugefügt [!DNL Target Standard/Premium] Version der Fehlerbehebungen für die Kundenentwicklung. |
 | 9. März | [Bekannte und gelöste Probleme](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>Löschen von Orten mit Ad-hoc-Angeboten in Aktivitäten, die im formularbasierten Experience Composer erstellt wurden</li></ul> |
 |  | [Echtzeit-Profilsynchronisation für mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | Der folgende Satz zur Profilsynchronisierung wurde aktualisiert: &quot;Aktualisierungen werden alle 5 bis 10 Minuten mit dem Profilspeicher synchronisiert.&quot; |
 | 8. März | [Target-Ankündigungen und -Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (30. März 2022)</li></ul> |

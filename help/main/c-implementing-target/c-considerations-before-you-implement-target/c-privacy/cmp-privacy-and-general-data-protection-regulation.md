@@ -5,10 +5,10 @@ title: Funktionsweise [!DNL Target] Handhabung von Datenschutzbestimmungen?
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '2193'
-ht-degree: 55%
+source-wordcount: '2209'
+ht-degree: 54%
 
 ---
 
@@ -31,8 +31,9 @@ Als Datenverantwortlicher legen Sie fest, welche personenbezogenen Daten [!DNL A
 
 Weitere Informationen finden Sie unter:
 
-* [Website der Adobe-DSGVO-API](https://www.adobe.io/apis/experienceplatform/gdpr.html)
-* [DSGVO-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)
+* [Übersicht über Adobe Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=-blank}
+* [Handbuch zur Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=_blank}
+* [Übersicht über die Privacy Service-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=_blank}
 
 ## Übersicht über den California Consumer Privacy Act (CCPA)
 

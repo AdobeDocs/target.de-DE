@@ -1,13 +1,13 @@
 ---
-keywords: Versionshinweise
+keywords: Versionshinweise; Vorabversionshinweise; zukünftige Verbesserungen; zukünftige Fehlerbehebungen; zukünftige Funktionen; bevorstehende Version
 description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen und Fehlerbehebungen früherer Versionen von Adobe Target.
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '32991'
-ht-degree: 100%
+source-wordcount: '33054'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,13 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise für 2022
+
+### Target Standard/Premium 22.2.1 (1. Februar 2022)
+
+Diese Wartungsversion enthält die folgenden Fehlerbehebungen und Verbesserungen für die neue Benutzeroberfläche [!UICONTROL Zielgruppen], die in der Version Target Standard/Premium 22.1.2 angekündigt wurde, die in den nächsten sechs Wochen an Kunden in allen Regionen ausgeliefert wird. Diese Korrekturen passen die Funktionalität der in [!DNL Adobe Target Standard/Premium] erstellten Zielgruppen an.
+
+* Fehlerkorrektur – Importierte Zielgruppen können jetzt von [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] und [!DNL Adobe Target Classic] als Berichterstellungs-Zielgruppen zugewiesen werden. (TGT-43140)
+* Es wurde eine Option [!UICONTROL Löschen] in der Liste [!UICONTROL Zielgruppen] für importierte Zielgruppen aus [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] und [!DNL Adobe Target Classic] hinzugefügt. Es wurde auch eine Funktion zum Massenlöschen hinzugefügt. (TGT-42914)
 
 ### at.js-Version 2.8.1 (28. Januar 2022)
 
@@ -1166,7 +1173,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 Diese Version von [!DNL Target] enthält folgende Verbesserungen, Fehlerbehebungen und Änderungen:
 
-* Die Zeile „Backup“ des Recommendations-CSV-Downloads weist jetzt vorne doppelte gerade Anführungszeichen und ein Sternchen („*“) anstelle eines einfachen Sternchens (*) auf.
+* Die Sicherungszeile des Recommendations CSV-Downloads weist jetzt eine führende&#42;&quot;(doppelte Anführungszeichen, die ein Sternchen enthalten) anstelle von &#42; (ein einzelnes Sternchen).
 * Das Komma vorne in der Zeile „Top-Verkäufe“ und „Am häufigsten angezeigt“ im Recommendations-CSV-Download wurde entfernt.
 
 ### Änderungen an der Target-Plattform (19. Juni 2018) {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -1233,7 +1240,6 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>Bei der Auswahl der Recommendations-Kriterien im formularbasierten Experience Composer gibt es jetzt einen direkten Link zur ausgewählten Kriterienkarte, damit Sie die Kriterien schnell und einfach bearbeiten können. (TGT-28483) </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Form-Based Experience Composer</a>. </p> </li> 
       <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>Die Erstellung von Recommendations-Kriterien, -Promotions und Vorlagentestregeln ermöglicht jetzt die direkte Verwendung des Mbox-Parameters, ohne zwingend den Mbox-Namen festlegen zu müssen. Der Mbox-Name ist jetzt optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde. Alternativ können Sie mit dem Mbox-Namensfilter auch nach Mbox-Parameter filtern. </p> <p>Diese Verbesserung wurde auch in der Erstellung benutzerspezifischer Zielgruppen umgesetzt. </p> <p>Weitere Informationen finden Sie unter     <a href="/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local">Recommendations-FAQs.</a> </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>Die UI wurde für die Recommendations-Design-Karten geändert. </p> </li> 
-      <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>Die Dokumentation zur Target Recommendations-API finden Sie auf der <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external">Adobe I/0-Website zu Adobe Target</a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html). </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

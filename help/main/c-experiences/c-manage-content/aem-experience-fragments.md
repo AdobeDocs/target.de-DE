@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie [!DNL Adobe Experience Manager] Experience Fr
 title: Verwendung [!DNL Adobe Experience Manager] (AEM) Experience Fragments?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 59%
+source-wordcount: '1218'
+ht-degree: 57%
 
 ---
 
@@ -100,6 +100,8 @@ Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experie
 >[!NOTE]
 >
 >So verwenden Sie die [!DNL Target] KI- und ML-Funktionen können Sie [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) oder [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) beim Erstellen eines A/B-Tests.
+>
+>Experience Fragments werden in [!DNL Recommendations] Aktivitäten. Um jedoch Experience Fragments für Empfehlungen zu verwenden, können Sie eine [!UICONTROL A/B-Test] -Aktivität (einschließlich [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]) oder ein [!UICONTROL Erlebnis-Targeting] (XT) und [Empfehlungen als Angebot einschließen](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **So verwenden Sie Experience Fragments mit dem VEC:**
 
