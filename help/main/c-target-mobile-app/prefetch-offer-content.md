@@ -1,14 +1,14 @@
 ---
 keywords: Angebot;Vorabruf;iOS;Android;SDK;Mobile;Mobile SDK
 description: Verwenden der Adobe [!DNL Target] Vorabruffunktion in den iOS- und Android Mobile-SDKs, um so wenig Angebotsinhalte wie möglich abzurufen, indem die Serverantworten im Cache abgelegt werden.
-title: Kann ich Angebotsinhalte für mobile Apps vorab abrufen?
+title: Can I Prefetch Offer Content for Mobile Apps?
 feature: Implement Mobile
 role: Developer
 exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e152d3d68eede9c7606e546e30bd3e65bb8bcb9a
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 47%
+source-wordcount: '216'
+ht-degree: 54%
 
 ---
 
@@ -21,7 +21,6 @@ Dieser Prozess reduziert die Ladezeit, verhindert multiple Netzwerkaufrufe und e
 Beachten Sie bei der Verwendung der Vorabruf-Methode mit den iOS- und Android Mobile-SDK die folgenden Einschränkungen:
 
 * Vorabgerufene Inhalte werden nicht über Starts hinweg behalten. Der Inhalt des vorherigen Artikels wird zwischengespeichert, solange die Anwendung aktiv ist oder bis die `clearPrefetchCache()` Methode aufgerufen wird.
-* Die Vorabruffunktion wird nicht unterstützt für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Traffic-Zuordnungsmethoden für [!UICONTROL Automated Personalization] oder [!UICONTROL Recommendations] Aktivitätstypen oder für [Recommendations-Angebote innerhalb einer A/B- oder XT-Aktivität](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 Weitere Informationen einschließlich Vorabruf-Methoden, öffentliche Klassen und Code-Beispiele finden Sie unter:
 
