@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 94%
+source-wordcount: '584'
+ht-degree: 92%
 
 ---
 
@@ -15,20 +15,21 @@ ht-degree: 94%
 
 Ankündigungen und Informationen zu kommenden Veranstaltungen einschließlich [!DNL Adobe Target] Skill Builder-Sitzungen, Entwickler-Chats, Webinaren und [!DNL Target] Sitzungen mit Fragen und Antworten.
 
-## [!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (30. März 2022)
+## [!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (27. April 2022)
 
-* **Mittwoch, 30. März 2022**
+* **Mittwoch, 27. April 2022**
 * **8:00 Uhr (PDT, UTC -7)**
-* **[Weitere Informationen und Informationen zur Registrierung](https://adobe.ly/3sIS5Mg)**
+* **[Weitere Informationen und Informationen zur Registrierung](https://adobe.ly/371Uny2)**
 
-Senior Solutions Consultant, Ryan Pizzuto, wird Kundenfragen zu seinen folgenden Fachgebieten beantworten:
+Principal Solutions Consultant, James McTiernan, beantwortet Kundenfragen zu folgenden Fachgebieten:
 
-* [!UICONTROL Automatisches Targeting]
-* [!UICONTROL Automatisierte Personalisierung]
-* [!UICONTROL Recommendations]
+* [!UICONTROL A/B-Test] activities
+* [!UICONTROL Multivarianz-Test] activities
+* [!UICONTROL Recommendations-Aktivitäten]
+* Personalisierung
 * Allgemein [!UICONTROL Adobe Target] topics
 
-Der Support-Techniker Mihnea Docea wird Vishal unterstützen.
+Der technische Support-Ingenieur Simon Chen wird James unterstützen.
 
 ## Webinar: Personalisieren und Testen mit Nulllatenz bei geräteinterner Entscheidungsfindung mit [!DNL Adobe Target]
 
