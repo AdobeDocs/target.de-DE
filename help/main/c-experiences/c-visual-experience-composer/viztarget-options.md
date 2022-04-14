@@ -4,10 +4,10 @@ description: Die im Abschnitt verfügbaren Optionen [!DNL Adobe Target] [!UICONT
 title: Wie verwende ich die [!UICONTROL Visual Experience Composer] (VEC) Optionen?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
 workflow-type: tm+mt
-source-wordcount: '2810'
-ht-degree: 65%
+source-wordcount: '2907'
+ht-degree: 62%
 
 ---
 
@@ -330,7 +330,9 @@ Die folgenden Optionen sind verfügbar:
 
 Ziehen Sie das Element an einen anderen Ort innerhalb des gleichen übergeordneten Elements oder DIV. Andere Elemente wechseln den Standort, um für das neu angeordnete Element Platz zu schaffen.
 
-**Hinweis:** Klick-Tracking kann für neu angeordnete Elemente nicht durchgeführt werden.
+**Hinweis**: Klick-Tracking funktioniert nicht bei neu angeordnete Elementen.
+
+Derzeit sind bestimmte VEC-Aktionen wie [!UICONTROL Neu anordnen] und [!UICONTROL Verschieben]angenommen, dass die gleichrangigen Elemente der Quell- und Ziel-übergeordneten Elemente vollständig geladen sind. Wenn verzögertes Laden unter den übergeordneten DOM-Elementen (Quelle oder Ziel) auftritt, können diese VEC-Aktionen zu inkonsistentem Verhalten führen. Wir arbeiten an einem zuverlässigeren Ansatz, um VEC-Aktionen in verzögert geladenen DOM-Elementen zu funktionieren. Als temporäre Problemumgehung können Sie [!UICONTROL Benutzerspezifischer Code] in diesen Szenarien verwenden, um Ihre Erlebnisse zu rendern.
 
 ### [!UICONTROL Größe ändern]
 
@@ -343,6 +345,8 @@ Ziehen Sie das Element an einen anderen Ort innerhalb des gleichen übergeordnet
 Verschieben Sie Elemente auf Ihrer Seite. Im Gegensatz zu [!UICONTROL Elemente neu anordnen] werden bei der Option [!UICONTROL Verschieben] keine anderen Elemente verschoben, um Platz für das verschobene Element zu machen. Verwenden Sie die Pfeiltasten, um geringfügige Korrekturen vorzunehmen. (Geplante Erweiterung: Unterstützung, um sicherzustellen, dass verschobene Elemente nicht hinter anderen Elementen verborgen werden.)
 
 In bestimmten Situationen, z. B. wenn eine CSS-Beschränkung erfordert, dass ein Element innerhalb des übergeordneten Elements verbleibt, können Sie das Element nicht außerhalb des übergeordneten Elements verschieben. Elemente können nicht aus einem Container verschoben werden, der folgende CSS-Eigenschaft hat:`overflow: hidden`
+
+Siehe [!UICONTROL Neu anordnen] weiter oben für weitere Informationen zu inkonsistentem Verhalten mit der [!UICONTROL Verschieben] und [!UICONTROL Neu anordnen] Aktionen aufgrund des verzögerten Ladens von DOM-Elementen.
 
 ### [!UICONTROL Ausblenden]
 

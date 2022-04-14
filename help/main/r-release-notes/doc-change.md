@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
 workflow-type: tm+mt
-source-wordcount: '3692'
-ht-degree: 97%
+source-wordcount: '3725'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 14. April | [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Es wurden Informationen zum Abschnitt Neu anordnen hinzugefügt, die erklären, wie mit inkonsistentem VEC-Verhalten mit dem [!UICONTROL Verschieben] und [!UICONTROL Neu anordnen] Aktionen aufgrund des verzögerten Ladens von DOM-Elementen. |
 | 13. April | [Target-Ankündigungen und -Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (27. April 2022)</li></ul> |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zu den [!DNL Target] Platform-Version. |
 | 4. April | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Aktualisierte Informationen über die [!DNL Target Standard/Premium] Version 2.3.1. |
