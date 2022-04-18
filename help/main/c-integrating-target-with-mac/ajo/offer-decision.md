@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie eine Angebotsentscheidung hinzufügen, die in
 title: Wie verwende ich Angebotsentscheidungen?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 4a2b0f52d00ca40609f3bfbddf7cb2b2bee6a33e
+source-git-commit: b34f58bee9759eb7c621f8cbf763837d7eafb3fe
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 0%
+source-wordcount: '995'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,11 @@ Verwendung [!DNL Adobe Target] mit [!DNL Adobe Journey Optimizer] Angebotsentsch
 
 Hinzufügen von Angebotsentscheidungen, die in erstellt wurden [!DNL Adobe Journey Optimizer] nach [!DNL Target] Tätigkeiten (manuelle [!UICONTROL A/B-Test] oder [!UICONTROL Erlebnis-Targeting]) entweder mithilfe der [!UICONTROL Visual Experience Composer] (VEC) oder [!UICONTROL Form-Based Composer] Testen und Bereitstellen personalisierter Angebote für Ihre Besucher auf eingehenden Kanälen mithilfe von [!DNL Target].
 
-Weitere Informationen finden Sie unter [!DNL Adobe Journey Optimizer], siehe [Erste Schritte mit Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) im *Journey Optimizer* Dokumentation.
+Weitere Informationen finden Sie unter [!DNL Adobe Journey Optimizer] und Angebotsentscheidungen, siehe die folgenden Themen in der *[!DNL Journey Optimizer]* Dokumentation:
 
-Weitere Informationen zu Angebotsentscheidungen finden Sie unter [Über die Entscheidungsverwaltung](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) im *[!DNL Journey Optimizer]* Dokumentation.
+* [Erste Schritte mit Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+
+* [Über die Entscheidungsverwaltung](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
 
 ## Voraussetzungen 
 
@@ -96,7 +98,7 @@ In [!DNL Adobe Journey Optimizer]können Sie für jede Zielregion ein personalis
 
 ## Hinweise und Einschränkungen
 
-Beachten Sie bei der Arbeit mit Angebotsentscheidungen die folgenden Hinweise und Einschränkungen:
+Beachten Sie bei der Arbeit mit Angebotsentscheidungen die folgenden Informationen:
 
 * Die offer decisioning-Integration funktioniert für [!DNL Target] Implementierungen, die auf der [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Diese Funktion ist bei der Implementierung von [!DNL Target] mit at.js oder anderen [!DNL Target] SDKs.
 
