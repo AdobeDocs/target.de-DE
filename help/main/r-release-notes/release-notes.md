@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 47%
+source-wordcount: '489'
+ht-degree: 65%
 
 ---
 
@@ -24,37 +24,15 @@ Diese Version enthält die folgende Aktualisierung:
 
 * Es wurde ein Fehler behoben, der sicherstellte, dass das letzte Oktett von IP-Adressen bei der Erfassung mithilfe von Profilskripten ordnungsgemäß verschleiert wird. (TNT-44076)
 
-## [!DNL Target Standard/Premium] 2.3.1 (gestaffelte Version, festes Datum)
+## [!DNL Target Standard/Premium] 22.3.1 (5. April 2022)
 
 Diese Version enthält die folgenden Änderungen und Verbesserungen:
 
-* Es wurde ein Problem behoben, bei dem Änderungen an Profilskripten zum ursprünglichen, nicht bearbeiteten Skript zurückkehrten, nachdem das Skript bearbeitet, aktiviert und dann deaktiviert wurde. Das Profilskript verbleibt jetzt im bearbeiteten Status. (TGT-43249)
-* Es wurde ein Problem behoben, das die folgende Fehlermeldung im [!DNL Target] Benutzeroberfläche beim Verschieben einer in einer Aktivität mit dem Status &quot;Entwurf&quot; verwendeten Zielgruppe: &quot;Wir können Ihre Anfrage nicht abschließen. Wenden Sie sich an die Kundenunterstützung von Adobe, wenn das Problem weiterhin besteht.&quot; (TGT-43212)
 * Es wurde ein Fehler behoben, der dazu führte, dass die [!UICONTROL Einschließen] und [!UICONTROL Ausschließen] Optionen, die bei der Bearbeitung einer Aktivität für kombinierte Zielgruppen deaktiviert werden sollen. (TGT-43422)
 * Es wurde ein Problem behoben, das manche Kunden daran hinderte, beim Bearbeiten einer Aktivität die Liste der verfügbaren Zielgruppen anzuzeigen. (TGT-43404)
 * Es wurde ein Problem behoben, das manche Kunden daran hinderte, eine IP-Adresse aus dem[!UICONTROL Auszuschließende IPs [!DNL Target] Berichtsdaten]&quot; in [!UICONTROL Administration] > [!UICONTROL Berichterstellung]. (TGT-43384)
 * Es wurde ein Problem behoben, das die Verwendung negativer Zahlen im Zielgruppenkriterium verhinderte, die sicherstellen, dass eine Variable &quot;größer als&quot;, &quot;größer oder gleich&quot;, &quot;kleiner als&quot;oder &quot;kleiner oder gleich&quot;ist. (TGT-43367)
 * Es wurde ein Problem behoben, durch das Kunden die [!UICONTROL Zielgruppendetails] Karte beim Erstellen kombinierter Zielgruppen. (TGT-43303)
-* Es wurde ein Fehler behoben, der dazu führte, dass die [!DNL Target] Benutzeroberfläche oder neue [!UICONTROL Zielgruppen] -Benutzeroberfläche verwenden, um einigen Kunden ein frühzeitiges Timeout zu ermöglichen. (TGT-42590 und TGT-43273)
-
-## [!DNL Target] Platform-Version (30. März)
-
-Diese Version enthält die folgende Verbesserung:
-
-* Klick-Tracking-Metriken enthalten die Analytics-Nutzlast in Bereitstellungs-API-Anfragen für Aktivitäten, die Analytics als Berichtsquelle (A4T) verwenden, und Prozessereignisse Client-seitig. (TNT-43073)
-
-## [!DNL Target Standard] Aktualisierung von Zielgruppen (28. März)
-
-Diese Version enthält die folgende Aktualisierung:
-
-* Die neue [!UICONTROL Zielgruppen] Die Benutzeroberfläche wird für alle [!DNL Target Standard] -Kunden.
-
-## Fehlerbehebungen bei der Target Standard-/Premium-Kundenentwicklung (22. März 2022)
-
-Dieses Maintenance Release umfasst die folgenden Erweiterungen:
-
-* Funktion zur Rückgabe hinzugefügt [!DNL Analytics] Nutzlastdaten für `prefetch` Ansichten und `pageLoad` Klicken Sie bei Verwendung von [!UICONTROL Bereitstellungs-API] mit Aktivitäten, die [!UICONTROL Analytics als Berichtsquelle] (A4T). (TNT-43198)
-* Die Liste der Benutzeragenten für die Bot-Filterung wurde aktualisiert, um einen in Japan häufig verwendeten Browsertyp zuzulassen. (TNT-43867)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 

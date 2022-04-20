@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 37%
+source-wordcount: '175'
+ht-degree: 76%
 
 ---
 
@@ -15,22 +15,17 @@ ht-degree: 37%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert: 13. April 2022**
+**Zuletzt aktualisiert: 20. April 2022**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!DNL Target Standard/Premium] 2.3.1 (gestaffelte Version, festes Datum)
+## [!DNL Target Standard/Premium] 22.4.1 (28. April 2022)
 
-Diese Version enthält die folgenden Änderungen und Verbesserungen:
+Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
-* Es wurde ein Problem behoben, bei dem Änderungen an Profilskripten zum ursprünglichen, nicht bearbeiteten Skript zurückkehrten, nachdem das Skript bearbeitet, aktiviert und dann deaktiviert wurde. Das Profilskript verbleibt jetzt im bearbeiteten Status. (TGT-43249)
-* Es wurde ein Problem behoben, das die folgende Fehlermeldung im [!DNL Target] Benutzeroberfläche beim Verschieben einer in einer Aktivität mit dem Status &quot;Entwurf&quot; verwendeten Zielgruppe: &quot;Wir können Ihre Anfrage nicht abschließen. Wenden Sie sich an die Kundenunterstützung von Adobe, wenn das Problem weiterhin besteht.&quot; (TGT-43212)
-* Es wurde ein Fehler behoben, der dazu führte, dass die [!UICONTROL Einschließen] und [!UICONTROL Ausschließen] Optionen, die bei der Bearbeitung einer Aktivität für kombinierte Zielgruppen deaktiviert werden sollen. (TGT-43422)
-* Es wurde ein Problem behoben, das manche Kunden daran hinderte, beim Bearbeiten einer Aktivität die Liste der verfügbaren Zielgruppen anzuzeigen. (TGT-43404)
-* Es wurde ein Problem behoben, das manche Kunden daran hinderte, eine IP-Adresse aus dem[!UICONTROL Auszuschließende IPs [!DNL Target] Berichtsdaten]&quot; in [!UICONTROL Administration] > [!UICONTROL Berichterstellung]. (TGT-43384)
-* Es wurde ein Problem behoben, das die Verwendung negativer Zahlen im Zielgruppenkriterium verhinderte, die sicherstellen, dass eine Variable &quot;größer als&quot;, &quot;größer oder gleich&quot;, &quot;kleiner als&quot;oder &quot;kleiner oder gleich&quot;ist. (TGT-43367)
-* Es wurde ein Problem behoben, durch das Kunden die [!UICONTROL Zielgruppendetails] Karte beim Erstellen kombinierter Zielgruppen. (TGT-43303)
-* Es wurde ein Fehler behoben, der dazu führte, dass die [!DNL Target] Benutzeroberfläche oder neue [!UICONTROL Zielgruppen] -Benutzeroberfläche verwenden, um einigen Kunden ein frühzeitiges Timeout zu ermöglichen. (TGT-42590 und TGT-43273)
+Mit diesem Release werden die folgenden Fehler behoben:
+
+* Es wurde ein Fehler behoben, der dazu führte, dass drei auf dem Warenkorb basierende Algorithmen dieselbe Bedingung für &quot;Gekauft/Gekauft&quot;für die [!DNL Target] Backend. (TGT-43456)
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

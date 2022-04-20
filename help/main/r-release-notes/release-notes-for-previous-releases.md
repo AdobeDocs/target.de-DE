@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '33054'
+source-wordcount: '33168'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,25 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise für 2022
+
+### [!DNL Target] Platform-Version (30. März)
+
+Diese Version enthält die folgende Verbesserung:
+
+* Klick-Tracking-Metriken enthalten die Analytics-Nutzlast in Bereitstellungs-API-Anfragen für Aktivitäten, die Analytics als Berichtsquelle (A4T) verwenden, und Prozessereignisse Client-seitig. (TNT-43073)
+
+### [!DNL Target Standard] Aktualisierung von Zielgruppen (28. März)
+
+Diese Version enthält die folgende Aktualisierung:
+
+* Die neue [!UICONTROL Zielgruppen] Die Benutzeroberfläche wird für alle [!DNL Target Standard] -Kunden.
+
+### Fehlerbehebungen bei der Target Standard-/Premium-Kundenentwicklung (22. März 2022)
+
+Dieses Maintenance Release umfasst die folgenden Erweiterungen:
+
+* Funktion zur Rückgabe hinzugefügt [!DNL Analytics] Nutzlastdaten für `prefetch` Ansichten und `pageLoad` Klicken Sie bei Verwendung von [!UICONTROL Bereitstellungs-API] mit Aktivitäten, die [!UICONTROL Analytics als Berichtsquelle] (A4T). (TNT-43198)
+* Die Liste der Benutzeragenten für die Bot-Filterung wurde aktualisiert, um einen in Japan häufig verwendeten Browsertyp zuzulassen. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1. Februar 2022)
 
