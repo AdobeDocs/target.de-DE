@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie den Bereich "Änderungen"in Adobe verwenden [
 title: Welche Änderungen kann ich an meiner Seite vornehmen?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2137'
 ht-degree: 93%
 
 ---
 
 # Änderungen
 
-Informationen zur Seite &quot;Änderungen&quot;unter [!DNL Adobe Target] , mit dem Sie Änderungen an Ihrer Seite anzeigen und zusätzliche Änderungen hinzufügen können (CSS-Selektor, Mbox und benutzerspezifischer Code).
+Informationen über [!UICONTROL Änderungen] Seite in [!DNL Adobe Target] , mit dem Sie Änderungen an Ihrer Seite anzeigen und zusätzliche Änderungen hinzufügen können (CSS-Selektor, Mbox und benutzerspezifischer Code).
 
 Auf der Seite „Änderungen“ finden Sie alle Änderungen, die im Visual Experience Composer an Ihrer Seite vorgenommen wurden, und können zusätzliche Änderungen vornehmen, indem Sie auf das jeweilige Element auf der Seite klicken und  [eine Aktion auswählen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Jede vorgenommene Änderung erscheint in der Liste [!UICONTROL Änderungen] als separate Aktion oder separates Element. Sie können auch Änderungen hinzufügen, einschließlich folgender Änderungstypen: CSS-Selektor, Mbox und benutzerspezifischer Code.
 
@@ -157,20 +157,6 @@ Auf der Registerkarte **[!UICONTROL Benutzerspezifischer Code]** können Sie Fol
    document.addEventListener("DOMContentLoaded", function(event) {  
        document.getElementById("default_content").innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
        document.getElementById("default_content").style.visibility="visible"; 
-   }); 
-   </script> 
-   ```
-
-* Tausch mit DOM-Analyse über das Plug-in `elementOnLoad`
-
-   Der Vorteil besteht darin, dass der Tausch früher erfolgt als auf DOM-bereit. Das Plug-in verarbeitet Vorabausblenden und -einblenden; eine Kennung am Element ist dazu erforderlich.
-
-   ```javascript
-   <style>#default_content {visibility:hidden;}</style> 
-   <script> 
-   /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
-   elementOnLoad('default_content',function(e){ 
-       e.innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
    }); 
    </script> 
    ```
