@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3b6666b55a6dee9ce137802888dbf23f893b2cae
+source-git-commit: 2aee434066576ccd09222b402c113c5d16bcc706
 workflow-type: tm+mt
-source-wordcount: '3751'
+source-wordcount: '3777'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 26. April | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Wie kann ich Diskrepanzen bei der Traffic-Verteilung bei der Verwendung von Umleitungsangeboten in A4T-Aktivitäten minimieren?</li></ul> |
 | 21. April | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion hinzugefügt [!DNL Target] für den 17. April 2022 geplante Plattform-Veröffentlichung. |
 | 20. April | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Vorabversion 22.4.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 14. April | [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Es wurden Informationen zum Abschnitt Neu anordnen hinzugefügt, die erklären, wie mit inkonsistentem VEC-Verhalten mit dem [!UICONTROL Verschieben] und [!UICONTROL Neu anordnen] Aktionen aufgrund des verzögerten Ladens von DOM-Elementen. |

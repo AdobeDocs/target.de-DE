@@ -4,10 +4,10 @@ description: Antworten auf Fragen zur Verwendung von Umleitungsangeboten bei der
 title: Wo finde ich häufig gestellte Fragen zu Umleitungsangeboten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 61%
+source-wordcount: '1468'
+ht-degree: 54%
 
 ---
 
@@ -36,6 +36,21 @@ Die drei Bibliotheken müssen sowohl auf der Seite mit dem Weiterleitungsangebot
 ## Warum gibt es manchmal Datendiskrepanzen zwischen A4T und Analytics?
 
 Es werden einige Datendiskrepanzen erwartet. Weitere Informationen finden Sie unter [Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+
+## Wie kann ich Diskrepanzen bei der Traffic-Verteilung bei der Verwendung von Umleitungsangeboten in A4T-Aktivitäten minimieren? {#discrepancies}
+
+Eine begrenzte Anzahl von Kunden hat höhere Abweichungen in der Traffic-Verteilung bei der Verwendung von Umleitungsangeboten in Aktivitäten gemeldet, die mit [!UICONTROL Analytics for Target] (A4T).
+
+Beachten Sie Folgendes:
+
+* Falsche Reihenfolge [!DNL Target] und [!DNL Analytics] -Aufrufe können für höhere Abweichungen verantwortlich sein.
+
+   Die [!DNL Target] -Aufruf muss vor dem [!DNL Analytics] -Aufruf auf der Quellseite (wo eine Umleitung erfolgt) und auf der Zielseite (wo die Umleitung endet).
+
+* Stellen Sie sicher, dass Sie Umleitungsangebote in A4T-Umleitungsaktivitäten verwenden.
+* Wenn mehrere [!DNL Target] Standortanforderungen auf der Quellseite (wo die Umleitung erfolgt), [!DNL Adobe] empfiehlt, die Umleitungsaktivität für die erste [!DNL Target] Ortsanforderung.
+
+   Ausführen der Umleitungsaktivität beim ersten [!DNL Target] Die Standortanforderung verringert die Wahrscheinlichkeit, dass Aktivitätsqualifikationen auf anderen [!DNL Target] Standortanfragen und im Bericht gezählt werden. Besucher, die umgeleitet werden, müssen nicht in den Berichten anderer Aktivitäten gezählt werden, da sie die Erlebnisse nicht sehen.
 
 ## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 

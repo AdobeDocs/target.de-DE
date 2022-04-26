@@ -4,9 +4,9 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '4818'
+source-wordcount: '4783'
 ht-degree: 98%
 
 ---
@@ -77,9 +77,6 @@ Ein bekanntes Problem verhindert die Vorschau, wenn die in einer Aktivität verw
 
 ### Umleitungsangebote {#redirect}
 
-Die folgenden Probleme bei Umleitungsangeboten sind bekannt:
-
-* Von einigen wenigen Kunden wurde zurückgemeldet, dass in der Traffic-Verteilung ein höherer Grad an Varianzen auftritt, wenn Umleitungsangebote in Aktivitäten verwendet werden, die mit Analytics for Target (A4T) konfiguriert wurden.
 * Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
 
 ### Problem beim Abbrechen des Seitenladevorgangs in Visual Experience Composer (VEC) {#cancel}
