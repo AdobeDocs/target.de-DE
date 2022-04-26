@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2aee434066576ccd09222b402c113c5d16bcc706
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '3777'
-ht-degree: 96%
+source-wordcount: '3817'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,9 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 26. April | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Wie kann ich Diskrepanzen bei der Traffic-Verteilung bei der Verwendung von Umleitungsangeboten in A4T-Aktivitäten minimieren?</li></ul> |
+| 26. April | [Target-Ankündigungen und -Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen für die folgenden Ereignisse hinzugefügt:<ul><li>Webinar: Echtzeit-Personalisierung mit Adobe Target (28. April 2022)</li><li>[!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (25. Mai 2022)</li></ul> |
+|  | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Wie kann ich Diskrepanzen bei der Traffic-Verteilung bei der Verwendung von Umleitungsangeboten in A4T-Aktivitäten minimieren?</li></ul> |
+|  | [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Folgender Abschnitt wurde hinzugefügt:<ul><li>Entfernen von ClientLibs und externen HTML aus in Target exportierten Experience Fragments</li></ul> |
 | 21. April | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion hinzugefügt [!DNL Target] für den 17. April 2022 geplante Plattform-Veröffentlichung. |
 | 20. April | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Informationen zur Vorabversion 22.4.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 14. April | [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Es wurden Informationen zum Abschnitt Neu anordnen hinzugefügt, die erklären, wie mit inkonsistentem VEC-Verhalten mit dem [!UICONTROL Verschieben] und [!UICONTROL Neu anordnen] Aktionen aufgrund des verzögerten Ladens von DOM-Elementen. |

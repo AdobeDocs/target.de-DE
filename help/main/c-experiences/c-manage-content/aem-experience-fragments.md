@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie [!DNL Adobe Experience Manager] Experience Fr
 title: Verwendung [!DNL Adobe Experience Manager] (AEM) Experience Fragments?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 55%
+source-wordcount: '1324'
+ht-degree: 53%
 
 ---
 
@@ -150,11 +150,13 @@ Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experie
 * Sie können keine Experience Fragments mit [!DNL Adobe I/O]. Erstellen Sie Erlebnisfragmente mithilfe von AEM, wie oben beschrieben.
 * Wenn Sie Ihr Experience Fragment in AEM aktualisieren, muss das Experience Fragment veröffentlicht und in exportiert werden. [!DNL Target] erneut [!DNL Target] kann die neuesten Änderungen verwenden.
 
-## Entfernen von ClientLibs aus in Target exportierten Experience Fragments
+## Entfernen von ClientLibs und externen HTML aus in Target exportierten Experience Fragments
 
-Bei Verwendung eines Experience Fragment-Angebots mit [!DNL Target] auf einer von AEM bereitgestellten Seite enthält die Zielseite bereits alle erforderlichen Client-Bibliotheken. Darüber hinaus ist der irrelevante HTML-Code im XF-Angebot ebenfalls nicht erforderlich.
+Bei Verwendung von Experience Fragment-Angeboten mit [!DNL Target] auf einer von AEM bereitgestellten Seite enthält die Zielseite bereits alle erforderlichen Client-Bibliotheken. Beachten Sie auch, dass auch keine irreführenden HTML-Elemente im Angebot erforderlich sind.
 
-Weitere Informationen finden Sie unter [Dieser Blogpost](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
+Manchmal umschließen ganze HTML-Seiten das Experience Fragment und verursachen Probleme. Stellen Sie sicher, dass es sich bei dem Erlebnisfragment um eine kleine HTML-Seite handelt, nicht um eine vollständige HTML-Seite mit HTML, HEAD, BODY usw.
+
+Weitere Informationen finden Sie im folgenden Blogpost: [AEM 6.5: Entfernen von ClientLibs aus in Target exportierten Experience Fragments](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## Schulungsvideo: Verwenden AEM Experience Fragments mit [!DNL Adobe Target]
 
