@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besuc
 title: Was sind Profilattribute?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2423'
 ht-degree: 49%
 
 ---
@@ -72,6 +72,9 @@ Beachten Sie die folgenden Informationen:
 
 * Siehe Profilskriptattribute (auch das im Code enthaltene) im Code mit `user.get('parameterName')`.
 * Speichern Sie Variablen, die beim nächsten Ausführen des Skripts (bei der nächsten Mbox-Anfrage) aufgerufen werden können, mit `user.setLocal('variable_name', 'value')`. Verweisen Sie auf die Variable mit `user.getLocal('variable_name')`. Dieser Prozess ist nützlich in Situationen, in denen Sie auf das Datum und die Uhrzeit der letzten Anfrage verweisen möchten.
+
+   Diese Werte bleiben wie ein Profilskript erhalten, Sie haben jedoch nur Zugriff auf sie innerhalb des Skripts, für das sie festgelegt wurden.
+
 * Bei Parametern und Werten wird zwischen Groß- und Kleinschreibung unterschieden. Prüfen Sie die Groß-/Kleinschreibung der Parameter und Werte, die Sie während der Aktivität oder dem Test erhalten.
 * Weitere JavaScript-Syntax finden Sie im Abschnitt „JavaScript-Referenz für Skript-Profilparameter“.
 * Der Parameter bleibt im Profil, nachdem das Skript deaktiviert wurde. Benutzer, deren Profile bereits einen Parameter enthalten, der in der Audience einer Aktivität verwendet wird, qualifizieren sich für diese Aktivität.
