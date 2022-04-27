@@ -5,10 +5,10 @@ title: Was sind Unternehmensbenutzerberechtigungen und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 59%
+source-wordcount: '3132'
+ht-degree: 57%
 
 ---
 
@@ -262,6 +262,22 @@ Häufig gestellte Fragen zu Unternehmensberechtigungen:
 Leider ist es nicht möglich, Aktivitäten von einem Arbeitsbereich in einen anderen zu verschieben. Sie können jedoch eine Aktivität in einen beliebigen Arbeitsbereich kopieren, um zu wissen, dass die Berichtsdaten nicht übertragen werden. Weitere Informationen finden Sie unter „Kopieren/Bearbeiten einer Aktivität beim Verwenden von Arbeitsbereichen“ in [Kopieren/Bearbeiten einer Aktivität beim Verwenden von Arbeitsbereichen](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
 Aktivitäten, die vor der Migration angelegt wurden, laufen im Standardarbeitsbereich auf die gleiche Weise weiter, es sei denn, sie werden bearbeitet und mit Eigenschaften versehen. Aktivitäten in einem bestimmten Arbeitsbereich berücksichtigen die Eigenschaften, die diesem Arbeitsbereich zugewiesen sind, und daher bleibt das Verhalten möglicherweise nicht mehr so wie vor der Migration.
+
+### Kann ich eine Zielgruppe von einem Arbeitsbereich in einen anderen verschieben? {#move-audience}
+
+Ja, Sie können Zielgruppen mithilfe der [!UICONTROL Mehr Aktionen] -Option auf [!UICONTROL Zielgruppen] Seite.
+
+1. Klicken Sie auf **[!UICONTROL Mehr Aktionen]** Schaltfläche (die drei Ellipsen) und klicken Sie auf **[!UICONTROL Verschieben]**.
+
+   ![Mehr Aktionen > Verschieben](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+
+1. Wählen Sie den gewünschten Arbeitsbereich aus dem **[!UICONTROL Arbeitsbereich]** Dropdown-Liste und klicken Sie auf **[!UICONTROL Verschieben]**.
+
+   ![Wählen Sie die gewünschte Zielgruppe aus, um in den neuen Arbeitsbereich zu wechseln](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+
+>[!NOTE]
+>
+>Sie müssen über die entsprechenden Berechtigungen zum Bearbeiten einer Zielgruppe verfügen. Darüber hinaus darf die Zielgruppe nicht in anderen Aktivitäten verwendet werden. Wenn die Zielgruppe in anderen Aktivitäten verwendet wird und Sie die Zielgruppe dennoch auf eine andere Workstation verschieben möchten, entfernen Sie die Zielgruppe aus den anderen Aktivitäten, in denen sie verwendet wird.
 
 ### Warum wird eine Fehlermeldung angezeigt, die besagt, dass keine Eigenschaft mit dieser Aktivität verknüpft ist, auch wenn eine Eigenschaft zugewiesen ist?
 
