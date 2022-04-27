@@ -5,9 +5,9 @@ title: Was sind Unternehmensbenutzerberechtigungen und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
+source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3133'
 ht-degree: 57%
 
 ---
@@ -215,7 +215,7 @@ Beachten Sie Folgendes bei der Verwendung oder Konfiguration von Eigenschaften u
    * Wenn Sie eine Aktivität, eine Zielgruppe oder ein Angebot in der Ansicht „Alle meine Arbeitsbereiche“ erstellen, müssen Sie den Arbeitsbereich auswählen, in dem das Element erstellt werden soll. Hierbei können Sie nur Arbeitsbereiche auswählen, für die Sie über Editor- oder Genehmiger-Berechtigungen verfügen.
    * Wenn Sie eine Aktivität, eine Zielgruppe oder ein Angebot in der Ansicht „Alle meine Arbeitsbereiche“ kopieren, müssen Sie den Arbeitsbereich auswählen, in den das Element kopiert werden soll. Hierbei können Sie nur Arbeitsbereiche auswählen, für die Sie über Editor- oder Genehmiger-Berechtigungen verfügen.
 
-* Jede Einstellung auf den folgenden Administrationsseiten kann von einem beliebigen Genehmiger in einem beliebigen Arbeitsbereich gesteuert werden:
+* Jede Einstellung für den folgenden AdministratorDie Seiten der Migration können von jedem Genehmiger in jedem Arbeitsbereich gesteuert werden:
 
    * Visual Experience Composer
    * Berichterstellung
