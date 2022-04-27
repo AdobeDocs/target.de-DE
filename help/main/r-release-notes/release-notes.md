@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 65%
+source-wordcount: '566'
+ht-degree: 56%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 65%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Darüber hinaus finden Sie in den Versionshinweisen für [!DNL Target] APIs, SDKs, die [!DNL Adobe Experience Platform Web SDK], at.js und andere Plattformänderungen sind ebenfalls enthalten, sofern zutreffend.
 
 (Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+
+## [!DNL Target] Plattform-Version (27. April 2022)
+
+Diese Version enthält die folgende Änderung:
+
+* Mit dieser Version können Sie Inhalte vorab abrufen für [!UICONTROL Automatisierte Personalisierung] (AP) und [!UICONTROL Automatisches Targeting] (AT) Aktivitäten (zuvor nicht zurückgegeben von [!DNL Target]). Dies kann die Erlebnisse ändern, die den Endbenutzern bei einem Vorabruf (keine Änderungen am &quot;Ausführungs&quot;-Fluss) angezeigt werden, wenn sich eine AP-/AT-Aktivität im Bereitstellungspfad befindet und eine höhere Priorität aufweist als andere AB-/XT-Aktivitäten, die denselben Ort für die Inhaltsbereitstellung verwenden.
 
 ## Target Platform-Version (13. April 2022)
 
