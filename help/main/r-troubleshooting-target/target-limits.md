@@ -1,14 +1,14 @@
 ---
 keywords: zeichenbeschränkung;mbox-parameter;batch-bereitstellungs-api;profilparameter;beschränkungen;integrierte profile;maximum;beschränkung;bedingung;zeichen;best practice;orderid;orderTotal;mbox3rdPartyID;kategorie;categoryID;fehlerbehebung
-description: In diesem Abschnitt finden Sie eine Liste der Zeichen- und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.) für Aktivitäten und andere Elemente in Adobe Target.
-title: Zeichen-, Größen- und andere Beschränkungen in Adobe Target
+description: Anzeigen einer Liste von Zeichenbeschränkungen und anderen Beschränkungen, die Aktivitäten und andere Elemente in [!DNL Adobe Target].
+title: Zeichen-, Größen- und andere Beschränkungen in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
+source-git-commit: 516dd288f2aa8116d05f1a9f28c5074df0932e8c
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 98%
+source-wordcount: '1352'
+ht-degree: 97%
 
 ---
 
