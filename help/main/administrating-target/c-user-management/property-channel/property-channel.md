@@ -5,10 +5,10 @@ title: Was sind Unternehmensbenutzerberechtigungen und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3133'
-ht-degree: 57%
+source-wordcount: '3150'
+ht-degree: 56%
 
 ---
 
@@ -198,6 +198,7 @@ Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL 
    ![](assets/channel_options.png)
 
 * **Zielgruppenerstellung:** Wenn Sie eine Zielgruppe erstellen, wird sie im derzeit ausgewählten Arbeitsbereich erstellt.
+* **Zielgruppenliste:** Sie können Zielgruppen zwischen Arbeitsbereichen verschieben, indem Sie die [!UICONTROL Mehr Aktionen] > [!DNL Move] -Option auf [!UICONTROL Zielgruppen] Seite.
 * **Erstellung von Angeboten:** Wenn Sie ein Angebot erstellen, wird es im derzeit ausgewählten Arbeitsbereich erstellt.
 * **Eigenschaftenseite (Administration > Eigenschaften):** Sie können die [!UICONTROL Suche] zum Durchsuchen der [!UICONTROL Eigenschaft] Liste.
 
@@ -215,7 +216,7 @@ Beachten Sie Folgendes bei der Verwendung oder Konfiguration von Eigenschaften u
    * Wenn Sie eine Aktivität, eine Zielgruppe oder ein Angebot in der Ansicht „Alle meine Arbeitsbereiche“ erstellen, müssen Sie den Arbeitsbereich auswählen, in dem das Element erstellt werden soll. Hierbei können Sie nur Arbeitsbereiche auswählen, für die Sie über Editor- oder Genehmiger-Berechtigungen verfügen.
    * Wenn Sie eine Aktivität, eine Zielgruppe oder ein Angebot in der Ansicht „Alle meine Arbeitsbereiche“ kopieren, müssen Sie den Arbeitsbereich auswählen, in den das Element kopiert werden soll. Hierbei können Sie nur Arbeitsbereiche auswählen, für die Sie über Editor- oder Genehmiger-Berechtigungen verfügen.
 
-* Jede Einstellung für den folgenden AdministratorDie Seiten der Migration können von jedem Genehmiger in jedem Arbeitsbereich gesteuert werden:
+* Jede Einstellung für die folgenden [!UICONTROL Administration] Seiten können von jeder [!UICONTROL Genehmiger] in beliebigen Arbeitsbereichen:
 
    * Visual Experience Composer
    * Berichterstellung

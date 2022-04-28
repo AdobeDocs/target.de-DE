@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3817'
-ht-degree: 95%
+source-wordcount: '3854'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,14 @@ ht-degree: 95%
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
 
-## Adobe Target Standard/Premium 22.3.1 (4.-6. April 2022) gestaffelte Version)
+## Adobe Target Standard/Premium 22.4.1 (28. April)
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| 28. April | [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Kann ich eine Zielgruppe von einem Arbeitsbereich in einen anderen verschieben?</li></ul> |
+|  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 2.4.1 und Target-Plattform (27. April 2022). |
+
+## Adobe Target Standard/Premium 2.3.1 (5. April)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
