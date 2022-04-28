@@ -5,7 +5,7 @@ title: Zeichen-, Größen- und andere Beschränkungen in Adobe Target
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 100%
@@ -192,7 +192,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
    * Profilparameter: 50
    * Maximale Länge des Profilparameternamens: 128
    * Der Profilparameterwert darf nicht null sein.
-   * Maximale Länge des Profilparameterwerts: 256
+   * Maximale Länge des Profilparameterwerts: 5000
 
    **Bereitstellungs-API – Endpunkt**:
 
@@ -203,7 +203,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
    * Profilparameter: 50
    * Maximale Länge des Profilparameternamens: 128
    * Der Profilparameterwert darf nicht null sein.
-   * Maximale Länge des Profilparameterwerts: 256
+   * Maximale Länge des Profilparameterwerts: 5000
 
 
 
