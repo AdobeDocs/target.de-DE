@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3854'
-ht-degree: 94%
+source-wordcount: '3908'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 28. April | [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Kann ich eine Zielgruppe von einem Arbeitsbereich in einen anderen verschieben?</li></ul> |
+|  | [[!UICONTROL Automatische Zuordnung] – Überblick](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | Folgende FAQs wurden hinzugefügt:<ul><li>Kann eine [!UICONTROL Automatische Zuordnung] Aktivität das Lookback-Fenster im Verlauf eines Tests anpassen, um zeitbedingte Änderungen zu berücksichtigen?</li><li>Does [!UICONTROL Automatische Zuordnung] einem wiederkehrenden Besucher ein erfolgreichstes Erlebnis anzeigen, wenn sich das erfolgreichste Erlebnis von dem unterscheidet, das der Besucher bei der Qualifizierung für die Aktivität gesehen hat?</li></ul> |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 2.4.1 und Target-Plattform (27. April 2022). |
 
 ## Adobe Target Standard/Premium 2.3.1 (5. April)
