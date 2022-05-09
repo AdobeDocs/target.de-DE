@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 83a7fb03dcf334cb82eb507d2803e955a655b40a
+source-git-commit: ca2e85a5cadd014c192be6795445e0cfc4ca75cb
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 23%
+source-wordcount: '489'
+ht-degree: 29%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 23%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 5. Mai 2022**
+**Letzte Aktualisierung: 9. Mai 2022**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -23,9 +23,9 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
-* **10. Mai**: Region Europa, Naher Osten und Afrika (EMEA)
 * **11. Mai**: Region Asien-Pazifik (APAC)
 * **12. Mai**: Region Nordamerika (NA)
+* **13. Mai**: Region Europa, Naher Osten und Afrika (EMEA)
 
 Diese Version enthält die folgenden Verbesserungen und Fehlerbehebungen:
 
@@ -38,11 +38,9 @@ Diese Version enthält die folgenden Verbesserungen und Fehlerbehebungen:
 * Es wurde ein Fehler behoben, der verhinderte, dass Kunden Orte löschen konnten, die Ad-hoc-Angebote in Aktivitäten enthielten, die in der [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
 * Es wurde ein Problem behoben, das Kunden daran hinderte, auf Code-Angebote zuzugreifen, nachdem sie auf Bildangebote geklickt und dann die Benutzeroberfläche aktualisiert haben. (TGT-43566)
 * Sicherstellen, dass die Liste der Metriken im [!DNL Target] Benutzeroberfläche beim Erstellen von Aktivitäten, die [!DNL Analytics for Target] (A4T) zeigt nur die Metriken an, die von [!DNL Adobe Analytics]. (TGT-43294)
-* Es wurde ein Problem behoben, das manchmal [!UICONTROL Einrichtung] Seitenanforderungen fehlschlagen. Ändern Sie beispielsweise die[!UICONTROL Reporting-Experience Cloud-Lösung]&quot;-Option aus &quot;[!UICONTROL Analytics]&quot;[!UICONTROL Target]&quot; oder &quot;[!UICONTROL Pro Aktivität auswählen]&quot;. (TGT-43272)
-* Es wurde ein Fehler behoben, der manchmal dazu führte, dass Änderungen an Profilskripten nicht ordnungsgemäß aktualisiert wurden. (TGT-43249)
+* Es wurde ein Problem behoben, bei dem Änderungen an Profilskripten zum ursprünglichen, nicht bearbeiteten Skript zurückkehrten, nachdem das Skript bearbeitet, aktiviert und dann deaktiviert wurde. Das Profilskript verbleibt jetzt im bearbeiteten Status. (TGT-43249)
 * Es wurde ein Problem behoben, das den folgenden Fehler verursachte, wenn versucht wurde, eine Zielgruppe in einen anderen Arbeitsbereich zu verschieben: &quot;Wir können Ihre Anfrage nicht abschließen. Wenden Sie sich an den Kundendienst von Adobe , wenn das Problem weiterhin besteht.&quot; (TGT-43212)
 * Fehlerkorrektur - beim Klonen von Änderungen an benutzerdefiniertem Code für Einzelseiten-Apps (SPA) tritt kein Fehler mehr auf. (TGT-43137)
-* Die Handhabung der Metrik &quot;Seitenansichten&quot;in SPA wurde geändert. Anstelle der Seiten-URL, die im [!DNL Target] -Benutzeroberfläche zeigt die Benutzeroberfläche jetzt die &quot;Ansicht&quot;an. (TGT-41200)
 * Es wurde ein Fehler behoben, der dazu führte, dass die ursprüngliche Promotion nach dem Duplizieren eines Erlebnisses und anschließenden Bearbeiten der Promotion betroffen war. (TGT-41775)
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
