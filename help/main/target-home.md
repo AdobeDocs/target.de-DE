@@ -1,13 +1,13 @@
 ---
-keywords: Target; Startseite; beliebte Themen; Adobe Target; Target Standard; Target Premium; Target-Dokumentation; Adobe Target-Dokumentation; Startseite
+keywords: Target;startseite;beliebte themen;adobe target;target standard;target premium;target-dokumentation;dokumentation zu adobe target; home
 title: Wo finde ich die Dokumentation zu [!DNL Target] ?
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kunden mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, Mobile Site, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: d92340218f6e5f906aef15584740a179ace30a77
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 96%
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
 
-**Zuletzt aktualisiert: 28. April 2022 ( [Siehe Änderungen](r-release-notes/doc-change.md) )**
+**Zuletzt aktualisiert: 10. Mai 2022 ([siehe Änderungen](r-release-notes/doc-change.md))**
 
-In den folgenden Abschnitten finden Sie nützliche Links in diesem Handbuch, die von der vorgesehenen Zielgruppe basierend auf typischen Auftragsfunktionen ausgerichtet wurden:
+In den folgenden Abschnitten finden Sie nützliche Links, sortiert nach der vorgesehenen Zielgruppe und nach typischen Funktionen:
 
 - [Alle Target-Benutzer](#all)
 - [Marketingexperten](#marketers)
