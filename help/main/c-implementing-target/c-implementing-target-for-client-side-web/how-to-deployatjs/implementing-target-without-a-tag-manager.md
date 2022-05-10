@@ -5,10 +5,10 @@ title: Kann ich implementieren? [!DNL Target] ohne Tag-Manager?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 53%
+source-wordcount: '1794'
+ht-degree: 50%
 
 ---
 
@@ -83,6 +83,20 @@ Zusätzlich zu den oben erläuterten Einstellungen sind auch die folgenden spezi
 | Benutzerdefinierte Bibliothekskopfzeile | Fügen Sie benutzerdefiniertes JavaScript hinzu, das oben in der Bibliothek aufgeführt wird. |
 | Benutzerdefinierte Bibliotheksfußzeile | Fügen Sie benutzerdefiniertes JavaScript hinzu, das unten in der Bibliothek aufgeführt wird. |
 
+### Implementierungsmethoden mit On-Device Decisioning
+
+Ab Version 2.5.0 bietet at.js Entscheidungen auf Geräten. Über die Entscheidungsfindung auf dem Gerät können Sie Ihre [A/B-Test](/help/main/c-activities/t-test-ab/test-ab.md) und [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/experience-target.md) (XT) -Aktivitäten im Browser, um speicherinterne Entscheidungen ohne blockierende Netzwerkanforderung für die [!DNL Adobe Target] Edge Network.
+
+Weitere Informationen finden Sie unter:
+
+* Clientseitig: [Entscheidungsfindung auf dem Gerät für at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* Serverseitig: [Einführung in die geräteübergreifende Entscheidungsfindung](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Serverseitig: [Entscheidung auf dem Gerät](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
+* Node.js: [Aktivieren der On-Device Decisioning für Ihre Organisation](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
+* Java: [Aktivieren der On-Device Decisioning für Ihre Organisation](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
+* .NET: [Aktivieren der On-Device Decisioning für Ihre Organisation](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
+* Python: [Aktivieren der On-Device Decisioning für Ihre Organisation](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+
 ### Profil-API
 
 Aktivieren oder deaktivieren Sie die Authentifizierung für Batch-Aktualisierungen via API und generieren Sie ein Token für die Profilauthentifizierung.
@@ -105,7 +119,7 @@ Wählen Sie die gewünschte Einstellung aus der Dropdownliste Besucher-IP-Adress
 * Gesamte IP-Verschleierung
 * Keine
 
-Weitere Informationen finden Sie unter [Datenschutz](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
+Weitere Informationen finden Sie unter   [Datenschutz](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
 
 >[!NOTE]
 >
