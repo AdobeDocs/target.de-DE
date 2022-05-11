@@ -5,31 +5,42 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 70%
+source-wordcount: '692'
+ht-degree: 52%
 
 ---
 
 # Target-Versionshinweise (aktuell)
 
-Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Darüber hinaus finden Sie in den Versionshinweisen für [!DNL Target] APIs, SDKs, die [!DNL Adobe Experience Platform Web SDK], at.js und andere Plattformänderungen sind ebenfalls enthalten, sofern zutreffend.
+Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
-(Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.)
+(Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 22.4.1 (28. April 2022)
+## [!DNL Target Standard/Premium] 2.5.1 (gestaffelte Version) 11.-13. Mai 2022)
 
-Mit diesem Release werden die folgenden Fehler behoben:
+Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
-* Es wurde ein Fehler behoben, der dazu führte, dass drei auf dem Warenkorb basierende Algorithmen dieselbe Bedingung für &quot;Gekauft/Gekauft&quot;für die [!DNL Target] Backend. (TGT-43456)
-* Aktiviert [!DNL Target] Aktualisierung des UI-Tokens für Unternehmen, die mit [Business ID-Konten](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} und &quot;Policy Based Authentication&quot;(PBA). (TGT-42590)
+* **11. Mai**: Region Asien-Pazifik (APAC)
+* **12. Mai**: Region Nordamerika (NA)
+* **13. Mai**: Region Europa, Naher Osten und Afrika (EMEA)
 
-## [!DNL Target] Plattform-Version (27. April 2022)
+Diese Version enthält die folgenden Verbesserungen und Fehlerbehebungen:
 
-Diese Version enthält die folgende Änderung:
-
-* Mit dieser Version können Sie Inhalte vorab abrufen für [!UICONTROL Automatisierte Personalisierung] (AP) und [!UICONTROL Automatisches Targeting] (AT) Aktivitäten (zuvor nicht zurückgegeben von [!DNL Target]). Dies kann die Erlebnisse ändern, die den Endbenutzern bei einem Vorabruf (keine Änderungen am &quot;Ausführungs&quot;-Fluss) angezeigt werden, wenn sich eine AP-/AT-Aktivität im Bereitstellungspfad befindet und eine höhere Priorität aufweist als andere AB-/XT-Aktivitäten, die denselben Ort für die Inhaltsbereitstellung verwenden.
+* Es wurde ein Fehler behoben, der zu einem JavaScript-Fehler führte und einige Kunden daran hinderte, für bestimmte [!UICONTROL Automated Personalization] AP-Aktivitäten. (TGT-43526)
+* Fehlerkorrektur - jetzt können bestimmte Kunden einem AP-Aktivitätsmodul ein bestimmtes Angebot hinzufügen (oder bearbeiten). (TGT-43503)
+* Es wurde ein Problem im [!DNL Target] Benutzeroberfläche, in der die folgende Fehlermeldung angezeigt wurde: &quot;Ihre globale Mbox ist möglicherweise nicht synchronisiert. Bitte versuchen Sie, sie erneut zu speichern.“ Dieses Problem war ein UI-Problem und hatte keine Auswirkungen auf die -Implementierungen von Kunden. (TGT-43475)
+* Fehlerkorrektur - Verfeinerungen und Zielgruppen auf Erlebnisebene können jetzt von einem Kunden für eine Aktivität bearbeitet werden, wenn die Verfeinerungen und Zielgruppen vor dem neuen erstellt wurden [!UICONTROL Zielgruppen] Die Benutzeroberfläche wurde bereitgestellt. (TGT-43433)
+* Es wurde ein Problem behoben, durch das Kunden doppelte [!DNL Adobe Audience Manager] (AAM) Zielgruppen beim Bearbeiten von Berichtszielgruppen für eine Aktivität. (TGT-43430)
+* Fehlerkorrektur - Kunden können jetzt doppelte Zielgruppen erstellen, die sich jedoch in verschiedenen Arbeitsbereichen befinden. (TGT-43423)
+* Es wurde ein Fehler behoben, der verhinderte, dass Kunden Orte löschen konnten, die Ad-hoc-Angebote in Aktivitäten enthielten, die in der [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, auf Code-Angebote zuzugreifen, nachdem sie auf Bildangebote geklickt und dann die Benutzeroberfläche aktualisiert haben. (TGT-43566)
+* Sicherstellen, dass die Liste der Metriken im [!DNL Target] Benutzeroberfläche beim Erstellen von Aktivitäten, die [!DNL Analytics for Target] (A4T) zeigt nur die Metriken an, die von [!DNL Adobe Analytics]. (TGT-43294)
+* Es wurde ein Problem behoben, bei dem Änderungen an Profilskripten zum ursprünglichen, nicht bearbeiteten Skript zurückkehrten, nachdem das Skript bearbeitet, aktiviert und dann deaktiviert wurde. Das Profilskript verbleibt jetzt im bearbeiteten Status. (TGT-43249)
+* Es wurde ein Problem behoben, das den folgenden Fehler verursachte, wenn versucht wurde, eine Zielgruppe in einen anderen Arbeitsbereich zu verschieben: &quot;Wir können Ihre Anfrage nicht abschließen. Wenden Sie sich an den Kundendienst von Adobe , wenn das Problem weiterhin besteht.&quot; (TGT-43212)
+* Fehlerkorrektur - beim Klonen von Änderungen an benutzerdefiniertem Code für Einzelseiten-Apps (SPA) tritt kein Fehler mehr auf. (TGT-43137)
+* Es wurde ein Fehler behoben, der dazu führte, dass die ursprüngliche Promotion nach dem Duplizieren eines Erlebnisses und anschließenden Bearbeiten der Promotion betroffen war. (TGT-41775)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 

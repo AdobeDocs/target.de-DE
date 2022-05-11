@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d92340218f6e5f906aef15584740a179ace30a77
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3943'
 ht-degree: 96%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 96%
 # Dokumentationsänderungen
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
+
+## Adobe Target Standard/Premium 2.5.1 (gestaffelte Version) 11.-13. Mai 2022)
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| 11. Mai | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen zum [!DNL Target Standard/Premium] Version 2.5.1 und Version der Target-Plattform (11.-13. Mai 2022). |
 
 ## Adobe Target Standard/Premium 22.4.1 (28. April)
 
