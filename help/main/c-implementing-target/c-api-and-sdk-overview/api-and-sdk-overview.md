@@ -5,7 +5,7 @@ title: Informationen darüber [!DNL Target] Serverseitige Bereitstellungs-APIs u
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 23%
@@ -37,7 +37,7 @@ Link: [Server-seitige Bereitstellungs-APIs](https://developers.adobetarget.com/a
 
 `/rest/v1/delivery`
 
-Die [!DNL Target] Die Bereitstellungs-API bietet folgende Möglichkeiten:
+Verwenden der [!DNL Target] Die Bereitstellungs-API bietet folgende Möglichkeiten:
 
 * Bereitstellung von Erlebnissen über das Internet, einschließlich SPA- und Mobilkanälen sowie Nicht-Browser-basierte IoT-Geräte, wie z. B. angeschlossene TVs, Kiosks oder digitale In-store-Bildschirme.
 * Stellen Sie Erlebnisse von jeder Server-seitigen Plattform oder Anwendung bereit, die HTTP/s-Aufrufe durchführen kann.

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Adobe Ausschlüsse erstellen. [!DNL Target
 title: Wie verwende ich Ausschlüsse in Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 44%
+source-wordcount: '614'
+ht-degree: 43%
 
 ---
 
@@ -26,6 +26,8 @@ Beispiele für die Verwendung von Ausschlüssen:
 * Produkte, die nie empfohlen werden sollten (möglicherweise existiert im System eine SKU für etwas, aber es ist kein Artikel, der gekauft werden kann, oder es ist eine falsche SKU für das QA-Team, einen Kauf zu simulieren, ohne tatsächlich etwas zu bestellen usw.)
 
 >[!IMPORTANT]
+>
+>Ausschlussregeln werden global auf alle Umgebungen angewendet.
 >
 >Statische und dynamische Ausschlussregeln sind leistungsstarke Funktionen, die Ihnen beim Marketing helfen können. Ausführliche Informationen, Beispiele und Anwendungsszenarios finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
