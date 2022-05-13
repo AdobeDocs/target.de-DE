@@ -5,9 +5,9 @@ title: Cookies in at.js
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1825'
 ht-degree: 96%
 
 ---
@@ -111,7 +111,7 @@ Das Cookie verfügt über mehrere Standardeinstellungen. Sie können diese Einst
 | Cookie-Name | mbox. |
 | Cookie-Domäne | Die obersten und die darunter liegenden Ebenen der Domänen, von denen der Inhalt geliefert wird. Da die Belieferung von der Domain Ihres Unternehmens stattfindet, handelt es sich um ein Erstanbieter-Cookie. Beispiel: `mycompany.com`. |
 | Serverdomäne | `clientcode.tt.omtrdc.net`, unter Verwendung des Kundencodes für Ihr Konto. |
-| Cookie-Dauer | Das Cookie verbleibt zwei Jahre nach seiner letzten Anmeldung im Browser des Besuchers.<br>Die `deviceIdLifetime` -Einstellung überschrieben in [at.js , Version 2.3.1 oder neuer](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Weitere Informationen finden Sie unter [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
+| Cookie-Dauer | Das Cookie verbleibt zwei Jahre nach der letzten Anmeldung im Browser des Besuchers.<br>Die `deviceIdLifetime` -Einstellung überschrieben in [at.js , Version 2.3.1 oder neuer](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Weitere Informationen finden Sie unter [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
 | P3P-Richtlinie | Das Cookie wird mit einer P3P-Richtlinie veröffentlicht, wie sie von den Standardeinstellungen in den meisten Browsern gefordert wird. Durch eine P3P-Richtlinie wird einem Browser angezeigt, wer das Cookie bereitstellt und wie die Informationen verwendet werden. |
 
 Das Cookie enthält verschiedene Werte, mit denen verwaltet werden kann, wie die Besucher die Kampagnen erleben:
@@ -120,7 +120,7 @@ Das Cookie enthält verschiedene Werte, mit denen verwaltet werden kann, wie die
 |--- |--- |
 | session ID | Eine eindeutige Kennung für eine Benutzersitzung. Standardmäßig ist diese 30 Minuten gültig. |
 | pc ID | Eine eingeschränkt dauerhafte Kennung für den Browser eines Besuchers. Wird 14 Tage beibehalten. |
-| check | Ein einfacher Testwert, mit dem bestimmt wird, ob ein Besucher Cookies unterstützt. Wird immer dann eingestellt, wenn ein Besucher eine Seite anfordert. |
+| at_check | Ein einfacher Testwert, mit dem bestimmt wird, ob ein Besucher Cookies unterstützt. Wird immer dann eingestellt, wenn ein Besucher eine Seite anfordert. |
 | disable | Wird eingestellt, wenn die Ladezeit des Besuchers die in der [!DNL Adobe Experience Platform Web SDK] oder der Datei &quot;at.js&quot;. Standardmäßig ist dieser Wert eine Stunde gültig. |
 
 ## Auswirkungen auf [!DNL Target] für Safari-Besucher aufgrund von Tracking-Änderungen in Apple WebKit

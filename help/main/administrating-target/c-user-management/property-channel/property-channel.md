@@ -5,10 +5,10 @@ title: Was sind Unternehmensbenutzerberechtigungen und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 56%
+source-wordcount: '3149'
+ht-degree: 58%
 
 ---
 
@@ -24,7 +24,7 @@ Berechtigungen für Unternehmensbenutzer sind eine Methode zur formalen Verwaltu
 >
 >Ihre [!DNL Target] -Implementierung kann jede Version von at.js verwenden.
 
-Sie können feststellen, ob Ihre Organisation über eine Standard- oder Premium-Lizenz verfügt, indem Sie auf [!UICONTROL Administration] -Link oben im [!DNL Target] Benutzeroberfläche.
+Sie können feststellen, ob Ihr Unternehmen über eine Standard- oder Premium-Lizenz verfügt, indem Sie oben in der [!DNL Target]-Benutzeroberfläche auf den Link [!UICONTROL Administration] klicken.
 
 * **[!DNL Target Standard]Kunden**: Wenn die Variable [!UICONTROL Benutzer] tab ([!UICONTROL Administration > Benutzer]) (und nicht das [!UICONTROL Eigenschaften] -Registerkarte), verfügt Ihre Organisation über eine [!DNL Target Standard] Lizenz. [!DNL Target Standard] -Kunden sollten die Anweisungen unter [Benutzer](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) , um Benutzer hinzuzufügen und Berechtigungen in der [!DNL Adobe Admin Console].
 
@@ -91,7 +91,7 @@ Rollen und Berechtigungen bestimmen, welche Zugriffsebene Benutzer haben, um Akt
 | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
 | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
 | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-| Publisher | Ähnlich wie die Beobachterrolle (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Jedoch verfügt die Rolle Publisher zusätzlich über die Berechtigung zum Aktivieren von Aktivitäten. |
+| Publisher | Ähnlich wie die Beobachterrolle (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Jedoch verfügt die Publisher-Rolle zusätzlich über die Berechtigung zum Aktivieren von Aktivitäten. |
 
 ### Kanal
 
@@ -120,7 +120,7 @@ Jede Rolle verfügt über eigene Zugriffsniveaus:
 | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
 | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
 | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-| Herausgeber | Ähnlich wie die Beobachterrolle (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Jedoch verfügt die Rolle Publisher zusätzlich über die Berechtigung zum Aktivieren von Aktivitäten. |
+| Herausgeber | Ähnlich wie die Beobachterrolle (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Jedoch verfügt die Publisher-Rolle zusätzlich über die Berechtigung zum Aktivieren von Aktivitäten. |
 
 Es muss dabei berücksichtigt werden, dass die Benutzerrolle für alle Seiten, Eigenschaften oder Sites Ihres Kontos gilt, die über [!DNL Target]-Tags verfügen, wie unten dargestellt:
 
@@ -232,7 +232,7 @@ Beachten Sie Folgendes bei der Verwendung oder Konfiguration von Eigenschaften u
 * Beim Anzeigen der Zielgruppen über die [!DNL Audiences]-Seite lädt die Seite langsamer als erwartet. Nutzen Sie das Suchfeld, werden die Zielgruppen schneller geladen. Dieses Problem ist bekannt und wird in einem kommenden Update behoben. Das Problem wirkt sich nicht auf die Auswahl von Zielgruppen bei der Erstellung von Aktivitäten aus.
 * Die folgenden Ressourcen sind Teil des neuen Unternehmensberechtigungsmodells:
 
-   * Aktivitäten, Zielgruppen und Codeangebote, die in Target Standard/Premium erstellt werden, nachdem der Kunde für Berechtigungen aktiviert wurde. (Hinweis: Kunden müssen über Berechtigungen für Target Premium verfügen.)
+   * Aktivitäten, Zielgruppen und Codeangebote, die in [!DNL Target Standard/Premium] sind verfügbar, nachdem der Kunde für Berechtigungen aktiviert wurde. (Hinweis: -Kunden müssen [!DNL Target Premium].
    * Eigenschaften können vorhandenen Aktivitäten im Standardarbeitsbereich hinzugefügt werden. Dieser Ansatz kann sich jedoch ändern.
    * Für die Beschränkung durch Berechtigungen stehen nur neue Ressourcen (z. B. Aktivitäten, Codeangebote und Zielgruppen) zur Verfügung, die in Target Premium erstellt wurden (nachdem Unternehmensberechtigungen aktiviert wurden).
    * Externe Ressourcen sind nur für Benutzer im Standardarbeitsbereich verfügbar. Die Rolle eines Benutzers im Standardarbeitsbereich ist global gültig (für alle Target-Anfragen und alle Taget-Ressourcen).
@@ -314,7 +314,7 @@ Lernziele:
 
 ### Bürozeiten: [!DNL Target] Premium-Arbeitsbereiche
 
-Dieses Video ist eine Aufzeichnung von Office Hours, eine Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
+Dieses Video ist eine Aufzeichnung von Office Hours, einer Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird.
 
 * Erstellen von Arbeitsbereichen (Produktprofilen)
 * Erstellen von Eigenschaften
@@ -323,6 +323,6 @@ Dieses Video ist eine Aufzeichnung von Office Hours, eine Initiative, die vom Te
 
 >[!NOTE]
 >
->Die [!DNL Target] [!UICONTROL Administration] Menübenutzeroberfläche (früher [!UICONTROL Einrichtung]) wurde überarbeitet, um eine verbesserte Leistung zu erzielen, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu reduzieren und das Benutzererlebnis im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind korrekt. -Optionen können sich jedoch an etwas anderen Orten befinden.
+>Die Benutzeroberfläche des [!UICONTROL Administration]-Menüs von [!DNL Target] (früher [!UICONTROL Einrichten]) wurde überarbeitet, um eine verbesserte Leistung zu erzielen, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu reduzieren und das Benutzererlebnis im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind korrekt. -Optionen können sich jedoch an etwas anderen Orten befinden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
