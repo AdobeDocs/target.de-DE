@@ -5,55 +5,55 @@ title: Wie aktiviere ich gemischte Inhalte in meinem Browser?
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 # Zulassen von gemischtem Inhalt in Ihrem Browser
 
-Gemischte Inhalte treten auf, wenn die ursprüngliche Anforderung über HTTPS sicher ist, aber HTTPS *und* HTTP-Inhalt wird geladen, um die Webseite anzuzeigen. HTTPS-Inhalt ist sicher. HTTP-Inhalte sind unsicher.
+Gemischte Inhalte treten auf, wenn die ursprüngliche Anfrage über HTTPS sicher ist, aber HTTPS- *und* HTTP-Inhalte geladen werden, um die Webseite anzuzeigen. HTTPS-Inhalt ist sicher. HTTP-Inhalte sind nicht sicher.
 
-Moderne Browser blockieren möglicherweise die Anzeige einer Seite oder zeigen Warnmeldungen an, wenn sicherer Inhalt mit unsicherem Inhalt gemischt wird.
+Moderne Browser blockieren möglicherweise die Anzeige einer Seite oder zeigen einen Warnhinweis an, wenn sicherer gemeinsam mit nicht sicherem Inhalt aufgerufen wird.
 
-Wenn die Variable [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] versucht, eine Seite mit gemischtem Inhalt zu öffnen. Diese Meldung informiert Sie darüber, wie Sie die Blockierung in Ihrem Browser deaktivieren können. Durch Deaktivieren der Blockierung können Sie eine HTTP-Site oder eine Site mit gemischten Aufrufen (HTTPS und HTTP) öffnen.
+Ein Warnhinweis wird angezeigt, wenn [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] versucht, eine Seite mit gemischtem Inhalt zu öffnen. Dieser Hinweis informiert Sie darüber, wie Sie die Blockierung in Ihrem Browser deaktivieren können. Durch das Deaktivieren der Blockierung können Sie eine HTTP-Site oder eine Site mit gemischten Aufrufen (HTTPS und HTTP) öffnen.
 
 ![Warnung zu gemischtem Inhalt](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
-Zuvor konnten Sie, falls gemischte Inhalte unzulässig waren, in Schritt 1 des dreistufigen geführten Workflows beim Erstellen von Aktivitäten dennoch einige Aktionen ausführen. [!DNL Target]Von nun an blockiert Aktionen in Schritt 1. Wenn diese Nachricht angezeigt wird, müssen Sie gemischte Inhalte aktivieren, bevor Sie mit der Erstellung der Aktivität fortfahren.
+Zuvor konnten Sie, wenn gemischte Inhalte nicht zulässig waren, in Schritt 1 des dreistufigen Workflows beim Erstellen von Aktivitäten dennoch einige Aktionen ausführen. Von nun an blockiert [!DNL Target] Aktionen in Schritt 1. Wenn dieser Hinweis angezeigt wird, müssen Sie gemischte Inhalte aktivieren, bevor Sie den Vorgang fortsetzen können.
 
-Die Sicherheitseinstellungen Ihres Browsers verhindern möglicherweise, dass gemischter Inhalt oder unsicherer (HTTP-)Inhalt auf einer sicheren (HTTPS-)Seite oder in einem sicheren Frame (z. B. VEC) geladen wird. Wenn Sie die Sicherheitseinstellungen Ihres Browsers nicht deaktivieren möchten, benötigen Sie eine HTTPS-Website.
+Die Sicherheitseinstellungen Ihres Browsers verhindern möglicherweise, dass gemischter Inhalt oder nicht sicherer (HTTP-)Inhalt auf einer sicheren (HTTPS-)Seite oder in einem sicheren Frame (z. B. VEC) geladen wird. Wenn Sie die Sicherheitseinstellungen Ihres Browsers nicht deaktivieren möchten, benötigen Sie eine HTTPS-Website.
 
-Wenn Ihre Website auf einer unsicheren (HTTP)-Domäne ausgeführt wird, müssen Sie zulassen, dass VEC aktive gemischte Inhalte lädt.
+Wenn Ihre Website in einer unsicheren (HTTP-)Domain betrieben wird, müssen Sie zulassen, dass VEC aktiven gemischten Inhalt lädt.
 
 >[!NOTE]
 >
 >Die Zulassung von gemischten Inhalten wirkt sich nur auf VEC und nicht auf Ihre Live-Website aus.
 
-Weitere Informationen finden Sie unter [Gemischte Inhalte](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) auf der *Mozilla-Entwicklernetzwerk* (MDN-)Website.
+Weitere Informationen finden Sie unter [Gemischte Inhalte](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) auf der *Mozilla Developer Network* (MDN-)Website.
 
 ## Zulassen von gemischtem Inhalt in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-Wenn Sie eine Site über eine sichere Verbindung besuchen, verifiziert Chrome, dass der Inhalt auf der Webseite sicher übertragen wurde.
+Wenn Sie eine Seite über eine sichere Verbindung besuchen, verifiziert Chrome, dass der Inhalt auf der Web-Seite sicher übermittelt wurde.
 
-Siehe[Diese Seite hat unsicheren Inhalt](https://support.google.com/chrome/answer/1342714?hl=en)&quot;in der Chrome-Hilfe von Google.
+Siehe „[Diese Seite enthält nicht sichere Inhalte](https://support.google.com/chrome/answer/1342714?hl=de)“ in der Google Chrome-Hilfe.
 
 Wenn Sie VEC mit der neuesten Version von Chrome verwenden (Version 79.0.3945.117 oder höher), müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 
-1. Klicken Sie auf das Sperrsymbol (Vorsicht) und dann auf **[!UICONTROL Site-Einstellungen]**.
+1. Klicken Sie auf das Schlosssymbol (Achtung) und dann auf **[!UICONTROL Site-Einstellungen]**.
 
    ![Site-Einstellungen](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Scrollen Sie zu **[!UICONTROL Unsicherer Inhalt]** verwenden, dann verwenden Sie die Dropdownliste, um &quot;Block (Standard)&quot;in &quot;Zulassen&quot;zu ändern.
+1. Scrollen Sie zu **[!UICONTROL Nicht sicherer Inhalt]** und ändern Sie dann in der Dropdown-Liste „Sperren (Standard)“ in „Zulassen“.
 
-   ![Unsicherer Inhalt](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
+   ![Nicht sicherer Inhalt](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
 1. Laden Sie die VEC-Seite neu.
 
-## Zulassen von gemischten Inhalten in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Zulassen von gemischtem Inhalt in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-Firefox blockiert standardmäßig Seiten, auf denen sicherer und unsicherer Inhalt gemischt ist. Es wird empfohlen, zur Verwendung von [!DNL Target] diese Einstellung dauerhaft zu ändern. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
+Firefox blockiert standardmäßig Seiten, auf denen sicherer gemeinsam mit nicht sicherem Inhalt vorhanden ist. Es wird empfohlen, zur Verwendung von [!DNL Target] diese Einstellung dauerhaft zu ändern. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 
 1. Geben Sie in Firefox `about:config` in die Adressleiste ein.
 1. Quittieren Sie die in Firefox angezeigte Warnmeldung.
@@ -62,7 +62,7 @@ Firefox blockiert standardmäßig Seiten, auf denen sicherer und unsicherer Inha
 
 1. Geben Sie in die Suchleiste `block_active` ein.
 
-   ![Firefox-Einstellung &quot;block_active&quot;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+   ![Firefox-Einstellung „block_active“](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
 1. Doppelklicken Sie auf ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
@@ -74,16 +74,16 @@ Starten Sie den Computer nach Änderung dieser Einstellung neu.
 
 ## Zulassen von gemischtem Inhalt in Microsoft Edge
 
-Wenn Sie eine Site über eine sichere Verbindung besuchen, verifiziert Edge, dass der Inhalt auf der Webseite sicher übertragen wurde.
+Wenn Sie eine Seite über eine sichere Verbindung besuchen, verifiziert Edge, dass der Inhalt auf der Web-Seite sicher übermittelt wurde.
 
 Wenn Sie VEC mit der neuesten Version von Edge verwenden, müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 
-1. Klicken Sie auf das Sperrsymbol (Vorsicht) und dann auf **[!UICONTROL Site-Berechtigungen]**.
+1. Klicken Sie auf das Schlosssymbol (Achtung) und dann auf **[!UICONTROL Site-Berechtigungen]**.
 
    ![Site-Berechtigungen in Microsoft Edge](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
-1. Scrollen Sie zu **[!UICONTROL Unsicherer Inhalt]** verwenden und dann die Dropdown-Liste verwenden, um &quot;Block (Standard)&quot;in &quot;Allow&quot;zu ändern.
+1. Scrollen Sie zu **[!UICONTROL Nicht sicherer Inhalt]** und ändern Sie dann in der Dropdown-Liste „Sperren (Standard)“ in „Zulassen“.
 
-   ![Unsicherer Inhalt](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
+   ![Nicht sicherer Inhalt](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
 
 1. Laden Sie die VEC-Seite neu.
