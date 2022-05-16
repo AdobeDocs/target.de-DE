@@ -1,11 +1,11 @@
 ---
-keywords: Adobe Target; Target; Dokumentation; API; APIs; SDK; SDKs; Tutorials; Dokumentation
+keywords: Adobe Target;Target;Dokumentation;API;APIs;SDK;SDKs;Tutorials;Dokumentation
 description: Zugriff auf die Adobe  [!DNL Target] -Dokumentation, einschließlich Online-Hilfe, Tutorials, Videos und Entwicklerdokumentation (SDKs, APIs und JavaScript-Bibliotheken).
 title: Wo finde ich Dokumentation zu Target?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Im Folgenden finden Sie eine kurze Beschreibung der häufigsten Dokumentationsty
 
 | Dokumentationstyp | Beschreibung |
 | --- | --- |
-| [Adobe Target-Produktdokumentation](/help/main/target-home.md)<br> (dieses Handbuch) | Übersichtsinformationen, schrittweise Anleitungen und Screenshots mit Fokus auf die Interaktion mit [!DNL Target] über die Benutzeroberfläche. In diesem Handbuch werden alle verfügbaren Aktionen und Optionen einschließlich der zu vermeidenden „Gotchas“ erläutert. Dies ist die detaillierteste Ressource für die Arbeit mit der [!DNL Target]-Benutzeroberfläche. |
+| [Adobe Target-Produktdokumentation](/help/main/target-home.md)<br>(dieses Handbuch) | Übersichtsinformationen, schrittweise Anleitungen und Screenshots mit Fokus auf die Interaktion mit [!DNL Target] über die Benutzeroberfläche. In diesem Handbuch werden alle verfügbaren Aktionen und Optionen einschließlich der zu vermeidenden „Gotchas“ erläutert. Dies ist die detaillierteste Ressource für die Arbeit mit der [!DNL Target]-Benutzeroberfläche. |
 | [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=de) | Videos und Tutorials, in denen Sie die vielen Komponenten von [!DNL Target] kennenlernen. |
 | [Adobe Experience League Target-Inhaltsbibliothek](https://guided.adobe.com/#recommended/solutions/target) | Eine Sammlung von Videoanleitungen und Tutorials insbesondere für die Funktionen von [!DNL Target] auf der [!DNL Adobe Target Experience League]-Seite. |
 | [Dokumentation zu Adobe Experience Platform – Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Informationen zur Implementierung von [!DNL Target] unter Verwendung von Tags in [!DNL Adobe Experience Platform], die Tag-Management-Plattform der nächsten Generation von [!DNL Adobe]. Dies ist die empfohlene Methode zur Implementierung von [!DNL Target]. |
