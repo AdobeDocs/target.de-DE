@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 41db493ad71a2e0909346f81b897d2b1db631116
+source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '463'
+ht-degree: 30%
 
 ---
 
@@ -37,7 +37,6 @@ Diese Version enthält die folgenden Verbesserungen und Fehlerbehebungen:
 * Fehlerkorrektur - Kunden können jetzt doppelte Zielgruppen erstellen, die sich jedoch in verschiedenen Arbeitsbereichen befinden. (TGT-43423)
 * Es wurde ein Fehler behoben, der verhinderte, dass Kunden Orte löschen konnten, die Ad-hoc-Angebote in Aktivitäten enthielten, die in der [!UICONTROL Form-Based Experience Composer]. (TGT-43315)
 * Es wurde ein Problem behoben, das Kunden daran hinderte, auf Code-Angebote zuzugreifen, nachdem sie auf Bildangebote geklickt und dann die Benutzeroberfläche aktualisiert haben. (TGT-43566)
-* Sicherstellen, dass die Liste der Metriken im [!DNL Target] Benutzeroberfläche beim Erstellen von Aktivitäten, die [!DNL Analytics for Target] (A4T) zeigt nur die Metriken an, die von [!DNL Adobe Analytics]. (TGT-43294)
 * Es wurde ein Problem behoben, bei dem Änderungen an Profilskripten zum ursprünglichen, nicht bearbeiteten Skript zurückkehrten, nachdem das Skript bearbeitet, aktiviert und dann deaktiviert wurde. Das Profilskript verbleibt jetzt im bearbeiteten Status. (TGT-43249)
 * Es wurde ein Problem behoben, das den folgenden Fehler verursachte, wenn versucht wurde, eine Zielgruppe in einen anderen Arbeitsbereich zu verschieben: &quot;Wir können Ihre Anfrage nicht abschließen. Wenden Sie sich an den Kundendienst von Adobe , wenn das Problem weiterhin besteht.&quot; (TGT-43212)
 * Fehlerkorrektur - beim Klonen von Änderungen an benutzerdefiniertem Code für Einzelseiten-Apps (SPA) tritt kein Fehler mehr auf. (TGT-43137)
