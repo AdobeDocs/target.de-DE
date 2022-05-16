@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;Suchmaschinenoptimierung;seo;Edge-Cluster;zentrale Cluster;at.js;mbox.js;
-description: Erfahren Sie, wie Adobe [!DNL Target] Werke, einschließlich Informationen über [!DNL Target] JavaScript-Bibliotheken (at.js und Experience Platform Web SDK), Adobe Data Center und SEO-Tests.
+description: Erfahren Sie, wie Adobe  [!DNL Target]  funktioniert. Sie erhalten hier auch Informationen zu den JavaScript-Bibliotheken von  [!DNL Target]  (at.js und Experience Platform Web SDK), zu den Rechenzentren von Adobe und zu Tests für die Suchmaschinenoptimierung (SEO).
 title: Wie funktioniert  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2536'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Erfahren Sie, wie [!DNL Adobe Target] funktioniert. Sie erhalten hier auch Infor
 [!DNL Target] integriert sich mithilfe des [!DNL Experience Platform Web SDK] oder der JavaScript-Bibliotheken von Target mit Websites:
 
 * **Adobe Experience Platform Web SDK:** Das [Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) ist eine neue Client-seitige JavaScript-Bibliothek. Mit dem Experience Platform Web SDK können [!DNL Adobe Experience Cloud]-Kunden über das [!DNL Experience Platform]-Edge-Netzwerk mit den verschiedenen Services der [!DNL Experience Cloud] (einschließlich [!DNL Target]) interagieren. Adobe empfiehlt allen neuen [!DNL Target]-Kunden, das [!DNL Experience Platform Web SDK] zu implementieren.
-* **at.js:** Die at.js-Bibliothek ist eine Implementierungsbibliothek für [!DNL Target]. Die at.js-Bibliothek sorgt für kürzere Seitenladezeiten bei Webimplementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. At.js wird häufig durch neue Funktionen erweitert. Adobe empfiehlt allen Kunden, die at.js verwenden, ihre Implementierungen stets auf die [aktuellste Version von at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu aktualisieren.
+* **at.js:** Die at.js-Bibliothek ist eine Implementierungsbibliothek für [!DNL Target]. Die at.js-Bibliothek sorgt für kürzere Seitenladezeiten bei Web-Implementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. At.js wird häufig durch neue Funktionen erweitert. Adobe empfiehlt allen Kunden, die at.js verwenden, ihre Implementierungen stets auf die [aktuellste Version von at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu aktualisieren.
 * **mbox.js:** Die mbox.js-Bibliothek ist eine veraltete Implementierungsbibliothek für [!DNL Target]. Die mbox.js-Bibliothek wird nach dem 31. März 2021 nicht mehr unterstützt.
 
 Das [!DNL Experience Platform Web SDK] oder at.js muss auf jeder Seite Ihrer Site referenziert werden. Beispielsweise können Sie eine dieser Bibliotheken Ihrer globalen Kopfzeile hinzufügen. Alternativ können Sie [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) verwenden, um [!DNL Target] zu implementieren.
@@ -28,7 +28,7 @@ Das [!DNL Experience Platform Web SDK] oder at.js muss auf jeder Seite Ihrer Sit
 Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung des Experience Platform Web SDK oder der JavaScript-Bibliothek at.js:
 
 * [Adobe Experience Platform Web SDK-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=de)
-* [Implementieren von [!DNL Target] mit Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implementieren von  [!DNL Target]  mit Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Bei jeder Besucheranforderung einer Seite, die für [!DNL Target] optimiert wurde, wird eine Anforderung an das Targeting-System gesendet. Die Anforderung hilft bei der Bestimmung der Inhalte, die für diesen Besucher bereitgestellt werden sollen. Dieser Prozess erfolgt in Echtzeit. Jedes Mal, wenn eine Seite geladen wird, wird eine Inhaltsanforderung gesendet, die vom System verarbeitet wird. Der Inhalt wird durch die vom Marketingspezialisten kontrollierten Aktivitäten und Erlebnisse geregelt und auf den einzelnen Besucher der Site zugeschnitten. Es werden Inhalte bereitgestellt, auf die der Site-Besucher mit hoher Wahrscheinlichkeit reagieren und mit ihnen interagieren wird und auf deren Grundlage er sich letztlich auch für einen Kauf entscheiden wird. Personalisierte Inhalte tragen dazu bei, die Antwort- und Kaufraten zu steigern und die Umsätze zu maximieren.
 
