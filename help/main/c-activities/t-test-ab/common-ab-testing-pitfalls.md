@@ -1,21 +1,21 @@
 ---
-keywords: AB;A/B;AB...n; Fehler; Fallstricke; Fehler; Fallstricke; Bedeutung; Signifikanz; Gewinner; statistischer Unterschied; statistische Leistung; Traffic-Zuordnung; Zuordnung;
-description: Erfahren Sie, wie Sie die häufigsten Fallstricke und Fehler vermeiden, die Unternehmen bei der Durchführung von A/B-Tests in Adobe machen. [!DNL Target] und anderen Testlösungen.
+keywords: AB;A/B;AB...n;Fehler;Tücken;Probleme;Bedeutung;Signifikanz;Gewinner;statistischer Unterschied;statistische Leistung;Traffic-Zuordnung;Zuordnung;
+description: Erfahren Sie, wie Sie die häufigsten Fehler vermeiden, die Unternehmen bei der Durchführung von A/B-Tests in Adobe  [!DNL Target]  machen, sowie wie sonstige Testlösungen aussehen könnten.
 title: Wie vermeide ich häufige Fehler beim A/B-Test?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3884'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Zehn häufige Fehler bei A/B-Tests und wie diese vermieden werden
 
-A/B-Tests in [!DNL Adobe Target] bildet das Rückgrat der meisten Digital Marketing Optimierungsprogramme und hilft Marketern, ihren Besuchern und Kunden optimierte und zielgerichtete Erlebnisse anzubieten. In diesem Abschnitt werden zehn der größten Fallstricke beschrieben, denen Unternehmen bei A/B-Tests ausgesetzt sind. Er bietet außerdem Wege zur Vermeidung dieser Fehler. So steigert Ihr Unternehmen die Investitionsrendite seiner Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
+A/B-Tests in [!DNL Adobe Target] bilden das Rückgrat der meisten Programme zur Optimierung des digitalen Marketings. Marketing-Experten können ihren Besuchern und Kunden damit optimierte und zielgerichtete Erlebnisse bereitstellen. In diesem Abschnitt werden zehn der schwerwiegendsten Fehler beschrieben, die Unternehmen beim Durchführen von A/B-Tests unterlaufen. Darüber hinaus werden Methoden zur Vermeidung dieser Fehler erläutert. So steigert Ihr Unternehmen den ROI durch Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
 
-## Fehler 1: Nichtberücksichtigung der Auswirkungen des Signifikanzniveaus {#section_55F5577A13C6470BA1417C2B735C6B1D}
+## Fehler Nr. 1: Die Auswirkungen des Signifikanzniveaus werden nicht berücksichtigt {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
 Wie wahrscheinlich ist es, dass Ihr Test einen signifikanten Unterschied der Konversionsrate zweier Angebote ergibt, wenn dieser tatsächlich nicht vorhanden ist? Diese Information liefert das *Signifikanzniveau* eines Tests. Solche irreführenden Ergebnisse werden oft als „falsch positiv“ bezeichnet und in der Welt der Statistik „Fehler 1. Art“ genannt (wenn Sie die in der Tat korrekte Nullhypothese fälschlicherweise zurückweisen).
 
@@ -55,7 +55,7 @@ Es gibt jedoch zwei Situationen, in denen es sich lohnt, sehr genau auf das Konf
 
    Wenn die Bonferroni-Korrektur auf das obige Beispiel angewendet wird, verwenden Sie ein Signifikanzniveau von 5 % / 4 = 1,25 %, was einem Konfidenzniveau von 98,75 % für einen einzelnen Test entspricht (100 % - 1,25 % = 98,75 %). Durch diese Anpassung wird das effektive Konfidenzniveau bei 95 % gehalten, wenn Sie, wie in unserem Beispiel, vier Tests durchführen.
 
-## Fehler 2: Festlegen der Gewinner mehrerer Angebotstests ohne statistisch signifikanten Unterschied {#section_FA83977C71DB4F69B3D438AF850EF3B6}
+## Fehler Nr. 2: Gewinner von Tests mehrerer Angebote werden bestimmt, obwohl kein statistisch signifikanter Unterschied vorhanden ist {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
 Beim Testen mehrerer Angebote erklären Marketingexperten häufig das Angebot mit der höchsten Steigerung zum Gewinner des Tests, obwohl es keinen statistisch signifikanten Unterschied zwischen dem Gewinner und dem Zweitplatzierten gibt. Diese Situation tritt auf, wenn der Unterschied zwischen den Alternativen kleiner ist als der Unterschied zwischen den Alternativen und dem Kontrollelement. Die folgende Abbildung zeigt dieses Konzept, wobei die schwarzen Fehlerbalken Konfidenzintervalle mit 95 % Steigerung darstellen. Die tatsächliche Steigerung der einzelnen Angebote relativ zum Kontrollangebot liegt mit einer Wahrscheinlichkeit von 95 % innerhalb des Konfidenzintervalls - dem durch die Fehlerbalken angezeigten Bereich.
 
@@ -67,9 +67,9 @@ Im Grunde sollten hier beide Angebote, A und B, als Gewinner des Tests angesehen
 
 Es ist in der Regel nicht umsetzbar, den Test lang genug auszuführen, um die wahre relative Leistung der Alternativen zu erkennen, und häufig ist der Leistungsunterschied zwischen den Alternativen zu gering, um sich substantiell auf die Konversionsrate auszuwirken. In solchen Fällen können Sie das Ergebnis als ein Unentschieden interpretieren und anhand anderer Überlegungen, wie die Strategie oder die Ausrichtung an anderen Elementen der Seite, bestimmen, welches Angebot implementiert wird. Bei mehreren Tests müssen Sie mehr als einen Gewinner akzeptieren, was Ihnen in manchen Fällen beachtliche Möglichkeiten für die Entwicklungsrichtung Ihrer Website eröffnet.
 
-Beachten Sie, dass Sie, wenn Sie das Angebot mit der höchsten Konversionsrate ermitteln möchten, jedes Angebot mit jedem anderen vergleichen. Im obigen Beispiel haben Sie n = 5 Angebote. Sie benötigen also n * (n-1) / 2 Vergleiche, d. h. 5 * (5-1) / 2 = 10 Vergleiche. In diesem Fall erfordert die Bonferroni-Korrektur ein Signifikanzniveau des Tests von 5 % / 10 = 0,5 %, was einem Konfidenzniveau von 99,5 % entspricht. Für ein so hohes Konfidenzniveau kann es jedoch erforderlich sein, dass der Test über einen zu langen Zeitraum laufen muss.
+Beachten Sie, dass Sie, wenn Sie das Angebot mit der höchsten Konversionsrate ermitteln möchten, jedes Angebot mit jedem anderen vergleichen. Im obigen Beispiel haben Sie n = 5 Angebote. Sie benötigen also n(n-1) / 2 Vergleiche, d. h. 5 &#42; (5-1) / 2 = 10 Vergleiche. In diesem Fall erfordert die Bonferroni-Korrektur ein Signifikanzniveau des Tests von 5 % / 10 = 0,5 %, was einem Konfidenzniveau von 99,5 % entspricht. Für ein so hohes Konfidenzniveau kann es jedoch erforderlich sein, dass der Test über einen zu langen Zeitraum laufen muss.
 
-## Fehler 3: Nichtberücksichtigung der Auswirkungen der statistischen Leistungsfähigkeit {#section_0D517079B7D547CCAA75F80981CBE12A}
+## Fehler Nr. 3: Auswirkungen der Teststärke werden nicht berücksichtigt {#section_0D517079B7D547CCAA75F80981CBE12A}
 
 Die Teststärke ist die Wahrscheinlichkeit, dass ein Test einen realen Unterschied zwischen den Konversionsraten von Angeboten erkennt. Aufgrund der zufälligen - auch als „stochastisch“ bezeichneten - Natur von Konversionsereignissen, kann es vorkommen, dass ein Test keinen statistisch signifikanten Unterschied zeigt, obwohl langfristig ein realer Unterschied der Konversionsrate zweier Angebote vorhanden ist. Sie können es Pech oder Zufall nennen. Wenn ein realer Unterschied der Konversionsrate nicht erkannt wird, wird dies als falsch-negatives Ergebnis oder als Fehler der 2. Art bezeichnet.
 
@@ -81,7 +81,7 @@ Die Marketingexperten von heute erzielen aus einer beachtlichen Anzahl an Tests 
 
 Damit Ihre Tests die gewünschte Leistung bringen, beachten Sie, dass zu einem gängigen Standard für einen leistungsstarken Test ein Konfidenzniveau von 95 % und eine Teststärke von 80 % gehören. Ein solcher Test bietet eine Wahrscheinlichkeit von 95 %, dass es nicht zu falsch-positiven Ergebnissen kommt, und eine Wahrscheinlichkeit von 80 %, dass falsch-negative Ergebnisse ausbleiben.
 
-## Schritt 4: Verwendung von einseitigen Tests {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Schritt 4. Verwendung von einseitigen Tests {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 Bei einseitigen Tests wird ein kleinerer beobachteter Unterschied der Konversionsraten von Angeboten benötigt, um einen Gewinner für ein bestimmtes Signifikanzniveau zu bestimmen. Dies erscheint verlockend, da Gewinner schneller und häufiger als mit zweiseitigen Tests bestimmt werden können. Aber alles hat seinen Preis, auch einseitige Tests.
 
@@ -89,7 +89,7 @@ In einem einseitigen Test wird getestet, ob Angebot B besser ist als Angebot A. 
 
 Sie können einen einseitigen Test so betrachten, dass Sie einen Antrag in einem Prozess einem Richter vorlegen, der bereits ein Urteil gefällt hat. In einem einseitigen Test haben Sie bereits entschieden, welches Angebot gewinnen wird, und weisen dies jetzt nach, anstatt allen Erlebnissen die gleiche Chance zu geben, zum Gewinner zu werden. Einseitige Tests sollten nur in seltenen Situationen verwendet werden, in denen Sie sich ausschließlich dafür interessieren, ob ein Angebot besser als das andere ist und nicht umgekehrt. Um das Problem des einseitigen Tests zu vermeiden, sollten Sie eine A/B-Test-Lösung nutzen, die immer zweiseitige Tests nutzt, z. B. [!DNL Adobe Target].
 
-## Fehler 5: Überwachungstests {#section_EA42F8D5967B439284D863C46706A1BA}
+## Fehler Nr. 5: Überwachen von Tests {#section_EA42F8D5967B439284D863C46706A1BA}
 
 Marketingexperten überwachen häufig A/B-Tests bis der Test ein signifikantes Ergebnis ermittelt hat. Warum weitertesten, wenn die statistische Bedeutung erreicht wurde?
 
@@ -103,7 +103,7 @@ Um zu verstehen, warum dies passiert, müssen wir die verschiedenen Aktionen ber
 
 Zur Vermeidung dieses Problems sollten Sie einen angemessenen Testzeitraum festlegen, bevor Sie den Test starten. Es ist gut, die Testergebnisse während des Tests im Auge zu behalten, um sicherzustellen, dass der Test korrekt implementiert wurde. Ziehen Sie daraus jedoch keine Schlussfolgerungen und stoppen Sie den Test nicht, bevor die erforderliche Anzahl von Besuchern erreicht wurde. Mit anderen Worten: Nicht gucken!
 
-## Fehler 6: Vorzeitiges Beenden von Tests {#section_DF01A97275E44CA5859D825E0DE2F49F}
+## Fehler Nr. 6. Vorzeitiges Beenden von Tests {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
 Es ist verlockend, einen Test zu stoppen, wenn eines der Angebote in den ersten Tagen des Tests viel besser oder schlechter abschneidet als die anderen. Wenn jedoch die Anzahl der Beobachtungen gering ist, dann ist die Wahrscheinlichkeit hoch, dass eine positive oder negative Steigerung zufällig beobachtet wurde, da die Konversionsrate als Durchschnitt einer geringen Besucherzahl ermittelt wurde. Wenn der Test mehr Datenpunkte erfasst, nähern sich die Konversionsraten ihren eigentlichen langfristigen Werten an.
 
@@ -115,21 +115,21 @@ Dieses Phänomen wird als Regression zum Mittelwert bezeichnet und kann zu Entt�
 
 Wie bei den Problemen mit der Überwachung Ihres Tests ist es auch hier am besten, wenn Sie eine angemessene Anzahl Besucher ermitteln, bevor Sie den Test durchführen, und den Test dann laufen lassen, bis dieser Anzahl Besucher die Angebote bereitgestellt wurden.
 
-## Fehler 7: Ändern der Traffic-Zuordnung während des Testzeitraums {#allocation}
+## Fehler Nr. 7: Die Traffic-Zuordnung wird während des Testzeitraums verändert {#allocation}
 
-Wir empfehlen, die Traffic-Zuordnungsprozentsätze während des Testzeitraums nicht zu ändern, da dies Ihre Testergebnisse verfälschen kann, bis sich die Daten normalisieren.
-Angenommen, Sie verfügen über eine A/B-Test -Aktivität, in der 80 % des Traffics Erlebnis A (Kontrolle) und 20 % des Traffics Erlebnis B zugeordnet sind. Während des Testzeitraums ändern Sie die Zuordnung für jedes Erlebnis auf 50 %. Einige Tage später ändern Sie die Traffic-Zuordnung in Erlebnis B auf 100 %.
+Wir empfehlen, die prozentuale Traffic-Zuordnung während des Testzeitraums nicht zu ändern, da dies Ihre Testergebnisse verfälschen kann, bis sich die Daten normalisieren.
+Angenommen, Sie verfügen über eine A/B-Test-Aktivität, in der 80 % des Traffics Erlebnis A (Kontrolle) und 20 % des Traffics Erlebnis B zugeschrieben wird. Während des Testzeitraums ändern Sie die Zuordnung für jedes Erlebnis auf 50 %. Einige Tage später ändern Sie die Traffic-Zuordnung und schreiben Erlebnis B 100 % zu.
 
-Wie werden in diesem Szenario Erlebnisse Benutzern zugewiesen?
+Wie werden in diesem Szenario Benutzern Erlebnisse zugeschrieben?
 
-Wenn Sie die Zuordnungsaufteilung für Erlebnis B manuell auf 100 % ändern, verbleiben Besucher, die ursprünglich Erlebnis A (Kontrolle) zugewiesen waren, im ursprünglich zugewiesenen Erlebnis A (Erlebnis A). Die Änderung bei der Traffic-Zuordnung betrifft nur Neueinsteiger.
+Wenn Sie die Zuordnungsaufteilung für Erlebnis B manuell auf 100 % ändern, bleiben Besucher, die ursprünglich Erlebnis A (Kontrolle) zugewiesen waren, im ursprünglich zugewiesenen Erlebnis A (Erlebnis A). Die Änderung bei der Traffic-Zuordnung betrifft nur neue Besucher.
 
-Wenn Sie die Prozentsätze ändern oder den Besucherfluss in die einzelnen Erlebnisse erheblich beeinflussen möchten, empfehlen wir, eine neue Aktivität zu erstellen oder die Aktivität zu kopieren und dann die Traffic-Zuordnungsprozentsätze zu bearbeiten.
+Wenn Sie die Prozentsätze ändern oder den Besucherfluss zu den einzelnen Erlebnissen erheblich verändern möchten, empfehlen wir, eine neue Aktivität zu erstellen oder die Aktivität zu kopieren und dann die Traffic-Zuordnungsprozentsätze zu bearbeiten.
 
 Wenn Sie die Prozentsätze für verschiedene Erlebnisse während des Testzeitraums ändern, dauert es einige Tage, bis sich die Daten normalisieren, insbesondere wenn viele Käufer wiederkehrende Besucher sind.
-Wenn die Traffic-Zuordnung Ihres A/B-Tests beispielsweise auf 50/50 aufgeteilt ist und Sie dann die Aufteilung auf 80/20 ändern, können die Ergebnisse in den ersten Tagen nach dieser Änderung verfälscht aussehen. Wenn die durchschnittliche Konversionsdauer hoch ist, d. h. es mehrere Stunden oder sogar Tage dauert, bis ein Kauf getätigt wird, können sich diese verzögerten Konversionen auf Ihre Berichte auswirken. In dem ersten Erlebnis, bei dem die Zahl von 50 % auf 80 % stieg und die durchschnittliche Konversionsdauer zwei Tage beträgt, konvertieren am ersten Tag des Tests nur Besucher aus 50 % der Population, obwohl heute 80 % der Population in das Erlebnis eintreten. Dadurch sieht es so aus, als wäre die Konversionsrate gefallen, aber sie wird sich wieder normalisieren, nachdem die Konversion dieser 80 % der Besucher zwei Tage gedauert hat.
+Ein anderes Beispiel: Wenn die Traffic-Zuordnung Ihres A/B-Tests im Verhältnis 50/50 aufgeteilt ist und Sie die Aufteilung in 80/20 ändern, können die Ergebnisse in den ersten Tagen verzerrt sein. Wenn die durchschnittliche Konversionsdauer hoch ist, d. h. die Durchführung eines Kaufs mehrere Stunden oder sogar Tage in Anspruch nehmen kann, können sich diese verzögerten Konversionen auf die Berichte auswirken. Daher werden für das erste Erlebnis, bei dem der Wert von 50 % in 80 % geändert wurde und die durchschnittliche Konversionszeit 2 Tage beträgt, am ersten Tag des Tests nur Besucher von 50 % der Zielgruppe einkaufen, obwohl an dem Tag 80 % der Zielgruppe das Erlebnis aufrufen. Daher scheint es so, als wäre die Konversionsrate stark gesunken, doch normalisiert sich dies wieder, wenn die 80 % der Besucher nach 2 Tagen einen Kauf getätigt haben.
 
-## Fehler 8: Nichtberücksichtigung von Neuigkeitseffekten {#section_90F0D24C40294A8F801B1A6D6DEF9003}
+## Fehler Nr. 8: Der Neuigkeitseffekt wird nicht berücksichtigt {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
 Wenn ein Test nicht ausreichend lange läuft, können weitere unerwartete Effekte auftreten. Diesmal handelt es sich nicht um ein statistisches Problem, sondern um eine einfache Reaktion der Besucher auf eine Änderung. Wenn Sie einen bewährten Teil Ihrer Website ändern, kann es passieren, dass zurückkehrende Besucher anfangs weniger umfangreich mit dem neuen Angebot interagieren, weil die üblichen Abläufe geändert wurden. Dies kann dazu führen, dass ein sehr gutes neues Angebot so lange eine weniger gute Leistung bringt, bis sich die zurückkehrenden Besucher damit vertraut gemacht haben. Im Hinblick auf die langfristigen Steigerungen, die ein sehr gutes Angebot liefern wird, ist dies ein kleiner Preis.
 
@@ -137,7 +137,7 @@ Um festzustellen, ob das neue Angebot aufgrund eines Neuigkeitseffekts leistungs
 
 Der Neuigkeitseffekt kann auch umgekehrt wirken. Besucher reagieren häufig positiv auf eine Änderungen, nur weil diese etwas Neues bringt. Nach einer Weile, wenn der neue Inhalt auf die Besucher alt und weniger spannend wirkt, geht die Konversionsrate zurück. Dieser Effekt lässt sich schwerer identifizieren, kann aber durch eine sorgfältige Überwachung der Änderungen der Konversionsrate erkannt werden.
 
-## Fehler 9: Keine Berücksichtigung von Unterschieden im Bezugszeitraum {#section_B166731B5BEE4E578816E351ECDEA992}
+## Fehler Nr. 9: Es werden keine Unterschiede im Betrachtungszeitraum berücksichtigt {#section_B166731B5BEE4E578816E351ECDEA992}
 
 Der Betrachtungszeitraum ist der Zeitraum ab dem die A/B-Test-Lösung ein Angebot einem Besucher präsentiert bis zu dessen Konversion durch den Besucher. Dieser kann bei Angeboten wichtig sein, die sich erheblich auf den Betrachtungszeitraum auswirken, z. B. Angebote mit einem Stichtag, also zeitlich befristete Angebote.
 
@@ -149,7 +149,7 @@ Die folgende Abbildung zeigt zwei Angebote, die zwei unterschiedliche Besucher a
 
 Um dieses Problem zu vermeiden, müssen Sie Besuchern, die das Angebot gesehen haben, ausreichend Zeit für die Konversion lassen, bevor Sie den Test beenden. So erhalten Sie einen fairen Vergleich der Angebote.
 
-## Fehler 10: Verwenden von Metriken, die keine Geschäftsziele widerspiegeln {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
+## Fehler Nr. 10: Es werden Metriken verwendet, die keine Geschäftsziele abbilden {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
 Marketingexperten sind möglicherweise versucht, im oberen Trichter Konversionsmetriken mit hohem Traffic und geringer Varianz zu verwenden, wie die Clickthrough-Rate (CTR), um schneller eine passende Anzahl von Testkonversionen zu erzielen. Sie müssen sich jedoch sorgfältig überlegen, ob die CTR eine angemessene Vertreterin für dass Geschäftsziel ist, das Sie erreichen möchten. Angebote mit höheren CTRs können leicht zu geringerem Umsatz führen. Dies kann passieren, wenn Angebote Besucher mit geringerer Kaufneigung anziehen oder wenn das Angebot als solches zu geringerem Umsatz führt, weil es z. B. rabattiert ist.
 
@@ -161,7 +161,7 @@ Sehen Sie sich das folgende Beispiel an. Das Skiangebot generiert eine viel höh
 
 Um dieses Problem zu vermeiden, müssen Sie Ihre Geschäftsmetriken sorgfältig überwachen, um die Auswirkungen von Angeboten zu erkennen, oder besser noch möglichst eine Metrik verwenden, die näher an Ihren Geschäftszielen liegt.
 
-## Schlussfolgerung: Erfolg mit A/B-Tests durch Erkennung und Umgehung der Fallstricke {#section_54D33248163A481EBD4421A786FE2B15}
+## Fazit: Erfolgreiche A/B-Tests durch Erkennen und Umgehen der Fehler {#section_54D33248163A481EBD4421A786FE2B15}
 
 Nachdem Sie jetzt die gängigen Fallstricke der A/B-Tests kennen, können Sie hoffentlich erkennen, wann und wo Sie diesen möglicherweise zum Opfer gefallen sind. Wir hoffen außerdem, dass wir Ihnen mehr Wissen zu einigen der Statistik- und Wahrscheinlichkeitskonzepten im Zusammenhang mit A/B-Tests vermitteln konnten, die sich häufig wie eine Domain für Mathematiker anfühlen.
 
