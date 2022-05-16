@@ -1,11 +1,11 @@
 ---
-keywords: Anleitung für Aktivitäten; Aktivitäten; Aktivität; Aktivitätstypen; Aktivitätsaktionen
+keywords: Anleitung für Aktivitäten;Aktivitäten;Aktivität;Aktivitätstypen;Aktivitätsaktionen
 description: Laden Sie eine interaktive PDF-Datei herunter, in der die verschiedenen Aktivitätstypen in Adobe Target beschrieben werden.
 title: Welche Aktivitätstypen sind in Target verfügbar?
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1451'
 ht-degree: 100%
 
