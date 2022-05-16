@@ -1,31 +1,31 @@
 ---
-keywords: Profilskript; Profilskriptattribute; Best Practices für Profilskripte; Debugging; Skripte; Profilskripte; Attribute; Attribut; Parameter
-description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besucherprofil gespeichert sind, um Informationen darüber bereitzustellen, welche in Ihrer Adobe verwendet werden können. [!DNL Target] Aktivitäten.
+keywords: Profilskript;Profilskriptattribute;Best Practices für Profilskripte;Debugging;Skripte;Profilskripte;Attribute;Attribut;Parameter
+description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besucherprofil gespeichert sind, um Informationen bereitzustellen, die bei Ihren Adobe  [!DNL Target] -Aktivitäten verwendet werden können.
 title: Was sind Profilattribute?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 49%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Profilattribute
 
-Profilattribute in [!DNL Adobe Target] sind Parameter, die für einen Besucher spezifisch sind. Diese Attribute werden im Besucherprofil gespeichert, um Informationen über den Besucher bereitzustellen, die in den Aktivitäten verwendet werden können.
+Profilattribute in [!DNL Adobe Target] sind Parameter, die speziell für einen Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert. Sie enthalten Informationen über den Besucher, die Sie in Ihren Aktivitäten verwenden können.
 
-Ein Benutzerprofil enthält demografische und Verhaltensinformationen eines Webseitenbesuchers. Diese Informationen können Alter, Geschlecht, gekaufte Produkte, letzte Besuchszeit usw. umfassen, die [!DNL Target] verwendet , um den Inhalt zu personalisieren, der dem Besucher bereitgestellt wird.
+Ein Benutzerprofil enthält demografische und Verhaltensinformationen zu einem Website-Besucher. Zu diesen Informationen zählen Alter, Geschlecht, gekaufte Produkte, letzte Besuchszeit usw., die [!DNL Target] verwendet, um den Inhalt für den Besucher zu personalisieren.
 
-Wenn ein Besucher auf Ihrer Website surft oder zu einer anderen Sitzung zurückkehrt, können die im Profil gespeicherten Profilattribute verwendet werden, um Zielinhalte festzulegen oder Informationen zur Segmentfilterung zu protokollieren.
+Wenn ein Besucher auf Ihrer Website surft oder erneut Ihre Website aufruft, können die gespeicherten Profilattribute im Profil genutzt werden, Inhalte für ihn auszuwählen oder Informationen zur Segmentfilterung zu erfassen.
 
 So richten Sie Profilattribute ein:
 
-1. Klicken **[!UICONTROL Zielgruppen]** > **[!UICONTROL Profilskripte.]**
+1. Klicken Sie auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Profilskripte]**.
 
-   ![Registerkarte „Profilskripte“ ](/help/main/c-target/c-visitor-profile/assets/create-script.png)
+   ![Registerkarte „Profilskripte“](/help/main/c-target/c-visitor-profile/assets/create-script.png)
 
-1. Klicken **[!UICONTROL Skript erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Skript erstellen]**.
 
    ![Dialogfeld „Profilskript erstellen“](/help/main/c-target/c-visitor-profile/assets/profile-script.png)
 
@@ -33,30 +33,30 @@ So richten Sie Profilattribute ein:
 
    | Parametertyp | Beschreibung |
    |--- |--- |
-   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Hinweis:  erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. [!DNL Target] Wenn Sie mehr als 50 Profilattribute an [!DNL Target], übergeben Sie sie mit der API-Methode Profilaktualisierung . Weitere Informationen finden Sie unter [Profil-Update in [!DNL Adobe Target] API-Dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
-   | Profil | Direkt mit einem JavaScript-Codebeispiel definiert. Diese Snippets können laufende Gesamtsummen speichern, z. B. das Gesamtgeld, das der Verbraucher ausgegeben hat, und werden bei jeder Mbox-Anfrage ausgeführt. Siehe Profilskriptattribute unten. |
+   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Hinweis**: [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, verwenden Sie hierzu die API-Methode „Profil-Update“. Weitere Informationen finden Sie unter [Profil-Update in der  [!DNL Adobe Target] API-Dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
+   | Profil | Direkt mit einem JavaScript-Code-Snippet definiert. Mit diesen Snippets können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte werden bei jeder Mbox-Anfrage ausgeführt. Siehe Profilskriptattribute unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
 Definieren Sie ein Profilskriptattribut mit dem zu diesem gehörigen JavaScript-Code-Snippet.
 
-Mithilfe von Profilskripten können Sie Besucherattribute über mehrere Besuche hinweg erfassen. Profilskripte sind Code-Snippets, die in [!DNL Target] Verwendung eines Formulars von serverseitigem JavaScript. Beispielsweise können Sie mit einem Profilskript erfassen, wie oft ein Besucher Ihre Site besucht und wann dieser Besucher die Site zuletzt besucht hat.
+Mithilfe von Profilskripten können Sie Besucherattribute über mehrere Besuche hinweg erfassen. Profilskripte sind Code-Snippets, die in [!DNL Target] definiert werden und eine Art von Server-seitigem JavaScript verwenden. Beispielsweise könnten Sie ein Profilskript verwenden, um zu erfassen, wie oft ein Besucher auf Ihre Site kommt und wann der letzte Besuch dieses Besuchers stattfand.
 
-Profilskripte sind nicht das Gleiche wie Profilparameter. Profilparameter erfassen Informationen über Besucher mithilfe der Mbox-Code-Implementierung von [!DNL Target].
+Profilskripte sind nicht das Gleiche wie Profilparameter. Profilparameter zeichnen mithilfe der Implementierung des Mbox-Codes von [!DNL Target] Benutzerdaten auf.
 
 ## Profilskripte erstellen {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-Profilskripte sind in der Registerkarte [!UICONTROL Zielgruppen] in der Oberfläche von [!DNL Target] zu finden.
+Profilskripte sind in der Registerkarte [!UICONTROL Zielgruppen] in der Benutzeroberfläche von [!DNL Target] zu finden.
 
-Um ein Profilskript hinzuzufügen, klicken Sie auf das **[!UICONTROL Profilskripte]** Registerkarte, **[!UICONTROL Skript erstellen]** und schreiben Sie dann Ihr Skript.
+Um ein Profilskript hinzuzufügen, klicken Sie auf die Registerkarte **[!UICONTROL Profilskripte]** und **[!UICONTROL Skript erstellen]** und schreiben Sie dann das Skript.
 
 Oder
 
-So kopieren Sie ein vorhandenes Profilskript aus dem [!UICONTROL Profilskripte] Liste, klicken Sie auf das Auslassungssymbol für das gewünschte Skript und klicken Sie dann auf **[!UICONTROL Duplizieren]**.
+Wenn Sie ein vorhandenes Profilskript kopieren möchten, klicken Sie in der Liste [!UICONTROL Profilskripte] auf das Auslassungssymbol für das gewünschte Skript und dann auf **[!UICONTROL Duplizieren]**.
 
 Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
 
-Profilskripte führen Profilattribut-„Fänger“ bei jeder Ortsanforderung aus. Wenn eine Ortsanforderung empfangen wird, [!DNL Target] bestimmt, welche Aktivität ausgeführt werden soll, und zeigt Inhalte an, die für diese Aktivität und dieses Erlebnis geeignet sind. [!DNL Target] verfolgt auch den Erfolg der Aktivität und führt relevante Profilskripte aus. Auf diese Weise können Sie Informationen zum Besuch verfolgen, z. B. Ort, Tageszeit, Anzahl der Besuche auf der Site, frühere Käufe usw. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können.
+Profilskripte führen bei jeder Ortsanfrage Profilattribut-„Fänger“ aus. Wenn eine Ortsanfrage eingeht, bestimmt [!DNL Target], welche Aktivität ausgeführt werden soll, und zeigt Inhalte an, die für diese Aktivität und das jeweilige Erlebnis geeignet sind. [!DNL Target] verfolgt auch den Erfolg der Aktivität und führt dafür relevante Profilskripte aus. Auf diese Weise können Sie Informationen über den Besuch erfassen, z. B. Ort des Besuchers, Tageszeit und Anzahl der Besuche auf der Site, ob zuvor ein Kauf getätigt wurde usw. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können.
 
 Profilskriptattribute haben das `user.`-Tag vor dem Attributnamen eingefügt. Beispiel:
 
@@ -68,44 +68,44 @@ if (mbox.name == 'Track_Interest') {
 }
 ```
 
-Beachten Sie die folgenden Informationen:
+Berücksichtigen Sie Folgendes:
 
-* Siehe Profilskriptattribute (auch das im Code enthaltene) im Code mit `user.get('parameterName')`.
-* Speichern Sie Variablen, die beim nächsten Ausführen des Skripts (bei der nächsten Mbox-Anfrage) aufgerufen werden können, mit `user.setLocal('variable_name', 'value')`. Verweisen Sie auf die Variable mit `user.getLocal('variable_name')`. Dieser Prozess ist nützlich in Situationen, in denen Sie auf das Datum und die Uhrzeit der letzten Anfrage verweisen möchten.
+* Verweisen Sie auf Profilskriptattribute (einschließlich es selbst) im Code mit `user.get('parameterName')`.
+* Speichern Sie Variablen, die beim nächsten Ausführen des Skripts (bei der nächsten Mbox-Anfrage) aufgerufen werden können, mit `user.setLocal('variable_name', 'value')`. Verweisen Sie auf die Variable mit `user.getLocal('variable_name')`. Dies ist hilfreich in Situationen, in denen Sie einen Verweis für Datum und Uhrzeit der letzten Anfrage setzen möchten.
 
    Diese Werte bleiben wie ein Profilskript erhalten, Sie haben jedoch nur Zugriff auf sie innerhalb des Skripts, für das sie festgelegt wurden.
 
-* Bei Parametern und Werten wird zwischen Groß- und Kleinschreibung unterschieden. Prüfen Sie die Groß-/Kleinschreibung der Parameter und Werte, die Sie während der Aktivität oder dem Test erhalten.
+* Bei Parametern und Werten wird zwischen Groß- und Kleinschreibung unterschieden. Achten Sie auf die Groß- und Kleinschreibung der Parameter und Werte, die Sie während der Aktivität oder des Tests empfangen.
 * Weitere JavaScript-Syntax finden Sie im Abschnitt „JavaScript-Referenz für Skript-Profilparameter“.
-* Der Parameter bleibt im Profil, nachdem das Skript deaktiviert wurde. Benutzer, deren Profile bereits einen Parameter enthalten, der in der Audience einer Aktivität verwendet wird, qualifizieren sich für diese Aktivität.
+* Der Parameter verbleibt auch nach der Deaktivierung des Skripts im Profil. Benutzer, deren Profil bereits einen Parameter enthält, der in der Zielgruppe einer Aktivität verwendet wird, sind in dieser Aktivität qualifiziert.
 * Profilskripte können nicht gelöscht werden, während sie in einer Aktivität verwendet werden.
-* Es wird nicht empfohlen, abhängige Profilskripte zu erstellen, die das Ergebnis eines Profilskripts in einem anderen Profilskript verwenden. Die Reihenfolge der Ausführung von Profilskripten ist nicht garantiert.
+* Eine Erstellung abhängiger Profilskripte, die das Ergebnis eines Profilskripts in einem anderen Profilskript verwenden, wird nicht empfohlen. Die Reihenfolge der Ausführung von Profilskripten ist nicht garantiert.
 
 ## Anzeigen der Karten mit Profilskriptinformationen {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
 Sie können Popupkarten mit Profilskriptinformationen (ähnlich den Karten mit Angebotsinformationen) anzeigen. Auf diesen Karten mit Profilskriptinformationen können Sie die Liste der Aktivitäten, die auf das ausgewählte Profilskript verweisen, sowie weitere nützliche Metadaten anzeigen.
 
-Auf die folgende Profilskript-Informationskarte können Sie beispielsweise durch Klicken auf das [!UICONTROL Info] für das gewünschte Profilskript aus der Liste ([!UICONTROL Zielgruppen] > [!UICONTROL Profilskripte]).
+Beispielsweise kann die folgende Profilskript-Informationskarte durch Anklicken des Symbols [!UICONTROL Info] für das gewünschte Profilskript in der Liste geöffnet werden ([!UICONTROL Zielgruppen] > [!UICONTROL Profilskripte]).
 
-Die [!UICONTROL Skript-Info] -Tab enthält die folgenden Informationen: Name, Beschreibung und Skriptcode.
+Die Registerkarte [!UICONTROL Skript-Info] enthält die folgenden Informationen: Name, Beschreibung und Skript-Code.
 
 ![Informationskarte „Profilskript“](assets/profile_script_info_card.png)
 
-Klicken **[!UICONTROL Vollständige Details anzeigen]** um die Zielgruppen und Aktivitäten anzuzeigen, die auf das ausgewählte Profilskript verweisen.
+Klicken Sie auf **[!UICONTROL Vollständige Details anzeigen]**, um die Zielgruppen und Aktivitäten anzuzeigen, die auf das ausgewählte Profilskript verweisen.
 
 ![Informationskarte „Profilskript“ > Registerkarte „Skriptnutzung“](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
->Die [!UICONTROL Skriptnutzung] -Tab zeigt in den folgenden Situationen keine Aktivitäten an, die auf das ausgewählte Profilskript verweisen:
+>Auf der Registerkarte [!UICONTROL Skriptnutzung] werden in folgenden Situationen keine Aktivitäten angezeigt, die auf das ausgewählte Profilskript verweisen:
 >
-> * Die Aktivität befindet sich im [!UICONTROL Entwurf] state.
+> * Die Aktivität befindet sich im [!UICONTROL Entwurfsstatus].
 > * Die in der Aktivität verwendeten Inhalte oder Angebote verwenden Skriptvariablen (entweder ein Inline-Angebot innerhalb der Aktivität oder ein Angebot in der Angebotsbibliothek).
 
 
 ## Target deaktiviert in bestimmten Situationen Profilskripte {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-[!DNL Target] deaktiviert in bestimmten Situationen automatisch Profilskripte, z. B. wenn diese für die Ausführung zu lang sind oder über zu viele Anweisungen verfügen.
+[!DNL Target] deaktiviert in bestimmten Situationen automatisch Profilskripte, beispielsweise wenn diese für die Ausführung zu lang sind oder über zu viele Anweisungen verfügen.
 
 Wird ein Profilskript deaktiviert, erscheint in der Target-Benutzeroberfläche neben dem betroffenen Skript ein gelbes Warnsymbol, wie unten dargestellt:
 
@@ -118,34 +118,34 @@ Halten Sie den Mauszeiger darüber, werden Fehlerdetails angezeigt, wie unten da
 Typische Gründe für die Deaktivierung von Profilskripten durch das System sind unter anderem folgende:
 
 * Es wird eine nicht definierte Variable referenziert.
-* Ein ungültiger Wert wird referenziert. Dieser Fehler wird häufig durch Verweise auf URL-Werte und andere vom Benutzer eingegebene Daten ohne ordnungsgemäße Validierung verursacht.
-* Zu viele JavaScript-Anweisungen wurden verwendet. [!DNL Target] hat eine Beschränkung von 2.000 JavaScript-Anweisungen pro Skript, diese Begrenzung kann jedoch nicht einfach durch manuelles Lesen des JavaScripts berechnet werden. Rhino beispielsweise behandelt alle Funktionsaufrufe und „neuen“ Aufrufe als 100 Anweisungen. Jeder Aufruf einer Funktion nutzt 100 Anweisungen. Außerdem kann sich die Größe der eingegebenen Daten (beispielsweise der URL-Werte) auf die Anzahl der Anweisungen auswirken.
+* Ein ungültiger Wert wird referenziert. Dieser Fehler tritt häufig aufgrund des Bezugs auf URL-Werte und anderer vom Benutzer eingegebener Daten auf, die nicht ordnungsgemäß validiert wurden.
+* Zu viele JavaScript-Anweisungen wurden verwendet. [!DNL Target] erlaubt einen Maximalwert von 2.000 JavaScript-Anweisungen pro Skript. Dieser Maximalwert kann jedoch nicht einfach durch manuelles Lesen von JavaScript festgestellt werden. Rhino beispielsweise behandelt alle Funktionsaufrufe und „neuen“ Aufrufe als 100 Anweisungen. Jeder Aufruf einer Funktion verbraucht 100 Anweisungen. Außerdem kann sich die Größe der eingegebenen Daten (beispielsweise der URL-Werte) auf die Anzahl der Anweisungen auswirken.
 * Nichtbefolgen der unten beschriebenen [Best Practices](/help/main/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0).
 
-## Best Practices. {#best}
+## Best Practices {#best}
 
 Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verfassen, die möglichst fehlerfrei sind. Sie können Code schreiben, der so fehlschlägt, dass die Skripts ohne erzwungenes Beenden des Skripts durch das System verarbeitet werden. Diese Leitlinien sind das Ergebnis der Best Practices, die für eine effiziente Funktionsweise nachgewiesen wurden. Diese Richtlinien gelten neben den Grundsätzen und Empfehlungen der Rhino-Entwicklungsgemeinde.
 
-* Setzen Sie den aktuellen Skriptwert auf eine lokale Variable im Benutzerskript und legen Sie ein Failover auf eine leere Zeichenfolge fest.
+* Setzen Sie den aktuellen Skriptwert auf eine lokale Variable im Benutzerskript, und legen Sie einen Failover im leeren String fest.
 * Validieren Sie die lokale Variable, indem Sie sicherstellen, dass sie kein leerer String ist.
-* Verwenden Sie stringbasierte Manipulationsfunktionen im Vergleich zu regulären Ausdrücken.
+* Verwenden Sie die String-basierten Manipulationsfunktionen oder regulären Ausdrücke.
 * Verwenden Sie limited for- bzw. open ended for-Schleifen oder while-Schleifen.
 * Halten Sie die Vorgabe von maximal 1.300 Zeichen bzw. 50 Schleifeniterationen ein.
-* Überschreiten Sie nicht die Maximalzahl von 2.000 JavaScript-Anweisungen. [!DNL Target] hat eine Beschränkung von 2.000 JavaScript-Anweisungen pro Skript, diese Begrenzung kann jedoch nicht einfach durch manuelles Lesen des JavaScripts berechnet werden. Rhino beispielsweise behandelt alle Funktionsaufrufe und „neuen“ Aufrufe als 100 Anweisungen. Außerdem kann sich die Größe der eingegebenen Daten (beispielsweise der URL-Werte) auf die Anzahl der Anweisungen auswirken.
-* Berücksichtigen Sie nicht nur die individuelle Skriptperformance, sondern auch die Performance aller Skripte. Best Practice: [!DNL Adobe] empfiehlt insgesamt weniger als 5.000 Anweisungen. Die Anzahl der Anweisungen ist nicht offensichtlich, aber wichtig ist, dass Skripte mit mehr als 2.000 Anweisungen automatisch deaktiviert werden. Die Anzahl der aktiven Profilskripte darf 300 nicht überschreiten. Jedes Skript wird mit jedem einzelnen Mbox-Aufruf ausgeführt. Führen Sie also nur so viele Skripte aus wie nötig.
-* In einem Regex mit Punkt-Stern am Anfang (z. B.: `/.*match/`, `/a|.*b/`) wird fast nie benötigt. Die Regex-Suche beginnt auf allen Positionen in einer Zeichenfolge (außer wenn durch `^` begrenzt), sodass Punkt-Stern bereits vorausgesetzt wird. Die Skriptausführung kann unterbrochen werden, wenn ein solcher Regex mit langen Eingabedaten abgeglichen wird (kann auch mehrere hundert Zeichen lang sein).
+* Überschreiten Sie nicht die Maximalzahl von 2.000 JavaScript-Anweisungen. [!DNL Target] verfügt über einen Maximalwert von 2.000 JavaScript-Anweisungen pro Skript, dieser Maximalwert kann jedoch nicht einfach durch manuelles Lesen des JavaScript bestimmt werden. Rhino beispielsweise behandelt alle Funktionsaufrufe und „neuen“ Aufrufe als 100 Anweisungen. Außerdem kann sich die Größe der eingegebenen Daten (beispielsweise der URL-Werte) auf die Anzahl der Anweisungen auswirken.
+* Berücksichtigen Sie nicht nur die individuelle Skriptperformance, sondern auch die Performance aller Skripte. Als Best Practice empfiehlt [!DNL Adobe] insgesamt weniger als 5.000 Anweisungen. Die Anzahl der Anweisungen kann nicht einfach gezählt werden. Beachten Sie aber, dass Skripte mit einer Größe von über 2,000 Anweisungen automatisch deaktiviert werden. Die Anzahl der aktiven Profilskripte sollte 300 nicht überschreiten. Jedes Skript wird mit jedem einzelnen Mbox-Aufruf ausgeführt. Führen Sie also nur so viele Skripte aus wie nötig.
+* Bei einem Regex ist fast nie Punkt-Stern am Beginn erforderlich (z. B.: `/.*match/`, `/a|.*b/`). Die Regex-Suche beginnt auf allen Positionen in einer Zeichenfolge (außer wenn durch `^` begrenzt), sodass Punkt-Stern bereits vorausgesetzt wird. Die Skriptausführung kann unterbrochen werden, wenn ein solcher Regex mit langen Eingabedaten abgeglichen wird (kann auch mehrere hundert Zeichen lang sein).
 * Schlägt alles fehl, verpacken Sie das Skript in einer try/catch-Anweisung.
-* Die folgenden Empfehlungen helfen Ihnen dabei, die Komplexität von Profilskripten zu begrenzen. Profilskripte können eine begrenzte Anzahl von Anweisungen ausführen.
+* Die folgenden Empfehlungen sollen Ihnen helfen, die Verwendung von Profilskripten zu vereinfachen. Profilskripte können nur eine begrenzte Anzahl von Anweisungen ausführen.
 
-   Best Practice:
+   Als Best Practice gilt:
 
    * Halten Sie Profilskripte klein und so einfach wie möglich.
-   * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur einfache reguläre Ausdrücke. Sogar einfache Ausdrücke können viele Anweisungen zur Auswertung benötigen.
-   * Rekursion vermeiden.
-   * Profilskripte sollten vor dem Hinzufügen zu [!DNL Target]. Alle Profilskripte werden bei jeder Mbox-Anfrage ausgeführt. Wenn Profilskripte nicht ordnungsgemäß ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger, was sich auf Traffic und Konversion auswirken kann.
-   * Wenn Profilskripte zu komplex werden, sollten Sie [Antwort-Token](/help/main/administrating-target/response-tokens.md) anstatt.
+   * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur einfache reguläre Ausdrücke. Sogar einfache Ausdrücke können viele Anweisungen benötigen, die evaluiert werden müssen.
+   * Vermeiden Sie Rekursionen.
+   * Profilskripte sollten vor dem Hinzufügen zu [!DNL Target] getestet werden. Alle Profilskripte werden bei jeder Mbox-Anfrage ausgeführt. Wenn Profilskripte nicht ordnungsgemäß ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger, was sich auf den Traffic und die Konversion auswirken kann.
+   * Wenn Profilskripte zu komplex werden, sollten Sie stattdessen [Antwort-Token](/help/main/administrating-target/response-tokens.md) verwenden.
 
-* Weitere Informationen finden Sie in der Dokumentation zur JS Rhino Engine .
+* Weitere Informationen finden Sie in der JS Rhino Engine-Dokumentation.
 
 ## Profilskripte debuggen {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -153,23 +153,23 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 >[!NOTE]
 >
->Verwenden [!DNL console.log] in einem Profilskript gibt den Profilwert nicht aus, da Profilskripte serverseitig ausgeführt werden.
+>Die Verwendung von [!DNL console.log] in einem Profilskript gibt nicht den Profilwert aus, da Profilskripte Server-seitig ausgeführt werden.
 
-* **Fügen Sie Profilskripte als Antwort-Token zum Debuggen von Profilskripten hinzu:**
+* **Fügen Sie Profilskripte als Antwort-Token hinzu, um die Profilskripte zu debuggen:**
 
-   In [!DNL Target]klicken **[!UICONTROL Administration]** klicken **[!UICONTROL Antwort-Token]** und aktivieren Sie dann das Profilskript, das Sie debuggen möchten.
+   Klicken Sie in [!DNL Target] auf **[!UICONTROL Einstellungen]** und danach auf **[!UICONTROL Antwort-Token]** und aktivieren Sie dann das Profilskript, das Sie debuggen möchten.
 
-   Jedes Mal, wenn Sie eine Seite für Ihre Site mit [!DNL Target] darauf, Teil der Antwort von [!DNL Target] enthält Ihren Wert für das angegebene Profilskript, wie unten dargestellt:
+   Jedes Mal, wenn Sie eine Seite Ihrer Site laden, in der [!DNL Target] enthalten ist, beinhaltet die Antwort von [!DNL Target], wie unten gezeigt, Ihren Wert für das entsprechende Profilskript:
 
    ![](assets/debug_profile_script_1.png)
 
-* **Debugging-Tool mboxTrace verwenden, um Profilskripte zu debuggen.**
+* **Verwenden Sie das mboxTrace-Debugging-Tool, um Profilskripte zu debuggen:**
 
-   Diese Methode erfordert ein Autorisierungstoken, das Sie durch Klicken auf **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** > **[!UICONTROL Autorisierungstoken generieren]** im [!UICONTROL Debugger-Tools] Abschnitt.
+   Diese Methode erfordert ein Autorisierungs-Token, das Sie generieren können, indem Sie auf **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** > **[!UICONTROL Autorisierungs-Token erstellen]** im Abschnitt [!UICONTROL Debugger-Tools] klicken.
 
-   Fügen Sie dann diese beiden Parameter Ihrer Seiten-URL nach dem &quot;?&quot; hinzu: `mboxTrace=window&authorization=YOURTOKEN`.
+   Fügen Sie anschließend diese beiden Parameter Ihrer Seiten-URL nach dem „?“ hinzu: `mboxTrace=window&authorization=YOURTOKEN`.
 
-   Das Hinzufügen dieser Parameter ist ein wenig informativer als das Antwort-Token, da Sie einen vor-ausgeführten Schnappschuss und einen Nachschuss Ihres Profils erhalten. Es werden auch alle verfügbaren Profile angezeigt.
+   Durch Hinzufügen dieser Parameter erhalten Sie etwas mehr Informationen als durch das Antwort-Token, da Sie hiermit einen Snapshot Ihres Profils vor und nach der Ausführung erhalten. Darüber hinaus zeigt es alle Ihre verfügbaren Profile an.
 
    ![](assets/debug_profile_script_2.png)
 
@@ -177,17 +177,17 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 **Kann ich mit Profilskripten Informationen von einer Seite erfassen, die sich im Daten-Layer befindet?**
 
-Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere  [Verfahren für die Datenübernahme in Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) übergeben werden. Nach Eingabe der Daten in [!DNL Target]können Profilskripte die Daten als Mbox-Parameter oder Profilparameter lesen.
+Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere   [Verfahren für die Datenübernahme in Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) übergeben werden. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
 
 ## JavaScript-Referenz für Skript-Profilparameter
 
-Einfache JavaScript-Kenntnisse sind erforderlich, um Skript-Profilparameter effektiv zu verwenden. Dieser Abschnitt dient als kurze Referenz, um Sie in wenigen Minuten mit dieser Funktionalität vertraut zu machen.
+Zur effektiven Nutzung von Skript-Profilparametern sind einfache JavaScript-Kenntnisse erforderlich. Dieser Abschnitt dient als kurze Referenz, um Sie in wenigen Minuten mit dieser Funktionalität vertraut zu machen.
 
 Skript-Profilparameter befinden sich auf der Registerkarte „mboxes/profile“. Sie können Javascript-Programme schreiben, die einen beliebigen Javascript-Typ (Zeichenfolge, Ganzzahl, Array usw.) zurückgeben.
 
 ### Beispiele für Skript-Profilparameter {#examples}
 
-**Name:***user.recency*
+**Name:** *user.recency*
 
 ```
 var dayInMillis = 3600 * 24 * 1000;
@@ -200,7 +200,7 @@ if (lastPurchaseTime) {
 }
 ```
 
-Erstellt eine Variable für den Tag in Millisekunden. Wenn der Mbox-Name `orderThankyouPage`, legen Sie ein lokales (unsichtbares) Benutzerprofilattribut mit dem Namen `lastPurchaseTime` um den Wert des aktuellen Datums und der aktuellen Uhrzeit anzuzeigen. Der Wert der letzten Kaufzeit wird gelesen und, falls definiert, [!DNL Target] gibt die Zeit zurück, die seit der letzten Kaufzeit vergangen ist, dividiert durch die Anzahl der Millisekunden an einem Tag (was zur Anzahl der Tage seit dem letzten Kauf führt).
+Erstellt eine Variable für den Tag in Millisekunden. Wenn der Mbox-Name `orderThankyouPage` lautet, richten Sie ein lokales (unsichtbares) Benutzerprofilattribut mit dem Namen `lastPurchaseTime` ein, um den Wert des aktuellen Datums und der aktuellen Uhrzeit anzuzeigen. Der Wert der letzten Kaufzeit wird gelesen. Wenn definiert, gibt [!DNL Target] die Zeit zurück, die seit dem letzten Kauf vergangen ist, dividiert durch die Anzahl der Millisekunden eines Tages (was die Anzahl der Tage seit dem letzten Kauf ergibt).
 
 **Name:** *user.frequency*
 
@@ -211,9 +211,9 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Erstellt eine Variable namens `frequency`, Initialisierung auf den vorherigen Wert oder 0, wenn kein vorheriger Wert vorhanden war. Wenn der mbox-Name `orderThankyouPage` lautet, wird der inkrementierte Wert zurückgegeben.
+Erstellt eine Variable namens `frequency` und initialisiert sie entweder für den vorherigen Wert oder 0, wenn kein vorheriger Wert vorhanden ist. Wenn der mbox-Name `orderThankyouPage` lautet, wird der inkrementierte Wert zurückgegeben.
 
-**Name:***user.monetaryvalue*
+**Name:** *user.monetaryValue*
 
 ```
 var monetaryValue = user.get('monetaryValue') || 0;
@@ -235,7 +235,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Erstellt eine Variable namens `adobeQA` zur Verfolgung eines Benutzers für [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md).
+Erstellt eine Variable namens `adobeQA` zum Tracken eines Benutzers für [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md).
 
 ### Objekte und Methoden {#objects}
 
@@ -248,11 +248,11 @@ Die folgenden Objekte und Methoden können durch Skript-Profilparameter referenz
 | `page.domain` | Die aktuelle URL-Domäne (alles vor dem ersten Schrägstrich). Zum Beispiel `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
 | `page.query` | Die Abfragezeichenfolge für die aktuelle Seite. Alles nach dem „?“. Zum Beispiel `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small` |
 | `page.param(‘<par_name>’)` | Der durch `<par_name>` angegebene Wert des Parameters. Wenn Ihre aktuelle URL die Google-Suchseite ist und Sie `page.param('hl')` eingegeben haben, erhalten Sie „en“ für die URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
-| `page.referrer` | Derselbe Satz von Vorgängen wie oben gilt für Referrer und Landingpage (d. h. referrer.url ist die URL-Adresse des Referrers). |
+| `page.referrer` | Dieselben Schritte wie oben gelten für Referrer und Landingpage (d. h. referrer.url ist die URL-Adresse des Referrers). |
 | `landing.url`, `landing.protocol`, `landing.query`, und `landing.param` | Ähnlich wie die Seite, aber für die Landingpage. |
 | `mbox.name` | Der Name der aktiven Mbox. |
 | `mbox.param(‘<par_name>’)` | Ein mbox-Parameter nach dem angegebenen Namen in der aktiven Mbox. |
-| `profile.get(‘<par_name>’)` | Der vom Kunden erstellte Benutzerprofilparameter durch den Namen `<par_name>`. Wenn der Benutzer z. B. einen Profilparameter namens „Gender“ festgelegt hat, kann der Wert mit „profile.gender“ extrahiert werden. Gibt den Wert des Werts „`profile.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. Beachten Sie Folgendes: `profile.get(<par_name>)` wird als Funktionsaufruf qualifiziert. |
+| `profile.get(‘<par_name>’)` | Der vom Kunden erstellte Benutzerprofilparameter durch den Namen `<par_name>`. Wenn der Benutzer z. B. einen Profilparameter namens „Gender“ festgelegt hat, kann der Wert mit „profile.gender“ extrahiert werden. Gibt den Wert des Werts „`profile.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. Beachten Sie, dass `profile.get(<par_name>)` als Funktionsaufruf qualifiziert ist. |
 | `user.get(‘<par_name>’)` | Gibt den Wert des Werts „`user.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. |
 | `user.categoryAffinity` | Gibt den Namen der besten Kategorie zurück. |
 | `user.categoryAffinities` | Gibt ein Array mit den besten Kategorien zurück. |
@@ -262,19 +262,19 @@ Die folgenden Objekte und Methoden können durch Skript-Profilparameter referenz
 ### Allgemeine Operatoren
 
 
-Alle standardmäßigen JavaScript-Operatoren sind vorhanden und können verwendet werden. JavaScript-Operatoren können für Zeichenfolgen und Zahlen (und andere Datentypen) verwendet werden. Ein schnelles Briefing:
+Alle standardmäßigen JavaScript-Operatoren sind vorhanden und können verwendet werden. JavaScript-Operatoren können für Zeichenfolgen und Zahlen (sowie andere Datentypen) verwendet werden. Ein schnelles Briefing:
 
 | Operator | Beschreibung |
 | --- | --- |
 | `==` | Gibt Gleichheit an. Behält den Wert „true“ bei, wenn Operanden auf beiden Seiten gleich sind. |
 | `!=` | Gibt Ungleichheit an. Behält den Wert „true“ bei, wenn Operanden auf beiden Seiten nicht gleich sind. |
-| `<` | Gibt an, dass die Variable auf der linken Seite kleiner als die Variable auf der rechten Seite ist. Wird als false ausgewertet, wenn die Variablen gleich sind. |
-| `>` | Gibt an, dass die Variable auf der linken Seite größer als die Variable auf der rechten Seite ist. Wird als false ausgewertet, wenn die Variablen gleich sind. |
-| `<=` | siehe `<` außer wenn die Variablen gleich sind, wird als &quot;true&quot;ausgewertet. |
-| `>=` | siehe `>` außer wenn die Variablen gleich sind, wird als &quot;true&quot;ausgewertet. |
-| `&&` | Fügt die Ausdrücke links und rechts daneben logisch mit „ANDs“ zusammen, nur „true“, wenn beide Seiten true sind (andernfalls „false“). |
-| `||` | Fügt die Ausdrücke links und rechts daneben logisch mit „ORs“ zusammen, nur „true“, wenn beide Seiten true sind (andernfalls „false“). |
-| `//` | Prüft, ob die Quelle alle Elemente aus dem Booleschen Zielwert enthält (Array-Quelle, Array-Ziel).<br>`//` extrahiert Unterzeichenfolge aus dem Ziel (entspricht regexp) und dekodiert sie`Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Die Funktion unterstützt auch die Verwendung konstanter Zeichenfolgenwerte, Gruppierung (`condition1 || condition2) && condition3` und reguläre Ausdrücke `/[^a-z]$/.test(landing.referring.url)`). |
+| `<` | Gibt an, dass die Variable auf der linken Seite kleiner als die Variable auf der rechten Seite ist. Wird als „false“ bewertet, wenn die Variablen gleich sind. |
+| `>` | Gibt an, dass die Variable auf der linken Seite größer als die Variable auf der rechten Seite ist. Wird als „false“ bewertet, wenn die Variablen gleich sind. |
+| `<=` | So wie `<`, außer wenn die Variablen gleich sind, dann wird sie als „true“ ausgewertet. |
+| `>=` | So wie `>`, außer wenn die Variablen gleich sind, dann wird sie als „true“ ausgewertet. |
+| `&&` | Fügt die Ausdrücke links und rechts daneben logisch mit „ANDs“ zusammen, nur „true“, wenn beide Seiten „true“ sind (andernfalls „false“). |
+| `||` | Fügt die Ausdrücke links und rechts daneben logisch mit „ORs“ zusammen, nur „true“, wenn beide Seiten „true“ sind (andernfalls „false“). |
+| `//` | Prüft, ob die Quelle alle Elemente aus dem Booleschen Zielwert enthält (Array-Quelle, Array-Ziel).<br>`//` extrahiert Unterzeichenfolge aus dem Ziel (entspricht regexp) und dekodiert sie `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Die Funktion unterstützt auch die Verwendung konstanter Zeichenfolgenwerte, Gruppierung (`condition1 || condition2) && condition3` und reguläre Ausdrücke `/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Schulungsvideo: Profilskripte ![Tutorial-Badge](/help/main/assets/tutorial.png)
 

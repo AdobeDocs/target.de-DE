@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
 source-wordcount: '4783'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
 ### Laden von Websites mit Service Workers in Visual Experience Composer (VEC)
 
-Es gibt einige aktuelle Einschränkungen beim Versuch, VEC zum Öffnen einer Website zu verwenden, die [Service Workers](https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API){target=_blank} (SW) verwendet.
+Es gibt einige aktuelle Einschränkungen beim Versuch, VEC zum Öffnen einer Website zu verwenden, die [Service Workers](https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API) {target=_blank} (SW) verwendet.
 
 Ein SW ist eine Web-Technologie, mit der Anforderungen durch eine Web-Seite für die Domain abgefangen werden können, auf der sie installiert sind. Der SW überlebt den Seitenbesuch und aktiviert sich selbst bei nachfolgenden Besuchen. Der SW entscheidet, welche Anforderungen durchlaufen werden und welche stattdessen abgefangen und aus einem Cache bereitgestellt werden.
 
@@ -35,9 +35,9 @@ Leider erhalten die Chrome-Erweiterungs-APIs, die Web-Anfragen abfangen, nicht d
 
 Als potenzielle Problemumgehung können Sie Service Workers auf der Registerkarte „Chrome Developer Tools“ > „Anwendung“ deaktivieren und dann das Kontrollkästchen „Für Netzwerk umgehen“ im Abschnitt „Service Workers“ aktivieren. (KB-2006)
 
-### Löschen von Orten mit Ad-hoc-Angeboten in Aktivitäten, die im formularbasierten Experience Composer erstellt wurden {#ad-hoc}
+### Löschen von Speicherorten mit Ad-hoc-Angeboten in Aktivitäten, die im formularbasierten Experience Composer erstellt wurden {#ad-hoc}
 
-Löschen Sie keine Orte in einer Aktivität, die im formularbasierten Experience Composer erstellt wurde, wenn diese Orte Ad-hoc-Angebote verwenden (Angebote, die innerhalb der Aktivität erstellt wurden). Das Löschen von Orten kann dazu führen, dass die Aktivität beschädigt wird. Die [!DNL Target] Team arbeitet an einer Lösung. Als Problemumgehung können Sie globale Angebote aus dem [!UICONTROL Angebotsbibliothek] und verwenden sie mit Standorten oder Sie können bei Bedarf neue Erlebnisse erstellen. (KB-2014)
+Löschen Sie keine Speicherorte in einer Aktivität, die im formularbasierten Experience Composer erstellt wurde, wenn diese Speicherorte Ad-hoc-Angebote verwenden (Angebote, die innerhalb der Aktivität erstellt wurden). Das Löschen von Speicherorten kann dazu führen, dass die Aktivität beschädigt wird. Das [!DNL Target]-Team arbeitet bereits an einer Lösung für dieses Problem. Als Problemumgehung können Sie globale Angebote über die [!UICONTROL Angebotsbibliothek] erstellen und mit Standorten verwenden oder bei Bedarf neue Erlebnisse erstellen. (KB-2014)
 
 ### Traffic-Verteilung von Aktivitäten mit automatisierter Zuordnung mithilfe von A4T {#aa-a4t}
 
@@ -59,7 +59,7 @@ Ein Problem mit EEC verhindert derzeit, dass PUT-Anfragen unterstützt werden, u
 
 [!DNL Adobe Experience Platform] Segmentnamen werden für die Aktivitäten [!UICONTROL Automatisierte Personalisierung] (AP) und [!UICONTROL Automatisches Targeting] (AT) nicht im Bericht [!UICONTROL Wichtige Attribute] angezeigt. (Die 3813 populärsten)
 
-### Archivierung [!UICONTROL Automatisches Targeting] -Aktivitäten können Synchronisierungsprobleme verursachen
+### Die Archivierung von Aktivitäten mit [!UICONTROL automatischem Targeting] kann zu Synchronisationsproblemen führen.
 
 Der Versuch, inaktive Aktivitäten für [!UICONTROL Automatisches Targeting] zu archivieren, kann zu Synchronisationsproblemen führen. Solange dieses Problem nicht behoben ist, archivieren Sie die Aktivitäten für [!UICONTROL Automatisches Targeting] nicht. Belassen Sie sie im Status [!UICONTROL Inaktiv]. (TGT-40885)
 
@@ -101,9 +101,9 @@ Die folgenden Probleme bei [!UICONTROL Recommendations]-Aktivitäten sind bekann
 
    Temporäre Umgehung:
 
-   * Deaktivieren Sie die Promotion von Aktivitäten.
-   * Kopieren Sie die Aktivität.
-   * Aktivieren Sie die Promotions in jeder Aktivität wieder.
+   * Deaktivieren Sie die Promotion von Aktivitäten
+   * Kopieren Sie die Aktivität
+   * Aktivieren Sie die Promotions in jeder Aktivität wieder
 
 * Wenn [!DNL Target] ein JSON-Angebot mit getOffer() zurückgibt, wird der JSON-Typ zurückgegeben. Ein JSON Recommendations-Design hingegen wird mit einem HTML-Typ zurückgegeben.
 * Entitäten verlieren ordnungsgemäß die Gültigkeit, wenn innerhalb von 60 Tagen keine Updates per Feed oder API empfangen werden. Die abgelaufenen Entitäten werden jedoch nach ihrem Ablauf nicht aus dem Katalogsuchindex entfernt. (IRI-857)
@@ -204,7 +204,7 @@ Die folgenden Probleme in Verbindung mit A4T wurden behoben:
    Dieses Problem wirkte sich unter folgenden Bedingungen auf A4T-Berichte aus:
 
    * Die A4T-Aktivität war zwischen dem 22. September und dem 11. November 2020, 14.30 Uhr (PST), aktiv.
-   * Für die Aktivität war eine [!DNL Target]-Metrik als Zielmetrik ausgewählt.
+   * Für die Aktivität war eine [!DNL Target]-Metrik als Zielmetrik ausgewählt
    * Wenn ein Besucher das Zielereignis der Aktivität auswählte (z. B. [!UICONTROL auf ein Element klickte]), wurde gleichzeitig eine Nicht-A4T-Aktivität mit niedrigerer Priorität ausgeführt, die mit dem Konversionsereignis übereinstimmte. Dies geschah, wenn die Nicht-A4T-Aktivität mit derselben Metrik wie die A4T-Aktivität oder mit der Metrik „any mbox“ konfiguriert war.
 
    Dieses Problem wirkte sich auf die Zurückmeldung von A4T-Aktivitäten aus, die zwischen dem 22. September und dem 11. November 2020, 14.30 Uhr (PST), aktiv waren. Außerhalb dieses Zeitfensters wurden die Konversionen der betroffenen A4T-Aktivitäten korrekt zurückgemeldet. Berichte für Nicht-A4T-Aktivitäten waren davon nicht betroffen.
@@ -241,13 +241,13 @@ Dieses Problem betrifft nur die Berichterstellung in [!DNL Target]. Die Berichte
 
 Dieses Problem wurde behoben.
 
-### Bei Verwendung von Google Chrome ab Version 80 werden Seiten in Visual Experience Composer (VEC) oder Enhanced Experience Composer (EEC) nicht geladen.
+### Bei Verwendung von Google Chrome ab Version 80 werden Seiten in Visual Experience Composer (VEC) oder Enhanced Experience Composer (EEC) nicht geladen
 
 Dieses bekannte Problem hat seine Ursache in der Entscheidung von Google, das Standardverhalten von Cookies ohne SameSite-Attribut ab Chrome Version 80 zu ändern. Vor dieser Änderung lautete der Standardwert in Chrome für alle Cookies ohne SameSite-Attribut „SameSite=None“. Ab Version 80 lautet der Standardwert „SameSite=Lax“. Dadurch ändert sich die Übertragungsmethode für Cookies bei GET- und POST-Anforderungen. Weitere Informationen finden Sie unter [SameSite-Updates](https://www.chromium.org/updates/same-site).
 
 Weitere Informationen sowie eine Lösung zur Fehlerbehebung finden Sie unter [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite) unter der Frage „Wie wirken sich die kürzlich von Google Chrome angekündigten Cookie-Durchsetzungsrichtlinien für SameSite auf VEC und EEC aus?“.
 
-### Ein Diagrammbericht für eine automatische Targeting-Aktivität kann nicht gerendert werden, wenn ein benutzerdefiniertes Erlebnis als Kontrolle verwendet wird.
+### Ein Diagrammbericht für eine automatische Targeting-Aktivität kann nicht gerendert werden, wenn ein benutzerdefiniertes Erlebnis als Kontrolle verwendet wird
 
 Ein Diagrammbericht für eine automatische Targeting-Aktivität kann für „Differenz“-Modi (durchschnittliche Steigerung und tägliche Steigerung) nicht gerendert werden, wenn in keinem Ereignis Daten vorhanden sind (0 Besuche). Diese Situation kann während der frühen Phase einer Aktivität auftreten, wenn das Kontrollerlebnis als benutzerdefiniert festgelegt ist. Für die anderen Modi (gleitendes Mittel für Kontrolle und Zielgruppe, tägliche Kontrolle und Zielgruppe sowie Besuche) funktioniert dies problemlos. Sobald einige Daten vorhanden sind (Besuche sind nicht gleich null), wird der Bericht erwartungsgemäß gerendert.
 
@@ -318,7 +318,7 @@ Mboxes werden in Microsoft Explorer 11-Browsern nicht ausgelöst, nachdem ein U
 
 Mit der Veröffentlichung von API 2.3.0 oder höher behoben.
 
-### Geo Targeting
+### Geo  Targeting
 
 Die Suche nach Zeichenfolgen, die Sonderzeichen enthalten (wie z. B. Leerzeichen oder Komma), wird bei der Erstellung von Geotargeting-Zielgruppen derzeit nicht unterstützt. Das Problem tritt beispielsweise auf, wenn Sie Zielgruppen basierend auf Städten, Bundesländern, Ländern usw. erstellen. Wenn Sie z. B. „New York“ eingeben, werden keine gültigen Suchergebnisse zurückgegeben.
 
@@ -334,7 +334,7 @@ Das Problem wurde mit „at.js“-Version 1.6.2 behoben.
 
 Aktivitäten im Standardarbeitsbereich, die per API gelöscht wurden, werden weiterhin in der Target-Benutzeroberfläche angezeigt. Workaround: Löschen Sie alle Aktivitäten im Standardarbeitsbereich über die Target-Benutzeroberfläche. (TGT-31315)
 
-Behoben am 25. Oktober 2018.
+Behoben am 25. Oktober 2018
 
 ### AP-Reporting (Automated Personalization) auf Angebotsebene
 
@@ -381,7 +381,7 @@ Infolge der Migration liegen zwei potenzielle Probleme vor, die Sie beachten sol
 * Nicht-Admin-Benutzer haben eine E-Mail mit dem Hinweis erhalten, dass Sie nun Zugriff auf Adobe Target haben. Dies deutet darauf hin, dass die Migration für Ihre Organisation abgeschlossen ist. Die E-Mail selbst kann ignoriert werden.
 * Nach der Migration wurden einige Berichte von zuvor deaktivierten Benutzern in der Adobe Admin Console wieder angezeigt. Dies könnte für Ihre Organisation zum Problem werden, wenn vor der Migration deaktivierte Benutzer in der Adobe Admin Console weiterhin in Ihrer Benutzerliste in Target erscheinen. Es wird empfohlen, dass Administratoren die Benutzerliste in Admin Console überprüfen, um den Zugriff zu validieren.
 
-Dieses Problem wurde am 30. August 2017 behoben.
+Dieses Problem wurde am 30. August 2017 behoben
 
 ### Aktivitätserstellung
 
@@ -394,7 +394,7 @@ Andere Aktivitäten waren nicht betroffen.
 
 **Wichtig**: Dieses Problem wird nicht automatisch behoben. Sie müssen die betroffenen Aktivitäten erneut speichern, um das Problem zu beheben.
 
-Dieses Problem wurde am 29. Juni 2017 behoben.
+Dieses Problem wurde am 29. Juni 2017 behoben
 
 ### Form-Based Experience Composer
 

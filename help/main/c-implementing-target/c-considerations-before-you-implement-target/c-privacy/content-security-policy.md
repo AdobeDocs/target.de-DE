@@ -7,14 +7,14 @@ role: Developer
 exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
 source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Richtlinien zur Content Security Policy (CSP)
 
-Wenn Sie eine [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) für Ihre [!DNL Adobe Target]-Implementierung verwenden, sollten Sie die folgenden CSP-Anweisungen hinzufügen, wenn Sie [at.js 2.1 oder höher](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) verwenden:
+Wenn Sie eine [Content Security Policy](https://de.wikipedia.org/wiki/Content_Security_Policy) (CSP) für Ihre [!DNL Adobe Target]-Implementierung verwenden, sollten Sie die folgenden CSP-Anweisungen hinzufügen, wenn Sie [at.js 2.1 oder höher](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) verwenden:
 
 * `connect-src` mit `*.tt.omtrdc.net` auf der Zulassungsliste. Erforderlich, um die Netzwerkanfrage an das [!DNL Target]-Edge-Netzwerk zuzulassen.
 * `style-src unsafe-inline`. Erforderlich, um die Flimmerregelung vorab auszublenden.

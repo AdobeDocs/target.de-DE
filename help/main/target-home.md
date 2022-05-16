@@ -1,13 +1,13 @@
 ---
-keywords: Target;startseite;beliebte themen;adobe target;target standard;target premium;target-dokumentation;dokumentation zu adobe target; home
-title: Wo finde ich die Dokumentation zu [!DNL Target] ?
+keywords: Target;startseite;beliebte themen;adobe target;target standard;target premium;target-dokumentation;dokumentation zu adobe target;home
+title: Wo finde ich die Dokumentation zu  [!DNL Target] ?
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kunden mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, Mobile Site, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
