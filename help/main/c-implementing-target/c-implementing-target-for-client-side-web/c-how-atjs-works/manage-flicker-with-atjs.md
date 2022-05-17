@@ -5,7 +5,7 @@ title: Wie verwaltet at.js Flackern?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 76%
@@ -34,7 +34,7 @@ Die folgende Abbildung zeigt die Aufrufe „Hide Body“ und „Show Body“ sow
 
 ![Target-Ablauf: at.js-Seitenlade-Anfrage](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x*** 
+**at.js 1.*x***  
 
 ![](assets/target-flow2.png)
 
@@ -48,7 +48,7 @@ Sie können das Flackern verhindern, indem Sie einen vorab ausgeblendeten Aussch
 
 at.js kann asynchron geladen werden, entweder direkt auf der Seite eingebettet oder über einen Tag-Manager (z. B. [!DNL Adobe Experience Platform Launch]).
 
-Wenn at.js auf der Seite eingebettet ist, muss das Snippet vor dem Laden von at.js hinzugefügt werden. Wenn Sie at.js über einen Tag-Manager laden, der ebenfalls asynchron geladen wird, müssen Sie das Snippet hinzufügen, bevor Sie den Tag-Manager laden. Wenn der Tag-Manager synkronisch geladen wird, kann das Skript vor at.js im Tag-Manager enthalten sein.
+Wenn at.js auf der Seite eingebettet ist, muss das Snippet vor dem Laden von at.js hinzugefügt werden. Wenn Sie at.js über einen Tag-Manager laden, der ebenfalls asynchron geladen wird, müssen Sie das Snippet hinzufügen, bevor Sie den Tag-Manager laden. Wenn der Tag-Manager synchron geladen wird, kann das Skript vor at.js im Tag-Manager enthalten sein.
 
 Der Code für den vorab ausgeblendeten Ausschnitt lautet wie folgt:
 
