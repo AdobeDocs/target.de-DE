@@ -3,9 +3,9 @@ user-guide-title: Adobe  [!DNL Target] -Anleitung
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
+source-git-commit: 8f3eb3adcbd27a0f2592684266d9b6419151f890
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1560'
 ht-degree: 99%
 
 ---
@@ -137,6 +137,7 @@ ht-degree: 99%
          + [„at.js“-Versionsdetails](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
          + [Aktualisieren von at.js 1.x auf at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
          + [„at.js“-Cookies](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
+         + [Benutzeragent und Client-Hinweise](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)
       + Erläuterung der globalen Mbox {#global-mbox}
          + [Globale Mbox – Überblick](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [Anpassen einer globalen Mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
