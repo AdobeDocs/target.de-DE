@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
+source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 30%
+source-wordcount: '485'
+ht-degree: 29%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 30%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 9. Mai 2022**
+**Letzte Aktualisierung: 23. Mai 2022**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+
+## at.js-Version 2.9.0 (25. Mai 2022)
+
+* Unterstützung für Benutzeragenten-Client-Hinweise hinzugefügt.
+* Es wurde ein Fehler behoben, durch den mehrere Mbox-Anfragen auf derselben Seite unterschiedliche Impressions-IDs aufweisen.
 
 ## [!DNL Target Standard/Premium] 2.5.1 (gestaffelte Version) 11.-13. Mai 2022)
 
