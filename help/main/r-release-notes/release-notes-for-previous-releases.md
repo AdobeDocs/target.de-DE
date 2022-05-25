@@ -4,7 +4,7 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '33451'
 ht-degree: 99%
@@ -36,7 +36,7 @@ Diese Version enthält die folgende Änderung:
 
 * Mit dieser Version können Sie Inhalte vorab abrufen für [!UICONTROL Automatisierte Personalisierung] (AP) und [!UICONTROL Automatisches Targeting] (AT) Aktivitäten (zuvor nicht zurückgegeben von [!DNL Target]). Dies kann die Erlebnisse ändern, die den Endbenutzern bei einem Vorabruf (keine Änderungen am &quot;Ausführungs&quot;-Fluss) angezeigt werden, wenn sich eine AP-/AT-Aktivität im Bereitstellungspfad befindet und eine höhere Priorität aufweist als andere AB-/XT-Aktivitäten, die denselben Ort für die Inhaltsbereitstellung verwenden.
 
-### [!DNL Target] Platform-Version (30. März)
+### [!DNL Target] Plattform-Version (30. März)
 
 Diese Version enthält die folgende Verbesserung:
 
@@ -1717,7 +1717,7 @@ Diese Version beinhaltet die folgenden Funktionen und Erweiterungen (die Problem
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Mobile Erlebnisvorschau </p> </td> 
-   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Von nun an können Sie auf der Benutzeroberfläche mehrere mobile App-Aktivitäten auswählen und auf Ihrem Gerät eine Vorschau dafür anzeigen. Mithilfe dieser Funktion können Sie sich für die Vorschau und Qualitätssicherung mehrerer Erlebnisse registrieren, ohne sich auf spezielle Testversionen und Simulationen verlassen zu müssen. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target-mobile-app/target-mobile-preview.md#concept_5FBF12C2FDFC42429FE4F5CFBD78E19D" format="dita" scope="local">Target Mobile-Vorschau</a>. </p> </td> 
+   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Von nun an können Sie auf der Benutzeroberfläche mehrere mobile App-Aktivitäten auswählen und auf Ihrem Gerät eine Vorschau dafür anzeigen. Mithilfe dieser Funktion können Sie sich für die Vorschau und Qualitätssicherung mehrerer Erlebnisse registrieren, ohne sich auf spezielle Testversionen und Simulationen verlassen zu müssen. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie unter     <a href="/help/main/c-target-mobile-app/target-mobile-preview.md#concept_5FBF12C2FDFC42429FE4F5CFBD78E19D" format="dita" scope="local">Target Mobile-Vorschau</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile Batch- und Vorabrufbereitstellung </p> </td> 

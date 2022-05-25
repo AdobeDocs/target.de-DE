@@ -5,9 +5,9 @@ title: Was ist in jeder Version von at.js enthalten?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '4390'
+source-wordcount: '4414'
 ht-degree: 88%
 
 ---
@@ -21,6 +21,11 @@ Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibli
 >Das Target-Team unterstützt beide at.js 1.*x* und at.js 2.*x*. Führen Sie ein Upgrade auf die neueste Aktualisierung einer der beiden Hauptversionen von at.js durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen.
 >
 >Tags in [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) ist die bevorzugte Methode zum Aktualisieren von at.js. Erweiterungsentwickler fügen ihren Erweiterungen kontinuierlich neue Funktionen hinzu und beheben häufig Fehler. Diese Aktualisierungen werden in neuen Versionen einer Erweiterung zusammengefasst und im Abschnitt [!DNL Adobe Experience Platform] Katalog als Upgrades. Weitere Informationen finden Sie unter [Erweiterungs-Upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) im *Übersicht über Tags* Handbuch.
+
+## at.js-Version 2.9.0 (27. Mai 2022)
+
+* Hinzugefügt [Benutzeragenten-Client-Hinweise](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) unterstützen.
+* Es wurde ein Fehler behoben, durch den mehrere Mbox-Anfragen auf derselben Seite unterschiedliche Impressions-IDs aufweisen.
 
 ## at.js-Version 2.8.1 (28. Januar 2022)
 
@@ -453,7 +458,7 @@ Folgende Verbesserungen und Fehlerbehebungen sind in Version 0.9.6 von [!DNL at
 
 * Stellt für at.js eine Zeitüberschreitung des Besucher-ID-Diensts bereit, die von der Zeitüberschreitung des Diensts selbst unabhängig ist.
 * Behebung eines Problems in Version 0.9.0, das sich auf Implementierungen mit at.js auf einigen Seiten und mbox.js (jetzt nicht mehr unterstützt) auf anderen Seiten auswirkte.
-* Sollten Sie Adobe Analytics als Berichtsquelle für Ihre Aktivität verwenden, müssen Sie bei der Erstellung einer Aktivität und bei der Verwendung von mbox.js Version 61 (oder neuer) oder at.js Version 0.9.1 (oder neuer) keinen Trackingserver angeben. Die at.js-Bibliothek sendet automatisch Trackingserverwerte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
+* Sollten Sie Adobe Analytics als Berichtsquelle für Ihre Aktivität verwenden, müssen Sie bei der Erstellung einer Aktivität und bei der Verwendung von mbox.js Version 61 (oder neuer) oder at.js Version 0.9.1 (oder neuer) keinen Trackingserver angeben. Die at.js-Bibliothek sendet automatisch Tracking-Server-Werte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL Tracking Server] auf der Seite [!UICONTROL Ziele und Einstellungen] leer lassen.
 
 ## „at.js“-Version 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
