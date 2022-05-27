@@ -164,7 +164,7 @@ Kunden können keine CRUD-Vorgänge für Aktivitäten mit Automatisierte Zuordnu
 
 Am 10. Mai 2020 wurden von Adobe die GEO-Provider-Dateien aktualisiert, wodurch einige Inkonsistenzen entstanden sind. Beispielsweise wurden einige Werte mit Kommas hinzugefügt, obwohl die Werte in bestehenden Zielgruppen keine Kommas enthielten. Nicht alle Adobe-Bereitstellungsserver waren von dieser Änderung betroffen. Für Zielgruppen, die solche Werte verwenden, sind daher möglicherweise noch nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
 
-### Berichte – Die Daten des herunterladbaren CSV-Berichts sind mit den in der [!DNL Target]-Benutzeroberfläche angezeigten Berichtsdaten nicht identisch. {#csv}
+### Berichte – Die Daten des herunterladbaren CSV-Berichts sind mit den in der [!DNL Target]-Benutzeroberfläche angezeigten Berichtsdaten nicht identisch {#csv}
 
 Berichte, die als CSV-Dateien zum Herunterladen generiert wurden, sind nicht konsistent, wenn die Aktivität mehr als eine Metrik verwendet. Der herunterladbare Bericht wird nur auf der Grundlage der Berichtseinstellungen generiert und geht bei allen anderen verwendeten Metriken von demselben Wert aus.
 
@@ -318,7 +318,7 @@ Mboxes werden in Microsoft Explorer 11-Browsern nicht ausgelöst, nachdem ein U
 
 Mit der Veröffentlichung von API 2.3.0 oder höher behoben.
 
-### Geo  Targeting
+### Geo   Targeting
 
 Die Suche nach Zeichenfolgen, die Sonderzeichen enthalten (wie z. B. Leerzeichen oder Komma), wird bei der Erstellung von Geotargeting-Zielgruppen derzeit nicht unterstützt. Das Problem tritt beispielsweise auf, wenn Sie Zielgruppen basierend auf Städten, Bundesländern, Ländern usw. erstellen. Wenn Sie z. B. „New York“ eingeben, werden keine gültigen Suchergebnisse zurückgegeben.
 

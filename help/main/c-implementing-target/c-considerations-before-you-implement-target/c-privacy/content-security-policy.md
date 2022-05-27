@@ -7,8 +7,8 @@ role: Developer
 exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
 source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '329'
+ht-degree: 100%
 
 ---
 
@@ -22,16 +22,16 @@ Wenn Sie eine [Content Security Policy](https://de.wikipedia.org/wiki/Content_Se
 
 ## Häufig gestellte Fragen (FAQs)
 
-Lesen Sie die folgenden häufig gestellten Fragen zu Sicherheitsrichtlinien:
+Wenn Sie Näheres zu Sicherheitsrichtlinien erfahren möchten, lesen Sie die folgenden häufig gestellten Fragen:
 
-### Stellt die Cross Origin Resource Sharing (CORS)- und Flash Cross-Domain-Richtlinien Sicherheitsprobleme dar?
+### Stellen Cross Origin Resource Sharing- (CORS) und Flash Cross-Domain-Richtlinien Sicherheitsprobleme dar?
 
-Die empfohlene Methode zur Implementierung der CORS-Richtlinie besteht darin, den Zugriff nur auf vertrauenswürdige Quellen zu ermöglichen, die über eine Zulassungsliste vertrauenswürdiger Domänen erforderlich sind. Dasselbe gilt für die domänenübergreifende Richtlinie des Flashs. Einige [!DNL Adobe Target] Kunden sind besorgt über die Verwendung von Platzhalterzeichen für Domänen in [!DNL Target]. Wenn ein Benutzer bei einer Anwendung angemeldet ist und eine von der Richtlinie zugelassene Domäne besucht, besteht das Problem darin, dass schädliche Inhalte, die in dieser Domäne ausgeführt werden, potenziell sensible Inhalte aus der Anwendung abrufen und Aktionen im Sicherheitskontext des angemeldeten Benutzers ausführen können. Dies wird häufig als Cross-Site Request Forgery (CSRF) bezeichnet.
+Die empfohlene Methode zur Implementierung der CORS-Richtlinie besteht darin, den Zugriff nur auf vertrauenswürdige Quellen zu ermöglichen, die den Zugriff über eine Zulassungsliste mit vertrauenswürdigen Domains verlangen. Dasselbe gilt für die Flash Cross-Domain-Richtlinie. Manche [!DNL Adobe Target]-Kunden sind besorgt über die Verwendung von Platzhalterzeichen für Domains in [!DNL Target]. Es wird befürchtet, dass, wenn ein Benutzer bei einer Anwendung angemeldet ist und eine von der Richtlinie zugelassene Domain besucht, schädliche Inhalte, die in dieser Domain ausgeführt werden, theoretisch sensible Inhalte aus der Anwendung abrufen und Aktionen im Sicherheitskontext des angemeldeten Benutzers ausführen können. Dies wird als Cross-Site Request Forgery (CSRF) bezeichnet.
 
-In einer [!DNL Adobe Target] Diese Maßnahmen sollten jedoch kein Sicherheitsproblem darstellen.
+In einer [!DNL Adobe Target]-Implementierung stellen diese Richtlinien normalerweise aber kein Sicherheitsproblem dar.
 
-&quot;adobe.tt.omtrdc.net&quot;ist eine Adobe-eigene Domäne. [!DNL Adobe Target] ist ein Test- und Personalisierungstool, und es wird erwartet, dass [!DNL Target] kann Anfragen von überall empfangen und verarbeiten, ohne dass eine Authentifizierung erforderlich ist. Diese Anforderungen enthalten Schlüssel-Wert-Paare, die für A/B-Tests, Empfehlungen oder die Personalisierung von Inhalten verwendet werden.
+„adobe.tt.omtrdc.net“ ist eine Adobe-eigene Domain. [!DNL Adobe Target] ist ein Test- und Personalisierungs-Tool, und normalerweise kann [!DNL Target] Anfragen von überall empfangen und verarbeiten, ohne dass eine Authentifizierung erforderlich ist. Diese Anfragen enthalten Schlüssel-Wert-Paare, die für A/B-Tests, Empfehlungen oder die Personalisierung von Inhalten verwendet werden.
 
-[!DNL Adobe] speichert keine personenbezogenen oder anderen sensiblen Informationen über [!DNL Adobe Target] Edge-Server, auf die &quot;adobe.tt.omtrdc.net&quot;verweist.
+[!DNL Adobe] speichert keine personenbezogenen oder anderen sensiblen Informationen auf [!DNL Adobe Target]-Edge-Servern, auf die „adobe.tt.omtrdc.net“ verweist.
 
-Es wird erwartet, dass [!DNL Target] über JavaScript-Aufrufe von jeder Domäne aus aufgerufen werden können. Die einzige Möglichkeit, diesen Zugriff zu ermöglichen, besteht darin, &quot;Access-Control-Allow-Origin&quot;mit einem Platzhalter zu verwenden.
+[!DNL Target] kann von jeder Domain über JavaScript-Aufrufe aufgerufen werden. Die einzige Möglichkeit, diesen Zugriff zu ermöglichen, besteht darin, „Access-Control-Allow-Origin“ mit einem Platzhalter zu verwenden.

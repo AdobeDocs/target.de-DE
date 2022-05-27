@@ -6,8 +6,8 @@ feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2423'
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Berücksichtigen Sie Folgendes:
 * Verweisen Sie auf Profilskriptattribute (einschließlich es selbst) im Code mit `user.get('parameterName')`.
 * Speichern Sie Variablen, die beim nächsten Ausführen des Skripts (bei der nächsten Mbox-Anfrage) aufgerufen werden können, mit `user.setLocal('variable_name', 'value')`. Verweisen Sie auf die Variable mit `user.getLocal('variable_name')`. Dies ist hilfreich in Situationen, in denen Sie einen Verweis für Datum und Uhrzeit der letzten Anfrage setzen möchten.
 
-   Diese Werte bleiben wie ein Profilskript erhalten, Sie haben jedoch nur Zugriff auf sie innerhalb des Skripts, für das sie festgelegt wurden.
+   Diese Werte bleiben wie ein Profilskript erhalten, Sie haben jedoch nur Zugriff auf sie innerhalb des Skripts, in dem sie festgelegt wurden.
 
 * Bei Parametern und Werten wird zwischen Groß- und Kleinschreibung unterschieden. Achten Sie auf die Groß- und Kleinschreibung der Parameter und Werte, die Sie während der Aktivität oder des Tests empfangen.
 * Weitere JavaScript-Syntax finden Sie im Abschnitt „JavaScript-Referenz für Skript-Profilparameter“.
@@ -177,7 +177,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 **Kann ich mit Profilskripten Informationen von einer Seite erfassen, die sich im Daten-Layer befindet?**
 
-Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere   [Verfahren für die Datenübernahme in Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) übergeben werden. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
+Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere    [Verfahren für die Datenübernahme in Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) übergeben werden. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
 
 ## JavaScript-Referenz für Skript-Profilparameter
 
