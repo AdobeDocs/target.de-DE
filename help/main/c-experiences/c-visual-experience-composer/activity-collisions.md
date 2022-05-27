@@ -4,10 +4,10 @@ description: Kollisionen treten auf, wenn mehrere Aktivitäten eingerichtet sind
 title: Wie kann ich Aktivitätskollisionen vermeiden?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
+source-git-commit: b34701113ebdc9f539e5a3d7163aa3dd85368af3
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 72%
+source-wordcount: '352'
+ht-degree: 66%
 
 ---
 
@@ -17,7 +17,7 @@ Die [!UICONTROL Kollisionen] auf der Registerkarte [!UICONTROL Aktivitätsübers
 
 Eine Aktivitätskollision tritt auf, wenn mehrere Aktivitäten eingerichtet sind, die Inhalt für dieselbe Seite bereitstellen sollen. Tritt eine Aktivitätskollision auf, wird möglicherweise nicht der erwartete Inhalt auf Ihrer Seite angezeigt.
 
-Enthält Ihre Aktivität mögliche Kollisionen, wird die Registerkarte [!UICONTROL Kollisionen] auf der Aktivitätsübersichtsseite angezeigt. Dort werden unabhängig vom Zielgruppen-Targeting in den einzelnen Aktivität alle Aktivitäten auf der gleichen URL aufgelistet. Auf dieser Registerkarte finden Sie eine Liste der möglicherweise kollidierenden Aktivitäten. Klicken Sie in der Liste auf eine Aktivität, damit eine Übersichtsseite für die Aktivität angezeigt wird. Führt die Kollision zu einer Änderung des erwarteten Erlebnisses, muss die Aktivität bearbeitet werden.
+Die [!UICONTROL Kollisionen] auf der Aktivitätsübersichtsseite verfügbar ist und Sie darüber informieren kann, ob Ihre Aktivität mögliche Kollisionen enthält. Dort werden unabhängig vom Zielgruppen-Targeting in den einzelnen Aktivität alle Aktivitäten auf der gleichen URL aufgelistet. Auf dieser Registerkarte finden Sie eine Liste der möglicherweise kollidierenden Aktivitäten. Klicken Sie in der Liste auf eine Aktivität, damit eine Übersichtsseite für die Aktivität angezeigt wird. Führt die Kollision zu einer Änderung des erwarteten Erlebnisses, muss die Aktivität bearbeitet werden.
 
 Die [!UICONTROL Kollisionen] Die Liste hilft Ihnen bei Folgendem:
 
