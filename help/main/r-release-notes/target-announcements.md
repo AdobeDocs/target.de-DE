@@ -4,7 +4,7 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a40aba388ae89079f6977082fd77c7670618a4e1
+source-git-commit: 6826a9e434ba9d8a2f1a8a56b5ca053445aac1fc
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 86%
@@ -15,7 +15,7 @@ ht-degree: 86%
 
 Mitteilungen und Informationen über bevorstehende [!DNL Adobe Target] Ereignisse, einschließlich [!DNL Target] Kaffeepausen, [!DNL Target] Webinarreihe, [!DNL Target] Skill Builder-Sitzungen, Entwicklerchats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
 
-## Adobe Target Community Coffer Break (29. Juni 2022)
+## Adobe Target Community-Kaffeepause (29. Juni 2022)
 
 +++Hier klicken
 
