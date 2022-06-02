@@ -4,9 +4,9 @@ description: 'Erfahren Sie, wie Sie eine Vorschau Ihrer Adobe anzeigen können. 
 title: Wie kann ich eine Recommendations-Aktivität in der Vorschau anzeigen und starten?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7732f3af0fd995309035a8a214afd438ab7a1823
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1381'
 ht-degree: 17%
 
 ---
@@ -120,17 +120,17 @@ Beachten Sie, dass Sie die Aktivität auch über dieselbe Dropdownliste deaktivi
 
 Um zu vermeiden, dass eine Live-Aktivität gestört wird, empfehlen wir beim Ändern einer Live-Aktivität den folgenden Ansatz:
 
-1. Duplizieren Sie die Aktivität und die Kriterien, die Sie ändern möchten.
-1. Nehmen Sie Änderungen an der duplizierten Aktivität und den Kriterien vor und warten Sie, bis der Algorithmus Ergebnisse generiert.
-1. Sehen Sie sich die neue, geänderte Aktivität in der Vorschau an und überprüfen Sie, ob die Ergebnisse Ihren Anforderungen entsprechen.
-1. Aktivieren Sie die neue Aktivität.
-1. Deaktivieren Sie die alte Aktivität.
+1. Duplizieren Sie die ursprüngliche Aktivität (Aktivität 1) und die Kriterien, die Sie ändern möchten, um eine neue Aktivität zu erstellen (Aktivität 2).
+1. Nehmen Sie Änderungen an der duplizierten Aktivität (Aktivität 2) und den Kriterien vor und warten Sie, bis der Algorithmus Ergebnisse generiert.
+1. Sehen Sie sich die neue, geänderte Aktivität (Aktivität 2) in der Vorschau an und überprüfen Sie, ob die Ergebnisse Ihren Anforderungen entsprechen.
+1. Aktivieren Sie die neue Aktivität (Aktivität 2).
+1. Deaktivieren Sie die ursprüngliche Aktivität (Aktivität 1).
 
 Wenn Sie die historischen Berichtsergebnisse in derselben Aktivität beibehalten müssen, ist ein alternativer Ansatz möglich, der zu einer vorübergehenden Unterbrechung der Empfehlungsverfügbarkeit führen kann:
 
-1. Duplizieren Sie die Aktivität und die Kriterien, die Sie ändern möchten.
-1. Nehmen Sie Änderungen an der duplizierten Aktivität und den Kriterien vor und warten Sie, bis der Algorithmus Ergebnisse generiert.
-1. Sehen Sie sich die neue, geänderte Aktivität in der Vorschau an und überprüfen Sie, ob die Ergebnisse Ihren Anforderungen entsprechen.
-1. Halten Sie die vorhandene Aktivität an und tauschen Sie die Einstellungen/Kriterien auf die neuen Kriterien aus.
-1. Überprüfen Sie die Vorschau der vorhandenen Aktivität und bestätigen Sie, dass die Ergebnisse Ihren Anforderungen entsprechen.
-1. Aktivieren Sie die Aktivität erneut.
+1. Duplizieren Sie die ursprüngliche Aktivität (Aktivität 1) und die Kriterien, die Sie ändern möchten, um eine neue Aktivität zu erstellen (Aktivität 2).
+1. Nehmen Sie Änderungen an der duplizierten Aktivität (Aktivität 2) und den Kriterien vor und warten Sie, bis der Algorithmus Ergebnisse generiert.
+1. Sehen Sie sich die neue, geänderte Aktivität (Aktivität 2) in der Vorschau an und überprüfen Sie, ob die Ergebnisse Ihren Anforderungen entsprechen.
+1. Halten Sie die neue, geänderte Aktivität an (Aktivität 2) und tauschen Sie die Einstellungen/Kriterien auf die ursprüngliche Aktivität (Aktivität 1) aus.
+1. Überprüfen Sie die Vorschau der ursprünglichen Aktivität (Aktivität 1) und bestätigen Sie, dass die Ergebnisse wie gewünscht sind.
+1. Reaktivieren Sie die ursprüngliche Aktivität (Aktivität 1).
