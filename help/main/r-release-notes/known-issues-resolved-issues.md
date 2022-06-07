@@ -4,9 +4,9 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
-source-wordcount: '4783'
+source-wordcount: '4549'
 ht-degree: 100%
 
 ---
@@ -22,18 +22,6 @@ Informationen zu bekannten Problemen in [!DNL Adobe Target]. Dazu gehören auch 
 ## Bekannte Probleme {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
-
-### Laden von Websites mit Service Workers in Visual Experience Composer (VEC)
-
-Es gibt einige aktuelle Einschränkungen beim Versuch, VEC zum Öffnen einer Website zu verwenden, die [Service Workers](https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API) {target=_blank} (SW) verwendet.
-
-Ein SW ist eine Web-Technologie, mit der Anforderungen durch eine Web-Seite für die Domain abgefangen werden können, auf der sie installiert sind. Der SW überlebt den Seitenbesuch und aktiviert sich selbst bei nachfolgenden Besuchen. Der SW entscheidet, welche Anforderungen durchlaufen werden und welche stattdessen abgefangen und aus einem Cache bereitgestellt werden.
-
-Der SW kann die Zwischenspeicherung steuern und die Web-Seite selbst zwischenspeichern sowie auch statische Ressourcen wie JS, CSS, IMG, AJAX-Anfragen, deren Inhalte und deren Antwort-Header, einschließlich der Header, die unsere [Target VEC Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) zu entfernen versucht, z. B. X-Frame-Optionen: SAMEORIGIN, CSP (Content-Security-Policy) oder Set-Cookie.
-
-Leider erhalten die Chrome-Erweiterungs-APIs, die Web-Anfragen abfangen, nicht die Anfragen, die von einem SW abgefangen und verarbeitet wurden. Daher kann die Erweiterung die Kopfzeilen und Cookies nicht beheben, wenn die Web-Seiten-Anforderung von einem SW aus dem Cache bereitgestellt wurde, da die Web-Seite aufgrund der X-Frame-Options- oder CSP-Kopfzeilen, die ebenfalls zwischengespeichert wurden, nicht im VEC geladen wird.
-
-Als potenzielle Problemumgehung können Sie Service Workers auf der Registerkarte „Chrome Developer Tools“ > „Anwendung“ deaktivieren und dann das Kontrollkästchen „Für Netzwerk umgehen“ im Abschnitt „Service Workers“ aktivieren. (KB-2006)
 
 ### Löschen von Speicherorten mit Ad-hoc-Angeboten in Aktivitäten, die im formularbasierten Experience Composer erstellt wurden {#ad-hoc}
 
