@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 93%
+source-wordcount: '837'
+ht-degree: 83%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 93%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] Fehlerbehebungen bei der Kundenentwicklung (gestaffelte Version: 7.-9. Juni 2022)
+
+Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
+
+* **Juni 7**: Region Asien-Pazifik (APAC)
+* **Juni 8**: Amerikanische Region
+* **9. Juni**: Region Europa, Naher Osten und Afrika (EMEA)
+
+Dieses Release umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+* Benutzer mit [!UICONTROL Editor] -Rolle kann Zielgruppen in Live-Aktivitäten nicht mehr bearbeiten. (TGT-43582)
+* Für die neue [!UICONTROL Zielgruppen] , um einen inkonsistenten Zustand zwischen der alten Datenbank zu verhindern, in der die Zielgruppen in der Vergangenheit gespeichert wurden, und der neuen Architektur, in der die Informationen direkt aus dem Backend abgerufen werden. (TGT-43552)
+* Es wurde ein Fehler behoben, der dazu führte, dass einige Kunden kombinierte Zielgruppen nicht speichern konnten, da die Target-Benutzeroberfläche &quot;leere&quot;Container erstellte. (TGT-43588)
 
 ## Target-Plattform-Version (25. Mai 2022)
 
