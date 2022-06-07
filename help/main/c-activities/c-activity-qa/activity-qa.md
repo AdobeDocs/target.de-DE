@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Adobe verwenden [!DNL Target] QA-URLs zur ein
 title: Wie kann ich QA-Aktivitäten durchführen?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 38%
+source-wordcount: '1800'
+ht-degree: 40%
 
 ---
 
@@ -93,6 +93,7 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
    | `adobe_mc_sdid` |  |  | Übergibt die [!DNL Supplemental Data Id] (SDID) und [!DNL Experience Cloud Org Id] von der Standardseite zur neuen Seite. Die Übergabe dieser IDs ermöglicht Folgendes: [!UICONTROL Analytics for Target] (A4T), um die [!DNL Target] -Anfrage auf der Standardseite mit der [!DNL Analytics] -Anfrage auf der neuen Seite. |
 
 * Die [!UICONTROL Target QA-Modus] Die Benutzeroberfläche zeigt nur die erste URL eines Erlebnisses in einer mehrseitigen Aktivität an. Es wird angenommen, dass Sie einen Journey-Test erstellen und von URL1 zu URL2 wechseln. Wenn Sie jedoch unabhängig zu URL 2 wechseln möchten, kopieren Sie alle URL-Parameter, die neben URL1 angegeben sind, und wenden Sie sie nach dem Platzieren eines „?“ auf URL2 an, genau wie Sie sie in URL1 sehen.
+* Vorschaulinks für die Aktivitäts-QA gespeicherter Aktivitäten werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Versuchen Sie die Vorschaulinks erneut zu laden. Das Problem lässt sich in der Regel durch regelmäßige Archivierung nicht mehr aktiv verwendeter gespeicherter Aktivitäten verhindern.
 
 ## Kompatibilität der JavaScript-Target-Bibliothek [!UICONTROL QA-Modus] {#compatibility}
 

@@ -4,10 +4,10 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '4549'
-ht-degree: 100%
+source-wordcount: '4507'
+ht-degree: 98%
 
 ---
 
@@ -51,18 +51,6 @@ Ein Problem mit EEC verhindert derzeit, dass PUT-Anfragen unterstützt werden, u
 
 Der Versuch, inaktive Aktivitäten für [!UICONTROL Automatisches Targeting] zu archivieren, kann zu Synchronisationsproblemen führen. Solange dieses Problem nicht behoben ist, archivieren Sie die Aktivitäten für [!UICONTROL Automatisches Targeting] nicht. Belassen Sie sie im Status [!UICONTROL Inaktiv]. (TGT-40885)
 
-### Seitenversand {#page-delivery}
-
-Wenn Sie eine Vorlagenregel hinzufügen, z. B. URL enthält (/Checkout, /Warenkorb), werden Ihren Regeln im [Seitenversand](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zusätzliche Leerzeichen vorangestellt. Diese zusätzlichen Leerzeichen haben einen rein kosmetischen Zweck und wirken sich nicht auf die Erstellung von Zielgruppen und die Bereitstellung von Angeboten aus. (TGT-35920)
-
-### Vorschaulinks für QA
-
-Vorschaulinks für die Aktivitäts-QA gespeicherter Aktivitäten werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Versuchen Sie die Vorschaulinks erneut zu laden. Das Problem lässt sich in der Regel durch regelmäßige Archivierung nicht mehr aktiv verwendeter gespeicherter Aktivitäten verhindern. (TNT-37294)
-
-### QA-Modus für Recommendations-Aktivitäten
-
-Ein bekanntes Problem verhindert die Vorschau, wenn die in einer Aktivität verwendeten Kriterien auf Elementen oder Kategorien basieren. (TNT-37455)
-
 ### Umleitungsangebote {#redirect}
 
 * Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
@@ -84,14 +72,6 @@ Ein bekanntes Problem verhindert die Vorschau, wenn die in einer Aktivität verw
 ### Recommendations
 
 Die folgenden Probleme bei [!UICONTROL Recommendations]-Aktivitäten sind bekannt:
-
-* Wenn eine [!UICONTROL Recommendations]-Aktivität mit einer aktiven Promotion kopiert wird, wirkt sich jede Änderung an der kopierten bzw. der ursprünglichen Aktivität derzeit auch auf das Original bzw. die Kopie aus. (TGT-39155)
-
-   Temporäre Umgehung:
-
-   * Deaktivieren Sie die Promotion von Aktivitäten
-   * Kopieren Sie die Aktivität
-   * Aktivieren Sie die Promotions in jeder Aktivität wieder
 
 * Wenn [!DNL Target] ein JSON-Angebot mit getOffer() zurückgibt, wird der JSON-Typ zurückgegeben. Ein JSON Recommendations-Design hingegen wird mit einem HTML-Typ zurückgegeben.
 * Entitäten verlieren ordnungsgemäß die Gültigkeit, wenn innerhalb von 60 Tagen keine Updates per Feed oder API empfangen werden. Die abgelaufenen Entitäten werden jedoch nach ihrem Ablauf nicht aus dem Katalogsuchindex entfernt. (IRI-857)
@@ -148,10 +128,6 @@ Alle aktuellen Analytics-Pakete können dieses Modell mit Attribution IQ hinzuf�
 
 Kunden können keine CRUD-Vorgänge für Aktivitäten mit Automatisierte Zuordnung über die v3-Version der A/B-Aktivitäten-API auf Adobe I/O durchführen.
 
-### Geotargeting
-
-Am 10. Mai 2020 wurden von Adobe die GEO-Provider-Dateien aktualisiert, wodurch einige Inkonsistenzen entstanden sind. Beispielsweise wurden einige Werte mit Kommas hinzugefügt, obwohl die Werte in bestehenden Zielgruppen keine Kommas enthielten. Nicht alle Adobe-Bereitstellungsserver waren von dieser Änderung betroffen. Für Zielgruppen, die solche Werte verwenden, sind daher möglicherweise noch nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
-
 ### Berichte – Die Daten des herunterladbaren CSV-Berichts sind mit den in der [!DNL Target]-Benutzeroberfläche angezeigten Berichtsdaten nicht identisch {#csv}
 
 Berichte, die als CSV-Dateien zum Herunterladen generiert wurden, sind nicht konsistent, wenn die Aktivität mehr als eine Metrik verwendet. Der herunterladbare Bericht wird nur auf der Grundlage der Berichtseinstellungen generiert und geht bei allen anderen verwendeten Metriken von demselben Wert aus.
@@ -160,7 +136,27 @@ Der korrekte Bericht ist immer der in der Benutzeroberfläche von [!DNL Target] 
 
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-Bekannte Probleme, die behoben wurden, werden in die folgenden Abschnitte verschoben. Gegebenenfalls finden Sie dort zusätzliche Hinweise.
+Da die oben genannten bekannten Probleme behoben wurden, werden sie in die folgenden Abschnitte verschoben. Gegebenenfalls werden zusätzliche Hinweise hinzugefügt.
+
+### Geotargeting
+
+Am 10. Mai 2020 wurden von Adobe die GEO-Provider-Dateien aktualisiert, wodurch einige Inkonsistenzen entstanden sind. Beispielsweise wurden einige Werte mit Kommas hinzugefügt, obwohl die Werte in bestehenden Zielgruppen keine Kommas enthielten. Nicht alle Adobe-Bereitstellungsserver waren von dieser Änderung betroffen. Für Zielgruppen, die solche Werte verwenden, sind daher möglicherweise noch nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
+
+### Kopieren einer [!UICONTROL Recommendations] activity
+
+Beim Kopieren einer [!UICONTROL Recommendations] -Aktivität mit einer aktiven Promotion verwenden, wirkt sich jede Änderung in der duplizierten Aktivität derzeit auch auf die ursprüngliche Aktivität aus und umgekehrt. (TGT-39155)
+
+Dieses Problem wurde im [!DNL Target Standard/Premium] Version 21.2.1.
+
+### QA-Modus für Recommendations-Aktivitäten
+
+Ein bekanntes Problem verhindert die Vorschau, wenn die in einer Aktivität verwendeten Kriterien auf Elementen oder Kategorien basieren. (TNT-37455)
+
+Dieses Problem wurde im Januar 2022 behoben. (TNT-37455)
+
+### Seitenversand {#page-delivery}
+
+Wenn Sie eine Vorlagenregel hinzufügen, z. B. URL enthält (/Checkout, /Warenkorb), werden Ihren Regeln im [Seitenversand](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zusätzliche Leerzeichen vorangestellt. Diese zusätzlichen Leerzeichen haben einen rein kosmetischen Zweck und wirken sich nicht auf die Erstellung von Zielgruppen und die Bereitstellung von Angeboten aus. (TGT-35920)
 
 ### Bildangebote mit der Bezeichnung „Verarbeitung“
 
