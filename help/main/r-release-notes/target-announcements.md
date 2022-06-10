@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -108,11 +108,11 @@ Auf Aufzeichnungen vergangener Ereignisse zugreifen:
 
 Hier finden Sie Best Practices zur Skalierung von Personalisierungsprogrammen. Erfahren Sie, wie Dick&#39;s Sporting Goods [!DNL Adobe Target] verwendet, um mit Spitzensportlern und -marken zu interagieren.
 
-* [Link zur Aufzeichnung](https://video.tv.adobe.com/v/343042){target=_blank}
+* [Link zur Aufzeichnung](https://video.tv.adobe.com/v/343042) {target=_blank}
 
 +++Hier klicken
 
-Gemeinsam mit Shawn Wilkinson (eCommerce Personalization Manager) erfahren Sie, wie Sie [!DNL Target] Dicks Sportartikel helfen, durchschnittliche Besucher in wiederkehrende Athleten zu verwandeln.
+Kommen Sie zu Shawn Wilkinson (eCommerce Personalization Manager) und erfahren Sie, wie [!DNL Target] Dick&#39;s Sporting Goods hilft, durchschnittliche Besucher in wiederkehrende Sportler zu verwandeln.
 
 Erfahren Sie, wie Dick’s Sporting Goods zweistelliges Wachstum erzielt:
 
@@ -127,7 +127,7 @@ Erfahren Sie, wie Dick’s Sporting Goods zweistelliges Wachstum erzielt:
 
 Erfahren Sie, wie Finanzdienstleister Kunden mithilfe von Personalisierung unterstützen und über Inflationstrends und Investitionsstrategien informieren.
 
-[Link zur Aufzeichnung](https://video.tv.adobe.com/v/343240){target=_blank}
+[Link zur Aufzeichnung](https://video.tv.adobe.com/v/343240) {target=_blank}
 
 +++Hier klicken
 
@@ -138,7 +138,7 @@ Kommen Sie zu Christopher Young (Director, Industry Strategy Financial Services)
 
 Sehen Sie sich das Toolkit und Anwendungsfälle für die Implementierung funktionsübergreifender Personalisierungsstrategien an. Erfahren Sie, wie die CNB mithilfe von [!DNL Adobe Target] von den unteren 26 % ihrer Branche zum obersten 1 % aufstieg.
 
-[Link zur Aufzeichnung](https://video.tv.adobe.com/v/343344){target=_blank}
+[Link zur Aufzeichnung](https://video.tv.adobe.com/v/343344) {target=_blank}
 
 +++Hier klicken
 
@@ -170,7 +170,7 @@ In dieser Sitzung erfahren Sie, wie [!DNL Adobe Target] Daten über mehrere Quel
 
 ### Webinar: Personalisieren und Testen mit Nulllatenz bei geräteinterner Entscheidungsfindung mit [!DNL Adobe Target]
 
-[Link zur Aufzeichnung](https://video.tv.adobe.com/v/328148){target=_blank}
+[Link zur Aufzeichnung](https://video.tv.adobe.com/v/328148) {target=_blank}
 
 +++Hier klicken
 
