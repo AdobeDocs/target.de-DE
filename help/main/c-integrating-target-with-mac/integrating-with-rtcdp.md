@@ -1,24 +1,24 @@
 ---
-keywords: Real-time Customer Data Platform; rtcdp; Personalisierung; AEP-Zielgruppen; Adobe Experience Platform-Zielgruppen
-description: Erfahren Sie, wie Sie die [!DNL Target]/[!DNL Real-time Customer Data Platform] Integration (RTCDP) zur Bereitstellung umfassenderer Kundendaten und einer wirkungsvolleren Personalisierung.
-title: Integration [!DNL Target] mit dem [!DNL Real-time Customer Data Platform]?
+keywords: Real-time Customer Data Platform;rtcdp;Personalisierung;AEP-Zielgruppen;Adobe Experience Platform-Zielgruppen
+description: Erfahren Sie, wie Sie die  [!DNL Target]/[!DNL Real-time Customer Data Platform] -Integration (RTCDP) zur Bereitstellung umfassenderer Kundendaten und einer wirkungsvolleren Personalisierung nutzen können.
+title: Wie kann ich  [!DNL Target]  mit  [!DNL Real-time Customer Data Platform] integrieren?
 feature: Integrations
-source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
-workflow-type: tm+mt
+exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
+source-git-commit: e0a6162edac53e11296c4ba77be7d2caf5f27b39
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
-
 # Integration mit Real-time Customer Data Platform
 
-Erstellt auf [!DNL Adobe Experience Platform], [!DNL Real-time Customer Data Platform] (RTCDP) hilft Unternehmen, bekannte und anonyme Daten aus verschiedenen Unternehmensquellen zusammenzuführen, um Kundenprofile zu erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse für alle Kanäle und Geräte bereitgestellt werden können.
+Die auf [!DNL Adobe Experience Platform] basierende [!DNL Real-time Customer Data Platform](RTCDP) hilft Unternehmen dabei, bekannte und anonyme Daten aus verschiedenen Unternehmensquellen zusammenzuführen, um Kundenprofile zu erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse auf allen Kanälen und Geräten bereitgestellt werden können.
 
-Weitere Informationen zur RTCDP finden Sie unter [Übersicht über Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de){target=_blank}.
+Weitere Informationen zu RTCDP finden Sie unter [Übersicht über Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de) {target=_blank}.
 
-Verwenden von Zielgruppen in [!DNL Adobe Target] erstellt in [!DNL Adobe Experience Platform] bietet umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen.
+Die Verwendung von Zielgruppen in [!DNL Adobe Target], die in [!DNL Adobe Experience Platform] erstellt wurden, liefert umfassendere Kundendaten, die eine wirkungsvollere Personalisierung ermöglichen.
 
-Durch Verbinden [!DNL Target] der [!DNL Real-time Customer Data Platform]können Kunden ihre Web-Personalisierung anreichern, indem sie neue Segmente entsperren, auf die zuvor nicht zugegriffen werden konnte. [!DNL Target] , um die Echtzeit-Millisekunde-Personalisierung auf der ersten Seite des Webbesuchs eines Kunden zu aktivieren. Verwenden von in erstellten Zielgruppen [!DNL Adobe Experience Platform] ermöglicht Ihnen, die verfügbaren Datenpunkte für eine umfassendere Personalisierung zu erweitern.
+Durch die Verbindung von [!DNL Target] mit [!DNL Real-time Customer Data Platform] können Kunden ihre Web-Personalisierung verbessern, indem sie neue Segmente nutzen, auf die zuvor über [!DNL Target] nicht zugegriffen werden konnte. Dies ermöglicht auf der ersten Seite eines Web-Besuchs Echtzeit-Personalisierung innerhalb von Millisekunden. Durch die Verwendung von in [!DNL Adobe Experience Platform] erstellten Zielgruppen können Sie die verfügbaren Datenpunkte erweitern, was eine umfassendere Personalisierung ermöglicht.
 
-Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Erstellen von Zielgruppen*.
+Weitere Informationen finden Sie unter [Verwenden von Zielgruppen von Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Erstellen von Zielgruppen*.
