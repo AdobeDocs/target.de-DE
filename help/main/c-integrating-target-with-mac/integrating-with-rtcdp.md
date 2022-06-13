@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Integration mit Real-time Customer Data Platform
 
-Die auf [!DNL Adobe Experience Platform] basierende [!DNL Real-time Customer Data Platform](RTCDP) hilft Unternehmen dabei, bekannte und anonyme Daten aus verschiedenen Unternehmensquellen zusammenzuführen, um Kundenprofile zu erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse auf allen Kanälen und Geräten bereitgestellt werden können.
+Die auf [!DNL Adobe Experience Platform] basierende [!DNL Real-time Customer Data Platform] (RTCDP) hilft Unternehmen dabei, bekannte und anonyme Daten aus verschiedenen Unternehmensquellen zusammenzuführen, um Kundenprofile zu erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse auf allen Kanälen und Geräten bereitgestellt werden können.
 
 Weitere Informationen zu RTCDP finden Sie unter [Übersicht über Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de) {target=_blank}.
 
