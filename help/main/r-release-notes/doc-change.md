@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4132'
 ht-degree: 98%
 
 ---
@@ -19,8 +19,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 7. Juni | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionshinweise für die [!DNL Target Standard/Premium] Version der Fehlerbehebungen für die Kundenentwicklung. |
-| 6. Juni | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion für die [!DNL Target Standard/Premium] Version der Fehlerbehebungen für die Kundenentwicklung. |
+| 7. Juni | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionshinweise für die [!DNL Target Standard/Premium] Version 2.6.1. |
+| 6. Juni | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion für die [!DNL Target Standard/Premium] Version 2.6.1. |
 | 31. Mai | [Target-Ankündigungen und -Events](/help/main/r-release-notes/target-announcements.md#webinar-series) | Es wurden Informationen über die kommenden [!DNL Adobe Target] Community-Kaffeepause (29. Juni 2022) |
 | 25. Mai | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen zum [!DNL Target] Plattform-Version (25. Mai 2022) und at.js 2.9.0-Version (27. Mai 2022). |
 |  | [at.js-Versionsdetails](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen über die at.js-Version 2.9.0 hinzugefügt. |
