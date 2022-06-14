@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+source-git-commit: fd49060cc193ef07d9309ceb11373b8747902f5c
 workflow-type: tm+mt
-source-wordcount: '4132'
+source-wordcount: '4167'
 ht-degree: 98%
 
 ---
@@ -15,12 +15,18 @@ ht-degree: 98%
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
 
+## Adobe Target Standard/Premium 2.6.1 (gestaffelte Version: 7.-9. Juni 2022)
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| 14. Juni | [Planen und Implementieren von Recommendations](/help/main/c-recommendations/plan-implement.md) | Codebeispiele wurden in den folgenden Abschnitten aktualisiert:<ul><li>Zusatz zum Warenkorb/Ansichten/Checkout-Seiten</li><li>Ausschließen von bereits im Warenkorb befindlichen Artikeln</li></ul> |
+| 7. Juni | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionshinweise für die [!DNL Target Standard/Premium] Version 2.6.1. |
+
 ## Adobe Target Standard/Premium 22.5.1 (gestaffelte Veröffentlichung; 11.–13. Mai 2022)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 7. Juni | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionshinweise für die [!DNL Target Standard/Premium] Version 2.6.1. |
-| 6. Juni | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion für die [!DNL Target Standard/Premium] Version 2.6.1. |
+| 7. Juni | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion für die [!DNL Target Standard/Premium] Version 2.6.1. |
 | 31. Mai | [Target-Ankündigungen und -Events](/help/main/r-release-notes/target-announcements.md#webinar-series) | Es wurden Informationen über die kommenden [!DNL Adobe Target] Community-Kaffeepause (29. Juni 2022) |
 | 25. Mai | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen zum [!DNL Target] Plattform-Version (25. Mai 2022) und at.js 2.9.0-Version (27. Mai 2022). |
 |  | [at.js-Versionsdetails](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Es wurden Informationen über die at.js-Version 2.9.0 hinzugefügt. |
