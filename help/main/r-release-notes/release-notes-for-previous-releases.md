@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
 workflow-type: tm+mt
-source-wordcount: '33451'
+source-wordcount: '33782'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,29 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise für 2022
+
+### [!DNL Target Standard/Premium] 22.5.1 (gestaffelte Veröffentlichung; 11.–13. Mai 2022)
+
+Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
+
+* **11. Mai**: Region Asien-Pazifik (APAC)
+* **12. Mai**: Region Nord- und Südamerika
+* **13. Mai**: Region Europa, Naher Osten und Afrika (EMEA)
+
+Dieses Release umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+* Es wurde ein Fehler behoben, der zu einem JavaScript-Fehler führte und manche Kunden daran hinderte, die Aktivitätsdetails für bestimmte [!UICONTROL Automated Personalization] (AP)-Aktivitäten aufzurufen. (TGT-43526)
+* Es wurde ein Fehler behoben, durch den manche Kunden daran gehindert wurden, eine bestimmtes Angebot zu bearbeiten oder es einer AP-Aktivität hinzuzufügen. (TGT-43503)
+* Es wurde ein Fehler in der [!DNL Target]-Benutzeroberfläche behoben, in der die folgende Fehlermeldung angezeigt wurde: „Ihre globale Mbox ist möglicherweise nicht synchronisiert. Speichern Sie sie erneut.“ Dieser Fehler war ein UI-Problem und hatte keine Auswirkungen auf die Implementierungen bei Kunden. (TGT-43475)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, Standortpräzisierungen auf Erlebnisebene und Zielgruppen für eine Aktivität zu bearbeiten, wenn die Standortpräzisierungen und Zielgruppen vor der Bereitstellung der neuen [!UICONTROL Zielgruppen]-Benutzeroberfläche erstellt worden waren. (TGT-43433)
+* Es wurde ein Fehler behoben, durch den Kunden beim Bearbeiten von Berichtszielgruppen für eine Aktivität doppelte [!DNL Adobe Audience Manager]-Zielgruppen (AAM) auswählen konnten. (TGT-43430)
+* Es wurde ein Fehler behoben, durch den Kunden keine doppelten Zielgruppen erstellen konnten, die sich in verschiedenen Arbeitsbereichen befanden. (TGT-43423)
+* Es wurde ein Fehler behoben, der verhinderte, dass Kunden Standorte löschen konnten, die Ad-hoc-Angebote in Aktivitäten enthielten, die in [!UICONTROL Form-Based Experience Composer] erstellt worden waren. (TGT-43315)
+* Es wurde ein Fehler behoben, der Kunden daran hinderte, auf Code-Angebote zuzugreifen, nachdem sie auf Bildangebote geklickt und dann die Benutzeroberfläche aktualisiert hatten. (TGT-43566)
+* Es wurde ein Fehler behoben, durch den Änderungen an Profilskripten wieder in den ursprünglichen, nicht bearbeiteten Zustand des Skripts zurückkehrten, nachdem das Skript bearbeitet, aktiviert und dann deaktiviert worden war. Das Profilskript verbleibt jetzt im bearbeiteten Status. (TGT-43249)
+* Es wurde ein Fehler behoben, der die folgende Fehlermeldung verursachte, wenn versucht wurde, eine Zielgruppe in einen anderen Arbeitsbereich zu verschieben: „Wir können Ihre Anfrage nicht durchführen. Wenden Sie sich an den Kundendienst von Adobe, wenn das Problem weiterhin besteht.“ (TGT-43212)
+* Es wurde folgender Fehler behoben: Beim Klonen von Änderungen an benutzerdefiniertem Code für Einzelseiten-Apps (SPA) tritt kein Fehler mehr auf. (TGT-43137)
+* Es wurde ein Problem behoben, das dazu führte, dass die ursprüngliche Promotion nach dem Duplizieren eines Erlebnisses und dem anschließenden Bearbeiten der Promotion beeinträchtigt war. (TGT-41775)
 
 ### [!DNL Target Standard/Premium] 22.4.1 (28. April 2022)
 
@@ -53,7 +76,7 @@ Diese Version enthält die folgende Aktualisierung:
 Dieses Maintenance Release umfasst die folgenden Erweiterungen:
 
 * Funktion zur Rückgabe hinzugefügt [!DNL Analytics] Nutzlastdaten für `prefetch` Ansichten und `pageLoad` Klicken Sie bei Verwendung von [!UICONTROL Bereitstellungs-API] mit Aktivitäten, die [!UICONTROL Analytics als Berichtsquelle] (A4T). (TNT-43198)
-* Die Liste der Benutzeragenten für die Bot-Filterung wurde aktualisiert, damit ein in Japan häufig verwendeter Browsertyp zugelassen wird. (TNT-43867)
+* Die Liste der Benutzeragenten für die Bot-Filterung wurde aktualisiert, um einen in Japan häufig verwendeten Browsertyp zuzulassen. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1. Februar 2022)
 
