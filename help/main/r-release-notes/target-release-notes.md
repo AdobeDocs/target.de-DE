@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+source-git-commit: c9032a8c537a7618b92996c042688a84ea9649c2
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 63%
+source-wordcount: '203'
+ht-degree: 69%
 
 ---
 
@@ -15,23 +15,17 @@ ht-degree: 63%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert: 7. Juni 2022**
+**Zuletzt aktualisiert: 16. Juni 2022**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!DNL Target Standard/Premium] 2.6.1 (gestaffelte Version: 7.-9. Juni 2022)
-
-Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
-
-* **Juni 7**: Region Asien-Pazifik (APAC)
-* **Juni 8**: Amerikanische Region
-* **9. Juni**: Region Europa, Naher Osten und Afrika (EMEA)
+## [!DNL Target Standard/Premium] 22.6.2 (24. Juni 2022)
 
 Dieses Release umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Benutzer mit [!UICONTROL Editor] -Rolle kann Zielgruppen in Live-Aktivitäten nicht mehr bearbeiten. (TGT-43582)
-* Für die neue [!UICONTROL Zielgruppen] , um einen inkonsistenten Zustand zwischen der alten Datenbank zu verhindern, in der die Zielgruppen in der Vergangenheit gespeichert wurden, und der neuen Architektur, in der die Informationen direkt aus dem Backend abgerufen werden. (TGT-43552)
-* Es wurde ein Fehler behoben, der dazu führte, dass einige Kunden kombinierte Zielgruppen nicht speichern konnten, da die Target-Benutzeroberfläche &quot;leere&quot;Container erstellte. (TGT-43588)
+* Freigegebene Kundenattribute [!DNL Adobe Experience Platform] nach [!DNL Target] im [!DNL Platform] Die Benutzeroberfläche ist in [!DNL Target] Benutzeroberfläche. (TGT-43150)
+* Es wird eine Warnmeldung angezeigt, wenn ein Kunde versucht, eine Zielgruppe mit einem Ausrufezeichen ( ! ) als erstes Zeichen des Namens der Zielgruppe (z. B. !London). (TGT-43643)
+* Es wurde ein Fehler behoben, der dazu führte, dass auf den Karten mit Details zur Zielgruppendefinition für einige Kunden angezeigt wurde, dass eine beendete Aktivität weiterhin live war. (TGT-43527)
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
