@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
+source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 82%
+source-wordcount: '489'
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,6 @@ Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
 Dieses Release umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Benutzer mit [!UICONTROL Editor] -Rolle kann Zielgruppen in Live-Aktivitäten nicht mehr bearbeiten. (TGT-43582)
 * Für die neue [!UICONTROL Zielgruppen] , um einen inkonsistenten Zustand zwischen der alten Datenbank zu verhindern, in der die Zielgruppen in der Vergangenheit gespeichert wurden, und der neuen Architektur, in der die Informationen direkt aus dem Backend abgerufen werden. (TGT-43552)
 * Es wurde ein Fehler behoben, der dazu führte, dass einige Kunden kombinierte Zielgruppen nicht speichern konnten, da die Target-Benutzeroberfläche &quot;leere&quot;Container erstellte. (TGT-43588)
 
