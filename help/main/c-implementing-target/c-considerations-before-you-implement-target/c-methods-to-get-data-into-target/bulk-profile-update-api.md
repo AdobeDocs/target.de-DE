@@ -5,10 +5,10 @@ title: Wie erhalte ich Daten? [!DNL Target] Verwenden der Bulk-Profil-Update-API
 feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 95566b428d7404b0f336221881849c13707bb314
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 82%
+source-wordcount: '392'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,8 @@ Diese Option ähnelt Kundenattributen mit einigen Unterschieden:
 * Kundenattribute verwenden einen FTP-Upload, während die Target Bulk-Profil-Update-API eine HTTP POST-API verwendet.
 * Die Daten der Kundenattribute können mit Analytics geteilt werden. Bulk-Profil-Update ist nur in Target verwendbar.
 * Kundenattribute unterstützen die Erstellung eines Profils für einen Benutzer, den Target noch nicht gesehen hat. Die Bulk-Profil-Update-API aktualisiert nur bestehende Target-Profile.
-* Kundenattribute erfordern die Verwendung der Experience Cloud ID (ECID). Die Bulk-Profil-Update-API benötigt entweder die TNT ID oder die `mbox3rdPartyId`.
+* Kundenattribute erfordern die Verwendung der Experience Cloud-ID (ECID) und einer Quell-ID, z. B. der CRM-ID oder der Loyalitäts-ID.
+* Die Bulk-Profil-Update-API benötigt entweder die TNT ID oder die `mbox3rdPartyId`.
 * Folgende Zeichen können nicht gesendet werden `mbox3rdPartyID`: Plus-Zeichen (+) und Schrägstrich (/).
 
 ## Format
