@@ -5,10 +5,10 @@ title: Wie verwaltet at.js Flackern?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
+source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 68%
 
 ---
 
@@ -108,7 +108,7 @@ body {opacity: 0 !important}
 
 ## Flackern in at.js 2.x für triggerView() verwalten
 
-Wenn Sie `triggerView()` benutzen, um zielgerichtete Inhalte in Ihrer SPA anzuzeigen, wird das Flackern vorkonfiguriert gehandhabt. Das bedeutet, dass die Pre-hiding-Logik nicht manuell hinzugefügt werden muss. Stattdessen blendet at.js 2.x im Voraus den Ort aus, an dem Ihre Ansicht angezeigt werden muss, bevor der zielgerichtete Inhalt angewendet wird.
+Die DOM-Vorab-Ausblendung gilt nur für das erstmalige Laden der Seite. Für SPA wird das DOM aktualisiert, wenn `triggerView()` aufgerufen wird. Es kann ein kurzes Flackern zwischen dem Zeitpunkt, zu dem der SPA Inhalte für DOM- und at.js-Aktualisierungen rendert [!DNL Target] Angebote.  So minimieren Sie Flackern, wenn Sie `triggerView` Zum Ändern des Seitenladerinhalts sollte &quot;triggerView&quot;aufgerufen werden, sobald die Seite gerendert wird.
 
 ## Beheben von Flackern mit getOffer() und applyOffer()
 
