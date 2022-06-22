@@ -7,28 +7,28 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Ankündigungen und Veranstaltungen zu Target
 
-Mitteilungen und Informationen über bevorstehende [!DNL Adobe Target] Ereignisse, einschließlich [!DNL Target] Kaffeepausen, [!DNL Target] Webinarreihe, [!DNL Target] Skill Builder-Sitzungen, Entwicklerchats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
+Mitteilungen und Informationen über bevorstehende [!DNL Adobe Target]-Ereignisse, einschließlich kurzen Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
 
-## Adobe Target Community-Kaffeepause (29. Juni 2022)
+## Kurze Session der Adobe Target-Community (29. Juni 2022)
 
 +++Hier klicken
 
 * **Mittwoch, 29. Juni 2022**
 * **8:00 bis 9:00 Uhr (PDT, UTC-7)**
-* **[Weitere Informationen und Registrierung](https://adobe.ly/3wKhcQS) {target=_blank}**
+* **[Weitere Informationen und Registrierung](https://adobe.ly/3wKhcQS){target=_blank}**
 
-Wir werden von Jordan Ison, Kati McKinney, Justine Lee und Kaela Cusack vom Adobe Solutions Consulting Team begleitet, um direkt mit Ihnen über ihre Fachgebiete zu sprechen. Sie werden auch alle Fragen im Zusammenhang mit Themen beantworten, die während der Personalisierung mit Präzision am 22.06.22 behandelt werden: Adobe Analytics und Target-Webinar (weitere Informationen unten):
+Wir werden von Jordan Ison, Kati McKinney, Justine Lee und Kaela Cusack vom Adobe Solutions Consulting Team begleitet, um direkt mit Ihnen über ihre Fachgebiete zu sprechen. Sie werden auch alle Fragen im Zusammenhang mit Themen beantworten, die am 2.6.22 während Webinars „Personalisierung mit Präzision: Adobe Analytics und Target“ behandelt werden (weitere Informationen unten):
 
 * Wie Marketing-Experten, Entwickler und Produkt-Teams die Blackbox der KI öffnen können, um zukünftige Test- und Personalisierungsstrategien zu entwickeln
-* Überwinden von Herausforderungen bei der Optimierung von Web, Mobile App, E-Mail, IoT und jedem digitalen Touchpoint für höhere Konversion und Interaktion
+* Überwinden der Herausforderungen bei der Optimierung von Web, Mobile Apps, E-Mail, Internet der Dinge und jedes digitalen Kontaktpunkts für höhere Konversions- und Interaktionsraten.
 * Adobe Analytics- und Adobe Target-Workflows für Personalisierung, Targeting und Tests
-* Grundlegendes zu Anwendungsfällen, um zu entsperren, welche Attribute das Besucherverhalten vorhersagen und welche Attribute für wichtige Visualisierungen und Segmentierungsanalysen am wichtigsten sind
+* Verstehen der häufigsten Anwendungsfälle, die zeigen, welche Attribute das Besucherverhalten vorhersagen und welche für Visualisierungen und Segmentierungsanalysen am wichtigsten sind
 
 +++
 
@@ -89,7 +89,7 @@ Erfahren Sie von Kaitlin White (Adobe Product Marketing Manager) Wissenswertes �
 
 ### Adobe: Personalization Industry Insider – Einzelhandel (21. Juni 2022)
 
-Das Jahr 2022 bereitet Unternehmen ein dynamisches und sich schnell veränderndes Umfeld für ihren Betrieb. Erfahren Sie, welche neuen Verbrauchertrends Branchenexperten erkennen, während sich das Leben für Arbeitnehmer und Reisende wieder normalisiert. 
+Das Jahr 2022 bereitet Unternehmen ein dynamisches und sich schnell veränderndes Umfeld für ihren Betrieb. Erfahren Sie, welche neuen Verbraucher-Trends Branchenexperten erkennen, während sich das Leben für Arbeitnehmer und Reisende wieder normalisiert. 
 
 +++Hier klicken
 
@@ -102,7 +102,7 @@ Erleben Sie, wenn Michael Klein (Director, Industry Strategy Retail) und Leina B
 
 ## Aufzeichnungen früherer Webinare und Schulungen
 
-Auf Aufzeichnungen vergangener Ereignisse zugreifen:
+Zugriff auf Aufzeichnungen vergangener Events:
 
 ### Dick&#39;s Sporting Goods: Personalisierung und die sich ändernde Landschaft im Einzelhandel (19. Mai 2022)
 

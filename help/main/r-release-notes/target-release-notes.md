@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 65%
+ht-degree: 71%
 
 ---
 
@@ -21,9 +21,9 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 ## [!DNL Target Standard/Premium] 22.6.2 (24. Juni 2022)
 
-Dieses Release umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Benutzer mit [!UICONTROL Editor] -Rolle kann Zielgruppen in Live-Aktivitäten nicht mehr bearbeiten. (TGT-43582)
+* Benutzer mit [!UICONTROL Editor]-Rolle können Zielgruppen in Live-Aktivitäten nicht mehr bearbeiten. (TGT-43582)
 * Freigegebene Kundenattribute [!DNL Adobe Experience Platform] nach [!DNL Target] im [!DNL Platform] Die Benutzeroberfläche ist in [!DNL Target] Benutzeroberfläche. (TGT-43150)
 * Es wird eine Warnmeldung angezeigt, wenn ein Kunde versucht, eine Zielgruppe mit einem Ausrufezeichen ( ! ) als erstes Zeichen des Namens der Zielgruppe (z. B. !London). (TGT-43643)
 * Es wurde ein Fehler behoben, der dazu führte, dass auf den Karten mit Details zur Zielgruppendefinition für einige Kunden angezeigt wurde, dass eine beendete Aktivität weiterhin live war. (TGT-43527)

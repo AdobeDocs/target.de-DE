@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -22,14 +22,14 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
-* **Juni 7**: Region Asien-Pazifik (APAC)
-* **Juni 8**: Amerikanische Region
+* **7. Juni**: Region Asien-Pazifik (APAC)
+* **8. Juni**: Amerikanische Region
 * **9. Juni**: Region Europa, Naher Osten und Afrika (EMEA)
 
-Dieses Release umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Für die neue [!UICONTROL Zielgruppen] , um einen inkonsistenten Zustand zwischen der alten Datenbank zu verhindern, in der die Zielgruppen in der Vergangenheit gespeichert wurden, und der neuen Architektur, in der die Informationen direkt aus dem Backend abgerufen werden. (TGT-43552)
-* Es wurde ein Fehler behoben, der dazu führte, dass einige Kunden kombinierte Zielgruppen nicht speichern konnten, da die Target-Benutzeroberfläche &quot;leere&quot;Container erstellte. (TGT-43588)
+* Es wurde eine Verbesserung für die neue Seite [!UICONTROL Zielgruppen] bereitgestellt, um einen inkonsistenten Zustand zwischen der alten Datenbank, in der die Zielgruppen in der Vergangenheit gespeichert waren, und der neuen Architektur, die die Informationen direkt aus dem Backend abruft, zu verhindern. (TGT-43552)
+* Es wurde ein Fehler behoben, der dazu führte, dass einige Kunden kombinierte Zielgruppen nicht speichern konnten, da die Target-Benutzeroberfläche „leere“ Container erstellte. (TGT-43588)
 
 ## Target-Plattform-Release (25. Mai 2022)
 
