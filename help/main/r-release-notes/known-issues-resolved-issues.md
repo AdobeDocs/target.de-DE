@@ -5,9 +5,9 @@ title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4506'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Ein Problem mit EEC verhindert derzeit, dass PUT-Anfragen unterstützt werden, u
 
 Der Versuch, inaktive Aktivitäten für [!UICONTROL Automatisches Targeting] zu archivieren, kann zu Synchronisationsproblemen führen. Solange dieses Problem nicht behoben ist, archivieren Sie die Aktivitäten für [!UICONTROL Automatisches Targeting] nicht. Belassen Sie sie im Status [!UICONTROL Inaktiv]. (TGT-40885)
 
-### Umleitungsangebote {#redirect}
+### Weiterleitungsangebote {#redirect}
 
 * Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
 
@@ -133,11 +133,11 @@ Da die oben genannten bekannten Probleme behoben wurden, werden sie in die folge
 
 * Wenn Sie ein Erlebnis ohne Änderungen mit at.js 2.1.1 oder einer früheren Version erstellen (z. B. ein Standarderlebnis), wird das Erlebnis möglicherweise nicht in Berichten, Analytics for Target (A4T), Adobe Analytics oder Google Analytics gezählt. Darüber hinaus funktioniert das ttMeta-Plug-in möglicherweise nicht ordnungsgemäß.
 
-   Verwenden Sie als Problemumgehung im Erlebnisinhalt einen Leerraum.
+   Verwenden Sie als Problemumgehung im Erlebnisinhalt ein Leerzeichen.
 
    Eine Korrektur dieses Problems wurde in at.js 2.2.0 implementiert. Führen Sie das Upgrade auf die [neueste Version von at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) durch oder verwenden Sie die oben genannte Problemumgehung, jedoch nur für at.js-Versionen vor 2.2.0.  (TNT-33366)
 
-* Bei Verwendung von at.js-Versionen vor 2.2.0 werden bei der Klick-Verfolgung keine Konversionen in [!UICONTROL Analytics for Target] (A4T) wenn [!DNL Adobe Analytics] -Code ist nicht in Seitenelementen (wie Schaltflächen) vorhanden.
+* Bei Verwendung einer at.js-Version vor 2.2.0 werden beim Klick-Tracking keine Konversionen in [!UICONTROL Analytics for Target] (A4T) gemeldet, wenn der [!DNL Adobe Analytics]-Code nicht in Seitenelementen (z. B. Schaltflächen) vorhanden ist.
 
    Für dieses Problem wurde in at.js 2.2.0 eine Korrektur implementiert. Wenn dieses Problem auftritt, [führen Sie ein Upgrade auf die neueste at.js-Version durch](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -145,11 +145,11 @@ Da die oben genannten bekannten Probleme behoben wurden, werden sie in die folge
 
 Am 10. Mai 2020 wurden von Adobe die GEO-Provider-Dateien aktualisiert, wodurch einige Inkonsistenzen entstanden sind. Beispielsweise wurden einige Werte mit Kommas hinzugefügt, obwohl die Werte in bestehenden Zielgruppen keine Kommas enthielten. Nicht alle Adobe-Bereitstellungsserver waren von dieser Änderung betroffen. Für Zielgruppen, die solche Werte verwenden, sind daher möglicherweise noch nicht alle richtigen Besucher zwischen dem 10. Mai und dem 22. Juli 2020 qualifiziert.
 
-### Kopieren einer [!UICONTROL Recommendations] activity
+### Kopieren einer [!UICONTROL Recommendations]-Aktivität
 
-Beim Kopieren einer [!UICONTROL Recommendations] -Aktivität mit einer aktiven Promotion verwenden, wirkt sich jede Änderung in der duplizierten Aktivität derzeit auch auf die ursprüngliche Aktivität aus und umgekehrt. (TGT-39155)
+Wenn eine [!UICONTROL Recommendations]-Aktivität mit einer aktiven Promotion kopiert wird, wirkt sich derzeit jede Änderung an der kopierten bzw. der ursprünglichen Aktivität auch auf das Original bzw. die Kopie aus. (TGT-39155)
 
-Dieses Problem wurde im [!DNL Target Standard/Premium] Version 21.2.1.
+Dieses Problem wurde in der [!DNL Target Standard/Premium]-Version 21.2.1 behoben.
 
 ### QA-Modus für Recommendations-Aktivitäten
 
@@ -305,7 +305,7 @@ Mboxes werden in Microsoft Explorer 11-Browsern nicht ausgelöst, nachdem ein U
 
 Mit der Veröffentlichung von API 2.3.0 oder höher behoben.
 
-### Geo   Targeting
+### Geo Targeting
 
 Die Suche nach Zeichenfolgen, die Sonderzeichen enthalten (wie z. B. Leerzeichen oder Komma), wird bei der Erstellung von Geotargeting-Zielgruppen derzeit nicht unterstützt. Das Problem tritt beispielsweise auf, wenn Sie Zielgruppen basierend auf Städten, Bundesländern, Ländern usw. erstellen. Wenn Sie z. B. „New York“ eingeben, werden keine gültigen Suchergebnisse zurückgegeben.
 
