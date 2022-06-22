@@ -4,10 +4,10 @@ description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie
 title: 'Wie verwende ich die Benutzeroberfläche von  [!DNL Target] '
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
+source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 46%
+source-wordcount: '1313'
+ht-degree: 45%
 
 ---
 
@@ -115,6 +115,11 @@ So bearbeiten Sie Ihre Benachrichtigungseinstellungen:
    * Für mich freigegeben: Wenn jemand ein Objekt mit Ihnen teilt.
    * Inhaltsaktualisierungen: Wenn jemand ein Objekt bearbeitet, löscht oder kommentiert, das Sie erstellt haben oder dem Sie folgen.
    * Sonstige:
+
+   >[!NOTE]
+   >
+   >&quot;Neue Versionen&quot;und &quot;Aktualisierungen des Inhalts&quot;sind die einzigen Benachrichtigungskategorien, die für [!DNL Target]. Die anderen Kategorien gelten auch für andere Adoben.
+
 
 1. Wählen Sie die Kategorien aus, die als vorrangig betrachtet werden sollen.
 1. Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen.
