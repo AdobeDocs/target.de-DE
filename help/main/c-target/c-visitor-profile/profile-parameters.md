@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besuc
 title: Was sind Profilattribute?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 4defa243e1e8afb02a481e979ac78c89642beb8a
-workflow-type: ht
-source-wordcount: '2423'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2437'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ So richten Sie Profilattribute ein:
 
    | Parametertyp | Beschreibung |
    |--- |--- |
-   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Hinweis**: [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, verwenden Sie hierzu die API-Methode „Profil-Update“. Weitere Informationen finden Sie unter [Profil-Update in der  [!DNL Adobe Target] API-Dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).<br>**Hinweis**: [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, verwenden Sie hierzu die API-Methode „Profil-Update“. Weitere Informationen finden Sie unter [Profil-Update in der  [!DNL Adobe Target] API-Dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
    | Profil | Direkt mit einem JavaScript-Code-Snippet definiert. Mit diesen Snippets können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte werden bei jeder Mbox-Anfrage ausgeführt. Siehe Profilskriptattribute unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -177,7 +177,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 **Kann ich mit Profilskripten Informationen von einer Seite erfassen, die sich im Daten-Layer befindet?**
 
-Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere    [Verfahren für die Datenübernahme in Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) übergeben werden. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
+Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere    [Verfahren für die Datenübernahme in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/) übergeben werden. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
 
 ## JavaScript-Referenz für Skript-Profilparameter
 

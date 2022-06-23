@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie beim Erstellen von Personalisierungsmodellen 
 title: Wie kann ich Daten für Personalisierungsalgorithmen hochladen?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 75%
+source-wordcount: '299'
+ht-degree: 73%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 Offline-Daten, wie z. B. CRM-Informationen oder Tendenzwerte zur Kundenabwanderung, können beim Erstellen von Personalisierungsmodellen in [!DNL Adobe Target] [!UICONTROL Automated Personalization] AP-Aktivitäten.
 
-Es gibt verschiedene Möglichkeiten für die Dateneingabe in die Algorithmen zur [!UICONTROL automatisierten Personalisierung] (AP) und zum [!UICONTROL automatischen Targeting. ] Zusätzlich zu den Methoden in  [Verfahren für die Datenübernahme in Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) werden gemeinsam genutzte Experience Cloud-Zielgruppen (Adobe Analytics, Audience Management) und aktivitätsinterne Berichtszielgruppen auch in unseren Algorithmen verwendet.
+Es gibt verschiedene Möglichkeiten für die Dateneingabe in die Algorithmen zur [!UICONTROL automatisierten Personalisierung] (AP) und zum [!UICONTROL automatischen Targeting. ] Zusätzlich zu den Methoden in  [Verfahren für die Datenübernahme in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/) werden gemeinsam genutzte Experience Cloud-Zielgruppen (Adobe Analytics, Audience Management) und aktivitätsinterne Berichtszielgruppen auch in unseren Algorithmen verwendet.
 
 Informationen zu den Daten, die automatisch von den Personalisierungsalgorithmen der automatisierten Personalisierung und des automatischen Targetings gesammelt und verwendet werden, finden Sie unter [Datenerfassung für die automatisierte Personalisierung](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie verschiedene von Adobe definierte Segmente funkti
 title: Was ist der Bericht "Automatisierte Segmente"?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2113'
 ht-degree: 82%
 
 ---
@@ -113,7 +113,7 @@ Es kann verschiedene Gründe dafür geben, dass die [!UICONTROL Personalization 
 
 Ein Attribut ist eine Information zu einem Besucher oder seinem spezifischen Besuch, die von den Personalisierungsalgorithmen verwendet wird, um die Traffic-Personalisierung anzupassen. Bei einem Attribut kann es sich beispielsweise um den Browsertyp, den Standort, die Uhrzeit des Besuchs usw. handeln.
 
-Weitere Informationen zu den Attributen, die [!DNL Target] in seinen Personalisierungsmodellen nutzt, finden Sie unter [Datenerfassung für die Personalisierungsalgorithmen von Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Weitere Informationen zum Hochladen neuer Attribute in Target für die Verwendung in den Personalisierungsmodellen von Target finden Sie unter [Verfahren für die Datenübernahme in Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Weitere Informationen zu den Attributen, die [!DNL Target] in seinen Personalisierungsmodellen nutzt, finden Sie unter [Datenerfassung für die Personalisierungsalgorithmen von Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Weitere Informationen zum Hochladen neuer Attribute in Target für die Verwendung in den Personalisierungsmodellen von Target finden Sie unter [Verfahren für die Datenübernahme in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/).
 
 **Was ist ein automatisiertes Segment?**
 

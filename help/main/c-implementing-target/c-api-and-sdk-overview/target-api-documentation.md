@@ -5,10 +5,10 @@ title: Wie kann ich von alten APIs zu Adobe I/O wechseln?
 feature: Implement Server-side
 role: Developer
 exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 83%
+source-wordcount: '608'
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ Informationen für einen leichteren Übergang von den Target-Vorgänger-APIs zu 
 
 Mit der Außerbetriebnahme von Adobe Target Classic stehen auch die mit Ihrem Target Classic-Konto verknüpften APIs nicht mehr zur Verfügung. Dieses Dokument enthält Informationen, die Ihnen beim Übergang von Ihren alten API-basierten Integrationen zu den Target-APIs von Adobe I/O helfen.
 
-Weitere Informationen zur Target-API-Dokumentation finden Sie unter  [Target-APIs und NodeJS-SDK](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
+Weitere Informationen zur Target-API-Dokumentation finden Sie unter  [Target-APIs und NodeJS-SDK](https://developer.adobe.com/target/implement/server-side/).
 
 ## Terminologie   {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
@@ -48,15 +48,15 @@ Die neuen API-Methoden sind mit dem entsprechenden Abschnitt auf der API-Dokumen
 |--- |--- |--- |--- |
 | Kampagne/Aktivität | Kampagnenerstellung | [AB-Aktivität erstellen](https://developers.adobetarget.com/api/#create-ab-activity)<br>[XT-Aktivität erstellen](https://developers.adobetarget.com/api/#create-xt-activity) | Die neuen APIs enthalten separate Erstellungsmethoden für AB und XT |
 |  | Kampagnenaktualisierung | [AB-Aktivität aktualisieren](https://developers.adobetarget.com/api/#update-ab-activity)<br>[XT-Aktivität aktualisieren](https://developers.adobetarget.com/api/#update-xt-activity) |  |
-|  | Kampagne kopieren | Nicht zutreffend | APIs zum Erstellen von Aktivitäten verwenden |
+|  | Kampagne kopieren | K. A. | APIs zum Erstellen von Aktivitäten verwenden |
 |  | Kampagnenliste | [Listenaktivitäten](https://developers.adobetarget.com/api/#list-activities) |  |
 |  | Kampagnenstatus | [Aktivitätsstatus aktualisieren](https://developers.adobetarget.com/api/#update-activity-state) |  |
 |  | Kampagnenansicht | [AB-Aktivität nach ID abrufen](https://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[XT-Aktivität nach ID abrufen](https://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
-|  | Drittanbieter-Kampagnen-ID | Nicht zutreffend | Wenn Sie eine thirdpartyID verwenden, können die relevanten Aktivitätsmethoden verwendet werden |
+|  | Drittanbieter-Kampagnen-ID | K. A. | Wenn Sie eine thirdpartyID verwenden, können die relevanten Aktivitätsmethoden verwendet werden |
 | Angebote | Angebotserstellung | [Angebot erstellen](https://developers.adobetarget.com/api/#create-offer) |  |
 |  | Angebotsabruf | [Angebot nach ID abrufen](https://developers.adobetarget.com/api/#get-offer-by-id) |  |
 |  | Angebotsliste | [Angebote auflisten](https://developers.adobetarget.com/api/#list-offers) |  |
-|  | Ordnerliste | Nicht zutreffend | Ordner werden in Target Standard/Premium nicht unterstützt |
+|  | Ordnerliste | K. A. | Ordner werden in Target Standard/Premium nicht unterstützt |
 | Berichterstellung | Kampagnenleistungsbericht | [AB-Leistungsbericht abrufen](https://developers.adobetarget.com/api/#get-ab-performance-report)<br>[XT-Leistungsbericht abrufen](https://developers.adobetarget.com/api/#get-xt-performance-report) |  |
 |  | Audit-Bericht | [Audit-Bericht abrufen](https://developers.adobetarget.com/api/#get-audit-report) |  |
 |  | 1-1-Inhaltsbericht | [AP-Leistungsbericht abrufen](https://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |

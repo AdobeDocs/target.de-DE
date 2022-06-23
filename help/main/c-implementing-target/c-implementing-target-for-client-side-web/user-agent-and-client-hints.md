@@ -5,10 +5,10 @@ title: User Agent und Client Hints
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
-workflow-type: ht
-source-wordcount: '1332'
-ht-degree: 100%
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+workflow-type: tm+mt
+source-wordcount: '1344'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Die Informationen in diesem Artikel gelten für [at.js-Version 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (oder höher).
+>Die Informationen in diesem Artikel gelten für [at.js-Version 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (oder höher).
 
 
 Jedes Mal, wenn ein Webbrowser eine Anfrage an einen Server sendet, enthält der Header der Anfrage Informationen über den Browser und die Umgebung, in der der Browser ausgeführt wird. Seit den frühen Tagen des Internets wurden diese Daten in einer Zeichenfolge zusammengefasst, dem sogenannten user-agent.
@@ -171,14 +171,14 @@ Dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH
 Zielgruppenattribut: wird Benutzern über Profilskripte bereitgestellt.
 Profilskriptverwendung: `user.clientHint('sec-ch-ua-arch')`
 
-#### Sec-CH-UA-Bitness
+#### SEC-CH-UA-Bitness
 
 Entropie: Hoch
 Dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness) {target=_blank}
 Zielgruppenattribut: wird Benutzern über Profilskripte bereitgestellt.
 Profilskriptverwendung: `user.clientHint('sec-ch-ua-bitness')`
 
-#### Sec-CH-UA-Full-Version-List
+#### sec-CH-UA-full-version-list
 
 Entropie: Hoch
 Dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version-List](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version-List) {target=_blank}
@@ -192,7 +192,7 @@ Dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH
 Zielgruppenattribut: Mobile
 Profilskriptverwendung: `user.clientHint('sec-ch-ua-mobile')`
 
-#### Sec-CH-UA-Model
+#### Sec-CH-UA-Modell
 
 Entropie: Hoch
 Dokumentation: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model) {target=_blank}
@@ -225,4 +225,4 @@ Ab at.js 2.9.0 werden User Agent Client Hints automatisch im Browser erfasst und
 
 ### Server-seitige SDKs
 
-Weitere Informationen zum Übergeben von client hints mithilfe von Server-seitigen SDKs finden Sie unter [Client Hints](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints) {target=_blank} in der Dokumentation zu *Adobe Target SDKs*.
+Weitere Informationen zum Übergeben von Client-Hinweisen über Server-seitige SDKs finden Sie unter [Client-Hinweise](https://developer.adobe.com/target/implement/server-side/sdk-guides/core-principles/audience-targeting/){target=_blank} unter *Zielgruppen-Targeting* im *Adobe Target SDKs* Dokumentation.

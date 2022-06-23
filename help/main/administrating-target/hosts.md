@@ -5,9 +5,9 @@ title: Was sind Hosts und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 22%
 
 ---
@@ -86,7 +86,7 @@ Wenn eine [!DNL Target] -Anfrage auf einem nicht autorisierten Host erfolgt, ant
 
 >[!IMPORTANT]
 >
->**Best Practices für die Sicherheit**: Wenn Sie die Ubox-Funktion von [!DNL Target], steuert diese Zulassungsliste auch die Liste der Domänen, auf die Ihre [Weiterleitungen](/help/main/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) kann navigieren. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, zu denen Sie umleiten möchten, wenn Sie &quot;ubox&quot;als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben wird, [!DNL Adobe] ist nicht in der Lage, die Umleitungs-URLs zu überprüfen und vor potenziellen schädlichen Umleitungen zu schützen.
+>**Best Practices für die Sicherheit**: Wenn Sie die Ubox-Funktion von [!DNL Target], steuert diese Zulassungsliste auch die Liste der Domänen, auf die Ihre [Weiterleitungen](https://developer.adobe.com/target/implement/email/working-with-redirectors/) kann navigieren. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, zu denen Sie umleiten möchten, wenn Sie &quot;ubox&quot;als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben wird, [!DNL Adobe] ist nicht in der Lage, die Umleitungs-URLs zu überprüfen und vor potenziellen schädlichen Umleitungen zu schützen.
 >
 >Die Zulassungsliste hat Vorrang vor Umgebungen. Löschen Sie alle Hosts, bevor Sie die Funktion &quot;Zulassungsliste&quot;verwenden, und dann werden nur die von der Zulassungsliste zugelassenen Hosts in Ihrer Hostliste angezeigt. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
 
@@ -125,6 +125,6 @@ Probieren Sie folgende Methoden zur Fehlerbehebung aus, falls Probleme mit Ihren
 
 Eine Domäne wird in dieser Liste angezeigt, wenn eine Anforderung an [!DNL Target] wird aus der Domäne erstellt. Häufig werden Domänen von Spider-Engines, Übersetzungssites oder lokalen Festplatten angezeigt. Wenn eine aufgeführte Domain von Ihrem Team nicht verwendet wird, können Sie auf [!UICONTROL Löschen] klicken, um sie zu entfernen.
 
-**My [!DNL Target] Anfrage gibt /* Keine Anzeige - nicht autorisierter Mbox-Host */ zurück.**
+**My [!DNL Target] Anfrage gibt zurück /&#42; Keine Anzeige - nicht autorisierter Mbox-Host &#42;/.**
 
-Wenn eine [!DNL Target] -Anfrage auf einem nicht autorisierten Host erfolgt, antwortet die Anfrage mit /* Keine Anzeige - nicht autorisierter Mbox-Host */.
+Wenn eine [!DNL Target] Anfrage wird auf einem nicht autorisierten Host durchgeführt. Die Anfrage antwortet mit /&#42; Keine Anzeige - nicht autorisierter Mbox-Host &#42;/.

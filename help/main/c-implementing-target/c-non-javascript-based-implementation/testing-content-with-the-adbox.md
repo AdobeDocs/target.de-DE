@@ -5,10 +5,10 @@ title: Wie erstelle ich eine AdBox für ein Bild?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 72%
+source-wordcount: '337'
+ht-degree: 70%
 
 ---
 
@@ -18,7 +18,7 @@ Verwenden Sie eine AdBox, um Bilder in einer Offsite-Implementierung mit Adobe T
 
 Eine AdBox funktioniert wie eine Mbox, wird aber mithilfe einer URL statt mit JavaScript gesteuert. AdBoxes werden mit einer speziellen AdBox-URL erstellt, die eine „Werbeanzeigen“-Mbox (oder AdBox) in Ihr Adobe-Konto lädt. Verwenden Sie diese AdBox anstelle der Mbox für Ihre Aktivitäten. Verwenden Sie die AdBox-URL anstelle eines direkten Bildverweises in E-Mail- oder anderen Nicht-JavaScript-Implementierungen.
 
-Hilfe zur Auswahl der richtigen Einstellungen finden Sie unter  [Nicht-JavaScript-basierte Implementierungen](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Hilfe zur Auswahl der richtigen Einstellungen finden Sie unter  [Nicht-JavaScript-basierte Implementierungen](https://developer.adobe.com/target/implement/email/).
 
 1. Erstellen der AdBox-URL:
 
@@ -48,7 +48,7 @@ Hilfe zur Auswahl der richtigen Einstellungen finden Sie unter  [Nicht-JavaScrip
 
 1. Erstellen Sie die Aktivität.
 
-   Unter [Nicht-JavaScript-basierte Implementierungen](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) finden Sie die richtigen Einstellungen, um Ihre Ziele zu erreichen.
+   Unter [Nicht-JavaScript-basierte Implementierungen](https://developer.adobe.com/target/implement/email/) finden Sie die richtigen Einstellungen, um Ihre Ziele zu erreichen.
 1. Führen Sie die Qualitätssicherung für die Aktivität durch.
 
    Es hat sich bewährt, eine Platzhalter-Seite zu erstellen und sicherzustellen, dass alle Erlebnisse, Standardinhalte und Berichte wie erwartet in allen Browsern und für alle Ihre Umgebungen funktionieren.

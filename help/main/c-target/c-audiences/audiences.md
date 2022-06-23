@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen in [!DNL Adobe Target].
 title: Wie verwende ich die Zielgruppenliste?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 24%
+source-wordcount: '1339'
+ht-degree: 28%
 
 ---
 
@@ -45,7 +45,7 @@ Die [!UICONTROL Zielgruppen] enthält die Zielgruppen, die Sie in Ihren Aktivit�
 
    >[!NOTE]
    >
-   >Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). In der [!DNL Adobe Experience Platform] kann wie besehen oder verwendet werden [in Kombination mit vorhandenen Zielgruppen](/help/main/c-target/combining-multiple-audiences.md).
+   >Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). In der [!DNL Adobe Experience Platform] kann wie besehen oder verwendet werden [in Kombination mit vorhandenen Zielgruppen](/help/main/c-target/combining-multiple-audiences.md).
    >
    >Benutzer müssen [!UICONTROL Genehmiger] oder über dem Status in [!DNL Target] zum Konfigurieren [!DNL Target] [!UICONTROL Ziele] Karten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
    >
@@ -109,7 +109,7 @@ Keep the following points in mind as you work with imported audiences:
 
 Die Verwendung der in [!DNL Adobe Experience Platform] erstellten Zielgruppen liefert umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen. Die [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de){target=_blank} (RTCDP), basierend auf [!DNL Adobe Experience Platform]unterstützt Unternehmen dabei, bekannte und anonyme Daten aus mehreren Unternehmensquellen zusammenzuführen. Auf diese Weise können Sie Kundenprofile erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse über alle Kanäle und Geräte hinweg bereitgestellt werden können.
 
-Durch Verbinden [!DNL Target] der [!DNL Real-time Customer Data Platform]können Kunden ihre Web-Personalisierung anreichern, indem sie neue Segmente entsperren, auf die zuvor nicht zugegriffen werden konnte. [!DNL Target] , um die Echtzeit-Millisekunde-Personalisierung auf der ersten Seite des Webbesuchs eines Kunden zu aktivieren. Verwenden von in erstellten Zielgruppen [!DNL Adobe Experience Platform] ermöglicht Ihnen, die verfügbaren Datenpunkte für eine umfassendere Personalisierung zu erweitern.
+Durch die Verbindung von [!DNL Target] mit [!DNL Real-time Customer Data Platform] können Kunden ihre Web-Personalisierung verbessern, indem sie neue Segmente nutzen, auf die zuvor über [!DNL Target] nicht zugegriffen werden konnte. Dies ermöglicht auf der ersten Seite eines Web-Besuchs Echtzeit-Personalisierung innerhalb von Millisekunden. Durch die Verwendung von in [!DNL Adobe Experience Platform] erstellten Zielgruppen können Sie die verfügbaren Datenpunkte erweitern, was eine umfassendere Personalisierung ermöglicht.
 
 Diese Integration entsperrt wichtige Anwendungsfälle mit RTCDP:
 
@@ -150,9 +150,9 @@ Die folgende Tabelle zeigt die Segmentbewertungszeit für Ereignisse aus verschi
 
 | Szenario | Edge-Segment (Millisekundenbewertung) | Streaming-Segment (Minutenauswertung) | Batch-Segmentbewertung |
 | --- | --- | --- | --- |
-| Ereignisse/Daten aus [!DNL Adobe Experience Platform] SDKs | Ja | Ja | nicht angegeben |
-| Ereignisse aus [!UICONTROL at.js] | Nein | Ja | nicht angegeben |
-| Ereignisse aus [!DNL Target Mobile] SDKs | Nein | Ja | nicht angegeben |
+| Ereignisse/Daten aus [!DNL Adobe Experience Platform] SDKs | Ja | Ja | K. A. |
+| Ereignisse aus [!UICONTROL at.js] | Nein | Ja | K. A. |
+| Ereignisse aus [!DNL Target Mobile] SDKs | Nein | Ja | K. A. |
 | Ereignisse aus dem Batch-Upload | Nein | Nein | Ja |
 | Ereignisse aus Offline-Daten (Stream) | Nein | Ja | Ja |
 

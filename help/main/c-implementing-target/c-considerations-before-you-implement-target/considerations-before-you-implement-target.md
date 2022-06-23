@@ -5,10 +5,10 @@ title: Was sollte ich vor der Implementierung wissen?
 feature: Implementation
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 69%
+source-wordcount: '159'
+ht-degree: 50%
 
 ---
 
@@ -22,11 +22,11 @@ Dieser Abschnitt enthält Informationen, die Entwickler für ihre Implementierun
 >
 >Änderungen an at.js oder der [!DNL Adobe Experience Platform Web SDK] werden von der Adobe-Kundenunterstützung nicht unterstützt.
 
-- [Vorbereiten der Target-Implementierung](prepare-to-implement-target.md)
-- [Datenschutz](c-privacy/privacy.md)
-- [Verfahren für die Datenübernahme in Target](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-- [Target Sicherheitsübersicht](target-security-overview.md)
-- [Unterstützte Browser](supported-browsers.md)
-- [Änderungen der TLS-Verschlüsselung (Transport Layer Security)](tls-transport-layer-security-encryption.md)
-- [CNAME und Adobe Target](implement-cname-support-in-target.md)
-- [Zulassungsliste für Target-Edge-Knoten](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [Vorbereiten der Target-Implementierung](https://developer.adobe.com/target/before-implement/prepare-to-implement-target/)
+- [Datenschutz](https://developer.adobe.com/target/before-implement/privacy/privacy/)
+- [Verfahren für die Datenübernahme in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+- [Target-Sicherheitsübersicht](https://developer.adobe.com/target/before-implement/target-security-overview/)
+- [Unterstützte Browser](https://developer.adobe.com/target/before-implement/supported-browsers/)
+- [Änderungen der TLS-Verschlüsselung (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)
+- [CNAME und Adobe Target](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/)
+- [Zulassungsliste für Target-Edge-Knoten](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/)

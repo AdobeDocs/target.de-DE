@@ -5,10 +5,10 @@ title: Wie handhabt  [!DNL Target]  die SameSite-Cookie-Richtlinien von Google?
 feature: Privacy & Security
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1948'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '1955'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Google implementierte mit der Release von Chrome 80 Anfang 2020 neue Cookie-Rich
 
 Ab Chrome 80 müssen Web-Entwickler explizit angeben, welche Cookies Website-übergreifend genutzt werden. Dies ist die erste von vielen Ankündigungen, die Google zur Verbesserung des Datenschutzes und der Sicherheit im Internet plant.
 
-In Anbetracht der Tatsache, dass Facebook in Bezug auf Datenschutz und Sicherheit in der Kritik steht, haben andere große Unternehmen wie Apple und jetzt auch Google die Gelegenheit genutzt, um sich in der neuen Rolle als Verfechter des Datenschutzes und der Sicherheit zu beweisen. Apple war das erste Unternehmen, das aktiv wurde, und kündigte Anfang des Jahres mit ITP 2.1 und kürzlich mit ITP 2.2 Änderungen an seinen Cookie-Richtlinien an. Mit ITP 2.1 blockiert Apple Cookies von Drittanbietern vollständig und speichert Cookies, die im Browser erstellt werden, nur sieben Tage lang. Mit ITP 2.2 werden Cookies nur einen Tag lang aufbewahrt. Googles Ankündigung ist nicht annähernd so umwälzend wie die von Apple, aber sie ist der erste Schritt in Richtung desselben Ziels. Weitere Informationen zu den Apple-Richtlinien finden Sie unter [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+In Anbetracht der Tatsache, dass Facebook in Bezug auf Datenschutz und Sicherheit in der Kritik steht, haben andere große Unternehmen wie Apple und jetzt auch Google die Gelegenheit genutzt, um sich in der neuen Rolle als Verfechter des Datenschutzes und der Sicherheit zu beweisen. Apple war das erste Unternehmen, das aktiv wurde, und kündigte Anfang des Jahres mit ITP 2.1 und kürzlich mit ITP 2.2 Änderungen an seinen Cookie-Richtlinien an. Mit ITP 2.1 blockiert Apple Cookies von Drittanbietern vollständig und speichert Cookies, die im Browser erstellt werden, nur sieben Tage lang. Mit ITP 2.2 werden Cookies nur einen Tag lang aufbewahrt. Googles Ankündigung ist nicht annähernd so umwälzend wie die von Apple, aber sie ist der erste Schritt in Richtung desselben Ziels. Weitere Informationen zu den Apple-Richtlinien finden Sie unter [Apple Intelligent Tracking Prevention (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/).
 
 ## Was sind Cookies und wie werden sie verwendet?
 

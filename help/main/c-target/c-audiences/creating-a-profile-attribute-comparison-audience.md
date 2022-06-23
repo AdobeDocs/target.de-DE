@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine Zielgruppe definieren, um zwei Profilatt
 title: Kann ich zwei Profilattribute für die Verwendung in Zielgruppen vergleichen?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '426'
 ht-degree: 61%
 
 ---
@@ -30,7 +30,7 @@ Nehmen wir beispielsweise an, Sie arbeiten für ein Möbelunternehmen und laden 
 
 Sie könnten eine Zielgruppe erstellen, die dadurch definiert ist, dass die Neigung zum Kauf von Esszimmermöbeln größer als die Neigung zum Kauf von Wohnzimmermöbeln ist. [!DNL Target] würde daraufhin die Propensity Scores für Ess- bzw. Wohnzimmermöbel des vorliegenden Besuchers dynamisch miteinander vergleichen, um zu bestimmen, ob der Besucher in die entsprechende Zielgruppe fällt.
 
-Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/).
 
 ## Erstellen einer Zielgruppe zum Profilattributvergleich {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

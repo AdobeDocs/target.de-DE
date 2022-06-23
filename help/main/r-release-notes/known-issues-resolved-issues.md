@@ -4,10 +4,10 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: ht
-source-wordcount: '4506'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '4520'
+ht-degree: 99%
 
 ---
 
@@ -135,11 +135,11 @@ Da die oben genannten bekannten Probleme behoben wurden, werden sie in die folge
 
    Verwenden Sie als Problemumgehung im Erlebnisinhalt ein Leerzeichen.
 
-   Eine Korrektur dieses Problems wurde in at.js 2.2.0 implementiert. Führen Sie das Upgrade auf die [neueste Version von at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) durch oder verwenden Sie die oben genannte Problemumgehung, jedoch nur für at.js-Versionen vor 2.2.0.  (TNT-33366)
+   Eine Korrektur dieses Problems wurde in at.js 2.2.0 implementiert. Führen Sie das Upgrade auf die [neueste Version von at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) durch oder verwenden Sie die oben genannte Problemumgehung, jedoch nur für at.js-Versionen vor 2.2.0.  (TNT-33366)
 
 * Bei Verwendung einer at.js-Version vor 2.2.0 werden beim Klick-Tracking keine Konversionen in [!UICONTROL Analytics for Target] (A4T) gemeldet, wenn der [!DNL Adobe Analytics]-Code nicht in Seitenelementen (z. B. Schaltflächen) vorhanden ist.
 
-   Für dieses Problem wurde in at.js 2.2.0 eine Korrektur implementiert. Wenn dieses Problem auftritt, [führen Sie ein Upgrade auf die neueste at.js-Version durch](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+   Für dieses Problem wurde in at.js 2.2.0 eine Korrektur implementiert. Wenn dieses Problem auftritt, [führen Sie ein Upgrade auf die neueste at.js-Version durch](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 ### Geotargeting
 

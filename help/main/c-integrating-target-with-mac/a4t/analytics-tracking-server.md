@@ -4,10 +4,10 @@ description: 'Erfahren Sie, wie Sie einen Analytics-Tracking-Server für Aktivit
 title: Wie verwende ich einen Analytics-Tracking-Server?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 19%
+source-wordcount: '695'
+ht-degree: 26%
 
 ---
 
@@ -17,9 +17,9 @@ Wenn Sie eine ältere Version von at.js verwenden, müssen Sie einen Analytics-T
 
 >[!NOTE]
 >
->Bei Verwendung von at.js Version 0.9.1 (oder neuer) müssen Sie bei der Erstellung einer Aktivität keinen Trackingserver angeben. Die at.js-Bibliothek sendet automatisch Trackingserverwerte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
+>Bei Verwendung von at.js Version 0.9.1 (oder höher) müssen Sie bei der Erstellung einer Aktivität keinen Tracking-Server angeben. Die at.js-Bibliothek sendet automatisch Tracking-Server-Werte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL Tracking Server] auf der Seite [!UICONTROL Ziele und Einstellungen] leer lassen.
 >
->Die [!DNL Target] -Team unterstützt beide at.js 1.*x* und at.js 2.*x*. Führen Sie ein Upgrade auf die neueste Aktualisierung der beiden Hauptversionen von at.js durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen finden Sie unter [at.js-Versionsdetails](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>Die [!DNL Target] -Team unterstützt beide at.js 1.*x* und at.js 2.*x*. Führen Sie ein Upgrade auf die neueste Aktualisierung der beiden Hauptversionen von at.js durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen finden Sie unter [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 Um sicherzustellen, dass Daten aus [!DNL Target] an die richtige Stelle in [!DNL Analytics], erfordert A4T, dass bei allen Aufrufen von ein Analytics-Tracking-Server an Modstats gesendet wird. [!DNL Target]. Verwenden Sie für Implementierungen mit mehreren Tracking-Servern die Variable [!DNL Adobe Experience Platform Debugger] oder in den Entwicklertools Ihres Browsers, um den richtigen Tracking-Server für Ihre Aktivität zu ermitteln.
 
@@ -29,7 +29,7 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität ber
 
 1. Öffnen Sie auf der Seite, auf der Sie Ihre Aktivität erstellen, die [!DNL Adobe Experience Platform Debugger].
 
-   Wenn Sie den Debugger nicht installiert haben, finden Sie weitere Informationen unter [Einführung in den Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+   Wenn Sie Debugger nicht installiert haben, finden Sie weitere Informationen unter [Einführung in Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html?lang=de).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 

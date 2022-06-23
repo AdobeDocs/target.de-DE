@@ -4,16 +4,16 @@ description: Führen Sie die erforderlichen Schritte aus, um Analytics für [!DN
 title: Implementieren von Analytics für [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1153'
 ht-degree: 23%
 
 ---
 
 # Analytics zur [!DNL Target] Implementierung
 
-Bei der Implementierung sind mehrere Schritte erforderlich [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Adobe Target] (A4T). Der Prozess variiert je nachdem, ob Sie A4T mit der [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) oder mit at.js.
+Bei der Implementierung sind mehrere Schritte erforderlich [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Adobe Target] (A4T). Der Prozess variiert je nachdem, ob Sie A4T mit der [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) oder mit at.js.
 
 ## ![Adobe Experience Platform Web SDK-Badge](/help/main/assets/platform.png) Implementierungsschritte für eine Adobe Experience Platform Web SDK-Implementierung {#platform}
 
@@ -116,9 +116,9 @@ Diese Einrichtung hat globale Auswirkungen, d. h. jeder Aufruf von at.js hat fol
 }
 ```
 
-Die Payload kann dann über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Bei Aktivitäten mit automatischer Zuordnung und automatischem Targeting müssen Sie auch die sessionId weiterleiten. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) im *Adobe Target SDKs* Handbuch.
+Die Payload kann dann über die [Dateneinfüge-API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Bei Aktivitäten mit automatischer Zuordnung und automatischem Targeting müssen Sie auch die sessionId weiterleiten. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/) im *Adobe Target SDKs* Handbuch.
 
-Wenn keine globale Einstellung gewünscht wird und ein bedarfsorientierter Ansatz vorzuziehen ist, verwenden Sie die Funktion at.js . [getOffers()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) durch Übergabe **analyticsLogging: &quot;client_side&quot;**. Die Analytics-Payload wird nur für diesen Aufruf und die [!DNL Target] Backend leitet die Payload nicht an [!DNL Analytics]. Durch diesen Ansatz wird jeder at.js-Dienst [!DNL Target] -Anfrage gibt die Payload standardmäßig zurück, jedoch nur, wenn gewünscht und angegeben.
+Wenn keine globale Einstellung gewünscht wird und ein bedarfsorientierter Ansatz vorzuziehen ist, verwenden Sie die Funktion at.js . [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) durch Übergabe **analyticsLogging: &quot;client_side&quot;**. Die Analytics-Payload wird nur für diesen Aufruf und die [!DNL Target] Backend leitet die Payload nicht an [!DNL Analytics]. Durch diesen Ansatz wird jeder at.js-Dienst [!DNL Target] -Anfrage gibt die Payload standardmäßig zurück, jedoch nur, wenn gewünscht und angegeben.
 
 Beispiel:
 

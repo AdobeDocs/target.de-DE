@@ -5,9 +5,9 @@ title: Wie kann ich eine globale Mbox anpassen?
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '229'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ Informationen, die Sie bei der Anpassung eines [!DNL Adobe Target] globale Mbox 
 
 1. Implementieren des [!DNL at.js] -Bibliothek auf Ihrer Site.
 
-   Siehe [Implementieren von &quot;at.js&quot;](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) für weitere Informationen.
+   Siehe [Implementieren von &quot;at.js&quot;](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/) für weitere Informationen.
 
 1. Stimmen Sie die Umstellung mit Ihrer Veröffentlichung zeitlich ab.
 

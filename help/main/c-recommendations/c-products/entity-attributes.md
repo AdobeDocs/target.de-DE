@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mithilfe von Entitätsattributen Produkt- ode
 title: Wie verwende ich Entitätsattribute?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1087'
 ht-degree: 54%
 
 ---
@@ -30,7 +30,7 @@ Im Allgemeinen sieht die Mbox mit den Anzeigeinformationen wie im folgenden Beis
 
 >[!NOTE]
 >
->Wenn Sie at.js 2.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So übergeben Sie Produkt- oder Inhaltsinformationen an [!DNL Recommendations] Verwendung von at.js 2.*x*, verwenden [targetPageParams](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ein Beispiel finden Sie unter [Planen und Implementieren von Recommendations](/help/main/c-recommendations/plan-implement.md).
+>Wenn Sie at.js 2.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So übergeben Sie Produkt- oder Inhaltsinformationen an [!DNL Recommendations] Verwendung von at.js 2.*x*, verwenden [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/). Ein Beispiel finden Sie unter [Planen und Implementieren von Recommendations](https://developer.adobe.com/target/implement/recommendations/).
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

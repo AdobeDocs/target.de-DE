@@ -5,10 +5,10 @@ title: Wie konfiguriere ich Unternehmensberechtigungen?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 68%
+source-wordcount: '1444'
+ht-degree: 67%
 
 ---
 
@@ -83,7 +83,7 @@ Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen A
 
 ### Arbeitsbereichs-ID abrufen {#workspace-id}
 
-Sie müssen die Workspace-ID weiterreichen, um in [Target-APIs Unternehmensberechtigungen zu nutzen](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
+Sie müssen die Workspace-ID weiterreichen, um in [Target-APIs Unternehmensberechtigungen zu nutzen](https://developer.adobe.com/target/implement/server-side/).
 
 1. Klicken Sie in der [Adobe Admin Console](https://adminconsole.adobe.com) auf die Registerkarte [!UICONTROL Produkte] und anschließend auf das Produkt im linken Menü, um die Liste der PLC (Workspace) anzuzeigen.
 1. Klicken Sie auf die gewünschte PLC (Workspace) und suchen Sie dann die ID für „profiles“ in der URL, wie unten dargestellt.
@@ -158,7 +158,7 @@ So verwenden Sie die [!DNL Target] Benutzerberechtigungsfunktion, müssen Sie di
       </script>
       ```
 
-      Weitere Informationen dazu, wie Sie dies mit at.js durchführen, finden Sie unter [targetPageParamsAll](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
+      Weitere Informationen dazu, wie Sie dies mit at.js durchführen, finden Sie unter [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/).
 
 ## Schritt 6: Rollen und Berechtigungen festlegen {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

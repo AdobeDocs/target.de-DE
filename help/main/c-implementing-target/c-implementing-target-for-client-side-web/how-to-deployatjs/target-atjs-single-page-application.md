@@ -5,9 +5,9 @@ title: Kann ich implementieren [!DNL Target] für Einzelseiten-Apps (SPA)?
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2788'
 ht-degree: 70%
 
 ---
@@ -187,7 +187,7 @@ Ihre Marketing-Experten können auch einen A/B-Test durchführen, um zu sehen, o
 
 ## Systemdiagramme in at.js 2.x
 
-Die folgenden Diagramme helfen Ihnen dabei, den Arbeitsablauf von at.js 2.x mit Ansichten zu verstehen und wie dieser die Integration der SPAs verbessert. Eine bessere Einführung in die in at.js 2.x verwendeten Konzepte finden Sie unter [Implementieren von Einzelseiten-Apps](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Die folgenden Diagramme helfen Ihnen dabei, den Arbeitsablauf von at.js 2.x mit Ansichten zu verstehen und wie dieser die Integration der SPAs verbessert. Eine bessere Einführung in die in at.js 2.x verwendeten Konzepte finden Sie unter [Implementieren von Einzelseiten-Apps](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Target-Ablauf mit at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -233,7 +233,7 @@ Best Practices in Bezug auf SPAs:
 * Auslösen eines benutzerspezifischen Ereignisses vor dem Start der Ansicht
 * Auslösen eines benutzerspezifischen Ereignisses, wenn die Anzeige abgeschlossen wird
 
-Zu at.js 2.x wurde eine neue API[-TriggerView ()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)-Funktion hinzugefügt. Sie sollten at.js `triggerView()` darüber informieren, dass eine Ansicht beginnt.
+Zu at.js 2.x wurde eine neue API[-TriggerView ()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)-Funktion hinzugefügt. Sie sollten at.js `triggerView()` darüber informieren, dass eine Ansicht beginnt.
 
 Um zu sehen, wie benutzerspezifische Ereignisse kombiniert werden, sehen wir uns in at.js 2.x und Analytics ein Beispiel an. In diesem Beispiel wird davon ausgegangen, dass die HTML-Seite die Besucher-API gefolgt von at.js 2.x und AppMeasurement enthält.
 
@@ -268,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >Sie müssen die Ereignisse `at-view-start` und `at-view-end` auslösen. Diese Ereignisse sind nicht Teil von benutzerspezifischen at.js-Ereignissen.
 
-Obwohl diese Beispiele JavaScript-Code verwenden, kann all dies vereinfacht werden, wenn Sie einen Tag-Manager verwenden, z. B. Tags in [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+Obwohl diese Beispiele JavaScript-Code verwenden, kann all dies vereinfacht werden, wenn Sie einen Tag-Manager verwenden, z. B. Tags in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
 
 Wenn die vorhergehenden Schritte eingehalten werden, sollten Sie eine robuste A4T-Lösung für SPAs haben.
 
@@ -304,11 +304,11 @@ Die folgenden Informationen beschreiben die Reihenfolge der Vorgänge, die Sie b
 
 Weitere Informationen dazu finden Sie in den folgenden Videos:
 
-### Funktionsweise von at.js 2.x ![Übersichtszeichen](/help/main/assets/overview.png)
+### Funktionsweise von at.js 2.x ![Übersichts-Badge](/help/main/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Siehe [Funktionsweise von at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) für weitere Informationen.
+Weitere Informationen finden Sie unter [Funktionsweise von at.js 2.x](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/understanding-how-atjs-20-works.html?lang=de).
 
 ### Implementieren von at.js 2.x in eine SPA ![Tutorial-Badge](/help/main/assets/tutorial.png)
 

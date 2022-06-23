@@ -4,10 +4,10 @@ description: Häufig gestellte Fragen und Antworten zur Adobe [!DNL Target] Beri
 title: Wo finde ich Antworten auf Fragen zu [!DNL Target] Reporting?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 33%
+source-wordcount: '1225'
+ht-degree: 32%
 
 ---
 
@@ -106,6 +106,6 @@ Ich setze beispielsweise die Traffic-Aufspaltung auf 50/50 oder 25/25/25/25, seh
 * Die Best Practice für A/B- und Multivarianz-Tests besteht darin, Traffic-Aufteilungen gleichmäßig zu halten. Die Änderung der Traffic-Verteilung zwischen Erlebnissen (z. B. zwischen 90/10 und 50/50) während eines Tests kann zu uneinheitlichen Besuchern über Erlebnisse hinweg führen. Das niedrigere Traffic-Erlebnis wird möglicherweise nie &quot;aufholen&quot;.
 * Wenn Sie die oben genannten Best Practices befolgen und sich die Traffic-Aufspaltung im Laufe der Zeit nicht normalisiert, sollten Sie Folgendes überprüfen:
 
-   * Verwenden Sie die neueste at.js-Bibliothek? Weitere Informationen zur aktuellen Version und den zugehörigen Versionshinweisen finden Sie unter [&quot;at.js&quot;-Versionsdetails](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+   * Verwenden Sie die neueste at.js-Bibliothek? Weitere Informationen zur aktuellen Version und den zugehörigen Versionshinweisen finden Sie unter [&quot;at.js&quot;-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
    * Ist dies ein Umleitungstest? Eine falsche Zeitplanung von Tags, die auf der Seite ausgelöst werden, kann zu ungleichen Traffic-Aufspaltungen führen, insbesondere bei Verwendung von [!DNL Analytics] als Datenquelle für eine [!DNL Target] Aktivität. Weitere Informationen zum Beheben einer ungleichmäßigen Traffic-Verteilung bei einer Umleitungsaktivität mit Analytics for Target (A4T) finden Sie unter [Umleitungsangebote - Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

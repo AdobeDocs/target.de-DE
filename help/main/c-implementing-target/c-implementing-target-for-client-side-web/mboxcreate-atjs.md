@@ -5,10 +5,10 @@ title: Wie verwende ich die Funktion mboxCreate()?
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 79%
+source-wordcount: '212'
+ht-degree: 76%
 
 ---
 
@@ -37,7 +37,7 @@ Diese Funktion ist in [!DNL at.js] hauptsächlich um die Umstellung von [!DNL mb
 
 `mboxCreate()` verwendet nun den „json“- statt des „standard“-Endpunkts und wird asynchron ausgelöst. Konsequenzen:
 
-* [Debuggen](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) verhält sich ein wenig anders.
+* [Debuggen](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/) verhält sich ein wenig anders.
 * Vermeiden Sie Angebotscode, der synchrone, blockierende Aufrufe voraussetzt.
 
    Ein Beispiel hierfür wären Angebote mit JavaScript-Variablen, die vom Websitecode oder anderen Mboxes verwendet werden, die später auf der Seite auftauchen.

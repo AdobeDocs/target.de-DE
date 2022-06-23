@@ -4,10 +4,10 @@ description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie
 title: 'Wie verwende ich die Benutzeroberfläche von  [!DNL Target] '
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
+source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 45%
+source-wordcount: '1373'
+ht-degree: 43%
 
 ---
 
@@ -92,7 +92,9 @@ Die folgenden Abschnitte enthalten Informationen zu den einzelnen Registerkarten
    * `Feed {target.feed.name} has been deactivated`
    * `Feed {target.feed.name} has failed to import from source`
 
-Sie können alle Benachrichtigungen am unteren Rand des Bedienfelds als gelesen markieren oder alle Benachrichtigungen anzeigen.
+Sie können einzelne Benachrichtigungen als gelesen markieren, indem Sie den Mauszeiger über die gewünschte Benachrichtigung bewegen und dann auf das Häkchen klicken. Sie können alle Benachrichtigungen als gelesen markieren oder alle Benachrichtigungen anzeigen, indem Sie auf [!UICONTROL &quot;Als gelesen markieren&quot;] oder [!UICONTROL &quot;Alle anzeigen&quot;] am unteren Rand des Bedienfelds.
+
+Sie können auch eine Erinnerung festlegen, die erneut benachrichtigt werden soll, indem Sie den Mauszeiger über eine Benachrichtigung bewegen und auf die Schaltfläche[!UICONTROL Erinnern]&quot;, und wählen Sie dann aus, wann Sie benachrichtigt werden möchten: 5 Minuten, 15 Minuten, eine Stunde oder morgen.
 
 ### Mitteilungen
 

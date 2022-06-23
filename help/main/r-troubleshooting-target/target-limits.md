@@ -5,9 +5,9 @@ title: Zeichen-, Größen- und andere Beschränkungen in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f99fc9e122c57fb4e633fec9a3af7f8ffd40b183
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1348'
 ht-degree: 97%
 
 ---
@@ -177,7 +177,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
    Bei Verwendung der Batch-Bereitstellungs-API beträgt die Beschränkung 50 Mboxes pro Batch-Anforderung.
 
-   Wenn Sie die [Batch-Bereitstellungs-API](https://developers.adobetarget.com/api/#server-side-batch-delivery) im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Bei einer Überschreitung dieser Beschränkungen gibt die API die folgende Fehlermeldung zurück:
+   Wenn Sie die Batch-Bereitstellungs-API im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Bei einer Überschreitung dieser Beschränkungen gibt die API die folgende Fehlermeldung zurück:
 
    „Die Anzahl der mboxParameters darf 50 nicht überschreiten.“
 

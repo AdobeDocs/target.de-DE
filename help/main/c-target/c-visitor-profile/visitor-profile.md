@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über Besucherprofile, die Informationen darüber
 title: Was sind Besucherprofile?
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 39%
+source-wordcount: '112'
+ht-degree: 37%
 
 ---
 
@@ -24,6 +24,6 @@ Weitere Informationen dazu finden Sie in den folgenden Abschnitten:
 - [Lebensdauer des Besucherprofils](visitor-profile-lifetime.md)
 - [Profilattribute](profile-parameters.md)
 - [Kategorieaffinität](category-affinity.md)
-- [Kundenattribute](working-with-customer-attributes.md)
+- [Kundenattribute](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 - [Echtzeit-Profilsynchronisation für mbox3rdPartyID](3rd-party-id.md)
 - [Nützliche Variablen, Profile, Parameter und Methoden](variables-profiles-parameters-methods.md)

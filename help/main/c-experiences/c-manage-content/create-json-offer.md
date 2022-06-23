@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Adobe JSON-Angebote erstellen. [!DNL Targe
 title: Wie erstelle ich JSON-Angebote?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 53%
+source-wordcount: '416'
+ht-degree: 51%
 
 ---
 
@@ -24,9 +24,9 @@ Beachten Sie Folgendes, wenn Sie mit JSON-Angeboten arbeiten:
 * JSON-Angebote sind derzeit nur für [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT).
 * JSON-Angebote können in [formularbasierte Aktivitäten](/help/main/c-experiences/form-experience-composer.md) nur.
 * JSON kann direkt abgerufen werden, wenn Sie die Server-seitige API, das Mobile-SDK oder das NodeJS-SDK verwenden.
-* Im Browser kann JSON NUR über at.js 1.2.3 (oder neuer) und mit  [getOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) abgerufen werden, indem Aktionen mit der Aktion `setJson` gefiltert werden.
+* Im Browser kann JSON NUR über at.js 1.2.3 (oder neuer) und mit  [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/) abgerufen werden, indem Aktionen mit der Aktion `setJson` gefiltert werden.
 * JSON-Angebote werden als native JSON-Objekte und nicht als Zeichenfolgen ausgeliefert. Nutzer dieser Objekte müssen diese also nicht mehr als Zeichenfolgen behandeln und in JSON-Objekte konvertieren.
-* JSON-Angebote werden im Gegensatz zu anderen Angeboten (z. B. HTML-Angeboten) nicht automatisch eingesetzt, da es sich bei JSON-Angeboten um nicht visuelle Angebote handelt. Der Entwickler muss Code schreiben, um das Angebot explizit zum Einsatz zu bringen.  [getOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
+* JSON-Angebote werden im Gegensatz zu anderen Angeboten (z. B. HTML-Angeboten) nicht automatisch eingesetzt, da es sich bei JSON-Angeboten um nicht visuelle Angebote handelt. Der Entwickler muss Code schreiben, um das Angebot explizit zum Einsatz zu bringen.  [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/).
 
 ## Erstellen eines JSON-Angebots {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die Adobe verwenden [!DNL Target] Visual Expe
 title: Wie erstelle ich eine Recommendations-Aktivität?
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1313'
 ht-degree: 76%
 
 ---
@@ -78,7 +78,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    >[!NOTE]
    >
-   >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, heben Sie die Auswahl für die Option **[!UICONTROL Kompatibel]** auf. Die Option [!UICONTROL Kompatibel] wird je nach Recommendations-Einstellungen (**[!UICONTROL Recommendations]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Inkompatible Kriterien filtern]**) möglicherweise nicht angezeigt. Weitere Informationen finden Sie unter [Einstellungen](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, heben Sie die Auswahl für die Option **[!UICONTROL Kompatibel]** auf. Die Option [!UICONTROL Kompatibel] wird je nach Recommendations-Einstellungen (**[!UICONTROL Recommendations]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Inkompatible Kriterien filtern]**) möglicherweise nicht angezeigt. Weitere Informationen finden Sie unter [Einstellungen](https://developer.adobe.com/target/implement/recommendations/).
 
    ![Dialogfeld „Kriterien auswählen“](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

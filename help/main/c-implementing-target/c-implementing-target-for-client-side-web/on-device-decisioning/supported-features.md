@@ -5,9 +5,9 @@ title: Welche Funktionen werden bei der On-Device-Entscheidungsfindung unterstü
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '476'
 ht-degree: 13%
 
 ---
@@ -51,7 +51,7 @@ Die folgende Tabelle zeigt, welche Zielgruppenregeln für die Entscheidungsfindu
 
 ### Geotargeting für Entscheidungen auf Geräten
 
-Um eine minimale Latenz für Entscheidungsaktivitäten auf dem Gerät mit geobasierten Zielgruppen zu erhalten, empfiehlt Adobe, die Geowerte selbst im Aufruf von anzugeben. [getOffers](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md). Legen Sie das Geo-Objekt im Kontext der Anforderung fest. Das bedeutet, dass der Browser die Position jedes Besuchers ermitteln kann. Sie können beispielsweise mithilfe eines von Ihnen konfigurierten Dienstes eine IP-zu-Geo-Suche durchführen. Einige Hosting-Provider, wie z. B. Google Cloud, bieten diese Funktionalität über benutzerdefinierte Header in jedem `HttpServletRequest`.
+Um eine minimale Latenz für Entscheidungsaktivitäten auf dem Gerät mit geobasierten Zielgruppen zu erhalten, empfiehlt Adobe, die Geowerte selbst im Aufruf von anzugeben. [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). Legen Sie das Geo-Objekt im Kontext der Anforderung fest. Das bedeutet, dass der Browser die Position jedes Besuchers ermitteln kann. Sie können beispielsweise mithilfe eines von Ihnen konfigurierten Dienstes eine IP-zu-Geo-Suche durchführen. Einige Hosting-Provider, wie z. B. Google Cloud, bieten diese Funktionalität über benutzerdefinierte Header in jedem `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 
@@ -73,7 +73,7 @@ window.adobe.target.getOffers({
 })
 ```
 
-Wenn Sie jedoch keine IP-zu-Geo-Suchen auf Ihrem Server durchführen können, aber dennoch eine geräteübergreifende Entscheidungsfindung für [getOffers](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) Anforderungen, die geobasierte Zielgruppen enthalten, wird dies ebenfalls unterstützt. Der Nachteil dieses Ansatzes besteht darin, dass eine Remote-IP-zu-Geo-Suche verwendet wird, wodurch Latenzzeiten zu jedem `getOffers` aufrufen. Diese Latenz sollte kleiner sein als `getOffers` mit serverseitiger Entscheidungsfindung aufrufen, da es ein CDN trifft, das sich in der Nähe Ihres Servers befindet. Geben Sie nur das Feld &quot;ipAddress&quot;im Geo-Objekt im Kontext Ihrer SDK-Anfrage an, um den geografischen Standort der IP-Adresse Ihres Besuchers abzurufen. Wenn ein anderes Feld zusätzlich zur &quot;ipAddress&quot;angegeben wird, wird die [!DNL Target] Das SDK ruft die Metadaten für den geografischen Standort nicht zur Auflösung ab.
+Wenn Sie jedoch keine IP-zu-Geo-Suchen auf Ihrem Server durchführen können, aber dennoch eine geräteübergreifende Entscheidungsfindung für [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) Anforderungen, die geobasierte Zielgruppen enthalten, wird dies ebenfalls unterstützt. Der Nachteil dieses Ansatzes besteht darin, dass eine Remote-IP-zu-Geo-Suche verwendet wird, wodurch Latenzzeiten zu jedem `getOffers` aufrufen. Diese Latenz sollte kleiner sein als `getOffers` mit serverseitiger Entscheidungsfindung aufrufen, da es ein CDN trifft, das sich in der Nähe Ihres Servers befindet. Geben Sie nur das Feld &quot;ipAddress&quot;im Geo-Objekt im Kontext Ihrer SDK-Anfrage an, um den geografischen Standort der IP-Adresse Ihres Besuchers abzurufen. Wenn ein anderes Feld zusätzlich zur &quot;ipAddress&quot;angegeben wird, wird die [!DNL Target] Das SDK ruft die Metadaten für den geografischen Standort nicht zur Auflösung ab.
 
 ```javascript
 window.adobe.target.getOffers({ 

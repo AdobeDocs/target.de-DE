@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Automated Personalization-Aktivitäten (AP) i
 title: Was ist eine Automated Personalization (AP)-Aktivität?
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 89%
+source-wordcount: '1049'
+ht-degree: 87%
 
 ---
 
@@ -67,9 +67,9 @@ Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Sprache
 
 Offline-Daten wie CRM-Informationen oder Propensity Scores zur Kundenabwanderung können beim Aufbau von Personalisierungsmodellen von unschätzbarem Wert sein. Es gibt verschiedene Möglichkeiten für die Dateneingabe in die Algorithmen zur [!UICONTROL automatisierten Personalisierung] (AP) und zum [!UICONTROL automatischen Targeting].
 
-* [Mbox-Parameter](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
-* [Profilparameter](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
-* [Serverseitige APIs für das Profil-Update](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
+* [Mbox-Parameter](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+* [Profilparameter](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+* [Serverseitige APIs für das Profil-Update](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
 
 Informationen zu den Daten, die automatisch von den Personalisierungsalgorithmen der [!UICONTROL automatisierten Personalisierung] und des [!UICONTROL automatischen Targetings] gesammelt und verwendet werden, finden Sie unter [Datenerfassung für die automatisierte Personalisierung](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

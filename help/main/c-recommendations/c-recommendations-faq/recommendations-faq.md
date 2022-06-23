@@ -4,10 +4,10 @@ description: Eine Liste der häufig gestellten Fragen und Antworten zu Adobe  [!
 title: Wo finde ich Fragen und Antworten zu  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '3128'
-ht-degree: 100%
+source-wordcount: '3133'
+ht-degree: 99%
 
 ---
 
@@ -94,7 +94,7 @@ Wenn der Speicherort, auf den Sie diese Kriterien anwenden, die Kategorie-ID nic
 
 Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vorhanden ist, enthält die Kriterienauswahl alle anwendbaren Kriterien.
 
-[!DNL Target] verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84), um die intelligente Filterung der Algorithmusauswahl zu steuern.
+[!DNL Target] verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](https://developer.adobe.com/target/implement/recommendations/), um die intelligente Filterung der Algorithmusauswahl zu steuern.
 
 >[!NOTE]
 >

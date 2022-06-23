@@ -5,10 +5,10 @@ title: Wie verwende ich die Funktion adobe.target.applyOffers()?
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 88%
+source-wordcount: '834'
+ht-degree: 87%
 
 ---
 
@@ -29,7 +29,7 @@ Mit dieser Funktion können Sie mehr als ein Angebot, das von `adobe.target.getO
 
 >[!NOTE]
 >
->Lesen Sie die [Dokumentation zur Bereitstellungs-API](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) für Informationen zu den akzeptablen Typen für alle unten aufgeführten Felder.
+>Lesen Sie die [Dokumentation zur Bereitstellungs-API](https://developer.adobe.com/target/before-administer/) für Informationen zu den akzeptablen Typen für alle unten aufgeführten Felder.
 
 | Feldname | Beschreibung |
 | --- | --- |

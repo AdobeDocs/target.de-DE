@@ -5,10 +5,10 @@ title: Wie funktioniert die JavaScript-Bibliothek at.js?
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1106'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '1136'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ Bei Client-seitigen Implementierungen von [!DNL Adobe Target] stellt [!DNL Targe
 
 ## Was ist at.js?
 
-Die at.js-Bibliothek ist die neue Implementierungsbibliothek für Target. Die at.js-Bibliothek sorgt für kürzere Seitenladezeiten bei Web-Implementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. „at.js“ ist die empfohlene Implementierungsbibliothek und wird häufig mit neuen Funktionen aktualisiert. Wir empfehlen allen Kunden, die   [neueste Version von „at.js“](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) zu implementieren oder zu ihr zu migrieren.
+Die at.js-Bibliothek ist die neue Implementierungsbibliothek für Target. Die at.js-Bibliothek sorgt für kürzere Seitenladezeiten bei Web-Implementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. „at.js“ ist die empfohlene Implementierungsbibliothek und wird häufig mit neuen Funktionen aktualisiert. Wir empfehlen allen Kunden, die   [neueste Version von „at.js“](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) zu implementieren oder zu ihr zu migrieren.
 
 Weitere Informationen finden Sie unter [JavaScript-Bibliotheken in Target](/help/main/c-intro/how-target-works.md#libraries).
 
@@ -28,7 +28,7 @@ In der unten dargestellten [!DNL Target]-Implementierung sind folgende [!DNL Ado
 
 ## Was ist der Unterschied zwischen at.js 1.*x*- und at.js 2.x-Workflow-Diagrammen?
 
-Weitere Informationen zu den Unterschieden, die in 2.x im Vergleich zu 1.x eingeführt wurden, finden Sie unter [Aktualisieren von at.js 1.x auf at.js 2](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md).*x*.
+Weitere Informationen zu den Unterschieden, die in 2.x im Vergleich zu 1.x eingeführt wurden, finden Sie unter [Aktualisieren von at.js 1.x auf at.js 2](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).*x*.
 
 Grob betrachtet gibt es einige Unterschiede zwischen den beiden Versionen:
 
@@ -37,7 +37,7 @@ Grob betrachtet gibt es einige Unterschiede zwischen den beiden Versionen:
 
 ## Diagramme in at.js 2.x
 
-Die folgenden Diagramme helfen Ihnen dabei, den Arbeitsablauf von at.js 2.x mit Ansichten zu verstehen und wie dieser die Integration der SPAs verbessert. Eine bessere Einführung in die in at.js 2.x verwendeten Konzepte finden Sie unter [Implementieren von Einzelseiten-Apps](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Die folgenden Diagramme helfen Ihnen dabei, den Arbeitsablauf von at.js 2.x mit Ansichten zu verstehen und wie dieser die Integration der SPAs verbessert. Eine bessere Einführung in die in at.js 2.x verwendeten Konzepte finden Sie unter [Implementieren von Einzelseiten-Apps](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Target-Ablauf mit at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -52,7 +52,7 @@ Die folgenden Diagramme helfen Ihnen dabei, den Arbeitsablauf von at.js 2.x mit 
 | 7 | Analytics-Daten werden an Datenerfassungsserver übermittelt. |
 | 8 | Zielgerichtete Daten werden über die SDID mit Analytics-Daten abgeglichen und im Analytics-Berichtspeicher abgelegt.<br>Analytics-Daten können dann sowohl in Analytics als auch in Target eingesehen werden. Möglich ist dies mithilfe von Berichten des Typs Analytics for Target (A4T). |
 
-Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten und Aktionen aus dem Cache abgerufen und dem Benutzer ohne Serveraufruf gezeigt. `triggerView()` sendet außerdem eine Benachrichtigungsanfrage an das [!DNL Target]-Backend, um Impressions-Zählungen zu erhöhen und aufzuzeichnen. Weitere Informationen zu at.js für SPAs mit Ansichten finden Sie unter [Implementieren von Einzelseiten-Apps](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Egal, wo `triggerView()` in Ihrer SPA implementiert ist, werden die Ansichten und Aktionen aus dem Cache abgerufen und dem Benutzer ohne Serveraufruf gezeigt. `triggerView()` sendet außerdem eine Benachrichtigungsanfrage an das [!DNL Target]-Backend, um Impressions-Zählungen zu erhöhen und aufzuzeichnen. Weitere Informationen zu at.js für SPAs mit Ansichten finden Sie unter [Implementieren von Einzelseiten-Apps](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Target-Ablauf at.js 2 x triggerView](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 

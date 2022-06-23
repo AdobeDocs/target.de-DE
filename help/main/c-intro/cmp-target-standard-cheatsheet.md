@@ -4,10 +4,10 @@ description: In diesem Abschnitt finden Sie eine Liste der häufig gestellten Fr
 title: Wo finde ich Antworten auf Fragen zur Optimierung und Personalisierung?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2754'
-ht-degree: 100%
+source-wordcount: '2787'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Testen Sie das [Target-Community-Forum](/help/main/cmp-resources-and-contact-inf
 
 **Welche Browser werden von Target unterstützt?**
 
-Weitere Details finden Sie in der [Unterstützte Browser](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)-Matrix. Beachten Sie, dass es zwei Aspekte gibt: die Target Standard-/Premium Experience Cloud-Oberflächenunterstützung und die Endbenutzer-Browserunterstützung auf Desktop/Geräten.
+Weitere Details finden Sie in der [Unterstützte Browser](https://developer.adobe.com/target/before-implement/supported-browsers/)-Matrix. Beachten Sie, dass es zwei Aspekte gibt: die Target Standard-/Premium Experience Cloud-Oberflächenunterstützung und die Endbenutzer-Browserunterstützung auf Desktop/Geräten.
 
 ## Aktivitäten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Verwenden Sie die in [Schritt 2 des dreiteiligen Target-Arbeitsablaufs (Targetin
 Lesen Sie die folgenden Aspekte des Produkts:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundenattribute](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
+* [Kundenattribute](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 * [Zielgruppen](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Erlebnisse {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -258,7 +258,7 @@ Lesen Sie die folgenden Aspekte des Produkts:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Kundenattribute](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
+* [Kundenattribute](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 
 * [Zielgruppen](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,10 +309,10 @@ Es tut uns leid, zu hören, dass Sie Probleme haben. Unter [Troubleshooting Targ
 
 **Wir besitzen eine mobile SKU. Kann ich mobile Aktivitäten erstellen?**
 
-Zur Optimierung und Personalisierung auf Mobilgeräten müssen Sie [formularbasierte Aktivitäten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) zusammen mit [Adobe SDK](/help/main/c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91) verwenden. Weitere Informationen zu [Target für mobile Apps](/help/main/c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559).
+Zur Optimierung und Personalisierung auf Mobilgeräten müssen Sie [formularbasierte Aktivitäten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) zusammen mit [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/) verwenden. Weitere Informationen zu [Target für mobile Apps](https://developer.adobe.com/target/implement/mobile/).
 
 ## Target-APIs {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Wo erhalte ich weitere Informationen über Target-APIs?**
 
-Wir verfügen über eine umfassende Dokumentation zu APIs. Siehe [Dokumentation zu Bereitstellungs-APIs, NodeJS-SDK und Recommendations-APIs](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
+Wir verfügen über eine umfassende Dokumentation zu APIs. Siehe [Dokumentation zu Bereitstellungs-APIs, NodeJS-SDK und Recommendations-APIs](https://developer.adobe.com/target/implement/server-side/).

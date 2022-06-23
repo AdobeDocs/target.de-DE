@@ -5,10 +5,10 @@ title: Wie erhalte ich Daten? [!DNL Target] Verwenden von Datenanbietern?
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 67%
+source-wordcount: '322'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,7 @@ Hinweis: Datenanbieter benötigen at.js 1.3 oder höher.
 
 Die Einstellung `window.targetGlobalSettings.dataProviders` entspricht einer Reihe von Datenanbietern.
 
-Weitere Informationen zur Struktur für die einzelnen Datenanbieter finden Sie unter [Datenanbieter](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
+Weitere Informationen zur Struktur für die einzelnen Datenanbieter finden Sie unter [Datenanbieter](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Anwendungsbeispiele
 
@@ -44,11 +44,11 @@ at.js versucht nicht, die Daten zwischenzuspeichern. Wenn der Datenanbieter die 
 
 ## Codebeispiele
 
-Unter [Datenanbieter](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers) finden Sie verschiedene Beispiele.
+Unter [Datenanbieter](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) finden Sie verschiedene Beispiele.
 
 ## Links zu relevanten Informationen
 
-Dokumentation: [Datenanbieter](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
+Dokumentation: [Datenanbieter](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)
 
 ## Schulungsvideos:
 

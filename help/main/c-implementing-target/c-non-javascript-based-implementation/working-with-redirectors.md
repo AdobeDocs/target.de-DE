@@ -5,10 +5,10 @@ title: Wie arbeite ich mit Weiterleitungen?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 71%
+source-wordcount: '689'
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ Verwenden Sie die Weiterleitung, um  folgende Aktionen auszuführen:
 
 * Finden Sie heraus, welche Landingpage die meisten Konversionen bringt.
 
-Hilfe zur Entscheidung über die richtigen Einstellungen finden Sie unter  [Nicht-JavaScript-basierte Implementierungen](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Hilfe zur Entscheidung über die richtigen Einstellungen finden Sie unter  [Nicht-JavaScript-basierte Implementierungen](https://developer.adobe.com/target/implement/email/).
 
 ## Erstellen einer Weiterleitung {#redirector}
 
@@ -66,7 +66,7 @@ Bevor Sie eine Weiterleitung verwenden können, müssen Sie diese erst erstellen
 1. Um verschiedene Ziele für eine Anzeige zu testen, erstellen Sie [Weiterleitungsangebote](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) für jede Version.
 1. Erstellen Sie die Kampagne.
 
-   Unter [Nicht-JavaScript-basierte Implementierungen](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) finden Sie die richtigen Einstellungen, um Ihre Ziele zu erreichen.
+   Unter [Nicht-JavaScript-basierte Implementierungen](https://developer.adobe.com/target/implement/email/) finden Sie die richtigen Einstellungen, um Ihre Ziele zu erreichen.
 1. Führen Sie die Qualitätssicherung für die Kampagne durch.
 
    Erstellen Sie eine Platzhalterseite mit einem `<a href>`, der die Weiterleitungs-URL enthält. Beispiel:

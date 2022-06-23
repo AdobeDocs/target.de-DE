@@ -5,10 +5,10 @@ title: Wie funktioniert die Entscheidungsfindung auf dem Gerät mit der JavaScri
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '3490'
-ht-degree: 19%
+source-wordcount: '3546'
+ht-degree: 18%
 
 ---
 
@@ -35,11 +35,11 @@ Das Adobe Target JS SDK bietet Kunden die Möglichkeit, für Entscheidungen zwis
 * Zielgruppen-Targeting
 * Zuordnungsmethode
 
-Weitere Informationen finden Sie unter [Unterstützte Funktionen für geräteübergreifende Entscheidungen](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
+Weitere Informationen finden Sie unter [Unterstützte Funktionen für geräteübergreifende Entscheidungen](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
 
 ## Wie funktioniert die Entscheidungsfindung auf dem Gerät?
 
-Wenn Sie at.js mit aktivierter On-Device-Entscheidungsfindung bereitstellen und initialisieren, wird ein [Regelartefakt](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md) , die Ihre geräteübergreifende Entscheidungsfindung für A/B- und XT-Aktivitäten, Zielgruppen und Assets umfasst, von dem nächstgelegenen Akamai-CDN auf Ihren Besucher heruntergeladen und lokal im Browser Ihres Besuchers zwischengespeichert wird. Wenn von at.js eine Anfrage zum Abrufen eines Erlebnisses gestellt wird, wird die Entscheidung darüber, welches Erlebnis zurückgegeben werden soll, im Arbeitsspeicher getroffen, basierend auf den im zwischengespeicherten Regelartefakt kodierten Metadaten.
+Wenn Sie at.js mit aktivierter On-Device-Entscheidungsfindung bereitstellen und initialisieren, wird ein [Regelartefakt](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) , die Ihre geräteübergreifende Entscheidungsfindung für A/B- und XT-Aktivitäten, Zielgruppen und Assets umfasst, von dem nächstgelegenen Akamai-CDN auf Ihren Besucher heruntergeladen und lokal im Browser Ihres Besuchers zwischengespeichert wird. Wenn von at.js eine Anfrage zum Abrufen eines Erlebnisses gestellt wird, wird die Entscheidung darüber, welches Erlebnis zurückgegeben werden soll, im Arbeitsspeicher getroffen, basierend auf den im zwischengespeicherten Regelartefakt kodierten Metadaten.
 
 ## Entscheidungsmethode
 
@@ -88,7 +88,7 @@ Die folgende Liste entspricht den Zahlen im Diagramm:
 
 Die Entscheidungsfindung auf dem Gerät kann Ihre Erlebnisse und Personalisierungsaktivitäten schnell bereitstellen, da die Entscheidungen aus einem zwischengespeicherten Regelartefakt getroffen werden, das all Ihre Aktivitäten enthält, die für die Entscheidungsfindung auf dem Gerät qualifiziert sind.
 
-Weitere Informationen dazu, welche Aktivitäten für die Entscheidungsfindung auf dem Gerät qualifiziert sind, finden Sie unter [Unterstützte Funktionen bei Entscheidungen auf Geräten](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
+Weitere Informationen dazu, welche Aktivitäten für die Entscheidungsfindung auf dem Gerät qualifiziert sind, finden Sie unter [Unterstützte Funktionen bei Entscheidungen auf Geräten](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
 
 Diese Entscheidungsmethode sollte nur verwendet werden, wenn die Leistung auf allen Seiten, für die Entscheidungen von [!DNL Target] erforderlich sind, äußerst kritisch ist. Beachten Sie außerdem, dass bei Auswahl dieser Entscheidungsmethode Ihre [!DNL Target]-Aktivitäten, die nicht für die Entscheidungsfindung auf dem Gerät qualifiziert sind, nicht bereitgestellt bzw. ausgeführt werden. Die Bibliothek at.js 2.5.0+ ist so konfiguriert, dass nur nach dem zwischengespeicherten Regelartefakt gesucht wird, um Entscheidungen zu treffen.
 
@@ -222,7 +222,7 @@ So aktivieren Sie die Entscheidungsfindung auf dem Gerät:
 
    Wenn Sie diesen Umschalter deaktivieren, müssen Sie alle Entscheidungsaktivitäten auf dem Gerät neu erstellen und aktivieren, damit sie in das generierte Regelartefakt aufgenommen werden. Mit anderen Worten: Jede Aktivität im Live-Status, bevor die [!UICONTROL On-Device Decisioning] -Umschalter sind nicht im Regelartefakt enthalten.
 
-Nach der Aktivierung der [!UICONTROL On-Device Decisioning] Umschalten, [!DNL Target] beginnt mit der Erzeugung und Vermehrung [ruleArtefakte](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md) für Ihren Client.
+Nach der Aktivierung der [!UICONTROL On-Device Decisioning] Umschalten, [!DNL Target] beginnt mit der Erzeugung und Vermehrung [ruleArtefakte](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) für Ihren Client.
 
 >[!IMPORTANT]
 >
@@ -249,7 +249,7 @@ Nach der Aktivierung der [!UICONTROL On-Device Decisioning] Umschalten, [!DNL Ta
 
 ### Globale Einstellungen
 
-Sie können die Standardeinstellung [!UICONTROL Entscheidungsmethode] für alle [!DNL Target] Entscheidungen. Die verschiedenen Entscheidungsmethoden sind [!UICONTROL Nur serverseitig], [!UICONTROL Nur auf Gerät]und [!UICONTROL Hybrid]. Die in der Target-Benutzeroberfläche ausgewählte Entscheidungsmethode wird in `window.targetGlobalSettings` unter `decisioningMethod` -Feld. Weitere Informationen zum `decisioningMethod` in [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Sie können die Standardeinstellung [!UICONTROL Entscheidungsmethode] für alle [!DNL Target] Entscheidungen. Die verschiedenen Entscheidungsmethoden sind [!UICONTROL Nur serverseitig], [!UICONTROL Nur auf Gerät]und [!UICONTROL Hybrid]. Die in der Target-Benutzeroberfläche ausgewählte Entscheidungsmethode wird in `window.targetGlobalSettings` unter `decisioningMethod` -Feld. Weitere Informationen zum `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ```javascript
 <head> 
@@ -269,7 +269,7 @@ Sie können die Standardeinstellung [!UICONTROL Entscheidungsmethode] für alle 
 
 ### Benutzerdefinierte Einstellung
 
-Wenn Sie `decisioningMethod` in `window.targetGlobalSettings`, aber die `decisioningMethod` Für jede Adobe Target-Entscheidung entsprechend Ihrem Anwendungsfall können Sie dieses Verfahren durchführen, indem Sie `decisioningMethod` in at.js2.5.0+ [getOffers()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) aufrufen.
+Wenn Sie `decisioningMethod` in `window.targetGlobalSettings`, aber die `decisioningMethod` Für jede Adobe Target-Entscheidung entsprechend Ihrem Anwendungsfall können Sie dieses Verfahren durchführen, indem Sie `decisioningMethod` in at.js2.5.0+ [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) aufrufen.
 
 ```javascript
 adobe.target.getOffers({ 
@@ -321,6 +321,6 @@ Sie können nach allen Aktivitäten filtern, die für eine Entscheidung auf dem 
 
    Die erste Generierung von JSON-Regeln-Artefakten kann bis zu 10 Minuten dauern.
 
-1. Erstellen und Aktivieren einer [Aktivitätstyp, der von geräteinterner Entscheidungsfindung unterstützt wird](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)und stellen Sie sicher, dass die Entscheidung auf dem Gerät getroffen werden kann.
+1. Erstellen und Aktivieren einer [Aktivitätstyp, der von geräteinterner Entscheidungsfindung unterstützt wird](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/)und stellen Sie sicher, dass die Entscheidung auf dem Gerät getroffen werden kann.
 1. Legen Sie die **[!UICONTROL Entscheidungsmethode]** entweder **[!UICONTROL &quot;Hybrid&quot;]** oder **[!UICONTROL &quot;Nur auf Gerät&quot;]** über die Benutzeroberfläche für at.js-Einstellungen.
 1. Laden Sie at.js 2.5.0+ herunter und stellen Sie es auf Ihren Seiten bereit.

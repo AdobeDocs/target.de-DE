@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Besucher mit [!DNL Adobe Target] die sich auf
 title: Kann ich ein Targeting von Besuchern auf Basis von Site-Seiten durchführen?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '891'
 ht-degree: 26%
 
 ---
@@ -127,7 +127,7 @@ Verwenden Sie:
 
    Wenn dieses Verhalten nicht Ihren Anforderungen entspricht, sollten Sie eine der folgenden Aktionen durchführen:
 
-   * Pass [Mbox-Parameter](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) nach [!DNL Target] für Targeting-Zwecke verwendet werden.
+   * Pass [Mbox-Parameter](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/) nach [!DNL Target] für Targeting-Zwecke verwendet werden.
    * Verwenden Sie eine [A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/test-ab.md) anstatt einer Landingpage-Aktivität. A/B-Test-Aktivitäten wechseln nicht zwischen Erlebnissen für denselben Besucher.
    * Verwenden Sie eine [Besucherprofil](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) anstatt.
 

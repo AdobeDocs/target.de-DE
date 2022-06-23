@@ -5,10 +5,10 @@ title: Wo finde ich Informationen? [!DNL Target] Cookies?
 feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 59%
+source-wordcount: '1553'
+ht-degree: 58%
 
 ---
 
@@ -20,7 +20,7 @@ Das Verhalten von Cookies ist davon abhängig, ob es sich um ein Erstanbieter-Co
 >
 >Dieses Thema enthält Informationen zu `mboxSession` und `mboxPC`. Best Practices bei der Implementierung empfehlen, vertrauliche Informationen nicht mit den Cookie-Daten zu verknüpfen oder zu speichern: `mboxSession` oder `mboxPC`.
 
-Siehe auch [Löschen des Target-Cookies](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
+Siehe auch [Löschen des Target-Cookies](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/).
 
 ## Verwenden von Erstanbieter-Cookies und Drittanbieter-Cookies {#section_F71B29420C004A7FA3B1921E619B326E}
 
@@ -137,5 +137,5 @@ Von Apple (übersetzter Auszug):
 
 | Betroffene Funktionalität | Details |
 |--- |--- |
-| Abmeldeunterstützung | Wegen der durch das WebKit von Apple bewirkten Änderungen am Tracking ist die Unterstützung für Ausschlüsse hinfällig.<br>[!DNL Target] Opt-out verwendet ein Cookie im `clientcode.tt.omtrdc.net` Domäne. Weitere Informationen finden Sie unter [Datenschutz](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>[!DNL Target] unterstützt zwei Opt-outs:<ul><li>Einen pro Kunde (der Kunde verwaltet den Ausschluss-Link).</li><li>Eins über [!DNL Adobe] die den Benutzer von allen [!DNL Target] für alle Kunden.</li></ul>Beide Methoden verwenden den Drittanbieter-Cookie. |
+| Abmeldeunterstützung | Wegen der durch das WebKit von Apple bewirkten Änderungen am Tracking ist die Unterstützung für Ausschlüsse hinfällig.<br>[!DNL Target] Opt-out verwendet ein Cookie im `clientcode.tt.omtrdc.net` Domäne. Weitere Informationen finden Sie unter [Datenschutz](https://developer.adobe.com/target/before-implement/privacy/privacy/).<br>[!DNL Target] unterstützt zwei Opt-outs:<ul><li>Einen pro Kunde (der Kunde verwaltet den Ausschluss-Link).</li><li>Eins über [!DNL Adobe] die den Benutzer von allen [!DNL Target] für alle Kunden.</li></ul>Beide Methoden verwenden den Drittanbieter-Cookie. |
 | [!DNL Target] Aktivitäten | Kunden können ihre [Profillebensdauer](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) für [!DNL Target] Konten (bis zu 90 Tage). Wenn die Profillebensdauer des Kontos länger als 30 Tage ist und das Erstanbieter-Cookie gelöscht wird, weil die Domäne des Kunden als Site-übergreifendes Tracking von Benutzern markiert wurde, ist das Verhalten von Safari-Besuchern in den folgenden Bereichen betroffen: [!DNL Target]:<br>**[!DNL Target] Berichte **: Wenn ein Safari-Benutzer eine Aktivität aufruft, nach 30 Tagen zurückkehrt und dann konvertiert, zählt dieser Benutzer als zwei Besucher und eine Konversion.<br>[!DNL Analytics]Dieses Verhalten gilt auch für Aktivitäten, die als Berichtsquelle nutzen (A4T).<br>** Profil- und Aktivitätsmitgliedschaft **:<ul><li>Profildaten werden gelöscht, wenn das Erstanbieter-Cookie abläuft.</li><li>Die Aktivitätsmitgliedschaft wird gelöscht, wenn das Erstanbieter-Cookie abläuft.</li><li> [!DNL Target] funktioniert in Safari nicht bei Konten, die eine Implementation mit Drittanbieter-Cookie oder Erst- und Drittanbieter-Cookie verwenden. Dieses Verhalten ist nicht neu. Safari hat für eine Weile keine Drittanbieter-Cookies zugelassen.</li></ul><br>**Empfehlungen**: Wenn Bedenken bestehen, dass die Kundendomäne möglicherweise als eine Domäne markiert wird, die Besucher sitzungsübergreifend verfolgt, ist es am sichersten, die Profillebensdauer auf 30 Tage oder weniger in [!DNL Target]. Mit dieser Beschränkung wird sichergestellt, dass Benutzer in Safari und allen anderen Browsern auf ähnliche Weise verfolgt werden. |

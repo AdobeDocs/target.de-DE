@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe  [!DN
 title: Was sind Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 100%
+source-wordcount: '2114'
+ht-degree: 99%
 
 ---
 
@@ -104,7 +104,7 @@ Als Nächstes sollten Sie Tags hinzufügen oder vorhandene [!DNL Analytics]-Impl
 
 Sie müssen sicherstellen, dass [!DNL Target] weiß, welche Artikel Ihre Benutzer öffnen und kaufen. Wenn der Kauf nicht für Ihren Kontext relevant ist, können Sie einen anderen Konversionstyp tracken, z. B. das Herunterladen einer PDF, die Teilnahme an einer Umfrage, das Abonnieren eines Newsletters, das Ansehen eines Videos usw.
 
-Wenn Sie [!DNL Target] bereits zum Durchführen von A/B-Tests auf Ihrer Site verwenden, haben Sie diesen Schritt möglicherweise bereits durchgeführt. Oder wenn Sie [!DNL Adobe Analytics] bereits dazu verwenden, Berichte zu Site-Besuchen und Konversionsverhalten zu erstellen, können Sie [!DNL Analytics] als Quelle für Ihre Verhaltensdaten verwenden. Andernfalls gestaltet sich die Einrichtung am einfachsten mithilfe eines Tag-Managers wie [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Es ist auch möglich, Offline- oder In-App-Interaktionen per Echtzeit-API an [!DNL Target] zu senden.
+Wenn Sie [!DNL Target] bereits zum Durchführen von A/B-Tests auf Ihrer Site verwenden, haben Sie diesen Schritt möglicherweise bereits durchgeführt. Oder wenn Sie [!DNL Adobe Analytics] bereits dazu verwenden, Berichte zu Site-Besuchen und Konversionsverhalten zu erstellen, können Sie [!DNL Analytics] als Quelle für Ihre Verhaltensdaten verwenden. Andernfalls gestaltet sich die Einrichtung am einfachsten mithilfe eines Tag-Managers wie [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). Es ist auch möglich, Offline- oder In-App-Interaktionen per Echtzeit-API an [!DNL Target] zu senden.
 
 ### Erhalten von Empfehlungen mit dem richtigen Kontext
 

@@ -5,10 +5,10 @@ title: Wie verwaltet at.js Flackern?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 68%
+source-wordcount: '691'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ Ein Flackern tritt dann auf, wenn Besuchern vorübergehend Standardinhalt angeze
 
 ## Verwenden einer automatisch erstellten globalen Mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Wenn Sie die Einstellung [Globale Mbox automatisch erstellen](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) bei der Konfigurierung von at.js aktivieren, reduziert at.js Flackern durch Ändern der Deckkrafteinstellung beim Laden der Seite. Wenn at.js geladen wird, wird die Deckkraft des `<body>` Elements auf „0“ gesetzt, wodurch die Seite für Besucher anfänglich unsichtbar gemacht wird. Nachdem die Antwort von Target eingeht oder ein Fehler in der Target-Anfrage erkannt wird, setzt at.js die Deckkraft wieder auf 1. So wird gewährleistet, dass der Besucher die Seite erst sieht, nachdem der Inhalt Ihrer Aktivitäten angewendet wurde.
+Wenn Sie die Einstellung [Globale Mbox automatisch erstellen](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/) bei der Konfigurierung von at.js aktivieren, reduziert at.js Flackern durch Ändern der Deckkrafteinstellung beim Laden der Seite. Wenn at.js geladen wird, wird die Deckkraft des `<body>` Elements auf „0“ gesetzt, wodurch die Seite für Besucher anfänglich unsichtbar gemacht wird. Nachdem die Antwort von Target eingeht oder ein Fehler in der Target-Anfrage erkannt wird, setzt at.js die Deckkraft wieder auf 1. So wird gewährleistet, dass der Besucher die Seite erst sieht, nachdem der Inhalt Ihrer Aktivitäten angewendet wurde.
 
 Wenn Sie die Einstellung bei der Konfiguration von at.js aktivieren, wird die Deckkraft des HTML-BODY von at.js auf 0 gesetzt. Nach Eingang einer Antwort von Target wird die Transparenz des HTML-BODY von at.js auf 1 zurückgesetzt.
 
@@ -38,7 +38,7 @@ Die folgende Abbildung zeigt die Aufrufe „Hide Body“ und „Show Body“ sow
 
 ![](assets/target-flow2.png)
 
-Weitere Informationen zum Überschreiben mit `bodyHiddenStyle` finden Sie unter [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Weitere Informationen zum Überschreiben mit `bodyHiddenStyle` finden Sie unter [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Vermeiden von Flackern beim asynchronen Laden von at.js
 

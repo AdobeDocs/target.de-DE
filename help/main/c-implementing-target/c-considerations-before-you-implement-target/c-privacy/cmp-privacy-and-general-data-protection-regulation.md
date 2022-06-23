@@ -5,10 +5,10 @@ title: Wie handhabt  [!DNL Target]  Datenschutzbestimmungen?
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
-workflow-type: ht
-source-wordcount: '2209'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2229'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Wenn Sie sich im vergangenen Jahr auf das europäische Datenschutzrecht (DSGVO) 
 
 ## Opt-in-Funktion in Adobe [!DNL Target] und [!DNL Adobe Experience Platform] {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] unterstützt die Opt-in-Funktionalität über Tags in [!DNL Adobe Experience Platform] und hilft Ihnen bei der Einwilligungsverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Adobe Experience Platform] zur Vorab-Genehmigung des [!DNL Target]-Tags. Um die Opt-in-Funktion in der [!DNL Target]-at.js-Bibliothek zu aktivieren, sollten Sie `targetGlobalSettings` benutzen und die Einstellung `optinEnabled=true` hinzufügen. Wählen Sie in [!DNL Adobe ExperiencePlatform] in der Dropdown-Liste [!UICONTROL DSGVO-Opt-in] im Installationsfenster der Erweiterung „Aktivieren“ aus. Weitere Informationen finden Sie unter [Implementieren von  [!DNL Target]  using von  [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+[!DNL Target] unterstützt die Opt-in-Funktionalität über Tags in [!DNL Adobe Experience Platform] und hilft Ihnen bei der Einwilligungsverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Adobe Experience Platform] zur Vorab-Genehmigung des [!DNL Target]-Tags. Um die Opt-in-Funktion in der [!DNL Target]-at.js-Bibliothek zu aktivieren, sollten Sie `targetGlobalSettings` benutzen und die Einstellung `optinEnabled=true` hinzufügen. Wählen Sie in [!DNL Adobe ExperiencePlatform] in der Dropdown-Liste [!UICONTROL DSGVO-Opt-in] im Installationsfenster der Erweiterung „Aktivieren“ aus. Weitere Informationen finden Sie unter [Implementieren von  [!DNL Target]  using von  [!DNL Adobe Experience Platform].](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
 
 Im folgenden Code-Snippet wird gezeigt, wie Sie die `optinEnabled=true`-Einstellung aktivieren:
 
@@ -148,7 +148,7 @@ Die DSGVO und der CCPA schreiben nicht fest, wann Sie eine Einwilligung einholen
 
 [!DNL Target] bietet Opt-in-Funktionalität über [!DNL Adobe Experience Platform] zur Unterstützung Ihrer Einwilligungsverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Adobe Experience Platform] zur Vorab-Genehmigung des [!DNL Target]-Tags. Es wird empfohlen, zur Verwaltung von Opt-ins [!DNL Adobe Experience Platform] zu verwenden. In [!DNL Adobe Experience Platform] können Sie außerdem präziser steuern, ob ausgewählte Elemente Ihrer Seite vor der [!DNL Target]-Auslösung ausgeblendet werden. Dies ist nützlich für Ihre Strategie zur Einwilligungsverwaltung.
 
-Weitere Informationen zur DSGVO, zum CCPA und [!DNL Adobe Experience Platform] finden Sie unter [Die Adobe Privacy JavaScript-Bibliothek und die DSGVO](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de). Lesen Sie auch den obigen Abschnitt *Adobe Target- und Adobe Experience Platform-Opt-in*.
+Weitere Informationen zur DSGVO, zum CCPA und [!DNL Adobe Experience Platform] finden Sie unter [Die Adobe Privacy JavaScript-Bibliothek und die DSGVO](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en). Lesen Sie auch den obigen Abschnitt *Adobe Target- und Adobe Experience Platform-Opt-in*.
 
 ### Übermittelt `AdobePrivacy.js` Informationen an die DSGVO-API? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -284,7 +284,7 @@ Die im Beispiel verwendeten JSON-Felder des Profils werden in der folgenden Tabe
 
 | Feld | Beschreibung |
 |--- |--- |
-| Sample_Parameter | Viele Informationen im [!DNL Target]-Profil werden vom Datenverantwortlichen hochgeladen oder direkt bereitgestellt. In diesem Beispiel wurde ein Parameter im [!DNL Target]-Profil mithilfe der API zur Profilaktualisierung hochgeladen. Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
+| Sample_Parameter | Viele Informationen im [!DNL Target]-Profil werden vom Datenverantwortlichen hochgeladen oder direkt bereitgestellt. In diesem Beispiel wurde ein Parameter im [!DNL Target]-Profil mithilfe der API zur Profilaktualisierung hochgeladen. Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
 | user.ReturnTimeOfDay | Dieses Standardfeld enthält die Tageszeit des letzten Rückkehrbesuchs eines Benutzers. |
 | firstSessionStart | Dieses Standardfeld enthält die Tageszeit, zu der die erste Sitzung des Benutzers begann. |
 | user.sessionCountScript | Viele Informationen im [!DNL Target]-Profil werden vom Datenverantwortlichen hochgeladen oder direkt bereitgestellt. In diesem Beispiel erhöht ein Profilskript die Anzahl der Sitzungen dieses Besuchers auf der Site des Datenverantwortlichen. Weitere Informationen finden Sie unter [Profilskript-Attribute](/help/main/c-target/c-visitor-profile/profile-parameters.md). |
@@ -295,7 +295,7 @@ Die im Beispiel verwendeten JSON-Felder des Profils werden in der folgenden Tabe
 
 ### Unterstützt [!DNL Target] IP-Verschleierung?  {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] unterstützt IP-Verschleierung, wenn Sie sie im Rahmen Ihrer DSGVO- oder CCPA-Implementierungsstrategie einsetzen. Weitere Informationen finden Sie unter   [Datenschutz](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+[!DNL Target] unterstützt IP-Verschleierung, wenn Sie sie im Rahmen Ihrer DSGVO- oder CCPA-Implementierungsstrategie einsetzen. Weitere Informationen finden Sie unter   [Datenschutz](https://developer.adobe.com/target/before-implement/privacy/privacy/).
 
 ### Sollte ich etwas unternehmen, um zu verhindern, dass meine Daten an Dritte weitergegeben oder verkauft werden?
 

@@ -5,10 +5,10 @@ title: Was ist On-Device Decisioning?
 feature: Implement Server-side
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 10%
+source-wordcount: '700'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,10 @@ ht-degree: 10%
 
 Die Entscheidungsfindung auf dem Gerät bietet die Möglichkeit, Ihre [!DNL Adobe Target] [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) -Aktivitäten auf Ihrem Server verwenden und speicherinterne Entscheidungen bei nahezu null Latenz durchführen, ohne Netzwerkanforderungen an die [!DNL Adobe Target] Edge Network.
 
-Weitere Informationen finden Sie unter [Einführung in die geräteübergreifende Entscheidungsfindung](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) im *[Dokumentation zu Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/)*.
+Weitere Informationen finden Sie unter Themen:
+
+* [Entscheidungsfindung auf dem Gerät für Client-seitige](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [Entscheidungsfindung auf dem Gerät für Server-seitig](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ## Webinar: Personalisieren und Testen mit Nulllatenz bei geräteinterner Entscheidungsfindung mit [!DNL Adobe Target]
 
@@ -26,7 +29,7 @@ In diesem aufgezeichneten Webinar [!DNL Adobe Target] Produktexperten besprechen
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Best Practices.
+## Best Practices
 
 Adobe empfiehlt die folgenden Best Practices bei der Verwendung von Entscheidungen auf dem Gerät:
 

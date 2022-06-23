@@ -5,10 +5,10 @@ title: Wie verwende ich die Funktion targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2364'
-ht-degree: 98%
+source-wordcount: '2405'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Folgende Einstellungen können überschrieben werden:
 * **Standardwert**: body { opacity: 0 }
 * **Beschreibung**: Wird nur verwendet, wenn `globalMboxAutocreate === true`, um die Wahrscheinlichkeit eines Flackerns zu minimieren.
 
-   Weitere Informationen finden Sie unter [Verwaltung von Flackern mit „at.js“](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
+   Weitere Informationen finden Sie unter [Verwaltung von Flackern mit „at.js“](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ Folgende Einstellungen können überschrieben werden:
 
 * **Typ**: Boolean
 * **Standardwert**: falsch
-* **Beschreibung**: [!DNL Target]unterstützt die Opt-in-Funktionalität über [!DNL Adobe Experience Platform] und hilft Ihnen bei der Einverständnisverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Adobe Experience Platform] zur Vorab-Genehmigung des [!DNL Target]-Tags. Um die Möglichkeit der Verwendung von Opt-in in der [!DNL Target]-at.js-Bibliothek zu aktivieren, fügen Sie die Einstellung `optinEnabled=true` hinzu. In [!DNL Adobe Experience Platform] müssen Sie in der Dropdown-Liste [!UICONTROL DSGVO-Opt-in] im Installationsfenster der Erweiterung „Aktivieren“ auswählen. Weitere Informationen finden Sie in der [Adobe Experience Platform-Dokumentation](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Weitere Informationen zu dieser Einstellung in Bezug auf Datenschutz und Datenschutzbestimmungen, einschließlich der Datenschutz-Grundverordnung (DSGVO) der Europäischen Union und des California Consumer Privacy Act (CCPA), finden Sie unter [Datenschutz und Datenschutzbestimmungen](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Beschreibung**: [!DNL Target]unterstützt die Opt-in-Funktionalität über [!DNL Adobe Experience Platform] und hilft Ihnen bei der Einverständnisverwaltung. Mit der Opt-in-Funktion können Kunden steuern, wie und wann das [!DNL Target]-Tag ausgelöst wird. Darüber hinaus gibt es eine Option über [!DNL Adobe Experience Platform] zur Vorab-Genehmigung des [!DNL Target]-Tags. Um die Möglichkeit der Verwendung von Opt-in in der [!DNL Target]-at.js-Bibliothek zu aktivieren, fügen Sie die Einstellung `optinEnabled=true` hinzu. In [!DNL Adobe Experience Platform] müssen Sie in der Dropdown-Liste [!UICONTROL DSGVO-Opt-in] im Installationsfenster der Erweiterung „Aktivieren“ auswählen. Weitere Informationen finden Sie in der [Adobe Experience Platform-Dokumentation](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). Weitere Informationen zu dieser Einstellung in Bezug auf Datenschutz und Datenschutzbestimmungen, einschließlich der Datenschutz-Grundverordnung (DSGVO) der Europäischen Union und des California Consumer Privacy Act (CCPA), finden Sie unter [Datenschutz und Datenschutzbestimmungen](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
 
 ### optoutEnabled
 
@@ -169,7 +169,7 @@ Folgende Einstellungen können überschrieben werden:
 * **Standardwert**: wahr (ab at.js-Version 1.6.2)
 * **Beschreibung**: Zeigt an, ob die Domäne `<clientCode>.tt.omtrdc.net` oder die Domäne `mboxedge<clusterNumber>.tt.omtrdc.net` verwendet werden soll.
 
-   Ist dieser Wert wahr, wird die Domäne `mboxedge<clusterNumber>.tt.omtrdc.net` in einem Cookie gespeichert. Funktioniert derzeit nicht mit [CNAME](/help/main/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) bei der Verwendung von at.js-Versionen vor at.js 1.8.2 und at.js 2.3.1. Wenn dies ein Problem für Sie ist, sollten Sie [at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) evtl. auf eine neuere, unterstützte Version aktualisieren.
+   Ist dieser Wert wahr, wird die Domäne `mboxedge<clusterNumber>.tt.omtrdc.net` in einem Cookie gespeichert. Funktioniert derzeit nicht mit [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/) bei der Verwendung von at.js-Versionen vor at.js 1.8.2 und at.js 2.3.1. Wenn dies ein Problem für Sie ist, sollten Sie [at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) evtl. auf eine neuere, unterstützte Version aktualisieren.
 
 ### overrideMboxEdgeServerTimeout
 
@@ -398,7 +398,7 @@ Nachdem die Einstellungen `cspScriptNonce` und `cspStyleNonce` angegeben wurden,
 Sie müssen über eine hybride Integration von [!DNL Target] verfügen.
 
 * **Server-seitig**: Sie müssen die neue [Versand-](https://developers.adobetarget.com/api/delivery-api/) API oder [Target-SDKs](https://developers.adobetarget.com/api/delivery-api/#section/SDKs) verwenden.
-* **Client-seitig**: Sie müssen [at.js, Version 2.2 oder neuer](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) verwenden.
+* **Client-seitig**: Sie müssen [at.js, Version 2.2 oder neuer](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) verwenden.
 
 ### Code-Beispiele
 

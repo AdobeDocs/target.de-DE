@@ -5,9 +5,9 @@ title: Wo erhalte ich Informationen über die Wissenschaft hinter den Recommenda
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2854'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Der logische Ablauf der eigentlichen Algorithmusimplementierung wird im folgende
 
 Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
-* **Eingabedaten**: Verhaltensdaten in Form von Ansichten und Käufen von Besuchern, die bei der Erfassung erfasst werden [Target implementieren](/help/main/c-recommendations/plan-implement.md#pass-behavioral) oder von [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Eingabedaten**: Verhaltensdaten in Form von Ansichten und Käufen von Besuchern, die bei der Erfassung erfasst werden [Target implementieren](https://developer.adobe.com/target/implement/recommendations/) oder von [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Modellschulung**:
 
@@ -88,7 +88,7 @@ Auch wenn die Bereitstellung von Modellen und die Bereitstellung von Inhalten As
 
 Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
-* **Eingabedaten**: Wie zuvor beschrieben, basiert dieser Algorithmus ausschließlich auf Katalogdaten (erfasst auf [!DNL Target] über eine [Katalog-Feed, die Entitäten-API oder von On-Page-Aktualisierungen](/help/main/c-recommendations/plan-implement.md#rec-catalog).
+* **Eingabedaten**: Wie zuvor beschrieben, basiert dieser Algorithmus ausschließlich auf Katalogdaten (erfasst auf [!DNL Target] über eine [Katalog-Feed, die Entitäten-API oder von On-Page-Aktualisierungen](https://developer.adobe.com/target/implement/recommendations/).
 
 * **Modellschulung**:
 
@@ -126,7 +126,7 @@ Die Logik der Trainings- und Scoring-Schritte für Modelle wird im folgenden Dia
 
 Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
-* **Eingabedaten**: Dies entspricht den Methoden des partizipativen Filterns (CF) von Elementen. [!UICONTROL Beide werden für Sie empfohlen] und auf den Warenkorb basierende Algorithmen verwenden Verhaltensdaten in Form von Ansichten und Käufen von Benutzern, die bei der Erfassung erfasst werden [Target implementieren](/help/main/c-recommendations/plan-implement.md#pass-behavioral) oder von [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Eingabedaten**: Dies entspricht den Methoden des partizipativen Filterns (CF) von Elementen. [!UICONTROL Beide werden für Sie empfohlen] und auf den Warenkorb basierende Algorithmen verwenden Verhaltensdaten in Form von Ansichten und Käufen von Benutzern, die bei der Erfassung erfasst werden [Target implementieren](https://developer.adobe.com/target/implement/recommendations/) oder von [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Modellschulung**:
 

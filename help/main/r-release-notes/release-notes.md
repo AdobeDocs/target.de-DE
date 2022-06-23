@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 99%
+source-wordcount: '510'
+ht-degree: 95%
 
 ---
 
@@ -35,12 +35,12 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 Dieses Release umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Unterstützung für [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) wurde hinzugefügt.
+* Unterstützung für [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) wurde hinzugefügt.
 * Es wurde ein Problem behoben, das zeitweise zu Timeouts beim Rendern von [!UICONTROL Angebotsentscheidungen] in [!UICONTROL Experience Targeting]-Aktivitäten (XT) führte. (TNT-44611)
 
 ## at.js-Version 2.9.0 (27. Mai 2022)
 
-* Unterstützung für [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) wurde hinzugefügt.
+* Unterstützung für [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) wurde hinzugefügt.
 * Es wurde ein Fehler behoben, durch den mehrere Mbox-Anfragen auf derselben Seite unterschiedliche Impressions-IDs erhielten.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
@@ -48,7 +48,7 @@ Dieses Release umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 | Ressource | Details |
 |--- |--- |
 | [Versionshinweise: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de) | Details zu Änderungen in den einzelnen Versionen von Platform Web SDK. |
-| [„at.js“-Versionsdetails](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibliothek von [!DNL Adobe Target] |
+| [„at.js“-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibliothek von [!DNL Adobe Target] |
 
 ## Dokumentationsänderungen, historische Versionshinweise und Experience Cloud-Versionshinweise
 
