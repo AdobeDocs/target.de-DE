@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Sammlungen in Adobe verwenden. [!DNL Target] 
 title: Wie verwende ich Sammlungen in Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '886'
+ht-degree: 59%
 
 ---
 
@@ -45,7 +45,7 @@ Erstellen Sie eine Sammlung, um die Produkte oder Inhalte zu organisieren, die S
 
    ![Mauszeiger-Symbole: Bearbeiten, Kopieren und Löschen](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Die für jede Sammlung in der [!UICONTROL Sammlungslistenansicht] gemeldete „Anzahl an Elementen“ ist die Anzahl der Produkte, die mit den Regeln für diese Sammlung in der konfigurierten Standard-Umgebungs-[Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) übereinstimmen. Siehe [Einstellungen](https://developer.adobe.com/target/implement/recommendations/) zum Ändern der Standardhostgruppe.
+   Die für jede Sammlung in der [!UICONTROL Sammlungslistenansicht] gemeldete „Anzahl an Elementen“ ist die Anzahl der Produkte, die mit den Regeln für diese Sammlung in der konfigurierten Standard-Umgebungs-[Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) übereinstimmen. Siehe [Einstellungen](https://developer.adobe.com/target/implement/recommendations/){target=_blank} , um die standardmäßige Hostgruppe zu ändern.
 
 1. Klicken Sie auf **[!UICONTROL Sammlung erstellen]**.
 

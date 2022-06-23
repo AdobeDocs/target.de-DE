@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen erstellen in [!DNL Adobe Target] 
 title: Kann ich Besucher basierend auf mobilen Optionen ansprechen?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 40%
+source-wordcount: '676'
+ht-degree: 38%
 
 ---
 
@@ -33,7 +33,7 @@ Um dieses Problem zu lösen, [!DNL Target] erfasst zusätzliche Daten, um iPhone
 
 >[!NOTE]
 >
->Kunden, die das Mobile SDK verwenden, müssen nichts unternehmen, um diese Funktion anzuwenden. Kunden, die at.js verwenden, müssen auf at.js Version 1.5.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (oder höher) [ aufrüsten.
+>Kunden, die das Mobile SDK verwenden, müssen nichts unternehmen, um diese Funktion anzuwenden. Kunden, die at.js verwenden, müssen [Aktualisierung auf at.js , Version 1.5.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} (oder höher).
 
 Sie können mehr als eine Geräteeigenschaft auswählen. Mehrere Auswahlen werden mit einem ODER-Operator verbunden.
 

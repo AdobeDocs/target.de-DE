@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Adobe Aktivitäten mit automatischer Zuord
 title: Unterstützt A4T Aktivitäten mit automatischer Zuordnung und automatischem Targeting?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Die A4T-Integration ermöglicht Ihnen Folgendes:
 * Verwendung [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)Multi-Armed Bandit-Funktion, um Traffic zu erfolgreichsten Erlebnissen zu führen.
 * Verwendung [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md)den maschinellen Lernalgorithmus, um ein bestes Erlebnis für jeden Besucher auszuwählen. Beim automatischen Targeting wird bei Verwendung eines [!DNL Adobe Analytics] Zielmetrik und [!DNL Adobe Analytics]umfassende Berichterstellungs- und Analysefunktionen.
 
-Stellen Sie sicher, dass [A4T zur Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten implementiert](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Wenn Sie `analyticsLogging = client_side`, müssen Sie auch die `sessionId` Wert zu [!DNL Analytics]. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/) im *Adobe Target SDKs* Handbuch.
+Stellen Sie sicher, dass [A4T zur Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten implementiert](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Wenn Sie `analyticsLogging = client_side`, müssen Sie auch die `sessionId` Wert zu [!DNL Analytics]. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} im *Adobe Target SDKs* Handbuch.
 
 Erster Schritt:
 

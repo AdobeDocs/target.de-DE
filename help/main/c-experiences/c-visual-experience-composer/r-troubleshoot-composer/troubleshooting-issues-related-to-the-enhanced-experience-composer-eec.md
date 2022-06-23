@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Probleme beheben können, die manchmal in der
 title: Wie kann ich Probleme im Zusammenhang mit Enhanced Experience Composer beheben?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 51%
+source-wordcount: '448'
+ht-degree: 48%
 
 ---
 
@@ -66,7 +66,7 @@ So überprüfen Sie die TLS-Version auf Ihrer Website mit Firefox (bei anderen B
 
    ![](assets/firefox_more_info_3.png)
 
-1. Wenn für Ihre Website TLS 1.0 angezeigt wird, finden Sie unter  [Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) weitere Informationen über die TLS-Unterstützungsrichtlinie für Target. Um vorläufig Abhilfe zu schaffen (gültig bis 12. September 2018), wenden Sie sich zur Konfiguration mit Ihrer TLS-Version und der Domain an die [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+1. Wenn für Ihre Website TLS 1.0 angezeigt wird, finden Sie unter  [Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} für Informationen zur TLS-Unterstützungsrichtlinie für Target. Um vorläufig Abhilfe zu schaffen (gültig bis 12. September 2018), wenden Sie sich zur Konfiguration mit Ihrer TLS-Version und der Domain an die [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 ## Beim Laden von Seiten mit aktiviertem Proxy werden Fehlermeldungen zu Zeitüberschreitungen oder verweigertem Zugriff ausgegeben. (nur EEC)   {#section_60CBB9022DC449F593606C0E6252302D}
 

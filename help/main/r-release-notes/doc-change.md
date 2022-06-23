@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 91%
+source-wordcount: '1036'
+ht-degree: 90%
 
 ---
 
@@ -94,6 +94,6 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 |  | [Erstellen von Zielgruppen](/help/main/c-target/c-audiences/audiences.md) | Es wurden Informationen über Zielgruppen von [!DNL Adobe Experience Platform] hinzugefügt. |
 |  | [Kombinieren mehrerer Zielgruppen](/help/main/c-target/combining-multiple-audiences.md) | Es wurden Informationen über Zielgruppen von [!DNL Adobe Experience Platform] hinzugefügt. |
 | 21. Januar | [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | Informationen über die at.js-Version 1.8.3 wurden hinzugefügt. |
-| 19. Januar | [Aktualisieren von at.js 1.*x* auf at.js 2.*x* ](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | Folgender Abschnitt wurde hinzugefügt: „at.js 2.*x* unterstützt nicht das Erstellen von Zielgruppen unter Verwendung von vst.*-Parametern“ |
+| 19. Januar | [Aktualisieren von at.js 1.** auf at.js 2.x *x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Folgender Abschnitt wurde hinzugefügt: „at.js 2.*x* unterstützt nicht das Erstellen von Zielgruppen unter Verwendung von vst.*-Parametern“ |
 | 12. Januar | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen zu Target Standard/Premium 22.1.1 hinzugefügt. |
 |  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Link zum Tutorial mit Implementierungsanweisungen für [!DNL Adobe Experience Cloud] mit Web SDK hinzugefügt. |

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie beim Erstellen von Personalisierungsmodellen 
 title: Wie kann ich Daten für Personalisierungsalgorithmen hochladen?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 73%
+source-wordcount: '301'
+ht-degree: 63%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 73%
 
 Offline-Daten, wie z. B. CRM-Informationen oder Tendenzwerte zur Kundenabwanderung, können beim Erstellen von Personalisierungsmodellen in [!DNL Adobe Target] [!UICONTROL Automated Personalization] AP-Aktivitäten.
 
-Es gibt verschiedene Möglichkeiten für die Dateneingabe in die Algorithmen zur [!UICONTROL automatisierten Personalisierung] (AP) und zum [!UICONTROL automatischen Targeting. ] Zusätzlich zu den Methoden in  [Verfahren für die Datenübernahme in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/) werden gemeinsam genutzte Experience Cloud-Zielgruppen (Adobe Analytics, Audience Management) und aktivitätsinterne Berichtszielgruppen auch in unseren Algorithmen verwendet.
+Es gibt verschiedene Möglichkeiten für die Dateneingabe in die Algorithmen zur [!UICONTROL automatisierten Personalisierung] (AP) und zum [!UICONTROL automatischen Targeting. ] Zusätzlich zu den Methoden in [Verfahren für die Datenübernahme in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/), Experience Cloud freigegebene Zielgruppen (Adobe Analytics, Zielgruppen-Management){target=_blank} und In-Aktivität-Reporting-Zielgruppen werden auch in unseren Algorithmen verwendet.
 
 Informationen zu den Daten, die automatisch von den Personalisierungsalgorithmen der automatisierten Personalisierung und des automatischen Targetings gesammelt und verwendet werden, finden Sie unter [Datenerfassung für die automatisierte Personalisierung](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

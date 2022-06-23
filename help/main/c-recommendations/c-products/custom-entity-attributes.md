@@ -5,9 +5,9 @@ title: Wie verwende ich benutzerdefinierte Entitätsattribute?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1400'
 ht-degree: 88%
 
 ---
@@ -126,7 +126,7 @@ Sie können Attribute mit mehreren Werten mithilfe der Bereitstellungs-API in ei
   }
 ```
 
-Siehe [Dokumentation zur Adobe Recommendations API](https://developer.adobe.com/target/implement/recommendations/) für Informationen zur Verwendung der APIs für die Bereitstellung und Speicherung von Entitäten.
+Siehe [Dokumentation zur Adobe Recommendations API](https://developer.adobe.com/target/implement/recommendations/){target=_blank} für Informationen zur Verwendung der APIs für die Bereitstellung und Speicherung von Entitäten.
 
 ## Verwenden von Operatoren mit Attributen mit mehreren Werten {#section_83C2288A805242D9A02EBC4F07DEE945}
 

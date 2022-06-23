@@ -5,9 +5,9 @@ title: Wo erhalte ich Informationen über die Wissenschaft hinter den Recommenda
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2854'
+source-wordcount: '2858'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Der logische Ablauf der eigentlichen Algorithmusimplementierung wird im folgende
 
 Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
-* **Eingabedaten**: Verhaltensdaten in Form von Ansichten und Käufen von Besuchern, die bei der Erfassung erfasst werden [Target implementieren](https://developer.adobe.com/target/implement/recommendations/) oder von [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Eingabedaten**: Verhaltensdaten in Form von Ansichten und Käufen von Besuchern, die bei der Erfassung erfasst werden [Target implementieren](https://developer.adobe.com/target/implement/recommendations/){target=_blank} oder von [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Modellschulung**:
 
@@ -126,7 +126,7 @@ Die Logik der Trainings- und Scoring-Schritte für Modelle wird im folgenden Dia
 
 Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
-* **Eingabedaten**: Dies entspricht den Methoden des partizipativen Filterns (CF) von Elementen. [!UICONTROL Beide werden für Sie empfohlen] und auf den Warenkorb basierende Algorithmen verwenden Verhaltensdaten in Form von Ansichten und Käufen von Benutzern, die bei der Erfassung erfasst werden [Target implementieren](https://developer.adobe.com/target/implement/recommendations/) oder von [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Eingabedaten**: Dies entspricht den Methoden des partizipativen Filterns (CF) von Elementen. [!UICONTROL Beide werden für Sie empfohlen] und auf den Warenkorb basierende Algorithmen verwenden Verhaltensdaten in Form von Ansichten und Käufen von Benutzern, die bei der Erfassung erfasst werden [Target implementieren](https://developer.adobe.com/target/implement/recommendations/){target=_blank} oder von [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Modellschulung**:
 

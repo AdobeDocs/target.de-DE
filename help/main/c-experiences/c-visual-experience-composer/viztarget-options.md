@@ -4,10 +4,10 @@ description: Die im Abschnitt verfügbaren Optionen [!DNL Adobe Target] [!UICONT
 title: Wie verwende ich die [!UICONTROL Visual Experience Composer] (VEC) Optionen?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2928'
-ht-degree: 62%
+source-wordcount: '2932'
+ht-degree: 61%
 
 ---
 
@@ -372,7 +372,7 @@ Rückgängigmachen von Änderungen, die Sie während einer Bearbeitungssitzung a
 
 ## Zu beachten {#considerations}
 
-* Weitere Informationen zu Angeboten mit HTML-Inhalten finden Sie unter „Darstellung von Angeboten mit HTML-Inhalten durch at.js“ in [Funktionsweise von „at.js“](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/).
+* Wenn ein Angebot HTML-Inhalte enthält, finden Sie weitere Informationen unter &quot;Darstellung von Angeboten mit HTML-Inhalten durch at.js&quot;in [Funktionsweise von &quot;at.js&quot;](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} für weitere Informationen.
 
 ## Unterstützung benutzerdefinierter Elemente {#custom}
 
@@ -380,7 +380,7 @@ Der VEC unterstützt [Webkomponenten](https://developer.mozilla.org/de/docs/Web/
 
 >[!NOTE]
 >
->VEC-Unterstützung für benutzerdefinierte Elemente wird in [&quot;at.js&quot;-Version](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 2.7.0 (oder höher). Stellen Sie sicher, dass auf Ihrer Website die erforderliche Version bereitgestellt ist. Wenn Sie die [Visual Experience Composer Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)muss auch die erforderliche Version von at.js bereitgestellt sein. Die oben beschriebenen VEC-Optionen sind nicht sichtbar und stehen für die Verwendung mit nicht unterstützten Versionen von at.js nicht zur Verfügung.
+>VEC-Unterstützung für benutzerdefinierte Elemente wird in [&quot;at.js&quot;-Version](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (oder höher). Stellen Sie sicher, dass auf Ihrer Website die erforderliche Version bereitgestellt ist. Wenn Sie die [Visual Experience Composer Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)muss auch die erforderliche Version von at.js bereitgestellt sein. Die oben beschriebenen VEC-Optionen sind nicht sichtbar und stehen für die Verwendung mit nicht unterstützten Versionen von at.js nicht zur Verfügung.
 >
 >VEC-Unterstützung für benutzerdefinierte Elemente wird derzeit nicht von der [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 

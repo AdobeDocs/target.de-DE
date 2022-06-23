@@ -4,10 +4,10 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '4520'
-ht-degree: 99%
+source-wordcount: '4524'
+ht-degree: 98%
 
 ---
 
@@ -135,11 +135,11 @@ Da die oben genannten bekannten Probleme behoben wurden, werden sie in die folge
 
    Verwenden Sie als Problemumgehung im Erlebnisinhalt ein Leerzeichen.
 
-   Eine Korrektur dieses Problems wurde in at.js 2.2.0 implementiert. Führen Sie das Upgrade auf die [neueste Version von at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) durch oder verwenden Sie die oben genannte Problemumgehung, jedoch nur für at.js-Versionen vor 2.2.0.  (TNT-33366)
+   In at.js 2.2.0 wurde dieses Problem behoben. Führen Sie ein Upgrade auf die [aktuelle Version oder at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} oder verwenden Sie die oben genannte Problemumgehung nur für at.js-Versionen vor 2.2.0.  (TNT-33366)
 
 * Bei Verwendung einer at.js-Version vor 2.2.0 werden beim Klick-Tracking keine Konversionen in [!UICONTROL Analytics for Target] (A4T) gemeldet, wenn der [!DNL Adobe Analytics]-Code nicht in Seitenelementen (z. B. Schaltflächen) vorhanden ist.
 
-   Für dieses Problem wurde in at.js 2.2.0 eine Korrektur implementiert. Wenn dieses Problem auftritt, [führen Sie ein Upgrade auf die neueste at.js-Version durch](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+   Für dieses Problem wurde in at.js 2.2.0 eine Korrektur eingeführt. [Aktualisieren Sie auf die neueste at.js-Version.](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} , wenn dieses Problem auftritt.
 
 ### Geotargeting
 

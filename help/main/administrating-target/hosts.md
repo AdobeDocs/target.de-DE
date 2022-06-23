@@ -5,9 +5,9 @@ title: Was sind Hosts und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1086'
 ht-degree: 22%
 
 ---
@@ -86,7 +86,7 @@ Wenn eine [!DNL Target] -Anfrage auf einem nicht autorisierten Host erfolgt, ant
 
 >[!IMPORTANT]
 >
->**Best Practices für die Sicherheit**: Wenn Sie die Ubox-Funktion von [!DNL Target], steuert diese Zulassungsliste auch die Liste der Domänen, auf die Ihre [Weiterleitungen](https://developer.adobe.com/target/implement/email/working-with-redirectors/) kann navigieren. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, zu denen Sie umleiten möchten, wenn Sie &quot;ubox&quot;als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben wird, [!DNL Adobe] ist nicht in der Lage, die Umleitungs-URLs zu überprüfen und vor potenziellen schädlichen Umleitungen zu schützen.
+>**Best Practices für die Sicherheit**: Wenn Sie die Ubox-Funktion von [!DNL Target], steuert diese Zulassungsliste auch die Liste der Domänen, auf die Ihre [Weiterleitungen](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank} kann navigieren. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, zu denen Sie umleiten möchten, wenn Sie &quot;ubox&quot;als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben wird, [!DNL Adobe] ist nicht in der Lage, die Umleitungs-URLs zu überprüfen und vor potenziellen schädlichen Umleitungen zu schützen.
 >
 >Die Zulassungsliste hat Vorrang vor Umgebungen. Löschen Sie alle Hosts, bevor Sie die Funktion &quot;Zulassungsliste&quot;verwenden, und dann werden nur die von der Zulassungsliste zugelassenen Hosts in Ihrer Hostliste angezeigt. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
 

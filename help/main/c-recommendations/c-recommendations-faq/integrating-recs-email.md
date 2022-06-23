@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie E-Mails mit der Adobe [!DNL Target Recommenda
 title: Wie integriere ich Recommendations mit E-Mail?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1715'
 ht-degree: 99%
 
 ---
@@ -77,7 +77,7 @@ Dabei ist `clientcode` Ihr [!DNL Target]-Client-Code.
 >
 >Stellen Sie sicher, dass Sie einen eindeutigen Wert für `sessionId` und entweder `tntId` oder `thirdPartyId` für jeden E-Mail-Empfänger bereitstellen (z. B. für jeden API-Aufruf). Wenn Sie keine eindeutigen Werte für diese Felder angeben, kann die API-Antwort aufgrund der zahlreichen in einem einzigen Profil generierten Ereignisse lange dauern oder sogar fehlschlagen.
 
-Weitere Informationen finden Sie in der [Dokumentation zur Bereitstellungs-API](https://developer.adobe.com/target/implement/delivery-api/).
+Siehe [Dokumentation zur Bereitstellungs-API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} für weitere Informationen.
 
 ## Option 2: Verwenden einer Rawbox-E-Mail-Vorlage {#rawbox}
 

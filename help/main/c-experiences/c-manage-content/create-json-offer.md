@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Adobe JSON-Angebote erstellen. [!DNL Targe
 title: Wie erstelle ich JSON-Angebote?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 51%
+source-wordcount: '418'
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ Beachten Sie Folgendes, wenn Sie mit JSON-Angeboten arbeiten:
 * JSON-Angebote sind derzeit nur für [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT).
 * JSON-Angebote können in [formularbasierte Aktivitäten](/help/main/c-experiences/form-experience-composer.md) nur.
 * JSON kann direkt abgerufen werden, wenn Sie die Server-seitige API, das Mobile-SDK oder das NodeJS-SDK verwenden.
-* Im Browser kann JSON NUR über at.js 1.2.3 (oder neuer) und mit  [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/) abgerufen werden, indem Aktionen mit der Aktion `setJson` gefiltert werden.
+* Im Browser kann JSON NUR über at.js 1.2.3 (oder neuer) und mit  [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} durch Filtern von Aktionen mithilfe der `setJson` Aktion.
 * JSON-Angebote werden als native JSON-Objekte und nicht als Zeichenfolgen ausgeliefert. Nutzer dieser Objekte müssen diese also nicht mehr als Zeichenfolgen behandeln und in JSON-Objekte konvertieren.
 * JSON-Angebote werden im Gegensatz zu anderen Angeboten (z. B. HTML-Angeboten) nicht automatisch eingesetzt, da es sich bei JSON-Angeboten um nicht visuelle Angebote handelt. Der Entwickler muss Code schreiben, um das Angebot explizit zum Einsatz zu bringen.  [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/).
 
