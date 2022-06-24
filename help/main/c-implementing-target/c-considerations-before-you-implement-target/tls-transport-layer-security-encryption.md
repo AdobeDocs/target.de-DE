@@ -5,10 +5,10 @@ title: Funktionsweise [!DNL Target] Verwenden Sie TLS, um Sicherheit zu bieten?
 feature: Privacy & Security
 role: Developer
 exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 53%
+source-wordcount: '1152'
+ht-degree: 50%
 
 ---
 
@@ -56,7 +56,7 @@ Beachten Sie bei der Planung dieser Änderung Folgendes (beachten Sie, dass der 
 * Beachten Sie, dass die Anzahl der Besucher in Ihren Target-Berichten geringfügig zurückgehen kann.
 * Möglicherweise müssen Sie Zielgruppen ändern, die speziell für ältere Geräte oder Browser erstellt wurden, die TLS 1.2 nicht unterstützen. Die Bereitstellung auf diesen Geräten und Browsern funktioniert nicht mehr.
 
-Weitere Informationen zu unterstützten Browsern und Versionen finden Sie unter  [Unterstützte Browser](https://developer.adobe.com/target/before-implement/supported-browsers/).
+Weitere Informationen zu unterstützten Browsern und Versionen finden Sie unter [Unterstützte Browser](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}.
 
 ## Adobe [!DNL Target] APIs {#section_88797FA5434049EC89F908853CC76903}
 
@@ -68,7 +68,7 @@ Ab dem 1. März 2020 bieten Target-APIs keine Unterstützung mehr für die Versc
 
 ## Zugriff auf die Benutzeroberflächen von Experience Cloud Solutions {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Da für die Benutzeroberfläche von Target Standard/Premium bereits ein [aktueller Webbrowser](https://developer.adobe.com/target/before-implement/supported-browsers/) benötigt wird, werden keine Probleme erwartet. Wenn Sie keine Verbindung zu Target herstellen können, sollten Sie Ihren Browser auf die neueste Version aktualisieren.
+Da die Target Standard/Premium-Benutzeroberfläche bereits eine [moderner Webbrowser](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}, wir erwarten keine Probleme. Wenn Sie keine Verbindung zu Target herstellen können, sollten Sie Ihren Browser auf die neueste Version aktualisieren.
 
 ## Überprüfen der TLS-Version, die Ihr Browser verwendet {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 

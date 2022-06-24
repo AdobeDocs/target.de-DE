@@ -5,9 +5,9 @@ title: Was sind Unternehmensbenutzerberechtigungen und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3150'
+source-wordcount: '3152'
 ht-degree: 58%
 
 ---
@@ -252,7 +252,7 @@ Beachten Sie Folgendes bei der Verwendung oder Konfiguration von Eigenschaften u
 
    In einer künftigen Version wird Target auf Seiten, auf denen kein `at_property`-Token existiert, oder auf Seiten, auf denen ein anderes `at_property`-Token vorhanden ist, funktionieren.
 
-* Die Funktionalität „Berechtigungen für Unternehmensbenutzer“ wird in den [Aufrufen der Adobe I/O-API](https://developer.adobe.com/target/) nicht unterstützt.
+* Die Funktionalität &quot;Berechtigungen für Unternehmensbenutzer&quot;wird in [Adobe I/O-API-Aufrufe](https://developer.adobe.com/target/){target=_blank}.
 
 ## Häufig gestellte Fragen   {#faqs}
 

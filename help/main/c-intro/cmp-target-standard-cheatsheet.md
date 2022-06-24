@@ -4,10 +4,10 @@ description: In diesem Abschnitt finden Sie eine Liste der häufig gestellten Fr
 title: Wo finde ich Antworten auf Fragen zur Optimierung und Personalisierung?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 98%
+source-wordcount: '2795'
+ht-degree: 96%
 
 ---
 
@@ -309,10 +309,10 @@ Es tut uns leid, zu hören, dass Sie Probleme haben. Unter [Troubleshooting Targ
 
 **Wir besitzen eine mobile SKU. Kann ich mobile Aktivitäten erstellen?**
 
-Zur Optimierung und Personalisierung auf Mobilgeräten müssen Sie [formularbasierte Aktivitäten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) zusammen mit [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/) verwenden. Weitere Informationen zu [Target für mobile Apps](https://developer.adobe.com/target/implement/mobile/).
+Zur Optimierung und Personalisierung auf Mobilgeräten müssen Sie [formularbasierte Aktivitäten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) zusammen mit [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Weitere Informationen finden Sie unter [Target für mobile Apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
 
 ## Target-APIs {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Wo erhalte ich weitere Informationen über Target-APIs?**
 
-Wir verfügen über eine umfassende Dokumentation zu APIs. Siehe [Dokumentation zu Bereitstellungs-APIs, NodeJS-SDK und Recommendations-APIs](https://developer.adobe.com/target/implement/server-side/).
+Wir verfügen über eine umfassende Dokumentation zu APIs. Siehe [Dokumentation zu Bereitstellungs-APIs, NodeJS-SDK und Recommendations-APIs](https://developer.adobe.com/target/implement/server-side/){target=_blank}.

@@ -5,9 +5,9 @@ title: Wie funktioniert die Entscheidungsfindung auf dem Gerät mit der JavaScri
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3560'
 ht-degree: 18%
 
 ---
@@ -35,7 +35,7 @@ Das Adobe Target JS SDK bietet Kunden die Möglichkeit, für Entscheidungen zwis
 * Zielgruppen-Targeting
 * Zuordnungsmethode
 
-Weitere Informationen finden Sie unter [Unterstützte Funktionen für geräteübergreifende Entscheidungen](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+Weitere Informationen finden Sie unter [Unterstützte Funktionen für geräteübergreifende Entscheidungen](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}.
 
 ## Wie funktioniert die Entscheidungsfindung auf dem Gerät?
 
@@ -88,7 +88,7 @@ Die folgende Liste entspricht den Zahlen im Diagramm:
 
 Die Entscheidungsfindung auf dem Gerät kann Ihre Erlebnisse und Personalisierungsaktivitäten schnell bereitstellen, da die Entscheidungen aus einem zwischengespeicherten Regelartefakt getroffen werden, das all Ihre Aktivitäten enthält, die für die Entscheidungsfindung auf dem Gerät qualifiziert sind.
 
-Weitere Informationen dazu, welche Aktivitäten für die Entscheidungsfindung auf dem Gerät qualifiziert sind, finden Sie unter [Unterstützte Funktionen bei Entscheidungen auf Geräten](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+Weitere Informationen dazu, welche Aktivitäten für die Entscheidungsfindung auf dem Gerät qualifiziert sind, finden Sie unter [Unterstützte Funktionen bei Entscheidungen auf Geräten](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}.
 
 Diese Entscheidungsmethode sollte nur verwendet werden, wenn die Leistung auf allen Seiten, für die Entscheidungen von [!DNL Target] erforderlich sind, äußerst kritisch ist. Beachten Sie außerdem, dass bei Auswahl dieser Entscheidungsmethode Ihre [!DNL Target]-Aktivitäten, die nicht für die Entscheidungsfindung auf dem Gerät qualifiziert sind, nicht bereitgestellt bzw. ausgeführt werden. Die Bibliothek at.js 2.5.0+ ist so konfiguriert, dass nur nach dem zwischengespeicherten Regelartefakt gesucht wird, um Entscheidungen zu treffen.
 
@@ -249,7 +249,7 @@ Nach der Aktivierung der [!UICONTROL On-Device Decisioning] Umschalten, [!DNL Ta
 
 ### Globale Einstellungen
 
-Sie können die Standardeinstellung [!UICONTROL Entscheidungsmethode] für alle [!DNL Target] Entscheidungen. Die verschiedenen Entscheidungsmethoden sind [!UICONTROL Nur serverseitig], [!UICONTROL Nur auf Gerät]und [!UICONTROL Hybrid]. Die in der Target-Benutzeroberfläche ausgewählte Entscheidungsmethode wird in `window.targetGlobalSettings` unter `decisioningMethod` -Feld. Weitere Informationen zum `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Sie können die Standardeinstellung [!UICONTROL Entscheidungsmethode] für alle [!DNL Target] Entscheidungen. Die verschiedenen Entscheidungsmethoden sind [!UICONTROL Nur serverseitig], [!UICONTROL Nur auf Gerät]und [!UICONTROL Hybrid]. Die in der Target-Benutzeroberfläche ausgewählte Entscheidungsmethode wird in `window.targetGlobalSettings` unter `decisioningMethod` -Feld. Weitere Informationen zum `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ```javascript
 <head> 
@@ -321,6 +321,6 @@ Sie können nach allen Aktivitäten filtern, die für eine Entscheidung auf dem 
 
    Die erste Generierung von JSON-Regeln-Artefakten kann bis zu 10 Minuten dauern.
 
-1. Erstellen und Aktivieren einer [Aktivitätstyp, der von geräteinterner Entscheidungsfindung unterstützt wird](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/)und stellen Sie sicher, dass die Entscheidung auf dem Gerät getroffen werden kann.
+1. Erstellen und Aktivieren einer [Aktivitätstyp, der von geräteinterner Entscheidungsfindung unterstützt wird](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank} und stellen Sie sicher, dass die Entscheidung auf dem Gerät zulässig ist.
 1. Legen Sie die **[!UICONTROL Entscheidungsmethode]** entweder **[!UICONTROL &quot;Hybrid&quot;]** oder **[!UICONTROL &quot;Nur auf Gerät&quot;]** über die Benutzeroberfläche für at.js-Einstellungen.
 1. Laden Sie at.js 2.5.0+ herunter und stellen Sie es auf Ihren Seiten bereit.

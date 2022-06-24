@@ -4,10 +4,10 @@ description: Antworten auf Fragen zur Verwendung von Umleitungsangeboten bei der
 title: Wo finde ich häufig gestellte Fragen zu Umleitungsangeboten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 55%
+source-wordcount: '1477'
+ht-degree: 54%
 
 ---
 
@@ -54,7 +54,7 @@ Beachten Sie Folgendes:
 
 ## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-Bei der Verwendung von at.js Version 1.6.3 oder höher ist die Zählung von Seitenansichten auf beiden Seiten kein Problem. Diese Race-Bedingung betrifft nur Kunden, die frühere Versionen verwenden. Das Target-Team behält zwei Versionen von at.js: die aktuelle Version und die davor. Führen Sie bei Bedarf ein Upgrade von at.js durch, um sicherzustellen, dass Sie eine [unterstützte Version](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) ausführen.
+Bei der Verwendung von at.js Version 1.6.3 oder höher ist die Zählung von Seitenansichten auf beiden Seiten kein Problem. Diese Race-Bedingung betrifft nur Kunden, die frühere Versionen verwenden. Das Target-Team behält zwei Versionen von at.js: die aktuelle Version und die davor. Aktualisieren Sie at.js nach Bedarf, um sicherzustellen, dass Sie eine [unterstützte Version](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 Wenn Sie eine frühere, nicht unterstützte Version von at.js verwenden, besteht die Möglichkeit, dass eine Race-Bedingung eintritt, die dazu führen kann, dass der Analytics-Aufruf ausgelöst wird, bevor die Umleitung auf der ersten Seite ausgeführt wird. Diese Situation kann dazu führen, dass Seitenansichten auf der Originalseite und auf der Umleitungsseite gezählt werden. Diese Situation führt zu einem zusätzlichen Seitenaufruf auf der ersten Seite, selbst wenn der Besucher diese erste Seite nie wirklich „gesehen“ hat.
 

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie den SPA VEC in Adobe verwenden. [!DNL Target]
 title: Wie verwende ich den Visual Experience Composer (SPA VEC) für Einzelseiten-Apps?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3722'
-ht-degree: 90%
+source-wordcount: '3726'
+ht-degree: 89%
 
 ---
 
@@ -65,7 +65,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
 
    ![Dialogfeld „Implementierungsdetails“](/help/main/c-experiences/assets/imp-200.png)
 
-   Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter herunter. [!UICONTROL Administration > Implementierung]. at.js 2.x kann auch über Tags in bereitgestellt werden. [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). Die Adobe Target-Erweiterungen sind jedoch derzeit nicht aktuell und werden nicht unterstützt.
+   Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter herunter. [!UICONTROL Administration > Implementierung]. at.js 2.x kann auch über Tags in bereitgestellt werden. [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. Die Adobe Target-Erweiterungen sind jedoch derzeit nicht aktuell und werden nicht unterstützt.
 
 1. Implementieren Sie die neueste at.js 2.x-Funktion: [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} auf Ihren Sites.
 
@@ -354,7 +354,7 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
 | [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) | Ja |
-| [Kundenattribute](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/) | Ja |
+| [Kundenattribute](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank} | Ja |
 | [AEM-Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
 ## Unterstützte Funktionen {#supported-features}

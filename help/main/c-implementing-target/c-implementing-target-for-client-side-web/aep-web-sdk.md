@@ -5,10 +5,10 @@ title: Wie implementiere ich das Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 16%
+source-wordcount: '563'
+ht-degree: 15%
 
 ---
 
@@ -39,4 +39,4 @@ Zusätzlich zu den [!DNL Platform Web SDK] Die oben genannten Dokumentationen en
 | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Umleitungsangebote führen dazu, dass die Browser der Besucher zu einer neuen Seite umleiten.<br>Siehe [Stellt die [!DNL Adobe Experience Platform Web SDK] Unterstützung von Umleitungsangeboten für A4T?](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Antwort-Token](/help/main/administrating-target/response-tokens.md) | Mit Antwort-Token können Sie Target-Daten an Google Analytics und andere Drittanbieter-Integrationen senden.<br>Siehe [Senden von Daten an Google Analytics über das Platform Web SDK](/help/main/administrating-target/response-tokens.md#platform-web-sdk) um ein Codebeispiel für die Ausführung dieser Aufgabe anzuzeigen. |
 | [Implementierung von Einzelseiten-Apps](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) im *Übersicht über das Platform Web SDK* Handbuch. | [!UICONTROL Adobe Experience Platform Web SDK] bietet umfassende Funktionen, mit denen Ihr Unternehmen mithilfe von Client-seitigen Technologien der nächsten Generation Personalisierungen ausführen kann, wie z. B. Einzelseitenanwendungen (SPA). |
-| [Änderungen der TLS-Verschlüsselung (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) | Mit TLS (Transport Layer Security){target=_blank} können Sie die höchsten Sicherheitsstandards einhalten und die Sicherheit von Kundendaten fördern. |
+| [Änderungen der TLS-Verschlüsselung (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} | Mit TLS (Transport Layer Security){target=_blank} können Sie die höchsten Sicherheitsstandards einhalten und die Sicherheit von Kundendaten fördern. |

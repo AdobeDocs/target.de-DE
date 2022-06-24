@@ -5,10 +5,10 @@ title: Kann ich implementieren? [!DNL Target] using [!DNL Dynamic Tag Manager] (
 feature: Implement Server-side
 role: Developer
 exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 43%
+source-wordcount: '108'
+ht-degree: 42%
 
 ---
 
@@ -18,5 +18,5 @@ ht-degree: 43%
 
 Tags in [!DNL Adobe Experience Platform] sind die nächste Generation von Tag-Management-Funktionen von [!DNL Adobe]. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerlebnisse erforderlich sind.
 
-Weitere Informationen finden Sie unter [Implementierung [!DNL Target] using [!DNL Adobe Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+Weitere Informationen finden Sie unter [Implementierung [!DNL Target] using [!DNL Adobe Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 

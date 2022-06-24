@@ -5,9 +5,9 @@ title: Informationen darüber [!DNL Target] Serverseitige Bereitstellungs-APIs u
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 21%
 
 ---
@@ -53,6 +53,6 @@ Die [!DNL Adobe Target] Das serverseitige SDK-Dokumentationsportal unterstützt 
 
 ## Target Recommendations-APIs
 
-Link: [Target Recommendations-APIs](https://developer.adobe.com/target/).
+Link: [Target Recommendations-APIs](https://developer.adobe.com/target/){target=_blank}.
 
 Mit den Recommendations-APIs können Sie programmatisch mit [!DNL Target] Recommendations-Server. Diese APIs können in eine Reihe von Anwendungsstacks integriert werden, um Funktionen auszuführen, die Sie normalerweise über die [!DNL Target] -Benutzeroberfläche.

@@ -4,9 +4,9 @@ description: Hier erhalten Sie einen Überblick über Adobe Target. Sie erfahren
 title: Wo finde ich eine übersichtliche Einführung in Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2536'
 ht-degree: 99%
 
 ---
@@ -52,8 +52,8 @@ Vermutlich möchten Sie [!DNL Target] zum Testen und Personalisieren vieler vers
 
 | Implementierungstyp | Details |
 | --- | --- |
-| Clientseitig | Bei dieser Implementierung von [!DNL Target] stellt [!DNL Target] die mit einer Aktivität verbundenen Erlebnisse direkt auf dem Client-Browser bereit. Der Browser entscheidet, welches Erlebnis angezeigt werden soll, und zeigt es an. Bei der clientseitigen Implementierung können Sie einen WYSIWYG-Editor, Visual **[!UICONTROL Experience Composer]** (VEC) oder eine nicht visuelle Schnittstelle, den **[!UICONTROL formularbasierten Experience Composer]**, zur Erstellung Ihrer Tests und Personalisierungserlebnisse verwenden. [Mehr Info](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/). |
-| Serverseitig | Bei der serverseitigen Implementierung von [!DNL Target] fordert ein Client-Gerät über Ihren Server ein Erlebnis an. Diese Anforderung sendet der Server an [!DNL Target], und [!DNL Target] sendet die Antwort an den Server zurück. Ihr Server entscheidet dann, welches Erlebnis zum Rendern an das Client-Gerät gesendet werden soll. Das Erlebnis muss nicht in einem Browser angezeigt werden. Es kann auch in einer E-Mail oder an einem Kiosk, über einen Sprachassistenten oder über ein anderes nicht visuelles Erlebnis oder nicht browserbasiertes Gerät angezeigt werden. Da sich Ihr Server zwischen dem Client und [!DNL Target] befindet, ist diese Art der Implementierung auch dann optimal, wenn Sie mehr Kontrolle und Sicherheit benötigen oder komplexe Backend-Prozesse haben, die auf Ihrem Server ausgeführt werden sollen. [Mehr Info](https://developer.adobe.com/target/implement/server-side/). |
+| Clientseitig | Bei dieser Implementierung von [!DNL Target] stellt [!DNL Target] die mit einer Aktivität verbundenen Erlebnisse direkt auf dem Client-Browser bereit. Der Browser entscheidet, welches Erlebnis angezeigt werden soll, und zeigt es an. Bei der clientseitigen Implementierung können Sie einen WYSIWYG-Editor, Visual **[!UICONTROL Experience Composer]** (VEC) oder eine nicht visuelle Schnittstelle, den **[!UICONTROL formularbasierten Experience Composer]**, zur Erstellung Ihrer Tests und Personalisierungserlebnisse verwenden. [Weitere Infos](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}. |
+| Serverseitig | Bei der serverseitigen Implementierung von [!DNL Target] fordert ein Client-Gerät über Ihren Server ein Erlebnis an. Diese Anforderung sendet der Server an [!DNL Target], und [!DNL Target] sendet die Antwort an den Server zurück. Ihr Server entscheidet dann, welches Erlebnis zum Rendern an das Client-Gerät gesendet werden soll. Das Erlebnis muss nicht in einem Browser angezeigt werden. Es kann auch in einer E-Mail oder an einem Kiosk, über einen Sprachassistenten oder über ein anderes nicht visuelles Erlebnis oder nicht browserbasiertes Gerät angezeigt werden. Da sich Ihr Server zwischen dem Client und [!DNL Target] befindet, ist diese Art der Implementierung auch dann optimal, wenn Sie mehr Kontrolle und Sicherheit benötigen oder komplexe Backend-Prozesse haben, die auf Ihrem Server ausgeführt werden sollen. [Weitere Infos](https://developer.adobe.com/target/implement/server-side/){target=_blank}. |
 | Hybridimplementierung | Bei dieser Art der Implementierung wählen Sie je nach Anwendungsfall den geeignetsten Implementierungsansatz. Beispielsweise können Sie für einen A/B-Test eines Angebots in einem Hero-Banner auf der Homepage eine clientseitige Implementierung verwenden, parallel dazu aber auch eine serverseitige Implementierung, um die internen Suchergebnisse zu bestimmen, die in einem Client-Browser angezeigt werden, die Erlebnisse, die ein Smart Car-Dashboard rendert, oder Sprachantworten, die von einem Sprachassistenten zurückgegeben werden. |
 
 ## Aktivitätselemente

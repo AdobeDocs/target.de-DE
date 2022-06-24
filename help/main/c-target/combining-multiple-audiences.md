@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mehrere Zielgruppen (einschließlich Adobe Ex
 title: Kann ich mehrere Zielgruppen kombinieren, um eine neue Zielgruppe zu erstellen?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '939'
 ht-degree: 67%
 
 ---
@@ -17,7 +17,7 @@ Kombinieren mehrerer Zielgruppen (einschließlich [!DNL Adobe Experience Cloud],
 
 >[!NOTE]
 >
->Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). In der [!DNL Adobe Experience Platform] kann unverändert oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema beschrieben.
+>Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. In der [!DNL Adobe Experience Platform] kann unverändert oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema beschrieben.
 >
 >Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 

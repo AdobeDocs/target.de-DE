@@ -4,9 +4,9 @@ description: Zeigen Sie eine Liste verschiedener Profile, Variablen und Paramete
 title: Welche Profile, Variablen und Parameter werden in Target verwendet?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 85%
 
 ---
@@ -82,7 +82,7 @@ Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten n
 | mbox.param(&#39;param_name&#39;) |  |
 | Automatisch mit jeder Anfrage weitergegebene Parameter:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | Parameter, die mit Bestellaufgabe-Mboxes weitergegeben werden:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | Ein Parameter „mbox“ zum Synchronisieren einer Kunden-ID mit der mboxPC-ID in Target. Eine Kunden-ID ist eine ID, die Ihr Unternehmen zum Verfolgen von Besuchern verwendet, zum Beispiel eine CRM-ID, eine Mitglieds-ID oder etwas Ähnliches. Diese ID kann anschließend verwendet werden für das Hinzufügen von Informationen über die Profil-APIs und  [Kundenattribute](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/). |
+| mbox3rdPartyId | Ein Parameter „mbox“ zum Synchronisieren einer Kunden-ID mit der mboxPC-ID in Target. Eine Kunden-ID ist eine ID, die Ihr Unternehmen zum Verfolgen von Besuchern verwendet, zum Beispiel eine CRM-ID, eine Mitglieds-ID oder etwas Ähnliches. Diese ID kann anschließend verwendet werden für das Hinzufügen von Informationen über die Profil-APIs und  [Kundenattribute](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank}. |
 | mboxPageValue | Bei jeder Mbox-Anfrage wird der Seite ein Wert zugewiesen. |
 | mboxDebug | Wird nur für Debug-Informationen verwendet. Zur Seiten-URL hinzugefügt, nach der at.js sucht. |
 | mboxOverride.browserIp | Legt einen anderen Geo-Standort als den tatsächlichen Standort fest, damit Sie sehen können, wie etwas an einem anderen Standort aussehen würde.<br>**Hinweis:** mboxOverride-Parameter sollte nur beim Testen der Aktivität verwendet werden, aber nicht bei der Produktion. Die Verwendung von MboxOverride-Parametern kann bei der Verwendung von [Analytics für Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) zu Berichtsdiskrepanzen führen. Sie sollten während des Testens den [Aktivitäts-QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) verwenden, um sicherzustellen, dass Ihre Aktivität wie erwartet funktioniert, bevor Sie die Aktivität in Ihre Live-Umgebung versetzen. |

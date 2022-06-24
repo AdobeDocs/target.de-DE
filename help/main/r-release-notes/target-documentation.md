@@ -4,10 +4,10 @@ description: Zugriff auf die Adobe  [!DNL Target] -Dokumentation, einschließlic
 title: Wo finde ich Dokumentation zu Target?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '486'
+ht-degree: 92%
 
 ---
 
@@ -22,14 +22,14 @@ Im Folgenden finden Sie eine kurze Beschreibung der häufigsten Dokumentationsty
 | [Adobe Target-Produktdokumentation](/help/main/target-home.md)<br>(dieses Handbuch) | Übersichtsinformationen, schrittweise Anleitungen und Screenshots mit Fokus auf die Interaktion mit [!DNL Target] über die Benutzeroberfläche. In diesem Handbuch werden alle verfügbaren Aktionen und Optionen einschließlich der zu vermeidenden „Gotchas“ erläutert. Dies ist die detaillierteste Ressource für die Arbeit mit der [!DNL Target]-Benutzeroberfläche. |
 | [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=de) | Videos und Tutorials, in denen Sie die vielen Komponenten von [!DNL Target] kennenlernen. |
 | [Adobe Experience League Target-Inhaltsbibliothek](https://guided.adobe.com/#recommended/solutions/target) | Eine Sammlung von Videoanleitungen und Tutorials insbesondere für die Funktionen von [!DNL Target] auf der [!DNL Adobe Target Experience League]-Seite. |
-| [Dokumentation zu Adobe Experience Platform – Target](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) | Informationen zur Implementierung von [!DNL Target] unter Verwendung von Tags in [!DNL Adobe Experience Platform], die Tag-Management-Plattform der nächsten Generation von [!DNL Adobe]. Dies ist die empfohlene Methode zur Implementierung von [!DNL Target]. |
+| [Dokumentation zu Adobe Experience Platform – Target](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} | Informationen zur Implementierung von [!DNL Target] unter Verwendung von Tags in [!DNL Adobe Experience Platform], die Tag-Management-Plattform der nächsten Generation von [!DNL Adobe]. Dies ist die empfohlene Methode zur Implementierung von [!DNL Target]. |
 | [Adobe-Kundenunterstützung – Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informationen zu „Office Hours“, einer Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird. In diesen Sitzungen erhalten Teilnehmer Informationen, Hilfestellungen bei Problemen sowie Tipps und Tricks zur erfolgreichen Verwendung der [!DNL Adobe Experience Cloud]-Lösungen einschließlich [!DNL Target]. |
 | [Webinar-Reihe zu Target-Grundlagen](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registrierungsinformationen und Links zu früheren Sitzungen der Webinar-Reihe zu [!DNL Target]-Grundlagen, einer Webinar-Serie zu den Erfolgen unserer Kunden. |
-| [Entwicklerhandbuch für Adobe Target](https://developer.adobe.com/target/) | Informationen zur Adobe Target Developers-Website, die Ihnen bei der Implementierung von [!DNL Target] in clientseitigen und serverseitigen Anwendungen, in mobilen Apps, auf IoT-Geräten und mehr unterstützt. Sie können Ihre [!DNL Target]-Daten auch in Lösungen von Drittanbietern exportieren. |
-| [Target Recommendations-APIs](https://developer.adobe.com/target/implement/recommendations/) | Informationen zu den [!UICONTROL Recommendations]-APIs, mit denen Sie programmgesteuert mit [!DNL Target] Recommendations-Servern interagieren können. Diese APIs können in verschiedene Anwendungs-Stacks integriert werden, um Funktionen durchzuführen, die Sie für gewöhnlich über die Benutzeroberfläche von [!DNL Target] ausführen würden. |
-| [Serverseitige Bereitstellungs-APIs](https://developer.adobe.com/target/) | Informationen zu den Ressourcen der Adobe Target-Bereitstellungs-API. |
+| [Entwicklerhandbuch für Adobe Target](https://developer.adobe.com/target/){target=_blank} | Informationen zur Adobe Target Developers-Website, die Ihnen bei der Implementierung von [!DNL Target] in clientseitigen und serverseitigen Anwendungen, in mobilen Apps, auf IoT-Geräten und mehr unterstützt. Sie können Ihre [!DNL Target]-Daten auch in Lösungen von Drittanbietern exportieren. |
+| [Target Recommendations-APIs](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Informationen zu den [!UICONTROL Recommendations]-APIs, mit denen Sie programmgesteuert mit [!DNL Target] Recommendations-Servern interagieren können. Diese APIs können in verschiedene Anwendungs-Stacks integriert werden, um Funktionen durchzuführen, die Sie für gewöhnlich über die Benutzeroberfläche von [!DNL Target] ausführen würden. |
+| [Serverseitige Bereitstellungs-APIs](https://developer.adobe.com/target/){target=_blank} | Informationen zu den Ressourcen der Adobe Target-Bereitstellungs-API. |
 | [Target-SDKs für die Serverseite](https://adobetarget-sdks.gitbook.io/docs/) | Erläutert die Bereitstellung der Serverseite von [!DNL Target] über SDKs. |
-| [Dokumentation zu Target Adobe.IO](https://developer.adobe.com/target/implement/server-side/) | Informationen zu den REST-APIs für die Administration und Profilerstellung in Adobe Target, die die Adobe.IO-Integration zur Verwaltung von Aktivitäten, Zielgruppen, Angeboten, Eigenschaften, Berichten, Mboxes, Umgebungen und Profilen nutzen. |
+| [Dokumentation zu Target Adobe.IO](https://developer.adobe.com/target/implement/server-side/){target=_blank} | Informationen zu den REST-APIs für die Administration und Profilerstellung in Adobe Target, die die Adobe.IO-Integration zur Verwaltung von Aktivitäten, Zielgruppen, Angeboten, Eigenschaften, Berichten, Mboxes, Umgebungen und Profilen nutzen. |
 | [Adobe Experience Platform Mobile SDKs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Informationen zur Implementierung von [!DNL Target] in Apps für Mobilgeräte. |
 
 Besuchen Sie neben den oben genannten Ressourcen auch die [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), die Ihnen folgende Vorteile bietet:

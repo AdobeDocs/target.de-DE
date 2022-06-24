@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie beim Erstellen von Personalisierungsmodellen 
 title: Wie kann ich Daten für Personalisierungsalgorithmen hochladen?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 63%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 63%
 
 Offline-Daten, wie z. B. CRM-Informationen oder Tendenzwerte zur Kundenabwanderung, können beim Erstellen von Personalisierungsmodellen in [!DNL Adobe Target] [!UICONTROL Automated Personalization] AP-Aktivitäten.
 
-Es gibt verschiedene Möglichkeiten für die Dateneingabe in die Algorithmen zur [!UICONTROL automatisierten Personalisierung] (AP) und zum [!UICONTROL automatischen Targeting. ] Zusätzlich zu den Methoden in [Verfahren für die Datenübernahme in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/), Experience Cloud freigegebene Zielgruppen (Adobe Analytics, Zielgruppen-Management){target=_blank} und In-Aktivität-Reporting-Zielgruppen werden auch in unseren Algorithmen verwendet.
+Es gibt verschiedene Möglichkeiten für die Dateneingabe in die Algorithmen zur [!UICONTROL automatisierten Personalisierung] (AP) und zum [!UICONTROL automatischen Targeting. ] Zusätzlich zu den Methoden in [Verfahren für die Datenübernahme in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}, freigegebene Experience Cloud-Zielgruppen (Adobe Analytics, Zielgruppen-Management){target=_blank} und aktivitätsinterne Berichterstellungszielgruppen werden auch in unseren Algorithmen verwendet.
 
 Informationen zu den Daten, die automatisch von den Personalisierungsalgorithmen der automatisierten Personalisierung und des automatischen Targetings gesammelt und verwendet werden, finden Sie unter [Datenerfassung für die automatisierte Personalisierung](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

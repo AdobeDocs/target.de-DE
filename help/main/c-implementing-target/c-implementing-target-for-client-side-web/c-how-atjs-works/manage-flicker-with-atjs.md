@@ -5,10 +5,10 @@ title: Wie verwaltet at.js Flackern?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 60%
+source-wordcount: '695'
+ht-degree: 58%
 
 ---
 
@@ -38,7 +38,7 @@ Die folgende Abbildung zeigt die Aufrufe „Hide Body“ und „Show Body“ sow
 
 ![](assets/target-flow2.png)
 
-Weitere Informationen zum Überschreiben mit `bodyHiddenStyle` finden Sie unter [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Weitere Informationen zum `bodyHiddenStyle` override, siehe [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Vermeiden von Flackern beim asynchronen Laden von at.js
 

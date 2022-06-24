@@ -5,9 +5,9 @@ title: Wie arbeite ich mit Weiterleitungen?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '693'
 ht-degree: 68%
 
 ---
@@ -28,7 +28,7 @@ Verwenden Sie die Weiterleitung, um  folgende Aktionen auszuführen:
 
 * Finden Sie heraus, welche Landingpage die meisten Konversionen bringt.
 
-Hilfe zur Entscheidung über die richtigen Einstellungen finden Sie unter  [Nicht-JavaScript-basierte Implementierungen](https://developer.adobe.com/target/implement/email/).
+Hilfe zur Entscheidung über die richtigen Einstellungen finden Sie unter  [Nicht-JavaScript-basierte Implementierungen](https://developer.adobe.com/target/implement/email/){target=_blank}.
 
 ## Erstellen einer Weiterleitung {#redirector}
 

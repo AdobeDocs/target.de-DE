@@ -5,10 +5,10 @@ title: Kann ich [!DNL Target] mit Cloud-basierten Instanzen?
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 67%
+source-wordcount: '177'
+ht-degree: 63%
 
 ---
 
@@ -26,4 +26,4 @@ Diese Domänen sind neben vielen anderen Teil der [öffentlichen Suffix-Liste](h
 
 Die [!DNL at.js] Die JavaScript-Bibliothek verwendet Cookies zur Benutzerverfolgung, um sicherzustellen, dass [!DNL Target] immer ein konsistentes Erlebnis darstellt. Wenn die Variable [!DNL Target] Cookies können nicht in der JavaScript-Bibliothek gespeichert werden. [!DNL Target] -Anfragen deaktiviert sind.
 
-**Lösung:** Wenn Sie Cloud-basierte Instanzen mit in der öffentlichen Suffix-Liste enthaltenen Domänen verwenden möchten, hat es sich bewährt, die `cookieDomain`-Einstellung anzupassen. Weitere Informationen finden Sie unter [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+**Lösung:** Wenn Sie Cloud-basierte Instanzen mit in der öffentlichen Suffix-Liste enthaltenen Domänen verwenden möchten, hat es sich bewährt, die `cookieDomain`-Einstellung anzupassen. Weitere Informationen finden Sie unter [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.

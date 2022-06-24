@@ -5,10 +5,10 @@ title: Wie erhalte ich Daten? [!DNL Target] Verwenden von Datenanbietern?
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 62%
+source-wordcount: '326'
+ht-degree: 55%
 
 ---
 
@@ -22,7 +22,7 @@ Hinweis: Datenanbieter benötigen at.js 1.3 oder höher.
 
 Die Einstellung `window.targetGlobalSettings.dataProviders` entspricht einer Reihe von Datenanbietern.
 
-Weitere Informationen zur Struktur für die einzelnen Datenanbieter finden Sie unter [Datenanbieter](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Weitere Informationen zur Struktur der einzelnen Datenanbieter finden Sie unter [Datenanbieter](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Anwendungsbeispiele
 
@@ -44,7 +44,7 @@ at.js versucht nicht, die Daten zwischenzuspeichern. Wenn der Datenanbieter die 
 
 ## Codebeispiele
 
-Unter [Datenanbieter](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) finden Sie verschiedene Beispiele.
+Einige Beispiele finden Sie unter [Datenanbieter](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Links zu relevanten Informationen
 

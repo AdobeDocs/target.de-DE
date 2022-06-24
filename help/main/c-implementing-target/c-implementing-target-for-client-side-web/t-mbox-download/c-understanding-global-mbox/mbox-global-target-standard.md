@@ -5,10 +5,10 @@ title: Kann ich eine globale Mbox aus einer älteren Implementierung verwenden?
 feature: at.js
 role: Developer
 exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 38%
+source-wordcount: '311'
+ht-degree: 37%
 
 ---
 
@@ -44,4 +44,4 @@ Die folgenden häufig gestellten Fragen können zur Fehlerbehebung bei Ihrer glo
 
 ### Wieso wird die globale Mbox nicht geladen oder wieso gibt es eine Wartezeit beim Laden der globalen Mbox beim Laden der Seite?
 
-Stellen Sie sicher, dass die at.js-Referenz der erste JavaScript-Aufruf auf der Seite ist. Weitere Lösungen für dieses Problem finden Sie unter [Häufig gestellte Fragen zu globalen Mboxes](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/).
+Stellen Sie sicher, dass die at.js-Referenz der erste JavaScript-Aufruf auf der Seite ist. Weitere Lösungen für dieses Problem finden Sie unter [Häufig gestellte Fragen zu globalen Mboxes](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/){target=_blank}.

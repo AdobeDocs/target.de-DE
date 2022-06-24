@@ -5,9 +5,9 @@ title: Implementieren [!DNL Target] für Client-seitiges Web
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '253'
 ht-degree: 27%
 
 ---
@@ -24,7 +24,7 @@ Zu implementieren [!DNL Adobe Target] clientseitig müssen Sie eine der folgende
 
 * [JavaScript-Bibliothek &quot;at.js&quot;in Target](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
 
-   Die JavaScript-Bibliothek at.js verbessert die Seitenladezeiten bei Webimplementierungen, verbessert die Sicherheit und bietet bessere Implementierungsoptionen für Einzelseitenanwendungen. Informationen zum Migrieren zu at.js finden Sie unter [Funktionsweise von &quot;at.js&quot;](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} und [Adobe Target Skill Builder: Entwickler-Chat, Migration von Adobe Target mbox.js zu at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+   Die JavaScript-Bibliothek at.js verbessert die Seitenladezeiten bei Webimplementierungen, verbessert die Sicherheit und bietet bessere Implementierungsoptionen für Einzelseitenanwendungen. Informationen zum Migrieren zu at.js finden Sie unter [Funktionsweise von &quot;at.js&quot;](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} und [Adobe Target Skill Builder: Entwickler-Chat, Migration von Adobe Target mbox.js zu at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true){target=_blank}.
 
 
 

@@ -5,10 +5,10 @@ title: Wie handhabt  [!DNL Target]  den Datenschutz?
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 92%
+source-wordcount: '758'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 Einzelne Funktionsnutzungsdaten werden für interne [!DNL Adobe]-Zwecke gesammelt, um zu ermitteln, ob [!DNL Target]-Funktionen wie gewünscht funktionieren oder um Funktionen zu identifizieren, die nur mäßig genutzt werden. Es werden verschiedene Latenzwerte erfasst, um Leistungsproblemen vorzubeugen. Personenbezogene Daten werden nicht erfasst.
 
-Sie können die Erfassung der Nutzungsdaten in unseren SDKs deaktivieren, indem Sie `telemetryEnabled` in den Client-Initialisierungsoptionen auf „false“ setzen. Weitere Informationen finden Sie unter [telemetryEnabled in targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Sie können die Erfassung der Nutzungsdaten in unseren SDKs deaktivieren, indem Sie `telemetryEnabled` in den Client-Initialisierungsoptionen auf „false“ setzen. Weitere Informationen finden Sie unter [telemetryEnabled in targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Erfassen von IP-Adressen {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -68,4 +68,4 @@ Auch wenn Sie eine Erstanbieter-Cookie-Implementierung verwenden, erfolgt der Au
 
 ## Datenschutz und Datenschutzvorschriften
 
-Siehe [Vorschriften zur Privatsphäre und zum Datenschutz](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} für Informationen zur Datenschutz-Grundverordnung (DSGVO) der Europäischen Union, zum California Consumer Privacy Act (CCPA) und anderen internationalen Datenschutzanforderungen sowie dazu, wie sich diese Vorschriften auf Ihr Unternehmen und Adobe Target auswirken.
+Siehe [Vorschriften zur Privatsphäre und zum Datenschutz](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} für Informationen über die Datenschutz-Grundverordnung (DSGVO) der Europäischen Union{target=_blank}, den California Consumer Privacy Act (CCPA) und andere internationale Datenschutzanforderungen sowie über die Auswirkungen dieser Vorschriften auf Ihr Unternehmen und Adobe Target.
