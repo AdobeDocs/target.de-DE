@@ -1,17 +1,17 @@
 ---
 keywords: Target;startseite;beliebte themen;adobe target;target standard;target premium;target-dokumentation;dokumentation zu adobe target;home
-title: Wo finde ich die Dokumentation zu  [!DNL Target] ?
+title: Handbuch für Adobe Target Business Practices
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kunden mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, Mobile Site, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: f8c5492d001166c054752d9577bb6b9ddc846e48
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 90%
+source-wordcount: '528'
+ht-degree: 88%
 
 ---
 
-# [!DNL Adobe Target] Anleitung
+# Handbuch für Adobe Target Business Practices
 
 ![Banner](assets/target-home-banner-simple.png)
 
