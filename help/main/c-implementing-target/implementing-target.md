@@ -6,9 +6,9 @@ title: Implementieren [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 5ae32fbbc51b6277794fb702a4188133b5e29029
+source-git-commit: dfbe46289b09ffd95e0e30b8b5bd2af215e8ed81
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '190'
 ht-degree: 2%
 
 ---
@@ -21,18 +21,18 @@ Die [Adobe Target-Entwicklerhandbuch-Portal](https://developer.adobe.com/target/
 
 Das Entwicklerportal enthält Informationen zu den folgenden Implementierungstypen:
 
-* Clientseitig: Informationen zur Implementierung der Verwendung der [!DNL Adobe Experience Platform Web SDK] oder [!DNL Target Web SDK] (at.js).
-* Serverseitig: Informationen zur Implementierung der Verwendung der Node.JS-, JAVA-, .NET- und Python-SDKs.
-* Hybrid: Informationen zur Implementierung, wenn Sie eine Kombination aus Client-seitigen und Server-seitigen Implementierungen verwenden.
-* Recommendations: Informationen zur Implementierung [!DNL Recommendations], [Target Premium](/help/main/c-intro/intro.md#premium) anbieten.
-* Mobile Apps: Informationen zur Implementierung mithilfe von [!DNL Adobe Experience Platform Mobile] SDKs.
-* E-Mail: Informationen zur Implementierung [!DNL Target] in E-Mails.
+* **Client-seitig**: Informationen zur Implementierung der Verwendung der [!DNL Adobe Experience Platform Web SDK] oder [!DNL Target Web SDK] (at.js).
+* **Server-seitig**: Informationen zur Implementierung der Verwendung der Node.JS-, JAVA-, .NET- und Python-SDKs.
+* **Hybrid**: Informationen zur Implementierung, wenn Sie eine Kombination aus Client-seitigen und Server-seitigen Implementierungen verwenden.
+* **Recommendations**: Informationen zur Implementierung [!DNL Recommendations], [Target Premium](/help/main/c-intro/intro.md#premium) anbieten.
+* **Mobile Apps**: Informationen zur Implementierung mithilfe von [!DNL Adobe Experience Platform Mobile] SDKs.
+* **Email**: Informationen zur Implementierung [!DNL Target] in E-Mails.
 
 Weitere Informationen finden Sie unter [Adobe Target-Entwicklerhandbuch-Portal](https://developer.adobe.com/target/){target=_blank}.
 
 >[!NOTE]
 >
->Alle Informationen, die zuvor in der *Target implementieren* in diesem Handbuch (das *Adobe Target-Praktikantenleitfaden*) ist jetzt im Entwicklerportal enthalten.
+>Alle Informationen, die zuvor in der *Target implementieren* in diesem Handbuch (das *Adobe Target-Praktikantenleitfaden*) ist jetzt in der [Entwicklerportal](https://developer.adobe.com/target/){target=_blank}.
 
 
 
