@@ -1,13 +1,13 @@
 ---
 keywords: gemischte Inhalte;sicher;unsicher;Chrome;Fehlerbehebung;VEC;Visual Experience Composer;unsecure;http;https;Firefox;Internet Explorer
-description: Einige Browser blockieren die Anzeige einer Seite, wenn sicherer Inhalt mit unsicherem Inhalt gemischt wird. Erfahren Sie, wie Sie gemischte Inhalte in Chrome, Firefox und Edge aktivieren.
-title: Wie aktiviere ich gemischte Inhalte in meinem Browser?
+description: Erfahren Sie, wie Sie gemischte Inhalte in Chrome, Firefox und Edge aktivieren. Sie können gemischte Inhalte aktivieren, wenn ein Browser die Anzeige einer Seite blockiert, da sicherer Inhalt mit unsicherem Inhalt gemischt wird.
+title: So aktivieren Sie gemischte Inhalte in meinem Browser
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ Gemischte Inhalte treten auf, wenn die ursprüngliche Anfrage über HTTPS sicher
 
 Moderne Browser blockieren möglicherweise die Anzeige einer Seite oder zeigen einen Warnhinweis an, wenn sicherer gemeinsam mit nicht sicherem Inhalt aufgerufen wird.
 
-Ein Warnhinweis wird angezeigt, wenn [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] versucht, eine Seite mit gemischtem Inhalt zu öffnen. Dieser Hinweis informiert Sie darüber, wie Sie die Blockierung in Ihrem Browser deaktivieren können. Durch das Deaktivieren der Blockierung können Sie eine HTTP-Site oder eine Site mit gemischten Aufrufen (HTTPS und HTTP) öffnen.
+Ein Warnhinweis wird angezeigt, wenn [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] versucht, eine Seite mit gemischtem Inhalt zu öffnen. Dieser Hinweis informiert Sie darüber, wie Sie die Blockierung in Ihrem Browser deaktivieren können. Durch das Deaktivieren der Blockierung können Sie eine HTTP-Site oder eine Site mit gemischten Aufrufen (HTTPS und HTTP) öffnen.
 
 ![Warnung zu gemischtem Inhalt](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
