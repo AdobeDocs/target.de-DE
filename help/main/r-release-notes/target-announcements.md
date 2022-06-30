@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 100%
+source-wordcount: '1334'
+ht-degree: 95%
 
 ---
 
@@ -15,30 +15,42 @@ ht-degree: 100%
 
 Mitteilungen und Informationen über bevorstehende [!DNL Adobe Target]-Ereignisse, einschließlich kurzen Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
 
-## Kurze Session der Adobe Target-Community (29. Juni 2022)
-
-+++Hier klicken
-
-* **Mittwoch, 29. Juni 2022**
-* **8:00 bis 9:00 Uhr (PDT, UTC-7)**
-* **[Weitere Informationen und Registrierung](https://adobe.ly/3wKhcQS){target=_blank}**
-
-Wir werden von Jordan Ison, Kati McKinney, Justine Lee und Kaela Cusack vom Adobe Solutions Consulting Team begleitet, um direkt mit Ihnen über ihre Fachgebiete zu sprechen. Sie werden auch alle Fragen im Zusammenhang mit Themen beantworten, die am 2.6.22 während Webinars „Personalisierung mit Präzision: Adobe Analytics und Target“ behandelt werden (weitere Informationen unten):
-
-* Wie Marketing-Experten, Entwickler und Produkt-Teams die Blackbox der KI öffnen können, um zukünftige Test- und Personalisierungsstrategien zu entwickeln
-* Überwinden der Herausforderungen bei der Optimierung von Web, Mobile Apps, E-Mail, Internet der Dinge und jedes digitalen Kontaktpunkts für höhere Konversions- und Interaktionsraten.
-* Adobe Analytics- und Adobe Target-Workflows für Personalisierung, Targeting und Tests
-* Verstehen der häufigsten Anwendungsfälle, die zeigen, welche Attribute das Besucherverhalten vorhersagen und welche für Visualisierungen und Segmentierungsanalysen am wichtigsten sind
-
-+++
-
 ## Webinar-Reihe zu [!DNL Adobe Target] {#webinar-series}
 
 Registrieren Sie sich für die folgenden Webinare, um zu erfahren, wie Kunden [!DNL Adobe Target] einsetzen, um ihre Personalisierungs- und Optimierungsziele zu erreichen:
 
+### Adobe: Personalization Industry Insider - Einzelhandel (11. August 2022)
+
+Das Jahr 2022 bereitet Unternehmen ein dynamisches und sich schnell veränderndes Umfeld für ihren Betrieb. Erfahren Sie, welche neuen Verbraucher-Trends Branchenexperten erkennen, während sich das Leben für Arbeitnehmer und Reisende wieder normalisiert.
+
++++Hier klicken
+
+* **Dienstag, 21. Juni 2022**
+* **13:00 bis 14:00 Uhr (EDT, UTC-4)**
+* **[Weitere Informationen und Registrierung](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
+
+Erleben Sie, wenn Michael Klein (Director, Industry Strategy Retail) und Leina Betzer (Target Consultant, Adobe Premier Support) besprechen, wie der E-Commerce-Umsatz im Einzelhandel im Zuge des sich verändernden Kaufverhaltens von Verbrauchern und einer höheren Nachfrage nach Waren und Dienstleistungen in bestimmten Märkten in die Höhe schnellt.
++++
+
+### Geplante Webinarserien
+
+Die folgenden Webinarreihen sind in naher Zukunft geplant:
+
+* Branchenvertreter: Personalization Industry Insider: Reise- und Gastgewerbe
+* Branchenvertreter: Personalization Industry Insider: Medien und Unterhaltung
+* Skill Builder: Neu, Premium-Benutzer/Produktmanager, Mobile-Entwickler, Marketingexperten, Analysten, Geschäftsbenutzer
+
+Datums- und Registrierungsinformationen in der [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de){target=_blank}.
+
+## Aufzeichnungen früherer Webinare und Schulungen
+
+Zugriff auf Aufzeichnungen vergangener Events:
+
 ### Adobe: Personalisierung mit Präzision – [!DNL Adobe Analytics] und [!DNL Target] (2. Juni 2022)
 
 Erfahren Sie, wie künstliche Intelligenz die Verbrauchererwartungen weiter neu definiert, da Modelle für maschinelles Lernen und Dateneinblicke Marketing-Experten, Entwicklern und Produkteigentümern neue Möglichkeiten eröffnen, Verbraucher mit attraktiven, personalisierten Erlebnissen anzusprechen. Machen Sie eine Tour durch die Workflows von [!DNL Adobe Analytics] + [!DNL Adobe Target] zur Personalisierung, Zielgruppenbestimmung und Testung.
+
+* [Link zur Aufzeichnung](https://analytics.dxfieldmarketing.adobeevents.com/) {target=_blank}
 
 +++Hier klicken
 
@@ -59,6 +71,8 @@ Seien Sie dabei, wenn Jordan Ison (Principal Expert Solution Consultant bei [!DN
 
 Erfahren Sie mehr über Best Practices bei der Schaffung einer „Beziehungsbank“, um die Markentreue Ihrer Kunden zu steigern. Hier erfahren Sie, wie Sie mithilfe von Mitarbeitern und Prozessen erfolgreiche Personalisierungsprogramme erstellen und skalieren.
 
+* [Link zur Aufzeichnung](https://zero-to-hero.dxfieldmarketing.adobeevents.com/) {target=_blank}
+
 +++Hier klicken
 
 * **Donnerstag, 9. Juni 2022**
@@ -71,6 +85,8 @@ Hören Sie, wenn Heather Adkins (SVP Marketing Technology) über Best Practices 
 ### Adobe: Entdecken Sie wirkungsvolle Optimierungsmöglichkeiten (16. Juni 2022)
 
 Erfahren Sie, wie Unternehmen beim Eintritt in eine neue Normalität – eine, die digitaler ist als je zuvor – jede Chance nutzen müssen, um außergewöhnliche digitale Erlebnisse bereitzustellen. Gut genug ist nicht mehr wirklich gut genug. Hervorragende Erlebnisse sind nötig, um wettbewerbsfähig zu bleiben.
+
+* [Link zur Aufzeichnung](https://optimization.dxfieldmarketing.adobeevents.com/) {target=_blank}
 
 +++Hier klicken
 
@@ -86,23 +102,6 @@ Erfahren Sie von Kaitlin White (Adobe Product Marketing Manager) Wissenswertes �
 * Und viele weitere Ideen, die Ihnen dabei helfen, in Ihrem Unternehmen effektive Chancen wahrzunehmen
 
 +++
-
-### Adobe: Personalization Industry Insider – Einzelhandel (21. Juni 2022)
-
-Das Jahr 2022 bereitet Unternehmen ein dynamisches und sich schnell veränderndes Umfeld für ihren Betrieb. Erfahren Sie, welche neuen Verbraucher-Trends Branchenexperten erkennen, während sich das Leben für Arbeitnehmer und Reisende wieder normalisiert. 
-
-+++Hier klicken
-
-* **Dienstag, 21. Juni 2022**
-* **13:00 bis 14:00 Uhr (EDT, UTC-4)**
-* **[Weitere Informationen und Registrierung](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
-
-Erleben Sie, wenn Michael Klein (Director, Industry Strategy Retail) und Leina Betzer (Target Consultant, Adobe Premier Support) besprechen, wie der E-Commerce-Umsatz im Einzelhandel im Zuge des sich verändernden Kaufverhaltens von Verbrauchern und einer höheren Nachfrage nach Waren und Dienstleistungen in bestimmten Märkten in die Höhe schnellt.
-+++
-
-## Aufzeichnungen früherer Webinare und Schulungen
-
-Zugriff auf Aufzeichnungen vergangener Events:
 
 ### Dick&#39;s Sporting Goods: Personalisierung und die sich ändernde Landschaft im Einzelhandel (19. Mai 2022)
 

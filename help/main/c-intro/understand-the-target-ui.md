@@ -4,7 +4,7 @@ description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie
 title: 'Wie verwende ich die Benutzeroberfläche von  [!DNL Target] '
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 43%
@@ -41,7 +41,7 @@ Mit dem Apps Switcher können Sie schnell zwischen den [!DNL Adobe Experience Cl
 
 ![Hilfe ](/help/main/c-intro/assets/help.png)
 
-## Benachrichtigungen und Ankündigungen
+## Benachrichtigungen und Ankündigungen {#notifications-announcements}
 
 Über die Bedienfelder [!UICONTROL Benachrichtigungen] und [!UICONTROL Ankündigungen] bleiben Sie stets über alles Wissenswerte zu [!DNL Adobe Target] informiert. Proaktive Benachrichtigungen helfen Ihnen dabei, den Status von [!DNL Adobe Experience Cloud] Lösungen und [!DNL Target] -Ereignisse. Proaktive Ankündigungen informieren Sie über geplante Ausfallzeiten (z. B. aufgrund von Systemwartungen).
 
