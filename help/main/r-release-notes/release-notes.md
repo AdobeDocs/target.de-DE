@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 84%
+ht-degree: 92%
 
 ---
 
@@ -23,10 +23,10 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 * Benutzer mit [!UICONTROL Editor]-Rolle können Zielgruppen in Live-Aktivitäten nicht mehr bearbeiten. (TGT-43582)
-* Es wird eine Warnmeldung angezeigt, wenn ein Kunde versucht, eine Zielgruppe mit einem Ausrufezeichen ( ! ) als erstes Zeichen des Namens der Zielgruppe (z. B. !London). (TGT-43643)
-* Es wurde ein Fehler behoben, der dazu führte, dass auf den Karten mit Details zur Zielgruppendefinition für einige Kunden angezeigt wurde, dass eine beendete Aktivität weiterhin live war. (TGT-43527)
+* Es wird eine Warnmeldung angezeigt, wenn ein Kunde versucht, eine Zielgruppe zu speichern, deren Name mit einem Ausrufezeichen beginn (beispielsweise „!London“). (TGT-43643)
+* Es wurde ein Fehler behoben, der dazu führte, dass auf den Karten mit Details zur Zielgruppendefinition für einige Kunden eine beendete Aktivität noch immer als laufend angezeigt wurde. (TGT-43527)
 
-## [!DNL Target Standard/Premium] 2.6.1 (gestaffelte Version: 7.-9. Juni 2022)
+## [!DNL Target Standard/Premium] 22.6.1 (gestaffelte Veröffentlichung: 7.-9. Juni 2022)
 
 Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 

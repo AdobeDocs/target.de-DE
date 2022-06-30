@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 85%
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
 
-## Adobe Target Standard/Premium 2.6.1 (gestaffelte Version: 7.-9. Juni 2022)
+## Adobe Target Standard/Premium 22.6.1 (gestaffelte Veröffentlichung: 7.–9. Juni 2022)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 24. Juni | [Adobe Target-Entwicklerhandbuch](https://developer.adobe.com/target/){target=_blank} | Die *Adobe Target-Entwicklerhandbuch* alle [!DNL Target] Entwicklerinhalte in einem praktischen Portal. Das Portal enthält Informationen zur Implementierung [!DNL Target] und [!DNL Recommendations], [!DNL Target] SDKs und [!DNL Target] APIs. |
-|  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionshinweise für die [!DNL Target Standard/Premium] Version 22.6.2. |
-| 14. Juni | [Planen und Implementieren von Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Codebeispiele wurden in den folgenden Abschnitten aktualisiert:<ul><li>Zusatz zum Warenkorb/Ansichten/Checkout-Seiten</li><li>Ausschließen von bereits im Warenkorb befindlichen Artikeln</li></ul> |
-| 7. Juni | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionshinweise für die [!DNL Target Standard/Premium] Version 2.6.1. |
+|  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.6.2 von [!DNL Target Standard/Premium] hinzugefügt. |
+| 14. Juni | [Planen und Implementieren von Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Code-Beispiele wurden in den folgenden Abschnitten aktualisiert:<ul><li>Hinzufügungen zum Warenkorb/Warenkorbansichten/Checkout-Seiten</li><li>Ausschließen von Artikeln, die sich bereits im Warenkorb des Besuchers befinden</li></ul> |
+| 7. Juni | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.6.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
 ## Adobe Target Standard/Premium 22.5.1 (gestaffelte Veröffentlichung; 11.–13. Mai 2022)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 7. Juni | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Informationen zur Vorabversion für die [!DNL Target Standard/Premium] Version 2.6.1. |
+| 7. Juni | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Vorabversionsinformationen für die Version 22.6.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 31. Mai | [Target-Ankündigungen und -Events](/help/main/r-release-notes/target-announcements.md#webinar-series) | Es wurden Informationen über die kommende kurze Session der [!DNL Adobe Target]-Community (29. Juni 2022) hinzugefügt |
 | 25. Mai | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen über die [!DNL Target]-Plattform-Version (25. Mai 2022) und die at.js-Version 2.9.0 (27. Mai 2022) hinzugefügt. |
 |  | [&quot;at.js&quot;-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Es wurden Informationen über die at.js-Version 2.9.0 hinzugefügt. |
@@ -73,7 +73,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | 17. März | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Vorabversions-Informationen zur Fehlerbehebung in [!DNL Target Standard/Premium] hinzugefügt. |
 | 9. März | [Bekannte und gelöste Probleme](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Das folgende bekannte Problem wurde hinzugefügt:<ul><li>Löschen von Speicherorten mit Ad-hoc-Angeboten in Aktivitäten, die im formularbasierten Experience Composer erstellt wurden</li></ul> |
 |  | [Echtzeit-Profilsynchronisation für mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | Der folgende Satz zur Profilsynchronisierung wurde aktualisiert: „Aktualisierungen werden alle 5 bis 10 Minuten mit dem Profilspeicher synchronisiert.“ |
-| 8. März | [Target-Ankündigungen und -Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (Mittwoch, 30. März 2022)</li></ul> |
+| 8. März | [Target-Ankündigungen und -Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (30. März 2022)</li></ul> |
 | 7. März | [Erstellen von Zielgruppen](/help/main/c-target/c-audiences/audiences.md#aep) | Ein neuer Abschnitt wurde unter „Verwenden von Zielgruppen aus [!DNL Adobe Experience Platform]“ hinzugefügt<ul><li>Anwendungsfälle für die Personalisierung</li></ul> |
 | 25. Februar | [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Die folgenden Abschnitte wurden aktualisiert:<ul><li>[Automatische Zuordnung und automatisches Targeting](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Automatische Zuordnung](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretieren der automatischen Zuordnungsberichte](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | Neue FAQs wurden hinzugefügt:<ul><li>Sind die Abzeichen „Kein Gewinner“, „Gewinner“ und „Stern“ verfügbar für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung], die [!UICONTROL Analytics als Berichtsquelle] (A4T) verwenden?</li></ul> |

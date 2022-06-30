@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 6450b9d247f21f578a5bef15422765dc2a2ed32d
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 * Benutzer mit [!UICONTROL Editor]-Rolle können Zielgruppen in Live-Aktivitäten nicht mehr bearbeiten. (TGT-43582)
-* Es wird eine Warnmeldung angezeigt, wenn ein Kunde versucht, eine Zielgruppe mit einem Ausrufezeichen ( ! ) als erstes Zeichen des Namens der Zielgruppe (z. B. !London). (TGT-43643)
-* Es wurde ein Fehler behoben, der dazu führte, dass auf den Karten mit Details zur Zielgruppendefinition für einige Kunden angezeigt wurde, dass eine beendete Aktivität weiterhin live war. (TGT-43527)
+* Es wird eine Warnmeldung angezeigt, wenn ein Kunde versucht, eine Zielgruppe zu speichern, deren Name mit einem Ausrufezeichen beginn (beispielsweise „!London“). (TGT-43643)
+* Es wurde ein Fehler behoben, der dazu führte, dass auf den Karten mit Details zur Zielgruppendefinition für einige Kunden eine beendete Aktivität noch immer als laufend angezeigt wurde. (TGT-43527)
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
