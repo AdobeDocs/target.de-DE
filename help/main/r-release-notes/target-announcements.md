@@ -4,7 +4,7 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 95%
@@ -25,7 +25,7 @@ Das Jahr 2022 bereitet Unternehmen ein dynamisches und sich schnell verändernde
 
 +++Hier klicken
 
-* **Dienstag, 21. Juni 2022**
+* **Donnerstag, 11. August 2022**
 * **13:00 bis 14:00 Uhr (EDT, UTC-4)**
 * **[Weitere Informationen und Registrierung](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
