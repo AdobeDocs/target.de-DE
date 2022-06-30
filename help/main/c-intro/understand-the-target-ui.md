@@ -1,12 +1,12 @@
 ---
-keywords: Benutzeroberfläche von Target; Benutzeroberfläche; uiAnkündigungen; Ereignisse
+keywords: Benutzeroberfläche von Target; Benutzeroberfläche; uiAnkündigungen; Ereignisse; Benachrichtigungen
 description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie Links zu ausführlicheren Informationen, die Ihnen helfen, das Beste aus den [!DNL Target].
 title: 'Wie verwende ich die Benutzeroberfläche von  [!DNL Target] '
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
+source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 44%
 
 ---
@@ -53,7 +53,7 @@ Das Bedienfeld enthält Registerkarten für [!UICONTROL Benachrichtigungen] und 
 
 ![ Benachrichtigungen ](assets/notifications.png)
 
-Die folgenden Abschnitte enthalten Informationen zu den einzelnen Registerkarten und zur Konfiguration von Benachrichtigungen und Mitteilungen.
+Die folgenden Abschnitte enthalten Informationen zu den einzelnen Registerkarten und zur Konfiguration von Benachrichtigungen und Mitteilungen:
 
 ###  Benachrichtigungen 
 
