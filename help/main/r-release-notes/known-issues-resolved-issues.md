@@ -5,9 +5,9 @@ title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Wenn eine Erfolgsmetrik so eingestellt ist, dass sie bei jeder Impression erhöh
 
 ### Analytics for [!DNL Target] (A4T)
 
-Wenn Sie in Analysis Workspace Target-Aktivitätsimpressionen und -konversionen verwenden, sollten Sie auf die Metriken das Attribution IQ-Modell „Selber Kontakt“ anwenden, um eine genaue Zählung sicherzustellen. Zum Anwenden eines [nicht standardmäßigen Attributionsmodells](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings.html?lang=de#cja-workspace) klicken Sie mit der rechten Maustaste auf die Metrik, um **die Spalteneinstellungen zu ändern. Aktivieren Sie dann „Nicht standardmäßiges Attributionsmodell verwenden“ und wählen Sie das Modell „Selber Kontakt“ aus**. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
+Wenn Sie in Analysis Workspace Target-Aktivitätsimpressionen und -konversionen verwenden, sollten Sie auf die Metriken das Attribution IQ-Modell „Selber Kontakt“ anwenden, um eine genaue Zählung sicherzustellen. Zum Anwenden eines [nicht standardmäßigen Attributionsmodells](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=de) klicken Sie mit der rechten Maustaste auf die Metrik, um **die Spalteneinstellungen zu ändern. Aktivieren Sie dann „Nicht standardmäßiges Attributionsmodell verwenden“ und wählen Sie das Modell „Selber Kontakt“ aus**. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
 
 Alle aktuellen Analytics-Pakete können dieses Modell mit Attribution IQ hinzufügen. Falls Sie keinen Zugriff auf Attribution IQ haben, greifen Sie auf die A4T-Daten in Reports &amp; Analytics zurück.
 
@@ -135,11 +135,11 @@ Da die oben genannten bekannten Probleme behoben wurden, werden sie in die folge
 
    Verwenden Sie als Problemumgehung im Erlebnisinhalt ein Leerzeichen.
 
-   In at.js 2.2.0 wurde dieses Problem behoben. Führen Sie ein Upgrade auf die [aktuelle Version oder at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} oder verwenden Sie die oben genannte Problemumgehung nur für at.js-Versionen vor 2.2.0.  (TNT-33366)
+   Dieses Problem wurde in at.js 2.2.0 behoben. Aktualisieren Sie auf die [neueste Version von at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} oder verwenden Sie die oben erwähnte Abhilfe nur für at.js-Versionen vor 2.2.0.  (TNT-33366)
 
 * Bei Verwendung einer at.js-Version vor 2.2.0 werden beim Klick-Tracking keine Konversionen in [!UICONTROL Analytics for Target] (A4T) gemeldet, wenn der [!DNL Adobe Analytics]-Code nicht in Seitenelementen (z. B. Schaltflächen) vorhanden ist.
 
-   Für dieses Problem wurde in at.js 2.2.0 eine Korrektur eingeführt. [Aktualisieren Sie auf die neueste at.js-Version.](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} , wenn dieses Problem auftritt.
+   Dieses Problem wurde in at.js 2.2.0 behoben. [Bitte aktualisieren Sie auf die neueste Version von at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}, wenn Sie dieses Problem haben.
 
 ### Geotargeting
 
