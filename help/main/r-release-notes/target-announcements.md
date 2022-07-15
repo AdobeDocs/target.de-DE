@@ -5,9 +5,9 @@ title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Mitteilungen und Informationen über bevorstehende [!DNL Adobe Target]-Ereigniss
 
 Registrieren Sie sich für die folgenden Webinare, um zu erfahren, wie Kunden [!DNL Adobe Target] einsetzen, um ihre Personalisierungs- und Optimierungsziele zu erreichen:
 
-### Adobe: Personalization Industry Insider - Einzelhandel (11. August 2022)
+### Adobe: Personalization Industry Insider – Einzelhandel (11. August 2022)
 
 Das Jahr 2022 bereitet Unternehmen ein dynamisches und sich schnell veränderndes Umfeld für ihren Betrieb. Erfahren Sie, welche neuen Verbraucher-Trends Branchenexperten erkennen, während sich das Leben für Arbeitnehmer und Reisende wieder normalisiert.
 
@@ -32,15 +32,15 @@ Das Jahr 2022 bereitet Unternehmen ein dynamisches und sich schnell verändernde
 Erleben Sie, wenn Michael Klein (Director, Industry Strategy Retail) und Leina Betzer (Target Consultant, Adobe Premier Support) besprechen, wie der E-Commerce-Umsatz im Einzelhandel im Zuge des sich verändernden Kaufverhaltens von Verbrauchern und einer höheren Nachfrage nach Waren und Dienstleistungen in bestimmten Märkten in die Höhe schnellt.
 +++
 
-### Geplante Webinarserien
+### Geplante Webinar-Reihen
 
-Die folgenden Webinarreihen sind in naher Zukunft geplant:
+Die folgenden Webinar-Reihen sind in naher Zukunft geplant:
 
-* Branchenvertreter: Personalization Industry Insider: Reise- und Gastgewerbe
-* Branchenvertreter: Personalization Industry Insider: Medien und Unterhaltung
-* Skill Builder: Neu, Premium-Benutzer/Produktmanager, Mobile-Entwickler, Marketingexperten, Analysten, Geschäftsbenutzer
+* Branchen-Insider: Branchen-Insider – Personalisierung: Reise- und Gastgewerbe
+* Branchen-Insider: Branchen-Insider – Personalisierung: Medien und Unterhaltung
+* Personen, die Fähigkeiten aufbauen, z. B. ein Produkt oder dessen Premium-Version kennenlernen, ein Produkt verwalten, Mobile Apps entwickeln, im Marketing oder in der Analyse arbeiten oder ein Produkt geschäftlich nutzen
 
-Datums- und Registrierungsinformationen in der [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de){target=_blank}.
+Datums- und Registrierungsinformationen finden Sie in der [Adobe Target-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de){target=_blank}.
 
 ## Aufzeichnungen früherer Webinare und Schulungen
 
