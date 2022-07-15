@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | --- | --- | --- |
 | 30. Juni | [Adobe Target-Entwicklerhandbuch](https://developer.adobe.com/target/){target=_blank} | Einführung des *Adobe Target-Entwicklerhandbuch* zur Konsolidierung aller [!DNL Target]-Entwicklerinhalte in einem praktischen Portal. Das Portal enthält Informationen zur Implementierung von [!DNL Target] und [!DNL Recommendations], [!DNL Target]-SDKs und [!DNL Target]-APIs. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.6.2 von [!DNL Target Standard/Premium] hinzugefügt. |
-|  | [Target-Ankündigungen und -Events](/help/main/r-release-notes/target-announcements.md) | Es wurden Aufzeichnungslinks für vergangene Webinarsitzungen hinzugefügt. |
+|  | [Target-Ankündigungen und -Events](/help/main/r-release-notes/target-announcements.md) | Es wurden Links zu Aufzeichnungen früherer Webinar-Sitzungen hinzugefügt. |
 | 14. Juni | [Planen und Implementieren von Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Code-Beispiele wurden in den folgenden Abschnitten aktualisiert:<ul><li>Hinzufügungen zum Warenkorb/Warenkorbansichten/Checkout-Seiten</li><li>Ausschließen von Artikeln, die sich bereits im Warenkorb des Besuchers befinden</li></ul> |
 | 7. Juni | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.6.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 

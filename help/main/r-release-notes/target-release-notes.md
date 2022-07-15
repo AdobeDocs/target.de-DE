@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 ## [!DNL Target Standard/Premium] 22.6.2 (30. Juni 2022)
 
-Diese Version enthält die folgenden Funktionen, Verbesserungen und Fehlerbehebungen:
+Diese Version umfasst die folgenden Funktionen, Verbesserungen und Fehlerbehebungen:
 
 | Funktion | Beschreibung |
 | --- | ---  |
-| In-Produkt-Benachrichtigungen | Rufen Sie die folgenden relevanten produktinternen Benachrichtigungen ab:<ul><li>**Tätigkeiten**: Benachrichtigungen für alle Aktivitätstypen, wenn eine Aktivität genehmigt oder deaktiviert wird, entweder manuell oder beim Erreichen des Start- oder Enddatums. Die Benachrichtigung enthält den Namen der Aktivität mit einem Link zur Übersichtsseite der Aktivität.</li><li>**Profilskripte** Benachrichtigungen, wenn ein Profilskript entweder manuell oder durch Target aktiviert oder deaktiviert wird.</li><li>**Recommendations Feeds**: Benachrichtigungen, wenn ein Recommendations-Feed entweder manuell oder durch Target aktiviert oder deaktiviert wird. Benachrichtigungen werden auch gesendet, wenn ein Recommendations-Feed fehlschlägt.</li></ul> Standardmäßig werden Benachrichtigungen von Produktadministratoren, Herausgebern und Genehmigern empfangen. Benachrichtigungen können in den Voreinstellungen von Experience Cloud konfiguriert werden.<br>Weitere Informationen finden Sie unter [Benachrichtigungen und Mitteilungen](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
-| *Adobe Target-Entwicklerhandbuch* | Die *Adobe Target-Entwicklerhandbuch* alle [!DNL Target] Entwicklerinhalte in einer praktischen Anleitung. Das Handbuch enthält Informationen zur Implementierung von [!DNL Target] und [!DNL Recommendations], [!DNL Target] SDKs und [!DNL Target] APIs.<br>Weitere Informationen finden Sie unter [Adobe Target-Entwicklerhandbuch](https://developer.adobe.com/target/){target=_blank}. |
+| Produktinterne Benachrichtigungen | Rufen Sie die folgenden relevanten produktinternen Benachrichtigungen ab:<ul><li>**Aktivitäten**: Benachrichtigungen für alle Aktivitätstypen, wenn eine Aktivität genehmigt oder deaktiviert wird, entweder manuell oder beim Erreichen des Start- oder Enddatums. Die Benachrichtigung enthält den Namen der Aktivität mit einem Link zur Übersichtsseite der Aktivität.</li><li>**Profilskripte**: Benachrichtigungen, wenn ein Profilskript entweder manuell oder durch Target aktiviert oder deaktiviert wird.</li><li>**Recommendations-Feeds**: Benachrichtigungen, wenn ein Recommendations-Feed entweder manuell oder durch Target aktiviert oder deaktiviert wird. Benachrichtigungen werden ebenfalls gesendet, wenn ein Recommendations-Feed fehlschlägt.</li></ul> Standardmäßig werden Benachrichtigungen von denjenigen empfangen, die für ein Produkt verantwortlich sind, die es veröffentlichen oder die es genehmigen. Benachrichtigungen können in den Voreinstellungen von Experience Cloud konfiguriert werden.<br>Weitere Informationen finden Sie unter [Benachrichtigungen und Mitteilungen](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
+| *Adobe Target-Entwicklerhandbuch* | Das *Adobe Target-Entwicklerhandbuch* fasst alle [!DNL Target]-Entwicklerinhalte in einem praktischen Handbuch zusammen. Das Handbuch enthält Informationen zur Implementierung von [!DNL Target] und [!DNL Recommendations], [!DNL Target]-SDKs und [!DNL Target]-APIs.<br>Weitere Informationen finden Sie im [Adobe Target-Entwicklerhandbuch](https://developer.adobe.com/target/){target=_blank}. |
 
 * Benutzer mit [!UICONTROL Editor]-Rolle können Zielgruppen in Live-Aktivitäten nicht mehr bearbeiten. (TGT-43582)
 * Es wird eine Warnmeldung angezeigt, wenn ein Kunde versucht, eine Zielgruppe zu speichern, deren Name mit einem Ausrufezeichen beginn (beispielsweise „!London“). (TGT-43643)
