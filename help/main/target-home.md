@@ -1,17 +1,17 @@
 ---
 keywords: Target;startseite;beliebte themen;adobe target;target standard;target premium;target-dokumentation;dokumentation zu adobe target;home
-title: Handbuch für Adobe Target Business Practices
-description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kunden mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, Mobile Site, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
+title: Handbuch für Business-Anwender*innen von Adobe Target
+description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kund*innen mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, mobile Website, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Handbuch für Adobe Target Business Practices
+# Handbuch für Business-Anwender*innen von Adobe Target
 
 ![Banner](assets/target-home-banner-simple.png)
 
@@ -37,7 +37,7 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 - Target in Adobe Experience Cloud integrieren: Hier erfahren Sie, wie Sie [!DNL Target] mit anderen [!DNL Experience Cloud]-Lösungen integrieren, einschließlich [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) und [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=de): Stellt Tutorials und Videos bereit, in denen Sie erfahren, wie Sie Target optimal nutzen.
 - [Fehlerbehebung in Target](r-troubleshooting-target/troubleshooting-target.md): Enthält Links zu Fehlerbehebungsinformationen in diesem Handbuch, einschließlich Informationen zu Zeichenbeschränkungen und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.), die Aktivitäten und andere Elemente in [!DNL Target] betreffen.
-- [Target für mobile Apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}: Erklärt, wie [!DNL Target] kann für die Optimierung und Personalisierung mobiler Apps verwendet werden.
+- [Target für Mobile Apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}: Erklärt, wie [!DNL Target] für die Optimierung und Personalisierung von Mobile Apps verwendet werden kann.
 - [Ressourcen und Kontaktinformationen](cmp-resources-and-contact-information.md): Informationen zu zusätzlichen Ressourcen, mit denen Sie die Funktionen von [!DNL Target] näher kennenlernen und erfahren, wie Sie bei [!DNL Adobe] Unterstützung für Target anfordern können.
 
 ## Marketingexperten {#marketers}
@@ -49,7 +49,7 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 
 ## Entwickler   {#developers}
 
-- [Adobe Target-Entwicklerhandbuch](https://developer.adobe.com/target/){target=_blank}: Dieses Portal bietet Ressourcen und Anleitungen für [!DNL Adobe Target] Entwickler, einschließlich API- und SDK-Dokumentation zur Implementierung [!DNL Target].
+- [Adobe Target-Entwicklerhandbuch](https://developer.adobe.com/target/){target=_blank}: Dieses Portal bietet Ressourcen und Anleitungen für [!DNL Adobe Target]-Entwickler, einschließlich API- und SDK-Dokumentation zur Implementierung[!DNL Target].
 
 ## Target und Adobe Experience Cloud-Administratoren {#admins}
 
