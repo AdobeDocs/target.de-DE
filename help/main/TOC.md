@@ -1,17 +1,17 @@
 ---
-user-guide-title: Handbuch für Adobe Target Business Practices
+user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
 source-git-commit: dd30d27b55a9a21b083af75024fce74057791f94
 workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
-# Handbuch für Adobe Target Business Practices {#using}
+# Handbuch für Business-Anwender*innen von Adobe Target {#using}
 
 + [Handbuch für Adobe Target Business Practices - Startseite](target-home.md)
 + Target-Versionshinweise {#release-notes}
