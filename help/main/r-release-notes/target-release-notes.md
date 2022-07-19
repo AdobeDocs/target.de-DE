@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: d0b6f81507cc5d5bc17d029c3d8f5b36c2c71a29
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 56%
 
 ---
 
@@ -15,9 +15,18 @@ ht-degree: 100%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert: 30. Juni 2022**
+**Zuletzt aktualisiert am 18. Juli 2022**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+
+## [!DNL Target Standard/Premium] 22.7.1 (20. Juli 2022)
+
+Diese Version umfasst die folgenden Funktionen, Verbesserungen und Fehlerbehebungen:
+
+| Funktion | Beschreibung |
+| --- | --- |
+| Verbesserte Genauigkeit der Zielgruppenbewertung und Latenz der Endbenutzer durch IPv6-Unterstützung | Die Geostandorte der Besucher werden jetzt nach IPv6-Adressen bestimmt, sofern verfügbar, im Gegensatz zu nur IPv4-Adressen. Bereitstellungs-APIs unterstützen auch IPv6-Eingabeparameter. Filter und Zulassungsauflistung unterstützen sowohl IPv4- als auch IPv6-Adressen. Diese IPv6-Unterstützung in dieser Version bedeutet, dass Besucher genauer in Zielgruppen eingeschlossen werden (sie qualifizieren sich also genauer für Aktivitäten oder werden in Filterkriterien aufgenommen). Außerdem wird die Datenlatenz verbessert, da IPv6-Clients die Kommunikation direkt durchführen und so den Verwaltungsaufwand für das IPv6-zu-IPv4-Gateway vermeiden. |
+| Verbesserung der clientseitigen A4T-Payload-Handhabung | Bei einer serverseitigen A4T-Integration leitet Adobe Target die Payload nicht an Analytics weiter, wenn feststellt, dass eine Anforderung von einem Bot stammt, und es wird kein mod_stats -Ereignis in den Target-Protokollen aufgezeichnet. Vor dieser Version leiteten clientseitige A4T-Integrationen die Payload an Analytics weiter, selbst wenn sie als Bot-Traffic identifiziert worden war. Diese Inkonsistenz zwischen Server- und Client-Seite würde zu Diskrepanzen führen, da A4T-Berichte für letztere den Bot-Traffic enthielten. Außerdem wurde Bot-Traffic nicht notwendigerweise identifiziert oder gekennzeichnet, was bedeutet, dass es nicht möglich war, den Bot-Traffic vom Rest des Traffics zu trennen oder zu entfernen. Und selbst wenn ein Kunde Bot-Traffic allein berücksichtigt hätte, entsprach er nicht unbedingt dem Traffic-Satz, den Target als Bot-Traffic identifiziert und ausschließt, was zu Spaltdiskrepanzen oder anderen Problemen führte. Mit dieser Version wurde die clientseitige Protokollierung von A4T verbessert, sodass das Verhalten in Bezug auf die A4T-Payload dasselbe ist wie bei der serverseitigen A4T-Protokollierung: Besucher, die als Bots identifiziert werden, werden sowohl bei serverseitigen als auch bei clientseitigen Implementierungen aus der Target-Zählung/Berichterstellung ausgeschlossen. |
 
 ## [!DNL Target Standard/Premium] 22.6.2 (30. Juni 2022)
 
