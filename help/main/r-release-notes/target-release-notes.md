@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: bc4b04ae0be1fade2456eb42ade7ee87c0f14b16
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 40%
+ht-degree: 55%
 
 ---
 
@@ -25,7 +25,7 @@ Diese Version umfasst die folgenden Funktionen, Verbesserungen und Fehlerbehebun
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Verbesserte Genauigkeit bei der Zielgruppenbewertung und reduzierte Endbenutzerlatenz durch IPv6-Unterstützung (TNT-43364, TNT-44692) | Die Geostandorte der Besucher werden jetzt nach IPv6-Adressen bestimmt, sofern verfügbar, im Gegensatz zu nur IPv4-Adressen. Bereitstellungs-APIs unterstützen auch IPv6-Eingabeparameter. Filter und Zulassungsauflistung unterstützen sowohl IPv4- als auch IPv6-Adressen. Die IPv6-Unterstützung in dieser Version bedeutet, dass Besucher genauer in Zielgruppen eingeschlossen werden (sie qualifizieren sich also genauer für Aktivitäten oder werden in Filterkriterien aufgenommen). Außerdem wird die Datenlatenz verbessert, da IPv6-Clients die Kommunikation direkt durchführen und so den Verwaltungsaufwand für das IPv6-zu-IPv4-Gateway vermeiden. |
+| Verbesserte Genauigkeit bei der Zielgruppenbewertung und reduzierte Endbenutzerlatenz durch IPv6-Unterstützung (TNT-43364, TNT-44692) | Die geografischen Standorte der Besuchenden werden jetzt nach IPv6-Adressen bestimmt, sofern verfügbar, und nicht mehr nur nach IPv4-Adressen. Bereitstellungs-APIs unterstützen auch IPv6-Eingabeparameter. Filter und Zulassungsauflistungen unterstützen sowohl IPv4- als auch IPv6-Adressen. Die IPv6-Unterstützung in dieser Version bedeutet, dass Besucher genauer in Zielgruppen eingeschlossen werden (sie qualifizieren sich also genauer für Aktivitäten oder werden in Filterkriterien aufgenommen). Außerdem wird die Datenlatenz verbessert, da IPv6-Clients die Kommunikation direkt durchführen und so der Verwaltungsaufwand für das Gateway von IPv6 zu IPv4 vermieden wird. |
 | Fehlerkorrektur - Clientseitige Payload-Handhabung von A4T (TNT-44926) | Bei einer serverseitigen A4T-Integration leitet Adobe Target die Payload nicht an Analytics weiter, wenn feststellt, dass eine Anforderung von einem Bot stammt, und es wird kein mod_stats -Ereignis in der Datei [!DNL Target] Protokolle. Mit dieser Version wurde die clientseitige Protokollierung von A4T verbessert, sodass das Verhalten in Bezug auf die A4T-Payload dasselbe ist wie bei der serverseitigen A4T-Protokollierung: Besucher, die als Bots identifiziert werden, sind von [!DNL Target] Zählung/Berichterstellung. (Beachten Sie, dass sich das fragliche Problem auf Implementierungen beschränkte, die die clientseitige Payload-Handhabung verwendeten.) nicht betroffen war. Mit dieser Version ist das Verhalten nun sowohl bei der serverseitigen als auch bei der clientseitigen Nutzlastverarbeitung konsistent.) |
 
 
