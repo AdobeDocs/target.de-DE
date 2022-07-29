@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: bc4b04ae0be1fade2456eb42ade7ee87c0f14b16
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -19,14 +19,14 @@ Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlich
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!DNL Target] Plattform-Version (20. Juli 2022)
+## [!DNL Target]-Plattform-Version (20. Juli 2022)
 
 Diese Version umfasst die folgenden Funktionen, Verbesserungen und Fehlerbehebungen:
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Verbesserte Genauigkeit bei der Zielgruppenbewertung und reduzierte Endbenutzerlatenz durch IPv6-Unterstützung (TNT-43364, TNT-44692) | Die geografischen Standorte der Besuchenden werden jetzt nach IPv6-Adressen bestimmt, sofern verfügbar, und nicht mehr nur nach IPv4-Adressen. Bereitstellungs-APIs unterstützen auch IPv6-Eingabeparameter. Filter und Zulassungsauflistungen unterstützen sowohl IPv4- als auch IPv6-Adressen. Die IPv6-Unterstützung in dieser Version bedeutet, dass Besucher genauer in Zielgruppen eingeschlossen werden (sie qualifizieren sich also genauer für Aktivitäten oder werden in Filterkriterien aufgenommen). Außerdem wird die Datenlatenz verbessert, da IPv6-Clients die Kommunikation direkt durchführen und so der Verwaltungsaufwand für das Gateway von IPv6 zu IPv4 vermieden wird. |
-| Fehlerkorrektur - Clientseitige Payload-Handhabung von A4T (TNT-44926) | Bei einer serverseitigen A4T-Integration leitet Adobe Target die Payload nicht an Analytics weiter, wenn feststellt, dass eine Anforderung von einem Bot stammt, und es wird kein mod_stats -Ereignis in der Datei [!DNL Target] Protokolle. Mit dieser Version wurde die clientseitige Protokollierung von A4T verbessert, sodass das Verhalten in Bezug auf die A4T-Payload dasselbe ist wie bei der serverseitigen A4T-Protokollierung: Besucher, die als Bots identifiziert werden, sind von [!DNL Target] Zählung/Berichterstellung. (Beachten Sie, dass sich das fragliche Problem auf Implementierungen beschränkte, die die clientseitige Payload-Handhabung verwendeten.) nicht betroffen war. Mit dieser Version ist das Verhalten nun sowohl bei der serverseitigen als auch bei der clientseitigen Nutzlastverarbeitung konsistent.) |
+| Verbesserte Genauigkeit bei der Zielgruppenbewertung und reduzierte Latenzzeit der Endbenutzer durch IPv6-Unterstützung (TNT-43364, TNT-44692) | Die geografischen Standorte der Besuchenden werden jetzt nach IPv6-Adressen bestimmt, sofern verfügbar, und nicht mehr nur nach IPv4-Adressen. Bereitstellungs-APIs unterstützen auch IPv6-Eingabeparameter. Filter und Zulassungsauflistungen unterstützen sowohl IPv4- als auch IPv6-Adressen. Die IPv6-Unterstützung in dieser Version bedeutet, dass Besuchende genauer in Zielgruppen eingeschlossen werden (sie qualifizieren sich also genauer für Aktivitäten oder werden genauer in Filterkriterien aufgenommen). Außerdem wird die Datenlatenz verbessert, da IPv6-Clients die Kommunikation direkt durchführen und so der Verwaltungsaufwand für das Gateway von IPv6 zu IPv4 vermieden wird. |
+| Fehlerkorrektur bei der Client-seitigen Handhabung der Payload durch A4T (TNT-44926) | Bei einer Server-seitigen A4T-Integration leitet Adobe die Payload nicht an Analytics weiter, wenn Adobe Target feststellt, dass eine Anfrage von einem Bot stammt, und es wird auch kein mod_stats-Ereignis in den [!DNL Target]-Protokollen aufgezeichnet. Mit dieser Version wurde die Client-seitige Protokollierung von A4T verbessert, sodass das Verhalten in Bezug auf die A4T-Payload dasselbe ist wie bei der Server-seitigen A4T-Protokollierung: Besuchende, die als Bots identifiziert werden, werden aus der Zählung/dem Reporting von [!DNL Target] ausgeschlossen. (Beachten Sie, dass das fragliche Problem auf Implementierungen beschränkt war, die eine Client-seitige Verarbeitung von Payloads verwendeten; die Server-Seite war davon nicht betroffen. Mit dieser Version ist das Verhalten nun sowohl für die Server- als auch für die Client-seitige Verarbeitung von Payloads einheitlich). |
 
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
