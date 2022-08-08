@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie [!DNL Adobe Experience Manager] Experience Fr
 title: Verwendung [!DNL Adobe Experience Manager] (AEM) Experience Fragments?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 53%
+source-wordcount: '1369'
+ht-degree: 52%
 
 ---
 
@@ -105,6 +105,10 @@ Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experie
 
 **So verwenden Sie Experience Fragments mit dem VEC:**
 
+>[!NOTE]
+>
+>Als JSON exportierte Experience Fragments in [!DNL Target] kann nicht in Aktivitäten verwendet werden, die mit dem VEC erstellt wurden; In VEC-basierten Aktivitäten werden nur HTML-Erlebnisfragmente unterstützt. Wenn Sie JSON-Erlebnisfragmente verwenden möchten, verwenden Sie sie in Aktivitäten, die mit dem [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md).
+
 1. Klicken Sie in [!DNL Target] beim Erstellen oder Bearbeiten eines Erlebnisses im [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) an die Stelle der Seite, an der Sie [!DNL AEM]-Inhalte einfügen möchten, und wählen Sie dann die gewünschte Option aus, um die Liste [!UICONTROL Experience Fragment auswählen] anzuzeigen.
 
    * [!UICONTROL Einfügen vor]
@@ -146,11 +150,11 @@ Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experie
 ## Zu beachten {#considerations}
 
 * [!DNL Target] sucht derzeit alle zehn Minuten nach zu importierenden Experience Fragments. Das importierte Experience Fragment sollte innerhalb von zehn Minuten in [!DNL Target] verfügbar sein. Dieser Zeitraum soll in Zukunft weiter reduziert werden.
-* Das Experience Fragment wird in [!DNL Target] als HTML-Angebot. Die &quot;primäre&quot;Version des Experience Fragment bleibt in [!DNL AEM]. Sie können das Experience Fragment nicht in [!DNL Target] bearbeiten.
+* Das Experience Fragment wird in [!DNL Target] als HTML- oder JSON-Angebot. Die &quot;primäre&quot;Version des Experience Fragment bleibt in [!DNL AEM]. Sie können das Experience Fragment nicht in [!DNL Target] bearbeiten.
 * Sie können keine Experience Fragments mit [!DNL Adobe I/O]. Erstellen Sie Erlebnisfragmente mithilfe von AEM, wie oben beschrieben.
 * Wenn Sie Ihr Experience Fragment in AEM aktualisieren, muss das Experience Fragment veröffentlicht und in exportiert werden. [!DNL Target] erneut [!DNL Target] kann die neuesten Änderungen verwenden.
 
-## Entfernen von ClientLibs und externen HTML aus in Target exportierten Experience Fragments
+## Entfernen von ClientLibs und externem HTML-Code aus nach Target exportierten Experience Fragments
 
 Bei Verwendung von Experience Fragment-Angeboten mit [!DNL Target] auf einer von AEM bereitgestellten Seite enthält die Zielseite bereits alle erforderlichen Client-Bibliotheken. Beachten Sie auch, dass auch keine irreführenden HTML-Elemente im Angebot erforderlich sind.
 
