@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie [!DNL Adobe Experience Manager] Experience Fr
 title: Verwendung [!DNL Adobe Experience Manager] (AEM) Experience Fragments?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
+source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1371'
 ht-degree: 52%
 
 ---
@@ -90,7 +90,7 @@ Nach dem Ausführen der zuvor genannten Aufgaben wird das Experience Fragment au
 >
 >* [!DNL Target] sucht derzeit alle zehn Minuten nach zu importierenden Experience Fragments. Das importierte Experience Fragment sollte innerhalb von zehn Minuten in [!DNL Target] verfügbar sein. Dieser Zeitraum soll in Zukunft weiter reduziert werden.
 >
->* Das Experience Fragment wird in [!DNL Target] als HTML-Angebot. Diese &quot;primäre&quot;Version des Experience Fragment bleibt in [!DNL AEM]. Sie können das Experience Fragment nicht in [!DNL Target] bearbeiten.
+>* Das Experience Fragment wird in [!DNL Target] als HTML- oder JSON-Angebot. Diese &quot;primäre&quot;Version des Experience Fragment bleibt in [!DNL AEM]. Sie können das Experience Fragment nicht in [!DNL Target] bearbeiten.
 
 
 Sie können den Mauszeiger über ein Experience Fragment in der Liste bewegen und dann auf das Symbol für die [!UICONTROL Ansicht] ![Ansichtssymbol](assets/icon_info.png) klicken, um weitere Informationen zum Experience Fragment anzuzeigen, einschließlich der URL des öffentlichen Angebots und des zugehörigen [!DNL AEM]-Pfads.
@@ -104,10 +104,6 @@ Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experie
 >Experience Fragments werden in [!DNL Recommendations] Aktivitäten. Um jedoch Experience Fragments für Empfehlungen zu verwenden, können Sie eine [!UICONTROL A/B-Test] -Aktivität (einschließlich [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]) oder ein [!UICONTROL Erlebnis-Targeting] (XT) und [Empfehlungen als Angebot einschließen](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **So verwenden Sie Experience Fragments mit dem VEC:**
-
->[!NOTE]
->
->Als JSON exportierte Experience Fragments in [!DNL Target] kann nicht in Aktivitäten verwendet werden, die mit dem VEC erstellt wurden; In VEC-basierten Aktivitäten werden nur HTML-Erlebnisfragmente unterstützt. Wenn Sie JSON-Erlebnisfragmente verwenden möchten, verwenden Sie sie in Aktivitäten, die mit dem [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
 1. Klicken Sie in [!DNL Target] beim Erstellen oder Bearbeiten eines Erlebnisses im [Visual Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D) an die Stelle der Seite, an der Sie [!DNL AEM]-Inhalte einfügen möchten, und wählen Sie dann die gewünschte Option aus, um die Liste [!UICONTROL Experience Fragment auswählen] anzuzeigen.
 
@@ -135,6 +131,10 @@ Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experie
    * **Erlebnis-Targeting (XT):** [Erstellen einer Erlebnis-Targeting-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **Multivarianz-Tests (MVT):** [Erstellen eines Multivarianz-Tests](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
    * **Recommendations:** [Erstellen einer Recommendations-Aktivität](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+
+>[!NOTE]
+>
+>Als JSON exportierte Experience Fragments in [!DNL Target] kann nicht in Aktivitäten verwendet werden, die mit dem VEC erstellt wurden; In VEC-basierten Aktivitäten werden nur HTML-Erlebnisfragmente unterstützt. Wenn Sie JSON-Erlebnisfragmente verwenden möchten, verwenden Sie sie in Aktivitäten, die mit dem [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
 **So verwenden Sie Experience Fragments mit dem Form-Based Experience Composer:**
 
