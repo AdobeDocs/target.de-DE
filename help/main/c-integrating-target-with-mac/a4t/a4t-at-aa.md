@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Adobe Aktivitäten mit automatischer Zuord
 title: Unterstützt A4T Aktivitäten mit automatischer Zuordnung und automatischem Targeting?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: e8fc28ef2497c1dfea523a769c9c817cbd74fea2
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 2%
+source-wordcount: '1695'
+ht-degree: 3%
 
 ---
 
@@ -37,12 +37,11 @@ Erster Schritt:
 
    ![Berichtsquelle auf der Seite &quot;Ziele und Einstellungen&quot;](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
 
-1. Wählen Sie eine Primäre Zielmetrik aus.
+1. Wählen Sie eine Primäre Zielmetrik aus. Im ersten Dropdown-Menü können Sie entweder ein Ziel angeben in [!DNL Adobe Target] (wird dann von [!DNL Adobe Analytics] als Metrik &quot;Aktivitätskonversionen&quot;) oder zur Verwendung einer [!DNL Analytics] Metrik als Ziel.
 
-   * Verwendung [!DNL Adobe Target] Um das Optimierungsziel festzulegen, wählen Sie **[!UICONTROL Konversion]** .
-   * Auswählen **[!UICONTROL Analytics-Metrik verwenden]** und wählen Sie dann eine Metrik aus [!DNL Analytics] zur Verwendung als Optimierungsziel. Sie können einen vordefinierten [!DNL Analytics] Konversionsmetrik oder [!DNL Analytics] benutzerspezifisches Ereignis.
+   * Verwendung [!DNL Adobe Target] Um das Optimierungsziel festzulegen, wählen Sie **[!UICONTROL Konversion]** und geben Sie dann die Aktion an, die Ihre Zielgruppe ausführen muss, um anzugeben, dass das Konversionsziel erreicht wurde.
+   * Wenn Sie stattdessen **[!UICONTROL Analytics-Metrik verwenden]** festgelegt ist, können Sie wählen, welche Art von Optimierungskriterium verwendet werden soll.  Siehe [Unterstützte Zielmetriken und Optimierungskriterien](#supported) unten finden Sie weitere Informationen. Nach Angabe des Optimierungskriteriums können Sie dann eine kompatible Metrik aus [!DNL Analytics] zur Verwendung als Optimierungsziel. Sie können einen vordefinierten [!DNL Analytics] Konversionsmetrik oder [!DNL Analytics] benutzerspezifisches Ereignis.
 
-   Siehe [Unterstützte Zielmetriken](#supported) unten finden Sie weitere Informationen.
 
 1. Speichern und aktivieren Sie Ihre Aktivität.
 
@@ -52,9 +51,11 @@ Erster Schritt:
 
    [!UICONTROL Automatisches Targeting] verwendet Ihre ausgewählte Metrik zur Optimierung der Aktivität, wodurch Besucher zu einem personalisierten besten Erlebnis gelangen.
 
-1. Verwenden Sie die **[!UICONTROL Berichte]** , um die Berichterstellung Ihrer Aktivität nach Wahl anzuzeigen. [!DNL Adobe Analytics] Metriken. Klicken **[!UICONTROL In Analytics anzeigen]** , um Ihre Berichtsdaten tief einzutauchen und weiter zu segmentieren.
+1. Verwenden Sie die **[!UICONTROL Berichte]** Registerkarte , um die Berichterstellung Ihrer Aktivität anzuzeigen, und klicken Sie auf **[!UICONTROL In Analytics anzeigen]** , um Ihre Berichtsdaten in Adobe Analytics Workspace tief zu segmentieren und weiter zu segmentieren. In den folgenden Tutorials erfahren Sie, wie Sie Ihre Berichte in Workspace einrichten:
+* Automatische Zuordnung: see [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatisierter Zuordnung](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*
+* Automatisches Targeting: see [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
 
-## Unterstützte Zielmetriken {#supported}
+## Unterstützte Zielmetriken und Optimierungskriterien {#supported}
 
 [!UICONTROL A4T] für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] können Sie einen der folgenden Metriktypen als primäre Zielmetrik für die Optimierung auswählen:
 
@@ -62,18 +63,24 @@ Erster Schritt:
 * [!DNL Adobe Analytics] Konversionsmetriken vorstellen
 * [!DNL Adobe Analytics] benutzerspezifische Ereignisse
 
-[!UICONTROL A4T] für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] erfordert die Auswahl einer Metrik, die auf einem binomialen Ereignis basiert. Ein binomiales Ereignis geschieht entweder oder nicht. Binomielle Ereignisse umfassen einen Klick, eine Konversion, eine Bestellung usw. Diese Ereignistypen werden manchmal auch als Bernoulli-, binäre oder diskrete Ereignisse bezeichnet.
+Allerdings [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] -Modelle werden für **normalisiert** Versionen dieser Metriken, wobei die genaue Normalisierung vom Aktivitätstyp abhängt. Die Optionen für Optimierungskriterien für jeden Aktivitätstyp werden in der folgenden Tabelle erläutert:
 
-[!UICONTROL A4T] für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] unterstützt keine Optimierung für kontinuierliche Metriken. Kontinuierliche Metriken umfassen Umsatz, Anzahl der bestellten Produkte, Sitzungsdauer, Anzahl der Seitenansichten in der Sitzung usw. Diese nicht unterstützten Metriktypen werden manchmal auch als nicht binomielle oder nicht-Bernoulli-Metriken bezeichnet.
+| Aktivitätstyp | Metrikquelle | Optimierungskriterium | Beschreibung |
+|---------------|---------------|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Automatische Zuordnung | Analytics | Maximieren der Unique Visitor-Konversionsrate | Modelle versuchen, das Erlebnis mit der höchsten Unique Visitor-Konversionsrate zu finden. Diese ist definiert als die Anzahl der Besucher, für die die Analytics-Metrik ungleich null ist, dividiert durch die Gesamtanzahl der Besucher (die dieses Erlebnis erhalten haben). Das bedeutet, dass die Metrik als binär behandelt wird - entweder 0 oder 1 für jeden Unique Visitor in der Aktivität.   Verwenden Sie diese Option, wenn Sie sich nur um den Anteil der Benutzer kümmern, die eine bestimmte Aktion ausführen, oder wenn mehrere Konversionsereignisse für einen einzelnen Benutzer nicht sinnvoll sind. |
+| Automatische Zuordnung | Analytics | Metrikwert pro Besucher maximieren | Modelle versuchen, das Erlebnis mit dem höchsten Metrikwert pro Besucher zu finden, das als Gesamtwert der Metrik für alle Benutzer definiert ist, die diesem Erlebnis ausgesetzt sind, dividiert durch die Gesamtanzahl der Besucher, die dieses Erlebnis erhalten haben. Das bedeutet, dass die Metrik einen beliebigen Wert für jeden Unique Visitor in der Aktivität annehmen kann. Wenn beispielsweise ein Besucher mehrmals konvertiert, wird jede Konversion gezählt.  Verwenden Sie diese Option, wenn Sie eine kontinuierliche Metrik wie den Gesamtumsatz maximieren möchten oder wenn mehrere Konversionsereignisse für einen einzelnen Benutzer aussagekräftiger als ein Ereignis sind (z. B. wenn mehrere Bestellungen wertvoller als eins sind). |
+| Automatische Zuordnung | Target | (nicht konfigurierbar) | Die Metrik wird als binär behandelt und die Unique Visitor-Konversionsrate wird maximiert. |
+| Automatisches Targeting | Analytics | Maximieren der Konversionsrate einzelner Besuche | Im Gegensatz zu automatischer Zuordnung oder manuellen A/B-Tests bedeutet die personalisierte Art von automatischem Targeting, dass sich das Erlebnis, das ein Besucher sieht, bei jedem neuen Besuch ändern kann. Die entsprechende Rate ist dann eine besuchsnormalisierte Konversionsrate, die als der Anteil der Besuche definiert ist, in dem eine Metrik ungleich null aufgezeichnet wird. Dies ist die Konversionsrate, die durch automatisches Targeting optimiert wird.   Ähnlich wie bei der automatischen Zuordnung sollte diese Option ausgewählt werden, wenn Sie sich um den Anteil der Besuche kümmern, bei denen eine Konversion stattfindet, d. h. wenn mehrere Konversionsereignisse, die bei einem einzelnen Besuch auftreten, nicht wichtig sind. |
+| Automatisches Targeting | Analytics | Metrikwert pro Besuch maximieren | Wenn die Metrik, für die optimiert wird, kontinuierlich ist (z. B. Umsatz) oder wenn das Vorhandensein mehrerer Konversionsereignisse in einem einzelnen Besuch aussagekräftig ist (z. B. mehrere Bestellungen), können Sie den Metrikwert pro Besuch maximieren. Die optimierte &quot;Rate&quot;ist der Gesamtwert der Metrik, dividiert durch die Anzahl der Besuche. |
+| Automatisches Targeting | Target | (nicht konfigurierbar) | Die Metrik wird als binär behandelt und die Unique Visits-Konversionsrate wird maximiert. |
 
-Die folgenden Metriktypen werden als primäre Zielmetriken nicht unterstützt:
 
-* [!DNL Adobe Target] Interaktion und Umsatzmetriken
-* [!DNL Adobe Analytics] Interaktion und Umsatzmetriken
 
-   Es ist möglich, eine [!DNL Analytics] Interaktion oder Umsatzmetrik als primäre Zielmetrik verwenden, da [!DNL Target] kann nicht alle Interaktions- und Umsatzmetriken identifizieren und ausschließen von [!DNL Analytics]. Wählen Sie nur binomielle Konversionsmetriken oder benutzerspezifische Ereignisse aus [!DNL Analytics].
+Beachten Sie, dass je nach Optimierungskriterium bestimmte [!DNL Adobe Analytics] -Metriken werden nicht unterstützt.
 
-* [!DNL Adobe Analytics] berechnete Metriken
+* [!DNL Adobe Analytics] berechnete Metriken werden nicht unterstützt.
+* [!DNL Adobe Analytics] Metriken müssen immer segmentierbar sein. Wenn der Wert pro Besucher/Besuch optimiert wird, muss die Metrik eine positive Polarität aufweisen (d. h. positive Werte sind besser als negative).
+* [!DNL Adobe Analytics] Metrik verwendet in [!DNL Auto-Target] -Aktivitäten in DataWarehouse-Exporten verfügbar sein.
 
 ## Einschränkungen und Hinweise
 
@@ -83,10 +90,8 @@ Einige Einschränkungen und Hinweise gelten für beide [!UICONTROL Automatische 
 
 * Bei Verwendung von [!DNL Adobe Analytics] als Berichtsquelle für [!UICONTROL Automatische Zuordnung] oder [!UICONTROL Automatisches Targeting]sollten Sie immer Berichte anzeigen in [!DNL Analytics].
 * Die Berichtsquelle kann nicht geändert werden über [!DNL Analytics] nach [!DNL Target] oder umgekehrt, nachdem eine Aktivität aktiviert wurde.
-* Obwohl berechnete Metriken nicht als primäre Zielmetriken unterstützt werden, ist es oft möglich, das beabsichtigte Ergebnis zu erzielen, indem Sie stattdessen ein benutzerspezifisches Ereignis als primäre Zielmetrik auswählen. Wenn Sie beispielsweise eine Metrik optimieren möchten, z. B. &quot;Formularabschlüsse pro Besucher&quot;, wählen Sie als primäre Zielmetrik ein benutzerspezifisches Ereignis aus, das &quot;Formularabschlüsse&quot;entspricht. [!DNL Target] Normalisiert die Konversionsmetriken automatisch auf Besuchsbasis, um eine ungleichmäßige Traffic-Verteilung zu berücksichtigen. Daher ist es nicht erforderlich, eine berechnete Metrik zu verwenden, um eine Normalisierung durchzuführen.
-* Bei Verwendung von [!DNL Adobe Analytics] als Berichtsquelle für [!UICONTROL Automatische Zuordnung] oder [!UICONTROL Automatisches Targeting] -Aktivitäten, sollten Sie immer Berichte anzeigen in [!DNL Analytics].
-* Die Berichtsquelle kann nicht geändert werden über [!DNL Analytics] nach [!DNL Target] oder umgekehrt, nachdem eine Aktivität aktiviert wurde.
-* Obwohl berechnete Metriken nicht als primäre Zielmetriken unterstützt werden, ist es oft möglich, das beabsichtigte Ergebnis zu erzielen, indem Sie stattdessen ein benutzerspezifisches Ereignis als primäre Zielmetrik auswählen. Wenn Sie beispielsweise eine Metrik optimieren möchten, z. B. &quot;Formularabschlüsse pro Besucher&quot;, wählen Sie als primäre Zielmetrik ein benutzerspezifisches Ereignis aus, das &quot;Formularabschlüsse&quot;entspricht. [!DNL Target] Normalisiert Konversionsmetriken automatisch auf Besucherbasis für [!UICONTROL Automatische Zuordnung] Aktivitäten verwenden, sodass es nicht erforderlich ist, eine berechnete Metrik zu verwenden, um eine Normalisierung durchzuführen.
+* Obwohl berechnete Metriken nicht als primäre Zielmetriken unterstützt werden, ist es oft möglich, das beabsichtigte Ergebnis zu erzielen, indem Sie stattdessen ein benutzerspezifisches Ereignis als primäre Zielmetrik auswählen. Wenn Sie beispielsweise eine Metrik optimieren möchten, z. B. &quot;Formularabschlüsse pro Besucher&quot;, wählen Sie als primäre Zielmetrik ein benutzerspezifisches Ereignis aus, das &quot;Formularabschlüsse&quot;entspricht. Wie unter [Unterstützte Zielmetriken und Optimierungskriterien](#supported), je nach Aktivitätstyp und Ihrem Optimierungskriterium, [!DNL Target] normalisiert automatisch Konversionsmetriken, sodass eine berechnete Metrik nicht für die Normalisierung verwendet werden muss.
+
 
 ### Automatische Zuordnung {#aa}
 
@@ -97,15 +102,19 @@ Einige Einschränkungen und Hinweise gelten für beide [!UICONTROL Automatische 
 
 ### Automatisches Targeting {#at}
 
-* [!UICONTROL Automatisches Targeting] -Modelle werden wie gewohnt alle 24 Stunden trainiert. Konversionsereignisdaten stammen jedoch von [!DNL Analytics] wird um zusätzliche sechs bis 24 Stunden verzögert. Diese Verzögerung bedeutet die Verteilung des Traffics nach [!DNL Target] verfolgt die neuesten Ereignisse, die in [!DNL Analytics]. Diese Verzögerung hat die größte Auswirkung in den ersten 48 Stunden nach der ersten Aktivierung einer Aktivität. Die Leistung der Aktivität wird stärker reflektiert [!DNL Analytics] Konversionsverhalten nach fünf Tagen vergangen ist. Erwägen Sie die Verwendung von [!UICONTROL Automatische Zuordnung] anstelle von [!UICONTROL Automatisches Targeting] für Aktivitäten mit kurzer Dauer, bei denen der größte Traffic innerhalb der ersten fünf Tage des Aktivitätslebens auftritt.
+* **Häufigkeit der Schulungen**: [!UICONTROL Automatisches Targeting] -Modelle werden wie gewohnt alle 24 Stunden trainiert. Konversionsereignisdaten stammen jedoch von [!DNL Analytics] wird um zusätzliche sechs bis 24 Stunden verzögert. Diese Verzögerung bedeutet die Verteilung des Traffics nach [!DNL Target] verfolgt die neuesten Ereignisse, die in [!DNL Analytics]. Diese Verzögerung hat die größte Auswirkung in den ersten 48 Stunden nach der ersten Aktivierung einer Aktivität. Die Leistung der Aktivität wird stärker reflektiert [!DNL Analytics] Konversionsverhalten nach fünf Tagen vergangen ist. Erwägen Sie die Verwendung von [!UICONTROL Automatische Zuordnung] anstelle von [!UICONTROL Automatisches Targeting] für Aktivitäten mit kurzer Dauer, bei denen der größte Traffic innerhalb der ersten fünf Tage des Aktivitätslebens auftritt.
 * Bei Verwendung von [!DNL Analytics] als Datenquelle für eine [!UICONTROL Automatisches Targeting] -Aktivität, enden Sitzungen nach Ablauf von sechs Stunden. Konversionen, die nach sechs Stunden stattfinden, werden nicht gezählt.
 
 Weitere Informationen finden Sie unter [Attributionsmodelle und Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) im *Leitfaden für Analytics-Tools*.
 
-## Tutorial: Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting {#tutorial}
+## Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting und automatisierter Zuordnung {#tutorial}
 
-Obwohl Rich-Analytics-Funktionen in [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], einige Änderungen an der Standardeinstellung [!UICONTROL Analytics for Target] -Bedienfeld erforderlich sind, um Aktivitäten mit automatischem Targeting korrekt zu interpretieren. Diese Änderungen sind aufgrund von Unterschieden zwischen den Experimentaktivitäten erforderlich (manuelles A/B und [!UICONTROL Automatische Zuordnung]) und Personalisierungsaktivitäten ([!UICONTROL Automatisches Targeting]).
+Obwohl Rich-Analytics-Funktionen in [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], einige Änderungen an der Standardeinstellung [!UICONTROL Analytics for Target] -Bedienfeld erforderlich sind, um Aktivitäten mit automatischer Zuordnung und automatischem Targeting korrekt zu interpretieren.
 
-Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!UICONTROL Automatisches Targeting] Aktivitäten in [!UICONTROL Arbeitsbereich].
+Diese Änderungen sind aufgrund der unter [Unterstützte Zielmetriken und Optimierungskriterien](#supported)sowie die Unterschiede zwischen den Experimentaktivitäten (manuelles A/B und [!UICONTROL Automatische Zuordnung]) und Personalisierungsaktivitäten ([!UICONTROL Automatisches Targeting]).
 
-Weitere Informationen finden Sie unter [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
+Diese Tutorials führen Sie durch die empfohlenen Änderungen zur Analyse [!UICONTROL A4T] [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten in [!UICONTROL Arbeitsbereich].
+
+Weitere Informationen finden Sie unter  
+* [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatisierter Zuordnung](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
+* [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
