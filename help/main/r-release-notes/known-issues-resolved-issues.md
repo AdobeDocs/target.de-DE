@@ -4,10 +4,10 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: ht
-source-wordcount: '4524'
-ht-degree: 100%
+source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
+workflow-type: tm+mt
+source-wordcount: '4651'
+ht-degree: 97%
 
 ---
 
@@ -209,6 +209,12 @@ So synchronisieren und korrigieren Sie die Berichte:
 1. Löschen Sie die ursprünglichen, d. h. die betroffenen Aktivitäten.
 
 (TGT-38522, CSO 20201006007)
+
+### Verfügbarkeitsindikator für Automatisches Targeting und Automated Personalization-Modell {#at-ap-model}
+
+Die Modellverfügbarkeit für Aktivitäten vom Typ Automatisches Targeting und Automated Personalization schlug zwischen dem 1. Juni 2022 und dem 19. Juli 2022 zeitweise fehl. Dies führte dazu, dass in der Reporting-Benutzeroberfläche von Target möglicherweise kein grünes Häkchen angezeigt wurde, das angibt, dass ein Modell erfolgreich erstellt wurde, obwohl Erlebnisse oder Angebote in automatischem Targeting oder Automated Personalization-Aktivitäten auf personalisierter Basis bereitgestellt wurden.
+
+Beachten Sie Folgendes: **Personalisierte Modellerstellung selbst** nicht betroffen war und Modelle über den gesamten Zeitraum hinweg erfolgreich erstellt wurden. Dieser Fehler hatte nur Auswirkungen auf das Modellverfügbarkeitssystem. **Auch die Berichtsdaten sind nicht betroffen**. Mit anderen Worten, die Leistung (Besuche, Konversionen und Konversionsraten) von Erlebnissen und Angeboten war nicht betroffen. Es kann sein, dass nur das grüne Häkchen, das die Verfügbarkeit eines personalisierten Modells angibt, nicht angezeigt wurde.
 
 ### Berichterstellung {#conversions-audiences}
 
