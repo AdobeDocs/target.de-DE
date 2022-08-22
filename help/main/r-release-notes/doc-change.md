@@ -4,16 +4,22 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 9f758ce9b86bc795a6f846a759e7a3d0a8578a47
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 100%
+source-wordcount: '1180'
+ht-degree: 94%
 
 ---
 
 # Dokumentationsänderungen
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
+
+## Adobe Target Standard/Premium 22.7.1
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| 22. August | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zur folgenden Mitteilung hinzugefügt:<ul><li>[!DNL Target] Benannter Leader im Gartner Magic Quadrant für Personalisierungsmaschinen (2022)</li></ul>Es wurden Informationen zu den folgenden bevorstehenden Ereignissen hinzugefügt:<ul><li>[!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (31. August 2022)</li><li>Kochsammlung: Rezepte für Personalisierung (30. August 2022)</li><li>[!DNL Adobe Target] Skill Builder - Optimierung mobiler Erlebnisse (6. September 2022)</li><li>[!DNL Adobe Target] Skill Builder - KI-gesteuerte Personalisierung und Recommendations (15. September 2022)</li></ul>Es wurde ein Aufzeichnungslink für die folgende Webinarsitzung hinzugefügt:<ul><li>Adobe: Personalization Industry Insider – Einzelhandel (11. August 2022)</li></ul> |
 
 ## Adobe Target Standard/Premium 22.6.1 (gestaffelte Veröffentlichung: 7.–9. Juni 2022)
 

@@ -4,9 +4,9 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1878'
 ht-degree: 70%
 
 ---
@@ -21,7 +21,7 @@ Gartner hat [!DNL Adobe Target] ein führendes Unternehmen in seinem neuesten Ma
 
 Weitere Informationen finden Sie unter [Adobe Experience Cloud-Blogpost](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Community-Fragen und -Kaffeepausen
+## [!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (31. August 2022)
 
 * **Mittwoch, 31. August 2022**
 * **9:00 bis 10:00 Uhr (PDT, UTC-7)**
@@ -58,7 +58,7 @@ Erkunden wir Ideen zu folgenden Themen:
 * Erstellen personalisierter Erlebnisse
 +++
 
-## [!DNL Adobe Target] Skill Builder - Optimierung mobiler Erlebnisse (6. September 2022)
+### [!DNL Adobe Target] Skill Builder - Optimierung mobiler Erlebnisse (6. September 2022)
 
 Die mobilen Erlebnisse fördern die Innovation darin, wie Marketing- und Ingenieurteams produktorientierte Strategien für die kanalübergreifende Personalisierung im Web und in Apps nutzen. Mitglied werden [!DNL Adobe] Sitzung von Skill Builder und Erfahren Sie, wie [!DNL Adobe Target] ermöglicht es Marketing-Experten, Entwicklern und Produkteigentümern, neue potenzielle Interaktionen und Umsatzsteigerungen zu erzielen, um florierende Produktgemeinschaften zu schaffen.
 
@@ -70,7 +70,7 @@ Die mobilen Erlebnisse fördern die Innovation darin, wie Marketing- und Ingenie
 
 +++
 
-## [!DNL Adobe Target] Skill Builder - KI-gesteuerte Personalisierung und Recommendations (15. September 2022)
+### [!DNL Adobe Target] Skill Builder - KI-gesteuerte Personalisierung und Recommendations (15. September 2022)
 
 Die Automatisierung von Experimentierungs- und Personalisierungsprozessen steigert weiterhin den höchsten Konversions- und ROI-Wert für Marketing-, Engineering- und Produktteams. Mitglied werden [!DNL Adobe] Schulung und Schulung für Fortgeschrittene [!DNL Adobe Target] erweiterte KI-gestützte Anwendungsfälle und Funktionen mit Produkt- und Inhaltsempfehlungen, um die Konkurrenz zu überwinden und jedes Erlebnis zu gewinnen.
 
