@@ -4,18 +4,18 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finde ich Ankündigungen und Veranstaltungen zu  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 87b89f72a502031224f416e9ec0f99aba4351cb3
+source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1877'
 ht-degree: 70%
 
 ---
 
-# Ankündigungen und Veranstaltungen zu Target
+# [!DNL Adobe Target] Ankündigungen und Veranstaltungen
 
 Mitteilungen und Informationen über bevorstehende [!DNL Adobe Target]-Ereignisse, einschließlich kurzen Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
 
-## Target Leader in Gartner Magic Quadrant für Personalisierungsmaschinen (2022)
+## [!DNL Target] Benannter Leader im Gartner Magic Quadrant für Personalisierungsmaschinen (2022)
 
 Gartner hat [!DNL Adobe Target] ein führendes Unternehmen in seinem neuesten Magic Quadrant for Personalization Engines (PE) zum fünften Mal in Folge. [!DNL Adobe] auch die höchsten Werte und signifikanten Jahreszuwächse für alle drei Hauptanwendungsfälle: Digital Marketing, Digital Commerce, Service und Support. [!DNL Target] auch von allen bewerteten Anbietern die höchsten Werte für unsere Testfähigkeiten erhalten.
 
