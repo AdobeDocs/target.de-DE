@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Kriterien erstellen, die den Inhalt Ihrer Ado
 title: Wie erstelle ich Kriterien in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
 workflow-type: tm+mt
-source-wordcount: '2832'
+source-wordcount: '2835'
 ht-degree: 53%
 
 ---
@@ -170,10 +170,6 @@ Weitere Informationen zur Auswahl eines [!UICONTROL Empfehlungsschlüssel], sieh
 
    Weitere Informationen finden Sie unter [Festlegen von Einschlussregeln](#inclusion) unten.
 
-1. (Optional) Schieben Sie die **[!UICONTROL Zuvor gekaufte Artikel empfehlen]** Umschalten auf die Position &quot;Ein&quot;.
-
-   Diese Einstellung basiert auf `productPurchasedId`. Das Standardverhalten ist es, zuvor gekaufte Artikel nicht zu empfehlen. In den meisten Fällen ist es nicht sinnvoll, Artikel zu bewerben, die Kunden kürzlich gekauft haben. Es ist nützlich, wenn Sie Artikel verkaufen, die Kunden in der Regel nur einmal kaufen, zum Beispiel Kayaks. Wenn Sie Artikel verkaufen, die Personen wiederholt kaufen, wie Shampoo oder andere persönliche Artikel, sollten Sie diese Option aktivieren.
-
 ## Ähnlichkeit von Inhalten {#similarity}
 
 Verwenden Sie Regeln zur [!UICONTROL Ähnlichkeit von Inhalten] für die Bereitstellung von Empfehlungen basierend auf Artikeln oder Medienattributen.
@@ -219,6 +215,10 @@ Die Optionen für die Einschlussregeln variieren je nach vertikalem Markt. Einsc
 Die Einschlussregeln werden mit „AND“ verbunden. Alle Regeln müssen erfüllt sein, damit ein Artikel in den Empfehlungen berücksichtigt wird.
 
 Führen Sie zum Erstellen einer einfachen Einschlussregel die folgenden Schritte aus, um - wie im oben stehenden Beispiel - nur Damenschuhe mit einem Bestand von mehr als 50 und einem Preis von zwischen 25 und 45 € anzuzeigen.
+
+1. (Bedingt) Schieben Sie die **[!UICONTROL Zulassen, dass kürzlich gekaufte Artikel empfohlen werden?]** Umschalten auf die Position &quot;Ein&quot;.
+
+   Diese Einstellung basiert auf `productPurchasedId`. Das Standardverhalten ist es, zuvor gekaufte Artikel nicht zu empfehlen. In den meisten Fällen ist es nicht sinnvoll, Artikel zu bewerben, die Kunden kürzlich gekauft haben. Es ist nützlich, wenn Sie Artikel verkaufen, die Kunden in der Regel nur einmal kaufen, zum Beispiel Kayaks. Wenn Sie Artikel verkaufen, die Personen wiederholt kaufen, wie Shampoo oder andere persönliche Artikel, sollten Sie diese Option aktivieren.
 
 1. Legen Sie einen Preisbereich für die Produkte fest, die Sie empfehlen möchten.
 1. Legen Sie den Mindestbestand für die Produkte fest, die Sie empfehlen möchten.
