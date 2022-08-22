@@ -4,9 +4,9 @@ description: Informationen zu Erfolgsmetriken in Adobe [!DNL Target] die Ihnen b
 title: Was sind Erfolgsmetriken?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 44%
 
 ---
@@ -27,7 +27,7 @@ Umsatzmetriken, die auf &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivi
 
 >[!NOTE]
 >
->Für Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) Die Zielmetrik verwendet immer die[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen]&quot; und &quot;[!UICONTROL Bei jeder Impression]&quot;. Dies ist *not* konfigurierbar.
+>Für Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwendet die Zielmetrik immer die[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen]&quot; und &quot;[!UICONTROL Bei jeder Impression]&quot;. Dies ist *not* konfigurierbar.
 
 Es sind folgende Erfolgsmetriken verfügbar:
 
@@ -75,7 +75,7 @@ So kann eine Testkonversion zum Beispiel nur dann gültig sein, wenn ein Besuche
 
 Die Abhängigkeitsfunktion ist *not* unterstützt für Folgendes:
 
-* [!UICONTROL Recommendations-Aktivitäten. ] Diese Funktionalität wird für alle anderen Aktivitätstypen unterstützt.
+* [!UICONTROL Recommendations]-Aktivitäten. Diese Funktionalität wird für alle anderen Aktivitätstypen unterstützt.
 * Wenn Sie [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 * Metriktyp „Angezeigte Seite“.
 * Metriktyp „Elementklick“ für Visual Experience Composer-(VEC)-Aktivitäten.
