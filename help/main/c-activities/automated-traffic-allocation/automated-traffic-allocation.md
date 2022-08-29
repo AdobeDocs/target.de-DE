@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie eine Aktivität vom Typ "Automatische Zuordnu
 title: Was ist eine Aktivität vom Typ "Automatische Zuordnung"?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '3559'
-ht-degree: 49%
+source-wordcount: '3567'
+ht-degree: 50%
 
 ---
 
@@ -29,7 +29,7 @@ Mit A/B-Standardtests sind Kosten verbunden. Sie müssen Traffic generieren, um 
 
 Ein normaler A/B-Test in [!DNL Target] zeigt nur paarweise Vergleiche von Herausforderern mit Kontrollelementen. Wenn beispielsweise eine Aktivität über Erlebnisse verfügt: A, B, C und D, wobei A die Kontrolle, ein normales [!DNL Target] A/B-Tests würden A mit B, A mit C und A mit D vergleichen.
 
-Bei solchen Tests umfassen die meisten Produkte, einschließlich [!DNL Target], verwenden Sie einen Student-t-Test, um eine P-Wert-basierte Konfidenz zu erzielen. Mithilfe dieses Konfidenzwerts wird dann ermittelt, ob sich der Herausforderer ausreichend vom Kontrollelement unterscheidet. Allerdings [!DNL Target] führt nicht automatisch die impliziten Vergleiche (B mit C, B mit D und C mit D) durch, die erforderlich sind, um das &quot;beste&quot;Erlebnis zu finden. Aus diesem Grund müssen Marketingexperten die Ergebnisse manuell analysieren, um das Gewinnererlebnis zu ermitteln.
+Bei solchen Tests umfassen die meisten Produkte, einschließlich [!DNL Target], verwenden Sie eine [Welch&#39;s t-Test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}, um eine P-Wert-basierte Konfidenz zu erzeugen. Mithilfe dieses Konfidenzwerts wird dann ermittelt, ob sich der Herausforderer ausreichend vom Kontrollelement unterscheidet. Allerdings [!DNL Target] führt nicht automatisch die impliziten Vergleiche (B mit C, B mit D und C mit D) durch, die erforderlich sind, um das &quot;beste&quot;Erlebnis zu finden. Aus diesem Grund müssen Marketingexperten die Ergebnisse manuell analysieren, um das Gewinnererlebnis zu ermitteln.
 
 [!UICONTROL Die automatisierte Zuordnung führt alle impliziten Vergleiche über alle Erlebnisse hinweg durch und ergibt dann einen „wahren“ Gewinner. ] Es gibt in diesem Test keinen Bedarf für ein „Kontrollerlebnis“.
 
@@ -207,13 +207,13 @@ Tritt ein Treffer in einer anderen (nicht standardmäßigen) Umgebung auf, wird 
 
 Bei Auswahl einer anderen Umgebung zeigt der Bericht Traffic und Konversionen für diese Umgebung an. Die für einen Bericht standardmäßig ausgewählte Umgebung ist die für das gesamte Konto ausgewählte Standardeinstellung. Die Standardumgebung kann nicht pro Aktivität festgelegt werden.
 
-### Kann eine [!UICONTROL Automatische Zuordnung] Aktivität das Lookback-Fenster im Verlauf eines Tests anpassen, um zeitbedingte Änderungen zu berücksichtigen?
+### Kann mit der Aktivität [!UICONTROL Automatische Zuordnung] das Lookback-Fenster während eines Tests angepasst werden, um Veränderungen im Zeitverlauf zu berücksichtigen?
 
 Kann die Aktivität beispielsweise den Monat Dezember berücksichtigen, um zu entscheiden, wie Traffic zugeordnet werden soll, anstatt sich die September-Besucherdaten anzusehen (wann der Test begonnen hat)?
 
 Nein, [!UICONTROL Automatische Zuordnung] berücksichtigt die Leistung der gesamten Aktivität.
 
-### Does [!UICONTROL Automatische Zuordnung] einem wiederkehrenden Besucher ein erfolgreichstes Erlebnis anzeigen, wenn sich das erfolgreichste Erlebnis von dem unterscheidet, das der Besucher bei der Qualifizierung für die Aktivität gesehen hat?
+### Wird bei [!UICONTROL Automatische Zuordnung] einem wiederkehrenden Besucher das erfolgreichste Erlebnis angezeigt, wenn sich das erfolgreichste Erlebnis von dem unterscheidet, das der Besucher bei der Qualifizierung für die Aktivität gesehen hat?
 
 [!UICONTROL Automatische Zuordnung] verwendet fixierbare Entscheidungen aus denselben Gründen, aus denen [!UICONTROL A/B-Test] -Aktivitäten sind fixierbar. Die Traffic-Zuordnung funktioniert nur für neue Besucher.
 

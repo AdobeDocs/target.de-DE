@@ -4,10 +4,10 @@ description: Antworten auf häufig zur Anzeige von Berichten bei der Verwendung 
 title: Antworten auf Fragen zur Anzeige von Berichten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 36%
+source-wordcount: '2551'
+ht-degree: 33%
 
 ---
 
@@ -70,7 +70,7 @@ Zur Beurteilung der Genauigkeit [!UICONTROL Aktivitätsimpressionen] und [!UICON
 
 In anderen Berichten bedeutet „Nicht angegeben“, dass Daten eine bestimmte Classification nicht erfüllt haben. Dies sollte jedoch in A4T nie passieren. Wenn Sie „Nicht angegeben“ angezeigt bekommen, wurde der Classifications-Service noch nicht ausgeführt. Es dauert normalerweise zwischen 24 und 72 Stunden, bis Aktivitätsdaten in den Berichten angezeigt werden. Auch wenn die Aktivitäten erst zu diesem Zeitpunkt in diesem Bericht angezeigt werden, werden alle mit diesen Aktivitäten verbundenen Besucherdaten erfasst und nach Abschluss der Classification angezeigt.
 
-Nach dem Klassifizierungszeitraum werden Daten ca. eine Stunde nach Erfassung auf der Site in diesen Berichten angezeigt. Sämtliche Metriken, Segmente und Werte in den Berichten stammen aus der Berichtssuite, die Sie bei der Einrichtung der Aktivität ausgewählt haben.
+Nach dem Classification-Zeitraum werden Daten ca. eine Stunde nach Erfassung auf der Site in diesen Berichten angezeigt. Sämtliche Metriken, Segmente und Werte in den Berichten stammen aus der Berichtssuite, die Sie bei der Einrichtung der Aktivität ausgewählt haben.
 
 Wenn die Classification für diese Aktivität durchgeführt wurde und im Bericht weiterhin die Zeile &quot;Nicht angegeben&quot;angezeigt wird, stellen Sie sicher, dass der Bericht keine Nicht-Classification verwendet[!DNL Target] Metrik, um die Daten anzuzeigen. Sofern der Bericht nicht eine [!DNL Target]-spezifische Metrik, dass die Zeile &quot;Nicht angegeben&quot;Ereignisse für Aufrufe enthält, die nicht mit [!DNL Target]. Diese Zeile enthält keine [!DNL Target]-zugehörige Informationen (z. B. Besucher/Besuche/Impressionen).
 
@@ -78,13 +78,13 @@ Wenn die Classification für diese Aktivität durchgeführt wurde und im Bericht
 
 Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. Dieser Ablaufzeitraum kann bei Bedarf von der Kundenunterstützung angepasst werden. Diese Einstellung gilt für alle Aktivitäten, daher sollte sie nicht nur für einen Fall angepasst werden.
 
-Möglicherweise wird [!DNL Target] an [!DNL Analytics] nach dem Ablaufzeitraum, da die Gültigkeit 90 Tage beträgt, jedoch nur dann, wenn der Benutzer nie eine weitere A4T-aktivierte [!DNL Target] Aktivität. Wenn ein Benutzer am 45. Tag zur Site zurückkehrt und eine andere Aktivität ansieht, wird der gesamte Zähler für den A4T-eVar-Wert wieder auf 90 Tage zurückgesetzt. Das heißt, dass die erste Kampagne jetzt ab dem 1. Tag für 45 + 90 = 135 Tage fortbesteht. Wenn der Benutzer weiterhin zurückkehrt, gelangen Sie möglicherweise zu dem Punkt, an den Metriken gesendet werden [!DNL Analytics] in Ihren Berichten aus wesentlich älteren Aktivitäten. Wenn Benutzer Cookies löschen und nicht zur Site zurückkehren, werden die Zahlen in dieser Aktivität zurückgesetzt, aber Sie können sie weiterhin sehen.
+Möglicherweise wird [!DNL Target] an [!DNL Analytics] nach dem Ablaufzeitraum, da die Gültigkeit 90 Tage beträgt, jedoch nur dann, wenn der Benutzer nie eine weitere A4T-aktivierte [!DNL Target] Aktivität. Wenn ein Benutzer am 45. Tag zur Site zurückkehrt und eine andere Aktivität ansieht, wird der gesamte Zähler für den A4T-eVar-Wert wieder auf 90 Tage zurückgesetzt. Das heißt, dass die erste Kampagne jetzt ab dem 1. Tag für 45 + 90 = 135 Tage fortbesteht. Wenn der Benutzer weiterhin zurückkehrt, gelangen Sie möglicherweise zu dem Punkt, an den Metriken gesendet werden [!DNL Analytics] in Ihren Berichten aus wesentlich älteren Aktivitäten. Wenn Benutzer Cookies löschen und nicht zur Site zurückkehren, werden die Zahlen in dieser Aktivität zwar abgenommen, Sie können sie aber trotzdem sehen.
 
 Das bedeutet, dass Aktivitäten bis zu 90 Tage nach dem Ende der Aktivität weiterhin Seitenansichten, Besuche usw. für Besucher erhalten, die während der Aktivität Teil der Aktivität wurden. Sollten Sie jedoch einen Blick auf die Metrik [!UICONTROL Aktivitätsimpressionen] werfen, sollten nach Ablauf der Aktivität keine weiteren Impressionen erfasst werden.
 
 Dies ist ein normales und erwartetes Verhalten. Die A4T-Variable funktioniert wie alle anderen eVars. Der Wert wird so lange dem Benutzer zugeordnet bis die Ablaufzeit erreicht ist (90 Tage). Wenn eine Aktivität also nur zwei Wochen lang aktiv ist, wird der Wert mindestens 90 Tage lang dem Benutzer zugeordnet.
 
-Die Best Practice ist, Berichte für eine solche Aktivität nur für den Zeitraum anzuzeigen, in dem die Aktivität aktiv war. Die Daten sollten standardmäßig korrekt eingestellt werden, wenn Sie die Aktivität in [!DNL Analytics]Wenn Sie das Datum also nicht manuell verlängert haben, sollte dies aus der Sicht der Berichterstellung kein Problem sein.
+Die Best Practice ist, Berichte für eine solche Aktivität nur für den Zeitraum anzuzeigen, in dem die Aktivität aktiv war. Die Daten sollten standardmäßig korrekt eingestellt werden, wenn Sie die Aktivität in [!DNL Analytics]Wenn Sie das Datum also nicht manuell verlängert haben, sollte dies aus Sicht der Berichterstellung kein Problem sein.
 
 Nehmen wir beispielsweise an, die A4T-Variable läuft nach 90 Tagen ab und der Test ist vom 1. Januar bis 15. Januar aktiv.
 
@@ -94,7 +94,7 @@ Am 1. Januar besucht der Benutzer die Seite, sieht einmal die Aktivität XYZ u
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 5 | 1 | 1 |
 
-Der Benutzer kehrt dann am 1. Februar zurück, sieht fünf weitere Seiten, findet keine weiteren Target-Aktivitäten vor und die ursprüngliche Aktivität ist nicht mehr aktiv. Auch wenn die Aktivität nicht mehr aktiv ist, wird der Benutzer wegen der eVar-Persistenz jedoch weiterhin verfolgt. Die Daten sehen anschließend wie folgt aus:
+Der Benutzer kehrt am 1. Februar zurück, zeigt fünf weitere Seiten an, findet keine Target-Aktivitäten mehr und die ursprüngliche Aktivität ist nicht mehr aktiv. Auch wenn die Aktivität nicht mehr aktiv ist, wird der Benutzer wegen der eVar-Persistenz jedoch weiterhin verfolgt. Die Daten sehen anschließend wie folgt aus:
 
 | Aktivitätsname | Instanzen (Impressionen) | Seitenansichten | Besuche | Unique Visitors |
 |--- |--- |--- |--- |--- |
@@ -115,7 +115,7 @@ Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und t�
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | Gesamt | 2 | 20 | 3 | 1 | 1 |
 
-Da beide Erlebnisse vor der Konversion gesehen wurden, erhalten beide Erlebnisse eine &quot;Gutschrift&quot;für die Bestellung. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für [!DNL Target] Berichterstellung, da Sie keine [!DNL Target] -Aktivität mit einer anderen Aktivität verglichen werden, um zu sehen, welche erfolgreicher ist. Es spielt keine Rolle, dass alle Aktivitäten, die der Benutzer gesehen hat, gutgeschrieben wurden. Sie vergleichen die Ergebnisse zweier Elemente innerhalb der einzelnen Aktivität. Es ist für einen Benutzer nicht möglich, in derselben Aktivität unterschiedliche Erlebnisse zu sehen, sodass Sie sich keine Gedanken über eine Kreuzkontamination der Auftragskredite machen müssen.
+Da beide Erlebnisse vor der Konversion gesehen wurden, erhalten beide Erlebnisse eine &quot;Gutschrift&quot;für die Bestellung. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Für [!DNL Target] Berichterstellung, da Sie keine [!DNL Target] -Aktivität mit einer anderen Aktivität verglichen werden, um zu sehen, welche erfolgreicher ist. Es spielt keine Rolle, dass alle Aktivitäten, die der Benutzer gesehen hat, gutgeschrieben wurden. Sie vergleichen die Ergebnisse zweier Elemente innerhalb der einzelnen Aktivität. Es ist für einen Benutzer nicht möglich, verschiedene Erlebnisse in derselben Aktivität zu sehen, sodass Sie sich keine Gedanken über eine Kreuzkontamination der Auftragskredite machen müssen.
 
 Weitere Informationen finden Sie unter [Konversionsvariablen (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) im *Administratorhandbuch für Analytics*.
 
@@ -125,9 +125,9 @@ Eine Quelle von Impressionen auf den Bericht einer A4T-Aktivität nach der Deakt
 
 ## Warum berechnen Analytics und Analytics for Adobe Target (A4T) die Zahlen für die Metrik &quot;Unique Visitors&quot;unterschiedlich? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-Wenn Sie einen A/B-Test ausführen, der den Student-t-Test (die Konfidenzmetrik) verwendet, um einen Gewinner auszuwählen, gilt unter anderem die Annahme, dass es einen festen Zeithorizont gibt. Der Test ist nur dann statistisch gültig, wenn Sie diese feste Stichprobengröße untersuchen.
+Wenn Sie einen A/B-Test ausführen, bei dem die [Welch&#39;s t-Test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (die Konfidenzmetrik), um einen Gewinner eines Tests zu wählen, besteht eine der Annahmen darin, dass es einen festen Zeithorizont gibt. Der Test ist nur dann statistisch gültig, wenn Sie sich diese feste Stichprobengröße ansehen.
 
-Die [!UICONTROL Unique Visitors] Metrik unterscheidet sich in [!DNL Analytics] und [!DNL Target] nur, wenn Sie sich einen Zeitraum ansehen, der kürzer als der eigentliche Test ist. Wenn die Stichprobengröße nicht erreicht wird, ist der Test nicht sehr zuverlässig. Weitere Informationen finden Sie unter [How Not to Run an A/B-Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) auf der [Website von Evan Miller](https://www.evanmiller.org/index.html).
+Die [!UICONTROL Unique Visitors] Metrik unterscheidet sich in [!DNL Analytics] und [!DNL Target] nur, wenn Sie sich einen Zeitraum ansehen, der kürzer als der eigentliche Test ist. Wenn Sie Ihre Stichprobengröße nicht erreicht haben, ist der Test nicht so zuverlässig. Weitere Informationen finden Sie unter [How Not to Run an A/B-Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) auf der [Website von Evan Miller](https://www.evanmiller.org/index.html).
 
 Die [!UICONTROL Unique Visitors] zeigt die Anzahl der Personen an, die dem Test ausgesetzt waren und die die Site während des angegebenen Zeitraums besucht haben. Diese Personen sind Teil des Tests und sollten gezählt werden. Wenn Sie nur die Anzahl der Personen sehen wollen, die innerhalb einer einzigen Woche betroffen waren, können Sie ein Segment der Besucher erstellen, die eine Aktivitätsimpression hatten, und dieses auf den Bericht anwenden.
 
