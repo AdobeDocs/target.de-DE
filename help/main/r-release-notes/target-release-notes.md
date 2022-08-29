@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 78c394a2e82bdf02f124240f0755f4b747804cf6
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 52%
@@ -29,7 +29,7 @@ Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Eine [!UICONTROL Domänenübergreifend] Option beim Herunterladen von at.js 2.9.0 (und höher) zum Zulassen oder Deaktivieren der Einstellung von Drittanbieter-Cookies (TGT-43674)
+* Eine [!UICONTROL Domänenübergreifend] Option beim Herunterladen von at.js 2.9.1 (und höher) zum Zulassen oder Deaktivieren der Einstellung von Drittanbieter-Cookies (TGT-43674)
 * Es wurde ein Problem behoben, das [!UICONTROL Entscheidungsangebote] nicht ordnungsgemäß in [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Fehlerkorrektur - bei der Auswahl der [!UICONTROL Auf ein Element geklickt] Konversionsziel beim Erstellen einer [!UICONTROL Multivariate Testing] (MVT). (TGT-43842)
 * Es wurde ein Problem behoben, durch das die [!UICONTROL Impressionen] in der heruntergeladenen CSV-Berichtsdatei für [!UICONTROL Automated Personalization] AP-Aktivitäten. (TGT-43780)
