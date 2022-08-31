@@ -7,21 +7,21 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
 source-wordcount: '1878'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Target] Ankündigungen und Veranstaltungen
+# [!DNL Adobe Target] Ankündigungen und Ereignisse
 
 Mitteilungen und Informationen über bevorstehende [!DNL Adobe Target]-Ereignisse, einschließlich kurzen Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
 
 ## [!DNL Target] im Gartner Magic Quadrant für Personalisierungs-Engines (2022) als führend ausgezeichnet
 
-Gartner hat [!DNL Adobe Target] im neuesten Magic Quadrant für Personalisierungs-Engines (PE) zum fünften Mal in Folge als führend ausgezeichnet. [!DNL Adobe] auch die höchsten Werte und signifikanten Jahreszuwächse für alle drei Hauptanwendungsfälle: Digital Marketing, Digital Commerce, Service und Support. [!DNL Target] erzielte zudem unter allen bewerteten Anbietern die höchsten Werte für die Testmöglichkeiten.
+Gartner hat [!DNL Adobe Target] im neuesten Magic Quadrant für Personalisierungs-Engines (PE) zum fünften Mal in Folge als führend ausgezeichnet. [!DNL Adobe] erzielte auch Spitzenwerte und signifikante Steigerungen gegenüber dem Vorjahr in allen drei primären Anwendungsfällen: Digital Marketing, Digitaler Handel sowie Service und Support. [!DNL Target] erzielte zudem unter allen bewerteten Anbietern die höchsten Werte für die Testmöglichkeiten.
 
 Weitere Informationen finden Sie im [Adobe Experience Cloud-Blogpost](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## Kaffeepause mit Fragen und Antworten der [!DNL Adobe Target]-Community (31. August 2022)
+## Kaffeepause mit Fragen und Antworten der [!DNL Adobe Target]-Community (31. August 2022)
 
 * **Mittwoch, 31. August 2022**
 * **9:00 bis 10:00 Uhr (PDT, UTC-7)**
