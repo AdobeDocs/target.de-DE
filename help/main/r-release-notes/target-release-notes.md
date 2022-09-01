@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6c74ea26dfe1bf66f0557a442f06a6d44ddbd0e5
+source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 38%
@@ -29,7 +29,7 @@ Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Eine [!UICONTROL Domänenübergreifend] Option beim Herunterladen von at.js 2.9.1 (und höher) zum Zulassen oder Deaktivieren der Einstellung von Drittanbieter-Cookies (TGT-43674)
+* Eine [!UICONTROL Domänenübergreifend] Option beim Herunterladen von at.js 2.9.1 (und höher), um das Festlegen von Drittanbieter-Cookies zu ermöglichen oder zu deaktivieren. (TGT-43674)
 * Aktualisierte Benachrichtigungen im [!DNL Target] Benutzeroberfläche, um Kunden darüber zu informieren, dass Aktivitäten aktiviert und deaktiviert wurden und die Ziel- und Steigerungsschwellen erreicht haben. (TGT-35811)
 * Es wurde die Möglichkeit hinzugefügt, Attribute über API in der Blockierungsliste zu speichern. [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] Aktivitäten.
 * Es wurde ein Problem behoben, das [!UICONTROL Entscheidungsangebote] nicht ordnungsgemäß in [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
