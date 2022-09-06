@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
+source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 38%
+source-wordcount: '395'
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 1. September 2022**
+**Letzte Aktualisierung: 6. September 2022**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -31,7 +31,6 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 * Eine [!UICONTROL Domänenübergreifend] Option beim Herunterladen von at.js 2.9.1 (und höher), um das Festlegen von Drittanbieter-Cookies zu ermöglichen oder zu deaktivieren. (TGT-43674)
 * Aktualisierte Benachrichtigungen im [!DNL Target] Benutzeroberfläche, um Kunden darüber zu informieren, dass Aktivitäten aktiviert und deaktiviert wurden und die Ziel- und Steigerungsschwellen erreicht haben. (TGT-35811)
-* Es wurde die Möglichkeit hinzugefügt, Attribute über API in der Blockierungsliste zu speichern. [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] Aktivitäten.
 * Es wurde ein Problem behoben, das [!UICONTROL Entscheidungsangebote] nicht ordnungsgemäß in [!UICONTROL Visual Experience Composer] (VEC). (TGT-43866)
 * Fehlerkorrektur - bei der Auswahl der [!UICONTROL Auf ein Element geklickt] Konversionsziel beim Erstellen einer [!UICONTROL Multivariate Testing] (MVT). (TGT-43842)
 * Es wurde ein Problem behoben, durch das die [!UICONTROL Impressionen] in der heruntergeladenen CSV-Berichtsdatei für [!UICONTROL Automated Personalization] AP-Aktivitäten. (TGT-43780)
