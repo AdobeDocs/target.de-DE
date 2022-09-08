@@ -5,10 +5,10 @@ title: Wo erhalte ich Informationen über die Wissenschaft hinter den Recommenda
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '2864'
-ht-degree: 0%
+source-wordcount: '2858'
+ht-degree: 1%
 
 ---
 
@@ -118,7 +118,7 @@ Zu den Algorithmen gehören:
 
 Die neuesten Ergänzungen zum [!DNL Target] Suite von Empfehlungsalgorithmen: [!UICONTROL Empfohlen für Sie] und eine Reihe von auf dem Warenkorb basierenden Empfehlungsalgorithmen. Beide Algorithmustypen verwenden kollaborative Filtermethoden, um einzelne elementbasierte Empfehlungen zu bilden. Anschließend werden zur Bereitstellungszeit mehrere Elemente im Browser-Verlauf des Benutzers (für [!UICONTROL Empfohlen für Sie]) oder der aktuelle Warenkorb des Benutzers (für kartbasierte Empfehlungen) zum Abrufen dieser artikelbasierten Empfehlungen verwendet werden, die dann zusammengeführt werden, um die endgültige Liste der Empfehlungen zu bilden. Beachten Sie, dass es viele Varianten personalisierter Empfehlungsalgorithmen gibt. Die Auswahl eines Algorithmus mit mehreren Schlüsseln bedeutet, dass Empfehlungen sofort verfügbar sind, nachdem ein Besucher über einen Browserverlauf verfügt, und dass Empfehlungen aktualisiert werden können, um auf das neueste Besucherverhalten zu reagieren.
 
-Diese Algorithmen basieren auf den im Abschnitt elementbasierte Empfehlungen beschriebenen kollaborativen Filtermethoden, enthalten aber auch eine Hyperparameter-Optimierung, um die optimale Ähnlichkeitsmetrik zwischen Artikeln zu ermitteln. Der Algorithmus führt eine chronologische Aufspaltung der Verhaltensdaten für jeden Benutzer durch und trainiert Empfehlungsmodelle für frühere Daten, während versucht wird, die Artikel vorherzusagen, die ein Benutzer später ansieht oder kauft. Die Ähnlichkeitsmetrik, die die optimale [Mittlere durchschnittliche Genauigkeit](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision) ausgewählt wird.
+Diese Algorithmen basieren auf den im Abschnitt elementbasierte Empfehlungen beschriebenen kollaborativen Filtermethoden, enthalten aber auch eine Hyperparameter-Optimierung, um die optimale Ähnlichkeitsmetrik zwischen Artikeln zu ermitteln. Der Algorithmus führt eine chronologische Aufspaltung der Verhaltensdaten für jeden Benutzer durch und trainiert Empfehlungsmodelle für frühere Daten, während versucht wird, die Artikel vorherzusagen, die ein Benutzer später ansieht oder kauft. Die Ähnlichkeitsmetrik, die die optimale [Mittlere durchschnittliche Genauigkeit](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) ausgewählt wird.
 
 Die Logik der Trainings- und Scoring-Schritte für Modelle wird im folgenden Diagramm dargestellt:
 
@@ -138,7 +138,7 @@ Diese Schritte werden im Einzelnen wie folgt beschrieben:
 
    ![Formel zur Berechnung der Ausbildung](assets/formula4.png)
 
-   * **Bewertung des Elementähnlungsmodells**: Die Modellbewertung erfolgt anhand der im vorherigen Schritt generierten Empfehlungen und Prognosen zum Testdatensatz. Die Online-Scoring-Phase wird nachgeahmt, indem die Elementverwendungen der einzelnen Benutzer im Testdatensatz chronologisch geordnet werden und dann 100 Empfehlungen für geordnete Untergruppen von Artikeln abgegeben werden, um zu versuchen, nachfolgende Ansichten und Käufe vorherzusagen. Eine Informationsabruffetrik, die [Mittlere durchschnittliche Genauigkeit](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)verwendet wird, um die Qualität dieser Empfehlungen zu bewerten. Diese Metrik berücksichtigt die Reihenfolge der Empfehlungen und bevorzugt relevante Artikel, die höher oben in der Empfehlungsliste stehen. Dies ist eine wichtige Eigenschaft für Ranking-Systeme.
+   * **Bewertung des Elementähnlungsmodells**: Die Modellbewertung erfolgt anhand der im vorherigen Schritt generierten Empfehlungen und Prognosen zum Testdatensatz. Die Online-Scoring-Phase wird nachgeahmt, indem die Elementverwendungen der einzelnen Benutzer im Testdatensatz chronologisch geordnet werden und dann 100 Empfehlungen für geordnete Untergruppen von Artikeln abgegeben werden, um zu versuchen, nachfolgende Ansichten und Käufe vorherzusagen. Eine Informationsabruffetrik, die [Mittlere durchschnittliche Genauigkeit](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) wird verwendet, um die Qualität dieser Empfehlungen zu bewerten. Diese Metrik berücksichtigt die Reihenfolge der Empfehlungen und bevorzugt relevante Artikel, die höher oben in der Empfehlungsliste stehen. Dies ist eine wichtige Eigenschaft für Ranking-Systeme.
    * **Modellauswahl**: Nach der Offline-Auswertung wird das Modell mit der höchsten durchschnittlichen Genauigkeit ausgewählt und alle einzelnen Element-Element-Empfehlungen dafür berechnet.
    * **Offline-Filter**: Die letzte Stufe der Modellschulung ist die Anwendung aller anwendbaren dynamischen Filter. Nach diesem Schritt werden vorberechnete Empfehlungen global zwischengespeichert und stehen somit zur Verfügung.
 
