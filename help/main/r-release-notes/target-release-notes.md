@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
+source-git-commit: c3f6c67d1e9626d45d0e4cf879260fd5584e5b90
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 71%
+ht-degree: 75%
 
 ---
 
@@ -29,7 +29,7 @@ Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Eine [!UICONTROL Domänenübergreifend] Option beim Herunterladen von at.js 2.9.1 (und höher), um das Festlegen von Drittanbieter-Cookies zu ermöglichen oder zu deaktivieren. (TGT-43674)
+* Beim Herunterladen von at.js 2.10.0 (und höher) wurde eine Option [!UICONTROL Domain-übergreifend] hinzugefügt, um das Setzen von Drittanbieter-Cookies zu erlauben oder zu deaktivieren. (TGT-43674)
 * Aktualisierte Benachrichtigungen im [!DNL Target] Benutzeroberfläche, um Kunden darüber zu informieren, dass Aktivitäten aktiviert und deaktiviert wurden und die Ziel- und Steigerungsschwellen erreicht haben. (TGT-35811)
 * Es wurde ein Problem behoben, das dazu führte, dass [!UICONTROL Entscheidungsangebote] innerhalb des [!UICONTROL Visual Experience Composer] (VEC) nicht richtig funktionierten. (TGT-43866)
 * Es wurde ein Problem behoben, durch das eine Fehlermeldung angezeigt wurde, wenn bei der Erstellung einer [!UICONTROL multivariaten Testaktivität] (MVT) das Konversionsziel [!UICONTROL Auf ein Element geklickt] ausgewählt wurde. (TGT-43842)
