@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c3f6c67d1e9626d45d0e4cf879260fd5584e5b90
+source-git-commit: 6058ebcf8150f9161d591a1c1c315af40babc6ef
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 75%
+source-wordcount: '400'
+ht-degree: 74%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 6. September 2022**
+**Letzte Aktualisierung: 9. September 2022**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -30,13 +30,13 @@ Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 * Beim Herunterladen von at.js 2.10.0 (und höher) wurde eine Option [!UICONTROL Domain-übergreifend] hinzugefügt, um das Setzen von Drittanbieter-Cookies zu erlauben oder zu deaktivieren. (TGT-43674)
-* Aktualisierte Benachrichtigungen im [!DNL Target] Benutzeroberfläche, um Kunden darüber zu informieren, dass Aktivitäten aktiviert und deaktiviert wurden und die Ziel- und Steigerungsschwellen erreicht haben. (TGT-35811)
+* Aktualisierte Benachrichtigungen im [!DNL Target] Benutzeroberfläche, die Kunden über den Import von [!DNL Recommendations] Feeds schlagen fehl. (TGT-35811)
 * Es wurde ein Problem behoben, das dazu führte, dass [!UICONTROL Entscheidungsangebote] innerhalb des [!UICONTROL Visual Experience Composer] (VEC) nicht richtig funktionierten. (TGT-43866)
 * Es wurde ein Problem behoben, durch das eine Fehlermeldung angezeigt wurde, wenn bei der Erstellung einer [!UICONTROL multivariaten Testaktivität] (MVT) das Konversionsziel [!UICONTROL Auf ein Element geklickt] ausgewählt wurde. (TGT-43842)
 * Es wurde ein Problem behoben, das die Anzeige der Spalte [!UICONTROL Impressions] in der heruntergeladenen CSV-Berichtsdatei für Aktivitäten der [!UICONTROL Automated Personalization] (AP) verhinderte. (TGT-43780)
 * Es wurde ein Problem behoben, das Kunden daran hinderte, HTML/JSON-Angebote nach dem Duplizieren von Erlebnissen zu bearbeiten, wenn sie die [!UICONTROL Form-Based Experience Composer] verwendeten. (TGT-43633)
 * Es wurde ein Problem behoben, das Kunden daran hinderte, eine [!UICONTROL A/B-Test]-Aktivität von einem nicht standardmäßigen Arbeitsbereich in einen anderen nicht standardmäßigen Arbeitsbereich zu kopieren. (TGT-41910)
-* Es wurde ein Problem behoben, das sicherstellte, dass Kunden Objekte (Designs, Kriterien, Sammlungen usw.) mit der Variablen [!DNL Target] Benutzeroberfläche in [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten, die Empfehlungen enthalten. (TGT-42331)
+* Es wurde ein Problem behoben, das sicherstellte, dass Kunden die Verwendung von [!DNL Recommendations] Objekte (Designs, Kriterien, Sammlungen usw.) in [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT)-Aktivitäten, die Empfehlungen enthalten, sowie Kriterienobjekte löschen, die nicht mehr in verwendet werden [!DNL Target] Benutzeroberfläche und [!DNL Recommendations] Backend. (TGT-42331)
 * Es wurde ein Fehler behoben, der dazu führte, dass eine Warnung zur Netzwerk-Zeitüberschreitung im [!DNL Target] Benutzeroberfläche beim Abrufen von Parametern. (TGT-43737)
 * Die Benutzeroberfläche wurde aktualisiert, um sicherzustellen, dass bestimmte Drag &amp; Drop-Aktionen über die Tastatur zugänglich sind. (TGT-42969)
 * Die Benutzeroberfläche wurde aktualisiert, um sicherzustellen, dass Textzeichenfolgen ordnungsgemäß lokalisiert sind.
