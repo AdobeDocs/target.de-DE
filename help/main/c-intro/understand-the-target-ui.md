@@ -1,13 +1,13 @@
 ---
 keywords: Benutzeroberfläche von Target; Benutzeroberfläche; uiAnkündigungen; Ereignisse; Benachrichtigungen
 description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie Links zu ausführlicheren Informationen, die Ihnen helfen, das Beste aus den [!DNL Target].
-title: 'Wie verwende ich die Benutzeroberfläche von  [!DNL Target] '
+title: Wie verwende ich die Benutzeroberfläche von  [!DNL Target]
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 44%
+ht-degree: 47%
 
 ---
 
@@ -55,11 +55,11 @@ Das Bedienfeld enthält Registerkarten für [!UICONTROL Benachrichtigungen] und 
 
 Die folgenden Abschnitte enthalten Informationen zu den einzelnen Registerkarten und zur Konfiguration von Benachrichtigungen und Mitteilungen:
 
-###  Benachrichtigungen 
+###  Benachrichtigungen  {#notifications}
 
 [!DNL Target] Ereignisbenachrichtigungen beinhalten Folgendes:
 
-* **Tätigkeiten**: Benachrichtigungen für alle Aktivitätstypen, wenn eine Aktivität genehmigt oder deaktiviert wird, entweder manuell oder beim Erreichen des Start- oder Enddatums. Die Benachrichtigung enthält den Namen der Aktivität mit einem Link zur Übersichtsseite der Aktivität.
+* **Aktivitäten**: Benachrichtigungen für alle Aktivitätstypen, wenn eine Aktivität genehmigt oder deaktiviert wird, entweder manuell oder beim Erreichen des Start- oder Enddatums. Die Benachrichtigung enthält den Namen der Aktivität mit einem Link zur Übersichtsseite der Aktivität.
 
    Benachrichtigungen sind konfigurierbar und werden standardmäßig von Produktadministratoren, Herausgebern und Genehmigern im Arbeitsbereich der Aktivität empfangen für [!DNL Target Premium] Konten. Für [!DNL Target Standard] Konten, werden Benachrichtigungen von allen Herausgebern und Genehmigern empfangen.
 
@@ -86,6 +86,7 @@ Die folgenden Abschnitte enthalten Informationen zu den einzelnen Registerkarten
 
    * `Feed  {target.feed.name} has been activated`
    * `Feed {target.feed.name} has been deactivated`
+   * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
 Sie können einzelne Benachrichtigungen als gelesen markieren, indem Sie den Mauszeiger über die gewünschte Benachrichtigung bewegen und dann auf das Häkchen klicken. Sie können alle Benachrichtigungen als gelesen markieren oder alle Benachrichtigungen anzeigen, indem Sie auf [!UICONTROL &quot;Als gelesen markieren&quot;] oder [!UICONTROL &quot;Alle anzeigen&quot;] am unteren Rand des Bedienfelds.
@@ -177,7 +178,7 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Recommendations]**, um auf [!DNL
 
 ![Recommendations](/help/main/c-intro/assets/recommendations.png)
 
-[!UICONTROL Recommendations]-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten. Recommendations hilft Kunden, zu relevanten Artikeln weiterzuleiten, von denen sie womöglich noch nichts wissen.
+[!UICONTROL Recommendations]-Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten. Recommendations tragen dazu bei, Kundinnen und Kunden zu relevanten Elementen zu lenken, von denen sie andernfalls möglicherweise nichts wüssten.
 
 Unter [Recommendations](/help/main/c-recommendations/recommendations.md) finden Sie detaillierte Informationen zu [!UICONTROL Recommendations] in [!DNL Target] und weitere Informationen zur Benutzeroberfläche von [!UICONTROL Recommendations].
 
