@@ -5,9 +5,9 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 3d8da94a52046e70a89dc24d7923f743bee5c458
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '632'
 ht-degree: 83%
 
 ---
@@ -39,6 +39,10 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 * Es wurde ein Fehler behoben, der dazu führte, dass eine Warnung zur Netzwerk-Zeitüberschreitung im [!DNL Target] Benutzeroberfläche beim Abrufen von Parametern. (TGT-43737)
 * Die Benutzeroberfläche wurde aktualisiert, um sicherzustellen, dass bestimmte Drag &amp; Drop-Aktionen über die Tastatur zugänglich sind. (TGT-42969)
 * Die Benutzeroberfläche wurde aktualisiert, um sicherzustellen, dass Textzeichenfolgen ordnungsgemäß lokalisiert sind.
+
+## at.js-Version 2.10.0 (13. September 2022)
+
+* Beim Herunterladen von at.js 2.10.0 (und höher) wurde eine Option [!UICONTROL Domain-übergreifend] hinzugefügt, um das Setzen von Drittanbieter-Cookies zu erlauben oder zu deaktivieren. (TGT-43674)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
