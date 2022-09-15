@@ -4,9 +4,9 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finde ich mich? [!DNL Target] Mitteilungen und Ereignisinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
+source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1837'
 ht-degree: 87%
 
 ---
@@ -69,9 +69,13 @@ Auf Aufzeichnungen vergangener Ereignisse zugreifen (sofern verfügbar):
 
 Mobile Erlebnisse fördern die Innovation darin, wie Marketing- und Ingenieur-Teams produktorientierte Strategien für die kanalübergreifende Personalisierung im Web und in Apps nutzen. Machen Sie mit bei der [!DNL Adobe] Skill Builders-Session und erfahren Sie, wie [!DNL Adobe Target] es Marketing-Expertinnen und -Experten, Entwickelnden und Produkteigentümern ermöglicht, neue potenzielle Interaktionen und Umsatzsteigerungen zu erzielen, um florierende Produktgemeinschaften zu schaffen.
 
+* [Link zur Aufzeichnung](https://video.tv.adobe.com/v/347360){target=_blank}
+
 ### Chef&#39;s Collection: Recipes for Personalization (30. August 2022)
 
 Schließen Sie sich dem [!DNL Adobe Target] [!DNL ]-Team an und erhalten Sie einige neue Ideen dazu, wie Sie Target optimal nutzen können. Basierend auf unserem neuesten E-Book „Chefkoch-Kollektion: Ideen zur Personalisierung“.
+
+* [Link zur Aufzeichnung](https://video.tv.adobe.com/v/346970/){target=_blank}
 
 +++Details
 
