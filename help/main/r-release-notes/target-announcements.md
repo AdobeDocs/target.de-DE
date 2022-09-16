@@ -4,7 +4,7 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finde ich mich? [!DNL Target] Mitteilungen und Ereignisinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
+source-git-commit: bcb90bf8bc1943d9f91b6132d0d8b41afaebec2b
 workflow-type: tm+mt
 source-wordcount: '1837'
 ht-degree: 87%
@@ -91,16 +91,16 @@ Erfahren Sie mehr über:
 
 In einer Zeit, in der es immer mehr Probleme in den Lieferketten, Service-Ausfälle und Einschränkungen beim Personal gibt, sehen sich die meisten Marken in den Bereichen Reisen, Gastgewerbe und Gastronomie vor der Herausforderung, die Kundentreue zu fördern. Wie können Marken im Zeitalter der KI ohne die benötigten Ressourcen, die die Branche verlassen haben, Erlebnisse skalieren? Der digitale Fortschritt hat sich um 20–25 % beschleunigt – nicht nur, um die immer schneller steigenden Kundenerwartungen zu erfüllen, sondern auch, um Teams durch Automatisierung zu skalieren.
 
-+++Details
+* +++Details
 
-2022 haben die Systeme bei der Fähigkeit, kontinuierlich Informationen bereitzustellen, um eine Echtzeit-Aktivierung der Treueprogramme zu ermöglichen, einen Wendepunkt erreicht.
+   2022 haben die Systeme bei der Fähigkeit, kontinuierlich Informationen bereitzustellen, um eine Echtzeit-Aktivierung der Treueprogramme zu ermöglichen, einen Wendepunkt erreicht.
 
-Themen, die wir untersuchen werden:
+   Themen, die wir untersuchen werden:
 
-* Beschleunigung digitaler Störungen und immer stärkere Verbreitung der KI
-* Warum gewinnen Early Adopters sowohl beim Umsatz- als auch beim Gewinnwachstum?
-* Automatisieren von Personalisierung in der Reisebranche
-* Aktivierung der Treue in Echtzeit in Aktion
+   * Beschleunigung digitaler Störungen und immer stärkere Verbreitung der KI
+   * Warum gewinnen Early Adopters sowohl beim Umsatz- als auch beim Gewinnwachstum?
+   * Automatisieren von Personalisierung in der Reisebranche
+   * Aktivierung der Treue in Echtzeit in Aktion
 
 +++
 
@@ -110,9 +110,9 @@ Das Jahr 2022 bereitet Unternehmen ein dynamisches und sich schnell verändernde
 
 * [Link zur Aufzeichnung](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++Details
+* +++Details
 
-Erleben Sie, wenn Michael Klein (Director, Industry Strategy Retail) und Leina Betzer (Target Consultant, Adobe Premier Support) besprechen, wie der E-Commerce-Umsatz im Einzelhandel im Zuge des sich verändernden Kaufverhaltens von Verbrauchern und einer höheren Nachfrage nach Waren und Dienstleistungen in bestimmten Märkten in die Höhe schnellt.
+   Erleben Sie, wenn Michael Klein (Director, Industry Strategy Retail) und Leina Betzer (Target Consultant, Adobe Premier Support) besprechen, wie der E-Commerce-Umsatz im Einzelhandel im Zuge des sich verändernden Kaufverhaltens von Verbrauchern und einer höheren Nachfrage nach Waren und Dienstleistungen in bestimmten Märkten in die Höhe schnellt.
 
 +++
 
