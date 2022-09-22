@@ -4,10 +4,10 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
-workflow-type: ht
-source-wordcount: '4651'
-ht-degree: 100%
+source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+workflow-type: tm+mt
+source-wordcount: '4617'
+ht-degree: 95%
 
 ---
 
@@ -26,12 +26,6 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 ### Löschen von Speicherorten mit Ad-hoc-Angeboten in Aktivitäten, die im formularbasierten Experience Composer erstellt wurden {#ad-hoc}
 
 Löschen Sie keine Speicherorte in einer Aktivität, die im formularbasierten Experience Composer erstellt wurde, wenn diese Speicherorte Ad-hoc-Angebote verwenden (Angebote, die innerhalb der Aktivität erstellt wurden). Das Löschen von Speicherorten kann dazu führen, dass die Aktivität beschädigt wird. Das [!DNL Target]-Team arbeitet bereits an einer Lösung für dieses Problem. Als Problemumgehung können Sie globale Angebote über die [!UICONTROL Angebotsbibliothek] erstellen und mit Standorten verwenden oder bei Bedarf neue Erlebnisse erstellen. (KB-2014)
-
-### Traffic-Verteilung von Aktivitäten mit automatisierter Zuordnung mithilfe von A4T {#aa-a4t}
-
-In einigen Fällen kann die Traffic-Verteilung von [!UICONTROL Aktivitäten mit automatischer Zuordnung], die [!UICONTROL Analytics for Target] (A4T) verwenden, von der gemeldeten Konversionsrate der einzelnen Erlebnisse abweichen. Dies tritt häufiger bei Aktivitäten mit einem hohen Anteil an Traffic durch wiederkehrende Besucher auf. Betroffene Kunden werden über betroffene Aktivitäten benachrichtigt.
-
-Bis dieses Problem behoben ist, verwenden Sie die [!UICONTROL automatisierte Zuordnung] mit standardmäßigen [!DNL Target]-Berichten oder verwenden Sie standardmäßige A/B-Tests mit [!DNL Analytics]-Berichten als Alternative zur [!UICONTROL automatisierten Zuordnung] mit [!DNL Analytics]-Berichten. (Die 131 populärsten)
 
 ### Analytics for Adobe Target (A4T)-Metriken für automatische Zuordnungs- und Targeting-Aktivitäten
 
@@ -129,6 +123,10 @@ Der korrekte Bericht ist immer der in der Benutzeroberfläche von [!DNL Target] 
 
 Da die oben genannten bekannten Probleme behoben wurden, werden sie in die folgenden Abschnitte verschoben. Gegebenenfalls werden zusätzliche Hinweise hinzugefügt.
 
+### Traffic-Verteilung von [!DNL Auto-Allocate] Aktivitäten mit A4T {#aa-a4t}
+
+In einigen Fällen kann die Traffic-Verteilung von [!UICONTROL Aktivitäten mit automatischer Zuordnung], die [!UICONTROL Analytics for Target] (A4T) verwenden, von der gemeldeten Konversionsrate der einzelnen Erlebnisse abweichen. Dies tritt häufiger bei Aktivitäten mit einem hohen Anteil an Traffic durch wiederkehrende Besucher auf. (Die 131 populärsten)
+
 ### at.js
 
 * Wenn Sie ein Erlebnis ohne Änderungen mit at.js 2.1.1 oder einer früheren Version erstellen (z. B. ein Standarderlebnis), wird das Erlebnis möglicherweise nicht in Berichten, Analytics for Target (A4T), Adobe Analytics oder Google Analytics gezählt. Darüber hinaus funktioniert das ttMeta-Plug-in möglicherweise nicht ordnungsgemäß.
@@ -161,9 +159,9 @@ Dieses Problem wurde im Januar 2022 behoben. (TNT-37455)
 
 Wenn Sie eine Vorlagenregel hinzufügen, z. B. URL enthält (/Checkout, /Warenkorb), werden Ihren Regeln im [Seitenversand](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zusätzliche Leerzeichen vorangestellt. Diese zusätzlichen Leerzeichen haben einen rein kosmetischen Zweck und wirken sich nicht auf die Erstellung von Zielgruppen und die Bereitstellung von Angeboten aus. (TGT-35920)
 
-### Bildangebote mit der Bezeichnung „Verarbeitung“
+### Bildangebote mit der Bezeichnung &quot;Verarbeitung&quot;
 
-Bildangebote auf der Seite „Angebote“ tragen gelegentlich noch mehrere Stunden nach dem Upload der Bilder die Bezeichnung „Verarbeitung“. In den meisten Fällen handelt es sich jedoch nur um ein Problem mit der Bezeichnung. Die Bildangebote können dennoch in Aktivitäten verwendet und bereitgestellt werden. (MCUI-10264, TGT-37458)
+Bildangebote auf der Seite Angebote behalten manchmal mehrere Stunden nach dem Hochladen der Bilder die Bezeichnung &quot;Verarbeitung&quot;bei. In den meisten Fällen handelt es sich jedoch nur um ein Problem mit der Bezeichnung. Die Bildangebote können dennoch in Aktivitäten verwendet und bereitgestellt werden. (MCUI-10264, TGT-37458)
 
 Dieses Problem wurde in der Standard- und Premium-Version von Target 20.10.1 behoben.
 
@@ -200,7 +198,7 @@ Bei Fragen wenden Sie sich an Ihren Kundenbetreuer (CSM) oder an die [Adobe-Kund
 
 ### Berichte für automatisches Targeting {#at-metrics}
 
-Ein Problem, das sich bei [!DNL Adobe Target Premium]-Benutzern zwischen dem 15. September, 14.30 Uhr (UTC−7), und dem 6. Oktober, 9.25 Uhr (UTC−7), auf Berichte zum [!UICONTROL automatischen Targeting] auswirkte, wurde behoben. In den Berichten werden die Konversionsraten der betroffenen Konversionsmetriken (konfiguriert mit [!UICONTROL Angezeigte Seite] oder [!UICONTROL Auf mbox geklickt]) nicht korrekt angezeigt. Ein Problem mit der Bereitstellung ist derzeit nicht bekannt.
+Es wurde ein Problem behoben, das Auswirkungen hatte [!DNL Adobe Target Premium] user&#39; [!UICONTROL Automatisches Targeting] Berichterstellung ab 15. September, 14:30 Uhr. (PDT) bis 6. Oktober, 9:25 Uhr (PDT). Beim Anzeigen von Berichten für die betroffenen Konversionsmetriken (konfiguriert mit der[!UICONTROL Seite anzeigen]&quot; oder &quot;[!UICONTROL Auf mbox geklickt]&quot;), werden die Konversionsraten falsch gemeldet. Ein Problem mit der Bereitstellung ist derzeit nicht bekannt.
 
 So synchronisieren und korrigieren Sie die Berichte:
 
@@ -236,7 +234,7 @@ Dieses Problem wurde behoben.
 
 ### Bei Verwendung von Google Chrome ab Version 80 werden Seiten in Visual Experience Composer (VEC) oder Enhanced Experience Composer (EEC) nicht geladen
 
-Dieses bekannte Problem hat seine Ursache in der Entscheidung von Google, das Standardverhalten von Cookies ohne SameSite-Attribut ab Chrome Version 80 zu ändern. Vor dieser Änderung lautete der Standardwert in Chrome für alle Cookies ohne SameSite-Attribut „SameSite=None“. Ab Version 80 lautet der Standardwert „SameSite=Lax“. Dadurch ändert sich die Übertragungsmethode für Cookies bei GET- und POST-Anforderungen. Weitere Informationen finden Sie unter [SameSite-Updates](https://www.chromium.org/updates/same-site).
+Dieses bekannte Problem hat seine Ursache in der Entscheidung von Google, das Standardverhalten von Cookies ohne SameSite-Attribut ab Chrome Version 80 zu ändern. Vor der Änderung hat Chrome alle Cookies ohne SameSite-Attribut auf &quot;SameSite=None&quot;gesetzt und jetzt standardmäßig auf &quot;SameSite=Lax&quot;gesetzt. Dadurch wird die Art und Weise geändert, wie Cookies bei GET- und POST-Anforderungen gesendet werden. Weitere Informationen finden Sie unter [SameSite-Updates](https://www.chromium.org/updates/same-site).
 
 Weitere Informationen sowie eine Lösung zur Fehlerbehebung finden Sie unter [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite) unter der Frage „Wie wirken sich die kürzlich von Google Chrome angekündigten Cookie-Durchsetzungsrichtlinien für SameSite auf VEC und EEC aus?“.
 
@@ -408,7 +406,7 @@ In der at.js-Version 0.9.7, die am 22. Mai 2017 veröffentlicht wurde, ist die
 
 ### Berichterstattung: A/B- und Experience Targeting (XT)-Aktivitäten
 
-Zwischen dem 27. April (21:00 PST) und 5. Mai (6:00 PST) enthielten A/B- und XT-Aktivitäten, die mit einer beliebigen Metrik und der Konversionsaktion „Angezeigte Seite“ (die nicht auf anderen Metriken basieren) erstellt oder bearbeitet wurden, möglicherweise falsch aufgezeichnete Konversionen. Dieses Problem wurde nun behoben. Jedoch ist die Berichterstellung für die Konversionsaktion „Angezeigte Seite“ zu diesen Aktivitäten während des betroffenen Zeitraums möglicherweise nicht exakt und leider nicht korrigierbar. Es wird empfohlen, sich bei Entscheidungen auf der Grundlage von Konversionsaktionen vom Typ „Angezeigte Seite“ ausschließlich auf Daten zu verlassen, die vor oder nach dem betroffenen Zeitraum aufgezeichnet wurden.
+Zwischen dem 27. April um 21:00 Uhr PST und dem 5. Mai um 6:00 Uhr PST haben die Aktivitäten A/B und XT, die mit Metriken erstellt oder bearbeitet wurden, die die Konversionsaktion &quot;Angezeigte Seite&quot;verwenden (die nicht auf anderen Metriken basieren), möglicherweise falsche Konversionen aufgezeichnet. Dieses Problem wurde nun behoben. Die Berichterstellung für die Konversionsaktion &quot;Angezeigte Seite&quot;für diese Aktivitäten im betroffenen Zeitraum ist jedoch möglicherweise nicht korrekt und kann leider nicht korrigiert werden. Es wird empfohlen, bei allen Entscheidungen, die auf Konversionsaktionen für diese Aktivitäten mit &quot;Angezeigte Seite&quot;basieren, nur Daten zu verwenden, die vor oder nach dem betroffenen Zeitraum aufgezeichnet wurden.
 
 Berichterstellungsdaten für andere Metriken können weiterhin verwendet werden, weil sie nicht betroffen waren.
 
