@@ -4,7 +4,7 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -26,12 +26,6 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 ### Löschen von Speicherorten mit Ad-hoc-Angeboten in Aktivitäten, die im formularbasierten Experience Composer erstellt wurden {#ad-hoc}
 
 Löschen Sie keine Speicherorte in einer Aktivität, die im formularbasierten Experience Composer erstellt wurde, wenn diese Speicherorte Ad-hoc-Angebote verwenden (Angebote, die innerhalb der Aktivität erstellt wurden). Das Löschen von Speicherorten kann dazu führen, dass die Aktivität beschädigt wird. Das [!DNL Target]-Team arbeitet bereits an einer Lösung für dieses Problem. Als Problemumgehung können Sie globale Angebote über die [!UICONTROL Angebotsbibliothek] erstellen und mit Standorten verwenden oder bei Bedarf neue Erlebnisse erstellen. (KB-2014)
-
-### Analytics for Adobe Target (A4T)-Metriken für automatische Zuordnungs- und Targeting-Aktivitäten
-
-In der Benutzeroberfläche von [!DNL Target] können Benutzer nicht unterstützte Interaktions- und Umsatzmetriken als primäre Zielmetrik für die Optimierung in [!UICONTROL automatischen Zuordnungs]- und [!UICONTROL automatischen Targeting]-Aktivitäten auswählen. Konversionsmetriken werden unterstützt, Interaktions- und Umsatzmetriken dagegen *nicht*. Wenn Sie als Zielmetriken Interaktions- oder Umsatzmetriken auswählen, wird kein Optimierungsmodell erstellt.
-
-Eine Liste der unterstützten und nicht unterstützten Zielmetriken finden Sie unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Enhanced Experience Composer (EEC) unterstützt keine PUT-Anfragen.
 
@@ -122,6 +116,12 @@ Der korrekte Bericht ist immer der in der Benutzeroberfläche von [!DNL Target] 
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Da die oben genannten bekannten Probleme behoben wurden, werden sie in die folgenden Abschnitte verschoben. Gegebenenfalls werden zusätzliche Hinweise hinzugefügt.
+
+### Analytics for Adobe Target (A4T)-Metriken für automatische Zuordnungs- und Targeting-Aktivitäten
+
+In der Benutzeroberfläche von [!DNL Target] können Benutzer nicht unterstützte Interaktions- und Umsatzmetriken als primäre Zielmetrik für die Optimierung in [!UICONTROL automatischen Zuordnungs]- und [!UICONTROL automatischen Targeting]-Aktivitäten auswählen. Konversionsmetriken werden unterstützt, Interaktions- und Umsatzmetriken dagegen *nicht*. Wenn Sie als Zielmetriken Interaktions- oder Umsatzmetriken auswählen, wird kein Optimierungsmodell erstellt.
+
+Eine Liste der unterstützten und nicht unterstützten Zielmetriken finden Sie unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Traffic-Verteilung von [!DNL Auto-Allocate] Aktivitäten mit A4T {#aa-a4t}
 
