@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b5fc060ca944a9bf59b353fa3eda6399e4d1a8e8
+source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 86%
+source-wordcount: '2044'
+ht-degree: 80%
 
 ---
 
@@ -21,6 +21,27 @@ Gartner hat [!DNL Adobe Target] im neuesten Magic Quadrant für Personalisierung
 
 Weitere Informationen finden Sie im [Adobe Experience Cloud-Blogpost](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
+
+## [!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (28. September 2022)
+
+Treten Sie Gentry Lin und Brent Kostak bei, um in Echtzeit auf Fragen zu antworten, die von [!DNL Adobe Target] -Kunden in der ereignisspezifischen [!UICONTROL Target Community] Diskussionsfaden. Diese Kaffeepause wird eine Erweiterung des Webinars zu Fragen und Antworten aus der jüngsten [!DNL Adobe Target] Skill Builder - Webinar zur Optimierung mobiler Erlebnisse.
+
++++Details
+
+* **Mittwoch, 28. September 2022**
+* **8:00 bis 9:00 Uhr (PDT, UTC-7)**
+* **[Link registrieren](https://adobe.ly/3pYkmMG){target=_blank}**
+
+Sie sind eingeladen, Fragen zu den Themen zu stellen, die während der [[!DNL Adobe Target] Skill Builder Expedition Series Webinar zur Optimierung mobiler Erlebnisse](https://video.tv.adobe.com/v/347360){target=_blank} sowie weitere Informationen zu Gentry- und Brent-Fachgebieten mit [!DNL Target]:
+
+* [!UICONTROL A/B-Test], [!UICONTROL Multivarianz-Test] (MVT), [!UICONTROL Erlebnis-Targeting] (XT)-Aktivitäten, automatisierte Tests und Personalisierung
+* Schrittweise Aktivitäts-Setup-Workflows
+* Vorab-Abruf von Batch-Erlebnissen, Aktivierung der Always-on-Personalisierung für Mobilgeräte
+* Lebenszyklusmetriken zum Testen und Targeting von Kundenerlebnissen, mobilen SDKs und APIs sowie Implementierungen der iOS- und Android-Plattform
+* Workflows für die Web-Bearbeitung
+* [!DNL Adobe Experience Cloud] Integrationen
+
++++
 
 ## Webinar-Reihe zu [!DNL Adobe Target] {#webinar-series}
 
