@@ -4,7 +4,7 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
+source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -22,10 +22,6 @@ Informationen zu bekannten Problemen in [!DNL Adobe Target]. Dazu gehören auch 
 ## Bekannte Probleme {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
-
-### Löschen von Speicherorten mit Ad-hoc-Angeboten in Aktivitäten, die im formularbasierten Experience Composer erstellt wurden {#ad-hoc}
-
-Löschen Sie keine Speicherorte in einer Aktivität, die im formularbasierten Experience Composer erstellt wurde, wenn diese Speicherorte Ad-hoc-Angebote verwenden (Angebote, die innerhalb der Aktivität erstellt wurden). Das Löschen von Speicherorten kann dazu führen, dass die Aktivität beschädigt wird. Das [!DNL Target]-Team arbeitet bereits an einer Lösung für dieses Problem. Als Problemumgehung können Sie globale Angebote über die [!UICONTROL Angebotsbibliothek] erstellen und mit Standorten verwenden oder bei Bedarf neue Erlebnisse erstellen. (KB-2014)
 
 ### Enhanced Experience Composer (EEC) unterstützt keine PUT-Anfragen.
 
@@ -116,6 +112,10 @@ Der korrekte Bericht ist immer der in der Benutzeroberfläche von [!DNL Target] 
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Da die oben genannten bekannten Probleme behoben wurden, werden sie in die folgenden Abschnitte verschoben. Gegebenenfalls werden zusätzliche Hinweise hinzugefügt.
+
+### Löschen von Speicherorten mit Ad-hoc-Angeboten in Aktivitäten, die im formularbasierten Experience Composer erstellt wurden {#ad-hoc}
+
+Löschen Sie keine Speicherorte in einer Aktivität, die im formularbasierten Experience Composer erstellt wurde, wenn diese Speicherorte Ad-hoc-Angebote verwenden (Angebote, die innerhalb der Aktivität erstellt wurden). Das Löschen von Speicherorten kann dazu führen, dass die Aktivität beschädigt wird. Das [!DNL Target]-Team arbeitet bereits an einer Lösung für dieses Problem. Als Problemumgehung können Sie globale Angebote über die [!UICONTROL Angebotsbibliothek] erstellen und mit Standorten verwenden oder bei Bedarf neue Erlebnisse erstellen. (KB-2014)
 
 ### Analytics for Adobe Target (A4T)-Metriken für automatische Zuordnungs- und Targeting-Aktivitäten
 
