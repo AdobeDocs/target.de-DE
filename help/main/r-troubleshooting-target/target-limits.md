@@ -5,7 +5,7 @@ title: Zeichen-, Größen- und andere Beschränkungen in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 97%
@@ -301,8 +301,8 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
    Dies bezieht sich auf die Anzahl der durch eine Zeile getrennten Werte im Targeting-Textbereich, z. B. die Eingabe von 1.000 Postleitzahlen in eine Postleitzahl-Zielgruppe.
 
-### Targeting-Regeln
+### Targeting-Regeln {#targeting-rules}
 
 * **Empfohlenes Limit**: 2.500 Zeichen pro Targeting-Regelwert.
-* **Empfohlenes Limit**: 30.000 einmalige Werte pro Zielgruppe in Targeting-Regeln.
+* **Empfohlenes Limit**: 50,000 einmalige Werte pro Zielgruppe in Targeting-Regeln.
 * **Empfohlenes Limit**: 100.000 einmalige Werte für Targeting-Regeln pro Aktivität.
