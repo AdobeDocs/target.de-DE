@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: bd12d615b784b26e2b5a7b9e391f3e7d5a9cc8c5
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 32%
+source-wordcount: '473'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 32%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 7. September 2022**
+**Letzte Aktualisierung: 27. September 2022**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -40,7 +40,7 @@ Diese Version enthält die folgenden neuen Funktionen, Verbesserungen und Fehler
 * Fehlerkorrektur - Einige Kunden können jetzt archivieren [!UICONTROL A/B-Test] Aktivitäten, die [!UICONTROL Automatisches Targeting]. (TGT-40978)
 * Es wurde die Möglichkeit hinzugefügt, automatisch ein einzelnes Angebot an mehreren Stellen innerhalb einer Berichtsgruppe zu verwenden. (TGT-43974)
 * Es wurde die Möglichkeit hinzugefügt, Experience Fragments nach Typ (HTML oder JSON) im [!UICONTROL Angebote] Liste. (TGT-43121)
-* Es wurde ein Problem behoben, durch das Kunden JSON einfügen konnten [!UICONTROL Experience Fragment] Angebote bei Verwendung von VEC. JSON-Angebote können nur mit der [!UICONTROL Formularbasiertes Erlebnis] Composer. (TGT-43846)
+* Es wurde ein Problem behoben, durch das Kunden JSON einfügen konnten [!UICONTROL Experience Fragment] Angebote bei Verwendung von VEC, die nicht unterstützt wird. JSON-Angebote können nur eingefügt werden, wenn die [!UICONTROL Formularbasiertes Erlebnis] Composer. (TGT-43846)
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
