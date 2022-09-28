@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
 source-wordcount: '2044'
-ht-degree: 80%
+ht-degree: 93%
 
 ---
 
@@ -47,22 +47,22 @@ Sie sind eingeladen, Fragen zu den Themen zu stellen, die während der [[!DNL Ad
 
 Registrieren Sie sich für die folgenden Webinare, um zu erfahren, wie Kunden [!DNL Adobe Target] einsetzen, um ihre Personalisierungs- und Optimierungsziele zu erreichen:
 
-### Feinabstimmung der KI-gestützten Personalisierung: Neue Funktionen in [!DNL Adobe Target] (11. Oktober 2022)
+### Anpassung der KI-gestützten Personalisierung: Neue Funktionen in [!DNL Adobe Target] (11. Oktober 2022)
 
-Bitte nehmen Sie an diesem speziellen Webinar zur Produktankündigung teil!
+Nehmen Sie an diesem speziellen Produktankündigungs-Webinar teil!
 
-Wir freuen uns, einige &quot;sehr große&quot; bahnbrechende Nachrichten im Hinblick auf Personalisierung im Maßstab mit [!DNL Adobe Target]: neue Filter und intelligente Funktionen, die die Fähigkeit zur [!DNL Target] Benutzer können KI-gestützte Personalisierungsaktivitäten anpassen, um die für die einzelnen Aktivitäten wichtigsten Geschäftsmetriken direkt zu beeinflussen.
+Wir freuen uns, Ihnen bahnbrechende Neuigkeiten zur Personalisierung im großen Maßstab bei [!DNL Adobe Target] mitteilen zu können: neue Filter und intelligente Funktionen, mit denen [!DNL Target]-Benutzende KI-gestützte Personalisierungsaktivitäten einfacher anpassen können, um damit die wichtigsten Geschäftsmetriken für jede Aktivität direkt zu beeinflussen.
 
 +++Details
 
-Diese neue Produktankündigung ist zeitnah und überaus kritisch, da wir in den letzten Jahren gesehen haben, wie notwendig es ist, die Personalisierung zu steigern, unabhängig von der Branche. Es ist zu einem Mittel für Unternehmen geworden, sich in ihrer Journey kritisch vom Wettbewerb zu unterscheiden. Die Personalisierung kann &quot;überall&quot;äußerst effektiv sein: vom ersten Kontakt eines Besuchers an, wobei grundlegende Daten für Akquise-Anwendungsfälle genutzt werden, bis hin zu Anwendungsfällen für den Kundendienst und das Treueprogramm.
+Diese neue Produktankündigung kommt zur rechten Zeit und ist äußerst wichtig, da der Bedarf an Personalisierung in den letzten Jahren unabhängig von der Branche stark gestiegen ist. Mit dieser Neuerung haben Unternehmen die Möglichkeit, sich auf der gesamten Customer Journey entscheidend von der Konkurrenz abheben. Personalisierung kann in allen Bereichen positive Effekte haben: vom ersten Kontakt eines Besuchenden über die Nutzung grundlegender Daten zur Kundenakquise bis hin zum Kundendienst und zur Kundenbindung.
 
-In dieser Sitzung erfahren Sie, wie Sie die Konversionssteigerung hochberechnen können, indem Sie von [!DNL Adobe Target]Die neuen Funktionen, über die wir diskutieren:
+In dieser Sitzung erfahren Sie, wie Sie die Konversionsrate steigern können, indem Sie die neuen Funktionen von [!DNL Adobe Target] nutzen. Wir besprechen folgende Themen:
 
-* Erweiterte Modellsteuerungen in [!UICONTROL Automated Personalization] und [!UICONTROL Automatisches Targeting] activities
-* Entsperren der Möglichkeit, Profilattribute und hochwertige Segmente aus [!DNL Adobe]s [!DNL Real-Time Customer Data Platform]
-* Wie Marken durch die Feinabstimmung ihrer KI-gestützten Algorithmen höhere Geschwindigkeiten und Entscheidungsfindung erzielen können
-* Eindeutige Anwendungsfälle für die Bereitstellung von 1:1-Personalisierung
+* Verbesserte Modellsteuerungen innerhalb der [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target]-Aktivitäten
+* Die Fähigkeit, Profilattribute und hochwertige Segmente von [!DNL Real-Time Customer Data Platform] von [!DNL Adobe] zu evaluieren
+* Wie Marken durch die Anpassung ihrer KI-gestützten Algorithmen höhere Geschwindigkeiten und eine schnellere Entscheidungsfindung erreichen können
+* Einzigartige Anwendungsfälle für die Bereitstellung von Eins-zu-eins-Personalisierung
 
 * **Dienstag, 11. Oktober 2022**
 * **13:00 bis 14:00 Uhr (EDT, UTC-4)**
@@ -94,12 +94,12 @@ Mobile Erlebnisse fördern die Innovation darin, wie Marketing- und Ingenieur-Te
 
    +++Details
 
-   Kurskarte:
+   Kursplan:
 
-   * [!UICONTROL A/B-Test], [!UICONTROL Multivariate Testing] (MVT), (XT) sowie automatisiertes Testen und Personalisieren
-   * Schrittweise Workflows für die Aktivitätseinrichtung
-   * Vorabruf des Batch-Erlebnisses, wodurch eine ständige Personalisierung für Mobilgeräte ermöglicht wird
-   * Lebenszyklusmetriken für Tests und Targeting über Kundenerlebnisse hinweg
+   * [!UICONTROL A/B-Test], [!UICONTROL Multivariate Tests] (MVT), (XT) sowie automatisierte Tests und Personalisierung
+   * Schrittweise Workflows für die Einrichtung von Aktivitäten
+   * Batch-Erlebnis-Prefetch, der eine ständig aktivierte Personalisierung für Mobilgeräte ermöglicht
+   * Lebenszyklusmetriken für das Testen und Targeting von Kundenerlebnissen
    * Mobile SDKs = APIs für flexible Implementierungen (iOS- und Android-Plattformen)
 
 +++
@@ -290,12 +290,12 @@ Sehen Sie sich das Toolkit und Anwendungsfälle für die Implementierung funktio
    * Wie KI und Analytics diese Initiativen beschleunigen und klare, signifikante Geschäftsauswirkungen erzielen
    * Wie HSBC ein erfolgreiches Programm mit mehr als 3000 Aktivitäten maßstabsgerecht aufgebaut hat
 
-   * McKinsey-Artikel: [The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#), Mai 2020
+   * McKinsey-Artikel: „[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)“, Mai 2020
 
 +++
 
 ### [!DNL Adobe Target] Skill Builder: Developer Chat, Migration von „mbox.js“ auf „at.js“ in [!DNL Adobe Target] {#skill-builder}
 
-Aufgrund der Einstellung der Unterstützung für mbox.js am 31. März 2021 lud David Son, Adobe Target Product Manager, kürzlich zu einem Developer Chat ein, um über die Vorteile der Migration von mbox.js auf at.js zu diskutieren.
+Aufgrund dem Ende der Unterstützung für mbox.js am 31. März 2021 lud David Son, Adobe Target Product Manager, kürzlich zu einem Developer Chat ein, um über die Vorteile der Migration von mbox.js zu at.js zu diskutieren.
 
 * **[Link zur Aufzeichnung](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**
