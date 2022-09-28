@@ -4,10 +4,10 @@ description: Erfahren Sie, welche Daten Adobe haben [!DNL Target] erfasst und ve
 title: Welche Daten werden erfasst, um Algorithmen für maschinelles Lernen zu erstellen?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '2062'
-ht-degree: 51%
+source-wordcount: '2085'
+ht-degree: 50%
 
 ---
 
@@ -41,7 +41,8 @@ Die folgende Tabelle zeigt die vom Kunden bereitgestellten Daten, die von [!UICO
 | URL-Parameter | URL | URL und alle URL-Parameter für die aktuell angezeigte Seite. | Benutzerspezifisch - URL-Parameter - [URL-Parameter] |
 | Verweisende URL | REF | Verweisende URL und alle URL-Parameter für die verweisende URL. | Benutzerspezifisch - [Verweisender URL-Parameter] - [Parameterwert] |
 | Freigegebene Zielgruppen in Adobe Experience Cloud | AAM | Alle Zielgruppen, die für [!DNL Target] von anderen [!DNL Adobe Experience Cloud] Lösungen (z. B. [!DNL Adobe Audience Manager] und [!DNL Adobe Analytics]über die [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Benutzerspezifisch - Experience Cloud-Zielgruppe - [Zielgruppenname] |
-| Adobe Experience Platform RTCDP-Audiences | UPS | AEP-RTCDP-Zielgruppen, die für [!DNL Target] über Ziele. |  |
+| Adobe Experience Platform-Zielgruppen in der Echtzeit-Kundendatenplattform | UPS | In der Echtzeit-Kundendatenplattform von AEP gemeinsam genutzte Zielgruppen [!DNL Target] über Ziele. |  |
+| Adobe Experience Platform-Attribute zur Echtzeit-Kundendatenplattform | AEP | Für die Echtzeit-Kundendatenplattform von AEP freigegebene Attribute der Kundendatenplattform [!DNL Target] über Ziele. Diese Funktion ist derzeit als Betaversion verfügbar. |  |
 
 ## Blocking-Funktionen aus [!DNL Target] Algorithmen für maschinelles Lernen
 

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die spezialisierten Berichte für Automated P
 title: Wie verwende ich die Personalization Insights-Berichte?
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 57%
+source-wordcount: '909'
+ht-degree: 54%
 
 ---
 
@@ -58,6 +58,8 @@ Es gibt zwei Arten von Attributen in [!UICONTROL Personalization Insights]-Beric
 | Seitenparameter (auch „Mbox-Parameter“ genannt) | Name-Wert-Paare, die direkt über den Seiten-Code übergeben und nicht zur späteren Verwendung im Profil des Besuchers gespeichert werden. | `Custom - Mbox Parameter - [parameter name]` |
 | Kundenattribute | Mithilfe von Kundenattributen können Sie Besucherprofildaten per FTP in die Experience Cloud hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit Adobe Analytics und Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
 | Gemeinsam genutzte Zielgruppen (Adobe Audience Manager oder Adobe Analytics) | Mittels Adobe Audience Manager oder Adobe Analytics erstellte und für Target freigegebene Zielgruppen. | `Custom - Experience Cloud Segment - [segment name]` |
+| Freigegebene Zielgruppen (Adobe Experience Platform/Echtzeit-Kundendatenplattform) | Zielgruppen, die über die Adobe Experience Platform/Echtzeit-Kundendatenplattform erstellt und über Ziele für Target freigegeben wurden. | `Custom - Adobe Experience Platform Segment - [segment name]` |
+| Freigegebene Attribute (Adobe Experience Platform/Echtzeit-Kundendatenplattform) | Attribute, die über die Adobe Experience Platform/Echtzeit-Kundendatenplattform erstellt und über Ziele für Target freigegeben wurden. Diese Funktion ist derzeit als Betaversion verfügbar. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
 | Aktivitätsinterne(s) Reporting-Zielgruppen/-Segment | Während der Einrichtung in „Ziele und Metriken“ definierte Zielgruppen in Ihrer AP- oder AT-Aktivität. | `Custom - Reporting Segment - [segment name]` |
 
 ## Häufig gestellte Fragen  

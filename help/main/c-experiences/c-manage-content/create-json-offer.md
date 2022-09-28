@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Adobe JSON-Angebote erstellen. [!DNL Targe
 title: Wie erstelle ich JSON-Angebote?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 49%
+source-wordcount: '535'
+ht-degree: 38%
 
 ---
 
@@ -130,6 +130,16 @@ adobe.target.getOffer({
   } 
 });
 ```
+
+## JSON-Angebotsbeispiel mit Echtzeit-Kundendatenplattform-Profilattributen
+
+Echtzeit-Kundendatenplattform-Profilattribute können für Target freigegeben werden, um sie in HTML- und JSON-Angeboten zu verwenden. (Beachten Sie, dass diese Funktion derzeit nur als Betaversion verfügbar ist.)
+
+Anwendungsbeispiel: Als Online-Marketing-Experte möchte Grace, dass das AEP/Unified Profile Attributwerte mit Target teilt, um eine Echtzeit-Personalisierung zu ermöglichen. Durch die Verwendung von Echtzeit-Kundendatenplattform-Profilattributen kann Grace den Wert des AEP-Attributs in einem Target-Angebot mithilfe der Token-Ersetzung anzeigen. Sie kann beispielsweise entsprechend der Lieblingsfarbe eines Kunden personalisieren, indem sie `${aep.profile.favoriteColor}`oder deren Loyalitäts- und Treuepunktwert mithilfe der Token `${aep.loyalty.tier}` und `${aep.loyalty.points}`.
+
+![](assets/offer-json-aep-shared-attribute.png)
+
+Beachten Sie im oben gezeigten Beispiel, dass die Zuweisung von Standardwerten optional ist.
 
 ## Filtern von Angeboten nach dem JSON-Angebotstyp {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
