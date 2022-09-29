@@ -3,7 +3,7 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 01b8ed3ecae20859a6d9a5dacc3fc280a3a426b1
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 98%
@@ -234,7 +234,7 @@ ht-degree: 98%
          + [Fehlerbehebung für Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Zulassen von gemischtem Inhalt in Ihrem Browser](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Szenarien für die Seitenmodifizierung](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
-         + [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension)
+         + [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Visual Experience Composer Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Zu einer URL umleiten](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Erstellen von Karussells, die in Visual Experience Composer funktionieren](c-experiences/c-visual-experience-composer/vec-carousels.md)

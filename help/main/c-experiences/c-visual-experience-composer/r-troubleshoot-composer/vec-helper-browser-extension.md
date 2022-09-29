@@ -4,7 +4,7 @@ description: Erfahren Sie, warum einige Websites im Visual Experience Composer (
 title: Wie verwende ich die Visual Experience Composer (VEC) Helper-Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 55%
@@ -19,7 +19,7 @@ Der VEC Helper-Browser ist eine Chrome-Erweiterung. Diese Erweiterung ist bei Ve
 
 >[!IMPORTANT]
 >
->Ab Januar 2023 wird die aktuelle [!DNL Target] Die VEC Helper-Erweiterung funktioniert in Google Chrome nicht mehr, da Google keine Erweiterungen mit Manifest V2 zulässt. Laden Sie die neue Erweiterung herunter, um Ihre Websites weiterhin visuell zu erstellen in [!DNL Target] ab dem neuen Jahr. Weitere Informationen finden Sie unter [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
+>Ab Januar 2023 wird die aktuelle [!DNL Target] Die VEC Helper-Erweiterung funktioniert in Google Chrome nicht mehr, da Google keine Erweiterungen mit Manifest V2 zulässt. Laden Sie die neue Erweiterung herunter, um Ihre Websites weiterhin visuell zu erstellen in [!DNL Target] ab dem neuen Jahr. Weitere Informationen finden Sie unter [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 ## Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöffnet werden
 
