@@ -3,10 +3,10 @@ keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser
 description: Erfahren Sie, warum einige Websites möglicherweise nicht zuverlässig in der [!UICONTROL Visual Experience Composer] (VEC). Die [!UICONTROL Visual Editing Helper] Mit der Browsererweiterung können Sie Websites zuverlässig im VEC laden.
 title: Wie verwende ich die [!UICONTROL Visual Editing Helper] Erweiterung?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 70ab1ec7f5313d8c1f8ecaa9b436d95919cf479a
+source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 25%
+source-wordcount: '568'
+ht-degree: 22%
 
 ---
 
@@ -56,12 +56,6 @@ Beachten Sie, dass mithilfe der Variablen [Enhanced Experience Composer](/help/m
 
    * Wenn Sie versuchen, eine Website mit dem VEC zu laden, der nicht geladen werden kann, wird eine Meldung angezeigt, die empfiehlt, die [!UICONTROL Visual Editing Helper] Browsererweiterung.
    * Wenn at.js oder legierte.js noch nicht auf der Website implementiert ist, wird im VEC eine Meldung angezeigt, die empfiehlt, die Erweiterung zu installieren.
-
-## Weitere Informationen zu dieser Funktion
-
-* [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [Beheben von Problemen mit Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [Beheben von Problemen mit Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
 
 
 
