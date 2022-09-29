@@ -4,14 +4,14 @@ description: Erfahren Sie, wie Sie Probleme beheben können, die manchmal in der
 title: Wie kann ich Probleme im Zusammenhang mit Visual Experience Composer und Enhanced Experience Composer beheben?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
 source-wordcount: '1421'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
-# Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer
+# Beheben von Problemen im Zusammenhang mit [!UICONTROL Visual Experience Composer] und [!UICONTROL Enhanced Experience Composer]
 
 Anzeigeprobleme und andere Probleme treten manchmal in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) und [!UICONTROL Enhanced Experience Composer] (EWG) unter bestimmten Voraussetzungen.
 
@@ -36,7 +36,7 @@ Beachten Sie die Änderungen, die sich auf VEC und EEC auswirken, wenn Sie die f
 
 **Chrome 80 (August 2020)**: Nachdem die Änderungen im August 2020 implementiert wurden, sind alle Benutzer mit Chrome 80+-Browserversionen:
 
-* Will *not* herunterladen können [!DNL Target] Bibliotheken beim Bearbeiten einer Aktivität (wenn diese noch nicht auf der Site vorhanden sind). Dies liegt daran, dass der Download-Aufruf von der Kundendomäne aus zu einem gesicherten [!DNL Adobe] Domäne und wird als nicht authentifiziert zurückgewiesen.
+* Will *not* herunterladen können [!DNL Target] -Bibliotheken beim Bearbeiten einer Aktivität (wenn diese noch nicht auf der Site vorhanden sind). Dies liegt daran, dass der Download-Aufruf von der Kundendomäne aus zu einem gesicherten [!DNL Adobe] Domäne und wird als nicht authentifiziert zurückgewiesen.
 * Die EWG *not* -Funktion für alle Benutzer verwenden, da es nicht in der Lage ist, das SameSite-Attribut für Cookies in `adobemc.com domain`. Ohne dieses Attribut lehnt der Browser diese Cookies ab, wodurch der EEC fehlschlägt.
 
 ### Ermitteln, welche Cookies blockiert werden

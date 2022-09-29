@@ -4,10 +4,10 @@ description: Erfahren Sie, warum einige Websites im Visual Experience Composer (
 title: Wie verwende ich die Visual Experience Composer (VEC) Helper-Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 64%
+source-wordcount: '1058'
+ht-degree: 55%
 
 ---
 
@@ -15,9 +15,11 @@ ht-degree: 64%
 
 Die [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Mit der Helper-Browsererweiterung für Google Chrome können Sie Websites zuverlässig im VEC laden, um schnell und einfach Web-Erlebnisse zu erstellen und zu überprüfen.
 
->[!NOTE]
+Der VEC Helper-Browser ist eine Chrome-Erweiterung. Diese Erweiterung ist bei Verwendung von Mozilla Firefox nicht erforderlich.
+
+>[!IMPORTANT]
 >
->Der VEC Helper-Browser ist eine Chrome-Erweiterung. Diese Erweiterung ist bei Verwendung von Mozilla Firefox nicht erforderlich.
+>Ab Januar 2023 wird die aktuelle [!DNL Target] Die VEC Helper-Erweiterung funktioniert in Google Chrome nicht mehr, da Google keine Erweiterungen mit Manifest V2 zulässt. Laden Sie die neue Erweiterung herunter, um Ihre Websites weiterhin visuell zu erstellen in [!DNL Target] ab dem neuen Jahr. Weitere Informationen finden Sie unter [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
 
 ## Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöffnet werden
 
@@ -31,7 +33,7 @@ Ein SW ist eine Web-Technologie, mit der Anforderungen durch eine Web-Seite für
 
 Der SW kann die Zwischenspeicherung steuern und die Web-Seite selbst zwischenspeichern sowie auch statische Ressourcen wie JS, CSS, IMG, AJAX-Anfragen, deren Inhalte und deren Antwort-Header, einschließlich der Header, die unsere [Target VEC Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) zu entfernen versucht, z. B. X-Frame-Optionen: SAMEORIGIN, CSP (Content-Security-Policy) oder Set-Cookie.
 
-Leider erhalten die Chrome-Erweiterungs-APIs, die Web-Anfragen abfangen, nicht die Anfragen, die von einem SW abgefangen und verarbeitet wurden. Daher kann die Erweiterung die Kopfzeilen und Cookies nicht beheben, wenn die Web-Seiten-Anforderung von einem SW aus dem Cache bereitgestellt wurde, da die Web-Seite aufgrund der X-Frame-Options- oder CSP-Kopfzeilen, die ebenfalls zwischengespeichert wurden, nicht im VEC geladen wird.
+Leider erhalten die Chrome-Erweiterungs-APIs, die Webanfragen abfangen, nicht die Anfragen, die von einer SW abgefangen und verarbeitet wurden. Daher kann die Erweiterung die Kopfzeilen und Cookies nicht beheben, wenn die Webseitenanforderung von einer SW aus aus dem Cache bereitgestellt wurde, da die Web-Seite aufgrund der X-Frame-Options- oder CSP-Kopfzeilen, die ebenfalls zwischengespeichert wurden, nicht im VEC geladen wird.
 
 Als potenzielle Problemumgehung können Sie Service Workers auf der Registerkarte „Chrome Developer Tools“ > „Anwendung“ deaktivieren und dann das Kontrollkästchen „Für Netzwerk umgehen“ im Abschnitt „Service Workers“ aktivieren.
 
