@@ -4,10 +4,10 @@ description: Antworten auf Fragen zur Steigerung und Konfidenz bei der Verwendun
 title: Wo finde ich Informationen über Steigerung und Konfidenz mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 28%
+source-wordcount: '541'
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,7 @@ Dieses Thema enthält Antworten auf häufig zur Steigerung und Konfidenz bei der
 
 ## Kann ich Offline-Berechnungen für A4T durchführen? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-Sie können Offlineberechnungen für A4T durchführen. Dazu ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics] erforderlich. Weitere Informationen finden Sie unter „Durchführen von Offline-Berechnungen für Analytics für Target (A4T)“ in [Konfidenzniveau und Konfidenzintervall](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Sie können Offlineberechnungen für A4T durchführen. Dazu ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics] erforderlich. Weitere Informationen finden Sie unter [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Wie wird die Steigerung berechnet? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -25,7 +25,7 @@ Die Steigerung ist die prozentuale Differenz zwischen den Ergebnissen Ihrer Kont
 
 ## Wie wird die Konfidenz berechnet?  {#section_97DB24D833E742988318CA65DA65DAD9}
 
-Das Konfidenzniveau ist eine in Prozent ausgedrückte Wahrscheinlichkeit, die gleich `1 - p-value`, wobei `p-value` wird anhand eines t-Tests berechnet. Siehe [Konversionsrate](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Das Konfidenzniveau ist eine in Prozent ausgedrückte Wahrscheinlichkeit, die gleich `1 - p-value`, wobei `p-value` wird anhand eines t-Tests berechnet. Siehe [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen?  {#lift-confidence}
 

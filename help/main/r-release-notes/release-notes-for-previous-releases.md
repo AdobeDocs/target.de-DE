@@ -4,7 +4,7 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '34596'
 ht-degree: 96%
@@ -2289,7 +2289,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
       <li id="li_0B634602BB044AEDB26DAF78189AB833"> <p>Die Benutzeroberfläche für Berichte wurde neu gestaltet. </p> </li> 
       <li id="li_309435D10AE84E8795C4CCC1F36747F7"> <p>Target-Berichte können nun zurückgesetzt werden, um alte Daten zu löschen. (TGT-5933) </p> </li> 
       <li id="li_9D30BFCC4CD6461B9DDCD5797A5E2B3A"> <p>Die Zählmethodikoptionen für die Berichterstellung umfassen nun Besucher (Standard), Besuche und Aktivitätsimpressionen. (TGT-10002) </p> </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">Berichtseinstellungen</a> und <a href="/help/main/c-reports/conversion-rate.md#concept_EC19BC897D66411BABAF2FA27BCE89AA" format="dita" scope="local">Zählmethode</a>. </p> <p>Folgende Verbesserungen der Berichterstellung sind nun für herunterladbare CSV-Berichte verfügbar: </p> <p> 
+     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Berichtseinstellungen</a> und <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Zählmethode</a>. </p> <p>Folgende Verbesserungen der Berichterstellung sind nun für herunterladbare CSV-Berichte verfügbar: </p> <p> 
      <ul id="ul_18B0636A41B94F9F903ABFE3E13285DA"> 
       <li id="li_2422075AA0A34F868809C5D580FC5D4B"> <p>Der CSV-Angebotsbericht verfügt nun über zusätzliche Angaben zu den Angeboten. (TGT-18995) </p> </li> 
       <li id="li_659D126E846348D4BE4544962F41539F"> <p>Heruntergeladene CSV-Dateien mit Angebotsberichten enthalten nun für Berichte zur <span class="wintitle">Automated Personalization</span> stets Daten des Kontrollelements sowie zielgerichteten Segmenten. (TGT-22000) </p> </li> 
@@ -2955,7 +2955,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> Anzeigen des Konfidenzintervalls in Target-Berichten für kontinuierliche Variablen </td> 
-   <td colname="col2"> <p>Zeigen Sie den Konfidenzintervallbereich für den Metriktyp „Umsatz“ (RPV, AOV, Umsatz, Aufträge) und für Interaktionsmetriken an. </p> <p>Beispiel: Wenn RPV = 200,00 und Konfidenzintervallbereich = 50,00, sollte für RPV Folgendes angezeigt werden: 200,00 +/- 50,00 </p> <p>Diese Änderung wirkt sich auf A/B-Tests, Erlebnis-Targeting und Multivarianz-Tests aus. </p> <p>Siehe <a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local">Konfidenzniveau und Konfidenzintervall</a>. </p> </td> 
+   <td colname="col2"> <p>Zeigen Sie den Konfidenzintervallbereich für den Metriktyp „Umsatz“ (RPV, AOV, Umsatz, Aufträge) und für Interaktionsmetriken an. </p> <p>Beispiel: Wenn RPV = 200,00 und Konfidenzintervallbereich = 50,00, sollte für RPV Folgendes angezeigt werden: 200,00 +/- 50,00 </p> <p>Diese Änderung wirkt sich auf A/B-Tests, Erlebnis-Targeting und Multivarianz-Tests aus. </p> <p>Siehe <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Konfidenzniveau und Konfidenzintervall</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Optimierung der URL-Regeln in Visual Experience Composer </td> 
@@ -3211,7 +3211,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> Konfidenzintervall für binäre Metriken </td> 
-   <td colname="col2"> <p>Aktualisierte Berichte, die Target-basierte Daten verwenden, zeigen das Konfidenzintervall der Steigerung im Vergleich zum Kontrollwert an. </p> <p>Siehe <a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local">Konfidenzniveau und Konfidenzintervall</a>. </p> </td> 
+   <td colname="col2"> <p>Aktualisierte Berichte, die Target-basierte Daten verwenden, zeigen das Konfidenzintervall der Steigerung im Vergleich zum Kontrollwert an. </p> <p>Siehe <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Konfidenzniveau und Konfidenzintervall</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Berichtsdaten für Exportaktivitäten herunterladen </td> 

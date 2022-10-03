@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1219'
 ht-degree: 98%
 
 ---
@@ -270,7 +270,6 @@ ht-degree: 98%
    + [Experience Performance-Bericht (MVT)](c-reports/experience-performance-report.md)
    + [Location Contribution-Bericht (MVT)](c-reports/location-contribution-report.md)
    + [Berichterstellung von Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
-   + [Konversionsrate](c-reports/conversion-rate.md)
    + [Herunterladen von Daten in Form einer CSV-Datei](c-reports/downloading-data-in-csv-file.md)
    + [Häufig gestellte Fragen zum Reporting](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}
