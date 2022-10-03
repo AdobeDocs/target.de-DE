@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 01b8ed3ecae20859a6d9a5dacc3fc280a3a426b1
+source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1221'
 ht-degree: 98%
 
 ---
@@ -258,6 +258,8 @@ ht-degree: 98%
       + [Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Anzeigen mehrerer Metriken in einem Bericht](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Ausschließen von Extremwerten](c-reports/c-report-settings/excluding-extreme-orders.md)
+   + Statistische Methode {#statistical-methodology}
+      + [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + [AT (Automatisches Targeting)-Zusammenfassungsbericht](c-reports/auto-target-summary-report.md)
    + [Automated Personalization-Zusammenfassungsberichte](c-reports/reports-ap.md)
    + Berichte zu Personalization Insights {#insights}
