@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Visual Experience Composer (VEC) in Adobe ver
 title: Wie erstelle ich einen Multivarianz-Test?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '570'
 ht-degree: 87%
 
 ---
@@ -88,11 +88,11 @@ Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. An
 
    Die folgende Abbildung zeigt an, dass die Aktivität über zu wenig Traffic verfügt.
 
-   ![](assets/estimator.png)
+   ![Bild des Schätzers](assets/estimator.png)
 
    Die folgende Abbildung zeigt an, dass die Aktivität über zu wenig Traffic verfügt.
 
-   ![](assets/estimator2.png)
+   ![estimator2 image](assets/estimator2.png)
 
 1. Klicken **[!UICONTROL Nächste]** , um [!UICONTROL Targeting] Seite.
 

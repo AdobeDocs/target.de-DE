@@ -5,10 +5,10 @@ title: Wie verwende ich benutzerdefinierte Entitätsattribute?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1400'
-ht-degree: 88%
+source-wordcount: '1411'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte entha
 
 Benutzerdefinierte Entitätsattribute können einen oder mehrere Werte umfassen. Die Werte der Entitätsattribute werden in der Produktansicht dargestellt.
 
-![](assets/multi-value_product.png)
+![Mehrwert-Produktbild](assets/multi-value_product.png)
 
 Ein benutzerdefinierter Entitätswert mit einem einzelnen Wert ist genauso aufgebaut wie ein vordefiniertes Entitätsattribut mit nur einem Wert:
 
@@ -93,11 +93,11 @@ Sie können Ihre CSV-Dateien im Rohformat verwalten, indem Sie einen Texteditor 
 
 Eine CSV-Datei im Rohformat sieht wie folgt aus:
 
-![](assets/multi-value_example_raw.png)
+![multi-value_example_raw image](assets/multi-value_example_raw.png)
 
 Der gleiche Katalog sieht im Tabellenformat so aus:
 
-![](assets/multi-value_example_excel.png)
+![Bild &quot;multi-value_example_excel&quot;](assets/multi-value_example_excel.png)
 
 Wird eine Tabelle in das .csv-Format konvertiert, werden vom Programm automatisch doppelte Anführungzeichen um Zelleninhalte gelegt, damit Kommata in den Zellenwerten nicht als Spaltentrennzeichen interpretiert werden. Außerdem werden doppelte Anführungszeichen um JSON-Zeichenfolgenwerte gelegt, die in benutzerdefinierten Attributen mit mehreren Werten enthalten sind. Die Arbeit mit der Rohdatei erschwert sich hierdurch etwas. Beispiel:
 

@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Interaktionsmetrik Ergebniserfassung in
 title: Was ist die Metrik Ergebniserfassung?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '769'
 ht-degree: 48%
 
 ---
@@ -17,7 +17,7 @@ Die Interaktionsmetrik Ergebniserfassung in [!DNL Adobe Target] berechnet ausgeh
 
 Im folgenden Beispiel wird gezeigt, wie die Bewertungsinteraktion in einer Kampagne berechnet wird, in der zwei Erlebnisse (mit dem Bild einer Katze und dem Bild eines Hundes) geprüft werden.
 
-![](assets/example_score.png)
+![example_score-Bild](assets/example_score.png)
 
 In diesem Beispiel wird dem Benutzer zuerst die Katze angezeigt. Angenommen, eine globale [!DNL Target] -Anfrage übergibt einen Seitenergebnis basierend auf dem Wert der Seite. Wenn der Marketing-Experte die Seitenzahlinteraktion mit einer Erfolgsmetrik erfasst hat, die mit `**any Target request**`, wird die Besuchszahl bei allen Anforderungen, die nach der Anzeigenanforderung für das Katzenbild angezeigt werden, gesammelt.
 
@@ -25,7 +25,7 @@ Die erste Seite fügt 1 zum Ergebnis hinzu, die zweite Seite 0,25, die dritte 0,
 
 Sie können Erwerbskosten und Partnerlinkkosten über AdBoxes und Weiterleitungen mit einbeziehen. Siehe hierzu auch den folgenden Seitenfluss. Beachten Sie, dass in diesem Beispiel beide [!DNL Target] -Anfragen auf der Artikelseite übergeben eine Punktzahl, die möglicherweise einen bekannten CPM darstellt.
 
-![](assets/example_score2.png)
+![example_score2 image](assets/example_score2.png)
 
 ## Zuweisen eines Seitenergebnisses
 

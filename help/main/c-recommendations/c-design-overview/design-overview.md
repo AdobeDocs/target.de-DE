@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Designs in Adobe verwenden [!DNL Target] Reco
 title: Wie verwende ich Designs in Recommendations?
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '200'
 ht-degree: 32%
 
 ---
@@ -19,7 +19,7 @@ Designs in [!DNL Adobe Target Recommendations] definieren, wie Empfehlungen auf 
 
 [!DNL Target] kann, wie in der folgenden Abbildung gezeigt, das komplette Look-and-Feel Ihrer Recommendations darstellen. Das Design kann HTML, JavaScript und CSS enthalten. Dieses Design wird als 4 x 1-Design bezeichnet: vier Leerzeichen in einer Zeile.
 
-![](assets/velocity_example.png)
+![Velocity-Beispielbild](assets/velocity_example.png)
 
 Target kann Ihre Recommendations auch als JSON-Objekte versenden, die in E-Mail-Nachrichten, IoT-Geräten, Konsolen oder bei Sprachanwendungen (Amazon Alexa oder Google Home) verwendet werden können.
 

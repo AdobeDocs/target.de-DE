@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Code- und Bildangebote mithilfe der Angebotsb
 title: Wie verwalte ich Code- und Bildangebote?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '563'
 ht-degree: 37%
 
 ---
@@ -25,7 +25,7 @@ Verwenden Sie die [!UICONTROL Angebote] Bibliothek in [!DNL Adobe Target] zur Ve
 
 1. (Optional) Klicken Sie auf die **[!UICONTROL Typ]** Dropdown-Liste zum Filtern von Angeboten nach Typ (HTML-Angebot, [Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Umleitungsangebot](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote-Angebot](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md)und [Ordner](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
-   ![](assets/offers_filter.png)
+   ![offer_filter-Bild](assets/offers_filter.png)
 
 1. (Optional) Klicken Sie auf die **[!UICONTROL Quelle]** Dropdownliste zum Filtern von Angeboten nach Quelle (Adobe Target, Adobe Target Classic und Adobe Experience Manager).
 
@@ -66,7 +66,7 @@ Sie können Details zur Angebotsdefinition auf einer Pop-up-Karte im [!UICONTROL
 
 Beispielsweise wird auf die folgende Angebotsdefinitionskarte für ein HTML-Angebot zugegriffen, indem Sie den Mauszeiger über ein Angebot auf der Seite [!UICONTROL Inhalt] und klicken Sie auf das Informationssymbol:
 
-![](assets/offer-card-html.png)
+![offer-card-html image](assets/offer-card-html.png)
 
 Die folgenden Informationen sind verfügbar:
 
@@ -79,11 +79,11 @@ Die folgenden Informationen sind verfügbar:
 
 Klicken Sie auf die Registerkarte [!UICONTROL Angebotsnutzung], um die Aktivitäten anzuzeigen, die sich auf ein Codeangebot in der Pop-up-Karte der jeweiligen Angebotsdefinition beziehen. Diese Funktionalität gilt nicht für Bildangebote. Auf diese Weise können Sie bei der Bearbeitung von Angeboten Auswirkungen auf andere Aktivitäten vermeiden. Informationen enthalten [!UICONTROL Live-Aktivitäten] und [!UICONTROL Inaktive Aktivitäten].
 
-![](assets/offer-card-usage.png)
+![Bild zur Nutzung von Angebotskarten](assets/offer-card-usage.png)
 
 Die folgende Angebotsdefinitionskarte für ein Umleitungsangebot:
 
-![](assets/offer-card-redirect.png)
+![Bild für Angebotskarte-Umleitung](assets/offer-card-redirect.png)
 
 Die folgenden Informationen sind verfügbar:
 
@@ -99,7 +99,7 @@ Die folgenden Informationen sind verfügbar:
 
 Die folgende Angebotsdefinitionskarte für ein Remoteangebot:
 
-![](assets/offer-card-remote.png)
+![Bild auf Angebotskarte-Remote](assets/offer-card-remote.png)
 
 Die folgenden Informationen sind verfügbar:
 
@@ -112,7 +112,7 @@ Die folgenden Informationen sind verfügbar:
 * Umleitungs-URL-Typ
 * Absolute oder relative URL
 
-## Schulungsvideo: Das Content-Repository ![Übersichtszeichen](/help/main/assets/overview.png)
+## Schulungsvideo: Das Content-Repository ![Übersichts-Badge](/help/main/assets/overview.png)
 
 In diesem Video wird beschrieben, wie Angebote verwaltet werden.
 

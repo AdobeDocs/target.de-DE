@@ -4,10 +4,10 @@ description: Verwenden Sie  [!DNL Analytics]  für  [!DNL Target]  (A4T), um Akt
 title: Was ist  [!DNL Analytics]  für  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1125'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '1140'
+ht-degree: 98%
 
 ---
 
@@ -79,15 +79,15 @@ Sie können zwischen [!UICONTROL Tabellenansicht] und [!UICONTROL Diagrammansich
 
 Die folgende Abbildung zeigt die [!UICONTROL Diagrammansicht] eines A4T-Berichts mit der geöffneten Dropdownliste [!UICONTROL Berichtsmetrik], in der die verfügbaren [!DNL Analytics]-Zielmetriken aufgeführt sind:
 
-![](assets/a4t_report_graph1.png)
+![a4t_report_graph1-Bild](assets/a4t_report_graph1.png)
 
 Die folgende Abbildung zeigt die [!UICONTROL Diagrammansicht] eines A4T-Berichts mit der geöffneten Dropdownliste [!UICONTROL Zielgruppe], in der die verfügbaren [!DNL Analytics]-Zielgruppen aufgeführt sind:
 
-![](assets/a4t_report_graph2.png)
+![a4t_report_graph2-Bild](assets/a4t_report_graph2.png)
 
 Die folgende Abbildung zeigt die [!UICONTROL Tabellenansicht] eines A4T-Berichts:
 
-![](assets/a4t_report_table.png)
+![a4t_report_table-Bild](assets/a4t_report_table.png)
 
 Um den Bericht in [!DNL Analytics] statt in [!DNL Target] anzuzeigen, klicken Sie oben im Bericht auf **[!UICONTROL In Analytics anzeigen]**.
 

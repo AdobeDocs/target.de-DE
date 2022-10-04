@@ -5,9 +5,9 @@ title: Kann ich Besucher nach Standort ansprechen?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '990'
 ht-degree: 50%
 
 ---
@@ -45,7 +45,7 @@ Mit Geo-Positionsparametern können Sie Aktivitäten und Erlebnisse anhand der g
 
 Die folgende Abbildung zeigt eine Zielgruppe, die Benutzer auswählt, die von einem Breitengrad größer als 44° und einem Längengrad kleiner als 22° auf die Aktivität zugreifen.
 
-![](assets/target_geo.png)
+![target_geo-Bild](assets/target_geo.png)
 
 ## Genauigkeit {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 

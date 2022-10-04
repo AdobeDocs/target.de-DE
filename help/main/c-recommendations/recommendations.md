@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe  [!DN
 title: Was ist  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '931'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 Die folgende Illustration stellt Recommendations auf einer Webseite dar:
 
-![](assets/velocity_example.png)
+![Velocity-Beispielbild](assets/velocity_example.png)
 
 Eine Recommendation bestimmt, wie ein Produkt einem Besucher je nach dessen Aktivitäten auf der Site vorgeschlagen wird. Beispiel:
 

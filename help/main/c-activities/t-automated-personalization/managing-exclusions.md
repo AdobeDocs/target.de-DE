@@ -5,10 +5,10 @@ title: Wie verwalte ich Ausschlüsse in Automated Personalization-Aktivitäten?
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 90%
+source-wordcount: '1001'
+ht-degree: 88%
 
 ---
 
@@ -119,7 +119,7 @@ Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Ers
 
    Sie können die Erlebnisse über die von Ihnen angegebenen Angebote unter [!UICONTROL Inhalt verwalten] anzeigen. Sie werden feststellen, dass in [!UICONTROL Inhalt verwalten] keine Erlebnisse mit dem von Ihnen ausgeschlossenen Standardangebot erstellt sind.
 
-   ![](assets/exclude_content_vec_4.png)
+   ![exclude_content_vec_4 image](assets/exclude_content_vec_4.png)
 
 **So schließen Sie mit dem formularbasierten Experience Composer Standardinhalt aus:**
 
@@ -130,14 +130,14 @@ Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Ers
 
    Für Text-/HTML-Inhalt:
 
-   ![](assets/exclude_content_form_1.png)
+   ![exclude_content_form_1 image](assets/exclude_content_form_1.png)
 
    Für Bild-/Videoinhalt:
 
-   ![](assets/exclude_content_form_2.png)
+   ![exclude_content_form_2 image](assets/exclude_content_form_2.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Sie können die Erlebnisse über die von Ihnen angegebenen Angebote unter [!UICONTROL Inhalt verwalten] anzeigen. Sie werden feststellen, dass in [!UICONTROL Inhalt verwalten] keine Erlebnisse mit dem von Ihnen ausgeschlossenen Standardangebot erstellt sind.
 
-   ![](assets/exclude_content_form_3.png)
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)

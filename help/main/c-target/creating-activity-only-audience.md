@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Adobe Zielgruppen "Nur Aktivität"erstelle
 title: Kann ich eine Zielgruppe erstellen, die nur einmal verwendet werden soll?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '451'
 ht-degree: 55%
 
 ---
@@ -28,7 +28,7 @@ Zielgruppen „Nur Aktivität“ bieten die folgenden Vorteile:
 
 1. Klicken **[!UICONTROL Diese Aktivität]**.
 
-   ![](assets/activity-only-aud.png)
+   ![Bild &quot;activity-only-aud&quot;](assets/activity-only-aud.png)
 
 1. Geben Sie einen beschreibenden Namen für die Zielgruppe ein.
 1. Ziehen Sie die gewünschten Attribute per Drag-and-Drop in den Audience Builder.

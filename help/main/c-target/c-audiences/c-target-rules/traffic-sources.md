@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Adobe Zielgruppen erstellen. [!DNL Target]
 title: Kann ich ein Targeting für Besucher auf der Basis der Suchmaschine oder der verweisenden Site durchführen?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '270'
 ht-degree: 63%
 
 ---
@@ -24,7 +24,7 @@ Sie können mehrere Traffic-Quellen kombinieren, um eine komplexe Targeting-Rege
    1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
 1. Drag &amp; Drop **[!UICONTROL Traffic-Quellen]** in den Audience Builder-Bereich.
 
-   ![](assets/target_traffic_source.png)
+   ![target_traffic_source image](assets/target_traffic_source.png)
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
@@ -43,7 +43,7 @@ Sie können mehrere Traffic-Quellen kombinieren, um eine komplexe Targeting-Rege
 
 Sie können Benutzer, die durch eine bestimmte Suchmaschine oder eine bestimmte Landingpage auf Ihre Site verwiesen werden, als Ziel auswählen.
 
-## Schulungsvideo: Erstellen von Zielgruppen ![Übersichtszeichen](/help/main/assets/overview.png)
+## Schulungsvideo: Erstellen von Zielgruppen ![Übersichts-Badge](/help/main/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen erstellen in [!DNL Adobe Target] 
 title: Kann ich Besucher ansprechen, die bestimmte Profilparameter erfüllen?
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 47%
+source-wordcount: '251'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ Erstellen von Zielgruppen in [!DNL Adobe Target] , um Besucher anzusprechen, die
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
-   ![](assets/target_visitor_profile.png)
+   ![target_visitor_profile image](assets/target_visitor_profile.png)
 
    Die Parameter des Besucherprofils werden über die Mbox (Profil) übergeben. Sie können neue oder zurückkehrende Besucher als Ziel auswählen oder alle Benutzer einschließen.
 

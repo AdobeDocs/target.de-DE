@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Sequenzen von bis zu fünf Kriterien festlege
 title: Wie erstelle ich Kriteriensequenzen in Recommendations?
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '835'
 ht-degree: 34%
 
 ---
@@ -46,7 +46,7 @@ Die folgenden Schritte setzen voraus, dass Sie auf die [!UICONTROL Kriteriensequ
 
 1. Klicken **[!UICONTROL Erstellen von Kriterien]** > **[!UICONTROL Kriteriensequenz erstellen]**.
 
-   ![](assets/CreateCriteriaSequence.png)
+   ![CreateCriteriaSequence-Bild](assets/CreateCriteriaSequence.png)
 
 1. Füllen Sie die Informationen im [Basisinformationen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) Abschnitt.
 

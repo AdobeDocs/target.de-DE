@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die Traffic-Schätzung verwenden, mit der Sie
 title: Wie viel Traffic wird für eine Multivarianz-Test-Aktivität (MVT) benötigt?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 93%
+source-wordcount: '506'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ Die Traffic-Schätzung liefert auch Feedback, aus dem Sie erfahren, ob Sie über
 
    Die Traffic-Schätzung wird geöffnet. Sie können erneut auf das **[!UICONTROL Traffic]**-Symbol klicken, um die Traffic-Schätzung auszublenden.
 
-   ![](assets/estimatorempty.png)
+   ![Schätzung des leeren Bildes](assets/estimatorempty.png)
 
 1. Geben Sie die übliche Konversionsrate, den Schätzwert für die Besucher pro Tag und die Testdauer an.
 
@@ -48,7 +48,7 @@ Die Traffic-Schätzung liefert auch Feedback, aus dem Sie erfahren, ob Sie über
 
    Im oberen Bereich der Traffic-Schätzung werden die von ihnen eingegebenen Werte berechnet und die Ergebnisse werden angezeigt.
 
-   ![](assets/estimatorinsufficient.png)
+   ![Bild mit unzureichendem Schätzwert](assets/estimatorinsufficient.png)
 
    Wenn Sie die Zahlen ändern, ändern sich auch die Schätzwerte. Wenn Sie zum Beispiel eine große Anzahl von Erlebnissen testen und Ihre Konversionsrate und die Impressionen zu niedrig sind, zeigt die Traffic-Schätzung an, wie lange der Test noch ausgeführt werden muss, um erfolgreich zu sein. Oder wenn Ihr Traffic langsam ist, kann die Traffic-Schätzung eine niedrigere Anzahl von Erlebnissen vorschlagen, sodass Sie den Test über die gewünschte Anzahl von Tagen ausführen können.
 
@@ -59,4 +59,4 @@ Die Traffic-Schätzung liefert auch Feedback, aus dem Sie erfahren, ob Sie über
 
    Passen Sie die Zahlen so lange an, bis die Traffic-Schätzung Ihnen mitteilt, dass Sie über ausreichend Traffic verfügen. Dann können Sie Ihren Entwurf entsprechend entwerfen.
 
-   ![](assets/estimatorok.png)
+   ![Bild der Schätzung](assets/estimatorok.png)

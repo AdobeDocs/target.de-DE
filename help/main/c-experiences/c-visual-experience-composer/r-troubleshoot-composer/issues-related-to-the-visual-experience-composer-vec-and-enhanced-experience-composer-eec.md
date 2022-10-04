@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Probleme beheben können, die manchmal in der
 title: Wie kann ich Probleme im Zusammenhang mit Visual Experience Composer und Enhanced Experience Composer beheben?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1427'
 ht-degree: 51%
 
 ---
@@ -90,11 +90,11 @@ Wenn die CSP-Header Ihrer Website Target-Bibliotheken blockieren und die Website
 >
 >Zusätzlich zu den folgenden Informationen können Sie auch die [Adobe Target VEC Helper-Browsererweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) für Google Chrome verwenden.
 
-![](assets/cps_headers.png)
+![cps_headers-Bild](assets/cps_headers.png)
 
 Als Problemumgehung können Sie eine Requestly-Regel zum Entfernen von CSP-Headern konfigurieren, wie unten dargestellt:
 
-![](assets/cps_headers_2.png)
+![cps_headers_2 image](assets/cps_headers_2.png)
 
 Sie können eine ähnliche Requestly-Regel für beliebige Header konfigurieren, durch die eine Ressource im VEC nicht geladen wird.
 

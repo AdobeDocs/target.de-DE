@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine Adobe erstellen [!DNL Target] Recommenda
 title: Wie erstelle ich ein Design in Recommendations?
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1029'
 ht-degree: 35%
 
 ---
@@ -46,11 +46,11 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
 
 1. Bewegen Sie den Mauszeiger über die Karte für das Design, das Sie erstellen möchten, und klicken Sie dann auf **[!UICONTROL Kopieren]** Symbol.
 
-   ![](assets/Card_CopyDesign.png)
+   ![Card_CopyDesign-Bild](assets/Card_CopyDesign.png)
 
    Die [!UICONTROL Design erstellen] angezeigt.
 
-   ![](assets/createDesign.png)
+   ![createDesign image](assets/createDesign.png)
 
 1. Im **[!UICONTROL Informationen]** Bedienfeld hinzufügen, **[!UICONTROL Inhaltsname]** und optionales Vorschaubild, das auf der Designkarte angezeigt werden soll.
 
@@ -104,7 +104,7 @@ Das folgende Beispiel zeigt, wie JSON-Antworten zurückgegeben werden können, w
 
 1. Achten Sie darauf, dass die Option „HTML-Design“ ausgeschaltet ist:
 
-   ![](assets/html_design_toggle.png)
+   ![html_design_toggle image](assets/html_design_toggle.png)
 
 1. Der folgende Code ist ein Beispiel dafür, was Sie in Ihren Entwurf einfügen können:
 
@@ -169,7 +169,7 @@ Das folgende Beispiel zeigt, wie JSON-Antworten zurückgegeben werden können, w
 
 Nachdem Ihr Algorithmus ausgeführt wurde und Sie Ergebnisse erhalten haben, sollte Ihre Antwort ungefähr so aussehen:
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![json_recommendations image](assets/json_recommendation.png){width=&quot;575px&quot;}
 
 ## Zusätzliche Tipps und Tricks für JSON-Objekte {#section_C305673C68944749969DB239E3221DC2}
 

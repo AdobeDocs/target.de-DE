@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Berichtseinstellungen in Adobe Target konfigu
 title: Wie konfiguriere ich Berichteinstellungen?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1923'
 ht-degree: 67%
 
 ---
@@ -276,16 +276,16 @@ Wenn Sie die Maus über eines der ausgegrauten Erlebnisse bewegen, wird im Diagr
 
 Die folgende Abbildung zeigt als Beispiel das Diagramm einer Aktivität mit 26 Erlebnissen:
 
-![](assets/graph_1.png)
+![graph_1 image](assets/graph_1.png)
 
 In dem Diagramm werden die Linien für die ersten 16 Erlebnisse angezeigt (es liegen einige Überschneidungen vor, daher sind scheinbar weniger als 16 Linien vorhanden). Der farbige Punkt im Bereich „Erlebnisse“ auf der linken Seite neben den einzelnen Erlebnisnamen gibt an, dass die Darstellungslinie des Erlebnisses in der entsprechenden Farbe angezeigt wird.
 
 Wenn Sie im Bereich „Erlebnisse“ einen Bildlauf nach unten durchführen, werden Sie feststellen, dass die Namen für das 17. bis 26. Erlebnis ausgegraut sind, wie in der folgenden Abbildung dargestellt:
 
-![](assets/graph_2.png)
+![graph_2 image](assets/graph_2.png)
 
 Wenn Sie die Maus über eines der ausgegrauten Erlebnisse bewegen, wird im Diagramm vorübergehend eine neue graue Darstellungslinie angezeigt, die dem jeweiligen Erlebnis entspricht.
 
 Angenommen, Sie möchten die Darstellungslinie für Erlebnis R anzeigen, während die Line für Erlebnis P nicht angezeigt werden soll. Sie können auf den Namen von Erlebnis P klicken, um dessen Auswahl aufzuheben, und Sie können dann auf den Namen von Erlebnis R klicken, um es auszuwählen, wie unten dargestellt:
 
-![](assets/graph_3.png)
+![graph_3 image](assets/graph_3.png)

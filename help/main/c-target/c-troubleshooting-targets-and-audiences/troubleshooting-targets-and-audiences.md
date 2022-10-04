@@ -4,9 +4,9 @@ description: Anzeigen häufig gestellter Fragen (FAQs) zu Erlebnis-Targeting und
 title: Wo finde ich Fragen und Antworten zu Zielen und Zielgruppen?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '950'
 ht-degree: 62%
 
 ---
@@ -80,7 +80,7 @@ Der Benutzer qualifiziert sich für das erste Erlebnis/die erste Zielgruppe, das
 
 In der folgenden Darstellung qualifiziert sich ein Benutzer aus Kalifornien mit einem Windows-Gerät sowohl für Erlebnis A (Zielgruppe Windows) als auch für Erlebnis C (Zielgruppe Kalifornien). Dem Benutzer wird in diesem Fall Erlebnis A angezeigt, da es in der Liste auf der Target-Seite vor Erlebnis C aufgeführt wird.
 
-![](assets/audiences_order.png)
+![Audiences_order-Bild](assets/audiences_order.png)
 
 ## Warum unterscheiden sich die Namen der gleichen Zielgruppe in [!DNL Target], Adobe Audience Manager (AAM) und der Zielgruppenbibliothek in den Core Services voneinander? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 

@@ -5,9 +5,9 @@ title: Was sind Unternehmensbenutzerberechtigungen und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3171'
 ht-degree: 58%
 
 ---
@@ -105,13 +105,13 @@ Die folgenden Informationen erläutern, wie Berechtigungen zuvor in [!DNL Target
 
 Die neue [!UICONTROL Berechtigungen] -Funktion können Sie verschiedene Projekte (die so genannten &quot;Produktprofile&quot;im [!DNL Adobe Admin Console for Enterprise]). Projekte ermöglichen es Ihnen, einem einzelnen Benutzer verschiedene Berechtigungen zuzuweisen, die die Zugriffsrechte dieses Benutzers für jedes Projekt vorschreiben. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in [!DNL Adobe Analytics]. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Das Ergebnis ist, dass Kunden den Ansichts-, Bearbeitungs- und Genehmigungszugriff auf ihre Benutzer anhand von Regionen, Umgebungen (Entwicklung/Staging/Produktion), Kanälen oder anderen benutzerdefinierten Kriterien einschränken können, wie unten dargestellt:
 
-![](assets/permissions.png)
+![Berechtigungsbild](assets/permissions.png)
 
 Ein bestimmter Benutzer verfügt beispielsweise über Genehmigungszugriff auf die Websites für Nord- und Südamerika, jedoch nur auf Ansichtszugriff auf die mobile App für Europa. Dieser Benutzer verfügt möglicherweise nicht über die nötigen Rechte, die in Web- und Mobileigenschaften angebotenen Aktivitäten der APAC-Region einzusehen.
 
 Im aktuellen [!DNL Target] [!UICONTROL Berechtigungsmodell] gibt es drei Rollen (Beobachter, Bearbeiter und Genehmiger), die in folgender Abbildung dargestellt werden:
 
-![](assets/permissions_1.png)
+![permissions_1 image](assets/permissions_1.png)
 
 Jede Rolle verfügt über eigene Zugriffsniveaus:
 
@@ -124,17 +124,17 @@ Jede Rolle verfügt über eigene Zugriffsniveaus:
 
 Es muss dabei berücksichtigt werden, dass die Benutzerrolle für alle Seiten, Eigenschaften oder Sites Ihres Kontos gilt, die über [!DNL Target]-Tags verfügen, wie unten dargestellt:
 
-![](assets/permissions_2.png)
+![permissions_2 image](assets/permissions_2.png)
 
 Das neue [!DNL Target][!UICONTROL -Berechtigungsmodell] verfügt über die gleichen drei Rollen (Beobachter, Bearbeiter und Genehmiger), einem Benutzer können jedoch verschiedene Rollen für einzelne Seiten, Eigenschaften oder Sites zugewiesen werden, wie unten dargestellt:
 
-![](assets/permissions_3.png)
+![permissions_3 image](assets/permissions_3.png)
 
 In diesem Beispiel besitzt Jan Genehmigerrechte für die US-Homepage und die US-Site und Beobachterrechte für die französische Site.
 
 Außerdem kann Jan keine Seiten, Eigenschaften oder Sites in [!DNL Target] dass sie nicht über die folgenden Berechtigungen zum Anzeigen verfügt:
 
-![](assets/permissions_4.png)
+![permissions_4 image](assets/permissions_4.png)
 
 In diesem Beispiel kann Jan die Produktseiten, die russische Site und die Karriere-Site nicht sehen.
 
@@ -191,18 +191,18 @@ Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL 
 
 * **Dropdownliste „Arbeitsbereich“ (Produktprofil):** Die Dropdownliste „Arbeitsbereich“ wird am oberen Rand der Seiten [!UICONTROL Aktivitäten], [!UICONTROL Zielgruppen] und [!UICONTROL Angebote] angezeigt. Wählen Sie den gewünschten Arbeitsbereich aus, um die Liste zu filtern und nur die Elemente des ausgewählten Arbeitsbereichs anzuzeigen.
 
-   ![](assets/workspace_drop-down.png)
+   ![workspace_drop-down-Bild](assets/workspace_drop-down.png)
 
 * **Aktivitätserstellung:** Wenn Sie eine Aktivität erstellen, wird sie im derzeit ausgewählten Arbeitsbereich erstellt. Im ersten Dialogfeld, in dem Sie den gewünschten Kanal für die Aktivität auswählen können, werden Optionen zur Kanalauswahl angezeigt: Web, mobile App, E-Mail oder Sonstige/API.
 
-   ![](assets/channel_options.png)
+   ![channel_options-Bild](assets/channel_options.png)
 
 * **Zielgruppenerstellung:** Wenn Sie eine Zielgruppe erstellen, wird sie im derzeit ausgewählten Arbeitsbereich erstellt.
 * **Zielgruppenliste:** Sie können Zielgruppen zwischen Arbeitsbereichen verschieben, indem Sie die [!UICONTROL Mehr Aktionen] > [!DNL Move] -Option auf [!UICONTROL Zielgruppen] Seite.
 * **Erstellung von Angeboten:** Wenn Sie ein Angebot erstellen, wird es im derzeit ausgewählten Arbeitsbereich erstellt.
 * **Eigenschaftenseite (Administration > Eigenschaften):** Sie können die [!UICONTROL Suche] zum Durchsuchen der [!UICONTROL Eigenschaft] Liste.
 
-   ![](assets/properties_list.png)
+   ![properties_list-Bild](assets/properties_list.png)
 
 ## Einschränkungen  {#section_9714311B1CD9497A86F4910F8AE635E2}
 

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die häufigsten Fehler vermeiden, die Unterne
 title: Wie vermeide ich häufige Fehler beim A/B-Test?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '3884'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '3898'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Marketingexperten verwenden in A/B-Tests häufig ein Konfidenzniveau von 95 %. G
 
 Die folgende Abbildung zeigt, dass mit der Anzahl der durchgeführten Tests die Wahrscheinlichkeit steigt, dass einer der Tests ein falsch-positives Ergebnis liefert. Wenn Sie z. B. 10 Tests mit einem Konfidenzniveau von 95 % durchführen, besteht eine Chance von rund 40 %, dass eines oder mehrere falsch-positive Ergebnisse gefunden werden (angenommen es gibt keine reale Steigerung: Pr(mindestens ein falsch-positives Ergebnis) = 1 - Pr(keine falsch-positiven Ergebnisse) = 1 - 0,95^10 = 40 %).
 
-![](assets/pitfalls1.png)
+![Fallstricke1 Bild](assets/pitfalls1.png)
 
 Im Fall einer Marketing-Organisation sind 95 % in der Regel ein vernünftiger Kompromiss zwischen dem Risiko einer falsch positiven und einer falsch negativen Entscheidung.
 
@@ -59,7 +59,7 @@ Es gibt jedoch zwei Situationen, in denen es sich lohnt, sehr genau auf das Konf
 
 Beim Testen mehrerer Angebote erklären Marketingexperten häufig das Angebot mit der höchsten Steigerung zum Gewinner des Tests, obwohl es keinen statistisch signifikanten Unterschied zwischen dem Gewinner und dem Zweitplatzierten gibt. Diese Situation tritt auf, wenn der Unterschied zwischen den Alternativen kleiner ist als der Unterschied zwischen den Alternativen und dem Kontrollelement. Die folgende Abbildung zeigt dieses Konzept, wobei die schwarzen Fehlerbalken Konfidenzintervalle mit 95 % Steigerung darstellen. Die tatsächliche Steigerung der einzelnen Angebote relativ zum Kontrollangebot liegt mit einer Wahrscheinlichkeit von 95 % innerhalb des Konfidenzintervalls - dem durch die Fehlerbalken angezeigten Bereich.
 
-![](assets/pitfalls2.png)
+![Fallstricke2 Bild](assets/pitfalls2.png)
 
 Bei den Angeboten A und B wurde im Test die höchste Steigerung beobachtet und es wäre unwahrscheinlich, dass Angebot C diese Angebote in einem zukünftigen Test übertreffen könnte, da das Konfidenzintervall von C sich nicht einmal mit den Konfidenzintervallen von A oder B überschneidet. Aber auch wenn Angebot A im Test die höchste Steigerung aufweist, ist es dennoch möglich, dass Angebot B in einem zukünftigen Test eine bessere Leistung zeigt, weil sich die Konfidenzintervalle überschneiden.
 
@@ -77,7 +77,7 @@ Es gibt zwei Schlüsselfaktoren, die die Leistungsfähigkeit eines Tests festleg
 
 Die Marketingexperten von heute erzielen aus einer beachtlichen Anzahl an Tests keine optimale Leistung. Sie verwenden nämlich zu kleine Stichproben. Das führt dazu, dass sie eine kleine Chance haben, richtig-positive Ergebnisse zu erkennen, selbst wenn tatsächlich ein substanzieller Unterschied der Konversionsrate vorhanden ist. Wenn Sie ständig zu schwache Tests ausführen, kann die Anzahl der falsch-positiven Ergebnisse im Bereich oder sogar über der Anzahl der richtig-positiven Ergebnisse liegen. Dies führt häufig zur Implementierung neutraler Änderungen an einer Site (Zeitverschwendung) oder zu Änderungen, die die Konversionsraten sogar verringern.
 
-![](assets/pitfalls3.png)
+![Fallstricke3 Bild](assets/pitfalls3.png)
 
 Damit Ihre Tests die gewünschte Leistung bringen, beachten Sie, dass zu einem gängigen Standard für einen leistungsstarken Test ein Konfidenzniveau von 95 % und eine Teststärke von 80 % gehören. Ein solcher Test bietet eine Wahrscheinlichkeit von 95 %, dass es nicht zu falsch-positiven Ergebnissen kommt, und eine Wahrscheinlichkeit von 80 %, dass falsch-negative Ergebnisse ausbleiben.
 
@@ -109,7 +109,7 @@ Es ist verlockend, einen Test zu stoppen, wenn eines der Angebote in den ersten 
 
 Die folgende Abbildung zeigt fünf Angebote, die dieselben langfristigen Konversionsraten besitzen. Angebot B hat für die ersten 2.000 Besucher eine geringe Konversionsrate und es dauert lange, bis die geschätzte Konversionsrate zur tatsächlichen langfristigen Rate zurückkehrt.
 
-![](assets/pitfalls4.png)
+![Fallstricke4 Bild](assets/pitfalls4.png)
 
 Dieses Phänomen wird als Regression zum Mittelwert bezeichnet und kann zu Enttäuschungen führen, wenn ein Angebot, das an den ersten Tagen des Tests eine gute Leistung zeigt, dieses Leistungsniveau langfristig nicht halten kann. Es kann auch zu Umsatzverlusten führen, wenn ein gutes Angebot nicht implementiert wird, weil es zufälligerweise während der ersten Tage des Tests eine schlechte Leistung gebracht hat.
 
@@ -145,7 +145,7 @@ Solche Angebote verleiten Besucher dazu, früher zu konvertieren und werden favo
 
 Die folgende Abbildung zeigt zwei Angebote, die zwei unterschiedliche Besucher an einem Sonntag zur selben Zeit sehen. Der Betrachtungszeitraum für Angebot A ist kurz und der Besucher konvertiert zu einem späteren Zeitpunkt desselben Tages. Angebot B besitzt jedoch einen längeren Betrachtungszeitraum und der Besucher, der Angebot B gesehen hat, lässt sich das Angebot ein wenig durch den Kopf gehen und konvertiert dann am darauffolgenden Montag. Wenn Sie den Test Sonntagnacht beenden, wird die zu Angebot A gehörende Konversion in der Konversionsmetrik von Angebot A berücksichtigt, wohingegen die zu Angebot B gehörende Konversion in der Konversionsmetrik von Angebot B nicht berücksichtigt wird. Dies stellt für Angebot B einen signifikanten Nachteil dar.
 
-![](assets/pitfalls5.png)
+![Fallen5-Bild](assets/pitfalls5.png)
 
 Um dieses Problem zu vermeiden, müssen Sie Besuchern, die das Angebot gesehen haben, ausreichend Zeit für die Konversion lassen, bevor Sie den Test beenden. So erhalten Sie einen fairen Vergleich der Angebote.
 
@@ -153,11 +153,11 @@ Um dieses Problem zu vermeiden, müssen Sie Besuchern, die das Angebot gesehen h
 
 Marketingexperten sind möglicherweise versucht, im oberen Trichter Konversionsmetriken mit hohem Traffic und geringer Varianz zu verwenden, wie die Clickthrough-Rate (CTR), um schneller eine passende Anzahl von Testkonversionen zu erzielen. Sie müssen sich jedoch sorgfältig überlegen, ob die CTR eine angemessene Vertreterin für dass Geschäftsziel ist, das Sie erreichen möchten. Angebote mit höheren CTRs können leicht zu geringerem Umsatz führen. Dies kann passieren, wenn Angebote Besucher mit geringerer Kaufneigung anziehen oder wenn das Angebot als solches zu geringerem Umsatz führt, weil es z. B. rabattiert ist.
 
-![](assets/pitfalls6.png)
+![Fallen6 Bild](assets/pitfalls6.png)
 
 Sehen Sie sich das folgende Beispiel an. Das Skiangebot generiert eine viel höhere CTR als das Radsportangebot, da die Besucher jedoch durchschnittlich für das Radsportangebot weitaus mehr Geld ausgeben, ist der erwartete Umsatz höher, wenn das Radsportangebot einem Besucher präsentiert wird. Ein A/B-Test mit CTR als Metrik würde daher ein Angebot auswählen, das den Umsatz nicht maximiert, also nicht dem grundlegenden Geschäftsziel entspricht.
 
-![](assets/pitfalls7.png)
+![Fallen7-Bild](assets/pitfalls7.png)
 
 Um dieses Problem zu vermeiden, müssen Sie Ihre Geschäftsmetriken sorgfältig überwachen, um die Auswirkungen von Angeboten zu erkennen, oder besser noch möglichst eine Metrik verwenden, die näher an Ihren Geschäftszielen liegt.
 

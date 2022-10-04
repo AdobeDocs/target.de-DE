@@ -5,10 +5,10 @@ title: Wie verwende ich dynamische und statische Einschlussregeln in Recommendat
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 17%
+source-wordcount: '2094'
+ht-degree: 16%
 
 ---
 
@@ -22,7 +22,7 @@ Der Prozess zum Erstellen und Verwenden von Einschlussregeln für Kriterien und 
 
 Klicken Sie beim [Erstellen von Kriterien](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) auf **[!UICONTROL Filterregel hinzufügen]** unter **[!UICONTROL Einschlussregeln]**.
 
-![](assets/inclusion_options_new.png)
+![include_options_new image](assets/inclusion_options_new.png)
 
 Die verfügbaren Optionen variieren je nach vertikalem Markt und Empfehlungsschlüssel.
 
@@ -30,7 +30,7 @@ Die verfügbaren Optionen variieren je nach vertikalem Markt und Empfehlungsschl
 
 Wählen Sie beim [Erstellen einer Promotion](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14) die Option **[!UICONTROL Hervorheben nach Attribut]** aus und klicken Sie dann auf **[!UICONTROL Filterregel hinzufügen]**.
 
-![](assets/inclusion_options.png)
+![include_options-Bild](assets/inclusion_options.png)
 
 ## Filtertypen {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -93,9 +93,9 @@ Sie können mehrere Optionen auswählen, um leere Werte beim Filtern nach [!UICO
 
 Zuvor wurden bei einem leeren Wert keine Ergebnisse zurückgegeben. In der Dropdownliste „Wenn *x* leer ist“ können Sie die entsprechende Aktion auswählen, die ausgeführt werden solle, wenn die Kriterien leere Werte enthalten, wie in der folgenden Abbildung dargestellt:
 
-![](assets/empty_value.png)
+![Bild mit leerem Wert](assets/empty_value.png)
 
-Um die gewünschte Aktion auszuwählen, bewegen Sie den Mauszeiger über das Zahnradsymbol (![](assets/icon_gear.png)) und wählen Sie dann die gewünschte Aktion aus:
+Um die gewünschte Aktion auszuwählen, bewegen Sie den Mauszeiger über das Zahnradsymbol (![icon_Zahnradbild](assets/icon_gear.png)) und wählen Sie dann die gewünschte Aktion aus:
 
 | Aktion | Verfügbar für | Details |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ Um die gewünschte Aktion auszuwählen, bewegen Sie den Mauszeiger über das Zah
 >
 >Verschiedene Datentypattribute sind möglicherweise nicht mit dynamischen Kriterien oder Promotions kompatibel, während sie zur Laufzeit mit den Operatoren „ist gleich“ und „ist nicht gleich“ verwendet werden. Verwendung [!UICONTROL Wert], [!UICONTROL Marge], [!UICONTROL Bestand]und [!UICONTROL Umgebung] Werte weisen auf der rechten Seite eine intelligente Einstellung auf, wenn die linke Seite über vordefinierte Attribute oder benutzerdefinierte Attribute verfügt.
 
-![](assets/left_right.png)
+![Bild links_rechts](assets/left_right.png)
 
 Die folgende Tabelle enthält wirksame Regeln und Regeln, die während der Laufzeit möglicherweise nicht kompatibel sind:
 

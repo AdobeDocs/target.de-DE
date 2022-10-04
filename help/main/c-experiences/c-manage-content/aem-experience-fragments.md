@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie [!DNL Adobe Experience Manager] Experience Fr
 title: Verwendung [!DNL Adobe Experience Manager] (AEM) Experience Fragments?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 52%
+source-wordcount: '1379'
+ht-degree: 51%
 
 ---
 
@@ -117,7 +117,7 @@ Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experie
    >
    >Die Option [!UICONTROL Mit Experience Fragment tauschen] ist nicht für Bilder verfügbar. Wenn Sie diese Option mit einem Bild verwenden möchten, klicken Sie auf das Container-Element, das das gewünschte Bild enthält.
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list -Bild](assets/experience_fragment_list.png)
 
 1. Wählen Sie das gewünschte Experience Fragment aus und klicken Sie dann auf **[!UICONTROL Fertig]**.
 1. Schließen Sie die Konfiguration der Aktivität ab.
@@ -140,7 +140,7 @@ Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experie
 
 1. Klicken Sie in [!DNL Target] Target beim Erstellen oder Bearbeiten eines Erlebnisses in [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) an die Stelle der Seite, an der Sie [!DNL AEM]-Inhalte einfügen möchten, und wählen Sie dann **[!UICONTROL Experience Fragment ändern]** aus, um die Liste [!UICONTROL Experience Fragment auswählen] anzuzeigen.
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list -Bild](assets/experience_fragment_list.png)
 
    Die [!UICONTROL Experience Fragment] Die Liste zeigt den in [!DNL AEM] , die jetzt nativ von in verfügbar ist [!DNL Target].
 

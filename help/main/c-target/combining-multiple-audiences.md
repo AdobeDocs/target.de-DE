@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mehrere Zielgruppen (einschließlich Adobe Ex
 title: Kann ich mehrere Zielgruppen kombinieren, um eine neue Zielgruppe zu erstellen?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 67%
+source-wordcount: '960'
+ht-degree: 66%
 
 ---
 
@@ -55,7 +55,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
       Nehmen wir beispielsweise an, dass Sie im vorhin beschriebenen Szenario auch Safari-Anwender in die kombinierte Zielgruppe aufnehmen möchten. Suchen Sie nach der Zielgruppe „Safari Browser“ und ziehen Sie sie in das Feld „Firefox Browser“ rechts, wie unten dargestellt:
 
-      ![](assets/combine_multiple_audiences3.png)
+      ![image_multiple_audiences3](assets/combine_multiple_audiences3.png)
 
       In diesem Fall lautet der Operator für die beiden Browsertypen „AND“. Wählen Sie die [!UICONTROL und] Dropdown-Liste und ändern Sie sie in &quot;OR&quot;, um eine neue kombinierte Zielgruppe für neue Besucher zu erstellen, die entweder Firefox oder Safari verwenden. Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. So ist es beispielsweise nicht möglich, dass ein Besucher eine Seite mit Safari und gleichzeitig mit Firefox besucht.
 
@@ -65,7 +65,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
    1. Um einer Regel einen Ausschluss hinzuzufügen, klicken Sie auf **[!UICONTROL Ausschließen]**.
 
-      ![](assets/combine_multiple_audiences3a.png)
+      ![merge_multiple_audiences3a image](assets/combine_multiple_audiences3a.png)
 
       Ziehen Sie eine Zielgruppe in den Arbeitsbereich.
 
@@ -86,12 +86,12 @@ Sie können eine kombinierte Ad-hoc-Zielgruppe, die Sie im Metrik-Targeting verw
 1. Wählen Sie beim Bearbeiten oder Erstellen einer [Aktivität](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der Seite **[!UICONTROL Ziele &amp; Einstellungen]** **[!UICONTROL Konversion]** für die Erfolgsmetrik aus und wählen Sie anschließend **[!UICONTROL Mbox angezeigt]** als Aktion aus.
 1. Wählen Sie die gewünschte Mbox aus dem Feld **[!UICONTROL Mbox suchen]** aus.
 
-   ![](assets/combine_multiple_audiences4.png)
+   ![Bild &quot;kombinieren_multiple_audiences4&quot;](assets/combine_multiple_audiences4.png)
 
 1. Klicken Sie auf das Zahnradsymbol und anschließend auf **[!UICONTROL Zielgruppen-Targeting hinzufügen]**.
 1. Klicken Sie auf den Link **[!UICONTROL Zielgruppe/Targetingbedingung hinzufügen]**, um das Dialogfeld [!UICONTROL Zielgruppe wählen] zu öffnen.
 
-   ![](assets/combine_multiple_audiences5.png)
+   ![Bild kombinieren_multiple_audiences5](assets/combine_multiple_audiences5.png)
 
 1. Fahren Sie mit [Schritt 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) unter „Erstellen einer kombinierten Zielgruppe bei Erstellung einer Aktivität“ fort, um die kombinierte Zielgruppe zu erstellen.
 
@@ -101,7 +101,7 @@ Sie können eine kombinierte Ad-hoc-Zielgruppe auch auf der Seite [!UICONTROL Zi
 
 1. Klicken Sie beim Bearbeiten oder Erstellen einer [Aktivität](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der Seite **[!UICONTROL Ziele &amp; Einstellungen]** auf das Symbol **[!UICONTROL Zielgruppe hinzufügen]** unter [!UICONTROL Zielgruppen für Berichterstellung], um die Seite [!UICONTROL Zielgruppe auswählen] anzuzeigen.
 
-   ![](assets/combine_multiple_audiences6.png)
+   ![collect_multiple_audiences6-Bild](assets/combine_multiple_audiences6.png)
 
 1. Fahren Sie mit [Schritt 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) unter „Erstellen einer kombinierten Zielgruppe bei Erstellung einer Aktivität“ fort, um die kombinierte Zielgruppe zu erstellen.
 

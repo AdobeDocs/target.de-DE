@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie benutzerdefinierte Zielgruppen erstellen und 
 title: Wie erstelle ich Zielgruppen?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '521'
 ht-degree: 61%
 
 ---
@@ -37,7 +37,7 @@ Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome 
 
 1. Klicken Sie auf **[!UICONTROL Zielgruppen]** in der oberen Menüleiste.
 
-   ![](assets/audiences_list.png)
+   ![audiences_list-Bild](assets/audiences_list.png)
 
 1. Aus dem [!UICONTROL Zielgruppen] Liste, klicken Sie auf **[!UICONTROL Zielgruppe erstellen]**.
 
@@ -66,7 +66,7 @@ Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome 
 
    Neu erstellte Zielgruppen werden erst nach einigen Sekunden Verarbeitungszeit in der Liste angezeigt. Falls die Zielgruppe nicht sofort in der Liste angezeigt wird, können Sie danach suchen oder die Liste aktualisieren.
 
-## Schulungsvideo: Erstellen von Zielgruppen ![Übersichtszeichen](/help/main/assets/overview.png)
+## Schulungsvideo: Erstellen von Zielgruppen ![Übersichts-Badge](/help/main/assets/overview.png)
 
 Dieses Video enthält Informationen zur Erstellung von Zielgruppen.
 

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Adobe Ausschlüsse erstellen. [!DNL Target
 title: Wie verwende ich Ausschlüsse in Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '624'
 ht-degree: 42%
 
 ---
@@ -35,7 +35,7 @@ Beispiele für die Verwendung von Ausschlüssen:
 
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Ausschlüsse]**, um die Liste vorhandener Ausschlüsse anzuzeigen. 
 
-   ![](assets/exclusions_list.png)
+   ![exclusions_list-Bild](assets/exclusions_list.png)
 
    Die „Anzahl der Elemente“, die für jeden Ausschluss in der [!UICONTROL Ausschluss]-Listenansicht gemeldet werden, entspricht der Anzahl der Produkte, die mit den Regeln für diesen Ausschluss in der konfigurierten Standard-Umgebungs-[Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) übereinstimmen. Siehe [Einstellungen](https://developer.adobe.com/target/implement/recommendations/){target=_blank} , um die standardmäßige Hostgruppe zu ändern.
 

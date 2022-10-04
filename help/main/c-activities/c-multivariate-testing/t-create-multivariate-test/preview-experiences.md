@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die einzelnen Erlebnisse in einer Multivarian
 title: Erlebnisvorschau für Multivarianz-Tests (MVT)
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 68%
+source-wordcount: '202'
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,7 @@ Da [!UICONTROL Multivarianz-Test] in [!DNL Adobe Target] Vergleicht mehrere Erle
 
    Es erscheint eine Liste aller Erlebnisse.
 
-   ![](assets/preview.png)
+   ![Vorschaubild](assets/preview.png)
 
 1. Klicken Sie auf ein Erlebnis in der Liste, um dieses anzusehen.
 

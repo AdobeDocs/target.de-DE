@@ -4,9 +4,9 @@ description: Antworten auf Fragen zur Aktivitätseinrichtung bei der Verwendung 
 title: Wo finde ich häufig gestellte Fragen zu Aktivitätseinstellungen mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 20%
 
 ---
@@ -36,7 +36,7 @@ Sie können Ihre [!UICONTROL Berichtseinstellungen] Optionen in [!UICONTROL Admi
 1. In [!DNL Target]klicken **[!UICONTROL Administration]**.
 1. Klicken Sie in der Dropdownliste **[!UICONTROL Für die Berichterstellung verwendete Experience Cloud-Lösung]** auf **[!UICONTROL Pro Aktivität auswählen]**.
 
-![](assets/select-per-activity.png)
+![Abbild &quot;select-per-activity&quot;](assets/select-per-activity.png)
 
 Die Dropdownliste **[!UICONTROL Berichterstellungsquelle]** wird auf dem Bildschirm **[!UICONTROL Ziele und Einstellungen]** für Erstellungs- und Bearbeitungsaktivitäten aktiviert.
 

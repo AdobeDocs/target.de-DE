@@ -4,9 +4,9 @@ description: In diesem Abschnitt finden Sie eine Liste der häufig gestellten Fr
 title: Wo finde ich Antworten auf Fragen zur Optimierung und Personalisierung?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2800'
 ht-degree: 96%
 
 ---
@@ -212,13 +212,13 @@ Eine Möglichkeit besteht darin, den [benutzerdefinierten Code-Editor](/help/mai
 
 Mit den Funktionen Erstellen und Durchsuchen können Sie zur gewünschten Seite navigieren und Ihr Erlebnis erstellen.
 
-![](assets/vec2.png)
+![vec2-Bild](assets/vec2.png)
 
 **Wie kann ich über „Schritt 2 des aus drei Teilen bestehenden geführten Target-Workflows (Targeting-Seite)“ zum gewünschten Erlebnis wechseln?**
 
 Klicken Sie auf die Miniaturansicht vor dem Erlebnisnamen in Schritt 2 und Sie gelangen zum gewünschten Erlebnis.
 
-![](assets/thumbnail_experiences.png)
+![thumbnail_experience-Bild](assets/thumbnail_experiences.png)
 
 **Ich habe früher Target Classic verwendet. Kann ich meine Mboxes für bestimmte Anwendungsfälle verwenden?**
 

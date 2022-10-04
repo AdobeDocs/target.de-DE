@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die Adobe verwenden [!DNL Target] Form-Based 
 title: Wie verwende ich den formularbasierten Experience Composer?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '871'
 ht-degree: 46%
 
 ---
@@ -29,7 +29,7 @@ Wenn Sie eine [!UICONTROL Recommendations] -Aktivität, gibt es keine Erlebnisse
 
    Die [!UICONTROL Form-Based Experience Composer] geöffnet.
 
-   ![](assets/location_refinements.png)
+   ![Bild &quot;location_fine&quot;](assets/location_refinements.png)
 
    Dieser Bildschirm unterscheidet sich bei der Erstellung eines [!UICONTROL Recommendations] Aktivität. [!UICONTROL Recommendations-Aktivitäten schließen keine Erlebnisse ein.]
 
@@ -46,13 +46,13 @@ Wenn Sie eine [!UICONTROL Recommendations] -Aktivität, gibt es keine Erlebnisse
 
 1. Klicken **[!UICONTROL Zielgruppenverfeinerungen hinzufügen]**, wählen Sie eine oder mehrere [audience](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) Klicken Sie für diese Aktivität auf **[!UICONTROL Fertig]**.
 
-   ![](assets/location_refinements_2.png)
+   ![location_fine_2 image](assets/location_refinements_2.png)
 
    Im [!UICONTROL Form-Based Experience Composer]wurden Verfeinerungen durch die volle Zielgruppenfunktionalität ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden in  [Zielgruppen „Nur Aktivität“](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) migriert.
 
 1. Wählen Sie den Inhaltstyp aus, der an diesem Standort angezeigt werden soll.
 
-   ![](assets/form_content.png)
+   ![form_content-Bild](assets/form_content.png)
 
 1. Geben Sie für den ausgewählten Content-Typ den Inhalt an.
 
@@ -96,11 +96,11 @@ Wenn Sie eine [!UICONTROL Recommendations] -Aktivität, gibt es keine Erlebnisse
 
    Bei der Auswahl der Recommendations-Kriterien im formularbasierten Experience Composer gibt es jetzt einen direkten Link zur ausgewählten Kriterienkarte, damit Sie die Kriterien schnell und einfach bearbeiten können.
 
-   ![](assets/change_criteria.png)
+   ![change_riterium-Bild](assets/change_criteria.png)
 
    Auf der Seite „Targeting“ des Drei-Schritte-Workflows zu Target:
 
-   ![](assets/change_criteria_2.png)
+   ![Bild ändern_Kriterien_2](assets/change_criteria_2.png)
 
    **Angebotsentscheidung hinzufügen:**
 

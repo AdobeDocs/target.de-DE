@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie eine Erfolgsmetrik auswählen in [!DNL Adobe 
 title: Kann ich eine Berichterstellungszielgruppe auf eine Erfolgsmetrik anwenden?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 54%
+source-wordcount: '301'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ Wählen Sie eine Erfolgsmetrik aus, die den Benutzer für die Reporting-Zielgrup
 
 Mit der Dropdownliste [!UICONTROL Angewendet am] können Sie Zielgruppen bei allen Aktivitäten Erfolgsmetriken zuordnen. Somit können Sie die Berichtszahlen anzeigen, nachdem die Metrik erreicht wurde. Dasselbe gilt auch für nachfolgende Aktionen.
 
-![](assets/success_metric.png)
+![success_metric-Bild](assets/success_metric.png)
 
 Ein Beispiel: Angenommen, Sie haben eine Aktivität für alle Besucher erstellt, die über Ihre Homepage die Konversionsseite erreichen, aber Sie möchten sich auch stärker auf Besucher konzentrieren, die im Vorfeld ihrer Konversion einen Wert von mehr als 50 $ zum Warenkorb hinzugefügt haben.
 
@@ -32,4 +32,4 @@ Bedenken Sie folgende Informationen, wenn Sie einer Erfolgsmetrik eine Berichter
 
 Um die Segmentierung in Berichten anzuzeigen, wählen Sie die gewünschte Zielgruppe aus dem [!UICONTROL Zielgruppe] Dropdown-Liste im Aktivitätsbericht.
 
-![](assets/reporting_audience_dropdown.png)
+![reporting_audience_dropdown-Bild](assets/reporting_audience_dropdown.png)

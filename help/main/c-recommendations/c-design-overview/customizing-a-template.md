@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mit der Open-Source-Entwurfssprache Velocity 
 title: Wie kann ich einen Entwurf mithilfe von Velocity anpassen?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1032'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Wenn Sie in Ihrem Design ein Profilskript verwenden, muss auf das $ vor dem Skri
 
 Wenn Sie z. B. ein Design wünschen, das in etwa Folgendes anzeigen soll:
 
-![](assets/velocity_example.png)
+![Velocity-Beispielbild](assets/velocity_example.png)
 
 verwenden Sie diesen Code:
 
@@ -203,7 +203,7 @@ Erstellen Sie dazu eine Spalte in Ihrem Entwurf, die das `$key` Attribut verwend
 
 Das Ergebnis ist ein Entwurf wie der folgende, in dem das Schlüsselelement in einer Spalte angezeigt wird.
 
-![](assets/rec_key.png)
+![rec_key-Bild](assets/rec_key.png)
 
 Wenn Sie Ihre [!DNL Recommendations]-Aktivität erstellen und das Schlüsselelement vom Benutzerprofil genommen wird, zum Beispiel „Zuletzt gekaufter Artikel“, zeigt [!DNL Target] ein zufällig ausgewähltes Produkt im [!UICONTROL Visual Experience Composer an]. Dies beruht darauf, dass ein Profil beim Erstellen der Aktivität nicht verfügbar ist. Wenn Besucher die Seite anzeigen, sehen sie das erwartete Schlüsselelement.
 

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie lange ein A/B-Test ausgeführt werden soll. Erfol
 title: Wie lange sollte ich einen A/B-Test durchführen?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3060'
-ht-degree: 63%
+source-wordcount: '3072'
+ht-degree: 59%
 
 ---
 
@@ -61,11 +61,11 @@ Es gibt fünf benutzerdefinierte Parameter zur Definition eines A/B-Tests. Diese
 
 Bei einem A/B-Test werden die statistische Bedeutung, Teststärke, zuverlässig bestimmbare Mindeststeigerung und Baseline-Konversionsrate durch einen Analysten festgelegt. Anschließend wird die erforderliche Anzahl der Besucher aus diesen Zahlen berechnet. In diesem Artikel werden diese Elemente erläutert und Richtlinien zur Ermittlung dieser Metriken für einen bestimmten Test festgelegt.
 
-![](assets/samplesize.png)
+![Beispielbild](assets/samplesize.png)
 
 Die unten stehende Abbildung veranschaulicht die vier möglichen Ergebnisse eines A/B-Tests.
 
-![](assets/outcomes.png)
+![Ergebnisbild](assets/outcomes.png)
 
 Es ist wünschenswert, keine Falsch-Positiv-Werte bzw. Falsch-Negativ-Werte zu erhalten. Die Erzielung von Null-Falsch-Positiv-Werten kann jedoch niemals durch einen statistischen Test garantiert werden. Es ist immer möglich, dass beobachtete Trends nicht repräsentativ für die zugrundeliegenden Konversionsraten sind. Beispielsweise könnte man in einem Test, um zu sehen, ob Kopf oder Zahl auf einem Münzwurf wahrscheinlicher war, selbst mit einer fairen Münze, zehn Köpfe auf zehn Würfe nur zufällig bekommen. Die statistische Bedeutung und die Teststärke tragen zur Quantifizierung der Falsch-Positiv- und Falsch-Negativ-Raten bei und ermöglichen es, diese für einen gegebenen Test auf einem vertretbaren Niveau zu halten.
 
@@ -109,11 +109,11 @@ Zum Beispiel wird angenommen, dass zwei Angebote (A und B) echte Konversionsrate
 
 Die unten stehende Abbildung veranschaulicht diese Wahrscheinlichkeitsverteilungen.
 
-![](assets/probability_distributions.png)
+![Wahrscheinlichkeitsverteilungsbild](assets/probability_distributions.png)
 
 Aufgrund der großen Überlappung dieser beiden Bandbreiten kann der Test nicht ermitteln, ob die Konversionsraten voneinander abweichen. Aus diesem Grund ermöglicht ein Test mit 100 Besuchern keine Unterscheidung zwischen den beiden Angeboten. Wenn Target die Angebote jedoch jeweils 5.000 Besuchern präsentiert, besteht eine 95%ige Wahrscheinlichkeit, dass die beobachteten Konversionsraten im Bereich von 9 % bis 11 % bzw. 14 % bis 16 % fallen.
 
-![](assets/probability_distributions2.png)
+![random_distributions2 image](assets/probability_distributions2.png)
 
 In diesem Fall ist es unwahrscheinlich, dass der Test zu einem falschen Ergebnis führt, sodass der Test mit 5.000 Besuchern zwischen den beiden Angeboten unterscheiden kann. Der Test mit 5.000 Besuchern weist ein Konfidenzintervall von ca. +/-1 % auf. Das bedeutet, dass der Test Unterschiede von etwa 1 % erkennen kann. Aus diesem Grund wären noch mehr Besucher erforderlich, wenn die echten Konversionsraten der Angebote bzw. bei 10 % und 10,5 % und nicht bei 10 % und 15 % liegen würden.
 
@@ -131,15 +131,15 @@ Der Stichprobenkalkulator (Link siehe oben) fragt Sie nach der statistischen Bed
 
 Es gibt einen Trade-off zwischen der durch den Test zuverlässig ermittelbaren Mindeststeigerung und der erforderlichen Anzahl der Besucher. Die unten stehende Abbildung, die für eine Baseline-Konversionsrate (Kontrolle) von 5 % gilt, zeigt stark abnehmende Erträge bei einer zunehmenden Anzahl von Besuchern. Die Mindeststeigerung, die zuverlässig ermittelt werden kann, verbessert sich deutlich mit den ersten hinzugefügten Benutzern, es ist jedoch eine zunehmend größere Anzahl von Besuchern erforderlich, um den Test weiter zu verbessern. Die Abbildung trägt dazu bei, einen angemessenen Trade-off zwischen der für die Ausführung des Tests erforderlich Zeit (die durch die Anzahl der erforderlichen Besucher und den Site-Traffic bestimmt wird) und der Mindeststeigerung, die sich durch den Test zuverlässig erkennen lässt, zu ermitteln.
 
-![](assets/samplesizecontrol.png)
+![samplesizecontrol-Bild](assets/samplesizecontrol.png)
 
-In diesem Beispiel könnten Sie entscheiden, dass die Möglichkeit, eine Steigerung von 5 % (die einer Konversionsrate des alternativen Angebots von (100 % + 5 %) x 5 % = 5,25 % entspricht) bei 80 von 100 Tests zu ermitteln, angemessen ist. Sie benötigen daher eine Stichprobengröße von 100.000 Besuchern für jedes Angebot. Wenn die Site pro Tag 20.000 Besucher aufweist und Sie zwei Angebote testen, muss der Test über 2 x 100.000/20.000 = 10 Tage ausgeführt werden, bevor sich ermitteln lässt, ob das Alternativangebot dem Kontrollangebot statistisch signifikant überlegen ist.
+In diesem Beispiel können Sie entscheiden, dass Sie eine Steigerung von 5 % erkennen können (entspricht einer Konversionsrate des alternativen Angebots von (100 % + 5 %).&#42;5 % = 5,25 %) bei 80 von 100 Tests ausreichend sind, sodass Sie für jedes Angebot eine Stichprobengröße von 100.000 Besuchern benötigen. Wenn die Site pro Tag 20.000 Besucher hat und Sie zwei Angebote testen, sollte der Test für 2 ausgeführt werden dürfen&#42;100.000/20.000 = 10 Tage, bevor festgestellt werden kann, ob das alternative Angebot dem Kontrollangebot statistisch signifikant überlegen ist.
 
 Auch hier wird in jedem Fall empfohlen, die erforderliche Zeit auf eine ganze Woche aufzurunden, um Wochentagseffekte zu vermeiden. In diesem Beispiel würde der Test vor der Auswertung der Ergebnisse über zwei Wochen ausgeführt werden.
 
 ### Umsatz-pro-Besuch-Metrik  {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-Bei Nutzung des Umsatzes pro Besuch (Revenue per Visit - RPV) als Metrik wird eine weitere Streuungsquelle hinzugefügt, da RPV das Produkt aus Umsatz pro Bestellung und Konversionsrate ist (RPV = Umsatz / Anzahl der Besucher = (Umsatz pro Bestellung x Anzahl der Bestellungen) / Anzahl der Besucher = Umsatz pro Bestellung x (Anzahl der Besucher x CTR) / Anzahl der Besucher = Umsatz pro Bestellung x CTR), mit der jeweils eigenen Varianz. Die Varianz der Konversionsrate kann mithilfe eines mathematischen Modells direkt geschätzt werden, die Varianz des Umsatzes pro Bestellung ist jedoch spezifisch für die Aktivität. Verwenden Sie daher Kenntnisse über diese Abweichung von früheren Aktivitäten oder führen Sie den A/B-Test für einige Tage durch, um die Varianz des Umsatzes zu schätzen. Die Varianz wird aus den Werten für Summe der Verkäufe, Summe der Verkäufe im Quadrat und Anzahl der Besucher berechnet, die in der CSV-Download-Datei enthalten sind. Nachdem dies festgestellt wurde, verwenden Sie das Arbeitsblatt, um die erforderliche Zeit zum Abschließen des Tests zu berechnen.
+Bei Verwendung von Umsatz pro Besuch (RPV) als Metrik wird eine zusätzliche Varianzquelle hinzugefügt, da RPV das Produkt aus Umsatz pro Bestellung und Konversionsrate ist (RPV = Umsatz / Anzahl Besucher = (Umsatz pro Bestellung) &#42; #orders) / # visitors = Umsatz pro Bestellung &#42; (#visitors &#42; CTR) / #visitors = Umsatz pro Bestellung &#42; CTR), jeweils mit eigener Varianz. Die Varianz der Konversionsrate kann mithilfe eines mathematischen Modells direkt geschätzt werden, die Varianz des Umsatzes pro Bestellung ist jedoch spezifisch für die Aktivität. Verwenden Sie daher Kenntnisse über diese Abweichung von früheren Aktivitäten oder führen Sie den A/B-Test für einige Tage durch, um die Varianz des Umsatzes zu schätzen. Die Varianz wird aus den Werten für Summe der Verkäufe, Summe der Verkäufe im Quadrat und Anzahl der Besucher berechnet, die in der CSV-Download-Datei enthalten sind. Nachdem dies festgestellt wurde, verwenden Sie das Arbeitsblatt, um die erforderliche Zeit zum Abschließen des Tests zu berechnen.
 
 Der Stichprobengrößenrechner (Link siehe oben) kann Ihnen dabei helfen, die RPV-Metrik zu konfigurieren. Wenn Sie den Rechner öffnen, sehen Sie eine Registerkarte mit der Bezeichnung [!UICONTROL RPV-Metrik]. Sie benötigen die folgenden Informationen, wenn Sie die RPV-Version des Rechners verwenden:
 

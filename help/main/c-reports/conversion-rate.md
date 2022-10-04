@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Adobe [!DNL Target] zeigt die Konversionsrate, St
 title: Wie kann ich die Konversionsrate, Steigerung und Konfidenzniveau anzeigen?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2150'
-ht-degree: 53%
+source-wordcount: '2164'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ Konversionsrate, Steigerung, Konfidenzintervall und Konfidenzintervall werden f�
 
 In der folgenden Illustration wird die Diagrammüberschrift für eine Beispielaktivität in dargestellt, wobei die Überschriften [!UICONTROL Konversionsrate], [!UICONTROL Lift] und [!UICONTROL Konfidenz] hervorgehoben wurden.
 
-![](assets/conversion-rate.jpg)
+![Bild mit Konversionsrate](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Zeigt die mittlere Konversionsrate, die Konfidenz, das Intervall und die Anzahl 
 
 Betrachten Sie zum Beispiel die folgende Berichtsspalte „Konversionsrate“:
 
-![](assets/conversion-rate-detail.jpg)
+![Bild für Konversionsrate-Detail](assets/conversion-rate-detail.jpg)
 
 Die erste Zeile ist das Kontrollerlebnis. Es zeigt eine Konversion von 15 Prozent mit drei Konversionen. Die zweite Zeile, Erlebnis B, zeigt eine Konversionsrate von 15 Prozent mit einem Konfidenzintervall von plus oder minus 15,65 Prozent und drei Konversionen an.
 
@@ -62,7 +62,7 @@ Die Konfidenz eines angezeigten Erlebnisses oder Angebots ist eine Wahrscheinlic
 
 Das Vertrauen wird auf 100 % aufgerundet, wenn es größer oder gleich 99,995 % ist.
 
-![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
+![conf_report image](assets/conf_report.png)  ![Bild &quot;conf_report_detail&quot;](assets/conf_report_detail.png)
 
 Bevor Sie jedoch eine geschäftliche Entscheidung treffen, sollten Sie warten, bis der Umfang der Proben groß genug ist und für ein oder mehrere Erlebnisse über einen längeren Zeitraum vier Vertrauensbalken angezeigt werden. So können Sie sicher sein, dass die Ergebnisse stabil sind.
 
@@ -75,7 +75,7 @@ Bevor Sie jedoch eine geschäftliche Entscheidung treffen, sollten Sie warten, b
 
 Die *Konfidenzintervall* ist ein Bereich von Schätzungen, innerhalb dessen der wahre Wert der Metrik auf einem bestimmten Konfidenzniveau gefunden werden kann. Target zeigt immer Konfidenzintervalle von 95 % an. Das Konfidenzintervall wird als hellgrauer +/–-Prozentsatz in der Spalte „Konversionsrate“ angezeigt. Im folgenden Beispiel beträgt das Konfidenzintervall für die Steigerung von Erlebnis B plus bzw. minus 15,65 Prozent.
 
-![](assets/conversion_rate.png)
+![Bild der Konversionsrate](assets/conversion_rate.png)
 
 **Beispiel:** Der beobachtete RPV eines Erlebnisses beträgt 10 USD und 95 % **Konfidenzintervall** zwischen 5 und 15 Dollar beträgt. Unbekannt ist der tatsächliche RPV 12 Dollar. Wenn wir diesen Test dann mehrmals ausgeführt haben, enthalten 95 % der Zeit, in der das zu berechnende Konfidenzintervall die _true_ Wert des RPV von 12 USD.
 

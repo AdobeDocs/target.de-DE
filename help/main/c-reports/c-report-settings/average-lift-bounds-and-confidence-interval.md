@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Adobe interpretieren [!DNL Target] Berichte, 
 title: Wie kann ich die durchschnittliche Steigerung, die Steigerungsgrenzen und das Konfidenzintervall anzeigen?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 62%
+source-wordcount: '911'
+ht-degree: 60%
 
 ---
 
@@ -57,18 +57,18 @@ Die Steigerungsgrenzen stellen 95-%-Konfidenzintervalle der Steigerung dar, die 
 
 Die Steigerungsgrenzen werden mithilfe der folgenden Formel berechnet:
 
-![](assets/lift_diagram.png)
+![Bild &quot;lift_chart&quot;](assets/lift_diagram.png)
 
 Es gibt einige zusätzliche Berechnungen, um zur Eingabe der Steigerungsgrenzen zu gelangen:
 
 * **t-Wert:** Die kritische Statistik für unser Konfidenzniveau von 95% ist 1,96. Weitere Informationen zu [T-Werten finden Sie unter](https://en.wikipedia.org/wiki/T-statistic).
 * **Steigerungsvarianz:** Der Standardfehler der Erfolgsmetrik von Erlebnis N und der Standardfehler der Erfolgsmetrik des Kontrollerlebnisses sind zum Ermitteln der Steigerungsvarianz erforderlich, was mithilfe der folgenden Formel (in der Abbildung ist die Erfolgsmetrik eine Konversion) berechnet wird.
 
-   ![](assets/lift_variance.png)
+   ![Lift_Varianz-Bild](assets/lift_variance.png)
 
 * **Konversionsrate/Erfolgsmetrik-Standardfehler:** Der Standardfehler wird mit der folgenden Formel auf die gleiche Weise für Erlebnis N und die Kontrolle berechnet (in der Abbildung ist die Erfolgsmetrik eine Konversion). Informationen über den Standardfehler finden Sie [hier](https://en.wikipedia.org/wiki/Standard_error).
 
-   ![](assets/standard_error.png)
+   ![standard_error-Bild](assets/standard_error.png)
 
    >[!NOTE]
    >
@@ -87,25 +87,25 @@ Anhand unserer Formeln können wir die für die Steigerungsgrenzen erforderliche
 
 **Standardfehler für Erlebnis A (Kontrolle)**
 
-![](assets/standard_error_A.png)
+![standard_error_A image](assets/standard_error_A.png)
 
 **Standardfehler für Erlebnis B**
 
-![](assets/standard_error_B.png)
+![standard_error_B-Bild](assets/standard_error_B.png)
 
 **Steigerungsvarianz für Erlebnis B**
 
-![](assets/lift_variance_B.png)
+![lift_variance_B-Bild](assets/lift_variance_B.png)
 
 **Steigerungsgrenzen für Erlebnis B**
 
 Erwartete Steigerung für Erlebnis B:
 
-![](assets/lift_bounds_B.png)
+![Bild &quot;lift_bounds_B&quot;](assets/lift_bounds_B.png)
 
 Daher würden die Steigerungsgrenzen für Erlebnis B wie folgt lauten:
 
-![](assets/lift_bounds_B2.png)
+![Bild &quot;lift_bounds_B2&quot;](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

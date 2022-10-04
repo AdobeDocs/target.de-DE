@@ -4,10 +4,10 @@ description: Eine Liste der häufig gestellten Fragen und Antworten zu Adobe  [!
 title: Wo finde ich Fragen und Antworten zu  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3135'
-ht-degree: 99%
+source-wordcount: '3153'
+ht-degree: 98%
 
 ---
 
@@ -102,7 +102,7 @@ Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vo
 
 Wenn Sie auf die Einstellung [!UICONTROL Inkompatible Kriterien filtern] zugreifen möchten, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Einstellungen]:
 
-![](assets/recs_settings_filter.png)
+![recs_settings_filter image](assets/recs_settings_filter.png)
 
 Wenn die Einstellung [!UICONTROL Inkompatible Kriterien filtern] NICHT aktiviert ist, filtert [!DNL Target] Algorithmen im Algorithmus-Wähler nicht, und es werden alle Algorithmen angezeigt.
 
@@ -110,7 +110,7 @@ Wenn die Einstellung [!UICONTROL Inkompatible Kriterien filtern] aktiviert ist, 
 
 Bei aktivierter Einstellung [!UICONTROL Inkompatible Kriterien filtern] können Sie nichtkompatible Algorithmen trotzdem anzeigen, indem Sie beim Auswählen von Kriterien das Kontrollkästchen [!UICONTROL Kompatibel] deaktivieren.
 
-![](assets/compatible_checkbox.png)
+![kompatible_checkbox-Bild](assets/compatible_checkbox.png)
 
 Die folgende Liste enthält Sonderfälle, in denen das Kontrollkästchen [!UICONTROL Kompatibel] in [!DNL Target] nicht angezeigt wird:
 
@@ -126,7 +126,7 @@ Beachten Sie die folgenden Informationen, wenn eine Sammlung, die zuvor nicht nu
 * Sie können die Sammlung erneut speichern und prüfen, ob der Wert aktualisiert wird. Durch das erneute Speichern führt die Sammlung alle Algorithmen, die diese Sammlung verwenden, erneut aus.
 * Befinden Sie sich in der richtigen Umgebung? Zu [!DNL /target/products.html#recsSettings] gehen, um gegenzuprüfen (wie unten dargestellt).
 
-   ![](assets/product_catalog.png)
+   ![product_catalog-Bild](assets/product_catalog.png)
 
 * Ist Ihr Index aktuell? Überprüfen Sie unter [!DNL /target/products.html#productSearch], wie alt der Index ist (z. B. „Vor 3 Stunden indiziert“). Sie können den Index bei Bedarf aktualisieren.
 * Haben Sie Änderungen am Feed oder an der Datenebene vorgenommen, die dazu geführt haben, dass Ihre Entitäten nicht mehr mit den Sammlungsregeln übereinstimmen? Stellen Sie sicher, dass die Groß-/Kleinschreibung übereinstimmt (Beachtung der Groß-/Kleinschreibung).
@@ -139,13 +139,13 @@ Die Attributgewichtung liegt in zwei Formen vor: „Standardattributgewichtung�
 
 Die „Standardattributgewichtung“ gilt für die meisten, wenn nicht gar für alle Kriterientypen (nicht nur „Inhaltsähnlichkeit“). Dieser Gewichtungstyp gewichtet bestimmte Attributwerte stärker. Im folgenden Beispiel werden Nike-Produkte in den Ausgabeempfehlungen angestoßen.
 
-![](assets/attribute_weighting_example.png)
+![attribute_weight_example-Bild](assets/attribute_weighting_example.png)
 
 Die „Inhaltsähnlichkeits-Attributgewichtung“ gilt nur für Kriterien der Inhaltsähnlichkeit.
 
 Dieser Gewichtungstyp ist dynamischer und basiert auf dem aktuellen „Empfehlungsschlüssel“ (dem derzeit angezeigten Element). Wenn im folgenden Beispiel (Marke x 16) ein Besucher Sneaker von Nike anzeigt, werden diesem Besucher mit höherer Wahrscheinlichkeit andere Nike-Produkte empfohlen (nicht nur Sneaker) als Sneaker von anderen Herstellern. Wenn ein Besucher Sneaker der Marke Adidas anzeigen würde, würden ihm wahrscheinlich Adidas-Produkte empfohlen.
 
-![](assets/content_similarity_example.png)
+![content_similarity_example image](assets/content_similarity_example.png)
 
 ## Warum ist [!DNL Target] manchmal nicht in der Lage, Empfehlungen anzuzeigen? {#section_DB3F40673AED42228E407C05437D99E9}
 

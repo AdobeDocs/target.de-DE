@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die Option "Zu URL umleiten"in Adobe verwende
 title: Kann ich eine Seite zu einer anderen URL umleiten?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 84%
+source-wordcount: '440'
+ht-degree: 80%
 
 ---
 
@@ -31,9 +31,9 @@ Für umgeleitete Angebote bestehen einige Begrenzungen:
 So erstellen Sie ein Umleitungsangebot:
 
 1. Erstellen Sie ein Erlebnis.
-1. Halten Sie den Mauszeiger über ein Erlebnis und klicken Sie auf das Symbol für die Umleitung auf eine URL (![](assets/icon_redirect_url.png)).
+1. Bewegen Sie den Mauszeiger über ein Erlebnis und klicken Sie dann auf das Symbol Zu URL umleiten (![icon_redirect_url image](assets/icon_redirect_url.png)).
 
-   ![](assets/exp_actions.png)
+   ![exp_actions-Bild](assets/exp_actions.png)
 
 1. Geben Sie die URL ein.
 1. Falls gewünscht, wählen Sie die Option zur Einbeziehung der aktuellen Abfrageparameter.

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit der Recommendations-Katalogsuche Produkte
 title: Wie verwende ich die Recommendations-Katalogsuche?
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1041'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ Sie können eine einfache Suche oder eine erweiterte Suche verwenden, um Element
 
 1. (Optional) Sie können die Suche verfeinern, indem Sie eine Suchoption aus dem Optionsmenü auswählen, das angezeigt wird, wenn Sie im Suchfeld auf den Abwärtspfeil klicken.
 
-   ![](assets/searchproductsmenu.png)
+   ![searchproductsmenu image](assets/searchproductsmenu.png)
 
    Zu den Suchoptionen zählen:
 

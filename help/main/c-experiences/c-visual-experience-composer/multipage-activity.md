@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Adobe eine mehrseitige Aktivität erstelle
 title: Wie erstelle ich eine mehrseitige Aktivität?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 85%
+source-wordcount: '383'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +32,7 @@ So fügen sie einem Test Seiten hinzu:
 
    Eine Navigationsleiste wird auf der linken Bildschirmseite angezeigt.
 
-   ![](assets/multipage_nav.png)
+   ![multipage_nav-Bild](assets/multipage_nav.png)
 
 1. Geben Sie über diese Navigationsleiste Ihre Seiten an und legen Sie darüber die Standardseite fest.
 
@@ -40,7 +40,7 @@ So fügen sie einem Test Seiten hinzu:
 
    Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen, um ein Aktionsmenü anzuzeigen:
 
-   ![](assets/multipage_menu.png)
+   ![multipage_menu-Bild](assets/multipage_menu.png)
 
    Mithilfe dieses Menüs können Sie Seiten umbenennen, einen Umleitungstest von innerhalb der mehrseitigen Aktivität aus durchführen oder die Seite löschen.
 

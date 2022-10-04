@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie den Bereich "Änderungen"in Adobe verwenden [
 title: Welche Änderungen kann ich an meiner Seite vornehmen?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2137'
-ht-degree: 93%
+source-wordcount: '2185'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ Auf der Seite „Änderungen“ finden Sie alle Änderungen, die im Visual Exper
 
 Auf der Seite [!UICONTROL Änderungen] werden alle Änderungen angezeigt, die im VEC an Ihrer Seite vorgenommen wurden. Jede vorgenommene Änderung erscheint in der Liste [!UICONTROL Änderungen] als separate Aktion oder separates Element.
 
-![](assets/codeeditor_page_mods.png)
+![Bild &quot;codeeditor_page_mods&quot;](assets/codeeditor_page_mods.png)
 
 Auf der Seite „Änderungen“ können Sie kleine Änderungen an dem Selektor vornehmen, den Target auswählt, wenn Sie über den VEC konfigurieren, wie Inhalte bereitgestellt werden. Sie können entweder den Inhalt oder ein HTML-Attribut ändern. Sie können auch den Code bearbeiten, um die Entsprechung zu einem HTML-Angebot in einer Mbox zu erstellen.
 
@@ -29,39 +29,39 @@ Auf der Seite „Änderungen“ können Sie folgende Aktionen durchführen:
 
 * Anzeigen einer Aktion, die im Visual Composer durchgeführt wurde.
 
-   ![](assets/codeeditor_viewchange.png)
+   ![codeeditor_viewchange-Bild](assets/codeeditor_viewchange.png)
 
 * Bearbeiten einer vorhandenen Aktion. Halten Sie den Mauszeiger über die gewünschte Änderung und klicken Sie auf das **[!UICONTROL Bearbeitungssymbol]**.
 
-   ![](assets/codeeditor_edit.png)
+   ![codeeditor_edit image](assets/codeeditor_edit.png)
 
    Vornehmen der gewünschten Änderungen.
 
-   ![](assets/codeeditor_changechange1.png)
+   ![codeeditor_change1-Bild](assets/codeeditor_changechange1.png)
 
 * Löschen einer vorhandenen Aktion. Halten Sie den Mauszeiger über die gewünschte Umgebung und klicken Sie auf das **[!UICONTROL Löschsymbol]**.
 
-   ![](assets/codeditor_delete.png)
+   ![codeditor_delete-Bild](assets/codeditor_delete.png)
 
 * Hinzufügen einer neuen Änderung. Klicken Sie auf **[!UICONTROL Änderung hinzufügen]** oder das Plus-Symbol (+) und geben Sie Ihre Änderungen wie unten beschrieben an.
 
-   ![](assets/codeeditor_new.png)
+   ![codeeditor_new image](assets/codeeditor_new.png)
 
    Beachten Sie, dass Target nach Erstellen einer Änderung anstelle der Schaltfläche „Änderung hinzufügen“ unten im Fenster ein Plus-Symbol (+) oben im Bereich „Änderungen“ anzeigt.
 
 * Docken Sie das Bedienfeld „Änderungen“ vertikal an der Seite oder horizontal an der Unterseite der Target-Benutzeroberfläche an. Klicken Sie auf das [!UICONTROL Andocksymbol], um zwischen den beiden Einstellungen zu wechseln.
 
-   ![](assets/codeditor_dock.png)
+   ![codeditor_dock-Bild](assets/codeditor_dock.png)
 
    Die folgende Abbildung zeigt das Bedienfeld „Änderungen“, angedockt an der Unterseite des Bildschirms:
 
-   ![](assets/codeeditor_dock_bottom.png)
+   ![codeeditor_dock_bottom image](assets/codeeditor_dock_bottom.png)
 
 ## Änderungen hinzufügen {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
 1. Um die Seite [!UICONTROL Änderungen] für ein ausgewähltes Erlebnis anzuzeigen, klicken Sie im VEC auf das Symbol **[!UICONTROL Änderungen]** &lt;/>.
 
-   ![](assets/codeeditor_icon_big.png)
+   ![codeeditor_icon_big image](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
@@ -69,11 +69,11 @@ Auf der Seite „Änderungen“ können Sie folgende Aktionen durchführen:
 
    Die Seite [!UICONTROL „Änderungen“] wird geöffnet und unterteilt den Bildschirm in den visuellen Modus auf der linken und den Bereich „Änderungen“ auf der rechten Seite. Klicken Sie auf das [!UICONTROL Andocksymbol], um das Bedienfeld „Änderungen“ vertikal an der Seite oder horizontal an der Unterseite der Target-Benutzeroberfläche anzudocken. Beachten Sie, dass Erlebnis A in der folgenden Abbildung keine vorangegangenen Änderungen aufweist.
 
-   ![](assets/codeeditor_page.png)
+   ![Codeeditor_page-Bild](assets/codeeditor_page.png)
 
    Erlebnis B enthält vorangegangene Änderungen im Bereich [!UICONTROL Änderungen] auf der rechten Seite.
 
-   ![](assets/codeeditor_page_mods.png)
+   ![Bild &quot;codeeditor_page_mods&quot;](assets/codeeditor_page_mods.png)
 
 1. So fügen Sie eine Änderung hinzu:
 
@@ -82,7 +82,7 @@ Auf der Seite „Änderungen“ können Sie folgende Aktionen durchführen:
 
    Der Bereich „Änderungen“ zeigt Folgendes an:
 
-   ![](assets/codeeditor_page_mods_add.png)
+   ![codeeditor_page_mods_add image](assets/codeeditor_page_mods_add.png)
 
 1. Wählen Sie in der Dropdownliste **[!UICONTROL Änderungstyp]** den gewünschten Typ aus:
 
@@ -104,7 +104,7 @@ Selektoren für nachfolgende visuelle Aktionen hängen von den HTML-Elementen ab
 
 Der Bereich „Benutzerspezifischer Code“ wird normalerweise verwendet, um JavaScript oder CSS oben auf der Seite hinzuzufügen.
 
-![](assets/codeeditor_custom.png)
+![codeeditor_custom image](assets/codeeditor_custom.png)
 
 Auf der Registerkarte **[!UICONTROL Benutzerspezifischer Code]** können Sie Folgendes tun:
 
@@ -215,7 +215,7 @@ Die Nachricht gibt an, dass sich die Struktur Ihrer Seite seit dem letzten Speic
 
 Die fehlenden Auswahlelemente können möglicherweise über den Durchsuchen-Modus erreicht werden. Es wird empfohlen, die einzelnen Erlebnisse zu löschen und anschließend neu zu erstellen, um zu gewährleisten, dass der Inhalt erwartungsgemäß dargestellt wird, wie in der Warnmeldung angegeben.
 
-![](assets/code_editor_2.png)
+![Bild &quot;code_editor_2&quot;](assets/code_editor_2.png)
 
 ***Wenn ich ein Element lösche, sehe ich die Warnung: „Das Löschen dieser Aktion kann sich auf darauffolgende Aktionen auswirken.“ Was bedeutet das?***
 

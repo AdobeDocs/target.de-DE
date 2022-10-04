@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Adobe [!DNL Target] verwendet den Random Forest-A
 title: Funktionsweise [!DNL Target] Verwenden Sie den Random Forest-Algorithmus?
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 95%
+source-wordcount: '1427'
+ht-degree: 94%
 
 ---
 
@@ -34,13 +34,13 @@ Nehmen wir einmal an, die Postleitzahl sei sehr prädiktiv. Diese Variable würd
 
 Diese Aktion würde die erste Schicht unseres Entscheidungsbaums ergeben:
 
-![](assets/decsion_tree_1.png)
+![Bild des Entscheidungsbaums_1](assets/decsion_tree_1.png)
 
 Der Entscheidungsbaum würde die Frage stellen: „Was ist die prädiktivste Variable?“ In unserem Beispiel haben wir nur zwei Variablen, daher lautet die Antwort hier eindeutig Geschlecht. Der Baum versucht nun, ein ähnliches Verfahren auszuführen, um die Daten *in jedem Zweig* aufzuteilen. Betrachten wir zunächst Zweig 11111, 22222 und 33333. Wenn es in diesen Postleitzahlbereichen zwischen Männern und Frauen einen Unterschied bei der Konversion gäbe, dann gäbe es zwei Blätter (Männer und Frauen) und dieser Zweig wäre komplett. In dem anderen Zweig, 44444 und 55555, gehen wir einmal davon aus, dass es keinen statistischen Unterschied gibt, wie Frauen und Männer konvertieren. In diesem Fall wird der erste Zweig zum endgültigen Split.
 
 Unser Beispiel würde zu dem unten stehenden Baum führen:
 
-![](assets/decsion_tree_2.png)
+![Bild der Entscheidungsstruktur_tree_2](assets/decsion_tree_2.png)
 
 ## Wie werden Entscheidungsbäume von Random Forest verwendet? {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -52,7 +52,7 @@ Entscheidungsbäume können ein effektives statistisches Werkzeug sein. Sie habe
 
 Das folgende Diagramm fasst zusammen, wie Modelle für automatisches Targeting oder automatisierte Personalisierungsaktivitäten aufgebaut werden:
 
-![](assets/random_forest_flow.png)
+![random_forest_flow image](assets/random_forest_flow.png)
 
 1. Target sammelt Daten über Besucher, indem es zufällige Erlebnisse/Angebote vorschlägt.
 1. Wenn Target eine bestimmte Menge an Daten gesammelt hat, führt es eine Merkmalbearbeitung durch.

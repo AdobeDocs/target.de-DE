@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Probleme beheben können, die manchmal in der
 title: Wie kann ich Probleme im Zusammenhang mit Visual Experience Composer beheben?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 87%
+source-wordcount: '804'
+ht-degree: 86%
 
 ---
 
@@ -82,12 +82,12 @@ Sollte weder Visual Experience Composer noch Enhanced Experience Composer funkti
 
       * Ändern Sie **[!UICONTROL Entspricht]** zu **[!UICONTROL Enthält]** als Bedingung für die Quell-URL und geben Sie die URL der Aktivität ein, die Sie in VEC laden möchten.
 
-      ![](assets/chrome_extension.png)
+      ![Chrome_extension-Bild](assets/chrome_extension.png)
 
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   ![](assets/requestly.png)
+   ![Anforderungsbild](assets/requestly.png)
 
    Sie sollten die Seite nun schnell mit Visual Experience Composer laden können.
 
@@ -102,7 +102,7 @@ Sollte weder Visual Experience Composer noch Enhanced Experience Composer funkti
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 1. Klicken Sie auf **[!UICONTROL Start]**.
 
-![](assets/firefox_extension.png)
+![firefox_extension image](assets/firefox_extension.png)
 
 Öffnen Sie Target, nachdem Sie eine der Erweiterungen eingerichtet haben. Ihre Seiten sollten nun in Visual Experience Composer geladen werden, selbst wenn Enhanced Experience Composer deaktiviert ist.
 

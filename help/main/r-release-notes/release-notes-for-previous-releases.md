@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '34596'
+source-wordcount: '34600'
 ht-degree: 96%
 
 ---
@@ -127,7 +127,7 @@ Diese Version enthält die folgende Aktualisierung:
 Dieses Maintenance Release umfasst die folgenden Erweiterungen:
 
 * Funktion zur Rückgabe hinzugefügt [!DNL Analytics] Nutzlastdaten für `prefetch` Ansichten und `pageLoad` Klicken Sie bei Verwendung von [!UICONTROL Bereitstellungs-API] mit Aktivitäten, die [!UICONTROL Analytics als Berichtsquelle] (A4T). (TNT-43198)
-* Die Liste der Benutzeragenten für die Bot-Filterung wurde aktualisiert, um einen in Japan häufig verwendeten Browsertyp zuzulassen. (TNT-43867)
+* Die Liste der Benutzeragenten für die Bot-Filterung wurde aktualisiert, damit ein in Japan häufig verwendeter Browsertyp zugelassen wird. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1. Februar 2022)
 
@@ -2195,7 +2195,7 @@ Diese Version von [!DNL Target] umfasst die folgenden Verbesserungen und Fehlerb
 * Die [!DNL Target]-Benutzeroberfläche wurde aktualisiert, um Umleitungsangebote in Aktivitäten zu unterstützen, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. Für diese Funktion wird die Bibliothek [!DNL at.js] 0.9.6 benötigt, die demnächst verfügbar sein wird.
 * Die [!DNL Target]-Benutzeroberfläche wurde an einigen Stellen aktualisiert:
 
-   * Auf einige Optionen in Berichten und Aktivitäten ([!UICONTROL Bearbeiten], [!UICONTROL Im Feed freigeben], [!UICONTROL Erlebnis-URLs anzeigen] usw.) erfolgt der Zugriff jetzt über das Symbol [!UICONTROL Weitere Optionen] (![](assets/icon_more_options.png)).
+   * Auf einige Optionen in Berichten und Aktivitäten ([!UICONTROL Bearbeiten], [!UICONTROL Im Feed freigeben], [!UICONTROL Erlebnis-URLs anzeigen] usw.) erfolgt der Zugriff jetzt über das Symbol [!UICONTROL Weitere Optionen] (![).icon_more_options-Bild](assets/icon_more_options.png)
 
        
    * In der Bibliothek [!UICONTROL Angebote] werden Angebote jetzt als Liste und nicht mehr als Karten angezeigt. Weitere kleinere Änderungen der Benutzeroberfläche der gesamten Bibliothek [!UICONTROL Angebote] wurden durchgeführt.

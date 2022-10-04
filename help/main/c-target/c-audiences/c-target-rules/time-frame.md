@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mit Start- und Enddaten und -zeiten Benutzer 
 title: Kann ich Besucher ansprechen, die meine Site zu bestimmten Zeiten besuchen?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 45%
+source-wordcount: '428'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ Verwenden Sie beispielsweise die [Funktion für kombinierte Ad-hoc-Zielgruppen](
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
 1. Drag &amp; Drop **[!UICONTROL Zeitrahmen]** in den Audience Builder-Bereich.
 
-   ![](assets/target_timeframe_dialog.png)
+   ![target_timeframe_dialog-Bild](assets/target_timeframe_dialog.png)
 
 1. Geben Sie die [!UICONTROL Starten] und [!UICONTROL Ende] Datum und Uhrzeit für die Zielgruppe.
 

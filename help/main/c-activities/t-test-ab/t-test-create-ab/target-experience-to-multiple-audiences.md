@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Adobe Versionen desselben Erlebnisses für
 title: Kann ich mehrere Erlebnisversionen in einer A/B-Aktivität verwenden?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 92%
 
 ---
@@ -39,7 +39,7 @@ In diesem Fall müssen Sie regionsspezifische Versionen des Erlebnisses erstelle
 
 1. Klicken Sie auf **[!UICONTROL Zielgruppe hinzufügen]** und wählen Sie die erste Zielgruppe aus. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
 
-   ![](assets/exp-versions.png)
+   ![Bild mit Exp-Versionen](assets/exp-versions.png)
 
    Wenn die Zielgruppe noch nicht vorhanden ist, klicken Sie auf [Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) und richten Sie sie ein.
 

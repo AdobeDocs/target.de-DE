@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Adobe verwenden [!DNL Target] QA-URLs zur ein
 title: Wie kann ich QA-Aktivitäten durchführen?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1832'
 ht-degree: 39%
 
 ---
@@ -57,7 +57,7 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 
    Sie können auf der Site navigieren, um die anderen Seiten anzuzeigen, da die [!UICONTROL Aktivitäts-QA] -Modus hängt. Dies gilt für at.js-Implementierungen mit Version 2.*x* oder höher. Für at.js 1.*x* -Implementierungen verwenden, ist diese Situation nur dann wahr, wenn der Browser des Besuchers keine Drittanbieter-Cookies blockiert.
 
-1. Um Berichte anzuzeigen, die über Aktivitäts-Link-URLs generiert wurden, klicken Sie auf die **[!UICONTROL Berichte]** klicken Sie auf die **[!UICONTROL Einstellungen]** Symbol (  ![](assets/icon_gear.png) ), wählen Sie **[!UICONTROL QA-Modus-Traffic]** von **[!UICONTROL Umgebung]** Dropdown-Liste.
+1. Um Berichte anzuzeigen, die über Aktivitäts-Link-URLs generiert wurden, klicken Sie auf die **[!UICONTROL Berichte]** klicken Sie auf die **[!UICONTROL Einstellungen]** Symbol (  ![icon_Zahnradbild](assets/icon_gear.png) ), wählen Sie **[!UICONTROL QA-Modus-Traffic]** von **[!UICONTROL Umgebung]** Dropdown-Liste.
 
 ## Zu beachten {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 

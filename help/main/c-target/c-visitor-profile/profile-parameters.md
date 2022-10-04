@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besuc
 title: Was sind Profilattribute?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: ht
-source-wordcount: '2441'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 99%
 
 ---
 
@@ -109,11 +109,11 @@ Klicken Sie auf **[!UICONTROL Vollständige Details anzeigen]**, um die Zielgrup
 
 Wird ein Profilskript deaktiviert, erscheint in der Target-Benutzeroberfläche neben dem betroffenen Skript ein gelbes Warnsymbol, wie unten dargestellt:
 
-![](assets/profile_script_invalid.png)
+![profile_script_invalid image](assets/profile_script_invalid.png)
 
 Halten Sie den Mauszeiger darüber, werden Fehlerdetails angezeigt, wie unten dargestellt:
 
-![](assets/profile_script_hover.png)
+![profile_script_hover image](assets/profile_script_hover.png)
 
 Typische Gründe für die Deaktivierung von Profilskripten durch das System sind unter anderem folgende:
 
@@ -161,7 +161,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
    Jedes Mal, wenn Sie eine Seite Ihrer Site laden, in der [!DNL Target] enthalten ist, beinhaltet die Antwort von [!DNL Target], wie unten gezeigt, Ihren Wert für das entsprechende Profilskript:
 
-   ![](assets/debug_profile_script_1.png)
+   ![debug_profile_script_1 image](assets/debug_profile_script_1.png)
 
 * **Verwenden Sie das mboxTrace-Debugging-Tool, um Profilskripte zu debuggen:**
 
@@ -171,7 +171,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
    Durch Hinzufügen dieser Parameter erhalten Sie etwas mehr Informationen als durch das Antwort-Token, da Sie hiermit einen Snapshot Ihres Profils vor und nach der Ausführung erhalten. Darüber hinaus zeigt es alle Ihre verfügbaren Profile an.
 
-   ![](assets/debug_profile_script_2.png)
+   ![debug_profile_script_2 image](assets/debug_profile_script_2.png)
 
 ## Häufig gestellte Fragen zu Profilskripten {#section_1389497BB6D84FC38958AE43AAA6E712}
 

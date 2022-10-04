@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mehrere Metriken auswählen, die in einem Ber
 title: Wie kann ich mehrere Metriken in einem Bericht anzeigen?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 59%
+source-wordcount: '444'
+ht-degree: 58%
 
 ---
 
@@ -27,7 +27,7 @@ Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Info
 1. Möchten Sie einen Bericht anzeigen, klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte.]**
 1. Klicken Sie auf die Dropdownliste **[!UICONTROL Berichtsmetrik]**, um die Listen [!UICONTROL Angezeigte Metriken] und [!UICONTROL Ausgeblendete Metriken] anzuzeigen.
 
-   ![](assets/multiple_metrics.png)
+   ![Bild mit mehreren Metriken](assets/multiple_metrics.png)
 
    Mithilfe des Feldes [!UICONTROL Suche] können Sie schnell verfügbare Metriken finden, die der Liste [!UICONTROL Angezeigte Metriken] hinzugefügt werden sollen.
 
@@ -46,10 +46,10 @@ Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Info
 1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
 1. (Bedingt) Beim Anzeigen des Berichts im [!UICONTROL Tabellenansicht]zeigen Sie mit dem Mauszeiger auf die Spaltenüberschrift einer Metrik, um einen blauen Pfeil anzuzeigen. Klicken Sie auf den Pfeil, um die Tabelle zu erweitern und [!UICONTROL Lift] und [!UICONTROL Vertrauen] für die jeweilige Metrik anzuzeigen.
 
-   ![](assets/multiple_metrics_table.png)
+   ![Bild &quot;multiple_metrics_table&quot;](assets/multiple_metrics_table.png)
 
    Sie können nur jeweils eine Metrik/Spalte erweitern. Klicken Sie erneut auf den Pfeil, um die Spalten zu reduzieren.
 
 1. (Bedingt) Beim Anzeigen des Berichts in der Diagrammansicht können Sie einzelne Metriken auswählen, die in der Dropdownliste angezeigt werden sollen:
 
-   ![](assets/multiple_metrics_graph.png)
+   ![Bild &quot;multiple_metrics_graph&quot;](assets/multiple_metrics_graph.png)

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Kriterien erstellen, die den Inhalt Ihrer Ado
 title: Wie erstelle ich Kriterien in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2843'
 ht-degree: 53%
 
 ---
@@ -184,7 +184,7 @@ Eine Erstellung von Empfehlungen anhand der Ähnlichkeit von Inhalten ist besond
 
 Wenn Sie **[!UICONTROL Artikelbasiert]**/ **[!UICONTROL Medien mit ähnlichen Attributen]** können Sie Regeln erstellen, um die Wichtigkeit bestimmter Elementattribute bei der Bestimmung von Empfehlungen zu erhöhen oder zu verringern. Bei Artikeln wie beispielsweise Büchern möchten Sie möglicherweise die Bedeutung von Attributen wie *Genre*, *Autor*, *Serie* und so weiter hervorheben, um ähnliche Bücher zu empfehlen.
 
-![](assets/ContentSimilarity.png)
+![Bild für Ähnlichkeit von Inhalten](assets/ContentSimilarity.png)
 
 Da beim Vergleich der Ähnlichkeit von Inhalten Stichwörter verwendet werden, führen einige Attribute wie *Botschaft* oder *Beschreibung* zu einer Verwässerung der Vergleiche. Sie können daher Regeln erstellen, mit denen solche Attribute ignoriert werden.
 
@@ -224,7 +224,7 @@ Führen Sie zum Erstellen einer einfachen Einschlussregel die folgenden Schritte
 1. Legen Sie den Mindestbestand für die Produkte fest, die Sie empfehlen möchten.
 1. Konfigurieren Sie die Empfehlung, um nur Artikel anzuzeigen, wenn sie bestimmte Kriterien erfüllen.
 
-   ![](assets/Recs_InclusionRules.png)
+   ![Recs_InclusionRules-Bild](assets/Recs_InclusionRules.png)
 
    Sie können angeben, dass Artikel nur berücksichtigt werden, wenn eines der Attribute in der Liste eine oder mehrere angegebene Bedingungen erfüllt oder nicht erfüllt.
 
@@ -254,7 +254,7 @@ So haben Sie zum Beispiel die Möglichkeit, rabattierten Artikeln eine höherer 
 
    Die vollständige Regel könnte beispielsweise &quot;Kategorie enthält Unterzeichenfolgen-Schuhe&quot;lauten.
 
-   ![](assets/Recs_AttributeWeighting.png)
+   ![Recs_AttributeWeighting-Bild](assets/Recs_AttributeWeighting.png)
 
 1. Wählen Sie die Wertigkeit aus, die der Regel zugeordnet werden soll.
 
