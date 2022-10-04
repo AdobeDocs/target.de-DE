@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die [!UICONTROL Wichtige Attribute] -Bericht,
 title: Was ist der Bericht "Wichtige Attribute"?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -40,13 +40,13 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
 
 1. Klicken Sie auf **[!UICONTROL Berichte]**.
 
-   Die [Automated Personalization-Zusammenfassung](/help/main/c-reports/reports-ap.md) oder [Zusammenfassung für automatisches Targeting](/help/main/c-reports/auto-target-summary-report.md) angezeigt, der Informationen über die Leistung Ihrer Aktivitäten bereitstellt und durch das Symbol des ersten Bildschirms dargestellt wird. Die beiden zusätzlichen Symbole stellen die beiden [!UICONTROL Personalization Insights] Berichte: [!UICONTROL Automatisierte Segmente] und [!UICONTROL Wichtige Attribute].
+   Die [Automated Personalization-Zusammenfassung](/help/main/c-reports/personalization-reports/reports-ap.md) oder [Zusammenfassung für automatisches Targeting](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) angezeigt, der Informationen über die Leistung Ihrer Aktivitäten bereitstellt und durch das Symbol des ersten Bildschirms dargestellt wird. Die beiden zusätzlichen Symbole stellen die beiden [!UICONTROL Personalization Insights] Berichte: [!UICONTROL Automatisierte Segmente] und [!UICONTROL Wichtige Attribute].
 
-   ![Zusammenfassungsbericht für Automated Personalization-Aktivität](assets/summary-report-ap.png)
+   ![Zusammenfassungsbericht für Automated Personalization-Aktivität](/help/main/c-reports/assets/summary-report-ap.png)
 
    Beachten Sie Folgendes: [!UICONTROL Automatisches Targeting] verfügt über ein zusätzliches Diagrammsymbol für die grafische Ansicht des [!UICONTROL Zusammenfassung] Bericht.
 
-   ![Zusammenfassungsbericht für die Aktivität &quot;Automatisches Targeting&quot;](assets/personalization_insights.png)
+   ![Zusammenfassungsbericht für die Aktivität &quot;Automatisches Targeting&quot;](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -54,7 +54,7 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
 
 1. 15 Tage nach der Aktivierung der Aktivität klicken Sie auf das **[!UICONTROL Wichtige Attribute]** Symbol.
 
-   ![](assets/model_attribute_ranking.png)
+   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Wählen Sie den gewünschten Datumsbereich aus.
 
@@ -66,16 +66,15 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
 
    Diese festen Datumsbereiche ermöglichen es [!UICONTROL Personalization Insights], ausreichend Daten anzusammeln, um zu verhindern, dass Insights aus kurzfristigen Mustern in Ihrer Aktivität abgeleitet werden. Die beiden Entscheidungen, die Sie beim Datumsbereich treffen können, sind „Enddatum“ und „Dauer“. „Start“ ist ausgegraut. Das Startdatum ändert sich automatisch basierend auf Ihrer Auswahl für Enddatum und Dauer.
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Sie können über die Dropdownliste [!UICONTROL „Dauer auswählen“] auf die verfügbaren festen Datumsbereiche zugreifen.
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Überprüfen Sie die Daten des Berichts [!UICONTROL „Wichtige Attribute“].
 
-   ![](assets/model_attribute_ranking_report.png)
-
+   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Optional) [Laden Sie den Bericht im CSV-Format herunter](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF), um ihn in Excel und anderen Tools zu analysieren.
 
@@ -118,7 +117,7 @@ Personalization Insights (sowohl [!UICONTROL „Automatisierte Segmente“] als 
 
 **Wie wird [!UICONTROL Personalization Insights] erstellt?**
 
-[!UICONTROL Personalization Insights] wird mithilfe der patentierten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. Weitere Informationen über MAGIX finden Sie im veröffentlichten Text des Adobe-Forschungsteams in der [arXiv.org-Website](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights] wird mithilfe der patentierten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. Weitere Informationen zu MAGIX finden Sie im veröffentlichten Beitrag des Adobe-Forschungsteams auf der [Website &quot;arXiv.org&quot;](https://arxiv.org/abs/1706.07160).
 
 **Ist [!UICONTROL Personalization Insights] für umsatzbasierte Modellierungsziele/Primärziele verfügbar?**
 
@@ -136,7 +135,7 @@ Es kann verschiedene Gründe dafür geben, dass Ihnen in einem automatisierten S
 * Aktivitäten mit geringerem Volumen, in denen für bestimmte Angebote oder Erlebnisse keine Modelle erstellt wurden.
 * Aktivitäten mit geringerem Volumen, in denen Modelle für einige Angebote/Erlebnisse früher erstellt wurden als andere. Beispiel: Ein zusätzliches Modell wurde am Tag 22 erstellt und Sie sehen sich Daten von den Tagen 10 bis 24 an.
 * Targeting-Regeln in einem bestimmten Angebot, die einschränken, welchen Besuchern welche Angebote/Erlebnisse angezeigt werden.
-* In den Insight-Berichten gibt es keine Konfidenzintervalle. Wenn jedoch die Konversionsraten nahe genug beieinander liegen, kann das Modell Traffic liefern, dessen punktuelles Volumen zwar höher ist, aber die Zahlen nicht „statistisch voneinander abweichen“.
+* In den Insight-Berichten gibt es keine Konfidenzintervalle. Wenn die Konversionsraten jedoch nahe genug sind, kann das Modell Traffic bereitstellen, sodass es im Punktwert höher ist, aber keine &quot;statistisch unterschiedlichen&quot;Zahlen vorliegen.
 
 Es kann hilfreich sein zu wissen, wie das Modell funktioniert, das Traffic bereitstellt. Jede einzelne Person wird auf der Grundlage ihres Gesamtprofils angesprochen. Die Insight-Berichte verallgemeinern dieses Verhalten jedoch, damit es von Menschen besser interpretiert werden kann. Daher schließen sich Segmente nicht gegenseitig aus. Dies kann zu einzelnen Segmenten führen, die dieses Verhalten aufweisen, da eine Person in mehreren Segmenten vorkommen kann.
 

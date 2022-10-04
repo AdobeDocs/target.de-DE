@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Berichtseinstellungen in Adobe Target konfigu
 title: Wie konfiguriere ich Berichteinstellungen?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 69%
+source-wordcount: '1917'
+ht-degree: 67%
 
 ---
 
@@ -57,7 +57,7 @@ Wählen Sie die gewünschte Voreinstellung aus der Dropdownliste **[!UICONTROL Z
 1. Wählen Sie die Voreinstellung aus, die Sie bearbeiten möchten.
 1. Bearbeiten Sie die Berichtskonfiguration wie gewünscht (Metriken, Datumsbereiche, Zielgruppen, erweiterte Einstellungen usw.).
 
-   Wenn Sie nach der Bearbeitung der Konfiguration auf [!UICONTROL Speichern] klicken, wird ein Sternchen (*) hinter dem Voreinstellungsnamen angezeigt, das angibt, dass die Voreinstellung geändert wurde (siehe unten):
+   Nachdem Sie auf [!UICONTROL Speichern] nach Bearbeitung der Konfiguration des Berichts ein Sternchen ( &#42; ) wird nach dem Vorgabennamen angezeigt, um anzugeben, dass die Vorgabe geändert wurde, wie unten dargestellt:
 
    ![Berichtsvorgabe mit Sternchen](/help/main/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
@@ -167,7 +167,7 @@ Klicken Sie auf **[!UICONTROL Download]** Symbol zum Herunterladen von Berichtsd
 
 ![Download-Symbol](/help/main/c-reports/c-report-settings/assets/download-icon.png)
 
-Weitere Informationen finden Sie unter [Herunterladen von Daten in einer CSV-Datei](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Weitere Informationen finden Sie unter [Herunterladen von Daten in einer CSV-Datei](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md).
 
 ## Aktualisieren {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -192,7 +192,7 @@ Der Bericht kann je nach Aktivitätstyp in verschiedenen Formaten angezeigt werd
 
 Berichte enthalten verschiedene Datenpunkte und Visualisierungsdarstellungen, anhand derer Sie die Steigerungsgrenzen und das Konfidenzniveau nachvollziehen können, die mit Ihrer Aktivität verbunden sind. Dadurch lässt sich ein Gewinner genauer ermitteln.
 
-Weitere Informationen finden Sie unter [Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Weitere Informationen finden Sie unter [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 Beachten Sie Folgendes:
 

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie eine [!UICONTROL Automated Personalization] A
 title: Wie erstelle ich eine [!UICONTROL Automated Personalization] Aktivität?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2048'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -86,7 +86,7 @@ Die [!UICONTROL Automated Personalization] Aktivitäts-Workflow in [!DNL Adobe T
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Angebote]**, um Inhalte auszuwählen und sie den richtigen Berichtsgruppen zuzuweisen oder per Targeting nur bestimmten Besuchern die Anzeige bestimmter Angebote zu ermöglichen.
 
-   Weitere Informationen finden Sie unter [Berichtsgruppen für Angebote in Automated Personalization](/help/main/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+   Weitere Informationen finden Sie unter [Berichtsgruppen für Angebote in Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
 
    Mit der Liste [!UICONTROL Standort] können Sie Angebote nach Standort filtern. Mit der Liste [!UICONTROL Berichtsgruppe] können Sie Angebote nach Berichtsgruppe filtern. Sie können die Liste [!UICONTROL Berichtsgruppe] auch verwenden, um [!UICONTROL nicht zugewiesenen Angeboten] zu filtern und so ein Angebot, dem bisher noch keine Berichtsgruppe zugewiesen wurde, einer beliebigen Gruppe zuzuweisen.
 
@@ -120,8 +120,8 @@ Die [!UICONTROL Automated Personalization] Aktivitäts-Workflow in [!DNL Adobe T
 
    ![Dropdown-Liste für die Traffic-Zuordnung](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **Personalisierungsalgorithmus auswerten (50/50):** Wenn Sie den Algorithmus testen möchten, sollten Sie eine 50/50-Prozentaufteilung der Besucher zwischen dem Kontroll- und dem Zielalgorithmus verwenden. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung. Für die Verwendung mit „zufällige Erlebnisse“ als Kontrolle empfohlen.
-   * **Personalisierungs-Traffic maximieren (90/10):** Wenn Sie eine „Always on“-Aktivität erstellen möchten, sollten Sie 10 % der Besucher in den Kontrollbereich versetzen, um sicherzustellen, dass ausreichend Daten vorhanden sind, damit die Algorithmen mit der Zeit weiterhin lernen können. Beachten Sie, dass das Personalisieren einer größeren Traffic-Menge zur Folge hat, dass die Bestimmung der exakten Steigerung weniger präzise ist. Unabhängig von Ihrem Ziel ist dies die empfohlene Traffic-Aufteilung, wenn ein bestimmtes Erlebnis als Kontrolle verwendet wird.
+   * **Personalisierungsalgorithmus auswerten (50/50):** Wenn Sie den Algorithmus testen möchten, sollten Sie eine 50/50-Prozentaufteilung der Besucher zwischen dem Kontroll- und dem Zielalgorithmus verwenden. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung. Für die Verwendung mit &quot;zufälligen Erlebnissen&quot;als Kontrolle empfohlen.
+   * **Personalisierungs-Traffic maximieren (90/10):** Wenn Sie eine &quot;Always on&quot;-Aktivität erstellen möchten, sollten Sie 10 % der Besucher in den Kontrollbereich versetzen, um sicherzustellen, dass ausreichend Daten vorhanden sind, damit die Algorithmen mit der Zeit weiter lernen können. Beachten Sie, dass das Personalisieren einer größeren Traffic-Menge zur Folge hat, dass die Bestimmung der exakten Steigerung weniger präzise ist. Unabhängig von Ihrem Ziel ist dies die empfohlene Traffic-Aufteilung, wenn ein bestimmtes Erlebnis als Kontrolle verwendet wird.
    * **Zuordnung anpassen:** Teilen Sie den Prozentsatz nach Bedarf manuell auf.
 
 1. (Abhängig von Ihrer Lizenz) Wählen Sie aus der Dropdownliste [!UICONTROL Kontrolle] ein [spezifisches Erlebnis aus, das als Kontrolle verwendet werden soll, ](/help/main/c-activities/t-automated-personalization/experience-as-control.md)oder wählen Sie [!UICONTROL Zufälliges Erlebnis] aus.
@@ -164,4 +164,4 @@ Die [!UICONTROL Automated Personalization] Aktivitäts-Workflow in [!DNL Adobe T
 
 Nachdem Sie auf **[!UICONTROL Erstellen]** geklickt haben, wird die Aktivitätsübersicht angezeigt. Klicken Sie auf **Vorschau für Erlebnisse**, um das Erscheinungsbild Ihrer Erlebnisse bei Bereitstellung in der Vorschau anzuzeigen. Ein Pop-up erscheint, das Sie zum Aufrufen und Freigeben der Links zu Ihren AP-Erlebnissen auf Ihrer Seite verwenden können, um eine Vorschau der Erlebnisse außerhalb des Visual Experience Composer von Target zu erhalten. Sie müssen die Links in der Nachricht freigeben, um die Vorschau freigeben zu können. Das Anklicken des Links und Kopieren der URL direkt auf der Seite funktionieren nicht, weil die URL einen Parameter enthält, der die Seite nur dann korrekt anzeigt, wenn Sie vom Link in der Nachricht aus auf die Seite zugreifen.
 
-Weitere Informationen zur Berichterstellung finden Sie unter [Automatisierte Personalisierungsberichte](/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
+Weitere Informationen zur Berichterstellung finden Sie unter [Automatisierte Personalisierungsberichte](/help/main/c-reports/personalization-reports/reports-ap.md).

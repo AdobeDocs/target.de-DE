@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Leistung verbessern, Probleme vermeiden u
 title: Welche Best Practices gibt es für Multivarianz-Tests?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 100%
@@ -45,8 +45,8 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 
 ## Analyse  {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Nutzen Sie den [Location Contribution-Bericht](/help/main/c-reports/location-contribution-report.md) regelmäßig, um die Leistung der einzelnen Orte und Angebote zu überwachen.
-* Basieren Sie Ihre Entscheidungen im [Experience Performance-Bericht](/help/main/c-reports/experience-performance-report.md) auf Daten, die bei Nutzung der Filter „Beste 5“ und „Schlechteste 5“ angezeigt werden.
+* Nutzen Sie den [Location Contribution-Bericht](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) regelmäßig, um die Leistung der einzelnen Orte und Angebote zu überwachen.
+* Basieren Sie Ihre Entscheidungen im [Experience Performance-Bericht](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) auf Daten, die bei Nutzung der Filter „Beste 5“ und „Schlechteste 5“ angezeigt werden.
 
    Der Filter [!UICONTROL Alle] erschwert die Gewinnung der gewünschten Informationen und es ist nicht möglich, alle Erlebnisse im Diagramm anzuzeigen. Verwenden Sie den Filter [!UICONTROL Alle], wenn Sie ein spezifisches Erlebnis betrachten möchten, das nicht zu den besten oder schlechtesten fünf zählt.
 

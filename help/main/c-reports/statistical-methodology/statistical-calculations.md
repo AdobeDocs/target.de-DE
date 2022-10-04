@@ -3,7 +3,7 @@ keywords: Berichte; statistische Methode; statistische Berechnungen; Statistiken
 description: Hier erfahren Sie mehr über die statistischen Berechnungen, die in manuellen [!UICONTROL A/B-Test] Aktivitäten in [!DNL Adobe Target].
 title: Erfahren Sie mehr über die in [!UICONTROL A/B-Test] Aktivitäten?
 feature: Reports
-source-git-commit: 4fc3de2a15f117a4356d67fcffd7f9b881e1179a
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 2%
@@ -132,6 +132,6 @@ Schließlich wird die unter [!DNL Target] definiert als:
 
 ## Durchführen von Berechnungen offline
 
-Der [heruntergeladene CSV-Bericht](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
+Der [heruntergeladene CSV-Bericht](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
 
 Um diese statistischen Mengen zu berechnen, laden Sie die [Vollständige Vertrauensberechnung](/help/main/assets/complete_confidence_calculator.xlsx) Excel-Datei zur Eingabe des Aktivitätswerts.

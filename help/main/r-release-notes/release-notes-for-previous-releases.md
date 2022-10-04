@@ -4,7 +4,7 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '34596'
 ht-degree: 96%
@@ -1472,7 +1472,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Berichte </p> </td> 
-   <td colname="col2"> <p>Die Informationen hinsichtlich der Steigerung und Steigerungsgrenzen wurden dahingehend verbessert, dass sie nun umfangreicher und nützlicher sind und eine QuickInfo enthalten, die erklärt, wie die Steigerungsgrenzen berechnet werden. (TGT-28729) </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129" format="dita" scope="local">Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall.</a> </p> </td> 
+   <td colname="col2"> <p>Die Informationen hinsichtlich der Steigerung und Steigerungsgrenzen wurden dahingehend verbessert, dass sie nun umfangreicher und nützlicher sind und eine QuickInfo enthalten, die erklärt, wie die Steigerungsgrenzen berechnet werden. (TGT-28729) </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Aktivitäten vom Typ „Automated Personalization (AP)“ und „Automatisches Targeting“ </p> </td> 
@@ -3153,7 +3153,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Automated Personalization </p> <p>Konversionsbasierter Bericht </p> </td> 
-   <td colname="col2"> <p> Wenn das Optimierungsziel eine Konversionsmetrik ist, werden jetzt im Bericht „Angebotsdetails“ die Auswirkungen der wichtigsten Vorhersagevariablen auf die Steigerung und die inkrementellen Konversionen angezeigt. Dieser Bericht war vorher nur umsatzbasiert, sodass diese Aktivität sicherstellt, dass Aktivitäten ohne Umsatzdaten weiterhin relevante und umsetzbare Einblicke generieren. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local">Automated Personalizationsberichte.</a> </p> </td> 
+   <td colname="col2"> <p> Wenn das Optimierungsziel eine Konversionsmetrik ist, werden jetzt im Bericht „Angebotsdetails“ die Auswirkungen der wichtigsten Vorhersagevariablen auf die Steigerung und die inkrementellen Konversionen angezeigt. Dieser Bericht war vorher nur umsatzbasiert, sodass diese Aktivität sicherstellt, dass Aktivitäten ohne Umsatzdaten weiterhin relevante und umsetzbare Einblicke generieren. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-reports/personalization-reports/reports-ap.md" format="dita" scope="local">Automated Personalizationsberichte.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> E-Mail-Integration von Adobe Campaign in Target Standard </td> 

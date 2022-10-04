@@ -4,10 +4,10 @@ description: Erfahren Sie, wie eine Aktivität vom Typ "Automatisches Targeting"
 title: Was ist eine Aktivität vom Typ Automatisches Targeting?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 70%
+source-wordcount: '1987'
+ht-degree: 66%
 
 ---
 
@@ -63,7 +63,7 @@ Bei Erörterungen zu [!UICONTROL Automatisches Targeting] sind die folgenden Beg
 |---|---|
 | Multi-Armed Bandit | Die Methode „Multi-Armed Bandit“ stellt ein Gleichgewicht zwischen forschendem Lernen (Exploration) und der Verwertung der Lernergebnisse (Exploitation) her. |
 | Random Forest | Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Datenwissenschaft ist es eine Ensemble-Classification oder Regressionsmethode, die funktioniert, indem sie viele Entscheidungsbäume basierend auf Besuchern- und Besuchsattributen erstellt. Random Forest wird von Target eingesetzt, um zu bestimmen, welches Erlebnis die höchste Wahrscheinlichkeit einer Konversion (oder den höchsten Umsatz pro Besuch) für jeden einzelnen Besucher hat. Weitere Informationen zu Random Forest in Target finden Sie unter  [Random Forest-Algorithmus](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). |
-| Thompson Sampling | Ziel des Thompson Samplings ist es, festzustellen, welches (nicht personalisierte) Erlebnis insgesamt das beste ist, während gleichzeitig die „Kosten“ für die Auffindung dieses Erlebnisses minimiert werden. Das Thompson Sampling wählt immer einen Gewinner aus, auch wenn es keinen statistischen Unterschied zwischen zwei Erlebnissen gibt. Weitere Informationen finden Sie unter [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Thompson Sampling | Ziel des Thompson-Samplings ist es, zu ermitteln, welches Erlebnis insgesamt das beste (nicht personalisierte) Erlebnis ist, und gleichzeitig die &quot;Kosten&quot;für die Suche nach diesem Erlebnis zu minimieren. Das Thompson Sampling wählt immer einen Gewinner aus, auch wenn es keinen statistischen Unterschied zwischen zwei Erlebnissen gibt. Weitere Informationen finden Sie unter [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Funktionsweise von [!UICONTROL Automatisches Targeting] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -89,8 +89,8 @@ In der Dropdownliste [!UICONTROL Zuordnung anpassen] können Sie aus den folgend
 
 | Aktivitätsziel | Vorgeschlagene Traffic-Zuordnung | Kompromisse |
 |--- |--- |--- |
-| **Personalisierungsalgorithmus auswerten (50/50)**: Wenn Sie den Algorithmus testen möchten, sollten Sie eine 50/50-Prozentaufteilung der Besucher zwischen dem Kontroll- und dem Zielalgorithmus verwenden. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung. Für die Verwendung mit „zufällige Erlebnisse“ als Kontrolle empfohlen. | Aufteilung: 50 % Kontrolle / 50 % personalisiertes Erlebnis | <ul><li>Maximiert die Genauigkeit der Steigerung zwischen Kontrolle und personalisiert</li><li>Relativ weniger Besucher verfügen über ein personalisiertes Erlebnis</li></ul> |
-| **Personalisierungs-Datenverkehr maximieren (90/10)**: Wenn Sie eine „Always on“-Aktivität erstellen möchten, sollten Sie 10 % der Besucher in den Kontrollbereich versetzen, um sicherzustellen, dass ausreichend Daten vorhanden sind, damit die Algorithmen mit der Zeit weiterhin lernen können. Beachten Sie, dass Sie im Gegenzug für die Personalisierung eines größeren Teils Ihres Traffics weniger präzise sind, was genau die Steigerung ist. Unabhängig von Ihrem Ziel ist dies die empfohlene Traffic-Aufteilung, wenn ein bestimmtes Erlebnis als Kontrolle verwendet wird. | Empfohlene Aufteilung: 10–30 % Kontrolle / 70–90 % personalisiertes Erlebnis | <ul><li>Maximiert die Anzahl der Besucher mit einem personalisierten Erlebnis</li><li>Maximiert die Steigerung</li><li>Weniger Genauigkeit in Bezug darauf, wofür die Steigerung für die Aktivität dient</li></ul> |
+| **Personalisierungsalgorithmus auswerten (50/50)**: Wenn Sie den Algorithmus testen möchten, sollten Sie eine 50/50-Prozentaufteilung der Besucher zwischen dem Kontroll- und dem Zielalgorithmus verwenden. Durch diese Aufteilung erhalten Sie die genaueste Schätzung der Steigerung. Für die Verwendung mit &quot;zufälligen Erlebnissen&quot;als Kontrolle empfohlen. | Aufteilung: 50 % Kontrolle / 50 % personalisiertes Erlebnis | <ul><li>Maximiert die Genauigkeit der Steigerung zwischen Kontrolle und personalisiert</li><li>Relativ weniger Besucher verfügen über ein personalisiertes Erlebnis</li></ul> |
+| **Personalisierungs-Traffic maximieren (90/10)**: Wenn Sie eine &quot;Always on&quot;-Aktivität erstellen möchten, sollten Sie 10 % der Besucher in den Kontrollbereich versetzen, um sicherzustellen, dass ausreichend Daten vorhanden sind, damit die Algorithmen mit der Zeit weiter lernen können. Beachten Sie, dass Sie im Gegenzug für die Personalisierung eines größeren Teils Ihres Traffics weniger präzise sind, was genau die Steigerung ist. Unabhängig von Ihrem Ziel ist dies die empfohlene Traffic-Aufteilung, wenn ein bestimmtes Erlebnis als Kontrolle verwendet wird. | Empfohlene Aufteilung: 10–30 % Kontrolle / 70–90 % personalisiertes Erlebnis | <ul><li>Maximiert die Anzahl der Besucher mit einem personalisierten Erlebnis</li><li>Maximiert die Steigerung</li><li>Weniger Genauigkeit in Bezug darauf, wofür die Steigerung für die Aktivität dient</li></ul> |
 | **Zuordnung anpassen** | Teilen Sie den Prozentsatz nach Bedarf manuell auf. | <ul><li>Es kann sein, dass Sie nicht die gewünschten Ergebnisse erzielen. Wenn Sie unsicher sind, sollten Sie jeweils die Vorschläge der vorangegangenen Optionen befolgen.</li></ul> |
 
 Um den Krontrollprozentsatz anzupassen, klicken Sie auf die Symbole in der Zuordnungsspalte. Sie dürfen die Kontrollgruppe nicht auf weniger als 10 % reduzieren.
@@ -113,7 +113,7 @@ Es gibt verschiedene Szenarien, in denen Sie möglicherweise [!UICONTROL Automat
 
 * Der Algorithmus prognostiziert die Neigung eines Besuchers zur Konversion (oder den voraussichtlichen Erlös aus einer Konversion), um das beste Erlebnis bereitzustellen.
 * Ein Besucher kann nach Ende einer bestehenden Sitzung für ein neues Erlebnis infrage kommen (es sei denn, der Besucher ist Mitglied der Kontrollgruppe. In diesem Fall bleibt das Erlebnis, das diesem Besucher beim ersten Besuch zugewiesen wird, bei nachfolgenden Besuchen gleich).
-* Innerhalb einer Sitzung ändert sich die Prognose nicht, damit die Beständigkeit der angezeigten Darstellung nicht beeinträchtigt wird.
+* Innerhalb einer Sitzung ändert sich die Prognose nicht, um die visuelle Konsistenz zu gewährleisten.
 
 **Der Algorithmus passt sich an Änderungen im Besucherverhalten an.**
 
@@ -159,7 +159,7 @@ Für [!UICONTROL Automatisches Targeting] können einfache Faustregeln zum Nachv
 
 ## Berichterstellung und [!UICONTROL Automatisches Targeting] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-Weitere Informationen finden Sie unter [Zusammenfassender Bericht zu „Automatisches Targeting“](/help/main/c-reports/auto-target-summary-report.md) im Abschnitt [Berichte](/help/main/c-reports/reports.md).
+Weitere Informationen finden Sie unter [Zusammenfassungsbericht für Automatisches Targeting](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).
 
 ## Schulungsvideo: Grundlegendes zu Aktivitäten mit automatischem Targeting ![Übersichtszeichen](/help/main/assets/overview.png)
 

@@ -4,10 +4,10 @@ description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Targ
 title: Wie behebe ich Fehler in Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 
 * [Häufig gestellte Fragen zur automatisierten Personalisierung](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Fehlerbehebung für Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-trouble.md)
-* [Automated Personalization-Zusammenfassungsberichte](/help/main/c-reports/reports-ap.md)
+* [Automated Personalization-Zusammenfassungsberichte](/help/main/c-reports/personalization-reports/reports-ap.md)
 * [Berichte zu Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Multivarianz-Tests (MVT)

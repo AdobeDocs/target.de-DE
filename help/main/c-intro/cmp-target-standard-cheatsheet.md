@@ -4,7 +4,7 @@ description: In diesem Abschnitt finden Sie eine Liste der häufig gestellten Fr
 title: Wo finde ich Antworten auf Fragen zur Optimierung und Personalisierung?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 96%
@@ -166,7 +166,7 @@ Sehen Sie sich die [Vorlagenregeln](/help/main/c-experiences/c-visual-experience
 
 **Mich stört die Meldung „allow your browser to load scripts“ (Laden von Skripten durch Browser zulassen), wenn ich versuche, meine Seite in Visual Experience Composer (VEC) zu laden. Wie lässt sich das vermeiden?**
 
-Dies liegt am gemischten Inhalt Ihrer Site. Hierbei handelt es sich um eine Site, die HTTP- und HTTPS-Ressourcen abruft. Bitten Sie Ihr IT-Team, vollständig zu HTTPS zu wechseln.
+Dies liegt daran, dass Ihre Site gemischte Inhalte enthält. Es handelt sich um eine Site, die sowohl HTTP- als auch HTTPS-Ressourcen abruft. Bitten Sie Ihr IT-Team, vollständig zu HTTPS zu wechseln.
 
 Bis dies der Fall ist, sollten Sie die unter   [Zulassen von gemischtem Inhalt in Ihrem Browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C), damit der Browser gemischte Inhalte laden kann. Dies ist eine Sicherheitsfunktion der meisten modernen Browser.
 
@@ -279,7 +279,7 @@ Hierfür ist [Analytics for Target (A4T)](/help/main/c-integrating-target-with-m
 
 **Kann ich Offline-Berichtsberechnungen durchführen?**
 
-Verwenden Sie [„Berichte in CSV exportieren“ und „Auftragsdetails als CSV exportieren“](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) auf der Seite „Berichte“ zum Herunterladen der gewünschten Berichtsdaten.
+Verwenden Sie [„Berichte in CSV exportieren“ und „Auftragsdetails als CSV exportieren“](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) auf der Seite „Berichte“ zum Herunterladen der gewünschten Berichtsdaten.
 
 **Kann ich das Kontrollerlebnis für das Auswerten von Berichten oder die Zählmethodologie von „Besucher“ in „Besuche“ ändern?**
 

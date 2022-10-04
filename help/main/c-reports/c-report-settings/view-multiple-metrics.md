@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mehrere Metriken auswählen, die in einem Ber
 title: Wie kann ich mehrere Metriken in einem Bericht anzeigen?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 59%
@@ -19,7 +19,7 @@ Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Info
 
 * Die Möglichkeit, mehrere Metriken anzuzeigen, ist verfügbar für [A/B-Test](/help/main/c-activities/t-test-ab/test-ab.md), [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md)und [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/experience-target.md) (XT) -Aktivitäten.
 * Sie können einem Bericht nicht mehr als 20 Metriken für eine Aktivität hinzufügen, die [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Sie können beliebig viele Metriken zu Berichten für Aktivitäten hinzufügen, die *not* Verwenden Sie A4T.
-* Wenn Sie mehrere Metriken ausgewählt haben, können Sie die Option [](/help/main/c-reports/downloading-data-in-csv-file.md)Download nicht zum Herunterladen von Berichten in CSV verwenden. Zum Aktivieren der Option [!UICONTROL Download] dürfen Sie nur eine einzelne Metrik auswählen.
+* Wenn Sie mehrere Metriken ausgewählt haben, können Sie die Option [](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)Download nicht zum Herunterladen von Berichten in CSV verwenden. Zum Aktivieren der Option [!UICONTROL Download] dürfen Sie nur eine einzelne Metrik auswählen.
 * Sie können nicht mehrere Metriken für Aktivitäten anzeigen, die vor Juli 2015 erstellt wurden [!DNL Target] -Version (30. Juli 2015).
 
 **So wählen Sie mehrere Metriken für die Anzeige im Bericht aus:**
