@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3d8da94a52046e70a89dc24d7923f743bee5c458
-workflow-type: ht
-source-wordcount: '632'
-ht-degree: 100%
+source-git-commit: c5445903e7bbab210d0e72200c54ab07975c21c5
+workflow-type: tm+mt
+source-wordcount: '737'
+ht-degree: 49%
 
 ---
 
@@ -18,31 +18,27 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 22.9.1 (gestaffelte Veröffentlichung vom 13. bis 15. September 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (gestaffelte Version vom 5. bis 7. Oktober 2022)
 
 Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
-* **13. September**: Region Europa, Naher Osten und Afrika (EMEA)
-* **14. September**: Amerikanische Region
-* **15. September**: Region Asien-Pazifik (APAC)
+* **Oktober 5**: Region Asien-Pazifik (APAC)
+* **6. Oktober**: Amerikanische Region
+* **7. Oktober**: Region Europa, Naher Osten und Afrika (EMEA)
 
-Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+Diese Version enthält die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
 
-* Beim Herunterladen von at.js 2.10.0 (und höher) wurde eine Option [!UICONTROL Domain-übergreifend] hinzugefügt, um das Setzen von Drittanbieter-Cookies zu erlauben oder zu deaktivieren. (TGT-43674)
-* Aktualisierte Benachrichtigungen in der [!DNL Target]-Benutzeroberfläche, um Kundinnen und Kunden zu informieren, wenn der Import von [!DNL Recommendations]-Feeds fehlschlägt. (TGT-35811)
-* Es wurde ein Problem behoben, das dazu führte, dass [!UICONTROL Entscheidungsangebote] innerhalb des [!UICONTROL Visual Experience Composer] (VEC) nicht richtig funktionierten. (TGT-43866)
-* Es wurde ein Problem behoben, durch das eine Fehlermeldung angezeigt wurde, wenn bei der Erstellung einer [!UICONTROL multivariaten Testaktivität] (MVT) das Konversionsziel [!UICONTROL Auf ein Element geklickt] ausgewählt wurde. (TGT-43842)
-* Es wurde ein Problem behoben, das die Anzeige der Spalte [!UICONTROL Impressions] in der heruntergeladenen CSV-Berichtsdatei für Aktivitäten der [!UICONTROL Automated Personalization] (AP) verhinderte. (TGT-43780)
-* Es wurde ein Problem behoben, das Kunden daran hinderte, HTML/JSON-Angebote nach dem Duplizieren von Erlebnissen zu bearbeiten, wenn sie die [!UICONTROL Form-Based Experience Composer] verwendeten. (TGT-43633)
-* Es wurde ein Problem behoben, das Kunden daran hinderte, eine [!UICONTROL A/B-Test]-Aktivität von einem nicht standardmäßigen Arbeitsbereich in einen anderen nicht standardmäßigen Arbeitsbereich zu kopieren. (TGT-41910)
-* Es wurde ein Problem behoben, um sicherzustellen, dass Kundinnen und Kunden die Verwendung von [!DNL Recommendations]-Objekten (Designs, Kriterien, Sammlungen etc.) in Aktivitäten zu [!UICONTROL A/B-Tests] und [!UICONTROL Experience Targeting] (XT), die Recommendations enthalten, korrekt anzeigen können, sowie Kriterienobjekte, die nicht mehr verwendet werden, aus [!DNL Target]-Benutzeroberfläche und [!DNL Recommendations]-Backend löschen können. (TGT-42331)
-* Es wurde ein Problem behoben, das beim Abrufen von Parametern zu einer Netzwerk-Timeout-Warnung in der [!DNL Target]-Benutzeroberfläche führte. (TGT-43737)
-* Die Benutzeroberfläche wurde aktualisiert, um sicherzustellen, dass bestimmte Drag-und-Drop-Aktionen auch über die Tastatur zugänglich sind. (TGT-42969)
-* Updates der Benutzeroberfläche, um sicherzustellen, dass Text-Zeichenfolgen richtig lokalisiert sind.
+| Funktion | Details |
+| --- | --- |
+| [!DNL Adobe Experience Manager] (AEM) Experience Fragments | Zu den Aktualisierungen der AEM-Funktion für Experience Fragments gehören:<ul><li>Es wurde die Möglichkeit hinzugefügt, AEM Experience Fragments nach Typ (HTML oder JSON) im [!UICONTROL Angebote] Liste. (TGT-43121)</li><li>Es wurde ein Problem behoben, durch das Kunden JSON einfügen konnten [!UICONTROL Experience Fragment] Angebote bei Verwendung von VEC, die nicht unterstützt wird. JSON-Angebote können nur eingefügt werden, wenn die [!UICONTROL Formularbasiertes Erlebnis] Composer. (TGT-43846)</li></ul>Weitere Informationen finden Sie unter AEM [Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
+| Neu [!UICONTROL Visual Experience Composer] Erweiterung für Google Chrome | Eine neue [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)-Erweiterung für Chrome ist im Chrome Web Store verfügbar.<br>Ab Januar 2023 wird die aktuelle [!DNL Target] Die VEC Helper-Erweiterung funktioniert in Google Chrome nicht mehr, da Google keine Erweiterungen mit Manifest V2 zulässt. Laden Sie die neue Erweiterung herunter, um Ihre Websites weiterhin visuell zu erstellen in [!DNL Target] ab dem neuen Jahr.<br>Die folgenden Links zeigen die beiden Erweiterungen im Chrome Web Store:<ul><li>[Neue Erweiterung](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Alte Erweiterung](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Weitere Informationen finden Sie unter [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
+| Optimierte A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]<br>(Das genaue Veröffentlichungsdatum muss noch festgelegt werden.) | Beachten Sie die folgenden Änderungen:<ul><li>Unterstützung für binäre Metriken und Maximierungsmetriken in [!UICONTROL Analytics for Target] A4T-Reporting für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] activities</li><li>Das Verhalten für bestehende Aktivitäten wurde bis zum 20. Februar 2023 beibehalten. Nach diesem Datum werden die Aktivitäten eingestellt, um die Migration vorhandener Aktivitäten zu neuem Verhalten zu erzwingen</li><li>Ab dem 20. Februar 2023 unterstützt `averagetimespentonsite`, `bouncerate`und `entries` Metriken in [!DNL Target] -Aktivitäten werden nicht mehr unterstützt.</li></ul> |
 
-## at.js-Version 2.10.0 (13. September 2022)
-
-* Beim Herunterladen von at.js 2.10.0 (und höher) wurde eine Option [!UICONTROL Domain-übergreifend] hinzugefügt, um das Setzen von Drittanbieter-Cookies zu erlauben oder zu deaktivieren. (TGT-43674)
+* Es wurde ein Fehler behoben, der verhinderte, dass Informationen zu Zielgruppenregeln ordnungsgemäß im [!UICONTROL Zielgruppenverfeinerungen] Informationsfenster. (TGT-43917)
+* Die Leistung der [!DNL Target] Benutzeroberfläche beim Laden von Zielgruppen, die sich an die [empfohlene Begrenzung der Targeting-Regeln](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
+* Es wurde ein Fehler behoben, der dazu führte, dass einige Komponenten im [!UICONTROL Änderungen] Bedienfeld auf [!UICONTROL Erlebnisse] Seite beim Erstellen oder Bearbeiten von Aktivitäten im VEC nach dem Wechsel von [!UICONTROL Erstellen] nach [!UICONTROL Durchsuchen] -Modus. (TGT-43300)
+* Fehlerkorrektur - Einige Kunden können jetzt archivieren [!UICONTROL A/B-Test] Aktivitäten, die [!UICONTROL Automatisches Targeting]. (TGT-40978)
+* Es wurde die Möglichkeit hinzugefügt, automatisch ein einzelnes Angebot an mehreren Stellen innerhalb einer Berichtsgruppe zu verwenden. (TGT-40689)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
